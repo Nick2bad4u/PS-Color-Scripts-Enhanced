@@ -1,13 +1,4 @@
-﻿# Converted from: ko-z-x3.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic36/raw/ko-z-x3.ans
-# Source Revision: archive-sha256:394ba7094da783b48563604e25be73eb1abefb09d7bb52180dadefd94b2dddd6
-# Source SHA-256: f199faead3638dd5b5e4818b029d488a5a21ea60a84ea3864159b58b78a3e840
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ko-z-x3.ans by Konami (mimic36); released in mimic36 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ko-z-x3.ans by Konami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic36-ko-z-x3
 
 Write-Host '
 [1m[0m                   [1m`7$Ss⌐,.[0m  [1m.[0m     [31m`   [0m    [31m   `[0m      [1;30mb,[0m        ss⌐⌐,,.   [1m,$$$ [0m

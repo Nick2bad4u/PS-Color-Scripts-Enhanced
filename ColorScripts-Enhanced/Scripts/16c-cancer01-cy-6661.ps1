@@ -1,18 +1,4 @@
-﻿# Converted from: CY-6661.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cancer01/raw/CY-6661.ANS
-# Source Revision: archive-sha256:1d674e5cb6391162607aaf95710b795f9d6c8bbd06eec06cf5932f93f338c133
-# Source SHA-256: f8d97cd6dd8282f0cca522f50a20ed6b66b0ab3ceb07efed7fdd3459b2646bfe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CY-6661.ANS by Crayon (Cancer); released in cancer01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Route 666
-# SAUCE Author: Crayon
-# SAUCE Group: Cancer
-# SAUCE Date: 19960308
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Route 666 by Crayon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cancer01-cy-6661
 
 Write-Host '
         [1;31m▄[0m [31m [0m          [31m▄[0m

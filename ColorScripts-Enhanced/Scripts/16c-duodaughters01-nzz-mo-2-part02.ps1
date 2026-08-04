@@ -1,19 +1,4 @@
-﻿# Converted from: Nzz-MO-2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/duodaughters01/raw/Nzz-MO-2.ans
-# Source Revision: archive-sha256:107dcc7639647744884177ba1bc2147746cc2fe523012ebd967c4f8ee48caaef
-# Source SHA-256: 8e602028f9bf0b29d861b9a7c8ec28e14d5076ecb18c98717e56b2095498f647
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Nzz-MO-2.ans by mohra attacks (duoD); released in duodaughters01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ninjzz
-# SAUCE Author: mohra attacks
-# SAUCE Group: duoD
-# SAUCE Date: 20151207
-# SAUCE Dimensions: 80x86
-# SAUCE Font: IBM VGA
-# Lines: 40-86
-# Columns: 1-80
+﻿# Artwork: ninjzz by mohra attacks | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-duodaughters01-nzz-mo-2-part02
 
 Write-Host '
                                 [1m█████▒[0m               [1m▒███████▒[0m

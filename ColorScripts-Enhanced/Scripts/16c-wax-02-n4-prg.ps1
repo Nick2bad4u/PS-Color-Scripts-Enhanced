@@ -1,15 +1,4 @@
-﻿# Converted from: N4-PRG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wax-02/raw/N4-PRG.ANS
-# Source Revision: archive-sha256:4668c93611bb3faf9105543bb7cc4b8e847416eacbd0dc21153ea9ba4d1d3b2b
-# Source SHA-256: 192c92a8c2c0b33945343854738bc5b26133b777cf34388269bc43ac6369d25d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N4-PRG.ANS by Sodium (wax-02); released in wax-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 19971030
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: N4-PRG.ANS by Sodium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wax-02-n4-prg
 
 Write-Host '
          [32m::[0m

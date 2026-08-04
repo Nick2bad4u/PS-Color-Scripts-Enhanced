@@ -1,18 +1,4 @@
-﻿# Converted from: SH-DGTEM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gvt-0596/raw/SH-DGTEM.ANS
-# Source Revision: archive-sha256:f2fd877c7a0bae39c5f44298c1713c8be39cba6ec4746c1081cbff581fa31626
-# Source SHA-256: f5a3363f6532022bfb13ec81beafc63d361c5ad515ec85679f992833e6a95cd9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SH-DGTEM.ANS by Shatters (Gravity); released in gvt-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Digital Empire Menu Templay
-# SAUCE Author: Shatters
-# SAUCE Group: Gravity
-# SAUCE Date: 19960423
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Digital Empire Menu Templay by Shatters | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gvt-0596-sh-dgtem
 
 Write-Host '
    [31mshatters ([0;1;31mgravity[0;31m)[0;37m [0;31m░▓[0;1;31;41m▒▒[0;31m▄[0m       [31m░░[0m    [31m▀ [0;37m [0;31m░[0m     [31m░▓██▄▒░░[0m

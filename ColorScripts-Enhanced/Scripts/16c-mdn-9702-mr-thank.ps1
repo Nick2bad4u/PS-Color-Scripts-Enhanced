@@ -1,17 +1,4 @@
-﻿# Converted from: MR-THANK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9702/raw/MR-THANK.ANS
-# Source Revision: archive-sha256:2bef5839074c598bf0f92bd4e5826154389b8896239a1e15db494b520fb6d9a8
-# Source SHA-256: 4e0e891d7b8aa83bb3e15bbbc5dcfc85990ba4eafade1434412a2147c84b489a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-THANK.ANS by .,s$(minotaur)$s,. (MAiDEN BRAZiL); released in mdn-9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: thanks logo
-# SAUCE Author: .,s$(minotaur)$s,.
-# SAUCE Group: MAiDEN BRAZiL
-# SAUCE Dimensions: 80x25
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: thanks logo by .,s$(minotaur)$s,. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9702-mr-thank
 
 Write-Host '
                       [31m▐[0;1;31;41m  ▄▐▓[0;1;31;40m████[0;1;31;47m▓▓[0;1;31;40m███[0;1;31;47m▓▓[0;1;31;41m▀▀[0;1;31;40m▀▀▀▀▀[0;31m▀[0;1;31;41m▀[0;30;41m▒[0m

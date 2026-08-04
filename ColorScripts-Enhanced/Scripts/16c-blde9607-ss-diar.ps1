@@ -1,13 +1,4 @@
-﻿# Converted from: SS-DIAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9607/raw/SS-DIAR.ANS
-# Source Revision: archive-sha256:c78a96a5f4d4d883dd9f606e281f4493e5b5dcf7ce75222236758145a315e868
-# Source SHA-256: 963a2d873a89b38ae9ef43b093edc6f72556839af2c7ea400a13422aa9bf3f5b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SS-DIAR.ANS by Soul Seeker (blde9607); released in blde9607 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: SS-DIAR.ANS by Soul Seeker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9607-ss-diar
 
 Write-Host '
                                    [30m▀[0m

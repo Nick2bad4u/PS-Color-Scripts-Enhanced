@@ -1,18 +1,4 @@
-﻿# Converted from: MS-TSSB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0496/raw/MS-TSSB1.ANS
-# Source Revision: archive-sha256:960943c476b61359c1b17ae6c4a5539da57f7ea96e794f9bb260d9e20b598157
-# Source SHA-256: 9e2cd48d4cff9b742871c30c1b6caeb09725707d9d221fff03011f3922f62253
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MS-TSSB1.ANS by Morphius ([Quad-P]); released in quad0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Star Spangled Bannana
-# SAUCE Author: Morphius
-# SAUCE Group: [Quad-P]
-# SAUCE Date: 19960331
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: The Star Spangled Bannana by Morphius | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0496-ms-tssb1
 
 Write-Host '
 [33;41m░[0;31m▀█▄▄ ▄▄▄▀  ▄█ [0;1;30m░[0m      [33m▄[0;31m■█▄   ▄  [0;1;30m░   ░ [0;31m■█[0;33;41m░[0;31m▄ ▄▄▀ ▄█▄▄ ▄[0;33;41m░[0;31m▄▀ [0;1;30m░ [0;31m█▄ ▄▄■█▄  ▀▄▄▄ ▄▄▄■ [0;1;30m░[0m

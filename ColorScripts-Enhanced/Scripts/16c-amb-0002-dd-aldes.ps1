@@ -1,18 +1,4 @@
-﻿# Converted from: DD-ALDES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amb-0002/raw/DD-ALDES.ANS
-# Source Revision: archive-sha256:ddf2bfb6c349501ad0002133992d1d3c9602291731a9f4cef0d5ef9af30b761f
-# Source SHA-256: 49ae66cfafc5090ad06214cffed62ac0bd76f83fd21825195f5b4a4154b8f8bd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-ALDES.ANS by Diamond Darrell (Ambush); released in amb-0002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Almverzo Desnvdo
-# SAUCE Author: Diamond Darrell
-# SAUCE Group: Ambush
-# SAUCE Date: 19960603
-# SAUCE Dimensions: 80x21
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Almverzo Desnvdo by Diamond Darrell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amb-0002-dd-aldes
 
 Write-Host '
           [1m▄▄█[0;1;47m▀[0m

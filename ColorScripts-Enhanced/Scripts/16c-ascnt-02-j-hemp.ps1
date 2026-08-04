@@ -1,15 +1,4 @@
-﻿# Converted from: ^J-HEMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ascnt-02/raw/%5EJ-HEMP.ANS
-# Source Revision: archive-sha256:941ef0ca832bfffcbb0345c39567a2df1704a250fe70a6052dbdbb0076b1c12b
-# Source SHA-256: f8a36f6ac842cdd910ec90c3a97fac56656fc81492371ee801832c04a5c4fa02
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ^J-HEMP.ANS by Fever (ascnt-02); released in ascnt-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 19961125
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: ^J-HEMP.ANS by Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ascnt-02-j-hemp
 
 Write-Host '
 

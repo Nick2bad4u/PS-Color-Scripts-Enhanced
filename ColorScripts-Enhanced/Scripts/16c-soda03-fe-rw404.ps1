@@ -1,18 +1,4 @@
-﻿# Converted from: FE-RW404.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/soda03/raw/FE-RW404.ANS
-# Source Revision: archive-sha256:8ca6b1277c2cfab282ae43fc96ff48d3d51942dfad836f25624e00db8433621a
-# Source SHA-256: 2ff631a1ac8a1e30856da07331465a9ab5c04999e8835ea4c342444891349dfd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FE-RW404.ANS by funk-e (sodapop family); released in soda03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: error404
-# SAUCE Author: funk-e
-# SAUCE Group: sodapop family
-# SAUCE Date: 19990529
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: error404 by funk-e | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-soda03-fe-rw404
 
 Write-Host '
 [32m▓▀[0;1;30m▄[0;36m▄[0;1;36m▄[0;1;36;46m▄▄██████████████████████[0m [1;31;43m▒[0;1;31;40m▀[0m   [33m▀[0;1;31;43m▓[0;1;31;40m▌[0;33m ▀[0;1;31m▀[0;1;31;47m▓▓[0;1;31;43m███████████████████▓▓[0;33m▀▀[0;1;31;43m▒▒░░[0;33m▀█▄▀[0;1;31;43m░░[0;33m▀▀[0;1;30m▀[0;33m [0m

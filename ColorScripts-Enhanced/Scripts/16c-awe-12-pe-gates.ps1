@@ -1,17 +1,4 @@
-﻿# Converted from: PE!GATES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-12/raw/PE!GATES.ANS
-# Source Revision: archive-sha256:5c96c14e912296494a464a42e768321452d811693cf172945a9502eb4396c8bb
-# Source SHA-256: 4031239c1f63c606134f8cd0becd61f7d3e9f511f10281030bfb4f73e4e1443c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PE!GATES.ANS by Phony Eye (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: 7 Gates of Hell
-# SAUCE Author: Phony Eye
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: 7 Gates of Hell by Phony Eye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-12-pe-gates
 
 Write-Host '
                        [34m▄[0m   [1;34m▄[0;34m░[0;30;44m▓[0m                                  [34;40m▄[0m

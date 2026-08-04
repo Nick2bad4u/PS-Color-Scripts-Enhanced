@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-FOOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0297/raw/IZ-FOOD.ANS
-# Source Revision: archive-sha256:d5e6767ccf66425c243bc55fc2b60157e4842e0dca350575e42372c154569008
-# Source SHA-256: 6ddae5b76311362540bbca12324fac0c44fa333dfec864cdfc04364e4492c8c9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-FOOD.ANS by ize (fusion); released in fsn-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: food
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19970118
-# SAUCE Dimensions: 80x21
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: food by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0297-iz-food
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: ACDLIVES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0992/raw/ACDLIVES.ANS
-# Source Revision: archive-sha256:38fe3656c7af5c5e25863e8e0613e81f27c4932fc2485b451dab47528613133b
-# Source SHA-256: 6f31d7faed4fbe61331f7ac07baae1636dcebb01b97d15be6fe509ed81c7e728
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ACDLIVES.ANS by Mysterio (acdu0992); released in acdu0992 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: ACDLIVES.ANS by Mysterio | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0992-acdlives
 
 Write-Host '
  [30m─[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SD-DC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spas9508/raw/SD-DC1.ANS
-# Source Revision: archive-sha256:81b428a3642c66c3f2ab6c88868c3f833354437cba873bcabd0a6e6314ab5c6c
-# Source SHA-256: 3828cb70a9593193ab8e09b105ae2e36d9332b313c19afcf86afd5709a9bf894
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-DC1.ANS by shadowhand (spastic); released in spas9508 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: derceto
-# SAUCE Author: shadowhand
-# SAUCE Group: spastic
-# SAUCE Date: 19950720
-# SAUCE Dimensions: 80x25
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: derceto by shadowhand | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spas9508-sd-dc1-part01
 
 Write-Host '
                 [31m░[0m        [31m░[0m

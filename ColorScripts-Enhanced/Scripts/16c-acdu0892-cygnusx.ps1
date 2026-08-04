@@ -1,13 +1,4 @@
-﻿# Converted from: CYGNUSX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0892/raw/CYGNUSX.ANS
-# Source Revision: archive-sha256:14bcca9d3edaab7b8929bb1c3df270abeebca1720c862cdfff0859ed6d69dd7d
-# Source SHA-256: 05de405661d60286cf7a06e0ac679162c2b685534c46ca344e86b4180fc6078c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CYGNUSX.ANS by Triton (acdu0892); released in acdu0892 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: CYGNUSX.ANS by Triton | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0892-cygnusx
 
 Write-Host '
        [1m┌────────────────────────────────────────────────────────────────┐[0m

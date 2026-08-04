@@ -1,18 +1,4 @@
-﻿# Converted from: FL-MISTA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hmd-0596/raw/FL-MISTA.ANS
-# Source Revision: archive-sha256:007cf20a9aa57d5d99dfb8c9358a1ee2655dec0d44a24783ba170b5b1d6d4cba
-# Source SHA-256: c3b9797228fdcbcd2c89ab1d7420ac8afa9e1a7a6fc8ab0489970c66b36675df
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-MISTA.ANS by flame (humid); released in hmd-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: mISTa matrix menyew
-# SAUCE Author: flame
-# SAUCE Group: humid
-# SAUCE Date: 19960510
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: mISTa matrix menyew by flame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hmd-0596-fl-mista
 
 Write-Host '
      [33m [0;1;33;43m░▓███[0;1;33;40m██████[0;1;33;43m████[0;1;37;40m██[0;1;33;43m███████████████████[0;1;33;40m█[0;1;33;43m████[0;1;33;40m▄██[0;1;33;43m██▓[0;1;33;40m█▓▒ ░[0m     [31m▀░▐█[0;32m [0;31m▀▀[0;32m ▄▄▄░ [0;31m  ▄░[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: mx-icon.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel30/raw/mx-icon.ans
-# Source Revision: archive-sha256:e3148e82a669aa484baf0738069fbabe44ba2824856e1cb4b05875b86bdd4621
-# Source SHA-256: 31837cd52e416390bab1374f1ecd92b000966084ff0fbb09640ed8a01220cb75
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mx-icon.ans by mx (fuel30); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ANSIcon
-# SAUCE Author: mx
-# SAUCE Date: 20190714
-# SAUCE Dimensions: 80x142
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Shoutouts to FUEL gang
-# Lines: 95-141
-# Columns: 1-80
+﻿# Artwork: ANSIcon by mx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel30-mx-icon-part03
 
 Write-Host '
   [31m▒▒▄[0;37m [0;1;30m♥♥[0m [31m▓▀▀▀▄▄▄▄▄[0;1;30;41m▓[0;31m▄▄▄▄▄▄▄▄▄[0;1;30;41m▒[0;31m▄▄▀▄▄[0;1;31m▀▄▄[0;1;30m▀▀▀▀▀▀[0;1;31m▄▄▀[0;31m▄▄▀▄▄[0;1;30;41m▒[0;31m▄▄▄▄▄▄▄▄▄[0;1;30;41m▓[0;31m▄▄▄▄▄▀▀▀▓[0;37m [0;1;30mmx[0m [31m▄▒▒[0m

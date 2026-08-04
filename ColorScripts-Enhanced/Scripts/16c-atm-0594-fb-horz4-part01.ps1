@@ -1,13 +1,4 @@
-﻿# Converted from: FB-HORZ4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/atm-0594/raw/FB-HORZ4.ANS
-# Source Revision: archive-sha256:a7745e0553a5b6c51bb70e798c51baa47b7f819d65244d42098c318b7e86f80b
-# Source SHA-256: ce9a778c5ea5edd2f7cc67937dc7713c7dd95200fdfac28e7b97fe5f8f91546d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FB-HORZ4.ANS by Frost Byte (atm-0594); released in atm-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: FB-HORZ4.ANS by Frost Byte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-atm-0594-fb-horz4-part01
 
 Write-Host '
 [1m·  [0;34m▒ ▒░  ░[0m     [34m▒    ░[0m     [34m▓    [0;1;37m·[0m     [1;37m·   [0;34m▒    ░▒[0m     [34m░    ░   ▒   [0;1;37m·   [0;1;30m│  [0;34m░[0m

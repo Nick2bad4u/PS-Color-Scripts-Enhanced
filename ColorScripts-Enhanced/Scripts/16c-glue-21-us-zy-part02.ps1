@@ -1,18 +1,4 @@
-﻿# Converted from: US-ZY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-21/raw/US-ZY.ANS
-# Source Revision: archive-sha256:f82ee46d8be1d82ea17d8bdc07ad3071d4259c4331c1829c972b5ae2082ebcd2
-# Source SHA-256: 70b0615e2df54178ef85e3fe2bd5bc1580ca8c17f994d3212618726484eb533e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ZY.ANS by Lord Drakul + Catch 22 (Whatever); released in glue-21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Gumfucked!
-# SAUCE Author: Roody Poo & Gloo
-# SAUCE Group: Whatever
-# SAUCE Date: 19990330
-# SAUCE Dimensions: 80x138
-# Lines: 49-98
-# Columns: 1-80
+﻿# Artwork: Gumfucked! by Lord Drakul + Catch 22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-21-us-zy-part02
 
 Write-Host '
 ██████████[1;30;47m▐[0;1;30;40m█[0m                                                       [1;30m█[0;1;30;47m▌ [0m████████[1;47m░[0;1;37;47m▓[0m

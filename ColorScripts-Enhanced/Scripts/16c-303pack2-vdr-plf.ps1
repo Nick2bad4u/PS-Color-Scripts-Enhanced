@@ -1,17 +1,4 @@
-﻿# Converted from: VDR-PLF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/303pack2/raw/VDR-PLF.ANS
-# Source Revision: archive-sha256:4447fe2b8e8ce42dff70a445f43a7c14612a1a439620389cb1863f2a3b732682
-# Source SHA-256: 7314a0816ea529f33b171c7569d7ce5bf65fa4f56388f330e5d95c283d293fd3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VDR-PLF.ANS by Vader (303pack2); released in 303pack2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: poffelipoff
-# SAUCE Author: Vader
-# SAUCE Date: 19970328
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: poffelipoff by Vader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-303pack2-vdr-plf
 
 Write-Host '
                                                        [1;35m░░[0m

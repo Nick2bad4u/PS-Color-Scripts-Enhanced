@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-FMNU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9704/raw/TNA-FMNU.ANS
-# Source Revision: archive-sha256:da151757a637299fc8da8cc755ae75b6a0e1a281dd915d29497f1d00d429e5c1
-# Source SHA-256: 60d0c575ed93ec62b14be9b256c329300b5cf350d419c8485b644efcb8fa2fab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-FMNU.ANS by The Night Angel (AWE Lettering); released in awe9704 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fluph
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970314
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Fluph by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9704-tna-fmnu
 
 Write-Host '
                  [31m▄[0m                  [37m░[0;30;47m▓[0;37;40m▄▄   ▄▄░[0m       [1;37;40m■[0m

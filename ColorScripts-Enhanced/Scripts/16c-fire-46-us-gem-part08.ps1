@@ -1,19 +1,4 @@
-﻿# Converted from: US-GEM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-46/raw/US-GEM.ANS
-# Source Revision: archive-sha256:32c189dd42ed53f66ce0b86a88ea8027caddc32faf4da7cee2e674d9223cb9f4
-# Source SHA-256: 1b8ef98aa520795616c3921790de40d9f580c051a01291c300f16f76f190e496
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GEM.ANS by Tainted + Aesthetic (fire); released in fire-46 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: gemenon
-# SAUCE Author: tainted/aesthetic
-# SAUCE Group: fire
-# SAUCE Date: 20260707
-# SAUCE Dimensions: 80x375
-# SAUCE Font: IBM VGA
-# Lines: 351-375
-# Columns: 1-80
+﻿# Artwork: gemenon by Tainted + Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-46-us-gem-part08
 
 Write-Host '
 [1;36;46m  ░░[0m [1;32;42m▓▓[0;1;32;40m▒[0m [1;36m░[0;1;36;46m░░▓▒ [0;1;33;46m▒▓▒[0;36m [0;1;32m▓[0;36m▓[0;1;36;46m ░░[0;36;47m█[0;36;40m [0;1;36;46m░[0;1;33;46m░[0;1;32;40m░[0;1;30;40m [0;36m▐[0;1;33;46m░[0;1;36;40m▓[0m [1;36;46m░[0;1;33;46m ░[0;36m▒[0;1;33;46m▓▒▓[0;36m  [0;1;36;46m░[0;36;47m▓▓[0;37;40m [0;1;33;46m░[0;1;36;46m░[0;1;33;46m░[0;36m [0;32m░[0;37m [0;1;36;46m░[0;1;33;46m░[0;1;36;46m░[0;1;33;46m░[0;36m▀[0;1;36;46m░░[0;1;33;46m░[0;36m▌[0;1;32;42m▒[0;1;36;40m [0;1;36;46m░ [0;1;36;40m▓[0;36m▓[0;1;36;46m░ [0;1;33;46m░[0;1;36;40m░[0;32m▐[0;1;32;42m▓[0;36m [0;1;36;46m░[0;1;33;46m░[0;1;36;46m░[0;1;33;46m░[0m

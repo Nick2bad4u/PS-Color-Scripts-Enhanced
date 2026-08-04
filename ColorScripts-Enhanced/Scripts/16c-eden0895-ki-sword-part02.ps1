@@ -1,18 +1,4 @@
-﻿# Converted from: KI-SWORD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eden0895/raw/KI-SWORD.ANS
-# Source Revision: archive-sha256:d8195ae4b13bea5c7f9f4700bc4b8c4f43c8846f0490a063130920669eeccae6
-# Source SHA-256: 1224b279e095ee0829236cb9c52f0f6c69596c00d65574d9ffe40ff5b740830d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KI-SWORD.ANS by Kiwi (eden); released in eden0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Mage's Tome
-# SAUCE Author: Kiwi
-# SAUCE Group: eden
-# SAUCE Date: 19950414
-# SAUCE Dimensions: 80x25
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: The Mage's Tome by Kiwi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eden0895-ki-sword-part02
 
 Write-Host '
 [34m▓███[0m                           [1;32;42m█▓░░░ [0;32m▓▒▒░    ░▒▓[0m

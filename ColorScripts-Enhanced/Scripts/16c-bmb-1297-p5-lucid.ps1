@@ -1,18 +1,4 @@
-﻿# Converted from: P5-LUCID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-1297/raw/P5-LUCID.ANS
-# Source Revision: archive-sha256:8fe0580f10c9c4324a8f3895b4ceff54a332010a934acdbd13d10f88a0864853
-# Source SHA-256: 82f08dcd762b5b7642db0c71e286a6f44e6ce2f1dd13e16b3404ae9d00d9547a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P5-LUCID.ANS by prosthesis (bamboosh); released in bmb-1297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: lucid
-# SAUCE Author: prosthesis
-# SAUCE Group: bamboosh
-# SAUCE Date: 19980118
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: lucid by prosthesis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-1297-p5-lucid
 
 Write-Host '
   [32m▄▄▄▌[0m   [32m▄▄▄[0m      [34m  [0;37m  [0;1;37m▄[0m  [31m▄▄█[0;1;33;41m▄▄[0;31m█▄▄[0;37m  [0;32m█[0m

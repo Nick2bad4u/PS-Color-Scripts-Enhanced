@@ -1,18 +1,4 @@
-﻿# Converted from: MW-IO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icon0595/raw/MW-IO.ANS
-# Source Revision: archive-sha256:0c4fed1665525dbb7d857717dd9904d141c70c3e98d7bd6cf00702ab896f0d5f
-# Source SHA-256: 7daf5da3b1456a59d7db6983e121ad0468f0070218e94b61cf37d36a0a1cace3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MW-IO.ANS by Maeve-Wolf (iCON); released in icon0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: inside out
-# SAUCE Author: Maeve-Wolf
-# SAUCE Group: iCON
-# SAUCE Date: 19950418
-# SAUCE Dimensions: 80x150
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: inside out by Maeve-Wolf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icon0595-mw-io-part01
 
 Write-Host '
    [36m▄█[0;1;36;46m░▒[0;36m█▄ ▄▄▄[0m                [1;33m■▌  ■· ∙▌   ■   ∙   ▐·[0m                [36m▄▄▄ ▄█[0;1;36;46m▒░[0;36m█▄[0m

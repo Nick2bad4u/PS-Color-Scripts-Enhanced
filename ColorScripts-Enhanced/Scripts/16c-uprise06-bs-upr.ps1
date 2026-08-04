@@ -1,17 +1,4 @@
-﻿# Converted from: BS-UPR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise06/raw/BS-UPR.ANS
-# Source Revision: archive-sha256:62459159460ab7090ce349ed14c61a1bc8d3aa5785e22124741220f6b82d2ab8
-# Source SHA-256: d5076f84c2affe44804306fb92780f3ac27719cbece326b70a0088bb70d1285d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-UPR.ANS by brainstew (uprise); released in uprise06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: uprise
-# SAUCE Author: brainstew
-# SAUCE Group: uprise
-# SAUCE Date: 19980728
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: uprise by brainstew | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise06-bs-upr
 
 Write-Host '
                    [1;34m▄█[0;1;34;47m█[0;1;34;40m▄[0m

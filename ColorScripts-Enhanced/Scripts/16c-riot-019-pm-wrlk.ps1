@@ -1,13 +1,4 @@
-﻿# Converted from: PM-WRLK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot-019/raw/PM-WRLK.ANS
-# Source Revision: archive-sha256:9aa1bfedb3e77f40c8d03939fcdaf89791a58ec89409180a06683fe78363ea15
-# Source SHA-256: 969f09c0a481cb761f149cfda759fcf2fc8f14971a3bb53718cb874a1c645d17
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-WRLK.ANS by Precious Metal (riot-019); released in riot-019 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: PM-WRLK.ANS by Precious Metal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot-019-pm-wrlk
 
 Write-Host '
 

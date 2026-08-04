@@ -1,18 +1,4 @@
-﻿# Converted from: INT-GLUE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-04/raw/INT-GLUE.ANS
-# Source Revision: archive-sha256:a183453b0b057b28f8e3a2d35babc61b59dbf71d40a258198f360e299e3212ab
-# Source SHA-256: 885efa6a57f5b77ecbc6309b56979d8e471e37602f6f3470c27596602fbf03d2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: INT-GLUE.ANS by Internal (glue); released in glue-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: glue
-# SAUCE Author: Internal
-# SAUCE Group: glue
-# SAUCE Date: 19971031
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: glue by Internal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-04-int-glue
 
 Write-Host '
 [36m        [0;31m [0;1;31m    [0;31m [0;1;31m [0;31m [0m        [1;35m░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: DS-GPMAI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-09/raw/DS-GPMAI.ANS
-# Source Revision: archive-sha256:5e8e723726c065de5b817b7ce85a187353e8974f2bd6baa128d259f19a9c1065
-# Source SHA-256: 173a0232bfe23992c502409b1c863f94d31aeffd2b37909f15ce2853d54a9cdd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-GPMAI.ANS by drs (glue); released in glue-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: geekstas paradise
-# SAUCE Author: drs
-# SAUCE Group: glue
-# SAUCE Date: 19980416
-# SAUCE Dimensions: 80x28
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: geekstas paradise by drs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-09-ds-gpmai
 
 Write-Host '
 [1;33;43m█░░[0;33m▀░░[0;1;31m█[0;1;31;43m▀[0;33m█▀▀▀░[0;1;33;43m░░█[0;1;31;40m [0;33m▄[0;1;33m▄▄[0;33m░[0;1;31m██[0;33m [0;1;33;43m░[0;1;33;40m██[0;1;33;43m [0;33m░░[0;1;31m [0;1;33;43m░░[0;1;31;40m ██[0;1;31;43m▌ [0;33m█▀ [0;1;33m█[0;1;33;43m░░[0;33m▌[0;1;31m▐[0;1;31;43m [0m [1;33;43m██[0;33m█▄[0;1;33;43m░░░░[0;33m▄▄[0;37m [0;33m▀[0;1;33;43m░░[0;33m░░ ▄▄ [0;1;33m██[0;33m▌[0;31m ▐[0;1;31;41m▄█[0;31m█▀▄[0;1;31;41m ▄[0m

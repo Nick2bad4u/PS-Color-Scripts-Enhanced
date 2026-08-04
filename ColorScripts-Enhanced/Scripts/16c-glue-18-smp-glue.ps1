@@ -1,13 +1,4 @@
-﻿# Converted from: SMP-GLUE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-18/raw/SMP-GLUE.ANS
-# Source Revision: archive-sha256:0bc0a975c4de127fd6305114a49451275a1959513e343ea7612d70fa62951816
-# Source SHA-256: 5130a96d240353378401bba119a565ab449d1e5063da8bb7bc9ee944363dc7dd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-GLUE.ANS by Shrimp (glue-18); released in glue-18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: SMP-GLUE.ANS by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-18-smp-glue
 
 Write-Host '
 [1;30mShrimp[0;36m([0;37mglue[0;36m)[0m                [32m [0;37m  [0;1;32m▄[0;1;32;42m▒░ [0;32m ▄▄[0m                           [32m▌[0m

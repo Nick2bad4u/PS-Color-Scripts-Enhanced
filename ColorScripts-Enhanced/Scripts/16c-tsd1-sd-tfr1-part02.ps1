@@ -1,13 +1,4 @@
-﻿# Converted from: SD-TFR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tsd1/raw/SD-TFR1.ANS
-# Source Revision: archive-sha256:46fcc0cabd317411058a341a12c1c12a208f3a319890bc1d8d832fa869d914c4
-# Source SHA-256: 153111b640e3217ad9c9a8aa57b1d8aa3b8ef26a5181daa167b29696ff42cee7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-TFR1.ANS by Soup Dragon (tsd1); released in tsd1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 27-51
-# Columns: 1-80
+﻿# Artwork: SD-TFR1.ANS by Soup Dragon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tsd1-sd-tfr1-part02
 
 Write-Host '
 [5;30m∙[0;1;30;47m▓▓▒▒▒░░ [0;1;37;47m░▒▓██[0;5;30m∙∙∙∙∙∙∙∙∙∙∙∙∙[0;1;30;47m▓▒▒░ [0;1;37;47m░▒▓██[0;5;30m∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙[0;1;47m▒▒[0;5;30m∙∙∙∙∙∙∙∙∙∙∙∙∙∙[0;34m░▒[0;5;30m∙∙[0m

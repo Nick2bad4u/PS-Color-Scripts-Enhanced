@@ -1,13 +1,4 @@
-﻿# Converted from: US-CIRCE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-23/raw/US-CIRCE.ANS
-# Source Revision: archive-sha256:7ef48dbe0a74b3c7871771b18b839998cffe1d8017bebdd056e51e33fe60cf0a
-# Source SHA-256: ed7845c0134cc6078f15a38a2cf287f6b6c1d5dfb4dc9064a258b83be7d83930
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CIRCE.ANS by The Upright Man + Arlequin (rmrs-23); released in rmrs-23 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: US-CIRCE.ANS by The Upright Man + Arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-23-us-circe
 
 Write-Host '
 [36;44m                         [0;1;34;44m\[0;36;44m             [0;1;34;44m│[0;36;44m                      [0;1;34;44m/`[0;36;44m           [0;1;34;44m/`[0;34m██[0m

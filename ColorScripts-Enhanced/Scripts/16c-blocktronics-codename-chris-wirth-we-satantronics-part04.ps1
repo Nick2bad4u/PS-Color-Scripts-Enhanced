@@ -1,13 +1,4 @@
-﻿# Converted from: we-satantronics.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/we-satantronics.ans
-# Source Revision: archive-sha256:5d665873486ffcf559d33043557e11d7636d0c5a5b53a69dd3e7cf81117997ef
-# Source SHA-256: 70f25b8f8a165faeecf20e2bbf77d0b80c390a99abe9069017eba25b7abd8ff7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-satantronics.ans by Avenging Angel + Enzo + Grindstoned (blocktronics_codename_chris_wirth); released in blocktronics_codename_chris_wirth and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 129-175
-# Columns: 1-80
+﻿# Artwork: we-satantronics.ans by Avenging Angel + Enzo + Grindstoned | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-codename-chris-wirth-we-satantronics-part04
 
 Write-Host '
 [37;40m    [0;32;40m▄[0;1;32;42m▄[0;1;32;40m█▄[0;36m▀[0;1;32;46m▀[0m  [1;30m▒[0m [1;32;46m▄█[0m  [31m░░[0;1;33m   [0;36m░[0;1;33m [0m  [34m    [0;33m▄[0;34m [0;31m▀[0;1;31;41m▀[0;1;31;47m█[0;1;31;40m████[0;1;31;41m▀[0;1;31;40m  [0;35m   [0;1;31m  [0;34m [0;33m█▀▀▀▄█[0;36;43m▀[0;33;40m▀[0m                 [36;40m░[0m

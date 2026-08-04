@@ -1,13 +1,4 @@
-﻿# Converted from: CASTLE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acid_a-d/raw/CASTLE.ANS
-# Source Revision: archive-sha256:0c2c2d0da26e60e3cf50a9f0ddc530332592fd090be0bbe48fac5e181dbe79b5
-# Source SHA-256: 67e27419e86eef03a32b43bef657398f077db513b0fa15681fcf10ac3c04763a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CASTLE.ANS by The Malevolent Trickster (acid_a-d); released in acid_a-d and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 36-65
-# Columns: 1-80
+﻿# Artwork: CASTLE.ANS by The Malevolent Trickster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acid-a-d-castle-part02
 
 Write-Host '
                      [1;30m▀▀▀[0;31m▀▀▀▀▀▀▀▀▀▀▀[0m

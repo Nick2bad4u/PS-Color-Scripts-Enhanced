@@ -1,18 +1,4 @@
-﻿# Converted from: RU-OD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-03/raw/RU-OD1.ANS
-# Source Revision: archive-sha256:fae30929abb2b921ba96bc7ad0b445be298bbdb28aa42921644d897c08d22f33
-# Source SHA-256: 0a889643c7e8caea931173d08e450d3971f66d8a52cf4f67ea8688702baf7f3d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RU-OD1.ANS by ruckus/unsane (odium); released in odium-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: odium promo
-# SAUCE Author: ruckus/unsane
-# SAUCE Group: odium
-# SAUCE Date: 19960128
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: odium promo by ruckus/unsane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-03-ru-od1
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: HD_HSIMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ltm-0002/raw/HD_HSIMP.ANS
-# Source Revision: archive-sha256:781901eb93f0cb031ec3f7b4daa19680a5eef01b4b60325740b7b545db2b86c8
-# Source SHA-256: 08c426b39c5b209c6f1ebaa4e993f31b134625718b68684610169d2e842a9981
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HD_HSIMP.ANS by h0ND0 (Lithium); released in ltm-0002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Newskull 7     "Homero Simsons"
-# SAUCE Author: h0ND0
-# SAUCE Group: Lithium
-# SAUCE Date: 19971224
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Newskull 7 "Homero Simsons" by h0ND0 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ltm-0002-hd-hsimp
 
 Write-Host '
                                 [1;30m`$$,[0m`$$$  $$$''[1;30m,$$''[0m

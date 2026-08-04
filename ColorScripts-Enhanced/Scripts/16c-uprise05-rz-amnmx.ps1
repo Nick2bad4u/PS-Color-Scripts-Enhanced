@@ -1,18 +1,4 @@
-﻿# Converted from: RZ-AMNMX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise05/raw/RZ-AMNMX.ANS
-# Source Revision: archive-sha256:8a04f72dbd0084a3dd089505796d41f1fc098ce192bbfa410f8bc1039eb33f03
-# Source SHA-256: 10002b7ffd65a8343c54361fd69351dbbbc5584a3cc247fae9a375d2fac0939e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RZ-AMNMX.ANS by _rz (avenge cult); released in uprise05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: amnesia
-# SAUCE Author: _rz
-# SAUCE Group: avenge cult
-# SAUCE Date: 19980606
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: amnesia by _rz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise05-rz-amnmx
 
 Write-Host '
 [1;34;44m    ░░[0;34m▌▐░[0;30;44m▓[0m                                                    [34;40m░░▓▓██████████████[0m

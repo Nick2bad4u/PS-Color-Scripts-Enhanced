@@ -1,18 +1,4 @@
-﻿# Converted from: FR-DEATH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9709/raw/FR-DEATH.ANS
-# Source Revision: archive-sha256:a8c36d8798287a241d2dd7ef1ff5dc55fddff796595a296c3f5aa388a9423ee9
-# Source SHA-256: b09bbcd6cd96689d2d6f1af05c91c4d95b2a8e4dba968fcd1d162d677c6a69e7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FR-DEATH.ANS by feaRprOphet (maiden); released in mdn-9709 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Menu For Death Board
-# SAUCE Author: feaRprOphet
-# SAUCE Group: maiden
-# SAUCE Date: 19970708
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Menu For Death Board by feaRprOphet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9709-fr-death
 
 Write-Host '
 [1m██[0;1;35;45m██▓▓░░[0;35m▀▀[0;32m ▄▄▄[0;1;30;42m░░░[0;32m████ [0;1;37m████[0;1;33;43m████▓▓░░[0m [1;30mfr<mdn>[0m                           [36m▄▄▄▄▄▄▄▄▄▄▄[0m

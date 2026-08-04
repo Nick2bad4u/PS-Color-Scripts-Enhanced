@@ -1,19 +1,4 @@
-﻿# Converted from: AK-CRYPT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-39/raw/AK-CRYPT.ANS
-# Source Revision: archive-sha256:5e57507ce34170a4afb707b1587800d0885fae4776f1271b7b7cee7f71264d9d
-# Source SHA-256: 0280e4e927a3ab0ae778fc5c8af5cc88bfff5bed56bfc3c121416379f9dc199a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-CRYPT.ANS by Abstrakt (Fire); released in fire-39 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Crypt
-# SAUCE Author: Abstrakt
-# SAUCE Group: Fire
-# SAUCE Date: 20240303
-# SAUCE Dimensions: 80x104
-# SAUCE Font: IBM VGA
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: The Crypt by Abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-39-ak-crypt-part01
 
 Write-Host '
                        [1;37;40m;$l l$$$$$$P d$$[0m7

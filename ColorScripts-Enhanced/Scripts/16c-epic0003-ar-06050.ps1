@@ -1,13 +1,4 @@
-﻿# Converted from: AR-06050.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/epic0003/raw/AR-06050.ANS
-# Source Revision: archive-sha256:d38b3556d7f351931b329acd63735eb7d347e8a1d81587b5a35bbec7e0a11d0c
-# Source SHA-256: eb46f3b049bcc5acd74e616b4aad29527bc7a7083a60a8300109f3468614ee53
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AR-06050.ANS by Argon (epic0003); released in epic0003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: AR-06050.ANS by Argon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-epic0003-ar-06050
 
 Write-Host '
 [33m█[0;33;46m▓▓▓▓[0;31;42m▒▒▒▒[0;32;40m░░[0;1;30;42m▓▓▓▓▓[0m▒[30;46m▓▓▓▓[0;1;36;40m░░[0;1;30;43m▓▓▓▓[0;1;32;40m░░[0;1;30;42m▓▓▓▓[0;1;32;40m░░[0;34;43m░░░░[0;32;40m▒[0;1;34;46m▓▓▓▓[0;1;36;46m    [0m▓▓[1;35;45m▓▓▓▓[0;35m▒▒[0;1;30m████[0;32m░░[0;34m░[0;30;44m▓[0;34;40m░[0;30;44m▓[0;1;30;40m▓▓[0;1;30;42m▓▓▓▓[0;1;30;40m▓▓[0;30;44m    [0;1;32;40m░░[0m

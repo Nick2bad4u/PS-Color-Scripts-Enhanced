@@ -1,18 +1,4 @@
-﻿# Converted from: FR-LEG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy07/raw/FR-LEG1.ANS
-# Source Revision: archive-sha256:cf53c4ea5c286717abe3d962fb98452e352d7d7a30a31881220e7068a7f0bb79
-# Source SHA-256: 4b101f2518d60221bcd37e928c333a94be77d087763542fa8ca711d80140981a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FR-LEG1.ANS by Fractal (Apathy); released in apathy07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Legacy
-# SAUCE Author: Fractal
-# SAUCE Group: Apathy
-# SAUCE Date: 19960308
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Legacy by Fractal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy07-fr-leg1
 
 Write-Host '
 [1;30m-░---------------+----------------░--------------------------------------------░[0m

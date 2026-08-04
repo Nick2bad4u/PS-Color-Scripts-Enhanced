@@ -1,17 +1,4 @@
-﻿# Converted from: PH-PR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vpr-0595/raw/PH-PR.ANS
-# Source Revision: archive-sha256:e7ca167fec7db80634597c5fb694c98a3122c03e3e0fff7b2103ffede629f335
-# Source SHA-256: 8e6003eb04e87add67a258168ab8f69af3eda8832f99ef84501d7614fdfb60c5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PH-PR.ANS by Phatal (Vapor); released in vpr-0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Prayer
-# SAUCE Author: Phatal
-# SAUCE Group: Vapor
-# SAUCE Date: 20950311
-# Lines: 28-74
-# Columns: 1-80
+﻿# Artwork: Prayer by Phatal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vpr-0595-ph-pr-part02
 
 Write-Host '
                                     [33m▄▄▄▄[0;1;33;43m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;33m▄▄▄[0m

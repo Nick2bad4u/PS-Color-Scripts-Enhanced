@@ -1,18 +1,4 @@
-﻿# Converted from: MM-BVIS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/grp-0796/raw/MM-BVIS.ANS
-# Source Revision: archive-sha256:be098753331373d307d2771aacbecdb35b1784f2f60e9ac3c053f2df7b867fcd
-# Source SHA-256: bd232cba90edcd7d58f01f57ecf9132bebdacd63aafcc840e84a33af68ce6a7c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-BVIS.ANS by mr.manson (GRAPE); released in grp-0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: blackened vision
-# SAUCE Author: mr.manson
-# SAUCE Group: GRAPE
-# SAUCE Date: 19960615
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: blackened vision by mr.manson | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-grp-0796-mm-bvis
 
 Write-Host '
 [33m [0;37m              [0m               [33mb l a c k e n e d[0m

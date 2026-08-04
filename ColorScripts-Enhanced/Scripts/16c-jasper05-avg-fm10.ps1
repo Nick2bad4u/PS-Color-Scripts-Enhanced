@@ -1,18 +1,4 @@
-﻿# Converted from: Avg-fm10.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper05/raw/Avg-fm10.ans
-# Source Revision: archive-sha256:33fac09b0787230492798535c47bf2642ecf35522de5af17dfe59b662d1606a6
-# Source SHA-256: da8848b97b70c45356e6da0fbbcff0d94bafc0e3a4806578f4ef24fcd7ee875f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Avg-fm10.ans by avenging angel (lure); released in jasper05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fuck monkey 10
-# SAUCE Author: avenging angel
-# SAUCE Group: lure
-# SAUCE Date: 20020410
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: fuck monkey 10 by avenging angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper05-avg-fm10
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: m0-ansi.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense25/raw/m0-ansi.ans
-# Source Revision: archive-sha256:a8bf7bb3570e1374cb3962f65c32ad8f31210e5d139d9ba57fa558a31504c963
-# Source SHA-256: 7018e6fae2cf4f69878f984077823198ca679317949bdfc7fe523a0cd104c6dd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: m0-ansi.ans by M0lo (sense25); released in sense25 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: m0-ansi.ans by M0lo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense25-m0-ansi
 
 Write-Host '
                                           ▄█▄     ▄ ■  ▄[1;33;47m▄[0m▄

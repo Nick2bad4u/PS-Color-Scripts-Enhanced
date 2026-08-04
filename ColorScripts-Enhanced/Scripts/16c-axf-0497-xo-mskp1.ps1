@@ -1,13 +1,4 @@
-﻿# Converted from: XO-MSKP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-0497/raw/XO-MSKP1.ANS
-# Source Revision: archive-sha256:73d8a01f9afdfcfb9625d7e653d0ae9eab6f0ddbfd432b7a5d1a572be238e8b2
-# Source SHA-256: 5a4f2077d7b9dfd7d207ba07b54bc23186fa4c74f33b092f1e404bd793975de6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XO-MSKP1.ANS by Xo Axf (axf-0497); released in axf-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: XO-MSKP1.ANS by Xo Axf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-0497-xo-mskp1
 
 Write-Host '
 

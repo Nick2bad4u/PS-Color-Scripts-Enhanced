@@ -1,13 +1,4 @@
-﻿# Converted from: S0G-ST1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dft-0495/raw/S0G-ST1.ANS
-# Source Revision: archive-sha256:8274b6d4bff4859a2ac499140cc76b68ed68c005ff0e74847422f6a40fc9d437
-# Source SHA-256: 00ce5daa2ba1a0a1a4caa1a43c2e3fa034f443cebef96432730afc2e05bddad7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S0G-ST1.ANS by Snoop (dft-0495); released in dft-0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 38-71
-# Columns: 1-80
+﻿# Artwork: S0G-ST1.ANS by Snoop | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dft-0495-s0g-st1-part02
 
 Write-Host '
 [1;31;41m▓▒▒▒▒░░[0;31m███[0;31;41m ███████[0;31;40m▀█▌█▓▓▓▓▓▓▓▒▒▓▌[0;37;40m█[0m

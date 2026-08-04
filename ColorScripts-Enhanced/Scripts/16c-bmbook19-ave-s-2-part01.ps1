@@ -1,18 +1,4 @@
-﻿# Converted from: ave-s$2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook19/raw/ave-s%242.ans
-# Source Revision: archive-sha256:3dd762b50e992d041fc40857f6a08666cf879c80169b27b714b162069a52b736
-# Source SHA-256: 7d2239e28c2085e9e74ea1250c14d727ee4d01b9c2a346cf550e9a1a11de1aa0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ave-s$2.ans by avenger (black maiden); released in bmbook19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: charset fuckups
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19990111
-# SAUCE Dimensions: 80x71
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: charset fuckups by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook19-ave-s-2-part01
 
 Write-Host '
 [35m[0m

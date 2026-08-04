@@ -1,18 +1,4 @@
-﻿# Converted from: RG-OP#5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl-0795/raw/RG-OP%235.ANS
-# Source Revision: archive-sha256:cc100c6a0c273cd42e848ec70d170e2825a98efaeb84e152cf11a1a4f8abea10
-# Source SHA-256: 3c4ec804d960428006429eb2b7e4438fe3dccc721dc72606ef334977271feb58
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RG-OP#5.ANS by rimgale (teklordz); released in tl-0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: obscene phobia #5
-# SAUCE Author: rimgale
-# SAUCE Group: teklordz
-# SAUCE Date: 19950705
-# SAUCE Dimensions: 80x52
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: obscene phobia #5 by rimgale | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl-0795-rg-op-5-part01
 
 Write-Host '
 7h

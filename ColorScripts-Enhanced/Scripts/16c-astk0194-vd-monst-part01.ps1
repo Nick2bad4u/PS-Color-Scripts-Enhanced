@@ -1,13 +1,4 @@
-﻿# Converted from: VD-MONST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/astk0194/raw/VD-MONST.ANS
-# Source Revision: archive-sha256:85386f5551c42a88135027c451bdde0caf298cc394973b954eb4073e747445c6
-# Source SHA-256: e55451442d10863b3a246553561f8f5f4abe18d010b1796aef3806630676d817
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VD-MONST.ANS by Vlad Drakul (astk0194); released in astk0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: VD-MONST.ANS by Vlad Drakul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-astk0194-vd-monst-part01
 
 Write-Host '
                                 [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: FJ_FDN!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl-dope/raw/FJ_FDN!.ANS
-# Source Revision: archive-sha256:94d0a6d1a54f912bf59b65f9ab8ad2e76bf857ee4ed7295093943e200494477a
-# Source SHA-256: 72765af3d30f560c6e6e2e72863c59cac5a80f48a0ee60bcc4dc9aa2b9e3b7c1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FJ_FDN!.ANS by Fastjack (boil^fdn); released in bl-dope and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: foundation
-# SAUCE Author: Fastjack
-# SAUCE Group: boil^fdn
-# SAUCE Date: 19970406
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: foundation by Fastjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-dope-fj-fdn
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: E0-TTOWN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zenith01/raw/E0-TTOWN.ANS
-# Source Revision: archive-sha256:89a769066be1ade04361b16bc2aabeb1a280fe034deee0fe7ee4c75badc7461d
-# Source SHA-256: c4f52036ab30be5e3f98f71ae05debc4ae41f317d1164fc316500fa2dd2505da
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: E0-TTOWN.ANS by enzo (Zenith); released in zenith01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Toons Town Matrix
-# SAUCE Author: enzo
-# SAUCE Group: Zenith
-# SAUCE Date: 19980328
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Toons Town Matrix by enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zenith01-e0-ttown
 
 Write-Host '
 [1;33m  ██  [0;1;37m███[0;1;33m█▌[0;34m ▐█[0;1;34;44m▐[0;1;34;40m███[0;1;34;47m███[0;1;34;44m██[0;1;34;47m▓▓█[0;1;34;44m█████[0;1;34;40m▀[0;1;34;44m▀████████[0;1;34;47m█▀▀█[0;1;34;44m████▀▀[0;1;34;40m▀▀▀▀▀[0;1;34;44m▀██▀[0;1;34;40m█[0;1;34;44m▀▀██[0;1;34;40m█[0;1;34;44m█████[0;1;34;47m▓░▄[0;1;34;44m██▀█▀[0;34m▀[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US-GUT11.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-ronin/raw/US-GUT11.ANS
-# Source Revision: archive-sha256:1cf524db9c88845a87436294bf9ad4e7b661b688c5b065b442b074cbc8f8d22f
-# Source SHA-256: dd1141b7ea313115dda8b5a2a11a3ed713f4684a4a722550b9a7fb1f6ee15ea2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GUT11.ANS by Samurai + Filth (klexikal); released in k-ronin and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: gutter numero 11
-# SAUCE Author: samurai and filth
-# SAUCE Group: klexikal
-# SAUCE Date: 19990524
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: gutter numero 11 by Samurai + Filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-ronin-us-gut11
 
 Write-Host '
 [1;30m[0m                                [1;30m░░░░░▒▒▒▒▒▓▒▓▓▓▓▓█▓▓▓▓▓░▄▄█▀     ▀██▄ ▀████████░[0m

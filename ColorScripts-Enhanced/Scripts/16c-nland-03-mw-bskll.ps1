@@ -1,18 +1,4 @@
-﻿# Converted from: MW-BSKLL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nland-03/raw/MW-BSKLL.ANS
-# Source Revision: archive-sha256:7ddb21e455f18ac13bd1d0242ad29db8419e3ff5847d9aa5ea635b533172de76
-# Source SHA-256: 077ae3533812aaff4c3c64a6ec692707b4cb66909983602eacc4d38ce7291a49
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MW-BSKLL.ANS by MoonWalkeR (Y' Dont know); released in nland-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Bad Skull
-# SAUCE Author: MoonWalkeR
-# SAUCE Group: Y' Dont know
-# SAUCE Date: 19941124
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Bad Skull by MoonWalkeR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nland-03-mw-bskll
 
 Write-Host '
 [31m[0;37m[0;31m[0;1;31m[0;31m[0;1;31m[0;1;33m[0;1;31m[0;31m[0m

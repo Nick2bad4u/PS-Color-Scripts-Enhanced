@@ -1,18 +1,4 @@
-﻿# Converted from: JA-DAEMO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icon0595/raw/JA-DAEMO.ANS
-# Source Revision: archive-sha256:0c4fed1665525dbb7d857717dd9904d141c70c3e98d7bd6cf00702ab896f0d5f
-# Source SHA-256: 76582c6f0aaa834df37606c2615df1d1f2ec9471574341b4d14d5bea512c67ed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JA-DAEMO.ANS by Jashik (iCON); released in icon0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Daemon's Gate
-# SAUCE Author: Jashik
-# SAUCE Group: iCON
-# SAUCE Date: 19941220
-# SAUCE Dimensions: 80x60
-# Lines: 36-60
-# Columns: 1-80
+﻿# Artwork: Daemon's Gate by Jashik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icon0595-ja-daemo-part02
 
 Write-Host '
     [30;45m▌[0;1;35;45m█[0;30;45m [0m          [30;41m█[0m    [30;41m▌ [0;1;31;40m      [0;30;41m [0;1;31;40m      [0;30;41m▌[0;1;31;40m  [0m   [30;41m▄[0m      [31;40m░░▒▓█▀▀[0m

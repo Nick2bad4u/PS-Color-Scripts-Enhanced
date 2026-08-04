@@ -1,13 +1,4 @@
-﻿# Converted from: S3-TDZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rain-01/raw/S3-TDZ.ANS
-# Source Revision: archive-sha256:2f38349eb23086310231edecc8b7133f5a5e2c73e0ee552341bdc50f1dbb10ed
-# Source SHA-256: dce8a1a3b28ccabcca2e8c737bc7f6aef230f392ad88d4b3cbaea9970e8e6d58
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S3-TDZ.ANS by Saturn 32 (rain-01); released in rain-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 45-83
-# Columns: 1-80
+﻿# Artwork: S3-TDZ.ANS by Saturn 32 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rain-01-s3-tdz-part02
 
 Write-Host '
                                 [1;30m▄▄▄▄[0m

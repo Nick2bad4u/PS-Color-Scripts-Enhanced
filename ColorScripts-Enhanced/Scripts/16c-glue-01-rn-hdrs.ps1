@@ -1,13 +1,4 @@
-﻿# Converted from: RN-HDRS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-01/raw/RN-HDRS.ANS
-# Source Revision: archive-sha256:0e63c5e62ea9b66430033b1875dc38843fc6f5d45408ae01bb2abd9ed19a0d23
-# Source SHA-256: 76f4dbd0e366c9fdd769df6a1104cd3b6a4200c26a47b037b9044fe43a55e26d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RN-HDRS.ANS by The Ruiner (glue-01); released in glue-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: RN-HDRS.ANS by The Ruiner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-01-rn-hdrs
 
 Write-Host '
 [1m[0m[1m[0m[1;30m[0m[1m[0m[1;30m[0m[1m[0m

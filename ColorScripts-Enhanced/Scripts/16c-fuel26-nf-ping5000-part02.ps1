@@ -1,19 +1,4 @@
-﻿# Converted from: nf-ping5000.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel26/raw/nf-ping5000.ans
-# Source Revision: archive-sha256:d10918a36531171a7bd7de77ac2a92891100e4055d3be9227ebf98ff3c0d1cc3
-# Source SHA-256: 70c50012578d911f944a3aa743347e91683c9dae4a4a9c7456e58857a262735c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: nf-ping5000.ans by Necro + Necrofiliac (fuel); released in fuel26 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ping 5000
-# SAUCE Author: necro
-# SAUCE Group: fuel
-# SAUCE Date: 20170602
-# SAUCE Dimensions: 80x206
-# SAUCE Font: IBM VGA
-# Lines: 41-80
-# Columns: 1-80
+﻿# Artwork: ping 5000 by Necro + Necrofiliac | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel26-nf-ping5000-part02
 
 Write-Host '
 [1;30m██████████████[0;31m▐▐▌[0;1;31;43m░[0;1;31;40m█[0;1;31;47m▓[0m     [1;30;40m█████████████████[0m            [35m░░▓▓▓░▓▌[0;1;30m▐█████████████████[0m

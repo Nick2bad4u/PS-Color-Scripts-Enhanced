@@ -1,13 +1,4 @@
-﻿# Converted from: PM-ANSI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot0598/raw/PM-ANSI.ANS
-# Source Revision: archive-sha256:0c1b4d8014854195eee82655813426874e782c44b6e7d11df4cc84dbee4a5020
-# Source SHA-256: f4bce939a3fc9c79f52e14e9e6f45acb9a37e2de6e44565adff5cd2b2f83d424
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-ANSI.ANS by Precious Metal (riot0598); released in riot0598 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: PM-ANSI.ANS by Precious Metal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot0598-pm-ansi
 
 Write-Host '
 [1;35m [0;35m.ss½[0;1;35m½½½½½½½½½½½½½½[0;35m""''²½½½½½½½ [0;1;37m [0;1;34m_.,+[0;1;37m [0;1;35m`½[0;35m½½½½½½½½½`[0;1;35m²²""''[0;35m½½½½[0;1;35m½½[0;1;37;45m½½[0;1;35;45m½[0;1;35;40m½½½½½½[0;35m½½½s.[0m

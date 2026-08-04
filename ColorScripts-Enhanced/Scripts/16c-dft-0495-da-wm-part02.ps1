@@ -1,13 +1,4 @@
-﻿# Converted from: DA-WM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dft-0495/raw/DA-WM.ANS
-# Source Revision: archive-sha256:8274b6d4bff4859a2ac499140cc76b68ed68c005ff0e74847422f6a40fc9d437
-# Source SHA-256: e9758bac712ba6ade7337a8671ea273396d6536cbd92a2ab9e8076f170fabfd4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DA-WM.ANS by Death Adder (dft-0495); released in dft-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 50-88
-# Columns: 1-80
+﻿# Artwork: DA-WM.ANS by Death Adder | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dft-0495-da-wm-part02
 
 Write-Host '
 

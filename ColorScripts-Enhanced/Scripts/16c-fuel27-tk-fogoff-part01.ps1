@@ -1,19 +1,4 @@
-﻿# Converted from: tk-fogoff.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel27/raw/tk-fogoff.ans
-# Source Revision: raw-sha256:c582ecd31675551791889905e6f5ef456d5243282c112dfbc59f01d10883946b
-# Source SHA-256: c582ecd31675551791889905e6f5ef456d5243282c112dfbc59f01d10883946b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tk-fogoff.ans by The Knight (Fuel); released in fuel27 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: FO GOFF
-# SAUCE Author: The Knight
-# SAUCE Group: Fuel
-# SAUCE Date: 20180824
-# SAUCE Dimensions: 80x160
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: FO GOFF by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel27-tk-fogoff-part01
 
 Write-Host '
 

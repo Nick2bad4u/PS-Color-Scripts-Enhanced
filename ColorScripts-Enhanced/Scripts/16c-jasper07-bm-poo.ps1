@@ -1,18 +1,4 @@
-﻿# Converted from: BM-POO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper07/raw/BM-POO.ANS
-# Source Revision: archive-sha256:c42bfa4438f002452f1a6bc8caf7f32e2e6bfd8fffb358dd625c49ecd6cf6820
-# Source SHA-256: 92c841f64c36feeeaf75ae674f4ff60057171410b7b94c09679e22b9f0cb879d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BM-POO.ANS by Avenging Angel + Aesthetic (jasper); released in jasper07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: pOo?!
-# SAUCE Author: avg & aesthetic
-# SAUCE Group: jasper
-# SAUCE Date: 20020615
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: pOo?! by Avenging Angel + Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper07-bm-poo
 
 Write-Host '
 [1;30;46m▀░▓[0;1;30;40m  [0;1;30;46m▓▓▓▀▀▀[0;1;30;40m█[0;1;30;46m▄▄▄▒▓█[0;1;30;40m [0;1;30;46m▓▓░░▀▀[0;1;30;40m████[0;1;30;45m▓[0;1;30;46m▄[0;1;30;45m▓▓[0;1;30;40m█▀▀▀▀▀▀▀[0m                                  [33m░░▒▒[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: PT-KLIQ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hal0299/raw/PT-KLIQ.ANS
-# Source Revision: archive-sha256:d0533de96de1d82218ba744c4b2c23a4b06ac9501a7bf425b74ab0a3ee5fa73f
-# Source SHA-256: 1b80490bf081b9c277f8e2e45280817b1dd1239c95c46bbb20b11c1052d6cf8c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PT-KLIQ.ANS by Produkt (Hallucigenia); released in hal0299 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Kliq
-# SAUCE Author: Produkt
-# SAUCE Group: Hallucigenia
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Kliq by Produkt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hal0299-pt-kliq
 
 Write-Host '
                   [1;30m▄▄▄▄▄▄▄[0m

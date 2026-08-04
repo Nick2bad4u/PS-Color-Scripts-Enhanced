@@ -1,17 +1,4 @@
-﻿# Converted from: LST-DL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_09/raw/LST-DL1.ANS
-# Source Revision: archive-sha256:c5cd33a328263069da0cd19f0b3fe2e4d6f041d2250819ad0b16ea4737718456
-# Source SHA-256: 5682dfa2ff0ef7d659f327257dcfe571651ac647cd81fed7b0d8a3511f7007b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LST-DL1.ANS by soul trader (dox_09); released in dox_09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: demoniclands/dragonslair
-# SAUCE Author: soul trader
-# SAUCE Date: 19970505
-# SAUCE Dimensions: 80x22
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: demoniclands/dragonslair by soul trader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-09-lst-dl1
 
 Write-Host '
 

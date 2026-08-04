@@ -1,18 +1,4 @@
-﻿# Converted from: P1-TGCR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vivid03/raw/P1-TGCR.ANS
-# Source Revision: archive-sha256:707c507abc7daafa803f0e19897b10ba6d9a8f9e09826a64950be6878f695dbf
-# Source SHA-256: a7926711f327520eea96ba98f73711bf4690582f67803ec049f32775a978d981
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P1-TGCR.ANS by Paranormal Intensity (ViViD); released in vivid03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Great Canadian Rangers
-# SAUCE Author: Paranormal Intensity
-# SAUCE Group: ViViD
-# SAUCE Date: 19980113
-# SAUCE Dimensions: 80x49
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: The Great Canadian Rangers by Paranormal Intensity | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vivid03-p1-tgcr
 
 Write-Host '
 [1;32;42m ▄▄▄▄▄▄▄▄▄      [0;32m███████████████████▄[0;1;36m▀█████████▀▄[0m [33m▀[0;1;33;43m▀██████████[0;1;33;40m███████████████████[0m

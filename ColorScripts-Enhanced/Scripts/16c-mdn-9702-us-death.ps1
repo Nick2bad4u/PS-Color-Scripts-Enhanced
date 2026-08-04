@@ -1,18 +1,4 @@
-﻿# Converted from: US-DEATH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9702/raw/US-DEATH.ANS
-# Source Revision: archive-sha256:2bef5839074c598bf0f92bd4e5826154389b8896239a1e15db494b520fb6d9a8
-# Source SHA-256: c3e7e3dcf7c9297e0ebc0efaaa3cf0b330bf06b34fadfefe4488310d17cd52ec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DEATH.ANS by Soulphuree + Rorshack (Maiden Brazil); released in mdn-9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: virTual dea.. ..l ..o ..g ..o ..!
-# SAUCE Author: p8 + rs = pr8s
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19970131
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: virTual dea.. ..l ..o ..g ..o ..! by Soulphuree + Rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9702-us-death
 
 Write-Host '
           [33mⁿs    s    ⁿs[0m

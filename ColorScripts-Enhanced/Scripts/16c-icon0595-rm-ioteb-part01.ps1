@@ -1,18 +1,4 @@
-﻿# Converted from: RM-IOTEB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icon0595/raw/RM-IOTEB.ANS
-# Source Revision: archive-sha256:0c4fed1665525dbb7d857717dd9904d141c70c3e98d7bd6cf00702ab896f0d5f
-# Source SHA-256: a8a8543b5a6c951073940d54e7b87dcb1783cce6d00560e8e0b98df29d7600c5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RM-IOTEB.ANS by Rocketman (.oiCONo.); released in icon0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Initiates of the Ebon Hand
-# SAUCE Author: Rocketman
-# SAUCE Group: .oiCONo.
-# SAUCE Date: 19950325
-# SAUCE Dimensions: 80x101
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Initiates of the Ebon Hand by Rocketman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icon0595-rm-ioteb-part01
 
 Write-Host '
 [1m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m

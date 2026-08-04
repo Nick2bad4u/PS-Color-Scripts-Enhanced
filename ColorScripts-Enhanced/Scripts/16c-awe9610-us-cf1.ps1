@@ -1,18 +1,4 @@
-﻿# Converted from: US-CF1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9610/raw/US-CF1.ANS
-# Source Revision: archive-sha256:2f6e3c8c2e64cc8380afc3a639da2793e02ea87790d90b8b4bede4b760040753
-# Source SHA-256: 9afeca2fbdc40070a9180414571743ba1016c810b52d2ab3b91fcd560172a812
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CF1.ANS by The Night Angel + Fury (awe lettering); released in awe9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Chronic Farts Screen
-# SAUCE Author: Fury / TNAngel
-# SAUCE Group: awe lettering
-# SAUCE Date: 19960929
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Chronic Farts Screen by The Night Angel + Fury | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9610-us-cf1
 
 Write-Host '
                                             [1;32m▄▄▄▄▄▄▄▄▄[0;32m▄ [0;1;32m▄ ▄▄    ░░▄▄▄▄▄▄▄[0m     [1;32m▄▄[0m

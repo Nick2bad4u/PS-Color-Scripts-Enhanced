@@ -1,18 +1,4 @@
-﻿# Converted from: S&A-JIM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dls0296/raw/S%26A-JIM.ANS
-# Source Revision: archive-sha256:d07307efd5446d199a1d6623b0197b51b6d7034a39dc2f4b298cb8296f7c3796
-# Source SHA-256: 94f92666fd6efe68d9056acb7526290076bbb79003998f7ec65d2f7654a3dead
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S&A-JIM.ANS by Sudden Death + Amorphis (Delusion); released in dls0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Earthworm Jim
-# SAUCE Author: S-Death/Amorphis
-# SAUCE Group: Delusion
-# SAUCE Date: 19960131
-# SAUCE Dimensions: 80x50
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Earthworm Jim by Sudden Death + Amorphis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dls0296-s-a-jim
 
 Write-Host '
 [1;32m███████[0;1;32;42m▒░[0;32m▀[0;1;32m [0;1;31m▄▓▓▀▀▀▀[0m [1;31m▀▀▀▀▀▀▀██[0;1;31;41m▓▓▒░[0;31m▄▀[0;1;31;41m▓[0;1;31;40m███████▄▄[0;1;32;40m▀████[0;32m░[0;1;32m█████[0;1;32;42m▓░[0;1;32;40m████[0;32m░[0;1;32m█████████[0;32m▓[0;1;32m█████[0;1;32;42m░[0;1;32;40m██[0m

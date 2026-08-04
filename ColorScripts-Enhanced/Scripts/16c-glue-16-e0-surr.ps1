@@ -1,18 +1,4 @@
-﻿# Converted from: E0-SURR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-16/raw/E0-SURR.ANS
-# Source Revision: archive-sha256:b44675c14d0a6b8706358886e9a05961468006b6ae7257eede82583c6468b7b5
-# Source SHA-256: 205211982a0ee6a8f5178ffdeb9b406203f271318eb22b164d4c19e94ee1e756
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: E0-SURR.ANS by Enzo (Lore Arts); released in glue-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Mr.Greenish wants your soul
-# SAUCE Author: Enzo
-# SAUCE Group: Lore Arts
-# SAUCE Date: 19981116
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Mr.Greenish wants your soul by Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-16-e0-surr
 
 Write-Host '
 [1;33m▄[0;1;33;43m█[0;1;33;40m█████[0;1;33;47m▄[0;1;33;40m▄[0m▄[1;33m  [0m      [1;30m▀▀▀ ▀▀▀█[0;1;30;47m█▄[0;1;30;40m█[0;1;30;47m▀ [0;1;37;47m▄▄[0m     [1;30m   [0m

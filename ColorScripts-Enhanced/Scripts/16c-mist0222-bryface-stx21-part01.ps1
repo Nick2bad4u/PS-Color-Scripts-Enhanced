@@ -1,19 +1,4 @@
-﻿# Converted from: BRYFACE-STX21.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/mist0222/raw/BRYFACE-STX21.ANS
-# Source Revision: archive-sha256:298b44b8b7049e43debc6d372a2843121b005521ff5ef92f5442efdcf0a21843
-# Source SHA-256: 6c87a2602e34ee9ac4d34307c9e1823d5dfff1d9dd7018c8ea83758544f8c340
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BRYFACE-STX21.ANS by bryface (mistigris); released in mist0222 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: syntax party 2021
-# SAUCE Author: bryface
-# SAUCE Group: mistigris
-# SAUCE Date: 20220226
-# SAUCE Dimensions: 80x69
-# SAUCE Font: IBM VGA
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: syntax party 2021 by bryface | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0222-bryface-stx21-part01
 
 Write-Host '
 [36m▒▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▓▒▒▒▓██[0;1;36;46m░░░▒▒▓▓▓▓███████[0;1;37;46m████████████████[0;1;36;46m██████████[0;1;37;40m██████[0;1;36;46m███████[0m

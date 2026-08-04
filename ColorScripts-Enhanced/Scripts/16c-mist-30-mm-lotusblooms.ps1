@@ -1,19 +1,4 @@
-﻿# Converted from: MM-LOTUSBLOOMS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/MM-LOTUSBLOOMS.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: 2e0d4d7395c9a09f31ca78f6fce26efc373bf6e2d3609aec4c4077bf9f2ed3c8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-LOTUSBLOOMS.ANS by Mavenmob (Mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Amongst Mechanically Organic Lines
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241228
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Amongst Mechanically Organic Lines by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-mm-lotusblooms
 
 Write-Host '
 [1;32m█[0m                            [36m▄[0;37m                    [0;36m▄                            [0;1;32m█[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-BITCH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-01/raw/IZ-BITCH.ANS
-# Source Revision: archive-sha256:c4f943c9f8f5c49a2aabdd3612f9f26bd1b04de18aa8de6e38c69a3051111537
-# Source SHA-256: 189955c62c1c7cac9e50ec9bd86423dea9585c1dc752b46df5b53e4a23e2fdae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-BITCH.ANS by izeball (nerP); released in nerp-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: bitch/x
-# SAUCE Author: izeball
-# SAUCE Group: nerP
-# SAUCE Date: 19970718
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: bitch/x by izeball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-01-iz-bitch
 
 Write-Host '
 [36m            [0m

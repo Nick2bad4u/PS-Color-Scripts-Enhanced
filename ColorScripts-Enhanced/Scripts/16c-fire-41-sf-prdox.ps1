@@ -1,18 +1,4 @@
-﻿# Converted from: SF-PRDOX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/SF-PRDOX.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: 00a689d6dfbeaa1259ca0dc97bcc6b3d2903c678cf939e3f969769fb7a5985c5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SF-PRDOX.ANS by sander (fire-41); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: paradox
-# SAUCE Author: sander
-# SAUCE Date: 20241102
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: paradox by sander | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-sf-prdox
 
 Write-Host '
            [35m▄▄[0;37m           [0;34m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m

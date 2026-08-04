@@ -1,17 +1,4 @@
-﻿# Converted from: BC-INK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dls0296/raw/BC-INK.ANS
-# Source Revision: archive-sha256:d07307efd5446d199a1d6623b0197b51b6d7034a39dc2f4b298cb8296f7c3796
-# Source SHA-256: 64f2baeff188fd928491f2fd64ff9ac9ff2388f50bd11aa9f433c3c004457551
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BC-INK.ANS by Burning Chrome (Delusion); released in dls0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: iNK Logo
-# SAUCE Author: Burning Chrome
-# SAUCE Group: Delusion
-# SAUCE Font: his bitch!?[37m ?[0m?
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: iNK Logo by Burning Chrome | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dls0296-bc-ink
 
 Write-Host '
 

@@ -1,20 +1,4 @@
-﻿# Converted from: CT-EZRA_JACK_KEATS-THE_SNOWY_DAY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0426/raw/CT-EZRA_JACK_KEATS-THE_SNOWY_DAY.ANS
-# Source Revision: archive-sha256:c759ba228fb42808866da1267838a1ce2371215b87bc273c64f35f4bc653e77d
-# Source SHA-256: 9704f356f7d185f0d51d4f909e652a14da8a4e537cce585a4b42c8eb91a65022
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CT-EZRA_JACK_KEATS-THE_SNOWY_DAY.ANS by Cthulu (Mistigris); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Snowy Day
-# SAUCE Author: Cthulu
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260422
-# SAUCE Dimensions: 80x35
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Viking Press, 1962.
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: The Snowy Day by Cthulu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0426-ct-ezra-jack-keats-the-snowy-day
 
 Write-Host '
 [1;34m███████████[0m [31m████[0;1;37;41m▄▄[0;31m█[0;1;37;41m▄▄▄[0;31m█[0;1;37;41m▄▄[0;31m███[0;1;37;41m▄[0;31m███[0;1;37;41m▄▄▄[0;31m█[0;1;37;41m▄[0;31m██[0;1;37;41m▄[0;31m██[0;1;37;41m▄[0;31m█[0;1;37;41m▄[0;31m██[0;1;37;41m▄[0;31m█[0;1;37;41m▄[0;31m█[0;1;37;41m▄▄▄[0;31m█[0;1;37;41m▄[0;31m█[0;1;37;41m▄▄[0;31m█[0;1;37;41m▄▄[0;31m████[0;37m [0;1;34m█████████████[0m

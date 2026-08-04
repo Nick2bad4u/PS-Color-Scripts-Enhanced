@@ -1,18 +1,4 @@
-﻿# Converted from: V9-REV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0402/raw/V9-REV.ANS
-# Source Revision: archive-sha256:19898cc2febb6deadccf50832dc421b4f362a33c899e27278bafd225bbc2d4d4
-# Source SHA-256: 0acf857a0744b01373f30b341f1161d841602bc086f0486aded4fe7b653e8824
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: V9-REV.ANS by vade79 (revival); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: rough promo
-# SAUCE Author: vade79
-# SAUCE Group: revival
-# SAUCE Date: 20020414
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: rough promo by vade79 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0402-v9-rev
 
 Write-Host '
 [1;30m▓░  [0m             [1;30m▬[0m  [1;30m▄[0m [1;30m ▄▄▄ ▄▄▄[0m  [35m▄[0;1;37m   [0;1;31m   [0;1;34m [0;1;31m▄▄[0;1;31;47m▀▓[0;1;31;41m█▄[0;1;31;40m▄[0;31m▄[0m        [1;33m ▄▄[0;33m▄[0m

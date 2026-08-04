@@ -1,13 +1,4 @@
-﻿# Converted from: 2005 - 13 - tcf-txt.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tcf20/raw/2005%20-%2013%20-%20tcf-txt.ans
-# Source Revision: archive-sha256:af8609219fccc484668fb405a7f1d45efb8c574501a461c5c1b47d87a12921ce
-# Source SHA-256: 74d3443d0bb67f909bc2ca2912608df0e3ede03fcab8792b4ebf95d66b89d7d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2005 - 13 - tcf-txt.ans by The Creep Fever (tcf20); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: 2005 - 13 - tcf-txt.ans by The Creep Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tcf20-2005-13-tcf-txt-part01
 
 Write-Host '
     [1;30m░[0m                                                           [1;30m░[0m          [1;30m░[0m

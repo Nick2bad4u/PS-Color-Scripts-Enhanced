@@ -1,19 +1,4 @@
-﻿# Converted from: N-LEON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zal/raw/N-LEON.ANS
-# Source Revision: archive-sha256:27105a9153e1ab4f3cc531b07ab6db3370ec6ee44f65a8fce04e836afc280bb7
-# Source SHA-256: a1628313dbd03c08a87758c9821b33a8049d302c0a381e827d113f9e440245e4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-LEON.ANS by nail (fire); released in zal and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: leon
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 20231224
-# SAUCE Dimensions: 80x62
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: leon by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zal-n-leon-part01
 
 Write-Host '
                                     [1;30;40m▄▄▄▄▄▄▄[0m

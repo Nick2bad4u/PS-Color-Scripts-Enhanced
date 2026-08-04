@@ -1,20 +1,4 @@
-﻿# Converted from: 7k-auworld.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-001/raw/7k-auworld.ans
-# Source Revision: archive-sha256:589c804657c8d15ba617f7c0fd80723e4505d519989b80eba9584665be49eb54
-# Source SHA-256: 6c8a7a9daf445aaae0a8941d439fea5bc9c12f7df730eacd92985cf5e921161d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 7k-auworld.ans by The Knight (Legacy Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ACiD Underworld
-# SAUCE Author: The Knight
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20191124
-# SAUCE Dimensions: 80x74
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Mangy dog design for ACiD Underworld.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: ACiD Underworld by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-001-7k-auworld-part01
 
 Write-Host '
                                                                [37;40m          [0m

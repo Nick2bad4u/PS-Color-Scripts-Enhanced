@@ -1,18 +1,4 @@
-﻿# Converted from: RZ-EMPHS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge08/raw/RZ-EMPHS.ANS
-# Source Revision: archive-sha256:1398dfee0c6d9a85e3c2c5578a653005bd6563b54ee7629087b020c63b5bdc44
-# Source SHA-256: e73c29b281a9f1f56759191fb4501a9ebdc59177cfc50ef5f3deb8ed5e46ac5e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RZ-EMPHS.ANS by _rzicus (avenge); released in avenge08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Empathy - help screen
-# SAUCE Author: _rzicus
-# SAUCE Group: avenge
-# SAUCE Date: 19980820
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Empathy - help screen by _rzicus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge08-rz-emphs
 
 Write-Host '
 [33m▐█[0;1;30;43m▀[0;1;30;40m▄[0m   [1;31m      [0;33m▀▀[0;1;31m▀▀▀[0;1;31;43m▀▀[0;1;31;40m████████▄ [0;1;31;43m░▒▓▓[0;1;31;40m█[0;1;31;43m▓▓░   [0;33m██████▓▓[0;30;43m▓▓[0;37;40m  [0;1;30;40m e m p a t h y[0;1;37;40m [0m [32m░[0;37m [0;30;42m▓▓[0;32;40m▒▓[0;1;32;40m▒▓▓[0;1;32;42m▓[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: NI-RENEE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz21/raw/NI-RENEE.ANS
-# Source Revision: archive-sha256:daa0e008ccfccc8179e0635097f8fe4a46a32781b45bbd86ff6e4505514c9e6d
-# Source SHA-256: 40364a596b061e29806caad0f72bc3a13e733ee3984febc5ca9b06ab28f797b0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-RENEE.ANS by Nitron (Lazarus); released in laz21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: RenC)e Nicole Macklin Good
-# SAUCE Author: Nitron
-# SAUCE Group: Lazarus
-# SAUCE Date: 20260110
-# SAUCE Dimensions: 80x33
-# SAUCE Font: IBM VGA
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: RenC)e Nicole Macklin Good by Nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz21-ni-renee
 
 Write-Host '
                      [1m▄[0;1;31m▄[0;1;37;43m▀[0;1;37;41m▀▀[0;1;37;43m▓▓[0;1;37;40m▄▄▄▄[0;1;31;40m▄▄▄▄[0;1;37;40m▄[0m

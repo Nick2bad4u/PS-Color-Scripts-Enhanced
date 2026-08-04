@@ -1,18 +1,4 @@
-﻿# Converted from: IZE-REV2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0302/raw/IZE-REV2.ANS
-# Source Revision: archive-sha256:7b2619e0400d7382d19d38767873337eae71942dd319abc1998c71f4a968776f
-# Source SHA-256: 4a43e42422f816fba711f516ba69d604715a30129f40162d84a31535bf830db6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZE-REV2.ANS by ize (uh); released in rev0302 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Revival
-# SAUCE Author: ize
-# SAUCE Group: uh
-# SAUCE Date: 20020305
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: Revival by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0302-ize-rev2
 
 Write-Host '
 

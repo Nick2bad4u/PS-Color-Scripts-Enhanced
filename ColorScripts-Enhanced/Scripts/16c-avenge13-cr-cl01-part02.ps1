@@ -1,15 +1,4 @@
-﻿# Converted from: CR-CL01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge13/raw/CR-CL01.ANS
-# Source Revision: archive-sha256:347f6c69918fead9ee3c845f2d1356dd84e1411d92cae5bcb8386da796611dd6
-# Source SHA-256: 615379672db506756382fc638665bae735454ef204b9001a6a4f42a3ed3d3ce2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CR-CL01.ANS by creator (avenge13); released in avenge13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Logo Collection
-# SAUCE Author: creator
-# Lines: 35-70
-# Columns: 1-80
+﻿# Artwork: Logo Collection by creator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge13-cr-cl01-part02
 
 Write-Host '
 [37m  [0;1;30m░░[0m          [1;30m▒░░[0m   [1m [0;31m█[0;1;33;41m███▓▓▒[0;31m▄[0;1;33m   [0;31m     ▄▄   ▄▄▌        ▄▄      ▄▄▄[0;37m                [0m

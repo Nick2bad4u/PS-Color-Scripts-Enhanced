@@ -1,19 +1,4 @@
-﻿# Converted from: avg-lazarus.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz11/raw/avg-lazarus.ans
-# Source Revision: archive-sha256:68621cb5db58e1d89f5deb5798f3990fa932a6b4eb91cc1511f3f4c157d26f38
-# Source SHA-256: fcd2616ccd58af418fae99dd8e6beeb003c58a80fb6fccc9f7691f9787b35740
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-lazarus.ans by avg (blocktronics); released in laz11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: lazarus promo
-# SAUCE Author: avg
-# SAUCE Group: blocktronics
-# SAUCE Date: 20200615
-# SAUCE Dimensions: 80x120
-# SAUCE Font: IBM VGA
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: lazarus promo by avg | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz11-avg-lazarus-part01
 
 Write-Host '
 [1;32;47m            ▄█████████████[0;1;32;40m█████████[0;1;32;47m▄  ▀[0;1;32;40m██████████████████[0;1;32;47m███████████▄▄          [0m

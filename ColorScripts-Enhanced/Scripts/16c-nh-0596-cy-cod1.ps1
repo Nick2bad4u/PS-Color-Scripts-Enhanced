@@ -1,17 +1,4 @@
-﻿# Converted from: CY-COD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nh-0596/raw/CY-COD1.ANS
-# Source Revision: archive-sha256:b8e611f21893c38f3eda63bcb92e8793b532d548453ca8e041e15dcc0ead70ae
-# Source SHA-256: 07e1433fd5b6a108471d01d4d2a7daadfa4153d156787a9430e092aa0bc6f718
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CY-COD1.ANS by Crayon (nh-0596); released in nh-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Code Lit. #1
-# SAUCE Author: Crayon
-# SAUCE Date: 19960315
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: Code Lit. #1 by Crayon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nh-0596-cy-cod1
 
 Write-Host '
                                           [1m▄[0;1;33m▄▄▄▄[0m

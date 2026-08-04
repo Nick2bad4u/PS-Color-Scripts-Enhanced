@@ -1,18 +1,4 @@
-﻿# Converted from: BZ-AMBPB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amb-0003/raw/BZ-AMBPB.ANS
-# Source Revision: archive-sha256:6c1f5bb711b3a9f527f0db6688312bdf8c740b8b238d72b35c41b715b9f7e0bd
-# Source SHA-256: d331261eb058eb239aae4a27374b54c9b6fa611d696a559cbb40d77f4b4e0e7d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BZ-AMBPB.ANS by biozard (ambush); released in amb-0003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ambush logopict bdwd.
-# SAUCE Author: biozard
-# SAUCE Group: ambush
-# SAUCE Date: 19970209
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: ambush logopict bdwd. by biozard | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amb-0003-bz-ambpb
 
 Write-Host '
 [1;34m  ▄[0;1;34;47m▓▓[0;1;34;40m███▀▀▀[0;1;34;44m▓▒[0;34m▄▄▄░░[0m

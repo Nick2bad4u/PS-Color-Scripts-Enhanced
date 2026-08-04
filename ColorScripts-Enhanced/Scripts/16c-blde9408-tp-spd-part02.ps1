@@ -1,13 +1,4 @@
-﻿# Converted from: TP-SPD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9408/raw/TP-SPD.ANS
-# Source Revision: archive-sha256:802b0e00f1d7521280ab279c4507115014273c696f6db48a1d2c229cb379eb8a
-# Source SHA-256: 52f7a63229c7928e4e656550bb38a08bc44da8377c36b12e4fcd02e6c9700a7b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TP-SPD.ANS by Technophreak (blde9408); released in blde9408 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 50-98
-# Columns: 1-80
+﻿# Artwork: TP-SPD.ANS by Technophreak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9408-tp-spd-part02
 
 Write-Host '
 [31m█ ██████████▌███████████ █[0;1;31;41m░░[0m [1;33;40m██▐███████████████[0;1;37;40m██[0;1;33;40m█▌██ [0;1;31;41m░░[0;31m██ ████████▐████████▐███[0m

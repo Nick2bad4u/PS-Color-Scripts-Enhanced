@@ -1,19 +1,4 @@
-﻿# Converted from: WZ - Flowers (Forget-me-not and bleeding heart).ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-420/raw/WZ%20-%20Flowers%20(Forget-me-not%20and%20bleeding%20heart).ans
-# Source Revision: archive-sha256:32206a6b687af3a407a7929bd0ae7f49a2a5a96e7853d9c98b3020df27e9b06d
-# Source SHA-256: 977e9a1f7812fe7c94b1dd71df29475d6249a183750ff404d6c023256af1c434
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WZ - Flowers (Forget-me-not and bleeding heart).ans by Whazzit (Blocktronics); released in blocktronics-420 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Forget-me-not and bleeding heart
-# SAUCE Author: Whazzit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20170525
-# SAUCE Dimensions: 120x80
-# SAUCE Font: IBM VGA
-# Lines: 41-80
-# Columns: 1-120
+﻿# Artwork: Forget-me-not and bleeding heart by Whazzit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-420-wz-flowers-forget-me-not-and-bleeding-heart-part02
 
 Write-Host '
 [1;37;107m██[0;1;45m▌[0;1;35;45m▐[0;1;35;107m████████▌[0;1;37;107m█[0;1;33;107m▄[0;1m█[0;1;35;107m ▒▒▒[0;1;35;45m█[0;1;35;40m██[0;35;107m█[0;1;35;107m▀[0;1;37;107m█[0;1;35;107m████[0;1;35m█[0;105m [0;1;35;107m▌[0;1;37;107m░▒[0;32;107m█[0;1;32;42m▀▀[0;32;107m▄[0;1;37;107m██[0;1;35;107m▄███▄[0;107m░░[0;1;33;107m█[0;1;33m ▀[0;1;33;107m█▄[0;1;37;107m▒[0;105m▄▄▄[0;1;35;107m███  [0;1;37;107m▒░▓▓█████▓█████████████[0;1;34;107m▀▀▀▀▀▀[0;1;34;47m▄▄▄▄▄[0;1;34;107m▀▀▀   [0;1;37;107m███[0;1;34;107m  [0;1;37;107m█[0;1;34;107m▐[0;1;34;46m▓[0;1;34;40m██[0;1;34;107m [0;1;37;107m█[0;1;46m▀[0;1;34;46m▒▓█[0;1;34;40m██[0m

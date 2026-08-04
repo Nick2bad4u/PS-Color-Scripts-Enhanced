@@ -1,19 +1,4 @@
-﻿# Converted from: 67_Calendar_2020_03_March.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktr0nics30302020/raw/67_Calendar_2020_03_March.ans
-# Source Revision: archive-sha256:9a86a13b1ff7cef4b57ed39c1aca190028df54b44bffe10202b539bef3cd3dcc
-# Source SHA-256: c2ac7419ef08148953da47f1e92a3d5b0d15edf77f3c7d6e84a83a638626ac64
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 67_Calendar_2020_03_March.ans by h7 (blocktronics); released in blocktr0nics30302020 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: march
-# SAUCE Author: h7
-# SAUCE Group: blocktronics
-# SAUCE Date: 20191218
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: march by h7 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktr0nics30302020-67-calendar-2020-03-march
 
 Write-Host '
 [36;40m████████████████████████████████████████████████████████████████████████████████[0m

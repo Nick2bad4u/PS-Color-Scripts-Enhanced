@@ -1,13 +1,4 @@
-﻿# Converted from: MF-BLUE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/basic-05/raw/MF-BLUE.ANS
-# Source Revision: archive-sha256:a2f68eccc2948d19a9df8c4fd26441b93a19bdc137d65564784937cd2559a252
-# Source SHA-256: 4b9e390e854504f66488c1f01e7a4beac51caa44862671544bb8a6f3a7506b8d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MF-BLUE.ANS by Mortify (basic-05); released in basic-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: MF-BLUE.ANS by Mortify | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-basic-05-mf-blue
 
 Write-Host '
                                               [34mb l u e [0m                 [37m    [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: 13-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-03/raw/13-FIRE.ANS
-# Source Revision: archive-sha256:9ea26ff16b2d0162532c602fba75b69e539d71620a3b4e34b796de886326619c
-# Source SHA-256: 587537e479ba5234f2c38f84eb32f890ce31b474187ddb29cd13b72cba1c5bbc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 13-FIRE.ANS by 13 (nerp); released in nerp-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fire promo
-# SAUCE Author: 13
-# SAUCE Group: nerp
-# SAUCE Date: 19971224
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: fire promo by 13 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-03-13-fire
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: pp-fstat.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-28/raw/pp-fstat.ans
-# Source Revision: archive-sha256:fa3f82a196e5c2ecb3ed92667c34cdee414fe625eadfdfa3e663da86367e360c
-# Source SHA-256: 141c7ad0a817513f8cdb2ab7beb705062aaa49c47cd12734053bf9585d733c86
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: pp-fstat.ans by Pixel Pusher (Remorse Ascii); released in rmrs-28 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: BBS Stat Screen
-# SAUCE Author: Pixel Pusher
-# SAUCE Group: Remorse Ascii
-# SAUCE Date: 19981107
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: BBS Stat Screen by Pixel Pusher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-28-pp-fstat
 
 Write-Host '
 [31m . ░[0m    [31m ,'' . [0m

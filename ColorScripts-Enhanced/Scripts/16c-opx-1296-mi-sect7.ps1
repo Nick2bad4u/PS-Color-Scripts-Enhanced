@@ -1,18 +1,4 @@
-﻿# Converted from: MI-SECT7.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-1296/raw/MI-SECT7.ANS
-# Source Revision: archive-sha256:506b105b4c26ae1c852aab6820467319ddc2b45f940a9c1fc20d63a6338d499e
-# Source SHA-256: 2a8c0139ad731b64f05814026fccfef199d6606fe093bef106fca4b4b01f0d7f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MI-SECT7.ANS by mongi (OPiUM); released in opx-1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: sector 7
-# SAUCE Author: mongi
-# SAUCE Group: OPiUM
-# SAUCE Date: 19961114
-# SAUCE Dimensions: 80x49
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: sector 7 by mongi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-1296-mi-sect7
 
 Write-Host '
                                     [32m▄▄[0;1;32;42m░▄▄▄[0;32m▄▄[0m

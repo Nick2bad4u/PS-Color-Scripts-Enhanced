@@ -1,18 +1,4 @@
-﻿# Converted from: IR!TOON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/think001/raw/IR!TOON.ANS
-# Source Revision: archive-sha256:209eafada3d6f00cc70543304f8ce5c1ce7a965a003f20d229204e8608d60374
-# Source SHA-256: 9abb5de3e14e409268fec5589d573a614a964e87cd4a7964cfa6f8c8cee031e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IR!TOON.ANS by irrational (think); released in think001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: toon goon guy
-# SAUCE Author: irrational
-# SAUCE Group: think
-# SAUCE Date: 19971125
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: toon goon guy by irrational | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-think001-ir-toon
 
 Write-Host '
 

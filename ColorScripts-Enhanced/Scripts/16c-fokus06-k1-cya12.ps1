@@ -1,18 +1,4 @@
-﻿# Converted from: K1-CYA12.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus06/raw/K1-CYA12.ANS
-# Source Revision: archive-sha256:dc26abf5be8f48f280ad19d58f0c64fc91b5db6a0fab8539aa3970e4d64fad45
-# Source SHA-256: 805a5fdedeef9673878c45d310f09ca9b5b054854bceb5eb1ad048d21b806abc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K1-CYA12.ANS by knocturnal (Fokus); released in fokus06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: c y a n
-# SAUCE Author: knocturnal
-# SAUCE Group: Fokus
-# SAUCE Date: 19990716
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: c y a n by knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus06-k1-cya12
 
 Write-Host '
                             [32m [0m

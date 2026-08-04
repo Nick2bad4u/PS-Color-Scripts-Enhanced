@@ -1,18 +1,4 @@
-﻿# Converted from: AL-ANIME.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-35/raw/AL-ANIME.ANS
-# Source Revision: archive-sha256:bc92204ac679e4231b1db133abb983c42252574e71b83e8773e063911f5f3ee6
-# Source SHA-256: 456af68dd91c7cdd1140bc4cc6b3c290d44264a19315edb8341b61cffcce1d74
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AL-ANIME.ANS by alim (glue guest); released in glue-35 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: first ansi since 98
-# SAUCE Author: alim
-# SAUCE Group: glue guest
-# SAUCE Date: 20010329
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: first ansi since 98 by alim | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-35-al-anime
 
 Write-Host '
 [30m[0m[1;37mO[0;1;37;47m▓▓[0;1;37;40m███▀▄▄[0;1;37;47m▓▓[0m▀[1m [0;1;34m░░[0m▄[1m [0;1;34m░▀[0m [33m▄[0;1;31;43m [0;33m▌[0;1;34m░[0;33m▐[0;1;31;43m░▓▓[0;1;31;40m▌ [0;33m▄[0;1;31;43m▒▓[0;1;31;40m████████████  [0;33m█[0;1;31m███████▀▀▀  [0;33m▀█[0;1;31m▌ [0;33m▄█[0;1;31m███ [0;1;34m ▀[0m [1;34m ░ [0;1;37m▄[0;1;34m▀[0m

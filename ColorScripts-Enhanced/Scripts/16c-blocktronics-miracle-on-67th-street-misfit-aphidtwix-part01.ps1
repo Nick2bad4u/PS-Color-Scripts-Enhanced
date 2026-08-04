@@ -1,19 +1,4 @@
-﻿# Converted from: misfit-aphidtwix.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_miracle_on_67th_street/raw/misfit-aphidtwix.ans
-# Source Revision: archive-sha256:7a78b3edd176c6d05feb481522f2c4f3e57721df62292c2b4ce537e855c41ae8
-# Source SHA-256: 7dd4fc1de690e7e2fe852b188fd7975f632ba1bddf59e33ce9a0cc3fb8cddcc5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: misfit-aphidtwix.ans by Misfit (Blocktronics); released in blocktronics_miracle_on_67th_street and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Aphex Twin
-# SAUCE Author: Misfit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20180912
-# SAUCE Dimensions: 80x245
-# SAUCE Font: IBM VGA
-# Lines: 1-72
-# Columns: 1-80
+﻿# Artwork: Aphex Twin by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-miracle-on-67th-street-misfit-aphidtwix-part01
 
 Write-Host '
 [0m                        [32;40m    [0;37;40m [0;32;40m░░░[0m       [32;40m░[0m

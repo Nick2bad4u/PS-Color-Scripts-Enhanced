@@ -1,15 +1,4 @@
-﻿# Converted from: US-CAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe01/raw/US-CAIN.ANS
-# Source Revision: archive-sha256:0b64c26f533b8c11a1aca04e7dcc1e21d4b014c2d6532ba66a48148862d54cb2
-# Source SHA-256: fa570a6247ff6643472b7454d3ed4b4e216b071d26cbb699784c7ae1b2014bed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CAIN.ANS by Arlequin + Groove (circe01); released in circe01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 19970921
-# SAUCE Dimensions: 80x14
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: US-CAIN.ANS by Arlequin + Groove | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe01-us-cain
 
 Write-Host '
 [1;30m   [0m                  [1;30mc a i n   g r u p o   a n a r q u i s t a [0m

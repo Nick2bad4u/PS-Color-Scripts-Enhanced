@@ -1,13 +1,4 @@
-﻿# Converted from: 4db.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1oo-moon/raw/4db.ans
-# Source Revision: archive-sha256:171e2925602123fe0c10a0ec4407c2834bc26a002fba2fa406825fd80132e138
-# Source SHA-256: fcf7959e139e1bc22c23b699acd5973c0a3b6f85b0b7fd2c3bb5246e5dc05cf7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 4db.ans by Miracle (1oo-moon); released in 1oo-moon and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: 4db.ans by Miracle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1oo-moon-4db
 
 Write-Host '
   [1;34m▄▄▄▄▄▄▄▄▄█▀▀▀▀[0;1;34;44m▒[0;1;34;40m▄▄▄▄▄▄▄▄▄█▀▀▀▀▀▀▀▀▀▀▀▀█[0m [1;30m▓▓▒▒░░[0m [1;30m░[0m

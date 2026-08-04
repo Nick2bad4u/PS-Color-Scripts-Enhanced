@@ -1,13 +1,4 @@
-﻿# Converted from: MT-SATRN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fos-0196/raw/MT-SATRN.ANS
-# Source Revision: archive-sha256:7b35e2d1b77f64a0bb3f52fe512c20b089b55cb938c04933966099eeada5d6ff
-# Source SHA-256: b80ac3ec395ddc764ff20f2afda53dd9bddea1b14bdf297930b089f77cd0e396
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MT-SATRN.ANS by Morbid Thought (fos-0196); released in fos-0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: MT-SATRN.ANS by Morbid Thought | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fos-0196-mt-satrn
 
 Write-Host '
 [36m▐█▌[0;37m [0;1;36m▀█████▀█▄▀▓▄▄▄▄         ▄▄██████▓▀[0m [1;36m▄██▄                   ▄▄▄▓█▓▒[0m    [36m▄[0;37m  [0;36m▐█[0m

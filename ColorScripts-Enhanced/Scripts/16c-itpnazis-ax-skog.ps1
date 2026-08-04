@@ -1,13 +1,4 @@
-﻿# Converted from: AX_SKOG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/itpnazis/raw/AX_SKOG.ANS
-# Source Revision: archive-sha256:b63f1061c14ef43c41c98429978c6d429bbae740ff287c27de867b6629e2595b
-# Source SHA-256: 88a7ae12b47c4b6404d80a9a7718aceca18d5024b78f070396fe3080881d0974
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AX_SKOG.ANS by Alla Xul (itpnazis); released in itpnazis and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: AX_SKOG.ANS by Alla Xul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-itpnazis-ax-skog
 
 Write-Host '
 ▒ [1;30;43m▓[0;33m██ [0;1;30m▐▄▓[0m░▒▒[1;30m███▀▐[0m▒▒[1;30m▀▐[0;1;30;43m▓[0;33m██▌[0;1;30m▐█[0m▒▒▓▓▓▓▒░[1;30m▓▓▓▓▓▓▓█▓█▌▓[0;33m ▓█[0;33;45m▓▓[0;33;40m [0;1;30;40m▓███[0;33m [0;1;30m▓[0;1;30;43m █[0;33m ▐▌[0;1;30;43m▓[0;33m▓▓▌[0;1;30m▓▌[0m░▓[33m [0;1;30m▓[0;1;30;43m░[0;33m▒[0;37m [0;1;30m▓▄▐[0m

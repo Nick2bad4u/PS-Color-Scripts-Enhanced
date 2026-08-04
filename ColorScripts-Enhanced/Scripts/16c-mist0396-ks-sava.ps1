@@ -1,18 +1,4 @@
-﻿# Converted from: KS!-SAVA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0396/raw/KS!-SAVA.ANS
-# Source Revision: archive-sha256:ca76fc280b2a4bc027c52e1f5a3fd444bfc4dc199573d0f93ae0c0df3b3abb90
-# Source SHA-256: ea10105728061e8080d35fa2803922cb80c41cf6fbbf0f2ccfabacc99f1043c3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KS!-SAVA.ANS by KesTrel (Mistigris); released in mist0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Savage Lands colly
-# SAUCE Author: KesTrel
-# SAUCE Group: Mistigris
-# SAUCE Date: 19960322
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: Savage Lands colly by KesTrel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0396-ks-sava
 
 Write-Host '
 [32m▄▄▄▄▄[0;1;32m [0;1;30m                  [0;31m·[0;1;30m   [0;31m·[0;1;30m     [0m  [1;30m [0m [1;30m             [0;31m T    H    E[0;1;30m          [0m    [1;30m [0m

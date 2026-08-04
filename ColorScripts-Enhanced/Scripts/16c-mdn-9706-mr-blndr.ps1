@@ -1,18 +1,4 @@
-﻿# Converted from: MR-BLNDR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9706/raw/MR-BLNDR.ANS
-# Source Revision: archive-sha256:7778e60ae879f03132c18bc660bc1aff97b6f3b65410765bf6f0d32a4bcff865
-# Source SHA-256: 162c7153c087374924f82ab1fe7137f3d18afb86e08146b95847872247c69821
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-BLNDR.ANS by minotaur (Maiden Brazil); released in mdn-9706 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ansi for blender
-# SAUCE Author: minotaur
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19970522
-# SAUCE Dimensions: 80x25
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: ansi for blender by minotaur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9706-mr-blndr
 
 Write-Host '
    [1;34m▌[0m [36m █[0;1;36;46m███████████▀▀▀[0;36m█▒[0;37m  [0;32m▌[0;37m [0;32m▐▌[0;37m [0;32m▐[0m    [36m▀▀█[0;1;36;46m▀████▀[0m  [1;34m▐[0m  [36m▐[0;1;36;46m░[0;36m▌[0;37m [0;1;37;47m     [0m▄   [1m▄▄███[0;1;47m▀  [0m  [1;30m██▌[0;1;30;46m▄▌▄▄ [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: US-ND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bleu001/raw/US-ND.ANS
-# Source Revision: archive-sha256:21f9d9b3886f8960e13a100982fe05e4a4561042d24e98c93f66986975b8e90c
-# Source SHA-256: 9ccafe4613c284e4d461a57c1ee103cfca5f9ec7d52165d505d0870ec7f0de74
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ND.ANS by Maytag + Bizzarro (bleu001); released in bleu001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: US-ND.ANS by Maytag + Bizzarro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bleu001-us-nd
 
 Write-Host '
 [1;30m[0m[31m[0m[1;36m[0m[1;30m[0m[31m[0m[1;30m█[0;1;30;47m▓▓[0;1;30;40m▄▄▄   ▐██[0;1;30;47m▓▓[0;1;30;40m██████▀▀▀[0m         [31m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0m     [31;40m [0m   [31;40m         [0m   [1;30;40m▀▀▀██[0;1;37;40m░░░░[0;1;30;40m███[0m▒▒[1;30m▄▄   [0m▒▒▒[1;30;47m▓[0m

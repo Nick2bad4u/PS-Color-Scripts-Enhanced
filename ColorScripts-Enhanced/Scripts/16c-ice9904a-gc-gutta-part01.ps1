@@ -1,13 +1,4 @@
-﻿# Converted from: GC-GUTTA.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9904a/raw/GC-GUTTA.ICE
-# Source Revision: archive-sha256:9f6bff68a40db749740d2e0fbe038a067a6703500ec4daa1d17beb547384b3bc
-# Source SHA-256: 40f46299d60bf305e3f2c3047a1f76672c5ee332828e013a34f782ef6d2c5e92
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GC-GUTTA.ICE by Gorechild (ice9904a); released in ice9904a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: GC-GUTTA.ICE by Gorechild | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9904a-gc-gutta-part01
 
 Write-Host '
 [1;30m[0m[1;30m░▒▓[0;1;30;47m██[0;1;30;40m▓[0;1;30;47m████████▓██▓████▓▓▒▒░░      ░░▒▒▓▓█████▓████████▓██▓▓▒▒░▒▒▓▓▓███▓███████▓[0m

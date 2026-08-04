@@ -1,18 +1,4 @@
-﻿# Converted from: ISO-HG.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9504a/raw/ISO-HG.ICE
-# Source Revision: archive-sha256:7e06a69e8d7baf8133687f2e7b917774996272e1a0f23faaff663b1fe4e44657
-# Source SHA-256: 648c43d5735a5e6ab93e15f67bbbd54f16336308483e9353a857be0d7b329f01
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ISO-HG.ICE by isosceles (da ice.); released in ice9504a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: sleepwalker's hangout
-# SAUCE Author: isosceles
-# SAUCE Group: da ice.
-# SAUCE Date: 19950426
-# SAUCE Dimensions: 80x50
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: sleepwalker's hangout by isosceles | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9504a-iso-hg-part01
 
 Write-Host '
 [1;36;46m████▒██████▀[0;36m██[0;1;36;46m▀[0;36m██████▀▀▀█▓▀▀  ▀[0m     [33m▄▄▄▄▄▄▄    [0;36m▀▒▀███████████████[0;1;36;46m▀[0;36m█[0;36;46m [0;1;36;46m▀▓▀███████▓▒[0m

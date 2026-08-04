@@ -1,13 +1,4 @@
-﻿# Converted from: TT-S2TS.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-0393/raw/TT-S2TS.ICE
-# Source Revision: archive-sha256:31b03d3a9d263e952227664fe802688e743ab14a707f16c150dab800192d5fc5
-# Source SHA-256: 9579187575fe5ea0248e17ee3790006184a3cccf0a27969ec7fae1674665a3d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TT-S2TS.ICE by Tempus Thales (ice-0393); released in ice-0393 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: TT-S2TS.ICE by Tempus Thales | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-0393-tt-s2ts-part01
 
 Write-Host '
           ▄▄▄▄▄▄▄▄▄[47m                                         [0;40m▄▄▄▄▄▄▄▄▄[0m

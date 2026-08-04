@@ -1,13 +1,4 @@
-﻿# Converted from: DH-ID1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fos-0196/raw/DH-ID1.ANS
-# Source Revision: archive-sha256:7b35e2d1b77f64a0bb3f52fe512c20b089b55cb938c04933966099eeada5d6ff
-# Source SHA-256: fc5de50981cc9870788ffde9c8c551163afe8cd1711c7389bc8d1832151c2a71
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DH-ID1.ANS by Dark Horizon (fos-0196); released in fos-0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: DH-ID1.ANS by Dark Horizon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fos-0196-dh-id1
 
 Write-Host '
  [36m▄███████████████████████████████████████▀▀  ▀ ▀▀████▀  ▀▀▀▀▀   ▀▀▀▀▀▀  ▀▀[0m

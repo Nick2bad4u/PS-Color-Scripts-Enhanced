@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-SMOP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn0797/raw/IZ-SMOP.ANS
-# Source Revision: archive-sha256:fc1844bde3fb3bc448ff1373e91cb7237c6c2f8016c75eb605f0f71b6d1e80d5
-# Source SHA-256: 3a1b98145c8a650fc6833799be680ac927f6f47a861d0313b2ec8811faee3bc3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-SMOP.ANS by ize (fusion); released in fsn0797 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: stupied mop
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19970623
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: stupied mop by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn0797-iz-smop
 
 Write-Host '
        [34m▄▄▄▄▄█[0;1;34;44m▄▄▄▄[0;34m███████▄▄[0m         [31m       [0;34m█[0;1;34;44m▄[0;34m█[0m         [34m▄[0;31m     ▄▄▄█[0;1;31;41m▄▄▄[0;31m▄▄▄▄░       [0m

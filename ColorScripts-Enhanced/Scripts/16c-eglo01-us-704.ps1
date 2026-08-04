@@ -1,17 +1,4 @@
-﻿# Converted from: US-704.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eglo01/raw/US-704.ANS
-# Source Revision: archive-sha256:946b379c1627c6c0ce524ce16bdc1636c1614ddecdaaa61a3c3a875f18d94d0a
-# Source SHA-256: 9f46106e6f0d76978874dfc063cbd14ab93b69d53e78c9615a5abd3e71d04409
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-704.ANS by Shaft + The Night Angel (AWErglo); released in eglo01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Toast 704
-# SAUCE Author: Shaft and tna
-# SAUCE Group: AWErglo
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Toast 704 by Shaft + The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eglo01-us-704
 
 Write-Host '
                                                                      [36m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: GL-FROG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0502/raw/GL-FROG.ANS
-# Source Revision: archive-sha256:98bfa3cc78c733050b0c647e7e0271e7623e3c31e4f40f218a00b89b2165c771
-# Source SHA-256: 5dee967b73998979eb47cf50e2d4314d1eec04be0c9a71437e447105f7250a8e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GL-FROG.ANS by Gloss (REVIVAL); released in rev0502 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Frog
-# SAUCE Author: Gloss
-# SAUCE Group: REVIVAL
-# SAUCE Date: 20020513
-# SAUCE Dimensions: 80x36
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Frog by Gloss | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0502-gl-frog
 
 Write-Host '
 [32m [0;37m   [0;32m▐▀[0;37m [0;32m▄[0m

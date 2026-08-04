@@ -1,18 +1,4 @@
-﻿# Converted from: BK-CODE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst0996/raw/BK-CODE.ANS
-# Source Revision: archive-sha256:c58a9dfd64582c9f28da9ef1a731e3d6ed8d515023a3071391d83924f7f5a36c
-# Source SHA-256: 3fe71a61b8761e3c07eaae9c0f680777f0fab7a2d900d0ace4a751224162ba8e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BK-CODE.ANS by Black Majick + Putrid Carcass (twisted); released in twst0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: codegarden
-# SAUCE Author: black majick/pkarkk
-# SAUCE Group: twisted
-# SAUCE Date: 19960904
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: codegarden by Black Majick + Putrid Carcass | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst0996-bk-code
 
 Write-Host '
 [1m██[0;1;36m█[0;1;37m█[0;1;36m████████████▀▀▀██▀▀▀▀▀▀█████▀███████████████▀█████▀▀▀▀▀▀██▀▀▀███████████████[0m

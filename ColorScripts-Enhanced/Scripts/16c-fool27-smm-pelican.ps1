@@ -1,19 +1,4 @@
-﻿# Converted from: smm-pelican.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fool27/raw/smm-pelican.ans
-# Source Revision: archive-sha256:2f2b93f8f0e4fec62b30a599f5faab168be4584610a3b26b5849676a1be20365
-# Source SHA-256: 983d393e0c654b245a3417c20f417fb5e8dda5e405d31bf90c253e98cc01d7ab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: smm-pelican.ans by SEL MAR MUPERFAR (F 0 0 L); released in fool27 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: PELiCAN MAN
-# SAUCE Author: SEL MAR MUPERFAR
-# SAUCE Group: F 0 0 L
-# SAUCE Date: 20180624
-# SAUCE Dimensions: 80x48
-# SAUCE Font: IBM VGA
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: PELiCAN MAN by SEL MAR MUPERFAR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fool27-smm-pelican
 
 Write-Host '
 [1;32;40m   [0;1;35;40m [0;1;32;40m   [0;1;35;40m [0;1;32;40m        [0;1;35;40m [0;1;33;40m    [0m

@@ -1,20 +1,4 @@
-﻿# Converted from: ADEPTAPRIL-CLIFF_STOLL-THE_CUCKOO'S_EGG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0426/raw/ADEPTAPRIL-CLIFF_STOLL-THE_CUCKOO'S_EGG.ANS
-# Source Revision: archive-sha256:c759ba228fb42808866da1267838a1ce2371215b87bc273c64f35f4bc653e77d
-# Source SHA-256: 0bc9b2205d5eb0611b471946a5dfb97e1e0527cc3f294f9125522d21cb0547bd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ADEPTAPRIL-CLIFF_STOLL-THE_CUCKOO'S_EGG.ANS by AdeptApril (Monoceros); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the Cuckoo's Egg
-# SAUCE Author: AdeptApril
-# SAUCE Group: Monoceros
-# SAUCE Date: 20260421
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Requested by Zeromous
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: the Cuckoo's Egg by AdeptApril | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0426-adeptapril-cliff-stoll-the-cuckoo-s-egg
 
 Write-Host '
     [1;36;46m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

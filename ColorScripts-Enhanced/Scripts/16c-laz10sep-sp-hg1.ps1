@@ -1,18 +1,4 @@
-﻿# Converted from: SP-HG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz10sep/raw/SP-HG1.ANS
-# Source Revision: archive-sha256:4ab640a5762659d8c89d1d4c7a47f2c8ebad1c9e802d4965d8fdc943ea824060
-# Source SHA-256: bd7f98db0e5191699692085f26d6ac57c0ba19c40221ba3f784dc6f860d75b9a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SP-HG1.ANS by spear (lazarus); released in laz10sep and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hemp gate
-# SAUCE Author: spear
-# SAUCE Group: lazarus
-# SAUCE Date: 19970902
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: hemp gate by spear | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz10sep-sp-hg1
 
 Write-Host '
           [1m▄▄[0;1;36m▄[0;1;37m▄[0;1;36m▄▄▄▄[0m

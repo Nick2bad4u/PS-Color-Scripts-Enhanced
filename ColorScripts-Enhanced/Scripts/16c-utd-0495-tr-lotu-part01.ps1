@@ -1,17 +1,4 @@
-﻿# Converted from: TR-LOTU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/utd-0495/raw/TR-LOTU.ANS
-# Source Revision: archive-sha256:0d1a82ad3d13d836a92b422703d06a1d6a82ae4f50721578a08763a2338a2df8
-# Source SHA-256: d4e08ce80ed7180b5c60d08e9be07e948e080e015da071f09f04aec7b520254d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-LOTU.ANS by Tripe (United); released in utd-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: LOTU
-# SAUCE Author: Tripe
-# SAUCE Group: United
-# SAUCE Date: 20950519
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: LOTU by Tripe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-utd-0495-tr-lotu-part01
 
 Write-Host '
                                  [34m▄▄▄▄▄▄▄▄▄▄[0m

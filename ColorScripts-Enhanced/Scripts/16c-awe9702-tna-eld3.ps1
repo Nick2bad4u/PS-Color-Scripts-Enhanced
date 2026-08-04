@@ -1,17 +1,4 @@
-﻿# Converted from: TNA-ELD3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9702/raw/TNA-ELD3.ANS
-# Source Revision: archive-sha256:66fa024bb27d2c5c9da5d44e7d12f110f2c57bdedd32c6f0a850d91a30d582a8
-# Source SHA-256: 3bcd3ccdfd120f80b98d507c0c8f9ff65cdae3bb521fd730eda47b294cddbade
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-ELD3.ANS by The Night Angel (AWE Lettering); released in awe9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Eldorado
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Eldorado by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9702-tna-eld3
 
 Write-Host '
                                   [35m▄[0m             [36m▄ ▀▀▄[0m             [34m▀ ■▄  [0;1;36m■[0m

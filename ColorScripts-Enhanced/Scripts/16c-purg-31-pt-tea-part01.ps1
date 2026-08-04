@@ -1,13 +1,4 @@
-﻿# Converted from: PT-TEA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-31/raw/PT-TEA.ANS
-# Source Revision: archive-sha256:9cc88d192df49e35c658707a79afc5ca4dd8a5e242cbc2c97e2babc069f74e21
-# Source SHA-256: fb7ad100521467ae1ca8c293058f523ab9e953adbfbc019cfac90875a3624a81
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PT-TEA.ANS by Produkt (purg-31); released in purg-31 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: PT-TEA.ANS by Produkt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-31-pt-tea-part01
 
 Write-Host '
 [31m█[0;1;31;41m▄▄[0;1;31;47m▓[0;1;31;41m▄███[0;1;31;47m▓▓[0;1;31;41m██[0;1;31;47m▓▒▒▓▓[0;1;31;41m██[0;1;31;40m▓▓▒[0;31m▀[0;1;31m▀▀▓[0;31m▀[0;1;31m▀▀▀▄[0m  [31m▀▀[0;37m [0;31m▀▀[0;1;31;41m▀█▄▄▄▄████▄▄▄   ▄▄▄▄███[0;1;31;47m▓▒▒▓[0;1;31;41m███[0;1;31;43m▓[0;1;31;41m▄▄[0;1;31;43m▓[0;33;41m▀▀[0;31;40m▀ [0;35;40m▄[0;31;40m █[0;1;33;47m▓[0m

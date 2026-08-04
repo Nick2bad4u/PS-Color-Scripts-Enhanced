@@ -1,19 +1,4 @@
-﻿# Converted from: tk-l1_2019.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel30/raw/tk-l1_2019.ans
-# Source Revision: archive-sha256:e3148e82a669aa484baf0738069fbabe44ba2824856e1cb4b05875b86bdd4621
-# Source SHA-256: a9528110185f0edeb0da1311dc432fe1737eb1b2ae310688074c6933f82dab82
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tk-l1_2019.ans by The Knight (Fuel); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Layer One promo ansi
-# SAUCE Author: The Knight
-# SAUCE Group: Fuel
-# SAUCE Date: 20190516
-# SAUCE Dimensions: 80x58
-# SAUCE Font: IBM VGA
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Layer One promo ansi by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel30-tk-l1-2019-part01
 
 Write-Host '
         [31;40m▄▄▄▄[0m        [31;40m▄▄▄▄[0m      [31;40m▄▄▄▄[0m     [31;40m▄▄▄▄[0;37;40m    [0;31;40m▄▄▄▄▄▄▄▄▄▄▄[0;37;40m    [0;31;40m▄▄▄▄▄▄▄▄▄▄[0m

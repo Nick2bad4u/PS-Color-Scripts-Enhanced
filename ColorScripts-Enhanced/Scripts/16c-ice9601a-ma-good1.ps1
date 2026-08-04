@@ -1,18 +1,4 @@
-﻿# Converted from: MA-GOOD1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9601a/raw/MA-GOOD1.ICE
-# Source Revision: archive-sha256:e4c089e3103bdc63762348bbcc2c54a05a351461817f667c54ad471098c66860
-# Source SHA-256: 44a5c343735b772bc1bac614e53d5ec0115b796349fa88293b98a529824ee173
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MA-GOOD1.ICE by Maestro (iCE Advertisements); released in ice9601a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Goodies Ansi Utils
-# SAUCE Author: Maestro
-# SAUCE Group: iCE Advertisements
-# SAUCE Date: 19960207
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Goodies Ansi Utils by Maestro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9601a-ma-good1
 
 Write-Host '
 [1m  [0;31m■░[0m     [31m▌[0m              [31m▐[0m      [34m░[0m              [34m▀ ░ ■[0m

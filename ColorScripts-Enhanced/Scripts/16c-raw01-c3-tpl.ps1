@@ -1,17 +1,4 @@
-﻿# Converted from: C3-TPL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/raw01/raw/C3-TPL.ANS
-# Source Revision: archive-sha256:68018d98da2353ea67bd0935370f9f9e7167a56c319420d702baa29dd9d82b28
-# Source SHA-256: 0f1755c18600eb27c606e22426ebb1f7e1e9932a59fde3a2e71e19a372555c24
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: C3-TPL.ANS by criminal enigma (raw01); released in raw01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the temple
-# SAUCE Author: criminal enigma
-# SAUCE Date: 19970405
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: the temple by criminal enigma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-raw01-c3-tpl
 
 Write-Host '
 [1;30m▌[0m [1;30m▄[0m▄[1;30m▄▐[0;1;30;47m▀[0m▄▄[1;30m▄▐[0;47m███[0;1;30;47m▐[0;1;30;40m▐[0m▄▄▄[1;30m▄[0m▄[1;30m█▀[0;32m ░▓[0;30;42m▄▄▄▄▄▐[0;32;47m███████████[0;1;32;42m░░[0;32;47m█[0;32;40m▓[0;30;42m▄▄ [0;32;47m█[0;30;42m ▄▄[0;32;47m███████[0;1;32;42m░░[0;32;47m███[0;1;32;42m░░[0;32;47m██[0;30;42m▄▄[0;32;47m█[0;32;40m█[0;1;33;42m  [0;1;30;40m ▀[0;1;30;47m▄[0m

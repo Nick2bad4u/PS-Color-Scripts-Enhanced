@@ -1,13 +1,4 @@
-﻿# Converted from: PH-JNNET.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/goo001/raw/PH-JNNET.ANS
-# Source Revision: archive-sha256:609b75692692ccb2a91163fa5e36ca9c681f1416fea825b599b6028bd9003936
-# Source SHA-256: 0cab6896e70fae6a4118a44dc8c9695d8e4442a18dd2122102dd29d0a5dbcba9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PH-JNNET.ANS by Psychoholic (goo001); released in goo001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: PH-JNNET.ANS by Psychoholic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-goo001-ph-jnnet
 
 Write-Host '
                                                  [34m [0m

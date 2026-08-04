@@ -1,17 +1,4 @@
-﻿# Converted from: TII-SAE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/arc-16/raw/TII-SAE.ANS
-# Source Revision: archive-sha256:e369cb471f14ccd57254b0b30c1dc8ac4b174131115a1090d2162b1c8280c087
-# Source SHA-256: b782e8b88f06961116e4477773a5f82b8f1fae945d07c4e36bcec5b8a39d061d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TII-SAE.ANS by tetsuo_ii (arc-16); released in arc-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: share and enjoy
-# SAUCE Author: tetsuo_ii
-# SAUCE Date: 20000401
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: share and enjoy by tetsuo_ii | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-arc-16-tii-sae
 
 Write-Host '
                     [1;30m░[0m

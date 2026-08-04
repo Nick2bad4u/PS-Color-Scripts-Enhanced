@@ -1,17 +1,4 @@
-﻿# Converted from: NI-LFW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dvs-0395/raw/NI-LFW.ANS
-# Source Revision: archive-sha256:c49ad3c0e3e5b315095bd79d2ed76033b964bb7e984bcdece6d966635f27ad43
-# Source SHA-256: 4aa5028b6b6c6c201dc8b7547bae5a66efcf91d0a23a4b02c79412ae5a10d4f5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-LFW.ANS by Nirvana (DVS); released in dvs-0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Lost For Wordz
-# SAUCE Author: Nirvana
-# SAUCE Group: DVS
-# SAUCE Date: 20950219
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Lost For Wordz by Nirvana | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dvs-0395-ni-lfw-part01
 
 Write-Host '
 [1;30m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m

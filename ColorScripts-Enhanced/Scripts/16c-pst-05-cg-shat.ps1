@@ -1,18 +1,4 @@
-﻿# Converted from: CG-SHAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pst-05/raw/CG-SHAT.ANS
-# Source Revision: archive-sha256:14f481f943dbbb8808fa1b68b61aa9c5922fc2a7890c1906e8128525fa42d14c
-# Source SHA-256: 64fc74085b9b76646f1f758ef1381dea8d14deaf6a113fcddd28e31d3d672e2a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-SHAT.ANS by cryogenic (awe); released in pst-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: shatter
-# SAUCE Author: cryogenic
-# SAUCE Group: awe
-# SAUCE Date: 19980819
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: shatter by cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pst-05-cg-shat
 
 Write-Host '
 [32m▄[0;37m  [0;33m▄[0;37m  [0;32m▀▀▀[0;1;32;42m▀▓░[0;1;32;40m▄[0;32m▄[0;1;32m▒[0;30;42m░[0;32;40m░[0m     [36;40m░░▓▓▀[0;1;36;46m▀▓░[0;36m▀[0;37m [0;1;37m░[0m      [1;30man awe production...[0m

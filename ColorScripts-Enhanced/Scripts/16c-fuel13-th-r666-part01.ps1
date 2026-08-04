@@ -1,18 +1,4 @@
-﻿# Converted from: TH-R666.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel13/raw/TH-R666.ANS
-# Source Revision: archive-sha256:570310635bd377c51dda6add80730abba1fa8786bf6aaf423ae20c54dbfdb41a
-# Source SHA-256: af675c99e9bfc87249b46f0e219ac4ee1a506c790745481e5e190e48924f33b1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH-R666.ANS by Thrasher + Ize (Fuel Productions); released in fuel13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Route 666
-# SAUCE Author: Thrasher & Ize
-# SAUCE Group: Fuel Productions
-# SAUCE Date: 19970526
-# SAUCE Dimensions: 80x105
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Route 666 by Thrasher + Ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel13-th-r666-part01
 
 Write-Host '
 [34m███████████████████████████████████████████████████████████████████████████▀███ [0m

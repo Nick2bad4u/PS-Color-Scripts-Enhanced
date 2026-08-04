@@ -1,17 +1,4 @@
-﻿# Converted from: A3-TDF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0497/raw/A3-TDF.ANS
-# Source Revision: archive-sha256:0a24528ad1b8350dc6275ed84884990aa181682392c532082994d5872ceb5801
-# Source SHA-256: e4245eeb651e593b6fb367ade2d85bb4d696ab015ef5f2c6ae8c542576d033e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: A3-TDF.ANS by absence (fsn-0497); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the_dark force.
-# SAUCE Author: absence
-# SAUCE Date: 19970330
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: the_dark force. by absence | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0497-a3-tdf
 
 Write-Host '
 

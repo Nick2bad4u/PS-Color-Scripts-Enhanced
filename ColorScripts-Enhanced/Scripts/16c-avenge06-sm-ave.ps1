@@ -1,18 +1,4 @@
-﻿# Converted from: SM!AVE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge06/raw/SM!AVE.ANS
-# Source Revision: archive-sha256:3343a7da51e4a450136a75930623f444cfdaa25bcfa6b32a1ded4c93bc4637e9
-# Source SHA-256: 39b11d457d2bfad8051ea68af41d85e24d3600ae352794303f261f2365c1ec8a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM!AVE.ANS by sims (Avenge98); released in avenge06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Avenge promo
-# SAUCE Author: sims
-# SAUCE Group: Avenge98
-# SAUCE Date: 19980630
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Avenge promo by sims | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge06-sm-ave
 
 Write-Host '
  [34m▄[0m    [34m▄[0;1;34;44m▄[0;1;34;47m▓[0;34m▐[0;1;34;47m▓▓[0;1;34;44m▄[0;34m▄[0;37m [0;34m▄[0m    [34m▄[0;1;34m▄▄[0m                          [34m▄[0;1;34;44m▄[0;34m▄ ▄▄ ▌[0m      [34m░[0;30;44m▓[0;34;40m░[0;30;44m▓[0;37;40m  [0;34;40m▄[0m   [34;40m▄[0;37;40m  [0;34;40m▄[0;1;34;44m▄[0;34m▄[0m

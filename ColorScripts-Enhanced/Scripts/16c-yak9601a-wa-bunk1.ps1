@@ -1,18 +1,4 @@
-﻿# Converted from: WA-BUNK1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/yak9601a/raw/WA-BUNK1.ANS
-# Source Revision: archive-sha256:0ef47e6c5957fc02130eec9688203a874e59abb766f403c5192fe56bd23b5e1f
-# Source SHA-256: 915d62f322dd36f19bebc6ad157efd79ad31ebac575d7acb9286830a20a9cfae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WA-BUNK1.ANS by warpus (yak); released in yak9601a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: bunk
-# SAUCE Author: warpus
-# SAUCE Group: yak
-# SAUCE Date: 19951226
-# SAUCE Dimensions: 80x25
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: bunk by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-yak9601a-wa-bunk1
 
 Write-Host '
                                 [36m▄▄▄▄▄[0;1;36m▄[0;1;36;46m▓[0;1;36;40m▄▄▄▄[0;1;36;47m▓[0;1;36;40m▄[0m

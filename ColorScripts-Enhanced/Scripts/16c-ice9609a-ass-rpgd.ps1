@@ -1,18 +1,4 @@
-﻿# Converted from: ASS-RPGD.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9609a/raw/ASS-RPGD.ICE
-# Source Revision: archive-sha256:541cf0b323317a2c01aae16b97d3d5f7ccc5db8dbd14c10b2267c0eefccf97b7
-# Source SHA-256: 09271deaf003a5ee9ce0d4a8b2b913f0bed1e94a1dd03d654659d5fc93e50822
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ASS-RPGD.ICE by Soul Assassin (iCe); released in ice9609a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Demoniac
-# SAUCE Author: Soul Assassin
-# SAUCE Group: iCe
-# SAUCE Date: 19960923
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Demoniac by Soul Assassin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9609a-ass-rpgd
 
 Write-Host '
  [34m▄▀▀[0;1;34;44m░[0;30;44m▀[0;1;34;44m░[0;34m▀█▀▄▀[0;1;34;44m▒[0;34m▀[0;1;34;44m▒[0;34m▀▄▀[0;1;34;44m░[0;34m▐[0;1;34;44m░[0;34m▀▄▀█[0;1;34;44m░[0;34m▄[0;1;34;44m░[0;34m▀▄▄[0;1;34;44m░░[0;34m▀▄▀[0;1;34;44m░[0;34m▄▀▄▀▀[0;1;34;44m░[0;34m▀▄[0;1;34;44m░[0;34m▀▀▄▄[0;1;34;44m░[0;34m▄[0;1;34;44m░[0;34m▀[0;1;34;44m░░[0;34m▀▀▄[0;1;34;44m▒▒▒[0;34m▀▀▀[0;1;34;44m░[0;34m▀▄▄[0;1;34;44m▒[0;34m▄[0;1;34;44m░[0;34m▀[0;1;34;44m▒▒░[0;34m▄▄▄[0m

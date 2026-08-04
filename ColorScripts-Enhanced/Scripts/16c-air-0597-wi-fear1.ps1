@@ -1,18 +1,4 @@
-﻿# Converted from: WI-FEAR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/air_0597/raw/WI-FEAR1.ANS
-# Source Revision: archive-sha256:6fe653cdae1d1be3a85ad8606d04a6519ed3da6d9d33e501c49ef3bdd23379d9
-# Source SHA-256: 14a49a32c13637a7e9ad135bfd7eefcf7f1b7d170dd3935a18a4bd8c46a382b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WI-FEAR1.ANS by \\i - White Ice (sOciety); released in air_0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fear logo #o1
-# SAUCE Author: \\i - White Ice
-# SAUCE Group: sOciety
-# SAUCE Date: 19970315
-# SAUCE Dimensions: 80x25
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: fear logo #o1 by \\i - White Ice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-air-0597-wi-fear1
 
 Write-Host '
                      [1;30m▄▀▀▀▄[0m     [1;30m▄▀▀▀▄[0m     [1;30m▄▀▀▀▄[0m     [1;30m▄▀▀▀▄[0m

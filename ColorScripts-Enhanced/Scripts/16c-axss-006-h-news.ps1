@@ -1,18 +1,4 @@
-﻿# Converted from: $H-NEWS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axss-006/raw/%24H-NEWS.ANS
-# Source Revision: archive-sha256:39a0e683007d43eb8cd94e6cd685ee5731b838c3be46754835947ed7db947872
-# Source SHA-256: deaf87552daf01b30c70ae8eea3c68f2fbaa82aa24ca796e0a1591d6a01e61c1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: $H-NEWS.ANS by Shinigami (.%.AXss.%. -97); released in axss-006 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: A NEWS Logo for The Nocturnal Trip.
-# SAUCE Author: Shinigami
-# SAUCE Group: .%.AXss.%. -97
-# SAUCE Date: 19970704
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: A NEWS Logo for The Nocturnal Trip. by Shinigami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axss-006-h-news
 
 Write-Host '
                       ░           [1;30m░[0m                             [1;30m░░[0m

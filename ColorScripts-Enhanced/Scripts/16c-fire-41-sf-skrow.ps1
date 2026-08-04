@@ -1,18 +1,4 @@
-﻿# Converted from: SF-SKROW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/SF-SKROW.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: f195b5282243626f94094a1a942fba460afb5882dbe6e0a3648d3f1024b68925
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SF-SKROW.ANS by sander (fire-41); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: skid row
-# SAUCE Author: sander
-# SAUCE Date: 20241111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: skid row by sander | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-sf-skrow
 
 Write-Host '
                                                  [1m▄▄[0;1;36m        [0;36m▄▄▄[0;1;36m▄▄▄[0;1;37m▄▄▄▄[0;1;37;46m▄▄▄▄[0m

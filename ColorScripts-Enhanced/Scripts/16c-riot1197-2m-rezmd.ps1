@@ -1,17 +1,4 @@
-﻿# Converted from: 2m-rezmd.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot1197/raw/2m-rezmd.ans
-# Source Revision: archive-sha256:42a4ff2f69bb7f52710e2ec33efed1616917289c2c21517459d11ab153763ccb
-# Source SHA-256: 64a1ae84ed82f5711a644acc39de1d708626ab02600c59fdf7ff7bc5618bb777
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2m-rezmd.ans by 2much4u (RioT Productions); released in riot1197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: 2much4u
-# SAUCE Group: RioT Productions
-# SAUCE Date: 19971114
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: 2m-rezmd.ans by 2much4u | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot1197-2m-rezmd
 
 Write-Host '
                   [1;30m▄▄▐[0m [31m▄▄ [0m                                         [1;30m▄[0m [1;30m▀▄[0m

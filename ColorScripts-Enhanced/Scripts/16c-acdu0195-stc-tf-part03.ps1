@@ -1,18 +1,4 @@
-﻿# Converted from: STC-TF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0195/raw/STC-TF.ANS
-# Source Revision: archive-sha256:bba094e7325779ca430921c43e89d6d5eeb3533a54f085963b521f20303604f4
-# Source SHA-256: 626f876f73f1594477de1b1b33c3ef2ad705dbfe494cf114103faab6b13e2c91
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STC-TF.ANS by Stone The Crow (ACiD Productions); released in acdu0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Terra Firma
-# SAUCE Author: Stone The Crow
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950101
-# SAUCE Dimensions: 80x136
-# Lines: 89-136
-# Columns: 1-80
+﻿# Artwork: Terra Firma by Stone The Crow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0195-stc-tf-part03
 
 Write-Host '
 [1;37;40m▓▌[0m [1;30;40m░[0m [1;37;40m░[0m   [1;37;40m▒[0m    [31m▄[0m [31m▀▀[0m    [31m▌[0m [37m▒[0;1;30m░[0m [1;30m░[0m    [33m [0m    [31m [0;1;30m░░[0m [33m  [0m [31m▌[0m      [1;37m [0m   [1;37m   [0m [1;37m▀[0m   [1;37m▄█▄[0;1;37;47m▒[0m  [1;30;40m▓[0m [1;37;40m▓███▐[0m

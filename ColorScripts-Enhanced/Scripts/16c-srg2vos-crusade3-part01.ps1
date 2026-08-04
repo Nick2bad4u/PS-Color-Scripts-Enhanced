@@ -1,18 +1,4 @@
-﻿# Converted from: CRUSADE3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/srg2vos/raw/CRUSADE3.ANS
-# Source Revision: raw-sha256:b5668640141a13536efa01ba378c67225422ad804fc8dd3d0dad8990bef07250
-# Source SHA-256: b5668640141a13536efa01ba378c67225422ad804fc8dd3d0dad8990bef07250
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CRUSADE3.ANS by crusader (fbk.sargahd^vos); released in srg2vos and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: victims of society
-# SAUCE Author: crusader
-# SAUCE Group: fbk.sargahd^vos
-# SAUCE Date: 19961108
-# SAUCE Dimensions: 80x86
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: victims of society by crusader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-srg2vos-crusade3-part01
 
 Write-Host '
               [1;34;44m▓[0;34m [0;1;34m░[0;34m    [0m     [1;34;44m░[0;34m [0;1;33;44m▓[0;1;34;40m▄[0;34m [0;1;35m▄▄[0;1;35;45m███[0m

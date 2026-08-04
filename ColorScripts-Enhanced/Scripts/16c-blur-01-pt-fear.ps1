@@ -1,18 +1,4 @@
-﻿# Converted from: PT-FEAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blur-01/raw/PT-FEAR.ANS
-# Source Revision: archive-sha256:2e24e002aa423e6089e230171fb4f78c11c68510667b6cff05ce5bffed646ce1
-# Source SHA-256: 8232ecd838bddc1eaf7209a0daae859e46248de3cb235a5634643ade5bcb6c3c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PT-FEAR.ANS by Prestige (fear!blur!); released in blur-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Fear
-# SAUCE Author: Prestige
-# SAUCE Group: fear!blur!
-# SAUCE Date: 19960207
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Fear by Prestige | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blur-01-pt-fear
 
 Write-Host '
 

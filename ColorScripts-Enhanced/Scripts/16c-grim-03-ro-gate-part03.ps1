@@ -1,13 +1,4 @@
-﻿# Converted from: RO-GATE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/grim-03/raw/RO-GATE.ANS
-# Source Revision: archive-sha256:ebc036abf9a775cca5b26ca6cd97418b4cbcbb8a88c78d39df773432429bd88a
-# Source SHA-256: 141cf925d1254b4296fe31d8e7458b87aac2205fced1b2d73784be0b8e2d3fa7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RO-GATE.ANS by Repete Ophender (grim-03); released in grim-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 100-143
-# Columns: 1-80
+﻿# Artwork: RO-GATE.ANS by Repete Ophender | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-grim-03-ro-gate-part03
 
 Write-Host '
                     [1;30m▀▀[0;1;30;41m█▄▄[0;1;31;41m▓[0;1;30;40m█[0m               [1;37;40m█[0;1;37;41m▀[0;31m▓▒▒░░   [0;1;30m▄░[0m

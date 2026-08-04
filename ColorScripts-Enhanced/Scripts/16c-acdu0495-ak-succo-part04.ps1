@@ -1,18 +1,4 @@
-﻿# Converted from: AK-SUCCO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0495/raw/AK-SUCCO.ANS
-# Source Revision: archive-sha256:93425d63fbf60a9e51bd167f233b1cc6d824b1daa247d08c1db7f22759166ba0
-# Source SHA-256: ff8c097a81df11f61eb24bc24c8492b8cab0c3f26a963a3942cf8de7dcdbd5fa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-SUCCO.ANS by Asian Knight + Vanquish (ACiD Productions); released in acdu0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Succotash
-# SAUCE Author: Asian Knight
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950401
-# SAUCE Dimensions: 80x178
-# Lines: 139-178
-# Columns: 1-80
+﻿# Artwork: Succotash by Asian Knight + Vanquish | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0495-ak-succo-part04
 
 Write-Host '
           [1;33m▀▀[0;1;33;43m▓▓▓▓▓▒▒▒▒▒░░░░▒░▒[0m     [1;33m▀[0m     [33m▄▄[0m                        [1;33m░  [0;33m▄▄▄[0;1;37;43m░[0;33m▄▄  ▄[0m

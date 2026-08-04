@@ -1,18 +1,4 @@
-﻿# Converted from: BK-GS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1294/raw/BK-GS1.ANS
-# Source Revision: archive-sha256:f8a4b1074b7793df8f3d2e2341b035c3ebc6fa160937f8fe7508c74b4b0317e1
-# Source SHA-256: 16e40ea4514cd66599e2f568225cd38e0e7f091e92d3c0dbcf2676cd5c6b5ecd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BK-GS1.ANS by Bad Karma (ACiD Productions); released in acdu1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Games Station
-# SAUCE Author: Bad Karma
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19941201
-# SAUCE Dimensions: 80x136
-# Lines: 44-92
-# Columns: 1-80
+﻿# Artwork: The Games Station by Bad Karma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1294-bk-gs1-part02
 
 Write-Host '
               [1m·[0m     [1;33m▄[0m        ███    ▄████▀[1;33m▄ ▄   [0;1;37m▄▄▄ ▀████▄▄  [0;1;30m▀[0m     ▀█       [1m·[0m

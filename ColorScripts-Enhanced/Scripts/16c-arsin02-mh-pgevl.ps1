@@ -1,13 +1,4 @@
-﻿# Converted from: MH!PGEVL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/arsin02/raw/MH!PGEVL.ANS
-# Source Revision: archive-sha256:8b3ca93f9d07119d47150f846bba6e8cd466371f5d81106c3318f874455ab21e
-# Source SHA-256: 03181025edf5cb0fc2ebaa7303a6a299e1eb3e0e198aa893b3fd2b1ed49e1aad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MH!PGEVL.ANS by Maddog Hoek (arsin02); released in arsin02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: MH!PGEVL.ANS by Maddog Hoek | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-arsin02-mh-pgevl
 
 Write-Host '
                       [33m                             [0;1;33m▄[0m

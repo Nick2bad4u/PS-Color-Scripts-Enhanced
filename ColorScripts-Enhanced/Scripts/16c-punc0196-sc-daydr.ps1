@@ -1,18 +1,4 @@
-﻿# Converted from: SC-DAYDR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/punc0196/raw/SC-DAYDR.ANS
-# Source Revision: archive-sha256:a35818fffb6c79617d0157a999a2470fea16ca34611af1fb400b031e939baf43
-# Source SHA-256: 9e87e19edfbd75f493ab02cf9058128d7d11421c6a8ffa31643cb93a48276882
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-DAYDR.ANS by soul crusher (PuNC Productions); released in punc0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: daydream nation
-# SAUCE Author: soul crusher
-# SAUCE Group: PuNC Productions
-# SAUCE Date: 19951115
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: daydream nation by soul crusher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-punc0196-sc-daydr
 
 Write-Host '
 [1m           [0m         [1;30m▄▀▀▀▀▀▀█[0m      [1;30m▄▀▀▀▀▀▀▀▀▀▀▀▄[0m      [1;30m█▀▀▀▀▀▀▄[0m

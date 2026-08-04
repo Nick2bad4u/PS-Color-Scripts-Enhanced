@@ -1,13 +1,4 @@
-﻿# Converted from: THEWALL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roy-stuf/raw/THEWALL.ANS
-# Source Revision: archive-sha256:1f203f95f339c258e43a9098f8d2e689ed73de537b1cfe6bea312dfc156f1358
-# Source SHA-256: 6200b90769efcce607128f827287fa8e22c25c3caa193528e37cb392f97cc159
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: THEWALL.ANS by Roy (roy-stuf); released in roy-stuf and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: THEWALL.ANS by Roy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roy-stuf-thewall
 
 Write-Host '
 [1m  [0;1;31m┌[0;33m─[0;1;31m┌[0;33m─[0;1;31m┌[0;33m─[0;1;31m┌[0;33m─[0;1;31m┌[0;33m─[0;1;31m┌[0;33m─[0;1;31m┌[0;33m─[0;1;31m┌[0;33m─[0;31m┌[0;33m─[0;31m┌[0;33m─[0;31m┌[0;33m─[0;31m┌[0;33m─[0;31m┌[0;33m─[0;31m┌[0;33m─[0;31m┌  [0;1mPiNK FLOYD''s  [0;33m─[0;31m┌[0;33m─[0;31m┌[0;33m─[0;31m┌[0;33m─[0;31m┌[0;33m─[0;31m┌[0;33m─[0;31m┌[0;33m─[0;31m┌[0;33m─[0;31m┌[0;33m─[0;31m┌[0;33m─[0;31m┌[0;1;31m─[0;31m┌[0;1;31m─[0;31m┌[0;1;31m─[0;31m┌[0;1;31m─[0;31m┌[0;1;31m─[0;31m┌[0;1;31m─[0m

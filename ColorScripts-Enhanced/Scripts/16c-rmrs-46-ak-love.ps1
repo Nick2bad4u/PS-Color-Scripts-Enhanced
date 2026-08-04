@@ -1,13 +1,4 @@
-﻿# Converted from: AK-LOVE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-46/raw/AK-LOVE.ANS
-# Source Revision: archive-sha256:579684f5d08ba80e6f0851ef140b90f977f3d651501f1429d81654246efb3324
-# Source SHA-256: 3d49d17414674d8f6b08538266e6fe187377e4e3c96835d5d0f8ee2fb27e446c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-LOVE.ANS by Abstrakt (rmrs-46); released in rmrs-46 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: AK-LOVE.ANS by Abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-46-ak-love
 
 Write-Host '
 [1;30m[0;31m[0;1;30m[0m

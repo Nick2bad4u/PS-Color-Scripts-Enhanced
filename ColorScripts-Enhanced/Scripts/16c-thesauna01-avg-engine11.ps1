@@ -1,19 +1,4 @@
-﻿# Converted from: avg-engine11.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna01/raw/avg-engine11.ans
-# Source Revision: archive-sha256:70f712dbf565de1ceb0f2b7020b54aa443621235a47b082b92e24e13342b0672
-# Source SHA-256: 61eda8453e64ac5b9aab321943d18f6fb99f94337442e18c82d381ad898cee66
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-engine11.ans by avenging angel (sauna); released in thesauna01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: engine11
-# SAUCE Author: avenging angel
-# SAUCE Group: sauna
-# SAUCE Date: 20190926
-# SAUCE Dimensions: 80x20
-# SAUCE Font: IBM VGA
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: engine11 by avenging angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna01-avg-engine11
 
 Write-Host '
 

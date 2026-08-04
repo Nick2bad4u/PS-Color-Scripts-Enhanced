@@ -1,18 +1,4 @@
-﻿# Converted from: M7-NEON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-05/raw/M7-NEON.ANS
-# Source Revision: archive-sha256:9471ca7612415a41916878584e9d9bf710a5efbc5b8d389ed1bde764e2a602ca
-# Source SHA-256: 72f3b4350ba3f11c0922b76df10151f98793e7f5e2bb9567cfab10d575558b45
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M7-NEON.ANS by magnatop (eclipse); released in ecl-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ne0n
-# SAUCE Author: magnatop
-# SAUCE Group: eclipse
-# SAUCE Date: 19960815
-# SAUCE Dimensions: 80x12
-# Lines: 1-12
-# Columns: 1-80
+﻿# Artwork: ne0n by magnatop | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-05-m7-neon
 
 Write-Host '
 

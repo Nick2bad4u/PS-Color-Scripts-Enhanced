@@ -1,18 +1,4 @@
-﻿# Converted from: MB-RMS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1094/raw/MB-RMS.ANS
-# Source Revision: archive-sha256:d3bff25180c9d41e42ce231a1946b0f69919e5a64c552b5582fe7482825c4fec
-# Source SHA-256: a315c1fd90aa59180020542a15be0e7b51be86a9cbafee9d6cbbcd9ef85889e5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MB-RMS.ANS by Morbius + Vanquish (ACiD Productions); released in acdu1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Rise of the Midnight Suns
-# SAUCE Author: Morbius
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940904
-# SAUCE Dimensions: 80x148
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Rise of the Midnight Suns by Morbius + Vanquish | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1094-mb-rms-part02
 
 Write-Host '
 [34m▐█▄  [0;31m▄[0;1;31;41m░[0;31m▓ ▐▌▀▀[0m▐▌ ▀  ▀▄■▄■▐▌ ▓  ▓▌ █▌▐█▀[1;47m░░[0m▌▐[1;47m▒▒▒[0;1m▀▀▀ ▄▄[0m▄▀▀[1m▀▄▀ [0m▄▀▀▄■ [1m▐[0;1;47m▒[0m [1m■▄ ▐▌    [0m▀

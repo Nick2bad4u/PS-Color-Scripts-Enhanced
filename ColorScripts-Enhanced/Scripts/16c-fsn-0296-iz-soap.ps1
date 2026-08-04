@@ -1,18 +1,4 @@
-﻿# Converted from: IZ½SOAP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0296/raw/IZ%C2%BDSOAP.ANS
-# Source Revision: archive-sha256:0eb4b2482411f38ef708ec089ec5cba17c181d4a0eee6324511602aa4e53eac8
-# Source SHA-256: c57a0a768e467463bd4efc583010c5b2110d44e9c51f08782c7f87e69e583885
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ½SOAP.ANS by ize (fusion); released in fsn-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: soap (slippery when wet :)
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19960207
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: soap (slippery when wet :) by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0296-iz-soap
 
 Write-Host '
 [1;32;42m▓[0;32m█[0;1;32;42m▒▓▓[0;32m█[0;1;32;42m▓▓▓[0;32m██[0;1;32;42m▒[0;32m██[0;1;32;42m▒▒▒▒▒░░[0;32m█[0;1;32;42m░░░[0;32m██[0;1;32;42m░░░[0;32m▀▀[0;37m [0;32m▄▄▄[0;37m  [0;32m▀[0;1;32;42m░[0;32m██[0;1;32;42m░░░░[0;32m█[0;1;32;42m░░░▒▒▒▓▓▓▓░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░[0m

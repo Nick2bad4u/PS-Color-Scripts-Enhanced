@@ -1,17 +1,4 @@
-﻿# Converted from: 90-PYRO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-04/raw/90-PYRO.ANS
-# Source Revision: archive-sha256:d0917030b27b9e907ef52cd30dd36996f1f4d775686af44e1bfd4859874789fb
-# Source SHA-256: edb892d87fa4011235d08da3c31e652ae76733094c33990f088fcc73ab953dca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 90-PYRO.ANS by PleetO (Hype Inc.); released in hype-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: " Pyro Pic "
-# SAUCE Author: PleetO
-# SAUCE Group: Hype Inc.
-# SAUCE Dimensions: 80x25
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: " Pyro Pic " by PleetO | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-04-90-pyro
 
 Write-Host '
 [1;33m██████████[0m [1;36m████████████████████████████████████████████████████████▓▀▀▀▀▀▀▀▀▓███[0m

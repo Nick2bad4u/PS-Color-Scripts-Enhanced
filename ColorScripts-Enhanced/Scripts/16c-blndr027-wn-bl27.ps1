@@ -1,13 +1,4 @@
-﻿# Converted from: WN_BL27.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr027/raw/WN_BL27.ANS
-# Source Revision: archive-sha256:2a4d0c05541fdadd9cba68d756b304446a6646da8e7ed628d0afa905417c614c
-# Source SHA-256: d49030941abb7104d50bf107ac93ca58124c1721ea486cc858bd05ff05c3fc83
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WN_BL27.ANS by Wenders (blndr027); released in blndr027 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: WN_BL27.ANS by Wenders | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr027-wn-bl27
 
 Write-Host '
 

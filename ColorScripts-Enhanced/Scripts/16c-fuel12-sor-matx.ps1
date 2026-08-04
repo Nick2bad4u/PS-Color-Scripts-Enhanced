@@ -1,18 +1,4 @@
-﻿# Converted from: SOR-MATX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel12/raw/SOR-MATX.ANS
-# Source Revision: archive-sha256:ebe2e7b01f31e0e82aa2702a876007d4ec2dd824b98bdf40e4d59e2b113da7e4
-# Source SHA-256: 0b9b701962903c131680a62d27e080446278d37ee39e92c0bda5f3e84857a5c8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SOR-MATX.ANS by Spirit of Rage (Fuel Productions); released in fuel12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Matrix for Roadrash
-# SAUCE Author: Spirit of Rage
-# SAUCE Group: Fuel Productions
-# SAUCE Date: 19970401
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Matrix for Roadrash by Spirit of Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel12-sor-matx
 
 Write-Host '
 [1;35msor[0;1;36m([0;1;31mfuel[0;1;36;45m)[0;35m▌[0;1;37m▐[0;1;37;44m█[0;1;37;47m▓[0;1;34;47m▒▓[0;1;34;44m███[0;1;34;40m█[0;1;34;44m▓░[0;34m█[0;1;34;44m ░▒░ [0;34m███[0;1;30;44m░░▒▒▒[0;34m▄ ▀[0;1;34;44m░[0;34m██[0;1;34;44m░░ [0;34m██[0;1;30;44m░░[0;34m▀█[0;1;34;44m░▄▄▓████▀[0;1;34;40m▀▀▀▀[0;1;34;44m█████[0;1;34;46m▓▓[0;1;34;44m████▓▓▒▒░░[0m

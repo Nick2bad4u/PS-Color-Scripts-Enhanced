@@ -1,19 +1,4 @@
-﻿# Converted from: ungenannt-merryxmas.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_miracle_on_67th_street/raw/ungenannt-merryxmas.ans
-# Source Revision: archive-sha256:7a78b3edd176c6d05feb481522f2c4f3e57721df62292c2b4ce537e855c41ae8
-# Source SHA-256: 28df238b6cb8766844f88308905bb7d6ed98feada982008cba9715794cb9bb3b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ungenannt-merryxmas.ans by ungenannt (Blocktronics); released in blocktronics_miracle_on_67th_street and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Merry Xmas 2018
-# SAUCE Author: ungenannt
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20181223
-# SAUCE Dimensions: 80x146
-# SAUCE Font: IBM VGA
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Merry Xmas 2018 by ungenannt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-miracle-on-67th-street-ungenannt-merryxmas-part01
 
 Write-Host '
                                                                         [1;38;2;87;87;87;48;2;0;0;0m       [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: VE-DK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dvl-pk01/raw/VE-DK.ANS
-# Source Revision: archive-sha256:04659a71fad0b44fa33c1540ce482a88ef2d7d511aaf3612fdd59e5ae6746955
-# Source SHA-256: 21a0a337ffaced11946caf81dc9e90ad58aa49fc44ae6b8420a82b5a580f3013
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VE-DK.ANS by VeNoMouS (DeViL FoRCeS); released in dvl-pk01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: CHiVo oF Da BBS oF vN!
-# SAUCE Author: VeNoMouS
-# SAUCE Group: DeViL FoRCeS
-# SAUCE Date: 19970310
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: CHiVo oF Da BBS oF vN! by VeNoMouS | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dvl-pk01-ve-dk
 
 Write-Host '
 [1m [0m [1;30m   '' [0;1;37mA[0ms[1;30mkee [0;1;37mB[0my [1mV[0me[1;30mNoMouS  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m

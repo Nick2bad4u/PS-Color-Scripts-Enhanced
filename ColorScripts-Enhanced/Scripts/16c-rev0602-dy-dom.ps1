@@ -1,18 +1,4 @@
-﻿# Converted from: Dy-dom.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0602/raw/Dy-dom.ans
-# Source Revision: archive-sha256:eda7ced449224c105e12a5409de54d9f7839715cee6913970969dbabd435477f
-# Source SHA-256: 54448b3de355b614b34013d4a438ed93c0efac9568a36d69202927ec7e1c77b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Dy-dom.ans by discyple (Revival); released in rev0602 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Dominion
-# SAUCE Author: discyple
-# SAUCE Group: Revival
-# SAUCE Date: 20020615
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: The Dominion by discyple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0602-dy-dom
 
 Write-Host '
      .d[1m$$[0m$$$$$[1m$$$j/[0m''`"²┘*j$$$$[1m$$$$$$$$$$$$$$$$$$[0mb [1;36m [0m [1m  [0m

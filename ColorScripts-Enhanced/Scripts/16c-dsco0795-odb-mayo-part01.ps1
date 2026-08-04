@@ -1,18 +1,4 @@
-﻿# Converted from: ODB-MAYO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dsco0795/raw/ODB-MAYO.ANS
-# Source Revision: archive-sha256:966d7b267f819de4a0302f2a724bfb71dbffa0f22349c348b7676601afc61d5b
-# Source SHA-256: 43634e74661b674463e1957e579f7dff336e2072ff1427bfdbdfa0b1a445d9c3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ODB-MAYO.ANS by Ol' Dirty Bastard (READ THE INI FILE); released in dsco0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Mayo
-# SAUCE Author: Ol' Dirty Bastard
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950711
-# SAUCE Dimensions: 80x25
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: Mayo by Ol' Dirty Bastard | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dsco0795-odb-mayo-part01
 
 Write-Host '
 [34m[0m[34m[0m                      [1;30m▄[0m

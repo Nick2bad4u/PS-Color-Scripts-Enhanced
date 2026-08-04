@@ -1,13 +1,4 @@
-﻿# Converted from: CP-SODAH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0197/raw/CP-SODAH.ANS
-# Source Revision: archive-sha256:db16ecaf9a5ba2dcf16f11149d4e3768d3e19930159af1ef0ef2625ea12b3e30
-# Source SHA-256: 30d74f75183871beb1f0ffbad97fc14736db1c35e171c7c652a28689160608ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CP-SODAH.ANS by Oolite + Tape (fsn-0197); released in fsn-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: CP-SODAH.ANS by Oolite + Tape | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0197-cp-sodah
 
 Write-Host '
                                [1;30m░[0;36m [0;31m▌[0;1;31;41mcream soda[0;31m▐[0;34m [0;1;30m░ [0m

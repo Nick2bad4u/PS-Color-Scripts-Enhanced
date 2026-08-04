@@ -1,18 +1,4 @@
-﻿# Converted from: SD-B1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy07/raw/SD-B1.ANS
-# Source Revision: archive-sha256:cf53c4ea5c286717abe3d962fb98452e352d7d7a30a31881220e7068a7f0bb79
-# Source SHA-256: 4096044dc4b1f5c3ee1ec4ce61273e93cd0bb535dede5389e3218d59ee93116a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-B1.ANS by sir_death. (apathy.); released in apathy07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: blah.
-# SAUCE Author: sir_death.
-# SAUCE Group: apathy.
-# SAUCE Date: 19960206
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: blah. by sir_death. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy07-sd-b1
 
 Write-Host '
 [1;30m--------------------------------------------------------------------------------[0m

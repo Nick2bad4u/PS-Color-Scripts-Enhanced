@@ -1,13 +1,4 @@
-﻿# Converted from: HBARREL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansi/raw/HBARREL.ANS
-# Source Revision: archive-sha256:50aaa63d173fc2f34f94b8a5b526a5ee8a8b9d7908c42264ab949073e7e0edf9
-# Source SHA-256: d3f6ff0b961e578ebb57a15bf33907946058c9411064a0e848e53c611b299179
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HBARREL.ANS by Shane Chambers (ansi); released in ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: HBARREL.ANS by Shane Chambers | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansi-hbarrel
 
 Write-Host '
 [1m┌──────────────────────────────────────────────────────────────────────────────┐[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: I!-JIZZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blade-40/raw/I!-JIZZ.ANS
-# Source Revision: archive-sha256:36dce442fca1d182e4b74added5979db24d6a61d5306960c3e6982e7319e3076
-# Source SHA-256: d0bafddd3760239055fc41ae909097d599f5bd089ea84802e71310f967a173d7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: I!-JIZZ.ANS by Internal Stalker (blade productions 97); released in blade-40 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Jizz
-# SAUCE Author: Internal Stalker
-# SAUCE Group: blade productions 97
-# SAUCE Date: 19970604
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: Jizz by Internal Stalker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blade-40-i-jizz
 
 Write-Host '
 [1;33m▀▀▀[0;1;37m▀▀▀▀▀[0m▀▀▀▀▀[1;34m▀▀▀▀▀▀[0;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

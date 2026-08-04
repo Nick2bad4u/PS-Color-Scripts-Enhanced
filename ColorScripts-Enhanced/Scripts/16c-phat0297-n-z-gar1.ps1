@@ -1,16 +1,4 @@
-﻿# Converted from: N!Z-GAR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0297/raw/N!Z-GAR1.ANS
-# Source Revision: archive-sha256:2e15cb2f2712a143323c9f3c6ecca94c5b5b12a452a019e911d205dd685c6eee
-# Source SHA-256: ef3d6d6ec21a36e61598524b76f9708bec5658f29b83a9c5d2e1bcc95add9f21
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N!Z-GAR1.ANS by noize (phat studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: garbage-logo ii
-# SAUCE Author: noize
-# SAUCE Group: phat studios '97
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: garbage-logo ii by noize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0297-n-z-gar1
 
 Write-Host '
 [1;33m░░░░[0m                   [1;35m  ▄▓▓▄▄[0;35m▄▄▄▄[0m                         [30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0m              [1;37;40m░░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: 33-POO2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9607/raw/33-POO2.ANS
-# Source Revision: archive-sha256:9e6601fb76997375dd243211c26e8c2351f2e546b672c94103f06b10c1d474c2
-# Source SHA-256: 6abcfd081a6493a031f3cd435e0cc6c0715f74a73248e6c7f34ed8f0c022f2f7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-POO2.ANS by Eerie-Kun (Samsara); released in sms-9607 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Poo
-# SAUCE Author: Eerie-Kun
-# SAUCE Group: Samsara
-# SAUCE Date: 19960706
-# SAUCE Dimensions: 80x86
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Poo by Eerie-Kun | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9607-33-poo2-part01
 
 Write-Host '
 [1;33m[0m

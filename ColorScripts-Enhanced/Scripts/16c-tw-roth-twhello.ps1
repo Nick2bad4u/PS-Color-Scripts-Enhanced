@@ -1,13 +1,4 @@
-﻿# Converted from: TWHELLO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tw-roth/raw/TWHELLO.ANS
-# Source Revision: archive-sha256:190885942cec88a16c8a5d2e7952970dfc3a8a8e6b1ddb12dad31a590f611129
-# Source SHA-256: 29b0db91385ca3f9620123e65994450b02a1171657f642784cacc3fea2c2c398
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TWHELLO.ANS by Nitron (tw-roth); released in tw-roth and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: TWHELLO.ANS by Nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tw-roth-twhello
 
 Write-Host '
      [1;35m▀▀▀[0;1;35;45m▓[0;1;35;40m▀▀[0;1;35;45m▓[0;1;35;40m▀▀▄[0m [1;35m▄▀▀▄[0m [1;35;45m▒[0;1;35;40m▀▀[0;35m▄[0;37m [0;1;35m▄▀▀▀▀[0;1;35;45m▒[0m   [1;35;45m░[0m [1;35m▄▀▀▄[0m [1;35;45m▒[0;1;35;40m▀▀▄[0m [1;35m■▀▀▀▀[0m      [1;30;47m█     [0;30;47m UR-QUAN [0;1;30;47m ░░  [0;1;37;40m█[0m

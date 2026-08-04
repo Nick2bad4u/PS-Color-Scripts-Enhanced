@@ -1,18 +1,4 @@
-﻿# Converted from: IP-NWO2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-17/raw/IP-NWO2.ANS
-# Source Revision: archive-sha256:a388e5620de32c4145fd1d2f2e70343f674ce332483184514a867f9d5d569bc4
-# Source SHA-256: 2e260a9987577ca8c063249d6e3a1c7cbb3f362ad4924aa8e3bcb96698ec05a4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IP-NWO2.ANS by Impulse (Force); released in force-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: New World Order/2
-# SAUCE Author: Impulse
-# SAUCE Group: Force
-# SAUCE Date: 19970428
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: New World Order/2 by Impulse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-17-ip-nwo2
 
 Write-Host '
                     [1;36m▀[0m                    [1;33m    [0m                 [1;33m    [0m

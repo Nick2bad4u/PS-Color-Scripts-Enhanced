@@ -1,18 +1,4 @@
-﻿# Converted from: DE-DA#1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gas-02/raw/DE-DA%231.ANS
-# Source Revision: archive-sha256:3f4a8ec10117a9d2d588cb5b9c03441f35378297d885b1fb90bac8e105c89d94
-# Source SHA-256: 9301f2fc78268ae1740c19d5b0c055626bb23047d5b4437a21385d4fe06bc187
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DE-DA#1.ANS by dark entity (gas); released in gas-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: digital anarchy
-# SAUCE Author: dark entity
-# SAUCE Group: gas
-# SAUCE Date: 19960801
-# SAUCE Dimensions: 80x24
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: digital anarchy by dark entity | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gas-02-de-da-1
 
 Write-Host '
                                                   [30m▄▄▄▄▄▄[0m

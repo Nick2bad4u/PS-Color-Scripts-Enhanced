@@ -1,19 +1,4 @@
-﻿# Converted from: 5m-mystic.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-004/raw/5m-mystic.ans
-# Source Revision: archive-sha256:c716e28d4b828a0135c19992fe2f71464879479199ebc42fd3d533b5bd3bf4d4
-# Source SHA-256: a4b13fa28507514fd640142b30d8f28419d8dffeaf498f1ed4eccc9d716bf1c0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5m-mystic.ans by Smooth (Legacy Krew); released in lgcy-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Mystic BBS Software
-# SAUCE Author: Smooth
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20211003
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Mystic BBS Software by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-004-5m-mystic
 
 Write-Host '
   [1m·[0m [1mm y s t i c . b b s . s o f t w a r e ·[0m [1m  ▄      ▄    [0;1;30m░░[0m

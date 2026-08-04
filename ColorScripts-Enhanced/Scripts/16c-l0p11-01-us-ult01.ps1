@@ -1,13 +1,4 @@
-﻿# Converted from: US-ULT01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p11_01/raw/US-ULT01.ANS
-# Source Revision: archive-sha256:955421fc8dc0a32cbb14e70f7f41a091061719b2f842832204ce117895f09002
-# Source SHA-256: 29fb5c48ed5437980b6b00fa5d8de5c5859db5a6eafd4508c9b6a4fd269d92da
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ULT01.ANS by Simonking + Firefx (l0p11_01); released in l0p11_01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: US-ULT01.ANS by Simonking + Firefx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p11-01-us-ult01
 
 Write-Host '
                                        [1;37m▄▄[0m

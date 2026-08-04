@@ -1,13 +1,4 @@
-﻿# Converted from: tr-alien.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/serial03/raw/tr-alien.ans
-# Source Revision: archive-sha256:06825ac680bd3b8f90d42d5667f1d31ba5675110618f18c2ff3cfa59e65026af
-# Source SHA-256: bd3a34933de93812a908e6c7fb04cccf265e93123a55805953261f19f2f393e2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tr-alien.ans by Terrato (serial03); released in serial03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: tr-alien.ans by Terrato | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-serial03-tr-alien
 
 Write-Host '
 [32mƒƒƒƒƒƒƒƒƒƒƒ$$$$$i[0m   [32m,d$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ƒ$$$:[0;37m [0;32mƒƒ[0m

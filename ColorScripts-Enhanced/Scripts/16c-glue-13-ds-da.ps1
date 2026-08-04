@@ -1,18 +1,4 @@
-﻿# Converted from: DS-DA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-13/raw/DS-DA.ANS
-# Source Revision: archive-sha256:cca55d5724b62fdb9e6ef78f12545840535bf0f0878d8408ef8b98504542add6
-# Source SHA-256: 6567633582a301e760dfc27d708c18239068eb20de04205482f982b2682b2b82
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-DA.ANS by drs (glue); released in glue-13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: da
-# SAUCE Author: drs
-# SAUCE Group: glue
-# SAUCE Date: 19980814
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: da by drs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-13-ds-da
 
 Write-Host '
                          [35m   [0m        [1;33;45m░[0m            [35m   [0;30;44m▓▓[0;35;40m░  ░░░░░░[0m

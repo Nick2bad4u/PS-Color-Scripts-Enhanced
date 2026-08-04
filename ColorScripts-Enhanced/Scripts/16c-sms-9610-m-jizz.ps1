@@ -1,18 +1,4 @@
-﻿# Converted from: M!JIZZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9610/raw/M!JIZZ.ANS
-# Source Revision: archive-sha256:5789c5cb1a5ac21acfd3fa7dc4a5a88db3f4a5b9545409ca8ca34a86bd816077
-# Source SHA-256: e017c92399aa2e9c3793f621e0a860af104f4ab372f2dbcc24edf677d812ab8b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M!JIZZ.ANS by Mice (Samsara); released in sms-9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Jizz
-# SAUCE Author: Mice
-# SAUCE Group: Samsara
-# SAUCE Date: 19960919
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Jizz by Mice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9610-m-jizz
 
 Write-Host '
 [1;30m▓▒ ░  $[0;1;30;47m▓▓[0;1;30;40m$$$$$$$$$$$$$$▓$$$$s$$$$$Sssss²"[0;1;37;40m,░TSS$$$$$$$$$$$$$$$$$$$$$$$$[0;1;37;47m$$[0;1;37;40m$[0m$▓s,[1;30m`$[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: GK-HDRS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz05apr/raw/GK-HDRS1.ANS
-# Source Revision: archive-sha256:1015a880c3c2e42953df14381eb6ae6e6ec0326b482ac0273175f6e6e7073aa4
-# Source SHA-256: 98a86e283ecf9cc6963a7b8bfd581db7ed67a63c5406057342462386348d1370
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GK-HDRS1.ANS by grind king (lazarus); released in laz05apr and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: headers and small bits
-# SAUCE Author: grind king
-# SAUCE Group: lazarus
-# SAUCE Date: 19970414
-# SAUCE Dimensions: 80x47
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: headers and small bits by grind king | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz05apr-gk-hdrs1
 
 Write-Host '
 

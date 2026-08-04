@@ -1,18 +1,4 @@
-﻿# Converted from: UT-ORANG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-1096/raw/UT-ORANG.ANS
-# Source Revision: archive-sha256:56cf270ca2ee7a92e0d4d66d5887e29752c7c199e9629aac9f429015d003259b
-# Source SHA-256: 67a41094a34ee866641c33097672aed61d8b6727a4c0d14a883e7bf6702c1502
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UT-ORANG.ANS by undertaker (fusion); released in fsn-1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: orange
-# SAUCE Author: undertaker
-# SAUCE Group: fusion
-# SAUCE Date: 19961013
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: orange by undertaker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-1096-ut-orang
 
 Write-Host '
 [1;30mut![0m                                  [1;31m▄▄▄▄[0;1;31;41m▄[0;1;31;40m▀   ▀[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: ROY-RP3.ANS
-# Source encoding: CP437
-# Source URL: https://www.roysac.com/images/galleries/ZIP/Roy_ANSI.ZIP
-# Source Revision: archive-sha256:8598a9432b4feb86c4e79552795b407b9d7c576fb6f25e9828d6143f1c7b35bc
-# Source SHA-256: 40f621b08cbc92ab6e4c4aa2852e2b5980b12430277b66632622dba8bceb860b
-# Source License: FAL-1.3
-# Source Attribution: ROY-RP3.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: ROY-RP3.ANS by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-rp3
 
 Write-Host '
       [32m▀[0;1;33m▄▄▄[0m

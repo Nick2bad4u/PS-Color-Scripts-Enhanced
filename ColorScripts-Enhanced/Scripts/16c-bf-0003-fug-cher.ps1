@@ -1,18 +1,4 @@
-﻿# Converted from: FUG-CHER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bf-0003/raw/FUG-CHER.ANS
-# Source Revision: archive-sha256:27c4be88d67f7beb2b998f7f8b0c923c0cd0293d1e228ef5a52f4a9b7d70ba22
-# Source SHA-256: dbe6f57a9386ab3f162acc574aa753de78ab417106c44cf543e6513ec4340c45
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FUG-CHER.ANS by fugitivo (x/fusion); released in bf-0003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: chernovil pager
-# SAUCE Author: fugitivo
-# SAUCE Group: x/fusion
-# SAUCE Date: 19980130
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: chernovil pager by fugitivo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bf-0003-fug-cher
 
 Write-Host '
     [31m▐▄▄▄▄▄[0m        [31m D A N G E R   Z O N E [0;37m  [0;31m      [0m

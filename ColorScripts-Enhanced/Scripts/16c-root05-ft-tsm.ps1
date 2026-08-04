@@ -1,18 +1,4 @@
-﻿# Converted from: FT-TSM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root05/raw/FT-TSM.ANS
-# Source Revision: raw-sha256:d7085fa6166f5b070871bae7c89b3518a61a4600d86a166d69cdcf077587e02d
-# Source SHA-256: d7085fa6166f5b070871bae7c89b3518a61a4600d86a166d69cdcf077587e02d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FT-TSM.ANS by Flight (Root); released in root05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: crap ts matrix
-# SAUCE Author: Flight
-# SAUCE Group: Root
-# SAUCE Date: 19970717
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: crap ts matrix by Flight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root05-ft-tsm
 
 Write-Host '
                            [1;36m▀▀▀[0m

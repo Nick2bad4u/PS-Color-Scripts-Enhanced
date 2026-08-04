@@ -1,18 +1,4 @@
-﻿# Converted from: V9-DVOL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0397/raw/V9-DVOL1.ANS
-# Source Revision: archive-sha256:92948d41234c0b51c2e1cbae1fc45d03877af276dfc89419c464eee360a4eed8
-# Source SHA-256: 40326f6d9c5a1f797b33941febb1ed9cd6b9dd5b720fe2496275a74b8acf7a57
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: V9-DVOL1.ANS by Vade79 (fire?.. ya think?); released in fire0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Disco Volante
-# SAUCE Author: Vade79
-# SAUCE Group: fire?.. ya think?
-# SAUCE Date: 19970228
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Disco Volante by Vade79 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0397-v9-dvol1
 
 Write-Host '
 [1;32;42m▐[0;1;32;40m▓▓▀[0;32m▀▀▀░░[0;30;42m▓[0;1;32;40m▄▄[0;32m▐▌[0;1;32;42m▀░[0;32m▓[0;30;42m░[0;32;40m [0;31;40m▐[0;1;31;40m▄[0;31m [0;32m▀█▓▀[0;35m [0;31m▌[0;1;32m▀[0;1;32;47m▓[0;1;32;42m▓░[0;32m▌[0;1;32;42m ░[0;32m▀[0;1;32;42m▐[0;1;33;40m█[0;1;32;40m▌[0;32m [0;31m▐[0;1;31m▄[0;32m ▀[0;1;32;42m▐██▀[0;32m▌█▀■ ▀[0;1;32;42m░▓[0;1;32;40m▌[0;32m█[0;30;42m░[0;32;40m▓[0;30;42m▓[0;31;40m▐[0;1;31;40m▄[0;31m [0;32m█▀ ▄[0;1;32;42m▄[0;32m▄   ▀▀[0;1;32m▀▀[0;1;32;42m▀▀[0;1;32;40m▓[0m

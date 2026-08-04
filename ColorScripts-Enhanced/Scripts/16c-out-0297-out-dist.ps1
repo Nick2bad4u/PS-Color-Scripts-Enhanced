@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-DIST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0297/raw/OUT-DIST.ANS
-# Source Revision: archive-sha256:0f3d218282d76441c012c29969433ab198fcc6a5c3f0e35f66bec5cacdabec86
-# Source SHA-256: ea729f2b5590a2410d997af1ce817b9a1854600e6f83eb9bf55470ae7c683657
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-DIST.ANS by Sandy Chidester (out-0297); released in out-0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: OUT-DIST.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0297-out-dist
 
 Write-Host '
 [1;35;44m████[0;1;35;40m██[0;1;35;44m▀[0;34m█[0;31;44m▒[0;34;40m▌[0;1;34;44m▒[0;34m▐ █[0;31;44m▒[0;34;40m██████████▓▒░░░[0m                 [34;40m│[0m

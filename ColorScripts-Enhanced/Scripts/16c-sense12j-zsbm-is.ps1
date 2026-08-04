@@ -1,13 +1,4 @@
-﻿# Converted from: ZSBM-IS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense12j/raw/ZSBM-IS.ANS
-# Source Revision: archive-sha256:e1859c229de4f4dd1e65990d325e90f1a80e1ce3863ae80925f53e6878990dc6
-# Source SHA-256: a93aed32fab213dc8cf577742417ae96ac4b22d20f00ccd6c21231b764ec4a2e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZSBM-IS.ANS by Zerostar + Aesthetic + Avenging Angel (sense12j); released in sense12j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: ZSBM-IS.ANS by Zerostar + Aesthetic + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense12j-zsbm-is
 
 Write-Host '
 [1;30;47m▀[0;1;37;47m▄▄[0;1;37;40m▒[0;1;30;47m▀[0;1;30;42m█[0;1;30;47m▀[0;1;37;47m▄████[0;1;37;40m▓▓▒▒[0;1;30;47m [0;1;30;40m▒[0m    [1;30m   ▒[0;1;30;47m▀[0;1;30;40m█▒  [0m [1;30m [0;1;30;47m▀[0;1;37;47m▄▒▒[0;1;30;42m█[0;1;30;40m█[0m▒[1;30m [0m     [1;30m ▒[0;1;30;47m▒▒[0;1;37;40m▒▒[0;1;37;47m▄[0;1;30;47m▀[0;1;30;40m▒ [0m [1;30m   [0m ▒[1;30;47m▒[0;1;37;40m▒▒▓▓[0;1;37;47m██▄[0;1;30;47m▀[0;1;30;40m██[0;1;30;47m▀[0;1;37;47m▄██[0;1;37;40m▒[0;1;30;47m▒[0;1;30;40m▒[0m

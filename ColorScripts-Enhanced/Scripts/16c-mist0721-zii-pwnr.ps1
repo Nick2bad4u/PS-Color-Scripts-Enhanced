@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-PWNR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0721/raw/ZII-PWNR.ANS
-# Source Revision: archive-sha256:9d3d54e42a99a6e7bef51cb79a023b85709051f377817bc02741bd65f1493da4
-# Source SHA-256: d78cdced1131496b3b9e583fe9e2dfc6b7d8cd8ddbb9ff2834a4ef7db4e7c38d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-PWNR.ANS by Zeus II (Mistigris); released in mist0721 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Pwnin.Rocks logo
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20210601
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Pwnin.Rocks logo by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0721-zii-pwnr
 
 Write-Host '
 [31m▄▄[0;1;31;41m▄▄[0;31m▄▄[0;1;31;41m░▄▀▀[0;1;31;40m▀[0;31m▀▀ ▀▀▀░░[0;37m                                      [0;1;30m▀▀[0m [1;30m▀[0;31m▀▀[0;1;30m▄▄[0;31m▄[0;37m   [0;31m▄▄[0;1;31m▄[0;32m░[0;37m   [0;1;31m▄[0;31m▄▄[0m

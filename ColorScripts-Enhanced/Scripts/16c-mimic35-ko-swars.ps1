@@ -1,13 +1,4 @@
-﻿# Converted from: ko-swars.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic35/raw/ko-swars.ans
-# Source Revision: archive-sha256:9f5e7691b25fb0851b52b7425f4fa916a84597a0886488901a9dcc5c04101139
-# Source SHA-256: 62da8e8e0626542c1976597148375d0e02c02c042f3f7988ba42904e98a77e07
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ko-swars.ans by Konami (mimic35); released in mimic35 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ko-swars.ans by Konami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic35-ko-swars
 
 Write-Host '
 [1;30mll [0;33m`[0;37m [0;1;31m/.[0m [1;31m __[0m   [1;30m`$.[0m    [35m.\[0;37m  [0;1;31m\\[0m [1;31m;.[0m    ;$s¬   [1;30ml$$\\[0m       /[1m$"""[0m"[1m$l[0m"",[1m/\[0m,  [1m$l[0m""b

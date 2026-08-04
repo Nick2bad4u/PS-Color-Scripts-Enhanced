@@ -1,18 +1,4 @@
-﻿# Converted from: BF-!A1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel12/raw/BF-!A1.ANS
-# Source Revision: archive-sha256:ebe2e7b01f31e0e82aa2702a876007d4ec2dd824b98bdf40e4d59e2b113da7e4
-# Source SHA-256: 97d15665dcd752974b2082ecd449b3baf82825949ad3eafa73830aa46327df14
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BF-!A1.ANS by Bobafett (Fuel Productions); released in fuel12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Abraxas
-# SAUCE Author: Bobafett
-# SAUCE Group: Fuel Productions
-# SAUCE Date: 19970401
-# SAUCE Dimensions: 80x25
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Abraxas by Bobafett | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel12-bf-a1
 
 Write-Host '
 [1;30;46m███▓▓▓▒▒▒░░░[0;1;36;46mbf^fUEl![0;36m████████[0;1;32;46m░░▒▒[0;36m▀▀▀████████[0;30;46m░[0;36;40m▓[0;36;46mbf![0;36;40m█[0;1;32;46m░░░▒▒[0;36m██████[0;1;36;46m░░░▒▒▓▓▓███[0;1;36;40m█████░▓█[0;1;37;40m█[0m

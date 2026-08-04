@@ -1,13 +1,4 @@
-﻿# Converted from: LE-BLEND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/b2k-002/raw/LE-BLEND.ANS
-# Source Revision: archive-sha256:1c5170b3bc19d70e7979427bad52943d4325e4c9b48fe160d6a593c990f27cb0
-# Source SHA-256: 59acf17ef10e162baf262eb923f953f8f9f67ddb7759de9853424adadc5aa74b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LE-BLEND.ANS by Leonardo (b2k-002); released in b2k-002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 51-99
-# Columns: 1-80
+﻿# Artwork: LE-BLEND.ANS by Leonardo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-b2k-002-le-blend-part02
 
 Write-Host '
        [36m▄[0;1;31;41m▄▄█████▄▄▄[0;31m▄▄[0;34m▄▄▄[0m     [31m▀██▄  ███ [0;37m  ▀  █▀  █[0;1;37m██[0m█▀██  ██[1;30m▀[0m [31m ███▀▀[0m    [31m▀▀[0;34m▀[0m

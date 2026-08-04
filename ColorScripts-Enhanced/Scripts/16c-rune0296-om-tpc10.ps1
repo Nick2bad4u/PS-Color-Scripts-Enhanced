@@ -1,17 +1,4 @@
-﻿# Converted from: OM-TPC10.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rune0296/raw/OM-TPC10.ANS
-# Source Revision: archive-sha256:1cc279748badd7f61a5f083ba1c8b526b1d5d143bea36336d1817d4778ed4d79
-# Source SHA-256: 8a73f7f3d32b883aac633fc2b7c9eb003305fd1de39fb413aec91961f7482da6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OM-TPC10.ANS by omega red (rune); released in rune0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the playaz club
-# SAUCE Author: omega red
-# SAUCE Group: rune
-# SAUCE Date: 19960201
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: the playaz club by omega red | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rune0296-om-tpc10
 
 Write-Host '
 [1;30m[0m[1;37m▄▄▄▄  [0;1;30m        [0;1;37m  [0m■   ▀   ▀[1m▀ ▄▄▄▄ ▀▀██████▄▄▄▄▄▄▄▄▄  ▀[0m▀  ▀    ■  [1;30m                [0m

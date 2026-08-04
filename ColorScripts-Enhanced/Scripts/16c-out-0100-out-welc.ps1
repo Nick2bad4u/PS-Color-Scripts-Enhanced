@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-WELC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0100/raw/OUT-WELC.ANS
-# Source Revision: archive-sha256:b701ec7a4e12bfa9cf03c89a6a42fd0cfac46a3c6112e56141c0eb51b1d1de0e
-# Source SHA-256: 67dc47d7fc10c34cd03c44a198ebd674ee5e8f512b416f77511c1e8d580bf7ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-WELC.ANS by Sandy Chidester (out-0100); released in out-0100 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: OUT-WELC.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0100-out-welc
 
 Write-Host '
 [32m██▀▌[0m [32m█▀▄█[0m  [32m█[0;33m▄[0;32m▄▄[0m [32m███▄▀▀▄██[0m  [32m▀[0m [36m▄██████████████████████████████████████████████████[0m

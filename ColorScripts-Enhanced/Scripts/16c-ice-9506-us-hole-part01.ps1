@@ -1,13 +1,4 @@
-﻿# Converted from: US-HOLE.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9506/raw/US-HOLE.ICE
-# Source Revision: archive-sha256:54681166ad0e1930ad04020dc73021d068005fba5342f2f81e02d3344e14b83c
-# Source SHA-256: 699011603bd34c0ade3918af3eacaf2841aba85f1b707b9f9c815d3b1506bb78
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-HOLE.ICE by Grimace + Leonardo + Boa + Squidgalator2 (ice-9506); released in ice-9506 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: US-HOLE.ICE by Grimace + Leonardo + Boa + Squidgalator2 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9506-us-hole-part01
 
 Write-Host '
                                        [1m [0m

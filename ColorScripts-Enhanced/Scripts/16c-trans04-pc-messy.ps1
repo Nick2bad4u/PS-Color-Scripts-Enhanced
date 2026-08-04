@@ -1,18 +1,4 @@
-﻿# Converted from: PC-MESSY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/trans04/raw/PC-MESSY.ANS
-# Source Revision: archive-sha256:6dbf4a8af5f5d8dd35a729393418a99b5601c6f0cc493ed8ff44ff0e1ad25cde
-# Source SHA-256: 2a19f7ecdf296042be10e1c87af053e255333982b0cabeae6b4b34cb03f5d4ea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-MESSY.ANS by Proctologist (Transmission); released in trans04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: messy
-# SAUCE Author: Proctologist
-# SAUCE Group: Transmission
-# SAUCE Date: 19971115
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: messy by Proctologist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-trans04-pc-messy
 
 Write-Host '
 [1;30m[0m[1;30m[0m[1;30m[0;32m[0;1;30m[0m[1;30m--------------[               ]---------------------------------------<     >--[0m

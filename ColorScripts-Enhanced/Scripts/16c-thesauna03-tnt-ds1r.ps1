@@ -1,19 +1,4 @@
-﻿# Converted from: tnt-ds1r.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna03/raw/tnt-ds1r.ans
-# Source Revision: archive-sha256:997aaab655669129eb266c21ca0c4588b603e11c90338498bb530f8bba390fb2
-# Source SHA-256: 32d906b4bd403425416a7c91afe3bd6a8402c407d8de49e74ed6c64c8a0e00a8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tnt-ds1r.ans by tainted (blocktronics); released in thesauna03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: desire
-# SAUCE Author: tainted
-# SAUCE Group: blocktronics
-# SAUCE Date: 20210816
-# SAUCE Dimensions: 80x32
-# SAUCE Font: IBM VGA
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: desire by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna03-tnt-ds1r
 
 Write-Host '
 

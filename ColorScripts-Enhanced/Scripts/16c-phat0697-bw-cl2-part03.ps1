@@ -1,18 +1,4 @@
-﻿# Converted from: BW_CL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0697/raw/BW_CL2.ANS
-# Source Revision: archive-sha256:08e18940bca34b3567a75953ae0590b0f85d3fbc4d879deb49d9733793875e53
-# Source SHA-256: 7a6d070e0a52219cc31ab6b3d5e9dbaffd622513a87dfa2e75ab07d06fbc2f22
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BW_CL2.ANS by black weasel (Phat Studios '97); released in phat0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: cluster#2
-# SAUCE Author: black weasel
-# SAUCE Group: Phat Studios '97
-# SAUCE Date: 19970525
-# SAUCE Dimensions: 80x169
-# Lines: 84-124
-# Columns: 1-80
+﻿# Artwork: cluster#2 by black weasel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0697-bw-cl2-part03
 
 Write-Host '
 [36m[0;1;36m[0;36m[0;1;36m[0;36m[0m[36m[0;1;36m[0;36m[0m

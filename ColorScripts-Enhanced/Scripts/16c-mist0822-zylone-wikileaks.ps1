@@ -1,19 +1,4 @@
-﻿# Converted from: ZYLONE-WIKILEAKS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0822/raw/ZYLONE-WIKILEAKS.ANS
-# Source Revision: archive-sha256:ed72a43421208b7431337d20b0e65cf1daa85d400f3cf90754e23de5d5edd83f
-# Source SHA-256: 5507a55e49608ab4573b98c17730753f542f8991f9bb88c8d335363093952d86
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZYLONE-WIKILEAKS.ANS by Zylone (Mistigris); released in mist0822 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: WikiLeaks
-# SAUCE Author: Zylone
-# SAUCE Group: Mistigris
-# SAUCE Date: 20220821
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: WikiLeaks by Zylone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0822-zylone-wikileaks
 
 Write-Host '
 

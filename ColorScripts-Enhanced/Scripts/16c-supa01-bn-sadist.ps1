@@ -1,13 +1,4 @@
-﻿# Converted from: bn-sadist.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/supa01/raw/bn-sadist.ans
-# Source Revision: archive-sha256:fefb1ef456aa1277865b48c9960c1a6cfebea9b542be416fed5e80476316b745
-# Source SHA-256: 4574915207b8c289da6701d619e08ed9b2a045770466d8e47b163ed7be12fd66
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bn-sadist.ans by Bern (supa01); released in supa01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: bn-sadist.ans by Bern | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-supa01-bn-sadist
 
 Write-Host '
      [34m▄[0m       [34m▄[0m         [34m▄[0m                  [34m▄▄[0m     [34m▄  ▄▄[0m                     [34m▄[0m

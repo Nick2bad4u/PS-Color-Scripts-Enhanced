@@ -1,18 +1,4 @@
-﻿# Converted from: CL!-EMUL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-05/raw/CL!-EMUL.ANS
-# Source Revision: archive-sha256:32c1f67ac6058d9066b580c3bd5854b0529a1844e2dce2e40def969bcce3e47d
-# Source SHA-256: b4f9b436a6d926c116a5a1724315903bbb230199496d7b22993720ca9cb5ec56
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-EMUL.ANS by .:(cLEANER):. (.:(nITROPHUSION):.); released in nph-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: .:(eMULATION^cAMP^lOGO):.
-# SAUCE Author: .:(cLEANER):.
-# SAUCE Group: .:(nITROPHUSION):.
-# SAUCE Date: 19970913
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: .:(eMULATION^cAMP^lOGO):. by .:(cLEANER):. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-05-cl-emul
 
 Write-Host '
 [1;30m[0m[1;30m[0;36m[0;37m[0;1;30m[0m[36m[0;37m[0;1;30m[0m[36m[0;1;30m[0m[1;30m[0;36m[0;37m[0;1;30m[0m[36m[0;37m[0;1;30m[0m[36m[0;37m[0;1;30m[0m[36m[0;37m[0;1;30m[0m[36m[0;1;30m[0m[36m[0;37m[0;1;30m[0m[36m[0;1;30m[0m[1;30m[0;36m[0;37m[0;1;30m[0;36m[0;37m[0;1;30m[0;36m[0;1;30m[0m[36m[0;1;30m[0m[1;30m[0m                                                  [1;30m▄▄▀▀▀▀▄[0m

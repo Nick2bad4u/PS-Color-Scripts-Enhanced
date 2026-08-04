@@ -1,18 +1,4 @@
-﻿# Converted from: US-DREAM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9706/raw/US-DREAM.ANS
-# Source Revision: archive-sha256:7778e60ae879f03132c18bc660bc1aff97b6f3b65410765bf6f0d32a4bcff865
-# Source SHA-256: 638af07416efb6c65569f07d729832350958660f822621c507f0391ced5c309c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DREAM.ANS by Bugs Bunny + Lilith (Maiden / KiSS); released in mdn-9706 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Celestial Dreams
-# SAUCE Author: Bugs Bunny & Lilith
-# SAUCE Group: Maiden / KiSS
-# SAUCE Date: 19970511
-# SAUCE Dimensions: 80x22
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Celestial Dreams by Bugs Bunny + Lilith | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9706-us-dream
 
 Write-Host '
 

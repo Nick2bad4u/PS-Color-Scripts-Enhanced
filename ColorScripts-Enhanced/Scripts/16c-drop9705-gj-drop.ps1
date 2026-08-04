@@ -1,18 +1,4 @@
-﻿# Converted from: GJ-DROP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drop9705/raw/GJ-DROP.ANS
-# Source Revision: archive-sha256:7fe1f56651ec06ccf40826f5781f068ca77061ce348751ee019a860090f3b0ac
-# Source SHA-256: 1e582a19159215b70bc34b722561cfa67d2ed114abe220c2c6a0c348482fdbc0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GJ-DROP.ANS by grymmjack (gj!) (blade productions 97); released in drop9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: drop (destiny rules our people)
-# SAUCE Author: grymmjack (gj!)
-# SAUCE Group: blade productions 97
-# SAUCE Date: 19970414
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: drop (destiny rules our people) by grymmjack (gj!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drop9705-gj-drop
 
 Write-Host '
                           [32m▄[0m

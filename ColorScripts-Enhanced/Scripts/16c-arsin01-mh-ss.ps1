@@ -1,13 +1,4 @@
-﻿# Converted from: MH!SS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/arsin01/raw/MH!SS.ANS
-# Source Revision: archive-sha256:ac726b3b759f52db7958b87ccb214124dc554ff92b6fc771347c1dea99d7fc9d
-# Source SHA-256: 29bf23fe118b0a56b5e23ad6d17399f41247c12b39d8cd20a57147056fb21767
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MH!SS.ANS by Maddog Hoek (arsin01); released in arsin01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: MH!SS.ANS by Maddog Hoek | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-arsin01-mh-ss
 
 Write-Host '
 [1;35;45mANSIbyMAD▓▓▒▒▒[0;35m▀▀[0;1;35;45m░░░▒▒▒▒▓▓▓▓▒▒▒▒░░░░▒▒▒▒▓▓▓▓▒▒▒▒░░░░▒▒▒▒▓[0;35m▀[0;1;35;45m▓▓▒▒[0;35m▀[0;1;35;45m▒░[0;35m▀▀[0;1;35;45m░▒[0;35m▀[0;1;35;45m▒▒▓▓▓[0;35m▀[0;1;35;45m▒▒▒▒[0m

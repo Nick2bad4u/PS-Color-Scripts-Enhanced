@@ -1,16 +1,4 @@
-﻿# Converted from: Ju-CosmicChiroptera.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_blockfury/raw/Ju-CosmicChiroptera.ans
-# Source Revision: archive-sha256:071260960977ea1068cec2d97ab877e753876c2d02c413111354a74175d7cd04
-# Source SHA-256: c1b28c714562b47df7e5688dee27902bc969c47386cb9cc4f85fe85c27a045e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Ju-CosmicChiroptera.ans by Judas (blocktronics_blockfury); released in blocktronics_blockfury and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20150716
-# SAUCE Dimensions: 80x609
-# SAUCE Font: IBM VGA
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Ju-CosmicChiroptera.ans by Judas | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blockfury-ju-cosmicchiroptera-part01
 
 Write-Host '
 

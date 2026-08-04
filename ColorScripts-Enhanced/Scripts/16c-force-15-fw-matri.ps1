@@ -1,18 +1,4 @@
-﻿# Converted from: FW-MATRI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-15/raw/FW-MATRI.ANS
-# Source Revision: archive-sha256:cd2d406ee7567eb1c250b9572bb0b7fdd8b6cfa2b5014b290774725da37d8cc8
-# Source SHA-256: 439e20511ef4037dba690a3e01ff88ee328d854804b43ffdf33889e585bfdf8d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FW-MATRI.ANS by funkyworm (force.); released in force-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Logon Matrix
-# SAUCE Author: funkyworm
-# SAUCE Group: force.
-# SAUCE Date: 19970112
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Logon Matrix by funkyworm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-15-fw-matri
 
 Write-Host '
          [1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m   [1m▄▄▄▄▀▀▀▀▀▀▀▀▀[0;1;47m▀[0;1;40m█▄▄▄▄▄▄▄▄▄▄▌[0m   [1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄

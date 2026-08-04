@@ -1,18 +1,4 @@
-﻿# Converted from: SG-TREG2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twi-9703/raw/SG-TREG2.ANS
-# Source Revision: archive-sha256:b6ebf481c44b185a1c150040ffbddc55b07e74778f21dcd37a35c4b6036ac90c
-# Source SHA-256: 5dfbea4bc7731509b9a02737d76388d15c064bc90e682b4b9ec25efadd688492
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SG-TREG2.ANS by Snake Grunger (Twilight); released in twi-9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Regency
-# SAUCE Author: Snake Grunger
-# SAUCE Group: Twilight
-# SAUCE Date: 19970222
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: The Regency by Snake Grunger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twi-9703-sg-treg2
 
 Write-Host '
 [1;34;44m▓▀▀▀▀      ▀ ▀▀▀████▀▀ [0;34m▀ [0;37m [0;1;30m▄[0m▄▄[1;30m▄[0m [34m   ▀▀[0;1;34;44m▀▀███[0;1;34;47m▓▓▓▒▓▓█▓[0;1;34;44m███▀▀[0;34m▀  [0;37m [0;1;37;47m▄[0;1;37;40m▓ [0;1;30;40m▐[0m▄▄  [1;34m [0;34m▀[0;1;34;44m▀████[0;1;34;47m▓█▓▓▒▓[0m

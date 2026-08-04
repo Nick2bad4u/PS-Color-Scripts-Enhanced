@@ -1,18 +1,4 @@
-﻿# Converted from: K-MELLE.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9709a/raw/K-MELLE.ICE
-# Source Revision: archive-sha256:85ac9952151d7c030fafa5887a3bdbf1b6ec9e7a75d45cafbc83b70fbc73dd3a
-# Source SHA-256: f51f969bf54c43529ce0dd5bb3cd971e053db35b6df45666d05b20c9e7c6c62f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K-MELLE.ICE by kyp (iCE); released in ice9709a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: melle's dolles ebola bild
-# SAUCE Author: kyp
-# SAUCE Group: iCE
-# SAUCE Date: 19970929
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: melle's dolles ebola bild by kyp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9709a-k-melle
 
 Write-Host '
 [32m  [0;37m [0;1;32m▄[0;1;32;47m▓[0;1;32;42m▀[0;32m▌▀[0;33m [0;1;32m▄[0;1;32;42m▒░[0;32m▀[0;33m▐[0;1;31;43m░[0;32m▐▀[0;33m [0;32m▐▀[0;33m ██████[0;1;31;43m░░▒▒[0;33;47m█[0;1;31;43m▀▐[0;1;31;47m█▌▀▀▀ ░░▓▓[0;1;31;43m▄▄[0;33m█▌▄▄▄ [0;32m▀[0;1;32;42m■▄[0;32m▄▀[0;1;32;42m▐▄[0;32m▄▌[0;37m [0;32m▄[0m

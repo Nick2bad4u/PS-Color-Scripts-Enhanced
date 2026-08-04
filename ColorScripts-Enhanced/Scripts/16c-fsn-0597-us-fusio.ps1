@@ -1,13 +1,4 @@
-﻿# Converted from: US-FUSIO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0597/raw/US-FUSIO.ANS
-# Source Revision: archive-sha256:100499c687593fd78c29adf06f5899e8c0d61223958e380a9c31aadb955ab06d
-# Source SHA-256: c26bbc76812b3afebe29e90fbdaa82213af07b7855c1b1047188e672bd5f55c1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FUSIO.ANS by Ize + Thrasher (fsn-0597); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: US-FUSIO.ANS by Ize + Thrasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0597-us-fusio
 
 Write-Host '
 

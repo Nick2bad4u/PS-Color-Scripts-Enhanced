@@ -1,17 +1,4 @@
-﻿# Converted from: PN-GENOC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rune0896/raw/PN-GENOC.ANS
-# Source Revision: archive-sha256:a41a6fd18e5a57ea19659d03cc5ff527cec9b4701f346aaff2f3d3658fc2ad09
-# Source SHA-256: 2fa3df7935e0b11040ddfecea2e4b4301cd782bca73ad2209eaa142d3e3bcabc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PN-GENOC.ANS by penn (rune); released in rune0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: genocide
-# SAUCE Author: penn
-# SAUCE Group: rune
-# SAUCE Date: 19951101
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: genocide by penn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rune0896-pn-genoc
 
 Write-Host '
 [34m█[0;1;34;44m▄█▀▀▀▀▀▀[0m [1;32;40m░░ [0;1;34;44m▀█████[0;1;34;40m▀ [0;1;37;40m▄▄ ▄██ [0;1;34;40m▀  [0;1;30;40mlook! [0;1;34;40m▀[0;1;34;44m▀[0;1;34;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0m░░ [1;34m▀▀▀▀▀▀ [0;1;31m░ ░▓█[0;1;31;41m█[0;1;31;40m▀▀[0;1;31;41m██[0;1;31;40m▀▀[0;1;31;41m█[0m

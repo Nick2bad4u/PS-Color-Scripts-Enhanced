@@ -1,18 +1,4 @@
-﻿# Converted from: CR-INFM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge07/raw/CR-INFM.ANS
-# Source Revision: archive-sha256:115e0675d139221ae82af57d75adc6a5c40187386a2e1c7aedd5a13098a703d2
-# Source SHA-256: 7d471edbecc1bfb52993ce76e8ef136a0aa524e53650dcb19ec487cbe7efbed1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CR-INFM.ANS by creator (avenge); released in avenge07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: infusion matrix
-# SAUCE Author: creator
-# SAUCE Group: avenge
-# SAUCE Date: 19980718
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: infusion matrix by creator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge07-cr-infm
 
 Write-Host '
 [1;33;47m█▓▓▓▒▒▒░░░[0;1;37;47m░░░░░▒▒▒▄[0m▄  ▀[1;47m░░░░░▒▒▒▓▓[0m▀ ▄[1;47m▒▓█████████████████▄▄▄[0m▄[30;44m▓[0;34;40m▀██[0;1;34;44m  [0;34m▄[0;1;34;44m░░░░▒▒▒▒▒▒[0;34m███▌[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: WI-HB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9611/raw/WI-HB1.ANS
-# Source Revision: archive-sha256:2b73e149488dc761d99422832825743596588d59e58f9bfecfb5d0e9dbffd274
-# Source SHA-256: 1aafeec5e56988ad5c939b3c3cdf4c9280218a62c27b5f902ab9569d42a81cdd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WI-HB1.ANS by Widowmaker (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Hellbound
-# SAUCE Author: Widowmaker
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961012
-# SAUCE Dimensions: 80x20
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Hellbound by Widowmaker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9611-wi-hb1
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: DC-UP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise07/raw/DC-UP1.ANS
-# Source Revision: archive-sha256:e9fb6933d41a936134d4f2611eadee07355a10c1a02cff6221e1c572c3d24d6d
-# Source SHA-256: 91fd1c7bf1eeeb0b8cd84fd6c7d263c4a8a4444cc861ad0f9c896a067614569d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DC-UP1.ANS by Dramacydal (uprise07); released in uprise07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: DC-UP1.ANS by Dramacydal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise07-dc-up1
 
 Write-Host '
 

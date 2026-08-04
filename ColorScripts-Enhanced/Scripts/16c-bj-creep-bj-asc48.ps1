@@ -1,18 +1,4 @@
-﻿# Converted from: bj-asc48.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bj-creep/raw/bj-asc48.ans
-# Source Revision: archive-sha256:0debf4b45d7d951a68b5333767ded34f656851230e3888db7abc1feaad98e52f
-# Source SHA-256: a3125087fbca898a33db9ee09c2c495034bfc61a699f67c6789c20d48ab36cee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bj-asc48.ans by Black Jack (Pln/Odly [12/04/96]); released in bj-creep and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Maxx Menu (dementia)
-# SAUCE Author: Black Jack
-# SAUCE Group: Pln/Odly [12/04/96]
-# SAUCE Date: 19961212
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: The Maxx Menu (dementia) by Black Jack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bj-creep-bj-asc48
 
 Write-Host '
 [1;33m[0m[1;30m[0m                                                [1;33m [0;1;37m_[0;1;33m  [0;1;37m__,,,mmmmmm@[0m [1mY[0;1;33mb,[0m [1m@m,_ __ [0m

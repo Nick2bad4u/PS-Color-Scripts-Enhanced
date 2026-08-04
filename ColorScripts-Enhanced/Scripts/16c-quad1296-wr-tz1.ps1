@@ -1,18 +1,4 @@
-﻿# Converted from: WR-TZ1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad1296/raw/WR-TZ1.ANS
-# Source Revision: archive-sha256:39733ed0864fbad557d48d5b0be7bcb3c03788a44b9cfbbe71a5cb00f202249d
-# Source SHA-256: 9bee4a8c83163d817017467a474b14713a06d5c206a2c1dfc311c5d9a35487a8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WR-TZ1.ANS by Windrider (quad-p); released in quad1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: twilight zone
-# SAUCE Author: Windrider
-# SAUCE Group: quad-p
-# SAUCE Date: 19961024
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: twilight zone by Windrider | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad1296-wr-tz1
 
 Write-Host '
 

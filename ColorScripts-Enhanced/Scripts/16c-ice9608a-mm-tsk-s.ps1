@@ -1,13 +1,4 @@
-﻿# Converted from: MM-TSK'S.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9608a/raw/MM-TSK'S.ICE
-# Source Revision: archive-sha256:3cb2898237aa255407c11f4c82532bf88edc414fa849eac52074494eeda3cbfa
-# Source SHA-256: 84c481436aaecf8794b7fd79b34530f8312ff11b4b8fb9ab52c3a76d7422bad5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-TSK'S.ICE by Magnetic M (ice9608a); released in ice9608a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: MM-TSK'S.ICE by Magnetic M | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9608a-mm-tsk-s
 
 Write-Host '
                                                      [1;30m▄[0m

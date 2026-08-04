@@ -1,18 +1,4 @@
-﻿# Converted from: WI-FC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-08/raw/WI-FC.ANS
-# Source Revision: archive-sha256:0b90c936d49629839c01709c30be5eee3ae4012caa7a8f1570b6ae8cc1763cb4
-# Source SHA-256: 0a136b8f0285e289cc5a32b6202380a76f537ec1fb3f27c1ebf4b661dcfe8314
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WI-FC.ANS by widowmaker (eclipse); released in ecl-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: free coke!
-# SAUCE Author: widowmaker
-# SAUCE Group: eclipse
-# SAUCE Date: 19961006
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: free coke! by widowmaker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-08-wi-fc
 
 Write-Host '
                                                 ▄[1m▄▄▄[0m

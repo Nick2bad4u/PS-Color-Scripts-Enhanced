@@ -1,18 +1,4 @@
-﻿# Converted from: ID-&.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0996/raw/ID-%26.ANS
-# Source Revision: archive-sha256:fd0c87547005857a37aee32ff40c82a1e8535aecda68a9edc2483cdc45b21af1
-# Source SHA-256: 94b72b8a24d695b90dbea7bfe16a9596492d706d022edd332e12b3ad20480d69
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ID-&.ANS by iodine (fire); released in fire0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Ampersand
-# SAUCE Author: iodine
-# SAUCE Group: fire
-# SAUCE Date: 19960904
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Ampersand by iodine | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0996-id
 
 Write-Host '
                                  [31m▄▄   ▄█▀▄[0m

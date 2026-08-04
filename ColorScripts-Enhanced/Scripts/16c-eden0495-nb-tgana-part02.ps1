@@ -1,18 +1,4 @@
-﻿# Converted from: NB-TGANA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eden0495/raw/NB-TGANA.ANS
-# Source Revision: archive-sha256:237b9e6d55d8a6638986ba7714e0d9f7fe6d1f7d7e934f8c205f1a212e68415a
-# Source SHA-256: 2ec94df507b5d627afac63d69c642694d0caa81e3ea1029873eaf9b951332e32
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NB-TGANA.ANS by Night Blade (Eden); released in eden0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Terragana
-# SAUCE Author: Night Blade
-# SAUCE Group: Eden
-# SAUCE Date: 19950407
-# SAUCE Dimensions: 80x100
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Terragana by Night Blade | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eden0495-nb-tgana-part02
 
 Write-Host '
 [1;30m█▒   [0;35m▐████████████▄  [0;1;37m▀[0;1;37;47m▓▒[0;1;37;40m▀  █[0;1;37;47m▓▓▒▒░      ░▒▓[0;1;37;40m███ [0m░█▀[1m▄▀  [0;1;30m░ ░ ░ [0m░[35m█████████████▌▓▒▒░ [0m

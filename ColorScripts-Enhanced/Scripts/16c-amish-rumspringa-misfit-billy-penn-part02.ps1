@@ -1,16 +1,4 @@
-﻿# Converted from: misfit-billy penn.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amish-rumspringa/raw/misfit-billy%20penn.ans
-# Source Revision: archive-sha256:710f00c8e218c58e7f7c9fe172cb22279b1ebbb4b713832762c12e983eb7ac2d
-# Source SHA-256: 945a8082a50928c15f0eb3f5614261ee9cf4c11b47e6017d1e732a953f64e332
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: misfit-billy penn.ans by Misfit (amish-rumspringa); released in amish-rumspringa and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 20180130
-# SAUCE Dimensions: 80x93
-# SAUCE Font: IBM VGA
-# Lines: 48-93
-# Columns: 1-80
+﻿# Artwork: misfit-billy penn.ans by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amish-rumspringa-misfit-billy-penn-part02
 
 Write-Host '
 [1;34;47m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;34;40m█████[0;1;34;47m███[0;1;34;40m▀[0m [1;30;47m▄▄▀▀▀[0;1;37;47m░░[0m█████[1;30;47m░░░░░▀▀▀▄▒[0m [34m▀[0;1;34;44m▐[0;1;34;40m███████[0;1;34;47m▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓[0m

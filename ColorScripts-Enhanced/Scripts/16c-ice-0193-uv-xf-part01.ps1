@@ -1,13 +1,4 @@
-﻿# Converted from: UV-XF.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-0193/raw/UV-XF.ICE
-# Source Revision: archive-sha256:ca05bf2de359182562a4e7329ee29306910e366566e70161c1e1498b079ccf5f
-# Source SHA-256: 143e9f1c20591e937775686f4d88963ac045a3604bb6274e40bab46b3ce27554
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UV-XF.ICE by Ultra Vires (ice-0193); released in ice-0193 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: UV-XF.ICE by Ultra Vires | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-0193-uv-xf-part01
 
 Write-Host '
  [1;30m█[0m█[1m████████████████████████████████████████████████████████████████████████████[0m

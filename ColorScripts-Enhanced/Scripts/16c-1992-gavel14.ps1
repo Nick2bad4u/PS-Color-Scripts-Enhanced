@@ -1,13 +1,4 @@
-﻿# Converted from: GAVEL14.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1992/raw/GAVEL14.ANS
-# Source Revision: archive-sha256:408f6102282b4b4f582d319af7c00d0c1a49a9b89d70dc7754d4cd44f475f4fb
-# Source SHA-256: ae44366a46a540fb92df5604631b8e4684ca4d4aa876fe09f17d52dbc2dd1e3d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GAVEL14.ANS by Smooth (1992); released in 1992 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: GAVEL14.ANS by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1992-gavel14
 
 Write-Host '
    [1;34m▓█▓[0m                          [1;30m▄ ▄▀▀▄ ▄[0m              [1;34m▓█▓[0m               [1;34m▓█▓[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: GH-HOB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lap-0894/raw/GH-HOB1.ANS
-# Source Revision: archive-sha256:b2a03b5c78be70014345dee66d7467be30e2aa99b3841f74540df8ffbe533d1c
-# Source SHA-256: e86ae79ba5743214327780d856884a0b46a2b76495e10905f055e62498dca8bc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GH-HOB1.ANS by Ghent (Lapse); released in lap-0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: House of Bones
-# SAUCE Author: Ghent
-# SAUCE Group: Lapse
-# SAUCE Date: 19940723
-# SAUCE Dimensions: 80x25
-# Lines: 72-121
-# Columns: 1-80
+﻿# Artwork: House of Bones by Ghent | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lap-0894-gh-hob1-part03
 
 Write-Host '
                  [1;30m▄▄[0m

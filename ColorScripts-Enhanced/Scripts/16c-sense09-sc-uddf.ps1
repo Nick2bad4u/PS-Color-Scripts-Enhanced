@@ -1,18 +1,4 @@
-﻿# Converted from: SC-UDDF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense09/raw/SC-UDDF.ANS
-# Source Revision: archive-sha256:b3e3029d8f7c1c608f2835055baa2116210e782109ea7dc0a1af3ca3d050e5b9
-# Source SHA-256: 752f28e024f48cd47a5256ec6d605e0b4003366fbb5d8c4c6c38c63b8a9a7d6c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-UDDF.ANS by scrye (sense); released in sense09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: UDDF.NET Logon prompt
-# SAUCE Author: scrye
-# SAUCE Group: sense
-# SAUCE Date: 19980510
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: UDDF.NET Logon prompt by scrye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense09-sc-uddf
 
 Write-Host '
 [30;46m▓▓[0;36;40m░░░[0;30;46m▓[0;36;40m░░[0;30;46m▓▓[0;36;40m░░[0;30;46m▓[0;36;40m░[0m                                                         [1;37;40m▄▄▄▄██[0;1;37;47m▓▒░[0m

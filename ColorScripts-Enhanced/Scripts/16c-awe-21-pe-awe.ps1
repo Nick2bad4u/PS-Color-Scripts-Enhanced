@@ -1,17 +1,4 @@
-﻿# Converted from: PE-AWE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-21/raw/PE-AWE.ANS
-# Source Revision: archive-sha256:d980c3e2187ff0ef4bb9edce960381dc01c8374df0b01b4ddb8d104484f4b936
-# Source SHA-256: a01d029d1047aca2352f6fe28f522c1ef8a56a18d1a5ed9c9def7871c0d52887
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PE-AWE.ANS by Phony Eye (AWE Lettering); released in awe-21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: AWE Lettering
-# SAUCE Author: Phony Eye
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: AWE Lettering by Phony Eye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-21-pe-awe
 
 Write-Host '
 

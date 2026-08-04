@@ -1,13 +1,4 @@
-﻿# Converted from: GM-GUSH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cmm00002/raw/GM-GUSH.ANS
-# Source Revision: archive-sha256:c437539491a2cacd69dbdc8db059c5276e31f5cc86e5f1c41b48edd0a9b75927
-# Source SHA-256: 423eb1657efd4f43253383cacde274a071324ecbd47025b0bd6b2fd2e9e71fd1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GM-GUSH.ANS by Sargon (cmm00002); released in cmm00002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: GM-GUSH.ANS by Sargon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cmm00002-gm-gush
 
 Write-Host '
 [36m[0;37m[0;1;33m[0m[1;33m[0m[1m[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SHAITAN4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/srg2vos/raw/SHAITAN4.ANS
-# Source Revision: raw-sha256:6011e1c491fd702ce91dc7d9e5d4808f616193959bf462b4e64931608285a764
-# Source SHA-256: 6011e1c491fd702ce91dc7d9e5d4808f616193959bf462b4e64931608285a764
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SHAITAN4.ANS by shaitan (fbk.sargahd); released in srg2vos and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: haci3nda
-# SAUCE Author: shaitan
-# SAUCE Group: fbk.sargahd
-# SAUCE Date: 19961013
-# SAUCE Dimensions: 80x91
-# Lines: 47-91
-# Columns: 1-80
+﻿# Artwork: haci3nda by shaitan | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-srg2vos-shaitan4-part02
 
 Write-Host '
 [37m [0;1;33m░■[0;33m [0;1;31m▐[0;1;31;43m▓▓[0;1;31;40m▌[0;1;31;43m░░[0;43m [0;33;40m█[0;1;31;43m      [0;33m██▀███████████▀[0;37m █[0;1;37m [0m███[1m [0m█ [33m██▄▄[0;37m [0;33m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;37m [0;33m▄▄█▓[0;37m █ ███ █ [0;33m█[0;37m [0;32m▄▄[0m

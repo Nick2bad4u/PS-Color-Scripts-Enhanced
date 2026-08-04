@@ -1,18 +1,4 @@
-﻿# Converted from: US-CSC2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook11/raw/US-CSC2.ANS
-# Source Revision: archive-sha256:6da508e3d2c9ad7194cf66558467eb1206f408f5f9c5aa09aaab0387694a6604
-# Source SHA-256: e472c5af167a818b6cdcde0ddd5460a07e9d47b5f811a07a7dce8e53b233b394
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CSC2.ANS by Nail + Leonardo (fire + bm); released in bmbook11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Crescent jointlogo
-# SAUCE Author: nail + leo
-# SAUCE Group: fire + bm
-# SAUCE Date: 19961212
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Crescent jointlogo by Nail + Leonardo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook11-us-csc2
 
 Write-Host '
        [1m▄[0;1;36m▄[0;1;37m▄▄▄[0m                     ▄[1m▄▄▄▄[0m                     ▄[1m▄▄▄▄[0m

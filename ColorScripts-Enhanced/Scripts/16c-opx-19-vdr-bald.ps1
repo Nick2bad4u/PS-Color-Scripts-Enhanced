@@ -1,17 +1,4 @@
-﻿# Converted from: VDR-BALD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-19/raw/VDR-BALD.ANS
-# Source Revision: archive-sha256:a1a349998c43bff25c02d1af200718ce6af4aab839e4b035817a369236a8260f
-# Source SHA-256: e8042badaa90c103353e8b0bfcd5a97df244f6ef68ffc53f436bc00c22e662e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VDR-BALD.ANS by Vader (opx-19); released in opx-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: bald chick
-# SAUCE Author: Vader
-# SAUCE Date: 19971221
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: bald chick by Vader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-19-vdr-bald
 
 Write-Host '
 [1;36m ▄▄██████████████████████████████████████████████████████████████████████████▄▄ [0m

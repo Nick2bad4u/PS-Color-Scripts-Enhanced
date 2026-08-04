@@ -1,17 +1,4 @@
-﻿# Converted from: TNA-MALP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9708/raw/TNA-MALP.ANS
-# Source Revision: archive-sha256:defa13458710db8b7c1fa20a6cd29749e80a61eef8ba8dc70e8a9a4a0b1d4f5d
-# Source SHA-256: 1b955fc2a52daa5588b418f3049abe54fa784c1e1782f0141d30c12015f2ada4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-MALP.ANS by The Night Angel (AWE Lettering); released in awe9708 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Malpractice
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Malpractice by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9708-tna-malp
 
 Write-Host '
 [30m☻☻☻[0;34m░[0;30m☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻[0;34m▄[0;30m☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻[0;34m░[0;30m☻☻☻☻☻☻☻☻☻☻☻[0;34m░[0;30m☻☻☻☻☻☻☻☻[0;37mtna([0;1;37mawe[0m)

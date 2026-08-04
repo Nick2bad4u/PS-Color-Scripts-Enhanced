@@ -1,18 +1,4 @@
-﻿# Converted from: EP-STAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hmd-0596/raw/EP-STAT.ANS
-# Source Revision: archive-sha256:007cf20a9aa57d5d99dfb8c9358a1ee2655dec0d44a24783ba170b5b1d6d4cba
-# Source SHA-256: 5c0a44c5d826d3999d69139b665659a7d47fa74806db8d6f850353759723261e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EP-STAT.ANS by epistasis (hUMID); released in hmd-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: stat screen for brain taco
-# SAUCE Author: epistasis
-# SAUCE Group: hUMID
-# SAUCE Date: 19960501
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: stat screen for brain taco by epistasis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hmd-0596-ep-stat
 
 Write-Host '
 [1;34;44m▓▄[0;34m▄[0m   [1;34;44m▒[0;34m▀▀▀[0m    [34m▀[0;1;34;44m▀█▓▌[0;34m▀[0;37m [0;34m [0;37m [0;34m▀▀[0m     [34m█▀[0m   [34m▄▄[0m     [34m ▀[0;1;34;44m▀▓[0m     [34m▀▀[0m           [34m▄▄[0;37m  [0;1;34m▄[0m  [34m▀[0;37m  [0;34m▀ [0;37m  [0;34m▀[0m

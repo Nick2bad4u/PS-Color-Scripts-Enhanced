@@ -1,18 +1,4 @@
-﻿# Converted from: CR_WORM4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-07a/raw/CR_WORM4.ANS
-# Source Revision: archive-sha256:6502b6f7b940f1799a6ba4f4b08910561aba3d74e01448e36157cb66de10c8c7
-# Source SHA-256: 934a3ef57aa259c20558c0e38f0e5b6b44325cc4d20b629fbe185fbec43094f5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CR_WORM4.ANS by CRUCiFER (Department 38); released in d38-07a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Can'o'Worms
-# SAUCE Author: CRUCiFER
-# SAUCE Group: Department 38
-# SAUCE Date: 19970609
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Can'o'Worms by CRUCiFER | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-07a-cr-worm4
 
 Write-Host '
         [31m▄▌[0m         [1;31m [0;31m▄[0;1;31;41m░[0;31m▀▄[0m                             [1;31m  [0m             [31m▄▀■[0;1;31m [0m

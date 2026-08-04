@@ -1,17 +1,4 @@
-﻿# Converted from: EP-REGEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1094/raw/EP-REGEN.ANS
-# Source Revision: archive-sha256:06037b6172e9822784909b4e7dbd7d3a5e13ef98ca83a73f9d2e3796e3b6962d
-# Source SHA-256: db8c3656c40143c6b0f17f5990cc02474ea4543aabff05eb95f3c3a15cc74e9f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EP-REGEN.ANS by Epitaph (fire1094); released in fire1094 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Regency
-# SAUCE Author: Epitaph
-# SAUCE Date: 19941008
-# SAUCE Dimensions: 80x150
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: The Regency by Epitaph | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1094-ep-regen-part01
 
 Write-Host '
                    [33m▄▄▄▄▄▄▄▄▄▄[0m

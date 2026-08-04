@@ -1,18 +1,4 @@
-﻿# Converted from: ZO-TL7.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9602/raw/ZO-TL7.ANS
-# Source Revision: archive-sha256:5e4639f25c539923328bf5d3dcaf0345f7881a951b04cd174712ef6ec2433a3a
-# Source SHA-256: c14484361838c5d60a8e0af60969f677c724c1edd7ff5d4675a8c291dcc1a138
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZO-TL7.ANS by zork (blade productions); released in blde9602 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the legacy!
-# SAUCE Author: zork
-# SAUCE Group: blade productions
-# SAUCE Date: 19960205
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: the legacy! by zork | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9602-zo-tl7
 
 Write-Host '
 [1;31m░[0m

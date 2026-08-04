@@ -1,13 +1,4 @@
-﻿# Converted from: avg-theportaltotheuniverse.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_1010/raw/avg-theportaltotheuniverse.ans
-# Source Revision: archive-sha256:a99bb1826c554acf497ca2f3d3a318938bda45de706ac9decf9ca308162d3ee1
-# Source SHA-256: ac1b0fa1e487d54bc165ebcad0e633e33a81e5fa66f0e5e6e022d3e9766ed5b7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-theportaltotheuniverse.ans by Avenging Angel (blocktronics_1010); released in blocktronics_1010 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 130-171
-# Columns: 1-80
+﻿# Artwork: avg-theportaltotheuniverse.ans by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-1010-avg-theportaltotheuniverse-part04
 
 Write-Host '
 [1;37;40m████████████████████████████████████████████████[0;1;37;47m██[0;1;37;40m██[0;1;37;42m██[0;1;37;40m█[0;1;36;40m███[0;1;32;40m█[0;35m█[0;31m▀[0;1;35;47m█[0;31m█[0;1;35;47m█[0;31m▀[0;35m [0;37m [0;34m [0;36m▄▄[0;1;36;46m░▓▓██▀[0;1;36;40m▀▀▀▀[0m

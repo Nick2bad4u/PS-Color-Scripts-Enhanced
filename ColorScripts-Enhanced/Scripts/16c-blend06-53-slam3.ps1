@@ -1,18 +1,4 @@
-﻿# Converted from: 53-SLAM3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend06/raw/53-SLAM3.ANS
-# Source Revision: archive-sha256:bdb12df6fb66b6e7f7ab1240c15e9b23d66b94ced69828c85c717709162a24eb
-# Source SHA-256: 310bccf6a5b7e4bd8db018e8b7012896697af94ef3d6c116fcfe399029ffb476
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 53-SLAM3.ANS by sENILE (bLEND); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: slam city shit
-# SAUCE Author: sENILE
-# SAUCE Group: bLEND
-# SAUCE Date: 19970103
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: slam city shit by sENILE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend06-53-slam3
 
 Write-Host '
 

@@ -1,19 +1,4 @@
-﻿# Converted from: fil-legacy.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-001/raw/fil-legacy.ans
-# Source Revision: archive-sha256:589c804657c8d15ba617f7c0fd80723e4505d519989b80eba9584665be49eb54
-# Source SHA-256: 0011b7a9ea6449712dddd6bea0dd1e9580afc7c944f98c225444fde0088d5656
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: fil-legacy.ans by filth (LEGACY Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Legacy Pr0m0
-# SAUCE Author: filth
-# SAUCE Group: LEGACY Krew
-# SAUCE Date: 20191229
-# SAUCE Dimensions: 80x144
-# SAUCE Font: IBM VGA
-# Lines: 48-94
-# Columns: 1-80
+﻿# Artwork: Legacy Pr0m0 by filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-001-fil-legacy-part02
 
 Write-Host '
 [1;37;40m [0;30m█[0;35m███▄[0;30m█[0;1;36m██[0;1;36;46m▄[0;1;36;40m▄▄[0;36m▄▄[0m     [35m▀▀▀▀███  [0;1;36m████████████[0;1;36;46m█▄▄[0;36m▄▄[0;1;36;46m▓[0;1;36;40m▀[0m                [35m▀▀████▄▄▀█[0;1;35;45m▀[0;1;35;40m████▀▀[0m

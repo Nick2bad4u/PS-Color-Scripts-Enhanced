@@ -1,19 +1,4 @@
-﻿# Converted from: WZ-BOOT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/WZ-BOOT2.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: c497f022e5354ca272842cba542d54c69f654e0c63991f37726e1bb17ef93c91
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WZ-BOOT2.ANS by Whazzit (Blocktronics); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Boots or Hearts 2
-# SAUCE Author: Whazzit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20210202
-# SAUCE Dimensions: 80x53
-# SAUCE Font: IBM VGA
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Boots or Hearts 2 by Whazzit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-wz-boot2-part01
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: Us-hb.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper08/raw/Us-hb.ans
-# Source Revision: archive-sha256:4170bc28a3d93b55b5d7813a9078fa917029de207cfcf794080d34d8f6ddd97e
-# Source SHA-256: e8d54374c49d51ee34e25897c7fa5077ac522da747cf10d571570ab01a7ae4eb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Us-hb.ans by Cryogenic + Aesthetic (jasper08); released in jasper08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Us-hb.ans by Cryogenic + Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper08-us-hb
 
 Write-Host '
 [1;31m▓▓[0;1;31;41m░[0;31m▄[0;35m▀[0;1;35;45m▀[0;36m [0;31m▄▄[0;1;30m [0;31m▄[0;1;31m▄▄[0;35m▀[0;1;35;45m▒[0;1;35;40m▀[0;35m▀[0;37m  [0;35m▀▓ [0;31m▓[0;1;31m▒[0;1;37;41m░[0;1;31;47m▓[0;1;31;40m▓[0m [32m▓[0;1;30m [0;35m▀[0;31m▄[0;1;31;41m▄[0;1;31;47m▓[0;1;37;41m░[0;1;31;40m▓[0;1;31;41m [0;31m▄[0;37m [0;1;35m▀[0;35m▀[0;37m [0;35m▀[0;1;35;45m███▄[0;1;35;40m▒▓[0;1;35;45m█▀[0;35m▀▀▀[0;31m▄[0;1;31m▄▄▄[0;1;31;41m▄[0;1;31;40m██[0;1;31;41m█████▓▓▓▓▓░░░░[0;31m██[0;1;31m▒▒▒[0m

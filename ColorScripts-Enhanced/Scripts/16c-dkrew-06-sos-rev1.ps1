@@ -1,18 +1,4 @@
-﻿# Converted from: SOS-REV1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dkrew-06/raw/SOS-REV1.ANS
-# Source Revision: archive-sha256:02960d7b88668b8887fe5cdf52da355c2d3dd37bf140c876abc30817d0d21bdb
-# Source SHA-256: 65dc853f8b4f1bea627f4471d5478f55575d8939c02a4233e0691a42896c7b41
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SOS-REV1.ANS by Son of Sam (dead krew); released in dkrew-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Relativity
-# SAUCE Author: Son of Sam
-# SAUCE Group: dead krew
-# SAUCE Date: 19970403
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Relativity by Son of Sam | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dkrew-06-sos-rev1
 
 Write-Host '
  [30;44m▓[0;37;40m  [0;30;44m██▓▓▓▒▒▀▀▀▀▀▀▀▀▀▀[0m             [30;44m▀▀▀▀▀▀ [0;1;34;44m░▄[0;30;44m▓▀▀▀▀▀▀▀▀▀▀▀▀▓█[0m     [30;44m▀▀▀▀▀▀▀[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: DV8-INF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook13/raw/DV8-INF.ANS
-# Source Revision: archive-sha256:f383b37d2f0265a83b82afcdde57a4dae359d8a5127c467dcea28d0c8500d000
-# Source SHA-256: 6bb9c6e57eed9e0dbe8fe7d3f79e930ffe1ad21da02f45660b400e08f3eceaad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DV8-INF.ANS by dv8 (black maiden); released in bmbook13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: matrix for comatose
-# SAUCE Author: dv8
-# SAUCE Group: black maiden
-# SAUCE Date: 19970427
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: matrix for comatose by dv8 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook13-dv8-inf
 
 Write-Host '
 [1m▓[0m▄[34m▀[0;1;36;44m▀██[0;1;37;40m███[0;1;36;40m█[0;1;36;44m███▓▓▓░░[0;34m▌▐██▌██[0;31m [0;34m█[0;1;34;44m░[0;34m█▀[0;31m [0;33;42m ▓▓[0;33;40m█████▄[0;34;40m▀▀[0;33;40m▄█[0;37;40m [0;34;40m█[0;1;36;44m░░▓▓▓██▌[0m [34m▀█[0;31m [0;33m████▄[0;34m▀███▄[0;31m [0;34m▀▄[0;33m▀[0;34m▄██[0;31m [0;33m▌[0;1;36;44m▐█[0;1;37;40m█[0m

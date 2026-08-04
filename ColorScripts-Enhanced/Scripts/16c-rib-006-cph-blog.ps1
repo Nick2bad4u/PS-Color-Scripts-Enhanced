@@ -1,18 +1,4 @@
-﻿# Converted from: CPH-BLOG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-006/raw/CPH-BLOG.ANS
-# Source Revision: archive-sha256:4d7b445ca8b643922c5230e9f5b3c442135561ba0bcfa9b1ae5cb138b563798c
-# Source SHA-256: 2f64e5a8219526b14c09f261855f07cd1d06492c40836e6a5be78261c9d01878
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-BLOG.ANS by {YBERPUNCh (RiB); released in rib-006 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: bOOZe login
-# SAUCE Author: {YBERPUNCh
-# SAUCE Group: RiB
-# SAUCE Date: 19980306
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: bOOZe login by {YBERPUNCh | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-006-cph-blog
 
 Write-Host '
       [34m▄[0;1;34m▄[0;1;34;44m▄░[0;34m▀[0;37m [0;35m▌[0m                                        [34m [0m

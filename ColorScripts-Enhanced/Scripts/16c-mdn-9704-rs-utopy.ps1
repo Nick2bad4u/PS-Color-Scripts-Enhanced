@@ -1,18 +1,4 @@
-﻿# Converted from: RS-UTOPY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9704/raw/RS-UTOPY.ANS
-# Source Revision: archive-sha256:f29d1a72731ce9383841840bc86b0749ff1457d1c25c6a64baa5adfdac9e6943
-# Source SHA-256: 64caaada52dee0e1609027f7b35a8326c8893655d6becfe170e8ef0ffaf3d045
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-UTOPY.ANS by rorshack (Maiden Brazil); released in mdn-9704 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: u t o p i a
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19970324
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: u t o p i a by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9704-rs-utopy
 
 Write-Host '
 

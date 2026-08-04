@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-FAIR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0197/raw/OUT-FAIR.ANS
-# Source Revision: archive-sha256:cd3236e0655bee5ba400dd6252ba2ee923995041f95ca558186d016b62049b9d
-# Source SHA-256: 0d6229c2d507ed5d0d57705f605c20d909c641606ebaeb7e17dc54a301bd418f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-FAIR.ANS by Sandy Chidester (out-0197); released in out-0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: OUT-FAIR.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0197-out-fair
 
 Write-Host '
       [34m·[0;1;34m·[0;1m· ·[0;1;34m·[0;1m·  ·[0;1;34m·· ···[0;1m··[0;1;34m·[0;1m·[0;1;34m· ·[0m     [1;34m·[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: RIV!PHTO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p05_00/raw/RIV!PHTO.ANS
-# Source Revision: archive-sha256:d107a99a4f6346768b79c50cf89b1ea06eaa6378fa6264f2582e9bfb2f879d7f
-# Source SHA-256: 481be36f54e7f4766f1d6de0c375347eadf8f4e32cba9c7bde4a0d2670e88d68
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RIV!PHTO.ANS by rIVEN (pLATOON); released in l0p05_00 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: pHOTOSLIDE
-# SAUCE Author: rIVEN
-# SAUCE Group: pLATOON
-# SAUCE Date: 20000205
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: pHOTOSLIDE by rIVEN | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p05-00-riv-phto
 
 Write-Host '
                      [1;30m                 [0m       [1m  .[0m     [1m [0m  [1m.[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: DL-7GATE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gvt-0396/raw/DL-7GATE.ANS
-# Source Revision: archive-sha256:ad8ff614294189e80e826a6d4a8cf8ded98538ab493231140abfba480817c1ae
-# Source SHA-256: fe1917e932b01f2472c96d633b07d02de9195d7e3baadc3c1946e1dd0a2a8779
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DL-7GATE.ANS by deathlok (gravity); released in gvt-0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: seventh gate
-# SAUCE Author: deathlok
-# SAUCE Group: gravity
-# SAUCE Date: 19960217
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: seventh gate by deathlok | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gvt-0396-dl-7gate
 
 Write-Host '
             [35m [0m

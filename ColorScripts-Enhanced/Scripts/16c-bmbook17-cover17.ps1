@@ -1,18 +1,4 @@
-﻿# Converted from: &COVER17.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook17/raw/%26COVER17.ANS
-# Source Revision: archive-sha256:f2ec1f05b2d28538e661dbe9f04f7009d1de727157f34731f67001dac4dedb95
-# Source SHA-256: 14ae2f11759c0be29cdc5de08b308fa2cb4cbbe569998644df6444dcfc468e6d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: &COVER17.ANS by black maiden (black maiden); released in bmbook17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: welcome to book 17
-# SAUCE Author: black maiden
-# SAUCE Group: black maiden
-# SAUCE Date: 19980616
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: welcome to book 17 by black maiden | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook17-cover17
 
 Write-Host '
 [1;34;47m▓▓[0;1;34;44m▀[0;1;34;40m▀▀[0;34m▀[0;1;34m [0;34m▀[0;1;34;44m▀██[0;1;34;47m▄[0;1;34;44m▀[0;44m░░[0;1;34;44m▄[0;34m███[0;1;34;44m▄▄▄▄[0;34m██[0;1;34;44m [0;34m█[0;1;34;44m [0;34m█████[0;1;34;44m██[0;1;34;47m▓▓[0;34m███[0;1;34;44m▄██▄▄█▄ [0;34m█[0;1;34;44m▄[0;34m██████████[0;1;34;44m▄██[0;1;34;47m▓▓[0;1;34;44m▄[0;34m██████████████[0m

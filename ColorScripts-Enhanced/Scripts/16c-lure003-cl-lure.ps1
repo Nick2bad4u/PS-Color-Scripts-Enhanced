@@ -1,18 +1,4 @@
-﻿# Converted from: CL!-LURE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lure003/raw/CL!-LURE.ANS
-# Source Revision: archive-sha256:1ff57f893971666a5780ed06387959ae5ebc9c163a5e118549c7818f33792253
-# Source SHA-256: c98ec92f34a0b676607a4c1c3c425ddbc9b230d5fdafbabac661cb6705cb1453
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-LURE.ANS by Cleaner (Lure); released in lure003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Lure
-# SAUCE Author: Cleaner
-# SAUCE Group: Lure
-# SAUCE Date: 20020510
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Lure by Cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lure003-cl-lure
 
 Write-Host '
                         [1;31m░░░[0m                 [1;30m [0m

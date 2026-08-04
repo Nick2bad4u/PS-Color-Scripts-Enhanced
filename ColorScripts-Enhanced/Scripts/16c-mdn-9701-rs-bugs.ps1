@@ -1,18 +1,4 @@
-﻿# Converted from: RS-BUGS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9701/raw/RS-BUGS.ANS
-# Source Revision: archive-sha256:45d6a082bca05ad193b510335e91b0bec312e4835ff5735e0eb40fe62d0e1180
-# Source SHA-256: ce9186271efc0e7639b4da22d168640affa8acb3de681dfbf5bc822504052f95
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-BUGS.ANS by rorshack (Maiden Brazil); released in mdn-9701 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: bugs r us
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19961230
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: bugs r us by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9701-rs-bugs
 
 Write-Host '
                                                  [1;33m▀[0m           [1m▄[0m           [1;33m▀[0m

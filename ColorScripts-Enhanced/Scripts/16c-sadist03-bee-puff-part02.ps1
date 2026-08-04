@@ -1,18 +1,4 @@
-﻿# Converted from: BEE-PUFF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sadist03/raw/BEE-PUFF.ANS
-# Source Revision: archive-sha256:aad069a20b3a55e608ff5f7b3cbbfa85da447754484a4340da178067d56a89cc
-# Source SHA-256: 6105e5dce112f3a9378315ec777a307d2d6efe1e2cb33b4ead547526021b1668
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BEE-PUFF.ANS by beebu (sadist); released in sadist03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: puff puff give
-# SAUCE Author: beebu
-# SAUCE Group: sadist
-# SAUCE Date: 19990104
-# SAUCE Dimensions: 80x91
-# Lines: 47-91
-# Columns: 1-80
+﻿# Artwork: puff puff give by beebu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sadist03-bee-puff-part02
 
 Write-Host '
 [1;32;42m░░░[0;32m██████[0;1;32;42m░░▒▒▒▒▒▒░░[0;32m██[0;1;30;42m░░[0;32m██[0;30;47m██[0;1;37;40m▄▄█▀[0;30;47m█[0;1;31;40m▄▄[0;1;31;43m▓▓▓▒░ [0;1;31;40m▀[0;30;47m█[0;33;40m▄[0;37;43m░░░░░░░[0;1;37;43m░░[0;43m░░[0;1;43m [0;33m▌[0;30;47m█[0;1;32;42m▓▓▓▓▒▒░░░[0;32m███████████[0;1;32;42m░░▒[0m

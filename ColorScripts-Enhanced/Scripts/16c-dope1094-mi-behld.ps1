@@ -1,13 +1,4 @@
-﻿# Converted from: MI-BEHLD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dope1094/raw/MI-BEHLD.ANS
-# Source Revision: archive-sha256:2de0869e712011bc58f9f54841a16f0376518d9e75430f3e3f7d5f05cd431338
-# Source SHA-256: fcd9d4aea4902f9fe9f89b3c6e3101a813769efcaff5b0fbb7b9e1ff35283a19
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MI-BEHLD.ANS by Malicious Intent (dope1094); released in dope1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: MI-BEHLD.ANS by Malicious Intent | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dope1094-mi-behld
 
 Write-Host '
 

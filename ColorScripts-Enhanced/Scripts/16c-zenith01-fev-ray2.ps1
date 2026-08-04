@@ -1,18 +1,4 @@
-﻿# Converted from: FEV-RAY2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zenith01/raw/FEV-RAY2.ANS
-# Source Revision: archive-sha256:89a769066be1ade04361b16bc2aabeb1a280fe034deee0fe7ee4c75badc7461d
-# Source SHA-256: 94aadfa6b0c8b4c483d5dbe353e975edae6b59b5efa1e80b4025c05f3113ab93
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FEV-RAY2.ANS by Fever (Zenith); released in zenith01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ray Earth
-# SAUCE Author: Fever
-# SAUCE Group: Zenith
-# SAUCE Date: 19980507
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Ray Earth by Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zenith01-fev-ray2
 
 Write-Host '
 [36m[0;30m[0;37m[0;30m[0m[30m[0m[30m[0m[30m[0m[30m[0m[30mfv[0m                                                                      [30mfv[0m

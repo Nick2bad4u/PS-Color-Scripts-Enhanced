@@ -1,19 +1,4 @@
-﻿# Converted from: sp-b701.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_acid_trip/raw/sp-b701.ANS
-# Source Revision: archive-sha256:c0717ff5cb7d462ed7fa9a55edd7235adbd3f09e01132486021497c9281171b6
-# Source SHA-256: 42427c9c03a4f2b47898f12bdee66a9e8233767d81dcea2c79254092e948af77
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sp-b701.ANS by Spear (blocktronics); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: B7
-# SAUCE Author: Spear
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x42
-# SAUCE Font: IBM VGA
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: B7 by Spear | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-acid-trip-sp-b701
 
 Write-Host '
 

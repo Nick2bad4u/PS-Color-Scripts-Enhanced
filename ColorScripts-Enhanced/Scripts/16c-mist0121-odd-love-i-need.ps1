@@ -1,19 +1,4 @@
-﻿# Converted from: ODD-LOVE_I_NEED.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0121/raw/ODD-LOVE_I_NEED.ANS
-# Source Revision: archive-sha256:be6acc37c46308204b64f544c343f93533b3c26c7b10ead91ddc0227519a1a6a
-# Source SHA-256: 50e1e4fa3ee825376d6bdad31b78d5fb057051e1208fc3bcb479cc2a9c57ace3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ODD-LOVE_I_NEED.ANS by Odd (Mistigris?); released in mist0121 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Living Tombstone - Love I Need
-# SAUCE Author: Odd
-# SAUCE Group: Mistigris?
-# SAUCE Date: 20210124
-# SAUCE Dimensions: 81x40
-# SAUCE Font: IBM VGA
-# Lines: 1-39
-# Columns: 1-81
+﻿# Artwork: The Living Tombstone - Love I Need by Odd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0121-odd-love-i-need
 
 Write-Host '
                                                                        ▄▄▄   [1;30m0DD[0m

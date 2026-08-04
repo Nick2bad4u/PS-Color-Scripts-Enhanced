@@ -1,18 +1,4 @@
-﻿# Converted from: N4-ODYSY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pang04/raw/N4-ODYSY.ANS
-# Source Revision: archive-sha256:c1247d4dc9957633abc13741bd5444e137d9305952ecd56b85b27068ad3e348a
-# Source SHA-256: aaf3648181e5060dc5990a911ae3a4ec587650c53d85c416c0a399e4d223a467
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N4-ODYSY.ANS by Natureboy (Pang); released in pang04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Odyssey
-# SAUCE Author: Natureboy
-# SAUCE Group: Pang
-# SAUCE Date: 19980524
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: The Odyssey by Natureboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pang04-n4-odysy
 
 Write-Host '
 

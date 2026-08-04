@@ -1,13 +1,4 @@
-﻿# Converted from: GC-HED1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-17/raw/GC-HED1.ANS
-# Source Revision: archive-sha256:154ac874f13e20433925bb99a4f5e0a4299764bee7ed4d28bdaffd9ad392f554
-# Source SHA-256: a2bd764f67b971aa71f0afb7f993a93d2427c00b78fe63147ce18e4e15addb6d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GC-HED1.ANS by Galanacer (glue-17); released in glue-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: GC-HED1.ANS by Galanacer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-17-gc-hed1
 
 Write-Host '
 [1;33m  [0;1;37m  [0;1;33m    [0;1;37m [0m                                                         [1;33m▌[0m  [1;31m░[0m

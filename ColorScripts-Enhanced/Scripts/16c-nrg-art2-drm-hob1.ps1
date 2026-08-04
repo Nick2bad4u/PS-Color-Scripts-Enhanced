@@ -1,13 +1,4 @@
-﻿# Converted from: DRM-HOB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nrg-art2/raw/DRM-HOB1.ANS
-# Source Revision: archive-sha256:44f87d294fdafc370bcd462ac0ac34dbb29d33cbe0a92b4cd6fa65123cb44976
-# Source SHA-256: 8ae383b69aaa9347b88cdbdbe5abdf6ba1c4aeab9ec7064ee2318591308ba8eb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DRM-HOB1.ANS by Dr Dream (nrg-art2); released in nrg-art2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: DRM-HOB1.ANS by Dr Dream | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nrg-art2-drm-hob1
 
 Write-Host '
 

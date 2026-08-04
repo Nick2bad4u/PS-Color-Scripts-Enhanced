@@ -1,18 +1,4 @@
-﻿# Converted from: EQ-GENO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dom-9706/raw/EQ-GENO.ANS
-# Source Revision: archive-sha256:a16d91b4075cff760b5038e2a8f1aab02d1965c9e4bbc85ed187b0405326b9b6
-# Source SHA-256: 3ec6c7dce2635592d5fa20da11d09b0c35a23fb2fcb410326c2c8f79b2b6ba1b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EQ-GENO.ANS by Egoteq (Domino); released in dom-9706 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Genosha
-# SAUCE Author: Egoteq
-# SAUCE Group: Domino
-# SAUCE Date: 19970617
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Genosha by Egoteq | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dom-9706-eq-geno
 
 Write-Host '
                    [1;30m▄▄▄▄▄▄▄[0m

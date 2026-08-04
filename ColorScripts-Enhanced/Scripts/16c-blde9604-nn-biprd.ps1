@@ -1,18 +1,4 @@
-﻿# Converted from: NN-BIPRD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9604/raw/NN-BIPRD.ANS
-# Source Revision: archive-sha256:c9d341fbab42005be8369b5b74c082e1beaf2773cdcff315b890579fc5c3d129
-# Source SHA-256: b9710be8f3ab1867c206e9605a22d225bcc50e1357f998826ae5dbafeee11a29
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NN-BIPRD.ANS by neo negro (blade); released in blde9604 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: biproducts
-# SAUCE Author: neo negro
-# SAUCE Group: blade
-# SAUCE Date: 19960314
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: biproducts by neo negro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9604-nn-biprd
 
 Write-Host '
             [1;33m░▄[0;1m▄▀[0;1;33m▀█▄▄▄▄░[0m

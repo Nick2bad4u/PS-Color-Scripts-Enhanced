@@ -1,18 +1,4 @@
-﻿# Converted from: MR-ICE01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus02/raw/MR-ICE01.ANS
-# Source Revision: archive-sha256:dbc0fd9393f048eb4114863d8031209a44218deffed6a460f10c74db43cffb0e
-# Source SHA-256: 47cfa6d23fbc0636fbe3ff839371e5fc9136cf7e2bab8831eda763517be81684
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-ICE01.ANS by Mr.Wrong (Fokus fonting); released in fokus02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: iCE advertisements
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: Fokus fonting
-# SAUCE Date: 19990308
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: iCE advertisements by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus02-mr-ice01
 
 Write-Host '
            [1;35m░[0m                                                   [1;35m [0m

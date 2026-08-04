@@ -1,13 +1,4 @@
-﻿# Converted from: NS-PD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dead/raw/NS-PD.ANS
-# Source Revision: archive-sha256:42002c7465322e6567b6ada22b7d24270f500cdc26769d5efac519e13d8ec757
-# Source SHA-256: 6f944fa162f0a222ef03607c73d0ff870aee2a2459edcf5c90fc3edcbf8c07c2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NS-PD.ANS by Nightshade (dead); released in dead and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: NS-PD.ANS by Nightshade | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dead-ns-pd
 
 Write-Host '
 [1;30m[0;35m[0;1;35m[0;1;37m[0;1;30m[0;35m[0;1;35m[0m[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

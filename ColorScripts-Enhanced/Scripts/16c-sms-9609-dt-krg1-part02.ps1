@@ -1,17 +1,4 @@
-﻿# Converted from: DT-KRG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9609/raw/DT-KRG1.ANS
-# Source Revision: archive-sha256:96c031e04e5c479ef9ed73f1afa21a3db6bca2a2de7ad88a46888136232884ff
-# Source SHA-256: efb990dd28f984805fe53d686fe9a55ace7e81aae0b3d47c5ec68d1d00f2faff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-KRG1.ANS by Defiant (Samsara); released in sms-9609 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Kargus' board :)
-# SAUCE Author: Defiant
-# SAUCE Group: Samsara
-# SAUCE Dimensions: 80x25
-# Lines: 29-56
-# Columns: 1-80
+﻿# Artwork: Kargus' board :) by Defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9609-dt-krg1-part02
 
 Write-Host '
 [1;30;43m [0;43m░ [0;31;43m░░[0;33;40m██[0;31;43m░░ [0;33;40m█[0;31;43m░[0;33;40m█▀ [0;1;30;40m▄█████▄[0;33m▀[0;1;30m▄██▄[0;1;31m░░▓█[0;1;31;43m▄[0;33m▄ [0;1;31m▄▓░   ░[0;33m░ [0;1;30m▀████[0;1;30;47m▓▒▒▓▓[0;1;30;40m██▀▀ [0;33m▄██▌[0;1;30m▐[0;1;30;47m▓[0;1;30;40m██[0;1;30;47m▓▓▓[0;1;30;40m█[0;1;30;47m▓▓▒▒▒▒▒▓░[0m

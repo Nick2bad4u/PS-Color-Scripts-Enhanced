@@ -1,18 +1,4 @@
-﻿# Converted from: CO-ELEME.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0296/raw/CO-ELEME.ANS
-# Source Revision: archive-sha256:06e6dc5afce1ee45051e2bc9293c259c32e010fc92f42b6c050d6f2242a1670c
-# Source SHA-256: 45ca35de5df3392cabe4eb744c46c7c7d36beae97d39aef80db58a2cb143f824
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CO-ELEME.ANS by cocox (opium); released in opx-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: elements - the best ppe group!
-# SAUCE Author: cocox
-# SAUCE Group: opium
-# SAUCE Date: 19960204
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: elements - the best ppe group! by cocox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0296-co-eleme
 
 Write-Host '
 [30m                                                                                [0m

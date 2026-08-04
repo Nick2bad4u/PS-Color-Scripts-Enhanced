@@ -1,13 +1,4 @@
-﻿# Converted from: CPR-DAT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wac-0294/raw/CPR-DAT1.ANS
-# Source Revision: archive-sha256:2a8e2b57f27ae60b05e50bc8fa46b6638053a701b7f3ea527397e30cb502df63
-# Source SHA-256: f373d2b265dc5ff02b0aaa8845ac7a8aacc6a343ec4fa2ea984bf6768998910a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPR-DAT1.ANS by Chili Pepper (wac-0294); released in wac-0294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 44-85
-# Columns: 1-80
+﻿# Artwork: CPR-DAT1.ANS by Chili Pepper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wac-0294-cpr-dat1-part02
 
 Write-Host '
                          ▐[1m███████▐███████▌███████▌███████▌ [0;1;32mτ[0m

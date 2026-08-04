@@ -1,15 +1,4 @@
-﻿# Converted from: jn-mmc3.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic37/raw/jn-mmc3.ans
-# Source Revision: archive-sha256:0d28aedb8d5d5b6826c950122d7b742a98e4b5cc019bb9166e510fcb07b70457
-# Source SHA-256: 01d11bd7396617aaff72f0b6f2a9897cae73c5d63709dc97478fc41dcb59bb01
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: jn-mmc3.ans by Jashiin (mimic37); released in mimic37 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 20010715
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: jn-mmc3.ans by Jashiin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic37-jn-mmc3
 
 Write-Host '
 [1;30m$$$[0;36m $$: [0;1;30m$[0;36m ÿ$$[0;37m [0;1;30mI$$$$$$7²`[0m      [1;30m''7$$$$$$$$$$$$$$$;[0m  [1;30m [0m

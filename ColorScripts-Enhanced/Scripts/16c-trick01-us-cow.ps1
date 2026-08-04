@@ -1,13 +1,4 @@
-﻿# Converted from: us-cow.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/trick01/raw/us-cow.ans
-# Source Revision: archive-sha256:c3ea36d0e67b15c9bdc665de1ef6dfc521c7508de688a6cdefd1a2cb4b54a376
-# Source SHA-256: b3041439ab97fb59a59b1ef597fc17e65b2c87b9e40ab4d2e921c1d48616ff50
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-cow.ans by Revolution + Ohred (trick01); released in trick01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: us-cow.ans by Revolution + Ohred | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-trick01-us-cow
 
 Write-Host '
 [1m [0m

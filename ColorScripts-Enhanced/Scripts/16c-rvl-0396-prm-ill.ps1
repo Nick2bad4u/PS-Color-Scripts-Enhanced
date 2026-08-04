@@ -1,18 +1,4 @@
-﻿# Converted from: PRM-ILL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rvl-0396/raw/PRM-ILL.ANS
-# Source Revision: archive-sha256:6ba51b3d0dc168dac68fc2016875b770d4335425f90ca1ed6abc12b1946ac90a
-# Source SHA-256: a45693ff1a34efaa6f524af6b308c7710aa45414d6cb4526ed91f594bdf5283b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PRM-ILL.ANS by pRiZM (RiVAL); released in rvl-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: iLLmATIC
-# SAUCE Author: pRiZM
-# SAUCE Group: RiVAL
-# SAUCE Date: 19960301
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: iLLmATIC by pRiZM | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rvl-0396-prm-ill
 
 Write-Host '
                             [1;30m▄▄▄[0;1;30;47m▀▀  [0;1;37;47m_  ▀ ▀▀███[0;1;37;40m▄▄▄▄[0m

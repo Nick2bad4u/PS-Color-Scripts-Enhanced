@@ -1,18 +1,4 @@
-﻿# Converted from: M!-MTH01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-07a/raw/M!-MTH01.ANS
-# Source Revision: archive-sha256:6502b6f7b940f1799a6ba4f4b08910561aba3d74e01448e36157cb66de10c8c7
-# Source SHA-256: 4ccc1908b136b84d118b57dd4f76c31edff36218e3621de4b3716407e05b5aec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M!-MTH01.ANS by Myth (Department 38); released in d38-07a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Myth Ego Trip
-# SAUCE Author: Myth
-# SAUCE Group: Department 38
-# SAUCE Date: 19970422
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Myth Ego Trip by Myth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-07a-m-mth01
 
 Write-Host '
 [34;45m████[0;35;40m██[0;1;35;45m▄[0;35m█[0;1;35;45m▄▄██▀▀▀▀▀▀▀▀▀▀▀[0;1;35;40m█████████████████[0;1;35;41m██▓░[0;31m███▓█▓█▓█▓███[0;33;41m░▀██▀ ▀▀▀█[0;31;43m▄[0;33;41m█[0;31;43m▄[0;1;37;43m  ▄█▄█▄█[0;33;41m█ [0m

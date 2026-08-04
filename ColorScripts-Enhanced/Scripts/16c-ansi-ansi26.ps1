@@ -1,13 +1,4 @@
-﻿# Converted from: ANSI26.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansi/raw/ANSI26.ANS
-# Source Revision: archive-sha256:50aaa63d173fc2f34f94b8a5b526a5ee8a8b9d7908c42264ab949073e7e0edf9
-# Source SHA-256: 52c27e1386e3b7c9f43da4fd5e633d8b6f3998716cabc506ae7b63fdfe3f7f9a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ANSI26.ANS by S-Man (ansi); released in ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: ANSI26.ANS by S-Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansi-ansi26
 
 Write-Host '
 S-Man #101 @2392

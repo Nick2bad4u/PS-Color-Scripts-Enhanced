@@ -1,18 +1,4 @@
-﻿# Converted from: Ap-fart.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-12/raw/Ap-fart.ans
-# Source Revision: archive-sha256:cf7450d53015f3027aacb5cf2043eb6d61ce25626e1f2b6e3930ea8e96c53230
-# Source SHA-256: bf6d7aca07287b696ae53009629b03c926d45aaffd8c0ca75494305399ed1e17
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Ap-fart.ans by Appel (Ecolove); released in eco-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Farty shit :)
-# SAUCE Author: Appel
-# SAUCE Group: Ecolove
-# SAUCE Date: 19990110
-# SAUCE Dimensions: 80x1000
-# Lines: 40-80
-# Columns: 1-80
+﻿# Artwork: Farty shit :) by Appel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-12-ap-fart-part02
 
 Write-Host '
                   [1;30m░  ▐▌[0m ▌    [1;30m█▌ [0m█[1;37;47m░[0m  [1;30m▄[0;1;30;47m▓▒░[0m████[1;30;47m░░[0m█▄[1;30m▀█[0;1;30;47m█▓▓[0;1;30;40m█▄[0m  [1;30m█▌ [0m

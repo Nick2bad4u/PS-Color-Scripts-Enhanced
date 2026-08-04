@@ -1,18 +1,4 @@
-﻿# Converted from: PI-JABY1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moi-0895/raw/PI-JABY1.ANS
-# Source Revision: archive-sha256:0bcb9dd4ac8b47461732a0c123390dfcaf83c546e8a021078174d2e8248d75fd
-# Source SHA-256: e967a4c7b0dc426d176e7096eda2514e8b5062cc456256d4d4bae21b888e9bb8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PI-JABY1.ANS by Pinhead (Moist); released in moi-0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Jaby Da Gopher
-# SAUCE Author: Pinhead
-# SAUCE Group: Moist
-# SAUCE Date: 19950817
-# SAUCE Dimensions: 79x100
-# Lines: 51-100
-# Columns: 1-79
+﻿# Artwork: Jaby Da Gopher by Pinhead | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moi-0895-pi-jaby1-part02
 
 Write-Host '
 [36;47m   ▀█[0;37;46m■[0;36;40m██████████████████▄ [0;1;33;43m█████████████████████[0;1;33;40m▌ ▐[0;1;33;43m████████████████████[0m [36m▄██████[0m

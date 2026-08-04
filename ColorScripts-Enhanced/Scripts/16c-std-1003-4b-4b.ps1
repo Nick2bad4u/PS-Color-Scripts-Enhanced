@@ -1,18 +1,4 @@
-﻿# Converted from: 4B-4B.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/std-1003/raw/4B-4B.ANS
-# Source Revision: archive-sha256:582b3f82f4a3d47b1c26833c77407896da01487b1f93d28a71b2ea8de6ba3624
-# Source SHA-256: 40ad0e3f958f35accccd0846accfd288948257bc6fb853c4115ca3274827b92f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 4B-4B.ANS by AfterBirth (Spread The Disease); released in std-1003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: AfterBirth#2
-# SAUCE Author: AfterBirth
-# SAUCE Group: Spread The Disease
-# SAUCE Date: 20031001
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: AfterBirth#2 by AfterBirth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-std-1003-4b-4b
 
 Write-Host '
 [1m               [0m                  [1m  ░░[0m      [1m░░[0m

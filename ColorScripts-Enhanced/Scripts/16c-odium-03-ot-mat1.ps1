@@ -1,18 +1,4 @@
-﻿# Converted from: OT-MAT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-03/raw/OT-MAT1.ANS
-# Source Revision: archive-sha256:fae30929abb2b921ba96bc7ad0b445be298bbdb28aa42921644d897c08d22f33
-# Source SHA-256: d1cd60188bd21f9b518ec48422feb3f1fae032fc639b4cf456866170c7f5b1ad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OT-MAT1.ANS by Matrix. So There. (Odium); released in odium-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Otter <Backwards.. heheh!>
-# SAUCE Author: Matrix. So There.
-# SAUCE Group: Odium
-# SAUCE Date: 19960115
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Otter <Backwards.. heheh!> by Matrix. So There. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-03-ot-mat1
 
 Write-Host '
    [1;46m░[0;36m██[0;36;46m [0;36;40m▀▀[0;1;37;40m▄▄[0;1;37;46m▓[0;1;37;40m███████████████████████████████[0;1;37;46m█▓▄▄▄▄■  ░[0;36m▄▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: LMOPPS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aeon0196/raw/LMOPPS.ANS
-# Source Revision: archive-sha256:9e935a3f1a0af071af39ef1e6040e82687f7f35e199404521457c0b02c93f5c1
-# Source SHA-256: 9f486c140fa716399644cd22e6cfcbdab54f46597713f975e3a394f474cfd626
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LMOPPS.ANS by Lord Chaos-Wicked (aeon0196); released in aeon0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: LMOPPS.ANS by Lord Chaos-Wicked | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aeon0196-lmopps
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: SM!PLF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0997/raw/SM!PLF.ANS
-# Source Revision: archive-sha256:d6ce507ee095ab9c7ce1d91178b57bff0c61babde42a3957415461a430e18407
-# Source SHA-256: 69109567ad38f9353e96b4cbfb40dd0ee85b8ab00ca3e4e6b3a97d2916a59dfc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM!PLF.ANS by sims (poffelipoff); released in plf-0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: poffelipoff?!
-# SAUCE Author: sims
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19970921
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: poffelipoff?! by sims | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0997-sm-plf
 
 Write-Host '
 [1;30m[0m[1m[0m[1;30m[0m

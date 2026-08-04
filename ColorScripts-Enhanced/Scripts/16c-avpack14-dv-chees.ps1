@@ -1,17 +1,4 @@
-﻿# Converted from: DV-CHEES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack14/raw/DV-CHEES.ANS
-# Source Revision: archive-sha256:cc504a5dba52c5f998daf5493fac68a658e6668bcf22da76e3af7c67337c8c9c
-# Source SHA-256: 3cc22fd3ac263f21c8d9bfae9f753053617d95badaae86975903c71297f99e5f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DV-CHEES.ANS by digital vampire (Apocalyptic Visions); released in avpack14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: cheese burger!
-# SAUCE Author: digital vampire
-# SAUCE Group: Apocalyptic Visions
-# SAUCE Dimensions: 80x25
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: cheese burger! by digital vampire | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack14-dv-chees
 
 Write-Host '
                                                            [34m░[0m         [34m▓[0;37;44m░[0;34;40m█▀▄█▓█▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: KRL-GEN2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack13/raw/KRL-GEN2.ANS
-# Source Revision: archive-sha256:4a26d5fa66db3ddd4cdcb2ef37b8cd0ed1462318d030e090ba0b76480554de3e
-# Source SHA-256: 4ce287b4ac03730a6325d1b8999e80a8a2e3961bd5b6c346f2fc8caa62222897
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KRL-GEN2.ANS by krl & sq2 (apocalyptic visions); released in avpack13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Gehenna
-# SAUCE Author: krl & sq2
-# SAUCE Group: apocalyptic visions
-# SAUCE Date: 19960817
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Gehenna by krl & sq2 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack13-krl-gen2
 
 Write-Host '
 [31m    [0m     [1;30m▓▓[0m        [31m▄[0;1;31m▄[0;1;31;41m▄[0;1;31;40m█  [0;36m    [0m                           [36m [0m

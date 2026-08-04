@@ -1,13 +1,4 @@
-﻿# Converted from: OA-WIBL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0896/raw/OA-WIBL.ANS
-# Source Revision: archive-sha256:bb0bebc605b8e233d6fe31cc7180aa47f63f2a5a14d07cf49a2ecbe43d7638fe
-# Source SHA-256: 44af3c35ccc77134dac0e9e4fede00cae6dbdcfb192319c66fcd016d0695987a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OA-WIBL.ANS by Sandy Chidester (out-0896); released in out-0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: OA-WIBL.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0896-oa-wibl
 
 Write-Host '
  ▄█▄  █▄[1m▀    ▄▀ [0m▀[1m███[0m▄█[1m██[0m▄██▄▄ [33m▄[0;1m▄[0m

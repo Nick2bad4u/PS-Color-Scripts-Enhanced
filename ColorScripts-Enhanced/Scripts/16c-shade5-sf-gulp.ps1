@@ -1,18 +1,4 @@
-﻿# Converted from: SF-GULP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shade5/raw/SF-GULP.ANS
-# Source Revision: archive-sha256:9eb97f9412f63f0ce4837a80894f87a3aed455c1487394481c6e40b531c2203d
-# Source SHA-256: 4a8b0b9a6b5b68c75cdb5533292b0f02c57acb5f7c6f848ff0f130b453ac0e2e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SF-GULP.ANS by shaft (shade); released in shade5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: gulp
-# SAUCE Author: shaft
-# SAUCE Group: shade
-# SAUCE Date: 19970222
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: gulp by shaft | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shade5-sf-gulp
 
 Write-Host '
  [31m▀█▄[0;37m [0;31m▀▌[0;37m [0;31m▀▄▄█▀[0;37m [0;31m▄[0;37m  [0;31m▀ ▀▀[0;1;31;41m░░[0;31m▄▄[0;37m [0;31m▐▄[0;37m  [0;31m▐▌░░▀▐▌[0m     [31m  ▄  [0m        [34m         ▌ █ ▐███        [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SOR-INQ2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zenith01/raw/SOR-INQ2.ANS
-# Source Revision: archive-sha256:89a769066be1ade04361b16bc2aabeb1a280fe034deee0fe7ee4c75badc7461d
-# Source SHA-256: 875115cc269ac73c7b3723518dd131037f00fc9842d877e19800fc0c4cf9089c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SOR-INQ2.ANS by Spirit of Rage (Zenith); released in zenith01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: iniq2
-# SAUCE Author: Spirit of Rage
-# SAUCE Group: Zenith
-# SAUCE Date: 19980521
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: iniq2 by Spirit of Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zenith01-sor-inq2
 
 Write-Host '
              ▄[1;30m▄▀  [0m [1;30m [0m [35m▄[0;37m   [0;1;30m▀[0m [1;30m▄▄▄▄▄▄▄[0m                                  [1;30m%[0;1;37msor[0m![1mzenith[0;1;30m%[0m

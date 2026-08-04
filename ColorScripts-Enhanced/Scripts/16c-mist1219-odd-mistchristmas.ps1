@@ -1,19 +1,4 @@
-﻿# Converted from: ODD-MISTCHRISTMAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1219/raw/ODD-MISTCHRISTMAS.ANS
-# Source Revision: archive-sha256:2ef482cc3c00fd1816de01c970fe51e60714b09c7978b1ba16af7edbe1d1a563
-# Source SHA-256: 9faa48ad7caa5a9dbda6881398e6f4cf0e70cce4a07a5f396f2202d904ceaadc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ODD-MISTCHRISTMAS.ANS by Odd (Mistigris); released in mist1219 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Happy Christmas
-# SAUCE Author: Odd
-# SAUCE Group: Mistigris
-# SAUCE Date: 20191214
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Happy Christmas by Odd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1219-odd-mistchristmas
 
 Write-Host '
 

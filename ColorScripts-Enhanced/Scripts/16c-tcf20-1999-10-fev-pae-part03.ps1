@@ -1,16 +1,4 @@
-﻿# Converted from: 1999 - 10 - FEV-PAE.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tcf20/raw/1999%20-%2010%20-%20FEV-PAE.ans
-# Source Revision: archive-sha256:af8609219fccc484668fb405a7f1d45efb8c574501a461c5c1b47d87a12921ce
-# Source SHA-256: 576e5f8d0a0ce3492d8d018a0f2efb05e40992606294d59855d8a0dbb6754e30
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 1999 - 10 - FEV-PAE.ans by Fever (seviin); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Parental Advisory
-# SAUCE Author: Fever
-# SAUCE Group: seviin
-# Lines: 72-108
-# Columns: 1-80
+﻿# Artwork: Parental Advisory by Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tcf20-1999-10-fev-pae-part03
 
 Write-Host '
    [30;47m█[0;31;40m▀[0;1;31;41m▀[0;1;37;43m░[0;1;31;41m░░[0;31m▀[0;33;41m▓[0;1;31;43m▄█[0;1;31;40m██[0;1;31;43m█▄[0;43m░[0;33;40m███▄▄█▀▀▀██▄▄[0;37;40m  [0;33;40m█▀[0;37;40m  [0;33;40m▄█[0;1;31;43m░░░▓▓▓▀▀  ▄▄█▀   ▄▄[0;33m▀▀[0;1;31m██████[0;1;31;43m▌[0;33m█[0;37m [0;1;30m███████████[0m

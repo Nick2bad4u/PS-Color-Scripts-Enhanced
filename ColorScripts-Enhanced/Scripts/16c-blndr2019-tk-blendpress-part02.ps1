@@ -1,19 +1,4 @@
-﻿# Converted from: tk-blendpress.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2019/raw/tk-blendpress.ans
-# Source Revision: archive-sha256:a6c9770dbfd45af40546ed27ced15f003f134c43830de0621ef577cc0f1d4d1f
-# Source SHA-256: 68b58a38314b1d16c8bc97714d4165fd001453930ba63ac4a2e7c5b341adeb33
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tk-blendpress.ans by the knight (fuel); released in blndr2019 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Empress blender
-# SAUCE Author: the knight
-# SAUCE Group: fuel
-# SAUCE Date: 20190414
-# SAUCE Dimensions: 80x80
-# SAUCE Font: IBM VGA
-# Lines: 41-80
-# Columns: 1-80
+﻿# Artwork: Empress blender by the knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2019-tk-blendpress-part02
 
 Write-Host '
 ███[1;30;47m░░▒[0;1;30;40m█████[0;1;31;40m ██[0;1;31;43m▓▓▓▓▓▓▒▒▒▒[0;33m▌[0;31m ▓▓███▓▄    ▄ [0;1;30;41m▒▓▒░[0;31m [0;37m [0;1;37m■[0m   [31m▄[0;1;30;41m░░[0;31m██[0;1;37;41m ░▒▓[0;1;37;40m  [0m▀███████████████████

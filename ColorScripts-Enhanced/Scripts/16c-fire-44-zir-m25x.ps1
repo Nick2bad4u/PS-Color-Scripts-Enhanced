@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-M25X.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-44/raw/ZIR-M25X.ANS
-# Source Revision: archive-sha256:6c51508cedeaa9140fcf08750a75edb14e0cec0eebe7b4290346e95cd3548876
-# Source SHA-256: 1b913c4f2c22a86531532aa19a7d3119daee21d3931981b6cee9e1d7bd03c5b6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-M25X.ANS by zir (FiRE); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: MAXX
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20251111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: TWENTY-FIVE FUN-PACKED LINES of THE MAXX looking all depressed o | utside of Julie's place...
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: MAXX by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-44-zir-m25x
 
 Write-Host '
 [37;40m [0;1;30;40m▄[0;1;30;47m▀▓▓[0;1;30;40m█▐[0;1;30;47m▀▓[0;1;30;40m░[0m MAXX[31m·[0;35m▄[0;1;35;45m▄[0;35m▄░ ▄▄[0;33m▐[0;1;33;43m▓▓[0;33m▌[0;35m▄▄ ░ ▄[0;1;35;45m░[0;35m▄░░[0;1;30m  ░▓[0;1;30;47m▓▀▓[0;1;30;40m▐▄▀[0;33m▄▄▄▄▄▄▄▄▄▄▄[0;37m [0;33m▄▌▄▌▄▌▄▌▄▌▄▌▄▌▄▌▄▄▄░[0m

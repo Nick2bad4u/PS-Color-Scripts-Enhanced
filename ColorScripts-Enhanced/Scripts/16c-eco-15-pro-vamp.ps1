@@ -1,13 +1,4 @@
-﻿# Converted from: PRO-VAMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-15/raw/PRO-VAMP.ANS
-# Source Revision: archive-sha256:409ec45d4d8a58bbd858f19a2194e4a9e60ce3a5a22824158eb9e0a6b60e9226
-# Source SHA-256: 59626fa910d8c110dc6e8c2d523abe14be9b477de7b59c887ac9676656d4581f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PRO-VAMP.ANS by Propher (eco-15); released in eco-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: PRO-VAMP.ANS by Propher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-15-pro-vamp
 
 Write-Host '
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▌▐▀▀▀▀▀▀▀▀▀▀▀█▐▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▐▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀

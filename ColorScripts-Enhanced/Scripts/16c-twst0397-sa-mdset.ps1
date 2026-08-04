@@ -1,18 +1,4 @@
-﻿# Converted from: SA-MDSET.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst0397/raw/SA-MDSET.ANS
-# Source Revision: archive-sha256:270113b0dc287d2000b7b6ec4e15ca8f25fdc0a29ca100fce3b52cae8465f5bd
-# Source SHA-256: 0e75df93be5e3957dcfa142811d59446bd2a6aa06981eccbb2f6cf801240e355
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SA-MDSET.ANS by silica (er not sure); released in twst0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: its mindless
-# SAUCE Author: silica
-# SAUCE Group: er not sure
-# SAUCE Date: 19970310
-# SAUCE Dimensions: 80x32
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: its mindless by silica | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst0397-sa-mdset
 
 Write-Host '
      [1;30m [0;1;37m▄▄▄▄[0;1;37;47m▓[0;1;37;40m█▀██▄▄█▀██▄▄▄▄[0m [1;32m▀[0;1;32;42m▒▌░[0;32m██[0;1;32;42m▒[0;32m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: TX-JUICE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-11/raw/TX-JUICE.ANS
-# Source Revision: archive-sha256:124f5de71b4943d1edf363ae27ec83def11b741938d7ad78955f12dc3ea0753e
-# Source SHA-256: 30ca5e993b556f1b63c561979b7fbb5013ef070f1d6aae80afa3f247b8c1cc70
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TX-JUICE.ANS by toons xilion (eclipse); released in ecl-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: take a hit
-# SAUCE Author: toons xilion
-# SAUCE Group: eclipse
-# SAUCE Date: 19970201
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: take a hit by toons xilion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-11-tx-juice
 
 Write-Host '
 [1;46m           [0;1;34;46m░░░░░▒▒▒▒▓▓▓▓[0;1;34;40m█████████[0;1;34;44m▓[0;1;34;40m██[0;1;34;44m▓▓▓[0;1;34;40m░░ ░[0m                              [1;30m▓▄▄▀▀[0m

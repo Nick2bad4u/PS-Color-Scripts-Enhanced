@@ -1,19 +1,4 @@
-﻿# Converted from: tcf-acid.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna01/raw/tcf-acid.ans
-# Source Revision: archive-sha256:70f712dbf565de1ceb0f2b7020b54aa443621235a47b082b92e24e13342b0672
-# Source SHA-256: a856d1e1d8354b8e39de3ddba00474e5e9e04e6a1c6c065d8ba69061928f5906
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tcf-acid.ans by tcf (ACiD); released in thesauna01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: acid
-# SAUCE Author: tcf
-# SAUCE Group: ACiD
-# SAUCE Date: 20190926
-# SAUCE Dimensions: 80x31
-# SAUCE Font: IBM VGA
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: acid by tcf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna01-tcf-acid
 
 Write-Host '
 

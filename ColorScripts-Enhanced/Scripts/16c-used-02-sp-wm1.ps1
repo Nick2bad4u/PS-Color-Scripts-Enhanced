@@ -1,18 +1,4 @@
-﻿# Converted from: SP-WM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-02/raw/SP-WM1.ANS
-# Source Revision: archive-sha256:21302c91644277d9117a9a1fcab004f6fa76d5a90d6a4926e513a24dd5b73cd5
-# Source SHA-256: d50a4f90c5445f9b30388471435dbbba861accb1b946211884efdc02fb22e47f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SP-WM1.ANS by Spearfx (The Used Coalition); released in used-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Wicked Minority
-# SAUCE Author: Spearfx
-# SAUCE Group: The Used Coalition
-# SAUCE Date: 19991130
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: Wicked Minority by Spearfx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-02-sp-wm1
 
 Write-Host '
 

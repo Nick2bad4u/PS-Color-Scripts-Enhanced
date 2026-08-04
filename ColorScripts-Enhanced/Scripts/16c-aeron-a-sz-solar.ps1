@@ -1,13 +1,4 @@
-﻿# Converted from: Sz-solar.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aeron-a/raw/Sz-solar.ans
-# Source Revision: archive-sha256:77ae7b32523591af134f7f3f8b7b910fee96858615d2fc199e08003552f80728
-# Source SHA-256: 5af2854977531f31e014b92a7a2cfba6df255b2b4dd4d4325da12a0b468d7f2f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Sz-solar.ans by Slackzor (aeron-a); released in aeron-a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Sz-solar.ans by Slackzor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aeron-a-sz-solar
 
 Write-Host '
 

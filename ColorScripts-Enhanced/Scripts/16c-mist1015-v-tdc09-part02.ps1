@@ -1,17 +1,4 @@
-﻿# Converted from: V-TDC09.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1015/raw/V-TDC09.ANS
-# Source Revision: raw-sha256:7bd5d3f59ef0dbaeddd864cc202bff9aff65e05ae46edb50b94f03835a9d389d
-# Source SHA-256: 7bd5d3f59ef0dbaeddd864cc202bff9aff65e05ae46edb50b94f03835a9d389d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: V-TDC09.ANS by VileR (Mistigris); released in mist1015 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Total DOS Collection 9
-# SAUCE Author: VileR
-# SAUCE Group: Mistigris
-# SAUCE Dimensions: 80x119
-# Lines: 41-80
-# Columns: 1-80
+﻿# Artwork: Total DOS Collection 9 by VileR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1015-v-tdc09-part02
 
 Write-Host '
 [1;5;33;46m ░ ░ ░ [0;1;36m▄[0;1;30m▀[0;5;33;40m             [0;1;30m█▀█[0;5;31;40m▐[0;31m▀[0;37m [0;1;30m▄[0;32m▀▀▬_[0;1;30m▀[0;32m▀[0;1;32;42m▀[0;32m█▀▒▀[0;1;32;42m ▀[0;1;30;42m▄[0;1;30;40m▀[0;32m [0;1;30m▬[0;32m■▀[0;1;30m▀[0m [31m ▐ [0;1;30m▀▀■▓[0;5;33;40m░  -        [0;33m▀[0;1;36m▄[0;1;5;33;46m░ ░ ░ ░ ░[0m

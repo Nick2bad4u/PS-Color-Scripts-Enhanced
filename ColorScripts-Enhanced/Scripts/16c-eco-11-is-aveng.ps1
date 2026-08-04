@@ -1,18 +1,4 @@
-﻿# Converted from: IS-AVENG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-11/raw/IS-AVENG.ANS
-# Source Revision: archive-sha256:1dfdff2a149d7c508dd5217b2507a6f6de57b0b50768db84824a6336603554b3
-# Source SHA-256: 834591f91800d9c1fc031aceaeae705a1bfcddedcc569b249ab51042716fdcdb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IS-AVENG.ANS by prosthesis (ecolove); released in eco-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: avenge
-# SAUCE Author: prosthesis
-# SAUCE Group: ecolove
-# SAUCE Date: 19981122
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: avenge by prosthesis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-11-is-aveng
 
 Write-Host '
   [1;30m           [0m                      [36m▄▄▄▄▄▄▄▄[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: MOVIE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tk-ansi/raw/MOVIE1.ANS
-# Source Revision: archive-sha256:7a6e15a450305cb977de0a4eb06cf4ca525baa4933c9f7af1cf6080dced8bf2d
-# Source SHA-256: ae8034da3ed6f64b53a55c01862b191d80086c158bb1eb929d935e7d0ff32ac7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MOVIE1.ANS by Tank (Tank Productions); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Final Fantasy BBS Ad
-# SAUCE Author: Tank
-# SAUCE Group: Tank Productions
-# SAUCE Date: 19911124
-# SAUCE Dimensions: 80x24
-# SAUCE Comments: ANSIMation recycling the standalone eyeblink.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Final Fantasy BBS Ad by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tk-ansi-movie1
 
 Write-Host '
 

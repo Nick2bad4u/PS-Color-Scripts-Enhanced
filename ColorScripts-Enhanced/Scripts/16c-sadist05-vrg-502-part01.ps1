@@ -1,13 +1,4 @@
-﻿# Converted from: VRG-502.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sadist05/raw/VRG-502.ANS
-# Source Revision: archive-sha256:48539c7fd3103651a6474c72efa2d6287c0500d048769b6f96b3f80e7845070c
-# Source SHA-256: ac1988b48cc13a2f22b97f40be455e9171e6135fdb46371da110ec72aaf91b86
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VRG-502.ANS by Vargr (sadist05); released in sadist05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: VRG-502.ANS by Vargr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sadist05-vrg-502-part01
 
 Write-Host '
 

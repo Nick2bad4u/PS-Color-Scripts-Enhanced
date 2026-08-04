@@ -1,18 +1,4 @@
-﻿# Converted from: shn-lava.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook19/raw/shn-lava.ans
-# Source Revision: archive-sha256:3dd762b50e992d041fc40857f6a08666cf879c80169b27b714b162069a52b736
-# Source SHA-256: 8a38c0d3784628002edc8f137cc2c324c72b9ad328da2d7964889078f318f64b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: shn-lava.ans by shine (black maiden); released in bmbook19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: gildendraw h?lp!
-# SAUCE Author: shine
-# SAUCE Group: black maiden
-# SAUCE Date: 19981207
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: gildendraw h?lp! by shine | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook19-shn-lava
 
 Write-Host '
 [35m▄█[0;30;45m  [0;1;33;42m  [0;35;42m  [0;30;45m  [0;35;40m▄[0;30;45m   [0;35;42m▌ [0;1;36;42m  [0;35;42m [0;30;45m      [0;1;33;42m [0;1;32;45m▄[0m [1;33;41m▐▌[0m   [35m▄[0;1;32;45m▄[0;1;37;45m▄[0;30;45m■[0;35;40m▄[0;37;40m       [0;34;40m [0;1;34;40m▄[0;1;36;40m▄[0;1;36;47m▓[0;34m [0;1;36m▓[0;1;34m▄[0;34m [0;1;37m▄▄[0;1;36m▄▄[0;1;34m▄[0;34m  [0;1;36;44m░▓▄[0;34m▄[0;37m  [0;35m█[0;1;32;45m▄[0m [34m▄[0;1;36m▄▌[0;34m▄[0;37m       [0m

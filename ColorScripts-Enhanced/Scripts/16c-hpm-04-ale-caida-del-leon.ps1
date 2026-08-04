@@ -1,20 +1,4 @@
-﻿# Converted from: ale-caida_del_leon.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hpm-04/raw/ale-caida_del_leon.ans
-# Source Revision: archive-sha256:d2c0a14e6aa186cff60c36e0afbe6cc20a83d0b801e42df0e6a8c7b44be43337
-# Source SHA-256: 9c0803d4f3284907100b7fe61c342f951d9df7b06e007d544360732e2bc082ee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ale-caida_del_leon.ans by @aleprez (HPM); released in hpm-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: La caida del leon
-# SAUCE Author: @aleprez
-# SAUCE Group: HPM
-# SAUCE Date: 20240615
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Las circunstancias no hacen al hombre, solo lo revelan. | Epicteto
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: La caida del leon by @aleprez | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hpm-04-ale-caida-del-leon
 
 Write-Host '
 [31m█[0;31;43m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;31;40m█[0m

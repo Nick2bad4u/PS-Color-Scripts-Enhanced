@@ -1,18 +1,4 @@
-﻿# Converted from: RL-OPTIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0296/raw/RL-OPTIC.ANS
-# Source Revision: archive-sha256:06e6dc5afce1ee45051e2bc9293c259c32e010fc92f42b6c050d6f2242a1670c
-# Source SHA-256: 1e0f08f36a46069b9ec56db46e83862d6b881321eac3f599f6de733a3f6c42fa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL-OPTIC.ANS by Rawlock (Opium); released in opx-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Optical Illusion
-# SAUCE Author: Rawlock
-# SAUCE Group: Opium
-# SAUCE Date: 19960201
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Optical Illusion by Rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0296-rl-optic
 
 Write-Host '
              [1;30m   [0m                       [1;30m▄▄▄▄▄▄▄▄[0;1;37m [0m                      [1;30m█▀▀▀▀▀▀▓[0m

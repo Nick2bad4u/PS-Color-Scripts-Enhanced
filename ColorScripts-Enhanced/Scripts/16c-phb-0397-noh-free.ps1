@@ -1,17 +1,4 @@
-﻿# Converted from: NOH-FREE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phb-0397/raw/NOH-FREE.ANS
-# Source Revision: archive-sha256:d18868f8faf7726799689b37fb1a0005133cfca83163c8b652f242ae3ef3a67d
-# Source SHA-256: 3ace85c18b2f4c1a77b8f32203f9036794500944661badb023ad63e35235ee45
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-FREE.ANS by nOah! (phb-0397); released in phb-0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: free matrix?
-# SAUCE Author: nOah!
-# SAUCE Date: 19970302
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: free matrix? by nOah! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phb-0397-noh-free
 
 Write-Host '
    [31m███████[0m

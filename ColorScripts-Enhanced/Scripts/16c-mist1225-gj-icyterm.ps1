@@ -1,18 +1,4 @@
-﻿# Converted from: GJ-ICYTERM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1225/raw/GJ-ICYTERM.ANS
-# Source Revision: archive-sha256:ad7094cd4ecc2b378f2db405885d71750ab479d4047a6dbcbce2412f0935f4aa
-# Source SHA-256: a62ed259af9aceb0829f50a454586101cba075902e447b4ea2832130b7ca1568
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GJ-ICYTERM.ANS by grymmjack (MiSTiGRiS); released in mist1225 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: icy term
-# SAUCE Author: grymmjack
-# SAUCE Group: MiSTiGRiS
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: Made for one of the friendliest nerds around! Mike Krueger | check | icy term here: https://github.com/mkrueger/icy_term | also check out icy draw :) https://github.com/mkrueger/icy_tools | - part of the icy tools pacakge
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: icy term by grymmjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1225-gj-icyterm
 
 Write-Host '
 

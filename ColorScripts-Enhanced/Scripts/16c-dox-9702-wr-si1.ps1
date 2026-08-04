@@ -1,18 +1,4 @@
-﻿# Converted from: WR-SI1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_9702/raw/WR-SI1.ANS
-# Source Revision: archive-sha256:33822ef17727497e570bbe1fb936980d768f5ecb13f914599943b0c787232617
-# Source SHA-256: 5522e8afe18627beccb5358862bc53f90b6b4647c195f72f507eec213faf6a05
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WR-SI1.ANS by war (dox); released in dox_9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: synthetic intelligence bbs
-# SAUCE Author: war
-# SAUCE Group: dox
-# SAUCE Date: 19970123
-# SAUCE Dimensions: 80x31
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: synthetic intelligence bbs by war | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-9702-wr-si1
 
 Write-Host '
  [34m▒[0m                                    [34m▀[0m     [34m·[0m               [34m·[0m              [34m▄[0m

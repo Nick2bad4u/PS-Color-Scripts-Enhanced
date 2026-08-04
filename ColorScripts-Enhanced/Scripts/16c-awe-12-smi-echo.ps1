@@ -1,17 +1,4 @@
-﻿# Converted from: SMI-ECHO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-12/raw/SMI-ECHO.ANS
-# Source Revision: archive-sha256:5c96c14e912296494a464a42e768321452d811693cf172945a9502eb4396c8bb
-# Source SHA-256: 731ffc6f1df063c49b4d3464d2b39f8caaefa715132c4a99bf44adac147605fa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMI-ECHO.ANS by Samurai (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Echo
-# SAUCE Author: Samurai
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Echo by Samurai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-12-smi-echo
 
 Write-Host '
 [32m [0m                       [35m▄▄[0;31m▄▄[0;33m▄▄▄ [0m

@@ -1,16 +1,4 @@
-﻿# Converted from: at-hala.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-6710/raw/at-hala.ans
-# Source Revision: archive-sha256:65fe9e2a2e2016f30e4b0141be2d1472e9b7cc814d922f9663e0d0a04142d70a
-# Source SHA-256: 2a8d0083eb5d2a5fd9671477d26295608010cd10234eff8d3cf809e5df39d21c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: at-hala.ans by Aphid Twix (blocktronics-6710); released in blocktronics-6710 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20180516
-# SAUCE Dimensions: 80x166
-# SAUCE Font: IBM VGA
-# Lines: 44-85
-# Columns: 1-80
+﻿# Artwork: at-hala.ans by Aphid Twix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-6710-at-hala-part02
 
 Write-Host '
 [1;30;40m [0m        [1;37;40m▓[0m█▒        ▒   ░███████████▀[1;47m░▄[0m██[1;47m░▒▓████▀██▓███[0;1;104m▓▄[0;1;34;44m░▒▓[0;1;34;40m████████████████[0;1;37;47m▓[0;1;37;104m▄▄▄[0m

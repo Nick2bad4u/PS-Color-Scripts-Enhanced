@@ -1,13 +1,4 @@
-﻿# Converted from: us-prev.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic18/raw/us-prev.ans
-# Source Revision: archive-sha256:8d12a522760b11897606ed8a25eb34a8b81361de801508b14142e174321fe971
-# Source SHA-256: 88e6f2867b8fc36aeed68d821839ea35a649cf0e6128d21aae7c530ce426636e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-prev.ans by Polygon + The Reaper (mimic18); released in mimic18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: us-prev.ans by Polygon + The Reaper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic18-us-prev-part01
 
 Write-Host '
           .┌#S╬╬╬╬[1m [0m╬╬╬[33m [0;1;37mmimicy2k                       [0m      [1m  [0m [1m  .,▬┌⌂"`[0m [32ml[0m

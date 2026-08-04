@@ -1,18 +1,4 @@
-﻿# Converted from: 5m-danger.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-globalblockdown/raw/5m-danger.ans
-# Source Revision: archive-sha256:72def6914c400cf448198b2a3876b5414476d859652144a1c3db260cf8838ba8
-# Source SHA-256: a7d6e79e6d139a0a28d83bed7a720df571cc25e453c950cb8bbb60b2f101bf02
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5m-danger.ans by Smooth (Blocktronics); released in blocktronics-globalblockdown and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: Smooth
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20200702
-# SAUCE Dimensions: 80x80
-# SAUCE Font: IBM VGA
-# Lines: 39-76
-# Columns: 1-80
+﻿# Artwork: 5m-danger.ans by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-globalblockdown-5m-danger-part02
 
 Write-Host '
 [37;40m           [0;36;47m░░[0;37;40m▀         ▄[0;1;37;47m░░░[0m█▀[1m▀▀                         [0m▀▀[1;47m [0m▄[1;30m▄[0m [36;47m░░[0;37;40m▀▀[0m

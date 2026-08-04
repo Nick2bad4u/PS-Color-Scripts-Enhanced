@@ -1,18 +1,4 @@
-﻿# Converted from: US-SAVAG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge01/raw/US-SAVAG.ANS
-# Source Revision: archive-sha256:e3615c9ad4db854d301441fb81d58fc4cb93eaca03eb63b7ee121ef773ffd3d1
-# Source SHA-256: e7e78c242ed6fa7084cc874d446c669b664ac2f89d2b6ca60bcc14eb982c730f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SAVAG.ANS by Zeus Ii + Retribution (avenge); released in avenge01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Savage Lands
-# SAUCE Author: Multiple Artists
-# SAUCE Group: avenge
-# SAUCE Date: 19980128
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: The Savage Lands by Zeus Ii + Retribution | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge01-us-savag
 
 Write-Host '
 [1;30m█▌▀█▀█▀▀█[0;33m [0;37m            [0m         [37m       [0;1;30m     [0m        [1;30m░[0m              [1;30m██▀▀█[0;1;30;47m▓▓[0;1;30;40m███▄ [0m▒▒

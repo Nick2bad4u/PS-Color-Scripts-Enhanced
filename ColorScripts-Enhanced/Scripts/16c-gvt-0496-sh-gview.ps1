@@ -1,18 +1,4 @@
-﻿# Converted from: SH-GVIEW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gvt-0496/raw/SH-GVIEW.ANS
-# Source Revision: archive-sha256:cbfe0330e9391dd33b84def04973fc8122df48dfe80ebbb080b9aafe9fb5ddcd
-# Source SHA-256: 1839a904fedeaa77bb2f8aae7ce40910aef5b7bd86d5a08342c5f221adb18cf9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SH-GVIEW.ANS by Shatters (Gravity); released in gvt-0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Gravity View Template
-# SAUCE Author: Shatters
-# SAUCE Group: Gravity
-# SAUCE Date: 19960328
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Gravity View Template by Shatters | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gvt-0496-sh-gview
 
 Write-Host '
 [34m [0;37m  [0;34m [0;37m [0;34m ▄▄▄▄[0;1;34;44m▒▒▒▒░░ ░░░[0;34m██████[0;1;34;44m░░[0;34m███[0;30;44m░   [0;1;34;44m░[0;34m█[0;1;34;44m░░▒▒▓▓▒░░░[0;34m█████[0;1;34;44m░░░[0;34m███[0;1;34;44m░[0;34m██[0;1;34;44m░░░░░░░▒▒[0;34m▄▄▄▄[0m

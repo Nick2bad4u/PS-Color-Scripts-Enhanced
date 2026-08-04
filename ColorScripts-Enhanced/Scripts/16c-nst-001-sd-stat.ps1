@@ -1,18 +1,4 @@
-﻿# Converted from: SD!STAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nst_001/raw/SD!STAT.ANS
-# Source Revision: archive-sha256:73e351b64f3e5af00925276ea27a29359884e7841f4015afd3acb29f2a370d2d
-# Source SHA-256: 329b2f985257fb32c41eef821a7c172ee5bb92ae9d42f6c6078f2b389d7d2e01
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD!STAT.ANS by sad (neon strike); released in nst_001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: stats
-# SAUCE Author: sad
-# SAUCE Group: neon strike
-# SAUCE Date: 19980331
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: stats by sad | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nst-001-sd-stat
 
 Write-Host '
 [1;31m [0;33m▄[0;1;31m    [0;1;30m░░[0;1;31m     [0;33m▄[0;1;31m   [0m                ▄[1;33m▄▐[0;1;33;43m▓[0;1;33;40m▓▓[0m       [1;32m▄▄ [0m   [1;32m▄▄▄   [0m     [1;32m ▄▄[0m   [1;32m▄▄▄   [0m

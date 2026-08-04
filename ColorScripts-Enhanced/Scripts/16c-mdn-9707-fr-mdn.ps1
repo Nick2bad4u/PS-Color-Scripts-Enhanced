@@ -1,18 +1,4 @@
-﻿# Converted from: FR-MDN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9707/raw/FR-MDN.ANS
-# Source Revision: archive-sha256:bfcb83c6d9eb9beac4e313e6cb4a06c0bdcb3b894eaa2b7afbdde4d6e5181bec
-# Source SHA-256: 247f0ac0e40d99f3224ac6e240cc19a61b4958ca601f3d8162a0e9a06701b49a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FR-MDN.ANS by feaRprOphet (csf/mdn/aif); released in mdn-9707 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: maiden BR logo
-# SAUCE Author: feaRprOphet
-# SAUCE Group: csf/mdn/aif
-# SAUCE Date: 19970528
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: maiden BR logo by feaRprOphet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9707-fr-mdn
 
 Write-Host '
             [36m▄[0;1;36m▄▄[0;1;36;46m▄███▄[0;1;36;40m▄[0;36m▄[0m     [36m▄[0m                       [37m [0;1;35m▀▀▀▀▀▀[0;35m [0;37m   [0;32m▄[0;1;32m▄▄▄▄▄▄▄▄[0;30;42m▀▓▓▓[0m

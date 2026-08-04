@@ -1,18 +1,4 @@
-﻿# Converted from: T-HAZ2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook15/raw/T-HAZ2.ANS
-# Source Revision: archive-sha256:e54ebc8c52f8d9379c31843d1a642e9eaaf309656353be720cf874920f543492
-# Source SHA-256: f837c5c97c80ac16d49b7956c591427cc0ae4f0b61f8e39f37dce677091778b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T-HAZ2.ANS by toot (black maiden); released in bmbook15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: hazard 2
-# SAUCE Author: toot
-# SAUCE Group: black maiden
-# SAUCE Date: 19970729
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: hazard 2 by toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook15-t-haz2
 
 Write-Host '
    [1;30m▀[0;1;30;47m▄ ▐[0;1;30;40m▌▄▄[0m  [33m▐[0;37;43m░[0;1;33;43m ░░[0;33m█▀[0;1;33;43m▀█[0;1;37;40m██[0;1;33;43m▓▓░░[0;33m█▀▄[0;1;33;43m▄[0;33m▌[0;37m [0;33m░[0;1;33;43m█▀[0;1;33;40m▀▀[0;33m▀[0m   [33m ▄▄[0;1;33m▄▄▄▄▄▄▄▄▄[0;1;33;43m▄[0;1;37;40m██[0;1;33;43m██▓░[0;33m░ [0m       [1;30;47m▌[0;1;37;47m▓▓[0;1;30;47m▐[0m

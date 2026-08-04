@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-2000.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1299/raw/BYM-2000.ANS
-# Source Revision: archive-sha256:83adb8251a8dc8c325101454935a0efc46e834de99da0956bfb9a33bb74d6870
-# Source SHA-256: c88b04c75a3d6fc4429081b81ca261b3be4ad1bbd3ddd8d7a4f293faa0cf0265
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-2000.ANS by bym2OOO (poffelipoff); released in plf-1299 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: generation
-# SAUCE Author: bym2OOO
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19991212
-# SAUCE Dimensions: 80x200
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: generation by bym2OOO | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1299-bym-2000-part02
 
 Write-Host '
   [1;30m░░[0m  [1;30m▀▄[0m [1;30m▀[0;1;30;45m▄▄  ▀  ▀[0;35m█▄[0;37m [0;35m▀[0;1;31m▀[0;35m█▄[0;37m [0;1;31m▄██▀[0;1;31;45m▀███ ▄▄[0;1;31;40m▓[0;1;31;45m▄▐███▄▀ [0;1;30;45m ▀[0m▒[1;30;45m [0;1;31;45m▀[0;1;30;40m█[0;1;30;45m▌▀[0;1;30;40m███[0m  [1;30m▄█▄ ▄█[0;1;30;45m▄██[0;1;30;40m▐█▀▀█▄ [0m [1;30m▀▄▀▌[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: GENOCIDE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-1196/raw/GENOCIDE.ANS
-# Source Revision: archive-sha256:6ef6d0fc5e98023ae397158b861ea8c1f97c8bf9ea116a4660fdbca6650c96ff
-# Source SHA-256: f592a663fb18cf90920c198b8f43fc89ae71f84b81882ddc095335141615d2be
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GENOCIDE.ANS by Shaft + Tosh10 (opium); released in opx-1196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: genocide
-# SAUCE Author: shaft
-# SAUCE Group: opium
-# SAUCE Date: 19961029
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: genocide by Shaft + Tosh10 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-1196-genocide
 
 Write-Host '
 [1;33m                   ▄▄▄▄▄▄▄▄████████████████████████▄▄▄▄▄▄▄▄                     [0m

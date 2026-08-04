@@ -1,18 +1,4 @@
-﻿# Converted from: PYX-SAUS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0697/raw/PYX-SAUS.ANS
-# Source Revision: archive-sha256:608fe2b98dcac70515ce221c11f606d898ec739b4fcdd1a5448c437eb640df82
-# Source SHA-256: be1283767a742cb8b9dbe9a26f861316a7093b4617ede8ddb7755b7e72ba68d3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-SAUS.ANS by pyx (bmb); released in bmb-0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: burn a sausage (TODAY)
-# SAUCE Author: pyx
-# SAUCE Group: bmb
-# SAUCE Date: 19970214
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: burn a sausage (TODAY) by pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0697-pyx-saus
 
 Write-Host '
                 [33m  ▄▄▄▄▄▄▄▄    [0m

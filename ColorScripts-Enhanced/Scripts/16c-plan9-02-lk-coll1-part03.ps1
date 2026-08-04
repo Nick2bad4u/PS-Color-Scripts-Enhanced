@@ -1,18 +1,4 @@
-﻿# Converted from: LK-COLL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plan9-02/raw/LK-COLL1.ANS
-# Source Revision: archive-sha256:7f21295c062143151c1cc36acb96848c0373edea5f13ee079aa2333c65a66c0d
-# Source SHA-256: 88de888556ff4bef07d7f50de915128720ffaa448d79a236bcdc69d8e3007813
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LK-COLL1.ANS by L0wK3y (plAn 9); released in plan9-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: colly #1
-# SAUCE Author: L0wK3y
-# SAUCE Group: plAn 9
-# SAUCE Date: 19970125
-# SAUCE Dimensions: 80x150
-# Lines: 101-150
-# Columns: 1-80
+﻿# Artwork: colly #1 by L0wK3y | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plan9-02-lk-coll1-part03
 
 Write-Host '
                                [1;34;44m▓▓▒░ [0m      [1;34;44m▓▒░[0;34m██[0m

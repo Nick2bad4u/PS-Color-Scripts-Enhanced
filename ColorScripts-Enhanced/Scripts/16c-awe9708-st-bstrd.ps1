@@ -1,17 +1,4 @@
-﻿# Converted from: ST-BSTRD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9708/raw/ST-BSTRD.ANS
-# Source Revision: archive-sha256:defa13458710db8b7c1fa20a6cd29749e80a61eef8ba8dc70e8a9a4a0b1d4f5d
-# Source SHA-256: 1936695e2d7409a4789cc08c154f01cbde4fb54529ffef4fde1e15b5d051d884
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-BSTRD.ANS by Splatt (AWE Lettering); released in awe9708 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Bastard
-# SAUCE Author: Splatt
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Bastard by Splatt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9708-st-bstrd
 
 Write-Host '
 

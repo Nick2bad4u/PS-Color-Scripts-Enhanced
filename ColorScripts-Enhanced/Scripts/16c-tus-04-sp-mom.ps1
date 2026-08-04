@@ -1,13 +1,4 @@
-﻿# Converted from: sp-mom.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tus-04/raw/sp-mom.ans
-# Source Revision: archive-sha256:cecd03bcea0453e8e941f2420e67a6eaf0283c8555a366d61575392cb904d263
-# Source SHA-256: 1f21e345848fe73165a69e38239fd0dc5d212a1c9dc8b37b1526f5c42a5e2609
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sp-mom.ans by Spinsane (tus-04); released in tus-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: sp-mom.ans by Spinsane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tus-04-sp-mom
 
 Write-Host '
 [31m          [0;37m [0;31m          [0m   [1;37m  [0;35m     [0;1;37m  [0;1;32m                                    [0;32m   [0;37m        [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: ZO-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ls-0796/raw/ZO-FIRE.ANS
-# Source Revision: archive-sha256:4ec871e12b8879af34735c7749d7970c0fda5296ee374656216909a4c5128d11
-# Source SHA-256: 8a7fd570eff3046c6f0e8c32a2f45339bbe439a5c2d6accddf7f2fe35aedd68d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZO-FIRE.ANS by zardoz (leper society); released in ls-0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fire
-# SAUCE Author: zardoz
-# SAUCE Group: leper society
-# SAUCE Date: 19960715
-# SAUCE Dimensions: 80x25
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: fire by zardoz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ls-0796-zo-fire
 
 Write-Host '
                     [36m [0m

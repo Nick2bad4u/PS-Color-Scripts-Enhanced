@@ -1,13 +1,4 @@
-﻿# Converted from: KRL-AV01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack01/raw/KRL-AV01.ANS
-# Source Revision: archive-sha256:8e83103ae71882fd1c41790de6f85d83d76c468a2a8cbcfa83968715777bc7e9
-# Source SHA-256: efa43f82db9215d44d3628a5222079fb2ff810890a233ee44dacda65fd95d48e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KRL-AV01.ANS by Mr Krinkle (avpack01); released in avpack01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: KRL-AV01.ANS by Mr Krinkle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack01-krl-av01-part01
 
 Write-Host '
 [1;30m█[0;1;30;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;43m███▓▓▒▒░░░   [0;1;31;43m░░░░░░░░░░░░░░░[0m

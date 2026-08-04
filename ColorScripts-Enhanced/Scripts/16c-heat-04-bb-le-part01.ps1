@@ -1,13 +1,4 @@
-﻿# Converted from: BB-LE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/heat-04/raw/BB-LE.ANS
-# Source Revision: archive-sha256:790223fc34f1e6181bfaff47a39d8ae72cceea1f08ac57acae6f612973572ec9
-# Source SHA-256: 2ccd71738ddedd94e001ef00a64633a346672a9fe379490c15876b5d2d0f4d72
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BB-LE.ANS by Boom Boom (heat-04); released in heat-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: BB-LE.ANS by Boom Boom | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-heat-04-bb-le-part01
 
 Write-Host '
 [1m███████████████████████████████████████████████████▀▀▀█████████████████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-FLD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1fluid1/raw/AVG-FLD.ANS
-# Source Revision: archive-sha256:9759ba706afa63d47d6227f5e680e2347d46ae0af2672fb17307d5aaeab19452
-# Source SHA-256: b47ed27907252ce72cea4befd743c670c86edf933e3f2857d07b058f3b11ff63
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-FLD.ANS by avg (Guest Artist); released in 1fluid1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fluid Logo
-# SAUCE Author: avg
-# SAUCE Group: Guest Artist
-# SAUCE Date: 20010520
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Fluid Logo by avg | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1fluid1-avg-fld
 
 Write-Host '
 

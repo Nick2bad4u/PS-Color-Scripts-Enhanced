@@ -1,18 +1,4 @@
-﻿# Converted from: OZ-DRM2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-11/raw/OZ-DRM2.ANS
-# Source Revision: archive-sha256:436cbfb96b4d7d25ed4d5deb9e741ca5369f6cf815d67846e965ca9922db78b7
-# Source SHA-256: 1e8f584ff302156567b0a9a487823beed63262a057547b2ddea448e340a9a8ee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OZ-DRM2.ANS by ooze (department>38); released in d38-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: SAOT> do you watch OPRAH?
-# SAUCE Author: ooze
-# SAUCE Group: department>38
-# SAUCE Date: 19971019
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: SAOT> do you watch OPRAH? by ooze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-11-oz-drm2
 
 Write-Host '
                                                         [32m        [0m

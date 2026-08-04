@@ -1,13 +1,4 @@
-﻿# Converted from: KLU-HOT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-19/raw/KLU-HOT1.ANS
-# Source Revision: archive-sha256:b473660f00ca745b2388645e3daf73e6bc00a051deac122753312589762b7c0e
-# Source SHA-256: 373231a7796cf3996d2e687bf1d4879557e95dc72dac399f48b41b6be8c29f76
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KLU-HOT1.ANS by Klumzee (glue-19); released in glue-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: KLU-HOT1.ANS by Klumzee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-19-klu-hot1
 
 Write-Host '
 [1;30mi [0m      [1;30m▐▓▒▒▒▒▒▒▒▒▒▒▒            [0m                               [1;30m▒▓▓[0m

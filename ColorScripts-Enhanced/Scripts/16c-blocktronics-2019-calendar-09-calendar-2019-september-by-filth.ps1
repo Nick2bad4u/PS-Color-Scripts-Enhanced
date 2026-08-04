@@ -1,19 +1,4 @@
-﻿# Converted from: _09_Calendar_2019_September_by_Filth.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-2019-calendar/raw/_09_Calendar_2019_September_by_Filth.ans
-# Source Revision: archive-sha256:5dcb03d3562fc71c1bd681e0b01704387df6a6764ee8c64c58f8fc5646036621
-# Source SHA-256: 4a7b9fd0cebcbc085214ca0615b8eb9066c1ed0ff91c2b88369e76d68d7dd579
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _09_Calendar_2019_September_by_Filth.ans by filth (bL0CKtRONiCS); released in blocktronics-2019-calendar and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: BLOCK 2 SCHOOL
-# SAUCE Author: filth
-# SAUCE Group: bL0CKtRONiCS
-# SAUCE Date: 20181020
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: BLOCK 2 SCHOOL by filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-2019-calendar-09-calendar-2019-september-by-filth
 
 Write-Host '
 [1;34;40m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m

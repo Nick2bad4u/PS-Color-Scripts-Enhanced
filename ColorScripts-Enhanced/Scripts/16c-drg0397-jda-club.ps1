@@ -1,18 +1,4 @@
-﻿# Converted from: JDA^CLUB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg0397/raw/JDA%5ECLUB.ANS
-# Source Revision: archive-sha256:694f61aba4f82f8e50968fd09d2d334eabd382bde88aeb8d800b942715db6df9
-# Source SHA-256: 0cd2cb2e873410f961d014bcae9d38ae10a8dd3b27c20bff36518a7fcf4b2c02
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JDA^CLUB.ANS by Joda (Deranged); released in drg0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: club x.
-# SAUCE Author: Joda
-# SAUCE Group: Deranged
-# SAUCE Date: 19970302
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: club x. by Joda | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg0397-jda-club
 
 Write-Host '
 [1;30m░░[0m             [1;30m░[0m                    [1;30m  [0m           [1;31m [0m                 [34m░░░[0m

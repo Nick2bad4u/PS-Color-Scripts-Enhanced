@@ -1,13 +1,4 @@
-﻿# Converted from: us-cf.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0202/raw/us-cf.ans
-# Source Revision: archive-sha256:2dab715e9f2d819e9161d3954fa8210558a1b83f118c830394e2fdee6408a093
-# Source SHA-256: b175aef376ebdeda8c6586148380174f5c49e58b1e4bef626cfaa5bf0d713186
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-cf.ans by Magnatop + Retribution (rev0202); released in rev0202 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: us-cf.ans by Magnatop + Retribution | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0202-us-cf
 
 Write-Host '
 [31m█[0;31;47m▓▓▓[0;1;31;41m▀▀[0;31m█▀▀[0;37m [0m     [37m▄  [0;1;31m▄▄███████████[0;1;31;47m▓▓▓▓▓[0;1;31;40m████▄[0m  ▀▄       [31m▀▀▀▀[0;1;31;41m▀▀▓[0;31m██[0;37m  [0;1;31;41m▀[0m  [1;31;41m▀░[0;31m▄█[0;1;31;41m▀▀[0;31m▓░[0;37m  [0;1;31;41m■▄▒▒[0m

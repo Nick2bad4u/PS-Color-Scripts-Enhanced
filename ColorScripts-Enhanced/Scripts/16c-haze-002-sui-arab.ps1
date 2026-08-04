@@ -1,18 +1,4 @@
-﻿# Converted from: SUI-ARAB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/haze_002/raw/SUI-ARAB.ANS
-# Source Revision: archive-sha256:38330e2f246542d7e8592e16d69ba19463233f347fc04dc4d56a7647ea25c49d
-# Source SHA-256: 8e72a83b7dc878b84c2a79d1f53c63729263acd57fcdaa5766c9614e056ec415
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SUI-ARAB.ANS by SuiCyco (haze); released in haze_002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the arab
-# SAUCE Author: SuiCyco
-# SAUCE Group: haze
-# SAUCE Date: 19950226
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: the arab by SuiCyco | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-haze-002-sui-arab
 
 Write-Host '
 [1;34m██████████████████████████████▀▀▀████████████████████████████████[0m [1m▄███████████▄[0m

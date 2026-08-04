@@ -1,18 +1,4 @@
-﻿# Converted from: sK!powstaniec.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz19/raw/sK!powstaniec.ans
-# Source Revision: archive-sha256:b2207428f1b283b9c41d9ff03fce385f449fefe469c60e31e8dd7430a162f7c1
-# Source SHA-256: b61c60ae3705f0ed3b518d14ba7136fd7cc17dac02a3fa8808b2f8c725a6c164
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sK!powstaniec.ans by sIMONkING (LAZARUS^thelo0p!); released in laz19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: sIMONkING
-# SAUCE Group: LAZARUS^thelo0p!
-# SAUCE Date: 20240907
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: sK!powstaniec.ans by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz19-sk-powstaniec
 
 Write-Host '
 [1;33m██[0;1;33;41m░[0;31m█▌[0;1;33;41m▓░[0m   [1;33;41m▓▓░[0m  [31m▌[0;37m        [0;31m▄▌[0;1;33;41m▓[0m    [1m█████████████████████████████████████████████████[0m

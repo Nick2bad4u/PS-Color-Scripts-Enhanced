@@ -1,18 +1,4 @@
-﻿# Converted from: bj-asc46.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bj-creep/raw/bj-asc46.ans
-# Source Revision: archive-sha256:0debf4b45d7d951a68b5333767ded34f656851230e3888db7abc1feaad98e52f
-# Source SHA-256: 0c300190af9388ff947b3625b749bd20383e0c57723f3e7e37ff0d5c4f858a83
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bj-asc46.ans by Black Jack (Noname [11/28/96]); released in bj-creep and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ad / Pic-iSZ (CEO)
-# SAUCE Author: Black Jack
-# SAUCE Group: Noname [11/28/96]
-# SAUCE Date: 19961128
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Ad / Pic-iSZ (CEO) by Black Jack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bj-creep-bj-asc46
 
 Write-Host '
 [1m       [0m  [1m,m@Pⁿ[0;31m"~[0m

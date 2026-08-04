@@ -1,18 +1,4 @@
-﻿# Converted from: TS-INKMN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl-1195/raw/TS-INKMN.ANS
-# Source Revision: archive-sha256:f1ed9662f9475081bf77e1fe9297899414eb11c1d47a752dfe30dc9707a3a222
-# Source SHA-256: 15d0d50198ec59197bd4ac1ee81693f4b7be69e0b5c83fbb1ab90ef3d86ea4a5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-INKMN.ANS by ts (Teklordz); released in tl-1195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Ink / Menu
-# SAUCE Author: ts
-# SAUCE Group: Teklordz
-# SAUCE Date: 19951102
-# SAUCE Dimensions: 80x48
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: Ink / Menu by ts | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl-1195-ts-inkmn
 
 Write-Host '
  [1m▄▄[0;1;47m▒[0;1;40m██[0;1;47m█▀▀▓░▀[0;1;40m▀▀▀▀▀[0m▀▀▀▀██████████████████████████████████████████[1;47m░[0m█[1;47m░░▒▓▀▓█▀████[0;1;40m▄▄[0m

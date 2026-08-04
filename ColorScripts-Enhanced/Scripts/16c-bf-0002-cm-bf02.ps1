@@ -1,13 +1,4 @@
-﻿# Converted from: CM-BF02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bf-0002/raw/CM-BF02.ANS
-# Source Revision: archive-sha256:801217acc7d0e0f7377a3e684941244821070ff40b4bf49e2b6ef5a03a8072d1
-# Source SHA-256: fdb3d7a9447a916ccf4645ac5943cafd24886abb4d593b9265e65ff02b8b33d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CM-BF02.ANS by Criminal Minds (bf-0002); released in bf-0002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: CM-BF02.ANS by Criminal Minds | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bf-0002-cm-bf02
 
 Write-Host '
                           [1;31m▄█[0;1;31;47m▀▀[0m▄[1;31m▄▄[0m

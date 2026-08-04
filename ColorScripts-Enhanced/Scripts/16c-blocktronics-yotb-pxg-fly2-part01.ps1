@@ -1,16 +1,4 @@
-﻿# Converted from: pxg-fly2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_yotb/raw/pxg-fly2.ans
-# Source Revision: archive-sha256:f702f09f6116b5ac6fa523d36f54d796db6f44f880e4f1cd426d29a9fbda605e
-# Source SHA-256: bdd0d3eae5ca55283797f4b9a54ca0adc7b2c6dfc1e2b24b74fdcdb58fd96a44
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: pxg-fly2.ans by Pixel Goth (blocktronics_yotb); released in blocktronics_yotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20150130
-# SAUCE Dimensions: 80x178
-# SAUCE Font: IBM VGA
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: pxg-fly2.ans by Pixel Goth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-yotb-pxg-fly2-part01
 
 Write-Host '
 [36;41m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;37;40m [0;1;36;41m.[0;1;32;46m..[0;31;46m▒░[0;1;36;41m;[0;32;41m;[0;32;40m [0;37;40m [0;1;32;46m.[0;31;46m░[0;37;40m [0;1;31;41m%[0m [31;46m░░▒[0;1;30;40m.[0;36;41m▄▄▄▄▄▄▄▄▄▄▄▄[0;32;40m.[0;1;32;46m,[0;1;36;41m.[0m [31;46m░▒[0;37;40m [0;1;36;41m,[0;32m.[0;1;32;46m..[0;1;36;41m,[0m   [1;31;41m..,[0;1;32;46m.[0m  [36;41m▄▄▄▄▄▄▄▄▄▄▄▄[0m

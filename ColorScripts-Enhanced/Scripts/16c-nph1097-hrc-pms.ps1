@@ -1,18 +1,4 @@
-﻿# Converted from: HRC-PMS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph1097/raw/HRC-PMS.ANS
-# Source Revision: archive-sha256:b6e257eb8371584ca5ade8b8a0fc4c2ec6d13bf6072ac7a83b43c3c01e88e287
-# Source SHA-256: 8f106f2ff672b8739033c07f8452e251d70c3fb241dee438b58f81591f3f0562
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HRC-PMS.ANS by .s$ hURRICANE $s. (.s$ nITROPHUSION $s.); released in nph1097 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: .s$ pMS^lOGO^aNSI $s.
-# SAUCE Author: .s$ hURRICANE $s.
-# SAUCE Group: .s$ nITROPHUSION $s.
-# SAUCE Date: 19970808
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: .s$ pMS^lOGO^aNSI $s. by .s$ hURRICANE $s. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph1097-hrc-pms
 
 Write-Host '
 [1;30m-------[   ^    ]-------[lOGO^pMS^               ]----------------------------[0m

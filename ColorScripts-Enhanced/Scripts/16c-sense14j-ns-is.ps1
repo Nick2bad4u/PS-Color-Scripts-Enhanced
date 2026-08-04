@@ -1,18 +1,4 @@
-﻿# Converted from: NS-IS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense14j/raw/NS-IS.ANS
-# Source Revision: archive-sha256:09ec71553d0e99093e00659fd39efd917ea23ae8b70a1c6de1aece96dc2e61a3
-# Source SHA-256: 5bbc70754acad70311e19f83acd3802ae1b366610db93232e96d53fb47ae15ef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NS-IS.ANS by ansichrist (senseimagery); released in sense14j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: illegal soda
-# SAUCE Author: ansichrist
-# SAUCE Group: senseimagery
-# SAUCE Date: 20030529
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: illegal soda by ansichrist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense14j-ns-is
 
 Write-Host '
                       [1;30m [0m           [36m▀[0;1;36;46m▀▄[0;1;36;40m▄[0;36m▄ ▄[0;1;36;46m▄▓▓█[0;1;37;40m██[0;1;36;46m▄[0;36m▄ ▐[0;1;36;46m▒▓█[0;1;36;40m▀[0;1;36;46m▄█▓[0m          [36m▄█▀[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: CG-EON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense13j/raw/CG-EON.ANS
-# Source Revision: archive-sha256:6b4e7b22ff11e363b1b5be8167daae9b4686076db84cab202311ff8a06211d49
-# Source SHA-256: 6144f28f26da514b9bb606e78f4d7938a68447a28263c17d680fe69dba34c015
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-EON.ANS by Cryogenic (sense13j); released in sense13j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: CG-EON.ANS by Cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense13j-cg-eon
 
 Write-Host '
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: TW-IST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rune0596/raw/TW-IST.ANS
-# Source Revision: archive-sha256:c40af7cce2fda0097342df4e5eb7be40c9db81ab1e19f7ebbea60ac9c39a1908
-# Source SHA-256: 4d6354201e46cb6e108f6db291e0ed15762c8a9f4dd8c7dde4989ea75bdc418c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TW-IST.ANS by twilight (rune); released in rune0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: istar
-# SAUCE Author: twilight
-# SAUCE Group: rune
-# SAUCE Date: 19960501
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: istar by twilight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rune0596-tw-ist
 
 Write-Host '
                                ░▄       [1;30m▄▄▄[0m

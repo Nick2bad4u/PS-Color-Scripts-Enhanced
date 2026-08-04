@@ -1,18 +1,4 @@
-﻿# Converted from: LR!-QLAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flux-004/raw/LR!-QLAL.ANS
-# Source Revision: archive-sha256:184a3f5dd0450d61dd9a9b4da05ef76ebec147753f33bfa3706045bb53c0d7a5
-# Source SHA-256: 439efa20863fa74a644a8bd4a47c04aabc108eb8b4bb11592cfca9a667773ed5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LR!-QLAL.ANS by LATE RISER (flux); released in flux-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: damn, no dope to smoke
-# SAUCE Author: LATE RISER
-# SAUCE Group: flux
-# SAUCE Date: 19970921
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: damn, no dope to smoke by LATE RISER | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flux-004-lr-qlal
 
 Write-Host '
 [1m██[0;1;36;46m█▀▀[0;36m█▀▀▀▀▀▀[0;37m          [0;31m [0;32m     [0;37m            [0m   [33m█[0;1;31;43m█[0;1;31;47m▓[0;1;37;43m██[0;33m█[0;37m  [0;1;31;43m [0;1;35;47m▓▓[0;1;37;43m██[0;33m█ [0;37m [0;33m█[0;1;31;43m▓[0;1;31;47m▓[0;1;37;43m██[0;1;31;43m▒[0;33m [0;37m [0;1;33;43m▒██[0;1;37;43m██░[0;33m  [0;1;31;43m▐██[0;1;31;47m░░[0m

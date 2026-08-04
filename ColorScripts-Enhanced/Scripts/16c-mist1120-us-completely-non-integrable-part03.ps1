@@ -1,19 +1,4 @@
-﻿# Converted from: US-COMPLETELY_NON-INTEGRABLE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1120/raw/US-COMPLETELY_NON-INTEGRABLE.ANS
-# Source Revision: archive-sha256:1aea60fe15e22f1a93a6bf5d2d7a91f468dbfe0f5023717734ce9e5a750497b0
-# Source SHA-256: fada3ab7428be89962ae4bdae7bad5259b864c4da5cbccabfacaf3b6ebb6b48a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-COMPLETELY_NON-INTEGRABLE.ANS by Zeus Ii + Polyducks + The Mad Tracer + LDA + Oddfirefox (Mistigris); released in mist1120 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Moon shot
-# SAUCE Author: LDA|Odd|PDX|TmT|ZII
-# SAUCE Group: Mistigris
-# SAUCE Date: 20201122
-# SAUCE Dimensions: 80x110
-# SAUCE Font: IBM VGA
-# Lines: 75-110
-# Columns: 1-80
+﻿# Artwork: Moon shot by Zeus Ii + Polyducks + The Mad Tracer + LDA + Oddfirefox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1120-us-completely-non-integrable-part03
 
 Write-Host '
 [37;40m   [0;35;40m░░[0;37;40m     [0;30;41mPolyducks[PDX][0;31;40m█▀▀▀[0;37;40m    [0;34;40m▄▄[0;34;42m▓▓▓[0;1;37;40m▀███ [0;32m▄██[0;1;33;42m░░░░▒░[0;32;42m█[0;1;33;42m░[0;32m█▄▄▄[0;37m      [0;31m▀█[0;1;31;41m▀▄[0;31m█████[0;31;45m▓▓[0;35;41m░[0;31;40m█[0m

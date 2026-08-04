@@ -1,13 +1,4 @@
-﻿# Converted from: NOH-EYES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dna0397/raw/NOH-EYES.ANS
-# Source Revision: archive-sha256:e1a4a5668c5ecdfaceffae094b291f77d84772de2eb8e1772dc5072c38cdc6bb
-# Source SHA-256: dcc2a06a77f94abe496844158159681335496f292a9cf4176a1087ef0a4c5104
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-EYES.ANS by Noah (dna0397); released in dna0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: NOH-EYES.ANS by Noah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dna0397-noh-eyes
 
 Write-Host '
  [1;32m░░[0m

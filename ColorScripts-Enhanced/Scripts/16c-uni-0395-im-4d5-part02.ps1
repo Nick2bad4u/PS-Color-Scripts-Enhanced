@@ -1,13 +1,4 @@
-﻿# Converted from: IM-4D5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0395/raw/IM-4D5.ANS
-# Source Revision: archive-sha256:fa162651f9482427c00511e180638b307ba23babafbe50fc91872af91a55356c
-# Source SHA-256: ae92e9c1ad60220ce50da21c61b82aa5737d122ff37652ac469d1dfcc45d0508
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IM-4D5.ANS by Imodium + Nailz (uni-0395); released in uni-0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 49-63
-# Columns: 1-80
+﻿# Artwork: IM-4D5.ANS by Imodium + Nailz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0395-im-4d5-part02
 
 Write-Host '
 [34m   [0;1;30m▄[0m                     [1;30m▄[0m

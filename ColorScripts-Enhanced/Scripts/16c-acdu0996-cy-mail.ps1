@@ -1,18 +1,4 @@
-﻿# Converted from: CY-MAIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0996/raw/CY-MAIL.ANS
-# Source Revision: archive-sha256:28df6d6ebb426351f7b23fe6f583a998e03c4447a46d1ae63d7f7aa63a80eb5d
-# Source SHA-256: 6f0d8f87b4f38d95f7d16e06c52174d29292af56ee8dba3fd3998ce263f9c4d4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CY-MAIL.ANS by Crayon (acid); released in acdu0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: mail
-# SAUCE Author: Crayon
-# SAUCE Group: acid
-# SAUCE Date: 19960918
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: mail by Crayon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0996-cy-mail
 
 Write-Host '
 

@@ -353,10 +353,7 @@ test("ANSI analysis preserves cell geometry and detects visible color families",
 
 test("ANSI analysis ignores all DOS bytes after the first EOF marker", () => {
     const visible = Buffer.from("VISIBLE", "binary");
-    const withPostEofBytes = Buffer.from(
-        "VISIBLE\x1a\r\nHIDDEN\x1a",
-        "binary"
-    );
+    const withPostEofBytes = Buffer.from("VISIBLE\x1a\r\nHIDDEN\x1a", "binary");
     const expected = analyzeAnsiBuffer(visible);
     const actual = analyzeAnsiBuffer(withPostEofBytes);
 
@@ -764,16 +761,25 @@ test("existing import manifests can be excluded from provenance hashes", () => {
     fs.writeFileSync(
         provenancePath,
         `@{
+    SchemaVersion = 2
+    Collections = @{
+        'example' = @{
+            DisplayName = 'Example'
+        }
+    }
     Scripts = @{
         '16c-pack-a' = @{
+            Collection = 'example'
             SourceSha256 = '${sourceA}'
             RenderSha256 = '${renderA}'
         }
         '16c-pack-b' = @{
+            Collection = 'example'
             SourceSha256 = '${sourceB}'
             RenderSha256 = '${renderB}'
         }
         'legacy-source-only' = @{
+            Collection = 'example'
             SourceSha256 = '${"f".repeat(64)}'
         }
     }

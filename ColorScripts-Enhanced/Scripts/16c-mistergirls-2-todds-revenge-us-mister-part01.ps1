@@ -1,19 +1,4 @@
-﻿# Converted from: US-Mister.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mistergirls-2-todds-revenge/raw/US-Mister.ans
-# Source Revision: archive-sha256:daef7a9d06d692a9f92b578831789dfe6317b3337ec7a90d54fe826c9c7b4e13
-# Source SHA-256: b5b4faa87244e143be25c2fa573ddb81d17d301757389db38942145914474bce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-Mister.ans by Pony Salad + Alison Horsejello-Smithe (Mistergirls); released in mistergirls-2-todds-revenge and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Mistergirls
-# SAUCE Author: Pony Salad + Alison
-# SAUCE Group: Mistergirls
-# SAUCE Date: 20180307
-# SAUCE Dimensions: 80x93
-# SAUCE Font: IBM VGA
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Mistergirls by Pony Salad + Alison Horsejello-Smithe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mistergirls-2-todds-revenge-us-mister-part01
 
 Write-Host '
                                     [35;40m█████[0m

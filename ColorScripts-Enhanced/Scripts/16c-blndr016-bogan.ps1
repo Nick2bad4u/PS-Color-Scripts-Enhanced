@@ -1,13 +1,4 @@
-﻿# Converted from: BOGAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr016/raw/BOGAN.ANS
-# Source Revision: archive-sha256:39eba873b9951c52e91a77eb8d89ce83b9f79f5ce6099e773c1c77d935bc1027
-# Source SHA-256: 2633d6b65cfc2f473498b1c668f20b0b76748e9d122a25889eead6381ee01552
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BOGAN.ANS by Fl + Jeremy Shilling (blndr016); released in blndr016 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: BOGAN.ANS by Fl + Jeremy Shilling | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr016-bogan
 
 Write-Host '
 [1;33m[0m [1;31m                                                       [0m    [1;33m  [0;1;32m▒█▓▒█▓▒█[0m

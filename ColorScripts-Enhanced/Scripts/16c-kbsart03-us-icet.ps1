@@ -1,15 +1,4 @@
-﻿# Converted from: US-ICET.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/kbsart03/raw/US-ICET.ANS
-# Source Revision: archive-sha256:3bc41b0cbaed5cc33563c576ee20fcd7a1c532d4df2df0fbf9fb63f79506bdf8
-# Source SHA-256: 67b7665c3644d72bc4a4a5df611f9cec06fba97c4e5d0539de8b8b36ac3ac6ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ICET.ANS by Dyingsoul + Toot (kbsart03); released in kbsart03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 19990907
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: US-ICET.ANS by Dyingsoul + Toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-kbsart03-us-icet
 
 Write-Host '
                                          [31m                                      [0;37m [0m

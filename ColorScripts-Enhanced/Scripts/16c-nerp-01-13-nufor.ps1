@@ -1,18 +1,4 @@
-﻿# Converted from: 13-NUFOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-01/raw/13-NUFOR.ANS
-# Source Revision: archive-sha256:c4f943c9f8f5c49a2aabdd3612f9f26bd1b04de18aa8de6e38c69a3051111537
-# Source SHA-256: bbe4ae7fe185202587a228fef960fd5f2f886db4b05d75d62ba5e30d7d35eaf8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 13-NUFOR.ANS by 13 (fire); released in nerp-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: newuser form
-# SAUCE Author: 13
-# SAUCE Group: fire
-# SAUCE Date: 19970710
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: newuser form by 13 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-01-13-nufor
 
 Write-Host '
  [1;30m▓▄[0m [1;30m▄░[0m  [1;30m■░[0m  [30;41m▓[0;31;40m░▄[0;1;31;40m▄▄[0;30;41m▒[0;31;40m▄░[0m   [1;30;40m▄░[0m

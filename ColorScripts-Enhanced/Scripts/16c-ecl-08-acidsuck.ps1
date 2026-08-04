@@ -1,17 +1,4 @@
-﻿# Converted from: ACIDSUCK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-08/raw/ACIDSUCK.ANS
-# Source Revision: archive-sha256:0b90c936d49629839c01709c30be5eee3ae4012caa7a8f1570b6ae8cc1763cb4
-# Source SHA-256: a02a8ede5df03a6538a0948a931368d27e38289e9797d4749fba74af770b5097
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ACIDSUCK.ANS by splatt (ACID SUCKS!); released in ecl-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ACID HACKED MY HARDDRIVE!
-# SAUCE Author: splatt
-# SAUCE Group: ACID SUCKS!
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ACID HACKED MY HARDDRIVE! by splatt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-08-acidsuck
 
 Write-Host '
                                                          [1;33m▄[0m [1;33m▄[0m

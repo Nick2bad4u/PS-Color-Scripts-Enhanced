@@ -1,18 +1,4 @@
-﻿# Converted from: US-HTWO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-18/raw/US-HTWO1.ANS
-# Source Revision: archive-sha256:3ece06be07a605d790194aecaf4c2aee0d01c3085ca10c10858ed29a4fc054bb
-# Source SHA-256: 72dff09d4058270948f19097fad5fe7de60f166ba7f7a39190884951b97dcfbd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-HTWO1.ANS by Dissonance + Knocturnal (AWE Lettering); released in awe-18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Hazard/2
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981028
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Hazard/2 by Dissonance + Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-18-us-htwo1
 
 Write-Host '
 [1;30;47m▌[0;1;37;47m░[0m  [1;47m▄▄▓[0m█[1;30m██▓▓░░[0m    [1;30m▄▄[0;1;30;47m▀▓▓█[0;1;30;40m  ████[0m  [1;30m████[0m  [1;30m████[0m  [1;30m████[0m  [1;30m████[0m  [1;30m████[0m  [1;30m█[0;1;30;47m▓▓[0;1;30;40m█[0m  [1;30m░░▓▓[0m█[1;47m▓▄▄[0m  [1;47m░[0;1;30;47m▐[0m

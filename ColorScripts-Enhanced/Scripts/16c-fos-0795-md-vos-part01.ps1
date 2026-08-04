@@ -1,13 +1,4 @@
-﻿# Converted from: MD-VOS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fos-0795/raw/MD-VOS.ANS
-# Source Revision: archive-sha256:5226b44039030629fecc0b7a4fdb1a3ab04a8e6269b898ffe3a08db773e345c7
-# Source SHA-256: 62d2e722082872431b59c174208a74530331bed8e7b1ca8a22c41b7275b03cb8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MD-VOS.ANS by Marauder (fos-0795); released in fos-0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: MD-VOS.ANS by Marauder | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fos-0795-md-vos-part01
 
 Write-Host '
                                                      [31m [0;1;33m▄▄▄▄▄▄▄▄▄▄[0;1;33;45m▓▓▓▓▓▓[0;1;33;40m▀▀▀▀▀▀▀▀▀▀[0m

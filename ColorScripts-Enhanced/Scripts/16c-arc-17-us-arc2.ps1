@@ -1,18 +1,4 @@
-﻿# Converted from: US-ARC2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/arc-17/raw/US-ARC2.ANS
-# Source Revision: archive-sha256:31f26da3cf2bf64aa491737e7b6c80b0b88a8949776f7dd7596da36ff613ee0f
-# Source SHA-256: 6cdbb7258bdcaf80c0e37727b310656f155e3f539bfaf13c3f1c7203a897dcd2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ARC2.ANS by Somberlain + Dalton (Arc); released in arc-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Alphaforce low resolution art
-# SAUCE Author: Dalton/Somberlain
-# SAUCE Group: Arc
-# SAUCE Date: 20000819
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Alphaforce low resolution art by Somberlain + Dalton | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-arc-17-us-arc2
 
 Write-Host '
 

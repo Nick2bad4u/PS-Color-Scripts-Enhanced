@@ -1,18 +1,4 @@
-﻿# Converted from: SL-CRT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0796/raw/SL-CRT.ANS
-# Source Revision: archive-sha256:f2392fcbe326be67243a018c170e3f1d8e22753f58b6051ec51575e3fcab8048
-# Source SHA-256: 47c6ec54480b01b206dc2373fc2a177c399476b6812061bb4478c7f2c4292365
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SL-CRT.ANS by surreal logic (fire); released in fire0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the cartel
-# SAUCE Author: surreal logic
-# SAUCE Group: fire
-# SAUCE Date: 19960616
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: the cartel by surreal logic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0796-sl-crt
 
 Write-Host '
                            [1;30m░[0m                  [1;32m [0;1;37m░[0m  [1;30m░[0m

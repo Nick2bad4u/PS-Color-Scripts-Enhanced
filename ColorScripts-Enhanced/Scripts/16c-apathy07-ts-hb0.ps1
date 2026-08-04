@@ -1,18 +1,4 @@
-﻿# Converted from: TS-HB0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy07/raw/TS-HB0.ANS
-# Source Revision: archive-sha256:cf53c4ea5c286717abe3d962fb98452e352d7d7a30a31881220e7068a7f0bb79
-# Source SHA-256: 5d1eaa61293ef0ab17ea0ca51071505911ca5acf0b49488ccca5ebe8bda3be79
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-HB0.ANS by transient (apathy); released in apathy07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hellbound #1
-# SAUCE Author: transient
-# SAUCE Group: apathy
-# SAUCE Date: 19960227
-# SAUCE Dimensions: 80x46
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: hellbound #1 by transient | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy07-ts-hb0
 
 Write-Host '
 [1;30m[0m[1;30m[0m[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

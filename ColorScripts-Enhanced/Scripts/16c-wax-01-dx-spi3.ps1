@@ -1,13 +1,4 @@
-﻿# Converted from: DX-SPI3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wax-01/raw/DX-SPI3.ANS
-# Source Revision: archive-sha256:758ca54117dc909c4a3054dd40bbe31acb9fc5d53207f90efc16f95d8918dfdb
-# Source SHA-256: 550dde15233b3a0615a7a84149e8898427489e01fe97d562cf4e9763807baeb2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DX-SPI3.ANS by Drax (wax-01); released in wax-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: DX-SPI3.ANS by Drax | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wax-01-dx-spi3
 
 Write-Host '
 ───────┘┘[1m    [0m┴[1m  [0m└└─────────────────╗ [30m                           [0;37m             ╔──[0m

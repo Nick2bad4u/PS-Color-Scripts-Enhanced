@@ -1,13 +1,4 @@
-﻿# Converted from: AX_DIAB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/itpnazis/raw/AX_DIAB.ANS
-# Source Revision: archive-sha256:b63f1061c14ef43c41c98429978c6d429bbae740ff287c27de867b6629e2595b
-# Source SHA-256: 225ff4c9941f74bea28694d70505cae17b66d6fe9cd050e1823ea7ebe9d07875
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AX_DIAB.ANS by Alla Xul (itpnazis); released in itpnazis and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: AX_DIAB.ANS by Alla Xul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-itpnazis-ax-diab
 
 Write-Host '
 ░░[1;30m░░░[0m

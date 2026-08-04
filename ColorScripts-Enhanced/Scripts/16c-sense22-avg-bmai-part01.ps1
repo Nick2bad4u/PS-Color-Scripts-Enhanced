@@ -1,13 +1,4 @@
-﻿# Converted from: avg-bmai.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense22/raw/avg-bmai.ans
-# Source Revision: archive-sha256:bc85c11cf049f286319d708c3e5bf2f85a707ab661c6de2482c2260d25e40c5c
-# Source SHA-256: ebc3f5d9a7648e8ed94918c59df8d23fec7268f1b0b494cd8eba2d90a705b0f1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-bmai.ans by Avenging Angel (sense22); released in sense22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: avg-bmai.ans by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense22-avg-bmai-part01
 
 Write-Host '
 

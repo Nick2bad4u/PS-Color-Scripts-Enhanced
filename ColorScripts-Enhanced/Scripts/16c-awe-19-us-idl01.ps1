@@ -1,18 +1,4 @@
-﻿# Converted from: US-IDL01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-19/raw/US-IDL01.ANS
-# Source Revision: archive-sha256:db429aaaa9cca2e4296dcb178b9b345b980b5c7d6fe930188ea53fede20ed269
-# Source SHA-256: 32b2adbfdf94c296636c61760dfc612b51cf3977cbd730ce4b174e2df0f5663a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-IDL01.ANS by Mr Wrong + Rzicus (AWE Lettering); released in awe-19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Idle Dreams
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981115
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Idle Dreams by Mr Wrong + Rzicus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-19-us-idl01
 
 Write-Host '
 [1;33m [0;31m▄[0;33m▄[0;1;33m [0;33m▄[0;1;33m▄▄ [0;31m▀[0;33m▀[0;1;33m▀[0;1;33;43m▀[0;1;37;47m█[0;1;33;43m▓░[0;33m▌▀[0;37m [0;34m▀[0m                           [34m [0m            [31m▄[0m     [34m  [0m

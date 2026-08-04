@@ -1,18 +1,4 @@
-﻿# Converted from: MD-TOONS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root04/raw/MD-TOONS.ANS
-# Source Revision: archive-sha256:8dec1aa0e303d37205499818eaff4458ebf93774cd973f016deaae45658df6b3
-# Source SHA-256: 393e5e827c26f583af839bd3bf73eb226649a89bd71d6be1a961eb26540873be
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MD-TOONS.ANS by Malformed (Root); released in root04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: something..
-# SAUCE Author: Malformed
-# SAUCE Group: Root
-# SAUCE Date: 19970518
-# SAUCE Dimensions: 80x124
-# Lines: 83-124
-# Columns: 1-80
+﻿# Artwork: something.. by Malformed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root04-md-toons-part03
 
 Write-Host '
 [1;34m███[0;34m█▀[0;33m █[0;1;31m█[0;1;31;43m▓[0;1;31;40m████████ [0;1;31;43m ▓[0;1;31;40m█▀▀[0m ▄[1m▄▄▄▄▄▄▄▄▄[0m [1;31m▀▀█[0;1;31;41m▓[0;1;31;40m███████[0;1;31;43m▓[0;1;31;40m█████[0;1;31;43m▄[0;33m▄[0;1;31m▀[0;1;31;41m▓[0;1;31;40m███████[0;1;31;43m▓[0;1;31;40m█ [0;34m▀█[0;1;34m███████████[0m

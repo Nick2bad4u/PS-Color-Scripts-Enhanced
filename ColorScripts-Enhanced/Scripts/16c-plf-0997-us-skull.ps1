@@ -1,18 +1,4 @@
-﻿# Converted from: US-SKULL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0997/raw/US-SKULL.ANS
-# Source Revision: archive-sha256:d6ce507ee095ab9c7ce1d91178b57bff0c61babde42a3957415461a430e18407
-# Source SHA-256: 87d1dc4e9aeb951168891a04eb1c974308a62acc54afd2a348575d33f504d9e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SKULL.ANS by Big Yellow Man + Toot (poffelipoff); released in plf-0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: skull
-# SAUCE Author: bym//toot
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19970921
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: skull by Big Yellow Man + Toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0997-us-skull
 
 Write-Host '
 [1m[0m   [1;30mpOffelipOff 1997[0m        [1;30m  ▄▄▄█████▄▄  ▄▄▄████▄▄▄▄[0m

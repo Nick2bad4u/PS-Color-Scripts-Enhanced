@@ -1,19 +1,4 @@
-﻿# Converted from: AVG-HACI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-46/raw/AVG-HACI.ANS
-# Source Revision: archive-sha256:32c189dd42ed53f66ce0b86a88ea8027caddc32faf4da7cee2e674d9223cb9f4
-# Source SHA-256: 5b29ab632aa4ffa78c55dd8d58bcb0b0f68dbd61b9fa9f4a1c4efee1f5e64c2a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-HACI.ANS by Savage (Fire graphics); released in fire-46 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Hacienda
-# SAUCE Author: Savage
-# SAUCE Group: Fire graphics
-# SAUCE Date: 20260707
-# SAUCE Dimensions: 80x200
-# SAUCE Font: IBM VGA
-# Lines: 101-150
-# Columns: 1-80
+﻿# Artwork: Hacienda by Savage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-46-avg-haci-part03
 
 Write-Host '
 [1;35m█████████████[0;1;35;45m▄▄▄ [0;35m▄[0;1;35m  [0m▀▀   [35m▄[0;30;45m■[0;35;40m■▄[0;37;40m  [0;35;40m░░░[0m                          [35m░░░░■[0;1;30m▄█▀▄▄[0m

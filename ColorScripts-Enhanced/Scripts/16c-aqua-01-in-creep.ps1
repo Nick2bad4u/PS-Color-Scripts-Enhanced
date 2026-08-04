@@ -1,18 +1,4 @@
-﻿# Converted from: IN-CREEP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aqua-01/raw/IN-CREEP.ANS
-# Source Revision: archive-sha256:2960875f1becf44ae53fc9e16caf3720a5b96a590a7690922990cbf35ab68625
-# Source SHA-256: e471eb521e2b49e8893a27d5e35564bcf8984e1603758d5b30eef1994bbb9e76
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IN-CREEP.ANS by insert (aqua); released in aqua-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: just a man
-# SAUCE Author: insert
-# SAUCE Group: aqua
-# SAUCE Date: 19971012
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: just a man by insert | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aqua-01-in-creep
 
 Write-Host '
                [35m╖╖╖$$[0;1;35m$$$$$$$$$$$$S╜╜ⁿⁿ"``[0m          [34m,╓g[0;1;34mjjg╓,[0m

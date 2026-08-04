@@ -1,18 +1,4 @@
-﻿# Converted from: US-GAS#2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gas-02/raw/US-GAS%232.ANS
-# Source Revision: archive-sha256:3f4a8ec10117a9d2d588cb5b9c03441f35378297d885b1fb90bac8e105c89d94
-# Source SHA-256: e781792bdbe0d85b32928e22caac9deba7166e0d2197de6a0c187ae9205b182e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GAS#2.ANS by Brain + Loi (gas); released in gas-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: joint gas promo #2
-# SAUCE Author: brain/loi
-# SAUCE Group: gas
-# SAUCE Date: 19960801
-# SAUCE Dimensions: 80x18
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: joint gas promo #2 by Brain + Loi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gas-02-us-gas-2
 
 Write-Host '
 [1m████████████████████████████████████████████████████████████████████████████████[0m

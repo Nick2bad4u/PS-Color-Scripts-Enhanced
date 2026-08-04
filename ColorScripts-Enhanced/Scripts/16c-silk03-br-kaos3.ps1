@@ -1,13 +1,4 @@
-﻿# Converted from: br-kaos3.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/silk03/raw/br-kaos3.ans
-# Source Revision: archive-sha256:f2ee9db55a4d3dc8a2a295dc1714c5b8c1381f22271067f4590235031a112230
-# Source SHA-256: ea205e0dfaa1915f26ba8cea8399315917dbd08ffd840e2951327a7da0187071
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: br-kaos3.ans by Blackrain (silk03); released in silk03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: br-kaos3.ans by Blackrain | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-silk03-br-kaos3
 
 Write-Host '
          [33m [0;36m,[0;1;36ms[0;36m%[0;1;36mS$b ;i[0;36m$[0;1;36mSs. [0m               [35mi.,.[0m               [1;34m  [0;1;36m.sSP"°ⁿ4;s,[0;1;34m [0m

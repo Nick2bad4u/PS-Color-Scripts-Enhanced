@@ -1,18 +1,4 @@
-﻿# Converted from: US-REV4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0798/raw/US-REV4.ANS
-# Source Revision: archive-sha256:ba14cc0f9129d345d6e8055f6819b7be294ddff8674fbcc97cd1db52d47ee088
-# Source SHA-256: b268eb8d2beef2df9d4b28d254eaaf8a144d0dbf4cc748ea0e4e76c6fab1f02b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-REV4.ANS by Alla Xul + Gasol (plf); released in plf-0798 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: revival menu
-# SAUCE Author: alla xul & gasol
-# SAUCE Group: plf
-# SAUCE Date: 19980330
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: revival menu by Alla Xul + Gasol | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0798-us-rev4
 
 Write-Host '
      [31m▄[0;33m▄[0;1;37;43m▄▄▄[0;1;33;40m▒▒[0m     [33m [0;1;30m▄[0;33m▄[0;1;37;43m▄▄░[0;35m▓[0;31m▄[0m       [37m▄[0m                 [31m▄▄[0;1;33m▄▄▄[0;1;37;43m▄[0;1;33;40m░░[0m       [33m▄▄[0;1;33;43m▄▄[0;33m ▄▄[0;1;30;43m▐[0;31m░[0;30;41m▓[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: N-TST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0996/raw/N-TST.ANS
-# Source Revision: archive-sha256:fd0c87547005857a37aee32ff40c82a1e8535aecda68a9edc2483cdc45b21af1
-# Source SHA-256: 37be931a2c52decdb5556a67957b24d28c3094c7cca63a54291bd05f4e3583b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-TST.ANS by nail (fire0996); released in fire0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the screaming tomato
-# SAUCE Author: nail
-# SAUCE Date: 19960905
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: the screaming tomato by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0996-n-tst
 
 Write-Host '
       [1;31m▄▄▄▄▄▄▄▄▄▄[0m       [36m▄▄▄▄[0m      [1;30m                    [0m    [1;30m           [0;36m▄[0;1;36m▄[0;36m▄[0;1;30m    [0;31m▄▄▄▄[0m

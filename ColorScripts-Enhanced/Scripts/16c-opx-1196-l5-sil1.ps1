@@ -1,18 +1,4 @@
-﻿# Converted from: L5-SIL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-1196/raw/L5-SIL1.ANS
-# Source Revision: archive-sha256:6ef6d0fc5e98023ae397158b861ea8c1f97c8bf9ea116a4660fdbca6650c96ff
-# Source SHA-256: c4553bd170d32fe893168411bd071d6742432f4ec325d7d10bfe73df25995ba3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: L5-SIL1.ANS by Lord Spatter (OPX); released in opx-1196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Silence
-# SAUCE Author: Lord Spatter
-# SAUCE Group: OPX
-# SAUCE Date: 19961103
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Silence by Lord Spatter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-1196-l5-sil1
 
 Write-Host '
 [1;33m    [0;1;30;43m s [0;1;33;40m [0;1;30;40mi  l  e  n  [0;1;33;40mc  [0;1;30;40me[0m

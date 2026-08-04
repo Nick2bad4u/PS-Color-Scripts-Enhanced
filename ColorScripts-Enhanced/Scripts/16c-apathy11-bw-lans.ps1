@@ -1,18 +1,4 @@
-﻿# Converted from: BW-LANS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy11/raw/BW-LANS.ANS
-# Source Revision: archive-sha256:a8a1f25f60c56aa0932319ceb3e0a3707898d7c9d304c60c4912556d84eb4b61
-# Source SHA-256: b2f5a27d4cf8f40e7eedc7e5cf09b456beb557c8332719046560b64479430f46
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BW-LANS.ANS by balls wilson (apathy); released in apathy11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: lans laughter
-# SAUCE Author: balls wilson
-# SAUCE Group: apathy
-# SAUCE Date: 19960622
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: lans laughter by balls wilson | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy11-bw-lans
 
 Write-Host '
 ▒▓██▓██████████████████████████████████████████████████████████████████▓███████▓

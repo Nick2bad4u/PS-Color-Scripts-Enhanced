@@ -1,13 +1,4 @@
-﻿# Converted from: TX-COLLY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twi-9704/raw/TX-COLLY.ANS
-# Source Revision: archive-sha256:68d9184802f1c3d939ca7a7ac7413b5c5be4b3d7535d7a26b6421026572c0c2f
-# Source SHA-256: 0292f45a3097cd197207a2f06e240cb86af3ea9ac892be052186d2b8f407f3d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TX-COLLY.ANS by Toons Xilion (twi-9704); released in twi-9704 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: TX-COLLY.ANS by Toons Xilion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twi-9704-tx-colly
 
 Write-Host '
 [1;30m[0m

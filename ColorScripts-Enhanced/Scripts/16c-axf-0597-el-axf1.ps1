@@ -1,18 +1,4 @@
-﻿# Converted from: EL-AXF1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-0597/raw/EL-AXF1.ANS
-# Source Revision: archive-sha256:6068514913baa1ec916369db865939b991470ac5490f350bfb80359a0a337dc6
-# Source SHA-256: d6580ffe250ec5960b4ee353acf7389c5e9ab4c0c5086796a1cac37d2c374132
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EL-AXF1.ANS by Elrond (AXF); released in axf-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Axial Force logo
-# SAUCE Author: Elrond
-# SAUCE Group: AXF
-# SAUCE Date: 19970323
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Axial Force logo by Elrond | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-0597-el-axf1
 
 Write-Host '
 

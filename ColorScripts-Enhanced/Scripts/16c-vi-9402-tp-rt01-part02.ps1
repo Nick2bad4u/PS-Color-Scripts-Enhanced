@@ -1,13 +1,4 @@
-﻿# Converted from: TP-RT01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vi-9402/raw/TP-RT01.ANS
-# Source Revision: archive-sha256:fd2ddb60b7421eff0db4fe703bff3001910559341aa7df080148e8a9c818591b
-# Source SHA-256: 70aae436c0f680805e2b0c582e03d6a022ea7bf48194d212b41ac5d41c81ad75
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TP-RT01.ANS by Terminal Psychosis (vi-9402); released in vi-9402 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 46-77
-# Columns: 1-80
+﻿# Artwork: TP-RT01.ANS by Terminal Psychosis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vi-9402-tp-rt01-part02
 
 Write-Host '
                                       [1;37;40m▐█▄[0m

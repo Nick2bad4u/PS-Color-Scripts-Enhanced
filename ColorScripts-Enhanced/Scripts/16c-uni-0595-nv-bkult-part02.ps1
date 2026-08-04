@@ -1,18 +1,4 @@
-﻿# Converted from: NV-BKULT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0595/raw/NV-BKULT.ANS
-# Source Revision: archive-sha256:1478f8c7d5db04e992c19b5f9ae4c1c658dfc070a60d6f0748aa57a73bab460e
-# Source SHA-256: bf431366857ca6f6cd79ad8b8413e3825e2ec5522706f302830067273467a71d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NV-BKULT.ANS by Nivenh (Union); released in uni-0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Bass Kult - 214
-# SAUCE Author: Nivenh
-# SAUCE Group: Union
-# SAUCE Date: 19950501
-# SAUCE Dimensions: 80x87
-# Lines: 40-87
-# Columns: 1-80
+﻿# Artwork: Bass Kult - 214 by Nivenh | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0595-nv-bkult-part02
 
 Write-Host '
               [1;30m▄▄▀▀[0m                    [36m▀█▄[0m         [36m▒  ▄[0;1;30;46m░[0m [1;30;40m███▌ ▀▀▀▀▄▄[0m      [31m░▒▒▒▓▄[0m

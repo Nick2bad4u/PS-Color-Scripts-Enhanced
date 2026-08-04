@@ -1,16 +1,4 @@
-﻿# Converted from: sq2-awe0.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_ansi_love/raw/sq2-awe0.ans
-# Source Revision: archive-sha256:6bbd631cd11e3473b019590c35c9a89f139f75a09b13e07a93395613241d63e9
-# Source SHA-256: 78387321340fbe73c6eb1b74b4fec03c24aa0edc9e45b9158ed429d27ba176c0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sq2-awe0.ans by Sq2 (blocktronics_ansi_love); released in blocktronics_ansi_love and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 20081206
-# SAUCE Dimensions: 80x105
-# SAUCE Font: IBM VGA
-# Lines: 72-106
-# Columns: 1-80
+﻿# Artwork: sq2-awe0.ans by Sq2 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-ansi-love-sq2-awe0-part03
 
 Write-Host '
 [37;40m [0;37;41m  [0;1;30;41m░░[0;31m█▄[0;37m [0;1;30m ░░ [0;36m ░░▒▒▒▒▒▓[0;37;46m [0;36;40m▓▓▓[0;37;46m  ▀████[0;36;40m▓[0;37;46m      [0;1;37;47m░░[0;1;33;43m░░[0;43m     [0;1;47m░░[0m█[43m█▀ [0;33;40m▓▓[0;37;43m        [0;1;33;43m░░▒▓[0;1;33;47m▀[0;43m█[0;40m▓▀ [0;31;40m▄[0;31;41m█[0;1;30;41m ▄[0;1;30;47m▓[0m

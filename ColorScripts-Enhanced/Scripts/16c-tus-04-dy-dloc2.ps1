@@ -1,13 +1,4 @@
-﻿# Converted from: DY-DLOC2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tus-04/raw/DY-DLOC2.ANS
-# Source Revision: archive-sha256:cecd03bcea0453e8e941f2420e67a6eaf0283c8555a366d61575392cb904d263
-# Source SHA-256: ffe19d146b624971cedf4e818e83d06ae8f313f98ea31ef9db96f99eab04c90c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DY-DLOC2.ANS by Discyple (tus-04); released in tus-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: DY-DLOC2.ANS by Discyple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tus-04-dy-dloc2
 
 Write-Host '
 [1m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m$[1m    [0m`[1m$$$$$$$   `$$$$$$  $[0m

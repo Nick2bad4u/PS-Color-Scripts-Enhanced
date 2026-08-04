@@ -1,13 +1,4 @@
-﻿# Converted from: ROY-XFHQ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roy-stuf/raw/ROY-XFHQ.ANS
-# Source Revision: archive-sha256:1f203f95f339c258e43a9098f8d2e689ed73de537b1cfe6bea312dfc156f1358
-# Source SHA-256: 7d09da2bbfd149de3e22483bdc2885b7940e1ba1b194f289d62d61c7d4feb2c4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ROY-XFHQ.ANS by Roy (roy-stuf); released in roy-stuf and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: ROY-XFHQ.ANS by Roy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roy-stuf-roy-xfhq
 
 Write-Host '
        [1m▄[0;1;31m▄▄▄▄▄   [0;33m▄▄▄▄▄▄[0m

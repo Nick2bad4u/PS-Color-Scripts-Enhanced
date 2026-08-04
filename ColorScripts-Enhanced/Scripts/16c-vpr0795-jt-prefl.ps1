@@ -1,18 +1,4 @@
-﻿# Converted from: JT-PREFL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vpr0795/raw/JT-PREFL.ANS
-# Source Revision: archive-sha256:4a59d47b7694f8e39e774460d65dc196d91b5d4e90f4e35cac8b62cdf4456f27
-# Source SHA-256: 0ba1d94863e08b7495b33083b7f7c09d97557fc08e738a02423bdbceb2a0b9b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JT-PREFL.ANS by jester (vapor); released in vpr0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Pyschotic reflectionz prom0
-# SAUCE Author: jester
-# SAUCE Group: vapor
-# SAUCE Date: 19950627
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Pyschotic reflectionz prom0 by jester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vpr0795-jt-prefl
 
 Write-Host '
         [31m▄[0;1;30;41m▒▒░░[0;31m█████████████[0;1;30;41m░░▒[0;31m▀▀[0;1;30m░▒▓▄▄▀▀▀[0;1;33m             [0;1;30m▄▓▒▓█[0;1;30;47m▓▒[0;1;30;41m▓▓[0m  [34m▀▓[0m         [34m▓[0m

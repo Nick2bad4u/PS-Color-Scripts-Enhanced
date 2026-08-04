@@ -1,13 +1,4 @@
-﻿# Converted from: NMVII.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dyn9406/raw/NMVII.ANS
-# Source Revision: archive-sha256:f7bcf74cd55db263391d1e44e2c0a81416796097aa27613bd35d5309c46437ee
-# Source SHA-256: 48743c3627e149654fbd1858e83c81c7ff2e4c973ab9d56cd342bdf8146e2ff3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NMVII.ANS by Phantasm (dyn9406); released in dyn9406 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: NMVII.ANS by Phantasm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dyn9406-nmvii-part01
 
 Write-Host '
              [1;30m░ ░ ░[0m      [1;30m▒    ░[0m         [1;30m░[0m       [1;30m░[0m           [34m░    ░    ░[0m     [34m░[0m

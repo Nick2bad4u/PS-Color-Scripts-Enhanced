@@ -1,18 +1,4 @@
-﻿# Converted from: (M1)_APO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0697/raw/(M1)_APO.ANS
-# Source Revision: archive-sha256:08e18940bca34b3567a75953ae0590b0f85d3fbc4d879deb49d9733793875e53
-# Source SHA-256: 0d15744737b9d225206c1733ee5224d060c2b09ae32fe75b9175488e9cd428c2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: (M1)_APO.ANS by m01 (Phat Studios '97); released in phat0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: apocalypse main
-# SAUCE Author: m01
-# SAUCE Group: Phat Studios '97
-# SAUCE Date: 19970517
-# SAUCE Dimensions: 80x33
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: apocalypse main by m01 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0697-m1-apo
 
 Write-Host '
  └▄[1m▄[0;1;33m▄▄▄[0;1;36m▄[0;1;37m▄[0m▄─  [34m [0;37m  [0;1;30m▀[0m [34m      [0;1;33m▄[0m    [33m▀[0;37m  [0;33m▄[0;1;33m▄▄[0;33m [0;1;30m▀[0;33m   [0;30;43m▓[0;30;40m [0;1;33;40m▄[0;33m▄[0;37m     ▀   ▄[0;1;32m▄[0m     [1mz[0mu   [1;30m▀[0m spä[1mt[0m

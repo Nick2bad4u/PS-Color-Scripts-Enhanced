@@ -1,18 +1,4 @@
-﻿# Converted from: DD-ENDOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe03/raw/DD-ENDOR.ANS
-# Source Revision: raw-sha256:3a87e3ddc70f639698d401c02e200fb32c4c5d5d43d84a0a77db4207cff263cc
-# Source SHA-256: 3a87e3ddc70f639698d401c02e200fb32c4c5d5d43d84a0a77db4207cff263cc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-ENDOR.ANS by Diamond Darrell (Circe Argentina); released in circe03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: "Endor"
-# SAUCE Author: Diamond Darrell
-# SAUCE Group: Circe Argentina
-# SAUCE Date: 19971213
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: "Endor" by Diamond Darrell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe03-dd-endor
 
 Write-Host '
 [1;33;43m░░[0m [33m  ▄▄▄[0;30;43m░[0;33;40m▀▀  ■[0;36;40m [0;33;40m█▀▀[0;36;40m  [0;33;40m█[0;30;43m░ ░[0;33;40m▓ [0;1;31;40m░▓████[0;1;31;43m▓▓▒▒░[0;33m▀▀[0;1;31m▀▀  ░░▀▀▀██████[0;1;31;43m▄▄▄[0;33m▓▓█[0;30;43m░░[0;33;40m█[0;1;31;40m  [0;1;33;43m░░[0;1;33;40m▀[0m  [33m░░░[0;37m  [0;1;33m░░[0m

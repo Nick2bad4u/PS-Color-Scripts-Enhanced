@@ -1,18 +1,4 @@
-﻿# Converted from: LRY-PHT3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0396/raw/LRY-PHT3.ANS
-# Source Revision: archive-sha256:4840956a784b32a4a9e617c5baaeab5274263fdb9ff2d98a840492545e3abb06
-# Source SHA-256: 112600c646b80780275a4f1f0b9ccaf0a9be0b78e4b9a3bcfd2834a96aea7c4f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LRY-PHT3.ANS by lArrY (PHaT); released in phat0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: phat one
-# SAUCE Author: lArrY
-# SAUCE Group: PHaT
-# SAUCE Date: 19960211
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: phat one by lArrY | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0396-lry-pht3
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: JOS-DEF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0995/raw/JOS-DEF.ANS
-# Source Revision: archive-sha256:43f4339b6a2a251dc4c70c732aaf42d822edb35033f29580ac59fb9cc4be61b0
-# Source SHA-256: 9db8cbc998eca8c03352c8b70ca9a56229d517e18067a06282a08c899f0f370a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JOS-DEF.ANS by JUiCE (UNiT / OBJECTILE); released in fsn-0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: DEFIANCE!
-# SAUCE Author: JUiCE
-# SAUCE Group: UNiT / OBJECTILE
-# SAUCE Date: 19950730
-# SAUCE Dimensions: 80x72
-# Lines: 31-72
-# Columns: 1-80
+﻿# Artwork: DEFIANCE! by JUiCE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0995-jos-def-part02
 
 Write-Host '
 [1;30m▓▒[0m [1;33m▀▄[0;1;30m      [0m                   [1;30m▄▄▄   ▒ [0m █[1;30m▐█▓▓▓▒▄▀█████████████████████[0;1;30;47m██▓▓▒░░░░[0m█

@@ -1,17 +1,4 @@
-﻿# Converted from: DRM-DA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/woe0798a/raw/DRM-DA.ANS
-# Source Revision: archive-sha256:2188d0bbaf1192d032eaa1d7cdc4402fb0f0e32dcd77bb780a11ec762d5a8a04
-# Source SHA-256: 054a8c2509279dc3e001fbe56392b6accfbedbb3c590d92db21c3e51ba59b0dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DRM-DA.ANS by dorm (wOE!); released in woe0798a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dA#!
-# SAUCE Author: dorm
-# SAUCE Group: wOE!
-# SAUCE Dimensions: 80x25
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: dA#! by dorm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-woe0798a-drm-da
 
 Write-Host '
           [33m▄▄[0;37m [0;32m▌[0;37m [0;1;33;43m▄░[0;1;33;40m▀[0;33m▀[0;37m [0;32m▐[0;37m [0;33m▀[0;1;33m▀[0;33m▌[0;32m▐▄▄[0;37m [0;1;33m▌[0;32m▌[0;1;33m▀▐[0;33m▄[0;37m [0;32m▌[0;33m▀[0;1;33;43m▒░[0;33m▌[0;32m▐[0;37m [0;33m▄[0;37m [0;32m▌[0;37m [0;1;33;43m▄▄▓[0;1;33;40m█[0;33m▌[0m

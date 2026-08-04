@@ -1,18 +1,4 @@
-﻿# Converted from: GAS-CFS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0995/raw/GAS-CFS2.ANS
-# Source Revision: archive-sha256:33564e3b7dba06eac1f1e36dcc176b1f8d29f8167c2e77227197ff7bea5344f2
-# Source SHA-256: 300e2f42d8e7ff5eb32296e1d0147b00edec1f64ccb01e43b4986f2ad26e4987
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GAS-CFS2.ANS by Gangstar (ACiD Productions); released in acdu0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Confusion ?
-# SAUCE Author: Gangstar
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950901
-# SAUCE Dimensions: 80x153
-# Lines: 115-152
-# Columns: 1-80
+﻿# Artwork: Confusion ? by Gangstar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0995-gas-cfs2-part04
 
 Write-Host '
 [1;30;43m [0;43m░[0;1;30;43m  [0;30;43m█[0;1;33;43m█[0;33;41m▐[0;1;33;43m▒[0;1;33;40m█[0;1;33;43m▀█▄[0;1;33;40m██[0;1;33;43m▄▄[0;1;30;43m▀[0;1;30;40m█[0;1;30;43m▀[0;1;30;40m██████████████████▌▐[0;30;47m█[0;1;30;40m▐[0;1;30;43m▌[0;30;43m   ░█▀    █[0;1;33;43m▓[0;1;33;40m▄▀[0;30;44m█[0;1;33;40m▐[0;1;33;43m▌░▀[0;33;41m▀[0;1;33;40m█[0;1;33;43m██▀[0;1;33;47m█[0;1;33;43m▀▀▀[0;1;30;43m▄[0;1;30;40m█████████[0m

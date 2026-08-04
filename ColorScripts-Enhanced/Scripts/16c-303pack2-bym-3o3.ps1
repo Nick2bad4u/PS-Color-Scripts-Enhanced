@@ -1,18 +1,4 @@
-﻿# Converted from: BYM%3O3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/303pack2/raw/BYM%253O3.ANS
-# Source Revision: archive-sha256:4447fe2b8e8ce42dff70a445f43a7c14612a1a439620389cb1863f2a3b732682
-# Source SHA-256: 2dc79987f071972068e51464cb1201153827788c81e19569a2bea1fe187cc028
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM%3O3.ANS by big y3llow man (3o3 productions); released in 303pack2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: [3o3] productions
-# SAUCE Author: big y3llow man
-# SAUCE Group: 3o3 productions
-# SAUCE Date: 19970410
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: [3o3] productions by big y3llow man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-303pack2-bym-3o3
 
 Write-Host '
                                   [30;46m▓▓[0;37;40m [0;30;46m  [0;1;33;46m░░ [0;36m██[0;1;33;46m   [0;36m██[0;30;46m▀▀▀▀▀▀▀▀▌[0;1;33;46m░░[0;36m██▀▀[0;33m [0;37m▄▄[0;1;31m▄▄[0;33m▄▄▄▄  [0;36m▀███[0m

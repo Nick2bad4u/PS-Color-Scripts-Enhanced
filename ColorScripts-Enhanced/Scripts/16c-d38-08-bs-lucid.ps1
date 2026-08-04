@@ -1,18 +1,4 @@
-﻿# Converted from: BS-LUCID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-08/raw/BS-LUCID.ANS
-# Source Revision: archive-sha256:0567468a2c5f3b6be5032c5650cb72f6233cef61565d1d349ba0b887559b2680
-# Source SHA-256: 22c8f265a4999845af7a270812fa79a8939e5cdc7150dbd3d1a58cc5e2d44506
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-LUCID.ANS by blind sniper (Department 38); released in d38-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Lucid Visions.. phear foo
-# SAUCE Author: blind sniper
-# SAUCE Group: Department 38
-# SAUCE Date: 19970618
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Lucid Visions.. phear foo by blind sniper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-08-bs-lucid
 
 Write-Host '
 [1;33m▐[0;1;33;43m█▀[0;33m▀ [0;37m [0;34m░[0;1;33m▄▄[0m    [31m██[0;30;47m▓[0m        [31;40m▄[0m             [1;37;40m▄[0m

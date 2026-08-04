@@ -1,18 +1,4 @@
-﻿# Converted from: SA-NEO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/saga9509/raw/SA-NEO1.ANS
-# Source Revision: archive-sha256:aa92751db49565be37784e7233d72ac6fc44a6489327e79fff3f8705162d151c
-# Source SHA-256: 29485c2b828cc9dfc42c7eb7a52a75601ed16b4b71d9351670da558c512ad083
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SA-NEO1.ANS by Stone Amnesia (Saga); released in saga9509 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Neo Nacho
-# SAUCE Author: Stone Amnesia
-# SAUCE Group: Saga
-# SAUCE Date: 19950827
-# SAUCE Dimensions: 80x25
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Neo Nacho by Stone Amnesia | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-saga9509-sa-neo1-part01
 
 Write-Host '
 [1;30m██▀▒▓█■▀[0;31m  ▄[0;1;31;41m▓▓▒░[0;31m██████████[0;1;31;41m░▒▒▓▓▒░[0;31m███▓▄▄▄▄[0m         [1;31m▄[0m     [1;30m▄███▄██▀ ▀██[0;1;30;47m▓[0;1;30;40m▄▀[0m  [1;30m.sa.[0m  [1;30m▓ [0m

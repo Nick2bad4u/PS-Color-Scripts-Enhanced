@@ -1,13 +1,4 @@
-﻿# Converted from: ZI-XEURO.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-09/raw/ZI-XEURO.ICE
-# Source Revision: archive-sha256:1fcbf4aa1710b0a53349a8ea40276f5225ba911f5e9d163ab7e96a35bbed2cd0
-# Source SHA-256: 36de9e4e2f0c2ea814aef11caeedec0d2e6d1182699e6c4a1e76b0057b9be8d5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZI-XEURO.ICE by Zippy (icepk-09); released in icepk-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 42-66
-# Columns: 1-80
+﻿# Artwork: ZI-XEURO.ICE by Zippy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-09-zi-xeuro-part02
 
 Write-Host '
     [31m▄██████▄  ▄    ██[0m       [31m▄▄▄▄█▀[0m          [31m▄▄▄▄▄▄[0m                  [31m▄▄▓▒░[0m

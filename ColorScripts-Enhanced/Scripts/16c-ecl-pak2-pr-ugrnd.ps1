@@ -1,18 +1,4 @@
-﻿# Converted from: PR_UGRND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak2/raw/PR_UGRND.ANS
-# Source Revision: archive-sha256:c83fd66fd5682c2a8b3a34174fe62c7584ac006f8517d86002eef3fdd8671285
-# Source SHA-256: 1d43866f618027910ae21dcd113b5b78dc9a7db4100691564f49a4a2619214d3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR_UGRND.ANS by president (ecolove); released in ecl-pak2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: u-ground recordia
-# SAUCE Author: president
-# SAUCE Group: ecolove
-# SAUCE Date: 19971128
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: u-ground recordia by president | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak2-pr-ugrnd
 
 Write-Host '
                                [32m▐[0;1;33;42m░░▒▓[0;1;33;40m▌ [0m       [1;33m      [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: ET-SHEEP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist2yr1/raw/ET-SHEEP.ANS
-# Source Revision: archive-sha256:dfb163381a7a05007552a68525e5d3039ad18b3101b731021ee8569cee86eda1
-# Source SHA-256: 83f5ede32c725498c80fe2ca247e0486884e93a2a0595fb97c876ebdba3122a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ET-SHEEP.ANS by Etana (MiSTiGRiS); released in mist2yr1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Mist promo - we are not sheep
-# SAUCE Author: Etana
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19960929
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Mist promo - we are not sheep by Etana | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist2yr1-et-sheep
 
 Write-Host '
 [1;31;41m▓[0;1;31m█▄▄ ▄▄██[0m

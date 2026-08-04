@@ -1,18 +1,4 @@
-﻿# Converted from: FIL-SALT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/legion07/raw/FIL-SALT.ANS
-# Source Revision: archive-sha256:95e8b9f4e57b59312ac2a0b9b38a55e0e1e88600621a27ddf38351dd36070d9d
-# Source SHA-256: a413770a148f1e18778164204708e8ff119a9dd6fdf1b6fe1d9dfcdf35e6731a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FIL-SALT.ANS by filth (the legion); released in legion07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: salt
-# SAUCE Author: filth
-# SAUCE Group: the legion
-# SAUCE Date: 19981001
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: salt by filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-legion07-fil-salt
 
 Write-Host '
 [43m░▒░▒▓▒▓▓[0;40m▄█▀█▌▀▀  [0;1;40m▄▄▓▓▓▓░▒░░  [0;33m▀▀▀█▄[0;1;31;43m░[0;33m▄▄▄ [0;37m▀▄███[0;1;30;47m░[0m [1;30mfilth[0m [31m▐█████████████████▓▓▓▒▓▒░▒ ░[0m

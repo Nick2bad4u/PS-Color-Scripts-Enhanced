@@ -1,13 +1,4 @@
-﻿# Converted from: ON-TRI2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fos-0596/raw/ON-TRI2.ANS
-# Source Revision: archive-sha256:25c8e691096e6d9e002fd5aeffbfc7841075d4cd6b2943fe3db88a851c3d7020
-# Source SHA-256: 01e7a7a4e7276a7112db3f0dbd11998aac49d3c74ebda55fa8774c1b38160475
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ON-TRI2.ANS by Orion (fos-0596); released in fos-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ON-TRI2.ANS by Orion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fos-0596-on-tri2
 
 Write-Host '
 [1;47m█[0;1;40m▄[0m             [1m▄[0m  ▀[1;47m▒▓[0;1;40m▄[0m                       ▄▄▄▄[1;47m▓█[0;1;40m▄[0m          ▄▄▄[1m▄[0m        [1;35m▐▌[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: SK!LOGOU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p09_00/raw/SK!LOGOU.ANS
-# Source Revision: archive-sha256:2d55e0471b241c84b2000d7f1ba05c65c9f1c93ead6af87d8d0b58764c2b8dba
-# Source SHA-256: 887c36d411e588283e679c81d5ca65e07206f1dad7d7376d7e49ced9e2c76240
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!LOGOU.ANS by Simonking (l0p09_00); released in l0p09_00 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 26-51
-# Columns: 1-80
+﻿# Artwork: SK!LOGOU.ANS by Simonking | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p09-00-sk-logou-part02
 
 Write-Host '
 

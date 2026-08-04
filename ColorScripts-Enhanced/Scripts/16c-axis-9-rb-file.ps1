@@ -1,13 +1,4 @@
-﻿# Converted from: RB-FILE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axis-9/raw/RB-FILE.ANS
-# Source Revision: archive-sha256:b82f112c80b77b601afd20f06fa2d0515df5f0288a99244a4ccb297bb35fa70a
-# Source SHA-256: a50f6654455481f9965eaf168ed238c353f488d9aa7895d4d6d9e7c82bd7ac04
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RB-FILE.ANS by Rabi Li (axis-9); released in axis-9 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: RB-FILE.ANS by Rabi Li | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axis-9-rb-file
 
 Write-Host '
 [1m[0m

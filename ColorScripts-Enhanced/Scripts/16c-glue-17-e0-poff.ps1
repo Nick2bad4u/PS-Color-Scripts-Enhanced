@@ -1,18 +1,4 @@
-﻿# Converted from: E0-POFF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-17/raw/E0-POFF.ANS
-# Source Revision: archive-sha256:154ac874f13e20433925bb99a4f5e0a4299764bee7ed4d28bdaffd9ad392f554
-# Source SHA-256: 6c770174bcafea626bd89e58ab1357ae65cc99768341f09440db884200820469
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: E0-POFF.ANS by Enzo (Glue); released in glue-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Poffelipoff
-# SAUCE Author: Enzo
-# SAUCE Group: Glue
-# SAUCE Date: 19981225
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Poffelipoff by Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-17-e0-poff
 
 Write-Host '
                    .                       [1m▄[0m▀[1m▀▄[0m

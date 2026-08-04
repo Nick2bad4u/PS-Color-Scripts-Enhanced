@@ -1,19 +1,4 @@
-﻿# Converted from: us-radman.ans
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/laz16/raw/us-radman.ans
-# Source Revision: archive-sha256:b093dd3cb06bf783d59a9df3724c51f9a41f686cd4fd545c920ada008d959f7a
-# Source SHA-256: c6da16e57d1fd299aa8fac9848d8b3aa936b69a45a40a99803e034ea1afbb306
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-radman.ans by Warpus + Avg (LAZARUS); released in laz16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Dear Scene Leader
-# SAUCE Author: avg & warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20230101
-# SAUCE Dimensions: 80x117
-# SAUCE Font: IBM VGA
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Dear Scene Leader by Warpus + Avg | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz16-us-radman-part01
 
 Write-Host '
 [30;41m▒▒▒▒▒▒▒▒[0;31;40m▒▒[0;30;41m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;31;40m▒▒[0;30;41m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;31;40m▒▒[0;30;41m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m

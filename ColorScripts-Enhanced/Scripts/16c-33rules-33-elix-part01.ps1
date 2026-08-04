@@ -1,18 +1,4 @@
-﻿# Converted from: 33-ELIX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/33rules/raw/33-ELIX.ANS
-# Source Revision: archive-sha256:6cf2aef8e3ca97e1761e1ee4a8ba395e4fdab4dec9d3b2efb91c059359b50b00
-# Source SHA-256: 393a2c1c0d416f7b8bc5d7ca81e21c91acba0d499609f845cd4f6fcb7fc35d77
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-ELIX.ANS by Spastic 03/95 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Elixir
-# SAUCE Author: Spastic 03/95
-# SAUCE Group: Eerie
-# SAUCE Date: 19950213
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Elixir by Spastic 03/95 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-33rules-33-elix-part01
 
 Write-Host '
 [1;30m█▓██████▄[0m     [1;30m▓▀   ■▄[0m            [1;30m▀▓[0m            [1;30m▓[0m            [1;30m▐▓[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SN!LOG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak3/raw/SN!LOG.ANS
-# Source Revision: archive-sha256:cde4af7e840865f437fedba26bbfb806e858a9b477c723c01bd9d080434c75bd
-# Source SHA-256: 200302e33db8b9913c4fc44d0bcba8cb1041258d2fa73dbf9dba97d4e2d00806
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SN!LOG.ANS by Snowball (Ecolove); released in ecl-pak3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Login Matrix for Imagine...
-# SAUCE Author: Snowball
-# SAUCE Group: Ecolove
-# SAUCE Date: 19980125
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Login Matrix for Imagine... by Snowball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak3-sn-log
 
 Write-Host '
                      [35m▄▄▄▄▄▄▄  ▄███▄▄▄[0m

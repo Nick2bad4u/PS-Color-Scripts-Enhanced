@@ -1,18 +1,4 @@
-﻿# Converted from: CM-EGM01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cancer01/raw/CM-EGM01.ANS
-# Source Revision: archive-sha256:1d674e5cb6391162607aaf95710b795f9d6c8bbd06eec06cf5932f93f338c133
-# Source SHA-256: 24e03163b43d9cfa4e4eb92bb6eb2b615b11f5e664ec8892f5f1924f625351c3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CM-EGM01.ANS by Cheeze Monkey (Cancer); released in cancer01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Enygma Menu Template
-# SAUCE Author: Cheeze Monkey
-# SAUCE Group: Cancer
-# SAUCE Date: 19960321
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Enygma Menu Template by Cheeze Monkey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cancer01-cm-egm01
 
 Write-Host '
  [33m▄[0;1;34;43m░[0;33m▌▄█▀■▀ ▀▓ ▀░▄[0;1;30;43m░[0;33m▀■[0m                    [1;30mcm   ▄■▀▀■▄■ ▀  ■[0m

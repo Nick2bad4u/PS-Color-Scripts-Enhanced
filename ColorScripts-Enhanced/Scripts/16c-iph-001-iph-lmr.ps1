@@ -1,13 +1,4 @@
-﻿# Converted from: IPH-LMR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/iph-001/raw/IPH-LMR.ANS
-# Source Revision: archive-sha256:fcfd071dd2adf5c1e123c63a182cc609cf1032386aacfa7b6f08f3ec5f98a7f8
-# Source SHA-256: 0faf26363e23d0c14dc8bd0788c1f1bdb1a788e64ea8d6d5954a9947e5392dcd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IPH-LMR.ANS by Interphaze (iph-001); released in iph-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: IPH-LMR.ANS by Interphaze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-iph-001-iph-lmr
 
 Write-Host '
 [1;30m[0;31m[0;1;31m[0m[31m[0;1;31m[0m[31m[0;1;31m[0;31m[0;1;31m[0;31m[0;1;31m[0;31m[0;1;31m[0;1;30m[0m[1;30m$  [0;31m$$ⁿ$[0;1;31m$$[0m        [31m.$$$!s[0;1;31m$$.[0m      [31m$$[0;1;31ms[0;31m"$[0;1;31m$s [0;31ms$$"$[0;1;31m$s [0;31m$[0;1;31m$$ⁿ"[0;31m~~"ⁿ[0;1;31m$$ [0;31m$[0;1;31m$$!ⁿ[0;31m"~~"ⁿ![0;1;31m$Ss  [0;1;30m$$$[0m

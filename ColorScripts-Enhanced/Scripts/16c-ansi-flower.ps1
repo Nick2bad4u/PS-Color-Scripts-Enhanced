@@ -1,13 +1,4 @@
-﻿# Converted from: FLOWER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansi/raw/FLOWER.ANS
-# Source Revision: archive-sha256:50aaa63d173fc2f34f94b8a5b526a5ee8a8b9d7908c42264ab949073e7e0edf9
-# Source SHA-256: a86d51934016e81e7291e039c55ffdb5089b7725cffd2ad4741b950f8656df12
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FLOWER.ANS by Michael (ansi); released in ansi and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: FLOWER.ANS by Michael | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansi-flower
 
 Write-Host '
 [1;37;44m                                                          [0;30;44m▄▄▄                 [0m

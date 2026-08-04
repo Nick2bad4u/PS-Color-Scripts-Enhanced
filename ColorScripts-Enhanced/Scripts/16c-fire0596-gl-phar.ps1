@@ -1,18 +1,4 @@
-﻿# Converted from: GL-PHAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0596/raw/GL-PHAR.ANS
-# Source Revision: archive-sha256:36c941759d451fdd3b8fb831978bf146c114a97ebcdf99a7ed67f1f699b42790
-# Source SHA-256: 38ce64b2e7e1fee94b53328733387fad661ad918d826d4c0cd9d24654ad9ed11
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GL-PHAR.ANS by Grimlock (fire); released in fire0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Pharcyde
-# SAUCE Author: Grimlock
-# SAUCE Group: fire
-# SAUCE Date: 19960505
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: The Pharcyde by Grimlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0596-gl-phar
 
 Write-Host '
     [33m▄[0;37m   [0m                         [37m    [0m      [33m [0m [33m░░[0m                   [37m [0m      [33m░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: or-worm.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/trick01/raw/or-worm.ans
-# Source Revision: archive-sha256:c3ea36d0e67b15c9bdc665de1ef6dfc521c7508de688a6cdefd1a2cb4b54a376
-# Source SHA-256: 5e0b6b90829d7775ca2448e1404aa9f257ca02d1be0bf067bf2f6acd07aac880
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: or-worm.ans by Ohred (trick01); released in trick01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: or-worm.ans by Ohred | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-trick01-or-worm
 
 Write-Host '
 

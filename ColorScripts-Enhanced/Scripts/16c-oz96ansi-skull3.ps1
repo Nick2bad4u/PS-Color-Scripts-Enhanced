@@ -1,13 +1,4 @@
-﻿# Converted from: SKULL3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oz96ansi/raw/SKULL3.ANS
-# Source Revision: archive-sha256:5e4ffb01334de5ebcde24e67ca7ed8b63700f904e1efe2915ac8104d7883c32d
-# Source SHA-256: a9cd97c39e3439c01ec7819ff661ef9b4e2a70e863c2e74475c185f7d7df1eaf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SKULL3.ANS by Unknown (oz96ansi); released in oz96ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: SKULL3.ANS by Unknown | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oz96ansi-skull3
 
 Write-Host '
                                               [1;31m▄▄▄▄▄▄▄▄▄▄▄▄[0m

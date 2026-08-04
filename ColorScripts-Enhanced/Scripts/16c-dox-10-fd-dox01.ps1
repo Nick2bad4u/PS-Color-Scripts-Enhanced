@@ -1,17 +1,4 @@
-﻿# Converted from: FD-DOX01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_10/raw/FD-DOX01.ANS
-# Source Revision: archive-sha256:21def41607bc8f426e6b33cadf0099935014e2da13ee2908faa3303a70532ffa
-# Source SHA-256: 70f127739bb5e88f0906a9a5e289094b62bfb7cc6ce60b895a6e9aa4728c418b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FD-DOX01.ANS by flood (dox_10); released in dox_10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: dox logo
-# SAUCE Author: flood
-# SAUCE Group: .
-# SAUCE Dimensions: 80x25
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: dox logo by flood | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-10-fd-dox01
 
 Write-Host '
                             [1m▄▄[0m

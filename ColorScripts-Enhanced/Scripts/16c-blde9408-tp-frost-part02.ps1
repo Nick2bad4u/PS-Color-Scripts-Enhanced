@@ -1,13 +1,4 @@
-﻿# Converted from: TP-FROST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9408/raw/TP-FROST.ANS
-# Source Revision: archive-sha256:802b0e00f1d7521280ab279c4507115014273c696f6db48a1d2c229cb379eb8a
-# Source SHA-256: 575c93105e70ace9b10a7cf5a7b64f1b7cbd11753029583ed7057bdd5cbe264e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TP-FROST.ANS by Technophreak (blde9408); released in blde9408 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 44-84
-# Columns: 1-80
+﻿# Artwork: TP-FROST.ANS by Technophreak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9408-tp-frost-part02
 
 Write-Host '
                                                                  [1;37m▀[0m

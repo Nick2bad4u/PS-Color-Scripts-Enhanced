@@ -1,18 +1,4 @@
-﻿# Converted from: PH-SHDW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-1195/raw/PH-SHDW.ANS
-# Source Revision: archive-sha256:471abdff49e14b47a2aa568e1d6f9131b48488a5ff449d7366f19b849bba9c9f
-# Source SHA-256: 83a603dca3aabae802b43e9411045efb35b99bf562a82fc9df5c843a06c47bfc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PH-SHDW.ANS by Pharcyde (Fusion); released in fsn-1195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Shadowlands
-# SAUCE Author: Pharcyde
-# SAUCE Group: Fusion
-# SAUCE Date: 19951111
-# SAUCE Dimensions: 80x76
-# Lines: 40-76
-# Columns: 1-80
+﻿# Artwork: The Shadowlands by Pharcyde | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-1195-ph-shdw-part02
 
 Write-Host '
 [1;30;43m░[0;33m█[0;1;30;43m   [0;1;37;40m ▐[0;1;37;47m▓[0;1;37;40m█ █[0;1;37;47m▓▓[0;1;37;40m▄▄▀▀████████[0;1;37;47m█[0;1;37;40m███ ▄█████ ▐████▄▀███[0m [33m▀███▄▄▄▌  [0;1;30m░░░░[0m                 [1;30m░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: CG-IS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense11j/raw/CG-IS.ANS
-# Source Revision: archive-sha256:9c1c7edf0d14ae95ae7a9cfcfa9322814b13baa95c33699852fa04d6685f708d
-# Source SHA-256: 1b8713f6c2b9771a25ae540dc1567ca3e23ebd0db6bfb01fabfa915bf1314617
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-IS.ANS by Cryogenic (sense11j); released in sense11j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: CG-IS.ANS by Cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense11j-cg-is
 
 Write-Host '
 [1;36;46m░▀█[0;1;36;40m▓▒[0;1;36;46m [0;36m▀▀[0;34m [0;37m  [0;34m ▀[0;1;34;44m [0;1;34;40m▓[0;1;34;47m▓▓[0;1;34;44m█▀[0;1;34;40m▒[0;34m█▀▀[0m   [35m▄[0;1;35m▄▄[0;1;35;45m▄█[0;1;35;47m▓[0;1;37;45m░░[0;35m█[0;34m █[0;1;34;44m░█[0;1;34;47m▓[0m▄[34m [0;37mcryo([0;1;37msense[0m)

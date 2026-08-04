@@ -1,18 +1,4 @@
-﻿# Converted from: SX-STAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge03/raw/SX-STAT.ANS
-# Source Revision: archive-sha256:b53dd4509a562cc71a73a559baa7e13eeefa1cf193e827eee6178c14e3bd46f3
-# Source SHA-256: 43c3e17bf05db657fb0e433528e3f8690c12b67c8460765afe8df957b865691b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SX-STAT.ANS by sinistrx (avenge); released in avenge03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: status
-# SAUCE Author: sinistrx
-# SAUCE Group: avenge
-# SAUCE Date: 19980328
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: status by sinistrx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge03-sx-stat
 
 Write-Host '
       [1ms[0m [1mt[0m [1ma[0m [1mt[0m [1mu[0m [1ms[0m        [34m▓▓▓▓▓▓[0;37m  [0;31m░▀[0;1;31m▀▀[0m  [1;31m▓▓████[0;1;31;41m▀▀░[0;31m█▌[0;37m [0;31m▐████████████▀▀▄▄███████▌[0;37m  [0;34m▓▓[0m

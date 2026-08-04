@@ -1,18 +1,4 @@
-﻿# Converted from: 28-RW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mop-9506/raw/28-RW.ANS
-# Source Revision: archive-sha256:21b318f5bbc852e858674aa2e0bd699a791c3c08e8da1f08d1b0fb6dd40767e8
-# Source SHA-256: 2f8625f4fbc520acbd94eef1e81fa8a97f8f401340fac1019ff35813e6fde0ef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 28-RW.ANS by Number 28 (mmp); released in mop-9506 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Rusted Water
-# SAUCE Author: Number 28
-# SAUCE Group: mmp
-# SAUCE Date: 19950504
-# SAUCE Dimensions: 80x66
-# Lines: 33-65
-# Columns: 1-80
+﻿# Artwork: Rusted Water by Number 28 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mop-9506-28-rw-part02
 
 Write-Host '
 [32m░[0;1;30m░[0m             [1;31m░[0m                    [1;33m▀[0;1;33;43m█[0;1;33;40m█[0;1;33;47m▓[0;1;37;40m▓[0;1;33;47m▓[0;1;33;40m██■[0m                  [1;31m■[0m             [1;30m░[0;32m░[0m

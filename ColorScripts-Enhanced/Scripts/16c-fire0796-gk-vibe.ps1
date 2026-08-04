@@ -1,18 +1,4 @@
-﻿# Converted from: GK-VIBE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0796/raw/GK-VIBE.ANS
-# Source Revision: archive-sha256:f2392fcbe326be67243a018c170e3f1d8e22753f58b6051ec51575e3fcab8048
-# Source SHA-256: 6325d145142a5f4689f9e653f64c4802448f9c6bddb8600683915286326a7acc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GK-VIBE.ANS by grind king (fire); released in fire0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: vibe
-# SAUCE Author: grind king
-# SAUCE Group: fire
-# SAUCE Date: 19960708
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: vibe by grind king | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0796-gk-vibe
 
 Write-Host '
 

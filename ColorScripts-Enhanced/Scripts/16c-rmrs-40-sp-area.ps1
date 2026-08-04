@@ -1,13 +1,4 @@
-﻿# Converted from: sp-area.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-40/raw/sp-area.ans
-# Source Revision: archive-sha256:61fb1dcbbd1622af10b383fc2a651b4854a50bf25e3fafcc9a790ad444917390
-# Source SHA-256: 225f56f44d151ee14f805aaeb53f43aefe8891f611e4e9d7e109905d30819fa1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sp-area.ans by Spinsane (rmrs-40); released in rmrs-40 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: sp-area.ans by Spinsane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-40-sp-area
 
 Write-Host '
 [1;31m♫[0;31;42m♫♫♫♫♫♫[0;1;31;40m♫♫♫[0m [1;36m┌┬┬┬┬┬┬[0;36m╥╥┬╥╥╥[0;1;36m╥╥╥╥╥╥╥╥╥─────────────[0;36m┬[0;35m∩[0;32m│┌──────.[0;1;36m.d╬╬╬╬╬╬╬╬╬╣[0m [1;31m♫♫♫♫♫♫♫♫♫♫[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: TH-IMTX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel09/raw/TH-IMTX.ANS
-# Source Revision: archive-sha256:cae1fe00a9cd349fa6bb692920586d60c6acc70987b088220f071822b0b1e1ed
-# Source SHA-256: a0002e4f8065c9645ba70a6e6f1e5c05c93f3c7b7842d90ea21bc9b869517da1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH-IMTX.ANS by thrasher (fuel); released in fuel09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: invisible matrix
-# SAUCE Author: thrasher
-# SAUCE Group: fuel
-# SAUCE Date: 19961110
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: invisible matrix by thrasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel09-th-imtx
 
 Write-Host '
         ▀▀▀[1;30;47m░░▒[0m▄▄▄▄▀ [1;30;47m░▒[0m [1;30;47m▓[0;1;30;40m   [0m [1;30m▀  [0;31m▐[0;1;31;41m░░▒[0;31m▀▀░[0;30;41m▓[0;37;40m     [0;31;40m▄[0;1;31;41m░▒[0;31m▀[0;35m░▄[0;37m [0;31m▀▐[0;1;31;41m█[0;1;31;40m▄[0;1;31;41m█▓░[0;31m█▓[0;1;31;41m▀░█▄░[0;31m█░[0;37m  [0;30;41m▄[0;31;40m▓[0;1;31;41m░░[0;31m█[0;30;41m▐[0;37;40m [0;35;40m▀[0;1;35;45m░▒[0m

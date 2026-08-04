@@ -1,18 +1,4 @@
-﻿# Converted from: GSO-STOP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0798/raw/GSO-STOP.ANS
-# Source Revision: archive-sha256:ba14cc0f9129d345d6e8055f6819b7be294ddff8674fbcc97cd1db52d47ee088
-# Source SHA-256: dc839e736d8becf92bc7d235e41c94c3470f63f73e10df12065c7ca01d50b6ff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GSO-STOP.ANS by gso (plf); released in plf-0798 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: stop
-# SAUCE Author: gso
-# SAUCE Group: plf
-# SAUCE Date: 19980711
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: stop by gso | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0798-gso-stop
 
 Write-Host '
       [33m  [0;37m               [0m     [36m░░[0m                  [1;35m                  [0;35m    [0m

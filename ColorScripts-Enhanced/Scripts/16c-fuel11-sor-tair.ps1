@@ -1,18 +1,4 @@
-﻿# Converted from: SOR-TAIR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel11/raw/SOR-TAIR.ANS
-# Source Revision: archive-sha256:bc01376bbeb692c1fce16796b92a6fd889f89dbf4c55eb291719d5ea3fd5846c
-# Source SHA-256: d4d0d8d9e4d6be808bcdc35bb7433f20c5514fc2bcef041f7ca08415cab08273
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SOR-TAIR.ANS by Spirit of Rage (Fuel); released in fuel11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Thin Air
-# SAUCE Author: Spirit of Rage
-# SAUCE Group: Fuel
-# SAUCE Date: 19970226
-# SAUCE Dimensions: 80x8
-# Lines: 1-8
-# Columns: 1-80
+﻿# Artwork: Thin Air by Spirit of Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel11-sor-tair
 
 Write-Host '
 [36m░[0;30;46m▓[0;30;43m█[0;37;40m  [0;35;40m  [0;30;45m▒[0;35;40m [0;37;40m [0;35;40m░[0;30;45m▓[0;35;40m    [0;1;31;40msor![0m   [36m░[0;30;46m▓[0m    [1;31;40m▄[0;35m▄[0;1;31;45m░[0;35m▄▄▄[0;37m [0;35m [0m   [36m░[0;30;46m▓[0m       [35;40m ▄▄▄▄▄▄[0;1;31;40m▄[0m [35m ░[0;30;45m▓[0;35;40m         [0;36;40m░[0;30;46m▓[0;35;40m      [0;30;43m█[0;35;40m [0m

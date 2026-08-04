@@ -1,18 +1,4 @@
-﻿# Converted from: $H-RAD24.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axss-001/raw/%24H-RAD24.ANS
-# Source Revision: archive-sha256:176d32795f2951cddf3670ed00cc6480fb77c7876a0a6bdca896b1d8ec0d4ac2
-# Source SHA-256: 2c9a6ae5c32144bb75ac8187a666d0ee8cc63154b6f68b592b6459dcd3ab3705
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: $H-RAD24.ANS by Shinigami (.%.AXss.%. -97); released in axss-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Radio 24 Logo !
-# SAUCE Author: Shinigami
-# SAUCE Group: .%.AXss.%. -97
-# SAUCE Date: 19970530
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Radio 24 Logo ! by Shinigami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axss-001-h-rad24
 
 Write-Host '
                         [1;30m▄▀▀▀▄[0m                      [1;33m▄[0m       [1;30m▄[0m

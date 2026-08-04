@@ -1,18 +1,4 @@
-﻿# Converted from: NVZ-NVZS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmtz-3/raw/NVZ-NVZS.ANS
-# Source Revision: archive-sha256:9049eb84d35299820d945f342b3906500ed394a8e74f37bd2f023c428d1b0765
-# Source SHA-256: b5d972d3a31e067059e692477d1ff260c216a753ea9f63c2ef49005e4c78874e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NVZ-NVZS.ANS by nvz (rmtz); released in rmtz-3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 2 colored nvz-logos
-# SAUCE Author: nvz
-# SAUCE Group: rmtz
-# SAUCE Date: 19960917
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: 2 colored nvz-logos by nvz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmtz-3-nvz-nvzs
 
 Write-Host '
 -----------------------------[ NVZ ]--·· · .

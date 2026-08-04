@@ -1,18 +1,4 @@
-﻿# Converted from: WD-PRIME.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0597/raw/WD-PRIME.ANS
-# Source Revision: archive-sha256:100499c687593fd78c29adf06f5899e8c0d61223958e380a9c31aadb955ab06d
-# Source SHA-256: b13d7c3d65cd165bc445083526a5945c201cf98d3ab074c32e9ceceb913e59e2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WD-PRIME.ANS by weirdo (fusion); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: prime.main.menu
-# SAUCE Author: weirdo
-# SAUCE Group: fusion
-# SAUCE Date: 19970509
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: prime.main.menu by weirdo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0597-wd-prime
 
 Write-Host '
 [36m░[0;30;46m▓[0m          [36;40m  [0m      [36;40m  [0m   [36;40m [0m     [1;30;40m▄[0m

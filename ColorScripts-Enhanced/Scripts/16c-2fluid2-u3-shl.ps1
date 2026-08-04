@@ -1,13 +1,4 @@
-﻿# Converted from: U3-SHL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/2fluid2/raw/U3-SHL.ANS
-# Source Revision: archive-sha256:5b7b859a6b313bef27715626a2129a68a4e711fed88780f169533809010a1ae8
-# Source SHA-256: 40ac4557f08c4575c9be3812260f9a98a71a7193c9c97d039cac727717092a6b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: U3-SHL.ANS by Unseen Fate (2fluid2); released in 2fluid2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: U3-SHL.ANS by Unseen Fate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-2fluid2-u3-shl
 
 Write-Host '
                    [1;36;47m▀[0m▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀[1;36;47m▀[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: BS-SSBYE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-02/raw/BS-SSBYE.ANS
-# Source Revision: archive-sha256:4c203a22a273c62e868cc7246cefafb413002203c4d66bfee072b470754a2d40
-# Source SHA-256: 72df073490c4a794394074b42549c90f2a6ba5c7831f0ce65002407015e8e914
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-SSBYE.ANS by Blind Sniper (Department 38); released in d38-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Streamed Sanity Logoff
-# SAUCE Author: Blind Sniper
-# SAUCE Group: Department 38
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Streamed Sanity Logoff by Blind Sniper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-02-bs-ssbye
 
 Write-Host '
 [1;30m             [0;1;31m [0;1;37m      [0;1;33m▄▄▄[0;1;33;43m▒▒█[0;1;33;40m███▄▄[0;36m                                                [0m

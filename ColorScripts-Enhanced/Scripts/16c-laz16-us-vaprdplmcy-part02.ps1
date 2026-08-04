@@ -1,19 +1,4 @@
-﻿# Converted from: us-vaprdplmcy.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz16/raw/us-vaprdplmcy.ans
-# Source Revision: archive-sha256:b093dd3cb06bf783d59a9df3724c51f9a41f686cd4fd545c920ada008d959f7a
-# Source SHA-256: 7ae723191c7245f46e5add81bd404e170673565f07a463c42bd7317c031c6b8b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-vaprdplmcy.ans by Mel Farr Suppastar + Avg (Lazarus); released in laz16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Vaporwave Diplomacy
-# SAUCE Author: MFS & AVG
-# SAUCE Group: Lazarus
-# SAUCE Date: 20230101
-# SAUCE Dimensions: 80x655
-# SAUCE Font: IBM EGA
-# Lines: 51-99
-# Columns: 1-80
+﻿# Artwork: Vaporwave Diplomacy by Mel Farr Suppastar + Avg | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz16-us-vaprdplmcy-part02
 
 Write-Host '
 

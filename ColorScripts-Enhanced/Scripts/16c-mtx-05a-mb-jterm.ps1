@@ -1,19 +1,4 @@
-﻿# Converted from: MB-JTERM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mtx-05a/raw/MB-JTERM.ANS
-# Source Revision: archive-sha256:6817231a1a44144352ea5d83b821e68df522e7d25303f99959f877f5bbbaf996
-# Source SHA-256: 1300eec4263286e9065f398e2f749b5dc0d4a1b11fdc06bc08110751b358015d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MB-JTERM.ANS by MADBiT (MATRiX); released in mtx-05a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Jack Term
-# SAUCE Author: MADBiT
-# SAUCE Group: MATRiX
-# SAUCE Date: 19951108
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: This is the intro for Jack Term, a terminal program he's | coding... I made it in about 2-3 hours, after going through | all kinds of crying, sobbing, and begging from JACK... :-)
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Jack Term by MADBiT | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mtx-05a-mb-jterm
 
 Write-Host '
                   [1;30m▄▄[0m       [1;30m▄▄▄▄[0m                             [1;30m▄■▀█▌[0m

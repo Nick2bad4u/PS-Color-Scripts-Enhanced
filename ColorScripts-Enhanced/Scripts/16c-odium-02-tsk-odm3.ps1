@@ -1,18 +1,4 @@
-﻿# Converted from: TSK-ODM3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-02/raw/TSK-ODM3.ANS
-# Source Revision: archive-sha256:47a67f112d88796e8c1419ea3c6c084684ff2719dfc540b2668a69dc0343be0d
-# Source SHA-256: 692b37d1844328f7d59bacca99282e2cd09b0c458be80ff5560a29fc0d8489fa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-ODM3.ANS by the silent killer (odium); released in odium-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: odium promotional
-# SAUCE Author: the silent killer
-# SAUCE Group: odium
-# SAUCE Date: 19951226
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: odium promotional by the silent killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-02-tsk-odm3
 
 Write-Host '
 

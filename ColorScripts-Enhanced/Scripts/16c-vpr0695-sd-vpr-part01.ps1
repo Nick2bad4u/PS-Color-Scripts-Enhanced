@@ -1,18 +1,4 @@
-﻿# Converted from: SD-VPR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vpr0695/raw/SD-VPR.ANS
-# Source Revision: archive-sha256:78c3ace83360714b9f57ab0b5b4ffd040155a161a665ae8c182b834426edfb2b
-# Source SHA-256: 1f1765372b5f3131fc350acc702556a43beef254ba02ffd9cd3385266c1ce9c4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-VPR.ANS by sir death (vapor); released in vpr0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: vapor promotional
-# SAUCE Author: sir death
-# SAUCE Group: vapor
-# SAUCE Date: 19950606
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: vapor promotional by sir death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vpr0695-sd-vpr-part01
 
 Write-Host '
 [1;30m█▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓[0m

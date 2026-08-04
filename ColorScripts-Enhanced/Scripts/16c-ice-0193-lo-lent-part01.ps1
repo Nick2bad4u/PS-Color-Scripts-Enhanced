@@ -1,13 +1,4 @@
-﻿# Converted from: LO-LENT.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-0193/raw/LO-LENT.ICE
-# Source Revision: archive-sha256:ca05bf2de359182562a4e7329ee29306910e366566e70161c1e1498b079ccf5f
-# Source SHA-256: 85f2672920288904b895b1bcb375835a4b0f072b26e9fff4046bae987fc0fe54
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LO-LENT.ICE by Logan (ice-0193); released in ice-0193 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: LO-LENT.ICE by Logan | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-0193-lo-lent-part01
 
 Write-Host '
 [31m██████████████████████████████▀▀▀▀███████[0;1;31;41m▀██▌[0m [1;31;40m█████████████[0;1;31;47m▀▀▀▀▀▀▀██[0;1;31;40m███████████[0m

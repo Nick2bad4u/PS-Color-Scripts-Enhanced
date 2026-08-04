@@ -1,19 +1,4 @@
-﻿# Converted from: ISO-LDU.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9504a/raw/ISO-LDU.ICE
-# Source Revision: archive-sha256:7e06a69e8d7baf8133687f2e7b917774996272e1a0f23faaff663b1fe4e44657
-# Source SHA-256: d8f8362e70c794de362f863c3d43073147ebf4951712950776083d6aba18dc9a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ISO-LDU.ICE by isosceles (ice 95); released in ice9504a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: sq2's deep umbra
-# SAUCE Author: isosceles
-# SAUCE Group: ice 95
-# SAUCE Date: 19950425
-# SAUCE Dimensions: 80x50
-# SAUCE Comments: wow.. a SAUCE comment.. rare.. just one word of advice: | if life gets you down, | and you think, "why me?" | know it could be worse, | you could be stc. |                - ike [ice lit] :)
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: sq2's deep umbra by isosceles | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9504a-iso-ldu-part01
 
 Write-Host '
 [1m[0m[1m[0m[1m[0m[1m[0m[1m[0m

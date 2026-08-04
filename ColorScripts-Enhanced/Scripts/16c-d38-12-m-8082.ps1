@@ -1,13 +1,4 @@
-﻿# Converted from: M!-8082.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-12/raw/M!-8082.ANS
-# Source Revision: archive-sha256:410083659cbc6eaaec3d23ed9548f99302029f4a7b459c350ecaa6d1820b2874
-# Source SHA-256: d934688c282f1ac2840b90f8714ccbb8c9c48c7e2355472714fc4c777d2c31d4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M!-8082.ANS by Myth (d38-12); released in d38-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: M!-8082.ANS by Myth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-12-m-8082
 
 Write-Host '
   [34m   [0;37m  [0;35m░▄▄▄▄▄▄▄▄▄▄▄▄▄▓[0;37m      [0;1;30m▄▄ ▄[0m     [1;30m▐[0m       [1;30m  [0m          [35m▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

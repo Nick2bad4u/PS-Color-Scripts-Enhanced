@@ -1,13 +1,4 @@
-﻿# Converted from: QUACKERS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0298/raw/QUACKERS.ANS
-# Source Revision: archive-sha256:b2ed908ebe07b9abc8a1b605d9ab159a38924592b5eaadb06525f7a5e1e213a6
-# Source SHA-256: 713b23f3dd75fe0062ca919c52d41fb6da1679f4172fbf8763b72d358e505143
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QUACKERS.ANS by Sandy Chidester (out-0298); released in out-0298 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: QUACKERS.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0298-quackers
 
 Write-Host '
 [1m[0m                         [31m╔═╗ ╗ ╔ ╔═╗ ╔═╗ ╗╔  ╔═╗ ╦╗  ╔╗[0m

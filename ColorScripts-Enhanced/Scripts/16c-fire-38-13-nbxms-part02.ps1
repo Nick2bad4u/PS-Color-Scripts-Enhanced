@@ -1,19 +1,4 @@
-﻿# Converted from: 13-NBXMS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-38/raw/13-NBXMS.ANS
-# Source Revision: archive-sha256:be80154150e87c06a8a7199ad7b8d7442acd5427250f57c89a783b9de15c69d7
-# Source SHA-256: 2f44c0649fcf16b6144cf917293c5da2b1b882cbb47d448ec453ec836fcd8842
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 13-NBXMS.ANS by ville (fire); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the nightmare before christmas
-# SAUCE Author: ville
-# SAUCE Group: fire
-# SAUCE Date: 20231109
-# SAUCE Dimensions: 80x85
-# SAUCE Font: IBM VGA
-# Lines: 42-85
-# Columns: 1-80
+﻿# Artwork: the nightmare before christmas by ville | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-38-13-nbxms-part02
 
 Write-Host '
 [34m░[0;35m░[0;34m░[0;35m░[0;37m [0;35m░[0;37m [0;35m░[0;34m░[0;37m [0;34m░[0;37m [0;34m░[0;37m [0;34m░[0;37m [0;34m░[0m                              [34m░[0;37m [0;34m░[0;37m [0;34m░[0;37m [0;34m░[0;37m [0;30;44m▓[0;34;40m ▒░▒█[0;1;34;44m▌[0;1;30;40m▀[0;34m▐▐[0;37m [0;34m█[0;37m [0;30;44m▓[0m       [34;40m░[0m

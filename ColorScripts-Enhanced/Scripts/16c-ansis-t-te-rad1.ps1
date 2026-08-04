@@ -1,13 +1,4 @@
-﻿# Converted from: TE-RAD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-t/raw/TE-RAD1.ANS
-# Source Revision: archive-sha256:1bd05509d0b9d3fd95988cf79c4eba55d4c815a1c253a90ba1bc1e221ff0e0f8
-# Source SHA-256: 04484958e9fefe5818bc5396db7978ba01b31f142daf940b4bb00a5d414547d4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-RAD1.ANS by The Eel (ansis-t); released in ansis-t and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: TE-RAD1.ANS by The Eel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-t-te-rad1
 
 Write-Host '
 [5;30m████████████████████████████████████████████████████████████████████████████████[0m

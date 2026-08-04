@@ -1,18 +1,4 @@
-﻿# Converted from: BL-ST1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spas9503/raw/BL-ST1.ANS
-# Source Revision: archive-sha256:921a7a02fdcd7f04f18871f0002a1b20474c016ac737399d9749e44d2b5c72dd
-# Source SHA-256: c5ce5bf79e9d9feb21fc603f7dab3a05bd399bc5276d784b772b33b614b33656
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BL-ST1.ANS by Black Lightning (Spastic); released in spas9503 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Sarcastic Toaster
-# SAUCE Author: Black Lightning
-# SAUCE Group: Spastic
-# SAUCE Date: 19950224
-# SAUCE Dimensions: 80x25
-# Lines: 32-61
-# Columns: 1-80
+﻿# Artwork: Sarcastic Toaster by Black Lightning | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spas9503-bl-st1-part02
 
 Write-Host '
 [32m██▓█▓▒ ▄▀  ▒▒▒   ▒▒▒▌[0m     [1;31m▀▓ [0;35m██▓    ▀▀[0;1;35;45m░[0;35m▀▀ [0;1;37m▄▄▄▄▄▄█████▓▄▄[0;35m▀▓▓[0m        [32m▒▒▓  █  ▀▓▒[0m

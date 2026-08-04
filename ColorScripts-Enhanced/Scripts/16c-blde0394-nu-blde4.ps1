@@ -1,13 +1,4 @@
-﻿# Converted from: NU-BLDE4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde0394/raw/NU-BLDE4.ANS
-# Source Revision: archive-sha256:de6ed9ab061eb3873e65e8592983e98d7529a8bb505e6f2812dc10ac1d2b7ff0
-# Source SHA-256: 0baf46749366979b5db0cc9b319ed78c8f58024d3f11f1b06a8542d961e871db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NU-BLDE4.ANS by Nosferatu (blde0394); released in blde0394 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: NU-BLDE4.ANS by Nosferatu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde0394-nu-blde4
 
 Write-Host '
 [30;44m▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;30;40m██[0;30;44m▒▒▒▒▒▒[0;30;40m██████████[0;30;44m▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m [30;40m█[0;30;44m▒▒▒▒▒▒▒▒▒▒▒▒▒[0;30;40m███[0;30;44m▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;30;40m█[0m

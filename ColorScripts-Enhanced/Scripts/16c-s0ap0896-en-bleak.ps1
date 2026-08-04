@@ -1,18 +1,4 @@
-﻿# Converted from: EN-BLEAK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/s0ap0896/raw/EN-BLEAK.ANS
-# Source Revision: archive-sha256:7d0a140f529eae19c883c8148a21e14165d8c770e39610a28ae96e53bb9f8b6b
-# Source SHA-256: 81aa0ab57ed0dd09f0da4bd15458ee1132f02e8895667c1212cf7701584c08bf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EN-BLEAK.ANS by Endless Nameless (s0ap); released in s0ap0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Bleak
-# SAUCE Author: Endless Nameless
-# SAUCE Group: s0ap
-# SAUCE Date: 19960715
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: Bleak by Endless Nameless | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-s0ap0896-en-bleak
 
 Write-Host '
 [31m[0;37m[0;31m[0;37m[0;31m[0;37m[0;31m[0m                                                    [35m$[0m

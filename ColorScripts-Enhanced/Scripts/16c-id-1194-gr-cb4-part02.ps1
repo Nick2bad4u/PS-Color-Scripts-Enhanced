@@ -1,18 +1,4 @@
-﻿# Converted from: GR-CB4.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/archive/1994/id-1194.zip
-# Source Revision: archive-sha256:e4287e2f7c251cb296d97cfef2d3a7cb7be107b4159284bac2c6b0e68634a939
-# Source SHA-256: a6b6748e8f2f5bd272f3b2226d78cf15fa1f48fd48f859c47c3cb0883b6b6d77
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GR-CB4.ANS by Griffin (iDENTiTY); released in id-1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: CELL BLOCK 4
-# SAUCE Author: Griffin
-# SAUCE Group: iDENTiTY
-# SAUCE Date: 19941027
-# SAUCE Dimensions: 80x25
-# Lines: 49-93
-# Columns: 1-80
+﻿# Artwork: CELL BLOCK 4 by Griffin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-id-1194-gr-cb4-part02
 
 Write-Host '
 [1;30m   [0;1;32m▄▄[0;1;32;42m▓▓[0;1;32;40m█[0;1;32;42m▓[0;1;32;40m▌[0;1;30;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

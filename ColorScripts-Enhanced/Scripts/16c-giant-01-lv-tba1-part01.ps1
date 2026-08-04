@@ -1,13 +1,4 @@
-﻿# Converted from: LV-TBA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/giant-01/raw/LV-TBA1.ANS
-# Source Revision: archive-sha256:a4370f459d0f27bafeb3b1a6e374d41365a089d2dd1f4332853fdbaa6662cd0e
-# Source SHA-256: b134fbe41dd64bc00ece5e0af89466b130e03862e22a539da74be4aa84b79725
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LV-TBA1.ANS by Liquid Vision (giant-01); released in giant-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: LV-TBA1.ANS by Liquid Vision | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-giant-01-lv-tba1-part01
 
 Write-Host '
               [32m▄▄▄▄[0m                  [32m▄▄▄[0;31m [0m          [32m▄▄▄[0;31m [0m          [32m▄▄▄▄[0m

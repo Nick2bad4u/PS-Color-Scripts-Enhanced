@@ -1,18 +1,4 @@
-﻿# Converted from: MHSYSTEM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/elloco/raw/MHSYSTEM.ANS
-# Source Revision: raw-sha256:2b569912b912be98c430001968df88399a8a55364a23f1cbe50629f8f4e59496
-# Source SHA-256: 2b569912b912be98c430001968df88399a8a55364a23f1cbe50629f8f4e59496
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MHSYSTEM.ANS by El LoCo (NeveRLanD); released in elloco and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Mh System Logo
-# SAUCE Author: El LoCo
-# SAUCE Group: NeveRLanD
-# SAUCE Date: 19951227
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Mh System Logo by El LoCo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-elloco-mhsystem
 
 Write-Host '
           [1;34m                                                      [0m

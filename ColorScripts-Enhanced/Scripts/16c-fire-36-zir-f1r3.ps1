@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-F1R3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-36/raw/ZIR-F1R3.ANS
-# Source Revision: archive-sha256:43e7d46e56dc094cf8502b299dcd82ee875dea0a064a36248f4e6c844180fd25
-# Source SHA-256: a65c3708cb2107b7250a4a4b0c89e4f651825551422261399d45d34f232f23a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-F1R3.ANS by zir (FiRE); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: FIRE 2023!!!
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20230303
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# SAUCE Comments: -><- skidoo -><-
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: FIRE 2023!!! by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-36-zir-f1r3
 
 Write-Host '
 [37;40m           [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: RR-GOO01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drop9705/raw/RR-GOO01.ANS
-# Source Revision: archive-sha256:7fe1f56651ec06ccf40826f5781f068ca77061ce348751ee019a860090f3b0ac
-# Source SHA-256: cd636572677c0820ff6f4046d2871c7c2cf53ea95b48ca7e01b88add61480510
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RR-GOO01.ANS by rink rat (dr0p); released in drop9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: savage dragon for my board, g00
-# SAUCE Author: rink rat
-# SAUCE Group: dr0p
-# SAUCE Date: 19970512
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: savage dragon for my board, g00 by rink rat | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drop9705-rr-goo01
 
 Write-Host '
                      [32mdⁿ°ⁿx[0m                             [32mxⁿ°ⁿb[0m

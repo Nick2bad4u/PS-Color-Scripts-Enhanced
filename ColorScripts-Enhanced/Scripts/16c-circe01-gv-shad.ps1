@@ -1,17 +1,4 @@
-﻿# Converted from: GV-SHAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe01/raw/GV-SHAD.ANS
-# Source Revision: archive-sha256:0b64c26f533b8c11a1aca04e7dcc1e21d4b014c2d6532ba66a48148862d54cb2
-# Source SHA-256: f89dfdd32a19877bb05b15b56f790ab003c2127e6eb7718dec13fb252c1578ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GV-SHAD.ANS by groove (circe01); released in circe01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: sHAD!
-# SAUCE Author: groove
-# SAUCE Date: 19970803
-# SAUCE Dimensions: 80x14
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: sHAD! by groove | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe01-gv-shad
 
 Write-Host '
                             [1;35m  [0m                               [35m [0m

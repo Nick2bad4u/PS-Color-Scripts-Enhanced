@@ -1,18 +1,4 @@
-﻿# Converted from: FED-BETA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-05/raw/FED-BETA.ANS
-# Source Revision: archive-sha256:9a8be922d1845a782b9897ae82406f49203492d3f9366796ffa94c1b52060165
-# Source SHA-256: abb1019e03c6d1bb59d68dd4bdd9d7bd83fd820d5ec8e626f1812c472185eeb1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FED-BETA.ANS by Firehead (Hieroglyphics); released in hiero-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Beta Max
-# SAUCE Author: Firehead
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20001205
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Beta Max by Firehead | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-05-fed-beta
 
 Write-Host '
 

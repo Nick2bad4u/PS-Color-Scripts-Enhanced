@@ -1,13 +1,4 @@
-﻿# Converted from: CARD5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/royart2/raw/CARD5.ANS
-# Source Revision: archive-sha256:7bb839921483bf75cde51f65d158ac6b2ec4a48b32273b45c2f5acdb0f5924d0
-# Source SHA-256: 3b44b4e8e296bd2270b3546cc41719a48f6498a51082f7bcb81995e55b9b9912
-# Source License: FAL-1.3
-# Source Attribution: CARD5.ANS by Roy/SAC aka Carsten Cumbrowski; released in royart2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: CARD5.ANS by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-royart2-card5
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: 01111011.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/4ooooooo/raw/01111011.ANS
-# Source Revision: archive-sha256:3d1ea735695d82dc319a43e8d44522002652e1b432df7c19feb6d9e4f126d700
-# Source SHA-256: 6c1f8e4050ecf0d696dddff4f675e08a4b0ffc3633e554b88d35e52eb5a6ec5f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 01111011.ANS by Mr4tune (4ooooooo); released in 4ooooooo and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: 01111011.ANS by Mr4tune | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-4ooooooo-01111011
 
 Write-Host '
 

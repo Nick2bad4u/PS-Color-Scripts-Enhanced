@@ -1,18 +1,4 @@
-﻿# Converted from: SRD-DOPE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rawoe-98/raw/SRD-DOPE.ANS
-# Source Revision: archive-sha256:72c3cf0f44a476eef694d1cf3a1552a03dc3aa0478a61b3b389cc598bf59ebb8
-# Source SHA-256: 055f8e414f865e48bdf52a6c1fcdea6d4feb82dd187088f8b07bc5f650b7a15c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SRD-DOPE.ANS by sordid (woe); released in rawoe-98 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: DOPe-O-MAGic;.
-# SAUCE Author: sordid
-# SAUCE Group: woe
-# SAUCE Date: 19980429
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: DOPe-O-MAGic;. by sordid | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rawoe-98-srd-dope
 
 Write-Host '
                        [35m▄▄▄▄▄▄▄▄▄▄▄▄[0m    [33m▄▄▄▄▄▄▄▄[0m   [35m▄▄▄▄▄▄▄▄▄▄[0;1;35m▄[0m

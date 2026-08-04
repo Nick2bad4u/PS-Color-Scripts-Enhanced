@@ -1,18 +1,4 @@
-﻿# Converted from: US-SPEED.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0597/raw/US-SPEED.ANS
-# Source Revision: archive-sha256:100499c687593fd78c29adf06f5899e8c0d61223958e380a9c31aadb955ab06d
-# Source SHA-256: d482c2714df2fc7a21f93854edb10ea7bcf9b0b0d112d7812952d20955f4f593
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SPEED.ANS by Ize + Oolite (fusion); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: speedloader
-# SAUCE Author: oolite + ize
-# SAUCE Group: fusion
-# SAUCE Date: 19970508
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: speedloader by Ize + Oolite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0597-us-speed
 
 Write-Host '
      [1;35m  [0;31m▄[0;1;35m  [0;35m▄[0;1;35m▄▄▄  [0m                [1;35m                                               [0m

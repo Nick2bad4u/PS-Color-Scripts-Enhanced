@@ -1,19 +1,4 @@
-﻿# Converted from: US-ANGEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-38/raw/US-ANGEL.ANS
-# Source Revision: archive-sha256:be80154150e87c06a8a7199ad7b8d7442acd5427250f57c89a783b9de15c69d7
-# Source SHA-256: 8fb8c5cdcbfe30aabb8784107b6931f9068171c160636ec155b6d607df6c50bd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ANGEL.ANS by Nail + Filth (fire); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: avenging angel
-# SAUCE Author: nail + filth
-# SAUCE Group: fire
-# SAUCE Date: 20230727
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: avenging angel by Nail + Filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-38-us-angel
 
 Write-Host '
 [1;37;40m██████▄▀█[0;1;37;47m▄▄▓[0;1;37;40m██▄▀██ █▄▀██[0;1;37;47m█▄[0;1;37;40m▄[0;31m▀▀█████████████████████▀[0;33m▄▄[0;37m [0;33m▓▓█▀▄[0;37m [0;33m▀[0;37m [0;33m▄■▄▀█▓▄[0;37m   [0;31m▀███[0;30;41mfil[0;31;40m█[0m

@@ -1,15 +1,4 @@
-﻿# Converted from: US-THING.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p12_01/raw/US-THING.ANS
-# Source Revision: archive-sha256:678c9348e291c059a717bb7990ccaffc699e8a46d4f8d71e273fe24e3b605bbc
-# Source SHA-256: 4c8cd9ddd7415713f2547c136111a8958478b2cf3112e11eba4311c71dd38921
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-THING.ANS by D0n (l0p12_01); released in l0p12_01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 19990909
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: US-THING.ANS by D0n | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p12-01-us-thing
 
 Write-Host '
 

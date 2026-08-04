@@ -1,18 +1,4 @@
-﻿# Converted from: zii-gumz.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge15/raw/zii-gumz.ans
-# Source Revision: archive-sha256:11a79c92e9fc8c892f1f79f19699fe30da6c6fb4d0229d77725e757a82129c1a
-# Source SHA-256: f7984e517fa9e08e07c63071ce05f03f3c7b0240c75d29fdd1ccc47940f38303
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zii-gumz.ans by Zeus II (avenge); released in avenge15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: gumfuck
-# SAUCE Author: Zeus II
-# SAUCE Group: avenge
-# SAUCE Date: 19990402
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: gumfuck by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge15-zii-gumz
 
 Write-Host '
 

@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-GOJI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-38/raw/ZIR-GOJI.ANS
-# Source Revision: archive-sha256:be80154150e87c06a8a7199ad7b8d7442acd5427250f57c89a783b9de15c69d7
-# Source SHA-256: 49f42da61fd98ca0e6e348f51c902344d4cac0550d7351462f81ea0d523078c2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-GOJI.ANS by zir (FiRE); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: godzilla's skyscraper chess tantrum
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20230723
-# SAUCE Dimensions: 80x94
-# SAUCE Font: IBM VGA
-# SAUCE Comments: "godzilla, playing chess, on (or with?) a skyscraper," | for blender 07/2023.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: godzilla's skyscraper chess tantrum by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-38-zir-goji-part01
 
 Write-Host '
              [1;30;40m [0;1;35;40m        [0;1;30;40m [0m         [1;35m     [0;1;30m  [0m   [1;30m [0m       [1;30m  [0m  [1;35m          [0;1;30m  [0m

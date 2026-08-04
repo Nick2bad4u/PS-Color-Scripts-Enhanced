@@ -1,15 +1,4 @@
-﻿# Converted from: ID-ROOT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0297/raw/ID-ROOT1.ANS
-# Source Revision: archive-sha256:ecfcd3f5cd2c4412c60edbfa5c15fbea724948a8a18d0e8a8931276c9082657e
-# Source SHA-256: 4228645495d95f0f242333c8c6e1cc678c892c7f1a788c1b75359d5eb4b437db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ID-ROOT1.ANS by Idrosynth (root0297); released in root0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Root Promo
-# SAUCE Author: Idrosynth
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Root Promo by Idrosynth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0297-id-root1
 
 Write-Host '
                   [36m▄▄▄▄▄▄▄[0m                                [36m▄▄▄▄[0m

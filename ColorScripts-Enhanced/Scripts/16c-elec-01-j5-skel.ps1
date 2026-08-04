@@ -1,18 +1,4 @@
-﻿# Converted from: J5!SKEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/elec-01/raw/J5!SKEL.ANS
-# Source Revision: archive-sha256:77268b28e59718e96e7fd5a2adf6c04dfc55024f811ea0edfb3a6be1f6bd143f
-# Source SHA-256: 7e46a5210a9ac81e5a29a99896c75fea7395a4537e9392c9e3bd067428e01c0a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: J5!SKEL.ANS by Johnny 5 (j5!) (Electricity); released in elec-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: They Smoke In Hell
-# SAUCE Author: Johnny 5 (j5!)
-# SAUCE Group: Electricity
-# SAUCE Date: 19970831
-# SAUCE Dimensions: 80x34
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: They Smoke In Hell by Johnny 5 (j5!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-elec-01-j5-skel
 
 Write-Host '
        [31m▄[0;31;41m [0;1;30;41m█▓▒░░░[0;31m██[0;1;30;41m░[0;31m██[0;1;31;41m░[0;31m█[0;1;31;41m░[0;31m██[0;1;31;41m░░[0;31m█[0;1;31;41m░░░▒▓█[0;31m█▄[0m

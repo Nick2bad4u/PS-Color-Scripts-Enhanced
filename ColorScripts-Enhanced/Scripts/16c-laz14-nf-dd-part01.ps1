@@ -1,18 +1,4 @@
-﻿# Converted from: nf-DD.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz14/raw/nf-DD.ans
-# Source Revision: archive-sha256:41b4e3770fbffb058172283f3da2aa00e47c872480cf93fdef94629ebc0751bb
-# Source SHA-256: c1754e412021dcadf5c4ddc1be1c7caaf346698c51ff8306a6e9ed4278e9837f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: nf-DD.ans by necro (laz14); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Death dealer
-# SAUCE Author: necro
-# SAUCE Date: 20211205
-# SAUCE Dimensions: 80x61
-# SAUCE Font: IBM VGA
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Death dealer by necro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz14-nf-dd-part01
 
 Write-Host '
                                        [1;30;40m▄█▓▄██▄▄▌ ░ ▄▄ ▄  ▄ ▀[0m

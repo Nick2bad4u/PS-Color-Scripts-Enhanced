@@ -1,18 +1,4 @@
-﻿# Converted from: DD-UPDN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe04/raw/DD-UPDN.ANS
-# Source Revision: archive-sha256:4f0496a9701d4903473a706c6407c52ebc6554ce22b4b35c3cd1e5bc9689ea7f
-# Source SHA-256: ef30b0d8f1017af00380f4f261a79c65e885ba366e7bdd689ab43471e4e1abb4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-UPDN.ANS by Diamond Darrell (Circe); released in circe04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: uploaders
-# SAUCE Author: Diamond Darrell
-# SAUCE Group: Circe
-# SAUCE Date: 19980305
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: uploaders by Diamond Darrell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe04-dd-updn
 
 Write-Host '
 [1m-[uploaders #1]-----------------------------------------------------------------[0m

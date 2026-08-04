@@ -1,18 +1,4 @@
-﻿# Converted from: BOA-ICE8.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9712/raw/BOA-ICE8.ICE
-# Source Revision: archive-sha256:7689605597a3a08f68edb21384869d827c351a4b9af78dc5d0514e1194fe5adb
-# Source SHA-256: 3ac293002355aed6c11ca563870c94dafb4ccefb4581a8d1d7715280bdc93be6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BOA-ICE8.ICE by BoA (iCE); released in ice9712 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: iCE.98
-# SAUCE Author: BoA
-# SAUCE Group: iCE
-# SAUCE Date: 19971217
-# SAUCE Dimensions: 80x23
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: iCE.98 by BoA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9712-boa-ice8
 
 Write-Host '
            [1;30m·─∙░∙───────────────────∙─∙───────────────────∙░∙─·[0m

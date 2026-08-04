@@ -1,18 +1,4 @@
-﻿# Converted from: FR-SHD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9709/raw/FR-SHD.ANS
-# Source Revision: archive-sha256:a8c36d8798287a241d2dd7ef1ff5dc55fddff796595a296c3f5aa388a9423ee9
-# Source SHA-256: 1cfe47e377a44932a42d8c10a893adc363a21f0747ddbe97fce6fdffff01251a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FR-SHD.ANS by feaRprOphet (Maiden); released in mdn-9709 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: SHD lOgO
-# SAUCE Author: feaRprOphet
-# SAUCE Group: Maiden
-# SAUCE Date: 19970708
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: SHD lOgO by feaRprOphet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9709-fr-shd
 
 Write-Host '
                 [1;30mfr<m[0;35m41[0;1;35md[0;35m3[0;1;30mn>[0m  [1;33;43m▓▓▓▓▓▓▓▓▓▓▓████[0;1;33;40m██[0;1;37;40m█████[0m

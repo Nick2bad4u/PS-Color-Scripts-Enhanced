@@ -1,18 +1,4 @@
-﻿# Converted from: JR_MINDF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl_omann/raw/JR_MINDF.ANS
-# Source Revision: archive-sha256:05aeb5241910df97f7b5f5e1c0f0b2ddf59063a1cb9f232ef34e44c86905e918
-# Source SHA-256: a6c0615e0dac96c4dd32f8d0db55eae1cd4e1199d67df344d13422eaab5e6ed0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_MINDF.ANS by jerusalem (boil); released in bl_omann and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fick mein gehirn
-# SAUCE Author: jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19971108
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: fick mein gehirn by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-omann-jr-mindf
 
 Write-Host '
   [34m▄[0;35m▄[0;35;44m▄[0;37;40m [0;34;40m▄▄▄▌[0;37;40m  [0;34;40m▐[0;35;40m█[0;1;33;47m▄[0;34m▌[0m                [34m▐[0;1;34;44m█▌▄[0;1;36;44m▄[0;36m▄▄[0;1;36m▄[0;1;33m▄▄[0;1;37m▄▄[0m             [31m▀ [0;33m▄[0;31m▄ [0m

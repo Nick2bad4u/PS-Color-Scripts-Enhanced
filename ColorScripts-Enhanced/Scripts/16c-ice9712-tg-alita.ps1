@@ -1,18 +1,4 @@
-﻿# Converted from: TG-ALITA.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9712/raw/TG-ALITA.ICE
-# Source Revision: archive-sha256:7689605597a3a08f68edb21384869d827c351a4b9af78dc5d0514e1194fe5adb
-# Source SHA-256: 2d4704dbeb75320893a1358d2c9ec41f0e83e9732610f96efc85e993b2acc459
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-ALITA.ICE by toongoon (iCE); released in ice9712 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: battle angel
-# SAUCE Author: toongoon
-# SAUCE Group: iCE
-# SAUCE Date: 19980103
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: battle angel by toongoon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9712-tg-alita
 
 Write-Host '
 [1;30mtg[0;33m██▌[0;1;31m ███[0;1;31;43m▌[0;33m▌[0;1;31m ▐████[0;33m█[0;1;31m ▐██████████████[0;1;31;43m▌[0;33m▌[0;1;31m ██[0;1;31;43m [0;1;31;40m  ███████[0;33m███[0;1;31m [0;1;30m  [0;33m█████████████████████████[0m

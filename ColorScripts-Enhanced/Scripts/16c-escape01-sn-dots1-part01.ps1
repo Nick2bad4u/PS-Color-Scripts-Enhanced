@@ -1,13 +1,4 @@
-﻿# Converted from: SN-DOTS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/escape01/raw/SN-DOTS1.ANS
-# Source Revision: archive-sha256:8fb76a84502eb67aaaf0a7272ae8f06bcf8f5fa9822bf2bbf425ce8452e1bbfc
-# Source SHA-256: 3a055256a788c16b0bd9d06087c4f76d1b05a2fae49d564735477427eba8b932
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SN-DOTS1.ANS by Synergy (escape01); released in escape01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: SN-DOTS1.ANS by Synergy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-escape01-sn-dots1-part01
 
 Write-Host '
       .              [33m▓▓[0;1;37;43m░░▒▒▓▓▓▓▓▓▓▓▓▓▓▒▒▒░░░░[0;33m▓▓▓▓▓[0;1;37;43m░▓▓█[0m   .       [1m.[0m

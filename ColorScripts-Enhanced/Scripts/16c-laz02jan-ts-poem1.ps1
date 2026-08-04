@@ -1,18 +1,4 @@
-﻿# Converted from: TS-POEM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz02jan/raw/TS-POEM1.ANS
-# Source Revision: archive-sha256:132672eb521503ab979d6725a75b6f055811245f253b5353290430aa5c4983b1
-# Source SHA-256: 56dc255e5f04d7ed91e7340e44304498590107c78222e670f5aea3b7bad89fca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-POEM1.ANS by tr4nsi3nt (l4z4rus); released in laz02jan and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: p03m-1
-# SAUCE Author: tr4nsi3nt
-# SAUCE Group: l4z4rus
-# SAUCE Date: 19961201
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: p03m-1 by tr4nsi3nt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz02jan-ts-poem1
 
 Write-Host '
            ▄  ▐▌          ▀▀▀▀▄▄       [36m▐██[0;1;36;46m░[0;36m██[0;1;36;46m░▒█▒░[0;36m█████▓░[0m [35m▐████▀[0m [1;32m▄▄░░▀▀[0m [31m▄▄████[0;1;31m██[0m

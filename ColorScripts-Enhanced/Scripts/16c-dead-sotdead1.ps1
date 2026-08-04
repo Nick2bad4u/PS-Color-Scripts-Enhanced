@@ -1,13 +1,4 @@
-﻿# Converted from: SOTDEAD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dead/raw/SOTDEAD1.ANS
-# Source Revision: archive-sha256:42002c7465322e6567b6ada22b7d24270f500cdc26769d5efac519e13d8ec757
-# Source SHA-256: acd1cc40f4b2c102cfbd3c97bdf978d2ed3fb268dee2e960c87e89dc0af91c5b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SOTDEAD1.ANS by Eternal Darkness (dead); released in dead and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: SOTDEAD1.ANS by Eternal Darkness | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dead-sotdead1
 
 Write-Host '
 [31m▀[0;1;31m▀▀▀▀[0;1;31;41m▓[0m  [1;31;41m▒[0m [1;31;40m▀▀▀[0;31m▀[0m      [37m▄▄▄▄▄▄▄[0;1;30m▄[0m▄[1;30m▄▄▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄[0m     [1;30m▄▄▄▄▄▄▄▄[0m

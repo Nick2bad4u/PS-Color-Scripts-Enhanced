@@ -1,13 +1,4 @@
-﻿# Converted from: ZS-SII05.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sys2_02/raw/ZS-SII05.ANS
-# Source Revision: archive-sha256:4be7ec805fb2a4a39fee328474e69db4f25855ccd9f3e08bd6de462c5c223bd8
-# Source SHA-256: 072289eca981b9ddfc73f8dceb2ae60eeeeb21c35c67b5b6026d13a75dc7650d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZS-SII05.ANS by Zerostar (sys2_02); released in sys2_02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: ZS-SII05.ANS by Zerostar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sys2-02-zs-sii05
 
 Write-Host '
           ║ [35m                                                           [0;37m ║[0m

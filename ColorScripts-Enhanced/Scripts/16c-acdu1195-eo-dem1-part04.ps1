@@ -1,18 +1,4 @@
-﻿# Converted from: EO-DEM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1195/raw/EO-DEM1.ANS
-# Source Revision: archive-sha256:69e419f1d1c331fd0cc84d59b407f2f77c26d7494508f2fe4429cc4214df9d32
-# Source SHA-256: 41032a66c6ddfff0a792a0d11fd68ec29ee555bde27508e20f73353ca4e3a5d3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EO-DEM1.ANS by El Guapo (ACiD Productions); released in acdu1195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: demesne
-# SAUCE Author: El Guapo
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19951101
-# SAUCE Dimensions: 80x217
-# Lines: 127-169
-# Columns: 1-80
+﻿# Artwork: demesne by El Guapo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1195-eo-dem1-part04
 
 Write-Host '
 [1;31;41m▒░░[0;31m███████▓[0;37m [0;31m▄▀[0;37m  [0;1;30m▄▓[0;1;30;47m▓█[0m [33m████████████████████████████▄[0;37m  [0;33m▀[0;37m [0;33m████████████████████████ [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: EVILPAL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aaa-8991/raw/EVILPAL2.ANS
-# Source Revision: archive-sha256:4d061270920d521151424fd00f38227b42b87cd232386c5aa0d1e2f575f3ffe0
-# Source SHA-256: f6ce506474a65ee69da4ecdabcf812712c0a23c5ecea7578ee51c0c06d5f10ae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EVILPAL2.ANS by Chips Ahoy (aaa-8991); released in aaa-8991 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: EVILPAL2.ANS by Chips Ahoy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aaa-8991-evilpal2
 
 Write-Host '
                                            [1;41m>☻<[0m             [1;41m>☻<[0m

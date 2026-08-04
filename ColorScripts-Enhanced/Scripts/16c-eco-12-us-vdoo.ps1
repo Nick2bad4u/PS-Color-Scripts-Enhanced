@@ -1,18 +1,4 @@
-﻿# Converted from: Us-vdoo.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-12/raw/Us-vdoo.ans
-# Source Revision: archive-sha256:cf7450d53015f3027aacb5cf2043eb6d61ce25626e1f2b6e3930ea8e96c53230
-# Source SHA-256: d265d0eaeadef2c53dfe94b4f18cb591ed11e0d11930933b24fe8476c6653cfb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Us-vdoo.ans by Lemon44 + Snw (ecolove); released in eco-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: voodoo lounge
-# SAUCE Author: snw (vs) l44
-# SAUCE Group: ecolove
-# SAUCE Date: 19981115
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: voodoo lounge by Lemon44 + Snw | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-12-us-vdoo
 
 Write-Host '
                                                 [36m ▄░[0;30;46m▓[0m

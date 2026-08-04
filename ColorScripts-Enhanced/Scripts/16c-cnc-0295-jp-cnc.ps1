@@ -1,18 +1,4 @@
-﻿# Converted from: JP-CNC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cnc-0295/raw/JP-CNC.ANS
-# Source Revision: archive-sha256:32f9b5691b8cdcdb7e103113cb82451d9ef857f669dc5c54721c6e10560d94bc
-# Source SHA-256: adf14f6fa8cb5cd4230f0ffe8c939c313c67139a070eab07bbcdca53de0c694e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JP-CNC.ANS by Pope John Paul (CaNCeR Productions); released in cnc-0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: CaNCeR Logo
-# SAUCE Author: Pope John Paul
-# SAUCE Group: CaNCeR Productions
-# SAUCE Date: 19950115
-# SAUCE Dimensions: 80x25
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: CaNCeR Logo by Pope John Paul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cnc-0295-jp-cnc
 
 Write-Host '
 

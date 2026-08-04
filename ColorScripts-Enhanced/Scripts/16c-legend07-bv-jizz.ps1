@@ -1,18 +1,4 @@
-﻿# Converted from: BV-JIZZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/legend07/raw/BV-JIZZ.ANS
-# Source Revision: archive-sha256:3712cd566b8bed7b1760317a3fccc3f73308ec1824fc5f6c1df906c5288bfa19
-# Source SHA-256: 2f49cfd7814e5bcb9ff376d1db92d3d57e7a9c1a360c65415776d43c9e365e0a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BV-JIZZ.ANS by Black Viper (Legend); released in legend07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Jizz
-# SAUCE Author: Black Viper
-# SAUCE Group: Legend
-# SAUCE Date: 19960818
-# SAUCE Dimensions: 80x25
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Jizz by Black Viper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-legend07-bv-jizz
 
 Write-Host '
 [34m  [0;30;44m [0;1;34;44m  [0;34m░[0;37m [0;34m─▀[0;37m [0;34m░▀▀[0;1;34;44m░▒▓▓[0;34m▄[0;37m [0;36m ▀▓░[0;37m [0;36m▀▄▀[0;30;46m░[0;36;40m██[0;34;46m░[0;36;44m▓[0;36;40m█▐ ▐[0;34;46m░[0;30;46m░[0;36;40m▓░ ░▀[0;37;40m [0;36;40m ░░[0;37;40m [0;30;40mthis is [0;37;40m  [0;33;40m▄[0;37;40m      [0;36;40m░[0;37;40m [0;34;40m░▓█[0;1;34;44m  ░░▒▒▓▓██[0m

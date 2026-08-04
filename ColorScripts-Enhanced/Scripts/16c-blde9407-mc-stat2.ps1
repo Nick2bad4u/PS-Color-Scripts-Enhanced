@@ -1,13 +1,4 @@
-﻿# Converted from: MC-STAT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9407/raw/MC-STAT2.ANS
-# Source Revision: archive-sha256:9ff5137061d269ef5e9a6d18c624720e9c725aa5eeb2ff0b9d11388279913341
-# Source SHA-256: 36bfb8168ddae566686eb5f28f0453cfba4a4d634d5e550c7e3fd6f6ce27e1f4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MC-STAT2.ANS by Mindcrime (blde9407); released in blde9407 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: MC-STAT2.ANS by Mindcrime | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9407-mc-stat2
 
 Write-Host '
 ▄▀█ ▀▄[1;30;47m░[0m▀▄[1;30;47m░[0m [1;37;40m▄▄[0;1;37;47m▒▒[0;1;37;40m██[0;1;37;47m▄▄▄   ▄▄[0;1;37;40m█[0;1;37;47m▓[0;1;37;40m██[0;1;37;47m▓▓[0;1;37;40m▄[0m [1;37;40m▀██[0;1;37;47m▓[0m [36m░[0m

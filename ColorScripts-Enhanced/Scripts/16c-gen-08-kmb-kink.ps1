@@ -1,13 +1,4 @@
-﻿# Converted from: kmb-kink.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gen-08/raw/kmb-kink.ans
-# Source Revision: archive-sha256:de1fb48c6dbe733c03717f643e0436c78be60ace5ba3be7fc4fd3b476c0d4de2
-# Source SHA-256: 0f3a21ce21e93254b4263d4d966fac1073e955f28edcf7d5e1238817efa2bf09
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: kmb-kink.ans by Kumb4 (gen-08); released in gen-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: kmb-kink.ans by Kumb4 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gen-08-kmb-kink
 
 Write-Host '
            [35m▄▄[0;1;35;45m▄▄[0;35m▌[0m   [34m██[0m            [34m▐█▀  ▀▀[0;37m [0;34m▀▀█[0m    [35m▄▄▀[0m        [34m▄▄[0;1;34;44m▄[0;34m█[0;1;34;44m▀[0;34m▀[0;1;34;44m▐▌[0;34m▌[0m      [34m   [0m

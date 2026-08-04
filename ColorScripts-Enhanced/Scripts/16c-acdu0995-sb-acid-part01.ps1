@@ -1,18 +1,4 @@
-﻿# Converted from: SB-ACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0995/raw/SB-ACID.ANS
-# Source Revision: archive-sha256:33564e3b7dba06eac1f1e36dcc176b1f8d29f8167c2e77227197ff7bea5344f2
-# Source SHA-256: 42cf4849c206b9729fee45ad6267745159ef5c08241b7f024ec5589d3c4ed5f1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SB-ACID.ANS by Spellbinder (ACiD Productions); released in acdu0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ACiD Advo
-# SAUCE Author: Spellbinder
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950901
-# SAUCE Dimensions: 80x99
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: ACiD Advo by Spellbinder | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0995-sb-acid-part01
 
 Write-Host '
 [36m  ▄▄▄▄[0;35;46m                                                                    [0;36;40m▄▄▄▄  [0m

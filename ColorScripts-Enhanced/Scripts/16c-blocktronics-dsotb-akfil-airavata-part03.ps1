@@ -1,20 +1,4 @@
-﻿# Converted from: AKFiL-airavata.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-dsotb/raw/AKFiL-airavata.ans
-# Source Revision: archive-sha256:31e1fdfda207a2147f2b0badf1415308dc54d4c24afa56622db8a43f68f110f1
-# Source SHA-256: cedbd013380e6689a1745e30a560f692e9291cafee199fca076ebcd12c3a3c8a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AKFiL-airavata.ans by Filth + Alpha King (blocktronics); released in blocktronics-dsotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: airavata
-# SAUCE Author: filthy king
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190729
-# SAUCE Dimensions: 80x350
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Let me tell you the manly deeds of Indra, which he first accompl | ished, bolt-weaponed. He slew the serpent, opened up waters, cle | ft in twain the belly of mountains. He slew the serpent on the m | ountain, with heavenly bolt made by Tvastar. Like lowing cattle | downward sped the waters, then flowed to the ocean. -Rigveda, 1. | 32.1-2
-# Lines: 101-150
-# Columns: 1-80
+﻿# Artwork: airavata by Filth + Alpha King | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-dsotb-akfil-airavata-part03
 
 Write-Host '
                            [1;33m▐[0;1;37m█[0;1;33m▀[0;33m▌ [0;1;31m█[0;1;31;43m░░ [0;33m████████▀▄[0;1;31m███▄[0m [1;31m███[0;1;31;43m░░[0;33m█████[0;37m  [0;33m▄ [0;1;33m▀▀███▄▄▐[0;1;37m█[0;1;33m▌▐██ █[0m

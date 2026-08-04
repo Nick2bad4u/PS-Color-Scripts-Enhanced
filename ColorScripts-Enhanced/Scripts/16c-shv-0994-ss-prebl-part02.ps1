@@ -1,18 +1,4 @@
-﻿# Converted from: SS-PREBL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shv-0994/raw/SS-PREBL.ANS
-# Source Revision: archive-sha256:6fef501305afa1ee8c62f4d65ae68ce468913963008b7665f76edae1cb42cd85
-# Source SHA-256: b1c2adf78b1bd76b227a2fcca1b77ab3cdf2be47c4b43c16a0c93631f2ff1674
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SS-PREBL.ANS by Son of Sam (Shiver); released in shv-0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Packaged Rebellion
-# SAUCE Author: Son of Sam
-# SAUCE Group: Shiver
-# SAUCE Date: 19940830
-# SAUCE Dimensions: 80x25
-# Lines: 38-82
-# Columns: 1-80
+﻿# Artwork: Packaged Rebellion by Son of Sam | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shv-0994-ss-prebl-part02
 
 Write-Host '
 [1;30;40m░[0m         [1;30;40m░[0m       [1;30;40m░[0m                 [1;30;47m▓▓██[0m         [1;30;40m░[0m       [1;30;40m░[0m           [1;30;40m░[0m

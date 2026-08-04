@@ -1,18 +1,4 @@
-﻿# Converted from: EL-NEXT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/div-0495/raw/EL-NEXT.ANS
-# Source Revision: archive-sha256:36be8065bfe90ad824a198d77443ef6585ffb6a898051b94c4c49a6ff96eff74
-# Source SHA-256: e3d6b78f537e3713fb5233266324393f596e4e32b6a85787e3c2d2629960af95
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EL-NEXT.ANS by Elysius (DIVINE); released in div-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Next BBS
-# SAUCE Author: Elysius
-# SAUCE Group: DIVINE
-# SAUCE Date: 19950316
-# SAUCE Dimensions: 80x100
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: The Next BBS by Elysius | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-div-0495-el-next-part01
 
 Write-Host '
 [30m█[0;1;37m▄█[0;30m█[0;1;37m▀▄█▌█▌█▌▀▄██▌██████████████████████▀████████████████▌██▌█▄▀▌█▌██▌█▄▀▌███▌██[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: P1-ST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1094/raw/P1-ST.ANS
-# Source Revision: archive-sha256:06037b6172e9822784909b4e7dbd7d3a5e13ef98ca83a73f9d2e3796e3b6962d
-# Source SHA-256: f1b8f197a00961a874ca603736ddd45719724aa36b13b547a28ffadfb82353b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P1-ST.ANS by Prisoner#1 (Fire); released in fire1094 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Sarcastic Toaster
-# SAUCE Author: Prisoner#1
-# SAUCE Group: Fire
-# SAUCE Date: 19941010
-# SAUCE Dimensions: 80x114
-# Lines: 76-113
-# Columns: 1-80
+﻿# Artwork: Sarcastic Toaster by Prisoner#1 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1094-p1-st-part03
 
 Write-Host '
                                   [1m██    [0;30;41m░[0;31;41m██[0m             [1;30;40m▒▒▒▒▒██ [0;1;31;40m███████████████[0m

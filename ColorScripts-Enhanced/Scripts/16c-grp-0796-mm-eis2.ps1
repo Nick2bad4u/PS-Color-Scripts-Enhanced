@@ -1,18 +1,4 @@
-﻿# Converted from: MM-EIS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/grp-0796/raw/MM-EIS2.ANS
-# Source Revision: archive-sha256:be098753331373d307d2771aacbecdb35b1784f2f60e9ac3c053f2df7b867fcd
-# Source SHA-256: cf7de925e51f082a8c29cb48bcc9f0e70f4c097142308794a7530fbf02e8eb68
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-EIS2.ANS by mr.manson (GRAPE); released in grp-0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: mos eisley
-# SAUCE Author: mr.manson
-# SAUCE Group: GRAPE
-# SAUCE Date: 19960615
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: mos eisley by mr.manson | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-grp-0796-mm-eis2
 
 Write-Host '
                 [33m`+[0m                   [1;33m|[0m                     [33m+`[0m

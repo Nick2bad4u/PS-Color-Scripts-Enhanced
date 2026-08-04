@@ -1,18 +1,4 @@
-﻿# Converted from: RS-FACE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0395/raw/RS-FACE.ANS
-# Source Revision: archive-sha256:7b30118405d4d21f05022ba0c6f9cc20d209f8b3e8684cf8db7bf6713b2b2425
-# Source SHA-256: 06d0247dfb3bfaaabc8b0ff64c269f5449ccea015078b4dd8ee088966564bce7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-FACE.ANS by raiser; released in sac0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
-# SAUCE Title: AGAINST
-# SAUCE Author: RAiSER
-# SAUCE Group: SAC
-# SAUCE Date: 19950104
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: AGAINST by raiser | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0395-rs-face
 
 Write-Host '
 [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

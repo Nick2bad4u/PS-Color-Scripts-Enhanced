@@ -1,18 +1,4 @@
-﻿# Converted from: TX!QUEND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0397/raw/TX!QUEND.ANS
-# Source Revision: archive-sha256:dbc842066d628a57d7819da260b477c6ec1e4d0ba1a7d08ba504501e875a1ea3
-# Source SHA-256: 1707e39a024089f55c272cfce75e67a1884e1ace07f5b15b7e53e7b930bf1eab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TX!QUEND.ANS by tektronix (bamboosh); released in bmb-0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: quendi
-# SAUCE Author: tektronix
-# SAUCE Group: bamboosh
-# SAUCE Date: 19970526
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: quendi by tektronix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0397-tx-quend
 
 Write-Host '
       [1;31m ▐[0m                 [1;31m■[0m                                      [1;31m▄[0m

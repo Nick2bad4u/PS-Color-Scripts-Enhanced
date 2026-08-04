@@ -1,16 +1,4 @@
-﻿# Converted from: N!Z-SUP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0297/raw/N!Z-SUP.ANS
-# Source Revision: archive-sha256:2e15cb2f2712a143323c9f3c6ecca94c5b5b12a452a019e911d205dd685c6eee
-# Source SHA-256: f379b6db86bb597d78e8625dfb8bb8be395f42f51d5ed053d8326be89de0aa9f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N!Z-SUP.ANS by noize (phat studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: support-header
-# SAUCE Author: noize
-# SAUCE Group: phat studios '97
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: support-header by noize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0297-n-z-sup
 
 Write-Host '
 [1;33;41m▄▄▄▄▄▄▄▄▄▄▄▄▄▄░░[0;31m▄▄▄▄▄▄▄[0;30;41m░[0;31;40m▓[0m   [31;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m    [30;41m░[0;31;40m▓[0m      [31;40m▄▄▄▄▄▄▄▄▄[0;37;40m [0;34;40m░[0m

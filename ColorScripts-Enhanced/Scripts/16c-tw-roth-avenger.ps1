@@ -1,13 +1,4 @@
-﻿# Converted from: AVENGER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tw-roth/raw/AVENGER.ANS
-# Source Revision: archive-sha256:190885942cec88a16c8a5d2e7952970dfc3a8a8e6b1ddb12dad31a590f611129
-# Source SHA-256: e2205f226d8fa0dc3e60407db4fe9012d938e12bb907fb6002b08e531348949f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVENGER.ANS by Nitron (tw-roth); released in tw-roth and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: AVENGER.ANS by Nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tw-roth-avenger
 
 Write-Host '
 [34m▒[0;1;34m·[0m        [1;30m▄▄▄▒▒▒▒▀▀▓▓▀▀▀░▄▄▄[0;35m▄[0;1;30m▒[0;35m▄▄[0;1;30m▒[0;31m▀▀▀[0;1;30;41m▀▀[0;33m▄▄[0;31m▄▄[0;1;30;41m▀▀[0;1;31;41m▒[0;1;31;40m▀▀[0;1;30;40m▒[0;35m▄▄[0;1;30m▒[0;35m▄▄[0;1;30m▄▄▒▀▀▀▓▓▀▀▒▒▒▒▄▄▄[0;34m░░░░░░░░░[0m

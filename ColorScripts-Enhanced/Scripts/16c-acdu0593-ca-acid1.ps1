@@ -1,13 +1,4 @@
-﻿# Converted from: CA-ACID1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0593/raw/CA-ACID1.ANS
-# Source Revision: archive-sha256:8c7baa39d9445bc7162b1fbc692de8758b1894e3b1e098baf24f16863b0aaa14
-# Source SHA-256: 60332013d796c505fda0061d5d2d7dd169ec81a7e0f147bf1736054cddb236d5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CA-ACID1.ANS by Cardiac Arrest (acdu0593); released in acdu0593 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: CA-ACID1.ANS by Cardiac Arrest | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0593-ca-acid1
 
 Write-Host '
                                                            [34m░[0m

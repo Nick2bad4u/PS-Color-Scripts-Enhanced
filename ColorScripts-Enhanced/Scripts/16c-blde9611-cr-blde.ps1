@@ -1,18 +1,4 @@
-﻿# Converted from: CR!BLDE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9611/raw/CR!BLDE.ANS
-# Source Revision: archive-sha256:94fa179c47731df1235911c4e255eb5f9211d7813c5796bd4c86de2d47e585b9
-# Source SHA-256: daa8b981e1c0fbab416ec3506abbcbca03047d7a14a643fd94b6d060dee5af7d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CR!BLDE.ANS by creator (blade productions); released in blde9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: blade logo
-# SAUCE Author: creator
-# SAUCE Group: blade productions
-# SAUCE Date: 19961016
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: blade logo by creator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9611-cr-blde
 
 Write-Host '
 

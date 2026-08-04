@@ -1,13 +1,4 @@
-﻿# Converted from: SL-TTER1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0395/raw/SL-TTER1.ANS
-# Source Revision: archive-sha256:fa162651f9482427c00511e180638b307ba23babafbe50fc91872af91a55356c
-# Source SHA-256: c8edbe25172f99fbf7b61510ddf3f09ab36f4f6749e17584909bb4f46cfdc0a5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SL-TTER1.ANS by Surreal Logic (uni-0395); released in uni-0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 51-98
-# Columns: 1-80
+﻿# Artwork: SL-TTER1.ANS by Surreal Logic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0395-sl-tter1-part02
 
 Write-Host '
    [1;30m█[0m  [1;30m░[0;33m [0;31m▄▄[0;33;41m░░[0;31;40m▀[0;33;40m  ▀[0;1;31;43m░  ░  [0;33m▀[0m [31m▒▓█  ░░ ■▄▄▄[0m [1;31m▀▀▀[0;31m▄■[0;1;31m▄[0;1;31;43m▓▒░[0;1;31;40m ██[0;1;31;47m█[0;1;31;40m████▀[0m   [1;31;40m █████▀ [0;33m▀[0;1;31m▄▄▌[0;1;30m [0;31m▄[0;33;41m▒[0;33;40m [0m [1;30;40m█[0m

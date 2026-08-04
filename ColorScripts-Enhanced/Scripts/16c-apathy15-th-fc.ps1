@@ -1,18 +1,4 @@
-﻿# Converted from: TH-FC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy15/raw/TH-FC.ANS
-# Source Revision: archive-sha256:5e243b226da6b745b1398dfdadb3776bdb866b2235d51f36e0cf209d2d8d9295
-# Source SHA-256: bcc112266a31ba606430cf49d1acbcedf1ba508dcaf3d0ae0ddb46178c6cc66d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH-FC.ANS by Thrasher (apathy); released in apathy15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Free Coke
-# SAUCE Author: Thrasher
-# SAUCE Group: apathy
-# SAUCE Date: 19961004
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Free Coke by Thrasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy15-th-fc
 
 Write-Host '
 [1;31;41m▒▓[0;31m▄[0;1;31;41m██▒░[0;31m▄▄▄▄[0;37m [0;1;31m░▄[0;1;31;47m▓[0;1;31;40m█▀░[0;31m▄██▀[0;1;31m [0;33m▄[0;1;31;43m░[0m [31m██▀░▀ [0;1;31m▀[0;1;31;41m░[0;31m▀█▄[0;1;31m▒[0;31m▀▀░[0;1;31;41m▀[0;1;31;47m▓▓█[0;1;31;41m█▓▒░[0;31m▄ █[0;1;31;41m█▓▄░[0;31m▄ [0;1;31m [0;31m▄▌▀▀[0;1;31;41m▒[0;1;31;47m▓▓[0;1;31;41m██▓░[0;31m▄[0;37m [0;1;34m▀███[0;1;34;46m▓[0;1;34;40m▄ [0m

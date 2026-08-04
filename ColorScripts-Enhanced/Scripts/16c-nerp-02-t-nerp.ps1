@@ -1,18 +1,4 @@
-﻿# Converted from: T-NERP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-02/raw/T-NERP.ANS
-# Source Revision: archive-sha256:3fd9f194d865cfc24c90bdf11a27528d8d82a8ba9c376ebed567183a2f95a9f3
-# Source SHA-256: 8486c0feaaf4af45986bccbe8a7a4d249d96648513c661f2c5eff326c376267d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T-NERP.ANS by toot (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: nerp
-# SAUCE Author: toot
-# SAUCE Group: nerp
-# SAUCE Date: 19971102
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: nerp by toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-02-t-nerp
 
 Write-Host '
                                               [34m░░[0m    [37m░░░░[0m

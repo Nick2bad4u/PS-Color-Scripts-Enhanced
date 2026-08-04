@@ -1,17 +1,4 @@
-﻿# Converted from: BIZ-TEST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-04/raw/BIZ-TEST.ANS
-# Source Revision: archive-sha256:d99c3d6576b4ffe30ad10598ac465177e9b6d171d7a6c4fd056707ad27adce95
-# Source SHA-256: d92c884d14dab93e187a033f5037e3820f55c503f7e009fb5f33ec0a051d1709
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BIZ-TEST.ANS by bizzarro (nerp); released in nerp-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: bizzarro
-# SAUCE Group: nerp
-# SAUCE Date: 19980228
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: BIZ-TEST.ANS by bizzarro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-04-biz-test
 
 Write-Host '
                                             [1;30m▄[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[1;30m▄▄[0m

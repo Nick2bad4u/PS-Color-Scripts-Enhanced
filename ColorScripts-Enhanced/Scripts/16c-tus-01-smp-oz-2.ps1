@@ -1,15 +1,4 @@
-﻿# Converted from: SMP-OZ#2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tus-01/raw/SMP-OZ%232.ANS
-# Source Revision: archive-sha256:980574136e564d65bad34bed66955fa948f629a55ad38cd4b9370834a305c832
-# Source SHA-256: 02bd911d278f9d11aebb0e3cd47155d8617b565f77ca5a29b5cfb192db2f855f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-OZ#2.ANS by Shrimp (tus-01); released in tus-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 20010723
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: SMP-OZ#2.ANS by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tus-01-smp-oz-2
 
 Write-Host '
 [1;30m☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺\*┘`[0m [1;33m ?☻☻☻☻☻[0m          [1;33m [0m [1;33m.    _.,▬┌∟g#S☻☻☻☻☻☻☻☻☻☻│j\*┘"~[0m     [1;33m~"ⁿ└/[0m

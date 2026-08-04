@@ -1,18 +1,4 @@
-﻿# Converted from: BL-GOLD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/b2b-0795/raw/BL-GOLD1.ANS
-# Source Revision: archive-sha256:8e10b7c1c977a26397c38c863229df8f735caadc9af3741f089d2a5031818bc8
-# Source SHA-256: 93ee480cfc05919727829601a9f7cbc426e623fccf4596c6d17358cbe7558413
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BL-GOLD1.ANS by Blind Enemy (Back to Basix); released in b2b-0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: GOLDEN iMAGE - LOGiN #1
-# SAUCE Author: Blind Enemy
-# SAUCE Group: Back to Basix
-# SAUCE Date: 19950626
-# SAUCE Dimensions: 80x106
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: GOLDEN iMAGE - LOGiN #1 by Blind Enemy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-b2b-0795-bl-gold1-part01
 
 Write-Host '
 

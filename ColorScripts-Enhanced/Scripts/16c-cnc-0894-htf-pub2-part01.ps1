@@ -1,13 +1,4 @@
-﻿# Converted from: HTF-PUB2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cnc-0894/raw/HTF-PUB2.ANS
-# Source Revision: archive-sha256:1b41953359b4903075cddee4a19558a01788588c83e4b31f35133aa0fc5529ef
-# Source SHA-256: e98505c970b3fdb9bf03eeb6840bc71a3de582114b91351110567a0dfd98f95c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HTF-PUB2.ANS by Hanzo The Fiend (cnc-0894); released in cnc-0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: HTF-PUB2.ANS by Hanzo The Fiend | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cnc-0894-htf-pub2-part01
 
 Write-Host '
      [1m▄▄█████[0;1;47m▓▓▓▓▓▒▒▒░[0;1;31;43m░▒▓█▒[0m■■[1;30m■[0m@

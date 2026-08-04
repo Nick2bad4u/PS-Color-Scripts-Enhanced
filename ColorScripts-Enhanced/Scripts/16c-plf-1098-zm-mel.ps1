@@ -1,17 +1,4 @@
-﻿# Converted from: ZM-MEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1098/raw/ZM-MEL.ANS
-# Source Revision: archive-sha256:c4e49f581efdb23757cb4cd22ca84401fcd6ac0febdad687007b0b36de54547a
-# Source SHA-256: 0bfdaf7ed6e1cb49073065b44ee3b252b884a50e321970f8210e63f0ac1da6eb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZM-MEL.ANS by Zatchmo (Poffelipoff); released in plf-1098 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Mellow
-# SAUCE Author: Zatchmo
-# SAUCE Group: Poffelipoff
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Mellow by Zatchmo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1098-zm-mel
 
 Write-Host '
 

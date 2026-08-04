@@ -1,19 +1,4 @@
-﻿# Converted from: US-HIPPY.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/blndr2023a/raw/US-HIPPY.ANS
-# Source Revision: archive-sha256:7bc66b402c6ecbb0a3d7da712390840d202c88fb2fe0c40fdd417fcec6520299
-# Source SHA-256: e2240e87ce060451d1277756757d24e3119f332199609ff77ae7e2957e1fcff2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-HIPPY.ANS by Avg + Tainted (fire); released in blndr2023a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the munchies
-# SAUCE Author: tainted / avg
-# SAUCE Group: fire
-# SAUCE Date: 20230122
-# SAUCE Dimensions: 80x120
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: the munchies by Avg + Tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2023a-us-hippy-part01
 
 Write-Host '
 

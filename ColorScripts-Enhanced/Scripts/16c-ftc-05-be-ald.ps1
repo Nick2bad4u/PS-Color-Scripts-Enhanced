@@ -1,18 +1,4 @@
-﻿# Converted from: BE-ALD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ftc-05/raw/BE-ALD.ANS
-# Source Revision: archive-sha256:5c0404cf283912e8831200a8f9dcc6d8ce0402b99e4f686fa062c4223f57d38b
-# Source SHA-256: bc2458b969231b9da640c0e6314add18e1995b36ff01c05f6ba1d7ecfd44377c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BE-ALD.ANS by brain eater (ftc); released in ftc-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: alderAAn
-# SAUCE Author: brain eater
-# SAUCE Group: ftc
-# SAUCE Date: 19960901
-# SAUCE Dimensions: 80x21
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: alderAAn by brain eater | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ftc-05-be-ald
 
 Write-Host '
                                         [1;30m         [0m

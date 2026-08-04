@@ -1,19 +1,4 @@
-﻿# Converted from: avg-145.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna03/raw/avg-145.ans
-# Source Revision: archive-sha256:997aaab655669129eb266c21ca0c4588b603e11c90338498bb530f8bba390fb2
-# Source SHA-256: 2a066e64d2ec8d49fed6c3aa9cccb054f5432e84e5ed1073604a7fd354424b63
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-145.ans by avg (sauna); released in thesauna03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: lazarus
-# SAUCE Author: avg
-# SAUCE Group: sauna
-# SAUCE Date: 20220324
-# SAUCE Dimensions: 80x29
-# SAUCE Font: IBM VGA
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: lazarus by avg | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna03-avg-145
 
 Write-Host '
 

@@ -1,20 +1,4 @@
-﻿# Converted from: GJ-VGAFONTED.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0223/raw/GJ-VGAFONTED.ANS
-# Source Revision: archive-sha256:f6abf3bbd53eb017898fa84b28d2ac43fcb70297788ba675e470ca73794cbbfd
-# Source SHA-256: dde57b2c81c6315b39f6379d5c047fdeba088b979e68f1c68ca157473affd9f0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GJ-VGAFONTED.ANS by grymmjack (MiSTiGRiS); released in mist0223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: VGA Font Editor for a740g
-# SAUCE Author: grymmjack
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 20221125
-# SAUCE Dimensions: 80x30
-# SAUCE Font: IBM VGA
-# SAUCE Comments: This is a logo splash screen for a740g's excellent VGA Font Edit | or. If you have tried Fontraption for DOS - this is a similar pr | ogram but supports PSF fonts and works on Windows, Mac, and Linu | x. More information here: https://github.com/a740g/VGA-Font-Edit | or
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: VGA Font Editor for a740g by grymmjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0223-gj-vgafonted
 
 Write-Host '
              ░[30;47m▓[0;37;40m                                             ░[0;30;47m▓[0m

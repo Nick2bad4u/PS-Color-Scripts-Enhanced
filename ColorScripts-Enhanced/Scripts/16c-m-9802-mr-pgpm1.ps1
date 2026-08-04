@@ -1,18 +1,4 @@
-﻿# Converted from: MR-PGPM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m-9802/raw/MR-PGPM1.ANS
-# Source Revision: archive-sha256:b77081548bd69d77dfa44ebb7c4a66ac6a6977867bc0f2350868e9616f23eb59
-# Source SHA-256: 6af1065e522f90c496e17b705a0c826a7d570764ba4f23eaf114f43df427d259
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-PGPM1.ANS by Mr.Wrong (Mistigris.); released in m-9802 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Pretty good piracy menu.
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: Mistigris.
-# SAUCE Date: 19980216
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Pretty good piracy menu. by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m-9802-mr-pgpm1
 
 Write-Host '
                          [36m  ▄[0;1;36;46m▄[0;36m▄▄[0m

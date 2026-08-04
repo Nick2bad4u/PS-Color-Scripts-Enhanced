@@ -1,17 +1,4 @@
-﻿# Converted from: MW-KTR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel15/raw/MW-KTR.ANS
-# Source Revision: archive-sha256:3b994e59b6a78be97a60517481673ca8661cd10fa275e8c56fe8095a44e5feee
-# Source SHA-256: 324feec414c4ff71478f8d43a4dd3c981d030f016ea1d6906e3eee293d37a4f1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MW-KTR.ANS by mango whaco (fuel productions); released in fuel15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: keetar
-# SAUCE Author: mango whaco
-# SAUCE Group: fuel productions
-# SAUCE Dimensions: 80x25
-# Lines: 41-85
-# Columns: 1-80
+﻿# Artwork: keetar by mango whaco | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel15-mw-ktr-part02
 
 Write-Host '
 [36m▀[0m                      [33m▄▓▀[0m                [1;37m░[0m              [33m▐█▌[0m

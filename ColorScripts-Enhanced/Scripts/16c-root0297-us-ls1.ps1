@@ -1,15 +1,4 @@
-﻿# Converted from: US-LS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0297/raw/US-LS1.ANS
-# Source Revision: archive-sha256:ecfcd3f5cd2c4412c60edbfa5c15fbea724948a8a18d0e8a8931276c9082657e
-# Source SHA-256: bcc667ae4345f064c629e8b93c58657cacf050ca64a11a9ac33984a63cfbdb41
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-LS1.ANS by Fusion + Dislogic (root0297); released in root0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Light Show
-# SAUCE Author: Fusion & Dislogic
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Light Show by Fusion + Dislogic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0297-us-ls1
 
 Write-Host '
 [1;33;43m▓▓▓[0;1;33;47m█[0;1;33;40m▀▀▄[0;1;33;47m██[0;1;33;43m▓[0;1;33;47m█[0;1;33;43m░▓▓▒░[0m [1;33;43m░▒▓[0m ▄[1;31;47m░▒[0m [33m▐[0;1;33;43m▒[0;1;33;47m▓▒[0;1;33;40m▌ [0;1;31;40m▄[0;1;31;47m██[0;1;31;40m▄ [0;1;33;43m░▒▓[0m [1;31;40m▀[0;1;31;47m██[0;1;31;40m█▄  [0;33m▀▀[0;1;33;43m▓░▓▓[0;1;33;47m██████[0;1;33;40m████████ [0;1;37;44m█[0;1;34;40m██▀▀▀▀ [0;1;33;40m▀▀▀[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MM-TEC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0195/raw/MM-TEC1.ANS
-# Source Revision: archive-sha256:874f19df1d2975eb4a251b4e9722be66f88a94e2778db4593e3b6fbe57329d35
-# Source SHA-256: 4183d95ec0100da3486f8982e172e6524daf827f4b64beba3daff12305aa56a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-TEC1.ANS by Magnetic M (Union); released in uni-0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The End Complete
-# SAUCE Author: Magnetic M
-# SAUCE Group: Union
-# SAUCE Date: 19950101
-# SAUCE Dimensions: 80x25
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: The End Complete by Magnetic M | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0195-mm-tec1-part01
 
 Write-Host '
                                     [1m▀[0m

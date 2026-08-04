@@ -1,13 +1,4 @@
-﻿# Converted from: TG-CRYPT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ensigm/raw/TG-CRYPT.ANS
-# Source Revision: archive-sha256:f7b44b82f2962822e05034244f3334883934a68be8b9cbf2b544191d93a03842
-# Source SHA-256: efe60ee958f90609ae80498c42e498078d0ffbefc1e566f27f130ba7519fe262
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-CRYPT.ANS by The Guardian (ensigm); released in ensigm and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 42-82
-# Columns: 1-80
+﻿# Artwork: TG-CRYPT.ANS by The Guardian | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ensigm-tg-crypt-part02
 
 Write-Host '
 [1;30m[0;32m[0;1;32m[0;1;37m[0;1;32m[0;32m[0;1;30m[0m[1;30m[0;32m[0;1;32m[0;1;37m[0;1;32m[0;32m[0;1;30m[0m[1;30m[0;32m[0;1;32m[0;1;37m[0;1;32m[0;32m[0;1;30m[0m[1;30m[0;32m[0;1;32m[0;1;37m[0;1;32m[0;32m[0;1;30m[0m[1;30m[0;32m[0;1;32m[0;1;37m[0;1;32m[0;32m[0;1;30m[0m[1;30m[0;32m[0;1;32m[0;1;37m[0;1;32m[0;32m[0;1;30m[0m[1;30m[0;32m[0;1;32m[0;1;37m[0;1;32m[0;32m[0;1;30m[0m[1;30m[0;32m[0;1;32m[0;1;37m[0;1;32m[0;32m[0;1;30m[0m[1;30m[0;32m[0;1;32m[0;1;37m[0;1;32m[0;32m[0;1;30m[0m[1;30m[0;32m[0;1;32m[0;1;37m[0;1;32m[0;32m[0;1;30m[0m[1;30m[0;32m[0;1;32m[0;1;37m[0;1;32m[0;32m[0;1;30m[0m[1;30m[0;32m[0;1;32m[0;1;37m[0;1;32m[0;32m[0;1;30m[0m[1;31;41m▓[0m  [1;30;40m             [0;32m        [0;1;32m        [0;1;37m                 [0;1;32m       [0;32m        [0;1;30m            [0m   [1;31;41m░[0m

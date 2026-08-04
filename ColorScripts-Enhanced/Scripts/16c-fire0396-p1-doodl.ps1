@@ -1,18 +1,4 @@
-﻿# Converted from: P1-DOODL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0396/raw/P1-DOODL.ANS
-# Source Revision: archive-sha256:1c74698b6bb36c67ca170e4e3759a91f94a3423157bd644c80d820a8fe56fd8d
-# Source SHA-256: e8204a899a39fa42d2b2d00f92c59fef055a509b0e74779725b8f77316e0a72d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P1-DOODL.ANS by Prisoner#1 (Fire); released in fire0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Doodle Emag
-# SAUCE Author: Prisoner#1
-# SAUCE Group: Fire
-# SAUCE Date: 19960228
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Doodle Emag by Prisoner#1 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0396-p1-doodl
 
 Write-Host '
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m

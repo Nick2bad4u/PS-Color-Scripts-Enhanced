@@ -1,18 +1,4 @@
-﻿# Converted from: US-DEVIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe08/raw/US-DEVIL.ANS
-# Source Revision: archive-sha256:cfc36d5daeed2f6543814097ace687f378a50215c24a95a0de66b512e3a41b9d
-# Source SHA-256: c2f216592852220d6d6406b24db8638a0f511c50a63ccb39896962834502f2b0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DEVIL.ANS by Arlequin + Diamond Darrell (circe); released in circe08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: devil
-# SAUCE Author: darrell+arlek
-# SAUCE Group: circe
-# SAUCE Date: 20000321
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: devil by Arlequin + Diamond Darrell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe08-us-devil
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: RV-EMPIR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0697/raw/RV-EMPIR.ANS
-# Source Revision: archive-sha256:0b721541cca8ac174bff16dfdb239e04c03d8d36e25a348efa54fb9152ea3678
-# Source SHA-256: 4b212896edb1e593d70f41b9e89bbb71d3d7deb707b4350d09e56a8331524f18
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RV-EMPIR.ANS by Rave (sac0697); released in sac0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: RV-EMPIR.ANS by Rave | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0697-rv-empir
 
 Write-Host '
  [1;34m┌─[0m [34m▄[0;1;34;44m▄[0;34m▄[0;1;34m───[0;34m▄[0;1;34;44m▄[0;34m▄[0;1;34m──[0;34m▄[0;1;34;44m▄[0;34m▄[0;37m─ [0;34m▄[0;1;34;44m▄[0;34m▄[0;37m───[0;34m▄[0;1;34;44m▄[0;34m▄▄[0;1;34;44m▄[0;34m▄[0;1;37m───[0;34m▄[0;1;34;44m▄[0;34m▄[0;1;37m──[0;34m▄[0;1;34;44m▄[0;34m▄[0;1;37m────[0;34m▄[0;1;34;44m▄[0;34m▄[0;37m ──[0;34m▄[0;1;34;44m▄[0;34m▄▄[0;1;34;44m▄[0;34m▄[0;37m─[0;34m▄[0;1;34;44m▄[0;34m▄[0;37m─[0;1;34m─[0;34m▄[0;1;34;44m▄[0;34m▄[0;1;34m────[0;34m▄[0;1;34;44m▄[0;34m▄[0;1;34m──[0;34m▄[0;1;34;44m▄[0;1;34;40m┐[0m

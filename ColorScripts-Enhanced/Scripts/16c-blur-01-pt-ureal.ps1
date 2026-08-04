@@ -1,18 +1,4 @@
-﻿# Converted from: PT-UREAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blur-01/raw/PT-UREAL.ANS
-# Source Revision: archive-sha256:2e24e002aa423e6089e230171fb4f78c11c68510667b6cff05ce5bffed646ce1
-# Source SHA-256: 508b46a1b6952720b335fb4ea6262be7050a05c3e3f687081a1a7322cef15c9c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PT-UREAL.ANS by Prestige (fear!blur!); released in blur-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Unreal
-# SAUCE Author: Prestige
-# SAUCE Group: fear!blur!
-# SAUCE Date: 19960207
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Unreal by Prestige | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blur-01-pt-ureal
 
 Write-Host '
 [31m  ▄[0m   [31m▀[0m

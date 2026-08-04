@@ -1,18 +1,4 @@
-﻿# Converted from: GK-IMPUR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0696/raw/GK-IMPUR.ANS
-# Source Revision: archive-sha256:812b4b6a142b76b92307dc090cdf58b49035a2b9097d1dc0a43da5e4fd3f4f2d
-# Source SHA-256: 7f8a933a1cbea3a0aef81d232fa7bddb493bfa88aa6e8790ec65fd66980654be
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GK-IMPUR.ANS by grind king (fire); released in fire0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: impure
-# SAUCE Author: grind king
-# SAUCE Group: fire
-# SAUCE Date: 19960520
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: impure by grind king | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0696-gk-impur
 
 Write-Host '
 

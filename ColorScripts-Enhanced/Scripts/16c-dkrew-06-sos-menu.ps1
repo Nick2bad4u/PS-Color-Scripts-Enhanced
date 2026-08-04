@@ -1,17 +1,4 @@
-﻿# Converted from: SOS-MENU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dkrew-06/raw/SOS-MENU.ANS
-# Source Revision: archive-sha256:02960d7b88668b8887fe5cdf52da355c2d3dd37bf140c876abc30817d0d21bdb
-# Source SHA-256: 8d899b8f11b0d27374dbd0fe9b37c388bb0c4e956bd6ae331d3d052cc2dd2160
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SOS-MENU.ANS by Son of Sam (dead krew); released in dkrew-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Rev menu
-# SAUCE Author: Son of Sam
-# SAUCE Group: dead krew
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Rev menu by Son of Sam | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dkrew-06-sos-menu
 
 Write-Host '
    [31m▄▄[0;1;31;41m▄▄▄[0;1;33;41m▀[0;31m█▀▀▀[0;37m [0;31m▀[0;30;41m▓[0;31;40m█[0;1;31;41m▀▓[0;31m█▄▄▄█[0;1;31;41m▒██▓[0;31m█▀▀▀[0;1;31;41m▒██▄[0;31m▄█[0;1;31;41m▄▒▓█[0;31m▄▄▄█[0;1;31;41m██[0;31m█[0m   [31m▄[0;1;31;41m░[0;31m▄[0;37m  [0;31mson of sam [dk.rel][0m

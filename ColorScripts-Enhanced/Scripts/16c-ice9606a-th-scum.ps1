@@ -1,18 +1,4 @@
-﻿# Converted from: TH-SCUM.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9606a/raw/TH-SCUM.ICE
-# Source Revision: archive-sha256:5e6dcb16553010578f6a54fc5ab7554ad5fc1d41913968e4935ca2f10c08a8a7
-# Source SHA-256: 0cc2174907a48a3e2f99a7d4988738053aa04f977609f9bf35de18dc90829836
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH-SCUM.ICE by thrasher (fuel.iCE); released in ice9606a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: statscreen for scum
-# SAUCE Author: thrasher
-# SAUCE Group: fuel.iCE
-# SAUCE Date: 19960629
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: statscreen for scum by thrasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9606a-th-scum
 
 Write-Host '
 [31m ■[0;37m [0;31m▀▀[0;1;31m▐[0;1;31;41m▓▒░[0;31m█▓▄▄[0;1;31;41m░[0;1;31;40m▒[0;31m▀▀ ▄█▌▀▀[0;1;31;41m░▒░[0;31m█▀▐▄[0;1;31;41m░[0;31m▄[0;1;31;41m░▓[0;1;31;40m█▀▀[0;31m▀▀[0;1;31m   [0m [33m▄▄[0;1;31m▄▄▄▓[0;33m▄[0;1;31m [0;34m    [0;31m▀[0;1;31m▀░[0;31m▒▄[0;1;31;41m▄▒░[0;31m▄▌ [0;1;31m░▒[0;31m ▀▓▄▄░[0;1;37m░[0m  [1m [0m

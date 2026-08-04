@@ -1,13 +1,4 @@
-﻿# Converted from: PM-NODE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot0598/raw/PM-NODE.ANS
-# Source Revision: archive-sha256:0c1b4d8014854195eee82655813426874e782c44b6e7d11df4cc84dbee4a5020
-# Source SHA-256: 99b51ca327fcef126d4ea2f517fb43e79da484ea7c8e919a85c9f97d3fae4b05
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-NODE.ANS by Precious Metal (riot0598); released in riot0598 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: PM-NODE.ANS by Precious Metal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot0598-pm-node
 
 Write-Host '
   [32m¡pm![0;34m [0;37m┬┬┐[0m       [37m°┼[0;1;37m┼┼─┼┼┼[0;1;37;47m┼┼[0;1;37;40m┼┼[0m┼°,[34m.,s#[0;1;30ms.[0;34m  [0;1;37m┼[0m┘[34m .s#[0;1;30ms,.[0;34m [0;37m,+┬┼┼┼┼[0;1;37m┼┼┼┼┼[0;1;37;47m┼[0;1;37;40m┼┼┼┼┼[0m┬+,.

@@ -1,18 +1,4 @@
-﻿# Converted from: AR-PREVL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/epic0004/raw/AR-PREVL.ANS
-# Source Revision: archive-sha256:c75b9e867fa35125e489436a8824c556bb5ed530e56134a70eaa34a6b213a513
-# Source SHA-256: 557769e38db9d76e67d2fe1d38b7bce42102dc98b5665f666c7ac2b310761ad2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AR-PREVL.ANS by Argon (EPiC); released in epic0004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Prevail
-# SAUCE Author: Argon
-# SAUCE Group: EPiC
-# SAUCE Date: 19991116
-# SAUCE Dimensions: 80x25
-# Lines: 146-195
-# Columns: 1-80
+﻿# Artwork: Prevail by Argon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-epic0004-ar-prevl-part04
 
 Write-Host '
 [33;47m░[0;37;43m▄[0;33;47m▄▄▄░░[0;1;31;47m░░░░░░░[0;43m▓▓▓░░[0;33;40m▀▀▀▀[0;37;40m [0;33;40m▄▄[0;37;40m▄▄[0;33;47m░░░[0;37;43m▓[0;33;47m▒▒[0;37;43m▒[0;33;47m▓▓[0;33;40m▓▐▌[0;37;40m   [0;33;40m▐[0;37;43m▒▓[0;33;47m░░[0;37;40m██[0;33;47m [0;37;40m█[0;33;47m [0;1;31;47m ░░[0m▄▄[1;31;47m░▒▒[0;1;31;40m▀▀▀[0;1;31;43m▓▒▒░░  [0;33;47m▓▓▒▒░░   [0m

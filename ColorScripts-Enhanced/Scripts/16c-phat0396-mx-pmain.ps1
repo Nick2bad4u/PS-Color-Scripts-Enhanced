@@ -1,18 +1,4 @@
-﻿# Converted from: MX-PMAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0396/raw/MX-PMAIN.ANS
-# Source Revision: archive-sha256:4840956a784b32a4a9e617c5baaeab5274263fdb9ff2d98a840492545e3abb06
-# Source SHA-256: 72377a78c0b70a1581101fc08f08ef0242b0627e5142e5b6d1f866cd576de5f8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MX-PMAIN.ANS by matrix (phat productions '96); released in phat0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: prototype main menu
-# SAUCE Author: matrix
-# SAUCE Group: phat productions '96
-# SAUCE Date: 19960302
-# SAUCE Dimensions: 80x25
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: prototype main menu by matrix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0396-mx-pmain
 
 Write-Host '
 [1;34;44m░[0;1;33;44m░░[0;34m█[0;1;34;44m░░[0;1;33;44m░░░[0;34m█[0;1;33;44m░░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;1;33;44m░[0;34m█[0;1;33;44m░[0;1;33;40m░▒[0;1;33;44m▓[0;1;33;40m▓██▓████▀ [0;1;37;40m▄▄█▀▀▀█▄▄ [0;1;33;40m▀[0;1;37;40m█[0;1;33;40m█[0;1;37;40m██[0;1;33;40m█[0;1;37;40m████████▓▓[0;1;33;44m▓▒[0;1;37;40m▓▓[0;1;33;44m░ [0;1;37;40m▓▒[0;1;37;44m [0;1;37;40m▒[0;1;37;44m  [0;1;34;44m░  ░ ░[0;34m██[0;1;34;44m░[0;34m█[0m

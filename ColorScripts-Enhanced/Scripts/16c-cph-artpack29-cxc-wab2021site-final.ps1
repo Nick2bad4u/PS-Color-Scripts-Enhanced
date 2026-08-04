@@ -1,13 +1,4 @@
-﻿# Converted from: cxc_wab2021site_final.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cph.artpack29/raw/cxc_wab2021site_final.ans
-# Source Revision: archive-sha256:f5f19e710e98a0781e8dc9dfa91f6092f3ea8ff2c2c91fe451366d6603c33751
-# Source SHA-256: 9a5255b058fb0eacefc6fe87d45b51c64be7861a2c16077d2bfa62da74246b98
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cxc_wab2021site_final.ans by Coaxcable (cph.artpack29); released in cph.artpack29 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: cxc_wab2021site_final.ans by Coaxcable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cph-artpack29-cxc-wab2021site-final
 
 Write-Host '
 [31m█[0;1;36;41m   [0;1;32;41m              [0;31m█[0;1;36;41m             [0;31m███████████████████████████████████████████████[0m

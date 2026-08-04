@@ -1,18 +1,4 @@
-﻿# Converted from: WR-SI2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_9703/raw/WR-SI2.ANS
-# Source Revision: archive-sha256:77a6a7f6432126598204aeed388eb7e1cd0dbc6097b43b2ef1dd1e89f5f350c2
-# Source SHA-256: 5699ff5f917b3b130980e84b865192c5458080ccdd2c3a56b30f36289f909e42
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WR-SI2.ANS by war (d0x !); released in dox_9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: synthetic intelligence #2
-# SAUCE Author: war
-# SAUCE Group: d0x !
-# SAUCE Date: 19970304
-# SAUCE Dimensions: 80x16
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: synthetic intelligence #2 by war | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-9703-wr-si2
 
 Write-Host '
 

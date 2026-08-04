@@ -1,18 +1,4 @@
-﻿# Converted from: US-TWZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0794/raw/US-TWZ.ANS
-# Source Revision: archive-sha256:53cd35a6f327a0c8a649f0c556ca1e17aa60e6c4040eff696f9e35efc72f4414
-# Source SHA-256: dfb7f3b21cb515459c6765fc25575abfcaabe99f715ea67d9dd2082c825fe3db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TWZ.ANS by Crime Lord + Beastie (ACiD Productions); released in acdu0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Warp Zone
-# SAUCE Author: Multiple Artists
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940701
-# SAUCE Dimensions: 80x181
-# Lines: 95-144
-# Columns: 1-80
+﻿# Artwork: The Warp Zone by Crime Lord + Beastie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0794-us-twz-part03
 
 Write-Host '
 [37m▀▀▄▄▄  [0;1;31m▀▀█[0;1;31;47m▓▒▓▓[0;1;31;43m█▓▒░░░[0;33m▀[0m                      [33m█[0;1;31;43m░▒[0;1;31;47m▓▒▒[0m▀▄[1;31;47m▓█[0;1;31;40m▄[0;1;31;43m█[0;33m▀[0;1;31;43m█[0;1;31;40m███████[0;1;31;43m▓▒▓▓[0;33m▄ ░[0m

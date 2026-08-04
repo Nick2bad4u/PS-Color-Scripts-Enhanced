@@ -1,17 +1,4 @@
-﻿# Converted from: RP-SYN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/synth19/raw/RP-SYN.ANS
-# Source Revision: archive-sha256:a4b32d44bd13b23ce2a5b7bf3da35e35f98e97043ae7686c17dcf8a72aa42d9b
-# Source SHA-256: bb2917ea31fabb9ea7c73c35eeb8370611816a198e04858ffe482c5ee53bc8c7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RP-SYN.ANS by Rippa (Synthetic Org!); released in synth19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Synthetic
-# SAUCE Author: Rippa
-# SAUCE Group: Synthetic Org!
-# SAUCE Dimensions: 80x25
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: Synthetic by Rippa | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-synth19-rp-syn
 
 Write-Host '
                                                [1;30m░░[0m

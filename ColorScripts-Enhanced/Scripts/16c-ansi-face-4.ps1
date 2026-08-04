@@ -1,13 +1,4 @@
-﻿# Converted from: FACE_4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansi/raw/FACE_4.ANS
-# Source Revision: archive-sha256:50aaa63d173fc2f34f94b8a5b526a5ee8a8b9d7908c42264ab949073e7e0edf9
-# Source SHA-256: 21e6ad824c2e736f73c6b9563dd2cb233699e9d40d320c5482d15a4be00ec3e5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FACE_4.ANS by Mcl (ansi); released in ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: FACE_4.ANS by Mcl | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansi-face-4
 
 Write-Host '
         [1;37;47m░░░░░░░[0;1;30;47m░▒▓[0;1;30;40m▓▒[0;1;31;47m░░░░░░░░░░░░░░░░░░░░[0;1;37;47m░░░░░░░░░░░[0;1;47m░[0;1;37;47m░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

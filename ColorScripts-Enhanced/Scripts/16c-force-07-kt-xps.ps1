@@ -1,18 +1,4 @@
-﻿# Converted from: KT-XPS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-07/raw/KT-XPS.ANS
-# Source Revision: archive-sha256:f0498e40c7ce9f5718652374b5ec8d4837bb6e6a2bfea8c457a1793267178c86
-# Source SHA-256: cd8400d56a5c00bfee9713607209b2e0051f3faa7722e7d13c16a0c41db077b7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KT-XPS.ANS by Kurrupt (fORCE); released in force-07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ][press
-# SAUCE Author: Kurrupt
-# SAUCE Group: fORCE
-# SAUCE Date: 19960324
-# SAUCE Dimensions: 80x21
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: ][press by Kurrupt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-07-kt-xps
 
 Write-Host '
 [1;30m   [0;1;37m                       [0;1;35m▄▄▄▄▄▄▄▄▄▄▄    ▄[0;1;35;45m█▀▀▀▀▀▀▀▀▀▀▓[0;1;35;40m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: 33-TT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/33-pic95/raw/33-TT.ANS
-# Source Revision: archive-sha256:cb087acd81a851210de22e3c5d37c8f07d2236b75952adfe16e824d8820e530d
-# Source SHA-256: 06505379d50fc0ba349dd0a5915edc16bcfdb7ec8e01a1f5587f81cf8b87a8c8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-TT.ANS by Eerie (Spastic Studios); released in 33-pic95 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Termite Terrace
-# SAUCE Author: Eerie
-# SAUCE Group: Spastic Studios
-# SAUCE Date: 19950306
-# SAUCE Dimensions: 80x25
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Termite Terrace by Eerie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-33-pic95-33-tt-part01
 
 Write-Host '
 [1;32m[0m[1;32m[0m[1;32m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;32m▄▄[0;1;32m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;33m▄[0;1;32m▄▄[0;1;33m▄▄▄▄▄▄[0m

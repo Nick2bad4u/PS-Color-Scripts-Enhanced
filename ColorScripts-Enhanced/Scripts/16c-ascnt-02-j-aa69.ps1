@@ -1,18 +1,4 @@
-﻿# Converted from: ^J-AA69.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ascnt-02/raw/%5EJ-AA69.ANS
-# Source Revision: archive-sha256:941ef0ca832bfffcbb0345c39567a2df1704a250fe70a6052dbdbb0076b1c12b
-# Source SHA-256: 52fca343b5cd7fa040f8ade19725fdeb5f24b386d7e9b368c0cb110185953480
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ^J-AA69.ANS by fever (ascent); released in ascnt-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: angry alice
-# SAUCE Author: fever
-# SAUCE Group: ascent
-# SAUCE Date: 19961125
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: angry alice by fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ascnt-02-j-aa69
 
 Write-Host '
 [1;30m[0m

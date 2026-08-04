@@ -1,18 +1,4 @@
-﻿# Converted from: TS-MAL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz03feb/raw/TS-MAL1.ANS
-# Source Revision: archive-sha256:d402090580beb42f827386e6ac87eabae48765a9dcac692e22ff2b8314efb7a2
-# Source SHA-256: 31f6563b0895db023196571a294729088d93df03ae13c1fd66380643510d1af3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-MAL1.ANS by tr(ansi)ent (l(aza)rus); released in laz03feb and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: mal(pract)ice
-# SAUCE Author: tr(ansi)ent
-# SAUCE Group: l(aza)rus
-# SAUCE Date: 19970107
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: mal(pract)ice by tr(ansi)ent | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz03feb-ts-mal1
 
 Write-Host '
 [34m███▀[0;32m ▄▄[0;1;32;42m░▓▓████▓▒░░[0;32m█▀[0m [32m▀██[0;1;32;42m░░░░[0;32m██████████▄▄[0;36m [0;34m▀██████████████████████████████████████[0m

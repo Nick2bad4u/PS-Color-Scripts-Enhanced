@@ -1,18 +1,4 @@
-﻿# Converted from: SK!JIM_M.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p03_99/raw/SK!JIM_M.ANS
-# Source Revision: archive-sha256:c178c224bcee2a65dbc4c7dd9ad93324e20cceb3dbdfecb82089701d5d57e410
-# Source SHA-256: 454e9f477f717328f693b30f3a24140271369474ad2809c18be60d9b2d4e96a8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!JIM_M.ANS by sIMONkING^nAHAL (tHElo0p); released in l0p03_99 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: jIM mORRISON
-# SAUCE Author: sIMONkING^nAHAL
-# SAUCE Group: tHElo0p
-# SAUCE Date: 19990619
-# SAUCE Dimensions: 80x70
-# Lines: 38-70
-# Columns: 1-80
+﻿# Artwork: jIM mORRISON by sIMONkING^nAHAL | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p03-99-sk-jim-m-part02
 
 Write-Host '
 [36m  [0;1;37m          [0;33m                               [0;1;30;43m▒▒▒▒▒▒░░[0m     [1;30m  [0m

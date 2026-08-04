@@ -1,20 +1,4 @@
-﻿# Converted from: HRV_inercia2022.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz16/raw/HRV_inercia2022.ans
-# Source Revision: archive-sha256:b093dd3cb06bf783d59a9df3724c51f9a41f686cd4fd545c920ada008d959f7a
-# Source SHA-256: ffa327bea1f261ca3d209ed26d0164e616125eb852af3a06eb0b57e9be35deff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HRV_inercia2022.ans by harvest (Lazarus); released in laz16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Inercia_Demoparty
-# SAUCE Author: harvest
-# SAUCE Group: Lazarus
-# SAUCE Date: 20230102
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Inercia Demoparty 2022 Logo
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Inercia_Demoparty by harvest | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz16-hrv-inercia2022
 
 Write-Host '
 

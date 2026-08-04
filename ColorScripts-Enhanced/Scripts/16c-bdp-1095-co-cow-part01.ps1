@@ -1,18 +1,4 @@
-﻿# Converted from: CO-COW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bdp-1095/raw/CO-COW.ANS
-# Source Revision: archive-sha256:feca90fbda9a493f724051c182ee8aa6f2f59439eb2bccc041124e296fb1d619
-# Source SHA-256: 0e6973fbeb9edfe31c6f427bfa9445ab8f158fac7a8f2f9a4c6dedfe4bbe76f7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CO-COW.ANS by Coeffey (BdP); released in bdp-1095 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Cow-Net
-# SAUCE Author: Coeffey
-# SAUCE Group: BdP
-# SAUCE Date: 19950910
-# SAUCE Dimensions: 80x57
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: Cow-Net by Coeffey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bdp-1095-co-cow-part01
 
 Write-Host '
 [30;47m▀▀[0;1;37;47m▓[0;30;47m▀▀▀▀[0;1;37;47m▓[0;30;47m▀▀▀[0;1;30;47m█[0m [1;37;47m▓[0;30;47m▀▀▀[0m [30;47m▀[0;1;37;47m▓[0;30;47m▀▀▀▀[0;1;37;47m▓[0;30;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

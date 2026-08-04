@@ -1,18 +1,4 @@
-﻿# Converted from: RS-SPEED.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9705/raw/RS-SPEED.ANS
-# Source Revision: archive-sha256:42f41174635a4b9e44304d5d0f48b9b5aa0b6be93e48c5ea196226a31ced9fa8
-# Source SHA-256: 116fd148d9e6a5021bfda7052e7b05fbee1a007f6f1b15ac1917ab87f957e5b4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-SPEED.ANS by rorshack (Maiden Brazil); released in mdn-9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: s p e e d
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19970416
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: s p e e d by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9705-rs-speed
 
 Write-Host '
 

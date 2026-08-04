@@ -1,19 +1,4 @@
-﻿# Converted from: AK-ENTRO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/AK-ENTRO.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: e7fb1ec6a09fbea8e675b2e380a5b03a678e1d26714de3e1e64230d3516dc88a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-ENTRO.ANS by abstrakt (fire); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: entropy bbs
-# SAUCE Author: abstrakt
-# SAUCE Group: fire
-# SAUCE Date: 20241111
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: entropy bbs by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-ak-entro
 
 Write-Host '
    [1;34m.[0;34m┐[0;1;34m, d[0;36m$[0;1;34m$b[0m [1;34m┌,                    [0;1;32m_.[0;32m┌s[0;1;32m%[0;32m#[0;1;32mS&SSS[0;32m#[0;1;32m%¬[0;32m┐[0;1;32m.                 [0;1;34m.[0;34m▬[0;1;34m. ,d$[0;34mP[0;1;34m ,┐.[0m

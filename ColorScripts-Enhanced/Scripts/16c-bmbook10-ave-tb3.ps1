@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-TB3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook10/raw/AVE-TB3.ANS
-# Source Revision: raw-sha256:7b210d978ec948763965814a4c62ced9dfc2808ee58fe198a2b829a53de43d4f
-# Source SHA-256: 7b210d978ec948763965814a4c62ced9dfc2808ee58fe198a2b829a53de43d4f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-TB3.ANS by avenger (black maiden); released in bmbook10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: triple bug menu
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19960828
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: triple bug menu by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook10-ave-tb3
 
 Write-Host '
 [35m█▀▄[0;1;35;45m [0;35m████▀███████▀▄██████[0;1;35m▀▄[0;35m▀█[0;1;35;45m░░▀██[0;1;35;40m▄[0;35m▀[0;1;35;45m▀███▄[0;45m░[0;35;40m▀[0;1;35;45m▀████▓[0;1;35;40m▄[0;35mave [0m          [37m [0;35m     ▄▄▄▄[0m   [1;30m▀[0;1;30;46m▄[0;36m▓[0m

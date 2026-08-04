@@ -1,13 +1,4 @@
-﻿# Converted from: 09-me.ice
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-200111a/raw/09-me.ice
-# Source Revision: archive-sha256:5a803f03211e322e4cfce62be4c11b9ab8c332a53dbb00c95ad3daa6a026d491
-# Source SHA-256: 17d710f2d371f5e8846215a397b780b4aacd5c7b8b297406bf8238d85069a0eb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-me.ice by Fluor (ice-200111a); released in ice-200111a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: 09-me.ice by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-200111a-09-me
 
 Write-Host '
       [31m░[0m

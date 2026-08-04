@@ -1,13 +1,4 @@
-﻿# Converted from: ETERNAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/crp-0794/raw/ETERNAL.ANS
-# Source Revision: archive-sha256:7ddbfb316c11970dc9e9ac95c4d4e81fd0fb7d7c5649de340d1d719e880ea882
-# Source SHA-256: ae85bd87657362a30695ec07b90475b6ff08de9a89ae1eff57121b1f83f23d8e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ETERNAL.ANS by Realm Dweller (crp-0794); released in crp-0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: ETERNAL.ANS by Realm Dweller | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-crp-0794-eternal
 
 Write-Host '
 [1;30m▀▀ █ ▀▀▀ █ ▀▀▀ █ ▀▀▀ █ ▀▀▀ █ ▀▀▀ █ ▀▀▀ █ ▀▀▀ █ ▀▀▀ █ ▀▀▀ █ ▀▀▀ █ ▀▀▀ █ ▀▀▀ █ ▀▀▀[0m

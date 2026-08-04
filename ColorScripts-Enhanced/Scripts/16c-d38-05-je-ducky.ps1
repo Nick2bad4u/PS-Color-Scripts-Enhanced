@@ -1,18 +1,4 @@
-﻿# Converted from: JE-DUCKY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-05/raw/JE-DUCKY.ANS
-# Source Revision: archive-sha256:eb0948671797309554c3545cf502cce8943191f153468011a76cca894133dc0a
-# Source SHA-256: 4009f6458c4380b988523bd0be9f1b01e75f0e7c9f086679e69f86037fef5da7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JE-DUCKY.ANS by Ooze + Madcap (Department 38); released in d38-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Madcap & oOze!@??
-# SAUCE Author: [JOIN EFFORT]
-# SAUCE Group: Department 38
-# SAUCE Date: 19970412
-# SAUCE Dimensions: 80x25
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Madcap & oOze!@?? by Ooze + Madcap | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-05-je-ducky
 
 Write-Host '
 [1;33m [0;1;33;43m▐██▌ [0;33m▌▐[0;1;33m█████████[0;1;33;43m▓▒░ [0;1;33;40m ███[0;1;33;43m░░ [0;1;33;40m ▐█[0;1;33;43m▓▓[0;1;33;40m██[0;1;33;43m  [0;1;33;40m [0;36m███[0;30;46m░▓[0m                              [36;40m  [0;30;46m░[0;1;36;46m [0;1;36;40m█[0;1;37;40m██[0m

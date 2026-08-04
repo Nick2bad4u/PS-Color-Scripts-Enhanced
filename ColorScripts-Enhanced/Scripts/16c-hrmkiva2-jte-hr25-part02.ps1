@@ -1,13 +1,4 @@
-﻿# Converted from: JTE-HR25.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hrmkiva2/raw/JTE-HR25.ANS
-# Source Revision: archive-sha256:abc573be699b490f9317d70002a528632e59fc3fddf316663449886fd8c21a04
-# Source SHA-256: 2b4b13bf57e0b19fb6e2d7cd290c2e48d1b1e890a3f8e7fd8c0b758bc57eda30
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JTE-HR25.ANS by Jate (hrmkiva2); released in hrmkiva2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 37-71
-# Columns: 1-80
+﻿# Artwork: JTE-HR25.ANS by Jate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hrmkiva2-jte-hr25-part02
 
 Write-Host '
     [1;33;45m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;35m▌[0;1;30m▐[0;32m█[0;1;32;42m   ░░ ░░░▒▒▓▓▓███▓█▓▓▒░[0;1;30;42m▄[0;32m▀ [0;1;33;45m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: BH-TM3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/irapack1/raw/BH-TM3.ANS
-# Source Revision: archive-sha256:96bc9993557d51cf44fc1b215ff7a2693ea395db6c6b4d982d551a24b93f90a1
-# Source SHA-256: 36120a8a3071949407b87c45cedfc65b37bb4f211691ada8ef6dd95cf20082e8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BH-TM3.ANS by Bloodhawk (irapack1); released in irapack1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: BH-TM3.ANS by Bloodhawk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-irapack1-bh-tm3-part01
 
 Write-Host '
                        [1;35m░░▒▒▒▓▓▓▓█▀▀▀▀▀▀▀▀▀▀▀▀█▓▓▓▓▒▒▒░░[0m

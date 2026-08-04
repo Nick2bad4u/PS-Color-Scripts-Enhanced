@@ -1,13 +1,4 @@
-﻿# Converted from: CPH-CRBY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-003/raw/CPH-CRBY.ANS
-# Source Revision: archive-sha256:09817656d743388b570b7dfb39c4f133f8c40aecb92562f60d9e0c45a3f39730
-# Source SHA-256: 0e48575c5f9ed9d26c46b4f269bb837b486e06ccc7fcdfaba780c672a592d7a1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-CRBY.ANS by Cyberpunch (rib-003); released in rib-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: CPH-CRBY.ANS by Cyberpunch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-003-cph-crby
 
 Write-Host '
 [34m  [0m        [34m....[0m      [34m....[0;37m [0;36m░░[0;37m [0;34m...[0m                                      [34m:.... [0m

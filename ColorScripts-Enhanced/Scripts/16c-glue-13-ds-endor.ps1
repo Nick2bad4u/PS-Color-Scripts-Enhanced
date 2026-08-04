@@ -1,18 +1,4 @@
-﻿# Converted from: DS-ENDOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-13/raw/DS-ENDOR.ANS
-# Source Revision: archive-sha256:cca55d5724b62fdb9e6ef78f12545840535bf0f0878d8408ef8b98504542add6
-# Source SHA-256: c32d839df6eae713e8882e15f25882418b0e8b6b5df28899e5abc5d675d8b17d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-ENDOR.ANS by drs (glue); released in glue-13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: endor
-# SAUCE Author: drs
-# SAUCE Group: glue
-# SAUCE Date: 19980822
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: endor by drs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-13-ds-endor
 
 Write-Host '
                       [34m [0m   [33m ░[0;30;43m▓[0;1;33;43m▄[0;1;37;40m██[0;1;33;43m██▓▓▒▒░░[0;33m▄▄[0;30;43m▓[0;33;40m░▄▄▄ ▄▄▄ ▄▄▄░[0;30;43m▓[0;33;40m     [0;30;43m▓[0;33;40m░[0;1;33;43m██▓▓▒▒░░[0;33m█▄░[0;30;43m▓[0m

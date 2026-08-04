@@ -1,18 +1,4 @@
-﻿# Converted from: 7X!UMB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sliver05/raw/7X!UMB1.ANS
-# Source Revision: archive-sha256:6e2cc64d3369490e79ab97d6818428e76b42d77e8d26ea9913e9d21a1c34ddf3
-# Source SHA-256: 6388cf48a4edd295965ece407fd849677a5e1525019bdaaacf21e5aeffc53808
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 7X!UMB1.ANS by toxix (sliver producktionz); released in sliver05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: umbilica cord
-# SAUCE Author: toxix
-# SAUCE Group: sliver producktionz
-# SAUCE Date: 19970608
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: umbilica cord by toxix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sliver05-7x-umb1
 
 Write-Host '
 [1;31;41m██▓▐█▀▄▄▀▓█▄▀[0;31m██[0;1;31;41m▄[0;31m▀██[0;1;31;41m▀▄▀[0m

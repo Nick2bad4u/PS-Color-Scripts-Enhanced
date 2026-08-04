@@ -1,13 +1,4 @@
-﻿# Converted from: GEN-OP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/corp0394/raw/GEN-OP.ANS
-# Source Revision: archive-sha256:91d50f87083e6637bc06720969ec8c07ec6313a1c98908190ceb08332429cab7
-# Source SHA-256: 73e958d2a7ddd9e0193f2e474a1513822d35af5085e6241b0770c873ab0c5e1f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GEN-OP.ANS by Genesis (corp0394); released in corp0394 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: GEN-OP.ANS by Genesis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-corp0394-gen-op-part01
 
 Write-Host '
 [1;47m    [0m█▌   [1;35m▀  ▀▀ ▀ ▀▀▀[0;35m▀[0;1;35m▀[0;35m▀▀[0;1;35;45m▀[0;35m██[0;35;45m [0;1;35;45m▀[0;35m████████████[0;35;45m  [0;1;35;45m░░[0;35m█[0;1;35;45m░[0;35m█████████████████ ███[0;30;45mGEN/CORP''94[0m

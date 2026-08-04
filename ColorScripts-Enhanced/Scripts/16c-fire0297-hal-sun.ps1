@@ -1,18 +1,4 @@
-﻿# Converted from: HAL-SUN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0297/raw/HAL-SUN.ANS
-# Source Revision: archive-sha256:12d66e55bc50470ef328e6f9ec21c65dbe558f61a1cf46f5aac359e3cb051dfe
-# Source SHA-256: 7850efe6dc3930384756c90b06ed7c273fce0d99ca616efb06ea15d1777f8a78
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HAL-SUN.ANS by Halaster (fire); released in fire0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Soleil
-# SAUCE Author: Halaster
-# SAUCE Group: fire
-# SAUCE Date: 19970202
-# SAUCE Dimensions: 80x25
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Soleil by Halaster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0297-hal-sun
 
 Write-Host '
                                        [33m░[0;30;43m▓[0m

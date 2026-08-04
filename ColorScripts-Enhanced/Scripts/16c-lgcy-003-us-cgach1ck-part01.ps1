@@ -1,19 +1,4 @@
-﻿# Converted from: us-cgach1ck.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-003/raw/us-cgach1ck.ans
-# Source Revision: archive-sha256:44a26aad0e8691f16e2777283660069b61e5916234397869961a696ba22e89f6
-# Source SHA-256: 28fb2ce67e8b8fc3613a2aec1614e71513d4030bf6139412f371edfa609fd8a8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-cgach1ck.ans by Hayn9 + Tainted (legacy krew / 67); released in lgcy-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: cga ch1ck
-# SAUCE Author: hayn9 / tainted
-# SAUCE Group: legacy krew / 67
-# SAUCE Date: 20201222
-# SAUCE Dimensions: 80x150
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: cga ch1ck by Hayn9 + Tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-003-us-cgach1ck-part01
 
 Write-Host '
 

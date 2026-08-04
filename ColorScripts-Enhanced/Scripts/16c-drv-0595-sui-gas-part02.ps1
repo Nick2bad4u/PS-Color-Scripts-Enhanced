@@ -1,18 +1,4 @@
-﻿# Converted from: SUI-GAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drv-0595/raw/SUI-GAS.ANS
-# Source Revision: archive-sha256:ab2903da2c95149760a6d9230201e2017a141769235eee49a007790b51e1be73
-# Source SHA-256: 41801151929bbde89f74b2da5834f18b41cbd81f30f6cc118922c1546c9f509c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SUI-GAS.ANS by SuiCyco (Driven); released in drv-0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Secret Society
-# SAUCE Author: SuiCyco
-# SAUCE Group: Driven
-# SAUCE Date: 19950422
-# SAUCE Dimensions: 80x138
-# Lines: 51-94
-# Columns: 1-80
+﻿# Artwork: Secret Society by SuiCyco | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drv-0595-sui-gas-part02
 
 Write-Host '
  [1;30m   ▌   [0;34m░▄░ [0;34;45m▓[0;34;40m██[0;34;45m▓░▓▒░ ░░░░[0;35;40m▌[0;1;34;40m▐▌[0;35m▐[0;34;45m░▓[0;34;40m███▀ [0;37;40m▄▄▄[0;1;30;40m▄▄[0m▄[1;30m▄▄▄[0m        [35m░[0m           [35m░[0m

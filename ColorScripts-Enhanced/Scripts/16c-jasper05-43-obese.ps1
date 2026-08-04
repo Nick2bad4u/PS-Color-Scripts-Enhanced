@@ -1,18 +1,4 @@
-﻿# Converted from: 43-OBESE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper05/raw/43-OBESE.ANS
-# Source Revision: archive-sha256:33fac09b0787230492798535c47bf2642ecf35522de5af17dfe59b662d1606a6
-# Source SHA-256: 1097953dc82d982fbcd55b72abf4a6cee61c9be24b62ba6ca2cd64dad8f07920
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 43-OBESE.ANS by aesthetic (the jasper project); released in jasper05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: obeSe
-# SAUCE Author: aesthetic
-# SAUCE Group: the jasper project
-# SAUCE Date: 20020417
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: obeSe by aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper05-43-obese
 
 Write-Host '
    [36m      [0m          [37m ▄▄▄▄ [0m

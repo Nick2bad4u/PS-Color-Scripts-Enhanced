@@ -1,18 +1,4 @@
-﻿# Converted from: CALAVERA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cls-24/raw/CALAVERA.ANS
-# Source Revision: archive-sha256:25053bc15e5e48ff5004cd9fec0a87fd3e5a0af4d9241cb6b4ce884a851d13a2
-# Source SHA-256: 0139f9d661b945ed41ad874994e00890e9f9a716aad112a224d235bfbb7a4415
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CALAVERA.ANS by Psylocke (C.L.S); released in cls-24 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Calavera
-# SAUCE Author: Psylocke
-# SAUCE Group: C.L.S
-# SAUCE Date: 19981207
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Calavera by Psylocke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cls-24-calavera
 
 Write-Host '
                                     [34;41m░▒▓█▓▒░[0m

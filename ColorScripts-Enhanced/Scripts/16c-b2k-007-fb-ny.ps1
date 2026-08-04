@@ -1,13 +1,4 @@
-﻿# Converted from: FB-NY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/b2k-007/raw/FB-NY.ANS
-# Source Revision: archive-sha256:3e03211a3f1562019157324a3b7c84ab87167511fc7e95c85af01fc80c220db7
-# Source SHA-256: 5ff5504cb248f3c27d73fb10efb7a715cc10b4f7e9b06bbc1aa92de13217a456
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FB-NY.ANS by Fonebone (b2k-007); released in b2k-007 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: FB-NY.ANS by Fonebone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-b2k-007-fb-ny
 
 Write-Host '
 [34m████████████[0;1;33;44m░░[0;34m███████████[0;1;33;44m░░[0;34m██████████████████████████████████[0;30;44m    fonebone''s back[0m

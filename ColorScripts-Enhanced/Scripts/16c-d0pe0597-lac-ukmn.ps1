@@ -1,18 +1,4 @@
-﻿# Converted from: LAC-UKMN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d0pe0597/raw/LAC-UKMN.ANS
-# Source Revision: archive-sha256:75f6fa147ff2756ef0ec699179a2fc535ef1a8555e78479372a7ceb7b6a80326
-# Source SHA-256: 93801ee0d61a95e0371f4d0e7407c10f771f318e3b7cd5d48c4f71d95df884db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LAC-UKMN.ANS by lacaid (dope); released in d0pe0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: uk?! main menu
-# SAUCE Author: lacaid
-# SAUCE Group: dope
-# SAUCE Date: 19970515
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: uk?! main menu by lacaid | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d0pe0597-lac-ukmn
 
 Write-Host '
  [1;30m▄■▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀█▄    ▒[0m         [1;30m▄[0m                    [1;30m■▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀■▄▄▓▄▄[0m

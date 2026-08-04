@@ -1,18 +1,4 @@
-﻿# Converted from: A-NH!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nh-0597/raw/A-NH!.ANS
-# Source Revision: archive-sha256:87cec95111e4a1ac9fd985bbb75e4ede9867484f10b0355a7e43919af699000f
-# Source SHA-256: e5fb283c0add0d816da200b7628401dd2eb15f66901082475d4b99ddba326603
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: A-NH!.ANS by alecs (nh!); released in nh-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: "nh!"-promo
-# SAUCE Author: alecs
-# SAUCE Group: nh!
-# SAUCE Date: 19970423
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: "nh!"-promo by alecs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nh-0597-a-nh
 
 Write-Host '
                                                                  [34m░[0;30;44m▓[0;34;40m░[0m    [34;40m▄▄░[0;30;44m▓[0m

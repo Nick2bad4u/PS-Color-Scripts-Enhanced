@@ -1,18 +1,4 @@
-﻿# Converted from: US-TMB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook11/raw/US-TMB.ANS
-# Source Revision: archive-sha256:6da508e3d2c9ad7194cf66558467eb1206f408f5f9c5aa09aaab0387694a6604
-# Source SHA-256: 771697ec32466f1a055b80f8684ce02f34b9ce59aabea737386ae7f05e884bea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TMB.ANS by Avenger + Poti (phat. bm.); released in bmbook11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: tmb.
-# SAUCE Author: poti / avenger
-# SAUCE Group: phat. bm.
-# SAUCE Date: 19961203
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: tmb. by Avenger + Poti | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook11-us-tmb
 
 Write-Host '
    [32m░░░ [0;1;32m░[0;32m   [0m                    [30;47m▓▓[0m         [1;31;40m:[0m   [35m▄▄[0;1;35m░░[0m       [30;47m▓▓[0m

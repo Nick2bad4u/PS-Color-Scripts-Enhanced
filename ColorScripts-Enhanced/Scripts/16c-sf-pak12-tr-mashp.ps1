@@ -1,18 +1,4 @@
-﻿# Converted from: TR-MASHP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sf-pak12/raw/TR-MASHP.ANS
-# Source Revision: archive-sha256:670b4d0899955b27a97f2ff3c1b8b1a03cafdd9f0df62f9dfb2a28ce3d4f40e7
-# Source SHA-256: a4cef37f93ef60f3860e22c21a8ed097cdce28835ca08484e38701a794baa9f7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-MASHP.ANS by Trippah (Shaolin's Finest); released in sf-pak12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Guest appearance
-# SAUCE Author: Trippah
-# SAUCE Group: Shaolin's Finest
-# SAUCE Date: 19981010
-# SAUCE Dimensions: 80x29
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Guest appearance by Trippah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sf-pak12-tr-mashp
 
 Write-Host '
 [32m─░--──+- ───--  ────░+───- ───  ───--──── ─░─+─────-─   ────── ---──░++─── -───[0m

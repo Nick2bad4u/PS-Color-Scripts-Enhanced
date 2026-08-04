@@ -1,18 +1,4 @@
-﻿# Converted from: WR-VENGE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_10/raw/WR-VENGE.ANS
-# Source Revision: archive-sha256:21def41607bc8f426e6b33cadf0099935014e2da13ee2908faa3303a70532ffa
-# Source SHA-256: 7719532e65a8edaf4bb9d3dd2e6e18037affdcbca46806312e413c4bcc449865
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WR-VENGE.ANS by war (dox_10); released in dox_10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: vengence
-# SAUCE Author: war
-# SAUCE Group: .
-# SAUCE Date: 19970530
-# SAUCE Dimensions: 80x25
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: vengence by war | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-10-wr-venge
 
 Write-Host '
 ----<   >-----------------------------------------------------------------------

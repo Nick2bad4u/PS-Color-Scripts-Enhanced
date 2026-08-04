@@ -1,18 +1,4 @@
-﻿# Converted from: $H-WUI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axss-004/raw/%24H-WUI.ANS
-# Source Revision: archive-sha256:cc7ca8d7dcd1abdb52246b5cbdcd77ccd4fb36bf9ad0e41c6e03ec1642d8a422
-# Source SHA-256: dc85d5ca444f0041ab892211f71119cf99bd9339c3c395d24edbffdfa007939d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: $H-WUI.ANS by Shinigami (.%.AXss.%. -97); released in axss-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Write User Info for RB !
-# SAUCE Author: Shinigami
-# SAUCE Group: .%.AXss.%. -97
-# SAUCE Date: 19970617
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Write User Info for RB ! by Shinigami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axss-004-h-wui
 
 Write-Host '
 [1;34;44m                                          ▄                               ▄    [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: RY-UTP3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9703/raw/RY-UTP3.ANS
-# Source Revision: archive-sha256:9e514042cc5e389aeb3f9323e41f842849e88d4294fdd727215463cf9566281b
-# Source SHA-256: f815792df965f45eee3161cf06cfffacda017d771c1f6944c6c0236f67af76e8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RY-UTP3.ANS by RoyalVoomit (Maiden); released in mdn-9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Utopia Inc.
-# SAUCE Author: RoyalVoomit
-# SAUCE Group: Maiden
-# SAUCE Date: 19970217
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Utopia Inc. by RoyalVoomit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9703-ry-utp3
 
 Write-Host '
  [34m░ [0m                        [34m░ [0m        [1m         [0m                               [34m▒[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SKR-GRAP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/seed0897/raw/SKR-GRAP.ANS
-# Source Revision: archive-sha256:930c09c3a618501ec288f5ae0314fec7ae06dbd5df072eda96c64f95a5745318
-# Source SHA-256: 8185f6a65ad68c523687769c10dbbfb77f24dd998d4046807c5037d0e22d953a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SKR-GRAP.ANS by skrubly (seed); released in seed0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: mr. grape head
-# SAUCE Author: skrubly
-# SAUCE Group: seed
-# SAUCE Date: 19970815
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: mr. grape head by skrubly | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-seed0897-skr-grap
 
 Write-Host '
 

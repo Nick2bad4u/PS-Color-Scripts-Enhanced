@@ -1,18 +1,4 @@
-﻿# Converted from: BS-MERGE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-02/raw/BS-MERGE.ANS
-# Source Revision: archive-sha256:4c203a22a273c62e868cc7246cefafb413002203c4d66bfee072b470754a2d40
-# Source SHA-256: f5b9222f7a8a7102de82da1a151fc4020287a3da38acad557d418054f907f49d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-MERGE.ANS by Blind Sniper (Department 38); released in d38-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: D38/KiRRA Merge
-# SAUCE Author: Blind Sniper
-# SAUCE Group: Department 38
-# SAUCE Date: 19970110
-# SAUCE Dimensions: 80x25
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: D38/KiRRA Merge by Blind Sniper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-02-bs-merge
 
 Write-Host '
 [1m [0m [1;34m▄[0;1;37m [0;1;34m▄▄▄▄▄[0;1;37m  [0;1;37;47mb[0mLD/s[1;30mNP!    [0;34m▄▄▄░[0;37m [0;34m░▄▄▄▄▄▄▄▄▄[0;37m  [0;34m░▄▄▄▄▄▄[0m      [1;37m [0;34m░▄▄▄▄▄▄▄▄[0;1;37m  [0m  [34m░▄▄▄▄▄▄▄▄▄▄[0m

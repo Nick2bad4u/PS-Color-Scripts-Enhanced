@@ -1,19 +1,4 @@
-﻿# Converted from: tv-IBMPS1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz18/raw/tv-IBMPS1.ans
-# Source Revision: archive-sha256:32d30452c4c99022fae4fa2ce9a2923ef46629d3ff7dd35a972944a991699c1f
-# Source SHA-256: 6e6305e0e5aea956da4bf998d308a3ad70722c5c10e47ebf592dda2a0431b634
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tv-IBMPS1.ans by TELEKOVISION (tv. 7B"); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: IBM PS1
-# SAUCE Author: TELEKOVISION
-# SAUCE Group: tv. 7B"
-# SAUCE Date: 20240205
-# SAUCE Dimensions: 80x123
-# SAUCE Font: IBM VGA
-# Lines: 101-122
-# Columns: 1-80
+﻿# Artwork: IBM PS1 by TELEKOVISION | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz18-tv-ibmps1-part03
 
 Write-Host '
 [37m                   [0;36m░▓█▀   [0;33m░  ▒[0;1;33;43m░[0;33m▓[0;36m ▀▓░    [0;33m░▓█▓██[0;36m ▄▄   [0;33m▀[0;36m    █  [0;33m▄█[0m

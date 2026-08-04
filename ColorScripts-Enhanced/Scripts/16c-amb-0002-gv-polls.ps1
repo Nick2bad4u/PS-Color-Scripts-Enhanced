@@ -1,17 +1,4 @@
-﻿# Converted from: GV-POLLS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amb-0002/raw/GV-POLLS.ANS
-# Source Revision: archive-sha256:ddf2bfb6c349501ad0002133992d1d3c9602291731a9f4cef0d5ef9af30b761f
-# Source SHA-256: d3da4dbf799bd804fb35c762dcb0422fb3d3efa12732710a2e3ae48d33129538
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GV-POLLS.ANS by Groove (AMBUSH Productions); released in amb-0002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Interactivo Online - Polls
-# SAUCE Author: Groove
-# SAUCE Group: AMBUSH Productions
-# SAUCE Dimensions: 80x25
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: Interactivo Online - Polls by Groove | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amb-0002-gv-polls
 
 Write-Host '
  [34m,s%@S$$$$$$$$$░$$$$$s $$$$$$$$$$$$ $$░$$$$ $$$$$$$░░░░░░░$$$$$$$$╜ $$$$$S@%s,[0m

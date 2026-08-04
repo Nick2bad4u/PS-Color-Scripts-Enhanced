@@ -1,18 +1,4 @@
-﻿# Converted from: US-ESC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook20/raw/US-ESC.ANS
-# Source Revision: archive-sha256:ad9acf30fa46ab5c9a458319782448b90dee64987e366c3cf1e5e495b40c4e0a
-# Source SHA-256: d83d0d8d45fb1920303432028e2219d8c9daf12d006c1bc50e0abd9a7e5a29b3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ESC.ANS by Toot + Grymmjack (blackmaiden & fokus); released in bmbook20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: escape
-# SAUCE Author: grymmjack + toot
-# SAUCE Group: blackmaiden & fokus
-# SAUCE Date: 19990603
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: escape by Toot + Grymmjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook20-us-esc
 
 Write-Host '
 

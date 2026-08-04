@@ -1,18 +1,4 @@
-﻿# Converted from: US-SPF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0997/raw/US-SPF.ANS
-# Source Revision: archive-sha256:7c9b6e5a1bf85f5dceb70dad3a430f8a984427653988f85df1c8489157fd2d25
-# Source SHA-256: ecb0725f1ffbc5324433ec2cda82b22f7cbc2ab2c4c1da9baa020d3e4b7304b2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SPF.ANS by Black Weasel + Subsonic (Phat Studios '97); released in phat0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: spoof - "real strangers".
-# SAUCE Author: subsonic+bw_
-# SAUCE Group: Phat Studios '97
-# SAUCE Date: 19970620
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: spoof - "real strangers". by Black Weasel + Subsonic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0997-us-spf
 
 Write-Host '
 [1m[0m[1m[0m

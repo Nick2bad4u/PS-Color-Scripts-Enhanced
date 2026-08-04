@@ -1,18 +1,4 @@
-﻿# Converted from: DLT-SAE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sae-1al/raw/DLT-SAE.ANS
-# Source Revision: archive-sha256:8fc50778b7abb4c7b22d8eeaf495f22d95c4684528a25d26f344c833163d3682
-# Source SHA-256: 4cad007fe3c248ff0bd0c268ebb676cbb784d42e048350fd1ca4a47f3dac50e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DLT-SAE.ANS by Dalton (Share And Enjoy); released in sae-1al and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Share And Enjoy
-# SAUCE Author: Dalton
-# SAUCE Group: Share And Enjoy
-# SAUCE Date: 19800104
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Share And Enjoy by Dalton | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sae-1al-dlt-sae
 
 Write-Host '
       [34m▄██[0;1;34;44m ░░▒▒▓▓██[0;1;34;46m▓▓▒▒░░ [0;1;36;46m░[0;1;34;46m ░░░▒▒▓▓[0;1;34;44m██▓▓▒▒░░[0;34m████▀▀▀[0m

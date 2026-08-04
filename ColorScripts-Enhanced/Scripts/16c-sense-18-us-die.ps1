@@ -1,13 +1,4 @@
-﻿# Converted from: US-DIE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense-18/raw/US-DIE.ANS
-# Source Revision: archive-sha256:ba71504ca3977e04b823ca2242052bfad735a42546ed55a6d6d036bcbae10c00
-# Source SHA-256: 55c340e0c1ce7e2fc88f3f764cc45424d7085108b1834d6e47afe8bb4ca4d94c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DIE.ANS by Ansichrist + Prowler (sense-18); released in sense-18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: US-DIE.ANS by Ansichrist + Prowler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense-18-us-die
 
 Write-Host '
      [34m▄▄██[0;1;34;44m▀▓████▀[0;34m█████████[0;1;34;44m [0;34m█[0;1;34;44m▀[0;34m███▀▀ [0;31m ▄■ ▄▄ ▀▀▀ [0;34m▄▄█▄▌   ▄▓▓███████████[0;37m [0;1;30m▄[0m [34m██████[0;1;34;44m░░░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: CG-DSMTX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge04/raw/CG-DSMTX.ANS
-# Source Revision: archive-sha256:8f9760d0cfd90e08045f9460fb32f82324e3b8ac18766796675df3241b391536
-# Source SHA-256: c92d80c21bb9b883f9e29c9b698e3f608b951250a3a748c1eeaf2fe4394aff83
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-DSMTX.ANS by cryogenic (avenge); released in avenge04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dark sorrow matrix..
-# SAUCE Author: cryogenic
-# SAUCE Group: avenge
-# SAUCE Date: 19980423
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: dark sorrow matrix.. by cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge04-cg-dsmtx
 
 Write-Host '
 [1;31;43m█▓███[0;1;31;47m▓▓▓[0;1;31;43m██▓█[0;1;31;40m▓[0;1;31;43m▓▓▓▒▒▒▒▒░░░░░  ░░▒▒▓▀[0;1;31;40m▀▀▀▀[0;33m▀[0;37m [0;33m  ▄▄ [0;37m [0;31m▀[0;1;31;41m░[0;31m█████████▄▄▄▄▄▄     [0m       [31m▄▄[0m

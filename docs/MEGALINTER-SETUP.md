@@ -48,4 +48,3 @@ Treat this document as configuration guidance, not a record of previously “fix
 ---
 
 _Last reviewed: July 21, 2026_
-

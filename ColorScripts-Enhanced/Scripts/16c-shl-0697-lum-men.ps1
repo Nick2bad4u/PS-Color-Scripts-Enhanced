@@ -1,17 +1,4 @@
-﻿# Converted from: LUM-MEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shl_0697/raw/LUM-MEN.ANS
-# Source Revision: archive-sha256:f37ba99e5179f73a5abe519014081c697c2370772c460edc74d0d6a6178c483d
-# Source SHA-256: 7160d01c4c40293fa5ea04cae70a65064f563955f656095233b30347adf19e5e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LUM-MEN.ANS by geting high.. !@ (lum! ^ dC); released in shl_0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: geting high.. !@
-# SAUCE Group: lum! ^ dC
-# SAUCE Date: 19970527
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: LUM-MEN.ANS by geting high.. !@ | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shl-0697-lum-men
 
 Write-Host '
 [35m▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

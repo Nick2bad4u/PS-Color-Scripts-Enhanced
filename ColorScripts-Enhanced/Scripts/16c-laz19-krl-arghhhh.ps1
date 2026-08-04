@@ -1,19 +1,4 @@
-﻿# Converted from: krl-arghhhh.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz19/raw/krl-arghhhh.ans
-# Source Revision: archive-sha256:b2207428f1b283b9c41d9ff03fce385f449fefe469c60e31e8dd7430a162f7c1
-# Source SHA-256: def9e7a84a2e5428643fbcc19729a4f690233d86888d00f39feac62114863fae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: krl-arghhhh.ans by KRL (Lazerus); released in laz19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: aghhhhhh
-# SAUCE Author: KRL
-# SAUCE Group: Lazerus
-# SAUCE Date: 20240517
-# SAUCE Dimensions: 80x23
-# SAUCE Font: IBM VGA
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: aghhhhhh by KRL | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz19-krl-arghhhh
 
 Write-Host '
 [1;31m▀ [0;31m▄[0;1;31m█[0;1;31;41m▀[0;31m▀[0;37m [0;31m█[0;1;31m█[0;1;37;41m░▓▒[0;1;31;40m█[0;31m▀[0;37m [0;1;30m▄[0;1;30;47m▓[0m [1;31m█[0;1;31;41m▀[0m [36;47m░[0;37;40m▀[0;1;30;47m▄[0m██[1;30m▄[0m▀▀▀▀▀▀[1;30;47m▄[0m██[1;30;47m▄[0m▀[1;33;47m░░[0;36;47m░▒[0;36;40m█[0;1;36;46m░▒[0m▀█[1;47m▒▒[0m▀[1;30;47m▄[0m█[1;30;47m▀[0m [1;30m▀[0;1;30;47m▄[0m████[1;30;47m▄[0m▀▀▀[1;30m░▓[0;1;37m▄[0;1;37;47m▓▒▒░[0m ▀[1;30;47m▄[0;1;30;46m▄[0;36m [0;37m▄[0;1;31m▀██[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: CXC-DEMOSPLASH2024.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1025/raw/CXC-DEMOSPLASH2024.ANS
-# Source Revision: archive-sha256:c6ce2eb1560c66497e345290ad53cd5a430626bac015b2788f41b6db23db8045
-# Source SHA-256: 9a4133455140b8b3df81880884f7b25d3f0c66f954f13452b12aa406c9fb8ef7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CXC-DEMOSPLASH2024.ANS by CoaXCable (mistigris); released in mist1025 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: zombosplash 2024
-# SAUCE Author: CoaXCable
-# SAUCE Group: mistigris
-# SAUCE Date: 20251007
-# SAUCE Dimensions: 80x58
-# SAUCE Font: IBM VGA
-# Lines: 30-58
-# Columns: 1-80
+﻿# Artwork: zombosplash 2024 by CoaXCable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1025-cxc-demosplash2024-part02
 
 Write-Host '
                      [1m▀▄[0m▐[1;47m░[0m █[1;47m▒▓[0m▀    ▄[1;47m▄[0m▀ ▄▀▄ ▀[1m█▄[0m  ▀[1;47m░▓▓▄[0m █▌[1;47m▒[0m▀

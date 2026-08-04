@@ -1,18 +1,4 @@
-﻿# Converted from: CL!-FIR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-32/raw/CL!-FIR1.ANS
-# Source Revision: archive-sha256:5c71caa398de36397b85ed6fca632db882465791a5a1f87f0e2aeaa3af7b947c
-# Source SHA-256: ff2b2f5571862a69c9584222b27ff83c526d09b1680d3760f32d8373819b9346
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-FIR1.ANS by cLEANEr (fIRe); released in fire-32 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fIRE^LOGo
-# SAUCE Author: cLEANEr
-# SAUCE Group: fIRe
-# SAUCE Date: 19980220
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: fIRE^LOGo by cLEANEr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-32-cl-fir1
 
 Write-Host '
                                   [31m,[0;33ms[0;1;31mts[0;1;33m,[0m

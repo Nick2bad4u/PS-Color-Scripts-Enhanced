@@ -1,13 +1,4 @@
-﻿# Converted from: us-evol.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tnt-008/raw/us-evol.ans
-# Source Revision: archive-sha256:6e0df4e5bc11386547156c58fbbd5e741464a783c809ccd13a3e11f04a37cc0a
-# Source SHA-256: e52c43e07a1e65d63ecf310c0c267141343f9281b7ce339fdf3cf55fe63c87d3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-evol.ans by Zerovision + Grymmjack + Skypager (tnt-008); released in tnt-008 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 193-240
-# Columns: 1-80
+﻿# Artwork: us-evol.ans by Zerovision + Grymmjack + Skypager | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tnt-008-us-evol-part05
 
 Write-Host '
 [1;30m▓[0m  [1m █[0;1;30m▌[0;1;37m  [0;1;30m░░[0m         [1m▀▀   [0;1;30m░░[0m      [1m▄▀ [0;1;30m   [0;1;37m▐ [0m▐[1;47m░░[0;1;40m▀▓[0;1;47m█[0;1;40m▄[0m  [1m▄▄▄[0;1;47m▀[0m▌  ▀[1m▐[0;1;47m▓[0;1;40m▄[0m [1m▄▄[0;1;47m▀[0m▀ ▄[1;47m▀[0m▄[1m▄▄▄[0m

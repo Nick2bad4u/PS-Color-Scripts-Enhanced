@@ -1,13 +1,4 @@
-﻿# Converted from: TOP-COC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lbo-r2/raw/TOP-COC.ANS
-# Source Revision: archive-sha256:aa6a27724d85eb8d2c1ad40e3fac891ee4d867b7f368443eca1b4275789ddd73
-# Source SHA-256: 884358426f73937f7346da6b75987fc62aa8a5efb7f1319e6888abe0af0cf073
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TOP-COC.ANS by Torlock Pop (lbo-r2); released in lbo-r2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: TOP-COC.ANS by Torlock Pop | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lbo-r2-top-coc-part02
 
 Write-Host '
 [1;30;40m▒▌ [0;1;30;42m▓[0m                   [1;30;40m▄░ ░░▒▓███▓▓▒▌░▒▐░▒▒▒▓▓▓▓▓▒▒░[0m                         [1;30;40m▓▒[0m

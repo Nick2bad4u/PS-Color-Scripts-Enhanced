@@ -1,18 +1,4 @@
-﻿# Converted from: BF-TDU2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plan9-03/raw/BF-TDU2.ANS
-# Source Revision: archive-sha256:301e233671503dd7a10ff4a4cb6dda4f8763f8d72d90155c91788bf54f67e346
-# Source SHA-256: 25260df57516d8ab8cf5675191805f31927da3b27ce16c6f8044dacd321c2bb8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BF-TDU2.ANS by Boba Fett (READ THE INI FILE); released in plan9-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Tdu matrix
-# SAUCE Author: Boba Fett
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19970302
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Tdu matrix by Boba Fett | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plan9-03-bf-tdu2
 
 Write-Host '
 [1;30mbobafett![0m  [1;30m░[0m     [31m ▐████████████[0;30;41m░[0;31;40m▓[0;30;41m▒[0;31;40m▒░[0;30;41m▓[0;37;40m the[0m      [37;40m [0m

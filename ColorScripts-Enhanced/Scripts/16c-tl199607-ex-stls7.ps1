@@ -1,18 +1,4 @@
-﻿# Converted from: EX-STLS7.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl199607/raw/EX-STLS7.ANS
-# Source Revision: archive-sha256:67d7a5ec0ddb51d2bf80dd7afa9c37257567cfc60982e5b73b73777de7b86a9a
-# Source SHA-256: aa5caf50320cc28a1044dd84c0f1a3d89025d2b2cd99ccb576f9c6dda05fd861
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EX-STLS7.ANS by Extreme (Teklordz); released in tl199607 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Saturn 7 Shuttle Prmpt
-# SAUCE Author: Extreme
-# SAUCE Group: Teklordz
-# SAUCE Date: 19960609
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Saturn 7 Shuttle Prmpt by Extreme | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl199607-ex-stls7
 
 Write-Host '
 [1;31;41m█████████▀▀[0;31m██[0;1;31;41m▄█▀  [0;31m██[0;31;41m [0;1;30;41m▓ [0;31m█████[0;31;41m [0;31;40m█[0;31;41m   [0;1;31;41m▓████ [0;31m██[0;1;31;41m░▒███▒ [0;31m████[0;1;30;41m▀█▄[0;31m█[0;31;41m  [0;1;31;41m▀███▄ ░░░  [0;31m███[0;1;30;41m▄[0;31m██[0;1;31;41m░▀▓▓▓[0m

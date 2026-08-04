@@ -1,18 +1,4 @@
-﻿# Converted from: V-TDC19.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0921/raw/V-TDC19.ANS
-# Source Revision: archive-sha256:d0c46b43fcc75f34eccddd849ead8bb14d1cefded97053b0b2617868dbc835f6
-# Source SHA-256: 073f0ff02158b28d08845e2e7cdea4195fcff503860492255855be5f192fd001
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: V-TDC19.ANS by VileR (mist0921); released in mist0921 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: TDC19
-# SAUCE Author: VileR
-# SAUCE Date: 20210815
-# SAUCE Dimensions: 80x312
-# SAUCE Font: IBM VGA
-# Lines: 132-175
-# Columns: 1-80
+﻿# Artwork: TDC19 by VileR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0921-v-tdc19-part04
 
 Write-Host '
         [1;30m▐[0;1;37m██[0;34m▓▒[0;33m░▒░[0;34m▓▓▓▓▓▓▒[0;1;30;44m▄[0;1;34;44m▄[0;36;44m▄[0;1;30;47m▀[0;1;37;40m▄▄▄[0;1;37;100m▄[0;1;37;104m▄[0;1;46m▄[0;1;47m▄[0;1;40m████████[0;1;47m▀[0;1;100m▀[0;1m▀▀▀▀[0m▀[1;30m▀[0m

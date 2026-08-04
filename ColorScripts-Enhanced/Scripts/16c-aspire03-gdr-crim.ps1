@@ -1,18 +1,4 @@
-﻿# Converted from: GDR-CRIM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aspire03/raw/GDR-CRIM.ANS
-# Source Revision: archive-sha256:54282cfca353db5f7764be56aa2f2108c2e202d98c161cba1da80cf575611e3b
-# Source SHA-256: 9cd16398ef9d575eb37b9568b37dd0533fb8a78f95d62e452fbc7d8883c2fa4f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GDR-CRIM.ANS by gravedancer (aspire); released in aspire03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: myth
-# SAUCE Author: gravedancer
-# SAUCE Group: aspire
-# SAUCE Date: 19980925
-# SAUCE Dimensions: 80x48
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: myth by gravedancer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aspire03-gdr-crim
 
 Write-Host '
                 [1m            ▄▄       [0m [34m ▄▄▄▄▄▄▄▄▄▄▄▄▄ [0m

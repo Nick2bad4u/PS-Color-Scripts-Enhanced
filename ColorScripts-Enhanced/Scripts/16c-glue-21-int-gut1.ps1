@@ -1,18 +1,4 @@
-﻿# Converted from: INT-GUT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-21/raw/INT-GUT1.ANS
-# Source Revision: archive-sha256:f82ee46d8be1d82ea17d8bdc07ad3071d4259c4331c1829c972b5ae2082ebcd2
-# Source SHA-256: 26fc8d41f2d5e9a17577cafa60035cbf4656c98b686033b7ceab061b955db4c8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: INT-GUT1.ANS by internal (glue); released in glue-21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: gutter
-# SAUCE Author: internal
-# SAUCE Group: glue
-# SAUCE Date: 19990424
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: gutter by internal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-21-int-gut1
 
 Write-Host '
 [1;32;42m███████████▓▓▓▒▒░░[0;32m▀  [0m                                        [1;32m▀████[0;1;32;42m▓▓▒▒░░[0;32m██▀▀▀▀▀▀[0m

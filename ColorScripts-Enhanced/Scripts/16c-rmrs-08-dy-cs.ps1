@@ -1,13 +1,4 @@
-﻿# Converted from: DY-CS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-08/raw/DY-CS.ANS
-# Source Revision: archive-sha256:a2a94a05cc0fdb75f6dd155c472d47ed8dbfa09498cb251f9f23d405315c5c99
-# Source SHA-256: 5c79f25172b03484c6a8e5c7a4dec3d6cf3faa9a2ebbad46939b63cbbfb9a01b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DY-CS.ANS by Discyple (rmrs-08); released in rmrs-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: DY-CS.ANS by Discyple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-08-dy-cs
 
 Write-Host '
 [1;35m─ [0;1;36mcolor[0;1;33mshock [0;1;31m∙[0;1;35m∙∙∙[0;1;33m∙ [0;1;35m────────────────────────────────────────────────────────────[0m

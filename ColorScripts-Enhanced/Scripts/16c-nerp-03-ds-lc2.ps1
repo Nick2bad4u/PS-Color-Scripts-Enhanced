@@ -1,18 +1,4 @@
-﻿# Converted from: DS-LC2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-03/raw/DS-LC2.ANS
-# Source Revision: archive-sha256:9ea26ff16b2d0162532c602fba75b69e539d71620a3b4e34b796de886326619c
-# Source SHA-256: 59df75d77a2a78026e1276568f03f3b56d68c1da6bed87f1af4ad5907bba7c29
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-LC2.ANS by dfuse (nerp); released in nerp-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: last callers
-# SAUCE Author: dfuse
-# SAUCE Group: nerp
-# SAUCE Date: 19971224
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: last callers by dfuse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-03-ds-lc2
 
 Write-Host '
 ▀▀██████████████▓▓▓▓▓▓▓▒▒▒▒░░░░░░░░░      [1;30m [0m           █████

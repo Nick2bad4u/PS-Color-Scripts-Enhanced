@@ -1,18 +1,4 @@
-﻿# Converted from: HP-CRLN5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0196/raw/HP-CRLN5.ANS
-# Source Revision: archive-sha256:61642f5831b797f313fe10336de4c5f16c13238dc27081faf3549cf8df1329cd
-# Source SHA-256: 69fa987ee79d7ff565136398016c5414a0847445504f4b52772ad2f867cb7156
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HP-CRLN5.ANS by Hiro Protagonist ([Quad-P]); released in quad0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Corleone - Niggaz in the Dark ;)
-# SAUCE Author: Hiro Protagonist
-# SAUCE Group: [Quad-P]
-# SAUCE Date: 19951206
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Corleone - Niggaz in the Dark ;) by Hiro Protagonist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0196-hp-crln5
 
 Write-Host '
                     [1;30m.½½½½½½½½½½½½½½½½½½½½½½½½½½½½½½½½½½½½.[0m

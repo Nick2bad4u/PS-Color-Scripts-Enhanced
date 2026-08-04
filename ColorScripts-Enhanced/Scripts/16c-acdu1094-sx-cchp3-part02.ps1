@@ -1,18 +1,4 @@
-﻿# Converted from: SX-CCHP3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1094/raw/SX-CCHP3.ANS
-# Source Revision: archive-sha256:d3bff25180c9d41e42ce231a1946b0f69919e5a64c552b5582fe7482825c4fec
-# Source SHA-256: 8e5ca99e9720bcf27536a880fad8b39865ee64d7e76f6ee0642322c7f8163503
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SX-CCHP3.ANS by Sushi X (ACiD Productions); released in acdu1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Chewy Cheesy House of Phlegm 3
-# SAUCE Author: Sushi X
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940903
-# SAUCE Dimensions: 80x128
-# Lines: 44-85
-# Columns: 1-80
+﻿# Artwork: Chewy Cheesy House of Phlegm 3 by Sushi X | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1094-sx-cchp3-part02
 
 Write-Host '
       [32m█[0;1;32;42m░[0;32m▌▐[0;1;32;42m▒[0;1;32;40m▌[0;32m▐[0;1;32;42m▒[0;32m▄█[0;1;32;42m░[0;32m▄██████████████[0;1;30;42m░[0;32m▀[0;32;42m ███[0;1;32;42m░[0;32m▀████[0;32;42m [0;32;40m▀[0;1;32;42m░[0;32m▄███████[0;1;32;42m░[0;32m▄[0;1;30;42m░[0;32m██████████▀▀▄▄▄▄████▌[0;37m [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: SRB-ANTI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-15/raw/SRB-ANTI.ANS
-# Source Revision: archive-sha256:f6ccb119b90e23b73476c157789c2c2d64131cecbb4bd94dbb754be736b41269
-# Source SHA-256: e4d771072348913a69c8417d3ba206e0a8ad81a09f88a616d0394c43f8b21a27
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SRB-ANTI.ANS by Sketch Rimanez (sclr-15); released in sclr-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: SRB-ANTI.ANS by Sketch Rimanez | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-15-srb-anti
 
 Write-Host '
 

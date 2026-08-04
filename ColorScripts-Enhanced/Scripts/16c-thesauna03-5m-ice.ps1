@@ -1,17 +1,4 @@
-﻿# Converted from: 5m-ice.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna03/raw/5m-ice.ans
-# Source Revision: archive-sha256:997aaab655669129eb266c21ca0c4588b603e11c90338498bb530f8bba390fb2
-# Source SHA-256: 8498af4ba055d821330e0ecdfef2b3e8f64d65da8cc9e82b1a7dd6374c2d80a1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5m-ice.ans by Anonymous (thesauna03); released in thesauna03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: Anonymous
-# SAUCE Date: 20210405
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: 5m-ice.ans by Anonymous | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna03-5m-ice
 
 Write-Host '
 

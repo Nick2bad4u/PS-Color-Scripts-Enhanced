@@ -1,13 +1,4 @@
-﻿# Converted from: 4d-viix2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1465-001/raw/4d-viix2.ans
-# Source Revision: archive-sha256:0c63c049ba222ff6b20f73e49a7aa227dfdc1f2abd0fc9823b88e8d25342c3a7
-# Source SHA-256: 09e647bb516e2bf0b0121ff1e13e16cfc7aec78c6c50079cb0bc0a92f40efab1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 4d-viix2.ans by Access Denied (1465-001); released in 1465-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: 4d-viix2.ans by Access Denied | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1465-001-4d-viix2
 
 Write-Host '
                             [1;30m▀[0;1;30;45m▓[0;1;30;40m▀█▄[0m           [1;30m▒▒▒[0m

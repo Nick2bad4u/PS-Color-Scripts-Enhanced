@@ -1,13 +1,4 @@
-﻿# Converted from: QS-SANC.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-11/raw/QS-SANC.ICE
-# Source Revision: archive-sha256:5827a3d77b92b92d3b0eabff87e8b41b8ef31a232218b0b3b44b72f050fee9b3
-# Source SHA-256: 686ef0e3413ce97d94f8d0aef37a49f558e437c836d96dfcd24fe7dd9d2613b7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QS-SANC.ICE by Quicksilver (icepk-11); released in icepk-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 79-115
-# Columns: 1-80
+﻿# Artwork: QS-SANC.ICE by Quicksilver | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-11-qs-sanc-part03
 
 Write-Host '
                       [1;30m██▓▒░[0m            [1;30m▐▓█████▀  ░░▒▒▒▒░░░░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: BIZ-LOCL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nh-0597/raw/BIZ-LOCL.ANS
-# Source Revision: archive-sha256:87cec95111e4a1ac9fd985bbb75e4ede9867484f10b0355a7e43919af699000f
-# Source SHA-256: 33ee3bf72f4eb0a2403ce6f2ff06c2e6b2031bf77dcd94c65a5d29a46836ed1f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BIZ-LOCL.ANS by bizzarro (nH!); released in nh-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: bizzarros logocolly #1
-# SAUCE Author: bizzarro
-# SAUCE Group: nH!
-# SAUCE Date: 19970411
-# SAUCE Dimensions: 80x105
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: bizzarros logocolly #1 by bizzarro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nh-0597-biz-locl-part01
 
 Write-Host '
                                ░░░ ░                            [1;30m▄░░[0m

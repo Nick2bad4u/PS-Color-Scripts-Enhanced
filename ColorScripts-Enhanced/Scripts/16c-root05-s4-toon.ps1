@@ -1,18 +1,4 @@
-﻿# Converted from: S4-TOON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root05/raw/S4-TOON.ANS
-# Source Revision: raw-sha256:72afbe92c7e637fc67b4f25e1d60ec497cd705513415eb7e8fd4f91671544ece
-# Source SHA-256: 72afbe92c7e637fc67b4f25e1d60ec497cd705513415eb7e8fd4f91671544ece
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S4-TOON.ANS by static addiction (root); released in root05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: illbred menu
-# SAUCE Author: static addiction
-# SAUCE Group: root
-# SAUCE Date: 19970626
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: illbred menu by static addiction | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root05-s4-toon
 
 Write-Host '
 [1;36m██[0;1;36;46m▀[0;36m▀▀[0;1;30m▄[0;1;30;46m▀▄[0;1;30;40m▀[0m  [33m▄[0;1;33m▄[0;1;33;43m▄[0;1;33;40m█████▓▓[0;33m▄[0;1;33m [0m  [33m▄[0;1;31m▄▄▄▄[0;33m▄[0;37m  [0;33m▄▄[0;1;33;43m▄[0;1;33;40m████[0;1;33;43m▄[0;1;33;40m▄[0;33m▄[0;37m [0;1;30m▀[0;1;30;46m▄[0;36m██[0;1;30;46m░░[0;36m█[0;1;30;46m▄[0;1;30;40m▀[0;36m▄[0;1;30m▀[0;1;30;46m▄[0;36m██[0;1;30;46m▀[0;1;30;40m▄[0;36m▀[0;1;36;46m▀▀[0;1;36;40m████[0;1;37;46m██[0;1;36;40m████[0;1;36;46m▀▀[0;36m▀[0;1;30m▄[0;1;30;46m▀▄░[0m

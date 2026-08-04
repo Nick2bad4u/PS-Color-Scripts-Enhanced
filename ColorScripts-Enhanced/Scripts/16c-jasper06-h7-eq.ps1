@@ -1,13 +1,4 @@
-﻿# Converted from: H7-EQ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper06/raw/H7-EQ.ANS
-# Source Revision: archive-sha256:e9db58af17bee8935edbe50f24a227bef7a311667f4a639d4f37f775998e9055
-# Source SHA-256: 2eda1151273598fb85b28b581ce1808c315cd4349e0482787f78a62d24e72742
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: H7-EQ.ANS by H7 (jasper06); released in jasper06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: H7-EQ.ANS by H7 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper06-h7-eq
 
 Write-Host '
 

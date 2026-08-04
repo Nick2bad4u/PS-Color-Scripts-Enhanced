@@ -1,18 +1,4 @@
-﻿# Converted from: US-DSUN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0494/raw/US-DSUN1.ANS
-# Source Revision: archive-sha256:cda9410890e0ae8f5b3a1e8c7fce4e1b3de00d8e334ef300576869cead7a6b53
-# Source SHA-256: beea3af60e462d029397cdca464e48acebacbf62b56e46e64b5f2b771f72253e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DSUN1.ANS by Aphex Twin + Dr Tongue (ACiD Productions); released in acdu0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Dark Sun World
-# SAUCE Author: Multiple Artists
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940331
-# SAUCE Dimensions: 80x172
-# Lines: 48-95
-# Columns: 1-80
+﻿# Artwork: Dark Sun World by Aphex Twin + Dr Tongue | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0494-us-dsun1-part02
 
 Write-Host '
 [1;40m▀▀▄▄██████████████████████████████[0m          [1;40m▄▄█▌ [0;1;30;40m▄[0m      █ ▄ ██▀ ███[47m [0;40m▀[0;1;40m▀[0;1;47m▀[0m█████▀█▀

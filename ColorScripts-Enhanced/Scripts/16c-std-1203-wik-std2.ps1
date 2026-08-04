@@ -1,18 +1,4 @@
-﻿# Converted from: WIK-STD2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/std-1203/raw/WIK-STD2.ANS
-# Source Revision: archive-sha256:cc519a96541ab87c3ccfb6e8a3b506c4dc60ee9fa6ce9aefd475f4a8ca3ef70d
-# Source SHA-256: 1141ba9b251b88d20c79b8c9fa2f83cae591a3a23f51dc05da5f6bc61e1665eb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WIK-STD2.ANS by Wik (std); released in std-1203 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Spread the disease.
-# SAUCE Author: Wik
-# SAUCE Group: std
-# SAUCE Date: 20031130
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Spread the disease. by Wik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-std-1203-wik-std2
 
 Write-Host '
           [1;30m█▀▀   ▀▀▄[0m

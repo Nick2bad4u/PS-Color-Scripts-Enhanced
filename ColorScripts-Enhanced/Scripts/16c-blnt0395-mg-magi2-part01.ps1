@@ -1,18 +1,4 @@
-﻿# Converted from: MG-MAGI2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blnt0395/raw/MG-MAGI2.ANS
-# Source Revision: archive-sha256:7f839d0857a33ca904d05515aef83ac8e2661daab4c9571581e8500bbc12658f
-# Source SHA-256: e208229f8c47003563c0e1e3d7690c384c17b28c2e16a0f7abaff0ef784ed928
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MG-MAGI2.ANS by The Magi (BLuNT); released in blnt0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Self-portrait of The Magi
-# SAUCE Author: The Magi
-# SAUCE Group: BLuNT
-# SAUCE Date: 19950102
-# SAUCE Dimensions: 80x99
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Self-portrait of The Magi by The Magi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blnt0395-mg-magi2-part01
 
 Write-Host '
                                                      [31m▌[0m

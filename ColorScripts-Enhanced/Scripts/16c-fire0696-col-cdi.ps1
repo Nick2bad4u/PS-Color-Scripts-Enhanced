@@ -1,18 +1,4 @@
-﻿# Converted from: COL-CDI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0696/raw/COL-CDI.ANS
-# Source Revision: archive-sha256:812b4b6a142b76b92307dc090cdf58b49035a2b9097d1dc0a43da5e4fd3f4f2d
-# Source SHA-256: 79ff64d20a80d695a365732218e5e244fd0b82c5fc633cde8f72072908755d23
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: COL-CDI.ANS by colorblind (fire); released in fire0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: cool doods inc!
-# SAUCE Author: colorblind
-# SAUCE Group: fire
-# SAUCE Date: 19960528
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: cool doods inc! by colorblind | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0696-col-cdi
 
 Write-Host '
                ▄                                                 ▄

@@ -1,18 +1,4 @@
-﻿# Converted from: LC-PYR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aim-0895/raw/LC-PYR1.ANS
-# Source Revision: archive-sha256:204b30a10a0d728beeb2b6ef77a685417d42699bf345ab491eb081a7bbd4b870
-# Source SHA-256: 30caf11b2fc3b867b4f483e061520d34abe81ca3599f24f35be0854c991f09dd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LC-PYR1.ANS by Luc (<AiM>); released in aim-0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Pyramid Ansi
-# SAUCE Author: Luc
-# SAUCE Group: <AiM>
-# SAUCE Date: 19950805
-# SAUCE Dimensions: 80x99
-# Lines: 51-99
-# Columns: 1-80
+﻿# Artwork: Pyramid Ansi by Luc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aim-0895-lc-pyr1-part02
 
 Write-Host '
 [1;30;45m▒[0;35m▓[0;1;30;45m▒   [0;35m▓[0;35;45m   [0;35;40m▓▄[0;30;40m███████[0;35;40m▀[0;30;40m█[0;35;40m░▒▀░▒▒▓▒▓▒[0;1;30;45m▓[0;35m▒▒▓▒▓[0;30m███████████[0;33m▓▀[0;1;31;43m░[0;33m▀▀▀▒▀▀░[0;30m█████ █[0;1;31m▀▓▒■[0;1;37m▀▀▀▀▀▀▀▀█[0;1;37;47m▓[0;1;37;40m█[0m

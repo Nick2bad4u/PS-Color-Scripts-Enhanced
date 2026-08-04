@@ -1,18 +1,4 @@
-﻿# Converted from: MR-VIRTU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9705/raw/MR-VIRTU.ANS
-# Source Revision: archive-sha256:42f41174635a4b9e44304d5d0f48b9b5aa0b6be93e48c5ea196226a31ced9fa8
-# Source SHA-256: de573afe3390aefa11af3fa916881d10194853f168afb5d8d2a8cfb8ebc411ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-VIRTU.ANS by minotaur (maiden^brazil); released in mdn-9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: virtual death logo
-# SAUCE Author: minotaur
-# SAUCE Group: maiden^brazil
-# SAUCE Date: 19800101
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: virtual death logo by minotaur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9705-mr-virtu
 
 Write-Host '
                           [31m▄▄▄[0m

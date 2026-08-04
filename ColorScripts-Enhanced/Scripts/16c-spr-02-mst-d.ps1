@@ -1,13 +1,4 @@
-﻿# Converted from: MST!D.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spr_02/raw/MST!D.ANS
-# Source Revision: archive-sha256:de213db32bec9e7b234598875579e360fcbdfa4c59f3f92173fe1b75c68a8cff
-# Source SHA-256: 37148e3253b5bd2fe888357584f5e73b5a024f3d41282c14960dad1428ae98ad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MST!D.ANS by Mist (spr_02); released in spr_02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: MST!D.ANS by Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spr-02-mst-d
 
 Write-Host '
 [1;33;43m▓▓▒▒░░[0;33m████[0;1;33m▌[0m                  [1;33m▄▌▄[0m [1;33m▄▌[0m      [1;32m▐▄▄▄[0m [33m   [0;1;33m▀▀▀[0;1;33;43m▄▄▄▌[0;33m██[0;1;33;43m▓[0;1;33;40m▄[0m

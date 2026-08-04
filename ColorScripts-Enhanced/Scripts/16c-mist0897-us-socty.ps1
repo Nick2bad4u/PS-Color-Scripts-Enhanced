@@ -1,18 +1,4 @@
-﻿# Converted from: US-SOCTY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0897/raw/US-SOCTY.ANS
-# Source Revision: archive-sha256:e809b9f8b188286d36406dafe0847bbd16221683918da377bfda26da9187f000
-# Source SHA-256: b1fbea7ec9e6579cc4396cc1c547fa5af04fea107da1ad6d3e29c7aa123cd0d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SOCTY.ANS by Archangel + Quip (Society / Mistigris); released in mist0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Society
-# SAUCE Author: Arch Angel / Quip
-# SAUCE Group: Society / Mistigris
-# SAUCE Date: 19970730
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Society by Archangel + Quip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0897-us-socty
 
 Write-Host '
     [1;30m▄▄▄████[0;1;30;47m▓▓[0;1;30;40m▄▄[0m

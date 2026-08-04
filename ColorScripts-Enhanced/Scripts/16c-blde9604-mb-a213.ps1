@@ -1,18 +1,4 @@
-﻿# Converted from: MB-A213.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9604/raw/MB-A213.ANS
-# Source Revision: archive-sha256:c9d341fbab42005be8369b5b74c082e1beaf2773cdcff315b890579fc5c3d129
-# Source SHA-256: ee47d8cb0af55fe4ab2dcf897b18b8229e9bdbff21bee346aa4ca78f059f991b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MB-A213.ANS by metallic blood (blade productions); released in blde9604 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: apartment 213
-# SAUCE Author: metallic blood
-# SAUCE Group: blade productions
-# SAUCE Date: 19960412
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: apartment 213 by metallic blood | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9604-mb-a213
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: US-E255.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root05/raw/US-E255.ANS
-# Source Revision: raw-sha256:a8dccbe52dccfe1bc10772bfd3b3ec1ddff3429b5f73e6b9c36a9487189fc272
-# Source SHA-256: a8dccbe52dccfe1bc10772bfd3b3ec1ddff3429b5f73e6b9c36a9487189fc272
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-E255.ANS by Static Addiction + Zeromous (Root); released in root05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: el255 thing
-# SAUCE Author: s4/zeromous
-# SAUCE Group: Root
-# SAUCE Date: 19970717
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: el255 thing by Static Addiction + Zeromous | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root05-us-e255
 
 Write-Host '
 [35m░[0;30;45m▓[0;35;40m░[0;30;45m▓[0;35;40m░[0;30;45m█[0;35;40m    ▄▄▄▄▄[0;1;35;45m▄▄▄▄▄▄▄▄[0;35m█████████[0;1;35;45m▀▀▀▓█▀   [0;35m██▀▀▀▀▀▀▀▀▀[0;31m▄▄▄[0;35m▀▀▀[0;31m▄▄[0;35m▀▀▀▀▀▀▀[0;31m▄▄▄[0;35m▀█[0;1;35;45m ▀▓███▀▀[0m

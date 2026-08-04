@@ -1,18 +1,4 @@
-﻿# Converted from: US-IONE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0197/raw/US-IONE.ANS
-# Source Revision: archive-sha256:db16ecaf9a5ba2dcf16f11149d4e3768d3e19930159af1ef0ef2625ea12b3e30
-# Source SHA-256: ff93a7bd68f62424b54b397c8abddd854a6cc1b573214c5e96fb915def0f1e04
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-IONE.ANS by Ize + Mendator (fusion + twilight); released in fsn-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ione
-# SAUCE Author: ize + mendator
-# SAUCE Group: fusion + twilight
-# SAUCE Date: 19970105
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: ione by Ize + Mendator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0197-us-ione
 
 Write-Host '
                    [31m░[0;30;41m▓[0;31;40m░[0m     [1;33;40m░░[0m                 [1;33m░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: GN-POO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-05/raw/GN-POO.ANS
-# Source Revision: archive-sha256:9471ca7612415a41916878584e9d9bf710a5efbc5b8d389ed1bde764e2a602ca
-# Source SHA-256: c1ccee4e08437e9a6a1fcf22fe0c3100735eca23e0611fcc48601219659a8042
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GN-POO.ANS by grind stoner (eclipse); released in ecl-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: he called the shit POOP!
-# SAUCE Author: grind stoner
-# SAUCE Group: eclipse
-# SAUCE Date: 19960815
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: he called the shit POOP! by grind stoner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-05-gn-poo
 
 Write-Host '
 

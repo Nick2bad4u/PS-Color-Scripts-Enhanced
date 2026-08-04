@@ -1,19 +1,4 @@
-﻿# Converted from: Checs-back_in_10.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hpm-002/raw/Checs-back_in_10.ans
-# Source Revision: archive-sha256:ac1c5734e02a8b9f6dc786a430b6a4555daba27767e3a09c6335e008cfa324e4
-# Source SHA-256: 9edf86884322cf7fc2128ad173013e8f8300d4fcd9eeb8691770edd4ff73ad1d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Checs-back_in_10.ans by Checs (HPM); released in hpm-002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Back in 10'
-# SAUCE Author: Checs
-# SAUCE Group: HPM
-# SAUCE Date: 20220625
-# SAUCE Dimensions: 80x130
-# SAUCE Font: IBM VGA
-# Lines: 91-128
-# Columns: 1-80
+﻿# Artwork: Back in 10' by Checs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hpm-002-checs-back-in-10-part03
 
 Write-Host '
                   ▄▄▄▄▄█[1;47m▄▄▄▄[0;1;100m▄[0;1;47m▄[0;1;100m▄▄[0;1;47m▄[0;1;30;107m▀▀[0;1;47m▄▄[0m▄[31m                     [0;1;37m▄▀▄[0m   [1m▀[0;1;47m▄▄[0;1;40m▄▀[0;31m [0;1;36m▄[0;1;36;107m▀[0;1;47m▄▄▄▄▄[0m▄

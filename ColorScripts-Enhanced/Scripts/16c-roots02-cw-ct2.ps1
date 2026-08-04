@@ -1,13 +1,4 @@
-﻿# Converted from: cw-ct2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roots02/raw/cw-ct2.ans
-# Source Revision: archive-sha256:76e48703c4ae574ec2cec39d9f297f8abe09593046838247863eedaee737caa1
-# Source SHA-256: 19c60d24c4c3456ade8aa041084919e814978b7a66c175415fd934552f5872dd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cw-ct2.ans by Ceelow (roots02); released in roots02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: cw-ct2.ans by Ceelow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roots02-cw-ct2
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: US-DARK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst-19/raw/US-DARK.ANS
-# Source Revision: archive-sha256:38480cbb01973683b6bb179e82483ce3434180444dfcf5b811296224974846eb
-# Source SHA-256: d92c488a2a728a757f00aecda41aafde42514cb8ab27833c6f216e05bb1eccad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DARK.ANS by Velkro + Putrid Carcass (twisted); released in twst-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: " DARK "
-# SAUCE Author: velkro/ pc
-# SAUCE Group: twisted
-# SAUCE Date: 19980128
-# SAUCE Dimensions: 80x25
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: " DARK " by Velkro + Putrid Carcass | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst-19-us-dark
 
 Write-Host '
 [35m█[0;1;31;45m ▄▄▄▄[0;35m█[0;1;31;45m▀▀[0;35m████████████████████████████████████████████[0;1;35;45m░[0;35m█[0;1;35;45m░▒▓▓▀▀[0;35m██[0;1;35;45m▄▄[0;35m█[0;1;35;45m▀▀▀[0;35m█[0;1;35;45m▄▄▀▀████▒[0m

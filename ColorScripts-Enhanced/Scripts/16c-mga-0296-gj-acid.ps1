@@ -1,18 +1,4 @@
-﻿# Converted from: GJ-ACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mga-0296/raw/GJ-ACID.ANS
-# Source Revision: archive-sha256:5d09e58aa7a772a5681461694f4744990a94bc1f6abf6a0c2008906558ad1a53
-# Source SHA-256: 9097f744cb1330c02b0373871a7da207634e51dc5ecc4e7814ce20cea551a691
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GJ-ACID.ANS by Grimjack (cia); released in mga-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: acidopium
-# SAUCE Author: Grimjack
-# SAUCE Group: cia
-# SAUCE Date: 19951201
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: acidopium by Grimjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mga-0296-gj-acid
 
 Write-Host '
 ───────────────────────────────────────────────────────────────────────────────

@@ -1,18 +1,4 @@
-﻿# Converted from: PC-ACID2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense09/raw/PC-ACID2.ANS
-# Source Revision: archive-sha256:b3e3029d8f7c1c608f2835055baa2116210e782109ea7dc0a1af3ca3d050e5b9
-# Source SHA-256: a4c36a37e255a84ac3e5347b45caf3abcc2e90c671cb8c3d251f8f8953509840
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-ACID2.ANS by Proctologist (SeNsE); released in sense09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Acid Infection menu
-# SAUCE Author: Proctologist
-# SAUCE Group: SeNsE
-# SAUCE Date: 19980514
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Acid Infection menu by Proctologist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense09-pc-acid2
 
 Write-Host '
 [1;30ma[0m [1;30mC[0m [1;30mi[0m [1;30md[0m   [1;30mi[0m [1;30mn[0m [1;30mF[0m [1;30me[0m [1;30mc[0m [1;30mT[0m [1;30mi[0m [1;30mO[0m [1;30mn[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PK-ACID1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/std-1103/raw/PK-ACID1.ANS
-# Source Revision: archive-sha256:fcdd7c1ae0053f52ee22d0eb16724f03a3c01af3340a96d97881f66cfaeea4af
-# Source SHA-256: e24aa381b350cf2d420eb260958bf8c609308bb31842cd29f94357c3a3e348bf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PK-ACID1.ANS by Phunk (s7d); released in std-1103 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ACiD Productions
-# SAUCE Author: Phunk
-# SAUCE Group: s7d
-# SAUCE Date: 20031031
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: ACiD Productions by Phunk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-std-1103-pk-acid1
 
 Write-Host '
 

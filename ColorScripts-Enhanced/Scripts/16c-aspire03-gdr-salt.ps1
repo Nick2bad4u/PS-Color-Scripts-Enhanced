@@ -1,18 +1,4 @@
-﻿# Converted from: GDR-SALT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aspire03/raw/GDR-SALT.ANS
-# Source Revision: archive-sha256:54282cfca353db5f7764be56aa2f2108c2e202d98c161cba1da80cf575611e3b
-# Source SHA-256: 822e2966de2fbaa8df339a17292c6ce6379decbb71973cb6ce78b4be738f67a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GDR-SALT.ANS by gravedancer (aspire); released in aspire03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: salt
-# SAUCE Author: gravedancer
-# SAUCE Group: aspire
-# SAUCE Date: 19980826
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: salt by gravedancer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aspire03-gdr-salt
 
 Write-Host '
            [31m▐█▓▓[0;1;30;41m░░[0;31m▄▄▄ ▀▀█▄▄ ████[0;1;31;41m░░[0;1;31;40m█▄[0;1;31;41m▒░░[0;31m███▌▀█████[0;1;31;41m░░░░░[0;31m████[0;1;30;41m░░░░[0;31m▌ [0;37m [0m

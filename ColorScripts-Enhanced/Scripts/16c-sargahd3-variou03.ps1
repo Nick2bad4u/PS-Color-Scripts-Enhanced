@@ -1,17 +1,4 @@
-﻿# Converted from: VARIOU03.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sargahd3/raw/VARIOU03.ANS
-# Source Revision: archive-sha256:d4be65be862c17debbed01c060fb85aadbdbe00a8282836fa25f3f46073f618d
-# Source SHA-256: 1f4de029be16cc658d1fb30d8f62a168278013828239de2665bc9d43f82d8963
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VARIOU03.ANS by Noize + Outraider (fbk.sargahd); released in sargahd3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: unleashed!
-# SAUCE Author: various artists
-# SAUCE Group: fbk.sargahd
-# SAUCE Dimensions: 80x25
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: unleashed! by Noize + Outraider | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sargahd3-variou03
 
 Write-Host '
 [1;35;45m▐▄▓████▓▓▓░░ ░▀█▓░[0;35m▀▀▀▀▐[0;1;35;45m████▓▀▀░░▓███████████▓▓▓█▄░░[0;35m▀▀ [0;36m▐▄▄▄[0;30;42m▓[0;34;40m [0;35;40m▀█[0;1;35;45m▀▓███▓▓▌[0;35m▄ ▓▓[0;1;35;45m░░▀██▌[0m

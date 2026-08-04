@@ -1,17 +1,4 @@
-﻿# Converted from: PO-TFC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tdd-0496/raw/PO-TFC.ANS
-# Source Revision: archive-sha256:e39cb58dd97a963ca2842d090864750adebc6aee5ed43d58b324a5ab270fe5a7
-# Source SHA-256: 6cb896df741b9c466f8fe3c91a22ca2aed45924583aaf81c22da4d21bb298552
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PO-TFC.ANS by Posyden (tdd-0496); released in tdd-0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Forbidden City
-# SAUCE Author: Posyden
-# SAUCE Date: 19950215
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: The Forbidden City by Posyden | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tdd-0496-po-tfc
 
 Write-Host '
 [1;30m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m

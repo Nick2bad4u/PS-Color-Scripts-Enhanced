@@ -1,13 +1,4 @@
-﻿# Converted from: DF-LOGO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moi-1096/raw/DF-LOGO1.ANS
-# Source Revision: archive-sha256:b08f58ff6462f4244b49eaabf5e3eaec7c8e12fe3cf4d84f161db4bcc4a6f782
-# Source SHA-256: 4012db3addfc03c45d16391e91aaeb230fcd0c54621b9aa3bcdb6cc7ed9bb3fc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DF-LOGO1.ANS by Dark Force (moi-1096); released in moi-1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: DF-LOGO1.ANS by Dark Force | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moi-1096-df-logo1
 
 Write-Host '
 

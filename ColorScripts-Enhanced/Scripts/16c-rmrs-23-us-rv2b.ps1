@@ -1,13 +1,4 @@
-﻿# Converted from: US-RV2B.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-23/raw/US-RV2B.ANS
-# Source Revision: archive-sha256:7ef48dbe0a74b3c7871771b18b839998cffe1d8017bebdd056e51e33fe60cf0a
-# Source SHA-256: 8ebcc11bae48b8c07c6599544d8dba43f4c05bda299ec7c341d96e30d0954363
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-RV2B.ANS by Necromancer + Omicron + Whodini + Hiro Protagonist (rmrs-23); released in rmrs-23 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: US-RV2B.ANS by Necromancer + Omicron + Whodini + Hiro Protagonist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-23-us-rv2b
 
 Write-Host '
                            [32m_ ________[0m

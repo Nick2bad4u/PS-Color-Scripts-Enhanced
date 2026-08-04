@@ -1,13 +1,4 @@
-﻿# Converted from: PZA-DOOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/corp-3/raw/PZA-DOOR.ANS
-# Source Revision: archive-sha256:d74c30c885ad8288fe6af9c02d940ce5f4fdbd29afcafa0b00851ad7d1dfe18a
-# Source SHA-256: a33cb31a52465db30f1bdab331f264cebe075ce4a4641ee376d5b9786c3949bf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PZA-DOOR.ANS by Pizza (corp-3); released in corp-3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: PZA-DOOR.ANS by Pizza | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-corp-3-pza-door
 
 Write-Host '
 [1;30m░[0;33m▒▓[0;33;43m [0;1;31;43m░▒ [0;33m▓▄ [0;1;30m▀▄▀█▓▓▒░  [0;1;37m▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1m▄▄▄[0m▄▄[1m▄▄[0m▄▄▄[1m▄[0m▄▄▄▄[1;30m▄[0m▄▄▄[1;30m▄▄[0m▄▄[1;30m▄▄▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

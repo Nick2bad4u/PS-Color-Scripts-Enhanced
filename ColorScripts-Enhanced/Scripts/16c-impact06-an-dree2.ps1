@@ -1,18 +1,4 @@
-﻿# Converted from: AN!DREE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impact06/raw/AN!DREE2.ANS
-# Source Revision: archive-sha256:ef18622c9c66dd847bb2cc457197b6f4440a43602cfe6adb3f0cc31807a0f445
-# Source SHA-256: f8f02a48014f89873f831d7cd5f2cbee6fb9e6a429ecca8c70304548d6983cfe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AN!DREE2.ANS by aneurysm (1mp4c7); released in impact06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: whoa
-# SAUCE Author: aneurysm
-# SAUCE Group: 1mp4c7
-# SAUCE Date: 19970123
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: whoa by aneurysm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impact06-an-dree2
 
 Write-Host '
 [31mi[0;1;31mM[0;1;30mPACT[0m   [1;30m,÷²''[0;35mF[0;1;35mi[0;1;30mNAL[0m  [36m,qd[0;1;36m$$$[0;1;34m,$$$7''[0;34m ,qd$$$$$$$bn, [0;1;34m`²$$$,[0;1;36m`$[0;36mbn,[0m   [1;30mHo[0;1;35mU[0;35mR[0;37m [0;1;30m`²÷,[0m  [1;30m [0m [31mM[0;1;31mA[0;1;30miDEN[0m

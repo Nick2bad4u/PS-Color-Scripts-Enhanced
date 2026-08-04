@@ -1,18 +1,4 @@
-﻿# Converted from: US-INFO0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus03/raw/US-INFO0.ANS
-# Source Revision: archive-sha256:ae240da6329918ab0bf39714e2edb95ea5883c52a5e5edf845b291bbb7142ce1
-# Source SHA-256: 12ed1fca61b997aef73384a7d0b1c1159901b42468391df111870c9baf6441d7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-INFO0.ANS by Mr Wrong + Funk-E (Fokus fonting); released in fokus03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Sodapop Info
-# SAUCE Author: Multiple artists
-# SAUCE Group: Fokus fonting
-# SAUCE Date: 19990427
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Sodapop Info by Mr Wrong + Funk-E | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus03-us-info0
 
 Write-Host '
            [33m [0m   [37m░[0m   [1;30m▄[0;1;37m  [0;1;30m▀[0m          [33m  [0m

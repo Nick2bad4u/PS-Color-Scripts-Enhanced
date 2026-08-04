@@ -1,13 +1,4 @@
-﻿# Converted from: ZE-BLND2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr012/raw/ZE-BLND2.ANS
-# Source Revision: archive-sha256:85afd90470dcc9c6da39bf81c0e72eacde470fdefeb7850c5fb95f1834e06df4
-# Source SHA-256: 882589619ffc2a93cd7cae155e85af0cf32a870aed46077eb5bc1a59a12d5dbc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZE-BLND2.ANS by Ezmpf (blndr012); released in blndr012 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: ZE-BLND2.ANS by Ezmpf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr012-ze-blnd2
 
 Write-Host '
 [1;36m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$8╜[0;32m_,,_[0;1;36m╜?$''[0;32m,gg,[0m

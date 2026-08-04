@@ -1,18 +1,4 @@
-﻿# Converted from: ANM-MX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/scum-01/raw/ANM-MX.ANS
-# Source Revision: archive-sha256:f61df56833f319ce1eda97ac7b98e2dbe1b3360e66311e75841bc42b3bb0d418
-# Source SHA-256: 1e159eb7da23099e07dccebbad3f010df230a81ba1a8a439f5c8d9fd1694bec7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ANM-MX.ANS by anomite (scum); released in scum-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: matrix.
-# SAUCE Author: anomite
-# SAUCE Group: scum
-# SAUCE Date: 19970525
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: matrix. by anomite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-scum-01-anm-mx
 
 Write-Host '
  [34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

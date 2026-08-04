@@ -1,17 +1,4 @@
-﻿# Converted from: ASPHM!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aqua-01/raw/ASPHM!.ANS
-# Source Revision: archive-sha256:2960875f1becf44ae53fc9e16caf3720a5b96a590a7690922990cbf35ab68625
-# Source SHA-256: 3411cfc02b58afdfc5bc606cdda3463039cc85f70a4bbb3322647374e01d72c1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ASPHM!.ANS by Asphynx + Mice (aqua-01); released in aqua-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: affils for you
-# SAUCE Author: mice ^ asphynx
-# SAUCE Date: 19970907
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: affils for you by Asphynx + Mice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aqua-01-asphm
 
 Write-Host '
 [32m                [0;1;33m     _,[0;1;32m*,_[0;32m  [0;1;33m     _,[0;1;32m*,_[0;32m  [0;1;33m Sy[0;32m,[0m

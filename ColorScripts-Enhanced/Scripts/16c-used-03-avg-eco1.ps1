@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-ECO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-03/raw/AVG-ECO1.ANS
-# Source Revision: archive-sha256:d2599b97a9288d8f82ddd62f9c4821cdc0d5105bf01763fad11be3b958d4ce10
-# Source SHA-256: 1891aae12a7b07ab39bcb89ec6ce89d80d24c234e53ccd0f6aa748940b2140e1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-ECO1.ANS by avenging angel (the used coalition); released in used-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: yo momo
-# SAUCE Author: avenging angel
-# SAUCE Group: the used coalition
-# SAUCE Date: 20000115
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: yo momo by avenging angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-03-avg-eco1
 
 Write-Host '
 [1m[0m           [1m  [0m

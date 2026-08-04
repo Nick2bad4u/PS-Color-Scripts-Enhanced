@@ -1,18 +1,4 @@
-﻿# Converted from: DD-RCLN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe05/raw/DD-RCLN.ANS
-# Source Revision: archive-sha256:37d89d30ef39e93d86c9ed1aa9fcfc56f21493baa03286af8b8a012f2401a98a
-# Source SHA-256: 28c664e159ed8e7d7fbd6fbed9d4d219bf5175441de262e4611d521a6be2d9ae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-RCLN.ANS by Diamond Darrell (Circe); released in circe05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Rotten Corpse login
-# SAUCE Author: Diamond Darrell
-# SAUCE Group: Circe
-# SAUCE Date: 19980530
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Rotten Corpse login by Diamond Darrell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe05-dd-rcln
 
 Write-Host '
 [1;33;43m▓▓[0m [33m▓▓▓▓▓▄▄▄▄▄▄▄▄[0;1;30m▄[0m  [1;31m▀▀▀▀▀▀▀▀██▀▀░░░░[0m    [1m▄▄▄▄▄[0m▄▄  [1;32m▀ [0m [1;32;42m▓▓▓[0;1;32;40m▓[0m          [32m▀[0;37m [0;32m▀▀▀▀██[0;1;33;42m░░░░░░░[0m

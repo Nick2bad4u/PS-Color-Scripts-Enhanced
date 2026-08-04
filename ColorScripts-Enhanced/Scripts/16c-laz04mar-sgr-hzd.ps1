@@ -1,17 +1,4 @@
-﻿# Converted from: SGR-HZD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz04mar/raw/SGR-HZD.ANS
-# Source Revision: archive-sha256:44ec2aece59b6e1070eee7535121a4d2aa26d7d69e93852fb8f63376ca44c5f2
-# Source SHA-256: 0dff69f4320f647cc645c36a56d510376ee7631531383222e929f3fc5a8c76f6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SGR-HZD.ANS by sugar less (laz04mar); released in laz04mar and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hazardless d.
-# SAUCE Author: sugar less
-# SAUCE Date: 19970205
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: hazardless d. by sugar less | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz04mar-sgr-hzd
 
 Write-Host '
                            [36m [0;37m  [0;36m ▄[0m

@@ -6,6 +6,10 @@ const fs = require("node:fs");
 const path = require("node:path");
 
 const { auditSource } = require("./Audit-ColorScriptContent.js");
+const {
+    parseArtworkProvenance,
+    readArtworkProvenance,
+} = require("./ArtworkProvenance.js");
 
 const REPOSITORY_ROOT = path.resolve(__dirname, "..");
 const SCRIPTS_DIRECTORY = path.join(
@@ -20,12 +24,12 @@ const SCRIPT_METADATA_PATH = path.join(
 );
 const PROVENANCE_PATH = path.join(
     REPOSITORY_ROOT,
-    "ColorScripts-Enhanced",
+    "audit",
     "ArtworkProvenance.psd1"
 );
 const CHECKPOINT_PATH = path.join(
     REPOSITORY_ROOT,
-    "ColorScripts-Enhanced",
+    "audit",
     "AnsiArchiveCurationCheckpoint.json"
 );
 const EXCEPTIONS_PATH = path.join(
@@ -36,6 +40,7 @@ const EXCEPTIONS_PATH = path.join(
 
 /**
  * @param {string} value
+ *
  * @returns {string}
  */
 function escapeRegExp(value) {
@@ -44,6 +49,7 @@ function escapeRegExp(value) {
 
 /**
  * @param {string} name
+ *
  * @returns {void}
  */
 function assertSafeScriptName(name) {
@@ -55,6 +61,7 @@ function assertSafeScriptName(name) {
 /**
  * @param {string} block
  * @param {string} property
+ *
  * @returns {string | null}
  */
 function getQuotedProperty(block, property) {
@@ -69,6 +76,7 @@ function getQuotedProperty(block, property) {
 /**
  * @param {string} source
  * @param {string[]} names
+ *
  * @returns {{
  *     removedBlocks: Map<string, string>;
  *     source: string;
@@ -101,6 +109,7 @@ function removeProvenanceEntries(source, names) {
 /**
  * @param {string} source
  * @param {string[]} names
+ *
  * @returns {{ removedLines: Map<string, number>; source: string }}
  */
 function removeScriptMetadataLines(source, names) {
@@ -112,9 +121,7 @@ function removeScriptMetadataLines(source, names) {
     for (const line of source.replace(/\r\n?/gu, "\n").split("\n")) {
         const nameMatch = /'([^'\r\n]+)'(?:,|\s*=)/u.exec(line);
         const matchedName =
-            nameMatch && namesToRemove.has(nameMatch[1])
-                ? nameMatch[1]
-                : null;
+            nameMatch && namesToRemove.has(nameMatch[1]) ? nameMatch[1] : null;
         if (matchedName) {
             removedLines.set(
                 matchedName,
@@ -142,6 +149,7 @@ function removeScriptMetadataLines(source, names) {
 /**
  * @param {{ exceptions: object[]; schemaVersion: number }} document
  * @param {string[]} names
+ *
  * @returns {{
  *     document: { exceptions: object[]; schemaVersion: number };
  *     removedCount: number;
@@ -174,16 +182,14 @@ function removeAnalysisExceptions(document, names) {
  *
  * @param {string[]} names
  * @param {string[]} availableNames
+ *
  * @returns {string[]}
  */
 function getFullyRemovedAnalysisScopes(names, availableNames) {
     const selected = new Set(names);
     const scopes = new Set(names);
     for (const name of names) {
-        const family = name.replace(
-            /(?:-panel\d+)?-part\d+$/u,
-            ""
-        );
+        const family = name.replace(/(?:-panel\d+)?-part\d+$/u, "");
         const siblings = availableNames.filter(
             (available) =>
                 available === family ||
@@ -204,7 +210,9 @@ function getFullyRemovedAnalysisScopes(names, availableNames) {
  * @param {object} checkpoint
  * @param {Map<string, string>} removedProvenanceBlocks
  * @param {string} remainingProvenance
- * @param {string} [rejectedDisposition="rejected-quality"]
+ * @param {string} [rejectedDisposition="rejected-quality"] Default is
+ *   `"rejected-quality"`
+ *
  * @returns {object}
  */
 function updateCheckpoint(
@@ -226,13 +234,8 @@ function updateCheckpoint(
     }
     if (
         !rejectedDisposition.startsWith("rejected-") ||
-        !Object.hasOwn(
-            totals.dispositionTotals,
-            rejectedDisposition
-        ) ||
-        !Number.isInteger(
-            totals.dispositionTotals[rejectedDisposition]
-        )
+        !Object.hasOwn(totals.dispositionTotals, rejectedDisposition) ||
+        !Number.isInteger(totals.dispositionTotals[rejectedDisposition])
     ) {
         throw new Error(
             `Checkpoint disposition is unsupported: ${rejectedDisposition}`
@@ -242,11 +245,10 @@ function updateCheckpoint(
     const scriptDecrementsByYear = new Map();
     const removedHashes = new Map();
     const remainingSourceHashes = new Set(
-        [
-            ...remainingProvenance.matchAll(
-                /SourceSha256\s*=\s*'([a-f\d]{64})'/giu
-            ),
-        ].map((match) => match[1].toLocaleLowerCase("en-US"))
+        [...parseArtworkProvenance(remainingProvenance).scripts.values()]
+            .map((entry) => entry.SourceSha256)
+            .filter((value) => typeof value === "string")
+            .map((value) => value.toLocaleLowerCase("en-US"))
     );
     for (const [name, block] of removedProvenanceBlocks) {
         const sourceSha256 = getQuotedProperty(block, "SourceSha256");
@@ -276,16 +278,13 @@ function updateCheckpoint(
     );
     updated.sixteenColors.totals.emittedScriptCount -=
         removedProvenanceBlocks.size;
-    updated.sixteenColors.totals.importedWorkCount -=
-        fullyRemovedHashes.size;
-    updated.sixteenColors.totals.acceptedSourceCount -=
-        fullyRemovedHashes.size;
+    updated.sixteenColors.totals.importedWorkCount -= fullyRemovedHashes.size;
+    updated.sixteenColors.totals.acceptedSourceCount -= fullyRemovedHashes.size;
     updated.sixteenColors.totals.dispositionTotals.accepted -=
         fullyRemovedHashes.size;
     updated.sixteenColors.totals.dispositionTotals[rejectedDisposition] =
-        (updated.sixteenColors.totals.dispositionTotals[
-            rejectedDisposition
-        ] || 0) + fullyRemovedHashes.size;
+        (updated.sixteenColors.totals.dispositionTotals[rejectedDisposition] ||
+            0) + fullyRemovedHashes.size;
     updated.sixteenColors.acceptedSources =
         updated.sixteenColors.acceptedSources.filter(
             (source) => !fullyRemovedHashes.has(source.sourceSha256)
@@ -327,6 +326,7 @@ function updateCheckpoint(
 /**
  * @param {string} filePath
  * @param {string} content
+ *
  * @returns {void}
  */
 function writeFileAtomic(filePath, content) {
@@ -337,6 +337,7 @@ function writeFileAtomic(filePath, content) {
 
 /**
  * @param {string[]} arguments_
+ *
  * @returns {{
  *     checkpointDisposition: string;
  *     namesPath: string | null;
@@ -393,6 +394,7 @@ Options:
 
 /**
  * @param {string[]} arguments_
+ *
  * @returns {void}
  */
 function main(arguments_ = process.argv.slice(2)) {
@@ -461,6 +463,12 @@ function main(arguments_ = process.argv.slice(2)) {
 
     const metadataSource = fs.readFileSync(SCRIPT_METADATA_PATH, "utf8");
     const provenanceSource = fs.readFileSync(PROVENANCE_PATH, "utf8");
+    const provenance = readArtworkProvenance(PROVENANCE_PATH);
+    for (const name of names) {
+        if (!provenance.scripts.has(name)) {
+            throw new Error(`${name}: provenance entry is missing.`);
+        }
+    }
     const checkpoint = JSON.parse(fs.readFileSync(CHECKPOINT_PATH, "utf8"));
     const exceptions = JSON.parse(fs.readFileSync(EXCEPTIONS_PATH, "utf8"));
     const availableNames = fs
@@ -472,10 +480,7 @@ function main(arguments_ = process.argv.slice(2)) {
         )
         .map((entry) => path.basename(entry.name, ".ps1"));
     const metadataResult = removeScriptMetadataLines(metadataSource, names);
-    const provenanceResult = removeProvenanceEntries(
-        provenanceSource,
-        names
-    );
+    const provenanceResult = removeProvenanceEntries(provenanceSource, names);
     const exceptionsResult = removeAnalysisExceptions(
         exceptions,
         getFullyRemovedAnalysisScopes(names, availableNames)
@@ -490,14 +495,11 @@ function main(arguments_ = process.argv.slice(2)) {
     console.log(`Validated scripts selected for removal: ${names.length}`);
     names.forEach((name) => console.log(`  ${name}`));
     console.log(
-        `Metadata references: ${[...metadataResult.removedLines.values()].reduce(
-            (total, count) => total + count,
-            0
-        )}`
+        `Metadata references: ${[
+            ...metadataResult.removedLines.values(),
+        ].reduce((total, count) => total + count, 0)}`
     );
-    console.log(
-        `Analysis exceptions: ${exceptionsResult.removedCount}`
-    );
+    console.log(`Analysis exceptions: ${exceptionsResult.removedCount}`);
 
     if (!options.write) {
         console.log("Dry run complete. Use --write to apply.");

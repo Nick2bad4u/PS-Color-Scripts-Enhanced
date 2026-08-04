@@ -1,18 +1,4 @@
-﻿# Converted from: MR-MIST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m-9801/raw/MR-MIST.ANS
-# Source Revision: archive-sha256:68027b949f7edfef662f12aa514dfc21e6e156e3984f9866a81997534ce6ce87
-# Source SHA-256: 8db9d016b4d24356adcb4602c65c5abf4f458b5d4cf7354d388065fd274e8d33
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-MIST.ANS by Mr.Wrong (Mistigris); released in m-9801 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Mist promo.
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: Mistigris
-# SAUCE Date: 19971216
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Mist promo. by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m-9801-mr-mist
 
 Write-Host '
                 [32m▄[0;37m  [0;32m [0;37m [0m         [31m    [0;37m  [0m

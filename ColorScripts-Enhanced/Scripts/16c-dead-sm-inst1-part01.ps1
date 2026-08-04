@@ -1,13 +1,4 @@
-﻿# Converted from: SM-INST1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dead/raw/SM-INST1.ANS
-# Source Revision: archive-sha256:42002c7465322e6567b6ada22b7d24270f500cdc26769d5efac519e13d8ec757
-# Source SHA-256: 07724ea392904b21ec1dd131e2f19e7f9987f6a7a1af3f760570a12f270acdd4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-INST1.ANS by Soundmaster (dead); released in dead and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: SM-INST1.ANS by Soundmaster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dead-sm-inst1-part01
 
 Write-Host '
                       [32m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄[0;30;42m▀[0;32;40m▄▄▄▄▄▄▄▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: 6R-PCK!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0297/raw/6R-PCK!.ANS
-# Source Revision: archive-sha256:be68381e2a6eb66da2c3748632738b57ddbb1f82deb6e57bebe558461357279b
-# Source SHA-256: 77a4cbf8d53ffe65cbfea6349f645f4637505a69c7ab6c3cab4170398a84337c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 6R-PCK!.ANS by Groove (Bamboosh); released in bmb-0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Pancake
-# SAUCE Author: Groove
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19970203
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Pancake by Groove | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0297-6r-pck
 
 Write-Host '
 

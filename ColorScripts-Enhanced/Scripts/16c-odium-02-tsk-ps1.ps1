@@ -1,18 +1,4 @@
-﻿# Converted from: TSK-PS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-02/raw/TSK-PS1.ANS
-# Source Revision: archive-sha256:47a67f112d88796e8c1419ea3c6c084684ff2719dfc540b2668a69dc0343be0d
-# Source SHA-256: e535b80fcc704a8978ae51640c988e0d0788f033a5cdb832afb75b0ee0392572
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-PS1.ANS by the violent thriller (odium); released in odium-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: photosynthetic shit
-# SAUCE Author: the violent thriller
-# SAUCE Group: odium
-# SAUCE Date: 19951225
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: photosynthetic shit by the violent thriller | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-02-tsk-ps1
 
 Write-Host '
 [35m [0m     [35m·[0;37m  [0;30;45m▓[0;37;40m  [0;35;40m·[0;37;40m [0;32;40mp [0;35;40m·[0;32;40m h [0;35;40m·[0;32;40m o [0;35;40m·[0;32;40m t [0;35;40m·[0;32;40m o [0;35;40m·[0;32;40m s [0;35;40m·[0;32;40m y [0;35;40m·[0;32;40m n [0;35;40m·[0;32;40m t [0;35;40m·[0;32;40m h [0;35;40m·[0;32;40m e [0;35;40m·[0;32;40m t [0;35;40m·[0;32;40m i [0;35;40m· [0;32;40mc[0;37;40m [0;35;40m·[0;37;40m  [0;30;45m▓[0;37;40m  [0;35;40m·[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: ROY-CONF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roy-stuf/raw/ROY-CONF.ANS
-# Source Revision: archive-sha256:1f203f95f339c258e43a9098f8d2e689ed73de537b1cfe6bea312dfc156f1358
-# Source SHA-256: 8ff898daf001a6b00cff0beddf573d388d4c5de4ee182af450ba7c0fddd41a2b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ROY-CONF.ANS by ROY (READ THE INI FILE); released in roy-stuf and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Closed Society Select Conference
-# SAUCE Author: ROY
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19931124
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Closed Society Select Conference by ROY | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roy-stuf-roy-conf
 
 Write-Host '
            [1;30mroy[0m

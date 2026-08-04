@@ -1,13 +1,4 @@
-﻿# Converted from: CRIMINAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cep-0396/raw/CRIMINAL.ANS
-# Source Revision: archive-sha256:c4e1e47a3fe0dc3e95a7562ff18946a744e4291833bf2b4ed2fff04fdd952d76
-# Source SHA-256: 5ebdbef2de201b42a6e32450a13a161af8b4cd273c75ac9e1335d9b986db541c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CRIMINAL.ANS by Cephyr (cep-0396); released in cep-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: CRIMINAL.ANS by Cephyr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cep-0396-criminal
 
 Write-Host '
  [1;30m[cEP/mGE`95][0m        [1;37m▄▄▄▄▄▄▄▄[0m       [1;37m▄▄▄▄▄▄▄▄[0m                    [1;30m▄▄▄▄ ▄▄ ▄  [0;31m▄█[0;1;31;41m░[0;31m▄[0m

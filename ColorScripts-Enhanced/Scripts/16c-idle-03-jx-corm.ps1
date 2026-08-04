@@ -1,18 +1,4 @@
-﻿# Converted from: JX-CORM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/idle-03/raw/JX-CORM.ANS
-# Source Revision: archive-sha256:de0b9b28f255e1cb9ab562a1ef9b6f1152dc7f06e952e19862071341f6d6c4c3
-# Source SHA-256: b20241413706a1f9db1efad0c79f3fe43266a940479eaba411fff695e0f061d5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JX-CORM.ANS by jinx (idle); released in idle-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: coruscant
-# SAUCE Author: jinx
-# SAUCE Group: idle
-# SAUCE Date: 19961002
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: coruscant by jinx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-idle-03-jx-corm
 
 Write-Host '
                                    [34m [0m

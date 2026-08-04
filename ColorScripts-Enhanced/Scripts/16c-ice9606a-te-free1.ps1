@@ -1,13 +1,4 @@
-﻿# Converted from: TE-FREE1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9606a/raw/TE-FREE1.ICE
-# Source Revision: archive-sha256:5e6dcb16553010578f6a54fc5ab7554ad5fc1d41913968e4935ca2f10c08a8a7
-# Source SHA-256: bc91bde4345dd62c3493403dc95a7ae217ce1b85c1d3869e00a8f9bd616a2071
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-FREE1.ICE by Tetanus (ice9606a); released in ice9606a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: TE-FREE1.ICE by Tetanus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9606a-te-free1
 
 Write-Host '
  ▄[1;33;47m░[0m███▄█▀[43m▓▓▒▒▒▒▒░░░░[0;33;40m█[0;33;43m    [0;33;40m████[0;1;30;43m░░░░[0;33m▀▀▀▀▀▀▀▓███████████████▓▓▀▀▀▀▀▀▀██[0;1;30;43m░░▒▒[0;1;30;40m▌  ░░░[0m

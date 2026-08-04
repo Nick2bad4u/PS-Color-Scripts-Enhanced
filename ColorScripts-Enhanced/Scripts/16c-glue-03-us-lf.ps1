@@ -1,17 +1,4 @@
-﻿# Converted from: US-LF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-03/raw/US-LF.ANS
-# Source Revision: archive-sha256:8cf981d9c660d9c99945a037cc3975e95985d6099e63c9913bd07526abf36ba1
-# Source SHA-256: 91463f9fc11cb01a4980daafef53e6149869b97aca8a20be8218656db88acf92
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-LF.ANS by Toot + Phobia + Empower (glue-03); released in glue-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: life force
-# SAUCE Author: phob, empower, toot
-# SAUCE Date: 19970825
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: life force by Toot + Phobia + Empower | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-03-us-lf
 
 Write-Host '
 [36m[0m    [36m    [0;37m▄▄[0;1;37m▄▄[0;1;33m▄▄▄▄▄▄▄▄▄▄[0;36m▄[0;1;33m▄[0;36m▄▄▄▄[0;1;32m▄[0;36m▄░░░░[0m

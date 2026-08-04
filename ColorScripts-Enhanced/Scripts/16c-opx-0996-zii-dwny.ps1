@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-DWNY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0996/raw/ZII-DWNY.ANS
-# Source Revision: archive-sha256:9d2c16f2326b1b98168bc790edb6aadb0d52c5f6484964980e3ad8168b0cc77f
-# Source SHA-256: e6b25106209e70169d0646edc0b67687c9fec835eda21105c208bd35013b4b77
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-DWNY.ANS by Zeus II (Opium); released in opx-0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Nasty logo for darkwood
-# SAUCE Author: Zeus II
-# SAUCE Group: Opium
-# SAUCE Date: 19960807
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: Nasty logo for darkwood by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0996-zii-dwny
 
 Write-Host '
 █▀ [1;30m▓▄[0;1;30;47m▓[0m ▀[1;47m▒░░░[0m██▀▀▀▀█████████▄█████████▀▀            ▀▀[1;30;47m░ [0m███████████[44m█[0;40m████▀[0;34;40m ▄█[0;1;34;44m■[0;34m██▀[0;37m [0m

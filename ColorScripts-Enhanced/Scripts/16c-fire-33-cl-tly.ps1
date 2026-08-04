@@ -1,18 +1,4 @@
-﻿# Converted from: CL!-TLY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-33/raw/CL!-TLY.ANS
-# Source Revision: archive-sha256:b7cee44fd0827cc83a7bc73fa00064e8c1e5d7af79c8b40b6ee489ab68b999de
-# Source SHA-256: 57b8946763639cc0e0925d0ccb9ed19009fb43a2c1a36d19ae298e6419c54f52
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-TLY.ANS by cLEANEr (fIRe); released in fire-33 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: tRILOXY^LOGo
-# SAUCE Author: cLEANEr
-# SAUCE Group: fIRe
-# SAUCE Date: 19980315
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: tRILOXY^LOGo by cLEANEr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-33-cl-tly
 
 Write-Host '
                               [1mb[0;32m┐,. [0m

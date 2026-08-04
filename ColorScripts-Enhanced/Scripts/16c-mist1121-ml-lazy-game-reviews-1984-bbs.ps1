@@ -1,19 +1,4 @@
-﻿# Converted from: ML-LAZY_GAME_REVIEWS-1984_BBS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1121/raw/ML-LAZY_GAME_REVIEWS-1984_BBS.ANS
-# Source Revision: archive-sha256:771587f041ac420692329794c2f3f121d493a011c96c9e3a1fa232032a960fd9
-# Source SHA-256: d497235c2e502128a3afc82334e0db9dd45648969f3d3fa4195b4229c41a045d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ML-LAZY_GAME_REVIEWS-1984_BBS.ANS by MeaTLoTioN (Mistigris); released in mist1121 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Lazy Game Reviews
-# SAUCE Author: MeaTLoTioN
-# SAUCE Group: Mistigris
-# SAUCE Date: 20231116
-# SAUCE Dimensions: 80x35
-# SAUCE Font: IBM VGA
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Lazy Game Reviews by MeaTLoTioN | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1121-ml-lazy-game-reviews-1984-bbs
 
 Write-Host '
                                                         [1;30m▄▄▄[0m

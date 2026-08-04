@@ -1,18 +1,4 @@
-﻿# Converted from: TXT-EU1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/std-1203/raw/TXT-EU1.ANS
-# Source Revision: archive-sha256:cc519a96541ab87c3ccfb6e8a3b506c4dc60ee9fa6ce9aefd475f4a8ca3ef70d
-# Source SHA-256: e11e927741100ce5df6b31433973f4b179d8676a6bedd30ff7772cecb2592855
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TXT-EU1.ANS by The Textorcist (57dd75); released in std-1203 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 7X70NDRU65
-# SAUCE Author: The Textorcist
-# SAUCE Group: 57dd75
-# SAUCE Date: 20031123
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: 7X70NDRU65 by The Textorcist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-std-1203-txt-eu1
 
 Write-Host '
 [1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m             [0;1;32m▒░[0m [1;30m               [0m [1;30m               [0m [1;30m               [0m [1;30m               [0m

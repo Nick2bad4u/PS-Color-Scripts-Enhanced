@@ -1,18 +1,4 @@
-﻿# Converted from: CPL-OPT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-17/raw/CPL-OPT.ANS
-# Source Revision: archive-sha256:8236759fde5db8ee2caeed4c8b472252ce9b47375d97816d78339cb82ea8285c
-# Source SHA-256: b13d322c2b96a429cb2eda170d489bd80d8c2f07146f694be6e2f0b0606fbb90
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPL-OPT.ANS by Commissaris Plons (Ecolove(still)); released in eco-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Option-Dude
-# SAUCE Author: Commissaris Plons
-# SAUCE Group: Ecolove(still)
-# SAUCE Date: 19991221
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: The Option-Dude by Commissaris Plons | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-17-cpl-opt
 
 Write-Host '
 [1;30;46m██▀▀▀▀▀[0;36m█[0;1;30;46m▀[0;36;46m▄▄[0;1;36;46m▄▄[0;36m██[0;1;36;46m▄▄[0;36m████[0;1;30;46m▀[0;36m█[0;1;30;46m▀▀▀█▀█[0;1;30;47m▓▓[0;1;30;40m▀▀▀[0;36m     ▀▀[0;1;36m▀▀[0;36m▀[0;1;36;46m▄▄▄[0;36m█[0;1;30;46m▀▀[0;36m█[0;1;30;46m██[0;1;33;40m [0;33m▄▄ [0;1;30m▀█▀[0;36m▀▀▀[0;1;30;46m▄[0;1;36;46m▀█[0;36m█[0;1;30m█[0;1;33m [0;33m ██▌[0;35m [0;35;45m█[0;1;35;45m▄▄▄▄[0;35;45m▒[0m

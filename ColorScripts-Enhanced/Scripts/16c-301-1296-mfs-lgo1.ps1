@@ -1,18 +1,4 @@
-﻿# Converted from: MFS-LGO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/301-1296/raw/MFS-LGO1.ANS
-# Source Revision: archive-sha256:6f239dcc15d58c6d9331e0bb065ccce7fcfdce2ee998eb6b4810f78fc2937b38
-# Source SHA-256: 7bb071dfd71bbd30a61410212541bff3af5801efcbd016ce24a34f85d2773e2a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MFS-LGO1.ANS by mel farr suppastar (project/301); released in 301-1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: logo colly #1
-# SAUCE Author: mel farr suppastar
-# SAUCE Group: project/301
-# SAUCE Date: 19961227
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: logo colly #1 by mel farr suppastar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-301-1296-mfs-lgo1
 
 Write-Host '
 [1;36mmfs $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$x$[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: US-KS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/locus-08/raw/US-KS1.ANS
-# Source Revision: archive-sha256:eb790a44f4898ec0d7ea4b8e4754397832c1823b5b2db7b7444fc80312388961
-# Source SHA-256: 45acd2cbe04201d12e8e9903eb89b2831a54c0db7ceae9f6176818122965ad8c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-KS1.ANS by Avenging Angel + Somberlain (locus-08); released in locus-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: US-KS1.ANS by Avenging Angel + Somberlain | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-locus-08-us-ks1
 
 Write-Host '
 [1mavg[0m([1mused[0m)         ▄[1m▄▄[0m▄                   [33m▄[0;1;33m▄▄▄▄[0;33m▄[0;37m       [0m        [37m [0m   [37m     [0;1;37msob[0m([1mglue[0m)

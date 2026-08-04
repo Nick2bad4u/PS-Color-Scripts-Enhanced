@@ -1,18 +1,4 @@
-﻿# Converted from: bym-acid.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0402/raw/bym-acid.ans
-# Source Revision: archive-sha256:19898cc2febb6deadccf50832dc421b4f362a33c899e27278bafd225bbc2d4d4
-# Source SHA-256: 9a98657e6c6082baba19cc18866b26bfe814cb6e70b28eb8faff833d8becd021
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bym-acid.ans by bym (revival); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: acid
-# SAUCE Author: bym
-# SAUCE Group: revival
-# SAUCE Date: 20020324
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: acid by bym | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0402-bym-acid
 
 Write-Host '
     [32m░░░░░░░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓███▀▀█████████████████[0;1;32m▒▒▒[0;32m██[0m

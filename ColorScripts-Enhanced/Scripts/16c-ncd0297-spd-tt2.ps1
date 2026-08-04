@@ -1,17 +1,4 @@
-﻿# Converted from: SPD!TT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ncd0297/raw/SPD!TT2.ANS
-# Source Revision: archive-sha256:92b427b7b5566f306ca2f44a558c451ab8e2fb4b2142e10704c789f0f59075cf
-# Source SHA-256: 1aca05ba60e1faeccfcc8d3300a4a9dc78d2734714c06cb44e1187fa246e5c91
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPD!TT2.ANS by spud (ncd0297); released in ncd0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: temptation
-# SAUCE Author: spud
-# SAUCE Date: 19970130
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: temptation by spud | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ncd0297-spd-tt2
 
 Write-Host '
                           [1;30m▄[0m            [1;30m▄ [0m    [1;30m▄[0m

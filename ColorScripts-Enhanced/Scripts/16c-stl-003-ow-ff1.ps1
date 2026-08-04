@@ -1,18 +1,4 @@
-﻿# Converted from: OW-FF1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stl-003/raw/OW-FF1.ANS
-# Source Revision: archive-sha256:f05577e69788bf833b2eeb503583305cc9119acc157823c14e039d65d70a6838
-# Source SHA-256: 87da033cdd12ea0169610a37c4accbbcaa0838cae29c653504d86eb3ab5776cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OW-FF1.ANS by oWyn (STILE); released in stl-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fear factory
-# SAUCE Author: oWyn
-# SAUCE Group: STILE
-# SAUCE Date: 19951205
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: fear factory by oWyn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stl-003-ow-ff1
 
 Write-Host '
    [1;30m               [0m            [1m▄▄   [0;1;31m▄ ▄██▄█▀ ▄[0m         [1m▄▄[0;1;30m                    [0m

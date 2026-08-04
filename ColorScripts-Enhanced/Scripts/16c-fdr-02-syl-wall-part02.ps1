@@ -1,13 +1,4 @@
-﻿# Converted from: SYL-WALL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fdr-02/raw/SYL-WALL.ANS
-# Source Revision: archive-sha256:15396cd727e081bbaaee85447e61d10d48ae0bd147bff6fe38ceb25299afa7ea
-# Source SHA-256: 0dd193b46e30a5a8aaa7524d5cc5b11b0f86e68d4181ce91081a61437eaf5952
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SYL-WALL.ANS by Sylvao (fdr-02); released in fdr-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 51-99
-# Columns: 1-80
+﻿# Artwork: SYL-WALL.ANS by Sylvao | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fdr-02-syl-wall-part02
 
 Write-Host '
 [31m███▓██[0;37m [0;32m▓██▓[0;31m██▓▀▄██[0;37m [0;31m█[0;32m░▓███▓[0;31m█▓██[0;30m█[0;32m▒██▓▓▓▓███[0;31m▀[0;37m [0;31m██▀[0;32m░▓██▓▓▓▓▓████▓[0;31m█▓▀▄██[0;37m [0;31m██▄█████▓██[0;37m [0;31m█[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: ARL-XFN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe01/raw/ARL-XFN.ANS
-# Source Revision: archive-sha256:0b64c26f533b8c11a1aca04e7dcc1e21d4b014c2d6532ba66a48148862d54cb2
-# Source SHA-256: 3b05e80843f038770b27133bfd752a52629231c51d8ecb62bc6ffd97ea81d6e9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARL-XFN.ANS by Arlequin (circe01); released in circe01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: ARL-XFN.ANS by Arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe01-arl-xfn
 
 Write-Host '
 [30;47m$[0;37;40mF` [0;1;35;40m_,▬┌g[0;35m [0;37m:`[0;1;35m__[0m`"ⁿ└*[1mY$$[0;1;47m$$[0;1;40mbggggggggd$$[0;30;47m$$[0;1;37;47m$$[0;1;37;40mF*┘[0mⁿ""ⁿ└*[1mY$$[0;1;47m$$$[0;1;40m$$$$╠╠╠$$$ⁿⁿ[0mⁿⁿⁿⁿⁿⁿⁿⁿ[1mⁿⁿ$[0m:

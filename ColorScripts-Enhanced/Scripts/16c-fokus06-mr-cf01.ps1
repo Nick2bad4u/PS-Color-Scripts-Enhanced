@@ -1,18 +1,4 @@
-﻿# Converted from: MR-CF01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus06/raw/MR-CF01.ANS
-# Source Revision: archive-sha256:dc26abf5be8f48f280ad19d58f0c64fc91b5db6a0fab8539aa3970e4d64fad45
-# Source SHA-256: f9b895cc0412f6473a5ab93c8bae8383dea2325c2aafa54c1b3208e4f7a07850
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-CF01.ANS by Mr.Wrong (Fokus fonting); released in fokus06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Chronic Farts
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: Fokus fonting
-# SAUCE Date: 19990801
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Chronic Farts by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus06-mr-cf01
 
 Write-Host '
                                                          [36m [0m   [1;33m [0m

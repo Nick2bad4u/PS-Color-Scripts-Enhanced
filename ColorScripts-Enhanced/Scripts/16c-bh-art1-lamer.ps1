@@ -1,13 +1,4 @@
-﻿# Converted from: LAMER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bh-art1/raw/LAMER.ANS
-# Source Revision: archive-sha256:b16299afe973606e25d15d577175da7222013baff11e43f005e9ce125887dbcc
-# Source SHA-256: 89de63256b9e16dab212a2aa17dfa320e1336077350f739822806f859c9fb0cc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LAMER.ANS by Hacker-Bh (bh-art1); released in bh-art1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: LAMER.ANS by Hacker-Bh | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bh-art1-lamer
 
 Write-Host '
    [1m█████▄  ██████  ██████▄[0m      [5;31m█[0m         [5;31m▄[0m     [5;31m█[0m       [5;31m█  ██████  ██████▄[0m

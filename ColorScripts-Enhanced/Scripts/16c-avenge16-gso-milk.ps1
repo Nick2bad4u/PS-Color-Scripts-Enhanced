@@ -1,18 +1,4 @@
-﻿# Converted from: GSO-MILK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge16/raw/GSO-MILK.ANS
-# Source Revision: archive-sha256:41b95bc60f7563fc793aa38badcbd774150d7a4047808139dd61df92b8192e56
-# Source SHA-256: 4177a73e5957ad577497996f0f6fe921bb13148285c1bfa724a706743158e88c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GSO-MILK.ANS by gso (avenge); released in avenge16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: skumm mj?lk
-# SAUCE Author: gso
-# SAUCE Group: avenge
-# SAUCE Date: 19990418
-# SAUCE Dimensions: 80x46
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: skumm mj?lk by gso | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge16-gso-milk
 
 Write-Host '
 [1;31;42m▓▓▓▓[0;1;31;40m██[0;1;31;47m█[0;1;31;40m█[0;1;31;43m▓░[0;33m▄[0;1;31m [0;30;47m████[0;33;40m▐[0;1;31;43m▐[0;1;31;40m██[0;1;31;43m▀[0;33m▀▀▀[0;1;31;43m▀[0;1;31;40m████████████████[0;1;31;43m▀▀██[0;1;31;40m████[0;1;31;43m▀▀▀[0;1;31;40m▀[0;33m▀[0;30;47m████[0;33;40m▀[0;1;31;43m▀[0;1;31;40m█[0;1;31;42m▓▓[0;1;31;43m▄[0m [32m [0;1;30m▐[0;1;30;42m█[0;36;45m░░[0;1;31;45m        [0;1;30;45m▀[0;1;30;40m▄[0m

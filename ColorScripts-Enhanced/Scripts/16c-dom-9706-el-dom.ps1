@@ -1,18 +1,4 @@
-﻿# Converted from: EL-DOM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dom-9706/raw/EL-DOM.ANS
-# Source Revision: archive-sha256:a16d91b4075cff760b5038e2a8f1aab02d1965c9e4bbc85ed187b0405326b9b6
-# Source SHA-256: 6148a37d7398ea7c01d568c9c53de0619ac4c4c085cc746ce2259be5387a41f7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EL-DOM.ANS by Elastic (Domino Guest); released in dom-9706 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Domino Guest Font.
-# SAUCE Author: Elastic
-# SAUCE Group: Domino Guest
-# SAUCE Date: 19970605
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Domino Guest Font. by Elastic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dom-9706-el-dom
 
 Write-Host '
 

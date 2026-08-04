@@ -1,18 +1,4 @@
-﻿# Converted from: ARL-ACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ltm-0002/raw/ARL-ACID.ANS
-# Source Revision: archive-sha256:781901eb93f0cb031ec3f7b4daa19680a5eef01b4b60325740b7b545db2b86c8
-# Source SHA-256: 31c941513d86a656822c6dcbed37c60bc8909a26c4161cadda36f1a94b6cdde0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARL-ACID.ANS by Arlequin (Lithium); released in ltm-0002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Acid           "Acido Argentino"
-# SAUCE Author: Arlequin
-# SAUCE Group: Lithium
-# SAUCE Date: 19970709
-# SAUCE Dimensions: 80x25
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: Acid "Acido Argentino" by Arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ltm-0002-arl-acid
 
 Write-Host '
                                       [35m,╓#$#╖.[0m

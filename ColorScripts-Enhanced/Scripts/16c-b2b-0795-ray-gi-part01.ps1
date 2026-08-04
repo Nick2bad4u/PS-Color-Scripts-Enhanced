@@ -1,18 +1,4 @@
-﻿# Converted from: RAY^GI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/b2b-0795/raw/RAY%5EGI.ANS
-# Source Revision: archive-sha256:8e10b7c1c977a26397c38c863229df8f735caadc9af3741f089d2a5031818bc8
-# Source SHA-256: 4e7e0507d9d004486d61341b49412b536fc9dffc2f9ec9081602a994c46c813d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RAY^GI.ANS by ^rAYTRAYZa^ (bACK tO bASiX); released in b2b-0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: GOLDEN iMAGE
-# SAUCE Author: ^rAYTRAYZa^
-# SAUCE Group: bACK tO bASiX
-# SAUCE Date: 19950709
-# SAUCE Dimensions: 80x25
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: GOLDEN iMAGE by ^rAYTRAYZa^ | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-b2b-0795-ray-gi-part01
 
 Write-Host '
 [1;30m[0m

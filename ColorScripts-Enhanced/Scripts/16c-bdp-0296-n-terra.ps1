@@ -1,18 +1,4 @@
-﻿# Converted from: N$-TERRA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bdp-0296/raw/N%24-TERRA.ANS
-# Source Revision: archive-sha256:291145d8d8f3eab37f55de992303285e39bcc9a64c52259e0a1f0ff8ffd94693
-# Source SHA-256: 06c9caaebf03f4e782f6bd343c919915a61b5bacd896eb28c5dc878b5736db53
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N$-TERRA.ANS by no$Feratu (.boogiE%Woogie.); released in bdp-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: TerraNova
-# SAUCE Author: no$Feratu
-# SAUCE Group: .boogiE%Woogie.
-# SAUCE Date: 19960203
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: TerraNova by no$Feratu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bdp-0296-n-terra
 
 Write-Host '
 [30;42m [0;37;40m [0;30;42m  [0;37;40m [0;30;42m  [0;37;40m [0;30;42m  [0;37;40m [0;30;42m  [0;37;40m [0;30;42m  [0;37;40m [0;30;46m                                              [0;37;40m [0;30;42m  [0;37;40m [0;30;42m  [0;37;40m [0;30;42m  [0;37;40m [0;30;42m  [0;37;40m [0;30;42m  [0;37;40m [0;30;42m [0m

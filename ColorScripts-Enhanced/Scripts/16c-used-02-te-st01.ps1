@@ -1,18 +1,4 @@
-﻿# Converted from: TE-ST01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-02/raw/TE-ST01.ANS
-# Source Revision: archive-sha256:21302c91644277d9117a9a1fcab004f6fa76d5a90d6a4926e513a24dd5b73cd5
-# Source SHA-256: aa5fa95a934d6bd3b530f6750c775f55478cf359043811c524ec102482e20dcc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-ST01.ANS by tHEXT (Used); released in used-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Sietch Tabr statscreen
-# SAUCE Author: tHEXT
-# SAUCE Group: Used
-# SAUCE Date: 19991201
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Sietch Tabr statscreen by tHEXT | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-02-te-st01
 
 Write-Host '
 [34m▄[0;1;34;44m ▀▀▀▀[0;30;44m    [0;1;34;44m▐▓[0;1;34;47m▓[0;1;34;44m▌[0;30;44m  [0;1;34;44m▄▌  ▄▄▄[0;30;44m ▄▄ [0;1;34;44m▀[0;30;44m ▄▀  [0;1;34;44m ▄▄▀▀▀[0;30;44m [0;1;34;44m▀      [0;1;34;47m▓▓▀▀[0;1;34;44m▄▄▄▄ ░░░░░░░░░░░░[0;30;44m    [0;1;34;44m▀▀▀▀▀[0;30;44m [0;34;40m▄[0m

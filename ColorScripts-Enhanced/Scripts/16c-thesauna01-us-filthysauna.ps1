@@ -1,19 +1,4 @@
-﻿# Converted from: us-filthysauna.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna01/raw/us-filthysauna.ans
-# Source Revision: archive-sha256:70f712dbf565de1ceb0f2b7020b54aa443621235a47b082b92e24e13342b0672
-# Source SHA-256: e1c325c619863a55212b550cc3d29886c290413c3796d286fba49eb8c4d8fa27
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-filthysauna.ans by Filth + Avenging Angel (sauna); released in thesauna01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: filthy sauna
-# SAUCE Author: avg + fil
-# SAUCE Group: sauna
-# SAUCE Date: 20190926
-# SAUCE Dimensions: 80x39
-# SAUCE Font: IBM VGA
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: filthy sauna by Filth + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna01-us-filthysauna
 
 Write-Host '
 

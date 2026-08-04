@@ -1,18 +1,4 @@
-﻿# Converted from: VD!JUIC!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rage1096/raw/VD!JUIC!.ANS
-# Source Revision: archive-sha256:57a909c1d4f1d03e381721074bffd5b3cc00842210a7fd9c8334803eac909df4
-# Source SHA-256: 4e909ba57bbce0b30e2ff5969b156a6be7a1cbc151286402af37ee02c2b328e9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VD!JUIC!.ANS by vIGod (RAGE ARTS 96'); released in rage1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Juice thingy login
-# SAUCE Author: vIGod
-# SAUCE Group: RAGE ARTS 96'
-# SAUCE Date: 19960810
-# SAUCE Dimensions: 80x48
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: Juice thingy login by vIGod | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rage1096-vd-juic
 
 Write-Host '
 [1;33;43m█████[0;1;33;40m▀[0;1;33;43m█[0;1;33;40m█▀[0;1;33;43m█░[0;33m██[0;37m [0;33m▄▄[0;1;33;43m░[0;33m▀▀▀[0;37m [0;36m████████████████████████████████████████▀▀▀▀▀▀████████████[0m

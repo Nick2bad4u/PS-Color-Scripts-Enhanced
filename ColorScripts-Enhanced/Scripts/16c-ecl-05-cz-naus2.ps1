@@ -1,18 +1,4 @@
-﻿# Converted from: CZ-NAUS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-05/raw/CZ-NAUS2.ANS
-# Source Revision: archive-sha256:9471ca7612415a41916878584e9d9bf710a5efbc5b8d389ed1bde764e2a602ca
-# Source SHA-256: 6e9c24a3c1a35ac3e14b148f6b2f1a5929cdbe84165229ccf6988a7c09b8b0bd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CZ-NAUS2.ANS by pleaser cheezer (eclipse); released in ecl-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: nausia
-# SAUCE Author: pleaser cheezer
-# SAUCE Group: eclipse
-# SAUCE Date: 19960815
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: nausia by pleaser cheezer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-05-cz-naus2
 
 Write-Host '
 [1;30m           [0m [1;33m▄[0;1;37m▄▄▄ [0;1;30m      [0m ▄ [1;30m   [0m  [1;30m   [0m [33m▄▄▄▄[0;1;31;43m     [0;33m▄▄▄▄[0;37m [0;1;30m    [0m [1m▄▄▄▄▄▄▄▄▄[0m▄▄[1m [0m▄▄ [1;30m           [0m

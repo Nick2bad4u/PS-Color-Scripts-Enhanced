@@ -1,17 +1,4 @@
-﻿# Converted from: US-FRC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-16/raw/US-FRC.ANS
-# Source Revision: archive-sha256:9ad935bd4cbb2615c5c684e690bc8979daa45859d0282b370bf26a8750d02425
-# Source SHA-256: 0875ad7b75c7f3352b9f5f18b2ea7d504f386f3c6fb12e67386bb4fa007b743f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FRC.ANS by Criminal Enigma + Kleptomaniac (force-16); released in force-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fOrce
-# SAUCE Author: Multiple Artists
-# SAUCE Date: 19970322
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: fOrce by Criminal Enigma + Kleptomaniac | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-16-us-frc
 
 Write-Host '
                  [31m░[0;30;41m▓[0m       [30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: UG-JELLO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0895/raw/UG-JELLO.ANS
-# Source Revision: archive-sha256:d7578eae73cd5d7b840a098302ec5eecc570498f801ff39620bcdfbd3bc36d42
-# Source SHA-256: 2059673ff336de477774332b663d98981846588a3c2f92fd5d543594d53dd180
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UG-JELLO.ANS by Number 28 + Peak Velocity (Union); released in uni-0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Jello Insanity
-# SAUCE Author: Union Group Prod.
-# SAUCE Group: Union
-# SAUCE Date: 19950715
-# SAUCE Dimensions: 80x138
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: Jello Insanity by Number 28 + Peak Velocity | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0895-ug-jello-part01
 
 Write-Host '
 [35m██████████████████████████████████████████████████████████████████████████████▓[0m

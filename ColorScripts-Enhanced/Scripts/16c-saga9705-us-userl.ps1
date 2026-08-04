@@ -1,18 +1,4 @@
-﻿# Converted from: US-USERL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/saga9705/raw/US-USERL.ANS
-# Source Revision: archive-sha256:9950004e76ea5c0e6c27ac92b1d4c958f7cea833041843273d527effb62ad1ee
-# Source SHA-256: 098b682cd85f8833a3cc8b3b4bdc360b59c5977c449f9c5c19b58a9bbeaaf234
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-USERL.ANS by Stoner + Sharque + Creator (saga); released in saga9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: User login
-# SAUCE Author: multiple artist
-# SAUCE Group: saga
-# SAUCE Date: 19970510
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: User login by Stoner + Sharque + Creator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-saga9705-us-userl
 
 Write-Host '
              [36m░[0;30;46m▀▀▀    [0;1;36;46m░  [0;30;46m▄ [0;36;40m▀ [0;33;40m▄██▓▓██ ███▀[0;1;30;40m▄[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[30m•[0m

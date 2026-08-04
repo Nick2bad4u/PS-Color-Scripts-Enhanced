@@ -1,17 +1,4 @@
-﻿# Converted from: TR-RISC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-07/raw/TR-RISC.ANS
-# Source Revision: archive-sha256:87d90bdc1c58c50ea0888b8aaf262fcc5dbe049c5db52a725ab539c33c4e5735
-# Source SHA-256: 3350d86f2becd285482ba04f080d3be38e8afc05c3302fed280a7fb47dee65b2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-RISC.ANS by Trident (Hypeart); released in hype-07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: " Risc Logo, (my best ever) "
-# SAUCE Author: Trident
-# SAUCE Group: Hypeart
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: " Risc Logo, (my best ever) " by Trident | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-07-tr-risc
 
 Write-Host '
                                                   [1;30m [0m         ▄▄▄▄[1m▄█[0m

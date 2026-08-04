@@ -1,13 +1,4 @@
-﻿# Converted from: SU-REHAB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r7/raw/SU-REHAB.ANS
-# Source Revision: raw-sha256:870f5655f1aeb0a1e57408fb74ef0e1af219ae9346c9688ac6895165f9ef83da
-# Source SHA-256: 870f5655f1aeb0a1e57408fb74ef0e1af219ae9346c9688ac6895165f9ef83da
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SU-REHAB.ANS by Suhu (afc-r7); released in afc-r7 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 39-76
-# Columns: 1-80
+﻿# Artwork: SU-REHAB.ANS by Suhu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r7-su-rehab-part02
 
 Write-Host '
 [1;34;40m [0;1;34;44m██▓▒░ [0;30;47m█[0;1;36;46m▓▒░[0;36m████▄▄[0;30;47m█[0;1;37;40m██[0;30;47m█[0;36;40m██████ [0;32;40m░░░▒▀  [0;36;40m▄██████████████████████[0;30;47m█[0;1;30;40m▀█[0;30;47m█[0;36;40m████▓▒▓██▌[0;30;44m▌[0;1;34;44m░░▒▓██[0m

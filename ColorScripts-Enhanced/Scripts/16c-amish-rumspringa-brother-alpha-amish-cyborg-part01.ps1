@@ -1,19 +1,4 @@
-﻿# Converted from: brother-alpha-amish-cyborg.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amish-rumspringa/raw/brother-alpha-amish-cyborg.ans
-# Source Revision: archive-sha256:710f00c8e218c58e7f7c9fe172cb22279b1ebbb4b713832762c12e983eb7ac2d
-# Source SHA-256: 2707bbc40f095c978cdd8ef06c549060753e3631c0c65cbe5cb3ba2e59fe0d20
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: brother-alpha-amish-cyborg.ans by Brother Alpha (AMiSH); released in amish-rumspringa and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Shut Up, Amish Cyborg!
-# SAUCE Author: Brother Alpha
-# SAUCE Group: AMiSH
-# SAUCE Date: 20180717
-# SAUCE Dimensions: 80x58
-# SAUCE Font: IBM VGA
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Shut Up, Amish Cyborg! by Brother Alpha | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amish-rumspringa-brother-alpha-amish-cyborg-part01
 
 Write-Host '
 [1;34;40m▓▓▓▓▓▓▓▓▓▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m                          [1;34m▀▀▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m

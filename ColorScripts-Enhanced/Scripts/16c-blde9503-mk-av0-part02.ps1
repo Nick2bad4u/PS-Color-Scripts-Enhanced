@@ -1,18 +1,4 @@
-﻿# Converted from: MK-AV0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9503/raw/MK-AV0.ANS
-# Source Revision: archive-sha256:72185d7ca3df5653ee1a42b2eb8e244cb5d2597fdc0961f51b76f8fa01da3a75
-# Source SHA-256: f2c45608b34533978b81f1b44de66ecda8caec39f3510a57604a257f71d7cfb9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MK-AV0.ANS by modeus khahn (Blade Productions); released in blde9503 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: avga!
-# SAUCE Author: modeus khahn
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19950215
-# SAUCE Dimensions: 80x25
-# Lines: 37-71
-# Columns: 1-80
+﻿# Artwork: avga! by modeus khahn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9503-mk-av0-part02
 
 Write-Host '
 [1;35;45m█▀▀[0;35m█▀ [0;32m██[0;1;32;42m▀[0;1;32;40m███████▀ [0;1;35;40m▄██▀ [0;1;37;40m▄[0;1;37;47m▓[0;1;37;40m▄▄▀[0m     [1;37;40m▀▀▀▀▀▀▀█[0;1;37;47m▄▄[0m▀▀▀▀  [1m▄▄▄[0m▌[1m▐[0;1;47m░[0m▄ [1;35m██[0;1;35;45m   [0;35m▌[0;1;32m▐████[0;1;32;42m▀▀  ▄▓[0;1;32;40m▀ ██[0;1;32;42m▓[0;1;32;40m█[0m

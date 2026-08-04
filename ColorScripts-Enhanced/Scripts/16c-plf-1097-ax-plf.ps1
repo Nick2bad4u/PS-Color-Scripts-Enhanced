@@ -1,18 +1,4 @@
-﻿# Converted from: AX%PLF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1097/raw/AX%25PLF.ANS
-# Source Revision: archive-sha256:36c7150b2835995ba27c6f1c5cfc23dc5fdf9213c2fb0b333e09d1aa0d00da5f
-# Source SHA-256: 7714337cd4105b5293a2c7e24046bfce453e494a4a55bfb75aa2137972d48f96
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AX%PLF.ANS by Alla Xul (poffelipoff); released in plf-1097 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: poffelipoff
-# SAUCE Author: Alla Xul
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19971114
-# SAUCE Dimensions: 80x25
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: poffelipoff by Alla Xul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1097-ax-plf
 
 Write-Host '
 [30;46m░░[0;1;37;46m▒[0;36m█[0;30;46m▀[0;36;40m██[0;30;46m▄█[0;1;30;40m▒▒▒██▓[0;1;30;47m▄[0m▄▄[30;46m█▄[0;36;40m██████████[0;30;46m▀▀▀██▀[0;36;40m███[0;30;46m [0;1;37;46m█▓[0;30;46m ▀██▀▀▀█▀▀ [0;1;37;46m▄▓▓[0;30;46m░▀████▀░[0;1;37;46m▄[0;30;46m▀▀███████[0;36;40m ░[0;30;46m█[0;36;40m░[0;30;46m█[0;36;40m [0m

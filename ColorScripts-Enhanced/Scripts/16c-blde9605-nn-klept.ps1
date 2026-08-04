@@ -1,18 +1,4 @@
-﻿# Converted from: NN-KLEPT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9605/raw/NN-KLEPT.ANS
-# Source Revision: archive-sha256:644a8b90a5c5ec724e95ecee326ed183bff05e759113d75234577c85289317dc
-# Source SHA-256: 2dc4921b0a723250009dd529809a59ad7e2084ffdb70755041dd245c49a20162
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NN-KLEPT.ANS by neo negro (blade productions); released in blde9605 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: klepto!
-# SAUCE Author: neo negro
-# SAUCE Group: blade productions
-# SAUCE Date: 19960521
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: klepto! by neo negro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9605-nn-klept
 
 Write-Host '
 

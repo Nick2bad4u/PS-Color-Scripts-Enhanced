@@ -1,17 +1,4 @@
-﻿# Converted from: US-AWE3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9706/raw/US-AWE3.ANS
-# Source Revision: archive-sha256:867680f5fb3c86dcb017d8ed4cd79085881689d65da90056f84aba519ae4bdfe
-# Source SHA-256: 00ef927106c323e0ec0fd3e0fab474359558523a918a2381d5ab1dbc158b7a0b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-AWE3.ANS by Samurai + Hennifer (AWE Lettering); released in awe9706 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: AWE Promotional
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: AWE Promotional by Samurai + Hennifer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9706-us-awe3
 
 Write-Host '
 

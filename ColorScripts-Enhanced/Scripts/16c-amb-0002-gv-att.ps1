@@ -1,18 +1,4 @@
-﻿# Converted from: GV-ATT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amb-0002/raw/GV-ATT.ANS
-# Source Revision: archive-sha256:ddf2bfb6c349501ad0002133992d1d3c9602291731a9f4cef0d5ef9af30b761f
-# Source SHA-256: a414b655b2b6c310c134cd55d8e329f0fee78bc9c307057c5cd090fa1e46539c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GV-ATT.ANS by Groove (AMBUSH Productions); released in amb-0002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Attitude E-Mag #1
-# SAUCE Author: Groove
-# SAUCE Group: AMBUSH Productions
-# SAUCE Date: 19961022
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Attitude E-Mag #1 by Groove | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amb-0002-gv-att
 
 Write-Host '
                        [1;30m                          ;[0m

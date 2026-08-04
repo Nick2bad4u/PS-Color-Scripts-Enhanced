@@ -1,13 +1,4 @@
-﻿# Converted from: TS-TRT4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/orbit01/raw/TS-TRT4.ANS
-# Source Revision: archive-sha256:45e7ee6ca4092d8688f02c906ea29837a94566f7544687f1a5895261397fc2fe
-# Source SHA-256: 1ec578177d466723c133eedca32b7c892c68d114c90a2054c8ce14204e6113dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-TRT4.ANS by Tsunami Surge (orbit01); released in orbit01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: TS-TRT4.ANS by Tsunami Surge | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-orbit01-ts-trt4-part01
 
 Write-Host '
 [1;31m░░▒▒▒▒▒▒░░░░[0m        [34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m                [31m░░░▒▒▒░░░░[0m               [31m░░░[0m

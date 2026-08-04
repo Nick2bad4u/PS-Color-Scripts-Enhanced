@@ -1,18 +1,4 @@
-﻿# Converted from: US-ZEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zenith01/raw/US-ZEN.ANS
-# Source Revision: archive-sha256:89a769066be1ade04361b16bc2aabeb1a280fe034deee0fe7ee4c75badc7461d
-# Source SHA-256: b802f76d71fe40899b0a47daf1a23f5829c9542f9552dcc5fb005c8eb96c88b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ZEN.ANS by Taintedx + Retribution (Zenith); released in zenith01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Zenith
-# SAUCE Author: Retribution/TaintedX
-# SAUCE Group: Zenith
-# SAUCE Date: 19980426
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Zenith by Taintedx + Retribution | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zenith01-us-zen
 
 Write-Host '
 

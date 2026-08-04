@@ -1,18 +1,4 @@
-﻿# Converted from: POS-POSP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dtd01/raw/POS-POSP.ANS
-# Source Revision: archive-sha256:708f42274510c5a14e730f5bfaed08f3467d44dc8c43077c289cc2c76c74ff80
-# Source SHA-256: 8fc94ef69abb1f8a64d99ba6c77927712a9a8dea14d8449fe796185579db9f26
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: POS-POSP.ANS by positive pain (dtd); released in dtd01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: two posp banner
-# SAUCE Author: positive pain
-# SAUCE Group: dtd
-# SAUCE Date: 19970303
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: two posp banner by positive pain | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dtd01-pos-posp
 
 Write-Host '
                    [1;30m.aS$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$Sn.[0m

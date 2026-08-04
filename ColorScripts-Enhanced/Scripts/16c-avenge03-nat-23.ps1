@@ -1,13 +1,4 @@
-﻿# Converted from: NAT-23.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge03/raw/NAT-23.ANS
-# Source Revision: archive-sha256:b53dd4509a562cc71a73a559baa7e13eeefa1cf193e827eee6178c14e3bd46f3
-# Source SHA-256: b49ea891308928431e57ae5868ada9d91060752c6c39a7cd3de476041b870f97
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NAT-23.ANS by Sudden Death (avenge03); released in avenge03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: NAT-23.ANS by Sudden Death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge03-nat-23
 
 Write-Host '
 [33m░▓▓[0;1;31;43m  [0;33m▀  ▄[0;1;31;43m                    [0;1;31;40m▄▄   ▀▀████████████████████████[0;1;31;43m█[0;1;31;40m█▀▀░[0;1;31;43m░░▒[0;1;34;40m [0;1;33;43m░▒▓[0;1;33;40m█[0;1;33;43m▓▓[0;1;33;40m▀ [0;1;37;47m▓▒░[0m

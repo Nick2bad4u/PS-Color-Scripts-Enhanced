@@ -1,18 +1,4 @@
-﻿# Converted from: ZP-LG14.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel14/raw/ZP-LG14.ANS
-# Source Revision: archive-sha256:5ee61a0e94a8eed583658335c026a1a037023d44b54da693bbed2c0844c1a5d9
-# Source SHA-256: af360855c478e95048164ff58e64f13dcd7b6657670cc8b0ba659f6289a5331e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZP-LG14.ANS by zippy (fuel); released in fuel14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: logo for fuel 14
-# SAUCE Author: zippy
-# SAUCE Group: fuel
-# SAUCE Date: 19970626
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: logo for fuel 14 by zippy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel14-zp-lg14
 
 Write-Host '
                        [32m▄[0m

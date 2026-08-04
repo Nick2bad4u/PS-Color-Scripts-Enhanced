@@ -1,13 +1,4 @@
-﻿# Converted from: ACIDROCK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0992/raw/ACIDROCK.ANS
-# Source Revision: archive-sha256:38fe3656c7af5c5e25863e8e0613e81f27c4932fc2485b451dab47528613133b
-# Source SHA-256: 7d35d97edef018ba2e7063c0905719fb5ab7e7e411dbf16aae6d776c0dcea790
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ACIDROCK.ANS by Slum Dweller (acdu0992); released in acdu0992 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: ACIDROCK.ANS by Slum Dweller | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0992-acidrock
 
 Write-Host '
            [32m▄▄[0;1;32;42m▄[0;1;32;40m█████▄▄[0m     [1;32;40m▄██[0m                                      [1;30;40m▄▀▄▀▄ ▄[0m

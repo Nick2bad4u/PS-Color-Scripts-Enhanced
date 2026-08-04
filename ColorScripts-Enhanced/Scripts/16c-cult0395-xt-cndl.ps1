@@ -1,13 +1,4 @@
-﻿# Converted from: XT-CNDL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cult0395/raw/XT-CNDL.ANS
-# Source Revision: archive-sha256:46e89627e853630181afc28b6b2be39a9f1930922d17bc36458e6f2b48b5b66e
-# Source SHA-256: c99beaad76da4b121cb5cfa86f26222900fa05a32662901ee3ecc4efc3fd979e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XT-CNDL.ANS by Exit (cult0395); released in cult0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: XT-CNDL.ANS by Exit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cult0395-xt-cndl
 
 Write-Host '
              [31m█████████▒[0m      [31m█░   █[0m         [31m█░[0m            [31m▄█▀[0m

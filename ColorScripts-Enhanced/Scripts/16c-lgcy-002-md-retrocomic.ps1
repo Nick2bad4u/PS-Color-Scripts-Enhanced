@@ -1,18 +1,4 @@
-﻿# Converted from: md-retrocomic.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-002/raw/md-retrocomic.ans
-# Source Revision: archive-sha256:035806f627526bbca92fb6becafc359d23b231b3ea478b7169ed62b6d2a1cc54
-# Source SHA-256: 75cf73e050768b5b375fac07745178bbc30128ff45908ae86b425c4a2f3f668e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: md-retrocomic.ans by M4DD0G (Legacy Krew); released in lgcy-002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: M4DD0G
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20200213
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: md-retrocomic.ans by M4DD0G | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-002-md-retrocomic
 
 Write-Host '
 [1;37;40m██████████████████████████████████████████████████████████████[0;1;37;47m█▌[0m▌[1;36m▐█████████████[0m

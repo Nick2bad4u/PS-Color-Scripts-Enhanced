@@ -1,18 +1,4 @@
-﻿# Converted from: SO-DSUN2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0794/raw/SO-DSUN2.ANS
-# Source Revision: archive-sha256:53cd35a6f327a0c8a649f0c556ca1e17aa60e6c4040eff696f9e35efc72f4414
-# Source SHA-256: 4a0080fb741414ec9c24c7f73f0e7ff42f2fb64013b4c355773c5986883f1bdc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SO-DSUN2.ANS by Somms (ACiD Productions); released in acdu0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Dark Sun World
-# SAUCE Author: Somms
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940701
-# SAUCE Dimensions: 80x199
-# Lines: 150-199
-# Columns: 1-80
+﻿# Artwork: Dark Sun World by Somms | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0794-so-dsun2-part04
 
 Write-Host '
 [36m▓▓▒▒▒░  ▒▒▓▓  ▓▒▒▓░░░░▒▒░░ ░▒░░  ░  ░[0m             [1;30m▀ ▀[0m                    [1;30m░ [0;1;30;46m░▒▒▓[0m

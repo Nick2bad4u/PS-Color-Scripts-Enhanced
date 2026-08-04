@@ -1,13 +1,4 @@
-﻿# Converted from: US-ACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense17j/raw/US-ACID.ANS
-# Source Revision: archive-sha256:dd9d1d0c2e9d18c52916147f75b54ea93779080fcdcf859439501b8e3996efb6
-# Source SHA-256: cd7c8a93f5784610fd78059abcad515d269fdea023bc472aff27875721dae352
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ACID.ANS by Ansichrist + Orange (sense17j); released in sense17j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: US-ACID.ANS by Ansichrist + Orange | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense17j-us-acid
 
 Write-Host '
 [1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m

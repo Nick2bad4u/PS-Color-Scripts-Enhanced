@@ -1,19 +1,4 @@
-﻿# Converted from: N-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/N-FIRE.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: 8bba4941306a7f5161a74b2952fed05450a7616897268ae27252520f1ee10015
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-FIRE.ANS by nail (fire); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fire
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 20241111
-# SAUCE Dimensions: 80x27
-# SAUCE Font: IBM VGA
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: fire by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-n-fire
 
 Write-Host '
                                       [35;40m  ▄[0;1;33;40m▄▄[0;1;33;45m▄▓▓▓▒▒░░ ░[0;35m▄▄▄[0m                [35m▄▄▓▓[0m

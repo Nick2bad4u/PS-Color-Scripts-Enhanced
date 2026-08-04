@@ -1,18 +1,4 @@
-﻿# Converted from: US-AWE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook15/raw/US-AWE.ANS
-# Source Revision: archive-sha256:e54ebc8c52f8d9379c31843d1a642e9eaaf309656353be720cf874920f543492
-# Source SHA-256: 0dd38a3ec21c24723a7ac1b7906736fd970ddd71ef91aff90b1c5d53f4e19d7c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-AWE.ANS by Toot + Phobia (Black Maiden...); released in bmbook15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: AWE
-# SAUCE Author: Phobia & Toot
-# SAUCE Group: Black Maiden...
-# SAUCE Date: 19970816
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: AWE by Toot + Phobia | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook15-us-awe
 
 Write-Host '
                  ▄[1m▄[0;1;35;45m▄▄██████▓▓░░[0;35m█[0;1;31;45m▄▄[0;1;31;47m▀[0;1;31;45m▌[0;1;35;40m▒[0;35m░  ▀[0;1;31;45m▀[0;1;31;47m▄▌[0;1;37;47m▄[0;1;31;47m▀u[0;1;31;45m██▓▓░░[0;35m█[0;1;35m▒▒[0;35m█▌▄▄[0;1;30m▀▀▐[0;1;30;47m▓▓▀▀▐▀▓▓[0;1;30;40m░[0m

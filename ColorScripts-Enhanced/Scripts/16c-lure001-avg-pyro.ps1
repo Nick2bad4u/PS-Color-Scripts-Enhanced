@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-PYRO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lure001/raw/AVG-PYRO.ANS
-# Source Revision: archive-sha256:4bd385abce2c9c5a8caaface84fa74809f8b3dae67f2f4374e4664550d5af3bf
-# Source SHA-256: fb3bb25112d886ca8fd6fa8e5fdf948f9d9a6a3352105addda81d42959a18c97
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-PYRO.ANS by avenging angel (lure bitch); released in lure001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: pyro for nightrain
-# SAUCE Author: avenging angel
-# SAUCE Group: lure bitch
-# SAUCE Date: 20010728
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: pyro for nightrain by avenging angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lure001-avg-pyro
 
 Write-Host '
 

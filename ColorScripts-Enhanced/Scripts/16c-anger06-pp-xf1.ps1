@@ -1,18 +1,4 @@
-﻿# Converted from: PP-XF1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger06/raw/PP-XF1.ANS
-# Source Revision: archive-sha256:efc6b6d6892fe7f05c3b06052b1d79464b7ee8ab8c7bee2d77361e00cf941f28
-# Source SHA-256: e9f081695aa40428a091fd99302e51bfeb8cd268d4cd9dc96fbf16aba761d54c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PP-XF1.ANS by pixel_pusher (anger); released in anger06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: x-filez add..nig
-# SAUCE Author: pixel_pusher
-# SAUCE Group: anger
-# SAUCE Date: 19960110
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: x-filez add..nig by pixel_pusher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger06-pp-xf1
 
 Write-Host '
 [1;30m                           [0m

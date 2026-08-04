@@ -1,18 +1,4 @@
-﻿# Converted from: BIZ-GRAP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-01/raw/BIZ-GRAP.ANS
-# Source Revision: archive-sha256:c4f943c9f8f5c49a2aabdd3612f9f26bd1b04de18aa8de6e38c69a3051111537
-# Source SHA-256: bb0973dbeecfe7ec68cdeb7e25920d25a542e1489cf9f5a90703b87c92e1268a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BIZ-GRAP.ANS by bizzarro (nerp); released in nerp-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: grape
-# SAUCE Author: bizzarro
-# SAUCE Group: nerp
-# SAUCE Date: 19970720
-# SAUCE Dimensions: 80x49
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: grape by bizzarro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-01-biz-grap
 
 Write-Host '
                        [34m    ▄                              [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: BT-BRMX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/inf-0197/raw/BT-BRMX.ANS
-# Source Revision: archive-sha256:66a5392eae7b2de905008681a589d53894d4254a8182544461ea33bac1b8a03c
-# Source SHA-256: 29cd7660d601001a2b0b693fcc7ff0439c07a72f2584f70d0343dd774d57532c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BT-BRMX.ANS by Black Tyde (inf-0197); released in inf-0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: BT-BRMX.ANS by Black Tyde | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-inf-0197-bt-brmx
 
 Write-Host '
 [31m█[0;1;31;41m░[0;31m▀▄[0;1;31;41m░░▒░[0;31m▀ [0;1;31;43m░▒▓[0;1;31m▀▀ ▄▄  ▀▀▀▀███▀▀█████████████▀▀▀▀▀▀██▌    [0;31m░░░▒▒▓▓▄▄▀▀▀[0;1;31;41m░░░[0;31m▀▄▄▄  ▀▀▓▓[0m

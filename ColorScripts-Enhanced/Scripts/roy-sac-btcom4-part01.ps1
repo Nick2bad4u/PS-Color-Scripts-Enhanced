@@ -1,13 +1,4 @@
-﻿# Converted from: ROY-BTCOM4.ANS
-# Source encoding: CP437
-# Source URL: https://www.roysac.com/images/galleries/ZIP/Roy_ANSI.ZIP
-# Source Revision: archive-sha256:8598a9432b4feb86c4e79552795b407b9d7c576fb6f25e9828d6143f1c7b35bc
-# Source SHA-256: e95b76ae438577ca251ae86e4a33de73405ce4dd5c80ce30009b1ed82dd0b5e6
-# Source License: FAL-1.3
-# Source Attribution: ROY-BTCOM4.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: ROY-BTCOM4.ANS by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-btcom4-part01
 
 Write-Host '
               [1;30m░[0m

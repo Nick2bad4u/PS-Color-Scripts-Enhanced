@@ -1,18 +1,4 @@
-﻿# Converted from: HQ-SGATE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack07/raw/HQ-SGATE.ANS
-# Source Revision: archive-sha256:3c1e6f07357a92bb7ff48f87719d9d863e8ef702072ee083ff24c7e5053d4e8f
-# Source SHA-256: 89a74892b8f8753670ce2dab72975aa2234be3366267f957226e01c3e5f7336b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HQ-SGATE.ANS by Harlequin (Apocalyptic Visions); released in avpack07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Shadowgate (Best in VGA)
-# SAUCE Author: Harlequin
-# SAUCE Group: Apocalyptic Visions
-# SAUCE Date: 19950917
-# SAUCE Dimensions: 80x25
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: Shadowgate (Best in VGA) by Harlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack07-hq-sgate
 
 Write-Host '
 [33m░▒▓███[0;1;30m░░  [0;30m AV Lives!!! [0;1;30m   ░░[0;33m▐████[0;1;37;43m░[0;33m█░▒▓█[0;1;37;43m░▒░[0;33m█▓▒░█[0;1;37;43m░ [0;33m████[0;1;30m░░ [0m                 [1;30m░░[0;33m▐▓▒ [0m

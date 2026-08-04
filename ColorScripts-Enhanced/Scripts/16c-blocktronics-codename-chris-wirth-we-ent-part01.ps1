@@ -1,13 +1,4 @@
-﻿# Converted from: we-ent.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/we-ent.ans
-# Source Revision: archive-sha256:5d665873486ffcf559d33043557e11d7636d0c5a5b53a69dd3e7cf81117997ef
-# Source SHA-256: 3b88f9fbb3fc745be6378eed74db52ad35619d1188d96c35898df35249815dd9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-ent.ans by Avenging Angel + Aesthetic (blocktronics_codename_chris_wirth); released in blocktronics_codename_chris_wirth and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: we-ent.ans by Avenging Angel + Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-codename-chris-wirth-we-ent-part01
 
 Write-Host '
  [1;30m▄[0;31m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: IO-SENSE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense09/raw/IO-SENSE.ANS
-# Source Revision: archive-sha256:b3e3029d8f7c1c608f2835055baa2116210e782109ea7dc0a1af3ca3d050e5b9
-# Source SHA-256: 02973d07a5778639cb5aa11bbef4d754d48f261b49abcb431aaa1fe1c09035a9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IO-SENSE.ANS by ImoDium (Glue); released in sense09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Sense Logo
-# SAUCE Author: ImoDium
-# SAUCE Group: Glue
-# SAUCE Date: 19980508
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Sense Logo by ImoDium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense09-io-sense
 
 Write-Host '
 [1m[0m[1m[0m

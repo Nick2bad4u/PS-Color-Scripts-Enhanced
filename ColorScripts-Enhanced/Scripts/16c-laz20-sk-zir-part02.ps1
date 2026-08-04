@@ -1,20 +1,4 @@
-﻿# Converted from: sk!zir.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz20/raw/sk!zir.ans
-# Source Revision: archive-sha256:d88c3ff3e728f60821a5682143c2fe9e054bc535483ce1618db0798990cb65e8
-# Source SHA-256: f5d23c861cf20fa5800540049c68fd40de790155bdbaae4373429481e03986b1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sk!zir.ans by sIMONkING! (thelo0p!^LAZARUS); released in laz20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ZIR
-# SAUCE Author: sIMONkING!
-# SAUCE Group: thelo0p!^LAZARUS
-# SAUCE Date: 20250603
-# SAUCE Dimensions: 80x100
-# SAUCE Font: IBM VGA
-# SAUCE Comments: thank you to purple motion group for the music and ZIR Bydgoszcz | graffiti for the motivation - sIMONkING/thelo0p^LAZARUS
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: ZIR by sIMONkING! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz20-sk-zir-part02
 
 Write-Host '
 ████████▄    [1;30m██[0;1;30;43m▄[0;33m█[0;1;30m█[0;33m█[0;1;30;43m▄[0;1;30;40m██[0;33m█████████████████████[0;1;30;43m▄▀▀▀▀[0;33m███████████[0;1;30;43m▄▄[0;1;30;40m███[0;1;30;47m▓[0;1;30;40m██▀[0m   █████████

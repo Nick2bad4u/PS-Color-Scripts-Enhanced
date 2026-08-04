@@ -1,18 +1,4 @@
-﻿# Converted from: STI-UFGM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sf-pak12/raw/STI-UFGM.ANS
-# Source Revision: archive-sha256:670b4d0899955b27a97f2ff3c1b8b1a03cafdd9f0df62f9dfb2a28ce3d4f40e7
-# Source SHA-256: 595d31a246f67c88d667c3ea80dbe1f5cfe5ae27856b434977f0712d458fbe1e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STI-UFGM.ANS by Stimpy (Shaolin's Finest); released in sf-pak12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Tha Unforgiven Matrix
-# SAUCE Author: Stimpy
-# SAUCE Group: Shaolin's Finest
-# SAUCE Date: 19980817
-# SAUCE Dimensions: 80x40
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Tha Unforgiven Matrix by Stimpy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sf-pak12-sti-ufgm
 
 Write-Host '
      [1m░░[0m              [1m░░[0m        [1m░░[0m                [1m░░[0m                        [31m░[0m

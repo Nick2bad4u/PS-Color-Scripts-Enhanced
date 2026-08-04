@@ -1,13 +1,4 @@
-﻿# Converted from: IOC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-i/raw/IOC.ANS
-# Source Revision: archive-sha256:f77378b97edc46c0ec6cf225511f19f71c28e4a75fabba5da45e865a8cd20d8d
-# Source SHA-256: c890457ddd5673539607f3261dfb496e9bc987d109a506f6f8a77aeab9837bed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IOC.ANS by Uncle Fester (ansis-i); released in ansis-i and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: IOC.ANS by Uncle Fester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-i-ioc
 
 Write-Host '
 

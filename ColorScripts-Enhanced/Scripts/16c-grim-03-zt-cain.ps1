@@ -1,13 +1,4 @@
-﻿# Converted from: ZT-CAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/grim-03/raw/ZT-CAIN.ANS
-# Source Revision: archive-sha256:ebc036abf9a775cca5b26ca6cd97418b4cbcbb8a88c78d39df773432429bd88a
-# Source SHA-256: a1e4b6e9c59053099231187811ce9c3eb4e7f10eb14af8c6b8ce95a7a2b2bb7a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZT-CAIN.ANS by Z Trasher (grim-03); released in grim-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: ZT-CAIN.ANS by Z Trasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-grim-03-zt-cain
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: FS-SD5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-11/raw/FS-SD5.ANS
-# Source Revision: archive-sha256:fb569ca0f426a612fae941c52b66a1bf2185c5bf71d8e011fd47447565da1174
-# Source SHA-256: 2b0e3e3cc94c17bd2ed9567f03383af9283d40dc5c5fd2c4b82e7699a6ef7de7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FS-SD5.ANS by flipside (fORCE); released in force-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: static discharge
-# SAUCE Author: flipside
-# SAUCE Group: fORCE
-# SAUCE Date: 19960907
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: static discharge by flipside | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-11-fs-sd5
 
 Write-Host '
                                   [1;33m▄▄▄▄[0m   [1;33m  [0m              [1;33m▄▄▄▄[0m

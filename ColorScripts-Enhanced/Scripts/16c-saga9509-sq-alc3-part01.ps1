@@ -1,18 +1,4 @@
-﻿# Converted from: SQ-ALC3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/saga9509/raw/SQ-ALC3.ANS
-# Source Revision: archive-sha256:aa92751db49565be37784e7233d72ac6fc44a6489327e79fff3f8705162d151c
-# Source SHA-256: 2b675d1cd36a28b8c617faec1e8b819bbfcb6e34a2dcacf37d28f9a6191ce97a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SQ-ALC3.ANS by Sobriquet (Saga); released in saga9509 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Alcatraz
-# SAUCE Author: Sobriquet
-# SAUCE Group: Saga
-# SAUCE Date: 19950816
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Alcatraz by Sobriquet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-saga9509-sq-alc3-part01
 
 Write-Host '
   [35m██▓███▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀██████  [0m

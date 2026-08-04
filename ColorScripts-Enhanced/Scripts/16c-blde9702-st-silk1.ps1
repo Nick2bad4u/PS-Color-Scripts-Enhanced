@@ -1,18 +1,4 @@
-﻿# Converted from: ST-SILK1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9702/raw/ST-SILK1.ANS
-# Source Revision: archive-sha256:cd03f390ec36fabd758241a35ae8f920520cc0fb3bdb59ee0ae7c6dd1232d30b
-# Source SHA-256: 56aba3a83f2538b67ccbd6c086611ea77b59730bdc0543cbdb558a0a2438e80e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-SILK1.ANS by splatt (blade productions); released in blde9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: silk
-# SAUCE Author: splatt
-# SAUCE Group: blade productions
-# SAUCE Date: 19970205
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: silk by splatt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9702-st-silk1
 
 Write-Host '
                                                      ▄[1m▄▄[0;1;33m▄[0;1;33;47m▄[0;1;33;40m██[0m▌[1;33m▄▄[0m▄[1;33m [0m

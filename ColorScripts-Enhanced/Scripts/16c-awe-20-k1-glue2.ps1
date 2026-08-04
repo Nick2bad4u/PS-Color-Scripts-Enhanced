@@ -1,18 +1,4 @@
-﻿# Converted from: K1-GLUE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-20/raw/K1-GLUE2.ANS
-# Source Revision: archive-sha256:23bbf66596e3e4f3c4b9e335dc62ccc331634eba04c3d179b73e396fa3971807
-# Source SHA-256: 46355fe91aa1cf1b669c7073f56a706e17f37cc862f1d9dc68ae23761d6a0deb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K1-GLUE2.ANS by Knocturnal (AWE Lettering); released in awe-20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Glue Promotional
-# SAUCE Author: Knocturnal
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981219
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Glue Promotional by Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-20-k1-glue2
 
 Write-Host '
 

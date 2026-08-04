@@ -1,13 +1,4 @@
-﻿# Converted from: ROY-KIT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0397b/raw/ROY-KIT.ANS
-# Source Revision: archive-sha256:4675e986db6899c1d9bb95711f69cdb168742dca5b3bf60822d0bd9e3e64898a
-# Source SHA-256: 55568fd0050c5d8061a14f12a22aa1864ea4268498ce0cde2c4a0e73c28c4f62
-# Source License: FAL-1.3
-# Source Attribution: ROY-KIT.ANS by Roy/SAC aka Carsten Cumbrowski; released in sac0397b and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: ROY-KIT.ANS by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-kit
 
 Write-Host '
 [1m    [0;1;47m▓[0;1;40m▄[0m              [1;47m▓[0;1;40m▄[0m                 [1;47m▓[0;1;40m▄[0m

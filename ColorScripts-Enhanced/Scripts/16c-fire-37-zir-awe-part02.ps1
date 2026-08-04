@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-AWE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-37/raw/ZIR-AWE.ANS
-# Source Revision: archive-sha256:42913eb56742cc8575f96af5b8a027e63b5172fdb84271b8ac973c7820ea43ef
-# Source SHA-256: b96546e34be7c9a6a7af15c9ea94e08fbcaac8c6966116e08fe8a9eee16f33ae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-AWE.ANS by zir (FiRE); released in fire-37 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: aWE!!!
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20230707
-# SAUCE Dimensions: 80x96
-# SAUCE Font: IBM VGA
-# SAUCE Comments: in tribute to aWE, <3 zir.
-# Lines: 51-96
-# Columns: 1-80
+﻿# Artwork: aWE!!! by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-37-zir-awe-part02
 
 Write-Host '
 [38;2;171;171;171;48;2;0;0;0m [0;38;2;0;0;171;48;2;0;0;0m▄[0;38;2;171;171;171;48;2;0;0;0m [0;38;2;0;0;171;48;2;0;0;0m▄▄▄▄▄[0;38;2;171;171;171;48;2;0;0;0m  [0;38;2;0;0;171;48;2;0;0;0m▄▄▄▄[0;38;2;171;171;171;48;2;0;0;0m  [0;38;2;0;0;171;48;2;0;0;0m▄▄[0;38;2;171;171;171;48;2;0;0;0m ▐[0;1;38;2;87;87;87;48;2;0;0;0m▌[0;38;2;171;171;171;48;2;0;0;0m [0;38;2;0;0;171;48;2;0;0;0m▄[0;38;2;171;171;171;48;2;0;0;0m [0;38;2;0;0;171;48;2;0;0;0m▄▄▄▄▄[0;38;2;171;171;171;48;2;0;0;0m [0;38;2;0;0;171;48;2;0;0;0m▄▄[0;38;2;171;171;171;48;2;0;0;0m [0;38;2;0;0;171;48;2;0;0;0m▄[0;38;2;171;171;171;48;2;0;0;0m [0;38;2;0;0;171;48;2;0;0;0m▀[0;1;38;2;87;87;255;48;2;0;0;0m▀[0;1;38;2;87;87;255;48;2;0;0;171m▄[0;1;38;2;87;87;255;48;2;0;0;0m▄[0;38;2;171;171;171;48;2;0;0;0m   [0;38;2;0;0;171;48;2;0;0;0m▄▄[0;38;2;171;171;171;48;2;0;0;0m [0;38;2;0;0;171;48;2;0;0;0m▄▄[0;38;2;171;171;171;48;2;0;0;0m [0;38;2;0;0;171;48;2;0;0;0m▄▄▄[0;38;2;171;171;171;48;2;0;0;0m [0;38;2;0;0;171;48;2;0;0;0m▄[0;38;2;171;171;171;48;2;0;0;0m    [0;38;2;0;0;171;48;2;0;0;0m▀▀[0;1;38;2;87;87;255;48;2;0;0;171m▀▀▀▀▀▀▀▀▀▀▀ [0;38;2;0;0;171;48;2;0;0;0m▀▀▀▄[0;38;2;171;171;171;48;2;0;0;0m  [0;38;2;0;0;171;48;2;0;0;0m▄▄[0m

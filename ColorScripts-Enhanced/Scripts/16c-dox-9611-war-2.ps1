@@ -1,13 +1,4 @@
-﻿# Converted from: WAR-2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_9611/raw/WAR-2.ANS
-# Source Revision: archive-sha256:0b1d0a69144cb3f6619a3754efa7186c4875d1c8fe6478f05d100643d2a160ff
-# Source SHA-256: 3b2d1a37440355c3984378260c074f62c143cc20ecfc8af54eb9eee074e6975e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WAR-2.ANS by War (dox_9611); released in dox_9611 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: WAR-2.ANS by War | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-9611-war-2
 
 Write-Host '
           [1;30m█[0m▀▀[1;30m▀[0m▀ [1;30m▀[0m

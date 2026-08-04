@@ -1,13 +1,4 @@
-﻿# Converted from: LQ!RBLAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ra-pack5/raw/LQ!RBLAR.ANS
-# Source Revision: archive-sha256:c686da67e3347a257f133229c38f0ded15c3b11846248779489ed776a4450659
-# Source SHA-256: 28549b8481d782304c758e6f7b7e41544cfbf12a3af60d8bf0ab4e215c514cb9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LQ!RBLAR.ANS by Liquid (ra-pack5); released in ra-pack5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: LQ!RBLAR.ANS by Liquid | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ra-pack5-lq-rblar
 
 Write-Host '
 [1m50x80[0m

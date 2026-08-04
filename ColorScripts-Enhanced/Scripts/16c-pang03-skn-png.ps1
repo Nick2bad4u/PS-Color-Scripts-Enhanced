@@ -1,13 +1,4 @@
-﻿# Converted from: SKN-PNG!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pang03/raw/SKN-PNG!.ANS
-# Source Revision: archive-sha256:9a4d3bad3e5904d1f75fb63220bec772afa6ee695697fd873d943948d0f4ac7d
-# Source SHA-256: 5e1a83e4cf46ddc659fa88c02b40ab12bf256b724e42ed049f9a027c57c68513
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SKN-PNG!.ANS by Skin 972 (pang03); released in pang03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: SKN-PNG!.ANS by Skin 972 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pang03-skn-png
 
 Write-Host '
                                      [36m░[0;30;46m▓[0m   [36;40m          [0m

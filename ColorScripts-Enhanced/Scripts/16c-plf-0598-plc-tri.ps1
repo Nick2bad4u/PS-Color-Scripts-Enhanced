@@ -1,18 +1,4 @@
-﻿# Converted from: PLC!TRI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0598/raw/PLC!TRI.ANS
-# Source Revision: archive-sha256:e4eb608a76b35267c945e8d8ea0fbc9cde7f273818c342a2a37fa7f292193f2c
-# Source SHA-256: 808d160482248ac2c70bac691ba80ba26b016b6ecd1c76d4f4108a35251d6d73
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PLC!TRI.ANS by plc (poffelipoff); released in plf-0598 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the roswell incident
-# SAUCE Author: plc
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19980527
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: the roswell incident by plc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0598-plc-tri
 
 Write-Host '
 [30;43m▓▓[0m                                        [1;30;40m░░░[0m

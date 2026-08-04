@@ -1,13 +1,4 @@
-﻿# Converted from: KNIGHT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/xtc-0297/raw/KNIGHT.ANS
-# Source Revision: archive-sha256:8b9bd68b28024f32746c957e001d97b45bd4e19c7a1e4bcf88b1946903a5b7da
-# Source SHA-256: 0455823dfe3b275b7e85320fa744a2db0dd0ec02666368a5e92418cd522d0610
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KNIGHT.ANS by Schmuck (xtc-0297); released in xtc-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: KNIGHT.ANS by Schmuck | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-xtc-0297-knight
 
 Write-Host '
 [1;30mschmuck²[0m                  [31m▄[0;37m▐▌[0m

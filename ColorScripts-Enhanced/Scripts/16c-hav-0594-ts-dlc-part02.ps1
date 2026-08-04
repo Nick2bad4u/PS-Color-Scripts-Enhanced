@@ -1,13 +1,4 @@
-﻿# Converted from: TS-DLC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hav-0594/raw/TS-DLC.ANS
-# Source Revision: archive-sha256:1d2eec2ab9921d52acd53b3b0e670f7d60e818766fc731641d7032ae0ff12d14
-# Source SHA-256: 2f3812bc1619468d7a26c7e5d4312e7eac7fae92fd0288f08e3ec28ef93abc70
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-DLC.ANS by The Stalker (hav-0594); released in hav-0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 37-78
-# Columns: 1-80
+﻿# Artwork: TS-DLC.ANS by The Stalker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hav-0594-ts-dlc-part02
 
 Write-Host '
 [1;37;40m█ [0;33m█████████████████████████▄ [0;31m▀█[0;1;31;41m▀▄[0;31m█[0;1;31m▄[0;31m▄▄[0;1;31m▄[0;31m▄▄[0;1;31m▄[0;31m█[0;1;31;41m▄▀▀[0;31m██[0;31;41m [0;31;40m▀ [0;33;40m▄██████████████▀▄██▀███ [0;1;37;40m▄█████[0m

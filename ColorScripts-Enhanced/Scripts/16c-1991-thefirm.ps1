@@ -1,13 +1,4 @@
-﻿# Converted from: THEFIRM!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1991/raw/THEFIRM!.ANS
-# Source Revision: archive-sha256:4dcfddb1a9f84aafa45e2facaadcb15ccf7ddad9041d8c346c723f7894d6cfb9
-# Source SHA-256: 5aa9d5c3aa3ddd19423b6fdc33805b6fd055b493ca2ff570e0e699994850f375
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: THEFIRM!.ANS by Slash (1991); released in 1991 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: THEFIRM!.ANS by Slash | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1991-thefirm
 
 Write-Host '
                  [1;30m▄▄▄▄▄▄▀▀▀▀▀▀█▀▄▄▀▀▀▀▀▀▀▀▀▀▀▄▄▄[0m       [1;30m▄▄▄▄▀▀█▀    ▀█▀▀▄▄▄▄[0m

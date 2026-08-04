@@ -1,18 +1,4 @@
-﻿# Converted from: N!Z-MAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat1296/raw/N!Z-MAIN.ANS
-# Source Revision: archive-sha256:7d01b0bd390151991b0a903d8d987d245c20f2b06635915da8eb049974bd356a
-# Source SHA-256: 6acca58d6b94930cc44d3a2be969d93bd2d30e29b451e5db9be97eb60d00df28
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N!Z-MAIN.ANS by noize (phat); released in phat1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: mainmenu
-# SAUCE Author: noize
-# SAUCE Group: phat
-# SAUCE Date: 19961110
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: mainmenu by noize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat1296-n-z-main
 
 Write-Host '
 [1;35m░[0;1;37m▄[0;1;35m█[0;1;35;45m▓[0;1;35;40m▀▀[0;35m▀▀▀▀[0;37m [0;35m▀[0m     [35m▀[0;37m [0;35m  [ noize # phat ]   ▀▓[0m      [1;35m▀░▀[0m                           [1;35m▀░[0m

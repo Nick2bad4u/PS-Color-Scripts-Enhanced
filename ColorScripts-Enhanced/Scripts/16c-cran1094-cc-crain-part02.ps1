@@ -1,13 +1,4 @@
-﻿# Converted from: CC-CRAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cran1094/raw/CC-CRAIN.ANS
-# Source Revision: archive-sha256:c9381fb75e8f8a66431f7b0fe625ed381b9b49f3dba635c4d39fcdced612d967
-# Source SHA-256: a6e1067c1438c18aeaaec0101954abcedbee95ad4e60c288aa2a3e8a6a86ca95
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CC-CRAIN.ANS by Clorox Cowboy (cran1094); released in cran1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 42-81
-# Columns: 1-80
+﻿# Artwork: CC-CRAIN.ANS by Clorox Cowboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cran1094-cc-crain-part02
 
 Write-Host '
               [40m░▒░░░░▒▒▒▄[0m         [40m▄▒▒[0;47m [0;40m██[0m        [40m░█[0;47m  [0;40m▄▄▄▄▄▄▄▄▄[0;47m               [0m

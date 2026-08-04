@@ -1,18 +1,4 @@
-﻿# Converted from: PARATOX7.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sargahd3/raw/PARATOX7.ANS
-# Source Revision: archive-sha256:d4be65be862c17debbed01c060fb85aadbdbe00a8282836fa25f3f46073f618d
-# Source SHA-256: d5cbcb1f791831f919073e426e98e1bd9edc9d48375cb66d1345704379c8e0a1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PARATOX7.ANS by paratoxic (fbk.sargahd); released in sargahd3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: system x with atomic dressing
-# SAUCE Author: paratoxic
-# SAUCE Group: fbk.sargahd
-# SAUCE Date: 19970208
-# SAUCE Dimensions: 80x47
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: system x with atomic dressing by paratoxic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sargahd3-paratox7
 
 Write-Host '
          [34m ▄  [0m   [34m░▄[0m         [31m     ▄▄▄▄[0;34m░[0;32m [0;34m▐[0;32m   [0;36m      [0;35m [0m   [35m   [0;37m [0;36m [0m   [33m  [0;37m  [0;33m░░ ▄ [0m

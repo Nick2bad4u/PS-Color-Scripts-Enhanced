@@ -1,18 +1,4 @@
-﻿# Converted from: SK!ACROP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p16_02/raw/SK!ACROP.ANS
-# Source Revision: archive-sha256:f14040a9d68edb58d098453fc4b0fc3b1d73172046af4c5ef395d54b3010b7f2
-# Source SHA-256: 638947d10feff58511278b54afda6597ccc34e53a95c4f6991928dfce73fd440
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!ACROP.ANS by sIMONkING (thelo0p^lure); released in l0p16_02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: acropolis bbs
-# SAUCE Author: sIMONkING
-# SAUCE Group: thelo0p^lure
-# SAUCE Date: 20020607
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: acropolis bbs by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p16-02-sk-acrop
 
 Write-Host '
 [1;33;46m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓███[0;1;33;40m▀▀▀▀▀▀▀▀▀▀▀▀▀███[0;1;33;46m████████▓▓▓▓▓▓[0;36m▀[0;37m [0;36m+o smoke[0;31m [0;33m   ▄▄▄    [0;37m         [0m

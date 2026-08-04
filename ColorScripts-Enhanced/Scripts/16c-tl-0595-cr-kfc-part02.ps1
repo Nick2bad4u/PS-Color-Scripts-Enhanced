@@ -1,18 +1,4 @@
-﻿# Converted from: CR-KFC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl-0595/raw/CR-KFC.ANS
-# Source Revision: archive-sha256:2a9ee1147d1683e4f1f557167c86371c5059e003792efbebaea013640a85da25
-# Source SHA-256: faa42448a694186a8f9439f02941207a12cf3cea0022e37585a6ffd82348c171
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CR-KFC.ANS by Christopher Robin (TekLordZ); released in tl-0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Kfc
-# SAUCE Author: Christopher Robin
-# SAUCE Group: TekLordZ
-# SAUCE Date: 19950421
-# SAUCE Dimensions: 80x25
-# Lines: 34-67
-# Columns: 1-80
+﻿# Artwork: Kfc by Christopher Robin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl-0595-cr-kfc-part02
 
 Write-Host '
 [1;34;44m           [0;34m▓▄ [0;33m▐[0;1;31;43m░░▒▒▓▓[0;1;31;40m██████████[0;1;31;43m█[0;1;31;40m█████[0;1;31;43m█[0;1;31;40m█████████████[0;1;31;43m▓▓▒▒░░[0;35m██[0;37m [0;34m▐███████████████████[0m

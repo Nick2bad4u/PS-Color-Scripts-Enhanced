@@ -1,18 +1,4 @@
-﻿# Converted from: SO-BNW1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0694/raw/SO-BNW1.ANS
-# Source Revision: archive-sha256:f26eea3d1c8de7b926bd6f420e787345fadf7a72d1ec8422609f01c663360b65
-# Source SHA-256: 6d1e6f5a4412172e63e7b175f09160f52013d21531cdc240f74bdd6baa28488d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SO-BNW1.ANS by Somms (ACiD Productions); released in acdu0694 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Brave New World
-# SAUCE Author: Somms
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940601
-# SAUCE Dimensions: 80x397
-# Lines: 348-397
-# Columns: 1-80
+﻿# Artwork: Brave New World by Somms | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0694-so-bnw1-part08
 
 Write-Host '
             [1;30m▀▄[0m▐█▄[1;30m▀▄ [0;36m█[0;1;36;46m░[0;36m█[0;30;46m█▄█[0;1;36;46m▓▒[0;30;46m▌█[0;1;36;46m░[0;30;46m███[0;36;40m█[0;36;46m [0;36;40m█[0;30;46m██▌▄ [0;1;36;46m░[0;36m█[0;30;46m▀[0;36;40m█[0;30;46m▀[0;36;40m█[0;1;36;46m░[0;36m██[0;30;46m███▀▌[0;1;36;46m░▒▒[0;30;46m██▀[0;1;36;46m░[0m [1;30;40m▄[0m▀▀██▌[1;30m▄▀[0m

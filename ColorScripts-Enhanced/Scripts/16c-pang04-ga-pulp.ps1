@@ -1,17 +1,4 @@
-﻿# Converted from: GA-PULP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pang04/raw/GA-PULP.ANS
-# Source Revision: archive-sha256:c1247d4dc9957633abc13741bd5444e137d9305952ecd56b85b27068ad3e348a
-# Source SHA-256: 25e6c959e4c16a3a126f78b54c871a19748e0a6d5baea2fdf19b6e58abd2d75a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GA-PULP.ANS by Ganeza (Pang); released in pang04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Pulp
-# SAUCE Author: Ganeza
-# SAUCE Group: Pang
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Pulp by Ganeza | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pang04-ga-pulp
 
 Write-Host '
 

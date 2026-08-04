@@ -1,13 +1,4 @@
-﻿# Converted from: NT-MOOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/3c6-open/raw/NT-MOOD.ANS
-# Source Revision: archive-sha256:48a057a32817733445ae90a1c66b8604c10e555e1293348fc9c323a6f73930f4
-# Source SHA-256: fd45d1e60a17fb8a9c7ef6968c44a411cf9f4e1d854e56321cf212d953ec14ce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NT-MOOD.ANS by Nootropic (3c6-open); released in 3c6-open and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: NT-MOOD.ANS by Nootropic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-3c6-open-nt-mood
 
 Write-Host '
               [1;30m▄[0m               [1;30m▄[0m                [1;30m [0;1;37m░[0m

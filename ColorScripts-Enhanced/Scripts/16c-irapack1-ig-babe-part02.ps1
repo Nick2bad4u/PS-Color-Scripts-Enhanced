@@ -1,13 +1,4 @@
-﻿# Converted from: IG-BABE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/irapack1/raw/IG-BABE.ANS
-# Source Revision: archive-sha256:96bc9993557d51cf44fc1b215ff7a2693ea395db6c6b4d982d551a24b93f90a1
-# Source SHA-256: be09a7c42093e9efbf972024342083e215e66a035147d71847453eb86b2746ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IG-BABE.ANS by Iguana (irapack1); released in irapack1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 42-79
-# Columns: 1-80
+﻿# Artwork: IG-BABE.ANS by Iguana | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-irapack1-ig-babe-part02
 
 Write-Host '
                              [1;34;40m▀[0;1;34;44m███████████████[0;1;36;40m▐[0;1;36;46m▓██▓▓█████[0;1;36;40m▌[0;1;36;46m▓▓[0;1;36;40m▌[0m

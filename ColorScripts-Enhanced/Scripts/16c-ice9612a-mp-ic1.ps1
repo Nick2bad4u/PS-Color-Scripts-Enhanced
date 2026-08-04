@@ -1,13 +1,4 @@
-﻿# Converted from: MP-IC1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9612a/raw/MP-IC1.ICE
-# Source Revision: archive-sha256:4d394b60f9c715e629054db64cb8aa01a09120ffd63f7c1e537608a21d070f8a
-# Source SHA-256: c3b3d54f028019cba8cb3992ef466aae3d7a46853fb037576e370368c4ca9e7d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MP-IC1.ICE by Mephitopeles (ice9612a); released in ice9612a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: MP-IC1.ICE by Mephitopeles | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9612a-mp-ic1
 
 Write-Host '
 [1;30m[0m[1;30m[0;1;31m[0;1;30m[0;31m[0;1;31m[0;31m[0;1;37m[0m[1;31m[0;31m[0m[1;34;44m▀[0;1;34;40m▄▄[0;34m▀[0;1;34;44m▄[0;1;34;40m▀▀   [0;1;30;40m▄▄[0;1;30;47m▓▀[0;1;30;40m▀▀▀[0m▀              [34m▀█[0;1;34;44m░░▄▄[0;1;37;44m▄▄[0;34m░[0;1;30m░ ─[ SysOp ]───────────────────────── ░[0m

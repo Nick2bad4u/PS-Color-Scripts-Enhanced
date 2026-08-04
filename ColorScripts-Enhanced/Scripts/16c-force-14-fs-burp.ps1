@@ -1,18 +1,4 @@
-﻿# Converted from: FS-BURP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-14/raw/FS-BURP.ANS
-# Source Revision: archive-sha256:92f7a11e9d63bbc4309a79352ecdc986660896bb6b7d6c4276c2371f769e4763
-# Source SHA-256: 12517eeb305fdeddac8f54d51f815dacbc25b1ae026587681d70e3fc7caca892
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FS-BURP.ANS by flipside (fORCE); released in force-14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: burp
-# SAUCE Author: flipside
-# SAUCE Group: fORCE
-# SAUCE Date: 19961010
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: burp by flipside | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-14-fs-burp
 
 Write-Host '
 [1;32m[0m    [31m▄▄ [0m                                [37m       [0;31m ▄▄▄▄ [0;37m               [0m

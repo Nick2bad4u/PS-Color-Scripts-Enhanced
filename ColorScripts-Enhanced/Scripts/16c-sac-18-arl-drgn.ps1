@@ -1,13 +1,4 @@
-﻿# Converted from: ARL-DRGN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac-18/raw/ARL-DRGN.ANS
-# Source Revision: archive-sha256:8b759a18dbe9676d3c96203c11fbf415c6464f34a8d00624204bb733f22bca0c
-# Source SHA-256: b734eed6143eb2ec6b3f381a7f75d8ea1365f9940e65ba128a622a72823d7845
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARL-DRGN.ANS by arlequin; released in sac-18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: ARL-DRGN.ANS by arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac-18-arl-drgn
 
 Write-Host '
 ███████████[31m█▀▀▀▀▀█[0;1;31;41m█████████████▀▀▀▀[0;31m█[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: RC(DEV2).ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bdp-0296/raw/RC(DEV2).ANS
-# Source Revision: archive-sha256:291145d8d8f3eab37f55de992303285e39bcc9a64c52259e0a1f0ff8ffd94693
-# Source SHA-256: dc24b45ae4a8f86503da6cea672ae18e281983de90b6d87f0d8bd77ab6fdf5b0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RC(DEV2).ANS by 00 _22[[2_[[2] 00 (.boogiE%Woogie.); released in bdp-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: .devious!newsfile.
-# SAUCE Author: 00 _22[[2_[[2] 00
-# SAUCE Group: .boogiE%Woogie.
-# SAUCE Date: 19960203
-# SAUCE Dimensions: 80x15
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: .devious!newsfile. by 00 _22[[2_[[2] 00 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bdp-0296-rc-dev2
 
 Write-Host '
      [35m▄▄▄▓▄ [0m          [35m▀■▄[0;1;31m [0;35m▄▓[0m        [35m▄▄[0;32m  [0m   [35m▄■▀▀▓[0m                    [35m ▄▄[0;1;31m [0;35m▄▄▄▄▓[0m

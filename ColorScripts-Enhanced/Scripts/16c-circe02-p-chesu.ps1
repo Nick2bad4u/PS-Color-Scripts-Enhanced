@@ -1,18 +1,4 @@
-﻿# Converted from: P-CHESU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe02/raw/P-CHESU.ANS
-# Source Revision: archive-sha256:ce5cd736ecea3fcfef2c1df40ab4bdd995f6b633f97f1788244355f98c5d174e
-# Source SHA-256: 6df78c6bcdf3d44d43819b0fac5c1291ef46c3019a4bbeb7ee9a04918544719f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P-CHESU.ANS by pesho (circe); released in circe02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: chesung
-# SAUCE Author: pesho
-# SAUCE Group: circe
-# SAUCE Date: 19971204
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: chesung by pesho | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe02-p-chesu
 
 Write-Host '
 

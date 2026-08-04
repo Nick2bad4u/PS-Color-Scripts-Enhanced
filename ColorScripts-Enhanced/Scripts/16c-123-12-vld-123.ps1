@@ -1,18 +1,4 @@
-﻿# Converted from: VLD-123.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/123-12/raw/VLD-123.ANS
-# Source Revision: archive-sha256:af311216faea4a293463ebcefb70b0554be496d44ae44ccb54d62ccbcbed8cf0
-# Source SHA-256: c0cd41ba510f4649ceaedca66b9657cdce4f4a8da894d6ef9b585b1d7c1ab5c9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VLD-123.ANS by velo (sense); released in 123-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 1   2   3
-# SAUCE Author: velo
-# SAUCE Group: sense
-# SAUCE Date: 20021206
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: 1 2 3 by velo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-123-12-vld-123
 
 Write-Host '
                                   [36m.[0m                                 [36m.[0m

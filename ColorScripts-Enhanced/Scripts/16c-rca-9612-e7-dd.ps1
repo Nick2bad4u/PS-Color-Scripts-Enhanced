@@ -1,18 +1,4 @@
-﻿# Converted from: E7-DD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-9612/raw/E7-DD.ANS
-# Source Revision: archive-sha256:a54ebacd3fdb04987b5350bc238a3952079afdae93f6242ba7ef6af6e3ac2ec9
-# Source SHA-256: 375da026cab9a8be9b283dba12d5decb442bb4d841b83714e77f2915b2292785
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: E7-DD.ANS by eternal (rCa); released in rca-9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: da drug
-# SAUCE Author: eternal
-# SAUCE Group: rCa
-# SAUCE Date: 19961117
-# SAUCE Dimensions: 80x47
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: da drug by eternal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-9612-e7-dd
 
 Write-Host '
 [1;30m [0m ░[30;47m▓[0;37;40m [0;1;30;40m                     [0m░[30;47m▓[0;37;40m [0;1;30;40m [0m [1;30m     ┐[0m

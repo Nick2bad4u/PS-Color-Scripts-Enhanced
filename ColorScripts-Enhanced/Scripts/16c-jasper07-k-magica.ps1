@@ -1,13 +1,4 @@
-﻿# Converted from: K!MAGICA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper07/raw/K!MAGICA.ANS
-# Source Revision: archive-sha256:c42bfa4438f002452f1a6bc8caf7f32e2e6bfd8fffb358dd625c49ecd6cf6820
-# Source SHA-256: 25d14b8d8b477b46aac709fa13c3ddc1210bffae08251c1cac6c21ff2ca964dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K!MAGICA.ANS by Keetar (jasper07); released in jasper07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: K!MAGICA.ANS by Keetar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper07-k-magica
 
 Write-Host '
 [36m▐[0;1;36;46m                                                                               [0m

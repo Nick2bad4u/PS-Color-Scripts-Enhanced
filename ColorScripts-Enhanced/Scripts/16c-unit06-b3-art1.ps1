@@ -1,17 +1,4 @@
-﻿# Converted from: B3-ART1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/unit06/raw/B3-ART1.ANS
-# Source Revision: archive-sha256:f7fd7a768bb9e11bcedcbb16a94ad263fab52a96da2bd83e544cd44810bbc800
-# Source SHA-256: b5e88145836bf809d865fe08312e9a82a0073731b1012be9ae9e9ab8dd7da799
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: B3-ART1.ANS by b Love (unit artworks); released in unit06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: just for fun
-# SAUCE Author: b Love
-# SAUCE Group: unit artworks
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: just for fun by b Love | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-unit06-b3-art1
 
 Write-Host '
          [34m▄ [0;1;33m░░░░[0m                  [32m░[0m                                  [1;31m░░[0m

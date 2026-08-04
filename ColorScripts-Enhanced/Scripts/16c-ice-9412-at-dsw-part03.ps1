@@ -1,13 +1,4 @@
-﻿# Converted from: AT-DSW.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9412/raw/AT-DSW.ICE
-# Source Revision: archive-sha256:206fb790f3728acfca84972248fec43bde6e85e65881b18182d8ae9012f98785
-# Source SHA-256: 44b19a5926ab082328c121eeaeb29c41a711fe5acfb8365cde3c89a8380d92b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AT-DSW.ICE by Aphex Twin (ice-9412); released in ice-9412 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 79-123
-# Columns: 1-80
+﻿# Artwork: AT-DSW.ICE by Aphex Twin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9412-at-dsw-part03
 
 Write-Host '
 [1;30;40m▓ █  █ ░[0m      [1;30;40m░[0m          [31m█   [0;33m▓▌ [0;31m▀█▓ [0;1;37m█[0;1;37;41m▓[0;1;37;40m▄[0;1;37;41m▒[0m   [31m■  [0;1;37m▄[0;1;37;47m█▓[0m  [1;31;41m░[0m  [31m▄[0;33m▀[0m     [31m■    [0;1;30;43m█[0;1;30;40m▀▀▀[0m     [1;30;40m▒[0m

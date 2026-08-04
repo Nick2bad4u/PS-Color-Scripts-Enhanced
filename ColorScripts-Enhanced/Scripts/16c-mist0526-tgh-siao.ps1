@@ -1,20 +1,4 @@
-﻿# Converted from: TGH-SIAO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0526/raw/TGH-SIAO.ANS
-# Source Revision: archive-sha256:96e9c14a0862fcfb7b203f3d94f85e28654461fdbf12521de185a12d5fb418bb
-# Source SHA-256: 364678e89b7b7acdf71cdc183ee536ed441047d41f7245952bf7e61fdaa92b7b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TGH-SIAO.ANS by The Green Herring (Mistigris); released in mist0526 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Space Is an Ocean
-# SAUCE Author: The Green Herring
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260531
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: ANSI art screen 2/4 drawn during a May 31, 2026 livestream | on Twitch! Drawn in 41 minutes and finished just before the | stroke of midnight!
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Space Is an Ocean by The Green Herring | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0526-tgh-siao
 
 Write-Host '
   ·                      [34m░░░▒▒░░  [0;37m          [0;34m▄▄▄▄▄[0;37m             ·            ·    [0m

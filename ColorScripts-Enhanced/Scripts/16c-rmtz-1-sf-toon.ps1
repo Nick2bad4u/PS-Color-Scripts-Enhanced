@@ -1,18 +1,4 @@
-﻿# Converted from: SF-TOON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmtz-1/raw/SF-TOON.ANS
-# Source Revision: archive-sha256:e96ee325d754c1e5b063aafdda446247803f028109cb9f0ea526dc0edc4ca3c5
-# Source SHA-256: 35d1f1aff350f6c77bb88cf00ae39d988650d358f44b180971989a67e4616986
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SF-TOON.ANS by Spitfire (Rigamortiz); released in rmtz-1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fuckin toonface!
-# SAUCE Author: Spitfire
-# SAUCE Group: Rigamortiz
-# SAUCE Date: 19960520
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: fuckin toonface! by Spitfire | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmtz-1-sf-toon
 
 Write-Host '
 [34m████████████████████████████████████████████████████████████████████████████████[0m

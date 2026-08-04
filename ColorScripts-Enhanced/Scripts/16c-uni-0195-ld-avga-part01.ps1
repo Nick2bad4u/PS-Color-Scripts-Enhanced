@@ -1,18 +1,4 @@
-﻿# Converted from: LD-AVGA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0195/raw/LD-AVGA.ANS
-# Source Revision: archive-sha256:874f19df1d2975eb4a251b4e9722be66f88a94e2778db4593e3b6fbe57329d35
-# Source SHA-256: 5fa1f8a37b33c34473a8b9173c24077d2e730bc31d20100de91bdd2bdfa73488
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-AVGA.ANS by Lord Jazz (Union); released in uni-0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Avga
-# SAUCE Author: Lord Jazz
-# SAUCE Group: Union
-# SAUCE Date: 19950101
-# SAUCE Dimensions: 80x25
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Avga by Lord Jazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0195-ld-avga-part01
 
 Write-Host '
 [30;43m lord jazz [[0;1;33;43muniOn[0;30;43m][0;33;40m██████████▓▀▀ ▄▄█████▓▒ ████[0;1;33;43m░[0;33m███[0;33;47m▓[0;33;40m██[0;33;47m▓[0;33;40m███[0;33;47m█[0;33;40m█▀▀██████████████████[0m

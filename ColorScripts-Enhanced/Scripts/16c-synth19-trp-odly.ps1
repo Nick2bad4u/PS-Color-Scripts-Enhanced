@@ -1,17 +1,4 @@
-﻿# Converted from: TRP-ODLY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/synth19/raw/TRP-ODLY.ANS
-# Source Revision: archive-sha256:a4b32d44bd13b23ce2a5b7bf3da35e35f98e97043ae7686c17dcf8a72aa42d9b
-# Source SHA-256: 2f1bc737ec609dfce27a2fde9363aebf4f16b3983e0a9a73af695f7719bda36c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TRP-ODLY.ANS by Rippa + Trippah (Synthetic Org!); released in synth19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Odelay!@?$
-# SAUCE Author: Rippa & Trippah
-# SAUCE Group: Synthetic Org!
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: Odelay!@?$ by Rippa + Trippah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-synth19-trp-odly
 
 Write-Host '
 

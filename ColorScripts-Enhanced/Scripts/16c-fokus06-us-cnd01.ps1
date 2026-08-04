@@ -1,18 +1,4 @@
-﻿# Converted from: US-CND01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus06/raw/US-CND01.ANS
-# Source Revision: archive-sha256:dc26abf5be8f48f280ad19d58f0c64fc91b5db6a0fab8539aa3970e4d64fad45
-# Source SHA-256: ae36c0c620008836b8f4b777dd13ade96480256e0952b44038d86b46636ac3e2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CND01.ANS by Argon + Mr Wrong (Multiples); released in fokus06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: CND
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Multiples
-# SAUCE Date: 19990722
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: CND by Argon + Mr Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus06-us-cnd01
 
 Write-Host '
                            [1;30m [0m                    [36m [0;1;30m▄[0m

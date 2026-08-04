@@ -1,13 +1,4 @@
-﻿# Converted from: TMD-DRAG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eph0695/raw/TMD-DRAG.ANS
-# Source Revision: archive-sha256:61ec4551dc794352375c44fe76ae319c35cb8fdacc91cb701b40cfccfff3e01c
-# Source SHA-256: 7fcb2cadf380109a5b51889b8ccdfa464802dcdd225db34f007fa46d19df121e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TMD-DRAG.ANS by The Mad Doctor (eph0695); released in eph0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: TMD-DRAG.ANS by The Mad Doctor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eph0695-tmd-drag-part01
 
 Write-Host '
 

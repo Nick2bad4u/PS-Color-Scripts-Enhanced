@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-FS7.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook15/raw/AVE-FS7.ANS
-# Source Revision: archive-sha256:e54ebc8c52f8d9379c31843d1a642e9eaaf309656353be720cf874920f543492
-# Source SHA-256: 070ee57cc99f5d32a696826c2882157afb8ec5a60053656fe4e6f4e313d786ee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-FS7.ANS by avenger (black maiden); released in bmbook15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: freeside
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19971107
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: freeside by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook15-ave-fs7
 
 Write-Host '
 [43m░[0;36;43m  [0;37;43m▄[0;1;37;47m▄▄[0;43m█▄[0;1;33;41m░░[0;33m▀▀▀▀▀[0;37;43m▀█[0;1;37;47m▀[0;43m▀▀[0;33;47m███[0;37;43m░░░▄[0;1;37;47m▄▄░░░[0;43m█[0;33;40m▓░[0m        [31;40m░[0;37;40m  [0;33;40m█[0;37;43m [0;33;40m█[0;37;40m  [0;35;40m░░░[0;37;40m  [0;35;40m..[0;33;40mave[0;35;40m([0;31;40mblack[0;37;40m [0;31;40mmaiden[0;35;40m)[0;37;40m [0;33;40m▀██[0m

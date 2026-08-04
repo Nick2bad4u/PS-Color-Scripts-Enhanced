@@ -1,13 +1,4 @@
-﻿# Converted from: BUTRFLY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ensiart/raw/BUTRFLY.ANS
-# Source Revision: archive-sha256:1740ea49d8e6dbe7ec5d2c508ba38bad12fe73c43c677e55524f61db5ff5063b
-# Source SHA-256: d959a73b7562f1e62117cc55847ac944de1800a04bf7f1da6f319d988a2a45f8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BUTRFLY.ANS by L R Dennis Iii (ensiart); released in ensiart and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: BUTRFLY.ANS by L R Dennis Iii | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ensiart-butrfly
 
 Write-Host '
         [34m█  ▀█[0m            [34m▀█[0m         [34m█   █[0m             [34m▄▀▄▀█[0m

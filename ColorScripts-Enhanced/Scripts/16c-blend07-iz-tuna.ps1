@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-TUNA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend07/raw/IZ-TUNA.ANS
-# Source Revision: archive-sha256:ca5dd679a175bb824bf5bf250a5bbd7f932645b5aabbf63799cb92711cab24b8
-# Source SHA-256: c5b1654f09ef26d03c6852eb53c37248cb9c517851bae1c5add65b60b937e25d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-TUNA.ANS by ize (blend); released in blend07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: weird!@#
-# SAUCE Author: ize
-# SAUCE Group: blend
-# SAUCE Date: 19970206
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: weird!@# by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend07-iz-tuna
 
 Write-Host '
 

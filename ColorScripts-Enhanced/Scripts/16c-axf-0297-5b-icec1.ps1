@@ -1,18 +1,4 @@
-﻿# Converted from: 5B-ICEC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-0297/raw/5B-ICEC1.ANS
-# Source Revision: archive-sha256:60e502c9a1ba0703538ea6854865054cb1103c69d11b9a8571db69144d294d40
-# Source SHA-256: 048086bcac83f4729b1f1392aeb25555862a47c42852a7a090790aacc3f9068a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5B-ICEC1.ANS by 5b (axf); released in axf-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ice cavern logo_one
-# SAUCE Author: 5b
-# SAUCE Group: axf
-# SAUCE Date: 19970110
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: ice cavern logo_one by 5b | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-0297-5b-icec1
 
 Write-Host '
 

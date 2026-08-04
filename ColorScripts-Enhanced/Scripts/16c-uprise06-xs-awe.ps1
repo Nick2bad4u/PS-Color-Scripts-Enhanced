@@ -1,18 +1,4 @@
-﻿# Converted from: XS-AWE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise06/raw/XS-AWE.ANS
-# Source Revision: archive-sha256:62459159460ab7090ce349ed14c61a1bc8d3aa5785e22124741220f6b82d2ab8
-# Source SHA-256: d0ffd521aa5115cbd73f492a6d5ec4fc67e3888c239a8e04b69996f176c77487
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XS-AWE.ANS by xsys (uprise); released in uprise06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: awe
-# SAUCE Author: xsys
-# SAUCE Group: uprise
-# SAUCE Date: 19980707
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: awe by xsys | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise06-xs-awe
 
 Write-Host '
  [33m░░[0m      [33m░░[0m          [1;30m▄[0m      [30;47m▓[0m       [1;30;40m░░[0m

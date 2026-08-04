@@ -1,15 +1,4 @@
-﻿# Converted from: D0-smp.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tus-02/raw/D0-smp.ans
-# Source Revision: archive-sha256:1847ccf8f73b78fd290bcfae71e9f3879e98988c4912942d1ab6ff427e924c10
-# Source SHA-256: bec2e2f26fd8a9527e1352f0ee6f5a678021f7c1907ec6f85e16151144927b29
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D0-smp.ans by Double Zero (tus-02); released in tus-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 20011002
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: D0-smp.ans by Double Zero | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tus-02-d0-smp
 
 Write-Host '
             [34m░░░░░[0;1;34m░░░░░▒▒▒▒▒[0;1;31;44m     [0;34m▒▒▒▒▒▒▒░[0;30;44m▓[0m         [1;37;40m      [0m

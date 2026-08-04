@@ -1,15 +1,4 @@
-﻿# Converted from: US-ROOT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0297/raw/US-ROOT2.ANS
-# Source Revision: archive-sha256:ecfcd3f5cd2c4412c60edbfa5c15fbea724948a8a18d0e8a8931276c9082657e
-# Source SHA-256: 0e442d4c96d5f57b41886fde5ed89e9c0fa0f7bbbc4f59f9b719df0d34aa9162
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ROOT2.ANS by Fusion + Dislogic (root0297); released in root0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Root Promo
-# SAUCE Author: Fusion & Dislogic
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Root Promo by Fusion + Dislogic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0297-us-root2
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: MODMAD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tk-ansi/raw/MODMAD1.ANS
-# Source Revision: archive-sha256:7a6e15a450305cb977de0a4eb06cf4ca525baa4933c9f7af1cf6080dced8bf2d
-# Source SHA-256: 1a3e706b65d875aee0ac23075c6f1e8308f6b961f373e0a7868b283e60ee293e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MODMAD1.ANS by Tank (NeXX); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Modular Madness BBS Ad
-# SAUCE Author: Tank
-# SAUCE Group: NeXX
-# SAUCE Date: 19920216
-# SAUCE Dimensions: 80x24
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Modular Madness BBS Ad by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tk-ansi-modmad1
 
 Write-Host '
 [1;35m[0;35m[0;1;35m[0;35m[0;1;35m[0;1;36m[0;36m[0;1;36m[0;36m[0m     [35m▄▄[0;1;34;45m▄▄▄▄[0;35m▄▄▄[0;1;34;45m▄▄▄▄[0;35m▄▄▄▄[0;1;34;45m▄▄▄▄▄▄▄▄▄[0;35m██[0;1;34;45m▄▄▄▄▄▄▄▄▄▄▄[0;35m▄▄ [0;1;35m [0;35m [0;1;35m [0;1;36m [0;36m      [0;1;36m [0;36m       [0;1;34m [0;34m     [0;1;34m [0;34m [0;1;34m [0;34m   [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: BZ-CHARI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amb-0003/raw/BZ-CHARI.ANS
-# Source Revision: archive-sha256:6c1f5bb711b3a9f527f0db6688312bdf8c740b8b238d72b35c41b715b9f7e0bd
-# Source SHA-256: a1f040bfe3229e35b20e6a87ecb50f1dac43a250fca3023964880921b60b5124
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BZ-CHARI.ANS by biozard (ambush); released in amb-0003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: chariguana.
-# SAUCE Author: biozard
-# SAUCE Group: ambush
-# SAUCE Date: 19970202
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: chariguana. by biozard | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amb-0003-bz-chari
 
 Write-Host '
                            [1;31m░[0m        [1;30m  [0m                [32m■▄▄[0m

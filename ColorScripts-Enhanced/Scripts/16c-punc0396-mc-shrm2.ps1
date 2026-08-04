@@ -1,18 +1,4 @@
-﻿# Converted from: MC-SHRM2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/punc0396/raw/MC-SHRM2.ANS
-# Source Revision: archive-sha256:a55ffe196038470017abdbc0c565585063d9213ab2534336071cea64c7ae59c9
-# Source SHA-256: 5fcc342264ecc836f6f9125bae2dd4b49a10a20b009f3afec15c97592d90fafb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MC-SHRM2.ANS by mea culpa (PunC); released in punc0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Shroomity-Shroom
-# SAUCE Author: mea culpa
-# SAUCE Group: PunC
-# SAUCE Date: 19960229
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Shroomity-Shroom by mea culpa | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-punc0396-mc-shrm2
 
 Write-Host '
 

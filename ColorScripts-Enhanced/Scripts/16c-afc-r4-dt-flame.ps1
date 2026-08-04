@@ -1,13 +1,4 @@
-﻿# Converted from: DT-FLAME.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r4/raw/DT-FLAME.ANS
-# Source Revision: raw-sha256:855e0b0b2b357b132aa60a3ea062d4602a1ad9ef5439d55017b95533dedfdc8e
-# Source SHA-256: 855e0b0b2b357b132aa60a3ea062d4602a1ad9ef5439d55017b95533dedfdc8e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-FLAME.ANS by Duster (afc-r4); released in afc-r4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: DT-FLAME.ANS by Duster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r4-dt-flame
 
 Write-Host '
             [1;31m▄   ▄▄▀▀▀▄▄[0m                    [1;31m▄[0m                      [1;31m▄▄▀▀▀▄▄[0m

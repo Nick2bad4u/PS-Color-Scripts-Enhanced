@@ -1,13 +1,4 @@
-﻿# Converted from: vp-abz.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-39/raw/vp-abz.ans
-# Source Revision: archive-sha256:ff2dc82e601d582d5ba14cde11c95bdd44462cb1bd0e264d5d8349e121c0a8ec
-# Source SHA-256: 76e2392d48c106189807cb37b21dea8f7bf8961b650a4cb5f2435ec1624c12f9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: vp-abz.ans by Vapor (rmrs-39); released in rmrs-39 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: vp-abz.ans by Vapor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-39-vp-abz
 
 Write-Host '
         [34m▌[0;1;36m s┐ [0m   $$ [1;37m$$$$$[0m $$$$ [1;37m$$$$$$$│$[0m  [1;37m$$│$$[0m  [1;37mⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿ [0m $$

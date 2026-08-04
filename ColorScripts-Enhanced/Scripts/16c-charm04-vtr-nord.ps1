@@ -1,18 +1,4 @@
-﻿# Converted from: VTR-NORD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/charm04/raw/VTR-NORD.ANS
-# Source Revision: archive-sha256:38d0a431ae1d547659978002dc7674e5ce3d32914d382be08425914443942edd
-# Source SHA-256: 8f7e18865db465874088ca329db4f6c679a82d1f562731a9f82e606f7c247fc4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VTR-NORD.ANS by Venturus (Charm); released in charm04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Nordic Winds
-# SAUCE Author: Venturus
-# SAUCE Group: Charm
-# SAUCE Date: 19970321
-# SAUCE Dimensions: 80x25
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: Nordic Winds by Venturus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-charm04-vtr-nord
 
 Write-Host '
 

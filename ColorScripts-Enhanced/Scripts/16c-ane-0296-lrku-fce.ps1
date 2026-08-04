@@ -1,18 +1,4 @@
-﻿# Converted from: LRKU-FCE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ane-0296/raw/LRKU-FCE.ANS
-# Source Revision: archive-sha256:3968cc056bf297febf6892374e4caf7ab79dd8410790f6f7be0cb58cc17cd856
-# Source SHA-256: 503f5f95cb7793c0c85a42fdaedd3a535a943c8b4fb6e38d7ef0b3d576ada7fa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LRKU-FCE.ANS by lameR & kU (anemia); released in ane-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: pic i used ku's font for
-# SAUCE Author: lameR & kU
-# SAUCE Group: anemia
-# SAUCE Date: 19960131
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: pic i used ku's font for by lameR & kU | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ane-0296-lrku-fce
 
 Write-Host '
                                   ▄▄[1;47m▀[0;1;40m▀▀[0;1;43m▀▀[0;33m▄▄▄▄▄[0m

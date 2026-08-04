@@ -1,19 +1,4 @@
-﻿# Converted from: DW-DABOYS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1221/raw/DW-DABOYS.ANS
-# Source Revision: archive-sha256:5e9313825592ee844db1dbb5f288429b09b14a6176d448c30ff1c2ee32395d09
-# Source SHA-256: 89853e57b725c327c94e6852845e338e3c125ec7078f5b66fa99bed00941c3a5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DW-DABOYS.ANS by DW (Mistigris); released in mist1221 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Chrimbo Gang
-# SAUCE Author: DW
-# SAUCE Group: Mistigris
-# SAUCE Date: 20211220
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: The Chrimbo Gang by DW | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1221-dw-daboys
 
 Write-Host '
 [1;30m███[0;1;37m                        [0;1;30m███████▀▀▀▀▀▀██████████[0;1;37m•[0;1;30m█████████████████████████[0;1;37m•[0;1;30m███[0m

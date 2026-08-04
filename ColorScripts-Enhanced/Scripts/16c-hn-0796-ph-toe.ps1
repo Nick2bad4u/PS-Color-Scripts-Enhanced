@@ -1,18 +1,4 @@
-﻿# Converted from: PH-TOE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hn-0796/raw/PH-TOE.ANS
-# Source Revision: archive-sha256:6df303d0096d1bde90a7977c01a26e91a10f0b86301b3cabfcc166dcbb74ed6b
-# Source SHA-256: 7397722d542a524580f09405dd3dfb3f2e367f1cf8c6c19137665aa0dd7bae2f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PH-TOE.ANS by psychoholic (hallucination); released in hn-0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: t0e
-# SAUCE Author: psychoholic
-# SAUCE Group: hallucination
-# SAUCE Date: 19960609
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: t0e by psychoholic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hn-0796-ph-toe
 
 Write-Host '
 

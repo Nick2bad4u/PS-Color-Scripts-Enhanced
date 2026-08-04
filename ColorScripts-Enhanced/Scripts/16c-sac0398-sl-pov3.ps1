@@ -1,13 +1,4 @@
-﻿# Converted from: SL-POV3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0398/raw/SL-POV3.ANS
-# Source Revision: archive-sha256:5deb0c572555b712853a4e44d44a0abdfad1e60e47bfcff7ce192c9fa583bdec
-# Source SHA-256: e6d4f4a98da035217b88a0cbe2514bd21957afacdc107c151039a6585ec08c43
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SL-POV3.ANS by Strikeligt (sac0398); released in sac0398 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: SL-POV3.ANS by Strikeligt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0398-sl-pov3
 
 Write-Host '
 [1;30m░▒▓█▀▀█▓▓▓▒▒░░▒░░▀▀▀▀██▒▒░▒▒░▒▓██▀▀▀▀██░░░░▒▒▓▓▓▒▒░░█▀▀▀▀█░░░▒▒▒░░▒░▀▀▀▀▀█▓█▓▒░[0m

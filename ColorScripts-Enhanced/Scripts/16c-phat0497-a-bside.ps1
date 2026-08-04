@@ -1,18 +1,4 @@
-﻿# Converted from: (A)BSIDE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0497/raw/(A)BSIDE.ANS
-# Source Revision: archive-sha256:ac23f379eb24f5f6ad8faa432723caa3c85fc7d4fc380b1d3e101e8eb50ca483
-# Source SHA-256: 53bbf5163714b7d7b5f1cfda965d62e12feee5145b407a362edff0ad105f27f5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: (A)BSIDE.ANS by al3cs (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: b-side.. for gO!3
-# SAUCE Author: al3cs
-# SAUCE Group: phat studios '97
-# SAUCE Date: 19970330
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: b-side.. for gO!3 by al3cs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0497-a-bside
 
 Write-Host '
 [1;34m█[0;34m▀[0;1;34m████████[0;1;34;44m▓[0;34m▌[0m                        [1;34m█[0;1;34;44m▓▓[0;1;34;40m██[0;1;34;47m▀▀▀▀[0;1;34;40m████████████[0;1;34;44m▀▀[0;1;34;40m██[0;1;34;44m▀▀█[0;1;34;40m███████████████[0m

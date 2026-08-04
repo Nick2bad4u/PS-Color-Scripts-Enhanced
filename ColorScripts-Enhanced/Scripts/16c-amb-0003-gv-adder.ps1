@@ -1,17 +1,4 @@
-﻿# Converted from: GV-ADDER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amb-0003/raw/GV-ADDER.ANS
-# Source Revision: archive-sha256:6c1f5bb711b3a9f527f0db6688312bdf8c740b8b238d72b35c41b715b9f7e0bd
-# Source SHA-256: 4a2b7a81424fa44ed8ddf3915d084ea08594d2ac2d8aebdd668efc03b7ecdec3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GV-ADDER.ANS by groove (amb-0003); released in amb-0003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: etherial adder
-# SAUCE Author: groove
-# SAUCE Date: 19970608
-# SAUCE Dimensions: 80x14
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: etherial adder by groove | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amb-0003-gv-adder
 
 Write-Host '
 [1;30m[0m[1;30m[0;36m[0;1;30m[0m

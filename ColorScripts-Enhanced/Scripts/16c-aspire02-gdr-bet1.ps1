@@ -1,18 +1,4 @@
-﻿# Converted from: GDR-BET1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aspire02/raw/GDR-BET1.ANS
-# Source Revision: archive-sha256:2a3d326a8ca130440ffd6aad2cfc82e14baf2656c973157652834b18c04ceb5d
-# Source SHA-256: 0f3ccee144b0cca0efd347f0853c2f66d81fe9f67eb097b177ce84cf90138943
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GDR-BET1.ANS by gravedancer (aspire); released in aspire02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: portrait
-# SAUCE Author: gravedancer
-# SAUCE Group: aspire
-# SAUCE Date: 19980729
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: portrait by gravedancer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aspire02-gdr-bet1
 
 Write-Host '
 [1m█████████████▀▀[0;1;33m [0;33m▄▄[0;1;33;43m▄▄[0;1;33;40m█▀[0;33m▄▄▄▀▀▀[0;1;33m [0;33m [0;1;37m  [0;33m▄▄▄[0;1;37m  [0;33m▀[0;1;33;43m▀[0;1;33;40m██▄▄ [0;33m▀[0;1;33;43m ▀█[0;1;33;40m███▄█▄▄▀▀██▄[0;1;37;40m [0;1;33;40m [0;1;37;40m▀▀████████████████[0m

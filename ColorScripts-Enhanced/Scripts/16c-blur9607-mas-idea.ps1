@@ -1,18 +1,4 @@
-﻿# Converted from: MAS-IDEA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blur9607/raw/MAS-IDEA.ANS
-# Source Revision: archive-sha256:b26c8b94015ee6d1b8810f7d19551196eb13cdc7b545981a4755cd2ae5715624
-# Source SHA-256: 1ac31507574ed7ce50c04f28daedc5ec675533a161beee125f2ab3e2f9da2503
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MAS-IDEA.ANS by mass hypnosis (blur); released in blur9607 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Poison Ideas
-# SAUCE Author: mass hypnosis
-# SAUCE Group: blur
-# SAUCE Date: 19960627
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Poison Ideas by mass hypnosis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blur9607-mas-idea
 
 Write-Host '
 [1;30m▌▐▌▐▌[0m [1;30m█▌[0m [1;30m█▌[0;1;37mp[0myr[1;30mo''s po[0mison[1med[0m [1mi[0mde[1;30maz[0m [1;30m███▓████████████████████▓████████[0m [1;30m██▌[0m [1;30m█▌▐▌▐[0m [1;30m▌[0m [1;30m▌[0m

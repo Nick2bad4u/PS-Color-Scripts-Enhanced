@@ -1,13 +1,4 @@
-﻿# Converted from: MTM(TNT).ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pro-0597/raw/MTM(TNT).ANS
-# Source Revision: archive-sha256:481b5fb97b76ab3f49d96748bbc6de9355df4dac5d8032169a495e45a44b207f
-# Source SHA-256: ae9127af98c7e43cf1343b828270eb8ec2f100f9e4ec1181fcde60133085dd2a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MTM(TNT).ANS by Mtm (pro-0597); released in pro-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: MTM(TNT).ANS by Mtm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pro-0597-mtm-tnt
 
 Write-Host '
                    [1;31m▄▄▄▄    ▄▄▄▄[0m          [1;31m▄[0m     [1;31m▄▄▄▄    ▄▄▄▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: AS-DOG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-24/raw/AS-DOG.ANS
-# Source Revision: archive-sha256:941504543a070d123f982105313110e2e0cd0032e6193b222a5df6a537f3703e
-# Source SHA-256: 1a8d1b750b7950f3d656fc5aa2491b00aa5f2c4573aa04f7850576bc0897138b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AS-DOG.ANS by Asd (sclr-24); released in sclr-24 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: AS-DOG.ANS by Asd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-24-as-dog
 
 Write-Host '
 [1;30;40m                                                                             [0;37;40m   [0m

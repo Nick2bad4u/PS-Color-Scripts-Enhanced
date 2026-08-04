@@ -1,13 +1,4 @@
-﻿# Converted from: ns-TheTelephoneBoot.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/ns-TheTelephoneBoot.ans
-# Source Revision: archive-sha256:5d665873486ffcf559d33043557e11d7636d0c5a5b53a69dd3e7cf81117997ef
-# Source SHA-256: 0851d328f3f7edc2c2e0ec9efc43d54e689edc2f3fae191af7065076be318d9a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ns-TheTelephoneBoot.ans by Ansichrist (blocktronics_codename_chris_wirth); released in blocktronics_codename_chris_wirth and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ns-TheTelephoneBoot.ans by Ansichrist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-codename-chris-wirth-ns-thetelephoneboot
 
 Write-Host '
 [1;30m▄█▀▀▀▀[0m [32m▄▄▄▄█[0;1;32;42m░[0;32m█[0;1;32m░[0;1;32;42m░░[0;32m█▄▄[0;37m [0;1;30m▀▀▀[0;1;30;47m▒▓[0;1;30;40m▄[0m [36;44m░░[0;1;34;40m▒[0;34m▀▀[0m             [37m░[0;1;30m▄[0;1;30;47m▀▄[0m▀[1;30m▀[0m [1;30m▄[0;1;30;47m▀[0m████[1;30;47m▀[0;1;30;40m▄[0m  [34m  [0;37m    [0;34m░[0;1;30m   ▄▄█▄[0m

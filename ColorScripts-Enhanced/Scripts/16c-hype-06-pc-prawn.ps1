@@ -1,13 +1,4 @@
-﻿# Converted from: PC-PRAWN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-06/raw/PC-PRAWN.ANS
-# Source Revision: archive-sha256:6dc1ff1e5e2a2fbd4d8963ff27dba17dd0715e4d98ce4ed0c4cdd8e573084e6f
-# Source SHA-256: 4da96274ef004bc71751e7e26f56eda06882a9086b34dda53c5cb95e65d7e374
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-PRAWN.ANS by Putrid Carcass (hype-06); released in hype-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: PC-PRAWN.ANS by Putrid Carcass | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-06-pc-prawn
 
 Write-Host '
 [33m███[0;1;33;43m░ ░▒░▒▒▓▒▒▓▓▓█[0;1;33;40m█[0;1;33;43m▓[0;1;33;40m██████▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

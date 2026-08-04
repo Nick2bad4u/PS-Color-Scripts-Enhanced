@@ -1,19 +1,4 @@
-﻿# Converted from: nf-KatanasSweetRevenge.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel26/raw/nf-KatanasSweetRevenge.ans
-# Source Revision: archive-sha256:d10918a36531171a7bd7de77ac2a92891100e4055d3be9227ebf98ff3c0d1cc3
-# Source SHA-256: db5c3136c5f3eb682a76a128aa2f947ba87bae86a5e06098af1c84b16624aa5c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: nf-KatanasSweetRevenge.ans by Necro + Necrofiliac (FUEL); released in fuel26 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Katana's Sweet Revenge
-# SAUCE Author: Necro
-# SAUCE Group: FUEL
-# SAUCE Date: 20180314
-# SAUCE Dimensions: 80x325
-# SAUCE Font: IBM VGA
-# Lines: 280-325
-# Columns: 1-80
+﻿# Artwork: Katana's Sweet Revenge by Necro + Necrofiliac | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel26-nf-katanassweetrevenge-part07
 
 Write-Host '
 [1;32;42m░░[0;32m█[0;1;32;42m░▒▒▓[0;1;32;40m▌ [0;32m▐███████████[0;1;32;42m░[0;32m██[0;1;32;42m░▒[0;32m██[0;1;32;42m░▒[0;1;32;40m [0;32m▀    [0;1;31;43m░░▒▒[0;1;31;40m██[0;1;31;47m█▓[0;1;31;40m█[0;1;31;47m▓▓[0;1;31;43m▓░▒[0;33m█[0;1;31;43m░[0;1;30;43m░[0;1;30;40m█▒  [0;32m▄▀██▓▄█████████████████[0m

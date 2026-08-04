@@ -1,18 +1,4 @@
-﻿# Converted from: CK-HACK1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9504a/raw/CK-HACK1.ICE
-# Source Revision: archive-sha256:7e06a69e8d7baf8133687f2e7b917774996272e1a0f23faaff663b1fe4e44657
-# Source SHA-256: e867213528be61cae3e2bde8d7c2b5afe6e4b429f00acca72eaafc938b8fa8fb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CK-HACK1.ICE by chromatik (.ice%prod!1995.); released in ice9504a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: da hack shack?! ..
-# SAUCE Author: chromatik
-# SAUCE Group: .ice%prod!1995.
-# SAUCE Date: 19950421
-# SAUCE Dimensions: 80x25
-# Lines: 48-73
-# Columns: 1-80
+﻿# Artwork: da hack shack?! .. by chromatik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9504a-ck-hack1-part02
 
 Write-Host '
                [32m▄ ■[0m

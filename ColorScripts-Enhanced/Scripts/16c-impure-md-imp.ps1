@@ -1,13 +1,4 @@
-﻿# Converted from: MD-IMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure/raw/MD-IMP.ANS
-# Source Revision: archive-sha256:0b9a4294ce690aca32755515783e8fac4c651c445d3dd4e394f3ee189ef0478e
-# Source SHA-256: c2857e4128e171c6755722e90a531b8dff730809caafd7cee5fc978a828dcc5a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MD-IMP.ANS by Mr Self Destruct (impure); released in impure and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: MD-IMP.ANS by Mr Self Destruct | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure-md-imp
 
 Write-Host '
 [40m         [0;34;40m▄▒▒▀▀ [0;33;40m░ [0;34;40m▀▀[0;1;34;44m▀▀ ▀[0;34;44m██[0;34;40m▄            [0;35;40m░░[0m

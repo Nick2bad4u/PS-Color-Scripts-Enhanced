@@ -1,18 +1,4 @@
-﻿# Converted from: V9-BIO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0397/raw/V9-BIO1.ANS
-# Source Revision: archive-sha256:0bbae31e52a4c1ad24c4bfa8a6bfcd082f750141f70c56dfd02f65c0d93bbb46
-# Source SHA-256: 9f87f3465e128a9cb79a06f9a5815761caa9670a9faa74c2070fc22b16c2b65d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: V9-BIO1.ANS by Vade79 (f1RE); released in fsn-0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Biohazard
-# SAUCE Author: Vade79
-# SAUCE Group: f1RE
-# SAUCE Date: 19970302
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Biohazard by Vade79 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0397-v9-bio1
 
 Write-Host '
 [1;31m    [0;31m■▄[0;37m [0;31m▀▀▐[0;1;31;41m░▓▓▌[0;31m▌▄[0;37m [0;34m▀[0;30;44m░[0;34;40m▓ ▄[0;1;34;44m▄[0;1;34;40m▌▓▀▀[0m [1;34m▀[0m [31m▌[0m         [31m░[0m        [34m▄▄[0;37m [0;31m▀▀[0;34m  [0;31m▄▄[0m

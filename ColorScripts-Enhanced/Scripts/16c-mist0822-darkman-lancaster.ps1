@@ -1,20 +1,4 @@
-﻿# Converted from: DARKMAN-LANCASTER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0822/raw/DARKMAN-LANCASTER.ANS
-# Source Revision: archive-sha256:ed72a43421208b7431337d20b0e65cf1daa85d400f3cf90754e23de5d5edd83f
-# Source SHA-256: 087bc8b3c6525b2a70bc5a485c01195547446e0fb283a40b703d3ac8142c6482
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DARKMAN-LANCASTER.ANS by Darkman Almighty (USS Excelsior BBS); released in mist0822 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: AVRO Lancaster
-# SAUCE Author: Darkman Almighty
-# SAUCE Group: USS Excelsior BBS
-# SAUCE Date: 20220821
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: The Avro Lancaster is a British Second World War heavy bomber. V | ery influential in slowing the war with many missions and my fav | orite WWII plane.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: AVRO Lancaster by Darkman Almighty | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0822-darkman-lancaster
 
 Write-Host '
 [1;34m [0;1;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0;1;34m███████████████████[0;1;37m ██████████████████████████████████[0m

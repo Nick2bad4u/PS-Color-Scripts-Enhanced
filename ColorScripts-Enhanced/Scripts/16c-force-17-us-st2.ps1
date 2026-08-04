@@ -1,18 +1,4 @@
-﻿# Converted from: US-ST2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-17/raw/US-ST2.ANS
-# Source Revision: archive-sha256:a388e5620de32c4145fd1d2f2e70343f674ce332483184514a867f9d5d569bc4
-# Source SHA-256: 05418fd1b2b0ad6e062c0146661a4c93053c918dc69d5fa685292d8724d1d01c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ST2.ANS by Cryogenic + Rzarector (Force); released in force-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Staesis/2
-# SAUCE Author: Rza/Cyro
-# SAUCE Group: Force
-# SAUCE Date: 19970428
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Staesis/2 by Cryogenic + Rzarector | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-17-us-st2
 
 Write-Host '
 

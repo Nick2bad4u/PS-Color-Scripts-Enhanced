@@ -1,18 +1,4 @@
-﻿# Converted from: PE-LAZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz10sep/raw/PE-LAZ.ANS
-# Source Revision: archive-sha256:4ab640a5762659d8c89d1d4c7a47f2c8ebad1c9e802d4965d8fdc943ea824060
-# Source SHA-256: ac5e147b5b0efc5ec3c11c90c7eef7029304fc3bed38bdc8cfec4a01e3f2850f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PE-LAZ.ANS by PhonyEye (Awe); released in laz10sep and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: (guest) Lazarus Promo
-# SAUCE Author: PhonyEye
-# SAUCE Group: Awe
-# SAUCE Date: 19970810
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: (guest) Lazarus Promo by PhonyEye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz10sep-pe-laz
 
 Write-Host '
                 [34m [0m

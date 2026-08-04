@@ -1,13 +1,4 @@
-﻿# Converted from: SL-FF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/max_artpack_0293/raw/SL-FF.ANS
-# Source Revision: archive-sha256:4391b75bf8c657316d4174c3ede061bb559b411b88e61eb928831c9bafa580bd
-# Source SHA-256: c8091ab945a698d9848138da96c6c4bca029fe0f4202d65c2f7253886e41e636
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SL-FF.ANS by Slinger (max_artpack_0293); released in max_artpack_0293 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: SL-FF.ANS by Slinger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-max-artpack-0293-sl-ff
 
 Write-Host '
 [34m░░░░░░░░▒▒▒▓▓▓▓▓█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀██████▓▓▓▓▓▓▒▒▒░░░░░░░░[0m

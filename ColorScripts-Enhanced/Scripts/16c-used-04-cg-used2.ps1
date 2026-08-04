@@ -1,18 +1,4 @@
-﻿# Converted from: CG-USED2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-04/raw/CG-USED2.ANS
-# Source Revision: archive-sha256:1dcdf112160ec589150680778cd449e8af485dfba89bb104c44cd133db2d6fc0
-# Source SHA-256: 607894910df2b980426e95e998d794023d114aefc0600d4b7d5fa260f079e86b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-USED2.ANS by cryogenic (The Used Coalition); released in used-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: used
-# SAUCE Author: cryogenic
-# SAUCE Group: The Used Coalition
-# SAUCE Date: 20000307
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: used by cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-04-cg-used2
 
 Write-Host '
 [1;31m▄▄[0m        [31m▄▄▄[0;37m  [0;31m░[0m        [31m▄▄[0;37m  [0;30;41m▓[0;31;40m░[0;30;41m▓█[0m    [34;40m▄[0;1;34;44m▄[0;1;34;40m▒[0;34m▄[0;37m  [0;30;41m▓[0;31;40m░[0;30;41m▓[0m    [34;40m▄▄▄[0;37;40m    [0;31;40m [0;30;41m▓[0;31;40m░[0;30;41m▓[0;37;40m  [0m    [30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m [0;37;40m [0;31;40m▄▄▄[0m

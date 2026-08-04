@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-BANAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1096/raw/IZ-BANAN.ANS
-# Source Revision: archive-sha256:0aef116e4290fa41749730625329f38610014fc9d720313823330534bc5bca90
-# Source SHA-256: 04d76e9d9afc9d5b18bb739a8a5de236db3ac1fa6b4683b4b342de0a50751fed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-BANAN.ANS by ize (fire); released in fire1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: grandma's bananas
-# SAUCE Author: ize
-# SAUCE Group: fire
-# SAUCE Date: 19961005
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: grandma's bananas by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1096-iz-banan
 
 Write-Host '
                  [1;30m░░[0m                                                  [1;30m░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: TRC-HAND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0697/raw/TRC-HAND.ANS
-# Source Revision: archive-sha256:08e18940bca34b3567a75953ae0590b0f85d3fbc4d879deb49d9733793875e53
-# Source SHA-256: 5ebaeb69eb34037986b5f3b9b850e8af731863c1f99736adce762566fdc9bb09
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TRC-HAND.ANS by trc! (Phat Studios '97); released in phat0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hacienda login screen
-# SAUCE Author: trc!
-# SAUCE Group: Phat Studios '97
-# SAUCE Date: 19970601
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: hacienda login screen by trc! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0697-trc-hand
 
 Write-Host '
 

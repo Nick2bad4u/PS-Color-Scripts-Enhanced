@@ -1,13 +1,4 @@
-﻿# Converted from: avg-pendellgate101.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_yotb/raw/avg-pendellgate101.ans
-# Source Revision: archive-sha256:f702f09f6116b5ac6fa523d36f54d796db6f44f880e4f1cd426d29a9fbda605e
-# Source SHA-256: 6ced33d4635dda585eecfa413db82366e5f5ea9a44335e37c27b78eebbe3ae77
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-pendellgate101.ans by Avenging Angel (blocktronics_yotb); released in blocktronics_yotb and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 82-109
-# Columns: 1-80
+﻿# Artwork: avg-pendellgate101.ans by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-yotb-avg-pendellgate101-part03
 
 Write-Host '
 [0m[0m  [1m   █████[0;1;46m█[0;1;36;46m█[0;1;37;46m██[0m [1;34m [0m     [1;34m▀█[0;36m▀███[0;1;30;44m█[0;35m▄█▀[0;1;30m▄[0;1;30;47m▀[0m ▄██[1;47m██[0m█████[35;47m [0;37;40m▄ [0;1;30;47m▀[0;1;30;40m▄[0;35m▀█▄[0;1;30;44m█[0;36m███▀[0;1;34m█▀[0m     [1;34m [0m [1;46m██[0;1;36;46m█[0;1;37;46m█[0;1;37;40m██░▓▓[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: AP-HUMA3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bleach01/raw/AP-HUMA3.ANS
-# Source Revision: archive-sha256:b051f200d4cb4a187bf381a6b9042d79015b79b0cf19e4a4a725c252afed48ec
-# Source SHA-256: 5d1a9be7c92dd0e273154d613c8f72212e5861999067c14eeeb6edbc6bdc2c40
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AP-HUMA3.ANS by Apocalypse (READ THE INI FILE); released in bleach01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: huma!
-# SAUCE Author: Apocalypse
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950207
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: huma! by Apocalypse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bleach01-ap-huma3
 
 Write-Host '
                 [32m▀ [0m [32m░[0;37m  [0;32m▄▀[0m                           [32m░[0m [32m▀[0m  [32m■[0m

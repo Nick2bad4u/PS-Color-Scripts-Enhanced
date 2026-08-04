@@ -1,17 +1,4 @@
-﻿# Converted from: QP-SF1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9812a/raw/QP-SF1.ICE
-# Source Revision: archive-sha256:397c8567417cfeea4664a28967705433b5deac25a80f14bd6f996962777a7236
-# Source SHA-256: 48b16d990362b477a8a6976f31fc026b1cf017247101bde88a655fc7a5f577d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QP-SF1.ICE by Quip (Ice Advertisements); released in ice9812a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Superfiend
-# SAUCE Author: Quip
-# SAUCE Group: Ice Advertisements
-# SAUCE Date: 19981227
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Superfiend by Quip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9812a-qp-sf1
 
 Write-Host '
 [31m ▓[0;1;31;41m░░[0;31m██ [0m                                                                    [31m ░[0;1;31;41m▓██[0m

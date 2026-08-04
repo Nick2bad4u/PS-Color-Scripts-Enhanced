@@ -1,18 +1,4 @@
-﻿# Converted from: V9-FIRE3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1296/raw/V9-FIRE3.ANS
-# Source Revision: archive-sha256:30782fcfc860946575894eb2b18cd82015430d9b2fe92875d1416c9b2489f009
-# Source SHA-256: 5a2f09cd04776a43fb5ef625acaf396c086743943a1ad85fcd511a95fc070b13
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: V9-FIRE3.ANS by Vade79(GOLD) (f1RE); released in fire1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: f1RE promo
-# SAUCE Author: Vade79(GOLD)
-# SAUCE Group: f1RE
-# SAUCE Date: 19961213
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: f1RE promo by Vade79(GOLD) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1296-v9-fire3
 
 Write-Host '
 ▄ [1;36m▀[0m ▄[1;36m▄▄▄[0m ▀[1;36m▀▀[0m     [1;36m░[0m ▄[1;36m▄[0m   ▄[1;36m▄▄[0;1;36;47m▄[0;1;36;40m█▀▀[0m [31m [0;37m ■▄[0;1;36m▐▄[0m     ▄[1;36m▄[0m [1;36m░[0m     [1;36m░░░░░░[0m  ▀[1;36m▀▀[0m [1;36m░░[0m ▄[1;36m▄[0m   ▀  ▀[1;36m▀[0;1;36;47m▀[0;1;36;40m▄▌[0m

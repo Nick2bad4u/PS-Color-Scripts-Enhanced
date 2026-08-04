@@ -1,13 +1,4 @@
-﻿# Converted from: KOROVA4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1092/raw/KOROVA4.ANS
-# Source Revision: archive-sha256:768e49c0fcc70036d81b58eb68d2e9509e4ecc466f4fb706e35cc9eb05b78dcb
-# Source SHA-256: 75f3d1f6e1993c9d59acb14aba8a2aea42552500e429e8b602a76d9bd81edb17
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KOROVA4.ANS by Sonic (acdu1092); released in acdu1092 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 41-80
-# Columns: 1-80
+﻿# Artwork: KOROVA4.ANS by Sonic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1092-korova4-part02
 
 Write-Host '
 [1;30;40m██▓▓▓▒▒▒▒▓▓▓███ [0;1;34;40m█[0;1;34;44m██        [0;34m████████[0;30;44m▄▄[0m [1;30;40m▄███████████▓▓▓▒▒▒▒▓▓█████▓▓▓▒▒▒▒▒▓██▓▒▒▒▓[0m

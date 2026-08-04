@@ -1,13 +1,4 @@
-﻿# Converted from: 03-FINAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/swap07/raw/03-FINAL.ANS
-# Source Revision: archive-sha256:f30ae5dad366da484dcb0ff0cc7cb06689f4df59bb812164e6e30fcbf5f5cf09
-# Source SHA-256: 6b4bfb744b2d8bd70fe70d35960d1b4a9f0162a8ba8849f247cbe10256938cb9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 03-FINAL.ANS by Black Viper + Pzyko + Epoxy + Mel Farr Suppastar + Corinthian + Stone The Crow + Nail + Illusion X (swap07); released in swap07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: 03-FINAL.ANS by Black Viper + Pzyko + Epoxy + Mel Farr Suppastar + Corinthian + Stone The Crow + Nail + Illusion X | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-swap07-03-final
 
 Write-Host '
                        [34m▄[0m        [34m▄▌ [0;37m [0;1;33m  [0m [1;33m  [0m    [33m░░[0;37m  [0;1;33m  [0;33m▀[0;1;33;43m░░[0;1;33;40m▄▄[0;33m░[0m

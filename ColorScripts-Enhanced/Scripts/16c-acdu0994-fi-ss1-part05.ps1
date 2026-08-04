@@ -1,18 +1,4 @@
-﻿# Converted from: FI-SS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0994/raw/FI-SS1.ANS
-# Source Revision: archive-sha256:70e9e3ba45456511eb6a648215e7531dd3b7a09ca51f860ca2dd613c7dbc4d28
-# Source SHA-256: 329fceccf202ca2a6fdc9e6e5373d935ad03e7d77d330c735108257316006728
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FI-SS1.ANS by Forbidden Image (ACiD Productions); released in acdu0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Suicidal Shrimp
-# SAUCE Author: Forbidden Image
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940901
-# SAUCE Dimensions: 80x216
-# Lines: 185-216
-# Columns: 1-80
+﻿# Artwork: Suicidal Shrimp by Forbidden Image | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0994-fi-ss1-part05
 
 Write-Host '
                         [31m░[0m

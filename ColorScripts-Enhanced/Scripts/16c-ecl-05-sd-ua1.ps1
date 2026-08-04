@@ -1,18 +1,4 @@
-﻿# Converted from: SD-UA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-05/raw/SD-UA1.ANS
-# Source Revision: archive-sha256:9471ca7612415a41916878584e9d9bf710a5efbc5b8d389ed1bde764e2a602ca
-# Source SHA-256: 6971b33230b6a284f92d0ecf5ce9f9be93b24a869aa9673bfc44785ed348259b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-UA1.ANS by sir_isn't_deaf (some_lipz); released in ecl-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: aeiou
-# SAUCE Author: sir_isn't_deaf
-# SAUCE Group: some_lipz
-# SAUCE Date: 19960812
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: aeiou by sir_isn't_deaf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-05-sd-ua1
 
 Write-Host '
                                                            [33m▄[0;1;33;43m░[0;1;33;40m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: gj-wl2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wrlk001/raw/gj-wl2.ans
-# Source Revision: archive-sha256:6765dab2b891656b1208db0232bdc64c598e0fd42d2b71975b3219d1a4b40976
-# Source SHA-256: c0dab0d883434ed3a4b8905e6efb760392dc4f3434f764fade0607c3109694e8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: gj-wl2.ans by grymmjack (gj!) (Warlock); released in wrlk001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Warlock logo
-# SAUCE Author: grymmjack (gj!)
-# SAUCE Group: Warlock
-# SAUCE Date: 20010829
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Warlock logo by grymmjack (gj!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wrlk001-gj-wl2
 
 Write-Host '
 

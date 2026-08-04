@@ -1,18 +1,4 @@
-﻿# Converted from: MNC@SKLL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-20/raw/MNC%40SKLL.ANS
-# Source Revision: archive-sha256:393d047e2180bfd9243bab3697da037cf54274d924108dd74eafdca6bd3a4109
-# Source SHA-256: a9eeaf217951c1ffbb272c41e554af48a8b2e19d690b333ddb1444a0ab2bdae8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MNC@SKLL.ANS by menace (fokus); released in glue-20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: glue guest
-# SAUCE Author: menace
-# SAUCE Group: fokus
-# SAUCE Date: 19990331
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: glue guest by menace | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-20-mnc-skll
 
 Write-Host '
 [1;35m▓▓[0;1;34;45m▓▓▓▒▒░[0;1;35;40m▒▒[0;35m▀▀▀▀▀▀[0;31m▄▄▄▄███▄▄▄▄▄[0m                [37m▄▄▄[0m     [37m▄▄▄▄[0m        [37m░░░░[0m        [37m▄▄▄[0m

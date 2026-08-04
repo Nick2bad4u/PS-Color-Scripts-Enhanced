@@ -1,18 +1,4 @@
-﻿# Converted from: MM-MATX1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy08/raw/MM-MATX1.ANS
-# Source Revision: archive-sha256:dddbecd097515d8bc284ea8726046b80b56f2576fe024d98d7a392e98f8d9a1f
-# Source SHA-256: 82f2b413d8189a48a25e73698a92aab9f4c53a595c221a139622b8e935fa663d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-MATX1.ANS by Mighty Mouse (WiCKED); released in apathy08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: A Matrix For All...
-# SAUCE Author: Mighty Mouse
-# SAUCE Group: WiCKED
-# SAUCE Date: 19960305
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: A Matrix For All... by Mighty Mouse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy08-mm-matx1
 
 Write-Host '
 [30;45m   [0;35;40m▓[0;30;45m [0;35;40m▓ [0;1;33;40m▒[0;1;33;43m▀▀▒▓█[0;1;33;40m████▄▄▄▄[0;30;44m█▄▄▄[0;34;40m▓[0;30;44m  [0;1;34;44m▄▓▓▄ [0;30;44m                  [0;1;34;44m▄▄▄▄[0;30;44m  [0;1;34;44m▄[0;30;44m                     [0;1;34;44m [0m

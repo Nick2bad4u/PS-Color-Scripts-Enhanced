@@ -1,13 +1,4 @@
-﻿# Converted from: TL!DEEPS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-003/raw/TL!DEEPS.ANS
-# Source Revision: archive-sha256:de78ce19727ea90c75e1ecc7f5b4d900676dc27b4dceb8a870f61665ee210859
-# Source SHA-256: 296bc0d6aacbde57f48bc51ce2fb2593ca5637bad55b8ffdb8004ef6a7fe7914
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TL!DEEPS.ANS by Timeless (rare-003); released in rare-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: TL!DEEPS.ANS by Timeless | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-003-tl-deeps
 
 Write-Host '
 

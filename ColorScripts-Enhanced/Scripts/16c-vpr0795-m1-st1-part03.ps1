@@ -1,17 +1,4 @@
-﻿# Converted from: M1-ST1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vpr0795/raw/M1-ST1.ANS
-# Source Revision: archive-sha256:4a59d47b7694f8e39e774460d65dc196d91b5d4e90f4e35cac8b62cdf4456f27
-# Source SHA-256: 33f5a2c1459c6dde94a655f4cbcadc82536c9ccdf9944238c709a44511aa1c99
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M1-ST1.ANS by Mystic Images (Vapor); released in vpr0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Sadistic Temple
-# SAUCE Author: Mystic Images
-# SAUCE Group: Vapor
-# SAUCE Date: 20950707
-# Lines: 101-136
-# Columns: 1-80
+﻿# Artwork: Sadistic Temple by Mystic Images | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vpr0795-m1-st1-part03
 
 Write-Host '
 

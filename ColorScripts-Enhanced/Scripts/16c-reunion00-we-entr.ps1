@@ -1,13 +1,4 @@
-﻿# Converted from: we-entr.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/reunion00/raw/we-entr.ans
-# Source Revision: archive-sha256:37cedb6d7b7e8a08a51e592a104e7f60057b430ec8dcba2ff7aaf83ef7582aac
-# Source SHA-256: e41a4ee8624fddca6d4c2df0bddbe66e0ac251928a3bb283ef26a0f0e7442cb7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-entr.ans by Creator + Tron (reunion00); released in reunion00 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: we-entr.ans by Creator + Tron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-reunion00-we-entr
 
 Write-Host '
 [33m██[0;1;37;43m   [0;33m▀▄█[0;1;37;43m   [0;33m▀[0;37m [0;33m▄█▀▀ [0;37mcr+tr[0m                               [33m▀▓▓▓▀█████████████████████[0m

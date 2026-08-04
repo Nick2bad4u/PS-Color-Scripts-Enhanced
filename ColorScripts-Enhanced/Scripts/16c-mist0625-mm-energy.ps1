@@ -1,19 +1,4 @@
-﻿# Converted from: MM-ENERGY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0625/raw/MM-ENERGY.ANS
-# Source Revision: archive-sha256:6ee9af28fa25e25a7c8d524c0b340107e083c251e59a271e20836a9f47bec3b2
-# Source SHA-256: deab0af68f0e5bbd666e81989bc8a24fb1b30616e420c96d695b974d182ed239
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-ENERGY.ANS by Mavenmob (Mistigris); released in mist0625 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Energy
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20250627
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Energy by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0625-mm-energy
 
 Write-Host '
 

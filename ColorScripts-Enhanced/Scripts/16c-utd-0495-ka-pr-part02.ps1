@@ -1,17 +1,4 @@
-﻿# Converted from: KA-PR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/utd-0495/raw/KA-PR.ANS
-# Source Revision: archive-sha256:0d1a82ad3d13d836a92b422703d06a1d6a82ae4f50721578a08763a2338a2df8
-# Source SHA-256: 4512bdea060af280734dc752ec3715aeea7faa66258e4d679194dbd78696885c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KA-PR.ANS by Kamui (United); released in utd-0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Psychotic Reflections
-# SAUCE Author: Kamui
-# SAUCE Group: United
-# SAUCE Date: 20820212
-# Lines: 44-86
-# Columns: 1-80
+﻿# Artwork: Psychotic Reflections by Kamui | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-utd-0495-ka-pr-part02
 
 Write-Host '
 [1;37m████████████████▀ [0;1;31m████▄[0;1;37m▀[0;1;37;47m░▒▓[0;1;37;40m█▀[0;1;37;47m▓[0;1;37;40m██▀[0;1;37;47m▓[0;1;37;40m█████▄▄▄█▄[0;1;31;40m▀███████ [0;34m█ [0;37m███[0;1;37m██████████████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SOR-SALT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel12/raw/SOR-SALT.ANS
-# Source Revision: archive-sha256:ebe2e7b01f31e0e82aa2702a876007d4ec2dd824b98bdf40e4d59e2b113da7e4
-# Source SHA-256: 7c2463bb8c84935372735492cc17e91461c3bb722377b74025e4921915faa0f4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SOR-SALT.ANS by Spirit of Rage (Fuel Productions); released in fuel12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Salt
-# SAUCE Author: Spirit of Rage
-# SAUCE Group: Fuel Productions
-# SAUCE Date: 19970401
-# SAUCE Dimensions: 80x100
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Salt by Spirit of Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel12-sor-salt-part02
 
 Write-Host '
 [32m██[0;1;32;42m░▒░[0;32m█[0;1;32;42m░[0;32m▄[0;1;30m▐[0;1;30;42m░[0;32m▌ [0;1;30m▄[0;1;30;47m▓░[0;1;37;47m [0m▌[1m▄[0;1;47m▓██▌[0m▌[1m▄[0;1;47m█[0;1;40m█[0;1;46m▓[0;1;47m▄[0;1;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[33m▀▀[0;1;32m▄[0m▄▌[30;45m█▓[0;35;40m░[0;30;45m▓[0;35;40m░[0;30;45m▓▒▓▓[0;35;40m [0;37;40m▀▀[0;1;30;47m░░[0m████████[1;47m░░[0m█[1;47m░░░░[0;1;37;47m▒[0m

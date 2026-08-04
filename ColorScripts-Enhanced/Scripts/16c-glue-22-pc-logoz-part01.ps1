@@ -1,18 +1,4 @@
-﻿# Converted from: PC-LOGOZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-22/raw/PC-LOGOZ.ANS
-# Source Revision: archive-sha256:d46ba48cfd0738c6a2c74264504a495798fea93d5b2e2ae2e6f0dd8f95d84664
-# Source SHA-256: 574d8f982945d078abea95870f103c2d1684951e9ec991c0b0504fefb0ba2f4d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-LOGOZ.ANS by Putrid Carcass (Glue); released in glue-22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Logo Colly
-# SAUCE Author: Putrid Carcass
-# SAUCE Group: Glue
-# SAUCE Date: 19990525
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Logo Colly by Putrid Carcass | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-22-pc-logoz-part01
 
 Write-Host '
 #1

@@ -1,18 +1,4 @@
-﻿# Converted from: SUI-F18.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drv-0595/raw/SUI-F18.ANS
-# Source Revision: archive-sha256:ab2903da2c95149760a6d9230201e2017a141769235eee49a007790b51e1be73
-# Source SHA-256: ee89dcc6eb52c378ace5c24b853638d1ad315d5b1d824d57251664af764aa3fe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SUI-F18.ANS by SuiCyco (Driven); released in drv-0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: F-18
-# SAUCE Author: SuiCyco
-# SAUCE Group: Driven
-# SAUCE Date: 19950330
-# SAUCE Dimensions: 80x52
-# Lines: 27-51
-# Columns: 1-80
+﻿# Artwork: F-18 by SuiCyco | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drv-0595-sui-f18-part02
 
 Write-Host '
 [1;34;40m▌[0;36m▐[0;1;30;46m░░▒▒▒[0m [1;30;46m▒▓[0;36m█[0;34m████████[0;1;37m█[0;34m██[0;1;36;44m▐[0;1;36;46m▓▒░[0m [1;36;46m   [0;46m░░[0m [1;34;40m▐██████▀▀[0m [1;37;40m▄▄█████▄▄[0m  [1;37;40m▄███████████████▄▄[0m [1;37;40m▀[0m▀ [1;34m▄█[0m

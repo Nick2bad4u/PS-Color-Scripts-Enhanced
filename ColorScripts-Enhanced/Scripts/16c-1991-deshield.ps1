@@ -1,13 +1,4 @@
-﻿# Converted from: DESHIELD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1991/raw/DESHIELD.ANS
-# Source Revision: archive-sha256:4dcfddb1a9f84aafa45e2facaadcb15ccf7ddad9041d8c346c723f7894d6cfb9
-# Source SHA-256: 63a722deb24028c2ef5dadef03f2ba83ef05e06b76294f20981827663cf1f666
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DESHIELD.ANS by Ian Cameron (1991); released in 1991 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: DESHIELD.ANS by Ian Cameron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1991-deshield
 
 Write-Host '
 [30;40m [0m

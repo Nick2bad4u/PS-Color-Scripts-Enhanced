@@ -1,19 +1,4 @@
-﻿# Converted from: TR-REDGE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k0tpr0be/raw/TR-REDGE.ANS
-# Source Revision: archive-sha256:fcb0e37abcb9d171de6d5cc918649afa7e9c0f2f5173dba90a7d8c38f69cec3d
-# Source SHA-256: 19f0ad1807718140a9830c0101a8f657143f7bf9d574b6693df4c76b7ad05e5e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-REDGE.ANS by trate (fbk); released in k0tpr0be and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: razor's edge login
-# SAUCE Author: trate
-# SAUCE Group: fbk
-# SAUCE Date: 19960528
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: scoff.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: razor's edge login by trate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k0tpr0be-tr-redge
 
 Write-Host '
     [34m▄▄[0;37m [0;1;34m▄[0m           [34m▄[0m      [34m▄▄▄█▓██▄▄▄[0m             [34m▄▄▄▄▄▄▄[0m      [34m▄[0m       [1;31m▄▄▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: DM!ND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fld9701/raw/DM!ND.ANS
-# Source Revision: archive-sha256:48906ecb2b70839b4646d99f5fe92b4c8c8c55574804ed58eeb7ca2699a6e59d
-# Source SHA-256: 87ca60931f8e59e903564ecd9fd44a0a5893396f9e3cd0073e8d4f4e655d870b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DM!ND.ANS by darkmind (fluid); released in fld9701 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Nocturnal Desire
-# SAUCE Author: darkmind
-# SAUCE Group: fluid
-# SAUCE Date: 19970117
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Nocturnal Desire by darkmind | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fld9701-dm-nd
 
 Write-Host '
                               [1;36m,  [0m

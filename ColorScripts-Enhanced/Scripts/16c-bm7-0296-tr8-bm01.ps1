@@ -1,18 +1,4 @@
-﻿# Converted from: TR8-BM01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bm7-0296/raw/TR8-BM01.ANS
-# Source Revision: archive-sha256:dc4cc64e955b9fcd3cc7622ea6e88698bafde8c6bb9846573f13bf599bfefae0
-# Source SHA-256: 4b1ff5c94306300ff9c7bf36f1ee85752369804534707535eb0d708a76c0b0c0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR8-BM01.ANS by TRATE (fbk); released in bm7-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: BM Logo
-# SAUCE Author: TRATE
-# SAUCE Group: fbk
-# SAUCE Date: 19960206
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: BM Logo by TRATE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bm7-0296-tr8-bm01
 
 Write-Host '
 [1;33m  [0m   [1;33m      [0m

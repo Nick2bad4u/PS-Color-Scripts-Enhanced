@@ -1,18 +1,4 @@
-﻿# Converted from: ST-MAIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-04/raw/ST-MAIL.ANS
-# Source Revision: archive-sha256:9de244bc5206a1545721e4db8ef84c4a2cb5d7f6090c2c3eac0f88fbff822794
-# Source SHA-256: f1a94098bfd99bd8a7201bb24ddefccf3d0bf860e0fffd5ec78c05f7800c888c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-MAIL.ANS by splattie (eclipse); released in ecl-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: elderAd0's mail
-# SAUCE Author: splattie
-# SAUCE Group: eclipse
-# SAUCE Date: 19960727
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: elderAd0's mail by splattie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-04-st-mail
 
 Write-Host '
 

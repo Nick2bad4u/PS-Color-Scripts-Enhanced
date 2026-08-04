@@ -1,13 +1,4 @@
-﻿# Converted from: JTE-PUPI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r4/raw/JTE-PUPI.ANS
-# Source Revision: raw-sha256:a43886e2755fdc343d4b0bf5fc48fcbe4516dbb588eaaf4d0e20bcaf6f936c97
-# Source SHA-256: a43886e2755fdc343d4b0bf5fc48fcbe4516dbb588eaaf4d0e20bcaf6f936c97
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JTE-PUPI.ANS by Jate (afc-r4); released in afc-r4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: JTE-PUPI.ANS by Jate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r4-jte-pupi
 
 Write-Host '
 [1;31;47m▒▓▓[0;30;47m█[0;30;41m [0;1;31;41m█                 █ [0m [1;31;47m▓▓▒▒░░                              [0m [1;30;40m█ [0;1;37;47m▀▀▀▀▀▀▀[0m [1;30;40m█ ▓▒░[0m

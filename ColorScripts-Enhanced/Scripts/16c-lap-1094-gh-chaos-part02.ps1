@@ -1,18 +1,4 @@
-﻿# Converted from: GH-CHAOS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lap-1094/raw/GH-CHAOS.ANS
-# Source Revision: archive-sha256:6484c03234ed72f9048fe82f2e3920691bccf1180706117fc17bc3b905e602d2
-# Source SHA-256: 7eae9a5188ca4fb952bbf7372533bb5eb245e6ccfdf108fd032a5ff30d8213ae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GH-CHAOS.ANS by Ghent (Lapse); released in lap-1094 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Chaos AD
-# SAUCE Author: Ghent
-# SAUCE Group: Lapse
-# SAUCE Date: 19940904
-# SAUCE Dimensions: 80x25
-# Lines: 39-82
-# Columns: 1-80
+﻿# Artwork: Chaos AD by Ghent | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lap-1094-gh-chaos-part02
 
 Write-Host '
      [1;33;40m▄█[0;1;33;43m██▓▒▒▒▓  ░▒▒▓▒▓▓▓███▓▓▓▓▒▒░░░  ░▒▒▒▓▓▓▓▓▒▒░░░░░▒▒▓▓████░▓▓▒▒░░[0;33m██▓▒░[0;1;33;43m░░   [0m

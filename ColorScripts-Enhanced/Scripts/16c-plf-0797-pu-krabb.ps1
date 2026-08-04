@@ -1,18 +1,4 @@
-﻿# Converted from: PU-KRABB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0797/raw/PU-KRABB.ANS
-# Source Revision: archive-sha256:36665a37d029524a07b3c0ade06e9ef3ded1bb8e68470bcb59063cd367dc113e
-# Source SHA-256: 94ee8d6e2045e6b398257164ab2b1f6d3910c3e89f4d8f7547327b10264aaf7d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PU-KRABB.ANS by puppiluppan (phobia); released in plf-0797 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: krabba leker med badboll
-# SAUCE Author: puppiluppan
-# SAUCE Group: phobia
-# SAUCE Date: 19970614
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: krabba leker med badboll by puppiluppan | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0797-pu-krabb
 
 Write-Host '
 [1m[0m

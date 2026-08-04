@@ -1,13 +1,4 @@
-﻿# Converted from: FN-AM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0793/raw/FN-AM.ANS
-# Source Revision: archive-sha256:53c4c708dbd6a2fb65eed7d51a29c309854b530cc87938709e377b669e74ecbe
-# Source SHA-256: f7077d380eb98b708ed73ddf29616ccbe5845b3b39fd098e990109156970d147
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FN-AM.ANS by Fusion (acdu0793); released in acdu0793 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 42-80
-# Columns: 1-80
+﻿# Artwork: FN-AM.ANS by Fusion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0793-fn-am-part02
 
 Write-Host '
                               [33m▐██▌▓██▌  [0;31m░▒  [0;33m░▒▓█▌    ▀■[0m▄▄[31m▐[0;31;43m█[0;33m█[0;1;31;43m░▒░░[0;33m█▌▐██[0m

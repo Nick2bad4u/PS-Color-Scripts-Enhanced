@@ -1,18 +1,4 @@
-﻿# Converted from: LM-FAG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0996/raw/LM-FAG.ANS
-# Source Revision: archive-sha256:28df6d6ebb426351f7b23fe6f583a998e03c4447a46d1ae63d7f7aa63a80eb5d
-# Source SHA-256: b0561427564d1f3c7f16f9d6c5de08d0b5db23334e6eb6f91313b1e85ce0d992
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LM-FAG.ANS by lagomorph (3kl); released in acdu0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: FAG
-# SAUCE Author: lagomorph
-# SAUCE Group: 3kl
-# SAUCE Date: 19960912
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: FAG by lagomorph | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0996-lm-fag
 
 Write-Host '
 

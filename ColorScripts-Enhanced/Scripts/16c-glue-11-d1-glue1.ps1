@@ -1,18 +1,4 @@
-﻿# Converted from: D1_GLUE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-11/raw/D1_GLUE1.ANS
-# Source Revision: archive-sha256:72e53ef6085b74f7ad1018be1993344eb17bea15f35525a0857b61ca5067bc5a
-# Source SHA-256: 2a3362e9d6cb4afa76e0637e467b93543bf985680175e058383c416b5aac9d70
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D1_GLUE1.ANS by Dissonance (Glue); released in glue-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Glue
-# SAUCE Author: Dissonance
-# SAUCE Group: Glue
-# SAUCE Date: 19980620
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Glue by Dissonance | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-11-d1-glue1
 
 Write-Host '
 [1m    [0m      ░                                                            [1;30m█▄■[0m ▄

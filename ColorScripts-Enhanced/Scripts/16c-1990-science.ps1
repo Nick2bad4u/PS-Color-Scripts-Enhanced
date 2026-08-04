@@ -1,13 +1,4 @@
-﻿# Converted from: SCIENCE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1990/raw/SCIENCE.ANS
-# Source Revision: archive-sha256:08ccf16537b7ec6a49d988d666ab246efafa48facbb3ef7beef1662a9cba1cc2
-# Source SHA-256: c2ffb311950574f907b0e8b782b6f1378b44da0109c612222e4349235acf1a36
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SCIENCE.ANS by Ansi-Mation (1990); released in 1990 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: SCIENCE.ANS by Ansi-Mation | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1990-science
 
 Write-Host '
                                      [1;31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

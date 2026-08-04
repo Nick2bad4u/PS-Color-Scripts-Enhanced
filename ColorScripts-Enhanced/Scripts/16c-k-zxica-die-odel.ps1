@@ -1,13 +1,4 @@
-﻿# Converted from: DIE-ODEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-zxica/raw/DIE-ODEL.ANS
-# Source Revision: archive-sha256:098212bcd3fc250902be7ae08340a23e99b29f8fa69fe7b4990238a6d402d1f6
-# Source SHA-256: 712c916852d97dd81d787ce61aceac97720d95a58b1d16b118cf11c17398cf16
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DIE-ODEL.ANS by Dieznyik (k-zxica); released in k-zxica and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: DIE-ODEL.ANS by Dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-zxica-die-odel
 
 Write-Host '
 [1;33m∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩ ∩[0m

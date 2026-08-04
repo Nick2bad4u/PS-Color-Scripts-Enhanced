@@ -1,18 +1,4 @@
-﻿# Converted from: GI-BURN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/crisis1996unreleased/raw/GI-BURN.ANS
-# Source Revision: archive-sha256:d42db79c3670e318c85ffe28ad5142bf995c4610d0c05cf0eae2c80b9a793fbb
-# Source SHA-256: f2546f219859a3be8c024364d1edd7496a680757f8013e83b94118342c1c11d4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GI-BURN.ANS by Giger (CRiSiS); released in crisis1996unreleased and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Burn
-# SAUCE Author: Giger
-# SAUCE Group: CRiSiS
-# SAUCE Date: 19960324
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Burn by Giger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-crisis1996unreleased-gi-burn
 
 Write-Host '
    ░   ░░                            ░           ░    ░

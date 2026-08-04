@@ -1,18 +1,4 @@
-﻿# Converted from: S0G-DOG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bleach01/raw/S0G-DOG.ANS
-# Source Revision: archive-sha256:b051f200d4cb4a187bf381a6b9042d79015b79b0cf19e4a4a725c252afed48ec
-# Source SHA-256: fbea05c493a65a0c850616e4095695f0209298a351f56a338201e0eaf4d977d4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S0G-DOG.ANS by Snoop (READ THE INI FILE); released in bleach01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Delusions of Grandeur
-# SAUCE Author: Snoop
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950111
-# SAUCE Dimensions: 80x25
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Delusions of Grandeur by Snoop | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bleach01-s0g-dog
 
 Write-Host '
 [34m▓█  █▓ █▓ █▓█▓ [0;32m▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓██▄ [0;34m▀██▓  ███▓ ███▓ ██▓ █████▓ [0;35m▀██▀▀▀▀▀▀▀▀▀▀▀▀▀███[0m

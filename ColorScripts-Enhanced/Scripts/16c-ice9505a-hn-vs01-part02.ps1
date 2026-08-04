@@ -1,18 +1,4 @@
-﻿# Converted from: HN-VS01.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9505a/raw/HN-VS01.ICE
-# Source Revision: archive-sha256:7861518dfd83d60b94b81bdb02a8d68bbd05655ea908dea3b656c859ebf9150f
-# Source SHA-256: ff6e6d3cabe01d131b8bf612ec6b9e68e4129a5f9d7c6996d5a7384af035bf4a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HN-VS01.ICE by Highness (iCE); released in ice9505a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Vampyre's Society
-# SAUCE Author: Highness
-# SAUCE Group: iCE
-# SAUCE Date: 19950529
-# SAUCE Dimensions: 80x52
-# Lines: 28-52
-# Columns: 1-80
+﻿# Artwork: Vampyre's Society by Highness | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9505a-hn-vs01-part02
 
 Write-Host '
  [1;30m [0m  [1;30m░░ [0m     [1;30m░░▓[0;1;30;47m▓[0m█         [1;30m [0;1;37m  [0m [1;33m▀[0;1;33;42m▓▒▒░░░[0;33;42m    [0;32;40m▄▄[0;33;40m▄ [0m [33;40m▐█[0;1;33;43m [0;33m█████[0;1;33;43m░[0;33m████████▓▓▓▀████████ ███[0m

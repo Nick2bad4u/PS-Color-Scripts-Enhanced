@@ -1,18 +1,4 @@
-﻿# Converted from: CM-PHLEM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moonlgt1/raw/CM-PHLEM.ANS
-# Source Revision: archive-sha256:9c3296d479bffdc90be8aa4a3f3118a85ae9456683674c3e67716221b3c262b5
-# Source SHA-256: 65dfccf15b262b60d7ae91de18eb485bb246239a99c2c0294dcc53ecf49a92be
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CM-PHLEM.ANS by cheeze monkey (moonlight); released in moonlgt1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: phlem! (for white trash/cm joint)
-# SAUCE Author: cheeze monkey
-# SAUCE Group: moonlight
-# SAUCE Date: 19960818
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: phlem! (for white trash/cm joint) by cheeze monkey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moonlgt1-cm-phlem
 
 Write-Host '
 

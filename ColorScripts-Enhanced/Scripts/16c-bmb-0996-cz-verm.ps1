@@ -1,18 +1,4 @@
-﻿# Converted from: CZ_VERM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0996/raw/CZ_VERM.ANS
-# Source Revision: archive-sha256:de1a4e1b3b8504644e3a073d9996f185c42e41f64ec42e4fefdea03b2b3748fe
-# Source SHA-256: c77fc9311c151b6fcd587b3ea3451fec4bcef4d09d2938cc172abb2be9274784
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CZ_VERM.ANS by Cniz (Bamboosh); released in bmb-0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Vermin Unknown
-# SAUCE Author: Cniz
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19960910
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Vermin Unknown by Cniz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0996-cz-verm
 
 Write-Host '
                  [1;30m     [0m

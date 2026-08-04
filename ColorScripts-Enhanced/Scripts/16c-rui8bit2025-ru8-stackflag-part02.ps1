@@ -1,19 +1,4 @@
-﻿# Converted from: ru8-stackflag.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rui8bit2025/raw/ru8-stackflag.ans
-# Source Revision: archive-sha256:db48a01153712164dc1f91228a0ffd1483193514d290c0b5fb4bb0491e0b213f
-# Source SHA-256: 0a1d3323268871d980fa21ae42d92fea9ab4b9224c2c6fd10349463af8c9ec4d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ru8-stackflag.ans by Rui8bit (rui8bit2025); released in rui8bit2025 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Stackflag
-# SAUCE Author: Rui8bit
-# SAUCE Date: 20260619
-# SAUCE Dimensions: 80x70
-# SAUCE Font: Custom
-# SAUCE Comments: February 24 2025
-# Lines: 38-71
-# Columns: 1-80
+﻿# Artwork: Stackflag by Rui8bit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rui8bit2025-ru8-stackflag-part02
 
 Write-Host '
                       [44m [0;1;31;44m│[0;1;37;40m:[0m [36m│[0;1;31;46m│[0;34m│[0;37m                     [0;1;30mz[0m [1;30mm[0m

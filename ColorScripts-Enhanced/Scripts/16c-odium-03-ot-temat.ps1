@@ -1,18 +1,4 @@
-﻿# Converted from: OT-TEMAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-03/raw/OT-TEMAT.ANS
-# Source Revision: archive-sha256:fae30929abb2b921ba96bc7ad0b445be298bbdb28aa42921644d897c08d22f33
-# Source SHA-256: f63ed254a6bbd51ef6643bdbfe323430bc390e4b9db779219b05d163a1861e3b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OT-TEMAT.ANS by Otter (Odium); released in odium-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Tokyo Eye Matrix
-# SAUCE Author: Otter
-# SAUCE Group: Odium
-# SAUCE Date: 19960113
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Tokyo Eye Matrix by Otter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-03-ot-temat
 
 Write-Host '
       [34m▀[0;1;34;44m▀[0;1;34;40m▀[0m                    [34m▐[0;1;34;44m░[0;34m▀▐[0;1;34;44m▀▓[0;1;34;40m▌[0;34m▐[0;1;34;44m▀[0;34m▀[0m                        [1;34m▀▀[0;1;34;44m▓▄[0;34m▄[0m

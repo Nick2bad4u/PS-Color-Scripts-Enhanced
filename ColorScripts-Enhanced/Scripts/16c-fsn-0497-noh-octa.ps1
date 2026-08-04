@@ -1,18 +1,4 @@
-﻿# Converted from: NOH-OCTA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0497/raw/NOH-OCTA.ANS
-# Source Revision: archive-sha256:0a24528ad1b8350dc6275ed84884990aa181682392c532082994d5872ceb5801
-# Source SHA-256: e393afa2237841834c47e251d868a881c81e6a728b6891218999c32e85932214
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-OCTA.ANS by nOah? (fusion); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: octagon#@!!
-# SAUCE Author: nOah?
-# SAUCE Group: fusion
-# SAUCE Date: 19970401
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: octagon#@!! by nOah? | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0497-noh-octa
 
 Write-Host '
                              [1;33m     [0m

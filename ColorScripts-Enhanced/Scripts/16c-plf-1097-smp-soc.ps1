@@ -1,17 +1,4 @@
-﻿# Converted from: SMP-SOC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1097/raw/SMP-SOC.ANS
-# Source Revision: archive-sha256:36c7150b2835995ba27c6f1c5cfc23dc5fdf9213c2fb0b333e09d1aa0d00da5f
-# Source SHA-256: 28275942b44e7cb373592aa85b97936f3f331a7994b639b42f59478478c61679
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-SOC.ANS by shrimp (poffelipoff); released in plf-1097 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: society
-# SAUCE Author: shrimp
-# SAUCE Group: poffelipoff
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: society by shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1097-smp-soc
 
 Write-Host '
 

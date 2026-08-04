@@ -1,13 +1,4 @@
-﻿# Converted from: LC-AVA!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aeon0196/raw/LC-AVA!.ANS
-# Source Revision: archive-sha256:9e935a3f1a0af071af39ef1e6040e82687f7f35e199404521457c0b02c93f5c1
-# Source SHA-256: 136eea0a03220b1007043107dfeb1679754ca4be14cbe49441a1452475e06bba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LC-AVA!.ANS by Lord Chaos-Wicked (aeon0196); released in aeon0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: LC-AVA!.ANS by Lord Chaos-Wicked | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aeon0196-lc-ava
 
 Write-Host '
       [1;30m lc.aeon[0m      [36m▄▄▄▄█████▄[0m       [36m▄▄▄▄▄▄▄▄▄[0m

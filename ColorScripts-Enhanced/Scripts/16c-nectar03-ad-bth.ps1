@@ -1,16 +1,4 @@
-﻿# Converted from: AD-BTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nectar03/raw/AD-BTH.ANS
-# Source Revision: archive-sha256:faec2ce79f4ec7fdedcb1c5275057d2bd3473a7b6d9bb41113e78d041db9cd35
-# Source SHA-256: 872a719b48619e6799616d4b0bec040f1ab4f152d3d26bf1ab94dd033c8be099
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AD-BTH.ANS by armageddon donut (nectar03); released in nectar03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: armageddon donut
-# SAUCE Date: 19960302
-# SAUCE Dimensions: 80x14
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: AD-BTH.ANS by armageddon donut | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nectar03-ad-bth
 
 Write-Host '
             [1;36m▄▄█[0m [1m░[0m [1;36m███████▀▀▀▀▓▓█▀▀[0m [1;33m▄▄▄▄████[0;1;33;47m▀▀[0;1;33;40m█▄▄▄▄[0m  [1;36m▀[0;1;37m░[0;1;36m ██████████████▄▄[0m

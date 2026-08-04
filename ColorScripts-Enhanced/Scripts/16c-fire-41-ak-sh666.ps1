@@ -1,19 +1,4 @@
-﻿# Converted from: AK-SH666.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/AK-SH666.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: 3f5623c95165503ec2b578f80a7851f2a91bcbbe36d5201729b89e1d987e9109
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-SH666.ANS by abstrakt (fire); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: splatterhaus
-# SAUCE Author: abstrakt
-# SAUCE Group: fire
-# SAUCE Date: 20241111
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: splatterhaus by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-ak-sh666
 
 Write-Host '
 [31m,[0;35m┐.`┘[0;1;30m [0;31m┌,.$$[0;1;31m┌[0;31md$jP┘''''`.[0;1;31m [0;31m`4b.[0;1;31m [0;31m┌[0;1;31m,[0;31m ,` d$┘[0;1;31m   [0;31m`''²└4$.,┌[0;1;31m  [0;31m.┌[0;1;31m.[0m [35m.┌[0;31m\┘[0;35m` `7''`~[0;31m`[0;35m^[0;31m''└[0;35m/[0;37m   [0;31m/s┐.[0;35m [0;1;30m`└[0m

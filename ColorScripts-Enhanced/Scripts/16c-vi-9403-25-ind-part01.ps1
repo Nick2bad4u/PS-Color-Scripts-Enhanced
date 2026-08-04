@@ -1,13 +1,4 @@
-﻿# Converted from: 25-IND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vi-9403/raw/25-IND.ANS
-# Source Revision: raw-sha256:3d2c3b22887720f3e810e69f1e57917fab1cc0683ddb3966bcd99deb24b175aa
-# Source SHA-256: 3d2c3b22887720f3e810e69f1e57917fab1cc0683ddb3966bcd99deb24b175aa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 25-IND.ANS by Number 25 (vi-9403); released in vi-9403 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: 25-IND.ANS by Number 25 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vi-9403-25-ind-part01
 
 Write-Host '
 [1;30m▄──────────────────────────────────────────────────────────────────────────────[0m

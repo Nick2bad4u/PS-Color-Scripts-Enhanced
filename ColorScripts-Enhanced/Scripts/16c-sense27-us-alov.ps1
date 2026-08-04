@@ -1,13 +1,4 @@
-﻿# Converted from: us-alov.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense27/raw/us-alov.ans
-# Source Revision: archive-sha256:a31cb27f3a699dabe8d3f53fffd048cd9b61d3635ed0be3eb33893284480a58e
-# Source SHA-256: b1152e4ecc95cd72f2c9bef2c020def2d32633dac972ec2e2822a63dfa1081a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-alov.ans by Noches + Avenging Angel (sense27); released in sense27 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: us-alov.ans by Noches + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense27-us-alov
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: CPL!KUD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak9/raw/CPL!KUD.ANS
-# Source Revision: archive-sha256:668d414adbcf3d3a3dc83256fe2a097b5d305158b015a8efbf3cb0f3b83bfec0
-# Source SHA-256: 5c1a4c726e1e1a03b4411e3e890b1671c890ffb8773cd79dcbf4229f93a8ef8d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPL!KUD.ANS by com. plons (ecolove); released in ecl-pak9 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: random login screen
-# SAUCE Author: com. plons
-# SAUCE Group: ecolove
-# SAUCE Date: 19980901
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: random login screen by com. plons | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak9-cpl-kud
 
 Write-Host '
                                   [1;30m░▒▒░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: h7-meast.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_awaken/raw/h7-meast.ans
-# Source Revision: archive-sha256:9d338d3910f6730204698339e869f7ab219513c3aa8e2f1b0bb278c633114d95
-# Source SHA-256: f946a048551c9429517181b1bee9476556ff11c3138a8b7da8c5d640dcee2164
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: h7-meast.ans by H7 (blocktronics_awaken); released in blocktronics_awaken and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 87-128
-# Columns: 1-80
+﻿# Artwork: h7-meast.ans by H7 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-awaken-h7-meast-part03
 
 Write-Host '
 [37m   [0;33m   ███[0;1;33m█████[0;1;33;43m▒[0;1;33;40m████████████[0;33m▌ [0;37m █[0;1;37;47m▓░[0m█░▄▄▄█ [1m ▒[0;1;47m▓░[0;1;40m▓[0m█▌        [33m▄▄▄[0m        [1;33m [0;1;33;43m ▄[0;1;33;40m██[0;33m███[0m

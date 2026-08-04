@@ -1,17 +1,4 @@
-﻿# Converted from: DIE-WSTK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9610/raw/DIE-WSTK.ANS
-# Source Revision: archive-sha256:5789c5cb1a5ac21acfd3fa7dc4a5a88db3f4a5b9545409ca8ca34a86bd816077
-# Source SHA-256: 238f15046a905e0175ae92b198f92b0d356b7b27969b613c0bfd7136aca60f16
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DIE-WSTK.ANS by Dieznyik (Samsara); released in sms-9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: 3 days of peace & music
-# SAUCE Author: Dieznyik
-# SAUCE Group: Samsara
-# SAUCE Dimensions: 80x25
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: 3 days of peace & music by Dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9610-die-wstk
 
 Write-Host '
 [35m▀[0;1;35m░[0;35m▄[0;33m ▀ [0;35m▄▌[0;33m [0;30;43m▓[0;33;40m▄▄[0;30;43m░[0;33;40m▓███████[0;30;43m░[0;33;40m▌▄[0;32;40m [0;35;40m▀[0;32;40m  [0;33;40m▐▀[0;30;43m▓[0;33;40m  ▀▌[0;35;40m▄[0;1;35;40m▒[0;33m ▒[0;30;43m░[0;33;40m███████▀ ▄▌[0;30;46m▓[0;33;40m▀▀█████████▄▄█▀▀ [0;36;40m▄[0;30;46m▓[0;33;40m  ▀▌ [0;30;43m▓[0;33;40m▄ [0;30;46m▓[0m

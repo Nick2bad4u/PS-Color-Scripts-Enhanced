@@ -1,18 +1,4 @@
-﻿# Converted from: CO-MCITY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0396/raw/CO-MCITY.ANS
-# Source Revision: archive-sha256:8cd29f20ca0e9cb17c1100c76cb617825c92262f6ff8862ed793e9086f6dea43
-# Source SHA-256: 88b890ae7606c79c19e507c8ad907004dd0ab698a64f07ff1b1627056c6dd0c5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CO-MCITY.ANS by cocox (opium); released in opx-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: moose city logo... again..
-# SAUCE Author: cocox
-# SAUCE Group: opium
-# SAUCE Date: 19960229
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: moose city logo... again.. by cocox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0396-co-mcity
 
 Write-Host '
 [1;33m                          ▄    ▐▌      [0;1;33;43m▓[0;1;33;40m     ▀  ▀  ▄▀   [0;1;33;43m▓[0;1;33;40m   ▐▌     [0;1;33;43m▓[0;1;33;40m    ▄[0;30m       [0m

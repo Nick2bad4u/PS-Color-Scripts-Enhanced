@@ -1,17 +1,4 @@
-﻿# Converted from: SH-MATRX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/yak9601a/raw/SH-MATRX.ANS
-# Source Revision: archive-sha256:0ef47e6c5957fc02130eec9688203a874e59abb766f403c5192fe56bd23b5e1f
-# Source SHA-256: 64debffcca705787537459fc01ab475aaf63650d565b3400d9acf9f05067cce3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SH-MATRX.ANS by Shadow Hunter (yak); released in yak9601a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: Shadow Hunter
-# SAUCE Group: yak
-# SAUCE Date: 19951121
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: SH-MATRX.ANS by Shadow Hunter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-yak9601a-sh-matrx
 
 Write-Host '
 [35m      ▄▄   ■ ▄            ░░[0;31m▒▓▄                    [0;1;34m■[0;31m     ▄▄▄▄      [0;1;36m.            [0m

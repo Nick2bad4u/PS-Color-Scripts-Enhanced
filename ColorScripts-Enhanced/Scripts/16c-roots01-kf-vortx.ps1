@@ -1,18 +1,4 @@
-﻿# Converted from: KF-VORTX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roots01/raw/KF-VORTX.ANS
-# Source Revision: archive-sha256:dd8ab7f4699320ca828bf58552b53e17a1e210a9bedef1bc8bfdf4b451cdf01c
-# Source SHA-256: bcacb0a30df35fbeeebed29e7a438efdfdfc4011e5d7a1655d6538b9f8697e27
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KF-VORTX.ANS by kid frost (roots); released in roots01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: vortex
-# SAUCE Author: kid frost
-# SAUCE Group: roots
-# SAUCE Date: 20080229
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: vortex by kid frost | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roots01-kf-vortx
 
 Write-Host '
 [1;30m ░[0m   [1;30m░▒▒▒░[0m      [1m▄■  [0;31m▀[0;1;37m    ▀ ▀▓▄   [0;31m▄[0m      [31m▄▒░[0;1;37m [0m░▒▒ ░    [1;30m░ ░▓▌▀▀▓[0;1;30;47m▀[0m [1;30m▄[0m  [1;30m▀▀[0m         [1;30m░▒▒[0m

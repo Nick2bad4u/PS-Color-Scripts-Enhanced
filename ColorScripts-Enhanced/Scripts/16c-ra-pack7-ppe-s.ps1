@@ -1,13 +1,4 @@
-﻿# Converted from: PPE-S.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ra-pack7/raw/PPE-S.ANS
-# Source Revision: archive-sha256:0a5bc75dd33f02ea715790b6704568a879e79bb191a5cb8d565e9964752806e8
-# Source SHA-256: 96d86ff16f95729aa1b6bb07197c03d905b799215d872d2b32a463f7eba8dd41
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PPE-S.ANS by Purplee (ra-pack7); released in ra-pack7 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: PPE-S.ANS by Purplee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ra-pack7-ppe-s
 
 Write-Host '
                                                               [36m┬[0m

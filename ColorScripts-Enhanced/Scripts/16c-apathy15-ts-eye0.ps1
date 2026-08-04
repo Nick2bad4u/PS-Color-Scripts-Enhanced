@@ -1,18 +1,4 @@
-﻿# Converted from: TS-EYE0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy15/raw/TS-EYE0.ANS
-# Source Revision: archive-sha256:5e243b226da6b745b1398dfdadb3776bdb866b2235d51f36e0cf209d2d8d9295
-# Source SHA-256: 3c4deaafae5b1b4b376a3c7c5f0a8428ab4a47ab25da9e7d246c395cdfafe2c9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-EYE0.ANS by Transient (apathy); released in apathy15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Free Eye!@#
-# SAUCE Author: Transient
-# SAUCE Group: apathy
-# SAUCE Date: 19961009
-# SAUCE Dimensions: 80x15
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: Free Eye!@# by Transient | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy15-ts-eye0
 
 Write-Host '
 [1;46m▓▒░[0;36m▌█[0;1;36;46m░▒▓[0;1;36;40m█[0;36m▄[0;1;36;46m░▒▓[0;1;37;46m░[0;1;36;46m ░▒▓▓▓[0;36m▀[0;1;36;46m░▒▓░▒[0;36m▀[0;1;36;46m▓▓[0;1;36;40m▀  [0m  [33m▐▄[0;1;31;43m░▒[0;33m▌▀[0;37m  [0m

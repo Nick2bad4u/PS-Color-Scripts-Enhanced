@@ -1,13 +1,4 @@
-﻿# Converted from: DD-CRC2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe01/raw/DD-CRC2.ANS
-# Source Revision: archive-sha256:0b64c26f533b8c11a1aca04e7dcc1e21d4b014c2d6532ba66a48148862d54cb2
-# Source SHA-256: 345f1c90d927852157e353eb5b0977ed6d963f0134a0d161c80013af125529fc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-CRC2.ANS by Diamond Darrell (circe01); released in circe01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-10
-# Columns: 1-80
+﻿# Artwork: DD-CRC2.ANS by Diamond Darrell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe01-dd-crc2
 
 Write-Host '
                    [1;36m ▄▄█▀█[0;1;36;46m▄░[0;1;36;40m [0;1;37;46m█[0;1;36;46m▄ [0;1;36;40m  ▄▄[0;1;37;46m▓[0;1;36;40m▀█[0;1;36;46m▄ [0;1;36;40m [0m [1;36m▄▄█▀█[0;1;36;46m▄ [0;1;36;40m ▄██▀[0;1;36;46m█▄[0;36m█▄[0m

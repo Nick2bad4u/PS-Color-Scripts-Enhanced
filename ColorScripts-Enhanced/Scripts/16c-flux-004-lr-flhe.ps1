@@ -1,13 +1,4 @@
-﻿# Converted from: LR!-FLHE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flux-004/raw/LR!-FLHE.ANS
-# Source Revision: archive-sha256:184a3f5dd0450d61dd9a9b4da05ef76ebec147753f33bfa3706045bb53c0d7a5
-# Source SHA-256: abaedca6967ab2131b1916e208aed9f10389e0f97ed5df830b0ec4fcd99eb7f3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LR!-FLHE.ANS by Late Riser (flux-004); released in flux-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: LR!-FLHE.ANS by Late Riser | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flux-004-lr-flhe
 
 Write-Host '
   [33m░░[0m      [33m▄▄▄▄▄▄▄▌[0m      [1;30m░░[0m                         [35m░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: TI-DB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aim-0994/raw/TI-DB.ANS
-# Source Revision: archive-sha256:0d60e9ee8ba5f13944b63b30f49cb1d30bbbf43a3a5619c4684275efb56c4f7c
-# Source SHA-256: 8a9028df8ca011f9a29fced6ee4c3e57633838bb195e1812250e8d2a6552ac26
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TI-DB.ANS by The Illusionist (AiM); released in aim-0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Dying Breed BBS
-# SAUCE Author: The Illusionist
-# SAUCE Group: AiM
-# SAUCE Date: 19940920
-# SAUCE Dimensions: 80x101
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Dying Breed BBS by The Illusionist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aim-0994-ti-db-part01
 
 Write-Host '
                 [1m▄██▄▄▄▄[0m                            [1m▄▄▄▄██▄[0m      [1;30m·[0m

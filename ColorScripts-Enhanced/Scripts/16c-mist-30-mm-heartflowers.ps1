@@ -1,19 +1,4 @@
-﻿# Converted from: MM-HEARTFLOWERS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/MM-HEARTFLOWERS.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: 73b1fb0e00503ec16873aa43b64673cc6f416a515655570f9741b38ae12ba0fe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-HEARTFLOWERS.ANS by Mavenmob (Mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Heart Flowers
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241228
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Heart Flowers by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-mm-heartflowers
 
 Write-Host '
 [1m████████████████████████████████████████████████████████████████████████████████[0m

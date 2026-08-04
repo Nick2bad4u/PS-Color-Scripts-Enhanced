@@ -1,13 +1,4 @@
-﻿# Converted from: DES4#RAG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/btg-r3/raw/DES4%23RAG.ANS
-# Source Revision: raw-sha256:55a62547d2bfe8d825a9e10dbe960e996e4398587142f44b31937fe82d2e2248
-# Source SHA-256: 55a62547d2bfe8d825a9e10dbe960e996e4398587142f44b31937fe82d2e2248
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DES4#RAG.ANS by Rage (btg-r3); released in btg-r3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: DES4#RAG.ANS by Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-btg-r3-des4-rag-part01
 
 Write-Host '
   [34m██[0;30m███ [0;34m████ [0;30m██[0;34m█████[0;30m██ [0;34m█████ [0;30m██[0;34m████    █ [0;30m█ [0;34m█   ████   █████   █   ███   █    █[0m

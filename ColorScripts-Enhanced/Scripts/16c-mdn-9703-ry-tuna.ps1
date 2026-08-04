@@ -1,18 +1,4 @@
-﻿# Converted from: RY-TUNA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9703/raw/RY-TUNA.ANS
-# Source Revision: archive-sha256:9e514042cc5e389aeb3f9323e41f842849e88d4294fdd727215463cf9566281b
-# Source SHA-256: bdc5c1150d58274949e47ddf9f5dba6cb67aab630dcd050a260e0da0dd18f814
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RY-TUNA.ANS by RoyalVoomit (Maiden); released in mdn-9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Tuna
-# SAUCE Author: RoyalVoomit
-# SAUCE Group: Maiden
-# SAUCE Date: 19970210
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Tuna by RoyalVoomit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9703-ry-tuna
 
 Write-Host '
 [1;47m▓▓[0;1m███████████████████▀▀ [0;1;33m▄[0;33m▄▄▄ [0;1m███[0;1;47m█[0;1m████████████████████████▄████████████████[0;1;47m█▄▄▄ [0m

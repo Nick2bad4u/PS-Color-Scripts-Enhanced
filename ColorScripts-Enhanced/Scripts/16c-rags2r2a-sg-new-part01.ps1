@@ -1,16 +1,4 @@
-﻿# Converted from: SG-NEW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rags2r2a/raw/SG-NEW.ANS
-# Source Revision: archive-sha256:b6fe4ad2710b940b9fc065cc3d8845bc48a34f58dd8c5b1b55d6bd7f8162e058
-# Source SHA-256: fc1045b5f54b2072e26a514cdc6dda7f0d8ea33de013bda16a2b762211490a6c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SG-NEW.ANS by SG (.rAGS 2 rICHES.); released in rags2r2a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: "Snake Grunger ... rICH b0Y!"
-# SAUCE Author: SG
-# SAUCE Group: .rAGS 2 rICHES.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: "Snake Grunger ... rICH b0Y!" by SG | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rags2r2a-sg-new-part01
 
 Write-Host '
 [1;30m─[[0;1;33m [0m31337 gR33+z [1;30m]──────────────────────────────────────────────────────────────[0m

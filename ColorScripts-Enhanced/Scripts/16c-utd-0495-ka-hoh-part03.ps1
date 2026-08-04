@@ -1,17 +1,4 @@
-﻿# Converted from: KA-HOH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/utd-0495/raw/KA-HOH.ANS
-# Source Revision: archive-sha256:0d1a82ad3d13d836a92b422703d06a1d6a82ae4f50721578a08763a2338a2df8
-# Source SHA-256: dff2ca6fd1cade9f4484161610466947f2974b335955cd7b3e5171ea94d805d4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KA-HOH.ANS by Kamui (United); released in utd-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: House of Holy
-# SAUCE Author: Kamui
-# SAUCE Group: United
-# SAUCE Date: 20950309
-# Lines: 92-121
-# Columns: 1-80
+﻿# Artwork: House of Holy by Kamui | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-utd-0495-ka-hoh-part03
 
 Write-Host '
 

@@ -1,19 +1,4 @@
-﻿# Converted from: DD-LARRY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amb-0002/raw/DD-LARRY.ANS
-# Source Revision: archive-sha256:ddf2bfb6c349501ad0002133992d1d3c9602291731a9f4cef0d5ef9af30b761f
-# Source SHA-256: 04a4e9556b2543f8a5aefc8873f8c778d33c4fcdcb0d5e183e5ec645cb34007a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-LARRY.ANS by Diamond Darrell (AMBUSH Productions); released in amb-0002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Larry
-# SAUCE Author: Diamond Darrell
-# SAUCE Group: AMBUSH Productions
-# SAUCE Date: 19961107
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: This little dude is Larry, a friend of ours, and yes, he's | smoking a joint... =)
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Larry by Diamond Darrell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amb-0002-dd-larry
 
 Write-Host '
        [33m▄▄▄▄▄▄▄▄[0m

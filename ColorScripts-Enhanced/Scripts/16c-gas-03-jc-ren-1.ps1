@@ -1,18 +1,4 @@
-﻿# Converted from: JC-REN#1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gas-03/raw/JC-REN%231.ANS
-# Source Revision: archive-sha256:9d16ec2efa84f41f04a3a0885f1a55c15cbeef8d9963890c5d07d45f34a97b3b
-# Source SHA-256: 6a6441348724a3d5141e6e4713aa19aec489a5fff34ad6f504356d17cc0b5a3f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JC-REN#1.ANS by juice (gas); released in gas-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: renegade mainmenu
-# SAUCE Author: juice
-# SAUCE Group: gas
-# SAUCE Date: 19960901
-# SAUCE Dimensions: 80x12
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: renegade mainmenu by juice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gas-03-jc-ren-1
 
 Write-Host '
                                               [36m▄▄[0m        [36m▐▌ █   ▄   ░   ░[0m     [36m░[0m

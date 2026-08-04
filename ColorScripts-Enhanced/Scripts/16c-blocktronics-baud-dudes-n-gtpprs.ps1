@@ -1,19 +1,4 @@
-﻿# Converted from: N-GTPPRS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_baud_dudes/raw/N-GTPPRS.ANS
-# Source Revision: archive-sha256:8845e7df07ad8e0a9636bd49e0d3490b7031d3e5fa978bb7ca73436c27072c98
-# Source SHA-256: 365be17f2a32708fb5abc0ad58f8c052dbd28679e1187f749ce2ca465ead3fcf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-GTPPRS.ANS by nail (blocktronics); released in blocktronics_baud_dudes and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: got papers?
-# SAUCE Author: nail
-# SAUCE Group: blocktronics
-# SAUCE Date: 20151014
-# SAUCE Dimensions: 80x46
-# SAUCE Font: IBM VGA
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: got papers? by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-baud-dudes-n-gtpprs
 
 Write-Host '
                                               [1;30;40m▄[0;30;47m▀▀[0;1;30;40m▄▄[0m

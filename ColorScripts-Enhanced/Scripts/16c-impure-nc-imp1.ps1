@@ -1,13 +1,4 @@
-﻿# Converted from: NC-IMP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure/raw/NC-IMP1.ANS
-# Source Revision: archive-sha256:0b9a4294ce690aca32755515783e8fac4c651c445d3dd4e394f3ee189ef0478e
-# Source SHA-256: 6d111d3ad358be5950b6be43cb9c500da17180072e0d5e8918de9277365a9f00
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NC-IMP1.ANS by Necrolyte (impure); released in impure and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: NC-IMP1.ANS by Necrolyte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure-nc-imp1
 
 Write-Host '
                 [35m▄▄▄▄▓▀▀▀▓▄[0m               [35m▄▄▄▄▄▄▄▄   ▄▄▄[0m

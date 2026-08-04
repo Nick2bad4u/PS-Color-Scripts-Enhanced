@@ -1,18 +1,4 @@
-﻿# Converted from: 5D-MILK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden13/raw/5D-MILK.ANS
-# Source Revision: archive-sha256:70e231ea8653cd02d349f122b1a39f57757322f3913b0c8f20698b54c8795e68
-# Source SHA-256: ec8e4b9dfbe01fdbcb108896fd207a8f000a59eda6f49344811da6534bda35a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5D-MILK.ANS by slayer dreams (maiden brazil!); released in maiden13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: milk board logo!
-# SAUCE Author: slayer dreams
-# SAUCE Group: maiden brazil!
-# SAUCE Date: 19971018
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: milk board logo! by slayer dreams | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden13-5d-milk
 
 Write-Host '
                                              [33m▄▄ ▄▄[0m

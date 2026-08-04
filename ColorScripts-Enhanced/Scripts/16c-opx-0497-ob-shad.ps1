@@ -1,13 +1,4 @@
-﻿# Converted from: OB!-SHAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0497/raw/OB!-SHAD.ANS
-# Source Revision: archive-sha256:6310c9227506d6d2a21aaf62decb0dd3510e5ffb455efa377e329a37d758ea8f
-# Source SHA-256: 866ba9bc0676aab7383288a080c18144d445022e8209e8f7f9a96dffee12a264
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OB!-SHAD.ANS by Oddball (opx-0497); released in opx-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: OB!-SHAD.ANS by Oddball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0497-ob-shad
 
 Write-Host '
 

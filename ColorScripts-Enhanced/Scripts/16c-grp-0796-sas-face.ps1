@@ -1,18 +1,4 @@
-﻿# Converted from: SAS-FACE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/grp-0796/raw/SAS-FACE.ANS
-# Source Revision: archive-sha256:be098753331373d307d2771aacbecdb35b1784f2f60e9ac3c053f2df7b867fcd
-# Source SHA-256: cde711165dcd4b1aaba0bfb0eec2a47c13cfef1ce74a89006202074ed761ec0e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SAS-FACE.ANS by Sassafras (gRAPE aSSkEY); released in grp-0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Sin City Screen
-# SAUCE Author: Sassafras
-# SAUCE Group: gRAPE aSSkEY
-# SAUCE Date: 19960618
-# SAUCE Dimensions: 80x38
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Sin City Screen by Sassafras | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-grp-0796-sas-face
 
 Write-Host '
 [1m..,-*''^`*-,..,-*''^`*-,..,-*''^`> sassafras.grape <''^`*-,..,-*''^`*-,..,-*''^`*-,..,[0m

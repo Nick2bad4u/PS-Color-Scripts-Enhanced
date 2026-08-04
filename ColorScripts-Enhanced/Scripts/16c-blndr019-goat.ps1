@@ -1,18 +1,4 @@
-﻿# Converted from: GOAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr019/raw/GOAT.ANS
-# Source Revision: archive-sha256:ad90ded7200a58bab801f751fabe1211ce5c038aeaa3a5fcedbee3c905282a6d
-# Source SHA-256: bca2de3b740e57a8a929f7e6b15c08c2af1e1424938e2e2bf62751d554f0c595
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GOAT.ANS by 37 (blndr019); released in blndr019 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: BLENDER#16
-# SAUCE Author: 37
-# SAUCE Group: -
-# SAUCE Date: 19970227
-# SAUCE Dimensions: 80x27
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: BLENDER#16 by 37 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr019-goat
 
 Write-Host '
      [1m ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m    [34m▀▀▀▀██████████████████████████████████████████████[0m

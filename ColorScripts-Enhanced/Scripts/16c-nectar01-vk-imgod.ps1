@@ -1,13 +1,4 @@
-﻿# Converted from: VK-IMGOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nectar01/raw/VK-IMGOD.ANS
-# Source Revision: archive-sha256:db3812836800ba5278d4a1a62edfe8d06c2001872f9fe3d1064cdbc02eec11ac
-# Source SHA-256: b33ba22ecf94882c5225963cb24304669a326d25b844b5aa4729513ce5db37d3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VK-IMGOD.ANS by Veks (nectar01); released in nectar01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: VK-IMGOD.ANS by Veks | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nectar01-vk-imgod
 
 Write-Host '
 [33m█[0;1;30;43m░░░   [0;43m███▓▒▒░░░░ ░[0;33;40m███▀▀▀▀ ▄▄  ▀▀███[0;37;43m░[0;33;40m██▀    ▀ ▀█[0;33;43m [0;37;43m░▒▓ [0;33;43m█[0;33;40m██▀ ▌   ▀██▀   ▄▄    ▐█[0;37;43m░▒[0;33;40m█[0m

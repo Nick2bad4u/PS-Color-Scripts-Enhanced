@@ -1,17 +1,4 @@
-﻿# Converted from: TR-ECL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-11/raw/TR-ECL.ANS
-# Source Revision: archive-sha256:124f5de71b4943d1edf363ae27ec83def11b741938d7ad78955f12dc3ea0753e
-# Source SHA-256: bf6c52a3472475b1ad9fa9f6453a5a90e88288abb3ed2c2fca1e341cf7477169
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-ECL.ANS by tarot ('klips-dom); released in ecl-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: eclipse sucks.
-# SAUCE Author: tarot
-# SAUCE Group: 'klips-dom
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: eclipse sucks. by tarot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-11-tr-ecl
 
 Write-Host '
 

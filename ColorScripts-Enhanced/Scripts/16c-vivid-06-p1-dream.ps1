@@ -1,13 +1,4 @@
-﻿# Converted from: P1-DREAM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vivid-06/raw/P1-DREAM.ANS
-# Source Revision: archive-sha256:eb7158285639fda51d38bef1d92b05e49135992ee44799a2cc8fc319da551b4f
-# Source SHA-256: 82a7c76c297c1e44db989c63b1b45a3931b78ed67e465ba2dbca66386ac78491
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P1-DREAM.ANS by Paranormal Intensity (vivid-06); released in vivid-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: P1-DREAM.ANS by Paranormal Intensity | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vivid-06-p1-dream
 
 Write-Host '
 [1;34;44m█[0;34m▌[0;33m█▄ [0;1;30m▄▀▀▀▀▀▄   ▄▀▀▀▄▄ [0;32m▄  [0;33m▄█▐ [0;36m■[0m         [33m▀▐ [0;32m█[0;1;32;42m██[0;32m▌[0;33m▌ [0;1;30m▀▄▄▀ [0;36m▄[0;1;36;46m▐█▓█[0;1;37;40m█[0;1;36;46m▌[0m [32m▀[0;1;33;42m▓[0;32m█[0;1;33;42m▒[0;1;33;40m▀▀[0m▄[1;47m▄▌[0m [33m■▌[0;34m▄[0;1;34;44m▄▀▄ ▌[0m

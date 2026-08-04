@@ -1,13 +1,4 @@
-﻿# Converted from: IGGRIZLY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/irapack1/raw/IGGRIZLY.ANS
-# Source Revision: archive-sha256:96bc9993557d51cf44fc1b215ff7a2693ea395db6c6b4d982d551a24b93f90a1
-# Source SHA-256: 892d60c10e87722cc8a20d859e801da340c17d2548a9c96b9496561c65ac7e20
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IGGRIZLY.ANS by Iguana (irapack1); released in irapack1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 34-69
-# Columns: 1-80
+﻿# Artwork: IGGRIZLY.ANS by Iguana | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-irapack1-iggrizly-part02
 
 Write-Host '
                [33m                 [0m [33m▄▄▄▄████████████▄▄[0m  [33m                [0m

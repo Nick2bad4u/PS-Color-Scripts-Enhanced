@@ -1,18 +1,4 @@
-﻿# Converted from: JP-LOGO2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0497/raw/JP-LOGO2.ANS
-# Source Revision: archive-sha256:ac23f379eb24f5f6ad8faa432723caa3c85fc7d4fc380b1d3e101e8eb50ca483
-# Source SHA-256: 944c3d17e2eb6fbff7cb6491b5e11d917248ce8ac954930f7369b0b3c4ab3947
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JP-LOGO2.ANS by jump (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: logo-cluster
-# SAUCE Author: jump
-# SAUCE Group: phat studios '97
-# SAUCE Date: 19970319
-# SAUCE Dimensions: 80x25
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: logo-cluster by jump | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0497-jp-logo2-part01
 
 Write-Host '
                    [33m [0m           [35m▀■░[0;30;45m▓[0;35;40m [0m

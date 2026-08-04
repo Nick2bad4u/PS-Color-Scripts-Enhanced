@@ -1,18 +1,4 @@
-﻿# Converted from: BA-CHAM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack09/raw/BA-CHAM.ANS
-# Source Revision: archive-sha256:3f219db3cc4582f9b9dc0d49acbeee50e3e74b4183f03c5668762afed184f532
-# Source SHA-256: 04aa5362553bbfd74e3c2065682e2657fc694bc42ef10247dc0f8bffb68090c3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BA-CHAM.ANS by Blue Apache (Apocalyptic Visions); released in avpack09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Chameleon
-# SAUCE Author: Blue Apache
-# SAUCE Group: Apocalyptic Visions
-# SAUCE Date: 19960323
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Chameleon by Blue Apache | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack09-ba-cham
 
 Write-Host '
 [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

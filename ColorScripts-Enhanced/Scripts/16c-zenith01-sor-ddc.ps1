@@ -1,18 +1,4 @@
-﻿# Converted from: SOR-DDC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zenith01/raw/SOR-DDC.ANS
-# Source Revision: archive-sha256:89a769066be1ade04361b16bc2aabeb1a280fe034deee0fe7ee4c75badc7461d
-# Source SHA-256: eb6281ef42b582643ee06558e53b18d7057ec00ba8a021f15a8886521e4e2924
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SOR-DDC.ANS by Spirit of Rage (Zenith); released in zenith01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: doddle draw color choose screen
-# SAUCE Author: Spirit of Rage
-# SAUCE Group: Zenith
-# SAUCE Date: 19980526
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: doddle draw color choose screen by Spirit of Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zenith01-sor-ddc
 
 Write-Host '
 [1;31;41m▌[0;31m░ [0;37m ▄[0;1;30;47m░[0;1;30;40m▀   [0m [1;30m▒▒░[0m                    [1;30m░░[0m [1;30m▀[0;1;30;47m▓[0m▄ ▀[1;47m▒[0;1;40m▄[0m   [1;30m▐▄░ [0;31m ▀[0;37;41m░░[0;1;31;41m█[0;1;31;40m▀▀[0;31m▀[0;1;31m▀[0;31m▀[0;33;41m░[0;31;40m▐[0;1;31;41m░░▒▒▒▓▓█▀[0;1;31;40m▀[0;1;31;47m▓[0;1;31;40m▀▀[0;31m▀░▀[0m

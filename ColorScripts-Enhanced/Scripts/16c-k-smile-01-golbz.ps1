@@ -1,13 +1,4 @@
-﻿# Converted from: 01-GOLBZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-smile/raw/01-GOLBZ.ANS
-# Source Revision: archive-sha256:d5b5b03bdca4251d5279a47c22daea5de27d1ebb345b1e7e45d552b7a8a43983
-# Source SHA-256: 3133f077bab8a363f21d7bfe0724c0f607a8976cb20d8abfa0327b31abc742a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 01-GOLBZ.ANS by Dr Shizuma (k-smile); released in k-smile and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: 01-GOLBZ.ANS by Dr Shizuma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-smile-01-golbz
 
 Write-Host '
 [1;35;47m  ▓▓[0;1;35;45m██████▄[0;1;30;45m▀[0;1;30;40m▄[0m ▀[1m█▀[0;1;33m▄▄[0m▀▀[1;30m [0;34m▄▄▄[0;1;34;44m▄▄██▒[0;34m███▒[0;37m [0;1;30;44m█▀▀[0;34m██[0;1;34;44m░[0;1;34;40m▒▒▒▒[0;34m▄▄▄[0;37m  [0;1;30m▀[0;35m▀▀[0;1;30;45m▄[0;35m█[0;1;35;45m▀▀█████████████[0;35m█[0;1;35;45m▐██▌[0;35m█[0;1;35;45m██[0;35m█[0;1;35;45m▄[0m

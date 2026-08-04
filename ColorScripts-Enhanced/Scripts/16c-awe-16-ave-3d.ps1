@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-3D.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-16/raw/AVE-3D.ANS
-# Source Revision: archive-sha256:299c2506fc7c7048919e5ad206603713352cc67a07153aa96e981dc224539522
-# Source SHA-256: 705701010d260fd865ab643b11d842076396cb992c986f90fda0372c0e5edf49
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-3D.ANS by avenger (black maiden); released in awe-16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: awe promo
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19981025
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: awe promo by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-16-ave-3d
 
 Write-Host '
 [30;41m----[0;31;40m----[0;30;41m--[0;31;40m-----------------------------------------------------------[0;30;41m--[0;31;40m----[0;30;41m----[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: CT-SKELR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ws-9509/raw/CT-SKELR.ANS
-# Source Revision: archive-sha256:f80be9f57a72f3731fd02149f3cc3f702afe87dd851a20e852584349c036c76a
-# Source SHA-256: 0310396b919e0c8e360874b528668f8e685261a3fddd833bb28ccf2014af6190
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CT-SKELR.ANS by cool 't (READ THE INI FILE); released in ws-9509 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: skeletal remains
-# SAUCE Author: cool 't
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950902
-# SAUCE Dimensions: 80x25
-# Lines: 291-340
-# Columns: 1-80
+﻿# Artwork: skeletal remains by cool 't | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ws-9509-ct-skelr-part07
 
 Write-Host '
                     [31m▄▄[0;30;41m░[0;31;40m▀▄▓[0;30;41m▄▀▀[0;31;40m▓▓░▄[0;1;31;41m░▒[0;1;31;40m▄▄[0;30;41m▄[0;31;40m▒▒▓▓▓▓▓▒[0;30;41m▀▄[0;31;40m▓▓[0;1;31;41m░░[0;31m█▓▓▒[0;30;41m█[0;31;40m▄[0m

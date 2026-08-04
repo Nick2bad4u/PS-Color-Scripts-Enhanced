@@ -1,19 +1,4 @@
-﻿# Converted from: AK-CRIMS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-38/raw/AK-CRIMS.ANS
-# Source Revision: archive-sha256:be80154150e87c06a8a7199ad7b8d7442acd5427250f57c89a783b9de15c69d7
-# Source SHA-256: 0b29b264c2063a6dbcee0ef15cdedb76ac7a026740156c8ae8f143c76ba88709
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-CRIMS.ANS by abstrakt (fire); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: crimson ghost
-# SAUCE Author: abstrakt
-# SAUCE Group: fire
-# SAUCE Date: 20231030
-# SAUCE Dimensions: 80x97
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: crimson ghost by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-38-ak-crims-part01
 
 Write-Host '
 [35;40m/[0;34;40m\` [0;35;40m.d[0;34;40m7`[0;35;40m.┌[0;34;40md7`[0;35;40m.d[0;34;40m$P$[0;35;40m$7[0;34;40m`[0;35;40m.d[0;34;40m$7`  [0;35;40m.⌐[0;34;40m$j┘`[0;37;40m [0;35;40m.\[0;34;40m7''   [0;35;40m/[0;34;40m$7[0;37;40m  [0;35;40m,d[0;34;40m7''[0;37;40m [0;35;40mj[0;34;40m7''[0;37;40m [0;35;40mj[0;34;40m┘[0m     [35;40m,d[0;34;40mj┘`[0;37;40m   [0;35;40m.[0;34;40md┘[0;37;40m [0;35;40m.d[0;34;40m┘`[0m

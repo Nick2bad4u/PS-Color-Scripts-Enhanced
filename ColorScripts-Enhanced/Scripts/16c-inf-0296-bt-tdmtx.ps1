@@ -1,18 +1,4 @@
-﻿# Converted from: BT-TDMTX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/inf-0296/raw/BT-TDMTX.ANS
-# Source Revision: archive-sha256:ad4dd85cbdfb0ede1204dbc5ac1e9ce06aec47936eac6d245f83347d4aec6eec
-# Source SHA-256: 462a08ee2ce01b9a806f2b02b222f0d1b0ce530848bfc4770167fdf7f1f0d1c1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BT-TDMTX.ANS by Black Tyde (iNFeCtiOuS); released in inf-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Tranquil Destruction matrix menu
-# SAUCE Author: Black Tyde
-# SAUCE Group: iNFeCtiOuS
-# SAUCE Date: 19960211
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Tranquil Destruction matrix menu by Black Tyde | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-inf-0296-bt-tdmtx
 
 Write-Host '
 [35m▓██████████████████▓████[0;1;30;45m             [0;35m████████████████████████[0;1;30;45m  [0;35m██▓██████████████[0m

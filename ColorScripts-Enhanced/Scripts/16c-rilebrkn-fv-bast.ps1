@@ -1,18 +1,4 @@
-﻿# Converted from: FV-BAST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rilebrkn/raw/FV-BAST.ANS
-# Source Revision: archive-sha256:631709d46940d5f633b8ebca426a515d51357cee4cca25bed435a2a8fbf53a10
-# Source SHA-256: 34bea954900122ac01dddbc26f5630a2932868257cabb19571afd28be00f77ef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-BAST.ANS by fever (eclipse); released in rilebrkn and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: bastard font
-# SAUCE Author: fever
-# SAUCE Group: eclipse
-# SAUCE Date: 19970421
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: bastard font by fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rilebrkn-fv-bast
 
 Write-Host '
 

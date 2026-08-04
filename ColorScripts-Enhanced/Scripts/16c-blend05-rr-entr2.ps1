@@ -1,18 +1,4 @@
-﻿# Converted from: RR-ENTR2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend05/raw/RR-ENTR2.ANS
-# Source Revision: archive-sha256:3346c70671a4c24e002cb42d75f3af112f478c146f28bb98b9942b55d0894a44
-# Source SHA-256: e883289256dc341216f28809944b1bb3a4e8d3bec007cf876a48e7681bddec7d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RR-ENTR2.ANS by riddler (blend productions); released in blend05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: files for enterprise
-# SAUCE Author: riddler
-# SAUCE Group: blend productions
-# SAUCE Date: 19970111
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: files for enterprise by riddler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend05-rr-entr2
 
 Write-Host '
             [33m▄[0m               [37m      [0m            [37m [0m                           [37m  [0m

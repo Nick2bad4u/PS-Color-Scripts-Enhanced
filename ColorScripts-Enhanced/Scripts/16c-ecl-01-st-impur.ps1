@@ -1,18 +1,4 @@
-﻿# Converted from: ST-IMPUR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-01/raw/ST-IMPUR.ANS
-# Source Revision: archive-sha256:98f7ca14920172db6145e44afa4b8ac94de6e46d94b8cf326e89a96c3e7e5c1b
-# Source SHA-256: 539df3ffa187437910fef844dce03bef6a4c3fa34b5e67db0b8d8f9e86049010
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-IMPUR.ANS by ttalps (esipilce); released in ecl-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ?erupmi
-# SAUCE Author: ttalps
-# SAUCE Group: esipilce
-# SAUCE Date: 19960603
-# SAUCE Dimensions: 80x15
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: ?erupmi by ttalps | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-01-st-impur
 
 Write-Host '
 

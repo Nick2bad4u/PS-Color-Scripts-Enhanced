@@ -1,18 +1,4 @@
-﻿# Converted from: QP-ZOO1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9812a/raw/QP-ZOO1.ICE
-# Source Revision: archive-sha256:397c8567417cfeea4664a28967705433b5deac25a80f14bd6f996962777a7236
-# Source SHA-256: 6de6c8ed66611d17a8720707f2d1c806b7088c05474ed49535178652730642ac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QP-ZOO1.ICE by Quip (Ice Advertisements); released in ice9812a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Zoo York
-# SAUCE Author: Quip
-# SAUCE Group: Ice Advertisements
-# SAUCE Date: 19981221
-# SAUCE Dimensions: 80x25
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: Zoo York by Quip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9812a-qp-zoo1
 
 Write-Host '
                                            ▄▄▄▄▄▄

@@ -1,18 +1,4 @@
-﻿# Converted from: BSOILINE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-08/raw/BSOILINE.ANS
-# Source Revision: archive-sha256:0567468a2c5f3b6be5032c5650cb72f6233cef61565d1d349ba0b887559b2680
-# Source SHA-256: c148f736fcf63349c379d263f0f609b48349805e3bc6b999cb147008c1697e0b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BSOILINE.ANS by blind brr cold hands (department 38); released in d38-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: optical illusions
-# SAUCE Author: blind brr cold hands
-# SAUCE Group: department 38
-# SAUCE Date: 19970626
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: optical illusions by blind brr cold hands | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-08-bsoiline
 
 Write-Host '
 [33mbs![0m        [1;30m ▄▀▀▀▄[0m    [34m [0;1;34m▬[0m  [1;35m▐[0;1;37m█[0m               ▄[35m▄[0;37m [0m                    [33m   [0m        [33m  [0;31m▄[0;1;31m█[0m

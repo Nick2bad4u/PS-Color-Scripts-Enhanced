@@ -1,13 +1,4 @@
-﻿# Converted from: us-dist.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roots02/raw/us-dist.ans
-# Source Revision: archive-sha256:76e48703c4ae574ec2cec39d9f297f8abe09593046838247863eedaee737caa1
-# Source SHA-256: 97d3f4f7bbe50a01ed26249250a79279a6171a36bbd898c5ac0729114bad0b70
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-dist.ans by Kargus + Frosty + Avenging Angel (roots02); released in roots02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 43-87
-# Columns: 1-80
+﻿# Artwork: us-dist.ans by Kargus + Frosty + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roots02-us-dist-part02
 
 Write-Host '
 [1;37;47m█▓░[0m█▌   [1;30m  [0m▄▄▄▒ [31m▐████████████████████████ [0;37m  [0;32m▄[0;1;32;42m▒██▄[0;32m▄[0;31m▀[0;1;31;41m▀▒[0;31m▄██▄[0;1;31;41m ▒█▀[0;31m▀[0;32m▄[0;1;32;42m▄██▄[0;32m▄[0;37m▄[0;1;37;47m▄▒[0m [31m ▒▄▄▄[0;1;37;41m░░[0;31m █[0m

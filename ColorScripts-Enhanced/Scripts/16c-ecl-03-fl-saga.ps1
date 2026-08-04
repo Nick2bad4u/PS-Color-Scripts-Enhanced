@@ -1,18 +1,4 @@
-﻿# Converted from: FL-SAGA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-03/raw/FL-SAGA.ANS
-# Source Revision: archive-sha256:8478e7ed47e52d1e07bf55e17a5f105ced4b468c6f56a8b59fd6b8ef8dada5ca
-# Source SHA-256: fec9192fb5bf146a429ccd5754a25a703caced00d524e359fa8b69efe6da4757
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-SAGA.ANS by blame (guest); released in ecl-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: SAGA PIMP
-# SAUCE Author: blame
-# SAUCE Group: guest
-# SAUCE Date: 19960708
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: SAGA PIMP by blame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-03-fl-saga
 
 Write-Host '
 [1;33m [0m [31m▄▄[0;1;31m▓██[0;1;31;41m████▀[0;31m▀▀▄▄[0;1;31;41m▄████[0;1;31;46m█[0;1;31;45m▓[0;1;31;47m▓[0;1;31;41m█▄[0;31m▄▄█▀▀██▓▄▄[0m   [31m▄ ▀▀░▄▄▄▄▒▒██▀▌▀▀ ▄ ▐[0;1;31;41m▐█████████[0;1;31;46m▓▓▓[0;1;31;41m▒▒[0;31m▓▄[0m

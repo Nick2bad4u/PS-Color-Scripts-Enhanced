@@ -1,18 +1,4 @@
-﻿# Converted from: US-SENSE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roots01/raw/US-SENSE.ANS
-# Source Revision: archive-sha256:dd8ab7f4699320ca828bf58552b53e17a1e210a9bedef1bc8bfdf4b451cdf01c
-# Source SHA-256: 2897ee6cb609a4c488123b39fb2d5dbb746520d8e7d085a8c68137b703cbd906
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SENSE.ANS by Ceelow + Retribution + Teflon (roots); released in roots01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: sense font
-# SAUCE Author: ceelow+tef+ret
-# SAUCE Group: roots
-# SAUCE Date: 20080205
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: sense font by Ceelow + Retribution + Teflon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roots01-us-sense
 
 Write-Host '
 [1;30m[0m[1;30m[0m         [34m▄[0;1;34m▄▄▄[0;1;34;44m▄[0;1;34;40m██[0;1;36;44m▒▒[0;34m█▀[0m       [34m▄[0;37m  [0;34m▄[0;1;34m▄[0;1;34;44m▄[0;1;34;40m██▄[0m                   [34m▄[0;1;34m▄▄▄[0;1;34;44m▄[0;1;34;40m████▓    [0;34m▄[0;1;34m▄[0m     [34m▄▄██[0m

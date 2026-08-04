@@ -1,18 +1,4 @@
-﻿# Converted from: NOH-ICE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0597/raw/NOH-ICE.ANS
-# Source Revision: archive-sha256:77e5528a945f670ea04f743fe66c6a4dc19b897ad7883b4458eeee0528f25975
-# Source SHA-256: d46a7caa3280cf1caf5084c5c1df0b94ceb87af775dddd0113bfd6ad53f20956
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-ICE.ANS by nOah? (Bamboosh); released in bmb-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Icebreaker
-# SAUCE Author: nOah?
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19970419
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Icebreaker by nOah? | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0597-noh-ice
 
 Write-Host '
              [31m▄      [0;37m       [0;31m      [0;37m                            [0m

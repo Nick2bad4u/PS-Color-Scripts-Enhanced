@@ -1,18 +1,4 @@
-﻿# Converted from: DD-MDN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe03/raw/DD-MDN.ANS
-# Source Revision: raw-sha256:7455fdbf604705fdc37d078d564597f30d57f584addeecdff9f2a8da6ca2d2a1
-# Source SHA-256: 7455fdbf604705fdc37d078d564597f30d57f584addeecdff9f2a8da6ca2d2a1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-MDN.ANS by Diamond Darrell (Circe Argentina); released in circe03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: "Maiden Brazil"
-# SAUCE Author: Diamond Darrell
-# SAUCE Group: Circe Argentina
-# SAUCE Date: 19971213
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: "Maiden Brazil" by Diamond Darrell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe03-dd-mdn
 
 Write-Host '
 [1;34m▄ [0m                                      [31m▄[0m

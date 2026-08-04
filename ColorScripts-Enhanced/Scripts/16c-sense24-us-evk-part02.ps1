@@ -1,13 +1,4 @@
-﻿# Converted from: us-evk.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense24/raw/us-evk.ans
-# Source Revision: archive-sha256:8873cbedb30712f2bc9e4c92a60cdb9c72153cb3946af0473f1522d370964606
-# Source SHA-256: 078080e08e9113f73da851c08494ec2618d62869402e8ab47306da4410657ca2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-evk.ans by Simonking + Ceelow + Ansichrist + Avenging Angel (sense24); released in sense24 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 29-55
-# Columns: 1-80
+﻿# Artwork: us-evk.ans by Simonking + Ceelow + Ansichrist + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense24-us-evk-part02
 
 Write-Host '
 [1;31;41m░░░[0;31m█▄▄▀[0;1;31m▀[0;1;31;41m▀[0;1;31;40m█[0;1;31;41m▄[0;1;31;40m▄[0;31m▄[0;37m  [0;35m▐[0;1;37;46m░░▄██▀▓[0;35m▀█[0;1;35m▄▄[0;35m▄[0;31m▄▀[0;1;31;41m░░[0;31m▌ ░▒▄[0;1;33;43m▒▓█▄[0;33m▓▄░[0;37m    [0;35m▀[0;37m    [0;35m▀[0;37m [0;35m░[0;37m   [0;35m▓▓▓▀[0;37m  [0;35m▄[0;1;35;45m█▀[0;35m█▀[0;37m  [0;31m▄[0;1;31m▄[0;1;31;41m▄██▓▓[0m

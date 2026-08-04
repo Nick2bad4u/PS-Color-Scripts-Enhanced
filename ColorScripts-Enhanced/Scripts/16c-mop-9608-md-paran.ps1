@@ -1,18 +1,4 @@
-﻿# Converted from: MD-PARAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mop-9608/raw/MD-PARAN.ANS
-# Source Revision: archive-sha256:c3286221f7bb4915094c0581d0d3d14d0c4d218ed52d7a56fd6e2f52b72254a0
-# Source SHA-256: fa834f23e0a4d77d639adf6d8c2e64d1603ac41513c09eea7435c11c6ef853a5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MD-PARAN.ANS by mendator (mop); released in mop-9608 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: paran
-# SAUCE Author: mendator
-# SAUCE Group: mop
-# SAUCE Date: 19950808
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: paran by mendator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mop-9608-md-paran
 
 Write-Host '
  [30;42m▓[0;32;40m▀▀█[0;1;33;42m▄▄▄▄░[0;32m█▄▄▄[0;37m [0;34m▀▀[0;1;34;44m▀██████████████[0;1;34;47m▓[0;1;34;44m███████████▀[0;34m▀▀▀[0;1;31m [0;33m▄▄[0;1;31m▄[0;1;31;43m▄▄▄▓▓[0;1;31;40m████[0;1;31;43m▓▓[0;1;31;40m█████[0;1;31;43m▓▓▒▒░[0;30;43m ░▒▓[0;1;31;40m [0m

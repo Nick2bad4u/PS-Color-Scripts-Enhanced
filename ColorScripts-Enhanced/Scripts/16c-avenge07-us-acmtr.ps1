@@ -1,18 +1,4 @@
-﻿# Converted from: US-ACMTR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge07/raw/US-ACMTR.ANS
-# Source Revision: archive-sha256:115e0675d139221ae82af57d75adc6a5c40187386a2e1c7aedd5a13098a703d2
-# Source SHA-256: ff148d58923c3a6f36505dc41c52113147711896151e208c39fdb72440b8b749
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ACMTR.ANS by Multiple Artists (avenge); released in avenge07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: matrix
-# SAUCE Author: Multiple Artists
-# SAUCE Group: avenge
-# SAUCE Date: 19980718
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: matrix by Multiple Artists | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge07-us-acmtr
 
 Write-Host '
 [1;33m▓▄▄▓▓█▄▀[0m [1;33m░[0m [1;33m▀[0;33m▓[0;1;33m▀█▀ █▀█▀███████████▄███▓█████████████▄▄[0;1;37m [0;1;32m▄▄▄▄▄▄[0m [1;33m▀█ ▀█▀[0;1;37m  [0;1;32m▄▄▄▄▄▄▄▄▄▄▄[0;32m [0m

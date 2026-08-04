@@ -1,18 +1,4 @@
-﻿# Converted from: AP-PCMAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/distant2/raw/AP-PCMAT.ANS
-# Source Revision: archive-sha256:941f8e7b54c498044319781d83c8f945f73124fec22082c7f2223350e7e8efcd
-# Source SHA-256: 97982f23a218e03d2eae992c553b13372c9c303b1108e72fa29f2b17658c3c1c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AP-PCMAT.ANS by Appel (Neon Strike); released in distant2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Planet Caravan matrix
-# SAUCE Author: Appel
-# SAUCE Group: Neon Strike
-# SAUCE Date: 19980328
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Planet Caravan matrix by Appel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-distant2-ap-pcmat
 
 Write-Host '
 -x(Planet Caravan)x------------------------------------------------------------

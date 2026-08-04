@@ -1,17 +1,4 @@
-﻿# Converted from: PAR-ELD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-18/raw/PAR-ELD.ANS
-# Source Revision: archive-sha256:e13b41538a653917f207dfab2a5191421ed3009558de7c9e05e039ec71ae8c00
-# Source SHA-256: 4cb5684596bb771cea09f2e64d0d0ac321a6facabbf6f0365704eba2a962df35
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PAR-ELD.ANS by Pariah (REMORSE); released in rmrs-18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Eld
-# SAUCE Author: Pariah
-# SAUCE Group: REMORSE
-# SAUCE Dimensions: 80x25
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Eld by Pariah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-18-par-eld
 
 Write-Host '
 [1m[0m[1m[0m[1m[0m

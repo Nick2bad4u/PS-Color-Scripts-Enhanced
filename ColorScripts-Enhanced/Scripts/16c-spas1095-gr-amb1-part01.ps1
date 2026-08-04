@@ -1,18 +1,4 @@
-﻿# Converted from: GR-AMB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spas1095/raw/GR-AMB1.ANS
-# Source Revision: archive-sha256:13aa954ec08efcd1f4481b6694a8326cc5ced74bc0da1cb72e8e636d69af3c30
-# Source SHA-256: c83655b4b4d69c33a91513aac83fd613fb60193a2a28dcd1ae6dca500f780e3f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GR-AMB1.ANS by Gradius (spastique); released in spas1095 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ambrosia
-# SAUCE Author: Gradius
-# SAUCE Group: spastique
-# SAUCE Date: 19950926
-# SAUCE Dimensions: 80x25
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: ambrosia by Gradius | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spas1095-gr-amb1-part01
 
 Write-Host '
      ▄▄▄▄▄▄▄▄▄▄[1;31;47m░[0m▄   [1;31m [0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄       ▄[1;31;47m░[0m▄▄▄▄▄▄▄▄▄▄         ▄▄▄▄▄▄▄▄▄▄▄▄ [1mgr![0m

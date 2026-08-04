@@ -1,13 +1,4 @@
-﻿# Converted from: ST-COI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rem-0594/raw/ST-COI.ANS
-# Source Revision: archive-sha256:4e905edac905b00ad9162d492a1341f15046832e8f456a5a895c3c936a480f37
-# Source SHA-256: 94151b424b7b76255b20accf1b3a149229b0e67ac73ec0d8d37991a1ddca5046
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-COI.ANS by Stony (rem-0594); released in rem-0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 46-84
-# Columns: 1-80
+﻿# Artwork: ST-COI.ANS by Stony | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rem-0594-st-coi-part02
 
 Write-Host '
                [31m▌[0m     [31m███▓▒░ [0;1;30m▒▐[0;1;30;41m▒[0;1;31;41m▓▓[0;1;30;41m▓▌[0;1;31;41m▓▒▒[0;1;31;40m▒▒[0;1;30;41m░▐▓░░▒[0;1;30;40m▌░ [0;31m░▒▓██    ▌[0m

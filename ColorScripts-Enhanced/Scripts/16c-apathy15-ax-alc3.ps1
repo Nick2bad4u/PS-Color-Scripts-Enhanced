@@ -1,18 +1,4 @@
-﻿# Converted from: AX-ALC3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy15/raw/AX-ALC3.ANS
-# Source Revision: archive-sha256:5e243b226da6b745b1398dfdadb3776bdb866b2235d51f36e0cf209d2d8d9295
-# Source SHA-256: 1da5f82dac2e223a30abd0081c6ad65bfb870c74f21a1edf1a1d2d814611beb9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AX-ALC3.ANS by Apox (Apathy Studios); released in apathy15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Logo colly #3
-# SAUCE Author: Apox
-# SAUCE Group: Apathy Studios
-# SAUCE Date: 19960928
-# SAUCE Dimensions: 80x25
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Logo colly #3 by Apox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy15-ax-alc3
 
 Write-Host '
  [30;42m▓▒░ax[0;37;42m∙a[0;1;37;42mpa[0;32m▓░[0m

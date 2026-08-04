@@ -1,13 +1,4 @@
-﻿# Converted from: TI-TRA1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9701a/raw/TI-TRA1.ICE
-# Source Revision: archive-sha256:2b4740d08283c009b0da564f58adfe176d60e60708d85f690f875edfd33d46e1
-# Source SHA-256: c44a5943b93e85ae9aa35c43b4ce93221a57352f8a9e845b1ac7f88d1780ec61
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TI-TRA1.ICE by Trip (ice9701a); released in ice9701a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: TI-TRA1.ICE by Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9701a-ti-tra1
 
 Write-Host '
 ████████████████████[1;34;47m░░░[0m█████[1;34;47m  [0m███[1;34;47m░[0m███[1;34;47m  ░  ░ ░░[0m▀[1;34m▀  ▀[0m▀▀[1;34;47m░░▒▒░░  ░░▒░   ░[0m██████████

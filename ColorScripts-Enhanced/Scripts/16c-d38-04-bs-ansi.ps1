@@ -1,18 +1,4 @@
-﻿# Converted from: BS-#ANSI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-04/raw/BS-%23ANSI.ANS
-# Source Revision: archive-sha256:46dfc1c32c82269d5de42747ebd7355d3eb20f2453874c6355621a917a3f7589
-# Source SHA-256: 0fc965570e1b1c7cb32db7977c27529e7f8832873a0248adad71239333976f0d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-#ANSI.ANS by Blind Sniper (Department 38); released in d38-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: This Pack Is Sponsored By #ansi (c)
-# SAUCE Author: Blind Sniper
-# SAUCE Group: Department 38
-# SAUCE Date: 19970312
-# SAUCE Dimensions: 80x25
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: This Pack Is Sponsored By #ansi (c) by Blind Sniper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-04-bs-ansi
 
 Write-Host '
   [1m░▀█[0m [1;34m█[0m [1;34m▌▀▀▀[0;1;34;44m▀█▓▓░[0;34m▄▄▄▄[0m   [36m▄▄▄[0m    [31m ░░░[0;35m         [0;37m  [0;34m▄▄▐█[0;1;34;44m░░▀▀▀[0;34m██▓▄▄▄▄[0;37m  [0;35m [0;34m▀▄▄▌[0;37m [0;34m▄▓▒░[0;35m    [0;34m▀■[0m

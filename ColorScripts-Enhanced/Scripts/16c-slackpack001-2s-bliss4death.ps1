@@ -1,19 +1,4 @@
-﻿# Converted from: 2s-bliss4death.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/slackpack001/raw/2s-bliss4death.ans
-# Source Revision: archive-sha256:5cacf66a668b317d377907af22e0a4e5723c4f7fb85756d1ef888c14cabea25b
-# Source SHA-256: 48a047656708efb1eb9e62dcc65b0b302ad99bc26a3445b0a9b778671b647caf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2s-bliss4death.ans by 2stoned (slackpack001); released in slackpack001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: bliss4death
-# SAUCE Author: 2stoned
-# SAUCE Date: 20250607
-# SAUCE Dimensions: 80x38
-# SAUCE Font: IBM VGA
-# SAUCE Comments: bliss4death by 2stoned 4 gngrdr3dm4n@slackers | smokin' crops n droppin' blocks | slackers bbs @ telnet://slackers.ovh | slackers irc @ slackers.ovh 7000 | greets to the slackers.. | gngrdr3dm4n, 0zZ-U, phigan, tilash, beardy, maxmouse, zylone
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: bliss4death by 2stoned | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-slackpack001-2s-bliss4death
 
 Write-Host '
    [1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0;36m▄[0;1;30m▄[0m

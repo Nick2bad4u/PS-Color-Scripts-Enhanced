@@ -1,18 +1,4 @@
-﻿# Converted from: SD-HB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-07/raw/SD-HB1.ANS
-# Source Revision: archive-sha256:3007ab392a2ea4e107d02b3029b445696a097ac55d389caab2dbfe0944556beb
-# Source SHA-256: 17fc020f5711ed660aa72dbbacf1e01eb9d3ef02e4761908341be834f0f52ea2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-HB1.ANS by ser_deth (eclipse); released in ecl-07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: hell_bownd
-# SAUCE Author: ser_deth
-# SAUCE Group: eclipse
-# SAUCE Date: 19960821
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: hell_bownd by ser_deth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-07-sd-hb1
 
 Write-Host '
                     [31m▄▄▄▀ ░░[0m                           [31m▄▄▄▓▓▓▐▄▄[0;31;47m▓▓[0;31;40m▄[0m

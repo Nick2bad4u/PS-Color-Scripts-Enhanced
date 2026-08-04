@@ -1,18 +1,4 @@
-﻿# Converted from: IMI-DROP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/air_0597/raw/IMI-DROP.ANS
-# Source Revision: archive-sha256:6fe653cdae1d1be3a85ad8606d04a6519ed3da6d9d33e501c49ef3bdd23379d9
-# Source SHA-256: c051fd851efaf188030a724ab1399f3bb565071636056bfcaf346e5e441e6f3e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IMI-DROP.ANS by imani (3o3,surge,twisted); released in air_0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dr0p
-# SAUCE Author: imani
-# SAUCE Group: 3o3,surge,twisted
-# SAUCE Date: 19970422
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: dr0p by imani | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-air-0597-imi-drop
 
 Write-Host '
 [36m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿ$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m

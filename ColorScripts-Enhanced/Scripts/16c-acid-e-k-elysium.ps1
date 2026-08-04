@@ -1,13 +1,4 @@
-﻿# Converted from: ELYSIUM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acid_e-k/raw/ELYSIUM.ANS
-# Source Revision: archive-sha256:39f65f593445c52be7979397cf597377ab7883bc6e967f4cf6ca51c15e64aa37
-# Source SHA-256: a01991bf13074cfc9a2adc14a118ec8d593717040a7e66251b85fa60cb218303
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ELYSIUM.ANS by The Malevolent Trickster (acid_e-k); released in acid_e-k and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: ELYSIUM.ANS by The Malevolent Trickster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acid-e-k-elysium
 
 Write-Host '
                               [34m▄▄▄▄█[0;1;34;44m░░░░░▒[0;1;34;40m▄▄▄▄[0;34m▄▄▄▄[0m

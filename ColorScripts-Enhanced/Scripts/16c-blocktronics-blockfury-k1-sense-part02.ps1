@@ -1,13 +1,4 @@
-﻿# Converted from: k1-sense.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_blockfury/raw/k1-sense.ans
-# Source Revision: archive-sha256:071260960977ea1068cec2d97ab877e753876c2d02c413111354a74175d7cd04
-# Source SHA-256: a5eec491ccff991e4fac1f4321960c6044d6fa92ac21b79410c3f5800b1d465e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: k1-sense.ans by Knocturnal (blocktronics_blockfury); released in blocktronics_blockfury and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 43-84
-# Columns: 1-80
+﻿# Artwork: k1-sense.ans by Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blockfury-k1-sense-part02
 
 Write-Host '
 [33m [0;37m [0;1;37;47m░[0;1;30;47m▀[0;1;30;40m▄  [0;31m▀[0;1;31;41m░░▓▓██[0;1;31;40m█████████[0;1;31;41m██[0;1;31;40m███████████[0;1;31;41m▓▒░[0;31m▓░[0;37m [0;1;30m▀[0m   [1;30m▐[0;1;33;43m░▒[0;1;33;40m▓▓▓▀▀[0;1;37;40m▀[0;1;37;43m▀██[0;1;33;43m▄[0;33m▄▀[0;1;33;43m▀[0;1;37;43m▓▓▓▓[0;1;33;43m▓ [0;1;33;40m [0;1;33;43m░▓[0;1;33;40m█[0;1;33;43m▓▓▓[0;33m▄[0m

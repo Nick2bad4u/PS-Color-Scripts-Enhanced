@@ -1,13 +1,4 @@
-﻿# Converted from: DPG1ACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0692/raw/DPG1ACID.ANS
-# Source Revision: archive-sha256:57672df06e5ecb0b0b4e05fcd7d03f2b4014d9b65c523f558d00ba64dcb9e559
-# Source SHA-256: af1df96ee9dd353bba84f4d7ffb70f4ff063292199d686f26b0eb4c72ded1570
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DPG1ACID.ANS by Tank (acdu0692); released in acdu0692 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 45-89
-# Columns: 1-80
+﻿# Artwork: DPG1ACID.ANS by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0692-dpg1acid-part02
 
 Write-Host '
                     ▄[1;31;47m▄[0;1;31;41m▓[0;1;31;47m▄[0m▄▄[1;31;47m▄▄[0;1;31;41m▓▓▓▓▓[0;1;31;40m▀[0;30;44m█[0m   [1;30;40m▐██▌   [0;30;44m█[0;1;31;40m▀[0;1;31;41m▓▓▓[0;1;30;41m▀▀[0;1;31;41m▓[0;1;30;40m▌ ▄[0;1;30;41m▀[0;1;30;40m▄[0m        [1;30;40m▄[0;1;30;41m▀[0;1;30;40m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: LP-HITLE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sknk0396/raw/LP-HITLE.ANS
-# Source Revision: archive-sha256:d1146eaff9d8fcb32b026bdf30ae2359ce9489533a289ac360d48a81ee46fca9
-# Source SHA-256: fde9a0796a6abc99a4241de0785ac4e301c05168e99ea1a2b1a5341b4c9d948b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LP-HITLE.ANS by Limpy (SKANK); released in sknk0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Adolf Hitler
-# SAUCE Author: Limpy
-# SAUCE Group: SKANK
-# SAUCE Date: 19960218
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: Adolf Hitler by Limpy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sknk0396-lp-hitle
 
 Write-Host '
  [31m▄█[0;30;41m                                        [0;31;40m█[0;30;41m                                 [0;31;40m█▄[0m

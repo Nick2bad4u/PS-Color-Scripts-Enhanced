@@ -1,13 +1,4 @@
-﻿# Converted from: RB-YONET.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axis-9/raw/RB-YONET.ANS
-# Source Revision: archive-sha256:b82f112c80b77b601afd20f06fa2d0515df5f0288a99244a4ccb297bb35fa70a
-# Source SHA-256: 394e6acba7e6dd4a06800435dc7483aff68745211f37f4bfb907f0f6cc450088
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RB-YONET.ANS by Rabi Li (axis-9); released in axis-9 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: RB-YONET.ANS by Rabi Li | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axis-9-rb-yonet
 
 Write-Host '
       [1;30m▄▀███████████████████████████▓[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: IZлOPIUM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0296/raw/IZ%D0%BBOPIUM.ANS
-# Source Revision: archive-sha256:0eb4b2482411f38ef708ec089ec5cba17c181d4a0eee6324511602aa4e53eac8
-# Source SHA-256: 7e2e21b06770df541881e1075fa0c8762b2893633f488f6348e5ae4584936a25
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZлOPIUM.ANS by Ize (fsn-0296); released in fsn-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: IZлOPIUM.ANS by Ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0296-iz-opium
 
 Write-Host '
 

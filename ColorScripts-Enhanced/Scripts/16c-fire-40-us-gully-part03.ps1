@@ -1,19 +1,4 @@
-﻿# Converted from: US-GULLY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-40/raw/US-GULLY.ANS
-# Source Revision: archive-sha256:aff8105c0a955ac5c43ea367a02b086cd2849f6741fc41b8a5ff440b77e104a7
-# Source SHA-256: ce625ed496ba8af97386025fde0e94579ab779e3c4b9d2d6c15f8e8519fef3fc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GULLY.ANS by Nail + Slothy + Sq2 (fire); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: gully on the run
-# SAUCE Author: nail, slothy, sq2
-# SAUCE Group: fire
-# SAUCE Date: 20240701
-# SAUCE Dimensions: 80x164
-# SAUCE Font: IBM VGA
-# Lines: 84-121
-# Columns: 1-80
+﻿# Artwork: gully on the run by Nail + Slothy + Sq2 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-40-us-gully-part03
 
 Write-Host '
           [1;33m█[0;1;33;43m█▓[0m [1;33m▄[0;1;33;43m ▒▓[0;33m█▀  [0;36m░░[0;37m [0;32m▄[0;37m [0;32m▄█▀[0;1;30m▄███▀███▀[0;1;31m▄[0;1;31;43m▄▄[0;33m▄[0m                   [1;30m▄▄▀░[0m   ▄[1;47m▒[0m▄[33m ▀▓▓[0m

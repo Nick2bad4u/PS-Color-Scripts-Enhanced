@@ -1,18 +1,4 @@
-﻿# Converted from: CG-BS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/raw02/raw/CG-BS1.ANS
-# Source Revision: archive-sha256:a9c7b11f45c1834d2f063eb1ae64ec8d77fb2fe3e9be2a125c82d6192e5de0b0
-# Source SHA-256: 50f1bb6f0240a25833fc52c25aebf5a3f2c8da3e7184e6d729e192427a055dc6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-BS1.ANS by cryogenic (raw); released in raw02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: brimstone matrix.
-# SAUCE Author: cryogenic
-# SAUCE Group: raw
-# SAUCE Date: 19970424
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: brimstone matrix. by cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-raw02-cg-bs1
 
 Write-Host '
        [31m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m▄▄▄▄▌[0;37;40m  [0;31;40m░[0;30;41m▓[0;31;40m░[0m          [31;40m▄░[0;30;41m▓[0;31;40m░[0m                                     [35;40m░[0;30;45m▓[0m

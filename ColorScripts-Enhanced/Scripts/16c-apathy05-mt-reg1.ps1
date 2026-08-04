@@ -1,17 +1,4 @@
-﻿# Converted from: MT-REG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy05/raw/MT-REG1.ANS
-# Source Revision: archive-sha256:2e1c7dd4c451a5d024352ee6b56eba52a2d5ba6a7d73a9cc34cff58fc603ca18
-# Source SHA-256: 5132c862d810fdbe13853b52f294c1690d2cca3dcd07d329a5b123be249ca5c7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MT-REG1.ANS by Misfit (apathy05); released in apathy05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Regency
-# SAUCE Author: Misfit
-# SAUCE Date: 19951218
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: The Regency by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy05-mt-reg1
 
 Write-Host '
 [1;33;43m░[0;33m▓▀▀░▄▄[0;1;31;43m░▒▓[0;33m▄▄░[0;1;33;43m▒[0m [33m▄▄▄░░[0;37m [0;1;30m▀[0;33m▀▀[0;1;31;43m▒▓▓[0;1;31;40m███████[0;1;31;43m▓▓[0;1;31;40m█[0;1;31;43m█[0;1;31;40m█████████[0;1;31;43m▓▓▒[0;1;31;40m▀▀[0m  [33m░░▄▄▄█[0;1;31;43m░░[0;33m██▄██▄▄██░[0;1;37m█[0;1;33m█[0;1;37m██[0;1;33;47m▓[0;1;37;40m██[0;1;33;47m▓[0m

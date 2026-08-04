@@ -1,18 +1,4 @@
-﻿# Converted from: US-UTC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roots01/raw/US-UTC.ANS
-# Source Revision: archive-sha256:dd8ab7f4699320ca828bf58552b53e17a1e210a9bedef1bc8bfdf4b451cdf01c
-# Source SHA-256: 2bf1b8050d458e396e688c99b3bb4206eb966666110f44b9d7e92252b18beea8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-UTC.ANS by Retribution + Kid Frost (roots); released in roots01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: uptown connections
-# SAUCE Author: kf + ret
-# SAUCE Group: roots
-# SAUCE Date: 20080229
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: uptown connections by Retribution + Kid Frost | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roots01-us-utc
 
 Write-Host '
 [31m [0;1;30m  [0;31m▀[0;1;31;41m▀[0;1;31;40m██[0;1;31;41m▒▒[0;31m███▌  [0;1;31;41m░[0;31m▓▓▌[0;37m [0;1;31;41m▒█▒[0;31m  ▄▄[0;1;31;41m▒[0m██[1;31;41m█[0;1;31;40m▀▀[0;1;31;41m██[0;31m▄▄█[0;1;31;41m▄[0;1;31;40m▀█[0;1;31;41m██▒[0;1;31;40m▄[0;31m░█▄[0;1;31m▓[0;1;31;41m█[0;1;31;40m▀▀ ▀[0;1;31;46m▒[0;1;31;41m▒[0;31m█▄▄[0;1;31;41m▒[0;1;31;40m▀▀▀▀ ▀[0;31m ▄█▄▄[0;1;31;41m░[0;31m▄▄[0;1;31;41m▒▒█[0;1;31;40m▄▄[0m

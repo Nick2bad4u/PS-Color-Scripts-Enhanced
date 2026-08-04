@@ -1,13 +1,4 @@
-﻿# Converted from: ANM-DP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/filth-02/raw/ANM-DP.ANS
-# Source Revision: archive-sha256:46b99aa483384d08c7e9024c193a186fa17d0f474da97a19dd27e922b3876973
-# Source SHA-256: 8589be875a043693d4673622fc08e745d58046d7ee1c412816192d81ed813aca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ANM-DP.ANS by Anomite (filth-02); released in filth-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: ANM-DP.ANS by Anomite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-filth-02-anm-dp
 
 Write-Host '
 [1;30m [0;1;32m  [0;32m          [0;1;30m [0;34m     [0;1;37m          [0;30;42m▓[0;32;40m░[0;30;42m▓[0;1;37;40m      [0;32m▌[0;1;37m        [0;30;42m▓[0;32;40m░[0;30;42m▓[0;1;37;40m  [0;32m▄▄▄▄▄▄▄▌[0;37m [0;1;30m [0;1;32m   [0;32m           [0;1;30m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: KI-UVMN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/forge_09/raw/KI-UVMN.ANS
-# Source Revision: archive-sha256:d4616dfe119968c45cde426a6fd89403c94d7b3dbbcec3e05db02fd0c751bac7
-# Source SHA-256: 31071ae7763eedf2e903072d2fb58e9d4794a547b0c50957435956ff8353ccfc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KI-UVMN.ANS by Kiwi (Forge); released in forge_09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: UV main menu
-# SAUCE Author: Kiwi
-# SAUCE Group: Forge
-# SAUCE Date: 19800102
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: UV main menu by Kiwi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-forge-09-ki-uvmn
 
 Write-Host '
      [34m ░▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;34;44m░[0;34m▄▄▄▄▄[0m

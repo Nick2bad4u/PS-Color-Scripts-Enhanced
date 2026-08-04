@@ -1,18 +1,4 @@
-﻿# Converted from: CH!CHOZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/scum-01/raw/CH!CHOZ.ANS
-# Source Revision: archive-sha256:f61df56833f319ce1eda97ac7b98e2dbe1b3360e66311e75841bc42b3bb0d418
-# Source SHA-256: fc7634c739d6442e866bcaea737f6e4b1203b1e98e1fc09b512e91a5e6a43322
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CH!CHOZ.ANS by choz (scum); released in scum-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: choz info..
-# SAUCE Author: choz
-# SAUCE Group: scum
-# SAUCE Date: 19970528
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: choz info.. by choz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-scum-01-ch-choz
 
 Write-Host '
  █████████████▀▀▀▀▀▀▀▀▀▀▀▀ [1m▄[0m▄▄▄[1;30m▄ [0m███████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀██████████████

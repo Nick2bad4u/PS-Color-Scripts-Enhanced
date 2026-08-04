@@ -1,18 +1,4 @@
-﻿# Converted from: CR_IMOD2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-07a/raw/CR_IMOD2.ANS
-# Source Revision: archive-sha256:6502b6f7b940f1799a6ba4f4b08910561aba3d74e01448e36157cb66de10c8c7
-# Source SHA-256: 119a247ab364903645c49dd381cb6367490a1813fc9aaf06edcc7f21b13b5b16
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CR_IMOD2.ANS by Moosifer (Department 38); released in d38-07a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Bizarre Imodium Logo
-# SAUCE Author: Moosifer
-# SAUCE Group: Department 38
-# SAUCE Date: 19970609
-# SAUCE Dimensions: 80x12
-# Lines: 1-12
-# Columns: 1-80
+﻿# Artwork: Bizarre Imodium Logo by Moosifer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-07a-cr-imod2
 
 Write-Host '
                             [1m▄[0m      [1m■[0m                        [1;30m· [0;1;37m     [0;1;30m ·[0m

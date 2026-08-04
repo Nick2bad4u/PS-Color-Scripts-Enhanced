@@ -1,18 +1,4 @@
-﻿# Converted from: GSL-AFTE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0198/raw/GSL-AFTE.ANS
-# Source Revision: archive-sha256:463d77f4b1466b54ce907e7ee760282fc69f7183ee8d9f351965b1f5ce417b30
-# Source SHA-256: 586bee2dd1288c1f8522ee5ee20ad4e054ac38ba21879f7000a15860d45e57f6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GSL-AFTE.ANS by gasol (plf); released in plf-0198 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: afterburner
-# SAUCE Author: gasol
-# SAUCE Group: plf
-# SAUCE Date: 19980117
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: afterburner by gasol | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0198-gsl-afte
 
 Write-Host '
      [1;31m▄▄▄▄[0;31m▄[0;1;31m  ░[0m                                                          [1;31m▄▄▄▄[0;31m▄[0m

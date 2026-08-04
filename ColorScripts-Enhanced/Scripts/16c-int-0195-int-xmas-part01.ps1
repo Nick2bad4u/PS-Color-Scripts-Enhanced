@@ -1,18 +1,4 @@
-﻿# Converted from: INT-XMAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/int-0195/raw/INT-XMAS.ANS
-# Source Revision: archive-sha256:3fdb8fc49cc34a34d9e6eab03ee82e2c4530f48746dc5ed6fff764c35d1e35fa
-# Source SHA-256: 80fa4263d0cb58a0f0d1bc36dceed4a2bc805bbaeb06aaaf5760bde061eebca9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: INT-XMAS.ANS by Darkforce + Havoc + Everlast + Grateful Dead + Inquisitor + Pestilence + Prophet (Integrity); released in int-0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Merry Christmas!
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Integrity
-# SAUCE Date: 19941231
-# SAUCE Dimensions: 80x25
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Merry Christmas! by Darkforce + Havoc + Everlast + Grateful Dead + Inquisitor + Pestilence + Prophet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-int-0195-int-xmas-part01
 
 Write-Host '
                          [1;31;40m▄ ▄▄[0m             [1;31;41m▓[0m

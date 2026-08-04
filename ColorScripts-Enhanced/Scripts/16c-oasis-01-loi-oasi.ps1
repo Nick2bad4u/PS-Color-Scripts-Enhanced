@@ -1,18 +1,4 @@
-﻿# Converted from: LOI-OASI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oasis-01/raw/LOI-OASI.ANS
-# Source Revision: archive-sha256:c7f0081e5307a0d2341daff9b9ecf085b014300c2678e635458ef3859778b31f
-# Source SHA-256: 08d414c8bb9d16c873d6e7fc2d63c72eb610abf2e8e53589715f51e80eb93a84
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LOI-OASI.ANS by lOrd of illusiOns (Oasis Guest); released in oasis-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Oasis Logo
-# SAUCE Author: lOrd of illusiOns
-# SAUCE Group: Oasis Guest
-# SAUCE Date: 19960324
-# SAUCE Dimensions: 80x14
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: Oasis Logo by lOrd of illusiOns | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oasis-01-loi-oasi
 
 Write-Host '
 [31m█[0;1;31;41m▄▄▄[0;31m██▀[0;37m [0;31m▀▀▀▀▀▀▀[0;1;31;41m▀▓█▓▓▀▀[0;31m▀[0;37m [0;31m▀[0;37m [0;31m▀▀▀▀▀[0;1;31;41m▀▀█▓█▀▀[0;31m▀▀▀▀▀▀▀▀▀█[0;1;31;41m▀▓[0;31m▀▄▀▀▀▀[0;1;31;41m▀█▓▀[0;31m▀▀▀▀▀▀▀▀ ▀[0;1;31;41m▀▀█[0;1;31;47m▓▓[0;1;31;40m█[0;1;31;41m██▄[0;31m█[0m

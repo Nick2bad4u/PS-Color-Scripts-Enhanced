@@ -1,13 +1,4 @@
-﻿# Converted from: we-radman.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/we-radman.ans
-# Source Revision: archive-sha256:5d665873486ffcf559d33043557e11d7636d0c5a5b53a69dd3e7cf81117997ef
-# Source SHA-256: ec4651dd506db6fd03064c2c48abba628efe625679357d753df8a3fce2ce3cf5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-radman.ans by Zerovision + Enzo (blocktronics_codename_chris_wirth); released in blocktronics_codename_chris_wirth and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: we-radman.ans by Zerovision + Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-codename-chris-wirth-we-radman-part01
 
 Write-Host '
 [36m███[0;1;37;46m▄▓▓[0;36m█[0;1;37;46m  [0;36m███████████████████████▀█▄▀███▀██████▄▀███████████████▓▓▓▓████▓▓ ░░ ▓░▓[0m

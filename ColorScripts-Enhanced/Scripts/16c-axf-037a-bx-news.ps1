@@ -1,18 +1,4 @@
-﻿# Converted from: BX-NEWS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-037a/raw/BX-NEWS.ANS
-# Source Revision: archive-sha256:37963dec1fde9901b3a211c4aa10fb9619d7e64e44f435ffd700386859a2f460
-# Source SHA-256: d75e5c5f5e6e2cb0786b667c2db107f190eeef99c1466268a7fb0ab0f91c940d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BX-NEWS.ANS by baxter (Axial Force); released in axf-037a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: news-screen
-# SAUCE Author: baxter
-# SAUCE Group: Axial Force
-# SAUCE Date: 19970211
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: news-screen by baxter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-037a-bx-news
 
 Write-Host '
                    [1;30m.--- -    -.  - -   --   ·--  -      -- .[0m

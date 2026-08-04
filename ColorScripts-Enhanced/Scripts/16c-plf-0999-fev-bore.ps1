@@ -1,18 +1,4 @@
-﻿# Converted from: FEV-BORE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0999/raw/FEV-BORE.ANS
-# Source Revision: archive-sha256:a2e683452933f0cc0c7c5f8185be51af4846ace8a1753ba20cf7f9ba82c1dcf4
-# Source SHA-256: 226d3c00ad8956346415ebddd4cab9cd86ab09c03be0f70bc987855802640588
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FEV-BORE.ANS by Fever (poffelipoff); released in plf-0999 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Borgasm
-# SAUCE Author: Fever
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19990826
-# SAUCE Dimensions: 80x25
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: Borgasm by Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0999-fev-bore
 
 Write-Host '
   [1;30m▄[0;1;30;42m▀[0;1;32;42m▄░░[0;1;37;42m [0;1;30;42m▀[0;30;42m▀▀▀[0;1;30;40m▄[0m  [1;30m▀[0;1;30;42m▄[0;30;42m [0;1;30;42m▄▄░░▄▓[0;1;30;40m▓▄▄▄▄▄▓▓▀▀▀▀[0;1;30;42m▄[0;30;42m  [0;1;37;42m░░░▄[0;30;42m  [0;1;30;42m▀[0;1;30;40m▄▀[0;1;30;42m▄[0;30;42m [0;1;37;42m░░[0;1;30;42m░░░▒▓▓[0;1;30;40m▓[0m [31m▓▌░ [0;37m [0;30;46m▓[0;36;40m░▄[0;37;40m  [0;31;40m  ░ ░░ ░ ░[0m

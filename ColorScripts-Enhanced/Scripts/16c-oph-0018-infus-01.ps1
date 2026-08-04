@@ -1,17 +1,4 @@
-﻿# Converted from: INFUS-01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oph-0018/raw/INFUS-01.ANS
-# Source Revision: archive-sha256:b78bc978b69dedfb9a07152cba296ecefc97611bd7bc7f5211d489ff748613dc
-# Source SHA-256: 90431cf04d16df9221ff1fcb11915e98dd9873151f19530b741dac467aeb9548
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: INFUS-01.ANS by infusium (oph-0018); released in oph-0018 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: 1\\        _]     \[2\  _[1
-# SAUCE Author: infusium
-# SAUCE Date: 19960917
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: 1\\ _] \[2\ _[1 by infusium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oph-0018-infus-01
 
 Write-Host '
 [34m [0m       [34m [0m       [1;34m▄▄▄▄[0m        [34m [0m       [34m    [0m                            [34m [0m       [1;34m▄▄▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US-H5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-03/raw/US-H5.ANS
-# Source Revision: archive-sha256:d2599b97a9288d8f82ddd62f9c4821cdc0d5105bf01763fad11be3b958d4ce10
-# Source SHA-256: afa82e50cc357e6d1f1eb3544aeb4654e41c9865e55bed9f0a094d37c5f8478c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-H5.ANS by Avenging Angel + Propane (the used coalition); released in used-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: who said pimpn was hard labour?.
-# SAUCE Author: ave_angel // propane
-# SAUCE Group: the used coalition
-# SAUCE Date: 20000112
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: who said pimpn was hard labour?. by Avenging Angel + Propane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-03-us-h5
 
 Write-Host '
 [1;30m▄[0;1;30;46m▀[0;36m█[0;1;36;46m▄[0;36m▄[0m       [1;30m░░░░░░░░[0m                    [1;32m     [0;1;30m  ░░░░░░░░[0;1;32m [0m  ▄▄▄

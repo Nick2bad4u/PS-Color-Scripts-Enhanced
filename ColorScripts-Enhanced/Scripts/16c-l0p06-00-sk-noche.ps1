@@ -1,18 +1,4 @@
-﻿# Converted from: SK!NOCHE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p06_00/raw/SK!NOCHE.ANS
-# Source Revision: archive-sha256:3daad9bd70cd9307445d25e1dbbdc4eae498b83379a5b89ecd2ac9419e6150d3
-# Source SHA-256: 3a7c699dc2dac18244183250fc170b9fb60c3db580c82d9b084d86a52c9f1106
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!NOCHE.ANS by sIMONkING (tHElo0p); released in l0p06_00 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: kRwaWA cZERWIEN
-# SAUCE Author: sIMONkING
-# SAUCE Group: tHElo0p
-# SAUCE Date: 20000503
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: kRwaWA cZERWIEN by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p06-00-sk-noche
 
 Write-Host '
 

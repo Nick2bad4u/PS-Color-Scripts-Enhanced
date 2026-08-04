@@ -1,13 +1,4 @@
-﻿# Converted from: ZK-STD69.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shv-0794/raw/ZK-STD69.ANS
-# Source Revision: archive-sha256:ae7cbebd78d47da66b0e9f988813bddc288906000e10e6321ee58332d045da90
-# Source SHA-256: 934a7adafdb8a1fb19f7ba10f316945a68044fd84f2b6393eeef25c0bdbb9223
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZK-STD69.ANS by Zulu King (shv-0794); released in shv-0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 45-85
-# Columns: 1-80
+﻿# Artwork: ZK-STD69.ANS by Zulu King | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shv-0794-zk-std69-part02
 
 Write-Host '
 [31m    [0;1;30;47m▓▒░░░[0m█[1;30;47m░▒▓[0m ██ ███ [1;47m▒▓[0;1;40m███▄▄▀▀ [0;1;47m▒▓[0;1;40m█████[0;1;47m▒▓[0;1;40m█████[0;1;47m▒▓[0;1;40m████▐[0;1;47m▒▓[0;1;40m██▌[0;1;47m▒▓▓[0;1;40m██▀[0;1;47m▒▓▓[0m [31m░▀▄▓▓████▀▄█▓[0m

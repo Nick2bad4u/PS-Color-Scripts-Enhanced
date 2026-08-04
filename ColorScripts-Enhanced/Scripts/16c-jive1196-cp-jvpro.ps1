@@ -1,16 +1,4 @@
-﻿# Converted from: CP-JVPRO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jive1196/raw/CP-JVPRO.ANS
-# Source Revision: archive-sha256:74e1c77b15f9f77c425b7a6f94db1ea196521e43a60a356b13371fec7928ab41
-# Source SHA-256: cd62c9ebfbc29735678789a082f5c00157567f42d7d661a2716d6a8eb67107de
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CP-JVPRO.ANS by Chaotic Prisoner (acId and jIve); released in jive1196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: JiVE logo
-# SAUCE Author: Chaotic Prisoner
-# SAUCE Group: acId and jIve
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: JiVE logo by Chaotic Prisoner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jive1196-cp-jvpro
 
 Write-Host '
                           [33m [0m

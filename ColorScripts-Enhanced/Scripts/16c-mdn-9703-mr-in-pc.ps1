@@ -1,18 +1,4 @@
-﻿# Converted from: MR-INÉPC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9703/raw/MR-IN%C3%89PC.ANS
-# Source Revision: archive-sha256:9e514042cc5e389aeb3f9323e41f842849e88d4294fdd727215463cf9566281b
-# Source SHA-256: e4290c2385fe27b0b8aa684ed579b2083b7b05ae04f79bd8ce44fc842fc534fa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-INÉPC.ANS by minotaur (MAiDEN bRAZiL); released in mdn-9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: in?pcia logo
-# SAUCE Author: minotaur
-# SAUCE Group: MAiDEN bRAZiL
-# SAUCE Date: 19970206
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: in?pcia logo by minotaur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9703-mr-in-pc
 
 Write-Host '
 

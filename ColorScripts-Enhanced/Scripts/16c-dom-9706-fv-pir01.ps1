@@ -1,18 +1,4 @@
-﻿# Converted from: FV-PIR01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dom-9706/raw/FV-PIR01.ANS
-# Source Revision: archive-sha256:a16d91b4075cff760b5038e2a8f1aab02d1965c9e4bbc85ed187b0405326b9b6
-# Source SHA-256: b65dcd4451e8186a2304e266e28113dd8da9be26eaad619fd00e55eaf90cc46b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-PIR01.ANS by Fever (Domino); released in dom-9706 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Piranha `
-# SAUCE Author: Fever
-# SAUCE Group: Domino
-# SAUCE Date: 19970617
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Piranha ` by Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dom-9706-fv-pir01
 
 Write-Host '
 [1;30m                  [0m   [1;30m▄▄▄[0m [1;30m ▄[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: CAL26-09.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-45/raw/CAL26-09.ANS
-# Source Revision: archive-sha256:0564021806e0277d72a0e235c044a0e0470226ba860a8976e1e3092326555d1d
-# Source SHA-256: 6e0f4208ae6cf25c980f5085376aa6e1d53f07cf8e0ce386fb08b7c1b4c260ab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CAL26-09.ANS by Toon Goon + Ville (fire); released in fire-45 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: September 2026
-# SAUCE Author: Toon Goon + Ville
-# SAUCE Group: fire
-# SAUCE Date: 20251224
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: September 2026 by Toon Goon + Ville | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-45-cal26-09
 
 Write-Host '
 ░[34m████▓█▀[0;1;37m▄[0;1;36m█[0;1;34;46m░[0;36m█[0;34m▄█[0;36m▄▀[0;34m███[0;1;34m█[0m [34m█[0;37m   [0;1;34;44m▀[0m    [34m▀[0;37m [0;34m▄█[0;34;47m▌▀[0;34;40m█▄▄▄▄▄▀[0;37;40m [0;34;40m▄███[0;1;34;44m▄[0;34m▄██[0;1;36;46m█[0;1;37;40m█[0;1;36;40m█[0;1;37;40m██[0;1;36;40m█[0;1;37;40m█[0;1;36;40m█[0;1;37;40m██[0;1;36;40m█[0;1;37;40m███[0;1;37;46m▓[0;1;36;40m█[0m [34m░█▓█[0;1;35;44m░[0;1;31;40m█[0;1;35;47m▄[0;1;35;40m█[0;34m██[0;1;34;44m░[0m

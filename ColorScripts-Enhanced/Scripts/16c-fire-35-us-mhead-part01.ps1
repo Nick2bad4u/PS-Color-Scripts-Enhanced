@@ -1,19 +1,4 @@
-﻿# Converted from: US-MHEAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-35/raw/US-MHEAD.ANS
-# Source Revision: archive-sha256:c366a38306f48b13ede280377c5f8ef243fdab7e7890ac3e053ec3ccbc5d901a
-# Source SHA-256: 0d8df788a867e7219a7b9ff41debeb744f3d6b5ad8ba7426ec47cf9defa7fd77
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-MHEAD.ANS by Necro + Nail (fire); released in fire-35 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: motorhead
-# SAUCE Author: necro + nail
-# SAUCE Group: fire
-# SAUCE Date: 20221206
-# SAUCE Dimensions: 80x53
-# SAUCE Font: IBM VGA
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: motorhead by Necro + Nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-35-us-mhead-part01
 
 Write-Host '
 

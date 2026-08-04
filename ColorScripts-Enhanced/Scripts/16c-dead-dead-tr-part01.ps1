@@ -1,13 +1,4 @@
-﻿# Converted from: DEAD-TR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dead/raw/DEAD-TR.ANS
-# Source Revision: archive-sha256:42002c7465322e6567b6ada22b7d24270f500cdc26769d5efac519e13d8ec757
-# Source SHA-256: d3d109e6589b00bea9322895dc4b4b2a30a992bac32a901e7b736c90b72b488a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DEAD-TR.ANS by Marauder + Death Knight (dead); released in dead and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: DEAD-TR.ANS by Marauder + Death Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dead-dead-tr-part01
 
 Write-Host '
 

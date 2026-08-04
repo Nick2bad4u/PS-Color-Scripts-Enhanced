@@ -1,17 +1,4 @@
-﻿# Converted from: NOH-PHOB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phb-0397/raw/NOH-PHOB.ANS
-# Source Revision: archive-sha256:d18868f8faf7726799689b37fb1a0005133cfca83163c8b652f242ae3ef3a67d
-# Source SHA-256: 646057f41020890bb573c17bf4cd1954a043747f6d74b1cfa447cbe0c91561a3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-PHOB.ANS by nOah! (phb-0397); released in phb-0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: phobia..what?
-# SAUCE Author: nOah!
-# SAUCE Date: 19970301
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: phobia..what? by nOah! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phb-0397-noh-phob
 
 Write-Host '
                          [32m   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

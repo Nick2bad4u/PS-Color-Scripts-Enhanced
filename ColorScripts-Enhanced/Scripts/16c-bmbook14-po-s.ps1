@@ -1,18 +1,4 @@
-﻿# Converted from: PO-S.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook14/raw/PO-S.ANS
-# Source Revision: archive-sha256:f7fe2a62d3e7b3b16687ce251209098ea8d86719a4cfa33dae1489e0c9af9278
-# Source SHA-256: 2d7cca3678b673975d65d03ffcbad2cc1ad8db61f3427df7a255645b873585a3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PO-S.ANS by poti (black maiden); released in bmbook14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the skateshop
-# SAUCE Author: poti
-# SAUCE Group: black maiden
-# SAUCE Date: 19970630
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: the skateshop by poti | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook14-po-s
 
 Write-Host '
 ■                             

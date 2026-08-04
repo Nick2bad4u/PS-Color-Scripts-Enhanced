@@ -1,18 +1,4 @@
-﻿# Converted from: WZ-DARK1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/void0195/raw/WZ-DARK1.ANS
-# Source Revision: archive-sha256:2def6f7c6cf34a9c00221d80c700ffa50680a5a32ff06bff65e77da64d339a70
-# Source SHA-256: b87d6fa10ef7a882ba403bd0d03fb788dfbfb02ba29a182301c4367bb056fea5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WZ-DARK1.ANS by Weazel (VOiD); released in void0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Darkness
-# SAUCE Author: Weazel
-# SAUCE Group: VOiD
-# SAUCE Date: 19950103
-# SAUCE Dimensions: 80x110
-# Lines: 29-58
-# Columns: 1-80
+﻿# Artwork: Darkness by Weazel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-void0195-wz-dark1-part02
 
 Write-Host '
 [30m▌[0;31m███▐██▄[0;30m▀█▌[0;31m███▐██▄[0;30m▀▌[0;31m███▐██▄[0;30m▀█▌[0;31m███[0;30m▐█▌[0;31m███[0;30m│[0;31m███▐██▄[0;30m▀▌[0;31m███▐██▄[0;30m▀█▌[0;31m███▐██▄[0;30m▀█▌[0;31m███▐██▄[0;30m▀█[0m

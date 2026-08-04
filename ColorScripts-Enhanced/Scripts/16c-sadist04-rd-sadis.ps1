@@ -1,13 +1,4 @@
-﻿# Converted from: RD-SADIS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sadist04/raw/RD-SADIS.ANS
-# Source Revision: archive-sha256:785f8aaf14ad87c2b764b12247d4257268ffbaf871ebe3372c1a6cbc34b6d085
-# Source SHA-256: 6f3d49cc315c736d94b71e030e60c68ac63c8507a2716ed27dfacc64c76499e7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD-SADIS.ANS by Rare Delusion (sadist04); released in sadist04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: RD-SADIS.ANS by Rare Delusion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sadist04-rd-sadis
 
 Write-Host '
 [34m°[0;35m▄▄▀  [0;1;34m▄▄[0m▄▄[1;34m▄▄▄  [0;35m▀▀█[0;1;35;45m■▒▄▄[0;1;35;40m██████[0;1;35;45m▀[0;1;35;40m█[0;1;35;45m▓▀[0;35m██▓▀▀▀▀▀▀██[0;1;35;45m░▒▓[0;1;35;40m█[0;1;35;45m▓[0;1;35;40m█[0;1;35;47m▓[0;1;35;40m██[0;1;35;45m▀[0;35m█[0;1;35;45m■[0;35m██▀▀▀▀█[0;1;35;45m▀[0;1;35;40m██████[0;1;35;47m▄▄▀▀▀▀▀▀▀[0;1;35;40m██[0m

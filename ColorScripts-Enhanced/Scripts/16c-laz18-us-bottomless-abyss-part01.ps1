@@ -1,20 +1,4 @@
-﻿# Converted from: us-bottomless-abyss.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz18/raw/us-bottomless-abyss.ans
-# Source Revision: archive-sha256:32d30452c4c99022fae4fa2ce9a2923ef46629d3ff7dd35a972944a991699c1f
-# Source SHA-256: f1758742b39098c9d7036c00a0e9c4ef51c13bd0175a0c5ea4a45cfe842eed55
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-bottomless-abyss.ans by Warpus + Luminator (LAZARUS); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Bottomless Abyss BBS
-# SAUCE Author: Luminator & warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20240205
-# SAUCE Dimensions: 80x362
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Undersea mayhem by Luminatorpus of lazarus
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Bottomless Abyss BBS by Warpus + Luminator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz18-us-bottomless-abyss-part01
 
 Write-Host '
   [1;33m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

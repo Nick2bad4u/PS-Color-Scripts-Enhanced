@@ -1,18 +1,4 @@
-﻿# Converted from: PX-SPLIT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/prz-9607/raw/PX-SPLIT.ANS
-# Source Revision: archive-sha256:c9c5cc7ecf1f26596c4d88f592166c82d585c7e5de1be5fa6d5e25ebed6d7d14
-# Source SHA-256: 07f203a7fdfc3134b2958ff9ab77c89521ebeaf8c770708907738cab060297c2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PX-SPLIT.ANS by perplexer (pharazoone); released in prz-9607 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: split second login picture
-# SAUCE Author: perplexer
-# SAUCE Group: pharazoone
-# SAUCE Date: 19960628
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: split second login picture by perplexer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-prz-9607-px-split
 
 Write-Host '
 [1;30m█▀▀▀▀▀▀▀▀▀█▀▀▀[0;1;30;47m▓[0;1;30;40m▀▀▀▀▀█▀▀▀▀██████▀▀▀▀▀▀▀▀▀▀▀▀▀▀███[0;1;30;47m█[0;1;30;40m██████▀▀▀▀        ▀[0m▓[1;30m▀▀███░████[0;30m [0m

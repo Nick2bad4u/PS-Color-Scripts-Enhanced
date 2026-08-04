@@ -1,13 +1,4 @@
-﻿# Converted from: ST-WD.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-11/raw/ST-WD.ICE
-# Source Revision: archive-sha256:5827a3d77b92b92d3b0eabff87e8b41b8ef31a232218b0b3b44b72f050fee9b3
-# Source SHA-256: 7a89efb2918d95717575e58783683dbb905a06a9b56031953deb5658cc87dc25
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-WD.ICE by Stiletto (icepk-11); released in icepk-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 39-83
-# Columns: 1-80
+﻿# Artwork: ST-WD.ICE by Stiletto | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-11-st-wd-part02
 
 Write-Host '
 [1;30;44m█[0m          [1;34;40m█[0;1;34;44m▓▒░[0m           [34m█[0;1;31;43m▓▒[0;33m▌[0m                   [33m▐[0;1;31;43m▒▓[0;34m█[0m           [1;34;44m░▒▓[0;1;34;40m█[0m          [1;30;40m▓[0m

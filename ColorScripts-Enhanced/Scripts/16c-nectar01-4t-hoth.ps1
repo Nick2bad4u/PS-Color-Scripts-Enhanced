@@ -1,13 +1,4 @@
-﻿# Converted from: 4T-HOTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nectar01/raw/4T-HOTH.ANS
-# Source Revision: archive-sha256:db3812836800ba5278d4a1a62edfe8d06c2001872f9fe3d1064cdbc02eec11ac
-# Source SHA-256: c9730d153b492ca2f52fd513d00976c27266018ed943566d2f1631d3cad1110e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 4T-HOTH.ANS by The 4th Disciple (nectar01); released in nectar01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: 4T-HOTH.ANS by The 4th Disciple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nectar01-4t-hoth
 
 Write-Host '
 ░░        [1m▄[0m                                                [1;33m▀ ▄  [0;1;37m▄▄[0m

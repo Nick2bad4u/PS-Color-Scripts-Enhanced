@@ -1,18 +1,4 @@
-﻿# Converted from: BM-FT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/serial02/raw/BM-FT.ANS
-# Source Revision: archive-sha256:931d9b67ca76383ace53d796c9cdf620b09c74be427676b9b3693778e13bc6c8
-# Source SHA-256: cb6c77cbe75f11812fd29d67e9df06db72912f3a16ecbb12435e5786fd52cf76
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BM-FT.ANS by blazemore (serial); released in serial02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: flash traffik
-# SAUCE Author: blazemore
-# SAUCE Group: serial
-# SAUCE Date: 19970206
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: flash traffik by blazemore | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-serial02-bm-ft
 
 Write-Host '
                                 [1;30m__[0m

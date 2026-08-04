@@ -1,13 +1,4 @@
-﻿# Converted from: OA-XTREM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0996/raw/OA-XTREM.ANS
-# Source Revision: archive-sha256:a14d9e4e35c810bc29e3ed837852f8189686eba97eda91035817e44643cb90fd
-# Source SHA-256: 0ba2a8ae09be3051c2f5dd141fb9ccc222034c33d67d2f7641fdf90bbc303ff9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OA-XTREM.ANS by Sandy Chidester (out-0996); released in out-0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: OA-XTREM.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0996-oa-xtrem
 
 Write-Host '
  [1m▄██▀ ██[0m▄█▀ [1m▄[0m▄▄█[1m▀▀[0m▄  [1;33m▄[0m▄█▀▄[1m▀[0;1;33m███████████████▌▄▄▄▄▄[0m▄[1m█[0m▀ ▄[1m██[0m█▀  ▀█[1m█[0m▄

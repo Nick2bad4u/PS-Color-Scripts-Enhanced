@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-SPN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0396/raw/OUT-SPN1.ANS
-# Source Revision: archive-sha256:55798d89820ada621094ff2cc4c9ee4daa540044449d3cf2d523c237367320c8
-# Source SHA-256: 170a6261cc96633acf73b6194266972ebf301977021147d9c21b9d28b2e62514
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-SPN1.ANS by Sandy Chidester (out-0396); released in out-0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: OUT-SPN1.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0396-out-spn1
 
 Write-Host '
                 [31m░▓▓░░▒[0m           [31m▓ ▒▒ ▒▒[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: 33-FP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/33rules/raw/33-FP.ANS
-# Source Revision: archive-sha256:6cf2aef8e3ca97e1761e1ee4a8ba395e4fdab4dec9d3b2efb91c059359b50b00
-# Source SHA-256: b3243bcdc59465950e12134d3c0d35fa97a8bf943f580f46070a111ba28350d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-FP.ANS by Spastic 05/95 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Freezing Process
-# SAUCE Author: Spastic 05/95
-# SAUCE Group: Eerie
-# SAUCE Date: 19950426
-# SAUCE Dimensions: 80x25
-# Lines: 40-78
-# Columns: 1-80
+﻿# Artwork: Freezing Process by Spastic 05/95 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-33rules-33-fp-part02
 
 Write-Host '
 [1m   [0;31m▄▀▀ ▄ ░ [0;1;31m▀[0;1;31;43m▓[0;1;31;40m██▄▄▀  [0;31m▀▀[0;1;37;41m░[0;31m▄  [0;1;31m▄▄█████████[0;1;31;47m▓[0;1;31;40m██████▄▄▄▄▀[0m      [1;31;40m▀▀▀█[0;1;31;43m▓▓▓[0;1;31;40m██[0;1;31;43m███▓[0;1;31;40m▀▄▄██[0;1;31;47m▓[0m  [1;37;40m███[0m

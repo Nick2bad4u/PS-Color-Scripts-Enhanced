@@ -1,18 +1,4 @@
-﻿# Converted from: SRAT-COW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roc-best/raw/SRAT-COW.ANS
-# Source Revision: archive-sha256:ed2172be4f351fbbe490297eada190fa8af16bee5a8ce8834dea50cd318904c2
-# Source SHA-256: 125134f9f720bea75ae7c7418a0ec58270b3e95e26ec9ed5a8f54fe5cef99a99
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SRAT-COW.ANS by Silver Rat (ROC); released in roc-best and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Kiss The Cow
-# SAUCE Author: Silver Rat
-# SAUCE Group: ROC
-# SAUCE Date: 19950720
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Kiss The Cow by Silver Rat | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roc-best-srat-cow
 
 Write-Host '
 [33m▓▀[0;37m▄▄[0;1;31m▄[0;31m■[0;37m ▄▄ [0;33m▀[0;37m ▄▄▄[0;33m ■ [0;37m [0;33m▀[0;37m [0;33m▀▀▌[0;37m ▄▄▄[0;31m [0;37m▄[0;1;31m▄[0m▄▄ [33m▐█▓▀ [0;37m [0;33m■█[0;37m ▄██▀█▌[0;33m▄▌[0;37m▄█████▌[0;33m▐▀[0;37m ▄▄▄▄▄▄ [0;33m▐██▌[0;37m ▄▄▄▓█▌[0;33m▐[0m

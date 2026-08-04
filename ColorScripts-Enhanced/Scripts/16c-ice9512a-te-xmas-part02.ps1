@@ -1,19 +1,4 @@
-﻿# Converted from: TE-XMAS.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9512a/raw/TE-XMAS.ICE
-# Source Revision: archive-sha256:4030957a38a6c532250e7b5d72d2d1e2534a6871d5254eac6b842adfae93f5ac
-# Source SHA-256: 7f39557b0a86f157e7c4746da0b1823abbaae13538910e21f8420942f1625303
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-XMAS.ICE by Tetanus (iCE); released in ice9512a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Seasons Greetings
-# SAUCE Author: Tetanus
-# SAUCE Group: iCE
-# SAUCE Date: 19951223
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: QuanzaQuanzaQuanzaQuanzaQuanza
-# Lines: 48-97
-# Columns: 1-80
+﻿# Artwork: Seasons Greetings by Tetanus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9512a-te-xmas-part02
 
 Write-Host '
 [1m██████[0;1;47m▄[0m██ [1;31m▐███████████ ██▄ ▀█████████████████████▀[0m [1;31m▄█████████████████[0m [1m▐█████████[0m

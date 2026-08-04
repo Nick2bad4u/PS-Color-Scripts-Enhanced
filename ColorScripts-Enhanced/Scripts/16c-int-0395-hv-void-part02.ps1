@@ -1,18 +1,4 @@
-﻿# Converted from: HV-VOID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/int-0395/raw/HV-VOID.ANS
-# Source Revision: archive-sha256:57df35fbd13cf5d0e1eff7653dbaa292a5b927d07ac0495e7c72c3b66a636148
-# Source SHA-256: a6b432713e7fb78d81123548a6429fbf277f0dc9e647ab7f1f34ceff68f94b80
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HV-VOID.ANS by Havoc (Integrity); released in int-0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Void
-# SAUCE Author: Havoc
-# SAUCE Group: Integrity
-# SAUCE Date: 19950228
-# SAUCE Dimensions: 80x25
-# Lines: 47-92
-# Columns: 1-80
+﻿# Artwork: The Void by Havoc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-int-0395-hv-void-part02
 
 Write-Host '
         [1;30m [0m ▄█████████▓▌ █▒█████████▄[33m▀[0;37m▄██ [0;1;33;43m░▒▓[0;1;33;40m██[0;1;37;40m██[0;1;33;40m███[0;1;33;43m▓▒░[0;33m▓▀[0;37m▄█████▀   [0;33m▄▓▓██ [0;1;30m [0m

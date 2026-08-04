@@ -1,18 +1,4 @@
-﻿# Converted from: PE-LG13.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel13/raw/PE-LG13.ANS
-# Source Revision: archive-sha256:570310635bd377c51dda6add80730abba1fa8786bf6aaf423ae20c54dbfdb41a
-# Source SHA-256: 7ab5299ec700909535c84b00e19a2d02fab5869b15675549de8be53ee052ef84
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PE-LG13.ANS by PhonyEye (Fuel Productions); released in fuel13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fuel Promotional (guest)
-# SAUCE Author: PhonyEye
-# SAUCE Group: Fuel Productions
-# SAUCE Date: 19970529
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Fuel Promotional (guest) by PhonyEye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel13-pe-lg13
 
 Write-Host '
                 [36m▄[0m                                     [36m▄[0m

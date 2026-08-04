@@ -1,18 +1,4 @@
-﻿# Converted from: PC-LOGN2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/trans03/raw/PC-LOGN2.ANS
-# Source Revision: archive-sha256:462ee1fa63e815fd54ca0469a616b314248ef7425a3668e2379cc1737c2b5402
-# Source SHA-256: cab40760a26e10bd72d245bb515560ab481c7575be6d393b92a6881f6bd65e4a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-LOGN2.ANS by Proctologist (Transmission); released in trans03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: zoot!
-# SAUCE Author: Proctologist
-# SAUCE Group: Transmission
-# SAUCE Date: 19971009
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: zoot! by Proctologist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-trans03-pc-logn2
 
 Write-Host '
                                          [1;32m ·[0m

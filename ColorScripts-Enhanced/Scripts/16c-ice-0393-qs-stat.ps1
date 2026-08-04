@@ -1,13 +1,4 @@
-﻿# Converted from: QS-STAT.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-0393/raw/QS-STAT.ICE
-# Source Revision: archive-sha256:31b03d3a9d263e952227664fe802688e743ab14a707f16c150dab800192d5fc5
-# Source SHA-256: bd9912a79e39fa8a58ea152e2d86a2d7d99b17fdc8bb0dce5bbd21dc62fd3934
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QS-STAT.ICE by Quicksilver (ice-0393); released in ice-0393 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: QS-STAT.ICE by Quicksilver | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-0393-qs-stat
 
 Write-Host '
 [1;31;41m▓▒░░░[0;1;33;41m░░░░░░░░░[0;1;33;43m░[0;1;33;41m▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒░░▒▓▓▓▓▓▒░░ ░▒▒▒▒▒░░░░░▓[0m

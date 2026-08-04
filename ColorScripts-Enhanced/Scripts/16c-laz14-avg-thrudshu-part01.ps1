@@ -1,18 +1,4 @@
-﻿# Converted from: avg-thrudshu.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz14/raw/avg-thrudshu.ans
-# Source Revision: archive-sha256:41b4e3770fbffb058172283f3da2aa00e47c872480cf93fdef94629ebc0751bb
-# Source SHA-256: 6ac7fbfb5b2e2417aa65f666c3c8ea538c787e7124f108e2dc3d5dd5455ceccb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-thrudshu.ans by avg (Lazarus); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: avg
-# SAUCE Group: Lazarus
-# SAUCE Date: 20211213
-# SAUCE Dimensions: 80x125
-# SAUCE Font: IBM VGA
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: avg-thrudshu.ans by avg | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz14-avg-thrudshu-part01
 
 Write-Host '
 [34m▄███████████████████████████████████████████████████████████████████████████▄▄[0m

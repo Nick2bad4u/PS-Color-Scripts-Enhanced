@@ -1,18 +1,4 @@
-﻿# Converted from: LD-DA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bleach01/raw/LD-DA.ANS
-# Source Revision: archive-sha256:b051f200d4cb4a187bf381a6b9042d79015b79b0cf19e4a4a725c252afed48ec
-# Source SHA-256: ffd1ce7b3fe7c12ff9feeac57e78669da7d1af1a2d46c513fb9dd54cd058af83
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-DA.ANS by lOrdJazz! (READ THE INI FILE); released in bleach01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: digital armegeddon
-# SAUCE Author: lOrdJazz!
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950208
-# SAUCE Dimensions: 80x25
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: digital armegeddon by lOrdJazz! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bleach01-ld-da
 
 Write-Host '
 [32m[0m[36m▄▄[0;1;33m▓[0;36m▄[0;1;33m▓[0;36m▄▄▓▄▓▄ [0;1;32m▄▄▄▄[0;32m▄[0;1;32m▄▄[0;32m▄[0;1;32m▄[0;32m▄▄▄ [0;36m▄▄▄[0;1;33m▓[0;36m▄[0;1;33m▓[0;36m▄▄▓▄▓▄ [0;1;32m▄▄▄▄▄▄[0;32m▓[0;1;32m▄▄▄[0;32m▄[0;1;32m▄[0;32m▄[0;1;32m▄[0;32m▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄[0;1;32m▄[0;32m▄▄[0;1;32m▄▄[0;32m▄[0;1;32m▄▄▄[0m

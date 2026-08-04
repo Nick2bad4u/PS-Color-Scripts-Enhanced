@@ -1,18 +1,4 @@
-﻿# Converted from: RZA-DISC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dsco0895/raw/RZA-DISC.ANS
-# Source Revision: archive-sha256:c5eafe9a144b7f2a60871b789ee8823ca79eafbd0e867cafcaf16646225c9998
-# Source SHA-256: 8fb9a26906e87eb965661b54f8b92687b4c137cad9631916d93ea3afd9e039b4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RZA-DISC.ANS by the RZA (Disco); released in dsco0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Disco
-# SAUCE Author: the RZA
-# SAUCE Group: Disco
-# SAUCE Date: 19950727
-# SAUCE Dimensions: 80x25
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Disco by the RZA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dsco0895-rza-disc-part01
 
 Write-Host '
 [1;30;45m▓[0;1;30;40m██████████████████▓████[0;1;30;44m▓▓[0;1;30;40m█[0;1;30;44m▓[0;1;30;40m█[0;1;30;44m▓▒▒▒░[0;1;30;40m▌[0;1;35;40m [0m [34mThe RZA[0m

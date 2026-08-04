@@ -1,18 +1,4 @@
-﻿# Converted from: CM-ILLN2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moonlgt1/raw/CM-ILLN2.ANS
-# Source Revision: archive-sha256:9c3296d479bffdc90be8aa4a3f3118a85ae9456683674c3e67716221b3c262b5
-# Source SHA-256: 7531c7e0cf2115402aee015bbb80555d95514d29fae138aeb9e3569fe38c9436
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CM-ILLN2.ANS by cheeze monkey (moonlight/illness); released in moonlgt1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: illness ansi (for msg conf mod)
-# SAUCE Author: cheeze monkey
-# SAUCE Group: moonlight/illness
-# SAUCE Date: 19960818
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: illness ansi (for msg conf mod) by cheeze monkey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moonlgt1-cm-illn2
 
 Write-Host '
                                                          [34m░[0m

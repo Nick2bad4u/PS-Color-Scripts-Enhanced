@@ -1,18 +1,4 @@
-﻿# Converted from: arl-randomairplaneexploratoryshit1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure80/raw/arl-randomairplaneexploratoryshit1.ans
-# Source Revision: archive-sha256:6ccade3320791158c22ef03d56ecb45d9c0b8545b126c0cb47ca0f6ff3905e48
-# Source SHA-256: f47eced82f1b40dba97363a28cb8165a6ddb0af8d2e3e0ef1c7d71b747ba02d2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: arl-randomairplaneexploratoryshit1.ans by Arlequin (Impure); released in impure80 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: Arlequin
-# SAUCE Group: Impure
-# SAUCE Date: 20210831
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: arl-randomairplaneexploratoryshit1.ans by Arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure80-arl-randomairplaneexploratoryshit1
 
 Write-Host '
 [30;41m║[0;31;40m│|[0;37;40m    [0;30;41m║[0;31;40m│|[0;37;40m    [0;30;41m║[0;37;40m      [0;30;41m║[0;31;40m│[0;30;41m║[0;31;40m│|[0;37;40m                [0;30;41m║[0;31;40m│[0;30;41m║[0;31;40m│[0;30;41m║[0;31;40m│[0;1;33;40m|[0m     [30;41m╙║║║║║║[0;31;40m║[0;30;41m║║║║[0;31;40m║[0;30;41m║║║[0;31;40m║[0;30;41m║║[0;31;40m║[0;30;41m║║[0;31;40m║[0;30;41m║[0;31;40m║║[0m

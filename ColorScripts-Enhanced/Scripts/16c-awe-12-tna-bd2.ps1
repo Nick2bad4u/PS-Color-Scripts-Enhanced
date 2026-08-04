@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-BD2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-12/raw/TNA-BD2.ANS
-# Source Revision: archive-sha256:5c96c14e912296494a464a42e768321452d811693cf172945a9502eb4396c8bb
-# Source SHA-256: 7927955d896ecd5b51ec7056b65a50e2537450c44e692381acc10bf20a6c5882
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-BD2.ANS by The Night Angel (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Brain Damage
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19971020
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Brain Damage by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-12-tna-bd2
 
 Write-Host '
 tna([1mawe[0m) ░▄▄      [36m░▓█[0;1;36;46m▄█[0;1;36;40m▄▄[0;36m▄[0;1;36;46m▄[0;36m█[0;1;30;46m▀[0;36m▄ [0;1;37m▄  [0;36m▄   ▀█▄[0;1;36m▄[0;36m█▀▀██▄▓ [0;37m░[0;30;47m▓[0;37;40m▄▄[0m      [36;40m░▓█[0;1;30;46m▀[0;36m▄[0;1;36m▄ ▀█[0;1;36;46m▄[0;36m█▀ [0;33m▄   [0;36m▄[0;1;36;46m▄[0;36m▄[0m

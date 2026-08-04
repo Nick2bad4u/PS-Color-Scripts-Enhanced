@@ -1,13 +1,4 @@
-﻿# Converted from: IL-HOI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0993/raw/IL-HOI.ANS
-# Source Revision: archive-sha256:446ccd0c92c26f820cb58358892955493ab8b589a0789ea252bbb676ba5a1e1f
-# Source SHA-256: ec9d92e5d57c2c68ce713f58ec5407f2f8a5f05ea65d8bae2f58fea5fbc2faad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IL-HOI.ANS by Illumination (acdu0993); released in acdu0993 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 73-114
-# Columns: 1-80
+﻿# Artwork: IL-HOI.ANS by Illumination | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0993-il-hoi-part03
 
 Write-Host '
                         [31m▄██▀ ▀██▄  ▓[0m

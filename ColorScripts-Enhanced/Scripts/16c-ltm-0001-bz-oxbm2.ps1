@@ -1,17 +1,4 @@
-﻿# Converted from: BZ-OXBM2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ltm-0001/raw/BZ-OXBM2.ANS
-# Source Revision: archive-sha256:4861974665622474852edaa553af7707d1821e3b52e08fa2c5297046ab135ec4
-# Source SHA-256: 6bcf7efc8b2b71ffb53d04e9319e0c4960afcef0b9f949e925aaf68b208fe257
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BZ-OXBM2.ANS by biozard (lithium); released in ltm-0001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: oxblood main menu #2
-# SAUCE Author: biozard
-# SAUCE Group: lithium
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: oxblood main menu #2 by biozard | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ltm-0001-bz-oxbm2
 
 Write-Host '
 [1;30m▀▀ ▀▀▀  ▀ ▀▀▀▀[0m▀[1;30m ▀▀▀▀▀▀▀  ▀▀▀▀▀▀[0m▀ [1;30m▀▀▀▀▀▀▀  ▀▀▀▀▀[0m▀[1;30m ▀▀▀  [0m■[1;30m [0m  [1m   [0;36m▄▄▄▄▓▓▓█████▓▓▓▀▀▀[0m

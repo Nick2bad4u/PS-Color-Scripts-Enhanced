@@ -1,13 +1,4 @@
-﻿# Converted from: MH-PG.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-0793/raw/MH-PG.ICE
-# Source Revision: archive-sha256:4bac5d1b8f63310d533aa8f48e520e889d714255bb26baeeff86f8f0e05c5f38
-# Source SHA-256: e7fecd66f5473cf3d804fa118d51fc28ab31816e6a7a02772315d5fc11b852a6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MH-PG.ICE by Metal Head (ice-0793); released in ice-0793 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 80-117
-# Columns: 1-80
+﻿# Artwork: MH-PG.ICE by Metal Head | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-0793-mh-pg-part03
 
 Write-Host '
 [1;34m███████████▌[0;33m▐██▌[0;1;37m▐[0;1;37;47m▄[0m▄ [1m▀[0m                [1m▀ [0m▄[1;47m▄[0;1;40m▌[0;33m▐██▀▄▌   [0;37m▀ [0;33m███▀▄▄▄▄▀██▄▀██████▄▄[0;1;37m▀███[0;1;31m█[0m

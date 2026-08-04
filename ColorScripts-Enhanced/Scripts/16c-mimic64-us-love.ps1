@@ -1,17 +1,4 @@
-﻿# Converted from: us-love.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic64/raw/us-love.ans
-# Source Revision: archive-sha256:f8ceb63f54ddb7d1445b81bfdc5a5ae781bfb56840adea7237922282bf6aef6d
-# Source SHA-256: 2fbb882de63d2f98b50f6955a0b4d7d418304c12b7c528bd39905de6cee802de
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-love.ans by Jashiin (Mimic Productions); released in mimic64 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: Jashiin
-# SAUCE Group: Mimic Productions
-# SAUCE Date: 20031011
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: us-love.ans by Jashiin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic64-us-love
 
 Write-Host '
 

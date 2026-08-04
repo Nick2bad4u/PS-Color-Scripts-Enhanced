@@ -1,13 +1,4 @@
-﻿# Converted from: PM-FILE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot0598/raw/PM-FILE.ANS
-# Source Revision: archive-sha256:0c1b4d8014854195eee82655813426874e782c44b6e7d11df4cc84dbee4a5020
-# Source SHA-256: 8e50fab169d2ee0783b4ff70aa87d929348c9350a02b87d3b385a457141d54ff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-FILE.ANS by Precious Metal (riot0598); released in riot0598 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: PM-FILE.ANS by Precious Metal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot0598-pm-file
 
 Write-Host '
                                                           [32m▄▄▌▄▄[0m

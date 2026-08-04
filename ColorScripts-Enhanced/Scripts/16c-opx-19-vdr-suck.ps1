@@ -1,17 +1,4 @@
-﻿# Converted from: VDR-SUCK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-19/raw/VDR-SUCK.ANS
-# Source Revision: archive-sha256:a1a349998c43bff25c02d1af200718ce6af4aab839e4b035817a369236a8260f
-# Source SHA-256: be0b2f0d5efc3c3b72363ed611345d959f5a1ac0a6dd46b4e7141742f64415ac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VDR-SUCK.ANS by Vader (opx-19); released in opx-19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: lavender
-# SAUCE Author: Vader
-# SAUCE Date: 19971017
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: lavender by Vader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-19-vdr-suck
 
 Write-Host '
                                [33m▄▄▄▄▄[0;1;31;43m▄▄▄▄▄▄[0;33m▄▄▄▄▄[0m

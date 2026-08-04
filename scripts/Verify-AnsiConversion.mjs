@@ -15,6 +15,7 @@ const {
 } = require("./Convert-AnsiToColorScript.js");
 const { fingerprintTerminal } = require("./Audit-AnsiArchives.js");
 const { extractLinesFromPs1 } = require("./Split-AnsiFile.js");
+const { readArtworkProvenance } = require("./ArtworkProvenance.js");
 
 const SOURCE_ROWS = /^# Lines:\s*(\d+)-(\d+)\s*$/mu;
 const SOURCE_COLUMNS = /^# Columns:\s*(\d+)-(\d+)\s*$/mu;
@@ -26,6 +27,12 @@ const defaultScriptsDirectory = path.join(
     "ColorScripts-Enhanced",
     "Scripts"
 );
+let checkedInProvenance = null;
+
+function getCheckedInProvenance() {
+    checkedInProvenance ??= readArtworkProvenance();
+    return checkedInProvenance;
+}
 
 /**
  * @param {Buffer | string} value
@@ -315,6 +322,7 @@ function verifyAnsiConversion(options) {
     const sourceLines = convertedSource.terminal.buildLines();
     const parts = [];
     const coordinates = [];
+    const provenance = getCheckedInProvenance();
     for (const unresolvedScriptPath of options.scriptPaths) {
         const scriptPath = path.resolve(unresolvedScriptPath);
         if (!fs.existsSync(scriptPath)) {
@@ -322,11 +330,17 @@ function verifyAnsiConversion(options) {
         }
         let actualLines = extractLinesFromPs1(scriptPath);
         const scriptSource = fs.readFileSync(scriptPath, "utf8");
-        const rowMatch = SOURCE_ROWS.exec(scriptSource);
-        const columnMatch = SOURCE_COLUMNS.exec(scriptSource);
+        const scriptName = path.basename(scriptPath, path.extname(scriptPath));
+        const provenanceEntry = provenance.scripts.get(scriptName);
+        const rowMatch = provenanceEntry
+            ? /^(\d+)-(\d+)$/u.exec(String(provenanceEntry.SourceRows || ""))
+            : SOURCE_ROWS.exec(scriptSource);
+        const columnMatch = provenanceEntry
+            ? /^(\d+)-(\d+)$/u.exec(String(provenanceEntry.SourceColumns || ""))
+            : SOURCE_COLUMNS.exec(scriptSource);
         if (!rowMatch || !columnMatch) {
             throw new Error(
-                `${scriptPath} must declare both # Lines and # Columns coordinates.`
+                `${scriptPath} must have both source-row and source-column provenance.`
             );
         }
         const rowStart = Number(rowMatch[1]);
@@ -361,7 +375,10 @@ function verifyAnsiConversion(options) {
         const expectedRenderSha256 = fingerprintLines(expectedLines);
         const actualRenderSha256 = fingerprintLines(actualLines);
         const declaredSourceSha256 =
-            SOURCE_SHA256.exec(scriptSource)?.[1]?.toLowerCase() || null;
+            (typeof provenanceEntry?.SourceSha256 === "string"
+                ? provenanceEntry.SourceSha256
+                : SOURCE_SHA256.exec(scriptSource)?.[1]
+            )?.toLowerCase() || null;
         const sourceIdentityMatches =
             declaredSourceSha256 === null ||
             declaredSourceSha256 === sourceSha256;

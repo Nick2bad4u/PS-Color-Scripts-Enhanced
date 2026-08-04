@@ -1,18 +1,4 @@
-﻿# Converted from: MT-ILM1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9703a/raw/MT-ILM1.ICE
-# Source Revision: archive-sha256:6bff16e5edf32b4898857b0d23616134d84be36d169a4a2f3bc23f437f356dfe
-# Source SHA-256: c73ec9d8f264416217a993dc4b711e9c1458a91629b6710aea8803670390b138
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MT-ILM1.ICE by Misfit (iCE Productions); released in ice9703a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: iCE LogoMafia
-# SAUCE Author: Misfit
-# SAUCE Group: iCE Productions
-# SAUCE Date: 19970203
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: iCE LogoMafia by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9703a-mt-ilm1
 
 Write-Host '
 [1;30m[0m                   [36m [0m                                [37m         [0m

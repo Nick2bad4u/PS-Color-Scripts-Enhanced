@@ -1,19 +1,4 @@
-﻿# Converted from: PICROTOXIN-VOTEHERE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0320/raw/PICROTOXIN-VOTEHERE.ANS
-# Source Revision: archive-sha256:269a17591ba77869fe08d22d90a4623c39dc94e205e392100c9f779e64e52dda
-# Source SHA-256: ac79ce95ea8f19ce15318e2609d61ce1e2dca29726a6666c3a20f5c651d97906
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PICROTOXIN-VOTEHERE.ANS by Picrotoxin (Mistigris); released in mist0320 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Vote Here
-# SAUCE Author: Picrotoxin
-# SAUCE Group: Mistigris
-# SAUCE Date: 20200305
-# SAUCE Dimensions: 80x78
-# SAUCE Font: IBM VGA
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Vote Here by Picrotoxin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0320-picrotoxin-votehere-part01
 
 Write-Host '
                                                          [1;36m▄▄██▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

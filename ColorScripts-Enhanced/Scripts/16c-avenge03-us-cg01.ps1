@@ -1,18 +1,4 @@
-﻿# Converted from: US-CG01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge03/raw/US-CG01.ANS
-# Source Revision: archive-sha256:b53dd4509a562cc71a73a559baa7e13eeefa1cf193e827eee6178c14e3bd46f3
-# Source SHA-256: 6edf6f700bdb1203ddfbd6626128ca91bcc23e48bb5a5718fe25d854d3ad7c54
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CG01.ANS by Multiple (nerp and avenge); released in avenge03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: CoolG the cum guzzler
-# SAUCE Author: Multiple
-# SAUCE Group: nerp and avenge
-# SAUCE Date: 19980328
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: CoolG the cum guzzler by Multiple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge03-us-cg01
 
 Write-Host '
 [1;31;43m███████████▄[0;1;31;40m▄[0;1;30;40m▄[0m   [1;31;43m▀[0;1;31;40m███[0;1;31;43m███▓▒▒░[0;33m▀ [0;1;33;43m░░[0;33m██▀[0;1;31m ███████▀[0m   [33m▄[0;1;31;43m▄[0;1;31;40m█████████████[0;1;31;43m▄[0;33m▄[0;1;30m▄[0m  [33m▄[0;1;31m▄▄██[0;33m▄[0;37m [0;1;31;43m     [0;1;30;40m▄[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: avg-fadingblack.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-dsotb/raw/avg-fadingblack.ans
-# Source Revision: archive-sha256:31e1fdfda207a2147f2b0badf1415308dc54d4c24afa56622db8a43f68f110f1
-# Source SHA-256: 98cd0b39446bf742f1c1ce4df0cf011d460fe864386b2e92847099694edef2d2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-fadingblack.ans by avenging angel (blocktronics); released in blocktronics-dsotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fading black
-# SAUCE Author: avenging angel
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190726
-# SAUCE Dimensions: 80x199
-# SAUCE Font: IBM VGA
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: fading black by avenging angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-dsotb-avg-fadingblack-part02
 
 Write-Host '
 [1;30m [0;1;37m▒▒[0;1;30m▄[0m ▐[1m▓[0m     [1;47m▀■[0m▀[1;47m▀▓[0m   ▀▀

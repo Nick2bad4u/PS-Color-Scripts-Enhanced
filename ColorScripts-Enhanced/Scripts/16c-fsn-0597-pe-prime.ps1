@@ -1,13 +1,4 @@
-﻿# Converted from: PE!PRIME.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0597/raw/PE!PRIME.ANS
-# Source Revision: archive-sha256:100499c687593fd78c29adf06f5899e8c0d61223958e380a9c31aadb955ab06d
-# Source SHA-256: 059dd78c770ac2ad00ee8678326c73976155ec4c5f03aa0705b22cf504a386a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PE!PRIME.ANS by Phonyeye (fsn-0597); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: PE!PRIME.ANS by Phonyeye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0597-pe-prime
 
 Write-Host '
 

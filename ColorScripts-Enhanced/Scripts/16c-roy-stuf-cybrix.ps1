@@ -1,13 +1,4 @@
-﻿# Converted from: CYBRIX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roy-stuf/raw/CYBRIX.ANS
-# Source Revision: archive-sha256:1f203f95f339c258e43a9098f8d2e689ed73de537b1cfe6bea312dfc156f1358
-# Source SHA-256: e41a4f9bd8f03eb5921b09b5f8f7d10703ed978e06179fee0fd33f8a65759149
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CYBRIX.ANS by Roy (roy-stuf); released in roy-stuf and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: CYBRIX.ANS by Roy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roy-stuf-cybrix
 
 Write-Host '
  [1;30m──[0m──[1m─[0m─[1m──[0m─[1m─[0m──[1;30m─[0m─[1;30m─────────────────[0m─[1;30m─[0m───[1m─[0m─[1m────[0m─[1m─[0m───[1;30m─[0m─[1;30m──────────────────────[0m─[1;30m─[0m──[1m──[0m

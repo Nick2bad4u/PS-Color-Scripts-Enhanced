@@ -1,18 +1,4 @@
-﻿# Converted from: WT-CLUST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0297/raw/WT-CLUST.ANS
-# Source Revision: archive-sha256:2e15cb2f2712a143323c9f3c6ecca94c5b5b12a452a019e911d205dd685c6eee
-# Source SHA-256: b720ac5b5bd4f5c05cfb52a44b447c101de42495a75d22ad8187d09d27df4904
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WT-CLUST.ANS by wiktor (phat studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: logo/menu cluster
-# SAUCE Author: wiktor
-# SAUCE Group: phat studios '97
-# SAUCE Date: 19970109
-# SAUCE Dimensions: 80x154
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: logo/menu cluster by wiktor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0297-wt-clust-part01
 
 Write-Host '
 

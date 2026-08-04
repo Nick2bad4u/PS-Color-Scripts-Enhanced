@@ -1,13 +1,4 @@
-﻿# Converted from: MH-CCI.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-0493/raw/MH-CCI.ICE
-# Source Revision: archive-sha256:1f0165f69f3f1941ca248f15661795ff1f2d94f1528ddd69ffda9e31c5ee2162
-# Source SHA-256: 797bf4de321af816ea99d2f89867b74b27c8862df302bff7d88ac4e9205bc8fe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MH-CCI.ICE by Metal Head (ice-0493); released in ice-0493 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: MH-CCI.ICE by Metal Head | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-0493-mh-cci
 
 Write-Host '
 [1m███████████████████████████████████████████████████████████████████████████████[0m

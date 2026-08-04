@@ -1,18 +1,4 @@
-﻿# Converted from: CN-SCUM3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ascnt-01/raw/CN-SCUM3.ANS
-# Source Revision: archive-sha256:3bdf8229aa519ad1025b75a48c0784037de8a99980400cee57d5562e91942b95
-# Source SHA-256: 68c379c6fc72a6dd87f7b23dc9d6405cabf945a3af360c61b4f75b9f54dbda9a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CN-SCUM3.ANS by ca1n (ascent); released in ascnt-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: scum
-# SAUCE Author: ca1n
-# SAUCE Group: ascent
-# SAUCE Date: 19961030
-# SAUCE Dimensions: 80x25
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: scum by ca1n | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ascnt-01-cn-scum3
 
 Write-Host '
 [1;36m░[0m [1;36m░▒▓█►[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: QT-CYBR7.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lght9404/raw/QT-CYBR7.ANS
-# Source Revision: archive-sha256:df9552287ee81971bce5423dd5ad22f2a1016992aac4507efd85664e976068ee
-# Source SHA-256: 63c1951bcd08258022fb01b0bbb7d0f1658d283481c03811caca702712d0abd1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QT-CYBR7.ANS by Q Tak (lght9404); released in lght9404 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: QT-CYBR7.ANS by Q Tak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lght9404-qt-cybr7-part01
 
 Write-Host '
                               [1m▄▄[0m▄▄▄▄▄▄▄▄▄▄▄▄▄

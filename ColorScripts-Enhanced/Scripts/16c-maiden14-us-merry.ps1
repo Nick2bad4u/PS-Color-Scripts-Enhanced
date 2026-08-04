@@ -1,18 +1,4 @@
-﻿# Converted from: US-MERRY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden14/raw/US-MERRY.ANS
-# Source Revision: archive-sha256:8484fc17833e455250727f80fdc56cc19e17aec4fba2f82e3b86585a9e08cb6c
-# Source SHA-256: 2debbe800064965812b966f9071ecd27b089d44ca99ec94d3d04580a69f5410e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-MERRY.ANS by Slayer Dreams + Rorshack (maidey, estou caindo); released in maiden14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: merry cristmass
-# SAUCE Author: 5d+Rs
-# SAUCE Group: maidey, estou caindo
-# SAUCE Date: 19971227
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: merry cristmass by Slayer Dreams + Rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden14-us-merry
 
 Write-Host '
                  [1m" Oi.."[0m

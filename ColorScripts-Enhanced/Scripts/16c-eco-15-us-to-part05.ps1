@@ -1,18 +1,4 @@
-﻿# Converted from: US-TO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-15/raw/US-TO.ANS
-# Source Revision: archive-sha256:409ec45d4d8a58bbd858f19a2194e4a9e60ce3a5a22824158eb9e0a6b60e9226
-# Source SHA-256: fe8256f4edc3b4e68bce899bd3e6a3dc0a8fcd2bbc5f356ef77bfd8f88e4c0ce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TO.ANS by Snowball + Lemonizer (E c o l o v e); released in eco-15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Black and White dancing together!
-# SAUCE Author: Snowball Lemonizer
-# SAUCE Group: E c o l o v e
-# SAUCE Date: 19990604
-# SAUCE Dimensions: 80x224
-# Lines: 178-224
-# Columns: 1-80
+﻿# Artwork: Black and White dancing together! by Snowball + Lemonizer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-15-us-to-part05
 
 Write-Host '
 [1;31;41m▀[0;31m▀[0;37m  [0;1;33m▄▄▓▓[0;1;33;43m▓[0;1;33;40m██[0;1;33;43m▓▓[0;1;33;40m▀▀[0m                      [1;33m░░[0m            [33m▒▒▒[0m                  [1;31;41m▀[0;31m ▄[0;1;31;41m▄[0;31m▄▀[0;1;31;41m▄▀[0m

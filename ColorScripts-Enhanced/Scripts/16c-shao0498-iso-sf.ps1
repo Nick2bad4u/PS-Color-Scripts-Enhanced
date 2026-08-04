@@ -1,18 +1,4 @@
-﻿# Converted from: ISO-SF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shao0498/raw/ISO-SF.ANS
-# Source Revision: archive-sha256:ce602b66829bdce4d686cd9b7de2fff120c5b4e3d64a398ad4fd5b89db28178a
-# Source SHA-256: b1394119f09c60282b57119bb649f91056e6025b1cd5196c66a3a432ecf40102
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ISO-SF.ANS by Isotone (Shaolin's Finest); released in shao0498 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ` font
-# SAUCE Author: Isotone
-# SAUCE Group: Shaolin's Finest
-# SAUCE Date: 19980415
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: ` font by Isotone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shao0498-iso-sf
 
 Write-Host '
                                           [34m ▌[0;37m [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: US-SNSE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense17j/raw/US-SNSE.ANS
-# Source Revision: archive-sha256:dd9d1d0c2e9d18c52916147f75b54ea93779080fcdcf859439501b8e3996efb6
-# Source SHA-256: 904f66149848ffc6c02b97ae28fa87ae3b0a2e4d5ecddeecaa53dcb2dce61586
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SNSE.ANS by Roodolph + Maytag (sense17j); released in sense17j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: US-SNSE.ANS by Roodolph + Maytag | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense17j-us-snse
 
 Write-Host '
              [32m▄▄[0m                  [32m▄▄[0;1;32;42m▄[0;32m█▀[0;37m   [0;32m█▄[0m        [32m▐▄[0m

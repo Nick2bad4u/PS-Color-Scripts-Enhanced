@@ -1,18 +1,4 @@
-﻿# Converted from: GA-LO0P.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p15_02/raw/GA-LO0P.ANS
-# Source Revision: archive-sha256:98af459b28622f71926ec0978595c2eef1c464109b7a29af23f37cbdb732273f
-# Source SHA-256: be966fd5be6b2254b31190ee134e0c8719f887799a867fccc65a1f8699f5198f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GA-LO0P.ANS by Gossamer Axe (Warlock); released in l0p15_02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the lo0p
-# SAUCE Author: Gossamer Axe
-# SAUCE Group: Warlock
-# SAUCE Date: 20020502
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: the lo0p by Gossamer Axe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p15-02-ga-lo0p
 
 Write-Host '
 [32m             ▄▄▌▄                                                               [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: WI-BYE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/air_0597/raw/WI-BYE.ANS
-# Source Revision: archive-sha256:6fe653cdae1d1be3a85ad8606d04a6519ed3da6d9d33e501c49ef3bdd23379d9
-# Source SHA-256: 721cc7e17ad8c9e3556a48a50c313e5745df9a47ce3b417564cccd3a41d3ba13
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WI-BYE.ANS by \\i - White Ice (sOciety); released in air_0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: freak
-# SAUCE Author: \\i - White Ice
-# SAUCE Group: sOciety
-# SAUCE Date: 19970315
-# SAUCE Dimensions: 80x25
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: freak by \\i - White Ice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-air-0597-wi-bye
 
 Write-Host '
                           [1;32m▄▄[0;32m▄▄▄▄▄▄[0m

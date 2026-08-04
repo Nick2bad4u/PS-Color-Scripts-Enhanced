@@ -1,18 +1,4 @@
-﻿# Converted from: US-0UTZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense17j/raw/US-0UTZ.ANS
-# Source Revision: archive-sha256:dd9d1d0c2e9d18c52916147f75b54ea93779080fcdcf859439501b8e3996efb6
-# Source SHA-256: 452fdcfda06f335c74879c9d8ecd3f3ad003e6a1df6d5f5805a811172b936c40
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-0UTZ.ANS by Roodolph + Ansichrist (senseimagery); released in sense17j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: outzone bbs
-# SAUCE Author: roo!&ns.
-# SAUCE Group: senseimagery
-# SAUCE Date: 20031110
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: outzone bbs by Roodolph + Ansichrist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense17j-us-0utz
 
 Write-Host '
 [34m▄  ▀▀▀█[0;30;44m░░[0;34;40m▄ [0;31;40m▀[0;1;31;41m▀[0;1;31;47m▓▓[0;1;31;41m▒[0;1;31;40m▄[0;31m▄▐[0;1;31;41m░[0;31m▄[0;1;31m▓▓[0;1;31;41m▓▓[0;1;31;47m▄▓▓▓[0;1;31;41m▄▒▒[0;31m▀■ [0;30;41m▓▓[0;1;31;41m■▄[0;1;31;47m▓▓[0;1;31;41m▀▓[0;1;31;40m▓▓[0;31m▀▄■[0;37m [0;34m▀▀▐▀▀▌ [0;31m▄■[0;37m [0;34m▄██▀████▌█[0;30;44m░[0;34;40m██[0;30;44m░░░░░░░░[0m

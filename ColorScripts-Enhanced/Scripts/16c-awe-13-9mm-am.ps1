@@ -1,18 +1,4 @@
-﻿# Converted from: 9MM-AM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-13/raw/9MM-AM.ANS
-# Source Revision: archive-sha256:fab7f52e9d735740432e5cc1693a7c3574c7cc669fe711a2863770d2425cce92
-# Source SHA-256: b8628808e8c6788f597da28466623776e3283ffb3a6b53079961a95b6af035bc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 9MM-AM.ANS by 9 Millimeter (AWE Lettering); released in awe-13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Aftermath
-# SAUCE Author: 9 Millimeter
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19971212
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Aftermath by 9 Millimeter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-13-9mm-am
 
 Write-Host '
    ███[1;47m▄▄[0m█▄ ▄  [34m▐▀▀▀▀▀[0;1;34;44m░[0;34m██[0;1;34;44m▀[0;34m▀▀▀▀ ▀[0m     [34m░[0;30;44m▓[0m                           [33;40m▄▀▀ ▄[0m

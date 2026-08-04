@@ -1,18 +1,4 @@
-﻿# Converted from: LST-JUD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_9703/raw/LST-JUD.ANS
-# Source Revision: archive-sha256:77a6a7f6432126598204aeed388eb7e1cd0dbc6097b43b2ef1dd1e89f5f350c2
-# Source SHA-256: 417c44704ab02cb8df311ddaaf95d44041d23bde44ba0a8c56c77f181d72659f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LST-JUD.ANS by soul trader (dox product 97); released in dox_9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: obiebak!
-# SAUCE Author: soul trader
-# SAUCE Group: dox product 97
-# SAUCE Date: 19970215
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: obiebak! by soul trader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-9703-lst-jud
 
 Write-Host '
 

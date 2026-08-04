@@ -1,18 +1,4 @@
-﻿# Converted from: RD-GULP!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0297/raw/RD-GULP!.ANS
-# Source Revision: archive-sha256:ebdb3432145de923aa3db5c356b5298a48e2bd3cd353301b704b88c85b6a63cb
-# Source SHA-256: 2e1a9374045714ac5d76c17a93333bb988fdc799e9487d3a5a10bc4aec4ef1a4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD-GULP!.ANS by raider .. (opx); released in opx-0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: gUlp!!@
-# SAUCE Author: raider ..
-# SAUCE Group: opx
-# SAUCE Date: 19961219
-# SAUCE Dimensions: 80x72
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: gUlp!!@ by raider .. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0297-rd-gulp-part01
 
 Write-Host '
 [34m       [0;1;34m [0;34m    [0;1;34m [0;34m   [0;1;34m [0m              [34m░[0m                                         [30;44m▓[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MB-ICEDE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ceg-010a/raw/MB-ICEDE.ANS
-# Source Revision: archive-sha256:5b3b98df164004f313dd0829d66e01a5471066e939dd03917a4e036b8d8f18b9
-# Source SHA-256: 166706e66fc2f02ce83122ead7418062a99dc836dc43348b39a9445efd69e55d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MB-ICEDE.ANS by mr.byte (chaos energy group); released in ceg-010a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 'iced earth bbs logo'
-# SAUCE Author: mr.byte
-# SAUCE Group: chaos energy group
-# SAUCE Date: 20000419
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: 'iced earth bbs logo' by mr.byte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ceg-010a-mb-icede
 
 Write-Host '
                             [33m  [0;37m    [0;1;33m██▄▄[0m    [1;33m▄▄▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: NEOGLAND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tsc0794/raw/NEOGLAND.ANS
-# Source Revision: archive-sha256:5dcf9ec4bac81459dda34886c6957582210714a040b5b152c9ed829c88e92c8a
-# Source SHA-256: b42226181ad8eae656688d741365e7a68975cb5c36559508b49217a54f71c1cc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NEOGLAND.ANS by Evil Iggy (tsc0794); released in tsc0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: NEOGLAND.ANS by Evil Iggy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tsc0794-neogland-part01
 
 Write-Host '
 [1m[0m[1m    ▄▄▄▄   [0;32m▄    ▄[0m       [32m▄[0;32;42m  [0;1;32;42m░▒▓  ▓█[0;1;32;40m▄▄    [0;1;37;47m▄██▓▓▒[0;1;37;40m▄    [0;1;32;40m▄▄[0;32m▀▄  [0;1;32m▄▀   ▄▄ [0;32m▄[0;1;37m▄▄[0m

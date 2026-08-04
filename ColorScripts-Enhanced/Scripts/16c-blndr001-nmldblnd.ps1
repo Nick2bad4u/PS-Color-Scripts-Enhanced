@@ -1,13 +1,4 @@
-﻿# Converted from: NMLDBLND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr001/raw/NMLDBLND.ANS
-# Source Revision: archive-sha256:78795bef9553ddc216c3e28e99f10e873445a6a7dd9334ec3282accc038974f8
-# Source SHA-256: 2a84687a4d420c369e0e20da7cbc96ab0b1a73cc10bc474c69feeb28cbecbdc0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NMLDBLND.ANS by Oned + Numb (blndr001); released in blndr001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: NMLDBLND.ANS by Oned + Numb | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr001-nmldblnd
 
 Write-Host '
 [34m▒▒▓▓▓▓▓▓▓▓▓▓▓▓█████████████████████████████████████████████████████▀▀▀▀▀▀████[0;1;34m▒▒[0m

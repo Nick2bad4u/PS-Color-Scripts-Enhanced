@@ -1,18 +1,4 @@
-﻿# Converted from: DN!-INQ4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0497/raw/DN!-INQ4.ANS
-# Source Revision: archive-sha256:ac23f379eb24f5f6ad8faa432723caa3c85fc7d4fc380b1d3e101e8eb50ca483
-# Source SHA-256: 5e3f493ebaabb4beb3a103f1029068a6974f0e636c9bb0657c7023c1c458ef84
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DN!-INQ4.ANS by dreadnought (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Inquest Header for wOe
-# SAUCE Author: dreadnought
-# SAUCE Group: phat studios '97
-# SAUCE Date: 19970326
-# SAUCE Dimensions: 80x98
-# Lines: 51-98
-# Columns: 1-80
+﻿# Artwork: Inquest Header for wOe by dreadnought | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0497-dn-inq4-part02
 
 Write-Host '
             [34m░░░░░░░░░[0;37m [0;34m▀▀[0;37m [0;34m ▀▀▀▀▀[0;1;34m  [0;34m▀▀▀▀▀[0;37m  [0;34m▀▀[0;37m  [0;34m▀▀[0;37m [0;1;34m     [0;34m▀▀[0;37m [0;34m░░░░░░░░░[0m

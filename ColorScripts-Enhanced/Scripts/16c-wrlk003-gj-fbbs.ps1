@@ -1,18 +1,4 @@
-﻿# Converted from: gj-fbbs.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wrlk003/raw/gj-fbbs.ans
-# Source Revision: archive-sha256:f8a5978b1dd382d13a0cee4c0d6755b77dc879551ad11886884e396cd50f6e93
-# Source SHA-256: 3bd54d908c14a0e99e45b9229b14ed1165531278b1104a89e0939345e9956afa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: gj-fbbs.ans by grymmjack (gj!) (WARLOCK); released in wrlk003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Facility BBS
-# SAUCE Author: grymmjack (gj!)
-# SAUCE Group: WARLOCK
-# SAUCE Date: 20011016
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: The Facility BBS by grymmjack (gj!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wrlk003-gj-fbbs
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: US-IDRAW.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice0002a/raw/US-IDRAW.ICE
-# Source Revision: archive-sha256:53a41ee57afe1e846cd4dac2490aa65b993161590e07f9d4983d671ef1c9656a
-# Source SHA-256: 443ca84e5158296a5c4b4b43ed4b5db1498a52becae25487de58a1578992250b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-IDRAW.ICE by Kitiara (ice0002a); released in ice0002a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: US-IDRAW.ICE by Kitiara | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice0002a-us-idraw
 
 Write-Host '
                         [1;30m▐░░[0m                                            [1;30m▀▄[0m

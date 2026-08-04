@@ -1,18 +1,4 @@
-﻿# Converted from: AN-CAES3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0394/raw/AN-CAES3.ANS
-# Source Revision: archive-sha256:7805df52925a98aad31489bafc7cabadb416309b42badbbd7aa9aecbdec2b1cf
-# Source SHA-256: 549d6b8ae865ea7b2f4a594ae7ffa7b118732eb5126ef927327bc26696d472f7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AN-CAES3.ANS by Andrew Nice (ACiD Productions); released in acdu0394 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Caesar's Palace
-# SAUCE Author: Andrew Nice
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940226
-# SAUCE Dimensions: 80x161
-# Lines: 85-126
-# Columns: 1-80
+﻿# Artwork: Caesar's Palace by Andrew Nice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0394-an-caes3-part03
 
 Write-Host '
 [1;30m▀ [0;1;30;43m  [0;30;43m░[0;33m░[0;30;43m▒░[0;33m██[0;43m░[0;33m█[0;33;43m  [0;33m███[0;30;43m░░[0;33m▄▄▀█[0;30;43m░[0;33m▌▐████[0;30;43m░[0;33;47m▓▓[0;33m▄ [0;1m▐██[0;1;47m▓[0m [1m▄[0;1;47m▒░[0m▌ [1;47m▒[0m [31m███[0;31;41m [0;1;31;41m░░░░░   [0;31m███▓▓▒▒░▒▓██[0;1;31;41m░░░░▒█▓░[0m

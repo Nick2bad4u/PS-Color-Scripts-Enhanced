@@ -1,18 +1,4 @@
-﻿# Converted from: ESS!FLGF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-001/raw/ESS!FLGF.ANS
-# Source Revision: archive-sha256:7435b1c9938dec461ab33b42b3dd164ea7e98ecfff30ea4d3df5a8e59194b0a3
-# Source SHA-256: 34117dcb65bf65e4a9550050f7b25e4713da16b1c00e0282f6303c27a6020f36
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ESS!FLGF.ANS by Essence (rARE!ASCii); released in rare-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: TFD Logoff Matrix
-# SAUCE Author: Essence
-# SAUCE Group: rARE!ASCii
-# SAUCE Date: 19980305
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: TFD Logoff Matrix by Essence | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-001-ess-flgf
 
 Write-Host '
 [1;30m [0m             [1;30m    [0;35m┌ ┐[0;1;30m [0m   [35m [0;37m [0;1;30m       [0m           [35m  [0;1;30m  [0m                        [1;30m   [0m [35m  [0;1;35m [0m

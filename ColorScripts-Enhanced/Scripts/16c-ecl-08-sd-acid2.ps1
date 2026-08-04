@@ -1,18 +1,4 @@
-﻿# Converted from: SD-ACID2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-08/raw/SD-ACID2.ANS
-# Source Revision: archive-sha256:0b90c936d49629839c01709c30be5eee3ae4012caa7a8f1570b6ae8cc1763cb4
-# Source SHA-256: 03a9d035c76150b6c68a20d462401cb9f2475e3226ccfbc70b50be22eb48ab7b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-ACID2.ANS by sir death (eclipse); released in ecl-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: acid
-# SAUCE Author: sir death
-# SAUCE Group: eclipse
-# SAUCE Date: 19960924
-# SAUCE Dimensions: 80x14
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: acid by sir death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-08-sd-acid2
 
 Write-Host '
 

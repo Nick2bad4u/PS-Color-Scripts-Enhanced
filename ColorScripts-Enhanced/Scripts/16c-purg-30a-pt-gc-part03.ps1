@@ -1,13 +1,4 @@
-﻿# Converted from: PT-GC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-30a/raw/PT-GC.ANS
-# Source Revision: archive-sha256:6639c51cd84d0739e4c497f5c5df7097f55575c94239859af87a8579ae4fa114
-# Source SHA-256: affecaa793bc1d3cd87cdae52cdefc8bd5bb553a6ba1f5404401236a8d23fb7e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PT-GC.ANS by Produkt (purg-30a); released in purg-30a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 76-108
-# Columns: 1-80
+﻿# Artwork: PT-GC.ANS by Produkt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-30a-pt-gc-part03
 
 Write-Host '
  [1;47m░[0m [1;33m█[0m [36m▐░░░░▌[0;37m ▓▓ ▄▓ [0;1;30;46m░[0;36m    [0;1;30;46m▓[0m     [36m▀[0;1;30m▄▌[0;33m░[0;37m [0;1;30m░[0m▓▓ [33m▐[0;37m ▒[0;1;30m▐[0;36m ░[0;37m░░[0;36m [0;1;30m▌[0m ▓▓ ▓ [1;30;46m▒[0;36m [0;37m░░[0;1;30;46m▓[0;36m [0;1;30m▄▄▄▀▀[0m ▒▒▒▒       [1;47m▒▒[0m█

@@ -1,20 +1,4 @@
-﻿# Converted from: wa-empress.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2019/raw/wa-empress.ans
-# Source Revision: archive-sha256:a6c9770dbfd45af40546ed27ced15f003f134c43830de0621ef577cc0f1d4d1f
-# Source SHA-256: 457722be6c626a54ecd259870c624d6840940766fb737f7e6382d2d5f2ab52ce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-empress.ans by warpus (Fuel); released in blndr2019 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Empress Francene
-# SAUCE Author: warpus
-# SAUCE Group: Fuel
-# SAUCE Date: 20190414
-# SAUCE Dimensions: 80x127
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Empress Francene the Defender of Restaurants For Blender 2019
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Empress Francene by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2019-wa-empress-part01
 
 Write-Host '
 

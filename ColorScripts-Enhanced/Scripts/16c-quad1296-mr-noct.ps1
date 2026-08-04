@@ -1,18 +1,4 @@
-﻿# Converted from: MR-NOCT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad1296/raw/MR-NOCT.ANS
-# Source Revision: archive-sha256:39733ed0864fbad557d48d5b0be7bcb3c03788a44b9cfbbe71a5cb00f202249d
-# Source SHA-256: 6e03c37143de7708a1aab1aa4b471e1774d52155ee954569b3aab251231326e6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-NOCT.ANS by Mithrandir (quad-p); released in quad1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: nocturnal trip
-# SAUCE Author: Mithrandir
-# SAUCE Group: quad-p
-# SAUCE Date: 19961020
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: nocturnal trip by Mithrandir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad1296-mr-noct
 
 Write-Host '
                           [1;34;47m▒░[0m▄   [1mnocturnal trip[0m   ▄▄                ▄[1;47m░[0m▄▄

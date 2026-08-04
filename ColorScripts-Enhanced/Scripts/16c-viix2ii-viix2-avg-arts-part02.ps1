@@ -1,13 +1,4 @@
-﻿# Converted from: ViiX2 - AVG - Arts.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/viix2ii/raw/ViiX2%20-%20AVG%20-%20Arts.ans
-# Source Revision: archive-sha256:6b58db64a496db7dca4458b96e985fd3167eddf90989e07fbdc9d0b35b24d182
-# Source SHA-256: dd617d7cd581f2e0846898f58265fdfd044366f51bfeb080b2208014a0b01fcb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ViiX2 - AVG - Arts.ans by Avenging Angel (viix2ii); released in viix2ii and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 41-82
-# Columns: 1-80
+﻿# Artwork: ViiX2 - AVG - Arts.ans by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-viix2ii-viix2-avg-arts-part02
 
 Write-Host '
 [1;33;47m▀  [0m [1;30m█[0;1;37;47m▀█ [0;1;30;47m▀[0;1;30;40m▄[0m [34m▀[0;37m [0;1;30m▄[0;1;30;47m█▒ ▄[0;1;30;40m▀[0m [1;32;42m ▀[0;1;32;40m▀[0;32m▀[0;35m [0;37m  [0;1;30m▀[0;1;30;47m▄▄[0;1;30;40m█[0m [1;31;41m▄█▀[0;35m▀[0;37m [0;34m▄[0;34;46m▀█[0;32;40m [0;1;32;42m▒▀[0;32m▀[0;34m█[0;34;46m▄[0;34;40m▀[0;35;40m [0;34;40m▄▀[0;1;31;41m▄[0;1;31;47m ▄[0;1;31;45m░[0;35m███▀[0;1;30;47m▀ █[0;1;30;40m▄[0;1;30;47m▀▒[0m [1;31;41m▄[0;1;31;47m  [0;1;31;41m▀[0m [36m  [0;37m [0;31m▄[0;1;36;46m██ [0m

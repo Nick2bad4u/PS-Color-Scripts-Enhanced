@@ -1,16 +1,4 @@
-﻿# Converted from: PZK-NAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/arla0196/raw/PZK-NAS.ANS
-# Source Revision: archive-sha256:8a35d2bb39c2faca15c1fb2bebf77416e369d3cea398837e490885a2a237f536
-# Source SHA-256: d0ede58cb08089fd1675891caad3db582e2588d11d0ae234685176f03398b6b1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PZK-NAS.ANS by pzyko (aRla); released in arla0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: nasal malfunction
-# SAUCE Author: pzyko
-# SAUCE Group: aRla
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: nasal malfunction by pzyko | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-arla0196-pzk-nas
 
 Write-Host '
 

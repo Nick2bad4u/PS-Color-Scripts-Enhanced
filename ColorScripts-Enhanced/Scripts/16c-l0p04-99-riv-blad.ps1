@@ -1,18 +1,4 @@
-﻿# Converted from: RIV!BLAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p04_99/raw/RIV!BLAD.ANS
-# Source Revision: archive-sha256:cd066a8b285d053fbbb486eff8330d19131344b04ff06cb6d38dc7a1da8cad61
-# Source SHA-256: ec35e9955f226ebfe07a9cca17858f423f0f60037c58693ecba054288665bfc0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RIV!BLAD.ANS by Riven (Thelo0p); released in l0p04_99 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: B L A D E
-# SAUCE Author: Riven
-# SAUCE Group: Thelo0p
-# SAUCE Date: 19990906
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: B L A D E by Riven | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p04-99-riv-blad
 
 Write-Host '
 [1;34m▓▓[0;1;32m            [0;1;34m▓▓[0m   [1;34m▐[0m [1;34m█[0;34m▐[0;1;34m█[0;34m▌▐▐[0;1;34m▌[0m [1;34m█[0;34m▐[0;1;34m▀[0;34m▀[0;1;34m▄█[0;34m ▌▐▌[0;1;34m▐[0;34m▌[0m      [1;37;46m                          [0m

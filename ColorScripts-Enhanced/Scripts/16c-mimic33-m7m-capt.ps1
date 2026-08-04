@@ -1,13 +1,4 @@
-﻿# Converted from: m7m-capt.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic33/raw/m7m-capt.ans
-# Source Revision: archive-sha256:5fdf09d291219692f770c94bedc0fcc7697a611c572ffe04f02e50b16c11b41e
-# Source SHA-256: f08220e7baf5a27a723d9ce0db6a50d824d089075aea64675a111f863ccccede
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: m7m-capt.ans by Metal Militia (mimic33); released in mimic33 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: m7m-capt.ans by Metal Militia | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic33-m7m-capt
 
 Write-Host '
 [30m[0m[1;37m[0m[1m[0m[34m[0m                   [37m:[0;1;37m$$$$$$[0m╠╩╩╩╩╩╩╩╩╩[1m╣$$[0mÑÑÑ:

@@ -1,18 +1,4 @@
-﻿# Converted from: EVH-EVH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rise0295/raw/EVH-EVH.ANS
-# Source Revision: archive-sha256:cbc4b57b06c90859f5fe061fc0ab53f15bc0c29ecc8d7108367093217c0cbf4a
-# Source SHA-256: c2bcf7fbc213ac22218e5c5fc6cd7035bb1a42a589758bac01f7abde2d0ed061
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EVH-EVH.ANS by EvH (riSE); released in rise0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: EvH!
-# SAUCE Author: EvH
-# SAUCE Group: riSE
-# SAUCE Date: 19950115
-# SAUCE Dimensions: 80x108
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: EvH! by EvH | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rise0295-evh-evh-part01
 
 Write-Host '
                                              [30;46m▀[0m

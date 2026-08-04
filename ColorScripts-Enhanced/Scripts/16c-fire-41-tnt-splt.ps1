@@ -1,19 +1,4 @@
-﻿# Converted from: TNT-SPLT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/TNT-SPLT.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: 984b0ffb6d115dda3034e063c6b354ab6a301f372e664346f0fc0b918feb7395
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNT-SPLT.ANS by tainted (fire); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: splatterhaus
-# SAUCE Author: tainted
-# SAUCE Group: fire
-# SAUCE Date: 20241111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: splatterhaus by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-tnt-splt
 
 Write-Host '
 ▄[1;47m▄███▓▒░[0m▀[1;47m▄▄▓░[0m▀█[1m▄▄▄▄▄[0m▀▀██[1;47m░▒▓█[0;1;40m█▄[0m             [31m■[0;37m [0;31m▄▄░░[0;37m                       tnt[0;1;30mfire[0m

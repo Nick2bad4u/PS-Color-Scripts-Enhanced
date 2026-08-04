@@ -1,18 +1,4 @@
-﻿# Converted from: SO-PNET.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0594/raw/SO-PNET.ANS
-# Source Revision: archive-sha256:db2a228a3fd36387543cf50f2d4002959c041991ff20ee6a7b4aeaef602533bd
-# Source SHA-256: 877f77c975ad1c41d34ae35282d3f75e9c5bec73ab06e2027f961403e96b8f27
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SO-PNET.ANS by Sole Assassin (UNiON); released in uni-0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Prism Net
-# SAUCE Author: Sole Assassin
-# SAUCE Group: UNiON
-# SAUCE Date: 19940501
-# SAUCE Dimensions: 80x25
-# Lines: 23-54
-# Columns: 1-80
+﻿# Artwork: Prism Net by Sole Assassin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0594-so-pnet-part02
 
 Write-Host '
 [1;30m  [0;1;37m▄ ▀[0m        [34m▐ [0;1;34m▌ [0;1;37m▐[0m          [34m▐[0m                        [34m▄▄▀▀ ▀[0m                  [1;37m▌ ▄[0m

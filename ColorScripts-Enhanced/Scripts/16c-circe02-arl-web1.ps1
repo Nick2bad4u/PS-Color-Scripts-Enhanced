@@ -1,13 +1,4 @@
-﻿# Converted from: ARL-WEB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe02/raw/ARL-WEB1.ANS
-# Source Revision: archive-sha256:ce5cd736ecea3fcfef2c1df40ab4bdd995f6b633f97f1788244355f98c5d174e
-# Source SHA-256: 8224d52a67bd00dd3d1ae32154c300f1d997ea3d0665a6725ff3bd0f51d13588
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARL-WEB1.ANS by Arlequin (circe02); released in circe02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: ARL-WEB1.ANS by Arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe02-arl-web1
 
 Write-Host '
 [1;33m  [0m                         [1;33m▄[0m ░░          [1m              [0m

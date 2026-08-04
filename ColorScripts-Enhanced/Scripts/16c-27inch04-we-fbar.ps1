@@ -1,13 +1,4 @@
-﻿# Converted from: WE-FBAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch04/raw/WE-FBAR.ANS
-# Source Revision: archive-sha256:1ff59d7215f327fe805e7a12f73fa812b3e44a09fac051830103bca1228d4cf1
-# Source SHA-256: 766c1850778c9e683dc3011debea5ad0e482fda004e024681c45e738279af952
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WE-FBAR.ANS by Enzo + Abstrakt (27inch04); released in 27inch04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: WE-FBAR.ANS by Enzo + Abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch04-we-fbar
 
 Write-Host '
 [1m░▓[0;1;44m▓▓[0m▄[1m  [0;1;34m▄▄[0m [34m▄[0;1;34m▀▀[0;34m▀[0;37m [0;34m▄▄[0;37m  [0;1;30m [0;1;37;47m▀[0;1;37;40m [0m▄[1m▄▄▄[0m▐[1;47m▄██▄▄[0;1;40m█[0;1;47m▄[0m▄▀[1m▀▀[0;1;47m▀ [0;1;40m▀▀[0m▀[1m [0;1;30m▄▄[0m     [1;30m▄▄[0;1;30;46m▀[0;36m██[0;1;33;46m░░[0;36m███[0;1;30;46m▄[0;1;30;40m▀[0;36m   [0;1;30m▄[0m      [1;30m▄[0m  [1;30m [0;1;37m░░░[0m

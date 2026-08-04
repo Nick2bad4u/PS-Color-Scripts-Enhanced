@@ -1,18 +1,4 @@
-﻿# Converted from: BL-FES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0995/raw/BL-FES.ANS
-# Source Revision: archive-sha256:66f11d43d10b981d3ff2235c6fadd1403a507952ad88040c9eb9cd5142a4f4b1
-# Source SHA-256: 342937402ed7943b39c44a746565ea871c3279a7fd7da5eb0b88a35cd028da8a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BL-FES.ANS by Black Lightning (Union); released in uni-0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Flat Earth Society
-# SAUCE Author: Black Lightning
-# SAUCE Group: Union
-# SAUCE Date: 19950804
-# SAUCE Dimensions: 80x25
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Flat Earth Society by Black Lightning | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0995-bl-fes-part01
 
 Write-Host '
 [30m[0m[30m   [0;1;30m▄▄▄▄▄[0m

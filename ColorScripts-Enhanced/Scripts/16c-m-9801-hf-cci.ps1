@@ -1,18 +1,4 @@
-﻿# Converted from: HF-CCI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m-9801/raw/HF-CCI.ANS
-# Source Revision: archive-sha256:68027b949f7edfef662f12aa514dfc21e6e156e3984f9866a81997534ce6ce87
-# Source SHA-256: 0cc20cf099573802c4ebaec965d1ca29c196741fcfcdf1dba320de943f71e82e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HF-CCI.ANS by Happyfish (mISTFUNK 1998); released in m-9801 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: CyberCrimeInternational Warning
-# SAUCE Author: Happyfish
-# SAUCE Group: mISTFUNK 1998
-# SAUCE Date: 19971219
-# SAUCE Dimensions: 80x25
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: CyberCrimeInternational Warning by Happyfish | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m-9801-hf-cci
 
 Write-Host '
       [30;47m▀███▀▀▀▀▀▀▀██▀▀▀▀▀▀▀▀▀▀▀▀▌▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▌▀▀▀▀▀▀ [0m

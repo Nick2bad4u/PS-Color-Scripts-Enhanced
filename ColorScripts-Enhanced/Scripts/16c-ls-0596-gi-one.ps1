@@ -1,18 +1,4 @@
-﻿# Converted from: GI-ONE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ls-0596/raw/GI-ONE.ANS
-# Source Revision: archive-sha256:66356efc2c42db2c2b9e33fd619f1e9d3ad138f2dd82375810dc37ad60467936
-# Source SHA-256: 1ede83c5401e7b6a5389cceb94163d3f77f3c70e6d261020fd69258336b804e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GI-ONE.ANS by giger (leper society); released in ls-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: oneliners
-# SAUCE Author: giger
-# SAUCE Group: leper society
-# SAUCE Date: 19960415
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: oneliners by giger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ls-0596-gi-one
 
 Write-Host '
  [1;30m▀[0m   [1;30m█▓░[0m    [1;30;47m▓[0;1;30;40m▄▄▄ ▄ ▓[0m               [1;30m▄▄▄▄▄▄▄▄▄[0;1;30;47m▓[0m           [1;30m▄▓▄▄▄▄▄[0m       [1;30m▄▓█▄▄[0;1;30;47m▓[0m [1;30m▄[0m

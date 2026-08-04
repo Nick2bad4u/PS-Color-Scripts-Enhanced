@@ -1,18 +1,4 @@
-﻿# Converted from: KS-ULIST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ra-pack5/raw/KS-ULIST.ANS
-# Source Revision: archive-sha256:c686da67e3347a257f133229c38f0ded15c3b11846248779489ed776a4450659
-# Source SHA-256: b7b76c093f6053c12a8d4315fab8f70e73f57ab34fdbb7cea5ce2a2468a8f57a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KS-ULIST.ANS by King Sting (Rebel Art); released in ra-pack5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: User List
-# SAUCE Author: King Sting
-# SAUCE Group: Rebel Art
-# SAUCE Date: 19980717
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: User List by King Sting | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ra-pack5-ks-ulist
 
 Write-Host '
 

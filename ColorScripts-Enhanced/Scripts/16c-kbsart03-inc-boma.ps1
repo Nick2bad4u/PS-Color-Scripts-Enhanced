@@ -1,18 +1,4 @@
-﻿# Converted from: INC-BOMA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/kbsart03/raw/INC-BOMA.ANS
-# Source Revision: archive-sha256:3bc41b0cbaed5cc33563c576ee20fcd7a1c532d4df2df0fbf9fb63f79506bdf8
-# Source SHA-256: b962786f8abcadec480fd14b9cbdd198a9dea65af8cb0d8f9eb47858701f181c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: INC-BOMA.ANS by Inclusive (kIBOSH); released in kbsart03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: borgasm
-# SAUCE Author: Inclusive
-# SAUCE Group: kIBOSH
-# SAUCE Date: 19990721
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: borgasm by Inclusive | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-kbsart03-inc-boma
 
 Write-Host '
 [1;30;47m▀[0m██████[1;30;47m▐██[0;1;30;40m▓▓[0;1;30;47m███▀▀[0m█[1;30;47m▐[0;1;30;40m▀█████▓█[0;1;30;47m▄[0m███[1;30;47m▀▀▀[0;1;30;40m████████[0;1;30;47m█▄▄[0m██████████████[1;30;47m░▓[0;1;30;40m███████[0;1;30;47m▀[0m█████████[1;30;47m▀█[0m

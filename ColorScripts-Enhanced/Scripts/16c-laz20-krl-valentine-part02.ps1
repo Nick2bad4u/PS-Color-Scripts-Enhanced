@@ -1,19 +1,4 @@
-﻿# Converted from: krl_valentine.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz20/raw/krl_valentine.ans
-# Source Revision: archive-sha256:d88c3ff3e728f60821a5682143c2fe9e054bc535483ce1618db0798990cb65e8
-# Source SHA-256: e5106d5b4634688e6445d879f672a41bdc1d8240f633894b1998e97c55d5c833
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: krl_valentine.ans by Krl (Lazarus); released in laz20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Valentine
-# SAUCE Author: Krl
-# SAUCE Group: Lazarus
-# SAUCE Date: 20250604
-# SAUCE Dimensions: 80x134
-# SAUCE Font: IBM VGA
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Valentine by Krl | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz20-krl-valentine-part02
 
 Write-Host '
 [37;40m   [0;1;34;45m▒▒▒[0;35m▄[0;37m [0;1;34;45m░░░[0;35m▄▀▀▄▀[0;1;34;44m▓▓[0;1;34;45m▓[0;1;34;44m▓[0;1;34;40m▄[0m   [1;34;45m░[0;35;47m▓▓▒▒▓[0;35;40m░[0;33;40m▄[0;1;31;43m▄[0;1;31;40m▄[0;35m░▀▄[0;1;31m▓ ▄[0;33m▀[0;1;31m█[0m [31m▀[0;1;31m▀▀[0;35m▀██[0;37m [0;35m███[0;31m ███[0;31;45m▓ [0;1;31;45m░░░[0m [35m▓▓▓░[0;31m▄[0;31;41m▄[0;31;40m█[0;31;41m▀[0;31;45m▓[0;35;41m▄[0;35;40m▄▄▄[0m

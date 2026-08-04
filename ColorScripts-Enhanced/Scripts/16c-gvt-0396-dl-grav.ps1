@@ -1,18 +1,4 @@
-﻿# Converted from: DL-GRAV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gvt-0396/raw/DL-GRAV.ANS
-# Source Revision: archive-sha256:ad8ff614294189e80e826a6d4a8cf8ded98538ab493231140abfba480817c1ae
-# Source SHA-256: 4adc9839bb752446fbeb19e5e51add0a54cef25007f8c7d7d5c06777bf4ed06d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DL-GRAV.ANS by deathlok (gravity); released in gvt-0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: gravity
-# SAUCE Author: deathlok
-# SAUCE Group: gravity
-# SAUCE Date: 19960215
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: gravity by deathlok | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gvt-0396-dl-grav
 
 Write-Host '
     [35m▄▄[0;1;35;45m▄▄▄[0;35m▄▄ [0m                 [35m▄▄▄▄▄▄▄▄[0m         [35m █[0;1;35m██▓█████████▓▒▓███▓████[0;35m █ [0m

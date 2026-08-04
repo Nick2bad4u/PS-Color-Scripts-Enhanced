@@ -1,18 +1,4 @@
-﻿# Converted from: LE-ANI#5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook13/raw/LE-ANI%235.ANS
-# Source Revision: archive-sha256:f383b37d2f0265a83b82afcdde57a4dae359d8a5127c467dcea28d0c8500d000
-# Source SHA-256: 0a5dbefa5c125ceb8251fda9b43ebd96be8773b8487b0087254e0a4de78e0eae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LE-ANI#5.ANS by Leonardo (BlackMaiden); released in bmbook13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: KAOZ BBS
-# SAUCE Author: Leonardo
-# SAUCE Group: BlackMaiden
-# SAUCE Date: 19970426
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: KAOZ BBS by Leonardo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook13-le-ani-5
 
 Write-Host '
 [1;33;43m█▓[0;33m▀▄[0;1;33;43m░[0;33m█▀▄[0;1;33;43m░▄▄[0;33m▌█▓░[0;1;33;43m▐[0;1;37;40m███[0;1;33;40m█[0;1;33;43m██▓░[0;1;31;43m▓[0;1;31;47m█[0;1;31;43m▌[0;33m▌█▄[0;1;33m▀[0;1;33;43m▓[0;33m▐█▄▀[0;1;33;43m░[0;33m▐█▄▀[0;1;33m▀[0;1;31m▄▄▄[0;33m▀▀[0;1;33;43m░[0;33m▄[0;1;33m▀█[0;1;37m█[0;1;33;43m▌[0m [33m▀[0;1;33;43m░[0m  [34m░█[0;1;34;44m■[0;34m█[0;1;34;44m▄[0;34m██[0;1;34;44m░░[0;34m██ ▄██████▓░ [0m

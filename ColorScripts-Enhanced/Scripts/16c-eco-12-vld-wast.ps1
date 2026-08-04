@@ -1,18 +1,4 @@
-﻿# Converted from: Vld-wast.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-12/raw/Vld-wast.ans
-# Source Revision: archive-sha256:cf7450d53015f3027aacb5cf2043eb6d61ce25626e1f2b6e3930ea8e96c53230
-# Source SHA-256: 6300eac09dbfcf9707ef4e300e83a97cbae41ac0ce5738b7ee82b7df92ae47b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Vld-wast.ans by velodrome (ecolove); released in eco-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: wasted
-# SAUCE Author: velodrome
-# SAUCE Group: ecolove
-# SAUCE Date: 19990110
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: wasted by velodrome | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-12-vld-wast
 
 Write-Host '
 [1;30m  [0m

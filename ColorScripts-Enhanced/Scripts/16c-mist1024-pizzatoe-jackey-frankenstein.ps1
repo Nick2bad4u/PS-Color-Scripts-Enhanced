@@ -1,19 +1,4 @@
-﻿# Converted from: PIZZATOE-JACKEY-FRANKENSTEIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1024/raw/PIZZATOE-JACKEY-FRANKENSTEIN.ANS
-# Source Revision: archive-sha256:6949840195965f5eb9696cfb423e381432d7ccfa36b66290e336e4608b7c12f8
-# Source SHA-256: 88f074f92ef7f0d09d368d323e095a8b006fe035548793d20ac9b9dcb56fe3e1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PIZZATOE-JACKEY-FRANKENSTEIN.ANS by Jackey (Pizzatoe); released in mist1024 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Frankenstein
-# SAUCE Author: Jackey
-# SAUCE Group: Pizzatoe
-# SAUCE Date: 20241026
-# SAUCE Dimensions: 96x48
-# SAUCE Font: IBM VGA
-# Lines: 1-48
-# Columns: 1-96
+﻿# Artwork: Frankenstein by Jackey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1024-pizzatoe-jackey-frankenstein
 
 Write-Host '
 

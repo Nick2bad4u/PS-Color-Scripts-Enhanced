@@ -1,18 +1,4 @@
-﻿# Converted from: FL-KOG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile0396/raw/FL-KOG1.ANS
-# Source Revision: archive-sha256:aa9dd90720d227515e11bc1d46c3e84a97b4668c1c9167ba7ef2915a41619b06
-# Source SHA-256: 50e5f06ef3140b1c2bf2f6697b554354d43a11ffd41f53191ee8633949b10754
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-KOG1.ANS by flame@#%!#@ (rile!@$$!$!@); released in rile0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: kingdom of grewve.
-# SAUCE Author: flame@#%!#@
-# SAUCE Group: rile!@$$!$!@
-# SAUCE Date: 19960302
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: kingdom of grewve. by flame@#%!#@ | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile0396-fl-kog1
 
 Write-Host '
 

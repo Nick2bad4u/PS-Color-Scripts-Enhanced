@@ -1,18 +1,4 @@
-﻿# Converted from: HT-EF3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0695a/raw/HT-EF3.ANS
-# Source Revision: archive-sha256:fdb220fd949148b42f901401233ee5917f0ab0d506d9b91fc04ce4bed204f9b8
-# Source SHA-256: 0a12dd7a8840e50adac2617e19a6544d1f84f1ef625459b10aff80fb09a2542b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HT-EF3.ANS by hetero; released in sac0695a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: EISERNE FRONT LOGIN
-# SAUCE Author: HETERO
-# SAUCE Group: LKCC
-# SAUCE Date: 19800101
-# SAUCE Dimensions: 80x25
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: EISERNE FRONT LOGIN by hetero | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0695a-ht-ef3-part02
 
 Write-Host '
 [31m░  [0;1;31;41m░[0m [1;30;40m░ [0;31m▐▄ ░ ▀█[0;1;31;41m░[0;31m▄[0;1;30m▀███▓▒░   ░ [0;33m░ [0;1;30m░[0m         [33m▒[0m        [1;30m░░  ░▒▓█ [0;31m█   ▒  ▀   [0;1;30m▒    ▀ [0;31m░[0m

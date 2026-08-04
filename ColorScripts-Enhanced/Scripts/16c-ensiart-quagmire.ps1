@@ -1,13 +1,4 @@
-﻿# Converted from: QUAGMIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ensiart/raw/QUAGMIRE.ANS
-# Source Revision: archive-sha256:1740ea49d8e6dbe7ec5d2c508ba38bad12fe73c43c677e55524f61db5ff5063b
-# Source SHA-256: f146cd6a93cf7cfdd32af8fc686285b61fe9526c1ebbaf4e7eaa168a13285574
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QUAGMIRE.ANS by Terry Brazzell (ensiart); released in ensiart and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: QUAGMIRE.ANS by Terry Brazzell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ensiart-quagmire
 
 Write-Host '
      [34m▄▄▄▄▄▄  ▄▄ ▄▄  ▄▄▄▄▄[0m                        [1;31mTerry Brazzell[0m

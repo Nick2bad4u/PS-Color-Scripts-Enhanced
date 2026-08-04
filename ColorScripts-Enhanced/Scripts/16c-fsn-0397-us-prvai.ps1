@@ -1,18 +1,4 @@
-﻿# Converted from: US-PRVAI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0397/raw/US-PRVAI.ANS
-# Source Revision: archive-sha256:0bbae31e52a4c1ad24c4bfa8a6bfcd082f750141f70c56dfd02f65c0d93bbb46
-# Source SHA-256: cd7f6fa848b5c37b49b36ca48bf39254e098eaa2f501dfcff15d98ad418f809a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PRVAI.ANS by Ize + Risu (blend/fusion); released in fsn-0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: prevail
-# SAUCE Author: is+iz
-# SAUCE Group: blend/fusion
-# SAUCE Date: 19970219
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: prevail by Ize + Risu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0397-us-prvai
 
 Write-Host '
 

@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-MPTT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0223/raw/ZII-MPTT.ANS
-# Source Revision: archive-sha256:f6abf3bbd53eb017898fa84b28d2ac43fcb70297788ba675e470ca73794cbbfd
-# Source SHA-256: 3f76334673fb397ec0f8e27a18ff63818a429777e6da8f031e6d95ec39e15efa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-MPTT.ANS by Zeus II (Mistigris); released in mist0223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Monero Chan Babe
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20221207
-# SAUCE Dimensions: 80x100
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Monero Chan Babe by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0223-zii-mptt-part01
 
 Write-Host '
 [34m▒▒▓▓███▀    [0;33m░░▒▓[0;1;33;43m░▒▓▓▀[0;33m█▀[0;37m  [0;1;37m▄▀[0;1;33m [0;31m▄▄▀▀▀  ▄▄  [0;1;35;45m▄[0m  [31m▄▄  ▀▀▀▄▄[0;1;33m [0;1;37m▀▄[0m  [33m▀█[0;1;33;43m▀▓▓▒░[0;33m▓▒░   [0;34m▀▀██████▓▓▄[0m

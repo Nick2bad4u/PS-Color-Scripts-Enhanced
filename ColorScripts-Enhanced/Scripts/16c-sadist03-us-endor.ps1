@@ -1,18 +1,4 @@
-﻿# Converted from: US-ENDOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sadist03/raw/US-ENDOR.ANS
-# Source Revision: archive-sha256:aad069a20b3a55e608ff5f7b3cbbfa85da447754484a4340da178067d56a89cc
-# Source SHA-256: 5750a67a699108159383d84798dc4c4f9ff6efb6178b072ba1fd2b62dc954e44
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ENDOR.ANS by Seltorn + Sephiroth (tone/sadist); released in sadist03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: endor
-# SAUCE Author: seltorn+sephiroth
-# SAUCE Group: tone/sadist
-# SAUCE Date: 19990129
-# SAUCE Dimensions: 80x48
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: endor by Seltorn + Sephiroth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sadist03-us-endor
 
 Write-Host '
                     [1;33m▄■▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀■▄[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: NK-ZZOUR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/misery01/raw/NK-ZZOUR.ANS
-# Source Revision: archive-sha256:e802ebf512d2eb802f079fd327fff852b8c112992e81e4f15801eeb22870d111
-# Source SHA-256: c01f52c31bb2e920c5c66fac545f94cdb9d24664d76e71f9f25b8305b047d783
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NK-ZZOUR.ANS by novokane (misery01); released in misery01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: sour!? -> pher daDRUG!
-# SAUCE Author: novokane
-# SAUCE Date: 19970304
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: sour!? -> pher daDRUG! by novokane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-misery01-nk-zzour
 
 Write-Host '
           [35m░[0m                          [35m░[0m

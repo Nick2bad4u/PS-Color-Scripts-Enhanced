@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-ICYT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1225/raw/ZII-ICYT.ANS
-# Source Revision: archive-sha256:ad7094cd4ecc2b378f2db405885d71750ab479d4047a6dbcbce2412f0935f4aa
-# Source SHA-256: 054d77dbd9facfb0c9095f2b2294cef130c57b30e0e17d21c29be89978d25642
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-ICYT.ANS by Zeus II (Mistigris); released in mist1225 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Icy Term Promo
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20251206
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Icy Term Promo by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1225-zii-icyt
 
 Write-Host '
 [36m  ▄▀▄[0;1;36;46m░░[0;36m██▓▓█[0;1;36;46m░[0;36m█[0;1;30;46m░██▓░[0;36m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;34;46m░░[0;36m█▓▓▀██████░▀██[0;1;36;46m██[0;1;30;46mZ[0;36m█░▄[0m

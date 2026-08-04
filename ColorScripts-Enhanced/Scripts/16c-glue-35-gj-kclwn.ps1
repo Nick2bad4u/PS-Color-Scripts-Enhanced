@@ -1,18 +1,4 @@
-﻿# Converted from: GJ-KCLWN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-35/raw/GJ-KCLWN.ANS
-# Source Revision: archive-sha256:bc92204ac679e4231b1db133abb983c42252574e71b83e8773e063911f5f3ee6
-# Source SHA-256: 0a0ab38da8d28f25857ec246d52b761c6bdf28e58f8efa8480cd443dfddc0910
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GJ-KCLWN.ANS by grymmjack (gj!) (GLUE); released in glue-35 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: sector7 bbs: killer clown
-# SAUCE Author: grymmjack (gj!)
-# SAUCE Group: GLUE
-# SAUCE Date: 20010327
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: sector7 bbs: killer clown by grymmjack (gj!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-35-gj-kclwn
 
 Write-Host '
 [1;35;47m  ▓▓[0;1;35;45m█▓▓░░[0;35m▀▀▀▀▀▀▀▀[0;37m [0;36m▄▄[0;1;36;46m▄[0;1;37;46m██[0;1;36;46m████▄▄[0;36m▄[0;37m [0;35m▀[0;1;35m▒[0;35m▀▀[0;1;35;45m ░▒▓██[0;1;35;47m▓▓  ▓▓[0;1;35;45m█[0;1;35;47m▓[0;1;35;45m█████████████████████████[0;1;35;40m▄[0;1;35;45m▒[0;35m▄▄[0m

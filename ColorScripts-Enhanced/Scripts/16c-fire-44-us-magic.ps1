@@ -1,19 +1,4 @@
-﻿# Converted from: US-MAGIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-44/raw/US-MAGIC.ANS
-# Source Revision: archive-sha256:6c51508cedeaa9140fcf08750a75edb14e0cec0eebe7b4290346e95cd3548876
-# Source SHA-256: 6b5524f4e03e418d22c3e7298f650f699d7b2cb918687802f5d593d27f648a8e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-MAGIC.ANS by Tainted + Savage (fire); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: magic
-# SAUCE Author: tainted/savage
-# SAUCE Group: fire
-# SAUCE Date: 20251111
-# SAUCE Dimensions: 80x42
-# SAUCE Font: IBM VGA
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: magic by Tainted + Savage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-44-us-magic
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: NC-SKM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root04/raw/NC-SKM.ANS
-# Source Revision: archive-sha256:8dec1aa0e303d37205499818eaff4458ebf93774cd973f016deaae45658df6b3
-# Source SHA-256: fbf12c4f6a7fa4149209419596ce0d453ea4a3f0190a4d9a1420f4b83cd8ef7f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NC-SKM.ANS by Necrolyte (Root); released in root04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the scheme
-# SAUCE Author: Necrolyte
-# SAUCE Group: Root
-# SAUCE Date: 19970518
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: the scheme by Necrolyte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root04-nc-skm
 
 Write-Host '
                                                        ▄[1m▄▄▄[0m

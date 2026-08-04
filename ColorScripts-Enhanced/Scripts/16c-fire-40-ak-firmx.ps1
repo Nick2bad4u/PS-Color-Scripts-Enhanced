@@ -1,19 +1,4 @@
-﻿# Converted from: AK-FIRMX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-40/raw/AK-FIRMX.ANS
-# Source Revision: archive-sha256:aff8105c0a955ac5c43ea367a02b086cd2849f6741fc41b8a5ff440b77e104a7
-# Source SHA-256: 50388308a41235349a75ba85f6c15513ecc94bd0b05364a91f0ff4c1486d704c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-FIRMX.ANS by Abstrakt + Radical (fire); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fire remix
-# SAUCE Author: abstrakt / radical
-# SAUCE Group: fire
-# SAUCE Date: 20240707
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: fire remix by Abstrakt + Radical | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-40-ak-firmx
 
 Write-Host '
 [37;40m`$$b  [0;31;40m²[0;1;31;40m''[0;31m.┌s[0;1;31m$$$$$$$[0;1;33m$[0;1;31m$[0;1;33m$[0;1;31m$[0;1;33m$$$P`[0;31m .[0;1;31m┐%[0;1;33mS┘`  [0;31m.[0;1;31m┌p[0;1;33m⌂[0;1;31m$$[0;1;33m$$$$$%s┐.[0;1;31m [0;31m└[0;1;31m`[0;31m.┌p[0;1;31m%SS$$$$$$[0;1;33m$[0;1;31m$[0;1;33m$$$$P''[0;36m [0;1;37m.[0md$$''

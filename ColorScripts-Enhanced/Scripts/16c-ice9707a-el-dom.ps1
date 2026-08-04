@@ -1,13 +1,4 @@
-﻿# Converted from: EL-DOM.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9707a/raw/EL-DOM.ICE
-# Source Revision: archive-sha256:5b285b62d671cba2ddacc7108981944566d1e8060818f8c3a4cc125bd5270e0e
-# Source SHA-256: 221def5963463eb45676de9df9cd69df7939443aba18f448f223831389c71f4c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EL-DOM.ICE by Elastic (ice9707a); released in ice9707a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: EL-DOM.ICE by Elastic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9707a-el-dom
 
 Write-Host '
 

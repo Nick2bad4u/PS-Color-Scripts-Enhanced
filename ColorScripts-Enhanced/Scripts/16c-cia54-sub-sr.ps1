@@ -1,17 +1,4 @@
-﻿# Converted from: SUB-SR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cia54/raw/SUB-SR.ANS
-# Source Revision: archive-sha256:9b7b685b524341694e840bb32e23e0ecbdd87901428d1485320cda27f9079201
-# Source SHA-256: df9c14c3e5a84a53d0b1ca1c335b18efeea4acda2b9623c02f3a8486b6c8942a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SUB-SR.ANS by subsonic (cia54); released in cia54 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: souls rage
-# SAUCE Author: subsonic
-# SAUCE Date: 19980702
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: souls rage by subsonic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cia54-sub-sr
 
 Write-Host '
 

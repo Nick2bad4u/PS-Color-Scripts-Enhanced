@@ -1,13 +1,4 @@
-﻿# Converted from: CS-TCB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/grnd1194/raw/CS-TCB1.ANS
-# Source Revision: archive-sha256:a46351645581e540e2e9a58eed61604cab2bbdc718b54c2120d2704a9fc83974
-# Source SHA-256: 16e1a32d81995612de143611cc7215f9b0167f5d8aea9a38204b39009c558136
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CS-TCB1.ANS by Cryptic Stench (grnd1194); released in grnd1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: CS-TCB1.ANS by Cryptic Stench | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-grnd1194-cs-tcb1-part02
 
 Write-Host '
                                    [31m█ ▌    ▐█[0m

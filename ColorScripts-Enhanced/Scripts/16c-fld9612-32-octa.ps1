@@ -1,17 +1,4 @@
-﻿# Converted from: 32-OCTA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fld9612/raw/32-OCTA.ANS
-# Source Revision: archive-sha256:398e960abe90b9818bfc3a6f74dd54965f44f4021cfa626535308061d6595a9e
-# Source SHA-256: a37999eed56ae5de664baca935dd62e8069ba5ba3ab53ca25177492baf88e33e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 32-OCTA.ANS by ezy (fluid); released in fld9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: octagon
-# SAUCE Author: ezy
-# SAUCE Group: fluid
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: octagon by ezy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fld9612-32-octa
 
 Write-Host '
 [1;36;46m ▓▓█[0;1;36;40m██▄▄[0m [36m▀[0;1;36m▀[0;1;36;46m▀[0;1;36;40m█████▄▄[0m            [1;36m▓▓[0m     [1;36;46m [0;1;36;40m██[0;1;36;47m█[0;1;36;40m█▄ [0;1;36;46m █[0;1;36;40m██[0;1;36;47m▓▓▓[0;1;36;40m███▀▀▀[0;1;37;40m [0;1;36;40m    ░░░░   [0;1;37;40m   [0;36m▀[0;1;36;46m▀[0;1;36;40m███[0;1;37;40m█[0;1;36;40m█[0m

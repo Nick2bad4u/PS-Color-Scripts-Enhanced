@@ -1,17 +1,4 @@
-﻿# Converted from: US-GOOP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9707/raw/US-GOOP.ANS
-# Source Revision: archive-sha256:718ad2b08b14a24156d1af86433f0063bd9bba178c290c317100b8e5ffb3939c
-# Source SHA-256: 8bae2027362d09fb41ed75c0c7d2d33e3b6bbb7599437a66ba094585d0842b28
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GOOP.ANS by Elastic + The Night Angel (AWE Lettering); released in awe9707 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Da Goop
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Da Goop by Elastic + The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9707-us-goop
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: PPE-A10.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/locus-08/raw/PPE-A10.ANS
-# Source Revision: archive-sha256:eb790a44f4898ec0d7ea4b8e4754397832c1823b5b2db7b7444fc80312388961
-# Source SHA-256: bdff3f3702eaf888abc81af09496abc619356df813016934b2e533239956b823
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PPE-A10.ANS by Propane (locus-08); released in locus-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: PPE-A10.ANS by Propane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-locus-08-ppe-a10
 
 Write-Host '
 [35m  ▐▌    ▄▄[0;1;32;45m▄▀ [0;35m██[0;1;33;45m░░░▄[0;35m███[0;1;33;45mppe[0;35m▒▒▀█[0;1;33;45m░░[0;35m█▀▀▀▀[0;37m  [0;1;31m█[0;1;31;47m▀▀[0;1;37;47m▄[0;1;31;47m▀▀[0;1;31;40m█████████████████████████████████[0;1;31;47m▀▀[0;1;31;40m█[0m

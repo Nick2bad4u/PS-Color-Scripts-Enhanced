@@ -1,18 +1,4 @@
-﻿# Converted from: LD-FS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bleach04/raw/LD-FS2.ANS
-# Source Revision: archive-sha256:baa32e2a78fcaeb0a7d7d4af9b9beca3cca36bb322ba39b26f818f95ee969108
-# Source SHA-256: 7a1f3924cfef0b2882bb301f30f1bb6fd613e21a650e02b53313a896df065533
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-FS2.ANS by Lord Jazz (Bleach); released in bleach04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Freak Scene
-# SAUCE Author: Lord Jazz
-# SAUCE Group: Bleach
-# SAUCE Date: 19950718
-# SAUCE Dimensions: 80x25
-# Lines: 50-98
-# Columns: 1-80
+﻿# Artwork: Freak Scene by Lord Jazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bleach04-ld-fs2-part02
 
 Write-Host '
 [1;30;40m [0m▄[1;30;47m░░▓▒▓▓█[0m ▐█▄ [33m▀ [0;37;43m▓[0;37;40m█[0;1;30;47m░[0;1;30;40m▀ ▄[0;1;30;47m▓[0m   ▀▀ ▀[1;47m░[0m▌▐██[1;47m░▓█[0m▄█[1;47m░▓▓[0;1;40m█[0;1;33;40m▌ [0m▄[1;47m░▓▓[0;1;40m█▄[0;31m■▀[0;37m▄[0;1;37;47m▄[0;1;37;40m███▄ [0m▄[1;47m░▓[0;1;40m███    [0;1;30;40m▐[0;1;30;47m█░[0m

@@ -1,16 +1,4 @@
-﻿# Converted from: WTH!NO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spr_01/raw/WTH!NO.ANS
-# Source Revision: archive-sha256:cf7c7b3ff110fb6079665640462cb52beaf7b27701f8d3257739b60b64ffb9f9
-# Source SHA-256: 7822dc2d5b4b36e64253ffb68aae1c04a87c8bfc5ac22a04da35f602f70ceaea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WTH!NO.ANS by With[ooo]FMC (spr_01); released in spr_01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: With[ooo]FMC
-# SAUCE Date: 20001117
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: WTH!NO.ANS by With[ooo]FMC | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spr-01-wth-no
 
 Write-Host '
 [33m [0;1;31;43m░▒[0;33m▀▀▀▀▀▀▀[0;1;31;43m▀▀▓▓▓▓▓▒▒▒▒▒▓▓▓▓▓▓█████████████████[0;1;32;42m ███▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██[0;1;31;42m▐█[0;1;31;43m█▓▓▓▓▓▓▒ [0m

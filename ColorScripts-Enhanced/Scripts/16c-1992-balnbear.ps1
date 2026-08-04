@@ -1,13 +1,4 @@
-﻿# Converted from: BALNBEAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1992/raw/BALNBEAR.ANS
-# Source Revision: archive-sha256:408f6102282b4b4f582d319af7c00d0c1a49a9b89d70dc7754d4cd44f475f4fb
-# Source SHA-256: d458b1ef5ca4299c8de365aadef0b1e2a4ed78122c5b5247348605023faef819
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BALNBEAR.ANS by George Ramos (1992); released in 1992 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: BALNBEAR.ANS by George Ramos | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1992-balnbear
 
 Write-Host '
 

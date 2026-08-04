@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-AUD2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-36/raw/ZIR-AUD2.ANS
-# Source Revision: archive-sha256:43e7d46e56dc094cf8502b299dcd82ee875dea0a064a36248f4e6c844180fd25
-# Source SHA-256: b230ac2b0b3cb570275a200770dd3ee86ca0b142fd5e384d5a7e287c7b1875d8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-AUD2.ANS by zir (FiRE); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: supper time!!!
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20230303
-# SAUCE Dimensions: 80x74
-# SAUCE Font: IBM VGA
-# SAUCE Comments: he's got your number now. he knows just what you've done. you've | got no place to hide. you've got nowhere to run. he knows your | life of crime. | i think it's supper time!!
-# Lines: 51-74
-# Columns: 1-80
+﻿# Artwork: supper time!!! by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-36-zir-aud2-part02
 
 Write-Host '
 [37m [0;1;30m░░░[0;32m   [0;36m▒[0;1;32;46m░███▀[0;1;32;42m [0;1;33;42m    [0;33;42m▄▓[0;33;40m▀[0;32;40m░░[0m         [33;40m░▒█[0;32;43m░░▒▒▓[0;33;40m▓[0;36;40m ▒[0;32;43m██▓[0;36;41m▓▓▓[0;36;40m██[0;32;40m▌▀[0m         [32;40m▀▀[0;33;42m▒▒▒░░  [0;1;33;42m░░[0;1;32;42m [0;1;36;42m░░[0;36m▄[0m

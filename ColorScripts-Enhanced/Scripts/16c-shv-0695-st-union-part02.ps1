@@ -1,18 +1,4 @@
-﻿# Converted from: ST-UNION.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shv-0695/raw/ST-UNION.ANS
-# Source Revision: archive-sha256:bb4ff0be2845c295b33fa1a12cfa10d6f27c56c159b0d7d43aa0404a3b850a05
-# Source SHA-256: 993958b4ea9ebcb55193abaf90cf59e6bec5e75afd05f212da061d34aa53114c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-UNION.ANS by Stone Chapel (Shiver); released in shv-0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Union Farewell
-# SAUCE Author: Stone Chapel
-# SAUCE Group: Shiver
-# SAUCE Date: 19950602
-# SAUCE Dimensions: 80x25
-# Lines: 38-76
-# Columns: 1-80
+﻿# Artwork: Union Farewell by Stone Chapel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shv-0695-st-union-part02
 
 Write-Host '
 [1;30m  ▄▄██▓▓▀[0;34m  [0;1;34;44m░░░[0;1;37;44m░▒░[0;34m██[0;37m [0;1;30m█▓▓[0m [1;30m▄▄[0m [34m  [0;1;30m [0;1;30;47m▒▓[0;1;30;40m██▓▓[0m [1;31;43m▓[0;1;31;40m▐▌[0m [33m▀[0;37m [0;32m▄▓▀[0;33m▓▌[0;1;30m▄█▀▄[0m   [1;30m█▓█[0m [1;30m█▓██[0m [1;30m█[0m   [1;30m▄▀[0;34m [0;32m█[0;1;32;42m░[0;32m██[0;1;32;42m░[0;32m█[0;34m  [0m

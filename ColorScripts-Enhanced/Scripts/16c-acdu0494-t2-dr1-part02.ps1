@@ -1,18 +1,4 @@
-﻿# Converted from: T2-DR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0494/raw/T2-DR1.ANS
-# Source Revision: archive-sha256:cda9410890e0ae8f5b3a1e8c7fce4e1b3de00d8e334ef300576869cead7a6b53
-# Source SHA-256: 9283e59b4b8c382447f7e6eac39c1451936e73c7ee1d3ed86c3928b98c05e5ef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T2-DR1.ANS by Terminator2 (ACiD Productions); released in acdu0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Death Row
-# SAUCE Author: Terminator2
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940316
-# SAUCE Dimensions: 80x135
-# Lines: 47-93
-# Columns: 1-80
+﻿# Artwork: Death Row by Terminator2 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0494-t2-dr1-part02
 
 Write-Host '
 [31m▒░[0m             [31m░▓▓[0;31;41m  [0;31m▓▒░[0;1;30m▀[0;31m░▒▀▓[0;1;41m   [0;31m█   ░▄[0m              [34m▄▄▄   ▄▄▄▄   [0;1m▄▄█████████████[0m

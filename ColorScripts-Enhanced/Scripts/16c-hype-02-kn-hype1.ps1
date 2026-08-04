@@ -1,17 +1,4 @@
-﻿# Converted from: KN-HYPE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-02/raw/KN-HYPE1.ANS
-# Source Revision: archive-sha256:85e01eadce5f9498d81aff1ce740b243afce4b217290d5d85773c523660d0b86
-# Source SHA-256: 7d4ec0ced601527fbf968dbdb13ad67efbe97ffd9a1809a8d66c9fa4a8f2182d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KN-HYPE1.ANS by Kaneda (Hype); released in hype-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Kaneda Logo
-# SAUCE Author: Kaneda
-# SAUCE Group: Hype
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Kaneda Logo by Kaneda | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-02-kn-hype1
 
 Write-Host '
              [36m [0;1;31m▓▄▄▄▄▄  [0m          [36m░[0m    [36m░[0m     [36m░[0m        [36m░[0m

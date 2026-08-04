@@ -1,19 +1,4 @@
-﻿# Converted from: CAL25-05.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-42/raw/CAL25-05.ANS
-# Source Revision: archive-sha256:5477badab90aaaa6ee2d08aa380254b6982d860b5d0de201e348668cb1eaa063
-# Source SHA-256: b5367388cc522f5ea557575271ec598c62dd0abf076b1bd4a2032eee9e10098a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CAL25-05.ANS by tainted (fire); released in fire-42 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: may 2025
-# SAUCE Author: tainted
-# SAUCE Group: fire
-# SAUCE Date: 20250303
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: may 2025 by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-42-cal25-05
 
 Write-Host '
       [35;40m░[0m        [36;40m▄▄ ■[0m     [35;40m▄[0;1;31;40m▄[0;35m▀[0;37m  [0;1;37m▄[0;1;37;47m■[0m▀ [35m▄[0;1;31;45m░▓▄[0;35m▄[0;37m▀[0;1;37;47m▀█▒[0m▀[36m▄[0;37m▀[0;1;37;47m■[0m▌▄     [33m▀██▀[0;37m [0;35m▄[0;1;31;45m▄█▀ [0;35m▀▀ [0;33m▄▄▀ ▀    [0;35m▀▀[0m

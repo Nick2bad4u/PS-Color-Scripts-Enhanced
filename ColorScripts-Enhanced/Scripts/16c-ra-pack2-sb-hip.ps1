@@ -1,18 +1,4 @@
-﻿# Converted from: SB-HIP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ra-pack2/raw/SB-HIP.ANS
-# Source Revision: archive-sha256:53af416cc2ff2a2d54e90bcbbad5580b81be8c63a28dde237d8068b4f107cba4
-# Source SHA-256: d33223418613d11880b7ae74a7903b7e416ef576c2b8c71e80853414f27b770f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SB-HIP.ANS by snub (rebelart); released in ra-pack2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: hip hop
-# SAUCE Author: snub
-# SAUCE Group: rebelart
-# SAUCE Date: 19980305
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: hip hop by snub | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ra-pack2-sb-hip
 
 Write-Host '
                                [1;33m░[0;33m▄[0;1;33m▄▀  ▄▄   ▓[0m     [1;33m▄[0m

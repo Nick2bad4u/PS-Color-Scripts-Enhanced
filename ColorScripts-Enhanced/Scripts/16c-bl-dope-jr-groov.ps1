@@ -1,18 +1,4 @@
-﻿# Converted from: JR_GROOV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl-dope/raw/JR_GROOV.ANS
-# Source Revision: archive-sha256:94d0a6d1a54f912bf59b65f9ab8ad2e76bf857ee4ed7295093943e200494477a
-# Source SHA-256: b56348482db90428bce8f89431518b8bc4a62911d9a7de0d6151b5b460aae763
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_GROOV.ANS by jerusalem (boil); released in bl-dope and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: drink'n go.
-# SAUCE Author: jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19970408
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: drink'n go. by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-dope-jr-groov
 
 Write-Host '
         [36m█[0;1;36;46m■[0m

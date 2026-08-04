@@ -1,13 +1,4 @@
-﻿# Converted from: CPH-DPLG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-014/raw/CPH-DPLG.ANS
-# Source Revision: archive-sha256:38aae4e6b3e943656501d868e7ccbeee319f7541f5197f0cc3aeed0b83030214
-# Source SHA-256: 867a8662204a8f8ff7050e6495f88a8df61f313a58a62be362040ae5ebcc8119
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-DPLG.ANS by Cyberpunch (rib-014); released in rib-014 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: CPH-DPLG.ANS by Cyberpunch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-014-cph-dplg
 
 Write-Host '
 [1;33;47m░░░░░░[0m▓[1;30;47m░[0m▓[1m▒[0m▓░[1;30m▓[0m░░                                             [32m▀[0;1;33m▀▀[0;1;33;42m▀▄[0;32m█▄▄[0;1;32m▒▒[0;32m▀▀[0;37m [0;32m▀▀▄▄[0;1;32m▒[0;32m▐[0;1;33;42m░[0m

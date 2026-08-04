@@ -1,18 +1,4 @@
-﻿# Converted from: xk-rezin.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-32/raw/xk-rezin.ans
-# Source Revision: archive-sha256:592b7d4f358f30737b6158da53bb66d21faa0f145681ba11ddc050c10439c394
-# Source SHA-256: 2a90c5dc624020d760cc96ca9386d66dee675ce70cf8352a488282557c94b3e9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: xk-rezin.ans by xkey (secular); released in sclr-32 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: rezine logo [req]
-# SAUCE Author: xkey
-# SAUCE Group: secular
-# SAUCE Date: 20030818
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: rezine logo [req] by xkey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-32-xk-rezin
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: US-GNOM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p09_00/raw/US-GNOM.ANS
-# Source Revision: archive-sha256:2d55e0471b241c84b2000d7f1ba05c65c9f1c93ead6af87d8d0b58764c2b8dba
-# Source SHA-256: 4a24c1e4afa6e77d0c391588e54f60bf0506fdc430b71ac7f38b70c53847717b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GNOM.ANS by Protoplasta + Simonking (thelo0p); released in l0p09_00 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: gnom for radman
-# SAUCE Author: ppa! & sK!
-# SAUCE Group: thelo0p
-# SAUCE Date: 20001120
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: gnom for radman by Protoplasta + Simonking | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p09-00-us-gnom
 
 Write-Host '
    [33m░▄▀▄▀[0;1;33;43m░[0;1;33;40m▀[0;33m▄▀ ▄[0;1;33;43m░[0;33m▀[0;1;33m▄[0;33m▀░▄▐[0;1;33;43m░[0;33m▄ [0;1;33;43m░[0;1;33;40m▄[0;33m░▀▄▀[0;1;33;43m░[0;1;33;40m▀[0;33m▄░[0m          [31m░░░░░░[0m

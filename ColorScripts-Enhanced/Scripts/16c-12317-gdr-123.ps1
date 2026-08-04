@@ -1,13 +1,4 @@
-﻿# Converted from: GDR-123.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/12317/raw/GDR-123.ANS
-# Source Revision: archive-sha256:2671c97264d75fd9041fa98ce6512a370bf527f9c7397125627811c918171aec
-# Source SHA-256: 4ed9dfd2f05de7a5aa899357da4a25541e822226023e49830631cb53ce4381d9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GDR-123.ANS by Gravedancer (12317); released in 12317 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: GDR-123.ANS by Gravedancer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-12317-gdr-123
 
 Write-Host '
 [36m __.,,,aaiiiIIII[0;36;44m▓▓▒▒▒▒[0;34;40m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$GDR$$____[0m

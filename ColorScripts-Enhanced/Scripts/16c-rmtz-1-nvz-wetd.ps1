@@ -1,18 +1,4 @@
-﻿# Converted from: NVZ-WETD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmtz-1/raw/NVZ-WETD.ANS
-# Source Revision: archive-sha256:e96ee325d754c1e5b063aafdda446247803f028109cb9f0ea526dc0edc4ca3c5
-# Source SHA-256: 03fe76aaa17e193a3f510a317e3ff840f935c6d3ddc75169dea2bcddc55360d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NVZ-WETD.ANS by N0ViCE (rmtz); released in rmtz-1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: WEt dREAM -=}
-# SAUCE Author: N0ViCE
-# SAUCE Group: rmtz
-# SAUCE Date: 19960511
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: WEt dREAM -=} by N0ViCE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmtz-1-nvz-wetd
 
 Write-Host '
 [34m░[0m              [34m░[0;37m  [0;34m░[0;37m  [0;34m░[0m    [34m░[0m      [1;30m▄[0m▄    [1;30m▄[0m,    [34m░[0;37m [0;34m░[0m    [34m░[0;37m  [0;34m░[0m         [34m░[0m       [34m░[0m

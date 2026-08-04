@@ -1,17 +1,4 @@
-﻿# Converted from: THE_WAR_ON_CHRISTMAS-MONSTERCAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0224/raw/THE_WAR_ON_CHRISTMAS-MONSTERCAT.ANS
-# Source Revision: archive-sha256:1a4cb7c29a353c2afa0810057f800e5309b23e585d4ef3b711249cd25433ea84
-# Source SHA-256: 7293aa42f03e1b883d63d10be2e1c1239e171ec6e9cf5feac38777a1624a247e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: THE_WAR_ON_CHRISTMAS-MONSTERCAT.ANS by Anonymous (mist0224); released in mist0224 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: Anonymous
-# SAUCE Date: 20240222
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: THE_WAR_ON_CHRISTMAS-MONSTERCAT.ANS by Anonymous | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0224-the-war-on-christmas-monstercat
 
 Write-Host '
 [36m████████████████████████████████████████████████████████████████████████████████[0m

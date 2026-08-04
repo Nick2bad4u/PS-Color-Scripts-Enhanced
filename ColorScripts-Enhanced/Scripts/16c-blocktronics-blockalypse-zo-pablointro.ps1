@@ -1,16 +1,4 @@
-﻿# Converted from: zO-PabloIntro.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_blockalypse/raw/zO-PabloIntro.ans
-# Source Revision: archive-sha256:29ba148fe5fc8b4a774ee58a56a5b6d8104f139a95cba3df944ffda7c075e06a
-# Source SHA-256: 8c2f8301932e45510f39dd657c45843f758971647ed498ab2d6709abc6aa9107
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zO-PabloIntro.ans by Enzo (blocktronics_blockalypse); released in blocktronics_blockalypse and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20140125
-# SAUCE Dimensions: 80x35
-# SAUCE Font: IBM VGA
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: zO-PabloIntro.ans by Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blockalypse-zo-pablointro
 
 Write-Host '
 

@@ -1,20 +1,4 @@
-﻿# Converted from: THE_ELK-SHIRA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1119/raw/THE_ELK-SHIRA.ANS
-# Source Revision: archive-sha256:55e25d51e7ea67e18beea3070275d20b31facc3af69759bb904716908b0d1228
-# Source SHA-256: cf43a17c8cc0dcfd9839e9b895a7af4da9e2299b6dfaeaccc18f91a8cd78a97d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: THE_ELK-SHIRA.ANS by the elk (Mistigris); released in mist1119 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Target: Armada
-# SAUCE Author: the elk
-# SAUCE Group: Mistigris
-# SAUCE Date: 20190925
-# SAUCE Dimensions: 80x70
-# SAUCE Font: IBM VGA
-# SAUCE Comments: interpretation of the character 'Shira' that appears in issue 11 | 4 (Aug, '85) of the Marvel comic 'Return of the Jedi'. she's an |  Imperial double-agent, part of a small group using Tie-Fighters |  to sneak in and attack the Imperial Armada with Luke Skywalker. |  drawn in iCE colors in Moebius on PC.
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Target: Armada by the elk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1119-the-elk-shira-part01
 
 Write-Host '
 [1m█[0m [1;33m█[0m [1m▄██[0m [1;33m▄█[0m [1m▄[0;1;33;107m  [0;107m      [0;1m▄[0m [1;33m▀█[0m  [107m      [0;1m▄[0m [1;33m▀▄[0m [107m      [0;30m█[0;30;107m█ [0;37;107m [0m        [1m▀██▄[0m                 [1;36ma[0m  [1;36m''[0m

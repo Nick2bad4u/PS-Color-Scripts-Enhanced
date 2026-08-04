@@ -1,18 +1,4 @@
-﻿# Converted from: LD-DC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-03/raw/LD-DC1.ANS
-# Source Revision: archive-sha256:fae30929abb2b921ba96bc7ad0b445be298bbdb28aa42921644d897c08d22f33
-# Source SHA-256: 6e825b710c1da4272ed6032d26af1f0d6182ded58b81d52e30c5c2b4a9223985
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-DC1.ANS by lordjaaaaaaaz (odium); released in odium-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: diet cola
-# SAUCE Author: lordjaaaaaaaz
-# SAUCE Group: odium
-# SAUCE Date: 19960128
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: diet cola by lordjaaaaaaaz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-03-ld-dc1
 
 Write-Host '
 [1m[0m                 [36m▄▄[0;1;34m▄▄▄▄[0m                       [1;34m▄▄▄▄▄▄[0m

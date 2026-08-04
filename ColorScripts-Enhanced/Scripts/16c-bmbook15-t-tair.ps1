@@ -1,18 +1,4 @@
-﻿# Converted from: T-TAIR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook15/raw/T-TAIR.ANS
-# Source Revision: archive-sha256:e54ebc8c52f8d9379c31843d1a642e9eaaf309656353be720cf874920f543492
-# Source SHA-256: 887d43457d0bca63fcdce60b3b26ebf6c51f03e874f556aaa0a52bced8035997
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T-TAIR.ANS by toot (black maiden); released in bmbook15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: thin air
-# SAUCE Author: toot
-# SAUCE Group: black maiden
-# SAUCE Date: 19971031
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: thin air by toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook15-t-tair
 
 Write-Host '
   [1;30m░[0;1;30;47m▓▓▓░░░[0;1;37;47m▄▄▄[0;1;30;47m  [0;1;37;47m░░▓▓[0;1;37;40m▓▓▒[0;1;30;47m▄▄[0;1;30;40m▀▀▀▀░░[0m  [1;36;46m▀▌[0;36;44m▌[0;37;40m [0;1;37;47m▀[0;1;30;47m▐▄[0;1;30;40m▌▀[0m▀[1;30m▀[0m   [34m▄[0;36;44m▄▌[0;34;40m▄▄ ░▄▄[0m        [1;30;40m▀▐███[0;1;30;47m▄  ▓[0;1;30;40m███░  [0m

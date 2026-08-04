@@ -1,13 +1,4 @@
-﻿# Converted from: TH-HTC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vi-9406/raw/TH-HTC.ANS
-# Source Revision: archive-sha256:e8f9f5912fa7d2ee7d78e5d6125ede18c6783b9182dd2eac7ad04a01155433ba
-# Source SHA-256: c1385a35209c54a83684aa60a0656ab330c50e1111eac4df60780cd0f9d98add
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH-HTC.ANS by Thadicus (vi-9406); released in vi-9406 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 41-77
-# Columns: 1-80
+﻿# Artwork: TH-HTC.ANS by Thadicus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vi-9406-th-htc-part02
 
 Write-Host '
 [1;30m▓█▓▓▒█▓▒█▓▒█▓ ░░▒▓[0;1;30;42m▒░            ░ ▒██▒                    ░  ░[0;1;30m▓▒░ ░  ░▒▓██[0;1;30;42m██▓▒░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: MID-DEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-13/raw/MID-DEL.ANS
-# Source Revision: archive-sha256:c96e8204cdf1a3103513e07eb0d1ba369137dfc5e9ab833b936ceec1296a9193
-# Source SHA-256: e1575d36139d7af82411860a3105760df8973b00470e215b343e7037f8aba7fa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MID-DEL.ANS by Midknight (purg-13); released in purg-13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: MID-DEL.ANS by Midknight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-13-mid-del
 
 Write-Host '
 

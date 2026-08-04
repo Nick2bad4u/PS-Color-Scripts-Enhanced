@@ -1,18 +1,4 @@
-﻿# Converted from: CRS-SHD3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/buzina7/raw/CRS-SHD3.ANS
-# Source Revision: archive-sha256:88309b63630ff3f679eee50c899453fae8527dae99f9da0b49e79b2fc8312cfc
-# Source SHA-256: aa6e54642ed4a6716407ac0b067efbe00e9f043efb85889f48f1dce612d466ed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CRS-SHD3.ANS by Crasher + Shadow (galza); released in buzina7 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: landschaft
-# SAUCE Author: shadow [buzined crs]
-# SAUCE Group: galza
-# SAUCE Date: 20030401
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: landschaft by Crasher + Shadow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-buzina7-crs-shd3
 
 Write-Host '
 [35m,:,┼\Z~yt└6n ⌂÷zaê: \δ╙si/yz< t[0;1;37m,[0;35m└/aH\¬,±│xs,`/%.[0;36m,┌s$$$$s$╤$$$lSS$$$$$ò$ZΘ$YJ▌Σ¢$[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: TK-BLEND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr008/raw/TK-BLEND.ANS
-# Source Revision: archive-sha256:538713f6eceb08f3ae929b511bdabc41afc7e24581ca518038e52dcff7842248
-# Source SHA-256: 0fcfcfbf5fd5680b4b0fa2872656f6c143aeb8d8f949c6e159bc1fc3c0f16255
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TK-BLEND.ANS by The Knight (Fuel); released in blndr008 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: tguardian pho' blender
-# SAUCE Author: The Knight
-# SAUCE Group: Fuel
-# SAUCE Date: 19970113
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: tguardian pho' blender by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr008-tk-blend
 
 Write-Host '
 [1;33m▄▄▄▄▄▄▄▄ ▄▄▄▄▄  ▄▄ ▄▄ ▄▄▄▄▄ ▄▄▄▄▄ ▄▄▄▄  ▄▄ ▄▄▄▄▄ ▄▄▄▄ [0m(tm)

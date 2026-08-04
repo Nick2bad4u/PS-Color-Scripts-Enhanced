@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-LADY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel17/raw/ZII-LADY.ANS
-# Source Revision: archive-sha256:6bb17dad2b087feff514e10d76b337034c943aff1fa5007d50b103cb34f90d66
-# Source SHA-256: bf9a7e7ee850875af956abefd12016bc73dffc6cc6b7bb8495240b95bb604990
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-LADY.ANS by Zeus II (fuel); released in fuel17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: an old lady
-# SAUCE Author: Zeus II
-# SAUCE Group: fuel
-# SAUCE Date: 19970904
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: an old lady by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel17-zii-lady
 
 Write-Host '
 

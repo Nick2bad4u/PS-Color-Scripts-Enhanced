@@ -1,18 +1,4 @@
-﻿# Converted from: ILLNX-03.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oph-0013/raw/ILLNX-03.ANS
-# Source Revision: archive-sha256:5e625c36cc911c4dcde4a3790624d86c03458fb68ba127d178ce0ea486babf74
-# Source SHA-256: 7caa10fe35d0d1fc61523c95a11278d324e099eb3eec2aa49bb3671a2c750aa2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ILLNX-03.ANS by illusion x (ophidiac); released in oph-0013 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: 2[]       \   __[[__
-# SAUCE Author: illusion x
-# SAUCE Group: ophidiac
-# SAUCE Date: 19960816
-# SAUCE Dimensions: 80x52
-# Lines: 29-52
-# Columns: 1-80
+﻿# Artwork: 2[] \ __[[__ by illusion x | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oph-0013-illnx-03-part02
 
 Write-Host '
   [34m▄[0;35;44m░░░[0;1;35;44m░[0;35;44m░░░░[0;34;40m▄[0;37;40m     [0;32;40m    [0;1;32;40m▄▄[0;1;37;40m▄█[0;32m  [0;1;34m▐[0;1;34;45m▓▒[0;34;45m▓[0;34;40m▌[0m                    [37;40m  [0;34;45m▓▓[0;37;40m  [0;1;32;40m▄▄[0;1;37;40m██[0;1;32;42m██[0;1;32;40m▄[0;32m   [0;1;37m█[0;1;32;42m██▓▓▓▓▓▓░░[0;32m [0m

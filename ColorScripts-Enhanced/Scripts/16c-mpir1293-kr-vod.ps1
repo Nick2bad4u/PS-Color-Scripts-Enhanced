@@ -1,13 +1,4 @@
-﻿# Converted from: KR-VOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mpir1293/raw/KR-VOD.ANS
-# Source Revision: archive-sha256:a6ce72b8c0df5a3595a00c60857fc03a1fdae1dedc211d5cee206305e4ab78dc
-# Source SHA-256: 44e44fcf15eefc92e92710d968fe3718e7e221b13248860bdc4e3bb9faed7a32
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KR-VOD.ANS by Killraven (mpir1293); released in mpir1293 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: KR-VOD.ANS by Killraven | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mpir1293-kr-vod
 
 Write-Host '
                                    [1;30m▄▄▄▌   ▄▄▄▌[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SX-ELIX1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0402/raw/SX-ELIX1.ANS
-# Source Revision: archive-sha256:19898cc2febb6deadccf50832dc421b4f362a33c899e27278bafd225bbc2d4d4
-# Source SHA-256: 8270b50960e68721fa8f73d2dd98b275181b1546d281b9aae872c6b11e4916e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SX-ELIX1.ANS by sinister x (Revival); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Elixir
-# SAUCE Author: sinister x
-# SAUCE Group: Revival
-# SAUCE Date: 20020415
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Elixir by sinister x | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0402-sx-elix1
 
 Write-Host '
         [36m▄[0;1;36m▄▄▄[0;36m▀[0;1;36m▀▀▀▀▀▀[0;36m▀█[0m     [1;36m▄▄▄▄[0;36m▄[0m                          [1;36m▄▄▄▄[0;36m▄[0m

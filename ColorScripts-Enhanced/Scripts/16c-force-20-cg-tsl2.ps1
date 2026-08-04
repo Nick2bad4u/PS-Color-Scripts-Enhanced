@@ -1,18 +1,4 @@
-﻿# Converted from: CG-TSL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-20/raw/CG-TSL2.ANS
-# Source Revision: archive-sha256:b65b1598bdbe93e151f93f9f40d2613d08906785e28b647f36a717a146afc8fc
-# Source SHA-256: b4c2e5d2921ed1073ace778cb6f8e14ad9aa095ad405e987d7d5d761b4e466bb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-TSL2.ANS by cryogenic (avenge); released in force-20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the savage lands
-# SAUCE Author: cryogenic
-# SAUCE Group: avenge
-# SAUCE Date: 19980204
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: the savage lands by cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-20-cg-tsl2
 
 Write-Host '
 [1;32;42m▓[0;1;32;40m▓[0;1;32;42m▒▒░░[0;32m█[0;1;32;42m░░[0;32m▀▀▀▀    [0m    [1;36m░[0;36m▄[0;1;37m▄[0;1;36m▄▄▄▄▄[0;36m▄ [0m          [32m▀▀▀▀▀▀▀███████[0;1;32m▒▒[0;32m█████[0;1;32;42m░░[0;32m█[0;1;32;42m░░▒▒▓[0;1;32;40m▓[0;1;32;42m██▓[0;1;32;40m▓█[0;1;32;42m█[0;1;32;47m▓▓[0;32m▌[0m

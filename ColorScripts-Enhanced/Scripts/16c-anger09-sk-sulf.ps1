@@ -1,16 +1,4 @@
-﻿# Converted from: SK!-SULF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger09/raw/SK!-SULF.ANS
-# Source Revision: archive-sha256:1d024ab1b967a873387ebae34f188b304120e208b081dccdcb5397c8adcbd2a4
-# Source SHA-256: d0f5f9b8f2cd8f4a599e991f2e01e6147dacc4dd194c77cc59e507443e7ee14a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!-SULF.ANS by seeker (anger); released in anger09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: sulfur
-# SAUCE Author: seeker
-# SAUCE Group: anger
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: sulfur by seeker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger09-sk-sulf
 
 Write-Host '
 [1;30;40m [0m                                                [1;37;40m:[0m

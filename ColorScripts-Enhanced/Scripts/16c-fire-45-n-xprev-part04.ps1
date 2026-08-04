@@ -1,19 +1,4 @@
-﻿# Converted from: N-XPREV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-45/raw/N-XPREV.ANS
-# Source Revision: archive-sha256:0564021806e0277d72a0e235c044a0e0470226ba860a8976e1e3092326555d1d
-# Source SHA-256: 111790df2c1950e5a201c86504a575268bfabdb519026d35b50a2fad491e843b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-XPREV.ANS by nail (fire); released in fire-45 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: xpress revisited
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 20260303
-# SAUCE Dimensions: 80x156
-# SAUCE Font: IBM VGA
-# Lines: 119-156
-# Columns: 1-80
+﻿# Artwork: xpress revisited by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-45-n-xprev-part04
 
 Write-Host '
      [1m██▄▄[0m                [31m▐▌[0;37m    [0;31m█▄ ▀████████▀[0;37m [0;1;31;41m▄█[0;1;31;40m▀[0;31m▀[0;37m    [0;31m■[0m              [1;30m██[0m  [1m▐█[0;1;47m▄[0m

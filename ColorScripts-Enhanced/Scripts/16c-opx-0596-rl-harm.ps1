@@ -1,18 +1,4 @@
-﻿# Converted from: RL!-HARM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0596/raw/RL!-HARM.ANS
-# Source Revision: archive-sha256:06f164afecd2a38c1a107122cbc0c2c2d07c6484c9e867e2eecffd5f8b0065bf
-# Source SHA-256: ba0ae9bde7469f1c9f38d4541fa067ce5f790b2c1456ba38f435da0d1ca1d7cc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL!-HARM.ANS by Rawlock (Opium); released in opx-0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Harm
-# SAUCE Author: Rawlock
-# SAUCE Group: Opium
-# SAUCE Date: 19960502
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Harm by Rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0596-rl-harm
 
 Write-Host '
 

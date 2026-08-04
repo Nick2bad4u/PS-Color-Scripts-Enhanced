@@ -1,13 +1,4 @@
-﻿# Converted from: zs-dek.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sys2_02/raw/zs-dek.ans
-# Source Revision: archive-sha256:4be7ec805fb2a4a39fee328474e69db4f25855ccd9f3e08bd6de462c5c223bd8
-# Source SHA-256: 49abb5e9c80b1026f313eebf50fef2dc23dc5383858c46b661e170a54fd8cab8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zs-dek.ans by Zerostar (sys2_02); released in sys2_02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: zs-dek.ans by Zerostar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sys2-02-zs-dek
 
 Write-Host '
 [1;37m██[0;1;36m██[0;1;36;46m▀[0;1;36;40m█[0;1;36;46m▀[0;36m█[0;1;5;30;46m▄[0;1;36m▀[0;1;30;46m▄[0;36m▀[0;1;36m▀▀[0;1;37m▀▀[0;1;36m▀[0;36m▀[0;37m  [0;1;36m▀▀[0;36m▀[0m     [36m▀[0;1;30m▀[0m   [1;30m▄[0;32m [0;1;30m▀▄[0m▄[1;30m▄[0;32m  [0;1;30m▀[0m▀▄[1;30m▄[0m [36m▐[0;1;30;46m░[0;36m▌[0;5;37;47m▄[0m▀[1;30;47m▀[0;1;30;40m▄[0m  [36m ▄[0;1;36m▐█[0;1;36;46m▀[0;36m▀ ▀[0;1;30m▄[0m▄[1;30;47m▀[0;1;37;47m▄[0;1;30;40m▄[0;32m   [0;1;30m▄[0m   [36m░[0;1;36;46m▓[0;1;5;37;46m▀░[0;1;30;46m▄[0m

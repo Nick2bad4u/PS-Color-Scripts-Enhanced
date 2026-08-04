@@ -1,17 +1,4 @@
-﻿# Converted from: SZ-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hal0299/raw/SZ-FIRE.ANS
-# Source Revision: archive-sha256:d0533de96de1d82218ba744c4b2c23a4b06ac9501a7bf425b74ab0a3ee5fa73f
-# Source SHA-256: 4dfd4d23e2cc4a32927b9cd1058523c410537f5675d518b62134c9f5f564d09d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SZ-FIRE.ANS by Slackzor (Hallucigenia); released in hal0299 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Fire
-# SAUCE Author: Slackzor
-# SAUCE Group: Hallucigenia
-# SAUCE Dimensions: 80x25
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: Fire by Slackzor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hal0299-sz-fire
 
 Write-Host '
 [1;30m  [0m       [31m■▄▄[0m   [31m▀▓█▓▄[0;1;31m▄▄▄[0;1;31;41m█▓[0;1;31;40m▀[0;31m▀░▓▀[0;1;31m▀[0;1;31;41m░[0;1;31;40m▄[0m  [1;31m▄▄[0;31m▄[0;33;41m▒░[0;31;40m░[0;37;40m [0;31;40m░[0;33;41m░▒▒[0;33;40m▀▀▀[0;31;40m▀[0;33;41m▒░░[0;31;40m▓░[0;37;40m [0;31;40m▄▄▬[0;37;40m [0;33;40m▀▀■▄[0;33;41m▓█▓[0;33;40m▄▄[0;37;40m [0;33;40m■▀▀▀[0;33;41m▓▒[0;1;31;43m░▒[0;31m▄[0m

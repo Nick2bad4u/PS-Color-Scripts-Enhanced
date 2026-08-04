@@ -1,18 +1,4 @@
-﻿# Converted from: MV-CMOS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pyro02/raw/MV-CMOS.ANS
-# Source Revision: archive-sha256:535d22e2025d36e67624f8fb7beb22ccd3cf751884c55590454ec93afcc01bf4
-# Source SHA-256: 664bfbd4a13fa8f572187d987567bbbd9517a85715d1abee6ea105b09d924c6f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MV-CMOS.ANS by Motive (Pyro); released in pyro02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Cmos Hell
-# SAUCE Author: Motive
-# SAUCE Group: Pyro
-# SAUCE Date: 19960421
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Cmos Hell by Motive | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pyro02-mv-cmos
 
 Write-Host '
 

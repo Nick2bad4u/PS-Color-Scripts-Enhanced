@@ -1,18 +1,4 @@
-﻿# Converted from: TH-TUI3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shv-1294/raw/TH-TUI3.ANS
-# Source Revision: archive-sha256:f5a9cb72572b56ffa2e2d95e600f8c71afc6c91753a9bf8679dcd918614a3091
-# Source SHA-256: e8478848f7cf1c78535a69b7738973ab844020b97c10781d39f76c30961df84f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH-TUI3.ANS by Thor (Shiver); released in shv-1294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Trapped Under Ice
-# SAUCE Author: Thor
-# SAUCE Group: Shiver
-# SAUCE Date: 19940712
-# SAUCE Dimensions: 80x25
-# Lines: 110-151
-# Columns: 1-80
+﻿# Artwork: Trapped Under Ice by Thor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shv-1294-th-tui3-part04
 
 Write-Host '
 [35m    [0;1;35m▀[0m      ▄▄▄      [35m▄[0m                    [1;35m·[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: _xmas_bs-67xmas.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_miracle_on_67th_street/raw/_xmas_bs-67xmas.ans
-# Source Revision: archive-sha256:7a78b3edd176c6d05feb481522f2c4f3e57721df62292c2b4ce537e855c41ae8
-# Source SHA-256: 72e2b94ea57c08b3cbf359886ed8fbee7e2f3f5aefa81be08b28907c223aa797
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _xmas_bs-67xmas.ans by burps (fuel); released in blocktronics_miracle_on_67th_street and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 67 xmas ball
-# SAUCE Author: burps
-# SAUCE Group: fuel
-# SAUCE Date: 20181211
-# SAUCE Dimensions: 80x56
-# SAUCE Font: IBM VGA
-# Lines: 31-56
-# Columns: 1-80
+﻿# Artwork: 67 xmas ball by burps | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-miracle-on-67th-street-xmas-bs-67xmas-part02
 
 Write-Host '
 [30;40m [0;37;40m▌[0;1;37;47m▓[0;1;37;40m▀[0;1;37;47m▌[0m▀  [31m▒▓ ▌ ▐█[0;1;31;41m░▒[0m [1m▀▄▄▄  [0;1;33m▀[0;1;33;41m▄[0;31m██[0;33m▀[0;1;33m▄▄[0;1;33;43m▀[0;33m▀[0;31m▄██[0;1;33;47m▓[0;1;33;43m▀[0;31m▐[0;1;33;43m▀[0;1;33;41m▄▄[0;1;33;47m▓[0;1;33;43m▀▀[0;1;33;40m▐[0;1;33;43m▌[0;33m▌[0;1;33m█[0;33;41m█[0;1;33;40m▄[0;1;33;43m▀[0;1;33;47m▓[0;33;41m█[0;1;33;40m█[0;33;41m█[0;1;33;40m▐[0;1;33;43m▌[0;33m▌[0;1;31;41m░[0;1;33;41m▐[0;1;33;43m▌▄[0;1;33;40m▄[0;31m█▄[0;30m█[0m

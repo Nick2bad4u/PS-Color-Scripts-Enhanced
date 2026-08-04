@@ -1,13 +1,4 @@
-﻿# Converted from: SS-RH2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9405/raw/SS-RH2.ANS
-# Source Revision: archive-sha256:1a80748d26b1608956e62981097747a5f5037b77df31445dba1dcac7e173021c
-# Source SHA-256: cf5df2c21776a022d07eae40445b01860b9f970b18443d580c468b01c71d9d2d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SS-RH2.ANS by Soul Seeker (blde9405); released in blde9405 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: SS-RH2.ANS by Soul Seeker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9405-ss-rh2-part02
 
 Write-Host '
 [34;40m [0;33;40m▓▓▓▒▒░▀▀▀▀   ▀▀▀██████████████▓▓▄ ▀▀▄▀░▒▓▓▒▓██▓▒███████[0;33;47m▓▒░ [0;33;40m▄[0m        [34;40m▓█[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: KM-TASB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0594/raw/KM-TASB1.ANS
-# Source Revision: archive-sha256:c612ea4a59fec91943d878667a48e1c926e28a2e076d898f1c1ec92a14e6fce8
-# Source SHA-256: 3ece7c3c528a87e19b3961937ef68049cef022954c2a37c660a15a1e5519b51b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KM-TASB1.ANS by King Midas (ACiD Productions); released in acdu0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Armageddon Support BBS
-# SAUCE Author: King Midas
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940426
-# SAUCE Dimensions: 80x208
-# Lines: 111-159
-# Columns: 1-80
+﻿# Artwork: The Armageddon Support BBS by King Midas | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0594-km-tasb1-part04
 
 Write-Host '
 [33m▒▓▓▓██████[0;33;43m [0;1;33;43m░░░░▒▒▒▒▒▓▓▓▓▓[0;1;33;40m█████████[0;1;33;43m▓▒░[0;33m▄  ▀▄▄▄▄███[0;1;33;43m░░░▒▒▒▒▒▒░░░[0;33m▄▄▄   [0;1;30m▄▀ ▄█▀   ▄[0m

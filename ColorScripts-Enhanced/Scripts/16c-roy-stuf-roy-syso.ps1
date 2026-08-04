@@ -1,13 +1,4 @@
-﻿# Converted from: ROY-SYSO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roy-stuf/raw/ROY-SYSO.ANS
-# Source Revision: archive-sha256:1f203f95f339c258e43a9098f8d2e689ed73de537b1cfe6bea312dfc156f1358
-# Source SHA-256: c1608f0d8eda3e5aceab794e2090abcce014a9de7add80fa8d3fc7fc0a7a7b9d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ROY-SYSO.ANS by Roy (roy-stuf); released in roy-stuf and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-6
-# Columns: 1-80
+﻿# Artwork: ROY-SYSO.ANS by Roy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roy-stuf-roy-syso
 
 Write-Host '
      

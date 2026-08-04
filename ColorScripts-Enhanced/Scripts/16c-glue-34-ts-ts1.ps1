@@ -1,18 +1,4 @@
-﻿# Converted from: Ts-ts1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-34/raw/Ts-ts1.ans
-# Source Revision: archive-sha256:9e0a0dccb577f6014cf58e9ea09ed207eb1e2086aae9821b650288ffddccb599
-# Source SHA-256: ed90a2279dc8b8c1b3ddeb7ce7a2e25074ca4893ffeac6f8c891fbffd81fa356
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Ts-ts1.ans by transient (glue); released in glue-34 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: 23 liner
-# SAUCE Author: transient
-# SAUCE Group: glue
-# SAUCE Date: 20010301
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: 23 liner by transient | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-34-ts-ts1
 
 Write-Host '
 [1;30m█[0;1;32m [0;34m█[0;1;37m [0;34m ▀██[0;1;34;44m░[0;34m▄▄[0;1;37m [0;33m▀██[0;1;31;43m►░▒▓[0;1;31;47m▐[0;1;31;40m███████████████████████[0;1;31;43m▓▓▓▄[0;1;30;43m░[0;33m█[0;1;30;43m░░░[0;1;37;40m [0;1;34;40m█[0;1;34;44m▓▒░[0;1;37;40m  [0;34m▀█[0;1;34;44m░▒[0;1;37;40m ███[0;1;37;47m▓▓[0;1;37;40m███[0;1;37;47m [0;1;37;40m▀▄  [0;1;37;47m ░░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: xt-endor.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot1197/raw/xt-endor.ans
-# Source Revision: archive-sha256:42a4ff2f69bb7f52710e2ec33efed1616917289c2c21517459d11ab153763ccb
-# Source SHA-256: a80d7d5a52be87155bc7bd84d150d9105a94f45e51e2a9107796d023a2a8b47a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: xt-endor.ans by Exocet (riot1197); released in riot1197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: xt-endor.ans by Exocet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot1197-xt-endor
 
 Write-Host '
                                   [35m               [0m

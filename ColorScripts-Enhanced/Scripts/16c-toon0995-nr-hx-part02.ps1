@@ -1,18 +1,4 @@
-﻿# Converted from: NR-HX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toon0995/raw/NR-HX.ANS
-# Source Revision: archive-sha256:02c0858ccb65f788003d1baa20212382f5d5979442b6fda9c8793eaaadf48a11
-# Source SHA-256: 53a0d33097d339f9a3ee7c1831a21e2fe80da7787c8de21fd5b4d60564100070
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NR-HX.ANS by Narcosis (toon); released in toon0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Highway X
-# SAUCE Author: Narcosis
-# SAUCE Group: toon
-# SAUCE Date: 19950823
-# SAUCE Dimensions: 80x25
-# Lines: 38-74
-# Columns: 1-80
+﻿# Artwork: Highway X by Narcosis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toon0995-nr-hx-part02
 
 Write-Host '
              [35m▀[0;1;35;45m▓█▄[0;1;35;47m▓[0;35m██[0;1;30;45m░[0;35m█[0;1;35;45m▀▓▀[0;35;46m▓[0;35;40m █[0;1;35;45m▄██[0;1;35;40m▓[0;1;35;45m█▀█▀▓ [0;35m▀▀█[0;1;35;45m▀ ▀▀[0;1;35;40m▓[0;1;35;45m▀[0;1;30;45m░[0;35m▀[0;1;35m▄▓[0;1;35;45m▄█▀▀▀█[0;1;35;47m▓[0;1;35;45m█████[0;1;35;40m█▄▄[0;35m▀█  [0m

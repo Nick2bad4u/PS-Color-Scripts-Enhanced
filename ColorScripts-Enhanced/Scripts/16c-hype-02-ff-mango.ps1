@@ -1,17 +1,4 @@
-﻿# Converted from: FF-MANGO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-02/raw/FF-MANGO.ANS
-# Source Revision: archive-sha256:85e01eadce5f9498d81aff1ce740b243afce4b217290d5d85773c523660d0b86
-# Source SHA-256: e78c9b82f2dd3e6c9c3021d6ada8f7e22811f2fa87dd0c6ea41bfed1822e0039
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FF-MANGO.ANS by Free Fall (Hype); released in hype-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: "Murderous Mango" Pic
-# SAUCE Author: Free Fall
-# SAUCE Group: Hype
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: "Murderous Mango" Pic by Free Fall | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-02-ff-mango
 
 Write-Host '
                     [31m▄[0m                                      [35m▄[0m

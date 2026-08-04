@@ -1,13 +1,4 @@
-﻿# Converted from: RMK-AMI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/smr-05/raw/RMK-AMI.ANS
-# Source Revision: archive-sha256:6c589592cb102bb3cb03efca975252b9e8b7f23e59c47e5916cb88ac2253c9a2
-# Source SHA-256: 12d3eeeb58328236e012f6c92dfc09f0204c61f8abeadce53125dd32b9f60bd0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RMK-AMI.ANS by Rumik (smr-05); released in smr-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: RMK-AMI.ANS by Rumik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-smr-05-rmk-ami
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: AX½ABS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0198/raw/AX%C2%BDABS.ANS
-# Source Revision: archive-sha256:463d77f4b1466b54ce907e7ee760282fc69f7183ee8d9f351965b1f5ce417b30
-# Source SHA-256: a9fefa0b8dbc96c19c099736e5a61d8f8e472bdd5265d136425b097e7bb7f40c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AX½ABS.ANS by alla xul (poffelipoff); released in plf-0198 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: matrix
-# SAUCE Author: alla xul
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19980109
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: matrix by alla xul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0198-ax-abs
 
 Write-Host '
 [31m█████▓▓▓▒▒▒▓▒▓░▓ ░░[0;1;37m [0;31m░[0m             [31m░░▒░▓▓▓▓▓████▄[0;1;37m  ███   [0;31m▀██[0;1;37m [0;31m███████▀▄▀██████████[0m

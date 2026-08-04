@@ -1,18 +1,4 @@
-﻿# Converted from: BLZ-DIRS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/inf-0997/raw/BLZ-DIRS.ANS
-# Source Revision: archive-sha256:2fe039802e6975b254848d7f6c37d4e887c54af4d99aeda44c9611084f212b8f
-# Source SHA-256: 09369dd6114bdfa4e140e8974aa1edbeffb1bfb121b04a2f60335c5ad24aa49e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BLZ-DIRS.ANS by blaze (infinite); released in inf-0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: mystic area change
-# SAUCE Author: blaze
-# SAUCE Group: infinite
-# SAUCE Date: 19970825
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: mystic area change by blaze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-inf-0997-blz-dirs
 
 Write-Host '
 [36m█[0;1;30;46m▄▄▄▄▓[0;1;30;40m▀▀[0;36m [0;33m▄▄▄[0;1;31;43m░░▓▄▄▄[0;33m█   ▄ [0;36m  [0;1;30m▀▀▀▀▀[0;1;30;46m███▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m

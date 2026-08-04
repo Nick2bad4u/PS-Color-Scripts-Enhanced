@@ -1,13 +1,4 @@
-﻿# Converted from: TP-THA01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vi-9403/raw/TP-THA01.ANS
-# Source Revision: raw-sha256:bddeba387723d8da6a2e6c048a40ee64e14b743186833f49579e027ad7b2535b
-# Source SHA-256: bddeba387723d8da6a2e6c048a40ee64e14b743186833f49579e027ad7b2535b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TP-THA01.ANS by Terminal Psychosis (vi-9403); released in vi-9403 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: TP-THA01.ANS by Terminal Psychosis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vi-9403-tp-tha01-part01
 
 Write-Host '
 [1;34;44m██████████▓▓▓▒▒▒░░░            [0;34m▓▓▒▒░░░░░░░░░░░[0m         [1;34m▄▄[0;1;34;44m░░░░░░▒▒▓▓████[0;1;34;40m▓▒░   ▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: FV-FUCK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0502/raw/FV-FUCK.ANS
-# Source Revision: archive-sha256:98bfa3cc78c733050b0c647e7e0271e7623e3c31e4f40f218a00b89b2165c771
-# Source SHA-256: 85e24519d54a70f33e57a06f234168c3b9e193fbfd79161c667720ba2658ce58
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-FUCK.ANS by fever (revival); released in rev0502 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fuck
-# SAUCE Author: fever
-# SAUCE Group: revival
-# SAUCE Date: 20020515
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: fuck by fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0502-fv-fuck
 
 Write-Host '
    [1;33m▀▒[0;1;31m ░█[0;1;31;43m▄[0;1;31;40m▄[0;30;43m▀[0;1;31;40m [0;1;33;40m▀▓[0;30;43m▀▀▀▄[0;37;40m [0;30;43m▀[0;1;31;43m▄█ [0;1;31;40m  [0;1;31;43m▒[0;1;31;40m████[0;1;31;43m▄[0;1;31;40m▄▄[0;33m▄[0;37m [0;1;33m▀[0m [1;33m▓[0;1;33;47m▓[0;1;33;40m▀[0m [1;33m▄▄▄[0;30;47m█[0;1;30;40m▀[0;1;30;47m▄░░░░[0m▓▓[1;30m▀▄[0;1;30;47m▀[0;30;47m [0;1;36;47m▄▄░░░[0;1;36;40m░░[0;1;30;47m▄[0m▀▀▀[1;30;47m▄▄[0m█▓▓▓▓▓[1;36;47m░░[0m▓[1;30m▄[0m

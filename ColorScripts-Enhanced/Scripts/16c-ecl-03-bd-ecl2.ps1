@@ -1,18 +1,4 @@
-﻿# Converted from: BD-ECL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-03/raw/BD-ECL2.ANS
-# Source Revision: archive-sha256:8478e7ed47e52d1e07bf55e17a5f105ced4b468c6f56a8b59fd6b8ef8dada5ca
-# Source SHA-256: f4e09161c736995648db361a980f7e581002f342988b9a172d9f706d01260bc7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BD-ECL2.ANS by old (eclipse); released in ecl-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: eclipse promo
-# SAUCE Author: old
-# SAUCE Group: eclipse
-# SAUCE Date: 19960701
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: eclipse promo by old | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-03-bd-ecl2
 
 Write-Host '
 

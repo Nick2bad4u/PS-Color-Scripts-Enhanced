@@ -1,20 +1,4 @@
-﻿# Converted from: fil-BLOQ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_acid_trip/raw/fil-BLOQ.ANS
-# Source Revision: archive-sha256:c0717ff5cb7d462ed7fa9a55edd7235adbd3f09e01132486021497c9281171b6
-# Source SHA-256: c6faae65edb67b18cedf254b8f6bb47a94528f5fdfb6d0839cd4f1e78311aef8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: fil-BLOQ.ANS by Filth (blocktronics); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: BLOCKTRONICS
-# SAUCE Author: Filth
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x275
-# SAUCE Font: IBM VGA
-# SAUCE Comments: ...machines that build robots that build factories that build ma | chines that build robots that build factories that build machine | s that build robots that build factories that build machines tha | t build robots...
-# Lines: 139-183
-# Columns: 1-80
+﻿# Artwork: BLOCKTRONICS by Filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-acid-trip-fil-bloq-part04
 
 Write-Host '
 [36m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ ██████████▌░▓▒▓    ░░   ▓█▓█▓▓▓▓ ███████▓▓█  █[0m

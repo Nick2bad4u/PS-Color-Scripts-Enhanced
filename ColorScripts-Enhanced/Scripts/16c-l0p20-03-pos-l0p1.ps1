@@ -1,13 +1,4 @@
-﻿# Converted from: POS!L0P1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p20_03/raw/POS!L0P1.ANS
-# Source Revision: archive-sha256:a3d93df4695267258dca9ec3b900b2bfe6ccc0d8d89e3fda72103f31095183ed
-# Source SHA-256: 12b92b663b55baf88fb2c7a7ad2f0bbfa36d7d636be8cc6de971c6c4cb7a6bbd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: POS!L0P1.ANS by Poise (l0p20_03); released in l0p20_03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: POS!L0P1.ANS by Poise | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p20-03-pos-l0p1
 
 Write-Host '
 

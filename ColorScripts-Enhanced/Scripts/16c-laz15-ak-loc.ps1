@@ -1,19 +1,4 @@
-﻿# Converted from: ak-loc.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz15/raw/ak-loc.ans
-# Source Revision: archive-sha256:d35f5b18ac3e8cbe3d6d17eab809a7e050609a8e3cc7d160d14a87c59a191c12
-# Source SHA-256: b53c027bebeba07d67e756859ddaa2f518c33b9c43f86ad726c5c0cb7ead76e9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ak-loc.ans by abstrakt (lazarus); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: locus
-# SAUCE Author: abstrakt
-# SAUCE Group: lazarus
-# SAUCE Date: 20220626
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: locus by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz15-ak-loc
 
 Write-Host '
         [32m•   \*┘[0;37m  [0;32m°  [0;1;32m,.[0;32m   [0;35m.┌┐[0;31m.[0;35m         [0;33m.aS$$$$$Ss┐.[0;37m               [0;1;37m.sS$$$$Ss.[0m

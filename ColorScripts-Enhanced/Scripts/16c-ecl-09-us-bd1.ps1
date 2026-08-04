@@ -1,18 +1,4 @@
-﻿# Converted from: US-BD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-09/raw/US-BD1.ANS
-# Source Revision: archive-sha256:6c371ec8bbb75e88f59630021fbbd23f2fc630c10ee1cde240cc20faafea1ca9
-# Source SHA-256: 353d1d90fb630522743b3ae5860d785c56287aefca08fe7e010f09c47f39b5ac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BD1.ANS by Rai + Widowmaker (eclipse); released in ecl-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: bubblegum dreams
-# SAUCE Author: rai+widowmaker
-# SAUCE Group: eclipse
-# SAUCE Date: 19961128
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: bubblegum dreams by Rai + Widowmaker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-09-us-bd1
 
 Write-Host '
 [1m[0m[1m[0m                                                [34m▄▄▄▄▄▄[0m

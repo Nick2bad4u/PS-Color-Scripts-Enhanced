@@ -1,18 +1,4 @@
-﻿# Converted from: CD-LNO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/emic0496/raw/CD-LNO.ANS
-# Source Revision: archive-sha256:0081657214e0d3eeaf9fa72e89eaffd16455becfd5da03242b645aa6b0fa9295
-# Source SHA-256: 505c70ab998a2d4a9e8f72a35e9535e1c0b2593ad12d5ce4257c282b4432d01d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CD-LNO.ANS by Creaping Death (EMiC); released in emic0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: likenother!
-# SAUCE Author: Creaping Death
-# SAUCE Group: EMiC
-# SAUCE Date: 19960307
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: likenother! by Creaping Death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-emic0496-cd-lno
 
 Write-Host '
                          [34m   [0m            [34m■▄ [0m

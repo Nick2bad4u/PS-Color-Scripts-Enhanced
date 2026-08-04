@@ -1,17 +1,4 @@
-﻿# Converted from: C3-ORG6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/raw01/raw/C3-ORG6.ANS
-# Source Revision: archive-sha256:68018d98da2353ea67bd0935370f9f9e7167a56c319420d702baa29dd9d82b28
-# Source SHA-256: 2ff22aca7634ba19ff76f08f5a6cf8ab4350cacf4a5adc6cb26a3b0aabd76f70
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: C3-ORG6.ANS by criminal enigma (raw01); released in raw01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: org kaos onliners
-# SAUCE Author: criminal enigma
-# SAUCE Date: 19970312
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: org kaos onliners by criminal enigma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-raw01-c3-org6
 
 Write-Host '
 

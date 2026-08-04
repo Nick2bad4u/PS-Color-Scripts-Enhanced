@@ -1,18 +1,4 @@
-﻿# Converted from: SK!KSIAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p10_01/raw/SK!KSIAD.ANS
-# Source Revision: archive-sha256:07a7c989e195c9828a0ca382f79fb6d55a731b3471cfb9534617813c733c980c
-# Source SHA-256: b9ef4cc7c84a8948d725e02a47c8b374c55aece18c885fda6db0c8af1b08036b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!KSIAD.ANS by sIMONkING (thelo0p); released in l0p10_01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: kazaNIE namber ten.
-# SAUCE Author: sIMONkING
-# SAUCE Group: thelo0p
-# SAUCE Date: 20010306
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: kazaNIE namber ten. by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p10-01-sk-ksiad
 
 Write-Host '
                [1;30m▄[0m [1;30m▀▄[0m [1;30m▄▀[0m [1;30m░▄▄▀▀▀▄▀▀▓▄[0;1;30;47m▓[0;1;30;40m▄█▀▄[0m [1;30m▄▀▄█[0;1;30;47m▓▓[0;1;30;40m▀▀██▄▀▄▀▄░▀▄█▄[0m     [1;30m▄[0m

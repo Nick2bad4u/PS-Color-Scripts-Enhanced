@@ -1,19 +1,4 @@
-﻿# Converted from: CH!-DTCW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-01/raw/CH!-DTCW.ANS
-# Source Revision: archive-sha256:599cc5d270a4d0147da5f37eff9386c7f67f74a074eb88659d141b05218146e0
-# Source SHA-256: c27f2d051e0a4622232053fda1e4f6c406eb9b44976a6278fda2ca2a555c7f79
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CH!-DTCW.ANS by ChaoTiC! (.:[nITROPHUSION]:.); released in nph-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: DaTaCraWLeR WeLcoMe AnSi :)
-# SAUCE Author: ChaoTiC!
-# SAUCE Group: .:[nITROPHUSION]:.
-# SAUCE Date: 19970307
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: ThIs iS mY FirSt AnSi FoR nItROpHuSiOn ... hoW KuUL ?! | AnSi ScEnE rUleZzZ
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: DaTaCraWLeR WeLcoMe AnSi :) by ChaoTiC! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-01-ch-dtcw
 
 Write-Host '
                                   [1;36m▄▄▄▄▄▄[0;34m [0m

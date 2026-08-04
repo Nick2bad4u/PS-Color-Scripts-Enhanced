@@ -1,19 +1,4 @@
-﻿# Converted from: iks&tainted-unl.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure81/raw/iks%26tainted-unl.ans
-# Source Revision: archive-sha256:5619da472b28f91a009ce4d644c47799e68cbe57a614b545a0e5dc5e5f7081e3
-# Source SHA-256: d302cd28b7105cc94435b4eec953c37932c74ec1583a7167a6af474a2ab3dd89
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: iks&tainted-unl.ans by Iks + Tainted (impure); released in impure81 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: unleashed
-# SAUCE Author: iks / tainted
-# SAUCE Group: impure
-# SAUCE Date: 20220130
-# SAUCE Dimensions: 80x116
-# SAUCE Font: IBM VGA
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: unleashed by Iks + Tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure81-iks-tainted-unl-part01
 
 Write-Host '
 

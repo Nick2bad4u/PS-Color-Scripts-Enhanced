@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-WHY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0798/raw/BYM-WHY.ANS
-# Source Revision: archive-sha256:ba14cc0f9129d345d6e8055f6819b7be294ddff8674fbcc97cd1db52d47ee088
-# Source SHA-256: 5ade0a13cd8b017604e68af123b7d03868b80ce5688f9280b596ddf361ab3e79
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-WHY.ANS by bymman (poffelipoff); released in plf-0798 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: why use a motive?
-# SAUCE Author: bymman
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19980709
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: why use a motive? by bymman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0798-bym-why
 
 Write-Host '
 [1;31m                            [0m            [36m░[0m               [1;36m▄[0;36m▌[0m             [36m░░[0m

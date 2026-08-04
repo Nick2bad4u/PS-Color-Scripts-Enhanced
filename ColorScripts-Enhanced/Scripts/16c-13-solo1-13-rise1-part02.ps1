@@ -1,18 +1,4 @@
-﻿# Converted from: 13-RISE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/13-solo1/raw/13-RISE1.ANS
-# Source Revision: archive-sha256:2b044723726e03e5c180cb21277db4a4292085c3d8e95a5e0e481210deb4ec42
-# Source SHA-256: 9523e15b3d40a8074e055f8ea4e6a12612bdd951f9818ba869ef12b15c1a633c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 13-RISE1.ANS by Ville (Blend); released in 13-solo1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Rising death
-# SAUCE Author: Ville
-# SAUCE Group: Blend
-# SAUCE Date: 19961029
-# SAUCE Dimensions: 80x60
-# Lines: 44-60
-# Columns: 1-80
+﻿# Artwork: Rising death by Ville | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-13-solo1-13-rise1-part02
 
 Write-Host '
           [1;30;40m█[0;1;30;47m▀[0;1;30;40m█▄▄▄▌▄▄▄[0;1;31;40m [0;31m▄▌[0;1;31m  [0;31m▄[0m     [1;30m▄▄▄▄▄▄▌▄▄▄▄▄▄▌▀▀▀▀▀[0;1;31m [0;1;30m▀[0;1;31m [0;31m▐[0;1;31;41m▄▄[0;1;31;40m▄[0;31m▄[0;1;31m [0;1;30m▄▄▄▄▌▄▄[0;1;30;47m▀[0;1;30;40m█[0;1;30;46m▓[0;1;30;40m [0m

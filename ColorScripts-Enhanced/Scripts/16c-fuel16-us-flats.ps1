@@ -1,18 +1,4 @@
-﻿# Converted from: US-FLATS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel16/raw/US-FLATS.ANS
-# Source Revision: archive-sha256:78bbfd1159c4b51678435d1ff23762559e425f3010119f2abd28bf83d67e513d
-# Source SHA-256: d532dd53b220587aa474c534185f4ef56050f96a9578ff5a8a6a05cabb04811b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FLATS.ANS by The Knight + Burps (fuel); released in fuel16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: flatscan matrix
-# SAUCE Author: the knight & burps
-# SAUCE Group: fuel
-# SAUCE Date: 19970901
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: flatscan matrix by The Knight + Burps | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel16-us-flats
 
 Write-Host '
 [1;31;41m▀[0;31m▀▀ ░ ▄▄[0;31;42m▀▀[0;1;32;42m░[0;31;42m▄[0;31;40m▀▀▀ ▄▄[0;1;31;41m█[0;1;31;47m▄[0;1;31;41m▀[0;31m▀▀[0;1;31m▀[0;31m▀▀ [0;30;41m▓▓[0;31;40m▄▄  ░▓[0;31;41m█[0;31;46m░▌▄[0;1;36;46m▀▀[0;1;36;41m█▀[0;36m▌[0;1;36;46m░▄ [0;31;46m▀[0;31;40m▀[0;31;46m▀[0;31;40m██[0;1;33;41m░[0;31m▄[0;1;36;46m▄[0;31;41m█[0;31;40m▀[0;31;41m█[0;1;33;41m░░░░░[0;31;41m█[0;31;40m▄▄ ▀▓▓[0;1;33;41m░░░░░[0;31;41m█[0;31;40m▄ ░░[0m

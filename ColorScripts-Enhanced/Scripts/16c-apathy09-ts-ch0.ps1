@@ -1,18 +1,4 @@
-﻿# Converted from: TS-CH0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy09/raw/TS-CH0.ANS
-# Source Revision: archive-sha256:4a76e66d96462ed923b8b41dd8e01625078b4c791bda0ef6180f08638853037b
-# Source SHA-256: b954e2ae29bf9921d437be68ad7d050a6daba0e55000fd1230b0da75447ee6cc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-CH0.ANS by Transient (apathy); released in apathy09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Chaotic Hysteria
-# SAUCE Author: Transient
-# SAUCE Group: apathy
-# SAUCE Date: 19960426
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Chaotic Hysteria by Transient | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy09-ts-ch0
 
 Write-Host '
 [1;32;42mts!apa[0;32m███████████████▀▀▀███████████████████[0;1;32;42m░▒▓[0;1;32;40m█[0;1;30;47m░▓▓[0;1;30;40m██[0;1;30;47m▓[0;1;30;40m████[0;1;30;47m▓[0;1;30;40m████████████████[0;1;30;47m▓▓▓▒▒░[0m

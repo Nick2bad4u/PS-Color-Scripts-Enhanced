@@ -1,20 +1,4 @@
-﻿# Converted from: transient-amish717.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amish-rumspringa/raw/transient-amish717.ans
-# Source Revision: archive-sha256:710f00c8e218c58e7f7c9fe172cb22279b1ebbb4b713832762c12e983eb7ac2d
-# Source SHA-256: 1fbc4395e620aefcb6f6f5c05af73760b149265a07f6b023d10acaa83d9decef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: transient-amish717.ans by tr(ansi)ent (AMiSH); released in amish-rumspringa and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: AMiSH
-# SAUCE Author: tr(ansi)ent
-# SAUCE Group: AMiSH
-# SAUCE Date: 20180703
-# SAUCE Dimensions: 80x186
-# SAUCE Font: IBM VGA
-# SAUCE Comments: http://www.noisyvagabond.com
-# Lines: 95-141
-# Columns: 1-80
+﻿# Artwork: AMiSH by tr(ansi)ent | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amish-rumspringa-transient-amish717-part03
 
 Write-Host '
 [1;33;47m░░░[0m [30;43m)()([0;37;40m  [0;1;34;40m█[0;1;34;101m▓[0;1;34m█[0m [30;103m)()([0m  [32;102m▒[0m    [32;102m▒[0m  [32;102m▒[0m  [32;102m▒[0m    [32;102m▒[0m  [30;103m)()([0m [1;34m█[0;1;34;101m▓[0;1;34m█[0m  [30;43m)()([0;37;40m [0;1;33;47m░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

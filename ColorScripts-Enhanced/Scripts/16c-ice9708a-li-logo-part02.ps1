@@ -1,13 +1,4 @@
-﻿# Converted from: LI-LOGO.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9708a/raw/LI-LOGO.ICE
-# Source Revision: archive-sha256:63deb9e752fa85f6afabd8a41875343388a49c3c7ad37b2b9b29f4bfd04a346f
-# Source SHA-256: 1b9d587fd2852fceecc4abd48d9977e54cf196ae8a8691ee68e99534b98943d2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LI-LOGO.ICE by Liquid Image (ice9708a); released in ice9708a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 46-94
-# Columns: 1-80
+﻿# Artwork: LI-LOGO.ICE by Liquid Image | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9708a-li-logo-part02
 
 Write-Host '
                   [31m▀▄▄▀[0m    [33m██▌[0;1;31m█[0;32m█[0;1;37;47m░[0;1;37;40m [0m▄[1m             ▄ [0;1;47m░[0;1;40m [0;1;31;40m█ [0;33m█[0;1;37;43m░[0m     [1;33m▀[0m  [1;33m▀[0m  [1;33m█[0m

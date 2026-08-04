@@ -1,18 +1,4 @@
-﻿# Converted from: NO-UMAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-44/raw/NO-UMAIN.ANS
-# Source Revision: archive-sha256:1301847088c4043837d3d03206737213e66e1c5374455e07700252e3c8438a2b
-# Source SHA-256: 6c29f23909a58427a9017a4377270e3c4e874742af1d745c98ce9b1380e7cf83
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NO-UMAIN.ANS by noches (remorse); released in rmrs-44 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: utopia main
-# SAUCE Author: noches
-# SAUCE Group: remorse
-# SAUCE Date: 20010714
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: utopia main by noches | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-44-no-umain
 
 Write-Host '
 [1m$$$$$$$$$$[0;36m$[0;1;37m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m$                     [1m_.,┐ *#SS[0m

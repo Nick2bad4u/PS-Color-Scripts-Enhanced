@@ -1,16 +1,4 @@
-﻿# Converted from: Luciano-PAIX.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_block_to_the_future/raw/Luciano-PAIX.ans
-# Source Revision: archive-sha256:e9c7655a6ba44929b9deba9a89f3fd7cff48592d5b87253057ae8455852a9d6f
-# Source SHA-256: 1f0972032aba200fddda082a0f1d9ffa1c20e5d5e1d9bbdbe3ee62b1d167f92d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Luciano-PAIX.ans by Enzo (blocktronics_block_to_the_future); released in blocktronics_block_to_the_future and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 20151120
-# SAUCE Dimensions: 80x76
-# SAUCE Font: IBM VGA
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Luciano-PAIX.ans by Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-block-to-the-future-luciano-paix-part01
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-VII.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-02/raw/AVG-VII.ANS
-# Source Revision: archive-sha256:21302c91644277d9117a9a1fcab004f6fa76d5a90d6a4926e513a24dd5b73cd5
-# Source SHA-256: 23d59dda549cf7a04dad925e3930e58b86c8c4f7d5ee6a5c844a6e81c5a21c44
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-VII.ANS by Avenging Angel (the used coalition); released in used-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: VII
-# SAUCE Author: Avenging Angel
-# SAUCE Group: the used coalition
-# SAUCE Date: 19991113
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: VII by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-02-avg-vii
 
 Write-Host '
                                  [34m▄▄[0;37m     [0;32m▄[0;1;32m▄[0;32m▄[0;37m       [0;1;30m   [0m  [1;30mV I I[0m           [1;30m  ░░░░[0m

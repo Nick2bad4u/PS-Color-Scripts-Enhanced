@@ -1,16 +1,4 @@
-﻿# Converted from: NOFIGHTS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/noel_gamboa/raw/NOFIGHTS.ANS
-# Source Revision: archive-sha256:286e154f902fbdde1a4853372b0972e0dffc08599003df1cc3186be2b1ab47e9
-# Source SHA-256: c870cf6a589432a57bd6f1026d4000e115f4e9b473477ef9d4060ebe5baed7f4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOFIGHTS.ANS by Noel Gamboa (noel_gamboa); released in noel_gamboa and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Read My Lips: No More Fights
-# SAUCE Author: Noel Gamboa
-# SAUCE Date: 20190423
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Read My Lips: No More Fights by Noel Gamboa | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-noel-gamboa-nofights
 
 Write-Host '
 [31m████████████████▀▀▀[0;1;30m▄▄▄▄██▀▀▀▀▀▀▀▀▀▀▀▀▄▄▄[0;31m▀███████[0;31;47m███████████████████████████████[0m

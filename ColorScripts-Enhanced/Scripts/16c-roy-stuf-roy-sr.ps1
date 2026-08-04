@@ -1,13 +1,4 @@
-﻿# Converted from: ROY-SR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roy-stuf/raw/ROY-SR.ANS
-# Source Revision: archive-sha256:1f203f95f339c258e43a9098f8d2e689ed73de537b1cfe6bea312dfc156f1358
-# Source SHA-256: 51e51d41842abf1ef72cac44307897202149f661c45f6f898cfe99e26759c901
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ROY-SR.ANS by Roy (roy-stuf); released in roy-stuf and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: ROY-SR.ANS by Roy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roy-stuf-roy-sr
 
 Write-Host '
                   [32m·· · [0;1;33mW E L C O M E   T O    [0;32m·   ·[0m

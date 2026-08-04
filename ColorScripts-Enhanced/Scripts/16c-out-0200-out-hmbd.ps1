@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-HMBD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0200/raw/OUT-HMBD.ANS
-# Source Revision: archive-sha256:d8b795f717128f87fcb065ff856b2ac35822ea4a609a8249f6a37d32489f4450
-# Source SHA-256: ac7fca73179fbd251d9d027d4593df261e0889719fd9d9466f96306b73ef3184
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-HMBD.ANS by Sandy Chidester (out-0200); released in out-0200 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: OUT-HMBD.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0200-out-hmbd
 
 Write-Host '
 [36m████▀[0;1;31m▄[0;1;31;41m▒[0m [1;31;41m▒[0;1;31m█ [0;36m▀█▌[0;1;31;41m▓▓[0;1;31m▄[0;36m▀███████████████████[0;1;46m ░░░░▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓█▓▓▓████████████████▀▀▀[0m

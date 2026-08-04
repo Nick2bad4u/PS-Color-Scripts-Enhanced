@@ -1,18 +1,4 @@
-﻿# Converted from: K-NECROT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shade002/raw/K-NECROT.ANS
-# Source Revision: archive-sha256:d6630e5a2cda9c2e8ed75a0f301d30ff6bb26e6ea43307100282f67eaeb95559
-# Source SHA-256: 7aa5d78a5599097421b3b29e873f3c9cf9abfda01b998ebcfacf5d59f28d64e9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K-NECROT.ANS by kelthar (shade); released in shade002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: necrotech
-# SAUCE Author: kelthar
-# SAUCE Group: shade
-# SAUCE Date: 19960929
-# SAUCE Dimensions: 80x25
-# Lines: 46-90
-# Columns: 1-80
+﻿# Artwork: necrotech by kelthar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shade002-k-necrot-part02
 
 Write-Host '
 [31m███▓██████▓▄▄▓█████████ [0;32m█[0;1;32;42m░░[0;32m▒█▓[0;31m ████████████████████▒  ▓████████▓▄               [0m

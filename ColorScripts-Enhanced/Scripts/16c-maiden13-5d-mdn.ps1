@@ -1,18 +1,4 @@
-﻿# Converted from: 5D-MDN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden13/raw/5D-MDN.ANS
-# Source Revision: archive-sha256:70e231ea8653cd02d349f122b1a39f57757322f3913b0c8f20698b54c8795e68
-# Source SHA-256: 8795ae3532daef2db99181bdddf960c5b1aaaa9c8237d4783eb47d13a0857178
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5D-MDN.ANS by slayer dreams (maiden brazil!); released in maiden13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 1st LOgo of maiden!
-# SAUCE Author: slayer dreams
-# SAUCE Group: maiden brazil!
-# SAUCE Date: 19970929
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: 1st LOgo of maiden! by slayer dreams | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden13-5d-mdn
 
 Write-Host '
                                               [33m▄▄▄[0;1;33m▄[0;33m▄[0;1;33m▄▄▄ [0m     [1m         [0m    [1;33m [0m

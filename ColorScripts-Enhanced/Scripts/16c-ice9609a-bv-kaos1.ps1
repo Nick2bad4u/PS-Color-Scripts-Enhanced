@@ -1,18 +1,4 @@
-﻿# Converted from: BV-KAOS1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9609a/raw/BV-KAOS1.ICE
-# Source Revision: archive-sha256:541cf0b323317a2c01aae16b97d3d5f7ccc5db8dbd14c10b2267c0eefccf97b7
-# Source SHA-256: 1e6c06f153d9293eb99b3ea5a1c5dd568cfb16c13f85641f5de6e0e7be24729b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BV-KAOS1.ICE by Black Viper (iCE Advertisements); released in ice9609a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Total Kaos
-# SAUCE Author: Black Viper
-# SAUCE Group: iCE Advertisements
-# SAUCE Date: 19961001
-# SAUCE Dimensions: 80x50
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: Total Kaos by Black Viper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9609a-bv-kaos1
 
 Write-Host '
 [1;34;44m▒░[0;34m▀▀[0;37;44m░[0;34;47m▓[0;34;40m▀[0;37;40m [0;34;40m▀[0;1;34;44m░▒[0;34m▄[0;37m [0;34m▀▓░[0;37m [0;33m▐████[0;37;43m░[0;33;47m▓[0;33;40m███▓░ ▐████[0;37;43m░░[0;33;40m████[0;37;43m  [0;33;47m▓[0;37;43m░[0;33;47m▓[0;37;43m▒▒▒░[0;33;47m▓[0;37;43m   [0;33;40m████▀▀█▀▀█▀▀▀██▀▀▀[0;1;33;43m [0;33m█▀▀▀▀██[0m

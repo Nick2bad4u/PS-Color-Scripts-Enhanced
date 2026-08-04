@@ -1,19 +1,4 @@
-﻿# Converted from: us-fu3l.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna03/raw/us-fu3l.ans
-# Source Revision: archive-sha256:997aaab655669129eb266c21ca0c4588b603e11c90338498bb530f8bba390fb2
-# Source SHA-256: 5bd3eee8398b4e1585436fb33faedab16d539ef1115a662eacc81460c3fb8d15
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-fu3l.ans by avg (blocktronics); released in thesauna03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fuel
-# SAUCE Author: avg
-# SAUCE Group: blocktronics
-# SAUCE Date: 20210816
-# SAUCE Dimensions: 80x22
-# SAUCE Font: IBM VGA
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: fuel by avg | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna03-us-fu3l
 
 Write-Host '
      [35;40m▄▄▄▄[0m

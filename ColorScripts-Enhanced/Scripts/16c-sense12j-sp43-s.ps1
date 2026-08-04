@@ -1,18 +1,4 @@
-﻿# Converted from: SP43-S.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense12j/raw/SP43-S.ANS
-# Source Revision: archive-sha256:e1859c229de4f4dd1e65990d325e90f1a80e1ce3863ae80925f53e6878990dc6
-# Source SHA-256: 6607afa6da8b0304bcbbe7cab9cd509edf478555097fecc26e9188fe6d31e2b2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SP43-S.ANS by Aesthetic + Spear (sense imagery); released in sense12j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the sanctuary
-# SAUCE Author: spear/aes
-# SAUCE Group: sense imagery
-# SAUCE Date: 20030201
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: the sanctuary by Aesthetic + Spear | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense12j-sp43-s
 
 Write-Host '
 

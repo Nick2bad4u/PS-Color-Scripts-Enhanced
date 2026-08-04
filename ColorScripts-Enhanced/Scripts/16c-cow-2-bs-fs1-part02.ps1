@@ -1,18 +1,4 @@
-﻿# Converted from: BS-FS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cow-2/raw/BS-FS1.ANS
-# Source Revision: raw-sha256:0607c1e790f186a7684a845fdba5d716a139de82bd8a373a2ed20833cea2d6c1
-# Source SHA-256: 0607c1e790f186a7684a845fdba5d716a139de82bd8a373a2ed20833cea2d6c1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-FS1.ANS by burps (cow); released in cow-2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: freak scene
-# SAUCE Author: burps
-# SAUCE Group: cow
-# SAUCE Date: 19951008
-# SAUCE Dimensions: 80x25
-# Lines: 44-80
-# Columns: 1-80
+﻿# Artwork: freak scene by burps | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cow-2-bs-fs1-part02
 
 Write-Host '
 [1;30;40m█▀██▓█████████▀█████▄  [0;34m▀█ [0;1;34;44m░[0;34m███████████████████▀▀             ▐██▄▀█▀██▄▀ [0;30;44m▀[0;34m█▀ ▐█[0;34;40m [0m

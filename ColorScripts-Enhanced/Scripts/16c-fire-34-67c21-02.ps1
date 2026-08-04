@@ -1,19 +1,4 @@
-﻿# Converted from: 67C21-02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/67C21-02.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: b3fe6d26e8b01f967dea364b0b864c9e0630df8841a41e48abea2341e776e36b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 67C21-02.ANS by Filth + Avg (bLOCKtR0NiCS); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: DOCtr0NiCS
-# SAUCE Author: f1L7H
-# SAUCE Group: bLOCKtR0NiCS
-# SAUCE Date: 20201212
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: DOCtr0NiCS by Filth + Avg | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-67c21-02
 
 Write-Host '
                               [1;30;40m▄▄▄▄[0m        [1;30m▄▄▄[0m       [1;30m▄▄▄▄[0m

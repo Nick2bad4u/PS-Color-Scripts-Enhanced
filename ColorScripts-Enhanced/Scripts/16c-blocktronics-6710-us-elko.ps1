@@ -1,19 +1,4 @@
-﻿# Converted from: US-ELKO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-6710/raw/US-ELKO.ANS
-# Source Revision: archive-sha256:65fe9e2a2e2016f30e4b0141be2d1472e9b7cc814d922f9663e0d0a04142d70a
-# Source SHA-256: df133c752ff68e9be60438affac1c4a733942dc9635402cb33b26370ecb26ed6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ELKO.ANS by Nail + Avenging Angel (blocktronics); released in blocktronics-6710 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: elko of trsi says hi
-# SAUCE Author: nail + avg
-# SAUCE Group: blocktronics
-# SAUCE Date: 20180811
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: elko of trsi says hi by Nail + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-6710-us-elko
 
 Write-Host '
 [37;40m [0;33;40m ▄▀▄[0;1;37;43m▄[0;33m▄[0;1;33;43m▄█[0;33m█  [0;1;37;43m▐█▄[0;1;33;43m [0;33m [0;1;31m [0;1;31;43m ▄████▀▀███▀▀[0;1;31;47m▓▓▓■ █[0;1;31;43m▀▀[0;1;31;40m▌ [0;33m▀[0;1;33;43m■[0;33m▄▀[0;1;33;43m█[0;33m▌[0;37m  [0;1;30m░░░  [0m [1;32m▄[0;1;32;46m [0;1;37;46m▄[0;1;32;40m▄[0m [1;32m [0m  [1;32m▐[0;1;37;46m█[0m   [1;32m▄▒[0m   [36m▀[0;1;32m▀▄[0m

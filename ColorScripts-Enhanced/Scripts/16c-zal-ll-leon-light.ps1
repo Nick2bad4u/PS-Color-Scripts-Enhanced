@@ -1,19 +1,4 @@
-﻿# Converted from: ll-leon_light.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zal/raw/ll-leon_light.ans
-# Source Revision: archive-sha256:27105a9153e1ab4f3cc531b07ab6db3370ec6ee44f65a8fce04e836afc280bb7
-# Source SHA-256: 87f9c789a363b148437094b0e1e71d1b8d226afd529ce066149d363e345295ad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ll-leon_light.ans by lucas link (Lazarus); released in zal and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Leon
-# SAUCE Author: lucas link
-# SAUCE Group: Lazarus
-# SAUCE Date: 20260119
-# SAUCE Dimensions: 80x49
-# SAUCE Font: IBM VGA
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Leon by lucas link | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zal-ll-leon-light
 
 Write-Host '
 [1;30;47m░[0m█████████████[1;47m░░░░░░░▒▓[0m [30;47m░[0;37;40m███████████████▀▀▀ [0;33;40m▄▄[0;37;40m▀▀█▀███████████[0;1;37;47m░░▓[0m [1;30;47m▒░[0m████[1;47m░▒▒▒▒████[0m

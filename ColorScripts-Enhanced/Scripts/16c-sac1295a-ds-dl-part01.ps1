@@ -1,18 +1,4 @@
-﻿# Converted from: DS-DL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac1295a/raw/DS-DL.ANS
-# Source Revision: archive-sha256:df1e340bade503c5962393e18a0cfbf683e0762bd02b2e413ad8403ae23ca102
-# Source SHA-256: 03a48cd6fb3150cc5a4da34ecdfcc6ad4d4c00e40ee84ccd927b5a1e2c6dc716
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-DL.ANS by dark star; released in sac1295a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
-# SAUCE Title: Darklands
-# SAUCE Author: Dark Star
-# SAUCE Group: SAC
-# SAUCE Date: 19951114
-# SAUCE Dimensions: 80x92
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Darklands by dark star | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac1295a-ds-dl-part01
 
 Write-Host '
 [1;30m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

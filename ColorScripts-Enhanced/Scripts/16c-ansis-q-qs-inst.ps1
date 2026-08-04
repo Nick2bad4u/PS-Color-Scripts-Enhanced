@@ -1,13 +1,4 @@
-﻿# Converted from: QS-INST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-q/raw/QS-INST.ANS
-# Source Revision: archive-sha256:b5bb8bd42480c86f4a93cd003875f0a8f4e4e3ded76985779dd86ce07f23aad0
-# Source SHA-256: bee9ace48f386228a7f8d5a51ac1f109a09d7e9733c546f41f3574df809ca1bb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QS-INST.ANS by Quick Silver (ansis-q); released in ansis-q and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: QS-INST.ANS by Quick Silver | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-q-qs-inst
 
 Write-Host '
                                                          [32m▄▄▄▓▓▄▄[0m

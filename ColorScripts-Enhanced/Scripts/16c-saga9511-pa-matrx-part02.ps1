@@ -1,18 +1,4 @@
-﻿# Converted from: PA-MATRX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/saga9511/raw/PA-MATRX.ANS
-# Source Revision: archive-sha256:9f21e07b3ba1751ce04d93bcfad7176194bbd7dc7718673a799946a1e8e9b81c
-# Source SHA-256: f6d88a47ec9158e512a100d5e63b893602432d4d1e4ec26904b4ef335db7c60f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PA-MATRX.ANS by Parasite (Saga); released in saga9511 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Matrix Stack
-# SAUCE Author: Parasite
-# SAUCE Group: Saga
-# SAUCE Date: 19951104
-# SAUCE Dimensions: 80x88
-# Lines: 46-88
-# Columns: 1-80
+﻿# Artwork: Matrix Stack by Parasite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-saga9511-pa-matrx-part02
 
 Write-Host '
 [1;30m█[0m [1;30m▒                 ▀▓▀ ▓ █[0;1;37;47m▓▓[0m█ [1;47m██▓▓▒░░[0m█[1;30;47m░[0m▄  [1m█[0;1;47m▒░[0m█[1;47m░[0m██[1;30;47m░░▒[0m [1m▐██[0;1;47m▒▒░[0m█[1;30;47m░▒[0m▌[1;31m▐[0;1;37m▐[0;1;37;47m█▓▒▒[0m██ [1;47m▒▒░[0;1;30;47m░[0m▌

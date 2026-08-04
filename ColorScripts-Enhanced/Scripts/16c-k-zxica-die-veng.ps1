@@ -1,13 +1,4 @@
-﻿# Converted from: DIE-VENG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-zxica/raw/DIE-VENG.ANS
-# Source Revision: archive-sha256:098212bcd3fc250902be7ae08340a23e99b29f8fa69fe7b4990238a6d402d1f6
-# Source SHA-256: 518be1f2d33a512e6dc71238410ffa0e46b6e362b20dbc1d8a7aa522590a73d9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DIE-VENG.ANS by Dieznyik (k-zxica); released in k-zxica and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: DIE-VENG.ANS by Dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-zxica-die-veng
 
 Write-Host '
           [1;30m█▄[0m  [1;30m [0m                 [1;30m    [0m       [1;30m [0m          [1;30m   [0m  [1m [0m 

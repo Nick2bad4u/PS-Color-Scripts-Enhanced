@@ -1,13 +1,4 @@
-﻿# Converted from: US-AZ1D.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rks-001/raw/US-AZ1D.ANS
-# Source Revision: archive-sha256:705611cf766f4daf07b5db32b0a8c95a9f18fce166935f3ec3700f83898977de
-# Source SHA-256: 30dc3214da3dd619a5278387a0685e02f8741204e8614edc416bee5ff1017c40
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-AZ1D.ANS by Ruckus + The Rza (rks-001); released in rks-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: US-AZ1D.ANS by Ruckus + The Rza | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rks-001-us-az1d
 
 Write-Host '
 [1m  [0;34m▓[0;1;32;44m [0;1;37;44m  [0;1;32;44m [0;1;37;44m       [0;44m  [0;1;32;44m [0;1;37;44m          [0;44m  [0;1;32;44m [0;1;37;44m      [0;44m  [0;34;40m▓▒░[0m

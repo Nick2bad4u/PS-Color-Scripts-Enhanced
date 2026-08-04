@@ -1,18 +1,4 @@
-﻿# Converted from: GK-SILK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz05apr/raw/GK-SILK.ANS
-# Source Revision: archive-sha256:1015a880c3c2e42953df14381eb6ae6e6ec0326b482ac0273175f6e6e7073aa4
-# Source SHA-256: f1db4e41b664268b644858658633492bca554cf313428b7799154586ad4a4f78
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GK-SILK.ANS by grind king (lazarus); released in laz05apr and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: silk
-# SAUCE Author: grind king
-# SAUCE Group: lazarus
-# SAUCE Date: 19970414
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: silk by grind king | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz05apr-gk-silk
 
 Write-Host '
 [1;30m██ ██ ██[0m▒[1;30m▀[0m [34m▄▄█[0;1;34;44m [0;34m█[0;1;34;44m▀  ░██[0;34m▄▄▄▄[0;37m [0;1;30m▀▀█████████[0m [1;30m▄██▀▀[0m [1m▄▄▄▄▄▄ [0;1;30m▀▀[0;1;37m ▄▄▄ [0;1;30m█████▀▀▀▀▀█▀▀▀▀▀████ [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: WA-ELD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz03feb/raw/WA-ELD1.ANS
-# Source Revision: archive-sha256:d402090580beb42f827386e6ac87eabae48765a9dcac692e22ff2b8314efb7a2
-# Source SHA-256: fb08e07f0399b40ca90d6d237c9d0949f6af5926d070c66ff38a7cbc96af7282
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WA-ELD1.ANS by warpus (lazarus); released in laz03feb and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: elderando
-# SAUCE Author: warpus
-# SAUCE Group: lazarus
-# SAUCE Date: 19970112
-# SAUCE Dimensions: 80x31
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: elderando by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz03feb-wa-eld1
 
 Write-Host '
 [1m███████[0;1;33m  ███████████████████████▀▀▀▀▀▀▐███▀▀▀▀▀▀████████████▀▀ [0;34m  [0;1;36m ▄▄███████████ [0m

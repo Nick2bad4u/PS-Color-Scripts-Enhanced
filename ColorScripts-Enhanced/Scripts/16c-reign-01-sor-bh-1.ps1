@@ -1,18 +1,4 @@
-﻿# Converted from: SOR-BH#1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/reign-01/raw/SOR-BH%231.ANS
-# Source Revision: archive-sha256:78f921a4d6a2d4091b1b2156f8f05c469dfd4455257cccd3643f4a8f8e584068
-# Source SHA-256: 5f325d3fceeabb926ee9165e53911706f6e2acf21f40577154da0119efbbb9c6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SOR-BH#1.ANS by spirit of rage (Brotherhood); released in reign-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Brotherhood (guest ansi)
-# SAUCE Author: spirit of rage
-# SAUCE Group: Brotherhood
-# SAUCE Date: 19981007
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Brotherhood (guest ansi) by spirit of rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-reign-01-sor-bh-1
 
 Write-Host '
 [1;30m        [0m               [1;30m    [0m             [1;30m [0m                      [1;30m▄[0m ░░[1;30;47m▓[0;1;34;47m░░[0;1;30;47m▀[0;1;30;40m▄  [0m▀[1;30;47m▀[0;1;30;40m▄▄[0m

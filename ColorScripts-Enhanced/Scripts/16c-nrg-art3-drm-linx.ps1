@@ -1,18 +1,4 @@
-﻿# Converted from: DRM-LINX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nrg-art3/raw/DRM-LINX.ANS
-# Source Revision: archive-sha256:0ae85f5ea4f74c2b59a538e4c7ac08d3c739cee33103af816d9b1cc2444e121f
-# Source SHA-256: f4131c478e6b6db165fb349741bfc0ac518e6cb8db12c5263137bcc1625182cb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DRM-LINX.ANS by Dr. Dream (NRG art dep.); released in nrg-art3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: nrghome (under construction)
-# SAUCE Author: Dr. Dream
-# SAUCE Group: NRG art dep.
-# SAUCE Date: 19990817
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: nrghome (under construction) by Dr. Dream | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nrg-art3-drm-linx
 
 Write-Host '
          ▄▄

@@ -1,18 +1,4 @@
-﻿# Converted from: ANM-CHAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dom005/raw/ANM-CHAR.ANS
-# Source Revision: archive-sha256:7cc2202d547295765d144a5881f0a3f89b3cab04a10536184aec3174c98ac207
-# Source SHA-256: 3dedd0eb3750834bfcc7eda6dd8e2dcaed070da609fe8091c2383701b6d6199a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ANM-CHAR.ANS by anomite (dominio); released in dom005 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: character0ne
-# SAUCE Author: anomite
-# SAUCE Group: dominio
-# SAUCE Date: 19980510
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: character0ne by anomite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dom005-anm-char
 
 Write-Host '
 [36m█[0;1;36;46m▄▄▄▄▄▄▄▄▄▄▄▄░░[0;36m█████████[0;1;36;46m ░▄ [0;36m▄▄▄▄▄███▀▀▀▀▀[0m       [1;33m▄▄▄▄▄▄▄▄ [0m [36m▐█[0;1;36;46m▐██[0;1;37;40m████████[0;1;36;46m████▄▄[0;36m██ [0m

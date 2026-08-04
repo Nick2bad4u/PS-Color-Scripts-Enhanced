@@ -1,18 +1,4 @@
-﻿# Converted from: K1-SCRLZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-18/raw/K1-SCRLZ.ANS
-# Source Revision: archive-sha256:3ece06be07a605d790194aecaf4c2aee0d01c3085ca10c10858ed29a4fc054bb
-# Source SHA-256: 8d4350db7a8b7860261dc33afd6deb5c37a130145d06379201408d9d48902b1f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K1-SCRLZ.ANS by Knocturnal (AWE Lettering); released in awe-18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Scrollz
-# SAUCE Author: Knocturnal
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981009
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Scrollz by Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-18-k1-scrlz
 
 Write-Host '
 [1;30m    [0m              [1;30m        [0m

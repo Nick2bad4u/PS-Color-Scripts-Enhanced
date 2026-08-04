@@ -1,16 +1,4 @@
-﻿# Converted from: CM-KNG3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger10/raw/CM-KNG3.ANS
-# Source Revision: archive-sha256:a84fd6d21030f26985899f91a956dceb5637b0b2cbc8b90ab0b918890b9e87cd
-# Source SHA-256: 2c314f2e6a40d83bdda29f2f3d2a2eb303df3ddf1adc74c905abe33e7c01cb44
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CM-KNG3.ANS by cheeze monkey (anger); released in anger10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: k0ngo
-# SAUCE Author: cheeze monkey
-# SAUCE Group: anger
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: k0ngo by cheeze monkey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger10-cm-kng3
 
 Write-Host '
  [35m▄█[0;1;35;45m░[0;35m█[0;1;35;45m░▒░[0;35m█[0;1;35;45m░░[0;35m███[0;1;35;45m░[0;35m████████▀▀▀▀ [0;1;33m▄▄▓█[0;1;33;42m▓▒▓[0;1;33;40m█[0;1;33;43m▓▓▓▒▒░░░[0;33m█▀▀▀▀ [0;35m▄▄ ▐[0;35;45m  [0;30;45m▄▓▄ [0;35;40m██████▀▀▀▀▀█████▄▄[0;37;40mcm[0m

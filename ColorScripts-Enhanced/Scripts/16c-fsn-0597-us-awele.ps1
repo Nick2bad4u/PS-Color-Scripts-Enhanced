@@ -1,18 +1,4 @@
-﻿# Converted from: US-AWELE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0597/raw/US-AWELE.ANS
-# Source Revision: archive-sha256:100499c687593fd78c29adf06f5899e8c0d61223958e380a9c31aadb955ab06d
-# Source SHA-256: 6c647f6c740422437e01d7e0150f7dab8fa6ee3504c379d8b5cdf0f71ec6969d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-AWELE.ANS by Ize + The Night Angel (Awe & Fusion); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Awe lettering
-# SAUCE Author: Tna + ize
-# SAUCE Group: Awe & Fusion
-# SAUCE Date: 19970509
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Awe lettering by Ize + The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0597-us-awele
 
 Write-Host '
 [35m    [0;1;35m [0;35m░[0m

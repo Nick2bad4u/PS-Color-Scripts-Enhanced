@@ -1,13 +1,4 @@
-﻿# Converted from: we-ds.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_resvolution/raw/we-ds.ans
-# Source Revision: archive-sha256:d0690af9ec91bf96f335196e9f9ddfb5d7ea02d97d300b53301bebaf58d83c35
-# Source SHA-256: 9a27fcbdacafc7a26e13e69d7a8697c866b6bcee59f0a1c2c5fda8894c43accc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-ds.ans by Avenging Angel + Tombin (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: we-ds.ans by Avenging Angel + Tombin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-resvolution-we-ds
 
 Write-Host '
 [1;30m[0m

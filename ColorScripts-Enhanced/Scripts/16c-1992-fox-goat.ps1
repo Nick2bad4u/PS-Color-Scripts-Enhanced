@@ -1,13 +1,4 @@
-﻿# Converted from: FOX_GOAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1992/raw/FOX_GOAT.ANS
-# Source Revision: archive-sha256:408f6102282b4b4f582d319af7c00d0c1a49a9b89d70dc7754d4cd44f475f4fb
-# Source SHA-256: 3f17071fef898fe9ad48c97a9bc9405daaf32c616bde4313431242d477d6d1ed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FOX_GOAT.ANS by George Ramos (1992); released in 1992 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: FOX_GOAT.ANS by George Ramos | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1992-fox-goat
 
 Write-Host '
        [32m▄[0m            [32m▄  ▄  ▄ ▄█▄    ▄▄▀█▀  [0;33m▄▄▄▄▄▄█▄▄▄▄[0m     [32m▄▄▄▄[0m [32m▄ ▄   ▄ ▄[0m      [32m▄[0m

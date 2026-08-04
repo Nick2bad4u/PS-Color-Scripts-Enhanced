@@ -1,18 +1,4 @@
-﻿# Converted from: VN-PUKE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/df-0004/raw/VN-PUKE.ANS
-# Source Revision: archive-sha256:67203679d779fe212820fa7b395a6dba18055e5a0d6901e90b101261609c0eb5
-# Source SHA-256: 0dc5620bb7cc7cb9a6436d6a0718a9793f5ccbc529cdd6da77440e610595b574
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VN-PUKE.ANS by VeNoMouS (vN!) (DeViL FoRCeS); released in df-0004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: pUKE!
-# SAUCE Author: VeNoMouS (vN!)
-# SAUCE Group: DeViL FoRCeS
-# SAUCE Date: 19971220
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: pUKE! by VeNoMouS (vN!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-df-0004-vn-puke
 
 Write-Host '
            [36m▄▄[0;1;36;46m░░░▒▒[0;36m▄▄▄▄▄▄[0m        [1;36;46m▒[0m      [36m▄██▄[0m                 [36m▄[0m

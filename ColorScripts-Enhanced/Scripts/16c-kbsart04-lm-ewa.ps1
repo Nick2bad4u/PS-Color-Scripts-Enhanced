@@ -1,17 +1,4 @@
-﻿# Converted from: Lm-ewa.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/kbsart04/raw/Lm-ewa.ans
-# Source Revision: archive-sha256:b56eb6daaf367cbf9682fef251319323b3d3bc4ad39e35398f3d3dd318332e76
-# Source SHA-256: 79b09dbabc0ee0e824e8f3e603a5c968076e10e904aa310006aedcba552368f3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Lm-ewa.ans by lichmistress (genuine); released in kbsart04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: lichmistress
-# SAUCE Group: genuine
-# SAUCE Date: 19991213
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Lm-ewa.ans by lichmistress | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-kbsart04-lm-ewa
 
 Write-Host '
 

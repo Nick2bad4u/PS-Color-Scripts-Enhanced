@@ -1,18 +1,4 @@
-﻿# Converted from: BZ-LTM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ltm-0001/raw/BZ-LTM1.ANS
-# Source Revision: archive-sha256:4861974665622474852edaa553af7707d1821e3b52e08fa2c5297046ab135ec4
-# Source SHA-256: 103b2362b81f7e0ce84748a85abc9ecca291c46b8a44d39f943c3fd522af4b0e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BZ-LTM1.ANS by biozard (lithium); released in ltm-0001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: lithium logo #1
-# SAUCE Author: biozard
-# SAUCE Group: lithium
-# SAUCE Date: 19970403
-# SAUCE Dimensions: 80x13
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: lithium logo #1 by biozard | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ltm-0001-bz-ltm1
 
 Write-Host '
 [1;30m▄▓ ▀▀▀▀▀█    [0m   [1;30m▄▄▄▓▀▀▀▀▀ [0;1;30;47m▓[0;34m  [0;1;30m▄▄▄▓▀▀▀▀[0m▀[1;30m █[0m

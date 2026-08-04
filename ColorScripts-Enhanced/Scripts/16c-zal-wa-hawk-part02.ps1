@@ -1,20 +1,4 @@
-﻿# Converted from: wa-hawk.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zal/raw/wa-hawk.ans
-# Source Revision: archive-sha256:27105a9153e1ab4f3cc531b07ab6db3370ec6ee44f65a8fce04e836afc280bb7
-# Source SHA-256: c39328422a7e9d4086c0a7464c824692f156b0f58edab2ad79648e8965ff702d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-hawk.ans by warpus (LAZARUS); released in zal and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: HAWK
-# SAUCE Author: warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20260119
-# SAUCE Dimensions: 80x78
-# SAUCE Font: IBM VGA
-# SAUCE Comments: hawk forever
-# Lines: 51-78
-# Columns: 1-80
+﻿# Artwork: HAWK by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zal-wa-hawk-part02
 
 Write-Host '
 [1;31;43m██▀[0;1;31;40m██[0;1;31;43m▓▒░[0;33m█[0;1;30;43m ▄[0;1;30;40m▀[0m [35m▄[0;1;35m▓▓▓▓▓[0;1;37;45m▀ [0;35m▀▀[0;33m▄[0;37m▄[0;33m [0;1;35m▌▐[0;30m▌[0;1;35m▌[0;1;31m▐[0;33m [0;37m▄[0;33m [0;35m▀██[0;1;36;45m░░[0;1;31;45m░[0;35m██████[0;31;45m░▒[0;31;40m▌[0;1;37;40m █[0;1;37;47m▄▐[0;1;37;40m█░[0m ▀[1m█[0;1;47m▌█▄[0m ░  [1m▀[0;1;47m▄[0;1;40m  [0;1;106m▄[0;1m██[0;1;47m█░▀▀▀[0;1;40m▓[0m

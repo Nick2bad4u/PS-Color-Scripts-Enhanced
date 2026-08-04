@@ -1,17 +1,4 @@
-﻿# Converted from: SG-COR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0896/raw/SG-COR.ANS
-# Source Revision: archive-sha256:aea0eeb92b0eab79feeb93a911e40d78834e5950cdc396c43c83fe60a2627fad
-# Source SHA-256: 79484812649e29801f1728904398c4707d675aa5e16878e4652ecfa5eb2137ee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SG-COR.ANS by Stygian (quad0896); released in quad0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: cOrleOne!
-# SAUCE Author: Stygian
-# SAUCE Date: 19960706
-# SAUCE Dimensions: 80x36
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: cOrleOne! by Stygian | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0896-sg-cor
 
 Write-Host '
 [34m███████████[0;1;34;44m  [0;34m█[0;1;34;44m  ▄▄[0;1;34;40m███████████████████████████████████████████████████[0;1;34;44m▄▄[0;34m█████████[0m

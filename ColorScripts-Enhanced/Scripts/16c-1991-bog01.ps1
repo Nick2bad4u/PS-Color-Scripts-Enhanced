@@ -1,13 +1,4 @@
-﻿# Converted from: BOG01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1991/raw/BOG01.ANS
-# Source Revision: archive-sha256:4dcfddb1a9f84aafa45e2facaadcb15ccf7ddad9041d8c346c723f7894d6cfb9
-# Source SHA-256: 6d7c1bfd481b563ccf380328c99b7fa9a41c5f70e75c0ad4b772938bc5570d5c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BOG01.ANS by Black Spyrit (1991); released in 1991 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: BOG01.ANS by Black Spyrit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1991-bog01
 
 Write-Host '
              [1;30m▄[0;32m▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30m▄[0m       [1;30m▄[0;32m▄▄▄▄▄▄▄▄▄[0;1;30m▄[0m       [1;30m▄[0;32m▄▄▄▄▄▄▄▄▄▄[0;1;30m▄[0m

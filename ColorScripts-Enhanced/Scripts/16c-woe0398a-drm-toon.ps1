@@ -1,17 +1,4 @@
-﻿# Converted from: DRM-TOON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/woe0398a/raw/DRM-TOON.ANS
-# Source Revision: archive-sha256:feef6c5067150fcb3afb8e1031cbd84508116073dc31e796c2f896be6ffc96b0
-# Source SHA-256: 44cd349805b202389d7bd76093b3c9342ed9c8f685c4276b934938ef23be1d08
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DRM-TOON.ANS by d0rm (wOE!); released in woe0398a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: t00n!
-# SAUCE Author: d0rm
-# SAUCE Group: wOE!
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: t00n! by d0rm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-woe0398a-drm-toon
 
 Write-Host '
 

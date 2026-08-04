@@ -1,18 +1,4 @@
-﻿# Converted from: FS-DARK#.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-12/raw/FS-DARK%23.ANS
-# Source Revision: archive-sha256:7e4f8f6a94015166f300fe788b888a1d637b190c909ddf321a766f55494b93b3
-# Source SHA-256: 68ffc0e8a5842a3df1c260f34cac44e9d424de3153ef6b571dcfa9e6fc33eed4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FS-DARK#.ANS by flipside (fORCE); released in force-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Dark Moon
-# SAUCE Author: flipside
-# SAUCE Group: fORCE
-# SAUCE Date: 19961012
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Dark Moon by flipside | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-12-fs-dark
 
 Write-Host '
 [1;31;41m▐[0;1;31;40m▌[0;1;33;40m [0;36m▀[0;1;31m▄▄[0;1;31;41m▀[0;1;31;40m▄[0;1;37;40m [0;1;33;40m [0;36m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;37m [0;1;33m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;36m▀[0;37m [0;1;33m▀▀▀▀█████████████[0;1;33;47m▓[0;1;33;40m█[0;1;33;47m▓▓▓▓[0m

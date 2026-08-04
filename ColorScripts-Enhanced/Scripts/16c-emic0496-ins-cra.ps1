@@ -1,18 +1,4 @@
-﻿# Converted from: INS-CRA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/emic0496/raw/INS-CRA.ANS
-# Source Revision: archive-sha256:0081657214e0d3eeaf9fa72e89eaffd16455becfd5da03242b645aa6b0fa9295
-# Source SHA-256: a4e9e96523d6670238d116b65cba7b41c0618d838474d5d03683a0cccfa6bcb1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: INS-CRA.ANS by Insomniac (EMiC); released in emic0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Crayon!
-# SAUCE Author: Insomniac
-# SAUCE Group: EMiC
-# SAUCE Date: 19960315
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Crayon! by Insomniac | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-emic0496-ins-cra
 
 Write-Host '
 

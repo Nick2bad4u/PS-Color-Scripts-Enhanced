@@ -1,18 +1,4 @@
-﻿# Converted from: QP-ATOM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m-9801/raw/QP-ATOM1.ANS
-# Source Revision: archive-sha256:68027b949f7edfef662f12aa514dfc21e6e156e3984f9866a81997534ce6ce87
-# Source SHA-256: 55d5415e1eab0ae3c74822bf5b902ac4ac752f612e4b72d07463fea87c426b3c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QP-ATOM1.ANS by quip (mistigris); released in m-9801 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: atomique
-# SAUCE Author: quip
-# SAUCE Group: mistigris
-# SAUCE Date: 19971029
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: atomique by quip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m-9801-qp-atom1
 
 Write-Host '
 [1m[0m

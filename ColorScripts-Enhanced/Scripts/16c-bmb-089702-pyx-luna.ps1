@@ -1,18 +1,4 @@
-﻿# Converted from: PYX-LUNA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-089702/raw/PYX-LUNA.ANS
-# Source Revision: archive-sha256:e48c38fcf9ad1e8bdcd70f413f385ac4fe4835bcda18b3e71092baf5cce2e35b
-# Source SHA-256: cfcd3a294514b091ca5f3a50d97f079fd8845cd837d4c79860fb5032fefb47a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-LUNA.ANS by pyx (bamboosh & society); released in bmb-089702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: luuuunatic#!"#@/@?!
-# SAUCE Author: pyx
-# SAUCE Group: bamboosh & society
-# SAUCE Date: 19970817
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: luuuunatic#!"#@/@?! by pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-089702-pyx-luna
 
 Write-Host '
                                         [32m▄▄[0;1;32m▄▄▄▄[0;32m▄▄ [0m

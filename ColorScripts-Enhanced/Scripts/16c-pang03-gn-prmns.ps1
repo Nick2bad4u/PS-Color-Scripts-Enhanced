@@ -1,13 +1,4 @@
-﻿# Converted from: GN-PRMNS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pang03/raw/GN-PRMNS.ANS
-# Source Revision: archive-sha256:9a4d3bad3e5904d1f75fb63220bec772afa6ee695697fd873d943948d0f4ac7d
-# Source SHA-256: 1f881ab6fdb350b1289577f79deeb788e82dc116e1e860fb867a540c611502bf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GN-PRMNS.ANS by Genick (pang03); released in pang03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: GN-PRMNS.ANS by Genick | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pang03-gn-prmns
 
 Write-Host '
 [34m[0;1;34m[0;36m[0;34m[0;1;34m[0m[36m[0m[36m[0m              [34m.[0;1;34m.,[0;34m,[0;1;34m,.[0;34m.[0m               [1;36m,┌⌐╔[0;36mg[0;1;36ml[0m   [1;36ml[0;36m:[0m       [1;34m_[0;34m_[0m    [1;34m.[0;34m.[0;1;34m..[0;34m.[0;1;34m,,[0;34m.[0;1;34m..[0;34m.[0m

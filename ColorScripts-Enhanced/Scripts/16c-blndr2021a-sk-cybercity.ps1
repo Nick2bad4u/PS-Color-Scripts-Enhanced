@@ -1,20 +1,4 @@
-﻿# Converted from: sk!cybercity.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2021a/raw/sk!cybercity.ans
-# Source Revision: archive-sha256:2734d01c4060a91ea3bc9a9c95c82ba6b6cc9bc9ae9d2bb629ec4f9af0f5a67a
-# Source SHA-256: 27c2a37e300304ac66c222c34c41adc88652571c115190fd9bc5067796c89fae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sk!cybercity.ans by sIMONkING (Lazarus); released in blndr2021a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: cybercity
-# SAUCE Author: sIMONkING
-# SAUCE Group: Lazarus
-# SAUCE Date: 20210117
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Blender 2021a
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: cybercity by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2021a-sk-cybercity
 
 Write-Host '
 [34m████████[0;34;107m▀[0;34m████[0;1;34;107m░░░░░░░[0;1m▀▀▀▀█[0;34m█████████[0;1;37;44m▀[0;34m█[0;1;34m▓▄▄[0;1;34;107m▓[0;1m▀▀▀▀▀▀▀▀▀[0;1;34;107m░[0;34m█████████████████[0;1;37;44m▀[0;34;107m▀[0;1;44m▀[0;34m██████████[0m

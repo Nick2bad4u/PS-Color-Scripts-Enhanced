@@ -1,13 +1,4 @@
-﻿# Converted from: BL_GAS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wiz-0296/raw/BL_GAS1.ANS
-# Source Revision: archive-sha256:3f8b333d956f05039bd8989798e89f7aebfbd93d690d5be775c01d8583de35c4
-# Source SHA-256: cde93ff0a829721bd8fbd404abdfa6c1f48149eb264b72a74f4c5876f18561dd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BL_GAS1.ANS by Blitzkrieg (wiz-0296); released in wiz-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: BL_GAS1.ANS by Blitzkrieg | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wiz-0296-bl-gas1
 
 Write-Host '
                    [1;31;41m░[0m

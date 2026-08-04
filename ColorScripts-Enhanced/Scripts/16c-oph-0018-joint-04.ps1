@@ -1,17 +1,4 @@
-﻿# Converted from: JOINT-04.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oph-0018/raw/JOINT-04.ANS
-# Source Revision: archive-sha256:b78bc978b69dedfb9a07152cba296ecefc97611bd7bc7f5211d489ff748613dc
-# Source SHA-256: b2047cd3338452988768d758063dca71e6c3adf305d389cb42d7cb56fa009b36
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JOINT-04.ANS by Infusium + Fever (oph-0018); released in oph-0018 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ^[[\   ^\  \\\[[20    \\20
-# SAUCE Author: infusium / fever
-# SAUCE Date: 19960917
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: ^[[\ ^\ \\\[[20 \\20 by Infusium + Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oph-0018-joint-04
 
 Write-Host '
 

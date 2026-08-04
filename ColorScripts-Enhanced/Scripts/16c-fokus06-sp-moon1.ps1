@@ -1,18 +1,4 @@
-﻿# Converted from: SP-MOON1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus06/raw/SP-MOON1.ANS
-# Source Revision: archive-sha256:dc26abf5be8f48f280ad19d58f0c64fc91b5db6a0fab8539aa3970e4d64fad45
-# Source SHA-256: 002ce4acfe1b5dba024613e6bc44ad8d9b958e3a99c685085c98d0d4ffbfd952
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SP-MOON1.ANS by spear (fokus); released in fokus06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Moon
-# SAUCE Author: spear
-# SAUCE Group: fokus
-# SAUCE Date: 19990801
-# SAUCE Dimensions: 80x49
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: The Moon by spear | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus06-sp-moon1
 
 Write-Host '
                                                      [1;30m█▀▀██ [0m

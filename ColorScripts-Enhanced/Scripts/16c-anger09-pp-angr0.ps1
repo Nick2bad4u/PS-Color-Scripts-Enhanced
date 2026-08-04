@@ -1,18 +1,4 @@
-﻿# Converted from: PP-ANGR0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger09/raw/PP-ANGR0.ANS
-# Source Revision: archive-sha256:1d024ab1b967a873387ebae34f188b304120e208b081dccdcb5397c8adcbd2a4
-# Source SHA-256: 2fc5a61d919691f951b720ccf32e529fa3fe9a63771d884d811ed1199bfac086
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PP-ANGR0.ANS by pixel_pusher (anger); released in anger09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: anger promo
-# SAUCE Author: pixel_pusher
-# SAUCE Group: anger
-# SAUCE Date: 19960502
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: anger promo by pixel_pusher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger09-pp-angr0
 
 Write-Host '
 [36m  ░░▄▄▓[0;1;36;46m  ▄▄▓▄■[0;36m▓▀▀█▓▒░[0;35m░▄▄▄[0;1;35;45m▄▄███[0;1;35;40m█[0;1;35;43m█[0;1;35;46m████████[0;1;35;40m█[0;1;35;45m██████▀▀▀▀▀▀▀▀▀████[0;1;35;40m███[0;1;35;47m▓▓[0;1;35;40m██[0;1;35;47m▓▓▓▓▓▓▓[0;1;35;46m▓▓▓▒░[0m

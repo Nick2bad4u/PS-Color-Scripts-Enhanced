@@ -1,18 +1,4 @@
-﻿# Converted from: SUI-STAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drv-0595/raw/SUI-STAR.ANS
-# Source Revision: archive-sha256:ab2903da2c95149760a6d9230201e2017a141769235eee49a007790b51e1be73
-# Source SHA-256: e866cce78e1cda717f8171240dc78c25c0c7fedd2bc41cf97175e81457f79b59
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SUI-STAR.ANS by SuiCyco (Driven); released in drv-0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: SeaStar
-# SAUCE Author: SuiCyco
-# SAUCE Group: Driven
-# SAUCE Date: 19950217
-# SAUCE Dimensions: 80x53
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: SeaStar by SuiCyco | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drv-0595-sui-star-part01
 
 Write-Host '
 [1;32m█▄[0m            [32m▄▄[0m                                               [32m▄▄[0m            [1;32m▄█[0m

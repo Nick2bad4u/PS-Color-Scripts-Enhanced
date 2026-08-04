@@ -1,19 +1,4 @@
-﻿# Converted from: WZ - Zodiac Leo.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_darker_image_2/raw/WZ%20-%20Zodiac%20Leo.ans
-# Source Revision: archive-sha256:7282b405cc52219ce7cf6cd9d097796f1b25fc898e4c29fdb9f37c375d595996
-# Source SHA-256: a7131c0f97e940274f26f342fc5940a8de54d407152811018124aa53ced68202
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WZ - Zodiac Leo.ans by Whazzit (Blocktronics); released in blocktronics_darker_image_2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Leo
-# SAUCE Author: Whazzit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20170525
-# SAUCE Dimensions: 120x80
-# SAUCE Font: IBM VGA
-# Lines: 41-80
-# Columns: 1-120
+﻿# Artwork: Leo by Whazzit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-darker-image-2-wz-zodiac-leo-part02
 
 Write-Host '
               [34;44m███████[0;1;34;44m  [0;44m█▐▀█[0;34;44m█[0;37;44m█▐▌▄█▌█▌[0;1;33;47m▌[0;1;33;45m▓[0;44m▄██[0;1;33;47m▐[0;44m▀█▄[0;34;44m█[0;37;44m██[0;34;44m█[0;37;44m▀▄[0;34;40m█[0;37;44m▄  [0;34;44m█[0;37;44m [0;34;44m▓[0;37;44m [0;1;30;47m▒[0;34;44m█████████[0;34;40m█████████[0;37;44m█[0;1;34;44m▓[0;44m ▀[0;1;30;47m▀[0;1;30;44m▄[0;34;44m█████[0;34;40m██████████▀[0m

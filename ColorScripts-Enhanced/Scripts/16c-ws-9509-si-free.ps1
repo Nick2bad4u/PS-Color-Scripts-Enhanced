@@ -1,17 +1,4 @@
-﻿# Converted from: SI-FREE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ws-9509/raw/SI-FREE.ANS
-# Source Revision: archive-sha256:f80be9f57a72f3731fd02149f3cc3f702afe87dd851a20e852584349c036c76a
-# Source SHA-256: fbb77b1a305bb9eacf7c9a556e2f4f5c4150601f08976ebba6307da2e6f50acd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SI-FREE.ANS by soul survivor (ws-9509); released in ws-9509 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: free ansi
-# SAUCE Author: soul survivor
-# SAUCE Date: 19950904
-# SAUCE Dimensions: 80x47
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: free ansi by soul survivor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ws-9509-si-free
 
 Write-Host '
 [1;32m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

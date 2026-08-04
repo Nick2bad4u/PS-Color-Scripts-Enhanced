@@ -1,18 +1,4 @@
-﻿# Converted from: DRM-HOB3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nrg-art3/raw/DRM-HOB3.ANS
-# Source Revision: archive-sha256:0ae85f5ea4f74c2b59a538e4c7ac08d3c739cee33103af816d9b1cc2444e121f
-# Source SHA-256: 7b1e45722ea89a77c99211c3466119b7d8edcd70da49c931beb0cdffd7580c6c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DRM-HOB3.ANS by Dr. Dream (NRG art dep.); released in nrg-art3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hobbiton.org
-# SAUCE Author: Dr. Dream
-# SAUCE Group: NRG art dep.
-# SAUCE Date: 19990816
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: hobbiton.org by Dr. Dream | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nrg-art3-drm-hob3
 
 Write-Host '
                                                   [34m [0m

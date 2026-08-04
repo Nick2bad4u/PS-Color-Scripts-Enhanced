@@ -1,13 +1,4 @@
-﻿# Converted from: TXT-ACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense16j/raw/TXT-ACID.ANS
-# Source Revision: archive-sha256:21e10a26e80e20f8e4295f136a75aae0f222471bb8bb339e4e731b31441ecc2b
-# Source SHA-256: 28749c257d65b2f03326ef4f1f520ea65ffa5eb054ff827c3def0a74da0a3e3a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TXT-ACID.ANS by The Textorcist (sense16j); released in sense16j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: TXT-ACID.ANS by The Textorcist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense16j-txt-acid
 
 Write-Host '
 

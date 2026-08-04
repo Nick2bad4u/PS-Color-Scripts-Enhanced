@@ -1,18 +1,4 @@
-﻿# Converted from: DY-SAUCE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9704/raw/DY-SAUCE.ANS
-# Source Revision: archive-sha256:da151757a637299fc8da8cc755ae75b6a0e1a281dd915d29497f1d00d429e5c1
-# Source SHA-256: 93225716ed15b6a486601ffd375474af1554501e65dc50c4870e4bf5688bf371
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DY-SAUCE.ANS by Discyple (AWE Lettering); released in awe9704 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Special Sauce
-# SAUCE Author: Discyple
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970325
-# SAUCE Dimensions: 80x25
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Special Sauce by Discyple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9704-dy-sauce
 
 Write-Host '
 

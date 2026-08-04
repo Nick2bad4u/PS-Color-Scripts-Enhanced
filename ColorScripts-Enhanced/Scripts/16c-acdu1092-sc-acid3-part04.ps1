@@ -1,13 +1,4 @@
-﻿# Converted from: SC-ACID3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1092/raw/SC-ACID3.ANS
-# Source Revision: archive-sha256:768e49c0fcc70036d81b58eb68d2e9509e4ecc466f4fb706e35cc9eb05b78dcb
-# Source SHA-256: c0951aa0253256746a042aa15fa867aae5b72a5aa80ef1e2ce9169ca52f1a5d7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-ACID3.ANS by Mysterio (acdu1092); released in acdu1092 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 145-194
-# Columns: 1-80
+﻿# Artwork: SC-ACID3.ANS by Mysterio | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1092-sc-acid3-part04
 
 Write-Host '
 [33m▓▓▓███████▄▄▄▄[0;31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m              [1;30mMS<ACiD> ▀█████████████[0;1;30;47m█[0;1;30;40m███▌█████████[0m

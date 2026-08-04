@@ -1,18 +1,4 @@
-﻿# Converted from: IG-R101.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack13/raw/IG-R101.ANS
-# Source Revision: archive-sha256:4a26d5fa66db3ddd4cdcb2ef37b8cd0ed1462318d030e090ba0b76480554de3e
-# Source SHA-256: 828dd6aeefad2dfb8a8b49647f40d702d24333d799d3755afe9dc223e2280914
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IG-R101.ANS by insurge (Apocalyptic Visions); released in avpack13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Room 1o1
-# SAUCE Author: insurge
-# SAUCE Group: Apocalyptic Visions
-# SAUCE Date: 19960719
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Room 1o1 by insurge | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack13-ig-r101
 
 Write-Host '
                                                                 [1;30m░[0m

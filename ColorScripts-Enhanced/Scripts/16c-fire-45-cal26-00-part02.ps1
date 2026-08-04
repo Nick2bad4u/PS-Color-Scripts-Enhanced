@@ -1,19 +1,4 @@
-﻿# Converted from: CAL26-00.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-45/raw/CAL26-00.ANS
-# Source Revision: archive-sha256:0564021806e0277d72a0e235c044a0e0470226ba860a8976e1e3092326555d1d
-# Source SHA-256: e60ee849afc8fcd4ac725b6b94cdf08c5ec46def9c863e4e33e46cd4bb739480
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CAL26-00.ANS by Savage (Fire Graphics); released in fire-45 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Calendar Cover
-# SAUCE Author: Savage
-# SAUCE Group: Fire Graphics
-# SAUCE Date: 20251224
-# SAUCE Dimensions: 80x66
-# SAUCE Font: IBM VGA
-# Lines: 51-66
-# Columns: 1-80
+﻿# Artwork: Calendar Cover by Savage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-45-cal26-00-part02
 
 Write-Host '
 [1;37;40m [0;31m░░    [0;37m▄[0;1;37m▄▄[0;1;37;47m▄[0;1;37;40m█████████████████▀ ▐▌  [0;1;30;40m▐[0;1;30;47m▓[0;1;30;40m▀[0m  [1;30m▀[0m ▐[1;33;47m░[0;1;30;40m▐[0;1;30;47m▓[0m [1;30;47m░[0m▌ ▐[1;30;47m▓[0;1;30;40m▀▀[0m  [1;30;47m▓[0m [1;30m▀[0;1;30;47m▄▓[0;1;30;40m▌▐[0;1;30;47m▓[0;1;30;40m▌[0m [1;30m▄[0;1;30;47m▄[0m▒▒[1;30m▀▀▀[0;1;30;47m▓[0;1;30;40m▌█▌[0m [1;30m▐█▌[0m

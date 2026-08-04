@@ -1,18 +1,4 @@
-﻿# Converted from: IR-VOID2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/think003/raw/IR-VOID2.ANS
-# Source Revision: archive-sha256:d4b9f479d863821edbdeee4a014d7b068944f31771410bad1ae960e582549a5b
-# Source SHA-256: b8b6def49fdde02e7773674cd4570b5a51444602e1c200aa7a2bcb78fde8b106
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IR-VOID2.ANS by irrational (think); released in think003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: void bbs ad #2
-# SAUCE Author: irrational
-# SAUCE Group: think
-# SAUCE Date: 19971229
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: void bbs ad #2 by irrational | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-think003-ir-void2
 
 Write-Host '
                         [1;30;44m▒[0m                                    [34m█▄[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: US-CTV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge14/raw/US-CTV.ANS
-# Source Revision: archive-sha256:b0e749d5e6297574610409aa68f6dd9e8c54af434247cd2b743b8d1e2d2406d7
-# Source SHA-256: 8d6fe233823196460641775a5225093fee962f18b62d3b6379ddb6016be4b82d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CTV.ANS by Rzicus + Luminous (The AvengeCult); released in avenge14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Color TV
-# SAUCE Author: _rzicus / lum
-# SAUCE Group: The AvengeCult
-# SAUCE Font: empathy by skaboy
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Color TV by Rzicus + Luminous | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge14-us-ctv
 
 Write-Host '
 [37;40m                             [0;1;30;40m▄[0;37;40m              [0;35;40m▄[0;37;40m                                   [0m

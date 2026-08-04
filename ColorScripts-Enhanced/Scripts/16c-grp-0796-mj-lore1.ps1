@@ -1,18 +1,4 @@
-﻿# Converted from: MJ-LORE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/grp-0796/raw/MJ-LORE1.ANS
-# Source Revision: archive-sha256:be098753331373d307d2771aacbecdb35b1784f2f60e9ac3c053f2df7b867fcd
-# Source SHA-256: 829239ade6eff33c4d2d017264abfc3539a0c91856f81436f4a07c472a8b1106
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MJ-LORE1.ANS by mjay?! (GRAPE); released in grp-0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: lore mag
-# SAUCE Author: mjay?!
-# SAUCE Group: GRAPE
-# SAUCE Date: 19960621
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: lore mag by mjay?! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-grp-0796-mj-lore1
 
 Write-Host '
 [35m$$$$$$$$$$$$$$$$$$$$$$$$$°[0;31m,[0;35m`$$$$$$$$$$$$$$s''°$$$$$$$$s÷÷s$$$$$$$$$÷²²÷$$$$$$$$$$[0m

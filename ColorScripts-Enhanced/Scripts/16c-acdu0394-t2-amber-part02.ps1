@@ -1,18 +1,4 @@
-﻿# Converted from: T2-AMBER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0394/raw/T2-AMBER.ANS
-# Source Revision: archive-sha256:7805df52925a98aad31489bafc7cabadb416309b42badbbd7aa9aecbdec2b1cf
-# Source SHA-256: 460b45f5a59e5e9e21084fa8979ecce682eb64cc8487f49845780993eee56716
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T2-AMBER.ANS by Terminator2 (ACiD Productions); released in acdu0394 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Amber
-# SAUCE Author: Terminator2
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940216
-# SAUCE Dimensions: 80x134
-# Lines: 43-85
-# Columns: 1-80
+﻿# Artwork: Amber by Terminator2 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0394-t2-amber-part02
 
 Write-Host '
 [1;31m   [0;33m░▒▄[0;1;30;43m░▒▓▓▓▒▒░░      ░░▒▒▒ ░▒░[0;33m▀[0;1;30;43m▒░░           [0;33m▀[0;1;31;43m▓▓▒░   [0;33m▌[0;1;31m▐[0;1;31;43m▒░    ░░▒▒[0;1;31m█▄▐[0;1;31;43m▓▓▒▒▓[0m

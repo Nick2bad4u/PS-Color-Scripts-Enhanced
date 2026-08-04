@@ -1,19 +1,4 @@
-﻿# Converted from: ctx-dangerously-cute.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-002/raw/ctx-dangerously-cute.ans
-# Source Revision: archive-sha256:035806f627526bbca92fb6becafc359d23b231b3ea478b7169ed62b6d2a1cc54
-# Source SHA-256: 08a11543633322385bca5b55417014b517dff7b861804ac1f9e36f122702de1b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ctx-dangerously-cute.ans by CatX (Legacy Krew); released in lgcy-002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Dangerously Cute
-# SAUCE Author: CatX
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20200512
-# SAUCE Dimensions: 80x90
-# SAUCE Font: IBM VGA
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: Dangerously Cute by CatX | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-002-ctx-dangerously-cute-part01
 
 Write-Host '
 [1m███████████████████▀████████████████████████████████████████████████████████████[0m

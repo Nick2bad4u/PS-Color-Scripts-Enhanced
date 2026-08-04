@@ -1,18 +1,4 @@
-﻿# Converted from: SOR-DDH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zenith01/raw/SOR-DDH.ANS
-# Source Revision: archive-sha256:89a769066be1ade04361b16bc2aabeb1a280fe034deee0fe7ee4c75badc7461d
-# Source SHA-256: 2a84935174374ee2592a169487dbcd2426bdfdb9ae12a96559c84d938fa1fae6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SOR-DDH.ANS by Spirit of Rage (Zenith); released in zenith01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: doodle draw help menu
-# SAUCE Author: Spirit of Rage
-# SAUCE Group: Zenith
-# SAUCE Date: 19980526
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: doodle draw help menu by Spirit of Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zenith01-sor-ddh
 
 Write-Host '
 [1;47m [0;1;30;47msor![0;1;37;47m ░▓▓[0;1;37;40m███[0;1;37;47m▓░[0m▀▀ [31m▄[0;1;31m▄▄▄▄▄▄▄[0;31m▄[0;37m ▀▀[0;1;37;47m▀█[0;1;37;40m██████████[0m [1;31;41m▓▒[0;31m▌[0;1;31m [0;31m▀[0;1;30m [0;31m▀▀▀▀[0;1;31m▀[0;31m▀▀▀▀[0;1;31m▀[0;31m▀▀[0;1;31m▀▀[0;31m▀[0;1;31m▀[0;31m▀[0;1;31m▀▀▀▀▀▀▀▀▀▀▀▀[0;1;31;41m▓░[0;31m▓[0m

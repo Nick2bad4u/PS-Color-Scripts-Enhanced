@@ -1,18 +1,4 @@
-﻿# Converted from: DS-CYBAH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack14/raw/DS-CYBAH.ANS
-# Source Revision: archive-sha256:cc504a5dba52c5f998daf5493fac68a658e6668bcf22da76e3af7c67337c8c9c
-# Source SHA-256: f692ec387da46e737766b71c36bc1636e9059ba9f5c5635d6643d452926f47dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-CYBAH.ANS by Deathstroke (apocalyptic visions); released in avpack14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: cybah tech ansi
-# SAUCE Author: Deathstroke
-# SAUCE Group: apocalyptic visions
-# SAUCE Date: 19960930
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: cybah tech ansi by Deathstroke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack14-ds-cybah
 
 Write-Host '
 [35m [0;1;30m  [0m    [32m▄▄▄▄▄▄ [0;35m ▄[0;1;30m [0;35m▄▄   [0;32m [0m       [35m [0;32m▄▄▄▄[0;1;32;47m░[0;32m▄[0m      [32m▄▄▄▄▄ [0;35m ▄▄▄▄[0m   [35m  [0;1;32;47m░[0m       [37;42m▓▓[0m      [1;30;47m▓▓[0m

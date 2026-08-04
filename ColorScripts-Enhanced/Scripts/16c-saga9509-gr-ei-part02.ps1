@@ -1,18 +1,4 @@
-﻿# Converted from: GR-EI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/saga9509/raw/GR-EI.ANS
-# Source Revision: archive-sha256:aa92751db49565be37784e7233d72ac6fc44a6489327e79fff3f8705162d151c
-# Source SHA-256: 282a933de6e5dd8804a176a4664d5dd75c92403578c2bda54769e2a6f4fdfa13
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GR-EI.ANS by Grifter (Saga); released in saga9509 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Evil Intentions
-# SAUCE Author: Grifter
-# SAUCE Group: Saga
-# SAUCE Date: 19950828
-# SAUCE Dimensions: 80x25
-# Lines: 36-67
-# Columns: 1-80
+﻿# Artwork: Evil Intentions by Grifter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-saga9509-gr-ei-part02
 
 Write-Host '
 [35m▐   ▐▐   [0;33m█ ░ ░   ▓▌  ▒██[0;1;31;43m░[0;33m▄[0m            [33m▄[0;1;31;43m░░[0;33m██[0;1;31;43m░░▒▒░░░[0;33m▌ [0;1;33;43m▒▓[0;1;33m█[0m              [33m░  ░░ ░[0m

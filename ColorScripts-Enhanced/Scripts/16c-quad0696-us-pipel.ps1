@@ -1,18 +1,4 @@
-﻿# Converted from: US-PIPEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0696/raw/US-PIPEL.ANS
-# Source Revision: archive-sha256:236a7fb0a93235d8f2e65905276d126bcc0373b294a0bdfc5818d6b91f477e07
-# Source SHA-256: f2f5c5e76df0cc318580cad7871d19fee203148e55dfcc9d473a8794f5d8ae54
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PIPEL.ANS by El Greco + The Abstract Poet ([Quad-P]); released in quad0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Pipeline Logolio
-# SAUCE Author: tAP & eG
-# SAUCE Group: [Quad-P]
-# SAUCE Date: 19960604
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Pipeline Logolio by El Greco + The Abstract Poet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0696-us-pipel
 
 Write-Host '
       ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

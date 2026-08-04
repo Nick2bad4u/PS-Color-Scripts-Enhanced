@@ -1,18 +1,4 @@
-﻿# Converted from: 22-GLUE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-17/raw/22-GLUE2.ANS
-# Source Revision: archive-sha256:154ac874f13e20433925bb99a4f5e0a4299764bee7ed4d28bdaffd9ad392f554
-# Source SHA-256: d4413e867cd6de6a934a77c11dc54446a1833d61193ae4917a8ec061809ca191
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 22-GLUE2.ANS by catch22 (glue); released in glue-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: glue pride is alive.
-# SAUCE Author: catch22
-# SAUCE Group: glue
-# SAUCE Date: 19981227
-# SAUCE Dimensions: 80x302
-# Lines: 178-220
-# Columns: 1-80
+﻿# Artwork: glue pride is alive. by catch22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-17-22-glue2-part05
 
 Write-Host '
 [1;31;43m  ░[0;33m▄[0;1;31m██[0;1;31;47m▓▓[0;1;31;40m███[0;1;31;41m░[0;31m▀▀[0;1;31;41m▓▓[0;1;31;40m▌[0;31m▄[0;1;31m▐███▄▄[0;33m▀[0;37m [0;33m▄▄[0;37m  [0;1;31m▀█████████[0;1;31;47m▓▓[0;1;31;40m█████████[0;1;31;43m▒[0;33m▌[0;37m [0;33m▐[0;1;31;43m▒[0;1;31;40m█████████████[0;1;31;47m▓▒▒[0;1;31;43m▌[0;33m▌[0;37m      [0m

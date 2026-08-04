@@ -1,18 +1,4 @@
-﻿# Converted from: FS-STILL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira1297f/raw/FS-STILL.ANS
-# Source Revision: archive-sha256:aaf8efb3855bf52b486533186764296c0de75f15c8aab234da34f02a9e2d45f6
-# Source SHA-256: b0d28892affd9bd82060560822bd1cbcb4e209224596702cc402db00b06de10a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FS-STILL.ANS by flying squirrel (irato); released in ira1297f and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: statik illusions
-# SAUCE Author: flying squirrel
-# SAUCE Group: irato
-# SAUCE Date: 19971116
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: statik illusions by flying squirrel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira1297f-fs-still
 
 Write-Host '
                        [1;33m▄▄▄▄▄▄▄[0m   [1;33m▄▄[0;32m [0;1;33m▄[0m

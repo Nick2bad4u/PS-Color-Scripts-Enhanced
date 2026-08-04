@@ -1,13 +1,4 @@
-﻿# Converted from: SMP-STD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/12317/raw/SMP-STD.ANS
-# Source Revision: archive-sha256:2671c97264d75fd9041fa98ce6512a370bf527f9c7397125627811c918171aec
-# Source SHA-256: 0f93ba0d4c952d850092c1ea6cf8899dc3544caf5ceccb05938496b9b0eaa383
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-STD.ANS by Shrimp (12317); released in 12317 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: SMP-STD.ANS by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-12317-smp-std
 
 Write-Host '
         .

@@ -1,18 +1,4 @@
-﻿# Converted from: JR_SK8ER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl-brtsh/raw/JR_SK8ER.ANS
-# Source Revision: archive-sha256:d4d2c2945597259d409a8a2043adb463621296e39a0812b6c732bad34754acd9
-# Source SHA-256: 1209196e74052a84c842eb8e16348c0af782aa8082cf06e51ec16fb50c51da08
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_SK8ER.ANS by jerusalem (boil); released in bl-brtsh and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: time funnel!
-# SAUCE Author: jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19970604
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: time funnel! by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-brtsh-jr-sk8er
 
 Write-Host '
 [1;31;46m▓▓▄[0;1;31;45m██▀▀▀▀[0;35m█▀▀▀▀[0;33m ▄▄▄▄▄[0;37m [0;35m▀▀▀▀[0;37m [0;36m▀[0;1;36m▀▀[0;1;36;46m██▄[0;36m▄▄▄[0;37m [0;35m▀▀▒[0;37m [0;33m░▓[0;1;31;47m▓[0;1;31;43m▒░[0;33m███████▀▀[0;37m [0;35m█[0;1;31;45m█[0;1;31;46m▓▓[0;1;31;45m█[0;35m█[0;37m [0;33m░▄[0;37m [0;35m▀█▀[0;37m [0;33m█[0;1;31;47m▄[0;33m█[0;37m [0;35m█[0;1;31;45m██[0;1;31;46m▄▓▓▓[0m

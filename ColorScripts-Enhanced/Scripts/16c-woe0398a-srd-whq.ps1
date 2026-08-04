@@ -1,18 +1,4 @@
-﻿# Converted from: SRD-WHQ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/woe0398a/raw/SRD-WHQ.ANS
-# Source Revision: archive-sha256:feef6c5067150fcb3afb8e1031cbd84508116073dc31e796c2f896be6ffc96b0
-# Source SHA-256: 883316c2015043f492389c0656de955515033547fc0ef4ec020f01062948d5b0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SRD-WHQ.ANS by Sordid (wOE!); released in woe0398a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: WHQ!!
-# SAUCE Author: Sordid
-# SAUCE Group: wOE!
-# SAUCE Date: 19980221
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: WHQ!! by Sordid | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-woe0398a-srd-whq
 
 Write-Host '
                   [1;34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m                                    

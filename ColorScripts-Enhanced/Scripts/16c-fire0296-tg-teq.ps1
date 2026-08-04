@@ -1,18 +1,4 @@
-﻿# Converted from: TG-TEQ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0296/raw/TG-TEQ.ANS
-# Source Revision: archive-sha256:b878afc5fe93380d31442386cef881dac116ae12152b0839cd399054b0276cd7
-# Source SHA-256: e96f9786f9c949e73f4558ce106599a01814b8fdb0c1f7ed637a78718a7c18fa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-TEQ.ANS by Tang + Prisoner Number One (Fire); released in fire0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Euphio Question
-# SAUCE Author: Tang
-# SAUCE Group: Fire
-# SAUCE Date: 19960129
-# SAUCE Dimensions: 80x50
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: The Euphio Question by Tang + Prisoner Number One | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0296-tg-teq
 
 Write-Host '
                 ▄▄ [32m▌  [0;1;30m▐ [0m▄▄░                                [34m░[0m    [32m█▄[0m

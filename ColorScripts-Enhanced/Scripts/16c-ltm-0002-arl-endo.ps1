@@ -1,18 +1,4 @@
-﻿# Converted from: ARL-ENDO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ltm-0002/raw/ARL-ENDO.ANS
-# Source Revision: archive-sha256:781901eb93f0cb031ec3f7b4daa19680a5eef01b4b60325740b7b545db2b86c8
-# Source SHA-256: 7d07246e1b7102eaa1f1669d6d3b6863315e72d741dba576cb9ef1569ec423d7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARL-ENDO.ANS by Arlequin (Lithium); released in ltm-0002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Henna          "Endoplasma"
-# SAUCE Author: Arlequin
-# SAUCE Group: Lithium
-# SAUCE Date: 19970723
-# SAUCE Dimensions: 80x25
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: Henna "Endoplasma" by Arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ltm-0002-arl-endo
 
 Write-Host '
 [36m                               [0;34m   ▄▄▄▄▄▄▄▄▄▄▄[0;37m  [0;35m▄  [0m

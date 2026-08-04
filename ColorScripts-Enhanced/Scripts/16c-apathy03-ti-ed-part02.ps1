@@ -1,17 +1,4 @@
-﻿# Converted from: TI-ED.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy03/raw/TI-ED.ANS
-# Source Revision: archive-sha256:a3a53ea79bcbcd57bc05c6d80b9369444063e81f9dc4053225ede5f60d209f4b
-# Source SHA-256: beb5672e2e23e6899b70f2c47b1528ceda2bc2602f0198b89e0dd6c0dd8685e7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TI-ED.ANS by Trip (apathy03); released in apathy03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Eternal Damnation
-# SAUCE Author: Trip
-# SAUCE Date: 19951106
-# SAUCE Dimensions: 80x100
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Eternal Damnation by Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy03-ti-ed-part02
 
 Write-Host '
 [35;47m░░[0;37;40m█[0;35;47m░[0;37;40m██[0;1;35;47m░[0m██[35;47m░[0;37;40m█[0;35;47m░[0;37;40m█[0;35;47m▒[0;37;40m██[0;35;47m▒░▒░▒░▒▒▓[0;37;40m▀[0;35;40m▀▄▄[0;35;47m▓▓█▓▀[0;35;40m▄▄▄▄▄▄▄▄[0;35;47m█▓▓▓▒▒░░[0;37;40m█[0;35;47m▒▓░[0;37;40m███[0;1;37;47m░░[0m█[1;47m░▒░░▒▒▒▓▒▒░▓▒▒░▒░[0m█[1;47m░[0m█

@@ -1,18 +1,4 @@
-﻿# Converted from: V9-FIRE5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0497/raw/V9-FIRE5.ANS
-# Source Revision: archive-sha256:42e18118a4fe23187162d4202e0e64c79c23017db87b8967f1816ba2b79540c6
-# Source SHA-256: ed8e54ea776955a65e77493b76910cadcee267dc41193c631ecfc95adfe1b837
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: V9-FIRE5.ANS by Vade79 (f1RE Productions); released in fire0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fire Ansi, nother cheeze promo
-# SAUCE Author: Vade79
-# SAUCE Group: f1RE Productions
-# SAUCE Date: 19970404
-# SAUCE Dimensions: 80x47
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: Fire Ansi, nother cheeze promo by Vade79 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0497-v9-fire5
 
 Write-Host '
 [1;30m [0m [36m░░[0;30;46m▓[0;37;40m [0;36;40m░[0;30;46m▓[0;37;40m  [0;36;40m▬[0;37;40m   ░░[0;30;47m▓[0;37;40m░░░[0;30;47m▓[0m     [1;30;40m [0;34m▀[0;37m [0;34m▀▀[0;36m▀[0;34;46m▄ ░▓▓▓[0;34;40m█[0;34;46m▓[0;34;40m█[0;34;46m▓[0;34;40m█▌▀▀▀[0m     [34;40m▄[0;37;40m ░░░[0;30;47m▓[0;37;40m [0;34;40m░[0;37;40m [0;34;40m░▓░░[0;30;44m▓[0;34;40m ▐▀█[0;34;46m█▓▓▓░░ [0;1;36;46m░░░[0m

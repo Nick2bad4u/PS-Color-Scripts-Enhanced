@@ -1,13 +1,4 @@
-﻿# Converted from: GU-GOD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0194/raw/GU-GOD1.ANS
-# Source Revision: archive-sha256:a43017ca40212af646d7cc19e6ecf01d326ebec184a5046d2c7f67040ece2aa4
-# Source SHA-256: 80797e4791ebabf554b487f8c9f66d8ec715fc60666a22f45a742245cc51db9a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GU-GOD1.ANS by Guile (acdu0194); released in acdu0194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: GU-GOD1.ANS by Guile | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0194-gu-god1-part01
 
 Write-Host '
 

@@ -1,17 +1,4 @@
-﻿# Converted from: US-CDI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9703/raw/US-CDI.ANS
-# Source Revision: archive-sha256:a9939674ffea8dfd0fb24f05e2f11874539fc93155c2d5ed5e55e91f76634858
-# Source SHA-256: 98e9a075d96448e32fb2ec5ad8f6dff20eeb621229d8c2dd1a0398aa19c18e48
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CDI.ANS by The Night Angel + Fluor + Splatt (AWE Lettering); released in awe9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Cool Dudes Inc.
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Cool Dudes Inc. by The Night Angel + Fluor + Splatt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9703-us-cdi
 
 Write-Host '
                                                              [1;34m░[0m     [34m▄[0m

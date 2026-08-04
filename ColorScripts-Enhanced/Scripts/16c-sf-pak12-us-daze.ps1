@@ -1,18 +1,4 @@
-﻿# Converted from: US-DAZE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sf-pak12/raw/US-DAZE.ANS
-# Source Revision: archive-sha256:670b4d0899955b27a97f2ff3c1b8b1a03cafdd9f0df62f9dfb2a28ce3d4f40e7
-# Source SHA-256: 4eb7b4c2aa556d32c87e5f8901535b35cc7f3f40c1efbc154b2c233a3df94a42
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DAZE.ANS by AeonSage & ODB (Shaolin's Finest); released in sf-pak12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Daze
-# SAUCE Author: AeonSage & ODB
-# SAUCE Group: Shaolin's Finest
-# SAUCE Date: 19980802
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Daze by AeonSage & ODB | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sf-pak12-us-daze
 
 Write-Host '
 [1m    .. \[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: ST-GANG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sknk0396/raw/ST-GANG.ANS
-# Source Revision: archive-sha256:d1146eaff9d8fcb32b026bdf30ae2359ce9489533a289ac360d48a81ee46fca9
-# Source SHA-256: c793006da48df1ad7c59883306d10cb288633b84e313c596dd184139ffd3defb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-GANG.ANS by Strahd (SKANK); released in sknk0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: gangrene
-# SAUCE Author: Strahd
-# SAUCE Group: SKANK
-# SAUCE Date: 19960225
-# SAUCE Dimensions: 80x95
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: gangrene by Strahd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sknk0396-st-gang-part01
 
 Write-Host '
 [1;32m▀▀▀▀▀[0;1;33;42m░[0;1;33;40m▄▄▄▄▄██[0;1;33;42m▒[0;1;33;40m███████[0;1;33;42m▓[0;1;33;40m████████████████▀▀████████████████████████[0;1;33;42m▒[0;1;33;40m███████████[0;1;33;42m▒[0;1;33;40m██[0m

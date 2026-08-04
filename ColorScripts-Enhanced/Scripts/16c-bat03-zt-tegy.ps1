@@ -1,18 +1,4 @@
-﻿# Converted from: ZT-TEGY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bat03/raw/ZT-TEGY.ANS
-# Source Revision: archive-sha256:9a4caf97eccc5f927274385b1453d4721efcc76396736574c5f097ed7f8536be
-# Source SHA-256: 3e69e54fb7d686385758172d8f780d666ac66d0855633412f5629abe21655233
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZT-TEGY.ANS by [zout] (bad attitude); released in bat03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: tradegy bbs logo
-# SAUCE Author: [zout]
-# SAUCE Group: bad attitude
-# SAUCE Date: 19961117
-# SAUCE Dimensions: 80x15
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: tradegy bbs logo by [zout] | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bat03-zt-tegy
 
 Write-Host '
  [30;41m█▓░▒[0;31;40m█[0;30;41m░▒[0;31;40m█[0;30;41m░[0;1;30;41m ░▒ ▓ ░▒ ▓ ░ ▒ ▓   ░ ▒▓  ░   ░ ▒▓ ░  ▒ ░ ▓ ░ ▒ ▓░     ▒▓[0;31m█[0;1;30;41m░▒▓[0;31m██[0;30;41m░[0;31;40m█[0;30;41m▓░▒▓█[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: CAL26-04.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-45/raw/CAL26-04.ANS
-# Source Revision: archive-sha256:0564021806e0277d72a0e235c044a0e0470226ba860a8976e1e3092326555d1d
-# Source SHA-256: fa85398e27b6622da5c8bfebbb1f49320f8f7b511f2a6ee1a3b87614b8b3b62b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CAL26-04.ANS by ville (fire); released in fire-45 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: April 2026
-# SAUCE Author: ville
-# SAUCE Group: fire
-# SAUCE Date: 20251224
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: April 2026 by ville | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-45-cal26-04
 
 Write-Host '
 t  [34m▄▀▄▀▄▀▄[0;34;45m▀[0;35;40m███████[0;1;31;45m▄[0;35m█[0;1;31;45m▄[0;35m█[0;1;31;45m▄[0;35m█[0;1;31m████[0;1;31;47m▄[0m█[1;35;47m▀[0;1;35;40m█[0;34m░   ▄▓█▓██[0;34;45m▀[0;1;31;45m▄[0;34;45m▀▀[0;34;40m███[0;34;45m▀▀[0;1;31;40m█[0;1;31;44m▄[0;34;45m▀[0;34;40m█[0;31;44m▄[0;37;44m▄[0;1;31;44m▄[0;34m███[0;1;31;44m▄[0;35m█[0;37;44m▄[0;34;40m██[0;1;35;44m▄[0;34m████[0;34;45m▀[0;35;40m█[0;1;35;45m▄[0;34m█▓█▓█▓[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: HQ-MEAT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist3yra/raw/HQ-MEAT1.ANS
-# Source Revision: archive-sha256:2b1ec0b7cbe048c013d4fb5b84e23b783ff4f9f900b4e7c0cd1dcc3d31e02136
-# Source SHA-256: 767c0d620c2f7fb52a3564b24d7d79d2631527825681c1f67703130fd9a3ff83
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HQ-MEAT1.ANS by Haqisaq (MiSTiGRiS); released in mist3yra and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Live Meat! (yum)
-# SAUCE Author: Haqisaq
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19970912
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Live Meat! (yum) by Haqisaq | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist3yra-hq-meat1
 
 Write-Host '
                             [31;44m ▄[0;35;44m▓▓[0m     [34;40m▒▒▒▓▓▓▓▒▒▒[0m

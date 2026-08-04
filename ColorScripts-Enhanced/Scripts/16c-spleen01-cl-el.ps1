@@ -1,13 +1,4 @@
-﻿# Converted from: CL!-EL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spleen01/raw/CL!-EL.ANS
-# Source Revision: archive-sha256:4f42c6cb325ceb8717f2233819079146b06dd537f44c3ed6267ca3fb054d8cdf
-# Source SHA-256: 07255b24988abbaf3e2799bf37167b837774002e3cddcbe70a14d47689cf5c4f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-EL.ANS by Cleaner (spleen01); released in spleen01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: CL!-EL.ANS by Cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spleen01-cl-el
 
 Write-Host '
                                      [36m▄▄▄▄▄[0m

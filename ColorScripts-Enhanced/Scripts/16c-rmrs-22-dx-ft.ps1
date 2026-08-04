@@ -1,18 +1,4 @@
-﻿# Converted from: DX-FT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-22/raw/DX-FT.ANS
-# Source Revision: archive-sha256:afe59def1d947e2bb83e94d037307e2215fa4f8e5d3afa54b07fc425d1360672
-# Source SHA-256: f592748ef677c698e4f11b2b5ba0ae274f56d38d2ef29f1c87e2e15598709a99
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DX-FT.ANS by Drax (REMORSE); released in rmrs-22 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Flash Traffick
-# SAUCE Author: Drax
-# SAUCE Group: REMORSE
-# SAUCE Date: 19980312
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Flash Traffick by Drax | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-22-dx-ft
 
 Write-Host '
           [1;31m  [0;31m.[0;1;31m  [0m    [1;31m    [0;31m.[0m                     [31m___.,[0;1;31m [0;31m`[0;1;31m     [0m

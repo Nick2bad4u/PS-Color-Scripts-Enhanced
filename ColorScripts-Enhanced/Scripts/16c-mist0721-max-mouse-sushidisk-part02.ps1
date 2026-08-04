@@ -1,19 +1,4 @@
-﻿# Converted from: MAX_MOUSE-SUSHIDISK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0721/raw/MAX_MOUSE-SUSHIDISK.ANS
-# Source Revision: archive-sha256:9d3d54e42a99a6e7bef51cb79a023b85709051f377817bc02741bd65f1493da4
-# Source SHA-256: 0241f2c67986df5a13a210e90feca2981e1c1c95ea1c5e60902159bbadaf2a78
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MAX_MOUSE-SUSHIDISK.ANS by Max_Mouse (Mistigris); released in mist0721 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Wasabi Floppy
-# SAUCE Author: Max_Mouse
-# SAUCE Group: Mistigris
-# SAUCE Date: 20210711
-# SAUCE Dimensions: 80x82
-# SAUCE Font: IBM VGA
-# Lines: 42-82
-# Columns: 1-80
+﻿# Artwork: Wasabi Floppy by Max_Mouse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0721-max-mouse-sushidisk-part02
 
 Write-Host '
 [37m                       ███[0;1;37m▄██[0;36m▌[0;1;37m▀    [0;36m▌▄▄[0;35m░[0;37m██▄                                    [0;35m▌▌[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SA-WBT3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wbt-0195/raw/SA-WBT3.ANS
-# Source Revision: archive-sha256:796665d63839084a3e064ad6d02fdcac454fe856d0c61a26a4030285b18917b6
-# Source SHA-256: a3d920e86ad1fbb8026cf9e7237594796b84f3f5512fade444e5c4ea5b543420
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SA-WBT3.ANS by Sabotage (WBT/SHiVER); released in wbt-0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: WBT Promo Pic
-# SAUCE Author: Sabotage
-# SAUCE Group: WBT/SHiVER
-# SAUCE Date: 19941222
-# SAUCE Dimensions: 80x91
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: WBT Promo Pic by Sabotage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wbt-0195-sa-wbt3-part01
 
 Write-Host '
                     [1;33mS[0;33m a[0;1;30m b o t a g e[0m  [1;30mP r e s e n t[0;33m s[0m  [1;33mA[0m

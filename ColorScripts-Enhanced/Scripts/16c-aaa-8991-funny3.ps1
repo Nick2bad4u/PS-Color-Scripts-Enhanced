@@ -1,13 +1,4 @@
-﻿# Converted from: FUNNY3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aaa-8991/raw/FUNNY3.ANS
-# Source Revision: archive-sha256:4d061270920d521151424fd00f38227b42b87cd232386c5aa0d1e2f575f3ffe0
-# Source SHA-256: 14191e7aef14fb7d62e5aab8cdd2777e0d31a57c43eac2b88c8d897cdf48c140
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FUNNY3.ANS by Shadow Demon (aaa-8991); released in aaa-8991 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: FUNNY3.ANS by Shadow Demon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aaa-8991-funny3
 
 Write-Host '
                                        [1m▀████[0;1;47m▄ [0;1;30;47m▀█[0;1;30;40m▄[0m       [1;37;40m            [0;1;34;40m  [0;34m    [0;1;34m  [0;1;37m  [0m

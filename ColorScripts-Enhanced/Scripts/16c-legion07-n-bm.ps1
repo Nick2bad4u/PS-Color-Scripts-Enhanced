@@ -1,18 +1,4 @@
-﻿# Converted from: N-BM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/legion07/raw/N-BM.ANS
-# Source Revision: archive-sha256:95e8b9f4e57b59312ac2a0b9b38a55e0e1e88600621a27ddf38351dd36070d9d
-# Source SHA-256: 4f17ee3c75acbe6252176cc85155c8394a6e5d5e2a0bfd752ecbcb91c93c164a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-BM.ANS by nail (the legion); released in legion07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: black maiden
-# SAUCE Author: nail
-# SAUCE Group: the legion
-# SAUCE Date: 19981001
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: black maiden by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-legion07-n-bm
 
 Write-Host '
 [31m[0m[1;30m[0m [1;30m  [0m            [1;30m  [0m  [30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m░░[0;1;30;40m░░[0m                                   [1;30m                  [0m

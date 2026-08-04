@@ -1,18 +1,4 @@
-﻿# Converted from: D1_ELF1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-02/raw/D1_ELF1.ANS
-# Source Revision: archive-sha256:bb8ce420598b36a52d4f9cba3bdfbad44af088efeb11a778f52d121622116149
-# Source SHA-256: 89769b67b8b340edb4facdd7cf72b1ebed193704a5efae0189952b0e85274b57
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D1_ELF1.ANS by Dissonance (Hieroglyphics); released in hiero-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Elf
-# SAUCE Author: Dissonance
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20000721
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Elf by Dissonance | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-02-d1-elf1
 
 Write-Host '
                        [30;43m▀▀[0;1;34;43m░░[0m                             [1m [0m

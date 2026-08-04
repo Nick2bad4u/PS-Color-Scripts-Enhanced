@@ -1,18 +1,4 @@
-﻿# Converted from: BK-NC2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1294/raw/BK-NC2.ANS
-# Source Revision: archive-sha256:f8a4b1074b7793df8f3d2e2341b035c3ebc6fa160937f8fe7508c74b4b0317e1
-# Source SHA-256: 1f1166b00aba2b71eafabf200673cf0cd268d03ef39e3f1ca99c044eee139bad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BK-NC2.ANS by Bad Karma (ACiD Productions); released in acdu1294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: No Carrier
-# SAUCE Author: Bad Karma
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19941201
-# SAUCE Dimensions: 80x184
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: No Carrier by Bad Karma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1294-bk-nc2-part01
 
 Write-Host '
 [30mBK[0m                          [34m▄▄▄▄[0m

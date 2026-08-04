@@ -1,18 +1,4 @@
-﻿# Converted from: DG-ECL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rilebrkn/raw/DG-ECL1.ANS
-# Source Revision: archive-sha256:631709d46940d5f633b8ebca426a515d51357cee4cca25bed435a2a8fbf53a10
-# Source SHA-256: 6dd96ae27588bae54d448930715505d810b5f7d3faba8846cd7580cac846ed5b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DG-ECL1.ANS by David Gould (RILE); released in rilebrkn and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: eclipse
-# SAUCE Author: David Gould
-# SAUCE Group: RILE
-# SAUCE Date: 19970509
-# SAUCE Dimensions: 80x25
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: eclipse by David Gould | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rilebrkn-dg-ecl1
 
 Write-Host '
 [1m█████[0;1;46m▓▓[0;1;40m██[0;1;46m▓▓▓▓▓[0;1;40m███████████████████████████████████████████████████████[0;1;46m▓▓▓▓▓[0;1;40m██[0;1;47m█▌[0m▌

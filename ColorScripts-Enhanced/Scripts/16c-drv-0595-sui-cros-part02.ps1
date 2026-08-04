@@ -1,18 +1,4 @@
-﻿# Converted from: SUI-CROS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drv-0595/raw/SUI-CROS.ANS
-# Source Revision: archive-sha256:ab2903da2c95149760a6d9230201e2017a141769235eee49a007790b51e1be73
-# Source SHA-256: 16f582a97d66869fbd782019744352c597dc16132e8f7b72667e5ac2a57e2b09
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SUI-CROS.ANS by SuiCyco (Driven); released in drv-0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Nice Dreamz
-# SAUCE Author: SuiCyco
-# SAUCE Group: Driven
-# SAUCE Date: 19950331
-# SAUCE Dimensions: 80x216
-# Lines: 26-75
-# Columns: 1-80
+﻿# Artwork: Nice Dreamz by SuiCyco | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drv-0595-sui-cros-part02
 
 Write-Host '
        [1;32;40m▄▄▄▄▄▄[0m                                                    [1;32;40m▄▄▄▄▄▄[0m

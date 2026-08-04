@@ -1,17 +1,4 @@
-﻿# Converted from: DS-NOACS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shade001/raw/DS-NOACS.ANS
-# Source Revision: archive-sha256:95e2f7a399e8cc9b09c40e86b6294ee0079d7c3306ea3bda2b5440b5c54f5516
-# Source SHA-256: d04a7c2313907fb7898dee69698de2aa98590490579587ead01900d59c6ad6be
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-NOACS.ANS by 0 _2[[[[[\2[[[[2_  1 (.%(sHADe)%.); released in shade001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dFUSE: No Access Pic
-# SAUCE Author: 0 _2[[[[[\2[[[[2_  1
-# SAUCE Group: .%(sHADe)%.
-# SAUCE Date: 19950331
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: dFUSE: No Access Pic by 0 _2[[[[[\2[[[[2_ 1 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shade001-ds-noacs
 
 Write-Host '
                        [32m░ ▄▄▄▄▓██[0;30;42m■▀[0;1;32;42m ░░[0;32m█▓▄▄▄░[0m

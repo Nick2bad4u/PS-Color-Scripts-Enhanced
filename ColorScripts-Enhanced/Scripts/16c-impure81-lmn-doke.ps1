@@ -1,19 +1,4 @@
-﻿# Converted from: lmn-doke.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure81/raw/lmn-doke.ans
-# Source Revision: archive-sha256:5619da472b28f91a009ce4d644c47799e68cbe57a614b545a0e5dc5e5f7081e3
-# Source SHA-256: da611a48e0e91294574b06504cbaa7fe54d60e5f04e4dc45c54314d4bff6f71c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: lmn-doke.ans by lmn (iMP!194o); released in impure81 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: dOCK SUD
-# SAUCE Author: lmn
-# SAUCE Group: iMP!194o
-# SAUCE Date: 20211216
-# SAUCE Dimensions: 80x36
-# SAUCE Font: IBM VGA
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: dOCK SUD by lmn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure81-lmn-doke
 
 Write-Host '
 [30m███[0;37m     [0;30m████████████████████████████████████████████[0;1;37m  [0;30m██████████████████████████[0m

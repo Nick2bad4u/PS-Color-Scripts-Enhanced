@@ -1,18 +1,4 @@
-﻿# Converted from: ZF0-REBA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-17/raw/ZF0-REBA.ANS
-# Source Revision: archive-sha256:154ac874f13e20433925bb99a4f5e0a4299764bee7ed4d28bdaffd9ad392f554
-# Source SHA-256: 6cc01ef07b0a1ea5472123dc365e960de771984e2cfc523b148a15c4e8b46679
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZF0-REBA.ANS by zfact0r (glue); released in glue-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Rebel Arts
-# SAUCE Author: zfact0r
-# SAUCE Group: glue
-# SAUCE Date: 19981229
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Rebel Arts by zfact0r | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-17-zf0-reba
 
 Write-Host '
  [31m▀▌[0m    [31m▀[0;37m [0;31m▄[0;1;31m▄[0m  [31m▀ ▄▄▌[0m    [31m▐▄ [0m       [35m▄[0;1;35m▄▄[0;1;35;45m▄[0;35m▀[0m       [30;41m▓▓▒[0;31;40m▄▌[0m    [31;40m▄[0m       [31;40m [0m      [31;40m▀[0;37;40m [0;31;40m▄▄ [0;37;40m [0;31;40m▐▀▄[0m

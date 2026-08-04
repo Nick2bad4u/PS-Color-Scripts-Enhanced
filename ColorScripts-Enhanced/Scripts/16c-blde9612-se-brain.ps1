@@ -1,19 +1,4 @@
-﻿# Converted from: SE-BRAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9612/raw/SE-BRAIN.ANS
-# Source Revision: archive-sha256:634aaac85c7d9b6072d119f8ce41f9d77a163e2892fb18d233be18fe4fed4816
-# Source SHA-256: 731dfe68e27cf1f949ddff169146be36263705d7bd29cae39f75ccaac6e4b9da
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SE-BRAIN.ANS by Sentience (BLiSTiGRiS); released in blde9612 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: THIS IS YOUR BRAIN ON TV
-# SAUCE Author: Sentience
-# SAUCE Group: BLiSTiGRiS
-# SAUCE Date: 19961125
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: Any questions?
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: THIS IS YOUR BRAIN ON TV by Sentience | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9612-se-brain
 
 Write-Host '
         [1;34m▄[0;30;44m▄[0;30;40m                    [0;34;40m▀▄[0m

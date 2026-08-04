@@ -1,18 +1,4 @@
-﻿# Converted from: CR_LOSTR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-06/raw/CR_LOSTR.ANS
-# Source Revision: archive-sha256:4c9f598b864a923147eb394591cb120a43a087e70e3844ab4ff73e06903fa178
-# Source SHA-256: cca225034cf5e6aaa52c08404841aa4cab5d2e455d0e5d7a6aa214d357ca7a27
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CR_LOSTR.ANS by CRUCiFER (Department 38); released in d38-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Lost Reality
-# SAUCE Author: CRUCiFER
-# SAUCE Group: Department 38
-# SAUCE Date: 19970421
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Lost Reality by CRUCiFER | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-06-cr-lostr
 
 Write-Host '
              [1m╔──[0m──[1;30m───[0m [1;30m─ ∙[0m  [34m▄[0m        [37m [0m               [34m▄[0;37m  [0;1;30m∙ ─[0m [1;30m───[0m──[1m──╗[0m   [1m [0m

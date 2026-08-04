@@ -1,19 +1,4 @@
-﻿# Converted from: us-amish.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel23/raw/us-amish.ans
-# Source Revision: archive-sha256:cfe32eb98354b0830492d9be5038af88cfccfa9d08c77fbfa69a5660d9e29c20
-# Source SHA-256: 9f5187d2e3eb301b9c10b81e0588d07a0819e8e396105e73e7119100374ad846
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-amish.ans by Burps + Knocturnal (fuel); released in fuel23 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: AMiSH
-# SAUCE Author: knocturnal, burps
-# SAUCE Group: fuel
-# SAUCE Date: 20170914
-# SAUCE Dimensions: 80x37
-# SAUCE Font: IBM VGA
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: AMiSH by Burps + Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel23-us-amish
 
 Write-Host '
 

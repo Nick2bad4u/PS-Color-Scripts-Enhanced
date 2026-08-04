@@ -1,13 +1,4 @@
-﻿# Converted from: PM-GOTLS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-p/raw/PM-GOTLS.ANS
-# Source Revision: archive-sha256:b04863e56e1b880918cfcc3339e8f0365ae72ecaed6ae586bbd37c3f4fe2a3c7
-# Source SHA-256: 8e93462b1a68c3b67d4571b533aade55e2804edcaf52b11fdf26dffd1a95faf8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-GOTLS.ANS by Paul Muaddib (ansis-p); released in ansis-p and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: PM-GOTLS.ANS by Paul Muaddib | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-p-pm-gotls
 
 Write-Host '
 [33m░▒▓▒░▒▒▓▒▒░ ▄░▒▓▓▒▒▒▀▀[0m                                          [37m▄[0;1;37;47m▄▄▄▄▄▄[0m▄▄▄▄▄▄

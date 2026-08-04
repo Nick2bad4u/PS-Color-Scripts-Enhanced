@@ -1,13 +1,4 @@
-﻿# Converted from: SCCM-TOG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rage_294/raw/SCCM-TOG.ANS
-# Source Revision: archive-sha256:90d92c037da84e214e985a7f10cdfe535b9f8da7214b5d770940b9413919f925
-# Source SHA-256: 3a6a89c036bbcad806c0d49bf2a575f086153693bce6cb3f3849cf6c3c86c075
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SCCM-TOG.ANS by Sliver Cut + Cooly Martziano (rage_294); released in rage_294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 101-148
-# Columns: 1-80
+﻿# Artwork: SCCM-TOG.ANS by Sliver Cut + Cooly Martziano | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rage-294-sccm-tog-part03
 
 Write-Host '
 [1;30m[0m                                                           [1;47m▓[0m▄

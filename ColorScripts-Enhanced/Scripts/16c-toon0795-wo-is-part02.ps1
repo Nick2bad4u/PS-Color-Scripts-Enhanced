@@ -1,18 +1,4 @@
-﻿# Converted from: WO-IS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toon0795/raw/WO-IS.ANS
-# Source Revision: archive-sha256:bbccc4a82016f54ecf3d0de5a108241c8f74bda668aff69f0bedbbe0a900b9a1
-# Source SHA-256: eb4a604619ed3dd338b1185e73f4f5b2c517c78469bf762088d615018b6f2183
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WO-IS.ANS by WatOr (Toon); released in toon0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Illusionary Summit
-# SAUCE Author: WatOr
-# SAUCE Group: Toon
-# SAUCE Date: 19950628
-# SAUCE Dimensions: 80x81
-# Lines: 42-81
-# Columns: 1-80
+﻿# Artwork: Illusionary Summit by WatOr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toon0795-wo-is-part02
 
 Write-Host '
 [1;30;40m████ [0;1;31;40m███[0;1;31;47m▓[0;1;31;40m█▌[0;1;30;40m▐█▀[0;31m▄▀[0;1;31m█████▀[0;31m▄[0;1;30m▀█[0;1;31m [0;31m█[0;1;31m█▌[0;31m▐[0;1;31;41m▐[0;1;31;40m██████████████[0;1;31;47m█[0;1;31;40m██[0;1;31;47m▓[0;1;31;41m▌[0;1;31;40m ▐██████████▌[0;1;30;40m▐████████████████[0m

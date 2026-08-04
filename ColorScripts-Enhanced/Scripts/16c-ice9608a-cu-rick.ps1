@@ -1,18 +1,4 @@
-﻿# Converted from: CU-RICK.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9608a/raw/CU-RICK.ICE
-# Source Revision: archive-sha256:3cb2898237aa255407c11f4c82532bf88edc414fa849eac52074494eeda3cbfa
-# Source SHA-256: aa44aec0a4a1edf5cd46697a131f21cf02b5188cd398718949765f86fa894bb4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CU-RICK.ICE by Cold and Ugly (iCE); released in ice9608a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Happy Birthday RICK
-# SAUCE Author: Cold and Ugly
-# SAUCE Group: iCE
-# SAUCE Date: 19960815
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Happy Birthday RICK by Cold and Ugly | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9608a-cu-rick
 
 Write-Host '
                        [33m░░[0m         [33m░░[0m              [1;30m▄[0m [1;30m▄▄[0;1;30;47m█▓▓▓[0;1;30;40m█[0;1;30;47m▄[0;1;30;40m▀ ▀■▄[0m

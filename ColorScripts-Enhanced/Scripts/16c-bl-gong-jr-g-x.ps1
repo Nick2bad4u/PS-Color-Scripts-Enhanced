@@ -1,18 +1,4 @@
-﻿# Converted from: JR_!GƒX!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl-gong/raw/JR_!G%C6%92X!.ANS
-# Source Revision: archive-sha256:c90e04c94a395e53e928512945d220d1fff4c215b177bbe4ea888b6b9ab8350e
-# Source SHA-256: 07f1020e7a27bab50932c652bb733876c298a85137e82097c4453881d544f5f7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_!GƒX!.ANS by jerusalem (boil); released in bl-gong and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the g?x-hq's boot-up picture.
-# SAUCE Author: jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19970405
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: the g?x-hq's boot-up picture. by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-gong-jr-g-x
 
 Write-Host '
 [30;47mw[0;37;40m3LC0M''[0;30;47m+[0;37;40mO [0;30;47md[0;37;40m4[0;1;30;40m ▄▄▄  ░░░[0m    [1;30m▒[0m      [1;30m░░[0m   [1;30m░▄▄▄▄[0m

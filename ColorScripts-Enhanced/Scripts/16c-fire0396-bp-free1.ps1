@@ -1,18 +1,4 @@
-﻿# Converted from: BP-FREE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0396/raw/BP-FREE1.ANS
-# Source Revision: archive-sha256:1c74698b6bb36c67ca170e4e3759a91f94a3423157bd644c80d820a8fe56fd8d
-# Source SHA-256: ab3f755035e8824e71a78320eea2764f261a22fb1b723068189088b090b948cc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BP-FREE1.ANS by Bigge Pif (fire); released in fire0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Free Coke
-# SAUCE Author: Bigge Pif
-# SAUCE Group: fire
-# SAUCE Date: 19951229
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Free Coke by Bigge Pif | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0396-bp-free1
 
 Write-Host '
 [1;30m[0m          [1;36m▄[0;1;37m▄▄[0;1;36m▄[0;1;37m▄[0;1;36m▄▄▄[0;1;37m▄[0;1;36m▄[0;1;37m▄▄[0;1;36m▄[0;1;37m▄[0;1;36m▄▄[0;1;37m▄▄[0;1;36m▄[0;1;37m▄[0;1;36m▄▄▄[0;1;37m▄[0;1;36m▄[0;1;37m▄▄[0;1;36m▄[0;1;37m▄[0;1;36m▄▄[0;1;37m▄▄[0;1;36m▄[0;1;37m▄[0;1;36m▄▄▄[0;1;37m▄[0;1;36m▄[0;1;37m▄▄[0;1;36m▄[0;1;37m▄[0;1;36m▄▄[0;1;37m▄▄[0;1;36m▄[0;1;37m▄[0;1;36m▄▄▄[0;1;37m▄[0;1;36m▄[0;1;37m▄▄[0;1;36m▄[0;1;37m▄[0;1;36m▄▄[0m

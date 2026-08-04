@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-CITY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0198/raw/OUT-CITY.ANS
-# Source Revision: archive-sha256:079c2da21b6d42fe9cc2b63a96a83dc31abac739a55d4f3842517260ebb75a4a
-# Source SHA-256: bc960f153ad238fb74e1aae8ad84653719c3cb0667f1a378a21b7bfcc76fe106
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-CITY.ANS by Sandy Chidester (out-0198); released in out-0198 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: OUT-CITY.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0198-out-city
 
 Write-Host '
   [34m░▒▓▓████████▀▀▀▀ [0;35m▄▄▄▄▄███▌▄▄▄ [0;34m▀▀▀█████▓▓▓▒░[0m       [1;31;45m▓▒[0m [35m████████▌▒░[0m      [35m▌[0;34m█▓░[0m

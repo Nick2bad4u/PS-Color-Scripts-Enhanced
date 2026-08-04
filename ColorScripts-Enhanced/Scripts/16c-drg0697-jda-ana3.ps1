@@ -1,18 +1,4 @@
-﻿# Converted from: JDA-ANA3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg0697/raw/JDA-ANA3.ANS
-# Source Revision: archive-sha256:680b16d137638190eae45c3c61ec0a07880ed6f3bbd5387d78ba0c5c22b4bc71
-# Source SHA-256: c05c38cd8188d43fa9d017f555a882367ba89e01ecac07fc5a9689f43d56e4bc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JDA-ANA3.ANS by Joder (ddRANGdD); released in drg0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ANAthema...artboard
-# SAUCE Author: Joder
-# SAUCE Group: ddRANGdD
-# SAUCE Date: 19970521
-# SAUCE Dimensions: 80x45
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: ANAthema...artboard by Joder | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg0697-jda-ana3
 
 Write-Host '
            [31m░▄ ▀░▀ ▄[0;37m                 [0;31m▄ ▀[0;32m░[0;31m [0;32m▀░▄[0;37m                [0;31m▄░▀ ▀ ▄░[0;37m           [0m

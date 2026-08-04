@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-ARTV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0721/raw/ZII-ARTV.ANS
-# Source Revision: archive-sha256:9d3d54e42a99a6e7bef51cb79a023b85709051f377817bc02741bd65f1493da4
-# Source SHA-256: 0a4c69f1e9662d0b8a0a05b9465beb4e5fe9ce03671d05f13caa596c2de9e323
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-ARTV.ANS by Zeus II (Mistigris); released in mist0721 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Art Vu
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20210610
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Art Vu by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0721-zii-artv
 
 Write-Host '
 

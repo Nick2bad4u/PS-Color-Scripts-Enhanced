@@ -1,18 +1,4 @@
-﻿# Converted from: SK!LO0P.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p09_00/raw/SK!LO0P.ANS
-# Source Revision: archive-sha256:2d55e0471b241c84b2000d7f1ba05c65c9f1c93ead6af87d8d0b58764c2b8dba
-# Source SHA-256: f0184338c0f0faff4751d81437134d255220c357629aee81a63f27e0255e497f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!LO0P.ANS by sIMONkING (tHElo0p); released in l0p09_00 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: tHElo0p art
-# SAUCE Author: sIMONkING
-# SAUCE Group: tHElo0p
-# SAUCE Date: 20000909
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: tHElo0p art by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p09-00-sk-lo0p
 
 Write-Host '
                                                     [33m▄▀[0m     [37m   [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: SEEKACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-s/raw/SEEKACID.ANS
-# Source Revision: archive-sha256:f5b906b1b2f4c4b2f03b968c4046b0dbf0579b48e3c5507b7af96d4f1084fa2f
-# Source SHA-256: 3a6be71fea195ee24c8d8989ae37bf53fd9ed12ba16cfa61c58c17be409ce393
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SEEKACID.ANS by Zed Nitro (ansis-s); released in ansis-s and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 42-72
-# Columns: 1-80
+﻿# Artwork: SEEKACID.ANS by Zed Nitro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-s-seekacid-part02
 
 Write-Host '
                          ▐[1m▓[0;1;47m▓[0;1;40m█▌▓█▌[0m▐[1m▓██▓▐▓█[0;1;47m▓[0;1;40m▐█▓[0m▌[1m██▓[0m▐[1m▓██▌[0m

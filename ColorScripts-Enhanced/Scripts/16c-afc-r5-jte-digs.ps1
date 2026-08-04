@@ -1,13 +1,4 @@
-﻿# Converted from: JTE-DIGS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r5/raw/JTE-DIGS.ANS
-# Source Revision: raw-sha256:b70ef6ebe06109d51b53297b321c06839ba402c6eafdd2ab10cfcbbc89a2df73
-# Source SHA-256: b70ef6ebe06109d51b53297b321c06839ba402c6eafdd2ab10cfcbbc89a2df73
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JTE-DIGS.ANS by Jate (afc-r5); released in afc-r5 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: JTE-DIGS.ANS by Jate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r5-jte-digs
 
 Write-Host '
                 [34m∙[0m          [37m░▒▒░[0m                       [1;34m.[0m

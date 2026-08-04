@@ -1,18 +1,4 @@
-﻿# Converted from: PX-ELFR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-1294/raw/PX-ELFR.ANS
-# Source Revision: archive-sha256:c880dbc550347a473594f723c86c1657052c5ffa3ae7406785ea763e4d8ee106
-# Source SHA-256: 3fa8eb0739043f8752bab2c670ea52343cc0e8444f41108e0dc5399497220485
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PX-ELFR.ANS by Phoenix (Union); released in uni-1294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Electronic Frontier
-# SAUCE Author: Phoenix
-# SAUCE Group: Union
-# SAUCE Date: 19941202
-# SAUCE Dimensions: 80x25
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: The Electronic Frontier by Phoenix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-1294-px-elfr-part02
 
 Write-Host '
        [1;33;44m▓[0m                                                              [1;33;44m▓[0m

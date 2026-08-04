@@ -1,19 +1,4 @@
-﻿# Converted from: ELVEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tk-ansi/raw/ELVEN.ANS
-# Source Revision: archive-sha256:7a6e15a450305cb977de0a4eb06cf4ca525baa4933c9f7af1cf6080dced8bf2d
-# Source SHA-256: 7f7e1f137cfcd5fcaf185e3129887e87d99f49673b5e635cd17d8aa6cbedbe74
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ELVEN.ANS by Tank (NeXX); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Elven Armor
-# SAUCE Author: Tank
-# SAUCE Group: NeXX
-# SAUCE Date: 19910413
-# SAUCE Dimensions: 80x20
-# SAUCE Comments: Piel art copied from a popular game, used later in a Shadows BBS |  Ad I think.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Elven Armor by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tk-ansi-elven
 
 Write-Host '
 

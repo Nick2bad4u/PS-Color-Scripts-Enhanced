@@ -1,18 +1,4 @@
-﻿# Converted from: S5-HUMA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toxic-02/raw/S5-HUMA1.ANS
-# Source Revision: archive-sha256:7a41e32586e1dd3a5f33420e6d1fb67b20a2e05f1cdbe057f1893bebcaa0b653
-# Source SHA-256: 18bcecfb2fd6cba21a8eac147dfbaed89881db1f8fe51178a4b4f6d5da5bdc95
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S5-HUMA1.ANS by SuicidalSnowman (TOXiC); released in toxic-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hUMA! 619-485-6741
-# SAUCE Author: SuicidalSnowman
-# SAUCE Group: TOXiC
-# SAUCE Date: 19960601
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: hUMA! 619-485-6741 by SuicidalSnowman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toxic-02-s5-huma1
 
 Write-Host '
 [1;30;47m▌[0m  [1;30;40m▄█▀▄[0;1;30;47m▀▀ [0m▀▀ [1;30m▄▄▀▀▀ [0;33m▄▄▄[0;1;31m▄▄[0;1;31;43m▄▄[0;1;31;40m█████[0;33m▌ [0;33;43m [0;1;31;43m░░▒▒▒▓▓[0;1;31;40m████[0;1;33;41m░░░[0;1;31;40m▌ [0;1;31;43m [0;1;31;40m█▄██▀▄▄▄[0m▀■.[33m▀▀[0;1;31;43m▀▀[0;1;31;40m█▄▄ [0m▐█[1;30;47m░▓[0;1;30;40m▌ [0m▐[1;30;47m▓[0;1;30;40m██[0m

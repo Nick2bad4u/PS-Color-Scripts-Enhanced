@@ -1,18 +1,4 @@
-﻿# Converted from: ZH-PCYD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mft-0894/raw/ZH-PCYD.ANS
-# Source Revision: archive-sha256:84936ca22907dd2158fcda20ba8cf7acdb7c3040b4339f290cc5fc317af0b82b
-# Source SHA-256: 216e89c94649b41a4a8329e0542be894e3bd5f66e0f91d91fbda2a65ec6cd880
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZH-PCYD.ANS by Zipperhead (Manifest Innovations); released in mft-0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Pharcyde
-# SAUCE Author: Zipperhead
-# SAUCE Group: Manifest Innovations
-# SAUCE Date: 19940716
-# SAUCE Dimensions: 80x25
-# Lines: 51-99
-# Columns: 1-80
+﻿# Artwork: The Pharcyde by Zipperhead | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mft-0894-zh-pcyd-part02
 
 Write-Host '
 [1;30;40m███[0;1;30;44m▓▓▒▒░░         [0;1;34;44m░░▒▒▓▓██[0;1;34;40m [0;1;30;40m█▀[0m

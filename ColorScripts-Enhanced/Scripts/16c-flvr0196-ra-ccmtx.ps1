@@ -1,18 +1,4 @@
-﻿# Converted from: RA-CCMTX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flvr0196/raw/RA-CCMTX.ANS
-# Source Revision: archive-sha256:279ad8e010cc1a23befe2a90c11e2ca2920042ed1799924b9123e589e1e118aa
-# Source SHA-256: 1845fc471cd15372097640ef0e16a723e4bba79cdfb80dceab3190995b420167
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RA-CCMTX.ANS by Reanimator (flavOr); released in flvr0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Cloudcity login matrix
-# SAUCE Author: Reanimator
-# SAUCE Group: flavOr
-# SAUCE Date: 19951219
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Cloudcity login matrix by Reanimator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flvr0196-ra-ccmtx
 
 Write-Host '
                    [1;30m                     ▄▀▄▄       [0;36m [0;35m  [0m   [35m [0;32m▓▄▄▄▓▄[0;35m  [0;33m▄▓▄▄▒[0;37m         [0m

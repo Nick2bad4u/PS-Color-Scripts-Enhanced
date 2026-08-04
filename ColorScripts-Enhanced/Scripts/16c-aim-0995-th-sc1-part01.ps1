@@ -1,18 +1,4 @@
-﻿# Converted from: TH-SC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aim-0995/raw/TH-SC1.ANS
-# Source Revision: archive-sha256:a220548952a3ea8671cfb175f3376108351fef207e818016742117ad21a093c0
-# Source SHA-256: ff1ae8624d01aef22ff72f8732e88611d3a76f6b0455bca543c73318381a3570
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH-SC1.ANS by Threshold (.o AiM o.); released in aim-0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Sorcerors Cave Ad #1
-# SAUCE Author: Threshold
-# SAUCE Group: .o AiM o.
-# SAUCE Date: 19950902
-# SAUCE Dimensions: 80x124
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: Sorcerors Cave Ad #1 by Threshold | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aim-0995-th-sc1-part01
 
 Write-Host '
                                                 [1;30m▐▄▀■[0m

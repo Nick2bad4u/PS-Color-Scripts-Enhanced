@@ -1,17 +1,4 @@
-﻿# Converted from: 4O-RUST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-12/raw/4O-RUST.ANS
-# Source Revision: archive-sha256:5c96c14e912296494a464a42e768321452d811693cf172945a9502eb4396c8bb
-# Source SHA-256: 88100d9c5911a03523c03d40802214ee118e05e8fceaa551dcae4063d1c32c7c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 4O-RUST.ANS by Mr4tune (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Rust
-# SAUCE Author: Mr4tune
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Rust by Mr4tune | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-12-4o-rust
 
 Write-Host '
 [30;44m▓[0;34;40m░[0;37;40m ▄[0m   [34;40m░[0;30;44m▓░[0;34;40m▓[0;1;34;44m░▄[0;34m▌ ▀[0;1;34m▀[0;34m▀ ▀[0;37m ▄[0;1;37m▄[0;33m ▄ [0;37m▄[0;1;37;47m▄[0;1;33;40m▀[0;33m█[0;1;33;43m [0;31m▄▐[0;1;33;43m░[0;31;43m▄[0;31;40m▌▀[0;33;40m▀[0;1;33;43m▀░[0;33m█[0;30;43m░[0;33;40m▓░[0;30;43m▓[0;33;40m░[0m   [34;40m▄[0;1;34;44m▄[0;34m█▀▄[0;1;34;44m▄░[0;34m▀▄▄▄ [0;31m▀▄▀[0;1;37;41m4o[0;30;41m([0;1;37;41mawe[0;30;41m)░[0;31;40m▓░[0;30;41m▓[0;37;40m ░░░[0;30;47m▓[0m

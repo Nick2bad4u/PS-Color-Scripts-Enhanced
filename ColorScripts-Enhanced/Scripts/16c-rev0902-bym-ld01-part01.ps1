@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-LD01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0902/raw/BYM-LD01.ANS
-# Source Revision: archive-sha256:8537b7dfc4e56bfe671cea284194fa6f621bcce1f2fa291a7ed7a56a5e107081
-# Source SHA-256: 21d6fcac7d7ac0913ad1911db85bc76291baf7c0efd471cd2a39617b4b8b9467
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-LD01.ANS by superbym (bym enterprizes); released in rev0902 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Piranha's LORD - Menus
-# SAUCE Author: superbym
-# SAUCE Group: bym enterprizes
-# SAUCE Date: 20020807
-# SAUCE Dimensions: 80x90
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: Piranha's LORD - Menus by superbym | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0902-bym-ld01-part01
 
 Write-Host '
 [1;36m────────────────────────────────────────────────────────────────────────────────[0m

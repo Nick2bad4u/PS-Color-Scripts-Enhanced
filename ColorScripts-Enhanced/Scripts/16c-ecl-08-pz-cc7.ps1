@@ -1,17 +1,4 @@
-﻿# Converted from: PZ-CC7.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-08/raw/PZ-CC7.ANS
-# Source Revision: archive-sha256:0b90c936d49629839c01709c30be5eee3ae4012caa7a8f1570b6ae8cc1763cb4
-# Source SHA-256: fc6ecc77979e31074edef9c1a51d90246f87f266d90f5bb09e90f84b9937595a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PZ-CC7.ANS by pzykooo (eclipseee); released in ecl-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: cloudcitiee
-# SAUCE Author: pzykooo
-# SAUCE Group: eclipseee
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: cloudcitiee by pzykooo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-08-pz-cc7
 
 Write-Host '
 

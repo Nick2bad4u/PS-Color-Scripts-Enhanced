@@ -1,18 +1,4 @@
-﻿# Converted from: CC-LG13.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel13/raw/CC-LG13.ANS
-# Source Revision: archive-sha256:570310635bd377c51dda6add80730abba1fa8786bf6aaf423ae20c54dbfdb41a
-# Source SHA-256: dd8199973c1e617ea054278228f68ecfe0ab98a68d976f82eea10d8930833475
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CC-LG13.ANS by Chronicc (Fuel Productions); released in fuel13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ansi logos pack 13
-# SAUCE Author: Chronicc
-# SAUCE Group: Fuel Productions
-# SAUCE Date: 19970530
-# SAUCE Dimensions: 80x52
-# Lines: 25-52
-# Columns: 1-80
+﻿# Artwork: Ansi logos pack 13 by Chronicc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel13-cc-lg13-part02
 
 Write-Host '
                       [1;31;40m░░░░[0m  [31m▐[0;37m [0;1;32mAPACHE SUNRISE>[0m▐  [1m░░░░[0m

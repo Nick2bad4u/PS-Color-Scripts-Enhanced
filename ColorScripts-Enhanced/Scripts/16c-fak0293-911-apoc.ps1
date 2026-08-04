@@ -1,13 +1,4 @@
-﻿# Converted from: 911-APOC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fak0293/raw/911-APOC.ANS
-# Source Revision: archive-sha256:f38489726ba4330bb15d4808ecfdffcee68a45c9eabd27aa903ef6b22da8f95c
-# Source SHA-256: ce571d4f2cc0ea54e7778ff4a6466e622b451afa98f3ec3eea7b05e0027861fa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 911-APOC.ANS by Mr. Ski (fak0293); released in fak0293 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: 911-APOC.ANS by Mr. Ski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fak0293-911-apoc
 
 Write-Host '
 [34m▒█[0;1;34m█[0;34m█▒    [0;31m▒░  [0;1;34m.[0;1;30m<[0;1;31mSK[0;1;35mi[0;1;30m>[0;1;34m.[0m      [31m░[0m        [37m█[0;1;37;47m░░░[0m█[1;30;47m░[0m▓█[1;30;47m▒[0m       [31m░[0m          [31m░    ░   [0;34m▓█[0;1;34m█[0;34m█▓[0m

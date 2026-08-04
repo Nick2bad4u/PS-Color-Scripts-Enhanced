@@ -1,18 +1,4 @@
-﻿# Converted from: ET-DWEB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist3yra/raw/ET-DWEB.ANS
-# Source Revision: archive-sha256:2b1ec0b7cbe048c013d4fb5b84e23b783ff4f9f900b4e7c0cd1dcc3d31e02136
-# Source SHA-256: 3f53614ec4d20d5912cb5c95e03a7656957cb757a5e39d3fb80abb45a98d3953
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ET-DWEB.ANS by Etana (MiSTiGRiS); released in mist3yra and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: DoDEL on the web
-# SAUCE Author: Etana
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19971012
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: DoDEL on the web by Etana | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist3yra-et-dweb
 
 Write-Host '
    [1;35m▄[0m     [34m░▀▓▄[0;33m▀▄▓▀▀█▄▄[0m         [1;30m▀ ▀▀▀▀▀▀▀▀▓█▓    [0;1;34mD[0;35mo[0;1;34mDEL on the[0m                 [1;30m▄▄▄▀[0m

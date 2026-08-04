@@ -1,18 +1,4 @@
-﻿# Converted from: ATL-IMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fade9701/raw/ATL-IMP.ANS
-# Source Revision: archive-sha256:c6d5a184fb7d2c1b4105639e94f213f1497485260f1e9efd32c494b51c17401b
-# Source SHA-256: 872f786005a05f582498e5be0cf7cd72180fd873f75e1f191a1ccab88c675192
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ATL-IMP.ANS by atlantic (fade); released in fade9701 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: imperial
-# SAUCE Author: atlantic
-# SAUCE Group: fade
-# SAUCE Date: 19960930
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: imperial by atlantic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fade9701-atl-imp
 
 Write-Host '
 

@@ -1,17 +1,4 @@
-﻿# Converted from: SPD!NCD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ncd0397/raw/SPD!NCD1.ANS
-# Source Revision: archive-sha256:279b79a24916a8da9fdbbf933292cd4026cd3832fca43ab7f735b3c3ea1fd603
-# Source SHA-256: 31235bf7c57d8e0884d1bda67e06dbd588816f246acf4df862ec7993b4ba7b75
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPD!NCD1.ANS by spud (ncd0397); released in ncd0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ncd, just like that.
-# SAUCE Author: spud
-# SAUCE Date: 19970218
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: ncd, just like that. by spud | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ncd0397-spd-ncd1
 
 Write-Host '
           [31m▀▀▀█[0;1;31;41m░[0;31m█▀ [0m     [1;30m░[0;1;31m▐[0;1;31;41m▓▒░[0;31m█████[0;1;31;41m░[0;31m▄▄▄[0;37m [0;1;30m░░[0m  [31m▄▄▄[0;1;31;41m░░[0;31m███▄[0m       [1;31;41m▒[0m  [31m▐[0;1;31;41m▒[0m

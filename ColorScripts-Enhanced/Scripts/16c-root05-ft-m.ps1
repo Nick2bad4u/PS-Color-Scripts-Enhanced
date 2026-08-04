@@ -1,18 +1,4 @@
-﻿# Converted from: FT-M.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root05/raw/FT-M.ANS
-# Source Revision: raw-sha256:2b7165d2147e3ba17f489908cb5cca1218f54681d638420432e95593e67c2630
-# Source SHA-256: 2b7165d2147e3ba17f489908cb5cca1218f54681d638420432e95593e67c2630
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FT-M.ANS by Flight (Root); released in root05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Source Interface (woo!)
-# SAUCE Author: Flight
-# SAUCE Group: Root
-# SAUCE Date: 19970717
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Source Interface (woo!) by Flight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root05-ft-m
 
 Write-Host '
    [34m░░[0m

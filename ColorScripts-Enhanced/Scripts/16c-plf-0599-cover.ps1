@@ -1,17 +1,4 @@
-﻿# Converted from: %#!COVER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0599/raw/%25%23!COVER.ANS
-# Source Revision: archive-sha256:d4668fdc774723fd3862fc372670dffa7b0207fe2fa7056074fcd8d0ae9a7357
-# Source SHA-256: 20bf830ae184042922f1a93b9fc8bce17d468be341a79ff2ae264d7a3d2f1ff5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: %#!COVER.ANS by Bizzarro + Big Yellow Man (poffelipoff); released in plf-0599 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: :: poffelipoff.20_ may artpackage
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19990531
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: :: poffelipoff.20_ may artpackage by Bizzarro + Big Yellow Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0599-cover
 
 Write-Host '
       [1;30m▄▄▄▄[0m   [30;47m▓▓▓▓▓[0m                [1;30;40m▄▄▄▄▌[0m    [1;30m▄▄▄▄▄▄[0m   [30;47m▓▓▓▓▓[0;37;40m   [0;1;30;40m▄▄▄▄▄▄▄▄[0m

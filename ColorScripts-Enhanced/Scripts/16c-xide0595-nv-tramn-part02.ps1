@@ -1,18 +1,4 @@
-﻿# Converted from: NV-TRAMN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/xide0595/raw/NV-TRAMN.ANS
-# Source Revision: archive-sha256:466351a1eca094d1b53ab4889d24356e9cdae414dc2e0fc07f0097ac118c9b27
-# Source SHA-256: a30f9ce0b0090c805ae69abf5ba82b4a4440c63c241601d87a48a9b6adceff0f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NV-TRAMN.ANS by Nevermind (READ THE INI FILE); released in xide0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Tramontane
-# SAUCE Author: Nevermind
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950503
-# SAUCE Dimensions: 80x25
-# Lines: 51-95
-# Columns: 1-80
+﻿# Artwork: Tramontane by Nevermind | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-xide0595-nv-tramn-part02
 
 Write-Host '
 [37m  [0;35m█▒[0;37m ░▒▓▄ [0;1;37;47m▒[0m [1m█[0m    [33m░░[0;37m [0;33m ▄▄▄[0m               [1;37m▐▌[0m               [33m▄▄▄ [0;37m [0;33m░░[0m    [1;37m█[0m [1;47m▒[0m ▄▓▒░ [35m▒█[0;37m [0m

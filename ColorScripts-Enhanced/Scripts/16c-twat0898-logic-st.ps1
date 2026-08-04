@@ -1,13 +1,4 @@
-﻿# Converted from: LOGIC!ST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twat0898/raw/LOGIC!ST.ANS
-# Source Revision: archive-sha256:0cfb9e5214b9f4b7e848adb2e6e35e5cd77ea07127cdeac90929316a6da2cd99
-# Source SHA-256: 006f6d3abb1cb2610a66c81ff7f2584bd1d71d43c1a513836c859e4be85886ac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LOGIC!ST.ANS by KERmit (twat0898); released in twat0898 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: LOGIC!ST.ANS by KERmit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twat0898-logic-st
 
 Write-Host '
 

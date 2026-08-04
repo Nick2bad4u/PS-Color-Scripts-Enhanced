@@ -1,20 +1,4 @@
-﻿# Converted from: LDA-ARCH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0424/raw/LDA-ARCH.ANS
-# Source Revision: archive-sha256:d1bad4307edc4d5552b23ae4adea805150573b7a14b0c9ddfbd988a286da0bf3
-# Source SHA-256: 382be27850b51688ddbacc2bcd0cf58081040964092bef968b7ede267d1f5a9c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LDA-ARCH.ANS by LDA (Mistigris); released in mist0424 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Architecture
-# SAUCE Author: LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20240428
-# SAUCE Dimensions: 80x27
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Original by Hiroshi Nagai. | http://hiroshinagai.com/gallery/architecture.html
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Architecture by LDA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0424-lda-arch
 
 Write-Host '
 [34m████████████████████████████████████████████████████████████████████████████████[0m

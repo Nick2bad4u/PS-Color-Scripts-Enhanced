@@ -1,13 +1,4 @@
-﻿# Converted from: AB-TRGC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/helium01/raw/AB-TRGC1.ANS
-# Source Revision: archive-sha256:07d8759f10fea4e17af6dcb88e6f2f43e74915e40d49cbcecc26379922d3a782
-# Source SHA-256: 4e13968579cc1c50b759545f4727845ae4becf089ec241f4b4643b9b5340e2bb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AB-TRGC1.ANS by Abnormal (helium01); released in helium01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: AB-TRGC1.ANS by Abnormal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-helium01-ab-trgc1
 
 Write-Host '
                                                          [1;30m▄ ■ ░[0m

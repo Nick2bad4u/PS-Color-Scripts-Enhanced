@@ -5,6 +5,13 @@ const fs = require("fs");
 const path = require("path");
 const iconv = require("iconv-lite");
 const AnsiParser = require("node-ansiparser");
+const { DEFAULT_PROVENANCE_PATH } = require("./ArtworkProvenance.js");
+const {
+    buildGeneratedArtworkEntry,
+    prepareGeneratedArtworkProvenance,
+    readGeneratedArtworkTemplate,
+    writeGeneratedArtworkTransaction,
+} = require("./GeneratedArtworkProvenance.js");
 
 const ESC = "\x1b";
 const DEFAULT_COLUMNS = 80;
@@ -129,12 +136,12 @@ const SAUCE_DOS_CODE_PAGES = new Set([
  * @property {boolean} [autoWrap]
  * @property {boolean} [stripSpaceBackground]
  * @property {number} [minimumRows] Explicit logical canvas floor. Do not infer
- *     this from SAUCE tInfo2, which may include unused trailing padding.
+ *   this from SAUCE tInfo2, which may include unused trailing padding.
  * @property {number} [maxHeight]
  * @property {boolean} [iceColors]
  * @property {boolean} [dosAnsi] Match DOS ANSI-art/libansilove behavior for
- *     legacy color aliases, bare-LF line endings, and immediate right-margin
- *     wrapping.
+ *   legacy color aliases, bare-LF line endings, and immediate right-margin
+ *   wrapping.
  */
 
 /**
@@ -213,7 +220,7 @@ function cloneAttrs(attrs) {
  * the remaining C0 bytes and DEL use the glyphs displayed by IBM text fonts.
  *
  * @param {Buffer} buffer
- * @param {string} [encoding="cp437"]
+ * @param {string} [encoding="cp437"] Default is `"cp437"`
  *
  * @returns {string}
  */
@@ -264,9 +271,7 @@ function decodeCp437Ansi(buffer) {
  */
 function usesDosAnsiSemantics(encoding) {
     const normalizedEncoding = String(encoding).toLowerCase();
-    return (
-        normalizedEncoding !== "utf8" && normalizedEncoding !== "utf-8"
-    );
+    return normalizedEncoding !== "utf8" && normalizedEncoding !== "utf-8";
 }
 
 /**
@@ -282,12 +287,12 @@ function truncateDosAnsiAtEof(buffer) {
 }
 
 /**
- * Resolve a SAUCE ANSI font name to the DOS character encoding it declares.
- * The SAUCE specification defines an optional code-page suffix for the IBM
- * EGA/VGA font families. Unknown or malformed font strings are metadata, not
- * evidence of a different character set, so they retain the historical CP437
- * fallback. A recognized but unavailable code page is reported as unsupported
- * so archive tooling can reject it instead of silently corrupting glyphs.
+ * Resolve a SAUCE ANSI font name to the DOS character encoding it declares. The
+ * SAUCE specification defines an optional code-page suffix for the IBM EGA/VGA
+ * font families. Unknown or malformed font strings are metadata, not evidence
+ * of a different character set, so they retain the historical CP437 fallback. A
+ * recognized but unavailable code page is reported as unsupported so archive
+ * tooling can reject it instead of silently corrupting glyphs.
  *
  * @param {string | null | undefined} fontName
  *
@@ -738,9 +743,7 @@ class TerminalEmulator {
      */
     setCursor(x, y, allowRightMarginSentinel = false) {
         const useRightMarginSentinel =
-            allowRightMarginSentinel &&
-            this.autoWrap &&
-            x >= this.columns;
+            allowRightMarginSentinel && this.autoWrap && x >= this.columns;
         this.assertCursorPosition(x, y, useRightMarginSentinel);
         // Real ANSI terminals constrain absolute and relative horizontal cursor
         // movement to the active right margin. libansilove additionally retains
@@ -1186,11 +1189,7 @@ class TerminalEmulator {
                             mode: "basic",
                             value: code - 30,
                         };
-                    } else if (
-                        !this.dosAnsi &&
-                        code >= 90 &&
-                        code <= 97
-                    ) {
+                    } else if (!this.dosAnsi && code >= 90 && code <= 97) {
                         this.currentAttrs.fg = {
                             mode: "bright",
                             value: code - 90,
@@ -1200,11 +1199,7 @@ class TerminalEmulator {
                             mode: this.iceBackground ? "bright" : "basic",
                             value: code - 40,
                         };
-                    } else if (
-                        !this.dosAnsi &&
-                        code >= 100 &&
-                        code <= 107
-                    ) {
+                    } else if (!this.dosAnsi && code >= 100 && code <= 107) {
                         this.currentAttrs.bg = {
                             mode: "bright",
                             value: code - 100,
@@ -1829,6 +1824,8 @@ function writePowerShellFile(filePath, content) {
  *         passthrough: boolean;
  *         force: boolean;
  *         analyzeJson: boolean;
+ *         provenancePath: string;
+ *         provenanceRecordPath: string | null;
  *         sourceProvenance: SourceProvenance;
  *     };
  *     positional: string[];
@@ -1846,6 +1843,8 @@ function parseArguments(argv) {
          *     passthrough: boolean;
          *     force: boolean;
          *     analyzeJson: boolean;
+         *     provenancePath: string;
+         *     provenanceRecordPath: string | null;
          *     sourceProvenance: SourceProvenance;
          * }}
          */ ({
@@ -1857,6 +1856,8 @@ function parseArguments(argv) {
             passthrough: false,
             force: false,
             analyzeJson: false,
+            provenancePath: DEFAULT_PROVENANCE_PATH,
+            provenanceRecordPath: null,
             sourceProvenance: {
                 url: null,
                 revision: null,
@@ -1925,6 +1926,14 @@ function parseArguments(argv) {
             options.force = true;
         } else if (arg === "--analyze-json") {
             options.analyzeJson = true;
+        } else if (arg.startsWith("--provenance-record=")) {
+            options.provenanceRecordPath = path.resolve(
+                arg.slice("--provenance-record=".length)
+            );
+        } else if (arg.startsWith("--provenance-path=")) {
+            options.provenancePath = path.resolve(
+                arg.slice("--provenance-path=".length)
+            );
         } else if (arg.startsWith("--source-url=")) {
             options.sourceProvenance.url = validateSourceUrl(
                 arg.slice("--source-url=".length)
@@ -1998,15 +2007,12 @@ function readAnsiFile(filePath, encoding = "cp437") {
     // markers, or other bytes between the first SUB and SAUCE metadata; none
     // of those bytes are part of the rendered artwork.
     const contentBuffer = isUtf8 ? buffer : truncateDosAnsiAtEof(buffer);
-    const content =
-        isUtf8
-            ? contentBuffer.toString("utf8")
-            : decodeDosAnsi(
-                  contentBuffer,
-                  normalizedEncoding === "437"
-                      ? "cp437"
-                      : normalizedEncoding
-              );
+    const content = isUtf8
+        ? contentBuffer.toString("utf8")
+        : decodeDosAnsi(
+              contentBuffer,
+              normalizedEncoding === "437" ? "cp437" : normalizedEncoding
+          );
     return { content, sauce };
 }
 
@@ -2048,6 +2054,26 @@ function convertAnsiToPs1(ansiContent, convertOptions) {
     parser.parse(ansiContent);
     const lines = terminal.buildLines();
     return { lines, warnings: terminal.warnings, terminal };
+}
+
+/**
+ * @param {string} outputFile
+ *
+ * @returns {string}
+ */
+function getGeneratedScriptName(outputFile) {
+    if (path.extname(outputFile).toLowerCase() !== ".ps1") {
+        throw new Error(
+            "External artwork provenance can only accompany PowerShell output."
+        );
+    }
+    const name = path.basename(outputFile, path.extname(outputFile));
+    if (!/^[a-z0-9][a-z0-9-]*$/u.test(name)) {
+        throw new Error(
+            `Provenance-backed output requires a lowercase kebab-case filename: ${path.basename(outputFile)}.`
+        );
+    }
+    return name;
 }
 
 function main(argv = process.argv.slice(2)) {
@@ -2097,6 +2123,12 @@ function main(argv = process.argv.slice(2)) {
         );
         console.error(
             "  --source-modification=<text> Describe how the source artwork was modified."
+        );
+        console.error(
+            "  --provenance-record=<json> Emit a compact header and upsert a complete external provenance record."
+        );
+        console.error(
+            "  --provenance-path=<psd1> Override the authoritative provenance data file."
         );
         process.exit(1);
     }
@@ -2153,14 +2185,29 @@ function main(argv = process.argv.slice(2)) {
             `Reading ANSI file: ${ansiFile} (encoding: ${options.encoding})`
         );
         const { content, sauce } = readAnsiFile(ansiFile, options.encoding);
-
-        const header = buildSourceMetadataHeader(
-            path.basename(ansiFile),
-            options.encoding,
-            sauce,
-            options.sourceProvenance,
-            options.passthrough ? "Passthrough" : "TerminalEmulation"
-        );
+        const sourceBuffer = fs.readFileSync(ansiFile);
+        const provenanceTemplate = options.provenanceRecordPath
+            ? readGeneratedArtworkTemplate(options.provenanceRecordPath)
+            : null;
+        if (
+            provenanceTemplate &&
+            Object.values(options.sourceProvenance).some(
+                (value) => value !== null
+            )
+        ) {
+            throw new Error(
+                "--provenance-record cannot be combined with legacy --source-* header options. Put those values in the JSON record."
+            );
+        }
+        const legacyHeader = provenanceTemplate
+            ? null
+            : buildSourceMetadataHeader(
+                  path.basename(ansiFile),
+                  options.encoding,
+                  sauce,
+                  options.sourceProvenance,
+                  options.passthrough ? "Passthrough" : "TerminalEmulation"
+              );
 
         const outputDir = path.dirname(outputFile);
         if (!fs.existsSync(outputDir)) {
@@ -2172,13 +2219,60 @@ function main(argv = process.argv.slice(2)) {
             console.log("Using passthrough mode (no terminal emulation)...");
             // Preserve the pre-formatted stream exactly. Write-Host's default newline would add
             // bytes that are not present in the source, so passthrough output uses -NoNewline.
-            const ps1Content = `${header}\n${buildPowerShellOutput(content, { noNewline: true })}`;
             if (fs.existsSync(outputFile) && !options.force) {
                 throw new Error(
                     `Output file already exists: ${outputFile}. Use --force to replace it.`
                 );
             }
-            writePowerShellFile(outputFile, ps1Content);
+            if (provenanceTemplate) {
+                const geometry = convertAnsiToPs1(content, {
+                    columns:
+                        options.columns ||
+                        (sauce && sauce.tInfo1
+                            ? sauce.tInfo1
+                            : DEFAULT_COLUMNS),
+                    autoWrap: options.autoWrap,
+                    stripSpaceBackground: false,
+                    iceColors: Boolean(sauce && sauce.flags & 1),
+                    dosAnsi: usesDosAnsiSemantics(options.encoding),
+                });
+                const scriptName = getGeneratedScriptName(outputFile);
+                const entry = buildGeneratedArtworkEntry({
+                    conversionMode: "Passthrough",
+                    name: scriptName,
+                    sauce,
+                    sourceBuffer,
+                    sourceColumns: `1-${Math.max(
+                        1,
+                        geometry.terminal.maxCol + 1
+                    )}`,
+                    sourceEncoding: options.encoding,
+                    sourceName: ansiFile,
+                    sourceRows: `1-${Math.max(1, geometry.lines.length)}`,
+                    template: provenanceTemplate,
+                });
+                const entries = new Map([[scriptName, entry]]);
+                const prepared = prepareGeneratedArtworkProvenance(
+                    options.provenancePath,
+                    entries
+                );
+                const compactHeader = prepared.headers.get(scriptName);
+                const ps1Content = `${compactHeader}\n\n${buildPowerShellOutput(
+                    content,
+                    { noNewline: true }
+                )}`;
+                writeGeneratedArtworkTransaction(
+                    options.provenancePath,
+                    prepared.provenanceSource,
+                    new Map([[path.resolve(outputFile), ps1Content]])
+                );
+            } else {
+                const ps1Content = `${legacyHeader}\n${buildPowerShellOutput(
+                    content,
+                    { noNewline: true }
+                )}`;
+                writePowerShellFile(outputFile, ps1Content);
+            }
             console.log(
                 `✓ Converted: ${path.basename(ansiFile)} → ${path.basename(outputFile)}`
             );
@@ -2225,9 +2319,10 @@ function main(argv = process.argv.slice(2)) {
 
         // Split output if max-height is specified
         if (options.maxHeight && lines.length > options.maxHeight) {
+            const maxHeight = options.maxHeight;
             const chunks = [];
-            for (let i = 0; i < lines.length; i += options.maxHeight) {
-                chunks.push(lines.slice(i, i + options.maxHeight));
+            for (let i = 0; i < lines.length; i += maxHeight) {
+                chunks.push(lines.slice(i, i + maxHeight));
             }
 
             const baseName = path.basename(
@@ -2250,29 +2345,104 @@ function main(argv = process.argv.slice(2)) {
                 }
             }
 
-            chunks.forEach((chunk, index) => {
-                const chunkFile = chunkFiles[index];
-                const convertedContent = chunk.join("\n");
-                const ps1Content = `${header}# Part ${index + 1} of ${chunks.length}\n\n${buildPowerShellOutput(convertedContent, { startOnNewLine: true })}`;
-                writePowerShellFile(chunkFile, ps1Content);
+            if (provenanceTemplate) {
+                const entries = new Map();
+                chunks.forEach((chunk, index) => {
+                    const chunkFile = chunkFiles[index];
+                    const scriptName = getGeneratedScriptName(chunkFile);
+                    entries.set(
+                        scriptName,
+                        buildGeneratedArtworkEntry({
+                            conversionMode: "TerminalEmulation",
+                            name: scriptName,
+                            sauce,
+                            sourceBuffer,
+                            sourceColumns: `1-${terminalColumns}`,
+                            sourceEncoding: options.encoding,
+                            sourceName: ansiFile,
+                            sourceRows: `${index * maxHeight + 1}-${
+                                index * maxHeight + chunk.length
+                            }`,
+                            template: provenanceTemplate,
+                        })
+                    );
+                });
+                const prepared = prepareGeneratedArtworkProvenance(
+                    options.provenancePath,
+                    entries
+                );
+                const scripts = new Map();
+                chunks.forEach((chunk, index) => {
+                    const chunkFile = chunkFiles[index];
+                    const scriptName = getGeneratedScriptName(chunkFile);
+                    scripts.set(
+                        path.resolve(chunkFile),
+                        `${prepared.headers.get(scriptName)}\n\n${buildPowerShellOutput(
+                            chunk.join("\n"),
+                            { startOnNewLine: true }
+                        )}`
+                    );
+                });
+                writeGeneratedArtworkTransaction(
+                    options.provenancePath,
+                    prepared.provenanceSource,
+                    scripts
+                );
+            } else {
+                chunks.forEach((chunk, index) => {
+                    const chunkFile = chunkFiles[index];
+                    const convertedContent = chunk.join("\n");
+                    const ps1Content = `${legacyHeader}# Part ${index + 1} of ${chunks.length}\n\n${buildPowerShellOutput(convertedContent, { startOnNewLine: true })}`;
+                    writePowerShellFile(chunkFile, ps1Content);
+                });
+            }
+            chunks.forEach((unusedChunk, index) => {
                 console.log(
-                    `✓ Created part ${index + 1}/${chunks.length}: ${path.basename(chunkFile)}`
+                    `✓ Created part ${index + 1}/${chunks.length}: ${path.basename(chunkFiles[index])}`
                 );
             });
 
             console.log(
-                `\n✓ Split into ${chunks.length} files (max height: ${options.maxHeight} lines)`
+                `\n✓ Split into ${chunks.length} files (max height: ${maxHeight} lines)`
             );
         } else {
             // Single file output
             const convertedContent = lines.join("\n");
-            const ps1Content = `${header}\n${buildPowerShellOutput(convertedContent, { startOnNewLine: true })}`;
             if (fs.existsSync(outputFile) && !options.force) {
                 throw new Error(
                     `Output file already exists: ${outputFile}. Use --force to replace it.`
                 );
             }
-            writePowerShellFile(outputFile, ps1Content);
+            if (provenanceTemplate) {
+                const scriptName = getGeneratedScriptName(outputFile);
+                const entry = buildGeneratedArtworkEntry({
+                    conversionMode: "TerminalEmulation",
+                    name: scriptName,
+                    sauce,
+                    sourceBuffer,
+                    sourceColumns: `1-${terminalColumns}`,
+                    sourceEncoding: options.encoding,
+                    sourceName: ansiFile,
+                    sourceRows: `1-${Math.max(1, lines.length)}`,
+                    template: provenanceTemplate,
+                });
+                const prepared = prepareGeneratedArtworkProvenance(
+                    options.provenancePath,
+                    new Map([[scriptName, entry]])
+                );
+                const ps1Content = `${prepared.headers.get(scriptName)}\n\n${buildPowerShellOutput(convertedContent, { startOnNewLine: true })}`;
+                writeGeneratedArtworkTransaction(
+                    options.provenancePath,
+                    prepared.provenanceSource,
+                    new Map([[path.resolve(outputFile), ps1Content]])
+                );
+            } else {
+                const ps1Content = `${legacyHeader}\n${buildPowerShellOutput(
+                    convertedContent,
+                    { startOnNewLine: true }
+                )}`;
+                writePowerShellFile(outputFile, ps1Content);
+            }
             console.log(
                 `✓ Converted: ${path.basename(ansiFile)} → ${path.basename(outputFile)}`
             );

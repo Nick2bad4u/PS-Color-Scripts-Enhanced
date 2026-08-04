@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-AD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0398/raw/OUT-AD.ANS
-# Source Revision: archive-sha256:f182ef81db498a3d8288d13d3178c9f3bfeb6a94ded34091dc2f5d1ed573a061
-# Source SHA-256: 2e777dfba9f3d21c2c235a13b148261b9b46bafc27b59fcef35b6a677e12139e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-AD.ANS by Sandy Chidester (out-0398); released in out-0398 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: OUT-AD.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0398-out-ad
 
 Write-Host '
    [1;30m▀▄▄▓▒░░▒▓▓█▀[0m                      [32m▄[0;1;32m▄[0;32m▄[0;1;32m▄▄▄[0m      [1mO[0mu[1;30mtWorld Arts[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: sp-abstrakt2023.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure84/raw/sp-abstrakt2023.ans
-# Source Revision: archive-sha256:d8a09ea8caa6a7527c42f29f38b4d95854161d144db19311f361c7c38d2a14cf
-# Source SHA-256: 5b27ad06a51b0bdd9559da07cc3eaf0bb51f4f762b20531ef4f65c9e4f84fe1d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sp-abstrakt2023.ans by spinsane (IMPURE1941); released in impure84 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ABSTRAKT
-# SAUCE Author: spinsane
-# SAUCE Group: IMPURE1941
-# SAUCE Date: 20230218
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: ABSTRAKT by spinsane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure84-sp-abstrakt2023
 
 Write-Host '
                                  [33m$$$$$$$$$$$$$$[0m

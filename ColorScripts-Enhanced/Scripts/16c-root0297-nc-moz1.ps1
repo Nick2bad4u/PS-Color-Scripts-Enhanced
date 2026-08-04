@@ -1,15 +1,4 @@
-﻿# Converted from: NC-MOZ1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0297/raw/NC-MOZ1.ANS
-# Source Revision: archive-sha256:ecfcd3f5cd2c4412c60edbfa5c15fbea724948a8a18d0e8a8931276c9082657e
-# Source SHA-256: 48a412373488a92263a8d13e7d136d10592fe198e137c04909360cf29f3c3400
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NC-MOZ1.ANS by Necrolyte (root0297); released in root0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Mozka
-# SAUCE Author: Necrolyte
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: Mozka by Necrolyte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0297-nc-moz1
 
 Write-Host '
 [30m   [0;35m▄▄[0;30;45m░[0;35;40m▀ ▓██▀▀▀[0;1;35;45m▒[0;35m▄▄▄▄▄[0;1;35m▄[0m     [1;33m░░[0;35m▄▄[0;35;47m▓[0;35;40m▀▀█[0;35;47m▓▓[0;35;40m▀▀▀▓█[0;1;35;40m█[0;35m▄▄[0;1;35m▄[0m

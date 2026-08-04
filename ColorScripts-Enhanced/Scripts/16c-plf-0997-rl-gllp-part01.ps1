@@ -1,18 +1,4 @@
-﻿# Converted from: RL!-GLLP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0997/raw/RL!-GLLP.ANS
-# Source Revision: archive-sha256:d6ce507ee095ab9c7ce1d91178b57bff0c61babde42a3957415461a430e18407
-# Source SHA-256: 4a07302ea33d695fbebb493c004c9520c3eb6eb497defb814986e89ebb29f0cd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL!-GLLP.ANS by rAwlOck!    (rl!) (plf-0997); released in plf-0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: gULP!
-# SAUCE Author: rAwlOck!    (rl!)
-# SAUCE Group: -
-# SAUCE Date: 19970907
-# SAUCE Dimensions: 80x74
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: gULP! by rAwlOck! (rl!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0997-rl-gllp-part01
 
 Write-Host '
 

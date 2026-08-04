@@ -1,13 +1,4 @@
-﻿# Converted from: Z0G2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_9610/raw/Z0G2.ANS
-# Source Revision: archive-sha256:e7bfbb1fe21c43e3877c5d54f86c9c428cabfb8e80ffec124eab471fa7d587aa
-# Source SHA-256: 96388e175ee902574dc2879b52eef58cd6cdd673022366216918310370b71425
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Z0G2.ANS by Zoglomorph (dox_9610); released in dox_9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Z0G2.ANS by Zoglomorph | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-9610-z0g2
 
 Write-Host '
 

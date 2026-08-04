@@ -1,18 +1,4 @@
-﻿# Converted from: V-TDC10.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1015/raw/V-TDC10.ANS
-# Source Revision: raw-sha256:4b21939c239207b09c475b218b2e1c6e642063159281d62237d4a3cb101bb79b
-# Source SHA-256: 4b21939c239207b09c475b218b2e1c6e642063159281d62237d4a3cb101bb79b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: V-TDC10.ANS by VileR (Mistigris); released in mist1015 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Total DOS Collection 10
-# SAUCE Author: VileR
-# SAUCE Group: Mistigris
-# SAUCE Date: 20150813
-# SAUCE Dimensions: 80x120
-# Lines: 37-79
-# Columns: 1-80
+﻿# Artwork: Total DOS Collection 10 by VileR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1015-v-tdc10-part02
 
 Write-Host '
    [1;5;36;42m▄[0;1;5;37;46m▄[0;1;37m▀▀[0;1;5;37;46m▄[0;1;5;36;42m▄[0m            [33m▀▄ [0;1;36m▀[0;36m▄[0;1;37m [0;31m▀[0;35;41m▒▓█[0;5;35;40m▀[0;1;30m▀[0m   [34m█[0;1;34m▀[0;36m▄[0m          [1;30m▄[0;1;30;43m▀[0;31;43m▒[0;1;37;40m [0;36m█[0;1;37m [0;1;36m▄[0;36m▀[0m         [1;36m [0m    [1m▀▀[0m   [1m██[0m

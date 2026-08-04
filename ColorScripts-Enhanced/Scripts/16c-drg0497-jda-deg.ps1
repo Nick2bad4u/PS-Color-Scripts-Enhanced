@@ -1,18 +1,4 @@
-﻿# Converted from: JDA^DEG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg0497/raw/JDA%5EDEG.ANS
-# Source Revision: archive-sha256:55fca453d1dbc68c4256d77bfda8b410f554b5d648b93da8fc260acf3ce24af3
-# Source SHA-256: c33e1a69c63a06d1b48e560df330f18d33db784a1401008b921d6ede121e319b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JDA^DEG.ANS by Joda (Deranged); released in drg0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: derangEd!
-# SAUCE Author: Joda
-# SAUCE Group: Deranged
-# SAUCE Date: 19970306
-# SAUCE Dimensions: 80x56
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: derangEd! by Joda | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg0497-jda-deg
 
 Write-Host '
 [1m█████████████[0;1;47m▀[0;1;40m██████████████████▓▒▓█████████████████████████████████████████████[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: JE-ADG2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-05/raw/JE-ADG2.ANS
-# Source Revision: archive-sha256:eb0948671797309554c3545cf502cce8943191f153468011a76cca894133dc0a
-# Source SHA-256: c18c541ccf01c2201371aac866ee413d5ce722d288d9e7849e060286772a6234
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JE-ADG2.ANS by [JOINT EFFORT] (d38 + Fusion again:)); released in d38-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ASDFG emag promo
-# SAUCE Author: [JOINT EFFORT]
-# SAUCE Group: d38 + Fusion again:)
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ASDFG emag promo by [JOINT EFFORT] | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-05-je-adg2
 
 Write-Host '
                      [35m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: CD-ALDA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mga-0396/raw/CD-ALDA.ANS
-# Source Revision: archive-sha256:30f6c6d95d4dca59ab2123b6b7665f33661b0eb5615694e5a8e90d6a3a6637b0
-# Source SHA-256: 664b5cb48f36d47f5a7a17a3a06aa2c5c185c1a8fc4f40482fe3abfa2dfb2739
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CD-ALDA.ANS by Creaping Death (mga/s0ap); released in mga-0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: alderan
-# SAUCE Author: Creaping Death
-# SAUCE Group: mga/s0ap
-# SAUCE Date: 19960217
-# SAUCE Dimensions: 80x17
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: alderan by Creaping Death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mga-0396-cd-alda
 
 Write-Host '
             [1;34m■▀▀▄  [0m       [1;34m   [0m            [1;34m■▄ [0m

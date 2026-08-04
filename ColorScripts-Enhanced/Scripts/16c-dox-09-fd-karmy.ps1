@@ -1,17 +1,4 @@
-﻿# Converted from: FD-KARMY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_09/raw/FD-KARMY.ANS
-# Source Revision: archive-sha256:c5cd33a328263069da0cd19f0b3fe2e4d6f041d2250819ad0b16ea4737718456
-# Source SHA-256: 45ccb879ac7653e8adf7b4f3482af4a29dd205b53630c70543df1e9e8a42dbb4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FD-KARMY.ANS by Flood (dox_09); released in dox_09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Killarmy
-# SAUCE Author: Flood
-# SAUCE Date: 19970507
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Killarmy by Flood | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-09-fd-karmy
 
 Write-Host '
     [1;33m░[0m       [1;31m░░░░░[0m                      ▄▄▄▄

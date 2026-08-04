@@ -1,18 +1,4 @@
-﻿# Converted from: PNK-XFER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz06may/raw/PNK-XFER.ANS
-# Source Revision: archive-sha256:1ae2be5748106937cd6f4a9b876b344db035c3534c8d6472ca3ea1eb05f03cc5
-# Source SHA-256: a26dc8897534e195ecc3e549e99d7e101cb11b803af332cfe6b8a1a70b62ee64
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PNK-XFER.ANS by phanatik (lazarus); released in laz06may and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: psycho beaver
-# SAUCE Author: phanatik
-# SAUCE Group: lazarus
-# SAUCE Date: 19970508
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: psycho beaver by phanatik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz06may-pnk-xfer
 
 Write-Host '
 [1;32m [0m

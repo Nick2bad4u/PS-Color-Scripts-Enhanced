@@ -1,18 +1,4 @@
-﻿# Converted from: MC!CATS!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-06/raw/MC!CATS!.ANS
-# Source Revision: archive-sha256:4c9f598b864a923147eb394591cb120a43a087e70e3844ab4ff73e06903fa178
-# Source SHA-256: 00439ce9b5822cccc9f14c61b452b06f57acc2543ff5260fac0a552c3aa8f661
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MC!CATS!.ANS by Madcap, o' course (D38); released in d38-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: CATS BBS thang.. eek
-# SAUCE Author: Madcap, o' course
-# SAUCE Group: D38
-# SAUCE Date: 32010331
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: CATS BBS thang.. eek by Madcap, o' course | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-06-mc-cats
 
 Write-Host '
                                            [34m████▓▀▀▀▀▀▓███  [0;31m▀▓ [0;1;30m▐█▌[0;31m▐▌[0m

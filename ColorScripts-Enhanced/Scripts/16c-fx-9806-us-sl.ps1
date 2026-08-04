@@ -1,18 +1,4 @@
-﻿# Converted from: US-SL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fx-9806/raw/US-SL.ANS
-# Source Revision: archive-sha256:205b78b0dc9b01b9235d0f977ebf5a9ed0d12b5b72e9d6e68b3a926965fd1522
-# Source SHA-256: 003efa9d4c28c0d7ba84815c2bb65e41b6d0ffbece225cf109d9f4b484418e28
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SL.ANS by Kyo + Ironghost (Functio / ?); released in fx-9806 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Speed Loader
-# SAUCE Author: Ironghost / Kyo
-# SAUCE Group: Functio / ?
-# SAUCE Date: 19980527
-# SAUCE Dimensions: 80x25
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Speed Loader by Kyo + Ironghost | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fx-9806-us-sl
 
 Write-Host '
 

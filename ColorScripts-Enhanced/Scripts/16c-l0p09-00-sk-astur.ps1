@@ -1,18 +1,4 @@
-﻿# Converted from: SK!ASTUR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p09_00/raw/SK!ASTUR.ANS
-# Source Revision: archive-sha256:2d55e0471b241c84b2000d7f1ba05c65c9f1c93ead6af87d8d0b58764c2b8dba
-# Source SHA-256: 3f7986d127aaec8313fa06cfa7bb05027863999db6b8d4c158ca2dd25bcc71aa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!ASTUR.ANS by sIMONkING (tHElo0p); released in l0p09_00 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: aSTURN - pHREAK gROUP
-# SAUCE Author: sIMONkING
-# SAUCE Group: tHElo0p
-# SAUCE Date: 20001117
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: aSTURN - pHREAK gROUP by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p09-00-sk-astur
 
 Write-Host '
 [1;30m[0m

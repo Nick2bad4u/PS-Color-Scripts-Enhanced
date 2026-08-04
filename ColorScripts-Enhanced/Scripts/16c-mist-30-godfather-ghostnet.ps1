@@ -1,19 +1,4 @@
-﻿# Converted from: GODFATHER-GHOSTNET.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/GODFATHER-GHOSTNET.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: 4fdefa593e6a8f124edfe65f0ef79997bcdde787f7f2f5608f7d0bb4ed83e6d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GODFATHER-GHOSTNET.ANS by The Godfather (Mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: GhostNet
-# SAUCE Author: The Godfather
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241229
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: GhostNet by The Godfather | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-godfather-ghostnet
 
 Write-Host '
        [1;30m░░░[0m              [1m▄▄████▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: AX_INFI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/itpnazis/raw/AX_INFI.ANS
-# Source Revision: archive-sha256:b63f1061c14ef43c41c98429978c6d429bbae740ff287c27de867b6629e2595b
-# Source SHA-256: 08949d6a9be29c0c5ee77d0bc9785b384997f63290175d13d7e2a87428bfd7e9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AX_INFI.ANS by Alla Xul (itpnazis); released in itpnazis and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: AX_INFI.ANS by Alla Xul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-itpnazis-ax-infi-part01
 
 Write-Host '
 [1;36m░░░[0m    [36m▄[0;37m  [0;1;36m [0;36m [0;1;36m  [0;36m [0m                [1;36m▄▄▄▄▓▓███████████████[0;1;36;46m▄▄▄ [0;1;36;40m▒▒▒▒▒▒▒▒▒▒▒[0;30;46m░[0;36;40m▓▓▓▓▓▓▓▓[0;30;46m░[0;36;40m▓▓▓[0m

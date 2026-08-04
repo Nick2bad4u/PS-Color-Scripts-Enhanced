@@ -1,18 +1,4 @@
-﻿# Converted from: KRZ-CS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0397/raw/KRZ-CS.ANS
-# Source Revision: archive-sha256:0bbae31e52a4c1ad24c4bfa8a6bfcd082f750141f70c56dfd02f65c0d93bbb46
-# Source SHA-256: 7f822c292d56d5695d389198a74ad408f712bc9557ec22ee1a93344e80fcbb31
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KRZ-CS.ANS by krazie (fusion/phobia); released in fsn-0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: cream soda!
-# SAUCE Author: krazie
-# SAUCE Group: fusion/phobia
-# SAUCE Date: 19970214
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: cream soda! by krazie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0397-krz-cs
 
 Write-Host '
                  [1;31m [0m     [34m▄[0;1;34m▄▄▄[0;1;34;44m▄[0;1;34;40m████▄▄▄▄▄[0m

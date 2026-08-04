@@ -1,18 +1,4 @@
-﻿# Converted from: LD-BT5R.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0402/raw/LD-BT5R.ANS
-# Source Revision: archive-sha256:19898cc2febb6deadccf50832dc421b4f362a33c899e27278bafd225bbc2d4d4
-# Source SHA-256: 4ff237b21cb5287fff93039b12724f8d1748d0ab5bd057fe679162ae8c2aad70
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-BT5R.ANS by lazthaus (ld!) (Revival); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Black Thursday
-# SAUCE Author: lazthaus (ld!)
-# SAUCE Group: Revival
-# SAUCE Date: 20020415
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Black Thursday by lazthaus (ld!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0402-ld-bt5r
 
 Write-Host '
 [1;30m█▀▀[0;1;30;47m▓▓[0;1;30;40m▐██▌▓█[0;1;30;47m▓▓▒░░▒▓▓[0;1;30;40m█▓██▌▐[0;1;30;47m░▒▓▓[0;1;30;40m██▀ ▄[0;1;30;42m▓▓[0;32m████▀▀▀▓██[0;1;30;42m░░░[0;32m████[0;1;32;42m░▓▓░[0;32m███[0;1;30;42m░░░▓▓█[0;1;30;40m██[0;1;30;46m▓▓▒░▓[0;1;30;40m▄▓▀[0m

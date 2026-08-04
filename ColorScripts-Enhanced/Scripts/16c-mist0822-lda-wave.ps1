@@ -1,20 +1,4 @@
-﻿# Converted from: LDA-WAVE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0822/raw/LDA-WAVE.ANS
-# Source Revision: archive-sha256:ed72a43421208b7431337d20b0e65cf1daa85d400f3cf90754e23de5d5edd83f
-# Source SHA-256: 3791034a682fa4d80179866b1602fbc10bf46e5f127034c54cf8df73d8f37d6e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LDA-WAVE.ANS by LDA (Mistigris); released in mist0822 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Wave
-# SAUCE Author: LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20220724
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Just our joyous ocean.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Wave by LDA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0822-lda-wave
 
 Write-Host '
 [1m████████████████████████████████████████████████████████████████████[0;1;33m████████████[0m

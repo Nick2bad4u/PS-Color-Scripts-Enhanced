@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-HZ2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-15/raw/TNA-HZ2.ANS
-# Source Revision: archive-sha256:619fab698f6baab549ec261c1b82c423f54dd7adf4325488576ce02288425f8a
-# Source SHA-256: 5d93b4b8ee027a384c3f1f825ad3fe3fcd22d5a2bed65b465104be6d2c6fdf5e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-HZ2.ANS by The Night Angel (AWE Lettering); released in awe-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Hazard 2
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19980127
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Hazard 2 by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-15-tna-hz2
 
 Write-Host '
 [35m▄ ░[0;30;45m▓[0m [35;40m▄  [0;37;40m▌[0m       [1;37;40m░   [0;35m▬ ░[0;30;45m▓[0m   [1;35;40m░   [0mtna([1mawe[0m) ▄ ░[30;47m▓[0;37;40m▄[0;1;37;40m█▄[0m▄ ▀[1;47m▐▄ [0;1;30;47m▀[0m▄█[1;30;47m▀[0m▄▄█[1;30;47m▀[0m▄█▀  ▄[1;47m▄[0m██▄[1;47m▄ [0m█▄  ▀[1;47m▀[0m

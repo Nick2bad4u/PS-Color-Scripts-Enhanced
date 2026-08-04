@@ -1,18 +1,4 @@
-﻿# Converted from: ET-LVLMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hal0698/raw/ET-LVLMP.ANS
-# Source Revision: archive-sha256:1580510b360699e1981ae50c3af7aa41d17632e2ae0f178e0a15150f0aa0d112
-# Source SHA-256: 9c9704ae27a990468544bf7581b922b0756a13e3ddace8eeb54fbf9d40477e29
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ET-LVLMP.ANS by Etana (Hallucigenia); released in hal0698 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Monkey and the Lamp
-# SAUCE Author: Etana
-# SAUCE Group: Hallucigenia
-# SAUCE Date: 19980428
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: The Monkey and the Lamp by Etana | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hal0698-et-lvlmp
 
 Write-Host '
 [1;32mT[0m [32m  [0m        [1;30m▄▄▄▄▄▄▄[0m

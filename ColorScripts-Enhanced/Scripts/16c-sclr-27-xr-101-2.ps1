@@ -1,18 +1,4 @@
-﻿# Converted from: XR-101&2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-27/raw/XR-101%262.ANS
-# Source Revision: archive-sha256:268d6733492cd762a602dad2d82b4950aab62a1c27ccd388f9e4fd4220a519e2
-# Source SHA-256: 6307aaa7f30079fedcf810375fabc9a8da2c93111eb7c1b3e3839a059ae09839
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XR-101&2.ANS by xrip (sclr^jt-x); released in sclr-27 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: i'm an newbie
-# SAUCE Author: xrip
-# SAUCE Group: sclr^jt-x
-# SAUCE Date: 20020326
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: i'm an newbie by xrip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-27-xr-101-2
 
 Write-Host '
 

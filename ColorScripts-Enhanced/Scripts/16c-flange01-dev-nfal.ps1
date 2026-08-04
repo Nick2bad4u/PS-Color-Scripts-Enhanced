@@ -1,17 +1,4 @@
-﻿# Converted from: dev-nfal.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flange01/raw/dev-nfal.ans
-# Source Revision: archive-sha256:14aba7e5405b940f46aca460d899ba9dad4982ed94cb18dc30ab4dba5911d191
-# Source SHA-256: 88ac55efd914e283fc8bc333fdb22cb8008a5d9b5f5104c576699880bf9aa778
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: dev-nfal.ans by dev (flange); released in flange01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: getting.shot.guy
-# SAUCE Author: dev
-# SAUCE Group: flange
-# SAUCE Dimensions: 80x25
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: getting.shot.guy by dev | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flange01-dev-nfal
 
 Write-Host '
                               [30;43m▀[0;33;40m▓█[0;1;30;43m▓[0;33m▒▓░▒▓▄▄▄[0m

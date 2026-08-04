@@ -1,18 +1,4 @@
-﻿# Converted from: (K)0996.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook10/raw/(K)0996.ANS
-# Source Revision: raw-sha256:d5721a01a1ef7734683536114b89c79f58d341942d83c4bc25c4f59803b176f5
-# Source SHA-256: d5721a01a1ef7734683536114b89c79f58d341942d83c4bc25c4f59803b176f5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: (K)0996.ANS by kyp (black maiden); released in bmbook10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: mostly greets
-# SAUCE Author: kyp
-# SAUCE Group: black maiden
-# SAUCE Date: 19960829
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: mostly greets by kyp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook10-k-0996
 
 Write-Host '
 [33m[0;1;33m[0;33m[0;37m[0;1;33m[0m[1;30m[0;1;33m[0m[33m<[0;1;33ml[0;33m>[0;37m [0;1;33mleech[0m                                      [1;30m   [0;1;33m▄▄██▀▀▀[0;1;33;43m▒[0;33m▄[0;1;33m  [0;33m▄▀[0;1;33;43m░▒▓[0;1;33;40m█▄▄           [0m

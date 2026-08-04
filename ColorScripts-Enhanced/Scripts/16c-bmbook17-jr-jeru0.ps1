@@ -1,18 +1,4 @@
-﻿# Converted from: JR_JERU0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook17/raw/JR_JERU0.ANS
-# Source Revision: archive-sha256:f2ec1f05b2d28538e661dbe9f04f7009d1de727157f34731f67001dac4dedb95
-# Source SHA-256: 7323f452a84809127befc29daee82994f0355b911549b452c275ed8261b3e6d5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_JERU0.ANS by jerusalem (black maiden); released in bmbook17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: styleneverdiez
-# SAUCE Author: jerusalem
-# SAUCE Group: black maiden
-# SAUCE Date: 19980524
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: styleneverdiez by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook17-jr-jeru0
 
 Write-Host '
 [32m[0m[1;34m······[0;1;36;45m··[0;1;34;40m········································································[0m

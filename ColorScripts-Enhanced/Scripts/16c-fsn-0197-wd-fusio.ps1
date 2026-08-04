@@ -1,13 +1,4 @@
-﻿# Converted from: WD-FUSIO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0197/raw/WD-FUSIO.ANS
-# Source Revision: archive-sha256:db16ecaf9a5ba2dcf16f11149d4e3768d3e19930159af1ef0ef2625ea12b3e30
-# Source SHA-256: bc60450c57a7b24a381a909298e5de712bb218cdbb1ef5f580890c1b0c08624a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WD-FUSIO.ANS by Weirdo (fsn-0197); released in fsn-0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: WD-FUSIO.ANS by Weirdo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0197-wd-fusio
 
 Write-Host '
 

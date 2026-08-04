@@ -1,13 +1,4 @@
-﻿# Converted from: WD-TOAST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0597/raw/WD-TOAST.ANS
-# Source Revision: archive-sha256:100499c687593fd78c29adf06f5899e8c0d61223958e380a9c31aadb955ab06d
-# Source SHA-256: bd2d39de5d6bde3682a6b38dca4f7f409a21523bac39b15b38cc81223b122d21
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WD-TOAST.ANS by Weirdo (fsn-0597); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: WD-TOAST.ANS by Weirdo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0597-wd-toast
 
 Write-Host '
 [1;36m [0;32m  [0;1;32m▄▄██[0;1;37m██[0;1;32m███▐███▀▀[0;32m [0;1;32;42m▒▒[0;32m█▀[0;37m  [0;32m▄▄▄▄▄[0;1;32;42m░▒[0;32m▄▄[0;1;32;42m▓░[0;32m██[0;30;42m░[0;32;40m▓▒░[0;30;42m▓[0m                            [32;40m▄▄▄▄▐▄▄▄▄[0m

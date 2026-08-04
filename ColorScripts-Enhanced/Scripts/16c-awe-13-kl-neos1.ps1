@@ -1,18 +1,4 @@
-﻿# Converted from: KL-NEOS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-13/raw/KL-NEOS1.ANS
-# Source Revision: archive-sha256:fab7f52e9d735740432e5cc1693a7c3574c7cc669fe711a2863770d2425cce92
-# Source SHA-256: 01668639930922617f08d0f6e47ce6920e76e11f260ce0411188052036cc853c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KL-NEOS1.ANS by Knocturnal (AWE Lettering); released in awe-13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Neosporin
-# SAUCE Author: Knocturnal
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19971128
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Neosporin by Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-13-kl-neos1
 
 Write-Host '
 [33m▄[0;1;33m▄[0;1;30m▄[0;33m▀[0;1;33;43m▄░[0;33m ▄[0;1;33m▄▄[0;33m▄[0;1;33m▄▄[0;1;37m▄[0;33m ▄ ▄  [0;1;33m▄[0;33m▄[0;1;30m▄[0m [33m [0;37m [0;33m▄▄ ▄  ▄[0;1;37m▄[0;1;33m▄[0;33m▄ ▄  ▄ [0;1;30m▄ [0m [34m▄ [0;33m ▄[0;1;37m▄[0;1;33m▄[0;33m▄ ▄ [0;1;30m [0;33m▄[0;1;33m▄[0;1;30m▄[0;33m ▄▄ ▄ [0;1;30m [0;33m▄▄ ▄ ▄ ▄[0;1;33m▄[0;33m ▄▄[0;1;33m▄▄[0m

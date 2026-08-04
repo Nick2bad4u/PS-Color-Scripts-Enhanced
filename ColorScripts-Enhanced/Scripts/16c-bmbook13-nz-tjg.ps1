@@ -1,18 +1,4 @@
-﻿# Converted from: NZ-TJG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook13/raw/NZ-TJG.ANS
-# Source Revision: archive-sha256:f383b37d2f0265a83b82afcdde57a4dae359d8a5127c467dcea28d0c8500d000
-# Source SHA-256: 737c57ad0c43f06bc1980cd638256f7c48bde9e118a0c39ab9566acc9cd0a641
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NZ-TJG.ANS by noize (black maiden); released in bmbook13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the jilted generation
-# SAUCE Author: noize
-# SAUCE Group: black maiden
-# SAUCE Date: 19970427
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: the jilted generation by noize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook13-nz-tjg
 
 Write-Host '
 [1m[0m[1m[0m

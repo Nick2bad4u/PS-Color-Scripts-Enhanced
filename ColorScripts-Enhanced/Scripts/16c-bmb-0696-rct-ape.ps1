@@ -1,18 +1,4 @@
-﻿# Converted from: RCT-APE!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0696/raw/RCT-APE!.ANS
-# Source Revision: archive-sha256:fea269136894850bbc3733a7e378f47769430ca8b14c0592a0c25c525a6a95a4
-# Source SHA-256: 14a765bf4e66e87e1fc441c5667e926e29a885591ed5eff6d988924979e9e426
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RCT-APE!.ANS by React (Bamboosh); released in bmb-0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Ape [ans]
-# SAUCE Author: React
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19960531
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Ape [ans] by React | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0696-rct-ape
 
 Write-Host '
    [1;32m░▄[0;32m▓[0;1;32m▄[0;32m■[0m               [1;30m▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄░[0m                         [32m▄[0m

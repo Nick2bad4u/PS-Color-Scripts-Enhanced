@@ -1,18 +1,4 @@
-﻿# Converted from: TB-JIZZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blur9604/raw/TB-JIZZ.ANS
-# Source Revision: archive-sha256:f34199ac74590675ded2180ca27511328a450728efb320959a16e7122378876b
-# Source SHA-256: c63a9b19682a7dafbdf3984ca1f291552c027b101aad002b9df89fc9f1c858eb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TB-JIZZ.ANS by Traceback (blur9604); released in blur9604 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: -Jizz-
-# SAUCE Author: Traceback
-# SAUCE Group: .
-# SAUCE Date: 19960324
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: -Jizz- by Traceback | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blur9604-tb-jizz
 
 Write-Host '
 [1;30m  [0m                [1;36m  [0m

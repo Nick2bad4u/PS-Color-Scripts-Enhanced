@@ -1,18 +1,4 @@
-﻿# Converted from: ST-PROP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-01/raw/ST-PROP.ANS
-# Source Revision: archive-sha256:98f7ca14920172db6145e44afa4b8ac94de6e46d94b8cf326e89a96c3e7e5c1b
-# Source SHA-256: d91904a46e196c135e204416a6b82b5e66dba88ea8a3ec343fe82cea77c8aff6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-PROP.ANS by spla-2ts (solar eclipse); released in ecl-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: pro-pain
-# SAUCE Author: spla-2ts
-# SAUCE Group: solar eclipse
-# SAUCE Date: 19960606
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: pro-pain by spla-2ts | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-01-st-prop
 
 Write-Host '
 

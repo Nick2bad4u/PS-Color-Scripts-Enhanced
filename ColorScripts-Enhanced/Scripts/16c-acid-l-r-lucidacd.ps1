@@ -1,13 +1,4 @@
-﻿# Converted from: LUCIDACD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acid_l-r/raw/LUCIDACD.ANS
-# Source Revision: archive-sha256:499c9b46916e1ae397884d58998fd5ed4387f783522347b660512aee3acb2ec0
-# Source SHA-256: 539947cb465fd1a4058148545dbd8bd3b104de1659c6a5a12578dcf722a2e420
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LUCIDACD.ANS by Tank (acid_l-r); released in acid_l-r and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: LUCIDACD.ANS by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acid-l-r-lucidacd
 
 Write-Host '
                          [1;30m▄░▓▓[0;1;30;45m▓▓▓▒▒▒▒[0;35m▐[0;1;30;45m░░░[0;35m▄[0;1;35m▐[0;1;35;45m▒▒[0;1;35;40m▌[0;1;35;45m▒[0;1;35;40m▌[0;1;35;45m▓▓[0;1;37;45m░[0;1;35;45m░░▒[0m▄

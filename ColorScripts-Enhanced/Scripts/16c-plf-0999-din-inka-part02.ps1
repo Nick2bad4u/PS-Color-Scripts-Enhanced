@@ -1,18 +1,4 @@
-﻿# Converted from: DIN-INKA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0999/raw/DIN-INKA.ANS
-# Source Revision: archive-sha256:a2e683452933f0cc0c7c5f8185be51af4846ace8a1753ba20cf7f9ba82c1dcf4
-# Source SHA-256: 90c14ef143c97c8b920d55903caa2e20f18deb84cb3c16ccd76c46af5dd88484
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DIN-INKA.ANS by Disnie (poffelipoff); released in plf-0999 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Inka Crow
-# SAUCE Author: Disnie
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19990828
-# SAUCE Dimensions: 80x51
-# Lines: 29-51
-# Columns: 1-80
+﻿# Artwork: The Inka Crow by Disnie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0999-din-inka-part02
 
 Write-Host '
             [30;44m██▀    ▓▓▄▄▄█[0m

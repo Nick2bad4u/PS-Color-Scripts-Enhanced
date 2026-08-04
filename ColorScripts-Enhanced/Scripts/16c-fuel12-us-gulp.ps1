@@ -1,18 +1,4 @@
-﻿# Converted from: US-GULP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel12/raw/US-GULP.ANS
-# Source Revision: archive-sha256:ebe2e7b01f31e0e82aa2702a876007d4ec2dd824b98bdf40e4d59e2b113da7e4
-# Source SHA-256: e5ee690b8275d66ab62e919bd83379a51504aa7733b98f02d2f33634a76bf823
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GULP.ANS by Zeus Ii + Angel Of Hell (Fuel Productions); released in fuel12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Gulp Matrix
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Fuel Productions
-# SAUCE Date: 19970401
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Gulp Matrix by Zeus Ii + Angel Of Hell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel12-us-gulp
 
 Write-Host '
 [34m▓███████████[0;1;34;44m░░░░[0;1;30;40m ▐█[0;1;30;47m▓▓▓[0;1;30;40m███ ░▒▒▓▓▓█▀▀[0m         [1;30m▀▀█▓▓▒▒░░ ▐[0;1;30;47m▓▓▓[0;1;30;40m▌ ████ [0;34m███████████████[0m

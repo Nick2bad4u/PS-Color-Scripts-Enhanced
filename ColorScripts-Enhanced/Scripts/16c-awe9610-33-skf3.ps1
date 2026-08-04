@@ -1,18 +1,4 @@
-﻿# Converted from: 33-SKF3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9610/raw/33-SKF3.ANS
-# Source Revision: archive-sha256:2f6e3c8c2e64cc8380afc3a639da2793e02ea87790d90b8b4bede4b760040753
-# Source SHA-256: 024d2ddd44d38f1d09f1390bac7de9fe7022e7de1650451d23f1c8071001705b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-SKF3.ANS by Eerie (awe lettering); released in awe9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Skullfish
-# SAUCE Author: Eerie
-# SAUCE Group: awe lettering
-# SAUCE Date: 19960930
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Skullfish by Eerie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9610-33-skf3
 
 Write-Host '
 

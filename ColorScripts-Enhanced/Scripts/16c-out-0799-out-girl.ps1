@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-GIRL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0799/raw/OUT-GIRL.ANS
-# Source Revision: archive-sha256:c644d5a23a3ecac0af8ce1e79153630acd23b5306310926251e5168615a479f5
-# Source SHA-256: 2c2274de0c3bd246492307be856b31c2c57cdb31b7df80fc9131e4b8bd4408fa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-GIRL.ANS by Sandy Chidester (out-0799); released in out-0799 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: OUT-GIRL.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0799-out-girl
 
 Write-Host '
 [36m██   [0;33m▄█▀  [0;1;31m▄▄██████████████████▀[0;34m▄[0;1;31m▀[0m       [33m█[0m     [36m██  [0;1;36m█[0;36m█ █ ██  █   █[0;1;36m███[0;36m█  █  ██  [0;1;36m█ [0;36m█[0m

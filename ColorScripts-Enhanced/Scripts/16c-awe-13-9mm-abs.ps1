@@ -1,18 +1,4 @@
-﻿# Converted from: 9MM-ABS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-13/raw/9MM-ABS.ANS
-# Source Revision: archive-sha256:fab7f52e9d735740432e5cc1693a7c3574c7cc669fe711a2863770d2425cce92
-# Source SHA-256: 43a64542a2bdac0a2104674bf4023d7753428c620b50338e4f40f321d44c9c29
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 9MM-ABS.ANS by 9 Millimeter (AWE Lettering); released in awe-13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Abstract
-# SAUCE Author: 9 Millimeter
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19971212
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Abstract by 9 Millimeter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-13-9mm-abs
 
 Write-Host '
   [1;30m░▓███▀▀▀ [0;32m░[0m            [34m▐[0m               [1;30m▀▀▐█▄▄▄[0m              [1;30m▀  ▀ ▀ ▀▀████▐[0m

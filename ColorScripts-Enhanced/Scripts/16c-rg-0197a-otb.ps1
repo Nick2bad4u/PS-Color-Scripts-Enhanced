@@ -1,17 +1,4 @@
-﻿# Converted from: OTB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rg-0197a/raw/OTB.ANS
-# Source Revision: archive-sha256:4bc27325d13f712edf2110cd11717d490f6bde1cd8827262e7c1b1224b0317e9
-# Source SHA-256: a3e75f582ff1c311f029bfbb601b34a2185f2481d8da19d09560fed133047a33
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OTB.ANS by vIGod (RAGE ARTS 96'); released in rg-0197a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: vIGod
-# SAUCE Group: RAGE ARTS 96'
-# SAUCE Date: 19961028
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: OTB.ANS by vIGod | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rg-0197a-otb
 
 Write-Host '
  ░ ░ ░    ▄■  [1;30m▄▓▀ [0m  [1;30m▐▌[0m     [36m▄[0;1;30;46m░[0;36m██[0;1;36;46m▄▓██[0;1;36;40m▀▀[0;1;36;46m█████▓▀[0;1;36;40m▀[0;1;36;46m█████[0;1;36;47m▓[0;1;36;46m████████▄▄░  [0;36m▄[0m    [1;30m▓▄▄▄▓[0m [1;30m▀▄[0m

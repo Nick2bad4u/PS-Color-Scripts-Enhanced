@@ -1,18 +1,4 @@
-﻿# Converted from: FL-DAM2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/esp0296/raw/FL-DAM2.ANS
-# Source Revision: archive-sha256:7ba951ae4e6a69ae13f17e85d94c040c85d212c9217542aa1b77f88401cbf091
-# Source SHA-256: 9415373779636665aff0c5bc611c89927a2d46de8d51be9477e8cbf94b3d5aa6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-DAM2.ANS by fLeA (ESP); released in esp0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ESP
-# SAUCE Author: fLeA
-# SAUCE Group: ESP
-# SAUCE Date: 19960126
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: ESP by fLeA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-esp0296-fl-dam2
 
 Write-Host '
 

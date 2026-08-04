@@ -1,18 +1,4 @@
-﻿# Converted from: TH-H2MMX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel11/raw/TH-H2MMX.ANS
-# Source Revision: archive-sha256:bc01376bbeb692c1fce16796b92a6fd889f89dbf4c55eb291719d5ea3fd5846c
-# Source SHA-256: 38a484c2fbf9799bd88c2faa5c12697fdeb00d4c821cea7b698e94bb36df4fa8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH-H2MMX.ANS by thrasher (Fuel); released in fuel11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Hazard/2 matrix
-# SAUCE Author: thrasher
-# SAUCE Group: Fuel
-# SAUCE Date: 19970308
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Hazard/2 matrix by thrasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel11-th-h2mmx
 
 Write-Host '
 [1;30m▄░[0;34m▄█[0;1;34;44m▄[0;34m▀[0;1;34;44m▒░[0;34m▀ ▄▄█▌▀█[0;1;34;44m▄▌░░[0;34m▀▐█░[0;33m▄[0;1;31;43m▄[0;1;31;40m███████[0;1;31;43m▓▓[0;1;31;40m█▄[0;34m░▀█[0;1;34;44m▀▓[0;1;34;40m▌[0;1;31;40m▐███[0;1;31;47m▓▓[0;1;31;40m███████[0;1;31;43m▓▒[0;33m▄[0;1;31m░ [0;34m▀▀█▐█▄[0;1;34;44m▓░[0;34m▀[0;1;34;44m▄▌▀[0;34m█[0;1;34;44m▀█[0;1;34;47m▓[0;1;34;44m▌▄[0m

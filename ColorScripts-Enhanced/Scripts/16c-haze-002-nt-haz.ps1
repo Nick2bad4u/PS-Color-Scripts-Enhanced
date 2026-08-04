@@ -1,18 +1,4 @@
-﻿# Converted from: NT-HAZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/haze_002/raw/NT-HAZ.ANS
-# Source Revision: archive-sha256:38330e2f246542d7e8592e16d69ba19463233f347fc04dc4d56a7647ea25c49d
-# Source SHA-256: d08b2b757f08054018f5ca1bceb3aa97c9b78311f47b27e93c24e64eadd4cb32
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NT-HAZ.ANS by notorious (haze); released in haze_002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: haze promo
-# SAUCE Author: notorious
-# SAUCE Group: haze
-# SAUCE Date: 19950603
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: haze promo by notorious | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-haze-002-nt-haz
 
 Write-Host '
     [36mn o t o r i o u s ![0m        [36mh   a   z   e ![0m        [36mp    r    o    d. ![0m

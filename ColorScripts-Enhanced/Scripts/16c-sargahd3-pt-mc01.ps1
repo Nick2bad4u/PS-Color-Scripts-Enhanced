@@ -1,18 +1,4 @@
-﻿# Converted from: PT -MC01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sargahd3/raw/PT%C2%A0-MC01.ANS
-# Source Revision: archive-sha256:d4be65be862c17debbed01c060fb85aadbdbe00a8282836fa25f3f46073f618d
-# Source SHA-256: 2c7cbc24b6a76ab42b48175308ada738e826171c5134b8f42b5e02edb958a6af
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PT -MC01.ANS by paratoxic (fbk.sargahd); released in sargahd3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: znickerz login matrix
-# SAUCE Author: paratoxic
-# SAUCE Group: fbk.sargahd
-# SAUCE Date: 19970208
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: znickerz login matrix by paratoxic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sargahd3-pt-mc01
 
 Write-Host '
 [31m▓▓█[0;1;31;41m▄[0;31m█[0;1;31;41m▀░░[0;31m██▀▀[0;1;37m▐[0;1;37;47m▀[0;1;37;40m█▄▄[0m     [1m▄▄█▓▌[0;31m▐█[0;1;31;41m░▄░░[0;31m▀▀▀[0;1;30m  ▄▄▀[0m [31m█▓▓█[0;1;31;41m▄▄██▀▓█[0;31m▌[0;1;31;41m▐[0m [31m█[0m    [1;31m▄░[0m

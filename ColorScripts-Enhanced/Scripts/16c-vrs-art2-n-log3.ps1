@@ -1,13 +1,4 @@
-﻿# Converted from: N-LOG3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vrs-art2/raw/N-LOG3.ANS
-# Source Revision: archive-sha256:273bed4ba3df9b056fa8f6732738ecb6c35d4780cfe36052c9913519cce9e247
-# Source SHA-256: 675b674fc8d69217fe6dc63e529c33bd61558b180d10091117d1c8cae17d1a0c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-LOG3.ANS by Nitrogen (vrs-art2); released in vrs-art2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: N-LOG3.ANS by Nitrogen | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vrs-art2-n-log3
 
 Write-Host '
 ¬[1mN[0m⌐

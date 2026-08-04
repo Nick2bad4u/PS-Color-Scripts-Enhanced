@@ -1,13 +1,4 @@
-﻿# Converted from: VOIDACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1991/raw/VOIDACID.ANS
-# Source Revision: archive-sha256:4dcfddb1a9f84aafa45e2facaadcb15ccf7ddad9041d8c346c723f7894d6cfb9
-# Source SHA-256: 6724550ad9ffff758c8d25ecd25acf97a7a1f0ff32c33e6f2da419d1775ad264
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VOIDACID.ANS by Jed (1991); released in 1991 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: VOIDACID.ANS by Jed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1991-voidacid
 
 Write-Host '
 [1;30m[0m[1m[0m[1;30m[0m[1m[0;1;30m[0;1;34m[0;1;36m[0;1;34m[0;1;36m[0;1;34m[0;1;36m[0;1;30m[0m[31m[0;1;31m[0;1m[0m[1;31m[0;31m[0;1;30m[0;1;35m[0m[35m[0m      [1;31m▄▄▄[0;1;31;41m▀▀▀▀[0;1;30;41m▄▄▄▄▄[0;1;31;41m▀▀[0;31m▄[0m       [1;33m     [0;33m [0m [1;30m   [0m [37m  [0;1;37m  [0m [1;37m [0m  [1;30m   [0m        [31m▄[0;1;31;41m▀▀[0;1;30;41m▄▄▄▄▄[0;1;31;41m▀▀▀▀[0;1;31;40m▄▄▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: CA-SZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca0497a/raw/CA-SZ.ANS
-# Source Revision: archive-sha256:7a734d4a0f66cec612ff9dd555f22ae742c0c148ca8b062dcada217d3ed01454
-# Source SHA-256: 9e7b76355135c9efc54d74705af054dcd39c4620b82d781e80fe33d4ea6a6aa7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CA-SZ.ANS by Caynan (rca0497a); released in rca0497a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: CA-SZ.ANS by Caynan | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca0497a-ca-sz
 
 Write-Host '
 [1m[0m

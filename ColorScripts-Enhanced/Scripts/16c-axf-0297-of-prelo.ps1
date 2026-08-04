@@ -1,18 +1,4 @@
-﻿# Converted from: OF-PRELO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-0297/raw/OF-PRELO.ANS
-# Source Revision: archive-sha256:60e502c9a1ba0703538ea6854865054cb1103c69d11b9a8571db69144d294d40
-# Source SHA-256: 70e07dde2e1382648602e8286312e1b693f9bbd52fa093c183093e5aee38052d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OF-PRELO.ANS by overfiend (aXialfOrce); released in axf-0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: tdw-prelogon!
-# SAUCE Author: overfiend
-# SAUCE Group: aXialfOrce
-# SAUCE Date: 19970118
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: tdw-prelogon! by overfiend | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-0297-of-prelo
 
 Write-Host '
                   [1;33m,................[0m       [1;35m,.;[0m

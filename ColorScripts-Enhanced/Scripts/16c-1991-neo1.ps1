@@ -1,13 +1,4 @@
-﻿# Converted from: NEO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1991/raw/NEO1.ANS
-# Source Revision: archive-sha256:4dcfddb1a9f84aafa45e2facaadcb15ccf7ddad9041d8c346c723f7894d6cfb9
-# Source SHA-256: a8aeccdcff87aa4b251bbe095892009980a6267212541c0c7e589064e9625590
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NEO1.ANS by Relentless (1991); released in 1991 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: NEO1.ANS by Relentless | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1991-neo1
 
 Write-Host '
 [1;30m▄[0m▄[34m██████▄[0m                          [34m▄▄██████▐█[0;1;34;44m▐[0m  [34m██[0;1;34m▌  [0;34m▄▄▄▄▄▄▄▄▄▄▄▄    ▄▄▄▄▄▄▄[0m

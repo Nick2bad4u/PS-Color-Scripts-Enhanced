@@ -1,18 +1,4 @@
-﻿# Converted from: KRL-VOL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pst-06/raw/KRL-VOL1.ANS
-# Source Revision: archive-sha256:93eed8ee4f179db89a50bcf60e21faa155b9d3a593731162fb8a86aa8a449a20
-# Source SHA-256: d70d1367d786c9673538b23e6f1a8e8a87ed67c4c571c65a29320d2743611315
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KRL-VOL1.ANS by krl (polyester); released in pst-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: volume v.1 interface
-# SAUCE Author: krl
-# SAUCE Group: polyester
-# SAUCE Date: 19981204
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: volume v.1 interface by krl | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pst-06-krl-vol1
 
 Write-Host '
 [30;41m░░░░░░░░░▒▒░░░░░░░░░░░░░░░░░░░░░░░░░[0;31;40m▒  ▒[0;30;41m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

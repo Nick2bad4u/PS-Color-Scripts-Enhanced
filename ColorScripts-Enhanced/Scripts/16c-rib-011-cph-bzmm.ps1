@@ -1,18 +1,4 @@
-﻿# Converted from: CPH-BZMM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-011/raw/CPH-BZMM.ANS
-# Source Revision: archive-sha256:ad392e5cfa0b76b10ae16f4d639473779105b78453dac46868057f0aeaadd814
-# Source SHA-256: ff0d5d3f36f5fb7d0ac0834a9fda5c35cf1af1d216c987d596cb62fea6c1d329
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-BZMM.ANS by cyberpunch (rIb); released in rib-011 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: booze main menu
-# SAUCE Author: cyberpunch
-# SAUCE Group: rIb
-# SAUCE Date: 19980730
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: booze main menu by cyberpunch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-011-cph-bzmm
 
 Write-Host '
                                            [34m▄▄[0m

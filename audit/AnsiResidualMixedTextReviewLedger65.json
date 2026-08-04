@@ -1,0 +1,2837 @@
+{
+  "batch": 65,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 8,
+              "start": 3
+            }
+          ],
+          "expectedRawSha256": "8255512ee3190e3eda316179fa50c453445a727d82aa1667a860adfd62656b13",
+          "expectedRenderedSha256": "e9cafb9e6edba2ca063545558b67cb232302650971d3a6ba648321543b6f8d44",
+          "row": 24,
+          "sha256": "4cf3658f3288ccc08e2a11c173f30b672b065827d5280954b7f45ab081369ba9"
+        }
+      ],
+      "file": "16c-acdu0294-bk-dd1-part04.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 10,
+              "start": 4
+            }
+          ],
+          "expectedRawSha256": "66180a879c6a0487e6d743b3144638ddb1d1deffca29e82322c6d5845c29b295",
+          "expectedRenderedSha256": "94874a730c60c953a2bc17ab01f5f18e4596e4c849911e36be3f1d8ede6cab68",
+          "row": 33,
+          "sha256": "f12009c0c783fc98e6b33324516da5f637ae5b4d35cdbc9e6c9fe3755e556021"
+        }
+      ],
+      "file": "16c-acdu1295-us-trom2-part05.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 63,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "4466df33f0e8558548b93ac1754bcd67d32cc9775d0156919b429e60d196f742",
+          "expectedRenderedSha256": "708c2136e086db4884a0fdd8895f611dd90e23c197c0ec12fecd521c9e8d07e7",
+          "row": 16,
+          "sha256": "b7f5b9f79c44f84a233aff0df4e87747f8d4e25da74c05f80876ce9cf7e85314"
+        }
+      ],
+      "file": "16c-ash-2-di-demn1.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 63,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "bb09f5ea75e1d473d3f765605d2d56de127333ce00da07ccc44b716016b6a533",
+          "expectedRenderedSha256": "46e9bb3b0d0cce116d7f15889882ed76b208dbee314b2d72866486649b6994dc",
+          "row": 16,
+          "sha256": "a66e252361ceed7fd2ee22abd1c08300eb107f19af0f76e0665084378ad31af0"
+        }
+      ],
+      "file": "16c-ash-2-di-nd4.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 63,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "7dbf2b8654134854e6bc058427af1401d83cb9f29cf232e0d49c101fb308f636",
+          "expectedRenderedSha256": "7d7c31f9e2807815f229f1889408ccbf7fc6f2b86b2fee22b2dbf724d7b1d876",
+          "row": 16,
+          "sha256": "44cf64fc945ec5ef0935dac4833a2896bce6cae31b19f7f85bbf039a49595666"
+        }
+      ],
+      "file": "16c-ash-2-di-nd5.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 63,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "bb09f5ea75e1d473d3f765605d2d56de127333ce00da07ccc44b716016b6a533",
+          "expectedRenderedSha256": "46e9bb3b0d0cce116d7f15889882ed76b208dbee314b2d72866486649b6994dc",
+          "row": 16,
+          "sha256": "a66e252361ceed7fd2ee22abd1c08300eb107f19af0f76e0665084378ad31af0"
+        }
+      ],
+      "file": "16c-ash-2-di-patr1.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 52,
+              "start": 47
+            },
+            {
+              "end": 55,
+              "start": 54
+            }
+          ],
+          "expectedRawSha256": "0b3149cd6bc62385f186fd2d8379badba70a05f803c141c7eee79d254a9babbe",
+          "expectedRenderedSha256": "0c69d8758638801d57e0bf8076df2b113ce544dffae8f0dd9527b96d07999ff2",
+          "row": 15,
+          "sha256": "101455e7e79abd409e8881e09445295c820a805022538f216234f65de73415ff"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 48,
+              "start": 45
+            }
+          ],
+          "expectedRawSha256": "3d912dbdf319b7e284302897ee7c8249bc9dd889617eca7987e065e5b82a0ddc",
+          "expectedRenderedSha256": "23901bae308ac8c4294c6be7e4e94a6571d08e0607f1955cd567632a99860d62",
+          "row": 16,
+          "sha256": "7ef9ebb0a266a4f83096c0cfe0e173c7bde377ec7065250ca2bcf78e7ac2cc07"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 56,
+              "start": 54
+            }
+          ],
+          "expectedRawSha256": "b978ba4ecbdb0d4c160d988f216edfb816deddc8f10b0b6192596363d8e81dae",
+          "expectedRenderedSha256": "c77d8181580b399dccbb4387be4361cc7583cff13ce6a5d283c0c690d309f592",
+          "row": 18,
+          "sha256": "220535c3bf25b5a3f7fa5182fc7c6d81cfa798831deac74ae29f9edff04d7d34"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 58,
+              "start": 53
+            }
+          ],
+          "expectedRawSha256": "13e5a9f5f283692f4029e5f0d199fdf25da0ac9de957a73485d3d2ee7072fe3a",
+          "expectedRenderedSha256": "9512663a5ed2270395c703d29cf0cf05bdc45634b6ac2aefb6c76cd19b6f96e8",
+          "row": 19,
+          "sha256": "f0c799545f64fd8e18bbd6d6f14e13aa9185af19c6b40e39d34de6f7c233fd3a"
+        }
+      ],
+      "file": "16c-asshol-0-u3-main.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 59,
+              "start": 53
+            }
+          ],
+          "expectedRawSha256": "cdc6e82309b219e40bec1a2853083fae5d5af5c8545777a53ee60d78d69622d3",
+          "expectedRenderedSha256": "c9b7e5c42a09084608b2d05034a1fd878073ea09e598c5c7e0d2cd19e29cf0cc",
+          "row": 2,
+          "sha256": "cc36c620502ddf5fcc262b5dbde7524a35373eb889c1aeae71bccbe7e69efb11"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 67,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "c508d761fb1b0d539248a272f9a03e671bdb1d55a5d0a1697aada4165df4591b",
+          "expectedRenderedSha256": "e4bfb567cc0c9845d5b7403d6ce5ce38095f4a82ddf2d7b55ee20255f95ccdc2",
+          "row": 4,
+          "sha256": "402e0cdcf0fcca6af06ed4f3ede164d63d39287882247ef0bdb94e6653f9b3bb"
+        }
+      ],
+      "file": "16c-atm-0294-fb-ukf1-part01.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 34,
+              "start": 27
+            }
+          ],
+          "expectedRawSha256": "6e969ceb57a398c4709ec6aa339cacf20169c06b7dbb5694f788833c168aebd3",
+          "expectedRenderedSha256": "8ded453bbccde9cc9b12fa93f5486a1a4f49153bcc241b4fdcef549c7a3a9772",
+          "row": 41,
+          "sha256": "9be5c5c08da7807ad650f083cd6aed6aab619e2e67b0594174838deac1a377e3"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 50,
+              "start": 27
+            }
+          ],
+          "expectedRawSha256": "6673fe0021c91820e42e3595ec37d84b16d510d9921d68ebe2cd2cdfe170e4b2",
+          "expectedRenderedSha256": "846128547d53d23a49fe1db24683688c8db26b2eed9d02b208cc27ca55563866",
+          "row": 42,
+          "sha256": "eee584ceca9ecaed7328d0666b25aca0adbaaae630d461c092c536d85a9edc85"
+        }
+      ],
+      "file": "16c-atm-0594-fb-myst1-part02.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 66,
+              "start": 45
+            }
+          ],
+          "expectedRawSha256": "531762004d73003d74a294fe23f42e285b0c24be76b391f9f11329ec95058924",
+          "expectedRenderedSha256": "8aa8bbe86c9d50f9fe468f64cdea6d4c03690986fdfbfbb77766a347d534c0e8",
+          "row": 14,
+          "sha256": "64635b4312032b14b45d70aff47a27cdc46b47b099d067b2ab200f746205aaae"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 61,
+              "start": 49
+            }
+          ],
+          "expectedRawSha256": "0cfb08b7add00776e61f2ac359fc02876f8d1e1fc95b1c97a9a5e82c234df82b",
+          "expectedRenderedSha256": "b8807cb1bb303e02c38492647ab659c9a787d24bde3552eca710106752aecf43",
+          "row": 16,
+          "sha256": "d73476e6eea26483cf3e192970ed5e61b7dd78a94197ba8741816bbd99973218"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 63,
+              "start": 48
+            }
+          ],
+          "expectedRawSha256": "3db04ab29b4104f2ff930650b607256f1778269748086c7d1d0ed3cb83d88518",
+          "expectedRenderedSha256": "5d6143de08a0c2530bbfe8207c725267871d5cd013fdbdf4f68eea85febd3e3a",
+          "row": 17,
+          "sha256": "eb5d0a26689631207fa9b1298bbbb9b3edbc2127d9decf560e31a4bf4b9b9a83"
+        }
+      ],
+      "file": "16c-awe-13-tna-lbox.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 27,
+              "start": 21
+            }
+          ],
+          "expectedRawSha256": "70d64c553d2aa82803669c7b218af7758d99f46941f622ec7d6bca72961383bb",
+          "expectedRenderedSha256": "d673780166a4bb43aed5fc30b48e482ff1f94d783a6f5ecd774119285e04ac4e",
+          "row": 22,
+          "sha256": "0765ebb062ed8c02b0b76f92602d13f56462691f3f205116ce9114baa420f2ad"
+        }
+      ],
+      "file": "16c-bkn-1094-dh-tns-part05.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 62,
+              "start": 38
+            }
+          ],
+          "expectedRawSha256": "9641e3be12ebbaa4d72c4e3e9f5bf0c4d0fdde1bc18737aa2c8fc14f14158d8e",
+          "expectedRenderedSha256": "29bfa27939dcb7c6a58fc4f7d5858494fbed956733d77e3d765e8a4912a62a32",
+          "row": 27,
+          "sha256": "27a5e2436d5f2982667c0c373d7e79089cbde17437372c4d8fad640d3c4b19c5"
+        }
+      ],
+      "file": "16c-bl-brtsh-jr-brdam.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 78,
+              "start": 70
+            }
+          ],
+          "expectedRawSha256": "91f029a50a7f57f8c5bcb5fe26ee04407c20351d2f580e1d71a390f007b64d51",
+          "expectedRenderedSha256": "f74c7ef312f405b92ad7ab3364c3ace7cf86593586918b8a09499e3435b28859",
+          "row": 27,
+          "sha256": "883aadeb33024a4f47c438a93cc3d3f77e5f15ab62865f3453f157805ab75850"
+        }
+      ],
+      "file": "16c-bl-dope-fj-logou.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 79,
+              "start": 71
+            }
+          ],
+          "expectedRawSha256": "7f13c90b07228cf8ccaf4b587340178f39c67b613ea467b4f55010a564540b71",
+          "expectedRenderedSha256": "8c0174ca362cc591ff561fd327637b9e92d1c2c933b0fed6b15e1decf9ad6ebc",
+          "row": 26,
+          "sha256": "b937c19a23a0f3f258cfa143c649a8f747650fca9dbfb400d15db681dcfc88f9"
+        }
+      ],
+      "file": "16c-bl-dope-jr-napsm.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 9,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "a58eb61ac504685fb0abc2f5f5420df74a779b37eaa5b6c2997ce341d4378082",
+          "expectedRenderedSha256": "2f40390e392f23ced8fb00890917f1b5579342bfb3678bba1073823b0dc58b73",
+          "row": 14,
+          "sha256": "fd162f66b3c022343e61205dbc9a8f7fc6f90b10960997193277b1e0ae3c2b76"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 10,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "2af7a7c867ffc1ce993847e23be7079c5ed4ab143ab43f1a0f374529e23c4986",
+          "expectedRenderedSha256": "2d269e10194e2293e80cf5b600cc0a1a91b543ab1cec5f3fca33c303589d5ab4",
+          "row": 15,
+          "sha256": "1aeaafb65035c367f9bd457fecefe6aea5cef38e930a1e14e85dd2aead34868f"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 18,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "7d164a677ec573f4920fc15b716fe73ed35e2921b12eaac6313a78f4e3a46024",
+          "expectedRenderedSha256": "98c56126ca3323a7c4600694b078d2564f3b03d96db021790c67d7de236fd408",
+          "row": 16,
+          "sha256": "f8e4817cce83a8aee2f7234af0cb18f15bdf7049d7442cbda1420459c5a696bc"
+        }
+      ],
+      "file": "16c-blde9605-nn-bc3.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 50
+            }
+          ],
+          "expectedRawSha256": "1b79d29e1dcd8b570c959d7d11077e94cd165dcd56fcf67b418e5b206997c6f5",
+          "expectedRenderedSha256": "30ca1fcf4d9d84ee33d34339a692d2e0626ee5e334ad95ecc85d73fc85bc91fc",
+          "row": 22,
+          "sha256": "805344d303de8e5f6d46f993a33e1793001f3e6fa71f7bf52a3fc4551e9e8f07"
+        }
+      ],
+      "file": "16c-blocktronics-blockalypse-bw-blockalypse-part08.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 30,
+              "start": 13
+            }
+          ],
+          "expectedRawSha256": "60f26d599619a914549195444511a9885dee76d19ab5a7b31be1f870f939f1a8",
+          "expectedRenderedSha256": "af746f9c461ef2e6f538b616c05942b4d918b68af08c221967e623624d25a5a4",
+          "row": 13,
+          "sha256": "e9d6b57d3a089a513f366f4a88bdc47af2d1b3638ab1ed17acf4e509a016379f"
+        }
+      ],
+      "file": "16c-bmbook14-ave-cl13-part01.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 29,
+              "start": 13
+            }
+          ],
+          "expectedRawSha256": "2c8d671518a2a4d9dd21bed76f4d74a2a90964b2655d75f67a9014786c31aa4c",
+          "expectedRenderedSha256": "cdcc182bb89ad0a6ced58bdc716b90d08ae369ac216ec8b3114a55ae186dd88c",
+          "row": 47,
+          "sha256": "4739c540dea87fca5118d2c30d9d1dd940130b56bbb4caac50bc446b3b467ce3"
+        }
+      ],
+      "file": "16c-bmbook14-ave-cl13-part02.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 28,
+              "start": 14
+            }
+          ],
+          "expectedRawSha256": "90f599c384f6b01532eab50b28b8cd7643426023e3a73186c6c2ac2168acfcd8",
+          "expectedRenderedSha256": "7017a1ef6113bc93dc637e8ffb015f7be88b5019552294a701d6db9b12b0a42f",
+          "row": 18,
+          "sha256": "c8f146b9dbb3a8774876b9ce10c52fcdd1ee6c4af1c78a0e0be235084e596793"
+        }
+      ],
+      "file": "16c-bmbook14-ave-cl13-part04.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 32,
+              "start": 16
+            }
+          ],
+          "expectedRawSha256": "85ca0a6a35d004a581ecac16f1231685c2e6efc4d0d4add458574a0c2ea39bee",
+          "expectedRenderedSha256": "93154757a56e27585e8ec9ec2fa2fa3d484e40cf16de59b08f59bb0245dfb906",
+          "row": 22,
+          "sha256": "be9dfa32fa9f0f17e346f3a979da12bbddee003656e318112ba30cab721f02c1"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 31,
+              "start": 16
+            }
+          ],
+          "expectedRawSha256": "fbb263879326d116eabd94eba6ec2509ee93d9c1a12e4b0b295ae0b3a507d186",
+          "expectedRenderedSha256": "ea50729068b23ed066f40a0246b82d1829c185b4d108dcc960102c513e1a1464",
+          "row": 48,
+          "sha256": "9af1acf1247f2d8a5795ba343512bd03df068f9dd433d4aa7c0ce4401a3ed9e7"
+        }
+      ],
+      "file": "16c-bmbook14-ave-cl13-part06.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 29,
+              "start": 22
+            }
+          ],
+          "expectedRawSha256": "c61ade375cc1f299d2c512aba5642100fc58889c42a4f230b9783b4ce36cbfef",
+          "expectedRenderedSha256": "f6fa5c1566211b970e8b211ebf7ce5443a7d2d1ed950c950fe94df68b5878b43",
+          "row": 4,
+          "sha256": "7a987c59c473f1d30da806fd36bb444376fb8d114293a3885f339a3618518c14"
+        }
+      ],
+      "file": "16c-bre-0594-af-bd1-part01.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 29,
+              "start": 22
+            }
+          ],
+          "expectedRawSha256": "c61ade375cc1f299d2c512aba5642100fc58889c42a4f230b9783b4ce36cbfef",
+          "expectedRenderedSha256": "f6fa5c1566211b970e8b211ebf7ce5443a7d2d1ed950c950fe94df68b5878b43",
+          "row": 4,
+          "sha256": "7a987c59c473f1d30da806fd36bb444376fb8d114293a3885f339a3618518c14"
+        }
+      ],
+      "file": "16c-bre-0594-af-nl1-part01.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 29,
+              "start": 22
+            }
+          ],
+          "expectedRawSha256": "df9abe0c1d861eb135cf7de7d4e53642d6dc863cda4b64068fb1c88ea1a269a2",
+          "expectedRenderedSha256": "eb6007b3ee42a77bf7deadd1e6053296224df9289f6336680c033786d91b980e",
+          "row": 4,
+          "sha256": "40fbc439660044cbfbf49a89f2a42238c3c8629bb6331c52766506463f277d8d"
+        }
+      ],
+      "file": "16c-bre-0594-af-uis1-part01.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 63,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "3be0b73fa674e898a0f0d62cb8f8765e3e821c4c110c830eed4f47f2d74debc5",
+          "expectedRenderedSha256": "0553cdaa7a8cc45a32c6e22edb49032da974a07a4e1da548f8056f00ab86b55f",
+          "row": 18,
+          "sha256": "5a315324e4c467b3862350f0e13f89f7a539c7d43e26f5867278d35c37e7670b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 69,
+              "start": 61
+            }
+          ],
+          "expectedRawSha256": "5bb32a504f1c0d871eea0c44ef58109f20e995c5842a45c11e132d5e8dc7bdb9",
+          "expectedRenderedSha256": "1fa398a5ed887dd5f97625555ef9dd5b6fa7c9074b643c183f342e26494c52e3",
+          "row": 20,
+          "sha256": "786c1772be5797fed18ea11e61a7649c92536aefee756475374091e78f64b2e8"
+        }
+      ],
+      "file": "16c-charm05-p5-inst.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 8,
+              "start": 3
+            }
+          ],
+          "expectedRawSha256": "e49d06a75a9ad2c630c8cc3577a8d2a5533b4403b47e0aed028a65c8dbb572fe",
+          "expectedRenderedSha256": "d4d5e27ce49634045f4ae045a4f6e70e6a6f80ac4b899d5189cde1df5cf084a1",
+          "row": 36,
+          "sha256": "6c957aeaab4d86d536c18e822b0c05f69e3a677ba4da7b3cb556692e7f5cb1a9"
+        }
+      ],
+      "file": "16c-cnc-0494-dj-cod-part05.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 22,
+              "start": 17
+            },
+            {
+              "end": 26,
+              "start": 24
+            }
+          ],
+          "expectedRawSha256": "353241477288b2987feee2560140fea279fd39003269162627f340252f7ad4e5",
+          "expectedRenderedSha256": "1dfcad5c86cd31296032fb5b6aa0f33a4d278e282bede3918be3faa03a80f82a",
+          "row": 2,
+          "sha256": "ea06d64a348c06784de9db24e1e3ccf1138a95033d5bdeaad19c3dcbccf0891d"
+        }
+      ],
+      "file": "16c-cx-timeline-009-sc-stalk-part01.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 15,
+              "start": 10
+            },
+            {
+              "end": 19,
+              "start": 17
+            }
+          ],
+          "expectedRawSha256": "46da00e7c7dfa62eb77f1519c30c37962d456732af8217746c4ec384a4284f15",
+          "expectedRenderedSha256": "592fac56e09a6547a4d727321cd81831c52b748fcf82cfa91c494cf0e6e86215",
+          "row": 2,
+          "sha256": "8f7e27b8be33f196353622f4b3a607b55baee67fcd6a8f6391abfa0c0e1931be"
+        }
+      ],
+      "file": "16c-cx-timeline-011-sc-semw-part01.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 67,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "1c85d3066d3c4099673e0abdc862714deb6069c9c94d038922ee4f62d7ab0362",
+          "expectedRenderedSha256": "de2bd489b3abf3bdb4797b7f2eb69bac60c8570e50a7bd5dd447a82861c9b495",
+          "row": 8,
+          "sha256": "5801169505bd3aa93c1ff25fc397f7735b8edc45fc9ab84d8b09e917996253b2"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "e8062ad565ba4caa6aeb09e31f195ea832c9a467a99ebf92edf7fe4e859501e9",
+          "expectedRenderedSha256": "b116ec7f79ccc5970b1dd4d1a1b3fe4ab6f819a2db517c9af5f25ddc0ef618a4",
+          "row": 9,
+          "sha256": "fe91bfbffa5df9ab401eb44eedcad8c3e4012549da7dbc4aa10a35ef02cca957"
+        }
+      ],
+      "file": "16c-dos-v195-mf-dark7-part01.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 67,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "520217ced632cd287566827764a79f57da2f984cda6a1d4762f39ab05329e104",
+          "expectedRenderedSha256": "de2bd489b3abf3bdb4797b7f2eb69bac60c8570e50a7bd5dd447a82861c9b495",
+          "row": 6,
+          "sha256": "5801169505bd3aa93c1ff25fc397f7735b8edc45fc9ab84d8b09e917996253b2"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "bab4c584c0cbdcd480434b5446559e4a3ecedc986097768ca2ee37cb7b645866",
+          "expectedRenderedSha256": "b116ec7f79ccc5970b1dd4d1a1b3fe4ab6f819a2db517c9af5f25ddc0ef618a4",
+          "row": 7,
+          "sha256": "957b49590447c2fd59d7099f7b191d23a1656f8b63b0087ed47d967f368d01e4"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "d2f6a80ef736d621daf68456da1f45995cb3cf7adefeff0f99c60ea6846c4982",
+          "expectedRenderedSha256": "970444a6914cef117ee3464e1d22e62d1d4f0ab9e9b7b00fccb3db451ac41d6f",
+          "row": 8,
+          "sha256": "3eadf6281accb76764ee2a37614337f12a18cf8b9c9a737de8591040a5d17995"
+        }
+      ],
+      "file": "16c-dos-v195-mf-sh1-part01.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 48,
+              "start": 38
+            }
+          ],
+          "expectedRawSha256": "b4530287ca3b61f4bd5c5ccb838574af3968fbf35adcd3c5f6b6a356506759c8",
+          "expectedRenderedSha256": "8681342490dc83b0c7f20e69a4027bfecbce4a7ea4508fa9ecf02763ce105644",
+          "row": 7,
+          "sha256": "6aed9e07023ccfb94934406663bc0501764567fe4b6ba63762d6c57ba0ef4d0a"
+        }
+      ],
+      "file": "16c-drl-0895-to-ttz1-part01.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 12,
+              "start": 4
+            }
+          ],
+          "expectedRawSha256": "af0ecd90852f8e6310f217049033f515a0b2fe72de197a67600e4e0c8060af84",
+          "expectedRenderedSha256": "a4699cecf5615b9ba0189fd39cd0104a161d3df35f27abff23980a0fb7df580c",
+          "row": 40,
+          "sha256": "fecbea2f76d5fe18b1ba8326c69a2df96db6db3538033b3ee3b4e3c115bf9b88"
+        }
+      ],
+      "file": "16c-drv-0595-sui-cros-part03.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 39,
+              "start": 25
+            }
+          ],
+          "expectedRawSha256": "c9437ac194a6c59844a6c245ffeaff9b8e6255d0bc1db3197fc67a20de1901c2",
+          "expectedRenderedSha256": "84848bd035ef482fd6cad4aaacd994adf59c6ae4b7c3766e1491d95c32510843",
+          "row": 22,
+          "sha256": "5a52f7f2926154ea40d2ea2962e9ee3e603abfc38691db68f5f64dda6d79e951"
+        }
+      ],
+      "file": "16c-dvt-a002-co-co.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 54,
+              "start": 48
+            }
+          ],
+          "expectedRawSha256": "747d560baca0e2a6b7e039252008a1ba7f0f5100a1d057254c838d73bd2b6614",
+          "expectedRenderedSha256": "22a0b26485bf3bb91d055bc01d1812073d6e1434e68c9f06821aab7ea1dcc84c",
+          "row": 20,
+          "sha256": "a4014fdf19a6b064dce652b6422d7ff576f96e99054d4162e08e6f8d52c462b5"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 64,
+              "start": 52
+            }
+          ],
+          "expectedRawSha256": "91f8e02f831fb50b19dd6407f091d23686932edc0f9c8dc00f06665aec9a8602",
+          "expectedRenderedSha256": "4caad2e979bb73a4227f9d69110837ad4c534edfd95726401ca687b10913a6a0",
+          "row": 21,
+          "sha256": "94575a046e119bf94f0fcf8f764d66043ac518ed1f489d41e87e2e23327f8428"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 68,
+              "start": 65
+            }
+          ],
+          "expectedRawSha256": "604c53ec3974f06a5cd0a681d0657ff677093b9ac82bc1c1c3090a93c6dcfad3",
+          "expectedRenderedSha256": "fce2fd06e85fdc70aab4fa05c9d9c153831ea5fa9b16c51dd45ab6b8a6f9dbad",
+          "row": 22,
+          "sha256": "a8f08c9cc9e9161dee275db51712de470594da1d2b576d8a03c36415149363e0"
+        }
+      ],
+      "file": "16c-fire0696-bv-ss.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 43,
+              "start": 38
+            }
+          ],
+          "expectedRawSha256": "288793569e2e056c41a7e22cc91e21ba2d4231b8f78a6f755e5254dde5591e48",
+          "expectedRenderedSha256": "a641dc602fd350d7854b10f7139d87456409bcd197c9775d3c30a58d0791e31e",
+          "row": 37,
+          "sha256": "6664a27de421cc71726021736302bf859fdea6188c244f9e533693eb109a7da6"
+        }
+      ],
+      "file": "16c-hr09-94-sd-pin-part03.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 37,
+              "start": 32
+            }
+          ],
+          "expectedRawSha256": "3ef48ea624f686703aa4843bc0ecd52b20205d62e36c5d3ebd324f269db70865",
+          "expectedRenderedSha256": "29dbbf99774ce4b75e50368e5c617ca9317afde9fbc281e895b218fa9b114e78",
+          "row": 26,
+          "sha256": "f5f8bb916236898d0ea7f4b4a9354309f23f776fe4afa53ef45105ba5dbc3580"
+        }
+      ],
+      "file": "16c-hype-01-tr-sumgy.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 16,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "74dda6564fe6bfc108f222b44bb21a146416a81cfe51ded28462fac7a3911bf2",
+          "expectedRenderedSha256": "1c03e066b120a67f1afb069fa188234ac8b25cc059d393b6daef89e880c558b6",
+          "row": 14,
+          "sha256": "d637c213f21ac629ad6df0c9928ff22e9feff07e2260abf857b101c77db0be65"
+        }
+      ],
+      "file": "16c-ice-9502-lo-dsun1-part03.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 15,
+              "start": 6
+            }
+          ],
+          "expectedRawSha256": "1e8ca248679255c0e0185f63f05c2f03938bb7d6de9236a780b42fe26fe9d1f0",
+          "expectedRenderedSha256": "b8ab6766004b22f07210c199eadd164362229dfe4f2fe973287bb709d0278b16",
+          "row": 9,
+          "sha256": "b069c7c7e286be23f9e610a522d7d57ec45990e1c271cf2925bd4314ca3cba47"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 19,
+              "start": 3
+            }
+          ],
+          "expectedRawSha256": "0cad94d32363409d6cb9cb32baf4f454693aebd4babc1797ae847299aa385f8c",
+          "expectedRenderedSha256": "141649968c81ae9d631b0966698466d6aeae235fdc6f6a32d170167d5ee8f94b",
+          "row": 10,
+          "sha256": "726e82ac30d01e651646af5b60f4716b5fb3346e916f6dc8030ba062075eb420"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 23,
+              "start": 2
+            }
+          ],
+          "expectedRawSha256": "a53deca6b4ecbaf1b497a238fb60af3fdff1b98b80d3261366e2dcc1d938a9ab",
+          "expectedRenderedSha256": "a1c59d1a41a56bd164e4261f608f8b044f1a8f3dddddfd8608b92bb244088f9f",
+          "row": 11,
+          "sha256": "56e2b4a3b64e1cbff89c52443660efb9635400c64caca834ce209a55e47598d0"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 21,
+              "start": 3
+            }
+          ],
+          "expectedRawSha256": "6e52f98a64ebfd13d49ae949d1f8bb948c3a909d3f4ca16f3c60ead3b17c8370",
+          "expectedRenderedSha256": "776ec4627f4f23af60a4f29ff5203e417750e6e2059f17934875ae8213408008",
+          "row": 12,
+          "sha256": "9a48ee61df0e6862844690efe3c02e82bcccaa75117c7737370bf5a03ab5d946"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 20,
+              "start": 2
+            }
+          ],
+          "expectedRawSha256": "3a06f7cfcc26c746f49575d263c13dd7bfc4c3dac6396c3954564be1f98d4565",
+          "expectedRenderedSha256": "1640351e45905afbf22391f5f0635557626b274c80b49ec96c0806640c3f31b1",
+          "row": 13,
+          "sha256": "81939ff8a3f9b5eaaf9214d9e8654ec24ff81274e4b4d675aba683757d218551"
+        }
+      ],
+      "file": "16c-icon0595-mw-panic.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 22,
+              "start": 7
+            }
+          ],
+          "expectedRawSha256": "e10e29e27477a6e2694abfe02a7c1ab8b5669ba664dc6051abd74d5b2c57e450",
+          "expectedRenderedSha256": "34367677aa9f6e3cb27c06db5134d60c84f9ae5a3309a135630456a874654565",
+          "row": 39,
+          "sha256": "d2ad4668b6036dbcafd89b4ee41b3d577c3ed786b57514a7e93a8e01e69798ba"
+        }
+      ],
+      "file": "16c-lap-1194-te-promo-part03.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 49,
+              "start": 26
+            }
+          ],
+          "expectedRawSha256": "b4e252a9741e7de0a4cc7669d49fdc4c86d3e16c2ab85b412667e682f7fbc3c5",
+          "expectedRenderedSha256": "4284d1978fb7cfdf7258de97605ebfdc25fc411c3f9b8f8841f45ddc96e20f9d",
+          "row": 34,
+          "sha256": "19d37a20a9b7e7f82df22e73d24ae04cc5567dc18d85a5d85183af8e9f6c74ab"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 45,
+              "start": 26
+            }
+          ],
+          "expectedRawSha256": "8f9928d58e9147648311c65a37b5ff9f4a538c0b8010318e577941c4a8b95df1",
+          "expectedRenderedSha256": "64d74cf21bda80992f87a1243f45e361f6a367d646033b5c2c55a45839223c72",
+          "row": 35,
+          "sha256": "51e4e4ea842018a23815eb162708d6ad40bf98e3985db48d237bf2de04675185"
+        }
+      ],
+      "file": "16c-lap-1294-gh-efg1-part03.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 29,
+              "start": 2
+            }
+          ],
+          "expectedRawSha256": "0f234ed575224010430042b7a7b9482508e131cad194cf64f2ab7cb71a9c4d39",
+          "expectedRenderedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "row": 28,
+          "sha256": "de859cca045e478b936a104091ca1110cc83f618e421567b68a7799296b807b6"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 29,
+              "start": 2
+            }
+          ],
+          "expectedRawSha256": "2139c2c4c7b88debce51dafca1eacd48af19caee14d2baae94ecae32bb47fe7e",
+          "expectedRenderedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "row": 29,
+          "sha256": "a7201742c2e8fb164e3536c4b329be4ca6bdb13e583f69b37babfffede97a214"
+        }
+      ],
+      "file": "16c-mimic37-jn-mmc3.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 11,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "953d7c336547ba926ef71860ea77703b5e36b84b77312036885fbca9933b3deb",
+          "expectedRenderedSha256": "26aa6017a90793f9c41fa7f34673b9672be37fc814a5bcf8f70e5bdfcd0a8b4a",
+          "row": 12,
+          "sha256": "3dccf95d485f860b6985ab580d7206b28e4596e393c5037a44d8db5d848b3a82"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 7,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "6575f63a4870c5c847fd81c8550c4caa2a9a1202b6507c4182c2c0b7b279f567",
+          "expectedRenderedSha256": "aa8351a98db548f5b05be77b567470b867fbfda1c1386a8a9d279ee26e0a0e8c",
+          "row": 13,
+          "sha256": "2aadd5346a284e71cdad19f267a78b7d64851daa64b90a8b9b602c760c732868"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 13,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "2bb3bb188f6cf2212ffc66c5c18db950e59326f6629fccae65cb0797609f40b3",
+          "expectedRenderedSha256": "3c316bc61562b0da13c2d231192d004e3da23bc470c53c6a4a27dcc93d8086fe",
+          "row": 14,
+          "sha256": "62ea3fa8825141d8d7a6e2c2d43002672836fff849408eaf1f2686c4932357f2"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 10,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "78fdc0d3d55b8c1cfc5e0b8e4eb81837b9a79fd428d98cc1f20cd85ff3fab1d7",
+          "expectedRenderedSha256": "09f75941f4b4a5ed3fe16c3941bffd96ed03e23997503a1d09818a425316a85a",
+          "row": 15,
+          "sha256": "db86d4df5cb50de11f6e8985436ca7947a0ec13785243e3f0a49ebb789c2c5e5"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 11,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "140272902d5b512a8f5826183da1f9ed8efd24ed01f69470f92a7a0fb7cdf4b0",
+          "expectedRenderedSha256": "68bcc0867863b78a06fa8a210253449ad6796f131c817e72ea3491ea1bcc299f",
+          "row": 16,
+          "sha256": "9426520239004c78f634ef63b3f6a373d493aae1752c4d1793ca78474c836edc"
+        }
+      ],
+      "file": "16c-mist0996-da-mist2-part01.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 64,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "c658ad398b3f0fbcd475775dcb907368af78619ec36b5ce4b5dcba4ce5edc29d",
+          "expectedRenderedSha256": "f2eea89b376c12d172d528c4f6a94fbbc468bf98607823f2a739bba0bf78ef3a",
+          "row": 8,
+          "sha256": "5c06567015dbe7c12e532479d9bf8f206fd4aac9bb836d04602e95ec75c497b7"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "8ffc7e59c4eedca89794d55d235859a0fbcd71f17d322eb81dccba9f6d5d79b7",
+          "expectedRenderedSha256": "b9b9940afb955f3c85028049f194d6f2838b27c5cc668a674265b0094f2d4ddc",
+          "row": 9,
+          "sha256": "e0a0461c16d1e22a630a42996f9a278db009dcb9d8015dc72f2de60b4acef896"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "778860e8264fe46ac018d613fd696626badfbc22169f1d95cc2b14471af7f89d",
+          "expectedRenderedSha256": "56b9006724dbac025cbd658f8c82d2cad325a67158b82c998c90d9134cb3b608",
+          "row": 10,
+          "sha256": "70e5ab72741b44bdde07aa745cea193611af29021d7008dd9a1184acec8b7a10"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 63
+            }
+          ],
+          "expectedRawSha256": "b9f39e83502a0c9dc20d944bf9e14076967bc335bf8800c83367757a9b327015",
+          "expectedRenderedSha256": "22def84717b0ddea78bd8b3ac445c9acb2b6bcd3a360665c13ca415dedbce4e5",
+          "row": 12,
+          "sha256": "50c20b9fd9b8a5157f1f9aad6ec682a4cbc7df65bc867f7c10aed77178ad243e"
+        }
+      ],
+      "file": "16c-mtn-0795-dm-sin-part01.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 25,
+              "start": 2
+            }
+          ],
+          "expectedRawSha256": "2c46a1918cfb0528b082a7b05ad082dc04754dbf7bc31e530c990a434570b8d7",
+          "expectedRenderedSha256": "03dc13841fad092e2deb05ce65685b2ecc56e69680eb8a3624866157b7b8b937",
+          "row": 46,
+          "sha256": "7db9e5d7a56792d46e3713620b5a227b0d0f893e021bedf61c42006a6260ab5a"
+        }
+      ],
+      "file": "16c-nph-06-ffx-snk.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 49,
+              "start": 35
+            }
+          ],
+          "expectedRawSha256": "84159fe7086d08432093093ea290f9bcac7ed82ffbbdc3437ce3dbb2ffcd2b55",
+          "expectedRenderedSha256": "46a2d0243ab5fb6f67eb3b086aec03cafc49baa3c8163b292f21f0509ca53047",
+          "row": 2,
+          "sha256": "b31475b10b8531caf31027f935dc34b7b2e9be84bb87d6bd2db7ec5d635cd622"
+        }
+      ],
+      "file": "16c-nph1097-hrc-dtc.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 49,
+              "start": 35
+            }
+          ],
+          "expectedRawSha256": "a93e8b7fca95723e0f1153df5443ea9e85838ad07e1e087ae09e85d0b54bf455",
+          "expectedRenderedSha256": "72681a381c32de9501fe8b30b3d3c9791187a2b2ba044000f554f524cb301c94",
+          "row": 2,
+          "sha256": "14ceb9f42841e4f08cda7a7f4e3a1c335ff17befd7f10f921bef88804ee2e385"
+        }
+      ],
+      "file": "16c-nph1097-hrc-pms.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 49,
+              "start": 35
+            }
+          ],
+          "expectedRawSha256": "f11f287ea911365a38b3f999da53dc2704c71d24646677561a7691364484c067",
+          "expectedRenderedSha256": "0581ce1a5dffc1fc698c25ecc29a94b78032e65d27dcd26e144918c16d2226d8",
+          "row": 2,
+          "sha256": "979482c8aacc4c0583de175bde1a6b5891121e116fde6b9a35427c56a51a2747"
+        }
+      ],
+      "file": "16c-nph1097-hrc-xgj1.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 70
+            }
+          ],
+          "expectedRawSha256": "3c758723e7b2d25ee5e4b7403e019fa41614d5abbc1cefbb4d0ae6c54bb1e3f2",
+          "expectedRenderedSha256": "b724351fc68b89411885d1dbfaa24a38051f1d3e769109a9045135c8d80426e5",
+          "row": 41,
+          "sha256": "97a0c22aa75a23911d91bab83d601d0116156853ba225de0dcd8eddd9a528566"
+        }
+      ],
+      "file": "16c-paw-0495-sb-crow-part03.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 61,
+              "start": 49
+            }
+          ],
+          "expectedRawSha256": "4aa5907600a05be993d7ecf9fd4770020f99a26106b785f4fb4f51aaa53803b3",
+          "expectedRenderedSha256": "c3a34b1b1b65b63b16cf4d44ccdde924491cfa178a714cfe1e26f7e52818c945",
+          "row": 7,
+          "sha256": "90005323fa712432988a4401188390126ed920d6ec4374b19c37b750119c7995"
+        }
+      ],
+      "file": "16c-phat0297-dn-co02-part01.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 61,
+              "start": 49
+            }
+          ],
+          "expectedRawSha256": "4aa5907600a05be993d7ecf9fd4770020f99a26106b785f4fb4f51aaa53803b3",
+          "expectedRenderedSha256": "c3a34b1b1b65b63b16cf4d44ccdde924491cfa178a714cfe1e26f7e52818c945",
+          "row": 7,
+          "sha256": "90005323fa712432988a4401188390126ed920d6ec4374b19c37b750119c7995"
+        }
+      ],
+      "file": "16c-phat0297-dn-mn01-part01.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 44,
+              "start": 32
+            }
+          ],
+          "expectedRawSha256": "ee6dddd996a5c1619f70c29d85ee6c96584b1207db1ea1bacb1add5447c3555b",
+          "expectedRenderedSha256": "e64d861ca551fb434752c794830ee29613d34c34ea747b182e7942eb27f7f1bc",
+          "row": 25,
+          "sha256": "82e37fa2bd016f3fa5f32de84288550800c81f011e736bedcbb4d295bf3c6e92"
+        }
+      ],
+      "file": "16c-phb-0397-dz-clus-part01.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 43,
+              "start": 31
+            }
+          ],
+          "expectedRawSha256": "63068f6303f90f7c082fb3a4f4e3c517bc184284b9cd42d1a20ea1166a5a8e3e",
+          "expectedRenderedSha256": "e64d861ca551fb434752c794830ee29613d34c34ea747b182e7942eb27f7f1bc",
+          "row": 24,
+          "sha256": "074d2c7bce8c75b2767995a5f2e357511b522b8d74c96f2a3d75556326f0854f"
+        }
+      ],
+      "file": "16c-phb-0397-dz-clus-part02.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 57
+            }
+          ],
+          "expectedRawSha256": "ff8df2363617e158789477c695ab843952559ee9571f594b10028ca9bba1a648",
+          "expectedRenderedSha256": "0c82257884ab9080b4eec2de9a98ece00fc09883c0ff9ba87942ddd024c8589b",
+          "row": 6,
+          "sha256": "310dc59f11a95e74cca9d4b71a2c91a37d75e55bb6f98d3f493716eadd589947"
+        }
+      ],
+      "file": "16c-plf-1098-bym-mel.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 43,
+              "start": 30
+            }
+          ],
+          "expectedRawSha256": "613b7fd7990afa431737efd7d86c2c1354582d793b70ca900f751729c282fa46",
+          "expectedRenderedSha256": "b4fb3479546f528b95285f5e741faeee08ae1531a53783b0311902a8a0a196d8",
+          "row": 15,
+          "sha256": "d7f1f3b49279918d35b8d402609b6764db41b040417aa45435b2df59e2f08869"
+        }
+      ],
+      "file": "16c-purg-30a-zb-col30-part04.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 43,
+              "start": 30
+            }
+          ],
+          "expectedRawSha256": "613b7fd7990afa431737efd7d86c2c1354582d793b70ca900f751729c282fa46",
+          "expectedRenderedSha256": "b4fb3479546f528b95285f5e741faeee08ae1531a53783b0311902a8a0a196d8",
+          "row": 5,
+          "sha256": "7fe40d74193c4f1a4ba4910cdc6dc50a24a64dc76c8c6d389fbc7125f7111c51"
+        }
+      ],
+      "file": "16c-purg-31-zb-eigrl-part01.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 56,
+              "start": 50
+            }
+          ],
+          "expectedRawSha256": "ca63ba8cf72f27e3edb2046b9d93501f34358722bdf46e3f2feaa4c6ce6296a7",
+          "expectedRenderedSha256": "c5c9cb6615475118254454472e301ed3d1413f2edfba31518eee11f3e2362a6c",
+          "row": 2,
+          "sha256": "5d3e3eb4a6993285a4759292e6915472b673288405b754bb58533111563dd350"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 52
+            }
+          ],
+          "expectedRawSha256": "bd4822d93b8d5753c3fbcf60a06edf2e94fa1d8baf35b514610d5b6baa4f2484",
+          "expectedRenderedSha256": "900c189c2ff0445144e346d7ad3e1b06f4ae5f06fbe3f3f7ea09686e92b5c405",
+          "row": 3,
+          "sha256": "1550258cec88b86165d7fefe166b34376ba419857a02a51bf251c1c258ebeec2"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 52
+            }
+          ],
+          "expectedRawSha256": "26a04ecdd673cfd4533522802456b49ad8b334f417ddddcb50a5ed4fe4d07f50",
+          "expectedRenderedSha256": "aeb099436117996a1e68c243a5bccb9e73741cf67e5e149db351024d9920952c",
+          "row": 4,
+          "sha256": "382a235bbdeaec6c387da834cdbe3ccf9a2476dc4daa48b8e5b2049a8333a9cf"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 68,
+              "start": 52
+            }
+          ],
+          "expectedRawSha256": "ec01b1363b7e310225137433b528666b318119c94d5682c97acb9f925159ad53",
+          "expectedRenderedSha256": "e43e0b16224fe06553aa85537ab0d097ddd207e9ba416dca7da8fea092851d9e",
+          "row": 6,
+          "sha256": "abde24c2fadb27ab786272d9168dc59e1aa2a0634cfed6eee96fead827da0470"
+        }
+      ],
+      "file": "16c-raid1194-gd-nglnd-part01.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 45,
+              "start": 40
+            }
+          ],
+          "expectedRawSha256": "f45860effed247b1510fce23f7307323d7ec4eee9c4c8d739f60d0a2dcbdb5e1",
+          "expectedRenderedSha256": "d1c703239b36c9fdd6eac8b4c945b3269812d02cf2de2c3e531e2f33095fce16",
+          "row": 35,
+          "sha256": "2fe259acbdd734920f4400cb186c213cc34d8fd36018ddfcabad411ca5f4046a"
+        }
+      ],
+      "file": "16c-riot0897-md-colly-part01.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 70
+            },
+            {
+              "end": 78,
+              "start": 77
+            }
+          ],
+          "expectedRawSha256": "a4f9838c69b3d364b538dcff2dfa881303e2ec5cdf611ac712fee6ca18b6d02a",
+          "expectedRenderedSha256": "e61683566c85df5195d324637d02fe8da27d6f919e06335acd80d6ab2ac95335",
+          "row": 2,
+          "sha256": "01f1f3d0daa1aba7306d6b5e638f2c45e5c63df5699c5e46c6ee3fbd7d17864d"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 79,
+              "start": 69
+            }
+          ],
+          "expectedRawSha256": "eaf4a4414e4209062aefe1c3fd97369e9177213d6cdbeceaf37a2b7c577e89d6",
+          "expectedRenderedSha256": "c6787627ded048c2407660de26d5292995bc10592d07f60a9ec446dfafdf1cce",
+          "row": 3,
+          "sha256": "2a42adb0602d295afa189a2b34fff500781b9c620aa7bea139bb5b3dc9d216d3"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 71
+            }
+          ],
+          "expectedRawSha256": "1df65396c3f98a646e9156a9db9ff62962df006d29f31c5b72f746f7e34590c2",
+          "expectedRenderedSha256": "56ad20de5808656025ef2245aa1c1be448395e2fa2b83a2ca7762b6fc9ed97af",
+          "row": 4,
+          "sha256": "ac38f935e7e6bcb8e6d8d6106ec0bfc418de754bd3949b923b4e8c1e39f0c9ce"
+        }
+      ],
+      "file": "16c-sac1294-rs-sac1-part02.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 28,
+              "start": 22
+            }
+          ],
+          "expectedRawSha256": "08acb766c3eb5956bbe5c03be70eb2bdfd14d6c2f46ce6fe835352d77a65ca19",
+          "expectedRenderedSha256": "0aa4f1243ca08525f68f197ab38d34ec73504e233bf10220bfb2a493f2a15160",
+          "row": 6,
+          "sha256": "5ff75150f0f4ae5ccecae683773f3dc2dd35e9770575398477774f68103cfc40"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 35,
+              "start": 21
+            }
+          ],
+          "expectedRawSha256": "072a1999a4514992fc66b490c4175649c42c31819ca9c4035ae566b2a925efc6",
+          "expectedRenderedSha256": "841b75c1cf4f253fd7b6042c7c750349e3d14cc5c474a08c935394bce3c562a4",
+          "row": 36,
+          "sha256": "88245cc16a97d5098692bfb7009f7dfd18bec8be8e379f561dc61a983402a3b6"
+        }
+      ],
+      "file": "16c-sense24-zv-colly-part06.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 56
+            }
+          ],
+          "expectedRawSha256": "108ba75aacb38495f604af9d11dcab34f532079280e7b5fccfc79119cd03b8f4",
+          "expectedRenderedSha256": "84c9fc81be422bd156a70acfa63901dcb56ec2aaec0f93fa71980d763113586c",
+          "row": 5,
+          "sha256": "af0b4b4930ed392bd991d441cb2257c01c1c9f2a9b1775060541d02b03dc9838"
+        }
+      ],
+      "file": "16c-shv-0195-pd-ei-part01.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 66
+            }
+          ],
+          "expectedRawSha256": "a4921f99febc702c553c6f47dcc64a9010dee52e9acd2019dfc1a7bc013acbf9",
+          "expectedRenderedSha256": "dec14363c01e17d0b4f57da9c197018e49b5df3714f2f3ad638b1a07dace7d15",
+          "row": 15,
+          "sha256": "4853a5b34ef9c0169bea90d38428573b682c6b68a2528d9eecd1d7a395f091fb"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 78,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "830bf300b458f2c196d342d389a805b1d9a9224c661939c8fea01ec5a434ef64",
+          "expectedRenderedSha256": "aa22c0ebda04e69642426ad0c901ddc67b1553a711734f48a9792d58a858044a",
+          "row": 16,
+          "sha256": "6f3632d85eafa77a7243f5a7c007df7aa62bf287a9225f357ef982c92c7a718f"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 78,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "693fb4d870d2d7a0ef7685043caa4ee973eefcd10609c9c728d52d5f537cd347",
+          "expectedRenderedSha256": "bae85433d634a8ddea4d3f08ca1de7d4370fbdedf6a731a25afa60f9c6dba7f8",
+          "row": 17,
+          "sha256": "fcacd01432533fe2dd09d9532620afabf0955a7e26b6147a0a9aaafd6e164458"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 79,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "30f2903bc972fc2b3ece5e477d454d2d6c0c5af390945c7aba388fdb0f67aa5e",
+          "expectedRenderedSha256": "d7105c2b325073724ea199f882b12ce504fc183abece4280f40ea4ad5ad70a21",
+          "row": 18,
+          "sha256": "a46ce33dad34e607cb96ba1ab68d9248305fd6acd857cecfd058538787d2985c"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 78,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "a16d5790120883bbbfdb0cee137fcddd736004ccb76c6c9ef1f8d0ee7d1ea75c",
+          "expectedRenderedSha256": "50581a6edce6b73922d5c1e7cdb7ccefbc838b5de911396a0289391360387f45",
+          "row": 19,
+          "sha256": "0c44ce1d801ddcfd21ce97116601f25d65abb9837545149eed34c093ee935808"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 80,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "592ece9a353397dd15ce57438c89d1af359a975c8e1ee364ce809b33197d356f",
+          "expectedRenderedSha256": "79cb9de74794f8fa569780b146ccc6aa38e4d96aecbe137df0f8fee21e7cced7",
+          "row": 20,
+          "sha256": "4e11fd46a4f01d897602ebd5d4e69ff95eeee5f1850f362816d945287ad33295"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "02eb42348bc836522ed5a4ad04749e8755a30b613a0fde6fcbbe39a320f65954",
+          "expectedRenderedSha256": "ee9bb602d378af718066b4f3c2e7b9a4f7fe5b5ffb8f634e89d1a516120866c8",
+          "row": 21,
+          "sha256": "ade34220446149ff0f2ccab0acb4cd60424ae5a0d62c660b63e773d096b5e64b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 78,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "2ed0a4265888d91562abae7962c82af3ed4d829f86eb8a3931fe9a6a1a791256",
+          "expectedRenderedSha256": "9609dd1d5d6aa5c0cb66eeb808d2c2b2f3c8ef3932dedf6181b19c437e506cb0",
+          "row": 22,
+          "sha256": "c2599cf0fdc7b83e37364b637548809681a319f4e77bfcd44fd2b7a51c92218b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 80,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "a19cce097c3f01f230a2669055727d586ec126eb7f1101440c2192dc744d2f4b",
+          "expectedRenderedSha256": "da703b8f09251c1f7686e693f950e12405bd8321bc18c3eb67860c752401675d",
+          "row": 23,
+          "sha256": "a939b89493e604dc517b92495826225511c6e02a857fcdda4ff98e6baf5b9bf5"
+        }
+      ],
+      "file": "16c-shv-0595-om-tpc9-part01.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 23,
+              "start": 11
+            }
+          ],
+          "expectedRawSha256": "d8b3dde44dcfc913df1f7b3c168ae275619aaad1699bb90e084fcbbbf2c276d0",
+          "expectedRenderedSha256": "658f7be314de42708aa3ff57ab60a3f97af1aae407e72c8e5f85a05d689c8caa",
+          "row": 15,
+          "sha256": "642aa18aa6f71bfa607ef6fc8da330df1e0594cc27719fec52e19db75d9fd4db"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 23,
+              "start": 11
+            }
+          ],
+          "expectedRawSha256": "b2b2a629778d313e6e3be38fd19aae27b12aa93b5edb057f22d7dc1661476c5f",
+          "expectedRenderedSha256": "4fedc845ae7d693c7cb13820b1580b811e5e96d3a054f95abdf059a6b705309a",
+          "row": 16,
+          "sha256": "4c009eedb00cc51eb413464e991aab24d0cb3e8c48b4dcbde6fc0ea09011ee55"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 20,
+              "start": 13
+            }
+          ],
+          "expectedRawSha256": "fc6e3d96867f23fdb28351c759a091e0a8f314e10414e2befaef3ddf4701d322",
+          "expectedRenderedSha256": "689bec0a523789a04156319241dd2169b9adf4386e6e362014de948826806486",
+          "row": 17,
+          "sha256": "22223a580dae5c201c2e5e5c840552759a5bdb74eb2ba8714741689cea230290"
+        }
+      ],
+      "file": "16c-spr-04-mst-frl.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 43,
+              "start": 38
+            }
+          ],
+          "expectedRawSha256": "a69c0cb07e2c008349ecc2266a1cb3c3e89038c1e6147d69252739545cc8ac5c",
+          "expectedRenderedSha256": "d6e9e03a40c1d7949ae47ec86f29eb524bae302557c4a034ebed8fdc2aea914e",
+          "row": 3,
+          "sha256": "93a1afbcb603f52bac7e7e7ad0dbe767cf605b23b04bed1d16d12f63c905696b"
+        }
+      ],
+      "file": "16c-stx0694-dy-crypt-part03.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 62
+            }
+          ],
+          "expectedRawSha256": "5fd23c5ccc947dda6f6422d16687002d897df7badc65774dd5a325363e66f9ad",
+          "expectedRenderedSha256": "9e464cf5e382707de2f6fb2ee0ef73a6ad738e356ccb1cb11a50607b2b0bbf86",
+          "row": 5,
+          "sha256": "79cbfa5fbb0077c3ef95573382c3574073828bbec5624c10eabf96c67cab0e12"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 62
+            }
+          ],
+          "expectedRawSha256": "7096bbeab1c117281ecb274dba61ea69e23e3229f9b990c37344369731628cee",
+          "expectedRenderedSha256": "26555bc8c06b996fa0b9698d4f3fdf8b70f8a361665f0134f77426ee35f39537",
+          "row": 7,
+          "sha256": "9efa71c22a4f44ea70c5e69dca10142cae5ad51c798a8fe2f80f1751f3239471"
+        }
+      ],
+      "file": "16c-tl199503-db-tl1.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 54
+            }
+          ],
+          "expectedRawSha256": "3f401d758516671ef565cbf9f0bd59ad47fc84b8b574543b8263dee5f295f4a5",
+          "expectedRenderedSha256": "63194a2fab62871fb804d91571689f7193a1f29c0877817abcf54aaac808a282",
+          "row": 4,
+          "sha256": "09b61605c2886e64c6211d8d62ced930bf2a14ede0d1fe37cda5e789d03203cf"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "b996125fa1c83cae60615897e7b4824dcedcfec18933e044438822ef4178a1da",
+          "expectedRenderedSha256": "f055ed94a7dfa9ca8679a2d570b2ea05bef2d57b6b921d45f91db192678985ea",
+          "row": 6,
+          "sha256": "73f0ee31861160f6f3cd1de07c94e27ee4ecfc6222ae49985aff2c02b20eecf2"
+        }
+      ],
+      "file": "16c-toon0995-ot-st-part01.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 55,
+              "start": 49
+            }
+          ],
+          "expectedRawSha256": "1b612d97dc90ec0b92a3136ac0206e24335397c80406866f3409772cd56f8b3d",
+          "expectedRenderedSha256": "393e809146a958b67ab4b48d4f6f5d99d0a12bcc7a872065b9b5d456f3ac55fb",
+          "row": 4,
+          "sha256": "35fdfa3b01bb1fb3bd8dbc7011b2f8ee0c3dfb22c56d8eed98a789c5c2d704a1"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 55,
+              "start": 47
+            }
+          ],
+          "expectedRawSha256": "87730f7679602e5ab26f2cfe4378f5dd34f910fce5be935909fb2b219db37211",
+          "expectedRenderedSha256": "e286a1df290be90f844488505f43db4dd2447acd4cf706fa4ac4e8c4a7009196",
+          "row": 5,
+          "sha256": "421761f98aae15f6ed3209e394c46df3f1a11fc1eedcf32c1e7b4610df77a4b2"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 55,
+              "start": 47
+            }
+          ],
+          "expectedRawSha256": "6be6dc7eba8ea50e9bf69f0924f64bd6479ca0522ee4d222b76cc4991c9d561c",
+          "expectedRenderedSha256": "aae453c484185d581a8d3a17e31d9e9acb617b6b6533b054df5d37f06d99226c",
+          "row": 6,
+          "sha256": "56dd21bbbb7121c87a6c97884edb8f2125870a6a9f23ce857bc4d9c9dcefde67"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 55,
+              "start": 47
+            }
+          ],
+          "expectedRawSha256": "a4b6c92faca1c6648ccc650a98dcb291761e6464fab45d07f44fd08dab99d18f",
+          "expectedRenderedSha256": "c3051482b3cebc1aef23aa68e469dcfb322fb7e1dfee487c244b7e644dc86de2",
+          "row": 7,
+          "sha256": "6d7aad59e3c95c527a24c3e1d6af163be20001b0e9e63b8a2916bcb60f2c7bfe"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 55,
+              "start": 47
+            }
+          ],
+          "expectedRawSha256": "1ba4a3f4e48b4299263bf5b4815289b31af1ff7a6b786fc61b8ca9970db4ec84",
+          "expectedRenderedSha256": "f5d53520c719bed8a2f0887f9d94885bf566c071ee9c57fd5941f1159429bced",
+          "row": 8,
+          "sha256": "148c71c530253df9147d2cef16d5038a9789a74d89d7cb14dd60011c172b291f"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 55,
+              "start": 47
+            }
+          ],
+          "expectedRawSha256": "13a3121175a2e7ca9d2685cbbd3eb7504390277c8ae3549b30d74daa6ec28915",
+          "expectedRenderedSha256": "81d2bbe118ef26e22af274574cca1ec4a699a5b2e6720b69b3e317af61521993",
+          "row": 9,
+          "sha256": "9096325f6c631f9c60370040d812c8ef5208267c3e9b7e436554b8491fe035bd"
+        }
+      ],
+      "file": "16c-uni-0495-pb-ravnt-part01.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 80,
+              "start": 70
+            }
+          ],
+          "expectedRawSha256": "c05d9c3bf4f27adfbb3f6ad430ed7d3c649e6d027f22bc6ef147f9af5ae4a83b",
+          "expectedRenderedSha256": "52d61b620636c5c22c8301e2412b2373ec5708c38789d3badd37be9bca6a8d9e",
+          "row": 26,
+          "sha256": "7d8aec268dc74491af5f5ecb6c816f1be1e020aff88639f67d59bfaa25e3f44a"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 70
+            }
+          ],
+          "expectedRawSha256": "8df7cc9895d1ab6926798d3227931cdc3cd87794c912046c816224fd90f80e16",
+          "expectedRenderedSha256": "3cec78b7ccfe502f8ae71abacb795f6ebdfcd39287145921ede37367d65b2c46",
+          "row": 27,
+          "sha256": "6faf86dab76052fe538198df0484ceae65cf3f92f94c1d3586e90975764419e5"
+        }
+      ],
+      "file": "16c-uprise05-zm-upris.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 69
+            }
+          ],
+          "expectedRawSha256": "b97050b0be527e880fe4ddb28b53132b7412f98d4e0d64a8d2c8079eb5a108fe",
+          "expectedRenderedSha256": "30a5b3a3afd2d2ad8b5b8f7afded2492dd072c09f5a80a13685315a8028243fa",
+          "row": 2,
+          "sha256": "ba465d5d13d0c51b1a4393b4f1fd104e8f90b20515cc55288d99c070c2ce5a10"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 69
+            }
+          ],
+          "expectedRawSha256": "6d24c86905ab26cb0a22be05f0c210d2eaf4e1420edc59b9569bc41d34bc15fa",
+          "expectedRenderedSha256": "2f7014b2cc505f09a7e9998107ffca194568c92ac6fe218ca37e8f2cb2cf840c",
+          "row": 3,
+          "sha256": "ef3c926bb34e21200d4a69f4b60e44e38442e80205fe7b388ad8e5140dc47749"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 69
+            }
+          ],
+          "expectedRawSha256": "9968f9d00a33e9ce2b257ae763ca0fa3224df1e0a796c49e871279696b6ccaa3",
+          "expectedRenderedSha256": "0793d20eb87633d992645e74134386635a1b48eab057e4356f9960141371bcf6",
+          "row": 5,
+          "sha256": "630fff51a79a394bba757dca68b14b443ded23b608c9edb4d15dec5a7abed143"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 78,
+              "start": 69
+            }
+          ],
+          "expectedRawSha256": "e42fc4350cc66d92163f65e7646b978a3bebdea3fac0e42083f8ddf0f48713e3",
+          "expectedRenderedSha256": "ab2c74543e790eb0a7ea68b19ae0087aeaeeaea3746d33f2ad2e2566ab833255",
+          "row": 6,
+          "sha256": "393a291fb8fd311acf13be75c40a9b30641c2f7cb1423de546ba34e60830fd16"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 74,
+              "start": 69
+            }
+          ],
+          "expectedRawSha256": "a621049a9550ed4c3ae97f60f7258fabaa1ce00bab18c81cc66c2795c4fae847",
+          "expectedRenderedSha256": "de0e54faf4a1563d7268a03e23536ad9ecda5399dcaea08de7ee922e6ccc1c81",
+          "row": 7,
+          "sha256": "ed9a54fe40116d2fe1abc6bad2e99911bc7f7c11d94384c21cb5614fc74a6ec9"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 69
+            }
+          ],
+          "expectedRawSha256": "dc78047076807030ef2c3d917dd067d3d1af30c682144114b96a6dc430a79d95",
+          "expectedRenderedSha256": "ec7d67955ffd67cf1647eb3b33e4eed46069594a9da0066047d8aeea0cb6ddbb",
+          "row": 8,
+          "sha256": "127e5413b7929d99f12248b8a4157fa76c97b2380162fd8dc33799e906fbc436"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 80,
+              "start": 69
+            }
+          ],
+          "expectedRawSha256": "5f96d4d281e56a6ab3b3880d6dde19bf59501d2bfc52229a1393c1d8f1383401",
+          "expectedRenderedSha256": "c2b9dc7a6f2e1ac98c5bef2628f0c5ef4f528fcdcc10e0cde837a00684d710fb",
+          "row": 9,
+          "sha256": "74e240f775d5b707a891f2b8ec47e508b6c209d747b44044a2f979753636b35d"
+        }
+      ],
+      "file": "16c-vpr-0595-sh-vice2-part01.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 58,
+              "start": 52
+            }
+          ],
+          "expectedRawSha256": "a56bb4c8fb56361e6c4c6e906d6931927e5c634344331e640b72e3d921cb3327",
+          "expectedRenderedSha256": "29b3f00959f107487c6e634c6cedc3e79172633842c358d98163d16f9d576cda",
+          "row": 8,
+          "sha256": "838ab0c9913e6e5bf5ded8cb8e4662807f77f065f06573851e4229bf0c6cc664"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 69,
+              "start": 41
+            }
+          ],
+          "expectedRawSha256": "cd93dab11162d8f615919c6d7272bf8d15891a075c3394d0b6b5117275a755a2",
+          "expectedRenderedSha256": "4c3101bd335dd7ecfb60b6474a09a6cd5a8ca7348391dd52006213bd6d3aeec1",
+          "row": 9,
+          "sha256": "f095436b57f3046bef20ccb379556c9cc88695f69aa2e137aff4d66a71185305"
+        }
+      ],
+      "file": "16c-vpr0695-sd-vpr-part01.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch65-detached-greeting-request-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 40,
+              "start": 35
+            }
+          ],
+          "expectedRawSha256": "ee38dafb3b5227b5a2033b7da8679944ef57b4cd1dc85c52c895ff40c4b0fc37",
+          "expectedRenderedSha256": "782a34cff47e99a2fb456394f60889fb5e9d77e0ce4753f4e7adaa79769c0fa6",
+          "row": 2,
+          "sha256": "1906f3da8c9f814c1fb3b9aae602fe133c4e4c65932cf579408ddc8e491fbdfe"
+        }
+      ],
+      "file": "16c-xide0495-vn-xide-part02.ps1",
+      "rationale": "Complete-payload, cue-family, neighboring-row, and historical-ledger review proves each selected span is a separable greeting list or detached request, freebie, date, provenance, or production note. Titles, artist and group signatures, attribution, dedications, authored dialogue and captions, functional menus, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch65-short-cues.json",
+        "temp/text-blanking-continuation/batch65-strong-cues.txt",
+        "temp/text-blanking-continuation/batch65-low-cues.txt",
+        "temp/text-blanking-continuation/batch65-shortlist-full-context.txt",
+        "temp/text-blanking-continuation/batch65-greeting-context.txt",
+        "temp/text-blanking-continuation/batch65-history-collisions.json"
+      ]
+    }
+  ],
+  "normalization": "SHA-256 of UTF-8 visible terminal-cell rows after ANSI-control removal and outer-whitespace trimming. Every accepted row pins exact raw projected and rendered hashes plus one-based inclusive blank-column ranges.",
+  "pendingInputs": [],
+  "policy": "Fail-closed review of short residual cue words in every static color-script payload. Accept only bounded greeting-list copy or separable request, freebie, date, provenance, and production metadata proven by complete-panel and historical evidence; retain titles, identities, attribution, dedications, authored dialogue or captions, functional interfaces, structural text, seasonal greetings, and ambiguity.",
+  "priorRedactionExtensions": [
+    {
+      "coordinates": [
+        "16c-nph1097-hrc-dtc.ps1:2",
+        "16c-nph1097-hrc-pms.ps1:2",
+        "16c-nph1097-hrc-xgj1.ps1:2"
+      ],
+      "ledger": "AnsiResidualMixedTextReviewLedger29.json"
+    }
+  ],
+  "priorRetentionSupersessions": [],
+  "reviewedAt": "2026-08-01",
+  "schemaVersion": 1,
+  "status": "ready",
+  "summary": {
+    "acceptedDetectorCues": 72,
+    "blankColumnRows": 129,
+    "candidateFiles": 69,
+    "candidateGroups": 69,
+    "categoryRows": {
+      "batch65-detached-greeting-request-and-production-metadata": 129
+    },
+    "changedCells": 1437,
+    "detectorAcceptedRows": 72,
+    "detectorFiles": 327,
+    "detectorRows": 403,
+    "familyExtensions": 57,
+    "parseFailures": 21,
+    "retainedDetectorRows": 331,
+    "staticFiles": 24801,
+    "evidenceRows": 129
+  }
+}

@@ -1,18 +1,4 @@
-﻿# Converted from: ANM-LOGI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/scum-01/raw/ANM-LOGI.ANS
-# Source Revision: archive-sha256:f61df56833f319ce1eda97ac7b98e2dbe1b3360e66311e75841bc42b3bb0d418
-# Source SHA-256: 7b481b57b36e06133537b01707c7ce9ba41fca977b3dd60012d351578cce5205
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ANM-LOGI.ANS by anomite (scum); released in scum-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Matrix-login
-# SAUCE Author: anomite
-# SAUCE Group: scum
-# SAUCE Date: 19970530
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Matrix-login by anomite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-scum-01-anm-logi
 
 Write-Host '
     ▄[1;30m▄▄▄▄▄▄▄▄[0m [32m▀ ▀█[0;1;32;42m▀░[0;32m▀▀▀■ [0;37m [0;1;30m▄▄▄▄▄[0;1;30;47m▒░░[0m█▄▄▄  [32m▀▀████[0;1;32;42m▄░[0;32m█[0;1;32;42m▄■▀▀[0;32m█[0;1;32;42m░[0;32m██▀▀▀▀█[0;1;32;42m░▓▄[0;32m▄▄▄[0m

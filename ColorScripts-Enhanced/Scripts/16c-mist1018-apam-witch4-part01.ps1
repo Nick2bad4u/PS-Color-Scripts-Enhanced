@@ -1,19 +1,4 @@
-﻿# Converted from: APAM-WITCH4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1018/raw/APAM-WITCH4.ANS
-# Source Revision: archive-sha256:4640b189642741640f63d791a65624a377a6e833c336a8c97324805df6a47ba9
-# Source SHA-256: 3bd406f978156e4ba4c127657847fe45156cdf1684bac2684e76556a7e2a2226
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: APAM-WITCH4.ANS by Apam (Mistigris); released in mist1018 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Magika Witch
-# SAUCE Author: Apam
-# SAUCE Group: Mistigris
-# SAUCE Date: 20180122
-# SAUCE Dimensions: 80x86
-# SAUCE Font: IBM VGA
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: Magika Witch by Apam | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1018-apam-witch4-part01
 
 Write-Host '
                                               [35;40m▀█▄[0m

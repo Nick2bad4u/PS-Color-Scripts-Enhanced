@@ -1,18 +1,4 @@
-﻿# Converted from: TS-HB3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy08/raw/TS-HB3.ANS
-# Source Revision: archive-sha256:dddbecd097515d8bc284ea8726046b80b56f2576fe024d98d7a392e98f8d9a1f
-# Source SHA-256: a13a9bf73d1b07b253dc52894d72a829d39193ea4b662e829c4473651a72dc54
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-HB3.ANS by transient (apathy); released in apathy08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hellbound
-# SAUCE Author: transient
-# SAUCE Group: apathy
-# SAUCE Date: 19960312
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: hellbound by transient | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy08-ts-hb3
 
 Write-Host '
 [1;30m  [0m [1;30m        [0m         [1;32m▒[0m                 [1;37m▀[0m      [1;32m▒[0m

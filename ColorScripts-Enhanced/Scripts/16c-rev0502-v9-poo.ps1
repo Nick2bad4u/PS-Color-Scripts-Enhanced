@@ -1,18 +1,4 @@
-﻿# Converted from: V9-POO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0502/raw/V9-POO.ANS
-# Source Revision: archive-sha256:98bfa3cc78c733050b0c647e7e0271e7623e3c31e4f40f218a00b89b2165c771
-# Source SHA-256: e000dd4f633d6fc79d1eed73025edf2021abd31f83e1c2ef7b83ff36740d0258
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: V9-POO.ANS by vade79 (revival); released in rev0502 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: poo
-# SAUCE Author: vade79
-# SAUCE Group: revival
-# SAUCE Date: 20020513
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: poo by vade79 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0502-v9-poo
 
 Write-Host '
 [1m [0m    [1m         [0;1;36m [0;36m [0;1;30m     [0;1;37m [0m     [1m  [0;1;30m▄[0;36m▄ [0;1;30m▄[0;36m ▄▄[0;1;33m▄▄▄▄▄▄▄▄[0;36m▄   [0;1;30m▄[0;36m▄    [0;1;33m▄[0;36m▄[0;1;30m▄[0m           [1m       [0;1;36m [0;36m [0;1;30m [0;1;37m [0m

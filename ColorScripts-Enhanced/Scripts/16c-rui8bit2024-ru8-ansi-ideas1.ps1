@@ -1,19 +1,4 @@
-﻿# Converted from: ru8_ansi_ideas1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rui8bit2024/raw/ru8_ansi_ideas1.ans
-# Source Revision: archive-sha256:f831409d0514660f16a733657a798f4928ef9e3b74e357beca640114940508f6
-# Source SHA-256: 8cb880d36a335c4885e9b138305fdb23fc570d72bc296ed133fc8cfd342bd64e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ru8_ansi_ideas1.ans by Rui8bit (rui8bit2024); released in rui8bit2024 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ansi ideas1
-# SAUCE Author: Rui8bit
-# SAUCE Date: 20260620
-# SAUCE Dimensions: 80x25
-# SAUCE Font: Custom
-# SAUCE Comments: March 1 2024
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: ansi ideas1 by Rui8bit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rui8bit2024-ru8-ansi-ideas1
 
 Write-Host '
     [1m╓[0m                                                      [1m  [0m [1m [0m

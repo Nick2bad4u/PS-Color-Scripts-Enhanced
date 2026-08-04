@@ -1,18 +1,4 @@
-﻿# Converted from: RF-IS3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-03/raw/RF-IS3.ANS
-# Source Revision: archive-sha256:fae30929abb2b921ba96bc7ad0b445be298bbdb28aa42921644d897c08d22f33
-# Source SHA-256: 89ffe17d22ad39bf8f88d5da404a1dac72ffff684618608f8ecb81084d066051
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RF-IS3.ANS by reflexion (0dium); released in odium-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ionosphere/2 chick matrix
-# SAUCE Author: reflexion
-# SAUCE Group: 0dium
-# SAUCE Date: 19960125
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ionosphere/2 chick matrix by reflexion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-03-rf-is3
 
 Write-Host '
    [1;30m▄■▀[0m [1;30m▓  ▄■[0;1;31m ▄▄▄█████████████████████████▄▄[0m [1;30m ■▄■▄[0m      [32m ─────────────────[0m

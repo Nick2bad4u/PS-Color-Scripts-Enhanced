@@ -1,18 +1,4 @@
-﻿# Converted from: MW-TTTAZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nland-04/raw/MW-TTTAZ.ANS
-# Source Revision: archive-sha256:eab686fd42219ed6c9add6a2f7726008adc5ca3e06c5f87a076203c52842513d
-# Source SHA-256: 441e067e96a3fa3c2cb4eca4df42518d1ce43baa2db97457cb9ce6463c40867d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MW-TTTAZ.ANS by MoonWalkeR (ufO); released in nland-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: TiNy TooN [TaZ]
-# SAUCE Author: MoonWalkeR
-# SAUCE Group: ufO
-# SAUCE Date: 19960116
-# SAUCE Dimensions: 80x48
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: TiNy TooN [TaZ] by MoonWalkeR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nland-04-mw-tttaz
 
 Write-Host '
                      [1m▄[0;1;47m█▓▓▒▒[0m▄▄▄▄▄▄          ▄▄▄▄▄▄[1;47m▒▒▓▓███[0m

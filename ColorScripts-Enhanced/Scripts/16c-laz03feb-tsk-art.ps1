@@ -1,13 +1,4 @@
-﻿# Converted from: TSK-ART.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz03feb/raw/TSK-ART.ANS
-# Source Revision: archive-sha256:d402090580beb42f827386e6ac87eabae48765a9dcac692e22ff2b8314efb7a2
-# Source SHA-256: 2060e0732d3702c5ba99baa60060cf9a01698cde1d60681bcb8c9fb36509679f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-ART.ANS by The Silent Killer (laz03feb); released in laz03feb and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: TSK-ART.ANS by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz03feb-tsk-art
 
 Write-Host '
 

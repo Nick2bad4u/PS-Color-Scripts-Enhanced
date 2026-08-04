@@ -1,13 +1,4 @@
-﻿# Converted from: US-CODE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst0397/raw/US-CODE.ANS
-# Source Revision: archive-sha256:270113b0dc287d2000b7b6ec4e15ca8f25fdc0a29ca100fce3b52cae8465f5bd
-# Source SHA-256: ac0df65b1bcb4bf73e14ff19045e90d1d05c93afe6c270da3198b1c3e319d8df
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CODE.ANS by The Ruiner + Profound (twst0397); released in twst0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: US-CODE.ANS by The Ruiner + Profound | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst0397-us-code
 
 Write-Host '
              [36m ▄[0;34;46m▒[0;34;40m [0;37;40m [0;36;40m▐[0;34;46m░[0;36;44m▓▒▒[0;34;46m▓[0;36;44m░[0;34;46m▓[0;34;40m███▌ [0;1;37;40m▀[0;1;37;47m███▓▓▒▒░░░    [0m [36;44m█[0;34;46m░[0;36;44m▓░[0;34;46m▓[0;36;44m [0;34;40m█[0;36;44m [0;34;40m▀[0;37;40m  [0;34;40m [0;36;40m▀█▄[0;34;40m   [0;37;40m [0m

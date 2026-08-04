@@ -1,18 +1,4 @@
-﻿# Converted from: D1_4O.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-05/raw/D1_4O.ANS
-# Source Revision: archive-sha256:9a8be922d1845a782b9897ae82406f49203492d3f9366796ffa94c1b52060165
-# Source SHA-256: ce89717aee2bd20f69d1d3e4a7d31b238eb6fcef335cd4fb616e0d9c659934a1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D1_4O.ANS by Dissonance (Hieroglyphics); released in hiero-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Mr4tune Tribute
-# SAUCE Author: Dissonance
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20001206
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Mr4tune Tribute by Dissonance | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-05-d1-4o
 
 Write-Host '
                [31m▄[0;37m [0;31m▀▀▄[0m      [30;43m▀▀▀███[0;1;30;40m    [0m

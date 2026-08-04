@@ -1,13 +1,4 @@
-﻿# Converted from: grapefruit.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/clear2ooo-ascii-year-lf/raw/grapefruit.ans
-# Source Revision: archive-sha256:dd383b5bee47a74826e2ee2d07d90cd2a401abc53b70a009479dbf2d94c53f24
-# Source SHA-256: da81d41518387b9edad5047961502871405657ab86eebac7a0c7c36abcb0c4d4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: grapefruit.ans by clear2ooo (clear2ooo-ascii-year-lf); released in clear2ooo-ascii-year-lf and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: grapefruit.ans by clear2ooo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-clear2ooo-ascii-year-lf-grapefruit
 
 Write-Host '
 [40m██[0;34;40m███████████████████████████████████████[0;37;40m ██[0;34;40m███[0;36;40m█[0;34;40m████████████████████████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PH-EUPHQ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ane-0696/raw/PH-EUPHQ.ANS
-# Source Revision: archive-sha256:d749d6dfb1aa7099bfe8de2fa9928647cd0fee95bf1e9f28d13d3a4e290eafb8
-# Source SHA-256: 81061410c5a86f9b381a639984b5c13e45f58f4915b338ea86d9f3ea59197cdd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PH-EUPHQ.ANS by Phantax (.;:Anemia:;.); released in ane-0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Euphio Question
-# SAUCE Author: Phantax
-# SAUCE Group: .;:Anemia:;.
-# SAUCE Date: 19960510
-# SAUCE Dimensions: 80x25
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: Euphio Question by Phantax | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ane-0696-ph-euphq
 
 Write-Host '
                                                          [36m▄▄▓▀ ▀░[0m          [36m░[0m

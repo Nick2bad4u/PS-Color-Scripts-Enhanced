@@ -1,0 +1,176 @@
+{
+  "batch": 95,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch95-profanity-and-slurs",
+      "file": "16c-acdu0996-tsk-jizz.ps1",
+      "rationale": "Exact text-only profanity, sexual terms, and slurs.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 8,
+          "columnRanges": [
+            {
+              "start": 66,
+              "end": 69
+            }
+          ],
+          "sha256": "d21b9865406c89890d76afa7de1809c65c3b3098c55c70ff3b745d99f463e2d9",
+          "expectedRawSha256": "e2b77bbecc8f44bda48afbfbe75f64948eee13077f6c590bff7f406b22c38479",
+          "expectedRenderedSha256": "57b36d9f1ee5a7bf80d59460f5280a311c20112a88a22cceef09c2ad044b2c22"
+        }
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch95-profanity-and-slurs",
+      "file": "16c-anger06-pp-xf1.ps1",
+      "rationale": "Exact text-only profanity, sexual terms, and slurs.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 16,
+          "columnRanges": [
+            {
+              "start": 57,
+              "end": 62
+            }
+          ],
+          "sha256": "dfd5b729d204fb4b59dc078412f1fc6afaca386ed47a2d0a67e7c0052a9d4398",
+          "expectedRawSha256": "1ccb4ae6c00836e00a3279957419ce55242f855e47580b66e3ea1289da85843a",
+          "expectedRenderedSha256": "bc206792011a2b9dfdb28f68fe264ac309d1d46ae3971d7b99e1e93716a4d456"
+        }
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch95-profanity-and-slurs",
+      "file": "16c-legend07-bv-jizz.ps1",
+      "rationale": "Exact text-only profanity, sexual terms, and slurs.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 2,
+          "columnRanges": [
+            {
+              "start": 2,
+              "end": 5
+            }
+          ],
+          "sha256": "c18211d6446e4fb340a73b632f2cb71470fbd65dbd81972b8f9115651db1148c",
+          "expectedRawSha256": "bbbae8d4e5ded505470b66cfed15b85eafd166a0a7aeea765b15814668998c7f",
+          "expectedRenderedSha256": "6b25ce12ea0260367ababe6ebb40b7cd1c20a926c3f94ba59a5c45784f8e9f6c"
+        }
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch95-profanity-and-slurs",
+      "file": "16c-purg-29a-tr-rpr01-part02.ps1",
+      "rationale": "Exact text-only profanity, sexual terms, and slurs.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 22,
+          "columnRanges": [
+            {
+              "start": 52,
+              "end": 58
+            }
+          ],
+          "sha256": "92f95a06204d3ac91b3e1d18e9c6e64ca74b6493338260dd424b7517dfbc1c69",
+          "expectedRawSha256": "c734db22823e73e8a730c4f93a2b8436d5196f9036f97d97ad6cf9ff2869eedd",
+          "expectedRenderedSha256": "ba5bd19eaf36489af354fb083255366cccc7de525b9f8d6e02064ea91a8ed615"
+        }
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch95-profanity-and-slurs",
+      "file": "16c-rev0202-mo-elix1.ps1",
+      "rationale": "Exact text-only profanity, sexual terms, and slurs.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 19,
+          "columnRanges": [
+            {
+              "start": 67,
+              "end": 71
+            }
+          ],
+          "sha256": "84762d6e0d27a4651804b51f2389549e982d1cebea668de80463168de34f901d",
+          "expectedRawSha256": "9e6a3efab6d139a1a8d066d6904c2f37335760ecc5e9c3b1dcd6956b8a4986af",
+          "expectedRenderedSha256": "dd1b52c95de1c7f0bcd838e4fdf7fe53e7d3c4eb4492536593196593486e6532"
+        }
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch95-profanity-and-slurs",
+      "file": "16c-sense14j-bm-onlne.ps1",
+      "rationale": "Exact text-only profanity, sexual terms, and slurs.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 22,
+          "columnRanges": [
+            {
+              "start": 9,
+              "end": 13
+            }
+          ],
+          "sha256": "7045850696719638dc151fc046d2960e53914d1bb48ad3982925b347c5fbe369",
+          "expectedRawSha256": "ce8ce30a418526929176cb62042b6fa47cd61b38554d231ffc2340fde6c1e4e3",
+          "expectedRenderedSha256": "76b657eb801d54271b004a31bd763003fe7a8331bddfab611ae5f51cf9439d5a"
+        }
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch95-profanity-and-slurs",
+      "file": "16c-sms-9609-ok-pulse.ps1",
+      "rationale": "Exact text-only profanity, sexual terms, and slurs.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 23,
+          "columnRanges": [
+            {
+              "start": 6,
+              "end": 9
+            }
+          ],
+          "sha256": "c31c7516b2183e379098fc7088b203e42a0ebaea4c8bbb2436814c8de2d3bc18",
+          "expectedRawSha256": "5cc00b708f9033c474f81a0d4551e07debd78c9b34032b669d3d359d72c472b8",
+          "expectedRenderedSha256": "c39195edd233f3954daf8d353072adabbab7f1a728e5d44ed34954606c23bcf7"
+        }
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch95-profanity-and-slurs",
+      "file": "16c-twi-9706-fv-ws.ps1",
+      "rationale": "Exact text-only profanity, sexual terms, and slurs.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 14,
+          "columnRanges": [
+            {
+              "start": 58,
+              "end": 64
+            }
+          ],
+          "sha256": "17b41fbc4f52762bf74996e80db2404b7d1e214370bbb799a061121b35fcde83",
+          "expectedRawSha256": "310ad334080ef78a8acbf31292b8074a2416025478f4e8789bbfb460915cfc37",
+          "expectedRenderedSha256": "da8cfeee13509c05ec3181858b1a74f2f36113d18173da1663f65c9ee53bcacb"
+        }
+      ]
+    }
+  ],
+  "summary": { "candidateFiles": 8, "evidenceRows": 8, "categoryRows": { "batch95-profanity-and-slurs": 8 } },
+  "schemaVersion": 1,
+  "status": "ready"
+}

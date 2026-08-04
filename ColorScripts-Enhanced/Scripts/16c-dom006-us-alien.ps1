@@ -1,18 +1,4 @@
-﻿# Converted from: US-ALIEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dom006/raw/US-ALIEN.ANS
-# Source Revision: archive-sha256:93a6b412f9e9adf4c6092c8d46992a7a1423cd1a7b58c863faad8b32ddf2ce2e
-# Source SHA-256: ef4d297b35821436f7b754cf30bf48ca3ebf026ae3aacb8b076f2da86db934e4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ALIEN.ANS by Anomite + Serone (dominio); released in dom006 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: alien hideout!
-# SAUCE Author: serone and anomite
-# SAUCE Group: dominio
-# SAUCE Date: 19980710
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: alien hideout! by Anomite + Serone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dom006-us-alien
 
 Write-Host '
 [30;41m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m

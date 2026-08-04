@@ -1,18 +1,4 @@
-﻿# Converted from: US-FISH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz02jan/raw/US-FISH.ANS
-# Source Revision: archive-sha256:132672eb521503ab979d6725a75b6f055811245f253b5353290430aa5c4983b1
-# Source SHA-256: 84497c8b5ab78896259ea9a99888aec5b1272112c52ed7e53f41e992fc2ad6b6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FISH.ANS by Hennifer + Rv (lazarus); released in laz02jan and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fishie wishie
-# SAUCE Author: rv & hen
-# SAUCE Group: lazarus
-# SAUCE Date: 19970101
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: fishie wishie by Hennifer + Rv | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz02jan-us-fish
 
 Write-Host '
 [1;34m▒▒[0;1;34;44m              [0;1;34;40m▒▒[0;1;34;44m  [0;34m▀[0;32;44m▓[0;34;42m░  [0;1;32;42m░[0;32m▀[0;34m▄█[0;1;34m▒▒[0;34m▀     [0;37m [0;32m▄▄[0;1;32;42m░░[0;32m▀▀▀▀█▄▄▀[0;37m [0;34m▄█[0;34;42m█▒░[0;32;40m█▀▄██[0;1;32;42m░░[0;32m▀[0;1;32m▀[0m [34m▄[0;1;34m▒[0m [32m▄█▀█[0;1;32;42m▀[0;1;32;40m▌[0;32m▐█[0;37m [0;1;32m█▓[0m

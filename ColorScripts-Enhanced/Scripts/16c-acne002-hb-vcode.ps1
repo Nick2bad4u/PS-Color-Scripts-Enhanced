@@ -1,13 +1,4 @@
-﻿# Converted from: HB-VCODE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acne002/raw/HB-VCODE.ANS
-# Source Revision: archive-sha256:0516eab8dfdc497d78ee69558b1b3fb72f55dc40f3cd8a67a608229e59359299
-# Source SHA-256: 680d4f4a64064057270b48d7cbdb66fc57e6d56258012e7c948ba70803fe6255
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HB-VCODE.ANS by Holybone (acne002); released in acne002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: HB-VCODE.ANS by Holybone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acne002-hb-vcode
 
 Write-Host '
 

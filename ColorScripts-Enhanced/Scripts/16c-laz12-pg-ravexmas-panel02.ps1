@@ -1,19 +1,4 @@
-﻿# Converted from: pg_ravexmas.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz12/raw/pg_ravexmas.ans
-# Source Revision: archive-sha256:a144f6a13f8495aad16f3fcaf95ff5b0bc91807c93dbcb455f2b655b9f9c0dd9
-# Source SHA-256: 9e0c837dba410e36b061649b16ed0dc2bbe1e9c2b09a870b5165420f65323ad4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: pg_ravexmas.ans by pinguino (LAZARUS); released in laz12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Rave Xmas
-# SAUCE Author: pinguino
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20201221
-# SAUCE Dimensions: 160x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 81-160
+﻿# Artwork: Rave Xmas by pinguino | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz12-pg-ravexmas-panel02
 
 Write-Host '
 [1;36;46m░░[0;36m████[0;1;36;46m░░░░░░░░░░░░[0;36m█[0;37m [0;36;44m░░[0;1;36;40m▓[0;1;36;46m▓▓▓[0;1;36;40m█████[0;1;36;46m▓▓▓▓▓▓[0;1;36;40m██████[0;1;36;46m▓▓[0;1;36;40m███[0;1;36;46m▓[0;1;36;40m▓▓▓▓[0;36;44m░[0;1;34;46m░░[0;36;44m░[0;1;30;40m░[0;34m░[0;36m█[0;1;36;46m░[0;36m█████[0;1;36;46m░[0;36m█████████████[0m

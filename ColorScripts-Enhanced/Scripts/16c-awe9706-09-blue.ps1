@@ -1,17 +1,4 @@
-﻿# Converted from: 09-BLUE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9706/raw/09-BLUE.ANS
-# Source Revision: archive-sha256:867680f5fb3c86dcb017d8ed4cd79085881689d65da90056f84aba519ae4bdfe
-# Source SHA-256: 5b1f5f9423f269e2cc4076fd3a353a18cea3a6d66f333c55fd8fab6797791da9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-BLUE.ANS by Fluor (AWE Lettering); released in awe9706 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Blue
-# SAUCE Author: Fluor
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Blue by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9706-09-blue
 
 Write-Host '
                        [1;30m▄[0m                            [1;30m░[0m

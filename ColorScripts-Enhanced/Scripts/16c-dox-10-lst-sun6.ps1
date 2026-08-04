@@ -1,18 +1,4 @@
-﻿# Converted from: LST-SUN6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_10/raw/LST-SUN6.ANS
-# Source Revision: archive-sha256:21def41607bc8f426e6b33cadf0099935014e2da13ee2908faa3303a70532ffa
-# Source SHA-256: 822acbbb78a1ef8e15612d507f83c9c5ee25a996b2ecd75410d59f5728ed3844
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LST-SUN6.ANS by soul trader (dox); released in dox_10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the urban sun part 6 of x
-# SAUCE Author: soul trader
-# SAUCE Group: dox
-# SAUCE Date: 19970613
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: the urban sun part 6 of x by soul trader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-10-lst-sun6
 
 Write-Host '
 [1;30m[0m[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m [1;30m▀[0m [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m [1;30m▀[0m [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

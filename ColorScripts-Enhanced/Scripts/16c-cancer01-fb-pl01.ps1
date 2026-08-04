@@ -1,18 +1,4 @@
-﻿# Converted from: FB-PL01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cancer01/raw/FB-PL01.ANS
-# Source Revision: archive-sha256:1d674e5cb6391162607aaf95710b795f9d6c8bbd06eec06cf5932f93f338c133
-# Source SHA-256: 1d0cffce1900259d73f16aa37a4be48355106ee7cc25b45227ebce553a47e7dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FB-PL01.ANS by Fonebone (Cancer); released in cancer01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Pepperland Matrix
-# SAUCE Author: Fonebone
-# SAUCE Group: Cancer
-# SAUCE Date: 19960308
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Pepperland Matrix by Fonebone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cancer01-fb-pl01
 
 Write-Host '
 [36m▄█████████████████████████████████████████████████████████████████████████████▄[0m

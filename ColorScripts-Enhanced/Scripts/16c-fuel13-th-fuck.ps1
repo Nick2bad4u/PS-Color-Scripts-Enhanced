@@ -1,18 +1,4 @@
-﻿# Converted from: TH-FUCK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel13/raw/TH-FUCK.ANS
-# Source Revision: archive-sha256:570310635bd377c51dda6add80730abba1fa8786bf6aaf423ae20c54dbfdb41a
-# Source SHA-256: d533923bb9c95755f3d91335376b06c7b001ff363d7f41ce5f25ef1d2c318db2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH-FUCK.ANS by Thrasher (Fuel Productions); released in fuel13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fuck method man@#!$
-# SAUCE Author: Thrasher
-# SAUCE Group: Fuel Productions
-# SAUCE Date: 19970530
-# SAUCE Dimensions: 80x46
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Fuck method man@#!$ by Thrasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel13-th-fuck
 
 Write-Host '
 [1;30m    [0;32m     ▐▄        ▄▄[0;1;32;42m░[0;32m▀█[0;1;32;42m░[0;32m███▀ ▄▄[0;1;32;42m▄▐▀[0;32m█████▄[0;1;32;42m░[0;32m▌[0;1;31m▐[0;1;31;43m░[0;33m█▌[0;32m▐[0;1;32;42m░[0;32m█[0;1;32;42m▀▄[0;32m▄▀▀█[0;1;32;42m▀░▀█▄▌[0;32m█[0;1;32;42m▀[0;32m███[0;1;32;42m▀▌▄[0;32m▀███[0;1;32;42m▀▌[0;32m▄[0;1;32;42m░[0;32m▌[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: OX-ANSKI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gbg-ar2/raw/OX-ANSKI.ANS
-# Source Revision: archive-sha256:c13817cb67a4bfd2ae773671d50436cbf39ac310a923ef26548c5637c3b2646b
-# Source SHA-256: 702a11bcf616fbfb17e75e89963a4ed4604684eb7c34af3e1184fae4f7472fe3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OX-ANSKI.ANS by Orcx (gbg-ar2); released in gbg-ar2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: OX-ANSKI.ANS by Orcx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gbg-ar2-ox-anski
 
 Write-Host '
 [33m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$"OX!"$ [0m

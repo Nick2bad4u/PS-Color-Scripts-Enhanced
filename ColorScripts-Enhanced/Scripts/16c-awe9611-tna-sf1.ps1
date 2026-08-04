@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-SF1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9611/raw/TNA-SF1.ANS
-# Source Revision: archive-sha256:2b73e149488dc761d99422832825743596588d59e58f9bfecfb5d0e9dbffd274
-# Source SHA-256: dbab241cf94164fa288bd9170b9d6bba48447cdf1f9b4f771e15ca186d717609
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-SF1.ANS by The Night Angel (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: SkullFish
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961026
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: SkullFish by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9611-tna-sf1
 
 Write-Host '
                                                              [1;33m▄[0m

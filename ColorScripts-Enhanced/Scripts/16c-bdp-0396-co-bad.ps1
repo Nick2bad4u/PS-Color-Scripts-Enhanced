@@ -1,18 +1,4 @@
-﻿# Converted from: CO-BAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bdp-0396/raw/CO-BAD.ANS
-# Source Revision: archive-sha256:fe5366e95d3996c23db1751d58a751cf943c2c7a9334dc99baa85e141a7a16a7
-# Source SHA-256: 24530c94eae424f139558882019a97c6da0e678bafe0cd51e585e5a4be080306
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CO-BAD.ANS by Coeffey (BdP); released in bdp-0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Bad Habit
-# SAUCE Author: Coeffey
-# SAUCE Group: BdP
-# SAUCE Date: 19960223
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Bad Habit by Coeffey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bdp-0396-co-bad
 
 Write-Host '
                                                               [1;30m▄[0;30;47m▀▀▀▀▀▀▀▀█[0m

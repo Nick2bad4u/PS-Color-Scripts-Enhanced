@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-CH4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-1196/raw/OUT-CH4.ANS
-# Source Revision: archive-sha256:93a3f9614fa8f9051df37ef8ac3a215542f098dac3252c255ab4ebfde7fc4534
-# Source SHA-256: 1589aef1dc8807f9ff207af7acf6aba12aed061b065e1b82b2cfc43a3d63bcf3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-CH4.ANS by Sandy Chidester (out-1196); released in out-1196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: OUT-CH4.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-1196-out-ch4
 
 Write-Host '
   [1m▄███▄[0;1;30m▄▄▄[0;1m▄▄▄    ▄▄▄▄▄▄██████████▄▄▄▄▄ [0;32m██[0;1;32;42m▓▒[0;32m██[0;1m▐██▄   ▄▄▄████▄▄▄  ▄██▀▀[0;31m▄▄▄[0;1m▀██▄▄[0m

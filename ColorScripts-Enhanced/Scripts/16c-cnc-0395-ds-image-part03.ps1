@@ -1,19 +1,4 @@
-﻿# Converted from: DS-IMAGE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cnc-0395/raw/DS-IMAGE.ANS
-# Source Revision: archive-sha256:65c9b4b76cd545d5804f47ea52466c6bb38d18dbd927daf92eedc6f2f9d62387
-# Source SHA-256: 07f887d57e494a5d119e1ec27cbec652548b4c52828b8a7ca73e5f4b7568b5f3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-IMAGE.ANS by Dominicus (CaNCeR); released in cnc-0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Image
-# SAUCE Author: Dominicus
-# SAUCE Group: CaNCeR
-# SAUCE Date: 19950220
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: To be... or not to be...? He he... so what ya'll think?  Welp | Maxx... you better like this cause I slaved on this for a | pretty long time! J/K
-# Lines: 85-124
-# Columns: 1-80
+﻿# Artwork: Image by Dominicus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cnc-0395-ds-image-part03
 
 Write-Host '
                            [1;30m ▓▒░  ▄▄▄ ░▒[0m [1;30m▌ ▐▓▓▒▓▒░▒░░▒░[0m [1;30m▄▓▒▓▒▓▓▒▓▄ [0m  [1;30m░░▒[0m

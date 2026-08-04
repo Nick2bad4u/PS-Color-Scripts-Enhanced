@@ -1,19 +1,4 @@
-﻿# Converted from: CJY-HLDFST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/CJY-HLDFST.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: 805acbf97ddb4964baff0c5c43adc156eb4113947b45e04eb3447bc2d51d359d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CJY-HLDFST.ANS by consolejockey (Mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Hold Fast
-# SAUCE Author: consolejockey
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241230
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Hold Fast by consolejockey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-cjy-hldfst
 
 Write-Host '
                         [33m─┐┌───┐[0;37m     [0;33m·.[0m

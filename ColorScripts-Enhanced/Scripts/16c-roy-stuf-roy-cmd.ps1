@@ -1,13 +1,4 @@
-﻿# Converted from: ROY-CMD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roy-stuf/raw/ROY-CMD.ANS
-# Source Revision: archive-sha256:1f203f95f339c258e43a9098f8d2e689ed73de537b1cfe6bea312dfc156f1358
-# Source SHA-256: 4b49a4954e7b8d053e2a475b0dbd35dc0ade96ffb5c086abb82c13df17a24d38
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ROY-CMD.ANS by Roy (roy-stuf); released in roy-stuf and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-9
-# Columns: 1-80
+﻿# Artwork: ROY-CMD.ANS by Roy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roy-stuf-roy-cmd
 
 Write-Host '
 

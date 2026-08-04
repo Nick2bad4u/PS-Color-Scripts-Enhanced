@@ -1,18 +1,4 @@
-﻿# Converted from: T-CRACK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook21/raw/T-CRACK.ANS
-# Source Revision: archive-sha256:a9340bf45277705f38b7b2e8dfe7bc518716b8c419a47ac48708bc33bd40ec01
-# Source SHA-256: e95154da1914f2ff07593cb66949516ab4dc97c979041f08466211a4dc02b3c5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T-CRACK.ANS by toot (black maiden); released in bmbook21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: crack
-# SAUCE Author: toot
-# SAUCE Group: black maiden
-# SAUCE Date: 20000121
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: crack by toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook21-t-crack
 
 Write-Host '
 [1;34mtoot[0m                        [33m▄▄▄▄  ████[0m            [33m▄▄▄▄ [0m            [1;34mblack maiden[0m

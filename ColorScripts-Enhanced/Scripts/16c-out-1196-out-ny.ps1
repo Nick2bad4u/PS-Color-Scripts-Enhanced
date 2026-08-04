@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-NY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-1196/raw/OUT-NY.ANS
-# Source Revision: archive-sha256:93a3f9614fa8f9051df37ef8ac3a215542f098dac3252c255ab4ebfde7fc4534
-# Source SHA-256: f948bd507f0f1583f846873948e1227d8121d6712a9e97c74494e19215432e7d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-NY.ANS by Sandy Chidester (out-1196); released in out-1196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: OUT-NY.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-1196-out-ny
 
 Write-Host '
       [1;35m▄▀[0m                                             [1;33m·[0m                 [32m██ █ [0;1;34m▄▀▀[0;32m█[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: SM-S7.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sys2_03/raw/SM-S7.ANS
-# Source Revision: archive-sha256:008fb7d825e566af77ae54caca44158087d80f399f5293cc1f9b3810d9305879
-# Source SHA-256: 2c48f2c86cc49d6f3f3bfe6c8896c13098d7d06c800abbcbd7d76ead05bf9b39
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-S7.ANS by Smoke (sys2_03); released in sys2_03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: SM-S7.ANS by Smoke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sys2-03-sm-s7
 
 Write-Host '
                                                   ▐[1;47m████[0m▌                   smoke

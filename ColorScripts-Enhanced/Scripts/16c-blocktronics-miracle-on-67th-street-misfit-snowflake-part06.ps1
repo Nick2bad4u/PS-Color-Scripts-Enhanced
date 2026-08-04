@@ -1,19 +1,4 @@
-﻿# Converted from: misfit-snowflake.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_miracle_on_67th_street/raw/misfit-snowflake.ans
-# Source Revision: archive-sha256:7a78b3edd176c6d05feb481522f2c4f3e57721df62292c2b4ce537e855c41ae8
-# Source SHA-256: 1a913ec265c2a92e61bd3b31d872798ad7d25f805000cc338801fc6a11748208
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: misfit-snowflake.ans by Misfit (Blocktronics); released in blocktronics_miracle_on_67th_street and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Bit Sunrise
-# SAUCE Author: Misfit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20161221
-# SAUCE Dimensions: 80x258
-# SAUCE Font: IBM VGA
-# Lines: 216-258
-# Columns: 1-80
+﻿# Artwork: Bit Sunrise by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-miracle-on-67th-street-misfit-snowflake-part06
 
 Write-Host '
 [30m [0;1;34m▄▄▄▄[0;1;34;45m▄▄▄██[0;1;34;40m██████[0;1;34;45m▌▀▀[0;1;34;40m█████████[0;35m▀▀████[0;1;34;45m▐[0;1;34;40m███████[0;35m█[0;1;34;45m▀▀▀▌▐[0;1;34;40m█████[0;35m█[0;1;34;45m▐[0;1;34;40m█████[0;35m██[0;30m [0;1;34m█████████[0;35m█[0;1;34;45m▐[0;1;34;40m█████[0;35m▌[0m

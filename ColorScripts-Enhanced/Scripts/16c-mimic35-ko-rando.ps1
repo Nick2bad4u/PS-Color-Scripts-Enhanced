@@ -1,13 +1,4 @@
-﻿# Converted from: ko-rando.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic35/raw/ko-rando.ans
-# Source Revision: archive-sha256:9f5e7691b25fb0851b52b7425f4fa916a84597a0886488901a9dcc5c04101139
-# Source SHA-256: cbdb49c64e2c5dc0572a3426d070f8c985d1cdbe21fc9636230186e0c4a0fa35
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ko-rando.ans by Konami (mimic35); released in mimic35 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ko-rando.ans by Konami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic35-ko-rando
 
 Write-Host '
 [31m/\ /\[0;37m  [0;1;32mRANDO[0m  [36m/\ /\ /\ /\ /\ /\ /\ /\ /\ /\[0m   [37m/\ /\ /\ [0m      [35m /\ /\ /\ /\    /\[0m

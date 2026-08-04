@@ -1,13 +1,4 @@
-﻿# Converted from: TH_CHRON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sand_1/raw/TH_CHRON.ANS
-# Source Revision: archive-sha256:f764df604ef667960466520143f45021816e5d58fbfa0b396f7e991fe77b8534
-# Source SHA-256: e96ce6b4d75f1e20e2a7b473de467a36f906d56ebc9e3cdf1f2c91c2fe539b4e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH_CHRON.ANS by Tempus Hellfire (sand_1); released in sand_1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: TH_CHRON.ANS by Tempus Hellfire | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sand-1-th-chron
 
 Write-Host '
        [34m▀▀[0;1;34m▀▄▄[0m    [33m  [0m

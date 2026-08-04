@@ -1,18 +1,4 @@
-﻿# Converted from: A-ATL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0697/raw/A-ATL.ANS
-# Source Revision: archive-sha256:08e18940bca34b3567a75953ae0590b0f85d3fbc4d879deb49d9733793875e53
-# Source SHA-256: 8558e26f88b97c6390f820a8782da366f28f8492d1db8245f2d729d96ab340ff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: A-ATL.ANS by alecs (Phat Studios '97); released in phat0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: gO! 4 - atlantis
-# SAUCE Author: alecs
-# SAUCE Group: Phat Studios '97
-# SAUCE Date: 19970528
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: gO! 4 - atlantis by alecs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0697-a-atl
 
 Write-Host '
 [35m           [0;36m▄▄▄███▀▓░[0m                    [1;35m░░[0m

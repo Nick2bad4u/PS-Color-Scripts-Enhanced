@@ -1,18 +1,4 @@
-﻿# Converted from: OB!FSN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0297/raw/OB!FSN.ANS
-# Source Revision: archive-sha256:d5e6767ccf66425c243bc55fc2b60157e4842e0dca350575e42372c154569008
-# Source SHA-256: 379999a2be7f07b392506e17058428d9d7da31bace6eb6461075f571316f389c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OB!FSN.ANS by oddball (fusion); released in fsn-0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fusion logotYp3
-# SAUCE Author: oddball
-# SAUCE Group: fusion
-# SAUCE Date: 19970202
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: fusion logotYp3 by oddball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0297-ob-fsn
 
 Write-Host '
                                                                          [1;30m░[0m

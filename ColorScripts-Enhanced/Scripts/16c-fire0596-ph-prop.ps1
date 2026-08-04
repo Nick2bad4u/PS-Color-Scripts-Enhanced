@@ -1,18 +1,4 @@
-﻿# Converted from: PH-PROP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0596/raw/PH-PROP.ANS
-# Source Revision: archive-sha256:36c941759d451fdd3b8fb831978bf146c114a97ebcdf99a7ed67f1f699b42790
-# Source SHA-256: ce8f891e69a899b95910f27e2504276c4f251e7acb3dc01a6f93c674b7d0a2a9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PH-PROP.ANS by Psychoholic (fire); released in fire0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Propane
-# SAUCE Author: Psychoholic
-# SAUCE Group: fire
-# SAUCE Date: 19960427
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Propane by Psychoholic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0596-ph-prop
 
 Write-Host '
                                                              [1m▄[0;1;47m▓▓▒[0m▄

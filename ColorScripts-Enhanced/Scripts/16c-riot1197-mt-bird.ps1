@@ -1,17 +1,4 @@
-﻿# Converted from: mt-bird.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot1197/raw/mt-bird.ans
-# Source Revision: archive-sha256:42a4ff2f69bb7f52710e2ec33efed1616917289c2c21517459d11ab153763ccb
-# Source SHA-256: 00af200e5f7e0b3d421b77c428d8a0af9dd92c605989ce60c786a7750c10a0e7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mt-bird.ans by Maelstrom (RioT Productions); released in riot1197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: Maelstrom
-# SAUCE Group: RioT Productions
-# SAUCE Date: 19971115
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: mt-bird.ans by Maelstrom | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot1197-mt-bird
 
 Write-Host '
 [32m███[0;30;42m░[0;32;40m██[0;30;42m▒[0;32;44m    [0;34;42m ▄[0;30;42m░[0;34;42m   [0;32;44m███  [0;34;42m▄▄[0;32;44m ▀[0;32;40m███[0;30;42m░[0;32;40m██[0;32;44m▀▀ ▀[0;32;40m█[0;30;42m▒[0;32;40m███[0;32;44m▀▀  ▀[0;32;40m█[0;30;42m░[0;32;40m███[0;30;42m░[0;32;40m██[0;34;42m   ▄▄▄[0;32;44m▄▀[0;32;40m██[0;30;42m░[0;32;40m████[0;30;42m░[0;32;44m ▀▀      [0;30;42m░[0m

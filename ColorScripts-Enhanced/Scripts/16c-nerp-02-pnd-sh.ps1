@@ -1,18 +1,4 @@
-﻿# Converted from: PND-SH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-02/raw/PND-SH.ANS
-# Source Revision: archive-sha256:3fd9f194d865cfc24c90bdf11a27528d8d82a8ba9c376ebed567183a2f95a9f3
-# Source SHA-256: b14b9eb402776f1e52c2822f92ee455b6f8d3ffcbe766db66b4c4813ac6af662
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PND-SH.ANS by pandur (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: stone henge
-# SAUCE Author: pandur
-# SAUCE Group: nerp
-# SAUCE Date: 19971102
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: stone henge by pandur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-02-pnd-sh
 
 Write-Host '
 [1;31;41m▒▒█[0;1;31;47m░░▓▓[0;1;31;41m█▒▒█▌[0;31m▌[0;37m [0;31m▐[0;1;31;41m▐███[0;1;31;47m▌░▐[0;1;31;41m░[0m     [31m▐[0;1;31;41m▐[0;1;31;47m░░[0;1;31;41m██████ [0;31m  ▐[0;1;31;41m▐[0;1;31;47m░▐[0;1;31;41m▌▐[0;1;31;47m▌▐[0;1;31;41m████[0;1;31;47m░░▓▓[0;1;31;41m████▀██[0;31m▌▀[0;1;31;41m█▓[0;31m▌▀[0;1;31;41m▐███▄[0;1;31;40m▄▄[0;31m▄[0m

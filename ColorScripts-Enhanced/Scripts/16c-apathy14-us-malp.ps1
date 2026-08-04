@@ -1,18 +1,4 @@
-﻿# Converted from: US-MALP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy14/raw/US-MALP.ANS
-# Source Revision: archive-sha256:c5547b07ff3d1430b4844962a9bc7b618137779daf38eea1b387904b434fbbab
-# Source SHA-256: 4ecb1af44678daaa411cc52b153056cc6bfe338237cea65aceb13c8229d05ca5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-MALP.ANS by Misfit + Trip (Apathy Studios); released in apathy14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Malpractice matrix
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Apathy Studios
-# SAUCE Date: 19960908
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Malpractice matrix by Misfit + Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy14-us-malp
 
 Write-Host '
 [1;30m              [0m [1;30m                  [0m                [1;30m▀███▓▒▓▒▓█▀▀▀[0m  [1;30m▀▀[0m [1;30m░░[0m  [1;30m░[0m     [1;30m░░[0m

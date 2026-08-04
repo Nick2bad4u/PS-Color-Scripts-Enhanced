@@ -1,19 +1,4 @@
-﻿# Converted from: escape_revengeday.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/revengeday_deadline2025/raw/escape_revengeday.ans
-# Source Revision: archive-sha256:ae32b110876ffe59ef806c93cdb3c0710e52f1aff4219ec0cf3a6ae9ce78af38
-# Source SHA-256: 55a0515a5dfe942c40f031aa1d57d9896c425c7f253fc8f4b8a0e3f2e0809d3d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: escape_revengeday.ans by Revengeday (CORTEXIMPLANT); released in revengeday_deadline2025 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: wip
-# SAUCE Author: Revengeday
-# SAUCE Group: CORTEXIMPLANT
-# SAUCE Date: 20251003
-# SAUCE Dimensions: 80x90
-# SAUCE Font: IBM VGA
-# Lines: 51-87
-# Columns: 1-80
+﻿# Artwork: wip by Revengeday | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-revengeday-deadline2025-escape-revengeday-part02
 
 Write-Host '
 [36m█▓▒░[0;37m       [0;1;30m░▒█░███░░███▒[0m [35m██████████████▓▓▓▓▓▒▒▒▒▒▒▒░░░░░░[0;1;30m▒[0m    [36m░░███████[0;37m   [0;36m░▒░░██[0m

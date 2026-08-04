@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-PLD4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-36/raw/ZIR-PLD4.ANS
-# Source Revision: archive-sha256:43e7d46e56dc094cf8502b299dcd82ee875dea0a064a36248f4e6c844180fd25
-# Source SHA-256: 3f64cccf622c98d694d017eee00cbd1bd99905060be555b79f5f02e429aad1c3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-PLD4.ANS by zir (FiRE); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: polanada
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20230303
-# SAUCE Dimensions: 80x90
-# SAUCE Font: IBM VGA
-# SAUCE Comments: in the mysterious distant nation of polanada, | one can endulge, round the clock, to their full contentment, | on the finest windows, doors, and windoors in the known world.
-# Lines: 41-90
-# Columns: 1-80
+﻿# Artwork: polanada by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-36-zir-pld4-part02
 
 Write-Host '
                                                                          [36m░░░[0m

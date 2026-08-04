@@ -1,18 +1,4 @@
-﻿# Converted from: NOH-FE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0597/raw/NOH-FE.ANS
-# Source Revision: archive-sha256:77e5528a945f670ea04f743fe66c6a4dc19b897ad7883b4458eeee0528f25975
-# Source SHA-256: e1c3096374119b54124bde178778251480e85d4c98524283ce2886c83956d7fb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-FE.ANS by nOah? (Bamboosh); released in bmb-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fallen empire menu...
-# SAUCE Author: nOah?
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19970415
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: fallen empire menu... by nOah? | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0597-noh-fe
 
 Write-Host '
 [32m▀█[0;1;37m▄[0m▄[32m▄░[0;30;42m▓[0m    [32;40m▄[0;1;32;40m▄▄▄[0;1;32;42m▄[0;1;37;42m█[0;1;32;42m███▄[0;1;32;40m▄[0;32m▄[0;37m [0;32m▀[0;1;37m▀[0;1;32;42m▀[0;1;32;40m█[0;1;32;42m▄[0;1;32;40m▄▄[0;32m▄[0;37m [0;32m   [0m

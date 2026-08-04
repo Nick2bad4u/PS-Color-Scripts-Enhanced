@@ -1,13 +1,4 @@
-﻿# Converted from: TG-SER1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9501/raw/TG-SER1.ICE
-# Source Revision: archive-sha256:11505df9cbb4046b5d3b5eec267bf894e7e973683094a4e78d879efbf7a9364a
-# Source SHA-256: ffb59db82d0080cfda4fe5c273a409e4e73b044a9dd0594bbcfd00189aeab165
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-SER1.ICE by Toon Goon (ice-9501); released in ice-9501 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 74-113
-# Columns: 1-80
+﻿# Artwork: TG-SER1.ICE by Toon Goon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9501-tg-ser1-part03
 
 Write-Host '
 [32m█████[0;1;32;42m▀██▀█[0;1;32m▌[0;34m▐ [0;34;41m [0;1;33m██▀▄[0;34m▀██[0;34;46m▀[0;1;36;46m▄ [0;1;34;46m▀[0;1;34;44m▄[0;34m██████[0;1;34;44m [0;1;34;46m█▄[0;1;34;44m███▄▄[0;1;34m▌[0;1;30m▐▌[0;1;34m▐[0;1;34;44m██▄▄[0;34m███████ [0;33m█ [0;32m▄█▄[0;1;30m▀██ [0;33m█ [0;1;30m▀[0;32m▄[0;32;42m [0;1;32;42m▐███[0;1;32m▌[0;34m▐████[0m

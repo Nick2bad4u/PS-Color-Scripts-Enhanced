@@ -1,18 +1,4 @@
-﻿# Converted from: PYX-SC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-1196/raw/PYX-SC.ANS
-# Source Revision: archive-sha256:ea255d5404a293fd28c5348aeea6d132b83dc51aad0630d7773e1cb9fa7be562
-# Source SHA-256: dfc24d149c6b3ddfbf6f921ccd0cecd7388cb6aea7f33bb84b0c41cc203a6a82
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-SC.ANS by Pyx (Bamboosh); released in bmb-1196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Slam City
-# SAUCE Author: Pyx
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19960919
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Slam City by Pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-1196-pyx-sc
 
 Write-Host '
 

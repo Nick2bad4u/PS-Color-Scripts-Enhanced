@@ -1,18 +1,4 @@
-﻿# Converted from: IM-LI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0495/raw/IM-LI.ANS
-# Source Revision: archive-sha256:5c1b487f172d9b21547c289d0c6d77076f08925ed05d67b00c73baffeedf66f4
-# Source SHA-256: 9c692dfc977017d84bf0f41214cc87b41134ae1386e953d7fb21ef0f97ccc13e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IM-LI.ANS by The Image (READ THE INI FILE); released in uni-0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Lethal Injection
-# SAUCE Author: The Image
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950403
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Lethal Injection by The Image | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0495-im-li-part01
 
 Write-Host '
 [1;30m[0m[1;30m[0m[1;30m[0m                     [1;36m▄■[0m                                                   [1;33m [0m

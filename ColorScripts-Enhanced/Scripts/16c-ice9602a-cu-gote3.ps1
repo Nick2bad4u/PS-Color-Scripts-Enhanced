@@ -1,18 +1,4 @@
-﻿# Converted from: CU-GOTE3.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9602a/raw/CU-GOTE3.ICE
-# Source Revision: archive-sha256:a7cb032b47574ac80269aea88d994085abecd77228955f55ef8d0e5338bc0184
-# Source SHA-256: 9bc069fd9bbc889d8e31ffe6c32e2a277ba4b59019feb740fe530c968d7446e7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CU-GOTE3.ICE by Cold and Ugly (iCE); released in ice9602a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Gothic Error
-# SAUCE Author: Cold and Ugly
-# SAUCE Group: iCE
-# SAUCE Date: 19960223
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Gothic Error by Cold and Ugly | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9602a-cu-gote3
 
 Write-Host '
  ▀   ▀██████▄▐█   ▄                 [32m▄[0;1;32m▄▀[0m          ▄▀   ▄

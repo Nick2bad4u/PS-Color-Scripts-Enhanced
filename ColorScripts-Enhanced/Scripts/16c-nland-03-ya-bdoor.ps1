@@ -1,18 +1,4 @@
-﻿# Converted from: YA-BDOOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nland-03/raw/YA-BDOOR.ANS
-# Source Revision: archive-sha256:7ddb21e455f18ac13bd1d0242ad29db8419e3ff5847d9aa5ea635b533172de76
-# Source SHA-256: 68cd4a66ac44d0f93e22f7746fcebae6bd6532b37ceb6ce7cbed7623f8f22a8e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: YA-BDOOR.ANS by Yasop (NeveRLanD); released in nland-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Brain Door BBS
-# SAUCE Author: Yasop
-# SAUCE Group: NeveRLanD
-# SAUCE Date: 19960111
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Brain Door BBS by Yasop | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nland-03-ya-bdoor
 
 Write-Host '
                [1m▄███▄[0m      [1m▄███▄[0m       [1m▄███▄[0m     [1m▄[0m     [1m▄ ▄▄[0;1;47m▒▒░░[0m▄

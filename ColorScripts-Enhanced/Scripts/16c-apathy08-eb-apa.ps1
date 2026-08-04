@@ -1,18 +1,4 @@
-﻿# Converted from: EB-APA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy08/raw/EB-APA.ANS
-# Source Revision: archive-sha256:dddbecd097515d8bc284ea8726046b80b56f2576fe024d98d7a392e98f8d9a1f
-# Source SHA-256: edf14181a9876889846ba98f07fc039475b779e3aa408c23633fd599749cc841
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EB-APA.ANS by Eiht Ball (Apathy); released in apathy08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Apathy logo
-# SAUCE Author: Eiht Ball
-# SAUCE Group: Apathy
-# SAUCE Date: 19960324
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Apathy logo by Eiht Ball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy08-eb-apa
 
 Write-Host '
                                                                [1m░[0m

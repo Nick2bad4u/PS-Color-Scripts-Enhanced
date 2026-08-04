@@ -1,13 +1,4 @@
-﻿# Converted from: N4-PLAZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pang01/raw/N4-PLAZ.ANS
-# Source Revision: archive-sha256:24a47d3a6396232434bffa2e1615955141cf762e5fd721c02b6ad40f81a7def7
-# Source SHA-256: 014c37772a467889356933330b1e537d950cbb8269ddf954a5bfcbb394df172d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N4-PLAZ.ANS by Natureboy (pang01); released in pang01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: N4-PLAZ.ANS by Natureboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pang01-n4-plaz
 
 Write-Host '
                                                        [33m:_____[0m

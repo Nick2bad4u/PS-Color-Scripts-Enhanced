@@ -1,18 +1,4 @@
-﻿# Converted from: RG-THO13.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ra-pack4/raw/RG-THO13.ANS
-# Source Revision: archive-sha256:7a1773e400497148454b73dfd3570ae1dd6aead33853705516a55c83d698603e
-# Source SHA-256: ba12cf4f2e6187ed0d7d50428376e2225ae9659b36105815f00b10026e10597d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RG-THO13.ANS by Rage (rebelart); released in ra-pack4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the house of madness #13
-# SAUCE Author: Rage
-# SAUCE Group: rebelart
-# SAUCE Date: 19980415
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: the house of madness #13 by Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ra-pack4-rg-tho13
 
 Write-Host '
 [30;41m  [0;31;40m████████████▀█████████████████████████████████████████████████████████████████[0m

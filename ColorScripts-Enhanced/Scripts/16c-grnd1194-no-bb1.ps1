@@ -1,13 +1,4 @@
-﻿# Converted from: NO-BB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/grnd1194/raw/NO-BB1.ANS
-# Source Revision: archive-sha256:a46351645581e540e2e9a58eed61604cab2bbdc718b54c2120d2704a9fc83974
-# Source SHA-256: dee4ea0b1b4c568e73bc159af95cc3543202ac9ab39d773bfc611f0ddd8b1912
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NO-BB1.ANS by Nosferatu (grnd1194); released in grnd1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: NO-BB1.ANS by Nosferatu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-grnd1194-no-bb1
 
 Write-Host '
 [31m[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: CK-REL1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9504a/raw/CK-REL1.ICE
-# Source Revision: archive-sha256:7e06a69e8d7baf8133687f2e7b917774996272e1a0f23faaff663b1fe4e44657
-# Source SHA-256: 89e5ab7c0b3492f47e54f7fe153004a02736bf30507e1fe22af0359fb9ab8f28
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CK-REL1.ICE by chromatik (.ice%prod!1995.); released in ice9504a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: release.
-# SAUCE Author: chromatik
-# SAUCE Group: .ice%prod!1995.
-# SAUCE Date: 19950423
-# SAUCE Dimensions: 80x25
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: release. by chromatik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9504a-ck-rel1-part01
 
 Write-Host '
 [1;36m█[0;30;46m                       [0;36;40m▀ [0;31;40m▄██▀[0;36;40m [0;1;37;40m█[0;1;37;46m▓[0;1;37;40m▀[0;36m [0;30;46m     [0;36;40m██[0;1;36;46m▀▓▀▀░▀[0;36m▓[0;1;36;46m▀▀ ▀▀▓▀▀▓▀▀▀[0;36m█[0;1;36;46m▀▀▀[0;36m█▄[0;1;36;46m▓▀▀▀[0;36m█▓[0;1;36;46m▀[0;36m▀ [0;1;36;46m▀ ▓[0m

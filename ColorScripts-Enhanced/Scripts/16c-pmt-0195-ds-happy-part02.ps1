@@ -1,13 +1,4 @@
-﻿# Converted from: DS-HAPPY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pmt-0195/raw/DS-HAPPY.ANS
-# Source Revision: archive-sha256:d6215aa308b0d4ab5fe1a9b87f61f0bf2cdd5e52aa3f7bb6750bb83ea7fd64fb
-# Source SHA-256: 39032ed358e86583eedb348370e06d88b2b588c7ecedd2c7bc3d1d0075a75505
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-HAPPY.ANS by Devine Styler (pmt-0195); released in pmt-0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-99
-# Columns: 1-80
+﻿# Artwork: DS-HAPPY.ANS by Devine Styler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pmt-0195-ds-happy-part02
 
 Write-Host '
 [34;44m█[0;34;40m▄ [0;37;40m▀[0;1;37;47m░░░▒▒▒▒▒▒▓▓▓▓[0;1;37;40m█████████████████████████████████ [0;34m▄[0;34;44m████████████████████████████[0m

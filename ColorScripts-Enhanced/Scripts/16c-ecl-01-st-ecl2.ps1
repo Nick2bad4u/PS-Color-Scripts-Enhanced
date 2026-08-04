@@ -1,18 +1,4 @@
-﻿# Converted from: ST-ECL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-01/raw/ST-ECL2.ANS
-# Source Revision: archive-sha256:98f7ca14920172db6145e44afa4b8ac94de6e46d94b8cf326e89a96c3e7e5c1b
-# Source SHA-256: 1589b4959a13fbc95ad6d2b6023a836266cb57cee735d2c76a63eea4a9359393
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-ECL2.ANS by splamm-o (eclipse); released in ecl-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: another eclipse thing
-# SAUCE Author: splamm-o
-# SAUCE Group: eclipse
-# SAUCE Date: 19960608
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: another eclipse thing by splamm-o | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-01-st-ecl2
 
 Write-Host '
 

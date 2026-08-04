@@ -1,18 +1,4 @@
-﻿# Converted from: BW-APAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy11/raw/BW-APAT.ANS
-# Source Revision: archive-sha256:a8a1f25f60c56aa0932319ceb3e0a3707898d7c9d304c60c4912556d84eb4b61
-# Source SHA-256: 824edb6f4ac0786753dc1ec459edc35ea28ccd520013806e7742b51d88aa6f54
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BW-APAT.ANS by balls wilSON (aPatHy); released in apathy11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: APatHY..i think.
-# SAUCE Author: balls wilSON
-# SAUCE Group: aPatHy
-# SAUCE Date: 19960622
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: APatHY..i think. by balls wilSON | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy11-bw-apat
 
 Write-Host '
                                 [31m ▄▄▄▄▄▄▄▄▄[0m

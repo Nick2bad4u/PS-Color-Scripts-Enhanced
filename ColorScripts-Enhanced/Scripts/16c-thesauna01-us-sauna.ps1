@@ -1,19 +1,4 @@
-﻿# Converted from: us-sauna.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna01/raw/us-sauna.ans
-# Source Revision: archive-sha256:70f712dbf565de1ceb0f2b7020b54aa443621235a47b082b92e24e13342b0672
-# Source SHA-256: 04efed1116e1d87374e086e3cffdb2591f29baba13c224c1fa5b63dbe3811db4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-sauna.ans by Warpus + Mx (SAUNA); released in thesauna01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: SAUNA
-# SAUCE Author: mx & warpus
-# SAUCE Group: SAUNA
-# SAUCE Date: 20190809
-# SAUCE Dimensions: 80x33
-# SAUCE Font: IBM VGA
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: SAUNA by Warpus + Mx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna01-us-sauna
 
 Write-Host '
 

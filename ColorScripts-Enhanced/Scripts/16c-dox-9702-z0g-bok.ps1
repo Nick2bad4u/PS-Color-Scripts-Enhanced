@@ -1,19 +1,4 @@
-﻿# Converted from: Z0G-BOK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_9702/raw/Z0G-BOK.ANS
-# Source Revision: archive-sha256:33822ef17727497e570bbe1fb936980d768f5ecb13f914599943b0c787232617
-# Source SHA-256: e20cdf1fe3ace20e1415dfae6e9c9dfb9f6b74ee48abcb83dd050164300515a4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Z0G-BOK.ANS by zoglomorph (d0x.product); released in dox_9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the bookworm
-# SAUCE Author: zoglomorph
-# SAUCE Group: d0x.product
-# SAUCE Date: 19970131
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: i did this for your mother. if you rip it. it will be like | ripping my mother | thanks.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: the bookworm by zoglomorph | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-9702-z0g-bok
 
 Write-Host '
                                    [34m▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

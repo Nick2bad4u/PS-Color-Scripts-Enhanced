@@ -1,15 +1,4 @@
-﻿# Converted from: US-REBEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ra-pak10/raw/US-REBEL.ANS
-# Source Revision: archive-sha256:a90c6fcfe58891c0bcb9fc8bc51763cd1dfdc821534fad4b911bf86b27a83427
-# Source SHA-256: ce407a389b121161a7f8b3eb85b9ac6545c83c7e89e9720ad1538d9dc36f404f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-REBEL.ANS by Dyingsoul + Sephiroth (ra-pak10); released in ra-pak10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 19961230
-# SAUCE Dimensions: 80x78
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: US-REBEL.ANS by Dyingsoul + Sephiroth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ra-pak10-us-rebel-part01
 
 Write-Host '
 

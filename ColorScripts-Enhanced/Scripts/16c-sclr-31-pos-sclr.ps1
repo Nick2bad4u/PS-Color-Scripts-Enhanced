@@ -1,13 +1,4 @@
-﻿# Converted from: POS!SCLR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-31/raw/POS!SCLR.ANS
-# Source Revision: archive-sha256:bb03d6a159f24338a3412f8c68b8b46e7434c6ed248bdd824b6bd523813298d1
-# Source SHA-256: 9a2208d024b82c6df9ebf23143e8cee903378552944b3c9c5f19b6b6b25293cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: POS!SCLR.ANS by Poise (sclr-31); released in sclr-31 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: POS!SCLR.ANS by Poise | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-31-pos-sclr
 
 Write-Host '
 [1;30m  [0m [1;30m [0m

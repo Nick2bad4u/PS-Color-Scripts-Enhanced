@@ -1,13 +1,4 @@
-﻿# Converted from: TI-ZK2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9708a/raw/TI-ZK2.ICE
-# Source Revision: archive-sha256:63deb9e752fa85f6afabd8a41875343388a49c3c7ad37b2b9b29f4bfd04a346f
-# Source SHA-256: 6a76194d670622e066ced4ca4948b7824075ab58164e689863d7a41c241bee98
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TI-ZK2.ICE by Trip (ice9708a); released in ice9708a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: TI-ZK2.ICE by Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9708a-ti-zk2
 
 Write-Host '
 [33m▀▐███ ▄▄▄▄▄ █      ██████▀█ [0;37m [0;1;30m▀███▀[0;33m▄[0;33;47m▀▄[0;37;40m▀▀▀[0;33;40m▀▄▄[0;37;40m [0;33;40m▄▀[0;33;47m▄[0;1;33;47m░[0m██[33;47m▀[0;33;40m▄[0;37;40m [0;33;40m▄▀[0;37;40m▀▀▀▀▀▀[0;37;43m▀[0;1;33;47m░░[0m█[43m▄[0;33;40m▄[0;1;30;40m▀████████████[0m

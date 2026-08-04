@@ -1,18 +1,4 @@
-﻿# Converted from: GK-SCUM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0796/raw/GK-SCUM.ANS
-# Source Revision: archive-sha256:f2392fcbe326be67243a018c170e3f1d8e22753f58b6051ec51575e3fcab8048
-# Source SHA-256: 73ac8ff1a26569c5dabc08d74853842335349908797d9f3152004a7e4eda05c7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GK-SCUM.ANS by grind king (fire); released in fire0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: scum.
-# SAUCE Author: grind king
-# SAUCE Group: fire
-# SAUCE Date: 19960702
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: scum. by grind king | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0796-gk-scum
 
 Write-Host '
 

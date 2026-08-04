@@ -1,19 +1,4 @@
-﻿# Converted from: 5m-27inch.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna03/raw/5m-27inch.ans
-# Source Revision: archive-sha256:997aaab655669129eb266c21ca0c4588b603e11c90338498bb530f8bba390fb2
-# Source SHA-256: bab7592cbe7c2ed2f63f46c155d557545c681ea8586708142e29ada7aa7ad7fa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5m-27inch.ans by Smooth (Blocktronics); released in thesauna03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 27 inch
-# SAUCE Author: Smooth
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20220403
-# SAUCE Dimensions: 80x45
-# SAUCE Font: IBM VGA
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: 27 inch by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna03-5m-27inch
 
 Write-Host '
                                               [32m▄▄▄▄[0m

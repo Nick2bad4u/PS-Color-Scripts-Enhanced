@@ -1,18 +1,4 @@
-﻿# Converted from: CRX-OCTO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-22/raw/CRX-OCTO.ANS
-# Source Revision: archive-sha256:e9d0326568be41d972423c1883bc8d5eea4966bab9e81326785f82909893446c
-# Source SHA-256: 3a43b00535d2d107fdf7da57017ed8d8f88ca67d0ba1ed0b00a74c1b9c51f116
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CRX-OCTO.ANS by chr0nix (f0rc3); released in force-22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: octupus matrix
-# SAUCE Author: chr0nix
-# SAUCE Group: f0rc3
-# SAUCE Date: 19980705
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: octupus matrix by chr0nix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-22-crx-octo
 
 Write-Host '
                                   [1;30;40m▐[0m   [36m▀▄[0;1;36m▄▄[0;36m▄[0m                  [36m▄[0;1;36m▄[0;36m▄[0m

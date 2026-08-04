@@ -1,18 +1,4 @@
-﻿# Converted from: PZ-SCUM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend04/raw/PZ-SCUM1.ANS
-# Source Revision: archive-sha256:0baeb8b4248cba2d9d786c75bb25af709427970f9280a13e8ec932aa66da649f
-# Source SHA-256: d21b35bc9446e66dc176dfddc2b0b3f579ccd4f8feedd4c7bb8837cb50f76f0b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PZ-SCUM1.ANS by pzyko> (blend); released in blend04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: scum!
-# SAUCE Author: pzyko>
-# SAUCE Group: blend
-# SAUCE Date: 19961026
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: scum! by pzyko> | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend04-pz-scum1
 
 Write-Host '
 [1;34m▄▄[0;34m▄[0m                                           [1;30m▄[0m▄[1;30m▄[0m      [1;30m▄[0m   [1;30m░▄▄▄▄▄▄[0m▄   [1;30m▄▄▄▄▄▄▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SE-UNION.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0495/raw/SE-UNION.ANS
-# Source Revision: archive-sha256:5c1b487f172d9b21547c289d0c6d77076f08925ed05d67b00c73baffeedf66f4
-# Source SHA-256: 032146622937f4862222462f8de0f3cdcda6dfea114624575fb251205534227e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SE-UNION.ANS by Sharp Edge (READ THE INI FILE); released in uni-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Union
-# SAUCE Author: Sharp Edge
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950403
-# SAUCE Dimensions: 80x25
-# Lines: 49-96
-# Columns: 1-80
+﻿# Artwork: Union by Sharp Edge | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0495-se-union-part02
 
 Write-Host '
 [34;40m██████████████████████ [0;36;44m█[0;36;40m████[0;36;46m [0;36;40m███[0;36;46m    [0m [34;40m███████████████████████████████████████████[0m

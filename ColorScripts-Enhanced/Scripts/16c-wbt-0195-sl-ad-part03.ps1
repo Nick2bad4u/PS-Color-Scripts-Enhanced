@@ -1,18 +1,4 @@
-﻿# Converted from: SL-AD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wbt-0195/raw/SL-AD.ANS
-# Source Revision: archive-sha256:796665d63839084a3e064ad6d02fdcac454fe856d0c61a26a4030285b18917b6
-# Source SHA-256: eed93acb25ec378a45ab931889946fbec5d270185ff05e6e3c8681e774284c6a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SL-AD.ANS by Surreal Logic (WBT); released in wbt-0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Abyssimal Dissimulation
-# SAUCE Author: Surreal Logic
-# SAUCE Group: WBT
-# SAUCE Date: 19950101
-# SAUCE Dimensions: 80x112
-# Lines: 78-112
-# Columns: 1-80
+﻿# Artwork: Abyssimal Dissimulation by Surreal Logic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wbt-0195-sl-ad-part03
 
 Write-Host '
 [1m▄▄[0m [1m▄▄[0m [1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

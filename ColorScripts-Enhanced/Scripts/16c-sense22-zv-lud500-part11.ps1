@@ -1,13 +1,4 @@
-﻿# Converted from: zv-lud500.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense22/raw/zv-lud500.ans
-# Source Revision: archive-sha256:bc85c11cf049f286319d708c3e5bf2f85a707ab661c6de2482c2260d25e40c5c
-# Source SHA-256: 96dad6b1f00740b69ffb43659923cc900d67a7ae3752e01ecff9e04d1365ad9a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zv-lud500.ans by Zerovision (sense22); released in sense22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 490-537
-# Columns: 1-80
+﻿# Artwork: zv-lud500.ans by Zerovision | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense22-zv-lud500-part11
 
 Write-Host '
 [31m█▄[0;37m▀█▀ [0;1;31m▄▄▄[0;31m▄▄▄[0;1;31;41m░[0;31m▀▀[0;1;31;41m▀[0;1;31;40m▄[0;31m [0;37m ▀▄██████▀[0;33m░[0;37m█▀█████▌▐[0;1;37;47m▄██████▄██▀[0m█▀[1;34m █[0;1;34;46m▒  ▀[0;1;36;46m▄▄▀[0;36m▀[0;1;34m ▄[0;1;34;46m▀ [0;1;36;46m▄[0;1;34;40m [0m▐[1;30;47m▒[0;1;36;40m ▀[0;1;34;40m▄[0;1;34;46m▀▐[0;1;34;40m▌ [0m███

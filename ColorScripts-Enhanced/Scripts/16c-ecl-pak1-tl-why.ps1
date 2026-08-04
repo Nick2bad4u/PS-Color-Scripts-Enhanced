@@ -1,18 +1,4 @@
-﻿# Converted from: TL@WHY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak1/raw/TL%40WHY.ANS
-# Source Revision: archive-sha256:6b35b56dc24903414bd16ecb32b5990f418418f7d4290c94fd51891e14acec7b
-# Source SHA-256: 7b1c59f0846ec641a80a1683cca7c64072bdbd401361ec6932fc442cfccd99d2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TL@WHY.ANS by timeless (ecolove); released in ecl-pak1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: outbreak
-# SAUCE Author: timeless
-# SAUCE Group: ecolove
-# SAUCE Date: 19971123
-# SAUCE Dimensions: 80x49
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: outbreak by timeless | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak1-tl-why
 
 Write-Host '
 [1;30;43m▓[0;1;30;40m▀[0;33m [0;1;33m▀[0;33m ▄▄▄[0;1;30m▄[0;33m [0;1;33m▄[0;1;33;43m▓▓[0;1;33;40m█▀[0;33m ▄▄▄███████████▄[0;1;30m▄[0;33m [0;1;33m▀▀[0;1;33;43m▓[0;1;33;40m▌[0;33m▐████████[0;1;30m█▌[0;1;33;43m░▓[0;33m █████████████▄[0;1;30m▄[0;33m  [0;1;33m▀[0;1;33;43m▓[0;1;33;40m▌[0;33m ▄▄▄▄ [0;1;33m■[0;33m▀ [0m

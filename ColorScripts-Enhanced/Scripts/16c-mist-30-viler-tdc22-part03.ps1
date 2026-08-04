@@ -1,18 +1,4 @@
-﻿# Converted from: VILER-TDC22.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/VILER-TDC22.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: e4b21d5ef88c490cbdfc5210b77cf58f098a9defa7b2789e430fd8a189908db8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VILER-TDC22.ANS by VileR (mist-30); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: TDC22
-# SAUCE Author: VileR
-# SAUCE Date: 20240812
-# SAUCE Dimensions: 80x200
-# SAUCE Font: IBM VGA
-# Lines: 101-150
-# Columns: 1-80
+﻿# Artwork: TDC22 by VileR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-viler-tdc22-part03
 
 Write-Host '
 [34m▓[0;34;44m     [0;36;44m                    [0;34;44m  [0;1;34;44m▀[0;1;37;104m▀[0;1;37;100m▄[0;30m■[0;1;30m██[0;30m■[0;1;47m■▒[0;1;30;40m▄[0;34m [0;1;37m  [0;30;43m▌[0;1;31;43m▒[0;1;31;41m█[0;1;31;43m▓▒░[0;33;43m  [0;1;31;43m▬░░[0;33;43m   [0;1;30;43m░▀[0;33m▄░░[0;30;43m▄[0;1;30;43m▄[0;1;31;43m▀▀▓[0;1;31;41m█████[0;1;31;43m▓▒░[0;33;43m   [0;1;30;43m░░[0;30;43m░[0;33;40m▒[0m

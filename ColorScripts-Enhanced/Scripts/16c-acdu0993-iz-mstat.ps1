@@ -1,13 +1,4 @@
-﻿# Converted from: IZ-MSTAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0993/raw/IZ-MSTAT.ANS
-# Source Revision: archive-sha256:446ccd0c92c26f820cb58358892955493ab8b589a0789ea252bbb676ba5a1e1f
-# Source SHA-256: b688325027378990de8d16cae2569778cb016a7e55b8b84157ad83340a06ffd8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-MSTAT.ANS by Icszer (acdu0993); released in acdu0993 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: IZ-MSTAT.ANS by Icszer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0993-iz-mstat
 
 Write-Host '
              [34m▄▄▄▄▄▄[0m                                         [34m▄▄▄▄▄▄[0m

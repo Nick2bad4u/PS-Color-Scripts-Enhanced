@@ -1,19 +1,4 @@
-﻿# Converted from: US-EVIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/US-EVIL.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: 6e367117416b9fea3dcbff9bd8577d6042f3552e9119597cf40651096f518af3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-EVIL.ANS by Nail + Tainted (Blocktronics); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Evil Intentions
-# SAUCE Author: Nail / Tainted
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20210224
-# SAUCE Dimensions: 80x136
-# SAUCE Font: IBM VGA
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Evil Intentions by Nail + Tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-us-evil-part01
 
 Write-Host '
 [1;30;40m████████████████████▓▓▓██▓▓▒▒▒▒▒▒▒▒▓▓▓▓▓█▓▓▓▓▓▓▓███▓▓█████████████▀▐████▓▓██▓▓▓[0m

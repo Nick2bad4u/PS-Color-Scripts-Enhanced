@@ -1,18 +1,4 @@
-﻿# Converted from: US-FM11.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lure003/raw/US-FM11.ANS
-# Source Revision: archive-sha256:1ff57f893971666a5780ed06387959ae5ebc9c163a5e118549c7818f33792253
-# Source SHA-256: 8e092e773d7890b83b8a9b043711afdc32b9b34ad0361244de3083ccb1b8006d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FM11.ANS by Smoke + Avenging Angel (lure); released in lure003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fm11
-# SAUCE Author: multiple artists
-# SAUCE Group: lure
-# SAUCE Date: 20020410
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: fm11 by Smoke + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lure003-us-fm11
 
 Write-Host '
 

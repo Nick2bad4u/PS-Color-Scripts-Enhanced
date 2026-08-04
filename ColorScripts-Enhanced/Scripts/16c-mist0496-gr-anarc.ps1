@@ -1,18 +1,4 @@
-﻿# Converted from: GR_ANARC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0496/raw/GR_ANARC.ANS
-# Source Revision: archive-sha256:be1a395f385261920c9bce8fb9a4a50e5287b1be7689ad97116617524efc6b52
-# Source SHA-256: 629f1624e3b9d48b17a00c6131eb0bf63eaec9c07769eb5ff6c02358dff66c5b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GR_ANARC.ANS by Grim Reaper (Mistigris); released in mist0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Captain Anarchy
-# SAUCE Author: Grim Reaper
-# SAUCE Group: Mistigris
-# SAUCE Date: 19960306
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Captain Anarchy by Grim Reaper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0496-gr-anarc
 
 Write-Host '
                             [1m·[0;30;44m           [0m

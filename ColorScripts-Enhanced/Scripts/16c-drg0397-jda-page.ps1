@@ -1,18 +1,4 @@
-﻿# Converted from: JDA^PAGE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg0397/raw/JDA%5EPAGE.ANS
-# Source Revision: archive-sha256:694f61aba4f82f8e50968fd09d2d334eabd382bde88aeb8d800b942715db6df9
-# Source SHA-256: 838508e20a7d14a873e173a7bf6965ed5c682541900ee25d4521b43e65ce01d5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JDA^PAGE.ANS by Joda (deranged); released in drg0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: page.
-# SAUCE Author: Joda
-# SAUCE Group: deranged
-# SAUCE Date: 19970302
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: page. by Joda | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg0397-jda-page
 
 Write-Host '
 [1;34;44m░[0;34m████████[0;1;34m  [0;31m░░▄▓▄▄▄███▓[0;1;31m [0;1;30m▐███▀▓█▀▀▀▀▀▓█ [0;1;35m  [0;35m░▄▄▄██▓▓[0;1;35m  [0;1;30m█[0;1;30;47m▓[0;1;30;40m▀[0m [1;30m   [0;1;31m     [0;31m░▓█[0;1;31;41m░░░[0;31m███[0;1;31;41m░░[0;31m████[0;1;31;41m░░[0m

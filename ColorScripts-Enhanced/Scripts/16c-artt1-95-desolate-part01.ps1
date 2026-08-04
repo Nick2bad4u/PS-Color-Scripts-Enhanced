@@ -1,13 +1,4 @@
-﻿# Converted from: DESOLATE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/artt1-95/raw/DESOLATE.ANS
-# Source Revision: archive-sha256:05e65bd4227d0c301d23d4fad7982a290c1ffc3d510335cd0ab848b157e34db9
-# Source SHA-256: 2bd9ce8a9f9af2ce8877ae855ffe394a7412e29c9ccacbc8fe1f8c34b36bdb03
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DESOLATE.ANS by Rocketeer (artt1-95); released in artt1-95 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: DESOLATE.ANS by Rocketeer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-artt1-95-desolate-part01
 
 Write-Host '
 [1;30m▒▓[0;33m░░░▒▓█▓░░░▒▓▓▒▒▒▒▒▒▒▓▒░░▓▓▒▒░▓▒▒▒▒▒▒░░░▒▒░░▓▓▒░░▓▓▒░░▒▒░░▒▒░░▒▒▒▓██████████▓[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: CAL25-07.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-42/raw/CAL25-07.ANS
-# Source Revision: archive-sha256:5477badab90aaaa6ee2d08aa380254b6982d860b5d0de201e348668cb1eaa063
-# Source SHA-256: 511c4adcd4c86ac23a77af5c0beb87b9ae27ee0af174c554a99cee19fd316776
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CAL25-07.ANS by tainted / Ville (Fire); released in fire-42 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: July 2025
-# SAUCE Author: tainted / Ville
-# SAUCE Group: Fire
-# SAUCE Date: 20250303
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: July 2025 by tainted / Ville | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-42-cal25-07
 
 Write-Host '
 [1;31;41m▌▌[0;31m▒[0;1;33m▓███████████████████████████████████████████████████████████████████[0;1;33;47m▌[0;1;33;43m▌▌▌[0;1;33;40m░[0;1;31;41m░TNT[0m

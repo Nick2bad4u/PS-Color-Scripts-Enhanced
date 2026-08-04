@@ -1,13 +1,4 @@
-﻿# Converted from: JTE-PWHL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r5/raw/JTE-PWHL.ANS
-# Source Revision: raw-sha256:df5b1d2ede7de97407e282b824e072cc66bd177fe1c3ddb82fad76776727489d
-# Source SHA-256: df5b1d2ede7de97407e282b824e072cc66bd177fe1c3ddb82fad76776727489d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JTE-PWHL.ANS by Jate (afc-r5); released in afc-r5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: JTE-PWHL.ANS by Jate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r5-jte-pwhl
 
 Write-Host '
                      [1;30m░░░▒▒▒▓▓█████████████▒[0m         [1;34;44m░▒▓██[0;1;34;46m▓▓▒▒▒[0m [1;34;44m▒▓█[0;1;34;46m▓[0m [1;34;44m▒▓█[0;1;34;46m▓[0m [1;34;44m▒▓██[0;1;34;46m▓▓▒[0m

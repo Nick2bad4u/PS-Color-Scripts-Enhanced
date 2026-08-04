@@ -1,18 +1,4 @@
-﻿# Converted from: WK-GEHEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force10a/raw/WK-GEHEN.ANS
-# Source Revision: archive-sha256:f2af75efab7b036cdbeddf266674e60423caa5c7ddcc4b43d8307cb5d3c84b64
-# Source SHA-256: 214bb33b077a843eee11f09d54e07479f8238e47d69e2c0c5f5825873141f839
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WK-GEHEN.ANS by Weeping Killer (fORCE); released in force10a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: gehenna
-# SAUCE Author: Weeping Killer
-# SAUCE Group: fORCE
-# SAUCE Date: 19960721
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: gehenna by Weeping Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force10a-wk-gehen
 
 Write-Host '
 [32m▓▓█[0;1;33;42m░░▄▄██████▀[0;32m▀[0;37m ▄▄▓▄▄▄▄▄██▄▄▄ [0;1;33;42m▀▓[0;1;33;40m▀[0;32m▀[0;1;33m▀█[0;32m▀[0;37m  [0;32m▀[0;1;33;42m░▀████▓███[0;1;33;40m████████████[0;1;33;42m▓▓▓██████▀ [0;32m█████▓▓[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: US-MAIDN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9707/raw/US-MAIDN.ANS
-# Source Revision: archive-sha256:bfcb83c6d9eb9beac4e313e6cb4a06c0bdcb3b894eaa2b7afbdde4d6e5181bec
-# Source SHA-256: 6926777ae8cdd01908dc5b61e515fd8c52607a3d486d416d71cd24373e36593f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-MAIDN.ANS by Rorshack + Minotaur (Maiden Brazil); released in mdn-9707 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: It reads 'maiden'.
-# SAUCE Author: minotaur + rorshack
-# SAUCE Group: Maiden Brazil
-# SAUCE Dimensions: 80x25
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: It reads 'maiden'. by Rorshack + Minotaur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9707-us-maidn
 
 Write-Host '
 [1;30m█▓░░▓▀▀[0m [1m▄▄▄▄█▀▀▀██[0m [1;30m▐██▓░░░░░ ░░░░[0m░[1;30m░░░ ░[0;30;47m▓[0;37;40m░[0;1;30;40m░░ ░▓█▀▀▀▀▀▀▀▀█▓▒░░░░░░[0m [1;30m░░░▓███[0;1;30;47m▓░[0m█[1;47m░▓[0;1;40m██[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: WE-FUCKU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense15j/raw/WE-FUCKU.ANS
-# Source Revision: archive-sha256:d06155f7d5e0b32644f10222adb0228fd6a61c0d1874216761244815dabceb89
-# Source SHA-256: 65b0b2113e2d431c613a119e549891e529b5b2599b38f2b865cad9ea35e5482a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WE-FUCKU.ANS by Velodrome + Cryogenic + Aesthetic (sense15j); released in sense15j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: WE-FUCKU.ANS by Velodrome + Cryogenic + Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense15j-we-fucku
 
 Write-Host '
 [33m  [0;34m    ▀▀[0;33m ░    [0;34m█[0;1;34;44m▄▄▄▄[0;34m█▄▄▄▄▄█[0;1;34;44m▄[0;34m▄▄▄▄[0m        [34m▄▄▄▄▄▄▄[0;1;34;44m▀█▄▄▄▄▄▄▄[0;34m▄▄[0;1;34m▄▄[0;34m▄▄▄[0;1;32m    [0;34m▀▀[0m     [34m [0;1;32m [0;34m ▄[0;1;34;44m░▓█[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: KO-SQUAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0598/raw/KO-SQUAL.ANS
-# Source Revision: archive-sha256:e4eb608a76b35267c945e8d8ea0fbc9cde7f273818c342a2a37fa7f292193f2c
-# Source SHA-256: 5ddc8628d0e22b30e5b89c7b300bbf7bc400207ccac0dfe147124abb89e67625
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KO-SQUAL.ANS by konami (legion); released in plf-0598 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: guest
-# SAUCE Author: konami
-# SAUCE Group: legion
-# SAUCE Date: 19980527
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: guest by konami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0598-ko-squal
 
 Write-Host '
 [31m████[0;1;33;41m▐████▒[0;31m█[0;1;31;41m▄▄[0;1;33;41m▄▄███████▀▀▀▀▀▀[0;31m███████████████████████[0;30;41m ░[0;31;40m▀▀▀▀▀▀[0;1;30;41m▄[0;31m██████████████[0;30;41mkONAMI[0m

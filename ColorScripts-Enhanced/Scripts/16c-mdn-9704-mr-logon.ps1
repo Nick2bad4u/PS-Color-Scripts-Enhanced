@@ -1,17 +1,4 @@
-﻿# Converted from: MR-LOGON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9704/raw/MR-LOGON.ANS
-# Source Revision: archive-sha256:f29d1a72731ce9383841840bc86b0749ff1457d1c25c6a64baa5adfdac9e6943
-# Source SHA-256: aaa9fbfe0cbccb988cc82652eda6b8758034c61047447669fa002bc1507cb8b2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-LOGON.ANS by minotaur (mAidEN bRAZil); released in mdn-9704 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: logon screen for lunatic asylum
-# SAUCE Author: minotaur
-# SAUCE Group: mAidEN bRAZil
-# SAUCE Date: 19970310
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: logon screen for lunatic asylum by minotaur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9704-mr-logon
 
 Write-Host '
 [1m███[0;1;47m▌[0m▌[1m▄█████████████[0;1;47m▌[0m▌ [1m█[0;1;47m▄[0;1;40m▄▄▄▄██[0;1;46m▌▄▄▄▄▄   [0;1;36;46m ░░▓▓█████████▀▀▀[0;1;36;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;36m▀▀▀▀▀▀▌[0m

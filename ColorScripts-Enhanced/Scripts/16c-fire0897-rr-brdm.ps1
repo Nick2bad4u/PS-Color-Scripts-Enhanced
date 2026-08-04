@@ -1,18 +1,4 @@
-﻿# Converted from: RR-BRDM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0897/raw/RR-BRDM.ANS
-# Source Revision: archive-sha256:2f847e13ac44c4a612ca9588cf01055509cccf841191e379aa1210361ce47235
-# Source SHA-256: 2f15591c0212cbb1011f5b5a9dca09ee1f12dee14879c55e716f5414d187e377
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RR-BRDM.ANS by riddler (fire graphics); released in fire0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: brdm
-# SAUCE Author: riddler
-# SAUCE Group: fire graphics
-# SAUCE Date: 19970823
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: brdm by riddler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0897-rr-brdm
 
 Write-Host '
  [31m▄[0;1;31m▄[0;1;31;41m▓░[0;31m▀  ▄[0;1;31m▄[0m  [31m░░[0;30;41m░[0;31;40m▄ [0;37;40m [0;31;40m▀[0;1;31;40m▀[0;1;31;41m▀[0;1;31;47m▄[0;1;31;41m▄[0m▄[1;31;41m [0;31m▀[0;30;41m░[0;31;40m▄░[0;37;40m  [0;31;40m▀[0;1;31;41m▀[0;31m [0;37m [0;31m░[0;30;41m░[0;1;31;41m▄[0;31m▄[0;30;41m░░[0;1;31;41m▀[0;1;31;47m▀[0;1;31;41m▄[0;31m▄▀[0;1;31;41m▀[0;30;41m░[0;31;40m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ [0m

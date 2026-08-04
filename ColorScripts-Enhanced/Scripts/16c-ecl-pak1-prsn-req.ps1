@@ -1,18 +1,4 @@
-﻿# Converted from: PRSN_REQ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak1/raw/PRSN_REQ.ANS
-# Source Revision: archive-sha256:6b35b56dc24903414bd16ecb32b5990f418418f7d4290c94fd51891e14acec7b
-# Source SHA-256: 3cc34291f09d144dde7ed03687ab40c775e383cd67f3191299cdc57d2910faec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PRSN_REQ.ANS by President + Snowball (ecolove); released in ecl-pak1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: request menu
-# SAUCE Author: president & snowball
-# SAUCE Group: ecolove
-# SAUCE Date: 19971121
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: request menu by President + Snowball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak1-prsn-req
 
 Write-Host '
 [33m [0m                [34m▀█[0;1;34;44m▄▄▄▒░[0;34m▄▄▄▄▄▄▄▄▄[0;1;31m  [0;31m [0;34m   [0;31m         [0;34m░▒░░[0;31m [0;1;31m  [0;34m▄▄▄[0;1;34m▄[0;1;34;44m▄▄▄▄░[0;34m▄▄▄[0;1;31m     [0m

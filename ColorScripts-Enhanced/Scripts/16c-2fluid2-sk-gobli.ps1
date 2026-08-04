@@ -1,18 +1,4 @@
-﻿# Converted from: SK!GOBLI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/2fluid2/raw/SK!GOBLI.ANS
-# Source Revision: archive-sha256:5b7b859a6b313bef27715626a2129a68a4e711fed88780f169533809010a1ae8
-# Source SHA-256: a40afae0b592f88eb1992b8310f34cb86f7873a1dcb4539cfbf049f83696998c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!GOBLI.ANS by sIMONkING (fLUID); released in 2fluid2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: little goblin
-# SAUCE Author: sIMONkING
-# SAUCE Group: fLUID
-# SAUCE Date: 20010801
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: little goblin by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-2fluid2-sk-gobli
 
 Write-Host '
 [1;33m  [0;33m▀▀▀▄[0;1;33;43m▓[0;1;33;40m▄  [0;33m▀[0;1;33;43m▀[0;1;33;40m█▄[0;32m ▄█[0;1;32;42m░░░░░▒▒▒▒▒▒▒▒▒▒▒░░░░░░[0;32m█▄ [0;1;33m [0;1;37m▄[0;1;33m██[0;1;33;43m▓▓[0;33m▀[0m     [33m                 [0m

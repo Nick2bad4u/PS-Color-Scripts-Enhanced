@@ -1,16 +1,4 @@
-﻿# Converted from: CG-RUSH3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-19/raw/CG-RUSH3.ANS
-# Source Revision: archive-sha256:320b7ef547a1befeeebbf4abc563d8da701bdc66e2a87710081c803548b46926
-# Source SHA-256: 73abfcc58eb3d7b14ccea704b58c0aca4ab13de5b63620f0672dd04341329d14
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-RUSH3.ANS by cryogenic (force); released in force-19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: rush
-# SAUCE Author: cryogenic
-# SAUCE Group: force
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: rush by cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-19-cg-rush3
 
 Write-Host '
 [1;30m ▀[0m▀[1;30;47m░▒▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m██▀██▓▓[0m [1;30;47m▒▓[0;1;30;40m▀█▓█▀▀█▀▓▓██▀▀[0m [1;30;47m░▒▓[0;1;30;40m████████████[0m [1;30;47m▒▓[0;1;30;40m█████████████ [0;1;30;47m▓[0;1;30;40m██▀▀▀██████▄▄▀[0m

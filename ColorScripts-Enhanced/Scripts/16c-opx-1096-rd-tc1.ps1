@@ -1,18 +1,4 @@
-﻿# Converted from: RD-TC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-1096/raw/RD-TC1.ANS
-# Source Revision: archive-sha256:73b0e2918c9e3daef978e4ff1f97345c8d9080edab06ce99d8d8ee6a5fb0b3de
-# Source SHA-256: c46cb31c94a806f17e26a76dc691a5d390b42cd01077e4a72ad261b8e0bc771c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD-TC1.ANS by raider (mOp); released in opx-1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: cydonia matrix #1
-# SAUCE Author: raider
-# SAUCE Group: mOp
-# SAUCE Date: 19960912
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: cydonia matrix #1 by raider | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-1096-rd-tc1
 
 Write-Host '
 [1;34;44m▓▀[0;34m▀▀[0;1;30m▄[0;30;47m▀▀[0;1;30;47m▀[0;30;47m░[0;1;30;47m░[0;30;47m    [0;1;34;47m░░[0;30;47m    ░[0;1;30;47m▀▀[0;30;47m▀▀[0;1;30;40m▄[0;34m▀[0;1;34;44m▀▓███[0;1;34;40m█▀[0;1;37;40m▄██[0;1;37;47m▒▒░[0;30;47m  [0;1;37;47m░[0;30;47m [0;1;30;47m░░░▒▒▓▓▓█▓[0;1;30;40m██[0m░[1;30m███▓▓▒▒▒░░░░░ ░    ░  ░[0m

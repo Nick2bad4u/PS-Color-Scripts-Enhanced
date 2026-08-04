@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-WISE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-13/raw/TNA-WISE.ANS
-# Source Revision: archive-sha256:fab7f52e9d735740432e5cc1693a7c3574c7cc669fe711a2863770d2425cce92
-# Source SHA-256: 93b1f6f9fb7f408d2d641dc97c21c32b91db2c86c5d535839787c13a1ffb1b53
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-WISE.ANS by The Night Angel (AWE Lettering); released in awe-13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Wise Words
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19971218
-# SAUCE Dimensions: 80x25
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: Wise Words by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-13-tna-wise
 
 Write-Host '
 ▄██[1;47m▄[0m▄    [1;30m▄[0m▄▄ ▀██▀ ▄[1m▄▄[0;1;47m▄[0;1;40m█████▄█▓░ [0m░[30;47m▓[0m                           [37;40m▄[0m       [37;40m▀[0;1;37;47m▀[0m     [1m   [0m 

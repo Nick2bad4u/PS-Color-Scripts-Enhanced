@@ -1,18 +1,4 @@
-﻿# Converted from: avg-usd1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-02/raw/avg-usd1.ans
-# Source Revision: archive-sha256:21302c91644277d9117a9a1fcab004f6fa76d5a90d6a4926e513a24dd5b73cd5
-# Source SHA-256: 56b9a6d0d5fac4b9b54e9b55bcf37f78827aa32decc485fae4063044dcbe0694
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-usd1.ans by avenging angel (the used coalition); released in used-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: used promo1
-# SAUCE Author: avenging angel
-# SAUCE Group: the used coalition
-# SAUCE Date: 19991208
-# SAUCE Dimensions: 80x28
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: used promo1 by avenging angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-02-avg-usd1
 
 Write-Host '
 [1;30m   [0m                                                                      [1;36m▄[0m

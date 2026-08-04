@@ -1,18 +1,4 @@
-﻿# Converted from: LD-CH01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0494/raw/LD-CH01.ANS
-# Source Revision: archive-sha256:cda9410890e0ae8f5b3a1e8c7fce4e1b3de00d8e334ef300576869cead7a6b53
-# Source SHA-256: 4369144f3e522e5abede932011726f97e6ca1bbd315c9b1f40596e2df40b217a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-CH01.ANS by Lord Jazz (ACiD Productions); released in acdu0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Channel Zer0
-# SAUCE Author: Lord Jazz
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940326
-# SAUCE Dimensions: 80x193
-# Lines: 51-95
-# Columns: 1-80
+﻿# Artwork: Channel Zer0 by Lord Jazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0494-ld-ch01-part02
 
 Write-Host '
 [1;30;40m [0;1;30;43m▓▓▓▓▓▒▒▒▒[0m  [33m▀[0m     [33m▌[0m                                         [33m▌[0m         [33m▀[0;1;30;43m▓▓▓▒▓▒▒▒[0m

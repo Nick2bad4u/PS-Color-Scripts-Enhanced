@@ -1,13 +1,4 @@
-﻿# Converted from: SMI-BLD3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr003/raw/SMI-BLD3.ANS
-# Source Revision: archive-sha256:88ee9d9357c2ca75e11bc89d33e0cd4c2e1ed156103cb33b4d4dca0a8cff8744
-# Source SHA-256: 2f0d55bb5c63c28fc9bba588c645fd6b280f1024ef1cfc5312cece77288709ee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMI-BLD3.ANS by Samurai (blndr003); released in blndr003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: SMI-BLD3.ANS by Samurai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr003-smi-bld3
 
 Write-Host '
 [32m██████▀▀▀▀[0;37m  ▄[0;1;37m▄██▀▀[0m        [1m▀▀██[0m▄    ▄[1m▄▄▄▄▄[0m               [1m▀▀▀[0m   [1m▀[0m            [1m░░███[0m

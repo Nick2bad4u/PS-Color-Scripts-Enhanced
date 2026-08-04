@@ -1,18 +1,4 @@
-﻿# Converted from: PPE-SMOK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-04/raw/PPE-SMOK.ANS
-# Source Revision: archive-sha256:1dcdf112160ec589150680778cd449e8af485dfba89bb104c44cd133db2d6fc0
-# Source SHA-256: 1c1680fb8b41cd1d3aabb1d7f0a3f98b594a542c70ac6f378c62c50ebd830b4f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PPE-SMOK.ANS by propane (used); released in used-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: wicked minority
-# SAUCE Author: propane
-# SAUCE Group: used
-# SAUCE Date: 20000318
-# SAUCE Dimensions: 80x105
-# Lines: 25-62
-# Columns: 1-80
+﻿# Artwork: wicked minority by propane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-04-ppe-smok-part02
 
 Write-Host '
    [34m▒▒▒▒▒▒▒▒▒▒▒▒[0m        [1;30m [0m  [34m░░░░░░[0;37m [0;34m░▒[0m   [34m [0;37m [0;34m  [0m   [34m▒░[0;37m [0;34m░░░░░░[0;37m  [0;1;30m [0m        [34m▒▒▒▒▒▒▒▒▒▒▒▒[0m

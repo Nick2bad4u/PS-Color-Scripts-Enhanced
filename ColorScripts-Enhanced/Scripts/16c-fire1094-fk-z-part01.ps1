@@ -1,17 +1,4 @@
-﻿# Converted from: FK-Z.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1094/raw/FK-Z.ANS
-# Source Revision: archive-sha256:06037b6172e9822784909b4e7dbd7d3a5e13ef98ca83a73f9d2e3796e3b6962d
-# Source SHA-256: acac24aa8d7cd9a130f9e2984bedbe1e7b096bf10b424bbb10e7d482c9db471b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FK-Z.ANS by Farbekrieg (fire1094); released in fire1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Heavy Metal
-# SAUCE Author: Farbekrieg
-# SAUCE Date: 19941008
-# SAUCE Dimensions: 80x89
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Heavy Metal by Farbekrieg | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1094-fk-z-part01
 
 Write-Host '
 [1;34;44m     ░░░░░░▒▒▒▓▓▓[0m [34m████████▀▄██▄[0m      [31m███▀▀█▄ ▀████▀[0;1;30m▄██▀▄█ [0;1;31;41m▓▓▓▒▒▒░░░░░░         [0m

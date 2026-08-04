@@ -1,18 +1,4 @@
-﻿# Converted from: MR-UW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-12/raw/MR-UW.ANS
-# Source Revision: archive-sha256:5c96c14e912296494a464a42e768321452d811693cf172945a9502eb4396c8bb
-# Source SHA-256: 1bbc4b29b1cafe56e96beebc1556fe8aa657d7308baa6023da908eaa69a249a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-UW.ANS by Magnetic Rage (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Underworld
-# SAUCE Author: Magnetic Rage
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19971017
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Underworld by Magnetic Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-12-mr-uw
 
 Write-Host '
    [1;30m▌[0m      [1;30m▄▌[0m                  [1;30m▄■[0m [1;30m▌[0m  [1;30m         [0m                    [1;30m▐[0m

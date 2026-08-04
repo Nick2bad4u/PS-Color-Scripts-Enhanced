@@ -1,17 +1,4 @@
-﻿# Converted from: C3-SR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/raw02/raw/C3-SR.ANS
-# Source Revision: archive-sha256:a9c7b11f45c1834d2f063eb1ae64ec8d77fb2fe3e9be2a125c82d6192e5de0b0
-# Source SHA-256: f38d1cf5b4f38feac98a1e989fab1830fb39f091744cf1fe8759a6708053fdcf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: C3-SR.ANS by criminal enigma (raw02); released in raw02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: suicidal roses
-# SAUCE Author: criminal enigma
-# SAUCE Date: 19970415
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: suicidal roses by criminal enigma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-raw02-c3-sr
 
 Write-Host '
                      [34m░[0;30;44m▓[0;34;40m░[0;30;44m▓[0m      [34;40m░[0;30;44m▓[0;34;40m░[0;30;44m▓[0;34;40m░[0;30;44m▓[0;34;40m░[0;30;44m▓[0;34;40m░[0;30;44m▓[0;34;40m░[0;30;44m▓[0;34;40m░[0;30;44m▓[0;34;40m░[0;30;44m▓[0;34;40m [0m    [30;44m▓[0;34;40m░[0;30;44m▓[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MR-AOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9708/raw/MR-AOD.ANS
-# Source Revision: archive-sha256:3376fc365de5181233b813e877de1cd710dc83f3caddf0e27d10d8d02107f39f
-# Source SHA-256: 0fc2b15fa6166df9ace12b75a1eaa3c55adc1081322a2cc502501c9a1919832a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-AOD.ANS by minotaur (maiden^brazil); released in mdn-9708 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: angel of death , someone requested
-# SAUCE Author: minotaur
-# SAUCE Group: maiden^brazil
-# SAUCE Date: 19800101
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: angel of death , someone requested by minotaur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9708-mr-aod
 
 Write-Host '
 [31m▄▄▄[0m   [31m▄▄▄[0m                  [31m░░░░░[0m     [1;34m▄▄[0;34m█[0;1;34m▀[0;34m▀[0m                 [1;36;46m▐██[0;36m▌[0;31m▀▄[0;1;31;41m██▓[0;31m░░[0;1;31;41m░░ [0;31m█▄[0;1;31;41m░▓█[0;31m▀▄[0m

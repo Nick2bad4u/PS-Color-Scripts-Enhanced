@@ -1,18 +1,4 @@
-﻿# Converted from: DW-IMPUR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile_002/raw/DW-IMPUR.ANS
-# Source Revision: archive-sha256:09fff222285c90eb6b714714b4c5e3c96cc514cdf338ccf4e30b5898f9a5a64b
-# Source SHA-256: bcc0cdde421bb676c0f7fac2bc64eed5e1b54fe65a403daf6954571832a278ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DW-IMPUR.ANS by drynwhyl (RILE); released in rile_002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: impure
-# SAUCE Author: drynwhyl
-# SAUCE Group: RILE
-# SAUCE Date: 19970313
-# SAUCE Dimensions: 80x25
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: impure by drynwhyl | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile-002-dw-impur
 
 Write-Host '
       [36m░░[0m   [36m░░[0m     [1;36m░░  [0m   [1;32m░░[0m                [1;32m░[0m                [1;32m░░[0m

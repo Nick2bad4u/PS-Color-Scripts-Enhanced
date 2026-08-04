@@ -1,18 +1,4 @@
-﻿# Converted from: MR-QDP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0896/raw/MR-QDP1.ANS
-# Source Revision: archive-sha256:aea0eeb92b0eab79feeb93a911e40d78834e5950cdc396c43c83fe60a2627fad
-# Source SHA-256: 73e5dc28871e49d7eeaae08e9095879ad33badd4691f1328b6c24f9891dfa12a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-QDP1.ANS by mithrandir (quad-p); released in quad0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: quad-p, afterdark
-# SAUCE Author: mithrandir
-# SAUCE Group: quad-p
-# SAUCE Date: 19960716
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: quad-p, afterdark by mithrandir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0896-mr-qdp1
 
 Write-Host '
                            [1;30m  [0m

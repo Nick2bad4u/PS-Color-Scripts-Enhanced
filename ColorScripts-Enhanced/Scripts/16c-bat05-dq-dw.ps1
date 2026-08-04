@@ -1,18 +1,4 @@
-﻿# Converted from: DQ-DW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bat05/raw/DQ-DW.ANS
-# Source Revision: archive-sha256:c1082e0417753715d0b89831e0230f9ac3baf3aab6c8a1f382615ebce2ab409a
-# Source SHA-256: 8a651f86b8c6d2bb75390b89e661e7bfe7e4ce4a9e263f7b0fcf4af28947d866
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DQ-DW.ANS by Don Quijote (Bad Attitude); released in bat05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Darkwood Logo R.i.P
-# SAUCE Author: Don Quijote
-# SAUCE Group: Bad Attitude
-# SAUCE Date: 19970115
-# SAUCE Dimensions: 80x25
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: Darkwood Logo R.i.P by Don Quijote | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bat05-dq-dw
 
 Write-Host '
 

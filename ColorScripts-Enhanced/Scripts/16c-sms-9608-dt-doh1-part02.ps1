@@ -1,18 +1,4 @@
-﻿# Converted from: DT-DOH1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9608/raw/DT-DOH1.ANS
-# Source Revision: archive-sha256:28795cb401df281ef6294233e2af12663ffb83dc390b0bfbadecb49834e6c017
-# Source SHA-256: 26f3a4124130b07ef81c0c22467f03359e9391afdcb43d8747dab5dc9ca76b21
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-DOH1.ANS by DEFIANT (SAMSARA); released in sms-9608 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: DOH
-# SAUCE Author: DEFIANT
-# SAUCE Group: SAMSARA
-# SAUCE Date: 19960731
-# SAUCE Dimensions: 80x100
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: DOH by DEFIANT | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9608-dt-doh1-part02
 
 Write-Host '
 [34m   ▓▓▀▀▀[0m     [34m▀▀▐[0;34;43m▓[0;34;40m▄▄   [0;33;40m░░[0m         [34;40m▄[0;1;34;40m▄▀▀ ▌[0m     [34m▄[0;36m▄[0;36;44m▄█[0;36;40m▀    ▄[0m      [36;40m▄  [0;34;40m▄▀[0;1;34;40m▀[0m     [1;30m▄[0;35m▄▄▄░[0m

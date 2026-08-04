@@ -1,0 +1,3052 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-07-27",
+  "normalization": "SHA-256 of UTF-8 rendered row text after ANSI-control removal and outer-whitespace trimming.",
+  "policy": "Rows were manually reviewed for contact details, identifying information, promotional blocks, or policy-ineligible standalone text. Hash-only evidence avoids retaining removed text.",
+  "sourceAudit": {
+    "candidateFiles": 186,
+    "explicitFunctionalExceptions": 1,
+    "filesScanned": 24851,
+    "parseFailures": 56,
+    "reviewedFalsePositiveRows": 10
+  },
+  "summary": {
+    "candidateFiles": 196,
+    "evidenceRows": 228,
+    "supplementalRows": 11
+  },
+  "candidates": [
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 5,
+          "severity": "high",
+          "sha256": "90f69359851bf4fc3f231b137846362a7a1d4a9ea697b9694185ecae3957efe3"
+        }
+      ],
+      "file": "16c-1990-wwans338.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 9,
+          "severity": "high",
+          "sha256": "15589bf2fd2f35526116c6b97c3fdb46d2245a96779a6e8fa24d1b94e4133023"
+        }
+      ],
+      "file": "16c-1990-wwans55.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 18,
+          "severity": "high",
+          "sha256": "39f0e7a75f335c36547ed4679a700d1649bff7d54b16eda58d9a3752b27975e7"
+        }
+      ],
+      "file": "16c-1991-hydro02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 21,
+          "severity": "high",
+          "sha256": "1db449276518a500a9eae0dd918e7532e2a59175e5f28ec40b3f17527492e4ee"
+        }
+      ],
+      "file": "16c-1991-wiz.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 17,
+          "severity": "high",
+          "sha256": "169fd9bb2e8a94f6e2fe879f15deac0c411ed89ec913e43247c0a6ef9b202fc0"
+        }
+      ],
+      "file": "16c-1madoom-shadow7.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 11,
+          "severity": "high",
+          "sha256": "5cb2c6304c07c9f7c1c9e60219899d3c8d6f95b8e698a2912ffef15b3e25f35e"
+        }
+      ],
+      "file": "16c-aaa-8991-catacomb.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 37,
+          "severity": "high",
+          "sha256": "7c807ee76e1f9e7d1e6768e136a3bd9301887937ffea3f3e85236488725e28f5"
+        }
+      ],
+      "file": "16c-acdu0194-ks-plost-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 4,
+          "severity": "high",
+          "sha256": "9270f2162e8070ce9bbea1890b2c24ef63961dcb6c0e908adb2f37dc380284ad"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 5,
+          "severity": "high",
+          "sha256": "4a89ba7efd07b3f6f0acd7231712e2bc3cb399c1cc22d9ecf7582d2dce663fb1"
+        }
+      ],
+      "file": "16c-acdu0294-bk-cp1-part04.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "spaced-phone"
+          ],
+          "row": 30,
+          "severity": "critical",
+          "sha256": "eb934114d1a793beb0fdb31406a83304816dc2ae6f27bde50380fdd57bc61b67"
+        }
+      ],
+      "file": "16c-acdu0294-t2-dntox-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 27,
+          "severity": "critical",
+          "sha256": "33c618e51593f03111b42af7f4bc45462093ef15db2bec82fceb40da054824d4"
+        }
+      ],
+      "file": "16c-acdu0295-stc-tt-part03.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 32,
+          "severity": "high",
+          "sha256": "6aeba22400080698eaa1e38c00f88908112ad801749c10d4c7d158ad474a6439"
+        }
+      ],
+      "file": "16c-acdu0393-tk-scity.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 31,
+          "severity": "high",
+          "sha256": "9dc798200e8f7844a10415681a0d859d39d5055589cfdd566ac37d4333a29511"
+        }
+      ],
+      "file": "16c-acdu0394-an-ae1-part04.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 32,
+          "severity": "high",
+          "sha256": "14ef4f6897b883f0098c37fa7d07ef5354508ecb53a9e62364d4934b89d7ed90"
+        }
+      ],
+      "file": "16c-acdu0495-ld-sbz1-part03.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "promotional-call-to-action"
+          ],
+          "row": 7,
+          "severity": "critical",
+          "sha256": "ffc0f636112ba97df3a275b93217c53a7b06fdd1473208fd7800bdedfe363f4b"
+        }
+      ],
+      "file": "16c-acdu0594-tc-dil1-part01.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 38,
+          "severity": "high",
+          "sha256": "571cc338bebd511f292a323aae58fceb42eb65db0a7fc28a012a88c6fb347342"
+        }
+      ],
+      "file": "16c-acdu0694-dr-neo1-part03.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 29,
+          "severity": "high",
+          "sha256": "e91c03b88c1ef3cf85da5783f25f92de07d952cd81e9e3c9d1ba53300792bb3d"
+        }
+      ],
+      "file": "16c-acdu0794-ld-lof-part06.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 41,
+          "severity": "high",
+          "sha256": "e4f5c9ab97ec4f65e3603930d5fe86b94f9a450d83316ecb55375fda465029b4"
+        }
+      ],
+      "file": "16c-acdu0892-inn2acid-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 13,
+          "severity": "high",
+          "sha256": "b0e957a626fef39396bc57e3b44efc63e585625fffbb0a2648bc20c11c4c2bda"
+        }
+      ],
+      "file": "16c-acdu1092-bntyacid-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 44,
+          "severity": "high",
+          "sha256": "32ebd7247630fc15a0ab793df351c75670bdd50301e2035abfff0f1eb4090912"
+        }
+      ],
+      "file": "16c-acdu1092-sc-acid3-part04.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 38,
+          "severity": "high",
+          "sha256": "639e2e970e871ce1b15f38823135d6b885194e629ea035a40c34d8515e42b6db"
+        }
+      ],
+      "file": "16c-acdu1192-badlacd1-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 45,
+          "severity": "high",
+          "sha256": "66dc3e6ea946b72cc2d83c04f7d2786c65e2ed3209c1445a526f4e2e0982f343"
+        }
+      ],
+      "file": "16c-acdu1195-eo-dem1-part05.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 47,
+          "severity": "high",
+          "sha256": "e778d8427074da5b0f6a75dad81b3cb5189d6f1f71581b86af8b15b6723044ca"
+        }
+      ],
+      "file": "16c-acdu1292-elysacd2-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 28,
+          "severity": "high",
+          "sha256": "62b786cd8b7cfb73d1c24ce5e9f55d13c7dd6791420f22179524564abdc81dd0"
+        }
+      ],
+      "file": "16c-ace-r2-flames-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 2,
+          "severity": "high",
+          "sha256": "e63926b193752534b3f8f02a45adc75cfdff59102ab8b33acc936e9ef782fad1"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 46,
+          "severity": "high",
+          "sha256": "9e33daea143c10f2a4652c85e2edac9232e7090687868e35f6ec95d79c2d6f95"
+        }
+      ],
+      "file": "16c-acid-s-z-soulacd3.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 19,
+          "severity": "high",
+          "sha256": "464f927bcb6d11f51d922b2d5782f135d66454853ace683b14c2c2797f564f62"
+        }
+      ],
+      "file": "16c-acne001-acne03.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 41,
+          "severity": "high",
+          "sha256": "dad2cdc042f74444528d44b054b59817058cdd24835d64af929a083b49737e77"
+        }
+      ],
+      "file": "16c-afc-r4-mer-anti.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 42,
+          "severity": "high",
+          "sha256": "8bc9ef649f3bad9ff89eddbb4a60f6dd68e7c7c6746b87dfdccc7c0acd09bebb"
+        }
+      ],
+      "file": "16c-afc-r4-mer-part.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 23,
+          "severity": "high",
+          "sha256": "7941bcc32e96b57c2dcc9a478a6ad6cea823d1e084ded2c30ae0da5718fde0b8"
+        }
+      ],
+      "file": "16c-afc-r4-su-ralaw-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 27,
+          "severity": "high",
+          "sha256": "031cbe13f1b62c6d98e82cf08dd98a4939d969f99b555bb63a38fdc068149144"
+        }
+      ],
+      "file": "16c-afc-r5-jte-pwhl.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 43,
+          "severity": "high",
+          "sha256": "7b731e362796fbe1b0ec217c3565181d9e7c516223dc879b7cd94d42f5df1fe1"
+        }
+      ],
+      "file": "16c-afc-r5-mer-tic.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 24,
+          "severity": "high",
+          "sha256": "e78c909ef4357dbdb2ea14a59cb4a3a30bfa64d8994880f58ad28bd1009340d1"
+        }
+      ],
+      "file": "16c-afc-r5-rek-inv2-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 12,
+          "severity": "high",
+          "sha256": "c1d29be084f8b941b70475f4d3edc209cd98b1faeac592cbd369d086349c0adc"
+        }
+      ],
+      "file": "16c-afc-r5-su-og-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 19,
+          "severity": "high",
+          "sha256": "a06387d050559c090e0d23611d2a39e4a4fe4b280d22ab312d3622cfcd9d075b"
+        }
+      ],
+      "file": "16c-aif-9702-psy-hlb.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 32,
+          "severity": "high",
+          "sha256": "cae09e64b435a5f7d0c35ee1d6f7b3ddae9bb921ff4f147fe50b8666335bfd07"
+        }
+      ],
+      "file": "16c-aim-0994-lc-tcb-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 17,
+          "severity": "high",
+          "sha256": "0ee83257b6cb14d49b0a974a3cc33c43dec4a07a13ac51e88e23475fe510395a"
+        }
+      ],
+      "file": "16c-amb-0003-bz-chari.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 7,
+          "severity": "high",
+          "sha256": "0bc652e9a9e8707b8da261ea3f984cec35a72ca63502da4027d1fa03c9ba22d0"
+        }
+      ],
+      "file": "16c-anger06-pp-xf1.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 25,
+          "severity": "high",
+          "sha256": "54e33af28fea6180f3c9193c1d987252c0bfe4d3c868abdae5be0966aaa58c4d"
+        }
+      ],
+      "file": "16c-ansis-t-tt-wolf.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 4,
+          "severity": "high",
+          "sha256": "d06495ab375bb76cc0e6369645430babe17fdeef5e9f5c6f30f7560b6c4f036b"
+        }
+      ],
+      "file": "16c-ansis-t-tt-ws-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 32,
+          "severity": "high",
+          "sha256": "66283d39f565be1841c1e3ef212f7f2a5375d296d7ae40650321f0e46df2a6d5"
+        }
+      ],
+      "file": "16c-apathy05-mt-combo.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 31,
+          "severity": "high",
+          "sha256": "b07704a63bafd37ffb6ba4bce52c5c3221e1d570fe937102d8b53a678af70a5a"
+        }
+      ],
+      "file": "16c-apathy08-bw-vomit.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 17,
+          "severity": "high",
+          "sha256": "f63eae86a202d83682364a8ee9f6744760fb60f025cfeb83a086950337175b31"
+        }
+      ],
+      "file": "16c-atm-0594-w-nc.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "promotional-call-to-action"
+          ],
+          "row": 8,
+          "severity": "critical",
+          "sha256": "e3d72b6faa3d14d504f9a6b4375480a7d0a28a968e4e5b185c763add39f959b9"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 12,
+          "severity": "high",
+          "sha256": "143248b4a1d4c1ea414e59434b99772451dbaf6ab0e0c8dc5b4e58c772b20047"
+        }
+      ],
+      "file": "16c-ato-0294-am-aod-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phoneword"
+          ],
+          "row": 38,
+          "severity": "critical",
+          "sha256": "f104df51b2e8b232f318eb87712ac622302eb8d1f67f038b9c76de35265178fe"
+        }
+      ],
+      "file": "16c-ato-0294-cc-ellad-part03.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 37,
+          "severity": "high",
+          "sha256": "d0dd965243cd8949a9af9caa92934c51c3e990c64809d1dcb0eacefc1feaf6c4"
+        }
+      ],
+      "file": "16c-avpack07-hq-r101-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 27,
+          "severity": "high",
+          "sha256": "21fa82eb263f95a6d0e4a1fa6de6ac555b7d9da688348cb002ad1046a46e4baa"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 28,
+          "severity": "high",
+          "sha256": "8efb2cbf19a7419418d007e14574dc3c7c362442b9bd03c0ca0b58555a2b07b8"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 29,
+          "severity": "high",
+          "sha256": "747e176f30602eda9bf8a925e33b49a1bf8c8dbff05340358365a6e4af28cb40"
+        }
+      ],
+      "file": "16c-b2b-0795-bl-gold1-part03.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "promotional-call-to-action"
+          ],
+          "row": 5,
+          "severity": "critical",
+          "sha256": "5dced57492b72aa1d5c1c89ad7025db8feadc8bded4bb43cb4c0716f82bc6bef"
+        }
+      ],
+      "file": "16c-bdp-1095-co-cow-part01.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 19,
+          "severity": "high",
+          "sha256": "12d494e75ea433061abbc14752418ea01ecbf697316d447bfaa25147c1f32aee"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 20,
+          "severity": "high",
+          "sha256": "0a32a353065913bd83baad8c9b5f3b9adcfbe33ace35f5046f83184b3082faa6"
+        }
+      ],
+      "file": "16c-bh-02-bluehell.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 37,
+          "severity": "high",
+          "sha256": "d9631b41275ff3fdd860d6c204820f44bb6a4b2607d671851040b948f563a3ef"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 38,
+          "severity": "high",
+          "sha256": "2322447dbdbdc1433a2ccc69c7285179d9a8238b60090e4087dc52c62ed8e669"
+        }
+      ],
+      "file": "16c-blde9405-tp-nn-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 21,
+          "severity": "high",
+          "sha256": "17084e434877c7c6f7466029a71d96a53c72813d0b3b7cd5a705c782f089548a"
+        }
+      ],
+      "file": "16c-blde9407-tp-enigm-part03.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 42,
+          "severity": "high",
+          "sha256": "c18f44db21cbb1a65e240a4fed3407c1e72653d6b27ec41c1b7d81e0520badaf"
+        }
+      ],
+      "file": "16c-blde9410-tp-mh-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 19,
+          "severity": "high",
+          "sha256": "727bb7c621c0c524924583d01abc3ebc96f73f43118ec5081801b3c028bce1f9"
+        }
+      ],
+      "file": "16c-bleach01-s0g-da-part03.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 39,
+          "severity": "high",
+          "sha256": "a22205bcc5451f27fad7e4b2f1a627f04afbe8a1cca6ede90867b307e4d48f31"
+        }
+      ],
+      "file": "16c-bleach01-s0g-uw2-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 41,
+          "severity": "high",
+          "sha256": "31381cf19ecdec6ffc45f77e2fe848557b804a6af7bdbd94fdbb3b977109cfc6"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 42,
+          "severity": "high",
+          "sha256": "ada2c4980e0f383c68e03bc7651e0d7a36761273c1bf18986ddfcd7029f76e01"
+        }
+      ],
+      "file": "16c-bleach05-bs-iceb1-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 2,
+          "severity": "high",
+          "sha256": "6be0148ae4e691e4106d4e77a04b6196ea2feaca93e10535b40ec4b3f3091f13"
+        }
+      ],
+      "file": "16c-blocktronics-space-invaders-rad2m-bsides-part01.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 21,
+          "severity": "high",
+          "sha256": "50f2e596ec64fc11b390a034b2cde2ac63891ad4d493cfbfae911d174b255ced"
+        }
+      ],
+      "file": "16c-bpi0696-sd-kaoz.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 7,
+          "severity": "high",
+          "sha256": "7e212cf4d4d46a10ceb965f58484541b661fd81d5556aca9a3e70e466ead917b"
+        }
+      ],
+      "file": "16c-btg-ans2-buzz-p-r-part03.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 43,
+          "severity": "high",
+          "sha256": "2d1419cd6181e465e505c1abe485e74fe62f9b476994b0c0f2b7389cd2dc3589"
+        }
+      ],
+      "file": "16c-btg-ans2-cbs1-p-r-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 24,
+          "severity": "high",
+          "sha256": "05ba118dc337dab74d715ccf1e0a7cbd81f67697915bd21e93f3a8027d0385d1"
+        }
+      ],
+      "file": "16c-btg-ans2-cbs3-p-r-part03.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 45,
+          "severity": "high",
+          "sha256": "fb0b2db0c62b4e6b1703df797c725129102e06254586d8e7100717fd5f4695fc"
+        }
+      ],
+      "file": "16c-btg-ans2-kur1-rag-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 29,
+          "severity": "high",
+          "sha256": "88ea80d5c8a1f1132856af63aa2ad794181644dda1ed2ac8944861b3b6c3d7e0"
+        }
+      ],
+      "file": "16c-btg-ans2-mor1-paz.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 24,
+          "severity": "high",
+          "sha256": "9f0cad4338617b97cac6360a3badfe0475bdd78a32082c79aaeef7c62d1b4b95"
+        }
+      ],
+      "file": "16c-btg-r3-buz2-rag-part03.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 23,
+          "severity": "high",
+          "sha256": "0b47b81490350ed77f17ce3a5b1d7e80e5691307b5d1c6d23590e45f0a7972e3"
+        }
+      ],
+      "file": "16c-btg-r3-des4-rag-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 47,
+          "severity": "high",
+          "sha256": "91f12a95c2e0c3ac33d6b74a51cbe82787885549f69ffb338bbf20337da497cb"
+        }
+      ],
+      "file": "16c-cd130995-cd-grm-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 46,
+          "severity": "high",
+          "sha256": "f72103d59826a62a8b861b5e2db22a31093c96828d06eab5f7c5e8ce8058dfd0"
+        }
+      ],
+      "file": "16c-ceg-009a-mb-icede-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phoneword"
+          ],
+          "row": 38,
+          "severity": "critical",
+          "sha256": "4ce6fe3085ba68fc309eacf48e55c68bf7c0f1b5460eda7e8267b7f21490ffbb"
+        }
+      ],
+      "file": "16c-cnc-0494-fr-bc-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 39,
+          "severity": "high",
+          "sha256": "2d95b7c76567768354aca9c2aba10b68e2da25ba06f43ec79bdc6a3dc4bbc755"
+        }
+      ],
+      "file": "16c-cnc-0494-htf-madh-part08.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 32,
+          "severity": "high",
+          "sha256": "67bc001ab0c173833ec53522ad722f860f8fc7cb20ebbfdfe71384d4969b15ab"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 33,
+          "severity": "high",
+          "sha256": "000c54aff5b5b5e76237d0c8e650688902473ed2a7c55a109c9e68cdfef9e515"
+        }
+      ],
+      "file": "16c-cnc-0894-sb-cdx-part05.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 5,
+          "severity": "high",
+          "sha256": "816bb23a6c89732570a1ef6df041f5b3a4fa1532ef651ea84b0378d4a7afcec6"
+        }
+      ],
+      "file": "16c-cri-0495-mr-sv.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 23,
+          "severity": "high",
+          "sha256": "e24ee19f0ffb1a0703ae2dc4afc39560530b1b7d459a2a3dcfa4178de3909da6"
+        }
+      ],
+      "file": "16c-crx-0696-nuk-lpc1.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 17,
+          "severity": "high",
+          "sha256": "8b3c10e42f2ad04ecac37f1dd8e1c2c3c882f8f4f0d7d1707aab0dd4f0abd0ca"
+        }
+      ],
+      "file": "16c-cx-timeline-006-sc-souls-part04.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 19,
+          "severity": "high",
+          "sha256": "e45ec0668e9392dad7e08f47924d86207467fb0c6610bde835b4d9f5117e510a"
+        }
+      ],
+      "file": "16c-d38-01-oz-agenc.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 26,
+          "severity": "high",
+          "sha256": "5c56b6e0207cf69e6fb05f9b009b09dabe7b471a4f0277f91710e2659ec144d3"
+        }
+      ],
+      "file": "16c-d38-02-je-agncy.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 36,
+          "severity": "high",
+          "sha256": "d6eb267c76dc164a291625137d9a98d2df3c0cfd15292fdbb13e5320cb9705a7"
+        }
+      ],
+      "file": "16c-dead-crusades.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 22,
+          "severity": "high",
+          "sha256": "42642113c9d257856ebbdc7f3b044804a08f3945418516e9e29decf08f7300e0"
+        }
+      ],
+      "file": "16c-dkrew-06-l7-ts1.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 7,
+          "severity": "high",
+          "sha256": "4e3e71d3bbaae37bad168e6a2f456c16f5cb793f52684d0b4c1e62e870654d28"
+        }
+      ],
+      "file": "16c-dox-07-st-dox4.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 39,
+          "severity": "high",
+          "sha256": "39e51aea57f2f012b5ccb838f09082c9a668f8e337bd80a26ab1290fa075dc3d"
+        }
+      ],
+      "file": "16c-dox-07-st-uc6.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 5,
+          "severity": "high",
+          "sha256": "7aa7a09f8b3a69ea237bc5e8d54e7182bafc41611560ca4cd7f521375bbd520c"
+        }
+      ],
+      "file": "16c-dox-09-lst-sun1.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 32,
+          "severity": "high",
+          "sha256": "b552df788c17066ee7ef4ad7337c52381c0eb031c674950bd8d0f87a62cb4ca1"
+        }
+      ],
+      "file": "16c-drg0497-jda-dig.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 22,
+          "severity": "high",
+          "sha256": "31383d6468b76e438f232af61cf1051813479d8a9862f5ea200189637d62f3ed"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 23,
+          "severity": "high",
+          "sha256": "3213442d41ae4a83c5f0469baefd003154beef1fdf29d73feef3fa9a6b269edb"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 24,
+          "severity": "high",
+          "sha256": "7a9928a9a4ce472878d427ab5d416033b774557eab38c3f002cff9bda1159e59"
+        }
+      ],
+      "file": "16c-dvt-a001-warning.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 31,
+          "severity": "high",
+          "sha256": "8d99da9848cfbab9b1d0dc7a1b3ca43a3e26cb3ec9a90f441e024c5edb35e47c"
+        }
+      ],
+      "file": "16c-dvt-a002-mf-adet1.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 34,
+          "severity": "high",
+          "sha256": "8d99da9848cfbab9b1d0dc7a1b3ca43a3e26cb3ec9a90f441e024c5edb35e47c"
+        }
+      ],
+      "file": "16c-dvt-a002-mf-defl1.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 40,
+          "severity": "high",
+          "sha256": "8d99da9848cfbab9b1d0dc7a1b3ca43a3e26cb3ec9a90f441e024c5edb35e47c"
+        }
+      ],
+      "file": "16c-dvt-a002-mf-defl2.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 27,
+          "severity": "high",
+          "sha256": "8d99da9848cfbab9b1d0dc7a1b3ca43a3e26cb3ec9a90f441e024c5edb35e47c"
+        }
+      ],
+      "file": "16c-dvt-a002-mf-logon.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 24,
+          "severity": "high",
+          "sha256": "8d1f8903bc4d9d5f0d513b7d3f5a4dad3210636648a63f0b49d0d29605251312"
+        }
+      ],
+      "file": "16c-ecl-08-cz-dnk4.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 37,
+          "severity": "high",
+          "sha256": "c796c81ae3ce7c64dffa8e063cbf24fc1a7dddce08e0a3dbe5e5d8962856834f"
+        }
+      ],
+      "file": "16c-ensigm-tg-crypt-part04.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 16,
+          "severity": "high",
+          "sha256": "99c7a57e7f96fd26c67b2fd1c0d954506057ea2c0428d7c279ab18528cb0eb7f"
+        }
+      ],
+      "file": "16c-eph0695-fa-dh-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 38,
+          "severity": "high",
+          "sha256": "4bfe4feb96c564dd74d5292986fe5b7ea7d96742af7f2a4e8b917a51a5db7f28"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 39,
+          "severity": "high",
+          "sha256": "f48c18f39fa78216781fee6ca97c4166bb5b84abcabdb1cbce52431a29c2938a"
+        }
+      ],
+      "file": "16c-epic0004-ar-prevl-part04.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 22,
+          "severity": "high",
+          "sha256": "bc5bdee7e184a09607ddfe99b892e5ae0ad3950b3c8b77cd8e9fbf5eee537ac8"
+        }
+      ],
+      "file": "16c-escape01-jz-trn-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 10,
+          "severity": "high",
+          "sha256": "384c19a5b01a727268effe91a4b7f9da867fbddb95cf0723c251df0de5fdff0e"
+        }
+      ],
+      "file": "16c-esp0296-rd-dam1.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 12,
+          "severity": "high",
+          "sha256": "c18ebec529efc41910b6008ac944af5a892c40af7da246152f7282c502fb0905"
+        }
+      ],
+      "file": "16c-fact-04-pl-cosmi.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 28,
+          "severity": "high",
+          "sha256": "e3750d796feae5f304d0be9008466c20c6f0e8b5c595292b3fbc5616825b6d3b"
+        }
+      ],
+      "file": "16c-fawk1193-malpract-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 24,
+          "severity": "high",
+          "sha256": "0b277ecb5e489734f2869b0dbee8f64c3f49be3710ffb1360d88397fa9ce9235"
+        }
+      ],
+      "file": "16c-fawk1193-muscle-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 21,
+          "severity": "high",
+          "sha256": "c672db8a0d84e9e68460b2ec6131153b27c90f04a03609d9e4201fa333ade303"
+        }
+      ],
+      "file": "16c-fear1294-fi-ai-part03.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 27,
+          "severity": "high",
+          "sha256": "7a9a4d689173da0a684f27159cf9aa246072f46ed5eea330a94d07c0479d1fdd"
+        }
+      ],
+      "file": "16c-fire0397-ave-c4.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 31,
+          "severity": "high",
+          "sha256": "264cc694663d05c9203f0e3fe4c1c8f8625ac2b4bf621c80aa311acca7e38666"
+        }
+      ],
+      "file": "16c-fire0894-ep-qi-part05.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 7,
+          "severity": "high",
+          "sha256": "a96e7c6d8a65d89c05dd8bd9b608d130ef80c1b94e812dd63ba368bd0d4cc852"
+        }
+      ],
+      "file": "16c-flux-003-dky-dbz.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 39,
+          "severity": "high",
+          "sha256": "19ceaee4173d639a618e1fcf7d1100df671462d27c8d051d16f96c3b868866d7"
+        }
+      ],
+      "file": "16c-force-02-an-cby-part03.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 6,
+          "severity": "high",
+          "sha256": "396d1e1c67eb52475a6e497555549be1e8d7245119112d54abc22562a0b40118"
+        }
+      ],
+      "file": "16c-fos-0196-dh-id1.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 19,
+          "severity": "high",
+          "sha256": "a985558ef136873449cdbd5272986aa73f6fc7e47f622d4b035cc1143a2b3957"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 20,
+          "severity": "high",
+          "sha256": "573a5305936e84d11927f7be0fbc4c671c545287dd07ac6303efbd5ccc75f363"
+        }
+      ],
+      "file": "16c-fsn-0196-iz-error.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 32,
+          "severity": "high",
+          "sha256": "e07b5443a6cb482df5dc6b00cbb37df96565ebfeeb854f17268a4e8d14ee7594"
+        }
+      ],
+      "file": "16c-fsn-0197-sc-jul.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 4,
+          "severity": "high",
+          "sha256": "9eaefe9557432fa946046b98d2ab84e1e316ec158a2c0c3769d5e19aa181ef54"
+        }
+      ],
+      "file": "16c-fsn-0496-iz-prev1-part01.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 26,
+          "severity": "high",
+          "sha256": "cbcb002b9d3bd3aab7e27725d683766a5ce4da6a0df7bc4a74f0864ede8d259f"
+        }
+      ],
+      "file": "16c-fsn-0496-iz-prev1-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 23,
+          "severity": "high",
+          "sha256": "f321e709f2a0f0f7fe4a41f78e47c298e0e51fadf324ab0136b1d2fa27ed4eac"
+        }
+      ],
+      "file": "16c-fsn-0696-iz-soa.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 44,
+          "severity": "high",
+          "sha256": "ee119b618a923c6c7ae012a725b4aef72e97b7677310db731a2c9b0954704318"
+        }
+      ],
+      "file": "16c-fsn-1295-ph-prevl-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 14,
+          "severity": "high",
+          "sha256": "44dd6aa798ba8fc7bcb387a5f6ad7cbae78355505b227f079972eeb320be91dc"
+        }
+      ],
+      "file": "16c-fuel09-us-snl.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 17,
+          "severity": "high",
+          "sha256": "a3d8105a8db1c74384e9181d8f434f034963677f512c984c5d9848940bcd8de7"
+        }
+      ],
+      "file": "16c-fuel15-gt-explo.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 24,
+          "severity": "high",
+          "sha256": "27c5ad1234e5299f2d80dabc6df9480d7a3884ffd4a4320a9edae5acac6b25ee"
+        }
+      ],
+      "file": "16c-hal0698-et-lvlmp.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 32,
+          "severity": "high",
+          "sha256": "c12c751f9230fbb80d1a56b3fbd7732a12dc49d047c17686dc08e0dea17d34cd"
+        }
+      ],
+      "file": "16c-haze-002-sui-mist-part01.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 28,
+          "severity": "high",
+          "sha256": "77c158183d6ca33fbe9c869cf3be943cbf0a329a103903da38151683f5cfe41a"
+        }
+      ],
+      "file": "16c-heat-04-mg-penu.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 24,
+          "severity": "high",
+          "sha256": "c68744595335f78ee636736a74a89b86cce441735da9f17cc7f74af5e409c206"
+        }
+      ],
+      "file": "16c-hn-0596-to-tw.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 39,
+          "severity": "high",
+          "sha256": "f410cf8af885e4a92ebb1690fe300622fbb575a22788b65234fc1fbc453b628c"
+        }
+      ],
+      "file": "16c-hr09-94-thepitt2-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 4,
+          "severity": "high",
+          "sha256": "8fc9d754631fd8e910e2992d1bf7c134d38f7950579e0ffe7eb3f5baea75f081"
+        }
+      ],
+      "file": "16c-ice-9506-kz-doa-part07.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 42,
+          "severity": "high",
+          "sha256": "55094f0e9ff236ae8e36e3058fd079832e2a7729f1fb283c2fce152e4da7b9cb"
+        }
+      ],
+      "file": "16c-ice9409a-pn-px1-part05.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 32,
+          "severity": "high",
+          "sha256": "d3256e2babf46d4e2c89afa6ff098efcbb6438af8d872a8cb6ab146cfb369f07"
+        }
+      ],
+      "file": "16c-ice9509a-ck-alm-part05.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 48,
+          "severity": "high",
+          "sha256": "8524273f4bcc8fb6fa97111853be3d3be4bd4942102eba2d45e724cf87715b9a"
+        }
+      ],
+      "file": "16c-ice9510a-hm-ad-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 29,
+          "severity": "high",
+          "sha256": "1172a98864b946aae0a2192fb8f66f4cb9b95c4c8428150a89a5f8314853874d"
+        }
+      ],
+      "file": "16c-ice9510a-mm-gzer0-part01.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 14,
+          "severity": "high",
+          "sha256": "089f50cf2ab96ed41cb9052810112639afd02491dd4cbe330cd03f4f6a59e044"
+        }
+      ],
+      "file": "16c-ice9605a-09-shock.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 45,
+          "severity": "high",
+          "sha256": "62c55a971090863d94f32948b20ea25866b8048a98721775dccceb99770f6ae2"
+        }
+      ],
+      "file": "16c-ice9607a-kz-sd2.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 18,
+          "severity": "high",
+          "sha256": "a40ad6d752506dd66e50b34a66964e6a882638c134ad766104ecd8eff8815eba"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 19,
+          "severity": "high",
+          "sha256": "e8b4a673df77ed6b8c5f49b22d52590d287ba1a1169bfd9a91748a5e37a46a95"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 20,
+          "severity": "high",
+          "sha256": "4b64945033c0b4aef265b9fb024ce1de1f66254303d02c2b0573a585c16f4516"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 21,
+          "severity": "high",
+          "sha256": "a4bf0ff28e6ac8db1ff37bfd117ff838ec444d8b2bf041f3c0d4e372a3ac1eb0"
+        }
+      ],
+      "file": "16c-icepk-09-zi-xeuro-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 36,
+          "severity": "high",
+          "sha256": "e6a83c886b73916369dce4790767f09b0108326493eac1036b2d8727659efef6"
+        }
+      ],
+      "file": "16c-icepk-11-am-tdc-part03.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 29,
+          "severity": "high",
+          "sha256": "226269860a9f25c7109937a8f1a553425ec39a79f0b38c25b62d78a2f5befe4b"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 30,
+          "severity": "high",
+          "sha256": "f5becf10bc4889c50d76ce19a46300e3444dbbc0aaaeb06ee8daa9a1d4a22505"
+        }
+      ],
+      "file": "16c-img0994-sw-sitr2-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 3,
+          "severity": "high",
+          "sha256": "a6fba5d5364c8deade1845b54834789afff69dd1ffa34d127579e027e7a6b378"
+        }
+      ],
+      "file": "16c-irapack4-ra-vd1.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 21,
+          "severity": "high",
+          "sha256": "4fcd80c235ec95d0407dc6d612c5a4b78c799bababfcd3dbda61c199b4359339"
+        }
+      ],
+      "file": "16c-irapack4-ra-vd2.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 23,
+          "severity": "high",
+          "sha256": "27dc448d82b0597061d8e58332cc224ace2128cd127c8bb71329e9f85acd1eac"
+        }
+      ],
+      "file": "16c-k0tpr0be-bw-eye-1.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 12,
+          "severity": "high",
+          "sha256": "f792c769fbccc9ad77a29a5c2dff3c8c42b64c1f60e958f7278565ad5a574fb6"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 13,
+          "severity": "high",
+          "sha256": "b0551d65bebe13f0f7c07f05209e320d310b6fd89e86ae783f3b27f88d506785"
+        }
+      ],
+      "file": "16c-k0tpr0be-ca-attak.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 34,
+          "severity": "high",
+          "sha256": "1380f7433c084defc6416acfa3ce6eee43c292b3dcd66da6beefbf657d209813"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 35,
+          "severity": "high",
+          "sha256": "54d8b0e6352ca134bd5007fcc627bfa0893c3f9d1f0b1a330127b4849e8205e1"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 36,
+          "severity": "high",
+          "sha256": "628965a807e492ba9e617b2b13359561f7b74aa1b4cfc01222364b7d38c5ac3b"
+        }
+      ],
+      "file": "16c-k0tpr0be-kr-kewl.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 30,
+          "severity": "high",
+          "sha256": "85d4b5d7708e2cea0c694ce2c08e0bd447cc79436597295dffe4d0d9b428ecd7"
+        }
+      ],
+      "file": "16c-l0p06-00-sk-tds.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 39,
+          "severity": "high",
+          "sha256": "7fdc2ca84ec6553de8c077eef66af94f078c68d3e4b6adbb19d73a3570e9b324"
+        }
+      ],
+      "file": "16c-legend01-ev-mayo2-part07.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 42,
+          "severity": "high",
+          "sha256": "562fc989bd972358108eecfef5b79c9197c10fa3f6f316cdbc48936631d44c3c"
+        }
+      ],
+      "file": "16c-lght9406-fo-doom1-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 10,
+          "severity": "high",
+          "sha256": "5db854f3b444e50a4df00c9e347b24452f320a38732325e4bddca4a3e733ebcb"
+        }
+      ],
+      "file": "16c-lght9406-pr-td-part01.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 39,
+          "severity": "high",
+          "sha256": "e8b0f75533088403291045e83962364d23dc86b352777cf539e0627377e5f0b3"
+        }
+      ],
+      "file": "16c-ls-0394-pp-re-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 24,
+          "severity": "high",
+          "sha256": "a61e6d0ca9ce7b361f68ca0e71694ac51cdde70ab8bbdbd158ca4335e88931b1"
+        }
+      ],
+      "file": "16c-ls-0396-gi-op.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 2,
+          "severity": "high",
+          "sha256": "1720549551452cc7f2b1ba76cb428b95f09ab1772fe0ede13af66d8d44896f79"
+        }
+      ],
+      "file": "16c-maiden13-us-urch.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 11,
+          "severity": "high",
+          "sha256": "f256db678b34e0f06d3fa9e5b1f531eeede45bdeee4456e1f76fa0d40079f512"
+        }
+      ],
+      "file": "16c-max-artpack-0393-ansi0393-bl-ds92.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 29,
+          "severity": "high",
+          "sha256": "1868ed0f1a2b4e0b5bc87ecdb2ba1ce37cefbaae736a37d57ebe000d283a7e49"
+        }
+      ],
+      "file": "16c-mist0195-mz-dzone-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 45,
+          "severity": "high",
+          "sha256": "05acc44953f506cfb47cf974744b4dfba8947a9552d9966165c93d8e9828d912"
+        }
+      ],
+      "file": "16c-mist0797-et-tjm1.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 18,
+          "severity": "high",
+          "sha256": "0024cf78fe559f4113a01d82b7973c06b7013c54ca332a9478a045b9de3ebd14"
+        }
+      ],
+      "file": "16c-mist0895-el-mg-part04.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 11,
+          "severity": "high",
+          "sha256": "2705325019d32e9dfa1d6b1e247a55651f0c8dd4ba95321da70ff602a93cb239"
+        }
+      ],
+      "file": "16c-moi-1096-nxci-add.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 21,
+          "severity": "high",
+          "sha256": "372a873e381e2a35527bfba5569924b359a48d8c5940a1a1d0a613d56970f4ee"
+        }
+      ],
+      "file": "16c-moi-1296-mh-goi.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 26,
+          "severity": "high",
+          "sha256": "63563459ae2d50e32da599ae56590567e575ca708c60075ed49852e1ee729ab3"
+        }
+      ],
+      "file": "16c-mpir0494-rl-tpp1-part04.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 24,
+          "severity": "high",
+          "sha256": "f26c70e0a583e329720e45d806d0c9c83df24935c403973942c6d3dcb2f4e310"
+        }
+      ],
+      "file": "16c-mskp-01-xo-phnt1.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 15,
+          "severity": "high",
+          "sha256": "48a0d6fb737c9b9f6525ebde178d3867ef1757c4746706b61e696d1c9f8dfba5"
+        }
+      ],
+      "file": "16c-mskp-02-xo-spy.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 29,
+          "severity": "high",
+          "sha256": "d7ab3dcf7b52458b676757ef24a2fd5c02e98254350fcaf08e2bbc18cdbed010"
+        }
+      ],
+      "file": "16c-mtn-0695-tr-gs-part03.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 6,
+          "severity": "high",
+          "sha256": "c803873e1a669d1eeedb1ecf1e2da5d473172265c47c4ae3615ebafcd6dbe17c"
+        }
+      ],
+      "file": "16c-n-pack2-rn.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 37,
+          "severity": "high",
+          "sha256": "620813ee181f71f1503e39c20d14f1cbd1070f08c6eeca04fd343553798d764f"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 38,
+          "severity": "high",
+          "sha256": "c514b0413814af8b021deaf79700884e265132c0a7af887b6b6cd7d6e9f3bd2f"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 39,
+          "severity": "high",
+          "sha256": "3e353cec512a5654a58a6e952163218d39d73649ee4e4b24a9e2e83fb8cbc875"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 47,
+          "severity": "high",
+          "sha256": "9f9d7b28071c9b0d6d178fe768400d9f0d192e9ba34c91ca8c0e783f046f8e2e"
+        }
+      ],
+      "file": "16c-nerp-01-biz-grap.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 37,
+          "severity": "high",
+          "sha256": "1a71178a9b21b38f3184282fbf259f98499cf801eae8bf6c99575a4393a81367"
+        }
+      ],
+      "file": "16c-odium-01-wo-won1-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 45,
+          "severity": "high",
+          "sha256": "96e6cad6228836891126b502e01b41a4c39ace5e14a756088ade921bbc40aec4"
+        }
+      ],
+      "file": "16c-optk0294-fl-dox-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 24,
+          "severity": "high",
+          "sha256": "dedc38471c704b89d05757bb9633b4cff9128aa519552007f1300eec23754e99"
+        }
+      ],
+      "file": "16c-opx-0297-zii-ccol-part01.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 30,
+          "severity": "high",
+          "sha256": "9888e5319bae3027413052e78be548c8d96d53714c6baf7b679f6c8455bddc35"
+        }
+      ],
+      "file": "16c-opx-1296-va-bear.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 13,
+          "severity": "critical",
+          "sha256": "bc58470f62b98a3194d88211b0f14cb69a598725ed88d977207283fbf5518310"
+        }
+      ],
+      "file": "16c-orbit01-ts-vr-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 24,
+          "severity": "high",
+          "sha256": "f722a18d15fb88551e963db6d63bef96d05134d3fadddf409dcc1fad8506532d"
+        }
+      ],
+      "file": "16c-out-0296-vampad.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 14,
+          "severity": "high",
+          "sha256": "e4f2e81e50b9d5ecf48746e5ff5e3aeaf8e1b34312de6c15e6617a0d47af3c69"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 15,
+          "severity": "high",
+          "sha256": "6f74f728c70a46153f1b439c18d74b462520463ba31544d38d9fb5a52dfc2979"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 16,
+          "severity": "high",
+          "sha256": "4f9c0a069fa0a0ebec66b0f1308eacd540e69325adf27dcb5fc4d0b31fe9d98b"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 17,
+          "severity": "high",
+          "sha256": "ff336b0deb7975cbf0f8164c73cb1e5d536e2af81ea6e5722210b3122e51f3d6"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 18,
+          "severity": "high",
+          "sha256": "e57e2550b91bb5570ced91c91884c61e2dad3541315c4bf98b40d2ace9bc9047"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 19,
+          "severity": "high",
+          "sha256": "098c55b50d4532a1750585c4c04205a35150d82eb476cacebfd5c7d5e22ad7d0"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 20,
+          "severity": "high",
+          "sha256": "5541b8ba3b4c791ca3a995b41f8a02838f2d34505ab7b96286dd8d9acb9a1d1a"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 21,
+          "severity": "high",
+          "sha256": "5541b8ba3b4c791ca3a995b41f8a02838f2d34505ab7b96286dd8d9acb9a1d1a"
+        }
+      ],
+      "file": "16c-pang04-n4-odysy.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 35,
+          "severity": "high",
+          "sha256": "4ed281c8dfa8ff6f313acc29222f665d1715ffd6f8ddf1345108d49c6d2c5c45"
+        }
+      ],
+      "file": "16c-phat0297-in-disto-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 3,
+          "severity": "high",
+          "sha256": "bc270f1b713d5ddc81dc8a528c383d35f8b6d866d318cadefb4a702b053e9e2c"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 4,
+          "severity": "high",
+          "sha256": "9e3c9b5bc0bd45a2c44f9241b443f9c7e4c3b46a213a129f916767ab5fabe385"
+        }
+      ],
+      "file": "16c-prz-9607-px-split.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 29,
+          "severity": "high",
+          "sha256": "4f82a1bd44b5ac53257e00e34b5330ba47598211ec7c737fda3d63b18eacfc10"
+        }
+      ],
+      "file": "16c-puke1-95-sw-darkw.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 15,
+          "severity": "high",
+          "sha256": "d9ed061cee70662805c52c020360b2c798a99cb9465afd550605de4898b63d36"
+        }
+      ],
+      "file": "16c-purg-05-drc-elec.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 22,
+          "severity": "high",
+          "sha256": "5945b0303063e4e5404297ce7c88dd113356011756204ad3c33b0ddad0839090"
+        }
+      ],
+      "file": "16c-ra-pack2-rg-thom6.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 14,
+          "severity": "high",
+          "sha256": "4a343b1968bf58013aa729b7eab8dec87abe2440fffe3ef274800b03989d75b0"
+        }
+      ],
+      "file": "16c-rare-001-ess-aaaa.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 23,
+          "severity": "high",
+          "sha256": "a5dff5fe571bfdc314e12e1b059c49bc92aa04010c065b43efb3cde08b31316a"
+        }
+      ],
+      "file": "16c-rave-02-rv-thead-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 25,
+          "severity": "high",
+          "sha256": "a3da2fa0ca32edd38b7ab0cb3073dca2d4bfed95fb4ca4b2896591c3efa5153d"
+        }
+      ],
+      "file": "16c-rca-9606-wm-1b67.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "obfuscated-phone"
+          ],
+          "row": 7,
+          "severity": "critical",
+          "sha256": "3928724f608ecdcbc7a3c371d4ec94091305d2482025582bf6e70b32dec2d1eb"
+        }
+      ],
+      "file": "16c-rib-003-sr-gh.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 9,
+          "severity": "high",
+          "sha256": "997b2f0aa3f063fc2cb251ca814b88a082d7ed7b88f5615ada04b92124c42f01"
+        }
+      ],
+      "file": "16c-riot1097-2m-lod.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 39,
+          "severity": "high",
+          "sha256": "29c4aea8bc2ae2496808da30611de5d39a0a179b25f6ee161eee9a8a8ae9b29d"
+        }
+      ],
+      "file": "16c-sac0995-ds-hijck-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 43,
+          "severity": "high",
+          "sha256": "73e4467b90c2265b4d584e5ae4248dd00b91ca92db7c2d1e617a93130a66a0cb"
+        }
+      ],
+      "file": "16c-sampkt-4-cr.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 18,
+          "severity": "high",
+          "sha256": "704587daa171792b17703582c302014a45f1f66b98ca6a4fc32fae57a379424f"
+        }
+      ],
+      "file": "16c-sense10-kr-hk01.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 42,
+          "severity": "high",
+          "sha256": "8aee8f9624e1976edb5fec298dbb9c3d4eff53b859ede1f565974cf8d1869a34"
+        }
+      ],
+      "file": "16c-shv-0794-zk-std69-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 18,
+          "severity": "high",
+          "sha256": "f1f60670979a08bbad6d308e4d9f7ba06ee8607c168f5394c8ebebadd68dbcd6"
+        }
+      ],
+      "file": "16c-skl-1293-ab-ar.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 41,
+          "severity": "high",
+          "sha256": "30867910b3837cb6f5d18d900a9f31b3aa72adf4834c9db8ecb1f192857ddd9b"
+        }
+      ],
+      "file": "16c-spas9503-mn-st1.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 33,
+          "severity": "high",
+          "sha256": "3d2ed6436e225c849b6db028a1f71873c0fb537cb802aafaa5e78ac3703d1bf7"
+        }
+      ],
+      "file": "16c-srg2vos-crusade3-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 16,
+          "severity": "high",
+          "sha256": "2f331033778dadcaa35be2aec085587d583eb9b9b0c5b8507c6353f28aa0b901"
+        },
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 17,
+          "severity": "high",
+          "sha256": "b1b7fa1c92d821ee9125e914085531df4f38c28531ee24740b0d3222b4bd0a93"
+        }
+      ],
+      "file": "16c-stl-002a-db-tib2-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 28,
+          "severity": "high",
+          "sha256": "4098f2d2a0dde48666105fb68070399fe078a3099936ab8ad8d6daeff34c6fc2"
+        }
+      ],
+      "file": "16c-stl-003-ca-alg-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 36,
+          "severity": "high",
+          "sha256": "46efd290f0b0af6f9562619924dbdda6a0759a9cfb1dd41e88a3b259f075db66"
+        }
+      ],
+      "file": "16c-stl-005-ho-sham-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 36,
+          "severity": "high",
+          "sha256": "f81ef6649f49a21669e89d4f1e48c563eea5e629ec9d028883b2b276c79703d3"
+        }
+      ],
+      "file": "16c-stl-005-qs-stx-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 15,
+          "severity": "high",
+          "sha256": "aa568082a02df8e6d94d87ce73aff260775b3662664c1933055ba8eb4881b1fe"
+        }
+      ],
+      "file": "16c-stl-0296-md-palac-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 45,
+          "severity": "high",
+          "sha256": "e04521c2d2d9b20efd88f2c18206a377eb61bebc8bb6c049c4893da7fc33cb96"
+        }
+      ],
+      "file": "16c-stl-0296-md-state-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 36,
+          "severity": "high",
+          "sha256": "d02a62e4ff01ca7912bac4bc88bbdff07457fa215df0a7ef4d1ce95a2383f93c"
+        }
+      ],
+      "file": "16c-stl-0296-ph-cloud-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 25,
+          "severity": "high",
+          "sha256": "16cd0026adaac2b1c3a4bc1d74e25ceabed9e13ebb5c455326af758c1829bc41"
+        }
+      ],
+      "file": "16c-tdd-0296-cs-lost.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 20,
+          "severity": "high",
+          "sha256": "4661c2b110be707e900fcceac74554c72c8f871d747193c594942b4803a09586"
+        }
+      ],
+      "file": "16c-tst-jan-dfrce1-part03.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 35,
+          "severity": "high",
+          "sha256": "4661c2b110be707e900fcceac74554c72c8f871d747193c594942b4803a09586"
+        }
+      ],
+      "file": "16c-tst-jan-dfrce2-part03.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 35,
+          "severity": "high",
+          "sha256": "4661c2b110be707e900fcceac74554c72c8f871d747193c594942b4803a09586"
+        }
+      ],
+      "file": "16c-tst-jan-dfrce3-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 18,
+          "severity": "high",
+          "sha256": "4661c2b110be707e900fcceac74554c72c8f871d747193c594942b4803a09586"
+        }
+      ],
+      "file": "16c-tst-jan-dfrce4-part03.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 36,
+          "severity": "high",
+          "sha256": "5dc780abc12ccedb1fd133f8c11f8d8fac687a5670376e4aaf33ed963bde1112"
+        }
+      ],
+      "file": "16c-tst-july-dforce1-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 33,
+          "severity": "high",
+          "sha256": "607c140a4e058a233adc7337243efa8f9e97923cbc9a63e7805d5c10b5070016"
+        }
+      ],
+      "file": "16c-tst-july-dforce2-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 13,
+          "severity": "high",
+          "sha256": "b86e4f449da490ff600983a915d13593a8b186e0a3c7b6ca4e5d58486f49de34"
+        }
+      ],
+      "file": "16c-twat0898-smr-en1.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 3,
+          "severity": "high",
+          "sha256": "3a5c0a6d50cd321907ff116a0cb2caa5d7f35732ae8e3b3e668ee38bdcb09775"
+        }
+      ],
+      "file": "16c-uni-0195-ca-sih-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 36,
+          "severity": "high",
+          "sha256": "e463ee381463d0e7ed65a132a5beff308309552d835426c29aea0ad1472ab330"
+        }
+      ],
+      "file": "16c-uni-0295-nz-el1-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 6,
+          "severity": "high",
+          "sha256": "f1d1368aaa7bc2ec73077a46c42e49677969973e9db88afcf4f4c8ba8f875905"
+        }
+      ],
+      "file": "16c-uni-0395-im-4d5-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 14,
+          "severity": "high",
+          "sha256": "4fc1a6438893ad8119e4c468f70454898b3c657343adb3daf96b874eee5a0f51"
+        }
+      ],
+      "file": "16c-uni-0395-nz-pr2-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 39,
+          "severity": "high",
+          "sha256": "efa877eb2cc2f23621605b08cccda4b8697b0f4a3d52c65f5e4eb6ab88c3962d"
+        }
+      ],
+      "file": "16c-uni-0495-nz-tt1-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 26,
+          "severity": "critical",
+          "sha256": "4ba273c0e75502fe9d7f1b2af81ffb9b86407dddebd661cc90cea41ab23f24ee"
+        }
+      ],
+      "file": "16c-uni-0694-hd-tbs1-part04.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 25,
+          "severity": "high",
+          "sha256": "a1d508588239e627e41d6d8f20a64406244de1fd7f606816a6a3ad7326fdfafa"
+        }
+      ],
+      "file": "16c-uprise01-pl-eve.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 24,
+          "severity": "high",
+          "sha256": "bdfbad16bdcdfa86669f2d6ce74d2a92aa7dbae4f2cd37de597e82c3388912c2"
+        }
+      ],
+      "file": "16c-void0195-wz-dark1-part02.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 29,
+          "severity": "high",
+          "sha256": "c37f8dfdfda8fc983745e5b98e719da1e11571f3f3b2dffbe904dfb715686a39"
+        }
+      ],
+      "file": "16c-wind0195-pr-tha-part03.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 33,
+          "severity": "high",
+          "sha256": "d116a06e7b4a30cf48f6a18a168af53dd22c72def082f0a7d93a1691a80aab6a"
+        }
+      ],
+      "file": "16c-wld-art1-rastas.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phone"
+          ],
+          "row": 22,
+          "severity": "high",
+          "sha256": "79906d23757d157c06fa94c6424c32d0d9c922c2c46912da544b7216d6149af7"
+        }
+      ],
+      "file": "16c-wrlk-05-pm-wild.ps1"
+    },
+    {
+      "evidence": [
+        {
+          "action": "blank-text",
+          "categories": [
+            "phoneword"
+          ],
+          "row": 28,
+          "severity": "critical",
+          "sha256": "3fa7be15b7d2c3800accb962d20ae8fc551784046002daf3fd03350f1140e2ff"
+        }
+      ],
+      "file": "16c-xide0495-dh-thent-part02.ps1"
+    }
+  ]
+}

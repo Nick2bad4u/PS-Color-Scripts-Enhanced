@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-SCNT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge05/raw/TNA-SCNT.ANS
-# Source Revision: archive-sha256:615f93ac3e9f6dbb8b5c0af3b04c28ece4dfc24ad41847f78024e1caa01cce6c
-# Source SHA-256: 6a41f577d724d6ad156dc34c685a930645f57a127dcd35b8af75cae685999aa7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-SCNT.ANS by The Night Angel (Avenge Cult); released in avenge05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Scent
-# SAUCE Author: The Night Angel
-# SAUCE Group: Avenge Cult
-# SAUCE Date: 19980519
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Scent by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge05-tna-scnt
 
 Write-Host '
 tna([1mave[0m) ▄[1m▄   [0;32m▄ [0;30mtna tna [0;36m░[0;30;46m▓[0;37;40m [0;36;40m▄[0;1;36;46m▄░[0;36m█▄ [0;1;36m░▒▓[0;1;36;44m▓[0;36m▀█[0;1;36;46m░▄▄[0;36m▄ ▀[0;1;36m▀ [0;1;30m-- ▄▄[0m▄▄[1;30;47m▀▀[0;1;37;40m▒▒[0m▀▀ [1;30m─ [0;36m▀[0;1;36m▀[0;1;36;46m▀[0;36m█▀   ▀██[0;1;30;46m▀[0;36m▄ ▀[0;1;36;46m▀[0;36m█[0m

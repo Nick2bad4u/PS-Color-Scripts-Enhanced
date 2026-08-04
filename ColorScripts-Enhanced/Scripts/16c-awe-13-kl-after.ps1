@@ -1,18 +1,4 @@
-﻿# Converted from: KL-AFTER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-13/raw/KL-AFTER.ANS
-# Source Revision: archive-sha256:fab7f52e9d735740432e5cc1693a7c3574c7cc669fe711a2863770d2425cce92
-# Source SHA-256: fa56a1223c42aa92fc3a5da3eb208d38da084ffaf38f8935f6e8c1d0eabf3a19
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KL-AFTER.ANS by Knocturnal (AWE Lettering); released in awe-13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Aftermath
-# SAUCE Author: Knocturnal
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19971115
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Aftermath by Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-13-kl-after
 
 Write-Host '
 [34m [0;37m [0;31m  [0;34m     [0m                [34m  [0m   [31m▄▄▄▐[0;37m [0;1;31m [0m   [34m                  [0;37m [0;31m [0;37m   [0;34m          [0;37m [0;1;31m░░[0m   [34m [0;37m [0m

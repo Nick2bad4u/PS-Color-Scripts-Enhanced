@@ -1,18 +1,4 @@
-﻿# Converted from: PYX-OI3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0597/raw/PYX-OI3.ANS
-# Source Revision: archive-sha256:77e5528a945f670ea04f743fe66c6a4dc19b897ad7883b4458eeee0528f25975
-# Source SHA-256: 5d5c397a874070da46b1109920ac148260db8fc03a2f5009d25d202e73ba8640
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-OI3.ANS by Pyx (Bamboosh); released in bmb-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Optical Illusion login
-# SAUCE Author: Pyx
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19970213
-# SAUCE Dimensions: 80x25
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Optical Illusion login by Pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0597-pyx-oi3
 
 Write-Host '
 [32m░[0;37m [0;32m▄▒▄▒ ░ ░░░[0;37m [0;32m░░[0;37m  [0;32m░▒░[0;37m [0;32m▀▒▓▓▄▄[0m   [32m░▒▓▀▓[0;37m [0;32m░▒░▒[0;37m  [0;32m▒░▄▓[0m         [1;30m░▒▒░▒▒▓██▓▓█▓▓███▓▓█▓█▓[0m

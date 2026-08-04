@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-BORP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-43/raw/ZIR-BORP.ANS
-# Source Revision: archive-sha256:d3967e67800d0c773a52f120751caeb2bc01ead5180b478fb0a0e89978edc4ec
-# Source SHA-256: 4940e22125cd8e67f04515a4aba181e51a473d4327caa87a6fb9bfd419336d45
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-BORP.ANS by zir (FiRE); released in fire-43 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: BORPAL DORGAN
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20250707
-# SAUCE Dimensions: 80x95
-# SAUCE Font: IBM VGA
-# SAUCE Comments: BORPAL DORGAN (adventures of)
-# Lines: 51-95
-# Columns: 1-80
+﻿# Artwork: BORPAL DORGAN by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-43-zir-borp-part02
 
 Write-Host '
        [34;40m░[0;35;44m░[0;1;31;45m·▀████[0;1;31;43m██[0;1;31;40m███[0;1;31;47m▓▄▓[0;1;31;45m█[0;35;44m▌[0;1;31;40m█[0;1;31;47m▓▓[0;1;31;45m▌[0;1;31;40m█[0;1;31;47m▌[0;1;31;40m██[0;1;31;45m▓▀[0;1;31;43m█[0;1;31;40m██[0;35;44m▌[0;1;31;43m▓▓[0;1;31;47m▀[0;1;31;43m▌[0;35;44m▐[0;34;40m█▐▐[0;1;31;43m▐[0;1;31;47m▀▀[0;1;31;43m▓[0;33;44m▌[0;35;44m░[0;1;31;45m░[0;1;31;47m▓▐[0;1;33;47m▐░[0;1;31;47m▓▌▌[0;1;31;45m█▓[0;35m▓[0;34m▌[0;1;34;44m [0;33;44m▄▄[0;34;40m▓[0;35;44m■[0;34;40m▄▄░▀[0;1;34;44m·[0;35;44m▀[0;1;31;45m▀[0;1;31;43m▄[0;35;44m▄[0m

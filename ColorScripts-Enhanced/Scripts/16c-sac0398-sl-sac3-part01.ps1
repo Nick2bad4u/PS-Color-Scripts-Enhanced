@@ -1,13 +1,4 @@
-﻿# Converted from: SL-SAC3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0398/raw/SL-SAC3.ANS
-# Source Revision: archive-sha256:5deb0c572555b712853a4e44d44a0abdfad1e60e47bfcff7ce192c9fa583bdec
-# Source SHA-256: 25f2b635441cdd36898713cbcd01fa755d529763f078df6632238302db4ecd13
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SL-SAC3.ANS by strikeligt; released in sac0398 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: SL-SAC3.ANS by strikeligt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0398-sl-sac3-part01
 
 Write-Host '
 

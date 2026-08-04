@@ -1,13 +1,4 @@
-﻿# Converted from: WARGALC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/xg-wg11/raw/WARGALC.ANS
-# Source Revision: raw-sha256:923cb62cd7a2b9e3e369af1e04578c70188aa9aeacdcc36a47eadf43a6e51d25
-# Source SHA-256: 923cb62cd7a2b9e3e369af1e04578c70188aa9aeacdcc36a47eadf43a6e51d25
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WARGALC.ANS by Alla Xul (xg-wg11); released in xg-wg11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: WARGALC.ANS by Alla Xul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-xg-wg11-wargalc
 
 Write-Host '
  [1;30m   [0m [31m■[0;37m   [0;31m▄[0;37m [0;31m [0;37m [0;31m▓[0;37m  [0;31m▄[0;37m [0;31m▒▒[0;37m [0;31m░ [0;37m [0;31m▄[0;37m [0;31m▄[0;37m  [0;31m▄[0;37m  [0;31m▄[0m     [31m▌[0;37m   [0;31m ▌[0;37m [0;31m▐▌[0m    [31m▄▌[0;34m [0m            [1;30m▄▄▄▄[0m

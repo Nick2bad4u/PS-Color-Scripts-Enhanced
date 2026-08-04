@@ -1,18 +1,4 @@
-﻿# Converted from: US-VESA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-04/raw/US-VESA1.ANS
-# Source Revision: archive-sha256:d99c3d6576b4ffe30ad10598ac465177e9b6d171d7a6c4fd056707ad27adce95
-# Source SHA-256: d74d0bc3a44156324aceea42bb84649a73bde71fc80990a16e5bc0336b092212
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-VESA1.ANS by Bizzarro + Milkmang (nerp); released in nerp-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: vesalis 24 liner
-# SAUCE Author: biz and milkmang
-# SAUCE Group: nerp
-# SAUCE Date: 19980325
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: vesalis 24 liner by Bizzarro + Milkmang | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-04-us-vesa1
 
 Write-Host '
 ████████████████████████████[1;30;47m▓[0m▒  █▒[1;30m▀[0;34m▄[0;1;34;44m▄██████[0;1;34;40m▓[0;1;34;44m▒[0;34m█ [0;1;30m [0m [34m [0;1;34;44m▒░ [0;34m▌[0;37m  [0;1;30m▄[0;34m▄█████████████████████[0m

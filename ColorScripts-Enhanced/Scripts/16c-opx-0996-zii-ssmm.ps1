@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-SSMM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0996/raw/ZII-SSMM.ANS
-# Source Revision: archive-sha256:9d2c16f2326b1b98168bc790edb6aadb0d52c5f6484964980e3ad8168b0cc77f
-# Source SHA-256: 3f25eee387b2f34462d63f5e9e223f617d2e5b67f4d0ed0bf29feeaf8c08c0f9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-SSMM.ANS by Zeus II (Opium); released in opx-0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: silent scream main
-# SAUCE Author: Zeus II
-# SAUCE Group: Opium
-# SAUCE Date: 19960831
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: silent scream main by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0996-zii-ssmm
 
 Write-Host '
 [31m▄■[0m     [31m■▀[0;1;31;41m░[0;31m▄[0m    [31m▄[0;1;31;41m▒[0;36;41m░[0;31;40m▀[0;36;41m░[0;36;40m▀[0;36;41m▒▒▓[0;37;40m [0;36;40m█[0;36;41m▓▓▓[0;36;40m▄[0;37;40m [0;36;41m▒▓[0;36;40m▄[0;36;41m▒[0;36;40m▀▄[0;36;41m▒▒░[0;37;40m [0;31;40m▄[0;1;31;41m░[0;31m▄[0;37m  [0;31m■▄[0m     [31m [0m                    [31m▀[0;1;31;41m■▄[0;31m▓[0m

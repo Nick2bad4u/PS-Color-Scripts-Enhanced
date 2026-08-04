@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-PLF8.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0398/raw/ZII-PLF8.ANS
-# Source Revision: archive-sha256:f8b78bce0ded523528171ee9d37c603a9a96c5e8abf885d101375334b587e435
-# Source SHA-256: a34d31ec0a79dd5594245242f43964d388599f8a0e04597b62352dbed42dccd3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-PLF8.ANS by Zeus II (poffelipoff); released in plf-0398 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: pofflapoff
-# SAUCE Author: Zeus II
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19980315
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: pofflapoff by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0398-zii-plf8
 
 Write-Host '
 

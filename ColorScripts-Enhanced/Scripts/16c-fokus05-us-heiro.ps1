@@ -1,18 +1,4 @@
-﻿# Converted from: US-HEIRO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus05/raw/US-HEIRO.ANS
-# Source Revision: archive-sha256:1aa3ba6c9bb069effe029f69af967419cb8dc77ae4501a5215ae43589435acd5
-# Source SHA-256: e51fa991f5d32c909f68191b067daca508284d42d30a7fc02fad0ecc08c96d92
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-HEIRO.ANS by Fluor (Fokus fonting); released in fokus05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Heiroglyphics
-# SAUCE Author: Fluor
-# SAUCE Group: Fokus fonting
-# SAUCE Date: 19990614
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Heiroglyphics by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus05-us-heiro
 
 Write-Host '
                 [35m▄▄▄[0m

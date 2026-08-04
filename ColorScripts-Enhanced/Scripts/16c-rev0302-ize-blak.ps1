@@ -1,18 +1,4 @@
-﻿# Converted from: IZE-BLAK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0302/raw/IZE-BLAK.ANS
-# Source Revision: archive-sha256:7b2619e0400d7382d19d38767873337eae71942dd319abc1998c71f4a968776f
-# Source SHA-256: 72d6b2a6964729a6ba5176597b5345e0033079b93212933e06772287c9a8796e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZE-BLAK.ANS by ize (Revival 2002); released in rev0302 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Black Thursday
-# SAUCE Author: ize
-# SAUCE Group: Revival 2002
-# SAUCE Date: 20020314
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Black Thursday by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0302-ize-blak
 
 Write-Host '
 

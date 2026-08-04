@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-BLUE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-13/raw/TNA-BLUE.ANS
-# Source Revision: archive-sha256:fab7f52e9d735740432e5cc1693a7c3574c7cc669fe711a2863770d2425cce92
-# Source SHA-256: 21014041dad2633ef0989c0bf5a548b1fffd6833ea05333956dcf565dab94224
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-BLUE.ANS by The Night Angel (AWE Lettering); released in awe-13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Blue
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19971218
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Blue by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-13-tna-blue
 
 Write-Host '
 

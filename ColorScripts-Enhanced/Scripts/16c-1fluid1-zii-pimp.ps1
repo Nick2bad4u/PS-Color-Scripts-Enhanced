@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-PIMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1fluid1/raw/ZII-PIMP.ANS
-# Source Revision: archive-sha256:9759ba706afa63d47d6227f5e680e2347d46ae0af2672fb17307d5aaeab19452
-# Source SHA-256: 78123204efd95cd89d8cb2dc089235c7227f16cfa252ea28800961c00e9f039a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-PIMP.ANS by Zeus II (Fluid); released in 1fluid1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Idle Pimps
-# SAUCE Author: Zeus II
-# SAUCE Group: Fluid
-# SAUCE Date: 20010517
-# SAUCE Dimensions: 80x46
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Idle Pimps by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1fluid1-zii-pimp
 
 Write-Host '
 

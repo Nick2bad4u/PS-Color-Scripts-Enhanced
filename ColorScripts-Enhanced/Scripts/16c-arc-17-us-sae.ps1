@@ -1,17 +1,4 @@
-﻿# Converted from: US-SAE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/arc-17/raw/US-SAE.ANS
-# Source Revision: archive-sha256:31f26da3cf2bf64aa491737e7b6c80b0b88a8949776f7dd7596da36ff613ee0f
-# Source SHA-256: 1fa17255381099867ff009cd2ace88ae3127f8e4d2be379d730f70ad5e235288
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SAE.ANS by Dalton + Datachild (arc-17); released in arc-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Share And Enjoy
-# SAUCE Author: Datachild / Dalton
-# SAUCE Date: 20000615
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Share And Enjoy by Dalton + Datachild | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-arc-17-us-sae
 
 Write-Host '
    [34m  [0m                     [34m░░░░░░[0m                 [34m ░░░░░░[0m

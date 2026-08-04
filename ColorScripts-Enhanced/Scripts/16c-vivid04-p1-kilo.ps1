@@ -1,13 +1,4 @@
-﻿# Converted from: P1-KILO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vivid04/raw/P1-KILO.ANS
-# Source Revision: archive-sha256:d2c335096285dc1cfd14c4fb457e4662dfa92f97f5fcdbee15d8b8405468c74b
-# Source SHA-256: ac9cfb62051c35224ca1d49cd5d5c64f4e5d28e1b33c7026011bf5b9f91b38c7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P1-KILO.ANS by Paranormal Intensity (vivid04); released in vivid04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: P1-KILO.ANS by Paranormal Intensity | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vivid04-p1-kilo
 
 Write-Host '
 [1;47m████[0m▌[1;35;45m▐████▄[0;35m▄[0;37m▀[0;1;37;47m▀█▀▀▀█████▀[0m▀[36m▄▌[0m                            [32m▄[0m

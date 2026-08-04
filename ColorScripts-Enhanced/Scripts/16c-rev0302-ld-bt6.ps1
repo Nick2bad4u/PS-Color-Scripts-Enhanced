@@ -1,18 +1,4 @@
-﻿# Converted from: LD-BT6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0302/raw/LD-BT6.ANS
-# Source Revision: archive-sha256:7b2619e0400d7382d19d38767873337eae71942dd319abc1998c71f4a968776f
-# Source SHA-256: 1554fa87e7a380b42f0d25b4fa7016b7ed380a85cec9cadc0a61c6d76717307d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-BT6.ANS by lordjazz (Revival 2002); released in rev0302 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Black Thursday
-# SAUCE Author: lordjazz
-# SAUCE Group: Revival 2002
-# SAUCE Date: 20020314
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Black Thursday by lordjazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0302-ld-bt6
 
 Write-Host '
       [1;30m ▓▀▀▄▄▄[0m                                                   [1;30m  [0m

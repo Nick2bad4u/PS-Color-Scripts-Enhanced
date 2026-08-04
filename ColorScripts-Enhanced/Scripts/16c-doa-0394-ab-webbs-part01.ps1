@@ -1,13 +1,4 @@
-﻿# Converted from: AB-WEBBS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/doa-0394/raw/AB-WEBBS.ANS
-# Source Revision: archive-sha256:6acb1d2eee51624338f0056aad11c28c9c4b1d2c458b96e9f37f1242e05022c9
-# Source SHA-256: cd2017807b79f02d73b5f75b10df6b5a5593d75d8f3b2518802cbe66a6d91465
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AB-WEBBS.ANS by Anubis-Doa (doa-0394); released in doa-0394 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: AB-WEBBS.ANS by Anubis-Doa | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-doa-0394-ab-webbs-part01
 
 Write-Host '
                             [1;33m██[0m

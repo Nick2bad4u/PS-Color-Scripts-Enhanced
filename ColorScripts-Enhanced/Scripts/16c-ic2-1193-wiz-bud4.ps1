@@ -1,13 +1,4 @@
-﻿# Converted from: WIZ-BUD4.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ic2-1193/raw/WIZ-BUD4.ICE
-# Source Revision: archive-sha256:b7b469e18ab57436c5f0761bf9261ac62962a031d456e76fc8e486d9bdb9913d
-# Source SHA-256: 1fd0e08c97e2de5277c541caa7039bd1b0e795300db8b20da5e96ba624a2f555
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WIZ-BUD4.ICE by Wiz (ic2-1193); released in ic2-1193 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: WIZ-BUD4.ICE by Wiz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ic2-1193-wiz-bud4
 
 Write-Host '
 [40m   [0;1;34mT   H   E[0m           [1;34mB   A   U   D   V   I   L   L   E[0m          [1;34mB   B   S[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: NZ-HISTR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook13/raw/NZ-HISTR.ANS
-# Source Revision: archive-sha256:f383b37d2f0265a83b82afcdde57a4dae359d8a5127c467dcea28d0c8500d000
-# Source SHA-256: 221276f198bad9128cff6e274b1d15ec4f8ea828195f66259eacc95be688c985
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NZ-HISTR.ANS by noize (black maiden); released in bmbook13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ghost in a shell
-# SAUCE Author: noize
-# SAUCE Group: black maiden
-# SAUCE Date: 19970426
-# SAUCE Dimensions: 80x75
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: ghost in a shell by noize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook13-nz-histr-part01
 
 Write-Host '
 [1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m

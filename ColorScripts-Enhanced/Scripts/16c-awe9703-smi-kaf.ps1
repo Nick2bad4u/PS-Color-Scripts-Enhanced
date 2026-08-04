@@ -1,18 +1,4 @@
-﻿# Converted from: SMI-KAF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9703/raw/SMI-KAF.ANS
-# Source Revision: archive-sha256:a9939674ffea8dfd0fb24f05e2f11874539fc93155c2d5ed5e55e91f76634858
-# Source SHA-256: ab737c54e7912ddaf38f993a7b5ab35f61a3f60b9b8427854ec224b5a27bf8f8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMI-KAF.ANS by Samurai (AWE Lettering); released in awe9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Kafkaesk
-# SAUCE Author: Samurai
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970306
-# SAUCE Dimensions: 80x13
-# Lines: 1-12
-# Columns: 1-80
+﻿# Artwork: Kafkaesk by Samurai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9703-smi-kaf
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: 1998 - 17 - Joint - WE-CIZB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tcf20/raw/1998%20-%2017%20-%20Joint%20-%20WE-CIZB.ANS
-# Source Revision: archive-sha256:af8609219fccc484668fb405a7f1d45efb8c574501a461c5c1b47d87a12921ce
-# Source SHA-256: 7d393ab0775dd41c4bcf6a467ac0410b005a91aa2d156eaae47b8677d16da94c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 1998 - 17 - Joint - WE-CIZB.ANS by multiples (legion); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the city iz burning
-# SAUCE Author: multiples
-# SAUCE Group: legion
-# SAUCE Date: 19980913
-# SAUCE Dimensions: 80x257
-# Lines: 171-213
-# Columns: 1-80
+﻿# Artwork: the city iz burning by multiples | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tcf20-1998-17-joint-we-cizb-part05
 
 Write-Host '
 [1;30m▌[0;30;47m█[0;1;30;46m▓▓[0;1;30;40m█████[0;1;30;46m▓[0;1;30;40m█[0;1;30;46m▓▓▓▓▓▒░▒░░░[0;1;33;46m░░▒▓▒░ [0;1;30;46m░░░▒▓[0;30;47m█[0;1;30;40m▐ [0;1;30;46m▓▒▒▒▒▒▒▒▓▓█[0m [1;30m▐[0;1;30;46m░▓[0;30;47m█[0;1;30;46m▓▒▒▓[0;1;30;40m▀[0;30;47m█[0;1;30;40m▄[0;1;30;46m▒▒[0;1;33;46m░[0;1;30;46m░▒▒▓▓[0;1;30;40m▌▐[0;1;30;46m▒▒▓[0m [33m▓▀▀[0m

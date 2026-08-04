@@ -1,15 +1,4 @@
-﻿# Converted from: XS-UPR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise08/raw/XS-UPR.ANS
-# Source Revision: archive-sha256:a25eed3e25fe4aa7fc0560c1fa7de8a9e155ecb2aed26b67328b74f91962df53
-# Source SHA-256: 0e53a9306bde49957a6454db4f494180a5e4029ccf9ee3d36bc7654ae6c82eb5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XS-UPR.ANS by Xsys (uprise08); released in uprise08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 19980904
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: XS-UPR.ANS by Xsys | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise08-xs-upr
 
 Write-Host '
                  [31m▐[0;37m [0m                [31m▄[0m                               [31m▌[0m

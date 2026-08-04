@@ -1,19 +1,4 @@
-﻿# Converted from: KRL-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/KRL-FIRE.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: 1b6ace92cb942cdef074dc2365fdf1a3c40c219f135c0874be8f96332fee0f76
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KRL-FIRE.ANS by krl (Lazarus); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fire.
-# SAUCE Author: krl
-# SAUCE Group: Lazarus
-# SAUCE Date: 20241111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Fire. by krl | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-krl-fire
 
 Write-Host '
 

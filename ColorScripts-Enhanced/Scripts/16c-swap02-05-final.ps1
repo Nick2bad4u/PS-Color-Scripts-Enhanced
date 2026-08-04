@@ -1,13 +1,4 @@
-﻿# Converted from: 05-final.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/swap02/raw/05-final.ans
-# Source Revision: archive-sha256:4d8cb393a00876207f46bb8198f121ecf1515abfe7fa8288241519cd92e6c95e
-# Source SHA-256: f95421e1e1e603352c228e7481cf27735b746d8e7bc074be878407f5d3cc9943
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 05-final.ans by Widowmaker + Cheeze + Black Viper + Misfit + Outkast (swap02); released in swap02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: 05-final.ans by Widowmaker + Cheeze + Black Viper + Misfit + Outkast | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-swap02-05-final
 
 Write-Host '
 [1;34m████████████████[0;1;34;44m██[0;1;34;40m█▀[0;1;34;44m█[0;1;34;40m█[0;1;34;44m█[0;1;34;40m█[0;1;34;44m▓▓[0;1;34;40m█[0;1;34;44m███▓▒░░[0;34m▀▀▀[0;1;33m▄▄███▌[0m

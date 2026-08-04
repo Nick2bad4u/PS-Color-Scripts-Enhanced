@@ -1,19 +1,4 @@
-﻿# Converted from: CH-TTT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rage0894/raw/CH-TTT2.ANS
-# Source Revision: archive-sha256:345657a40d2002626c65db3dac97db8d999b7e402ab29ac839672477b7ea03d0
-# Source SHA-256: 441e09559d93dd195a3122bdc0f66e76a56d16deb1bf1a4e19a96b9788c80089
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CH-TTT2.ANS by Chaos Breed (READ THE INI FILE); released in rage0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Twisted Tower
-# SAUCE Author: Chaos Breed
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19940613
-# SAUCE Dimensions: 80x250
-# SAUCE Comments: What can I say?  Im the shittiest artist in the whole fucking | world.  I want to die, but not until I have killed everyone | else first.  Is that so unreasonable?
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: The Twisted Tower by Chaos Breed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rage0894-ch-ttt2-part01
 
 Write-Host '
      [1m▄▄[0m▄▄▄[1;30m▄▄   [0;36m▄─▄  ▄ ▄  ▄─▄  ▄─▄  ▄─▄[0m     [36m▄─▄  ▄─▄  ▄─▄  ▄─▄  ▄─    [0;1;37m▄▄[0m▄▄▄[1;30m▄▄[0m

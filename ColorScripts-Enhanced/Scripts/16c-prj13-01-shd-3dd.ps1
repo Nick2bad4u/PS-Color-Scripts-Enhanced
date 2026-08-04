@@ -1,13 +1,4 @@
-﻿# Converted from: shd-3dd.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/prj13-01/raw/shd-3dd.ans
-# Source Revision: archive-sha256:8b67f7bd9b5f7c4d6344223ba1b935117753dd1a19b2f8911119f91cf503c833
-# Source SHA-256: 6e8313a03272d172f8a97327e0e8b57a46aa186ca86c63fd0df4aa26a22b6517
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: shd-3dd.ans by Shadow (prj13-01); released in prj13-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: shd-3dd.ans by Shadow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-prj13-01-shd-3dd
 
 Write-Host '
 [31;40m                  [0;1;33;40m                 .          [0;31;40m                                  [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: DD-AB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amb-0002/raw/DD-AB1.ANS
-# Source Revision: archive-sha256:ddf2bfb6c349501ad0002133992d1d3c9602291731a9f4cef0d5ef9af30b761f
-# Source SHA-256: 6a9dc010f06681b93733a1263734d07173aae6badd84d7b673fb58e51c9cd6b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-AB1.ANS by Diamond Darrell (Ambush); released in amb-0002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Anormalia Bizarra #1
-# SAUCE Author: Diamond Darrell
-# SAUCE Group: Ambush
-# SAUCE Date: 19961023
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Anormalia Bizarra #1 by Diamond Darrell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amb-0002-dd-ab1
 
 Write-Host '
      [32m▄░░▄▄ [0m      [32m▄▄▓▓▄ [0m      [32m▄▄▄▄▄ [0m       [32m▄▄▓▓▄ [0m      [32m ▄▄▄▄▓▓▄▄ [0m      [32m▄░░▄▄ [0m

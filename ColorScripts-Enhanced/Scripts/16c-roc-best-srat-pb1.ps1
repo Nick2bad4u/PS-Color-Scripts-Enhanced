@@ -1,18 +1,4 @@
-﻿# Converted from: SRAT-PB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roc-best/raw/SRAT-PB1.ANS
-# Source Revision: archive-sha256:ed2172be4f351fbbe490297eada190fa8af16bee5a8ce8834dea50cd318904c2
-# Source SHA-256: f27306ce60679362440b085141e2ef26ddd4df3381991b7fb60a962af28a5bdd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SRAT-PB1.ANS by Silver Rat (ROC); released in roc-best and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Plan B
-# SAUCE Author: Silver Rat
-# SAUCE Group: ROC
-# SAUCE Date: 19950930
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Plan B by Silver Rat | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roc-best-srat-pb1
 
 Write-Host '
 

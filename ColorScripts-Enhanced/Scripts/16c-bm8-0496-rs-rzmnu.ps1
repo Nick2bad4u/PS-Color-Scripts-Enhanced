@@ -1,18 +1,4 @@
-﻿# Converted from: RS-RZMNU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bm8-0496/raw/RS-RZMNU.ANS
-# Source Revision: archive-sha256:6a20500f0b019daf8b74b1011f4e13acdbac779a421770d34d848962bd1ba353
-# Source SHA-256: 4b586de178e34d39eb7414fe4b706c00a78df508277e9d9a5aee67d3f895fb29
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-RZMNU.ANS by RaSCaL (BLACK MAiDEN); released in bm8-0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Razor's Edge Main Menu
-# SAUCE Author: RaSCaL
-# SAUCE Group: BLACK MAiDEN
-# SAUCE Date: 19960415
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Razor's Edge Main Menu by RaSCaL | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bm8-0496-rs-rzmnu
 
 Write-Host '
   [1;30m▄▓▀▀▀▀▀▓██▄▄▄[0m  ░             ░     [1;30m■[0m      [1;30m░[0m [1;30m▄▄▄██▀▀██▓▄▄▄[0m           [1;30m▀[0m [1;30m▀▀▀▓▄[0m

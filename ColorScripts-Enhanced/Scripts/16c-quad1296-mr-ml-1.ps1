@@ -1,18 +1,4 @@
-﻿# Converted from: MR-ML-1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad1296/raw/MR-ML-1.ANS
-# Source Revision: archive-sha256:39733ed0864fbad557d48d5b0be7bcb3c03788a44b9cfbbe71a5cb00f202249d
-# Source SHA-256: 11243176d3bbfc6b82363a67d1c90978c8c69331b561f4e21ab55698f6f5c6d3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-ML-1.ANS by Mithrandir (quad-p); released in quad1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: modemland 306-652-4359
-# SAUCE Author: Mithrandir
-# SAUCE Group: quad-p
-# SAUCE Date: 19961124
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: modemland 306-652-4359 by Mithrandir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad1296-mr-ml-1
 
 Write-Host '
                          [1;30m■▄ [0m

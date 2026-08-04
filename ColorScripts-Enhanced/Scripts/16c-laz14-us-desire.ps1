@@ -1,19 +1,4 @@
-﻿# Converted from: us-desire.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz14/raw/us-desire.ans
-# Source Revision: archive-sha256:41b4e3770fbffb058172283f3da2aa00e47c872480cf93fdef94629ebc0751bb
-# Source SHA-256: 58ea0cc6403c083854468bbd35b6afc6cd2d784b7de87f710fc27669ca7730e6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-desire.ans by Warpus + Tainted (laztronics); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Desire
-# SAUCE Author: tainted & warpus
-# SAUCE Group: laztronics
-# SAUCE Date: 20211213
-# SAUCE Dimensions: 80x47
-# SAUCE Font: IBM VGA
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: Desire by Warpus + Tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz14-us-desire
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: PA-DSTNY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/unit01/raw/PA-DSTNY.ANS
-# Source Revision: archive-sha256:cab338f2eae80f507f7420c5633e2ed0fcca186c774137d9e9868ab55b919efb
-# Source SHA-256: 96ea9ad849f4a4d5ab0a884bc7a34f17ae453406861a07c8609ca0cf061c671d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PA-DSTNY.ANS by pandora (UNiT Productions); released in unit01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Neil Gaiman's Destiny
-# SAUCE Author: pandora
-# SAUCE Group: UNiT Productions
-# SAUCE Date: 19960428
-# SAUCE Dimensions: 80x48
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: Neil Gaiman's Destiny by pandora | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-unit01-pa-dstny
 
 Write-Host '
                                             [30m▄▄[0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄      [0;30m██[0m

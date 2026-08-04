@@ -1,18 +1,4 @@
-﻿# Converted from: FL-MUTD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-03/raw/FL-MUTD.ANS
-# Source Revision: archive-sha256:8478e7ed47e52d1e07bf55e17a5f105ced4b468c6f56a8b59fd6b8ef8dada5ca
-# Source SHA-256: 1a708b8a7dc0375c65b3b8807f1920f50940c8665a9f57cdade7a4e43b9a47a9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-MUTD.ANS by flame (guest); released in ecl-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: got me .. (??)
-# SAUCE Author: flame
-# SAUCE Group: guest
-# SAUCE Date: 19960708
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: got me .. (??) by flame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-03-fl-mutd
 
 Write-Host '
 [1m███[0;1;36m██[0;1;37m██[0;1;36m██████████████████▀▀▀▀▀▓████████[0;1;36;46m▓[0;1;36;43m▓▒▒[0;1;36;46m░░░[0;36m██[0;1;36;46m░░░[0;36m████████████████▄[0;30;46m░[0;36;40m█▀▀[0;1;30;40m▀▀[0;36m▄▄▄▄▄[0;1;30m▄[0m

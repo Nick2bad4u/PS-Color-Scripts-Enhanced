@@ -1,13 +1,4 @@
-﻿# Converted from: Lobo-creepy.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_there_will_be_blocks/raw/Lobo-creepy.ans
-# Source Revision: archive-sha256:d99f6502677c5a3c863779944513ac7a61b8122179566cfc94d95537e904aa6b
-# Source SHA-256: dfc4f538dd2197e1951f9342b7b4901d5d67e23b5175bfaa5b0a20af3406b44e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Lobo-creepy.ans by Lobo (blocktronics_there_will_be_blocks); released in blocktronics_there_will_be_blocks and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 40-77
-# Columns: 1-80
+﻿# Artwork: Lobo-creepy.ans by Lobo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-there-will-be-blocks-lobo-creepy-part02
 
 Write-Host '
 ██████████████████████████████████████████████████[30;46m░█[0;30;43m▓█[0;1;30;40m░[0;30;46m▀[0;1;37;40m▀[0m▄▀█▓[30;43m█[0;1;30;46m▓▓[0;30;43m [0;33;47m▓[0;30;43m▒█[0;37;46m▓▓▓▒▒▓▓▓▓▓▒[0m

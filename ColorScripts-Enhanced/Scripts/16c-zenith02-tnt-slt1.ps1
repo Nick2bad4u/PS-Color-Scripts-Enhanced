@@ -1,18 +1,4 @@
-﻿# Converted from: TNT-SLT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zenith02/raw/TNT-SLT1.ANS
-# Source Revision: archive-sha256:89af45c021399cb7150be8c9dd70d9c3709facfd5b2491816aa34f9f5096ceb7
-# Source SHA-256: 2735356d4433311e14bb724a45f790f456f818c1ddcd1afd4b4670382ecbff70
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNT-SLT1.ANS by Taintedx (Zenith); released in zenith02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Salt
-# SAUCE Author: Taintedx
-# SAUCE Group: Zenith
-# SAUCE Date: 19980624
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Salt by Taintedx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zenith02-tnt-slt1
 
 Write-Host '
 [34m░▒▓█▀▀▄▄▄▒[0;30;44m▒░░[0;34;40m▓[0;30;44m░░[0;34;40m████▓▓[0;30;44m░░[0;34;40m███████▀▀▀▀▀▀[0;37;40m  [0;34;40m▄▄▄▄▄[0;36;40m▄▄▄▄[0;34;40m▄[0;37;40m [0;34;40m███████[0;30;44m░[0;34;40m▓███████[0;30;44m░[0;34;40m▓[0;30;44m░[0;34;40m████[0;30;44m░[0;34;40m▓[0;30;44m░[0;34;40m▒[0;30;44m▒[0;34;40m░[0;30;44m▓[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: AX^LOGO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mo-ans1/raw/AX%5ELOGO.ANS
-# Source Revision: raw-sha256:8ecba10b2de0a003d4c107133297855064996a91e4ac2bdbb7d29860566cd84f
-# Source SHA-256: 8ecba10b2de0a003d4c107133297855064996a91e4ac2bdbb7d29860566cd84f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AX^LOGO.ANS by Asterix-Moco (mo-ans1); released in mo-ans1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: AX^LOGO.ANS by Asterix-Moco | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mo-ans1-ax-logo
 
 Write-Host '
 [1m   [0;1;35m█[0;1;35;45m█████[0m               [1;35;45m███████[0m

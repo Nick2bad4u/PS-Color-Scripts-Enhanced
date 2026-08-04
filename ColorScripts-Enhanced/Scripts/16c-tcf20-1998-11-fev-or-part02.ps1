@@ -1,13 +1,4 @@
-﻿# Converted from: 1998 - 11 - FEV-OR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tcf20/raw/1998%20-%2011%20-%20FEV-OR.ANS
-# Source Revision: archive-sha256:af8609219fccc484668fb405a7f1d45efb8c574501a461c5c1b47d87a12921ce
-# Source SHA-256: 7def7f2c4e03c80c2e4ad46f7a2ba0c909588a759bb75bec0319bf40e6a51632
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 1998 - 11 - FEV-OR.ANS by The Creep Fever (tcf20); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 43-89
-# Columns: 1-80
+﻿# Artwork: 1998 - 11 - FEV-OR.ANS by The Creep Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tcf20-1998-11-fev-or-part02
 
 Write-Host '
 [30;47m            [0;37;40m▀ [0;1;36;40m▄▄███▄▄[0m [1;33m░▄[0;33m▀[0;1;31;43m▀█[0m [33m▐▓[0m          [1;36m▄▄█████████▄[0m [33m▀[0;1;31;43m▀███[0;1;31;47m█[0;1;31;43m▄[0;33m▄ ▀[0;1;31;43m▀▓▌[0;33m ▐[0;1;31;43m█▓▄[0;33m▄[0m

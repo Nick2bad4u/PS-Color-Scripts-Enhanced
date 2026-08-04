@@ -1,13 +1,4 @@
-﻿# Converted from: EL-LV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jolt001/raw/EL-LV.ANS
-# Source Revision: archive-sha256:aed0429b02563ca42f129a213c901536cecbe076bf84a2b1ab99c1ef5c3e1976
-# Source SHA-256: 0fef36b396f3515f113720fd89dc9ab4b3aa048468d8fb64a1e6375bb1bf7b35
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EL-LV.ANS by Elastic (jolt001); released in jolt001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: EL-LV.ANS by Elastic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jolt001-el-lv
 
 Write-Host '
  [1;30m▄█[0;1;30;47m▓[0;1;30;40m▀▀[0;33m▄[0;1;31m▄▄[0;1;31;43m▓█[0;1;31;40m█████████████████[0;1;31;47m▓▒░░[0m  [1;30;40m▀▀▀▀█[0;1;30;47m▓[0;1;30;40m▄▄▄ [0;36m░ ░░▒▓█████████████████████[0;36;46m   [0;36;40m█████▀[0m

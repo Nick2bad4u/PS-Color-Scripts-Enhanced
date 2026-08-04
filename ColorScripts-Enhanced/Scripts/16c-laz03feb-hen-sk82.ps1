@@ -1,18 +1,4 @@
-﻿# Converted from: HEN-SK82.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz03feb/raw/HEN-SK82.ANS
-# Source Revision: archive-sha256:d402090580beb42f827386e6ac87eabae48765a9dcac692e22ff2b8314efb7a2
-# Source SHA-256: 787beee78a7b3e195efbaabaf8c7e5fb3bbc5f2c97e6588c83b1c60dcbbd1b47
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HEN-SK82.ANS by hennifer (lazarus); released in laz03feb and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: skateshop menuset #2
-# SAUCE Author: hennifer
-# SAUCE Group: lazarus
-# SAUCE Date: 19970129
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: skateshop menuset #2 by hennifer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz03feb-hen-sk82
 
 Write-Host '
                                 [31m███▀▀▀▀▀▀▀[0;1;31;41m   [0m                   [1;30mhen[0m

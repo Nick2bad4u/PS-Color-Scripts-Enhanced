@@ -1,13 +1,4 @@
-﻿# Converted from: FIXER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-01/raw/FIXER.ANS
-# Source Revision: archive-sha256:673dd422f378f9eaaa3504feb33b30359c4f39cc3a428426433b75c304933f48
-# Source SHA-256: f648c0686cb2e22beba280b75d5b2e705efddcc37beecd11d94621ac82f2fea7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FIXER.ANS by Anubis (force-01); released in force-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 71-108
-# Columns: 1-80
+﻿# Artwork: FIXER.ANS by Anubis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-01-fixer-part02
 
 Write-Host '
 [0m[0m[1;33;43m▒▒▒▒▒▒▓▒[0m           [1;37;40m▀▀▀▀▀▀▀▀▀▀▀▀▀  [0;33m▓▓██████  [0;1;37m▀▀▀▀▀▀▀▀▀▀▀▀▀[0m        [1;33;43m▒▒▒▒▒▒▒[0;1;33;40m█[0;1;33;43m▒[0;1;33;40m█[0;1;33;43m▒[0;1;33;40m█[0;1;33;43m▒[0m [1;33;43m▒[0m

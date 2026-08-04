@@ -1,18 +1,4 @@
-﻿# Converted from: CM-PHAR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moonlgt1/raw/CM-PHAR1.ANS
-# Source Revision: archive-sha256:9c3296d479bffdc90be8aa4a3f3118a85ae9456683674c3e67716221b3c262b5
-# Source SHA-256: 0b721ef4ed9af15b27f90c9ccfbe6e7fe519e78eaeb1827437f535b9a23b7842
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CM-PHAR1.ANS by cheeze monkey (mewnlight); released in moonlgt1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: pharcyde I
-# SAUCE Author: cheeze monkey
-# SAUCE Group: mewnlight
-# SAUCE Date: 19960818
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: pharcyde I by cheeze monkey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moonlgt1-cm-phar1
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: SB-AGORA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0195/raw/SB-AGORA.ANS
-# Source Revision: archive-sha256:bba094e7325779ca430921c43e89d6d5eeb3533a54f085963b521f20303604f4
-# Source SHA-256: 41b36b54d92bb385a8197a4cd36a3846616337365a8235e3b54bf59451c63985
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SB-AGORA.ANS by Soul Blazer (ACiD Productions); released in acdu0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Agora
-# SAUCE Author: Soul Blazer
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950101
-# SAUCE Dimensions: 80x54
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Agora by Soul Blazer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0195-sb-agora-part01
 
 Write-Host '
 [1;30m──────────────────────────────────────────────────────────────────────────────[0m

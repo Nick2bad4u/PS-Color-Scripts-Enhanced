@@ -1,18 +1,4 @@
-﻿# Converted from: W7-TRTI1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twi-9706/raw/W7-TRTI1.ANS
-# Source Revision: archive-sha256:e362df8ee3f0b210cf92d27e649f4cf846383e7667a4d4a16ff3beb3ea9ae887
-# Source SHA-256: 18898f4445e14b0839980b788bb2f9dc320da9d8be7aed16eff128875f1d25a6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: W7-TRTI1.ANS by WhiteTrash (Twilight); released in twi-9706 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Tourettes Issue #1 Interface
-# SAUCE Author: WhiteTrash
-# SAUCE Group: Twilight
-# SAUCE Date: 19970614
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Tourettes Issue #1 Interface by WhiteTrash | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twi-9706-w7-trti1
 
 Write-Host '
   [33m░▐██[0;1;31;43m░[0;33m█▓▒░  ▌ ▐[0;30;43m░[0;33;40m░   ░▒▓█[0;1;31;43m░░░░░[0;33m████[0;1;31;43mw7░░▒▓█[0;1;31;40m▀▀▀▀[0;33m▀    [0;33;41m            [0;1;31;41m▄  ▄              [0m

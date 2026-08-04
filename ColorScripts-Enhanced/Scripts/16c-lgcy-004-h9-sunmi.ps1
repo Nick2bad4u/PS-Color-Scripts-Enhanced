@@ -1,19 +1,4 @@
-﻿# Converted from: h9-sunmi.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-004/raw/h9-sunmi.ans
-# Source Revision: archive-sha256:c716e28d4b828a0135c19992fe2f71464879479199ebc42fd3d533b5bd3bf4d4
-# Source SHA-256: 704aab917d0124093b339db265f56d04489e8de7b8aa52f37637fbe293ca4eb0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: h9-sunmi.ans by hayn9 (Legacy Krew); released in lgcy-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: sunmi
-# SAUCE Author: hayn9
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20210404
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: sunmi by hayn9 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-004-h9-sunmi
 
 Write-Host '
       [36m▄▀ ▐▒ ▐[0;37m [0;1;31m█[0m▌[1;31m███████[0m [36m░[0;37m [0;36m▐▒░ █[0;37;46m▐[0;37;40m▄[0;36;40m▀▄▐[0;37;46m▌[0;1;30;40m▄[0m

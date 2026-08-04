@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-TNA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0721/raw/ZII-TNA.ANS
-# Source Revision: archive-sha256:9d3d54e42a99a6e7bef51cb79a023b85709051f377817bc02741bd65f1493da4
-# Source SHA-256: 33f9aed216a42ec34e968b21aa8376e994e062c3e3dabf7dd80556bf33f80790
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-TNA.ANS by Zeus II (Mistigris); released in mist0721 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: TNA BBS
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20210531
-# SAUCE Dimensions: 80x210
-# SAUCE Font: IBM VGA
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: TNA BBS by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0721-zii-tna-part01
 
 Write-Host '
 [1;30m   ▄█████▀████▀▀███▀     ▄▄▄▄██████████▀▀▄▄▄▄▄     ▄▄▄▄▄█████████▀▀▄▄▄     ▄▄▄[0m

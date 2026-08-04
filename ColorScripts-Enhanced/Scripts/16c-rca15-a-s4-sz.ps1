@@ -1,13 +1,4 @@
-﻿# Converted from: S4-SZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca15-a/raw/S4-SZ.ANS
-# Source Revision: archive-sha256:9b3ffc1306b5fd493eeab3ea63762e0c761f90e1b26cf8dffddf39a511fbd0e2
-# Source SHA-256: 13c3ebee4720aab1a0df3791e23a317581a475cbb7309e5c798819a50f2c51de
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S4-SZ.ANS by Static Addiction (rca15-a); released in rca15-a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: S4-SZ.ANS by Static Addiction | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca15-a-s4-sz
 
 Write-Host '
  [33m░[0;37m [0;1;30m█[0;1;30;47m▓▓[0;1;30;40m▓█▄[0m  [1;30m▄█▀██[0;1;30;47m▓▓[0;1;30;40m▀[0;1;33;40m▄▀▀[0m [1;33m▄[0m [1;33m▄▀▀[0m [1;33m▄[0;1;30m▀█▀[0;33m▄[0;1;33m▄[0;1;30m▀[0;1;30;47m▓[0;1;30;40m▀▄█▀[0;1;34;40m▄[0m [1;34m▀▀▄[0;1;30m▀▓▓▄▀█▀[0;32m▄[0;1;32m▄▄▄[0;1;30m▀█▀[0;1;32m▄[0m [1;32m▀▀▄[0;1;30m▀[0;1;30;47m▓[0;1;30;40m▀▓▀█▄[0m [1;30m▄▄[0;1;30;47m▓▓▒░[0m█

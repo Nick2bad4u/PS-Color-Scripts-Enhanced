@@ -1,18 +1,4 @@
-﻿# Converted from: EX%BC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak9/raw/EX%25BC.ANS
-# Source Revision: archive-sha256:668d414adbcf3d3a3dc83256fe2a097b5d305158b015a8efbf3cb0f3b83bfec0
-# Source SHA-256: 390b296e058f809db7ee939e031f6abcf5a2a25f83b62f8979719c05679b17da
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EX%BC.ANS by exocet (ecolove); released in ecl-pak9 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: bodiekaunt
-# SAUCE Author: exocet
-# SAUCE Group: ecolove
-# SAUCE Date: 19980810
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: bodiekaunt by exocet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak9-ex-bc
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: GO-HLTR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0793/raw/GO-HLTR1.ANS
-# Source Revision: archive-sha256:53c4c708dbd6a2fb65eed7d51a29c309854b530cc87938709e377b669e74ecbe
-# Source SHA-256: b75da29309067992c8f0d7c984a2381a628265c0e9dcd356327b2dac47ba883e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GO-HLTR1.ANS by Golgotha (acdu0793); released in acdu0793 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 45-79
-# Columns: 1-80
+﻿# Artwork: GO-HLTR1.ANS by Golgotha | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0793-go-hltr1-part02
 
 Write-Host '
                                    [1;30;40m▄[0m▄▄██[1;47m▄▄▄▄[0m▄▄

@@ -1,18 +1,4 @@
-﻿# Converted from: RC(CATH).ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bdp-0296/raw/RC(CATH).ANS
-# Source Revision: archive-sha256:291145d8d8f3eab37f55de992303285e39bcc9a64c52259e0a1f0ff8ffd94693
-# Source SHA-256: 574a586a8f83f24848485ca157a8e78f0b702347a81f19c0e68bbd8c60d45ee3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RC(CATH).ANS by 0  ^[2[_[[_[2\~0 (.boogiE%Woogie.); released in bdp-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: .cathedral.
-# SAUCE Author: 0  ^[2[_[[_[2\~0
-# SAUCE Group: .boogiE%Woogie.
-# SAUCE Date: 19960203
-# SAUCE Dimensions: 80x14
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: .cathedral. by 0 ^[2[_[[_[2\~0 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bdp-0296-rc-cath
 
 Write-Host '
         [1;34m▄▄▄[0m         [1;34m▄▄▄[0m             [36m   [0m             [1;34m▄▄▄[0m             [1;34m▄▄▄[0m

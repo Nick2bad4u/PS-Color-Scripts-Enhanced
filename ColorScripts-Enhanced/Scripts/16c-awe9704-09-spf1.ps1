@@ -1,17 +1,4 @@
-﻿# Converted from: 09-SPF1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9704/raw/09-SPF1.ANS
-# Source Revision: archive-sha256:da151757a637299fc8da8cc755ae75b6a0e1a281dd915d29497f1d00d429e5c1
-# Source SHA-256: 30f65a62d1ea226c5328d2aa9f1315e00e4a192420a9dc36e8c362d2a27e0dc1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-SPF1.ANS by Fluor (AWE Lettering); released in awe9704 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Spoof
-# SAUCE Author: Fluor
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Spoof by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9704-09-spf1
 
 Write-Host '
  [1;30m▄[0m  [1;30m░[0m

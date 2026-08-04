@@ -1,13 +1,4 @@
-﻿# Converted from: WATRMELN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansipics/raw/WATRMELN.ANS
-# Source Revision: raw-sha256:e6eef93ea6a1647d0c23e251136360fd65c1af66f1b0fccea75fe42c6002eba3
-# Source SHA-256: e6eef93ea6a1647d0c23e251136360fd65c1af66f1b0fccea75fe42c6002eba3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WATRMELN.ANS by Jean Ludwig (ansipics); released in ansipics and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: WATRMELN.ANS by Jean Ludwig | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansipics-watrmeln
 
 Write-Host '
    [1;35m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

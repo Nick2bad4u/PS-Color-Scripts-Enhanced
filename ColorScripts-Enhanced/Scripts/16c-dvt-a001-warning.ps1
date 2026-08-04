@@ -1,17 +1,4 @@
-﻿# Converted from: WARNING.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dvt-a001/raw/WARNING.ANS
-# Source Revision: archive-sha256:29592a0326970604411bfe9bc65b56585a8bfba97280105ebf1982d1f8f2368d
-# Source SHA-256: 251f39b2a2e9af92b05d88f40cd69d0004fb05357f6c1e1620cd5e3396155230
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WARNING.ANS by nail (dvt-a001); released in dvt-a001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: logo cluster 08/96
-# SAUCE Author: nail
-# SAUCE Date: 19960806
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: logo cluster 08/96 by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dvt-a001-warning
 
 Write-Host '
                                          [1;30m▐▄ ▌[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SPC!-FS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0997/raw/SPC!-FS.ANS
-# Source Revision: archive-sha256:7c9b6e5a1bf85f5dceb70dad3a430f8a984427653988f85df1c8489157fd2d25
-# Source SHA-256: f200f0cc33f31a533f26e9e588c6a59cec492e2ba83743f2f950574ad839df39
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPC!-FS.ANS by spice (Phat Studios '97); released in phat0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: go!#7: freeside
-# SAUCE Author: spice
-# SAUCE Group: Phat Studios '97
-# SAUCE Date: 19970723
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: go!#7: freeside by spice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0997-spc-fs
 
 Write-Host '
 

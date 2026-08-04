@@ -1,18 +1,4 @@
-﻿# Converted from: AK-DCTC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0295/raw/AK-DCTC.ANS
-# Source Revision: archive-sha256:783416b41a421333c3ef8049cdade58e4e0c645dd104994cd95b81b7407d25ff
-# Source SHA-256: fd29343daeb30029f989665c48b8f359c3acb31a02ac51e5ed656ee420ef410b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-DCTC.ANS by Asian Knight + Vanquish (ACiD Productions); released in acdu0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Damage Control Trade Center
-# SAUCE Author: Asian Knight
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950201
-# SAUCE Dimensions: 80x139
-# Lines: 43-89
-# Columns: 1-80
+﻿# Artwork: Damage Control Trade Center by Asian Knight + Vanquish | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0295-ak-dctc-part02
 
 Write-Host '
 [1;30m ▄   ▄ ▀▄▄[0m     [1;30m█[0;1;30;47m█[0m   [1;31;43m▒▓[0;1;31m▀▄[0;1;31;43m▓▓[0;1;31m▌[0;1;30m▐█ [0;1;31m▄[0m     [1;31m░[0;1;30m▀ ▄▀ ▄▀▀   ▀  [0;33m▄ ▄▀█▒█▄ [0;1;30m█[0;1;30;47m▓[0m [33m▀▄▓▌  [0;1;30m▓▀▄ ▐█ ▀[0m

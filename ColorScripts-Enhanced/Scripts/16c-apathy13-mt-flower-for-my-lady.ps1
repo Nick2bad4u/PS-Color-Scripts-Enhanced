@@ -1,19 +1,4 @@
-﻿# Converted from: mt-flower-for-my-lady.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy13/raw/mt-flower-for-my-lady.ans
-# Source Revision: archive-sha256:3ed7178f860604c6b9786846d46fd13095846b81c16a5324edc4e4b9ea7e6ba8
-# Source SHA-256: 2e456b145a8a7644593a3c3a0542ff1343b30863123a2ee005a9384dd170c0b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mt-flower-for-my-lady.ans by misfit (apathy); released in apathy13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: flower for my lady
-# SAUCE Author: misfit
-# SAUCE Group: apathy
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x46
-# SAUCE Font: IBM VGA
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: flower for my lady by misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy13-mt-flower-for-my-lady
 
 Write-Host '
              ▄▄▄[30;47m   [0;37;40m▄▄  ▀[0;30;47m    [0;37;40m▄  ▄▄           ▄▄[0;30;47m     [0;37;40m█▀▀ ▀ ▀▀█[0;30;47m           [0;37;40m▄▄▄[0m

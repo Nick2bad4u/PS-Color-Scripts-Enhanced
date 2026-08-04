@@ -1,13 +1,4 @@
-﻿# Converted from: 09-SHOCK.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9605a/raw/09-SHOCK.ICE
-# Source Revision: archive-sha256:cf7acb12a0ec01e1383bf24c3c45a68bc55fde8f0e38cd56180a1936aa9f8089
-# Source SHA-256: c838b74019c3294c03ac8ca13badaa4ff26e8dda1396e9a7aa2596980854be02
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-SHOCK.ICE by Fluor (ice9605a); released in ice9605a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: 09-SHOCK.ICE by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9605a-09-shock
 
 Write-Host '
 [1;34m [0m

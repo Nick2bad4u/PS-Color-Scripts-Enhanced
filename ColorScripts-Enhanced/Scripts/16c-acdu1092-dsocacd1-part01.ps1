@@ -1,13 +1,4 @@
-﻿# Converted from: DSOCACD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1092/raw/DSOCACD1.ANS
-# Source Revision: archive-sha256:768e49c0fcc70036d81b58eb68d2e9509e4ecc466f4fb706e35cc9eb05b78dcb
-# Source SHA-256: 5ffb53c760bb2a4b8ab3dde5afd349530a83ed20fcb767c83e243b11aba7c03c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DSOCACD1.ANS by Cerebrus (acdu1092); released in acdu1092 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: DSOCACD1.ANS by Cerebrus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1092-dsocacd1-part01
 
 Write-Host '
      [1;37m▄▄▄▄[0m   [1;37m▄▄▄▄[0m  [1;37m▄▄▄[0m   [1;37m▄▄▄▄▄[0m  [1;37m▄[0m   [1;37m▄[0m  [1;37m▄▄▄▄[0m  [1;37m▄▄▄▄[0m          [1;37m▄[0m     [1;37m▄▄[0m   [1;37m▄[0m    [1;37m▄[0m

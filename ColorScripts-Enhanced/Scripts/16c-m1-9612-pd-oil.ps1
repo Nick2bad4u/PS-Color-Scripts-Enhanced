@@ -1,18 +1,4 @@
-﻿# Converted from: PD-OIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m1-9612/raw/PD-OIL.ANS
-# Source Revision: archive-sha256:3345b8669e1e5395f00119c0204de5931cc61e1b206afc14cb4b582ca2764c50
-# Source SHA-256: 711105544d0044419c1fabf363ca5f2fa08b43d6b33766e2a3bc539356c13c28
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PD-OIL.ANS by Paradox (Maiten1); released in m1-9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Oil
-# SAUCE Author: Paradox
-# SAUCE Group: Maiten1
-# SAUCE Date: 19960726
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Oil by Paradox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m1-9612-pd-oil
 
 Write-Host '
 [1;35mp[0;35md[0;1;30m.[0m

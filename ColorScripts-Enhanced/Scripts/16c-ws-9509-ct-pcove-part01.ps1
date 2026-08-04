@@ -1,18 +1,4 @@
-﻿# Converted from: CT-PCOVE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ws-9509/raw/CT-PCOVE.ANS
-# Source Revision: archive-sha256:f80be9f57a72f3731fd02149f3cc3f702afe87dd851a20e852584349c036c76a
-# Source SHA-256: a26616c8bdbe4bdde73fd516596720a11af4465f12d0b3c0006bf064a1a62af3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CT-PCOVE.ANS by cool 't (READ THE INI FILE); released in ws-9509 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: pirate's cove
-# SAUCE Author: cool 't
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950901
-# SAUCE Dimensions: 80x25
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: pirate's cove by cool 't | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ws-9509-ct-pcove-part01
 
 Write-Host '
 

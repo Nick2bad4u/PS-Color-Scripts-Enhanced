@@ -1,13 +1,4 @@
-﻿# Converted from: VAMPAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0296/raw/VAMPAD.ANS
-# Source Revision: archive-sha256:f34566c5626f81a26ecd4d3aa0c88b1cbd60c721646d38ba697b048df9df7b1d
-# Source SHA-256: 468fce60511fa71b21a53b2f541dbc8115189c5914c310204d41a9635979cb9c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VAMPAD.ANS by Sandy Chidester (out-0296); released in out-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: VAMPAD.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0296-vampad
 
 Write-Host '
 [34m░[0m     [1;30m▀▀▀▀█░░░░░░▒▒▒████  ▄ ▄▌[0;34m░░[0;1;30m▐[0m     [1;30m▄█    █████░░░░░▀▀▀▀▀  [0;34m░░░   ░[0m

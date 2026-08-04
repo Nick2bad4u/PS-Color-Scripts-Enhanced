@@ -1,13 +1,4 @@
-﻿# Converted from: GENHOS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1992/raw/GENHOS1.ANS
-# Source Revision: archive-sha256:408f6102282b4b4f582d319af7c00d0c1a49a9b89d70dc7754d4cd44f475f4fb
-# Source SHA-256: 9e5cecd4b4483194d57dbcfcac1a83abab3279e40c32f860a7b80a89daa6d2d3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GENHOS1.ANS by Genesis (1992); released in 1992 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: GENHOS1.ANS by Genesis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1992-genhos1-part01
 
 Write-Host '
                                       [1;32m▌[0m

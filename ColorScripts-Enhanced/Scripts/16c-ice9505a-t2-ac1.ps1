@@ -1,13 +1,4 @@
-﻿# Converted from: T2-AC1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9505a/raw/T2-AC1.ICE
-# Source Revision: archive-sha256:7861518dfd83d60b94b81bdb02a8d68bbd05655ea908dea3b656c859ebf9150f
-# Source SHA-256: 23e8845ba06e1484afc818648c44b7758bc8676757a350986ab4559411501e44
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T2-AC1.ICE by Terminator2 (ice9505a); released in ice9505a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: T2-AC1.ICE by Terminator2 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9505a-t2-ac1
 
 Write-Host '
 [1;31m▄[0;1;31;47m░[0m▌▐[1;31;47m░░[0m▄[1;31;47m▄[0m▀[1;31;47m▄▒[0m▄ ▄▄▌▀ ▄▄[1;31;47m▒▄[0;1;31m▄▄▄ [0m▀▓▀    ▄▄▄[1;31m▄[0;36m▀▀▀[0;1;36;46m▒▀[0;36m▌ ▀[0;1;36;46m▀[0;36m▌▀[0;1;36;46m▀█▓█▓▒▀[0;36m▌█    ▄   ▌  ░░▒▓█▀[0;1;36;46m░░[0;36m▀[0;1;36;46m▒▓[0m

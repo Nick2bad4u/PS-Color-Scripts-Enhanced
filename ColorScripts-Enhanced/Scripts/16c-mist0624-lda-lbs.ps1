@@ -1,20 +1,4 @@
-﻿# Converted from: LDA-LBS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0624/raw/LDA-LBS.ANS
-# Source Revision: archive-sha256:7e2642f67629daefe8d04ebedd2e233be2e8a74b2dea50eb02da49be24298927
-# Source SHA-256: 3f0ba100d7e824a529efb06fd5d94516802493a9ce05e5f456e5b5e93f8ab4c1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LDA-LBS.ANS by LDA (Mistigris); released in mist0624 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: littlebitspace
-# SAUCE Author: LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20240624
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: ANSI art is probably dead... I concede.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: littlebitspace by LDA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0624-lda-lbs
 
 Write-Host '
    [1m█▌  █▓ ▀█▀ ▀█▀[0m  [1m█▌ █▀■ [0m▐▀█ ■█  [1m▐▀▓ [0m■▀█ ■█  [1m■█   ª▒ [0m▐▀█ [1m■█[0m 0x[30;47m&[0;1;30;40m▀▄[0;1;37;40mu▄▀▓▓▄▀▓▓██[0m

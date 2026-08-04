@@ -1,18 +1,4 @@
-﻿# Converted from: PC-PRAWN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst0996/raw/PC-PRAWN.ANS
-# Source Revision: archive-sha256:c58a9dfd64582c9f28da9ef1a731e3d6ed8d515023a3071391d83924f7f5a36c
-# Source SHA-256: ed3ada1d951029bca383d544196a18243f830c2bb71caa63b72bbb33a8af4c7f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-PRAWN.ANS by pcarc (twisted); released in twst0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: prawn
-# SAUCE Author: pcarc
-# SAUCE Group: twisted
-# SAUCE Date: 19960904
-# SAUCE Dimensions: 80x48
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: prawn by pcarc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst0996-pc-prawn
 
 Write-Host '
 [1;30m▒░[0;1;33m [0m  [1;35m▄▄▄▄[0;1;35;47m▓▓▓[0;1;35;40m▀[0;1;35;45m████████[0;1;35;47m▓▓▓[0;1;35;45m█[0;1;35;40m███▄▄▀▀[0;1;35;47m██[0;1;35;40m█[0;1;35;47m█[0;1;35;40m█[0;1;35;47m▓▓[0;1;35;40m▀▀▀▄▄[0;1;35;45m▓▓▓[0;1;35;40m██[0;1;35;45m█[0;1;35;40m▀[0;1;35;47m▓▓[0;1;35;40m▄▄▄▄  [0;1;33;40m  [0;1;37;40m [0m░[1m▄███[0;1;33m██[0;1;37m███████[0;1;37;47m▓▓[0;1;37;40m▄ [0m

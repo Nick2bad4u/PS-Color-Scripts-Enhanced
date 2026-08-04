@@ -1,18 +1,4 @@
-﻿# Converted from: DX-REPIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p06_00/raw/DX-REPIC.ANS
-# Source Revision: archive-sha256:3daad9bd70cd9307445d25e1dbbdc4eae498b83379a5b89ecd2ac9419e6150d3
-# Source SHA-256: c1519955b914abc4d3414fe76d9180a6a2c1981ad6b99d19a1d0caa653fe1e52
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DX-REPIC.ANS by dx[ka] (ka+ion); released in l0p06_00 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: re/thc with pic
-# SAUCE Author: dx[ka]
-# SAUCE Group: ka+ion
-# SAUCE Date: 20000512
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: re/thc with pic by dx[ka] | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p06-00-dx-repic
 
 Write-Host '
 [1;30mfor lop#6[0;31m   [0;37m [0;34m▄▄▄▄▄▄▄[0;37m [0;31m    [0m

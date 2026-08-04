@@ -1,19 +1,4 @@
-﻿# Converted from: ak-big.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz16/raw/ak-big.ans
-# Source Revision: archive-sha256:b093dd3cb06bf783d59a9df3724c51f9a41f686cd4fd545c920ada008d959f7a
-# Source SHA-256: 9da22e6075a501034f4d706187be904f613352568e074de4af7e9e07a4c85037
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ak-big.ans by abstrakt (lazarus); released in laz16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: 23 'til infinity
-# SAUCE Author: abstrakt
-# SAUCE Group: lazarus
-# SAUCE Date: 20230101
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: 23 'til infinity by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz16-ak-big
 
 Write-Host '
 [1;33;41mABS[0;1;33;40m♫♫[0;1;31;40m♫[0;31m♫[0;1;31mP''[0;33m   _.,┌⌐s%##SS$$§§§§§$$§§S#s┐. [0;1;31m`[0;31m♫[0;1;31m♫[0;31m♫[0;1;31m♫[0;31m♫[0;1;31m♫[0;31m♫[0;1;31m♫[0;31m♫[0;1;31mP[0;1;33md│$♫b[0;1;31mY[0;31m♫[0;1;31mP[0;1;33mdb[0;31mY[0;1;31m♫[0;31m♫[0;1;31m♫[0;31m♫[0;1;31m♫[0;31m♫[0;1;31m♫[0;31m│[0;1;31m$[0;31m│[0;1;31m♫[0;31m♫[0;1;31m7[0;1;33mdb[0;31mY[0;1;31m♫[0;31m♫[0m

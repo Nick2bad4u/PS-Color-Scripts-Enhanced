@@ -1,18 +1,4 @@
-﻿# Converted from: LD-BT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0302/raw/LD-BT2.ANS
-# Source Revision: archive-sha256:7b2619e0400d7382d19d38767873337eae71942dd319abc1998c71f4a968776f
-# Source SHA-256: 6b415f85c0dfb7b8e98ddac73af4197248765e045b925446d1ac5697532c4255
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-BT2.ANS by lordjazz (Revival 2002); released in rev0302 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Black Thursday
-# SAUCE Author: lordjazz
-# SAUCE Group: Revival 2002
-# SAUCE Date: 20020314
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Black Thursday by lordjazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0302-ld-bt2
 
 Write-Host '
                             [1;32m█[0;1;32;42m▓░[0;32m [0;1;32;42m░[0;32m [0;1;30m▐[0m [1;36m█[0;1;36;46m▓▓░░░[0;1;30;46m░▓[0;36m [0;1;30m█[0;36m [0;1;32;42m▓░[0;32m▌[0;36m [0;1;32;42m░[0;36m  [0;1;30m▐[0;1;30;46m▀[0;36m███[0;1;30;46m░░░▓▓██[0;36m [0;1;30m▓[0;36m  ▓▓▓▓▓░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MR-TSL01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-20/raw/MR-TSL01.ANS
-# Source Revision: archive-sha256:23bbf66596e3e4f3c4b9e335dc62ccc331634eba04c3d179b73e396fa3971807
-# Source SHA-256: 692573285fac762d630b0f64ca945d81d747a79d06d999fbc8a9f64187750be0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-TSL01.ANS by Mr. Wrong (AWE Lettering); released in awe-20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Savage Lands
-# SAUCE Author: Mr. Wrong
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981213
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: The Savage Lands by Mr. Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-20-mr-tsl01
 
 Write-Host '
               [35m▄[0m          [33m▄[0;37m  [0;35m ▄[0;1;30m▄[0m                        [1;33m░[0;33m▄[0m

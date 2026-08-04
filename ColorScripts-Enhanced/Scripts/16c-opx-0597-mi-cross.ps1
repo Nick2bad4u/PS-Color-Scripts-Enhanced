@@ -1,18 +1,4 @@
-﻿# Converted from: MI-CROSS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0597/raw/MI-CROSS.ANS
-# Source Revision: archive-sha256:e6fe3ae4fc988a430f4c2e43606b4738207590afea7cf3991b6548469f3cd377
-# Source SHA-256: 2860f026daa20661f31437b3edb1d10999a10bf6b1766a087f7d362b4e2e4543
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MI-CROSS.ANS by Mongi (Opium Grphics); released in opx-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Southern Cross
-# SAUCE Author: Mongi
-# SAUCE Group: Opium Grphics
-# SAUCE Date: 19970425
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Southern Cross by Mongi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0597-mi-cross
 
 Write-Host '
 [1;34m███████████████[0;1;34;44m▓[0;1;33;40m [0;1;37;47m▒▒▓▒▒▓▒[0;1;33;40m [0;1;34;44m▒[0;1;34;40m██████████████▀▀▀▀▀███████████████████████████████████[0m

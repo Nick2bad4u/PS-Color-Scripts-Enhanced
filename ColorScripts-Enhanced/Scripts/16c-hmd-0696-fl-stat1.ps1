@@ -1,18 +1,4 @@
-﻿# Converted from: FL-STAT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hmd-0696/raw/FL-STAT1.ANS
-# Source Revision: archive-sha256:cdb2bd6a0639a2561fe55465badfc0395ee676b7bad0a20bb4669cc251eedfd7
-# Source SHA-256: 1ca91c5e75389b6c0e90bb016c682a82ef7e3401cc76093e80f0cf7d335c07df
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-STAT1.ANS by flame (hUMID); released in hmd-0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the grinder stats screen
-# SAUCE Author: flame
-# SAUCE Group: hUMID
-# SAUCE Date: 19960517
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: the grinder stats screen by flame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hmd-0696-fl-stat1
 
 Write-Host '
 [1;34;47m ░▒▒▓▓[0;1;34;40m▀▀[0;1;34;44m▀█[0;1;34;40m▀▀[0;1;34;47m▓▓[0;1;34;41m▓[0;1;34;40m▀▀▀▀█▓▒▒[0;1;34;44m░░[0;34m█████████████[0;1;31;44m░░[0;34m██[0;30;44m░[0;34;40m▓░[0;37;40m   [0m     [1;30;40m         [0m    [1;30m▀▀[0m  [1;30m▄▄[0m   [1;30m▀[0m

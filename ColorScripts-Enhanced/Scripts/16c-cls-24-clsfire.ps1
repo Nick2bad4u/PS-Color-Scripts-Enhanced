@@ -1,18 +1,4 @@
-﻿# Converted from: CLSFIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cls-24/raw/CLSFIRE.ANS
-# Source Revision: archive-sha256:25053bc15e5e48ff5004cd9fec0a87fd3e5a0af4d9241cb6b4ce884a851d13a2
-# Source SHA-256: 6459eb79f788f883f6f70a4dab8d7a8c7cf6d2388060b2e6e22c7da8ae3923d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CLSFIRE.ANS by El ReVueLTa (C.L.S); released in cls-24 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: C.L.S en llamas
-# SAUCE Author: El ReVueLTa
-# SAUCE Group: C.L.S
-# SAUCE Date: 19981207
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: C.L.S en llamas by El ReVueLTa | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cls-24-clsfire
 
 Write-Host '
 [30m██████████████████████████████████████████████████[0;31m░░░░░[0;30m█[0;31m░[0;30m███████████████████████[0m

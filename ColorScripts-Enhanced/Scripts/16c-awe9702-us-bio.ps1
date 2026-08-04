@@ -1,18 +1,4 @@
-﻿# Converted from: US-BIO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9702/raw/US-BIO.ANS
-# Source Revision: archive-sha256:66fa024bb27d2c5c9da5d44e7d12f110f2c57bdedd32c6f0a850d91a30d582a8
-# Source SHA-256: fc7715788b140a3405e90a61f29373662d92720198e9514d5523f03e57b1cdd5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BIO.ANS by Massm + Discyple (AWE Lettering); released in awe9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: BioHazard
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970119
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: BioHazard by Massm + Discyple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9702-us-bio
 
 Write-Host '
                                 [1;30m     [0m

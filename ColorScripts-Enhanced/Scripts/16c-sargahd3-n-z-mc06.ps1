@@ -1,18 +1,4 @@
-﻿# Converted from: N!Z-MC06.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sargahd3/raw/N!Z-MC06.ANS
-# Source Revision: archive-sha256:d4be65be862c17debbed01c060fb85aadbdbe00a8282836fa25f3f46073f618d
-# Source SHA-256: e004eedee5e5ec02697ce4c8cbfc0aea5c60e26cb578fb4126dc68e98075dc59
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N!Z-MC06.ANS by noize (fbk.sargahd); released in sargahd3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: carrier lost
-# SAUCE Author: noize
-# SAUCE Group: fbk.sargahd
-# SAUCE Date: 19970211
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: carrier lost by noize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sargahd3-n-z-mc06
 
 Write-Host '
 [31m██████████████████████████████████▀▀▀▀▀▀▀▀██████████████████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m

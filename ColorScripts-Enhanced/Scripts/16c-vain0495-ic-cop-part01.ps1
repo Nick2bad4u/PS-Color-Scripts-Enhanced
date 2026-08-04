@@ -1,18 +1,4 @@
-﻿# Converted from: IC-COP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vain0495/raw/IC-COP.ANS
-# Source Revision: archive-sha256:1cc1157d9a40c1f786b3466fc6c703b67f85db52c6c211f1daae73b21bef6d62
-# Source SHA-256: 3f759d6ea44ff7fd82c5f10e0532da24060b500c08dbb3b9061e59916848b745
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IC-COP.ANS by iNNER CHAOS (READ THE INI FILE); released in vain0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Chapel of Pain ansee.
-# SAUCE Author: iNNER CHAOS
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950312
-# SAUCE Dimensions: 80x25
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: Chapel of Pain ansee. by iNNER CHAOS | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vain0495-ic-cop-part01
 
 Write-Host '
 [1;30m[0m[1;30m████████████████████████████████████████████████████████████████████████████████[0m

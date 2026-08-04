@@ -1,18 +1,4 @@
-﻿# Converted from: LEMON-KB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/kbsart05/raw/LEMON-KB.ANS
-# Source Revision: archive-sha256:2d1e5cc8aadc78d8a9e1a5c17a7255f1602c1ed2ff3b2a77065d6a5996b6746b
-# Source SHA-256: 225fd1e0dc78adc86b274f51f6241f69c0faf6d5f39a870e48b2ee9cf5e2c89d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LEMON-KB.ANS by lemon44 (groupless); released in kbsart05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: lemon-kbs
-# SAUCE Author: lemon44
-# SAUCE Group: groupless
-# SAUCE Date: 20000201
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: lemon-kbs by lemon44 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-kbsart05-lemon-kb
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: MK-MAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gem-0897/raw/MK-MAIN.ANS
-# Source Revision: archive-sha256:f42357457f41a2b5131c00a88d410a22a6062b3d72ae6b43f8ce24ded01ef3c6
-# Source SHA-256: aa9124a8561e4d19122a6d232e427548ded06dd3827e2b7e04f545259e5d1f50
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MK-MAIN.ANS by Maniak Killa (gem-0897); released in gem-0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: MK-MAIN.ANS by Maniak Killa | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gem-0897-mk-main
 
 Write-Host '
                                                         [31m▄████████▄ ▀ ▄[0m

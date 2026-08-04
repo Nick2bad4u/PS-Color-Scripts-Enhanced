@@ -1,18 +1,4 @@
-﻿# Converted from: MAY-BOWY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/soc-04/raw/MAY-BOWY.ANS
-# Source Revision: archive-sha256:72fd15426f37bca7e28f2cf1b434b07c03280098e1e5474499ff2d23d8253e82
-# Source SHA-256: 74c5dfa6209cd9bb9e522542db40484296ccddab5a5f3c36a9d8a0935c85c91b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MAY-BOWY.ANS by maytag man (echo); released in soc-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: tribute to bowie
-# SAUCE Author: maytag man
-# SAUCE Group: echo
-# SAUCE Date: 19971013
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: tribute to bowie by maytag man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-soc-04-may-bowy
 
 Write-Host '
 [1;36;46m▓▓▓[0;1;36;40m████████████████████[0;1;36;46m▀▀[0;36m▀▀▀▀[0;1;37m       ░░░░               [0;1;33m░░[0m       [33m▄[0;1;33m▄▄[0;33m▄░░▄▀[0m

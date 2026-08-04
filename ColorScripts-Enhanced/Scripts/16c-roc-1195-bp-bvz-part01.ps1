@@ -1,18 +1,4 @@
-﻿# Converted from: BP-BVZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roc-1195/raw/BP-BVZ.ANS
-# Source Revision: archive-sha256:8dcfa5971e7cb6bfb17cdd69d77ff4fc3f113e1c74428a77911119ab622b401a
-# Source SHA-256: efa83a4dbd68685cce7588488db246506c0c953606f5f331df876c233fa35f81
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BP-BVZ.ANS by Blood Priest (ROC); released in roc-1195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Bottled Violence Zine
-# SAUCE Author: Blood Priest
-# SAUCE Group: ROC
-# SAUCE Date: 19951101
-# SAUCE Dimensions: 80x67
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: Bottled Violence Zine by Blood Priest | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roc-1195-bp-bvz-part01
 
 Write-Host '
                         ▄▄▄▄[1m▄▄[0m

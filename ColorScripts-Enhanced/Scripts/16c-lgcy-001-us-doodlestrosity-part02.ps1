@@ -1,20 +1,4 @@
-﻿# Converted from: us-doodlestrosity.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-001/raw/us-doodlestrosity.ans
-# Source Revision: archive-sha256:589c804657c8d15ba617f7c0fd80723e4505d519989b80eba9584665be49eb54
-# Source SHA-256: b702b4cbfbca4fc42ad1482bf726be55e96613cb9e35ed1ce75c79d6bb943b4e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-doodlestrosity.ans by Warpus + Mx (Legacy Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Doodlestrosity
-# SAUCE Author: warpus & mx
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20191228
-# SAUCE Dimensions: 80x138
-# SAUCE Font: IBM VGA
-# SAUCE Comments: This was tedious to colour, but I knew I just had to - warpus/le | gacy
-# Lines: 46-92
-# Columns: 1-80
+﻿# Artwork: The Doodlestrosity by Warpus + Mx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-001-us-doodlestrosity-part02
 
 Write-Host '
 [35m▐▌[0;36m  [0;1;36m█[0;35m  ▀▄[0;36m▀  [0;1;35;47m▌[0;1;35;40m [0;1;36;40m▀[0;36m▀█[0;35;46m▄[0;36;40m [0;1;33;40m▐█[0;35m▐█[0;31m  ▀▄[0;1;31m [0;1;35m▄▀[0;31m   ▀[0;1;31m [0;34m▄[0;31m▄[0;1;31m▄[0;1;35m [0;35m▄▄ [0;1;31m▄[0;31m▄[0;34m▄[0;1;31m [0;31m▀   [0;1;35m▀▄[0;31m [0;31;45m▄[0;31;40m▀  [0;1;31;45m [0;31m▀[0;1;31;45m▓[0;1;30;40m█[0;1;31;40m [0;36;45m▀[0;36;40m█▀[0;1;36;40m▀[0;36m [0;1;35;47m▐[0;1;35;40m  [0;36m▀[0;35m▄▀[0;36m  [0;1;36m█[0;36m  [0;35m▐▌[0m

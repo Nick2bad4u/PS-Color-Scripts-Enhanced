@@ -1,18 +1,4 @@
-﻿# Converted from: PP-STRUM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger08/raw/PP-STRUM.ANS
-# Source Revision: archive-sha256:20659819b296ba2594f6e23437420c94a5e40c1f843310f8d5730efe645a2109
-# Source SHA-256: bcdaac87634efce5f962e4fc13f7b068f6442e691344002fe002d185a4ea167c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PP-STRUM.ANS by pixel_pusher (anger96); released in anger08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: stummer..
-# SAUCE Author: pixel_pusher
-# SAUCE Group: anger96
-# SAUCE Date: 19960322
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: stummer.. by pixel_pusher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger08-pp-strum
 
 Write-Host '
 

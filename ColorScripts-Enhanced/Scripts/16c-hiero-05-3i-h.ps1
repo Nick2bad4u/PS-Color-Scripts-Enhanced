@@ -1,18 +1,4 @@
-﻿# Converted from: 3I-H.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-05/raw/3I-H.ANS
-# Source Revision: archive-sha256:9a8be922d1845a782b9897ae82406f49203492d3f9366796ffa94c1b52060165
-# Source SHA-256: e035116595c0ca971ccb0035cb3e4cd2adcf71adbb305c4334cb154924a165b7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 3I-H.ANS by Nitrifik (Hieroglyphics); released in hiero-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Hieroglyphics
-# SAUCE Author: Nitrifik
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20001218
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Hieroglyphics by Nitrifik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-05-3i-h
 
 Write-Host '
     [1;30m                   [0m

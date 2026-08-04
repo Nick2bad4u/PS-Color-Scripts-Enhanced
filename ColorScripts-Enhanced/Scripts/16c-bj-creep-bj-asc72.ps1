@@ -1,18 +1,4 @@
-﻿# Converted from: bj-asc72.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bj-creep/raw/bj-asc72.ans
-# Source Revision: archive-sha256:0debf4b45d7d951a68b5333767ded34f656851230e3888db7abc1feaad98e52f
-# Source SHA-256: 0c2384031baebdbfec6bff9008e75c882ef007b2bdee5b21076d8bb4ce3407d5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bj-asc72.ans by Black Jack & Ack (rmrs+srl [03/05/97]); released in bj-creep and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Welcome Screen (The Living End)
-# SAUCE Author: Black Jack & Ack
-# SAUCE Group: rmrs+srl [03/05/97]
-# SAUCE Date: 19970304
-# SAUCE Dimensions: 80x46
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Welcome Screen (The Living End) by Black Jack & Ack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bj-creep-bj-asc72
 
 Write-Host '
 [32mblack jack & ack    ,;;il&$$S@m,_,m@S$$$$$$$$&P''  ,dPⁿ"[0;34m_,m@@@gg._[0;32m~ⁿY$$$$$$$$$$$$[0m

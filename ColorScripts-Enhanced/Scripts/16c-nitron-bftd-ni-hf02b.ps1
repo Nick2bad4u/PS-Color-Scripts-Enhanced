@@ -1,18 +1,4 @@
-﻿# Converted from: NI-HF02B.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nitron-bftd/raw/NI-HF02B.ANS
-# Source Revision: archive-sha256:4c6df16f27c39462bd5da950772e9d859505d53ed6f2727c72aefdd2668e5e13
-# Source SHA-256: 92bb3b73198f23e6c50a64eab3804672690493d76c940808362363b0cc5b0918
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-HF02B.ANS by nitron (nitron-bftd); released in nitron-bftd and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: HF-02 Heavy Fighter Blue
-# SAUCE Author: nitron
-# SAUCE Date: 20220323
-# SAUCE Dimensions: 80x27
-# SAUCE Font: IBM VGA
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: HF-02 Heavy Fighter Blue by nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nitron-bftd-ni-hf02b
 
 Write-Host '
 [1m┌──────────────────[0;1;34m──[0;1;37m──────[0;1;34m─[0;1;37m────[0;1;34m──[0;1;37m─[0;1;34m──────────────────[0;34m──[0;1;34m───[0;34m──[0;1;34m──[0;34m─[0;1;34m─[0;34m────[0;1;34m─[0;34m──────────┐[0m

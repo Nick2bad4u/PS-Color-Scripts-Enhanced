@@ -1,18 +1,4 @@
-﻿# Converted from: US-NAMIS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense-20/raw/US-NAMIS.ANS
-# Source Revision: archive-sha256:e0054310d334f0ca2dc737536dc237c88f5ecb53579f66069eba0589af7e0b4c
-# Source SHA-256: 10142dedff463618edd07802ce3d5c7d935112e21b8e62bd1970823836820699
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-NAMIS.ANS by Maytag + Taintedx (sense); released in sense-20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: namistai promo
-# SAUCE Author: maytag and tainted
-# SAUCE Group: sense
-# SAUCE Date: 20040705
-# SAUCE Dimensions: 80x197
-# Lines: 100-148
-# Columns: 1-80
+﻿# Artwork: namistai promo by Maytag + Taintedx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense-20-us-namis-part03
 
 Write-Host '
 [31m▒[0;37m  [0;1;30m█▀▀ █▄█▄█[0m [32m█▄▄[0;1;32m▀▀[0;1;37;42m▓▓[0;1;32;40m▄▄▄[0;1;30;40m  ▀▀██  ▄██ █[0;1;30;47m▄▄[0;1;30;40m█ ██▀ ▀▀▀▀  [0;1;32;40m▄▄▄[0;1;37;42m▓▓[0;1;32;40m▀▀▒▒[0;32m█[0;37m [0;1;30m█▀██▌ ▄█▀█▀[0m   [1;30m░[0m  [31m▐[0;1;31;41m▓[0m

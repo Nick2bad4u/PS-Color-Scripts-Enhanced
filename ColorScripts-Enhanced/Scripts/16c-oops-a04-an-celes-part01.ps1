@@ -1,18 +1,4 @@
-﻿# Converted from: AN!CELES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oops_a04/raw/AN!CELES.ANS
-# Source Revision: archive-sha256:152751703632084c3874f4d0774968181737168c5892dd20cae40e0ac76659c9
-# Source SHA-256: 27a8e18d5f0008bce66813e1301da772c9e6b4a82c5402bd21a37f245351ef70
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AN!CELES.ANS by aneuriZm (oOps!aSCii); released in oops_a04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: erm
-# SAUCE Author: aneuriZm
-# SAUCE Group: oOps!aSCii
-# SAUCE Date: 19970416
-# SAUCE Dimensions: 80x79
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: erm by aneuriZm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oops-a04-an-celes-part01
 
 Write-Host '
  [36m [0m   [36m_.,adO[0;32m$$$$[0;1;37m_.,adO$$$[0;1;33m$$$$$$$$$$$$$$$$$Obn,._[0;1;36m  [0m            [1;34m,adO[0;36m$$$$$Obn,._[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US-REG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0696/raw/US-REG1.ANS
-# Source Revision: archive-sha256:812b4b6a142b76b92307dc090cdf58b49035a2b9097d1dc0a43da5e4fd3f4f2d
-# Source SHA-256: f7595cfc3f3e107d2dcd8b4d1d86bfa31e8973ccb1246658cca8645ea4d7f6e1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-REG1.ANS by Fractal + Flame (fire); released in fire0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Regency
-# SAUCE Author: Multiple Artists
-# SAUCE Group: fire
-# SAUCE Date: 19960606
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: The Regency by Fractal + Flame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0696-us-reg1
 
 Write-Host '
 [30m                                [0m    [33m░[0;30;43m▓[0;31;40m [0;30;40m        [0;31;40m  [0;33;40m▄[0;31;40m [0;30;40m        [0m

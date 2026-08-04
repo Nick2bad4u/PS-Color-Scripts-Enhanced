@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-F.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0398/raw/BYM-F.ANS
-# Source Revision: archive-sha256:f8b78bce0ded523528171ee9d37c603a9a96c5e8abf885d101375334b587e435
-# Source SHA-256: cbcf319f90472259b39a32fcb7854fa1dfdae1a7ab14592042f3513bbcd27ead
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-F.ANS by superbym (poffelipoff); released in plf-0398 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: know your enemy *hopp*
-# SAUCE Author: superbym
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19980316
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: know your enemy *hopp* by superbym | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0398-bym-f
 
 Write-Host '
 [1;33m[0m

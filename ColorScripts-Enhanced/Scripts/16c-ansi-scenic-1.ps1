@@ -1,13 +1,4 @@
-﻿# Converted from: SCENIC-1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansi/raw/SCENIC-1.ANS
-# Source Revision: archive-sha256:50aaa63d173fc2f34f94b8a5b526a5ee8a8b9d7908c42264ab949073e7e0edf9
-# Source SHA-256: 746da3c6051d6d6c3906b627b3ccb93166dcad405b434a4abba5b9ced4053f7c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SCENIC-1.ANS by Ebony Eyes (ansi); released in ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: SCENIC-1.ANS by Ebony Eyes | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansi-scenic-1
 
 Write-Host '
 [1;32;47m [0;32;47m▄[0;30;47m [0;1;32;47m▀[0;32;47m▄[0;1;32;47m▄[0;30;47m  [0;32;47m▄[0;30;47m [0;1;32;47m▄[0;30;47m ▄[0;32;47m▄▀[0;1;32;47m▄[0;30;47m▄▄ [0;32;47m▄[0;1;32;47m▄[0;30;47m     [0;1;36;47m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;30;47m                [0;1;32;47m▄[0;32;47m▀▄[0;1;32;40m▀[0;30;47m [0;32;47m▀▄[0;30;47m [0;1;32;47m▀[0;32;47m▀[0;30;47m▄  [0;32;47m▄[0;1;32;47m▄[0;30;47m   [0m

@@ -1,17 +1,4 @@
-﻿# Converted from: TK-BIRTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel11/raw/TK-BIRTH.ANS
-# Source Revision: archive-sha256:bc01376bbeb692c1fce16796b92a6fd889f89dbf4c55eb291719d5ea3fd5846c
-# Source SHA-256: 53806ed08526a98150aae51014238dc7232fa465bfcbb31e00e8e58348578b64
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TK-BIRTH.ANS by The Knight (Fuel); released in fuel11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Monitor giving birth
-# SAUCE Author: The Knight
-# SAUCE Group: Fuel
-# SAUCE Dimensions: 80x25
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Monitor giving birth by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel11-tk-birth
 
 Write-Host '
       [1;30m▄█▀▀[0m▄▄▄▄█▓▓███████████████▀▀ [32m [0;1;33m▄[0;33m▄[0;32m [0;37m [0;32m▄[0;37m ▀▀▀███████████████[0;1;37;47m░░░░░[0m▄▄▄

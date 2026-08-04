@@ -1,18 +1,4 @@
-﻿# Converted from: NS-FM666.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-06/raw/NS-FM666.ANS
-# Source Revision: archive-sha256:a9f2b3a98de11e16465e105efa9558fc8b7152c0f268ebdd3ef00191f04c5b89
-# Source SHA-256: 21149e54e74dd6b1c711f4e9f061a50fe90c70f6d238dadc7379981182d9efda
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NS-FM666.ANS by Ansichrist (Hieroglyphics); released in hiero-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fuck Monkey
-# SAUCE Author: Ansichrist
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20010118
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Fuck Monkey by Ansichrist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-06-ns-fm666
 
 Write-Host '
 [31m ▄[0;1;31;41m▄█████████████████████[0;1;31;47m▓▓▓▓[0;1;31;41m█[0;1;31;47m▓▓[0;1;31;41m████▄[0;1;31;40m▄[0;31m▄ [0;34m▀[0;1;34m▒[0;34m█[0;1;34;44m░░[0;34m█[0;1;34;44m ░▒▓[0;1;34;40m██▀▀▀██[0;1;34;44m▓▓[0;1;34;40m▀▀▀▀█████[0;1;34;47m▓▓[0;1;34;40m██[0;1;34;47m▓▓▓▓▓▓▓▓[0;1;34;40m█[0m

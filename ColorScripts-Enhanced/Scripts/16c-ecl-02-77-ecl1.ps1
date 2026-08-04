@@ -1,18 +1,4 @@
-﻿# Converted from: 77-ECL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-02/raw/77-ECL1.ANS
-# Source Revision: archive-sha256:815fb0802a5a645b19e4bb1a2e67405cbfe5a7d016a5808efe6ef55f809d080c
-# Source SHA-256: 2a11d34889af663a095c500a26fce5a700da19d2e564530707bef5e45f5d1826
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 77-ECL1.ANS by agent#77 (eclipse); released in ecl-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: eclipse promo
-# SAUCE Author: agent#77
-# SAUCE Group: eclipse
-# SAUCE Date: 19960629
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: eclipse promo by agent#77 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-02-77-ecl1
 
 Write-Host '
                      [31m▄[0;1;31;41m▓[0m

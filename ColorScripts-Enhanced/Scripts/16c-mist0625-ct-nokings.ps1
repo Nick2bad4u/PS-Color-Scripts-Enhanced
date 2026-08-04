@@ -1,19 +1,4 @@
-﻿# Converted from: CT-NOKINGS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0625/raw/CT-NOKINGS.ANS
-# Source Revision: archive-sha256:6ee9af28fa25e25a7c8d524c0b340107e083c251e59a271e20836a9f47bec3b2
-# Source SHA-256: 70ce1c281e5b9b5422cec77d8e21629e11e82de0addc94f3fc8dd63c5133794d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CT-NOKINGS.ANS by Cthulu (Mistigris); released in mist0625 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: No Kings
-# SAUCE Author: Cthulu
-# SAUCE Group: Mistigris
-# SAUCE Date: 20250628
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: No Kings by Cthulu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0625-ct-nokings
 
 Write-Host '
 [1m████████████████████████████████████████████████████████████████████████████████[0m

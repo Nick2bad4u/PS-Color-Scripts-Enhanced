@@ -1,18 +1,4 @@
-﻿# Converted from: 4300-ABO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense09j/raw/4300-ABO.ANS
-# Source Revision: archive-sha256:9f583533fb256ec67ece3c5d38ebea61ce21b385a7859a4e786edef290584615
-# Source SHA-256: 5eb50a470bd78d35874a76f529342efee3e925986d161e34c2d9ad532f19f542
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 4300-ABO.ANS by aes/character (sense); released in sense09j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: aboriginal mag
-# SAUCE Author: aes/character
-# SAUCE Group: sense
-# SAUCE Date: 20020826
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: aboriginal mag by aes/character | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense09j-4300-abo
 
 Write-Host '
 [1m█████[0;1;33m██▀[0;1;30m▄▄█[0;1;30;47m▓▓[0;1;30;40m▀▄▄[0;1;30;47m▓[0;1;30;40m▀[0;1;37;40m▄█[0m [33m▄[0;37m █[0;1;37m█[0m [33m█[0;1;31;43m░░[0;33m█▀[0;1;37m▄▀▀▀▀▀▀▀▀▀▀▀▀▀▄[0;33m▀[0;1;31;43m░▒▒[0;33m█[0;37m [0;1;37;47m▄[0;1;37;40m▀[0;33m▄█[0;37m [0;1;37;47m▄[0;1;37;40m█▄[0m [1;30m█[0;1;30;47m▒▒▓▓▓[0;1;30;40m█▄[0m [1;36m▀[0;36m▀[0;37m▄[0;1;37m▄▄▄[0m▄[36m▀[0;1;36m▀█[0m

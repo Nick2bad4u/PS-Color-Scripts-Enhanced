@@ -1,18 +1,4 @@
-﻿# Converted from: CLS-VTK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/kbsart03/raw/CLS-VTK.ANS
-# Source Revision: archive-sha256:3bc41b0cbaed5cc33563c576ee20fcd7a1c532d4df2df0fbf9fb63f79506bdf8
-# Source SHA-256: c71cff9e0f45d5b3837dcbd69031a5781ad3bc4a1173bb8b1db6abc6d7ec2b50
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CLS-VTK.ANS by cLs (kibosh); released in kbsart03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: VTK - Demo project
-# SAUCE Author: cLs
-# SAUCE Group: kibosh
-# SAUCE Date: 19980223
-# SAUCE Dimensions: 80x51
-# Lines: 27-51
-# Columns: 1-80
+﻿# Artwork: VTK - Demo project by cLs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-kbsart03-cls-vtk-part02
 
 Write-Host '
                             [35m▀▀▀[0;37m▄[0;1;37;47m░▒▓[0;1;37;40m██████████[0;1;37;47m▓▒░[0m█▀ [35m▀[0;37m▄█     [0m

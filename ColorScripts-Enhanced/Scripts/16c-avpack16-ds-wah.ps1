@@ -1,17 +1,4 @@
-﻿# Converted from: ds-wah!!.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack16/raw/ds-wah!!.ans
-# Source Revision: archive-sha256:c169b8434a7461a5936daf6ca0076420ba73d015e2414b7a4312b4b9d20ef74a
-# Source SHA-256: c176c32838a69e5a8687ef0ebe03c61dc93a839c44332e9047bd4451e91b3afb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ds-wah!!.ans by Deathstroke (Apocalyptic Visions); released in avpack16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Face
-# SAUCE Author: Deathstroke
-# SAUCE Group: Apocalyptic Visions
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Face by Deathstroke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack16-ds-wah
 
 Write-Host '
                  [35m▄▄▄▄▄▄███████████████████▄▄▄▄▄▄▄▄▄▄[0m

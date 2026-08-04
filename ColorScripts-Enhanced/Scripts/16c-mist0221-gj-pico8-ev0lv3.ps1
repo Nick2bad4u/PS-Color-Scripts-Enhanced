@@ -1,19 +1,4 @@
-﻿# Converted from: GJ-PICO8-EV0LV3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0221/raw/GJ-PICO8-EV0LV3.ANS
-# Source Revision: archive-sha256:4a8c9a8001bc7db23e62733bd188b07e2f92f8b5caca34bf87f4e45dd922c1a0
-# Source SHA-256: a0c7f5a53294617cfd74a88f2989ca80db29c67cbeae7f9672f8f8326493ea49
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GJ-PICO8-EV0LV3.ANS by grymmjack (Mistigris); released in mist0221 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 3V0LV3
-# SAUCE Author: grymmjack
-# SAUCE Group: Mistigris
-# SAUCE Date: 20210228
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: 3V0LV3 by grymmjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0221-gj-pico8-ev0lv3
 
 Write-Host '
 

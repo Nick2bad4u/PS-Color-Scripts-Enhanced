@@ -1,18 +1,4 @@
-﻿# Converted from: LI-FUEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel19/raw/LI-FUEL.ANS
-# Source Revision: archive-sha256:7996394d1322b4d75a2eac63da1058443f8c8d07863e81821c5c4a203e798c3c
-# Source SHA-256: 6428424d23611947ee173f12628778428e392d1613dcffab7be29bdac00cc313
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LI-FUEL.ANS by lint (fuel); released in fuel19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fuel promo
-# SAUCE Author: lint
-# SAUCE Group: fuel
-# SAUCE Date: 19971202
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: fuel promo by lint | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel19-li-fuel
 
 Write-Host '
 [1;30;47m▄[0;1;30;40m▄██▀[0m [1;30m▀█▀[0m  [1;30m▀█[0;1;30;47m▄[0;1;30;40m▀▀███▀█[0;1;30;47m▓▄[0;1;30;40m▄█[0;1;30;47m▓▓▄[0;1;30;40m▀▀[0;1;30;47m▀▀▄▄[0;1;30;40m██▄█▓[0;1;30;47m▓▓[0;1;30;40m▀█▀▀▀███▀█[0;1;30;47m▄▄[0;1;30;40m█[0;1;30;47m▄[0;1;30;40m█▀▀▀██▀▀▀█[0;1;30;47m▄▄▓▓▄[0;1;30;40m█[0;1;30;47m▀ ▀[0;1;30;40m█▄█[0;1;30;47m▓▓▀[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: SM-SON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rgr-1195/raw/SM-SON.ANS
-# Source Revision: archive-sha256:dbdab5c77136f07d997209c6b062f104eceb3ed0ce5bdb83742781ddf735d7ae
-# Source SHA-256: 8dad49b714e1dd5959615994ceeb8eddc2914c00e77acd93b0e7cf845b9a3196
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-SON.ANS by S.a.n. Man (RiGOR); released in rgr-1195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Swamps of Nyissa
-# SAUCE Author: S.a.n. Man
-# SAUCE Group: RiGOR
-# SAUCE Dimensions: 80x25
-# Lines: 47-93
-# Columns: 1-80
+﻿# Artwork: Swamps of Nyissa by S.a.n. Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rgr-1195-sm-son-part02
 
 Write-Host '
 [36m█████████████▓▓▓▓▓▒▒▒░░░ [0;32m▄▄[0;1;30;42m▒[0;32m▄▄▄[0;1;30;42m░[0;32m▀▀▀▀[0;1;30;42m░░▒▓[0m [1;30;42m░[0m [1;30;42m▓▓▒░[0m [32m▄▄[0;1;32;42m░░[0;42m   [0;32;40m▄▄▄[0;37;40m  [0;1;32;42m▒▒▓█[0;1;32;40m██▄[0m [36m░░░▒▒▒▒▒▓▓▓▓[0m

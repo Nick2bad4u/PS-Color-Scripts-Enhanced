@@ -1,18 +1,4 @@
-﻿# Converted from: US-FLAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9707/raw/US-FLAT.ANS
-# Source Revision: archive-sha256:718ad2b08b14a24156d1af86433f0063bd9bba178c290c317100b8e5ffb3939c
-# Source SHA-256: 091b9e9ea5dd1002c826bf325473d6b3dcaacbfc4fe267487a0fb9301dd46141
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FLAT.ANS by Samurai + Splatt (AWE Lettering); released in awe9707 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Flatscan
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970622
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Flatscan by Samurai + Splatt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9707-us-flat
 
 Write-Host '
 [34m▓[0;1;34;44m▄▄[0;34m▄ ▄[0;1;34;44m▄█▌▄▄[0;34m▄[0m                            [36m▄▌ [0;32m░[0;30;42m▓[0m [32;40m▄[0;1;32;42m▄▄▄[0;32m▄[0;1;32;42m▄[0;1;32;40m▓▓[0;1;32;42m▄[0;32m▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: IPH-THEW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/iph-004/raw/IPH-THEW.ANS
-# Source Revision: archive-sha256:f6d0cdcefaffe7760a74aac16d236f4311157c0d3317e8802728ac758aa3f964
-# Source SHA-256: 00bc912bd4d11c11ae6fd6607a456189355c13c4f46004991d0a954d6e586cfc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IPH-THEW.ANS by Interphaze (iph-004); released in iph-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: IPH-THEW.ANS by Interphaze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-iph-004-iph-thew
 
 Write-Host '
 [36m  . ....,%[ [0;37mPHuCK oFF HACKERz [0;36m]%[0;1;36m,..[0;36m......[0;1;36m...[0;36m......[0;1;36m....[0;36m.[0;1;36m...[0;36m....,%[ [0;37miPH [0;36m]%,.[0;1;36m..[0;36m. .[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-ALIEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0796/raw/IZ-ALIEN.ANS
-# Source Revision: archive-sha256:f2392fcbe326be67243a018c170e3f1d8e22753f58b6051ec51575e3fcab8048
-# Source SHA-256: d97180efa39ffe30b8a4d499113e24bcf77e6eb77edcbba13bb12d11bef2b00a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-ALIEN.ANS by ize (fire); released in fire0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: alien nation
-# SAUCE Author: ize
-# SAUCE Group: fire
-# SAUCE Date: 19960612
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: alien nation by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0796-iz-alien
 
 Write-Host '
                                         [1m░░[0m

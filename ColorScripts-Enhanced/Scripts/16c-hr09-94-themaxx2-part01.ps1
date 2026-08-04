@@ -1,13 +1,4 @@
-﻿# Converted from: THEMAXX2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hr09-94/raw/THEMAXX2.ANS
-# Source Revision: archive-sha256:19d6752273acd7579a76c32f15e06f7621728c1186bfdc8fc8606549db459301
-# Source SHA-256: 0a19338e1b6adc8d666990879b75ab7b59ba9a570ec0218ead0087013029dc4d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: THEMAXX2.ANS by Armageddon (hr09-94); released in hr09-94 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: THEMAXX2.ANS by Armageddon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hr09-94-themaxx2-part01
 
 Write-Host '
          [31m·[0m

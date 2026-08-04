@@ -1,18 +1,4 @@
-﻿# Converted from: SO-ACME2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acme0296/raw/SO-ACME2.ANS
-# Source Revision: archive-sha256:5cbb7c836a329833b657f6859c4a30abc419f56c33ad0e58fa1fef60983b6379
-# Source SHA-256: 12821825156099d83a29793e37952d4065adebfb57dda54442065e0bc45e999b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SO-ACME2.ANS by Solitude (Acme); released in acme0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Acme Promo two
-# SAUCE Author: Solitude
-# SAUCE Group: Acme
-# SAUCE Date: 19960203
-# SAUCE Dimensions: 80x51
-# Lines: 33-51
-# Columns: 1-80
+﻿# Artwork: Acme Promo two by Solitude | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acme0296-so-acme2-part02
 
 Write-Host '
                 [34m▄▌[0m                                     [34m▄▌[0m

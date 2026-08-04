@@ -1,17 +1,4 @@
-﻿# Converted from: CL!-FLUX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flux-004/raw/CL!-FLUX.ANS
-# Source Revision: archive-sha256:184a3f5dd0450d61dd9a9b4da05ef76ebec147753f33bfa3706045bb53c0d7a5
-# Source SHA-256: c4c4eec1b8d1f205de7a9ea30e8a404485257901bcab855c658bac77d6b32013
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-FLUX.ANS by .:(cLEANER):. (.:(fLUX):.); released in flux-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: .:(fLUX^aNSI^lOGO):.
-# SAUCE Author: .:(cLEANER):.
-# SAUCE Group: .:(fLUX):.
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: .:(fLUX^aNSI^lOGO):. by .:(cLEANER):. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flux-004-cl-flux
 
 Write-Host '
             [1;30m▄▄[0;1;30;47m▀▀▀▀▀▀▀▀▀▀[0;1;30;40m▄▄[0m

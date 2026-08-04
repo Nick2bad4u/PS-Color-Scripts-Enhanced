@@ -1,13 +1,4 @@
-﻿# Converted from: UC-HIGH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blnt0494/raw/UC-HIGH.ANS
-# Source Revision: archive-sha256:ecf7450f078b4c4b4041f7e568d14f4b70df9558c81c0d6825f04a7ad031cdda
-# Source SHA-256: 24feefab693c01f0d90c94fbfb950044dc8be6c477d7a9a3806696239ea7a560
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UC-HIGH.ANS by Unknown Comic (blnt0494); released in blnt0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: UC-HIGH.ANS by Unknown Comic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blnt0494-uc-high-part01
 
 Write-Host '
     [1;33m▄▄▄▄▄[0;1m▄▄▄[0m         [30;45m▀[0m

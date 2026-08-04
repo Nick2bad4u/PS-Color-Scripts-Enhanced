@@ -1,13 +1,4 @@
-﻿# Converted from: VN-WIZRD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/xide0495/raw/VN-WIZRD.ANS
-# Source Revision: archive-sha256:e317471988b625a6d81c93dffa76e59b4fa1a5332df991b4e6e58355a6ccc8a7
-# Source SHA-256: 4111fb0597ce10a9604e66d6ef9257e26695be7c408fcdde84234ca7a4a3c4d2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VN-WIZRD.ANS by Venom (xide0495); released in xide0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: VN-WIZRD.ANS by Venom | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-xide0495-vn-wizrd-part01
 
 Write-Host '
          [32m▄▄[0;1;32;42m░▒▓[0;1;32;40m▄▄▄[0m                                             [1;32;40m▄▄▄[0;1;32;42m▓▒░[0;32m▄▄[0m

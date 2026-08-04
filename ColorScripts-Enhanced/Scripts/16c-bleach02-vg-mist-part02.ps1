@@ -1,18 +1,4 @@
-﻿# Converted from: VG-MIST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bleach02/raw/VG-MIST.ANS
-# Source Revision: archive-sha256:8caba45145fa82c3a477d446748b2094c5bc1bf792a84bb322c71316f1a84815
-# Source SHA-256: a68d8ed36a31928fc81c48e24b3a7391ccac9145ff7c64a3d4d70c720613ef7b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VG-MIST.ANS by Vertigo (Bleach); released in bleach02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Mist
-# SAUCE Author: Vertigo
-# SAUCE Group: Bleach
-# SAUCE Date: 19950529
-# SAUCE Dimensions: 80x150
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Mist by Vertigo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bleach02-vg-mist-part02
 
 Write-Host '
                          [1;30m   ▄▄▄[0;1;30;47m▒░ [0;1;37;47m░[0m▄▄▄ [1;30m    [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: FK-PC#2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack12/raw/FK-PC%232.ANS
-# Source Revision: archive-sha256:55286e18e28c272f11e63b1c16158d9df2657a21ca3df761a4c27630305acaa1
-# Source SHA-256: 432e6825189e4afa8b35e69058a8301d4ff679e513aadf268b1aadfe75494d1c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FK-PC#2.ANS by Flick (Apocalyptic Visions); released in avpack12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Paper Cuts
-# SAUCE Author: Flick
-# SAUCE Group: Apocalyptic Visions
-# SAUCE Date: 19960708
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Paper Cuts by Flick | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack12-fk-pc-2
 
 Write-Host '
 [1;30;46m█▓▓▓▓▒▒▒░░░░[0;36m█[0;1;30;46m░░░░[0;36m██[0;1;30;46m░[0;36m█████[0;1;30;46m░[0;36m██████████████████████████▓▀█████████[0;1;37;46m░[0;36m█[0;1;37;46m░[0;36m██[0;1;37;46m░[0;36m█[0;1;37;46m░░▒▒▒▓▓▓█[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: LM-CAS1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9511a/raw/LM-CAS1.ICE
-# Source Revision: archive-sha256:8015d002c754fa84d88b9ae0fc09943e36f7d9acea6ad3fdfe6eb0c443873cc2
-# Source SHA-256: e4bbdf2dfb922fe3d46d8f3a79bd43026ba1af21ca497d6c3d99fdbec2bdc4aa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LM-CAS1.ICE by Lemonade (iCE); released in ice9511a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Castrau...
-# SAUCE Author: Lemonade
-# SAUCE Group: iCE
-# SAUCE Date: 19951130
-# SAUCE Dimensions: 80x25
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Castrau... by Lemonade | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9511a-lm-cas1-part01
 
 Write-Host '
 [34m██▀▀▀▀▀▀▀▀▀▀▀▀[0;1;34;44mLemons[0;34m██████[0;1;34;44m [0;34m█[0;1;34;44m░[0;34m████████████████████████████████████████████[0;1;34;44m ░[0;34m█████[0m

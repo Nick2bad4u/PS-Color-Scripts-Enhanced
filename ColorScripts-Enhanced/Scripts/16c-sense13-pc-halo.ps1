@@ -1,18 +1,4 @@
-﻿# Converted from: PC-HALO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense13/raw/PC-HALO.ANS
-# Source Revision: archive-sha256:b0563618478d6216eb6bd83ff569d789b2e87f637bf95d7f88699f5b40df3192
-# Source SHA-256: 8552295275c935efabdb0a92e2bb2c13c211d7440f02feaa8f25025ecd42a23b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-HALO.ANS by Proctologist (SeNSE); released in sense13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: halo
-# SAUCE Author: Proctologist
-# SAUCE Group: SeNSE
-# SAUCE Date: 19980910
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: halo by Proctologist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense13-pc-halo
 
 Write-Host '
                          [31m,d$$$P''[0;37m  [0m   [37m [0;31ml$$l[0;37m [0m     [31m`4$$$b,[0m

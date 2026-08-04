@@ -1,13 +1,4 @@
-﻿# Converted from: J.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fl-anst1/raw/J.ANS
-# Source Revision: archive-sha256:adb93dc4eb6faf4c1acc737f0ab48b0d583ac921b6166076d270d66a73292cf5
-# Source SHA-256: 30ab9ae848ff0a0b5dfe79ec11d051e0b44f2fd8beb7984a58d816cd655e6e4c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: J.ANS by The Knight (fl-anst1); released in fl-anst1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: J.ANS by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fl-anst1-j
 
 Write-Host '
 [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

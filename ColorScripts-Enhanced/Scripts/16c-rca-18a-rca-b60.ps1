@@ -1,13 +1,4 @@
-﻿# Converted from: RCA-B60.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-18a/raw/RCA-B60.ANS
-# Source Revision: archive-sha256:79b264e900b0f3c0c1e1dfcb2a371291868034bc95083657623124fe09fd8162
-# Source SHA-256: 017a51af53febdb8b295b432185450b06d0de01b2c3cd3e90f0410c7ae4682e5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RCA-B60.ANS by Static4 + Lady Blue (rca-18a); released in rca-18a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: RCA-B60.ANS by Static4 + Lady Blue | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-18a-rca-b60
 
 Write-Host '
 [1;31m  [0;30;41m▓░[0;1;31;41m░▓[0;1;31;47m▓██▓[0;1;31;40m▓[0;1;31;41m▒[0;1;35;40m▐[0;1;35;47m░▓[0;1;35;45m▄[0;35m▄[0;1;35m▀[0;1;35;45m▄[0;1;35;40m▄▄[0;35m▄[0;30;45m▓[0;1;35;40m▀[0;1;35;45m░[0;35m▀▐ [0;1;35m▐[0;35m▓▌[0;30;45m▓▒▓[0;1;35;40m▄[0;1;35;47m░▓[0;1;35;45m█▓[0;35m▌[0;1;35;45m█▓░[0;1;35;40m▐[0;35m▓░[0;30;45m▓[0;35;40m s4[0;1;35;40m▄[0;1;35;45m███░[0;30;45m░[0;35;40m▓░[0;30;45m▓[0;35;40m ▌[0;31;40m [0;30;41m▓░[0;1;31;41m░▓[0;1;31;47m▓[0;1;31;41m██▀[0;1;31;40m▀[0;1;31;47m▓[0;1;31;40m█[0;31m▄[0;1;31m▀[0;1;31;47m▓▓[0;1;31;41m██▒[0m

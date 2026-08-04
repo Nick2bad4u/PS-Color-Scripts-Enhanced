@@ -1,16 +1,4 @@
-﻿# Converted from: [031] We-Will-Be-Old.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cx-timeline/raw/%5B031%5D%20We-Will-Be-Old.ans
-# Source Revision: archive-sha256:44e1bee3ddc3b388b7cf12194583d4aab88cb5fa02ca90157d792ce814886a4e
-# Source SHA-256: ec00d9a76783a16fcb431a2442d52c369966f7f54c42a9b432e5bbf1a5fc2413
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: [031] We-Will-Be-Old.ans by Cyonx + Luciano (cx-timeline); released in cx-timeline and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20151121
-# SAUCE Dimensions: 80x262
-# SAUCE Font: IBM VGA
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: [031] We-Will-Be-Old.ans by Cyonx + Luciano | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cx-timeline-031-we-will-be-old-part01
 
 Write-Host '
 

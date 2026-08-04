@@ -1,18 +1,4 @@
-﻿# Converted from: HB-0897.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0897/raw/HB-0897.ANS
-# Source Revision: archive-sha256:e809b9f8b188286d36406dafe0847bbd16221683918da377bfda26da9187f000
-# Source SHA-256: 8e8443d9ab851fc288bd5d4d8520dc4642477c9f448f02987d77e74c3a455429
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HB-0897.ANS by Handiboy (Mistigris); released in mist0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: August 1997 Logo Colly
-# SAUCE Author: Handiboy
-# SAUCE Group: Mistigris
-# SAUCE Date: 19970819
-# SAUCE Dimensions: 80x25
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: August 1997 Logo Colly by Handiboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0897-hb-0897
 
 Write-Host '
         [1;34m▄[0m▄[1;34;47m▀ ▓▓█[0;1;34;44m█[0;1;34;40m▄▄▄  [0;34m▐[0;1;33;47m▄ [0;1;34;47m░[0;34m▌   ▄▄▄  [0;1;30mc  o  n  v  e  r  t  i  c  a  l  [0m▄[1m▄[0;1;34m▄[0;34m▄[0m

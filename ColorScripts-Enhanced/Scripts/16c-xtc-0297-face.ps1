@@ -1,13 +1,4 @@
-﻿# Converted from: FACE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/xtc-0297/raw/FACE.ANS
-# Source Revision: archive-sha256:8b9bd68b28024f32746c957e001d97b45bd4e19c7a1e4bcf88b1946903a5b7da
-# Source SHA-256: ac132e6e7f69a8a7588645c2cd79d07084e7424e13b4e928a7d0dd3e75eca427
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FACE.ANS by Schmuck (xtc-0297); released in xtc-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: FACE.ANS by Schmuck | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-xtc-0297-face
 
 Write-Host '
 [33m███░▄  ▒████▄▀▀[0;31m▐▓░░▓▄ [0;33m▀█▄ ▀███[0;36;43m░[0;36;40m▀[0m              [34;40m▄█[0;34;44m  [0;1;34;44m░▒[0;1;34;46m  [0;1;34;44m█▓▒░[0;34m███▀[0m

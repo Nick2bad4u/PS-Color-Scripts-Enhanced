@@ -1,18 +1,4 @@
-﻿# Converted from: DRC-CC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plan9-01/raw/DRC-CC1.ANS
-# Source Revision: archive-sha256:11ed751a7ac4ac5dbbee82cc6719090d6140296a76820d53a19d7fb1c34aeb70
-# Source SHA-256: 10c7808f1e91eb16d2321ccc91f4382ad6d871617ed7b9c0b8ad8aca082195b2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DRC-CC1.ANS by Drc (Fuel); released in plan9-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Cloud City
-# SAUCE Author: Drc
-# SAUCE Group: Fuel
-# SAUCE Date: 19961228
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Cloud City by Drc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plan9-01-drc-cc1
 
 Write-Host '
 

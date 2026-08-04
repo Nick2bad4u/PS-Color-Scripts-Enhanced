@@ -1,18 +1,4 @@
-﻿# Converted from: V9-ICE3.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9901a/raw/V9-ICE3.ICE
-# Source Revision: archive-sha256:645106ec19d8688d7e4f8af6fd647e261792695fc36840f6bfd4ec3c130bbe2e
-# Source SHA-256: ade5b6fd5ad80e44d633c94225b23ae1e3f6c0a4f3e49b3fe58fb0220dc14d6b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: V9-ICE3.ICE by Vade79 (iCE); released in ice9901a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: iCE promo
-# SAUCE Author: Vade79
-# SAUCE Group: iCE
-# SAUCE Date: 19990118
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: iCE promo by Vade79 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9901a-v9-ice3
 
 Write-Host '
 [36m▄[0;1;32;46m░[0;1;30;40m▀[0m ▀[1;47m░[0;1;40m▓[0m [1;47m░░[0m▀█ [1;47m░░[0m▀▓░ [1;30m░░ ░[0;1;37m▓[0;1;37;47m░[0m▀█ [1m▒[0;1;47m░[0m▀█ ▄[1;47m░[0m▀█ [1;47m░░[0m▀▄ [1;47m░░[0m [1;47m░[0m [1;47m░░[0m▀█ [1;47m░░[0m▀█ ▀[1;47m░░[0m ▄[1;47m░[0m▀█ ▄[1;47m░[0m▀█ ▄[1;47m░[0m▀▀ [1;30m▀[0;36;42m▓[0;36;40m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: IL-LGO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/emic0496/raw/IL-LGO.ANS
-# Source Revision: archive-sha256:0081657214e0d3eeaf9fa72e89eaffd16455becfd5da03242b645aa6b0fa9295
-# Source SHA-256: 7b7359f364bebcbd63ff57cf699c80c727b4ef451c656869ec4498b11e2ed5cc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IL-LGO.ANS by Illusion (EMiC); released in emic0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: EMiC Logo
-# SAUCE Author: Illusion
-# SAUCE Group: EMiC
-# SAUCE Date: 19960314
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: EMiC Logo by Illusion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-emic0496-il-lgo
 
 Write-Host '
                                              [34m▄▄▄▄▄[0m

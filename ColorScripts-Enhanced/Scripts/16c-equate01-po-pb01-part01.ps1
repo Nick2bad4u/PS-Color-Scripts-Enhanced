@@ -1,13 +1,4 @@
-﻿# Converted from: po-pb01.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/equate01/raw/po-pb01.ans
-# Source Revision: archive-sha256:506fc5c18b5520e9f45281cc2ad676b8785fdfc919cf45da1b34d236b6b9fd10
-# Source SHA-256: 4f5ae689407548e6eaa906fb1a5fcfc7b2e3d9989ce158f4afed815f6f698307
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: po-pb01.ans by Portia (equate01); released in equate01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: po-pb01.ans by Portia | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-equate01-po-pb01-part01
 
 Write-Host '
 [1;33;45mp[0;1;37;45mOrtia[0;45mprettybullitz            [0;1;31;45m   [0;35m████████████[0;1;37;45m▐▐▐[0;35m███████[0;1;31;45m░░[0;35m█[0;1;31;45m▀▀█▓█▓▓[0;1;31;47m█▓▄░░[0;1;33;47m░░[0;1;37;40m█[0;1;33;40m▒[0m█[1;31;45m▄░░[0;35m█[0m

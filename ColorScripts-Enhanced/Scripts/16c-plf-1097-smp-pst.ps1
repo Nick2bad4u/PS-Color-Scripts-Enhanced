@@ -1,17 +1,4 @@
-﻿# Converted from: SMP-PST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1097/raw/SMP-PST.ANS
-# Source Revision: archive-sha256:36c7150b2835995ba27c6f1c5cfc23dc5fdf9213c2fb0b333e09d1aa0d00da5f
-# Source SHA-256: 10896b177d89b30f5768cc3cefc17229cd5361c608e0ab0af1b1a43b85cdb049
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-PST.ANS by shrimp (poffelipoff); released in plf-1097 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: pesticide
-# SAUCE Author: shrimp
-# SAUCE Group: poffelipoff
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: pesticide by shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1097-smp-pst
 
 Write-Host '
 [36m░[0;30;46m▓░räk[0;36;40man[0m                               [36;40m░░[0m

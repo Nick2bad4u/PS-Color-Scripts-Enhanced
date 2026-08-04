@@ -1,18 +1,4 @@
-﻿# Converted from: JS-CL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blade-38/raw/JS-CL1.ANS
-# Source Revision: archive-sha256:1e4ac2b7ab65806e71558edb4ed179aeb19d72ac4916888305da802703ac1ac5
-# Source SHA-256: 549ae72ac7d622f58dddd4b8e684933c93f821077e618f64f2ea439c5d4aeec0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JS-CL1.ANS by julian (blade productions); released in blade-38 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: clockwork orange compo
-# SAUCE Author: julian
-# SAUCE Group: blade productions
-# SAUCE Date: 19970409
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: clockwork orange compo by julian | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blade-38-js-cl1
 
 Write-Host '
 

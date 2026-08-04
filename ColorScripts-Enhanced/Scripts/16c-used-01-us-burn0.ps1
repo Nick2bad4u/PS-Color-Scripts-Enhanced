@@ -1,18 +1,4 @@
-﻿# Converted from: US-BURN0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-01/raw/US-BURN0.ANS
-# Source Revision: archive-sha256:8a67b8a789d291ebb3c2dac335fadb955c4c5780d922eead5382af014b63c773
-# Source SHA-256: 599a5113d1a87771b1981864ff60efafa1261d184752ced7e0b4d8578102a294
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BURN0.ANS by Creator + Mr Wrong (The Used Coalition); released in used-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Burn
-# SAUCE Author: Multiple Artists
-# SAUCE Group: The Used Coalition
-# SAUCE Date: 19990923
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Burn by Creator + Mr Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-01-us-burn0
 
 Write-Host '
                                                          [1;30m▄[0m

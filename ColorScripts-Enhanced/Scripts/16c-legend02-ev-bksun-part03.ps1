@@ -1,18 +1,4 @@
-﻿# Converted from: EV-BKSUN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/legend02/raw/EV-BKSUN.ANS
-# Source Revision: archive-sha256:3d09510951d722882aec8ec217ff2dbc35e0c5252f8e5685b8b241b7e7a6d9ce
-# Source SHA-256: b9b40fb50cdcf255bbddc7abd757ee87c3973cd691148331784d4ef76b7493f5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EV-BKSUN.ANS by EverLast (Legend); released in legend02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Black Sunshine
-# SAUCE Author: EverLast
-# SAUCE Group: Legend
-# SAUCE Date: 19950903
-# SAUCE Dimensions: 80x25
-# Lines: 68-101
-# Columns: 1-80
+﻿# Artwork: Black Sunshine by EverLast | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-legend02-ev-bksun-part03
 
 Write-Host '
 [1;37m ▀▀▀[0m [33m   ▄[0;1;31;43m▒▓▒░[0;33m█▌[0;37m [0;1;31;41m▓▒[0;1;31;40m▄[0;31m▄[0;37m▀▀▀ [0;33m░▒ ██[0;1;31m [0;1;37;47m▓▓▒[0m▀███████▄[31m [0;1;31m▄▄▄[0;31m▄▄[0;1;31m▀▀▀▀▀▀[0;1;31;47m▓[0;1;31;40m█[0;1;31;43m▓▓▒▒▒[0;33m▄▄[0;1;31;43m░░░░[0;33m█[0;1;31m [0m▀▀▀[31m▄▄▄████[0m

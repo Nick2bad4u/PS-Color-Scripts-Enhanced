@@ -1,19 +1,4 @@
-﻿# Converted from: c-wa-monkeypatrol.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2020/raw/c-wa-monkeypatrol.ans
-# Source Revision: archive-sha256:9d4f52c1185463990664e9f171bfbfc9162b0a67262c063ea6cad81ca1993d3a
-# Source SHA-256: 30762d5edfb9abcd5d6a2c3bb8855276702d7e42215c39be4a4d5ffc5829962a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: c-wa-monkeypatrol.ans by warpus (BLENDER); released in blndr2020 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: monkey patrol
-# SAUCE Author: warpus
-# SAUCE Group: BLENDER
-# SAUCE Date: 20200420
-# SAUCE Dimensions: 80x82
-# SAUCE Font: IBM VGA
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: monkey patrol by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2020-c-wa-monkeypatrol-part01
 
 Write-Host '
 [37;40m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m

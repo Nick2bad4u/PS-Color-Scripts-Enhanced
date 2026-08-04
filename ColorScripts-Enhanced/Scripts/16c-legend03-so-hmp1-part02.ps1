@@ -1,18 +1,4 @@
-﻿# Converted from: SO-HMP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/legend03/raw/SO-HMP1.ANS
-# Source Revision: archive-sha256:612e01e38f75d92ecaa814e7ae660054839507b23315de90efe231d7e082724d
-# Source SHA-256: 4214909cf2cd7a978c203a98474738c8453b0270041e1cd2ff1961a21e7dee60
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SO-HMP1.ANS by Somms (Legend); released in legend03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Higher Mental Plane
-# SAUCE Author: Somms
-# SAUCE Group: Legend
-# SAUCE Date: 19950930
-# SAUCE Dimensions: 80x96
-# Lines: 48-96
-# Columns: 1-80
+﻿# Artwork: Higher Mental Plane by Somms | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-legend03-so-hmp1-part02
 
 Write-Host '
 [37m███████████ [0;36m▐[0;36;43m▒░[0;33;40m▓█[0;1;33;43m░▒░[0;33m▌[0;35m░▓▄[0;33m▀██▓█▄[0;1;33;43m░[0;33m██[0;1;33;43m░▀▒░ [0;33m██▄▄▄[0m                               [33m▄██[0;36;43m░[0;33;40m▀[0m

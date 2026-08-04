@@ -1,18 +1,4 @@
-﻿# Converted from: 32-SKYE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0397/raw/32-SKYE.ANS
-# Source Revision: archive-sha256:0bbae31e52a4c1ad24c4bfa8a6bfcd082f750141f70c56dfd02f65c0d93bbb46
-# Source SHA-256: e81a6b6eededc67e4cb135ca3aba6b1dc86149ea6b1dcf4ae1acda07a5fda05e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 32-SKYE.ANS by ezy (fusion); released in fsn-0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: shamera kye
-# SAUCE Author: ezy
-# SAUCE Group: fusion
-# SAUCE Date: 19970307
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: shamera kye by ezy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0397-32-skye
 
 Write-Host '
     [35m░░[0m               [37m   [0;1;35;41m▓▓▓[0m                         [35m▄[0;1;35m▄[0;1;35;45m▄[0;1;35;40m█████████▄[0m  [1;36m [0m   [1;35;44m▒▒▒▒[0m

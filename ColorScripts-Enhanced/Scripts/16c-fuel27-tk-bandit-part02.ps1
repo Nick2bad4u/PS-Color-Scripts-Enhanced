@@ -1,19 +1,4 @@
-﻿# Converted from: tk-bandit.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel27/raw/tk-bandit.ans
-# Source Revision: raw-sha256:caff365c03f1bd1b1cfb09033be95bba4f35f5d783859b0b207164cc1f615399
-# Source SHA-256: caff365c03f1bd1b1cfb09033be95bba4f35f5d783859b0b207164cc1f615399
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tk-bandit.ans by The Knight (Fuel); released in fuel27 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Smokey and Bandit
-# SAUCE Author: The Knight
-# SAUCE Group: Fuel
-# SAUCE Date: 20180907
-# SAUCE Dimensions: 80x68
-# SAUCE Font: IBM VGA
-# Lines: 37-68
-# Columns: 1-80
+﻿# Artwork: Smokey and Bandit by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel27-tk-bandit-part02
 
 Write-Host '
 [1;30m▄▄▄▄▄▄▄▄▄▄▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒[0m   ▄▀  [1;30m▄████[0;1;30;47m▓▒▒[0;1;30;40m▀ [0m      [1;33m ▄▀▀[0m    [1;33m▀▄[0m

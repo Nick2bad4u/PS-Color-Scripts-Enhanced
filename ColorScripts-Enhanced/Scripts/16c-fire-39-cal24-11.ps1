@@ -1,19 +1,4 @@
-﻿# Converted from: CAL24-11.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-39/raw/CAL24-11.ANS
-# Source Revision: archive-sha256:5e57507ce34170a4afb707b1587800d0885fae4776f1271b7b7cee7f71264d9d
-# Source SHA-256: 04fa7a9f18b34706767f16e3e80a9264f238b96b435d8301148c67a6a120f372
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CAL24-11.ANS by Tainted + Necro (Fire); released in fire-39 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fire 2024 Calendar: November
-# SAUCE Author: tainted + Necro
-# SAUCE Group: Fire
-# SAUCE Date: 20240303
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Fire 2024 Calendar: November by Tainted + Necro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-39-cal24-11
 
 Write-Host '
 [1;36;46mtnt[0;36m██████████████████████████████████████████████████▀██▀█████████████████████[0;1;36;46mnf[0m

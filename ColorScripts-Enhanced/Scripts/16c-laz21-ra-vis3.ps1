@@ -1,19 +1,4 @@
-﻿# Converted from: ra-vis3.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz21/raw/ra-vis3.ans
-# Source Revision: archive-sha256:daa0e008ccfccc8179e0635097f8fe4a46a32781b45bbd86ff6e4505514c9e6d
-# Source SHA-256: 62152f4ca50181947bba88885a9b38c50c418532625a54d86ad58ade8b73aa93
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ra-vis3.ans by Randers (LAZARUS); released in laz21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Vision/3
-# SAUCE Author: Randers
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20260429
-# SAUCE Dimensions: 80x34
-# SAUCE Font: IBM VGA
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Vision/3 by Randers | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz21-ra-vis3
 
 Write-Host '
  [1;30;42m░[0;32m█[0;1;30;42m░▒▓▓[0;1;30;40m█▀[0m [35m▄[0;37m [0;34m▄[0;1;30m▀█[0;1;30;42m▓▓▒▓▒▒▒▒▒░▒░░[0;32m██▄▄▄██████[0;1;30;42m░[0;32m█[0;1;30;42m░░▒░▒▒▓▒▓▓▓█▓▓█[0;1;30;40m▀▀▀[0;1;30;42m███▓▓▓▒▒[0;32m▄▄[0;1;30;42m░░░░░░    [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: cd!-elise.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic15/raw/cd!-elise.ans
-# Source Revision: archive-sha256:b2a15ba740dfff25a7d78e41d79c57a71249121607b593efbce77bb6f1c95d97
-# Source SHA-256: 1fc6afa368747433240fc928746860d2a6c43c8d85175a7c2e42cbe78c86706e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cd!-elise.ans by Cat-Dog (mimic15); released in mimic15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: cd!-elise.ans by Cat-Dog | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic15-cd-elise
 
 Write-Host '
                                      ___                                [1m      [0m

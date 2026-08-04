@@ -1,18 +1,4 @@
-﻿# Converted from: PK-BLACK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dtd04/raw/PK-BLACK.ANS
-# Source Revision: archive-sha256:7091bf957c6673d9b005844355015c4c77947e5b00fc05939206b31997a09f74
-# Source SHA-256: 481f9406eaaafba34ef7c6b9d7a16cb4ac55ae57b548ad2e3f5eb23145bfe231
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PK-BLACK.ANS by piko (comic!ascii); released in dtd04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: black arts
-# SAUCE Author: piko
-# SAUCE Group: comic!ascii
-# SAUCE Date: 19971123
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: black arts by piko | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dtd04-pk-black
 
 Write-Host '
 [1;36m,╓g**g╖.    [0m,a@$$@a.   [1;32mggg[0m

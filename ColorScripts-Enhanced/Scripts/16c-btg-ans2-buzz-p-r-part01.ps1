@@ -1,13 +1,4 @@
-﻿# Converted from: BUZZ#P&R.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/btg_ans2/raw/BUZZ%23P%26R.ANS
-# Source Revision: archive-sha256:ef1d7f5aa7f6ddd3a18962651dfef7920d45568f5c91446255731618604ffcb4
-# Source SHA-256: b56ea3df808fe03c82d2c45ef9aca3fb0c4c8d2ded6771e9424effa657d2cfff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BUZZ#P&R.ANS by Rage + Paz (btg_ans2); released in btg_ans2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: BUZZ#P&R.ANS by Rage + Paz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-btg-ans2-buzz-p-r-part01
 
 Write-Host '
 [30m██████████████████████████████[0;1;34m██████████████████[0;30m████████████████████████████████[0m

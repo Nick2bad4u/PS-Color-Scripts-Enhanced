@@ -1,13 +1,4 @@
-﻿# Converted from: TG-GZERO.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9501/raw/TG-GZERO.ICE
-# Source Revision: archive-sha256:11505df9cbb4046b5d3b5eec267bf894e7e973683094a4e78d879efbf7a9364a
-# Source SHA-256: 486c8ca70b80734b9245948fdb3cb55f8231c6d7bfbb98bdad18980be24dd1b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-GZERO.ICE by Toon Goon (ice-9501); released in ice-9501 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 32-61
-# Columns: 1-80
+﻿# Artwork: TG-GZERO.ICE by Toon Goon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9501-tg-gzero-part02
 
 Write-Host '
 [1m█████[0;1;47m▓[0;1m▌[0m▐[47m [0;1;47m▐[0;1m████████   [0;1;30;47m▓  [0;1;47m▄▓▄[0;1m█▌    [0m█[47m [0;1;47m▓▄▄█[0;1m█[0m     ▄[36m▀▀▀  [0m▐[1;47m░ [0m [1;33m█▀████████████   ▄[0;1;33;43m▓[0m     [1;33m▀[0m

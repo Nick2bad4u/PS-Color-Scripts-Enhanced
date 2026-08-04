@@ -1,18 +1,4 @@
-﻿# Converted from: STC-EC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0595/raw/STC-EC.ANS
-# Source Revision: archive-sha256:1a664cdcc2084e4e5945a0d8fd0224453424a0dd62ea58b8b239525b59199682
-# Source SHA-256: 4de6b2d20573afb3ae6815bb05a426f4819311a3ef7d5904cd359abdd8c1f5e7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STC-EC.ANS by Stone The Crow (ACiD Productions); released in acdu0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Earth Crisis
-# SAUCE Author: Stone The Crow
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950501
-# SAUCE Dimensions: 80x163
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: Earth Crisis by Stone The Crow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0595-stc-ec-part01
 
 Write-Host '
 

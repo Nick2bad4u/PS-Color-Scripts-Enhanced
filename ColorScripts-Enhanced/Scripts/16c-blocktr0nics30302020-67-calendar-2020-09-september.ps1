@@ -1,19 +1,4 @@
-﻿# Converted from: 67_Calendar_2020_09_September.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktr0nics30302020/raw/67_Calendar_2020_09_September.ans
-# Source Revision: archive-sha256:9a86a13b1ff7cef4b57ed39c1aca190028df54b44bffe10202b539bef3cd3dcc
-# Source SHA-256: 4a11869214c9698fbde7013f2ce3d95da46e1289c0212eaa9faf3883165d3055
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 67_Calendar_2020_09_September.ans by Misfit (Blocktronics / AMiSH); released in blocktr0nics30302020 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Applejuice
-# SAUCE Author: Misfit
-# SAUCE Group: Blocktronics / AMiSH
-# SAUCE Date: 20191223
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Applejuice by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktr0nics30302020-67-calendar-2020-09-september
 
 Write-Host '
 [1;30;40m████████████████████████████████████████████████████████████████████████████████[0m

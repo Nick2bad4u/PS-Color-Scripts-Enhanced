@@ -1,13 +1,4 @@
-﻿# Converted from: mdx-fixato.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdx.endofyear.readnfo.artpack.2010-pcl/raw/mdx-fixato.ans
-# Source Revision: archive-sha256:46fd16d7997d669c56fc96e9241ee543fac764df3ec79c41e166425d9f37dde9
-# Source SHA-256: 7f315180aaa30f883e3c6b19960eefeb3c43e16b86572d2cfa5a1b66065555d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mdx-fixato.ans by Mdx (mdx.endofyear.readnfo.artpack.2010-pcl); released in mdx.endofyear.readnfo.artpack.2010-pcl and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: mdx-fixato.ans by Mdx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdx-endofyear-readnfo-artpack-2010-pcl-mdx-fixato
 
 Write-Host '
 [1;30m [0m                            [1;33m░░░░░░░░░░░░░░░░[0m

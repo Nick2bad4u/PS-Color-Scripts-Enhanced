@@ -1,16 +1,4 @@
-﻿# Converted from: tcf-gore.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_block_n_roll/raw/tcf-gore.ans
-# Source Revision: archive-sha256:7fb236dbe697aa7c8078c3dba58eee322aac93be4dc7fe416e0fcb955a29d4fb
-# Source SHA-256: 0a9b53e50e54c2d722c6e42074ad830fbab31b0a0048827f41b3092f8bb9246c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tcf-gore.ans by Tcf (blocktronics_block_n_roll); released in blocktronics_block_n_roll and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 20160501
-# SAUCE Dimensions: 80x134
-# SAUCE Font: IBM VGA
-# Lines: 90-134
-# Columns: 1-80
+﻿# Artwork: tcf-gore.ans by Tcf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-block-n-roll-tcf-gore-part03
 
 Write-Host '
        [1;30m█[0m [1;30m░[0m [1;30m·[0m           [1;36m▄[0m ▄[1;36;47m▄█▒▒[0;1;37;40m█[0m█            [1;36m▒[0;1;30m▀[0;1;36;47m▀▄[0m▄     █[1;36;47m██[0;1;36;40m▒[0m▒[1;36m▀[0m   [1;30m▀░[0m

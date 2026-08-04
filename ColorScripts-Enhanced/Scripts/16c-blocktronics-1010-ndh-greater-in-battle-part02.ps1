@@ -1,19 +1,4 @@
-﻿# Converted from: ndh - Greater in Battle.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_1010/raw/ndh%20-%20Greater%20in%20Battle.ans
-# Source Revision: archive-sha256:a99bb1826c554acf497ca2f3d3a318938bda45de706ac9decf9ca308162d3ee1
-# Source SHA-256: 3c5eddc86766c3e2c89a0dc3cf4c259e86c69aca9d151fa70dc94d628d4a7496
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ndh - Greater in Battle.ans by Andy Herbert (blocktronics); released in blocktronics_1010 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Greater in Battle
-# SAUCE Author: Andy Herbert
-# SAUCE Group: blocktronics
-# SAUCE Date: 20140827
-# SAUCE Dimensions: 80x181
-# SAUCE Font: IBM VGA
-# Lines: 45-90
-# Columns: 1-80
+﻿# Artwork: Greater in Battle by Andy Herbert | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-1010-ndh-greater-in-battle-part02
 
 Write-Host '
 [1;34m  [0;36m [0;30m                     [0;1;33m      [0;1;37m [0;1;33m  [0;1;37m [0;1;33m [0;34m░[0;1;33m [0;30m [0;1;33m [0;30m  [0;1;33m [0;30m [0;1;33m [0;34m░[0m

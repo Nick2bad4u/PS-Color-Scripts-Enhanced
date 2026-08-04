@@ -1,18 +1,4 @@
-﻿# Converted from: DEL_APHI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lure002/raw/DEL_APHI.ANS
-# Source Revision: archive-sha256:f1a17285c6f66215a41b3537354833c5fccbb84d30b92c78e4ea0603dc7f8cf1
-# Source SHA-256: d3bee4ee938046a9c298c7a2f0dff9cbb86f6b2a00e7556e2c536e058412d706
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DEL_APHI.ANS by delicious (no clue); released in lure002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: aphid
-# SAUCE Author: delicious
-# SAUCE Group: no clue
-# SAUCE Date: 20020330
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: aphid by delicious | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lure002-del-aphi
 
 Write-Host '
 

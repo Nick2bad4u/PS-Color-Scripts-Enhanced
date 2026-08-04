@@ -1,13 +1,4 @@
-﻿# Converted from: TP-NN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9405/raw/TP-NN.ANS
-# Source Revision: archive-sha256:1a80748d26b1608956e62981097747a5f5037b77df31445dba1dcac7e173021c
-# Source SHA-256: 127da18a5ed64b4890f64e3fafb6bae44fe00cd71aad01252d72bee1964d9355
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TP-NN.ANS by Technophreak (blde9405); released in blde9405 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: TP-NN.ANS by Technophreak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9405-tp-nn-part01
 
 Write-Host '
 [1;30;47m░[0m█▄[34m▀▀▓▓▓▄▄▀▀▀█▓▓▓▓▓▓▓█▓▓█▄▄▀▀▀██████████▄▄▄▀▀████▄▀██▄▀███▄▀[0;34;44m██[0;1;33;44m▓[0;1;33;40m▄[0m

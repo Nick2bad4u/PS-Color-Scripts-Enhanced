@@ -1,19 +1,4 @@
-﻿# Converted from: H7-SKROL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-45/raw/H7-SKROL.ANS
-# Source Revision: archive-sha256:0564021806e0277d72a0e235c044a0e0470226ba860a8976e1e3092326555d1d
-# Source SHA-256: 51f2dc5e3e64785cf89cab35ffc2a6e961af7936e3e8da799836684285250d63
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: H7-SKROL.ANS by H7 (fire); released in fire-45 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: skrolli
-# SAUCE Author: H7
-# SAUCE Group: fire
-# SAUCE Date: 20260303
-# SAUCE Dimensions: 80x60
-# SAUCE Font: IBM VGA
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: skrolli by H7 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-45-h7-skrol-part01
 
 Write-Host '
 [1;30m┌─────[0;36m ░ [0;1;30m─[0;36m░░░ [0;1;30m──[0;36m█ [0;1;30m─[0;36m░░ [0;1;30m──[0;36m▌[0;1;30m───[0;36m░░ [0;1;30m────[0m─────[1;30m─[0;36m ░░░ [0;1;30m─────[0m───────── [1;30m░────[0m───────[1;30m▀▓────┐[0m

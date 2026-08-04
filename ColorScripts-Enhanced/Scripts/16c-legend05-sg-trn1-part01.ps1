@@ -1,18 +1,4 @@
-﻿# Converted from: SG-TRN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/legend05/raw/SG-TRN1.ANS
-# Source Revision: archive-sha256:693e0268d5578f2cd30935d50ffe8ddf259a0ccec6578a3c57e07131424b77ec
-# Source SHA-256: 46124946eec369565b0d9c5d6804cbce79bd586b83d34aab3d9b9467c33aefef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SG-TRN1.ANS by Snake Grunger (Legend); released in legend05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Ravaged Nightmare
-# SAUCE Author: Snake Grunger
-# SAUCE Group: Legend
-# SAUCE Date: 19951022
-# SAUCE Dimensions: 80x25
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: The Ravaged Nightmare by Snake Grunger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-legend05-sg-trn1-part01
 
 Write-Host '
 [1;30m▒▓████████████████████████████████████▀▓▄▄███████[0;1;30;47m▓▓▓█▓[0;1;30;40m████▓▀▀▀▀ ▀▀▀▓▀▀▀█▀▀▀▀▓███[0m

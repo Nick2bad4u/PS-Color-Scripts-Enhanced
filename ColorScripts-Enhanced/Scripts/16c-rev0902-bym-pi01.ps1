@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-PI01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0902/raw/BYM-PI01.ANS
-# Source Revision: archive-sha256:8537b7dfc4e56bfe671cea284194fa6f621bcce1f2fa291a7ed7a56a5e107081
-# Source SHA-256: 63056de8c10cb7d33cf1d1d4d610d2d52df9fba95657a5bcf90213e2614b34a6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-PI01.ANS by superbym (bym enterprizes); released in rev0902 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Piranha's USER STATS
-# SAUCE Author: superbym
-# SAUCE Group: bym enterprizes
-# SAUCE Date: 20020808
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Piranha's USER STATS by superbym | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0902-bym-pi01
 
 Write-Host '
 [1;33m[0m[33m[0;1;33m[0;33m[0;1;33m[0;33m[0;1;33m[0;33m[0m[1;31;45m░░░[0;1;31;40m▓▓[0;1;31;45m▒▒▒▒▒▒▒▒▒▒▒░░░░░░ ░       [0;35m██████[0;1;31;45m░░░░░░░░░░[0;35m███▀[0;32m░▄ [0;37;41m░░[0;36;40m▀[0;31;40m [0;32;40m▄[0;1;32;42m▄█░[0;32m▓▀ ▄[0;31m [0;32m█[0;1;31;42m░░░[0;32m█░█▀▓░▀[0;31m▄[0m

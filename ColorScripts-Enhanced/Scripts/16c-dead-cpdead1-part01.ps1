@@ -1,13 +1,4 @@
-﻿# Converted from: CPDEAD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dead/raw/CPDEAD1.ANS
-# Source Revision: archive-sha256:42002c7465322e6567b6ada22b7d24270f500cdc26769d5efac519e13d8ec757
-# Source SHA-256: 911bb745e5323990d7c780b0c48ca3245c738c6878cc5525c1df8a78a42dd927
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPDEAD1.ANS by Eternal Darkness (dead); released in dead and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: CPDEAD1.ANS by Eternal Darkness | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dead-cpdead1-part01
 
 Write-Host '
                                     ▄▄▄▄[1;30m▄[0m

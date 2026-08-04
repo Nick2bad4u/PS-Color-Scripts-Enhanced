@@ -1,18 +1,4 @@
-﻿# Converted from: ND-ICY.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9712/raw/ND-ICY.ICE
-# Source Revision: archive-sha256:7689605597a3a08f68edb21384869d827c351a4b9af78dc5d0514e1194fe5adb
-# Source SHA-256: 51101f26102ee8c981bd510f9ab8897b43fa6064ce6061b4d2444b70c2d0de44
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ND-ICY.ICE by noOdles (iCe); released in ice9712 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ICE
-# SAUCE Author: noOdles
-# SAUCE Group: iCe
-# SAUCE Date: 19980104
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: ICE by noOdles | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9712-nd-icy
 
 Write-Host '
      [31m   [0m

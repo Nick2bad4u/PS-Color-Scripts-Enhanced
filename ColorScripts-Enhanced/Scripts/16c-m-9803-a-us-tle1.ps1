@@ -1,18 +1,4 @@
-﻿# Converted from: US-TLE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m-9803-a/raw/US-TLE1.ANS
-# Source Revision: archive-sha256:9b291fea9c9f60fd85250a6fc2081ea1821e1ac6174d9d60ed23ee66add063ff
-# Source SHA-256: 10cad64fb76682340489b83a1f526b3c4d04313312a3b1804378f2fcf83110be
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TLE1.ANS by Quip + Rash (mistigris); released in m-9803-a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Living End
-# SAUCE Author: Rash / Quip
-# SAUCE Group: mistigris
-# SAUCE Date: 19980316
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: The Living End by Quip + Rash | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m-9803-a-us-tle1
 
 Write-Host '
 [34m▒▒▒▒▒▒▒▒▒▒░░░░░░░░[0m

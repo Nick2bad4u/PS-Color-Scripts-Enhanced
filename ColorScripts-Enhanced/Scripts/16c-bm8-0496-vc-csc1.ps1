@@ -1,18 +1,4 @@
-﻿# Converted from: VC!CSC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bm8-0496/raw/VC!CSC1.ANS
-# Source Revision: archive-sha256:6a20500f0b019daf8b74b1011f4e13acdbac779a421770d34d848962bd1ba353
-# Source SHA-256: 621cdf651792e244d91e348448c560c8bae6917ed19d8bde3e6ec763c7cca6e5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VC!CSC1.ANS by VOiCE (BLACK MAiDEN); released in bm8-0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Crescent Main Menu
-# SAUCE Author: VOiCE
-# SAUCE Group: BLACK MAiDEN
-# SAUCE Date: 19960404
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Crescent Main Menu by VOiCE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bm8-0496-vc-csc1
 
 Write-Host '
  [1m▄▀▀▀▀[0;1;46m▀▀[0m▀[1m▀▀▀[0m▀[1m▀[0;1;46m▀[0m▀▀[1m▀[0m▀▀[1;30m▀[0m▀[34m░[0;37m▀▀▀ ▀ ▄▄▄ ▀ ▀▀█[0;1;37;47m▀▒▀▀[0m█▀▀ ▀▀▀▀▀▀▀▀▀▀ ▀▀▒█▄█[1;47m▀[0m█▀▀▀▀[1;47m▀[0m█[1;47m▀[0m ▄▄░ [1;47m▀▀[0;1;40m▄[0m

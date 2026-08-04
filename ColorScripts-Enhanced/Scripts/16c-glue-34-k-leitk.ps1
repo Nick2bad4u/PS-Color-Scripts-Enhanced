@@ -1,18 +1,4 @@
-﻿# Converted from: K-LEITK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-34/raw/K-LEITK.ANS
-# Source Revision: archive-sha256:9e0a0dccb577f6014cf58e9ea09ed207eb1e2086aae9821b650288ffddccb599
-# Source SHA-256: fad678acb5abaddbc5a15b007a4477fc95553db7d1f9a6dc2341db457f41af67
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K-LEITK.ANS by kyp (glue guest) (black maiden); released in glue-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: leitkultur
-# SAUCE Author: kyp (glue guest)
-# SAUCE Group: black maiden
-# SAUCE Date: 20010228
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: leitkultur by kyp (glue guest) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-34-k-leitk
 
 Write-Host '
 [1;36m░[0;1;30m▀[0;31m▀▀[0;1;30;41m▄[0;31m██[0;1;37m░░░░[0;31m██[0;1;33m▒▒[0;31m████[0;1;31m▒▒▒[0;31m█▀▀▀[0;1;30m▀▀▀[0;33m      [0m     [31m▀▀░░[0;37m [0;1;31m [0;34m▄[0;1;31;44m░[0;1;31;40m██[0;1;31;47m▓▓▓[0m██[1m▓▓[0m [31m▐█████████████[0;1;34m░░░░░[0;1;31m▒▒▒[0m

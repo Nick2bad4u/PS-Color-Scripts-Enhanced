@@ -1,18 +1,4 @@
-﻿# Converted from: TE-INS01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0296/raw/TE-INS01.ANS
-# Source Revision: archive-sha256:b878afc5fe93380d31442386cef881dac116ae12152b0839cd399054b0276cd7
-# Source SHA-256: 311c024fe0e27ca744d4c6b2ec0b1efbed5e7e21309df4b557d3bbad9a687e8e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-INS01.ANS by The Extremist (fire); released in fire0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Inside Diskmag
-# SAUCE Author: The Extremist
-# SAUCE Group: fire
-# SAUCE Date: 19960126
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Inside Diskmag by The Extremist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0296-te-ins01
 
 Write-Host '
 [1m[0m[1m[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: PH-BLK6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch03/raw/PH-BLK6.ANS
-# Source Revision: archive-sha256:faad3368b55fb434ef1208473b1dc06bfce9fe1104a0d093902743c45bd0d2f8
-# Source SHA-256: b76f94389c3336979e8b060f046f86467525b6cb9ec0c2b1aceaed83789969d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PH-BLK6.ANS by Pash (27inch03); released in 27inch03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: PH-BLK6.ANS by Pash | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch03-ph-blk6
 
 Write-Host '
                  [1;30m██▀▀[0m [1;30m▀▀░░[0m [30;46m▓░░ [0;1;36;46mblack6[0;30;46m ░▓[0;37;40m [0;1;30;40m▀[0m [36m░[0;30;46m▓[0;37;40m [0;1;30;40m▀▀░░[0m     [1;30m▀▀▀▀█▓[0m

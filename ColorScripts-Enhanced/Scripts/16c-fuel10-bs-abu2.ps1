@@ -1,17 +1,4 @@
-﻿# Converted from: BS-ABU2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel10/raw/BS-ABU2.ANS
-# Source Revision: archive-sha256:cf40594777c22d11e0e68ffce1787c226a780219ccff2425f211f05671148899
-# Source SHA-256: d24b754a4017a0f4db3fab77cd97252acb0b4bc220638d016a0cb008d763e256
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-ABU2.ANS by burps (Fuel); released in fuel10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: abuse
-# SAUCE Author: burps
-# SAUCE Group: Fuel
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: abuse by burps | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel10-bs-abu2
 
 Write-Host '
 [30m••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••[0m

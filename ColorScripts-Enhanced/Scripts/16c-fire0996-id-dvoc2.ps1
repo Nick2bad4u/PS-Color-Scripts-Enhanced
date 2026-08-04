@@ -1,18 +1,4 @@
-﻿# Converted from: ID-DVOC2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0996/raw/ID-DVOC2.ANS
-# Source Revision: archive-sha256:fd0c87547005857a37aee32ff40c82a1e8535aecda68a9edc2483cdc45b21af1
-# Source SHA-256: e4f4b57e8c463d5681f1637b6329790a29ab0b765dc69de729b0b5d615f4669d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ID-DVOC2.ANS by iodine (fire); released in fire0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Disembodied Voices
-# SAUCE Author: iodine
-# SAUCE Group: fire
-# SAUCE Date: 19960725
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Disembodied Voices by iodine | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0996-id-dvoc2
 
 Write-Host '
 [1m     [0m

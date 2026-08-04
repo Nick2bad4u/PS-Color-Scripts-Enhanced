@@ -1,19 +1,4 @@
-﻿# Converted from: tk-flowerdress.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel26/raw/tk-flowerdress.ans
-# Source Revision: archive-sha256:d10918a36531171a7bd7de77ac2a92891100e4055d3be9227ebf98ff3c0d1cc3
-# Source SHA-256: a346251f4af599a0548847fd57b603b9be4cd0577609d90a070b7c14f0eb1417
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tk-flowerdress.ans by the knight & TQ (FUEL); released in fuel26 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Flower dress
-# SAUCE Author: the knight & TQ
-# SAUCE Group: FUEL
-# SAUCE Date: 20180318
-# SAUCE Dimensions: 80x388
-# SAUCE Font: IBM VGA
-# Lines: 248-296
-# Columns: 1-80
+﻿# Artwork: Flower dress by the knight & TQ | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel26-tk-flowerdress-part06
 
 Write-Host '
 [1;31;40m███[0;1;31;43m█▓▒░[0;33m██▒  [0;37m [0;35m░[0;37m   [0;35m▄▄███[0;1;35;45m░░░▓░[0;35m██▓  █   ▄█[0;1;35;45m░▒░[0;35m█    █▓▒  [0;33m░▒████[0;1;31;43m░▒▓[0;1;31;40m████████[0;1;31;47m▓▓▓▓▓▓▓▓▓[0;1;31;40m███[0m

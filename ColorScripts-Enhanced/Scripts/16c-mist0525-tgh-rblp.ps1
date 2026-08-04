@@ -1,20 +1,4 @@
-﻿# Converted from: TGH-RBLP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0525/raw/TGH-RBLP.ANS
-# Source Revision: archive-sha256:3f1c54fcce63651d0da098cd25cb8253b5a6b2c25c827a57c95e7c0e8210b5fb
-# Source SHA-256: 5363c4857ae90fe115fae8a35f6e67f4a34abce7566de7f53a92b8eafc33bcbc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TGH-RBLP.ANS by The Green Herring (N/A); released in mist0525 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Rabio Lepus
-# SAUCE Author: The Green Herring
-# SAUCE Group: N/A
-# SAUCE Date: 20250530
-# SAUCE Dimensions: 120x30
-# SAUCE Font: IBM VGA
-# SAUCE Comments: This is fanart of the arcade game "Rabio Lepus". The original, | which only featured the red Player 1 on a black background, was | drawn for LordBBH's livestream "Push to Reject" on March 24, | 2025. Then, on May 30, I gave it some polish, drew the green | Player 2, and placed them both in Stage 1 to help round out | Mistigris' 2025 sci-fi artpack.
-# Lines: 1-30
-# Columns: 1-120
+﻿# Artwork: Rabio Lepus by The Green Herring | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0525-tgh-rblp
 
 Write-Host '
 [1;30m▀▀██████▌▐███ ███[0m        [1;30m·   [0;1;37m. [0m·  [1;30m█ ███ ▄▄▄▀▀▀▀█████  ████ ▐▌ ·    [0m∙    [1m.    · [0;1;30m. █ █████▌ ████████████████████████████[0m

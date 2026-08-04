@@ -1,13 +1,4 @@
-﻿# Converted from: SR-PONR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ale-0894/raw/SR-PONR.ANS
-# Source Revision: archive-sha256:36673b69791770fe6e20c5cdf2e505334b22beef53a1057e5ad318dda8d71656
-# Source SHA-256: 4d74059c364a8c6b521a870ce41444402fe14e01f5249b99d660d613e65d684a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SR-PONR.ANS by Silver Reaper (ale-0894); released in ale-0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: SR-PONR.ANS by Silver Reaper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ale-0894-sr-ponr-part02
 
 Write-Host '
                    [1;30;42m█▓▒[0;1;32;42m░[0;1;30;42m▓[0;1;33;40m▐█████▄[0;32m▀[0;1;32;42m▒▓██[0;32m█[0;1;30;42m░[0;31;42m█[0;1;32;42m░[0;32m█[0;31;42m█[0;1;30;42m░░░░[0;1;32;42m▓█[0;32m▀[0;1;33m▄█████▌[0;32m▐[0;1;32;42m█▓▓░[0m

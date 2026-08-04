@@ -1,13 +1,4 @@
-﻿# Converted from: DH-POEMS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/xide0495/raw/DH-POEMS.ANS
-# Source Revision: archive-sha256:e317471988b625a6d81c93dffa76e59b4fa1a5332df991b4e6e58355a6ccc8a7
-# Source SHA-256: 5eacbc6fddf70b9362a3f2a85bef1446f5d5e94da08d774a3d2f48b4515857e2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DH-POEMS.ANS by Dark Horizon (xide0495); released in xide0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: DH-POEMS.ANS by Dark Horizon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-xide0495-dh-poems-part02
 
 Write-Host '
 [34m██████▄ [0;33m██▄█▌[0;1;31;44m█[0;1;31;40m██[0;1;31;41m▀[0;31m▀▀▀▀[0;1;31;41m▀[0;1;31;40m███[0;1;31;41m▀[0;31m▀▀▀▀[0;1;31;41m▀[0;1;31;40m███[0;33m▐████ [0;34m██ [0;1;37m█[0m██[1;30m█   │  i=[0mIN                 [1m█[0m██[1;30m█[0m

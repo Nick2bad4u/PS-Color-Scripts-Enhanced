@@ -1,15 +1,4 @@
-﻿# Converted from: EYE-SL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jive1196/raw/EYE-SL.ANS
-# Source Revision: archive-sha256:74e1c77b15f9f77c425b7a6f94db1ea196521e43a60a356b13371fec7928ab41
-# Source SHA-256: 5671c918a178a9fe9571aa71aab99487944f336c3f71db5f0a7d4a44419dc477
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EYE-SL.ANS by Eyeball (jive1196); released in jive1196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Supreem legacy matrix
-# SAUCE Author: Eyeball
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Supreem legacy matrix by Eyeball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jive1196-eye-sl
 
 Write-Host '
                              [1m         [0m

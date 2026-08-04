@@ -1,17 +1,4 @@
-﻿# Converted from: SB_MTBBS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tato1195/raw/SB_MTBBS.ANS
-# Source Revision: archive-sha256:f333614a4cb8ea014d89f3f61d43ca62d476aeb093fb4271fc5458c44493defa
-# Source SHA-256: 3c7aceb0fef9313fd9a781c8aef1f94df0c4a155bf1d0ef2b772fa0f9109f97a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SB_MTBBS.ANS by Sticky Baboon (tato1195); released in tato1195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Magic Touch
-# SAUCE Author: Sticky Baboon
-# SAUCE Date: 19951027
-# SAUCE Dimensions: 80x70
-# Lines: 32-70
-# Columns: 1-80
+﻿# Artwork: The Magic Touch by Sticky Baboon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tato1195-sb-mtbbs-part02
 
 Write-Host '
      [37;40m  [0;1;33;40m▄█████▄ ▄█████▄[0m  [1;33m ▄█████████▄[0m    [1;33m▄███████▄[0m    [1;33m██████[0m   [1;33m▄███████▄[0m

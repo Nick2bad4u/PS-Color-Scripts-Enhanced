@@ -1,18 +1,4 @@
-﻿# Converted from: VN-BAFE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/df-0002/raw/VN-BAFE.ANS
-# Source Revision: archive-sha256:e44db76773a2405296a872965cababe7c2d393941afd0c283db330b845eeab02
-# Source SHA-256: ca9c3c6c28d5285c13b2d8e8801a4eb0f6842fe418e2979cdf0b4549b2b8081f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VN-BAFE.ANS by VeNoMouS (vN!) (DeViL FoRCeS); released in df-0002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: aNSEE 4 bASE fENIX bBS!
-# SAUCE Author: VeNoMouS (vN!)
-# SAUCE Group: DeViL FoRCeS
-# SAUCE Date: 19970822
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: aNSEE 4 bASE fENIX bBS! by VeNoMouS (vN!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-df-0002-vn-bafe
 
 Write-Host '
  [32m▄▄▄[0;37m        [0;32m▄▄▄▄[0;37m [0;1;32m ▄▄▄▄▄▄[0m    [32m▄▄▄▄▄▄[0;1;37m[[0;1;32md[0;32mV[0;1;30mL/[0;1;32mf[0;32mR[0;1;30mC[0;1;37m][0;1;32m▄▄▄▄▄  [0;32m▄▄▄▄▄▄[0m   [1;32m [0;32m▄▄▄[0;1;32m   [0m [1;32m▄[0;1;32;42m▓[0m  [1;32;42m█[0;1;32;40m▄[0m  [1;32m ▄[0;1;32;42m█[0m

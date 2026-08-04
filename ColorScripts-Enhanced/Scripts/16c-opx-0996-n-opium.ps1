@@ -1,18 +1,4 @@
-﻿# Converted from: N-OPIUM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0996/raw/N-OPIUM.ANS
-# Source Revision: archive-sha256:9d2c16f2326b1b98168bc790edb6aadb0d52c5f6484964980e3ad8168b0cc77f
-# Source SHA-256: aa1fa22fa6a4cdf1860072e2cd5a5362c021e5ac40456adb27157eefd72c1bfa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-OPIUM.ANS by Nos (Opium); released in opx-0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: We are the opium members
-# SAUCE Author: Nos
-# SAUCE Group: Opium
-# SAUCE Date: 19960831
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: We are the opium members by Nos | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0996-n-opium
 
 Write-Host '
 [1;30m[0m ▄▄▄▓█████████████████████████████████████████████████████████████████████▓▄▄▄

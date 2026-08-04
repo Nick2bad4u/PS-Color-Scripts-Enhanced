@@ -1,19 +1,4 @@
-﻿# Converted from: AVG-SHNG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-36/raw/AVG-SHNG.ANS
-# Source Revision: archive-sha256:43e7d46e56dc094cf8502b299dcd82ee875dea0a064a36248f4e6c844180fd25
-# Source SHA-256: 583c7730244257b03894c24a00ddb238ff10b4e4e6dfb00f577783d90b80cec3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-SHNG.ANS by avg (fire); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: here's savage!
-# SAUCE Author: avg
-# SAUCE Group: fire
-# SAUCE Date: 20230303
-# SAUCE Dimensions: 80x183
-# SAUCE Font: IBM VGA
-# Lines: 138-183
-# Columns: 1-80
+﻿# Artwork: here's savage! by avg | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-36-avg-shng-part04
 
 Write-Host '
          [34m█[0m        [1;34;44m░[0m  [34m▄[0;1;34;44m▄[0;1;34;47m▀▓▓▓[0;1;34;44m▓▓[0;1;34;40m▓▓▓▒▒░░░░░░░░░░░░░[0;35;44m▄▄▄▄[0;35;40m▄▄▄[0;31;40m▄▄█[0;1;31;41m █[0;1;31;47m░[0;1;31;41m█[0;1;31;47m░[0;31m█[0;37m█ █    [0;34m▐█[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: PPE-BB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-16/raw/PPE-BB.ANS
-# Source Revision: archive-sha256:31b7af5355cccb722dc57404e18e1578d0977d1f59933fa2c1bff1ca87361b61
-# Source SHA-256: eba1b93061048ed3565926c48c7fd8f7ef959ac9928525bf8ec1d0f49dc7714f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PPE-BB.ANS by Purplee (purg-16); released in purg-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: PPE-BB.ANS by Purplee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-16-ppe-bb
 
 Write-Host '
 

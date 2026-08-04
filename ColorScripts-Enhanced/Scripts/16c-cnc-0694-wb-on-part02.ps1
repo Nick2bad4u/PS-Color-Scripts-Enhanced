@@ -1,13 +1,4 @@
-﻿# Converted from: WB-ON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cnc-0694/raw/WB-ON.ANS
-# Source Revision: archive-sha256:4e4f856a58a73880d0094490e4341138b2c71a03af629f52c2556c21a30b23f9
-# Source SHA-256: 7c0fcdbf008d2413cd06ac1f84e730c24600e1cb9b7f94513e0fd261122c89e7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WB-ON.ANS by Warblade (cnc-0694); released in cnc-0694 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: WB-ON.ANS by Warblade | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cnc-0694-wb-on-part02
 
 Write-Host '
 [1;34;44m▒[0m          [30;44m▄▄▄▀▀[0m [1;33;44m▀[0;1;33;47m░░[0;1;33;40m▓▓███████████████████▓▓▓▓[0;1;33;47m░░░░▒▓[0m

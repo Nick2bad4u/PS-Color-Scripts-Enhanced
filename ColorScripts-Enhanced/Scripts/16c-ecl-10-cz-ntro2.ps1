@@ -1,13 +1,4 @@
-﻿# Converted from: CZ-NTRO2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-10/raw/CZ-NTRO2.ANS
-# Source Revision: archive-sha256:6734a0716f5363aecb5b8387359a704e7e1a498f17ee632abf4e9ca947f0336d
-# Source SHA-256: c3c749b0093695ea2e03d23837ff29eed570fbe42fa69e4602c72ae3ba182656
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CZ-NTRO2.ANS by Cheeze (ecl-10); released in ecl-10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: CZ-NTRO2.ANS by Cheeze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-10-cz-ntro2
 
 Write-Host '
                             [34m [0;1;31;41m▒▒▓[0;31m░[0;37m  n  i  t  r  o  +  m  e  n  u  s  e  t  [0;1;31;41m▒▒▓[0;31m░[0m

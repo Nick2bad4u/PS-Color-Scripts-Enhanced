@@ -1,18 +1,4 @@
-﻿# Converted from: DT-DI1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lap-1094/raw/DT-DI1.ANS
-# Source Revision: archive-sha256:6484c03234ed72f9048fe82f2e3920691bccf1180706117fc17bc3b905e602d2
-# Source SHA-256: 34b51ec35a4de6ff51675879f9c52b69dcbe38d61f7b515367b8b8970505f1bd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-DI1.ANS by Delirium Tremens (Lapse); released in lap-1094 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Deadly Intoxication
-# SAUCE Author: Delirium Tremens
-# SAUCE Group: Lapse
-# SAUCE Date: 19940927
-# SAUCE Dimensions: 80x165
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Deadly Intoxication by Delirium Tremens | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lap-1094-dt-di1-part01
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: OX-EVIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blade-38/raw/OX-EVIL.ANS
-# Source Revision: archive-sha256:1e4ac2b7ab65806e71558edb4ed179aeb19d72ac4916888305da802703ac1ac5
-# Source SHA-256: 721a797d52a4d9e13f816edb61908b32310f1f97a842f1e12cc62aa67378b4f2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OX-EVIL.ANS by oxidizer (blade productions); released in blade-38 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: evil empire
-# SAUCE Author: oxidizer
-# SAUCE Group: blade productions
-# SAUCE Date: 19970408
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: evil empire by oxidizer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blade-38-ox-evil
 
 Write-Host '
                 [31m        [0;1;35m▄▄▄▄▄▄[0;31m [0;32m▀▀▓[0;1;32;42m  ▄▄▄▄▄▄▄   [0;32m▀▀[0;31m [0;1;35m▄▄▄▄▄▄[0m [31m         [0;37m  [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: SYL-K7.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fdr-01/raw/SYL-K7.ANS
-# Source Revision: archive-sha256:9413b8317ae532a8321557d5d3d1cb08aadb3372c739437bc2fde54e7706a363
-# Source SHA-256: 07aecf5dd7a00638e85d7ac7fc946be7c1df37c359198a1d9422d1989e6d288e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SYL-K7.ANS by Sylvao (fdr-01); released in fdr-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: SYL-K7.ANS by Sylvao | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fdr-01-syl-k7
 
 Write-Host '
      [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

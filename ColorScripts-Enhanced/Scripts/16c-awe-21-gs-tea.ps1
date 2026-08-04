@@ -1,17 +1,4 @@
-﻿# Converted from: GS-TEA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-21/raw/GS-TEA.ANS
-# Source Revision: archive-sha256:d980c3e2187ff0ef4bb9edce960381dc01c8374df0b01b4ddb8d104484f4b936
-# Source SHA-256: d73728e828a43f5fdaeabb65f1343362aef96c824842b83b907feb0d249b8e34
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GS-TEA.ANS by Grindstoned (AWE Lettering); released in awe-21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Tea
-# SAUCE Author: Grindstoned
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Tea by Grindstoned | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-21-gs-tea
 
 Write-Host '
                                    [1m"[0m [1mTea[0m [1m"[0m

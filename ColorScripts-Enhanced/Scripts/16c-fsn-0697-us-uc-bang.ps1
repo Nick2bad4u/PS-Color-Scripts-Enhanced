@@ -1,18 +1,4 @@
-﻿# Converted from: US-UC!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0697/raw/US-UC!.ANS
-# Source Revision: archive-sha256:4afa384dbe1edb8568d2d9e2fda5954485e730ef7ea56b2b5212bd5bbae30f83
-# Source SHA-256: c3fa1c0e661c86f903bc07b0870df75f6c8e148837e3e4265f9161fe3f371f48
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-UC!.ANS by Phobiuh + Ize (fusion & ???????); released in fsn-0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: uc
-# SAUCE Author: Multiple Artists
-# SAUCE Group: fusion & ???????
-# SAUCE Date: 19970608
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: uc by Phobiuh + Ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0697-us-uc-bang
 
 Write-Host '
 [36m  [0m                        [31m▐[0m

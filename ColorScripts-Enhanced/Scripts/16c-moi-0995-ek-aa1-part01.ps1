@@ -1,18 +1,4 @@
-﻿# Converted from: EK-AA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moi-0995/raw/EK-AA1.ANS
-# Source Revision: archive-sha256:321d6b372ee5946b010b1488aedb51847881588d9ee5a7f79b20e97019343d73
-# Source SHA-256: 57dd524cbd453f3ef7f8a8bf9e93531759c47c90ec9afb38b56ea1e8d8c0186c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EK-AA1.ANS by Euphonik (mOist); released in moi-0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Alderaan
-# SAUCE Author: Euphonik
-# SAUCE Group: mOist
-# SAUCE Date: 19950903
-# SAUCE Dimensions: 80x62
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Alderaan by Euphonik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moi-0995-ek-aa1-part01
 
 Write-Host '
 [1;30;40m██▀██▀▀█▄▀██▀▄▀▀██▀█▀█▀▀▀████████▀▀██▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

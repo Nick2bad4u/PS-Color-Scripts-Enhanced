@@ -1,20 +1,4 @@
-﻿# Converted from: n(_brotherhood.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nms_pack1/raw/n(_brotherhood.ans
-# Source Revision: archive-sha256:f99a1419a85f2107a1ef905f45d33edf79d1a955e17b541807601af9adb4edeb
-# Source SHA-256: 9eb8e423eb012de040ec6e13522862a6cb291e67d898b74185cb078103ae8c01
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: n(_brotherhood.ans by nemesulku (acid rain); released in nms_pack1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the brotherhood of darkmoon
-# SAUCE Author: nemesulku
-# SAUCE Group: acid rain
-# SAUCE Date: 19980329
-# SAUCE Dimensions: 80x22
-# SAUCE Font: IBM VGA
-# SAUCE Comments: This was for Melwyn's BBS  -bracket
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: the brotherhood of darkmoon by nemesulku | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nms-pack1-n-brotherhood
 
 Write-Host '
 [37;40m   [0;1;30;40m▄[0;1;30;47m▓▒░[0m▄[1;30m▒░[0m               [1;30m█▓▒░[0;31m  [0;1;31m▄[0;1;31;41m▓[0;31m [0;1;31m▀[0;1;31;41m█▓[0m   [1;30m░[0;31m [0;37m    [0;1;30m░ ░▒▓▓█▓█[0m                [1;30m░[0m▄[1;30;47m░▒▓[0;1;30;40m▄[0m

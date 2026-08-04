@@ -1,18 +1,4 @@
-﻿# Converted from: CD-HF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mga-0396/raw/CD-HF.ANS
-# Source Revision: archive-sha256:30f6c6d95d4dca59ab2123b6b7665f33661b0eb5615694e5a8e90d6a3a6637b0
-# Source SHA-256: c651e547ab8b402ef81381eb05e9627920d1d05c0d90d153cb7ad92e9a4753b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CD-HF.ANS by creapin def (mga); released in mga-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: higher force
-# SAUCE Author: creapin def
-# SAUCE Group: mga
-# SAUCE Date: 19960224
-# SAUCE Dimensions: 80x19
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: higher force by creapin def | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mga-0396-cd-hf
 
 Write-Host '
  [34m [0m

@@ -1,19 +1,4 @@
-﻿# Converted from: MT-E2025.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-44/raw/MT-E2025.ANS
-# Source Revision: archive-sha256:6c51508cedeaa9140fcf08750a75edb14e0cec0eebe7b4290346e95cd3548876
-# Source SHA-256: 7d341f70e264e572ac769f56711508c26c978201bfd804c4cb2a3ac27580af31
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MT-E2025.ANS by Misfit (FiRE); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: BIG HAIR DON'T CARE
-# SAUCE Author: Misfit
-# SAUCE Group: FiRE
-# SAUCE Date: 20251111
-# SAUCE Dimensions: 80x26
-# SAUCE Font: IBM VGA
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: BIG HAIR DON'T CARE by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-44-mt-e2025
 
 Write-Host '
 [37;40m██[0;1;37;47m░[0m█[1;47m░░░░░░░░░[0m███[1;47m░[0;1;30;47m░░░▒░░▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓[0;1;30;40m█████████████▀▀[0m [1;30m [0m   [31m▄▄▄▄▄▄▄▄▄▄▄[0m

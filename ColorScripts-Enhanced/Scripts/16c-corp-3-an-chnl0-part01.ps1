@@ -1,13 +1,4 @@
-﻿# Converted from: AN-CHNL0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/corp-3/raw/AN-CHNL0.ANS
-# Source Revision: archive-sha256:d74c30c885ad8288fe6af9c02d940ce5f4fdbd29afcafa0b00851ad7d1dfe18a
-# Source SHA-256: 98c647681cf5aa3942022337c3cc0e1bcba32e583d038211e232cd4c7f95b135
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AN-CHNL0.ANS by Animal (corp-3); released in corp-3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: AN-CHNL0.ANS by Animal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-corp-3-an-chnl0-part01
 
 Write-Host '
                                                                 ▄▄▄▄[47m██[0;1;30;47m░▒[0;1;30;40m▄▄[0m

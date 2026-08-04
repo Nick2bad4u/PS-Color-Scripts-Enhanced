@@ -1,13 +1,4 @@
-﻿# Converted from: MADNESS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_9610/raw/MADNESS.ANS
-# Source Revision: archive-sha256:e7bfbb1fe21c43e3877c5d54f86c9c428cabfb8e80ffec124eab471fa7d587aa
-# Source SHA-256: c09008c5fec53fe0fdf5e46bbe60b74f8bf95bfda39894c99be2dbcf56c8d6b7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MADNESS.ANS by Soul Trader (dox_9610); released in dox_9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: MADNESS.ANS by Soul Trader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-9610-madness
 
 Write-Host '
 

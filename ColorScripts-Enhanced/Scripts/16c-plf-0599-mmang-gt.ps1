@@ -1,18 +1,4 @@
-﻿# Converted from: MMANG-GT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0599/raw/MMANG-GT.ANS
-# Source Revision: archive-sha256:d4668fdc774723fd3862fc372670dffa7b0207fe2fa7056074fcd8d0ae9a7357
-# Source SHA-256: 0fb3ed12d048eaebf938c99e3043acf8496dab2d9d5fdb1b5ef632d50e7d3cd8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MMANG-GT.ANS by milkmang (poffelipoff); released in plf-0599 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: gutterinterface
-# SAUCE Author: milkmang
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19990501
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: gutterinterface by milkmang | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0599-mmang-gt
 
 Write-Host '
 [1;30m[0m

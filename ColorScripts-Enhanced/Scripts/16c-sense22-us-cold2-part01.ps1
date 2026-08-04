@@ -1,13 +1,4 @@
-﻿# Converted from: us-cold2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense22/raw/us-cold2.ans
-# Source Revision: archive-sha256:bc85c11cf049f286319d708c3e5bf2f85a707ab661c6de2482c2260d25e40c5c
-# Source SHA-256: 8efdf40f4cf8866fd24a2ceb7710184857fb358eb0229d2776042e918b55d837
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-cold2.ans by Fusion + Avenging Angel (sense22); released in sense22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-61
-# Columns: 1-80
+﻿# Artwork: us-cold2.ans by Fusion + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense22-us-cold2-part01
 
 Write-Host '
 [0m[31m   ░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: BD-ECL3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-04/raw/BD-ECL3.ANS
-# Source Revision: archive-sha256:9de244bc5206a1545721e4db8ef84c4a2cb5d7f6090c2c3eac0f88fbff822794
-# Source SHA-256: 73420beeee0b870ad0e71a0856b0602ae9687a0a6ef4f9a69c409a434fefb5ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BD-ECL3.ANS by b0ld (eclipsrwe); released in ecl-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ecl1pse pr0m0
-# SAUCE Author: b0ld
-# SAUCE Group: eclipsrwe
-# SAUCE Date: 19960730
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: ecl1pse pr0m0 by b0ld | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-04-bd-ecl3
 
 Write-Host '
 

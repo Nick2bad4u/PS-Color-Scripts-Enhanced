@@ -1,18 +1,4 @@
-﻿# Converted from: TI-VOM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy14/raw/TI-VOM.ANS
-# Source Revision: archive-sha256:c5547b07ff3d1430b4844962a9bc7b618137779daf38eea1b387904b434fbbab
-# Source SHA-256: 5ea5b8397a00dcb5d1d69a7055f82041bd6ea2885e6a7c74afd761685232f564
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TI-VOM.ANS by Trip (Apathy Studios); released in apathy14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Vomitorium
-# SAUCE Author: Trip
-# SAUCE Group: Apathy Studios
-# SAUCE Date: 19960813
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: The Vomitorium by Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy14-ti-vom
 
 Write-Host '
 [31m ░  [0;1;30m▐▌[0;31m░▒▓██▓▓▌▀▀[0;1;30m   [0m                         [1;30m   [0m                                [31m░[0m

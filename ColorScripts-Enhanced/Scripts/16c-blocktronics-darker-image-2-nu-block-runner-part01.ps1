@@ -1,20 +1,4 @@
-﻿# Converted from: nu-block_runner.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_darker_image_2/raw/nu-block_runner.ans
-# Source Revision: archive-sha256:7282b405cc52219ce7cf6cd9d097796f1b25fc898e4c29fdb9f37c375d595996
-# Source SHA-256: 61860f65d1f126270473fd99619752e68504a860e61e31ed2b8d9578417e9d93
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: nu-block_runner.ans by NuSkooler (blocktronics); released in blocktronics_darker_image_2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Block Runner
-# SAUCE Author: NuSkooler
-# SAUCE Group: blocktronics
-# SAUCE Date: 20171105
-# SAUCE Dimensions: 80x90
-# SAUCE Font: IBM VGA
-# SAUCE Comments: ...an experiment. don't judge me!
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: Block Runner by NuSkooler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-darker-image-2-nu-block-runner-part01
 
 Write-Host '
 [1;36;40m████████████████████████████████████████████████████████████████████████████████[0m

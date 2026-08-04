@@ -1,18 +1,4 @@
-﻿# Converted from: RZA-ISM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dcds0796/raw/RZA-ISM.ANS
-# Source Revision: archive-sha256:3509ed83150d72e01cde39c5fe6c61d852f4f7285feb9d94b431cec18116688b
-# Source SHA-256: 3ee7e5940e1875acc7dd2a462dcb92f8353d7b5d6407b7f048be46c4af6b86ac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RZA-ISM.ANS by Rza (Decades); released in dcds0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: iSm
-# SAUCE Author: Rza
-# SAUCE Group: Decades
-# SAUCE Date: 19960703
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: iSm by Rza | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dcds0796-rza-ism
 
 Write-Host '
     [35m░[0m  [35m [0m       [36m    [0m        [36m▄▒▄[0m

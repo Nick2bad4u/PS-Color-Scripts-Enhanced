@@ -1,13 +1,4 @@
-﻿# Converted from: CD-PB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/raid-09/raw/CD-PB.ANS
-# Source Revision: archive-sha256:81f68e66bab75dc4357c09aced6a4083959f7cfc0ac10f0c0eb6313fa5d2b13e
-# Source SHA-256: 5e06af659e4e7f96dc9419f04121adf892929461a52312ac7b8a8f608b352e9e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CD-PB.ANS by Code (raid-09); released in raid-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: CD-PB.ANS by Code | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-raid-09-cd-pb
 
 Write-Host '
 

@@ -1,17 +1,4 @@
-﻿# Converted from: STI-INF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sf-pak12/raw/STI-INF.ANS
-# Source Revision: archive-sha256:670b4d0899955b27a97f2ff3c1b8b1a03cafdd9f0df62f9dfb2a28ce3d4f40e7
-# Source SHA-256: 6b8a87cb6e9fbf0dc34a7b47b6752084cbfac24d045a1ba2792a43dd5802f284
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STI-INF.ANS by Stimpy (Shaolin's Finest); released in sf-pak12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Inflicted
-# SAUCE Author: Stimpy
-# SAUCE Group: Shaolin's Finest
-# SAUCE Dimensions: 80x35
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: Inflicted by Stimpy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sf-pak12-sti-inf
 
 Write-Host '
 [1;31m▄███[0;1;31;41m▓▓▒▒░░[0;31m█[0;1;31;41m░[0;31m█▀▀ [0;1;37m░░ [0;31m▀▀▀▀█▀ [0;1;37m░░▄▄[0;1;32m▄▄▄▄▄▄ [0;31m▀▀▀▀▀▀▀▀▀▀████▀▀▀▀▀▀▀ [0;1;37m░░ [0;31m▀▀▀▀▀▀▀▀▀▀[0;1;31;41m░▒▓▓[0;1;31;40m██▄[0m

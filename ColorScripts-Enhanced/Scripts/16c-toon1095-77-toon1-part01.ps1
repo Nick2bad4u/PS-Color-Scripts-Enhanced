@@ -1,17 +1,4 @@
-﻿# Converted from: 77-TOON1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toon1095/raw/77-TOON1.ANS
-# Source Revision: archive-sha256:d4b59c6d799c8c2a02788beeec8a06d37366bb8792f6739cb4b7e0bf67ae744a
-# Source SHA-256: 47b3aa33b69fc720aa9135f757cb6e9964cf4346dc788340efdd009c362280b1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 77-TOON1.ANS by agent#77 (toon1095); released in toon1095 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: toOn promo
-# SAUCE Author: agent#77
-# SAUCE Date: 19950918
-# SAUCE Dimensions: 80x64
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: toOn promo by agent#77 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toon1095-77-toon1-part01
 
 Write-Host '
      [1;34m▄▄▄ [0m    [1;34m▄▄[0;1;34;44m▀[0;1;34;40m█▀▄[0m   [1;34;44m▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: M7M-YODL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aphro-02/raw/M7M-YODL.ANS
-# Source Revision: archive-sha256:2ed49ef33db911fd8910fcdda71afccaf0cc89cf17e91048e6c962995f300b73
-# Source SHA-256: 89bae1fa57604f084dfa351d4cd8a03adab99072cebf4d9c9d494cc5245059ee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M7M-YODL.ANS by Metal Militia (aphro-02); released in aphro-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: M7M-YODL.ANS by Metal Militia | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aphro-02-m7m-yodl
 
 Write-Host '
 

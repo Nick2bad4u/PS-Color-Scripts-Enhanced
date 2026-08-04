@@ -1,18 +1,4 @@
-﻿# Converted from: FS-GIMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-15/raw/FS-GIMP.ANS
-# Source Revision: archive-sha256:cd2d406ee7567eb1c250b9572bb0b7fdd8b6cfa2b5014b290774725da37d8cc8
-# Source SHA-256: 1638be31f03840358864f272678f02d068d30460e3634c4f7887d770aff9e8ac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FS-GIMP.ANS by flipside (fORCE); released in force-15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: gimp!@*&
-# SAUCE Author: flipside
-# SAUCE Group: fORCE
-# SAUCE Date: 19961115
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: gimp!@*& by flipside | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-15-fs-gimp
 
 Write-Host '
              [32m░[0;30;42m▓[0m   [32;40m░[0;30;42m▓[0;32;40m░[0;30;42m▓[0m       [1;32;40m░░[0m         [1;32m  [0m

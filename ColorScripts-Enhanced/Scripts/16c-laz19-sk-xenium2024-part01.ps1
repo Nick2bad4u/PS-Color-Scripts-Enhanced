@@ -1,19 +1,4 @@
-﻿# Converted from: sK!xenium2024.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz19/raw/sK!xenium2024.ans
-# Source Revision: archive-sha256:b2207428f1b283b9c41d9ff03fce385f449fefe469c60e31e8dd7430a162f7c1
-# Source SHA-256: 1c59baecc7075b9fcc9163f576a9b9c29767cc762ec436fefbfb8fc3c1324e88
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sK!xenium2024.ans by sIMONkING! (thelo0p!^LAZARUS); released in laz19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Xenium FOLK
-# SAUCE Author: sIMONkING!
-# SAUCE Group: thelo0p!^LAZARUS
-# SAUCE Date: 20240829
-# SAUCE Dimensions: 80x120
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Xenium FOLK by sIMONkING! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz19-sk-xenium2024-part01
 
 Write-Host '
                        [1;33m██████████████  ███████████████[0m

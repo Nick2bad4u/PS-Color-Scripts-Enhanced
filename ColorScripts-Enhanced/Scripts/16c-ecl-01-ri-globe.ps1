@@ -1,18 +1,4 @@
-﻿# Converted from: RI-GLOBE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-01/raw/RI-GLOBE.ANS
-# Source Revision: archive-sha256:98f7ca14920172db6145e44afa4b8ac94de6e46d94b8cf326e89a96c3e7e5c1b
-# Source SHA-256: ff4676305e46e115353f3bda53587716b71116256fd6f00de3ca9528c4a3b870
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RI-GLOBE.ANS by riyee (eclipse); released in ecl-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the globe
-# SAUCE Author: riyee
-# SAUCE Group: eclipse
-# SAUCE Date: 19960614
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: the globe by riyee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-01-ri-globe
 
 Write-Host '
              [1;33m ▓[0m [1;33m █░█[0m [1;33m█░█ █░[0m

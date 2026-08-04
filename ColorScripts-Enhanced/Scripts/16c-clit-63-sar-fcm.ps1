@@ -1,13 +1,4 @@
-﻿# Converted from: sar-fcm.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/clit-63/raw/sar-fcm.ans
-# Source Revision: archive-sha256:d3b4e882f44abd294768cb9bd5670a6445d2a5e2ff15c5853a00f270e296e2a5
-# Source SHA-256: ef0f9ef73c64ab5a862fcc8bae6dc68848edc7f70563e33694ffdbd5aa41df13
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sar-fcm.ans by Sargon (clit-63); released in clit-63 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: sar-fcm.ans by Sargon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-clit-63-sar-fcm
 
 Write-Host '
                                     _.∙∙∙∙∙∙∙∙._

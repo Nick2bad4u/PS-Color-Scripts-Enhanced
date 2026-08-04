@@ -1,13 +1,4 @@
-﻿# Converted from: SM-LURE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper07/raw/SM-LURE2.ANS
-# Source Revision: archive-sha256:c42bfa4438f002452f1a6bc8caf7f32e2e6bfd8fffb358dd625c49ecd6cf6820
-# Source SHA-256: c75f13ed873cc94b47528e0748715999168009a91da4f73e67c2ffb68e59f3cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-LURE2.ANS by Smoke (jasper07); released in jasper07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: SM-LURE2.ANS by Smoke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper07-sm-lure2
 
 Write-Host '
 

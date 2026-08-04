@@ -1,18 +1,4 @@
-﻿# Converted from: DIE-KANG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-05/raw/DIE-KANG.ANS
-# Source Revision: archive-sha256:9471ca7612415a41916878584e9d9bf710a5efbc5b8d389ed1bde764e2a602ca
-# Source SHA-256: b8ae594db99ed7d2ee62cffb24ecbb37b8825c0f83b513286f8eb3e16c3b137b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DIE-KANG.ANS by diez-something (eclipse); released in ecl-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: H0p
-# SAUCE Author: diez-something
-# SAUCE Group: eclipse
-# SAUCE Date: 19960812
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: H0p by diez-something | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-05-die-kang
 
 Write-Host '
 dieznyik        [1m▀ ▄[0m                           [32m░▄[0m        [32m░▓▌░[0m        [32m░[0m

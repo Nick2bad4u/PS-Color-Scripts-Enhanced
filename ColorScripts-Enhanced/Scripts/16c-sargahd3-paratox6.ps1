@@ -1,17 +1,4 @@
-﻿# Converted from: PARATOX6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sargahd3/raw/PARATOX6.ANS
-# Source Revision: archive-sha256:d4be65be862c17debbed01c060fb85aadbdbe00a8282836fa25f3f46073f618d
-# Source SHA-256: cebace5e94ca4902462feffe7ae7390b89558d5477e3fd1aff07def51a424c5a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PARATOX6.ANS by paratoxic (fbk.sargahd); released in sargahd3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: paratoxic at work ;)
-# SAUCE Author: paratoxic
-# SAUCE Group: fbk.sargahd
-# SAUCE Dimensions: 80x25
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: paratoxic at work ;) by paratoxic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sargahd3-paratox6
 
 Write-Host '
                    ▄[1;47m░[0m▄[1m▄▄▄[0m

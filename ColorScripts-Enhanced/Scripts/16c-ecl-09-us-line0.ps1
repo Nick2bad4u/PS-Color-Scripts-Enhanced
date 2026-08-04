@@ -1,13 +1,4 @@
-﻿# Converted from: US-LINE0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-09/raw/US-LINE0.ANS
-# Source Revision: archive-sha256:6c371ec8bbb75e88f59630021fbbd23f2fc630c10ee1cde240cc20faafea1ca9
-# Source SHA-256: e40662c0a513f0618c3715c0a210f5fcc3750efb65ed2b085e8d213633c84603
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-LINE0.ANS by Cheeze + Mighty Mouse (ecl-09); released in ecl-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: US-LINE0.ANS by Cheeze + Mighty Mouse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-09-us-line0
 
 Write-Host '
 

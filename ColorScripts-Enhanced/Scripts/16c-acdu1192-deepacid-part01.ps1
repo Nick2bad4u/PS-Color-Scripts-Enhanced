@@ -1,13 +1,4 @@
-﻿# Converted from: DEEPACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1192/raw/DEEPACID.ANS
-# Source Revision: archive-sha256:8f9edeb4f92b0693833f343328f0977cc472aa2ea98dbae0f830bf926a78711d
-# Source SHA-256: c49c0b7515f0ba8d0c4ad131c9006b67dd88a2edb0db705561beb1781b1c41e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DEEPACID.ANS by Blade Runner (acdu1192); released in acdu1192 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: DEEPACID.ANS by Blade Runner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1192-deepacid-part01
 
 Write-Host '
 [44m [0;34m▓█[0;34;44m  [0;34;40m▓█▓▒▓▓▒▒░▒░░░░░░░[0m     [1;37;40m▄▄▄▄▄ [0;1;33;40m▄▄ [0;1;37;40m▄▄▄▄▄   [0;34m░░░░░░░░  ░░░░░░░░░░░░ ░░░░░░░░░[0m

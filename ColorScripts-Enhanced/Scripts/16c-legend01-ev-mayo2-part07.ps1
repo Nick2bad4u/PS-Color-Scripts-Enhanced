@@ -1,18 +1,4 @@
-﻿# Converted from: EV-MAYO2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/legend01/raw/EV-MAYO2.ANS
-# Source Revision: archive-sha256:c16596ccc1998cdb5411a048e84f89a3c6fef84f98dc2ac6ceb2de7e2933a7f8
-# Source SHA-256: 496502347d2fee17740a9338f13d63e8a38050567e84407a41474cae850a9cda
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EV-MAYO2.ANS by EverLast (Legend); released in legend01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Mayo
-# SAUCE Author: EverLast
-# SAUCE Group: Legend
-# SAUCE Date: 19950701
-# SAUCE Dimensions: 80x25
-# Lines: 271-314
-# Columns: 1-80
+﻿# Artwork: Mayo by EverLast | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-legend01-ev-mayo2-part07
 
 Write-Host '
             [1;34m▒[0m       [34m▒▄▀[0;31m▄[0;34m▀[0;31m▄[0m      [34m▒[0;37m  [0;34m▐▌[0;37m  [0;1;34m▓[0m              [34m▀[0;1;34;44m▒▒[0m              [34m░[0;1;34;44m░[0m

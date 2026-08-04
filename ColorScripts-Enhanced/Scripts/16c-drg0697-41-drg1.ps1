@@ -1,18 +1,4 @@
-﻿# Converted from: 41-DRG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg0697/raw/41-DRG1.ANS
-# Source Revision: archive-sha256:680b16d137638190eae45c3c61ec0a07880ed6f3bbd5387d78ba0c5c22b4bc71
-# Source SHA-256: 905860ecb81d2cb5a25611cf6d0ad0f1807e1b0a565fcc86556091384b86124a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 41-DRG1.ANS by Acidblood (deranged); released in drg0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: deranged, soh phwck yew!
-# SAUCE Author: Acidblood
-# SAUCE Group: deranged
-# SAUCE Date: 19970527
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: deranged, soh phwck yew! by Acidblood | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg0697-41-drg1
 
 Write-Host '
  [1;30m░░[0m      [1;31m▄[0;33m▄░[0;37m  [0;1;30m███▐▀[0m [1;30m▐▀▀▀▀▀▀██[0m   [1;34;44m██▌▀[0;34m▄▄▄█[0;1;34;44m░░[0;34m▌[0m    [1;30m░[0m   [1;30m▄▌▄[0m     [1;30m▄▄▄▄▄▐▄[0;1;30;47m▓[0;1;30;40m▄[0m  [1;30m▒[0m  [1;30m░[0m    [34m░[0m

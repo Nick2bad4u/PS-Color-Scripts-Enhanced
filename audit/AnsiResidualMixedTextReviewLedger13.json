@@ -1,0 +1,573 @@
+{
+    "schemaVersion": 1,
+    "reviewedAt": "2026-07-29",
+    "normalization": "SHA-256 of UTF-8 rendered row text after ANSI-control removal and outer-whitespace trimming.",
+    "policy": "Human-reviewed readable prose, dialogue, generic menu fields, captions, and placeholder copy found by disjoint punctuation, clustered-row, short-multiword, and single-caption detectors were blanked when row-level redaction preserved the surrounding ANSI artwork, controls, backgrounds, and geometry. Artist and group attribution, titles, filenames, dates, source-significant labels, repeated lettering used as structural texture, and large typographic art were retained.",
+    "summary": {
+        "candidateFiles": 42,
+        "evidenceRows": 44,
+        "categoryRows": {
+            "alternative-clustered": 24,
+            "alternative-punctuated": 19,
+            "alternative-short-multiword": 1
+        }
+    },
+    "candidates": [
+        {
+            "action": "blank-text",
+            "category": "alternative-clustered",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 34,
+                    "sha256": "94882ba716f02b15f1cc1741f6837ffbe940bbcb8640b2d0cccdefb9d5d23b0f"
+                }
+            ],
+            "file": "16c-33rules-33-prod2-part01.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-punctuated",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 17,
+                    "sha256": "503198cd21ee98b30c93accb787d0c2edb54aab323a4077362a933c85b0ade2b"
+                }
+            ],
+            "file": "16c-anger09-dt-sabo.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-punctuated",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 16,
+                    "sha256": "3172e3a9aaa63d5f88eacbbf957274f7f77073202efd737cba9371abfd56422e"
+                }
+            ],
+            "file": "16c-apathy07-us-diet.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-punctuated",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 20,
+                    "sha256": "cab378346822d4048077c2784b82284722c7a5dece6271cd3370a7632d9a0327"
+                }
+            ],
+            "file": "16c-apathy09-ti-treg.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-punctuated",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 5,
+                    "sha256": "f2fb12735e994bc14aa436ec989a17698f9126f047f5b77f945e734036b4e2ca"
+                }
+            ],
+            "file": "16c-bdp-1095-co-pl-part02.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-punctuated",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 6,
+                    "sha256": "6ac1a4fb04092148b59db5ca49535b066e342f89ddfbfbe738f5757c01469176"
+                }
+            ],
+            "file": "16c-blawork-fj-fchat.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-punctuated",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 10,
+                    "sha256": "778de0eb44767b543ff5abd3a4a83351e85ee048c754e6799d22b94b160100cb"
+                }
+            ],
+            "file": "16c-blendxms-mendator.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-punctuated",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 10,
+                    "sha256": "977dcd2a5267db6aa230e7aa5d1a27dcdf0898da2629972337cac362616d304a"
+                }
+            ],
+            "file": "16c-blndr039-co-midg.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-clustered",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 15,
+                    "sha256": "90abb69fc47c044334db4f0bba54e84c4ea5ffdaa4cfcb03dd104813d298ba27"
+                }
+            ],
+            "file": "16c-bmb-0197-pyx-puke-part01.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-punctuated",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 11,
+                    "sha256": "f1cf33e8eed683bb22cca955c1f95a8c7268e28b95c9f982301a14a9f0047de6"
+                }
+            ],
+            "file": "16c-bmbook19-shn-lava.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-punctuated",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 12,
+                    "sha256": "0c841a1a21989ab0ac6c9fbbac3c56f4f8786cd7b3a4693005054f3adc73a6d8"
+                }
+            ],
+            "file": "16c-brhood03-us-joint.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-punctuated",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 14,
+                    "sha256": "036071548fc9dfc53cc454f8e05dc678fbddb6d1ab2987b29fa0e00824d22833"
+                }
+            ],
+            "file": "16c-clear2ooo-ascii-year-lf-virus-pic-part03.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-clustered",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 18,
+                    "sha256": "016b58825e97e0db55e48669d35e5a59c58e3a6113111d649d6f46419c5d573a"
+                }
+            ],
+            "file": "16c-d38-05-mc-holdn.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-clustered",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 19,
+                    "sha256": "0047af872823cf8275f0923b1e55a50224e5a06e0c535b965bda79a8667a6319"
+                }
+            ],
+            "file": "16c-d38-06-mc-pryin.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-punctuated",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 29,
+                    "sha256": "c8049a57dd1a57a604c24b9cbf009593fabf14ef2bcc9483c044117cf269a44a"
+                }
+            ],
+            "file": "16c-ddip1196-hp-medu.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-clustered",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 7,
+                    "sha256": "9f8c4217b2eb6d96a84b5432aebaab61b204dfe1836dbb1d36cec535c43dbbf0"
+                }
+            ],
+            "file": "16c-ecl-09-mo-sp.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-clustered",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 35,
+                    "sha256": "6d78079dd410372d59b320fd12b58a00f36522f08aee96826806f79b37aba4f6"
+                }
+            ],
+            "file": "16c-eden0295-ss-nl1-part01.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-clustered",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 16,
+                    "sha256": "d24886702491c9a3fc5277ff63faebf4d55608ec9b49ff9c339924efb04fba7b"
+                }
+            ],
+            "file": "16c-epic0001-cg-mtx.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-punctuated",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 24,
+                    "sha256": "160f2e9429287de98cd301871cfdfaf0bee81dbd4dd13a82239bab0fe605d56d"
+                }
+            ],
+            "file": "16c-fire0996-cc-vvv.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-clustered",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 12,
+                    "sha256": "159440f5940906cc5b740e46da1715526b8eefa944f6d1f3dcfe37a7f3f83e9f"
+                }
+            ],
+            "file": "16c-force-16-po-cat-1.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-punctuated",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 12,
+                    "sha256": "0c543d5b9656105fc58dfed03700e21a9ea462b28ebef16bfa3131786fb73f1b"
+                }
+            ],
+            "file": "16c-hpm-04-checs-casa-robada-part01.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-punctuated",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 7,
+                    "sha256": "87cb43e335a5ba3ad0e7d3ec7532c320767e7acfd18576fac6d4463e071def93"
+                }
+            ],
+            "file": "16c-ice-9501-sy-doot2-part01.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-punctuated",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 20,
+                    "sha256": "5fcc49641aaf40cda9ed1ee1e794fb12e3627a4197c9110b67fa916900e1faca"
+                }
+            ],
+            "file": "16c-jasper04-us-ansi.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-clustered",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 2,
+                    "sha256": "3d0c6f3bcabf037185841344f456637fa2c8ba74e3649e7592d2fa4a37f951a1"
+                }
+            ],
+            "file": "16c-k-zxica-die-aenc.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-punctuated",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 10,
+                    "sha256": "c675ffe2f41fea8f61de182b4bfe3605aedef50859cab5fc792878b4bb917063"
+                }
+            ],
+            "file": "16c-l0p13-01-us-poeci.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-clustered",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 12,
+                    "sha256": "368884bd121e453e947f6a2808d7ed3e96ecd18ec7518659dde66e7b86ca4667"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 13,
+                    "sha256": "112cedc88d68693e0d9baa3d4b551392f14e6679b3794e5f8f14dcfa2fbebf83"
+                }
+            ],
+            "file": "16c-laz15-ak-vgull.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-clustered",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 15,
+                    "sha256": "4d936b68376a8fa629e45c9165eafcf1e7363dc1595c98c8eecd2f287f719e7c"
+                }
+            ],
+            "file": "16c-mist-lc-artdisk-2-kyo-mist-part01.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-clustered",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 33,
+                    "sha256": "6e7cfb8f5bd206f7ce8ba2fa926c405b5c723778663e5414f1fe4792174e5eb0"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 34,
+                    "sha256": "54d77a726efe9a709ea04b43bc53dc6c051ad1fdc004b9abbadbcdb9e16cb73c"
+                }
+            ],
+            "file": "16c-mist0226-mm-darkplace.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-clustered",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 34,
+                    "sha256": "745627145925837a670e03cb3da0d907b3e3557f39c24c7d984d54b53a73e075"
+                }
+            ],
+            "file": "16c-mist1120-us-divers-part04.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-clustered",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 7,
+                    "sha256": "b366ebe0b971c736ecc7f86461f13877f696d4c43956762224e69d51767574ad"
+                }
+            ],
+            "file": "16c-moi-1296-sm-wm1.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-clustered",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 17,
+                    "sha256": "7263bd14107b9b762c6bad1fe4c6468297ed87e4aeefb0a088565c583e4ca7cf"
+                }
+            ],
+            "file": "16c-nph1097-aw-nph3.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-clustered",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 12,
+                    "sha256": "fdbabf31a313858bfc960b4e4e9c53a3fba3dc246782efb45e739a82a8a281f3"
+                }
+            ],
+            "file": "16c-odium-03-rf-mlgff.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-punctuated",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 16,
+                    "sha256": "bd0472f8b1e823f0ae9ceb0406a9b6938143a5168f659741482572346afc9e53"
+                }
+            ],
+            "file": "16c-oph-0018-joint-05.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-clustered",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 7,
+                    "sha256": "389e73d952450eeb40d21dcf7e59f0f434781af79174d08220f39b163808e5a1"
+                }
+            ],
+            "file": "16c-phat0497-a-haz2.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-clustered",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 5,
+                    "sha256": "02fe8c4d8814d12f53827f7c3c53806a8c775272e071fb1be97d3ab7b65e3b25"
+                }
+            ],
+            "file": "16c-phb-0397-noh-phob.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-clustered",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 21,
+                    "sha256": "9b64bc381cdf3ea4c84bb9b5b24266bf75ca7c5bfd033d5b3a4263441f60a611"
+                }
+            ],
+            "file": "16c-rev0502-gl-frog.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-clustered",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 10,
+                    "sha256": "4977ef563982c98cb2e248f32af809e7ee80fce73e2a41ed12c3dff5453ced1e"
+                }
+            ],
+            "file": "16c-roc-0995-bp-plnb-part01.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-short-multiword",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 7,
+                    "sha256": "5e78408cad26051c3ec59ca9df38278d89e867b9dad05c10793a3f20471d554d"
+                }
+            ],
+            "file": "16c-root0397-ft-ho1.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-clustered",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 29,
+                    "sha256": "b16020a3b4b4d4394d20129413acdd14f669077e5cccd3b7a238a11f7023d03b"
+                }
+            ],
+            "file": "16c-roots01-us-slurg.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-clustered",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 12,
+                    "sha256": "e4c2919dfc2707735d3d07e70c5d987de23f2657b575af0ffcf26a783eae01c7"
+                }
+            ],
+            "file": "16c-tdd-0496-pc-matri.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-punctuated",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 26,
+                    "sha256": "f802013946bac4b5d49ee47aa26e80dc66a93577ba0d4ef460c7ab690521932d"
+                }
+            ],
+            "file": "16c-thesauna01-mfs-sauna.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-punctuated",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 12,
+                    "sha256": "fbccabc8f32f1da4f83a02051e3ad07f95e499c9fc8b4a9ed77ff2a05ae4c6ee"
+                }
+            ],
+            "file": "16c-uni-0395-bl-pc1-part01.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        }
+    ]
+}

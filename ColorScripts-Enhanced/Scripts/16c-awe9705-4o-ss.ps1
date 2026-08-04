@@ -1,18 +1,4 @@
-﻿# Converted from: 4O!SS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9705/raw/4O!SS.ANS
-# Source Revision: archive-sha256:8be34660f06cc6610ed258606edc1af91e25b5675ab5e99aed29e53c07e63e17
-# Source SHA-256: 43812ea25d97459936378d2e0c5ed1c749a314c11cf7d0b0461abdad8b74ecd5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 4O!SS.ANS by Mr4tune (AWE Lettering); released in awe9705 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Special Sauce
-# SAUCE Author: Mr4tune
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970510
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Special Sauce by Mr4tune | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9705-4o-ss
 
 Write-Host '
  [33m▄█▄▄▄▄█▄[0;37m [0;33m█[0m   [33m▄▄▀[0m    [33m▀▀[0m      [33m▀[0m     [36m▄[0;37m  [0;36m  [0;33m▀[0;36m  [0;37m [0;31m [0;33m▀█▄▄▄[0;1;30m     [0;33m▄▄▄[0;31m [0;33m▄▄░[0m                 [33m░[0m

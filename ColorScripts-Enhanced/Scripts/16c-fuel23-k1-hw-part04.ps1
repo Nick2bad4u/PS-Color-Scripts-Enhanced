@@ -1,19 +1,4 @@
-﻿# Converted from: k1-hw.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel23/raw/k1-hw.ans
-# Source Revision: archive-sha256:cfe32eb98354b0830492d9be5038af88cfccfa9d08c77fbfa69a5660d9e29c20
-# Source SHA-256: 80e6689aea9169fdb4d1da375406753a1ce46e6e8afad345b9a40342d3a82bdf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: k1-hw.ans by knocturnal (FUEL); released in fuel23 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Haciend
-# SAUCE Author: knocturnal
-# SAUCE Group: FUEL
-# SAUCE Date: 20170923
-# SAUCE Dimensions: 80x170
-# SAUCE Font: IBM VGA
-# Lines: 127-168
-# Columns: 1-80
+﻿# Artwork: Haciend by knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel23-k1-hw-part04
 
 Write-Host '
 [32m [0;35m▀▀▀▀▀▀▀▒▄■ ░░▄▄[0;1;35;45m▄▒▀[0;35m▒▒▀[0;1;30m [0;33m▄[0;1;30;43m▀[0;33m██[0;1;31;43m ▀███[0;1;31;40m▓▓▓[0;1;31;43m██████▀[0;33m██[0;1;31;43m▀[0;33m██[0;1;30;43m░[0;33m▓▐▓[0;1;30m▀[0;34m▄▒▀   ▬  ▓█[0;1;34;44m·[0;1;34;40m▀[0;34m▀    [0;1;34;44m ▄■[0;34m█[0;1;34;44m░░[0;34m▒▒█[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: DKNY-ICE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0302/raw/DKNY-ICE.ANS
-# Source Revision: archive-sha256:7b2619e0400d7382d19d38767873337eae71942dd319abc1998c71f4a968776f
-# Source SHA-256: 54919d796899251f498a5f46f1888334f3ade517b63e5029189ec6a939113103
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DKNY-ICE.ANS by davek (Revival 2002); released in rev0302 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: iCE
-# SAUCE Author: davek
-# SAUCE Group: Revival 2002
-# SAUCE Date: 20020314
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: iCE by davek | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0302-dkny-ice
 
 Write-Host '
 

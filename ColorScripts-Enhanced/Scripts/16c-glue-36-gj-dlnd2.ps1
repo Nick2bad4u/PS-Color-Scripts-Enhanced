@@ -1,18 +1,4 @@
-﻿# Converted from: GJ-DLND2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-36/raw/GJ-DLND2.ANS
-# Source Revision: archive-sha256:bf477dfe5f73a7addcb3cfde3273a28cc631116bf697d10a376cdba3af8b6c78
-# Source SHA-256: b02717423999b8b1e79c1e40f26cfc166469422ec5fd857b8d400f41beaa556f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GJ-DLND2.ANS by grymmjack (gj!) (GLUE); released in glue-36 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dreamland BBS - logo #2
-# SAUCE Author: grymmjack (gj!)
-# SAUCE Group: GLUE
-# SAUCE Date: 20010613
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: dreamland BBS - logo #2 by grymmjack (gj!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-36-gj-dlnd2
 
 Write-Host '
                        [1;37m·  [0m    [1;30m·[0m  [1;37m [0;36m·[0m      [1;30m.[0m  [1;30m  [0m .  [1;30m.[0m   [34m  [0;37m  [0;1;30m·[0m    [1;37m.[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: DT-BT7.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0302/raw/DT-BT7.ANS
-# Source Revision: archive-sha256:7b2619e0400d7382d19d38767873337eae71942dd319abc1998c71f4a968776f
-# Source SHA-256: 7c60307137d3b8558b49ca39103a99502da925172bf17216d1b05fb8027fccbb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-BT7.ANS by Defiant (rev0302); released in rev0302 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: DT-BT7.ANS by Defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0302-dt-bt7
 
 Write-Host '
    [34m    [0m               [37m               [0;1;30m  [0m       [34m   ░             [0m              [34m [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: SE-DCITY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/adfa0993/raw/SE-DCITY.ANS
-# Source Revision: archive-sha256:6976ebaabc406143a15dc9df1d07fcc17e21b09f4030eabb01ea606499d36e2b
-# Source SHA-256: a7c6dd190dff24b461baccb40a6e3d8aa7f5902d4330aa7a3f6634b3383c812b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SE-DCITY.ANS by Side Effect (adfa0993); released in adfa0993 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 148-197
-# Columns: 1-80
+﻿# Artwork: SE-DCITY.ANS by Side Effect | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-adfa0993-se-dcity-part04
 
 Write-Host '
      [1;33;47m▓▒░[0;33m▄█▓▓▒▒░░░[0;1;33m▄[0;1;33;47m▒░ [0m██████[1;47m░░░ [0m█████████▄▄  [33m░▓░░▒░▓░▒ [0;1;37m▐[0;1;37;47m▓▒░  [0m█[47m [0;40m█[0;1;30;47m░░▒▒▓[0;1;30;40m████▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: BL4END.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr022/raw/BL4END.ANS
-# Source Revision: archive-sha256:1105fcab5f96be85e1c5d7fc82de0569b7a9bc9775f6dd9595256b07657f96f3
-# Source SHA-256: 63cfa28e4b897b67df8f493975cf45c6eecb82161fea3d93eb96de46b898d25f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BL4END.ANS by Free Fall + Red Death (blndr022); released in blndr022 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: BL4END.ANS by Free Fall + Red Death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr022-bl4end
 
 Write-Host '
  [1m▀█▄▄▄[0;31m▀▀▀▀▀█████████▄[0;1;37m▀█▄▄▄[0;31m▀▀▀▀▀████▀▀▀▀[0;1;37m▄▄▀▀▀▄▄▄[0;31m▀▀▀[0;1;37m ██▓█▄▀▀▄▄[0;31m▀▀██████▀▀▀▀▀[0;1;37m▄▄▄█▀[0m

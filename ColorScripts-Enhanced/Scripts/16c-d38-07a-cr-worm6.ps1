@@ -1,18 +1,4 @@
-﻿# Converted from: CR_WORM6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-07a/raw/CR_WORM6.ANS
-# Source Revision: archive-sha256:6502b6f7b940f1799a6ba4f4b08910561aba3d74e01448e36157cb66de10c8c7
-# Source SHA-256: 9e73bdf5d8f2d76e8c0f5de1c13fffb381486ce4d78d100672fcf26b58407b1c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CR_WORM6.ANS by CRUCiFER (Department 38); released in d38-07a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Worm Stomp
-# SAUCE Author: CRUCiFER
-# SAUCE Group: Department 38
-# SAUCE Date: 19970609
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Worm Stomp by CRUCiFER | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-07a-cr-worm6
 
 Write-Host '
                                                [1m      [0m [1;30m▄▄▄[0m    [31m▄▄[0m

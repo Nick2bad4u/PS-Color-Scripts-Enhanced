@@ -1,18 +1,4 @@
-﻿# Converted from: GS-TRN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1295/raw/GS-TRN1.ANS
-# Source Revision: archive-sha256:8b2aeb495b44e4fe40c88334cd96b390eca2f913c4b5790d916cbc8fc3499bdb
-# Source SHA-256: e45e0b7a59c01e7003a3f998609c674f26ff63748ead01bb2ec385ccca41ae19
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GS-TRN1.ANS by Ghengis (ACiD Productions); released in acdu1295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Ravaged Nightmare
-# SAUCE Author: Ghengis
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19951201
-# SAUCE Dimensions: 80x122
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: The Ravaged Nightmare by Ghengis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1295-gs-trn1-part01
 
 Write-Host '
             [33m [0;37m  [0;1;30m            [0m    [32m                  [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: LG-CYAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ftc-05/raw/LG-CYAN.ANS
-# Source Revision: archive-sha256:5c0404cf283912e8831200a8f9dcc6d8ce0402b99e4f686fa062c4223f57d38b
-# Source SHA-256: 45a6068173bfec0168342e6a29ccaff9ca0a417b43a5a987c094d8d61607aea9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LG-CYAN.ANS by lawn genie (ftc); released in ftc-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: cyanide
-# SAUCE Author: lawn genie
-# SAUCE Group: ftc
-# SAUCE Date: 19960913
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: cyanide by lawn genie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ftc-05-lg-cyan
 
 Write-Host '
      [1;33m▄▄▄██▄▄ [0m      [1m ▄▄▄▄▄▄▄▄▄▄▄[0m

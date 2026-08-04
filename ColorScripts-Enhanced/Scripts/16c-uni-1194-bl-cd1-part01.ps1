@@ -1,18 +1,4 @@
-﻿# Converted from: BL-CD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-1194/raw/BL-CD1.ANS
-# Source Revision: archive-sha256:2e69cbeefab6a04ca1d6ac29f3ba8db97b41d323e43733124f355f6c875b64bc
-# Source SHA-256: d3981163512cea5a1f0424ef3ddc766cb28feaa5924d2d5ece0bcd1feba21b23
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BL-CD1.ANS by Black Lightning (Union); released in uni-1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Chaos Domain
-# SAUCE Author: Black Lightning
-# SAUCE Group: Union
-# SAUCE Date: 19941102
-# SAUCE Dimensions: 80x25
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Chaos Domain by Black Lightning | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-1194-bl-cd1-part01
 
 Write-Host '
                    [34m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

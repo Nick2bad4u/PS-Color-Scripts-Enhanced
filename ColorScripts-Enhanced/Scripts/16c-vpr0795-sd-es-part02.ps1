@@ -1,17 +1,4 @@
-﻿# Converted from: SD-ES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vpr0795/raw/SD-ES.ANS
-# Source Revision: archive-sha256:4a59d47b7694f8e39e774460d65dc196d91b5d4e90f4e35cac8b62cdf4456f27
-# Source SHA-256: 2b6579a599ec7242ce6f6343cd226b221a235eee31c901f954720395109650c0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-ES.ANS by Sir Death (Vapor); released in vpr0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Eternity's Salvation
-# SAUCE Author: Sir Death
-# SAUCE Group: Vapor
-# SAUCE Date: 20950708
-# Lines: 40-77
-# Columns: 1-80
+﻿# Artwork: Eternity's Salvation by Sir Death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vpr0795-sd-es-part02
 
 Write-Host '
                            [1;37m██ ▐▌▓█ █ ▐▌▐▌▐▌████▄▄▄▄▄▄[0;1;31m▀▀▀▀██████████████████████▌[0m

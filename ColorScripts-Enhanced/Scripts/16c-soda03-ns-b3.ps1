@@ -1,17 +1,4 @@
-﻿# Converted from: NS-B3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/soda03/raw/NS-B3.ANS
-# Source Revision: archive-sha256:8ca6b1277c2cfab282ae43fc96ff48d3d51942dfad836f25624e00db8433621a
-# Source SHA-256: 8f4ade5925647781222bdb8e8c0a7b16e9b05ffbd3a0c396c3510949d38c35db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NS-B3.ANS by ansichrist (sodapop); released in soda03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: ansichrist
-# SAUCE Group: sodapop
-# SAUCE Date: 19990503
-# SAUCE Dimensions: 80x1000
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: NS-B3.ANS by ansichrist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-soda03-ns-b3
 
 Write-Host '
 [1;37;47m▓[0;1;37;40m▀▓▓[0;1;37;47m▓▓[0;1;37;40m▀▀[0;1;37;47m▓[0;1;37;40m▀▀▀▀[0;1;37;47m▓[0;1;37;40m▀▀▀███▓▀▀████████████████████████████████████████████████████████[0m█

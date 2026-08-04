@@ -1,18 +1,4 @@
-﻿# Converted from: US-SYR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0402/raw/US-SYR.ANS
-# Source Revision: archive-sha256:19898cc2febb6deadccf50832dc421b4f362a33c899e27278bafd225bbc2d4d4
-# Source SHA-256: 65570b601e51f2e952b9b5bb19f77210beed9dc3bb4adbbfcfdf2f715a04e555
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SYR.ANS by Davek + Ize + The Silent Killer (Revival); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Syrius
-# SAUCE Author: ize/davek/Tsk
-# SAUCE Group: Revival
-# SAUCE Date: 20020415
-# SAUCE Dimensions: 80x23
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Syrius by Davek + Ize + The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0402-us-syr
 
 Write-Host '
 

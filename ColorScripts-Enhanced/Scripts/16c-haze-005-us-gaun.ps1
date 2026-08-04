@@ -1,18 +1,4 @@
-﻿# Converted from: US-GAUN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/haze_005/raw/US-GAUN.ANS
-# Source Revision: archive-sha256:40ebd62210c964f5050012d7eb0cad29739f315fb5930311e853012e7840c8ef
-# Source SHA-256: 92c8eb0bfef496bd1d52afedfa01ab3a2be8babbba0960e283c8b6da1e4e9b58
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GAUN.ANS by Aventari + Huma (haze); released in haze_005 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the gauntlet
-# SAUCE Author: aventari/huma
-# SAUCE Group: haze
-# SAUCE Date: 19950825
-# SAUCE Dimensions: 80x25
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: the gauntlet by Aventari + Huma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-haze-005-us-gaun
 
 Write-Host '
 [1m [0;1;30m▀▀▀[0;1;30;47m▓[0;1;30;40m▀▀▀[0m

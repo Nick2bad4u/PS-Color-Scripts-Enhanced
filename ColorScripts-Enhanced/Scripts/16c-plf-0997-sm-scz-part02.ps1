@@ -1,18 +1,4 @@
-﻿# Converted from: SM!SCZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0997/raw/SM!SCZ.ANS
-# Source Revision: archive-sha256:d6ce507ee095ab9c7ce1d91178b57bff0c61babde42a3957415461a430e18407
-# Source SHA-256: 8e3b1694e9ce9c25c967f579208b90e2378995d77eb667b5f28a182f90dde723
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM!SCZ.ANS by sims (poffelipoff); released in plf-0997 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: schizofrenia
-# SAUCE Author: sims
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19970915
-# SAUCE Dimensions: 80x126
-# Lines: 45-85
-# Columns: 1-80
+﻿# Artwork: schizofrenia by sims | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0997-sm-scz-part02
 
 Write-Host '
 [1;34m▀▀[0m   [1;34m▄[0;36m██[0;37m  [0;1;30m [0;33m [0;1;30m▄[0;33m▄[0;1;31m▄▄▄▄[0;33m▄[0;1;31m [0;33m ▀[0;1;31;43m▀[0;1;31;40m█[0;1;31;43m███[0;1;31;47m▓[0;1;31;43m█████▀[0;1;31;40m▀[0;33m▀  ▄[0;1;31m▄▄▄[0;1;31;43m▄[0;1;31;47m▓█[0;1;31;43m▄[0;33m▄▄[0;1;30m▀ [0;33m [0;1;31;43m▀██[0;33m█[0;1;31m▓[0;1;31;43m▓██▓[0;1;31;47m▓[0;1;31;43m█[0;33m█ [0;37;43m░▒▒▓[0;33;47m░[0;37;40m▀[0;1;30;40m▀[0;33m ▄▄[0;1;31m▄▄▄[0;33m▄ [0m

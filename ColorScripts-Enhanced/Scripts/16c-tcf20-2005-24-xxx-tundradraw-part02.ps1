@@ -1,13 +1,4 @@
-﻿# Converted from: 2005 - 24 - XXX - TundraDraw.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tcf20/raw/2005%20-%2024%20-%20XXX%20-%20TundraDraw.ans
-# Source Revision: archive-sha256:af8609219fccc484668fb405a7f1d45efb8c574501a461c5c1b47d87a12921ce
-# Source SHA-256: d3db14cc045a5ae9f4c6e7ac1deb997671e7fe1004c083ff4885fcf2dc153494
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2005 - 24 - XXX - TundraDraw.ans by Enzo + Spear + Tainted + The Creep Fever (tcf20); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 41-81
-# Columns: 1-80
+﻿# Artwork: 2005 - 24 - XXX - TundraDraw.ans by Enzo + Spear + Tainted + The Creep Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tcf20-2005-24-xxx-tundradraw-part02
 
 Write-Host '
 [34;40m ░▐[0;35;44m▒[0;34;40m▀[0m     [34;40m▀▀▀[0;35;44m░░░░░[0;34;40m██[0;1;36;44m▄▄▒▒▒[0;34m▌[0;1;35;45m▀█[0;34m █[0;1;34;44m░░░░░░░[0;34m█████████[0;35;44m░▄▒▀▀[0;34;40m▓▓▓▓▓▓▓[0;35;44m▀▀▄▄░▒▓▒░[0;34;40m▓ [0;35;40m█▓▄▄[0;34;40m  ▀[0;36;44m▀▒[0;35;44m▓▓[0m

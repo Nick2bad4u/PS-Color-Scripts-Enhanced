@@ -1,18 +1,4 @@
-﻿# Converted from: SC-SGR!U.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9602/raw/SC-SGR!U.ANS
-# Source Revision: archive-sha256:5e4639f25c539923328bf5d3dcaf0345f7881a951b04cd174712ef6ec2433a3a
-# Source SHA-256: 64e282770cdc43b9495439314f3c21f3a30d257030069253edaa35965abef444
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-SGR!U.ANS by subconsciousness (bladeproductions); released in blde9602 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: user config menu [mine!]
-# SAUCE Author: subconsciousness
-# SAUCE Group: bladeproductions
-# SAUCE Date: 19960129
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: user config menu [mine!] by subconsciousness | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9602-sc-sgr-u
 
 Write-Host '
 

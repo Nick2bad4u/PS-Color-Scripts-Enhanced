@@ -1,18 +1,4 @@
-﻿# Converted from: NZ-LRZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook13/raw/NZ-LRZ.ANS
-# Source Revision: archive-sha256:f383b37d2f0265a83b82afcdde57a4dae359d8a5127c467dcea28d0c8500d000
-# Source SHA-256: db24bf28a78c10e27ad383185930870d9018e69567ecc9ff83501f1d607c575a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NZ-LRZ.ANS by noize (black maiden); released in bmbook13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: lrz
-# SAUCE Author: noize
-# SAUCE Group: black maiden
-# SAUCE Date: 19970424
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: lrz by noize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook13-nz-lrz
 
 Write-Host '
  [1;35m▄▄[0;34m▌[0;1;35m▀▀[0m [34m▄▄[0;1;35;44m▄▄▄▌[0;34m▀▀[0;37m [0;34m▄▄[0;1;35;44m▄▄▌[0;34m▌▄▄▐▄▄[0m     [34m▐▄[0m              [34m▀▀▀[0;1;35;44m▐▄[0;34m▌▄[0m          [36m▄▄ [0;37m  [0;36m▄[0;1;36m▄▄[0;36m▄[0m

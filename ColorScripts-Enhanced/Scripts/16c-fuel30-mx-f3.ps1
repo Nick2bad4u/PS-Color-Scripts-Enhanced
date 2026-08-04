@@ -1,19 +1,4 @@
-﻿# Converted from: mx-f3.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel30/raw/mx-f3.ans
-# Source Revision: archive-sha256:e3148e82a669aa484baf0738069fbabe44ba2824856e1cb4b05875b86bdd4621
-# Source SHA-256: 80643824dec11a4d98b5666e81f5e6bedfeafee5f2e33c6c5c48db0f23183bd6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mx-f3.ans by mx (fuel30); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fuel_robograffix
-# SAUCE Author: mx
-# SAUCE Date: 20190714
-# SAUCE Dimensions: 80x30
-# SAUCE Font: IBM VGA
-# SAUCE Comments: hi mom!
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: fuel_robograffix by mx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel30-mx-f3
 
 Write-Host '
 

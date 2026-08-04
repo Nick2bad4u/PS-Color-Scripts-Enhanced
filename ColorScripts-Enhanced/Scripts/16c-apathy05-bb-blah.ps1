@@ -1,18 +1,4 @@
-﻿# Converted from: BB-BLAH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy05/raw/BB-BLAH.ANS
-# Source Revision: archive-sha256:2e1c7dd4c451a5d024352ee6b56eba52a2d5ba6a7d73a9cc34cff58fc603ca18
-# Source SHA-256: 9ea5a04260ef192a0e8c5f834fffb7c53f4a1e273481b11cbc3033e0290207bc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BB-BLAH.ANS by Scribble (apathy/blade); released in apathy05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Blah
-# SAUCE Author: Scribble
-# SAUCE Group: apathy/blade
-# SAUCE Date: 19951203
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Blah by Scribble | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy05-bb-blah
 
 Write-Host '
 

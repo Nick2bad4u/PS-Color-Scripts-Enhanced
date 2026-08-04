@@ -1,18 +1,4 @@
-﻿# Converted from: WR-DOX5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_07/raw/WR-DOX5.ANS
-# Source Revision: archive-sha256:fdb99f4e825fce5f0239182b89b35e7a65dfd1f629b419cb099f04589247c9f8
-# Source SHA-256: 9728ca4e280fc6bfac2cbd620e6a2ea378137d0312719fb9371bdc283a648696
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WR-DOX5.ANS by war (d0X!Productions); released in dox_07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Dox logo #5, we rule
-# SAUCE Author: war
-# SAUCE Group: d0X!Productions
-# SAUCE Date: 19970321
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Dox logo #5, we rule by war | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-07-wr-dox5
 
 Write-Host '
                                 [34m░[0;30;44m▓[0m        [34;40m▀[0m

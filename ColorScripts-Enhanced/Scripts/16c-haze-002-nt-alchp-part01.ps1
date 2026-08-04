@@ -1,18 +1,4 @@
-﻿# Converted from: NT-ALCHP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/haze_002/raw/NT-ALCHP.ANS
-# Source Revision: archive-sha256:38330e2f246542d7e8592e16d69ba19463233f347fc04dc4d56a7647ea25c49d
-# Source SHA-256: d635b7f0bc4a6b36a42f665770c6250fc463d96467c55b48b2a9efc17c7e23e8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NT-ALCHP.ANS by notorious (haze); released in haze_002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: alchemy
-# SAUCE Author: notorious
-# SAUCE Group: haze
-# SAUCE Date: 19950603
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: alchemy by notorious | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-haze-002-nt-alchp-part01
 
 Write-Host '
   [1;30mn  o  t  o  r  i  o  u  s  ! ....  A   h  a  z  e  ! ....   p   r    o   d  ![0m

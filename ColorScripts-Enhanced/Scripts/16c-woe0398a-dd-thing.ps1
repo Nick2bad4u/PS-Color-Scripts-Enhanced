@@ -1,18 +1,4 @@
-﻿# Converted from: DD-THING.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/woe0398a/raw/DD-THING.ANS
-# Source Revision: archive-sha256:feef6c5067150fcb3afb8e1031cbd84508116073dc31e796c2f896be6ffc96b0
-# Source SHA-256: bec9823a2fefe93b2a83a59a5eccd01fc6b1bb35d026147c5f70ac06edc8596f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-THING.ANS by dopedemon (woe); released in woe0398a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: this will never be finished..
-# SAUCE Author: dopedemon
-# SAUCE Group: woe
-# SAUCE Date: 19980222
-# SAUCE Dimensions: 80x46
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: this will never be finished.. by dopedemon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-woe0398a-dd-thing
 
 Write-Host '
 [33m  [0m         [33m  ███[0;1;31;43m░░░░░░[0;33m█████▀[0;1;31m   [0;33m▄[0;1;31m   [0;33m▄[0;1;31;43m [0;33m▄[0;1;31m▄[0;33m▄▄▄▄██████[0;30;43m░[0;33;40m▓[0;30;43m░[0;33;40m▓███████▌[0;1;31;40m  [0m

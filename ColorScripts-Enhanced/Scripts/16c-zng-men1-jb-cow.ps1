@@ -1,13 +1,4 @@
-﻿# Converted from: JB-COW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zng-men1/raw/JB-COW.ANS
-# Source Revision: archive-sha256:60e9320bfd4f7989700e68843caf7de864521936ba2820412894824138c61b6c
-# Source SHA-256: 5e3e1aa58c2485eef4b876768669c5648f97a02e696037bd8bc9ad8ca9104b42
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JB-COW.ANS by Jail Bird (zng-men1); released in zng-men1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: JB-COW.ANS by Jail Bird | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zng-men1-jb-cow
 
 Write-Host '
                                                                       [34m▄[0m

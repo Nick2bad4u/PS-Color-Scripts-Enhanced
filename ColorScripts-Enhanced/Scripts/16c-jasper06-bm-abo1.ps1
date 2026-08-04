@@ -1,18 +1,4 @@
-﻿# Converted from: BM-ABO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper06/raw/BM-ABO1.ANS
-# Source Revision: archive-sha256:e9db58af17bee8935edbe50f24a227bef7a311667f4a639d4f37f775998e9055
-# Source SHA-256: 2ea916c8244c0daf45ba256391c0aafbd4addfcc5c0ccf3d1811368a5d4f0d81
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BM-ABO1.ANS by Aesthetic + Avenging Angel (jasper); released in jasper06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: aboriginal emag
-# SAUCE Author: avg43=BALKAN MADNESS
-# SAUCE Group: jasper
-# SAUCE Date: 20020523
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: aboriginal emag by Aesthetic + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper06-bm-abo1
 
 Write-Host '
 [1m [0;1;36m░░[0m           [1;36m  █[0;1;36;46m▄[0m                   [36m░░[0;37m   [0;1;30m  [0m    [36m▓▓[0m

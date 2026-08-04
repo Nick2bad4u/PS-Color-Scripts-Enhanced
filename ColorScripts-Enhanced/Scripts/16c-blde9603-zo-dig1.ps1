@@ -1,18 +1,4 @@
-﻿# Converted from: ZO-DIG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9603/raw/ZO-DIG1.ANS
-# Source Revision: archive-sha256:f6d7d8628f8fd582effd93b8e838e75d5d9c5ee94417e33eb7b84c6b3ba37ea3
-# Source SHA-256: 4be721919717e8bcaa6d0f5e67a9f57c3683a2deb05ed365a06f40b2d19f731a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZO-DIG1.ANS by zork (blade productions); released in blde9603 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: digital empire
-# SAUCE Author: zork
-# SAUCE Group: blade productions
-# SAUCE Date: 19960220
-# SAUCE Dimensions: 80x25
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: digital empire by zork | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9603-zo-dig1
 
 Write-Host '
 [1;30m[0m

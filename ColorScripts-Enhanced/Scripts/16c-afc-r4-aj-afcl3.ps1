@@ -1,13 +1,4 @@
-﻿# Converted from: AJ-AFCL3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r4/raw/AJ-AFCL3.ANS
-# Source Revision: raw-sha256:1577c1e0eb78b91473566fe4b3e74f2ae855d9499387dc6422fac1478bc7368f
-# Source SHA-256: 1577c1e0eb78b91473566fe4b3e74f2ae855d9499387dc6422fac1478bc7368f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AJ-AFCL3.ANS by Anajude (afc-r4); released in afc-r4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: AJ-AFCL3.ANS by Anajude | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r4-aj-afcl3
 
 Write-Host '
            [1;34m·[0m           [34m·[0m       [1;34m·[0m

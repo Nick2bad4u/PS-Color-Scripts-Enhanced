@@ -1,17 +1,4 @@
-﻿# Converted from: TSK-BT24.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz01dec/raw/TSK-BT24.ANS
-# Source Revision: archive-sha256:5b380369fa665698a380513024a32a1e90544a62665a810c6e03347900a05ac8
-# Source SHA-256: 5aff49c7f549e6a014fda99ac7467362b70906b10df4e8ebb4e2ea34a0840e76
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-BT24.ANS by the silent killer (lazarus); released in laz01dec and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: black thursday
-# SAUCE Author: the silent killer
-# SAUCE Group: lazarus
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: black thursday by the silent killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz01dec-tsk-bt24
 
 Write-Host '
 [1;30;47m▓▒░[0m█▀▀▄▄[1;47m░▒▒▓▓█[0;1;40m▓[0;1;47m██▓▓▒▒▒▒░░▒▒▒▓▓[0;1;40m▄[0;1;36;40m▄▄[0m         ▄▄[1m▄[0m   [1m  [0m▄▄[1m▄[0m▄               [1m      [0m

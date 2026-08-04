@@ -1,18 +1,4 @@
-﻿# Converted from: US-AG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy11/raw/US-AG1.ANS
-# Source Revision: archive-sha256:a8a1f25f60c56aa0932319ceb3e0a3707898d7c9d304c60c4912556d84eb4b61
-# Source SHA-256: de77716b0c27047ae69f83bb0371b033ac8fc36e3b990b54ed5306a44ed109d8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-AG1.ANS by Ewheat + Misfit (Apathy Studios); released in apathy11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Atomic Garden
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Apathy Studios
-# SAUCE Date: 19960704
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Atomic Garden by Ewheat + Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy11-us-ag1
 
 Write-Host '
  [1;31m█[0;1;31;43m▓▒░[0m   [33m▀▀▄[0;1;31m▄[0;1;31;43m▓[0;1;31;40m█[0;1;31;43m▓▓▒[0;1;31;40m▄▄▀▀[0;1;31;43m▓▒░[0;33m▄█[0;30;43m▒[0;33;40m░[0m   [37;40m [0m   [34;40m░░[0;37;40m  [0;34;40m▀▓▄[0;1;34;40m▄[0m  [1;30m                                   [0m

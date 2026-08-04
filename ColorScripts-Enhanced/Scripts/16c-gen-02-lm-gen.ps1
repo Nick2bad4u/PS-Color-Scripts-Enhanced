@@ -1,17 +1,4 @@
-﻿# Converted from: lm-gen.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gen-02/raw/lm-gen.ans
-# Source Revision: archive-sha256:a8bb305fa74299fe2b84ac6a7c53e3f231aa6311f01121f9650c819a93a468d5
-# Source SHA-256: a069d1d3041a5bc62b28fb328799c3a5711af71ddc5a5cd11aeefc6df0626db2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: lm-gen.ans by lichmistress (genuine); released in gen-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: lichmistress
-# SAUCE Group: genuine
-# SAUCE Date: 19990110
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: lm-gen.ans by lichmistress | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gen-02-lm-gen
 
 Write-Host '
                      [36m·[0m              [36m■[0m

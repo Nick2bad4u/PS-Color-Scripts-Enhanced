@@ -1,20 +1,4 @@
-﻿# Converted from: zir-mpr3.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure91/raw/zir-mpr3.ans
-# Source Revision: archive-sha256:0206a2b66e8c66dafd442a3bfeb3e46b9bfd46f73e3f05cb660b48493bc7121f
-# Source SHA-256: 45fe25258b5b3c56d802b0a6abceb7d3f63b93b7c24bbb27c7a22eb4fed9613f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zir-mpr3.ans by zir (IMPURE (guest)); released in impure91 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 1MPUR3 4SC11!!
-# SAUCE Author: zir
-# SAUCE Group: IMPURE (guest)
-# SAUCE Date: 20251217
-# SAUCE Dimensions: 80x22
-# SAUCE Font: IBM VGA
-# SAUCE Comments: 1MPURE rULZ!!
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: 1MPUR3 4SC11!! by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure91-zir-mpr3
 
 Write-Host '
  [1;30m░█[0;1;30;47m▀[0;1;33;47m▄▄▄▄[0;1;37;47m░[0m▄[36m ░▒▓▓▓▓▓▓[0;37m [0;36m▓▓▓▓[0;37m [0;36m▓▓▓[0;30;46miMPURE[0;36;40m▓ ▓[0;30;46maSC11!![0;36;40m▓▓▓▓▓▓▓▓▓▓[0;37;40m [0;36;40m▓▓▓▓▓[0;37;40m [0;36;40m▓▓▓▓▓░▓▌▓▓▓▓▓▓▓▓▒░[0m

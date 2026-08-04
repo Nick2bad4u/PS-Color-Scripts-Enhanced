@@ -1,15 +1,4 @@
-﻿# Converted from: RET-SNS5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense-21/raw/RET-SNS5.ANS
-# Source Revision: archive-sha256:c1e4d9e7af49c7636f26ea79ebe3e09527c170fed208ba49930c4515bd2726cb
-# Source SHA-256: d8a5a2175b672bdfdce9d6a056d8568e899b1e081e88fe82ebb1b2ad0c581ee6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RET-SNS5.ANS by Retribution (sense-21); released in sense-21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20040721
-# SAUCE Dimensions: 80x59
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: RET-SNS5.ANS by Retribution | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense-21-ret-sns5-part01
 
 Write-Host '
 [30;47m█[0;35;40m▀[0;1;35;45m░[0;30;47m█[0;35;40m▐[0;1;35;45m▓[0;35m▀▀[0;30;47m█[0;35;40m▄▄▄▄▄[0;1;35;45m██▓▓░[0;35m███[0;30;47m███[0;1;30;40m▀[0;36m▀▀▀[0;30;47m█[0;1;30;40m▄[0;1;30;46m▒[0;36m██▄▄▄▄[0;30;47m███[0;36;40m▀▀▀▀[0;1;30;46m░░[0;36m████▄▄▄▄▄▄[0;30;47m███[0;36;40m▀▀▀▀█[0;1;30;46m░░[0;36m█▄▄[0;1;30m▄[0;30;47m██[0;36;40m▀▀▀▀[0;30;46m■[0;36;40m█▄[0m

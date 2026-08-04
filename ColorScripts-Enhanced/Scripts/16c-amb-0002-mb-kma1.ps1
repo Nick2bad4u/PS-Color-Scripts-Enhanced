@@ -1,19 +1,4 @@
-﻿# Converted from: MB-KMA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amb-0002/raw/MB-KMA1.ANS
-# Source Revision: archive-sha256:ddf2bfb6c349501ad0002133992d1d3c9602291731a9f4cef0d5ef9af30b761f
-# Source SHA-256: 81919d1a45d48cc22029faadf40b8e079a09aebf72ae30236969b032e565a79a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MB-KMA1.ANS by MADBiT (AMBUSH Productions); released in amb-0002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Kiss My Ass - Login
-# SAUCE Author: MADBiT
-# SAUCE Group: AMBUSH Productions
-# SAUCE Date: 19961007
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: Login ANSi for Kiss My Ass... Sorry for the HUGE delay pal! =)
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Kiss My Ass - Login by MADBiT | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amb-0002-mb-kma1
 
 Write-Host '
                   [1;30m▄▄▄■▌ [0m   k  i  s  s     m  y     a  s  s

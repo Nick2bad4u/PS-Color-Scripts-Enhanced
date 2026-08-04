@@ -1,20 +1,4 @@
-﻿# Converted from: ak67-get-wet.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna01/raw/ak67-get-wet.ans
-# Source Revision: archive-sha256:70f712dbf565de1ceb0f2b7020b54aa443621235a47b082b92e24e13342b0672
-# Source SHA-256: 07c70b8e41ab08ed9aa8aafe07b6b8581cc219f3dae2058d8c07837f0a3d2196
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ak67-get-wet.ans by alpha king (sauna); released in thesauna01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: get wet
-# SAUCE Author: alpha king
-# SAUCE Group: sauna
-# SAUCE Date: 20190926
-# SAUCE Dimensions: 80x45
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Jos ei viina, terva ja sauna auta, niin tauti on kuolemaksi.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: get wet by alpha king | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna01-ak67-get-wet
 
 Write-Host '
                                      [36m▄[0;1;36m▄[0;36m  ▄[0;1;36m▄[0m           [1;36m▀[0m

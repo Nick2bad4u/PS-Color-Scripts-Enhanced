@@ -1,13 +1,4 @@
-﻿# Converted from: WW-TLCX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spl9607/raw/WW-TLCX.ANS
-# Source Revision: archive-sha256:cfcb128304238e082de7d191be273a1b4ecfa4b546d20f08c775b155194f3a99
-# Source SHA-256: 24dd6276266c7d085d71a1457340beb3f5fe24288b235ada1565e881fe70be3b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WW-TLCX.ANS by Wicked Wolf (spl9607); released in spl9607 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: WW-TLCX.ANS by Wicked Wolf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spl9607-ww-tlcx-part01
 
 Write-Host '
 [35;45m████[0;30;40m█[0;1;35;40m████[0;1;35;45m█[0;1;35;40m█[0;35;45m███[0;1;35;40m███████[0;1;35;45m▒[0;35;45m████[0;30;40m█[0;1;35;40m█[0;35;45m██[0;1;35;45m▒[0;1;35;40m██[0;35;45m███[0;1;35;45m▒[0;30m█[0;1;35m█[0;1;35;45m▒[0;35;45m█[0;30;40m█[0;1;35;40m██[0;1;35;45m▒▒▒[0;35;45m█[0;1;35;40m██[0;1;35;45m▓[0;35;45m██[0;1;35;45m▓░[0;35;45m█[0;30;40m█[0;1;35;45m▓[0;1;35;40m████[0;1;35;45m░[0;1;35;40m██[0;1;35;45m▓▓[0;35;45m████████████[0m

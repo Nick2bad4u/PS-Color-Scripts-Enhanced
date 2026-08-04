@@ -1,18 +1,4 @@
-﻿# Converted from: AB-STOPU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ra-pack7/raw/AB-STOPU.ANS
-# Source Revision: archive-sha256:0a5bc75dd33f02ea715790b6704568a879e79bb191a5cb8d565e9964752806e8
-# Source SHA-256: e7b30cc8de12846a2947f44f3893e798e05caedbd213875c19bfb1d43c6548f1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AB-STOPU.ANS by aCID^bURN (spin); released in ra-pack7 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Serial BBS - top user stats
-# SAUCE Author: aCID^bURN
-# SAUCE Group: spin
-# SAUCE Date: 19980814
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Serial BBS - top user stats by aCID^bURN | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ra-pack7-ab-stopu
 
 Write-Host '
              [1;30m,┌g##SS##g┐,[0m

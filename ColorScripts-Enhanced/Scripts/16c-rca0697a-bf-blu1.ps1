@@ -1,13 +1,4 @@
-﻿# Converted from: BF-BLU1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca0697a/raw/BF-BLU1.ANS
-# Source Revision: archive-sha256:219d133ecf72b96965c657c6f7f9e42e2a841e97a0c782cfb72e191e0cc641b9
-# Source SHA-256: 5b20746f04aa927a02816b6c10ca76878e5dfd5101b279d72270d8115eb4c1bc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BF-BLU1.ANS by Boba Fett (rca0697a); released in rca0697a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: BF-BLU1.ANS by Boba Fett | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca0697a-bf-blu1
 
 Write-Host '
 [1;36;46m█▄[0;1;36;40m▄▄▄[0;36m▄[0;37m  [0;1;36mb[0m   [1;36ml[0m [1;36mu[0m  [1;36mE[0m [1;36m?[0m                                             [36m ▀[0;1;36m▀▀[0;1;36;46m▀▓▓████▄[0;1;36;40m▄[0;36m▄[0;1;36m [0m

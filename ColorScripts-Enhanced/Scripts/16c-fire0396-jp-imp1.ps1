@@ -1,18 +1,4 @@
-﻿# Converted from: JP-IMP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0396/raw/JP-IMP1.ANS
-# Source Revision: archive-sha256:1c74698b6bb36c67ca170e4e3759a91f94a3423157bd644c80d820a8fe56fd8d
-# Source SHA-256: a2bfb67ee3d0e93b83c30975ebf10324e0478fa911098b875e21c682101e21f4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JP-IMP1.ANS by Jeepee (fire); released in fire0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Impure
-# SAUCE Author: Jeepee
-# SAUCE Group: fire
-# SAUCE Date: 19960301
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Impure by Jeepee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0396-jp-imp1
 
 Write-Host '
 [1;31;41m▓▒▒▒░░░ [0;31m▀[0;31;41m  [0;1;31;41m░[0;31m█▀▀▀ [0;1;30m░░[0;32m░[0;1;30m░░ ░░░ ░ ░ ░░▒▒  [0;31m▀█[0;1;31;41m░▒▓▓[0m  [1;30;40m▀▀ ▒█▀█▀█[0;1;30;47m▓[0m [1;30;40m▒█▀█▄▀▀▀▀▓▀▀████[0;1;30;47m▄[0;1;30;40m█[0;1;30;47m▄░▄[0m▄

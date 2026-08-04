@@ -1,18 +1,4 @@
-﻿# Converted from: JDA-DIG!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg0497/raw/JDA-DIG!.ANS
-# Source Revision: archive-sha256:55fca453d1dbc68c4256d77bfda8b410f554b5d648b93da8fc260acf3ce24af3
-# Source SHA-256: 9f3e61a442918f91dececfc4744b8542660e57a2e2adefc1907980b97af513a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JDA-DIG!.ANS by Joda (deranged); released in drg0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: digital motion.
-# SAUCE Author: Joda
-# SAUCE Group: deranged
-# SAUCE Date: 19970426
-# SAUCE Dimensions: 80x40
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: digital motion. by Joda | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg0497-jda-dig
 
 Write-Host '
 

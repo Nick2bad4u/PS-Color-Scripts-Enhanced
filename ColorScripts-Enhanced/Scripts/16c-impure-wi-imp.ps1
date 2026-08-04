@@ -1,18 +1,4 @@
-﻿# Converted from: WI-IMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure/raw/WI-IMP.ANS
-# Source Revision: archive-sha256:0b9a4294ce690aca32755515783e8fac4c651c445d3dd4e394f3ee189ef0478e
-# Source SHA-256: 510f11396ab10dfd0dd5a1b911e3043c8215a0a63a28f5ef0ca942e86cac04dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WI-IMP.ANS by widowmaker (plain); released in impure and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: impure
-# SAUCE Author: widowmaker
-# SAUCE Group: plain
-# SAUCE Date: 19960609
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: impure by widowmaker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure-wi-imp
 
 Write-Host '
                               [1m  [0m

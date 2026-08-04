@@ -1,18 +1,4 @@
-﻿# Converted from: ON-ATL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl199602/raw/ON-ATL1.ANS
-# Source Revision: archive-sha256:337805893489e9fc425066a149ce9b48845018498a6aa94cfb8ae1ad61462631
-# Source SHA-256: fb28416532479711e73888700872028a472daa64f259b052654a8da9e2566302
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ON-ATL1.ANS by O-Tron (Teklordz); released in tl199602 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Atlantis
-# SAUCE Author: O-Tron
-# SAUCE Group: Teklordz
-# SAUCE Date: 19960113
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Atlantis by O-Tron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl199602-on-atl1
 
 Write-Host '
 [1;34m█████████████▀[0m [1m▄[0m [1;34m▄[0;1;34;46m▓▓▓▓▓▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░░░[0;36m▀[0;1;37m▄[0;36m▀[0;1;34;46m░░░░░░░[0;36m▀▀▀▀[0;1;33;46m           ░▒[0;36m▀[0;1;33;46m▓█[0m

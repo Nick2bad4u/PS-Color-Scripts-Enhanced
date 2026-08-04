@@ -1,19 +1,4 @@
-﻿# Converted from: TNT-RUIN.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/fire-43/raw/TNT-RUIN.ANS
-# Source Revision: archive-sha256:d3967e67800d0c773a52f120751caeb2bc01ead5180b478fb0a0e89978edc4ec
-# Source SHA-256: 68cb1b4ac6966d09b06ca9d9fbeba87cf6b5095085ef8258feef32c66abad951
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNT-RUIN.ANS by tainted (fire); released in fire-43 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: realm of serion
-# SAUCE Author: tainted
-# SAUCE Group: fire
-# SAUCE Date: 20250707
-# SAUCE Dimensions: 80x163
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: realm of serion by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-43-tnt-ruin-part01
 
 Write-Host '
                        [31;40m▄█████▓▒░[0m

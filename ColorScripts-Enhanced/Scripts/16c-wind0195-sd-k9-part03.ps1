@@ -1,18 +1,4 @@
-﻿# Converted from: SD-K9.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wind0195/raw/SD-K9.ANS
-# Source Revision: archive-sha256:5b43f6b448165807ca10541f72295732684c4ffaba57fa200380cfc1d53164e9
-# Source SHA-256: 92b6d9c91e44257324be7179c198e42bbca346cd30c58f4a5a8b8010b9e632ae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-K9.ANS by SuperDave (WiND `95); released in wind0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Kloud 9
-# SAUCE Author: SuperDave
-# SAUCE Group: WiND `95
-# SAUCE Date: 19950101
-# SAUCE Dimensions: 80x25
-# Lines: 84-117
-# Columns: 1-80
+﻿# Artwork: Kloud 9 by SuperDave | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wind0195-sd-k9-part03
 
 Write-Host '
 

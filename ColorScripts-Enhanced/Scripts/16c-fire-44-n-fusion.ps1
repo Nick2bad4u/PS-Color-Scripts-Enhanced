@@ -1,19 +1,4 @@
-﻿# Converted from: N-FUSION.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-44/raw/N-FUSION.ANS
-# Source Revision: archive-sha256:6c51508cedeaa9140fcf08750a75edb14e0cec0eebe7b4290346e95cd3548876
-# Source SHA-256: 60f30de6bf50cff885101f286797892b7059851a53662882fb9ca9b5c364f191
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-FUSION.ANS by nail (fire); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fusion
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 20251111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: fusion by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-44-n-fusion
 
 Write-Host '
 [37;40m [0;1;34;40m░░░░░░░░░░░░░░   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m      [1;34m░░░░░░░░░░░ [0m  [1;30m▄[0m  [32m▄[0;1;33;42m▄[0;1;33;40m██[0m [1;34m ░[0m

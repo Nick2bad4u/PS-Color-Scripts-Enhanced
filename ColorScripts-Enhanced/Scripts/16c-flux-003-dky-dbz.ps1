@@ -1,18 +1,4 @@
-﻿# Converted from: DKY-DBZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flux-003/raw/DKY-DBZ.ANS
-# Source Revision: archive-sha256:c8241d6e438a30e14e803d31ea9639f514382ec0df6188aa9d91ed9f1ddec867
-# Source SHA-256: 56b33a4eeb4fadca71ff6ae224276a344ef1365a6df66e9a1a29e8ddea935941
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DKY-DBZ.ANS by ^ darky' (^ flux/nph); released in flux-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ^ divide by zero logo
-# SAUCE Author: ^ darky'
-# SAUCE Group: ^ flux/nph
-# SAUCE Date: 19970827
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: ^ divide by zero logo by ^ darky' | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flux-003-dky-dbz
 
 Write-Host '
 

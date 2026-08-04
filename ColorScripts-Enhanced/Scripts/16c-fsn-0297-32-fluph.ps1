@@ -1,18 +1,4 @@
-﻿# Converted from: 32-FLUPH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0297/raw/32-FLUPH.ANS
-# Source Revision: archive-sha256:d5e6767ccf66425c243bc55fc2b60157e4842e0dca350575e42372c154569008
-# Source SHA-256: 5589f4ec4b4a6f384d00e79b5db30491217408eba26c21028e95d59594fa0f83
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 32-FLUPH.ANS by ezy (fusion\fluid); released in fsn-0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: . .fluph. .
-# SAUCE Author: ezy
-# SAUCE Group: fusion\fluid
-# SAUCE Date: 19970124
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: . .fluph. . by ezy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0297-32-fluph
 
 Write-Host '
 

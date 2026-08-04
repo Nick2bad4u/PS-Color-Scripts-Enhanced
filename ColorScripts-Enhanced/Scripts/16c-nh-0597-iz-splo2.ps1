@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-SPLO2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nh-0597/raw/IZ-SPLO2.ANS
-# Source Revision: archive-sha256:87cec95111e4a1ac9fd985bbb75e4ede9867484f10b0355a7e43919af699000f
-# Source SHA-256: 4410836e245b570f2c310c8091ba84333ff23f6eb0b5c51dffae422ec1c50ac2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-SPLO2.ANS by ize (nh!); released in nh-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: speed loader
-# SAUCE Author: ize
-# SAUCE Group: nh!
-# SAUCE Date: 19970415
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: speed loader by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nh-0597-iz-splo2
 
 Write-Host '
                                [31m [0m

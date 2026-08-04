@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-MD5M.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0797/raw/BYM-MD5M.ANS
-# Source Revision: archive-sha256:36665a37d029524a07b3c0ade06e9ef3ded1bb8e68470bcb59063cd367dc113e
-# Source SHA-256: 6a2a417282943444ed9da4982fc4314f60fb79d46ce8f3e5b112febd6c8d03fc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-MD5M.ANS by big yellow man (phobia); released in plf-0797 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: music info 5
-# SAUCE Author: big yellow man
-# SAUCE Group: phobia
-# SAUCE Date: 19970712
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: music info 5 by big yellow man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0797-bym-md5m
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: MP-WR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9505/raw/MP-WR1.ANS
-# Source Revision: archive-sha256:a5deed4247a518cad128fccba9d59c5a19e59aaf45c5d80076b97e93e3a92482
-# Source SHA-256: b39d09edd41d29e32cb3b6dfefe30868af4725a1c8eadee04731ab4011038294
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MP-WR1.ANS by mephitopeles (blade productions); released in blde9505 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: wretch?!
-# SAUCE Author: mephitopeles
-# SAUCE Group: blade productions
-# SAUCE Date: 19950505
-# SAUCE Dimensions: 80x25
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: wretch?! by mephitopeles | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9505-mp-wr1
 
 Write-Host '
 [36m██  [0;30;46m▓▓██▓▓██▓▓[0m [36;40m███████████▓███████████████████████████████████████████████████[0;36;46m  [0m

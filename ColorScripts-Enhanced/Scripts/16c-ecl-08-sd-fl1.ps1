@@ -1,18 +1,4 @@
-﻿# Converted from: SD-FL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-08/raw/SD-FL1.ANS
-# Source Revision: archive-sha256:0b90c936d49629839c01709c30be5eee3ae4012caa7a8f1570b6ae8cc1763cb4
-# Source SHA-256: 92020a9dba555172af1535f205027f8db87d74ee2f8bb51aadf379f2a57e807b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-FL1.ANS by sir death (eclipse); released in ecl-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fetus land
-# SAUCE Author: sir death
-# SAUCE Group: eclipse
-# SAUCE Date: 19961002
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: fetus land by sir death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-08-sd-fl1
 
 Write-Host '
           [35m▄[0;1;31m▄[0;35m▄[0m

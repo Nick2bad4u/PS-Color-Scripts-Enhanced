@@ -1,18 +1,4 @@
-﻿# Converted from: DR-HAZRD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hrg-04/raw/DR-HAZRD.ANS
-# Source Revision: archive-sha256:a142ea9598ed0d51be9fec25d600662076a7bf1b26970c3a11bc4502953f7eea
-# Source SHA-256: e8d1450c2d92916648f4e51dee656d69386849ae7aaff6a0a1c5bd63ca122c06
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DR-HAZRD.ANS by Droopy (HRg); released in hrg-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Hazard Area
-# SAUCE Author: Droopy
-# SAUCE Group: HRg
-# SAUCE Date: 19970321
-# SAUCE Dimensions: 80x25
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Hazard Area by Droopy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hrg-04-dr-hazrd
 
 Write-Host '
 [1;32mdr/hrg [0m            [1;32m▄▄▄▄▄▄▄█[0;1;32;42m▀▀▀▒▓▀▀[0;1;32;40m█▄▄▄▄[0m           [1;32m▄▄▄▄▄[0;1;32;42m▒▀[0;1;32;40m█▄▄[0m

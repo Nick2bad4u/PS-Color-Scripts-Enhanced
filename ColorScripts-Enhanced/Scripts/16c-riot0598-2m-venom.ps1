@@ -1,18 +1,4 @@
-﻿# Converted from: 2M-VENOM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot0598/raw/2M-VENOM.ANS
-# Source Revision: archive-sha256:0c1b4d8014854195eee82655813426874e782c44b6e7d11df4cc84dbee4a5020
-# Source SHA-256: 3f13795ff68818e6e2d342c961f0a8b27cc7bb60882d9120df58f5ca1ba4c518
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2M-VENOM.ANS by 2much4u (RioT Productions); released in riot0598 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: For Venom
-# SAUCE Author: 2much4u
-# SAUCE Group: RioT Productions
-# SAUCE Date: 19980513
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: For Venom by 2much4u | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot0598-2m-venom
 
 Write-Host '
 

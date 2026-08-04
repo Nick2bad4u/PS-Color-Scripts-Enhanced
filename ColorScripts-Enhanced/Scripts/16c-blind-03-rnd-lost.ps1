@@ -1,18 +1,4 @@
-﻿# Converted from: RND-LOST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blind-03/raw/RND-LOST.ANS
-# Source Revision: archive-sha256:f016e15c7870b80c2729d8c2f2dd96d37df5428da72341f91cf1329653027c9c
-# Source SHA-256: 86725505bd5c08a5ef978095bd1f3b76c37d4e2d8667ec6f5526d5304c4a5f6c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RND-LOST.ANS by Random (blind); released in blind-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: lost
-# SAUCE Author: Random
-# SAUCE Group: blind
-# SAUCE Date: 19951129
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: lost by Random | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blind-03-rnd-lost
 
 Write-Host '
                 [34m▀▀[0;37m▀▀▀[0;37;47m [0;1;37;47m░░░▒▒▒▓▓▓[0;1;37;40m▄▄▄▄▄▄▄▄[0m

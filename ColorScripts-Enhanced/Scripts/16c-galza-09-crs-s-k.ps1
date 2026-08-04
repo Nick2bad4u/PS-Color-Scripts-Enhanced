@@ -1,18 +1,4 @@
-﻿# Converted from: CRS-S&K.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/galza-09/raw/CRS-S%26K.ANS
-# Source Revision: archive-sha256:5e621655291feb31cb75e8eb893b89ce522f1d0be2b378d814abafaedd671de5
-# Source SHA-256: e5f95060c3f88a9c2a3e80b9cb79177b5a1b819e93680e2050c9d8e5a6b2d98b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CRS-S&K.ANS by Crasher (galza/just-x); released in galza-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: v razdum'yah o slone i krolikah
-# SAUCE Author: Crasher
-# SAUCE Group: galza/just-x
-# SAUCE Date: 20001210
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: v razdum'yah o slone i krolikah by Crasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-galza-09-crs-s-k
 
 Write-Host '
 [1;33;44mëΘ╣⌐²≤╘ß[0;1;34;44m╡[0;1;33;44m┤Kv}!:[0;1;34;44m]gàAg┐8▓hÑ⌐Ñ8iΣ░å┤¿¬╚.╡NÆuP*└═└,Ω ╜?@"tE╥╪&]+╔Zïhφ$¬ê2äƒ╞╤¥┌╡▐║o«[0m

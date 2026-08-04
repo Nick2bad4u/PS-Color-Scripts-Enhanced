@@ -1,18 +1,4 @@
-﻿# Converted from: FL`NPLM2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/insm0796/raw/FL%60NPLM2.ANS
-# Source Revision: archive-sha256:e3aef34bb564b08d1904f6f1567e1b9514c63c703fa2cbc5b50e7bd5188984fa
-# Source SHA-256: f0dc77ee416f68e9ef121ef8c526a0a8895bc93e397ea7d25e033ff167f32a5b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL`NPLM2.ANS by fLeA (iNSOMNiA); released in insm0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Napalm #2
-# SAUCE Author: fLeA
-# SAUCE Group: iNSOMNiA
-# SAUCE Date: 19960626
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Napalm #2 by fLeA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-insm0796-fl-nplm2
 
 Write-Host '
 [1;30m▄▄▄▄▄▄▄▄▄▄▄▄[0m              [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: RS-SANIT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rage0894/raw/RS-SANIT.ANS
-# Source Revision: archive-sha256:345657a40d2002626c65db3dac97db8d999b7e402ab29ac839672477b7ea03d0
-# Source SHA-256: c914ae6e2497e3b74caba011145737aa2c49b0a549f13d4bc86414b30db11e2c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-SANIT.ANS by ReNeGAde SPiRiT (RaGE); released in rage0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Edge Of Sanity
-# SAUCE Author: ReNeGAde SPiRiT
-# SAUCE Group: RaGE
-# SAUCE Date: 19940615
-# SAUCE Dimensions: 80x25
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Edge Of Sanity by ReNeGAde SPiRiT | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rage0894-rs-sanit-part01
 
 Write-Host '
 [36m[0;1;30m[0;1;36m[0;1;30m[0;36m[0;1;30m[0;36m[0;1;36m[0;1;35m[0;1;36m[0;36m[0;1;30m[0;36m[0;1;30m[0;36m[0;1;30m[0;1;36m[0;1;30m[0;36m[0m[1;30m[0;1;36m[0;1;30m[0;36m[0;1;30m[0;1;36m[0;1;30m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0m

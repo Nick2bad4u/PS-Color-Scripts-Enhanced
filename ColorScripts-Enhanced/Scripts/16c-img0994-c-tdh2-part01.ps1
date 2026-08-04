@@ -1,18 +1,4 @@
-﻿# Converted from: C-TDH2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/img0994/raw/C-TDH2.ANS
-# Source Revision: archive-sha256:f71d8ed85ca0ccb865692dde13b0ccd32121cde3b55a48a2d905a2c94a7df80f
-# Source SHA-256: 741c8497ec3c4bd3e1bc95dffe8c015898fd9ae38e594698e0575d852af922fa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: C-TDH2.ANS by Captin (iMAGE Productions); released in img0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Dark Half #2
-# SAUCE Author: Captin
-# SAUCE Group: iMAGE Productions
-# SAUCE Date: 19940815
-# SAUCE Dimensions: 80x25
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: The Dark Half #2 by Captin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-img0994-c-tdh2-part01
 
 Write-Host '
 [31m█████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓███████████████████████████████████████████████████████[0m

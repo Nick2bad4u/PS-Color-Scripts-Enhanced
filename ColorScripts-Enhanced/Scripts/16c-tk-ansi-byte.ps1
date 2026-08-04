@@ -1,17 +1,4 @@
-﻿# Converted from: BYTE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tk-ansi/raw/BYTE.ANS
-# Source Revision: archive-sha256:7a6e15a450305cb977de0a4eb06cf4ca525baa4933c9f7af1cf6080dced8bf2d
-# Source SHA-256: 1cea15798a3123d270c40535f89e91d2daaa40bd0604a44830160304285e3669
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYTE.ANS by Tank (NeXX); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Computer Board
-# SAUCE Author: Tank
-# SAUCE Group: NeXX
-# SAUCE Dimensions: 80x23
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Computer Board by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tk-ansi-byte
 
 Write-Host '
               [30;42m▌[0;1;33;42m▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌[0m

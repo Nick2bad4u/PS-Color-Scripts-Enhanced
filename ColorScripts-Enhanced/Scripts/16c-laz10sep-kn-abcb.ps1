@@ -1,18 +1,4 @@
-﻿# Converted from: KN-ABCB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz10sep/raw/KN-ABCB.ANS
-# Source Revision: archive-sha256:4ab640a5762659d8c89d1d4c7a47f2c8ebad1c9e802d4965d8fdc943ea824060
-# Source SHA-256: 021be57ecf7439d070009356f89dd17f85291cc476f1c30c77f7fd44e3e22584
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KN-ABCB.ANS by kn (lazarus); released in laz10sep and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ABCB Cafe
-# SAUCE Author: kn
-# SAUCE Group: lazarus
-# SAUCE Date: 19970829
-# SAUCE Dimensions: 80x25
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: ABCB Cafe by kn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz10sep-kn-abcb
 
 Write-Host '
                           [35m                   [0m

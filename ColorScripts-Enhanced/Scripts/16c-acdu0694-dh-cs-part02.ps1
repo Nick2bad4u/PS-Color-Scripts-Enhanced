@@ -1,18 +1,4 @@
-﻿# Converted from: DH-CS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0694/raw/DH-CS.ANS
-# Source Revision: archive-sha256:f26eea3d1c8de7b926bd6f420e787345fadf7a72d1ec8422609f01c663360b65
-# Source SHA-256: ca4ccb8f449d3fe98ab0c667b4a745e7f8d7768ea67c0798994fa7bbed530363
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DH-CS.ANS by DieHard (ACiD Productions); released in acdu0694 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Corrupted Society
-# SAUCE Author: DieHard
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940528
-# SAUCE Dimensions: 80x132
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Corrupted Society by DieHard | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0694-dh-cs-part02
 
 Write-Host '
              [1;30;40m█[0;1;30;43m▓[0m [1;30;43m▓[0m [1;30;43m▒░[0;1;30;40m▌ █[0;1;30;43m▒ [0;1;33;43m░▒░ [0;1;30;43m▒▓[0;1;30;40m█   [0;1;31;47m▓[0;1;31;40m███▌[0;1;31;47m░▒[0;1;31;40m▐█▓█[0;1;31;47m▓[0m [1;30;43m▓▒░[0;33m█[0;1;33;43m░[0;33m█▐[0;1;30;43m░[0;1;33;43m░░[0m  [33m▐[0;1;33;43m▒░[0;33m█[0;1;30;43m░[0;1;30;40m▌ █   [0;33m▐[0;1;30;43m▓[0;1;30;40m▀▀[0m

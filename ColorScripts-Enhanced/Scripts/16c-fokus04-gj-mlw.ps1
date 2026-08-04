@@ -1,18 +1,4 @@
-﻿# Converted from: GJ-MLW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus04/raw/GJ-MLW.ANS
-# Source Revision: archive-sha256:4a57ed6764f9ffca39ae941548ed0ed0ba98ce6594de23a7788152f10b7f60a4
-# Source SHA-256: 104e419d05987154a12a4c3cc001dd2cb92d570dede4720431cbf34f25e39292
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GJ-MLW.ANS by grymmjack(gj!) (fokus fonting); released in fokus04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: mellow bbs
-# SAUCE Author: grymmjack(gj!)
-# SAUCE Group: fokus fonting
-# SAUCE Date: 19990516
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: mellow bbs by grymmjack(gj!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus04-gj-mlw
 
 Write-Host '
 [34m░[0;30;44m▓[0;36;40m░[0;30;46m▓[0;36;44m░[0;34;46m▓[0;1;34;44m▄▄▄▄[0;34m▄▓█▀▓█[0;36;44m░[0;34;46m▓[0;1;34;44m█[0;1;34;47m▓▓▓[0;1;34;40m█[0;1;34;47m▓[0;1;34;40m█[0;1;34;44m▓░░[0;34m▀[0;1;34;47m▓▓[0;1;34;40m█▌▄▄▄[0;34m [0;1;33m [0;34m   [0;1;34m ░[0;34;46m▓[0;1;34;44m█[0;1;34;46m▓[0;1;34;47m▓▓[0;1;34;40m█▀[0;1;34;44m██[0;36m█[0;1;34;46m▓[0;1;34;44m█[0;1;34;46m▓▓[0;1;34;47m▓▓[0;1;34;44m█[0;1;34;47m▓[0;1;34;44m███▓░ [0;34m▀▀   ▄▄[0;1;34;44m░▓[0;1;34;47m▀▀[0;1;34;40m█[0m

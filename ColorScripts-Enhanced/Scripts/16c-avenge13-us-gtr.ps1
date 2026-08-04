@@ -1,15 +1,4 @@
-﻿# Converted from: US-GTR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge13/raw/US-GTR.ANS
-# Source Revision: archive-sha256:347f6c69918fead9ee3c845f2d1356dd84e1411d92cae5bcb8386da796611dd6
-# Source SHA-256: 3fc33704c2beafc18a4aefb372d4e5d18b9e3b9aae649cb1d969ccf45cf577f4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GTR.ANS by Argon + Chronicc (avenge13); released in avenge13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: gutter
-# SAUCE Author: Multiple
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: gutter by Argon + Chronicc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge13-us-gtr
 
 Write-Host '
 [32m[0m          [1;37m [0m           [1;36m ░░░░░░░[0;36m [0;37m [0;1;32m░░[0m  [1;36m░░░[0m  [1;32m░░ [0m [1;36m░░░░░░░[0m

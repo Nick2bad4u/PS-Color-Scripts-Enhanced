@@ -1,18 +1,4 @@
-﻿# Converted from: US-GASC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0302/raw/US-GASC.ANS
-# Source Revision: archive-sha256:7b2619e0400d7382d19d38767873337eae71942dd319abc1998c71f4a968776f
-# Source SHA-256: ce9fbbe9322c8a113f666d34cf33051540a55a7c81949eb0471bb4c3bcee01e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GASC.ANS by Magnatop + Splatt (Revival 2002); released in rev0302 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Gas Chamber
-# SAUCE Author: splatt/magnatOp
-# SAUCE Group: Revival 2002
-# SAUCE Date: 20020303
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: The Gas Chamber by Magnatop + Splatt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0302-us-gasc
 
 Write-Host '
                                   [34m░[0;30;44m▓[0;34;40m▄▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: FEV-ER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zenith02/raw/FEV-ER.ANS
-# Source Revision: archive-sha256:89af45c021399cb7150be8c9dd70d9c3709facfd5b2491816aa34f9f5096ceb7
-# Source SHA-256: 1dc00d353c28667203eed33a9bf7f965d082670685a0d94c736f9c4dac4091f4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FEV-ER.ANS by Fever (Zenith); released in zenith02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Fluph BBS
-# SAUCE Author: Fever
-# SAUCE Group: Zenith
-# SAUCE Date: 19980630
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Fluph BBS by Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zenith02-fev-er
 
 Write-Host '
 [1;30m▓▓▓█████████▄[0m   [1;31;41m▓[0;1;31;40m█[0;1;31;47m▓▓[0;1;31;40m▄[0m [1;31;47m▄[0;1;31;40m▀[0m [1;35m ▄[0m [1;35m▀█████▓▓▓▀▀[0;35m▀[0;37m     [0;1;31m▄█[0;1;31;47m▓█[0;1;31;41m▓[0;30;41m░[0;37;40m  [0;1;30;40m███████████▀▀▀▀▀██████████[0m░

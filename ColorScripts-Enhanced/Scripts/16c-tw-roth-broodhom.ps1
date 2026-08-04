@@ -1,13 +1,4 @@
-﻿# Converted from: BROODHOM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tw-roth/raw/BROODHOM.ANS
-# Source Revision: archive-sha256:190885942cec88a16c8a5d2e7952970dfc3a8a8e6b1ddb12dad31a590f611129
-# Source SHA-256: ed7d2f3a3e200fee5b16bab788c749b6c61c6afaa4a090b5cf401aadbc273847
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BROODHOM.ANS by Warpus (tw-roth); released in tw-roth and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: BROODHOM.ANS by Warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tw-roth-broodhom
 
 Write-Host '
                                       ▄▄▄▄▄

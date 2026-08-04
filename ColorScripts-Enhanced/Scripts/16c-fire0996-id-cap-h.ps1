@@ -1,18 +1,4 @@
-﻿# Converted from: ID-CAP_H.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0996/raw/ID-CAP_H.ANS
-# Source Revision: archive-sha256:fd0c87547005857a37aee32ff40c82a1e8535aecda68a9edc2483cdc45b21af1
-# Source SHA-256: f937571b86c06b37605f3b31b7005eb7ac4678cd2ac314221305f17dc5c90df6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ID-CAP_H.ANS by iodine (fire); released in fire0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Captain Harlock
-# SAUCE Author: iodine
-# SAUCE Group: fire
-# SAUCE Date: 19960820
-# SAUCE Dimensions: 80x25
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: Captain Harlock by iodine | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0996-id-cap-h
 
 Write-Host '
              [1;30m▄[0;1;37m▄[0m

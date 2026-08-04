@@ -1,18 +1,4 @@
-﻿# Converted from: HAL-MISA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0296/raw/HAL-MISA.ANS
-# Source Revision: archive-sha256:b878afc5fe93380d31442386cef881dac116ae12152b0839cd399054b0276cd7
-# Source SHA-256: 3a927225a839bb6962d50ead9c1f02ad41a01ab1a204c2ae4240bd379d5e22bc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HAL-MISA.ANS by Halaster (fire); released in fire0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Mista
-# SAUCE Author: Halaster
-# SAUCE Group: fire
-# SAUCE Date: 19960202
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Mista by Halaster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0296-hal-misa
 
 Write-Host '
                                                   [1;30m▄▀[0m

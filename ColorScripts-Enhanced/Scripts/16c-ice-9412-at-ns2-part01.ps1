@@ -1,13 +1,4 @@
-﻿# Converted from: AT-NS2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9412/raw/AT-NS2.ICE
-# Source Revision: archive-sha256:206fb790f3728acfca84972248fec43bde6e85e65881b18182d8ae9012f98785
-# Source SHA-256: d94d67b86bb22bbd933801cd2625a0440dd30bca77b402ae920a1fe26f160852
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AT-NS2.ICE by Aphex Twin (ice-9412); released in ice-9412 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: AT-NS2.ICE by Aphex Twin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9412-at-ns2-part01
 
 Write-Host '
                       [30m                                          [0;37m■▄[0;1;37m▄▄▄▄▄▄▄[0m▄▄

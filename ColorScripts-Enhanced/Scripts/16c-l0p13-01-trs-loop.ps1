@@ -1,13 +1,4 @@
-﻿# Converted from: TRS-LOOP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p13_01/raw/TRS-LOOP.ANS
-# Source Revision: archive-sha256:7be01055dd13efccf716f85ba12aeb587f20efb2cff2c3e0ca4196c620859951
-# Source SHA-256: 244841a19ea65e493e68f885fd969dc2ec8b3bc809fab57c2803c87491798a62
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TRS-LOOP.ANS by Tross (l0p13_01); released in l0p13_01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: TRS-LOOP.ANS by Tross | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p13-01-trs-loop
 
 Write-Host '
 

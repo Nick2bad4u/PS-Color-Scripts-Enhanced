@@ -1,18 +1,4 @@
-﻿# Converted from: LST-HG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_08/raw/LST-HG1.ANS
-# Source Revision: archive-sha256:f5d36139e5f7f2e2e6d40888afe2c0fec7cd427ccc34b8a60d8fe55ece2d0c15
-# Source SHA-256: c5a02d220c2c8543e7391f0d0e7518d05cd6e09c62f89c6fbae87add8a6c9fdb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LST-HG1.ANS by soul trader (dox); released in dox_08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: heaven's gate!
-# SAUCE Author: soul trader
-# SAUCE Group: dox
-# SAUCE Date: 19970425
-# SAUCE Dimensions: 80x16
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: heaven's gate! by soul trader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-08-lst-hg1
 
 Write-Host '
 

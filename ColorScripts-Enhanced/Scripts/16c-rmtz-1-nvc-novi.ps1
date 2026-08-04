@@ -1,18 +1,4 @@
-﻿# Converted from: NVC-NOVI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmtz-1/raw/NVC-NOVI.ANS
-# Source Revision: archive-sha256:e96ee325d754c1e5b063aafdda446247803f028109cb9f0ea526dc0edc4ca3c5
-# Source SHA-256: 43c3b06170076579f371f8bf621c03b208a837096ad9bd016f6eddc9c46ec836
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NVC-NOVI.ANS by N0ViCE (rmts); released in rmtz-1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: my first N0ViCE pik
-# SAUCE Author: N0ViCE
-# SAUCE Group: rmts
-# SAUCE Date: 19960508
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: my first N0ViCE pik by N0ViCE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmtz-1-nvc-novi
 
 Write-Host '
 [33m██▓▓▒▓▒▓▒▒░░░▒▓█▓▒▒░░░▒▓█▓▒░░▓▒░ ░░░▒▓▓▒░▓▓▒░▒░░▒▓▒░▒▓▒░ ░▓▓▒░░▓▒░░▓▒░ ▓░ ▓█▓░░▒[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: MST!SINN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spr_02/raw/MST!SINN.ANS
-# Source Revision: archive-sha256:de213db32bec9e7b234598875579e360fcbdfa4c59f3f92173fe1b75c68a8cff
-# Source SHA-256: 5cd30f4c1a01743019643d94e796e3b209d942660ea5d87d1ab7c6c340682858
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MST!SINN.ANS by Mist (spr_02); released in spr_02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: MST!SINN.ANS by Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spr-02-mst-sinn
 
 Write-Host '
       [31m█▄██ ██▀▄▀█▀▀███▐█[0;37m [0;31mhuman [0;37m   [0;33m▄▄▄▄▄[0;37m [0;31m▀▀████████▀████▀▐███████████████████████[0m

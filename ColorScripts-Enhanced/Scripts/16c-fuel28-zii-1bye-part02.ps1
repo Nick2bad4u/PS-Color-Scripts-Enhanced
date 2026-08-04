@@ -1,19 +1,4 @@
-﻿# Converted from: zII-1BYE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel28/raw/zII-1BYE.ANS
-# Source Revision: archive-sha256:f19d9f1f4d98a894d9a58a43443858287108d50e702695e0859df539776cf44a
-# Source SHA-256: 63a4ec90c1678ee4fae56da54cba7d29291496af5358a79bb9c2fb25703c2116
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zII-1BYE.ANS by Zeus II (FUEL); released in fuel28 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Goodbye Moon!
-# SAUCE Author: Zeus II
-# SAUCE Group: FUEL
-# SAUCE Date: 20181218
-# SAUCE Dimensions: 80x86
-# SAUCE Font: IBM VGA
-# Lines: 43-86
-# Columns: 1-80
+﻿# Artwork: Goodbye Moon! by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel28-zii-1bye-part02
 
 Write-Host '
 [35m  ▄█[0;1;35;45m▄▄▄[0;35m██▄   ▄██████▄   ▄█[0;1;35;45m▄▄[0;35m███▄  ▓▓██████▄  ███[0;1;35;45m▄▄▄▄[0;35m█▄  ███▌   █▓█▌██[0;1;35;45m▄▄[0;35m█[0;1;35;45m▄▄[0;35m█▄[0;37m   [0;34m▀[0m

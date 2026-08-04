@@ -1,18 +1,4 @@
-﻿# Converted from: P8-DNA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9702/raw/P8-DNA.ANS
-# Source Revision: archive-sha256:2bef5839074c598bf0f92bd4e5826154389b8896239a1e15db494b520fb6d9a8
-# Source SHA-256: b7b24c79112e77fa9dc3aea562d5300d6d7f71c238ad474c925e156508a83b63
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P8-DNA.ANS by soul(ph)uree (Maiden Brazil); released in mdn-9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dNa promo .. brrr!
-# SAUCE Author: soul(ph)uree
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19970130
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: dNa promo .. brrr! by soul(ph)uree | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9702-p8-dna
 
 Write-Host '
 [1m[0m[1;36m[0;1;37m[0m[1;37m   s#$$"$$$$$"$$#s [0m/     [1m.[0m

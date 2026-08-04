@@ -1,18 +1,4 @@
-﻿# Converted from: NVZ-INKA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmtz-3/raw/NVZ-INKA.ANS
-# Source Revision: archive-sha256:9049eb84d35299820d945f342b3906500ed394a8e74f37bd2f023c428d1b0765
-# Source SHA-256: 31a17d9be91ace2a1f9cda400cdcf5be8a27dd308e289e66a836338ce4a07a7a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NVZ-INKA.ANS by nvz (rmtz); released in rmtz-3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: inka treasure ???
-# SAUCE Author: nvz
-# SAUCE Group: rmtz
-# SAUCE Date: 19960829
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: inka treasure ??? by nvz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmtz-3-nvz-inka
 
 Write-Host '
    [33m▄▄▄▄████████████████▄[0;37m [0;33m░[0;37m [0;33m▄▄██████[0;32;43m░[0;33;40m█[0;32;43m░[0;33;40m██████████████[0;32;43m░░[0;33;40m█▄▄[0;37;40m [0;33;40m░░░░[0m    [33;40m░░ ▄██[0;32;43m░[0;33;40m██▄[0;37;40m [0;33;40m■[0;37;40m [0;33;40m░[0m

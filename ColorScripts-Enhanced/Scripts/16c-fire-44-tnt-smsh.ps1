@@ -1,19 +1,4 @@
-﻿# Converted from: TNT-SMSH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-44/raw/TNT-SMSH.ANS
-# Source Revision: archive-sha256:6c51508cedeaa9140fcf08750a75edb14e0cec0eebe7b4290346e95cd3548876
-# Source SHA-256: 155927286e387a75b47ecffbf1112cd8a2e6e42101d10a5b3464fcbd40b317c5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNT-SMSH.ANS by tainted (fire); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: smash!
-# SAUCE Author: tainted
-# SAUCE Group: fire
-# SAUCE Date: 20251111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: smash! by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-44-tnt-smsh
 
 Write-Host '
 [1;32;42m▄▌[0;32m ▓[0;1;32;42m░░[0;32m▀▄██▐█ ▄███▀▀▓▒░  [0;1;37;42m▐[0;1;33;42m▌[0;32m  ░▒▓█[0;1;32;42m░░[0;30;42m■[0;32;40m██▓▓[0;1;32;42m▒▒[0;32m▓[0;1;32;42m▌[0;32m▐█[0;1;32;42m░░[0;32m█▄  [0;1;30m▄▀[0;1;30;47m▄▓[0;1;30;40m▀[0;32m [0;1;30m▄[0;1;30;47m▓[0;1;30;40m▀░█[0;1;30;47m▓▓[0;1;30;40m▀[0;32m [0;1;30m░[0;32m ▄■▄[0;36;42m░░░░[0;32;40m▀▄▓▓[0m

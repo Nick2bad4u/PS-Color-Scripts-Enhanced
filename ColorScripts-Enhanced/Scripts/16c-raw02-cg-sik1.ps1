@@ -1,18 +1,4 @@
-﻿# Converted from: CG-SIK1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/raw02/raw/CG-SIK1.ANS
-# Source Revision: archive-sha256:a9c7b11f45c1834d2f063eb1ae64ec8d77fb2fe3e9be2a125c82d6192e5de0b0
-# Source SHA-256: 84417568a4b002c7cfd1298d4948d89dfcab03b0dc798d8fa29399ca8bab8d46
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-SIK1.ANS by cryo (raw); released in raw02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: sik menu
-# SAUCE Author: cryo
-# SAUCE Group: raw
-# SAUCE Date: 19970424
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: sik menu by cryo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-raw02-cg-sik1
 
 Write-Host '
    ░[30;47m▓[0m                                                        [37;40m░[0;30;47m▓[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US-GLUE9.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-28/raw/US-GLUE9.ANS
-# Source Revision: archive-sha256:5075ba49005d03d914b445336fa73ec4c758aeac80fb08567f1bf5da4e7e8bad
-# Source SHA-256: 8c2ad9b041d31e96772d7e26ac9b84694a6eea9484393f5aca9069eaebdeae76
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GLUE9.ANS by Gravedancer + Catch 22 (glue tribe); released in glue-28 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: never forget.
-# SAUCE Author: gravedancer&catch22
-# SAUCE Group: glue tribe
-# SAUCE Date: 19991207
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: never forget. by Gravedancer + Catch 22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-28-us-glue9
 
 Write-Host '
 [1;31;41m▄████▓▓▒[0;31m▀[0;1;31;41m░░▒▒▓▓[0;31m▒[0;33m [0;1;30;43m█░ [0;1;31;43m     ░░░▒▒▒▓▓█[0;1;31;40m███████[0;1;31;47m▓▓▒▒▒▓[0;33m▒[0;1;31m [0;31m█[0;1;31;41m░▒▓███████▌[0;31m░[0m

@@ -1,20 +1,4 @@
-﻿# Converted from: DARMAN_ALMIGHTY-RAF_HAWKER-HURRICANE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0624/raw/DARMAN_ALMIGHTY-RAF_HAWKER-HURRICANE.ANS
-# Source Revision: archive-sha256:7e2642f67629daefe8d04ebedd2e233be2e8a74b2dea50eb02da49be24298927
-# Source SHA-256: 403cec42eed2dc95839ceeef784b50527f84cbf1585fb69dc22e342c72dca179
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DARMAN_ALMIGHTY-RAF_HAWKER-HURRICANE.ANS by Darkman Almighty (Mistigris); released in mist0624 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Hawker Hurricane
-# SAUCE Author: Darkman Almighty
-# SAUCE Group: Mistigris
-# SAUCE Date: 20240610
-# SAUCE Dimensions: 80x65
-# SAUCE Font: IBM VGA
-# SAUCE Comments: The Hawker Hurricane is a British single-seat fighter aircraft f | or service with the Royal Air Force (RAF). It was instrumental d | uring WWII during the Battle of Britain.
-# Lines: 34-65
-# Columns: 1-80
+﻿# Artwork: Hawker Hurricane by Darkman Almighty | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0624-darman-hawker-hurricane-part02
 
 Write-Host '
 [1;37;47m▒░[0;34m█████▄▄[0;1;30m░▒[0;33m▀▄ [0;32m▄▄      [0;37m▄[0;1;30;47m.[0m▄[1;30;47m.[0m▄[1;30;47m.[0m▄▄[32m ▀▀▀▀▀ [0;33m█[0;1;37;43m▄[0;33m█[0;1;37m▄[0;1;33;42m [0;1;37;42m▄▄▄[0;32m██[0;1;33;42m▄[0;1;33;44m▀[0;1;33;43m▄[0;33m█[0;1;37;43m  ▄  [0;33m██[0;37m [0;32m███░[0;37m [0;33m▄▄▄[0;37m [0;1;37m▀[0m [34m▀[0;37m [0;32m▄░▒█[0;36m [0;36;44m [0;34;40m██[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SK!-ATOM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pen15-01/raw/SK!-ATOM.ANS
-# Source Revision: archive-sha256:9e28ab2113f1bcb81ed1730a86e0355147cb3acede958780e6bfef3630941a51
-# Source SHA-256: b5ddaa082bf12d60522de295386656e329898a1957f73d4d4a28f97a3a013d0b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!-ATOM.ANS by sIMON kING (pROCREATION); released in pen15-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: aTOM
-# SAUCE Author: sIMON kING
-# SAUCE Group: pROCREATION
-# SAUCE Date: 19980331
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: aTOM by sIMON kING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pen15-01-sk-atom
 
 Write-Host '
                                              [1;33m▄▄▄▄▄█[0;1;33;47m▓[0;1;33;40m█[0;1;37;47m█[0;1;33;40m██▌[0;31m ▄▄▄▄▄▄▄▄▄██[0;1;31;41m░[0;31m█[0;1;30;41m▒▀█[0m

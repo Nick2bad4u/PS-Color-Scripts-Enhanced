@@ -4,33 +4,33 @@ ColorScripts-Enhanced is a cross-platform PowerShell module for discovering, dis
 
 ## Current Checkout
 
-| Property | Value |
-| -------- | ----- |
-| Manifest version | <!-- COLOR_MODULE_VERSION -->`2026.7.20.2250`<!-- /COLOR_MODULE_VERSION --> |
-| Colorscript files | <!-- COLOR_SCRIPT_COUNT -->24822<!-- /COLOR_SCRIPT_COUNT --> |
-| Dynamic renderers | <!-- COLOR_DYNAMIC_TOTAL -->17<!-- /COLOR_DYNAMIC_TOTAL --> entries in `DynamicRenderPolicy.psd1` |
-| Cacheable renderers | <!-- COLOR_CACHE_TOTAL -->15<!-- /COLOR_CACHE_TOTAL --> entries in `CachePolicy.psd1` |
-| 16colors archive checkpoint | 1990-2026 complete; no pending archive years |
-| Exported functions | 10 |
-| Primary alias | `scs` -> `Show-ColorScript` |
-| Minimum PowerShell | 5.1 |
+| Property                    | Value                                                                                             |
+| --------------------------- | ------------------------------------------------------------------------------------------------- |
+| Manifest version            | <!-- COLOR_MODULE_VERSION -->`2026.7.20.2250`<!-- /COLOR_MODULE_VERSION -->                       |
+| Colorscript files           | <!-- COLOR_SCRIPT_COUNT -->24822<!-- /COLOR_SCRIPT_COUNT -->                                      |
+| Dynamic renderers           | <!-- COLOR_DYNAMIC_TOTAL -->17<!-- /COLOR_DYNAMIC_TOTAL --> entries in `DynamicRenderPolicy.psd1` |
+| Cacheable renderers         | <!-- COLOR_CACHE_TOTAL -->15<!-- /COLOR_CACHE_TOTAL --> entries in `CachePolicy.psd1`             |
+| 16colors archive checkpoint | 1990-2026 complete; no pending archive years                                                      |
+| Exported functions          | 10                                                                                                |
+| Primary alias               | `scs` -> `Show-ColorScript`                                                                       |
+| Minimum PowerShell          | 5.1                                                                                               |
 
 The manifest and policy data files are the authoritative sources for version and policy counts. Run `npm run docs:update-counts` after changing the script inventory or cache policy.
 
 ## Public Commands
 
-| Command | Purpose |
-| ------- | ------- |
-| `Show-ColorScript` | Display a random or named colorscript, list names, optionally identify rendered scripts, and bypass or validate cache state. |
-| `Get-ColorScriptList` | Query scripts by name, category, or tag. |
-| `New-ColorScriptCache` | Build output caches only for renderers selected by `CachePolicy.psd1`. |
-| `Clear-ColorScriptCache` | Remove named cache entries or all module cache data. |
-| `Add-ColorScriptProfile` | Add an idempotent module startup block to a selected PowerShell profile. |
-| `Get-ColorScriptConfiguration` | Read the effective persistent configuration. |
-| `Set-ColorScriptConfiguration` | Persist supported configuration values. |
-| `Reset-ColorScriptConfiguration` | Restore the default persistent configuration. |
-| `Export-ColorScriptMetadata` | Export catalog metadata, optionally including file or cache information. |
-| `New-ColorScript` | Create a UTF-8 colorscript scaffold and optional metadata guidance. |
+| Command                          | Purpose                                                                                                                      |
+| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| `Show-ColorScript`               | Display a random or named colorscript, list names, optionally identify rendered scripts, and bypass or validate cache state. |
+| `Get-ColorScriptList`            | Query scripts by name, category, or tag.                                                                                     |
+| `New-ColorScriptCache`           | Build output caches only for renderers selected by `CachePolicy.psd1`.                                                       |
+| `Clear-ColorScriptCache`         | Remove named cache entries or all module cache data.                                                                         |
+| `Add-ColorScriptProfile`         | Add an idempotent module startup block to a selected PowerShell profile.                                                     |
+| `Get-ColorScriptConfiguration`   | Read the effective persistent configuration.                                                                                 |
+| `Set-ColorScriptConfiguration`   | Persist supported configuration values.                                                                                      |
+| `Reset-ColorScriptConfiguration` | Restore the default persistent configuration.                                                                                |
+| `Export-ColorScriptMetadata`     | Export catalog metadata, optionally including file or cache information.                                                     |
+| `New-ColorScript`                | Create a UTF-8 colorscript scaffold and optional metadata guidance.                                                          |
 
 Every exported command accepts `-h` (alias `-help`) for concise command help. Use `Get-Help <command> -Full` for the complete localized help topic.
 
@@ -177,6 +177,6 @@ The CI strategy covers Windows PowerShell 5.1, the runner-provided current Power
 
 ## Licensing and Provenance
 
-Project-authored code is provided under the repository [Unlicense](../LICENSE). Incorporated ANSI art may have different authors and source terms; availability in an archive does not make a work public domain. New curated imports are recorded in [ArtworkProvenance.psd1](../ColorScripts-Enhanced/ArtworkProvenance.psd1) with evidence under [ThirdPartyNotices](../ColorScripts-Enhanced/ThirdPartyNotices/); see [Artwork Sources](ARTWORK_SOURCES.md) for the reviewed collections and import rules.
+Project-authored code is provided under the repository [Unlicense](../LICENSE). Incorporated ANSI art may have different authors and source terms; availability in an archive does not make a work public domain. New curated imports are recorded in the repository-only [ArtworkProvenance.psd1](../audit/ArtworkProvenance.psd1), projected into the generated [artwork-details page](artwork.html), and represented in each mapped script by one compact offline attribution/link line. Required license and permission evidence remains shipped under [ThirdPartyNotices](../ColorScripts-Enhanced/ThirdPartyNotices/); see [Artwork Sources](ARTWORK_SOURCES.md) for the reviewed collections and import rules.
 
 For usage details, start with the [README](../README.md), [Quick Reference](QUICK_REFERENCE.md), and the command's `Get-Help` topic.

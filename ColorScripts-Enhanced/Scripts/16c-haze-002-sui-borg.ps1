@@ -1,18 +1,4 @@
-﻿# Converted from: SUI-BORG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/haze_002/raw/SUI-BORG.ANS
-# Source Revision: archive-sha256:38330e2f246542d7e8592e16d69ba19463233f347fc04dc4d56a7647ea25c49d
-# Source SHA-256: 3d45ba0ef6faa86e526149cf8b21b3d8c78adb856a4b2e54e8c3efec266d351b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SUI-BORG.ANS by SuiCyco (haze); released in haze_002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: aqua-bord
-# SAUCE Author: SuiCyco
-# SAUCE Group: haze
-# SAUCE Date: 19950226
-# SAUCE Dimensions: 80x45
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: aqua-bord by SuiCyco | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-haze-002-sui-borg
 
 Write-Host '
 [1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0m[1;34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

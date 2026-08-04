@@ -1,19 +1,4 @@
-﻿# Converted from: tk-araknode.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel25/raw/tk-araknode.ans
-# Source Revision: archive-sha256:c29da20a4b03d4b9cfd5beb0ae4c26b848a9b8ba121f4b3a4bde4c0893de19b6
-# Source SHA-256: e0fa467c37dda998fb9a76bca96ed314c798404d38c3b9ce37570960321b9747
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tk-araknode.ans by The Knight (FUEL); released in fuel25 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ArakNet node thing
-# SAUCE Author: The Knight
-# SAUCE Group: FUEL
-# SAUCE Date: 20180201
-# SAUCE Dimensions: 80x27
-# SAUCE Font: IBM VGA
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: ArakNet node thing by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel25-tk-araknode
 
 Write-Host '
 [37;40m█████[0;1;30;40m▌[0m▌ [31m▌▌[0;37m  [0;31m░▌▌[0;37m██████▌ [0;31m█[0;37m ██████████████████████▀ [0;36m▌[0m     [31m▀▀███▄▄▄    ▀▀▄▄▄    ▀[0m

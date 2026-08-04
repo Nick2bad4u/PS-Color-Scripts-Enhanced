@@ -1,17 +1,4 @@
-﻿# Converted from: DD!-CICL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/xpa1-a/raw/DD!-CICL.ANS
-# Source Revision: raw-sha256:5374a4074a57bfe7cff06b6a1b31d8db118eb4978fe1413ec30e3d3db5679ec5
-# Source SHA-256: 5374a4074a57bfe7cff06b6a1b31d8db118eb4978fe1413ec30e3d3db5679ec5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD!-CICL.ANS by DiAMOND dARRELL (iNNUENDO); released in xpa1-a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: DiAMOND dARRELL
-# SAUCE Group: iNNUENDO
-# SAUCE Date: 19950926
-# SAUCE Dimensions: 80x56
-# Lines: 31-56
-# Columns: 1-80
+﻿# Artwork: DD!-CICL.ANS by DiAMOND dARRELL | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-xpa1-a-dd-cicl-part02
 
 Write-Host '
                      [1;37m▄████▀▀[0;1;31m▄▄▄██████████████[0;1;31;41m▓▒▒▒[0;1;31;40m▌[0;34m██████████████▌[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-QUACK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0397/raw/IZ-QUACK.ANS
-# Source Revision: archive-sha256:0bbae31e52a4c1ad24c4bfa8a6bfcd082f750141f70c56dfd02f65c0d93bbb46
-# Source SHA-256: d9b621f552a6dd36c67a4af06fd5160c4e57fc725cc65d167d06f437f75dbcbf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-QUACK.ANS by izey (fusion); released in fsn-0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: quackers
-# SAUCE Author: izey
-# SAUCE Group: fusion
-# SAUCE Date: 19970129
-# SAUCE Dimensions: 80x22
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: quackers by izey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0397-iz-quack
 
 Write-Host '
                                   [31m░[0;37m  [0m                                  [1;30m▄▄▄ [0m

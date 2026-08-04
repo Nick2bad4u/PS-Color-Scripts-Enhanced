@@ -1,18 +1,4 @@
-﻿# Converted from: DT-WAST1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1194/raw/DT-WAST1.ANS
-# Source Revision: archive-sha256:908d3b238c60256adcc7e756cbf086da8ac1013adcee38bb739098b61e3c31a3
-# Source SHA-256: 33443810c11c1b2b8ef73c16a76cc487523ba7c6dff90a511789a415437f05c7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-WAST1.ANS by Diamond Traveller (mistigris); released in mist1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Wasted Time
-# SAUCE Author: Diamond Traveller
-# SAUCE Group: mistigris
-# SAUCE Date: 19941110
-# SAUCE Dimensions: 80x177
-# Lines: 128-176
-# Columns: 1-80
+﻿# Artwork: Wasted Time by Diamond Traveller | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1194-dt-wast1-part04
 
 Write-Host '
            [1;31m■[0m

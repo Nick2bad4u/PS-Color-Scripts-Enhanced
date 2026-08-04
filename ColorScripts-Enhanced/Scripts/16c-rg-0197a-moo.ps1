@@ -1,13 +1,4 @@
-﻿# Converted from: MOO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rg-0197a/raw/MOO.ANS
-# Source Revision: archive-sha256:4bc27325d13f712edf2110cd11717d490f6bde1cd8827262e7c1b1224b0317e9
-# Source SHA-256: b27967366c9e89794302e7cf65c02d5d4953e65eb85c716f87a3e324e527afec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MOO.ANS by The Slasher (rg-0197a); released in rg-0197a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: MOO.ANS by The Slasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rg-0197a-moo
 
 Write-Host '
 

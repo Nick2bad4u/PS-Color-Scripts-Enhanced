@@ -1,17 +1,4 @@
-﻿# Converted from: CZ-EXL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-11/raw/CZ-EXL1.ANS
-# Source Revision: archive-sha256:124f5de71b4943d1edf363ae27ec83def11b741938d7ad78955f12dc3ea0753e
-# Source SHA-256: 05af12e78c7ab556617ce09dcde5c25b02b935fc022c259a408e7d776a18d515
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CZ-EXL1.ANS by juuzto (eclipse?); released in ecl-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: excile!
-# SAUCE Author: juuzto
-# SAUCE Group: eclipse?
-# SAUCE Date: 19970118
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: excile! by juuzto | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-11-cz-exl1
 
 Write-Host '
                                                        [1m    [0m [33m  ▄[0;1;31m▄[0;1;31;43m ░[0;33m [0m

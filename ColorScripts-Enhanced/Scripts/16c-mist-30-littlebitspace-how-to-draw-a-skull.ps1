@@ -1,20 +1,4 @@
-﻿# Converted from: LITTLEBITSPACE-HOW_TO_DRAW_A_SKULL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/LITTLEBITSPACE-HOW_TO_DRAW_A_SKULL.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: 465f94165c2296ca1f4d3e5303536f328e9166dac330d2c54b5d9f7b90cc3919
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LITTLEBITSPACE-HOW_TO_DRAW_A_SKULL.ANS by littlebitspace (mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: How to draw a skull
-# SAUCE Author: littlebitspace
-# SAUCE Group: mistigris
-# SAUCE Date: 20241229
-# SAUCE Dimensions: 50x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: For Beginners
-# Lines: 1-25
-# Columns: 1-50
+﻿# Artwork: How to draw a skull by littlebitspace | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-littlebitspace-how-to-draw-a-skull
 
 Write-Host '
 [32m ┌─────[0;37m        [0;32m|[0;37m         [0;32m/[0;37m                     [0;32m/[0m

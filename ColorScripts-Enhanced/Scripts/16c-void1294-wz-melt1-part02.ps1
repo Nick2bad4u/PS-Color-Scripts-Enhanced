@@ -1,18 +1,4 @@
-﻿# Converted from: WZ-MELT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/void1294/raw/WZ-MELT1.ANS
-# Source Revision: archive-sha256:f30345bf8ebbc1f5abb1b46ce1ddb927adb4226c1535a88e7cc6d31d8f2d63b3
-# Source SHA-256: 132522859c53b92932e9fc42a1a24e279f52b4a25e3a866dc68652d1891ab64d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WZ-MELT1.ANS by Weazel (VOiD); released in void1294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Meltdown
-# SAUCE Author: Weazel
-# SAUCE Group: VOiD
-# SAUCE Date: 19941201
-# SAUCE Dimensions: 80x99
-# Lines: 50-99
-# Columns: 1-80
+﻿# Artwork: Meltdown by Weazel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-void1294-wz-melt1-part02
 
 Write-Host '
              [1;32m▐[0;1;32;42m▓▒░ [0;32m▌[0;1;32m█████[0m          [1;32m▄▄▄███▓▓▒▒░░[0;32m░[0m

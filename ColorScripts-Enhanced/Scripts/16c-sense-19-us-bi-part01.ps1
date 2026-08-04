@@ -1,13 +1,4 @@
-﻿# Converted from: us-bi.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense-19/raw/us-bi.ans
-# Source Revision: archive-sha256:ea10c48aec14899714c3e14041c7674268b2c0787d3213fdbe479590d88b8c03
-# Source SHA-256: 6869aa31ac009a42cab29e89eecd2e6baa51e2adae1d5522ecbde9162173d866
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-bi.ans by Zerovision + Roodolph + Ansichrist + Tefron (sense-19); released in sense-19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: us-bi.ans by Zerovision + Roodolph + Ansichrist + Tefron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense-19-us-bi-part01
 
 Write-Host '
 [34m  [0m         [34m░[0;37m   [0;34m░[0m

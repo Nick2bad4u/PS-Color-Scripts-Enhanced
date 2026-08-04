@@ -1,18 +1,4 @@
-﻿# Converted from: US-PMONS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lure003/raw/US-PMONS.ANS
-# Source Revision: archive-sha256:1ff57f893971666a5780ed06387959ae5ebc9c163a5e118549c7818f33792253
-# Source SHA-256: 511fe9d259d8f46b7ff1ac3f98ffde51da776e0c787bab9adb8b0c9a9a201399
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PMONS.ANS by Propane + Catch 22 + Avenging Angel (lure); released in lure003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: a pablo monster
-# SAUCE Author: ppe&22&avg
-# SAUCE Group: lure
-# SAUCE Date: 20020428
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: a pablo monster by Propane + Catch 22 + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lure003-us-pmons
 
 Write-Host '
 [34m▄▄▄▄░░░[0;1;37m  [0m [1;30m░[0;1;30;47m█▓██[0;1;30;40m [0;34m▐[0;1;34;44m▄█[0;1;34;47m▄▓[0;1;34;44m▀[0;34m▀█▄▀[0;1;34;44m░░[0;34m█▄█[0;1;34;44m░▒▄[0;34m▄█[0;1;34;44m░░░[0;34m▌[0;37m [0;1;34;44m▓[0;30;44m▓[0;37;40m [0;1;34;44m░░▒▒▓▓▓████▀[0;34m▀[0;37m [0;1;30m▄[0;1;30;47m▒[0;1;30;40m█[0;34m ░█[0;1;34;44m▄[0;1;34;47m▀▓[0;1;34;44m▀[0;34m▀[0;37m  [0;34m [0;37m   [0;1;34m  [0m

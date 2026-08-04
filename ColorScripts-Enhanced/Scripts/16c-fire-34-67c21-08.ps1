@@ -1,19 +1,4 @@
-﻿# Converted from: 67C21-08.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/67C21-08.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: 2dc0d77d70599b99f3571926557ae43ceb7db11d7324f9d4e0c56eb30149bcc4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 67C21-08.ANS by Tainted + Misfit (Blocktronics); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: August
-# SAUCE Author: Misfit + Tainted
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20201004
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: August by Tainted + Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-67c21-08
 
 Write-Host '
 [1;31;46m ■[0;36m█[0;1;31;46m▄▄▄▄▄▄[0;36m██[0;1;31;46m▄▄▄[0;36m████[0;1;31;46m▄[0;36m████████████[0;1;31;46m▄▄░░[0;36m███[0;1;31;46m░[0;36m██████▀▀▀██████[0;1;31;46m▄░░[0;36m████[0;1;31;46m▄▄▒[0;36m██[0;1;31;46m▄▄▄[0;36m██[0;1;31;46m▄▄▄▄▄▄[0;36m█[0;1;31;46m■ [0m

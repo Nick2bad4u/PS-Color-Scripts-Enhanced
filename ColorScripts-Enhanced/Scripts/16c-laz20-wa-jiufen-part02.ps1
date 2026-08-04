@@ -1,20 +1,4 @@
-﻿# Converted from: wa-jiufen.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz20/raw/wa-jiufen.ans
-# Source Revision: archive-sha256:d88c3ff3e728f60821a5682143c2fe9e054bc535483ce1618db0798990cb65e8
-# Source SHA-256: 10bb55081edcae100c0da16a98045b3fd3e56e60c031c4cbd1983c4479a0d098
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-jiufen.ans by warpus (LAZARUS); released in laz20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: JIUFEN
-# SAUCE Author: warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20250603
-# SAUCE Dimensions: 80x284
-# SAUCE Font: IBM VGA
-# SAUCE Comments: For Alexander Synaptic, Alice, Canuck, Lisa, Samurai, Tiffany, a | nd the old man who put his hand on my knee at daan park
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: JIUFEN by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz20-wa-jiufen-part02
 
 Write-Host '
 [1;30;40m░[0;1;30;41m          ░░░░░[0;1;30;40m▀[0m                [1;31m░[0;1;30;41m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓███[0;1;30;40m█████████████▀[0m  [1;30;47m▀[0;1;37;47m▓[0;1;37;40m▓[0m█[1;30;47m▓[0;1;30;40m█▀[0m

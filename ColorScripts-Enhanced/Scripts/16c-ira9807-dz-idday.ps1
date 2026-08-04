@@ -1,18 +1,4 @@
-﻿# Converted from: DZ-IDDAY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira9807/raw/DZ-IDDAY.ANS
-# Source Revision: archive-sha256:c471c4d36ee5bf845811666c0e7a6f5bfba6ac001a5bbd5053c14dd8e5728ef2
-# Source SHA-256: 21faaf92d268c985a0c2b40e2758ca53a293b561631d7c080b44f50661e0c34d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DZ-IDDAY.ANS by dionyzos (irato); released in ira9807 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: irato :: doom's day
-# SAUCE Author: dionyzos
-# SAUCE Group: irato
-# SAUCE Date: 19980622
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: irato :: doom's day by dionyzos | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira9807-dz-idday
 
 Write-Host '
                        [34m▄▄[0;34;43m█[0;1;34;44m▄░░[0;34m▄[0m   [34m▄▄[0;34;43m█[0;1;34;44m░▄▄▄[0;34;43m█[0;34;40m▄▄[0m    [34;40m▄[0;37;40m [0;34;40m▄[0;34;43m█[0;1;34;44m░[0;34m▄▀[0m      [34m [0m

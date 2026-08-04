@@ -1,18 +1,4 @@
-﻿# Converted from: DRC#ELEC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-05/raw/DRC%23ELEC.ANS
-# Source Revision: archive-sha256:96c802dc53f0425c511c5c8dea1d03f5279b0f5cc1c9fec877ee5552de1dca13
-# Source SHA-256: 02287259800c76ab1e33d9afc43573dc5daed74004ceef3b95cb7ff65335506e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DRC#ELEC.ANS by Drc (Purg); released in purg-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Electric Zone Commercial
-# SAUCE Author: Drc
-# SAUCE Group: Purg
-# SAUCE Date: 19961102
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Electric Zone Commercial by Drc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-05-drc-elec
 
 Write-Host '
                                                           [32m█[0;1;32m█[0m

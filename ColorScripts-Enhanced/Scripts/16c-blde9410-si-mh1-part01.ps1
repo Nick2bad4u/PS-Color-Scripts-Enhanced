@@ -1,18 +1,4 @@
-﻿# Converted from: SI-MH1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9410/raw/SI-MH1.ANS
-# Source Revision: archive-sha256:bd859dd294a62200dca01965f176566e1c6690d3dec16fdb5f06c1ef58e2dc4e
-# Source SHA-256: 32587f4ae9ca4a03551b7901cf7c57b3b2f49e9d41de0a2a166cdf2770145b34
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SI-MH1.ANS by Silence (Blade Productions); released in blde9410 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Mass Hysteria
-# SAUCE Author: Silence
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19940926
-# SAUCE Dimensions: 80x25
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Mass Hysteria by Silence | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9410-si-mh1-part01
 
 Write-Host '
 [1;47m▓[0;1;40m████████[0;1;47m▓▓[0m ░ [1;47m▒▓▓[0;1;40m█████████████████████████████████████████████████████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: CG-RAW2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/raw02/raw/CG-RAW2.ANS
-# Source Revision: archive-sha256:a9c7b11f45c1834d2f063eb1ae64ec8d77fb2fe3e9be2a125c82d6192e5de0b0
-# Source SHA-256: e29bca0016b8628ba95b331dbe7529a40278e6577c621203dd1d7c7c83d9fced
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-RAW2.ANS by cryo (raw); released in raw02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: raw promo...
-# SAUCE Author: cryo
-# SAUCE Group: raw
-# SAUCE Date: 19970424
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: raw promo... by cryo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-raw02-cg-raw2
 
 Write-Host '
 [1;32;42m▐▌[0;32m [0;37m [0;1;37m░░▄▄[0;1;37;47m█▓▄[0;1;37;40m▄▄[0m▄[36m     [0m

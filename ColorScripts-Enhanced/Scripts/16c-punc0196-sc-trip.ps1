@@ -1,18 +1,4 @@
-﻿# Converted from: SC-TRIP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/punc0196/raw/SC-TRIP.ANS
-# Source Revision: archive-sha256:a35818fffb6c79617d0157a999a2470fea16ca34611af1fb400b031e939baf43
-# Source SHA-256: ce9ae6429163ef659e73145275b3d0cab7f428786310c5b78ded9ce870a6fdbd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-TRIP.ANS by soul crusher (PuNC ~ DoA); released in punc0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: tripping faces
-# SAUCE Author: soul crusher
-# SAUCE Group: PuNC ~ DoA
-# SAUCE Date: 19951226
-# SAUCE Dimensions: 80x47
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: tripping faces by soul crusher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-punc0196-sc-trip
 
 Write-Host '
 [1m[0m[1;35m■[0m   [35m▀■▄■[0;37m [0;1;37m■[0m [35m▄■[0;37m [0;35m [0;37m [0;1;35m▀▄■[0m [35m ■▀▄[0;37m [0;35m▄[0;37m [0;1;37m▄■[0;1;33m■[0;1;37m■█■[0;1;35m [0;35m■█■[0;37m [0;1;35m■█■ [0;35m■█■[0;37m [0;1;37m■█■[0;1;33m■[0;1;37m■▄[0m [35m▄[0;37m [0;35m▄▀■[0;37m  [0;1;35m■▄▀[0m [1;35m▀[0m [35m▀▄▀[0;37m  [0;35m■▄■▀[0;37m [0;35m▀[0;1;35m [0m

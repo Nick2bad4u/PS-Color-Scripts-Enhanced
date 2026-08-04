@@ -1,18 +1,4 @@
-﻿# Converted from: ODDITIES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0196/raw/ODDITIES.ANS
-# Source Revision: archive-sha256:b488878884154420cd3d4f315b5d1218512f30bbd731fa31bcae353756902b21
-# Source SHA-256: 83b997b0e87ffdeeae6016ac20a2c0e4c36b9436b06506f583ee2eeda218c33f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ODDITIES.ANS by rAGE (GRS); released in opx-0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Oddites bbs ansi logo
-# SAUCE Author: rAGE
-# SAUCE Group: GRS
-# SAUCE Date: 19961014
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Oddites bbs ansi logo by rAGE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0196-oddities
 
 Write-Host '
                                                                       [1;34m░[0m

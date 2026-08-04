@@ -1,13 +1,4 @@
-﻿# Converted from: NM-MD2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tdd1295a/raw/NM-MD2.ANS
-# Source Revision: archive-sha256:ad48f7529474b8fc65c2ce807b19c874cf1bd6335a23d5fe9d02c59b64ca97be
-# Source SHA-256: 42d3aaa53bc0a57302062d99127390d68fda118965daef003eb0e761ce0912d0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NM-MD2.ANS by Netman (tdd1295a); released in tdd1295a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: NM-MD2.ANS by Netman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tdd1295a-nm-md2
 
 Write-Host '
  [32m▄▄ ▄▄   ▄▄ ▄▄[0m              [1;30m                                                  [0m

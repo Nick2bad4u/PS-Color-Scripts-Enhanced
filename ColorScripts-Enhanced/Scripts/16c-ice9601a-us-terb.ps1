@@ -1,18 +1,4 @@
-﻿# Converted from: US-TERB.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9601a/raw/US-TERB.ICE
-# Source Revision: archive-sha256:e4c089e3103bdc63762348bbcc2c54a05a351461817f667c54ad471098c66860
-# Source SHA-256: 619018ffd1c99b37781e031b6c64d23e44d266d7ad27099aa2ffe31c8655db8f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TERB.ICE by Magnetic M + Lord Soth (iCE Advertisements); released in ice9601a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Terbium!
-# SAUCE Author: Magnetic M/LS
-# SAUCE Group: iCE Advertisements
-# SAUCE Date: 19960120
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Terbium! by Magnetic M + Lord Soth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9601a-us-terb
 
 Write-Host '
 [1;33m█████████████████████▀███████▄[0m▀[1;47m▒█[0;1;40m█[0;1;47m▄[0;1;40m▄█[0;1;47m▓▒[0m▄▀[1;47m▀[0;1;40m████[0;1;47m▓ [0m▀[1;47m▀[0;1;40m█████[0;1;47m▄[0m▄▀▀[1;47m▀[0;1;40m██[0;1;47m▀[0;1;40m██[0;1;47m▀▀[0m▀        ▄

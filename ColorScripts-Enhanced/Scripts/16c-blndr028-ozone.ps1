@@ -1,13 +1,4 @@
-﻿# Converted from: OZONE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr028/raw/OZONE.ANS
-# Source Revision: archive-sha256:6270a47e1bed20f2b5496f39177e908c485ceed4df2272e4501bec218de0fddb
-# Source SHA-256: 86bff3617a77b961921cfe73386cdca1dcd02dad3ad41ce873f0649c2e854194
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OZONE.ANS by Ozone (blndr028); released in blndr028 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: OZONE.ANS by Ozone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr028-ozone
 
 Write-Host '
 

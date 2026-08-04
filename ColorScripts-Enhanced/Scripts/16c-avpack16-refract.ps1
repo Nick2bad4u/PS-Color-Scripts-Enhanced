@@ -1,18 +1,4 @@
-﻿# Converted from: REFRACT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack16/raw/REFRACT.ANS
-# Source Revision: archive-sha256:c169b8434a7461a5936daf6ca0076420ba73d015e2414b7a4312b4b9d20ef74a
-# Source SHA-256: 51f4b75353e1bfc8723625ed84e18613b36eebc578a1e6088e2da0f6be2e7a5d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: REFRACT.ANS by rorshack (Maiden Brazil); released in avpack16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: refraction bbs melbourne
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19970613
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: refraction bbs melbourne by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack16-refract
 
 Write-Host '
  [1m█[0;1;32;42m█▓░[0;32m██[0;30;42m░░[0;32;40m░[0;30;42m▓[0;32;40m░[0;36;40m ░[0;30;46m▓[0;36;40m [0;32;40m░[0;30;42m▓▒░░[0;32;40m███[0;1;32;42m░[0;32m█[0;1;32;42m░▓█████[0;1;32;40m████[0;1;32;47m▓[0;1;37;40m███[0;1;32;40m██████▀▀▀▀▀▀▀▀▀▀[0;1;32;42m▓▓░[0;32m█[0;33;42m░▒[0;32;43m░░[0;33;40m██[0;30;43m░░[0;33;40m████[0;1;33;43m░▓██[0;1;37;40m██[0m

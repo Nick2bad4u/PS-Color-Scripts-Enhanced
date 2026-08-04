@@ -1,18 +1,4 @@
-﻿# Converted from: RET-HOOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/brhood04/raw/RET-HOOD.ANS
-# Source Revision: archive-sha256:986c51c11fdc04aa25dfed672ab6785158577b1ccbe3ce56e4ffeb3a648585c7
-# Source SHA-256: 7cd6ab4df3266c5c6d1cea8a6b2cb7e89a47018195d883d6245e8b5c27040f86
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RET-HOOD.ANS by retribution (fuckin HOOD); released in brhood04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hood is le shito
-# SAUCE Author: retribution
-# SAUCE Group: fuckin HOOD
-# SAUCE Date: 19990804
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: hood is le shito by retribution | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-brhood04-ret-hood
 
 Write-Host '
 ret    ▄▄▄▄▄▄▄▄▄▄▄▄▄[30;47m────────┘                        ├───────[0;37;40m▄▄▄▄▄▄▄▄▄▄▄        [0m

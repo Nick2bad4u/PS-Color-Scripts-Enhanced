@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-SALT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook18/raw/AVE-SALT.ANS
-# Source Revision: archive-sha256:3923f0369728e803f9484754cab6944bd0f8349523e51216ea34f98242393a94
-# Source SHA-256: bdcbf3b4381b560aa90cb6cf4b242cee42f666ad85dfc4859c5c1772731e1c82
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-SALT.ANS by avenger (black maiden); released in bmbook18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: salt'n'peppa
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19981030
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: salt'n'peppa by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook18-ave-salt
 
 Write-Host '
 [33m▄[0;1;33m▄[0m▄▄[1;33m▄▄▄▄▄▄▄▄▄[0;33m▄ ▄[0;1;33m▄▄▄▄[0;33m▄  ▄[0;1;33m▄▄▄[0;33m▄  ▄[0m              [33m▄[0m    [33m▄[0;1;33m▄▄▄[0;33m▄[0m   [33m▄[0;1;33m▄▄▄▄▄▄[0m [33m▄[0;1;33m▄▄▄▄[0m▄[1;33m▄[0m▄▄▄[1;33m▄▄[0;33m▄ [0m

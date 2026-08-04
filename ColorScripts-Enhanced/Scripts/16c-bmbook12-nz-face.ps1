@@ -1,18 +1,4 @@
-﻿# Converted from: NZ-FACE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook12/raw/NZ-FACE.ANS
-# Source Revision: archive-sha256:ec66f5bb4ed961133c52314c375d67af30a5295789eb6bfc6eda91ebf8999fc2
-# Source SHA-256: 39b5130d21e3878371c5b269c8e1df1e68f81559ef660cd613f9133035c16d01
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NZ-FACE.ANS by noize (black maiden); released in bmbook12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hazard/2
-# SAUCE Author: noize
-# SAUCE Group: black maiden
-# SAUCE Date: 19970228
-# SAUCE Dimensions: 80x25
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: hazard/2 by noize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook12-nz-face
 
 Write-Host '
 [33;41m░[0;31;40m████████[0;1;31;41m░░▓░[0;31m██▀[0;37m [0;1;33m▄[0;1;33;43m██[0;1;37;40m██[0;1;33;43m█▌[0m    [34m█[0m                  [1;30m░[0m                [34m▓▓▌▄▄[0m    [33m▀▀▀[0;1;33;43m▀█[0;1;37;40m█[0m

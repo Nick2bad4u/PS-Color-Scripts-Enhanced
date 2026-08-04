@@ -1,18 +1,4 @@
-﻿# Converted from: WM-911.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9612/raw/WM-911.ANS
-# Source Revision: archive-sha256:7053afed6e742c75d943ea86bb6e43e9d362e1c6f64e894c811e4835a8b40e13
-# Source SHA-256: 5fa8e06993703ff123ddb07b586d134e3fe264cae823dcccef5cd132ca95260c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WM-911.ANS by Widowmaker (AWE Lettering); released in awe9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 911 Menu
-# SAUCE Author: Widowmaker
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961202
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: 911 Menu by Widowmaker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9612-wm-911
 
 Write-Host '
 [1m[0m[1m[0m [1;36m▄▄[0;1;37m▄▄▄[0;1;36m▄[0;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄      ▄▄▄▐[0;1;36;46m ░▒▓[0;1;36;40m▀▀▀█[0;1;36;46m▓▒░░[0;36m▄▄▄[0m      [36m▄▄▄[0;1;34;46m [0;1;36;46m░░▒▓[0;1;37;40m█▀[0;1;36;40m▀▀[0;1;36;46m█▓▒[0;36m█[0;1;36;46m░[0;36m█▄▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: BZ-CIA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ane-0896/raw/BZ-CIA.ANS
-# Source Revision: archive-sha256:5e24853d550a7b67e3659447cdedc955c2a6220ebe025cc69bac3636c87a5d4e
-# Source SHA-256: 41ac9376020cf755eb60ff6a0c92a237b657a3d2ebce8b947691a2194e34775d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BZ-CIA.ANS by Blatz (.;:Anemia:;.); released in ane-0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: CiaDraw
-# SAUCE Author: Blatz
-# SAUCE Group: .;:Anemia:;.
-# SAUCE Date: 19960809
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: CiaDraw by Blatz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ane-0896-bz-cia
 
 Write-Host '
 

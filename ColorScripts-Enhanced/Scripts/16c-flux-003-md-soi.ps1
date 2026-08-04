@@ -1,18 +1,4 @@
-﻿# Converted from: MD-SOI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flux-003/raw/MD-SOI.ANS
-# Source Revision: archive-sha256:c8241d6e438a30e14e803d31ea9639f514382ec0df6188aa9d91ed9f1ddec867
-# Source SHA-256: 481258ee98f5d823041827f9b4324c1d8fa95c4517255b74a383e47c3cad224d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MD-SOI.ANS by metal defender (many groups ;)); released in flux-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: smell of incense +o thorax
-# SAUCE Author: metal defender
-# SAUCE Group: many groups ;)
-# SAUCE Date: 19970821
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: smell of incense +o thorax by metal defender | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flux-003-md-soi
 
 Write-Host '
                   [35m▄▄▄▄[0m            [34m▄[0;1;34;40m▄[0;34;40m▄▄▄[0m                  [33;40m▄▄▄[0m

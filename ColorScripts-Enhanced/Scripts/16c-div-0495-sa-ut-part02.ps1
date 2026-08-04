@@ -1,18 +1,4 @@
-﻿# Converted from: SA-UT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/div-0495/raw/SA-UT.ANS
-# Source Revision: archive-sha256:36be8065bfe90ad824a198d77443ef6585ffb6a898051b94c4c49a6ff96eff74
-# Source SHA-256: b233c833be4a91364c54f77dc053a49881b49a6e0c271f46b54ed88ea831efb7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SA-UT.ANS by Sabotage (DIVINE); released in div-0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Undertow
-# SAUCE Author: Sabotage
-# SAUCE Group: DIVINE
-# SAUCE Date: 19950212
-# SAUCE Dimensions: 80x99
-# Lines: 50-98
-# Columns: 1-80
+﻿# Artwork: Undertow by Sabotage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-div-0495-sa-ut-part02
 
 Write-Host '
 [30;40m█[0;33;40m█▓[0;30;40m█[0;33;40m░[0;30;40m█[0;33;40m▓[0;37;43m░░[0;33;40m▒[0;30;40m█[0;33;40m▒[0;30;40m████[0;33;40m▓[0;30;40m██[0;33;40m░[0;30;40m█[0;33;40m▒[0;30;40m████████[0;33;40m░[0;30;40m████████████[0;33;40m░[0;30;40m██████████████████████████[0;33;40m▒[0;30;40m█████[0;33;40m▒▓█[0;30;40m█[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: RZA-PG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roc-best/raw/RZA-PG.ANS
-# Source Revision: archive-sha256:ed2172be4f351fbbe490297eada190fa8af16bee5a8ce8834dea50cd318904c2
-# Source SHA-256: 325ad0a5273d8b1e38355d44411b457fa94256fdc70e6c5b91a1e5f7ee1ab041
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RZA-PG.ANS by The Rza (ROC); released in roc-best and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Paragon
-# SAUCE Author: The Rza
-# SAUCE Group: ROC
-# SAUCE Date: 19950830
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Paragon by The Rza | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roc-best-rza-pg
 
 Write-Host '
               [36m▄[0m          [36m [0m       [31m ▄[0m   [31m ▄ [0m      [1;36mPARAGON[0m

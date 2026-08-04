@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-DUNE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook11/raw/AVE-DUNE.ANS
-# Source Revision: archive-sha256:6da508e3d2c9ad7194cf66558467eb1206f408f5f9c5aa09aaab0387694a6604
-# Source SHA-256: 3cf850a8280195c5689c634cd9aed539adfa3933c0709f7b5cb5f6918501f94c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-DUNE.ANS by avenger (black maiden); released in bmbook11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: /~~~\ (dune)
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19961011
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: /~~~\ (dune) by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook11-ave-dune
 
 Write-Host '
 [33m▄▄[0;1;36m▀[0;1;37m██[0;1;36m█[0;1;36;46m▀[0;1;36;40m▀[0;36m▀[0;1;37m  [0;31m▄[0;1;31m▄[0;1;31;41m▄▄██▀▌[0;31m▀[0;30;47m█[0;35;40m▄[0;30;45m░[0;35;40m▀[0;30;47m████[0;1;31;40m        [0;30;44m██[0;30;47m██[0;33;40m▄[0;1;31;40m [0;30;47m██[0;1;31;40m   [0;30;47m██[0;33;40m▄▀[0;1;31;40m     [0;33m▄[0;1;31m          [0;33m▄█▀[0;1;31m [0;35m░[0;30;45m▓[0;1;31;40m     [0m

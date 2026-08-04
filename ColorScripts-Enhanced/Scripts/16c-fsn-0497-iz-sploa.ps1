@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-SPLOA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0497/raw/IZ-SPLOA.ANS
-# Source Revision: archive-sha256:0a24528ad1b8350dc6275ed84884990aa181682392c532082994d5872ceb5801
-# Source SHA-256: b957c14488bf5c69c4ebbdd8df065957c59b797710f981b23217f331dad6f1d4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-SPLOA.ANS by ize (fusion); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: speed loader
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19970406
-# SAUCE Dimensions: 80x21
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: speed loader by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0497-iz-sploa
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: par-zxap.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-31/raw/par-zxap.ans
-# Source Revision: archive-sha256:93715db0472bfa668e02e065f8f9bc6753501b6c11b6a9d501690289886d1876
-# Source SHA-256: af76c481192fa9e58873a211802c31aa9e5f9caba3099a1bb02106de8291fcc3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: par-zxap.ans by Pariah (Remorse Ascii); released in rmrs-31 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: scooby-doo
-# SAUCE Author: Pariah
-# SAUCE Group: Remorse Ascii
-# SAUCE Date: 19990320
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: scooby-doo by Pariah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-31-par-zxap
 
 Write-Host '
 [1;36m     ☻☻☻☻☻☻☻"""☻☻☻☻☻☻☻☻☻☻  ☻☻☻☻☻☻☻☻☻☻    ☻☻☻☻☻''[0m [1;36m [0;33m,[0;1;31mP[0;33m''`[0;1;31m$Ñ8@g[0;33m,[0;37m [0;1;36m`7☻☻☻''[0m [33m_,[0;1;31m╓g[0;33m@ ,g[0;1;31m@Ñ$$[0;33m$[0m

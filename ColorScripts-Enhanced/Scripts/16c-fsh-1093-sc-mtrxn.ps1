@@ -1,13 +1,4 @@
-﻿# Converted from: SC-MTRXN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsh-1093/raw/SC-MTRXN.ANS
-# Source Revision: archive-sha256:6890285147b4b2cd24db184d28cf220f7fde29f6ab61569d8129369f306831c0
-# Source SHA-256: de24638540c4dd660ac5b196b8ec0194bdac7f162a802b5e8139fd18d65bbc20
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-MTRXN.ANS by Sliver Cut (fsh-1093); released in fsh-1093 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: SC-MTRXN.ANS by Sliver Cut | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsh-1093-sc-mtrxn
 
 Write-Host '
  [1;30;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;40m█[0;33m▒▓████████████████████████████████████████████[0m

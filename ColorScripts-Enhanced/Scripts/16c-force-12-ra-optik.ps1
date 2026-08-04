@@ -1,18 +1,4 @@
-﻿# Converted from: RA-OPTIK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-12/raw/RA-OPTIK.ANS
-# Source Revision: archive-sha256:7e4f8f6a94015166f300fe788b888a1d637b190c909ddf321a766f55494b93b3
-# Source SHA-256: 94d20798eae1936c4a5bfadc0a285d5d6ce632eb1fe8a7a31d6135a5aa9575c7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RA-OPTIK.ANS by Rage (fORCE); released in force-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Optik Fibre
-# SAUCE Author: Rage
-# SAUCE Group: fORCE
-# SAUCE Date: 19961012
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Optik Fibre by Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-12-ra-optik
 
 Write-Host '
                               [1;33m [0;33m▄▄▄▄▄[0m       [34m▄  [0m     [34m [0m

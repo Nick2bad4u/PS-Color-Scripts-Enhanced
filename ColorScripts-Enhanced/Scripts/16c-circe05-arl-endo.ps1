@@ -1,18 +1,4 @@
-﻿# Converted from: ARL-ENDO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe05/raw/ARL-ENDO.ANS
-# Source Revision: archive-sha256:37d89d30ef39e93d86c9ed1aa9fcfc56f21493baa03286af8b8a012f2401a98a
-# Source SHA-256: 60dc12c409096adc3c3745bf7157b3a37e2e8d120e671a1c05df65715061620d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARL-ENDO.ANS by Arlequin (Circe); released in circe05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Endor
-# SAUCE Author: Arlequin
-# SAUCE Group: Circe
-# SAUCE Date: 19960103
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Endor by Arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe05-arl-endo
 
 Write-Host '
 [1;31;47m░░[0;31m▄[0;37m ▀[0;1;37m█▓▓[0m▄ [35m        [0;30;47m▓[0;1;36;40m███[0m [1;31;41m█▄[0;31m▄[0;37m▀[0;1;37m███▄[0;30;47m▓▓[0;35;40m     [0m     [30;47m▓[0;1;31;47m██[0;1;31;40m▒▓[0;1;31;41m▒[0;31m▀▄[0;37m ▀[0;1;34;47m▄▓▓[0;1;34;40m▄        [0m  [35m ▄▄[0;1;35m▄▐[0;1;35;47m▓░[0;30;47m▓▓[0;37;40m   [0m

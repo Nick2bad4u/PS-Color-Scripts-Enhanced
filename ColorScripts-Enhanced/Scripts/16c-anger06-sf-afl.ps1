@@ -1,16 +1,4 @@
-﻿# Converted from: SF_AFL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger06/raw/SF_AFL.ANS
-# Source Revision: archive-sha256:efc6b6d6892fe7f05c3b06052b1d79464b7ee8ab8c7bee2d77361e00cf941f28
-# Source SHA-256: 25030ea4abcdfca217d085a43406aa961322e0cc06db9efdea6c03d3384b7148
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SF_AFL.ANS by shi?ter (anger); released in anger06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: phat aflict logo
-# SAUCE Author: shi?ter
-# SAUCE Group: anger
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: phat aflict logo by shi?ter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger06-sf-afl
 
 Write-Host '
 [1;30m[0m[1;30m[0m

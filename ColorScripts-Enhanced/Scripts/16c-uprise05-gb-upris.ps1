@@ -1,13 +1,4 @@
-﻿# Converted from: GB-UPRIS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise05/raw/GB-UPRIS.ANS
-# Source Revision: archive-sha256:8a04f72dbd0084a3dd089505796d41f1fc098ce192bbfa410f8bc1039eb33f03
-# Source SHA-256: 4f17998cc0a8f35a5ad8c6f51c8b0ae4c422868aa770393f6901d3a456845db8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GB-UPRIS.ANS by Goblin (uprise05); released in uprise05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: GB-UPRIS.ANS by Goblin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise05-gb-upris
 
 Write-Host '
         [1;30m▄[0m

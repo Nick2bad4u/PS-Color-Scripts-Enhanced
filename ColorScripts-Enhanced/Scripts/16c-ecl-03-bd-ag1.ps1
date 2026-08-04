@@ -1,18 +1,4 @@
-﻿# Converted from: BD-AG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-03/raw/BD-AG1.ANS
-# Source Revision: archive-sha256:8478e7ed47e52d1e07bf55e17a5f105ced4b468c6f56a8b59fd6b8ef8dada5ca
-# Source SHA-256: ecbc23f70edf8133ced0b5762242313fe0dac34ba495d115f020366890763d72
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BD-AG1.ANS by bold (eclipse); released in ecl-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: atomic garden
-# SAUCE Author: bold
-# SAUCE Group: eclipse
-# SAUCE Date: 19960701
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: atomic garden by bold | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-03-bd-ag1
 
 Write-Host '
                                                 ░[30;47m▓[0m

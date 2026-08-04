@@ -1,13 +1,4 @@
-﻿# Converted from: HQ-19.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1297/raw/HQ-19.ANS
-# Source Revision: archive-sha256:95ca1a64d078cb37722ecf97d242eb54b1c888f218ebaab86aa7aa2a5cdbf8dc
-# Source SHA-256: 0f15823fd6a9d29b6448002641993a57fbb2da128d8ce33233cf1111ef64924d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HQ-19.ANS by Haquisaq (mist1297); released in mist1297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: HQ-19.ANS by Haquisaq | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1297-hq-19
 
 Write-Host '
 [1;30mhq![0m                   [34m███▀▀▀▀▀▀▀▀██[0;1;34;44m████ [0m  [1;30;40m▀▀▀▀▀▀ [0;1;34;44m▐[0;1;34;46m▓[0;1;34;40m▄▄[0;34m▄ [0;1;30m█[0;1;30;44m▓[0m [1;34;40m▄▄[0;34m▄ [0;1;30m▀▀▀▀▀▀▀▀▀▀███[0;1;30;44m▓▒  [0m

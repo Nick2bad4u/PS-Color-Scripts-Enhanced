@@ -1,18 +1,4 @@
-﻿# Converted from: US-EPIC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-02/raw/US-EPIC1.ANS
-# Source Revision: archive-sha256:21302c91644277d9117a9a1fcab004f6fa76d5a90d6a4926e513a24dd5b73cd5
-# Source SHA-256: 30b628b0b44a986a66d105660c4f96188a7b9301ae6f4261c9a7be6abfa8ddea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-EPIC1.ANS by Argon + Avenging Angel (the used coalition); released in used-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Epic Ansi
-# SAUCE Author: Multiple Artists
-# SAUCE Group: the used coalition
-# SAUCE Date: 19991113
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Epic Ansi by Argon + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-02-us-epic1
 
 Write-Host '
 [1;32;42m░░[0;1;32;40m▒▒[0;32m██▄[0;37m [0;32m▀[0;1;32m▀[0;1;32;42m▓░[0;32m▄[0;37m  [0;1;32m▀▀[0;32m▀[0;37m   [0;32m▀[0;1;32m▀[0m  [32m▄[0;1;32m▄[0;1;32;42m▒[0;32m▀▀[0;37m  [0;32m▄[0;1;32m▄▄[0;1;32;42m▄█[0;1;32;40m▀▀[0;1;32;42m▀▓▓░[0;32m▄▄▄[0;37m [0;1;30m▄[0;1;30;43m▀[0;33m▀▀▀[0;37m  [0;32m▄[0;1;32m▄▄[0;1;32;42m▄▓[0;1;32;40m▀▀[0;32m▀[0;1;32m▀[0;32m▀[0;37m [0;32m▀[0;37m    [0;32m▀[0;1;32m▀[0m [32m▄[0;1;32;42m [0;32m▄▄[0;1;32;42m [0;32m▀▀[0m

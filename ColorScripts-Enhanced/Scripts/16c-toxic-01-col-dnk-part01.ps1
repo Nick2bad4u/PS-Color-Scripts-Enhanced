@@ -1,18 +1,4 @@
-﻿# Converted from: COL-DNK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toxic-01/raw/COL-DNK.ANS
-# Source Revision: archive-sha256:3b597be1b67b12799dd35541511cf17a47483b999aba055f1358423895441c18
-# Source SHA-256: 8dbad84f9ea6f724c0cc780c844fe55d1d1327add9bebaa0f4af81ae372ee4a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: COL-DNK.ANS by colorblind (tOxic); released in toxic-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: doink!
-# SAUCE Author: colorblind
-# SAUCE Group: tOxic
-# SAUCE Date: 19960528
-# SAUCE Dimensions: 80x52
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: doink! by colorblind | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toxic-01-col-dnk-part01
 
 Write-Host '
 [1;47m▓░[0;1;30;47m▄██▄[0;1;30;40m█████████████████████████[0;1;30;47m▓[0;1;30;40m█[0;1;30;47m▓▓[0;1;30;40m███████████▀    ▀██████████████████████[0;1;30;47m█▄▄▄[0;1;37;47m▀▓[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SK!ARTC2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p08_00/raw/SK!ARTC2.ANS
-# Source Revision: archive-sha256:c48d6493211ddcf5227b96c5ea77ae60179d7914cadcefed09d2598d7ff23517
-# Source SHA-256: 5321fb3eb178be14a9440516a189c74cccb211abbd06e23fc21f7a959ffd3495
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!ARTC2.ANS by sIMONkING (tHELo0p); released in l0p08_00 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: aRTC2000
-# SAUCE Author: sIMONkING
-# SAUCE Group: tHELo0p
-# SAUCE Date: 20000712
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: aRTC2000 by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p08-00-sk-artc2
 
 Write-Host '
                        [31m▄▄[0;1;31;41m▄▄▄[0;31m██[0m

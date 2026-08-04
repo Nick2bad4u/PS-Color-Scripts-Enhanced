@@ -1,18 +1,4 @@
-﻿# Converted from: SMI-AWE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-12/raw/SMI-AWE.ANS
-# Source Revision: archive-sha256:5c96c14e912296494a464a42e768321452d811693cf172945a9502eb4396c8bb
-# Source SHA-256: 33d19f127c439af3e42d34dcc68787fd6094d7ed4f5a0519f462b9a70896adf8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMI-AWE.ANS by Samurai (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: AWE Promotional
-# SAUCE Author: Samurai
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970928
-# SAUCE Dimensions: 80x25
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: AWE Promotional by Samurai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-12-smi-awe
 
 Write-Host '
 

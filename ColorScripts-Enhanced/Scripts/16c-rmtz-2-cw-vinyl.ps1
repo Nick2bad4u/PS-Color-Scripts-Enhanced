@@ -1,18 +1,4 @@
-﻿# Converted from: CW-VINYL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmtz-2/raw/CW-VINYL.ANS
-# Source Revision: archive-sha256:4098da1ce5096b58e9d8e2d422f1498dadae3c1a4608ab2bce3811e49527bb5d
-# Source SHA-256: ee8ce7c65d8c20673ed85a0a3cbb6f9e00bccb813f3d6938ceeb32b91d15ead6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CW-VINYL.ANS by chainwallet (Rigamortiz); released in rmtz-2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Save da Vinyl!
-# SAUCE Author: chainwallet
-# SAUCE Group: Rigamortiz
-# SAUCE Date: 19960728
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Save da Vinyl! by chainwallet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmtz-2-cw-vinyl
 
 Write-Host '
 

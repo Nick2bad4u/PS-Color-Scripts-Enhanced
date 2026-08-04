@@ -1,18 +1,4 @@
-﻿# Converted from: LN-MTRX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stl-0296/raw/LN-MTRX.ANS
-# Source Revision: archive-sha256:2a7c2972214cdcf66c05bb3cc15c513aafb38f4486172bc95b40d735e509a060
-# Source SHA-256: e2dc2e8b1f629fecb414d110d18c9cb2d16432a2dcef7ba51bc8d2796696c6ea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LN-MTRX.ANS by liithn (stile); released in stl-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: grind matrix
-# SAUCE Author: liithn
-# SAUCE Group: stile
-# SAUCE Date: 19960212
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: grind matrix by liithn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stl-0296-ln-mtrx
 
 Write-Host '
 [1;34m▄[0;1;34;44m▒▒▒░░[0;34m▓▄▀▀▀▀▀▀▀▀▀█[0;30;44m░░░▒[0;34;40m ■[0;37;40m [0;34;40m ▄▄[0;30;44m░░░[0;34;40m██▓▄  ▄[0;1;34;44m░░▒▒▒▓▓[0;1;34;40m▄[0m [1;30m▀▀[0m [1;30m [0m▄[1;30;47m▒▓[0;1;30;40m██▄██[0;1;30;43m▓[0;1;30;40m██▓▌[0m ▄[1;30;47m▒▓[0;1;30;40m█▄██▄▄[0m ▀▀[1;30;47m▒▓[0;1;30;40m█[0m

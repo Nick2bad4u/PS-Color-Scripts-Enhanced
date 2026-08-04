@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-DTL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-1296/raw/ZII-DTL1.ANS
-# Source Revision: archive-sha256:506b105b4c26ae1c852aab6820467319ddc2b45f940a9c1fc20d63a6338d499e
-# Source SHA-256: 5963f4c53d94c419d2b7ae2139c203995a7bab05f54dba923e104c5c20b2bdd5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-DTL1.ANS by Zeus II (Opium); released in opx-1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: down the line
-# SAUCE Author: Zeus II
-# SAUCE Group: Opium
-# SAUCE Date: 19961109
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: down the line by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-1296-zii-dtl1
 
 Write-Host '
                       [36m▐[0;1;34;46m▒▒▒▒▒░░░░[0;36m▌▀[0;1;36;46m░░▒▒▒▓░░[0;36m█▀▄████▄[0;1;34;46m░░░[0;36m▀▄[0;1;34;46m░[0;36m    ▀[0;1;34;46m▒[0;36m▀[0;37m [0;30;45m░░░▒▓[0;35;40m [0;35;41m▒▒░░░[0;31;40m████▀[0m

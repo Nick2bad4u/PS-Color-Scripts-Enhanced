@@ -1,18 +1,4 @@
-﻿# Converted from: TB-NLAND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nland-04/raw/TB-NLAND.ANS
-# Source Revision: archive-sha256:eab686fd42219ed6c9add6a2f7726008adc5ca3e06c5f87a076203c52842513d
-# Source SHA-256: 9e9c7869866021916c56500a05b16beb83beef40ae56147949b413021ef0d2ff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TB-NLAND.ANS by The BiKeR (NeveRLanD People); released in nland-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: NeveRLanD People Logo
-# SAUCE Author: The BiKeR
-# SAUCE Group: NeveRLanD People
-# SAUCE Date: 19960205
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: NeveRLanD People Logo by The BiKeR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nland-04-tb-nland
 
 Write-Host '
                                                                         [31m▄[0m

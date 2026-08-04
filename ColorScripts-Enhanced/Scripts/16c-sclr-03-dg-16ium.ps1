@@ -1,13 +1,4 @@
-﻿# Converted from: DG-16IUM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-03/raw/DG-16IUM.ANS
-# Source Revision: archive-sha256:465e5ede58a7447690b213a11e085ded1926678289703dceccdd566e3c3e1882
-# Source SHA-256: aae9562495f4311b8050fff958444b7ff5a3fd6eabd79b422aa0133a8683f53d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DG-16IUM.ANS by Digi (sclr-03); released in sclr-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: DG-16IUM.ANS by Digi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-03-dg-16ium
 
 Write-Host '
                        [1;33m:[0;1;32m☺@y┐,[0m

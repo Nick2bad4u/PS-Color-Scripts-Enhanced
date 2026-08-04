@@ -1,13 +1,4 @@
-﻿# Converted from: US-GC01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-29a/raw/US-GC01.ANS
-# Source Revision: archive-sha256:5de89fa125eb7333a54bae49908ef76358fcc0ce9b3df66010dca2eb64b17560
-# Source SHA-256: e42f03736d9c3d1df483ae4ab5c1656750c38cadc44cd0f99c645780ec5cc901
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GC01.ANS by Slackzor + Arlequin + Zippy (purg-29a); released in purg-29a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 34-66
-# Columns: 1-80
+﻿# Artwork: US-GC01.ANS by Slackzor + Arlequin + Zippy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-29a-us-gc01-part02
 
 Write-Host '
 [37m  [0;1;30m██████▐[0;1;36m████[0;1;36;47m▀[0;1;32;47m▄[0;1;37;42m█▓▓[0m▓ [1;34m▐[0;1;36;47m░[0;36m▌[0;1;36;47m▄█[0;1;34;40m▄[0;34m░[0;1;36;46m█░[0;1;30;40m▐[0;1;31;40m██[0;1;31;47m██▓[0;1;31;40m█[0m▐[1;36m▓[0;1;36;47m▓[0m░[36m▄[0;1;37;47m▓[0;1;37;40m▓[0;36m▄█▓[0;1;30m▐[0;1;31m████[0;1;31;47m▄[0;1;31;40m▒[0;1;34;40m▐[0;1;35;42m [0;1;36;42m░[0;1;32;40m▒[0;1;30;40m█[0m [1;34m▀[0;1;31;45m███[0;1;31;42m▓▓[0;1;33;42m▓▓██▀[0;1;30;40m▀[0m

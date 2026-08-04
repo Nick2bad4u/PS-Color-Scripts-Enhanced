@@ -1,19 +1,4 @@
-﻿# Converted from: PICROTOXIN-BBB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0226/raw/PICROTOXIN-BBB.ANS
-# Source Revision: archive-sha256:ef03a5a095d5c0479664f99ff23399e245703c452ca9d05ea2957005177022f9
-# Source SHA-256: d03c1acbc27f845c1532f92ea18d1cb2df4474916c669377d9b3f5ef659b40db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PICROTOXIN-BBB.ANS by aleyna (Mistigris); released in mist0226 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: BBB
-# SAUCE Author: aleyna
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260228
-# SAUCE Dimensions: 80x86
-# SAUCE Font: IBM VGA
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: BBB by aleyna | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0226-picrotoxin-bbb-part01
 
 Write-Host '
 [1m████████████████████████████████████████████████████████████████████████████████[0m

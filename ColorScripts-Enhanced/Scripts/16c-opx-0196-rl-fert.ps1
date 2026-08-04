@@ -1,18 +1,4 @@
-﻿# Converted from: RL-FERT!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0196/raw/RL-FERT!.ANS
-# Source Revision: archive-sha256:b488878884154420cd3d4f315b5d1218512f30bbd731fa31bcae353756902b21
-# Source SHA-256: 8093f45affb94484e98ddc674d1532098fc18e1e740b82a1a1c4a3c76913a289
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL-FERT!.ANS by Rawlock (Opium); released in opx-0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Fertilized Abscess
-# SAUCE Author: Rawlock
-# SAUCE Group: Opium
-# SAUCE Date: 19951209
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Fertilized Abscess by Rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0196-rl-fert
 
 Write-Host '
             [1;30m   [0m

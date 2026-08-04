@@ -1,18 +1,4 @@
-﻿# Converted from: TE-GP01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m-9801/raw/TE-GP01.ANS
-# Source Revision: archive-sha256:68027b949f7edfef662f12aa514dfc21e6e156e3984f9866a81997534ce6ce87
-# Source SHA-256: d61d66a38e1493b8acbf0bcd6fce2f283c7e1e4b7b3e6ea40a32056588652ccd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-GP01.ANS by Thext (Mistigris); released in m-9801 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Geeksta's Paradise
-# SAUCE Author: Thext
-# SAUCE Group: Mistigris
-# SAUCE Date: 19980121
-# SAUCE Dimensions: 80x25
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: Geeksta's Paradise by Thext | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m-9801-te-gp01
 
 Write-Host '
 [40m  [0;33m▄▀▀[0;1;33m▀▀▀▀▀▀▀▀▀▀▀▀▀[0;33m▀ ▀[0;1;33m▀▀▀▀▀▀▀▀▀▀▀[0;33m▀ [0;31m▄ [0;33m▀[0;1;33m▀▀▀▀[0;1;33;43m▀▀▀▀▀[0;1;33;40m▀▀▀▀▀▀[0;1;33;43m▀[0;33m▀ ▀[0;1;33m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;33m▀■[0m

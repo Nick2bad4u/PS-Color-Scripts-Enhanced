@@ -1,18 +1,4 @@
-﻿# Converted from: PO-FLD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flood-01/raw/PO-FLD1.ANS
-# Source Revision: archive-sha256:543c3313044baca82ad858ce1548c88cf8d5f938e94cd3141722019b3e2c36f7
-# Source SHA-256: b19e0f097f7d7ef5c78a00389aa6891c944e54ad21f95d63f020dd99cca099ef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PO-FLD1.ANS by Poetic Justice (flood); released in flood-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: flood promo #1
-# SAUCE Author: Poetic Justice
-# SAUCE Group: flood
-# SAUCE Date: 19960501
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: flood promo #1 by Poetic Justice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flood-01-po-fld1
 
 Write-Host '
 [1;30m...poet[0;1;30;44m░[0;1;30;40mic justice[0;1;37;40m  [0;34m [0;1;30m■[0m  [34m ▄[0;37m  [0;1;30m▀[0m [1;30m▄[0m       [34m   ░[0m    [34m [0;37m  [0;34m▄[0;37m [0;34m░[0;37m [0;36m·[0;1;36m■▄▄▄  [0m       [34m   [0;37m [0;34m░[0m

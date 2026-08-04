@@ -1,13 +1,4 @@
-﻿# Converted from: DD-BFST.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9501/raw/DD-BFST.ICE
-# Source Revision: archive-sha256:11505df9cbb4046b5d3b5eec267bf894e7e973683094a4e78d879efbf7a9364a
-# Source SHA-256: 017407c6eb66dd7269f19523402724af5f632b6a9072bb603d88c5bf4bdae1e4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-BFST.ICE by Deeply Disturbed (ice-9501); released in ice-9501 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: DD-BFST.ICE by Deeply Disturbed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9501-dd-bfst-part01
 
 Write-Host '
    [31;40m▄▄[0;31;43m▒[0m      [31;40m▄[0;33;40m▄[0;31;43m▓[0m            [33;40m [0m

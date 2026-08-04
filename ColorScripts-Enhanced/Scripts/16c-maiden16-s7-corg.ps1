@@ -1,18 +1,4 @@
-﻿# Converted from: S7!-CORG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden16/raw/S7!-CORG.ANS
-# Source Revision: archive-sha256:5eec87aa8a926ff580ebebb1a03e3414c92381a206a8caa2448e563d5972636c
-# Source SHA-256: d70af89d1978c77b23142f94db17409610f9d5e3d1fb717c33cbb8f4b94936b8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S7!-CORG.ANS by Soulstalker ((maiden)); released in maiden16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Chronical Organism
-# SAUCE Author: Soulstalker
-# SAUCE Group: (maiden)
-# SAUCE Date: 19980706
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Chronical Organism by Soulstalker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden16-s7-corg
 
 Write-Host '
 [34m   [0;1;34m▄▄▄[0;34m▄[0m   [34m▄[0;1;34m▄▄[0m   [34m▄  [0;32m ▐▄  ▄█▄▓[0;1;32;42m██▄[0;1;32;40m▄▄▄[0;32m▄    [0;34m  [0m   [34m▄[0;1;34;44m██[0;1;34;40m▄[0;34m  ▄[0;1;34m▄▄▄[0;34m▄[0m    [34m  [0m    [32m [0;1;32m▄█[0;1;32;42m▄[0;1;32;40m▄[0;32m█▄  ▄█[0;1;32;42m░░[0;32m▄[0m

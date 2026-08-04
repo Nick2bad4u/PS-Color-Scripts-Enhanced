@@ -1,18 +1,4 @@
-﻿# Converted from: US-SPNTB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend06/raw/US-SPNTB.ANS
-# Source Revision: archive-sha256:bdb12df6fb66b6e7f7ab1240c15e9b23d66b94ced69828c85c717709162a24eb
-# Source SHA-256: a92759e878b691b50ed2b924692df825e1de9b688c2fc7942794bb02c52e730b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SPNTB.ANS by Drynwhyl + Quasar (multiple groups); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: spantobi
-# SAUCE Author: drynwhyl/quasar
-# SAUCE Group: multiple groups
-# SAUCE Date: 19970213
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: spantobi by Drynwhyl + Quasar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend06-us-spntb
 
 Write-Host '
  [34m▐[0;1;34;47m▓▓[0;1;34;44m▀[0;1;34;40m▀▀[0;34m▀[0;37m  [0;34m▀[0m     [34m▀[0m            [1;31m░░[0m       [31m▐███[0;1;31;41m▓[0;1;31;40m▓▓[0;1;31;41m▓▓▓▓[0;1;31;40m▒[0;1;31;41m▓▓▓▓██████[0;1;31;47m▓▓[0;1;31;41m████████████▀[0;31m▀▀▀▀ [0m

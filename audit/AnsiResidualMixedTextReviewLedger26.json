@@ -1,0 +1,51 @@
+{
+    "schemaVersion": 1,
+    "reviewedAt": "2026-07-29",
+    "normalization": "SHA-256 of UTF-8 rendered row text after ANSI-control removal and outer-whitespace trimming.",
+    "policy": "Human-reviewed readable prose, dialogue, generic menu fields, captions, placeholder copy, and explicit filler text found by disjoint punctuation, clustered-row, short-multiword, single-caption, targeted placeholder, repetition, and history-excluded residual detectors were blanked when row-level redaction preserved the surrounding ANSI artwork, controls, backgrounds, and geometry. Artist and group attribution, titles, filenames, dates, source-significant labels, thematic captions, repeated lettering used as structural texture, and large typographic art were retained.",
+    "summary": {
+        "candidateFiles": 2,
+        "evidenceRows": 4,
+        "categoryRows": {
+            "generic-placeholder": 4
+        }
+    },
+    "candidates": [
+        {
+            "action": "blank-text",
+            "category": "generic-placeholder",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 21,
+                    "sha256": "3c79c32fd01af09dac2dd20c6fb1cc0e93eb10eae0ac9d483a55846943d974e1"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 22,
+                    "sha256": "97bd25f27acb78ac39d12361765433f9f07a607728769519253fac34b437deed"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 23,
+                    "sha256": "3cd1bd290dc60debf6044be16f9f708b2fa3235f1e94330d7d09c8bdee7da5f6"
+                }
+            ],
+            "file": "16c-ice9701a-ti-tra1.ps1",
+            "rationale": "The vertically stacked right-margin phrase \"put stuff here\" is explicit replace-me copy, separable from the retained ANSI artwork, title, and attribution."
+        },
+        {
+            "action": "blank-text",
+            "category": "generic-placeholder",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 17,
+                    "sha256": "51927becc356c88ad8fd3a5d421f6153711c3bb7250e5b2a8c794660f748c12d"
+                }
+            ],
+            "file": "roy-sac-mva.ps1",
+            "rationale": "The terminal source row is an explicit replace-me text placeholder, not artwork, attribution, a title, or a functional interface label."
+        }
+    ]
+}

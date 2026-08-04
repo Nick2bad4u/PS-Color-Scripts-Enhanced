@@ -1,13 +1,4 @@
-﻿# Converted from: LOGIN!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bh-art1/raw/LOGIN!.ANS
-# Source Revision: archive-sha256:b16299afe973606e25d15d577175da7222013baff11e43f005e9ce125887dbcc
-# Source SHA-256: c8cdb3a1a244758a7640d05bbb54990af5be12b484417f84da5a2ddd2c95e7a1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LOGIN!.ANS by X2000 (bh-art1); released in bh-art1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: LOGIN!.ANS by X2000 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bh-art1-login
 
 Write-Host '
                                       [1m┌════∙════───∙───═══╗[0m       [1;33m▄▀[0m

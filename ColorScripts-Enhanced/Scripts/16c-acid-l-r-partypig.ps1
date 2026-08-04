@@ -1,13 +1,4 @@
-﻿# Converted from: PARTYPIG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acid_l-r/raw/PARTYPIG.ANS
-# Source Revision: archive-sha256:499c9b46916e1ae397884d58998fd5ed4387f783522347b660512aee3acb2ec0
-# Source SHA-256: fef1ea112ed3fafea64a9eb1b3eb44a382badee45e5515066020f3ad8a0e7cc1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PARTYPIG.ANS by Jed (acid_l-r); released in acid_l-r and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: PARTYPIG.ANS by Jed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acid-l-r-partypig
 
 Write-Host '
                                      [1m▄▄▄█████▄▄[0m     [1;31m█▄[0m

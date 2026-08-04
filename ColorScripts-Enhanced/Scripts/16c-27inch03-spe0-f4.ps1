@@ -1,13 +1,4 @@
-﻿# Converted from: SPE0-F4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch03/raw/SPE0-F4.ANS
-# Source Revision: archive-sha256:faad3368b55fb434ef1208473b1dc06bfce9fe1104a0d093902743c45bd0d2f8
-# Source SHA-256: 2fdee799a3cf998e3c7544d45af290a252221b536fb591c2f1818149d3a47292
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPE0-F4.ANS by Enzo + Spear (27inch03); released in 27inch03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: SPE0-F4.ANS by Enzo + Spear | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch03-spe0-f4
 
 Write-Host '
 [36m▀▀[0;1;36;46m▓▓▓██▄[0;36m▄▀▀[0;1;36;46m█▀[0;36m▀▀▀[0;37m  [0;36m▀[0;1;36;46m▀[0;1;36;40m▒▒▒[0;36m▀[0;37m [0;1;30m▄[0;1;30;46m▓[0;1;30;40m▀[0m [35m▄▄██▄[0;36m▀[0;1;36;46m░[0;36m█[0;1;36;46m░░[0;36m█[0;1;36;46m░[0;36m█▄[0;1;30m▄[0;36m ▀█[0;1;36;46m░░░ ░[0;36m█[0;1;36;46m░ ░[0;36m█[0;1;36;46m░[0;1;30;46m▀[0;36m▄[0;1;30m▄[0;36m▀█[0;1;37;46m░░▓▓▓█▓░[0;36m█▀ [0;1;30m▄[0;36m▄[0;1;30;46m▀[0;36m█▓▒[0m

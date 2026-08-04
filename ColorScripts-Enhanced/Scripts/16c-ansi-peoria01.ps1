@@ -1,13 +1,4 @@
-﻿# Converted from: PEORIA01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansi/raw/PEORIA01.ANS
-# Source Revision: archive-sha256:50aaa63d173fc2f34f94b8a5b526a5ee8a8b9d7908c42264ab949073e7e0edf9
-# Source SHA-256: e24c42114cf7c2d6c373f2d31997720c5501e5934e72f2763cf301a5b3b93f15
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PEORIA01.ANS by Steve Deckert (ansi); released in ansi and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: PEORIA01.ANS by Steve Deckert | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansi-peoria01
 
 Write-Host '
         [37;40m·[0m                                     [37;40m·[0m

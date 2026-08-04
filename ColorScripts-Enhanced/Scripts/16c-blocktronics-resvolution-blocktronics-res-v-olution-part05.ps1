@@ -1,13 +1,4 @@
-﻿# Converted from: _blocktronics_res[v]olution.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_resvolution/raw/_blocktronics_res%5Bv%5Dolution.ans
-# Source Revision: archive-sha256:d0690af9ec91bf96f335196e9f9ddfb5d7ea02d97d300b53301bebaf58d83c35
-# Source SHA-256: e60e7e5f22989d906c7b8afe36ba18900047a60bd7589862e0a50aadd092653c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _blocktronics_res[v]olution.ans by Avenging Angel + Enzo (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 195-242
-# Columns: 1-80
+﻿# Artwork: _blocktronics_res[v]olution.ans by Avenging Angel + Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-resvolution-blocktronics-res-v-olution-part05
 
 Write-Host '
 [1;36;42m███[0m [1;36;42m██[0m [1;36;42m██[0m   [1;30m                           [0m                               [1;36m [0;1;36;42m██[0;32m [0;1;36;42m   ███[0m

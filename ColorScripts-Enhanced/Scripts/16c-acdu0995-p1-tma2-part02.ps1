@@ -1,18 +1,4 @@
-﻿# Converted from: P1-TMA2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0995/raw/P1-TMA2.ANS
-# Source Revision: archive-sha256:33564e3b7dba06eac1f1e36dcc176b1f8d29f8167c2e77227197ff7bea5344f2
-# Source SHA-256: ceaaf2a48c358943d7cd527c1c8375b688e3a19aca3ce05b0497204247f9634f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P1-TMA2.ANS by prisonernumberone (ACiD Productions); released in acdu0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Mourning After 2
-# SAUCE Author: prisonernumberone
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950901
-# SAUCE Dimensions: 80x144
-# Lines: 49-93
-# Columns: 1-80
+﻿# Artwork: The Mourning After 2 by prisonernumberone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0995-p1-tma2-part02
 
 Write-Host '
 [1;30m [0;36m [0;1;30m▀[0;31m░[0m [31m▀▀ [0;1;33m▄[0;1;37m▄[0;1;33m▄[0;31m ▀▀  ▀▀ ▀ [0m [35m▐[0;35;44m▓░[0;34;40m█[0;34;45m▓[0;34;40m▌[0;31;40m ▀▓[0m [1;30;40m ▀▄▄▄[0;34m░░  [0;1;30m▄ █▓█[0m [31m█▓░████[0m [1;30m▓██ [0m [34m█[0;34;45m▓[0;34;40m█▌[0;31;40m▐[0m [1;30;40m▄ ▀[0m [31m▀ ▀▐▀[0m [1;30m▄[0m [1;30m█[0m

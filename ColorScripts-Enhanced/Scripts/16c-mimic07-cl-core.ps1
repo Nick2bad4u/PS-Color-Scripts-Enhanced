@@ -1,18 +1,4 @@
-﻿# Converted from: CL!-CORE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic07/raw/CL!-CORE.ANS
-# Source Revision: archive-sha256:1b76e15c8ab35a8886ad3ccefcf834747828feb7f9262f671fa8808e08d4472c
-# Source SHA-256: 2d2f563a34a57d4ee4622acab329c7fe263da542571e52415292e414b2cd8306
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-CORE.ANS by Cleaner (Mimic); released in mimic07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Spinal Core
-# SAUCE Author: Cleaner
-# SAUCE Group: Mimic
-# SAUCE Date: 19990114
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Spinal Core by Cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic07-cl-core
 
 Write-Host '
 

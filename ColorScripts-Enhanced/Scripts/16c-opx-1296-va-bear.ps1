@@ -1,18 +1,4 @@
-﻿# Converted from: VA-BEAR!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-1296/raw/VA-BEAR!.ANS
-# Source Revision: archive-sha256:506b105b4c26ae1c852aab6820467319ddc2b45f940a9c1fc20d63a6338d499e
-# Source SHA-256: 72a403bf5c16a4950d6aad4ea72444d925dff1583b740f15ad2b31d19079d558
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VA-BEAR!.ANS by vain (opium.graphics); released in opx-1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fluke the puke bear!
-# SAUCE Author: vain
-# SAUCE Group: opium.graphics
-# SAUCE Date: 19961022
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: fluke the puke bear! by vain | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-1296-va-bear
 
 Write-Host '
 [33m▀▄▄[0;1;33m [0;31m▀▀▀▓▒▄▄▄▓▀▀▓▒▄▄ ▀▀█▓▒▄ ▓▀[0;37m [0;33m▄[0;1;33;43m░▒▓[0;1;33;40m█[0;1;33;43m▓▒░[0;33m▄[0;37m [0;31m▀▓▄ ▀ ▒▄ ▄▒▓▓▒▀    ■ ▀▀▀▀ ▄▄▄▄▒▓██▓▒▀▀▀ [0m

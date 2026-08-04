@@ -1,13 +1,4 @@
-﻿# Converted from: TG-PR.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9411/raw/TG-PR.ICE
-# Source Revision: archive-sha256:f886658398a77fb7bede9bec5c3391287ab0eb115da776e630e1d1096e09e7fb
-# Source SHA-256: 7c36db7f2b072408b35c30832d8e1d7acab32b7cf9f105f9bad8e5d082b875a3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-PR.ICE by Toon Goon (ice-9411); released in ice-9411 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: TG-PR.ICE by Toon Goon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9411-tg-pr-part01
 
 Write-Host '
 [44m                                   [0;34;40m█████████[0;34;44m                             [0;1;37;44mtg[ice][0m

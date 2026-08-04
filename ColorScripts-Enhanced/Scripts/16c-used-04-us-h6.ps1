@@ -1,18 +1,4 @@
-﻿# Converted from: US-H6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-04/raw/US-H6.ANS
-# Source Revision: archive-sha256:1dcdf112160ec589150680778cd449e8af485dfba89bb104c44cd133db2d6fc0
-# Source SHA-256: a0229a5b7681eea47e2681db5ff879f5f5007d8a49747e7aa1ab842d1879b422
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-H6.ANS by Propane + Cryogenic (used); released in used-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hellium
-# SAUCE Author: propane/cryogenic
-# SAUCE Group: used
-# SAUCE Date: 20000223
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: hellium by Propane + Cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-04-us-h6
 
 Write-Host '
 [34m ░[0;30;44m▓[0;34;40m░[0;30;44m▓[0;37;40m [0;34;40m▀▀▀[0;36;44m [0;1;34;40m▒[0;36;44m▄▄█[0;1;36;40m▒▒[0;36;44m█▀[0;34;40m▓[0;36;44m▄▄▄▄[0;1;36;40m▒▒[0;36;44m▓▀[0;34;40m▀[0;37;40m [0;31;40m▄[0;1;31;41m░ [0;31m▄░▄  ▀█[0;1;31;41m▒▒░[0;31m█░█[0;1;31;41m  [0;31m▄▄  ▄[0;1;31;41m░▒░  [0;31m█    ▄▄▄██[0;1;31;41m▀[0;31m███▀█████▀[0;1;31;41m░▒[0m

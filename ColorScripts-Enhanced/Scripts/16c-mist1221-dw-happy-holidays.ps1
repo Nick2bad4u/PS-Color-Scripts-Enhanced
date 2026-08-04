@@ -1,19 +1,4 @@
-﻿# Converted from: DW-HAPPY_HOLIDAYS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1221/raw/DW-HAPPY_HOLIDAYS.ANS
-# Source Revision: archive-sha256:5e9313825592ee844db1dbb5f288429b09b14a6176d448c30ff1c2ee32395d09
-# Source SHA-256: 6ae00b8d4fcc79ebcba3599588bd142acad9b1d4f005a9d89c0329cd841105e1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DW-HAPPY_HOLIDAYS.ANS by DW (Mistigris); released in mist1221 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Happy Holidays
-# SAUCE Author: DW
-# SAUCE Group: Mistigris
-# SAUCE Date: 20211220
-# SAUCE Dimensions: 80x26
-# SAUCE Font: IBM VGA
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Happy Holidays by DW | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1221-dw-happy-holidays
 
 Write-Host '
 [1;30m███[0;1;37m•[0;1;30m█████████████[0;1;37m☼[0;1;30m██████[0;1;37m•[0;1;30m████████████████[0;1;37m∙[0;1;30m██████[0;1;37m•[0;1;30m█████[0;1;37m☼[0;1;30m████████████████████████[0m

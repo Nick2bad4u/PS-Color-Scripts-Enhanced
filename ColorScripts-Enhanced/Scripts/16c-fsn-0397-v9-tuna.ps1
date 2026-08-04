@@ -1,15 +1,4 @@
-﻿# Converted from: V9-TUNA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0397/raw/V9-TUNA.ANS
-# Source Revision: archive-sha256:0bbae31e52a4c1ad24c4bfa8a6bfcd082f750141f70c56dfd02f65c0d93bbb46
-# Source SHA-256: a0e02af9324c0f28b35ea4d48e8e5d23255fcc4a20aa72afa8fc5ec3c293a644
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: V9-TUNA.ANS by Vade79 (fsn-0397); released in fsn-0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 19961220
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: V9-TUNA.ANS by Vade79 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0397-v9-tuna
 
 Write-Host '
 [1;35;45m░[0;1;37;45m░[0;35m████████[0;1;37;45m░░[0;35m██▀[0;1;30m ▀[0;1;30;45m▄░░[0;35m▄[0;1;36m░░▀[0;36m▀[0;37m [0;1;36m▄[0;36m▄ [0;35m▀▀▓[0;1;37;45m░[0;35m▀▀▀▀[0;1;30m [0;1;36m▄▄▄▄[0;1;36;46m▀[0;1;36;40m▀▀▀[0;36m▀[0;37m  [0;35m▀▀[0;1;30m▀ [0;1;36m▄[0;36m▄[0;1;35m░[0;34m  [0;1;36m▀[0;36m▀[0;34m ▄[0;1;34;44m▀▀▀▀[0;1;34;40m▀[0;34m▀[0;1;34;44m▀▀▀ ▀▀░░▀ ▀█[0m

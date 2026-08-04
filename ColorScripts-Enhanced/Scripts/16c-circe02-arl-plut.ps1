@@ -1,13 +1,4 @@
-﻿# Converted from: ARL-PLUT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe02/raw/ARL-PLUT.ANS
-# Source Revision: archive-sha256:ce5cd736ecea3fcfef2c1df40ab4bdd995f6b633f97f1788244355f98c5d174e
-# Source SHA-256: c52e22773017c3b675730b810d0e5eb7a10bdf6a3a9ba4716149fa8171ddfc25
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARL-PLUT.ANS by Arlequin (circe02); released in circe02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: ARL-PLUT.ANS by Arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe02-arl-plut
 
 Write-Host '
          [31m    ▄[0;1;31m▄▄[0;31m▌   ▐▄▄[0m                              [31m ▄▄▄[0;1;31;41m▄▄█[0;1;31;47m▓▓[0;1;31;41m▌[0;31m█▄▄▄▄▄▄[0m

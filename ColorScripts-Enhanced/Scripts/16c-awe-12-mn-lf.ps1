@@ -1,18 +1,4 @@
-﻿# Converted from: MN-LF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-12/raw/MN-LF.ANS
-# Source Revision: archive-sha256:5c96c14e912296494a464a42e768321452d811693cf172945a9502eb4396c8bb
-# Source SHA-256: 171a5f370a1050ff7a452f7d9905a9d51792fd9727659ea20f7372b4fa22bc73
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MN-LF.ANS by Menace (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Life Force
-# SAUCE Author: Menace
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970815
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Life Force by Menace | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-12-mn-lf
 
 Write-Host '
                                                         ░[30;47m▓[0m

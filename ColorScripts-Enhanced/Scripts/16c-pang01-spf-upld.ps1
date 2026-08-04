@@ -1,13 +1,4 @@
-﻿# Converted from: SPF-UPLD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pang01/raw/SPF-UPLD.ANS
-# Source Revision: archive-sha256:24a47d3a6396232434bffa2e1615955141cf762e5fd721c02b6ad40f81a7def7
-# Source SHA-256: 03be8daf8d56dc7fef5190c473ff3a8eef8977230e1326efba28772cb16a547f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPF-UPLD.ANS by Spitfire (pang01); released in pang01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: SPF-UPLD.ANS by Spitfire | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pang01-spf-upld
 
 Write-Host '
 

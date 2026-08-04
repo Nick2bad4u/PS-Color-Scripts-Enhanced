@@ -1,18 +1,4 @@
-﻿# Converted from: GSO-PLU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0798/raw/GSO-PLU.ANS
-# Source Revision: archive-sha256:ba14cc0f9129d345d6e8055f6819b7be294ddff8674fbcc97cd1db52d47ee088
-# Source SHA-256: 580551bc032041b332136a4bf1c56f5d5970096bdd9237de8a0bfde6e9146b3d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GSO-PLU.ANS by gso (plf); released in plf-0798 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ful@@@
-# SAUCE Author: gso
-# SAUCE Group: plf
-# SAUCE Date: 19980706
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: ful@@@ by gso | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0798-gso-plu
 
 Write-Host '
                                        [36m  ▄▄▄▄[0;1;36m░░░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: COL-GLOP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toxic-01/raw/COL-GLOP.ANS
-# Source Revision: archive-sha256:3b597be1b67b12799dd35541511cf17a47483b999aba055f1358423895441c18
-# Source SHA-256: 9bb3c4bff91415060e5e4e9c2d4f741a2118cb075c9dc70cd99c7467936a3395
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: COL-GLOP.ANS by colorblind (tOxic); released in toxic-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: glOp
-# SAUCE Author: colorblind
-# SAUCE Group: tOxic
-# SAUCE Date: 19960528
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: glOp by colorblind | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toxic-01-col-glop
 
 Write-Host '
 [1;32;42m░░   ░░▒▒▓▓▓[0;1;32;40m█[0;1;32;42m▓[0;1;32;40m████▀▀▀[0m [34m▄▄▄[0;1;34;44m▄▄▄▄[0;34m▄▄█▀▀█[0;1;34;44m▄[0;34m█▄▄ ▀██▓█▀▄▄███[0;1;34;44m▄▄[0;34m▄[0;37m [0;34m▄▄▄ [0;1;32m▀▀████████[0;1;32;42m▓[0;1;32;40m█[0;1;32;42m▓▓▓▒░░   [0m

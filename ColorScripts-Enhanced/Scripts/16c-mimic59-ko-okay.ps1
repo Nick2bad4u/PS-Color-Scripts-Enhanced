@@ -1,13 +1,4 @@
-﻿# Converted from: ko-okay.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic59/raw/ko-okay.ans
-# Source Revision: archive-sha256:72ea6eb47fecdf0981d4f90bfdc989ed3b77cc406dca2a483bf0dbbcd230e12d
-# Source SHA-256: 3a7723dc65b910274da503b7709df8b166e02fcc1d926fd130415ea6c22af5b6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ko-okay.ans by Konami (mimic59); released in mimic59 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ko-okay.ans by Konami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic59-ko-okay
 
 Write-Host '
 [1m [0;31m $$$[0;1;31m$l[0;31m$$$$$$$$$$$$$$$$$$$ [0;1;37m$$$$$$$$$$$$llll[0m$$$$$$$[31m $$$$$$$$/⌐,      [0;1;33m    [0;1;37m [0;1;33m,$$  [0m

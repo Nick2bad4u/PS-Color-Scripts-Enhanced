@@ -1,18 +1,4 @@
-﻿# Converted from: COL-HUMA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toxic-01/raw/COL-HUMA.ANS
-# Source Revision: archive-sha256:3b597be1b67b12799dd35541511cf17a47483b999aba055f1358423895441c18
-# Source SHA-256: 9b123d8150b66601c3619bb0a3d373369de4299fa658b0084eb7e5e06f9e0b82
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: COL-HUMA.ANS by colorblind (tOxic); released in toxic-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: hUMA
-# SAUCE Author: colorblind
-# SAUCE Group: tOxic
-# SAUCE Date: 19960528
-# SAUCE Dimensions: 80x83
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: hUMA by colorblind | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toxic-01-col-huma-part01
 
 Write-Host '
 [1;47m▌  [0m█████████████████████████████████████████████████████████████████████████████

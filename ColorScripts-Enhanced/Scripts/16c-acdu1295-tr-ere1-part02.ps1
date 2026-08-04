@@ -1,18 +1,4 @@
-﻿# Converted from: TR-ERE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1295/raw/TR-ERE1.ANS
-# Source Revision: archive-sha256:8b2aeb495b44e4fe40c88334cd96b390eca2f913c4b5790d916cbc8fc3499bdb
-# Source SHA-256: 1b1373bfe7b26b63b2838247ea7e06c22bfacc5d8955ffe2dc44bde3e71e6fdd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-ERE1.ANS by Tripe (ACiD Productions); released in acdu1295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Erebus
-# SAUCE Author: Tripe
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19941201
-# SAUCE Dimensions: 80x81
-# Lines: 44-81
-# Columns: 1-80
+﻿# Artwork: Erebus by Tripe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1295-tr-ere1-part02
 
 Write-Host '
 [1;35;45m▒[0;30;45m▐[0;37;40m  [0;30;45m▌[0;1;35;45m▓[0;1;35;40m▌ [0;33m░[0;30;43m█[0;1;33;40m▄[0;1;37;40m▄[0;1;37;43m▓[0;1;33;43m▓▒[0;33m▀ ░ [0;30;45m▄▄[0m     [1;35;45m▓▓▓▒[0m  [1;35;45m ▒▒░[0;35m▓[0;31m░ [0;1;31m▄[0;1;31;41m▓▓[0;1;31;40m▀[0;1;30;40m▄▄[0;1;30;47m█[0;1;30;40m▓[0m     [1;47m▓▒░[0;1;30;47m░▒▓█[0;1;30;40m▓▐▓▄[0;1;37;40m▐[0;1;37;47m▓▒░[0;1;30;47m░▒▓[0;1;30;40m▌[0;1;30;47m▒[0;1;37;40m▐[0;1;37;47m▓▒░[0;1;30;47m░░[0m

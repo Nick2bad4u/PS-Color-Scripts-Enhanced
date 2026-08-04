@@ -1,13 +1,4 @@
-﻿# Converted from: DJ-SIG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca16-a/raw/DJ-SIG.ANS
-# Source Revision: archive-sha256:c66af227f0487c6a2106388d1038f0f141348ecfdbd559edd3cf06b5528480f9
-# Source SHA-256: d7928ca265c55735d520bd65b50f5e9e866d8491dca935ca9ae615c83cae7b5e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DJ-SIG.ANS by Dark Jedi (rca16-a); released in rca16-a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: DJ-SIG.ANS by Dark Jedi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca16-a-dj-sig
 
 Write-Host '
                       [1;34m▄[0;1;34;47m▓[0;1;34;44m█▓[0;1;34;40m▄[0;1;34;44m▓▒ [0m [1;33m▄[0;1;33;42m████[0;1;33;47m▓▓▓[0;1;33;40m▄▄▄[0m [1;34;44m ░▒▓[0;1;34;40m▀▀▄ [0m

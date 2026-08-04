@@ -1,16 +1,4 @@
-﻿# Converted from: ROY-CCU3.ANS
-# Source encoding: CP437
-# Source URL: https://www.roysac.com/images/galleries/ZIP/Roy_ANSI.ZIP
-# Source Revision: archive-sha256:8598a9432b4feb86c4e79552795b407b9d7c576fb6f25e9828d6143f1c7b35bc
-# Source SHA-256: 0cb2e6b32125435b2046232c459c8d092447e10a3d0df6beed1ef1e9f0bd6832
-# Source License: FAL-1.3
-# Source Attribution: ROY-CCU3.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
-# SAUCE Date: 20140723
-# SAUCE Dimensions: 80x23
-# SAUCE Font: Amiga Topaz 2+
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ROY-CCU3.ANS by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-ccu3
 
 Write-Host '
         [35;40m.[0;1;37;40m.[0;1;35;40m....[0;35m...[0m     [1;31m.[0m     [35m... ..  [0;1;30m.o[0;1;31m8o[0m      [1;30m$  [0;35m...... ... ...[0;1;35m..[0;35m..  ...[0m

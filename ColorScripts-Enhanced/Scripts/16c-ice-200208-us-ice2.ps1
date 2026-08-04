@@ -1,18 +1,4 @@
-﻿# Converted from: us-ice2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-200208/raw/us-ice2.ans
-# Source Revision: archive-sha256:8266cb0c83bed6dfb88c70a84c59bfe21a823cfea9ed9899f924b07278ea02a4
-# Source SHA-256: b679a9ae3b1318d7f3809b7bf1abde700e69287af8df8a845cf7f9252b80f9a8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-ice2.ans by Enzo + Spear (iCE Advertisements); released in ice-200208 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: iCE
-# SAUCE Author: Enzo & Spear
-# SAUCE Group: iCE Advertisements
-# SAUCE Date: 20020906
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: iCE by Enzo + Spear | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-200208-us-ice2
 
 Write-Host '
 

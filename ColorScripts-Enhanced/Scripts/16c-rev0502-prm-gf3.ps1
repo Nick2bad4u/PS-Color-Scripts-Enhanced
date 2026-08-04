@@ -1,18 +1,4 @@
-﻿# Converted from: prm-gf3.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0502/raw/prm-gf3.ans
-# Source Revision: archive-sha256:98bfa3cc78c733050b0c647e7e0271e7623e3c31e4f40f218a00b89b2165c771
-# Source SHA-256: b28b2b0b04f1c2050958de8217db22f4108bb205876e67432bd662ac983e826f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: prm-gf3.ans by Prizm (Revival); released in rev0502 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: gf3
-# SAUCE Author: Prizm
-# SAUCE Group: Revival
-# SAUCE Date: 20020513
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: gf3 by Prizm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0502-prm-gf3
 
 Write-Host '
 [1;30m     [0m [1;30m▄▄█▄▄[0m [1;30m       ▄▄█▄▄[0m [1;30m        [0m  [1;30m▄▄▄▄           [0m  [1;30m▄▄██▄[0m [1;30m        [0m  [1;30m▄█▄[0m [1;30m        [0m

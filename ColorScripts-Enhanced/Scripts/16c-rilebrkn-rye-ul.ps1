@@ -1,18 +1,4 @@
-﻿# Converted from: ^RYE_UL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rilebrkn/raw/%5ERYE_UL.ANS
-# Source Revision: archive-sha256:631709d46940d5f633b8ebca426a515d51357cee4cca25bed435a2a8fbf53a10
-# Source SHA-256: 56251bf95dd32730bf669ca12dd2c0970ad632fb1685a88fdccfdad8d2170828
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ^RYE_UL.ANS by Toot + Alecs (RILE); released in rilebrkn and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: chow.
-# SAUCE Author: alecs und toot.
-# SAUCE Group: RILE
-# SAUCE Date: 19970514
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: chow. by Toot + Alecs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rilebrkn-rye-ul
 
 Write-Host '
 [34m[0m

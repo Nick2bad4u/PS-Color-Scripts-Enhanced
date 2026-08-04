@@ -1,13 +1,4 @@
-﻿# Converted from: avg-rip.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_resvolution/raw/avg-rip.ans
-# Source Revision: archive-sha256:d0690af9ec91bf96f335196e9f9ddfb5d7ea02d97d300b53301bebaf58d83c35
-# Source SHA-256: 6bbf95db7d0ba6ee2c4a7871c976bac7697a1744f6e51794ef698de05f32dc33
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-rip.ans by Avenging Angel (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: avg-rip.ans by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-resvolution-avg-rip-part01
 
 Write-Host '
 [1;30m[0m     [1;33m▄▄[0;1;33;44m▄▄▄[0;34m█[0;33m▄▄[0;34;43m▀▀▀[0;34;40m█[0;31;40m▄▄[0;34;41m▀▀▀[0;34;40m█[0;35;40m▄▄[0;35;44m▄▄▄[0;34;40m█[0;32;40m▄▄[0;1;32;44m▄▄[0;32;44m▄[0;34;40m█[0;36;40m▄▄[0;34;46m▀▀▀[0;34;40m█[0;36;40m▄▄[0;34;46m▀▀▀[0;34;40m█[0;32;40m▄▄[0;32;44m▄▄▄[0;34;40m█[0;35;40m▄▄[0;35;44m▄▄▄[0;34;40m█[0;31;40m▄▄[0;34;41m▀▀▀[0;34;40m█[0;33;40m▄▄[0;34;43m▀▀▀[0;34;40m█[0;1;33;40m▄▄▄[0;1;33;44m▄▄[0;1;34;44m [0m

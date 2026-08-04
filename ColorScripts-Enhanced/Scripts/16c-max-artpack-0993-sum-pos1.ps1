@@ -1,13 +1,4 @@
-﻿# Converted from: SUM-POS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/max_artpack_0993/raw/SUM-POS1.ANS
-# Source Revision: archive-sha256:250261e60916078b31b5bc328ce4a47e4cdbc4040402838450e308951f6926c9
-# Source SHA-256: e764d7f150a31f94e0ad1a0789da3abce63af1e8b85f240b925db825553bcab2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SUM-POS1.ANS by Sumixam (max_artpack_0993); released in max_artpack_0993 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: SUM-POS1.ANS by Sumixam | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-max-artpack-0993-sum-pos1
 
 Write-Host '
             [1;30m·[0m              [1;37m∙[0m         [1;30m▄▄▄▄▄[0m            [1;30m∙[0m     ·            [1;30m·[0m

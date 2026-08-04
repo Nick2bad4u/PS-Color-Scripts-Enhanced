@@ -1,17 +1,4 @@
-﻿# Converted from: SOUL-2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tone0199/raw/SOUL-2.ANS
-# Source Revision: archive-sha256:cc68ea1eb33455f4fac3ad894e9449a738582c78ce2d942c658b2e45a01a80a9
-# Source SHA-256: 6e772cdef60ffc94d0bcb77b9be05be91dde8fc719970a3c46a57809391a78f5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SOUL-2.ANS by SoulScream (none); released in tone0199 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: I'm back... 2000
-# SAUCE Author: SoulScream
-# SAUCE Group: none
-# SAUCE Font: empathy by skaboy
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: I'm back... 2000 by SoulScream | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tone0199-soul-2
 
 Write-Host '
 [1;31;40m██[0;1;31;41m▓▓▓▒▒▒▒▒░░░[0;31;40m██▓▌ ▐█[0;1;31;41m░▒░[0;31;40m█▀ [0;37;40m  [0;1;30;40m▄██████████[0;1;30;47m▓▓[0;1;30;40m█████▀██▀█▀[0;37;40m        [0;1;30;40m▀▄[0;37;40m       SoulScream [0m

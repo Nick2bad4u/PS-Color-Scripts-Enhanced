@@ -1,13 +1,4 @@
-﻿# Converted from: DPG2ACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0892/raw/DPG2ACID.ANS
-# Source Revision: archive-sha256:14bcca9d3edaab7b8929bb1c3df270abeebca1720c862cdfff0859ed6d69dd7d
-# Source SHA-256: f6387eed46fe3332d2dc1805c8f2e2978cb8a652e90c7ee7c7d55594df4f9269
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DPG2ACID.ANS by Darkman (acdu0892); released in acdu0892 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 28-57
-# Columns: 1-80
+﻿# Artwork: DPG2ACID.ANS by Darkman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0892-dpg2acid-part02
 
 Write-Host '
      ▐[31m▓[0;1;37m▀[0;1;37;47m█▓[0;1;37;40m█[0;31m▓[0;37m▌    [0;37;47m [0;1;37;40m▀[0;1;37;47m██▓█▓█▓ [0m▌   [1;31m▄[0m       [1;31m▄[0m        [1;31m▄[0;1;31;41m▀[0;1;30;40m▌ [0;1;31;40m▄[0;1;31;41m▀[0;1;37;40m▄    [0m▐[31m▒[0;1;37;47m▓▒▓[0;31m▒[0;37m▌  [0;1;31m▄[0;1;31;41m▀[0;1;31;40m▄[0m     [1;31;40m▄[0;1;31;41m▀[0;1;37;41m▄[0;1;37;40m▌[0m

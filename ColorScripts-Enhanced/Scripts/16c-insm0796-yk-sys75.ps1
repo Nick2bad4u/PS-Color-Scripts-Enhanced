@@ -1,18 +1,4 @@
-﻿# Converted from: YK`SYS75.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/insm0796/raw/YK%60SYS75.ANS
-# Source Revision: archive-sha256:e3aef34bb564b08d1904f6f1567e1b9514c63c703fa2cbc5b50e7bd5188984fa
-# Source SHA-256: c6f69a24f17444c58557adb09102e4b0fadb92d28b349de18f2ce817a5460167
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: YK`SYS75.ANS by YaNKeE (insomnia); released in insm0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: System 75
-# SAUCE Author: YaNKeE
-# SAUCE Group: insomnia
-# SAUCE Date: 19960630
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: System 75 by YaNKeE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-insm0796-yk-sys75
 
 Write-Host '
                     [32m▄▄[0;1;33m▄▄[0;32m            [0;37m [0;1;37m   [0m

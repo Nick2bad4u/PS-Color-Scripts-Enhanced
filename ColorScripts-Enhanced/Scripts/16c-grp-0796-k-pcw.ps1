@@ -1,18 +1,4 @@
-﻿# Converted from: K!-PCW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/grp-0796/raw/K!-PCW.ANS
-# Source Revision: archive-sha256:be098753331373d307d2771aacbecdb35b1784f2f60e9ac3c053f2df7b867fcd
-# Source SHA-256: ad274d2b87735a2e250518e47653749f4a37ee7a10472c7881efabc8fe470460
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K!-PCW.ANS by KoDEN [k!] (GR?PE); released in grp-0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: PCWAREZ
-# SAUCE Author: KoDEN [k!]
-# SAUCE Group: GR?PE
-# SAUCE Date: 19960624
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: PCWAREZ by KoDEN [k!] | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-grp-0796-k-pcw
 
 Write-Host '
 [1;30m¼¼¼¼¼¼¼[0;30;46m¼[0;1;30;40m¼¼¼¼¼¼¼N$$$$$[0m$$$$$$$$$b[1;30m$$$$$$$$$$$$$$$[0m

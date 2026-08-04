@@ -1,13 +1,4 @@
-﻿# Converted from: TNT-ACT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/act-0496/raw/TNT-ACT.ANS
-# Source Revision: archive-sha256:ba95533c0b6a530f3833df2b79e25f188960432a4e38622a7ba932fb42d819c9
-# Source SHA-256: 3a04adbde85022ef01b1266ae7ab8662aa20e759a9e2084e163c0acd2a30bc1c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNT-ACT.ANS by Thanatos-Action (act-0496); released in act-0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: TNT-ACT.ANS by Thanatos-Action | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-act-0496-tnt-act
 
 Write-Host '
                          [31m▄▄▄▄▄[0m

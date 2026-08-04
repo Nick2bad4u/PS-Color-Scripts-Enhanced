@@ -1,18 +1,4 @@
-﻿# Converted from: CA-EMER1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/emerge03/raw/CA-EMER1.ANS
-# Source Revision: archive-sha256:dd399ee6e71deadfe795b0f4683a65eced60de552ad5e9362e4756c467e8c7e4
-# Source SHA-256: 009c74b1ae5370e29131da8d36f20e9d71098380cbf1bd6e1320d450e0b6d1eb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CA-EMER1.ANS by Cable (Emerge Productions); released in emerge03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Emerge Productions Promo
-# SAUCE Author: Cable
-# SAUCE Group: Emerge Productions
-# SAUCE Date: 19950422
-# SAUCE Dimensions: 80x25
-# Lines: 50-92
-# Columns: 1-80
+﻿# Artwork: Emerge Productions Promo by Cable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-emerge03-ca-emer1-part02
 
 Write-Host '
  ▀░  [1m      [0m    [1m▄[0;1;47m▒[0m▀    ▒▀   [1m▄[0;1;47m░[0m▀           [1;47m▒[0m         ▀[1;47m░[0;1;40m▄[0m   ▀▒   ▀[1;47m▒[0;1;40m▄[0m            ░▀

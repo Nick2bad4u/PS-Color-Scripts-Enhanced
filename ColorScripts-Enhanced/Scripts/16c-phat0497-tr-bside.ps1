@@ -1,18 +1,4 @@
-﻿# Converted from: TR-BSIDE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0497/raw/TR-BSIDE.ANS
-# Source Revision: archive-sha256:ac23f379eb24f5f6ad8faa432723caa3c85fc7d4fc380b1d3e101e8eb50ca483
-# Source SHA-256: 26520f0d8d8a2ea2dc725da2552d3fbfd7ecc840495b4f74c5e9f8896c710bc1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-BSIDE.ANS by trinity (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: go compo 3rd try
-# SAUCE Author: trinity
-# SAUCE Group: phat studios '97
-# SAUCE Date: 19970311
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: go compo 3rd try by trinity | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0497-tr-bside
 
 Write-Host '
                             [34m▄[0;1;34;44m░[0m

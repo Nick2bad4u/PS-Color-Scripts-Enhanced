@@ -1,19 +1,4 @@
-﻿# Converted from: TNT-ODE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-36/raw/TNT-ODE.ANS
-# Source Revision: archive-sha256:43e7d46e56dc094cf8502b299dcd82ee875dea0a064a36248f4e6c844180fd25
-# Source SHA-256: ea314f95d89b91b6f0dfeb1cb3caa91a904829886f4f650c3915618883df07d8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNT-ODE.ANS by tainted (fire); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ode to ansi
-# SAUCE Author: tainted
-# SAUCE Group: fire
-# SAUCE Date: 20230303
-# SAUCE Dimensions: 80x157
-# SAUCE Font: IBM VGA
-# Lines: 119-157
-# Columns: 1-80
+﻿# Artwork: ode to ansi by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-36-tnt-ode-part04
 
 Write-Host '
 [1;30m█▀[0;1;30;47m▄[0;1;37;47m░[0;1;30;47m░░▀[0;1;30;40m█▄▀▀███[0;1;30;47m▓▓▓▓[0;1;30;40m▄▄ ▀▀[0;1;30;47m▓▒[0;1;30;40m▌[0m▄▄▄      [1;30m▀[0m▀[1;30;47m▒▓▓[0;1;30;40m▄  ▄ [0m▀[1;30;47m░▓[0;1;30;40m▄████▄▄█▌[0;1;30;47m▀[0m▄▄▄▄▄▄

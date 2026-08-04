@@ -1,13 +1,4 @@
-﻿# Converted from: ST-EJIM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/666-0695/raw/ST-EJIM.ANS
-# Source Revision: archive-sha256:01a21dca34c89c7dd6644e0787402efaf574da8d380943a8a9833b62ca11686e
-# Source SHA-256: 701c58ec57e37dd29800c63e5f778634310df74a70e5d0d3b14b6d8fa44ccbdb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-EJIM.ANS by Sticky (666-0695); released in 666-0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: ST-EJIM.ANS by Sticky | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-666-0695-st-ejim-part01
 
 Write-Host '
 [34m████████████████████████████████████████████████████████████████████████████████[0m

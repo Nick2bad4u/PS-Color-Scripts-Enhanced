@@ -1,13 +1,4 @@
-﻿# Converted from: MTH-DRNE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-14/raw/MTH-DRNE.ANS
-# Source Revision: archive-sha256:fa7dc8a54dcfe9b4acf17ab4939f9c6bd0ce41fc6d419e8316e53675ae5b63a4
-# Source SHA-256: c0860cdc77f307bb075d19c7d9416695cdde2ab3a0ec8078cf809516fbcdd379
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MTH-DRNE.ANS by Methane (purg-14); released in purg-14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: MTH-DRNE.ANS by Methane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-14-mth-drne
 
 Write-Host '
 [36m  ░░  [0;32m▀[0;36m  [0;32m░░[0;36m  [0;32m▄▄[0;36m     [0m           [32m░░[0m           [32m░░░[0;36m   ░░  [0;32m░░[0m   [36m░░ [0;32m░[0;36m  [0;32m░░[0;36m     [0;32m░░░░░[0m

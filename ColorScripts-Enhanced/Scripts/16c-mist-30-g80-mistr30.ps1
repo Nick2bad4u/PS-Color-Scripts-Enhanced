@@ -1,18 +1,4 @@
-﻿# Converted from: G80-MISTR30.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/G80-MISTR30.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: d970f7aeaf1ce64efc9c5483517183abbfef57bdb52897d65a45eff1562ef25a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: G80-MISTR30.ANS by goto80 (mist-30); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: mistfunk
-# SAUCE Author: goto80
-# SAUCE Date: 20241105
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: mistfunk by goto80 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-g80-mistr30
 
 Write-Host '
                                                   [1m▄▄▄▄[0m           [1;34m·[0m

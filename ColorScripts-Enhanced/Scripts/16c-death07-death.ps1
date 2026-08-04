@@ -1,13 +1,4 @@
-﻿# Converted from: DEATH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/death07/raw/DEATH.ANS
-# Source Revision: archive-sha256:19606a01eb52f423b3fb4cdf11b14f678edcc8b2dac3dd1ba40f8a216dd117d5
-# Source SHA-256: a8d95b493fa24ef5fc0ce963e3949eb507e76dd0b1cc313a0d018dab0c2d3c2a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DEATH.ANS by Death (death07); released in death07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: DEATH.ANS by Death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-death07-death
 
 Write-Host '
                                                   [1;30m▄▓▓░░░▓░▒▓▒▒░▒▒[0m

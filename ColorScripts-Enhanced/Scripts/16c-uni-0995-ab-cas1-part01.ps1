@@ -1,18 +1,4 @@
-﻿# Converted from: AB-CAS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0995/raw/AB-CAS1.ANS
-# Source Revision: archive-sha256:66f11d43d10b981d3ff2235c6fadd1403a507952ad88040c9eb9cd5142a4f4b1
-# Source SHA-256: 8282bddd2d7bc845915448a80d3a2bf1f398a89e23fec4ad631b4593c1814846
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AB-CAS1.ANS by Abomination (Union); released in uni-0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Castravalva!
-# SAUCE Author: Abomination
-# SAUCE Group: Union
-# SAUCE Date: 19950901
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Castravalva! by Abomination | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0995-ab-cas1-part01
 
 Write-Host '
 [1;34m███████████[0;1;34;47m██[0;1;34;40m█[0;1;34;47m▓[0;1;34;40m█████████████████████████████████████████████████████████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: RD-MLD2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-1096/raw/RD-MLD2.ANS
-# Source Revision: archive-sha256:73b0e2918c9e3daef978e4ff1f97345c8d9080edab06ce99d8d8ee6a5fb0b3de
-# Source SHA-256: d6eebdabd368895d24ca4ebe96fa00c098484483264806b0c4ef690f9ba3ba24
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD-MLD2.ANS by raider (mOp productions); released in opx-1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: mortal dreams menuset
-# SAUCE Author: raider
-# SAUCE Group: mOp productions
-# SAUCE Date: 19961006
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: mortal dreams menuset by raider | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-1096-rd-mld2
 
 Write-Host '
 [34m   ▄▄█[0;1;34;44m░[0;30;44m  [0;34;40m▄[0;30;44m     ▄▄[0;34;40m░[0;30;44m▄▄  [0;34;40m▄▄[0;30;44m    ▄▄▄[0;34;40m [0;30;44m  [0;34;40m▄███[0;1;34;44m░░[0;30;44m [0;34;40m▄[0;1;34;40m░[0;30;44m [0;34;40m▄▄░▄[0;30;44m    [0;34;40m▄[0;30;44m   [0;34;40m▄[0;30;44m [0;34;40m▄[0;30;44m       [0;34;40m░▄▄[0;30;44m     [0;34;40m▄[0;30;44m [0;34;40m▄▄  [0m

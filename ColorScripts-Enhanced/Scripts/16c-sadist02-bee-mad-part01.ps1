@@ -1,18 +1,4 @@
-﻿# Converted from: BEE-MAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sadist02/raw/BEE-MAD.ANS
-# Source Revision: archive-sha256:3b487d46b8d6196e38a23b461a8a31a0bcfeed849c805b149ff5c967f2ad35e5
-# Source SHA-256: 3741afe5361a0203a92951975c9e65b487e0667e8cd2fbcfc7d0d3b1d87ebc47
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BEE-MAD.ANS by beebu (sadist); released in sadist02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: MADR1D
-# SAUCE Author: beebu
-# SAUCE Group: sadist
-# SAUCE Date: 19990102
-# SAUCE Dimensions: 80x57
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: MADR1D by beebu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sadist02-bee-mad-part01
 
 Write-Host '
                   [1;31m   [0;33m▐[0;1;31;43m░▒▓▓▓[0;1;31;40m████████████████████████████[0;1;31;43m███████[0;1;31;40m████████▀[0;1;31;43m▀[0;1;31;40m█▀▀[0;1;31;43m▀[0;1;31;40m████[0m

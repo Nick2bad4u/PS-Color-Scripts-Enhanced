@@ -1,13 +1,4 @@
-﻿# Converted from: PP-ORDR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ord-02/raw/PP-ORDR1.ANS
-# Source Revision: archive-sha256:258a1db955cbfd79949d88d4ce27b3dac8d9f43191081c5bcc9d3870b0d54f08
-# Source SHA-256: 7dfcf389917bacb4cd9898a861bd020d2defc64f90ae9f2e57f51b2ec8f02bde
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PP-ORDR1.ANS by Pp-Order (ord-02); released in ord-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: PP-ORDR1.ANS by Pp-Order | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ord-02-pp-ordr1
 
 Write-Host '
 

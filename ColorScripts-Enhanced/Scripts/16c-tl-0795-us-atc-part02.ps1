@@ -1,18 +1,4 @@
-﻿# Converted from: US-ATC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl-0795/raw/US-ATC.ANS
-# Source Revision: archive-sha256:cc100c6a0c273cd42e848ec70d170e2825a98efaeb84e152cf11a1a4f8abea10
-# Source SHA-256: b6fa79547ac5be4690d7c2a25d12a95bde93de2b6190955587bc92b28346a892
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ATC.ANS by Ts + Amp (TeklordZ); released in tl-0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: A Touch of Class
-# SAUCE Author: Amp and Ts
-# SAUCE Group: TeklordZ
-# SAUCE Date: 19950613
-# SAUCE Dimensions: 80x25
-# Lines: 34-66
-# Columns: 1-80
+﻿# Artwork: A Touch of Class by Ts + Amp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl-0795-us-atc-part02
 
 Write-Host '
 [1;34m██████████████████████████████████████▀▀▀[0m [32m▄▄▄[0;1;32;42m▄▄████████████[0;1;32;40m▄[0m [1;34m▀[0m  [1;34m▀███████████████[0m

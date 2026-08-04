@@ -1,18 +1,4 @@
-﻿# Converted from: MI-TOODY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pds-007/raw/MI-TOODY.ANS
-# Source Revision: archive-sha256:01a47dd0b4c06038173aeae77d1c9fd4c0f7cfc575e77faaa8f57c9874bdece7
-# Source SHA-256: 668644bc1e1fd042b3d2553af892bcec86d7dc8a1ecdac0622f8fc6b3ab1786d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MI-TOODY.ANS by MONGi (paradise); released in pds-007 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: toodilydoo. IMPORTANT MESSAGE!
-# SAUCE Author: MONGi
-# SAUCE Group: paradise
-# SAUCE Date: 19961021
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: toodilydoo. IMPORTANT MESSAGE! by MONGi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pds-007-mi-toody
 
 Write-Host '
 ════════════════════════════════════════════════════════════════════════════════

@@ -1,13 +1,4 @@
-﻿# Converted from: CONF2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roy-stuf/raw/CONF2.ANS
-# Source Revision: archive-sha256:1f203f95f339c258e43a9098f8d2e689ed73de537b1cfe6bea312dfc156f1358
-# Source SHA-256: 0819cdb1b079c6886bfbf5448b9b51eb7fd320f7be8cd9f6c60ef1aab678c172
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CONF2.ANS by Roy (roy-stuf); released in roy-stuf and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: CONF2.ANS by Roy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roy-stuf-conf2
 
 Write-Host '
 

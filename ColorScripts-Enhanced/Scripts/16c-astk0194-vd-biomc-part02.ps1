@@ -1,13 +1,4 @@
-﻿# Converted from: VD-BIOMC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/astk0194/raw/VD-BIOMC.ANS
-# Source Revision: archive-sha256:85386f5551c42a88135027c451bdde0caf298cc394973b954eb4073e747445c6
-# Source SHA-256: a502db5de3c3cbc6d167e0475bf0eb643292017e8beaf7d36544a55d8cf755d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VD-BIOMC.ANS by Vlad Drakul (astk0194); released in astk0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 17-61
-# Columns: 1-80
+﻿# Artwork: VD-BIOMC.ANS by Vlad Drakul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-astk0194-vd-biomc-part02
 
 Write-Host '
 [1;30m█▀▀▀▀▀  █▀▀▀▀█  █▀▀▀▀▀  █▀▀▀▀█  █   ██  █    █  █▀▀▀▀█  █▀▀▀▀█  █[0m       [1;30m█▀▀▀▀▄[0m

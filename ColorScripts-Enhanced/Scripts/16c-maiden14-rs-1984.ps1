@@ -1,18 +1,4 @@
-﻿# Converted from: RS-1984.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden14/raw/RS-1984.ANS
-# Source Revision: archive-sha256:8484fc17833e455250727f80fdc56cc19e17aec4fba2f82e3b86585a9e08cb6c
-# Source SHA-256: ce23faf6bb8385d20a748282b8fc5f440235661c89de0e1d46767e9645c4dd04
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-1984.ANS by rorshack (Maiden Brazil); released in maiden14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: newspeak rules (?!)
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19971215
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: newspeak rules (?!) by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden14-rs-1984
 
 Write-Host '
 

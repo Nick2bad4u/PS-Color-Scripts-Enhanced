@@ -1,19 +1,4 @@
-﻿# Converted from: 0zZ-U-ZeroSlack.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/slackpack001/raw/0zZ-U-ZeroSlack.ans
-# Source Revision: archive-sha256:5cacf66a668b317d377907af22e0a4e5723c4f7fb85756d1ef888c14cabea25b
-# Source SHA-256: 593633b2c1d41ef2b70bfb16fa607832913b91de3ee4e23278507be27767f007
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 0zZ-U-ZeroSlack.ans by 0zZ-U (Slackers); released in slackpack001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Zero Slack
-# SAUCE Author: 0zZ-U
-# SAUCE Group: Slackers
-# SAUCE Date: 20250606
-# SAUCE Dimensions: 80x26
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Zero Slack by 0zZ-U | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-slackpack001-0zz-u-zeroslack
 
 Write-Host '
           [32m▀[0;32;41m▀[0;32;40m█▄[0;31;40m▄[0;32;40m██▀[0;37;40m                                                     [0;1;31;40m▄█▀▀▀▀[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: AS-BLND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr015/raw/AS-BLND.ANS
-# Source Revision: archive-sha256:207257efec59abae2611bc00a45085830a91002aa8a590ce35f7b3ac437e031e
-# Source SHA-256: 1f029ca6ca70bb4c5841770b4f582ca7ab5682c37cb419e8c7d1991aee4479b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AS-BLND.ANS by Acidic Soap (blndr015); released in blndr015 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: AS-BLND.ANS by Acidic Soap | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr015-as-blnd
 
 Write-Host '
 [34m████████████████████████████████████████████████████████████████████████████████[0m

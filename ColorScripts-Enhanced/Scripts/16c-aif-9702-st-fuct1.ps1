@@ -1,18 +1,4 @@
-﻿# Converted from: ST!FUCT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aif-9702/raw/ST!FUCT1.ANS
-# Source Revision: archive-sha256:3b9f61860c22d001c6e381a5b94c16d8789cd57ba721bbd4a78c247058aafa2b
-# Source SHA-256: 3dd3212e6e2ea71cf619d7f073d63d580cae6b8dbb367d9b231a8cab44154576
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST!FUCT1.ANS by sterac (aif); released in aif-9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fuct menu
-# SAUCE Author: sterac
-# SAUCE Group: aif
-# SAUCE Date: 19970111
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: fuct menu by sterac | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aif-9702-st-fuct1
 
 Write-Host '
 [34m               ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄          ▄▄▄▄▄▄▄          ▄▄▄▄▄▄▄               [0m

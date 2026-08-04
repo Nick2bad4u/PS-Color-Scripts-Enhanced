@@ -1,13 +1,4 @@
-﻿# Converted from: MST!NOBO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spr_06/raw/MST!NOBO.ANS
-# Source Revision: archive-sha256:011b45019769fff7acdc69361784d20e61270e8922d782c0c08cbc7efb1e1aaf
-# Source SHA-256: e10d7752219b0d41bc2a65704c3f13d7c2766706a882a5bd5ad94afc7b8e483e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MST!NOBO.ANS by Mist (spr_06); released in spr_06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: MST!NOBO.ANS by Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spr-06-mst-nobo
 
 Write-Host '
 [1;30;47m▀▓[0;1;30;40m███▓▓▓ [0m  [1;36m    [0;1;30m [0m     [1;30m▀██[0;1;30;47m▀[0;1;30;40m█▄[0m    [1;30m▄██▓▓[0m    [31m▄[0;37m  [0;1;30m █▓▓▄[0m                     [1;30m▀▓▓▓█[0;1;30;47m▓▄▀[0;1;30;40m██[0m

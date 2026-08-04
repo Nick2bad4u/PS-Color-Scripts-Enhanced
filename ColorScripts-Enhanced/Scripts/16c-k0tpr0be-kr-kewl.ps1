@@ -1,18 +1,4 @@
-﻿# Converted from: KR-KEWL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k0tpr0be/raw/KR-KEWL.ANS
-# Source Revision: archive-sha256:fcb0e37abcb9d171de6d5cc918649afa7e9c0f2f5173dba90a7d8c38f69cec3d
-# Source SHA-256: 32a831b8617496a8eb7c8f819bae7d2a50a0130adc3f111a5fc1d39c233a0bb4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KR-KEWL.ANS by krash (fbk); released in k0tpr0be and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: eyhoe system
-# SAUCE Author: krash
-# SAUCE Group: fbk
-# SAUCE Date: 19960229
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: eyhoe system by krash | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k0tpr0be-kr-kewl
 
 Write-Host '
                           [1;30m█▓▓▓▒░░░░░░░░[0m  [1;30m█[0m

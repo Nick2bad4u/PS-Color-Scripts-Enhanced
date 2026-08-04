@@ -1,18 +1,4 @@
-﻿# Converted from: (M!)HARL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0497/raw/(M!)HARL.ANS
-# Source Revision: archive-sha256:ac23f379eb24f5f6ad8faa432723caa3c85fc7d4fc380b1d3e101e8eb50ca483
-# Source SHA-256: 22d1c039a21e4d8622c30d7133faae1edc8672c4b2bff2419c803bbb066ee40f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: (M!)HARL.ANS by m0! (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: harakiri login
-# SAUCE Author: m0!
-# SAUCE Group: phat studios '97
-# SAUCE Date: 19970325
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: harakiri login by m0! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0497-m-harl
 
 Write-Host '
    [31m▄▄[0;1;31;41m░░[0;31m▄▄▄[0m         [33m▄▄▄▄▄▄[0m     [33m   [0;1;31m [0;31m▄▄[0;1;31;41m░░[0;31m▄▄▄▄▄▄▄▄▄▄▄[0m    [31m▄▄▄▄▄▄▄▄[0;1;31;41m░░░[0;31m▄▄▄▄▄[0;1;31;41m░░[0;31m▄▄[0m

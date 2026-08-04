@@ -1,18 +1,4 @@
-﻿# Converted from: RD-TD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-1096/raw/RD-TD1.ANS
-# Source Revision: archive-sha256:73b0e2918c9e3daef978e4ff1f97345c8d9080edab06ce99d8d8ee6a5fb0b3de
-# Source SHA-256: ae3440fc87e1481fec146c20dc258edba911f35e1aa021f6bda4e5e675a874e4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD-TD1.ANS by raider (mOp); released in opx-1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: tested denial logo
-# SAUCE Author: raider
-# SAUCE Group: mOp
-# SAUCE Date: 19960822
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: tested denial logo by raider | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-1096-rd-td1
 
 Write-Host '
 [1;31m [0;1;36m  [0;35m [0m     [1;30m▀░[0m          [31m░■[0;37m  [0;31m░[0m    [31m▄[0m        [37m    [0;1;30m▀░[0m  [31m░[0;37m       [0;31m▒▒[0;37m      [0m    [31m░[0m   [31m      ▄ ▀[0m

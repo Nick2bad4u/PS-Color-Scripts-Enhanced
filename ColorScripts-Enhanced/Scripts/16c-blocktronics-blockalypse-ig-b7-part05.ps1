@@ -1,16 +1,4 @@
-﻿# Converted from: ig-b7.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_blockalypse/raw/ig-b7.ans
-# Source Revision: archive-sha256:29ba148fe5fc8b4a774ee58a56a5b6d8104f139a95cba3df944ffda7c075e06a
-# Source SHA-256: 9f448c520baae625028b22a9b3cd80854cf27d655c9a198989ae10e0c3a2409b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ig-b7.ans by Ironghost (blocktronics_blockalypse); released in blocktronics_blockalypse and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20140106
-# SAUCE Dimensions: 80x241
-# SAUCE Font: IBM VGA
-# Lines: 194-241
-# Columns: 1-80
+﻿# Artwork: ig-b7.ans by Ironghost | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blockalypse-ig-b7-part05
 
 Write-Host '
 [1;30m [0m▄[1;47m█░[0;1;40m [0m█ [1;47m██[0m█  [1;30m█ [0;1;37;47m█░[0;1;37;40m [0;1;30;40m████▀ ▀█████████████ [0;1;37;47m█░[0;1;37;40m [0;1;30;40m██████  ███████████████████████████████[0m

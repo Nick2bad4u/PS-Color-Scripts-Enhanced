@@ -1,18 +1,4 @@
-﻿# Converted from: TSK-TOGA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0402/raw/TSK-TOGA.ANS
-# Source Revision: archive-sha256:19898cc2febb6deadccf50832dc421b4f362a33c899e27278bafd225bbc2d4d4
-# Source SHA-256: 7bf6c75f0aade5ae6ce0e78b9c74c368b50a6cf79175dab88d5789989aa25771
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-TOGA.ANS by The Silent Killer (Revival); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Toga.cx
-# SAUCE Author: The Silent Killer
-# SAUCE Group: Revival
-# SAUCE Date: 20020415
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Toga.cx by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0402-tsk-toga
 
 Write-Host '
 

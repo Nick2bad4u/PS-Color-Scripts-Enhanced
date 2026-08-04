@@ -1,19 +1,4 @@
-﻿# Converted from: FIL-UNI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-35/raw/FIL-UNI.ANS
-# Source Revision: archive-sha256:c366a38306f48b13ede280377c5f8ef243fdab7e7890ac3e053ec3ccbc5d901a
-# Source SHA-256: 73f98da110601deeb7dbf8229a895c28441a542f219721921a8b0129138050cb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FIL-UNI.ANS by FiLTH (FiRE); released in fire-35 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: UNiON TRiBUTE
-# SAUCE Author: FiLTH
-# SAUCE Group: FiRE
-# SAUCE Date: 20221211
-# SAUCE Dimensions: 80x292
-# SAUCE Font: IBM VGA
-# Lines: 245-292
-# Columns: 1-80
+﻿# Artwork: UNiON TRiBUTE by FiLTH | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-35-fil-uni-part06
 
 Write-Host '
 [33;41m░[0;1;37;41m ████ [0;31m█████[0;1;37;41m████ [0;31m█████[0;1;37;41m▄████████▄[0;31m██████[0;1;37;41m██[0;1;33;41m██[0;31m███[0;33;41m [0;31;40m██[0;1;37;41m▄████████▄[0;31m███[0;33;41m [0;31;40m████[0;1;37;41m▄████████▄[0;31m███[0;33;41m░[0m

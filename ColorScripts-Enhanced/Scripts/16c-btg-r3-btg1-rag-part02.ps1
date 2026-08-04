@@ -1,13 +1,4 @@
-﻿# Converted from: BTG1#RAG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/btg-r3/raw/BTG1%23RAG.ANS
-# Source Revision: raw-sha256:08f4190fbfd82e625e69bc5ad54c58f2223a227070d18e451ae02bb0a0914206
-# Source SHA-256: 08f4190fbfd82e625e69bc5ad54c58f2223a227070d18e451ae02bb0a0914206
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BTG1#RAG.ANS by Rage (btg-r3); released in btg-r3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 45-88
-# Columns: 1-80
+﻿# Artwork: BTG1#RAG.ANS by Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-btg-r3-btg1-rag-part02
 
 Write-Host '
 [1;37m████████ [0;35m████  [0;1;37m██ [0;35m██  [0;33m████████████[0;1;33m█████[0;1;33;41m       [0;33m███████████[0;1;33m█████ [0;1;37m█ [0;35m█████████ [0;1;37m█████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: 33-KAOZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0297/raw/33-KAOZ.ANS
-# Source Revision: archive-sha256:12d66e55bc50470ef328e6f9ec21c65dbe558f61a1cf46f5aac359e3cb051dfe
-# Source SHA-256: a2ef793ed43d9c5b6a9cd5c8aad2111988793bcd3e3f39461ab6f39ece8ca5bf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-KAOZ.ANS by Eerie (Fire); released in fire0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Kaoz
-# SAUCE Author: Eerie
-# SAUCE Group: Fire
-# SAUCE Date: 19970206
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Kaoz by Eerie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0297-33-kaoz
 
 Write-Host '
 [31m33/fire[0m           [31m▄▄▄▄▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: UG-HAQS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0995/raw/UG-HAQS1.ANS
-# Source Revision: archive-sha256:66f11d43d10b981d3ff2235c6fadd1403a507952ad88040c9eb9cd5142a4f4b1
-# Source SHA-256: 4b912dcebb09b046516f00d4019444dbaa37f4531926552db2be0f57b244aa0b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UG-HAQS1.ANS by Misfit + Number 28 (Union); released in uni-0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: tha hACk shACk!
-# SAUCE Author: Union Group Prod.
-# SAUCE Group: Union
-# SAUCE Date: 19950814
-# SAUCE Dimensions: 80x108
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: tha hACk shACk! by Misfit + Number 28 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0995-ug-haqs1-part01
 
 Write-Host '
 [30m                                        [0;34m▄▄▄▄[0;1;34m░[0;30m                                   [0m

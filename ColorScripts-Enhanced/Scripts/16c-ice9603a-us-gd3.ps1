@@ -1,13 +1,4 @@
-﻿# Converted from: US-GD3.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9603a/raw/US-GD3.ICE
-# Source Revision: archive-sha256:51bcd96b8979115d69f1f707dc5c3d398256f0ac7a750005c0ccb144327b6f27
-# Source SHA-256: 363baf7a7481f6a31d8019bdf50957e06ae333a2726a6c6d73f7a421777af71c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GD3.ICE by Lemonade + Apox (ice9603a); released in ice9603a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: US-GD3.ICE by Lemonade + Apox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9603a-us-gd3
 
 Write-Host '
                            [31m▐▄[0m            [31m▄▌[0m                  [31m▄▌[0m

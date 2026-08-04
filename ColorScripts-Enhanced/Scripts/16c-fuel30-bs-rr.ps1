@@ -1,13 +1,4 @@
-﻿# Converted from: bs-rr.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel30/raw/bs-rr.ans
-# Source Revision: archive-sha256:e3148e82a669aa484baf0738069fbabe44ba2824856e1cb4b05875b86bdd4621
-# Source SHA-256: 407a3a1604fe5b79b6083b0dd171d9ae24aedbdd98c077dd39d7e89fb778ed7c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bs-rr.ans by Burps (fuel30); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: bs-rr.ans by Burps | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel30-bs-rr
 
 Write-Host '
 [1;37;40m [0;1;30;40m░░[0;35m░[0;1;30m░[0;35m░[0;1;30m░[0;35m░░░░░░░░░░░░░▒▒▒▓▓▓▀ [0;33m▄[0;1;33;43m▄░[0;33m▀█▄▄▄  [0;35m▀▓▓▓▓▒▒▒░░░░░░░░░░░░░░░░░░░░░░░░░░[0;1;30m░[0;35m░░[0;1;30m░░░░ [0m

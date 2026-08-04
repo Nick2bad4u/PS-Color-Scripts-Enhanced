@@ -1,18 +1,4 @@
-﻿# Converted from: FV-FISHY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0502/raw/FV-FISHY.ANS
-# Source Revision: archive-sha256:98bfa3cc78c733050b0c647e7e0271e7623e3c31e4f40f218a00b89b2165c771
-# Source SHA-256: 057dbcb1b533c42711d33f53ba8dabce922a458d2b9cab68c00dd5e5b96dc410
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-FISHY.ANS by The Creep Fever (Revival); released in rev0502 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Piranha 01
-# SAUCE Author: The Creep Fever
-# SAUCE Group: Revival
-# SAUCE Date: 20020419
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Piranha 01 by The Creep Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0502-fv-fishy
 
 Write-Host '
 [31m ▄▀▀▀▀[0;30;41m  [0;31;40m▀▀[0;30;41m  [0;31;40m▀  ▀▀[0;30;41m  [0;31;40m▀▀▀  ▀▀[0;30;41m   [0;31;40m▀▀[0;30;41m [0;1;37;41m    [0;30;41m [0;31;40m▀[0;30;41m           [0;31;40m▀    ▀▀▀▀▀  ▀▀▀▀▀[0;30;41m  [0;31;40m▀▀▀[0;30;41m [0;31;40m▀▀▀[0;30;41m [0;31;40m▀▓▄[0m

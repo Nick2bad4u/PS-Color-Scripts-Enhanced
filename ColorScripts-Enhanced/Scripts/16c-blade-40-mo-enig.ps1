@@ -1,18 +1,4 @@
-﻿# Converted from: MO-ENIG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blade-40/raw/MO-ENIG.ANS
-# Source Revision: archive-sha256:36dce442fca1d182e4b74added5979db24d6a61d5306960c3e6982e7319e3076
-# Source SHA-256: ca84930a2effb73a4c6e14cb50307e71869162321e3f07d9d2b79eed6776920a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MO-ENIG.ANS by magnatOp (blade productions 97); released in blade-40 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Enig
-# SAUCE Author: magnatOp
-# SAUCE Group: blade productions 97
-# SAUCE Date: 19970604
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Enig by magnatOp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blade-40-mo-enig
 
 Write-Host '
                                   [1mmO[0m                            [1;33m░░[0m    [1;33m▀[0m   [1;33m■[0m

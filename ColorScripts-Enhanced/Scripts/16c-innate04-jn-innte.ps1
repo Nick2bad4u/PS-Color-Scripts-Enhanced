@@ -1,17 +1,4 @@
-﻿# Converted from: JN-INNTE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/innate04/raw/JN-INNTE.ANS
-# Source Revision: archive-sha256:1ba168a0585b5be9c461fc3287fbd2b0c539b19f6fb6fab73e3da0962e3f6fa5
-# Source SHA-256: 08aa69d8c71930722c7c1dae25ac41fc90661a85646e3d176b579c2fdcc3d5a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JN-INNTE.ANS by Jashiin (Mimic Productions); released in innate04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: Jashiin
-# SAUCE Group: Mimic Productions
-# SAUCE Date: 20031008
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: JN-INNTE.ANS by Jashiin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-innate04-jn-innte
 
 Write-Host '
                  [1;36m$$[0m                           [1;33m$$[0m         [1;33m$$$$[0m           [1;33m$$[0m

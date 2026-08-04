@@ -1,18 +1,4 @@
-﻿# Converted from: HS-VIO-X.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lap-0794/raw/HS-VIO-X.ANS
-# Source Revision: archive-sha256:a385ab6f06d1a038608115f838ad55681f691e036bb82be64e681a5ba7982c9a
-# Source SHA-256: 1af322b87fc50f418d2663c835786fa5c29b51c74d1cc3e85e066115b7e2f4f1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HS-VIO-X.ANS by HellSpawn (Lapse); released in lap-0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Violator-X
-# SAUCE Author: HellSpawn
-# SAUCE Group: Lapse
-# SAUCE Date: 19940602
-# SAUCE Dimensions: 80x25
-# Lines: 131-180
-# Columns: 1-80
+﻿# Artwork: Violator-X by HellSpawn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lap-0794-hs-vio-x-part04
 
 Write-Host '
                                                           [32m░ [0;1;32m█[0;1;32;42m█▓▒░ [0;1;30;42m░░░▒▓▓[0;1;30;40m████[0;1;30;42m████[0m

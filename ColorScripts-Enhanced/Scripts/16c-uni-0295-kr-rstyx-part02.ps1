@@ -1,18 +1,4 @@
-﻿# Converted from: KR-RSTYX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0295/raw/KR-RSTYX.ANS
-# Source Revision: archive-sha256:3c1f9e2be5bb9da143a16b3da10a257af365153b05cfdbe553f9e1db9662a266
-# Source SHA-256: b6d3fd75355d65e003f18ebb8691d1344512f2784c34613c69085958c76eead4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KR-RSTYX.ANS by Krypton (Union); released in uni-0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The River Styx
-# SAUCE Author: Krypton
-# SAUCE Group: Union
-# SAUCE Date: 19950201
-# SAUCE Dimensions: 80x25
-# Lines: 30-56
-# Columns: 1-80
+﻿# Artwork: The River Styx by Krypton | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0295-kr-rstyx-part02
 
 Write-Host '
                          ▀[1;30m▀[0;1;37;47m░ [0;1;31;47m░░ [0m [1;30;40m░[0m▀▀▀▀▀▀██▓██  [33m▀▀ [0;1;31m▄[0m▄▄ [33m▀▀   ▀▀███░   [0;1;31m▄[0m▄▄  [33m█▓▀[0m

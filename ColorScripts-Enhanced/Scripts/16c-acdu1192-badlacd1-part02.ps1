@@ -1,13 +1,4 @@
-﻿# Converted from: BADLACD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1192/raw/BADLACD1.ANS
-# Source Revision: archive-sha256:8f9edeb4f92b0693833f343328f0977cc472aa2ea98dbae0f830bf926a78711d
-# Source SHA-256: da94889991e935489a21ec17c1875fa08ed63b8a1c79b59f7160be1afd97e776
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BADLACD1.ANS by Cerebrus (acdu1192); released in acdu1192 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 49-96
-# Columns: 1-80
+﻿# Artwork: BADLACD1.ANS by Cerebrus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1192-badlacd1-part02
 
 Write-Host '
 [1;30;40m██ [0;1;30;47m▌░▒▓[0;1;30;40m██████████ ▄▄ [0;1;30;41m  [0;31m▀▀ [0;1;30m▄▄[0;1;30;47m▀█[0;1;30;40m▀ [0;1;30;47m▓▀▄▓▀▄▀▓[0m [1;30;47m▓[0;1;30;40m▄ [0;1;31;40m▀▀▀[0;1;31;41m▄ ▀    [0m  [1;30;40m█[0;1;30;47m█▓[0;1;30;40m█[0;1;30;47m█[0;1;30;40m▀▄▄▄▄███████ ███[0m

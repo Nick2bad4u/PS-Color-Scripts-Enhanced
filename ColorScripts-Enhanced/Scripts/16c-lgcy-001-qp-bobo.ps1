@@ -1,20 +1,4 @@
-﻿# Converted from: qp-bobo.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-001/raw/qp-bobo.ans
-# Source Revision: archive-sha256:589c804657c8d15ba617f7c0fd80723e4505d519989b80eba9584665be49eb54
-# Source SHA-256: 9549edc4e759899190ad16fdfed2cf6973fb6699357a2cefd814951c9755b33f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: qp-bobo.ans by Quip (Legacy Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: LEGACY #1
-# SAUCE Author: Quip
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20191124
-# SAUCE Dimensions: 80x42
-# SAUCE Font: IBM VGA
-# SAUCE Comments: How you like me now? Booyah!
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: LEGACY #1 by Quip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-001-qp-bobo
 
 Write-Host '
 [1m ▄██▒▒▒▒██ ██▒▒▒▓█▓ ▄███[0;1;47m▀[0m▀▀▀              ▀▀█[1;47m▀[0;1;40m██████[0m      [1m▄█▓▒▒▒▒███▒▄███▓███▄[0m

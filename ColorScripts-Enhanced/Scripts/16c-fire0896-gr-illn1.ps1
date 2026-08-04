@@ -1,18 +1,4 @@
-﻿# Converted from: GR-ILLN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0896/raw/GR-ILLN1.ANS
-# Source Revision: archive-sha256:f9cf2b2d2bbd2b43295b2db0288f290749703458f413700d0129369379a58bf6
-# Source SHA-256: 7c3190639c15c92a052389cd498ae7ad47548f79863e45be49fedb98581bc733
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GR-ILLN1.ANS by Gunthar (fire); released in fire0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Illness
-# SAUCE Author: Gunthar
-# SAUCE Group: fire
-# SAUCE Date: 19960714
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Illness by Gunthar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0896-gr-illn1
 
 Write-Host '
               [1;30m░[0m

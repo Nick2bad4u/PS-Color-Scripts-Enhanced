@@ -1,17 +1,4 @@
-﻿# Converted from: TK-FLATL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel11/raw/TK-FLATL.ANS
-# Source Revision: archive-sha256:bc01376bbeb692c1fce16796b92a6fd889f89dbf4c55eb291719d5ea3fd5846c
-# Source SHA-256: 12a670c376c055fe30cba7e7ed65500e3cd7042fea615b2773f72dda3a81762b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TK-FLATL.ANS by The Knight (Fuel); released in fuel11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Flatline, for a cia production
-# SAUCE Author: The Knight
-# SAUCE Group: Fuel
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Flatline, for a cia production by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel11-tk-flatl
 
 Write-Host '
 [1;34;44m▒░[0;34m█▀▄█[0;1;34;44m░[0;34m█▀░░[0;33m        [0;34m  ▀▀[0;1;34;44m░■▄▄░░▓▓▓▓[0;1;34;40m▄▄[0;34m▄▒░▄ ░▒▓▀█▄ [0;37mtk[0;1;37m([0mfuel[1m)[0m

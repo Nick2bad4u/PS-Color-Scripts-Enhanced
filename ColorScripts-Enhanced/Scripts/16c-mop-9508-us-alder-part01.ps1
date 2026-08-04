@@ -1,18 +1,4 @@
-﻿# Converted from: US-ALDER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mop-9508/raw/US-ALDER.ANS
-# Source Revision: archive-sha256:ca0aa83e838644f75fabc99be728b5c204380189c1709b658d5df3a3d6963206
-# Source SHA-256: ce04e495a8a7fa5c8a2758d44e3877a086ccc0d547d2b78d76112f3eacdc960b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ALDER.ANS by Bob The Janitor + Number 28 (mop); released in mop-9508 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: alDERAAn!
-# SAUCE Author: Bobtj & #28
-# SAUCE Group: mop
-# SAUCE Date: 19950805
-# SAUCE Dimensions: 80x61
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: alDERAAn! by Bob The Janitor + Number 28 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mop-9508-us-alder-part01
 
 Write-Host '
 [1;30m[0m[1;30m[0m[30m[0m                                                       [33m▄■[0m

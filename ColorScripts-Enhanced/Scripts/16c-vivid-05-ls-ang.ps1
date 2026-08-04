@@ -1,13 +1,4 @@
-﻿# Converted from: LS-ANG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vivid-05/raw/LS-ANG.ANS
-# Source Revision: archive-sha256:1ca52859f6575d1340d8ffe8728ca4c1eb68ca76825ab9db5d5604a13e9854ac
-# Source SHA-256: a0473d1498aa3f77302ee4eb17855541757be089328d12774878d2dd3f3e2212
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LS-ANG.ANS by Lord Sith (vivid-05); released in vivid-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: LS-ANG.ANS by Lord Sith | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vivid-05-ls-ang
 
 Write-Host '
 l[1;33;43m▓▓[0;1;33;40m███[0;1;33;43m▓[0;1;33;40m████[0;1;33;43m▓[0;1;33;40m██████[0;1;33;43m▓[0;1;33;40m█[0;1;33;43m▓[0;1;33;40m████[0;1;33;43m▓[0;1;33;40m██████▀▀▀▀ [0;30;43m▀▀▀▀▀▀▀▀▀▀[0m [1;33;40m▀▀▀[0;1;33;43m▓[0;1;33;40m█[0;1;33;43m▓[0;1;33;40m█████[0;1;33;43m▓[0;1;33;40m███[0;1;33;43m▓[0;1;33;40m██████████[0;1;33;43m▓[0;1;33;40m███[0m

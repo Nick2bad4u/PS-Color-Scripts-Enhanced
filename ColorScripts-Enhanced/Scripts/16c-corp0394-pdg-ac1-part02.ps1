@@ -1,13 +1,4 @@
-﻿# Converted from: PDG-AC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/corp0394/raw/PDG-AC1.ANS
-# Source Revision: archive-sha256:91d50f87083e6637bc06720969ec8c07ec6313a1c98908190ceb08332429cab7
-# Source SHA-256: 7802217ff844bbd159b56447ee5f3ee4e8a677e2233d546d89bf313a4bb94651
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PDG-AC1.ANS by Prodigy (corp0394); released in corp0394 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 47-89
-# Columns: 1-80
+﻿# Artwork: PDG-AC1.ANS by Prodigy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-corp0394-pdg-ac1-part02
 
 Write-Host '
 [1;37;40m████████████[0;1;37;43m█[0;1;37;40m█ [0;1;30;40m█▀[0m       [1;30;40m▄▄    [0;1;37;40m▐[0;1;37;47m▌[0;1;37;41m███[0;1;37;47m█▄▄▄ [0;1;30;47m▀███▀[0;1;37;40m▌[0m                    [1;30;40m▐█[0;1;37;40m▐███████████[0m

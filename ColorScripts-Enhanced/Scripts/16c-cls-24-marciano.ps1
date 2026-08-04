@@ -1,18 +1,4 @@
-﻿# Converted from: MARCIANO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cls-24/raw/MARCIANO.ANS
-# Source Revision: archive-sha256:25053bc15e5e48ff5004cd9fec0a87fd3e5a0af4d9241cb6b4ce884a851d13a2
-# Source SHA-256: 4beb4d0899020067393c67f7c23993f901e5776b5d4e1f7c0bad3fc6186c7e1c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MARCIANO.ANS by Psylocke (C.L.S); released in cls-24 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Scum Team, Under Society... (((???
-# SAUCE Author: Psylocke
-# SAUCE Group: C.L.S
-# SAUCE Date: 19981207
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Scum Team, Under Society... (((??? by Psylocke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cls-24-marciano
 
 Write-Host '
         [1;32m▒▓[0;1;32;47m████[0;1;32;40m▓▒[0m                                  [1;32m▒▓[0;1;32;47m████[0;1;32;40m▓▒[0m

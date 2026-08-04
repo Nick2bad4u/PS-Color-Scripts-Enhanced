@@ -1,13 +1,4 @@
-﻿# Converted from: CN-TUSSC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tus-06/raw/CN-TUSSC.ANS
-# Source Revision: archive-sha256:51b671f2cc7e9d00368c85bede9ec7f3ff4d004664f30443ced4184b66636a6b
-# Source SHA-256: b25cea77371dba3289af1268921f6438b8397700e9b2d80c44efb591f4ee08e5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CN-TUSSC.ANS by Cain (tus-06); released in tus-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: CN-TUSSC.ANS by Cain | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tus-06-cn-tussc
 
 Write-Host '
                                                    [34m____[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SO-PG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0395/raw/SO-PG1.ANS
-# Source Revision: archive-sha256:c61de425dfa6c17c15d8c7a3f501188ae0f41871982f3a874a318b2cadecd44e
-# Source SHA-256: 556121123bf480ad420ed2f2e8db40888e4e20a26ad3713f224077e0db23a008
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SO-PG1.ANS by Somms (ACiD Productions); released in acdu0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The PowerGrid
-# SAUCE Author: Somms
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950301
-# SAUCE Dimensions: 80x159
-# Lines: 123-159
-# Columns: 1-80
+﻿# Artwork: The PowerGrid by Somms | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0395-so-pg1-part04
 
 Write-Host '
 [31m ▒▓█▓██[0;1;31;41m░░[0;31m██[0m [31m▄█[0;1;31;41m░[0;31m▀ [0m  [31m ▄███▀[0m [31m▄██████[0;1;31;41m░░ ░[0;31m██▀[0m            [31m▄█[0;1;31;41m░░[0;41m▄█▓▄▀▀▓▒[0;31;40m███▓▀ [0m

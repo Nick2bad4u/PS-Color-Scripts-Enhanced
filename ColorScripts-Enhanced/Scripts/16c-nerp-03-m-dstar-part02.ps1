@@ -1,18 +1,4 @@
-﻿# Converted from: M-DSTAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-03/raw/M-DSTAR.ANS
-# Source Revision: archive-sha256:9ea26ff16b2d0162532c602fba75b69e539d71620a3b4e34b796de886326619c
-# Source SHA-256: 03ceac60a6d035c052a440c9ff33543eb478d4dd2adc0535f4619a6ff1016c2b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M-DSTAR.ANS by milkmang (nerp); released in nerp-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Deathstar
-# SAUCE Author: milkmang
-# SAUCE Group: nerp
-# SAUCE Date: 19971224
-# SAUCE Dimensions: 80x184
-# Lines: 46-91
-# Columns: 1-80
+﻿# Artwork: Deathstar by milkmang | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-03-m-dstar-part02
 
 Write-Host '
 [1;30;46m░▓[0;1;30;40m▌[0;1;30;46m▓░[0;36m█ ▓▓█▀▀▀▀▀     [0;34m███▄[0;36m  ▀▀▀  [0;34m▄▄▀▀▄▄▀[0;37m  [0;34m ▄▀[0;36;44m░▓▄[0;34;40m█▐░[0;37;40m  [0;36;40m▄███▀ [0;31;40m▄▄[0;36;40m  ▄█████████████▓▐░ [0m

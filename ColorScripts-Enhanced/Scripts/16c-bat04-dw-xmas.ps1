@@ -1,18 +1,4 @@
-﻿# Converted from: DW-XMAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bat04/raw/DW-XMAS.ANS
-# Source Revision: archive-sha256:d176f3f3481cd621bff59d2bfb55aef8be05c9007ac772bba99c98c138cb9e41
-# Source SHA-256: 792c72c876bf56a90701bc258afcb69c0c1dc0867effa4ab07b2d015c0220427
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DW-XMAS.ANS by darkwing (bad attitude); released in bat04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the christmaz man!
-# SAUCE Author: darkwing
-# SAUCE Group: bad attitude
-# SAUCE Date: 19961222
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: the christmaz man! by darkwing | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bat04-dw-xmas
 
 Write-Host '
 [35m░░░░░░░░░░░░░ [0;37m [0;31m▓█████████████████████████████████████▓▄[0;37m [0;35m ░░░░░░░░░░░░░░░░░░░░░░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SK!NEBUL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p13_01/raw/SK!NEBUL.ANS
-# Source Revision: archive-sha256:7be01055dd13efccf716f85ba12aeb587f20efb2cff2c3e0ca4196c620859951
-# Source SHA-256: 6668bea6b5dce23a908d82e7c00dc17e8bad7f1ba0cb8557e43fdfe192cfe312
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!NEBUL.ANS by sIMONkING (tHELo0p); released in l0p13_01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: nEBULA - end cover
-# SAUCE Author: sIMONkING
-# SAUCE Group: tHELo0p
-# SAUCE Date: 20011208
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: nEBULA - end cover by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p13-01-sk-nebul
 
 Write-Host '
 

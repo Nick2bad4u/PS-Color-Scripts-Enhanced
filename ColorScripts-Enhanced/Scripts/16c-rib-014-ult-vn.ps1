@@ -1,18 +1,4 @@
-﻿# Converted from: ULT-VN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-014/raw/ULT-VN.ANS
-# Source Revision: archive-sha256:38aae4e6b3e943656501d868e7ccbeee319f7541f5197f0cc3aeed0b83030214
-# Source SHA-256: 3c8faa17852efd037611733a47fe1d5c5566835fcf1a479bdd4abdd021f0e548
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ULT-VN.ANS by Ultimate (unknown); released in rib-014 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: vykhino net
-# SAUCE Author: Ultimate
-# SAUCE Group: unknown
-# SAUCE Date: 19981111
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: vykhino net by Ultimate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-014-ult-vn
 
 Write-Host '
       [33m  [0;37m         [0m         [37m     [0m       [33m▄[0m     [33m▄[0m   [33m▀[0m       [36m░[0;37m [0;36m▄[0m

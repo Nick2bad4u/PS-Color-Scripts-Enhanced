@@ -1,18 +1,4 @@
-﻿# Converted from: JR_HEAD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl-gong/raw/JR_HEAD1.ANS
-# Source Revision: archive-sha256:c90e04c94a395e53e928512945d220d1fff4c215b177bbe4ea888b6b9ab8350e
-# Source SHA-256: 15023b097137b390f0a1f84a4cd245cc16b8fd381b7d40762b1a71c9c44fee96
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_HEAD1.ANS by jerusalem (boil); released in bl-gong and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: my first header...
-# SAUCE Author: jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19970405
-# SAUCE Dimensions: 80x14
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: my first header... by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-gong-jr-head1
 
 Write-Host '
 [1;32m  ▄██▀▀▀▀▀████▀▀▀▀▀▀▀█▀▀▀▀█▀▀▀▀▀▀███████▀▀▀▀▀▀▀▀███▀▀▀▀▀████▀▀▀▀▀▀▀▀▀▀▀▀█▀▀▀▀▀▀█[0m

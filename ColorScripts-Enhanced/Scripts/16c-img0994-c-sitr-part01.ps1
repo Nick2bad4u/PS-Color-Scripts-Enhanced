@@ -1,18 +1,4 @@
-﻿# Converted from: C-SITR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/img0994/raw/C-SITR.ANS
-# Source Revision: archive-sha256:f71d8ed85ca0ccb865692dde13b0ccd32121cde3b55a48a2d905a2c94a7df80f
-# Source SHA-256: 2d38908e19d4b8640f6eac906f2347c2e97cb0f2b841809695cd686befde0d51
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: C-SITR.ANS by Captin (READ THE INI FILE); released in img0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Shadows in the Rain
-# SAUCE Author: Captin
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19940805
-# SAUCE Dimensions: 80x25
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Shadows in the Rain by Captin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-img0994-c-sitr-part01
 
 Write-Host '
   [1;35;45m░ [0;35m▓▒▓ █  ░ ▓▓  █▓▓▒▒░░ ░▒██░░█░  ░░  ▓█▓▒░▓█▓ ▓▒░▒██▓░▒░ ░▒░▒▓█  ░░░░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: TP-BLDE4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9409/raw/TP-BLDE4.ANS
-# Source Revision: archive-sha256:a72f6b61ef8732921793cd342551769e167ed7d0078d9fb08d5ad3a3a9cd5a47
-# Source SHA-256: 938ce0e7a982c020e3e7925edf64d1deb06b51fe71a3e2b0b9ac1b85db30ba8b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TP-BLDE4.ANS by TechoPhreaK (Blade Productions); released in blde9409 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Blade Logo
-# SAUCE Author: TechoPhreaK
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19940809
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Blade Logo by TechoPhreaK | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9409-tp-blde4
 
 Write-Host '
 

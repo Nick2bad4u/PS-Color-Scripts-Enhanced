@@ -1,17 +1,4 @@
-﻿# Converted from: HT-PHAZE.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/sac0997/raw/HT-PHAZE.ANS
-# Source Revision: archive-sha256:da5320832895c3901d4f15edb6d72c8cae3759c8058411ecb6a63c5962f374c9
-# Source SHA-256: a308bde67ca5aa775b83ccb84d844a7e4eb2dab79f8ddc60e677569056f397af
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HT-PHAZE.ANS by hetero; released in sac0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Purple Haze Login
-# SAUCE Author: Hetero
-# SAUCE Group: Lkcc~Sac~Dns~Rzr1911
-# SAUCE Dimensions: 80x25
-# Lines: 29-61
-# Columns: 1-80
+﻿# Artwork: Purple Haze Login by hetero | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0997-ht-phaze-part02
 
 Write-Host '
 [36;42m░[0m [1;31;40m▄███[0;1;31;41m▓[0;1;31;40m█▄[0;1;35;40m▀███ [0;1;31;41m▓▒[0;31m█ [0;31;45m [0;35;40m█[0;1;35;45m▒[0;1;35;40m██[0;1;35;47m▓[0m [1;30;43m▓░░ [0;33m█▀███▀▀▀███▀▀▀███▀██[0;1;30;43m░▒▓[0;1;30;40m▀[0;35m▄█[0;1;35;45m░░▓[0;1;35;40m███[0;1;35;47m▓[0m [1;31;41m░▒[0;1;31;40m▄▄▄▄▄ [0;1;35;40m▀[0;1;35;47m▓[0;1;37;40m█ [0;32m███[0;36;42m░[0m

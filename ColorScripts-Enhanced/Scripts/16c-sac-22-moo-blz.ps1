@@ -1,13 +1,4 @@
-﻿# Converted from: MOO_BLZ.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/sac-22/raw/MOO_BLZ.ANS
-# Source Revision: archive-sha256:91473aec9998ca25ac024484a953b37d1dad07c4a6cee0ff8aa068869bfed70f
-# Source SHA-256: 82fabf0167d97b7191e789af1f53c835194e7eaa98f861a4ae5ba18eafca778e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MOO_BLZ.ANS by moolok; released in sac-22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: MOO_BLZ.ANS by moolok | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac-22-moo-blz
 
 Write-Host '
                                   [1m▄▄▄[0m         [1m▄▄▄▄▄[0m

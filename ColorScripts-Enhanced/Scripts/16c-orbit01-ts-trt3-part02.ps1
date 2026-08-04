@@ -1,13 +1,4 @@
-﻿# Converted from: TS-TRT3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/orbit01/raw/TS-TRT3.ANS
-# Source Revision: archive-sha256:45e7ee6ca4092d8688f02c906ea29837a94566f7544687f1a5895261397fc2fe
-# Source SHA-256: a4a4f844ea37735f05f0b29fe9885553c682f2393b700e89c3329fc4d57b9f5a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-TRT3.ANS by Tsunami Surge (orbit01); released in orbit01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 43-75
-# Columns: 1-80
+﻿# Artwork: TS-TRT3.ANS by Tsunami Surge | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-orbit01-ts-trt3-part02
 
 Write-Host '
                       [1;35;45m▌[0;35m▌[0m      [1;35;45m█ [0m  [1;35;45m▌[0m  [1;31;43m░[0;31;43m▒[0;1;31;43m░[0;31;43m▒[0;1;31;43m░[0;31;43m▒[0;33;40m░░░▒▒[0;1;30;43m░░░░░░░░                  [0;33m▓▓▓▓▒[0m

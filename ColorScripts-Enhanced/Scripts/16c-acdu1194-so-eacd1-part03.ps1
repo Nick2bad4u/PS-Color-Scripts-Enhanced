@@ -1,18 +1,4 @@
-﻿# Converted from: SO-EACD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1194/raw/SO-EACD1.ANS
-# Source Revision: archive-sha256:0cd3429c05395c5369b2d8b470975ab968626be403f511098965c1e5f3d5050c
-# Source SHA-256: 5696ace442b5874d4d493bdf6fabcb05883035b57e7770a1262821a700b22bc3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SO-EACD1.ANS by Somms (ACiD Productions); released in acdu1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Electric Acid
-# SAUCE Author: Somms
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19941101
-# SAUCE Dimensions: 80x113
-# Lines: 84-113
-# Columns: 1-80
+﻿# Artwork: Electric Acid by Somms | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1194-so-eacd1-part03
 
 Write-Host '
 [1;30m▌[0m        [34m▄[0m                    [34m▄[0m        [34m▄[0m          [34m [0m         [34m▄[0m               [34m▄[0m [1;30m▐[0m

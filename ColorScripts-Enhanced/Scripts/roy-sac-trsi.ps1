@@ -1,18 +1,4 @@
-﻿# Converted from: ROY-TRSI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roy-stuf/raw/ROY-TRSI.ANS
-# Source Revision: archive-sha256:1f203f95f339c258e43a9098f8d2e689ed73de537b1cfe6bea312dfc156f1358
-# Source SHA-256: fe62af5c5c52ce9e02cc34cf006778fabfc6346212bbf36f8811dcf3a39e9499
-# Source License: FAL-1.3
-# Source Attribution: ROY-TRSI.ANS by Roy/SAC aka Carsten Cumbrowski; released in roy-stuf and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: TRSI
-# SAUCE Author: ROY
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19930801
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: TRSI by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-trsi
 
 Write-Host '
                                           [1;30m│   ·[0m

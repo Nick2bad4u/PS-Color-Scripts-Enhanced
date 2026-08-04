@@ -1,18 +1,4 @@
-﻿# Converted from: JA-ICON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icon0595/raw/JA-ICON.ANS
-# Source Revision: archive-sha256:0c4fed1665525dbb7d857717dd9904d141c70c3e98d7bd6cf00702ab896f0d5f
-# Source SHA-256: c95a73b7e17d20b8757086353168a48bdc3503a645f0fa9f5963ca06b147f748
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JA-ICON.ANS by Jashik (iCON); released in icon0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: pure shit...:)
-# SAUCE Author: Jashik
-# SAUCE Group: iCON
-# SAUCE Date: 19950418
-# SAUCE Dimensions: 80x83
-# Lines: 47-82
-# Columns: 1-80
+﻿# Artwork: pure shit...:) by Jashik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icon0595-ja-icon-part02
 
 Write-Host '
 [32;40m░[0m    [30;42m▒[0m                                                                   [30;42m▒[0m    [32;40m░[0;37;40m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: JC-N4#3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-14/raw/JC-N4%233.ANS
-# Source Revision: archive-sha256:92f7a11e9d63bbc4309a79352ecdc986660896bb6b7d6c4276c2371f769e4763
-# Source SHA-256: a09a248eab5741c00346d06aeb1025493644da37c93fbcb33cd9d9d44a0baa4c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JC-N4#3.ANS by Juice (force); released in force-14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: n4-cer rules
-# SAUCE Author: Juice
-# SAUCE Group: force
-# SAUCE Date: 19961111
-# SAUCE Dimensions: 80x14
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: n4-cer rules by Juice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-14-jc-n4-3
 
 Write-Host '
  [1;30m░    ░[0m                                [1;30m░[0m             [1;30m·[0m             [1;30m░[0m

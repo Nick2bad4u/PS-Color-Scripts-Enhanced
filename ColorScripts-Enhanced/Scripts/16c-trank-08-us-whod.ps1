@@ -1,13 +1,4 @@
-﻿# Converted from: us-whod.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/trank-08/raw/us-whod.ans
-# Source Revision: archive-sha256:d62e1c4c00097604dc80ebabe8c9601f40627fd8e644c50bf5e80612697214f4
-# Source SHA-256: cbc0dbb5755b431b688cccfe759ae9c8045db89aa2bcccda1e10fed1d41c1909
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-whod.ans by Trip + Cypher Hex (trank-08); released in trank-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: us-whod.ans by Trip + Cypher Hex | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-trank-08-us-whod
 
 Write-Host '
                                           ``.       [31m,d$P"[0m

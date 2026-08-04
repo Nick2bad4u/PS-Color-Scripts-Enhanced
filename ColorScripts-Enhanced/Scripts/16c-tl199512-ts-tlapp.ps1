@@ -1,18 +1,4 @@
-﻿# Converted from: TS-TLAPP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl199512/raw/TS-TLAPP.ANS
-# Source Revision: archive-sha256:5fe53ca39169434efb75bd9b36a17fd1bcaf0eaf6e956a4066650232cbdc99ec
-# Source SHA-256: 049db0b5a1d0d539ec5555d9fd05ea691e0e10589cf12da3b5fcfff1d58f62cd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-TLAPP.ANS by ts (Teklordz); released in tl199512 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Teklordz AppGen
-# SAUCE Author: ts
-# SAUCE Group: Teklordz
-# SAUCE Date: 19951216
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Teklordz AppGen by ts | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl199512-ts-tlapp
 
 Write-Host '
 [1;30m:[0m ▄[1m▄[0m▄▄[1m▄▄[0m    ▄▄▄[1;47m▀▓[0m ▄▄▄[1m▄▄▄▄▄▄[0m      ▄▄[1m▄▄[0m          ▄▄[1m▄▄▄▄[0m  ▄▄▄▄[1m▄▄▄▄[0m       ▄▄    ▄▄ [1;30m:[0m

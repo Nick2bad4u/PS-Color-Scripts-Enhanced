@@ -1,13 +1,4 @@
-﻿# Converted from: SMP-EH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lure001/raw/SMP-EH.ANS
-# Source Revision: archive-sha256:4bd385abce2c9c5a8caaface84fa74809f8b3dae67f2f4374e4664550d5af3bf
-# Source SHA-256: 0bedca4ad522bc2c4137d3ea01d604dcbb2cda8d923c412f5b6b337edcf68900
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-EH.ANS by Shrimp (lure001); released in lure001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: SMP-EH.ANS by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lure001-smp-eh
 
 Write-Host '
 [35m▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0m        [35m█[0;1;35;45m▄▄▄[0;35m█[0;1;35;45m▄▄▄▄[0;35m█[0m   [37m░░░░[0m         [35m [0;37m [0;35m▄[0;37m [0;35m▄▄▄[0;37m [0;35m▄[0;37m  [0;36m▄[0;37m [0;36m [0;37m  ░░░░  [0;35m█[0;1;35;45m▄▄▄[0;35m█[0;1;35;45m▄ ▄[0;35m█[0m

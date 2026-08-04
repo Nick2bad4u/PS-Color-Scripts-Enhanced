@@ -1,18 +1,4 @@
-﻿# Converted from: ave-ooze.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook19/raw/ave-ooze.ans
-# Source Revision: archive-sha256:3dd762b50e992d041fc40857f6a08666cf879c80169b27b714b162069a52b736
-# Source SHA-256: a7fd9a8a4bfcf9452e9cb58d2526b703eb98486e652220169dc40ce26b19992e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ave-ooze.ans by avenger (black maiden); released in bmbook19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: in memoriam of oOZe
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19990130
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: in memoriam of oOZe by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook19-ave-ooze
 
 Write-Host '
 

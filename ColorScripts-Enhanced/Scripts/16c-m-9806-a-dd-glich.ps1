@@ -1,18 +1,4 @@
-﻿# Converted from: DD-GLICH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m-9806-a/raw/DD-GLICH.ANS
-# Source Revision: archive-sha256:eb10640e3f8107bdd0ebee65a225456c83101a551583eb5db847aaf454501a55
-# Source SHA-256: 74df522773a5aa3fc85156044afccf83372f0427d11af6fa78015a746b5dea9b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-GLICH.ANS by Da Drug (mISTFUNK 1998); released in m-9806-a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Glich logo
-# SAUCE Author: Da Drug
-# SAUCE Group: mISTFUNK 1998
-# SAUCE Date: 19980624
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Glich logo by Da Drug | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m-9806-a-dd-glich
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: US-PARAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook21/raw/US-PARAD.ANS
-# Source Revision: archive-sha256:a9340bf45277705f38b7b2e8dfe7bc518716b8c419a47ac48708bc33bd40ec01
-# Source SHA-256: c4a6dafc9309debc0b00e0086462e43fdb225cebadcece8d0d1be8a543e72e21
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PARAD.ANS by Shine + Maytag (blackmaiden2k / bleu); released in bmbook21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: paradise mysteries
-# SAUCE Author: shine.maytag
-# SAUCE Group: blackmaiden2k / bleu
-# SAUCE Date: 19991216
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: paradise mysteries by Shine + Maytag | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook21-us-parad
 
 Write-Host '
 [1;30m [0;1;36m [0;1;30m [0;1;36m [0m [1;36m [0m [1;36m [0m [1;36m [0m [1;36m [0m [1;36m [0m [1;36m [0m    [32m▄▄▀ ■ [0;36m▄[0;1;36;46m▄[0;36m▄[0;37m    [0;1;31m▄■[0m      [1;36m▓[0m     [31m■ ▀[0;1;31;41m▀[0;31m▄[0m   [1;35m▄[0;35m▄▓▓[0;37m [0;34m▀[0;36m▀[0;1;34;46m▀[0;1;34;40m█[0;36m▌[0;34m ▀▀[0;37m [0;36m■[0;1;34m▀[0m     [36m ▄[0;1;36;42m▄[0;36m▄[0m

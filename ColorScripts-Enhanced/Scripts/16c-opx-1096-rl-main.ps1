@@ -1,18 +1,4 @@
-﻿# Converted from: RL!-MAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-1096/raw/RL!-MAIN.ANS
-# Source Revision: archive-sha256:73b0e2918c9e3daef978e4ff1f97345c8d9080edab06ce99d8d8ee6a5fb0b3de
-# Source SHA-256: aad695f1789976d8a541a25eec103c77d1ce0a3eca5bd80c60a3366fb01b9a6b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL!-MAIN.ANS by rawlock (rl!) (opx); released in opx-1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Lethal Minds Main Menu
-# SAUCE Author: rawlock (rl!)
-# SAUCE Group: opx
-# SAUCE Date: 19961005
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Lethal Minds Main Menu by rawlock (rl!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-1096-rl-main
 
 Write-Host '
 [32m [0;1;31m  [0;31m          [0;1;30m [0m  [1;30m          ░  [0;1;30;47m [0;1;30;40m     [0m░[1;30m      [0m [1;30m             ░                      [0m

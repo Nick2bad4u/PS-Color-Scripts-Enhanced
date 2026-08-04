@@ -1,18 +1,4 @@
-﻿# Converted from: PC-JASON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/trans04/raw/PC-JASON.ANS
-# Source Revision: archive-sha256:6dbf4a8af5f5d8dd35a729393418a99b5601c6f0cc493ed8ff44ff0e1ad25cde
-# Source SHA-256: 5e474028ac3b7abc4a3764d19908921cca976c1f2e432266da78919f88ba8cac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-JASON.ANS by Proctologist (Transmission); released in trans04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: zot!
-# SAUCE Author: Proctologist
-# SAUCE Group: Transmission
-# SAUCE Date: 19971115
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: zot! by Proctologist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-trans04-pc-jason
 
 Write-Host '
      [35m    [0;1;30m ╓                            [0;31m [0;1;31m   [0;1;30m  [0m                    

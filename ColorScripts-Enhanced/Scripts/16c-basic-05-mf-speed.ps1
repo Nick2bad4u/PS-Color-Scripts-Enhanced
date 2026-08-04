@@ -1,13 +1,4 @@
-﻿# Converted from: MF-SPEED.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/basic-05/raw/MF-SPEED.ANS
-# Source Revision: archive-sha256:a2f68eccc2948d19a9df8c4fd26441b93a19bdc137d65564784937cd2559a252
-# Source SHA-256: 05aab1ee8141e7e79f944ac2a8d0656badb6f63cd2e7b83d92c840e2d915b640
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MF-SPEED.ANS by Mortify (basic-05); released in basic-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: MF-SPEED.ANS by Mortify | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-basic-05-mf-speed
 
 Write-Host '
 

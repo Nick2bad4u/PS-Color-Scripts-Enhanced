@@ -1,18 +1,4 @@
-﻿# Converted from: T2-IOM2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dom-9706/raw/T2-IOM2.ANS
-# Source Revision: archive-sha256:a16d91b4075cff760b5038e2a8f1aab02d1965c9e4bbc85ed187b0405326b9b6
-# Source SHA-256: c02990fcf6e5d077b920a940f759d14d9e80672d21f8c66d3987a5c02cbdad13
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T2-IOM2.ANS by Terminator2 (Domino); released in dom-9706 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ides of March
-# SAUCE Author: Terminator2
-# SAUCE Group: Domino
-# SAUCE Date: 19970605
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Ides of March by Terminator2 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dom-9706-t2-iom2
 
 Write-Host '
 

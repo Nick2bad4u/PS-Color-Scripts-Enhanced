@@ -1,13 +1,4 @@
-﻿# Converted from: f3!zargon.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/chemical.reaction.blocks.in.my.brain.artpack.24-cro/raw/f3!zargon.ans
-# Source Revision: archive-sha256:d93b6f57500c71739ad12c4cba603136de93fb865ec281117f9125d23e977959
-# Source SHA-256: fe95e1bca74cb739564ae898a6675ecaf5603e83714b8c4c20ae0a10662753e1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: f3!zargon.ans by F3-Cro (chemical.reaction.blocks.in.my.brain.artpack.24-cro); released in chemical.reaction.blocks.in.my.brain.artpack.24-cro and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: f3!zargon.ans by F3-Cro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-f3-zargon
 
 Write-Host '
                                                                        [30;41m█▓▓▓[0m

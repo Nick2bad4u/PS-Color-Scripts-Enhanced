@@ -1,13 +1,4 @@
-﻿# Converted from: we-j2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper03/raw/we-j2.ans
-# Source Revision: archive-sha256:96c1272030a36fd5502bf2f34e681c795192c7d49fac9a2ab5dd4a5a2bf5606c
-# Source SHA-256: 9a463fa2a19340111aa6833285dcd864e0e2a99f8b27ea40ed68a189ddf325b0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-j2.ans by Avenging Angel + Aesthetic (jasper03); released in jasper03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: we-j2.ans by Avenging Angel + Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper03-we-j2
 
 Write-Host '
 [1;30m [0m                                                      [32m░[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: BLION-13.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oph-0018/raw/BLION-13.ANS
-# Source Revision: archive-sha256:b78bc978b69dedfb9a07152cba296ecefc97611bd7bc7f5211d489ff748613dc
-# Source SHA-256: bf80c340b33d4bae179ba816a8e7d00753e4a1767081d11e258fa2c117a90026
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BLION-13.ANS by bass lion (oph-0018); released in oph-0018 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: reti greets the      [[[[[[[[[[[
-# SAUCE Author: bass lion
-# SAUCE Date: 19960917
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: reti greets the [[[[[[[[[[[ by bass lion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oph-0018-blion-13
 
 Write-Host '
           [1m  [0m                          [1m▄█▀█▄[0m

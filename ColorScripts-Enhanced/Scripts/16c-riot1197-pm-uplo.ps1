@@ -1,13 +1,4 @@
-﻿# Converted from: pm-uplo.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot1197/raw/pm-uplo.ans
-# Source Revision: archive-sha256:42a4ff2f69bb7f52710e2ec33efed1616917289c2c21517459d11ab153763ccb
-# Source SHA-256: 74b32829c9c1f6ebdb34859385b08c7d39e1999afd2d5ecac533c0e6827b863c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: pm-uplo.ans by Precious Metal (riot1197); released in riot1197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: pm-uplo.ans by Precious Metal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot1197-pm-uplo
 
 Write-Host '
  [31m▄▄▄▄▄▄  ▄[0;37m [0;31m▄▄[0;1;31;41m░[0;31m▄▄▄▄▄▄▄▄[0;37m [0;1;31m▄▄▄▄▄▄[0;1;31;41m▓▓[0m [31m▄▄▄▄[0;1;31m▌[0m [31m▄▄▄▄▄▄▄▄▄▄[0;1;31;41m▓[0;31m ▄▄▄▄▄▄▄▄[0;1;31m▄[0;1;31;41m▓[0;1;31;40m▄[0m [31m▄▄▄▄▄▄▄▄[0;37m [0;1;31m▄[0m

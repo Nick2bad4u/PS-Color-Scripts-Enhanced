@@ -1,18 +1,4 @@
-﻿# Converted from: MP-PRYR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9505/raw/MP-PRYR1.ANS
-# Source Revision: archive-sha256:a5deed4247a518cad128fccba9d59c5a19e59aaf45c5d80076b97e93e3a92482
-# Source SHA-256: ec26cb5871a82f1ebbfd8d81ea161b80afeb539da10687127586eec9d144ee40
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MP-PRYR1.ANS by mephitopeles (blade productions); released in blde9505 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: prayer!
-# SAUCE Author: mephitopeles
-# SAUCE Group: blade productions
-# SAUCE Date: 19950505
-# SAUCE Dimensions: 80x25
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: prayer! by mephitopeles | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9505-mp-pryr1
 
 Write-Host '
 [1;34;47m▓[0;1;34;40m██████████[0;1;34;47m█████[0;1;34;40m██████████████████████████[0;1;34;45m▓[0;1;34;47m█████[0;1;34;44m▓[0m       [1;30;40m▓ [0;34m▀[0;36m▄[0;1;36;46m░ [0;30;46m░[0;36;40m▀▀[0;30;46m▒[0;36;40m▀▀▀[0;1;36;46m░▒▓[0;1;36;40m▄[0;34m▀[0;30;44m░[0;1;34;44m▓█[0;1;34;40m▌[0;1;30;40m░[0m

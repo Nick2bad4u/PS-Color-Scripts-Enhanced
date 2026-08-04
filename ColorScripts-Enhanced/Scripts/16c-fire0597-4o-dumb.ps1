@@ -1,18 +1,4 @@
-﻿# Converted from: 4O-DUMB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0597/raw/4O-DUMB.ANS
-# Source Revision: archive-sha256:d975415729673826f91e424c4e11b4c04f34184fd3a18803a91e92ec4aab5c0b
-# Source SHA-256: 37ee7ffe4feec39d42c59ed4c38dfaf1d9be14ebf3b7708a6a4cd16ff5bf4b64
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 4O-DUMB.ANS by mr4tune (fire); released in fire0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: darkside
-# SAUCE Author: mr4tune
-# SAUCE Group: fire
-# SAUCE Date: 19970501
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: darkside by mr4tune | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0597-4o-dumb
 
 Write-Host '
 [33m▄[0;34m   [0;33m░░[0;34m [0m   [1;30m▄  [0m [34m [0;33m▀[0;1;33m▀[0m    [1;33m▀[0;33m▀[0;37m  [0;1;30m▄[0m [35m [0;33m▀[0;31m  [0;37m [0;1;30m▄[0m▄[1;30m ▐[0m▄▄[1;30m▄ ▀█▄▄▄[0m    [33m▄[0;1;33m▄[0;1;37m▄▄[0;1;33;43m▄[0;1;33;40m▄▄[0;33m▄[0;34m  [0;33m▄[0;1;33m▄[0;1;33;43m▄▀[0;33m▀░[0;34m [0;37m [0;1;30m▄[0m  [33m ▄[0;1;33;43m▄[0;1;33;40m█[0;33m▄[0;34m [0;33m ▄[0;34m  [0m

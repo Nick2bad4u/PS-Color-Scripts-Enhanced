@@ -1,13 +1,4 @@
-﻿# Converted from: Pm-virtu.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot0997/raw/Pm-virtu.ans
-# Source Revision: archive-sha256:6ea2426dd51afe0c87deec352688763ba8c214013417016ceb6e9ac98f83ca40
-# Source SHA-256: cd3bbaa505883efd0685a700c350dc2a1789177863a18cbc30bfa1642092826d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Pm-virtu.ans by Precious Metal (riot0997); released in riot0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Pm-virtu.ans by Precious Metal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot0997-pm-virtu
 
 Write-Host '
 

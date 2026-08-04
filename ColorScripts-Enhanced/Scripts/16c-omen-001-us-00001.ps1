@@ -1,18 +1,4 @@
-﻿# Converted from: US#00001.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/omen-001/raw/US%2300001.ANS
-# Source Revision: archive-sha256:639d01c4976c2412f40262280b42786a4a9a8dcf0c6d28b14f10b18fb7bde312
-# Source SHA-256: 060319010c7279b4e989e2f7700a8bd87e4dc61d23aba454405aeeebd6f13c90
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US#00001.ANS by Artistic Implosion + Lord Of Illusions (plain / omen); released in omen-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: omen promo
-# SAUCE Author: loi / ai
-# SAUCE Group: plain / omen
-# SAUCE Date: 19960731
-# SAUCE Dimensions: 80x24
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: omen promo by Artistic Implosion + Lord Of Illusions | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-omen-001-us-00001
 
 Write-Host '
                                                                   [32m▄▄[0m

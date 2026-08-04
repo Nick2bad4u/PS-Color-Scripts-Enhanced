@@ -1,13 +1,4 @@
-﻿# Converted from: 7thGear.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1oo-moon/raw/7thGear.ans
-# Source Revision: archive-sha256:171e2925602123fe0c10a0ec4407c2834bc26a002fba2fa406825fd80132e138
-# Source SHA-256: 97d12f725e60aefa1e6e3587b3ec709bb81e773c6305fa25f90cbf21ae46653b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 7thGear.ans by Miracle (1oo-moon); released in 1oo-moon and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: 7thGear.ans by Miracle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1oo-moon-7thgear
 
 Write-Host '
    [1;30m▀▀▀▀▀▀▀▀▀▀▀▓▓▓▓▓▓▒▒▓▓▓▓▓▓▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▓▓▓▓▓▓▓▓▓▓▀▀▀▀▀▀▀▀▀░▓▄[0m

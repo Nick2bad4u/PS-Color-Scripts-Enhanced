@@ -1,18 +1,4 @@
-﻿# Converted from: HS-362.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0895/raw/HS-362.ANS
-# Source Revision: archive-sha256:d7578eae73cd5d7b840a098302ec5eecc570498f801ff39620bcdfbd3bc36d42
-# Source SHA-256: 1e97ae4df30fb95f40b06dc18627aabaa330d94d2870ffcfdf630824cf43117d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HS-362.ANS by 666 AKA HellSpawn (Union); released in uni-0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 36 Chambers
-# SAUCE Author: 666 AKA HellSpawn
-# SAUCE Group: Union
-# SAUCE Date: 19950714
-# SAUCE Dimensions: 80x25
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: 36 Chambers by 666 AKA HellSpawn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0895-hs-362-part01
 
 Write-Host '
 [1;30moh god..  [0;31m▄▄▄▄   ▄▄▄▄[0m        [31m▄   ▄▄▄    ▄▄▄███████▄▄▄[0m     [31m▄[0m       [31m▄▄▄█████████▄▄[0m

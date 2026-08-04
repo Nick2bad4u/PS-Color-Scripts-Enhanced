@@ -1,20 +1,4 @@
-﻿# Converted from: ts-apathy13ep.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy13/raw/ts-apathy13ep.ans
-# Source Revision: archive-sha256:3ed7178f860604c6b9786846d46fd13095846b81c16a5324edc4e4b9ea7e6ba8
-# Source SHA-256: 85382d78f72f8625a12700f75647a5b491e1d6a098239040d8421370c9b9666e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ts-apathy13ep.ans by transient (apathy); released in apathy13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: apathy 13 ep (vishnu)
-# SAUCE Author: transient
-# SAUCE Group: apathy
-# SAUCE Date: 20140402
-# SAUCE Dimensions: 80x262
-# SAUCE Font: IBM VGA
-# SAUCE Comments: cover for apathy 13 ep by transient
-# Lines: 177-219
-# Columns: 1-80
+﻿# Artwork: apathy 13 ep (vishnu) by transient | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy13-ts-apathy13ep-part05
 
 Write-Host '
 [1m█[0;107m▓▓░░·[0;1m█[0;107m··▒[0m▀▀▀▀▀[107m■▓[0;1m▀[0m█▀ [1;33m█[0;1;37;103m░[0m [1;34;44m▓[0;1;34;40m███████████▄[0m    [1;33m▀[0;1;33;41m▄ ▄[0;1;33;40m▀[0m [1;34m▄▄███████████[0;1;34;44m▓[0m [1;33m▄▄[0m  ▄[1m▐█[0;107m■■[0;1m█[0;107m··[0;1m█[0m▄▄[1m▀██[0m

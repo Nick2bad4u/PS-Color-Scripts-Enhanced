@@ -1,13 +1,4 @@
-﻿# Converted from: CH-TRIP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pang01/raw/CH-TRIP.ANS
-# Source Revision: archive-sha256:24a47d3a6396232434bffa2e1615955141cf762e5fd721c02b6ad40f81a7def7
-# Source SHA-256: 385fbdbe9180439700ce2c3c6ad2c802d284e0c8df32aaaadcb9e01601c528c1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CH-TRIP.ANS by Chronic-Pang (pang01); released in pang01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: CH-TRIP.ANS by Chronic-Pang | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pang01-ch-trip
 
 Write-Host '
                       [1;35m▄[0;35m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;35;45m▀[0;35m██████████████████[0;1;31;45m [0;35m████[0;1;31;45m▄▄▄▄███[0;1;31;47m▓[0;1;31;45m▄▄[0;35m██▄▄▄ [0m

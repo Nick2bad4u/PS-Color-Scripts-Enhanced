@@ -1,19 +1,4 @@
-﻿# Converted from: TNT-GUT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-46/raw/TNT-GUT2.ANS
-# Source Revision: archive-sha256:32c189dd42ed53f66ce0b86a88ea8027caddc32faf4da7cee2e674d9223cb9f4
-# Source SHA-256: 51a01fa2c5528adf975c7207bbeab9b212c1b33e7af0ca8c99271f144ea025d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNT-GUT2.ANS by tainted (FiRE); released in fire-46 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: gutter emag
-# SAUCE Author: tainted
-# SAUCE Group: FiRE
-# SAUCE Date: 20260707
-# SAUCE Dimensions: 80x233
-# SAUCE Font: IBM VGA
-# Lines: 201-233
-# Columns: 1-80
+﻿# Artwork: gutter emag by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-46-tnt-gut2-part05
 
 Write-Host '
 [33m [0;31m▀▒▀[0;33m  ▐[0;1;37;43m██[0;1;33;47m█[0m▓     [1;37;43m ■[0;33m▀  ▀[0;1;33;43m▀[0;1;37;43m██[0;1;33;43m▄[0;33m▄░ ▄[0;1;37;43m▄█[0;33m▀[0;37m  ▓[0;1;37;43m█▀[0;33m▌   [0;37m▐[0;1;37;43m▀[0;1;33;47m█[0m▒ [33m■▄[0;1;33;43m▄█[0;1;33;40m▓[0;33m [0;1;37;43m▀[0;1;33;43m███[0;33m▄ ▐[0;1;33;43m█[0;1;37;43m██[0m░[1;30m [0;31m▓░[0;1;30m  [0;1;33m█[0;1;33;43m██▀░[0m  [31m▀[0;1;31;41m▀[0;31m▓[0m

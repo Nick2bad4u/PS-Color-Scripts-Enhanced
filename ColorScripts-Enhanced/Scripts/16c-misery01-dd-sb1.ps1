@@ -1,18 +1,4 @@
-﻿# Converted from: DD-SB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/misery01/raw/DD-SB1.ANS
-# Source Revision: archive-sha256:e802ebf512d2eb802f079fd327fff852b8c112992e81e4f15801eeb22870d111
-# Source SHA-256: 02db1c829d08688c38b7f6a95ce7d690b890a1d62abe11e879f48ba937e1b9ae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-SB1.ANS by Da Drug (Misery Productions.); released in misery01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Soles Broken.
-# SAUCE Author: Da Drug
-# SAUCE Group: Misery Productions.
-# SAUCE Date: 19970323
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Soles Broken. by Da Drug | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-misery01-dd-sb1
 
 Write-Host '
                                               [1;36ms[0m       [1;36mo[0m     [1;36ml[0m     [1;36me[0m         [1;36ms[0m

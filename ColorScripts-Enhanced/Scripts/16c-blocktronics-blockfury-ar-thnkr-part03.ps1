@@ -1,19 +1,4 @@
-﻿# Converted from: ar-thnkr.ans
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/blocktronics_blockfury/raw/ar-thnkr.ans
-# Source Revision: archive-sha256:071260960977ea1068cec2d97ab877e753876c2d02c413111354a74175d7cd04
-# Source SHA-256: 55d88cbaa1623f34c9e5a10bdee50445dfedaf1a88be6066494e90b1e6428129
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ar-thnkr.ans by Argon (Blocktronics); released in blocktronics_blockfury and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Thinker
-# SAUCE Author: Argon
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20150730
-# SAUCE Dimensions: 80x117
-# SAUCE Font: IBM VGA
-# Lines: 79-117
-# Columns: 1-80
+﻿# Artwork: The Thinker by Argon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blockfury-ar-thnkr-part03
 
 Write-Host '
 [36;44m█[0;1;34;46m▄[0;1;30;46m▄█▓[0;1;30;44m▀▀▀▀[0;34m▄▄ [0;1;30m [0;1;34m [0;36;44m▄[0;36;40m▄[0;1;32;46m▄▄▄[0;1;36;40m███[0;1;36;46m▀▀▀[0;1;36;40m█[0;1;36;46m█▀▀▀ ▀[0;1;32;46m█[0;1;36;46m▀[0;1;32;46m▀[0;1;36;46m▄█[0;1;34;46m█[0;1;36;40m [0m [34m▀█▄▄▄▄▄[0;1;30m▄[0;36;44m▄[0;1;34;46m▀▀[0;1;36;46m [0;1;32;46m▄▄█[0;1;30;40m [0;36;44m▀[0;1;32;40m▀[0;1;30;40m▀[0;34m▀[0;36m [0;1;30m [0;1;34m [0;1;30m ▄[0;1;36m█[0;1;33;46m██[0;1;30;46m█[0;1;30;40m █[0;1;36;46m██[0;36m█[0;1;30m▐[0;36m█[0;36;44m█[0;1;30;46m▀█[0m

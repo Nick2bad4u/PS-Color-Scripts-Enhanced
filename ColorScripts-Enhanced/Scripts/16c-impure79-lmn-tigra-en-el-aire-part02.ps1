@@ -1,18 +1,4 @@
-﻿# Converted from: lmn-tigra_en_el_aire.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure79/raw/lmn-tigra_en_el_aire.ans
-# Source Revision: archive-sha256:b4622c4fdfafdd578f3db64bb2bcff19a7154106ecf4c0e2e9ebef264d05fe2b
-# Source SHA-256: b3a328bd95e1fe69f71eb6985b0d97ca7d7299f26c81634183a042f0fa66008c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: lmn-tigra_en_el_aire.ans by lmn (brx); released in impure79 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: lmn
-# SAUCE Group: brx
-# SAUCE Date: 20210423
-# SAUCE Dimensions: 80x68
-# SAUCE Font: IBM VGA
-# Lines: 35-68
-# Columns: 1-80
+﻿# Artwork: lmn-tigra_en_el_aire.ans by lmn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure79-lmn-tigra-en-el-aire-part02
 
 Write-Host '
 [1;36m█[0;1;37;106m▓█████[0;1;36m█[0;1;37;43m░▓[0;43m     [0;33;40m▄[0;30;43m▒▓[0;33;40m▄[0;37;43m      [0;33;40m▄[0;30;43m▓▒[0;33;40m▀[0;37;43m          [0;33;40m▄[0;30;43m░[0;33;40m▐[0;37;43m        [0;30;43m▐▓▒[0;33;40m ▄[0;37;43m   [0;33;40m▄▓[0;37;43m  [0;33;40m░▒▓▐[0;1;30;43m░[0;1;37;43m▐▒[0;1;36;43m▐[0;1;36;40m████[0;1;36;106m▌[0;1;36m███[0;36;106m░░[0m

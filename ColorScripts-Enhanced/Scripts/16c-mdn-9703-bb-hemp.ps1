@@ -1,18 +1,4 @@
-﻿# Converted from: BB-HEMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9703/raw/BB-HEMP.ANS
-# Source Revision: archive-sha256:9e514042cc5e389aeb3f9323e41f842849e88d4294fdd727215463cf9566281b
-# Source SHA-256: eb7193b55fe0a85e927ef98ee51a01eddda9b11f4d82059d6fd95dd29fc12f4c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BB-HEMP.ANS by Bugs Bunny?! -:) (Maiden Br!); released in mdn-9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hemp!
-# SAUCE Author: Bugs Bunny?! -:)
-# SAUCE Group: Maiden Br!
-# SAUCE Date: 19970207
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: hemp! by Bugs Bunny?! -:) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9703-bb-hemp
 
 Write-Host '
 

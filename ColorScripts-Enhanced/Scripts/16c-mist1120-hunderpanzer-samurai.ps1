@@ -1,19 +1,4 @@
-﻿# Converted from: HUNDERPANZER-SAMURAI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1120/raw/HUNDERPANZER-SAMURAI.ANS
-# Source Revision: archive-sha256:1aea60fe15e22f1a93a6bf5d2d7a91f468dbfe0f5023717734ce9e5a750497b0
-# Source SHA-256: 7cb11923747829028ad82e5aba74e9b5b2b379c9618e89b355339bf8a55389f4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HUNDERPANZER-SAMURAI.ANS by HUNDERPANZER (Mistigris); released in mist1120 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Samurai
-# SAUCE Author: HUNDERPANZER
-# SAUCE Group: Mistigris
-# SAUCE Date: 20201121
-# SAUCE Dimensions: 80x29
-# SAUCE Font: IBM VGA
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Samurai by HUNDERPANZER | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1120-hunderpanzer-samurai
 
 Write-Host '
 [1;107m████████████████████████████████████████████████████████████████████████████████[0m

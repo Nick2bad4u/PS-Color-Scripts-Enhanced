@@ -1,18 +1,4 @@
-﻿# Converted from: IC-SOPIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bleach05/raw/IC-SOPIC.ANS
-# Source Revision: archive-sha256:09b86858eb23a8eec48404a97e9a21a9057746b5757f06ffc27990d15e890f2c
-# Source SHA-256: f3a2ac1b53938ebf01783088c1ef60547e2d4de912324d08c57322a9b1d9c9a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IC-SOPIC.ANS by Inner Chaos (Bleach); released in bleach05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Solar
-# SAUCE Author: Inner Chaos
-# SAUCE Group: Bleach
-# SAUCE Date: 19950726
-# SAUCE Dimensions: 80x25
-# Lines: 40-75
-# Columns: 1-80
+﻿# Artwork: Solar by Inner Chaos | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bleach05-ic-sopic-part02
 
 Write-Host '
 [34m [0;37m [0m      [34m [0;37m  [0;31m                                    [0;1;30miç[0;35m▄▓▄[0;37m [0;35m▀█████████████████[0m

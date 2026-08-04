@@ -1,19 +1,4 @@
-﻿# Converted from: ak-flash.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz16/raw/ak-flash.ans
-# Source Revision: archive-sha256:b093dd3cb06bf783d59a9df3724c51f9a41f686cd4fd545c920ada008d959f7a
-# Source SHA-256: 607e3924dd4aad2cc48038eb280e55eb0b4cae0d5b3ec8a624f4238b094d2eed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ak-flash.ans by abstrakt (lazarus); released in laz16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: flashparty 2022
-# SAUCE Author: abstrakt
-# SAUCE Group: lazarus
-# SAUCE Date: 20221020
-# SAUCE Dimensions: 80x30
-# SAUCE Font: IBM VGA
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: flashparty 2022 by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz16-ak-flash
 
 Write-Host '
   [33md[0;1;31m$[0;1;33m$$$$$$$$$T  [0;33m$[0;1;33m$$$b[0;1;31m  [0;31m`/s[0;33m┐┌\┘''`[0;31m.┌sP''.d7''$''[0;33mj[0;31m$[0;1;31md$$$$$[0;31m$[0;1;31m$$[0;31m7 j[0;1;31m$[0;31m$[0;1;31m''[0;31m $$7[0;37m [0;33m$[0;31m  $''[0;33mj[0;31m$$`$l`[0;33mb[0m

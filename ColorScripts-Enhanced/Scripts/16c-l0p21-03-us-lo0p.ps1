@@ -1,13 +1,4 @@
-﻿# Converted from: US-LO0P.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p21_03/raw/US-LO0P.ANS
-# Source Revision: archive-sha256:6dd1bcc7f33fdea340cde4c01f01e87dc9ca492adcd030fa6cec941bff29d863
-# Source SHA-256: 26301d6504d6c2aa97a20cffa5d4ddf12656e13fefa04e9e56a12691c10dd051
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-LO0P.ANS by Ansichrist + Knocturnal + Spinsane (l0p21_03); released in l0p21_03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: US-LO0P.ANS by Ansichrist + Knocturnal + Spinsane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p21-03-us-lo0p
 
 Write-Host '
 [1m [0m                       [1;30m-[0;1;31m  [0;1;30m--------[0;31m:[0;36m-┐[0m

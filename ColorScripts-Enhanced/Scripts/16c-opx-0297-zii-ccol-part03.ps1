@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-CCOL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0297/raw/ZII-CCOL.ANS
-# Source Revision: archive-sha256:ebdb3432145de923aa3db5c356b5298a48e2bd3cd353301b704b88c85b6a63cb
-# Source SHA-256: 28542289701204665c52f7415828bf111e258e07447935aa400f1aed57cc17c2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-CCOL.ANS by Zeus II (opium); released in opx-0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Logo Colly jan/feb '96
-# SAUCE Author: Zeus II
-# SAUCE Group: opium
-# SAUCE Date: 19970131
-# SAUCE Dimensions: 80x105
-# Lines: 73-105
-# Columns: 1-80
+﻿# Artwork: Logo Colly jan/feb '96 by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0297-zii-ccol-part03
 
 Write-Host '
 ---------.x< Opium Appgen >x.---------------------------------------------------

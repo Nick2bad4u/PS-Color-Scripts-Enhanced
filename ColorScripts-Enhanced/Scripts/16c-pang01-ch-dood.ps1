@@ -1,13 +1,4 @@
-﻿# Converted from: CH-DOOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pang01/raw/CH-DOOD.ANS
-# Source Revision: archive-sha256:24a47d3a6396232434bffa2e1615955141cf762e5fd721c02b6ad40f81a7def7
-# Source SHA-256: 8f8e94ef2b87e85ed101dea5975cc49d43ec31f089bb5321ff5d8d4a7e8ac8ed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CH-DOOD.ANS by Chronic-Pang (pang01); released in pang01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: CH-DOOD.ANS by Chronic-Pang | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pang01-ch-dood
 
 Write-Host '
                                                          [1;33m▄■[0m

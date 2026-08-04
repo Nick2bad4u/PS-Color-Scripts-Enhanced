@@ -1,13 +1,4 @@
-﻿# Converted from: US!KC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spr_05/raw/US!KC.ANS
-# Source Revision: archive-sha256:6282becd01198e113280cb897d8e26425ec96848c7f61db4a06b5e779788170c
-# Source SHA-256: 5101fcb41339a3ec5197aa58c2a7e15c65b2d091cc5bce1241901254450c4ae7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US!KC.ANS by With + Mist (spr_05); released in spr_05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: US!KC.ANS by With + Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spr-05-us-kc
 
 Write-Host '
                                      [1;35m▀▀▓▓▓▓░░[0m

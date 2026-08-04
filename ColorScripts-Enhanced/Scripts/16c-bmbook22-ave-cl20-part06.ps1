@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-CL20.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook22/raw/AVE-CL20.ANS
-# Source Revision: archive-sha256:aec74908b08ab1e6eeb2617f04dd839f89321bd6f70d460ae94d73bdd51d69b6
-# Source SHA-256: fda7a6339557f7cfc779e5048137c9d531d1cee112a7ed25fc8cbb52b27cc68f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-CL20.ANS by avenger (black maiden); released in bmbook22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: logo collection #20
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 20010305
-# SAUCE Dimensions: 80x268
-# Lines: 223-268
-# Columns: 1-80
+﻿# Artwork: logo collection #20 by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook22-ave-cl20-part06
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: PYX-PC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0996/raw/PYX-PC.ANS
-# Source Revision: archive-sha256:de1a4e1b3b8504644e3a073d9996f185c42e41f64ec42e4fefdea03b2b3748fe
-# Source SHA-256: 807d900d00e649814ece2987096461ad9aeaf211e2d577ed36a5e958b22a5cb8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-PC.ANS by Pyx (Bamboosh); released in bmb-0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Psycho Cowboys
-# SAUCE Author: Pyx
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19960830
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Psycho Cowboys by Pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0996-pyx-pc
 
 Write-Host '
                                  [33m▄▄▄██[0;1;33;43m░▒▓▒▓▓[0;1;33;40m▄[0m

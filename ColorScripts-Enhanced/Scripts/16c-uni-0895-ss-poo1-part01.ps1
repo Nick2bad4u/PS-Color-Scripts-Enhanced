@@ -1,18 +1,4 @@
-﻿# Converted from: SS-POO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0895/raw/SS-POO1.ANS
-# Source Revision: archive-sha256:d7578eae73cd5d7b840a098302ec5eecc570498f801ff39620bcdfbd3bc36d42
-# Source SHA-256: 4cc02e3716c5bb92d0fc412cd276c7d5f303236fb540ea31cc37a457602f4a56
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SS-POO1.ANS by Saint Sinner (uniOn); released in uni-0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: pOo!?motherfucker
-# SAUCE Author: Saint Sinner
-# SAUCE Group: uniOn
-# SAUCE Date: 19950714
-# SAUCE Dimensions: 80x108
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: pOo!?motherfucker by Saint Sinner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0895-ss-poo1-part01
 
 Write-Host '
 [1m [0m

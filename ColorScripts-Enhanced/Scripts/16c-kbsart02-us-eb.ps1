@@ -1,15 +1,4 @@
-﻿# Converted from: US-EB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/kbsart02/raw/US-EB.ANS
-# Source Revision: archive-sha256:db985c6cc647f5eef7416b8a6b8fee6ea9ea728844fba4bfa914fc08893c10ca
-# Source SHA-256: 9380a59a1fe5e2cd5bb2fda2b17a964adea5f0052a01bd6703e9cd26c0a8b234
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-EB.ANS by Dyingsoul + Mari (kbsart02); released in kbsart02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 19990614
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: US-EB.ANS by Dyingsoul + Mari | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-kbsart02-us-eb
 
 Write-Host '
   [1;30m▄ ▀█▄▄[0;33m          [0;1;30m▄▄██[0m         [1;30m▄[0m                    [1;30m  [0m      [33m▄[0;1;30m▄[0m    [1;30m [0m  [1;30m▄[0m

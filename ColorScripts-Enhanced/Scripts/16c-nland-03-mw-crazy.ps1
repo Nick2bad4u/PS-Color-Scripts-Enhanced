@@ -1,18 +1,4 @@
-﻿# Converted from: MW-CRAZY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nland-03/raw/MW-CRAZY.ANS
-# Source Revision: archive-sha256:7ddb21e455f18ac13bd1d0242ad29db8419e3ff5847d9aa5ea635b533172de76
-# Source SHA-256: cf327f78f1723115e29597621340772383975ca35f66448af8459208e1b374f7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MW-CRAZY.ANS by MoonWalkeR (NeveRLanD); released in nland-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Crazy
-# SAUCE Author: MoonWalkeR
-# SAUCE Group: NeveRLanD
-# SAUCE Date: 19960104
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Crazy by MoonWalkeR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nland-03-mw-crazy
 
 Write-Host '
                                    [34m▄[0m     [34m█[0;37m [0m

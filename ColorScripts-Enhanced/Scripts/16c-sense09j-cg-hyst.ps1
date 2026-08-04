@@ -1,18 +1,4 @@
-﻿# Converted from: CG-HYST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense09j/raw/CG-HYST.ANS
-# Source Revision: archive-sha256:9f583533fb256ec67ece3c5d38ebea61ce21b385a7859a4e786edef290584615
-# Source SHA-256: 3efad3bb89fff20ccd375fe9ca7d025d63e40c687348098a017f471883460f64
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-HYST.ANS by cryogenic (sense); released in sense09j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: hysteria matrix
-# SAUCE Author: cryogenic
-# SAUCE Group: sense
-# SAUCE Date: 19990705
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: hysteria matrix by cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense09j-cg-hyst
 
 Write-Host '
 [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄cryo[0;36m░░░ ▄▄▄▄▄▄▄ [0m

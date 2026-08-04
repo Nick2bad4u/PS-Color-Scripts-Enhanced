@@ -1,13 +1,4 @@
-﻿# Converted from: DZ-ANKA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sadist04/raw/DZ-ANKA.ANS
-# Source Revision: archive-sha256:785f8aaf14ad87c2b764b12247d4257268ffbaf871ebe3372c1a6cbc34b6d085
-# Source SHA-256: 650f8036db4897caabb5d117c8cab822a01a562e26ebd18aeb907eb4eebe2282
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DZ-ANKA.ANS by Dizzy (sadist04); released in sadist04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: DZ-ANKA.ANS by Dizzy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sadist04-dz-anka
 
 Write-Host '
 [1;32;42m░░[0;32m█▓[0;1;37m ▄[0m [32m▀▌[0;37m▀[0;1;37m█[0;1;37;47m░[0;32m░█▀[0;37m ▄[0;32m▀[0;37m ▄[0;1;37;47m░▒▓[0;1;37;40m▄[0;32m░▀[0;1;30mDizzy[0m/sadist[1;37m99[0m  [1;37m░░░░[0m    [1;37m░░[0m  ▄[1;37m▓▓[0m▄         █[1;37;47m  ▒▄▄▄▄▄[0m▄ [31m▄[0m

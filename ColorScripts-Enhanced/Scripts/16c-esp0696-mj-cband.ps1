@@ -1,18 +1,4 @@
-﻿# Converted from: MJ-CBAND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/esp0696/raw/MJ-CBAND.ANS
-# Source Revision: archive-sha256:3a800bf374adccb43f95f84c9fee9750de98bcb01284f92f012872d242e939b8
-# Source SHA-256: fdfdee23d4c8b4b6093123b2135b2440bc8f4e499617deeea7897cb0e1f989b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MJ-CBAND.ANS by majiCk (ins^frg^sphere^void); released in esp0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: contraband
-# SAUCE Author: majiCk
-# SAUCE Group: ins^frg^sphere^void
-# SAUCE Date: 19960509
-# SAUCE Dimensions: 80x25
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: contraband by majiCk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-esp0696-mj-cband
 
 Write-Host '
        [1;34m▄[0;1;34;44m█[0;1;34;40m▀▀▀[0;1;34;44m▓▓▒░[0m                          [1;34m▄[0;1;34;44m█[0m                     [1;34;44m█[0;1;34;40m▄[0m

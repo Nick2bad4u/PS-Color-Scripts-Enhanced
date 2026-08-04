@@ -1,18 +1,4 @@
-﻿# Converted from: SOR-ONIX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel11/raw/SOR-ONIX.ANS
-# Source Revision: archive-sha256:bc01376bbeb692c1fce16796b92a6fd889f89dbf4c55eb291719d5ea3fd5846c
-# Source SHA-256: d73088f39613522e2459c8a30704003495f78289879b01ce930c8f2f5f4c05cd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SOR-ONIX.ANS by Spirit of Rage (Fuel); released in fuel11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Onix
-# SAUCE Author: Spirit of Rage
-# SAUCE Group: Fuel
-# SAUCE Date: 19970303
-# SAUCE Dimensions: 80x12
-# Lines: 1-12
-# Columns: 1-80
+﻿# Artwork: Onix by Spirit of Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel11-sor-onix
 
 Write-Host '
 [1;35;45m░▒▓[0;1;35;41m▓[0;1;35;40m█[0;1;35;46m▓[0;1;35;40m█[0;1;35;43m▓▓[0;1;35;41m▓[0;1;35;40m█[0;1;35;45m▀▀▀[0;1;31;45m░[0;1;35;45m▄▄▌▄▄[0;1;35;43m▓[0;1;35;45m▄[0;1;35;40m█[0;1;35;47m▓[0;1;35;46m▓[0;1;35;40m▀[0;35m▀[0;1;35m▀[0;35m▀▀▀[0;1;35m▀[0;35m▀▀[0;1;35m▀▀[0;1;35;45m▀[0;1;35;43m▓▓[0;1;35;40m█[0;1;35;47m▓[0;1;35;40m█[0;1;35;41m▓[0;1;35;45m▓[0;1;35;40m▀▀▀▀[0;35m▀[0;1;35m▀[0;35m▀▀[0;1;35m▀[0;35m▀▀▀▀[0;30;45m▒[0;35;40m▀▀[0;1;35;40m▀[0;35m▀[0;1;35m▀▀▀▀█[0;1;35;43m▓[0;1;35;46m▓[0;1;35;40m▀[0;35m▀[0;1;35m▀[0;35m▀▀[0;1;35m▀[0;35m▀▀▀[0;1;35;45m░▒[0m

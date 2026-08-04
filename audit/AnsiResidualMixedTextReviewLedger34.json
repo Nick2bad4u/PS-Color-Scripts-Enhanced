@@ -1,0 +1,442 @@
+{
+  "batch": 34,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch34-focused-residual-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 2,
+              "end": 23
+            }
+          ],
+          "expectedRawSha256": "cadb5daaa5cc721b1a038dbabe47c58a1fac747f7b70eac51b5d263c1492104f",
+          "expectedRenderedSha256": "70b68b4949b101c99c2d448d0f2782db7f84b7b3175537ab051aaf39b4c47fec",
+          "row": 19,
+          "sha256": "60ae92b591aa87f0c1dd9c88cda6bd2206d29d26f4a834ad850e8e531a7910ec"
+        }
+      ],
+      "file": "16c-acdu0194-sx-cp1-part01.ps1",
+      "rationale": "Full-payload review and independent replay confirmed only generic panel filler, source-process commentary, orphaned process or anti-rip fragments, and source-use restrictions. Exact preimage and projected hashes preserve every unselected terminal cell, including credits and signatures sharing reviewed rows.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch34-focused-review.json",
+        "temp/text-blanking-continuation/batch34-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch34-focused-residual-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 45,
+              "end": 66
+            }
+          ],
+          "expectedRawSha256": "b5e898362ec565145d6debf402b78aeab718b29cc67f6ba323c09b954025377f",
+          "expectedRenderedSha256": "53f2d076e214a3aa47b51445cf9c7bf20b5ff442655a3da4358ec86003958eef",
+          "row": 16,
+          "sha256": "d99502860cc0cf063573070c25ccff47ca0a18e70a2d032331cb8abe7b9dcc81"
+        }
+      ],
+      "file": "16c-apathy03-ti-ed-part01.ps1",
+      "rationale": "Full-payload review and independent replay confirmed only generic panel filler, source-process commentary, orphaned process or anti-rip fragments, and source-use restrictions. Exact preimage and projected hashes preserve every unselected terminal cell, including credits and signatures sharing reviewed rows.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch34-focused-review.json",
+        "temp/text-blanking-continuation/batch34-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch34-focused-residual-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 68,
+              "end": 76
+            }
+          ],
+          "expectedRawSha256": "bf76800dcd7c0967805fdeccd187e578e6e94b25655c03cf65fb03395e64c866",
+          "expectedRenderedSha256": "62dd79ad19832a05cef725da8c3d8b292ab4981a9b5eae8f72025676454c38a8",
+          "row": 16,
+          "sha256": "a6aa835e8bf463c764592f6151aa1fab756e88ac8f06d852f69a04afcd3cb84a"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 68,
+              "end": 75
+            }
+          ],
+          "expectedRawSha256": "f764e96d423d886890fdec8a7d5b4ab23c14d05fcf5e4051908f852553c113ec",
+          "expectedRenderedSha256": "e6ee71b0a6aa8f56747cb0b91dc0fb79ac875a255810e865a80bff42df68a166",
+          "row": 17,
+          "sha256": "56a7fc52c85da4d1e6eb389f5a1c5115bbd28f823f7b1b80b0819bf4b7b4f42b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 68,
+              "end": 72
+            }
+          ],
+          "expectedRawSha256": "0b1b0ff8700914302ec9a5eac2a3f2ee88f75509e7c5fdb6320116648a5ccd4d",
+          "expectedRenderedSha256": "897ebd3b74b6cd6154ce75f44ae675842836bd5f6ffe3b8a25cfe67129b86072",
+          "row": 19,
+          "sha256": "4060aab30b061543d88a092e59f0c7b7dd2214554041a42fc90164aecfde4701"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 68,
+              "end": 74
+            }
+          ],
+          "expectedRawSha256": "e3420868878ece164dcf69f11ec0d5843457286580fda18ce8f461532b1ae7ea",
+          "expectedRenderedSha256": "30317de64ee53aa2e3b0b0bb75b62323079b47b18405ce6179eb6580ba084ed3",
+          "row": 20,
+          "sha256": "fd8d19bb26545a4d6909ff0e1dd4a319379f7716637b717b8b7f4e9f51bacd91"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 68,
+              "end": 77
+            }
+          ],
+          "expectedRawSha256": "f4e918e934d1c8b9d25e18a201c43858209fd1c646dfa13cfefd77ff6762f7a3",
+          "expectedRenderedSha256": "babbead0cd1d9a0678e2847799839e4152dd7546e382ebc146404f5d254bd0a1",
+          "row": 21,
+          "sha256": "373d3813b2dd580d6616bcaca947faf881f84c9bbad2424a90785d0d4ef8b5dc"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 68,
+              "end": 77
+            }
+          ],
+          "expectedRawSha256": "dcd575af3e0d6a620707369b144c289b1e61e6a2ef4f8b886c665286cdb93483",
+          "expectedRenderedSha256": "61197601ce797c1318a5f652705eedd4592912e8293ad60bd6ff508246cc6374",
+          "row": 22,
+          "sha256": "2ba6a132940ad4ad8752d8d3431b7c29d04c1dd7c77ad45914924bf5d7b6d194"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 68,
+              "end": 75
+            }
+          ],
+          "expectedRawSha256": "9d1caef8a01e298abb5c38ce6e3f3a54e4e47c102899f436b230645e0dd6c169",
+          "expectedRenderedSha256": "349ddfbcdeb3a9c1c6b046c374f3e1f3b6ed64fec58b94aba00db84f3c11ab44",
+          "row": 23,
+          "sha256": "9a3ffbd6ac0c42d886c2e658f51dc5210c3f6cd82455a990c10981996b5f5caa"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 69,
+              "end": 79
+            }
+          ],
+          "expectedRawSha256": "8a0e20d9073ba6c2d57ac0425805f91302ec01a85495c2882a059f1567688785",
+          "expectedRenderedSha256": "e0b09f2c89bf188453e37322e3064e507bf87c246f95786939451b816e1734f7",
+          "row": 25,
+          "sha256": "544f4e5dcb2d9b69d9f8a65f416e76fbb2704aa2468ff8fb70cdae8853270877"
+        }
+      ],
+      "file": "16c-avpack07-hq-r101-part02.ps1",
+      "rationale": "Full-payload review and independent replay confirmed only generic panel filler, source-process commentary, orphaned process or anti-rip fragments, and source-use restrictions. Exact preimage and projected hashes preserve every unselected terminal cell, including credits and signatures sharing reviewed rows.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch34-focused-review.json",
+        "temp/text-blanking-continuation/batch34-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch34-focused-residual-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 69,
+              "end": 72
+            }
+          ],
+          "expectedRawSha256": "243542307c4798c2608df64ac3a8cc85303f6565bc56a11962be91f746aba85b",
+          "expectedRenderedSha256": "2812b30b7f09ce4a5c34dc685386a84ae72b4ec7bdf94f8ec32aa2ad1dafb37a",
+          "row": 45,
+          "sha256": "f99f7463c1d2328e3bb790c25fdd6842048d64f41848c21db31a006c19183f02"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 68,
+              "end": 77
+            }
+          ],
+          "expectedRawSha256": "ea91f2409fd4e28356f8dab7ddb0c2acaa2c8abe7fb782ef1cf1fc4fcbfec8a0",
+          "expectedRenderedSha256": "41b4c09e6ac7093c82dbd1265b73f26bf02adef6553b49d6bff7b8fe39339de0",
+          "row": 47,
+          "sha256": "4bd3408de07a8b4e3415b80bea58244d71bafe90026204d7fb9d2e7f563613fa"
+        }
+      ],
+      "file": "16c-ice9409a-us-ice2-part03.ps1",
+      "rationale": "Full-payload review and independent replay confirmed only generic panel filler, source-process commentary, orphaned process or anti-rip fragments, and source-use restrictions. Exact preimage and projected hashes preserve every unselected terminal cell, including credits and signatures sharing reviewed rows.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch34-focused-review.json",
+        "temp/text-blanking-continuation/batch34-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch34-focused-residual-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 65,
+              "end": 75
+            }
+          ],
+          "expectedRawSha256": "c030e2a1a98f3178bee154a2c628ee0bef221281ad9f5b8412665f711c8046da",
+          "expectedRenderedSha256": "840c5a7ca81787a8065bb0d02149a379c36b28c193338a3f4f2afc69c105e792",
+          "row": 2,
+          "sha256": "d265af27a1a23c44ae0b22a5ade69aaaf0667948494dd63c52c2fdb1d7b8cb16"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 63,
+              "end": 76
+            }
+          ],
+          "expectedRawSha256": "456ad211945eb4d1a2a89b8f0c3be4f9f8e5f06e2f36d481790f719ae2fc5ea6",
+          "expectedRenderedSha256": "91ff826510f9eac0658645571f5cab56d7d6acd87f782e846e78895394d7f645",
+          "row": 3,
+          "sha256": "89be2feacdc2221055af3a09c1a3f5601d957fcb680e3d3264909a94c89d672a"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 61,
+              "end": 76
+            }
+          ],
+          "expectedRawSha256": "30eca5e2013714e606dcc6e041545d3890d9c3a91f4ecb400cccbaa3da3cebf4",
+          "expectedRenderedSha256": "4078188c00bc74336856137e4faaf8bd371e594870130db4fc52fe2aed531ccf",
+          "row": 5,
+          "sha256": "a4da388e419e78542e2a975204b17aed7472c0c82939b2321bcf3016c471d73e"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 59,
+              "end": 76
+            }
+          ],
+          "expectedRawSha256": "7547e3066262b9b52b9b94dff482aa4d5b9a971a495d54b6b32efb9e645de05d",
+          "expectedRenderedSha256": "85683d33cc26e2e07bbdf9435bbf6e859363a14550b1a81c789f8ab0584d333b",
+          "row": 6,
+          "sha256": "8a89c4b38a3e377b501d8545b99880b5c943b3c713af5bb93715fa31b8ccfd0c"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 59,
+              "end": 62
+            }
+          ],
+          "expectedRawSha256": "d7500f2da4527c10f871fc676c3ff868376913ae0f93ebbbd6461b4be47f558a",
+          "expectedRenderedSha256": "dca15c49bba3ab31e914ba4d882bc936f730d92f823f9cbef02b74cb13284a21",
+          "row": 7,
+          "sha256": "f09bf14cc80f4d841f91eb0477e3c2129ff448305560d9bd1f75a343835351e9"
+        }
+      ],
+      "file": "16c-legend02-nc-sd1-part03.ps1",
+      "rationale": "Full-payload review and independent replay confirmed only generic panel filler, source-process commentary, orphaned process or anti-rip fragments, and source-use restrictions. Exact preimage and projected hashes preserve every unselected terminal cell, including credits and signatures sharing reviewed rows.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch34-focused-review.json",
+        "temp/text-blanking-continuation/batch34-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch34-focused-residual-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 29,
+              "end": 42
+            }
+          ],
+          "expectedRawSha256": "7bfd4786adbdef9ed34684988d4dc9d6239df6036aa2f29d1fbeb8c37456fcd6",
+          "expectedRenderedSha256": "87035ef2171451313dc6a45db056c3d058bbd72899b1ec66cbb20ea3fd44019e",
+          "row": 5,
+          "sha256": "d3d12186e017c9a5e44eab910e100c2a0c7c42c0fd5e83cd7072ad2aad925ac8"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 30,
+              "end": 36
+            }
+          ],
+          "expectedRawSha256": "b1d8a135d4e8ad0f8b81ff0edf4a530cfdb36457ddf66b71b1838c2ad3a18379",
+          "expectedRenderedSha256": "157ffe098532cfa8f6e6ac3ae691d50a5c207f7bfaf6edc37942b1ddbf2860f4",
+          "row": 6,
+          "sha256": "da87b754016fccb4c8b497f055d69305b40aef80615c22a0d27fe0a7a34a4ee5"
+        }
+      ],
+      "file": "16c-mdn-9702-mr-thank.ps1",
+      "rationale": "Full-payload review and independent replay confirmed only generic panel filler, source-process commentary, orphaned process or anti-rip fragments, and source-use restrictions. Exact preimage and projected hashes preserve every unselected terminal cell, including credits and signatures sharing reviewed rows.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch34-focused-review.json",
+        "temp/text-blanking-continuation/batch34-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch34-focused-residual-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 1,
+              "end": 12
+            }
+          ],
+          "expectedRawSha256": "40ca5f22e62639ee5b48449e355fb7fd9e607243a470b84330e4f31246a90b09",
+          "expectedRenderedSha256": "d561b85e23e367cc70ca3ff383e97f5701131ac8f7def78f307413dc52b516e3",
+          "row": 25,
+          "sha256": "77da9b8b03f6cd9939c1fb1733b0b17d0770605a0e86b9afd4a61b3e4d61ef06"
+        }
+      ],
+      "file": "16c-rca-18a-rca-b60.ps1",
+      "rationale": "Full-payload review and independent replay confirmed only generic panel filler, source-process commentary, orphaned process or anti-rip fragments, and source-use restrictions. Exact preimage and projected hashes preserve every unselected terminal cell, including credits and signatures sharing reviewed rows.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch34-focused-review.json",
+        "temp/text-blanking-continuation/batch34-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch34-focused-residual-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 2,
+              "end": 12
+            }
+          ],
+          "expectedRawSha256": "0ef9e62f86c724396e3fc3580b107be6e51d49a5f57346417e3d99aa7e41da03",
+          "expectedRenderedSha256": "37e0ac3e5b562bcd54250f964ea209efdc385ed2dfc24f6a716393ecfbb5a33d",
+          "row": 31,
+          "sha256": "3642d2e1b1b51aadf1414f6ad25d6a59b44baf078ba593694a0fb85be9a986ff"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 2,
+              "end": 10
+            }
+          ],
+          "expectedRawSha256": "043cdef9f76dc4f972be8fb615a69b4c0a2214e20b829242b715c02e0c62aeac",
+          "expectedRenderedSha256": "7063ab80aeb5d0b27554a16a4802833596cc8eeebd7731b321c42fa447923091",
+          "row": 33,
+          "sha256": "e69d3e593a49d0894239f02576cd2ca88c3bad87db9ef762e41c8597770d2276"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 2,
+              "end": 10
+            }
+          ],
+          "expectedRawSha256": "5e4e62553f1fa397ddf79c7c23142b3b90e081d38559d79e99b26cce884e7225",
+          "expectedRenderedSha256": "c3d2269b45a8fb5106c3a34d46eb14b8840a54bb88b80d405e0662862fdaadbe",
+          "row": 34,
+          "sha256": "850c574c0097af1e576f9afad42de9c2954411bd95845679466eb79c2719ed67"
+        }
+      ],
+      "file": "16c-silk03-br-alien.ps1",
+      "rationale": "Full-payload review and independent replay confirmed only generic panel filler, source-process commentary, orphaned process or anti-rip fragments, and source-use restrictions. Exact preimage and projected hashes preserve every unselected terminal cell, including credits and signatures sharing reviewed rows.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch34-focused-review.json",
+        "temp/text-blanking-continuation/batch34-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch34-focused-residual-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 63,
+              "end": 78
+            }
+          ],
+          "expectedRawSha256": "2d570393d301c7be94c748d1082e8faf4ff9349a361445bab20b7798a501f704",
+          "expectedRenderedSha256": "c6a4b9d1a4d47ba1f954bd4a49c5d51a68be5cf57230282b7b1a569ce86eaec4",
+          "row": 32,
+          "sha256": "3756ee16e15108a31419e70d1e28d68834ea229bb3407c679ebff4382e1cbed6"
+        }
+      ],
+      "file": "16c-tdd1295a-nm-md2.ps1",
+      "rationale": "Full-payload review and independent replay confirmed only generic panel filler, source-process commentary, orphaned process or anti-rip fragments, and source-use restrictions. Exact preimage and projected hashes preserve every unselected terminal cell, including credits and signatures sharing reviewed rows.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch34-focused-review.json",
+        "temp/text-blanking-continuation/batch34-focused-crosscheck.json"
+      ]
+    }
+  ],
+  "normalization": "SHA-256 of UTF-8 visible terminal-cell rows after ANSI-control removal and outer-whitespace trimming. Every row also pins exact raw projected and rendered hashes plus one-based inclusive blank-column ranges.",
+  "pendingInputs": [],
+  "policy": "Fail-closed focused residual review after Batch 33. Only full-context semantic accepts with independent projection replay are included. Authored dialogue, jokes, credits, signatures, titles, and functional interface text remain intact; only already-orphaned dedication fragments are completed.",
+  "reviewedAt": "2026-08-01",
+  "schemaVersion": 1,
+  "status": "ready",
+  "summary": {
+    "blankColumnRows": 24,
+    "candidateFiles": 9,
+    "candidateGroups": 9,
+    "categoryRows": {
+      "batch34-focused-residual-copy": 24
+    },
+    "evidenceRows": 24,
+    "priorAcceptExtensions": 0,
+    "priorRetainSupersessions": 1
+  }
+}

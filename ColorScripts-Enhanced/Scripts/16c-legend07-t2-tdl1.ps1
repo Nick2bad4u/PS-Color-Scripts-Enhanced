@@ -1,18 +1,4 @@
-﻿# Converted from: T2-TDL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/legend07/raw/T2-TDL1.ANS
-# Source Revision: archive-sha256:3712cd566b8bed7b1760317a3fccc3f73308ec1824fc5f6c1df906c5288bfa19
-# Source SHA-256: b621fa1ff773debb81e89336115a7fa3546805d02eb6a0a34838c2bd897298c7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T2-TDL1.ANS by Terminator 2 (Legend); released in legend07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Dark Lands
-# SAUCE Author: Terminator 2
-# SAUCE Group: Legend
-# SAUCE Date: 19960705
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: The Dark Lands by Terminator 2 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-legend07-t2-tdl1
 
 Write-Host '
 [32m█[0;1;32;42m░[0;32m▄[0;1;32;42m░[0;32m▀[0;1;32;42m▒▓[0;1;32;40m▄[0m            ░▄▄[1;47m▄■[0m▀▄▄▄        ▄▄▓ █▄▄     [1;30m░[0m                 [34m░ [0;1;30m▄ [0;34m▀[0;1;34;44m▀▓▀[0;34m▓[0;1;34;44m▀▓░[0m

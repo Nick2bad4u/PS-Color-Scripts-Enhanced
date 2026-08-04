@@ -1,18 +1,4 @@
-﻿# Converted from: AS-WOP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0396/raw/AS-WOP.ANS
-# Source Revision: archive-sha256:f085ca3cf6d75985ae759e60a340bcc124fb43ad553f80bec492b8b584ca4713
-# Source SHA-256: c5cfa81f22d15c5676a3702441f189b613bb532b45271587374cf540d7c1912d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AS-WOP.ANS by ?{{?{{?N (-NONE-); released in quad0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: W.O.P
-# SAUCE Author: ?{{?{{?N
-# SAUCE Group: -NONE-
-# SAUCE Date: 19951125
-# SAUCE Dimensions: 80x45
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: W.O.P by ?{{?{{?N | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0396-as-wop
 
 Write-Host '
 [1;34;44m▄▄[0;1;34;46m█[0;1;34;44m▄[0;1;34;46m█[0;1;34;44m▄▄[0;1;37;44m▄▄[0;1;34;47m▀[0;1;37;47m░░░░[0;1;30;47m  ░[0;1;34;47m▀▀▀▀[0;1;34;44m▄▄▄▄█▄[0;1;34;46m█[0;1;34;44m▄▄▄▄▄[0;1;34;46m██[0;1;34;44m▄▄[0;1;34;46m█[0;1;34;44m▄▄[0;1;34;46m██[0;1;34;44m▄▄▄▄▄▄▄[0;1;34;46m█[0;1;34;44m▄▄▄[0;1;34;46m██[0;1;34;44m▄▄[0;1;34;46m█[0;1;34;44m▄▄[0;1;34;46m█[0;1;34;44m▄▄[0;1;34;46m█[0;1;34;44m▄▄[0;1;34;46m█[0;1;34;44m▄▄▄▄▄▄▄▄▄[0;1;34;46m█[0;1;34;44m▄▄[0;1;34;46m█[0m

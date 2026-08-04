@@ -1,13 +1,4 @@
-﻿# Converted from: AF-UIS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bre-0594/raw/AF-UIS1.ANS
-# Source Revision: archive-sha256:11a071106b04a23c6b0c17a636ca742d7c7bbe6aabdc48618080c5d4dd3f1ec6
-# Source SHA-256: c3586ef7a4021c8eefdb872576e8a17ededdd66dface61ef5889485f7c479657
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AF-UIS1.ANS by Acidflash (bre-0594); released in bre-0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: AF-UIS1.ANS by Acidflash | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bre-0594-af-uis1-part01
 
 Write-Host '
 [1;30m┌─────────────────┬───────────────────────────────────────────────────────────┐[0m

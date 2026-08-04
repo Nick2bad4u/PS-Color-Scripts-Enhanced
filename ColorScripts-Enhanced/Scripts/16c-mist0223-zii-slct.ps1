@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-SLCT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0223/raw/ZII-SLCT.ANS
-# Source Revision: archive-sha256:f6abf3bbd53eb017898fa84b28d2ac43fcb70297788ba675e470ca73794cbbfd
-# Source SHA-256: ad357f16a474676281dc39e25c40b5a8b51f2b4126ba49568e47671e6f9ce21f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-SLCT.ANS by Zeus II (Mistigris); released in mist0223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Slime City Logo
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20230224
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Slime City Logo by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0223-zii-slct
 
 Write-Host '
    [34m▄[0;37m   [0;32m▄▄[0;1;32;42m▄[0;1;37;40m█[0;1;37;42m▓▓[0;1;32;42m▄[0;32m█[0;1;32;42m▀▀▄[0;32m▄   [0;1;32;42m▀[0;1;37;42m▀▀▄[0;32m██░[0;37m [0;34m▄▄▄[0;1;34;44m░░░[0;34m█▀▀[0;37m  [0;34m▀▀[0;37m  [0;32m▓[0;1;37;42m▀▓[0;1;32;42m▀[0;32m██[0;37m [0;34m▀▀▄▄▀[0;37m [0;32m▄▄▄▄▄▄[0;37m [0;34m▄▀[0;37m [0;32m▄[0;1;37;42m▄▓▓[0;1;32;42m█▄▀▀▀[0;32m█▄▄[0m

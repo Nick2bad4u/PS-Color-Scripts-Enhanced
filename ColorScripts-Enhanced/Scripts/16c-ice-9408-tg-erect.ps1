@@ -1,13 +1,4 @@
-﻿# Converted from: TG-ERECT.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9408/raw/TG-ERECT.ICE
-# Source Revision: archive-sha256:fa8a4e27d9a185cd662254cdd4d5c7083c450d81415053054b7d17d8e404dca2
-# Source SHA-256: e88b2fe270c2f2a05a58035a518104fc5689c234eb1415b934af77167e94699a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-ERECT.ICE by Toon Goon (ice-9408); released in ice-9408 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: TG-ERECT.ICE by Toon Goon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9408-tg-erect
 
 Write-Host '
 [1;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;36m▄[0m

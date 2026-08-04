@@ -1,20 +1,4 @@
-﻿# Converted from: sp-blewit.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure80/raw/sp-blewit.ans
-# Source Revision: archive-sha256:6ccade3320791158c22ef03d56ecb45d9c0b8545b126c0cb47ca0f6ff3905e48
-# Source SHA-256: c1c7c4f8eb47e0ec8ec4bcb8b449b2bba55c5a24bafb9f17feb6ff228c79c4ef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sp-blewit.ans by spinsane (Impure); released in impure80 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: blew it
-# SAUCE Author: spinsane
-# SAUCE Group: Impure
-# SAUCE Date: 20210830
-# SAUCE Dimensions: 84x32
-# SAUCE Font: IBM VGA
-# SAUCE Comments: https://www.youtube.com/user/asciigod
-# Lines: 1-31
-# Columns: 1-84
+﻿# Artwork: blew it by spinsane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure80-sp-blewit
 
 Write-Host '
                                                       [1m\[0m  [36m\[0m

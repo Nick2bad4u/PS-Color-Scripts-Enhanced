@@ -1,18 +1,4 @@
-﻿# Converted from: GMP-JAZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-09/raw/GMP-JAZ.ANS
-# Source Revision: archive-sha256:ce8026e794474c6e48d574a76c9366e170e87fe95fba0f1638e56cb02945c814
-# Source SHA-256: 84b35a63e574c78c13b501bbc6962aca0fdfaa69b2c122a3dc0adc3e25af1221
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GMP-JAZ.ANS by Grump (fORCE); released in force-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Global Domination
-# SAUCE Author: Grump
-# SAUCE Group: fORCE
-# SAUCE Date: 19960615
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Global Domination by Grump | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-09-gmp-jaz
 
 Write-Host '
 [1m▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄ ▄ ▄▄▄▄▄▄▄▄▄▄▄▄ ▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄ [0;1;32m▄▄████▄▄ [0;1;37m▄▄▄▄▄▄▄▄[0m

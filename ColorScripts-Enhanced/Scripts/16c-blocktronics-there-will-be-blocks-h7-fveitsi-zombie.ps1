@@ -1,16 +1,4 @@
-﻿# Converted from: h7-fveitsi_zombie.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_there_will_be_blocks/raw/h7-fveitsi_zombie.ans
-# Source Revision: archive-sha256:d99f6502677c5a3c863779944513ac7a61b8122179566cfc94d95537e904aa6b
-# Source SHA-256: 47a57cb1eeb4e4801e3af82cbd4fcee11c32f51462f68a7af5e87ca06e32b076
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: h7-fveitsi_zombie.ans by H7 (blocktronics_there_will_be_blocks); released in blocktronics_there_will_be_blocks and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 20161210
-# SAUCE Dimensions: 80x28
-# SAUCE Font: IBM VGA
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: h7-fveitsi_zombie.ans by H7 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-there-will-be-blocks-h7-fveitsi-zombie
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: RD!PHARO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phar0896/raw/RD!PHARO.ANS
-# Source Revision: archive-sha256:6b5cc8d7252908bb34e044ed6dcfb42f8dbf6c65d3528deee6494d62c5743e7d
-# Source SHA-256: 88a5ec4ac98aab11f4863a29d2409031492989ade7930fa7dc1f44d75bf07e5a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD!PHARO.ANS by RaBiD DoCToR (PHaR); released in phar0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: PHaRouT
-# SAUCE Author: RaBiD DoCToR
-# SAUCE Group: PHaR
-# SAUCE Date: 19960727
-# SAUCE Dimensions: 80x47
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: PHaRouT by RaBiD DoCToR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phar0896-rd-pharo
 
 Write-Host '
 [1;30m$$$$$$$$$$$$$$$$$[0;31m.e$$$$ee.[0;1;30m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m

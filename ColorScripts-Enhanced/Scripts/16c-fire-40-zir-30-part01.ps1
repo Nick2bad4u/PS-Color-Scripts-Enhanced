@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-30.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-40/raw/ZIR-30.ANS
-# Source Revision: archive-sha256:aff8105c0a955ac5c43ea367a02b086cd2849f6741fc41b8a5ff440b77e104a7
-# Source SHA-256: 38dc11711d8530f62d41f417e2d5b9d32e628f54353680499fb8c027dbc1f704
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-30.ANS by zir (FiRE); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 30 YEARS
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20240707
-# SAUCE Dimensions: 80x92
-# SAUCE Font: IBM VGA
-# SAUCE Comments: as the world burns...
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: 30 YEARS by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-40-zir-30-part01
 
 Write-Host '
                                                [31;40m░[0;37;40m [0;1;30;40m░░[0m   [1;30m░░[0;31m░[0;37m [0;1;30m░░[0m  [1;30m░░░ ░░[0m  [1;30m░░[0m [1;30m░░░[0m  [1;30m░[0m

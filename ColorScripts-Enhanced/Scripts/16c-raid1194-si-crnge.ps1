@@ -1,18 +1,4 @@
-﻿# Converted from: SI-CRNGE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/raid1194/raw/SI-CRNGE.ANS
-# Source Revision: archive-sha256:3055ba6fb4c0ff0cbf45560f92b33caea595d70a0a90cd7137e24559c88fba03
-# Source SHA-256: 6ee25a6ef99d0ef2325965cd3d5a134a0e3d45a71e218faa94cf945f24782bd0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SI-CRNGE.ANS by Spirit Of Illusion (RAiD); released in raid1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Cringe Net
-# SAUCE Author: Spirit Of Illusion
-# SAUCE Group: RAiD
-# SAUCE Date: 19941030
-# SAUCE Dimensions: 80x25
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: Cringe Net by Spirit Of Illusion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-raid1194-si-crnge
 
 Write-Host '
  [33m▒[0m        [33m▄░[0m                                     [1;30m▄■[0m  [1;30m▄.[0m  [1;30m▄▄▄[0m  [1;30mtm[0m

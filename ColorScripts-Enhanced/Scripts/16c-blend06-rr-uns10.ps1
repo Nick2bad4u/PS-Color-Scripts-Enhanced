@@ -1,18 +1,4 @@
-﻿# Converted from: RR-UNS10.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend06/raw/RR-UNS10.ANS
-# Source Revision: archive-sha256:bdb12df6fb66b6e7f7ab1240c15e9b23d66b94ced69828c85c717709162a24eb
-# Source SHA-256: 5802ce82ce6f4e4f8c0555700d18c1026386f8680d99659fe87c18fe280a7859
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RR-UNS10.ANS by riddler (blend productions); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: bulletins menu
-# SAUCE Author: riddler
-# SAUCE Group: blend productions
-# SAUCE Date: 19970127
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: bulletins menu by riddler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend06-rr-uns10
 
 Write-Host '
          [32m▄▄▄█[0;30;42m░[0;32;40m░[0m

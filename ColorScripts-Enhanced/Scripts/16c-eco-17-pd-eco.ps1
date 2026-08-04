@@ -1,18 +1,4 @@
-﻿# Converted from: PD_ECO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-17/raw/PD_ECO.ANS
-# Source Revision: archive-sha256:8236759fde5db8ee2caeed4c8b472252ce9b47375d97816d78339cb82ea8285c
-# Source SHA-256: 18bc009f919a48e9f34d380233a580b521cf9339b54dede277c7279d7d0442a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PD_ECO.ANS by PoSeidon (OSF); released in eco-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 1st contribution
-# SAUCE Author: PoSeidon
-# SAUCE Group: OSF
-# SAUCE Date: 19991117
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: 1st contribution by PoSeidon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-17-pd-eco
 
 Write-Host '
      [1m        [0;1;30m·[0;1;37mW[0;1;30m·[0;1;37mH[0;1;30m·[0;1;37mE[0;1;30m·[0;1;37mN[0;1;30m··[0;1;37mH[0;1;30m·[0;1;37mO[0;1;30m·[0;1;37mL[0;1;30m·[0;1;37mL[0;1;30m·[0;1;37mA[0;1;30m·[0;1;37mN[0;1;30m·[0;1;37mD[0;1;30m··[0;1;37mF[0;1;30m·[0;1;37mA[0;1;30m·[0;1;37mD[0;1;30m·[0;1;37mE[0;1;30m·[0;1;37mS[0;1;30m··[0;1;37mTO[0;1;30m··[0;1;37mG[0;1;30m·[0;1;37mR[0;1;30m·[0;1;37mE[0;1;30m·[0;1;37mY[0;1;30m·[0m

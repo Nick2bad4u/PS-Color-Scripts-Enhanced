@@ -1,18 +1,4 @@
-﻿# Converted from: us-np2h.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook19/raw/us-np2h.ans
-# Source Revision: archive-sha256:3dd762b50e992d041fc40857f6a08666cf879c80169b27b714b162069a52b736
-# Source SHA-256: bfd416d10acea7fd0b235b9195b7dba9896ae7fdee4a5ff706aecf07e51c60cd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-np2h.ans by Zippy + Shine (black maiden); released in bmbook19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: no place to hide
-# SAUCE Author: zippy.shine
-# SAUCE Group: black maiden
-# SAUCE Date: 19981213
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: no place to hide by Zippy + Shine | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook19-us-np2h
 
 Write-Host '
 

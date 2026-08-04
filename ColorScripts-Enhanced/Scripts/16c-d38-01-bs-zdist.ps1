@@ -1,17 +1,4 @@
-﻿# Converted from: BS-ZDIST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-01/raw/BS-ZDIST.ANS
-# Source Revision: archive-sha256:839932970b12d0c8f9bed0d87f002a63e0f2cc60ac78a12ea0891a4123fc4507
-# Source SHA-256: e699f65a0bd5e15f5d892c3099b1c85a278162f5798e2f7a79bfaa22db532147
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-ZDIST.ANS by Blind Sniper (Department 38); released in d38-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Zenith Zine Distro
-# SAUCE Author: Blind Sniper
-# SAUCE Group: Department 38
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Zenith Zine Distro by Blind Sniper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-01-bs-zdist
 
 Write-Host '
 

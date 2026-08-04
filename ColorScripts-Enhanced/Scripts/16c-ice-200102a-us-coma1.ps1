@@ -1,18 +1,4 @@
-﻿# Converted from: us-coma1.ice
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-200102a/raw/us-coma1.ice
-# Source Revision: archive-sha256:696c2b57d45f644e0fc9222afeddf74e341996e183c04d5c39a747f2ee62eab7
-# Source SHA-256: 9608969aa021790b34347af3db84fb765fdb3046c8cb0d2ead4ab42a65a59973
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-coma1.ice by Fluor + The Night Angel + The Extremist + Mr Wrong (The Used Coalition); released in ice-200102a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Coma demoparty ansi compo
-# SAUCE Author: Multiple Artists
-# SAUCE Group: The Used Coalition
-# SAUCE Date: 20001029
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Coma demoparty ansi compo by Fluor + The Night Angel + The Extremist + Mr Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-200102a-us-coma1
 
 Write-Host '
                         [1;30m▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: KK-WCLG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thst995a/raw/KK-WCLG.ANS
-# Source Revision: archive-sha256:99fdeaae8a530fd5d02841ab58ea673bd295ce46b88d323c93f266729bea4197
-# Source SHA-256: b4845100ba4d4e4af57dfbfd3831e3fc28c31bb052616f4945ef533288f1c1db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KK-WCLG.ANS by Kamikaze (thst995a); released in thst995a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: KK-WCLG.ANS by Kamikaze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thst995a-kk-wclg
 
 Write-Host '
 

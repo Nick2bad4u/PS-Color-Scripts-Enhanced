@@ -1,13 +1,4 @@
-﻿# Converted from: we-death.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1465-001/raw/we-death.ans
-# Source Revision: archive-sha256:0c63c049ba222ff6b20f73e49a7aa227dfdc1f2abd0fc9823b88e8d25342c3a7
-# Source SHA-256: 8763d126a65b1d1a9eb5ba9d2c6778ec9f7dffafb71a2d785eb7945c39f44c31
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-death.ans by Knocturnal + Avenging Angel (1465-001); released in 1465-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: we-death.ans by Knocturnal + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1465-001-we-death
 
 Write-Host '
 

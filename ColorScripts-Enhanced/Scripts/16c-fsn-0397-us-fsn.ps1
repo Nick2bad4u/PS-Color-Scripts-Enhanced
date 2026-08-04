@@ -1,18 +1,4 @@
-﻿# Converted from: US-FSN!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0397/raw/US-FSN!.ANS
-# Source Revision: archive-sha256:0bbae31e52a4c1ad24c4bfa8a6bfcd082f750141f70c56dfd02f65c0d93bbb46
-# Source SHA-256: 16b9f496289b91167d77e78bd4e50991f2af19f2c2992d213c1284584512e704
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FSN!.ANS by Ize + Oolite (fusion); released in fsn-0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fusion
-# SAUCE Author: oolite + izey
-# SAUCE Group: fusion
-# SAUCE Date: 19970127
-# SAUCE Dimensions: 80x23
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: fusion by Ize + Oolite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0397-us-fsn
 
 Write-Host '
 

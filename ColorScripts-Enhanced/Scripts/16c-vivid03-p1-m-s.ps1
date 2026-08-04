@@ -1,18 +1,4 @@
-﻿# Converted from: P1-M&S.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vivid03/raw/P1-M%26S.ANS
-# Source Revision: archive-sha256:707c507abc7daafa803f0e19897b10ba6d9a8f9e09826a64950be6878f695dbf
-# Source SHA-256: e010bf7aa07db2954dd4e2c7513978162d3236efea2d3adfe0c4d88761c9f922
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P1-M&S.ANS by Paranormal Intensity (ViViD); released in vivid03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Mind And Sould Ansi
-# SAUCE Author: Paranormal Intensity
-# SAUCE Group: ViViD
-# SAUCE Date: 19980113
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Mind And Sould Ansi by Paranormal Intensity | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vivid03-p1-m-s
 
 Write-Host '
              [33m▒[0m         [33m░[0m                             [1;37mf [0;1;30m. [0;1;37mi [0;1;30m. [0;1;37ml [0;1;30m. [0;1;37me[0m

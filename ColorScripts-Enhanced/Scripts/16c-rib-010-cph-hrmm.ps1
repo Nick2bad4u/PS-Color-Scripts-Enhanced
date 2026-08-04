@@ -1,18 +1,4 @@
-﻿# Converted from: CPH-HRMM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-010/raw/CPH-HRMM.ANS
-# Source Revision: archive-sha256:f0e8a1202a9ab4518ddf30655a3e3a838d00336d432c41d2fb4ced8564853688
-# Source SHA-256: e62b0d4c44465c40af5e3e42dc2fb764bdc111e9326c46be7ca78ecbc1b0f371
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-HRMM.ANS by {YBERPUNCh (rib); released in rib-010 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: h!r main menu
-# SAUCE Author: {YBERPUNCh
-# SAUCE Group: rib
-# SAUCE Date: 19980703
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: h!r main menu by {YBERPUNCh | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-010-cph-hrmm
 
 Write-Host '
 [34m [0m             [34m░░░▒▒▒▓▓▓███████▓▓██████████[0;1;34;44m░░[0;34m███████████████████████▀█▀▀▐█████▓▓[0m

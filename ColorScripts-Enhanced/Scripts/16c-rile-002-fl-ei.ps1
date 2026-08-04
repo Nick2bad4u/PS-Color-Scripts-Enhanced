@@ -1,18 +1,4 @@
-﻿# Converted from: FL-EI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile_002/raw/FL-EI.ANS
-# Source Revision: archive-sha256:09fff222285c90eb6b714714b4c5e3c96cc514cdf338ccf4e30b5898f9a5a64b
-# Source SHA-256: 6f3fe0a1bcd2bc9d12c40f5b402a40d0bf592ce0550e1041bcc3434b0fd826d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-EI.ANS by flame (RILE); released in rile_002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: evil int.
-# SAUCE Author: flame
-# SAUCE Group: RILE
-# SAUCE Date: 19970301
-# SAUCE Dimensions: 80x25
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: evil int. by flame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile-002-fl-ei
 
 Write-Host '
 [36mrile [0m                                                                       [31m ∙∙[0;36m£[0m

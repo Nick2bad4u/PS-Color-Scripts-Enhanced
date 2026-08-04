@@ -1,17 +1,4 @@
-﻿# Converted from: MA-ABS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9704/raw/MA-ABS1.ANS
-# Source Revision: archive-sha256:da151757a637299fc8da8cc755ae75b6a0e1a281dd915d29497f1d00d429e5c1
-# Source SHA-256: 67f7366b1408abf33a5949ebc8c8de26563aad6e09ae02bcec6c6a53891d5477
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MA-ABS1.ANS by Mass Murderer (AWE Lettering); released in awe9704 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ABS
-# SAUCE Author: Mass Murderer
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ABS by Mass Murderer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9704-ma-abs1
 
 Write-Host '
 

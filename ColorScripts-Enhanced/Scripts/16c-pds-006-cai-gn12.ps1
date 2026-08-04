@@ -1,18 +1,4 @@
-﻿# Converted from: CAI-GN12.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pds-006/raw/CAI-GN12.ANS
-# Source Revision: archive-sha256:0045103f3f9fe71c2d296c9685d62daeb9e6d3ce6537438b1f64f51cc33a4a63
-# Source SHA-256: f3db8805c56cacdf52903cf7ad37f44295d2dba027e887602ff49feef60ba8d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CAI-GN12.ANS by caithor (paradise); released in pds-006 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: genocide logotype!
-# SAUCE Author: caithor
-# SAUCE Group: paradise
-# SAUCE Date: 19960907
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: genocide logotype! by caithor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pds-006-cai-gn12
 
 Write-Host '
                                                           [34m  ,%dOS$ⁿ""""ⁿ$SOb%,  [0m

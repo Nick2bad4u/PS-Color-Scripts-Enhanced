@@ -1,18 +1,4 @@
-﻿# Converted from: M7-FB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-07/raw/M7-FB.ANS
-# Source Revision: archive-sha256:3007ab392a2ea4e107d02b3029b445696a097ac55d389caab2dbfe0944556beb
-# Source SHA-256: 68088d4d061ad3a9f51022f49984a83fe81654be9c7774b4bab74909e52c0fec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M7-FB.ANS by m7 (eclipse); released in ecl-07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: full blown
-# SAUCE Author: m7
-# SAUCE Group: eclipse
-# SAUCE Date: 19960915
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: full blown by m7 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-07-m7-fb
 
 Write-Host '
      [32m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m                          [1;33m▄▄▄[0;1;37m▄[0;1;33m▄[0;1;37m▄[0;1;33m▄▄[0m

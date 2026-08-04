@@ -1,18 +1,4 @@
-﻿# Converted from: SPH_ILE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense12j/raw/SPH_ILE.ANS
-# Source Revision: archive-sha256:e1859c229de4f4dd1e65990d325e90f1a80e1ce3863ae80925f53e6878990dc6
-# Source SHA-256: bbc3f2cfa66d99de1f60b6da54ce4354f788392c4cd249eaa185acaabf1b3ad8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPH_ILE.ANS by Sephiroth (Sense); released in sense12j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Elixir1
-# SAUCE Author: Sephiroth
-# SAUCE Group: Sense
-# SAUCE Date: 20030131
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Elixir1 by Sephiroth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense12j-sph-ile
 
 Write-Host '
 [36m░[0;30;46m▓[0;33;40m [0;30;43m░░[0;33;40m█[0;37;43m░[0;33;40m█[0;30;43m▓[0;33;40m [0;37;40m [0;36;40m░░[0;37;40m  [0;36;40m▄[0;1;37;40m▄▄▄▄▄▄[0;36m▄[0;1;37;46m░▒[0;1;37;40m▀▀▀[0;36m▀▀[0;37m [0;36m░[0;30;46m▓[0;37;40m  [0;36;40m▀▀▀▀[0;37;40m ▄[0;1;30;47m  [0;1;37;47m▒░[0m▀▀[1;47m▓[0;1;40m▄[0m [36m▀[0;37m [0;1;30m▐[0;1;37;47m▒▓[0;1;37;40m▀[0m [1m▀▄[0m  [36m▄[0;1;37m▄[0;1;36m▄[0;1;37m▄[0m  [1;30m▀▄[0;1;30;47m▀[0;1;37;47m▒[0m▓▄  [36m░▀[0;1;37m▀[0;36m▄[0;1;37m▄[0m

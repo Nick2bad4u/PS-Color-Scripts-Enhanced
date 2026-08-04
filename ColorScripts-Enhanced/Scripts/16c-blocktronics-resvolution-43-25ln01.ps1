@@ -1,13 +1,4 @@
-﻿# Converted from: 43-25ln01.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_resvolution/raw/43-25ln01.ans
-# Source Revision: archive-sha256:d0690af9ec91bf96f335196e9f9ddfb5d7ea02d97d300b53301bebaf58d83c35
-# Source SHA-256: ed0816f5ce342055d79290aa382bfc95fdcbfec151d5c52375212505a787ec1a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 43-25ln01.ans by Aesthetic (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: 43-25ln01.ans by Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-resvolution-43-25ln01
 
 Write-Host '
  [35m [0;1;30m   [0m [1;33m    ▄▄▄▄▄████[0;1;33;43m▓▓▓▄▄[0;1;33;40m▄▄▄▄[0m      [31m▀[0;1;31;41m░░[0;31m▄[0m      [31m█[0;1;31;41m░[0;1;30;41m▀[0m [1;30m▄[0;1;30;43m▀[0;1;31;43m░░░[0;33m▀▄▄[0;1;33m▄▄▄▄▄▄▄▄▄▄[0m▄[1;30m▀[0;33m▀▀▀[0;1;30;43m▄[0;33m█▓▓▓▓▓▓█[0m

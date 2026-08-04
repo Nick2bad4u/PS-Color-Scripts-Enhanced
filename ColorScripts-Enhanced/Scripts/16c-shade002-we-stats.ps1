@@ -1,18 +1,4 @@
-﻿# Converted from: WE-STATS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shade002/raw/WE-STATS.ANS
-# Source Revision: archive-sha256:d6630e5a2cda9c2e8ed75a0f301d30ff6bb26e6ea43307100282f67eaeb95559
-# Source SHA-256: ba3634e1c983062ad47ba297361c97ed0912a456b67963f698708191d946f80c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WE-STATS.ANS by Phlare + Dfuse (shade); released in shade002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: stats screen
-# SAUCE Author: phlare&dfuse
-# SAUCE Group: shade
-# SAUCE Date: 19960905
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: stats screen by Phlare + Dfuse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shade002-we-stats
 
 Write-Host '
 [1;34;44m▓▒▒░[0;34m▀▀[0;1;33m [0;33m▄[0;1;33m▄▄[0;1;33;43m▄[0;1;33;40m█[0;1;37;40m████[0;1;33;40m███[0;1;33;47m▓[0;1;33;43m▀[0;1;33;40m▀▀▀▀▀▀▀██[0;1;33;43m▓[0;1;33;40m▄[0;33m▄ ▀[0;1;33;43m▀▓▀[0;1;33;40m▀[0;33m▀▀▄▄[0;37m [0;34m▀▀[0;1;34;44m▒[0;1;34;40m▄ [0;34m▓█[0;30;44m▀[0;34;40m██████[0;30;44m               [0;34;40m▓▄▄▄▄ ░[0m

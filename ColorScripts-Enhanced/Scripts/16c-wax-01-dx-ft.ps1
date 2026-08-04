@@ -1,13 +1,4 @@
-﻿# Converted from: DX-FT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wax-01/raw/DX-FT.ANS
-# Source Revision: archive-sha256:758ca54117dc909c4a3054dd40bbe31acb9fc5d53207f90efc16f95d8918dfdb
-# Source SHA-256: 247dcef8b58cf3910b052080066d09c522f82341b2787bf26b0f76b4b1a7d9b2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DX-FT.ANS by Drax (wax-01); released in wax-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: DX-FT.ANS by Drax | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wax-01-dx-ft
 
 Write-Host '
           [1m└ └─┌[0m[[30;47md[0;37;40mrax][0;1;37;40m;│;; ,[0m                          [1m,;;│  │ │├┤├┬┘ ┘[0m

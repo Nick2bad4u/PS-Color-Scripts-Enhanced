@@ -1,18 +1,4 @@
-﻿# Converted from: TG-VOODO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-13/raw/TG-VOODO.ANS
-# Source Revision: archive-sha256:ea98960ace16e4f090b4a075123e7f05c37a5a5a792753793e08aef5bcb35959
-# Source SHA-256: 2febbff45f10bad2900691b43cfcca282c0d82e8f420a26d0cdc8bca3278fef3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-VOODO.ANS by Tuffguy (Ecolove); released in eco-13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Voodoo lounge matrix
-# SAUCE Author: Tuffguy
-# SAUCE Group: Ecolove
-# SAUCE Date: 19990301
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Voodoo lounge matrix by Tuffguy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-13-tg-voodo
 
 Write-Host '
     [1m▄[0m              [1m▐[0m▌   [1;30m▄[0m▀                     ▄      [1;30m▌[0m          ▐[1;30m▌[0m

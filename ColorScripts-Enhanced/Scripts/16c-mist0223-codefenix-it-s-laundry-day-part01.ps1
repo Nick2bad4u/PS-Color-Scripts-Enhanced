@@ -1,19 +1,4 @@
-﻿# Converted from: CODEFENIX-IT'S_LAUNDRY_DAY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0223/raw/CODEFENIX-IT'S_LAUNDRY_DAY.ANS
-# Source Revision: archive-sha256:f6abf3bbd53eb017898fa84b28d2ac43fcb70297788ba675e470ca73794cbbfd
-# Source SHA-256: 69e5a011e76ad2a2442c8b91018ac1f1b0b96aa5cdee67673ccca3f85e3b6720
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CODEFENIX-IT'S_LAUNDRY_DAY.ANS by Codefenix (mist0223); released in mist0223 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: It's Laundry Day!
-# SAUCE Author: Codefenix
-# SAUCE Date: 20220830
-# SAUCE Dimensions: 80x70
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Part of a series on celebrating the mundane and ordinary.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: It's Laundry Day! by Codefenix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0223-codefenix-it-s-laundry-day-part01
 
 Write-Host '
 [1;33m▓[0;31m                ▒░[0;35m░░[0;31m░    [0;1;33m░▓███▓▓▓█▓███▓[0;31m░░▒[0;35m▒[0;35;41m▓█[0;30;41m▓██████▒[0;31;40m ░░░▒    ░ [0;1;33;40m▒██████▓█▓░ ▓▓[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: STC-TLH.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9409a/raw/STC-TLH.ICE
-# Source Revision: archive-sha256:a92227369d28f50cbc2bfd487ba80600635ab872d2f29d81a7af3d04a31fd498
-# Source SHA-256: 075bac548ac4dd4f547e147a1862b2abed6c005d7aaa7377e5b553d325b5a497
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STC-TLH.ICE by Stone The Crow (ice9409a); released in ice9409a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 148-195
-# Columns: 1-80
+﻿# Artwork: STC-TLH.ICE by Stone The Crow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9409a-stc-tlh-part04
 
 Write-Host '
         [33m▀▀   ▀▀▄▄[0;32m▀▓[0;30;42m■[0;32;40m██▄[0;33;40m▀█[0;30;43m■[0;33;40m▄▄[0m      [32;40m▄▄▓[0;30;42m.[0;32;40m█▄▄[0m          [1;32;42m▒░[0;32m▌  ▄█[0;30;42m■[0;32;40m█[0;1;32;42m░[0;32m█▄ ▀[0;1;32;42m░[0;32m▀    ▀[0m

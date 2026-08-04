@@ -1,18 +1,4 @@
-﻿# Converted from: US-CHAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0697/raw/US-CHAT.ANS
-# Source Revision: archive-sha256:608fe2b98dcac70515ce221c11f606d898ec739b4fcdd1a5448c437eb640df82
-# Source SHA-256: 49408803a61eb8ebfd9e8f770b0505a301b9fd44ed76a9c16e324ab0a322ab43
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CHAT.ANS by Pyx + Anomite (bamboosh); released in bmb-0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Chat ans.. blah!@@ =)
-# SAUCE Author: anomite , then pyx
-# SAUCE Group: bamboosh
-# SAUCE Date: 19970602
-# SAUCE Dimensions: 80x20
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: Chat ans.. blah!@@ =) by Pyx + Anomite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0697-us-chat
 
 Write-Host '
 

@@ -1,16 +1,4 @@
-﻿# Converted from: MR-MANIF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9703/raw/MR-MANIF.ANS
-# Source Revision: archive-sha256:9e514042cc5e389aeb3f9323e41f842849e88d4294fdd727215463cf9566281b
-# Source SHA-256: 68baaaa6b9a41aea52dfb70474943800aae6af655600adcbe205b4d92372e9bb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-MANIF.ANS by minotaur (mdn-9703); released in mdn-9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: manifesto underground ( abstract )
-# SAUCE Author: minotaur
-# SAUCE Date: 19970219
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: manifesto underground ( abstract ) by minotaur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9703-mr-manif
 
 Write-Host '
 

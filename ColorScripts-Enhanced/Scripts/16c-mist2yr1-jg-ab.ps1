@@ -1,18 +1,4 @@
-﻿# Converted from: JG-AB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist2yr1/raw/JG-AB.ANS
-# Source Revision: archive-sha256:dfb163381a7a05007552a68525e5d3039ad18b3101b731021ee8569cee86eda1
-# Source SHA-256: b2b13407d00ea4a5258dc3c2f4692ffbdb03a7aa84130bbc32cc2715c39e6961
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JG-AB.ANS by Jughead (MiSTiGRiS); released in mist2yr1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Abraxas
-# SAUCE Author: Jughead
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19961017
-# SAUCE Dimensions: 80x25
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Abraxas by Jughead | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist2yr1-jg-ab
 
 Write-Host '
 [33m▄▄[0;1;30;43m░░[0;33m▓[0;1;30;43m░[0;33m▀▀▀▀[0;30;47m█[0;33;40m░░[0;30;47m███[0;33;40m▄▄[0;1;30;43m░[0;33m▀▀▄▄[0;1;30;43m░░[0;33m█[0;1;30;43m░░▒[0;33m▄▀[0;1;30;43m░[0;33m▄▀▄▀[0;1;30;43m░[0;33m▄▀▌▐▀▄[0;1;31;43m▒▒▒▒▒[0;33m▌▐▌▐[0;1;31;43m▒▓▓▓█▓[0;1;31;40m█▄[0;33m▀██▄▀▀[0;1;30;43m░░[0;33m▄[0;30;47m█[0;33;40m▀█▄▀[0;1;30;43m░[0;33m▄▀[0;1;30;43m░[0;1;30;40m░[0;1;30;43m░[0m

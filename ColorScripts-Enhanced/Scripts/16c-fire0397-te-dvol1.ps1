@@ -1,19 +1,4 @@
-﻿# Converted from: TE-DVOL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0397/raw/TE-DVOL1.ANS
-# Source Revision: archive-sha256:92948d41234c0b51c2e1cbae1fc45d03877af276dfc89419c464eee360a4eed8
-# Source SHA-256: d6978a581835efbe13a3328f8552130ada615f9d534c7e2112a3728989451796
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-DVOL1.ANS by The Extremist (Fire); released in fire0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Disco Volante
-# SAUCE Author: The Extremist
-# SAUCE Group: Fire
-# SAUCE Date: 19970303
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: do you really read THIS? well. | email me. :]  text@geocities.com
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Disco Volante by The Extremist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0397-te-dvol1
 
 Write-Host '
                [34m░[0m

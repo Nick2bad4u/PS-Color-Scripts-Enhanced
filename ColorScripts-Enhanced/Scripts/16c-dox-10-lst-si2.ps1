@@ -1,17 +1,4 @@
-﻿# Converted from: LST-SI2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_10/raw/LST-SI2.ANS
-# Source Revision: archive-sha256:21def41607bc8f426e6b33cadf0099935014e2da13ee2908faa3303a70532ffa
-# Source SHA-256: c207a46c282cddc9de44074d55bd714638790ecfeb35f9f4dcece5eec4b2444c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LST-SI2.ANS by soul trader (dox_10); released in dox_10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: sinthetic intelligence
-# SAUCE Author: soul trader
-# SAUCE Date: 19970626
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: sinthetic intelligence by soul trader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-10-lst-si2
 
 Write-Host '
 [34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;37m [0;34m▄[0;1;34m▄[0m [34m  ██[0;1;34;44m▄[0;34m█[0;1;34;44m▄▄▄▄▄▄[0;34m█[0;1;34;44m▄[0;34m██████████[0;1;34;44m  [0;34m███████▀[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: YO-SUBM0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spas9504-0495logo/raw/YO-SUBM0.ANS
-# Source Revision: archive-sha256:89c1feb884e65209cc472c1d73a5f8c12daff7a9a9a0e2d7e56ea31f10a06fe9
-# Source SHA-256: 4de4be333b8756c80c39aa8819c7ed52cc5ec7bc2d85c557772c631429e7c026
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: YO-SUBM0.ANS by Young (Spastic Studios); released in spas9504-0495logo and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Suboceana
-# SAUCE Author: Young
-# SAUCE Group: Spastic Studios
-# SAUCE Date: 19950401
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Suboceana by Young | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spas9504-0495logo-yo-subm0
 
 Write-Host '
 [33m▀[0;33;43m  [0;37;43m░░  [0;1;31;43m░░░▒▒▒░░░  [0;43m░░  [0;33;40m▀▀▄▄▄▓▓[0;33;43m  [0;33;40m▓[0;1;31;43m░ ░░░ [0;33m▓▓[0;33;43m [0;33;40m▓▄░░ [0;31;40m░ [0;33;40m░ [0;37;40m▄▓▄■  [0;31;40m░  [0;33;40m░ [0;1;30;40m░ [0;31m░[0;37m■▄[0;1;37;47m░[0m [31m░  ░[0m

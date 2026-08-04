@@ -1,13 +1,4 @@
-﻿# Converted from: TE-TTK2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9703a/raw/TE-TTK2.ICE
-# Source Revision: archive-sha256:6bff16e5edf32b4898857b0d23616134d84be36d169a4a2f3bc23f437f356dfe
-# Source SHA-256: 512facbc71ad0126d15d1b1879462a9fa4a5b3c37b79487af3d6ec01743de952
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-TTK2.ICE by Tetanus (ice9703a); released in ice9703a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: TE-TTK2.ICE by Tetanus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9703a-te-ttk2
 
 Write-Host '
 [1;32;42m▒░[0;32m▀[0;33m▄▄▀▀[0;32m▄▄[0;1;32;42m░░[0;32m▄▀▓▓▒░[0;33m▄▀[0;32m▄█▓▒░[0;33m▐▄ [0;34m▓▓▓▒▒▒░░░░░░[0m             [32m▀▓▓▀▀▀ [0;33m▄▄  [0;34m░░░[0m          [34m░░▒▒[0m

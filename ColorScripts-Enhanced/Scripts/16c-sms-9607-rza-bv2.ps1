@@ -1,18 +1,4 @@
-﻿# Converted from: RZA-BV2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9607/raw/RZA-BV2.ANS
-# Source Revision: archive-sha256:9e6601fb76997375dd243211c26e8c2351f2e546b672c94103f06b10c1d474c2
-# Source SHA-256: f5869e0bb28ffd66fdc26c4a76066eafd970b83c1017d7716d5090045a5ab179
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RZA-BV2.ANS by The RZA (Samsara); released in sms-9607 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Bottled Violence
-# SAUCE Author: The RZA
-# SAUCE Group: Samsara
-# SAUCE Date: 19960704
-# SAUCE Dimensions: 80x49
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Bottled Violence by The RZA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9607-rza-bv2
 
 Write-Host '
 [31m     [0m

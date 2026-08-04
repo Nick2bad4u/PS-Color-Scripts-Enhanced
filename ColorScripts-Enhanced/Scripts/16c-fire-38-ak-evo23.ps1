@@ -1,19 +1,4 @@
-﻿# Converted from: AK-EVO23.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-38/raw/AK-EVO23.ANS
-# Source Revision: archive-sha256:be80154150e87c06a8a7199ad7b8d7442acd5427250f57c89a783b9de15c69d7
-# Source SHA-256: 1c3c8a274a46499b33cc7f5671d91612e103e0dee6c5200ac0fc2c3f3ee7090d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-EVO23.ANS by abstrakt (fire); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: evoke 2023
-# SAUCE Author: abstrakt
-# SAUCE Group: fire
-# SAUCE Date: 20230721
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: evoke 2023 by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-38-ak-evo23
 
 Write-Host '
 [1;32;40m ,d[0;32m''[0;1;32md$$$$$P[0;32m$$┘d$[0;1;32m$$$[0;32m$[0;1;32m$[0;32m$$$$$$$$$$$$$$7[0;1;32m.sS$$$$$$$$$[0;32m$[0;1;32mb┌s%SSSS#%┐.`└4$$$$[0;32m$$$$$$[0;1;33mP[0;32mj[0;1;32m$$[0;32m$$[0m

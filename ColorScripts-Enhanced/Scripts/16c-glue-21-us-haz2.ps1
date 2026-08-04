@@ -1,13 +1,4 @@
-﻿# Converted from: US-HAZ2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-21/raw/US-HAZ2.ANS
-# Source Revision: archive-sha256:f82ee46d8be1d82ea17d8bdc07ad3071d4259c4331c1829c972b5ae2082ebcd2
-# Source SHA-256: 924f3255f5771269d68f050a6c7fc81942759cfb3a55dab54ccd0d75f7a64574
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-HAZ2.ANS by Klumzee + Dyingsoul (glue-21); released in glue-21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: US-HAZ2.ANS by Klumzee + Dyingsoul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-21-us-haz2
 
 Write-Host '
        [36m▐[0;1;36;46m▐▌[0;36m▌[0m   [36m▄[0;1;36m▀[0;36m▀[0m                              [36m▀[0;1;36m▀[0;1;36;46m▀█▄[0;36m▄[0m

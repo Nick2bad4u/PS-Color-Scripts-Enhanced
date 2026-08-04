@@ -1,18 +1,4 @@
-﻿# Converted from: SB-TF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0994/raw/SB-TF.ANS
-# Source Revision: archive-sha256:70e9e3ba45456511eb6a648215e7531dd3b7a09ca51f860ca2dd613c7dbc4d28
-# Source SHA-256: 69b6ac80a06cfa53a2adfdee6f274c15921c8fb29c28801311b2c083e4ebd916
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SB-TF.ANS by Soul Blazer (ACiD Productions); released in acdu0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Terra Firma
-# SAUCE Author: Soul Blazer
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940831
-# SAUCE Dimensions: 80x171
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: Terra Firma by Soul Blazer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0994-sb-tf-part01
 
 Write-Host '
 [30m[0;37m[0m

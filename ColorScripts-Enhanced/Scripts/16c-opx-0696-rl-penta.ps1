@@ -1,18 +1,4 @@
-﻿# Converted from: RL-PENTA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0696/raw/RL-PENTA.ANS
-# Source Revision: archive-sha256:1ba4c8d098d1b0f05665c254631c4d3b64f02872fa1b37e7519ce6b263840874
-# Source SHA-256: e27aaea229ad7930d426939d863018c19249f17929f7272ed3fa7ff6dee43414
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL-PENTA.ANS by Rawlock (Opium); released in opx-0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Pentagon
-# SAUCE Author: Rawlock
-# SAUCE Group: Opium
-# SAUCE Date: 19960528
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Pentagon by Rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0696-rl-penta
 
 Write-Host '
   ▄[1;33m▄▄[0;1;33;47m▄[0;1;33;40m▀▀▀▀▀▀▀▀▀▀▀[0;1;33;47m░[0;1;33;40m▄▄▄▄▄▄[0;1;33;47m▄[0;1;33;40m▀▀▀▀▀▀▀▀▀▀▀[0;1;33;47m▄▓[0;1;33;40m▄[0m▄[1;33m▄▄▄[0;1;33;47m▄[0;1;33;40m▀▀▀▀▀▀▀▀[0;1;33;47m▄▄[0;1;33;40m▄▄▄▄[0m▄[1;33m▄▄▄[0;1;33;47m▄[0;1;33;40m▀▀▀[0;1;33;47m▓[0;1;33;40m [0m

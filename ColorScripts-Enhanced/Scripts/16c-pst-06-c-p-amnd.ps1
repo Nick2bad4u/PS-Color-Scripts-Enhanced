@@ -1,18 +1,4 @@
-﻿# Converted from: C&P-AMND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pst-06/raw/C%26P-AMND.ANS
-# Source Revision: archive-sha256:93eed8ee4f179db89a50bcf60e21faa155b9d3a593731162fb8a86aa8a449a20
-# Source SHA-256: aa33f4e6bccb2e25d0e0cbe75ffec29482a8e36669d76dbede41f2e6fcd3d64c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: C&P-AMND.ANS by Prst + Chronix (glue/legion); released in pst-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: amend
-# SAUCE Author: chr0nix/prst
-# SAUCE Group: glue/legion
-# SAUCE Date: 19981225
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: amend by Prst + Chronix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pst-06-c-p-amnd
 
 Write-Host '
 [30;42m▓▓▓░[0;32;40m▓▀▀[0;37;40m [0;32;40m▄[0;1;32;42m░░[0;32m▀ [0m   [32m▀▓▓░░[0;37m  [0;30;42m▓▓▓[0;32;40m [0m   [32;40m▄▄[0;30;42m▓▓[0;32;40m░[0m   [30;42m▓▓▓▓[0;32;40m▄▄▄[0m   [1;32;40m░[0;1;37;40m░░[0m [36m░[0;1;36m▓[0;36m▄[0m    [32m░░▓▓▄▄[0m

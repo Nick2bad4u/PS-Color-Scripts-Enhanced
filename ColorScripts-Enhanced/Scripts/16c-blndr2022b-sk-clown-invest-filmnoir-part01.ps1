@@ -1,20 +1,4 @@
-﻿# Converted from: sK!clown_invest_filmnoir.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2022b/raw/sK!clown_invest_filmnoir.ans
-# Source Revision: archive-sha256:de7e2108b847566636570f45bc2a9f56d342e13d4ee56264634b872fe972b8a3
-# Source SHA-256: 8f0c4b311a3d17bc2a6f3d2d27e8eade3ea134c246f03de24505961cccfa935b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sK!clown_invest_filmnoir.ans by sIMONkING (thelo0p!); released in blndr2022b and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: CLOWN/INVEST/NOIR FILM
-# SAUCE Author: sIMONkING
-# SAUCE Group: thelo0p!
-# SAUCE Date: 20220424
-# SAUCE Dimensions: 80x80
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Blender 2022b
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: CLOWN/INVEST/NOIR FILM by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2022b-sk-clown-invest-filmnoir-part01
 
 Write-Host '
                       [1;30m██[0m [1;30m▀▀[0m  [1;30m▀[0m     [1;30m▄▄[0m [1;30m▄[0;1;30;47m░[0;1;30;40m▄[0m

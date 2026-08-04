@@ -1,18 +1,4 @@
-﻿# Converted from: TN-LOGO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/illu0297/raw/TN-LOGO.ANS
-# Source Revision: archive-sha256:4fc6a0019f008367ad8a97d95d80ada01dd34574d637246e807fcd899fd4fdb5
-# Source SHA-256: 090a3c821cd28b3109d3c098d4cf75af2da8523ce0618ad5f8ec1e817cdaf289
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TN-LOGO.ANS by trin (iLLUSiON); released in illu0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Logo'z
-# SAUCE Author: trin
-# SAUCE Group: iLLUSiON
-# SAUCE Date: 19970127
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Logo'z by trin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-illu0297-tn-logo
 
 Write-Host '
  [1m  [0m▄[1m▄▄▄▄▄▄▄▄▄▄ [0m      [1;31m▄██▀█[0;1;31;41m▓[0;1;31;40m▄[0m [1;31m▄██▀█[0;1;31;41m▓[0;1;31;40m▄[0m [1;31m▄██▀██▄[0m  [1;31m▄██▀██▄[0m

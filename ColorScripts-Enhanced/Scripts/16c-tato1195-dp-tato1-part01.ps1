@@ -1,17 +1,4 @@
-﻿# Converted from: DP!TATO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tato1195/raw/DP!TATO1.ANS
-# Source Revision: archive-sha256:f333614a4cb8ea014d89f3f61d43ca62d476aeb093fb4271fc5458c44493defa
-# Source SHA-256: f2bba10d7b2334c2327d9335ea3c7570c4f9909fcc7a6c70d3df1a983be9faf5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DP!TATO1.ANS by death parade (tato1195); released in tato1195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: tatoo - allways under pressure!
-# SAUCE Author: death parade
-# SAUCE Date: 19951123
-# SAUCE Dimensions: 80x131
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: tatoo - allways under pressure! by death parade | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tato1195-dp-tato1-part01
 
 Write-Host '
 [1m[0;1;31m[0;31m[0;1;30m[0;31m[0;1;31m[0;1;37m[0m

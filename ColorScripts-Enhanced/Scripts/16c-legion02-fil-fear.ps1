@@ -1,18 +1,4 @@
-﻿# Converted from: FIL-FEAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/legion02/raw/FIL-FEAR.ANS
-# Source Revision: raw-sha256:37aa4d39077ce30d02bde7690eeb0e2f9fabfbe2576201aed17699a5387d91df
-# Source SHA-256: 37aa4d39077ce30d02bde7690eeb0e2f9fabfbe2576201aed17699a5387d91df
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FIL-FEAR.ANS by filth (the legion); released in legion02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the fear bbs
-# SAUCE Author: filth
-# SAUCE Group: the legion
-# SAUCE Date: 19980501
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: the fear bbs by filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-legion02-fil-fear
 
 Write-Host '
 [33m▒▒ ░░ ░▓▓▓▓▓▓▓░░░▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒░░ ░▒░░ ░▒▒▓▓▓▓▓ [0;1;37m1[0m-[1m800[0m-[1mfil[0m-[1m     [0m

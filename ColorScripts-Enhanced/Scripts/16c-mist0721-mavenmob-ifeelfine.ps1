@@ -1,19 +1,4 @@
-﻿# Converted from: MAVENMOB-IFEELFINE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0721/raw/MAVENMOB-IFEELFINE.ANS
-# Source Revision: archive-sha256:9d3d54e42a99a6e7bef51cb79a023b85709051f377817bc02741bd65f1493da4
-# Source SHA-256: 14d73e2fca175ffae405a4509af5a6767cf9e61b46fd2b37b9bae13a7c66cac6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MAVENMOB-IFEELFINE.ANS by Mavenmob (Mistigris); released in mist0721 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Word Is Not The Thing Text Fun
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20210629
-# SAUCE Dimensions: 80x38
-# SAUCE Font: IBM VGA
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: The Word Is Not The Thing Text Fun by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0721-mavenmob-ifeelfine
 
 Write-Host '
 [31m████████████████████████████████████████████████████████████████████████████████[0m

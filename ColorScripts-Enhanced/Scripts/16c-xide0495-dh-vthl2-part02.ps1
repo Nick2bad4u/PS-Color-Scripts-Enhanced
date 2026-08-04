@@ -1,13 +1,4 @@
-﻿# Converted from: DH-VTHL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/xide0495/raw/DH-VTHL2.ANS
-# Source Revision: archive-sha256:e317471988b625a6d81c93dffa76e59b4fa1a5332df991b4e6e58355a6ccc8a7
-# Source SHA-256: 82519c22ca297a7f7147292ed0498064f5f029348592ef1c1e09463d8c64ec43
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DH-VTHL2.ANS by Dark Horizon (xide0495); released in xide0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 34-65
-# Columns: 1-80
+﻿# Artwork: DH-VTHL2.ANS by Dark Horizon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-xide0495-dh-vthl2-part02
 
 Write-Host '
 [1;40m██████[0;1;47m▓░░[0m▄ ▀▀ [1m▄▄▄██▀▀ [0;34m▄▄▄▄ [0;1;37m▀█[0;1;37;47m▓▓▒▒▒▒░░[0m█ [34m▄▄▄▄▄▄▄▄ [0;1;37m████[0;1;37;47m▓▓▒▒░[0m█▀ [34m▄▄▄ [0;1;37m▀▀███▄▄▄ [0m▀▀ [1m▄▀ [0;34m▄[0m

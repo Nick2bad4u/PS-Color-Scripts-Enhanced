@@ -1,18 +1,4 @@
-﻿# Converted from: IB-SPIFF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0696/raw/IB-SPIFF.ANS
-# Source Revision: archive-sha256:fea269136894850bbc3733a7e378f47769430ca8b14c0592a0c25c525a6a95a4
-# Source SHA-256: 40c0c0316a176f21e92a6605b1f03dd30b0785ab1aae4fa3eef9d200b10198b6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IB-SPIFF.ANS by Intellius (Bamboosh); released in bmb-0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Spiff [ans]
-# SAUCE Author: Intellius
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19960531
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Spiff [ans] by Intellius | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0696-ib-spiff
 
 Write-Host '
 [1;35;44m                                                    [0;34m██[0;1;35;44m                          [0m

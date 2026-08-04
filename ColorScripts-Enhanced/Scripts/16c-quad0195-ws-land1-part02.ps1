@@ -1,18 +1,4 @@
-﻿# Converted from: WS-LAND1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0195/raw/WS-LAND1.ANS
-# Source Revision: archive-sha256:acac212db88b7bfbbd783bf99fac825d68c6edea7306a3b8a47c10ab2a784031
-# Source SHA-256: 6e5ed7d3b755dcc8412b1a9fce9176081ff78198a88cc7d4c02680ceafe67572
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WS-LAND1.ANS by Xyperwulv ([QuaD-P]); released in quad0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ModemLand(tm) #1
-# SAUCE Author: Xyperwulv
-# SAUCE Group: [QuaD-P]
-# SAUCE Date: 19940927
-# SAUCE Dimensions: 80x56
-# Lines: 30-55
-# Columns: 1-80
+﻿# Artwork: ModemLand(tm) #1 by Xyperwulv | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0195-ws-land1-part02
 
 Write-Host '
 [31m██▓▒░[0;1;30m█[0;1;30;47m▒░▒▓[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [1m▀▀ [0m▀[1m▀▀[0;1;30m  [0m▀▀▀▀[1m▀[0m ▀▀[1m▀▀[0;1;30m  [0m▀[1m▀▀[0m▀ ▄▄▄▄▄[1;30m▄[0m▄▄▄█[1;30;47m░░░▒▓▓[0;1;30;40m█[0;1;30;47m▓▓[0;1;30;40m███▓▒[0m   [33m██[0m

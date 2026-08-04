@@ -1,18 +1,4 @@
-﻿# Converted from: PX-DOINK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icon1296/raw/PX-DOINK.ANS
-# Source Revision: archive-sha256:3688a1ee6f390cf67760e1cdab248545e127f29abb4572eff437ff7725092965
-# Source SHA-256: 0dd7392952c43d4f8968cc1b12c8a7b034ee52f09c18747e4db344f963855085
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PX-DOINK.ANS by PhasaX (iCON); released in icon1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: doink
-# SAUCE Author: PhasaX
-# SAUCE Group: iCON
-# SAUCE Date: 19961216
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: doink by PhasaX | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icon1296-px-doink
 
 Write-Host '
 [1;30m[0m[1;36m[0;1;37m[0m[1;30m[0m

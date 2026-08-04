@@ -1,13 +1,4 @@
-﻿# Converted from: TT-MERC4.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-0393/raw/TT-MERC4.ICE
-# Source Revision: archive-sha256:31b03d3a9d263e952227664fe802688e743ab14a707f16c150dab800192d5fc5
-# Source SHA-256: 45be0afacd78aff8dc891f785b57f274f563de8dfdd2c4360ec2fe64ce19e5d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TT-MERC4.ICE by Tempus Thales (ice-0393); released in ice-0393 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: TT-MERC4.ICE by Tempus Thales | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-0393-tt-merc4
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: JX-PAGE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fld9611/raw/JX-PAGE1.ANS
-# Source Revision: archive-sha256:c3be5f7f5a1a29d13d34b467174f87c610dcf087ab12ff7b46ba81bca9a6eb51
-# Source SHA-256: ec0794213ef2cf16288ccb24878c6ce6301fe3977309b1d869879ff920278cd9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JX-PAGE1.ANS by Jinx (%%.fLUiD.%%); released in fld9611 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: PaGeR aNSkii - for eZY..
-# SAUCE Author: Jinx
-# SAUCE Group: %%.fLUiD.%%
-# SAUCE Date: 19961109
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: PaGeR aNSkii - for eZY.. by Jinx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fld9611-jx-page1
 
 Write-Host '
 [31m [0;1;31m.ed$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$jX!ba.[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: BAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bat03/raw/BAT.ANS
-# Source Revision: archive-sha256:9a4caf97eccc5f927274385b1453d4721efcc76396736574c5f097ed7f8536be
-# Source SHA-256: 1005ca731926804727bf855419ab3e49ebb5d210ac1e4d166bf52d2d802f1eb2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BAT.ANS by Freezer (bat03); released in bat03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: BAT.ANS by Freezer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bat03-bat
 
 Write-Host '
 [1;30m▀ ▀█ [0m▀[1;30;47m░[0;1;30;40m▄[0m▄ ▀ [1;30;47m▓[0m [1;30;40m█▄[0;1;30;47m▓▓[0m▄[47m   [0;1;30;47m░[0m ▀▀▀ [1;30m▄▄▐[0;1;30;47m▓▓▒▒[0m▀[1;30m▐[0;1;30;47m░ [0m▀ ·[1;30m▀▀[0m▀ ▄▄▄[47m   [0;1;30;47m░[0m ▀▀▀ [1;30m▄[0m▀ ·[1;30m▀▀[0m▀ ▄▄▀▀[1;30m▐█ [0m▄▀▀▄▄█[1;30;47m░[0m

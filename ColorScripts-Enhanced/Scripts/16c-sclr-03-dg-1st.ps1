@@ -1,13 +1,4 @@
-﻿# Converted from: DG-1ST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-03/raw/DG-1ST.ANS
-# Source Revision: archive-sha256:465e5ede58a7447690b213a11e085ded1926678289703dceccdd566e3c3e1882
-# Source SHA-256: b76b00246ae526495c2aafc341eb53b40165b05230e5f9a7b3bddffb845b7381
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DG-1ST.ANS by Digi (sclr-03); released in sclr-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: DG-1ST.ANS by Digi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-03-dg-1st
 
 Write-Host '
                      [1m__.[0;1;33m.,,▬▬▬,,..[0;1;37m__[0m

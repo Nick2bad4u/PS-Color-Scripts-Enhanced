@@ -1,19 +1,4 @@
-﻿# Converted from: MM-PORTRAIT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0223/raw/MM-PORTRAIT.ANS
-# Source Revision: archive-sha256:f6abf3bbd53eb017898fa84b28d2ac43fcb70297788ba675e470ca73794cbbfd
-# Source SHA-256: 381fa0c61efffdf59c0217897b962cdebca6b4b37f9df560a3f34d0352f4267b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-PORTRAIT.ANS by Mavenmob (Mistigris); released in mist0223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Self Portrait
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20230221
-# SAUCE Dimensions: 80x57
-# SAUCE Font: IBM VGA
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Self Portrait by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0223-mm-portrait-part01
 
 Write-Host '
 

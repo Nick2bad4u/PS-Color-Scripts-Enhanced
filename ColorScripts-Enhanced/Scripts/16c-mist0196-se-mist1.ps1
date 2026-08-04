@@ -1,18 +1,4 @@
-﻿# Converted from: SE-MIST1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0196/raw/SE-MIST1.ANS
-# Source Revision: archive-sha256:41103238687664686d9e07f96e72b5487be82fbd8791178c3c1cfb2e24f00d8f
-# Source SHA-256: c991871a9ed76919d2b257e721d9ae9c769cad3ed2b34fbfd3584ddc433d6f1a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SE-MIST1.ANS by Sentience (MiSTiGRiS); released in mist0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Mistigris Promo
-# SAUCE Author: Sentience
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19951109
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Mistigris Promo by Sentience | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0196-se-mist1
 
 Write-Host '
 [44m                                                                                [0m

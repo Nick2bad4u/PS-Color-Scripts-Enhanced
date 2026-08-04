@@ -1,18 +1,4 @@
-﻿# Converted from: NT-TEA77.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/saga9511/raw/NT-TEA77.ANS
-# Source Revision: archive-sha256:9f21e07b3ba1751ce04d93bcfad7176194bbd7dc7718673a799946a1e8e9b81c
-# Source SHA-256: 52098eb67f07756bf97aaa0fbc3039a01ffdbea949e4115755e66388be191978
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NT-TEA77.ANS by Nootropic (what's in yer ear?); released in saga9511 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Gas Chamber
-# SAUCE Author: Nootropic
-# SAUCE Group: what's in yer ear?
-# SAUCE Date: 19951105
-# SAUCE Dimensions: 80x25
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: The Gas Chamber by Nootropic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-saga9511-nt-tea77-part01
 
 Write-Host '
           [1;30m▄▄█▒▒░[0m  [1;30m▀[0m                 [1;30m░[0m                [1;30m▒▄▄▄░[0m   [1;30m▀[0m [1;30m▀▒▒[0m [1;30m░[0m

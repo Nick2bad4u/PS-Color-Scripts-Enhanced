@@ -1,13 +1,4 @@
-﻿# Converted from: gj-gp.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wrlk003/raw/gj-gp.ans
-# Source Revision: archive-sha256:f8a5978b1dd382d13a0cee4c0d6755b77dc879551ad11886884e396cd50f6e93
-# Source SHA-256: 197c4ec10ec0b8887920956750d50830b6b67c1994ada961bdfa39ab1eda80ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: gj-gp.ans by Grymmjack (wrlk003); released in wrlk003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: gj-gp.ans by Grymmjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wrlk003-gj-gp
 
 Write-Host '
    [36m▄[0;37m  [0;36m▄▄[0;1;37m▄[0;36m▄[0;1;36m▄▄[0;36m▄[0;1;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m   [1;36m▄▄▄▄[0m    [1;36m▄[0;1;37m▄▄▄[0m [1;36m▄▄▄▄[0m   [1;36m▄▄▄▄▄▄▄▄▄▄▄[0;36m▄[0;1;36m▄▄[0;36m▄[0;1;36m▄[0;1;37m▄[0;36m▄[0;37m [0;36m▄[0m

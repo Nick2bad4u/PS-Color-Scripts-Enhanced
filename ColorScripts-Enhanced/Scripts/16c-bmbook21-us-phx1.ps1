@@ -1,18 +1,4 @@
-﻿# Converted from: US-PHX1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook21/raw/US-PHX1.ANS
-# Source Revision: archive-sha256:a9340bf45277705f38b7b2e8dfe7bc518716b8c419a47ac48708bc33bd40ec01
-# Source SHA-256: b8bf927704ae3f072bad6d43f102ab74ef26663dad0cb80b7b10f9827a15dcc3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PHX1.ANS by Avenger + Spear (black maiden); released in bmbook21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: phunxion
-# SAUCE Author: spear.ave
-# SAUCE Group: black maiden
-# SAUCE Date: 20000117
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: phunxion by Avenger + Spear | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook21-us-phx1
 
 Write-Host '
 

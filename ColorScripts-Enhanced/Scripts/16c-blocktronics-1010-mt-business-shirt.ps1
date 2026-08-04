@@ -1,16 +1,4 @@
-﻿# Converted from: mt-business shirt.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_1010/raw/mt-business%20shirt.ans
-# Source Revision: archive-sha256:a99bb1826c554acf497ca2f3d3a318938bda45de706ac9decf9ca308162d3ee1
-# Source SHA-256: f0c7dffbd599a88645a2222cfa911635a89dc9e1535965375915bddc09cf1895
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mt-business shirt.ans by Misfit (blocktronics_1010); released in blocktronics_1010 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 20140403
-# SAUCE Dimensions: 81x47
-# SAUCE Font: IBM VGA
-# Lines: 1-47
-# Columns: 1-81
+﻿# Artwork: mt-business shirt.ans by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-1010-mt-business-shirt
 
 Write-Host '
 [37;40m█████████████████████ [0;33;40m░▓[0;1;31;43m ░[0;1;31;40m█████████[0;1;31;47m▓▓[0;1;31;40m▌[0m  █████████[1;35m███[0;1;35;47m▌[0m██▌░█[1;35;47m▐[0;1;35;40m██[0m█[1;35;47m [0;1;35;40m███[0m████[30;47m██[0;37;40m███[0;1;35;40m██[0m██[1;35;47m░[0;1;35;40m█[0m

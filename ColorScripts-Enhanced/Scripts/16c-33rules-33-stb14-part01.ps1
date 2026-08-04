@@ -1,18 +1,4 @@
-﻿# Converted from: 33-STB14.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/33rules/raw/33-STB14.ANS
-# Source Revision: archive-sha256:6cf2aef8e3ca97e1761e1ee4a8ba395e4fdab4dec9d3b2efb91c059359b50b00
-# Source SHA-256: 276b2981393754b85c115560fdd5c3572a13a85b6f68fac5dadc6fc34ec9cfcf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-STB14.ANS by Fire 02/96 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Sarcastic Toaster
-# SAUCE Author: Fire 02/96
-# SAUCE Group: Eerie
-# SAUCE Date: 19960121
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Sarcastic Toaster by Fire 02/96 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-33rules-33-stb14-part01
 
 Write-Host '
 [1;30m[0;1;37m[0;1;30m[0;1;31m[0m

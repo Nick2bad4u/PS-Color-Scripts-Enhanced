@@ -1,18 +1,4 @@
-﻿# Converted from: KP-EA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0494/raw/KP-EA.ANS
-# Source Revision: archive-sha256:cda9410890e0ae8f5b3a1e8c7fce4e1b3de00d8e334ef300576869cead7a6b53
-# Source SHA-256: 233c71e607e0ecd7257351f72ead7c87c80640215990c51464b65da59664d053
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KP-EA.ANS by Kingpin (ACiD Productions); released in acdu0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Electric Acid
-# SAUCE Author: Kingpin
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940313
-# SAUCE Dimensions: 80x162
-# Lines: 81-122
-# Columns: 1-80
+﻿# Artwork: Electric Acid by Kingpin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0494-kp-ea-part03
 
 Write-Host '
 [1;30m█ [0;1;31m▓▒[0;33m░  [0;32m▄[0;1;32m▀[0;32m▀[0;1;32m▀▀[0;32m▀▀▀  [0;1;30m░▒█[0m                 [33m░ ░ ░░[0;1;31m░▒▒▓▓██[0;1;31;47m▓▓▓▓▓[0;1;31;40m▀▀▀[0;33m░▓▓▒▒▒░░░[0;1;31m░▓[0;1;31;47m▓[0m [1;30;40m█ [0;32m▒[0m

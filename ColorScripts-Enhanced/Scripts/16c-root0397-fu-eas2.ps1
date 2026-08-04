@@ -1,15 +1,4 @@
-﻿# Converted from: FU-EAS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0397/raw/FU-EAS2.ANS
-# Source Revision: archive-sha256:147f0608c1bd711b116f3ad049b80e805dfbb40e7d23ffce5f4580a5a57bae0f
-# Source SHA-256: a1515cd2a3f212e496be10a0e7168aec151b1d8f4cbab101e449b57753aa9b09
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FU-EAS2.ANS by Fusion (root0397); released in root0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Ease
-# SAUCE Author: Fusion
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Ease by Fusion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0397-fu-eas2
 
 Write-Host '
 [34m ▄▓██████████████████████▄ ▄████████████████████████████████████████████████▓▄  [0m

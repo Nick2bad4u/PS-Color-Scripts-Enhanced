@@ -1,16 +1,4 @@
-﻿# Converted from: PT-BEC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gvt-0596/raw/PT-BEC.ANS
-# Source Revision: archive-sha256:f2fd877c7a0bae39c5f44298c1713c8be39cba6ec4746c1081cbff581fa31626
-# Source SHA-256: d42ea4ac12c1c646099e5cd088d1cffdd42bd3ad1a2743026e71283f5d7b6db2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PT-BEC.ANS by pitt (gravity); released in gvt-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the becoming
-# SAUCE Author: pitt
-# SAUCE Group: gravity
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: the becoming by pitt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gvt-0596-pt-bec
 
 Write-Host '
  [35m▄▀▀▀ [0;32m▄▄[0;1;32;42m▄[0;32m█[0;35m▐ [0;1;31m▄█[0;1;31;41m██▀▀▀  [0;31m▄ [0;35m█▀ [0;1;31m▄[0;1;31;41m▀▀[0;31m█[0;37;41m░[0;31;40m▄ [0;35;40m▀[0;1;35;45m▄▄▄[0;1;35;40m██████▀ [0;1;31;40m▄▄[0;1;31;41m▀▀[0;31m█▄▄ [0;35m▀[0;1;35m██▀ [0;32m▄▄ [0;35m▀█[0;1;35m█[0;1;35;45m▓▓[0;1;35;40m██████[0;1;35;47m▓▓[0;1;35;40m██▄[0m

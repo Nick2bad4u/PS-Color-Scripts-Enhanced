@@ -1,13 +1,4 @@
-﻿# Converted from: RB-MAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axis-9/raw/RB-MAIN.ANS
-# Source Revision: archive-sha256:b82f112c80b77b601afd20f06fa2d0515df5f0288a99244a4ccb297bb35fa70a
-# Source SHA-256: fd569db768cb64721c4165c1f859526ae0d648cc66ffbabcd43e62ee1cdf49f1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RB-MAIN.ANS by Rabi Li (axis-9); released in axis-9 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: RB-MAIN.ANS by Rabi Li | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axis-9-rb-main
 
 Write-Host '
 [30;43m [0;33;40m███▄▓ [0;31;40m▀[0;1;31;41m▀█[0;31m▌[0;33m█▓▄█████▀■▄▄▄▄▀▀█▓██████████████████▓▀▀▄▄▄[0;33;43m   [0;33;40m▄▄▄  ▀█████▓[0;31;40m▐[0;1;31;41m█▀[0;31m▀ [0;33m▓▄████[0m

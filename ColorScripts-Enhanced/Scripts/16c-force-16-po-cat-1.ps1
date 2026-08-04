@@ -1,18 +1,4 @@
-﻿# Converted from: PO-CAT#1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-16/raw/PO-CAT%231.ANS
-# Source Revision: archive-sha256:9ad935bd4cbb2615c5c684e690bc8979daa45859d0282b370bf26a8750d02425
-# Source SHA-256: ef9be0adda56536427a2a20746269c6f9445a8441f122ca38bc570261b5d1bbb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PO-CAT#1.ANS by pOrtia (force); released in force-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Catpillers
-# SAUCE Author: pOrtia
-# SAUCE Group: force
-# SAUCE Date: 19980225
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Catpillers by pOrtia | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-16-po-cat-1
 
 Write-Host '
    [1;35m      [0m [1;35m   [0m                         [1m▄░[0m▄▄░

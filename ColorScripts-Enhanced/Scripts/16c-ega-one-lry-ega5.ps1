@@ -1,18 +1,4 @@
-﻿# Converted from: LRY-EGA5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ega-one/raw/LRY-EGA5.ANS
-# Source Revision: archive-sha256:6a85c974a9d93a6c5723067b661851124ae90b1e81eb1a1d35a289b0099b8ffc
-# Source SHA-256: fb33f18bd96c8d3e324c57927a2c5ed6fb8fc65029a62fcbd21d1a474328c531
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LRY-EGA5.ANS by larry (ega); released in ega-one and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ?g?
-# SAUCE Author: larry
-# SAUCE Group: ega
-# SAUCE Date: 19961205
-# SAUCE Dimensions: 80x27
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: ?g? by larry | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ega-one-lry-ega5
 
 Write-Host '
 [1;33m  ▓▀▓▄█[0;1;33;43m▓▀▀█▓[0;1;33;40m▄▄▄▄▄▄▄▄[0m   [33m ▒▒[0;1;33m▓▀▀██[0;1;33;43m▀▀▓[0;1;33;40m█▄▄▄▄▄▄▄▄[0m   [1;33m [0;33m▒▒[0;1;33m▄▓▀█[0;1;33;43m█▓█▓[0;1;33;40m█▄▄▄▄▄▄▄[0m   [1;33m  [0m

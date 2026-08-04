@@ -1,18 +1,4 @@
-﻿# Converted from: PC-THA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1094/raw/PC-THA.ANS
-# Source Revision: archive-sha256:d3bff25180c9d41e42ce231a1946b0f69919e5a64c552b5582fe7482825c4fec
-# Source SHA-256: 2438d2c1f4b38c20c6c9e840b1a5456a146b8ec05ccf8bad7856710e0598c302
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-THA.ANS by P-Chan (ACiD Productions); released in acdu1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Heretic Asylum
-# SAUCE Author: P-Chan
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940902
-# SAUCE Dimensions: 80x178
-# Lines: 47-90
-# Columns: 1-80
+﻿# Artwork: The Heretic Asylum by P-Chan | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1094-pc-tha-part02
 
 Write-Host '
 [34m ▄▀[0;1;31m   [0;34m▄█[0;1;31m [0;34m▀[0;1;31m    [0;33m▐[0;1;31;43m░[0;1;31;40m█[0;1;31;43m▒▒[0;33m▀▄[0;1;31;43m▒▓▒[0;33m▀▀▀▄▄[0;1;31m [0;33m▄▀▀[0;1;31;43m░[0;33m▄[0;1;31m ████▄█[0;1;31;43m▓[0;33m▄[0;1;31m     ▄[0;1;31;43m▓░▒▓▒▓[0;1;31;40m▀[0;1;31;43m░▒[0;1;31;40m▀ [0;1;31;43m▓▓[0;1;31;40m█▀[0;1;31;43m▓▓[0;33m▄▌[0;1;31m [0;34m■[0;1;31m [0;30;47m▀ ▀[0;1;30;40m▄▄▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: RL-THEPJ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0296/raw/RL-THEPJ.ANS
-# Source Revision: archive-sha256:06e6dc5afce1ee45051e2bc9293c259c32e010fc92f42b6c050d6f2242a1670c
-# Source SHA-256: f62686035e2771c0056b34e9b9af08096dbf092728d730d8466f81a79f21c1c0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL-THEPJ.ANS by Rawlock (Opium); released in opx-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Practical Joke
-# SAUCE Author: Rawlock
-# SAUCE Group: Opium
-# SAUCE Date: 19960109
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: The Practical Joke by Rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0296-rl-thepj
 
 Write-Host '
 [1;34m ▄▄▄[0;1;34;44m▓█▓[0;1;34;40m█████████[0;1;34;44m▓▓[0;1;34;40m██[0;1;34;44m▄[0;1;34;40m████████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀███████████████[0;1;34;44m▓[0;1;34;40m▄▄▄▄   [0m

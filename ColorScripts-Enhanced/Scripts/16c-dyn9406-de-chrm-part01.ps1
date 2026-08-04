@@ -1,13 +1,4 @@
-﻿# Converted from: DE-CHRM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dyn9406/raw/DE-CHRM.ANS
-# Source Revision: archive-sha256:f7bcf74cd55db263391d1e44e2c0a81416796097aa27613bd35d5309c46437ee
-# Source SHA-256: 126e84473d9e46538dd8dbd6c78bc316637bb4c703854aa70133ebc03028a882
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DE-CHRM.ANS by Dragons Eye (dyn9406); released in dyn9406 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: DE-CHRM.ANS by Dragons Eye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dyn9406-de-chrm-part01
 
 Write-Host '
                                              [1;47m▓[0;1;40m▄[0m

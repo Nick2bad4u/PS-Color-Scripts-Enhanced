@@ -1,18 +1,4 @@
-﻿# Converted from: WA-SHV22.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz01dec/raw/WA-SHV22.ANS
-# Source Revision: archive-sha256:5b380369fa665698a380513024a32a1e90544a62665a810c6e03347900a05ac8
-# Source SHA-256: e339c0f94d452e38517a2fa02e30cc05765cbc37ed497f9fc01556670d4711dd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WA-SHV22.ANS by warpus (lazarus); released in laz01dec and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: shivakio/2
-# SAUCE Author: warpus
-# SAUCE Group: lazarus
-# SAUCE Date: 19961018
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: shivakio/2 by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz01dec-wa-shv22
 
 Write-Host '
                   [1;33m░░[0m                                       [1m       [0m

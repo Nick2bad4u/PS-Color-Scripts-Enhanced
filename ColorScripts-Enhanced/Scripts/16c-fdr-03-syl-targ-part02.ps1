@@ -1,13 +1,4 @@
-﻿# Converted from: SYL-TARG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fdr-03/raw/SYL-TARG.ANS
-# Source Revision: archive-sha256:cac34a6b7c47c076c878193a4da01da4f38b7c8e471d7a9bf4b3a7850655fb5e
-# Source SHA-256: cfeb18b4e4e1f85f057c416b7881e5e064a7fd743f5e8c2c0f43effc7f1c7fda
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SYL-TARG.ANS by Sylvao (fdr-03); released in fdr-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 32-53
-# Columns: 1-80
+﻿# Artwork: SYL-TARG.ANS by Sylvao | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fdr-03-syl-targ-part02
 
 Write-Host '
 

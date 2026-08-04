@@ -1,17 +1,4 @@
-﻿# Converted from: R!R6WDS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jive0996/raw/R!R6WDS.ANS
-# Source Revision: archive-sha256:6b7d48e396de55126b3ae9c64ca3a6e3836b2eee40f86ad76fd1706353435055
-# Source SHA-256: a412cbd51719d2dba4ceafc3d66c7dbbf90abf3d6a8da79355ed00b22380a593
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: R!R6WDS.ANS by The Riddler (jive); released in jive0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: route 666
-# SAUCE Author: The Riddler
-# SAUCE Group: jive
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: route 666 by The Riddler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jive0996-r-r6wds
 
 Write-Host '
 [1;30m[0m[1;30m[0m[1;30m[0m      [1;34m [0;34m▄▄[0;1;34;44m ░▄[0;1;34;40m▀[0;1;34;44m▓▒░[0;34m▄▄[0;1;34m [0m [1;34m [0;34m▄▄██[0;1;34;44m░[0;34m▀[0;1;34;44m░▒▓[0;1;34;40m▄[0;34m▄[0;37m  [0;34m▄▄▄▄▄▄ ▄▄▄▄▄▄[0;37m [0;34m▄▄▄▄▄▄[0m         [34m▄▄[0;1;34;44m ░░[0;34m▀[0;1;34;44m░▄░[0;34m▄▄[0;1;36m [0m

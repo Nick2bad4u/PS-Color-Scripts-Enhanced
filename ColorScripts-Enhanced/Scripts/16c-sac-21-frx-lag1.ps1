@@ -1,13 +1,4 @@
-﻿# Converted from: frx-lag1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac-21/raw/frx-lag1.ans
-# Source Revision: archive-sha256:93c21e732e25bf2a0b9bdc59ef83ea0f396f10361c596ef1446076be27c71f89
-# Source SHA-256: 9ebc3b090a73ccc0892fded1e018f92ffb46bdc09311e391113f5f239761c6ea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: frx-lag1.ans by ferrex; released in sac-21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: frx-lag1.ans by ferrex | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac-21-frx-lag1
 
 Write-Host '
 

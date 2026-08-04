@@ -1,13 +1,4 @@
-﻿# Converted from: AA-TDF.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-0193/raw/AA-TDF.ICE
-# Source Revision: archive-sha256:ca05bf2de359182562a4e7329ee29306910e366566e70161c1e1498b079ccf5f
-# Source SHA-256: 528840e1ca86a68518f13d9f79e7d4d243df083f02d4759a4d50705d2cc72496
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AA-TDF.ICE by Aada (ice-0193); released in ice-0193 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: AA-TDF.ICE by Aada | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-0193-aa-tdf
 
 Write-Host '
                            [31m▄[0;1;30m▀[0;31m▄[0;1;31m▄[0;31m▄ [0;33m░▒[0;1;30m▄▄[0m

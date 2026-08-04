@@ -1,13 +1,4 @@
-﻿# Converted from: MIRAGE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pois0494/raw/MIRAGE.ANS
-# Source Revision: archive-sha256:491866387951b2ac589a87cb05ec6fb2ce1d9286bafcc428bf1287707f65c9ac
-# Source SHA-256: 30b1f8a7b551ec1b2aafaaa61aaa8dd98ad36674a983c937d1d3166810691e99
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MIRAGE.ANS by Bum (pois0494); released in pois0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: MIRAGE.ANS by Bum | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pois0494-mirage-part01
 
 Write-Host '
 ▄██▄▄▄█▄▄▄▄▄▄▄█▄▄              [1;30m▄▄▄▄▄▄▄[0m

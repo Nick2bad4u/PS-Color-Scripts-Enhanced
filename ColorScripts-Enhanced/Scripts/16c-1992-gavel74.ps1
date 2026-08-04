@@ -1,13 +1,4 @@
-﻿# Converted from: GAVEL74.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1992/raw/GAVEL74.ANS
-# Source Revision: archive-sha256:408f6102282b4b4f582d319af7c00d0c1a49a9b89d70dc7754d4cd44f475f4fb
-# Source SHA-256: 395c9ab3a4337baf63653e81bd6d8452fd43bb9eafc7703d9f52b78ac629bb24
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GAVEL74.ANS by Michael Arnett (1992); released in 1992 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: GAVEL74.ANS by Michael Arnett | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1992-gavel74
 
 Write-Host '
 [46m                                                                               [0m

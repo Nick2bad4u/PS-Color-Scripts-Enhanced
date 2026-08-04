@@ -1,18 +1,4 @@
-﻿# Converted from: GN-VI1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9605a/raw/GN-VI1.ICE
-# Source Revision: archive-sha256:cf7acb12a0ec01e1383bf24c3c45a68bc55fde8f0e38cd56180a1936aa9f8089
-# Source SHA-256: d852521ab506f80e83d216347ecc82f0b506794eafba870ae45d14f4f02637e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GN-VI1.ICE by grindstone (ice); released in ice9605a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ttc's virtual infinity
-# SAUCE Author: grindstone
-# SAUCE Group: ice
-# SAUCE Date: 19960601
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: ttc's virtual infinity by grindstone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9605a-gn-vi1
 
 Write-Host '
              ░[1m  [0;1;32m▄[0m

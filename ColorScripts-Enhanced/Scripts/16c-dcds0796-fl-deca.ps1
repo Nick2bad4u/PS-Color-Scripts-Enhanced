@@ -1,18 +1,4 @@
-﻿# Converted from: FL-DECA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dcds0796/raw/FL-DECA.ANS
-# Source Revision: archive-sha256:3509ed83150d72e01cde39c5fe6c61d852f4f7285feb9d94b431cec18116688b
-# Source SHA-256: e6859df6b77b64d279a315bcd467cefac7b229c26dd9aba3fe0ac2331567f6f5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-DECA.ANS by Flame (1010); released in dcds0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: dek-aids..
-# SAUCE Author: Flame
-# SAUCE Group: 1010
-# SAUCE Date: 19960629
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: dek-aids.. by Flame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dcds0796-fl-deca
 
 Write-Host '
 [31md e c a d e [0;1;33ms[0;31m  ≡  1  9  9  [0;1;31m6[0;31m [0;33m. [0;1;31m.[0;31m [0;1;31m.[0;31m [0m   [1;31m                                          [0m

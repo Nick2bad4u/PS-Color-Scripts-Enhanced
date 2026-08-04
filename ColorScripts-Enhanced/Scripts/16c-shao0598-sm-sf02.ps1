@@ -1,18 +1,4 @@
-﻿# Converted from: SM-SF02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shao0598/raw/SM-SF02.ANS
-# Source Revision: archive-sha256:fcf6a35c3d61f83e469fa7cc3dc1c97bcc2088160fe62ce4da27686dc9519d0b
-# Source SHA-256: 43c7733af157bf18eeea1b8ece600e6d5a9d7b4affa5a294a52d9e36b4cabc20
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-SF02.ANS by Smokey (Shaolin's Finest); released in shao0598 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: SF logo
-# SAUCE Author: Smokey
-# SAUCE Group: Shaolin's Finest
-# SAUCE Date: 19980520
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: SF logo by Smokey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shao0598-sm-sf02
 
 Write-Host '
                               [33m▄▄▄▓[0;1;33;43m▄▄[0;33m█▄[0m                 [37m   Smk[0;1;37m([0mSF[1m)[0m

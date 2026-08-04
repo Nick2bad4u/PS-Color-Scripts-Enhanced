@@ -1,13 +1,4 @@
-﻿# Converted from: LS-SHI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vivid-02/raw/LS-SHI.ANS
-# Source Revision: archive-sha256:c4fcc983e5d5bb80f2a356474d9f7b218467dd19d2a41932780d9434cfbc170e
-# Source SHA-256: 99fc01a249ebb786aaf19dc18f3451498f023b4c2df700c63becf439ed271781
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LS-SHI.ANS by Lord Sith (vivid-02); released in vivid-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: LS-SHI.ANS by Lord Sith | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vivid-02-ls-shi
 
 Write-Host '
 [1;30ml[0m            [34m▄█ [0;36;44m░[0m  [34;40m██[0;37;40m▄[0;1;37;47m░▒▓█████[0;1;37;40m▌[0;34m▒ █[0;1;37;47m█▒██[0;1;37;40m▄▐[0;1;37;47m████[0;34m█ ▓[0;1;37m▐[0;1;37;47m██▒▒░    [0m▄[34m██ [0;36;44m░[0m [34;40m▀█[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: LO-DSUN1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9502/raw/LO-DSUN1.ICE
-# Source Revision: archive-sha256:651d57ec8cfbb7a8c418d666720edd49ef86d48a0b256443452b3132c0397ce3
-# Source SHA-256: 51addfdb7a737e5829d166ebebb3d632013990f01d1393afbae6af0c27cf4759
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LO-DSUN1.ICE by Leonardo (iCE); released in ice-9502 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Dark Sun World
-# SAUCE Author: Leonardo
-# SAUCE Group: iCE
-# SAUCE Date: 19950224
-# SAUCE Dimensions: 80x25
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Dark Sun World by Leonardo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9502-lo-dsun1-part01
 
 Write-Host '
 [1;34;44m                                                         [0;34m█[0;34;44m  [0;34;40m████[0;30;44m░░[0;34;40m██████[0;30;44m░░░░░░[0;34;40m█[0;30;44mL[0m

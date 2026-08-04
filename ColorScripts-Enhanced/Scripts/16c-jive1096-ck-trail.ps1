@@ -1,15 +1,4 @@
-﻿# Converted from: CK-TRAIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jive1096/raw/CK-TRAIL.ANS
-# Source Revision: archive-sha256:4088bb5774f9b38859804abb70d54fee1333f0bbe32acb21357a9f799a1418d7
-# Source SHA-256: 836c7c636734ec91d2855ce3bad4c81d2281b8162adb91600bc6cce960d57719
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CK-TRAIL.ANS by Clark (jive1096); released in jive1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Trail
-# SAUCE Author: Clark
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: The Trail by Clark | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jive1096-ck-trail
 
 Write-Host '
               [30m [0;1;37m·[0m                      [1m·[0m

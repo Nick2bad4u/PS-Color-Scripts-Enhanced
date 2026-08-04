@@ -1,18 +1,4 @@
-﻿# Converted from: SD!CHICK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nst_001/raw/SD!CHICK.ANS
-# Source Revision: archive-sha256:73e351b64f3e5af00925276ea27a29359884e7841f4015afd3acb29f2a370d2d
-# Source SHA-256: 3999febaa6fe54007b79d7b5a27286dbaf7f5b0f1fbe7513bef9b2cbe9f4126c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD!CHICK.ANS by sad (neon strike); released in nst_001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fried chick
-# SAUCE Author: sad
-# SAUCE Group: neon strike
-# SAUCE Date: 19980331
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: fried chick by sad | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nst-001-sd-chick
 
 Write-Host '
                                                  ▄▌  [1;30m▄[0m

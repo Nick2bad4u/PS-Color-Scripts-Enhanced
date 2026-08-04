@@ -1,18 +1,4 @@
-﻿# Converted from: SD-ACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-01/raw/SD-ACID.ANS
-# Source Revision: archive-sha256:98f7ca14920172db6145e44afa4b8ac94de6e46d94b8cf326e89a96c3e7e5c1b
-# Source SHA-256: 58f6622ad1426019665443728c72826899ce0cb04fa2c9ea2476e1f28411e37c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-ACID.ANS by sir death (eclipse); released in ecl-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: acid
-# SAUCE Author: sir death
-# SAUCE Group: eclipse
-# SAUCE Date: 19960607
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: acid by sir death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-01-sd-acid
 
 Write-Host '
                                                  [34m░[0;1;34m░░░[0m                 [1;34m▄▄[0;1;37m▄[0;1;34m▄[0;1;37m▄▄[0m

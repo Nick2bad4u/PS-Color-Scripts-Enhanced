@@ -1,18 +1,4 @@
-﻿# Converted from: sph_top.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper08/raw/sph_top.ans
-# Source Revision: archive-sha256:4170bc28a3d93b55b5d7813a9078fa917029de207cfcf794080d34d8f6ddd97e
-# Source SHA-256: bdafdc4921a5aeb559c70c6a515cda3e08d6be6a1109974b4552803f6a8785e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sph_top.ans by Sephiroth (Jasper); released in jasper08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: topten
-# SAUCE Author: Sephiroth
-# SAUCE Group: Jasper
-# SAUCE Date: 20020715
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: topten by Sephiroth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper08-sph-top
 
 Write-Host '
 [35m▀[0;1;35;45m▒[0;35m▄[0;37m [0;35m▄▀▄▄▄[0;1;35;45m▒[0;35m▄ ▀▄▄[0;37m  [0;35m▀▓[0;1;35;45m░[0;35m▄▄▄[0;1;35;45m▒[0;35m▄[0;37m [0;35m▀▄[0;37m [0;35m▀▀[0;1;35;45m░[0;35m▄▄▀▄[0;37m [0;1;35;45m▄[0;35m▄[0;37m [0;35m▀▄[0;37m [0;35m▀[0;37m   [0;1;34m▄[0;34m▄[0;1;34m░▄▄[0m     [35m▀[0;37m [0;35m█▀[0;1;35m▄[0;35m▀[0m    [35m▄[0;1;37;45m░[0;35m▀▄▀▀[0;37m   [0;35m░[0;37m [0;35m▄▄[0m

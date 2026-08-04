@@ -1,18 +1,4 @@
-﻿# Converted from: TAE-AWE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-18/raw/TAE-AWE.ANS
-# Source Revision: archive-sha256:3ece06be07a605d790194aecaf4c2aee0d01c3085ca10c10858ed29a4fc054bb
-# Source SHA-256: 878985e2962a8f24f2a3e126e4af5cd9fc3721cf8a24dffe11377ed2535b98d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TAE-AWE.ANS by Taevore (AWE Lettering Guest); released in awe-18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: AWE Lettering
-# SAUCE Author: Taevore
-# SAUCE Group: AWE Lettering Guest
-# SAUCE Date: 19981029
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: AWE Lettering by Taevore | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-18-tae-awe
 
 Write-Host '
                                              [1;36m▐▄[0m

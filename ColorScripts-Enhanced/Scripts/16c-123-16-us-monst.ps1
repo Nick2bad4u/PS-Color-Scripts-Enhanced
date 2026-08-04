@@ -1,13 +1,4 @@
-﻿# Converted from: us-monst.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/123-16/raw/us-monst.ans
-# Source Revision: archive-sha256:1432c66356f3fb637fd9ab1a7f664735e71b934e6ef8d23618a4d250cf369b0f
-# Source SHA-256: 30347191282e6ea2510fc90765128356995409ce312d6a7de588b42a14db5bce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-monst.ans by Abstrakt + Jashiin (123-16); released in 123-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: us-monst.ans by Abstrakt + Jashiin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-123-16-us-monst
 
 Write-Host '
 [1;32m[0;1;37m[0;1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[32m$[0;37m [0;36m$[0;32m [0m                                     [37m\/$$[0m           [37m\j$$j/[0m

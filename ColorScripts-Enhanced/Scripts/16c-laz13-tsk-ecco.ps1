@@ -1,19 +1,4 @@
-﻿# Converted from: tsk-ecco.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz13/raw/tsk-ecco.ans
-# Source Revision: archive-sha256:0c2c63bd64664e02af0cf47cca1c746f6b942d60f66e98c86daa5feb695bcd8e
-# Source SHA-256: 9ca14cb4775cb646a52f8919504ef5807700039c5841b49c81fec87b68541a3a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tsk-ecco.ans by The Silent Killer (LAZARUS); released in laz13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ECCO
-# SAUCE Author: The Silent Killer
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20210616
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ECCO by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz13-tsk-ecco
 
 Write-Host '
 

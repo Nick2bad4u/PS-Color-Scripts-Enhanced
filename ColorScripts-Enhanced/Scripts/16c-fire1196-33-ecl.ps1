@@ -1,18 +1,4 @@
-﻿# Converted from: 33-ECL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1196/raw/33-ECL.ANS
-# Source Revision: archive-sha256:cd18ecfdae0904c56df3d636c6b858a4e9c49ad095ac3f517a511bb0e7a7a68e
-# Source SHA-256: cd2437204d0ae4c9e2c045f90b68e11b01d0a9c94ea98c11e3cdd0fa53ddda20
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-ECL.ANS by Eerie-Kun (Fire); released in fire1196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Eclipse Memorial
-# SAUCE Author: Eerie-Kun
-# SAUCE Group: Fire
-# SAUCE Date: 19961111
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Eclipse Memorial by Eerie-Kun | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1196-33-ecl
 
 Write-Host '
 [1m[0m         [32m░░[0m            [32m░░[0m                                 [32m░░[0m            [32m░░[0m

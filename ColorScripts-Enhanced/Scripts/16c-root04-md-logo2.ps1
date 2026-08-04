@@ -1,18 +1,4 @@
-﻿# Converted from: MD-LOGO2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root04/raw/MD-LOGO2.ANS
-# Source Revision: archive-sha256:8dec1aa0e303d37205499818eaff4458ebf93774cd973f016deaae45658df6b3
-# Source SHA-256: 6bef01c69904a081ebf5b35504b78608811f6f7d460a51e40081b250341eb62b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MD-LOGO2.ANS by Malformed (Root); released in root04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: logo colly
-# SAUCE Author: Malformed
-# SAUCE Group: Root
-# SAUCE Date: 19970518
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: logo colly by Malformed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root04-md-logo2
 
 Write-Host '
 [1m[0m[1m                                                                                [0m

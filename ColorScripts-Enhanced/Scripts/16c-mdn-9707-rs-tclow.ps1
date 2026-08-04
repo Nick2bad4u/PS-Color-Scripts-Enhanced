@@ -1,17 +1,4 @@
-﻿# Converted from: RS-TCLOW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9707/raw/RS-TCLOW.ANS
-# Source Revision: archive-sha256:bfcb83c6d9eb9beac4e313e6cb4a06c0bdcb3b894eaa2b7afbdde4d6e5181bec
-# Source SHA-256: 6565a8202187b975b7c05326267a94085c8a3407c3116dc0247dc38e2f176444
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-TCLOW.ANS by rorshack (Maiden Brazil); released in mdn-9707 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: LUNAtic asylum
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: LUNAtic asylum by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9707-rs-tclow
 
 Write-Host '
   [1m▄[0;1;31m▄▄[0;31m▄▄▄[0m       [1;35m▄▄▄▄▄[0;35m▄▄[0m     [31m▄▄▄▄▄▄▄▄▄▄▄[0m    [1;37m  [0m    [31m▄▄▄▄▄▄▄▄▄▄[0m      [31m▄▄▄▄▄▄▄▄▄▄[0;1;31m▄[0;1;37m▄▄[0m

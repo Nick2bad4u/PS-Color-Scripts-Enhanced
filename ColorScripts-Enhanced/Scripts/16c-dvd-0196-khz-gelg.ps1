@@ -1,18 +1,4 @@
-﻿# Converted from: KHZ-GELG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dvd-0196/raw/KHZ-GELG.ANS
-# Source Revision: archive-sha256:8a57ac99c945ff5806ca71d49eb25bcb471617bdf8f3826d8261f443fdd5021c
-# Source SHA-256: 7405c5e68c099c63b0e347ed35a2a040bf8f20ecec3257bc7e99bb9ed47261e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KHZ-GELG.ANS by killa hertz (acid/devoid); released in dvd-0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ge! logon
-# SAUCE Author: killa hertz
-# SAUCE Group: acid/devoid
-# SAUCE Date: 19951231
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ge! logon by killa hertz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dvd-0196-khz-gelg
 
 Write-Host '
 [33m [0;1;37mg[0;1;30m   [0;1;37ma[0;1;30m   [0;1;37ml[0;1;30m   [0ma[1;30m   [0mc[1;30m   [0mt[1;30m   i   c        e   n   t   e   r[0;34m [0;1;30m  p   r   i   s   e   s[0m

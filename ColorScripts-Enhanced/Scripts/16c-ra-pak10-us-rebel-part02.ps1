@@ -1,15 +1,4 @@
-﻿# Converted from: US-REBEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ra-pak10/raw/US-REBEL.ANS
-# Source Revision: archive-sha256:a90c6fcfe58891c0bcb9fc8bc51763cd1dfdc821534fad4b911bf86b27a83427
-# Source SHA-256: ce407a389b121161a7f8b3eb85b9ac6545c83c7e89e9720ad1538d9dc36f404f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-REBEL.ANS by Dyingsoul + Sephiroth (ra-pak10); released in ra-pak10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 19961230
-# SAUCE Dimensions: 80x78
-# Lines: 39-78
-# Columns: 1-80
+﻿# Artwork: US-REBEL.ANS by Dyingsoul + Sephiroth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ra-pak10-us-rebel-part02
 
 Write-Host '
              [1;34m▄█[0;1;34;44m▓▓▓[0;1;34;40m▌[0;1;34;44m▓▒░[0;34m▌ [0;37m [0;33m [0;37m▐███[0;1;37;47m░▒[0m█[1;47m░▒▓[0;1;40m▄[0m  [1m▄████▌  ████▄▄[0;31m▀[0;1;31;41m▓[0;1;31;40m▀[0;31m [0;37m▄█▄▄▄████[0;1;37m [0m█▄      [34m█[0;1;34;44m░░▒[0m

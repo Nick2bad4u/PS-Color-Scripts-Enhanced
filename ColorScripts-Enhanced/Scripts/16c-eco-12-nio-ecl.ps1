@@ -1,13 +1,4 @@
-﻿# Converted from: nio-ecl.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-12/raw/nio-ecl.ans
-# Source Revision: archive-sha256:cf7450d53015f3027aacb5cf2043eb6d61ce25626e1f2b6e3930ea8e96c53230
-# Source SHA-256: 2a50c4ff579b6cfbc916948ccf48fb3723907a70ef0f926f3c63b90963df6b49
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: nio-ecl.ans by Niobium (eco-12); released in eco-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: nio-ecl.ans by Niobium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-12-nio-ecl
 
 Write-Host '
                                           [35m;[0m

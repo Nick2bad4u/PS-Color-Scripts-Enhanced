@@ -1,18 +1,4 @@
-﻿# Converted from: jp-eob.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roots01/raw/jp-eob.ans
-# Source Revision: archive-sha256:dd8ab7f4699320ca828bf58552b53e17a1e210a9bedef1bc8bfdf4b451cdf01c
-# Source SHA-256: c200d6ce4a502da6f20acc7b09ffc1fddbbeb66b9bd1cd691f34d40ca6cbd3b3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: jp-eob.ans by jack phlash (roots); released in roots01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: edge of oblivion
-# SAUCE Author: jack phlash
-# SAUCE Group: roots
-# SAUCE Date: 20080229
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: edge of oblivion by jack phlash | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roots01-jp-eob
 
 Write-Host '
 [1;31;41m██▀[0;31m█████▀[0m            [33m █[0;1;33;43m░[0;33m█[0;1;33;43m  [0;33m██[0;1;33;43m▄▄[0;1;33;40m███[0;1;33;42m▓▓▒░▒▓▓▓[0;1;33;40m█████████████▄  ▐[0;1;33;43m▓▒░[0;33m███▌[0m        [31m▀█[0;30;41mjp[0;1;31;41m▀█[0m

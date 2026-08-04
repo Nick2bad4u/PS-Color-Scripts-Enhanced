@@ -1,18 +1,4 @@
-﻿# Converted from: OZ-SANTA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-02/raw/OZ-SANTA.ANS
-# Source Revision: archive-sha256:4c203a22a273c62e868cc7246cefafb413002203c4d66bfee072b470754a2d40
-# Source SHA-256: ff083f3f76bdac63da5888502ead391b10a0c98efe690525c8bacd523cf64f45
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OZ-SANTA.ANS by ooZe (dEPARTMENT^38); released in d38-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Santa Hat! for zz5
-# SAUCE Author: ooZe
-# SAUCE Group: dEPARTMENT^38
-# SAUCE Date: 19961208
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Santa Hat! for zz5 by ooZe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-02-oz-santa
 
 Write-Host '
           [1;31;47m▓[0;1;31;40m░░[0;1;31;41m▒░[0;1;31;40m░░[0;1;31;41m▓[0;1;31;40m▒▓████████████████████▓█[0;1;31;41m▓[0;1;31;40m▓[0;1;31;41m▓▒[0;1;31;40m▒[0;1;31;41m░[0;1;31;40m░▄[0m

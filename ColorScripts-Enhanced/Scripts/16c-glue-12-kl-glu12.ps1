@@ -1,18 +1,4 @@
-﻿# Converted from: KL-GLU12.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-12/raw/KL-GLU12.ANS
-# Source Revision: archive-sha256:f5221eba8c246d2fb321d3b43039222677071ff11211f119af33a969aa5543e9
-# Source SHA-256: dc9a46b217a18b385cc4da4386f5f8eb889dbbffc9b0f17218cc9400e1ade670
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KL-GLU12.ANS by Knocturnal (Awe); released in glue-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Glue
-# SAUCE Author: Knocturnal
-# SAUCE Group: Awe
-# SAUCE Date: 19980726
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Glue by Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-12-kl-glu12
 
 Write-Host '
                                   [1;30m                [0m

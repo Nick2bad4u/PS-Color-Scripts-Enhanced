@@ -1,18 +1,4 @@
-﻿# Converted from: PRM-APTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rvl-0396/raw/PRM-APTH.ANS
-# Source Revision: archive-sha256:6ba51b3d0dc168dac68fc2016875b770d4335425f90ca1ed6abc12b1946ac90a
-# Source SHA-256: 12aa5398c57f1e370e1083cec7b4a3192767c1ff08e81a86012ce83f7e0e599e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PRM-APTH.ANS by Prizzzzm (RiVAL); released in rvl-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Apathy
-# SAUCE Author: Prizzzzm
-# SAUCE Group: RiVAL
-# SAUCE Date: 19960301
-# SAUCE Dimensions: 80x25
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: Apathy by Prizzzzm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rvl-0396-prm-apth
 
 Write-Host '
 [1m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓[0m

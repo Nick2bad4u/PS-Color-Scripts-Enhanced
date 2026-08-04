@@ -1,13 +1,4 @@
-﻿# Converted from: HAWAII.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr027/raw/HAWAII.ANS
-# Source Revision: archive-sha256:2a4d0c05541fdadd9cba68d756b304446a6646da8e7ed628d0afa905417c614c
-# Source SHA-256: f5142a17defcddf26acdfd7a2a814a8498e642e429784ec3bb235e3f03f27c61
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HAWAII.ANS by Colour (blndr027); released in blndr027 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: HAWAII.ANS by Colour | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr027-hawaii
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: EDOG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ete1-93/raw/EDOG.ANS
-# Source Revision: archive-sha256:9bd355aeb4b2f27e4ea15cae457f81df5ba19e5ff3b12a289a6946d32240a289
-# Source SHA-256: cb9ab63e1c9df8ce6d7bda295c12aaf3a131786e5251ee5c92211c018e3627fd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EDOG.ANS by Maestro (ete1-93); released in ete1-93 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: EDOG.ANS by Maestro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ete1-93-edog
 
 Write-Host '
 

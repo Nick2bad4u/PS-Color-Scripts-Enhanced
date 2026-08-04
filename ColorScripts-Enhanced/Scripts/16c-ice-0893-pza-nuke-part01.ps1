@@ -1,13 +1,4 @@
-﻿# Converted from: PZA-NUKE.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-0893/raw/PZA-NUKE.ICE
-# Source Revision: raw-sha256:6e15ce01d928231b9ad40974ce0e30cec0067da02da871becd250d4657138d76
-# Source SHA-256: 6e15ce01d928231b9ad40974ce0e30cec0067da02da871becd250d4657138d76
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PZA-NUKE.ICE by Pizza (ice-0893); released in ice-0893 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: PZA-NUKE.ICE by Pizza | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-0893-pza-nuke-part01
 
 Write-Host '
                                               [1m▄▄[0m▄▄[1;30m▄▄▄[0m

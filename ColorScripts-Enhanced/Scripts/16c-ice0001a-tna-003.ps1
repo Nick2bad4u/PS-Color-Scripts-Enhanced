@@ -1,13 +1,4 @@
-﻿# Converted from: tna-003.ice
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice0001a/raw/tna-003.ice
-# Source Revision: archive-sha256:2a35558a103a65233c76233429b4e7665870b7db4419a8088f2f56ce35e79aad
-# Source SHA-256: 900887c583093144737747a0d1d69b0c6e8e7d48fdf96d8e6e46f6538bddf0bb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tna-003.ice by The Night Angel + Maytag (ice0001a); released in ice0001a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: tna-003.ice by The Night Angel + Maytag | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice0001a-tna-003
 
 Write-Host '
 

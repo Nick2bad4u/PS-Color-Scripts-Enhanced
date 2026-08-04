@@ -1,18 +1,4 @@
-﻿# Converted from: JE-ENIG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-06/raw/JE-ENIG.ANS
-# Source Revision: archive-sha256:4c9f598b864a923147eb394591cb120a43a087e70e3844ab4ff73e06903fa178
-# Source SHA-256: 183f0e17ea1c6fabbbe81925350cbdb63ced86a7a5485bbccd5c3fcc08e9ee7f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JE-ENIG.ANS by Blind Sniper + Dystro (Twilight & d38); released in d38-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Enig-something [JOINT]
-# SAUCE Author: Pimp & Mackdad
-# SAUCE Group: Twilight & d38
-# SAUCE Date: 19970425
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Enig-something [JOINT] by Blind Sniper + Dystro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-06-je-enig
 
 Write-Host '
                  [35m▄▄▄[0m       [35m▄▄▄[0;37m [0;35m▄▄▄▄▄[0;37m  [0;35m▄▄▄▄░[0m     [32m▄█[0;1;32;42m▄[0;32m█[0;1;32;42m░[0;32m▌▄  [0m   [1;37m [0mdystro([1;47mTWI[0m)

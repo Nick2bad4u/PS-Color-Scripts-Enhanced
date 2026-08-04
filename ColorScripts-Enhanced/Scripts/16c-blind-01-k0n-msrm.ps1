@@ -1,13 +1,4 @@
-﻿# Converted from: k0n-msrm.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blind-01/raw/k0n-msrm.ans
-# Source Revision: archive-sha256:74df0a182d8565b8f40daa4c4ea8bc2d71e1cbb40408d576ae51b526e5cad036
-# Source SHA-256: 408a2cca673afcb4f1b9b2e676b57fb2c2a8706ad40c0194090c8cb700094728
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: k0n-msrm.ans by K0n (blind-01); released in blind-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: k0n-msrm.ans by K0n | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blind-01-k0n-msrm
 
 Write-Host '
 [34m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m

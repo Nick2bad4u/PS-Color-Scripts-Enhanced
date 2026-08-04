@@ -1,18 +1,4 @@
-﻿# Converted from: MR-CHAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9703/raw/MR-CHAT.ANS
-# Source Revision: archive-sha256:9e514042cc5e389aeb3f9323e41f842849e88d4294fdd727215463cf9566281b
-# Source SHA-256: 3cb88c90f087535bc8aa0a08ebc1f243a22ccdf3e0d7bdf970d95aaabf7ffd4d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-CHAT.ANS by minotaur (MAiDEN bRAZiL); released in mdn-9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: chat screen ( for my board only )
-# SAUCE Author: minotaur
-# SAUCE Group: MAiDEN bRAZiL
-# SAUCE Date: 19970207
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: chat screen ( for my board only ) by minotaur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9703-mr-chat
 
 Write-Host '
 

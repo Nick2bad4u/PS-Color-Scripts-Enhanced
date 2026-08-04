@@ -1,17 +1,4 @@
-﻿# Converted from: CG-E2B1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ord-02/raw/CG-E2B1.ANS
-# Source Revision: archive-sha256:258a1db955cbfd79949d88d4ce27b3dac8d9f43191081c5bcc9d3870b0d54f08
-# Source SHA-256: 21b9d21cd82a31e5cc99dea7c4d3467a7ee64df97eb08872e83f15cf8f33711c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-E2B1.ANS by CygNet (Ingen); released in ord-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: CygNet
-# SAUCE Group: Ingen
-# SAUCE Date: 19960821
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: CG-E2B1.ANS by CygNet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ord-02-cg-e2b1
 
 Write-Host '
 

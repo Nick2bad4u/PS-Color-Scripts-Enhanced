@@ -1,18 +1,4 @@
-﻿# Converted from: IG-TIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz09aug/raw/IG-TIC.ANS
-# Source Revision: archive-sha256:3e0bd3039fe877b3970f71e80b4456ee60793f2295ae127a50a6587b17c2d6a2
-# Source SHA-256: b5fe60b19e138ebdc566f45d5e9dedc56bf4d9ac8fbdb1cd9e84bb654663f984
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IG-TIC.ANS by ironghost (lazarus); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Intestinal Catacombs
-# SAUCE Author: ironghost
-# SAUCE Group: lazarus
-# SAUCE Date: 19970804
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: The Intestinal Catacombs by ironghost | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz09aug-ig-tic
 
 Write-Host '
       [1;30m░[0m [1;30m▌[0m  [1;30m▐[0;1;30;47m████▓▒░[0m██▄[1;47m░▒▓██████[0;1;40m▓▓░░[0m  [1;30m▄[0m▄▄[1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄ ▄[1m▄[0m▄ ▄[1m▄▄▄▄▄▄▄▄▄▄[0m▄

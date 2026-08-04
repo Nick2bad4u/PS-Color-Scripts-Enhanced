@@ -1,19 +1,4 @@
-﻿# Converted from: _10_Calendar_2019_October_by_nail.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-2019-calendar/raw/_10_Calendar_2019_October_by_nail.ans
-# Source Revision: archive-sha256:5dcb03d3562fc71c1bd681e0b01704387df6a6764ee8c64c58f8fc5646036621
-# Source SHA-256: 16bb5633edddf362358ac3a4d2662c8fdc837fdb560b3240a8b0bc21c0d29914
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _10_Calendar_2019_October_by_nail.ans by nail (blocktronics); released in blocktronics-2019-calendar and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: blocktober chainsaw massacre
-# SAUCE Author: nail
-# SAUCE Group: blocktronics
-# SAUCE Date: 20180918
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: blocktober chainsaw massacre by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-2019-calendar-10-calendar-2019-october-by-nail
 
 Write-Host '
       [1;30;40m░░  [0m     [1;30m  [0;33m   [0m                [1;30m   ▌    [0m  [1;30m   ▄▐▐  [0m        [1;30m ░░[0m         [1;30m▀▄▌[0m

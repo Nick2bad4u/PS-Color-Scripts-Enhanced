@@ -1,15 +1,4 @@
-﻿# Converted from: AVG-NOKT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense12j/raw/AVG-NOKT.ANS
-# Source Revision: archive-sha256:e1859c229de4f4dd1e65990d325e90f1a80e1ce3863ae80925f53e6878990dc6
-# Source SHA-256: 8ed030120b4e74f3e17d18a11403a04a3ab0570346c17cba3656159eac54e53c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-NOKT.ANS by Avenging Angel (sense12j); released in sense12j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20030122
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: AVG-NOKT.ANS by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense12j-avg-nokt
 
 Write-Host '
 

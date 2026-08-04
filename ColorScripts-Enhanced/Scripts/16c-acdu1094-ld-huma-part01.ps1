@@ -1,18 +1,4 @@
-﻿# Converted from: LD-HUMA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1094/raw/LD-HUMA.ANS
-# Source Revision: archive-sha256:d3bff25180c9d41e42ce231a1946b0f69919e5a64c552b5582fe7482825c4fec
-# Source SHA-256: 5f8159abd185cfd5916748e2dbd89df7922379f56bfa4e8b4f5e00bce656ac7e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-HUMA.ANS by Lord Jazz (ACiD Productions); released in acdu1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Huma
-# SAUCE Author: Lord Jazz
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940905
-# SAUCE Dimensions: 80x78
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Huma by Lord Jazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1094-ld-huma-part01
 
 Write-Host '
 [1mA[0m          C         [1;30mi[0m         [1;30mD[0m     [1;30m···[0m     [1;30mP[0m          [1;30mr[0m          o          [1md[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: TO-DRKW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blur9607/raw/TO-DRKW.ANS
-# Source Revision: archive-sha256:b26c8b94015ee6d1b8810f7d19551196eb13cdc7b545981a4755cd2ae5715624
-# Source SHA-256: 1c21cb305cb5c7232bbfd5c433b454b6404709eff193d39af90e227f8b0251c4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TO-DRKW.ANS by Toadie (blur); released in blur9607 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Dark Waters
-# SAUCE Author: Toadie
-# SAUCE Group: blur
-# SAUCE Date: 19960627
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Dark Waters by Toadie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blur9607-to-drkw
 
 Write-Host '
                 [1;31m▄[0;1;31;41m▓[0;1;31;40m▄[0;1;31;41m░[0;1;31;40m▄▄[0;31m▄[0m     [1;31m▄[0;1;31;41m▓[0;1;31;40m▄▄[0;31m▄[0m      [1;31m▄[0;1;31;41m▓[0;1;31;40m▀[0m      [31m▀[0;1;31;41m▓[0;1;31;40m▄▄▄[0;31m▄ ▓  ▄■[0m

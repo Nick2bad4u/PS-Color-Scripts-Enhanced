@@ -1,18 +1,4 @@
-﻿# Converted from: RS!INS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/insm0596/raw/RS!INS.ANS
-# Source Revision: archive-sha256:5a107f7ed67340c1aa68eaf605f85d0018e0b4086aa8c0cad10be2a8b1ad4ed8
-# Source SHA-256: 658b6a10f2420fd0f8f1ddf850e91a09ac18f8b089dea35f1a76bda49faf897e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS!INS.ANS by Renots (ins); released in insm0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ins logo
-# SAUCE Author: Renots
-# SAUCE Group: ins
-# SAUCE Date: 19960501
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: ins logo by Renots | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-insm0596-rs-ins
 
 Write-Host '
 [30;41m        ░░░▒▒▓▓[0m                                                          [30;42m▓[0;32;40m  [0;30;42m▓[0;32;40m [0;30;42m▓[0m

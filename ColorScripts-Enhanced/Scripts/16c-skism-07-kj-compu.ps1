@@ -1,18 +1,4 @@
-﻿# Converted from: KJ-COMPU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/skism-07/raw/KJ-COMPU.ANS
-# Source Revision: archive-sha256:456c96208f0e5c9ba2bf121160920c852c896eb39b96998a49886f37fccee63b
-# Source SHA-256: 519ab0b962adbf62b13448ea0cf8978c8c5268d51b5cc50cc553234af61e8034
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KJ-COMPU.ANS by kracker jack (SKiSM); released in skism-07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: compuhell!@
-# SAUCE Author: kracker jack
-# SAUCE Group: SKiSM
-# SAUCE Date: 19970623
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: compuhell!@ by kracker jack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-skism-07-kj-compu
 
 Write-Host '
 [1;30mkrackerjack[0;1;37m<[0mskism[1m>[0m                 [1;30m░[0m                                    [1;33m▀[0;1;33;41m▒▓[0;1;33;40m███[0;1;37;41m██[0m

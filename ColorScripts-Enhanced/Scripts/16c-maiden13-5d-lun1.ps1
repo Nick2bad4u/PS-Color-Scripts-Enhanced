@@ -1,18 +1,4 @@
-﻿# Converted from: 5D-LUN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden13/raw/5D-LUN1.ANS
-# Source Revision: archive-sha256:70e231ea8653cd02d349f122b1a39f57757322f3913b0c8f20698b54c8795e68
-# Source SHA-256: 90f9c23d338440bb853aa89d299efb9f453475c30ae0a39e714a77fefda4d489
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5D-LUN1.ANS by slayer dreams (maiden brazil); released in maiden13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: luna/2 menu
-# SAUCE Author: slayer dreams
-# SAUCE Group: maiden brazil
-# SAUCE Date: 19971013
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: luna/2 menu by slayer dreams | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden13-5d-lun1
 
 Write-Host '
                                                                [1m┌ [0m [1m           [0m

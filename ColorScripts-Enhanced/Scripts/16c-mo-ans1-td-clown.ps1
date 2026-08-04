@@ -1,13 +1,4 @@
-﻿# Converted from: TD^CLOWN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mo-ans1/raw/TD%5ECLOWN.ANS
-# Source Revision: raw-sha256:469f40d9abbce08fec61034a32b2807fcd9f3c61190872be32af2ea4723b4a54
-# Source SHA-256: 469f40d9abbce08fec61034a32b2807fcd9f3c61190872be32af2ea4723b4a54
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TD^CLOWN.ANS by The Dr (mo-ans1); released in mo-ans1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: TD^CLOWN.ANS by The Dr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mo-ans1-td-clown
 
 Write-Host '
                                     [1;33m▄▄▄▄██████████▄▄▄[0m

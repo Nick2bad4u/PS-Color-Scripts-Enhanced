@@ -1,18 +1,4 @@
-﻿# Converted from: SK!BOXFI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p18_03/raw/SK!BOXFI.ANS
-# Source Revision: archive-sha256:2bce20a6d08d4cda82dc301176b5efa085eb87bbbbd00db2fa5af761552c0064
-# Source SHA-256: 1e9b6e39249c51383610f53f2fee4f18627b16ccb2ba7f90ffef72edd0858471
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!BOXFI.ANS by sIMONkING (thelo0p); released in l0p18_03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: bOXfIGHT cOMPO 2002
-# SAUCE Author: sIMONkING
-# SAUCE Group: thelo0p
-# SAUCE Date: 20021206
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: bOXfIGHT cOMPO 2002 by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p18-03-sk-boxfi
 
 Write-Host '
                               [1m████[0m    [1m████ [0m       [1m           [0m

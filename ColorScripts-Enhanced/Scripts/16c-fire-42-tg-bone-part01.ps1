@@ -1,20 +1,4 @@
-﻿# Converted from: TG-BONE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-42/raw/TG-BONE.ANS
-# Source Revision: archive-sha256:5477badab90aaaa6ee2d08aa380254b6982d860b5d0de201e348668cb1eaa063
-# Source SHA-256: 3d0582b73eb49e99fa3cfd30b7a54669133c6666ca9379c6a2cdf76e76e1c26b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-BONE.ANS by Toon Goon (FiRE); released in fire-42 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Boneyard
-# SAUCE Author: Toon Goon
-# SAUCE Group: FiRE
-# SAUCE Date: 20250303
-# SAUCE Dimensions: 80x187
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Yes i suck at logos
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Boneyard by Toon Goon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-42-tg-bone-part01
 
 Write-Host '
 [35;40m████████████████████████████████████████████████████████████████████████████████[0m

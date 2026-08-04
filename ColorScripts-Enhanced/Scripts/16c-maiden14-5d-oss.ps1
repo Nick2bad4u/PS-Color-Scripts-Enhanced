@@ -1,18 +1,4 @@
-﻿# Converted from: 5D-OSS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden14/raw/5D-OSS.ANS
-# Source Revision: archive-sha256:8484fc17833e455250727f80fdc56cc19e17aec4fba2f82e3b86585a9e08cb6c
-# Source SHA-256: 697f3a411485859be48f3278e5576af86a6d87129fbcb9d60fd9d9fabf632270
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5D-OSS.ANS by slayer dreams (maiden); released in maiden14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ordeal  shivers
-# SAUCE Author: slayer dreams
-# SAUCE Group: maiden
-# SAUCE Date: 19971118
-# SAUCE Dimensions: 80x13
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: ordeal shivers by slayer dreams | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden14-5d-oss
 
 Write-Host '
                 [1;35m▄▄▄▄[0m                                            [35m    [0;1;35m▄▄▄[0m       [32m▄[0m

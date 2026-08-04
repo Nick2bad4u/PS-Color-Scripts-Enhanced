@@ -1,13 +1,4 @@
-﻿# Converted from: MFTHOG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1992/raw/MFTHOG1.ANS
-# Source Revision: archive-sha256:408f6102282b4b4f582d319af7c00d0c1a49a9b89d70dc7754d4cd44f475f4fb
-# Source SHA-256: 0775787aad6f96b216126d1ea41dff8ede27220c7980f75f762517a3c5a14bd5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MFTHOG1.ANS by Morfeas + Golgotha (1992); released in 1992 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: MFTHOG1.ANS by Morfeas + Golgotha | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1992-mfthog1-part01
 
 Write-Host '
 [34m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

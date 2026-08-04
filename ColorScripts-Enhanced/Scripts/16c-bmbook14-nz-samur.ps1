@@ -1,18 +1,4 @@
-﻿# Converted from: NZ-SAMUR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook14/raw/NZ-SAMUR.ANS
-# Source Revision: archive-sha256:f7fe2a62d3e7b3b16687ce251209098ea8d86719a4cfa33dae1489e0c9af9278
-# Source SHA-256: d3dae6f6d6b101fc1bd9b5e0fb46f638331de1523bc027e14b15dc3cf6145b20
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NZ-SAMUR.ANS by noize (black maiden); released in bmbook14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: "samurai"
-# SAUCE Author: noize
-# SAUCE Group: black maiden
-# SAUCE Date: 19970630
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: "samurai" by noize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook14-nz-samur
 
 Write-Host '
 [1;33m█████[0;1;33;43m▀▀▀▀▀▀▀▄▄▄▌▀▀[0;1;33;40m████▄[0;36m▐[0;1;36m▄[0;33m▀[0;1;33;43m▀[0;1;33;40m██████[0;1;33;43m▀[0;33m▀[0;1;36m▄[0;1;37m▀[0;1;33m▄████████████████████████████████▀▀████████[0m

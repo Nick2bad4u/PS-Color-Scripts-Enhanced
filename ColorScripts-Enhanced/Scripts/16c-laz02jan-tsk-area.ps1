@@ -1,13 +1,4 @@
-﻿# Converted from: TSK-AREA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz02jan/raw/TSK-AREA.ANS
-# Source Revision: archive-sha256:132672eb521503ab979d6725a75b6f055811245f253b5353290430aa5c4983b1
-# Source SHA-256: a14f6dbd53dca7af2ab0c9e0eca952c1cf23b75ea5259456d16241004ad92c9f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-AREA.ANS by The Silent Killer (laz02jan); released in laz02jan and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: TSK-AREA.ANS by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz02jan-tsk-area
 
 Write-Host '
 

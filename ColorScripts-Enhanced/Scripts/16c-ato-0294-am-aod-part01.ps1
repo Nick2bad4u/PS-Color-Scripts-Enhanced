@@ -1,13 +1,4 @@
-﻿# Converted from: AM-AOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ato-0294/raw/AM-AOD.ANS
-# Source Revision: archive-sha256:454aa1a9076f3caf80d90d68e4d574fe47b3937a6e418db9d418d1d796c31371
-# Source SHA-256: 01c62a140fde21d74bea8425aede352a22aaae3d067ede6aadbcee8d8c6de4a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AM-AOD.ANS by Anonymous Man (ato-0294); released in ato-0294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: AM-AOD.ANS by Anonymous Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ato-0294-am-aod-part01
 
 Write-Host '
 

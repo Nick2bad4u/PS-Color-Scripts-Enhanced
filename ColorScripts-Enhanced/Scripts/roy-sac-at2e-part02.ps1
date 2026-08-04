@@ -1,13 +1,4 @@
-﻿# Converted from: ROY-AT2E.ANS
-# Source encoding: CP437
-# Source URL: https://www.roysac.com/images/galleries/ZIP/Roy_ANSI.ZIP
-# Source Revision: archive-sha256:8598a9432b4feb86c4e79552795b407b9d7c576fb6f25e9828d6143f1c7b35bc
-# Source SHA-256: b068f3f396abfed23843424cee87731afd386ba4f9972b07d4df7403b1f5bcd7
-# Source License: FAL-1.3
-# Source Attribution: ROY-AT2E.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 32-62
-# Columns: 1-80
+﻿# Artwork: ROY-AT2E.ANS by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-at2e-part02
 
 Write-Host '
 [37;40m     [0;1;30;40m█[0;33m██[0;1;32m█[0;1;33m██[0;32m█[0;1;30m█[0;34m█[0;37m [0;34m█[0;37m       █[0;1;35m█[0;1;36m█[0;1;35m██[0;1;36m██[0;1;31m██[0;33m██[0;1;31m█[0;33m█[0;1;31m████████████[0;33m█[0;31m██[0;35m█[0;31m█[0;33m█[0;37m█[0;33m█[0;31m█[0;33m████[0;31m█[0;1;30m░[0;37m [0;1;30m░[0;37m  [0;1;30m▒[0;37m  [0;1;30m▒[0;37m [0;1;30m░[0;37m [0;1;30m▓▒█▒██[0m

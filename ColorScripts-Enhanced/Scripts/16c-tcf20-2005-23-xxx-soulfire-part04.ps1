@@ -1,13 +1,4 @@
-﻿# Converted from: 2005 - 23 - XXX - Soulfire.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tcf20/raw/2005%20-%2023%20-%20XXX%20-%20Soulfire.ans
-# Source Revision: archive-sha256:af8609219fccc484668fb405a7f1d45efb8c574501a461c5c1b47d87a12921ce
-# Source SHA-256: e17d3fb92fa9e9aca41e8aa2a8dd58110f5560ebf8097348695da1e3b25521b4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2005 - 23 - XXX - Soulfire.ans by The Creep Fever + Aesthetic (tcf20); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 147-195
-# Columns: 1-80
+﻿# Artwork: 2005 - 23 - XXX - Soulfire.ans by The Creep Fever + Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tcf20-2005-23-xxx-soulfire-part04
 
 Write-Host '
 [33m█████████████[0;1;31;43m░░▒▓[0;1;31;40m██▌[0m [1;33;43m▒[0m [36m▀[0;1;33m▐▀[0m [1;33m▀▄[0;36m▒ █[0;1;36m░░[0;36m ░    [0;37m [0;1;31;43m [0;33m█[0;1;31m██[0;1;31;47m▓▒[0;1;31;40m█▌ [0;33m▐[0;1;33;43m▓[0;1;33;40m█ █▌[0;1;31;40m [0;1;31;43m█[0;1;31;47m▓░  [0;1;31;43m▄[0;1;31;40m [0;36m [0;1;30;46m▌[0;36m [0;1;36;46m░[0;36m [0;33m▐[0;37m   [0;1;33m▌[0;36m▐[0;1;36;46m░[0;36m█ ▀▀[0m

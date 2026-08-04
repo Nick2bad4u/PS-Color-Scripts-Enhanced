@@ -1,13 +1,4 @@
-﻿# Converted from: VP-DJ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/elv8-01/raw/VP-DJ.ANS
-# Source Revision: archive-sha256:c1b5a83992b69433704d43acb9703ab3d7c9339f803bfd267c4c55bfae789fb6
-# Source SHA-256: 9fe5ba7b6716d7183f144f3362b3e347608e7610d07f4a28d64bfedf3455eb41
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VP-DJ.ANS by Vapor (elv8-01); released in elv8-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: VP-DJ.ANS by Vapor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-elv8-01-vp-dj
 
 Write-Host '
 

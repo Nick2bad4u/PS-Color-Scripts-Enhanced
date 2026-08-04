@@ -1,20 +1,4 @@
-﻿# Converted from: LDA-METACOWBOY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2022d/raw/LDA-METACOWBOY.ANS
-# Source Revision: archive-sha256:a6a81402fbe9b339ed1bbad5c465fd471b3826faeb49393aa64eb517698587ff
-# Source SHA-256: 4cc029ae004ed627d9aba66eb729a03f1ffe49590188b18f2a150b2393c13932
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LDA-METACOWBOY.ANS by LDA (Mistigris); released in blndr2022d and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: MetaCowboy
-# SAUCE Author: LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20221023
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Sketched out in the last 30min because Cthulu said there was juu | uuuuust enough entries for the top three and I was sad. It's mor | e fun with more people. Here's one more person/entry.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: MetaCowboy by LDA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2022d-lda-metacowboy
 
 Write-Host '
 [1;30m███████████████████████████████[0m  [1;36m▄[0m  [1m███[0m [1m████████[0m [1;36m▀██████████████████████████████[0m

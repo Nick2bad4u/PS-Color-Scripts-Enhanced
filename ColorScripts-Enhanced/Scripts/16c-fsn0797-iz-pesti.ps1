@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-PESTI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn0797/raw/IZ-PESTI.ANS
-# Source Revision: archive-sha256:fc1844bde3fb3bc448ff1373e91cb7237c6c2f8016c75eb605f0f71b6d1e80d5
-# Source SHA-256: bcbb1679e0267c6dc73414c2f4ee2cdae04b6f78af3bf077985690a4fb8e18f9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-PESTI.ANS by ize (fusion); released in fsn0797 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Pesticide
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19970702
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Pesticide by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn0797-iz-pesti
 
 Write-Host '
       [1;31;41m▐[0;1;31;47m█[0;1;31;41m███[0;31m█▄▄▄[0m      [1;31;41m▐[0;1;31;47m▓[0;1;31;41m███[0;31m█▄▄▄[0m            [1;31;41m▐[0;1;31;47m▓▓[0;1;31;41m██[0;31m█▄▄▄[0m            [31m█[0;1;31;47m▓[0;1;31;41m██[0;31m█[0m

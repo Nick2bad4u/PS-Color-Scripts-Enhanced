@@ -1,13 +1,4 @@
-﻿# Converted from: LOGOFF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/elp-0297/raw/LOGOFF.ANS
-# Source Revision: archive-sha256:cbfe67d5b5cc14151f562d333d3d551e0ee4047e81092f281544109eea01c6c2
-# Source SHA-256: f37453dcd0c3386a0f91740cacd237de481887084435816c361da61cc01b475b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LOGOFF.ANS by Mako (elp-0297); released in elp-0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: LOGOFF.ANS by Mako | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-elp-0297-logoff
 
 Write-Host '
                         ▄▄█▓█████▄▄               [31m▐██████████████[0m

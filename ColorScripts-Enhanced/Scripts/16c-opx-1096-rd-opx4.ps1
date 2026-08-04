@@ -1,18 +1,4 @@
-﻿# Converted from: RD-OPX4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-1096/raw/RD-OPX4.ANS
-# Source Revision: archive-sha256:73b0e2918c9e3daef978e4ff1f97345c8d9080edab06ce99d8d8ee6a5fb0b3de
-# Source SHA-256: 9fdc66882c00f860a6e368fd73fa3c56199d88f3703b1499f90a301579b143c5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD-OPX4.ANS by raider! watch out! (opium); released in opx-1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: just another opium logo
-# SAUCE Author: raider! watch out!
-# SAUCE Group: opium
-# SAUCE Date: 19960829
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: just another opium logo by raider! watch out! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-1096-rd-opx4
 
 Write-Host '
 [1m▄█▀▀▀▀▀▀▀▀▀[0;1;36m▀[0;1;37m▀▀▀[0;1;36m▀[0;1;37m▀▀[0;1;36m▀▀▀▀▀[0;1;37m▀[0;1;36m▀[0;1;37m▀▀▀▀▀▀[0;1;36m▀[0;1;37m▀▀[0;1;36m▀[0;1;37m▀[0;1;36m▀▀[0;1;37m▀[0;1;36m▀▀▀[0;1;37m▀[0;1;36m▀▀▀▀▀[0;1;37m▀[0;1;36m▀▀▀▀▀▀▀▀▀▀▀[0;1;37m▀[0;1;36m▀▀▀▀[0;1;37m▀[0;1;36m▀[0;1;37m▀[0;1;36m▀▀[0;1;37m▀▀[0;1;36m▀[0;1;37m▀▀[0;1;36m▀[0;1;37m▀▀█▄[0m

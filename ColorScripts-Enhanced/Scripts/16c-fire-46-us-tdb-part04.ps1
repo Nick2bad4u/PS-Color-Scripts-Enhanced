@@ -1,19 +1,4 @@
-﻿# Converted from: US-TDB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-46/raw/US-TDB.ANS
-# Source Revision: archive-sha256:32c189dd42ed53f66ce0b86a88ea8027caddc32faf4da7cee2e674d9223cb9f4
-# Source SHA-256: 9181d4b8c9e4a9ca1fc5490e77faf4c1b0c4d742a972a3cbf560f928b8e700aa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TDB.ANS by Tainted + Aesthetic (FiRE); released in fire-46 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: danger bay bbs
-# SAUCE Author: aesthetic/tainted
-# SAUCE Group: FiRE
-# SAUCE Date: 20260707
-# SAUCE Dimensions: 80x228
-# SAUCE Font: IBM VGA
-# Lines: 151-200
-# Columns: 1-80
+﻿# Artwork: danger bay bbs by Tainted + Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-46-us-tdb-part04
 
 Write-Host '
 [1;47m█▓[0;1;40m█████████[0;1;47m▓[0;1;40m█[0;1;47m▓▒▓▒[0;1;40m▓[0;1;47m▒[0;1;30;47m░░░▓▓▓[0;1;30;40m█▓▓▓▀▀[0m [31m▄▄▄▓▓▒░[0m           [1;30m▀[0;1;30;47m▓▒░ [0;1;37;40m▓[0;1;37;47m▓▒▓▓█[0;1;37;40m█[0;1;37;47m▓[0;1;37;40m███████[0;1;37;47m█▓▓▓▓▒░▒░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: GS-KLEX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-21/raw/GS-KLEX.ANS
-# Source Revision: archive-sha256:d980c3e2187ff0ef4bb9edce960381dc01c8374df0b01b4ddb8d104484f4b936
-# Source SHA-256: 3731d60eb4bb026fa6c0907a37387f507772651ded8b78547e0889d8b5525dab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GS-KLEX.ANS by Grindstoned (AWE Lettering); released in awe-21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Klexical
-# SAUCE Author: Grindstoned
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981222
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Klexical by Grindstoned | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-21-gs-klex
 
 Write-Host '
                                                                     [31m [0m

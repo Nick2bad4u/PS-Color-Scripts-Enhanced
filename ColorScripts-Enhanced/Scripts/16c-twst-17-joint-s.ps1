@@ -1,17 +1,4 @@
-﻿# Converted from: JOINT-S.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst-17/raw/JOINT-S.ANS
-# Source Revision: archive-sha256:35f03b7d00dfd2b7741376c75f7e7f045a734adb19013498a9c6493657505f94
-# Source SHA-256: 75747166c16ab6faaec480d47d74319c0376d667634922b6f696315c4e736e26
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JOINT-S.ANS by Putrid Carcass + Mr Plastik + Static4 (Twisted); released in twst-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Seven
-# SAUCE Author: MrPlastik/s4/pcarc
-# SAUCE Group: Twisted
-# SAUCE Dimensions: 80x25
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Seven by Putrid Carcass + Mr Plastik + Static4 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst-17-joint-s
 
 Write-Host '
 [1;31;47m▓[0;1;31;40m█[0;1;31;41m▌[0;31m▌[0;1;31;41m█▓░ [0;31m█ █[0;1;31;41m   [0;31m█[0;30;41m▓[0;35;41m░[0;31;40m█▄▄▄      [0;37;40m [0;34;40m ▄[0;1;34;40m▄[0;1;34;44m▄[0;1;34;40m████▓▓▒▒░[0;34m▄▄ [0;32m▄[0;1;32m▄▄▄[0;32m▄[0m   [31m    ▄[0;1;31;41m▄[0;1;31;47m▀[0;1;31;41m█[0;1;31;40m▄▀[0;1;31;41m█[0;1;31;40m▓▓▒[0;31m█[0;1;31;41m░[0;1;31;40m███[0;1;31;47m▓▒░[0;1;31;40m▒[0;31m█[0;1;31;41m░[0;1;31;40m██[0;1;31;47m▓[0m

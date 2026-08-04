@@ -1,13 +1,4 @@
-﻿# Converted from: S-NEXUS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/atm-0793/raw/S-NEXUS.ANS
-# Source Revision: archive-sha256:2791ea7960360c43fee92e39a37f109c33350847675dee72209056037e0dfd3e
-# Source SHA-256: be3f3d20d4970ef0a82875087d15fcbef2bf0f42a8b74bdcf2ed5e7af68af0d2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S-NEXUS.ANS by Surface (atm-0793); released in atm-0793 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 38-79
-# Columns: 1-80
+﻿# Artwork: S-NEXUS.ANS by Surface | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-atm-0793-s-nexus-part02
 
 Write-Host '
                                [34m█[0;1;34;42m▒▒▒▒▒▒▒▒▒▒[0;34m███[0m

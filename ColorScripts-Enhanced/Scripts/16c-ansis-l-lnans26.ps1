@@ -1,13 +1,4 @@
-﻿# Converted from: LNANS26.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-l/raw/LNANS26.ANS
-# Source Revision: archive-sha256:ee41f1dc54d4792f5985668700c84d6714567ceee0db3d26e4e9c1cd56f47cf6
-# Source SHA-256: 4bfc24d82dcb129276684a2cea18e6e7e489e41cbc11b8a01b79949ce7db1a4d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LNANS26.ANS by Ebony Eyes (ansis-l); released in ansis-l and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: LNANS26.ANS by Ebony Eyes | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-l-lnans26
 
 Write-Host '
 [1;34;40m████[0;1;34;42m█████▄[0;32;40m████████[0;1;33;42m ▀[0;1;33;40m██████[0;1;33;41m▓▓[0;1;31;40m███████[0;1;31;41m▄[0;1;35;41m        ▀████[0;1;35;40m██[0;1;35;46m▄[0;36;40m█████████████[0;1;36;46m▀▀▀▀▀██████████[0m

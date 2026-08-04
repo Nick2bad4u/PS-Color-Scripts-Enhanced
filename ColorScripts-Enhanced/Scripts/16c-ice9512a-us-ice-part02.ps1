@@ -1,18 +1,4 @@
-﻿# Converted from: US-ICE.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9512a/raw/US-ICE.ICE
-# Source Revision: archive-sha256:4030957a38a6c532250e7b5d72d2d1e2534a6871d5254eac6b842adfae93f5ac
-# Source SHA-256: 125a755adaf74a824c85119cd834649e501d157e346d93adf3988fc3ccd16003
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ICE.ICE by Magnetic M + Lord Soth (iCE); released in ice9512a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: iCE Promo!
-# SAUCE Author: MM/LS
-# SAUCE Group: iCE
-# SAUCE Date: 19960102
-# SAUCE Dimensions: 80x25
-# Lines: 43-76
-# Columns: 1-80
+﻿# Artwork: iCE Promo! by Magnetic M + Lord Soth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9512a-us-ice-part02
 
 Write-Host '
 [1;30m▀ ▀    [0;32m▒[0m      [1;37m▄[0;1;37;47m██▓▓▓▒▒[0m  ██[1;47m░[0m▄▄[33m▀▀▄▄▄▄▄[0;1;30m▀[0m▀[1;30;47m░[0m█[1;47m░[0m▀ ▀█[1;30;47m░▒[0m ▐[1;47m░[0m███[1;30;47m░▒[0m▀              [1;30;47m▓[0m      [1;30;47m▒[0m

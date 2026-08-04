@@ -1,19 +1,4 @@
-﻿# Converted from: tcf - 20 - cockblocktronics.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_acid_trip/raw/tcf%20-%2020%20-%20cockblocktronics.ANS
-# Source Revision: archive-sha256:c0717ff5cb7d462ed7fa9a55edd7235adbd3f09e01132486021497c9281171b6
-# Source SHA-256: 982da27a1fc25458c2705b1b743eb5f8d41a94306fa128b3f618ea7be686d76b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tcf - 20 - cockblocktronics.ANS by The Creep Fever (blocktronics); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: cockblocktronics
-# SAUCE Author: The Creep Fever
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x97
-# SAUCE Font: IBM VGA
-# Lines: 47-96
-# Columns: 1-80
+﻿# Artwork: cockblocktronics by The Creep Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-acid-trip-tcf-20-cockblocktronics-part02
 
 Write-Host '
 [1;30m▄▒▒▒▒▒▒▄▄▄▄   [0;1;30;45m▓[0;1;30;40m▄▄[0m     [1;30m▀▀[0;1;30;45m▓▓[0;1;30;40m▀[0;1;30;45m▓▓▓[0;1;30;40m▒▒[0;1;30;41m▒▒[0;1;30;45m▓▓[0;1;30;41m▀▀▀▀▀[0;1;30;40m▀ ▀▀▀▀▀ ▀▀▀▀▀██████████████[0;1;30;41m▓▓▓▓▓▓▓▓[0;1;30;40m▒▒[0;1;30;41m▓▓[0m

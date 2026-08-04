@@ -1,18 +1,4 @@
-﻿# Converted from: PR_QUEST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak3/raw/PR_QUEST.ANS
-# Source Revision: archive-sha256:cde4af7e840865f437fedba26bbfb806e858a9b477c723c01bd9d080434c75bd
-# Source SHA-256: 64bf8440bead7525e08664fd51d00bcd002997eef21b3a65180897d8a4323fc7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR_QUEST.ANS by president (ecolove); released in ecl-pak3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: questionairie
-# SAUCE Author: president
-# SAUCE Group: ecolove
-# SAUCE Date: 19980123
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: questionairie by president | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak3-pr-quest
 
 Write-Host '
 

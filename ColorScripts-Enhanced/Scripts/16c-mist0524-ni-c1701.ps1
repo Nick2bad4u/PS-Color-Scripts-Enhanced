@@ -1,19 +1,4 @@
-﻿# Converted from: NI-C1701.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0524/raw/NI-C1701.ANS
-# Source Revision: archive-sha256:26af390c70c8fbd1a650cda6420771d9febb05e55fff2dce05253b3fc19147b7
-# Source SHA-256: 7ab129a53fbb5c1e783dad839b7b6904ca8bd6ef74e748ebba2d2202330df757
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-C1701.ANS by nitron (mist); released in mist0524 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Corbomite Maneuver
-# SAUCE Author: nitron
-# SAUCE Group: mist
-# SAUCE Date: 20240314
-# SAUCE Dimensions: 80x27
-# SAUCE Font: Default
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: The Corbomite Maneuver by nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0524-ni-c1701
 
 Write-Host '
 [1;33;43m▓[0;1;33;40m█[0;1;33;43m▓▓▒▒▒░[0;33m [0;33;42m▒▓▓▓[0;33;40m█▓███▀[0;1;33;40m▄▄▄[0;1;33;43m▓▓▒▒▒▒▒░░[0;33m▄▄[0;37m [0;36m░[0;1;30m░░[0;36m░░[0;37m [0;1;33m▄[0;1;33;43m▓▓▓▓[0;1;33;40m▀▀▀▀[0;1;33;43m▒▒▒░░░░[0;1;32;43m░░░░░▒▒[0m [36m░░[0;1;30m░ [0;1;33m▀▀[0;1;33;43m▓▓▓▒▒▒░░░[0m

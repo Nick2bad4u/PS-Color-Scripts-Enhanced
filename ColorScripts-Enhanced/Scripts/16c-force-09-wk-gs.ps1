@@ -1,18 +1,4 @@
-﻿# Converted from: WK-GS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-09/raw/WK-GS.ANS
-# Source Revision: archive-sha256:ce8026e794474c6e48d574a76c9366e170e87fe95fba0f1638e56cb02945c814
-# Source SHA-256: a41c36a18d21bde0d21d54ca5f0a1fbae156b6f39bba9093becd5431a8ba7796
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WK-GS.ANS by Weeping Killer (fORCe); released in force-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Gruesome Sacrifice
-# SAUCE Author: Weeping Killer
-# SAUCE Group: fORCe
-# SAUCE Date: 19960615
-# SAUCE Dimensions: 80x24
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Gruesome Sacrifice by Weeping Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-09-wk-gs
 
 Write-Host '
     [33m░░[0;1;30m     ▄▄[0m [1;30m▄▓▄▄▄[0m  [1;30m▀▀▀[0m   [1;30m▄▄ ▀    [0m sexgod''s  [1;30m [0m   [1;30m▄▄▒▒[0m  [1;30m▀▀▓[0m [1;30m▄▄▄▓[0m [1;30m▄▄[0m [33m ░[0m

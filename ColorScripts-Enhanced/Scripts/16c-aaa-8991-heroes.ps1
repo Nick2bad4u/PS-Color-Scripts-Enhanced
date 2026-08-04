@@ -1,13 +1,4 @@
-﻿# Converted from: HEROES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aaa-8991/raw/HEROES.ANS
-# Source Revision: archive-sha256:4d061270920d521151424fd00f38227b42b87cd232386c5aa0d1e2f575f3ffe0
-# Source SHA-256: 2e6fd1a723cc34b565ef8dc57e6f7bc4cb3b8f46d59ad38a4728497abd4f40d9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HEROES.ANS by Mondoman (aaa-8991); released in aaa-8991 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: HEROES.ANS by Mondoman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aaa-8991-heroes
 
 Write-Host '
  ░▒░▒▓░▒▓▓▓▒░▓▒░▒░     [1;33m▐[0m           [1;33m,;;;,[0m      [1;37m         [0m   ░▒░▒▓░▒▓▓▓▒░▓▒░▒░

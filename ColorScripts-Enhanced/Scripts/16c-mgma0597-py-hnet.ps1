@@ -1,13 +1,4 @@
-﻿# Converted from: PY-HNET.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mgma0597/raw/PY-HNET.ANS
-# Source Revision: archive-sha256:4321ed96c03457476be7881d0c1ef30e9189de218dff8231543b22aa7744f58c
-# Source SHA-256: 6ca39857013bfdaffb9ae94121a026bb581d64eaede4f29dc3629b977a6c1a4f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PY-HNET.ANS by Pyhrrus (mgma0597); released in mgma0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: PY-HNET.ANS by Pyhrrus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mgma0597-py-hnet
 
 Write-Host '
  [32m▀▄▄  [0;30;46m█[0m    [30;46m██[0m             [32;40m   [0;30;46m█[0m    [30;46m██[0m                            [32;40m            [0m

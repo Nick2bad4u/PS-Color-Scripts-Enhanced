@@ -1,17 +1,4 @@
-﻿# Converted from: DS-ARC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/arc-13/raw/DS-ARC.ANS
-# Source Revision: archive-sha256:c3c9a3714c35c28f9db77eb19e14cfc571df61b2688ba07e9011e85ad3932576
-# Source SHA-256: d6e2e894585d749c4f1e2565166e8ecceeaf86f01d022303545ed943c9bca983
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-ARC.ANS by Dying Soul (Dominio); released in arc-13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: Dying Soul
-# SAUCE Group: Dominio
-# SAUCE Date: 19990307
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: DS-ARC.ANS by Dying Soul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-arc-13-ds-arc
 
 Write-Host '
                                        [30mds?[0;1;34m   [0m                 [34m▄[0;1;34;44m▄[0;1;34;40m█[0;34m█[0m

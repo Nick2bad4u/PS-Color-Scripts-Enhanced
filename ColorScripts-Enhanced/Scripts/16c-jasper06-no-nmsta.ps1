@@ -1,17 +1,4 @@
-﻿# Converted from: No-nmsta.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper06/raw/No-nmsta.ans
-# Source Revision: archive-sha256:e9db58af17bee8935edbe50f24a227bef7a311667f4a639d4f37f775998e9055
-# Source SHA-256: bd5a6ef6ddc99c9cfe7a28c804b5603a9b8a13046e71b6d6a42443f97201a30b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: No-nmsta.ans by noches (jasper06); released in jasper06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: namistai
-# SAUCE Author: noches
-# SAUCE Date: 20020523
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: namistai by noches | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper06-no-nmsta
 
 Write-Host '
             [1;30m        [0m  [1;30m             [0m   [1;30m   [0m

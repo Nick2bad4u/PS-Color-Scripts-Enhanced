@@ -1,13 +1,4 @@
-﻿# Converted from: K1-DIY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-06/raw/K1-DIY.ANS
-# Source Revision: archive-sha256:6dc1ff1e5e2a2fbd4d8963ff27dba17dd0715e4d98ce4ed0c4cdd8e573084e6f
-# Source SHA-256: f694b5833fee3f979b34e97245ea4c6cebdb39fddadbf37a5897bfb813051c76
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K1-DIY.ANS by Kirin (hype-06); released in hype-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: K1-DIY.ANS by Kirin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-06-k1-diy
 
 Write-Host '
   [31m▄█████[0;1;31;41m░░█[0;1;37;41m▄[0;31m▄[0;1;30m▀▀[0m [1;30m▄[0;31m▀███████▀▀▀▀▀▀▀[0;37m  [0;1;30m ▄▌▄[0m    [31m▀[0;37m  [0;1;30m▀[0;1;30;47m▄[0;1;37;47m▀■[0;1;30;47m  ▄[0;1;30;40m███████▀[0m  [31m▄███[0;1;31;41m█[0;1;37;41m▄[0;31m▄[0;1;30m▀[0m [1;30m█ ▀[0;31m [0;1;30m [0;31m ▄█[0m

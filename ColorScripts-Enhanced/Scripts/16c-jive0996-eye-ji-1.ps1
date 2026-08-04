@@ -1,15 +1,4 @@
-﻿# Converted from: EYE-JI~1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jive0996/raw/EYE-JI~1.ANS
-# Source Revision: archive-sha256:6b7d48e396de55126b3ae9c64ca3a6e3836b2eee40f86ad76fd1706353435055
-# Source SHA-256: 7c0a307a9b4b64d80a961a1e74d08c1c276082f83faf4377b7c7386427199a06
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EYE-JI~1.ANS by Eyeball (jive0996); released in jive0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: JiVE View menu
-# SAUCE Author: Eyeball
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: JiVE View menu by Eyeball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jive0996-eye-ji-1
 
 Write-Host '
  [30m           [0;31m  [0;1;30m     [0;1;31mj[0;1;30m  [0;31mi[0;1;30m  v[0m  [1;30me[0m  [1;30mv[0m  [1;30mi[0m  [1;30me[0m  [1;30mw[0m    [1;30m1[0m  [1;30m9[0m  [31m9[0m  [1;31m6[0m

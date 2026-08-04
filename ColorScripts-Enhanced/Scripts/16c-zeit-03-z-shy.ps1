@@ -1,13 +1,4 @@
-﻿# Converted from: Z-SHY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zeit_03/raw/Z-SHY.ANS
-# Source Revision: archive-sha256:0f9aa90d271cb9f5663c4d5256433330359ce733d79970bb273efd1a8913f551
-# Source SHA-256: 412e3f98e8fcf5ab544ca131e969fe1d826a09a57923852b7d9b617614d03ad5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Z-SHY.ANS by Zero (zeit_03); released in zeit_03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Z-SHY.ANS by Zero | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zeit-03-z-shy
 
 Write-Host '
 [1;33;43m                   $$$$$$$$$[0;31m$$$$$$$$$$$$$$$$$$$$$P:i$[0;1;33;43m$$$$$$$$$$$$V              [0m

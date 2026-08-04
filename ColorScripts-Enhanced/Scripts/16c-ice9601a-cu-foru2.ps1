@@ -1,18 +1,4 @@
-﻿# Converted from: CU-FORU2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9601a/raw/CU-FORU2.ICE
-# Source Revision: archive-sha256:e4c089e3103bdc63762348bbcc2c54a05a351461817f667c54ad471098c66860
-# Source SHA-256: 890bc24b0c1a898c6458119444915c7a0ca135bc0292de7a29e5d1c915e8e740
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CU-FORU2.ICE by Cold and Ugly (iCE); released in ice9601a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Forum Magazine
-# SAUCE Author: Cold and Ugly
-# SAUCE Group: iCE
-# SAUCE Date: 19960122
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Forum Magazine by Cold and Ugly | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9601a-cu-foru2
 
 Write-Host '
                                    [1;34m▄▄▄▄[0m

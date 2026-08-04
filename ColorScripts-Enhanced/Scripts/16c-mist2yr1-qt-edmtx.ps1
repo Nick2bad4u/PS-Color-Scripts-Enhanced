@@ -1,18 +1,4 @@
-﻿# Converted from: QT-EDMTX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist2yr1/raw/QT-EDMTX.ANS
-# Source Revision: archive-sha256:dfb163381a7a05007552a68525e5d3039ad18b3101b731021ee8569cee86eda1
-# Source SHA-256: 490ca2f5edec82030922d8965d2adc4a395836f8b74422e7e6f38788789824da
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QT-EDMTX.ANS by Questor (Mistigris); released in mist2yr1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Euphoric Dreamscape Matrix
-# SAUCE Author: Questor
-# SAUCE Group: Mistigris
-# SAUCE Date: 19960923
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Euphoric Dreamscape Matrix by Questor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist2yr1-qt-edmtx
 
 Write-Host '
 [1;34m▀████████[0;1;34;44m▓▒[0;34m▄[0;1;32m▀████████[0m [1;33m████[0;1;33;43m▓▓[0m [1;31m██[0;1;31;41m█▓▓▓[0m [31m▓█[0;37m [0;33m▐[0;37m [0;31m█▓ [0;1;31;41m▓▓▓[0;1;31;40m███ [0;1;33;43m▓▓[0;1;33;40m████[0m [1;32m████████▀[0;34m▄[0;1;34;44m▒▓[0;1;34;40m███████▀▀[0m

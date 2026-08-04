@@ -1,13 +1,4 @@
-﻿# Converted from: DORE3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dore0296/raw/DORE3.ANS
-# Source Revision: archive-sha256:3a5a7d7e4991333d6d0d5fb59aadc8c1a7f450e572e4ecd3fdb10314aa62b0d6
-# Source SHA-256: 7cecb951c1774906793310f7643f4c7b1e765946932e0b08c253b13a8371a90a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DORE3.ANS by Gc (dore0296); released in dore0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: DORE3.ANS by Gc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dore0296-dore3
 
 Write-Host '
 

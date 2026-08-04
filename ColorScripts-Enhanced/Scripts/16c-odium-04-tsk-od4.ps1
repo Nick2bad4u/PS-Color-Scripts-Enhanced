@@ -1,18 +1,4 @@
-﻿# Converted from: TSK-OD4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-04/raw/TSK-OD4.ANS
-# Source Revision: archive-sha256:8dc8586a37ce2081b7e99529b7087f421e6ff8d5ba2d146ef1d30bd490016720
-# Source SHA-256: 0b11b234c1a860f0304eec38f7963ff739181999044b0b3b40af2395b1b99623
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-OD4.ANS by the silent killer (odium); released in odium-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: odium
-# SAUCE Author: the silent killer
-# SAUCE Group: odium
-# SAUCE Date: 19960213
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: odium by the silent killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-04-tsk-od4
 
 Write-Host '
 

@@ -1,16 +1,4 @@
-﻿# Converted from: pxg-chicken2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_yotb/raw/pxg-chicken2.ans
-# Source Revision: archive-sha256:f702f09f6116b5ac6fa523d36f54d796db6f44f880e4f1cd426d29a9fbda605e
-# Source SHA-256: b254515081752d3cfa371c05bff6d13b0e4b0ea8750faf91ae7c798bfb519e7f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: pxg-chicken2.ans by Pixel Goth (blocktronics_yotb); released in blocktronics_yotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20150127
-# SAUCE Dimensions: 80x63
-# SAUCE Font: IBM VGA
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: pxg-chicken2.ans by Pixel Goth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-yotb-pxg-chicken2-part01
 
 Write-Host '
                                             [35;40m░░░░[0m       [35;40m░▒[0m

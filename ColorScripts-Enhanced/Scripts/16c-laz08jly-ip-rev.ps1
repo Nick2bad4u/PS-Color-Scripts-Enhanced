@@ -1,18 +1,4 @@
-﻿# Converted from: IP-REV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz08jly/raw/IP-REV.ANS
-# Source Revision: archive-sha256:8d8d89cdb4f6a56f2eaa26003458d08f5faec96c5dffe1f9e4f0c78141100bcb
-# Source SHA-256: fec25e2437c7f787cde429d3c37af620a145fcb6e49584100bbe6e6f73d62842
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IP-REV.ANS by impulse (lazarus); released in laz08jly and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: revolution
-# SAUCE Author: impulse
-# SAUCE Group: lazarus
-# SAUCE Date: 19970702
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: revolution by impulse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz08jly-ip-rev
 
 Write-Host '
 

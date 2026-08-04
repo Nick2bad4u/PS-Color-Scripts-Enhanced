@@ -1,17 +1,4 @@
-﻿# Converted from: MW-LG15.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel15/raw/MW-LG15.ANS
-# Source Revision: archive-sha256:3b994e59b6a78be97a60517481673ca8661cd10fa275e8c56fe8095a44e5feee
-# Source SHA-256: 8d2feb52784a6fb82ff0ffe15e0d1468f92171657f264a3d4abb8a44ae7779fd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MW-LG15.ANS by mango whaco (fuel productions); released in fuel15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: shack
-# SAUCE Author: mango whaco
-# SAUCE Group: fuel productions
-# SAUCE Dimensions: 80x25
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: shack by mango whaco | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel15-mw-lg15-part01
 
 Write-Host '
  [36m▄[0;1;36;46m░[0;36m██▀█[0;1;36;46m░[0;36m█▄ ████ ████ ▄███▀███▄ ████[0m

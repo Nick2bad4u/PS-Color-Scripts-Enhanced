@@ -1,17 +1,4 @@
-﻿# Converted from: BS-FRUK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-08/raw/BS-FRUK.ANS
-# Source Revision: archive-sha256:0567468a2c5f3b6be5032c5650cb72f6233cef61565d1d349ba0b887559b2680
-# Source SHA-256: b5d13cee249355d0b4cb5930b3c5c92ceb60a966c13027db71c99b120ad54041
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-FRUK.ANS by blind guy (department 38); released in d38-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fruk-tang clan aint nutin ta f' wit
-# SAUCE Author: blind guy
-# SAUCE Group: department 38
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: fruk-tang clan aint nutin ta f' wit by blind guy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-08-bs-fruk
 
 Write-Host '
                                 [1;30m     [0m

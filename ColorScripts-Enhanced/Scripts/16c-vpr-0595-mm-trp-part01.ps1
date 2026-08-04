@@ -1,17 +1,4 @@
-﻿# Converted from: MM-TRP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vpr-0595/raw/MM-TRP.ANS
-# Source Revision: archive-sha256:e7ca167fec7db80634597c5fb694c98a3122c03e3e0fff7b2103ffede629f335
-# Source SHA-256: 58fb58b044fc089d16b6b415aba3ede1f97d5958f3095161a8ade0bd9db4a233
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-TRP.ANS by Mastermind (Vapor); released in vpr-0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Riot Parade
-# SAUCE Author: Mastermind
-# SAUCE Group: Vapor
-# SAUCE Date: 20950507
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: The Riot Parade by Mastermind | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vpr-0595-mm-trp-part01
 
 Write-Host '
 [1;33;46m░░▒▓[0;1;33m████████████████████████████████████████████████████████████████████████████[0m

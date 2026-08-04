@@ -1,13 +1,4 @@
-﻿# Converted from: 43-RDRMX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense15j/raw/43-RDRMX.ANS
-# Source Revision: archive-sha256:d06155f7d5e0b32644f10222adb0228fd6a61c0d1874216761244815dabceb89
-# Source SHA-256: a01528030c0addd3283b2a763cc3c201f305697b46de7e93a3b4075be5da9a57
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 43-RDRMX.ANS by Aesthetic (sense15j); released in sense15j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: 43-RDRMX.ANS by Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense15j-43-rdrmx
 
 Write-Host '
                                      [1;33m░[0m            [1m░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-MNTS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0297/raw/OUT-MNTS.ANS
-# Source Revision: archive-sha256:0f3d218282d76441c012c29969433ab198fcc6a5c3f0e35f66bec5cacdabec86
-# Source SHA-256: e956bc2d631e845385eb2d06a8da38c6c7bf09b38a217a989c8142217094c88c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-MNTS.ANS by Sandy Chidester (out-0297); released in out-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: OUT-MNTS.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0297-out-mnts
 
 Write-Host '
 [1m██  [0;33m▓[0;36m█████████[0;1;36;46m▄▄▄▄[0;36m███[0;33m░[0;36m████[0;1;36;46m░░░░░░[0;36m███████▀▀▀▀[0;1;37m▄▄▄ [0;36m▀▀▀▀███[0;1;36;46m░░▒▒█▓▒▒░[0;36m██▀ [0;1;37m▄███[0;1;37;47m▀▀▀▀  ▀██[0m

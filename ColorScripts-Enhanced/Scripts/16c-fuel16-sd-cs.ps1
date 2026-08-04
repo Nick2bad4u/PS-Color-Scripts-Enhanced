@@ -1,18 +1,4 @@
-﻿# Converted from: SD-CS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel16/raw/SD-CS.ANS
-# Source Revision: archive-sha256:78bbfd1159c4b51678435d1ff23762559e425f3010119f2abd28bf83d67e513d
-# Source SHA-256: 96bce1758326ca5efbda263ce61d3543fb661aa06f68375750527fa1221b892b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-CS.ANS by sad (fuel); released in fuel16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: cyberdyne systems
-# SAUCE Author: sad
-# SAUCE Group: fuel
-# SAUCE Date: 19970806
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: cyberdyne systems by sad | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel16-sd-cs
 
 Write-Host '
 [36m  ▄▄▓▓█████████████████[0;32;46m░[0;36;40m█████[0;32;46m░░[0;36;40m██[0;32;46m░░░ ░ ░░░░░[0;36;40m▀[0;32;46m░░▓[0;36;40m▓▓▀▀▀ ▀ [0;1;34;40m▄▄ ▄▄▄[0;36m▀▀▀▀▐[0;32;46m▓▓░░[0;36;40m█[0;32;46m░[0;36;40m▄[0;37;40m [0;36;40m▓▓▓▄[0m

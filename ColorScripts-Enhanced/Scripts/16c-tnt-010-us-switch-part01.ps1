@@ -1,13 +1,4 @@
-﻿# Converted from: us-switch.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tnt-010/raw/us-switch.ans
-# Source Revision: raw-sha256:c2e4da4c09463fcfe9a6bb0eee0e587ca3efbef0002c9b6ada01ccdadb43657b
-# Source SHA-256: c2e4da4c09463fcfe9a6bb0eee0e587ca3efbef0002c9b6ada01ccdadb43657b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-switch.ans by Aesthetic + Zerovision + Somberlain (tnt-010); released in tnt-010 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: us-switch.ans by Aesthetic + Zerovision + Somberlain | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tnt-010-us-switch-part01
 
 Write-Host '
 [34m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m     [37m▓▓▓▓▓▓▓[0;1;33m░░[0m▓▓▓▓▓▓▓▓▓▓▓▓▓[1m░░░░░[0m▓▓▓▓▓▓▓▓▓[1m░░░░░░░░░[0m

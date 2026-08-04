@@ -1,18 +1,4 @@
-﻿# Converted from: SR-BIPOA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/raid1194/raw/SR-BIPOA.ANS
-# Source Revision: archive-sha256:3055ba6fb4c0ff0cbf45560f92b33caea595d70a0a90cd7137e24559c88fba03
-# Source SHA-256: e6d2268bd5c3ddeca51e59bb68fa17ce5e946923fe18c1743dab3c408ea6b639
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SR-BIPOA.ANS by Silver Reaper (RAiD); released in raid1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Bipolar Disorder
-# SAUCE Author: Silver Reaper
-# SAUCE Group: RAiD
-# SAUCE Date: 19941030
-# SAUCE Dimensions: 80x25
-# Lines: 45-94
-# Columns: 1-80
+﻿# Artwork: Bipolar Disorder by Silver Reaper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-raid1194-sr-bipoa-part02
 
 Write-Host '
                         [1;30m▄▄▄▄[0;1;37m░[0;1;30m▄▄▄███████████████▄▄▄▄▄▄▄▄[0m

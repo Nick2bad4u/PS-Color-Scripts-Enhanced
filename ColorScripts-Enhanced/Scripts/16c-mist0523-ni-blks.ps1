@@ -1,18 +1,4 @@
-﻿# Converted from: NI-BLKS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0523/raw/NI-BLKS.ANS
-# Source Revision: archive-sha256:53b565820f166e8e480fb61187f967fd47086f9bc5b7e5f420ec7196d573dd4b
-# Source SHA-256: 1cb3394c278b85ee9560b77f5c70774a9adb938787e677be5d8b1eff91d979d5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-BLKS.ANS by nitron (mist0523); released in mist0523 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: black sun bbs
-# SAUCE Author: nitron
-# SAUCE Date: 20230201
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: black sun bbs by nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0523-ni-blks
 
 Write-Host '
 [1;34m▓▒▒░░░[0;34m░░░░░░ ░░       [0;1;30m░   ░░▒█[0m▒[1;47m ▒▓▓▓[0;1;40m▀▀▀▀▀▀▀▀▀[0;1;47m▓▓▓▒ [0m▒[1;30m█▒░░[0m [1;30m░   [0m·[1;30m    [0;34m░░░  ░░░░[0;1;34m░░░▒▓[0m

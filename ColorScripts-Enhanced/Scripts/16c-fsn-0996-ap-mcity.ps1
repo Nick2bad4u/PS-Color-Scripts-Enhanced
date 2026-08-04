@@ -1,13 +1,4 @@
-﻿# Converted from: AP-MCITY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0996/raw/AP-MCITY.ANS
-# Source Revision: archive-sha256:707c5fe12f8b115f37bf0df62a8bbf61a1e95140c1ed59c95af84379ad4a0dbe
-# Source SHA-256: 1d143de37ecfc14cbaa7bb0304f91e68ddae49a31878492ea1d5a426977d54ad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AP-MCITY.ANS by Apollo (fsn-0996); released in fsn-0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: AP-MCITY.ANS by Apollo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0996-ap-mcity
 
 Write-Host '
 

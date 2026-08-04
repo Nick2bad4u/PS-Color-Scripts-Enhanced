@@ -1,13 +1,4 @@
-﻿# Converted from: MSG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/guild/raw/MSG.ANS
-# Source Revision: archive-sha256:a17c91b3d7966f103845ab104daf3a1ada2638816b04caf36b16da49b61147ac
-# Source SHA-256: 9875c9118fdee3a5cc3b6ef5a7a34c1960047df2a5c2e04df8f251a479b7e87b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MSG.ANS by Guild (guild); released in guild and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: MSG.ANS by Guild | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-guild-msg
 
 Write-Host '
                                 [1m▓▓▓▓▓▓▓▓▓[0m

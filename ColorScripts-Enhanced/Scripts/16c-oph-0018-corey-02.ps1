@@ -1,17 +1,4 @@
-﻿# Converted from: COREY-02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oph-0018/raw/COREY-02.ANS
-# Source Revision: archive-sha256:b78bc978b69dedfb9a07152cba296ecefc97611bd7bc7f5211d489ff748613dc
-# Source SHA-256: 9de4459933382babc9dc329c50b4e90e9de19837b7f4dbb6178b356f00eb4567
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: COREY-02.ANS by corey (oph-0018); released in oph-0018 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 0110     ^[2^[[[[ \_~2_[  00
-# SAUCE Author: corey
-# SAUCE Date: 19960917
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: 0110 ^[2^[[[[ \_~2_[ 00 by corey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oph-0018-corey-02
 
 Write-Host '
 c[1;36morey [0;34m▄[0;1;34m▄█[0;1;34;44m██[0;1;34;40m▀▀▀[0;1;34;44m███[0;1;34;40m▀▀▀[0;34m▀[0;1;34m▄▄▄[0;1;34;44m██████[0;1;34;40m▀▀[0;34m▀▀[0;1;31m    [0;33m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;31m [0;34m▀[0;1;34m▀▀▀▀███████[0;1;33;44m░░[0;1;34;40m█▄▄[0;34m▄ ▀[0;1;34;44m▓▓[0;34m▄[0;36m▀[0;1;36;46m░[0m

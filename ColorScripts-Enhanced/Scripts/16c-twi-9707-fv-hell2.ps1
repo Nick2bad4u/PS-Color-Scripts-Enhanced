@@ -1,18 +1,4 @@
-﻿# Converted from: FV-HELL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twi-9707/raw/FV-HELL2.ANS
-# Source Revision: archive-sha256:45f176586f3b4789bcbef0a4c75b2f85d21418108c7ec2a4ab268a104d12eb41
-# Source SHA-256: d5cfb08e421ed51459da5f83b0fab9d36dd3f113f447a52a8f5bd7030a8e3ea4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-HELL2.ANS by fever (twilight); released in twi-9707 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: telnet://piranha.nws.net
-# SAUCE Author: fever
-# SAUCE Group: twilight
-# SAUCE Date: 19970711
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: telnet://piranha.nws.net by fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twi-9707-fv-hell2
 
 Write-Host '
 [1;36;46m░░[0;30;46m  [0;1;36;40m▌[0;1;30;40m▐▓▐[0m█[30;47m ■          [0;1;30;47m░[0;30;47m [0;1;30;47m▀[0m▄[1;30;47m▀[0;30;47m                      [0;1;30;40m▄[0;1;30;47m▌[0;30;47m      [0;1;30;47m░░░░[0;30;47m   [0;1;30;47m░▓[0;30;47m██[0;1;36;46m▓░░░[0;30;46m         [0m

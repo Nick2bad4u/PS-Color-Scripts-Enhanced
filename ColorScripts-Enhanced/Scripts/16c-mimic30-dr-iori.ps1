@@ -1,13 +1,4 @@
-﻿# Converted from: dr-iori.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic30/raw/dr-iori.ans
-# Source Revision: archive-sha256:18a835bc0f005b73378f198096ca32d491cd7704634259b4d499ec97a5e3b3dc
-# Source SHA-256: 6e43c89f47cbf4febad953b753c17a738090ac0ca77711cf2aebc3186bec053d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: dr-iori.ans by Dr Shizuma (mimic30); released in mimic30 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: dr-iori.ans by Dr Shizuma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic30-dr-iori
 
 Write-Host '
 [31m$$$"[0;37m [0;1;30m,s[0;31mS┼$$$$$$$$/[0;1;31m$l[0m [1;30ml [0m [1;30m7[0;31m$$$[0;37m ;[0;1;31m$$$$$[0;1;37m$$$$[0;1;31m$[0;1;37m  $$$$$$$┼\ ²"[0m`[1;30m_[0;31m,,⌐,_[0;1;37m``$ [0;1;33m$[0;1;31m$$[0;33m$[0;1;30m$[0;1;31m$$l[0;1;30m$[0;31m [0;33m`[0;31m7$$[0;1;30m$[0m

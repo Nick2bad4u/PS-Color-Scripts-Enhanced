@@ -1,13 +1,4 @@
-﻿# Converted from: VD-CRUIS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/astk0194/raw/VD-CRUIS.ANS
-# Source Revision: archive-sha256:85386f5551c42a88135027c451bdde0caf298cc394973b954eb4073e747445c6
-# Source SHA-256: dc5044222020a0ba6ac787a34dd1f3b5fadf51441e9b6b3547a8053608fc5580
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VD-CRUIS.ANS by Vlad Drakul (astk0194); released in astk0194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: VD-CRUIS.ANS by Vlad Drakul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-astk0194-vd-cruis-part01
 
 Write-Host '
                                   [1;30m▄▀▀█▀ ▀█▀▀▄[0m

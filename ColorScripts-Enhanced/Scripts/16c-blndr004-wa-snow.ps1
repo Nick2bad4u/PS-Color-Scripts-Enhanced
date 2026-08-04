@@ -1,13 +1,4 @@
-﻿# Converted from: WA-SNOW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr004/raw/WA-SNOW.ANS
-# Source Revision: archive-sha256:4d257bcd7515c994123c7892db17ad6bfa3ced56b3cb3e24aace2ea868161cae
-# Source SHA-256: 8869bc90f1a0151aae6acae37764877d624c14c9b7e0c2fecc2a382620e0f3c6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WA-SNOW.ANS by Warpus (blndr004); released in blndr004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: WA-SNOW.ANS by Warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr004-wa-snow
 
 Write-Host '
 [1;34;47m███████████[0;1;34;44m████████▒▒░░[0;34m███████[0;30;44m░[0;34;40m▓[0;1;33;40m  ▒▒[0;1;33;42m▓▓[0;1;32;42m██▒▒ [0;32m█[0;1;32;42m░░[0;32m██████████▓▓  [0;34m██████████████[0;1;34;44m [0;34m████ [0m

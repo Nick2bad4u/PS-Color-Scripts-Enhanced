@@ -1,13 +1,4 @@
-﻿# Converted from: TCS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1991/raw/TCS1.ANS
-# Source Revision: archive-sha256:4dcfddb1a9f84aafa45e2facaadcb15ccf7ddad9041d8c346c723f7894d6cfb9
-# Source SHA-256: 489aa4a5f80bf6c6cb95bcbea9b48ed4d403658c77473cd200e2d1e3b99c5d0c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TCS1.ANS by Marshal Law (1991); released in 1991 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: TCS1.ANS by Marshal Law | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1991-tcs1
 
 Write-Host '
 [1;30m██▄[0m                                                 [34m▄▄▄▓▓▓▓▓▓▓▓▓▄▄▄[0m          [1;37mM[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: NI-NVMNU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz17/raw/NI-NVMNU.ANS
-# Source Revision: archive-sha256:2674245bad3e14fe6d4a935ba8daf9898a4426e394c56ca9710e3afa19d3d943
-# Source SHA-256: 782e79b32a7bf9cbb3aa2b49040c2932c2d078fd2ca294801e818d7f76315b22
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-NVMNU.ANS by nitron (Lazarus); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Noverdu BBS Screen Pack
-# SAUCE Author: nitron
-# SAUCE Group: Lazarus
-# SAUCE Date: 20230702
-# SAUCE Dimensions: 80x180
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Noverdu BBS Screen Pack by nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz17-ni-nvmnu-part01
 
 Write-Host '
 [1;30m░░░░░░░░░░░░░░░░░░              [0;1;33m▄▄▄▄▀▀▀▀▀▀▀▀▀▄▄▄▄[0m    [30m▓[0;1;30m░         ░░░░░░       ░░[0m

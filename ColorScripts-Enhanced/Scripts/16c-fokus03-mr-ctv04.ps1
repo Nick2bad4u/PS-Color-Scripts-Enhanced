@@ -1,18 +1,4 @@
-﻿# Converted from: MR-CTV04.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus03/raw/MR-CTV04.ANS
-# Source Revision: archive-sha256:ae240da6329918ab0bf39714e2edb95ea5883c52a5e5edf845b291bbb7142ce1
-# Source SHA-256: 935f967489615f57f41cff94e9604b5213aae25f220c7a8ee02021eb8e71f265
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-CTV04.ANS by Mr.Wrong (Fokus fonting); released in fokus03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Color Tv
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: Fokus fonting
-# SAUCE Date: 19990422
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Color Tv by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus03-mr-ctv04
 
 Write-Host '
                                                                 [1;30m▄[0m

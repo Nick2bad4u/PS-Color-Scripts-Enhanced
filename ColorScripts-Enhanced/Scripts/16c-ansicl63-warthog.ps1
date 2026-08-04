@@ -1,13 +1,4 @@
-﻿# Converted from: WARTHOG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansicl63/raw/WARTHOG.ANS
-# Source Revision: raw-sha256:cdf22d8bdc005bc1eea4b72160fd7b79e29998642ff2521d183913c28697de9b
-# Source SHA-256: cdf22d8bdc005bc1eea4b72160fd7b79e29998642ff2521d183913c28697de9b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WARTHOG.ANS by Lowell Andrew (ansicl63); released in ansicl63 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: WARTHOG.ANS by Lowell Andrew | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansicl63-warthog
 
 Write-Host '
 [46m                                 [0;1;30;46m▄▄▄         [0;46m                         [0m

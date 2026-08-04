@@ -1,13 +1,4 @@
-﻿# Converted from: ST-NOACC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r5/raw/ST-NOACC.ANS
-# Source Revision: raw-sha256:75f528006cf89d0f19728e2802efc3a4613d485566af6abae7bb8fc0e8e6f97c
-# Source SHA-256: 75f528006cf89d0f19728e2802efc3a4613d485566af6abae7bb8fc0e8e6f97c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-NOACC.ANS by Stormy (afc-r5); released in afc-r5 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: ST-NOACC.ANS by Stormy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r5-st-noacc-part01
 
 Write-Host '
  ·

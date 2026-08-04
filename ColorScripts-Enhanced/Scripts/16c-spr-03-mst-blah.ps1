@@ -1,13 +1,4 @@
-﻿# Converted from: MST!BLAH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spr_03/raw/MST!BLAH.ANS
-# Source Revision: archive-sha256:4e72f654dd144c3fc4922c52ed27a746ba8b094b07e719417cf6392491ac9a47
-# Source SHA-256: 98c6308648acf28b4617b182f9a14030f71894114d549840b60df13a5e51b028
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MST!BLAH.ANS by Mist (spr_03); released in spr_03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: MST!BLAH.ANS by Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spr-03-mst-blah
 
 Write-Host '
 [1;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m█[1;47m▀▀[0m█[1;47m▀[0m█▀▀▀▀ ▀▀ ▀     ▀ ▀▀ ▀▀▀██[1;47m▀[0m█[1;47m▀▀[0m█[1;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▓▓▓▒▒▒░░░[0m▄▄

@@ -1,18 +1,4 @@
-﻿# Converted from: PPE-DJEC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-03/raw/PPE-DJEC.ANS
-# Source Revision: archive-sha256:d2599b97a9288d8f82ddd62f9c4821cdc0d5105bf01763fad11be3b958d4ce10
-# Source SHA-256: eb4db593be211d9076f2db658b3df8c572f423a5203fec36c194ac2b2173bb1f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PPE-DJEC.ANS by Propane (The Used Coalition); released in used-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Djec
-# SAUCE Author: Propane
-# SAUCE Group: The Used Coalition
-# SAUCE Date: 20000127
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Djec by Propane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-03-ppe-djec
 
 Write-Host '
 [1;31;41m [0;33m░░░░▒▒▒▒▒▒▒▒      [0;33;47m█[0;1;31;43m▒[0;1;31;40m██[0;1;31;47m▓[0;1;31;40m███[0;33m█             [0;33;41m█[0;1;31;40m████[0;1;31;43m▒[0;33m█[0m        [33m▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: S3-YM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tone1298/raw/S3-YM.ANS
-# Source Revision: archive-sha256:2c4335e4a7099929072af13287d48313c4bf380989640349b3ef536a0c17fd63
-# Source SHA-256: 60920ada604dab702705739ec48ab677e7a147b0f9ae97302c882c0a13ebdcc6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S3-YM.ANS by seltorn (tone); released in tone1298 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: yellow monkeys
-# SAUCE Author: seltorn
-# SAUCE Group: tone
-# SAUCE Date: 19981212
-# SAUCE Dimensions: 80x46
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: yellow monkeys by seltorn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tone1298-s3-ym
 
 Write-Host '
   [33m▄▄▄▄▄▄▄▄▄▄[0m  [1;31;40m█[0;1;31;41m▓[0;31;40m▄▄▄▄▄▄[0;37;40m [0;1;32;40ms3//t0ne[0m   [33;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

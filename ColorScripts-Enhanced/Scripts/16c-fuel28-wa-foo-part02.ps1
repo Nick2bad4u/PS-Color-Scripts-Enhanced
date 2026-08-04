@@ -1,20 +1,4 @@
-﻿# Converted from: wa-foo.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel28/raw/wa-foo.ans
-# Source Revision: archive-sha256:f19d9f1f4d98a894d9a58a43443858287108d50e702695e0859df539776cf44a
-# Source SHA-256: b60918e91269664f44f0aa802f2f40277dcdaea6513f5a0fbe14d83861298b3b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-foo.ans by warpus (fuel); released in fuel28 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: pity the foo
-# SAUCE Author: warpus
-# SAUCE Group: fuel
-# SAUCE Date: 20180830
-# SAUCE Dimensions: 80x54
-# SAUCE Font: IBM VGA
-# SAUCE Comments: pity the foo motherfucker
-# Lines: 28-54
-# Columns: 1-80
+﻿# Artwork: pity the foo by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel28-wa-foo-part02
 
 Write-Host '
 [35;45m     [0;35;40m█[0;35;45m      [0;1;33;45m      [0;35;45m▒█████▒[0;35;40m████▓▒[0;30;40m█▒[0;33;40m▓[0;1;31;43m▒▒░[0;33m▓░[0;1;33m ▓[0m [1;33m▓[0;33m▓▓[0;1;31;43m▓▒░[0;33m█[0;37m [0;30;45m███  [0;35;45m                         [0m

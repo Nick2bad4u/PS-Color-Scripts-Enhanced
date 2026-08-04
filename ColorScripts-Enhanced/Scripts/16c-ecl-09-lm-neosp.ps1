@@ -1,13 +1,4 @@
-﻿# Converted from: LM-NEOSP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-09/raw/LM-NEOSP.ANS
-# Source Revision: archive-sha256:6c371ec8bbb75e88f59630021fbbd23f2fc630c10ee1cde240cc20faafea1ca9
-# Source SHA-256: b8e0a41a000bfc575c50c4c2fdb3740ea1df4a076caf125d6da5b662bc1c7eec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LM-NEOSP.ANS by Lagomorph (ecl-09); released in ecl-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: LM-NEOSP.ANS by Lagomorph | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-09-lm-neosp
 
 Write-Host '
        ▄[1m▄▄[0;1;47m▄██████▄[0;1;40m▄▄[0m▄

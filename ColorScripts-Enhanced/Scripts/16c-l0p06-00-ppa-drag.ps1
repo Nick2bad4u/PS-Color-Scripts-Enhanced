@@ -1,18 +1,4 @@
-﻿# Converted from: PPA!DRAG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p06_00/raw/PPA!DRAG.ANS
-# Source Revision: archive-sha256:3daad9bd70cd9307445d25e1dbbdc4eae498b83379a5b89ecd2ac9419e6150d3
-# Source SHA-256: 88c4d48e3ab375826e8d87e68dcb3c97e25e7f4de2fcea22bcb557ce70150e04
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PPA!DRAG.ANS by protoplasta (kwadrat); released in l0p06_00 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dragonman
-# SAUCE Author: protoplasta
-# SAUCE Group: kwadrat
-# SAUCE Date: 20000415
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: dragonman by protoplasta | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p06-00-ppa-drag
 
 Write-Host '
    [1;30m░░[0m   [33m▄[0;1;30m▀[0m   [1;30m░░[0m  [33m▀[0;1;33;43m▀[0;1;33;40m███[0;1;37;40m███[0;1;33;40m▌[0m  [1;30m░░[0m  ▀[1m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: TR-SHED.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack12/raw/TR-SHED.ANS
-# Source Revision: archive-sha256:55286e18e28c272f11e63b1c16158d9df2657a21ca3df761a4c27630305acaa1
-# Source SHA-256: e98bcd0a431861fc1d9b0f173ba0acf9541ce0f04363e459984f34e0061649d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-SHED.ANS by Trippah (Apocalyptic Visions); released in avpack12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Shed
-# SAUCE Author: Trippah
-# SAUCE Group: Apocalyptic Visions
-# SAUCE Date: 19960623
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: The Shed by Trippah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack12-tr-shed
 
 Write-Host '
 [1m▄▄▄▄[0m▄[1m▄[0m▄▄[1m▄[0m▄▄▄▄[1;30m▄▄[0m▄▄[1;30m▄▄▄[0m▄▄▄[1;30m▄▄▄▄▄▄▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

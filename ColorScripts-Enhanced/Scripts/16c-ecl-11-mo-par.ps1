@@ -1,18 +1,4 @@
-﻿# Converted from: MO-PAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-11/raw/MO-PAR.ANS
-# Source Revision: archive-sha256:124f5de71b4943d1edf363ae27ec83def11b741938d7ad78955f12dc3ea0753e
-# Source SHA-256: de7e31df618f9d69d0f764aa460aeeee10474aba5bc758d89c95145be3352d9c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MO-PAR.ANS by mana-PORNMAN-top (ACiD <err> eclipse); released in ecl-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: PARADOX! DEAR GOD!
-# SAUCE Author: mana-PORNMAN-top
-# SAUCE Group: ACiD <err> eclipse
-# SAUCE Date: 19970110
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: PARADOX! DEAR GOD! by mana-PORNMAN-top | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-11-mo-par
 
 Write-Host '
 [1;34;44m▄▄▓▓▓▓▓▓▓▓▄▄▄▄▄▄▄▄▄▄████▄▄▄▄▄▄▄▄▄[0;34m██[0;1;34;44m▄▄▄▄[0;34m█[0;1;34;44m▀▀▀[0;34m██▀▀▀▀▀▀▀▀▀[0;37m [0;34m▀▀▀▀[0;37m   [0;34m▄▄▄▄▄[0m

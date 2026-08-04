@@ -1,20 +1,4 @@
-﻿# Converted from: _Pumpkin_by_mypalGOO.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_blocktober/raw/_Pumpkin_by_mypalGOO.ans
-# Source Revision: archive-sha256:a4249815771be4175829e3af0e1e24a265146879ea43ac19f701d6ebb72fa88f
-# Source SHA-256: b79fb4fad6b9e41752b93c7365c7dc0ee70efdd3221f5687cd88b0a6762cd0ea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _Pumpkin_by_mypalGOO.ans by GOO (blocktronics); released in blocktronics_blocktober and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Dream Catcher
-# SAUCE Author: GOO
-# SAUCE Group: blocktronics
-# SAUCE Date: 20161020
-# SAUCE Dimensions: 80x89
-# SAUCE Font: IBM VGA
-# SAUCE Comments: 67 carving challenge 2o16
-# Lines: 44-89
-# Columns: 1-80
+﻿# Artwork: Dream Catcher by GOO | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blocktober-pumpkin-by-mypalgoo-part02
 
 Write-Host '
                                    [1;30m [0m  ▓ [1;30;47m▀▄▀[0;1;30;40m▌[0;1;37;47m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: J33-DEM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0502/raw/J33-DEM.ANS
-# Source Revision: archive-sha256:98bfa3cc78c733050b0c647e7e0271e7623e3c31e4f40f218a00b89b2165c771
-# Source SHA-256: eaca99a5d1aaae7ce382d166df5aa0a7b60ad356e0bb3c71a8ec4c2ac073049f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: J33-DEM.ANS by j33p33 (REViVAL); released in rev0502 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Demintri IrcScript
-# SAUCE Author: j33p33
-# SAUCE Group: REViVAL
-# SAUCE Date: 20020424
-# SAUCE Dimensions: 80x21
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Demintri IrcScript by j33p33 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0502-j33-dem
 
 Write-Host '
 

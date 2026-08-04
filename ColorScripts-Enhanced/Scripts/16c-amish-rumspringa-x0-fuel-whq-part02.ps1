@@ -1,20 +1,4 @@
-﻿# Converted from: x0-fuel_whq.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amish-rumspringa/raw/x0-fuel_whq.ans
-# Source Revision: archive-sha256:710f00c8e218c58e7f7c9fe172cb22279b1ebbb4b713832762c12e983eb7ac2d
-# Source SHA-256: 33f51211e4d4e7cfcd0a174cff1db1296ddaaa7e8f4426f19d054695529af1dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: x0-fuel_whq.ans by xeR0 (A.M.i.S.H); released in amish-rumspringa and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: FUEL WHQ / outhouse
-# SAUCE Author: xeR0
-# SAUCE Group: A.M.i.S.H
-# SAUCE Date: 20180714
-# SAUCE Dimensions: 80x52
-# SAUCE Font: IBM VGA
-# SAUCE Comments: x0^67^aMi5H^iMP! | https://0w.nz
-# Lines: 27-52
-# Columns: 1-80
+﻿# Artwork: FUEL WHQ / outhouse by xeR0 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amish-rumspringa-x0-fuel-whq-part02
 
 Write-Host '
         [1;33m▐[0;30;43m░░░░░░░▐▄▀░░░░▒░▒▒░▌▒▒▒▒▒▐▌▒▒░░▒░░ ▒▌ ░░░░░▒▓▓▓▓▒▓▓█▓▓▌▓▓▓▓▓▓▒▓▒[0;1;33;40m▌[0m

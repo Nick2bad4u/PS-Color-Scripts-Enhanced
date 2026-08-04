@@ -1,19 +1,4 @@
-﻿# Converted from: aeleus-optic-rage.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/layerone_demoparty_2019/raw/aeleus-optic-rage.ans
-# Source Revision: archive-sha256:21f4752c62776b6c16e92d822c559836f6af28e9a279be89084d23622e9b7046
-# Source SHA-256: 1b7d8e4190eecd04f78079569b4343c1d7e40fcc7c013fd0ab860b7c8ed2fb11
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: aeleus-optic-rage.ans by aeleus (layerone_demoparty_2019); released in layerone_demoparty_2019 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: optic rage
-# SAUCE Author: aeleus
-# SAUCE Date: 20190411
-# SAUCE Dimensions: 80x23
-# SAUCE Font: IBM VGA
-# SAUCE Comments: LayerOne 2019
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: optic rage by aeleus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-layerone-demoparty-2019-aeleus-optic-rage
 
 Write-Host '
 [31;40m█████[0;1;37;41m  [0;31m████▌▀██▌▀▀▀   ▀▀[0;1;37m▄[0;31m▀▀[0;1;37m▄[0;31m ▀▀ [0;1;37m▄[0;31m▀▌[0;1;31;41m██▀▀[0;31m▀▀▀[0;37m [0;31m▄[0;1;31m▄[0;1;31;41m▓▓▄▄▀▀[0;1;37;41m▄▄██▄▄█[0;1;37;47m▓▓[0;1;37;41m█████▀▀█████▀▀[0;1;31;41m▀[0;1;31;40m█▀▀ [0;31m▄[0m

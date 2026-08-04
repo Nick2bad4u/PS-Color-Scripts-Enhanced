@@ -1,20 +1,4 @@
-﻿# Converted from: sm-nullart.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel28/raw/sm-nullart.ans
-# Source Revision: archive-sha256:f19d9f1f4d98a894d9a58a43443858287108d50e702695e0859df539776cf44a
-# Source SHA-256: 12e05c702df6d259ae71534a6922916fa5a81ea1e7f8b2a842e8c095c3006b1b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sm-nullart.ans by Smooth (Fuel); released in fuel28 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Null Emag cover art
-# SAUCE Author: Smooth
-# SAUCE Group: Fuel
-# SAUCE Date: 20181212
-# SAUCE Dimensions: 80x54
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Null Emag cover art for Issue #3 and Issue #4
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Null Emag cover art by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel28-sm-nullart-part01
 
 Write-Host '
 [1;30;40m      [0;32m      [0;1;36m  [0;32m                        [0;1;30m                                         [0m

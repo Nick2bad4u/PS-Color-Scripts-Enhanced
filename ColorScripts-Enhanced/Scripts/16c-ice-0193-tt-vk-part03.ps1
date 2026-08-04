@@ -1,13 +1,4 @@
-﻿# Converted from: TT-VK.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-0193/raw/TT-VK.ICE
-# Source Revision: archive-sha256:ca05bf2de359182562a4e7329ee29306910e366566e70161c1e1498b079ccf5f
-# Source SHA-256: ec0365408cf971a10bef520ce373188cca8609e555f2a6c1873d28d88ca8298b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TT-VK.ICE by Tempus Thales (ice-0193); released in ice-0193 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 99-148
-# Columns: 1-80
+﻿# Artwork: TT-VK.ICE by Tempus Thales | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-0193-tt-vk-part03
 
 Write-Host '
 [1;30;47m▒▒▒▒[0m   [1;30;40m░   ░  ░  ░[0m       [33m▀▀[0;1;33;43m░▒▓[0;1;33;40m▄▄[0;1;30;40m▀[0;1;30;47m███████▀▀▀▀▀▀▀[0;1;30;40m█[0;1;30;47m▀[0;1;30;40m████[0;1;30;47m██[0;1;30;40m▀▀▀▀▀▀ ▒▒▒▒▒▒▒▒▒▒▒▀▀▀[0m▄▄[1;30m▀[0m

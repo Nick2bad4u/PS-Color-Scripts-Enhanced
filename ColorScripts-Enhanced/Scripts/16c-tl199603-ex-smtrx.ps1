@@ -1,18 +1,4 @@
-﻿# Converted from: EX-SMTRX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl199603/raw/EX-SMTRX.ANS
-# Source Revision: archive-sha256:0efb2f799ead394e7068a363d08b4382c71543fc86834c3fc142767771a369dc
-# Source SHA-256: 14deac555b798dc27b288f60111eb0551ba12b3f69c552947009698867dfe45d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EX-SMTRX.ANS by Extreme (TeklordZ); released in tl199603 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Sherman Matrix
-# SAUCE Author: Extreme
-# SAUCE Group: TeklordZ
-# SAUCE Date: 19960315
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Sherman Matrix by Extreme | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl199603-ex-smtrx
 
 Write-Host '
           [1;32;42m▓█[0;1;32;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m [1;32;42m░▒[0;1;32;40m▀[0;1;32;42m▓█▄▄█▄█▄█[0;1;32;40m▀[0;32m▀[0;1;32m▀[0;1;34m▄[0;1;32m▀▀[0m [1;34m▄▄[0;1;32m▀[0;1;34m▄[0;1;32m▀▀▀▀▀▀▀█[0;1;32;42m▓▄██▓█▀[0;1;32;40m▄[0m █▀▀▀[32m▐[0;1;32;42m■[0m

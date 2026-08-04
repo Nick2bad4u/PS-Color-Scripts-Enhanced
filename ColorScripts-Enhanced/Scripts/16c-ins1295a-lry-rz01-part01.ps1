@@ -1,18 +1,4 @@
-﻿# Converted from: LRY-RZ01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ins1295a/raw/LRY-RZ01.ANS
-# Source Revision: archive-sha256:0b68d4daa11b0e9ab0b29fa989c942e6fe09c6576ebd507a2bf77817932365c5
-# Source SHA-256: 66215f0aaad362f27227ef4204666e78ed1ea9b2c78a424560d951b5836c3e56
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LRY-RZ01.ANS by lArrY (PHaT); released in ins1295a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: RaVe ZoNe 8oLiNeS
-# SAUCE Author: lArrY
-# SAUCE Group: PHaT
-# SAUCE Date: 19951217
-# SAUCE Dimensions: 80x75
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: RaVe ZoNe 8oLiNeS by lArrY | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ins1295a-lry-rz01-part01
 
 Write-Host '
 [1;30m■▀▀▀▄▄■▓▓▓▄▄▄▄▀▀■■▓░■░■▄▄▄░▀▀▄▄▄▄■▓▄▄▄▄▄▄▀▄▄■▀▀▀▄▄■▓▓▓▄▄▄▄▀▀■■▓░■░■▄▄▄░▀▀▄▄▄▄■▓[0m

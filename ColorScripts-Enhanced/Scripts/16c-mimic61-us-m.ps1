@@ -1,13 +1,4 @@
-﻿# Converted from: us-m.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic61/raw/us-m.ans
-# Source Revision: archive-sha256:ac0399b20581a56c6fb14293c7433ffa388178abcae674b545e564d1b53d81ed
-# Source SHA-256: db8887e6065f904271d140e5bc09aec08b7076c365ed836f98c13ff4b1ed1481
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-m.ans by Abstrakt + Jashiin (mimic61); released in mimic61 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: us-m.ans by Abstrakt + Jashiin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic61-us-m
 
 Write-Host '
 [35m[0;1;35m[0;35m[0m                                                [35m_.▬┌⌐s%%##☻☻☺☻☻☻☺☻☻☻☺☺☻☻☻☻☻[0m

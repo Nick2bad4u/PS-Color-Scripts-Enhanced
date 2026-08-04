@@ -1,18 +1,4 @@
-﻿# Converted from: IN-MDN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9702/raw/IN-MDN.ANS
-# Source Revision: archive-sha256:2bef5839074c598bf0f92bd4e5826154389b8896239a1e15db494b520fb6d9a8
-# Source SHA-256: 86838c5044ae185f90cd32951518e1fe42661011f6b2486d129e74007244cdcd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IN-MDN.ANS by insert (phat productions'97); released in mdn-9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: maiden productions
-# SAUCE Author: insert
-# SAUCE Group: phat productions'97
-# SAUCE Date: 19970107
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: maiden productions by insert | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9702-in-mdn
 
 Write-Host '
                                [32m▄[0m

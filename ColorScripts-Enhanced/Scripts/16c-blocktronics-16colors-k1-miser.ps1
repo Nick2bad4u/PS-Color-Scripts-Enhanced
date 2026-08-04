@@ -1,13 +1,4 @@
-﻿# Converted from: k1-miser.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_16colors/raw/k1-miser.ans
-# Source Revision: archive-sha256:906b8658ae1b298a9794b2bd98c553b56bef4b4de5008bd765b49c3ed6b68572
-# Source SHA-256: 55b5faa307f0f5c73db2ba32f7f16075757f72ed8d6d127823231b898257f7a6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: k1-miser.ans by Knocturnal (blocktronics_16colors); released in blocktronics_16colors and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: k1-miser.ans by Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-16colors-k1-miser
 
 Write-Host '
 [34;40m   ▄▄[0m

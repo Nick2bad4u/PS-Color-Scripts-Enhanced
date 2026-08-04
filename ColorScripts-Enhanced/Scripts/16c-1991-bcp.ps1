@@ -1,13 +1,4 @@
-﻿# Converted from: BCP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1991/raw/BCP.ANS
-# Source Revision: archive-sha256:4dcfddb1a9f84aafa45e2facaadcb15ccf7ddad9041d8c346c723f7894d6cfb9
-# Source SHA-256: 960eac97a8b33fd6c62c35a1676afb42cf666422e57624b3332baa52eb7fc11d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BCP.ANS by Kp (1991); released in 1991 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: BCP.ANS by Kp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1991-bcp
 
 Write-Host '
      ▄▄[1;30m▄[0m▄[1;30m▄[0m▄   [1;30m▄▄▄▄▀▀▀▀▀▀▄▄▄▄[0m        [1;30m▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀██[0m

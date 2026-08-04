@@ -1,18 +1,4 @@
-﻿# Converted from: SZ-TRAG2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rvl-0396/raw/SZ-TRAG2.ANS
-# Source Revision: archive-sha256:6ba51b3d0dc168dac68fc2016875b770d4335425f90ca1ed6abc12b1946ac90a
-# Source SHA-256: 82475b3d8674754edc654806b9ce5538ca5b223a0dbd8fbb353104b6506d22fc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SZ-TRAG2.ANS by Seize (RiVAL); released in rvl-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Tragic .(again).
-# SAUCE Author: Seize
-# SAUCE Group: RiVAL
-# SAUCE Date: 19960227
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Tragic .(again). by Seize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rvl-0396-sz-trag2
 
 Write-Host '
 

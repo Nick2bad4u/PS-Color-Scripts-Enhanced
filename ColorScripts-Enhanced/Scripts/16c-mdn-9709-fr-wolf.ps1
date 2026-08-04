@@ -1,18 +1,4 @@
-﻿# Converted from: FR-WOLF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9709/raw/FR-WOLF.ANS
-# Source Revision: archive-sha256:a8c36d8798287a241d2dd7ef1ff5dc55fddff796595a296c3f5aa388a9423ee9
-# Source SHA-256: 1ef55006fae6274067093619420910f3bf8bf05f29c11fb4f5e5ec9bf9c24dd8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FR-WOLF.ANS by feaRprOphet (maiden); released in mdn-9709 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: For Dookie Ripper
-# SAUCE Author: feaRprOphet
-# SAUCE Group: maiden
-# SAUCE Date: 19970707
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: For Dookie Ripper by feaRprOphet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9709-fr-wolf
 
 Write-Host '
 [1;30m   [0;34m ▄[0;1;34m▄▄[0;1;34;44m▄░░[0;34;46m▓▓▒▒░░[0;36;40m█   █[0;1;36;46m███████[0;1;37;40m██[0;36m           █[0;1;36;46m██████[0;1;37;40m██[0;36m█     █████[0;34;46m░░▒▒▓▓[0;34;40m██[0;1;34;44m░░▓▓▄[0;1;34;40m▄[0;1;37;40m██[0m

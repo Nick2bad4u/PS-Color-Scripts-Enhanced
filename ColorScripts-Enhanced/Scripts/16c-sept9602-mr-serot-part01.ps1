@@ -1,18 +1,4 @@
-﻿# Converted from: MR-SEROT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sept9602/raw/MR-SEROT.ANS
-# Source Revision: archive-sha256:b84d6618d19565ec7b7c456ac50dd1d8bbaa05356a17569da2b845eb32457b5d
-# Source SHA-256: 624a78a3c28ae84e46c1682ebed238fe941e2875c86aa937262bf342a19ea353
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-SEROT.ANS by Magnetic Rage (SEPTiC); released in sept9602 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Serotonin
-# SAUCE Author: Magnetic Rage
-# SAUCE Group: SEPTiC
-# SAUCE Date: 19960116
-# SAUCE Dimensions: 80x25
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Serotonin by Magnetic Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sept9602-mr-serot-part01
 
 Write-Host '
 [1;30m    [0m [36m     [0;1;30m                                                                ░  ░░▒[0m

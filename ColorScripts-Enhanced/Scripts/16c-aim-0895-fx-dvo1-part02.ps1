@@ -1,18 +1,4 @@
-﻿# Converted from: FX-DVO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aim-0895/raw/FX-DVO1.ANS
-# Source Revision: archive-sha256:204b30a10a0d728beeb2b6ef77a685417d42699bf345ab491eb081a7bbd4b870
-# Source SHA-256: f9c5f1e5bd12b309039789c9ddc0e2665058fe30c3ab0c37ae6f8cc1317ee72e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FX-DVO1.ANS by Facsimile (<AiM>); released in aim-0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Devide Overflow
-# SAUCE Author: Facsimile
-# SAUCE Group: <AiM>
-# SAUCE Date: 19950805
-# SAUCE Dimensions: 80x102
-# Lines: 40-73
-# Columns: 1-80
+﻿# Artwork: Devide Overflow by Facsimile | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aim-0895-fx-dvo1-part02
 
 Write-Host '
 [37m    [0;1;30m  [0m    [1;34;44m▒▒▓▓░░[0m         [1m█[0;1;47m▒[0m     [36m▒   ▒  [0;1;30m░  [0;36m▀▄▄▀[0m      [1;37;47m▒░[0m            [35m ░░   [0m      [37m█[0m

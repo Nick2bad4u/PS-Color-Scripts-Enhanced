@@ -1,18 +1,4 @@
-﻿# Converted from: AE-DSUN3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1294/raw/AE-DSUN3.ANS
-# Source Revision: archive-sha256:f8a4b1074b7793df8f3d2e2341b035c3ebc6fa160937f8fe7508c74b4b0317e1
-# Source SHA-256: a8d3bc3713c6c6698482a90bd7d8fd5c06ddc244c58a3061f246826855d85a95
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AE-DSUN3.ANS by Alter Ego (ACiD Productions); released in acdu1294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Dark Sun World
-# SAUCE Author: Alter Ego
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19941201
-# SAUCE Dimensions: 80x200
-# Lines: 101-150
-# Columns: 1-80
+﻿# Artwork: Dark Sun World by Alter Ego | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1294-ae-dsun3-part03
 
 Write-Host '
              [33m░▒▓█▀[0m                       [33m░▒▓▄▄▀▒▓██[0;33;43m [0;37;43m░[0;33;40m▄    ▄▄[0;37;43m░[0;33;40m▄[0m

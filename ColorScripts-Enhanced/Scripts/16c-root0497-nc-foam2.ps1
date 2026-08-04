@@ -1,18 +1,4 @@
-﻿# Converted from: NC-FOAM2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0497/raw/NC-FOAM2.ANS
-# Source Revision: archive-sha256:73d4445ab8a07d3fe160d256052163ed66b2081a0bebb59b18ae9b36e30223e0
-# Source SHA-256: 731f20531c0b45936d3eda7b21ba6dc47cb957a563351c0b3ce016a9fe7205b3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NC-FOAM2.ANS by necrolyte (root graphix); released in root0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: foam sum m0h'
-# SAUCE Author: necrolyte
-# SAUCE Group: root graphix
-# SAUCE Date: 19970316
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: foam sum m0h' by necrolyte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0497-nc-foam2
 
 Write-Host '
 [1;30m▄▄[0m

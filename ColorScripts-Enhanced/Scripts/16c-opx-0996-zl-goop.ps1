@@ -1,17 +1,4 @@
-﻿# Converted from: ZL-GOOP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0996/raw/ZL-GOOP.ANS
-# Source Revision: archive-sha256:9d2c16f2326b1b98168bc790edb6aadb0d52c5f6484964980e3ad8168b0cc77f
-# Source SHA-256: 7f0b03b39bbf4aa74c02b953ae0c792b5c71142f0509ebf23416dcd8a42d357e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZL-GOOP.ANS by zalt (opx-0996); released in opx-0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: goOpinto
-# SAUCE Author: zalt
-# SAUCE Date: 19960901
-# SAUCE Dimensions: 80x48
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: goOpinto by zalt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0996-zl-goop
 
 Write-Host '
 [1;47m██▓▀▀▀▀▀ ▀▀  ▀[0m███████[1;47m  [0;35;47m░[0;1;37;47m      [0;1;30;47m░[0;1;37;40m [0;35m█▓▓[0;37m [0;35m█[0;1;37m [0;1;31;43m░▒▓▓▓▓█████████▓▓[0m [35m███[0;1;31;45m░[0;35m███▓▒[0;37m  [0;35m███[0;37m [0;35m████▄▀█▓[0;37m [0m

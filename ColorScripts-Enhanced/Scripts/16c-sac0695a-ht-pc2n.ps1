@@ -1,18 +1,4 @@
-﻿# Converted from: HT-PC2N.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0695a/raw/HT-PC2N.ANS
-# Source Revision: archive-sha256:fdb220fd949148b42f901401233ee5917f0ab0d506d9b91fc04ce4bed204f9b8
-# Source SHA-256: 3668f157ed567a65ba8591ef47e047c02aeefe33f727c3df2f51fa3c3b26b01d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HT-PC2N.ANS by hetero; released in sac0695a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
-# SAUCE Title: PC CONFERENCE
-# SAUCE Author: HETERO
-# SAUCE Group: LKCC
-# SAUCE Date: 19800101
-# SAUCE Dimensions: 80x25
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: PC CONFERENCE by hetero | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0695a-ht-pc2n
 
 Write-Host '
                         [32m▀[0m

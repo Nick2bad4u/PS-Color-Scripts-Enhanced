@@ -1,0 +1,462 @@
+{
+  "batch": 56,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch56-exact-disposable-phrase-recurrences",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 6,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "07ce13a592a924e8ff393ef895177e81743fceaf8174a2e584af7a526f61e2e2",
+          "expectedRenderedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "row": 51,
+          "sha256": "67a6bdb104f93e4534b12125f9d4af0b95dc6185d1ccf596295c5e483a6a0009"
+        }
+      ],
+      "file": "16c-acdu1093-fn-bs1.ps1",
+      "rationale": "Exact recurrence and full-context review prove the selected span is a runtime artifact, dummy field, production marker, or member of a previously accepted disposable filler family. Functional copy, filenames, titles, greetings, attribution, authored captions, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch56-batch55-recurrences.json",
+        "temp/text-blanking-continuation/batch56-focused-review.json",
+        "temp/text-blanking-continuation/batch56-terminal-review.json",
+        "temp/text-blanking-continuation/batch56-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch56-exact-disposable-phrase-recurrences",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 6,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "07ce13a592a924e8ff393ef895177e81743fceaf8174a2e584af7a526f61e2e2",
+          "expectedRenderedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "row": 40,
+          "sha256": "67a6bdb104f93e4534b12125f9d4af0b95dc6185d1ccf596295c5e483a6a0009"
+        }
+      ],
+      "file": "16c-aeon0196-logon5.ps1",
+      "rationale": "Exact recurrence and full-context review prove the selected span is a runtime artifact, dummy field, production marker, or member of a previously accepted disposable filler family. Functional copy, filenames, titles, greetings, attribution, authored captions, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch56-batch55-recurrences.json",
+        "temp/text-blanking-continuation/batch56-focused-review.json",
+        "temp/text-blanking-continuation/batch56-terminal-review.json",
+        "temp/text-blanking-continuation/batch56-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch56-exact-disposable-phrase-recurrences",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 56,
+              "start": 40
+            }
+          ],
+          "expectedRawSha256": "df799a78f9f25c4530eede628fc70a59c58a86b9e84f49f23bdbb0ecd6ed4eff",
+          "expectedRenderedSha256": "68e4dd55cb84d4607d1dae1f4a6436b51f3d2431c29cfacda8b34f02293ed916",
+          "row": 17,
+          "sha256": "6b3415e82787f159f045e1bba46698f0ffa5d218674c596421d6ad64def66a74"
+        }
+      ],
+      "file": "16c-bl-brtsh-fj-edlgn.ps1",
+      "rationale": "Exact recurrence and full-context review prove the selected span is a runtime artifact, dummy field, production marker, or member of a previously accepted disposable filler family. Functional copy, filenames, titles, greetings, attribution, authored captions, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch56-batch55-recurrences.json",
+        "temp/text-blanking-continuation/batch56-focused-review.json",
+        "temp/text-blanking-continuation/batch56-terminal-review.json",
+        "temp/text-blanking-continuation/batch56-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch56-exact-disposable-phrase-recurrences",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 78,
+              "start": 70
+            }
+          ],
+          "expectedRawSha256": "f04485fd6bf3e22c59fc5e42c8e7d5f0d7045c2450b69c40dc7fab04ed56f4f8",
+          "expectedRenderedSha256": "d3d6deea57d805df8039ddb9bfe7554c38ab303ac8a36d4097ffd97580e9ae93",
+          "row": 27,
+          "sha256": "9a96118a109736b1bef6905ad2c0dae3357e8c09df959c27c04fb8504adebcea"
+        }
+      ],
+      "file": "16c-bl-brtsh-jr-fspag.ps1",
+      "rationale": "Exact recurrence and full-context review prove the selected span is a runtime artifact, dummy field, production marker, or member of a previously accepted disposable filler family. Functional copy, filenames, titles, greetings, attribution, authored captions, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch56-batch55-recurrences.json",
+        "temp/text-blanking-continuation/batch56-focused-review.json",
+        "temp/text-blanking-continuation/batch56-terminal-review.json",
+        "temp/text-blanking-continuation/batch56-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch56-exact-disposable-phrase-recurrences",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "a936a00c6cfcbaa724cf9e5c7c85d55e314e4c3a1cba5006a8d5a8dc4337a0f6",
+          "expectedRenderedSha256": "0cecd84ad6f71c716ba3e254cead15e386a25235374e65610ae7588239b3cfe7",
+          "row": 6,
+          "sha256": "7170c4d9fd6a7eca5163e4ad7aa332125ba9e7b7d5221a077aa223eace3052f5"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "f5c0fcd782265bf72c21ee9adb40a1813c932033a95483f72a4aaeda372d5ba2",
+          "expectedRenderedSha256": "8fb31ffec533e63f6c0e66214f4ab763ff037c31f274d1f49a7212bdb35cb76f",
+          "row": 7,
+          "sha256": "a3f764714070596bea0f68e0f36879e7e62786213fe806e25d354d963052a7f4"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "6266414c7f59374ad5b53f7b3cf7e5009d4a679002955f476241083a6554501e",
+          "expectedRenderedSha256": "dc455d273611fa2f035e8a34e0840b7b6f69a5501ffce78be934d5d9cdfc81fe",
+          "row": 8,
+          "sha256": "a95bb2fabd3d82cd01b1448d2a7d84915004a67fd7cf26b637e2275ec446bab8"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "9551951182696feb6a00a9323693698cea7bac9637887eb1e50e17241941c4cb",
+          "expectedRenderedSha256": "789fbab859b59f56604d924f6f1f7fd7e46301e30b872388d29922e65533ab7d",
+          "row": 9,
+          "sha256": "1aa261cd44da276e9d01b19a65beef3285e06dca2d883524bc2ef3378f3062c2"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "fb44b91e641ac7a4614394c6644441a1d596d1080799bb319f3c7572d6ffc140",
+          "expectedRenderedSha256": "d06cae00d78b20abb7437ad02634827b6b5e35d5a7b97a649bef4e2b76f7c591",
+          "row": 10,
+          "sha256": "1d7bad8fa963d73b680e41f15361b19cc7b54d5f4a2716b1c0195afb6d4b7fc8"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "69e32b5454f5e0008e7250d6f9eab83d43f1805367f65d0441ddaa1991121d65",
+          "expectedRenderedSha256": "a4fffb9b8d603818f5c3ac4af6dfaabfc672f70636c20e352a0a5c0c4ec9eb28",
+          "row": 11,
+          "sha256": "0752376c1053fec0d652bb9fc6e5221032d9dbf018d776ac007d897dd5c9798b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "0f24c20ec1ceb5e4461a016011cfb2d3bc12b2dd6f3e12b628ee3fbd1b1348b4",
+          "expectedRenderedSha256": "8897497baa3e6bc92042de588fb603c49808005a98c457b82bd218132d38293b",
+          "row": 12,
+          "sha256": "cbd7806755f32d5de5fda72f7c5527db924333b8d4c7e9eeb4543eb6bf21a9b8"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "ed58da9adee449d3b3312a3417d62cd8fb19eb78a8df09f30e86d7259a916a4b",
+          "expectedRenderedSha256": "5a3bd9eb6b32090d9c17210af2d2d1f656c9af5e619c8ff23e2c553676de83b4",
+          "row": 13,
+          "sha256": "12662193cf1048eef789b073a7043a511ce22c7bc49a7fdd13f82b0c187e9833"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "cabce0f7b0fb977946398ec884ccd968beb6eacdeddc17f0087df0279ba28663",
+          "expectedRenderedSha256": "46b79418384d743f3bf3d0dcce611ac09b3fc23a3193c66b40f1f824290b5465",
+          "row": 14,
+          "sha256": "4b2bbbb241697d6382da5240f566acd4dbbbdb9b17ba3353ca476288aa93fbbd"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "59e1c8a2e8e558b6a3e454e1a1c32f11870f2f880934ef99f5009ffc5bc75f3a",
+          "expectedRenderedSha256": "4951db475064f2f46a6d858ade83412017644b08b55fde289499ce805af026ec",
+          "row": 15,
+          "sha256": "056a34c5d18caed61a70c2bf8446ce8769563110b4e13c33cd1240fceb31a7fa"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "18b959c8d0d00a60cecf34d30bc4129e93e891e75b187905bb00e82f7f23000d",
+          "expectedRenderedSha256": "cd38f0a908d6dd7164e26b42da99069ee13203da3cf1f881f420be6b6893d940",
+          "row": 16,
+          "sha256": "f9d40aa9a305211cc4154e27accc857ff415b792b11655bce0718d3aba7adea6"
+        }
+      ],
+      "file": "16c-bmbook15-ave-fs7.ps1",
+      "rationale": "Exact recurrence and full-context review prove the selected span is a runtime artifact, dummy field, production marker, or member of a previously accepted disposable filler family. Functional copy, filenames, titles, greetings, attribution, authored captions, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch56-batch55-recurrences.json",
+        "temp/text-blanking-continuation/batch56-focused-review.json",
+        "temp/text-blanking-continuation/batch56-terminal-review.json",
+        "temp/text-blanking-continuation/batch56-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch56-exact-disposable-phrase-recurrences",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "eadd1168424c09bdec623666a947cdfac14b60da94e557db671f64d677385a9d",
+          "expectedRenderedSha256": "1ae223ca2815e9f24c2df3c720b3c8bd7e69ea3e3c1992547c8b72eb7b4c472c",
+          "row": 24,
+          "sha256": "306c76f0bc9c90e35685341c1128e5a892d2e3002330ad1802c26a7f18d8228a"
+        }
+      ],
+      "file": "16c-force18a-cx-st2mn.ps1",
+      "rationale": "Exact recurrence and full-context review prove the selected span is a runtime artifact, dummy field, production marker, or member of a previously accepted disposable filler family. Functional copy, filenames, titles, greetings, attribution, authored captions, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch56-batch55-recurrences.json",
+        "temp/text-blanking-continuation/batch56-focused-review.json",
+        "temp/text-blanking-continuation/batch56-terminal-review.json",
+        "temp/text-blanking-continuation/batch56-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch56-exact-disposable-phrase-recurrences",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 6,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "07ce13a592a924e8ff393ef895177e81743fceaf8174a2e584af7a526f61e2e2",
+          "expectedRenderedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "row": 39,
+          "sha256": "67a6bdb104f93e4534b12125f9d4af0b95dc6185d1ccf596295c5e483a6a0009"
+        }
+      ],
+      "file": "16c-royart3-csoc-part02.ps1",
+      "rationale": "Exact recurrence and full-context review prove the selected span is a runtime artifact, dummy field, production marker, or member of a previously accepted disposable filler family. Functional copy, filenames, titles, greetings, attribution, authored captions, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch56-batch55-recurrences.json",
+        "temp/text-blanking-continuation/batch56-focused-review.json",
+        "temp/text-blanking-continuation/batch56-terminal-review.json",
+        "temp/text-blanking-continuation/batch56-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch56-exact-disposable-phrase-recurrences",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 58,
+              "start": 49
+            },
+            {
+              "end": 75,
+              "start": 63
+            }
+          ],
+          "expectedRawSha256": "2ddacffcc8664f683037f10f344bb56e85a65ab29057a5f856ed37cceb81f398",
+          "expectedRenderedSha256": "9002ac99b9c9f54e5f34531396461468a5e31051eb41cf9497b2ca61e78a76ff",
+          "row": 4,
+          "sha256": "ef02122b00a88f618d266c6b88b8491573fccdc82b7209b5d2feed3a5c25b315"
+        }
+      ],
+      "file": "16c-saga9705-ra-z55in.ps1",
+      "rationale": "Exact recurrence and full-context review prove the selected span is a runtime artifact, dummy field, production marker, or member of a previously accepted disposable filler family. Functional copy, filenames, titles, greetings, attribution, authored captions, ANSI controls, colored spaces, art cells, width, and row geometry remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch56-batch55-recurrences.json",
+        "temp/text-blanking-continuation/batch56-focused-review.json",
+        "temp/text-blanking-continuation/batch56-terminal-review.json",
+        "temp/text-blanking-continuation/batch56-history-collisions.json"
+      ]
+    }
+  ],
+  "normalization": "SHA-256 of UTF-8 visible terminal-cell rows after ANSI-control removal and outer-whitespace trimming. Every row also pins exact raw projected and rendered hashes plus one-based inclusive blank-column ranges.",
+  "pendingInputs": [],
+  "policy": "Fail-closed review of every current exact recurrence of the phrases accepted by Batch 55. Accept only separable runtime artifacts, dummy fields, production markers, and members of visually proven disposable families; retain functional copy, filenames, titles, greetings, identity, attribution, authored text, structural lettering, and ambiguity.",
+  "priorRetainSupersessions": [
+    {
+      "coordinate": "16c-bl-brtsh-fj-edlgn.ps1:17",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-bl-brtsh-jr-fspag.ps1:27",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-bmbook15-ave-fs7.ps1:10",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-bmbook15-ave-fs7.ps1:11",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-bmbook15-ave-fs7.ps1:12",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-bmbook15-ave-fs7.ps1:13",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-bmbook15-ave-fs7.ps1:14",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-bmbook15-ave-fs7.ps1:15",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-bmbook15-ave-fs7.ps1:16",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-bmbook15-ave-fs7.ps1:6",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-bmbook15-ave-fs7.ps1:7",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-bmbook15-ave-fs7.ps1:8",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-bmbook15-ave-fs7.ps1:9",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    },
+    {
+      "coordinate": "16c-saga9705-ra-z55in.ps1:4",
+      "sources": [
+        "batch28-completed-history-index.json"
+      ]
+    }
+  ],
+  "reviewedAt": "2026-08-01",
+  "schemaVersion": 1,
+  "status": "ready",
+  "summary": {
+    "blankColumnRows": 18,
+    "candidateFiles": 8,
+    "candidateGroups": 8,
+    "categoryRows": {
+      "batch56-exact-disposable-phrase-recurrences": 18
+    },
+    "detectorAcceptedRows": 18,
+    "detectorRows": 76,
+    "evidenceRows": 18,
+    "parseFailures": 21,
+    "priorAcceptExtensions": 18,
+    "priorRetainSupersessions": 14,
+    "retainedDetectorRows": 58
+  }
+}

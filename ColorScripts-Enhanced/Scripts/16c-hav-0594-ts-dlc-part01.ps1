@@ -1,13 +1,4 @@
-﻿# Converted from: TS-DLC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hav-0594/raw/TS-DLC.ANS
-# Source Revision: archive-sha256:1d2eec2ab9921d52acd53b3b0e670f7d60e818766fc731641d7032ae0ff12d14
-# Source SHA-256: 2f3812bc1619468d7a26c7e5d4312e7eac7fae92fd0288f08e3ec28ef93abc70
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-DLC.ANS by The Stalker (hav-0594); released in hav-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: TS-DLC.ANS by The Stalker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hav-0594-ts-dlc-part01
 
 Write-Host '
 [1m████████████████████████████████████████████████████████████████████████████████[0m

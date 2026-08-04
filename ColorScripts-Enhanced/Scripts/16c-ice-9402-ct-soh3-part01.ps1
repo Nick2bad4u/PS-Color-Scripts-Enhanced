@@ -1,13 +1,4 @@
-﻿# Converted from: CT-SOH3.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9402/raw/CT-SOH3.ICE
-# Source Revision: archive-sha256:542a55b371fcf2e1b6ce730207fe668cc74b9fc898d3341dc11812e6d7a4ac5c
-# Source SHA-256: 6939ab5af4fde209880b6efcb14c3800a1328609db1319c0aa989fb80c19eb68
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CT-SOH3.ICE by Cephalon Tsurphr (ice-9402); released in ice-9402 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: CT-SOH3.ICE by Cephalon Tsurphr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9402-ct-soh3-part01
 
 Write-Host '
 [1;30m ──────────────────────────────────────────────────────────────────────────────[0m

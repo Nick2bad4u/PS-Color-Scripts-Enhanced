@@ -1,19 +1,4 @@
-﻿# Converted from: tk-pipilangkous.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel28/raw/tk-pipilangkous.ans
-# Source Revision: archive-sha256:f19d9f1f4d98a894d9a58a43443858287108d50e702695e0859df539776cf44a
-# Source SHA-256: c2eca57a70859d96831b2135cb9770bde61b673857ac258da1b5ac5e94f9bbc7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tk-pipilangkous.ans by The Knight (Fuel); released in fuel28 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Pipi Langkous
-# SAUCE Author: The Knight
-# SAUCE Group: Fuel
-# SAUCE Date: 20181031
-# SAUCE Dimensions: 80x222
-# SAUCE Font: IBM VGA
-# Lines: 136-179
-# Columns: 1-80
+﻿# Artwork: Pipi Langkous by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel28-tk-pipilangkous-part04
 
 Write-Host '
 [1;31;47m░░▒▒▓▓[0;1;31;40m██[0;1;31;43m▓▒[0;33m▌[0;1;31m █[0;1;31;47m▓▓▒▒▒▒▓▓[0;1;31;40m█[0;1;31;43m█▓▓▒▒▒▓▓[0;1;31;40m█████████████▌[0;1;37;40m▐[0m█▌ [1;31;47m▓[0;1;31;40m▌[0m  [1;31m  ▄    ▀[0;1;31;43m▒[0;33m▌[0;36m [0;1;30m█████████▌[0;1;37m▐[0m█[36m [0;1;30m████[0m

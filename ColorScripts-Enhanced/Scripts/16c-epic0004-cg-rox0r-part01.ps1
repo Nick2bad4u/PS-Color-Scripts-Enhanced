@@ -1,18 +1,4 @@
-﻿# Converted from: CG-ROX0R.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/epic0004/raw/CG-ROX0R.ANS
-# Source Revision: archive-sha256:c75b9e867fa35125e489436a8824c556bb5ed530e56134a70eaa34a6b213a513
-# Source SHA-256: 668fa9c968a23f39561ccf38ea8fa3a8f3564b9e83f7de0da0c6188491d71143
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-ROX0R.ANS by Cryogenic (EPiC); released in epic0004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Logo / 25liner Colly
-# SAUCE Author: Cryogenic
-# SAUCE Group: EPiC
-# SAUCE Date: 19991025
-# SAUCE Dimensions: 80x103
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Logo / 25liner Colly by Cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-epic0004-cg-rox0r-part01
 
 Write-Host '
 [1;34;44m█▀[0;34m▀[0;31m ▄[0;33;41m▄██▄[0;31;40m█████[0;33;41m▀▀█[0;1;31;43m▀▀[0;1;31;47m▄▓[0;1;31;43m▀░[0;33;41m█[0;1;33;41m░░░[0;1;31;43m [0;33m▄[0;37m  [0;1;34;44m▄█[0;1;37;44m░░[0;1;34;40m▓[0;34m▀[0;37m [0;34m░[0;30;44m▓[0;37;40m  cryogenic[0;1;30;40m<[0mepic[1;30m> ░░░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: OM-90.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tlyx-01/raw/OM-90.ANS
-# Source Revision: archive-sha256:0aaa019b0cc03774266a75f56965f846b967e04bb2a77c96da7de25b8a5bb42a
-# Source SHA-256: 03a7af4a3a6d5363786f4d1e1d424986c50a36512edaf3ed714dd81210e27a42
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OM-90.ANS by Otium Man (tlyx-01); released in tlyx-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: OM-90.ANS by Otium Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tlyx-01-om-90
 
 Write-Host '
                                                                [1;30m;[0m

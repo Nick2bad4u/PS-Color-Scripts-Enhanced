@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-NFO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lure001/raw/AVG-NFO1.ANS
-# Source Revision: archive-sha256:4bd385abce2c9c5a8caaface84fa74809f8b3dae67f2f4374e4664550d5af3bf
-# Source SHA-256: 9d1144870183e76fd89912bbf2e2326aaedd9ca2eb3201ee4735a7c42e2e506a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-NFO1.ANS by avenging angel (lure bitch); released in lure001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: neverfall emag
-# SAUCE Author: avenging angel
-# SAUCE Group: lure bitch
-# SAUCE Date: 20010728
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: neverfall emag by avenging angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lure001-avg-nfo1
 
 Write-Host '
                                                                            [33m     [0m

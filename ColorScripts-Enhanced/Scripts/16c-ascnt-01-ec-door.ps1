@@ -1,18 +1,4 @@
-﻿# Converted from: EC-DOOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ascnt-01/raw/EC-DOOR.ANS
-# Source Revision: archive-sha256:3bdf8229aa519ad1025b75a48c0784037de8a99980400cee57d5562e91942b95
-# Source SHA-256: d27c615a14548423d41d99a90a7d47ae276f90a47ad2e0abb3d8234c0d716cba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EC-DOOR.ANS by eclipse (ascent); released in ascnt-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: door
-# SAUCE Author: eclipse
-# SAUCE Group: ascent
-# SAUCE Date: 19961019
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: door by eclipse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ascnt-01-ec-door
 
 Write-Host '
                                    [34m▄[0m      [34m▀[0m       [34m▄[0m

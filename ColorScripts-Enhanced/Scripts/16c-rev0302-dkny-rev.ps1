@@ -1,18 +1,4 @@
-﻿# Converted from: DKNY-REV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0302/raw/DKNY-REV.ANS
-# Source Revision: archive-sha256:7b2619e0400d7382d19d38767873337eae71942dd319abc1998c71f4a968776f
-# Source SHA-256: be54e3316d6e50b5b30428dfcbd04a601abb059a6eeaf10d7bb0516881df494c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DKNY-REV.ANS by davek (Revival 2002); released in rev0302 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Ansi Revival
-# SAUCE Author: davek
-# SAUCE Group: Revival 2002
-# SAUCE Date: 20020314
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Ansi Revival by davek | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0302-dkny-rev
 
 Write-Host '
          [1;34m▄█[0;1;34;46m███[0;1;34;40m▄[0m   [1;34m▄▄▄[0m           [1;34m▄▄██▄▄[0m                             [31m▄▄▄ [0m

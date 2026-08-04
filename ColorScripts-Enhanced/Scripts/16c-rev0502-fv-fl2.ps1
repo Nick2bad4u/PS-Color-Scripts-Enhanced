@@ -1,18 +1,4 @@
-﻿# Converted from: FV-FL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0502/raw/FV-FL2.ANS
-# Source Revision: archive-sha256:98bfa3cc78c733050b0c647e7e0271e7623e3c31e4f40f218a00b89b2165c771
-# Source SHA-256: 9f0885808202f344bcc01be271be925ac31723e386fc17beb6fdd1ea5fc33dd4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-FL2.ANS by fever (revival); released in rev0502 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fubar
-# SAUCE Author: fever
-# SAUCE Group: revival
-# SAUCE Date: 20020515
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: fubar by fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0502-fv-fl2
 
 Write-Host '
 [1;31;47m ▀[0;1;31;44m▄[0;30;44m▀[0;37;40m [0;1;31;44m▐[0;1;31;47m [0;1;31;44m█▀[0;30;44m▄[0;37;40m  [0;30;44m▀[0;1;31;40m▄▄▄▄[0;30;44m▀[0;37;40m [0;32;40m▀[0;1;36;42m▀██[0;1;33;40m███[0;1;36;42m████████▀[0;1;36;40m▀▀▀[0;32m▀[0m   [1;36m▄▄[0;32m▄[0m

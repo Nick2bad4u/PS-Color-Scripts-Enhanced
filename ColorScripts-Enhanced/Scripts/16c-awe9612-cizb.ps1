@@ -1,18 +1,4 @@
-﻿# Converted from: %@-CIZB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9612/raw/%25%40-CIZB.ANS
-# Source Revision: archive-sha256:7053afed6e742c75d943ea86bb6e43e9d362e1c6f64e894c811e4835a8b40e13
-# Source SHA-256: 48defab6457e13f4706b197cdd2f16446885f0a4e83453bed4dd10603e84cc8f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: %@-CIZB.ANS by Circus Freak (AWE Lettering); released in awe9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: City Iz Burning
-# SAUCE Author: Circus Freak
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961201
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: City Iz Burning by Circus Freak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9612-cizb
 
 Write-Host '
 

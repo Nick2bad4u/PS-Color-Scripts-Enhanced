@@ -1,13 +1,4 @@
-﻿# Converted from: HT-8-94.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bli-0994/raw/HT-8-94.ANS
-# Source Revision: archive-sha256:e8a8a0a380e95ad8e079e29454639fb3744fea62262aae646675cdc56210b17e
-# Source SHA-256: ae6dbdc8b5c0d3b76d8d94f1cdda0e86ca3a6ccd569e57569950ae933c0c335c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HT-8-94.ANS by Hunter (bli-0994); released in bli-0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: HT-8-94.ANS by Hunter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bli-0994-ht-8-94-part01
 
 Write-Host '
 

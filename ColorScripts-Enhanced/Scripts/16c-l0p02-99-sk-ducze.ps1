@@ -1,18 +1,4 @@
-﻿# Converted from: SK!DUCZE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p02_99/raw/SK!DUCZE.ANS
-# Source Revision: archive-sha256:10e8790d701c5f14493ca780325e973c002fb27f7959b877e5afeecab9308b89
-# Source SHA-256: b4afcdced7f512ce61c08e2eca11a2170a446ff7addba24383e8f36ce8ef5031
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!DUCZE.ANS by sIMONkING (tHElo0p); released in l0p02_99 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: dUCZE - old sql 2
-# SAUCE Author: sIMONkING
-# SAUCE Group: tHElo0p
-# SAUCE Date: 19990424
-# SAUCE Dimensions: 80x46
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: dUCZE - old sql 2 by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p02-99-sk-ducze
 
 Write-Host '
 [1;34m▀▀[0;1;34;44m▓[0;1;34;40m█[0;1;34;47m█▓█▓████▓▓▓▓▓▓[0;1;34;44m▓▓▓▓▓[0;1;34;40m█[0;1;34;44m▓▓▓[0;1;34;40m█[0;1;34;44m▓[0;1;34;40m█[0;1;34;44m▓▓▓▓▓▓▒▒[0;34m▀▀[0;1;37m▄[0m▄▄▄[34m▀▀▀[0;1;34;44m▒▒▒░░░[0;1;34;40m [0m▀[44m▒▒▒░░░[0;34;40m██▀[0;1;34;40m [0;1;34;44m░[0;34m▓[0;1;34;44m░░░░[0;34m▓▓▓▓▓▒▒░[0;1;34m [0m

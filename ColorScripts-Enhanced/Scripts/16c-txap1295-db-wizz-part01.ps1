@@ -1,18 +1,4 @@
-﻿# Converted from: DB-WIZZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/txap1295/raw/DB-WIZZ.ANS
-# Source Revision: archive-sha256:dc71cf55cbdf7fde73950945ebb926b5876dd134141fa77c0e8bc418c3fb235a
-# Source SHA-256: e3124baea52897a983e0d0287fbc7581330da06910948f96a23574f715dff807
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DB-WIZZ.ANS by [DiRT BAG] ([TX?]); released in txap1295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Wizzard!
-# SAUCE Author: [DiRT BAG]
-# SAUCE Group: [TX?]
-# SAUCE Date: 19951205
-# SAUCE Dimensions: 80x85
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Wizzard! by [DiRT BAG] | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-txap1295-db-wizz-part01
 
 Write-Host '
     ▀█▄▄▄▄██▀ ██▄        ▄██        ███▄▄ ▐▄██████▄ ▄███████▄[1;30m                  [0m

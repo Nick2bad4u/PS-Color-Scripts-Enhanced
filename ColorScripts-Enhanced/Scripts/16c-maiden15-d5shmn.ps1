@@ -1,18 +1,4 @@
-﻿# Converted from: D5SHMN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden15/raw/D5SHMN.ANS
-# Source Revision: archive-sha256:9d31e45f48599318bcc19e5993ceea8ca5caccf3f774679ac18f812be66ff0b5
-# Source SHA-256: 21f635bd7136325cd8300a220466b3d13c5d680bec252d13806c7d12753aa402
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D5SHMN.ANS by deadskin (maiden15); released in maiden15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: moveoverletittakeover
-# SAUCE Author: deadskin
-# SAUCE Group: ..
-# SAUCE Date: 19980206
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: moveoverletittakeover by deadskin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden15-d5shmn
 
 Write-Host '
 [1m..[0m   [1m  [0m     [1m..[0m      [1m [0m [1m.[0m      [1m.[0m  [1m░░··[0muse a mirror    [1;30m^eye· ∙.[0m ▄▄[1;30m▄[0m [1;30m^  ^^[0m  [1;30m.∙·.    [0m

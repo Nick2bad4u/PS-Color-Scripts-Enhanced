@@ -1,13 +1,4 @@
-﻿# Converted from: Q.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/elp-0297/raw/Q.ANS
-# Source Revision: archive-sha256:cbfe67d5b5cc14151f562d333d3d551e0ee4047e81092f281544109eea01c6c2
-# Source SHA-256: b90ba710acbdbdf82893ba033101554f1caeb8f8957b9bfd82c516b63b71e0b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Q.ANS by Mako (elp-0297); released in elp-0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Q.ANS by Mako | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-elp-0297-q
 
 Write-Host '
 [1;30mC A L L   N [0;35m▄▄[0;1;32;45m▄▄▄▄▄[0;32;45m▄[0;1;32;45m▄[0;32;45m▄▄[0;35;40m▄▄ [0;1;30;40mN O W . C A L L   N O W . C A L L   N O W . C A L L :[0m

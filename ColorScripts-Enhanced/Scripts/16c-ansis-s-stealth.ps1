@@ -1,13 +1,4 @@
-﻿# Converted from: STEALTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-s/raw/STEALTH.ANS
-# Source Revision: archive-sha256:f5b906b1b2f4c4b2f03b968c4046b0dbf0579b48e3c5507b7af96d4f1084fa2f
-# Source SHA-256: a4d916842470b37000d36d6f5dafd2a8db2f70e7120f7d6797f64cd323954be4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STEALTH.ANS by Plasma (ansis-s); released in ansis-s and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: STEALTH.ANS by Plasma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-s-stealth
 
 Write-Host '
                                  [1;30m▄████[0;1;30;47m███[0;1;30;40m████▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: EX-AMBER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0394/raw/EX-AMBER.ANS
-# Source Revision: archive-sha256:7805df52925a98aad31489bafc7cabadb416309b42badbbd7aa9aecbdec2b1cf
-# Source SHA-256: 91ecf47c2c7ba6e7fc72b29fd6d58819107d71c5eacdfb4fdaf7677a230690db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EX-AMBER.ANS by Exile (ACiD Productions); released in acdu0394 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Amber
-# SAUCE Author: Exile
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940301
-# SAUCE Dimensions: 80x115
-# Lines: 79-115
-# Columns: 1-80
+﻿# Artwork: Amber by Exile | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0394-ex-amber-part03
 
 Write-Host '
 ▄▀▀▄██  [1;30m█[0m       [1;30m░  ░▒▓█▌  ▄▀▀[0m                                             [1;30m█ ░ ▒[0m

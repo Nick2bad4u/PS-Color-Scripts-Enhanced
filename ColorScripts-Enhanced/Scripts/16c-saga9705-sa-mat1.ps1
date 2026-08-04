@@ -1,18 +1,4 @@
-﻿# Converted from: SA-MAT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/saga9705/raw/SA-MAT1.ANS
-# Source Revision: archive-sha256:9950004e76ea5c0e6c27ac92b1d4c958f7cea833041843273d527effb62ad1ee
-# Source SHA-256: 83cd31a09476739741c117a05e0073096268cb4f178c11e405626e8bc035c532
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SA-MAT1.ANS by Samnesia (Saga); released in saga9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Matrix
-# SAUCE Author: Samnesia
-# SAUCE Group: Saga
-# SAUCE Date: 19970520
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Matrix by Samnesia | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-saga9705-sa-mat1
 
 Write-Host '
 [33m [0;37m [0;33m█[0;1;31;43m▀░[0;33m▀▀[0;1;31;43m░▒▓▀▀▓▀▀▀▀▀▀▀▀[0;1;31;40m████████[0;1;31;43m▀▀▀░[0;33m▀▀▀[0;1;31m▀▀▀▀▀▀▀▀[0;33m▀[0;1;31;43m▄▄▄▄[0;33m█▄▄[0m   [35m    [0m     [1;30m    [0m

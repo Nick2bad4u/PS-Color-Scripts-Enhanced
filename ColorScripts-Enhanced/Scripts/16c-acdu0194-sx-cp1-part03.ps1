@@ -1,13 +1,4 @@
-﻿# Converted from: SX-CP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0194/raw/SX-CP1.ANS
-# Source Revision: archive-sha256:a43017ca40212af646d7cc19e6ecf01d326ebec184a5046d2c7f67040ece2aa4
-# Source SHA-256: 75765f2fb3a9587b269b7495fa5451972e263399e423939e082d93d7083735e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SX-CP1.ANS by Sushi X (acdu0194); released in acdu0194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 85-125
-# Columns: 1-80
+﻿# Artwork: SX-CP1.ANS by Sushi X | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0194-sx-cp1-part03
 
 Write-Host '
 [1;34;40m▄ ▀    [0;34m▀    [0;1;34m▀▄▄[0m            [34m▄▄ ▀ [0;1;34m▄[0;34m▀[0m      [34m█[0m            [34m▄▀ ▄▄▀▀▀[0;1;34m▀▄▄    [0;1;34;44m▓[0m [31m▀███████[0;1;30;41m░[0m

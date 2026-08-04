@@ -1,18 +1,4 @@
-﻿# Converted from: AC-COI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shv-0595/raw/AC-COI.ANS
-# Source Revision: archive-sha256:82fe2913421f037d08041cae82983960f00d748b889c6356f72c6026b00a0a26
-# Source SHA-256: 28323dc3aa76e7fc7fcecfd96fde42907d5ed773180d847db61120ac094cec0b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AC-COI.ANS by Achilles (Shiver); released in shv-0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Couriers of Information
-# SAUCE Author: Achilles
-# SAUCE Group: Shiver
-# SAUCE Date: 19950403
-# SAUCE Dimensions: 80x25
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Couriers of Information by Achilles | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shv-0595-ac-coi-part01
 
 Write-Host '
 [1;35;45m█▓▒░[0;35m██[0;1;35;45m▄▄[0;35m█▀██▀▀ ▀ ▀▀▀ [0;37m░ [0;35m▀   ▀[0m        [1;30m▄▀▄[0m                                    [35m█[0;1;30;45m▓▒[0m

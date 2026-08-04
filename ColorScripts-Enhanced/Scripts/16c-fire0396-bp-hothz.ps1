@@ -1,18 +1,4 @@
-﻿# Converted from: BP-HOTHZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0396/raw/BP-HOTHZ.ANS
-# Source Revision: archive-sha256:1c74698b6bb36c67ca170e4e3759a91f94a3423157bd644c80d820a8fe56fd8d
-# Source SHA-256: 3b1408d2e059e513d5b208b526f10e54e853041da8c193d99ebbeef65898ea46
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BP-HOTHZ.ANS by Bigge Pif (fire); released in fire0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: House of the Holy
-# SAUCE Author: Bigge Pif
-# SAUCE Group: fire
-# SAUCE Date: 19960225
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: House of the Holy by Bigge Pif | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0396-bp-hothz
 
 Write-Host '
 [1;30m[0m

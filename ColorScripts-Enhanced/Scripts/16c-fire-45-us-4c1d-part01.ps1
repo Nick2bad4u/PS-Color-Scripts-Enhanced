@@ -1,19 +1,4 @@
-﻿# Converted from: US-4C1D.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-45/raw/US-4C1D.ANS
-# Source Revision: archive-sha256:0564021806e0277d72a0e235c044a0e0470226ba860a8976e1e3092326555d1d
-# Source SHA-256: 8c782c8615f85c2a64b9553354d4cecd86868f9f0f52996bba2be827e0f6164d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-4C1D.ANS by Tainted + Aesthetic (fire); released in fire-45 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: acid forever
-# SAUCE Author: tainted/aesthetic
-# SAUCE Group: fire
-# SAUCE Date: 20260303
-# SAUCE Dimensions: 80x281
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: acid forever by Tainted + Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-45-us-4c1d-part01
 
 Write-Host '
 [1;30m[0m[1;30m[0m[1;30m[0m[1m[0m[1m[0;1;30m[0m

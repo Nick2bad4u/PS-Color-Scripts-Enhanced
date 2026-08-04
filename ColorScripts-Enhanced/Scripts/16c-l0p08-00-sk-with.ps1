@@ -1,18 +1,4 @@
-﻿# Converted from: SK!WITH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p08_00/raw/SK!WITH.ANS
-# Source Revision: archive-sha256:c48d6493211ddcf5227b96c5ea77ae60179d7914cadcefed09d2598d7ff23517
-# Source SHA-256: f5e274a33846d50b78ede6c6ccab20cc56c8023bc9f1645962cb3de54c27687a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!WITH.ANS by sIMONkING (tHElo0p); released in l0p08_00 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: wITH
-# SAUCE Author: sIMONkING
-# SAUCE Group: tHElo0p
-# SAUCE Date: 20000821
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: wITH by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p08-00-sk-with
 
 Write-Host '
                                              [1;30m   [0m [1;30m▄[0m

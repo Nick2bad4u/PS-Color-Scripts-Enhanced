@@ -1,18 +1,4 @@
-﻿# Converted from: BH-UNI1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rvl-0496/raw/BH-UNI1.ANS
-# Source Revision: archive-sha256:fb85f10f863b19a0a085090f27d02dccac53bd566d5aec26206bd955b2a7fcd8
-# Source SHA-256: 469038758a202a3fd8c30f51945d8950163a76c693a536af50ec92509f4ac32b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BH-UNI1.ANS by Blenderhead (Rival); released in rvl-0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: UNiON R.I.P. (damitol to hell)
-# SAUCE Author: Blenderhead
-# SAUCE Group: Rival
-# SAUCE Date: 19960131
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: UNiON R.I.P. (damitol to hell) by Blenderhead | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rvl-0496-bh-uni1
 
 Write-Host '
 [1;34;44m█▓▀▀[0;34m█[0;1;34;44m▀▀[0;34m██[0;1;34;44m▀[0;34m███████▀▀[0;1;34;44m░[0;34m█████████████████[0;1;34;44m░[0;34m▀▀  ▀▀█████████████[0;1;34;44m░[0;34m▀▀   ▀▀█████[0;1;34;44m▀░[0;34m█[0;1;34;44m▀▀[0;34m█[0;1;34;44m▀▀██[0m

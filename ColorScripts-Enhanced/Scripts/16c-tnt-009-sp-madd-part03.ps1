@@ -1,13 +1,4 @@
-﻿# Converted from: sp!-madd.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tnt-009/raw/sp!-madd.ans
-# Source Revision: archive-sha256:4d2e0521333de177726affff82e474509b25a1223425505aac445bc894496220
-# Source SHA-256: 9d6534e1fc6b3793fcc20d7e9587c9b9f5f218bc60770686df141c224d72c614
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sp!-madd.ans by Skypager (tnt-009); released in tnt-009 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 81-120
-# Columns: 1-80
+﻿# Artwork: sp!-madd.ans by Skypager | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tnt-009-sp-madd-part03
 
 Write-Host '
 [32m▌[0;37m [0;32m ▄[0;37m  [0;1;30m  ▀[0m               [1;34m▄[0;34m▄[0;37m   [0;1;37m▀[0;1;37;47m░[0;1;30;40m▌[0m [36m ▐▀[0m        [37m▄[0;1;37;47m▓▒░[0m▀     [1;30m▀[0m [1;30m█▄[0m     [33m   ▀▄ [0;37m ▄  [0;36m ■[0;37m [0;1;33m▀▄[0m

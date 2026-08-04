@@ -1,13 +1,4 @@
-﻿# Converted from: KK-TGMAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thst995a/raw/KK-TGMAD.ANS
-# Source Revision: archive-sha256:99fdeaae8a530fd5d02841ab58ea673bd295ce46b88d323c93f266729bea4197
-# Source SHA-256: e32010f059a84eeae6a79ffe0e12cf2ab65e2c9b43fb7358ce0382873f7c86a9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KK-TGMAD.ANS by Kamikaze (thst995a); released in thst995a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: KK-TGMAD.ANS by Kamikaze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thst995a-kk-tgmad
 
 Write-Host '
   [1;30m▄▄ ▓▄▄▄  ▄▄▄▄  ▄▄▄▓  ▓▄ ▄ ▄ ▄▄▓ ▄▄▄[0m       [33m▄▄▓▄▄■▄ ▓ ■▄[0m       [33m▓▀■  ▄■[0m

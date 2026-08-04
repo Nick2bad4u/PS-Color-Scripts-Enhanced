@@ -1,18 +1,4 @@
-﻿# Converted from: X&S-REAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-22/raw/X%26S-REAL.ANS
-# Source Revision: archive-sha256:16aa2f98eae3bd2cb4059b97f89789b4644f7ff4634a1175c89967184c88c518
-# Source SHA-256: a0dff3af722f473fa9bfdcb0af13031b82a17d15b5220c0b40ebb9cba2c5f63d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: X&S-REAL.ANS by Xkeys + Sketch Rimanez (secular); released in sclr-22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: real artist
-# SAUCE Author: xkeys&sketch
-# SAUCE Group: secular
-# SAUCE Date: 20010930
-# SAUCE Dimensions: 80x49
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: real artist by Xkeys + Sketch Rimanez | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-22-x-s-real
 
 Write-Host '
 

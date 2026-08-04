@@ -1,18 +1,4 @@
-﻿# Converted from: VLD-E66M.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-16/raw/VLD-E66M.ANS
-# Source Revision: archive-sha256:c00416c7ddf398f58bbf4e903903b01262636f611404ac6c0f665b0399f0a726
-# Source SHA-256: ecd7974a969069a320a2031f16588a6f0494ba4d1c72a686078c0ec219b26869
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VLD-E66M.ANS by velodrome (ecolove); released in eco-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: exotic66 matrix
-# SAUCE Author: velodrome
-# SAUCE Group: ecolove
-# SAUCE Date: 19990822
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: exotic66 matrix by velodrome | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-16-vld-e66m
 
 Write-Host '
 [1;34;44m  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  [0;34m█▌[0;37m [0;31m▐[0;1;31;41m▐█[0;1;31;47m▓[0;1;31;41m█▀[0;31m█▌ █[0;1;31;41m ▐█████▀[0;31m█[0;30;47m█[0;1;30;40m▄█[0;1;30;43m▓▒░[0;1;31;43m░░░▒▒▓▒░░░░[0;33m██[0;1;30;43m░▓█[0;1;30;40m▌[0;31m▐[0;1;31;41m▐██▌[0;31m█ ▐[0;1;31;41m▐███▌[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: WS-ODIU1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-04/raw/WS-ODIU1.ANS
-# Source Revision: archive-sha256:8dc8586a37ce2081b7e99529b7087f421e6ff8d5ba2d146ef1d30bd490016720
-# Source SHA-256: 4c9b1300cf2996e9a3eef3036594d36b694efaff407952590232b6af9599cb26
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WS-ODIU1.ANS by whitesnake (odium); released in odium-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: odium promo
-# SAUCE Author: whitesnake
-# SAUCE Group: odium
-# SAUCE Date: 19960217
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: odium promo by whitesnake | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-04-ws-odiu1
 
 Write-Host '
             [34m■▄ ░▄█▄░▄▄▓▀ ▄█████▀▓▄■[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: (A)TRIP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0497/raw/(A)TRIP.ANS
-# Source Revision: archive-sha256:ac23f379eb24f5f6ad8faa432723caa3c85fc7d4fc380b1d3e101e8eb50ca483
-# Source SHA-256: ddeeeacb527d694d73dc69ecbc845089d39e304a81f8e1ccf3d56bb26e52552c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: (A)TRIP.ANS by al3cs (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: trip reset
-# SAUCE Author: al3cs
-# SAUCE Group: phat studios '97
-# SAUCE Date: 19970330
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: trip reset by al3cs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0497-a-trip
 
 Write-Host '
 [34m░░▄▄▌███[0;1;34;44m▄▄▌▄[0;34m▌[0;1;34;44m█▄▌▄▐███▀[0;34m▀▀   ▄▄▄▄[0;1;34;44m▄▄▐██▀▀[0;34m▀▀▀    ▀▌[0m

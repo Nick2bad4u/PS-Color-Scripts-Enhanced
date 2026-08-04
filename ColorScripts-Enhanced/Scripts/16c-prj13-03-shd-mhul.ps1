@@ -1,17 +1,4 @@
-﻿# Converted from: shd-mhul.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/prj13-03/raw/shd-mhul.ans
-# Source Revision: archive-sha256:7d8351efb23241201ebe3e6a3305391aa78ef158db7a8abbdfc7402d603f525d
-# Source SHA-256: 6774bbba6019e2c94787383f4db8992b7441275c285ea3325e01db4666da7572
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: shd-mhul.ans by Shadow (Project 13 / Just-X); released in prj13-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Mental Home UnLimited logo
-# SAUCE Author: Shadow
-# SAUCE Group: Project 13 / Just-X
-# SAUCE Font: empathy by skaboy
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Mental Home UnLimited logo by Shadow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-prj13-03-shd-mhul
 
 Write-Host '
 [37;40m                                                                                [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PNK-SPNK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz06may/raw/PNK-SPNK.ANS
-# Source Revision: archive-sha256:1ae2be5748106937cd6f4a9b876b344db035c3534c8d6472ca3ea1eb05f03cc5
-# Source SHA-256: 585c48b6ebbb66c967c3c0bde837681c6ad961cb12733b8620dba43d8bd7540f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PNK-SPNK.ANS by phanatik (lazarus); released in laz06may and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: spank crazed
-# SAUCE Author: phanatik
-# SAUCE Group: lazarus
-# SAUCE Date: 19970508
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: spank crazed by phanatik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz06may-pnk-spnk
 
 Write-Host '
 [1m[0m    [33m▄[0;30;43m░[0;33;40m▀[0;1;33;40m▀█[0;1;33;47m▄[0m▄[1;33m [0;1;30m/[0;1;33m     [0m        ░[30;47m▓[0m

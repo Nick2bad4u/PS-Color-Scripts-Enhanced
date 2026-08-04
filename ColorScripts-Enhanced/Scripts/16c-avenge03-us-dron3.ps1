@@ -1,13 +1,4 @@
-﻿# Converted from: US-DRON3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge03/raw/US-DRON3.ANS
-# Source Revision: archive-sha256:b53dd4509a562cc71a73a559baa7e13eeefa1cf193e827eee6178c14e3bd46f3
-# Source SHA-256: 865c9cde3cec715ec1210e866e3091653a49dd081f2cb61d9789002acd07f8df
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DRON3.ANS by Sudden Death + Ball Tongue (avenge03); released in avenge03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: US-DRON3.ANS by Sudden Death + Ball Tongue | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge03-us-dron3
 
 Write-Host '
 [30;47msd&bt(Avenge Cult)[0;37;40m██████[0;1;30;47m░░░▒▓[0;31m █[0;1;31;41m░[0;31m▀[0;1;31;41m░▒░[0;31m█[0;1;30m [0;1;30;44m▒▓[0;1;30;40m▄▀  █▀[0;31m▄[0;1;31;41m░[0;31m▀[0;1;36m [0;1;30;44m▒▓[0;1;30;40m█  ▄[0;1;30;44m▓▒[0;1;30;40m▀▀[0;31m▄▄ [0;1;37m        [0;1;30m▄▄     ▀[0m

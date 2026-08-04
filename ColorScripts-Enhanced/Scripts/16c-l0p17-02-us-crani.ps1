@@ -1,18 +1,4 @@
-﻿# Converted from: US-CRANI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p17_02/raw/US-CRANI.ANS
-# Source Revision: archive-sha256:35450330febdb2d142f3176c2d3c105d1528c0f63626f757e43b302b4869a22a
-# Source SHA-256: d627a2c313ea61068873b9458d626c12d7601963fc558b8dcaf034daca00e8a5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CRANI.ANS by Ceelow + Simonking (thelo0p); released in l0p17_02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: cRANIVAL
-# SAUCE Author: ceelow^simonking
-# SAUCE Group: thelo0p
-# SAUCE Date: 20020908
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: cRANIVAL by Ceelow + Simonking | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p17-02-us-crani
 
 Write-Host '
 

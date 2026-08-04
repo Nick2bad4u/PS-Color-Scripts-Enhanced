@@ -1,18 +1,4 @@
-﻿# Converted from: BW_PHAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0997/raw/BW_PHAT.ANS
-# Source Revision: archive-sha256:7c9b6e5a1bf85f5dceb70dad3a430f8a984427653988f85df1c8489157fd2d25
-# Source SHA-256: 635d891bec611f99f55384cd18680a1c953cf2e035ba870c926f5d6a9e04b454
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BW_PHAT.ANS by black weasel (Phat Studios '97); released in phat0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: panic goodbye
-# SAUCE Author: black weasel
-# SAUCE Group: Phat Studios '97
-# SAUCE Date: 19970729
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: panic goodbye by black weasel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0997-bw-phat
 
 Write-Host '
               [31m▄▄[0;1;31;41m▄▄▄[0;1;31;47m▄░▓[0;1;31;41m░ [0;31m██[0;1;31;41m░░[0;31m▀▀▀[0;1;34m [0m           [32m▄[0;1;32;42m▄▄░[0;32m▄[0;34m▀[0;1;34;44m  [0;34m▄[0m

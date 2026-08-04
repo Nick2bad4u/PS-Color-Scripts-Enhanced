@@ -1,13 +1,4 @@
-﻿# Converted from: Z3DFUNKY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0597/raw/Z3DFUNKY.ANS
-# Source Revision: archive-sha256:100499c687593fd78c29adf06f5899e8c0d61223958e380a9c31aadb955ab06d
-# Source SHA-256: 037af65a20681cf6e44e6f43ce17b4ff4b2841c2d13cd0b62eba056f344d94f3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Z3DFUNKY.ANS by Zendel (fsn-0597); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Z3DFUNKY.ANS by Zendel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0597-z3dfunky
 
 Write-Host '
 [33m░▒▒▓▓▓▓███[0;1;31;43m▄▄▄▄▄[0;33m███[0;1;31;43m▄[0;33m██[0;1;31;43m░░[0;33m██████[0;1;31;43m▀▀▀[0;33m████████[0;1;31;43m▄▄▄[0;33m███[0;1;31;43m▄▄▄▄▄[0;33m█[0;1;31;43m░░[0;33m████     [0;1;30m░░[0;33m  ▀▀█████▓▓▒▒░░[0m

@@ -1,20 +1,4 @@
-﻿# Converted from: LDA-ISTHIS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0825/raw/LDA-ISTHIS.ANS
-# Source Revision: archive-sha256:49331eb27fa9f0b490c7413cfb3b6b2936349729c82cc09427da321b5265ed99
-# Source SHA-256: 09c2121a6472bfeb53b76ee263bb7876b527862d952c1c9407130fbc73aa62fe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LDA-ISTHIS.ANS by LDA (Mistigris); released in mist0825 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Is this ANSI?
-# SAUCE Author: LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20250831
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Meme from The Brave Fighter of Sun Fighbird, Season 1, Episode 3
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Is this ANSI? by LDA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0825-lda-isthis
 
 Write-Host '
 ██████████████████ [1m██[0m              [1m█[0m        [1m▀▀▀▀▀█▌ ██▌[0m█████████████████████████

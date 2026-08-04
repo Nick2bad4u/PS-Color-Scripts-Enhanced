@@ -1,18 +1,4 @@
-﻿# Converted from: SL-TO2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rune0896/raw/SL-TO2.ANS
-# Source Revision: archive-sha256:a41a6fd18e5a57ea19659d03cc5ff527cec9b4701f346aaff2f3d3658fc2ad09
-# Source SHA-256: 6b581051aa28d261621e5b70739dac0063acda462c75adfda06bee747cf7de9e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SL-TO2.ANS by sinful! (rune!); released in rune0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 2nd pic.. total ad!
-# SAUCE Author: sinful!
-# SAUCE Group: rune!
-# SAUCE Date: 19960709
-# SAUCE Dimensions: 80x31
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: 2nd pic.. total ad! by sinful! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rune0896-sl-to2
 
 Write-Host '
 [1;33m█[0;1;37m███[0;1;33m█████████████[0;1;33;47m▓░[0m▌[34m▐███████████████████████████████████████████████████████████[0m

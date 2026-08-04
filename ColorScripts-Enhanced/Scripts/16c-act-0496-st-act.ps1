@@ -1,13 +1,4 @@
-﻿# Converted from: ST-ACT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/act-0496/raw/ST-ACT.ANS
-# Source Revision: archive-sha256:ba95533c0b6a530f3833df2b79e25f188960432a4e38622a7ba932fb42d819c9
-# Source SHA-256: 83e024eadf779785aeb6e420e0a148906791c4570469efc34cdd696b04d09f6d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-ACT.ANS by Steel (act-0496); released in act-0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: ST-ACT.ANS by Steel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-act-0496-st-act
 
 Write-Host '
      [1;30m▒[0;1;37;47m░[0m           [1;47m░[0m           [1;47m░[0m           [31;45m░[0m       [1;37;47m░[0m         [1;30m▒ [0;34m▄[0;1;30;44m▒[0;31;45m░[0;1;30;44m░[0;34m▄▄▄▄ [0;1;30m░[0m      [1;30m░[0m

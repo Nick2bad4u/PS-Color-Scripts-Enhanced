@@ -1,19 +1,4 @@
-﻿# Converted from: ak-xenium.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz16/raw/ak-xenium.ans
-# Source Revision: archive-sha256:b093dd3cb06bf783d59a9df3724c51f9a41f686cd4fd545c920ada008d959f7a
-# Source SHA-256: 85f4169bc152c9a24905bc14c01599332682a36cbbbac572e868f6e7ca740818
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ak-xenium.ans by abstrakt (lazarus); released in laz16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: xenium 2022
-# SAUCE Author: abstrakt
-# SAUCE Group: lazarus
-# SAUCE Date: 20221020
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: xenium 2022 by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz16-ak-xenium
 
 Write-Host '
 [33md[0;1;33m$[0;33mP` ./`   [0;31m./[0;1;31m#\.[0m

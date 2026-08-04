@@ -1,18 +1,4 @@
-﻿# Converted from: FJ_WAWO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl-gong/raw/FJ_WAWO.ANS
-# Source Revision: archive-sha256:c90e04c94a395e53e928512945d220d1fff4c215b177bbe4ea888b6b9ab8350e
-# Source SHA-256: b680ddb6c5d6a1841de14c364a745ea460c3557cd82d995e32ad2b7984d3972d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FJ_WAWO.ANS by Fastjack (boil); released in bl-gong and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Sonic's Waterworld
-# SAUCE Author: Fastjack
-# SAUCE Group: boil
-# SAUCE Date: 19970401
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: Sonic's Waterworld by Fastjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-gong-fj-wawo
 
 Write-Host '
                           [31;44m░[0m            [1;30;40m [0m [1;30m [0m

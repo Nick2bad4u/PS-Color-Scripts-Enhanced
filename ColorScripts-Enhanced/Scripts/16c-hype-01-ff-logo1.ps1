@@ -1,17 +1,4 @@
-﻿# Converted from: FF-LOGO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-01/raw/FF-LOGO1.ANS
-# Source Revision: archive-sha256:426dbb36b724e33c2040ddd8594afb85cb1f6463b96a01a2c52ed58e8dd1db9c
-# Source SHA-256: 5629ebb286695fe5dcbb94bbefeaf7141aad1c07298128bbada2cce65fa43c85
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FF-LOGO1.ANS by Free Fall (Hype.produktions); released in hype-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Hype.promo.logo.1
-# SAUCE Author: Free Fall
-# SAUCE Group: Hype.produktions
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Hype.promo.logo.1 by Free Fall | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-01-ff-logo1
 
 Write-Host '
 [1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0m                                [36m░░[0;37m  [0;36m░░[0;37m  [0;36m░░[0m

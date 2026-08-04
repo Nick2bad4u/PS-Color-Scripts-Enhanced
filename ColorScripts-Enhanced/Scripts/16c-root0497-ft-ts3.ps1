@@ -1,18 +1,4 @@
-﻿# Converted from: FT-TS3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0497/raw/FT-TS3.ANS
-# Source Revision: archive-sha256:73d4445ab8a07d3fe160d256052163ed66b2081a0bebb59b18ae9b36e30223e0
-# Source SHA-256: efe27c39ddece6310e1ebfc634387743553bded69b94aa4ff007dd741d33f629
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FT-TS3.ANS by Flight (Root); released in root0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Source ... hmm
-# SAUCE Author: Flight
-# SAUCE Group: Root
-# SAUCE Date: 19970330
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: The Source ... hmm by Flight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0497-ft-ts3
 
 Write-Host '
                                    [31m▄▄▄[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-CAP2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0624/raw/ZII-CAP2.ANS
-# Source Revision: archive-sha256:7e2642f67629daefe8d04ebedd2e233be2e8a74b2dea50eb02da49be24298927
-# Source SHA-256: 9ec1eded12ee4e740fb02965381435bd12a06bed44b67d5cc7f7581b2d878d16
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-CAP2.ANS by Zeus II (Mistigris); released in mist0624 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Captain's Quarters II
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20240627
-# SAUCE Dimensions: 80x145
-# SAUCE Font: IBM VGA
-# Lines: 132-142
-# Columns: 1-80
+﻿# Artwork: Captain's Quarters II by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0624-zii-cap2-part09
 
 Write-Host '
 [34m▀▀[0;1;34m▀▀[0;34m▀▀[0;31m [0;34m▀[0;1;34m▀[0;34m▀[0;31m [0;34m▀ [0;31m▄█▀▀█▄ ▄█▀▀█▄ ██▀▀█▄ █▀[0;35;41m░[0;31;40m█▀█ ▄█▀▀█▄ ██ █▌  ██ █ ▄█▀▀█▄ [0;34;40m▀[0;1;34;40m▀[0;34m▀[0;31m  [0;34m▀[0;1;34m▀▀[0;34m▀▀[0m

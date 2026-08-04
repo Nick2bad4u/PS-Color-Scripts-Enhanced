@@ -1,18 +1,4 @@
-﻿# Converted from: TK-CHILL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cow-1/raw/TK-CHILL.ANS
-# Source Revision: raw-sha256:0f85715346ba4a302829eb5581d37bda1ffb7c4a4a909fdc45865a2968d78168
-# Source SHA-256: 0f85715346ba4a302829eb5581d37bda1ffb7c4a4a909fdc45865a2968d78168
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TK-CHILL.ANS by The Knight (CoW); released in cow-1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Chillout Zone logon
-# SAUCE Author: The Knight
-# SAUCE Group: CoW
-# SAUCE Date: 19950831
-# SAUCE Dimensions: 80x148
-# Lines: 101-148
-# Columns: 1-80
+﻿# Artwork: Chillout Zone logon by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cow-1-tk-chill-part03
 
 Write-Host '
 [31m███▀░▒▓█████▀▀[0m                                                            [31m▀█████[0m

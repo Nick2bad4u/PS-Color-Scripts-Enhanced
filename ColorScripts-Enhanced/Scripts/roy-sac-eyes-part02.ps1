@@ -1,18 +1,4 @@
-﻿# Converted from: ROY-EYES.ANS
-# Source encoding: CP437
-# Source URL: https://www.roysac.com/images/galleries/ZIP/Roy_ANSI.ZIP
-# Source Revision: archive-sha256:8598a9432b4feb86c4e79552795b407b9d7c576fb6f25e9828d6143f1c7b35bc
-# Source SHA-256: 43f4af4b7b3b7f17e4064f40f4fa557b85c67474a05bea50c07cac4c73673a18
-# Source License: FAL-1.3
-# Source Attribution: ROY-EYES.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
-# SAUCE Title: Eyes
-# SAUCE Author: Roy
-# SAUCE Group: SAC
-# SAUCE Date: 20150901
-# SAUCE Dimensions: 80x85
-# Lines: 44-85
-# Columns: 1-80
+﻿# Artwork: Eyes by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-eyes-part02
 
 Write-Host '
             [1;30;40m░░░░░▒▒▒▓▓ [0m█[1;47m▀█[0;1;40m██████████[0;1;47m█[0;1;40m████[0;1;47m██▄[0;1;34;47m▀[0;1;37;47m░[0m█[1;47m ▐[0;1;40m█████████[0;1;47m█▄▄▓▒[0;1;34;47m▄▄▒[0;1;37;47m▀█[0;1;37;40m███[0m█

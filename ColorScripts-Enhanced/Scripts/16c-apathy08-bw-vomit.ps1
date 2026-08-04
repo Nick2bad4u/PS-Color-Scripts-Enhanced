@@ -1,18 +1,4 @@
-﻿# Converted from: BW-VOMIT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy08/raw/BW-VOMIT.ANS
-# Source Revision: archive-sha256:dddbecd097515d8bc284ea8726046b80b56f2576fe024d98d7a392e98f8d9a1f
-# Source SHA-256: be85c89f5917132380a120f54ca8035c8eee36aaf86a8a5f60c5d082b5163ea1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BW-VOMIT.ANS by Balls wILSON (Apathy); released in apathy08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Vomitorium
-# SAUCE Author: Balls wILSON
-# SAUCE Group: Apathy
-# SAUCE Date: 19960316
-# SAUCE Dimensions: 80x25
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Vomitorium by Balls wILSON | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy08-bw-vomit
 
 Write-Host '
        [1m▄[0m     [1m▀▀█▄[0;1;30m [0m    [1m▄▄███▄[0m  [1;30m                                                  [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MC!JAPAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-06/raw/MC!JAPAN.ANS
-# Source Revision: archive-sha256:4c9f598b864a923147eb394591cb120a43a087e70e3844ab4ff73e06903fa178
-# Source SHA-256: d68a26b776457684847da9a7b874887f97a8f5cc4c416d69f441d75d22203dc6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MC!JAPAN.ANS by Madcap (D38); released in d38-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Crap mini
-# SAUCE Author: Madcap
-# SAUCE Group: D38
-# SAUCE Date: 73450507
-# SAUCE Dimensions: 80x25
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Crap mini by Madcap | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-06-mc-japan
 
 Write-Host '
 [31m▄▄▄▄  ■▄▄    ▀▀███▓▀▄███████▌▐███▀[0m      [31m▐▄  ▀▓▌  ▀█▌ ▌▄  ▀[0m▐█ [31m▐████▌███▌ ▀▀  ▄▄[0m

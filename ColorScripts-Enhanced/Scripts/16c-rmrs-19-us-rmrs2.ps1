@@ -1,18 +1,4 @@
-﻿# Converted from: US-RMRS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-19/raw/US-RMRS2.ANS
-# Source Revision: archive-sha256:51e7ebafde7b29c06daae7a5ae4da992f41728aec84b8b28502f57cce3cd0f9a
-# Source SHA-256: 70c04a4d36cdd9754e16b1dc14ddbf427a1d19ba171ad19b608480eba1ca8768
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-RMRS2.ANS by Anxiety + The Upright Man (Remorse Productions); released in rmrs-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Remorse
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Remorse Productions
-# SAUCE Date: 19980104
-# SAUCE Dimensions: 80x25
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Remorse by Anxiety + The Upright Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-19-us-rmrs2
 
 Write-Host '
 [1;30m  [0;1;31m     [0;1;30m [0;1;31m    [0;1;30m   [0;1;31m     [0;33m  [0;1;30m [0;33m     [0;1;31m     [0;33m    [0;1;35m       ┘ [0;35m   [0;1;35;45m░[0;35m   [0;1;35;45m▒▒[0;35m         [0;1;35m    ┘   [0m

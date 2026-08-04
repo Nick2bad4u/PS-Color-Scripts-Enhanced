@@ -1,19 +1,4 @@
-﻿# Converted from: H7-FTEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-46/raw/H7-FTEL.ANS
-# Source Revision: archive-sha256:32c189dd42ed53f66ce0b86a88ea8027caddc32faf4da7cee2e674d9223cb9f4
-# Source SHA-256: cb969eb45c6e1d8c79427aaedec5b642f005dcccd7560ae1f00598b58f739756
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: H7-FTEL.ANS by H7 (Fire); released in fire-46 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fTELNET
-# SAUCE Author: H7
-# SAUCE Group: Fire
-# SAUCE Date: 20260707
-# SAUCE Dimensions: 80x18
-# SAUCE Font: IBM VGA
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: fTELNET by H7 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-46-h7-ftel
 
 Write-Host '
 

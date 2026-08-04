@@ -1,18 +1,4 @@
-﻿# Converted from: BP-ROC01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roc-1295/raw/BP-ROC01.ANS
-# Source Revision: archive-sha256:435b12f0b103f4945e424868578c877f7bd56818bb509ee35e6283e1bcaf0e1e
-# Source SHA-256: f343262dc1d798cc062ca3999453522be94d56e4fcb8a9eac820831b56585bfe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BP-ROC01.ANS by Blood Priest (ROC); released in roc-1295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ROC & RAT!
-# SAUCE Author: Blood Priest
-# SAUCE Group: ROC
-# SAUCE Date: 19951126
-# SAUCE Dimensions: 80x76
-# Lines: 39-76
-# Columns: 1-80
+﻿# Artwork: ROC & RAT! by Blood Priest | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roc-1295-bp-roc01-part02
 
 Write-Host '
 [37m█[0;1;37;47m░█▄▒░░░░░░[0m███████ [1;30;47m▒░[0m█[1;30;47m░[0m [1;30m▀▀▀▀▀▀▀ [0m▄███[1;30;47m░[0m██[1;30;47m [0m███[1;30;47m░[0m ████████████[1;47m░▒▒▓[0m██[32m▀[0m

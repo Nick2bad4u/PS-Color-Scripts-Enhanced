@@ -1,13 +1,4 @@
-﻿# Converted from: PILOT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1990/raw/PILOT.ANS
-# Source Revision: archive-sha256:08ccf16537b7ec6a49d988d666ab246efafa48facbb3ef7beef1662a9cba1cc2
-# Source SHA-256: 6ad0da609edebec56e067b410d3d6280293e456c8504e4a881395adacebb8942
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PILOT.ANS by Ansi-Mation (1990); released in 1990 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: PILOT.ANS by Ansi-Mation | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1990-pilot
 
 Write-Host '
 [1;41m [0;35;41m▄█[0;1;35;45m▄▄▄▄[0;35;41m█      [0;35;45m [0;1;35;46m████[0;1;35;45m [0;1;35;41m        [0;31m▀[0;1;37m▄██████████████████████████████████████▄[0;31m▀█[0;35;41m▀█[0;1;35;45m▀▀[0;1;35;41m███[0;1;35;45m▒[0m

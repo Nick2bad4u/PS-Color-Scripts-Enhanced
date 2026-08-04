@@ -1,18 +1,4 @@
-﻿# Converted from: MX-ARTW2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ega-one/raw/MX-ARTW2.ANS
-# Source Revision: archive-sha256:6a85c974a9d93a6c5723067b661851124ae90b1e81eb1a1d35a289b0099b8ffc
-# Source SHA-256: 12d684d5a6886f2a4e2857890f3491d31778c454f9cf30da3fbbc7cdef639aeb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MX-ARTW2.ANS by matrix (EGArtists); released in ega-one and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: artworks header
-# SAUCE Author: matrix
-# SAUCE Group: EGArtists
-# SAUCE Date: 19960912
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: artworks header by matrix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ega-one-mx-artw2
 
 Write-Host '
 

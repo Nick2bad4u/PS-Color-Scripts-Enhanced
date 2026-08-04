@@ -1,18 +1,4 @@
-﻿# Converted from: CC-WYR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icon1296/raw/CC-WYR.ANS
-# Source Revision: archive-sha256:3688a1ee6f390cf67760e1cdab248545e127f29abb4572eff437ff7725092965
-# Source SHA-256: 8832dfb91c2de844e99f34414474f4098eac37de163d5d00524239e7585fe917
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CC-WYR.ANS by chronicc (icon); released in icon1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: weyr
-# SAUCE Author: chronicc
-# SAUCE Group: icon
-# SAUCE Date: 19961110
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: weyr by chronicc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icon1296-cc-wyr
 
 Write-Host '
                                                         [1;33m   [0m

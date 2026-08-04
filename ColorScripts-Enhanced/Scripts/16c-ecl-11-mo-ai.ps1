@@ -1,17 +1,4 @@
-﻿# Converted from: MO-AI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-11/raw/MO-AI.ANS
-# Source Revision: archive-sha256:124f5de71b4943d1edf363ae27ec83def11b741938d7ad78955f12dc3ea0753e
-# Source SHA-256: 94be89807ec6f7e8a3f1f573bd59dfb09baea5604e0c3f3a15301a4cbc62f915
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MO-AI.ANS by mOOGY bOOGY (eck-eck); released in ecl-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: hot brazilian at MY house, slut! =)
-# SAUCE Author: mOOGY bOOGY
-# SAUCE Group: eck-eck
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: hot brazilian at MY house, slut! =) by mOOGY bOOGY | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-11-mo-ai
 
 Write-Host '
                     [1;30m▄[0m

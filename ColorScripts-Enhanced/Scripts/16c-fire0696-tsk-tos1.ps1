@@ -1,18 +1,4 @@
-﻿# Converted from: TSK-TOS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0696/raw/TSK-TOS1.ANS
-# Source Revision: archive-sha256:812b4b6a142b76b92307dc090cdf58b49035a2b9097d1dc0a43da5e4fd3f4f2d
-# Source SHA-256: ead30ba7e3e6514d7fdb75426d1029f2d3ad8e795f6614b49789d54a8e871723
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-TOS1.ANS by The Silent Killer (fire); released in fire0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Other Side
-# SAUCE Author: The Silent Killer
-# SAUCE Group: fire
-# SAUCE Date: 19960601
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: The Other Side by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0696-tsk-tos1
 
 Write-Host '
 [1m[0;1;33m[0;1;32m[0m                                                           [1;34m▄▄▄▄▄[0;34m [0m

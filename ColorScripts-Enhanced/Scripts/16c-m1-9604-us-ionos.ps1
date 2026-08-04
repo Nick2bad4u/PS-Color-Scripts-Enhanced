@@ -1,13 +1,4 @@
-﻿# Converted from: US-IONOS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m1-9604/raw/US-IONOS.ANS
-# Source Revision: archive-sha256:ae84f916465c0ebdf01b9aa95a9e1e7b961c299453d74f815510b1681189d13e
-# Source SHA-256: 96cc07f5230df19ff00ba637c186fd7134dfcf38608b0f8b33e2d24199a43b76
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-IONOS.ANS by Tang + Murcurochrome (m1-9604); released in m1-9604 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: US-IONOS.ANS by Tang + Murcurochrome | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m1-9604-us-ionos
 
 Write-Host '
                                  [1m▄ ▄▄▓ ▄▓▄ ▄▄▄ ▄▄▄▄▄▄▄ ■ ▄▄▄▄ ▄▄ ▄ ▄[0;1;47m▓[0;1;40m▄ ▄[0m

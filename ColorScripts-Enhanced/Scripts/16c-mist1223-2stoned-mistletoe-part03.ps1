@@ -1,18 +1,4 @@
-﻿# Converted from: 2STONED-MISTLETOE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1223/raw/2STONED-MISTLETOE.ANS
-# Source Revision: archive-sha256:86d02e5103ccb7950792473f0c3e4ca18e595c9011c06df5ce1fe1692dbd9f5a
-# Source SHA-256: 1156df85d891a4a1df3d5c64aea898fe57798dd6b209e42b292c47c004d735b7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2STONED-MISTLETOE.ANS by 2Stoned (mist1223); released in mist1223 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Season's Greetings
-# SAUCE Author: 2Stoned
-# SAUCE Date: 20231218
-# SAUCE Dimensions: 80x107
-# SAUCE Font: IBM VGA
-# Lines: 72-106
-# Columns: 1-80
+﻿# Artwork: Season's Greetings by 2Stoned | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1223-2stoned-mistletoe-part03
 
 Write-Host '
 [37;40m [0;32;40m██████████████[0;37;42m▄▄▀[0;32;40m██[0;37;42m▄▀[0;37;40m█[0;37;42m▀[0;32;40m█[0;37;40m██[0;32;47m▄▀[0;37;40m███████[0;32;40m█[0;32;47m▄[0;37;40m████[0;32;47m▄[0;32;40m█[0;37;40m███████[0;32;47m▀▄[0;37;40m██[0;32;40m█[0;37;42m▀[0;37;40m█[0;37;42m▀▄[0;32;40m██[0;37;42m▀▄▄[0;32;40m██████████████[0m

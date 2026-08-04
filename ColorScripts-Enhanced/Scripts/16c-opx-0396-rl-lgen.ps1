@@ -1,18 +1,4 @@
-﻿# Converted from: RL-ÄLGEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0396/raw/RL-%C3%84LGEN.ANS
-# Source Revision: archive-sha256:8cd29f20ca0e9cb17c1100c76cb617825c92262f6ff8862ed793e9086f6dea43
-# Source SHA-256: 581675149592177e84403e2943fa027fdeec98201fbc549c9c4c29cd771d86a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL-ÄLGEN.ANS by Rawlock (Opium); released in opx-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ?lg City
-# SAUCE Author: Rawlock
-# SAUCE Group: Opium
-# SAUCE Date: 19960226
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ?lg City by Rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0396-rl-lgen
 
 Write-Host '
 

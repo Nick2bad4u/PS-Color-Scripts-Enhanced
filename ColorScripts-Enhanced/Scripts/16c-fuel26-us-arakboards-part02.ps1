@@ -1,19 +1,4 @@
-﻿# Converted from: us-arakboards.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel26/raw/us-arakboards.ans
-# Source Revision: archive-sha256:d10918a36531171a7bd7de77ac2a92891100e4055d3be9227ebf98ff3c0d1cc3
-# Source SHA-256: 28a1665ad1888ad39b5c51d399c370bb83f251aa0a0369f6699730684e66d71a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-arakboards.ans by The Knight + Nail (Fuel + blocktronics); released in fuel26 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ArakNet
-# SAUCE Author: The Knight + nail
-# SAUCE Group: Fuel + blocktronics
-# SAUCE Date: 20180409
-# SAUCE Dimensions: 80x83
-# SAUCE Font: IBM VGA
-# Lines: 43-83
-# Columns: 1-80
+﻿# Artwork: ArakNet by The Knight + Nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel26-us-arakboards-part02
 
 Write-Host '
 [1;30m░ [0;31m▀[0;1;31m▒[0;1;31;41m▓[0;31m█▄[0;1;31m [0;1;30m ▀█▄ [0m [31m▀[0;1;31;41m░[0;31m█▌[0;1;31m [0;1;30m█[0;1;30;47m▓▀░▄[0;1;30;40m▀▀▀▀█▄▀█▄ ▀▀[0;1;30;47m▓▓[0;30m██[0;1;30;47m▓▓▓[0;30m██[0;37m█[0;1;30;47m▓▓▄[0m▀[1;30m▀▄███▄▄[0m▄▄[1;30m▄[0;1;30;47m▓▓▄[0;1;30;40m▀[0;31m ▄█[0;1;31;41m░░[0;31m▀▓▓ ▀▀▀[0m

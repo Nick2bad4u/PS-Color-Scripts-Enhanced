@@ -1,18 +1,4 @@
-﻿# Converted from: TG-01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rags2r2a/raw/TG-01.ANS
-# Source Revision: archive-sha256:b6fe4ad2710b940b9fc065cc3d8845bc48a34f58dd8c5b1b55d6bd7f8162e058
-# Source SHA-256: 448e787a6efd048a2b5e02c7aabd4239ac252cc4d4b635417f9c7ad65a61241e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-01.ANS by TG (.rAGS 2 rICHES.); released in rags2r2a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: "Toon Goon ... rAG nUMBAH 0NE?"
-# SAUCE Author: TG
-# SAUCE Group: .rAGS 2 rICHES.
-# SAUCE Date: 19970629
-# SAUCE Dimensions: 80x49
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: "Toon Goon ... rAG nUMBAH 0NE?" by TG | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rags2r2a-tg-01
 
 Write-Host '
 [1;30m██▓▓▒▒░ ░[0m                                      [34m▄█▄[0m                      [1;30m░░▒▒▓▓██[0m

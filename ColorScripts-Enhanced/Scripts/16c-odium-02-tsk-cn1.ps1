@@ -1,18 +1,4 @@
-﻿# Converted from: TSK-CN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-02/raw/TSK-CN1.ANS
-# Source Revision: archive-sha256:47a67f112d88796e8c1419ea3c6c084684ff2719dfc540b2668a69dc0343be0d
-# Source SHA-256: c8534685b48250e9550022aa20c8f17977dfe1fb1efc9882343a784b3cbce566
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-CN1.ANS by the silent killer (odium); released in odium-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: cloud nine
-# SAUCE Author: the silent killer
-# SAUCE Group: odium
-# SAUCE Date: 19951230
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: cloud nine by the silent killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-02-tsk-cn1
 
 Write-Host '
 

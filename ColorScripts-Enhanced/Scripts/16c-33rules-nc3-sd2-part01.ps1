@@ -1,18 +1,4 @@
-﻿# Converted from: NC3-SD2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/33rules/raw/NC3-SD2.ANS
-# Source Revision: archive-sha256:6cf2aef8e3ca97e1761e1ee4a8ba395e4fdab4dec9d3b2efb91c059359b50b00
-# Source SHA-256: aac052e924703f6c24b72ac5bf596e6df0a6589aca8a5a64487ebd3a8361aa9c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NC3-SD2.ANS by Eerie + Neurotic (Neurotic/Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Snake's Domain [j]
-# SAUCE Author: Fire 10/95
-# SAUCE Group: Neurotic/Eerie
-# SAUCE Date: 19951004
-# SAUCE Dimensions: 80x206
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: Snake's Domain [j] by Eerie + Neurotic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-33rules-nc3-sd2-part01
 
 Write-Host '
 [1m[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: REIGN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-r/raw/REIGN.ANS
-# Source Revision: archive-sha256:6ccc513881ee556deba815b03462e68349fdbb0c1b5a70f45984bb59666af905
-# Source SHA-256: 0ecdcaf7bbc4ca416a00b1fb205c2c6ddb81a6a46810131dab9a80a93e9da026
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: REIGN.ANS by Slum Dweller (ansis-r); released in ansis-r and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: REIGN.ANS by Slum Dweller | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-r-reign-part01
 
 Write-Host '
                       [33m▄ [0;37m▄▄▓▓▓▒▒░█████▀▀▀▄▄▄████████████▀▀▀[0m

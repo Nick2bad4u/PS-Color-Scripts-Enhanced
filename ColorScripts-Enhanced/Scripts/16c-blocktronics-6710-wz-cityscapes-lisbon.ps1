@@ -1,19 +1,4 @@
-﻿# Converted from: WZ - Cityscapes - Lisbon.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-6710/raw/WZ%20-%20Cityscapes%20-%20Lisbon.ans
-# Source Revision: archive-sha256:65fe9e2a2e2016f30e4b0141be2d1472e9b7cc814d922f9663e0d0a04142d70a
-# Source SHA-256: 8d18d4ba0b634f531066329d4c0f921136a0eac63a935cd8fa69413f473942d5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WZ - Cityscapes - Lisbon.ans by Whazzit (Blocktronics); released in blocktronics-6710 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Lisbon
-# SAUCE Author: Whazzit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20180804
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Lisbon by Whazzit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-6710-wz-cityscapes-lisbon
 
 Write-Host '
 [1;34;40m████▌[0m▌[1;34m███████████████████████████▀▀[0;30;47m▀[0;37;40m▓[0;1;37;40m [0m▓▓▌[1m▌▌▌█████▀▀[0m   [30;47m▀▀▄▄[0;37;40m▄▄█▀▌[0;30;43m    ▐[0;1;37;40m█▄▄▐▀▀▀[0;1;33;40m [0;30;43m▀▀[0;1;33;43m▒▒[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: SH-VICE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vpr-0595/raw/SH-VICE2.ANS
-# Source Revision: archive-sha256:e7ca167fec7db80634597c5fb694c98a3122c03e3e0fff7b2103ffede629f335
-# Source SHA-256: 95d0bc53cc25a964bc348406eaddebfd8057be1cabd85b6e7d78635f4e91a1c7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SH-VICE2.ANS by Shattershot (Vapor); released in vpr-0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ::Vice Versa::
-# SAUCE Author: Shattershot
-# SAUCE Group: Vapor
-# SAUCE Date: 20950507
-# Lines: 38-81
-# Columns: 1-80
+﻿# Artwork: ::Vice Versa:: by Shattershot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vpr-0595-sh-vice2-part02
 
 Write-Host '
 [34;40m█▄ [0;32;40m▀[0;1;32;42m░▓[0;32m▓ [0;1;32;42m░░░[0;32m▄▄ ▄[0m       [1;30m▐█▓▌  [0m▓[1;47m░[0m▄       █       [32m▄▄▄▄ ▄█[0;1;33;42m■[0m [32m▓▌[0;34m▐[0;37;44m▒▓▒ [0;34;40m████▓███[0;34;44m [0;34;40m▓ █▓█████[0m

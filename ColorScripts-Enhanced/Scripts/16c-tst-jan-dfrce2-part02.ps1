@@ -1,19 +1,4 @@
-﻿# Converted from: DFRCE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tst-jan/raw/DFRCE2.ANS
-# Source Revision: archive-sha256:70517452b012cc02f326f50c14d94d2116f9e70f9e965e85651c5cc729e22d1a
-# Source SHA-256: 9fe177e474935ea966600f286bdae46420ea36703741b24d046d62fc278d8484
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DFRCE2.ANS by SeNaToR (-= TST / TDF =-); released in tst-jan and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Da DaRk HaND
-# SAUCE Author: SeNaToR
-# SAUCE Group: -= TST / TDF =-
-# SAUCE Date: 19941223
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: no cmment :-)
-# Lines: 46-87
-# Columns: 1-80
+﻿# Artwork: Da DaRk HaND by SeNaToR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tst-jan-dfrce2-part02
 
 Write-Host '
              [1;30m█▀▀▀[0;1;37m█▀[0;1;37;47m▓▒[0m▄  [1;30m█▀▀▀[0;1;37m█▀[0;1;37;47m▒▓[0;1;37;40m▄  [0;1;30;40m█▀▀▀[0;1;37;40m█▀[0;1;37;47m▒▓[0;1;37;40m▄  [0;1;30;40m█▀▀▀[0;1;37;40m█▀[0;1;37;47m▓▒[0m▄  [1;30m█▀▀▀[0;1;37m█▀[0;1;37;47m▓▒[0m▄

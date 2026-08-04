@@ -1,18 +1,4 @@
-﻿# Converted from: TX-D23.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-10/raw/TX-D23.ANS
-# Source Revision: archive-sha256:6734a0716f5363aecb5b8387359a704e7e1a498f17ee632abf4e9ca947f0336d
-# Source SHA-256: c39f7a1c63ce04a974a98a1e2869820a52258578a14bcc7224fdf209f543080c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TX-D23.ANS by toons xilion (eclipse); released in ecl-10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the RELIC
-# SAUCE Author: toons xilion
-# SAUCE Group: eclipse
-# SAUCE Date: 19961230
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: the RELIC by toons xilion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-10-tx-d23
 
 Write-Host '
 ▀▀ [33m▄▄▄▄█▓▄▓█▓▀▀▀▀▀[0m      [1;37m▄█▀  ▓░[0m     [1m▀▀▓▄  ██▀[0m         [33m▐[0;1;33;43m░░[0m░███▓█[1;47m▄▄███████████▓▓▓[0;1;37;47m█[0m

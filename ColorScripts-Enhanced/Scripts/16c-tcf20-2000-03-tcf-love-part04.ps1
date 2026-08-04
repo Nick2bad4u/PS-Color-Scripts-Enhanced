@@ -1,13 +1,4 @@
-﻿# Converted from: 2000 - 03 - tcf-love.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tcf20/raw/2000%20-%2003%20-%20tcf-love.ans
-# Source Revision: archive-sha256:af8609219fccc484668fb405a7f1d45efb8c574501a461c5c1b47d87a12921ce
-# Source SHA-256: bb798c3f1fab38f29225968925c044a019cedcbda0417ebaee5e0ac0b1046e87
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2000 - 03 - tcf-love.ans by The Creep Fever (tcf20); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 116-151
-# Columns: 1-80
+﻿# Artwork: 2000 - 03 - tcf-love.ans by The Creep Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tcf20-2000-03-tcf-love-part04
 
 Write-Host '
 [1;31m████████[0;1;31;43m█▀[0;33m█░[0;1;31m [0;1;31;43m ▐[0;1;31;40m██████[0;1;31;43m██[0;1;31;47m▓▓▓▓▓█[0;1;31;40m██[0;1;31;47m▌▌[0;1;31;40m████████[0;33m▓[0;1;31m   [0;30;43m▀[0;1;31;43m   [0;30;43m▄▄▄ [0;1;31;43m [0;33m█[0;37m [0;1;36m▄[0m▄[1;31m▐█▌[0m [1;36m▄[0m [1;36m▓[0m▄  [30;47m [0;1;36;40m▀▀▀▀▄[0m    ▀[1;36m▀[0m

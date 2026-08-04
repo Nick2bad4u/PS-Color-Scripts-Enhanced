@@ -1,13 +1,4 @@
-﻿# Converted from: US-FOS1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9801a/raw/US-FOS1.ICE
-# Source Revision: archive-sha256:668d3c9117cb91cc635a09caaaafa810c6106235d8b9c5326ff97c37042fce96
-# Source SHA-256: 3a60d3025b9830e61203b5b1432c18c96c9a79a71be82516395bdb8bb1925b1d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FOS1.ICE by Squidgalator2 + Tetanus (ice9801a); released in ice9801a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: US-FOS1.ICE by Squidgalator2 + Tetanus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9801a-us-fos1
 
 Write-Host '
 [31m▒░░░ [0;32m▐▄ [0;31m▀▀▓[0;1;31;41m [0m [31m▐▓░░ [0;32m▄▓[0;1;32;42m▄▌[0m [31m▐███▀ [0;32m▄[0;1;32;42m░░[0;32m█▀░[0;31m▐[0;1;31;41m░[0;31m█▓▓▓▓▒▒░▐[0;1;31;41m▒▒░░░[0;31m▌ ▀▓▓▓▒▒░▒▒▒▓▓▓░░░  ▄▄▄[0;1;31;41m░░[0;31m███[0m

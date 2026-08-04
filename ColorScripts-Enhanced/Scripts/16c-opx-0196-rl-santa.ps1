@@ -1,18 +1,4 @@
-﻿# Converted from: RL-SANTA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0196/raw/RL-SANTA.ANS
-# Source Revision: archive-sha256:b488878884154420cd3d4f315b5d1218512f30bbd731fa31bcae353756902b21
-# Source SHA-256: 7a18aa3ee94a24ec16832d964b3b13f07bdae5eadd1bc707b2549a916ea2884a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL-SANTA.ANS by Rawlock (Opium); released in opx-0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Santa Claus
-# SAUCE Author: Rawlock
-# SAUCE Group: Opium
-# SAUCE Date: 19951223
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Santa Claus by Rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0196-rl-santa
 
 Write-Host '
 [1;34;44m░  ░[0;34m█▀▀▀[0;31m▄▄▄▄██▓████[0;1;31;41m  [0;31m██████████▄▄▄[0;37m [0;31m▄▄▄▄▄▄▄[0;37m [0;34m▀[0;1;34m████████████▓█▓[0;1;34;44m▀[0;1;34;40m▀[0;1;33;40m [0m▄[1;33m▄▄▄█████████[0;1;33;47m▓[0;1;33;40m▄▄▄ [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: 33-FLUP2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/33rules/raw/33-FLUP2.ANS
-# Source Revision: archive-sha256:6cf2aef8e3ca97e1761e1ee4a8ba395e4fdab4dec9d3b2efb91c059359b50b00
-# Source SHA-256: 48d59db0f693e4c957d877e27a8136433ba0e5648665fcbd94a865b3ae41579b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-FLUP2.ANS by Rile 05/97 (Broken) (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fluph
-# SAUCE Author: Rile 05/97 (Broken)
-# SAUCE Group: Eerie
-# SAUCE Date: 19970513
-# SAUCE Dimensions: 80x25
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Fluph by Rile 05/97 (Broken) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-33rules-33-flup2-part01
 
 Write-Host '
                                       [31m███████████[0;31;41m     [0;30;41m                         [0m

@@ -1,17 +1,4 @@
-﻿# Converted from: FD-DAZME.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_09/raw/FD-DAZME.ANS
-# Source Revision: archive-sha256:c5cd33a328263069da0cd19f0b3fe2e4d6f041d2250819ad0b16ea4737718456
-# Source SHA-256: c278bb9d90d274a435843831b7f9358e936e151a5b96b1fdc91ca5af957e001a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FD-DAZME.ANS by Flood (dox_09); released in dox_09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: F for Flood
-# SAUCE Author: Flood
-# SAUCE Date: 19970516
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: F for Flood by Flood | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-09-fd-dazme
 
 Write-Host '
         [34m [0m                           [1;36m▄▄▄▄▄▄[0m        [34m▄▄▄▄▄▄▄▄▄▄▄▄[0m

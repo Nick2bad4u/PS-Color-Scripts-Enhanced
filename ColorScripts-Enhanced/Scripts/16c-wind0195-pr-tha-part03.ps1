@@ -1,18 +1,4 @@
-﻿# Converted from: PR-THA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wind0195/raw/PR-THA.ANS
-# Source Revision: archive-sha256:5b43f6b448165807ca10541f72295732684c4ffaba57fa200380cfc1d53164e9
-# Source SHA-256: c47b23cee36ff2dfedbddcf7bbe4ef4754936cceff8a5f33cdf1bb0162402630
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR-THA.ANS by Pr0phet (WiND `95); released in wind0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Heretic Asylum
-# SAUCE Author: Pr0phet
-# SAUCE Group: WiND `95
-# SAUCE Date: 19950101
-# SAUCE Dimensions: 80x25
-# Lines: 85-125
-# Columns: 1-80
+﻿# Artwork: The Heretic Asylum by Pr0phet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wind0195-pr-tha-part03
 
 Write-Host '
                           [1;30m█[0m        [1;30m█[0m     [1;30m█ █▀▀▀▀▀▀[0m

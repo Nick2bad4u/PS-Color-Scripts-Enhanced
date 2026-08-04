@@ -1,13 +1,4 @@
-﻿# Converted from: mp-green.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/labia314/raw/mp-green.ans
-# Source Revision: archive-sha256:704095869b71d0834bb8c83d90c0dddc7803f8a47b5046986cc14c14a7864134
-# Source SHA-256: 59a533affb4b7609c0580cd55f67f28a3236f79e3e84c6b3e89e96acbcb059b0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mp-green.ans by Meatpod (labia314); released in labia314 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: mp-green.ans by Meatpod | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-labia314-mp-green
 
 Write-Host '
      [32m.,┌┬┐,.[0;1;32m    [0m         [1;32m     [0m             [1;32m [0;1;30m    [0;1;32m   [0m    [1;32m [0;1;30m`````$$P*┴*?$$$$$$$$$$$;[0m

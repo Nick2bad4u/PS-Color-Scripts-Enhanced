@@ -1,13 +1,4 @@
-﻿# Converted from: US!IPC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mfl_pck3/raw/US!IPC.ANS
-# Source Revision: archive-sha256:f42142d9c16b6e6135cc0630a64feba2c7c0e924386b7077d738e709f4b74f43
-# Source SHA-256: bf910a5a485c8f8f56c1f7c9dd13a2fd7948995f1fa25cdee71187e7ffd832e8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US!IPC.ANS by Binar + Mist (mfl_pck3); released in mfl_pck3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: US!IPC.ANS by Binar + Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mfl-pck3-us-ipc
 
 Write-Host '
 [1;30m▓███████████████████████████████▀█▀▀▀[0m

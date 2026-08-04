@@ -1,17 +1,4 @@
-﻿# Converted from: BP-FOI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dvs-0395/raw/BP-FOI.ANS
-# Source Revision: archive-sha256:c49ad3c0e3e5b315095bd79d2ed76033b964bb7e984bcdece6d966635f27ad43
-# Source SHA-256: da1b023c4e17271bbd4515a589126d8c9482c4fa61b17d9b86f739daa71262f7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BP-FOI.ANS by Bigge Pif (DVS); released in dvs-0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Forest of Illusion ANSi
-# SAUCE Author: Bigge Pif
-# SAUCE Group: DVS
-# SAUCE Date: 20950225
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Forest of Illusion ANSi by Bigge Pif | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dvs-0395-bp-foi-part01
 
 Write-Host '
                                 [1;30m░[0m     [34m░ ░[0m

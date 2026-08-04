@@ -1,18 +1,4 @@
-﻿# Converted from: SS-RHMAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9411/raw/SS-RHMAT.ANS
-# Source Revision: archive-sha256:79cc4c8f449f9f4069fbe5b152a1416ccd968354ad63ab0dfce361f0f42f13a8
-# Source SHA-256: 4cb1b88a36b0b36f9f59293e6c706ae96ae8143bf1051b164921eb5805adeb26
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SS-RHMAT.ANS by Soul Seeker (Blade Productions); released in blde9411 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Ravenhill Matrix
-# SAUCE Author: Soul Seeker
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19941103
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Ravenhill Matrix by Soul Seeker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9411-ss-rhmat
 
 Write-Host '
 [1m [0;36m██▀▀[0;1;30m▄▄▀▀▀▀▀▀▀▀▀▀▄▄▄[0;36m▀██▀▀[0;1;30m▄▄▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄▄▄[0;36m▀▀▀▀███████████▀▀▀▀[0;1;30m▄▄▄▄▄▄▄▄▄▄[0m

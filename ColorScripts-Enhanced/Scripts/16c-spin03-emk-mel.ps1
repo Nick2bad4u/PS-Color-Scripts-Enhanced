@@ -1,17 +1,4 @@
-﻿# Converted from: EMK-MEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spin03/raw/EMK-MEL.ANS
-# Source Revision: archive-sha256:ded576726f5b403e4f7bf63316db54f0b3c8cdbd2a92c07d313ed1e69ff5c623
-# Source SHA-256: 4fcf43737b5397695a5a2eb89c436f948f3fc475063164e7c0c549b9fc04f917
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EMK-MEL.ANS by emok (spin); released in spin03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: emok
-# SAUCE Group: spin
-# SAUCE Date: 19981006
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: EMK-MEL.ANS by emok | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spin03-emk-mel
 
 Write-Host '
                                                                             emk

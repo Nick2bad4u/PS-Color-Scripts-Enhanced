@@ -1,13 +1,4 @@
-﻿# Converted from: CN-C0L0R.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tus-05/raw/CN-C0L0R.ANS
-# Source Revision: archive-sha256:986f1937ec6e5b109228fbbe378b228ec26f4944801472ad65a0c03345d8dc74
-# Source SHA-256: 6f0e143c04899b07a2b41b3203fa47b01fd389346ee0cac04adc3b4e3b4c3426
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CN-C0L0R.ANS by Cain (tus-05); released in tus-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: CN-C0L0R.ANS by Cain | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tus-05-cn-c0l0r
 
 Write-Host '
                  [36m$$$$$$$$$$$$$$$$$$P┘?$$$''[0;37m $ [0;36m$$$$$$$$$$$$$$[0m

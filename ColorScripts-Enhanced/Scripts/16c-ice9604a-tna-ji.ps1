@@ -1,13 +1,4 @@
-﻿# Converted from: TNA-JI.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9604a/raw/TNA-JI.ICE
-# Source Revision: archive-sha256:a8f8a3430f1223583f5ba829d23fcb523e4712909ac7211db98ebd0249624ef2
-# Source SHA-256: 524ffe58a341cba17b9366a2c4c3c8f81f48436fff807c8bedf14cc992629242
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-JI.ICE by The Night Angel (ice9604a); released in ice9604a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: TNA-JI.ICE by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9604a-tna-ji
 
 Write-Host '
 

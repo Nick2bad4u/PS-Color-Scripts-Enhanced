@@ -1,18 +1,4 @@
-﻿# Converted from: CG-FACE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-23/raw/CG-FACE.ANS
-# Source Revision: archive-sha256:f54958574841312d2cfb8b706a10ab98a217653ef5b490a16e29de1d333d41f9
-# Source SHA-256: 750d5bb64812d399004ffa8cbb0db89880367f82319a30470e867c54a28e7e35
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-FACE.ANS by cryogenic (force); released in force-23 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: matrix
-# SAUCE Author: cryogenic
-# SAUCE Group: force
-# SAUCE Date: 19980805
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: matrix by cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-23-cg-face
 
 Write-Host '
 [36m▐[0;1;36;46m▄[0;1;37;40m█[0;1;36;46m██▀▌░[0;1;30;46m▄[0;36m▀▀▀[0;1;30m▀[0m [1;30m▀[0m       [1m░░░░[0m                  [36m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;37;40m [0;1;30;40mcryo[0;36m ▀[0;1;36;46m▀█[0;1;37;40m██[0;1;36;46m▓[0;1;36;40m▓▓[0;1;36;46m▓░░░░[0;36m█[0;1;36m▓[0;1;36;46m█▓█[0;1;36;40m▓[0;1;36;46m▓░░░[0;36m█[0;30;46m░[0;36;40m▓[0m

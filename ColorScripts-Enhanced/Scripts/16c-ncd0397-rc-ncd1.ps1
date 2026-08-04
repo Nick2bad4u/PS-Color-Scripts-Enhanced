@@ -1,13 +1,4 @@
-﻿# Converted from: RC-NCD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ncd0397/raw/RC-NCD1.ANS
-# Source Revision: archive-sha256:279b79a24916a8da9fdbbf933292cd4026cd3832fca43ab7f735b3c3ea1fd603
-# Source SHA-256: b56196ab598573f959417cb98a06149540b55fca9363638b7672711f8b9c40af
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RC-NCD1.ANS by Reflect (ncd0397); released in ncd0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: RC-NCD1.ANS by Reflect | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ncd0397-rc-ncd1
 
 Write-Host '
 [1;30m.sS[0m$$$$$$SⁿⁿS$$$SⁿⁿⁿⁿS$$$$$$$$$$$$$$$$$$S²''ⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿ`²S$$$$$$$$$$$$$[1;36mSs.[0m

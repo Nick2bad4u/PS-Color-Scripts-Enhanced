@@ -1,13 +1,4 @@
-﻿# Converted from: MCACD2MS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0992/raw/MCACD2MS.ANS
-# Source Revision: archive-sha256:38fe3656c7af5c5e25863e8e0613e81f27c4932fc2485b451dab47528613133b
-# Source SHA-256: ae371591df58c05285076f2dd231e7f0857cc3479691293af93e8a57256c3daf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MCACD2MS.ANS by Mysterio (acdu0992); released in acdu0992 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: MCACD2MS.ANS by Mysterio | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0992-mcacd2ms-part01
 
 Write-Host '
    [33m░[0m               [33m░[0m     [33m░[0m       [1;33m▄▄▄▄▄▄▄▄▄▄▄[0m          [33m░[0m       [33m░[0m            [33m▒[0m

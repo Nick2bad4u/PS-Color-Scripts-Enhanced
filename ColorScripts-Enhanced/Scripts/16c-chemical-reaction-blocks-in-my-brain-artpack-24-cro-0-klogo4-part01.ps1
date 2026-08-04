@@ -1,13 +1,4 @@
-﻿# Converted from: 0-KLOGO4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/chemical.reaction.blocks.in.my.brain.artpack.24-cro/raw/0-KLOGO4.ANS
-# Source Revision: archive-sha256:d93b6f57500c71739ad12c4cba603136de93fb865ec281117f9125d23e977959
-# Source SHA-256: ce8ccc27341f0f0de7157defe0176cfce11c34530987bf407d3df1b0a4bf7008
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 0-KLOGO4.ANS by Chemical Reaction (chemical.reaction.blocks.in.my.brain.artpack.24-cro); released in chemical.reaction.blocks.in.my.brain.artpack.24-cro and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: 0-KLOGO4.ANS by Chemical Reaction | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-0-klogo4-part01
 
 Write-Host '
 

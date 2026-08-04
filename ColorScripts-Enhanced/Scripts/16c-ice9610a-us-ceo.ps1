@@ -1,18 +1,4 @@
-﻿# Converted from: US-CEO.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9610a/raw/US-CEO.ICE
-# Source Revision: archive-sha256:3aef1988415e24a939c7dd0fecdb5aa015782c3896d1737bc5f94ab6a14b05cd
-# Source SHA-256: 9bf18e538a8a952c37f419de1cd98413e701f1809604fece4242902ed71cffb4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CEO.ICE by Mass Murderer + The Night Angel (AWE Lettering); released in ice9610a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Ceo
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961028
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Ceo by Mass Murderer + The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9610a-us-ceo
 
 Write-Host '
 [1;31;43m▄[0;1;33;43m░░░▒▓▓▓▓[0;1;33;40m█[0;1;33;43m▓[0;1;33;40m███████████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀███████████[0;1;33;43m▓[0;1;33;40m█[0;1;33;43m▓▓▓▓▒░░░[0;1;31;43m▄[0m

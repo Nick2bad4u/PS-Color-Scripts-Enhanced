@@ -1,18 +1,4 @@
-﻿# Converted from: H7-IMMAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/soda05/raw/H7-IMMAN.ANS
-# Source Revision: archive-sha256:edcd8c09880ef83cd065aedbbbd49213c8a0498be75fefb823526ab25fd48e6f
-# Source SHA-256: cfa7cb6d2f66842495b9649bb5e2440caaa5a5b8cb684110ba65574204d15cb4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: H7-IMMAN.ANS by h7 (sodapop); released in soda05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: immanence
-# SAUCE Author: h7
-# SAUCE Group: sodapop
-# SAUCE Date: 19991109
-# SAUCE Dimensions: 80x47
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: immanence by h7 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-soda05-h7-imman
 
 Write-Host '
 

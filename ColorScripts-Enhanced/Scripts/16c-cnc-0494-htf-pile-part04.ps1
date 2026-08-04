@@ -1,13 +1,4 @@
-﻿# Converted from: HTF-PILE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cnc-0494/raw/HTF-PILE.ANS
-# Source Revision: archive-sha256:a2860c6058bc20deb4b9fe584adc3143209a13f75027fe0542d8e0a5a0f55c58
-# Source SHA-256: 1abf4f2afdc5ff20eabcb172919062905a3b8cafaf808859c024e598501ade49
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HTF-PILE.ANS by Hanzo The Fiend (cnc-0494); released in cnc-0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 151-200
-# Columns: 1-80
+﻿# Artwork: HTF-PILE.ANS by Hanzo The Fiend | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cnc-0494-htf-pile-part04
 
 Write-Host '
 [1;41m▓▓▓[0;1;43m▒[0;1;41m▓[0;1;43m▒▒▒▒▒[0;1;33;45m▒▒▒▒[0;1;33m▒[0;1;33;45m▒[0;1;33m▒▒▒[0;32;43m▓▓[0;32m▓▓▓[0;30;42m▒▓[0;30m██[0;30;42m▓▒[0;32m▓▓▓▓[0;32;43m▓▓▓▓▓▓▓▓[0;1;33m▒▒▒▒▒▒▒[0;1;33;43m▒▒▒▒▒▒▒▒[0;1;33;45m▒▒▒[0;1;43m▒[0;1;33;45m▒[0;1;43m▒▒▒▒▒▒▒[0;1;33;45m▒▒▒▒▒[0;1;43m▒[0;1;33;45m▒▒[0;1;33;43m▒[0;1;33;45m▒[0m

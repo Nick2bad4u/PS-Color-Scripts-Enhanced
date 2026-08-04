@@ -1,13 +1,4 @@
-﻿# Converted from: CH-MOUSE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pang01/raw/CH-MOUSE.ANS
-# Source Revision: archive-sha256:24a47d3a6396232434bffa2e1615955141cf762e5fd721c02b6ad40f81a7def7
-# Source SHA-256: 6ab7756c30db0a0314e44e34ef807ec4b23742d45130f4ae10fc61d04aad698e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CH-MOUSE.ANS by Chronic-Pang (pang01); released in pang01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: CH-MOUSE.ANS by Chronic-Pang | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pang01-ch-mouse
 
 Write-Host '
  [1m░░ [0m  [1;36m▄▄▄▄[0m    [1;36m ▄▄██[0;1;37m█▄▄[0;1;36m [0m    [36m [0;1;36m▄▄▄▄███[0;1;37m█▄▄[0m      [1m░░[0m        [1;36m▄[0;1;37m▄▄▄    [0;1;36m ▄▄▄▄▄██████▄  [0m

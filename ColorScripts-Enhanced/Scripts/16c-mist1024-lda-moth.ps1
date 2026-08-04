@@ -1,18 +1,4 @@
-﻿# Converted from: LDA-MOTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1024/raw/LDA-MOTH.ANS
-# Source Revision: archive-sha256:6949840195965f5eb9696cfb423e381432d7ccfa36b66290e336e4608b7c12f8
-# Source SHA-256: bc56c6dfd5f7f750c8220172efb0e9ff2562204e28995c7eb20337992b870a23
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LDA-MOTH.ANS by Cthulu (Mistigris); released in mist1024 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: Cthulu
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241028
-# SAUCE Dimensions: 80x45
-# SAUCE Font: IBM VGA
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: LDA-MOTH.ANS by Cthulu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1024-lda-moth
 
 Write-Host '
                                  [1;30m■[0m▄[1;30m▀[0m▄      ▄[1;30m▀[0m▄[1;30m■[0m

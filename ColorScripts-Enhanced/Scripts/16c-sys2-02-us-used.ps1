@@ -1,13 +1,4 @@
-﻿# Converted from: US-USED.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sys2_02/raw/US-USED.ANS
-# Source Revision: archive-sha256:4be7ec805fb2a4a39fee328474e69db4f25855ccd9f3e08bd6de462c5c223bd8
-# Source SHA-256: 43537b9f86b4c0ebd726373e52098b18261e2f093be8db1bcb012ff5a728c949
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-USED.ANS by Zerostar + Somber (sys2_02); released in sys2_02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: US-USED.ANS by Zerostar + Somber | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sys2-02-us-used
 
 Write-Host '
 [1;37m[0m[36m░▄▄▄▄▄ [0;1;30m▄[0;36m▄▄[0;1;30;46m▀[0;36m███[0;1;30;46m▄[0;36m▀▀[0;1;30m▀[0m [36m [0;1;30m▄▄▄▄▄[0m▒▒[1;30m█▀▀[0;36m [0;30;44m▓░[0;1;34;44mU   S   E   D[0;36;44m░[0;36;40m░[0;1;30;40m▬[0;36m [0;1;34m▄[0;1;34;44m▄▄[0;1;34;40m▄[0;35m [0;1;36mC [0;1;30m▬[0;1;36mO  A  L[0;36m░▓[0;1;36;46mI  T  I  O  N[0m

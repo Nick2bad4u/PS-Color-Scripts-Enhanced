@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-BLEND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blendxms/raw/IZ-BLEND.ANS
-# Source Revision: archive-sha256:1539692350814531ceec0f95558508df1809c483c52a4b6f3f02993299b5fe16
-# Source SHA-256: b7e5e755d12fc41512941f479b26884c1b5e2d5b7f1935beff89f5cfbe32e48a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-BLEND.ANS by ize (as a guest) (fusion); released in blendxms and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: blend
-# SAUCE Author: ize (as a guest)
-# SAUCE Group: fusion
-# SAUCE Date: 19961222
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: blend by ize (as a guest) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blendxms-iz-blend
 
 Write-Host '
         [32m [0;37m [0;33m  [0;37m  [0;33m ▄[0m          [33m░[0m   [33m░ ░░[0;30;43m▓[0m

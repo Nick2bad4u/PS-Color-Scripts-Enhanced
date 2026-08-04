@@ -1,19 +1,4 @@
-﻿# Converted from: ak-steamy.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz15/raw/ak-steamy.ans
-# Source Revision: archive-sha256:d35f5b18ac3e8cbe3d6d17eab809a7e050609a8e3cc7d160d14a87c59a191c12
-# Source SHA-256: 6adf25a28f90343d4b42d44041b0b86551b30bfb911ffa7ea8952a0d631eb846
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ak-steamy.ans by abstrakt (lazarus); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: steamy
-# SAUCE Author: abstrakt
-# SAUCE Group: lazarus
-# SAUCE Date: 20220609
-# SAUCE Dimensions: 80x124
-# SAUCE Font: IBM VGA
-# Lines: 101-124
-# Columns: 1-80
+﻿# Artwork: steamy by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz15-ak-steamy-part03
 
 Write-Host '
 $7.d$P`[1;36m.┐sS[0;1;32m$$$$$$[0;1;36mQ.[0m $        4$$$.[1m  4b[0m      [1;36m.d[0m [1mI$T  [0;1;30m`4[0;1;36m [0m$$`4$$$s┐,.  ./7[1;36m  .[0m

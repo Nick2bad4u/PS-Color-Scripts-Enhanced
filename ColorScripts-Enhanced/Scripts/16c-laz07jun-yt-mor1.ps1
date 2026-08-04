@@ -1,18 +1,4 @@
-﻿# Converted from: YT-MOR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz07jun/raw/YT-MOR1.ANS
-# Source Revision: archive-sha256:6a4341d9d0364566769256e4356d86035ad4ee53c0aa654acf41be18e58ca462
-# Source SHA-256: e6ab7d2512c98f0acc7bf5db275a9e821543268c3711bae5a9bd59eb77fc3196
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: YT-MOR1.ANS by neophyte (lazarus); released in laz07jun and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: morals obscure
-# SAUCE Author: neophyte
-# SAUCE Group: lazarus
-# SAUCE Date: 19970531
-# SAUCE Dimensions: 80x25
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: morals obscure by neophyte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz07jun-yt-mor1
 
 Write-Host '
 [40m    [0;1;33m░[0m

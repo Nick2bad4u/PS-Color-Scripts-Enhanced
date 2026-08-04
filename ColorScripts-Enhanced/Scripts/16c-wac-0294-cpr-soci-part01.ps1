@@ -1,13 +1,4 @@
-﻿# Converted from: CPR-SOCI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wac-0294/raw/CPR-SOCI.ANS
-# Source Revision: archive-sha256:2a8e2b57f27ae60b05e50bc8fa46b6638053a701b7f3ea527397e30cb502df63
-# Source SHA-256: ea488e19dd8c03c2f447f1c164525d35411452c1c8ffcb1fc517ffe67d6b71ef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPR-SOCI.ANS by Chili Pepper (wac-0294); released in wac-0294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: CPR-SOCI.ANS by Chili Pepper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wac-0294-cpr-soci-part01
 
 Write-Host '
 [34m███[0;1;34;44m░░▒▒▓▓█[0m [1;37;47m██▓▓▒▒░░  [0m▓▒░[1;30m▓▒░[0m                                                  [1;30m░▒[0m

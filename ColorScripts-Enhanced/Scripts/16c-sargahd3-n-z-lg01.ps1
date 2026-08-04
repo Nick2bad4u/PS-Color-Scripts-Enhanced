@@ -1,18 +1,4 @@
-﻿# Converted from: N!Z-LG01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sargahd3/raw/N!Z-LG01.ANS
-# Source Revision: archive-sha256:d4be65be862c17debbed01c060fb85aadbdbe00a8282836fa25f3f46073f618d
-# Source SHA-256: 8db3b6fa17c414049dd8d1769e98ad10bd454349fbc04cb38107ec3b87f712fe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N!Z-LG01.ANS by noize (fbk.sargahd); released in sargahd3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: kafkaesk
-# SAUCE Author: noize
-# SAUCE Group: fbk.sargahd
-# SAUCE Date: 19970208
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: kafkaesk by noize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sargahd3-n-z-lg01
 
 Write-Host '
 [1m██[0;1;36m█████[0;1;34m████[0;1;34;44m▀▀▀▀▀▀▀░░[0;34m▀▀▀▀▀▀▀▀▀▀[0m             [34m▀▀▀▀▀▀▀[0;1;34;44m▀▀▀▀[0;1;34;40m███[0;1;36;40m██[0;1;37;40m███[0;1;36;40m██▓▓▀▀▀▀[0;1;34;40m▀▀[0;1;36;40m▐███████[0m

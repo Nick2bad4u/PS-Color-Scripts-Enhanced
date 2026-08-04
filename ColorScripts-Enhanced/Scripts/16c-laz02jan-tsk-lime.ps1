@@ -1,13 +1,4 @@
-﻿# Converted from: TSK-LIME.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz02jan/raw/TSK-LIME.ANS
-# Source Revision: archive-sha256:132672eb521503ab979d6725a75b6f055811245f253b5353290430aa5c4983b1
-# Source SHA-256: 4090adcbb481f14af51c54ed956863aa3317163b53d6eb165ea5c823e69dd4e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-LIME.ANS by The Silent Killer (laz02jan); released in laz02jan and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: TSK-LIME.ANS by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz02jan-tsk-lime
 
 Write-Host '
 

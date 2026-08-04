@@ -1,18 +1,4 @@
-﻿# Converted from: CK-ESS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9501/raw/CK-ESS1.ANS
-# Source Revision: archive-sha256:b1772fca22e891c01e8e9e257aaf3c83adfc1e91301c701659f30e77d41f63a6
-# Source SHA-256: 0bd1acdca8e2e64e38502dff250c08bde5428d4a7437608175dab36c9e80cbdb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CK-ESS1.ANS by Chromatik (Blade Productions); released in blde9501 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Essence!
-# SAUCE Author: Chromatik
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19950106
-# SAUCE Dimensions: 80x25
-# Lines: 39-88
-# Columns: 1-80
+﻿# Artwork: Essence! by Chromatik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9501-ck-ess1-part02
 
 Write-Host '
    [36m▓[0m                       [1;36me s s e[0;36m░[0;1;36mn c e[0m   [1;36mb b s[0m     [1;30m▀[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: DD-CE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel20/raw/DD-CE2.ANS
-# Source Revision: archive-sha256:76cc71407da52d22474028b5badac0ae5ae0b321b8be74ac60820db9d7a1dc71
-# Source SHA-256: 72d3d4c07afb72f78e38f9266fd75ca67e25a7c4312a882b7b5d3435f1a4213c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-CE2.ANS by Da Drug (fuckyou); released in fuel20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: corp's elite... yah
-# SAUCE Author: Da Drug
-# SAUCE Group: fuckyou
-# SAUCE Date: 19970130
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: corp's elite... yah by Da Drug | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel20-dd-ce2
 
 Write-Host '
 [1;34;44m░░[0;34m▀[0;1;34;44m░░░░[0;34m█▀▀▄[0;1;34;44m░░░░░[0;34m█▀▀▀[0;33m▄[0;1;31;43m▒[0;33m▀[0;34m▄[0;1;34;44m░[0m [33m▄[0;1;31;43m▓▓▓░[0m  [33m▄ [0;34m▀█▄▄▀[0;1;34;44m░[0;34m█[0m

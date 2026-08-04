@@ -1,18 +1,4 @@
-﻿# Converted from: JD-JERKY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1294/raw/JD-JERKY.ANS
-# Source Revision: archive-sha256:f8a4b1074b7793df8f3d2e2341b035c3ebc6fa160937f8fe7508c74b4b0317e1
-# Source SHA-256: 71d920ccbe15b8784ff7b12e63ebe407dc780e91dca077158073fcae98debda7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JD-JERKY.ANS by JED (ACiD Productions); released in acdu1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: "Merry Christmas..."
-# SAUCE Author: JED
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19941201
-# SAUCE Dimensions: 80x50
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: "Merry Christmas..." by JED | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1294-jd-jerky
 
 Write-Host '
 [1;37m█[0;1;37;40m▄[0;1m ▄[0;1;37m█[0;1m [0;1;37m█[0;1;37;40m▀[0;1m [0;1;37m█▀[0;1m▄ [0;1;37;40m█[0;1;37m▀▄[0;1m [0;1;37;40m█[0;1m [0;1;37m█[0;1m  [0;1;37m▄▀[0;1m [0;1;37m█[0;1m [0;1;37;40m█[0;1m [0;1;37;40m█▀▄[0;1m [0;1;37m█[0;1m [0;1;37m▄[0;1;37;40m▀[0;1;37m▀[0;1m [0;1;37m▀[0;1;37;40m█[0;1;37m▀[0;1m [0;1;37m█[0;1;37;40m▄[0;1m [0;1;37;40m▄[0;1;37m█[0;1m [0;1;37;40m▄[0;1;37m▀▄[0;1m [0;1;37;40m▄▀▀[0m     [1;37;40m█[0;1m [0;1;37;40m█[0;1;37m▀[0;1m █[0;1;37m▀▄[0;1m [0;1;37;40m█[0;1m [0;1;37m█[0;1m [0;1;37m█[0;1m [0;1;37m█[0;1m [0;1;37;40m█[0m

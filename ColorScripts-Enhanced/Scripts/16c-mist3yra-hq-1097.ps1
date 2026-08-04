@@ -1,18 +1,4 @@
-﻿# Converted from: HQ-1097.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist3yra/raw/HQ-1097.ANS
-# Source Revision: archive-sha256:2b1ec0b7cbe048c013d4fb5b84e23b783ff4f9f900b4e7c0cd1dcc3d31e02136
-# Source SHA-256: 93369dd427f8a84cf80231e9b49bb64f2db49fc65072ccefc114ed45938c93ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HQ-1097.ANS by Haqisaq (MiSTiGRiS); released in mist3yra and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: October logocolly
-# SAUCE Author: Haqisaq
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19971026
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: October logocolly by Haqisaq | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist3yra-hq-1097
 
 Write-Host '
 

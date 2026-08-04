@@ -1,19 +1,4 @@
-﻿# Converted from: COMPASS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tk-ansi/raw/COMPASS.ANS
-# Source Revision: archive-sha256:7a6e15a450305cb977de0a4eb06cf4ca525baa4933c9f7af1cf6080dced8bf2d
-# Source SHA-256: 9759563b27b68a1d729fe68113b7d13e8b35c4b0be030ca9f635becc859a2c46
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: COMPASS.ANS by Tank (NeXX); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Compass
-# SAUCE Author: Tank
-# SAUCE Group: NeXX
-# SAUCE Date: 19920112
-# SAUCE Dimensions: 80x24
-# SAUCE Comments: First part of a Multiscroller for South of.. something BBS, neve | r finished.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Compass by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tk-ansi-compass
 
 Write-Host '
                                        [1m▄[0m

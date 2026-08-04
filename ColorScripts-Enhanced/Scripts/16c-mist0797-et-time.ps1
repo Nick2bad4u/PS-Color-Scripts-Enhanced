@@ -1,18 +1,4 @@
-﻿# Converted from: ET-TIME.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0797/raw/ET-TIME.ANS
-# Source Revision: archive-sha256:e4775a757aef4d1cbaf4afe3e80ca53c95903e66bce5b0d15425834b8d9ddb3a
-# Source SHA-256: 4c594a40fd2ad1b42b9242ee41ac4443fea528054037f0ec52bf1265cd688384
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ET-TIME.ANS by Etana (MiSTiGRiS); released in mist0797 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: What time is it?
-# SAUCE Author: Etana
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19970622
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: What time is it? by Etana | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0797-et-time
 
 Write-Host '
 [31m                       [0;1;32m▄▄▄▄▄  ▄▄▄▄▄▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: rev-uni.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/unison01/raw/rev-uni.ans
-# Source Revision: archive-sha256:7c588b07ef60b2e6f7336fb325fe9abcb3c16c20d2dbe8128204c75829b0ab7d
-# Source SHA-256: f982848a1ee7055586d77a570457a29624d484d68fc15ae94e97ea3015530af5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: rev-uni.ans by Revolution (unison01); released in unison01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: rev-uni.ans by Revolution | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-unison01-rev-uni
 
 Write-Host '
                                               [36m░[0m           [36m░░░░░░[0m

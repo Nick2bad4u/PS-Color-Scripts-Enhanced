@@ -1,18 +1,4 @@
-﻿# Converted from: ASP-DROP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drop9705/raw/ASP-DROP.ANS
-# Source Revision: archive-sha256:7fe1f56651ec06ccf40826f5781f068ca77061ce348751ee019a860090f3b0ac
-# Source SHA-256: d5784f710f8663a6f2effeac3f0dfd6da4e57049b8abc23537894a360af62043
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ASP-DROP.ANS by aspyre (drop); released in drop9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: drop sticker style logo
-# SAUCE Author: aspyre
-# SAUCE Group: drop
-# SAUCE Date: 19970513
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: drop sticker style logo by aspyre | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drop9705-asp-drop
 
 Write-Host '
                            [1m.[0;1;34m,[0;36m,[0;34m,s$; [0;36m+a[0;1;34ms[0;34mP_[0m

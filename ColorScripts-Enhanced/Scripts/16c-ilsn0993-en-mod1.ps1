@@ -1,13 +1,4 @@
-﻿# Converted from: EN-MOD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ilsn0993/raw/EN-MOD1.ANS
-# Source Revision: archive-sha256:e7e7c6f73942c5463cc3a2518ebe2afadd1de8982d1fa83f99bde36882861526
-# Source SHA-256: 7139b48f712a49b837531c1618ee490eae74ecb6aa85e370bfcc20dd0dd47211
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EN-MOD1.ANS by Ender (ilsn0993); released in ilsn0993 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: EN-MOD1.ANS by Ender | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ilsn0993-en-mod1
 
 Write-Host '
 

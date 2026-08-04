@@ -1,19 +1,4 @@
-﻿# Converted from: CXC_CHANUKA2020.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1220/raw/CXC_CHANUKA2020.ANS
-# Source Revision: archive-sha256:7b66b2cfb79216f099f22989bbfdbaed6011518fbd677e1a8e92c15c7fe1620a
-# Source SHA-256: 80ded6cc301defb7f6add4ee7b70b990de97386dacb5425d0c5ca9070e3c1bf0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CXC_CHANUKA2020.ANS by CoaXCable (Mistigris); released in mist1220 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Happy Chanuka
-# SAUCE Author: CoaXCable
-# SAUCE Group: Mistigris
-# SAUCE Date: 20201220
-# SAUCE Dimensions: 80x56
-# SAUCE Font: IBM VGA
-# Lines: 29-56
-# Columns: 1-80
+﻿# Artwork: Happy Chanuka by CoaXCable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1220-cxc-chanuka2020-part02
 
 Write-Host '
 [37m       [0;36m▄[0;34m▀[0;34;46m▒[0;34;40m▀[0;36;40m▄[0;37;40m   [0;36;40m▄[0;34;40m▀[0;34;46m▒[0;34;40m▀[0;36;40m▄[0;37;40m    [0;34;40m▀[0;34;46m▒[0;34;40m▀[0;36;40m▄[0;37;40m   [0;36;40m▄[0;34;40m▀[0;34;46m▒[0;34;40m▀[0;36;40m▄[0;34;40m▄░▄▓[0;34;46m▒▒[0;1;37;44m▒[0;1;34;46m▒[0;36m▄[0;1;37m [0;34m▄[0;36m▄[0;34m▀[0;34;46m▒[0;34;40m▀[0;36;40m▄[0;37;40m   [0;36;40m▄[0;34;40m▀[0;34;46m▒[0;34;40m▀[0;37;40m    [0;36;40m▄[0;34;40m▀[0;34;46m▒[0;34;40m▀[0;36;40m▄[0;37;40m   [0;36;40m▄[0;34;40m▀[0;34;46m░[0;34;40m▀[0;36;40m▄[0m

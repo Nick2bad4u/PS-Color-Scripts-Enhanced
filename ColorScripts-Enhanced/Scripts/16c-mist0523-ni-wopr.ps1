@@ -1,19 +1,4 @@
-﻿# Converted from: NI-WOPR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0523/raw/NI-WOPR.ANS
-# Source Revision: archive-sha256:53b565820f166e8e480fb61187f967fd47086f9bc5b7e5f420ec7196d573dd4b
-# Source SHA-256: 0921a60d8f5b3a2d5c0bcb4bbe2bac701d17fa684789d24342d3b206b2907c5c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-WOPR.ANS by nitron (mistigris); released in mist0523 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: WOPR Banner
-# SAUCE Author: nitron
-# SAUCE Group: mistigris
-# SAUCE Date: 20230403
-# SAUCE Dimensions: 80x27
-# SAUCE Font: IBM VGA
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: WOPR Banner by nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0523-ni-wopr
 
 Write-Host '
 [1m [0m [1;33m          [0;1;32m                             [0m  [1m [0;1;30m  ▄▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▄[0m

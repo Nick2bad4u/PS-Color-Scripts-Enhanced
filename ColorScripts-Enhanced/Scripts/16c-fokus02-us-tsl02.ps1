@@ -1,18 +1,4 @@
-﻿# Converted from: US-TSL02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus02/raw/US-TSL02.ANS
-# Source Revision: archive-sha256:dbc0fd9393f048eb4114863d8031209a44218deffed6a460f10c74db43cffb0e
-# Source SHA-256: 50f18923bd40af750a7778278a133e3ca0eeb264ffb6fb20b909ec9cd9e9ccdd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TSL02.ANS by Mr Wrong + Knocturnal (Fokus fonting); released in fokus02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Savage Lands
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Fokus fonting
-# SAUCE Date: 19990328
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: The Savage Lands by Mr Wrong + Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus02-us-tsl02
 
 Write-Host '
                                [1m [0m

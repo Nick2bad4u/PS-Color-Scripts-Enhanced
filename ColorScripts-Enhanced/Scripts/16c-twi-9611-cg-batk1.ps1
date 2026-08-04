@@ -1,18 +1,4 @@
-﻿# Converted from: CG-BATK1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twi-9611/raw/CG-BATK1.ANS
-# Source Revision: archive-sha256:5e1b4bf08b612b660d0d51a30f2cbb1eaef6fa6ca3fdc1b1ea5413c3a8d2f0d6
-# Source SHA-256: 49905649a496dcc59bf4ad495f8948121b79fdacfaf33d75e3f9c4532e32fbae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-BATK1.ANS by Coug + Grimlock + Ghengis (Twilight); released in twi-9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: BatKave
-# SAUCE Author: Coug
-# SAUCE Group: Twilight
-# SAUCE Date: 19961115
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: BatKave by Coug + Grimlock + Ghengis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twi-9611-cg-batk1
 
 Write-Host '
 [1;32;42m░[0m [32m▄▄[0;1;32;42m▒░[0m [32m▐[0;1;32;42m▒░[0;32m▄▓[0;1;32;42m▒░[0;32m▀[0;33m▄▄█▄[0;32m▀[0;33m▄▄▄[0;33;43mhibw[0;33;40m▄▄▄▄▄[0;1;32;40m▀▀▀[0;1;32;42m▓▒░[0;32m▄▄[0;1;32;42m▒░[0;32m█▀  ▄▓█▓▀[0m       [32m▀▀▓█[0;1;32;42m░░[0;32m█▓▀ ▄▄▄[0;1;32;42m▒░░[0;32m▓ [0;1;32;42m▒░░[0;32m▌[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: KIO-AWE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-20/raw/KIO-AWE.ANS
-# Source Revision: archive-sha256:23bbf66596e3e4f3c4b9e335dc62ccc331634eba04c3d179b73e396fa3971807
-# Source SHA-256: bee5ba202cb56886cc611ec00fac87753c84a975035a4911cab2887aeded8331
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KIO-AWE.ANS by Kiomatsu (AWE Lettering Guest); released in awe-20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: AWE Lettering
-# SAUCE Author: Kiomatsu
-# SAUCE Group: AWE Lettering Guest
-# SAUCE Date: 19981223
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: AWE Lettering by Kiomatsu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-20-kio-awe
 
 Write-Host '
              [33m..[0m

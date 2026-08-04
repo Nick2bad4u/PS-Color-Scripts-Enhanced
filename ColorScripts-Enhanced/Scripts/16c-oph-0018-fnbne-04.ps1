@@ -1,17 +1,4 @@
-﻿# Converted from: FNBNE-04.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oph-0018/raw/FNBNE-04.ANS
-# Source Revision: archive-sha256:b78bc978b69dedfb9a07152cba296ecefc97611bd7bc7f5211d489ff748613dc
-# Source SHA-256: 14b546bdfea636019864f3d83a85f7f7b19ea6675dcc3ea1834e43ebbd711c59
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FNBNE-04.ANS by fonebone (oph-0018); released in oph-0018 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: [] \[[[[[[[[[[[[[[[[[[[[[[[]^\0
-# SAUCE Author: fonebone
-# SAUCE Date: 19960917
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: [] \[[[[[[[[[[[[[[[[[[[[[[[]^\0 by fonebone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oph-0018-fnbne-04
 
 Write-Host '
 [36m▄▓██████▀▀▀▀▀▀▀▀▀▀▀▀███████████████████▀▀▀▀▀▀▀▀▀▀▀▀██████████████[0;1;36;46ma[0;36m█[0;1;36;46mfonebone[0;36m██▓▄ [0m

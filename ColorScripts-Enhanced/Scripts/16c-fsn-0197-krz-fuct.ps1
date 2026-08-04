@@ -1,13 +1,4 @@
-﻿# Converted from: KRZ%FUCT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0197/raw/KRZ%25FUCT.ANS
-# Source Revision: archive-sha256:db16ecaf9a5ba2dcf16f11149d4e3768d3e19930159af1ef0ef2625ea12b3e30
-# Source SHA-256: 4d8a23de260d04df8a180590302711e4a8457ddbee886ce3b381252a8f087748
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KRZ%FUCT.ANS by Krazie (fsn-0197); released in fsn-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: KRZ%FUCT.ANS by Krazie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0197-krz-fuct
 
 Write-Host '
                    [35m▄▄▄▄▄[0m                                    [35m▄▄▄█[0;1;35;45m▄▄[0;35m█▄▄▄[0;1;35;45m░[0m

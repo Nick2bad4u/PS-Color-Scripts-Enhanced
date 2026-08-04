@@ -1,17 +1,4 @@
-﻿# Converted from: C3-ANSI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/raw01/raw/C3-ANSI.ANS
-# Source Revision: archive-sha256:68018d98da2353ea67bd0935370f9f9e7167a56c319420d702baa29dd9d82b28
-# Source SHA-256: 5099e1e503cc4b72c6f507f035fec1c65640fa8aa2057c283d2b72309e31f362
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: C3-ANSI.ANS by criminal enigma (raw01); released in raw01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ansi detected
-# SAUCE Author: criminal enigma
-# SAUCE Date: 19970311
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: ansi detected by criminal enigma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-raw01-c3-ansi
 
 Write-Host '
 

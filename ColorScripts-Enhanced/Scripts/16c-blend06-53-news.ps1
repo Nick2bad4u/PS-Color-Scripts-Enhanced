@@ -1,18 +1,4 @@
-﻿# Converted from: 53-NEWS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend06/raw/53-NEWS.ANS
-# Source Revision: archive-sha256:bdb12df6fb66b6e7f7ab1240c15e9b23d66b94ced69828c85c717709162a24eb
-# Source SHA-256: 9bb1488a30a0309a3df1a2c7448c73e7363752f03f0ea107d8ca609594981813
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 53-NEWS.ANS by senile (blend); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: newscan
-# SAUCE Author: senile
-# SAUCE Group: blend
-# SAUCE Date: 19970103
-# SAUCE Dimensions: 80x21
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: newscan by senile | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend06-53-news
 
 Write-Host '
 

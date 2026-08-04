@@ -1,18 +1,4 @@
-﻿# Converted from: F3-TOS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy07/raw/F3-TOS.ANS
-# Source Revision: archive-sha256:cf53c4ea5c286717abe3d962fb98452e352d7d7a30a31881220e7068a7f0bb79
-# Source SHA-256: c9ad9a464a80c1da0a1204a568a9680bf68e3174544b8ad0e84f7bf557ac3c87
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: F3-TOS.ANS by f3leet (apathy); released in apathy07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the ol' school
-# SAUCE Author: f3leet
-# SAUCE Group: apathy
-# SAUCE Date: 19960214
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: the ol' school by f3leet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy07-f3-tos
 
 Write-Host '
                   [34m   [0;1;31m▄▄▄█████████▄▄[0m

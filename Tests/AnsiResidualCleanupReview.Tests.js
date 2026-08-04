@@ -21,417 +21,450 @@ const {
 } = require("../scripts/Apply-ColorScriptGeometryReview.js");
 
 const REPOSITORY_ROOT = path.resolve(__dirname, "..");
-const MODULE_ROOT = path.join(
-    REPOSITORY_ROOT,
-    "ColorScripts-Enhanced"
-);
+const MODULE_ROOT = path.join(REPOSITORY_ROOT, "ColorScripts-Enhanced");
+const AUDIT_ROOT = path.join(REPOSITORY_ROOT, "audit");
 const SCRIPTS_DIRECTORY = path.join(MODULE_ROOT, "Scripts");
 const CONTENT_LEDGER_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualContentReviewLedger.json"
 );
 const MIXED_TEXT_LEDGER_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger.json"
 );
 const MIXED_TEXT_LEDGER2_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger2.json"
 );
 const MIXED_TEXT_LEDGER3_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger3.json"
 );
 const MIXED_TEXT_LEDGER4_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger4.json"
 );
 const MIXED_TEXT_LEDGER5_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger5.json"
 );
 const MIXED_TEXT_LEDGER6_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger6.json"
 );
 const MIXED_TEXT_LEDGER7_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger7.json"
 );
 const MIXED_TEXT_LEDGER8_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger8.json"
 );
 const MIXED_TEXT_LEDGER9_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger9.json"
 );
 const MIXED_TEXT_LEDGER10_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger10.json"
 );
 const MIXED_TEXT_LEDGER11_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger11.json"
 );
 const MIXED_TEXT_LEDGER12_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger12.json"
 );
 const MIXED_TEXT_LEDGER13_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger13.json"
 );
 const MIXED_TEXT_LEDGER14_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger14.json"
 );
 const MIXED_TEXT_LEDGER15_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger15.json"
 );
 const MIXED_TEXT_LEDGER16_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger16.json"
 );
 const MIXED_TEXT_LEDGER17_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger17.json"
 );
 const MIXED_TEXT_LEDGER18_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger18.json"
 );
 const MIXED_TEXT_LEDGER19_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger19.json"
 );
 const MIXED_TEXT_LEDGER20_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger20.json"
 );
 const MIXED_TEXT_LEDGER21_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger21.json"
 );
 const MIXED_TEXT_LEDGER22_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger22.json"
 );
 const MIXED_TEXT_LEDGER23_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger23.json"
 );
 const MIXED_TEXT_LEDGER24_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger24.json"
 );
 const MIXED_TEXT_LEDGER25_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger25.json"
 );
 const MIXED_TEXT_LEDGER26_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger26.json"
 );
 const MIXED_TEXT_LEDGER27_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger27.json"
 );
 const MIXED_TEXT_LEDGER28_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger28.json"
 );
 const MIXED_TEXT_LEDGER29_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger29.json"
 );
 const MIXED_TEXT_LEDGER30_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger30.json"
 );
 const MIXED_TEXT_LEDGER31_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger31.json"
 );
 const MIXED_TEXT_LEDGER32_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger32.json"
 );
 const MIXED_TEXT_LEDGER33_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger33.json"
 );
 const MIXED_TEXT_LEDGER34_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger34.json"
 );
 const MIXED_TEXT_LEDGER35_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger35.json"
 );
 const MIXED_TEXT_LEDGER36_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger36.json"
 );
 const MIXED_TEXT_LEDGER37_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger37.json"
 );
 const MIXED_TEXT_LEDGER38_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger38.json"
 );
 const MIXED_TEXT_LEDGER39_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger39.json"
 );
 const MIXED_TEXT_LEDGER40_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger40.json"
 );
 const MIXED_TEXT_LEDGER41_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger41.json"
 );
 const MIXED_TEXT_LEDGER42_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger42.json"
 );
 const MIXED_TEXT_LEDGER43_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger43.json"
 );
 const MIXED_TEXT_LEDGER44_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger44.json"
 );
 const MIXED_TEXT_LEDGER45_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger45.json"
 );
 const MIXED_TEXT_LEDGER46_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger46.json"
 );
 const MIXED_TEXT_LEDGER47_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger47.json"
 );
 const MIXED_TEXT_LEDGER48_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger48.json"
 );
 const MIXED_TEXT_LEDGER49_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger49.json"
 );
 const MIXED_TEXT_LEDGER50_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger50.json"
 );
 const MIXED_TEXT_LEDGER51_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger51.json"
 );
 const MIXED_TEXT_LEDGER52_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger52.json"
 );
 const MIXED_TEXT_LEDGER53_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger53.json"
 );
 const MIXED_TEXT_LEDGER54_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger54.json"
 );
 const MIXED_TEXT_LEDGER55_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger55.json"
 );
 const MIXED_TEXT_LEDGER56_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger56.json"
 );
 const MIXED_TEXT_LEDGER57_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger57.json"
 );
 const MIXED_TEXT_LEDGER58_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger58.json"
 );
 const MIXED_TEXT_LEDGER59_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger59.json"
 );
 const MIXED_TEXT_LEDGER60_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger60.json"
 );
 const MIXED_TEXT_LEDGER61_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger61.json"
 );
 const MIXED_TEXT_LEDGER62_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger62.json"
 );
 const MIXED_TEXT_LEDGER63_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger63.json"
 );
 const MIXED_TEXT_LEDGER64_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger64.json"
 );
 const MIXED_TEXT_LEDGER65_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger65.json"
 );
 const MIXED_TEXT_LEDGER66_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger66.json"
 );
 const MIXED_TEXT_LEDGER67_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger67.json"
 );
 const MIXED_TEXT_LEDGER68_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger68.json"
 );
 const MIXED_TEXT_LEDGER69_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger69.json"
 );
 const MIXED_TEXT_LEDGER70_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger70.json"
 );
 const MIXED_TEXT_LEDGER71_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger71.json"
 );
 const MIXED_TEXT_LEDGER72_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger72.json"
 );
 const MIXED_TEXT_LEDGER73_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger73.json"
 );
 const MIXED_TEXT_LEDGER74_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger74.json"
 );
 const MIXED_TEXT_LEDGER75_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger75.json"
 );
 const MIXED_TEXT_LEDGER76_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger76.json"
 );
 const MIXED_TEXT_LEDGER77_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger77.json"
 );
 const MIXED_TEXT_LEDGER78_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger78.json"
 );
 const MIXED_TEXT_LEDGER79_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger79.json"
 );
 const MIXED_TEXT_LEDGER80_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger80.json"
 );
 const MIXED_TEXT_LEDGER81_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger81.json"
 );
 const MIXED_TEXT_LEDGER82_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger82.json"
 );
 const MIXED_TEXT_LEDGER83_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger83.json"
 );
 const MIXED_TEXT_LEDGER84_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger84.json"
 );
 const MIXED_TEXT_LEDGER85_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger85.json"
 );
 const MIXED_TEXT_LEDGER86_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger86.json"
 );
 const MIXED_TEXT_LEDGER87_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger87.json"
 );
 const MIXED_TEXT_LEDGER88_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger88.json"
 );
 const MIXED_TEXT_LEDGER89_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger89.json"
 );
 const MIXED_TEXT_LEDGER90_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger90.json"
 );
 const MIXED_TEXT_LEDGER91_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger91.json"
 );
 const MIXED_TEXT_LEDGER92_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger92.json"
 );
 const MIXED_TEXT_LEDGER93_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger93.json"
 );
 const MIXED_TEXT_LEDGER94_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualMixedTextReviewLedger94.json"
 );
-const MIXED_TEXT_LEDGER95_PATH = path.join(MODULE_ROOT, "AnsiResidualMixedTextReviewLedger95.json");
-const MIXED_TEXT_LEDGER96_PATH = path.join(MODULE_ROOT, "AnsiResidualMixedTextReviewLedger96.json");
-const MIXED_TEXT_LEDGER97_PATH = path.join(MODULE_ROOT, "AnsiResidualMixedTextReviewLedger97.json");
-const MIXED_TEXT_LEDGER98_PATH = path.join(MODULE_ROOT, "AnsiResidualMixedTextReviewLedger98.json");
-const MIXED_TEXT_LEDGER99_PATH = path.join(MODULE_ROOT, "AnsiResidualMixedTextReviewLedger99.json");
-const MIXED_TEXT_LEDGER100_PATH = path.join(MODULE_ROOT, "AnsiResidualMixedTextReviewLedger100.json");
-const MIXED_TEXT_LEDGER101_PATH = path.join(MODULE_ROOT, "AnsiResidualMixedTextReviewLedger101.json");
-const MIXED_TEXT_LEDGER102_PATH = path.join(MODULE_ROOT, "AnsiResidualMixedTextReviewLedger102.json");
-const MIXED_TEXT_LEDGER103_PATH = path.join(MODULE_ROOT, "AnsiResidualMixedTextReviewLedger103.json");
-const MIXED_TEXT_LEDGER104_PATH = path.join(MODULE_ROOT, "AnsiResidualMixedTextReviewLedger104.json");
-const MIXED_TEXT_LEDGER105_PATH = path.join(MODULE_ROOT, "AnsiResidualMixedTextReviewLedger105.json");
-const MIXED_TEXT_LEDGER106_PATH = path.join(MODULE_ROOT, "AnsiResidualMixedTextReviewLedger106.json");
+const MIXED_TEXT_LEDGER95_PATH = path.join(
+    AUDIT_ROOT,
+    "AnsiResidualMixedTextReviewLedger95.json"
+);
+const MIXED_TEXT_LEDGER96_PATH = path.join(
+    AUDIT_ROOT,
+    "AnsiResidualMixedTextReviewLedger96.json"
+);
+const MIXED_TEXT_LEDGER97_PATH = path.join(
+    AUDIT_ROOT,
+    "AnsiResidualMixedTextReviewLedger97.json"
+);
+const MIXED_TEXT_LEDGER98_PATH = path.join(
+    AUDIT_ROOT,
+    "AnsiResidualMixedTextReviewLedger98.json"
+);
+const MIXED_TEXT_LEDGER99_PATH = path.join(
+    AUDIT_ROOT,
+    "AnsiResidualMixedTextReviewLedger99.json"
+);
+const MIXED_TEXT_LEDGER100_PATH = path.join(
+    AUDIT_ROOT,
+    "AnsiResidualMixedTextReviewLedger100.json"
+);
+const MIXED_TEXT_LEDGER101_PATH = path.join(
+    AUDIT_ROOT,
+    "AnsiResidualMixedTextReviewLedger101.json"
+);
+const MIXED_TEXT_LEDGER102_PATH = path.join(
+    AUDIT_ROOT,
+    "AnsiResidualMixedTextReviewLedger102.json"
+);
+const MIXED_TEXT_LEDGER103_PATH = path.join(
+    AUDIT_ROOT,
+    "AnsiResidualMixedTextReviewLedger103.json"
+);
+const MIXED_TEXT_LEDGER104_PATH = path.join(
+    AUDIT_ROOT,
+    "AnsiResidualMixedTextReviewLedger104.json"
+);
+const MIXED_TEXT_LEDGER105_PATH = path.join(
+    AUDIT_ROOT,
+    "AnsiResidualMixedTextReviewLedger105.json"
+);
+const MIXED_TEXT_LEDGER106_PATH = path.join(
+    AUDIT_ROOT,
+    "AnsiResidualMixedTextReviewLedger106.json"
+);
 const GEOMETRY_MANIFEST_PATH = path.join(
-    MODULE_ROOT,
+    AUDIT_ROOT,
     "AnsiResidualGeometryReviewManifest.json"
 );
 const CONTENT_CHECKPOINT = JSON.parse(
     fs.readFileSync(
-        path.join(MODULE_ROOT, "AnsiContentCurationCheckpoint.json"),
+        path.join(AUDIT_ROOT, "AnsiContentCurationCheckpoint.json"),
         "utf8"
     )
 );
 const POST_CURATION_DUPLICATE_SCRIPTS = new Set(
     CONTENT_CHECKPOINT.removals.postCurationDuplicateWorks.flatMap(
-        ({ removedScripts = [] }) =>
-            removedScripts.map((name) => `${name}.ps1`)
+        ({ removedScripts = [] }) => removedScripts.map((name) => `${name}.ps1`)
     )
 );
 
@@ -513,14 +546,8 @@ function assertAppliedMixedTextLedger(
             );
             if (evidence.action === "blank-columns") {
                 assert.ok(Array.isArray(evidence.columnRanges));
-                assert.match(
-                    evidence.expectedRawSha256,
-                    /^[a-f\d]{64}$/u
-                );
-                assert.match(
-                    evidence.expectedRenderedSha256,
-                    /^[a-f\d]{64}$/u
-                );
+                assert.match(evidence.expectedRawSha256, /^[a-f\d]{64}$/u);
+                assert.match(evidence.expectedRenderedSha256, /^[a-f\d]{64}$/u);
                 const key = `${candidate.file}:${evidence.row}`;
                 if (expectedSuperseded.has(key)) {
                     supersededRows.push({
@@ -539,9 +566,7 @@ function assertAppliedMixedTextLedger(
                         `${candidate.file}: row ${evidence.row} targeted raw projection drifted`
                     );
                     assert.equal(
-                        getReviewEvidenceHash(
-                            stripAnsiControls(currentRow)
-                        ),
+                        getReviewEvidenceHash(stripAnsiControls(currentRow)),
                         evidence.expectedRenderedSha256,
                         `${candidate.file}: row ${evidence.row} targeted rendered projection drifted`
                     );
@@ -565,9 +590,7 @@ function assertAppliedMixedTextLedger(
 }
 
 test("residual content review is hash-only and fully applied", () => {
-    const ledger = JSON.parse(
-        fs.readFileSync(CONTENT_LEDGER_PATH, "utf8")
-    );
+    const ledger = JSON.parse(fs.readFileSync(CONTENT_LEDGER_PATH, "utf8"));
     const supersedingLedger = JSON.parse(
         fs.readFileSync(MIXED_TEXT_LEDGER64_PATH, "utf8")
     );
@@ -605,10 +628,7 @@ test("residual content review is hash-only and fully applied", () => {
         const currentHashCounts = new Map();
         for (const row of rows) {
             const hash = getReviewEvidenceHash(stripAnsiControls(row));
-            currentHashCounts.set(
-                hash,
-                (currentHashCounts.get(hash) ?? 0) + 1
-            );
+            currentHashCounts.set(hash, (currentHashCounts.get(hash) ?? 0) + 1);
         }
         for (const evidence of candidate.evidence) {
             assert.ok(!Object.hasOwn(evidence, "text"));
@@ -624,9 +644,7 @@ test("residual content review is hash-only and fully applied", () => {
     for (const retention of ledger.reviewedRetentions) {
         const { rows } = readPayloadRows(retention.file);
         const currentHashes = new Set(
-            rows.map((row) =>
-                getReviewEvidenceHash(stripAnsiControls(row))
-            )
+            rows.map((row) => getReviewEvidenceHash(stripAnsiControls(row)))
         );
         for (const evidence of retention.evidence) {
             const coordinate = `${retention.file}:${evidence.row}`;
@@ -652,9 +670,7 @@ test("residual content review is hash-only and fully applied", () => {
         assert.equal(work.disposition, "rejected-content");
         for (const script of work.scripts) {
             assert.equal(
-                fs.existsSync(
-                    path.join(SCRIPTS_DIRECTORY, `${script}.ps1`)
-                ),
+                fs.existsSync(path.join(SCRIPTS_DIRECTORY, `${script}.ps1`)),
                 false,
                 `${script}: rejected script still exists`
             );
@@ -663,9 +679,7 @@ test("residual content review is hash-only and fully applied", () => {
 });
 
 test("mixed text review is hash-only and fully applied", () => {
-    const ledger = JSON.parse(
-        fs.readFileSync(MIXED_TEXT_LEDGER_PATH, "utf8")
-    );
+    const ledger = JSON.parse(fs.readFileSync(MIXED_TEXT_LEDGER_PATH, "utf8"));
 
     assert.equal(ledger.schemaVersion, 1);
     assert.deepEqual(ledger.summary, {
@@ -725,9 +739,7 @@ test("mixed text review is hash-only and fully applied", () => {
 });
 
 test("second mixed text review is hash-only and fully applied", () => {
-    const ledger = JSON.parse(
-        fs.readFileSync(MIXED_TEXT_LEDGER2_PATH, "utf8")
-    );
+    const ledger = JSON.parse(fs.readFileSync(MIXED_TEXT_LEDGER2_PATH, "utf8"));
 
     assert.equal(ledger.schemaVersion, 1);
     assert.equal(ledger.summary.candidateFiles, 755);
@@ -828,9 +840,7 @@ test("second mixed text review is hash-only and fully applied", () => {
 });
 
 test("third mixed text review is hash-only and fully applied", () => {
-    const ledger = JSON.parse(
-        fs.readFileSync(MIXED_TEXT_LEDGER3_PATH, "utf8")
-    );
+    const ledger = JSON.parse(fs.readFileSync(MIXED_TEXT_LEDGER3_PATH, "utf8"));
 
     assert.equal(ledger.schemaVersion, 1);
     assert.equal(ledger.summary.candidateFiles, 753);
@@ -904,9 +914,7 @@ test("third mixed text review is hash-only and fully applied", () => {
 });
 
 test("fourth mixed text review is hash-only and fully applied", () => {
-    const ledger = JSON.parse(
-        fs.readFileSync(MIXED_TEXT_LEDGER4_PATH, "utf8")
-    );
+    const ledger = JSON.parse(fs.readFileSync(MIXED_TEXT_LEDGER4_PATH, "utf8"));
 
     assert.equal(ledger.schemaVersion, 1);
     assert.equal(ledger.summary.candidateFiles, 709);
@@ -961,9 +969,7 @@ test("fourth mixed text review is hash-only and fully applied", () => {
 });
 
 test("fifth mixed text review is hash-only and fully applied", () => {
-    const ledger = JSON.parse(
-        fs.readFileSync(MIXED_TEXT_LEDGER5_PATH, "utf8")
-    );
+    const ledger = JSON.parse(fs.readFileSync(MIXED_TEXT_LEDGER5_PATH, "utf8"));
 
     assert.equal(ledger.schemaVersion, 1);
     assert.equal(ledger.summary.candidateFiles, 671);
@@ -1019,9 +1025,7 @@ test("fifth mixed text review is hash-only and fully applied", () => {
 });
 
 test("sixth mixed text review is hash-only and fully applied", () => {
-    const ledger = JSON.parse(
-        fs.readFileSync(MIXED_TEXT_LEDGER6_PATH, "utf8")
-    );
+    const ledger = JSON.parse(fs.readFileSync(MIXED_TEXT_LEDGER6_PATH, "utf8"));
 
     assert.equal(ledger.schemaVersion, 1);
     assert.equal(ledger.summary.candidateFiles, 1276);
@@ -1033,10 +1037,7 @@ test("sixth mixed text review is hash-only and fully applied", () => {
         ),
         1943
     );
-    assert.equal(
-        new Set(ledger.candidates.map(({ file }) => file)).size,
-        1276
-    );
+    assert.equal(new Set(ledger.candidates.map(({ file }) => file)).size, 1276);
     assert.equal(
         ledger.candidates.reduce(
             (total, candidate) => total + candidate.evidence.length,
@@ -1080,9 +1081,7 @@ test("sixth mixed text review is hash-only and fully applied", () => {
 });
 
 test("seventh mixed text review is hash-only and fully applied", () => {
-    const ledger = JSON.parse(
-        fs.readFileSync(MIXED_TEXT_LEDGER7_PATH, "utf8")
-    );
+    const ledger = JSON.parse(fs.readFileSync(MIXED_TEXT_LEDGER7_PATH, "utf8"));
 
     assert.equal(ledger.schemaVersion, 1);
     assert.equal(ledger.summary.candidateFiles, 1376);
@@ -1094,10 +1093,7 @@ test("seventh mixed text review is hash-only and fully applied", () => {
         ),
         1897
     );
-    assert.equal(
-        new Set(ledger.candidates.map(({ file }) => file)).size,
-        1376
-    );
+    assert.equal(new Set(ledger.candidates.map(({ file }) => file)).size, 1376);
     assert.equal(
         ledger.candidates.reduce(
             (total, candidate) => total + candidate.evidence.length,
@@ -1141,9 +1137,7 @@ test("seventh mixed text review is hash-only and fully applied", () => {
 });
 
 test("eighth mixed text review is hash-only and fully applied", () => {
-    const ledger = JSON.parse(
-        fs.readFileSync(MIXED_TEXT_LEDGER8_PATH, "utf8")
-    );
+    const ledger = JSON.parse(fs.readFileSync(MIXED_TEXT_LEDGER8_PATH, "utf8"));
 
     assert.equal(ledger.schemaVersion, 1);
     assert.equal(ledger.summary.candidateFiles, 785);
@@ -1155,10 +1149,7 @@ test("eighth mixed text review is hash-only and fully applied", () => {
         ),
         1082
     );
-    assert.equal(
-        new Set(ledger.candidates.map(({ file }) => file)).size,
-        785
-    );
+    assert.equal(new Set(ledger.candidates.map(({ file }) => file)).size, 785);
     assert.equal(
         ledger.candidates.reduce(
             (total, candidate) => total + candidate.evidence.length,
@@ -1203,9 +1194,7 @@ test("eighth mixed text review is hash-only and fully applied", () => {
 });
 
 test("ninth mixed text review is hash-only and fully applied", () => {
-    const ledger = JSON.parse(
-        fs.readFileSync(MIXED_TEXT_LEDGER9_PATH, "utf8")
-    );
+    const ledger = JSON.parse(fs.readFileSync(MIXED_TEXT_LEDGER9_PATH, "utf8"));
 
     assert.equal(ledger.schemaVersion, 1);
     assert.equal(ledger.summary.candidateFiles, 134);
@@ -1217,10 +1206,7 @@ test("ninth mixed text review is hash-only and fully applied", () => {
         ),
         207
     );
-    assert.equal(
-        new Set(ledger.candidates.map(({ file }) => file)).size,
-        134
-    );
+    assert.equal(new Set(ledger.candidates.map(({ file }) => file)).size, 134);
     assert.equal(
         ledger.candidates.reduce(
             (total, candidate) => total + candidate.evidence.length,
@@ -1786,9 +1772,7 @@ test("fifty-fifth mixed text review is hash-only and fully applied", () => {
     assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER55_PATH, {
         candidateFiles: 31,
         evidenceRows: 39,
-        expectedMissingRows: [
-            { file: "16c-royart3-cos2-part02.ps1", row: 23 },
-        ],
+        expectedMissingRows: [{ file: "16c-royart3-cos2-part02.ps1", row: 23 }],
     });
 });
 
@@ -1951,9 +1935,7 @@ test("seventy-fourth mixed text review is hash-only and fully applied", () => {
     assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER74_PATH, {
         candidateFiles: 6,
         evidenceRows: 17,
-        expectedMissingRows: [
-            { file: "16c-jasper07-avg-brzl.ps1", row: 25 },
-        ],
+        expectedMissingRows: [{ file: "16c-jasper07-avg-brzl.ps1", row: 25 }],
     });
 });
 
@@ -2027,9 +2009,7 @@ test("eighty-second mixed text review is hash-only and fully applied", () => {
     assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER82_PATH, {
         candidateFiles: 3,
         evidenceRows: 3,
-        expectedMissingRows: [
-            { file: "16c-d38-02-bs-merge.ps1", row: 30 },
-        ],
+        expectedMissingRows: [{ file: "16c-d38-02-bs-merge.ps1", row: 30 }],
     });
 });
 
@@ -2130,51 +2110,99 @@ test("ninety-fourth mixed text review is hash-only and fully applied", () => {
 });
 
 test("ninety-fifth mixed text review is hash-only and fully applied", () => {
-    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER95_PATH, { candidateFiles: 8, evidenceRows: 8, expectedMissingRows: [] });
+    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER95_PATH, {
+        candidateFiles: 8,
+        evidenceRows: 8,
+        expectedMissingRows: [],
+    });
 });
 
 test("ninety-sixth mixed text review is hash-only and fully applied", () => {
-    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER96_PATH, { candidateFiles: 12, evidenceRows: 13, expectedMissingRows: [] });
+    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER96_PATH, {
+        candidateFiles: 12,
+        evidenceRows: 13,
+        expectedMissingRows: [],
+    });
 });
 
 test("ninety-seventh mixed text review is hash-only and fully applied", () => {
-    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER97_PATH, { candidateFiles: 5, evidenceRows: 12, expectedMissingRows: [] });
+    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER97_PATH, {
+        candidateFiles: 5,
+        evidenceRows: 12,
+        expectedMissingRows: [],
+    });
 });
 
 test("ninety-eighth mixed text review is hash-only and fully applied", () => {
-    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER98_PATH, { candidateFiles: 1, evidenceRows: 1, expectedMissingRows: [] });
+    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER98_PATH, {
+        candidateFiles: 1,
+        evidenceRows: 1,
+        expectedMissingRows: [],
+    });
 });
 
 test("ninety-ninth mixed text review is hash-only and fully applied", () => {
-    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER99_PATH, { candidateFiles: 1, evidenceRows: 1, expectedMissingRows: [] });
+    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER99_PATH, {
+        candidateFiles: 1,
+        evidenceRows: 1,
+        expectedMissingRows: [],
+    });
 });
 
 test("one-hundredth mixed text review is hash-only and fully applied", () => {
-    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER100_PATH, { candidateFiles: 1, evidenceRows: 1, expectedMissingRows: [] });
+    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER100_PATH, {
+        candidateFiles: 1,
+        evidenceRows: 1,
+        expectedMissingRows: [],
+    });
 });
 
 test("one-hundred-first mixed text review is hash-only and fully applied", () => {
-    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER101_PATH, { candidateFiles: 33, evidenceRows: 41, expectedMissingRows: [] });
+    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER101_PATH, {
+        candidateFiles: 33,
+        evidenceRows: 41,
+        expectedMissingRows: [],
+    });
 });
 
 test("one-hundred-second mixed text review is hash-only and fully applied", () => {
-    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER102_PATH, { candidateFiles: 8, evidenceRows: 8, expectedMissingRows: [] });
+    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER102_PATH, {
+        candidateFiles: 8,
+        evidenceRows: 8,
+        expectedMissingRows: [],
+    });
 });
 
 test("one-hundred-third mixed text review is hash-only and fully applied", () => {
-    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER103_PATH, { candidateFiles: 9, evidenceRows: 9, expectedMissingRows: [] });
+    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER103_PATH, {
+        candidateFiles: 9,
+        evidenceRows: 9,
+        expectedMissingRows: [],
+    });
 });
 
 test("one-hundred-fourth mixed text review is hash-only and fully applied", () => {
-    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER104_PATH, { candidateFiles: 6, evidenceRows: 7, expectedMissingRows: [] });
+    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER104_PATH, {
+        candidateFiles: 6,
+        evidenceRows: 7,
+        expectedMissingRows: [],
+    });
 });
 
 test("one-hundred-fifth mixed text review is hash-only and fully applied", () => {
-    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER105_PATH, { candidateFiles: 9, evidenceRows: 9, expectedMissingRows: [] });
+    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER105_PATH, {
+        candidateFiles: 9,
+        evidenceRows: 9,
+        expectedMissingRows: [],
+    });
 });
 
 test("one-hundred-sixth mixed text review is hash-only and fully applied", () => {
-    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER106_PATH, { candidateFiles: 1, evidenceRows: 1, expectedMissingRows: [] });
+    assertAppliedMixedTextLedger(MIXED_TEXT_LEDGER106_PATH, {
+        candidateFiles: 1,
+        evidenceRows: 1,
+        expectedMissingRows: [],
+    });
 });
 
 test("residual geometry review preserves one blank row and every visible row", () => {

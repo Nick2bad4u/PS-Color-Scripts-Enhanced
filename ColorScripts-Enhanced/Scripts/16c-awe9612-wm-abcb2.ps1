@@ -1,18 +1,4 @@
-﻿# Converted from: WM-ABCB2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9612/raw/WM-ABCB2.ANS
-# Source Revision: archive-sha256:7053afed6e742c75d943ea86bb6e43e9d362e1c6f64e894c811e4835a8b40e13
-# Source SHA-256: 6d990c647d8b9c8b8d479b0ee9bc7f2fa8557d48fc4ec643902b9924fb52561c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WM-ABCB2.ANS by Widowmaker (AWE Lettering); released in awe9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ABCB Cafe Matrix
-# SAUCE Author: Widowmaker
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961202
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: ABCB Cafe Matrix by Widowmaker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9612-wm-abcb2
 
 Write-Host '
 [1;35;45m█████████████▀▀▀[0;35m▀▀▀▀▀▀▀[0;1;35;45m▀[0;35m▀▀▀▀▀▀[0;1;35;45m▀▀▀▀▀▀▀▀███▀▀[0;35m▀▀[0;1;35;45m▀▀▀[0;35m▀▀[0;1;35;45m▀▀[0;35m▀▀▀▀▀▀[0;1;35;45m▀▀▀▀▀▀▀██████████▀████[0m

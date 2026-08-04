@@ -1,18 +1,4 @@
-﻿# Converted from: US-TLO0P.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p09_00/raw/US-TLO0P.ANS
-# Source Revision: archive-sha256:2d55e0471b241c84b2000d7f1ba05c65c9f1c93ead6af87d8d0b58764c2b8dba
-# Source SHA-256: 0ffc5c8b6a6199836193ba6e97dc84bc0c83eb3e6f9119d04003f13fac42766e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TLO0P.ANS by Simonking + Potzkoten (bm^l0p); released in l0p09_00 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: thelo0p
-# SAUCE Author: potzkoten^simonking
-# SAUCE Group: bm^l0p
-# SAUCE Date: 20001128
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: thelo0p by Simonking + Potzkoten | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p09-00-us-tlo0p
 
 Write-Host '
 

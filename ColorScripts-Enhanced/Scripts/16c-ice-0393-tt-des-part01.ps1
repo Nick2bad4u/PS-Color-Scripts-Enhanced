@@ -1,13 +1,4 @@
-﻿# Converted from: TT-DES.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-0393/raw/TT-DES.ICE
-# Source Revision: archive-sha256:31b03d3a9d263e952227664fe802688e743ab14a707f16c150dab800192d5fc5
-# Source SHA-256: 0e53d5e0441d787598b00ccbae1a3daf761104a44ffebb4597e016ab6747e15b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TT-DES.ICE by Tempus Thales (ice-0393); released in ice-0393 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: TT-DES.ICE by Tempus Thales | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-0393-tt-des-part01
 
 Write-Host '
 

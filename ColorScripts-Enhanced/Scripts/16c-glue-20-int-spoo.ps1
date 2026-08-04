@@ -1,13 +1,4 @@
-﻿# Converted from: INT-SPOO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-20/raw/INT-SPOO.ANS
-# Source Revision: archive-sha256:393d047e2180bfd9243bab3697da037cf54274d924108dd74eafdca6bd3a4109
-# Source SHA-256: 335fc55d2dbdaf3bd90fbeb9053b20e581a6943db440d35f958dcc7aa488eb78
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: INT-SPOO.ANS by Internal (glue-20); released in glue-20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: INT-SPOO.ANS by Internal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-20-int-spoo
 
 Write-Host '
 [1;30m[0m[1;30m                                                              [0;1;34;42m      [0;1;34;40m [0;1;30;40m      [0m

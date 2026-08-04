@@ -1,17 +1,4 @@
-﻿# Converted from: SP-L3AF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst0297/raw/SP-L3AF.ANS
-# Source Revision: archive-sha256:181061fdc6bb6e04ad0b93dd012fda7546700e84ae107e51b8df5c633aa86030
-# Source SHA-256: 3c7811b6fd33b20a6c3166313d46d643e448f391835305a06a1e19757b68716f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SP-L3AF.ANS by Spunky (twst0297); released in twst0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: What is this?!?! I wonder
-# SAUCE Author: Spunky
-# SAUCE Date: 19970203
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: What is this?!?! I wonder by Spunky | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst0297-sp-l3af
 
 Write-Host '
                      [1;33;43m▒░[0;33m▀▀[0m            [32m   [0;37m [0;32m ▄▄▓[0;37m [0;33m▀[0;37m [0;33m▓▀▀▀▓ [0m

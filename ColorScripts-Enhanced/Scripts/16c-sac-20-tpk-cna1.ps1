@@ -1,13 +1,4 @@
-﻿# Converted from: TPK-CNA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac-20/raw/TPK-CNA1.ANS
-# Source Revision: archive-sha256:37d9297c05e183ee5c5f4337f0dac249a87c82d5850a45defc5754e9b6761086
-# Source SHA-256: 4cf171b4fd0188d3a166c907a3e4231070dce210d5d2776d4adc028ad530ac6a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TPK-CNA1.ANS by teepak; released in sac-20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: TPK-CNA1.ANS by teepak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac-20-tpk-cna1
 
 Write-Host '
 [1;30m                           [0m

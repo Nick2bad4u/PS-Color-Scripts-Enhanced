@@ -1,18 +1,4 @@
-﻿# Converted from: 09-FC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9703/raw/09-FC.ANS
-# Source Revision: archive-sha256:a9939674ffea8dfd0fb24f05e2f11874539fc93155c2d5ed5e55e91f76634858
-# Source SHA-256: 67124a59a7c7fe80f6fed514eb77c2a6cf2d7e3a88aa80a25e932f0989f01dfa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-FC.ANS by Fluor (AWE Lettering); released in awe9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Free Coke
-# SAUCE Author: Fluor
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970304
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Free Coke by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9703-09-fc
 
 Write-Host '
 [1m [0m                      [31m░[0m                     [1;31m░[0m               [1m [0m

@@ -1,19 +1,4 @@
-﻿# Converted from: tk-simulaatio.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel27/raw/tk-simulaatio.ans
-# Source Revision: raw-sha256:b38dafaec135a4e24a5be8bb65bcc3220edc52a6ee142fbd331c4e505f477546
-# Source SHA-256: b38dafaec135a4e24a5be8bb65bcc3220edc52a6ee142fbd331c4e505f477546
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tk-simulaatio.ans by The Knight + Somnambulist (FUEL); released in fuel27 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Simulaatio 2018
-# SAUCE Author: The Knight
-# SAUCE Group: FUEL
-# SAUCE Date: 20180515
-# SAUCE Dimensions: 80x128
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Simulaatio 2018 by The Knight + Somnambulist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel27-tk-simulaatio-part01
 
 Write-Host '
 

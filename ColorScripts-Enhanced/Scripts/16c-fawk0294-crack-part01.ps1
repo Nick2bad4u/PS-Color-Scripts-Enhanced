@@ -1,13 +1,4 @@
-﻿# Converted from: CRACK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fawk0294/raw/CRACK.ANS
-# Source Revision: archive-sha256:efa84212ca2490eca2ca5092c628bfac65d7f4e876c0e9ac1d284c52d301cde8
-# Source SHA-256: e916c35960b6d755564f18685c79c12fd93844499d3c147d8bffff0e70f60828
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CRACK.ANS by Marly Man (fawk0294); released in fawk0294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: CRACK.ANS by Marly Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fawk0294-crack-part01
 
 Write-Host '
                                    ▄▄▄▄▄▄▄

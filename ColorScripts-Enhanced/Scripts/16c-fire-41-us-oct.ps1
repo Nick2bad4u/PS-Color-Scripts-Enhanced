@@ -1,19 +1,4 @@
-﻿# Converted from: US-OCT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/US-OCT.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: b7ac549812d23950cf439ccc55e1e3479e945a64a959cac65045cc055d3d4d3e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-OCT.ANS by Tainted + Tetanus (fire); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: october sunset
-# SAUCE Author: tetanus / tainted
-# SAUCE Group: fire
-# SAUCE Date: 20241111
-# SAUCE Dimensions: 80x30
-# SAUCE Font: IBM VGA
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: october sunset by Tainted + Tetanus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-us-oct
 
 Write-Host '
                                              [1;30m░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: IZ-TOAST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0197/raw/IZ-TOAST.ANS
-# Source Revision: archive-sha256:db16ecaf9a5ba2dcf16f11149d4e3768d3e19930159af1ef0ef2625ea12b3e30
-# Source SHA-256: 767dcdfda0420fb2f36771074727f8462d1c56eafc14112946db59fd2d82e72c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-TOAST.ANS by Ize (fsn-0197); released in fsn-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: IZ-TOAST.ANS by Ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0197-iz-toast
 
 Write-Host '
 

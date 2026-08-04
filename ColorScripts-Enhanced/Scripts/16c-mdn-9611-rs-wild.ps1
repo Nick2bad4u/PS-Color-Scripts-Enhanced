@@ -1,19 +1,4 @@
-﻿# Converted from: RS-WILD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9611/raw/RS-WILD.ANS
-# Source Revision: archive-sha256:6b41322d047de0230f1e36ca781983cdc37fcc8e5dbee77febcac0b5e066cf9e
-# Source SHA-256: 2ed6212e2d105ed7c700d2f7b0b9d24015297669a1eb43451cb96f1bb35cea94
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-WILD.ANS by r0rshack (Maiden Productions); released in mdn-9611 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: arise log0n matrix
-# SAUCE Author: r0rshack
-# SAUCE Group: Maiden Productions
-# SAUCE Date: 19961014
-# SAUCE Dimensions: 80x23
-# SAUCE Comments: Rip this and your board will be attacked by the killer heavy | metal hamsters!
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: arise log0n matrix by r0rshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9611-rs-wild
 
 Write-Host '
     [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄[0m      [1;30m▄[0m [1;33m■[0;33m▀[0;1;33;43m░▓[0;1;33;40m█[0;1;33;43m▄▀[0;1;33;40m▄▄▀█[0;1;33;43m▄[0;1;33;40m███[0;1;33;43m▒[0;1;33;40m█▌[0;1;33;43m▓░[0;1;33;40m▄█▄▄[0;1;33;43m▒░[0;1;33;40m▄▄▄[0;1;33;43m▒[0;33m▀[0;37m [0;33m▄■[0;37m [0;1;30m░███[0;1;30;47m▓[0;1;30;40m██[0;1;30;47m▀[0;1;30;40m█▄▀[0;1;30;47m▓▒▓[0;1;30;40m██▓█░[0m

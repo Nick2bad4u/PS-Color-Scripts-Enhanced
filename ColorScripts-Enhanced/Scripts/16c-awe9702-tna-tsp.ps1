@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-TSP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9702/raw/TNA-TSP.ANS
-# Source Revision: archive-sha256:66fa024bb27d2c5c9da5d44e7d12f110f2c57bdedd32c6f0a850d91a30d582a8
-# Source SHA-256: fb7d6cd3181b43dbb581156cddd508cee348544ce46e287f75696b59742b85be
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-TSP.ANS by The Night Angel (AWE Lettering); released in awe9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Shroom Palace
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970122
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: The Shroom Palace by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9702-tna-tsp
 
 Write-Host '
 [34m░ [0;30;43m▒[0;1;33;43m▒[0;1;33;40m█ [0;31m▄[0;1;31;41m░[0;31m▀ [0;1;33m██▀▀██  █████[0;1;33;43m█[0;1;33;40m▀████[0;1;33;43m▀[0m [34m██▀[0;1;36m▄[0;36m▄  [0;34m▀[0;1;37;44mtna(awe)[0m ░  [1;34;44m░[0;34m█████▀▀▀█[0;1;34;44m░░ [0;30;44m░[0;34;40m▒░ ▄ [0;37;40m▄ ▀▀▄ [0;1;37;44m░ [0;34m██[0m

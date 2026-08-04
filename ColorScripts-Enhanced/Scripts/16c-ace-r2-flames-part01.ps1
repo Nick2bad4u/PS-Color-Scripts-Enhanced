@@ -1,13 +1,4 @@
-﻿# Converted from: FLAMES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ace-r2/raw/FLAMES.ANS
-# Source Revision: raw-sha256:ee5f26daaf696edfca21161ea3bc8a2d789d4a9cf595333ff9bbce7640f02f4d
-# Source SHA-256: ee5f26daaf696edfca21161ea3bc8a2d789d4a9cf595333ff9bbce7640f02f4d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FLAMES.ANS by Storm Hawk (ace-r2); released in ace-r2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: FLAMES.ANS by Storm Hawk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ace-r2-flames-part01
 
 Write-Host '
       [1;30m·[0m                                   [1;37m.[0m

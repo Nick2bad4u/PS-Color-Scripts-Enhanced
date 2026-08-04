@@ -1,18 +1,4 @@
-﻿# Converted from: JDA_INP4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg0596/raw/JDA_INP4.ANS
-# Source Revision: archive-sha256:d670382d351e02706636ed3f42d5424159eaf3d63803a18a032bc93392d9c38d
-# Source SHA-256: c8afd3618d04218c05337c730845c12b0eee4afb6e9fe53583944c011d7d32ab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JDA_INP4.ANS by Joda (DRG^INP); released in drg0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: InPulse Inc.
-# SAUCE Author: Joda
-# SAUCE Group: DRG^INP
-# SAUCE Date: 19960424
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: InPulse Inc. by Joda | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg0596-jda-inp4
 
 Write-Host '
 

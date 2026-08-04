@@ -1,18 +1,4 @@
-﻿# Converted from: B-CG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/unit05/raw/B-CG.ANS
-# Source Revision: archive-sha256:d9d081bcd648a606849ced3aa0d639f91baee945b215fdcfbb848c4f3e14fadc
-# Source SHA-256: 845c780c2367f250650d7742e62a29d9fd701251eb3d040b65200b650a73348f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: B-CG.ANS by b Love (unit artworks); released in unit05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Cemetary Gate
-# SAUCE Author: b Love
-# SAUCE Group: unit artworks
-# SAUCE Date: 19970111
-# SAUCE Dimensions: 80x25
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: The Cemetary Gate by b Love | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-unit05-b-cg
 
 Write-Host '
 [31m█[0;30;41m           [0;31;40m▀[0;30;41m [0;31;40m▀[0;30;41m     [0;1;31;41m▒▒▓█▓▒▒▒▒░░[0;30;41m░▒▒░▄▄  ▀▄▄▄▄▄▄ ▀▄▄▄▄▀▀[0;37;40m  [0;30;41m▄▄[0;1;31;41m░░[0;30;41m         [0;1;31;41m░░[0;30;41m [0;31;40m▀ ▀▀[0;30;41m [0;1;31;41m░░░[0m

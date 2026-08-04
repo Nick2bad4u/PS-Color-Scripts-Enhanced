@@ -1,13 +1,4 @@
-﻿# Converted from: TNA-004.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice0004a/raw/TNA-004.ICE
-# Source Revision: archive-sha256:bfc06c954be7f0ef73a1cdef8dddfdf1805bb02c6810989d32481de4e3fa5e6c
-# Source SHA-256: ab4d64cab9ca5f1890b86e38e41e8556075526aa609e68e2374a459191bce193
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-004.ICE by The Night Angel (ice0004a); released in ice0004a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: TNA-004.ICE by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice0004a-tna-004
 
 Write-Host '
                            [1;30m░[0m

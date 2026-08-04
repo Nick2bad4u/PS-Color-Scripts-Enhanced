@@ -1,18 +1,4 @@
-﻿# Converted from: KA-KOW1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9605a/raw/KA-KOW1.ICE
-# Source Revision: archive-sha256:cf7acb12a0ec01e1383bf24c3c45a68bc55fde8f0e38cd56180a1936aa9f8089
-# Source SHA-256: f91c68a7afba308ecf16502a75036d973561b128792f520997e973efe6a68451
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KA-KOW1.ICE by kadaver (iCE); released in ice9605a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: k0w
-# SAUCE Author: kadaver
-# SAUCE Group: iCE
-# SAUCE Date: 19960523
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: k0w by kadaver | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9605a-ka-kow1
 
 Write-Host '
                                                     [30;43m▀[0;37;40m       [0m

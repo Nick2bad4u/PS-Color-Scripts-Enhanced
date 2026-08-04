@@ -1,13 +1,4 @@
-﻿# Converted from: RKS-TB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rks-001/raw/RKS-TB.ANS
-# Source Revision: archive-sha256:705611cf766f4daf07b5db32b0a8c95a9f18fce166935f3ec3700f83898977de
-# Source SHA-256: 66b4430269685bd7da6c7266ed5ec577b3dbfec6dc1d4afb10c97f3741aa3950
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RKS-TB.ANS by Ruckus (rks-001); released in rks-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: RKS-TB.ANS by Ruckus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rks-001-rks-tb
 
 Write-Host '
 

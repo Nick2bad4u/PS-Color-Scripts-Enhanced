@@ -1,13 +1,4 @@
-﻿# Converted from: GW-ICEX.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9411/raw/GW-ICEX.ICE
-# Source Revision: archive-sha256:f886658398a77fb7bede9bec5c3391287ab0eb115da776e630e1d1096e09e7fb
-# Source SHA-256: 08967938b31fa31f1bcabdbd008a1aa5faaa83473ed3f0406716686f221f996a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GW-ICEX.ICE by Gwah (ice-9411); released in ice-9411 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 172-216
-# Columns: 1-80
+﻿# Artwork: GW-ICEX.ICE by Gwah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9411-gw-icex-part05
 
 Write-Host '
  [1;31m  [0m [31m█[0;1;37;41m▀▄[0;31m█▌▀[0;1;31m▄▄[0m [1;31m█████████████████████████████████▄ [0m          [1;31m▄▄▄▄▄▄[0m [1;31m▀▀██████▓[0m  [1;31m█[0m

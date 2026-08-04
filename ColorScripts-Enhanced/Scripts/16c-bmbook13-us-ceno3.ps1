@@ -1,18 +1,4 @@
-﻿# Converted from: US-CENO3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook13/raw/US-CENO3.ANS
-# Source Revision: archive-sha256:f383b37d2f0265a83b82afcdde57a4dae359d8a5127c467dcea28d0c8500d000
-# Source SHA-256: b1acee8ba711bf06090660bb4c15d94dddfaab2571305a8a1f1db66574a4c962
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CENO3.ANS by Avenger + Toot (Black Maiden); released in bmbook13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Cenobite logo!
-# SAUCE Author: ave.toot
-# SAUCE Group: Black Maiden
-# SAUCE Date: 19970427
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Cenobite logo! by Avenger + Toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook13-us-ceno3
 
 Write-Host '
 [34m█▀█  ▐[0;1;34;44m▄░[0;34m████████████████[0m   [34m▐[0;1;34;44m▄░[0;34m████▀██▀████████▀▀▀████▀▀[0;1;34;44m▀░[0;34m██▓░[0m    [34m▄[0m        [34m▄▄[0m

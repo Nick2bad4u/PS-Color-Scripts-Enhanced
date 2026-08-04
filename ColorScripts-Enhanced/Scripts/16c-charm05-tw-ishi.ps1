@@ -1,18 +1,4 @@
-﻿# Converted from: tw-ishi.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/charm05/raw/tw-ishi.ans
-# Source Revision: raw-sha256:fd64ffa9d3a7967192b677b192611fef61ca1b5d91e71bb1d97459a8cfc40e02
-# Source SHA-256: fd64ffa9d3a7967192b677b192611fef61ca1b5d91e71bb1d97459a8cfc40e02
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tw-ishi.ans by twain (Charm); released in charm05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Ken Ishi
-# SAUCE Author: twain
-# SAUCE Group: Charm
-# SAUCE Date: 19970824
-# SAUCE Dimensions: 80x25
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Ken Ishi by twain | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-charm05-tw-ishi
 
 Write-Host '
           [33m$$$$$$$$$$$P[0;37m [0;1;33;43m$$$$$$[0m [1mb,[0m [36mg╓╓,,_[0;33m``""ⁿⁿ╚4[0;30;43m$$$$$$[0;33;40m@gg╓╓,_[0;36;40m`"╚╚4[0;30;46m$$$$[0m

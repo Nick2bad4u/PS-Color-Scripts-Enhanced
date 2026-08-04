@@ -1,18 +1,4 @@
-﻿# Converted from: _L8ER0N.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0797/raw/_L8ER0N.ANS
-# Source Revision: archive-sha256:36665a37d029524a07b3c0ade06e9ef3ded1bb8e68470bcb59063cd367dc113e
-# Source SHA-256: 484b37e2994df7b1e13e2107495930a1b1b481c75c7c1f727d72032c7fa194dd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _L8ER0N.ANS by phobia crew (phobia); released in plf-0797 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: good bye =) =) =)
-# SAUCE Author: phobia crew
-# SAUCE Group: phobia
-# SAUCE Date: 19970711
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: good bye =) =) =) by phobia crew | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0797-l8er0n
 
 Write-Host '
 

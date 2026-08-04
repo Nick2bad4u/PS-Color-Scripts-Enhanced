@@ -1,13 +1,4 @@
-﻿# Converted from: BX-LOGO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-ap-1/raw/BX-LOGO.ANS
-# Source Revision: archive-sha256:677d92e3c1456f7d379a6bfd6ef2a3e9f4462186ed5fa427899c9f4c329d0aa2
-# Source SHA-256: 5243bd9119cc4d7ad8b8172c37ba724c63955d2a0cf16bf188647890ecf470f1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BX-LOGO.ANS by Baxter (axf-ap-1); released in axf-ap-1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: BX-LOGO.ANS by Baxter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-ap-1-bx-logo
 
 Write-Host '
                               A [1;30m· [0mX [1;30m· [0mI [1;30m· [0mA [1;30m· [0mL

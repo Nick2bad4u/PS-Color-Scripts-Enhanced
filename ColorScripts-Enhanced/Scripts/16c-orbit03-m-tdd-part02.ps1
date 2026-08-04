@@ -1,18 +1,4 @@
-﻿# Converted from: M-TDD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/orbit03/raw/M-TDD.ANS
-# Source Revision: archive-sha256:41e277601947f4870737894ba32bafee8e6d549c0e55debd12dd55ece58784a4
-# Source SHA-256: 4e88d42d642298d76b838b9abb807fda41312664b32df7b26f949da5a28e3c46
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M-TDD.ANS by mouse (ORBiT); released in orbit03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Dark Domain
-# SAUCE Author: mouse
-# SAUCE Group: ORBiT
-# SAUCE Date: 19950423
-# SAUCE Dimensions: 80x25
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: The Dark Domain by mouse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-orbit03-m-tdd-part02
 
 Write-Host '
                   [37m█[0;1;37;47m░[0m█[1;47m░[0m█[1;47m░[0m [1;47m▒░▒▓░▓▒[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: TI-FV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thst995a/raw/TI-FV.ANS
-# Source Revision: archive-sha256:99fdeaae8a530fd5d02841ab58ea673bd295ce46b88d323c93f266729bea4197
-# Source SHA-256: 340ca4b0168359416394fd7aa1fa30212b91ed918b4aaffef936e799f35e94f9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TI-FV.ANS by TRiP (THRuSt); released in thst995a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: thrustvu opening screen
-# SAUCE Author: TRiP
-# SAUCE Group: THRuSt
-# SAUCE Date: 19950828
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: thrustvu opening screen by TRiP | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thst995a-ti-fv
 
 Write-Host '
       ▄█[1;47m░[0m████[1;47m░░▒▒▓▓▓▒▓░▒▒▓▓▓▓█▓▓█▓▓▓█▓▓▒[0m▄

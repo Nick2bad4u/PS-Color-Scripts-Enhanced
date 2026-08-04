@@ -1,13 +1,4 @@
-﻿# Converted from: US-EPIC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-31/raw/US-EPIC1.ANS
-# Source Revision: archive-sha256:125b240e4f7c12edf343cce3b91cea614ad5d43fdbdf64dc76d9a06354b6a99c
-# Source SHA-256: 03f1a927f0c88be8e54369a59d42ffe5c4e9c956bcd24fd97838f3d130686394
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-EPIC1.ANS by Zedfactor + Avenging Angel (glue-31); released in glue-31 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: US-EPIC1.ANS by Zedfactor + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-31-us-epic1
 
 Write-Host '
    ▀▀[1;30m▀[0m ▄[1;30m▄[0m  [30m                                                                 [0m

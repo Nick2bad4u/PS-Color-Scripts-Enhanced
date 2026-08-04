@@ -1,18 +1,4 @@
-﻿# Converted from: HQ-MAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack05/raw/HQ-MAD.ANS
-# Source Revision: archive-sha256:0f39efe1490fd9c1b09c027a9c8f784da8c79c85e34415fa387aae8ccb65c757
-# Source SHA-256: 7f02aaa30eba74a2871064ff093b82776332b0e9a8a65d7ca5025f067b0b9d11
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HQ-MAD.ANS by Harlequin (Apocalyptic Visions); released in avpack05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Madness Network
-# SAUCE Author: Harlequin
-# SAUCE Group: Apocalyptic Visions
-# SAUCE Date: 19950527
-# SAUCE Dimensions: 80x25
-# Lines: 51-99
-# Columns: 1-80
+﻿# Artwork: Madness Network by Harlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack05-hq-mad-part02
 
 Write-Host '
 [31m▒▒▒▓▓█▓▓▒▒░░[0m      [31m░[0;1;37m▄██▓▓▓▓▓[0;33m██▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██[0;1;37m▓▓▓▓███[0m     [31m░░▒▒▒▒▓▓███████[0m

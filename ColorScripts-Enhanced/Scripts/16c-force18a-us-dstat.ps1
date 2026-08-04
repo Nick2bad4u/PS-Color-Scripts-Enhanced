@@ -1,17 +1,4 @@
-﻿# Converted from: US-DSTAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force18a/raw/US-DSTAT.ANS
-# Source Revision: archive-sha256:6a0f397e3657e6d033b73af64211a87e0404e38c6a0f4de7a8637861ae197039
-# Source SHA-256: 9d535f78a840a25e33cf22b0c7b902b49a3e5569a03b9b7c3243255a378d5f30
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DSTAT.ANS by Rzarector + Cryogenic (force18a); released in force18a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dark sorrow stats
-# SAUCE Author: cyro / rz
-# SAUCE Date: 19970613
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: dark sorrow stats by Rzarector + Cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force18a-us-dstat
 
 Write-Host '
 [1;34;44m▐▄░░   ▄░▄▄ ░▓▓▓▓█▄▄▄▄▄▄▄▄    ░░[0;34m▄▄[0m

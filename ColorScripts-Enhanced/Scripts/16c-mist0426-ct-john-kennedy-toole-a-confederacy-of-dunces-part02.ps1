@@ -1,20 +1,4 @@
-﻿# Converted from: CT-JOHN_KENNEDY_TOOLE-A_CONFEDERACY_OF_DUNCES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0426/raw/CT-JOHN_KENNEDY_TOOLE-A_CONFEDERACY_OF_DUNCES.ANS
-# Source Revision: archive-sha256:c759ba228fb42808866da1267838a1ce2371215b87bc273c64f35f4bc653e77d
-# Source SHA-256: 1d0c231813dbbe68a161a74e029094ef0e32d0de430c552221fd7b8fdbe0167d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CT-JOHN_KENNEDY_TOOLE-A_CONFEDERACY_OF_DUNCES.ANS by Cthulu (Mistigris); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: A Confederacy of Dunces
-# SAUCE Author: Cthulu
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260425
-# SAUCE Dimensions: 80x69
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Grove Press, 1987.  Cover art designed by Charles Rue Woods and | illustrated by Myron Grossman and Michael Tedesco.
-# Lines: 38-69
-# Columns: 1-80
+﻿# Artwork: A Confederacy of Dunces by Cthulu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0426-ct-john-kennedy-toole-a-confederacy-of-dunces-part02
 
 Write-Host '
 [34m                [0;1;34;44m▓[0;1;34;40m▀▄▀▀▀▀██[0m [1;33m█▀█▄▀▀█████████████▓▄▀[0m [1;31m█[0;1;31;41m▓[0;1;31;40m█▄[0;1;33;40m▀[0m [34m▒▓███[0;37m [0;35m▓[0;37m [0;34m▒▓███[0;37m [0;35m▓[0;37m [0;34m▒▓███████[0m

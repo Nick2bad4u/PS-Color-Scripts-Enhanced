@@ -1,18 +1,4 @@
-﻿# Converted from: LD-COLOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0402/raw/LD-COLOR.ANS
-# Source Revision: archive-sha256:19898cc2febb6deadccf50832dc421b4f362a33c899e27278bafd225bbc2d4d4
-# Source SHA-256: 63aea90e3ff3c1676050b6d48586057c47fbb3eebba35899e3b75be009cde119
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-COLOR.ANS by lazthaus (ld!) (Revival); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: BTDraw Color Selection
-# SAUCE Author: lazthaus (ld!)
-# SAUCE Group: Revival
-# SAUCE Date: 20020415
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: BTDraw Color Selection by lazthaus (ld!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0402-ld-color
 
 Write-Host '
 [1;36;46m▓▓░░░[0;36m█[0;1;36;46m░░[0;36m█▄[0;37m [0;36m▐█[0;1;36;46m░░[0;36m▌[0;1;30m▐[0;1;30;47m▓[0m▀▀███[1;30;47m░░▓[0;1;30;40m▌[0m▀[1;30;47m░[0;1;30;40m▌[0;36m▐[0;1;36;46m▓▓░░░[0;36m█▌▀[0;1;36m▒[0;36m█[0;37m [0;1;30m▐[0m█████▄ [1;30m▐██▄▄[0m     [1;30m▄[0m     [1;30m▀■[0m  [1;30m█▄▐█▀[0m▄▓▓▓

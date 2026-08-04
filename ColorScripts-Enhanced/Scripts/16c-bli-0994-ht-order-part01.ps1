@@ -1,13 +1,4 @@
-﻿# Converted from: HT-ORDER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bli-0994/raw/HT-ORDER.ANS
-# Source Revision: archive-sha256:e8a8a0a380e95ad8e079e29454639fb3744fea62262aae646675cdc56210b17e
-# Source SHA-256: db2a38f4ac85a986c37a9d19071d6ea1d3ea6e88b6b6be5319099b2154c77ae4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HT-ORDER.ANS by Hunter (bli-0994); released in bli-0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: HT-ORDER.ANS by Hunter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bli-0994-ht-order-part01
 
 Write-Host '
 [1;34;46m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0;36m▀▀▀▀▀▀██▓█▓█▓█▒█░█░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░[0m

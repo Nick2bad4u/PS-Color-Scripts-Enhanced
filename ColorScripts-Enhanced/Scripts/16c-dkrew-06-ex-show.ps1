@@ -1,18 +1,4 @@
-﻿# Converted from: EX-SHOW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dkrew-06/raw/EX-SHOW.ANS
-# Source Revision: archive-sha256:02960d7b88668b8887fe5cdf52da355c2d3dd37bf140c876abc30817d0d21bdb
-# Source SHA-256: 02c9d9bfabbe329c34631da74bd825035b67d2a230ab4ec71fd0d135505d8a81
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EX-SHOW.ANS by Ex-Con (Dead Krew!); released in dkrew-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: light SHOW!
-# SAUCE Author: Ex-Con
-# SAUCE Group: Dead Krew!
-# SAUCE Date: 19970408
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: light SHOW! by Ex-Con | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dkrew-06-ex-show
 
 Write-Host '
 [1;36;46m█▓▒░ [0;36m█████[0;1;36;46m░[0;36m███[0;1;36;46m▓[0;36m█[0;1;36;46m  [0;36m█[0;1;36;46m ▄▄■[0;36m████[0;1;36;46m░[0;36m████████[0;1;36;46m■▄▄[0;36m█[0;1;36;46m ▄▄▄■[0;36m██[0;1;36;46m░▒[0;36m███[0;1;36;46m■▄▄    ▄■[0;36m███[0;1;36;46m░ [0;36m███[0;1;36;46m  ▄■ [0;36m██[0;1;36;46m░▒▓█[0m

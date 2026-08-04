@@ -1,18 +1,4 @@
-﻿# Converted from: LC-HT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aim-0995/raw/LC-HT1.ANS
-# Source Revision: archive-sha256:a220548952a3ea8671cfb175f3376108351fef207e818016742117ad21a093c0
-# Source SHA-256: d44deb7dda7f9b7abbaaf947f1a447caf3a89857018e748bc0d7234009cb0936
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LC-HT1.ANS by Luc (.o AiM o.); released in aim-0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: High Times BBs ansii
-# SAUCE Author: Luc
-# SAUCE Group: .o AiM o.
-# SAUCE Date: 19950911
-# SAUCE Dimensions: 80x96
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: High Times BBs ansii by Luc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aim-0995-lc-ht1-part01
 
 Write-Host '
 [30m█[0;1;30m■[0;30m██████████████████████████████████████████████████████████[0;1;30m▄▓[0;30m██████████████████[0m

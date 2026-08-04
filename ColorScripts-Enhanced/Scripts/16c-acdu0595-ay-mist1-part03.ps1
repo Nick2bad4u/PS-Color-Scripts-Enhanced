@@ -1,18 +1,4 @@
-﻿# Converted from: AY-MIST1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0595/raw/AY-MIST1.ANS
-# Source Revision: archive-sha256:1a664cdcc2084e4e5945a0d8fd0224453424a0dd62ea58b8b239525b59199682
-# Source SHA-256: e69ac9e473ffb55a1ef7da1c5e91b0854c74634f1c93d77cef0cde8f54b90694
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AY-MIST1.ANS by Asylum (ACiD Productions); released in acdu0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Mist
-# SAUCE Author: Asylum
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950411
-# SAUCE Dimensions: 80x112
-# Lines: 75-112
-# Columns: 1-80
+﻿# Artwork: Mist by Asylum | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0595-ay-mist1-part03
 
 Write-Host '
 [1m██████████▌[0;33m▐[0;1;31;43m▐[0;1;31;40m▀▓████████[0;1;31;43m▀[0;33m▀[0;1;31m   [0;33m░■▄[0m          [33m▄[0;1;31;43m▄[0;1;31;40m█████████████████████████████[0;1;31;43m▀[0;33m▀[0;1;31m [0;1;31;43m ▄▓[0;1;31;40m█[0m

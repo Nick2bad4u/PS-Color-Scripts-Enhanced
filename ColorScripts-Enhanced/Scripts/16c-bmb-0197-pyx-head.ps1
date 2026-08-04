@@ -1,13 +1,4 @@
-﻿# Converted from: PYX-HEAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0197/raw/PYX-HEAD.ANS
-# Source Revision: archive-sha256:331ffa2c0b41c075aec836339cfb4b33b33b171a17da17bd721952cf3966c823
-# Source SHA-256: b2971b5227ff95791cc415acf578283a2ea62fe5e25edbe6fb8fb26ef320be05
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-HEAD.ANS by Pyx (bmb-0197); released in bmb-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: PYX-HEAD.ANS by Pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0197-pyx-head
 
 Write-Host '
                         ▄▄

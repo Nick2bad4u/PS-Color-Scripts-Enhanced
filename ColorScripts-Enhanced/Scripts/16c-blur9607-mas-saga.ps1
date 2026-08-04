@@ -1,18 +1,4 @@
-﻿# Converted from: MAS-SAGA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blur9607/raw/MAS-SAGA.ANS
-# Source Revision: archive-sha256:b26c8b94015ee6d1b8810f7d19551196eb13cdc7b545981a4755cd2ae5715624
-# Source SHA-256: 0d514fe7e77aab57ea698fab708b4b44dfddbe19aa89dca023ce244384f19cec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MAS-SAGA.ANS by mass hypnosis (blur); released in blur9607 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: untold saga matrix
-# SAUCE Author: mass hypnosis
-# SAUCE Group: blur
-# SAUCE Date: 19960627
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: untold saga matrix by mass hypnosis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blur9607-mas-saga
 
 Write-Host '
 [1;30;47m▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m█[0;1;30;47m▓▓░  ░▄░[0;1;30;40m██▀▀▀▀▀▀▀▀█[0;1;30;47m░▀▀▒▀▓[0m  u    n      [1mt[0m      [1mo[0m       l     d   [1;30m███[0;1;30;47m▀░▀[0;1;37;47m▓[0;1;30;47m▓[0;1;30;40m████[0m

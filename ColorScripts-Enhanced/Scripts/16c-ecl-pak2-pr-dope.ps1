@@ -1,18 +1,4 @@
-﻿# Converted from: PR_DOPE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak2/raw/PR_DOPE.ANS
-# Source Revision: archive-sha256:c83fd66fd5682c2a8b3a34174fe62c7584ac006f8517d86002eef3fdd8671285
-# Source SHA-256: 15e7c8a4170677de39a531491f179d90cfac069c71e734eed14f888b931fd24c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR_DOPE.ANS by president (ecolove); released in ecl-pak2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: dope logo
-# SAUCE Author: president
-# SAUCE Group: ecolove
-# SAUCE Date: 19971223
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: dope logo by president | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak2-pr-dope
 
 Write-Host '
                             [1;30m▄▄█[0;35m [0;34m▄▄▄▄[0;37m [0;1;31m       [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: XBE-ACD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-1196/raw/XBE-ACD.ANS
-# Source Revision: archive-sha256:ea255d5404a293fd28c5348aeea6d132b83dc51aad0630d7773e1cb9fa7be562
-# Source SHA-256: 1368b0784ac1b6326805d976812b211205d42cac0fa512172b064b6ca70c47ef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XBE-ACD.ANS by Xerobe (Bamboosh); released in bmb-1196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Acid Trip
-# SAUCE Author: Xerobe
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19961101
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Acid Trip by Xerobe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-1196-xbe-acd
 
 Write-Host '
 

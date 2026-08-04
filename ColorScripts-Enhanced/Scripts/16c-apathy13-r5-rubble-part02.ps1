@@ -1,20 +1,4 @@
-﻿# Converted from: r5-RUBBLE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy13/raw/r5-RUBBLE.ANS
-# Source Revision: archive-sha256:3ed7178f860604c6b9786846d46fd13095846b81c16a5324edc4e4b9ea7e6ba8
-# Source SHA-256: 542462feae5ac4ce64cd89e1eb1196d66ace22b434c1ee2e61f2664ed26f4ac6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: r5-RUBBLE.ANS by resetsurvivor (apathy); released in apathy13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: rubble
-# SAUCE Author: resetsurvivor
-# SAUCE Group: apathy
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x150
-# SAUCE Font: IBM VGA
-# SAUCE Comments: First ansi in almost 4 years!
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: rubble by resetsurvivor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy13-r5-rubble-part02
 
 Write-Host '
 [1;30m██████▄[0m  [1;36m▀▀▄▄■[0m [1;30m▐███████[0m  [1;31;47m▓[0;1;31;40m█████████████████████████████████[0m  [1;31m▄██[0m █ [1;31m▐██▌[0m [1;33m█████▓[0m

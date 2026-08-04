@@ -1,18 +1,4 @@
-﻿# Converted from: TS-IMP0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy10/raw/TS-IMP0.ANS
-# Source Revision: archive-sha256:75431876417bf4bfaa2e247245b077f3c9a30507897439fd887fb6ea72c947ca
-# Source SHA-256: 9bff6e16cfb68752cb8286576cfe9a4d3e3bc83ec1d72c0146c8e5c7e704c54a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-IMP0.ANS by Transient (apathy); released in apathy10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Impure
-# SAUCE Author: Transient
-# SAUCE Group: apathy
-# SAUCE Date: 19960521
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Impure by Transient | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy10-ts-imp0
 
 Write-Host '
 [33m▀ ▀▀█▀▀▀▀▀▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀██▌[0m  [1;37m░░[0m [33m▐[0;1;31;43m░[0;1;37;43m░▒[0;1;31;40m█[0;33m▀[0;1;31m▀[0;33m▀[0;1;31m▀▀▀▀▀[0m▀▀▀[1m▀▀[0m▀█▀[1m▀▀[0m▀[1m▀▀▀▀▀▀[0;1;33;47m░▒[0;1;33;40m█[0;1;37;40m  ░░[0m [1;37;40m▐[0;1;33;47m░▒[0;1;37;40m██[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: CAV-FUEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel12/raw/CAV-FUEL.ANS
-# Source Revision: archive-sha256:ebe2e7b01f31e0e82aa2702a876007d4ec2dd824b98bdf40e4d59e2b113da7e4
-# Source SHA-256: 3bcc5af68d957fb5ec04068f478705696a163cc7126aa54fc2fcaf216f8f0899
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CAV-FUEL.ANS by Caviar (Fuel Productions); released in fuel12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fuel
-# SAUCE Author: Caviar
-# SAUCE Group: Fuel Productions
-# SAUCE Date: 19970401
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Fuel by Caviar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel12-cav-fuel
 
 Write-Host '
                                        [34m░[0;30;44m▓[0m       [34;40m▄▀[0;37;40m  [0;34;40m▀▄[0m     [35;40mcaviar<[0;1;35;40mfuel[0;35m>[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: SM-XEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde0394/raw/SM-XEN.ANS
-# Source Revision: archive-sha256:de6ed9ab061eb3873e65e8592983e98d7529a8bb505e6f2812dc10ac1d2b7ff0
-# Source SHA-256: 6f75e0e27b1dd012d47c45d395acb31dee972a6868da5fe79c70fb8772bf35ae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-XEN.ANS by Shadow Master (blde0394); released in blde0394 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: SM-XEN.ANS by Shadow Master | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde0394-sm-xen
 
 Write-Host '
 [1m  [0;1;36;46m█[0m              [1;30;44m█[0m  [1;30;40m▄[0m▄[1m▄[0m▄[1;30m▄  ▄[0m▄[1;30m▄ ▄  ▄[0m▄[1m▄[0m▄[1;30m▄  ▄[0m▄[1m▄[0m▄[1;30m▄  ▄[0m▄[1m▄[0m▄[1;30m▄  ▄[0m▄[1;30m▄ ▄  [0;1;37m▄  [0;1;30m▄[0m▄[1m▄[0m▄[1;30m▄[0m

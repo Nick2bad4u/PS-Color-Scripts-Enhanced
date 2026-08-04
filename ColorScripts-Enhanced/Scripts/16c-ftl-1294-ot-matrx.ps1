@@ -1,13 +1,4 @@
-﻿# Converted from: OT-MATRX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ftl-1294/raw/OT-MATRX.ANS
-# Source Revision: archive-sha256:f8ccc220b0de5ccd6871a5c0a000348af8da1cdf2f145236d55f7c808439450b
-# Source SHA-256: 50f4dfe548859ac876be7a3c7f2709abf7dc3f8f9a4120d5966c579ad2b552b6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OT-MATRX.ANS by Omot (ftl-1294); released in ftl-1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: OT-MATRX.ANS by Omot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ftl-1294-ot-matrx
 
 Write-Host '
 [32m█████▀▄[0;1;32;42m▓▒░[0;32m████[0;1;32;42mOmot.Futile[0;32m████████ [0;1;32;42m▓▒░[0;32m████ [0;1;32;42m▓▒░[0m [32m███████████████[0;1;32;42m░▒▓[0m [32m███████[0;1;32;42m░▒▓[0m [32m████[0m

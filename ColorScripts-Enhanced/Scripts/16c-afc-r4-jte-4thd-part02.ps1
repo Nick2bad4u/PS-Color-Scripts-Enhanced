@@ -1,13 +1,4 @@
-﻿# Converted from: JTE-4THD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r4/raw/JTE-4THD.ANS
-# Source Revision: raw-sha256:584ec4db6cc46959ffd38451f3d2a6eefe9bb6330fe6a3339b5670b41c5c26e9
-# Source SHA-256: 584ec4db6cc46959ffd38451f3d2a6eefe9bb6330fe6a3339b5670b41c5c26e9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JTE-4THD.ANS by Jate (afc-r4); released in afc-r4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 37-72
-# Columns: 1-80
+﻿# Artwork: JTE-4THD.ANS by Jate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r4-jte-4thd-part02
 
 Write-Host '
 [1;30;40m▓[0;1;30;47m▓▒░ ░▒ [0;1;37;47m▒[0;1;30;47m█ ░ ▐[0;1;30;40m█[0;35m▌[0;34m░    [0;1;35m▐[0;1;37;47m█   [0;1;30;47m█   ▐█▐▌▐▌  ▌ ▐▌ █    █   ██ █      ▐▌▐▌     █ █   ██ [0m

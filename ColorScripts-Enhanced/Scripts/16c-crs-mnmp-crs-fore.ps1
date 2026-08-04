@@ -1,18 +1,4 @@
-﻿# Converted from: CRS-FORE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/crs-mnmp/raw/CRS-FORE.ANS
-# Source Revision: archive-sha256:4c71aa1f74ffad0ca3335c8dad34a646b2185de53733a326aa84879cc65a88a8
-# Source SHA-256: 79a49d395ad0682c47bf6ed6c267e72842c5443b55e45f610c2a44b30a850536
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CRS-FORE.ANS by Crasher (just-x); released in crs-mnmp and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Forest into sunny caramel
-# SAUCE Author: Crasher
-# SAUCE Group: just-x
-# SAUCE Date: 20031008
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Forest into sunny caramel by Crasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-crs-mnmp-crs-fore
 
 Write-Host '
 [46m ┐ ╖[0;1;30;43m▓[0;1;33;43m [0;1;30;43m▓▓[0;32;46m▓▓▒[0;37;46m [0;1;30;43m▒[0;1;33;43m  [0;1;30;43m▓▓▓[0;46m [0;1;30;43m▓[0;43m [0;1;30;43m██▓[0;46m  [0;32;46m░[0;1;32;46m░▒▓[0;46m▓╗ ⌂ [0;1;33;47m▓[0;1;33;43m [0;1;30;43m██▓[0;32;46m▒▒▒[0;37;46m╨ ╧[0;32;46m▓[0;37;46m╨▓╗ ⌂[0;1;30;43m▒[0;1;33;43m  [0;1;30;43m▓▓▓[0;46m     ╙▓╗[0;32;46m░[0;37;46m⌂  [0;32;46m▒[0;37;46m   ╙  [0;1;30;43m▒[0;1;33;43m [0m

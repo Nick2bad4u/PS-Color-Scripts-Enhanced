@@ -1,18 +1,4 @@
-﻿# Converted from: SHERLOCK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1197/raw/SHERLOCK.ANS
-# Source Revision: archive-sha256:3a9d669c1bad2a5b99df2ca946d3588549aec30547a75fa8cf9c1fc4d0bb44db
-# Source SHA-256: ce9d284fb47d15e98b4657abb46fa1d08bee4c906468b1e0c4ad4ab4604687ef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SHERLOCK.ANS by Handiboy + Quip + Grinch (mISTFUNK 1997); released in mist1197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Sherlock Holmes / Dancing / YMCA
-# SAUCE Author: Handiboy, Quip, Grin
-# SAUCE Group: mISTFUNK 1997
-# SAUCE Date: 19970814
-# SAUCE Dimensions: 80x25
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: Sherlock Holmes / Dancing / YMCA by Handiboy + Quip + Grinch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1197-sherlock
 
 Write-Host '
 

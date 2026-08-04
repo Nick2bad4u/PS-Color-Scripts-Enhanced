@@ -1,17 +1,4 @@
-﻿# Converted from: BS-CORE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel16/raw/BS-CORE.ANS
-# Source Revision: archive-sha256:78bbfd1159c4b51678435d1ff23762559e425f3010119f2abd28bf83d67e513d
-# Source SHA-256: 581748c7de65cec67597d5f1fa19d25a54524b56fcaad2677e7dfbeb524639b4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-CORE.ANS by burps (fuel); released in fuel16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: core
-# SAUCE Author: burps
-# SAUCE Group: fuel
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: core by burps | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel16-bs-core
 
 Write-Host '
 [1;32m██[0;1;32;42m▓▀░[0;32m▀▀ [0;33m▄[0;1;37;43m░[0;33m▀▀ ▄▄▀▀[0;1;33;43m░[0;33m▄▄  [0;32m▀▀▓[0;1;32;42m▀[0;1;32;40m█▄[0;1;32;47m▓[0;1;32;42m▌[0;32m▓▀▀ [0;1;34m▄▄█[0;1;34;44m▄[0;1;34;40m█[0;1;34;44m▓[0;34m▄▄ [0;1;32m▀[0;32m▀ [0;1;34m▄▄█[0;1;34;44m▄[0;1;34;40m█[0;1;34;44m▓[0;34m▄▄ [0;1;34m▐[0;1;34;47m▓[0;1;34;44m▓[0;1;34;40m▄▄██[0;1;34;44m▄▓[0;1;34;40m▄[0;34m▄ [0;1;32m▀[0;32m▀ [0;1;34m▄▄[0;1;34;47m▓[0;1;34;44m▓▄▄[0;34m▄▄ [0m

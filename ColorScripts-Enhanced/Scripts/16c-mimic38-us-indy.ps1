@@ -1,13 +1,4 @@
-﻿# Converted from: us-indy.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic38/raw/us-indy.ans
-# Source Revision: archive-sha256:b70fa0575f54b674e8d5051f84e050fc2a6aadf81d01086b6cc61cb7022833be
-# Source SHA-256: 8ddac221504aa46c68ab083a158d1e2d32004a22f9a64bd3542d62a7f27d1e29
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-indy.ans by Metal Militia (mimic38); released in mimic38 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: us-indy.ans by Metal Militia | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic38-us-indy
 
 Write-Host '
 [1;30m[0m[1;30m[0m[1;30m[0m[31m[0;37m[0;1;30m[0m[1;30m[0m           [1;30m    [0m  [1;30m   └└[0m [31m [0;1;31m [0;31m  [0;1;30m    [0m                  [1;30m                            [0m

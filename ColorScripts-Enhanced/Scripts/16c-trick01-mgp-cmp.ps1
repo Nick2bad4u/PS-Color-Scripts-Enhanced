@@ -1,13 +1,4 @@
-﻿# Converted from: mgp-cmp.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/trick01/raw/mgp-cmp.ans
-# Source Revision: archive-sha256:c3ea36d0e67b15c9bdc665de1ef6dfc521c7508de688a6cdefd1a2cb4b54a376
-# Source SHA-256: 1a80d09ccef2dc67e923355221f9eb1fa6ffefe453ee71d8a715b0e6f082e12e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mgp-cmp.ans by Magpie (trick01); released in trick01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: mgp-cmp.ans by Magpie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-trick01-mgp-cmp
 
 Write-Host '
                                   [32m░[0m     [32m▐[0m                                    [33m ░[0;30;43m░[0m

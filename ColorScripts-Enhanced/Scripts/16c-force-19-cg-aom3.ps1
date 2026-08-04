@@ -1,16 +1,4 @@
-﻿# Converted from: CG-AOM3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-19/raw/CG-AOM3.ANS
-# Source Revision: archive-sha256:320b7ef547a1befeeebbf4abc563d8da701bdc66e2a87710081c803548b46926
-# Source SHA-256: 73d63eee70c0a4bdd2fc345e8eed5683c8f804d7e91471c5312bfd5355c111c1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-AOM3.ANS by cryogenic (force); released in force-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: AOM menu
-# SAUCE Author: cryogenic
-# SAUCE Group: force
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: AOM menu by cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-19-cg-aom3
 
 Write-Host '
 [1;36;46m░░[0;36m████[0;1;36;46m░░[0;36m▀▀░ [0;37m   ░░[0m                                                    [36m░▀▀[0;37;46m░[0;1;36;46m░░▒▒▓▓[0;1;36;47m▓[0m

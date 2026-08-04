@@ -1,18 +1,4 @@
-﻿# Converted from: SK!DEUS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p09_00/raw/SK!DEUS.ANS
-# Source Revision: archive-sha256:2d55e0471b241c84b2000d7f1ba05c65c9f1c93ead6af87d8d0b58764c2b8dba
-# Source SHA-256: 2929d2262848f64f399ad589fd09ef3f4e179a66760987343a5210b43a9c09d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!DEUS.ANS by sIMONkING (tHELo0p); released in l0p09_00 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: dEUS
-# SAUCE Author: sIMONkING
-# SAUCE Group: tHELo0p
-# SAUCE Date: 20001117
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: dEUS by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p09-00-sk-deus
 
 Write-Host '
 

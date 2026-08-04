@@ -1,18 +1,4 @@
-﻿# Converted from: 4O-NEO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-12/raw/4O-NEO.ANS
-# Source Revision: archive-sha256:5c96c14e912296494a464a42e768321452d811693cf172945a9502eb4396c8bb
-# Source SHA-256: 031d323266aba78b2c7ded74914108ca12de3805c4ce2b28751cc31783a32f7e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 4O-NEO.ANS by Mr4tune (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Neosporin
-# SAUCE Author: Mr4tune
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19971011
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Neosporin by Mr4tune | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-12-4o-neo
 
 Write-Host '
 [1;30m ▄[0;33m▄ ▄[0;1;33;43m▄[0;33m▄[0;37m [0;1;30m▐[0m▄[1;30m▌[0m [35m ,,com'''' [0;37m [0;1;30m▐[0m▄[1;30m▌[0m [1;30;43m▄[0;1;33;43m░[0;1;30;40m▄[0m  [1;30m░▀▌[0m [1;30m▐[0;33m▄[0;1;30m▄[0;33m [0;37m [0;1;30m█▄▀[0m   [1;30m▄░ [0m [1;30m▄▀[0m [1;30m▄░[0m  [1;30m▀▌[0m [1;30m▄[0;33m▄▄[0;1;30m▄[0m [1;30m▀▌[0m  [1;30m▀[0;34m  ░  [0;1;30m▀▀[0;34m [0;37m [0;1;30m░[0m

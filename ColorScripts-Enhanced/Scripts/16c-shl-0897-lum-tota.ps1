@@ -1,18 +1,4 @@
-﻿# Converted from: LUM-TOTA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shl-0897/raw/LUM-TOTA.ANS
-# Source Revision: archive-sha256:93ef5f553e3bc362f06eac3bc6655c2df4649860903447ccefb9661eb3a53f37
-# Source SHA-256: a65695e460221df6b254ccb8a4c4bf627ea30bd3e78ae16f3afc4262ddc60103
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LUM-TOTA.ANS by lumin`tor (school); released in shl-0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ascii colly
-# SAUCE Author: lumin`tor
-# SAUCE Group: school
-# SAUCE Date: 19970729
-# SAUCE Dimensions: 80x45
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: ascii colly by lumin`tor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shl-0897-lum-tota
 
 Write-Host '
 

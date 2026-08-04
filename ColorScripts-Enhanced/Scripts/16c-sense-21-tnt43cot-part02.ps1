@@ -1,18 +1,4 @@
-﻿# Converted from: tnt43cot.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense-21/raw/tnt43cot.ans
-# Source Revision: archive-sha256:c1e4d9e7af49c7636f26ea79ebe3e09527c170fed208ba49930c4515bd2726cb
-# Source SHA-256: cde442a5d5b18bf617415c0f959d8d48fd6b86d271272ab43512ff02e7017e92
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tnt43cot.ans by Taintedx + Aesthetic (sense.imagery); released in sense-21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: cotm(jungle.fevah)
-# SAUCE Author: aesthetic.tainted
-# SAUCE Group: sense.imagery
-# SAUCE Date: 20040825
-# SAUCE Dimensions: 80x121
-# Lines: 42-81
-# Columns: 1-80
+﻿# Artwork: cotm(jungle.fevah) by Taintedx + Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense-21-tnt43cot-part02
 
 Write-Host '
 [37m [0;32m ▄[0;1;32;42m▄▄▀■[0;32m █ [0;1;32;42m░[0;1;32;46m▓[0;32m ▄█▀   ▐█▄█▄[0;1;32;42m▒[0;32m▒▒[0;1;32;42m░░[0;1;32;40m▒▒[0;32m▄█ [0;1;32m [0;32m   ▄[0;1;32m▄[0;1;32;42m▄[0;1;32;47m▓▓[0;1;32;42m▀▐[0;32m▀[0m     [32m▐[0;1;32;42m█▌[0;32m▌▒▒[0;1;32;42m▀█[0;1;32;46m▓[0;1;32;42m▄[0;32m▄[0;37m [0;32m▄█▄[0;37m [0;32m▒▒░[0;1;32;42m░[0;32m▀[0;1;32;42m▄[0;32m▄  ▄░[0;37m [0;36m░[0m

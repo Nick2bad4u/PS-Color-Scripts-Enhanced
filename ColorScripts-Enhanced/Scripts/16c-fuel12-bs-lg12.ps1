@@ -1,18 +1,4 @@
-﻿# Converted from: BS-LG12.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel12/raw/BS-LG12.ANS
-# Source Revision: archive-sha256:ebe2e7b01f31e0e82aa2702a876007d4ec2dd824b98bdf40e4d59e2b113da7e4
-# Source SHA-256: 9eb0b83bb60ef953b5a647918d7a2384cce1e7534d00e3812c9ac812eccaca79
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-LG12.ANS by Burps (Fuel Productions); released in fuel12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Ansi logos for pack 12
-# SAUCE Author: Burps
-# SAUCE Group: Fuel Productions
-# SAUCE Date: 19970401
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Ansi logos for pack 12 by Burps | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel12-bs-lg12
 
 Write-Host '
 [1;30m─( [0;1;37mfuel [0;1;30m)───────────────────────────────────────────────────────────────────────[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: LS-TWL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/atm-0793/raw/LS-TWL.ANS
-# Source Revision: archive-sha256:2791ea7960360c43fee92e39a37f109c33350847675dee72209056037e0dfd3e
-# Source SHA-256: f7ed37886d7e2c5298db4e2197f7d5a300624c3d78f61e78aabaa802edeab1e5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LS-TWL.ANS by Lord Scarlet (atm-0793); released in atm-0793 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: LS-TWL.ANS by Lord Scarlet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-atm-0793-ls-twl
 
 Write-Host '
 [34m▓▓▓▓▓▒▒░░█▓▓▓▓▓▓▓▓▓▓▒▒░▓░░▒▓████▓██[0;34;41m       [0;34;40m██▓███▓▓▒▓▒▒▓▓▓█▓▓▒▒▒▒▒▒▓▓▓▓▓▓█▓██▓▓▓▓[0m

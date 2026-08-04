@@ -1,13 +1,4 @@
-﻿# Converted from: SANCACD3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1192/raw/SANCACD3.ANS
-# Source Revision: archive-sha256:8f9edeb4f92b0693833f343328f0977cc472aa2ea98dbae0f830bf926a78711d
-# Source SHA-256: 6f9f8d795251830d1d782bf9dd885c9c0f40d5fc9fdc8c24000b68fc4fc0aba8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SANCACD3.ANS by Blade Runner (acdu1192); released in acdu1192 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 46-89
-# Columns: 1-80
+﻿# Artwork: SANCACD3.ANS by Blade Runner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1192-sancacd3-part02
 
 Write-Host '
 [1;30m [0;1;37m█[0;1;37;47m▒░   [0;1;30;47m▒██[0;1;30;40m██▄ ▀▄  ▄▄▀▀[0;35m▄▄█▄ [0;1;35;45m▒▓[0;1;35;40m███ [0;34m▀▀▀▀▀▀▀[0;1;37m▄[0;1;37;47m▒░   [0;1;30;47m▒███[0m [1;30;47m█[0m [35m██████████[0;35;45m [0m [1;35;45m▒▓[0;1;35;40m█████████ [0;36m██[0;1;30m█[0m

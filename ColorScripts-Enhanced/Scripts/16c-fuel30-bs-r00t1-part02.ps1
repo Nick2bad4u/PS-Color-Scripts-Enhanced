@@ -1,19 +1,4 @@
-﻿# Converted from: bs-r00t1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel30/raw/bs-r00t1.ans
-# Source Revision: archive-sha256:e3148e82a669aa484baf0738069fbabe44ba2824856e1cb4b05875b86bdd4621
-# Source SHA-256: 1b0d9ad8a08834b9c5ad3ea613deb2fe8bb0ef716f81d7b89a164dca9be59200
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bs-r00t1.ans by burps (fuel); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: r00t dumpster fire
-# SAUCE Author: burps
-# SAUCE Group: fuel
-# SAUCE Date: 20190526
-# SAUCE Dimensions: 80x73
-# SAUCE Font: IBM VGA
-# Lines: 36-73
-# Columns: 1-80
+﻿# Artwork: r00t dumpster fire by burps | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel30-bs-r00t1-part02
 
 Write-Host '
             [31m█[0;31;43m▓[0;33;40m▄ [0;31;40m█[0;31;43m▌[0;1;33;43m▐░[0;33m█[0;31m█░█[0;31;43m▌[0;33;40m█[0;1;33;43m▐[0;1;33;40m█[0;1;33;43m▀░[0;33m█[0;31m█▐[0;31;43m▌[0;1;33;43m░▓[0;1;33;40m█[0;1;33;43m▌[0;33m█[0;31;43m▓[0;31;40m█[0;31;43m▌[0;1;33;43m░[0;1;33;40m█[0;1;33;47m▓▀[0m█[1;33;47m▐[0;1;33;40m█[0;1;33;43m▓░[0;33m██[0;31;43m▒▓[0;31;40m█ [0;1;30;40m▀ [0;31m▄█[0;33m█[0;1;33;43m░▓[0;33m█[0;31m█▌[0;1;30m▄▄[0m

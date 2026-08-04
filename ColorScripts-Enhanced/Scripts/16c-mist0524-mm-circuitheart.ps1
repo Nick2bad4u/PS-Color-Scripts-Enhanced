@@ -1,19 +1,4 @@
-﻿# Converted from: MM-CIRCUITHEART.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0524/raw/MM-CIRCUITHEART.ANS
-# Source Revision: archive-sha256:26af390c70c8fbd1a650cda6420771d9febb05e55fff2dce05253b3fc19147b7
-# Source SHA-256: ef636db6a4433bc4e1db42c223f7517c592f89e4f63cdfbded643fb4d6d2a1ec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-CIRCUITHEART.ANS by Mavenmob (Mistigris); released in mist0524 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Circuit Ice
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20240513
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Circuit Ice by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0524-mm-circuitheart
 
 Write-Host '
 

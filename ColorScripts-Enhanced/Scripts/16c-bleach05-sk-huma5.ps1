@@ -1,18 +1,4 @@
-﻿# Converted from: SK-HUMA5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bleach05/raw/SK-HUMA5.ANS
-# Source Revision: archive-sha256:09b86858eb23a8eec48404a97e9a21a9057746b5757f06ffc27990d15e890f2c
-# Source SHA-256: ffa8df1fc88a3ee2c47a987dabacf2a4ea1d777de7e8ee4855d20772276ccec8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK-HUMA5.ANS by Shattered Link (Bleach); released in bleach05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Huma
-# SAUCE Author: Shattered Link
-# SAUCE Group: Bleach
-# SAUCE Date: 19950726
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Huma by Shattered Link | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bleach05-sk-huma5
 
 Write-Host '
                                 ▄▄[47m [0;1;47m▄▄   ░░[0m▄▄▄▄▄▄              [1;33m▄■▀▄[0m   ▀█▀▀▀  [1;30msk[0;1;33m▄▀[0m

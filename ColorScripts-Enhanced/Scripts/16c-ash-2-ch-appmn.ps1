@@ -1,18 +1,4 @@
-﻿# Converted from: CH-APPMN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ash-2/raw/CH-APPMN.ANS
-# Source Revision: archive-sha256:c8305f725fa2ac753acd79a3b8ce60eb4b57346eed044e5eb2d7db75631b7442
-# Source SHA-256: ba79f40cd64da956c7dbd92eae32fba556ab2f280719e2dc81efb0cf2ac7906f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CH-APPMN.ANS by cythulu (ash); released in ash-2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ch-appmn.ans
-# SAUCE Author: cythulu
-# SAUCE Group: ash
-# SAUCE Date: 19960205
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ch-appmn.ans by cythulu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ash-2-ch-appmn
 
 Write-Host '
             [34m▄▄▄▄[0m           [34m▄[0;1;34;44m░[0m [1m▄██████████████████████████▄[0m [1m [0;1;34m▀▀▄▄[0m       [34m░▄[0m    [34m▀▄ [0m

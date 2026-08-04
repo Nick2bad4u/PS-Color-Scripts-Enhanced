@@ -1,18 +1,4 @@
-﻿# Converted from: I!-PIG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blade-40/raw/I!-PIG.ANS
-# Source Revision: archive-sha256:36dce442fca1d182e4b74added5979db24d6a61d5306960c3e6982e7319e3076
-# Source SHA-256: 5b830f2e9bfc9400cd1606b71b22388e6deb4a9889fdf29f6abf62d27a5da1bb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: I!-PIG.ANS by Internal Stalker (blade productions 97); released in blade-40 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Pig
-# SAUCE Author: Internal Stalker
-# SAUCE Group: blade productions 97
-# SAUCE Date: 19970604
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Pig by Internal Stalker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blade-40-i-pig
 
 Write-Host '
      [30;41m▓[0m

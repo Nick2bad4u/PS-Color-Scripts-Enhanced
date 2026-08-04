@@ -1,13 +1,4 @@
-﻿# Converted from: KX-ICE.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9412/raw/KX-ICE.ICE
-# Source Revision: archive-sha256:206fb790f3728acfca84972248fec43bde6e85e65881b18182d8ae9012f98785
-# Source SHA-256: 4717bce5602f7f56f281eab23d34e1b1987256cb6c449a3177321d8200cc268d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KX-ICE.ICE by Krux (ice-9412); released in ice-9412 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 137-182
-# Columns: 1-80
+﻿# Artwork: KX-ICE.ICE by Krux | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9412-kx-ice-part04
 
 Write-Host '
 [33;43m                [0;1;31;43m░  ░░▒▒░▒▓▓▓▓▒░▒░    [0;33m██▓[0;1;30;43m▀[0;33m▄▄[0m            [31m░▒░▓▓▒▓▓▒░[0m         [1;30m▄[0;33m▄▒[0;33;43m  [0;33;40m█[0m

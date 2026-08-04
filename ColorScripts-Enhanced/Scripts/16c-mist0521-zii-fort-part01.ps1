@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-FORT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0521/raw/ZII-FORT.ANS
-# Source Revision: archive-sha256:dd93e60733e1829e7eaea5eb93f8610a00af34f747d5fa7e9c88f5fba1ef15c1
-# Source SHA-256: 90d8e641ca98a3218c30b3c7edbde0b7c4593bed84300789a016e16336f49883
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-FORT.ANS by Zeus II (Mistigris); released in mist0521 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fortress of Solitude login
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20210325
-# SAUCE Dimensions: 79x130
-# SAUCE Font: IBM VGA
-# Lines: 1-43
-# Columns: 1-79
+﻿# Artwork: Fortress of Solitude login by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0521-zii-fort-part01
 
 Write-Host '
 [1;30m▒▒▓▌██[0;1;30;46m▓▓▓▓▓▓▓▓▒▒▒▓[0m [1;30;46m▒▒▒▒▒▒[0m [1;30;46m▒▒▒▒▒▒▒░░░░░░[0m [1;30;46m░░░░░░░░░░░░░▒▒▒▒▒▓[0m [1;30;46m▒▒▒▒▒▒▒▒░░░░░░░[0;1;30;40m▌[0;1;30;46m░░░[0m

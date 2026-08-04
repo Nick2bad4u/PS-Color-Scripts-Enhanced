@@ -1,17 +1,4 @@
-﻿# Converted from: rl-arg.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gen-03/raw/rl-arg.ans
-# Source Revision: archive-sha256:2ac761e3083f46d5d584973ff5d98c7259cd9fd4cee70395df0609588a554c09
-# Source SHA-256: 62ed9f2c793fac1c05ea8db1c3b3bafa23ef6ff3fd92a8e345a5685b727fc49b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: rl-arg.ans by rawlock (gen-03); released in gen-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: dreamhack 98
-# SAUCE Author: rawlock
-# SAUCE Date: 19990202
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: dreamhack 98 by rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gen-03-rl-arg
 
 Write-Host '
                               [1;30m [0m

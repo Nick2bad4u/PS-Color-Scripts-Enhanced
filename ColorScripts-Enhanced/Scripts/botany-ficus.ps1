@@ -1,11 +1,4 @@
-# Converted from: ficus3.ansi
-# Source encoding: utf8
-# Source URL: https://raw.githubusercontent.com/jifunks/botany/2802121ed8268df1b69584167a14d4c690aaea35/art/ficus3.ansi
-# Source Revision: 2802121ed8268df1b69584167a14d4c690aaea35
-# Source SHA-256: e5d616ce314b11e0d8fe7422db56b603432330bef85d3bff1d16676db843b855
-# Source License: ISC
-# Source Attribution: Jacob Funke (jifunks)
-# Source Conversion Mode: Passthrough
+# Artwork: ficus3.ansi by Jacob Funke (jifunks) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=botany-ficus
 
 Write-Host '         [32m&[33m*[32m&[0m\/[32m& [33m*[32m&&[0m
         [32m&[0m\|,/  |/[32m& [33m*[32m&[0m

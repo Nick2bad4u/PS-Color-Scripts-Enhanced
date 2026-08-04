@@ -1,13 +1,4 @@
-﻿# Converted from: DNEST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/n__pack2/raw/DNEST.ANS
-# Source Revision: archive-sha256:a405b9b0c734afb124e3ff5f382613c04fa7aa9f89ae7d92accf44d9efdebe19
-# Source SHA-256: 117bf964a7ba3d34f07cab48087a444f144328dc80ca87764570eec488f97274
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DNEST.ANS by Nemesulku (n__pack2); released in n__pack2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: DNEST.ANS by Nemesulku | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-n-pack2-dnest
 
 Write-Host '
          [1;30m [0m     [1;30m ░░▒░░ [0;36m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: HP-TIS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0896/raw/HP-TIS1.ANS
-# Source Revision: archive-sha256:aea0eeb92b0eab79feeb93a911e40d78834e5950cdc396c43c83fe60a2627fad
-# Source SHA-256: 8381d9f91444666630718d145841c041c289c2cf31213ed52e954ac2f1a8fd76
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HP-TIS1.ANS by Hiro Protagonist ([Quad-P]); released in quad0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: TIS Christmas Matrix
-# SAUCE Author: Hiro Protagonist
-# SAUCE Group: [Quad-P]
-# SAUCE Date: 19960724
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: TIS Christmas Matrix by Hiro Protagonist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0896-hp-tis1
 
 Write-Host '
   ▄        ▄[1m░   [0m▄      ┼     ▀[1m▓[0m▀ [1;30m             [0;1m░ [0;1;30m       [0m■  ▄              [1m░ [0;1;30m⌐   [0m

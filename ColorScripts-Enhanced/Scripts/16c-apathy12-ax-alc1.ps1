@@ -1,18 +1,4 @@
-﻿# Converted from: AX-ALC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy12/raw/AX-ALC1.ANS
-# Source Revision: archive-sha256:8a537460f8b0ab878576d3588ae2a516d4d1f431ef70564144a8ef972d7a139a
-# Source SHA-256: c49c9b8c2699e8fcd9c762a2072e5e515264e0df0bf1158202e1977ecedc3c50
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AX-ALC1.ANS by Apox + Ellisdee (Apathy); released in apathy12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Apathy Logo Colly
-# SAUCE Author: Apox
-# SAUCE Group: Apathy
-# SAUCE Date: 19960718
-# SAUCE Dimensions: 80x25
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: Apathy Logo Colly by Apox + Ellisdee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy12-ax-alc1
 
 Write-Host '
       ▄[1m▄▄▄▄▄[0m      [1;30m [0m

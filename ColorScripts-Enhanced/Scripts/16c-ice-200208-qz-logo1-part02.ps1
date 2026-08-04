@@ -1,18 +1,4 @@
-﻿# Converted from: qz-logo1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-200208/raw/qz-logo1.ans
-# Source Revision: archive-sha256:8266cb0c83bed6dfb88c70a84c59bfe21a823cfea9ed9899f924b07278ea02a4
-# Source SHA-256: 1939658409e1d82aab40c37e38252ee1d1c60c14bda16400b1678718e0791e57
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: qz-logo1.ans by Quazar (iCE Advertisements); released in ice-200208 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Logo Collection
-# SAUCE Author: Quazar
-# SAUCE Group: iCE Advertisements
-# SAUCE Date: 20020906
-# SAUCE Dimensions: 80x132
-# Lines: 43-85
-# Columns: 1-80
+﻿# Artwork: Logo Collection by Quazar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-200208-qz-logo1-part02
 
 Write-Host '
 [34m▐[0;1;34;44m▐[0;34m▐[0;34;44m [0;1;30;44m░▒▓[0;1;30;40m▌[0m▐▌ [1;30;44m▓[0;1;30;40m▌ [0m▓████ [1;30m▌ [0m▓███▄[34;47m░[0;37;40m█▌[0;1;30;40m▐███[0;1;30;44m▓[0;1;30;40m█▓▄▓▓██▀▀ [0m▄ [1;30m▄ [0m▀▀▓[34;47m░[0;37;40m██▀█▀▀▀▀ [0;1;30;44m▓▓▓▓▓▓▓[0;1;30;40m▀▀ [0m▄ [1;30;44m▓▒░ [0;34m▌[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: CN-WL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/illu0297/raw/CN-WL1.ANS
-# Source Revision: archive-sha256:4fc6a0019f008367ad8a97d95d80ada01dd34574d637246e807fcd899fd4fdb5
-# Source SHA-256: 481d3f320c2f7453f88f80793b207486afa6555d8eedf552d68655d99ec51d99
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CN-WL1.ANS by CarNage (iLLUSiON); released in illu0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Wolfs Lair
-# SAUCE Author: CarNage
-# SAUCE Group: iLLUSiON
-# SAUCE Date: 19970127
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Wolfs Lair by CarNage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-illu0297-cn-wl1
 
 Write-Host '
                  [34m▓▄[0m      [37m  [0;34m▄█[0;37m  [0m            [34m░[0m   [34m   [0;37m [0;34m░[0m     [34m▓[0m

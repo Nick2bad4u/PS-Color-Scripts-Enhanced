@@ -1,13 +1,4 @@
-﻿# Converted from: CL-TU2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot0194/raw/CL-TU2.ANS
-# Source Revision: archive-sha256:2a927cbf8a189a0168537f7b0014144513c0f45c1cb4fe517fc74fdaa4837e4e
-# Source SHA-256: d34b606042a4e7650c497b5efb4fc987c4fde8c955868470845bfd88f0c07c97
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL-TU2.ANS by Crime Lord (riot0194); released in riot0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: CL-TU2.ANS by Crime Lord | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot0194-cl-tu2-part01
 
 Write-Host '
 

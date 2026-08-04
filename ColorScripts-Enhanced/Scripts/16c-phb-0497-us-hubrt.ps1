@@ -1,18 +1,4 @@
-﻿# Converted from: US-HUBRT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phb-0497/raw/US-HUBRT.ANS
-# Source Revision: archive-sha256:85681ee98c1ba1a2744730faa07d763080600c62bb25593bcf45c740268afee1
-# Source SHA-256: 69773530c8bb01f2708902f3a3523f73c12f73fc1248863bc1011e01421aece8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-HUBRT.ANS by Bym + Flexor (pHOBIA@!); released in phb-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hundbert wanna get drunk!!@#
-# SAUCE Author: flexor and bym
-# SAUCE Group: pHOBIA@!
-# SAUCE Date: 19970321
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: hundbert wanna get drunk!!@# by Bym + Flexor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phb-0497-us-hubrt
 
 Write-Host '
 

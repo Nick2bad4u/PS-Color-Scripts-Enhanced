@@ -1,18 +1,4 @@
-﻿# Converted from: TAE-NPH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-06/raw/TAE-NPH.ANS
-# Source Revision: archive-sha256:23bf7a2dd40d2b6120f5e578427d7f6ab3055fd2a788b1f3e27f63e9880c5fa0
-# Source SHA-256: e25cc0eab72ad94e95ac29b79dbea34d58cee5e97bad29b7eee649a450593162
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TAE-NPH.ANS by taevore (nph); released in nph-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: nph-logo
-# SAUCE Author: taevore
-# SAUCE Group: nph
-# SAUCE Date: 19980215
-# SAUCE Dimensions: 80x21
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: nph-logo by taevore | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-06-tae-nph
 
 Write-Host '
                 [32m▄▄▄▄▄▄▓[0;1;32;42m▄▄▄▄▄▄▄▄▄▄▄[0;32m█▄▄▄▄▄▄▄▄░[0;30;42m▓[0;32;40m   [0m                   [32;40m   [0;35;40m▄▄▄[0;32;40m  [0m

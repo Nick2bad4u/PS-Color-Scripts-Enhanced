@@ -1,18 +1,4 @@
-﻿# Converted from: $H-TRIPM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axss-005/raw/%24H-TRIPM.ANS
-# Source Revision: archive-sha256:3d91beb25ee9d7350e3166372f740053c1bf00fdf342c8c8734035929b312c24
-# Source SHA-256: f7b27e6e6ac4d34f836c619c6cc621810145839b57e32c1328822f4f8d15c4ea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: $H-TRIPM.ANS by Shinigami (.%.AXss.%. -97); released in axss-005 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Menu Ansi for TRiP !
-# SAUCE Author: Shinigami
-# SAUCE Group: .%.AXss.%. -97
-# SAUCE Date: 19970627
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Menu Ansi for TRiP ! by Shinigami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axss-005-h-tripm
 
 Write-Host '
 [1;44m              [0;30;44m    [0;1;37;44m                          [0;30;44m                      [0;1;37;44m              [0m

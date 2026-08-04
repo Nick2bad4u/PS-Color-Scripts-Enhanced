@@ -1,18 +1,4 @@
-﻿# Converted from: IZ%NUCNA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0296/raw/IZ%25NUCNA.ANS
-# Source Revision: archive-sha256:0eb4b2482411f38ef708ec089ec5cba17c181d4a0eee6324511602aa4e53eac8
-# Source SHA-256: 295653d8c499b1ed069147f6ce1714b09cc0b853a51562771c31215fd24fea6f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ%NUCNA.ANS by ize (fusion); released in fsn-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: nuclear nation
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19960221
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: nuclear nation by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0296-iz-nucna
 
 Write-Host '
 

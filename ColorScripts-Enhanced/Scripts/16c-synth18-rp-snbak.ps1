@@ -1,17 +1,4 @@
-﻿# Converted from: rp-snbak.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/synth18/raw/rp-snbak.ans
-# Source Revision: archive-sha256:d4c0c9e31bf99c07321159e2dbfdb2e4124efd3f9345f5527e256f31a97c9b9b
-# Source SHA-256: b685d222ed1833331e3f78e5020b125727dbf2bb693eb29b3a22c07a70e58ca3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: rp-snbak.ans by Rippa (Synthetic Org!); released in synth18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Synthetic Is Back!
-# SAUCE Author: Rippa
-# SAUCE Group: Synthetic Org!
-# SAUCE Dimensions: 80x25
-# Lines: 1-11
-# Columns: 1-80
+﻿# Artwork: Synthetic Is Back! by Rippa | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-synth18-rp-snbak
 
 Write-Host '
  [1;30m▀▀  ▀▀ ▀ [0;1;36m [0;1;30m▀▀[0;1;36m [0;1;30m [0m [36m ▄[0;1;36m▄[0;1;37m▄[0;1;36m▄[0;1;37m▄  [0;1;30m▀[0m    [36m▄[0;1;36m▄[0;1;37m▄[0;1;36m▄[0;1;37m▄ [0;1;36m▄▄[0;1;37m▄[0;1;36m▄▄[0;1;37m  [0;1;30m▀▀[0;1;37m [0;1;30m▀[0;1;37m ▄[0;1;36m▄[0;1;37m▄[0;1;36m▄▄[0;1;37m  [0;1;30m▀▀[0;1;37m [0;1;30m▀[0;1;37m ▄▄[0;1;36m▄▄[0;1;37m▄  [0;1;30m▀▀▀[0;1;37m [0m   [1;30m▀[0;1;37m [0;1;30m▀▀[0m [1;30m▀[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: ASCII-44.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ttdmisyk/raw/ASCII-44.ANS
-# Source Revision: archive-sha256:691d88fad8510c75499187262885f1f653d52455952817f34e55b7599917acfc
-# Source SHA-256: f2a81a5cf7360acb45d1591ce493ef5298e70c2a887412ee5e8e3288955e8394
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ASCII-44.ANS by Konami (ttdmisyk); released in ttdmisyk and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ASCII-44.ANS by Konami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ttdmisyk-ascii-44
 
 Write-Host '
 [35m\[0;1;35m☺☺[0;35m↑↑▲▲⌐⌐[0;1;30m─────────────┐ :[0;1;35m  [0;1;37m,[0;1;33m▲↑☻☻☻☻☻☻[0;1;35m☻☻☻☻☻☻☻☻☻☻☻┴┴[0;35m┤☻☻[0;1;35m☻☻☻☻☻☻☺[0;1;30m ☻[0;35m☻☻☻☻☻☻☻☻☻☻☻[0;1;35;45m☺[0;33m``"²⌐┼☻[0m

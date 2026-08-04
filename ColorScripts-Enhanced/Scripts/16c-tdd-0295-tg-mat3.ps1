@@ -1,17 +1,4 @@
-﻿# Converted from: TG-MAT3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tdd-0295/raw/TG-MAT3.ANS
-# Source Revision: archive-sha256:063b5b78a890bb3c399deeb92102d5f30efb787cb4a09cd122443a1ac10670d0
-# Source SHA-256: b73d9425ad9c1524c8e79506f4606a3dbeee684c028da864d79e256654a659bb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-MAT3.ANS by The Goblin (tdd-0295); released in tdd-0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Matrix Cubed
-# SAUCE Author: The Goblin
-# SAUCE Date: 19950215
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: Matrix Cubed by The Goblin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tdd-0295-tg-mat3
 
 Write-Host '
     [34m▄[0;1;34;44m░░░▒▓[0;1;34;40m▄  ▄[0;1;34;44m▓▒░░░[0;34m▄[0m

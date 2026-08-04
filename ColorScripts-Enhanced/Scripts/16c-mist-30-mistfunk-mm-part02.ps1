@@ -1,19 +1,4 @@
-﻿# Converted from: MISTFUNK-MM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/MISTFUNK-MM.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: b00f44ee3fbf9cc1ac9ea097fdd83a0fb1906ac72999c985aca655df12572230
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MISTFUNK-MM.ANS by Consolejockey + Mavenmob (Mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Mistfunk logo
-# SAUCE Author: Mavenmob / CJ
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241229
-# SAUCE Dimensions: 80x90
-# SAUCE Font: IBM VGA
-# Lines: 51-90
-# Columns: 1-80
+﻿# Artwork: Mistfunk logo by Consolejockey + Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-mistfunk-mm-part02
 
 Write-Host '
 [1m████████▀█▀████████[0;1;31m▐[0;1;37m████[0;1;31m♥♥[0m█[1;31m  [0;1;37m█▀[0m  [1m▐███  [0;1;31mfeeling[0;1;37mliketheir[0m   [1m█  ███[0;1;31m▐▐▐▐▐▐▐[0;1;37m▐█[0m    ▄[1m██[0m

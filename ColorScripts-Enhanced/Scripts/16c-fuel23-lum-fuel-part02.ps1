@@ -1,19 +1,4 @@
-﻿# Converted from: lum-fuel.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel23/raw/lum-fuel.ans
-# Source Revision: archive-sha256:cfe32eb98354b0830492d9be5038af88cfccfa9d08c77fbfa69a5660d9e29c20
-# Source SHA-256: 26adeda7a93f636bb3faa44ae83dda2a08315c4a20fed999a2bc325cd25a88ec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: lum-fuel.ans by Luminator (Fuel); released in fuel23 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Knight is the King
-# SAUCE Author: Luminator
-# SAUCE Group: Fuel
-# SAUCE Date: 20170329
-# SAUCE Dimensions: 80x106
-# SAUCE Font: IBM VGA
-# Lines: 37-71
-# Columns: 1-80
+﻿# Artwork: The Knight is the King by Luminator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel23-lum-fuel-part02
 
 Write-Host '
 [1;31m [0;31m█████[0;30m█[0;1;37m█[0;1;37;47m▓[0;1;37;40m   [0;31m▀▀▄▄   [0;1;30m░▒▒▒░[0m     [1;30m▄▄[0;1;30;46m▓[0;1;30;40m█[0;1;30;46m▒░▓[0;1;30;40m███▀▀███[0;30m█[0;1;30m▀▄[0;36m▓▓█▄▄[0m     [31m▀▀█████▀████████████[0;1;31;41m▒▒[0m

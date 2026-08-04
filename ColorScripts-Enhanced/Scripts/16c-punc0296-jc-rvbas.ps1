@@ -1,18 +1,4 @@
-﻿# Converted from: JC-RVBAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/punc0296/raw/JC-RVBAS.ANS
-# Source Revision: archive-sha256:77d6380aea8b73102d5ce9e69ab9b838bbcd43d090ae7f9819e27ef3026ed31a
-# Source SHA-256: 761ae5b1af22601f76771d07737a3a9f159caefda49848e0fdfb5d0afb8ab13a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JC-RVBAS.ANS by john catalina (PunC); released in punc0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ravebase
-# SAUCE Author: john catalina
-# SAUCE Group: PunC
-# SAUCE Date: 19960110
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: ravebase by john catalina | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-punc0296-jc-rvbas
 
 Write-Host '
 [1;30m[0m      [1;30m▄[0m██████████████████████████████████████████████████████████████

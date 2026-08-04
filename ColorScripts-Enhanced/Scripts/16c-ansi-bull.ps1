@@ -1,13 +1,4 @@
-﻿# Converted from: BULL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansi/raw/BULL.ANS
-# Source Revision: archive-sha256:50aaa63d173fc2f34f94b8a5b526a5ee8a8b9d7908c42264ab949073e7e0edf9
-# Source SHA-256: c7de6031101418059ebe88a0226daf98f2f027ba6004c79674fc65905d8cbc15
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BULL.ANS by David Hartmann (ansi); released in ansi and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: BULL.ANS by David Hartmann | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansi-bull
 
 Write-Host '
   [1;33m▄▄▄  [0;1;30mDH 91    ▄▀[0m      ▐\         [1;33m▄▄[0m

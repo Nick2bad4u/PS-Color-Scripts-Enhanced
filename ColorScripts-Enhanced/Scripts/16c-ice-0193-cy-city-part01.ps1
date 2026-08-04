@@ -1,13 +1,4 @@
-﻿# Converted from: CY-CITY.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-0193/raw/CY-CITY.ICE
-# Source Revision: archive-sha256:ca05bf2de359182562a4e7329ee29306910e366566e70161c1e1498b079ccf5f
-# Source SHA-256: 16feba8f08b60f781ab479fe1ec0efe9a17e72f95a4671a09109c2928925c0d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CY-CITY.ICE by Cyclonus (ice-0193); released in ice-0193 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: CY-CITY.ICE by Cyclonus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-0193-cy-city-part01
 
 Write-Host '
 

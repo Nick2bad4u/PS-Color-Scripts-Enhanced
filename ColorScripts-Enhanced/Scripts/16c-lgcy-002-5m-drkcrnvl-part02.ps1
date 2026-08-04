@@ -1,17 +1,4 @@
-﻿# Converted from: 5m-drkcrnvl.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-002/raw/5m-drkcrnvl.ans
-# Source Revision: archive-sha256:035806f627526bbca92fb6becafc359d23b231b3ea478b7169ed62b6d2a1cc54
-# Source SHA-256: 9caac37ba19d04c410f2e1f96ccd9cd19c84caa06ae5badd69393026f924bd41
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5m-drkcrnvl.ans by Smooth (lgcy-002); released in lgcy-002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: Smooth
-# SAUCE Date: 20200510
-# SAUCE Dimensions: 80x180
-# SAUCE Font: IBM VGA
-# Lines: 45-88
-# Columns: 1-80
+﻿# Artwork: 5m-drkcrnvl.ans by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-002-5m-drkcrnvl-part02
 
 Write-Host '
            ▀[1;33;47m▀[0;1;33;40m█[0;1;37;40m█[0;1;33;43m▓[0;1;33;40m█[0m▄  [31m░[0;37m                   [0;1;30m░[0;31m▐ [0;1;30m,[0m                  ▄[1;33m██[0;1;37m█[0;1;33m█[0;1;33;47m▀[0m▀

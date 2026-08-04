@@ -1,13 +1,4 @@
-﻿# Converted from: NAUWH-VN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1292/raw/NAUWH-VN.ANS
-# Source Revision: archive-sha256:6c5c7ef66182056ff3f821bfb6f5ceb9b593ec0078def1a5d2bd62ceb180acde
-# Source SHA-256: 8613fccf9c92db0221d0fad19333cbec10ae61ee192626879c55b9deb20d837b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NAUWH-VN.ANS by Vindication (acdu1292); released in acdu1292 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: NAUWH-VN.ANS by Vindication | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1292-nauwh-vn-part01
 
 Write-Host '
 ████[47m               [0;40m██[0;1;47m░░░░░░░▒▒▓[0;1;40m▄▄[0;1;30;47m▒▓[0;1;30;40m█[0;1;30;47m█▓▒░░░▀[0;1;30;40m▄ ▐[0;1;30;47m▓▒▒░░░░[0m████████████[1;47m░░▒▒▓[0;1;40m▄[0m

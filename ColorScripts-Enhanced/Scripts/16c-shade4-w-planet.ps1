@@ -1,18 +1,4 @@
-﻿# Converted from: W_PLANET.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shade4/raw/W_PLANET.ANS
-# Source Revision: archive-sha256:6b7a953f596b358a2cd1f5c933016195d864a171d6f90a58fdca9afcdc39eeb9
-# Source SHA-256: edb7e607bea3b3562517b50626c125a518dfaeab05de654a5f6b1a76e2b3c7d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: W_PLANET.ANS by whack (shade/uup); released in shade4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: planets
-# SAUCE Author: whack
-# SAUCE Group: shade/uup
-# SAUCE Date: 19970102
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: planets by whack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shade4-w-planet
 
 Write-Host '
                       [34m▄▄▄[0;1;37m    [0m                             [34m▄▄▐█▌[0m

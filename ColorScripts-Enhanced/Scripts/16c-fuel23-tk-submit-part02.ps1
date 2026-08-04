@@ -1,19 +1,4 @@
-﻿# Converted from: tk-submit.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel23/raw/tk-submit.ans
-# Source Revision: archive-sha256:cfe32eb98354b0830492d9be5038af88cfccfa9d08c77fbfa69a5660d9e29c20
-# Source SHA-256: 2f4ba474961ddbafd9f40367a44385b345e0bac30400ec33cef192c08bdbdf8f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tk-submit.ans by the knight (fuel); released in fuel23 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: submission
-# SAUCE Author: the knight
-# SAUCE Group: fuel
-# SAUCE Date: 20170917
-# SAUCE Dimensions: 80x66
-# SAUCE Font: IBM VGA
-# Lines: 34-66
-# Columns: 1-80
+﻿# Artwork: submission by the knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel23-tk-submit-part02
 
 Write-Host '
  [31m [0;37m█████████▄[0;31m▀██▄▄[0;37m▀[0;31m░█▐[0;37m [0;31m█[0;1;37m [0;31m▀███[0;1;31;41m░░ [0;31m████████████▌[0;37m▐████████[0m           [37m████████ [0;1;37m█████[0m

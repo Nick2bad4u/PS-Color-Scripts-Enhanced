@@ -1,19 +1,4 @@
-﻿# Converted from: lum-777.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel22/raw/lum-777.ans
-# Source Revision: archive-sha256:ba169f7927d483c43f833be895de0c289bdb93739fe60d9d716f1c3c01404206
-# Source SHA-256: b76db2972f514f9ec75c95cb9f0a19fa36836c356841bea74a217b1942a55f84
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: lum-777.ans by luminator (Fuel); released in fuel22 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fuel
-# SAUCE Author: luminator
-# SAUCE Group: Fuel
-# SAUCE Date: 20170424
-# SAUCE Dimensions: 80x382
-# SAUCE Font: IBM VGA
-# Lines: 97-144
-# Columns: 1-80
+﻿# Artwork: Fuel by luminator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel22-lum-777-part03
 
 Write-Host '
 [30m   [0;31m█[0m          [1;34m░   [0;34m██  [0;1;31m░  [0;1;31;43m▀ █[0;1;31;40m  [0;1;31;43m█▓▓██████[0;1;31;40m   [0;1;31;43m██░░▒██████[0;1;31;40m  [0;1;31;43m█▒░ [0;35;43m░░[0;33;40m█▄[0;30;40m█████[0;35;40m▀[0;1;37;40m▄▀[0;30m█[0;35m▀[0;30m██[0;35m████[0m

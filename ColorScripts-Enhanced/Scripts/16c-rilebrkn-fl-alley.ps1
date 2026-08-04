@@ -1,18 +1,4 @@
-﻿# Converted from: FL-ALLEY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rilebrkn/raw/FL-ALLEY.ANS
-# Source Revision: archive-sha256:631709d46940d5f633b8ebca426a515d51357cee4cca25bed435a2a8fbf53a10
-# Source SHA-256: 3a26822ac39a00402fb333a82a435594795d4049f8d1b0356ee82f0ecb9869ac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-ALLEY.ANS by flame (RILE); released in rilebrkn and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dark alley
-# SAUCE Author: flame
-# SAUCE Group: RILE
-# SAUCE Date: 19970503
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: dark alley by flame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rilebrkn-fl-alley
 
 Write-Host '
                                                          [34m  [0;30;44m▓▓[0;34;40m▄[0;37;40m [0;34;40m   [0m

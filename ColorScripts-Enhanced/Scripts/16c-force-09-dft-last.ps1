@@ -1,18 +1,4 @@
-﻿# Converted from: DFT-LAST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-09/raw/DFT-LAST.ANS
-# Source Revision: archive-sha256:ce8026e794474c6e48d574a76c9366e170e87fe95fba0f1638e56cb02945c814
-# Source SHA-256: 99b68accd71b5506e18113fe83b99654f529e58a3dfaae337171b1ff31d66397
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DFT-LAST.ANS by draft (fORCE); released in force-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Last Chance
-# SAUCE Author: draft
-# SAUCE Group: fORCE
-# SAUCE Date: 19960615
-# SAUCE Dimensions: 80x52
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Last Chance by draft | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-09-dft-last
 
 Write-Host '
                                                                     [1;30m░▒░[0m ▓[1;47m▓[0m█▀ █[1;47m░[0m▓

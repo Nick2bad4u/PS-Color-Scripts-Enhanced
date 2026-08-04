@@ -1,18 +1,4 @@
-﻿# Converted from: 22-SEC71.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-35/raw/22-SEC71.ANS
-# Source Revision: archive-sha256:bc92204ac679e4231b1db133abb983c42252574e71b83e8773e063911f5f3ee6
-# Source SHA-256: 4bf6bae94382c8d6edd109f1571cbeb2b79f39a8a07acc554f9acc7919a31578
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 22-SEC71.ANS by catch22 (glue); released in glue-35 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: sector 7 bbs
-# SAUCE Author: catch22
-# SAUCE Group: glue
-# SAUCE Date: 20010313
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: sector 7 bbs by catch22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-35-22-sec71
 
 Write-Host '
 [36m▄[0;1;36m▄[0;1;36;46m█▓▄[0;1;30;40m▄ [0;36m ▄[0;1;36;46m██[0;1;36;40m▀[0;36m [0;1;36m▄[0;1;36;46m▄██[0;1;36;40m▄[0;36m▀[0;1;36;46m▒███[0;1;36;40m▄[0;1;30;40m▀[0;33m ▄ [0;1;31m▐[0;1;31;43m█[0;1;31;47m▓[0;1;31;43m██████[0;1;31;40m▀[0;33m▀█▄▄▄[0;1;31;43m▄▄▄[0;1;31;40m▄[0;33m▄  ▀[0;1;31;43m████████[0;1;31;40m█[0;1;31;43m█[0;1;31;40m███▀▀[0;1;31;43m░░░[0;33m███▀▀██[0;1;31;43m▀▓█[0;1;31;47m█[0m

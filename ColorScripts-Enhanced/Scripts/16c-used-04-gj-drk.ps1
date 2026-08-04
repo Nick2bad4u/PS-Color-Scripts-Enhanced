@@ -1,17 +1,4 @@
-﻿# Converted from: GJ-DRK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-04/raw/GJ-DRK.ANS
-# Source Revision: archive-sha256:1dcdf112160ec589150680778cd449e8af485dfba89bb104c44cd133db2d6fc0
-# Source SHA-256: 997e771c9b7bec94dad5b917cf9c56a256697c3b371941971446837bf7eb6514
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GJ-DRK.ANS by Grymmjack (used-04); released in used-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Darkness
-# SAUCE Author: Grymmjack
-# SAUCE Date: 20000403
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Darkness by Grymmjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-04-gj-drk
 
 Write-Host '
 

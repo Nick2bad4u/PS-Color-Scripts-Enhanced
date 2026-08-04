@@ -1,18 +1,4 @@
-﻿# Converted from: LST-SES1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_08/raw/LST-SES1.ANS
-# Source Revision: archive-sha256:f5d36139e5f7f2e2e6d40888afe2c0fec7cd427ccc34b8a60d8fe55ece2d0c15
-# Source SHA-256: 32a660f060d83e4ae7fc1c8e397eb967d59f69c87dd9d82a29bcc5e550c04adb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LST-SES1.ANS by soul trader (dox); released in dox_08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: session!
-# SAUCE Author: soul trader
-# SAUCE Group: dox
-# SAUCE Date: 19970418
-# SAUCE Dimensions: 80x28
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: session! by soul trader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-08-lst-ses1
 
 Write-Host '
 [1;33m[0m

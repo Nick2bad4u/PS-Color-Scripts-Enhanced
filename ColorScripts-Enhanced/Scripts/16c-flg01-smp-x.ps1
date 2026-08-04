@@ -1,17 +1,4 @@
-﻿# Converted from: SMP-X.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flg01/raw/SMP-X.ANS
-# Source Revision: archive-sha256:562ebcaad20a0b2a8b7b107f134b5be6ba5f067cf297f19839a81e7c0eee3352
-# Source SHA-256: 5b2600339fdf0af90eaae226ebb64f253027f33ef75339f3a59b08c4b23253e6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-X.ANS by Shrimp (Foliage); released in flg01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: Shrimp
-# SAUCE Group: Foliage
-# SAUCE Date: 20010705
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: SMP-X.ANS by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flg01-smp-x
 
 Write-Host '
    [1;31m [0m     [1;31m░[0m       [31m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0m         [34;40m▄[0m                                 [37;40mShrimp[0;1;30;40m([0;32mFLG[0;1;30m)[0m [31m░░[0;30;41m▓[0m

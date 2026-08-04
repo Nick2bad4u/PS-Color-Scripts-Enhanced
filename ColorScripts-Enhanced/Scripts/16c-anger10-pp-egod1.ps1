@@ -1,18 +1,4 @@
-﻿# Converted from: PP-EGOD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger10/raw/PP-EGOD1.ANS
-# Source Revision: archive-sha256:a84fd6d21030f26985899f91a956dceb5637b0b2cbc8b90ab0b918890b9e87cd
-# Source SHA-256: 9b3403f6a935cc03056ae05b6140e5d423251843a9016e050dc7c014753a1d52
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PP-EGOD1.ANS by pixel_pusher (anger); released in anger10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: eg0d
-# SAUCE Author: pixel_pusher
-# SAUCE Group: anger
-# SAUCE Date: 19960505
-# SAUCE Dimensions: 80x13
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: eg0d by pixel_pusher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger10-pp-egod1
 
 Write-Host '
 

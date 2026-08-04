@@ -1,18 +1,4 @@
-﻿# Converted from: LN_UGHA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend07/raw/LN_UGHA.ANS
-# Source Revision: archive-sha256:ca5dd679a175bb824bf5bf250a5bbd7f932645b5aabbf63799cb92711cab24b8
-# Source SHA-256: 36a3149d5775ba2dc765048397175a7ebfaa3ff6a8e934f7dda18ef7bedc7548
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LN_UGHA.ANS by liithn (blend); released in blend07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: iddqd,iddqd,iddqd,iddqd,iddqd,iddqd
-# SAUCE Author: liithn
-# SAUCE Group: blend
-# SAUCE Date: 19970308
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: iddqd,iddqd,iddqd,iddqd,iddqd,iddqd by liithn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend07-ln-ugha
 
 Write-Host '
     [1m ▀█[0;1;33m█[0;1;32m██[0;31m▌[0;1;32m [0m [32m▐[0;36m▀[0;32m  [0;34m [0m     [1;34;42m░[0;1;32;42m░███[0;1;33;40m█[0;1;37;40m▄[0m [35m▐██[0;1;31;45m░░[0;35m█[0;1;31;45m▄▄▄██▄[0;1;37;40m▌[0m      [1;32;44m▀[0;1;32;42m█████████[0;1;37;42m██▓▓█[0;1;32;42m██████████[0;32m▀[0;1;32;42m▀[0m

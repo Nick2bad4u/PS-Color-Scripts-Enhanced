@@ -1,19 +1,4 @@
-﻿# Converted from: gDm-SLackPack.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/slackpack001/raw/gDm-SLackPack.ans
-# Source Revision: archive-sha256:5cacf66a668b317d377907af22e0a4e5723c4f7fb85756d1ef888c14cabea25b
-# Source SHA-256: c6794be76662aa2e048adbf22afac5e2b0389dc0d1be52a266c5b847a8844606
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: gDm-SLackPack.ans by GngrDr3dM4n (Slackers); released in slackpack001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: SlackPack 001
-# SAUCE Author: GngrDr3dM4n
-# SAUCE Group: Slackers
-# SAUCE Date: 20250608
-# SAUCE Dimensions: 80x49
-# SAUCE Font: IBM VGA
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: SlackPack 001 by GngrDr3dM4n | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-slackpack001-gdm-slackpack
 
 Write-Host '
     [34m▄▄███████████████████████████████████████████████████████████████████▄▄[0m

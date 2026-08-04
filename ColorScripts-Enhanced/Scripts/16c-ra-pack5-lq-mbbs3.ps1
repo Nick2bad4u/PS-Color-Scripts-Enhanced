@@ -1,18 +1,4 @@
-﻿# Converted from: LQ!MBBS3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ra-pack5/raw/LQ!MBBS3.ANS
-# Source Revision: archive-sha256:c686da67e3347a257f133229c38f0ded15c3b11846248779489ed776a4450659
-# Source SHA-256: a19e4f6e4d6875d95c91592d65b80da8c2fcb55d94168c85c43d4353b156e0cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LQ!MBBS3.ANS by LiQUiD (ARSiN Productions(c)); released in ra-pack5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Mystic BBS Software
-# SAUCE Author: LiQUiD
-# SAUCE Group: ARSiN Productions(c)
-# SAUCE Date: 19980605
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Mystic BBS Software by LiQUiD | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ra-pack5-lq-mbbs3
 
 Write-Host '
 [36m[0;1;30m[0m[1;30m[0;36m[0;1;30m[0;36m[0m                                                                      [36m''[0;1;30m98[0m

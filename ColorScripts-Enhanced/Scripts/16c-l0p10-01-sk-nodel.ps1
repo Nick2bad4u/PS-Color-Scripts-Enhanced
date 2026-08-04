@@ -1,18 +1,4 @@
-﻿# Converted from: SK!NODEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p10_01/raw/SK!NODEL.ANS
-# Source Revision: archive-sha256:07a7c989e195c9828a0ca382f79fb6d55a731b3471cfb9534617813c733c980c
-# Source SHA-256: a2b3300c748b31b6b2668d8194cf579782a6f7bfc0af65ef1b25fb0ecf301d62
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!NODEL.ANS by sIMONkING (tHElo0p); released in l0p10_01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: nO dELAY comments
-# SAUCE Author: sIMONkING
-# SAUCE Group: tHElo0p
-# SAUCE Date: 20010210
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: nO dELAY comments by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p10-01-sk-nodel
 
 Write-Host '
                                    [36m░░░░[0m

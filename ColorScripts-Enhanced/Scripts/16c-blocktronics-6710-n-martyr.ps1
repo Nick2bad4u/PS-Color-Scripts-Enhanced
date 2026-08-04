@@ -1,19 +1,4 @@
-﻿# Converted from: N-MARTYR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-6710/raw/N-MARTYR.ANS
-# Source Revision: archive-sha256:65fe9e2a2e2016f30e4b0141be2d1472e9b7cc814d922f9663e0d0a04142d70a
-# Source SHA-256: 20c0d2ee9efbc8776bd907d16729a63ebf5f15dd57d67f93293a7666e1f55213
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-MARTYR.ANS by nail (blocktronics); released in blocktronics-6710 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the martyr
-# SAUCE Author: nail
-# SAUCE Group: blocktronics
-# SAUCE Date: 20180713
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: the martyr by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-6710-n-martyr
 
 Write-Host '
         [34;40m▄[0;37;40m  [0;34;40m▄[0;37;40m [0;34;40m▄▀▄▀▄▀██▀█▄▀▄█▀░▓▀▄▀▄█▀▄▄███████▓▓██▓▓█▄▀▄█▓▓▓▄▀▄▀▄[0;37;40m [0;34;40m▄ ▄[0m

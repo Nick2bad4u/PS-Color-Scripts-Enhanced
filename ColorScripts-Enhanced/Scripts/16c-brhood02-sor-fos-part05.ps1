@@ -1,18 +1,4 @@
-﻿# Converted from: _SOR-FOS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/brhood02/raw/_SOR-FOS.ANS
-# Source Revision: archive-sha256:3116c5502285672e08ebd3993834dcfa2070529c71dc4b0a25ebc4b675dbf891
-# Source SHA-256: 9108d2af4eb484a7db6c47759340fc425257824796b228d65e20318a75313ab6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _SOR-FOS.ANS by spirit of rage (brotherhood); released in brhood02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: [fos] fistful of steel [fos]
-# SAUCE Author: spirit of rage
-# SAUCE Group: brotherhood
-# SAUCE Date: 19981230
-# SAUCE Dimensions: 80x226
-# Lines: 179-226
-# Columns: 1-80
+﻿# Artwork: [fos] fistful of steel [fos] by spirit of rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-brhood02-sor-fos-part05
 
 Write-Host '
 [1;30m [0m [1;30m█[0;1;30;47m▓▓▓▓▓▒▓▒▒▒▒▒░░▀█[0;1;30;40m▄ [0m   [1;30m    ▄▄▄▄ [0m   [1;30m░░[0m    [1;30m  [0m [31m░[0;37m [0;31m░░░[0;37m [0;31m░[0;37m  [0;1;30m▀ ▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀██▀▀▀▀▀▀▀[0m

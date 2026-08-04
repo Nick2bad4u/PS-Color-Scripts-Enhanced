@@ -1,18 +1,4 @@
-﻿# Converted from: PR-BLUR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blur9606/raw/PR-BLUR.ANS
-# Source Revision: archive-sha256:ffa9787881efe63b0b277d2660710693ab8c4162df884fbd2e37bd095d9f386e
-# Source SHA-256: 63bfe3089e07a65a097c4f6b2c5c05704963e375c3951f0bb34464f2b6c58b8c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR-BLUR.ANS by prime (bLUR); released in blur9606 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: blur promo
-# SAUCE Author: prime
-# SAUCE Group: bLUR
-# SAUCE Date: 19960531
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: blur promo by prime | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blur9606-pr-blur
 
 Write-Host '
 [1;30mb[0m                          [1;36m▀[0;36m████[0m           [36m█  ██[0m           [36m▄▄▄▄▄▄[0m

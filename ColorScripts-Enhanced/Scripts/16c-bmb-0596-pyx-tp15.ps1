@@ -1,18 +1,4 @@
-﻿# Converted from: PYX-TP15.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0596/raw/PYX-TP15.ANS
-# Source Revision: archive-sha256:2b7b1dd95a9d9508170892c43bef2c3ed5e02282eecce8d0ae15c8f279497494
-# Source SHA-256: 645b38df11253d02b6ee98dd665c93176dbc86808ac403d43c0d3c79ffdaeb5f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-TP15.ANS by pyx (bamboosh); released in bmb-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: top 15 ul
-# SAUCE Author: pyx
-# SAUCE Group: bamboosh
-# SAUCE Date: 19960518
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: top 15 ul by pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0596-pyx-tp15
 
 Write-Host '
                                    [1;35;45m▓▀[0m [1;35m [0m                  [1;35;45m▓▀[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PC-MTRX1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy11/raw/PC-MTRX1.ANS
-# Source Revision: archive-sha256:a8a1f25f60c56aa0932319ceb3e0a3707898d7c9d304c60c4912556d84eb4b61
-# Source SHA-256: 82f9df73b72d4a99d6d3ab09cd4ffa20d05d377f9629819de608311d35ec7f03
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-MTRX1.ANS by P-chan (What?); released in apathy11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Logon Matrix
-# SAUCE Author: P-chan
-# SAUCE Group: What?
-# SAUCE Date: 19960703
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Logon Matrix by P-chan | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy11-pc-mtrx1
 
 Write-Host '
   [1;30m▀[0m [1;30m▓▀▀▀[0;1;30;47m▓▒▓▓[0m [1;35m▀[0m [1;30;47m█▓▒▒░░░░░░▒▒▒▓▓█[0;1;30;40m▀▀[0m    [1;30m▓▄[0m    [1;30m▄▀[0;1;30;47m█▓▓▒▒░[0m▄█▀▀[1;30;47m░░░░▒▒▓[0;1;30;40m▌[0m [1;30m▐[0;1;30;47m█▓▓▓▒[0;1;30;40m▀[0m ▄[1;30;47m░░░░░[0m

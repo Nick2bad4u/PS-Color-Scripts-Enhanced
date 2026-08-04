@@ -1,18 +1,4 @@
-﻿# Converted from: SM!PLF2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0198/raw/SM!PLF2.ANS
-# Source Revision: archive-sha256:463d77f4b1466b54ce907e7ee760282fc69f7183ee8d9f351965b1f5ce417b30
-# Source SHA-256: 41b504e8afcc7c4b7eb1fba757c57d328ca55c2fffd95ba4f1b3bd93e9d3bdbf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM!PLF2.ANS by siMs (poffelipoff); released in plf-0198 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: PLF Logo
-# SAUCE Author: siMs
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19980106
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: PLF Logo by siMs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0198-sm-plf2
 
 Write-Host '
 ░[30;47m▓[0;1;37;40m▒▒[0m     [1m▄▄▄███████████[0;1;33m██[0;1;37m█▓▓░░[0m   ▄[1;47m▄[0m▄[1;30m▄[0m       [30;47m░[0;37;40m▓[0;30;47m░[0;37;40m▓[0;1;30;40m░░[0;1;35;40m  [0;1;30;40m▄[0;1;35;40m  [0m [1;30m░░[0m   [1;30m▄[0m  [1;30m■[0m          [1;30m█▓[0m

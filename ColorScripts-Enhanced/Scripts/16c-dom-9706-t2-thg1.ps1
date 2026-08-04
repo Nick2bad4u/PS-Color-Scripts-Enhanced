@@ -1,18 +1,4 @@
-﻿# Converted from: T2-THG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dom-9706/raw/T2-THG1.ANS
-# Source Revision: archive-sha256:a16d91b4075cff760b5038e2a8f1aab02d1965c9e4bbc85ed187b0405326b9b6
-# Source SHA-256: 1bd2aaa897850aa371de6314f82f43817fa9d7b452bc8a351d467173fb1e17b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T2-THG1.ANS by Terminator2 (Domino); released in dom-9706 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Thg
-# SAUCE Author: Terminator2
-# SAUCE Group: Domino
-# SAUCE Date: 19970605
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Thg by Terminator2 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dom-9706-t2-thg1
 
 Write-Host '
                                       [34m░[0m                       [34m▄[0m

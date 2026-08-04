@@ -1,18 +1,4 @@
-﻿# Converted from: PK-UNNI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spas9509/raw/PK-UNNI.ANS
-# Source Revision: archive-sha256:1340c6651b6275b3818b39ba38cc988f921ed41feddc1947c43297007b0bd0a9
-# Source SHA-256: 1e0ec970ef3c5653d99014f039fb66c1208f8ceffade1dfa070bd18fbf9b7462
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PK-UNNI.ANS by Pinky (Spastic); released in spas9509 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Unnilenium
-# SAUCE Author: Pinky
-# SAUCE Group: Spastic
-# SAUCE Date: 19950816
-# SAUCE Dimensions: 80x71
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Unnilenium by Pinky | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spas9509-pk-unni-part01
 
 Write-Host '
 [1;30;47m▒[0m▓[1;30;47m░[0;30;47m▄▀■[0;1;30;47m░▒[0;30;47m▄■▀[0;1;30;47m░ ░[0;30;47m▄ █ [0;1;30;47m▒▓[0;1;30;40m▀[0;30;47m■ [0;1;30;47m▒░[0;30;47m▄■[0;1;30;40m▄[0;1;30;47m▒[0;30;47m [0;1;30;47m░░▒[0;1;30;40m▀▀[0;30;47m▄■▀▀▀[0;1;30;47m▒[0;1;37;47m░[0;30;47m  [0;1;30;47m░[0;1;37;47m░▒[0;1;30;47m▒[0m▓[1;30;47m▓[0;1;30;40m▀▀▀[0;1;37;40m▀▀▀▓[0;1;30;47m▒░▒[0;30;47m [0;1;30;47m░[0;1;37;47m▒░[0;1;30;47m▒▓░[0;30;47m [0;1;37;47m░[0;30;47m   [0;1;37;47m▒[0;30;47m [0;1;37;47m▒▓▒[0;1;37;40m▓[0;1;30;47m [0;1;37;47m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: KS-NO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bleach01/raw/KS-NO1.ANS
-# Source Revision: archive-sha256:b051f200d4cb4a187bf381a6b9042d79015b79b0cf19e4a4a725c252afed48ec
-# Source SHA-256: 7d1182c18451e49b04e6b5c1b2e7a8880980e841a96ed0f2111c1a3884aee27c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KS-NO1.ANS by Kaos (Bleach); released in bleach01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: No!
-# SAUCE Author: Kaos
-# SAUCE Group: Bleach
-# SAUCE Date: 19950223
-# SAUCE Dimensions: 80x81
-# Lines: 41-81
-# Columns: 1-80
+﻿# Artwork: No! by Kaos | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bleach01-ks-no1-part02
 
 Write-Host '
 [1;30;40m███████████████▀▀▀▀▀[0;1;32;40m▄▄▄[0;1;32;42m▒▒▒░░░                      ░▒▒▓▓[0;1;32;40m▄▄▄[0;1;30;40m▀▀▀▀▀████████████████[0m

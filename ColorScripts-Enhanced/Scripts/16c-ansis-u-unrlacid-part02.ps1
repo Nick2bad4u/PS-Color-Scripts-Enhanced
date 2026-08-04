@@ -1,13 +1,4 @@
-﻿# Converted from: UNRLACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-u/raw/UNRLACID.ANS
-# Source Revision: archive-sha256:d0fda1ced12a3b979fb631b4089e3aa9970734c7ea9cbae9f6a28deb0ddfdf9c
-# Source SHA-256: 755427591e17cdda3768c4a8cb29e038178ca7fe85b9527b191ec3103e24724c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UNRLACID.ANS by Slam Dunk (ansis-u); released in ansis-u and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 30-54
-# Columns: 1-80
+﻿# Artwork: UNRLACID.ANS by Slam Dunk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-u-unrlacid-part02
 
 Write-Host '
                           [1;32;40m▐[0;1;32;42m▒▒▒[0;32m▓▓▓▒▒▓▓▓▀[0;1;32;42m░░░[0;32m▀▌[0;1;32m▐[0;1;32;42m▒[0;1;32;40m▌[0m▄

@@ -1,18 +1,4 @@
-﻿# Converted from: US-SLURG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roots01/raw/US-SLURG.ANS
-# Source Revision: archive-sha256:dd8ab7f4699320ca828bf58552b53e17a1e210a9bedef1bc8bfdf4b451cdf01c
-# Source SHA-256: 36ffecbfa2ce63cc5875d36be8d493cc74cb2f445fdaedbb3186d623e5706021
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SLURG.ANS by Ceelow + Teflon (roots); released in roots01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: slurge font
-# SAUCE Author: tef+ceelow
-# SAUCE Group: roots
-# SAUCE Date: 20080205
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: slurge font by Ceelow + Teflon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roots01-us-slurg
 
 Write-Host '
 [32m▓▒░[0;37m [0;32m░[0;37m   [0;34m░▒▓▒░[0;37m   [0;1;30m▄■[0;31m [0;32m   [0;37m [0;36m▄▄[0;1;36;46m░░[0;36m▀[0;37m [0;34m [0;35m░░ ░░[0;1;34;45m▓[0;35m▀▀  [0;36m░░░▒▒▓▓▓▓▓▒▒░░[0;37m [0;36m░▓░[0;37m [0;36m░[0;37m   █[0;32m██▄▄[0;1;30m   [0;35m░░░▒▒▒▓▓▓[0m

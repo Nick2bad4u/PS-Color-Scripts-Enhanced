@@ -1,18 +1,4 @@
-﻿# Converted from: IP-MAXX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dos-v195/raw/IP-MAXX.ANS
-# Source Revision: archive-sha256:59a2d874f32e5b16b44ce5c91ac0499ea2f49cd07f1106869d54aa14595c444c
-# Source SHA-256: 5cece844a6f0df7cab97c38254c5f7439c5b77c07ddaaa7d53722f3d323e25df
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IP-MAXX.ANS by Inner Persuction (DoS); released in dos-v195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: DoS Promo. Featuring MaxX
-# SAUCE Author: Inner Persuction
-# SAUCE Group: DoS
-# SAUCE Date: 19950101
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: DoS Promo. Featuring MaxX by Inner Persuction | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dos-v195-ip-maxx
 
 Write-Host '
 [1;30m███████████████▀▀▀ [0;1;33m▄▄[0;1;30m▀▀▀█████▓██████▓████████████▓ 3hh, uhhm .. L1k3 ch3ck d1s''[0m

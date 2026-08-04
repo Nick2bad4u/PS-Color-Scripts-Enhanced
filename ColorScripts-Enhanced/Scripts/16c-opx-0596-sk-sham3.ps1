@@ -1,18 +1,4 @@
-﻿# Converted from: SK!SHAM3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0596/raw/SK!SHAM3.ANS
-# Source Revision: archive-sha256:06f164afecd2a38c1a107122cbc0c2c2d07c6484c9e867e2eecffd5f8b0065bf
-# Source SHA-256: f47b5a12c6eb29bffb26ebcd09dff694f5ea5cef78aaa8271f0fc3ee45820bda
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!SHAM3.ANS by SKeLeToN (opium); released in opx-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Shamera Kye matrix
-# SAUCE Author: SKeLeToN
-# SAUCE Group: opium
-# SAUCE Date: 19960413
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Shamera Kye matrix by SKeLeToN | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0596-sk-sham3
 
 Write-Host '
                                 [1;30m▄■▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀■▄[0m

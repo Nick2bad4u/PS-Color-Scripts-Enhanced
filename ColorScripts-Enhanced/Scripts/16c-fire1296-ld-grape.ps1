@@ -1,18 +1,4 @@
-﻿# Converted from: LD-GRAPE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1296/raw/LD-GRAPE.ANS
-# Source Revision: archive-sha256:30782fcfc860946575894eb2b18cd82015430d9b2fe92875d1416c9b2489f009
-# Source SHA-256: ac30c23ec945a313e9d7fa449ef35a018bfdd66f6eb901f733cc1eed6236b903
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-GRAPE.ANS by oned (fire); released in fire1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Grape
-# SAUCE Author: oned
-# SAUCE Group: fire
-# SAUCE Date: 19961203
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Grape by oned | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1296-ld-grape
 
 Write-Host '
     [34mgrape [0;1;34m▄▄[0;1;34;44m▓▓█[0;1;34;47m▓▓[0;1;34;44m▄[0;34m▄ [0;1;34m▄▄▄[0;1;34;44m██[0;1;34;47m█▓▓▓▓[0;1;34;44m▄[0;34m▄   [0;1;34m▄[0;1;34;44m▓██[0;1;34;47m▓▓▓[0;1;34;44m█▄[0;34m▄ [0;1;34m▄▄▄[0;1;34;44m▓▓▓██[0;1;34;47m▓▓[0;1;34;44m▄[0;34m▄   ▄[0;1;34m▄[0;1;34;47m▓[0;1;34;44m██[0;1;34;47m▓▒▓[0;34m▄ [0;1;30moned.[0m

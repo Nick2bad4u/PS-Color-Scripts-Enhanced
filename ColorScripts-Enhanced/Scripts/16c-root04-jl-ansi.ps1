@@ -1,18 +1,4 @@
-﻿# Converted from: JL-ANSI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root04/raw/JL-ANSI.ANS
-# Source Revision: archive-sha256:8dec1aa0e303d37205499818eaff4458ebf93774cd973f016deaae45658df6b3
-# Source SHA-256: 07aa125e7f7df78c47d49e362656b4f5a774c4228fe2c58b6949c5eec7d460a1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JL-ANSI.ANS by Joll (Root); released in root04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ansi detection
-# SAUCE Author: Joll
-# SAUCE Group: Root
-# SAUCE Date: 19970518
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: ansi detection by Joll | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root04-jl-ansi
 
 Write-Host '
 

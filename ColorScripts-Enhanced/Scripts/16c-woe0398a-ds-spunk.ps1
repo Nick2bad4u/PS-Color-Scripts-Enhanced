@@ -1,18 +1,4 @@
-﻿# Converted from: DS-SPUNK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/woe0398a/raw/DS-SPUNK.ANS
-# Source Revision: archive-sha256:feef6c5067150fcb3afb8e1031cbd84508116073dc31e796c2f896be6ffc96b0
-# Source SHA-256: 8298d2c161df9935f797a1860157ec7ffcf1e58061118b078ea9582a88571af9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-SPUNK.ANS by drseuss (w0E!); released in woe0398a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: spunk!
-# SAUCE Author: drseuss
-# SAUCE Group: w0E!
-# SAUCE Date: 19971214
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: spunk! by drseuss | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-woe0398a-ds-spunk
 
 Write-Host '
 

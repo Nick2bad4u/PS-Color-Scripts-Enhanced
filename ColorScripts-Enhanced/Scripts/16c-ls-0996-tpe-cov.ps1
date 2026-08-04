@@ -1,18 +1,4 @@
-﻿# Converted from: TPE-COV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ls-0996/raw/TPE-COV.ANS
-# Source Revision: archive-sha256:6630c6d0a9b4df765e120f90c454a35df3f880cc9703a20738fa40c8ddab694c
-# Source SHA-256: d07ebb0285ab216027722f843c8ab1db44268393cd9e68faeb0cdb37e0717b41
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TPE-COV.ANS by the platinum eagle (leper society); released in ls-0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: church of valhala
-# SAUCE Author: the platinum eagle
-# SAUCE Group: leper society
-# SAUCE Date: 19960811
-# SAUCE Dimensions: 80x23
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: church of valhala by the platinum eagle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ls-0996-tpe-cov
 
 Write-Host '
                     [32m,[0m              [32m`.[0m                      [32m,''[0m       [32m`.[0m

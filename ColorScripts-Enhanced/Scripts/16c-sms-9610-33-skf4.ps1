@@ -1,18 +1,4 @@
-﻿# Converted from: 33-SKF4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9610/raw/33-SKF4.ANS
-# Source Revision: archive-sha256:5789c5cb1a5ac21acfd3fa7dc4a5a88db3f4a5b9545409ca8ca34a86bd816077
-# Source SHA-256: 58f57c22f1f8cab19f8afa576e2d4280dc7618d034b13b729691d27f48a358fc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-SKF4.ANS by Eerie (Samsara); released in sms-9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Skullfish
-# SAUCE Author: Eerie
-# SAUCE Group: Samsara
-# SAUCE Date: 19960928
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Skullfish by Eerie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9610-33-skf4
 
 Write-Host '
                     [30;41m░░[0;31;40m▓█████████████████▌[0m     [31;40m░░[0;30;41m▓[0m

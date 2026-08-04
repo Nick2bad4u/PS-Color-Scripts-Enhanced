@@ -1,13 +1,4 @@
-﻿# Converted from: 7O-ALTR8.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/7o-nucl2/raw/7O-ALTR8.ANS
-# Source Revision: archive-sha256:9ae5d3ac8ccd1906f3de6280db376e136bee5170abd3acc107be3effbf05127c
-# Source SHA-256: c549e40d20a89b0cc9ddadb49d8611a565a7b2622c601c7d38cb6fc87c94cf9b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 7O-ALTR8.ANS by 7alo (7o-nucl2); released in 7o-nucl2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: 7O-ALTR8.ANS by 7alo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-7o-nucl2-7o-altr8
 
 Write-Host '
 

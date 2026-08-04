@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-FRST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0799/raw/OUT-FRST.ANS
-# Source Revision: archive-sha256:c644d5a23a3ecac0af8ce1e79153630acd23b5306310926251e5168615a479f5
-# Source SHA-256: 70352f665803eee369ce0211ae198a82d20049aaa9c74d253d5c052ffb21bfdc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-FRST.ANS by Sandy Chidester (out-0799); released in out-0799 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: OUT-FRST.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0799-out-frst
 
 Write-Host '
 [33m█   ▄▄▀[0;32m■▄[0m                                                               [37m▄▓▓ [0;1;37;47m▓▒[0m█▄

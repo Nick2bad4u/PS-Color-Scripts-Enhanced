@@ -1,16 +1,4 @@
-﻿# Converted from: FD-CMNT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger06/raw/FD-CMNT.ANS
-# Source Revision: archive-sha256:efc6b6d6892fe7f05c3b06052b1d79464b7ee8ab8c7bee2d77361e00cf941f28
-# Source SHA-256: 5cbb7c023c74c1e89d10fe3ae3372e4983f36496c1a4ebd1c973bcc3d12beecd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FD-CMNT.ANS by fadE (anger); released in anger06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: stat screen.
-# SAUCE Author: fadE
-# SAUCE Group: anger
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: stat screen. by fadE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger06-fd-cmnt
 
 Write-Host '
       [1;30m─ ─[0;32m─ [0;1;30m─[0;32m─[0;1;32m─ [0;1;30m─[0;32m─[0;1;32m──[0;32m─[0;1;32m───────────────────────────────────────[0;32m─[0;1;32m───[0;32m─[0;1;30m─ [0;1;32m─[0;32m─[0;1;30m─ [0;32m─[0;1;30m─ ─[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: REP!FLS3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pang01/raw/REP!FLS3.ANS
-# Source Revision: archive-sha256:24a47d3a6396232434bffa2e1615955141cf762e5fd721c02b6ad40f81a7def7
-# Source SHA-256: e233a22140f333d82b69d8f9bca11ef5ed707285f5ea1207add6e55629a8b8d7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: REP!FLS3.ANS by Reptical (pang01); released in pang01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: REP!FLS3.ANS by Reptical | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pang01-rep-fls3
 
 Write-Host '
                    [1;32m   [0m                                          [1;32m   [0;32m [0;33m,[0;32m_ [0;1;32m [0;32m\[0;33m\[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: NS-INK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense14j/raw/NS-INK.ANS
-# Source Revision: archive-sha256:09ec71553d0e99093e00659fd39efd917ea23ae8b70a1c6de1aece96dc2e61a3
-# Source SHA-256: 8c003629d06df4bc25249e01190a96ad390ae52aad8cace2daa212efc60ff2d4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NS-INK.ANS by ansichrist (senseimagery); released in sense14j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ink
-# SAUCE Author: ansichrist
-# SAUCE Group: senseimagery
-# SAUCE Date: 20030522
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: ink by ansichrist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense14j-ns-ink
 
 Write-Host '
 [1;31m▒▒▒▒[0;31m█[0;1;31m▒[0;31m███[0;1;32m▐[0;1;32;47m▓▀[0;1;32;42m█[0;1;32;40m█████████[0;1;32;42m██▓█████████████████████████[0;1;32;40m▓▓▓▓[0;1;32;42m█████▄[0;1;32;40m▒[0;1;30;42m░[0;1;30;40m▄[0;32m [0;31m████[0;1;31m▒[0;31m██[0;1;31m▒▒▒▒▒▒▒▒▒[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: JY_EYES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bgs_num1/raw/JY_EYES.ANS
-# Source Revision: archive-sha256:e0f00bf907dd5be4b375ace59bb594eecd3ca210e7121710e2a68853cfcf6d12
-# Source SHA-256: a27d7386c56586265e74451241348b823d7ef405aade6e27c363ff795c51a039
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JY_EYES.ANS by Joy (bgs_num1); released in bgs_num1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: JY_EYES.ANS by Joy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bgs-num1-jy-eyes
 
 Write-Host '
 [1;33m[0;1;36m[0;1;33m[0;36m[0;37m[0;1;34m[0m[1;33m[0m[1;33m[0;1;36m[0;1;33m[0;36m[0;37m[0;1;34m[0m[1;33m[0m[1;33m[0;1;36m[0;1;33m[0;36m[0;37m[0;1;34m[0m[1;33m[0m[1;33m[0;1;36m[0;1;33m[0;36m[0;37m[0;1;34m[0m[1;33m[0m[1;33m[0;1;36m[0;1;33m[0;36m[0;37m[0;1;34m[0;1;33m[0m[1;33m[0;1;36m[0;1;33m[0;36m[0;37m[0;1;34m[0m[1;33m[0m[1;33m [0;1;36m [0;1;33m [0;36m [0;37m  [0;1;34m             [0m            [1;33m■■■■■■[0m

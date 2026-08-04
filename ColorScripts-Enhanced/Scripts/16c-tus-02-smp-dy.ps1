@@ -1,15 +1,4 @@
-﻿# Converted from: SMP-DY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tus-02/raw/SMP-DY.ANS
-# Source Revision: archive-sha256:1847ccf8f73b78fd290bcfae71e9f3879e98988c4912942d1ab6ff427e924c10
-# Source SHA-256: 7b86e9ddf12449ab3b25f1ffe7b9063deeff73beb6221e0474a49f8eab160c66
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-DY.ANS by Shrimp (tus-02); released in tus-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 20010909
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: SMP-DY.ANS by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tus-02-smp-dy
 
 Write-Host '
 [34mSuspect[0;1;34mShrimp[0m                                            [1;36m [0;36m█████[0;1;36;46m   [0;36m███[0;1;36;46m [0;36m██████████[0m

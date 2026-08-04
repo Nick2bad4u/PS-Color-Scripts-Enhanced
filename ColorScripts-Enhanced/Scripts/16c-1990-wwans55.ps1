@@ -1,13 +1,4 @@
-﻿# Converted from: WWANS55.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1990/raw/WWANS55.ANS
-# Source Revision: archive-sha256:08ccf16537b7ec6a49d988d666ab246efafa48facbb3ef7beef1662a9cba1cc2
-# Source SHA-256: f24a216e046c79d18c30b3f8097caaf8a778a7f2fe7cda76920a1bb06df28527
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WWANS55.ANS by George Ramos (1990); released in 1990 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: WWANS55.ANS by George Ramos | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1990-wwans55
 
 Write-Host '
 [1mGeorge Ramos #11 @7702[0m          ▄▄            [31;47m█[0;1;37;41m▄▄▄▄▄▄▄▄[0;31;47m█[0m

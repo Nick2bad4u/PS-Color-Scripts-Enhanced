@@ -1,19 +1,4 @@
-﻿# Converted from: LDA-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/LDA-FIRE.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: 2f3cb4412e88f963f6fc9ef9f4b72365cd2beb3eadf227f2e4c386b30d16886e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LDA-FIRE.ANS by LDA (Mistigris); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fire
-# SAUCE Author: LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20210224
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Fire by LDA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-lda-fire
 
 Write-Host '
               [30;40m▐[0m                                           [1;30;40m▄▀[0m [1;30m■[0m

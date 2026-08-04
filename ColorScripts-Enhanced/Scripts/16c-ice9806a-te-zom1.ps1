@@ -1,13 +1,4 @@
-﻿# Converted from: TE-ZOM1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9806a/raw/TE-ZOM1.ICE
-# Source Revision: archive-sha256:524ec7f60d659858021eef8de88812e1da638f649a7b04888d3bf3401ec852f4
-# Source SHA-256: 390f40ed02394761446d6523514912c414044c96cdd85bd1b06915b17c464d4b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-ZOM1.ICE by Tetanus (ice9806a); released in ice9806a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: TE-ZOM1.ICE by Tetanus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9806a-te-zom1
 
 Write-Host '
 [1;30m▒░░[0m   [33m▓█▄███▀██[0;1;31;43m░░░░[0;33m███▀█▀▀▀███[0;1;31;43m░░░░[0;33m██▀▀█████▓░[0;37m [0;31m [0;37m [0;1;30m░▓█ [0;31m▐█[0;1;31;41m░░░[0;31m██▄▄▄██▓▓▓▓▓█▀█▀▀█▀▀▀▀▀[0m

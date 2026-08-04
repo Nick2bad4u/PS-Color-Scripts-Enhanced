@@ -1,18 +1,4 @@
-﻿# Converted from: BW-MATRX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy08/raw/BW-MATRX.ANS
-# Source Revision: archive-sha256:dddbecd097515d8bc284ea8726046b80b56f2576fe024d98d7a392e98f8d9a1f
-# Source SHA-256: fb64dd0b8d2eefa55c0db7d0c4b3d6905f34c0e8c6ae7177f935e3cb9e84418b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BW-MATRX.ANS by balls wilson (apathy); released in apathy08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Vomitorium Matrix
-# SAUCE Author: balls wilson
-# SAUCE Group: apathy
-# SAUCE Date: 19960312
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Vomitorium Matrix by balls wilson | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy08-bw-matrx
 
 Write-Host '
        [1m▄[0m     [1m▀▀█▄[0;1;30m [0m    [1m▄▄███▄[0m  [1;30m                                                  [0m

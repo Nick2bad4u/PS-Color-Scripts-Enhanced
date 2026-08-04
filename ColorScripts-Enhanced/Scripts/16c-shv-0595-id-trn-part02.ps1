@@ -1,18 +1,4 @@
-﻿# Converted from: ID-TRN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shv-0595/raw/ID-TRN.ANS
-# Source Revision: archive-sha256:82fe2913421f037d08041cae82983960f00d748b889c6356f72c6026b00a0a26
-# Source SHA-256: 21016c7b63a1fc04da77c24b976d15b3d492751a86ca2c572d235c1b7d001251
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ID-TRN.ANS by Iodine (Shiver); released in shv-0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Ravaged Nightmare
-# SAUCE Author: Iodine
-# SAUCE Group: Shiver
-# SAUCE Date: 19950501
-# SAUCE Dimensions: 80x25
-# Lines: 18-58
-# Columns: 1-80
+﻿# Artwork: The Ravaged Nightmare by Iodine | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shv-0595-id-trn-part02
 
 Write-Host '
        [1;30m▀▀▄[0m

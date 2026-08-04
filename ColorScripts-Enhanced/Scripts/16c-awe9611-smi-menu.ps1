@@ -1,17 +1,4 @@
-﻿# Converted from: SMI-MENU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9611/raw/SMI-MENU.ANS
-# Source Revision: archive-sha256:2b73e149488dc761d99422832825743596588d59e58f9bfecfb5d0e9dbffd274
-# Source SHA-256: 9c9ce2a7cfb65441e39f4ca68deff3d7e6b71855775df59b690970815d53c647
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMI-MENU.ANS by Samurai (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Special Sauce Menu
-# SAUCE Author: Samurai
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Special Sauce Menu by Samurai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9611-smi-menu
 
 Write-Host '
 [32msmi░░▄[0;1;32m▄▄▄▄▄▄[0;1;33m▐█[0;1;37m██[0;1;33m██░░░[0m                          [32m [0m          [36m░░░░[0m        [1;36m░░░[0;1;33m░░[0;1;37m░░[0;1;33m░░[0m

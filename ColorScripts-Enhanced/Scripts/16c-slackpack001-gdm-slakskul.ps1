@@ -1,19 +1,4 @@
-﻿# Converted from: gDm-SlakSkul.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/slackpack001/raw/gDm-SlakSkul.ans
-# Source Revision: archive-sha256:5cacf66a668b317d377907af22e0a4e5723c4f7fb85756d1ef888c14cabea25b
-# Source SHA-256: d60bdb9af7a91e9b3fe99e426485c8977e351617494452af9cdc79811b68819a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: gDm-SlakSkul.ans by GngrDr3dM4n (Slackers); released in slackpack001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: SlakSkul
-# SAUCE Author: GngrDr3dM4n
-# SAUCE Group: Slackers
-# SAUCE Date: 20250608
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: SlakSkul by GngrDr3dM4n | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-slackpack001-gdm-slakskul
 
 Write-Host '
 [34m████████████████████████████████▀▀▀▀▀▀▀▀▀▀▀▀▀▀█████████████████████████████████[0m

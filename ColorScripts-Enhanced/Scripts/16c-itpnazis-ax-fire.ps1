@@ -1,13 +1,4 @@
-﻿# Converted from: AX_FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/itpnazis/raw/AX_FIRE.ANS
-# Source Revision: archive-sha256:b63f1061c14ef43c41c98429978c6d429bbae740ff287c27de867b6629e2595b
-# Source SHA-256: dfbb7bcd7ed17ad4f8e18caf31d8f725bb8f125d4c13426a3521938c2ccc3de6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AX_FIRE.ANS by Alla Xul (itpnazis); released in itpnazis and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: AX_FIRE.ANS by Alla Xul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-itpnazis-ax-fire
 
 Write-Host '
 ▒▒▒▒▒▒▒░░░░░░░░[1;30m░░░░░[0m                                         [1;30m [0;31m▀[0;1;37m▀▀▓▓▄[0m▄

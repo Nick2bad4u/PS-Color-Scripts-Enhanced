@@ -1,18 +1,4 @@
-﻿# Converted from: STH-DYST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ws-asc9509/raw/STH-DYST.ANS
-# Source Revision: archive-sha256:98e15c5095e2a719efa77edbc250a25a24728f576009726dc280dd3638f3e813
-# Source SHA-256: cdbe01d9d0de4ec1bf7ae77fb3d03aa4afff1d880497ca6d3807b4ac3bbd56f0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STH-DYST.ANS by seethe (READ THE INI FILE); released in ws-asc9509 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: dystophia
-# SAUCE Author: seethe
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950903
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: dystophia by seethe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ws-asc9509-sth-dyst
 
 Write-Host '
 [35m$$$$$$$$[0;31m [0;35m"$$$$$$$.[0;31m  [0;35m$$$$::$$$$[0;31m  [0;35m$$$$$[0;31m [0;35m$$$$$[0;33m [0;1;31m$$$$$$$$$$$$$$$$$$$$$$[0;31m [0;35m$$:[0;31m [0;35m$$[0;31m [0;35m$$$$"s[0m

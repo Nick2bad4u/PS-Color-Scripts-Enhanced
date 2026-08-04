@@ -1,18 +1,4 @@
-﻿# Converted from: US-BLADE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy07/raw/US-BLADE.ANS
-# Source Revision: archive-sha256:cf53c4ea5c286717abe3d962fb98452e352d7d7a30a31881220e7068a7f0bb79
-# Source SHA-256: 740bf92b64b99df75195c247e2a4f212523571e5eb0f998d1cd974d2b8c12d8e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BLADE.ANS by Apox + Zork (Apathy); released in apathy07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Blade
-# SAUCE Author: Apox/Zork[Blade]
-# SAUCE Group: Apathy
-# SAUCE Date: 19960303
-# SAUCE Dimensions: 80x25
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Blade by Apox + Zork | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy07-us-blade
 
 Write-Host '
 [1;30m [0m      [1;33m         [0m                          [31m▀[0m

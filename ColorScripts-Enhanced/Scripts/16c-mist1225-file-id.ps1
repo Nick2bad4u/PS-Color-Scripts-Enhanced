@@ -1,20 +1,4 @@
-﻿# Converted from: FILE_ID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1225/raw/FILE_ID.ANS
-# Source Revision: archive-sha256:ad7094cd4ecc2b378f2db405885d71750ab479d4047a6dbcbce2412f0935f4aa
-# Source SHA-256: b85c8e6a2b4181bf4f8f0221e01606307acfea621015bff4a68637e47285f2b7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FILE_ID.ANS by Cthulu (Mistigris); released in mist1225 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: MIST1225 FILE_ID.DIZ
-# SAUCE Author: Cthulu
-# SAUCE Group: Mistigris
-# SAUCE Date: 20251221
-# SAUCE Dimensions: 44x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: a tip of the toque to the band Wintermitts!
-# Lines: 1-25
-# Columns: 1-44
+﻿# Artwork: MIST1225 FILE_ID.DIZ by Cthulu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1225-file-id
 
 Write-Host '
 [35m████████████████[0;1;30;45m▄▄[0;35m██████████████████████████[0m

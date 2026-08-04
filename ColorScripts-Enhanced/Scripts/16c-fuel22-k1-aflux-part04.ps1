@@ -1,19 +1,4 @@
-﻿# Converted from: k1-aflux.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel22/raw/k1-aflux.ans
-# Source Revision: archive-sha256:ba169f7927d483c43f833be895de0c289bdb93739fe60d9d716f1c3c01404206
-# Source SHA-256: 9f5aaf791ac928bd5e30ec6fcaf1372e42d7fbd9a41c23722a6bd0dbcecb2732
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: k1-aflux.ans by knocturnal (fuel); released in fuel22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: aeon flux
-# SAUCE Author: knocturnal
-# SAUCE Group: fuel
-# SAUCE Date: 20170507
-# SAUCE Dimensions: 80x154
-# SAUCE Font: IBM VGA
-# Lines: 117-154
-# Columns: 1-80
+﻿# Artwork: aeon flux by knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel22-k1-aflux-part04
 
 Write-Host '
               [1;30m▄[0;1;30;45m▓▓[0;35m█[0;1;35;45m▄▄▄[0;1;35;47m▓▓[0;1;35;45m▓▓▓▀[0;1;35;40m▀▀▀[0;1;35;45m▀▀▀[0;1;30;45m ▬▄[0;35m▀[0m                      [1;30m▐[0m▓[1;30m▌[0m

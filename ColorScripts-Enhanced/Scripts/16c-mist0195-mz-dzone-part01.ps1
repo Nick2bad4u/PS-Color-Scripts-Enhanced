@@ -1,18 +1,4 @@
-﻿# Converted from: MZ-DZONE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0195/raw/MZ-DZONE.ANS
-# Source Revision: archive-sha256:06041bc047d5d13552759e132dd517f2bd90d6434769614085d3f80563e38e98
-# Source SHA-256: aad8aad45cfdb78e64316fb4480f72c852c148661544def76cb60779b0635aa6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MZ-DZONE.ANS by Mage (MiSTiGRiS); released in mist0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Dead Zone
-# SAUCE Author: Mage
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19941217
-# SAUCE Dimensions: 80x56
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: The Dead Zone by Mage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0195-mz-dzone-part01
 
 Write-Host '
 [32;40m░ ▀▀█▄▓▓█▄▄░▀▓▌ ░▄▌▀ [0m [32;40m░    ░▄[0m  [32;40m ▄▄▀░▐▄ ░▄▓[0;32;43m▓[0;32;40m▀▀▄░[0m [32;40m░░ ▄▄▌▄░▐▄[0;32;43m▓[0;32;40m▀▓▄░[0m  [32;40m▐▓[0;32;43m▓[0;32;40m▄▀▐▄░[0m    [32;40m░░[0m

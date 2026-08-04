@@ -1,18 +1,4 @@
-﻿# Converted from: PR-DES01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0796/raw/PR-DES01.ANS
-# Source Revision: archive-sha256:f2392fcbe326be67243a018c170e3f1d8e22753f58b6051ec51575e3fcab8048
-# Source SHA-256: 6986204904a5d57a3e15b39da331bb344f94de02900274954d9c90dabaf9d58a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR-DES01.ANS by psyberrape (fire); released in fire0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: desert (#1)
-# SAUCE Author: psyberrape
-# SAUCE Group: fire
-# SAUCE Date: 19960709
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: desert (#1) by psyberrape | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0796-pr-des01
 
 Write-Host '
 [1;30m[0m[1m[0m[1m[0m                                ·                       ·           [1;32m▄█[0;1;32;42m▓▀[0;1;32;40m▄[0m     [1;32m▄▄[0m

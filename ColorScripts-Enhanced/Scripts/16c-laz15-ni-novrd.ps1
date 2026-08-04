@@ -1,19 +1,4 @@
-﻿# Converted from: ni-NOVRD.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz15/raw/ni-NOVRD.ans
-# Source Revision: archive-sha256:d35f5b18ac3e8cbe3d6d17eab809a7e050609a8e3cc7d160d14a87c59a191c12
-# Source SHA-256: 41e20d3a496d301f2de30c8dbc67f7c54a59e1ffbf4c53353e5c3479868e5d6e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ni-NOVRD.ans by nitron (M.A.D.); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Matrix Login
-# SAUCE Author: nitron
-# SAUCE Group: M.A.D.
-# SAUCE Date: 20220523
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Matrix Login by nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz15-ni-novrd
 
 Write-Host '
             ▄[1;30;47m▄[0m▄                [1;33m▀▀[0;31m▀[0;37m [0;1;33;41m░[0;31m█[0;1;33m▄[0;1;33;41m▀[0;31m▀▀▄[0;1;33;41m░[0;31m█[0;37m [0;31m██[0;1;33;41m▒[0;31m█▀[0;37m [0;1;33;41m▒[0;31m▀▀█[0;1;33m▐[0;1;33;41m▒[0;31m█▀▄[0;1;33;41m▒[0;31m█[0;37m [0;31m██[0;1;33m  bbs[0m

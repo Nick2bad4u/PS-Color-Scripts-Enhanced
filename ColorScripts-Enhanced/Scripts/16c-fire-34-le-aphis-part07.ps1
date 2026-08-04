@@ -1,19 +1,4 @@
-﻿# Converted from: LE-APHIS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/LE-APHIS.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: a32be257090528cf79e1226cca09cc6adb0db19f4a0ad325b4311b5f1bde4450
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LE-APHIS.ANS by Leonardo (Fire); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Apophis
-# SAUCE Author: Leonardo
-# SAUCE Group: Fire
-# SAUCE Date: 20201219
-# SAUCE Dimensions: 80x310
-# SAUCE Font: IBM VGA
-# Lines: 267-310
-# Columns: 1-80
+﻿# Artwork: Apophis by Leonardo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-le-aphis-part07
 
 Write-Host '
  [107m▀[0;100m [0;107m▀[0;31m█   ░[0;37;107m ▀ [0m [1;47m█ ▄[0;31m▀ [0;1;30m   [0;31m [0;1;30m▄[0m▄▀[1;30m▀[0m█[1;47m█[0m█[31m▀ [0;37m  [0;31m▒[0;37m█[0;1;30m█[0m█ [1;47m▄▄▄[0;31m▀[0;37m   [0;34m ▀[0;1;30m▄[0m▄▀[1;30m▀[0;1;37;47m █[0m█[1;30m▄[0;31m▀▀▀[0;1;30m▄[0;1;37;47m███[0m [1;30m [0m▄ █ [1;47m█▀█[0;1;30;40m▄[0m [1;30m▄[0m [1;30m▄[0m [1;30m▄[0m [1;30m▄[0m

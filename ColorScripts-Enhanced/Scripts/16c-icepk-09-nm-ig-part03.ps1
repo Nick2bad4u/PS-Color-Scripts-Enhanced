@@ -1,13 +1,4 @@
-﻿# Converted from: NM-IG.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-09/raw/NM-IG.ICE
-# Source Revision: archive-sha256:1fcbf4aa1710b0a53349a8ea40276f5225ba911f5e9d163ab7e96a35bbed2cd0
-# Source SHA-256: 76ed57b8b6bb7f8f93b5c3c3bbe1bad95112f3b884281a9a63fda1e1e763637f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NM-IG.ICE by The Necromancer (icepk-09); released in icepk-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 97-128
-# Columns: 1-80
+﻿# Artwork: NM-IG.ICE by The Necromancer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-09-nm-ig-part03
 
 Write-Host '
                                  [1;37m-[0m-[1;30m- [0;1;37mτ[0m├[1;30m┤Σ [0;1;37m-[0m-[1;30m-[0m

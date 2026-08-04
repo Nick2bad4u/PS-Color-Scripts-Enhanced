@@ -1,13 +1,4 @@
-﻿# Converted from: JK-D.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca16-a/raw/JK-D.ANS
-# Source Revision: archive-sha256:c66af227f0487c6a2106388d1038f0f141348ecfdbd559edd3cf06b5528480f9
-# Source SHA-256: 95626803442d45d6dbb1595fd5f71b43af1d3d8316cc863d37221efd115d2869
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JK-D.ANS by Jaykay (rca16-a); released in rca16-a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: JK-D.ANS by Jaykay | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca16-a-jk-d
 
 Write-Host '
 [31m██[0;35;41m░░[0;31;40m████████[0;30;41m░░░░[0;31;40m███▀▄██[0;1;31;41m▄[0;31m▄   [0m   [31m ░[0;30;41m▓[0;31;40m░ [0m     [36;40m▄[0;1;36;40m▄▄▄▄[0;36m▄    [0;31m     ▄[0;1;31;41m▄[0;31m█████[0;1;31;41m░░▓▓[0;31m▐[0;1;31m▓[0;1;31;41m▓[0;1;31;40m █[0;1;31;47m▓▓[0;1;31;40m██[0;1;31;41m▓▓░░[0m

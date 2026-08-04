@@ -1,18 +1,4 @@
-﻿# Converted from: ID-FIRE!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0496/raw/ID-FIRE!.ANS
-# Source Revision: archive-sha256:50df8163143d8d441a5fa61622ccb7c33b46a1217f5b4d1eaeeea3d3f2226464
-# Source SHA-256: 012a571ffebb55b5da36749e0ca096ed6e33d1c2853e75e7b86cdf06ee0a5bd9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ID-FIRE!.ANS by iodine (fire); released in fire0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fire promotional
-# SAUCE Author: iodine
-# SAUCE Group: fire
-# SAUCE Date: 19960401
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: fire promotional by iodine | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0496-id-fire
 
 Write-Host '
              [31m░░[0m     [31m▄▄▄▄▄▄▓▓██▓██████▄▄▄▄▄▄[0m

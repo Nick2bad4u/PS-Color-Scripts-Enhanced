@@ -1,19 +1,4 @@
-﻿# Converted from: PAR-HELL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-30/raw/PAR-HELL.ANS
-# Source Revision: archive-sha256:3b54a3ca5cf24b49daaa164f9b343386c409e97270d30a4eb2997d0a7e0901dd
-# Source SHA-256: 4f624f0f4ac35e90b7904c63a819bf95de93c69e672e3e732fa6039d7b619c03
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PAR-HELL.ANS by Pariah (Fire); released in fire-30 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Hellbound
-# SAUCE Author: Pariah
-# SAUCE Group: Fire
-# SAUCE Date: 19970914
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: A nice solid logo.. the background isn't anything special, but | creates the needed effect and the 'stuck' bottom portions of the | h and the b create a nice effect too. Overall it's near perfect. | Objective rating - 8.75
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Hellbound by Pariah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-30-par-hell
 
 Write-Host '
 [1m[0m[31m[0;37m[0;31m[0;37m[0;1;37m[0;31m[0;37m[0m

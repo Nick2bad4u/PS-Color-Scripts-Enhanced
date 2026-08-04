@@ -1,13 +1,4 @@
-﻿# Converted from: DIE-GK1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-zxica/raw/DIE-GK1.ANS
-# Source Revision: archive-sha256:098212bcd3fc250902be7ae08340a23e99b29f8fa69fe7b4990238a6d402d1f6
-# Source SHA-256: 0742d36de4da5a64ce67852c1e4ec65f4ddf34fb1e758d682c221baf98eef567
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DIE-GK1.ANS by Dieznyik (k-zxica); released in k-zxica and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: DIE-GK1.ANS by Dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-zxica-die-gk1
 
 Write-Host '
                             [36m  [0;1;36m░▄▄[0;36m  [0m                [36m▄▄▄▄▄[0;1;36;46m░▓██[0;1;36;47m▓▓[0;1;36;46m█████▌[0;36m▓░[0;34m░[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: MR-SC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-21/raw/MR-SC.ANS
-# Source Revision: archive-sha256:d980c3e2187ff0ef4bb9edce960381dc01c8374df0b01b4ddb8d104484f4b936
-# Source SHA-256: 43c14959656587c401ce2208611a80787bbd63c6d44d955d6202411f2e385952
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-SC.ANS by Mr. Wrong (AWE Lettering); released in awe-21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Spinal Core
-# SAUCE Author: Mr. Wrong
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Spinal Core by Mr. Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-21-mr-sc
 
 Write-Host '
                                                     [31m░▄[0;1;31m▄[0m

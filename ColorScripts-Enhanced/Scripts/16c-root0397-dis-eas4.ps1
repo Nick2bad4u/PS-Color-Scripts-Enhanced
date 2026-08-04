@@ -1,15 +1,4 @@
-﻿# Converted from: DIS-EAS4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0397/raw/DIS-EAS4.ANS
-# Source Revision: archive-sha256:147f0608c1bd711b116f3ad049b80e805dfbb40e7d23ffce5f4580a5a57bae0f
-# Source SHA-256: 0904faa7cd1c049eaaf9592f52e48d6a89bf543da3e3194838bf3eabf002f0c0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DIS-EAS4.ANS by Dislogic (root0397); released in root0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Ease
-# SAUCE Author: Dislogic
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: Ease by Dislogic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0397-dis-eas4
 
 Write-Host '
             [34m░▒▒▄[0;1;34m▄▄▄▄▄▄▄▄▄▄[0;34m▄▄[0m

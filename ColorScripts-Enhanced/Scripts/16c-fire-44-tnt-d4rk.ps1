@@ -1,19 +1,4 @@
-﻿# Converted from: TNT-D4RK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-44/raw/TNT-D4RK.ANS
-# Source Revision: archive-sha256:6c51508cedeaa9140fcf08750a75edb14e0cec0eebe7b4290346e95cd3548876
-# Source SHA-256: 01b2b8de9f85ca7eb414acef8383ac9e5173c7f47105fcbe293f7b56d57fffdb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNT-D4RK.ANS by tainted (FiRE); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: dark illustrated
-# SAUCE Author: tainted
-# SAUCE Group: FiRE
-# SAUCE Date: 20251111
-# SAUCE Dimensions: 80x36
-# SAUCE Font: IBM VGA
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: dark illustrated by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-44-tnt-d4rk
 
 Write-Host '
                                                                      [1;30;40m░[0m

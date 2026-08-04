@@ -1,13 +1,4 @@
-﻿# Converted from: JC-BODDA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gas-01/raw/JC-BODDA.ANS
-# Source Revision: archive-sha256:e94fb6f4f8de41efd9ec99ed895127f6f53e7ed82a067b31c95910591cf49d88
-# Source SHA-256: 90abeb49c8819ee53c01546dd2697eb92deb81e236f3a618ba73b89b1528a484
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JC-BODDA.ANS by Juice Gas (gas-01); released in gas-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: JC-BODDA.ANS by Juice Gas | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gas-01-jc-bodda
 
 Write-Host '
 [1;35;45m▀[0;35m▀▀▀▀▀▀▀[0;35;45m [0;1;35;45m▀█▓▀        ▀▓██████▓▀     ▀▓█▓▀ [0;35m▀▀▀▀▀▀▀[0;35;45m  [0;1;35;45m▀▓██▀ [0;35m▀▀▀▀▀▀▀[0;35;45m  [0;1;35;45m▀▓█▓▓█▓▓▓███▓▀[0m

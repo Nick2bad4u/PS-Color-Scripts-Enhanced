@@ -1,18 +1,4 @@
-﻿# Converted from: EP-BLS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ftc-05/raw/EP-BLS.ANS
-# Source Revision: archive-sha256:5c0404cf283912e8831200a8f9dcc6d8ce0402b99e4f686fa062c4223f57d38b
-# Source SHA-256: 3b64cd90d3bd582486f077d99798a7eb81ea0d29ae18d9d00172ab6376ca792c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EP-BLS.ANS by empathy (ftc); released in ftc-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: bliss
-# SAUCE Author: empathy
-# SAUCE Group: ftc
-# SAUCE Date: 19960916
-# SAUCE Dimensions: 80x23
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: bliss by empathy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ftc-05-ep-bls
 
 Write-Host '
 

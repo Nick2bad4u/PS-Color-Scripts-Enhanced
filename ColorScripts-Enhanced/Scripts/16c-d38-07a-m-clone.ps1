@@ -1,18 +1,4 @@
-﻿# Converted from: M!-CLONE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-07a/raw/M!-CLONE.ANS
-# Source Revision: archive-sha256:6502b6f7b940f1799a6ba4f4b08910561aba3d74e01448e36157cb66de10c8c7
-# Source SHA-256: 70b4893b727ab3c9f080a67a2c6f677df576d7c31ffa96068882ac1d8151055f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M!-CLONE.ANS by Myth (Department 38); released in d38-07a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Clonneee
-# SAUCE Author: Myth
-# SAUCE Group: Department 38
-# SAUCE Date: 19970523
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Clonneee by Myth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-07a-m-clone
 
 Write-Host '
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m

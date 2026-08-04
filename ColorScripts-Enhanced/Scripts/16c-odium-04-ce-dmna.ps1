@@ -1,18 +1,4 @@
-﻿# Converted from: CE-DMNA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-04/raw/CE-DMNA.ANS
-# Source Revision: archive-sha256:8dc8586a37ce2081b7e99529b7087f421e6ff8d5ba2d146ef1d30bd490016720
-# Source SHA-256: 03e1eb2a769bf6f4358eadd4f8fa6e389aac7cbf87418ca5ebd3d64869b4c623
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CE-DMNA.ANS by celestian (odium); released in odium-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dmna screen
-# SAUCE Author: celestian
-# SAUCE Group: odium
-# SAUCE Date: 19960206
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: dmna screen by celestian | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-04-ce-dmna
 
 Write-Host '
 [1;31m▄[0;1;31;43m░░▒▓▓[0;1;31;47m▓[0;1;31;43m▓[0;1;31;40m█▀ [0;1;30;40m▄▀▄ ▀[0;33m░[0;1;31m▀ [0;33m▀▀▀ [0;1;30m▀[0;30;47m▓[0;1;30;40m▄▀▄[0;33m░ ▄ [0;1;34m▀ [0;34m▄▄[0;1;34;44m░[0;34m▄ [0;1;36m▀[0;1;36;44m▓[0;1;36;46m▒░░[0;36m▄ ▀▀[0;1;36m▀[0;36m▀[0;1;36m▀  [0;36m▀▀▀[0;1;36;46m░░▒▓[0;1;36;40m▄ [0;36m▀▀[0;1;36;46m░[0;36m▀[0;1;36m▀ [0;36m▀[0;1;36m▀▀[0;1;36;46m▓▒[0;36m▄▄ [0;1;36;46m▒[0;1;36;44m▓[0;36m▀[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: RS-RR2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9702/raw/RS-RR2.ANS
-# Source Revision: archive-sha256:2bef5839074c598bf0f92bd4e5826154389b8896239a1e15db494b520fb6d9a8
-# Source SHA-256: e23cf9054adf1560e13ef37c5f732b3b79fcb971aeb0b68c0d1b10a8560023a3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-RR2.ANS by rorshack (Maiden Brazil!); released in mdn-9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: refuse, resist
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil!
-# SAUCE Date: 19970116
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: refuse, resist by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9702-rs-rr2
 
 Write-Host '
 [36m[0;1;36m[0;1;37m[0;36m[0m[36m[0m[36m[0m[36m[0m

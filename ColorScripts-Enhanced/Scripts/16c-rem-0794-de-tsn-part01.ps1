@@ -1,13 +1,4 @@
-﻿# Converted from: DE-TSN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rem-0794/raw/DE-TSN.ANS
-# Source Revision: archive-sha256:c58fd07ae96de95a60edfac1fe22976447eb9758c5349eb32bce42f8bcfbc628
-# Source SHA-256: 832b66ded41e77519e2a14b6a301980ddc111b7596c2c18a6ad41454b36cb96e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DE-TSN.ANS by Deception (rem-0794); released in rem-0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: DE-TSN.ANS by Deception | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rem-0794-de-tsn-part01
 
 Write-Host '
 

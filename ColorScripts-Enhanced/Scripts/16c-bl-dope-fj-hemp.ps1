@@ -1,18 +1,4 @@
-﻿# Converted from: FJ_HEMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl-dope/raw/FJ_HEMP.ANS
-# Source Revision: archive-sha256:94d0a6d1a54f912bf59b65f9ab8ad2e76bf857ee4ed7295093943e200494477a
-# Source SHA-256: 87f236bef73ed06e0b69dc280d99300ab0722a3fe67764dcf5ce5d0e6c855f31
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FJ_HEMP.ANS by Fastjack (boil); released in bl-dope and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: they got dope !
-# SAUCE Author: Fastjack
-# SAUCE Group: boil
-# SAUCE Date: 19970429
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: they got dope ! by Fastjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-dope-fj-hemp
 
 Write-Host '
 [1;30m-----░░-----------▒---IoO%-pure-anze-by-fastjack^boil----░[0;1;33m▄▄▄▄[0;1;30m-[0;33m░░[0;1;30m--░---------░--[0m

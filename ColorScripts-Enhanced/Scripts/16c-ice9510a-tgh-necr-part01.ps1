@@ -1,18 +1,4 @@
-﻿# Converted from: TGH-NECR.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9510a/raw/TGH-NECR.ICE
-# Source Revision: archive-sha256:399b6e9725b29795559a6219f7addf6b31d694eb7c81ec3a3e3fa8aafebac298
-# Source SHA-256: 47be07acb5009b0393ae2e9d839e9f86b0f54ec7bf9a2ae3b211a70944a252d2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TGH-NECR.ICE by The Green Hornet (iCE); released in ice9510a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Necropolis
-# SAUCE Author: The Green Hornet
-# SAUCE Group: iCE
-# SAUCE Date: 19951102
-# SAUCE Dimensions: 80x25
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: Necropolis by The Green Hornet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9510a-tgh-necr-part01
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: VC!DPZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bm9-0796/raw/VC!DPZ.ANS
-# Source Revision: archive-sha256:d47d05b28420594f05f00658e00b1f3ab4cdbebb1e89c0fe0f1e7938e6e8f937
-# Source SHA-256: f45b156641cba26c9a32be53def48b54c5748cbad5aaaebd7561ac38aa9e49f6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VC!DPZ.ANS by VOiCE (BLACK MAiDEN); released in bm9-0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: DPZ Menu Template
-# SAUCE Author: VOiCE
-# SAUCE Group: BLACK MAiDEN
-# SAUCE Date: 19960430
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: DPZ Menu Template by VOiCE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bm9-0796-vc-dpz
 
 Write-Host '
 [32m$$[0;36;42m$[0;32;40m$$²$$$$$[0;36;40m$[0;32;40m$$$$[0;1;30;42m$[0;32m$$¼¼$$$²$$$$$$s$$$²''[0;1;32m_s[0;32m!,`$$²$[0;1;30;42m$[0;32m$¼$$$$²[0;36m$[0;32m$$¼$$$$²²$$$[0;1;30;42m$[0;32m$$²$$$s$$[0;36;42m$[0;32;40m$$[0m

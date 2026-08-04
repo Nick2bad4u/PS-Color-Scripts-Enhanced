@@ -1,18 +1,4 @@
-﻿# Converted from: PF-STAT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aspire02/raw/PF-STAT2.ANS
-# Source Revision: archive-sha256:2a3d326a8ca130440ffd6aad2cfc82e14baf2656c973157652834b18c04ceb5d
-# Source SHA-256: 2ff63db948d9c98e40507de932951b4694925902930f6ad3fcf687fb965e54d4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PF-STAT2.ANS by puff (aspire); released in aspire02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: eld stats
-# SAUCE Author: puff
-# SAUCE Group: aspire
-# SAUCE Date: 19980728
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: eld stats by puff | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aspire02-pf-stat2
 
 Write-Host '
 [1;30m▒░ ▄▄▄▄▄▄▄▄▄▄▄▄█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▄▄▄▄▄▄  ░░░░  █▀▀[0;34m ███▀▀▀[0;37m [0;35m▄▄▄▄▄[0;1;35m▄▄▄[0;35m▄▄[0;37m  [0;34m▀▀[0;1;34;44m░[0;34m█[0;1;34;44m▒░[0;34m█▄▄ [0;1;30m▀[0m

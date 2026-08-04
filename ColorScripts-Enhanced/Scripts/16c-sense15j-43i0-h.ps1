@@ -1,13 +1,4 @@
-﻿# Converted from: 43I0-H.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense15j/raw/43I0-H.ANS
-# Source Revision: archive-sha256:d06155f7d5e0b32644f10222adb0228fd6a61c0d1874216761244815dabceb89
-# Source SHA-256: b20381481a07e4e5c6da81adb09bf7f66d2c8754874ac720f1adef17c8d66d71
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 43I0-H.ANS by Aesthetic (sense15j); released in sense15j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: 43I0-H.ANS by Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense15j-43i0-h
 
 Write-Host '
 [1;33;43m▄▓[0;33m▄▀[0;1;33m▀█▄▄█[0;1;33;43m▄▀[0;33m▀▀▄█▄▄[0;1;31;43m░▓[0m [1;33;43m▄[0m [1;33;43m▀[0;1;37;40m▓▓[0;1;33;43m▀[0;33m▀▀[0;37m [0;1;31m▄▄▄▄▄▄▄▄[0;1;31;43m▓▓░░   [0m [33m█[0;1;33;43m░[0;33m█[0;37m [0;1;33;43m░▒░[0m [1;35;45m░[0m

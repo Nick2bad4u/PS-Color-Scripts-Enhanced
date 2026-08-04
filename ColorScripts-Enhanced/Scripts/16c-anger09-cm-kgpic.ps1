@@ -1,16 +1,4 @@
-﻿# Converted from: CM-KGPIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger09/raw/CM-KGPIC.ANS
-# Source Revision: archive-sha256:1d024ab1b967a873387ebae34f188b304120e208b081dccdcb5397c8adcbd2a4
-# Source SHA-256: ec7d97d1d2876116142c096fc792f31e289fcdab93fc579718b8e88f04a4ecfd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CM-KGPIC.ANS by cheeze monkey (anger); released in anger09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: kongo -cm's first pic. :)
-# SAUCE Author: cheeze monkey
-# SAUCE Group: anger
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: kongo -cm's first pic. :) by cheeze monkey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger09-cm-kgpic
 
 Write-Host '
   [1m▄▄[0;1;34m▄[0;1;37m▄▄▄[0;1;34m▄[0;34m▄[0;1;34m▄▄[0;34m▄▒▓▄▄▄▄▄██▀▄▄▄▄▄████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▓████████▄▄▄▄▄▄▄████████████▄[0m

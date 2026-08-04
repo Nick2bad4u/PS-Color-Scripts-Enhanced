@@ -1,18 +1,4 @@
-﻿# Converted from: DX-CYB3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-22/raw/DX-CYB3.ANS
-# Source Revision: archive-sha256:afe59def1d947e2bb83e94d037307e2215fa4f8e5d3afa54b07fc425d1360672
-# Source SHA-256: 826d560a747a07ad661204fd95b00ff3c598abcbc1241f1eec934dcd304a97d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DX-CYB3.ANS by Drax (REMORSE); released in rmrs-22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Cyberia 3
-# SAUCE Author: Drax
-# SAUCE Group: REMORSE
-# SAUCE Date: 19980312
-# SAUCE Dimensions: 80x25
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Cyberia 3 by Drax | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-22-dx-cyb3
 
 Write-Host '
 [32m$[0;1;32mⁿ` ,[0;32m$[0;1;32mⁿ`ⁿ$ip,[0;34m`ⁿ[0;1;34m$$$$#g,[0;1;37m [0;32mf,[0;34m∩$[0;1;34m$$$$$$ [0;1;32m$i:[0;32m  $i[0;1;32m:     _    .[0;1;37m drax<81[0m

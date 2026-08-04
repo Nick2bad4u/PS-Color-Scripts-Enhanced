@@ -1,18 +1,4 @@
-﻿# Converted from: PLC-PLF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1298/raw/PLC-PLF.ANS
-# Source Revision: archive-sha256:075f933f0da18fbaf6a548eb0d971a2c335f576db461f97402cdbe530ee397b2
-# Source SHA-256: a683b70725e1e1b21a3222ec865ff9e0894458298804e0919492ae59ee1651dd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PLC-PLF.ANS by plc (plf); released in plf-1298 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: poffelipoff #17
-# SAUCE Author: plc
-# SAUCE Group: plf
-# SAUCE Date: 19981223
-# SAUCE Dimensions: 80x47
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: poffelipoff #17 by plc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1298-plc-plf
 
 Write-Host '
 ▄[1m▄[0;1;47m▄█[0;1;40m▓▓▓▓█[0;1;47m▀[0;1;40m▀▀▀[0m▀▀ [31m▄▄▄▄███[0;1;30;41m░░░[0;31m████▀[0;37m▄[0;1;37;47m░▓█[0;1;37;40m██▓▓██[0;1;37;47m▓░[0m▄[31m▀███▓▓▓█████████▄▄▄▄ [0;37m ▀▀[0;1;37m▀[0;1;37;47m▀▀██[0;1;37;40m▓▓▓[0;1;37;47m▄[0;1;37;40m▄[0m▄▀

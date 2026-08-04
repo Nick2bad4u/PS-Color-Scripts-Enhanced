@@ -1,16 +1,4 @@
-﻿# Converted from: US-LAZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0697/raw/US-LAZ.ANS
-# Source Revision: archive-sha256:d190a8046767bbc429812300532b65ff0ea6e011704fc75ed31c91d378c985ff
-# Source SHA-256: 2650b9712296148af15f00e3b695a593e1355f658c24756a1a524da7b21dbc4b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-LAZ.ANS by Hennifer + Halaster (lazarus / fire); released in fire0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: lazarus
-# SAUCE Author: hennifer / halaster
-# SAUCE Group: lazarus / fire
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: lazarus by Hennifer + Halaster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0697-us-laz
 
 Write-Host '
                 [36m░[0m    [1;37m         [0m   [32m░[0;1;37m  [0;32m░[0;30;42m▓[0;36;40m [0;32;40m░░░░[0;30;42m▓[0;37;40m░░[0;30;47m▓[0m      [36;40m░░░[0;30;46m▓[0;36;40m░░░░░[0;30;46m▓[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: TCL-COLY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hmd-0596/raw/TCL-COLY.ANS
-# Source Revision: archive-sha256:007cf20a9aa57d5d99dfb8c9358a1ee2655dec0d44a24783ba170b5b1d6d4cba
-# Source SHA-256: c2bf0c7c1af9a7c7b6f07cdba5dec2bbad3f13212434f31d2e1a48a39772ed2c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TCL-COLY.ANS by tical (hUMID); released in hmd-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: bp, rare soma
-# SAUCE Author: tical
-# SAUCE Group: hUMID
-# SAUCE Date: 19960511
-# SAUCE Dimensions: 80x25
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: bp, rare soma by tical | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hmd-0596-tcl-coly
 
 Write-Host '
                              [1;33m▄▄▄   [0;1;30m▄[0m

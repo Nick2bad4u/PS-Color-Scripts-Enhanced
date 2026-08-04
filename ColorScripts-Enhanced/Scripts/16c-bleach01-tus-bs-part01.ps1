@@ -1,18 +1,4 @@
-﻿# Converted from: TUS-BS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bleach01/raw/TUS-BS.ANS
-# Source Revision: archive-sha256:b051f200d4cb4a187bf381a6b9042d79015b79b0cf19e4a4a725c252afed48ec
-# Source SHA-256: 6114a9909a87d04741420bec0df30a51b9af801e0a77f14e38032a3a6eaf0a34
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TUS-BS.ANS by tus (READ THE INI FILE); released in bleach01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: black sunshine
-# SAUCE Author: tus
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950204
-# SAUCE Dimensions: 80x25
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: black sunshine by tus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bleach01-tus-bs-part01
 
 Write-Host '
  [1;30m___________________[0m    [30m.[0;1;30m________[0;30m·-o[0m

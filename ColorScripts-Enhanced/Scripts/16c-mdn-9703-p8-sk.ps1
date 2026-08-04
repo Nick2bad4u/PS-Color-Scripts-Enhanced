@@ -1,18 +1,4 @@
-﻿# Converted from: P8-SK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9703/raw/P8-SK.ANS
-# Source Revision: archive-sha256:9e514042cc5e389aeb3f9323e41f842849e88d4294fdd727215463cf9566281b
-# Source SHA-256: ac16ed6328713f8994c25c52d30d19614858f868ef031ce4072a77b3256265ea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P8-SK.ANS by <sOulphuree> (Maiden Brazil); released in mdn-9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: silicon knights to l0rd mafesto ..
-# SAUCE Author: <sOulphuree>
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19970223
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: silicon knights to l0rd mafesto .. by <sOulphuree> | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9703-p8-sk
 
 Write-Host '
              [36m_s[0;1;36mS$$$$$$$ⁿ[0;1;35m°ⁿ$$$$$$$$$S[0;35ms_ ⁿ√$[0;1;35m$$$$$$$$$   [0;1;36m$W[0;1;37mbs[0;1;36myysd[0;36mW[0;1;34m$[0;34mⁿ''[0m

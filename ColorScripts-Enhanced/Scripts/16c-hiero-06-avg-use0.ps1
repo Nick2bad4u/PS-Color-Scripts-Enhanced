@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-USE0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-06/raw/AVG-USE0.ANS
-# Source Revision: archive-sha256:a9f2b3a98de11e16465e105efa9558fc8b7152c0f268ebdd3ef00191f04c5b89
-# Source SHA-256: 86819e4e639e36cdeb7e072d54984b1e8271ca39c57b22aee06f97ecdbe1bb76
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-USE0.ANS by The Night Angel + Avenging Angel (Hieroglyphics); released in hiero-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: I Am A TNA Rip-off
-# SAUCE Author: The Night Angel
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20010111
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: I Am A TNA Rip-off by The Night Angel + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-06-avg-use0
 
 Write-Host '
 [30m[0m[30m[0m                                                                       [30m    [0m

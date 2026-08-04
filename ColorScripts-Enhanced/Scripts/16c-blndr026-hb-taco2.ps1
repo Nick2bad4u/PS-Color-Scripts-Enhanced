@@ -1,13 +1,4 @@
-﻿# Converted from: HB-TACO2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr026/raw/HB-TACO2.ANS
-# Source Revision: archive-sha256:31e88c7a93a2826410e8aebfebce3dad7d396f56a80a2b1cd29d7ef10759d627
-# Source SHA-256: 277a9c7f9b6f1cab3834ecf289d68eb50d619a85a021741804b5ac25720c118d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HB-TACO2.ANS by Handiboy (blndr026); released in blndr026 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: HB-TACO2.ANS by Handiboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr026-hb-taco2
 
 Write-Host '
                                    [33m█▌[0m     [33m▐   ▐█▌[0m         [1;37m                  [0m

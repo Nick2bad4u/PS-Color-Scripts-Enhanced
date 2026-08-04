@@ -1,13 +1,4 @@
-﻿# Converted from: TS-VAN#1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/die-pk4/raw/TS-VAN%231.ANS
-# Source Revision: archive-sha256:a1674cbdd9a90de0b98d1fa61ccee38a69de2149be7ae847b0d725df8beedd0e
-# Source SHA-256: 607bb4aa01bedcf47eaf454b8cfefe06ec838bcbf27d53eb5b79362bee90d74a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-VAN#1.ANS by The Shamen (die-pk4); released in die-pk4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 150-199
-# Columns: 1-80
+﻿# Artwork: TS-VAN#1.ANS by The Shamen | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-die-pk4-ts-van-1-part04
 
 Write-Host '
 [1;30;47m▒▒▒░░░░░░░░░░[0m███[1;30;47m░░░░░░░░░░[0m [1;32;42m▓▓▒▒░░[0;32m███████████[0;1;30;42m░░▒▒▓▓█[0m [1;30;47m▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▒▓▓▓▓[0;1;30;40m▀▀▀  ▀[0;1;30;47m▓▓[0m

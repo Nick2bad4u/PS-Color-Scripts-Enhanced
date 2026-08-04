@@ -1,16 +1,4 @@
-﻿# Converted from: zii-goo-apk-last-minute.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_ansi_love/raw/zii-goo-apk-last-minute.ans
-# Source Revision: archive-sha256:6bbd631cd11e3473b019590c35c9a89f139f75a09b13e07a93395613241d63e9
-# Source SHA-256: e9cc261d33ce05247a08b8071d4f69384b982626064cf8313c942895a829cc28
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zii-goo-apk-last-minute.ans by Zeus Ii + Alpha King + Mypalgoo (blocktronics_ansi_love); released in blocktronics_ansi_love and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 20170825
-# SAUCE Dimensions: 80x118
-# SAUCE Font: IBM VGA
-# Lines: 76-118
-# Columns: 1-80
+﻿# Artwork: zii-goo-apk-last-minute.ans by Zeus Ii + Alpha King + Mypalgoo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-ansi-love-zii-goo-apk-last-minute-part03
 
 Write-Host '
 [31m   ░  [0;35m▀ ▀▄  █[0;1;35;45m░[0;35m▓[0m        [1;36;46m░▓▓▒[0;36m▌░▓█[0m         [31m▄▄▄  ▄▄[0m      [31m█▓█████[0;1;33;41m░░░[0;31m██ █▌[0m

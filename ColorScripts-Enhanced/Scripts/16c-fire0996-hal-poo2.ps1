@@ -1,18 +1,4 @@
-﻿# Converted from: HAL-POO2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0996/raw/HAL-POO2.ANS
-# Source Revision: archive-sha256:fd0c87547005857a37aee32ff40c82a1e8535aecda68a9edc2483cdc45b21af1
-# Source SHA-256: 0acab9000fa71b3d730ab6fb12d5207aa547e216d41f975030da24afa114a30c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HAL-POO2.ANS by Halaster (fire); released in fire0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Poo - Font Too
-# SAUCE Author: Halaster
-# SAUCE Group: fire
-# SAUCE Date: 19960911
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Poo - Font Too by Halaster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0996-hal-poo2
 
 Write-Host '
                                       [1;30m░░[0m░░[30;47m▓[0m

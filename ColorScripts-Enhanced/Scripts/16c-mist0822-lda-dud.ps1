@@ -1,19 +1,4 @@
-﻿# Converted from: LDA-DUD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0822/raw/LDA-DUD.ANS
-# Source Revision: archive-sha256:ed72a43421208b7431337d20b0e65cf1daa85d400f3cf90754e23de5d5edd83f
-# Source SHA-256: e3860003abb60db3800f241e62fec8e863ad74b824253281de8e88ea47fc76c1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LDA-DUD.ANS by LDA (Mistigris); released in mist0822 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the dud abides
-# SAUCE Author: LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20220821
-# SAUCE Dimensions: 80x38
-# SAUCE Font: IBM VGA
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: the dud abides by LDA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0822-lda-dud
 
 Write-Host '
                                         [1;34m▄▄▄[0m                        [1m▄[0m

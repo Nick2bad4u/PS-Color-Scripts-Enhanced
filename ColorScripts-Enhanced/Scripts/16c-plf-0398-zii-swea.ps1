@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-SWEA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0398/raw/ZII-SWEA.ANS
-# Source Revision: archive-sha256:f8b78bce0ded523528171ee9d37c603a9a96c5e8abf885d101375334b587e435
-# Source SHA-256: 9cd12f383eb50d87fd461f7e4126377f4538228e22ae0f3caf0841575d064020
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-SWEA.ANS by Zeus II (poffelipoff); released in plf-0398 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: sweart
-# SAUCE Author: Zeus II
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19980323
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: sweart by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0398-zii-swea
 
 Write-Host '
              [1;30m▐▄[0m

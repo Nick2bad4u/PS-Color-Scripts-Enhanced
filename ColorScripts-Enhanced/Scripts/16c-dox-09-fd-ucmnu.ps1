@@ -1,18 +1,4 @@
-﻿# Converted from: FD-UCMNU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_09/raw/FD-UCMNU.ANS
-# Source Revision: archive-sha256:c5cd33a328263069da0cd19f0b3fe2e4d6f041d2250819ad0b16ea4737718456
-# Source SHA-256: 84cbb2f9671f3df4d22615796f298053224a3a372f7d0c17c655ccebea63b798
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FD-UCMNU.ANS by Flood (ACiD Productions); released in dox_09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: urban chaos menu
-# SAUCE Author: Flood
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19970517
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: urban chaos menu by Flood | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-09-fd-ucmnu
 
 Write-Host '
                   [1;32m▄▄[0;1;32;42m▓[0;1;32;40m▄▄▄▄▄▄▄[0;1;37;40m▄▄▄▄[0;1;37;47m▄▄▒▓██[0;1;37;40m███[0;1;37;47m▄▄▄░▒▓[0;1;32;47m▓▓▓[0;1;32;40m██▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m     [32m░[0;30;42m▓▓[0;32;40m░[0m    [37;40m [0m

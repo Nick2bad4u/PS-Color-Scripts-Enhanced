@@ -1,18 +1,4 @@
-﻿# Converted from: TB-1996.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nland-03/raw/TB-1996.ANS
-# Source Revision: archive-sha256:7ddb21e455f18ac13bd1d0242ad29db8419e3ff5847d9aa5ea635b533172de76
-# Source SHA-256: 3f93913036e57a5f2e9c6de7fe2fcf618ca6993abe734461ac5635eab23d16fa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TB-1996.ANS by The BiKer (NeveRLanD); released in nland-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Happy 1996
-# SAUCE Author: The BiKer
-# SAUCE Group: NeveRLanD
-# SAUCE Date: 19960111
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Happy 1996 by The BiKer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nland-03-tb-1996
 
 Write-Host '
                             [1;30m▄▄▄▄▄▄▄[0m  [1;30m▄▀▀▀▀▄▄▀▀▀▀▀▀▀▀▄[0m

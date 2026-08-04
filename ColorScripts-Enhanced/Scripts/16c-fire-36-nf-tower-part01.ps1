@@ -1,19 +1,4 @@
-﻿# Converted from: NF-TOWER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-36/raw/NF-TOWER.ANS
-# Source Revision: archive-sha256:43e7d46e56dc094cf8502b299dcd82ee875dea0a064a36248f4e6c844180fd25
-# Source SHA-256: 67e0a9a1cd596c198b4cd1e958dffc7fbe0b43c8d1b8a0783ecae36d02fa18fa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NF-TOWER.ANS by necro (Fire); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Tower
-# SAUCE Author: necro
-# SAUCE Group: Fire
-# SAUCE Date: 20230303
-# SAUCE Dimensions: 80x77
-# SAUCE Font: IBM VGA
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: The Tower by necro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-36-nf-tower-part01
 
 Write-Host '
 [1;30;40m███████████████████████████████████[0;1;30;47m▀▄▄[0m██████████████████████████████████████████

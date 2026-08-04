@@ -1,13 +1,4 @@
-﻿# Converted from: LST-CRAM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_9612/raw/LST-CRAM.ANS
-# Source Revision: archive-sha256:535386efaf0832a92df8cd43b1e1ec9e549c82ba4ee576a67c0fa93e7a363fe1
-# Source SHA-256: ee66a2db31b67143274ba8a250231ea39759432d422ef838836ab377808a44fd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LST-CRAM.ANS by Soul Trader (dox_9612); released in dox_9612 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: LST-CRAM.ANS by Soul Trader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-9612-lst-cram
 
 Write-Host '
  [36m [0m

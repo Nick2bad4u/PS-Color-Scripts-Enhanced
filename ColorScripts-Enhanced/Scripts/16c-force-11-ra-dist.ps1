@@ -1,18 +1,4 @@
-﻿# Converted from: RA-DIST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-11/raw/RA-DIST.ANS
-# Source Revision: archive-sha256:fb569ca0f426a612fae941c52b66a1bf2185c5bf71d8e011fd47447565da1174
-# Source SHA-256: 4b7b5b626fb98e0df05d83b83e22cfb063c6bcba567e03fc2c33333a53ee139b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RA-DIST.ANS by Rage (fORCE); released in force-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Distortion
-# SAUCE Author: Rage
-# SAUCE Group: fORCE
-# SAUCE Date: 19960901
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Distortion by Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-11-ra-dist
 
 Write-Host '
 [1;30m▄▄▄▄▄ ▄[0m  [1;30m ▄[0m                                                    [32m▄[0;1;34m  [0m

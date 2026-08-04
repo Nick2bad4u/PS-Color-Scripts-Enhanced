@@ -1,18 +1,4 @@
-﻿# Converted from: TR-STONE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-14/raw/TR-STONE.ANS
-# Source Revision: archive-sha256:d4dc94c4a43b86c69b68ecae7df6f65f116ce9e415743dc1a1b1adfbec9a8dbe
-# Source SHA-256: edea7b7ad9d18fafce3bcac4596871d7d6e047f1f0d159701b3c5f4f2c90b750
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-STONE.ANS by Terrato (ACiD Productions); released in rmrs-14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Stone
-# SAUCE Author: Terrato
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19970805
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Stone by Terrato | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-14-tr-stone-part01
 
 Write-Host '
 [34m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$P²²4$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m

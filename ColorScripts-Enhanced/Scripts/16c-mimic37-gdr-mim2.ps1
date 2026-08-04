@@ -1,13 +1,4 @@
-﻿# Converted from: gdr-mim2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic37/raw/gdr-mim2.ans
-# Source Revision: archive-sha256:0d28aedb8d5d5b6826c950122d7b742a98e4b5cc019bb9166e510fcb07b70457
-# Source SHA-256: ea747128349127464d8ecfd416bbb182a4c781e054b58de6411f9476b8c9fecb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: gdr-mim2.ans by Gravedancer (mimic37); released in mimic37 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: gdr-mim2.ans by Gravedancer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic37-gdr-mim2
 
 Write-Host '
        [1;30mIGDR$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$;[0m

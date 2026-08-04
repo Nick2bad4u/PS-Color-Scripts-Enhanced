@@ -1,18 +1,4 @@
-﻿# Converted from: KRL-TP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack13/raw/KRL-TP.ANS
-# Source Revision: archive-sha256:4a26d5fa66db3ddd4cdcb2ef37b8cd0ed1462318d030e090ba0b76480554de3e
-# Source SHA-256: 0046db699dc5dafc8f31884f2322a74292b41a5242221c8e4c557e7f01c6f7e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KRL-TP.ANS by krl (apocalyptic visions); released in avpack13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Temple
-# SAUCE Author: krl
-# SAUCE Group: apocalyptic visions
-# SAUCE Date: 19960813
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: The Temple by krl | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack13-krl-tp
 
 Write-Host '
   ▄▄

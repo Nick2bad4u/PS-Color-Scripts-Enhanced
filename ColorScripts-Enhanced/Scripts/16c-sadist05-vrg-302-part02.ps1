@@ -1,18 +1,4 @@
-﻿# Converted from: VRG-302.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sadist05/raw/VRG-302.ans
-# Source Revision: archive-sha256:48539c7fd3103651a6474c72efa2d6287c0500d048769b6f96b3f80e7845070c
-# Source SHA-256: ff040122cf58edba49e4dfae791d08a7c5c380ea2f8409f1ea28ff5fd83acc63
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VRG-302.ans by vaRgr (SADIST); released in sadist05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the glade
-# SAUCE Author: vaRgr
-# SAUCE Group: SADIST
-# SAUCE Date: 20050601
-# SAUCE Dimensions: 80x52
-# Lines: 27-52
-# Columns: 1-80
+﻿# Artwork: the glade by vaRgr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sadist05-vrg-302-part02
 
 Write-Host '
     [31m▄[0;1;31;41m▄[0;1;31;40m▀[0m [34m▄[0;1;34;44m▄█▀[0;34m▀█[0;1;34;44m█[0;1;34;47m [0;1;34;44m█[0;34m█   █[0;1;34;44m█[0;1;34;47m [0;1;34;44m█[0;34m█[0;37m [0;31m [0;1;31;41m█[0;1;33;41m▒▓░[0;1;31;41m    ░[0;30;41m▓▓[0;31;40m█[0;1;31;41m ▓▌░ ▄■   ██[0m  [34m█[0;1;34;44m█[0;1;34;47m [0;1;34;44m█[0;34m█ █[0;1;34;44m█[0;1;37;47m▐[0;1;34;47m▐[0;34m█▀█[0;1;34;44m▀▄[0;34m▄[0;37m [0;1;31m▀[0;1;31;41m█▌[0;31m█■[0m

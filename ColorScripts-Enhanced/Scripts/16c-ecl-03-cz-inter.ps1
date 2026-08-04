@@ -1,18 +1,4 @@
-﻿# Converted from: CZ-INTER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-03/raw/CZ-INTER.ANS
-# Source Revision: archive-sha256:8478e7ed47e52d1e07bf55e17a5f105ced4b468c6f56a8b59fd6b8ef8dada5ca
-# Source SHA-256: 15dbe3231cb25417681de4d5c6b5523fd295931b2685426d3281ac495e239c14
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CZ-INTER.ANS by parmesan (eclipse); released in ecl-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: TERROR on the freeway
-# SAUCE Author: parmesan
-# SAUCE Group: eclipse
-# SAUCE Date: 19960708
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: TERROR on the freeway by parmesan | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-03-cz-inter
 
 Write-Host '
 

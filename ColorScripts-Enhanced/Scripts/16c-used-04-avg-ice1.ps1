@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-ICE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-04/raw/AVG-ICE1.ANS
-# Source Revision: archive-sha256:1dcdf112160ec589150680778cd449e8af485dfba89bb104c44cd133db2d6fc0
-# Source SHA-256: 6f5b81011b3d3b4ad562698f547256acd65362f54503a026848c048e71a5ed95
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-ICE1.ANS by Avenging Angel (Used); released in used-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Ice
-# SAUCE Author: Avenging Angel
-# SAUCE Group: Used
-# SAUCE Date: 20000403
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Ice by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-04-avg-ice1
 
 Write-Host '
 

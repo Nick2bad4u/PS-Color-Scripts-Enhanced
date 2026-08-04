@@ -1,18 +1,4 @@
-﻿# Converted from: JMO-CONF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rg_jmo_2/raw/JMO-CONF.ANS
-# Source Revision: archive-sha256:fc19b97fecaca60547a728fc55037fbc35ea6d809277feb36fa691a34fdeb3cc
-# Source SHA-256: 754e0dbe5d472692dc40792d6f33cdc2e4d37a961fb86267596b288677f585b2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JMO-CONF.ANS by Jam-O (ReGeneration); released in rg_jmo_2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Confmenu of Locus
-# SAUCE Author: Jam-O
-# SAUCE Group: ReGeneration
-# SAUCE Date: 19961224
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Confmenu of Locus by Jam-O | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rg-jmo-2-jmo-conf
 
 Write-Host '
               [34m▄▄[0;1;34m▄[0;34m▄▄▄[0;1;34m▄[0;34m▄▀[0;1;34m▀▀▀[0;36m▀▀[0;1;34m▀[0;1;36m▀[0;36m▀[0;1;36m▀▀▀[0;1;37m▀[0;1;36m▀▀[0;1;37m▀[0;1;36m▀▀[0;1;37m▀▀[0;1;36m▀▀▀[0;36m▀▀▀[0;1;34m▀[0;36m▀[0;34m▀[0;1;34m▀[0;34m▀▀▀▀▄[0;1;34m▄[0;34m▄▄▄[0;1;34m▄[0;34m▄[0m

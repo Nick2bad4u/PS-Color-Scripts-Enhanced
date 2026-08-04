@@ -1,19 +1,4 @@
-﻿# Converted from: wa-cia.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna03/raw/wa-cia.ans
-# Source Revision: archive-sha256:997aaab655669129eb266c21ca0c4588b603e11c90338498bb530f8bba390fb2
-# Source SHA-256: 9008aef1a8886e799216128ab5251da5359d616e08a87e92ac9400bc848347d8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-cia.ans by warpus (lazarus); released in thesauna03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: cia
-# SAUCE Author: warpus
-# SAUCE Group: lazarus
-# SAUCE Date: 20210408
-# SAUCE Dimensions: 80x45
-# SAUCE Font: IBM VGA
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: cia by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna03-wa-cia
 
 Write-Host '
                                    [31;40m▄▄[0;1;36;41m■[0;1;36;40m░▒▒▒▒▒▒[0;31m▄▄[0m

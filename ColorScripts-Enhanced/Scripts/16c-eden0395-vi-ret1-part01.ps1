@@ -1,18 +1,4 @@
-﻿# Converted from: VI-RET1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eden0395/raw/VI-RET1.ANS
-# Source Revision: archive-sha256:b50ec2025fefd1c1874e410a097c06c1217ac744b10fe4d46fa9c39c47156ae2
-# Source SHA-256: fe9b99898f95821b42e60c6bcdba34d101020a7fae3b5b82c4cc19eb9203f873
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VI-RET1.ANS by Village Idiot (Eden); released in eden0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: RETRIBUTION
-# SAUCE Author: Village Idiot
-# SAUCE Group: Eden
-# SAUCE Date: 19950315
-# SAUCE Dimensions: 80x111
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: RETRIBUTION by Village Idiot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eden0395-vi-ret1-part01
 
 Write-Host '
 

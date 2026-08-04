@@ -1,18 +1,4 @@
-﻿# Converted from: TB-BM#1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gas-02/raw/TB-BM%231.ANS
-# Source Revision: archive-sha256:3f4a8ec10117a9d2d588cb5b9c03441f35378297d885b1fb90bac8e105c89d94
-# Source SHA-256: 2192ccdb445381a898f38451efa2c4dce8a64427193c5f02df751a6fe97a6e24
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TB-BM#1.ANS by tribal (gas); released in gas-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: black maiden promo
-# SAUCE Author: tribal
-# SAUCE Group: gas
-# SAUCE Date: 19960801
-# SAUCE Dimensions: 80x39
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: black maiden promo by tribal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gas-02-tb-bm-1
 
 Write-Host '
 [1;30m[0m

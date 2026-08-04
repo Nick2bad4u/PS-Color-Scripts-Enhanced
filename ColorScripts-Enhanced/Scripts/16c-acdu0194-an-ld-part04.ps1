@@ -1,13 +1,4 @@
-﻿# Converted from: AN-LD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0194/raw/AN-LD.ANS
-# Source Revision: archive-sha256:a43017ca40212af646d7cc19e6ecf01d326ebec184a5046d2c7f67040ece2aa4
-# Source SHA-256: c97f51e72d851fb35121ba4ff011653c8cb14bc8cf0b01d8a8f30a4be674960b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AN-LD.ANS by Andrew Nice (acdu0194); released in acdu0194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 127-159
-# Columns: 1-80
+﻿# Artwork: AN-LD.ANS by Andrew Nice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0194-an-ld-part04
 
 Write-Host '
 

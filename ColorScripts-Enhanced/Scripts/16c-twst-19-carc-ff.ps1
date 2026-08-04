@@ -1,18 +1,4 @@
-﻿# Converted from: CARC-FF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst-19/raw/CARC-FF.ANS
-# Source Revision: archive-sha256:38480cbb01973683b6bb179e82483ce3434180444dfcf5b811296224974846eb
-# Source SHA-256: cc8364d81135576eae517519403360b4dafed39f499b675b481371188b04dcc9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CARC-FF.ANS by Putrid Carcass (Twisted); released in twst-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: FF.
-# SAUCE Author: Putrid Carcass
-# SAUCE Group: Twisted
-# SAUCE Date: 19980128
-# SAUCE Dimensions: 80x25
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: FF. by Putrid Carcass | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst-19-carc-ff
 
 Write-Host '
 [1;32;46m▀▓[0;1;32;42m▀[0;32m▀▀▀  [0;37m [0;32m▀▀[0m   [32m▄[0;1;32;42m▄█▀[0;32m▀▀[0m       [1;33m░[0m [1;33m░░░[0m          ▄  ▄▄█▓▓▓▒░░  ░

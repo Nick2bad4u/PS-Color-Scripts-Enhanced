@@ -1,13 +1,4 @@
-﻿# Converted from: IP-HYS3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-21/raw/IP-HYS3.ANS
-# Source Revision: archive-sha256:147f509b085e52fa5b2cd29b3824c03bc34c7854ec7e69d1b1bb7f0cac5a303d
-# Source SHA-256: 30fc3fdc762065f1dda7228513ea9d3a8f2e522c90ecc613989c80e11c5ef015
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IP-HYS3.ANS by Impulse (force-21); released in force-21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: IP-HYS3.ANS by Impulse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-21-ip-hys3
 
 Write-Host '
 [1;30m%---─[ip]------ -----─────── ────----- -------───────----- ──── ---------------%[0m

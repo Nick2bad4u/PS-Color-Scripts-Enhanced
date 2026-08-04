@@ -1,13 +1,4 @@
-﻿# Converted from: P-AN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/venom-01/raw/P-AN1.ANS
-# Source Revision: archive-sha256:8a850db7993e6552a9ec6bc9e714af1ffd8a071d200140bdae6666c3138804a8
-# Source SHA-256: 503dca567216e79afbdcd15c2df29c5b7a84afc799b5f96ff1ccfaadcb44eabf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P-AN1.ANS by Pezclown (venom-01); released in venom-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: P-AN1.ANS by Pezclown | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-venom-01-p-an1
 
 Write-Host '
                 [36m░[0;30;46m▓[0m   [36;40m▄▄▄▄▄▄[0m              [1;36;40m       [0m

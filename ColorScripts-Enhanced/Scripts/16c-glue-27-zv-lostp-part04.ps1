@@ -1,18 +1,4 @@
-﻿# Converted from: ZV-LOSTP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-27/raw/ZV-LOSTP.ANS
-# Source Revision: archive-sha256:e8bf58cc122c409f38ea24bc96ba28ef7e1ff6b9bf8c75a703d281ce7b281062
-# Source SHA-256: dbcd39de86caa55e20547c60ffd4c32ee69ab570e01e4ee31e4a4ec6c99c67eb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZV-LOSTP.ANS by zeroVision (GLUE); released in glue-27 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: lost paradise
-# SAUCE Author: zeroVision
-# SAUCE Group: GLUE
-# SAUCE Date: 19991106
-# SAUCE Dimensions: 80x154
-# Lines: 118-154
-# Columns: 1-80
+﻿# Artwork: lost paradise by zeroVision | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-27-zv-lostp-part04
 
 Write-Host '
 [1;30m [0m     [33m▀▀▀▀▀▀[0;1;30m▀▀▀█[0m [1;30m ▀[0m [1;30m▐▀[0m          [1m   [0;32m▄▄[0;1;37m [0;1;30m▄▄▄▄ [0m▀[1m [0;1;30m▄▄▄▄▄▄[0m  [1;31m▄[0m [33m▄▄█[0;1;30;43m░░[0;33m█████▄[0;37m [0;31m▐██████▌[0;37m [0;1;30m▓███[0m

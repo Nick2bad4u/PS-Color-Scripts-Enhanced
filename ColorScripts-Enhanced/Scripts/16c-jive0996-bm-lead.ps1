@@ -1,15 +1,4 @@
-﻿# Converted from: BM-LEAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jive0996/raw/BM-LEAD.ANS
-# Source Revision: archive-sha256:6b7d48e396de55126b3ae9c64ca3a6e3836b2eee40f86ad76fd1706353435055
-# Source SHA-256: aa8ff1d98fef29071471fd6aff8511ce093396fa986e2d76387b8d38d5722a38
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BM-LEAD.ANS by Blazemore (jive0996); released in jive0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Lead (a new modding group)
-# SAUCE Author: Blazemore
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Lead (a new modding group) by Blazemore | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jive0996-bm-lead
 
 Write-Host '
                          ▄▄▄█▄            ▄▄▄▄▄   [1;30m  [0m [1;30mblazemore[0m

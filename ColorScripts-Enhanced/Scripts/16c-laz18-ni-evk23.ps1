@@ -1,20 +1,4 @@
-﻿# Converted from: NI-EVK23.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz18/raw/NI-EVK23.ANS
-# Source Revision: archive-sha256:32d30452c4c99022fae4fa2ce9a2923ef46629d3ff7dd35a972944a991699c1f
-# Source SHA-256: adae81a99c0035f0665cba1e1a0d81d2e1decdde1b590499451f7f9d66cbde3b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-EVK23.ANS by Nitron (Lazarus); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: EvoTech '23
-# SAUCE Author: Nitron
-# SAUCE Group: Lazarus
-# SAUCE Date: 20230720
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: For Evoke '23 Demo Party ANSI/Textmode Compo
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: EvoTech '23 by Nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz18-ni-evk23
 
 Write-Host '
 [1;31;41m░░[0;31m██[0;1;31;41m░▒▓▒░[0;31m▓▓[0;1;30;41m▀[0;1;30;47m▄[0m█[1;47m▓▓▒░[0;1;30;47m▀▄░░░▄▀▄[0;1;37;47m▒▒▓[0;1;37;40m▀[0;34m▄[0;1;34m▄[0;34m▄▄[0;1;37m▀▀▀[0;1;37;47m▓▓▓▀▀▀[0;1;37;41m▓▓▓[0;1;37;40m█[0;1;33;47m▓▓▓[0;1;37;47m░[0;1;30;41m░[0;1;31;41m▀▀▓▒[0;31m██[0;1;31;41m░▒▓░[0;31m▄[0;37m [0;34m▀█[0;37;44m [0;1;34;44m░░░░░[0;34m▓▓▓▓▓▓▓▓[0m

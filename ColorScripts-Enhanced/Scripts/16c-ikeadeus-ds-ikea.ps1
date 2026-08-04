@@ -1,13 +1,4 @@
-﻿# Converted from: ds-Ikea.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ikeadeus/raw/ds-Ikea.ans
-# Source Revision: archive-sha256:39c810e7c07f73323f80aabc58262e6b7a9a1735ab60c6dd400af5943fb7133b
-# Source SHA-256: a29b5774d3bc9f30a038bf4dabc95b344c0a5c66dc281282194e0713e04f1c59
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ds-Ikea.ans by Dfuse (ikeadeus); released in ikeadeus and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: ds-Ikea.ans by Dfuse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ikeadeus-ds-ikea
 
 Write-Host '
 

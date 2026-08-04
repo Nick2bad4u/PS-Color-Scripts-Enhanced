@@ -1,18 +1,4 @@
-﻿# Converted from: DE-COLLY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-0297/raw/DE-COLLY.ANS
-# Source Revision: archive-sha256:05d734ffa62e5884411f00e8c0f6959c06f165738a13021b90f9ca088ae9d885
-# Source SHA-256: 782b03cd3466d85944700b6c89f203f7df8cac2b0d2a923bf3f07925b13aa15b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DE-COLLY.ANS by Deadpool (RCA); released in rca-0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: DE-Colly
-# SAUCE Author: Deadpool
-# SAUCE Group: RCA
-# SAUCE Date: 19970209
-# SAUCE Dimensions: 80x44
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: DE-Colly by Deadpool | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-0297-de-colly
 
 Write-Host '
            [1;30m▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▓▄▄▄▄▄▄▄▄[0m

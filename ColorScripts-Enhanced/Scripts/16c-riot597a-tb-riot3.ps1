@@ -1,17 +1,4 @@
-﻿# Converted from: TB-RIOT3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot597a/raw/TB-RIOT3.ANS
-# Source Revision: archive-sha256:f07656877106ee0a7da9f62e6293f74b4fe05cabd2e4ce82e7596d9ee3038c18
-# Source SHA-256: 2b325772c9e83dfbe5f89643948606848ff8ce9b964e623df75e28f127d56cc8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TB-RIOT3.ANS by Turbine (RioT Productions); released in riot597a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: Turbine
-# SAUCE Group: RioT Productions
-# SAUCE Date: 19970513
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: TB-RIOT3.ANS by Turbine | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot597a-tb-riot3
 
 Write-Host '
               [1;32m▄[0;32m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PAR-TYRN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0597/raw/PAR-TYRN.ANS
-# Source Revision: archive-sha256:d975415729673826f91e424c4e11b4c04f34184fd3a18803a91e92ec4aab5c0b
-# Source SHA-256: 15a6bb31b6c16d88827dfa54012815cc8456ddf332fc2a9a149de06655ac93a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PAR-TYRN.ANS by Pariah (FIRE); released in fire0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Tyrone Emag
-# SAUCE Author: Pariah
-# SAUCE Group: FIRE
-# SAUCE Date: 19970430
-# SAUCE Dimensions: 80x14
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: Tyrone Emag by Pariah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0597-par-tyrn
 
 Write-Host '
 [1m╘      [0m [1m [0m [1;36m      [0m                                [1m       [0;1;36m      [0m [1;36m    [0m  [1m            [0m

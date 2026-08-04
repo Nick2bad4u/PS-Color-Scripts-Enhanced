@@ -1,18 +1,4 @@
-﻿# Converted from: TC-HOLE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/legend01/raw/TC-HOLE.ANS
-# Source Revision: archive-sha256:c16596ccc1998cdb5411a048e84f89a3c6fef84f98dc2ac6ceb2de7e2933a7f8
-# Source SHA-256: 609fa26ea4033aab8d629c3680b2ab9b8591d283f038f423f1e50a25bb8a21b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TC-HOLE.ANS by The Clone (Legend); released in legend01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Hole
-# SAUCE Author: The Clone
-# SAUCE Group: Legend
-# SAUCE Date: 19950714
-# SAUCE Dimensions: 80x25
-# Lines: 29-72
-# Columns: 1-80
+﻿# Artwork: Hole by The Clone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-legend01-tc-hole-part02
 
 Write-Host '
                             ▄▄▄▄▄▄▄▄[1;30;47m░░▒▒▓▓█▓█[0;1;30;40m▄▄▄▄▄▄░[0m

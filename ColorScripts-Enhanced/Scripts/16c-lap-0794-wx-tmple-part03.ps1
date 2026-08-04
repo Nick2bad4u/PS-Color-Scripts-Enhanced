@@ -1,18 +1,4 @@
-﻿# Converted from: WX-TMPLE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lap-0794/raw/WX-TMPLE.ANS
-# Source Revision: archive-sha256:a385ab6f06d1a038608115f838ad55681f691e036bb82be64e681a5ba7982c9a
-# Source SHA-256: 04160702c67c26efe9441247487507a4b5187a423178c8be18e5db490f300a82
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WX-TMPLE.ANS by Waxman (Lapse); released in lap-0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Lost Temple
-# SAUCE Author: Waxman
-# SAUCE Group: Lapse
-# SAUCE Date: 19940703
-# SAUCE Dimensions: 80x25
-# Lines: 86-127
-# Columns: 1-80
+﻿# Artwork: Lost Temple by Waxman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lap-0794-wx-tmple-part03
 
 Write-Host '
 [33m█[0;1;30m░ ░░░▒▒▓█[0;1;30;47m▓[0m▄▄▄▄               [1;30m▓  [0;1;47m▒▒▒▓█▓██▒▓█▓▓▓▒▓▒▒[0m                [1;30;47m▒▓[0;1;30m█▓▒░░ ░[0;33m▐██[0m

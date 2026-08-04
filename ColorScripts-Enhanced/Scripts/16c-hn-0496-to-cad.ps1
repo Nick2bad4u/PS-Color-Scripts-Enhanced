@@ -1,13 +1,4 @@
-﻿# Converted from: TO-CAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hn-0496/raw/TO-CAD.ANS
-# Source Revision: archive-sha256:913310781509e66bf4153ee79ee96d9bb402ed530e32d248aea0e8329b769db6
-# Source SHA-256: f6c4e89cf0e309cad3189f52dce82c33ad030993437230db24b3c3c15e7d36c2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TO-CAD.ANS by Toadie (hn-0496); released in hn-0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: TO-CAD.ANS by Toadie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hn-0496-to-cad
 
 Write-Host '
              [32m▄▄▄▄▄   ▄▄▄▄▄▄[0m

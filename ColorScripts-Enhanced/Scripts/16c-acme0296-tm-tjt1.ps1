@@ -1,18 +1,4 @@
-﻿# Converted from: TM-TJT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acme0296/raw/TM-TJT1.ANS
-# Source Revision: archive-sha256:5cbb7c836a329833b657f6859c4a30abc419f56c33ad0e58fa1fef60983b6379
-# Source SHA-256: 863fde8bc2a50d6c3f999073285760f8037c9c602a168b5c06b35cabe801afc9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TM-TJT1.ANS by torment! (acmee nigga ansees); released in acme0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: tha jolly trout
-# SAUCE Author: torment!
-# SAUCE Group: acmee nigga ansees
-# SAUCE Date: 19960129
-# SAUCE Dimensions: 80x24
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: tha jolly trout by torment! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acme0296-tm-tjt1
 
 Write-Host '
      [1;30mt h a . [0;36m. [0;1;36m.[0m [33m▓[0m   [37m [0;33m▀▄▄[0;1;30;43m▒[0;33m▄▄▄[0;1;30;43m░[0;33m▄▄[0;1;30;43m [0m [33m    ▄▄[0;37m [0;33m▀■▄▀[0;1;34m [0m     [33m░[0m   [33m▒[0;37m  [0;33m▄▄▄▄▄[0;37m [0;36mtm!ofacmeeprodx.[0m

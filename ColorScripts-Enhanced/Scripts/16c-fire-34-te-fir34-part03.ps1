@@ -1,19 +1,4 @@
-﻿# Converted from: TE-FIR34.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/TE-FIR34.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: ff5e9a4bff5c1ce25dea76cf7a1ac06ede9258c853be1020f72e9ae74c3b15eb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-FIR34.ANS by Tetanus (Blocktronics); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fire 34
-# SAUCE Author: Tetanus
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20210227
-# SAUCE Dimensions: 80x408
-# SAUCE Font: IBM VGA
-# Lines: 92-137
-# Columns: 1-80
+﻿# Artwork: Fire 34 by Tetanus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-te-fir34-part03
 
 Write-Host '
      [1;30m▀▓▄▄░[0;33m▀[0;37m  [0;33m▀▀▀▀▀▒▓▓█▓██▄░[0m               [1;30m░[0m  [1;30m░▀ ░░▄▌[0;33m░[0m                   [31m▄▀[0;37m  [0;31m▄▓▓█[0m

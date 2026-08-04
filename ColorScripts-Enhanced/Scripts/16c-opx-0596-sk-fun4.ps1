@@ -1,18 +1,4 @@
-﻿# Converted from: SK!FUN4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0596/raw/SK!FUN4.ANS
-# Source Revision: archive-sha256:06f164afecd2a38c1a107122cbc0c2c2d07c6484c9e867e2eecffd5f8b0065bf
-# Source SHA-256: e7deda3b98ad87746032d76d8a68f3dbf1c3fe21900f20802276b5fa6db7479d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!FUN4.ANS by SKeLeToN (opium); released in opx-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: funzone menuset #2
-# SAUCE Author: SKeLeToN
-# SAUCE Group: opium
-# SAUCE Date: 19960502
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: funzone menuset #2 by SKeLeToN | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0596-sk-fun4
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: US-SE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root05/raw/US-SE.ANS
-# Source Revision: raw-sha256:bf85e480499f989bb26d4161368bce8a3e616b1edb7282ccbcbaf706242e2d43
-# Source SHA-256: bf85e480499f989bb26d4161368bce8a3e616b1edb7282ccbcbaf706242e2d43
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SE.ANS by Necrolyte + Static Addiction (Root); released in root05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Spilled Entrails
-# SAUCE Author: s4/nc
-# SAUCE Group: Root
-# SAUCE Date: 19970717
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Spilled Entrails by Necrolyte + Static Addiction | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root05-us-se
 
 Write-Host '
 -------<   >--------------------------------------------------------------------

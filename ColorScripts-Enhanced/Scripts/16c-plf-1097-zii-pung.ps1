@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-PUNG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1097/raw/ZII-PUNG.ANS
-# Source Revision: archive-sha256:36c7150b2835995ba27c6f1c5cfc23dc5fdf9213c2fb0b333e09d1aa0d00da5f
-# Source SHA-256: ebda88ed90dce483dfaac410ceea026c9b63612cd28c994c1728eef3d582c2d2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-PUNG.ANS by Zeus II (poffelipoff humor); released in plf-1097 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: pungr?ttan Jeff
-# SAUCE Author: Zeus II
-# SAUCE Group: poffelipoff humor
-# SAUCE Date: 19971002
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: pungr?ttan Jeff by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1097-zii-pung
 
 Write-Host '
                             [34m▄▄▄▄ [0m

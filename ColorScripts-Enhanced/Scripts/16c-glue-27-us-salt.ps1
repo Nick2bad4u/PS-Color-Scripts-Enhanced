@@ -1,18 +1,4 @@
-﻿# Converted from: US-SALT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-27/raw/US-SALT.ANS
-# Source Revision: archive-sha256:e8bf58cc122c409f38ea24bc96ba28ef7e1ff6b9bf8c75a703d281ce7b281062
-# Source SHA-256: 92d7ed43931e74ec3698665d1ed83211b6f49de3ca446e801ce3d98fa01b3732
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SALT.ANS by Somberlain + Mr Wrong (Glue/no idea); released in glue-27 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Salt promo
-# SAUCE Author: Somberlain/Mr Wrong
-# SAUCE Group: Glue/no idea
-# SAUCE Date: 19991019
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Salt promo by Somberlain + Mr Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-27-us-salt
 
 Write-Host '
  [1;30m▀[0;1;30;47m▄[0;1;37;47m▀[0;1;30;47m▀[0;1;30;40m▄[0m   ▄[1;30m▄▀[0;1;30;47m▄▀[0;1;30;40m▄sob[0m    [1;33m░[0m     [1;30m▄[0m ██[1;30;47m▀[0;1;30;40m▄[0m  [1m    [0;1;30m▄[0;1;30;47m▀[0m█[1;47m▀[0;1;30;47m▄[0m▀[1;30m▀[0;1;37;47m ▀█▄[0;1;30;47m▀[0;1;30;40m▄[0m  [1;30m▄[0;1;30;47m▀[0;1;37;47m▄[0m▄[1;30m▄▀[0;1;30;47m▄[0m▄▄[1;30;47m▀[0m█[1;47m█▌[0;1;30;47m▐[0;1;30;40m▌[0m     █[1;47m░[0;1;30;47m░[0m

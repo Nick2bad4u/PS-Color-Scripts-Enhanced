@@ -1,18 +1,4 @@
-﻿# Converted from: HEN-UNRL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz09aug/raw/HEN-UNRL.ANS
-# Source Revision: archive-sha256:3e0bd3039fe877b3970f71e80b4456ee60793f2295ae127a50a6587b17c2d6a2
-# Source SHA-256: d33253e1b7d41ad4c345a570665f65e572541d0a15b637f486512d293b4c50cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HEN-UNRL.ANS by hennifer (lazarus); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: unreal msg header
-# SAUCE Author: hennifer
-# SAUCE Group: lazarus
-# SAUCE Date: 19970703
-# SAUCE Dimensions: 80x12
-# Lines: 1-12
-# Columns: 1-80
+﻿# Artwork: unreal msg header by hennifer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz09aug-hen-unrl
 
 Write-Host '
 

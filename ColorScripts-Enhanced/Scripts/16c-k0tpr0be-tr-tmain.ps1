@@ -1,18 +1,4 @@
-﻿# Converted from: TR-TMAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k0tpr0be/raw/TR-TMAIN.ANS
-# Source Revision: archive-sha256:fcb0e37abcb9d171de6d5cc918649afa7e9c0f2f5173dba90a7d8c38f69cec3d
-# Source SHA-256: 719e2e93e8c54ffa7d261b4c2ff0b93d9564a3891fcd1a866581f66dc65b9fbf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-TMAIN.ANS by trate (fbk); released in k0tpr0be and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: toxic trip main menu
-# SAUCE Author: trate
-# SAUCE Group: fbk
-# SAUCE Date: 19960528
-# SAUCE Dimensions: 80x25
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: toxic trip main menu by trate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k0tpr0be-tr-tmain
 
 Write-Host '
                 [31m■[0m

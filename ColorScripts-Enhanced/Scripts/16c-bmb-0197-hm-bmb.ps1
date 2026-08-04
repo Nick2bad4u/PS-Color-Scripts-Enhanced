@@ -1,18 +1,4 @@
-﻿# Converted from: HM-BMB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0197/raw/HM-BMB.ANS
-# Source Revision: archive-sha256:331ffa2c0b41c075aec836339cfb4b33b33b171a17da17bd721952cf3966c823
-# Source SHA-256: 0a85f6de0e8c2d885ff710cfe5c25b06125e5d2d61e0f67fee83efe9412ab2d8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HM-BMB.ANS by head mOnk (Bamboosh); released in bmb-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: bmb logo!
-# SAUCE Author: head mOnk
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19961230
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: bmb logo! by head mOnk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0197-hm-bmb
 
 Write-Host '
 

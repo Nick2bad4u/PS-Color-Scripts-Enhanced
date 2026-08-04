@@ -1,13 +1,4 @@
-﻿# Converted from: HB-MIDGT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr039/raw/HB-MIDGT.ANS
-# Source Revision: archive-sha256:c9f4089d2b5b2cd460bf831bacf0aedf023ad23933c86c87f99086e5afa1f00f
-# Source SHA-256: 03b8d8384d80203bd7b153740a987c4139e9bcebeb64b7ae34ef47687297d615
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HB-MIDGT.ANS by Handiboy (blndr039); released in blndr039 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: HB-MIDGT.ANS by Handiboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr039-hb-midgt
 
 Write-Host '
            [33m▐▌[0m                                                       [33m█[0m

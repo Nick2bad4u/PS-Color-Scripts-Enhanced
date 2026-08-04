@@ -1,20 +1,4 @@
-﻿# Converted from: NI-KATIA.ANS
-# Source encoding: CP866
-# Source URL: https://16colo.rs/pack/mist0624/raw/NI-KATIA.ANS
-# Source Revision: archive-sha256:7e2642f67629daefe8d04ebedd2e233be2e8a74b2dea50eb02da49be24298927
-# Source SHA-256: 3a69866c7ffc4790b1ecb835fcbb39ca6a9a03bac15f2f7f0cebbf4fc9ad6f70
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-KATIA.ANS by Nitron (Mistigris); released in mist0624 and preserved by 16colors.
-# Source Modification: Decoded as CP866 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Katia
-# SAUCE Author: Nitron
-# SAUCE Group: Mistigris
-# SAUCE Date: 20240522
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA 866
-# SAUCE Comments: geofflatterairshows.com
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Katia by Nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0624-ni-katia
 
 Write-Host '
 [34m███████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m

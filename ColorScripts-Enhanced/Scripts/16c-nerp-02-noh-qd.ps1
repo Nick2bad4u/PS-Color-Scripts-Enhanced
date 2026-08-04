@@ -1,18 +1,4 @@
-﻿# Converted from: NOH-QD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-02/raw/NOH-QD.ANS
-# Source Revision: archive-sha256:3fd9f194d865cfc24c90bdf11a27528d8d82a8ba9c376ebed567183a2f95a9f3
-# Source SHA-256: 39aa0bf6931fd926b73591fe729008969868c16cdd5ee10893c47c746e2cbe3f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-QD.ANS by nOah? (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: quendi ..
-# SAUCE Author: nOah?
-# SAUCE Group: nerp
-# SAUCE Date: 19971102
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: quendi .. by nOah? | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-02-noh-qd
 
 Write-Host '
                                                         [1;35m [0;36m▄▄[0m

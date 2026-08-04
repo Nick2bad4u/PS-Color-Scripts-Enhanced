@@ -1,13 +1,4 @@
-﻿# Converted from: GREENER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thrs95/raw/GREENER.ANS
-# Source Revision: archive-sha256:00542e02176e4797dc823fa5fe0cd82ba8e61a20bf1ef87baa333b8783392e8c
-# Source SHA-256: f712352f8124ed88fa65c9e278b6687c6d8c2bf43867253b45777d5f754507ec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GREENER.ANS by Aroma (thrs95); released in thrs95 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: GREENER.ANS by Aroma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thrs95-greener
 
 Write-Host '
 [34m ┼        ┼       [0;35m▄▄▄[0;34m       ┼     [0;35m▄[0;34m  ┼ [0;35m▄▄▄[0;34m [0;35m▄[0;34m  ┼        ┼      [0;35m▄▄▄▄[0;34m       ┼      [0m

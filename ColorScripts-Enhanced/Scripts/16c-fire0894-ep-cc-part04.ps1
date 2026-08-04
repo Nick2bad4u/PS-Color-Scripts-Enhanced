@@ -1,13 +1,4 @@
-﻿# Converted from: EP-CC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0894/raw/EP-CC.ANS
-# Source Revision: archive-sha256:5810e139e825e1092a27333c7d266cac63dba57f81bd1a7f34ba559f87784d8b
-# Source SHA-256: 55741370289c7a969eaf9ee8d7d230822e0c1d07d083f328689a378b8491ad38
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EP-CC.ANS by Epitaph (fire0894); released in fire0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 134-178
-# Columns: 1-80
+﻿# Artwork: EP-CC.ANS by Epitaph | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0894-ep-cc-part04
 
 Write-Host '
 [1;31;40m▐[0;1;31;41m▒▒▒░░         [0;1;30;41m░▒▓█     ░▒░░░▒▒[0m [35m░░▒▓[0;35;45m                         [0;35;40m▌[0;35;41m [0;35;40m▐[0;35;45m                [0m

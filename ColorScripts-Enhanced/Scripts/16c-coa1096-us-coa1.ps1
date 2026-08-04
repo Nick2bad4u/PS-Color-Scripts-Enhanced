@@ -1,18 +1,4 @@
-﻿# Converted from: US-COA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/coa1096/raw/US-COA1.ANS
-# Source Revision: archive-sha256:128b6c2a8f568cf6bad059228a21cd32425d44608f32b5cbcfef7f04ec4e1f32
-# Source SHA-256: a69e5742e8c535e14209f71e74f63ba6ce5a88ba2a85ae096963f561f384117a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-COA1.ANS by Nosferatu + Discyple (coa); released in coa1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: coa promo #1
-# SAUCE Author: nos/dy
-# SAUCE Group: coa
-# SAUCE Date: 19960814
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: coa promo #1 by Nosferatu + Discyple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-coa1096-us-coa1
 
 Write-Host '
                 ▄▄▄▄                                  ▄▄▄▄

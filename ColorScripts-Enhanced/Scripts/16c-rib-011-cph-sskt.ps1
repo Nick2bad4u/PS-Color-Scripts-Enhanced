@@ -1,18 +1,4 @@
-﻿# Converted from: CPH-SSKT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-011/raw/CPH-SSKT.ANS
-# Source Revision: archive-sha256:ad392e5cfa0b76b10ae16f4d639473779105b78453dac46868057f0aeaadd814
-# Source SHA-256: b54898f3df8d6e3bf21742b1ec4993d79572bf73f89e35bcb837421f287af060
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-SSKT.ANS by {YBERPUNCh (RiB); released in rib-011 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: sky scraper loggo
-# SAUCE Author: {YBERPUNCh
-# SAUCE Group: RiB
-# SAUCE Date: 19980730
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: sky scraper loggo by {YBERPUNCh | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-011-cph-sskt
 
 Write-Host '
 [34m [0;32m░░[0m                     [32m  [0m    [32m [0;34m [0;32m▄▄▄██▓▓▒░[0;34m [0;32m░[0m

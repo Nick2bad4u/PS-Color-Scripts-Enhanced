@@ -1,18 +1,4 @@
-﻿# Converted from: 33-SILK2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0297/raw/33-SILK2.ANS
-# Source Revision: archive-sha256:12d66e55bc50470ef328e6f9ec21c65dbe558f61a1cf46f5aac359e3cb051dfe
-# Source SHA-256: 61da95debc0158e96c8ea9e67eb601728989455215101b69bdb7b0181154c4cc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-SILK2.ANS by Eerie (fire); released in fire0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Silk
-# SAUCE Author: Eerie
-# SAUCE Group: fire
-# SAUCE Date: 19970203
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Silk by Eerie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0297-33-silk2
 
 Write-Host '
         ▄▄                    [32m33/fire   [0;31m░▀▀▀████████▌[0;33m▐▀[0;1;31m▀[0;1;31;43m▀██[0;1;31;47m▓▓[0;1;31;43m░[0m [31m█████▄████▓ ███▓[0m

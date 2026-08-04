@@ -1,18 +1,4 @@
-﻿# Converted from: NC-SD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/legend02/raw/NC-SD1.ANS
-# Source Revision: archive-sha256:3d09510951d722882aec8ec217ff2dbc35e0c5252f8e5685b8b241b7e7a6d9ce
-# Source SHA-256: 154bf829ee24c3eceb9f0e989807dec8768cf8b3d6d2844799e29820e29df339
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NC-SD1.ANS by Neurotic (Legend); released in legend02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: sDelic Emag
-# SAUCE Author: Neurotic
-# SAUCE Group: Legend
-# SAUCE Date: 19950901
-# SAUCE Dimensions: 80x115
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: sDelic Emag by Neurotic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-legend02-nc-sd1-part01
 
 Write-Host '
 [1;31;47m▓▓[0;1;31;40m████████[0;1;31;45m▓▓▓▓▓██▓▓▓▒▒▒░░░░░[0;35m█[0;1;31;45m░[0;35m████[0;1;31;45m░░[0;35m█████[0;1;31;45m░[0;35m████████[0;35;45m [0;35;40m██[0;35;45m [0;35;40m██████[0;1;31;45m░[0;35m█[0;35;45m [0;1;31;45m░░░░░░░▒▒▒▓▓[0;1;31;40m█[0;1;31;45m▓▓▓[0m

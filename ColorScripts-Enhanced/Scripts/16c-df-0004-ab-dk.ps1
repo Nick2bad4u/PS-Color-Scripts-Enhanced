@@ -1,13 +1,4 @@
-﻿# Converted from: AB-DK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/df-0004/raw/AB-DK.ANS
-# Source Revision: archive-sha256:67203679d779fe212820fa7b395a6dba18055e5a0d6901e90b101261609c0eb5
-# Source SHA-256: 77598748a779a90023ff41e1adbd574127695eca3dcc71795742e4337caa0671
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AB-DK.ANS by Acid Brain (df-0004); released in df-0004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: AB-DK.ANS by Acid Brain | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-df-0004-ab-dk
 
 Write-Host '
     [35m≡≡≡≡≡≡≡≡≡≡≡[0m         [35m≡≡≡≡≡≡≡≡≡≡≡≡≡[0m      [35m≡≡≡≡≡≡≡≡≡≡≡≡≡≡[0m         [35m≡≡≡[0m

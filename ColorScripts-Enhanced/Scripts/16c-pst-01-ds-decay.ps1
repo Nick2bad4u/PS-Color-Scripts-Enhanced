@@ -1,18 +1,4 @@
-﻿# Converted from: DS-DECAY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pst-01/raw/DS-DECAY.ANS
-# Source Revision: archive-sha256:c04e914d8cf8cbaf55a4930441deb2276e238126ba1c3d22c30384b0f1c2f671
-# Source SHA-256: 2fc6738f23d057c4651be16548b6e86592ffeafb131e382c47f408c350adce19
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-DECAY.ANS by Deathstroke (Polyester); released in pst-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: decay bbs
-# SAUCE Author: Deathstroke
-# SAUCE Group: Polyester
-# SAUCE Date: 19970801
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: decay bbs by Deathstroke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pst-01-ds-decay
 
 Write-Host '
 [33m░░[0m                               [33m▄[0m                     [31m░░[0m                  [33m░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PH-HR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gvt-0496/raw/PH-HR.ANS
-# Source Revision: archive-sha256:cbfe0330e9391dd33b84def04973fc8122df48dfe80ebbb080b9aafe9fb5ddcd
-# Source SHA-256: 4771fad0bbcecef2dbe7b87c55ed7c056c1beb90675e96baafbe7bd2b7bbbb6b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PH-HR.ANS by phantax (gravity); released in gvt-0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: heresy
-# SAUCE Author: phantax
-# SAUCE Group: gravity
-# SAUCE Date: 19960317
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: heresy by phantax | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gvt-0496-ph-hr
 
 Write-Host '
 

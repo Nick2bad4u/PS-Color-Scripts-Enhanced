@@ -1,18 +1,4 @@
-﻿# Converted from: BLA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl-brtsh/raw/BLA.ANS
-# Source Revision: archive-sha256:d4d2c2945597259d409a8a2043adb463621296e39a0812b6c732bad34754acd9
-# Source SHA-256: 43fb24fb9d5275092ce24bb62a9def6569b8b8f775e22982ae1186d9a9f1d7b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BLA.ANS by nemo (awe); released in bl-brtsh and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: boil.no.4.guest.appear
-# SAUCE Author: nemo
-# SAUCE Group: awe
-# SAUCE Date: 19970524
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: boil.no.4.guest.appear by nemo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-brtsh-bla
 
 Write-Host '
 

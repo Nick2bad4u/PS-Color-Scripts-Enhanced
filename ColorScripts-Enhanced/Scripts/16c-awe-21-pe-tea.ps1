@@ -1,17 +1,4 @@
-﻿# Converted from: PE-TEA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-21/raw/PE-TEA.ANS
-# Source Revision: archive-sha256:d980c3e2187ff0ef4bb9edce960381dc01c8374df0b01b4ddb8d104484f4b936
-# Source SHA-256: 90699b3d9daa04ca33891302603882ee24396f75d9ac63170fcd635a14519796
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PE-TEA.ANS by Phony Eye (AWE Lettering); released in awe-21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Tea
-# SAUCE Author: Phony Eye
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Tea by Phony Eye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-21-pe-tea
 
 Write-Host '
               [35m▄[0m

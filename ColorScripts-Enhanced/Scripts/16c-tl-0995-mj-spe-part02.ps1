@@ -1,18 +1,4 @@
-﻿# Converted from: MJ-SPE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl-0995/raw/MJ-SPE.ANS
-# Source Revision: archive-sha256:51170c53ad31be0dbe93369a89148c3a443ae98fedbb59618772427653ddb373
-# Source SHA-256: 228c4a575f474abb03119d74d3157cc5fa37d8493797356e826d5c904a4328d4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MJ-SPE.ANS by Mojo (TekLordZ); released in tl-0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: SPE logo
-# SAUCE Author: Mojo
-# SAUCE Group: TekLordZ
-# SAUCE Date: 19950909
-# SAUCE Dimensions: 80x69
-# Lines: 30-69
-# Columns: 1-80
+﻿# Artwork: SPE logo by Mojo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl-0995-mj-spe-part02
 
 Write-Host '
 [1;35;40m [0;34m▄███████ [0;1;30m▀█[0;33m▐[0;33;43m  [0;1;31;40m███████[0m           [1;31;40m▄▄▄[0;31m▄ [0;1;31m▄[0;1;31;41m▓▀▀[0;31m█▄▄[0m         [33m▐█[0;1;31m████████▌[0;1;30m█▀ [0;35m█[0;1;35m██████████[0m

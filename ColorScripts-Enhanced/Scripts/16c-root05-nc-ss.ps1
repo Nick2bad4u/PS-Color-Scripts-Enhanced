@@ -1,18 +1,4 @@
-﻿# Converted from: NC-SS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root05/raw/NC-SS.ANS
-# Source Revision: raw-sha256:a2a2693981426290de71d1e7df1ae79db53ab3ea45cb476fa45c93ae01678f18
-# Source SHA-256: a2a2693981426290de71d1e7df1ae79db53ab3ea45cb476fa45c93ae01678f18
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NC-SS.ANS by Necrolyte (Root); released in root05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Special Sauce
-# SAUCE Author: Necrolyte
-# SAUCE Group: Root
-# SAUCE Date: 19970717
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Special Sauce by Necrolyte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root05-nc-ss
 
 Write-Host '
     [1;33ms p e c i a l  s a u c e ! @ #[0m      [1;33m+ o  s a m u r a i[0m

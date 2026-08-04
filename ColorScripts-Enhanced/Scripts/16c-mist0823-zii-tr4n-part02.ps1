@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-TR4N.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0823/raw/ZII-TR4N.ANS
-# Source Revision: archive-sha256:62e93186540813ec7aaaeb24433016d426de59526762a0e3f8dda1eb133ed05c
-# Source SHA-256: 297e8867f7ba78b877ec3fc225dc5db7d3b2ef8ccb895f015198b69d5c52c906
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-TR4N.ANS by Zeus II (Mistigris); released in mist0823 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Transi
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20230830
-# SAUCE Dimensions: 80x128
-# SAUCE Font: IBM VGA
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Transi by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0823-zii-tr4n-part02
 
 Write-Host '
 [37m       [0;35m▐▄▀█[0;1;35;45m▀░░[0;35m▄▄[0;37m [0;32m▀███▌▐█[0;1;32;42m [0;32m█[0;37m [0;32m▐██[0;1;32;42m░░[0;32m█▄▀[0;1;32;42m▓▓▓▓▓▓▓▓▒▒░[0m  [1;32;42m░▒▒▒[0;32m█▌░▒░░[0;37m [0;1;32;42m▓███[0;32m▌▐█[0;1;32;42m░[0;32m▌[0;37m      [0;31m▐█████[0m

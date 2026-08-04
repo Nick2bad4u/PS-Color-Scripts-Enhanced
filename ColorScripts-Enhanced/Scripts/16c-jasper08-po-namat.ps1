@@ -1,18 +1,4 @@
-﻿# Converted from: Po-namat.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper08/raw/Po-namat.ans
-# Source Revision: archive-sha256:4170bc28a3d93b55b5d7813a9078fa917029de207cfcf794080d34d8f6ddd97e
-# Source SHA-256: 4127209e171c2cb35eb62d19f46bedce3f6521a4951d48054dd0c92292b478b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Po-namat.ans by portia (jasper); released in jasper08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: namistai
-# SAUCE Author: portia
-# SAUCE Group: jasper
-# SAUCE Date: 20020728
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: namistai by portia | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper08-po-namat
 
 Write-Host '
   [31m▐▌▐██[0;37m [0;31m▐▌[0m       [30;41m░░[0m    [31;40m██[0;37;40m  [0;31;40m░░[0;37;40m [0;30;41m█▌[0;31;40m███▀▀[0;30;47m█[0;34;40m  ▄▄▄███[0;1;34;44m░░[0;34m█████████▄ ▄▄▄[0m    [31m▀▀███[0;1;33m▒▒[0;31m█▌ ██▌[0m

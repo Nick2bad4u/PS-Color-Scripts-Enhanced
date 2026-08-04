@@ -1,18 +1,4 @@
-﻿# Converted from: MB-SL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9602/raw/MB-SL1.ANS
-# Source Revision: archive-sha256:5e4639f25c539923328bf5d3dcaf0345f7881a951b04cd174712ef6ec2433a3a
-# Source SHA-256: d5845cfd5acfd2626fc4472029274f2e8bd743022e71dc036aa5a364c83bae80
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MB-SL1.ANS by metallic blood (blade productions); released in blde9602 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: sl fontage
-# SAUCE Author: metallic blood
-# SAUCE Group: blade productions
-# SAUCE Date: 19960202
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: sl fontage by metallic blood | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9602-mb-sl1
 
 Write-Host '
 

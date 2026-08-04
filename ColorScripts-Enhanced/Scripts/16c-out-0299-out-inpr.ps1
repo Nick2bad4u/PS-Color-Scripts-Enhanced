@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-INPR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0299/raw/OUT-INPR.ANS
-# Source Revision: archive-sha256:3dc48aee0995040816ea7e0f9d3250ff0ef0c7623cbdfc413526427f2f931ac6
-# Source SHA-256: e5e9c1fff6a4ecab7afcebea1a2ca3a3e45d40ffc86852c1f404c3b766f55e9c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-INPR.ANS by Sandy Chidester (out-0299); released in out-0299 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: OUT-INPR.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0299-out-inpr
 
 Write-Host '
 [1m██  [0;33m▓[0;36m▐██████▀▀[0;1;30m▄▄█▀▄ ▀▄▄ [0;36m██[0;1;36;46m░░░░░░[0;36m███████▀▀▀▀[0;1m▄▄▄ [0;36m▀▀▀▀███[0;1;36;46m░░▒▒█▓▒▒░[0;36m██▀ [0;1m▄███[0;1;47m▀▀▀▀  ▀██[0m

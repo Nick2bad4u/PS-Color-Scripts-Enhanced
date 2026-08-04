@@ -1,13 +1,4 @@
-﻿# Converted from: HP-5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ddip1196/raw/HP-5.ANS
-# Source Revision: archive-sha256:c2477a6ae50796566abddfa2870c440511b1266fe5f1eb8f614027b16fe779be
-# Source SHA-256: 5ba2c98eacc6ede4efd7d2a3247a751dab21b2f7a548064f3530737ba5793e12
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HP-5.ANS by Hyper (ddip1196); released in ddip1196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: HP-5.ANS by Hyper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ddip1196-hp-5
 
 Write-Host '
 [35m          [0;1;30m             [0m [1;35m░▒▓▓▓▓▒░[0;35m░▒▒[0;1;35m░▒▓█▓▒░[0;35m▒░▒[0;1;35m░▒▓▓▓▓▒░ [0;1;30m                        [0m

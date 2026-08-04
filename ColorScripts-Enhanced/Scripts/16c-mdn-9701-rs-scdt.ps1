@@ -1,18 +1,4 @@
-﻿# Converted from: RS-SCDT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9701/raw/RS-SCDT.ANS
-# Source Revision: archive-sha256:45d6a082bca05ad193b510335e91b0bec312e4835ff5735e0eb40fe62d0e1180
-# Source SHA-256: 175d54727e229915d1db1db9f4f3015e8c0f279603b54b04a81e3761e54665d5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-SCDT.ANS by rorshack (Maiden Brazil!); released in mdn-9701 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: suicidal tendencies [uk]
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil!
-# SAUCE Date: 19961204
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: suicidal tendencies [uk] by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9701-rs-scdt
 
 Write-Host '
              [1;30m░░[0m                              [1;30m░[0m░ [1;30m▄▄▄▄▄▄▄[0m     [1;30m▄▄▄▄▄▄▄[0m

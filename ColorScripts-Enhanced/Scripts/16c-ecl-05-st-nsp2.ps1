@@ -1,18 +1,4 @@
-﻿# Converted from: ST-NSP2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-05/raw/ST-NSP2.ANS
-# Source Revision: archive-sha256:9471ca7612415a41916878584e9d9bf710a5efbc5b8d389ed1bde764e2a602ca
-# Source SHA-256: f4a48b67612d8d224754c392c87ff408d81a9ac952fc980dd58e406e0f2aad2f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-NSP2.ANS by splatt (ecklipiss); released in ecl-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: neosporiN!#@
-# SAUCE Author: splatt
-# SAUCE Group: ecklipiss
-# SAUCE Date: 19960806
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: neosporiN!#@ by splatt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-05-st-nsp2
 
 Write-Host '
 

@@ -1,19 +1,4 @@
-﻿# Converted from: ndh - Koi.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_yotb/raw/ndh%20-%20Koi.ans
-# Source Revision: archive-sha256:f702f09f6116b5ac6fa523d36f54d796db6f44f880e4f1cd426d29a9fbda605e
-# Source SHA-256: ad0c7da066a86f09603a11e8659fcd2c864e0ef04aaff8d86241ec32ed418fcb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ndh - Koi.ans by Andy Herbert (Blocktronics); released in blocktronics_yotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Koi
-# SAUCE Author: Andy Herbert
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20141114
-# SAUCE Dimensions: 80x150
-# SAUCE Font: IBM VGA
-# Lines: 101-150
-# Columns: 1-80
+﻿# Artwork: Koi by Andy Herbert | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-yotb-ndh-koi-part03
 
 Write-Host '
 [34;40m███[0;1;34;44m░[0;1;34;40m█[0;1;34;44m▀[0;34;44m██▒[0;30;44m░░[0;34;44m▒▒▒▒▒[0;30;44m░[0;34;44m▒[0;1;34;44m░░[0;1;34;40m█[0;30;44m░[0;34;44m▒▒▒[0;1;34;41m░[0;1;34;47m░░░░░[0;1;37;47m░░[0;1;34;47m░░[0;1;34;41m░[0;34;41m░░[0;1;34;41m░░░░[0;31;43m█[0;30;47m░░░░░░░░[0;31;43m█[0;30;47m░░░[0;34;41m░░░░░[0;31;47m█[0;34;44m▒[0;34;40m▓▒▒░░░[0;1;34;40m░[0;1;34;47m░[0;34;47m░[0;34;40m░[0;34;47m░▒[0;34;41m▓▓▓[0;34;44m░░[0;34;40m█[0m

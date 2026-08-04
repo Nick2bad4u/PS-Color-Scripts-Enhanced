@@ -1,13 +1,4 @@
-﻿# Converted from: HF-RED.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cnc-0694/raw/HF-RED.ANS
-# Source Revision: archive-sha256:4e4f856a58a73880d0094490e4341138b2c71a03af629f52c2556c21a30b23f9
-# Source SHA-256: e63a15498838adcbd9ea7f1d20f4f6cc9fc206c24418e5c78896ae30945d7dbf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HF-RED.ANS by Hanzo The Fiend (cnc-0694); released in cnc-0694 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-99
-# Columns: 1-80
+﻿# Artwork: HF-RED.ANS by Hanzo The Fiend | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cnc-0694-hf-red-part02
 
 Write-Host '
         [33;43m [0;37;43m░░▒▓▓▒▒░░  [0;33;40m▌    ▐[0;33;43m  [0;37;43m░▒▓░▓▒░  [0m           [33;40m▀▀▀▀▀[0m      [33;40m▄[0;33;43m  [0m     [33;40m▐[0m

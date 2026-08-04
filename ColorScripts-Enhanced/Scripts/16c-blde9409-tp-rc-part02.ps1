@@ -1,18 +1,4 @@
-﻿# Converted from: TP-RC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9409/raw/TP-RC.ANS
-# Source Revision: archive-sha256:a72f6b61ef8732921793cd342551769e167ed7d0078d9fb08d5ad3a3a9cd5a47
-# Source SHA-256: c1b89b0f88b655c39865a7650e33956cff5d666811755da53a06f437c6bf89ef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TP-RC.ANS by TechoPhreaK (Blade Productions); released in blde9409 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Revolution Calling
-# SAUCE Author: TechoPhreaK
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19940826
-# SAUCE Dimensions: 80x25
-# Lines: 48-91
-# Columns: 1-80
+﻿# Artwork: Revolution Calling by TechoPhreaK | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9409-tp-rc-part02
 
 Write-Host '
 [37m▀ ▀▀▀[0;1;30;47m░[0m███ [1;30;47m▒░[0;1;33;47m░░[0m▀▐[1;30;47m░[0;1;33;47m░[0m█▌▐[1;33;47m▒░▒░░░░[0m█[1;33;47m░[0m▌[1;30m█▓▓ [0;1;33;47m░░░ ░`░▒░[0m▌▐[1;33;47m░[0m██████▌▐█[1;30;47m░░░[0m▀▀ ▀▀  [1;30m▄ ░ █████▄▄▄▄[0;32m▀[0m

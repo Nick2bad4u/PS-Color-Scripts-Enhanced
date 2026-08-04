@@ -1,18 +1,4 @@
-﻿# Converted from: TS-LOL0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy10/raw/TS-LOL0.ANS
-# Source Revision: archive-sha256:75431876417bf4bfaa2e247245b077f3c9a30507897439fd887fb6ea72c947ca
-# Source SHA-256: 0d1037156f8e3bb9744f7818ffc19f0af4807004b69f1fd6e2a407ad6bd5f6fd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-LOL0.ANS by Transient (apathy); released in apathy10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Land of Lettuce
-# SAUCE Author: Transient
-# SAUCE Group: apathy
-# SAUCE Date: 19960517
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Land of Lettuce by Transient | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy10-ts-lol0
 
 Write-Host '
 [33m████[0;1;31;43m░░▒▓[0;1;31;40m█[0;33m █[0;1;31;43m░░▒▒▓[0;1;31;40m██[0;33m█▄  ▄[0;1;31;43m▒[0;1;31;40m██▀[0;33m [0;37m▄▄████[0;1;30;47m░[0m██████[1;30;47m░░░░░▒▒▒▓▓[0;1;30;40m█▄▄[0m [33m▀[0;1;31;43m░░░▒▒▓[0;1;31;40m▀█[0;33m▄[0;1;31m▀██[0;1;31;43m▓▒░[0;1;31;40m█[0;1;31;43m▓▒▒░[0;33m████[0m

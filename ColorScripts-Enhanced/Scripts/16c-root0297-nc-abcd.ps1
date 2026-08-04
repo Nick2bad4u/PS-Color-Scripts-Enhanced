@@ -1,15 +1,4 @@
-﻿# Converted from: NC-ABCD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0297/raw/NC-ABCD.ANS
-# Source Revision: archive-sha256:ecfcd3f5cd2c4412c60edbfa5c15fbea724948a8a18d0e8a8931276c9082657e
-# Source SHA-256: 30288338251c01f5434efdcee68fe62d7843c88fd1ad9236f329994f922f2c55
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NC-ABCD.ANS by Necrolyte (root0297); released in root0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ABCD Cafe
-# SAUCE Author: Necrolyte
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: ABCD Cafe by Necrolyte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0297-nc-abcd
 
 Write-Host '
 

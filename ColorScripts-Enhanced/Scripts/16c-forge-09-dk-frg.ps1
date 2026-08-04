@@ -1,18 +1,4 @@
-﻿# Converted from: DK-FRG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/forge_09/raw/DK-FRG.ANS
-# Source Revision: archive-sha256:d4616dfe119968c45cde426a6fd89403c94d7b3dbbcec3e05db02fd0c751bac7
-# Source SHA-256: 23e5bb2da0cb1fd0a8db70c790bffc54ed05a398b74e3a361cb8c7fd212987ff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DK-FRG.ANS by darkman (forge); released in forge_09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fOrge logO!@%
-# SAUCE Author: darkman
-# SAUCE Group: forge
-# SAUCE Date: 19960905
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: fOrge logO!@% by darkman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-forge-09-dk-frg
 
 Write-Host '
 [1;30m[0m

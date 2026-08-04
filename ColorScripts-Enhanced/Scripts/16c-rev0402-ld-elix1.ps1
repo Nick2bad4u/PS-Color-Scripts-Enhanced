@@ -1,18 +1,4 @@
-﻿# Converted from: LD-ELIX1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0402/raw/LD-ELIX1.ANS
-# Source Revision: archive-sha256:19898cc2febb6deadccf50832dc421b4f362a33c899e27278bafd225bbc2d4d4
-# Source SHA-256: b459e468841d16b540ee873dbc52728f88839d4a129c2b775fb61e1a2a3ff4f5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-ELIX1.ANS by lazthaus (ld!) (Revival); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Elixir
-# SAUCE Author: lazthaus (ld!)
-# SAUCE Group: Revival
-# SAUCE Date: 20020415
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Elixir by lazthaus (ld!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0402-ld-elix1
 
 Write-Host '
 [1;30m░[0;33m   [0;1;30m▓██[0;1;30;47m▓▓[0;1;30;40m█[0;1;30;43m▓▓▓░░░[0;33m██▌▄███[0;1;30m▌[0;34m▐[0;1;34;44m░░░[0;34m█▀[0;33m▐██▀▀▀[0;33;44m█[0;33;40m▄[0;37;40m  [0;34;40m▐[0;1;34;44m░░[0;34m█▄▄▄ elixir  ▀██▄       ▄▄▄   ▄▄▄█[0;1;34;44m░░[0m

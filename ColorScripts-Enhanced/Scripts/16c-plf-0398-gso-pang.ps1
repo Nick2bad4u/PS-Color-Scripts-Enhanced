@@ -1,18 +1,4 @@
-﻿# Converted from: GSO-PANG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0398/raw/GSO-PANG.ANS
-# Source Revision: archive-sha256:f8b78bce0ded523528171ee9d37c603a9a96c5e8abf885d101375334b587e435
-# Source SHA-256: c71639fedb87f59b9fefe0f2a132e45b891c3021eb4bd04c36f5bc3066e35e0a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GSO-PANG.ANS by gasol (plf); released in plf-0398 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dlofwerasdf paGN!
-# SAUCE Author: gasol
-# SAUCE Group: plf
-# SAUCE Date: 19980313
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: dlofwerasdf paGN! by gasol | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0398-gso-pang
 
 Write-Host '
                               [1;36m░░[0m      [1;30m░░▄▄▄▄[0;33m▄▄▄[0;1;30;43m▀▀▀[0;33m▄▄[0;1;30m▄▄[0;33m░░[0m

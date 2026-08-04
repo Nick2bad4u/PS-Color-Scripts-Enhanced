@@ -1,19 +1,4 @@
-﻿# Converted from: FIL-DENT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/FIL-DENT.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: 97f52c71446cd08face7931c650e6cb9c2673d9501d23832aed33d3b0893cc75
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FIL-DENT.ANS by filth (FiRE); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ASCIIDENT
-# SAUCE Author: filth
-# SAUCE Group: FiRE
-# SAUCE Date: 20241111
-# SAUCE Dimensions: 80x30
-# SAUCE Font: IBM VGA
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: ASCIIDENT by filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-fil-dent
 
 Write-Host '
 

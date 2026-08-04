@@ -1,18 +1,4 @@
-﻿# Converted from: US-ECHO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz07jun/raw/US-ECHO.ANS
-# Source Revision: archive-sha256:6a4341d9d0364566769256e4356d86035ad4ee53c0aa654acf41be18e58ca462
-# Source SHA-256: fc033282b110891aa5f71976ce89d4716aa3a24ca690571a46ed5e838ae70fb4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ECHO.ANS by Hennifer + Wat0r (Lazurus & Echo); released in laz07jun and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: `ek-(,)o Promo
-# SAUCE Author: Hennifer n' watOr
-# SAUCE Group: Lazurus & Echo
-# SAUCE Date: 19970531
-# SAUCE Dimensions: 80x30
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: `ek-(,)o Promo by Hennifer + Wat0r | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz07jun-us-echo
 
 Write-Host '
 [1m[0m[1m[0m[1m[0m[1m[0m

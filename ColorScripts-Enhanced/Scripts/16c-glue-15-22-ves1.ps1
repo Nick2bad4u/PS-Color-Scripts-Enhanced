@@ -1,18 +1,4 @@
-﻿# Converted from: 22-VES1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-15/raw/22-VES1.ANS
-# Source Revision: archive-sha256:27d6625e69a5207f7e1ecdf7cdf18b62e352300eb88e02c3e1b0355793535d53
-# Source SHA-256: 1bbcb93c67a7fd404b25a71aa0e929c7ae739db958b4cf89a0cefaa9f9316d0f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 22-VES1.ANS by catch22 (glue clan); released in glue-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: vesalis menu
-# SAUCE Author: catch22
-# SAUCE Group: glue clan
-# SAUCE Date: 19981028
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: vesalis menu by catch22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-15-22-ves1
 
 Write-Host '
 [1m██[0;1;36;46m▓[0;36m  [0;1;36;46m▐█[0;1;37;40m█[0;36m [0;1;36;46m█[0;1;37;40m█[0;36m▌ [0;1;36m▐[0;1;36;46m███[0;1;36;40m▌[0;36m ▐[0;1;36;46m██▓[0;36m▌▐[0;1;36;46m▓▓█[0;36m▌ [0;1;36;46m▓▓███[0;36m [0;1;36m▐[0;1;36;46m███[0;36m [0;1;36;46m▒▒▓██[0;36m  ▐[0;1;36;46m▒██[0;1;36;40m▌[0;36m ▐[0;1;36;46m▒▒█[0;1;36;40m▌[0;36m █[0;1;36;46m░░▒▒[0;36m▌▐█[0;1;36;46m░[0;36m▌ [0;1;36;46m░[0;36m▄ [0;35m [0;1;34;44m██[0;1;34;47m▓▄[0;1;34;44m▓[0m

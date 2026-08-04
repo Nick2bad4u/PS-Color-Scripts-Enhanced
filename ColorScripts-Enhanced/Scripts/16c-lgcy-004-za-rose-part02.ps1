@@ -1,19 +1,4 @@
-﻿# Converted from: za-rose.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-004/raw/za-rose.ans
-# Source Revision: archive-sha256:c716e28d4b828a0135c19992fe2f71464879479199ebc42fd3d533b5bd3bf4d4
-# Source SHA-256: 967a7d93498412f7bb7831a1cb97449c8a03ae55a419c43e3fc141e4a1ef7510
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: za-rose.ans by Zaal (Zaal); released in lgcy-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Rose
-# SAUCE Author: Zaal
-# SAUCE Group: Zaal
-# SAUCE Date: 20220214
-# SAUCE Dimensions: 80x89
-# SAUCE Font: IBM VGA
-# Lines: 51-89
-# Columns: 1-80
+﻿# Artwork: Rose by Zaal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-004-za-rose-part02
 
 Write-Host '
 [36m   [0;1;30m▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;1;30;47m  ▀▒▒ [0;1;37;47m█▄█▓░ [0;1;30;47m█[0;1;30;40m█[0;1;30;47m [0;30m░▓[0;1;30;47m▒      [0;1;37;47m▓▓▓▓▒▒░[0;1;30;47m▒[0;1;30;40m▒[0;30m▓[0;1;30;47m▒▒[0;1;30;40m▓░▒░ [0;30m█[0;1;30m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m

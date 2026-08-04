@@ -1,19 +1,4 @@
-﻿# Converted from: gDm-P5yk0h.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/slackpack001/raw/gDm-P5yk0h.ans
-# Source Revision: archive-sha256:5cacf66a668b317d377907af22e0a4e5723c4f7fb85756d1ef888c14cabea25b
-# Source SHA-256: be578588734b0b0328bff0e554991c79d5d9a0211aef50ab943748bbbdc350ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: gDm-P5yk0h.ans by GngrDr3dM4n (Slackers); released in slackpack001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: P5yk0h
-# SAUCE Author: GngrDr3dM4n
-# SAUCE Group: Slackers
-# SAUCE Date: 20250606
-# SAUCE Dimensions: 80x35
-# SAUCE Font: IBM VGA
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: P5yk0h by GngrDr3dM4n | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-slackpack001-gdm-p5yk0h
 
 Write-Host '
 [34m████████████████████████ [0;33m▓▓█▒ [0;34m▀█████ [0;33m▓█▓ [0;34m██ [0;33m▓█▓▒ [0;34m████▀ [0;33m▄▓▓██░▀ [0;34m████████████████[0m

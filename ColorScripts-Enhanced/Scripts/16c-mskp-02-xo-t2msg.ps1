@@ -1,18 +1,4 @@
-﻿# Converted from: XO-T2MSG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mskp-02/raw/XO-T2MSG.ANS
-# Source Revision: archive-sha256:e2f26965ff1d6a3c768a3ba596182d63a257dc7f930f0715cef724467107c48d
-# Source SHA-256: 185534f088dbb9d4b2d6b8b68e2330b04e2ff10feedfa9898391783ff3302458
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XO-T2MSG.ANS by Xose (MASAKRE PRODUCTiONS); released in mskp-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: T.O.C. 2 BBS - Messages Menu
-# SAUCE Author: Xose
-# SAUCE Group: MASAKRE PRODUCTiONS
-# SAUCE Date: 19960303
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: T.O.C. 2 BBS - Messages Menu by Xose | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mskp-02-xo-t2msg
 
 Write-Host '
 

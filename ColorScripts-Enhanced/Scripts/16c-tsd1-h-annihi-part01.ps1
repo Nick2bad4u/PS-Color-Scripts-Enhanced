@@ -1,13 +1,4 @@
-﻿# Converted from: H-ANNIHI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tsd1/raw/H-ANNIHI.ANS
-# Source Revision: archive-sha256:46fcc0cabd317411058a341a12c1c12a208f3a319890bc1d8d832fa869d914c4
-# Source SHA-256: 63ae3263ef3532f6142f9a86b2264d06226997ede0855289ab3ef98583fe2bfd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: H-ANNIHI.ANS by Hotfoot (tsd1); released in tsd1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: H-ANNIHI.ANS by Hotfoot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tsd1-h-annihi-part01
 
 Write-Host '
                      [31m▀▀███▄▄▄▄[0m                    [31m▄▄▄▄█████▀▀▀[0m

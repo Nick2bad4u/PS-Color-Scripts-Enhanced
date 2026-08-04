@@ -1,19 +1,4 @@
-﻿# Converted from: N-IH8NM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/N-IH8NM.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: 6a62b6a8f446c85b1de8ff197a8f79fb370d9e024ae4fc277bca9422ad97a9cd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-IH8NM.ANS by nail (fire); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: i hate numb
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 20210125
-# SAUCE Dimensions: 80x93
-# SAUCE Font: IBM VGA
-# Lines: 48-93
-# Columns: 1-80
+﻿# Artwork: i hate numb by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-n-ih8nm-part02
 
 Write-Host '
                         [37m▄[0;1;37;47m▄[0;1;37;40m▓▒[0m▄           [33m▀▓▓▓▓▒▒[0;1;31m▓[0;1;31;47m▓░▓[0;1;31;43m█░▓[0;1;31;40m█[0;1;31;43m▓▀░[0;33m█[0;1;31;43m▄▀[0;33m▀██[0;1;31;43m░░[0;33m█▐█▓▌[0m

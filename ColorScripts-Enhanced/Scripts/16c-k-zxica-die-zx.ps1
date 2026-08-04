@@ -1,13 +1,4 @@
-﻿# Converted from: DIE-ZX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-zxica/raw/DIE-ZX.ANS
-# Source Revision: archive-sha256:098212bcd3fc250902be7ae08340a23e99b29f8fa69fe7b4990238a6d402d1f6
-# Source SHA-256: b667aeb1017b504617934c59e913729a275ff9aa4a2dfc1c5169dc689a16fca2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DIE-ZX.ANS by Dieznyik (k-zxica); released in k-zxica and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: DIE-ZX.ANS by Dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-zxica-die-zx
 
 Write-Host '
 [33m  ░[0;30;43m▓[0m        [1;33;40m░[0m                  [33m░[0;30;43m▓[0m             [30;44m▓▓[0m   [36;40m░[0;30;46m▓[0m                       [33;40m/[0;31;40m.[0;33;40m\[0m

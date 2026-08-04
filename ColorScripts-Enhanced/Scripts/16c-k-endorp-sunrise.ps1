@@ -1,13 +1,4 @@
-﻿# Converted from: @SUNRISE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-endorp/raw/%40SUNRISE.ANS
-# Source Revision: archive-sha256:497545ed0c2744b20980a37ccf1a9818b53bd7cdaf102771db2cb19b2e84ea40
-# Source SHA-256: f65277014b0ff3603ca2cbe8f9865b4526ccbaf3719e3a20718f557e075d895d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: @SUNRISE.ANS by Flame (k-endorp); released in k-endorp and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: @SUNRISE.ANS by Flame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-endorp-sunrise
 
 Write-Host '
                                     [30;42m▓▓▓▓[0;33;42m▒░[0;32;43m▒[0;33;42m▒[0;32;43m░[0;33;42m▓▓▓[0m                      [36;40mbaby.[0m

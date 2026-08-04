@@ -1,18 +1,4 @@
-﻿# Converted from: AN!SQREW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oops_a04/raw/AN!SQREW.ANS
-# Source Revision: archive-sha256:152751703632084c3874f4d0774968181737168c5892dd20cae40e0ac76659c9
-# Source SHA-256: fb9eec254995050e743af022e3d16658e1e8ddd4c4c25b92b10097d727343b08
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AN!SQREW.ANS by aneuriZm (oOps!aSCii); released in oops_a04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: sQroO3D uP aSciI
-# SAUCE Author: aneuriZm
-# SAUCE Group: oOps!aSCii
-# SAUCE Date: 19970416
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: sQroO3D uP aSciI by aneuriZm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oops-a04-an-sqrew
 
 Write-Host '
 [1;36m[0;1;32m[0;32m[0;1;32m[0m[36m[0;1;37m[0;1;30m[0m[31m[0;33m[0;35m[0;1;31m[0m[1;34m[0;1;36m[0m[36mggg[0;1;32m [0;32m$T÷²'' ^'' `²÷T[0;1;32m $$$[0m [36m$$T÷²'' [0;32m [0;36m'' [0;1;30m^[0;36m [0;1;30m`²÷T$$$[0m [31m$$$$T÷²''[0;33m$$$$$[0;35m $$$ [0;1;35mgggg [0;1;34m$$$$$$[0m [1;36m$$$$ [0m$$$

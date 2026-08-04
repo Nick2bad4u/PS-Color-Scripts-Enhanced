@@ -1,18 +1,4 @@
-﻿# Converted from: US-LURE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0302/raw/US-LURE.ANS
-# Source Revision: archive-sha256:7b2619e0400d7382d19d38767873337eae71942dd319abc1998c71f4a968776f
-# Source SHA-256: 3a3bd805e851e574389415732f10fe2f55ef6a9b2601c53874fada080fa75f75
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-LURE.ANS by Magnatop + Davek (Revival 2002); released in rev0302 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Lure
-# SAUCE Author: magnatop/davek
-# SAUCE Group: Revival 2002
-# SAUCE Date: 20020314
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Lure by Magnatop + Davek | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0302-us-lure
 
 Write-Host '
 

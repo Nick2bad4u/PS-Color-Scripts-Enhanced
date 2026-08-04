@@ -1,20 +1,4 @@
-﻿# Converted from: te-ice2020.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-globalblockdown/raw/te-ice2020.ans
-# Source Revision: archive-sha256:72def6914c400cf448198b2a3876b5414476d859652144a1c3db260cf8838ba8
-# Source SHA-256: a2069d1c4f84a6829aa5bd7e0ac45cd480e29ccdfc09a543f357c56d4ec7f41e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: te-ice2020.ans by Tetanus + Tainted (Blocktronics); released in blocktronics-globalblockdown and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: iCE 2020
-# SAUCE Author: Tetanus
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20200702
-# SAUCE Dimensions: 80x270
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Font fixed up by tainted
-# Lines: 223-266
-# Columns: 1-80
+﻿# Artwork: iCE 2020 by Tetanus + Tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-globalblockdown-te-ice2020-part06
 
 Write-Host '
     [1;36m▀[0m    [1;36m▀[0m    [1;30m░░[0m   [1m▄▀[0m    [1m░[0m           [1m▀▀▄[0m              [1m█[0m                  ▄▓

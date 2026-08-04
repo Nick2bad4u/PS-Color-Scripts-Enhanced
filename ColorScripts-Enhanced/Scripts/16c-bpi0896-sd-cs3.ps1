@@ -1,18 +1,4 @@
-﻿# Converted from: SD!CS3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bpi0896/raw/SD!CS3.ANS
-# Source Revision: archive-sha256:521b9df4427f9da93a66112b8a2a14c0b669272e30efda8662d4d103f6c7fd36
-# Source SHA-256: 2eaaafe124b8474e39f7663f56ca316cd372e57cd2d6fc644888dbf7598b71d5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD!CS3.ANS by sad (black pyramid!inc.); released in bpi0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: cyberdyne systems login
-# SAUCE Author: sad
-# SAUCE Group: black pyramid!inc.
-# SAUCE Date: 19960729
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: cyberdyne systems login by sad | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bpi0896-sd-cs3
 
 Write-Host '
 [1;31;43m▓▓▒▒▒▒▒▒░░░░░░░░░░░░░░░░░░░░░░░░░░░▄▄▄▄▄▄[0;1;31;40m█████████████▀▀▀▀▀[0;1;31;43m▓▓▒▒▒▒░░░░░[0;33m█[0;1;31;43m [0;33m███████[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: re-spa.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tnt-005/raw/re-spa.ans
-# Source Revision: archive-sha256:68fd4961b428669776259b72bf91928da48ccb9218d2dad69e0130405f7fdd8c
-# Source SHA-256: 70b5080b83ef87f4bdb70b94751a454484506850434f92d1923225fc8f63e6de
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: re-spa.ans by Reevolution (tnt-005); released in tnt-005 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: re-spa.ans by Reevolution | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tnt-005-re-spa
 
 Write-Host '
 [1;36m▄[0;36m▄[0;1;30m▄▄[0;1;36;46m▒▄[0;1;30;46m▀[0;1;30;40m██[0;1;37;40m░░[0;1;30;46m▓▓▄▄[0;1;36;46m▀▀░[0;1;30;46m▄[0;1;30;40m█▀▀▀▀▀▀▀[0;36m▀[0;1;30m▀▀▄[0;36m▄▄[0;37m ▀[0;36m▀[0;1;37;47m▀[0;1;37;40m█[0;1;37;47m▀[0;1;37;40m██[0;1;37;46m▓▓[0;1;36;47m▄[0m▄  [35m▀█[0;1;31;45m▀[0;1;30;45m▀[0;35m█[0;1;30;45m▄[0;35m▄▄[0;37m  [0;34m▀[0;34;45m█[0;35;44m░[0;34;45m█[0;35;44m▓[0;34;40m▌[0;35;40m▐[0;34;45m▄█[0;35;40m█[0;34;45m▐▌░[0;35;40m▐▌[0;1;35;40m▒[0;35m▐▐  ░░[0m

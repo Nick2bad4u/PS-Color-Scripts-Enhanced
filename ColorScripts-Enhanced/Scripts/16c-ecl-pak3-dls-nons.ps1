@@ -1,18 +1,4 @@
-﻿# Converted from: DLS-NONS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak3/raw/DLS-NONS.ANS
-# Source Revision: archive-sha256:cde4af7e840865f437fedba26bbfb806e858a9b477c723c01bd9d080434c75bd
-# Source SHA-256: ade1a60c6ad4507736c44c184cc58c98ef16a2ad6e0caa83b5ecd73d601373ef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DLS-NONS.ANS by delusion (ecolove^hypnotix); released in ecl-pak3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: non-sense logo
-# SAUCE Author: delusion
-# SAUCE Group: ecolove^hypnotix
-# SAUCE Date: 19980122
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: non-sense logo by delusion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak3-dls-nons
 
 Write-Host '
 

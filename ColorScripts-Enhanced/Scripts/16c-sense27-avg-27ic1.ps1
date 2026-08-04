@@ -1,13 +1,4 @@
-﻿# Converted from: avg-27ic1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense27/raw/avg-27ic1.ans
-# Source Revision: archive-sha256:a31cb27f3a699dabe8d3f53fffd048cd9b61d3635ed0be3eb33893284480a58e
-# Source SHA-256: e2cacadc42a574681dde2323eaa260e1cf620f3fcc9c25ce9ad68ed098f00e16
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-27ic1.ans by Avenging Angel (sense27); released in sense27 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: avg-27ic1.ans by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense27-avg-27ic1
 
 Write-Host '
 

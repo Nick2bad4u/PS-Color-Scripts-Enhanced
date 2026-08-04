@@ -1,18 +1,4 @@
-﻿# Converted from: SR_THX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dtd04/raw/SR_THX.ANS
-# Source Revision: archive-sha256:7091bf957c6673d9b005844355015c4c77947e5b00fc05939206b31997a09f74
-# Source SHA-256: 5f8f25c089a81f46e1bb54c786f72566f936b3af973829e4da041e97d0b552a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SR_THX.ANS by sektor (dtd); released in dtd04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: thanx 4 the uploads, 4 brain damage
-# SAUCE Author: sektor
-# SAUCE Group: dtd
-# SAUCE Date: 19971111
-# SAUCE Dimensions: 80x12
-# Lines: 1-12
-# Columns: 1-80
+﻿# Artwork: thanx 4 the uploads, 4 brain damage by sektor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dtd04-sr-thx
 
 Write-Host '
 [34m░░▓▓[0;1;34;44m▐▓░ [0;34m        ██[0;1;34;44m▀▀▀▀▀[0;1;34;47m▓▄[0;34m██ [0m     [1;33m▄▄▄▄ [0;1;33;47m█[0;1;33;41m▓▓[0;1;33;40m▄▄▄▄▄[0m       [1;33m▄▄▄  [0;34m▀▌[0;1;33m  █▄▐[0;34m  ▐[0;1;34;44m ██[0;1;34;47m▓▓░░▓▓[0;1;34;44m [0;34m█[0m

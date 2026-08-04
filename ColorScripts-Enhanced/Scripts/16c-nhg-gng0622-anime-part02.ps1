@@ -1,18 +1,4 @@
-﻿# Converted from: anime.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nhg_gng0622/raw/anime.ans
-# Source Revision: archive-sha256:e19dfa0d332b33a5cffa8ab363da739eaee8413fccf047198b5f292d003bcb79
-# Source SHA-256: 3776e13bdb184806a3487a1fe541035049f8e072fff56257490250e6e615a9c7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: anime.ans by Zaarin (NHG); released in nhg_gng0622 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: Zaarin
-# SAUCE Group: NHG
-# SAUCE Date: 20220622
-# SAUCE Dimensions: 80x109
-# SAUCE Font: IBM VGA
-# Lines: 38-73
-# Columns: 1-80
+﻿# Artwork: anime.ans by Zaarin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nhg-gng0622-anime-part02
 
 Write-Host '
 [1;32m░░░░░░[0m [1;30;41m▓▓░▓[0;1;30;43m░[0;1;30;41m░░░[0;1;30;43m░░[0;1;30;41m░░░░[0;1;30;43m░[0;1;30;41m░[0;1;30;43m░[0;1;30;41m░░░░░░[0;1;30;43m░[0;1;30;41m░[0;1;30;43m░[0;1;30;41m░░[0;1;30;43m░[0;1;30;41m░[0;1;30;43m░[0;1;30;41m░░[0;1;30;43m░[0;1;30;41m░[0;1;30;43m░[0;1;30;41m░[0;1;30;43m░░░[0;1;30;41m░[0;1;32;40m░░░[0;1;37;47m░░░[0m [1;33;43m░░░░[0m [1;32m░░░░░░░░░░░░░░░░░░░░[0m

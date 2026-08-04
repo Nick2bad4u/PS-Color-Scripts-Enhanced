@@ -1,18 +1,4 @@
-﻿# Converted from: US-ROOTS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roots01/raw/US-ROOTS.ANS
-# Source Revision: archive-sha256:dd8ab7f4699320ca828bf58552b53e17a1e210a9bedef1bc8bfdf4b451cdf01c
-# Source SHA-256: 2ce1262a677203ef65abc4497d33aba462c01fbc6c1209dce56ac9c242dee84f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ROOTS.ANS by Retribution + Ceelow (roots); released in roots01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: roots promo
-# SAUCE Author: ceelow+ret
-# SAUCE Group: roots
-# SAUCE Date: 20080205
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: roots promo by Retribution + Ceelow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roots01-us-roots
 
 Write-Host '
                                              [1;30m─╖[0m

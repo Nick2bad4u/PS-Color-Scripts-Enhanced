@@ -1,13 +1,4 @@
-﻿# Converted from: RA-FS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toon0895/raw/RA-FS.ANS
-# Source Revision: archive-sha256:c1a6798ea83d0ccac05fb0d58c558b4384e596f6d867896c83346030bd76baa1
-# Source SHA-256: d117a4d98f79b39c0d77e570237f1d83fd25df7fb1abcae5020823f757b48bbe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RA-FS.ANS by Rage (toon0895); released in toon0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: RA-FS.ANS by Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toon0895-ra-fs-part01
 
 Write-Host '
          [1;30m▄▄▄█████[0;1;30;47m▓▓▓▓▓▓[0;1;30;40m████▀▀▀▀[0m                            [1;30;40m▀▀▀██▓█▄▄[0m

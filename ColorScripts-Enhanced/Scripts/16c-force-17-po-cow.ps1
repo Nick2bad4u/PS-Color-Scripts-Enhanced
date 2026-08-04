@@ -1,18 +1,4 @@
-﻿# Converted from: PO-COW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-17/raw/PO-COW.ANS
-# Source Revision: archive-sha256:a388e5620de32c4145fd1d2f2e70343f674ce332483184514a867f9d5d569bc4
-# Source SHA-256: d4e7a4a4ad6379246d526e4c9873d15cfd116d7ae46f675f6159c1f08a45fb90
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PO-COW.ANS by pOrtia (aeOn); released in force-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: distortion
-# SAUCE Author: pOrtia
-# SAUCE Group: aeOn
-# SAUCE Date: 19970419
-# SAUCE Dimensions: 80x37
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: distortion by pOrtia | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-17-po-cow
 
 Write-Host '
       [1;33m▄  █ [0m [1;33m ░[0m

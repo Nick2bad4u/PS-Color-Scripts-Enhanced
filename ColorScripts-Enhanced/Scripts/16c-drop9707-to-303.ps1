@@ -1,18 +1,4 @@
-﻿# Converted from: TO-303.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drop9707/raw/TO-303.ANS
-# Source Revision: archive-sha256:32b4b2cc155cdad909effdfba21862a9be79226a226c0a804b96a9ff5b976024
-# Source SHA-256: 0dd05bbc01d1f76f73bf5d28cd0eba55fb51a0772ae91def603b0d780f414190
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TO-303.ANS by tormentor (drop!); released in drop9707 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: logo for 303
-# SAUCE Author: tormentor
-# SAUCE Group: drop!
-# SAUCE Date: 19970717
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: logo for 303 by tormentor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drop9707-to-303
 
 Write-Host '
           [1;36m▄[0;1;36;46m▓▀▒[0;36m▄▄▐▄▄▄▄[0m            [36m▄▀▄[0m              [1;36m▄[0;1;36;46m▓▀▒[0;36m▄▄▐▄▄▄▄[0m            [36m▄[0m

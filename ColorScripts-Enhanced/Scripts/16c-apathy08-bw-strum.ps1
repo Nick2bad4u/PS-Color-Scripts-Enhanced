@@ -1,18 +1,4 @@
-﻿# Converted from: BW-STRUM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy08/raw/BW-STRUM.ANS
-# Source Revision: archive-sha256:dddbecd097515d8bc284ea8726046b80b56f2576fe024d98d7a392e98f8d9a1f
-# Source SHA-256: 18cd105d54f34b76016d162ca304391de749a2cd526c7e032bfd0ca1f11fd3c7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BW-STRUM.ANS by bawss <-- double 's' (apathee); released in apathy08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Strummer ad!@
-# SAUCE Author: bawss <-- double 's'
-# SAUCE Group: apathee
-# SAUCE Date: 19960322
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Strummer ad!@ by bawss <-- double 's' | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy08-bw-strum
 
 Write-Host '
 [1;36;46m█[0;1;36;40m▀ [0;1;37;40m████▄▄[0;1;36;40m▀ [0;1;37;40m████ [0;1;36;40m▌[0;1;37;40m▐▌ ██ [0;1;36;40m██████████████████████████████████████████▀ [0;36m▄▄████▄▄[0;1;36m▀████[0m

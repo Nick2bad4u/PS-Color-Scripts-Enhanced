@@ -1,18 +1,4 @@
-﻿# Converted from: AN-AR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl199604/raw/AN-AR.ANS
-# Source Revision: archive-sha256:ab7ec791e29ab6c4664297096b97dad368f4f76b1e99cb674dbe349ce9914db1
-# Source SHA-256: cd1b966272f68bf8c512d3c40dc2780b00684b4c1fd42fba4627d8b114ff35f8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AN-AR.ANS by Anselmo (Teklordz); released in tl199604 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Acidic Rain
-# SAUCE Author: Anselmo
-# SAUCE Group: Teklordz
-# SAUCE Date: 19960412
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Acidic Rain by Anselmo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl199604-an-ar
 
 Write-Host '
                                          [1;32m▄▄[0m

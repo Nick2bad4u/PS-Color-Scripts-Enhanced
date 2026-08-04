@@ -1,18 +1,4 @@
-﻿# Converted from: TH-ELDO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel10/raw/TH-ELDO.ANS
-# Source Revision: archive-sha256:cf40594777c22d11e0e68ffce1787c226a780219ccff2425f211f05671148899
-# Source SHA-256: e394e860ed3457823750e494878fd4d47f771c26d29d7857881a64d8d1e38a53
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH-ELDO.ANS by thrasher (fuel); released in fuel10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: eldorado
-# SAUCE Author: thrasher
-# SAUCE Group: fuel
-# SAUCE Date: 19970201
-# SAUCE Dimensions: 80x91
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: eldorado by thrasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel10-th-eldo-part01
 
 Write-Host '
                                               ░▓[1m██ [0m       [1;47m [0;1;40m██▄▄▄▄[0m    [1;47m [0;1;40m██▀▀[0;1;47m▀[0;1;40m█▄ [0m

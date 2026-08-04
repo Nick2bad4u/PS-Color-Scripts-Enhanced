@@ -1,18 +1,4 @@
-﻿# Converted from: TS-SYN0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy07/raw/TS-SYN0.ANS
-# Source Revision: archive-sha256:cf53c4ea5c286717abe3d962fb98452e352d7d7a30a31881220e7068a7f0bb79
-# Source SHA-256: 453d909a0ac4dec3f795e2e1b17f005d3e88de925e68a80c635b4f334e217fca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-SYN0.ANS by transient (apathy); released in apathy07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: synthetic nightmare
-# SAUCE Author: transient
-# SAUCE Group: apathy
-# SAUCE Date: 19960227
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: synthetic nightmare by transient | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy07-ts-syn0
 
 Write-Host '
 [1;30mts[0;1;33m/[0;1;30map▀a▄[0;1;30;47m▓[0;1;30;40m▄█▀[0m [1;30;40m▀[0m           [1;30;47m▓[0m [1;30;40m▄█[0m [33m▀[0m [33m▄[0m [1;30m▀[0;1;30;43m▓[0;1;30;40m▄[0;1;30;47m░[0;1;30;40m▀[0m [1;30;40m▀[0m    [1;30;47m▓[0;1;30;40m▀[0m [34m▄[0;1;37;44m▓[0;1;34;44m░[0m [34m▄[0;1;30;44m░[0m [1;30;40m▄[0;1;30;47m▓[0m [1;30;47m▓[0;1;30;40m▄▄▀[0;1;30;43m▓[0;1;30;47m▓[0m  [1;30;40m▄▀[0m   [1;30;40m▀[0m [1;30;43m▓[0;1;30;47m▓[0m [1;30;43m▓[0;1;30;47m▓[0m

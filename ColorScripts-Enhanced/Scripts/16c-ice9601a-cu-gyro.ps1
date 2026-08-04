@@ -1,18 +1,4 @@
-﻿# Converted from: CU-GYRO.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9601a/raw/CU-GYRO.ICE
-# Source Revision: archive-sha256:e4c089e3103bdc63762348bbcc2c54a05a351461817f667c54ad471098c66860
-# Source SHA-256: 4963a3a54c421045eed8e1f07aa9326a3d297de88448458643626827e20cbf7d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CU-GYRO.ICE by Cold And Ugly + Magnetic M (iCE); released in ice9601a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Gyromite
-# SAUCE Author: Cold and Ugly
-# SAUCE Group: iCE
-# SAUCE Date: 19960113
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Gyromite by Cold And Ugly + Magnetic M | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9601a-cu-gyro
 
 Write-Host '
 [1;30m▓▓████████▀██████████████▄▀██▀█ █▄▄▀█████████▀    ▐████▄▄ ▀▀▀ █▀   ▄██████▓▓▒▒░[0m

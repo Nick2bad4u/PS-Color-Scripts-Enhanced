@@ -1,19 +1,4 @@
-﻿# Converted from: zII-undr.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel26/raw/zII-undr.ans
-# Source Revision: archive-sha256:d10918a36531171a7bd7de77ac2a92891100e4055d3be9227ebf98ff3c0d1cc3
-# Source SHA-256: 7c22536cda46cd50ff12676deed391aa4fa4a02aea1db48e4bdda30117083e3d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zII-undr.ans by Zeus II (FUEL); released in fuel26 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Undercurrents
-# SAUCE Author: Zeus II
-# SAUCE Group: FUEL
-# SAUCE Date: 20180425
-# SAUCE Dimensions: 80x88
-# SAUCE Font: IBM VGA
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Undercurrents by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel26-zii-undr-part01
 
 Write-Host '
                              [1;34;40m▒[0m

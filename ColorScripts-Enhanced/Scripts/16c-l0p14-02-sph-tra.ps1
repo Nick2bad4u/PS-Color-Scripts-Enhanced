@@ -1,18 +1,4 @@
-﻿# Converted from: SPH_TRA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p14_02/raw/SPH_TRA.ANS
-# Source Revision: archive-sha256:d20654a6c01baca0c78130f8dbf627e3758aef76e81e82df43ce19f00f1e58b7
-# Source SHA-256: f049ef179c72e69f01f531168bd3f208dc377169c9ce3c6480fd56fd476a1f6a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPH_TRA.ANS by sephiroth (Sadist); released in l0p14_02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: #trax
-# SAUCE Author: sephiroth
-# SAUCE Group: Sadist
-# SAUCE Date: 20011212
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: #trax by sephiroth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p14-02-sph-tra
 
 Write-Host '
 

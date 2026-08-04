@@ -1,18 +1,4 @@
-﻿# Converted from: SB-HEAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ra-pack2/raw/SB-HEAD.ANS
-# Source Revision: archive-sha256:53af416cc2ff2a2d54e90bcbbad5580b81be8c63a28dde237d8068b4f107cba4
-# Source SHA-256: 5469a0d05760fd883e5f0f019651ae4cd05bdee8ace435ce7e4d219e16d9a809
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SB-HEAD.ANS by snub (rebelart); released in ra-pack2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: headbanger
-# SAUCE Author: snub
-# SAUCE Group: rebelart
-# SAUCE Date: 19980305
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: headbanger by snub | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ra-pack2-sb-head
 
 Write-Host '
                                    [1;33m▄▄▄▄[0;1;33;47m▓█▒▓[0;1;33;43m█[0;1;33;47m█[0;1;33;40m▄▄▄[0m

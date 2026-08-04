@@ -1,13 +1,4 @@
-﻿# Converted from: WW-ROBOT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spl9607/raw/WW-ROBOT.ANS
-# Source Revision: archive-sha256:cfcb128304238e082de7d191be273a1b4ecfa4b546d20f08c775b155194f3a99
-# Source SHA-256: c8544df8681215ec66ae1c687ed2ef85b29354dcd7a4aa1e1f9fcd9c202313ab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WW-ROBOT.ANS by Wicked Wolf (spl9607); released in spl9607 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: WW-ROBOT.ANS by Wicked Wolf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spl9607-ww-robot-part01
 
 Write-Host '
 [30m███████████████████████████████████████[0;37;47m█[0;37;40m [0;30;40m█████████████████████████████████████[0m

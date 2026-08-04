@@ -1,16 +1,4 @@
-﻿# Converted from: N!Z-KAO0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0297/raw/N!Z-KAO0.ANS
-# Source Revision: archive-sha256:2e15cb2f2712a143323c9f3c6ecca94c5b5b12a452a019e911d205dd685c6eee
-# Source SHA-256: 576bc3a4bd45fda52baa35e817d1ee6e6c480d176985af35a59615910dd96ed6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N!Z-KAO0.ANS by noize (phat studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: kaoz-logo i
-# SAUCE Author: noize
-# SAUCE Group: phat studios '97
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: kaoz-logo i by noize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0297-n-z-kao0
 
 Write-Host '
 [35m█[0;1;35;45m▀▀▀▀▀▀▌[0;35m█ ███[0;1;35;45m▀▀▀▀▀▀▌[0;35m▌█[0;1;35;45m▀▀▀▀████████████[0;35m█▓▓ [0;1;35;45m ████[0;1;35;40m██████████████████████[0;1;35;45m███████████[0m

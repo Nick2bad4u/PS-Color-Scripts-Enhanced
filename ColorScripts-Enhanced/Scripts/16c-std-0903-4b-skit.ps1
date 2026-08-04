@@ -1,18 +1,4 @@
-﻿# Converted from: 4B-SKIT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/std-0903/raw/4B-SKIT.ANS
-# Source Revision: archive-sha256:291646c75b1c576c4c00a56340430edd1505fa750e3ecf5d23662a4891ddb8d9
-# Source SHA-256: 8a254caf1f3eec6fffc295bbfe4da4049840acbadb69771b459e6c0cfd504c62
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 4B-SKIT.ANS by AfterBirth (Spread The Disease); released in std-0903 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Skittlez
-# SAUCE Author: AfterBirth
-# SAUCE Group: Spread The Disease
-# SAUCE Date: 20030831
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Skittlez by AfterBirth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-std-0903-4b-skit
 
 Write-Host '
        [1;30m▐[0;1;30;47m▓[0;1;30;40m▓░░░[0m  [1;30m░░▓▓▄▄▄ ▀▀▀▐████[0;1;30;47m▓▓▓▓▒▒▒▒▒▒▒▒▓▓▓▓[0;1;30;40m███████▌▀▀▀ ▄▄▄▓▓░░[0m  [1;30m░░░▓█▌[0m

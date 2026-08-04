@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-ATCK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0899/raw/BYM-ATCK.ANS
-# Source Revision: archive-sha256:0617fc8f8bbe2fa17749abcf8386f3d9e092bf5e07b71b50ee42b85b712bb9fc
-# Source SHA-256: 5ac6dade267b1a7a18eb4049a5f88d250272794ddb7dcf0086b2b54eccef25db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-ATCK.ANS by warbym (poffelipoff); released in plf-0899 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: sanction - ib16 halmstad
-# SAUCE Author: warbym
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19990731
-# SAUCE Dimensions: 80x25
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: sanction - ib16 halmstad by warbym | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0899-bym-atck-part01
 
 Write-Host '
  [31m              [0;33m [0;35m                                               [0;37m [0;30m [0;35m [0;30m           [0;35m░[0;30;45m▓[0m

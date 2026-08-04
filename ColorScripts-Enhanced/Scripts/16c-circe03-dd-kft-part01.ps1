@@ -1,18 +1,4 @@
-﻿# Converted from: DD-KFT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe03/raw/DD-KFT.ANS
-# Source Revision: raw-sha256:abd20005909f71ba2aee36be76884ba1fbe2d6fb2da990d10d1014410739d334
-# Source SHA-256: abd20005909f71ba2aee36be76884ba1fbe2d6fb2da990d10d1014410739d334
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-KFT.ANS by Diamond Darrell (Circe Argentina); released in circe03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: "The Kung Fu Theatre"
-# SAUCE Author: Diamond Darrell
-# SAUCE Group: Circe Argentina
-# SAUCE Date: 19971213
-# SAUCE Dimensions: 80x61
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: "The Kung Fu Theatre" by Diamond Darrell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe03-dd-kft-part01
 
 Write-Host '
         [34m [0;1;34m▄▄[0;34m▄▓[0;34;47m░▒▒▓▓▓▓[0;34;40m█[0;34;47m▓▓[0;1;34;44m░░░░░░░░[0;34m▄▄▄▄[0m   [34m░░░░[0m   [30;46m░░░░░[0;33;40m [0;1;31;40m░░▀██[0;1;31;43m▓▓▓▓░[0;33m██████▌░░[0;1;31;43m▓▓▒▒░░[0;33m████[0m

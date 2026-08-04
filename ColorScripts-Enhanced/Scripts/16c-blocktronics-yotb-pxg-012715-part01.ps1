@@ -1,16 +1,4 @@
-﻿# Converted from: pxg-012715.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_yotb/raw/pxg-012715.ans
-# Source Revision: archive-sha256:f702f09f6116b5ac6fa523d36f54d796db6f44f880e4f1cd426d29a9fbda605e
-# Source SHA-256: 05ae42bea8f8f0390d963a0932514990c96103f89fd07f40d6b97ec4ada1a170
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: pxg-012715.ans by Pixel Goth (blocktronics_yotb); released in blocktronics_yotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20150127
-# SAUCE Dimensions: 80x60
-# SAUCE Font: IBM VGA
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: pxg-012715.ans by Pixel Goth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-yotb-pxg-012715-part01
 
 Write-Host '
         [34;40m.;.    ,%!&!%%%%,.. ;!@#&!;;,;;;.[0m

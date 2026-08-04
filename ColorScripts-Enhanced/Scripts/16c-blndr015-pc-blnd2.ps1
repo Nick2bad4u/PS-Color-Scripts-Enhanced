@@ -1,13 +1,4 @@
-﻿# Converted from: PC-BLND2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr015/raw/PC-BLND2.ANS
-# Source Revision: archive-sha256:207257efec59abae2611bc00a45085830a91002aa8a590ce35f7b3ac437e031e
-# Source SHA-256: b87dde410ca926689ba32aff37cba4a52bd03bfc7224de87a9e5c9485cab4ec2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-BLND2.ANS by Putrid Carcass (blndr015); released in blndr015 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: PC-BLND2.ANS by Putrid Carcass | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr015-pc-blnd2
 
 Write-Host '
 

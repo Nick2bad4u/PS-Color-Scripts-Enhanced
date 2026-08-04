@@ -1,13 +1,4 @@
-﻿# Converted from: 10111101.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/4ooooooo/raw/10111101.ANS
-# Source Revision: archive-sha256:3d1ea735695d82dc319a43e8d44522002652e1b432df7c19feb6d9e4f126d700
-# Source SHA-256: 992b098663a8d5aa952881e41b0aba0b27fcf4d8881bab91b3c1b03c1dade0aa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 10111101.ANS by Mr4tune (4ooooooo); released in 4ooooooo and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: 10111101.ANS by Mr4tune | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-4ooooooo-10111101
 
 Write-Host '
                                          [34m▄▄▄▄[0m                                 [36m  [0m

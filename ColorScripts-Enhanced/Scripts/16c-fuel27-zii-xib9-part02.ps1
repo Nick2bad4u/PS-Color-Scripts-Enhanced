@@ -1,19 +1,4 @@
-﻿# Converted from: zII-XIB9.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel27/raw/zII-XIB9.ans
-# Source Revision: raw-sha256:be8899cc3f6a27e57e103a6a80264b2938558a054358975f6263fe5c4772aab7
-# Source SHA-256: be8899cc3f6a27e57e103a6a80264b2938558a054358975f6263fe5c4772aab7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zII-XIB9.ans by Zeus II (FUEL); released in fuel27 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Xibalba
-# SAUCE Author: Zeus II
-# SAUCE Group: FUEL
-# SAUCE Date: 20180722
-# SAUCE Dimensions: 80x196
-# SAUCE Font: IBM VGA
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Xibalba by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel27-zii-xib9-part02
 
 Write-Host '
 [1;30m▐[0;1;30;47m▒[0;1;30;40m██ [0;31m▐██[0m        [31m▐███[0;1;31;41m▄ [0;1;30;41m▄[0;1;30;40m█[0m      [1;30m█▒[0;1;30;47m▓[0;1;30;40m█▀▀▀▀▀▀▀█▓[0;1;30;47m▓[0;1;30;40m██   ██▓▓▓▓██[0;1;30;41m▀▀[0;31m██▀    █[0;1;31;41m▓▓▒▄[0;31m█▄▄▄▄▄▄▄▄[0m

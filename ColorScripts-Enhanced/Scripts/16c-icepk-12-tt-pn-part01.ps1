@@ -1,13 +1,4 @@
-﻿# Converted from: TT-PN.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-12/raw/TT-PN.ICE
-# Source Revision: archive-sha256:03ccb24bebad343fffc4daed3f054ccd0ca265066fb8b4feff7bb3f469aac14e
-# Source SHA-256: a9b9d0572646823c74f60156b192a610c39f40427c6869ef981f8df4e24a6469
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TT-PN.ICE by Tempus Thales (icepk-12); released in icepk-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: TT-PN.ICE by Tempus Thales | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-12-tt-pn-part01
 
 Write-Host '
 [1m██████████████████[0;1;47m▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;40m████████████████████████████████████████████████[0m

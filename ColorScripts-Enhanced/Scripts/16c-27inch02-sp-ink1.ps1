@@ -1,13 +1,4 @@
-﻿# Converted from: SP-INK1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch02/raw/SP-INK1.ANS
-# Source Revision: archive-sha256:cf5edf9c96cc8253a46b06083b6d6c568d54a3ab114e7250815fc48f7f1a4c4c
-# Source SHA-256: 8ded7b368bc9d462774404185d2c82959f30bf13b8e985bae2893f47030c3899
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SP-INK1.ANS by Spear (27inch02); released in 27inch02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: SP-INK1.ANS by Spear | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch02-sp-ink1
 
 Write-Host '
 

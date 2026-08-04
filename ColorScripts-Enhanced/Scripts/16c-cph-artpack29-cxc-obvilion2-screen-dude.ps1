@@ -1,13 +1,4 @@
-﻿# Converted from: cxc_obvilion2_screen_dude.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cph.artpack29/raw/cxc_obvilion2_screen_dude.ans
-# Source Revision: archive-sha256:f5f19e710e98a0781e8dc9dfa91f6092f3ea8ff2c2c91fe451366d6603c33751
-# Source SHA-256: 77661e2e841edbe304199e2ff514f225529fd68f6711b8cd33c12136d4886cc5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cxc_obvilion2_screen_dude.ans by Coaxcable (cph.artpack29); released in cph.artpack29 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: cxc_obvilion2_screen_dude.ans by Coaxcable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cph-artpack29-cxc-obvilion2-screen-dude
 
 Write-Host '
 [36m██████████████████████████████████████████████████████████████▀▀▀▀▀▀▀▀█████████[0m

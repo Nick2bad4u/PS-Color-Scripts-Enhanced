@@ -1,17 +1,4 @@
-﻿# Converted from: PL-PROP2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rune0896/raw/PL-PROP2.ANS
-# Source Revision: archive-sha256:a41a6fd18e5a57ea19659d03cc5ff527cec9b4701f346aaff2f3d3658fc2ad09
-# Source SHA-256: fd5681e5ecafb5c23f78cdb6aad542fff00652871cf548e4b0183746c8732383
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PL-PROP2.ANS by phlux (rune0896); released in rune0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: prOpane
-# SAUCE Author: phlux
-# SAUCE Date: 19960727
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: prOpane by phlux | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rune0896-pl-prop2
 
 Write-Host '
 [1;34m███[0;1;34;44m█[0;1;34;40m▀▀▀▀▀▀▀▀▀█[0;1;34;44m████▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒░░░░░░░[0;34m█[0;34;44m [0;1;34;44m░░░░[0;34m██▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;44m░░░░░░░░░▒▒▒▒▒▒▒▒[0m

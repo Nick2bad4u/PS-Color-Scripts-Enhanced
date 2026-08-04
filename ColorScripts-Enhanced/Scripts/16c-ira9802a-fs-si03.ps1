@@ -1,18 +1,4 @@
-﻿# Converted from: FS-SI03.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira9802a/raw/FS-SI03.ANS
-# Source Revision: archive-sha256:157ead14d43652aeef2256f394202c3af23e0a670018a92df40a323cb79405f8
-# Source SHA-256: 01f07b3f34c2be547d4b3a64936b94e911a94a5d791748421f33228317c13672
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FS-SI03.ANS by flying squirrel (irato); released in ira9802a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: m?ne menu.
-# SAUCE Author: flying squirrel
-# SAUCE Group: irato
-# SAUCE Date: 19980202
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: m?ne menu. by flying squirrel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira9802a-fs-si03
 
 Write-Host '
 [1;30m [0m [1;30m               [0m  [35m▄▄▄▄▄▄▄▄[0m                              [1;33m      [0m    [1;33m▐[0m      [1;33m [0m

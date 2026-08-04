@@ -1,18 +1,4 @@
-﻿# Converted from: P1-AUG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1096/raw/P1-AUG.ANS
-# Source Revision: archive-sha256:0aef116e4290fa41749730625329f38610014fc9d720313823330534bc5bca90
-# Source SHA-256: a7cdc01fac5934ee83ba912cb8a4140089cc4b60a2aeb8b981e29448dc161c0c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P1-AUG.ANS by Prisoner#1 (fire); released in fire1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Auggie's Basement
-# SAUCE Author: Prisoner#1
-# SAUCE Group: fire
-# SAUCE Date: 19960928
-# SAUCE Dimensions: 80x25
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Auggie's Basement by Prisoner#1 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1096-p1-aug
 
 Write-Host '
                              [35m░▒▓███[0;1;31;45m░░▒░[0;35m█▀█[0;1;31;45m▒[0;35m█▀▄[0;1;31;45m░▒▓███[0;1;31;40m▀▄▄▄▄███▄▄▀▀█[0;1;31;45m█▓░[0;35m▄[0m [36m▀▀[0;1;37;46m▓█▓[0;1;37;40m███▄[0m

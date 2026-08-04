@@ -1,18 +1,4 @@
-﻿# Converted from: MP-RA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eph0595/raw/MP-RA.ANS
-# Source Revision: archive-sha256:eaf6db16f09b9acd1f748a8e26a9304c6535139cd9f636fb39ba98fd65bc9079
-# Source SHA-256: 63bba6e195e5663e79720058bef7860b43af3475b71ce29362f998c2120b8be7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MP-RA.ANS by Mystic Plague (Fear); released in eph0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Restricted Area
-# SAUCE Author: Mystic Plague
-# SAUCE Group: Fear
-# SAUCE Date: 19950314
-# SAUCE Dimensions: 80x168
-# Lines: 87-131
-# Columns: 1-80
+﻿# Artwork: Restricted Area by Mystic Plague | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eph0595-mp-ra-part03
 
 Write-Host '
 [33m  ▐ ▌ ▐  ▌ ▌ ▐  [0;30;43m       [0;33;40m▓[0;30;43m█           [0;31;43m░[0;30;43m        [0;31;43m░[0;30;43m     [0;31;43m░░░[0;30;43m██████[0;33;40m▓▓[0;30;43m          ▐[0;1;30;40m██▌▐███[0m

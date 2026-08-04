@@ -1,19 +1,4 @@
-﻿# Converted from: AK-MIST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0322/raw/AK-MIST.ANS
-# Source Revision: archive-sha256:d721ac329a32c7b9dccef4e8624e41c2516121b2eeceed2a1086408a7cc60358
-# Source SHA-256: bdeb6b5743abd7edb1d083f70f13b5b31b7f164dd00fd52688335736f71fb862
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-MIST.ANS by abstrakt (lazarus); released in mist0322 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: cat
-# SAUCE Author: abstrakt
-# SAUCE Group: lazarus
-# SAUCE Date: 20220328
-# SAUCE Dimensions: 80x30
-# SAUCE Font: IBM VGA
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: cat by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0322-ak-mist
 
 Write-Host '
                            [31m$[0;33m.[0;1;33m                                            [0;31m,[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: FR-INC!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9705/raw/FR-INC!.ANS
-# Source Revision: archive-sha256:42f41174635a4b9e44304d5d0f48b9b5aa0b6be93e48c5ea196226a31ced9fa8
-# Source SHA-256: 3e3c5327879e35c187e1820ffaf94890c71a10ea175e0be8b495f39bff04f737
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FR-INC!.ANS by feaRprOphet (cSf); released in mdn-9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: iNCNEt LoGO...
-# SAUCE Author: feaRprOphet
-# SAUCE Group: cSf
-# SAUCE Date: 19970427
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: iNCNEt LoGO... by feaRprOphet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9705-fr-inc
 
 Write-Host '
 [1;30m[0m

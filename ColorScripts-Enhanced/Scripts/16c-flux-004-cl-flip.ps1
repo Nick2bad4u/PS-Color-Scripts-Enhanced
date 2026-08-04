@@ -1,18 +1,4 @@
-﻿# Converted from: CL!-FLIP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flux-004/raw/CL!-FLIP.ANS
-# Source Revision: archive-sha256:184a3f5dd0450d61dd9a9b4da05ef76ebec147753f33bfa3706045bb53c0d7a5
-# Source SHA-256: 9bfa8c016c02b7eff94137644f588d38bc968ab5d80e9d4381fe9867c8bbbdba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-FLIP.ANS by .:(cLEANER):. (.:(fLUX):.); released in flux-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: .:(fLIP^bBS^aNSI^lOGO):.
-# SAUCE Author: .:(cLEANER):.
-# SAUCE Group: .:(fLUX):.
-# SAUCE Date: 19971122
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: .:(fLIP^bBS^aNSI^lOGO):. by .:(cLEANER):. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flux-004-cl-flip
 
 Write-Host '
                                                     [31m▄▄▌[0m

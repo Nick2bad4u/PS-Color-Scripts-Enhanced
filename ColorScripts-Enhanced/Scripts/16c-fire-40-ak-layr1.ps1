@@ -1,19 +1,4 @@
-﻿# Converted from: AK-LAYR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-40/raw/AK-LAYR1.ANS
-# Source Revision: archive-sha256:aff8105c0a955ac5c43ea367a02b086cd2849f6741fc41b8a5ff440b77e104a7
-# Source SHA-256: 10b91a08f4dd624c9b5828877f20993f23803444d564eba2126079f08c8cd09a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-LAYR1.ANS by abstrakt (fire); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: layer one
-# SAUCE Author: abstrakt
-# SAUCE Group: fire
-# SAUCE Date: 20240707
-# SAUCE Dimensions: 80x23
-# SAUCE Font: IBM VGA
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: layer one by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-40-ak-layr1
 
 Write-Host '
 [32;40m''~[0m        [1;30;40m`.[0m                              [32m,$$$''└[0;1;30m,[0;1;32md$$b [0;32m$''[0;1;32md$$$┐$b┐/$$$┐$bd$$Qs,[0;1;30m`4$[0m

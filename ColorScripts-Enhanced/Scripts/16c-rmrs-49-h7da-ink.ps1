@@ -1,18 +1,4 @@
-﻿# Converted from: h7da-ink.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-49/raw/h7da-ink.ans
-# Source Revision: archive-sha256:be7e3608d10da462b76790d72917cd72203dfadcb66ba2b0b8596239b3ee7631
-# Source SHA-256: 5cfdfbc4e3311f21f203ce393d1fbcd18eb26e00d394b392c80d8a28a6a49b24
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: h7da-ink.ans by H7 + Devil Angel (Remorse & TRSi); released in rmrs-49 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Ink
-# SAUCE Author: H7 and Devil Angel
-# SAUCE Group: Remorse & TRSi
-# SAUCE Date: 20030506
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Ink by H7 + Devil Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-49-h7da-ink
 
 Write-Host '
                [1;35m         [0m            [1;35m           [0m

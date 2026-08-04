@@ -1,17 +1,4 @@
-﻿# Converted from: SG-SGLOG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flux-003/raw/SG-SGLOG.ANS
-# Source Revision: archive-sha256:c8241d6e438a30e14e803d31ea9639f514382ec0df6188aa9d91ed9f1ddec867
-# Source SHA-256: 7577a99c80a43c18c4c0e2411954daf5298a9c4ace327ac4f026f5e71dbc683d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SG-SGLOG.ANS by Soing (flux-003); released in flux-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Soing Logo
-# SAUCE Author: Soing
-# SAUCE Date: 19970826
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Soing Logo by Soing | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flux-003-sg-sglog
 
 Write-Host '
 

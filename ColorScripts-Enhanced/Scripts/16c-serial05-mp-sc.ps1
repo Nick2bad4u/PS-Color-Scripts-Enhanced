@@ -1,18 +1,4 @@
-﻿# Converted from: mp-sc.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/serial05/raw/mp-sc.ans
-# Source Revision: archive-sha256:9aace96ae7fa04ed99409fe3d21beba241d3764e37ef0218d717063c3de5b6ab
-# Source SHA-256: 9f4c3b4e8d6ff644f203cbea019cac67ca9aea01903c452b671a78dbcf24baee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mp-sc.ans by meatpod (serial); released in serial05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: freebie face
-# SAUCE Author: meatpod
-# SAUCE Group: serial
-# SAUCE Date: 19970530
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: freebie face by meatpod | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-serial05-mp-sc
 
 Write-Host '
                                 [1;34m [0m           [1;34m [0;34m,[0;1;34mgd$$P[0;34m''[0;35m,g[0;1;35md$$$$$$$$$$b[0;35m,[0;1;35m  [0;1;30mmp.[0;1;35m      [0;1;30m,y[0m

@@ -1,16 +1,4 @@
-﻿# Converted from: NC-ANSI1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0397/raw/NC-ANSI1.ANS
-# Source Revision: archive-sha256:147f0608c1bd711b116f3ad049b80e805dfbb40e7d23ffce5f4580a5a57bae0f
-# Source SHA-256: 447050ae026e54a6d9139322ef96aa7411e15c2a8f62406a6a96ac2c9b3ee72c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NC-ANSI1.ANS by Necrolyte (root0397); released in root0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Ansi Detected
-# SAUCE Author: Necrolyte
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Ansi Detected by Necrolyte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0397-nc-ansi1
 
 Write-Host '
 

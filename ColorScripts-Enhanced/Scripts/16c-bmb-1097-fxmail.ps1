@@ -1,18 +1,4 @@
-﻿# Converted from: FXMAIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-1097/raw/FXMAIL.ANS
-# Source Revision: archive-sha256:e00f8ccd747d6f713ee8049d7689cafe483a4db84fe36db34569c4f513f6fe6d
-# Source SHA-256: 6ea7258bebe38d21b3d6cde9817d6eb8d0db5230a862cea7fd0cbf814eba9d56
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FXMAIL.ANS by Flux (prbmb); released in bmb-1097 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: mail waiting
-# SAUCE Author: Flux
-# SAUCE Group: prbmb
-# SAUCE Date: 19971023
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: mail waiting by Flux | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-1097-fxmail
 
 Write-Host '
  [1;34m                                       ▄▄[0;1;34;44m▒[0;34m▄[0;1;34m▐▌[0m

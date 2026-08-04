@@ -1,18 +1,4 @@
-﻿# Converted from: VDR-MAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bat04/raw/VDR-MAN.ANS
-# Source Revision: archive-sha256:d176f3f3481cd621bff59d2bfb55aef8be05c9007ac772bba99c98c138cb9e41
-# Source SHA-256: ce71234916745814e96e7fcb7046e68e3991cd84311e3382597dc2853bd26c76
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VDR-MAN.ANS by Vader (Bat); released in bat04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ugly ansi...
-# SAUCE Author: Vader
-# SAUCE Group: Bat
-# SAUCE Date: 19961228
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: ugly ansi... by Vader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bat04-vdr-man
 
 Write-Host '
 [31m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▓░░▀▀▀░░░░░▀▀░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

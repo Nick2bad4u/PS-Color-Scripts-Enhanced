@@ -1,18 +1,4 @@
-﻿# Converted from: BLOVE-03.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blade-39/raw/BLOVE-03.ANS
-# Source Revision: archive-sha256:1776ceee3f0ac81d5c3bff8701dd1656a31f76fff34981bcd6970dd08b4177dd
-# Source SHA-256: 1e604b6c62e605c0f2b141cda56fa96d6e78a7b28364aeafbdd7e6db8cd2d91e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BLOVE-03.ANS by b Love (blade epic 05/97); released in blade-39 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: digital illusions
-# SAUCE Author: b Love
-# SAUCE Group: blade epic 05/97
-# SAUCE Date: 19970419
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: digital illusions by b Love | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blade-39-blove-03
 
 Write-Host '
 [1;36;47m  [0m▄▄▄▄▄b3     [31m▄▄▄[0m        [37m▄[0m

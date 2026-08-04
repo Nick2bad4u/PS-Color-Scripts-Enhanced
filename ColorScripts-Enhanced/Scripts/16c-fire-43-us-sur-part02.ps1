@@ -1,19 +1,4 @@
-﻿# Converted from: US-SUR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-43/raw/US-SUR.ANS
-# Source Revision: archive-sha256:d3967e67800d0c773a52f120751caeb2bc01ead5180b478fb0a0e89978edc4ec
-# Source SHA-256: 9fdcc69242494af9e85e3dbfe026060a7c1a4e8ac8a96495d63357304bce667b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SUR.ANS by Tainted + KRL (fire); released in fire-43 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: surreal
-# SAUCE Author: tainted/krl
-# SAUCE Group: fire
-# SAUCE Date: 20250707
-# SAUCE Dimensions: 80x170
-# SAUCE Font: IBM VGA
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: surreal by Tainted + KRL | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-43-us-sur-part02
 
 Write-Host '
 [1;30m▀▀[0m  [1;30m▄▄▓▄[0m [1;30m██▀[0m  [33m▄[0m      [31m▐[0;1;31;41m▓[0;31m▓▒▒░░[0;1;31m▄▄[0;31m▄[0;1;31;41m▀▀[0;31m▀▀[0;1;31m▀[0;31m▀▀[0;1;31;41m▒▓░[0;31m▄░ ░▒░▒▒▓▓█▓ ░▒▒▒    [0;1;30;47m ▀[0;1;30;40m ▀▓[0m   [1;30m░  [0;1;36;46m░[0;36m▌[0;37m [0;33m▓[0;1;33;43m░░[0m

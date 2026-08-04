@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-JSTR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0223/raw/ZII-JSTR.ANS
-# Source Revision: archive-sha256:f6abf3bbd53eb017898fa84b28d2ac43fcb70297788ba675e470ca73794cbbfd
-# Source SHA-256: fb9ab8094a1dca405dae268f3e92650d6781bb2d492d0b70d427e06ed785f87b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-JSTR.ANS by Zeus II (Mistigris); released in mist0223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: jumpstart menu
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20230128
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: jumpstart menu by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0223-zii-jstr
 
 Write-Host '
     [36m▄▄▄[0;37m  [0;36m▄▄[0;37m  [0;36m▄▄[0;37m [0;36m▄▄▄[0;37m   [0;36m▐[0;1;36;46m░▄[0m   [36m▄[0;1;33m▄[0;1;33;46m▄[0;1;37;46m▄[0;1;33;46m▓[0m   [36m▄▄[0;1;33m▄[0;1;33;46m▒▒[0m [1;46m▄[0;1;40m█▓[0m [1;30m░░░[0m   [1;33m▄▄▓[0;1;37;46m█[0;1;33;46m▓[0m  [1;33m▄[0;1;37m▄▄[0;1;33m▓[0;1;33;46m▓░[0m [1;33m▄[0;36m▄[0;1;33;46m░[0m    [1;30m░░░ZII░[0m

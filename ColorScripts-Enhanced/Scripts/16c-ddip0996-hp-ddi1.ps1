@@ -1,13 +1,4 @@
-﻿# Converted from: HP-DDI1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ddip0996/raw/HP-DDI1.ANS
-# Source Revision: archive-sha256:f6b81b5748a001c73fb80e18f5cf6c76cc1740e6fbf63afb5dec6f86f40936c7
-# Source SHA-256: 7d0da8d29d9041cc9cc72c6937410b2af9d60bd0887b76f5ffdfd273e4dbac15
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HP-DDI1.ANS by Hyper (ddip0996); released in ddip0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: HP-DDI1.ANS by Hyper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ddip0996-hp-ddi1
 
 Write-Host '
                  [1m█[0;1;47m▀▀▀▀▀▀▀▀▄▄[0;1;30;47m▀[0m▄[1;30m▄[0m     [1m█[0;1;47m▀▀▀▀▀▀▀▀▄▄[0;1;30;47m▀[0m▄[1;30m▄[0m

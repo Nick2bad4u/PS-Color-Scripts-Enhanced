@@ -1,18 +1,4 @@
-﻿# Converted from: KT-OK2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-04/raw/KT-OK2.ANS
-# Source Revision: archive-sha256:f04608afaefba8c1df0eb2e2fba588db42125ae9ca8868869f55a444379576da
-# Source SHA-256: e19eb15858f67c7ec36aa02a035833a3f1fbba8c2838df962971a8fde92fab99
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KT-OK2.ANS by kURRUPt (fORCE); released in force-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ORGANiZEd kAOS
-# SAUCE Author: kURRUPt
-# SAUCE Group: fORCE
-# SAUCE Date: 19951005
-# SAUCE Dimensions: 80x104
-# Lines: 34-68
-# Columns: 1-80
+﻿# Artwork: ORGANiZEd kAOS by kURRUPt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-04-kt-ok2-part02
 
 Write-Host '
 [1;30;47m░▒[0m [35m █[0;1;35;45m░[0;35m▄[0;37m [0;30m███████████[0m   [33m▄▀[0;35m▄ ▀[0;33m▄▄[0;31;43m░▒░░[0;33;40m▀[0;35;40m▄■ ▀  [0;33;40m█[0;1;33;43m░[0;33m████[0;1;33;43m░░░▒▒[0;1;33;40m▄[0;35m ▐ [0;33m███[0;1;33;43m░[0;33m██[0;30;43m [0;33;40m██[0;30;43m█[0;33;40m██[0;30;43m▐▌[0;37;43m░▒▒[0;33;40m▌[0;35;40m▐[0;1;35;45m■▓░[0;35m [0;1;31m▐█[0m

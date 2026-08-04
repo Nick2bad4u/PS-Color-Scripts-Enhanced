@@ -1,13 +1,4 @@
-﻿# Converted from: DR-SUTTL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/skl-1293/raw/DR-SUTTL.ANS
-# Source Revision: archive-sha256:050c4947b498cd34964b3caf5400f667c1dbd39367bdcae152e782cd46024a72
-# Source SHA-256: df29e5d726cea461d234173fea950cd8e2be5bab3f7e3087bbcf103a9a7cf895
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DR-SUTTL.ANS by Druid (skl-1293); released in skl-1293 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: DR-SUTTL.ANS by Druid | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-skl-1293-dr-suttl
 
 Write-Host '
                             [1;33m▒▓▓▓████▓▓▓▒▒▄▄▄▄    ▄▄▄▄▄▄██▓▓▓▓▄▄[0m

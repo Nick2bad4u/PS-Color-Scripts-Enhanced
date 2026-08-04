@@ -1,18 +1,4 @@
-﻿# Converted from: CZ-DC2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-02/raw/CZ-DC2.ANS
-# Source Revision: archive-sha256:815fb0802a5a645b19e4bb1a2e67405cbfe5a7d016a5808efe6ef55f809d080c
-# Source SHA-256: 777af4df6603c674a5a675c2505d6ed89eb3472b44ca4f3dcffe93bf63837440
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CZ-DC2.ANS by chez (eclipse); released in ecl-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: diet pepsi
-# SAUCE Author: chez
-# SAUCE Group: eclipse
-# SAUCE Date: 19960627
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: diet pepsi by chez | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-02-cz-dc2
 
 Write-Host '
 

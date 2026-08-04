@@ -1,17 +1,4 @@
-﻿# Converted from: MS-ACE4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/elp-0497/raw/MS-ACE4.ANS
-# Source Revision: archive-sha256:732b69d1dc6bfbdc62f0316a0f40a81a4bed95a40198b27f27b85da3fe2dba2a
-# Source SHA-256: 316e9efeb02d476f153a71ef8482059509f48d8deeece3a177fe50887cd25d00
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MS-ACE4.ANS by MrSPLiF (ELP); released in elp-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Ace Cd nx4 logo
-# SAUCE Author: MrSPLiF
-# SAUCE Group: ELP
-# SAUCE Date: 19970331
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Ace Cd nx4 logo by MrSPLiF | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-elp-0497-ms-ace4
 
 Write-Host '
                                                 [1;30m░[0m

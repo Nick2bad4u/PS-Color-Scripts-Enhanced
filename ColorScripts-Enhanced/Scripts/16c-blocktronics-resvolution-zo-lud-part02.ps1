@@ -1,13 +1,4 @@
-﻿# Converted from: zO-lud.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_resvolution/raw/zO-lud.ans
-# Source Revision: archive-sha256:d0690af9ec91bf96f335196e9f9ddfb5d7ea02d97d300b53301bebaf58d83c35
-# Source SHA-256: 007bec96c128afbfc105a95490d6f68c7e62be35c94e771333154d295a246343
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zO-lud.ans by Enzo (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 43-85
-# Columns: 1-80
+﻿# Artwork: zO-lud.ans by Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-resvolution-zo-lud-part02
 
 Write-Host '
 

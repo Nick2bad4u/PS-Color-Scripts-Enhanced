@@ -1,13 +1,4 @@
-﻿# Converted from: THEPITT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hr09-94/raw/THEPITT2.ANS
-# Source Revision: archive-sha256:19d6752273acd7579a76c32f15e06f7621728c1186bfdc8fc8606549db459301
-# Source SHA-256: ed40872599bb3457572adede6f6cd036a5e96d74fe7db1f8c85e87b9c4929ed0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: THEPITT2.ANS by Armageddon (hr09-94); released in hr09-94 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-92
-# Columns: 1-80
+﻿# Artwork: THEPITT2.ANS by Armageddon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hr09-94-thepitt2-part02
 
 Write-Host '
            [33m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

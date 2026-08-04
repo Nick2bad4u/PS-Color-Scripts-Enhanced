@@ -1,13 +1,4 @@
-﻿# Converted from: CH-HM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/heat02/raw/CH-HM.ANS
-# Source Revision: raw-sha256:75e7c21647b19be8fe837abcabcc76093a6dc60722dbf6215f2613727ee68a21
-# Source SHA-256: 75e7c21647b19be8fe837abcabcc76093a6dc60722dbf6215f2613727ee68a21
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CH-HM.ANS by Crazy Horse (heat02); released in heat02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: CH-HM.ANS by Crazy Horse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-heat02-ch-hm
 
 Write-Host '
       [44m [0;34;44m▄▄▄▄▄▄▄▄[0;34m█▄▄▄[0m                                    [34m▌[0m

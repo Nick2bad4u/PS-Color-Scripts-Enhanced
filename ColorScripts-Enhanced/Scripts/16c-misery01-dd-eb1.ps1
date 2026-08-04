@@ -1,18 +1,4 @@
-﻿# Converted from: DD-EB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/misery01/raw/DD-EB1.ANS
-# Source Revision: archive-sha256:e802ebf512d2eb802f079fd327fff852b8c112992e81e4f15801eeb22870d111
-# Source SHA-256: ed34f39497c88599737e3b136e0ba2a9e1b7444e24fa4879eb1af6136131af3d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-EB1.ANS by Da Drug (Misery Productions.); released in misery01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Earthbound.
-# SAUCE Author: Da Drug
-# SAUCE Group: Misery Productions.
-# SAUCE Date: 19970314
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: Earthbound. by Da Drug | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-misery01-dd-eb1
 
 Write-Host '
           [1;32m■▄[0m       ·        [1;30m·[0m                  ·                [1m·[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: DI-ND4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ash-2/raw/DI-ND4.ANS
-# Source Revision: archive-sha256:c8305f725fa2ac753acd79a3b8ce60eb4b57346eed044e5eb2d7db75631b7442
-# Source SHA-256: 17d38ac7283b4c01dbe65406c99160fd0329b0fa06e5bc89a7a8f057df755f02
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DI-ND4.ANS by divine intervention (ash1996:)); released in ash-2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: napalm dynasty font #four!
-# SAUCE Author: divine intervention
-# SAUCE Group: ash1996:)
-# SAUCE Date: 19960207
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: napalm dynasty font #four! by divine intervention | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ash-2-di-nd4
 
 Write-Host '
 [1;30m░▒▓[0;1;30;41m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;40m▓▒░▒▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▒░[0m

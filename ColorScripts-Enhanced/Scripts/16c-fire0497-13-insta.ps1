@@ -1,18 +1,4 @@
-﻿# Converted from: 13-INSTA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0497/raw/13-INSTA.ANS
-# Source Revision: archive-sha256:42e18118a4fe23187162d4202e0e64c79c23017db87b8967f1816ba2b79540c6
-# Source SHA-256: 7ca700792fd6d5374c19ac14d42e59c7be9ed3ded711660636f57b59415d0808
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 13-INSTA.ANS by ville (blend&fire); released in fire0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Infestation
-# SAUCE Author: ville
-# SAUCE Group: blend&fire
-# SAUCE Date: 19970321
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Infestation by ville | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0497-13-insta
 
 Write-Host '
 [1;30m░▄[0;1;30;47m▌▀[0m▓░[1;30;47m▓▀▓[0;1;30;40m▓▀▀▓[0m░[1;30m▌[0;34m  [0;1;30m▐▓[0;34m  [0;1;30m▐█[0;1;30;45m▄▓[0;35m▀█[0;1;35m▒▒▒▒[0;34;45m ▀▀█[0;34;40m▄▄░ ▀▀██▄░  ▀▀█[0;1;34;40m▒▓▓[0;1;34;44m█▄[0;1;34;40m▒[0;34m█▀ ░▄▄▓[0;30;44m▓[0;34;40m░[0m    [34;40m▄▒ ville ░[0m

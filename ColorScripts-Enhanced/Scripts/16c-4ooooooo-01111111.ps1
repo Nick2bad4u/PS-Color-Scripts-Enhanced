@@ -1,13 +1,4 @@
-﻿# Converted from: 01111111.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/4ooooooo/raw/01111111.ANS
-# Source Revision: archive-sha256:3d1ea735695d82dc319a43e8d44522002652e1b432df7c19feb6d9e4f126d700
-# Source SHA-256: 70a8bd30540d8eb7bbddc4c992aef1ebc3f287911cb8d73adcc082d3992426fb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 01111111.ANS by Mr4tune (4ooooooo); released in 4ooooooo and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: 01111111.ANS by Mr4tune | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-4ooooooo-01111111
 
 Write-Host '
               [1m [0m

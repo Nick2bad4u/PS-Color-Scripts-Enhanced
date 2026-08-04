@@ -1,18 +1,4 @@
-﻿# Converted from: 33-EE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9609/raw/33-EE2.ANS
-# Source Revision: archive-sha256:96c031e04e5c479ef9ed73f1afa21a3db6bca2a2de7ad88a46888136232884ff
-# Source SHA-256: de3b72b59ca8347f2753ab72873310311dfbd88447c1e89f1614cf4c01356917
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-EE2.ANS by Eerie (Samsara); released in sms-9609 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Evileye
-# SAUCE Author: Eerie
-# SAUCE Group: Samsara
-# SAUCE Date: 19960830
-# SAUCE Dimensions: 80x25
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Evileye by Eerie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9609-33-ee2-part01
 
 Write-Host '
 [36m[0m

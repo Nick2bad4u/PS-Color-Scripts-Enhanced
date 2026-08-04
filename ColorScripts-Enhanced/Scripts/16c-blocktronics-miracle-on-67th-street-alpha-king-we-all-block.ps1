@@ -1,19 +1,4 @@
-﻿# Converted from: alpha_king-we-all-block.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_miracle_on_67th_street/raw/alpha_king-we-all-block.ans
-# Source Revision: archive-sha256:7a78b3edd176c6d05feb481522f2c4f3e57721df62292c2b4ce537e855c41ae8
-# Source SHA-256: def53dfb08e1375b21a421a87761294e8b160f8b1312ac570b60e19dd2af7bec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: alpha_king-we-all-block.ans by Alpha King (Blocktronics); released in blocktronics_miracle_on_67th_street and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: We All Block Down Here
-# SAUCE Author: Alpha King
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20181029
-# SAUCE Dimensions: 80x46
-# SAUCE Font: IBM VGA
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: We All Block Down Here by Alpha King | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-miracle-on-67th-street-alpha-king-we-all-block
 
 Write-Host '
 

@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-ROBERT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0725/raw/ZII-ROBERT.ANS
-# Source Revision: archive-sha256:f8228caade9b0e4810405349f1959bd68f07890aea1a0d6aaa1eef2a322b5f21
-# Source SHA-256: 360526b7f9ed971381594b4c4743cc7e4b48c6d66ff349e285eef0effd9af2ec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-ROBERT.ANS by Zeus II (Mistigris); released in mist0725 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 16colo.rs
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20250731
-# SAUCE Dimensions: 80x86
-# SAUCE Font: IBM VGA
-# Lines: 51-85
-# Columns: 1-80
+﻿# Artwork: 16colo.rs by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0725-zii-robert-part02
 
 Write-Host '
          [1;30m▓█[0;1;30;47m▓░[0m▌▐█▀▄█[1;47m░░[0m█▐█▓█▌ [1m▐▌[0m    [1;31;41m▒▓▓▓▒▒░[0;31m▄[0;1;31;41m░▒▒▒░░[0;31m█[0;1;37m  ▄[0m  [33m▐▌[0;31m▓[0;37m▐█[0;1;37;47m░[0m██▓▒░ [1;30m▄[0m ▀[1;30;47m▓[0m ▀███[1;30;47m░▒[0;1;30;40m█░[0m

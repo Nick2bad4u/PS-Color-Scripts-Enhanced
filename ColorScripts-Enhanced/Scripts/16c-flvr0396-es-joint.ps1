@@ -1,17 +1,4 @@
-﻿# Converted from: ES-JOINT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flvr0396/raw/ES-JOINT.ANS
-# Source Revision: archive-sha256:13e040cce687d81731bcd3978b1873431410655b513cbb6e2e0003a9016ce440
-# Source SHA-256: 601531033438bf1e3c011665eeff3ba3d0dee59d0aa63339716f6dad8e9d4223
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ES-JOINT.ANS by elusive (flvr0396); released in flvr0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: da'joint
-# SAUCE Author: elusive
-# SAUCE Date: 19960201
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: da'joint by elusive | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flvr0396-es-joint
 
 Write-Host '
                [35m   [0m   [37m [0;1;37md[0m   A  ''   [1mj[0m  O  i  N   [1mt[0m        [1m       [0m▐[1m▌[0m

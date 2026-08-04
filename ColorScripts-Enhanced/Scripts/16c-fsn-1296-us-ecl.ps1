@@ -1,18 +1,4 @@
-﻿# Converted from: US-ECL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-1296/raw/US-ECL.ANS
-# Source Revision: archive-sha256:335d72ea88974be53669cf31a72ea37012b04dc993bc1fa4727d94939a55db7e
-# Source SHA-256: c3a33db0dc5b8dba2389e4134a57b2e28d2e8a671e438529cd7042f047ae9a74
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ECL.ANS by Ize + Rex (fusion); released in fsn-1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: eclipse promotional
-# SAUCE Author: ize+rex
-# SAUCE Group: fusion
-# SAUCE Date: 19961103
-# SAUCE Dimensions: 80x21
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: eclipse promotional by Ize + Rex | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-1296-us-ecl
 
 Write-Host '
 

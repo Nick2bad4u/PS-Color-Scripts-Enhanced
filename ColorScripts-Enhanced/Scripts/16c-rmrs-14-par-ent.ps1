@@ -1,19 +1,4 @@
-﻿# Converted from: PAR-ENT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-14/raw/PAR-ENT.ANS
-# Source Revision: archive-sha256:d4dc94c4a43b86c69b68ecae7df6f65f116ce9e415743dc1a1b1adfbec9a8dbe
-# Source SHA-256: 54a292316fee5ca46e5a1219ebe8b2b95dc3ec16014e98eced59d0df91268cd5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PAR-ENT.ANS by Pariah (ACID(remorse1981)); released in rmrs-14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Entrophy
-# SAUCE Author: Pariah
-# SAUCE Group: ACID(remorse1981)
-# SAUCE Date: 19970722
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: Very good.. not as detailed as par-doe.ans, but blends nicely. | Objective rating - 8.79
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Entrophy by Pariah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-14-par-ent
 
 Write-Host '
 

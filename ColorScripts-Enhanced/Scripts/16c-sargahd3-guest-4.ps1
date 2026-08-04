@@ -1,18 +1,4 @@
-﻿# Converted from: GUEST  4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sargahd3/raw/GUEST%C2%A0%C2%A04.ANS
-# Source Revision: archive-sha256:d4be65be862c17debbed01c060fb85aadbdbe00a8282836fa25f3f46073f618d
-# Source SHA-256: d18af4ffed7d9267f79a8b77f140f4fa46818f94b97acbf9504c1055eebd975c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GUEST  4.ANS by avenger (bm^ms); released in sargahd3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: unleashed!
-# SAUCE Author: avenger
-# SAUCE Group: bm^ms
-# SAUCE Date: 19970213
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: unleashed! by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sargahd3-guest-4
 
 Write-Host '
           [32m     [0m

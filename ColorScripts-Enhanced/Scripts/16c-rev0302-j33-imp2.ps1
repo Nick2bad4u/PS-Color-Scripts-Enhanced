@@ -1,18 +1,4 @@
-﻿# Converted from: J33-imp2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0302/raw/J33-imp2.ans
-# Source Revision: archive-sha256:7b2619e0400d7382d19d38767873337eae71942dd319abc1998c71f4a968776f
-# Source SHA-256: 5321bf359270d5c3d8fab208af493a1df939a4ce3517c75d899356851ab4b344
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: J33-imp2.ans by j33p33 (Revival 2002); released in rev0302 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Impure #2
-# SAUCE Author: j33p33
-# SAUCE Group: Revival 2002
-# SAUCE Date: 20020314
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Impure #2 by j33p33 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0302-j33-imp2
 
 Write-Host '
      [30;47m▓▓[0;37;40m▄[0;1;37;40m▄▄[0;1;37;47m▄[0;1;37;40m██[0;1;37;47m█[0;1;37;40m▄▄[0m▄

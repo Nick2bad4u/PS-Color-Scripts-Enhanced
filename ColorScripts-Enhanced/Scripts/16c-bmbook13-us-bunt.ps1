@@ -1,18 +1,4 @@
-﻿# Converted from: US-BUNT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook13/raw/US-BUNT.ANS
-# Source Revision: archive-sha256:f383b37d2f0265a83b82afcdde57a4dae359d8a5127c467dcea28d0c8500d000
-# Source SHA-256: 1d3cc4f795809ee907b6f662659b245be90684824af5d0cd75af9b52201164b7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BUNT.ANS by Avenger + Dv8 (black maiden); released in bmbook13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: free screen.
-# SAUCE Author: ave.dv8
-# SAUCE Group: black maiden
-# SAUCE Date: 19970427
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: free screen. by Avenger + Dv8 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook13-us-bunt
 
 Write-Host '
 [1;36;46m████▀[0;36m█▐[0;1;36;46m▄██▀[0;36m▀[0;1;31;41m░[0;35;41m▄░[0;30;41m [0;31;40m█▌[0;36;40m▐░[0;31;40m▐[0;35;41m▓░[0;1;33;40m [0;36m░[0;31m▄[0;37m [0;36m▀[0;1;33;46m░▓[0;1;37;40m█▄[0;1;33;40m██[0;1;37;40m█▀[0;1;33;40m▀  ██[0;1;5;33;40m [0m█[1;47m░▓▓░░[0m█[1;33;47m░[0m▀▀[36m▄[0;1;36;44m▒[0;36m░[0;37m  ▀▀███▄ [0;1;33m▀[0;1;37m█[0;1;33m█▌[0m [1;33m░▀[0;1;37m█▄[0m [34m▀██[0;36;44m▄▐█[0m

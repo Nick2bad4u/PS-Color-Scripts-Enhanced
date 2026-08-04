@@ -1,18 +1,4 @@
-﻿# Converted from: K!LEVITA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0999/raw/K!LEVITA.ANS
-# Source Revision: archive-sha256:a2e683452933f0cc0c7c5f8185be51af4846ace8a1753ba20cf7f9ba82c1dcf4
-# Source SHA-256: 4686ef082ef31fab859b95b7d5e40bf501d4f0af5679cac5100054cd58ba2c17
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K!LEVITA.ANS by keetar (poffelipoff); released in plf-0999 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Levitating
-# SAUCE Author: keetar
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19990924
-# SAUCE Dimensions: 80x25
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: Levitating by keetar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0999-k-levita
 
 Write-Host '
 [1;34m ▄▄██████████████████████████████████████████████████████████████████████████▄▄[0m

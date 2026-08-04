@@ -1,13 +1,4 @@
-﻿# Converted from: SC-C9E.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsh-0194/raw/SC-C9E.ANS
-# Source Revision: archive-sha256:4f9cf4207f71c51dbed4b52f30b4743a8cb21741fbee4cc2672feaf63e827bb5
-# Source SHA-256: f2d224f99af91a39c1cf2191cebc69c44844919d1b9c42755ee1d8b822bf1819
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-C9E.ANS by Sliver Cut (fsh-0194); released in fsh-0194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 77-114
-# Columns: 1-80
+﻿# Artwork: SC-C9E.ANS by Sliver Cut | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsh-0194-sc-c9e-part03
 
 Write-Host '
          ▒░ [1;30m▌ [0;35m░[0m      [35m░[0m             [35m░  ░ ░▀▒░░   [0;1;30m▌[0m▓ ▒▒▓▓█▀ [31m▄[0;1;31;41m▄[0;31m▀▀ █[0;1;31;41m▐[0m

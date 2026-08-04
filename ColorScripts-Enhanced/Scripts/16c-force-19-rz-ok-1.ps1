@@ -1,18 +1,4 @@
-﻿# Converted from: RZ!OK#1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-19/raw/RZ!OK%231.ANS
-# Source Revision: archive-sha256:320b7ef547a1befeeebbf4abc563d8da701bdc66e2a87710081c803548b46926
-# Source SHA-256: 61052e19714807ff707750a654d6549ac1cb13f2eed85df7f7763b6ff33f7da7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RZ!OK#1.ANS by Rzarector (forCe produCtions 97); released in force-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: organized kaos /2
-# SAUCE Author: Rzarector
-# SAUCE Group: forCe produCtions 97
-# SAUCE Date: 19970707
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: organized kaos /2 by Rzarector | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-19-rz-ok-1
 
 Write-Host '
                  [33m▀▄[0m            [33m▄[0m               [33m▐[0m   [33m▄[0m         [35m     [0m

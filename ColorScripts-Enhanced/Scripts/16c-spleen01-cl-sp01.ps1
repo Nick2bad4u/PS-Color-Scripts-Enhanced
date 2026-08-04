@@ -1,13 +1,4 @@
-﻿# Converted from: CL!-SP01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spleen01/raw/CL!-SP01.ANS
-# Source Revision: archive-sha256:4f42c6cb325ceb8717f2233819079146b06dd537f44c3ed6267ca3fb054d8cdf
-# Source SHA-256: 7a9f5a49466fecc3f0efd75d9d8f4888383d0eca9c06aaa7ab8cf1e079ec062c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-SP01.ANS by Cleaner (spleen01); released in spleen01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: CL!-SP01.ANS by Cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spleen01-cl-sp01
 
 Write-Host '
 

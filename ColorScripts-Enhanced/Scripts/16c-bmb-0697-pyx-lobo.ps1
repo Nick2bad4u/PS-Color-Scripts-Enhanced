@@ -1,18 +1,4 @@
-﻿# Converted from: PYX-LOBO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0697/raw/PYX-LOBO.ANS
-# Source Revision: archive-sha256:608fe2b98dcac70515ce221c11f606d898ec739b4fcdd1a5448c437eb640df82
-# Source SHA-256: e67b0c8f1af61fb2cf8bd0e162db431bbc84129c409855fefa709f1dae40ec84
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-LOBO.ANS by pyx! (bamboosh!); released in bmb-0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: lobo comicrip
-# SAUCE Author: pyx!
-# SAUCE Group: bamboosh!
-# SAUCE Date: 19970214
-# SAUCE Dimensions: 80x48
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: lobo comicrip by pyx! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0697-pyx-lobo
 
 Write-Host '
 [1;34;44m░[0;34m██▀▀[0;37m [0;34m▄█[0;1;34;44m░▒▒░[0;34m█▀▀░▒░[0;37m [0;34m▄▄██▀▀▀[0;37m [0;34m▄[0;37m  [0;1;34;44m░▒▒░[0m [1;34;44m░[0;34m▀[0;37m [0;34m▄[0;1;34;44m░▒▒░[0;34m▀▀ [0;37m  [0;34m▀█[0;1;34;44m░░▒▒░[0;34m▄▄▄[0m   [34m▀▀▀▀███▓▀▀▀▀██▄▄[0m

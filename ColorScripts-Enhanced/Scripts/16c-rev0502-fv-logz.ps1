@@ -1,18 +1,4 @@
-﻿# Converted from: FV-LOGZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0502/raw/FV-LOGZ.ANS
-# Source Revision: archive-sha256:98bfa3cc78c733050b0c647e7e0271e7623e3c31e4f40f218a00b89b2165c771
-# Source SHA-256: 9d6c95103a74afa05aea0cacc7475c2e716c005391d95df8803c0cd3288c975b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-LOGZ.ANS by fever (revival); released in rev0502 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: piranha matrix
-# SAUCE Author: fever
-# SAUCE Group: revival
-# SAUCE Date: 20020515
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: piranha matrix by fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0502-fv-logz
 
 Write-Host '
         [1;32m▄▓▓▓▀[0m [1;30m▐▄[0m [1;32m▀▓▄[0m [1;30m▀[0;1;30;46m▄[0;36m███████[0;1;31;46m [0;36m██[0;1;30;46m▄[0;36m▀[0;1;30m▀ ▄[0;36m▄[0;1;30;46m▀▀▀[0;36m▄▄▄[0;1;30m▄[0;36m  [0;1;30m▀[0;36m▀[0;1;30;46m▄[0;36m████████[0;1;30;46m ▀[0;36m▄[0;1;30m▄[0;36m [0;1;30m▀[0;1;30;46m▄[0;36m█████[0;1;30;46m ▄ [0;36m█████[0m

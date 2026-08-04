@@ -1,17 +1,4 @@
-﻿# Converted from: MD!DOM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dom005/raw/MD!DOM.ANS
-# Source Revision: archive-sha256:7cc2202d547295765d144a5881f0a3f89b3cab04a10536184aec3174c98ac207
-# Source SHA-256: 46646d474c91baa501fa5c3b1f8f5c84a6840b7f391275a889359de42471bf6e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MD!DOM.ANS by mobb deep (dominio); released in dom005 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: clouded?!
-# SAUCE Author: mobb deep
-# SAUCE Group: dominio
-# SAUCE Date: 19980616
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: clouded?! by mobb deep | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dom005-md-dom
 
 Write-Host '
   [35m [0m       [37m▄▄[0;1;37;47m▄▄▄▄▄▄▄▄[0m▄▄[1;47m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄        ▄[1;47m▄▄▄▄▄▄▄▄▄▄▄▄[0;1;40m▄▄        [0m    ▄▄▄▄▄▄[1m [0m

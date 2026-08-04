@@ -1,18 +1,4 @@
-﻿# Converted from: CG-TOONY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-22/raw/CG-TOONY.ANS
-# Source Revision: archive-sha256:e9d0326568be41d972423c1883bc8d5eea4966bab9e81326785f82909893446c
-# Source SHA-256: cafa2be102215b2537ae30d6fc7e538f4e6dc2e766c0825c113ca84b6123c423
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-TOONY.ANS by Cryogenic (Force); released in force-22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Toon?!
-# SAUCE Author: Cryogenic
-# SAUCE Group: Force
-# SAUCE Date: 19980702
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Toon?! by Cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-22-cg-toony
 
 Write-Host '
 [34m░[0;30;44m▓[0;34;40m░[0;30;44m▓[0m   [36;40m░[0;30;46m▓[0;37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0m    [37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m ░[0;30;47m▓[0;37;40m░[0m    [37;40m░[0;30;47m▓[0;37;40m░[0;30;47m▓[0;37;40m [0;36;40m░[0;30;46m▓[0;37;40m░  [0;34;40m░[0;30;44m▓[0;34;40m░[0;30;44m▓[0;34;40m░[0;30;44m▓[0;34;40m░[0;30;44m▓[0;34;40m░[0;30;44m▓[0;37;40m [0;1;34;40m [0m

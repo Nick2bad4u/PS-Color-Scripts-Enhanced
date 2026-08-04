@@ -1,13 +1,4 @@
-﻿# Converted from: GOOSE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansipics/raw/GOOSE.ANS
-# Source Revision: raw-sha256:63db09e6dcd566196dc9d293fb03a90d10a0c956a2dd9d3bc40e6823950ef5c0
-# Source SHA-256: 63db09e6dcd566196dc9d293fb03a90d10a0c956a2dd9d3bc40e6823950ef5c0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GOOSE.ANS by George Ramos (ansipics); released in ansipics and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: GOOSE.ANS by George Ramos | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansipics-goose
 
 Write-Host '
                                      [1;33;43m    ▀██[0;1;33;40m▄ ▄▄▄[0m

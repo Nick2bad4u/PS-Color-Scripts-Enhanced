@@ -1,19 +1,4 @@
-﻿# Converted from: ru8_factory.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rui8bit2024/raw/ru8_factory.ans
-# Source Revision: archive-sha256:f831409d0514660f16a733657a798f4928ef9e3b74e357beca640114940508f6
-# Source SHA-256: d74c0fe166e35594723bdda4a6fe7c5537a8bf6697609f8a2940cde8b47aa7cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ru8_factory.ans by Rui8bit (rui8bit2024); released in rui8bit2024 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Factory Platform
-# SAUCE Author: Rui8bit
-# SAUCE Date: 20260620
-# SAUCE Dimensions: 80x30
-# SAUCE Font: Custom
-# SAUCE Comments: March 11 2024
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Factory Platform by Rui8bit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rui8bit2024-ru8-factory
 
 Write-Host '
 [1;30m.│═[0;31m·[0;1;30m│[0m─[1;30m═-├╞%.│[0;36m:[0;37m       [0;36m:[0;1;30m├╞%.│[0;30m}─╖[0;1;30m███[0m∙[1;30m█[0m·[1;30m█[0m·[1;30m█[0m·[1;30m█[0m·[30m╫[0;37m╫[0;1;30m░░[0m╫    [34m│[0;37m    [0;1;30m  [0m [34m|     | [0;1;34m [0;1;30m││:[0m       [1;30m│║[0m

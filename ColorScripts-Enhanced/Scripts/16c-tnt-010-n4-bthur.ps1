@@ -1,13 +1,4 @@
-﻿# Converted from: n4-bthur.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tnt-010/raw/n4-bthur.ans
-# Source Revision: raw-sha256:8937d92de7593e4728bb15db229096f6cdb870aebb97eabe0c937be1241ccd56
-# Source SHA-256: 8937d92de7593e4728bb15db229096f6cdb870aebb97eabe0c937be1241ccd56
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: n4-bthur.ans by Sodium (tnt-010); released in tnt-010 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: n4-bthur.ans by Sodium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tnt-010-n4-bthur
 
 Write-Host '
 [35m   [0m      [35m▄▄▄▄▄▄[0;1;30m▄[0m  [1;30;47m▓▓[0;1;30;42m▓▓▒░[0;1;32;42m▄[0;1;30;40m  [0;1;33;47m▒▒[0;1;33;45m░░[0;35;47m▓▓[0;37;40m  ▄▄▄▄▄▄[0m                                [37;40m▄▄▄▄▄▄▄[0m

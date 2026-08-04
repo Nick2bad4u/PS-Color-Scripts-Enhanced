@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-HI!!!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nh-0597/raw/IZ-HI!!!.ANS
-# Source Revision: archive-sha256:87cec95111e4a1ac9fd985bbb75e4ede9867484f10b0355a7e43919af699000f
-# Source SHA-256: 58c2256de2e0556e0ea1e11dca794879b96efd7551865c7a858f481b03615cef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-HI!!!.ANS by ize (nh!); released in nh-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hi!! for illogic
-# SAUCE Author: ize
-# SAUCE Group: nh!
-# SAUCE Date: 19970427
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: hi!! for illogic by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nh-0597-iz-hi
 
 Write-Host '
     [31m ░███████████████[0;1;31;41m░░░[0;31m█[0;1;31;41m░[0;31m██[0;1;31;41m░[0;31m███[0;1;31;41m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;31m███████[0;1;31;41m-ize[0;31m█░[0m

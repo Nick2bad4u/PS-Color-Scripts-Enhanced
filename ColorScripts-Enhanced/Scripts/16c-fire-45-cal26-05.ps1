@@ -1,19 +1,4 @@
-﻿# Converted from: CAL26-05.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-45/raw/CAL26-05.ANS
-# Source Revision: archive-sha256:0564021806e0277d72a0e235c044a0e0470226ba860a8976e1e3092326555d1d
-# Source SHA-256: 335725bbbd73d9a52aa890b3761d8319d9d3b6a9e12b352c232245c24d31d8a9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CAL26-05.ANS by nail (fire); released in fire-45 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Chelli Lona
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 20251224
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Chelli Lona by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-45-cal26-05
 
 Write-Host '
 [36;40m█████████████████████████████▀▀[0;37;40m [0;1;30;40m▄▄[0m▄▄▄[1;30m▄[0m             [36m▀▀▀██████████████████████████[0m

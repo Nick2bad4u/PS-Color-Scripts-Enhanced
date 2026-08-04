@@ -1,19 +1,4 @@
-﻿# Converted from: TR-OPTNS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-30a/raw/TR-OPTNS.ANS
-# Source Revision: archive-sha256:6639c51cd84d0739e4c497f5c5df7097f55575c94239859af87a8579ae4fa114
-# Source SHA-256: 1fbfed54a7d0f86112f3ca036a87eaf0a77a6dc82131c326964d2bbfc0ca9a8c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-OPTNS.ANS by Tee_are (Purg Productions); released in purg-30a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: PURGdraw Option
-# SAUCE Author: Tee_are
-# SAUCE Group: Purg Productions
-# SAUCE Date: 19990910
-# SAUCE Dimensions: 80x30
-# SAUCE Font: empathy by skaboy
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: PURGdraw Option by Tee_are | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-30a-tr-optns
 
 Write-Host '
 [31m░[0;37m  [0;31m░[0;37m       ▄[0;1;30;47m░░[0m▄ [1;30m▄▄[0;1;30;47m▓░[0m▀█▄ [1;30m▄▄[0;1;30;47m▓▒░[0m▄[1;30m▀▀▄[0;1;30;47m▓██[0;1;30;40m▄▄■▀▓▄[0m ▄[1;30;47m▒▓[0;1;30;40m▀█▄[0m [1;30m▀▄▄▓▀▀▀[0;1;30;47m▒[0;1;30;40m▄[0m    [1;30m ▄[0;1;30;47m▓▒[0;1;30;40m▀[0;1;30;47m▒[0;1;30;40m▄[0m

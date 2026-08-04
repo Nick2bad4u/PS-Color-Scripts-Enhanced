@@ -1,18 +1,4 @@
-﻿# Converted from: EMB-GGRN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat1296/raw/EMB-GGRN.ANS
-# Source Revision: archive-sha256:7d01b0bd390151991b0a903d8d987d245c20f2b06635915da8eb049974bd356a
-# Source SHA-256: 02ec413a30ee607eb08d923ea2e389ad21facd944ad8dc386974ce2c17982c0f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EMB-GGRN.ANS by embERman (pHaT); released in phat1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Green Grin
-# SAUCE Author: embERman
-# SAUCE Group: pHaT
-# SAUCE Date: 19961025
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Green Grin by embERman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat1296-emb-ggrn
 
 Write-Host '
 [34m                 [0m      [1;32m■[0;32m▀▄▄[0m   [1;30m    ▓    [0m

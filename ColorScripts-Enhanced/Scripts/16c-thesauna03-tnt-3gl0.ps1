@@ -1,18 +1,4 @@
-﻿# Converted from: tnt-3gl0.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna03/raw/tnt-3gl0.ans
-# Source Revision: archive-sha256:997aaab655669129eb266c21ca0c4588b603e11c90338498bb530f8bba390fb2
-# Source SHA-256: 91111be9c986f7eb1d4f8260c4182873ad8f089c850e134e95e67fbc5f59dbd8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tnt-3gl0.ans by tainted (blocktronics); released in thesauna03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: tainted
-# SAUCE Group: blocktronics
-# SAUCE Date: 20210818
-# SAUCE Dimensions: 80x35
-# SAUCE Font: IBM VGA
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: tnt-3gl0.ans by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna03-tnt-3gl0
 
 Write-Host '
 

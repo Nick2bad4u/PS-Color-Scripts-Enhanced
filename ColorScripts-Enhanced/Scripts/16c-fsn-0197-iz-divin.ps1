@@ -1,13 +1,4 @@
-﻿# Converted from: IZ-DIVIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0197/raw/IZ-DIVIN.ANS
-# Source Revision: archive-sha256:db16ecaf9a5ba2dcf16f11149d4e3768d3e19930159af1ef0ef2625ea12b3e30
-# Source SHA-256: 6b5173699d29d6549076a4861508792962fb5d12527dd2418ec3eaa25f9c89e9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-DIVIN.ANS by Ize (fsn-0197); released in fsn-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: IZ-DIVIN.ANS by Ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0197-iz-divin
 
 Write-Host '
 

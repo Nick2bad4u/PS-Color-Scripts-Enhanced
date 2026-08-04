@@ -1,13 +1,4 @@
-﻿# Converted from: KOROVA5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1192/raw/KOROVA5.ANS
-# Source Revision: archive-sha256:8f9edeb4f92b0693833f343328f0977cc472aa2ea98dbae0f830bf926a78711d
-# Source SHA-256: 801b8a157be99dcc52cf583ff6b2b5c2c5ee8142b45b9e275395cc0e51624c8d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KOROVA5.ANS by Blade Runner (acdu1192); released in acdu1192 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 34-70
-# Columns: 1-80
+﻿# Artwork: KOROVA5.ANS by Blade Runner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1192-korova5-part02
 
 Write-Host '
 [34m▒[0;1;34;44m░▒▓▓▓▒░[0;34m▒██[0;1;34;44m▓[0;1;34;40m█[0;34m████▒   [0;31m░  ░▒  ░▒▓█    ▄██▄    █▓▒░  ▒░  ░   [0;34m▒███  [0;1;34m▐▌[0m      [1;34;44m░[0m   [34m▐█[0m

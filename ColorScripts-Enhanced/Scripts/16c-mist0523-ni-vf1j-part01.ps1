@@ -1,19 +1,4 @@
-﻿# Converted from: NI-VF1J.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0523/raw/NI-VF1J.ANS
-# Source Revision: archive-sha256:53b565820f166e8e480fb61187f967fd47086f9bc5b7e5f420ec7196d573dd4b
-# Source SHA-256: 110d4a7f538b3f1ba4adcd8eb3420320296a6807f4c44e2637dd96f0f5960e31
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-VF1J.ANS by nitron (mistigris); released in mist0523 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: VF-1J
-# SAUCE Author: nitron
-# SAUCE Group: mistigris
-# SAUCE Date: 20230501
-# SAUCE Dimensions: 80x74
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: VF-1J by nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0523-ni-vf1j-part01
 
 Write-Host '
 [34m▀ ▀█▄█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▓▓▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀           ▀▀ ▀▀▀▀▀▀▀▓▀▀▀▀▀▀■[0m

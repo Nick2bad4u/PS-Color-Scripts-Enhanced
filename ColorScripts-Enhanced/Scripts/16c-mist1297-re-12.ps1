@@ -1,18 +1,4 @@
-﻿# Converted from: RE-12.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1297/raw/RE-12.ANS
-# Source Revision: archive-sha256:95ca1a64d078cb37722ecf97d242eb54b1c888f218ebaab86aa7aa2a5cdbf8dc
-# Source SHA-256: 658034bb0714af20fe3286da9b9b880447ceb5e3294e814b183d3c072d1d89e7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RE-12.ANS by Remohraz (MiSTiGRiS); released in mist1297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Remohraz's ascii xmas tree
-# SAUCE Author: Remohraz
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19961224
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Remohraz's ascii xmas tree by Remohraz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1297-re-12
 
 Write-Host '
                             [32;41m┌─────────────────────────────────────────────────┐[0;37;40m [0m

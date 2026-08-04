@@ -1,13 +1,4 @@
-﻿# Converted from: SAN_FRAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ensiart/raw/SAN_FRAN.ANS
-# Source Revision: archive-sha256:1740ea49d8e6dbe7ec5d2c508ba38bad12fe73c43c677e55524f61db5ff5063b
-# Source SHA-256: 89106678a2e01c2d8b50ca659cc750b5365aa20a1c95f790843585f60c9599a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SAN_FRAN.ANS by Ian Cameron (ensiart); released in ensiart and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: SAN_FRAN.ANS by Ian Cameron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ensiart-san-fran
 
 Write-Host '
 [1;40m♣   [0;1;30;40m.[0m         [40m.[0m      [1;30;40m·    [0;40m.[0m       [1;30;40m·   [0;30;44m█▀▀▀▀▀[0m   [30;44m▀▀▀[0m    [30;44m▀[0m  [30;44m▀[0m       [37;40m·  ▄██▀▀[0m

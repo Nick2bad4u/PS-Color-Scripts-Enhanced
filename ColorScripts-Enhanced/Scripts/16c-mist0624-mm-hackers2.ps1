@@ -1,19 +1,4 @@
-﻿# Converted from: MM-HACKERS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0624/raw/MM-HACKERS2.ANS
-# Source Revision: archive-sha256:7e2642f67629daefe8d04ebedd2e233be2e8a74b2dea50eb02da49be24298927
-# Source SHA-256: f25d989d171ca8884df632f9dc3fbb223195f2b61bbf76a38e85333a89d7debc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-HACKERS2.ANS by Mavenmob (Mistigris); released in mist0624 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Computer Girlfriend
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20240408
-# SAUCE Dimensions: 100x25
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-100
+﻿# Artwork: Computer Girlfriend by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0624-mm-hackers2
 
 Write-Host '
 

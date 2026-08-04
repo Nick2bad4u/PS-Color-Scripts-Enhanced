@@ -1,17 +1,4 @@
-﻿# Converted from: N!DMVLGN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mean9610/raw/N!DMVLGN.ANS
-# Source Revision: archive-sha256:eb05f2b8207463fc94de363304abab4a1544e298daf7dc7d1efbc5b0f6afd5eb
-# Source SHA-256: 2195d68ce09a149252e819d6766c13a35def961960661b8f426d8910744d607f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N!DMVLGN.ANS by nail (mean9610); released in mean9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: da mouldy vaults login
-# SAUCE Author: nail
-# SAUCE Date: 19961031
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: da mouldy vaults login by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mean9610-n-dmvlgn
 
 Write-Host '
 [1;30m   ▀▀▓[0;1;30;47m▓▓▒░░░ [0;1;37;47m░[0;1;30;47m [0;1;37;47m░░▒▓▓▓▓▒░[0;1;30;47m ▓[0m▄▄[1;30m▄▓ ▄▄▓   ▄[0m   [31m▐[0;1;31;41m▀[0;31m▀[0;30;41m░[0;1;31;41m▀[0;31m▀▀▐[0;1;31;41m▄▄▄░[0;30;41m░[0;31;40m▄  ▄[0;30;41m░[0;31;40m▄█[0;1;31;41m░▄▄[0;31m█▄▌  ▄[0;30;41m░[0;31;40m█[0;1;31;41m▄░[0;30;41m░[0;31;40m▄▄░  [0m

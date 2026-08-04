@@ -1,18 +1,4 @@
-﻿# Converted from: bj-asc67.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bj-creep/raw/bj-asc67.ans
-# Source Revision: archive-sha256:0debf4b45d7d951a68b5333767ded34f656851230e3888db7abc1feaad98e52f
-# Source SHA-256: d708fb974b1b3da9f9daf3f264205dc62bb9b30c3afb18e1ff5dd3500f11e990
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bj-asc67.ans by Black Jack (Cia/Echo [01/26/97]); released in bj-creep and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Promotional (The Deep)
-# SAUCE Author: Black Jack
-# SAUCE Group: Cia/Echo [01/26/97]
-# SAUCE Date: 19970126
-# SAUCE Dimensions: 80x49
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Promotional (The Deep) by Black Jack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bj-creep-bj-asc67
 
 Write-Host '
 

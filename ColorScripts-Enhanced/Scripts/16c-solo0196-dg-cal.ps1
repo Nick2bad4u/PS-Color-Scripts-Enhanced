@@ -1,13 +1,4 @@
-﻿# Converted from: DG-CAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/solo0196/raw/DG-CAL.ANS
-# Source Revision: archive-sha256:736380eab175126755d1df68c8a8284163772709367ce385b00755f5ccbd9c98
-# Source SHA-256: 728ec5c55f1e0d537bf1b3bbb40181a37937fe8cf9b47dc6fa8580c1b02401c2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DG-CAL.ANS by Dillinger (solo0196); released in solo0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: DG-CAL.ANS by Dillinger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-solo0196-dg-cal
 
 Write-Host '
 [35m████████████████████████████████████████████████████████████████████████████████[0m

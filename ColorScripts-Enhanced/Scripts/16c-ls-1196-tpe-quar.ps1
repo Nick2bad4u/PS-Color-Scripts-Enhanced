@@ -1,18 +1,4 @@
-﻿# Converted from: TPE-QUAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ls-1196/raw/TPE-QUAR.ANS
-# Source Revision: archive-sha256:718178e922daa94fdced53d32f23831075a54e6f9d2a5d01df73e88ec78ba407
-# Source SHA-256: 2b43d72c06fda4c4a44bd8256a7591ea1a7512345a042498050d0f7b5d447962
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TPE-QUAR.ANS by the platinum eagle (leper society); released in ls-1196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: quarantine
-# SAUCE Author: the platinum eagle
-# SAUCE Group: leper society
-# SAUCE Date: 19961116
-# SAUCE Dimensions: 80x30
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: quarantine by the platinum eagle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ls-1196-tpe-quar
 
 Write-Host '
 

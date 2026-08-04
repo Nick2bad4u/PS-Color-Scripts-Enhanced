@@ -1,19 +1,4 @@
-﻿# Converted from: AVG-FRCE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/AVG-FRCE.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: 1fa9cb31cd7035c7c7d99c6779dcf785f1dd2286709718f6ff78ec63857ddeae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-FRCE.ANS by savage (fire graphics); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: force ansi
-# SAUCE Author: savage
-# SAUCE Group: fire graphics
-# SAUCE Date: 20241111
-# SAUCE Dimensions: 80x35
-# SAUCE Font: IBM VGA
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: force ansi by savage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-avg-frce
 
 Write-Host '
 [1;30m[0m[1m[0m                                     [35m·[0m

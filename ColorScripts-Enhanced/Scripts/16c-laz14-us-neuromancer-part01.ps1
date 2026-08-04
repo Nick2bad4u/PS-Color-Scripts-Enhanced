@@ -1,19 +1,4 @@
-﻿# Converted from: us-Neuromancer.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz14/raw/us-Neuromancer.ans
-# Source Revision: archive-sha256:41b4e3770fbffb058172283f3da2aa00e47c872480cf93fdef94629ebc0751bb
-# Source SHA-256: 3af15a01307210ee8cdb507c91ed2b0a13850a2a1260420f30dc4ead184f91bf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-Neuromancer.ans by Warpus + Oddfirefox (Lazarus); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Neuromancer
-# SAUCE Author: Odd & warpus
-# SAUCE Group: Lazarus
-# SAUCE Date: 20211214
-# SAUCE Dimensions: 80x75
-# SAUCE Font: IBM VGA
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Neuromancer by Warpus + Oddfirefox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz14-us-neuromancer-part01
 
 Write-Host '
 

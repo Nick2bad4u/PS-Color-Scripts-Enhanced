@@ -1,18 +1,4 @@
-﻿# Converted from: HQ-SKULL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack04/raw/HQ-SKULL.ANS
-# Source Revision: archive-sha256:9fda3e62ea6f03ff3783df801cb7755dc6fc72a5a51e49bae41a28850a4d5c40
-# Source SHA-256: 5de564347258c7734ff58b8f771e40f5ccff8c9e055b3b92f4017611df411f4c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HQ-SKULL.ANS by Harlequin (Av); released in avpack04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Skull
-# SAUCE Author: Harlequin
-# SAUCE Group: Av
-# SAUCE Date: 19950318
-# SAUCE Dimensions: 80x48
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: Skull by Harlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack04-hq-skull
 
 Write-Host '
 [1;30;40mav.[0m▄▄▄▄▄▄▄[1m▄▄▄[0;1;30mav.av.av.av.av.av.av.[0m▄▄▄▄▄▄▄▄▄▄▄[1;30mav.av.av.av.av.a[0m▄[1m▄▄[0;1;30mv.av.av.a[0;1;37m▄▄[0;1;30mv.av[0m

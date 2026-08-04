@@ -1,13 +1,4 @@
-﻿# Converted from: RHCP2.ANS
-# Source encoding: CP437
-# Source URL: https://www.roysac.com/images/galleries/ZIP/Roy_EarlyANSI.ZIP
-# Source Revision: archive-sha256:cad71f6167590b04f85d75a819d6aded9a2f6729c741e43ea1101a43159886c1
-# Source SHA-256: dbab81390a9607d3d2d532cfd529a9410c0cf78532586a99eb15467d6f14c151
-# Source License: FAL-1.3
-# Source Attribution: RHCP2.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_EarlyANSI.ZIP archive.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: RHCP2.ANS by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-rhcp2-part01
 
 Write-Host '
   [34m·[0m                [34m·[0m              [34m·[0m                   [34m·[0m

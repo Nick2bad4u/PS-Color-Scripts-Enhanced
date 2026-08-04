@@ -1,17 +1,4 @@
-﻿# Converted from: FL-KRAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/esp0296/raw/FL-KRAD.ANS
-# Source Revision: archive-sha256:7ba951ae4e6a69ae13f17e85d94c040c85d212c9217542aa1b77f88401cbf091
-# Source SHA-256: 33151c9793ef8e47e1ab42c3701101aa2c0266ffbc7a56c9ef106e38baee52e4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-KRAD.ANS by fLeA (ESP Productions); released in esp0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: fLeA
-# SAUCE Group: ESP Productions
-# SAUCE Date: 19960126
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: FL-KRAD.ANS by fLeA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-esp0296-fl-krad
 
 Write-Host '
 

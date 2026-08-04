@@ -1,19 +1,4 @@
-﻿# Converted from: 5m-utopia.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna03/raw/5m-utopia.ans
-# Source Revision: archive-sha256:997aaab655669129eb266c21ca0c4588b603e11c90338498bb530f8bba390fb2
-# Source SHA-256: 54325fd45da5e33458d59f1cc12ae4b6c8a394271d2d5b6a26d5a7c7796571b1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5m-utopia.ans by 5mooth (legacy krew); released in thesauna03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: utopia
-# SAUCE Author: 5mooth
-# SAUCE Group: legacy krew
-# SAUCE Date: 20210412
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: utopia by 5mooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna03-5m-utopia
 
 Write-Host '
 

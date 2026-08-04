@@ -1,13 +1,4 @@
-﻿# Converted from: BULLETM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/am-sgore/raw/BULLETM.ANS
-# Source Revision: archive-sha256:10741bfb879a086728bfb37977a3dbeaa7ec2ef2e08f05f7c3c75419ac26bac6
-# Source SHA-256: 392762d03154a639fdb29dee9a8c6e65863cc9c46ce5d3b6b6b3dc281d80b92a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BULLETM.ANS by Amroth (am-sgore); released in am-sgore and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: BULLETM.ANS by Amroth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-am-sgore-bulletm
 
 Write-Host '
                      [31m▄█████▄    ░ [0;33m░▒▒▒▐  ░▒▒    ▄  ░[0m

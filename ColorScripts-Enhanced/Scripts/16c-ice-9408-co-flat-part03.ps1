@@ -1,13 +1,4 @@
-﻿# Converted from: CO-FLAT.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9408/raw/CO-FLAT.ICE
-# Source Revision: archive-sha256:fa8a4e27d9a185cd662254cdd4d5c7083c450d81415053054b7d17d8e404dca2
-# Source SHA-256: bd08899e3eabe2bdce365482d5a01b2ce19c65fe7d19a4b6802a232fc90ecec4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CO-FLAT.ICE by Cooly (ice-9408); released in ice-9408 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 81-123
-# Columns: 1-80
+﻿# Artwork: CO-FLAT.ICE by Cooly | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9408-co-flat-part03
 
 Write-Host '
                    [31m▐[0;1;31;41m░░▒▓[0;1;31;40m████[0m                      [31m▀[0;1;31;41m░▒▓[0;1;31;40m████[0m

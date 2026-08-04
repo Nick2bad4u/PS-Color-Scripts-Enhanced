@@ -1,13 +1,4 @@
-﻿# Converted from: TL@ECL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak3/raw/TL%40ECL2.ANS
-# Source Revision: archive-sha256:cde4af7e840865f437fedba26bbfb806e858a9b477c723c01bd9d080434c75bd
-# Source SHA-256: 19ddfd306d8ac5026ef4ef35cbe0d1b8f63ad71dd61b3d9b97c70051045b73e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TL@ECL2.ANS by Timeless (ecl-pak3); released in ecl-pak3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: TL@ECL2.ANS by Timeless | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak3-tl-ecl2
 
 Write-Host '
 [1;30m½----──────-------------------──--─-------─---─----─---------──----|[0m [1;30mecl |----¼ [0m

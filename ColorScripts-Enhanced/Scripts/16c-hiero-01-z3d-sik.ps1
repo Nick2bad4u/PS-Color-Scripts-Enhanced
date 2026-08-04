@@ -1,18 +1,4 @@
-﻿# Converted from: Z3D-SIK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-01/raw/Z3D-SIK.ANS
-# Source Revision: archive-sha256:e8b205b17eac83888609630b9bd71a542fbf945c585fd366e8ff82cd7970c1c6
-# Source SHA-256: 29d197066f2ebb55eadd8bb42471928c267f1edd657ed881c6377589d0e8fb08
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Z3D-SIK.ANS by Zedfactor (Hieroglyphics); released in hiero-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Some Insane Kreation
-# SAUCE Author: Zedfactor
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 19990421
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Some Insane Kreation by Zedfactor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-01-z3d-sik
 
 Write-Host '
 [33m▐▀▀[0;1;33;43m▓▓ [0m [33m▄[0;37m  [0;33m▄[0;1;33;43m░░[0;33m▌▐[0;1;33;43m░▓▓[0;1;33;40m▀▀[0;1;33;43m▀█[0;1;33;40m▓▓[0;1;33;43m▀[0;1;33;40m▀▀▀[0;33m▀[0;37m [0;33m▀ ▀[0;1;33m▀[0;1;33;43m▀[0;1;33;40m▄[0;33m▄ ▀[0;1;33;43m▀▄[0;33m▄[0;37m [0;33m▀▓▓[0;1;33;43m░▓▄[0;1;33;40m▄[0;33m▄[0m    [33m▄[0;1;33;43m▄▀[0;33m▀[0;37m [0;33m▄[0;1;33;43m▄█▀[0;1;33;40m▀[0;33m▀[0;37m [0;33m▄[0;1;33m▄[0;1;33;43m▄▀[0;1;33;40m▀▀[0;1;33;43m▀███[0;1;33;40m▓▓[0;1;33;43m▓[0m

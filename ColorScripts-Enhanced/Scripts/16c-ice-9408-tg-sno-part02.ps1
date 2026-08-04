@@ -1,13 +1,4 @@
-﻿# Converted from: TG-SNO.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9408/raw/TG-SNO.ICE
-# Source Revision: archive-sha256:fa8a4e27d9a185cd662254cdd4d5c7083c450d81415053054b7d17d8e404dca2
-# Source SHA-256: 98c29c31bb11232bb894e0947c9a1b245f963816635ab68b43e056b1e1e35dc8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-SNO.ICE by Toon Goon (ice-9408); released in ice-9408 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: TG-SNO.ICE by Toon Goon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9408-tg-sno-part02
 
 Write-Host '
 [35m█████████████████████████████████████[0;1;30m▌[0;35m▐████▀▀[0;1;35m▄▄▄▄▄██████▄▄▄▄[0;35m▀ [0;1;35;45m▀█[0;1;35;40m█[0;1;35;45m█[0;1;35;40m████ [0;35m█████████[0m

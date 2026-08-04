@@ -1,18 +1,4 @@
-﻿# Converted from: Po-acmat.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper08/raw/Po-acmat.ans
-# Source Revision: archive-sha256:4170bc28a3d93b55b5d7813a9078fa917029de207cfcf794080d34d8f6ddd97e
-# Source SHA-256: 1d9059889d97d8d4c346032d0799cbfda0d018618c9675d4400d0928af21a892
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Po-acmat.ans by portia (jasper); released in jasper08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: acropolis matrix
-# SAUCE Author: portia
-# SAUCE Group: jasper
-# SAUCE Date: 20020726
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: acropolis matrix by portia | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper08-po-acmat
 
 Write-Host '
 [34;45mm3[0;35;40m▀[0m                   [35;40m █[0;1;37;45m▐▄[0;1;36;45m█[0;1;37;45m█▌[0;1;37;40m█[0;1;37;45m▐▌[0;35m███[0;31;45m░░[0;35;40m█████[0;35;44m▓▓[0;34;45m░░[0;35;44m▓▓[0;34;45m▒▒[0;35;44m▓▓[0;34;45m░[0;35;40m█[0;34;45m░[0;35;40m█████████████████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US-AWE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-16/raw/US-AWE.ANS
-# Source Revision: archive-sha256:299c2506fc7c7048919e5ad206603713352cc67a07153aa96e981dc224539522
-# Source SHA-256: 8f6f3ed19de06e9cd75ce9a3af8d38648c064312fe69dcbb79dc00cef16b8993
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-AWE.ANS by The Night Angel + Cryogenic (Awe); released in awe-16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Awe
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Awe
-# SAUCE Date: 19980829
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Awe by The Night Angel + Cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-16-us-awe
 
 Write-Host '
 [1;36m█[0;1;37;47m███▓▀▀▀▀░     [0;1;37;40m▒▒▒[0;1;37;47m [0;1;30;47m░▓[0m [33m░ [0;1;30;47m▓[0m▓[47m  [0;1;47m░░▄▄▄[0;1;46m▓[0;1;47m█████▓▓▒░░ [0;1;30;47m▄[0m▀[1;30;47m▄    [0;1;37;40m▒▒[0;1;37;47m ░░▄▄▄▄████▀▀▀   ░░▀▀▀[0;1;37;46m█▓▓[0;1;37;47m█[0m

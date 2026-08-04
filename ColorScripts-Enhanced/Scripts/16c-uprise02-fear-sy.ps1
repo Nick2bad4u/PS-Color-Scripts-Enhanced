@@ -1,13 +1,4 @@
-﻿# Converted from: FEAR-SY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise02/raw/FEAR-SY.ANS
-# Source Revision: archive-sha256:3c5eae1b029b826705ce867bea68894f1a335fc23718a08e0687e597855e8cb9
-# Source SHA-256: 96fd64cab600a2a1ce2512c64c15f70f20b7ff08f35e542fadffca7c22db2f7b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FEAR-SY.ANS by Systolic (uprise02); released in uprise02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: FEAR-SY.ANS by Systolic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise02-fear-sy
 
 Write-Host '
 [34m    ▄[0;36;44m░[0;34;40m▄[0m     [34;40m▀ ▄[0m     [34;40m▀[0m                  [34;40m▀[0;1;34;44m▀[0;34m▀[0m                         [34m░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: GDR-FILE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wax03/raw/GDR-FILE.ANS
-# Source Revision: archive-sha256:8abfa43a62dd015a080596c8ad5586e96cf62a3664ebe2532297158d0dcb3a78
-# Source SHA-256: 21b81357f0c20795baf9ca15ae16580d467aa7f0580e94939e153331b1265bbb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GDR-FILE.ANS by Gravedancer (wax03); released in wax03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: GDR-FILE.ANS by Gravedancer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wax03-gdr-file
 
 Write-Host '
 [1miGDR$$$$$[0m;[1mI$$ I$$  [0;36m;;[0;1;37m i$$$$$$$$; _.,,_;&& [0;36m;²''[0;34m_.,a&''''``[0;33m,,...___[0;34m~~''²*7$888[0;1;34m88888888[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: CPH-BYE5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-003/raw/CPH-BYE5.ANS
-# Source Revision: archive-sha256:09817656d743388b570b7dfb39c4f133f8c40aecb92562f60d9e0c45a3f39730
-# Source SHA-256: 3dce7eabb75d856a6d373b94023077a9916f850e8c68f15862ddeb6a48fc032f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-BYE5.ANS by Cyberpunch (rib-003); released in rib-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: CPH-BYE5.ANS by Cyberpunch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-003-cph-bye5
 
 Write-Host '
                                   [1;30m...[0m   ....[1;30m...............................[0m

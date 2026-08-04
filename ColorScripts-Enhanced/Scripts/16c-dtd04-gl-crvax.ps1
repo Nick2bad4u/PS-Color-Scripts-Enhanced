@@ -1,18 +1,4 @@
-﻿# Converted from: GL-CRVAX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dtd04/raw/GL-CRVAX.ANS
-# Source Revision: archive-sha256:7091bf957c6673d9b005844355015c4c77947e5b00fc05939206b31997a09f74
-# Source SHA-256: f977d4d5ce446ab27802fde3aed9fd212f2958eedc02e40ff2dcf30b3ced80fd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GL-CRVAX.ANS by glandyth-a-krae (DEVOTiON TO DARKNESS); released in dtd04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: 'todesstoss - crovax'
-# SAUCE Author: glandyth-a-krae
-# SAUCE Group: DEVOTiON TO DARKNESS
-# SAUCE Date: 19971121
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: 'todesstoss - crovax' by glandyth-a-krae | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dtd04-gl-crvax
 
 Write-Host '
 [1m████████[0;1;47m▓[0;1;40m██[0;1;47m█▓░[0m▌  [1;30m [0m [34m    [0;37m   [0;1;37;47m ▒▓[0;1;37;40m█████████████████████████████████[0;1;37;47m▓░[0m█[1;47m░▓[0;1;40m████[0;1;47m▓░▓▒░░░▓[0m

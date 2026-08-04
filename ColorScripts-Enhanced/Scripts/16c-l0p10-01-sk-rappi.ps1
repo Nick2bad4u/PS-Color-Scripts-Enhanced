@@ -1,18 +1,4 @@
-﻿# Converted from: SK!RAPPI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p10_01/raw/SK!RAPPI.ANS
-# Source Revision: archive-sha256:07a7c989e195c9828a0ca382f79fb6d55a731b3471cfb9534617813c733c980c
-# Source SHA-256: aae4c222e2b5f595dbc02dc25ea050ee8c05223fd0151021d4f318856a445941
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!RAPPI.ANS by sIMONkING (thelo0p of coz =)); released in l0p10_01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: rappid store =)
-# SAUCE Author: sIMONkING
-# SAUCE Group: thelo0p of coz =)
-# SAUCE Date: 20010313
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: rappid store =) by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p10-01-sk-rappi
 
 Write-Host '
 

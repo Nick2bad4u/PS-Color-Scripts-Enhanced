@@ -1,18 +1,4 @@
-﻿# Converted from: fakenews.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nhg_lnt0722/raw/fakenews.ans
-# Source Revision: archive-sha256:1e1662816847aa758ded4299d957316a9f6362439f3e10eeac184b80f2e0dce7
-# Source SHA-256: 0d96c0042917899979c9cac1238c2dd4eed82b71ef04f7ccebc75a417a96d7d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: fakenews.ans by Zaarin (NHG); released in nhg_lnt0722 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: Zaarin
-# SAUCE Group: NHG
-# SAUCE Date: 20220708
-# SAUCE Dimensions: 80x21
-# SAUCE Font: IBM VGA
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: fakenews.ans by Zaarin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nhg-lnt0722-fakenews
 
 Write-Host '
 [34mwashingtonmoscowbras[0;1;30mil[0;36m██████████████████████████████████████████████████████████[0m

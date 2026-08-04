@@ -1,19 +1,4 @@
-﻿# Converted from: US-FBALL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/US-FBALL.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: 89a991b8b8943c9ac7eb70f85ab7f2b4d51ef1a8a9dc9a3c2a0bce16e4de1bd5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FBALL.ANS by Nail + Savage (fire); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fireball
-# SAUCE Author: nail + savage
-# SAUCE Group: fire
-# SAUCE Date: 20241111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: fireball by Nail + Savage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-us-fball
 
 Write-Host '
                       [33;40m▐[0;1;33;40m░[0;33m▌    ▄[0;1;31;43m░░[0;33m█ ▐[0;1;31;43m░░[0;33m▌[0;1;31m  [0;33m▀[0;1;33m▒[0;33m█▄    [0;31m▄▄   ▀■   ▄▌▄  ▀█▄ ▄  ▀[0m        [31m▀[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: JDA_HTWE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg0197/raw/JDA_HTWE.ANS
-# Source Revision: archive-sha256:d6e39a9bb1cc3ba4355876c2b38330dd07fbdcfc71c0518bb4f64dddca37b120
-# Source SHA-256: e07410b29bf3cf4a83c54d1597c7834207da0045fdb6f4894bcf752cec55deda
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JDA_HTWE.ANS by joda (deranged^eden); released in drg0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: heatwave
-# SAUCE Author: joda
-# SAUCE Group: deranged^eden
-# SAUCE Date: 19970108
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: heatwave by joda | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg0197-jda-htwe
 
 Write-Host '
                          [31m▄[0m    [1;30m░▄▄▄▄▄▄▄▄▄▄▄▄▄░jda[0m     [1;30m░[0;31m ▄▄▄▄[0m

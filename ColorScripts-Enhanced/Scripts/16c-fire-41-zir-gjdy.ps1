@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-GJDY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/ZIR-GJDY.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: 602c2d82d439a17f04b3a77cf28cd8123ace94c260d062426448fd6a51fad6fc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-GJDY.ANS by zir (FiRE); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: gary judy fantasy palace
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20241111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: it's not a real palace. but the fantasy is real. gary was never | there, and judy will probably never go away.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: gary judy fantasy palace by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-zir-gjdy
 
 Write-Host '
  [1;30m░░░░░░[0m [31m░░░░░[0;37m [0;1;30m░░[0m  [1;30m░[0;33m [0;31m░▄[0;1;31;41m▄░[0;31m▌▌▓[0;1;31;41m▄[0;31m▓[0;1;31;41m░░░[0;31m█▄ [0;1;30m░░[0m [31m░░░░░[0;37m [0;1;30m░░░[0m [1;30m░░▐[0m█[1;47m                         [0m█[1;30m▓[0m

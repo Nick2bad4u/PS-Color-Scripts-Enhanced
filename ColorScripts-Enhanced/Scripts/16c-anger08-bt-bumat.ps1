@@ -1,18 +1,4 @@
-﻿# Converted from: BT-BUMAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger08/raw/BT-BUMAT.ANS
-# Source Revision: archive-sha256:20659819b296ba2594f6e23437420c94a5e40c1f843310f8d5730efe645a2109
-# Source SHA-256: 0ffd8fa2b1343dfe616b759ceeecf38785fd5f9148e002617ff765a438797121
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BT-BUMAT.ANS by buzztone (ANGER PRODUCTIONS); released in anger08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: butant underground matrix!
-# SAUCE Author: buzztone
-# SAUCE Group: ANGER PRODUCTIONS
-# SAUCE Date: 19960402
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: butant underground matrix! by buzztone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger08-bt-bumat
 
 Write-Host '
 [1;30m[0m[1;30m█[0;1;30;47m▀▓▓[0;1;30;40m██[0;1;30;47m▀[0;1;30;40m█░[0;1;31;40m▄████████▓▄▄▀ ▄[0;1;31;47m█[0;1;31;40m▓▀ ▄█ [0;1;30;40m░[0;1;31;40m▄▐▄ ▀▄▓▄▀▀▀▀▀▀▀▀▀▀▀▀▀████▄███▄[0;1;30;40m░[0m▐▄[1;30;47m░▄[0m███████[1;30;47m░[0m█[1;30;47m░▀▀[0;1;30;40m▄[0m

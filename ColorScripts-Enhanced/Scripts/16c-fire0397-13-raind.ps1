@@ -1,18 +1,4 @@
-﻿# Converted from: 13-RAIND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0397/raw/13-RAIND.ANS
-# Source Revision: archive-sha256:92948d41234c0b51c2e1cbae1fc45d03877af276dfc89419c464eee360a4eed8
-# Source SHA-256: 92115508dfc5ed4416a93c5dfb59438e43dbee89fb7c8df8018ff6a2897e6fc7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 13-RAIND.ANS by Ville (Fire); released in fire0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Rainy Day
-# SAUCE Author: Ville
-# SAUCE Group: Fire
-# SAUCE Date: 19970226
-# SAUCE Dimensions: 80x13
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: Rainy Day by Ville | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0397-13-raind
 
 Write-Host '
 [30;42m█[0;34;40m░[0m

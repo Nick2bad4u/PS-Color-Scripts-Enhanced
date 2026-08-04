@@ -1,18 +1,4 @@
-﻿# Converted from: PC-VAPOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vpr0795/raw/PC-VAPOR.ANS
-# Source Revision: archive-sha256:4a59d47b7694f8e39e774460d65dc196d91b5d4e90f4e35cac8b62cdf4456f27
-# Source SHA-256: 869b72ec002605742c565f32758cc3a06469fa15453f362b860e082412842a70
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-VAPOR.ANS by psYchoholic (Vapor); released in vpr0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Vapor Promo Ansi
-# SAUCE Author: psYchoholic
-# SAUCE Group: Vapor
-# SAUCE Date: 19950705
-# SAUCE Dimensions: 80x67
-# Lines: 36-67
-# Columns: 1-80
+﻿# Artwork: Vapor Promo Ansi by psYchoholic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vpr0795-pc-vapor-part02
 
 Write-Host '
    [1;35;40m [0m  [43m░[0;30;43m▀[0m    [1;30;40m░[0m    [1;30m▄[0m      [1;30m■▀▀▀[0;30;43m█[0;1;30;40m▄[0;30;43m█[0;37;40m  [0;1;30;40m ▀[0;30;43m██[0;36;40m  [0;37;40m▀▀■[0m    [1;30;40m▀[0m  [30;43m█[0;37;40m [0;1;30;40m▀▀▀■[0m      [1;30m▄[0m    [1;30m░[0m    [30;43m▀[0;37;43m░[0m    [33;40m░[0m

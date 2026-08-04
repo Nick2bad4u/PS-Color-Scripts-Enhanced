@@ -1,18 +1,4 @@
-﻿# Converted from: LE-ENDOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-18/raw/LE-ENDOR.ANS
-# Source Revision: archive-sha256:3ece06be07a605d790194aecaf4c2aee0d01c3085ca10c10858ed29a4fc054bb
-# Source SHA-256: 594966b3d9931ea705f404458615b6e8100d4d1aa430344f8988aaefc13d4597
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LE-ENDOR.ANS by Leo (AWE Lettering Guest); released in awe-18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Endor
-# SAUCE Author: Leo
-# SAUCE Group: AWE Lettering Guest
-# SAUCE Date: 19981030
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Endor by Leo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-18-le-endor
 
 Write-Host '
 [30;47m▓▓█[0m    [1;30;40m▄[0m▄▄▄[30;47m░░████▀░[0;1;37;47m█[0;1;30;40m▄[0m [1;30;47m  [0m▄▄[1;47m██[0;1;30;40m▄[0m [1;30m▄[0m▄▄[1;47m▄▄[0;1;30;40m▀[0;36m▄▄[0;1;34m▄[0m       [36m▄▄[0;37m [0;1;37;47m▄▄[0;1;30;40m█[0m   [1;30;47m▄▄[0;1;30;40m▌[0m  [1;30m██[0m  [1;30m▄▄▄[0;1;30;47m▀▀[0;1;37;47m▄▄[0;1;37;40m░░░[0m

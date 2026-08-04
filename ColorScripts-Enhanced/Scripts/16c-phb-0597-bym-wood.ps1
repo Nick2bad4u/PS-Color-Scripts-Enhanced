@@ -1,18 +1,4 @@
-﻿# Converted from: BYM%WOOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phb-0597/raw/BYM%25WOOD.ANS
-# Source Revision: archive-sha256:5e2897b5aabe339c16f5d2024824fa427f86134be322d4a86a5d7157032f23f1
-# Source SHA-256: 7accaf9ff49622df43bfacd7cbfef21eb8a09ecd52cc5a8d3820e3e88a5d6ac2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM%WOOD.ANS by big y3llow man (pHOBIA@!); released in phb-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: plf hitsquad in the woods
-# SAUCE Author: big y3llow man
-# SAUCE Group: pHOBIA@!
-# SAUCE Date: 19970428
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: plf hitsquad in the woods by big y3llow man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phb-0597-bym-wood
 
 Write-Host '
                                                                [33m░[0;30;43m▓▒[0;33;40m▒▓█[0;30;43m░[0;33;40m▓▐███▄ ▄ [0m

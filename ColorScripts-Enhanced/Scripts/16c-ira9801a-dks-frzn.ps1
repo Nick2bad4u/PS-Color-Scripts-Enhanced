@@ -1,18 +1,4 @@
-﻿# Converted from: DKS-FRZN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira9801a/raw/DKS-FRZN.ANS
-# Source Revision: archive-sha256:e078b6410509abad43422f2b2341d3c9069c369cc769e7c4238a292c9d0a2694
-# Source SHA-256: 0508ee8fc55e5b68682db5b3292c780060707dff247a3200cc1503ae2a5e1454
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DKS-FRZN.ANS by derksar (irat0); released in ira9801a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: big fz
-# SAUCE Author: derksar
-# SAUCE Group: irat0
-# SAUCE Date: 19971024
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: big fz by derksar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira9801a-dks-frzn
 
 Write-Host '
                 [35m-[0;1;35m+[0;35m-   F   ∙   R    ∙    E   ∙   A   ∙   K   -[0;1;35m+[0;35m-[0m

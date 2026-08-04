@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-CRYP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ega-one/raw/AVE-CRYP.ANS
-# Source Revision: archive-sha256:6a85c974a9d93a6c5723067b661851124ae90b1e81eb1a1d35a289b0099b8ffc
-# Source SHA-256: 2d7411a955e2c03e78dc419a96e8b90044c1ebcabc11a20189d01b6688ee1c42
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-CRYP.ANS by avenger (ega); released in ega-one and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the crypt
-# SAUCE Author: avenger
-# SAUCE Group: ega
-# SAUCE Date: 19961004
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: the crypt by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ega-one-ave-cryp
 
 Write-Host '
      [1;33m·[0m  [30;47m▓▓[0;1;33;40m░▄▄[0m          [1;33m·[0m                                      [34m    [0;1;37m              [0m

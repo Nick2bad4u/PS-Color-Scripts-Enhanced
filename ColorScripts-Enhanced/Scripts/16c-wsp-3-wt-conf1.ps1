@@ -1,18 +1,4 @@
-﻿# Converted from: WT-CONF1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wsp-3/raw/WT-CONF1.ANS
-# Source Revision: archive-sha256:cf2c6905b60849b007806526c4834a2b7fb7f78985ee83298f5116c4b76b246d
-# Source SHA-256: 61556f8c788aebb44de32b02517ce4c4099b43011382f43d732b5f7efdfe89a9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WT-CONF1.ANS by wiktor (whisper); released in wsp-3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: whisper conference ansi
-# SAUCE Author: wiktor
-# SAUCE Group: whisper
-# SAUCE Date: 19951013
-# SAUCE Dimensions: 80x25
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: whisper conference ansi by wiktor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wsp-3-wt-conf1
 
 Write-Host '
 

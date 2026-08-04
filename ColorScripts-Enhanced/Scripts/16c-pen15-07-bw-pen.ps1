@@ -1,13 +1,4 @@
-﻿# Converted from: bw_pen.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pen15-07/raw/bw_pen.ans
-# Source Revision: archive-sha256:5575239181f43a0c00b599e15a202300559a11bf3a6c816177e2ffd452bd39cb
-# Source SHA-256: 7d7b699570c0bcf997a235a2cc1ac36be4575748050f7d495f169b8c6091d7aa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bw_pen.ans by Binary Walker (pen15-07); released in pen15-07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: bw_pen.ans by Binary Walker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pen15-07-bw-pen
 
 Write-Host '
 

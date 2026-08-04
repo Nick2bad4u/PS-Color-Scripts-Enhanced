@@ -1,13 +1,4 @@
-﻿# Converted from: avg-sen27.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense27/raw/avg-sen27.ans
-# Source Revision: archive-sha256:a31cb27f3a699dabe8d3f53fffd048cd9b61d3635ed0be3eb33893284480a58e
-# Source SHA-256: 339e02df2c9f1d74cedd6265157dd5cda8991bc88d4f01ca33a3302ddf5abf06
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-sen27.ans by Avenging Angel (sense27); released in sense27 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: avg-sen27.ans by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense27-avg-sen27
 
 Write-Host '
 

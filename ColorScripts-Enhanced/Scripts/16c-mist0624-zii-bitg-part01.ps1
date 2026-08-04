@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-BITG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0624/raw/ZII-BITG.ANS
-# Source Revision: archive-sha256:7e2642f67629daefe8d04ebedd2e233be2e8a74b2dea50eb02da49be24298927
-# Source SHA-256: 3d11303833edf656b36f0614648062069c9dedecc5537451f1e2dfc265852e07
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-BITG.ANS by Zeus II (Mistigris); released in mist0624 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Bitcoin Girl
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20240625
-# SAUCE Dimensions: 80x200
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Bitcoin Girl by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0624-zii-bitg-part01
 
 Write-Host '
 [32m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;37m [0;32m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;37m [0;32m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;37m [0;32m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;37m [0;32m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: ns-distortion.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/ns-distortion.ans
-# Source Revision: archive-sha256:5d665873486ffcf559d33043557e11d7636d0c5a5b53a69dd3e7cf81117997ef
-# Source SHA-256: fe325e2e3eea0b017590ee16715175d2424d34ea348a6242f5405264258ea68c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ns-distortion.ans by Ansichrist (blocktronics_codename_chris_wirth); released in blocktronics_codename_chris_wirth and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 126-158
-# Columns: 1-80
+﻿# Artwork: ns-distortion.ans by Ansichrist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-codename-chris-wirth-ns-distortion-part04
 
 Write-Host '
 

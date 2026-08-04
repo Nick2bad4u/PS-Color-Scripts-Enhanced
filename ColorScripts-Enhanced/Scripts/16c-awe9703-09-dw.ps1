@@ -1,18 +1,4 @@
-﻿# Converted from: 09-DW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9703/raw/09-DW.ANS
-# Source Revision: archive-sha256:a9939674ffea8dfd0fb24f05e2f11874539fc93155c2d5ed5e55e91f76634858
-# Source SHA-256: 5147a806527b72e931407d8afdaff57f5aa1275f7cbe62a45edbb1d4dee66dbf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-DW.ANS by Fluor (AWE Lettering); released in awe9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Dream World
-# SAUCE Author: Fluor
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970304
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Dream World by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9703-09-dw
 
 Write-Host '
                 [1m [0;1;31m▄[0;1;37m [0m

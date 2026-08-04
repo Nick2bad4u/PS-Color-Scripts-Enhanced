@@ -1,13 +1,4 @@
-﻿# Converted from: TI-LOMT0.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9706a/raw/TI-LOMT0.ICE
-# Source Revision: archive-sha256:0a30d58a68f6ed8491028319032dfc5288ff391a510df01a40b96a6e80e9a009
-# Source SHA-256: 2c9078a637b1610208adb62813fd31065f98f6e95240f6d1188941dc9922a972
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TI-LOMT0.ICE by Trip (ice9706a); released in ice9706a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: TI-LOMT0.ICE by Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9706a-ti-lomt0
 
 Write-Host '
                          b         y          e       !

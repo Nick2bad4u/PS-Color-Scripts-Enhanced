@@ -1,18 +1,4 @@
-﻿# Converted from: RET-GFT5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge01/raw/RET-GFT5.ANS
-# Source Revision: archive-sha256:e3615c9ad4db854d301441fb81d58fc4cb93eaca03eb63b7ee121ef773ffd3d1
-# Source SHA-256: 8d1f7edff2ffbf9d64c7855f5061c7e4b3053110392d17d46689a1a7cc347017
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RET-GFT5.ANS by Retribution (Avenge); released in avenge01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Matrix Screen
-# SAUCE Author: Retribution
-# SAUCE Group: Avenge
-# SAUCE Date: 19980129
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Matrix Screen by Retribution | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge01-ret-gft5
 
 Write-Host '
 [1;36;46m██████▓██████▓▓[0;1;36;40m▌[0m [1;33;41m▓▒[0;1;33;40m▀▀[0;30;47m████[0;31;40m▀[0;1;31;41m░▓▓▒▒[0;31m▄█[0;1;31;41m░▓▒▒[0;31m▄█[0;1;31;41m░░[0;31m▄▀[0;1;31;41m░▓▓▒[0;31m▀[0;30;47m██[0;1;33;40m▀[0;1;33;41m▓[0m [36m▄[0;1;36;46m                          [0m

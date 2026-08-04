@@ -1,13 +1,4 @@
-﻿# Converted from: cm-fcdog.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/labia314/raw/cm-fcdog.ans
-# Source Revision: archive-sha256:704095869b71d0834bb8c83d90c0dddc7803f8a47b5046986cc14c14a7864134
-# Source SHA-256: 4c320f00b33128ee7adb98390a7eab105d081c195999f7fda0679094aa8b3d82
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cm-fcdog.ans by Computer Man (labia314); released in labia314 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: cm-fcdog.ans by Computer Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-labia314-cm-fcdog
 
 Write-Host '
                               [1m.[0m [1m.-~```~-.[0m

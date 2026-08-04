@@ -1,18 +1,4 @@
-﻿# Converted from: Z3D-FOKU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-01/raw/Z3D-FOKU.ANS
-# Source Revision: archive-sha256:e8b205b17eac83888609630b9bd71a542fbf945c585fd366e8ff82cd7970c1c6
-# Source SHA-256: 54b636c7044c7d934a740515ca1216d80ce5f489e943c72286c35a27982f7525
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Z3D-FOKU.ANS by Zedfactor (Hieroglyphics); released in hiero-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fokus
-# SAUCE Author: Zedfactor
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 19990421
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Fokus by Zedfactor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-01-z3d-foku
 
 Write-Host '
 [1;34;44m▄▄▄██▄██[0;1;34;40m▓[0;1;34;44m▓[0;34m▀▀▀[0;37m▄[0;1;37m▄▄[0m▄[1;30m▄[0m [34m▄[0;1;34m▄[0;1;34;44m▄[0;1;34;40m▓[0;1;34;44m▓[0;34m▀[0;37m▄[0;1;37m▄▄▄[0;1;37;47m▄██[0m█ [1;34;44m░▓[0;1;34;40m▓[0;1;34;47m▓[0;1;34;44m▀[0;1;34;40m▀[0;34m▀[0;37m▄[0;1;37m▄▄▄▄[0m▄ [34m▀[0;1;34;44m▀[0;1;34;47m▓▓[0;1;34;44m▄[0;1;34;40m▄[0;34m▄▀[0;1;34m▀[0;1;34;44m▀[0;1;34;40m▓▓[0;1;34;44m▓[0;34m▄▄[0;37m ▄[0;1;37m▄▄[0m▄[1m░░░[0m [1;34;44m░░▓[0;1;34;40m▓[0;1;34;47m▓▓[0;1;34;44m▄▄[0m

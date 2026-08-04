@@ -1,19 +1,4 @@
-﻿# Converted from: CH!-NPS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-01/raw/CH!-NPS.ANS
-# Source Revision: archive-sha256:599cc5d270a4d0147da5f37eff9386c7f67f74a074eb88659d141b05218146e0
-# Source SHA-256: b6329153ffc816c9127f3c0e480b957fe3cfa540f4cf7e7c799d4bd142eb5bb8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CH!-NPS.ANS by ChaoTiC! (.:[nITROPHUSION]:.); released in nph-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: NitRoPhUsIoN AnSi!
-# SAUCE Author: ChaoTiC!
-# SAUCE Group: .:[nITROPHUSION]:.
-# SAUCE Date: 19970310
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: comment from dky: nitrophusion c'est NPH et pas NPS mais on te | pardonne ChaoTiC! ;))
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: NitRoPhUsIoN AnSi! by ChaoTiC! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-01-ch-nps
 
 Write-Host '
 

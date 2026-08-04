@@ -1,18 +1,4 @@
-﻿# Converted from: DFT-LAM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/venom-01/raw/DFT-LAM.ANS
-# Source Revision: archive-sha256:8a850db7993e6552a9ec6bc9e714af1ffd8a071d200140bdae6666c3138804a8
-# Source SHA-256: bd7b9eb360ee6027a8032e034062e9c18a01a1f1bd183d5a5543f11e3e3bbf57
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DFT-LAM.ANS by draft (venom); released in venom-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Lamerton
-# SAUCE Author: draft
-# SAUCE Group: venom
-# SAUCE Date: 19980224
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Lamerton by draft | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-venom-01-dft-lam
 
 Write-Host '
      [1;30m▓[0m [1;30m▀▀▀▀[0m [1;30m▀[0m [1;30m         [0m ▄▄▄[1m▄▄[0m░[1;30m    ▀▀█  [0m  [1;30m▄[0m                    [1;30m▄[0m

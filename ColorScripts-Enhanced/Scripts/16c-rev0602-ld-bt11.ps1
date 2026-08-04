@@ -1,18 +1,4 @@
-﻿# Converted from: LD-BT11.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0602/raw/LD-BT11.ANS
-# Source Revision: archive-sha256:eda7ced449224c105e12a5409de54d9f7839715cee6913970969dbabd435477f
-# Source SHA-256: 0de9148e48729cb43dfe19d321c7d3a905306bf3caf41019772a0ef706b8765c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-BT11.ANS by lazthaus (ld!) (Revival); released in rev0602 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Black Thursday
-# SAUCE Author: lazthaus (ld!)
-# SAUCE Group: Revival
-# SAUCE Date: 20020615
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Black Thursday by lazthaus (ld!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0602-ld-bt11
 
 Write-Host '
 [1;30m████[0;1;30;47m▓▓▒▒▓[0;1;30;40m█▀[0m [1;30m  █[0;1;30;47m▓▓▓░░▄[0;1;30;40m█▀[0;32m▄█[0;1;32;42m░▒▓[0;1;32;40m▀▀[0;1;32;42m░[0;32m████[0;1;32m▒▒[0;32m  [0;37m [0;1;30m▀▀█[0;1;30;47m▓▓[0;1;30;40m█▌▀[0;1;30;47m▓░▒▓[0m  [32m▄[0;37m [0;1;30m▐[0;1;30;47m▓[0;1;30;40m [0;1;36;46m▐██[0;1;36;47m▓▓▓[0;1;36;46m█████████████▓[0m

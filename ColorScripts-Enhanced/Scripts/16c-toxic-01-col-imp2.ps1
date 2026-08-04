@@ -1,18 +1,4 @@
-﻿# Converted from: COL-IMP2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toxic-01/raw/COL-IMP2.ANS
-# Source Revision: archive-sha256:3b597be1b67b12799dd35541511cf17a47483b999aba055f1358423895441c18
-# Source SHA-256: a05971df3e846fca4d2e1b4c46caef8d85ea785593467f373ff990804d6a660b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: COL-IMP2.ANS by colorblind (tOxic); released in toxic-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: impure
-# SAUCE Author: colorblind
-# SAUCE Group: tOxic
-# SAUCE Date: 19960528
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: impure by colorblind | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toxic-01-col-imp2
 
 Write-Host '
 [1;30m[0m

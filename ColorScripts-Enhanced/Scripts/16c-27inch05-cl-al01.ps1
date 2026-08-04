@@ -1,13 +1,4 @@
-﻿# Converted from: CL!-AL01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch05/raw/CL!-AL01.ANS
-# Source Revision: archive-sha256:db9b1206c71a7c1f69d77bcc2ffae6377c5089e3db6c19d34216df53e4012ff2
-# Source SHA-256: e9d4ec22df9badd70dfe1edbc1bc1b28074d1e6130f940b40fdef75f267daa1d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-AL01.ANS by Cleaner (27inch05); released in 27inch05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: CL!-AL01.ANS by Cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch05-cl-al01
 
 Write-Host '
            [1;30m█▀▀▀▀▀ ▀ [0;1;32m░░░░░[0m         [1;30m█▀▀▀▀▀ ▀ [0;1;32m░░░░░[0m     [1;30m█▀▀▀▀▀ ▀ [0;1;32m░░░░░ [0;1;30m▓▀▀ ▀ [0;1;32m░░░░░[0m

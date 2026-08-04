@@ -1,19 +1,4 @@
-﻿# Converted from: US-OCTOCORDION.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0721/raw/US-OCTOCORDION.ANS
-# Source Revision: archive-sha256:9d3d54e42a99a6e7bef51cb79a023b85709051f377817bc02741bd65f1493da4
-# Source SHA-256: 9654cef1013af108d68759b26b0081a657454280c29eff1201581cb6e39f0c0e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-OCTOCORDION.ANS by Zeus Ii + LDA (Mistigris); released in mist0721 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Octoaccordion
-# SAUCE Author: Zeus II and LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20210711
-# SAUCE Dimensions: 80x330
-# SAUCE Font: IBM VGA
-# Lines: 96-142
-# Columns: 1-80
+﻿# Artwork: Octoaccordion by Zeus Ii + LDA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0721-us-octocordion-part03
 
 Write-Host '
 [35;40m██████████▄▄       ▄███▀[0;37;40m    [0;32;40m▄██[0;37;40m   [0;35;40m██████████████▓███████   ░▒▓▓█████████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: OUT-SORC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-1097/raw/OUT-SORC.ANS
-# Source Revision: archive-sha256:14c9b212dc0ab3e6fc3f4d8d20f131e192fefa17c331d073e47fc82950a832e5
-# Source SHA-256: 00920c31ba743b2e899750773607843c9e0658a41cb55ae1bb9a37a9297fb550
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-SORC.ANS by OutWorld Arts (OutWorld Arts); released in out-1097 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Sorceress
-# SAUCE Author: OutWorld Arts
-# SAUCE Group: OutWorld Arts
-# SAUCE Date: 19971015
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Sorceress by OutWorld Arts | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-1097-out-sorc
 
 Write-Host '
       [35m··[0m     [1;30m▄▄▀▀[0;1;30;47m██▀▀▀[0;1;30;40m▄[0m         [35m··    ··[0m     [35m···[0m               [35m··[0m          [35m·  [0;1;35m·[0m

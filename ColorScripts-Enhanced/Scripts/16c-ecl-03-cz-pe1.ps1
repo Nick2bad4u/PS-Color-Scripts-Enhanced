@@ -1,18 +1,4 @@
-﻿# Converted from: CZ-PE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-03/raw/CZ-PE1.ANS
-# Source Revision: archive-sha256:8478e7ed47e52d1e07bf55e17a5f105ced4b468c6f56a8b59fd6b8ef8dada5ca
-# Source SHA-256: 8548e8cac98e3d7ca8b678569d0b0a1f2c0a75a1d23681c907c03f2d8b8b39c9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CZ-PE1.ANS by SWISS (eclipse); released in ecl-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: pile of crap
-# SAUCE Author: SWISS
-# SAUCE Group: eclipse
-# SAUCE Date: 19960708
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: pile of crap by SWISS | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-03-cz-pe1
 
 Write-Host '
                       [33m   ▄▄ [0m   [31m░[0;37m [0;31m░▒▒░░░░      [0;32m▄▄[0;31m  [0;34m ▄▄    [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: YO-PRAY0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spas9504/raw/YO-PRAY0.ANS
-# Source Revision: archive-sha256:916c7acab9b210f3e97ff0544079806a486a09bbb4eddfa318f2a69301332293
-# Source SHA-256: 20aa36536b53e053055d2cfc3d95e4a73ab830e7b937f08a0667d49133f017ce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: YO-PRAY0.ANS by Young (Spastic Studios); released in spas9504 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Prayer
-# SAUCE Author: Young
-# SAUCE Group: Spastic Studios
-# SAUCE Date: 19950319
-# SAUCE Dimensions: 80x25
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Prayer by Young | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spas9504-yo-pray0
 
 Write-Host '
 [30;41m     [0;1;31;41m░           [0;31m■[0;30;41m▄[0;1;31;41m░                 ░  ░          ░  [0;30;41m▄             [0;1;31;41m░   [0;31m▓▓ [0;32m▒▄[0;1;32;42m░[0;32m▓[0m

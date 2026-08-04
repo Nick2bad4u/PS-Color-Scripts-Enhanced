@@ -1,19 +1,4 @@
-﻿# Converted from: ungenannt-jeannedarc.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_miracle_on_67th_street/raw/ungenannt-jeannedarc.ans
-# Source Revision: archive-sha256:7a78b3edd176c6d05feb481522f2c4f3e57721df62292c2b4ce537e855c41ae8
-# Source SHA-256: abd99d8b9e9dd9890a1c0dd6f3a91a0dbb751ec3d345e9d23b74769dd9370867
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ungenannt-jeannedarc.ans by ungenannt (Blocktronics); released in blocktronics_miracle_on_67th_street and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Jeanne D'Arc
-# SAUCE Author: ungenannt
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20181223
-# SAUCE Dimensions: 80x296
-# SAUCE Font: IBM VGA
-# Lines: 247-296
-# Columns: 1-80
+﻿# Artwork: Jeanne D'Arc by ungenannt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-miracle-on-67th-street-ungenannt-jeannedarc-part06
 
 Write-Host '
 [1;38;2;87;87;87;48;2;0;0;0m▓[0;38;2;171;171;171;48;2;0;0;0m░[0;1;38;2;87;87;87;48;2;0;0;0m░[0;38;2;0;0;0;48;2;0;0;0m██[0;1;38;2;87;87;255;48;2;0;0;0m▐[0;1;38;2;87;87;87;48;2;171;171;171m▒[0;1;38;2;255;255;255;48;2;171;171;171m░▒▒[0;1;38;2;87;87;87;48;2;171;171;171m░[0;38;2;0;0;0;48;2;0;0;0m█[0;1;38;2;87;87;87;48;2;0;0;0m░███▓░ ████▀[0;38;2;0;0;0;48;2;0;0;0m█[0;1;38;2;87;87;87;48;2;0;0;0m░▓▓▄[0;38;2;0;0;0;48;2;0;0;0m███[0;1;38;2;87;87;255;48;2;0;0;0m▀▄[0;1;38;2;87;87;87;48;2;171;171;171m▌▐[0;1;38;2;87;87;255;48;2;171;171;171m█▄[0;1;38;2;87;87;87;48;2;171;171;171m▀▀░▀▀██▌[0;1;38;2;87;87;255;48;2;171;171;171m░[0;1;38;2;87;87;87;48;2;171;171;171m▐[0;1;38;2;255;255;255;48;2;171;171;171m▀▀[0;1;38;2;87;87;87;48;2;171;171;171m ░▓ ▀█▓▒▄▄▓▓▓▓[0;1;38;2;87;87;87;48;2;0;0;0m█▀[0;38;2;0;0;0;48;2;0;0;0m██[0;1;38;2;87;87;87;48;2;0;0;0m▓██▓ [0;38;2;0;0;0;48;2;0;0;0m█████[0;38;2;171;171;171;48;2;0;0;0m██[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: ZB!EIGRL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-31/raw/ZB!EIGRL.ANS
-# Source Revision: archive-sha256:9cc88d192df49e35c658707a79afc5ca4dd8a5e242cbc2c97e2babc069f74e21
-# Source SHA-256: 25a8cb7a6879065dfd7ea189d5444362be4f51b985b3a6224bd8e2fe80720a71
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZB!EIGRL.ANS by Zubfatal (purg-31); released in purg-31 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 46-94
-# Columns: 1-80
+﻿# Artwork: ZB!EIGRL.ANS by Zubfatal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-31-zb-eigrl-part02
 
 Write-Host '
       [1;30ms.[0m     [1;30m.s$²$$$²$'' [0;33m`$$[0;1;31m$''[0;1;30m,`²$$[0m$s[1;30m$[0m$$$$$$$$$$l [1;31m''[0;1;30m.l$$$$$²'' `²[0m

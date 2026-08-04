@@ -1,13 +1,4 @@
-﻿# Converted from: tcf-bjob.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-32/raw/tcf-bjob.ans
-# Source Revision: archive-sha256:97f88783a610ceefbaa66bb93bade68f56c3715ca753364673ef48e9dbd6b56d
-# Source SHA-256: 16c93853e3b1ae77d4f536591e09d03f0e4494e8df9c5194f5478eb77808851d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tcf-bjob.ans by Tcf (glue-32); released in glue-32 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: tcf-bjob.ans by Tcf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-32-tcf-bjob
 
 Write-Host '
 [33m▄▓▀▀▀ ▀▀▀▀▀▀ ▀▀▀▓▓▀▀▀▀  ▀▀██▀▀       ▀██▀   ▀▀  ▀▀██▀▀██  ████▀  ▀██   ▀▀▀▀▀ ░░ [0m

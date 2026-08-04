@@ -1,18 +1,4 @@
-﻿# Converted from: MR-MTX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad1096/raw/MR-MTX.ANS
-# Source Revision: archive-sha256:6e8c166fa2bd984d99dfd9314d5fa194e51541b9445f04c7962b2818cada06d5
-# Source SHA-256: 3b31eef96bcab17fbd4fc055e338b9c2e367dbf01f54e5f143336373dd2faeb4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-MTX.ANS by mithrandir (quad-p); released in quad1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: wEDGE mATRIX!
-# SAUCE Author: mithrandir
-# SAUCE Group: quad-p
-# SAUCE Date: 19960925
-# SAUCE Dimensions: 80x25
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: wEDGE mATRIX! by mithrandir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad1096-mr-mtx
 
 Write-Host '
 [1m▓▀████▓█▌[0m [1;30m░[0m  [1;30m░[0m [1;30m░[0m  [1;33m░[0;1;30m░[0m [1;30m░[0m   [1;30m░░░[0m  [1;30m░[0m  [1;30m░[0m   [1;30m░[0m  [1;30m░░[0m       [1;30m░░░░[0m [1;30m░[0m  [1;30m░[0m  [1;30m░[0m█[1m▀[0m [1;30m▄▄[0m▄[1;30m▄[0m▄▄[1m ▀[0m▀▀[1m▀▀[0m▀[1m▀▀[0;1;37;47m█[0m

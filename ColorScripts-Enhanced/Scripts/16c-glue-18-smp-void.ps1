@@ -1,13 +1,4 @@
-﻿# Converted from: SMP-VOID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-18/raw/SMP-VOID.ANS
-# Source Revision: archive-sha256:0bc0a975c4de127fd6305114a49451275a1959513e343ea7612d70fa62951816
-# Source SHA-256: 4e40f2b83d0af703d6a8e3c0df89d041c7b4ef4b588f64709f93aa70946170af
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-VOID.ANS by Shrimp (glue-18); released in glue-18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: SMP-VOID.ANS by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-18-smp-void
 
 Write-Host '
 [1;34;44m█▀ [0;34m▀[0;1;34m▀[0;34m▀[0;37m [0;1;34m▀[0m  [31m▌[0m    [1;30mShrimp[0;36m([0;37mglue[0;36m)[0m          [31m▌[0m          [31m▄[0m           [34m▀[0;37m  [0;34m▀[0;1;34m▀▀[0;34m▀[0m   [1;34m▀[0;34m▀▀[0;37m [0;34m▀[0;1;34m▀▀[0;1;34;44m▀▓[0;37;44m█[0m

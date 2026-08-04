@@ -1,18 +1,4 @@
-﻿# Converted from: MR-ASPXI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira1197a/raw/MR-ASPXI.ANS
-# Source Revision: archive-sha256:704aa0d2e26e6cf2ca2a7dd616f260398453dcd5e902b8255bad29cbf486fb81
-# Source SHA-256: 985b06159c27dc483ef7fedcedc89dc0275a5b2204b81516833b520e667c6917
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-ASPXI.ANS by Mr.Wrong (irato); released in ira1197a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Asphyxiie
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: irato
-# SAUCE Date: 19971022
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Asphyxiie by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira1197a-mr-aspxi
 
 Write-Host '
 

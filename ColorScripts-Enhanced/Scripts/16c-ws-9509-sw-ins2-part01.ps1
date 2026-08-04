@@ -1,18 +1,4 @@
-﻿# Converted from: SW-INS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ws-9509/raw/SW-INS2.ANS
-# Source Revision: archive-sha256:f80be9f57a72f3731fd02149f3cc3f702afe87dd851a20e852584349c036c76a
-# Source SHA-256: f1ed49898014c0c5138c2ce733248efada6da4cbeaa715ff5becf6d565cc113a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SW-INS2.ANS by screeching weasel (READ THE INI FILE); released in ws-9509 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: insomnia!
-# SAUCE Author: screeching weasel
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950824
-# SAUCE Dimensions: 80x25
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: insomnia! by screeching weasel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ws-9509-sw-ins2-part01
 
 Write-Host '
 [1;47m░▒▓[0;1;40m▄▀███[0;1;47m██▓▓▒▒░░[0m▓▀▀[1m▄██████████████████████████████████▀▀▀▀▀▀▀▀████████████████▓[0m

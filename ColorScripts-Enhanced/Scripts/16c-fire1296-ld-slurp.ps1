@@ -1,18 +1,4 @@
-﻿# Converted from: LD-SLURP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1296/raw/LD-SLURP.ANS
-# Source Revision: archive-sha256:30782fcfc860946575894eb2b18cd82015430d9b2fe92875d1416c9b2489f009
-# Source SHA-256: 6c90420e945f5a11e86ed32b49d54b5800e88c5ba8b622a40326fc74c438f73a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-SLURP.ANS by oned (fire); released in fire1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Slurpee
-# SAUCE Author: oned
-# SAUCE Group: fire
-# SAUCE Date: 19961205
-# SAUCE Dimensions: 80x25
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: Slurpee by oned | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1296-ld-slurp
 
 Write-Host '
 

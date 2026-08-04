@@ -1,15 +1,4 @@
-﻿# Converted from: KI-40MIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9607/raw/KI-40MIN.ANS
-# Source Revision: archive-sha256:c78a96a5f4d4d883dd9f606e281f4493e5b5dcf7ce75222236758145a315e868
-# Source SHA-256: 501fd1f55485ec49831477bc2762e65ac06e897ba5826f7c22b5e9b14d2f93bf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KI-40MIN.ANS by Kiwi (blde9607); released in blde9607 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 19960724
-# SAUCE Dimensions: 80x44
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: KI-40MIN.ANS by Kiwi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9607-ki-40min
 
 Write-Host '
                                         [1;36m███[0;1;37m██[0m  [1;36m█[0;1;37m██[0m  [1;36m█[0;1;37m████[0m  [1;36m██[0;1;37m███  [0;1;36m█[0;1;37m██[0m  [1m██[0m [1;36m ██[0;1;37m███[0m

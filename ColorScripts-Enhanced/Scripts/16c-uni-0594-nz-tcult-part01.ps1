@@ -1,18 +1,4 @@
-﻿# Converted from: NZ-TCULT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0594/raw/NZ-TCULT.ANS
-# Source Revision: archive-sha256:db2a228a3fd36387543cf50f2d4002959c041991ff20ee6a7b4aeaef602533bd
-# Source SHA-256: 55e583f4251c36c8907bde6fdac91d21d9edd21b753b550760e165d2c6f6a3da
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NZ-TCULT.ANS by Nailz (UNiON); released in uni-0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Cult
-# SAUCE Author: Nailz
-# SAUCE Group: UNiON
-# SAUCE Date: 19940501
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: The Cult by Nailz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0594-nz-tcult-part01
 
 Write-Host '
 

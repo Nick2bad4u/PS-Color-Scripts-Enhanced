@@ -1,18 +1,4 @@
-﻿# Converted from: CPH-HR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-006/raw/CPH-HR.ANS
-# Source Revision: archive-sha256:4d7b445ca8b643922c5230e9f5b3c442135561ba0bcfa9b1ae5cb138b563798c
-# Source SHA-256: 1b0b4b43461ddb940c7fbbe99f0ae7e0ff86a8825a3e717e2e8c63c9599ba7db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-HR.ANS by {YBERPUNCh (RiB); released in rib-006 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: H REAliTY bOARD
-# SAUCE Author: {YBERPUNCh
-# SAUCE Group: RiB
-# SAUCE Date: 19980306
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: H REAliTY bOARD by {YBERPUNCh | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-006-cph-hr
 
 Write-Host '
     [35m     [0m                                                               [35m    [0m

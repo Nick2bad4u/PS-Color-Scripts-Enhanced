@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-MUK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lure003/raw/AVG-MUK.ANS
-# Source Revision: archive-sha256:1ff57f893971666a5780ed06387959ae5ebc9c163a5e118549c7818f33792253
-# Source SHA-256: f69520e16a372ec2b1cee89df27f6a863720ca1c5ddf54ca364c13eca76cbf54
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-MUK.ANS by avenging angel (lure 2002); released in lure003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: muk
-# SAUCE Author: avenging angel
-# SAUCE Group: lure 2002
-# SAUCE Date: 20020414
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: muk by avenging angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lure003-avg-muk
 
 Write-Host '
 

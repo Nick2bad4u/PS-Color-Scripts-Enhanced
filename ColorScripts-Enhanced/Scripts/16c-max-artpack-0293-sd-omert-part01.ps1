@@ -1,13 +1,4 @@
-﻿# Converted from: SD-OMERT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/max_artpack_0293/raw/SD-OMERT.ANS
-# Source Revision: archive-sha256:4391b75bf8c657316d4174c3ede061bb559b411b88e61eb928831c9bafa580bd
-# Source SHA-256: db56d230f126e91a6097e9c1c524d1b17448d312b4411c20585bc6512fb4be4a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-OMERT.ANS by Snow Dog (max_artpack_0293); released in max_artpack_0293 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: SD-OMERT.ANS by Snow Dog | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-max-artpack-0293-sd-omert-part01
 
 Write-Host '
                                                                       [1;30m<mAx>[0m

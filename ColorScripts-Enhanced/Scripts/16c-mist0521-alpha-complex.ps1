@@ -1,19 +1,4 @@
-﻿# Converted from: ALPHA-COMPLEX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0521/raw/ALPHA-COMPLEX.ANS
-# Source Revision: archive-sha256:dd93e60733e1829e7eaea5eb93f8610a00af34f747d5fa7e9c88f5fba1ef15c1
-# Source SHA-256: e7cd54d0a1646d73cebc6156f80f8bcf9641ad4ce2a8975d89ef1de2b4c050b1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ALPHA-COMPLEX.ANS by Alpha (None); released in mist0521 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Alpha Complex
-# SAUCE Author: Alpha
-# SAUCE Group: None
-# SAUCE Date: 20210323
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Alpha Complex by Alpha | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0521-alpha-complex
 
 Write-Host '
    [1;31m▄[0m  [1;31m▄[0m  [1;31m▄▄[0m  [1;31m█[0m [1;31m▄[0m  [1;31m▄[0m      [1;31m▄[0m  [1;31m▄[0m   [1;31m▄ ▄[0m  [1;31m▄▄[0m  [1;31m█[0m  [1;31m▄▄▄[0m [1;31m▄ ▄[0m

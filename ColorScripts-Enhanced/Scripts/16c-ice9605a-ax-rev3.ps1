@@ -1,18 +1,4 @@
-﻿# Converted from: AX-REV3.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9605a/raw/AX-REV3.ICE
-# Source Revision: archive-sha256:cf7acb12a0ec01e1383bf24c3c45a68bc55fde8f0e38cd56180a1936aa9f8089
-# Source SHA-256: 27836d753c637a7d47eeb67af81f63e716858e24e17b6a3972996023be25be87
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AX-REV3.ICE by apox (iCE); released in ice9605a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: argon's revolt
-# SAUCE Author: apox
-# SAUCE Group: iCE
-# SAUCE Date: 19960530
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: argon's revolt by apox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9605a-ax-rev3
 
 Write-Host '
                                 [1;30m░[0m     [1;30m░░[0m                  [1;30m░[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: TNA-FC4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9707/raw/TNA-FC4.ANS
-# Source Revision: archive-sha256:718ad2b08b14a24156d1af86433f0063bd9bba178c290c317100b8e5ffb3939c
-# Source SHA-256: a0d276bff4d202502fe137a779453efbee6b1778603a59172ff5f90b89487fb1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-FC4.ANS by The Night Angel (AWE Lettering); released in awe9707 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Free Coke
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Free Coke by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9707-tna-fc4-part01
 
 Write-Host '
           ▄

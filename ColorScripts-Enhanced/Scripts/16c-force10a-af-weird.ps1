@@ -1,18 +1,4 @@
-﻿# Converted from: AF-WEIRD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force10a/raw/AF-WEIRD.ANS
-# Source Revision: archive-sha256:f2af75efab7b036cdbeddf266674e60423caa5c7ddcc4b43d8307cb5d3c84b64
-# Source SHA-256: 64e18f43c6cdbd53323c0b97a37b3c20de63ea2596965614de61b740c60f0ca5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AF-WEIRD.ANS by Adolf (fORCE); released in force10a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fORCE Logo
-# SAUCE Author: Adolf
-# SAUCE Group: fORCE
-# SAUCE Date: 19960721
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: fORCE Logo by Adolf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force10a-af-weird
 
 Write-Host '
 ▄▄        ▄▄▄▄    [1;33m  [0m▄[42m▓▓▓[0;40m▄    [0m   [31;40m■▄ [0;37;40m  ▄▄     [0;33;40m    [0;37;40m [0;31;40m▄▀[0;37;40m [0;31;40m   [0m                  [37;40m [0;1;33;40m ▄[0;1;33;47m▓▓[0;1;33;40m▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: PISTOL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aaa-8991/raw/PISTOL.ANS
-# Source Revision: archive-sha256:4d061270920d521151424fd00f38227b42b87cd232386c5aa0d1e2f575f3ffe0
-# Source SHA-256: 8535b3a0e444fe560a5ec0d0b92c830ca89a461161be0b4c3caecf47343b04a8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PISTOL.ANS by Willie (aaa-8991); released in aaa-8991 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: PISTOL.ANS by Willie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aaa-8991-pistol
 
 Write-Host '
    █▀▄█▄█▄▄▄▌▄█

@@ -1,18 +1,4 @@
-﻿# Converted from: CK-ELIX1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9503/raw/CK-ELIX1.ANS
-# Source Revision: archive-sha256:72185d7ca3df5653ee1a42b2eb8e244cb5d2597fdc0961f51b76f8fa01da3a75
-# Source SHA-256: 63ee92948be381a1e5c6bc747e08b179f2ceb504c068fd66e1e70929558edc71
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CK-ELIX1.ANS by chromatik (Blade Productions); released in blde9503 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: elixir!
-# SAUCE Author: chromatik
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19950213
-# SAUCE Dimensions: 80x25
-# Lines: 40-63
-# Columns: 1-80
+﻿# Artwork: elixir! by chromatik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9503-ck-elix1-part02
 
 Write-Host '
                    [32;40m░[0m

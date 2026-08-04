@@ -1,18 +1,4 @@
-﻿# Converted from: DD-SOUR2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel20/raw/DD-SOUR2.ANS
-# Source Revision: archive-sha256:76cc71407da52d22474028b5badac0ae5ae0b321b8be74ac60820db9d7a1dc71
-# Source SHA-256: 0d2c4ffd25bff38f5a7191fbcc5f41648ba49ef346590f206611ee35fb34998c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-SOUR2.ANS by da drug (fuckyou); released in fuel20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: sour numbah two
-# SAUCE Author: da drug
-# SAUCE Group: fuckyou
-# SAUCE Date: 19970124
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: sour numbah two by da drug | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel20-dd-sour2
 
 Write-Host '
 [1m   [0;1;31;43m▓[0;33m▀[0m                             [1;31m▀████████████▀▀[0m                     [1;31m▀[0;1;31;43m▓▓▓[0;1;31;40m███[0m

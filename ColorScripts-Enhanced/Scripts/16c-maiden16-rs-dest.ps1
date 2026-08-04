@@ -1,18 +1,4 @@
-﻿# Converted from: RS-DEST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden16/raw/RS-DEST.ANS
-# Source Revision: archive-sha256:5eec87aa8a926ff580ebebb1a03e3414c92381a206a8caa2448e563d5972636c
-# Source SHA-256: 7db02ed0954673c321e7ff428f31c376cc687acab89fcd680e5f07d3fe7730e2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-DEST.ANS by rorshack (Maiden Brazil); released in maiden16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the destroy-er..yeah the destroy-er
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19980812
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: the destroy-er..yeah the destroy-er by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden16-rs-dest
 
 Write-Host '
 25/jun/98

@@ -1,13 +1,4 @@
-﻿# Converted from: KM-NEXUS.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9407/raw/KM-NEXUS.ICE
-# Source Revision: archive-sha256:c6a6b9362995bb76d0cbb2d7dbf54e671ec2870d25bfdff1a5d3a538190c7d91
-# Source SHA-256: a03b6422228eac43b3569212ccdc374748b46ba959ec8f101b0cbfed5e8312bd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KM-NEXUS.ICE by King Midas (ice-9407); released in ice-9407 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: KM-NEXUS.ICE by King Midas | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9407-km-nexus-part01
 
 Write-Host '
 [31m▄▄ [0;1;37m▄[0m▄ │ [1m▄[0m▄ [1m▄[0m▄─┐ [1m▄[0m▄─┐   [1m▄[0m▄─┐┐ [1m▄[0m▄ [1m▄[0m▄─┐ [1m▄[0m▄─┐ [1m▄[0m▄─┐ [31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

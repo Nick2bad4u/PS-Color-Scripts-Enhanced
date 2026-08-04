@@ -1,18 +1,4 @@
-﻿# Converted from: YK-PHP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phar0796/raw/YK-PHP.ANS
-# Source Revision: archive-sha256:0bbb57a5611ace6464dcbff61380889167ded23847139e255a2f0848c50f7473
-# Source SHA-256: 741e5b53d15383dafbcbc2d8c52de6ccd6fea02ec6fbef415930b49a78a7c79f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: YK-PHP.ANS by yankee (PHARster); released in phar0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Phar Promo
-# SAUCE Author: yankee
-# SAUCE Group: PHARster
-# SAUCE Date: 19950910
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Phar Promo by yankee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phar0796-yk-php
 
 Write-Host '
        ▄▄▄[1;47m ░░[0m▄▄                  [1;30m      [0m [1;33m▄▄▄▄▄▄[0;33m [0;1;30m       [0m

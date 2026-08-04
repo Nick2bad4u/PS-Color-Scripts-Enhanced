@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-H2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9704/raw/TNA-H2.ANS
-# Source Revision: archive-sha256:da151757a637299fc8da8cc755ae75b6a0e1a281dd915d29497f1d00d429e5c1
-# Source SHA-256: 1da5668591f1d4148f5b6f75014f9cba9664000d5f4cf70f267e20a83574fe36
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-H2.ANS by The Night Angel (AWE Lettering); released in awe9704 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Hazard/2
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970326
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Hazard/2 by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9704-tna-h2
 
 Write-Host '
                 [34m░▄[0m          [1;37m▄[0m            [1;37m░[0m                                    [36m▄[0m

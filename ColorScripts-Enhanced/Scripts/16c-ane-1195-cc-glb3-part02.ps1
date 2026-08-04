@@ -1,18 +1,4 @@
-﻿# Converted from: CC-GLB3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ane-1195/raw/CC-GLB3.ANS
-# Source Revision: archive-sha256:db13b95bab45be59576e9c40a0246c6356b7a8244e034c959637c25406670a85
-# Source SHA-256: 048f99d6cdd2eb1dd1bc88241acc2f61ab58fc0b43c84a22202e6a895917fd00
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CC-GLB3.ANS by Clorox Cowboy (anemia); released in ane-1195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Globe Pic #1
-# SAUCE Author: Clorox Cowboy
-# SAUCE Group: anemia
-# SAUCE Date: 19951023
-# SAUCE Dimensions: 80x54
-# Lines: 26-53
-# Columns: 1-80
+﻿# Artwork: The Globe Pic #1 by Clorox Cowboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ane-1195-cc-glb3-part02
 
 Write-Host '
          [34m▀[0;37m [0;34m [0;37m [0;34m▀▓[0m     [1;31;43m█▓▒░░[0;33m▌[0;37m ▄■[0;31m▄▓▄[0;37m▀▀▀■  [0;1;31;43m▒▒▓▒░[0;33m▀[0m   [34m▄▀▄░[0m       [34m▄▀[0;37m [0;1;34;44m░░░ [0;34m▓▒[0;37m  [0;34m░[0m   [34m▓█[0;1;34;44m [0;34m▓▌[0m

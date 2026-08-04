@@ -1,18 +1,4 @@
-﻿# Converted from: UG-P54.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0995/raw/UG-P54.ANS
-# Source Revision: archive-sha256:66f11d43d10b981d3ff2235c6fadd1403a507952ad88040c9eb9cd5142a4f4b1
-# Source SHA-256: cc520c0b91e8637cfdca52178cea4ae90ff89015e2071db277ef9c290b354611
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UG-P54.ANS by Abomination + Mass Delusion (Union); released in uni-0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Pier 54 (that's what the fone says)
-# SAUCE Author: Union Group Prod.
-# SAUCE Group: Union
-# SAUCE Date: 19950806
-# SAUCE Dimensions: 80x25
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Pier 54 (that's what the fone says) by Abomination + Mass Delusion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0995-ug-p54
 
 Write-Host '
                     [33m▄[0;1;31m  [0;33m▄▄▄▄▄▄▄▄▄▄▄░[0m               [34m        [0;1;35m▀[0;1;35;45m█▓▓████▓▓▓████[0;1;35;40m▓[0;1;35;45m▓██▓▓▓[0m

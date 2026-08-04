@@ -1,18 +1,4 @@
-﻿# Converted from: FED-BM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-06/raw/FED-BM1.ANS
-# Source Revision: archive-sha256:a9f2b3a98de11e16465e105efa9558fc8b7152c0f268ebdd3ef00191f04c5b89
-# Source SHA-256: 327ecee0725b026e6b2d0c8bbc05faeb222f6fae7ad6b77d9bbd136bac2b5cef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FED-BM1.ANS by Firehead (Hieroglyphics); released in hiero-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Black Maiden
-# SAUCE Author: Firehead
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20010108
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Black Maiden by Firehead | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-06-fed-bm1
 
 Write-Host '
                                               [31m▄[0m

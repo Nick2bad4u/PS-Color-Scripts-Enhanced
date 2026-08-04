@@ -1,13 +1,4 @@
-﻿# Converted from: HP-MINE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dna0397/raw/HP-MINE.ANS
-# Source Revision: archive-sha256:e1a4a5668c5ecdfaceffae094b291f77d84772de2eb8e1772dc5072c38cdc6bb
-# Source SHA-256: 5d7e0057e0c5823842997c6e291fbfdf67f91c0eab3888fb3fa8712298c67a97
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HP-MINE.ANS by Hypno (dna0397); released in dna0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: HP-MINE.ANS by Hypno | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dna0397-hp-mine
 
 Write-Host '
                                      [32m▄[0;1;32;42m█[0;32m▄[0m

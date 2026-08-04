@@ -1,13 +1,4 @@
-﻿# Converted from: BC-TRB.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9412/raw/BC-TRB.ICE
-# Source Revision: archive-sha256:206fb790f3728acfca84972248fec43bde6e85e65881b18182d8ae9012f98785
-# Source SHA-256: 01fc28a54185c63cebb7e8f4df09ce2a2012c3d140b21ae1dc80c9db9629e0ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BC-TRB.ICE by Bodycount (ice-9412); released in ice-9412 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: BC-TRB.ICE by Bodycount | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9412-bc-trb-part01
 
 Write-Host '
 [1m[0m[1m[0m[1m[0m[1m[0m[1m[0m                       [1;30m         [0m      [1;30m▄▄[0m [1;30m                      [0m

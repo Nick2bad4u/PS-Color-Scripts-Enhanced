@@ -1,18 +1,4 @@
-﻿# Converted from: RX-AWE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn0797/raw/RX-AWE.ANS
-# Source Revision: archive-sha256:fc1844bde3fb3bc448ff1373e91cb7237c6c2f8016c75eb605f0f71b6d1e80d5
-# Source SHA-256: fb7d7a400b6a698c67332666c809f8d616e841c74c5f90a7edeeaf6137d20598
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RX-AWE.ANS by rex (fusion); released in fsn0797 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: awe
-# SAUCE Author: rex
-# SAUCE Group: fusion
-# SAUCE Date: 19970710
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: awe by rex | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn0797-rx-awe
 
 Write-Host '
 

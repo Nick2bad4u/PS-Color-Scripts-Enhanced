@@ -1,18 +1,4 @@
-﻿# Converted from: RD-S!!@.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shade5/raw/RD-S!!%40.ANS
-# Source Revision: archive-sha256:9eb97f9412f63f0ce4837a80894f87a3aed455c1487394481c6e40b531c2203d
-# Source SHA-256: b0fac6c788d286453fe538f35e4d1bd556182ba0823f57753d798e300f0e3bbb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD-S!!@.ANS by raider (twilight); released in shade5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: sILENCE!!@
-# SAUCE Author: raider
-# SAUCE Group: twilight
-# SAUCE Date: 19961226
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: sILENCE!!@ by raider | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shade5-rd-s
 
 Write-Host '
         [30;45m██[0m         [1;30;40m▀▀[0m [1;30m░[0;33m▄▄[0;36m  [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: 2M-CFMN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot0598/raw/2M-CFMN.ANS
-# Source Revision: archive-sha256:0c1b4d8014854195eee82655813426874e782c44b6e7d11df4cc84dbee4a5020
-# Source SHA-256: dad7be407b820f618056f56637e87340795f2ca9840089c5ea22079bbf9ecc94
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2M-CFMN.ANS by 2much4u (RioT Productions); released in riot0598 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Main Menu for my BBS: Cold Fusion
-# SAUCE Author: 2much4u
-# SAUCE Group: RioT Productions
-# SAUCE Date: 19980430
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Main Menu for my BBS: Cold Fusion by 2much4u | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot0598-2m-cfmn
 
 Write-Host '
                                      [1;36m▄▄▄[0m [1;34m▀▀[0;1;34;44m▓[0;1;34;40m▀▀[0m [1;34m█▀█▀▄[0m [1;34m▄▀▄[0m [1;34m▀█▀[0m [1;34m█▀▄█[0m

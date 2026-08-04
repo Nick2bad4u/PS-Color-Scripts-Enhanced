@@ -1,18 +1,4 @@
-﻿# Converted from: SG-03.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rags2r2a/raw/SG-03.ANS
-# Source Revision: archive-sha256:b6fe4ad2710b940b9fc065cc3d8845bc48a34f58dd8c5b1b55d6bd7f8162e058
-# Source SHA-256: e189636447e26d3eb6b192cec175e9d93b4253e260377b700daf2229d3ee9321
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SG-03.ANS by SG (.rAGS 2 rICHES.); released in rags2r2a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: "Snake Grunger . rAG nUMBAH tHREE?"
-# SAUCE Author: SG
-# SAUCE Group: .rAGS 2 rICHES.
-# SAUCE Date: 19950615
-# SAUCE Dimensions: 80x167
-# Lines: 42-82
-# Columns: 1-80
+﻿# Artwork: "Snake Grunger . rAG nUMBAH tHREE?" by SG | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rags2r2a-sg-03-part02
 
 Write-Host '
 [33m     ▀█▒▓▓▐▄▌[0;1;31m▐███████████[0;1;31;47m▓▓▒▒▒▒░░▒▒▒▒▓[0;1;31;40m███[0;1;31;43m▌▐[0;1;31;40m███████▌[0;36m▐[0;1;33;46m▒▒▒▒▒░░░░░░░░░░[0;36m██████▄[0;37m [0;1;30m▀[0;1;30;41m█[0;1;30;40m▓▓[0;33m [0m

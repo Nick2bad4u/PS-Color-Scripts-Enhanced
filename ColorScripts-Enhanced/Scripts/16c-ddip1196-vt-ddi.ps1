@@ -1,13 +1,4 @@
-﻿# Converted from: VT-DDI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ddip1196/raw/VT-DDI.ANS
-# Source Revision: archive-sha256:c2477a6ae50796566abddfa2870c440511b1266fe5f1eb8f614027b16fe779be
-# Source SHA-256: 664f452d4a6770fcf821151262b3ee31dbbb2fb888d92643f9436f803bf98069
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VT-DDI.ANS by Vitality (ddip1196); released in ddip1196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: VT-DDI.ANS by Vitality | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ddip1196-vt-ddi
 
 Write-Host '
 [1m  [0;1;30msS$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$Ss[0m

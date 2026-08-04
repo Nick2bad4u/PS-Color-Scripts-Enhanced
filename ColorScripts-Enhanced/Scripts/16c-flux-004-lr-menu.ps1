@@ -1,18 +1,4 @@
-﻿# Converted from: LR!-MENU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flux-004/raw/LR!-MENU.ANS
-# Source Revision: archive-sha256:184a3f5dd0450d61dd9a9b4da05ef76ebec147753f33bfa3706045bb53c0d7a5
-# Source SHA-256: d8c545d56d770ce453c12b3d6c603cd01380fa045ce10f42b0bff1b082fa1b6e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LR!-MENU.ANS by LATE RISER (flux '97); released in flux-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: any menu ...
-# SAUCE Author: LATE RISER
-# SAUCE Group: flux '97
-# SAUCE Date: 19971022
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: any menu ... by LATE RISER | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flux-004-lr-menu
 
 Write-Host '
 [35m░░[0;36m [0;34m              [0;35m▄▄▄  [0;37m  [0;35m░░[0;37m  [0;35m [0m       [34m▄▄▄▄▄[0;35m  [0;37m [0;34m▄▄[0;1;34;44m░[0m        [35m ▄[0;37m [0;35m▄▌[0;37m [0;35m▀[0;37m [0;35m▄[0;37m [0;36m▀[0;37m [0;36m▀▀█[0;1;36;46m░░[0;1;37;46m▄▄[0;36m██▄[0;37m [0;36m░░[0m

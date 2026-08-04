@@ -1,18 +1,4 @@
-﻿# Converted from: NF-BLAH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9602/raw/NF-BLAH.ANS
-# Source Revision: archive-sha256:5e4639f25c539923328bf5d3dcaf0345f7881a951b04cd174712ef6ec2433a3a
-# Source SHA-256: 29a2fc5d38a87f78e2c02757dea119064ea6d9f250682264f268247cc55b5112
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NF-BLAH.ANS by infinity (blade productions); released in blde9602 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: blah fontage
-# SAUCE Author: infinity
-# SAUCE Group: blade productions
-# SAUCE Date: 19960122
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: blah fontage by infinity | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9602-nf-blah
 
 Write-Host '
                                               [33m▄▄[0;1;33;43m ░▒▓[0;1;33m██▄▄[0m

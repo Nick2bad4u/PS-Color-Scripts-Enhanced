@@ -1,13 +1,4 @@
-﻿# Converted from: SYL-SY13.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fdr-02/raw/SYL-SY13.ANS
-# Source Revision: archive-sha256:15396cd727e081bbaaee85447e61d10d48ae0bd147bff6fe38ceb25299afa7ea
-# Source SHA-256: 18f4bf126005a6885ca64c6c28675105d2e22e0c63c1a366b931a7cfb6e4a230
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SYL-SY13.ANS by Sylvao (fdr-02); released in fdr-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: SYL-SY13.ANS by Sylvao | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fdr-02-syl-sy13-part01
 
 Write-Host '
 [1;35;40m████████████▓▓▒▒[0;35m▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓[0;1;35;45m░░░░░░░░░[0;35m▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;1;35m▓▓▓▓▓▓▓▓▓▓▓[0;35m▒▒▒[0m

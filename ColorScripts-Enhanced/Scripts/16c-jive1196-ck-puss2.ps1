@@ -1,15 +1,4 @@
-﻿# Converted from: CK-PUSS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jive1196/raw/CK-PUSS2.ANS
-# Source Revision: archive-sha256:74e1c77b15f9f77c425b7a6f94db1ea196521e43a60a356b13371fec7928ab41
-# Source SHA-256: 18bbfa715fbc9033df3560642085613b59730bff01264fa2f473c31a10942be4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CK-PUSS2.ANS by Clark (jive1196); released in jive1196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Puss bbs modding
-# SAUCE Author: Clark
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Puss bbs modding by Clark | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jive1196-ck-puss2
 
 Write-Host '
                                      [1m▄[0m

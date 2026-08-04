@@ -1,18 +1,4 @@
-﻿# Converted from: CO-PAN1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9504a/raw/CO-PAN1.ICE
-# Source Revision: archive-sha256:7e06a69e8d7baf8133687f2e7b917774996272e1a0f23faaff663b1fe4e44657
-# Source SHA-256: 81d518840e3058eb22c07d26dcbc292f0960a754f6643c842d82a66aa8842395
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CO-PAN1.ICE by Cooly + Lord Soth (iCE hey!); released in ice9504a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Pantheon
-# SAUCE Author: Cooly
-# SAUCE Group: iCE hey!
-# SAUCE Date: 19950501
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: The Pantheon by Cooly + Lord Soth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9504a-co-pan1-part01
 
 Write-Host '
 [31m▄[0;1;31;41m▄[0;31m██▄[0m                   [31m█[0m                [31m▄[0m

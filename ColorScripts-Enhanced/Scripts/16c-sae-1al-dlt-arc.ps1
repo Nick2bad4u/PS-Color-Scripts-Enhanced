@@ -1,18 +1,4 @@
-﻿# Converted from: DLT-ARC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sae-1al/raw/DLT-ARC.ANS
-# Source Revision: archive-sha256:8fc50778b7abb4c7b22d8eeaf495f22d95c4684528a25d26f344c833163d3682
-# Source SHA-256: 1b9102296a7d446f85f230e34bdd0e3ba9df147c5d3dcf37d21fbaa2868afa61
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DLT-ARC.ANS by Dalton (Share And Enjoy); released in sae-1al and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Alpha Force
-# SAUCE Author: Dalton
-# SAUCE Group: Share And Enjoy
-# SAUCE Date: 20000815
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Alpha Force by Dalton | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sae-1al-dlt-arc
 
 Write-Host '
                                                                  [34m▄▄▄[0m

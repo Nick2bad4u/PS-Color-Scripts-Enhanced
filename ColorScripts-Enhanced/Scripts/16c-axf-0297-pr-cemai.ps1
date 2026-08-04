@@ -1,18 +1,4 @@
-﻿# Converted from: PR-CEMAI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-0297/raw/PR-CEMAI.ANS
-# Source Revision: archive-sha256:60e502c9a1ba0703538ea6854865054cb1103c69d11b9a8571db69144d294d40
-# Source SHA-256: 9a2749e4664afae78af5eabc16bccc9918db81fc68ff7b9abe277968da9a828a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR-CEMAI.ANS by Primal Rage (Xeed/Axf); released in axf-0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Short circuit Main
-# SAUCE Author: Primal Rage
-# SAUCE Group: Xeed/Axf
-# SAUCE Date: 19961226
-# SAUCE Dimensions: 80x12
-# Lines: 1-12
-# Columns: 1-80
+﻿# Artwork: Short circuit Main by Primal Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-0297-pr-cemai
 
 Write-Host '
 [1;30m▄▓[0;1;30;42m█[0;1;30;40m▀[0;1;30;42m█[0;1;30;40m▓▄[0m [1;30m▀▀▀[0m [1;30m     [0m                   [1;30m▀▀▀[0m [1;30m       [0m                 [36m ▄[0;35m▒[0;36m▀[0;35m▒[0;36m▄[0m      [1;30m   P[0m

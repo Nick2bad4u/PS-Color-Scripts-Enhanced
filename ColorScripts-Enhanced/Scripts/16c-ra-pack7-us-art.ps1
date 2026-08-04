@@ -1,13 +1,4 @@
-﻿# Converted from: US-ART.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ra-pack7/raw/US-ART.ANS
-# Source Revision: archive-sha256:0a5bc75dd33f02ea715790b6704568a879e79bb191a5cb8d565e9964752806e8
-# Source SHA-256: 4a9821a73108932ae0a38acf940457986ece49d86fe76223275f2edd01be9a8b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ART.ANS by Dyingsoul + Scrye (ra-pack7); released in ra-pack7 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: US-ART.ANS by Dyingsoul + Scrye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ra-pack7-us-art
 
 Write-Host '
 [1;35m[0m[1;35m[0m                              [35m▄▄[0;37m   [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: RL-SECTO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0396/raw/RL-SECTO.ANS
-# Source Revision: archive-sha256:8cd29f20ca0e9cb17c1100c76cb617825c92262f6ff8862ed793e9086f6dea43
-# Source SHA-256: c0b8c877ca0d707bc5ee037b89d9fcc5a5c0932598acccd456295f97e85f7189
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL-SECTO.ANS by Rawlock (Opium); released in opx-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Sector Seven
-# SAUCE Author: Rawlock
-# SAUCE Group: Opium
-# SAUCE Date: 19960226
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Sector Seven by Rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0396-rl-secto
 
 Write-Host '
 

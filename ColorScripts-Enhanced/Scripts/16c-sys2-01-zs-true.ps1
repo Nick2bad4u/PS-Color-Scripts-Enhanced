@@ -1,13 +1,4 @@
-﻿# Converted from: ZS-TRUE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sys2_01/raw/ZS-TRUE.ANS
-# Source Revision: archive-sha256:f707a7fe693d07201b6eb70e6937a345c157a5d2d28da9983b4bb47eb4421fde
-# Source SHA-256: c54b038382cb99e1620115e4dc3fe764a6d8bd209e68a544f80d1f1f5129dc7c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZS-TRUE.ANS by Zerostar (sys2_01); released in sys2_01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: ZS-TRUE.ANS by Zerostar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sys2-01-zs-true
 
 Write-Host '
                                              [32m *  d[0;1;32m╬╬[0;32mb[0m

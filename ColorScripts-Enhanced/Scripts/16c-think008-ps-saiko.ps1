@@ -1,16 +1,4 @@
-﻿# Converted from: PS-SAIKO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/think008/raw/PS-SAIKO.ANS
-# Source Revision: archive-sha256:5299e9efff6b1d02b6f8371005b5afb74861cb81c9f9d142ae267d9e1b37f3a5
-# Source SHA-256: 9fc62198522b351a4a719fe6273561f9c8a177e66e9131b438c2122be595a302
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PS-SAIKO.ANS by psychodreamer (think); released in think008 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: saiko
-# SAUCE Author: psychodreamer
-# SAUCE Group: think
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: saiko by psychodreamer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-think008-ps-saiko
 
 Write-Host '
 [32m▄[0;1;32m▀[0;1;30m▀▀[0;1;32m▀[0;1;30m▀▀▀▀▀▀▀▀▀▄▄▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄[0m [1;30m▄▀▀▀▀▀▀▄[0m [1;30m▄▀▀▀▀▀▀▀▄[0m [1;30m▄▀▀▀▀▄[0m [1;30m▄▀▀▀▀▀▀▀▀▀[0;32m▀[0;1;30m▀[0;32m▀[0;1;30m▀▀[0;32m▄[0m

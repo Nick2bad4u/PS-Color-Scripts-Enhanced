@@ -1,13 +1,4 @@
-﻿# Converted from: AAA0038.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hrp-6/raw/AAA0038.ANS
-# Source Revision: raw-sha256:5dedbe343ea92c3db7fbd92289a10d72860767e243e2f2b2017afd550116b1e0
-# Source SHA-256: 5dedbe343ea92c3db7fbd92289a10d72860767e243e2f2b2017afd550116b1e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AAA0038.ANS by Xanadu (hrp-6); released in hrp-6 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 38-68
-# Columns: 1-80
+﻿# Artwork: AAA0038.ANS by Xanadu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hrp-6-aaa0038-part02
 
 Write-Host '
 [1;30m ░░░░░░░░░░ ░[0m                                                    [1;30m░░░░░░░░░░░░░░[0m

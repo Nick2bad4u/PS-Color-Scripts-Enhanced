@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-MISSI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-1096/raw/IZ-MISSI.ANS
-# Source Revision: archive-sha256:56cf270ca2ee7a92e0d4d66d5887e29752c7c199e9629aac9f429015d003259b
-# Source SHA-256: c92ba0d38c7fa9c4bf92baef9ddc363c552ce08f5ac778332e176ab797c4de22
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-MISSI.ANS by ize (fusion); released in fsn-1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the missing link
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19961001
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: the missing link by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-1096-iz-missi
 
 Write-Host '
 

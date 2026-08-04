@@ -1,20 +1,4 @@
-﻿# Converted from: NI-NANCY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0624/raw/NI-NANCY.ANS
-# Source Revision: archive-sha256:7e2642f67629daefe8d04ebedd2e233be2e8a74b2dea50eb02da49be24298927
-# Source SHA-256: e01683aad9e484f76da6c083abb9182a8e0f996df73a607bf204e766e73ed465
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-NANCY.ANS by Nitron (Mistigris); released in mist0624 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Nancy
-# SAUCE Author: Nitron
-# SAUCE Group: Mistigris
-# SAUCE Date: 20240522
-# SAUCE Dimensions: 80x25
-# SAUCE Font: Default
-# SAUCE Comments: geofflatterairshows.com
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Nancy by Nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0624-ni-nancy
 
 Write-Host '
 [1;34;44m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0;104m░░[0;1;34;44m░░░░░░░[0m

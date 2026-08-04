@@ -1,13 +1,4 @@
-﻿# Converted from: NZ-PR2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0395/raw/NZ-PR2.ANS
-# Source Revision: archive-sha256:fa162651f9482427c00511e180638b307ba23babafbe50fc91872af91a55356c
-# Source SHA-256: 1f85d2b836d2de6c819e9f5b8550173fe6d19b101a717e0512ed275628a3a925
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NZ-PR2.ANS by Nailz (uni-0395); released in uni-0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 40-59
-# Columns: 1-80
+﻿# Artwork: NZ-PR2.ANS by Nailz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0395-nz-pr2-part02
 
 Write-Host '
 [34m▀▓[0m                  [31m░[0m                     [34m░[0m           [1;34m░[0m      [34m░[0m     [34m░[0m         [1;34m░[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: US-ICE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0696/raw/US-ICE.ANS
-# Source Revision: archive-sha256:812b4b6a142b76b92307dc090cdf58b49035a2b9097d1dc0a43da5e4fd3f4f2d
-# Source SHA-256: 22896b8423534d5b386bab521bc5ddde59fbc21f4dd4989949c98a76f22babf6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ICE.ANS by Black Viper + The Night Angel + Fluor (fire0696); released in fire0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: iCE Promotional
-# SAUCE Author: Multiple Artists
-# SAUCE Date: 19960607
-# SAUCE Dimensions: 80x22
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: iCE Promotional by Black Viper + The Night Angel + Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0696-us-ice
 
 Write-Host '
 

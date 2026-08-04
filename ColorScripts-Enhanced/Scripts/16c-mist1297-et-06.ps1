@@ -1,13 +1,4 @@
-﻿# Converted from: ET-06.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1297/raw/ET-06.ANS
-# Source Revision: archive-sha256:95ca1a64d078cb37722ecf97d242eb54b1c888f218ebaab86aa7aa2a5cdbf8dc
-# Source SHA-256: e29c417cb0d462da1c698d937d32b7b49f9129d57cc90eaf7041aa5cf06e2f00
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ET-06.ANS by Etana (mist1297); released in mist1297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: ET-06.ANS by Etana | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1297-et-06
 
 Write-Host '
                         [31m▄█▓▓▓▄▄▄▄▄[0m     [31m▄▄▄▄▄▓▓▓█▄[0m

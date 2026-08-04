@@ -1,19 +1,4 @@
-﻿# Converted from: US-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-44/raw/US-FIRE.ANS
-# Source Revision: archive-sha256:6c51508cedeaa9140fcf08750a75edb14e0cec0eebe7b4290346e95cd3548876
-# Source SHA-256: e931419dc53f3323409ec0f0aefde3f6f6845339986008d017a6ff6fb33388f9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FIRE.ANS by Nail + Savage (Fire Graphics); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fire Graphics
-# SAUCE Author: Nail + Savage
-# SAUCE Group: Fire Graphics
-# SAUCE Date: 20251111
-# SAUCE Dimensions: 80x31
-# SAUCE Font: IBM VGA
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Fire Graphics by Nail + Savage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-44-us-fire
 
 Write-Host '
 

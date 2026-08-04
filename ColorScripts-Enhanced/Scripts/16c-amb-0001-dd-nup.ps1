@@ -1,18 +1,4 @@
-﻿# Converted from: DD-NUP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amb-0001/raw/DD-NUP.ANS
-# Source Revision: archive-sha256:50117a0363f47a3201dbded78dece5a7d943bf5ee978c9adb3f23e48040c9989
-# Source SHA-256: 8916fc12da3c3bfeb11743be52c5428d4edd7ad5432d97e3f21504f6fe3f5f75
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-NUP.ANS by Diamond Darrell (AMBUSH); released in amb-0001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: New User Password
-# SAUCE Author: Diamond Darrell
-# SAUCE Group: AMBUSH
-# SAUCE Date: 19960514
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: New User Password by Diamond Darrell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amb-0001-dd-nup
 
 Write-Host '
 [1;31;43m░▒▒▓▓▓▓▓▓▓▓▓▓▓████▓[0;1;31;40m██[0;1;31;43m▓[0;1;31;47m▓[0;1;31;40m█[0;1;31;43m▓▓▓▓[0;1;31;40m█[0;1;31;43m▓▓▓▒▒▒[0;1;31;40m██[0;1;31;43m▓[0;1;31;40m▌[0;33m▐▓▓ [0;1;31;43m▒[0;33m▌▐█▓▌[0;1;31;43m▒▒▓▓▓▓▓▓[0;1;31;47m███[0;1;31;40m██████[0;1;31;43m█▓▓▓▓▓▓▓▓█▒▒░[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: SUB-IDRM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/soda03/raw/SUB-IDRM.ANS
-# Source Revision: archive-sha256:8ca6b1277c2cfab282ae43fc96ff48d3d51942dfad836f25624e00db8433621a
-# Source SHA-256: 2ddf3e088ff5e9cfa14e3aeb047fe670ca003087aaeb3f2160d9a68823ef44b6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SUB-IDRM.ANS by subsonic (soda03); released in soda03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: idler's dream
-# SAUCE Author: subsonic
-# SAUCE Date: 19990506
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: idler's dream by subsonic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-soda03-sub-idrm
 
 Write-Host '
                                                                       [31m▐[0m

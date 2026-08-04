@@ -1,17 +1,4 @@
-﻿# Converted from: US-EDGAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fx-9805/raw/US-EDGAR.ANS
-# Source Revision: archive-sha256:51b50ecbc34301f5648639ff8506f090e6a2a6f696b380849d18bbb9e4aeadfb
-# Source SHA-256: 3de326201e57c3b6f8a6b429507f76e71d4b487e6cd9716cb0d5b91dd4f180f8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-EDGAR.ANS by Warpus + Konami (Function); released in fx-9805 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: A joint by Warpus and Konami
-# SAUCE Author: Guess who
-# SAUCE Group: Function
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: A joint by Warpus and Konami by Warpus + Konami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fx-9805-us-edgar
 
 Write-Host '
    [1;30m    [0m     [1;30m▄[0;1;37m▄▄▄█████[0;1;33m████████████████████[0;1;33;47m▄[0;1;33;40m▄▄[0m▄[1;33m  [0;34m [0;1;30m            [0m

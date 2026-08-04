@@ -1,13 +1,4 @@
-﻿# Converted from: SW-IS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/img-9408/raw/SW-IS.ANS
-# Source Revision: archive-sha256:3b60cd0224e41b40e0e3d80c8a229cb6cc245fde84602ab9a04bbddec55d0b51
-# Source SHA-256: 2cfd9f0e7c1d709e28cc4ad0592bc385cec9b8ef2ac4c2bb3c599fda55ff1e4f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SW-IS.ANS by Sword Weaver (img-9408); released in img-9408 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 35-63
-# Columns: 1-80
+﻿# Artwork: SW-IS.ANS by Sword Weaver | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-img-9408-sw-is-part02
 
 Write-Host '
           [1;30m▐▄ [0;1;30;43m█[0;1;30m▌ [0;1;36;46m██▓▓▒▒░░ [0m [1;30;47m█▓▒[0m [1;30;47m█▓▒░ [0m [1;30;47m▓▒░▒▓[0m [1;30;47m▒▒▓█[0m▐[1;30;47m▓█[0m [1;30;46m [0;1;36;46m░░▒▒▓▓██[0m  [1;36;43m [0;1;30;43m░[0;30;43m▐[0m [1;30m▄[0m            [1;30;47m [0;1;47m░[0m

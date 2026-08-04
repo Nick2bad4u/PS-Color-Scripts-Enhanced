@@ -1,18 +1,4 @@
-﻿# Converted from: RL!-NOST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-1096/raw/RL!-NOST.ANS
-# Source Revision: archive-sha256:73b0e2918c9e3daef978e4ff1f97345c8d9080edab06ce99d8d8ee6a5fb0b3de
-# Source SHA-256: 3885f0e8af1df764df81ae8c9e0a1720b81e665c476c6980add7e869865597b3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL!-NOST.ANS by rawlock (rl!) (oPx); released in opx-1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Nostalgica
-# SAUCE Author: rawlock (rl!)
-# SAUCE Group: oPx
-# SAUCE Date: 19961005
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Nostalgica by rawlock (rl!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-1096-rl-nost
 
 Write-Host '
 [34m▄[0;1;34m [0m [32m▄[0;1;32m▄▄▄▄▄▄▄▄▄▄▄ [0;34m▄▄[0;1;34m▄▄[0;34m▄[0;1;34m [0;1;32m  [0;32m▄[0;1;32m▄▄▄[0;1;32;42m▄[0;1;32;40m██[0;1;32;42m▓▄[0;1;32;40m▄▄[0;32m▄[0;1;32m [0;34m▀[0;1;34m▀[0;1;34;44m▀▓[0;1;34;40m██████▄▄ [0;1;30;40m▀[0;1;30;47m▓[0;1;30;40m█[0;1;34;40m [0;1;34;44m ▓[0;1;34;40m███████[0;1;34;44m▄[0;34m▄[0;1;34m [0;34m▄[0;1;34;44m▄▓[0;1;34;40m██████[0;1;34;44m▓▄[0;1;34;40m▄[0;34m▄[0;1;34m [0m

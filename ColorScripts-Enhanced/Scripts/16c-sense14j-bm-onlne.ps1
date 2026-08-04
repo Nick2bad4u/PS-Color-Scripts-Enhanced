@@ -1,13 +1,4 @@
-﻿# Converted from: BM-ONLNE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense14j/raw/BM-ONLNE.ANS
-# Source Revision: archive-sha256:09ec71553d0e99093e00659fd39efd917ea23ae8b70a1c6de1aece96dc2e61a3
-# Source SHA-256: 1b432ca8ec2a8fb2278b8a14e2b5e155a9171251690f84aa044caf52b6874d39
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BM-ONLNE.ANS by Avenging Angel + Aesthetic (sense14j); released in sense14j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: BM-ONLNE.ANS by Avenging Angel + Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense14j-bm-onlne
 
 Write-Host '
 [36m [0;33m▄[0;1;33m▓▄[0;1;33;43m▄██[0;1;37;46m████[0;1;37;47m▄[0;1;37;40m▄[0m▄     [1;37m▒[0;36m [0;37m▀[0;1;37m▀▀▀[0;1;37;47m▀[0;1;37;46m█[0;1;37;47m▄[0;1;37;40m▄▄[0m▄[1m▓[0;36m   [0m      [1;30m▄[0m       [36m░[0;37m  [0;36m▄▓▄[0m              [1;37mavg&43[0m

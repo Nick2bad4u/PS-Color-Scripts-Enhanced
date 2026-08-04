@@ -1,13 +1,4 @@
-﻿# Converted from: JY_SCAN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bgs_num1/raw/JY_SCAN1.ANS
-# Source Revision: archive-sha256:e0f00bf907dd5be4b375ace59bb594eecd3ca210e7121710e2a68853cfcf6d12
-# Source SHA-256: bc09519e29a9ebeece5a4d499c7e05697f398fe0b4b5d6e7b9e8632bc74de194
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JY_SCAN1.ANS by Joy (bgs_num1); released in bgs_num1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: JY_SCAN1.ANS by Joy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bgs-num1-jy-scan1
 
 Write-Host '
 [31m█▐▒░▓■[0;37m [0;31m▀·[0;37m [0;31m▒░·[0;37m [0;31m.[0;37m  [0;31m░▒▄▓▌▄■▓▒▓█▒░▒▌■▓▒░▓█▓▒░[0;37m [0;31m░░▒░▒▓█▓■░▒░▀▓░[0;37m [0;31m░▒▓▒▀▄▓▒▓█▒▓■░▄▀█▓▒▓█■[0m

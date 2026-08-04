@@ -1,19 +1,4 @@
-﻿# Converted from: NI-CNOIR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0725/raw/NI-CNOIR.ANS
-# Source Revision: archive-sha256:f8228caade9b0e4810405349f1959bd68f07890aea1a0d6aaa1eef2a322b5f21
-# Source SHA-256: ed9bd808746858c41c05e96f08a7b73d78880dc7c72ae84becdd0fcd008b9981
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-CNOIR.ANS by Nitron (Mistigris); released in mist0725 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Le Chat Noir
-# SAUCE Author: Nitron
-# SAUCE Group: Mistigris
-# SAUCE Date: 20250730
-# SAUCE Dimensions: 80x65
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Le Chat Noir by Nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0725-ni-cnoir-part01
 
 Write-Host '
 [33m ▄▓[0;1;33;43m░░░[0;33m▄ [0;1;33;43m▄▄▄[0;33m▄▄▄▄[0;1;33;43m░░░░░░░▒▒▒▒▒▒▒▒▒▒▄▄▄▄▒▒▒▒▄▄▄▒▒░[0;33m▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;33;43m▄▒▒▒▒▒▒▄▄[0;33m▄▄[0;1;33;43m▄▄▄░░[0;33m▄▄▄▄[0m

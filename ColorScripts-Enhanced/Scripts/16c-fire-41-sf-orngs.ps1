@@ -1,18 +1,4 @@
-﻿# Converted from: SF-ORNGS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/SF-ORNGS.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: 9be374597b878f61af0adaf3ea72b09d9499bd397bf69e7e209ab3bb89fc071c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SF-ORNGS.ANS by sander (fire-41); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: oranges
-# SAUCE Author: sander
-# SAUCE Date: 20241111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: oranges by sander | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-sf-orngs
 
 Write-Host '
                                         [1;30m▄▄[0m

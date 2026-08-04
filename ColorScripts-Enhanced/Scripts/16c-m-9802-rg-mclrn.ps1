@@ -1,17 +1,4 @@
-﻿# Converted from: RG-MCLRN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m-9802/raw/RG-MCLRN.ANS
-# Source Revision: archive-sha256:b77081548bd69d77dfa44ebb7c4a66ac6a6977867bc0f2350868e9616f23eb59
-# Source SHA-256: 584dd418ed332c94c45af3564be6a02edd9085f4b35c5db91054f4d4c16a1ffa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RG-MCLRN.ANS by Rage (mISTFUNK 1998); released in m-9802 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: a McLaren F1GTR, a supercar
-# SAUCE Author: Rage
-# SAUCE Group: mISTFUNK 1998
-# SAUCE Dimensions: 80x25
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: a McLaren F1GTR, a supercar by Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m-9802-rg-mclrn
 
 Write-Host '
 [1;34m███████████[0;34m▀▀▀[0;1;34;44m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;34m▀▀▀[0;1;34m████████[0m

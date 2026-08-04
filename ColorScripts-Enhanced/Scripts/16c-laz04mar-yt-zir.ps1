@@ -1,17 +1,4 @@
-﻿# Converted from: YT-ZIR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz04mar/raw/YT-ZIR.ANS
-# Source Revision: archive-sha256:44ec2aece59b6e1070eee7535121a4d2aa26d7d69e93852fb8f63376ca44c5f2
-# Source SHA-256: 48db6604902d5560b361cec025f56fb785f4aebe6d012d3965f51d277104374c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: YT-ZIR.ANS by neophyte (lazarus); released in laz04mar and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: neophyte
-# SAUCE Group: lazarus
-# SAUCE Date: 19970303
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: YT-ZIR.ANS by neophyte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz04mar-yt-zir
 
 Write-Host '
 

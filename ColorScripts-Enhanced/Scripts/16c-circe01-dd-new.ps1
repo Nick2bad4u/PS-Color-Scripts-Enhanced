@@ -1,18 +1,4 @@
-﻿# Converted from: DD-NEW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe01/raw/DD-NEW.ANS
-# Source Revision: archive-sha256:0b64c26f533b8c11a1aca04e7dcc1e21d4b014c2d6532ba66a48148862d54cb2
-# Source SHA-256: 69702f97c814a9d4e5769d7d0613b2b38370c031d4931f59d84f2ac1b81e7bed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-NEW.ANS by Diamond Darrell (Circe); released in circe01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: new user
-# SAUCE Author: Diamond Darrell
-# SAUCE Group: Circe
-# SAUCE Date: 19970717
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: new user by Diamond Darrell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe01-dd-new
 
 Write-Host '
  [1;32;42m▀[0;1;32;40m██▀▀███▄███▀▀██[0;1;32;42m▀[0;1;32;40m▄███  ███  ███ [0;1;32;42m▀[0;1;32;40m█[0;1;32;47m▓[0;1;32;40m  ▄▄▄▄[0;1;32;42m░▄[0;1;32;40m█▀▀▀▀▀ ███▀▀███▀███▀▀[0;1;32;42m▀[0;1;32;40m██ [0;1;32;42m▀[0;1;32;40m██▀▀▀▀▀ [0m

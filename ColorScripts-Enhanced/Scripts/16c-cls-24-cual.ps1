@@ -1,18 +1,4 @@
-﻿# Converted from: CUAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cls-24/raw/CUAL.ANS
-# Source Revision: archive-sha256:25053bc15e5e48ff5004cd9fec0a87fd3e5a0af4d9241cb6b4ce884a851d13a2
-# Source SHA-256: 3eb13e18553beb98ef11bf2ceaf151cbb9eb1043596f1183beaee8f35c5ea816
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CUAL.ANS by El ReVueLTa (C.L.S); released in cls-24 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: (Cu l hay?                   (MENU)
-# SAUCE Author: El ReVueLTa
-# SAUCE Group: C.L.S
-# SAUCE Date: 19981207
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: (Cu l hay? (MENU) by El ReVueLTa | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cls-24-cual
 
 Write-Host '
       [1;30maNSi por[0m       [1;34m┌───────────────────────────────────┐[0m

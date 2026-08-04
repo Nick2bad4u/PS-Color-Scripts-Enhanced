@@ -1,13 +1,4 @@
-﻿# Converted from: MM-TNA.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9506/raw/MM-TNA.ICE
-# Source Revision: archive-sha256:54681166ad0e1930ad04020dc73021d068005fba5342f2f81e02d3344e14b83c
-# Source SHA-256: b2a65d75be5b329aff5497ff7f0cbd3f30e3f8bc456a5adf89113267f41e3b41
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-TNA.ICE by Magnetic M (ice-9506); released in ice-9506 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 38-72
-# Columns: 1-80
+﻿# Artwork: MM-TNA.ICE by Magnetic M | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9506-mm-tna-part02
 
 Write-Host '
 ▀  [35m▄[0;1;37;45m▄[0;1;35;40m██▌[0;1;30;40m▄   [0;35m█[0;1;35m██   [0;1;30m▄   [0m▓[1;47m█████▓[0;1;40m▒[0m     [35m▀[0;1;35m▀▀▀[0;1;35;47m▀[0;1;35;40m▀▀▀[0m▀   [35m▄[0;1;35m▄[0;1;35;45m▄[0;1;35;40m▀[0;1;35;45m▀[0;35m▀  [0;37m▓[0;1;37;47m█████▒[0m░ [1;30m▀   ■▄[0m     [1;30m▐▌[0m

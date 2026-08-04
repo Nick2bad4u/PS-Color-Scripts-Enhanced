@@ -1,18 +1,4 @@
-﻿# Converted from: S&4-GRL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper05/raw/S%264-GRL.ANS
-# Source Revision: archive-sha256:33fac09b0787230492798535c47bf2642ecf35522de5af17dfe59b662d1606a6
-# Source SHA-256: b387e646c1ead1b812f874b4f6f72429b8de8cf93fa8a7d6d10059b2d3ba9fba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S&4-GRL.ANS by Aesthetic + Smoke (jasper); released in jasper05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: chick (menu for namistai)
-# SAUCE Author: smoke/aesthetic
-# SAUCE Group: jasper
-# SAUCE Date: 20020403
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: chick (menu for namistai) by Aesthetic + Smoke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper05-s-4-grl
 
 Write-Host '
         ░[30;47m▓[0;37;40m  [0;30;40m                                                               [0m

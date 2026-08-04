@@ -1,18 +1,4 @@
-﻿# Converted from: TG-POO2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9701a/raw/TG-POO2.ICE
-# Source Revision: archive-sha256:2b4740d08283c009b0da564f58adfe176d60e60708d85f690f875edfd33d46e1
-# Source SHA-256: a8a28e59e4aefc1599aa723db9204343b6f274422bceb2849bd85ca384c2165b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-POO2.ICE by Toon Goon + Jae (iCE); released in ice9701a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: poo
-# SAUCE Author: toon goon
-# SAUCE Group: iCE
-# SAUCE Date: 19970108
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: poo by Toon Goon + Jae | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9701a-tg-poo2
 
 Write-Host '
                                        [32m ▄▄ [0m

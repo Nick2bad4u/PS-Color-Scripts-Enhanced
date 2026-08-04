@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-TOWN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0897/raw/OUT-TOWN.ANS
-# Source Revision: archive-sha256:549bf8e96e7f7e860f0287ba7104856044d3d84459139164d9a185bf317f9174
-# Source SHA-256: f47e19a9a0ad57e33ab980ee8d844795451cb8b9f2b5d4c9e4ca6da5c99f38f9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-TOWN.ANS by Sandy Chidester (out-0897); released in out-0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: OUT-TOWN.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0897-out-town
 
 Write-Host '
 [33m▒█▀[0;32m▄ ▄   ▄▀[0;33m▄ [0;32m▄[0m                                      [1;36m▄▄[0m                         [1;30m▄[0m

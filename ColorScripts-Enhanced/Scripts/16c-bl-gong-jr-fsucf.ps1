@@ -1,18 +1,4 @@
-﻿# Converted from: JR_FSUCF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl-gong/raw/JR_FSUCF.ANS
-# Source Revision: archive-sha256:c90e04c94a395e53e928512945d220d1fff4c215b177bbe4ea888b6b9ab8350e
-# Source SHA-256: 1132f2c572defcec2b27ace907e69b50a2f0924ae91dc0b6b517b8e8bb0d53d2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_FSUCF.ANS by jerusalem (boil); released in bl-gong and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: FS userconfig-screen.
-# SAUCE Author: jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19970405
-# SAUCE Dimensions: 80x29
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: FS userconfig-screen. by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-gong-jr-fsucf
 
 Write-Host '
                                [1;30m░░[0m    [1;30m░░[0m   [1;30m░░░▄▄▄▄▄▄▄▄▄▄[0m [1;30m▀▐█░▀[0m [1;30m▄█▓▀▀[0m       [1;30m ▄[0m [32m░[0m

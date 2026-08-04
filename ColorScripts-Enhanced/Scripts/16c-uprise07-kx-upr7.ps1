@@ -1,13 +1,4 @@
-﻿# Converted from: KX-UPR7.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise07/raw/KX-UPR7.ANS
-# Source Revision: archive-sha256:e9fb6933d41a936134d4f2611eadee07355a10c1a02cff6221e1c572c3d24d6d
-# Source SHA-256: 59ed98c379396cd6b5e828887e02adea27b114e9a035807989579a82c9f5afd6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KX-UPR7.ANS by Kxf (uprise07); released in uprise07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: KX-UPR7.ANS by Kxf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise07-kx-upr7
 
 Write-Host '
 [1;30m++kxf(x) [0m

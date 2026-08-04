@@ -1,19 +1,4 @@
-﻿# Converted from: 5m-legacy1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-001/raw/5m-legacy1.ans
-# Source Revision: archive-sha256:589c804657c8d15ba617f7c0fd80723e4505d519989b80eba9584665be49eb54
-# Source SHA-256: d13c71020960b562e81a6ac53d4bc399d67777165c6ac653c61a264975d3db00
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5m-legacy1.ans by Smooth (Legacy Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Legacy Elegance
-# SAUCE Author: Smooth
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20191229
-# SAUCE Dimensions: 80x28
-# SAUCE Font: IBM VGA
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Legacy Elegance by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-001-5m-legacy1
 
 Write-Host '
  [1;30m▄[0m                                                            [1;30m▄[0m              [36m░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: LV-GIAN5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/giant-02/raw/LV-GIAN5.ANS
-# Source Revision: archive-sha256:72d6719d73238d605bc99472e092dff5b6fe4ea01fddd66d6e4acf4ff40c79ca
-# Source SHA-256: cee758fbcb59fdf66cdedbdf243974ef43b1b85402b252d6df25d732f23e1c3f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LV-GIAN5.ANS by Liquid Vision (giant-02); released in giant-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: LV-GIAN5.ANS by Liquid Vision | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-giant-02-lv-gian5
 
 Write-Host '
                   [33m▓[0;37m [0;33m░[0;1;33m░░▓▓[0;1;33;43m███████[0;33m▓▒░[0;37m [0;33m░░[0;1;30mlv[0;1;33m▄[0;1;33;43m▓▒▒▒▒▒▓[0;1;33;40m▀▀[0;1;30;40m░░▒[0;1;33;40m░░░░░░░▒▒▒▒▒░░░░[0;1;30;40m▓▓▒▒░[0m

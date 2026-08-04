@@ -1,19 +1,4 @@
-﻿# Converted from: MM-SELFPORTRAIT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1023/raw/MM-SELFPORTRAIT.ANS
-# Source Revision: archive-sha256:85986912ea2464623a6cb0e6c05b9b87ede10865c5aaf338ceaa9a86cac2b00a
-# Source SHA-256: 55cdf8760b0a70bd4ae60c28c68b8b3d0c9d7fd9c77eb5a6b33c7461592904f4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-SELFPORTRAIT.ANS by Mavenmob (Mistigris); released in mist1023 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Perfect Me Is The Imperfect Me
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20231028
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: The Perfect Me Is The Imperfect Me by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1023-mm-selfportrait
 
 Write-Host '
 [30m││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││[0m

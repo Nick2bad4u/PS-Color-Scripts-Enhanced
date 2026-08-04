@@ -1,16 +1,4 @@
-﻿# Converted from: pxg-eyes.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_yotb/raw/pxg-eyes.ans
-# Source Revision: archive-sha256:f702f09f6116b5ac6fa523d36f54d796db6f44f880e4f1cd426d29a9fbda605e
-# Source SHA-256: dcabb25807c75954b17e3829ffcad5e41bde23d58391f2e23ec8826d27821a5a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: pxg-eyes.ans by Pixel Goth (blocktronics_yotb); released in blocktronics_yotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20150201
-# SAUCE Dimensions: 80x70
-# SAUCE Font: IBM VGA
-# Lines: 34-70
-# Columns: 1-80
+﻿# Artwork: pxg-eyes.ans by Pixel Goth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-yotb-pxg-eyes-part02
 
 Write-Host '
 [34;40m;[0;1;35;40m..[0;1;31;40m,.;,[0;34m ,,;.   , [0;34;46m▀▀▀[0;36;106m▀▀▀[0m      [1;31m.....,,[0;34m.,[0;35m.[0;34m...[0;1;31m..[0;36m   [0;36;44m░░░░[0;36;40m   [0;36;44m░▒░░[0;36;40m  [0;36;44m░░[0;36;40m [0;36;44m░░[0;36;40m  [0;36;44m░[0;36;40m   [0;36;44m░[0;36;40m [0;36;44m░▒▒▒▒▒░[0m

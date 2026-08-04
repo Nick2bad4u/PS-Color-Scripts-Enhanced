@@ -1,13 +1,4 @@
-﻿# Converted from: 70-twilight.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_resvolution/raw/70-twilight.ans
-# Source Revision: archive-sha256:d0690af9ec91bf96f335196e9f9ddfb5d7ea02d97d300b53301bebaf58d83c35
-# Source SHA-256: f35fd18e18b408727a920c7c0ffba4def552665f22f8061c03f19ad904e7968c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 70-twilight.ans by Tombin (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: 70-twilight.ans by Tombin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-resvolution-70-twilight
 
 Write-Host '
 [1;34;44m▄███▄[0m                             [1;34;44m▄███▄[0m             [1;34;44m▄██▄[0m         [1;34;44m▄███▄[0m

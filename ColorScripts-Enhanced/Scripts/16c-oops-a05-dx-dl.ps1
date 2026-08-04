@@ -1,18 +1,4 @@
-﻿# Converted from: DX!-DL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oops_a05/raw/DX!-DL.ANS
-# Source Revision: archive-sha256:cff76c9dd5d3c699dbbd8fb0832eac5d62706a3d9db1909416fdb97b45ddb91f
-# Source SHA-256: 1f2f4976152459df4d4e6519acaff6ea202274e46f80338e99d0390b3b9a7d61
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DX!-DL.ANS by drax (oOps); released in oops_a05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: download
-# SAUCE Author: drax
-# SAUCE Group: oOps
-# SAUCE Date: 19970608
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: download by drax | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oops-a05-dx-dl
 
 Write-Host '
                                    [32m             [0m

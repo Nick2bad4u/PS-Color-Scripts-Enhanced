@@ -1,13 +1,4 @@
-﻿# Converted from: ╚DIGITAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shao0198/raw/%E2%95%9ADIGITAL.ANS
-# Source Revision: archive-sha256:9542aa7262687ca25cc0b436a8616861468c32d627d2d66ec27e377ccb8920b8
-# Source SHA-256: c671e80e4005b392e602e873455427c43b6a418e0552ef4283c05afb3c4bc62c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ╚DIGITAL.ANS by Isotone (shao0198); released in shao0198 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ╚DIGITAL.ANS by Isotone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shao0198-digital
 
 Write-Host '
 [1;30miso[0m

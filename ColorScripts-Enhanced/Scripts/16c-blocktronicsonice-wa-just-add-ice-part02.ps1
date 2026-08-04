@@ -1,20 +1,4 @@
-﻿# Converted from: wa-just-add-ice.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronicsonice/raw/wa-just-add-ice.ans
-# Source Revision: archive-sha256:09feb7a5adb913c88be16d43a1a4e86bf7073f13399d8bc54e5478cad35282e5
-# Source SHA-256: dec72f6c4c08c6f07bfe4ab50eab4e1c53bbc2a1d820c29aed44a8a0a240a8cc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-just-add-ice.ans by warpus (lazarus); released in blocktronicsonice and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: just add iCE
-# SAUCE Author: warpus
-# SAUCE Group: lazarus
-# SAUCE Date: 20220303
-# SAUCE Dimensions: 80x186
-# SAUCE Font: IBM VGA
-# SAUCE Comments: greetz to tainted and everybody else in iCE
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: just add iCE by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronicsonice-wa-just-add-ice-part02
 
 Write-Host '
 [37m           [0;35m█▌   ███▀[0;1;30m       ▀[0;1;37m▀■[0;35m██████████▀[0;1;30m       ▀[0;1;37m▀[0;45m▄[0;35;40m████████████████[0;35;45m▒▓█[0;1;30;45m░░░░[0;35m██████[0m

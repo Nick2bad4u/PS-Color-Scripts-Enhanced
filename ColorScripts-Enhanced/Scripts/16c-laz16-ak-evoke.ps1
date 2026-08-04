@@ -1,19 +1,4 @@
-﻿# Converted from: ak-evoke.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz16/raw/ak-evoke.ans
-# Source Revision: archive-sha256:b093dd3cb06bf783d59a9df3724c51f9a41f686cd4fd545c920ada008d959f7a
-# Source SHA-256: 99238aa0c56bd488a182a1353ad51b4155a1afa5a1c06da36b82c2aa2e5dba59
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ak-evoke.ans by abstrakt (lazarus); released in laz16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: evoke 2022
-# SAUCE Author: abstrakt
-# SAUCE Group: lazarus
-# SAUCE Date: 20221020
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: evoke 2022 by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz16-ak-evoke
 
 Write-Host '
 [36m4$[0;1;36m$$[0;36mb `$[0;1;36m$$[0m$$[1m$$[0;1;36m$$$[0;36mP[0;37m  [0;1;35m.[0;35md$b.[0;37m [0;36m`└[0;1;36m$[0;36m`[0;37m [0;1;35m.[0;35m┐.[0;37m  [0;36m`4[0;1;36m$P┘[0;36m''^`[0;37m    .[0;1;37m┌┐[0m.      [1m┌.[0m [36m:$[0;1;36m$$$$$$[0;36m$b  d[0;1;36m$$$$$P[0m

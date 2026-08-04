@@ -1,18 +1,4 @@
-﻿# Converted from: GDR-SKSH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aspire03/raw/GDR-SKSH.ANS
-# Source Revision: archive-sha256:54282cfca353db5f7764be56aa2f2108c2e202d98c161cba1da80cf575611e3b
-# Source SHA-256: 73f8f1e4db70097d14c8cae3cdb61994636ab1b1bd2df074aa6bb31b16cd0510
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GDR-SKSH.ANS by gravedancer (aspire); released in aspire03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: skateshop
-# SAUCE Author: gravedancer
-# SAUCE Group: aspire
-# SAUCE Date: 19980925
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: skateshop by gravedancer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aspire03-gdr-sksh
 
 Write-Host '
 [1;31;41m░░[0;31m▀█████[0;1;31;41m░░░░[0;1;31;40m▀  ▀[0;1;31;47m▓▓[0;1;31;41m░░[0;31m████▀[0;37m  [0;31m▄[0;37m   [0;1;30m [0;33m [0;1;30m▄▄[0;33m▄▄[0;1;30;43m▀▀▀[0;33m███▌▀▀      ▄▄[0;1;30;43m░░░░░░░▒[0;33m▓▓▌ [0;31m█[0;1;31;41m░░▒░░[0;31m█ ▀▀█[0;1;30;41m░░░[0m

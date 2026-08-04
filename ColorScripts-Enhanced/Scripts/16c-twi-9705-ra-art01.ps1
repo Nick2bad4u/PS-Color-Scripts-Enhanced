@@ -1,18 +1,4 @@
-﻿# Converted from: RA-ART01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twi-9705/raw/RA-ART01.ANS
-# Source Revision: archive-sha256:da02c43b1820a742de37b3fac57f43bf8bd10c99913580df5a1bac1c50a70bec
-# Source SHA-256: b8b58d89e115e9cd4cc835ee5f70665fb7e199068b3c295b70e932fa65ec6dcd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RA-ART01.ANS by Reanimator (Twilight); released in twi-9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ansi Art Select Screen
-# SAUCE Author: Reanimator
-# SAUCE Group: Twilight
-# SAUCE Date: 19970430
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Ansi Art Select Screen by Reanimator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twi-9705-ra-art01
 
 Write-Host '
 [1;33m█████[0;33m█[0;1;33m▀ [0;33m▄[0;1;33;43m▓[0;1;33;40m█[0;30;43m░▓[0;1;33;40m [0;33m▄▄▄[0;1;33m▄[0;1;33;43m▓▓[0;33m▄▄[0;1;33m [0;33m▀[0;30;43m░░[0;33;40m▄[0;1;33;40m [0;33m▐▌[0;1;33m [0;33m█[0;37m [0;33m▄[0;1;33;43m░░[0;1;33;40m [0m [1;30m▀▀▒▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▓▓░▀▀▀▀▀▀▀▀▀▀▀░[0m

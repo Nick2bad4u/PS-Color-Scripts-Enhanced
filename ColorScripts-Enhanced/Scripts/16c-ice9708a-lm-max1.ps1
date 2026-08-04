@@ -1,13 +1,4 @@
-﻿# Converted from: LM-MAX1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9708a/raw/LM-MAX1.ICE
-# Source Revision: archive-sha256:63deb9e752fa85f6afabd8a41875343388a49c3c7ad37b2b9b29f4bfd04a346f
-# Source SHA-256: 320e42af432f8a0b76735c82817ee79b1e701969c1240a59a0bdfd1f1e7c9f08
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LM-MAX1.ICE by Lemonade (ice9708a); released in ice9708a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: LM-MAX1.ICE by Lemonade | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9708a-lm-max1
 
 Write-Host '
           [33m░▄▄▄▄[0;1;33m▄▄   ▄▄▄▄  [0m

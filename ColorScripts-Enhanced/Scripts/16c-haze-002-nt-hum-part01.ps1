@@ -1,18 +1,4 @@
-﻿# Converted from: NT-HUM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/haze_002/raw/NT-HUM.ANS
-# Source Revision: archive-sha256:38330e2f246542d7e8592e16d69ba19463233f347fc04dc4d56a7647ea25c49d
-# Source SHA-256: 1e177549d35a44037e217b9ad2d50081e77f53f31d39a47b4220939dc36ae4e8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NT-HUM.ANS by notorious (haze); released in haze_002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hUma!
-# SAUCE Author: notorious
-# SAUCE Group: haze
-# SAUCE Date: 19950603
-# SAUCE Dimensions: 80x25
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: hUma! by notorious | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-haze-002-nt-hum-part01
 
 Write-Host '
 

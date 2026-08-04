@@ -1,18 +1,4 @@
-﻿# Converted from: SN!MAIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak8/raw/SN!MAIL.ANS
-# Source Revision: archive-sha256:ced165506b655ee7f3831f87db1b8e3be54d70977e70581005d4ce6480dd88ea
-# Source SHA-256: 7a28cbc3c822ce4cacbd79ea0f67f2f7885c4202d0ffff26651baec81ba315ce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SN!MAIL.ANS by S s s nowball (Ecolove); released in ecl-pak8 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Life is like a mailbox
-# SAUCE Author: S s s nowball
-# SAUCE Group: Ecolove
-# SAUCE Date: 19980725
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Life is like a mailbox by S s s nowball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak8-sn-mail
 
 Write-Host '
                         [1;30m         [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: OM-CR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cnc-0495/raw/OM-CR.ANS
-# Source Revision: archive-sha256:2750c3eb91102177ac7827a0c78cc6d205a04fd117977e6d1bb08e695e1ab2b4
-# Source SHA-256: 16c83df50e2eb664143584706c711d43b25b23ca263d72fc943306fcaabaade5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OM-CR.ANS by Omega Red (CaNCeR Productions); released in cnc-0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Corrupted Reality
-# SAUCE Author: Omega Red
-# SAUCE Group: CaNCeR Productions
-# SAUCE Date: 19950318
-# SAUCE Dimensions: 80x25
-# Lines: 125-155
-# Columns: 1-80
+﻿# Artwork: Corrupted Reality by Omega Red | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cnc-0495-om-cr-part04
 
 Write-Host '
                        [1;30m           [0;35m          [0m [34m▄▄▄▄▄■[0m [35m                   [0m

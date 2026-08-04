@@ -1,18 +1,4 @@
-﻿# Converted from: EC-FOOSH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/idle-03/raw/EC-FOOSH.ANS
-# Source Revision: archive-sha256:de0b9b28f255e1cb9ab562a1ef9b6f1152dc7f06e952e19862071341f6d6c4c3
-# Source SHA-256: e75555184eedbc0e8bf69f3d2df19a5101acbdf791b114ef7787eda2fe8514fc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EC-FOOSH.ANS by eclipse (idle); released in idle-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: foosh
-# SAUCE Author: eclipse
-# SAUCE Group: idle
-# SAUCE Date: 19961002
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: foosh by eclipse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-idle-03-ec-foosh
 
 Write-Host '
          [32m▄▄▄▄▄▄▄▄▄▄▄▄▄[0m           [1;30m [0m

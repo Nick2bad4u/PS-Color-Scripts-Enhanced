@@ -1,13 +1,4 @@
-﻿# Converted from: LCAVLN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aeon0196/raw/LCAVLN.ANS
-# Source Revision: archive-sha256:9e935a3f1a0af071af39ef1e6040e82687f7f35e199404521457c0b02c93f5c1
-# Source SHA-256: d1224f186cc631dd53e0171e4f743b8fbe0c68cf5777a435a9303b144cdc462c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LCAVLN.ANS by Lord Chaos-Wicked (aeon0196); released in aeon0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: LCAVLN.ANS by Lord Chaos-Wicked | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aeon0196-lcavln
 
 Write-Host '
                                 ▄▄▄▄▄

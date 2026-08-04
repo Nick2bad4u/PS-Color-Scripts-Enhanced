@@ -1,17 +1,4 @@
-﻿# Converted from: NOS-TLY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tly-0797/raw/NOS-TLY.ANS
-# Source Revision: archive-sha256:5bb0cd49c3d46bb576a64d19b10d0fa23d5e646525d28f816fb4edc749515e0a
-# Source SHA-256: 872e282e5829f8412957cd1bc9bbee46dbe4258c2895a0f45978fc9148e0675f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOS-TLY.ANS by nostalgic (triloxy); released in tly-0797 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the triloxy kid =)
-# SAUCE Author: nostalgic
-# SAUCE Group: triloxy
-# SAUCE Date: 19970624
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: the triloxy kid =) by nostalgic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tly-0797-nos-tly
 
 Write-Host '
 [36m░▄▄████████████████▄▄▀███▀▄▄████████████████████████████████[0;1;36;46m░░[0;36m██████[0;30;46m░[0;36;40m████[0;30;46m░[0;36;40m▀░   [0m

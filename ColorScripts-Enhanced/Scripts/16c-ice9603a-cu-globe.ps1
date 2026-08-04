@@ -1,18 +1,4 @@
-﻿# Converted from: CU-GLOBE.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9603a/raw/CU-GLOBE.ICE
-# Source Revision: archive-sha256:51bcd96b8979115d69f1f707dc5c3d398256f0ac7a750005c0ccb144327b6f27
-# Source SHA-256: 046cc54c8252493701448d8eedff33828d731a56175ca8ca96837c380695993e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CU-GLOBE.ICE by Cold and Ugly (iCE); released in ice9603a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Globe
-# SAUCE Author: Cold and Ugly
-# SAUCE Group: iCE
-# SAUCE Date: 19960321
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: The Globe by Cold and Ugly | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9603a-cu-globe
 
 Write-Host '
 [1;31m█[0;1;31;47m▄▄▄▓▓▓[0;1;31;40m███[0;1;37;40m [0;1;37;47m [0;1;37;40m██▄[0;1;31;40m▀███████████████▄▄    [0m

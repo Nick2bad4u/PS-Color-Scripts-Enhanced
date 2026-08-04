@@ -1,13 +1,4 @@
-﻿# Converted from: f3!xmas_card.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/chemical.reaction.blocks.in.my.brain.artpack.24-cro/raw/f3!xmas_card.ans
-# Source Revision: archive-sha256:d93b6f57500c71739ad12c4cba603136de93fb865ec281117f9125d23e977959
-# Source SHA-256: 20b4ba9fed4972ebba5564c7991c4bbd23cc3a695236d7b5f0551fabcb08cad4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: f3!xmas_card.ans by F3-Cro (chemical.reaction.blocks.in.my.brain.artpack.24-cro); released in chemical.reaction.blocks.in.my.brain.artpack.24-cro and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 46-89
-# Columns: 1-80
+﻿# Artwork: f3!xmas_card.ans by F3-Cro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-f3-xmas-card-part02
 
 Write-Host '
            [1;30m█▀[0m [1m▄▄███████████████[0;5;47m░[0;1;37m███[0;1;37;47m▒[0;1;37;40m███[0;1;37;47m▒▒[0;1;37;40m███[0;1;37;47m▒▒[0;1;37;40m███[0;1;37;47m▓▓[0;1;37;40m███[0;5;47m░[0;1;37m██[0;5;47m░[0;1;37;47m█████[0;1;37;40m▄▄[0m [1;30m▀█[0m

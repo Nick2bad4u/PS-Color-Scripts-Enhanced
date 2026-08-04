@@ -1,18 +1,4 @@
-﻿# Converted from: CH-JOLT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/air_0597/raw/CH-JOLT.ANS
-# Source Revision: archive-sha256:6fe653cdae1d1be3a85ad8606d04a6519ed3da6d9d33e501c49ef3bdd23379d9
-# Source SHA-256: 148ca1a8e02e6bd69be0219e9b59aba0169a5a3426729de62cf0134ea9b5bca3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CH-JOLT.ANS by chrom (air / vortex); released in air_0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: jolt loggo
-# SAUCE Author: chrom
-# SAUCE Group: air / vortex
-# SAUCE Date: 19970423
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: jolt loggo by chrom | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-air-0597-ch-jolt
 
 Write-Host '
  [1;32m──────────────────────────────────────────────────────────────────────────────[0m

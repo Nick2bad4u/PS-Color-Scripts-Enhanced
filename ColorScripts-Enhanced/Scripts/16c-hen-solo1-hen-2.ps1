@@ -1,18 +1,4 @@
-﻿# Converted from: HEN-#2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hen-solo1/raw/HEN-%232.ANS
-# Source Revision: archive-sha256:4d6a57db42f618276cb02441d9f7a0ae85a4c5b066d17e7411de33ce7bb70fa1
-# Source SHA-256: a32bba316f00e5d9310e92129eb5ca5d681ec98f011280c17e716caec245ab7c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HEN-#2.ANS by hennifer (solo); released in hen-solo1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ##2
-# SAUCE Author: hennifer
-# SAUCE Group: solo
-# SAUCE Date: 20000913
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: ##2 by hennifer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hen-solo1-hen-2
 
 Write-Host '
                                    [31m░░  [0m        [31m░░[0m

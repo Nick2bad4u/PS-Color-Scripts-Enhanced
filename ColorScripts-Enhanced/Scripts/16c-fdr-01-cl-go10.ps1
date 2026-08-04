@@ -1,18 +1,4 @@
-﻿# Converted from: CL!-GO10.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fdr-01/raw/CL!-GO10.ANS
-# Source Revision: archive-sha256:9413b8317ae532a8321557d5d3d1cb08aadb3372c739437bc2fde54e7706a363
-# Source SHA-256: 82ab8a496500fa64b0095ed0032ccb47a8f1d1e3f77f94591891b6ef37e782e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-GO10.ANS by Cleaner (Fire Dream); released in fdr-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Goto10
-# SAUCE Author: Cleaner
-# SAUCE Group: Fire Dream
-# SAUCE Date: 20121217
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Goto10 by Cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fdr-01-cl-go10
 
 Write-Host '
 

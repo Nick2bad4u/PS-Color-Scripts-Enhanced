@@ -1,17 +1,4 @@
-﻿# Converted from: BH-SKULL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rune0896/raw/BH-SKULL.ANS
-# Source Revision: archive-sha256:a41a6fd18e5a57ea19659d03cc5ff527cec9b4701f346aaff2f3d3658fc2ad09
-# Source SHA-256: 6db9636e014f677cd93846b8c2eba582ed585a366676a94d943f3447fa946474
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BH-SKULL.ANS by blackehawke (rune); released in rune0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: skull island menu set
-# SAUCE Author: blackehawke
-# SAUCE Group: rune
-# SAUCE Date: 19951101
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: skull island menu set by blackehawke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rune0896-bh-skull
 
 Write-Host '
 [32mbh[0;1;30m.[0mr[33mU[0;1;30mne [0;1;33m▄[0;1;33;43m▓▓▓[0;1;33;40m▀■▄▀[0;1;33;43m▓[0;1;33;40m▀[0;1;33;43m▓[0;1;33;40m▄[0m            [1;30;40m░[0m          [1;37;40m▄[0;1;37;47m▓[0;1;37;40m▄[0;1;37;47m▓▀▀▀░[0;1;37;40m▀[0;1;37;47m ▀▀▓[0;1;37;40m▄[0;1;37;47m░[0;1;37;40m▄    ▄[0;1;37;47m▓[0;1;37;40m▄[0;1;37;47m▓▀▒[0m▄

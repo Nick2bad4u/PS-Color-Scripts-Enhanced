@@ -1,13 +1,4 @@
-﻿# Converted from: HB-FROG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr028/raw/HB-FROG.ANS
-# Source Revision: archive-sha256:6270a47e1bed20f2b5496f39177e908c485ceed4df2272e4501bec218de0fddb
-# Source SHA-256: 19e2056fdecbeb7629493a894890b0f5cdecc614a6528258f147cc0f8e31594e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HB-FROG.ANS by Handiboy (blndr028); released in blndr028 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: HB-FROG.ANS by Handiboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr028-hb-frog
 
 Write-Host '
 [1;30m     [0;34m▐[0;37;44m▄[0;1;34;44m▄▄▄▄▄▄[0;34m█▌▄▄▄[0m     [34m░░[0m     [37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30m▌[0m

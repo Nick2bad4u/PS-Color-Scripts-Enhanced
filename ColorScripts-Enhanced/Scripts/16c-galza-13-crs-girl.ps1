@@ -1,18 +1,4 @@
-﻿# Converted from: CRS-GIRL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/galza-13/raw/CRS-GIRL.ANS
-# Source Revision: archive-sha256:2bfaa6ffc4b1669f02f94fda4171dde70fa1a6269a1dce4ffc89a76b0d9a7517
-# Source SHA-256: 32d92c2a295f226409ebf77b1d99ee6c1d5909b464240a3d22a13c083f967f2c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CRS-GIRL.ANS by Crasher (just-x/galza); released in galza-13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: pretty girl
-# SAUCE Author: Crasher
-# SAUCE Group: just-x/galza
-# SAUCE Date: 20010313
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: pretty girl by Crasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-galza-13-crs-girl
 
 Write-Host '
 [34m [0m

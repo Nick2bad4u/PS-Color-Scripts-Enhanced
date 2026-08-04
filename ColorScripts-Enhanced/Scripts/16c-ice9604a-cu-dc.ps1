@@ -1,18 +1,4 @@
-﻿# Converted from: CU-DC.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9604a/raw/CU-DC.ICE
-# Source Revision: archive-sha256:a8f8a3430f1223583f5ba829d23fcb523e4712909ac7211db98ebd0249624ef2
-# Source SHA-256: d17ad0ed8bdbfc449328590ab849de895dd28c0ff18dbf32b56003f44b36867c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CU-DC.ICE by Cold and Ugly (iCE); released in ice9604a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Diet Cola
-# SAUCE Author: Cold and Ugly
-# SAUCE Group: iCE
-# SAUCE Date: 19960429
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Diet Cola by Cold and Ugly | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9604a-cu-dc
 
 Write-Host '
 [1;30m     ▀▄▄  [0m       [1;30m ▄[0m [1;30m▀[0m           [1;31m▄[0m [1;31m▀[0m [1;31m▄[0m [1;33m ▄[0;1;31m▀[0m [1;31m▄[0m  [1;31m▄[0m [1;30m▀[0m [1;30m▄[0m           [1;30m▐▌[0m   [1;30m▐▌ [0m

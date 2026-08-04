@@ -1,18 +1,4 @@
-﻿# Converted from: JDA_TBH3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg0197/raw/JDA_TBH3.ANS
-# Source Revision: archive-sha256:d6e39a9bb1cc3ba4355876c2b38330dd07fbdcfc71c0518bb4f64dddca37b120
-# Source SHA-256: 511284421eb6bf61b2bc2eca0fa28d3cab89c1bf002ad22d2e9efac52a65feb5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JDA_TBH3.ANS by Joda (deranged); released in drg0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the black hackers
-# SAUCE Author: Joda
-# SAUCE Group: deranged
-# SAUCE Date: 19970107
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: the black hackers by Joda | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg0197-jda-tbh3
 
 Write-Host '
 

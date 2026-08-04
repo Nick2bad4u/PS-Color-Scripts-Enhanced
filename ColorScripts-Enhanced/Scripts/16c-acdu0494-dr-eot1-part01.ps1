@@ -1,18 +1,4 @@
-﻿# Converted from: DR-EOT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0494/raw/DR-EOT1.ANS
-# Source Revision: archive-sha256:cda9410890e0ae8f5b3a1e8c7fce4e1b3de00d8e334ef300576869cead7a6b53
-# Source SHA-256: 660b20619cad63c9e4e0b63fe9fe820eb53cc30cf21c8c9c97aa0266742dd046
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DR-EOT1.ANS by Duster (ACiD Productions); released in acdu0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: End of Time
-# SAUCE Author: Duster
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940311
-# SAUCE Dimensions: 80x153
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: End of Time by Duster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0494-dr-eot1-part01
 
 Write-Host '
  [34m▄[0;34;44m   [0;1;34;44m░░▒▒▒▓▓▓▓▓▓▒░▒▓▓[0;1;34;40m███████[0;1;34;44m▓▒░                  ░░░░░░▒▒▒▒▓▓▓▓▓[0;1;34;40m█████▄▄[0;1;37;40m▀███████[0m

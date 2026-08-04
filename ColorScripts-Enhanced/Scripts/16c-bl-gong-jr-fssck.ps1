@@ -1,18 +1,4 @@
-﻿# Converted from: JR_FSSCK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl-gong/raw/JR_FSSCK.ANS
-# Source Revision: archive-sha256:c90e04c94a395e53e928512945d220d1fff4c215b177bbe4ea888b6b9ab8350e
-# Source SHA-256: 1adea1883e802625f9d2649accf92e2c96ec811b825a44d674ace43962d0f1ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_FSSCK.ANS by jerusalem (boil); released in bl-gong and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: FS security-checker.
-# SAUCE Author: jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19970405
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: FS security-checker. by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-gong-jr-fssck
 
 Write-Host '
 [1m██[0;1;33;47m░[0;1;30;47m ░░ ▐[0;1;30;40m▓[0m[ [1;30m.......................... ][0;1;37m█[0;1;30;47m [0;1;30;40m▌[0;1;33;40m  [0m         [1;33m░[0;33m▌[0;1;33m▄▄▄▄▄[0;33m▄▄█▓▐[0m

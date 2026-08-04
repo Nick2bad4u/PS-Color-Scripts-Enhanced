@@ -1,18 +1,4 @@
-﻿# Converted from: GI-MAS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ls-0596/raw/GI-MAS2.ANS
-# Source Revision: archive-sha256:66356efc2c42db2c2b9e33fd619f1e9d3ad138f2dd82375810dc37ad60467936
-# Source SHA-256: 1426fde6e25d1e2dc21e3111e31787b2f328070a4f19a6342aa13f3bbc602cef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GI-MAS2.ANS by giger (leper society); released in ls-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: masochism (install)
-# SAUCE Author: giger
-# SAUCE Group: leper society
-# SAUCE Date: 19960403
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: masochism (install) by giger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ls-0596-gi-mas2
 
 Write-Host '
 [32m▄[0;1;32;42m▄████▀▀▀░[0;32m▀▀▀▀▀▀▄[0;37m  [0;32m▄[0m      [32m▄▀▀▓[0;1;32;42m▀[0;32m▀▀▀▀▀▀▀▀▄▄[0m    [32m▄[0;37m [0;34m▀▀▓██▀▀ █[0;1;34;44m░░░[0;34m▀▀▀[0;1;34;44m░░[0;34m▀▀▀[0;1;34;44m▒░░[0;34m▀▀[0;1;34;44m▒▓▓▓██[0;1;34;40m▄[0m

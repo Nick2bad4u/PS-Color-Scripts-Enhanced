@@ -1,18 +1,4 @@
-﻿# Converted from: FS-AWORL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-11/raw/FS-AWORL.ANS
-# Source Revision: archive-sha256:fb569ca0f426a612fae941c52b66a1bf2185c5bf71d8e011fd47447565da1174
-# Source SHA-256: aeb95ad64de85a78279395704e83b53b81642f765ba58882af90edbbc62dec6f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FS-AWORL.ANS by flipside (fORCE); released in force-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: another world
-# SAUCE Author: flipside
-# SAUCE Group: fORCE
-# SAUCE Date: 19960903
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: another world by flipside | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-11-fs-aworl
 
 Write-Host '
                                    [36m▄▄▄[0m       [36m▄▄▄[0m    [36m▄[0m

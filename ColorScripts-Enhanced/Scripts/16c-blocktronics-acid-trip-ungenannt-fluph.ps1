@@ -1,19 +1,4 @@
-﻿# Converted from: ungenannt_fluph.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_acid_trip/raw/ungenannt_fluph.ANS
-# Source Revision: archive-sha256:c0717ff5cb7d462ed7fa9a55edd7235adbd3f09e01132486021497c9281171b6
-# Source SHA-256: 9fc72339fc59e228473799f52db2682204b218af5e77b1f15d5b37ee68d96089
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ungenannt_fluph.ANS by ungenannt (blocktronics); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fluph
-# SAUCE Author: ungenannt
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x45
-# SAUCE Font: IBM VGA
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: fluph by ungenannt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-acid-trip-ungenannt-fluph
 
 Write-Host '
 [1;35m██▀▀▌▀■[0;30m█[0;1;31m░░[0;1;35m [0;35m▄▄███▓▓░▄[0;1;31;45m░░[0;35m██▌▄  [0;30m███[0;35m█[0;1;32;45m░[0;30m██[0;35m■▀[0;30m█[0;35m▀▀[0;1;31;45m░░[0;1;32;45m░[0;35m▄  [0;1;31m░▄[0;1;31;45m░░[0;35m█[0;1;32;45m░▓[0;1;32;40m▄▄[0;35m ▀██[0;30m██[0;35m███[0;1;32;45m░[0;35m▄██[0;1;32;45m░[0;30m██[0;35m██[0;1;32;45m░[0;35m▄[0;30m█[0;35m▀█▄[0m

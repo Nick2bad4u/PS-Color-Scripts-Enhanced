@@ -1,18 +1,4 @@
-﻿# Converted from: D5-DUNNO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gel-008/raw/D5-DUNNO.ANS
-# Source Revision: archive-sha256:6648b5dbd386c97319d5eb0d536ae1cd7ddc2539e4b7022245fc97306a45a869
-# Source SHA-256: 6f8f041554266d3822a4e37d2273477c09a101eeee99a20a429f25d1df137753
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D5-DUNNO.ANS by dee five (gel); released in gel-008 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ???... free for anyone =)
-# SAUCE Author: dee five
-# SAUCE Group: gel
-# SAUCE Date: 19971025
-# SAUCE Dimensions: 80x25
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: ???... free for anyone =) by dee five | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gel-008-d5-dunno
 
 Write-Host '
 [1;47m████▓▓▒▒░░[0m██████████████████████████████████████████████████████████████████████

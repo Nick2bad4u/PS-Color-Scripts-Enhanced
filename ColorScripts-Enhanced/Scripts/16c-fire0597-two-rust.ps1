@@ -1,17 +1,4 @@
-﻿# Converted from: TWO-RUST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0597/raw/TWO-RUST.ANS
-# Source Revision: archive-sha256:d975415729673826f91e424c4e11b4c04f34184fd3a18803a91e92ec4aab5c0b
-# Source SHA-256: 6f25f86a2b06cca1c439002835c5936267abe70eb132396205b088be95b24985
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TWO-RUST.ANS by fire from heaven (fire); released in fire0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Rust
-# SAUCE Author: fire from heaven
-# SAUCE Group: fire
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Rust by fire from heaven | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0597-two-rust
 
 Write-Host '
   [31m░░     ▓▓▓██▀▀[0;37m  [0;31m▄▄▄▄▄▄▄▀▀██▄▄[0;37m [0;31m▀█▀ █▀ ▄▄██▄▄▀▀███▓▄    [0;1;37m         [0m

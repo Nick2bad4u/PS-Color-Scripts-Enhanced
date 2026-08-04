@@ -1,18 +1,4 @@
-﻿# Converted from: 33-STB12.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/33rules/raw/33-STB12.ANS
-# Source Revision: archive-sha256:6cf2aef8e3ca97e1761e1ee4a8ba395e4fdab4dec9d3b2efb91c059359b50b00
-# Source SHA-256: 838fede595f8520dc105697f5ab4ffd34ff8e86882061b4b5f134403e3738f2f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-STB12.ANS by Integrity 06/95 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Sarcastic Toaster
-# SAUCE Author: Integrity 06/95
-# SAUCE Group: Eerie
-# SAUCE Date: 19950531
-# SAUCE Dimensions: 80x124
-# Lines: 46-91
-# Columns: 1-80
+﻿# Artwork: Sarcastic Toaster by Integrity 06/95 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-33rules-33-stb12-part02
 
 Write-Host '
 [31m▐▌[0;1;31m▐[0;1;31;41m░░[0;31;47m▓[0;31;40m██▀[0;1;35;40m▄[0;1;35;41m▓[0;1;35;40m█▀▀▄▀█[0;1;35;47m▓▒▓[0;1;35;40m▄[0m       [1;35;40m▐█[0;1;35;47m▓▒▒[0;1;35;40m█▄[0;1;31;40m▀[0;1;31;47m▓[0;1;31;40m▌[0;1;37;40m▐[0;1;37;47m▒[0m██▀▀[1;47m░▒▓[0;1;40m▌▐[0;1;47m▒[0m███▄████[47m [0;1;47m▓█[0;1;40m█ [0m▀▓   ██████[1m▄ [0;31m▄[0;1;31;47m▓[0;1;31;40m█[0m

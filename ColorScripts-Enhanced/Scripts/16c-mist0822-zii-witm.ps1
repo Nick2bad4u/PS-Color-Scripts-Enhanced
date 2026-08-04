@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-WITM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0822/raw/ZII-WITM.ANS
-# Source Revision: archive-sha256:ed72a43421208b7431337d20b0e65cf1daa85d400f3cf90754e23de5d5edd83f
-# Source SHA-256: 7ad2cc80850083f5958cff6290fd5bdf44d3d2ff53325a3a249775e696f9e4bb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-WITM.ANS by Zeus II (Mistigris); released in mist0822 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Whispers in the Moss
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20220517
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Whispers in the Moss by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0822-zii-witm
 
 Write-Host '
 [1;30m▄█[0;1;30;47m▓[0;1;30;40m██▀▀▀[0m [1;30m▄▄▄▄[0m  [1;30m▀█▓[0;1;30;47m▓[0;1;30;40m█▄▄▀▀▀█[0;1;30;47m▓[0;1;30;40m█[0;1;30;47m▓░[0;1;30;40m█▓████[0;1;30;47m░[0;1;30;40m██[0;1;30;47m▄▄▄░ ▀▀░[0;1;30;40m█████▓[0;1;30;47m▀[0;1;30;40m████[0;1;30;47m▀▄░[0;1;30;40m██▓██[0;1;30;47m░▀▀ ▄ ▄[0;1;30;40m█[0;1;30;47m░▄▄[0;1;30;40m██[0;1;30;47m█[0m

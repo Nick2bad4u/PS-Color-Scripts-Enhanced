@@ -1,18 +1,4 @@
-﻿# Converted from: US-ANSI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lure001/raw/US-ANSI.ANS
-# Source Revision: archive-sha256:4bd385abce2c9c5a8caaface84fa74809f8b3dae67f2f4374e4664550d5af3bf
-# Source SHA-256: 19b5f03ecabe529f723330942e54a4d7178e6ce415ac98cdfb1955b114276a25
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ANSI.ANS by Avenging Angel + Grymmjack (hieroglyphics); released in lure001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ansi yo
-# SAUCE Author: avg_ and grymmjack
-# SAUCE Group: hieroglyphics
-# SAUCE Date: 20010728
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: ansi yo by Avenging Angel + Grymmjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lure001-us-ansi
 
 Write-Host '
 

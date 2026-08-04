@@ -1,18 +1,4 @@
-﻿# Converted from: mmc16-08.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bommc01/raw/mmc16-08.ans
-# Source Revision: archive-sha256:0e202a554be4c5a61c37230b2f619caf545c069dc1c49e22f04718c59893cd7d
-# Source SHA-256: a1dce2e36d664f0f836b968d3bba668d79f0d149076592ed8daffac846d0816c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mmc16-08.ans by h7 (mmc); released in bommc01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: spinal
-# SAUCE Author: h7
-# SAUCE Group: mmc
-# SAUCE Date: 19991015
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: spinal by h7 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bommc01-mmc16-08
 
 Write-Host '
                                       [33m,[0;1;33my[0;33m,[0m                    [37m [0m

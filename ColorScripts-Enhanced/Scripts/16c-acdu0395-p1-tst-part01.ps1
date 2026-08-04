@@ -1,18 +1,4 @@
-﻿# Converted from: P1-TST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0395/raw/P1-TST.ANS
-# Source Revision: archive-sha256:c61de425dfa6c17c15d8c7a3f501188ae0f41871982f3a874a318b2cadecd44e
-# Source SHA-256: bdf01ab42db260da8fc5b4fb726eb7f93fda30c3b9de011ebe0614f77cd4dcea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P1-TST.ANS by prisoner number one (ACiD Productions); released in acdu0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Screaming Tomato
-# SAUCE Author: prisoner number one
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950301
-# SAUCE Dimensions: 80x183
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: The Screaming Tomato by prisoner number one | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0395-p1-tst-part01
 
 Write-Host '
                      [36m▀[0m

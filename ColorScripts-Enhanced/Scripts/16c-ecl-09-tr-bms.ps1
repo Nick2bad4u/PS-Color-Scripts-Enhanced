@@ -1,18 +1,4 @@
-﻿# Converted from: TR-BMS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-09/raw/TR-BMS.ANS
-# Source Revision: archive-sha256:6c371ec8bbb75e88f59630021fbbd23f2fc630c10ee1cde240cc20faafea1ca9
-# Source SHA-256: 68fb5fb9ef5aea289482d762c5051259bf0b8837a5ace339169da54a9998c853
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-BMS.ANS by Tarot (Eclipse&Blend); released in ecl-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Blood, milk & sky
-# SAUCE Author: Tarot
-# SAUCE Group: Eclipse&Blend
-# SAUCE Date: 19961215
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Blood, milk & sky by Tarot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-09-tr-bms
 
 Write-Host '
        [31mblud[0m          [37mmylk[0m    [1;32m&[0m    [34mskie[0;37m  [0;36m█[0;1;36;46m▄▓▓[0;1;36;40m█████████████████[0;1;37;40m█[0;1;36;40m█[0;1;37;40m██[0;1;36;40m█████[0;1;36;46m▄▄ [0;36m▌[0;37m [0;33m█[0;1;31;43m▀░[0;33m▌[0m

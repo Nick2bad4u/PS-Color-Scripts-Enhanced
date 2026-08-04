@@ -1,18 +1,4 @@
-﻿# Converted from: RS-MD2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9612/raw/RS-MD2.ANS
-# Source Revision: archive-sha256:7d43e63ae2db90d8db330e19aba6fa45cd28e0b1ce3f3269a9d48b4adf2a6fa9
-# Source SHA-256: 6866484ee71f0924b4d84109c359ddb22b10cd2e059db946b6d69079350da48f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-MD2.ANS by rorsh4ck (Maiden Brazil!); released in mdn-9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: mental disorder
-# SAUCE Author: rorsh4ck
-# SAUCE Group: Maiden Brazil!
-# SAUCE Date: 19961120
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: mental disorder by rorsh4ck | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9612-rs-md2
 
 Write-Host '
                               [1;30m░[0m

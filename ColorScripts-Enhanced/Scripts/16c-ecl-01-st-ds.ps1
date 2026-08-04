@@ -1,18 +1,4 @@
-﻿# Converted from: ST-DS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-01/raw/ST-DS.ANS
-# Source Revision: archive-sha256:98f7ca14920172db6145e44afa4b8ac94de6e46d94b8cf326e89a96c3e7e5c1b
-# Source SHA-256: b64f2634c78342ad117902366bf62632a2ec9596c32bd61193a745b7755ba4ee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-DS.ANS by splatt=paco (eclipse); released in ecl-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: death*
-# SAUCE Author: splatt=paco
-# SAUCE Group: eclipse
-# SAUCE Date: 19960606
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: death* by splatt=paco | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-01-st-ds
 
 Write-Host '
   [1m   [0m [1m     [0m

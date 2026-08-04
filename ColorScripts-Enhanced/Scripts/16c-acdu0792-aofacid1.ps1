@@ -1,13 +1,4 @@
-﻿# Converted from: AOFACID1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0792/raw/AOFACID1.ANS
-# Source Revision: archive-sha256:c1f89246ee030ee53ad4f4f0ca24668f73a08f89ecd499ef9148ebcc992b9b4d
-# Source SHA-256: 508c59bdb14d86d7458f0d96eb46e17173d5e5efed517aa71a4d652ceba4f121
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AOFACID1.ANS by Darkman (acdu0792); released in acdu0792 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: AOFACID1.ANS by Darkman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0792-aofacid1
 
 Write-Host '
                               [1;30m░[0m

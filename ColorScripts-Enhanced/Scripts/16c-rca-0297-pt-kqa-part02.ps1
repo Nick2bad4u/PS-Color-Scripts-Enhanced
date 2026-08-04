@@ -1,18 +1,4 @@
-﻿# Converted from: PT-KQA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-0297/raw/PT-KQA.ANS
-# Source Revision: archive-sha256:05d734ffa62e5884411f00e8c0f6959c06f165738a13021b90f9ca088ae9d885
-# Source SHA-256: 778a71a499eeb440892ff9836761a0d468101c29fcf939b0b6aee5ac2d254dc7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PT-KQA.ANS by paratoxic (RCA); released in rca-0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: k4lsqu3ll 4ddicts
-# SAUCE Author: paratoxic
-# SAUCE Group: RCA
-# SAUCE Date: 19970209
-# SAUCE Dimensions: 80x58
-# Lines: 30-58
-# Columns: 1-80
+﻿# Artwork: k4lsqu3ll 4ddicts by paratoxic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-0297-pt-kqa-part02
 
 Write-Host '
      [36m▀[0m    [33m▀▀▀▀▀ ▄░ ▀[0m    [1;37m▄████▀▀▓▀██▄ [0;1;30m▄[0;1;30;47m▓[0;1;30;40m█▄[0;1;37;40m [0;1;30;47m░[0m▌     [36m▐▌[0;37m  [0;34m▄▄[0;1;30m▀▀▀▓▀[0m░░▀[1m▀▀[0m [34m▄[0;37m  [0;1;33m▐▓▌[0m   [33m  [0;36m▄▄▄[0m

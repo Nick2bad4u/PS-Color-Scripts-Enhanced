@@ -1,18 +1,4 @@
-﻿# Converted from: K1-WICKM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-04/raw/K1-WICKM.ANS
-# Source Revision: archive-sha256:1dcdf112160ec589150680778cd449e8af485dfba89bb104c44cd133db2d6fc0
-# Source SHA-256: 05a97de3aebaac1b8a7d2aedb60b7bb55596b4469846353afa7d477a2b3a772d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K1-WICKM.ANS by Knocturnal (The Used Coalition); released in used-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Wicked Minority
-# SAUCE Author: Knocturnal
-# SAUCE Group: The Used Coalition
-# SAUCE Date: 20000317
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Wicked Minority by Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-04-k1-wickm
 
 Write-Host '
 [33m▀▀▀▀▀[0;1;30m [0;36m▄[0;1;37m▄▄[0;36m▄[0;1;30m  [0;33m████▀[0;1;30m▀   [0;36m▄▄▄[0;1;30m ▀[0;33m▀▀▀▀▀▀▀▀▓▓ [0;1;30;47m▓▒[0m▄[1;30m▀ [0;33m [0;31m▄▄▄▀▓██████▄█████████████████▄▓▓[0;1;30m▀██▀[0m

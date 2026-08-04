@@ -1,18 +1,4 @@
-﻿# Converted from: IS-AMEND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/soda01/raw/IS-AMEND.ANS
-# Source Revision: archive-sha256:fd785e634db8c9b72fb2a375134ff28fdd28387050eb5c9eb634ac8f5cd5a266
-# Source SHA-256: b44b15fc7b5eee67450fd3db9fd6fa446f9cd967f62e1ce7b9a8b712bdf6d8bc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IS-AMEND.ANS by prosthesis (sodapop family); released in soda01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: amend main
-# SAUCE Author: prosthesis
-# SAUCE Group: sodapop family
-# SAUCE Date: 19980118
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: amend main by prosthesis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-soda01-is-amend
 
 Write-Host '
 [34m▌[0;37m [0;34m▌[0;37m [0;1;30m▀  ▄[0;1;30;43m▓▓[0;33m [0;37m [0;34m▌[0;37m [0;1;30;43m▒▒░░▒░░[0;33m█[0;1;30;43m░[0;33m████[0;1;33;43m░[0;33m█[0;1;33;43m░░░░░▒░▒▓▓▓██[0m  [31m▄██████████████████[0;1;35;41m   [0;31m█[0;1;35;41m [0;31m████████████[0m

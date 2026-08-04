@@ -1,18 +1,4 @@
-﻿# Converted from: ZR33-TST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1196/raw/ZR33-TST.ANS
-# Source Revision: archive-sha256:5ead8e3831b0e7e4fb08cb50a9bd46bef89f70a508708d634cb00220e9348a64
-# Source SHA-256: 635c4d0f58d0f17b2c1dbfb223d5f444dbe8ff162b0cf31a087ce5f6a56a272d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZR33-TST.ANS by Zoltar + Eerie (Mistigris); released in mist1196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Screaming Tomato
-# SAUCE Author: Zoltar/Eerie
-# SAUCE Group: Mistigris
-# SAUCE Date: 19941219
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: The Screaming Tomato by Zoltar + Eerie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1196-zr33-tst
 
 Write-Host '
 

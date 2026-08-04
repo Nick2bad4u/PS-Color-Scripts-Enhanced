@@ -1,18 +1,4 @@
-﻿# Converted from: NS-HG333.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-04/raw/NS-HG333.ANS
-# Source Revision: archive-sha256:fa04f9284176600bd187f5f89edb1d3f52550711ec8063377e14a2ec045346f2
-# Source SHA-256: 728381ec3f7572103d58cb8ab95f2c8df1a0784460e51c623e08092d263effda
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NS-HG333.ANS by Ansichrist (Hieroglyphics); released in hiero-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Hieroglyphics
-# SAUCE Author: Ansichrist
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20001127
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Hieroglyphics by Ansichrist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-04-ns-hg333
 
 Write-Host '
 

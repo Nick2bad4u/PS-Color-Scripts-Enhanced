@@ -1,17 +1,4 @@
-﻿# Converted from: BV-PUL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0696/raw/BV-PUL2.ANS
-# Source Revision: archive-sha256:812b4b6a142b76b92307dc090cdf58b49035a2b9097d1dc0a43da5e4fd3f4f2d
-# Source SHA-256: e9d50808dc5a6b1397694f7688622773932e62a30c6c979a134cac96afc75b7a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BV-PUL2.ANS by Black Viper + Fluor (fire0696); released in fire0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Pulse
-# SAUCE Author: Black Viper
-# SAUCE Date: 19960607
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Pulse by Black Viper + Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0696-bv-pul2
 
 Write-Host '
  [1;30m█▀[0m   [1;34m▄▄▀[0m [1;30m▀▀[0m [1;30m▀[0m [1;30m▀[0m [34m░░[0;37m  ░░░ ░░[0;1;30m▓▓▓▄▄▄▄▀▀[0;1;30;47m▓▓[0;1;30;40m▓▓▓▒▒░[0m          [33m ▄[0;1;31m▄▄█[0;1;31;47m▓[0;1;31;43m▄[0;1;31;40m▄▄[0;33m▄   [0;1;31m▄▄[0;1;31;43m▄[0;1;31;40m▄ ▄[0m

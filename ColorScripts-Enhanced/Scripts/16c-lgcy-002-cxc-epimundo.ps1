@@ -1,19 +1,4 @@
-﻿# Converted from: cxc-epimundo.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-002/raw/cxc-epimundo.ans
-# Source Revision: archive-sha256:035806f627526bbca92fb6becafc359d23b231b3ea478b7169ed62b6d2a1cc54
-# Source SHA-256: 5e302a37c8b24f68bbd53aa0c8f16d52b3b04438983c6f5c8a330064d65b1435
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cxc-epimundo.ans by CoaxCable (Legacy Krew); released in lgcy-002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Epimundo
-# SAUCE Author: CoaxCable
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20200510
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Epimundo by CoaxCable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-002-cxc-epimundo
 
 Write-Host '
 

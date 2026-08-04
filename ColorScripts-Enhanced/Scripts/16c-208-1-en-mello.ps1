@@ -1,18 +1,4 @@
-﻿# Converted from: EN-MELLO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/208-1/raw/EN-MELLO.ANS
-# Source Revision: archive-sha256:6cb34ee852f6d91586d49330a9d5bffc831f84b677b4f24f6c820c02c8f757bd
-# Source SHA-256: faeb55a228493e05937d5d5c48df1396b7d560dfa83f38bf1d564ffde7dda8d5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EN-MELLO.ANS by el ni$o (room 208); released in 208-1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: mellow
-# SAUCE Author: el ni$o
-# SAUCE Group: room 208
-# SAUCE Date: 19981210
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: mellow by el ni$o | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-208-1-en-mello
 
 Write-Host '
      [34m■[0;32m [0;1;34m [0;36m                          [0;37m  [0;1;30m▄[0;33m▄[0;1;33m▄ [0;33m▄[0;1;33m▄▄▄▄[0m

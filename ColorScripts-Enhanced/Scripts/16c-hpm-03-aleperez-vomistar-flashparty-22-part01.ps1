@@ -1,18 +1,4 @@
-﻿# Converted from: aleperez-vomistar_flashparty_22.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hpm-03/raw/aleperez-vomistar_flashparty_22.ans
-# Source Revision: archive-sha256:f306b491a21cb141b48eee782e0899699764f418773c4914057147ff246d8ce4
-# Source SHA-256: c8e4a05fc924b8f86900b8cca9a9893cb7086e5b03ae3476f46fe172cb462e73
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: aleperez-vomistar_flashparty_22.ans by aleperez (hpm-03); released in hpm-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fuck vomistar
-# SAUCE Author: aleperez
-# SAUCE Date: 20221016
-# SAUCE Dimensions: 80x250
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: fuck vomistar by aleperez | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hpm-03-aleperez-vomistar-flashparty-22-part01
 
 Write-Host '
           [1;30m░░░░░░░░░[0;32m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

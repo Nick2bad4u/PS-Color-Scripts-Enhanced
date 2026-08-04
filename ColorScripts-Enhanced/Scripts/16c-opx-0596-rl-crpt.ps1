@@ -1,18 +1,4 @@
-﻿# Converted from: RL!-CRPT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0596/raw/RL!-CRPT.ANS
-# Source Revision: archive-sha256:06f164afecd2a38c1a107122cbc0c2c2d07c6484c9e867e2eecffd5f8b0065bf
-# Source SHA-256: 142e7b2f12ca5b539f0a3a7d077189b552a650a37ceb60f4bc68d16a08dab34a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL!-CRPT.ANS by Rawlock (Opium); released in opx-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Corrupt System
-# SAUCE Author: Rawlock
-# SAUCE Group: Opium
-# SAUCE Date: 19960429
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: Corrupt System by Rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0596-rl-crpt
 
 Write-Host '
  [33m▀▀▀▀▀▓▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀█▀▀▀▀▀▀▀[0;37m [0;35m▄[0;1;35m▄[0;35m [0;1;35m▄▄▄▄▄[0;35m [0;33m▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀[0m

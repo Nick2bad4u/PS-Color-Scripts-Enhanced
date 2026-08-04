@@ -1,13 +1,4 @@
-﻿# Converted from: CY-CN.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-09/raw/CY-CN.ICE
-# Source Revision: archive-sha256:1fcbf4aa1710b0a53349a8ea40276f5225ba911f5e9d163ab7e96a35bbed2cd0
-# Source SHA-256: 831438eecdf2136e133fd28b4208741fc260745a773da61156712b5a6762ebd1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CY-CN.ICE by Cyclonus (icepk-09); released in icepk-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 49-68
-# Columns: 1-80
+﻿# Artwork: CY-CN.ICE by Cyclonus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-09-cy-cn-part02
 
 Write-Host '
                 [1m▄[0m                        [1m▄[0m

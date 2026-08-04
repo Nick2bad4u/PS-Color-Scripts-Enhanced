@@ -1,19 +1,4 @@
-﻿# Converted from: US-NOC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend06/raw/US-NOC.ANS
-# Source Revision: archive-sha256:bdb12df6fb66b6e7f7ab1240c15e9b23d66b94ced69828c85c717709162a24eb
-# Source SHA-256: aaffb8d3065afe3996e7b2a6c20072dbff0d82f5ee34543f8205f693ec1b12f4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-NOC.ANS by all of us!@ (bl3nd&shade); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: nocturnal desire or something!@
-# SAUCE Author: all of us!@
-# SAUCE Group: bl3nd&shade
-# SAUCE Date: 19970211
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: hohooo
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: nocturnal desire or something!@ by all of us!@ | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend06-us-noc
 
 Write-Host '
             [34m     [0m                                      [30;41m▓▓[0m

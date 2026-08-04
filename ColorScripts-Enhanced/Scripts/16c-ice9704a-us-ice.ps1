@@ -1,18 +1,4 @@
-﻿# Converted from: US-ICE.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9704a/raw/US-ICE.ICE
-# Source Revision: archive-sha256:afaee15a3d0dc97869d0b30f626c40f1e86254d9eab5d72e1a8ed0e96379737a
-# Source SHA-256: df6e2f96eb23ac9a61e2669f808c2ae7cf380f1a3294614d75bd27c0daa4ad8c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ICE.ICE by Shadow + Avenger (mean scheme / ice); released in ice9704a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ice
-# SAUCE Author: ave / shadow
-# SAUCE Group: mean scheme / ice
-# SAUCE Date: 19970430
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: ice by Shadow + Avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9704a-us-ice
 
 Write-Host '
 [1;30m                 [0m [1;30mshadow/ice[0m [34m▄▄▄▄▄▄▄ ▀[0;1;34;44m▀█▓░[0;34m█[0;34;46m▓▓[0;34;40m█[0;37;40m  [0;34;40m█▌[0;37;40m  [0;1;30;40m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SMP-RGN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-19/raw/SMP-RGN.ANS
-# Source Revision: archive-sha256:db429aaaa9cca2e4296dcb178b9b345b980b5c7d6fe930188ea53fede20ed269
-# Source SHA-256: 69ab37bdc0a9e74df4e3fa163f2fd8961f0409e4d936ded09897b0efc373ea8f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-RGN.ANS by Shrimp (AWE Lettering); released in awe-19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Reign
-# SAUCE Author: Shrimp
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981128
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Reign by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-19-smp-rgn
 
 Write-Host '
  shrimp[1mawe[0m               [31m▄▄▀[0;37m [0;31m [0m    [31m▌[0;36m  [0m

@@ -1,17 +1,4 @@
-﻿# Converted from: N-S6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0297/raw/N-S6.ANS
-# Source Revision: archive-sha256:12d66e55bc50470ef328e6f9ec21c65dbe558f61a1cf46f5aac359e3cb051dfe
-# Source SHA-256: 4852c09a143af15550dadbf135342a7c3c05ca209971122e7b55e82ca87cdca2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-S6.ANS by nail (fire0297); released in fire0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: screen 6
-# SAUCE Author: nail
-# SAUCE Date: 19970126
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: screen 6 by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0297-n-s6
 
 Write-Host '
     [34m▄[0;1;34m▄[0;1;34;47m▓[0;1;34;44m▄░[0;34m▀▀[0;37m  [0;33m▄ ▀[0;1;30m  ▄[0;1;30;47m▀[0;1;37;47m▄░[0;1;30;47m▀[0;1;30;40m▌[0;34m  [0;1;30m▄[0;1;30;47m▀[0;1;37;47m▐▄█████▓░[0;1;30;47m▐[0;1;30;40m▌[0;34m [0;1;30m▄[0;1;30;47m▓░[0;1;37;47m██▄[0;1;30;47m▀[0;1;30;40m▄[0m [1;30m▀█▀▀[0;1;30;46m▓▓[0;1;30;40m▀▀▀[0m             [1;30m▀[0;36m▀▀▀[0;1;36;46m░▀▓▓[0m

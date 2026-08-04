@@ -1,18 +1,4 @@
-﻿# Converted from: DAROKIN_CMYK-SKULL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1023/raw/DAROKIN_CMYK-SKULL.ANS
-# Source Revision: archive-sha256:85986912ea2464623a6cb0e6c05b9b87ede10865c5aaf338ceaa9a86cac2b00a
-# Source SHA-256: 2018dfd923af494bdf17a6db5616971787e49648fc5dac1f75c74721038ce2cb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DAROKIN_CMYK-SKULL.ANS by Darokin (mist1023); released in mist1023 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: CMYK skull
-# SAUCE Author: Darokin
-# SAUCE Date: 20231025
-# SAUCE Dimensions: 80x60
-# SAUCE Font: IBM VGA
-# Lines: 31-59
-# Columns: 1-80
+﻿# Artwork: CMYK skull by Darokin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1023-darokin-cmyk-skull-part02
 
 Write-Host '
                          [1;33m░[0m   [1;33m▐[0;1;35m░[0;1;33m▓[0;1;35m░▌[0;1;33m░[0;1;35;46m▒[0;1;35;42m░[0;1;35;40m▓[0;1;33;46m▓▌[0;1;36;46m▒[0;1;33;40m▐[0;1;33;46m▄[0;1;36;46m▓[0;1;35;42m▌[0;1;33;46m▓[0;1;36;46m█[0;1;35;42m▌[0;1;36;42m▓███[0;1;36;40m▌[0m  [1;35m░[0;1;33;46m▓▓[0;1;33;45m▒[0;1;33;40m▀[0m  [1;30m██[0m        [1;33m████████[0m

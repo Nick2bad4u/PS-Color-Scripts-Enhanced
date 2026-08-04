@@ -1,17 +1,4 @@
-﻿# Converted from: AQ-LOGIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d0697a3/raw/AQ-LOGIN.ANS
-# Source Revision: archive-sha256:4b1a5edf079ccd5aab68f5664461dac73c3f815b42e2d60b05d52946fe416fe5
-# Source SHA-256: de21f922708231ea59d70fdeb91bd8ff0604e395f692252b49128dbb1b3a040f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AQ-LOGIN.ANS by aqua (demons); released in d0697a3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: login
-# SAUCE Author: aqua
-# SAUCE Group: demons
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: login by aqua | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d0697a3-aq-login
 
 Write-Host '
 [1m   [0;1;30mhiyah!    [0;31m▄▄▄▀[0;1;31m▄█▄[0;31m▀█▄▄   [0;1;30mwanna login?      [0;1;33m▄[0;1;37m▄         █        [0;1;33m▄[0;1;37m█      ▄[0m

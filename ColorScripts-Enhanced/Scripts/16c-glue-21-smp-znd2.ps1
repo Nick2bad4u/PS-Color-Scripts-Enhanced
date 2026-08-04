@@ -1,13 +1,4 @@
-﻿# Converted from: SMP-ZND2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-21/raw/SMP-ZND2.ANS
-# Source Revision: archive-sha256:f82ee46d8be1d82ea17d8bdc07ad3071d4259c4331c1829c972b5ae2082ebcd2
-# Source SHA-256: 946c86d06fcc99fbf7ced7f8a1cf554cef57c091b5fad5c79b4bdb4555d89c1a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-ZND2.ANS by Shrimp (glue-21); released in glue-21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: SMP-ZND2.ANS by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-21-smp-znd2
 
 Write-Host '
 [31mShrimp[0;1;30mGLUE[0m [31m░[0m      [31m░[0m    [37m  [0m    [31m▄[0;1;31m▄▄[0;31m█[0m                                           [33m [0;1;30m(c)[0m

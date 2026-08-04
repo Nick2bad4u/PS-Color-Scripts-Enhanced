@@ -1,13 +1,4 @@
-﻿# Converted from: MV-BT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0202/raw/MV-BT.ANS
-# Source Revision: archive-sha256:2dab715e9f2d819e9161d3954fa8210558a1b83f118c830394e2fdee6408a093
-# Source SHA-256: af017e57d8c1d2e497d5feb7310227a7249d2ab4d179ea5968b181787a4e3cf7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MV-BT.ANS by Mr Violent (rev0202); released in rev0202 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: MV-BT.ANS by Mr Violent | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0202-mv-bt
 
 Write-Host '
                   [1;31m░░[0m

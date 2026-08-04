@@ -1,18 +1,4 @@
-﻿# Converted from: TO-CLRS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blur9607/raw/TO-CLRS.ANS
-# Source Revision: archive-sha256:b26c8b94015ee6d1b8810f7d19551196eb13cdc7b545981a4755cd2ae5715624
-# Source SHA-256: d67fd55ead36254805d98ba25b1cd57d85a454bb31a9069ceb7d08f2b53d68aa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TO-CLRS.ANS by Toadie (blur); released in blur9607 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Color Shock
-# SAUCE Author: Toadie
-# SAUCE Group: blur
-# SAUCE Date: 19960627
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Color Shock by Toadie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blur9607-to-clrs
 
 Write-Host '
      [34m▄[0m     [34m░[0m      [34m▄[0m          [31m▄[0m           [32m▒[0m        [35m▄[0m      [35m▒[0m                  [33m░[0m

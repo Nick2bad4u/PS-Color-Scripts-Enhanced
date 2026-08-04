@@ -1,17 +1,4 @@
-﻿# Converted from: V5!STATI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/morph-01/raw/V5!STATI.ANS
-# Source Revision: archive-sha256:bc2a545325e27203d9d1be11c4c8e367cd7a18c5f91873a9a46244823d7901fd
-# Source SHA-256: 0490fc6092e424a20da22586f64585511a81ccdde7d5b80e9d03269d4e5d89dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: V5!STATI.ANS by fatsh (morph); released in morph-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Static
-# SAUCE Author: fatsh
-# SAUCE Group: morph
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Static by fatsh | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-morph-01-v5-stati
 
 Write-Host '
 [1;36m                     [0m

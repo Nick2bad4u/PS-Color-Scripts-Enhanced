@@ -1,18 +1,4 @@
-﻿# Converted from: J33-REV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0302/raw/J33-REV.ANS
-# Source Revision: archive-sha256:7b2619e0400d7382d19d38767873337eae71942dd319abc1998c71f4a968776f
-# Source SHA-256: fe276262d8223ecda831a837c702f199d9458c14573dca945c78c4ee2ffe30d2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: J33-REV.ANS by j33p33 (Revival 2002); released in rev0302 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Revival
-# SAUCE Author: j33p33
-# SAUCE Group: Revival 2002
-# SAUCE Date: 20020227
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Revival by j33p33 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0302-j33-rev
 
 Write-Host '
           [1m [0m  [35m     [0m

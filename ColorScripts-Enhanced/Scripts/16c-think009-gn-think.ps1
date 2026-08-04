@@ -1,16 +1,4 @@
-﻿# Converted from: GN-THINK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/think009/raw/GN-THINK.ANS
-# Source Revision: archive-sha256:a97f33364c41bbc99c9277d272dc5201a0732c520c8843f7c589cee9cd39daf9
-# Source SHA-256: fd7e9a59d8792964d0151e70921d932b97e4231f98d084d9082570376fcee986
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GN-THINK.ANS by geddon (think); released in think009 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: think logo
-# SAUCE Author: geddon
-# SAUCE Group: think
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: think logo by geddon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-think009-gn-think
 
 Write-Host '
                             [1m.[0m

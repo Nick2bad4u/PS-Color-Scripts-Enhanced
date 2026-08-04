@@ -1,18 +1,4 @@
-﻿# Converted from: PICROTOXIN-DOGGO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0819/raw/PICROTOXIN-DOGGO.ANS
-# Source Revision: archive-sha256:3e371837b8d6f6a4ccf25c654b30b8c6f8e0828aef9516e58fa04475bec09fbb
-# Source SHA-256: 096c5a26f557b8faee0a1c408d9d3131f6a27f0d5e52149bea2523f5c50ec75f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PICROTOXIN-DOGGO.ANS by al3yna (mist0819); released in mist0819 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: double dog dare
-# SAUCE Author: al3yna
-# SAUCE Date: 20190802
-# SAUCE Dimensions: 62x36
-# SAUCE Font: IBM VGA
-# Lines: 1-36
-# Columns: 1-62
+﻿# Artwork: double dog dare by al3yna | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0819-picrotoxin-doggo
 
 Write-Host '
 [30m▀[0;1;34m▄▀▄▀▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;30m█[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-SAIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0297/raw/OUT-SAIL.ANS
-# Source Revision: archive-sha256:0f3d218282d76441c012c29969433ab198fcc6a5c3f0e35f66bec5cacdabec86
-# Source SHA-256: 9fd4c59e5814d7abf8e34a243c36e25813121130612f84bdf4547a7131845a88
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-SAIL.ANS by Sandy Chidester (out-0297); released in out-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: OUT-SAIL.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0297-out-sail
 
 Write-Host '
 [34m███████████████████████████████████████████████████ ▌███████████████████████████[0m

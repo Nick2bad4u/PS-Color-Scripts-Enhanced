@@ -1,18 +1,4 @@
-﻿# Converted from: GI-DELI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl199512/raw/GI-DELI.ANS
-# Source Revision: archive-sha256:5fe53ca39169434efb75bd9b36a17fd1bcaf0eaf6e956a4066650232cbdc99ec
-# Source SHA-256: ad2d4b31101ffbb7b8412773473ee166c70a3bb9becf4b9ebeef5fc870abd574
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GI-DELI.ANS by Gigantor (TekLordZ); released in tl199512 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Deli
-# SAUCE Author: Gigantor
-# SAUCE Group: TekLordZ
-# SAUCE Date: 19951122
-# SAUCE Dimensions: 80x25
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: The Deli by Gigantor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl199512-gi-deli
 
 Write-Host '
 

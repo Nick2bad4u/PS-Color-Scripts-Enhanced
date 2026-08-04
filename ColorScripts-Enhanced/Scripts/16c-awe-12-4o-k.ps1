@@ -1,17 +1,4 @@
-﻿# Converted from: 4O-K.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-12/raw/4O-K.ANS
-# Source Revision: archive-sha256:5c96c14e912296494a464a42e768321452d811693cf172945a9502eb4396c8bb
-# Source SHA-256: 7df019133c7cbe88bd628ae49a94c354d1bd89fa50c1e76493a94289c9a68f3e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 4O-K.ANS by Mr4tune (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Kafkaesk
-# SAUCE Author: Mr4tune
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Kafkaesk by Mr4tune | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-12-4o-k
 
 Write-Host '
  [1;30m░▄[0;1;30;47m▀[0;1;30;40m▄▀▄[0m [34m▄[0;1;34;44m▄░[0m  [1;30m░▓[0;1;30;47m▀[0;1;30;40m▄[0m  [34m▀▄█▄ ▄[0;37m [0;30;47m▓[0;1;30;47m▄[0;1;30;40m▀[0;34m  [0;1;30m ▄[0m▄[1m▄▄[0;1;47m▄[0;1;40m█[0m▄[30;47m▓[0;37;40m [0;1;30;40m▄▄▌[0;35m [0;37m [0;1;30m▄ [0m ░ [1;30m▄▐[0;1;30;47m▀[0;1;30;40m▄[0m [1;30m░[0m [1;30m▀[0m▒[30;47m4o(aWe)[0;37;40m▒[0;1;30;40m▄[0m [1;30m░░▓▓[0;1;30;47m▄[0;1;30;40m▀▌▄ ▀[0m

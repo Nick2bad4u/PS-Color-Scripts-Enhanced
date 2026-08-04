@@ -1,18 +1,4 @@
-﻿# Converted from: Zii-tir.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0502/raw/Zii-tir.ans
-# Source Revision: archive-sha256:98bfa3cc78c733050b0c647e7e0271e7623e3c31e4f40f218a00b89b2165c771
-# Source SHA-256: a6cf8af0e93548b718a05fe5b8547e48df45f733ecc0c66d6f57686decc18103
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Zii-tir.ans by Zeus II (Revival); released in rev0502 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Tir Tairngire logo
-# SAUCE Author: Zeus II
-# SAUCE Group: Revival
-# SAUCE Date: 20020501
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Tir Tairngire logo by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0502-zii-tir
 
 Write-Host '
             [1;30m▀[0m [1;30m▄[0m                                      [1;30m▄[0m  [1;30m▀▀[0m            [1;30m▄▄[0m

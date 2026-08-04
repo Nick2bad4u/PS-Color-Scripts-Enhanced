@@ -1,13 +1,4 @@
-﻿# Converted from: cxc_xmas2020_fight_the_corona_final.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cph.artpack27.20th.anniversary.birthday/raw/cxc_xmas2020_fight_the_corona_final.ans
-# Source Revision: archive-sha256:51166890bfbd92451d1ff0e6aa8e137836492c0564ec155f70608f56ac864427
-# Source SHA-256: f9f87df009b311d665af8c625ffe642e8d7312108fbaa138388cafde3e3366b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cxc_xmas2020_fight_the_corona_final.ans by Coaxcable (cph.artpack27.20th.anniversary.birthday); released in cph.artpack27.20th.anniversary.birthday and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 93-138
-# Columns: 1-80
+﻿# Artwork: cxc_xmas2020_fight_the_corona_final.ans by Coaxcable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cph-artpack27-20th-anniversary-birthday-cxc-xmas2020-fight-the-corona-final-part03
 
 Write-Host '
 [1;31;43m▄[0;33m▄[0;36m ▌[0;1;36m [0;33m▌▐█[0;37m [0;1;37m▓█[0;1;32m▐▓▓▀[0m [1m''▄[0m [32m▄[0;1;33m▓[0;32m▄[0;1;32m▄[0;1;31m ▀▀[0;1;31;43m▀[0;1;31;47m▄[0m▄ [33m▀[0;1;31;43m▓▓▒[0;33m▌[0;37m █ [0;1;37;47m▒[0m█ [33m▓▀▀▒▐[0;1;31m▄▄[0m▄[33m▄▄■[0;36m▀▀▀▀▀▀▀▀▀▀▀▀[0;33m■ [0;37m▄▄ ▀▄▄█▀▌▌▀▄[0m

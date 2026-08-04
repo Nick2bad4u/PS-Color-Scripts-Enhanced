@@ -1,18 +1,4 @@
-﻿# Converted from: CT-BADL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ws-9509/raw/CT-BADL.ANS
-# Source Revision: archive-sha256:f80be9f57a72f3731fd02149f3cc3f702afe87dd851a20e852584349c036c76a
-# Source SHA-256: ff0e1af78e294677b57cb83d0322e8f2fa8b90b38a45e8d1c5aadf1ca0911ae4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CT-BADL.ANS by cool 't (READ THE INI FILE); released in ws-9509 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the badlands
-# SAUCE Author: cool 't
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950901
-# SAUCE Dimensions: 80x25
-# Lines: 83-123
-# Columns: 1-80
+﻿# Artwork: the badlands by cool 't | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ws-9509-ct-badl-part03
 
 Write-Host '
  [1;30;43m░░░░░░░░░░░░░░░░░░░░░░░░░░[0;33m▌[0;1;31;41m░[0;33m▐[0;1;30;43m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

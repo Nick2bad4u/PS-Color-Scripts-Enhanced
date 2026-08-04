@@ -1,18 +1,4 @@
-﻿# Converted from: RAY^NRV!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/b2b-0795/raw/RAY%5ENRV!.ANS
-# Source Revision: archive-sha256:8e10b7c1c977a26397c38c863229df8f735caadc9af3741f089d2a5031818bc8
-# Source SHA-256: 4c65e74ecea51be5a4c7fcc838c20a06bc7e2f94f2fe67f59761c0452e74cef8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RAY^NRV!.ANS by rAYTRAYZa (bACKT tO tHE bASiX); released in b2b-0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: NiRVANA^THE^EViL^ONE
-# SAUCE Author: rAYTRAYZa
-# SAUCE Group: bACKT tO tHE bASiX
-# SAUCE Date: 19950626
-# SAUCE Dimensions: 80x98
-# Lines: 49-98
-# Columns: 1-80
+﻿# Artwork: NiRVANA^THE^EViL^ONE by rAYTRAYZa | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-b2b-0795-ray-nrv-part02
 
 Write-Host '
 [34m [0;1;34m░[0m      [1;34m░  █▀ [0;1;30m█[0;1;36;46m░░[0m [1;30m▄▄▀█▄▄ [0;36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;1;30m▄▄█   ▀█  [0;36m░▒▓▓▌[0;1;30m█▌[0;34m▐▓▒░    ░░▒▓[0m

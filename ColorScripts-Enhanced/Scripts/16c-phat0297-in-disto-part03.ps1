@@ -1,18 +1,4 @@
-﻿# Converted from: IN-DISTO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0297/raw/IN-DISTO.ANS
-# Source Revision: archive-sha256:2e15cb2f2712a143323c9f3c6ecca94c5b5b12a452a019e911d205dd685c6eee
-# Source SHA-256: 014db0d70ad1f5fcac2ab492d5f59c7dafea02ec5afae5dc7d47383c8bea19bb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IN-DISTO.ANS by insert (phat studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: distortion addy
-# SAUCE Author: insert
-# SAUCE Group: phat studios '97
-# SAUCE Date: 19970113
-# SAUCE Dimensions: 80x118
-# Lines: 87-118
-# Columns: 1-80
+﻿# Artwork: distortion addy by insert | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0297-in-disto-part03
 
 Write-Host '
 [31m[0m[31m-------------------------------------------------------------------------------[0m

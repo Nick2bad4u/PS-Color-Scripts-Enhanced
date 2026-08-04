@@ -1,18 +1,4 @@
-﻿# Converted from: SC-NEON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense09/raw/SC-NEON.ANS
-# Source Revision: archive-sha256:b3e3029d8f7c1c608f2835055baa2116210e782109ea7dc0a1af3ca3d050e5b9
-# Source SHA-256: f2e790971b87a7bea4370fc81a824500b270eaa4ce8e9c8205bcf7b373ebec57
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-NEON.ANS by scrye (sense); released in sense09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: neon strike
-# SAUCE Author: scrye
-# SAUCE Group: sense
-# SAUCE Date: 19980506
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: neon strike by scrye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense09-sc-neon
 
 Write-Host '
 

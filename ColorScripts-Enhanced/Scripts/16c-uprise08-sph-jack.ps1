@@ -1,17 +1,4 @@
-﻿# Converted from: SPH_JACK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise08/raw/SPH_JACK.ANS
-# Source Revision: archive-sha256:a25eed3e25fe4aa7fc0560c1fa7de8a9e155ecb2aed26b67328b74f91962df53
-# Source SHA-256: 5c2925383647dda6edb7c5c63e53b10157c144a4e6b7724e38386d4acaa77a6d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPH_JACK.ANS by sephiroth (uprise08); released in uprise08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: svenne jao
-# SAUCE Author: sephiroth
-# SAUCE Date: 19980831
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: svenne jao by sephiroth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise08-sph-jack
 
 Write-Host '
 [1;32;42m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;32m███████████▀▀▀▀▀▀▀████████████████████████████████████[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: P1-MAN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vivid-01/raw/P1-MAN1.ANS
-# Source Revision: archive-sha256:8e5f834ead72715c7088bdee61babf114a06cd1addc7c343b5723ba453e61731
-# Source SHA-256: d988a7ff6247e028caeb38ee136821b351fd32ece876ad168b5f3b800084e5b7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P1-MAN1.ANS by Paranormal Intensity (vivid-01); released in vivid-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: P1-MAN1.ANS by Paranormal Intensity | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vivid-01-p1-man1
 
 Write-Host '
                                           [1;34m▄▄▄█████████[0;1;34;44m▓[0;1;34;40m████[0;1;34;44m▓▒▒▒░[0;34m▄▄▄[0m

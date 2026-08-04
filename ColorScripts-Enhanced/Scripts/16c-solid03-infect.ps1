@@ -1,13 +1,4 @@
-﻿# Converted from: INFECT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/solid03/raw/INFECT.ANS
-# Source Revision: archive-sha256:19de632cafe15165f76f223a9c47e7ebb628c24e8d8bb746a6bed899d81a1796
-# Source SHA-256: 3cb1b1371112bafd0bc29f22a0aea59afd9979fe7aea4ec025c33b0dedd1de5f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: INFECT.ANS by Infect (solid03); released in solid03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: INFECT.ANS by Infect | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-solid03-infect
 
 Write-Host '
                       [33m▄▌▄[0m                 [31m▐▄[0m

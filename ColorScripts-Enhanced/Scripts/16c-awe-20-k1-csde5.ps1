@@ -1,18 +1,4 @@
-﻿# Converted from: K1-CSDE5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-20/raw/K1-CSDE5.ANS
-# Source Revision: archive-sha256:23bbf66596e3e4f3c4b9e335dc62ccc331634eba04c3d179b73e396fa3971807
-# Source SHA-256: 9f6f9096d7fce86a388f6774b1cc1d1205dfc4f206ec7a0c21a9ef4db249847e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K1-CSDE5.ANS by Knocturnal (AWE Lettering); released in awe-20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Crusade Promotional
-# SAUCE Author: Knocturnal
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981219
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Crusade Promotional by Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-20-k1-csde5
 
 Write-Host '
 

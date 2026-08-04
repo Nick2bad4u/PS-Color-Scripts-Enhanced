@@ -1,18 +1,4 @@
-﻿# Converted from: NS-USDDD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-03/raw/NS-USDDD.ANS
-# Source Revision: archive-sha256:c463d41d9ae381f389778dd35b1d3ac7d9b856c30aea0076774f44c539a72586
-# Source SHA-256: 8d89b2d908be1aa4688cc3bb3484adb63cdf6ab79f0e93861751aec786524001
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NS-USDDD.ANS by Ansichrist (Hieroglyphics); released in hiero-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Used
-# SAUCE Author: Ansichrist
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20001022
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Used by Ansichrist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-03-ns-usddd
 
 Write-Host '
  [34m  [0m                                          [34m▄■[0m    [34m▀  ▄[0m

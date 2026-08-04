@@ -1,18 +1,4 @@
-﻿# Converted from: JS-FRNLN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0496/raw/JS-FRNLN.ANS
-# Source Revision: archive-sha256:ce06d33d533c0744d22c6fe5d3dd8583d43d922924a8ff4e1a6044170aa0ed46
-# Source SHA-256: cc8e5aa0cd549b063d1fe5690b1a1dab9aa32907af2b7cd1fcd491f9aba0ce96
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JS-FRNLN.ANS by jason (fusion); released in fsn-0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: front line logo
-# SAUCE Author: jason
-# SAUCE Group: fusion
-# SAUCE Date: 19960315
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: front line logo by jason | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0496-js-frnln
 
 Write-Host '
 [30m                                                                                [0m

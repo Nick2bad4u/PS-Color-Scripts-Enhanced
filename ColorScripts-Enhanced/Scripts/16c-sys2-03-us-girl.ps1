@@ -1,13 +1,4 @@
-﻿# Converted from: us-girl.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sys2_03/raw/us-girl.ans
-# Source Revision: archive-sha256:008fb7d825e566af77ae54caca44158087d80f399f5293cc1f9b3810d9305879
-# Source SHA-256: 4db3d5bff4c66a82846e23ee0e1d3aecb2859763809f5b4d5e0a35a6f176df42
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-girl.ans by Double Zero + Cleaner (sys2_03); released in sys2_03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: us-girl.ans by Double Zero + Cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sys2-03-us-girl
 
 Write-Host '
      [35m;[0;1;35m☺☺☻[0;1;36m☻☻☻[0;1;35m☻☻☺[0;35m/[0;1;35m\│☻[0;1;36m☻☻[0;1;35m☻☻☻[0;1;36m☻☻[0;1;35m☻☻☺☺☺[0;35m☺☺│\┘`[0;33m .┌sd☻[0;1;31m☺☺☺☺☺☺llll☺☺☺☻☻☻☻☻☻☻☻☻☻☺☺;[0;1;35m`\\[0;1;36m.[0;32m`[0;1;32m\│[0;1;37;42m╬[0;1;32;42m╬[0;32m╬╣[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: GL-BLACK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dtd02/raw/GL-BLACK.ANS
-# Source Revision: archive-sha256:329358061ffeda17eb81c048ab3bce474734b2a800903201ed4eb6076d0d3992
-# Source SHA-256: af127408f817243c94ef4689e62787adebce1225504637c7f0286173e84a83c3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GL-BLACK.ANS by GLANDYTH-A-KRAE (DEVOTiON TO DARKNESS); released in dtd02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: BLACK ARTS - LOGO -
-# SAUCE Author: GLANDYTH-A-KRAE
-# SAUCE Group: DEVOTiON TO DARKNESS
-# SAUCE Date: 19970706
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: BLACK ARTS - LOGO - by GLANDYTH-A-KRAE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dtd02-gl-black
 
 Write-Host '
                                       [34m,[0m

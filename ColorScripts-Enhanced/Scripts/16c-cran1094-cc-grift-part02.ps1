@@ -1,13 +1,4 @@
-﻿# Converted from: CC-GRIFT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cran1094/raw/CC-GRIFT.ANS
-# Source Revision: archive-sha256:c9381fb75e8f8a66431f7b0fe625ed381b9b49f3dba635c4d39fcdced612d967
-# Source SHA-256: eff9606ae8e014cb102912efadd677fee17862b85a8b2e1ee8f9f71a2a80f24f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CC-GRIFT.ANS by Clorox Cowboy (cran1094); released in cran1094 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 44-91
-# Columns: 1-80
+﻿# Artwork: CC-GRIFT.ANS by Clorox Cowboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cran1094-cc-grift-part02
 
 Write-Host '
 [32;40m░░░░░░[0;1;31;41m░░░░  [0m  [1;31;41m    [0;30;41m░▒▒▒░░░░░░░░░ ▒▒▓▓▓▓▓▓▓▒▒▒░░░░░░░░▓░░░░[0m [31;40m▄[0;30;41m░░░░░░░░░[0;32;40m░░░░░░[0;30;42m▒▒[0;32;40m░░░░[0m

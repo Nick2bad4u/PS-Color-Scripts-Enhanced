@@ -1,18 +1,4 @@
-﻿# Converted from: 33-ES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/33rules/raw/33-ES.ANS
-# Source Revision: archive-sha256:6cf2aef8e3ca97e1761e1ee4a8ba395e4fdab4dec9d3b2efb91c059359b50b00
-# Source SHA-256: 0857664b96fd13a54b9b7690af29d74f654258bfd28777c7b04b6793d952df64
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-ES.ANS by Integrity 06/95 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Eternity's Salvation
-# SAUCE Author: Integrity 06/95
-# SAUCE Group: Eerie
-# SAUCE Date: 19950531
-# SAUCE Dimensions: 80x25
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Eternity's Salvation by Integrity 06/95 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-33rules-33-es-part02
 
 Write-Host '
 [34m [0;31m▐[0;31;47m▓[0;31;40m▐▌▐▓ █▄█ ░ ▓▄▓  [0;1;31;40m▀[0;1;31;43m▓[0;1;31;40m▀ [0;1;31;43m▓▒[0;1;31;40m██████▄▄▄▀[0;1;37;40m▀[0;1;31;40m▀ ▄▄████████[0;1;31;43m▓[0;1;31;40m█▓█▀ [0;31m▄■▄■[0m     [1;30m░ ▄▀ ▐█[0;1;30;47m░[0m▌ [34m██████[0m

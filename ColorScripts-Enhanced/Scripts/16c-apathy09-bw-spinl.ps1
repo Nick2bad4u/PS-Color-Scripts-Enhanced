@@ -1,18 +1,4 @@
-﻿# Converted from: BW-SPINL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy09/raw/BW-SPINL.ANS
-# Source Revision: archive-sha256:4a76e66d96462ed923b8b41dd8e01625078b4c791bda0ef6180f08638853037b
-# Source SHA-256: 357efd0f5ff0eddcb1ded9934a328430da8cec9447c9a9255a5cf2eeaf24dc2a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BW-SPINL.ANS by Balls Wilson (apat); released in apathy09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Spinal Gamma
-# SAUCE Author: Balls Wilson
-# SAUCE Group: apat
-# SAUCE Date: 19960417
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Spinal Gamma by Balls Wilson | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy09-bw-spinl
 
 Write-Host '
 [30;47m                                                                              [0;37;40m██[0m

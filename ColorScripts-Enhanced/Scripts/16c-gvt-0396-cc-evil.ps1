@@ -1,18 +1,4 @@
-﻿# Converted from: CC-EVIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gvt-0396/raw/CC-EVIL.ANS
-# Source Revision: archive-sha256:ad8ff614294189e80e826a6d4a8cf8ded98538ab493231140abfba480817c1ae
-# Source SHA-256: 9fc5b0a85deed463e3e76baab0422fe2845599d5ab8c8d168cff2f2e49d4c206
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CC-EVIL.ANS by clorox cowboy (gravity); released in gvt-0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: evil intentions
-# SAUCE Author: clorox cowboy
-# SAUCE Group: gravity
-# SAUCE Date: 19960208
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: evil intentions by clorox cowboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gvt-0396-cc-evil
 
 Write-Host '
 [1;31;41m░[0;31m███[0;1;31;41m░[0;31m▀▀▀░  ▀▀▀ [0;37m [0;1;31m▄████████████████████████[0;1;31;43m▓▓█▓▓█▒█[0;1;31;40m▀▀▀▀▀▀[0m [1;31m▄[0m     [31m▄[0;1;31;41m▓▒░[0;31m▀▀▀▀▀▀[0;1;31;41m░[0;31m█▓▄▄[0m

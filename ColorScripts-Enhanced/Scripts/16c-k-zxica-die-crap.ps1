@@ -1,13 +1,4 @@
-﻿# Converted from: DIE-CRAP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-zxica/raw/DIE-CRAP.ANS
-# Source Revision: archive-sha256:098212bcd3fc250902be7ae08340a23e99b29f8fa69fe7b4990238a6d402d1f6
-# Source SHA-256: 7e43aa4c9eed68eb692665c36c137f11de978a8255ac0fa6bde0fa5ecf5210c2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DIE-CRAP.ANS by Dieznyik (k-zxica); released in k-zxica and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: DIE-CRAP.ANS by Dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-zxica-die-crap
 
 Write-Host '
 

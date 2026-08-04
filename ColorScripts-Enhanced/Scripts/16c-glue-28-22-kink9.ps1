@@ -1,18 +1,4 @@
-﻿# Converted from: 22-KINK9.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-28/raw/22-KINK9.ANS
-# Source Revision: archive-sha256:5075ba49005d03d914b445336fa73ec4c758aeac80fb08567f1bf5da4e7e8bad
-# Source SHA-256: 7f37ec08b2528173665f52dd1ad341c0629c4210189935d37339efbafb34092c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 22-KINK9.ANS by catch22 (glue tribe); released in glue-28 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: kink bbs thingy
-# SAUCE Author: catch22
-# SAUCE Group: glue tribe
-# SAUCE Date: 19991208
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: kink bbs thingy by catch22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-28-22-kink9
 
 Write-Host '
 [32m [0;1;30;42m███▀[0;32m█[0;1;32;42m░░░[0;1;30;42m░░░[0;32m▓█[0;1;30;42m░[0;32m▀[0;36m██░▐██[0;1;36;46m░░▒▒▓▓▓███████▓▓▒▒░░[0;36m███████▓ [0;1;30m▐█[0;36m [0;37m [0;32m▓███[0;1;30;42m░░░░░▒▒█[0;32m▓[0;31m  ▄[0;1;31;41m▓██████[0;1;31;47m▓ [0m

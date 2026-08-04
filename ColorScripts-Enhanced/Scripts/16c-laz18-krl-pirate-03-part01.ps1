@@ -1,19 +1,4 @@
-﻿# Converted from: krl-pirate_03.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz18/raw/krl-pirate_03.ans
-# Source Revision: archive-sha256:32d30452c4c99022fae4fa2ce9a2923ef46629d3ff7dd35a972944a991699c1f
-# Source SHA-256: d940da6570b82a855d571a2d869223772143170db6df9581ef60b1d41685079e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: krl-pirate_03.ans by krl (LAZARUS); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: LAZARUS
-# SAUCE Author: krl
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20240208
-# SAUCE Dimensions: 80x98
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: LAZARUS by krl | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz18-krl-pirate-03-part01
 
 Write-Host '
 [1;36m███████████████▀[0m   [36m░██[0;1;36m██████████████████████████████████████████████████████████[0m

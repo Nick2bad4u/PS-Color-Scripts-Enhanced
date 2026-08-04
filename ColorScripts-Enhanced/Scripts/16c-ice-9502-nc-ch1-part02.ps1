@@ -1,18 +1,4 @@
-﻿# Converted from: NC-CH1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9502/raw/NC-CH1.ICE
-# Source Revision: archive-sha256:651d57ec8cfbb7a8c418d666720edd49ef86d48a0b256443452b3132c0397ce3
-# Source SHA-256: 791e98e2f68ae41ef813c9303853fa00499150a5017081854c38f0d844f76387
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NC-CH1.ICE by Neurotic (iCE); released in ice-9502 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Cybernetic Holocaust
-# SAUCE Author: Neurotic
-# SAUCE Group: iCE
-# SAUCE Date: 19950228
-# SAUCE Dimensions: 80x218
-# Lines: 44-85
-# Columns: 1-80
+﻿# Artwork: Cybernetic Holocaust by Neurotic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9502-nc-ch1-part02
 
 Write-Host '
 [1;32;40m▄▄█[0;1;32;42m▓▓▓▓[0;1;32;40m▀[0;32m▀  [0;1;32m▄[0;1;32;42m▓[0;1;32;40m▌ [0;32m█[0;1;32;42m░▒▒▓[0;1;32;40m▀▀ [0;32m▄ [0;1;32;42m▓▓▓▒░[0;32m▀ ▄[0;1;32;42m░[0;32m▄  ▀[0;1;32;42m░░[0;32m▄ ▀■ [0;1;32;42m▓[0;1;32;40m▌ [0;32m░  ▄▄▄  [0;1;32;42m░▒▓[0m [32m▀ ▄  [0;1;32m▄[0;1;32;42m▓▓[0;1;32;40m▀▄▀▄█▌▐█▌[0;1;37;40m▐▄[0m

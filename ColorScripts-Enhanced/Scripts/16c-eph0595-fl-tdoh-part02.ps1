@@ -1,13 +1,4 @@
-﻿# Converted from: FL-TDOH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eph0595/raw/FL-TDOH.ANS
-# Source Revision: archive-sha256:eaf6db16f09b9acd1f748a8e26a9304c6535139cd9f636fb39ba98fd65bc9079
-# Source SHA-256: f9154b8094cf438e46019c8bf55bb307b51db42b1c07ffdd467e734f5a86a8ab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-TDOH.ANS by Fire Lord (eph0595); released in eph0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 51-96
-# Columns: 1-80
+﻿# Artwork: FL-TDOH.ANS by Fire Lord | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eph0595-fl-tdoh-part02
 
 Write-Host '
                                   [1;31m▀▀▀▀▀▀▀▀▀▀▀[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: ra-c22.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz21/raw/ra-c22.ans
-# Source Revision: archive-sha256:daa0e008ccfccc8179e0635097f8fe4a46a32781b45bbd86ff6e4505514c9e6d
-# Source SHA-256: 864e7a407963b02b052327d90aa6220ba2a515904667eee867db51bd7583b7fc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ra-c22.ans by Randers (LAZARUS); released in laz21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Catch 22
-# SAUCE Author: Randers
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20260429
-# SAUCE Dimensions: 80x89
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Catch 22 by Randers | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz21-ra-c22-part01
 
 Write-Host '
 [1;30;41m▓▒░▓▓[0;31m▓█[0;1;30;41m▀▀[0;31m▓[0;1;30;41m█[0;31m▓▓▀▓░░░░▀░▀▀▀▀[0;37m [0;31m░[0;37m  [0;31m░[0;37m                      [0;31m░[0;37m  [0;31m░[0;37m [0;31m░[0;37m   [0;31m░░▒▓▒▒▀▀▀[0;1;30;41m░░▒▒▀▀██▓▓[0m

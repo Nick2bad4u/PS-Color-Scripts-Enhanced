@@ -1,19 +1,4 @@
-﻿# Converted from: MM-ELEVATOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0624/raw/MM-ELEVATOR.ANS
-# Source Revision: archive-sha256:7e2642f67629daefe8d04ebedd2e233be2e8a74b2dea50eb02da49be24298927
-# Source SHA-256: dd60fa789a2b00090c14cf58dccf78a9abb1802d65038dfccc16dffaa95722ab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-ELEVATOR.ANS by Mavenmob (Mistigris); released in mist0624 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Elevator Down
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20240408
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Elevator Down by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0624-mm-elevator
 
 Write-Host '
 [1m████████████████████████████████████████████████████████████████████████████████[0m

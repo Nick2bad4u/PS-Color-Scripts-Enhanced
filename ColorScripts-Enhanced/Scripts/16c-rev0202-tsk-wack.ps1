@@ -1,13 +1,4 @@
-﻿# Converted from: TSK-WACK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0202/raw/TSK-WACK.ANS
-# Source Revision: archive-sha256:2dab715e9f2d819e9161d3954fa8210558a1b83f118c830394e2fdee6408a093
-# Source SHA-256: d74b0137f46b841f3ec1007415c100c54a3f8bf7018011d594a3fb3b9ece390f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-WACK.ANS by The Silent Killer (rev0202); released in rev0202 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: TSK-WACK.ANS by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0202-tsk-wack
 
 Write-Host '
                                 [32m..[0m

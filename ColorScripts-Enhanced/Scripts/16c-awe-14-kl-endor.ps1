@@ -1,18 +1,4 @@
-﻿# Converted from: KL-ENDOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-14/raw/KL-ENDOR.ANS
-# Source Revision: archive-sha256:21c28d2dde738f9d23fc96c444edc6890afcd7e03360cdb363478f356a32f6cd
-# Source SHA-256: 18d97cd875d63cf4d25bd5bcbf576ed44f1abdad64cc3e5c95e68b507d3792a5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KL-ENDOR.ANS by Knocturnal (AWE Lettering); released in awe-14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Endor
-# SAUCE Author: Knocturnal
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19971228
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Endor by Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-14-kl-endor
 
 Write-Host '
 [1;30m░░[0m [1;30m [0m [1;30m  [0m [1;30m▄▄▄▄▄  ▌▄▄▄ ▄▄▄ ▐▄▄▄▄▄▄▄▄▄▄[0m    [1;30m▄▄[0m [33m░░ [0;1;30m▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄ ▄▄▄▄[0;36m [0;30;46m▓[0;36;40m░▄▄▄▓[0;1;30;40m [0;36m▄ [0;1;30m░░░░[0m

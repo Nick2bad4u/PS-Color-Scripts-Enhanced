@@ -1,17 +1,4 @@
-﻿# Converted from: P!-FOOSH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-02/raw/P!-FOOSH.ANS
-# Source Revision: archive-sha256:85e01eadce5f9498d81aff1ce740b243afce4b217290d5d85773c523660d0b86
-# Source SHA-256: e7a040b66aa008d3f6da059565786a5f05721eaea8dac576624f0c85b64732ff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P!-FOOSH.ANS by Pleeto (Hype); released in hype-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: "Foosh" Logo
-# SAUCE Author: Pleeto
-# SAUCE Group: Hype
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: "Foosh" Logo by Pleeto | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-02-p-foosh
 
 Write-Host '
                       [1;32m▄▄[0m              [1;32m▄▄[0m     [1;32m▄▄[0m          [32m▄[0;1;32m▄[0m

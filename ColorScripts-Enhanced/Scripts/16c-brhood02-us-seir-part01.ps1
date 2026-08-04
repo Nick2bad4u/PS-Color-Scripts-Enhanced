@@ -1,18 +1,4 @@
-﻿# Converted from: US-SEIR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/brhood02/raw/US-SEIR.ANS
-# Source Revision: archive-sha256:3116c5502285672e08ebd3993834dcfa2070529c71dc4b0a25ebc4b675dbf891
-# Source SHA-256: 775814b768d55006d45de1173c3c9089ff174286e1a7974f68d75aac1fa894b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SEIR.ANS by Spirit Of Rage + Minister (ave + hood); released in brhood02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: seire
-# SAUCE Author: min + sor
-# SAUCE Group: ave + hood
-# SAUCE Date: 19981122
-# SAUCE Dimensions: 80x89
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: seire by Spirit Of Rage + Minister | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-brhood02-us-seir-part01
 
 Write-Host '
 [1;31;41m▄[0;1;31;40m▄█▀▀█▀[0;31m▀[0;37m [0;1;30m   [0m [1;32m  [0m [1;31m▄▀[0m  [31m         [0;1;32m      [0;1;31m  ▀[0;33m▄[0;1;31m [0;1;32m  [0;33m▀[0;1;31m▀██[0;1;31;41m░[0;31m▀[0;1;32m    [0m [1;32m [0m [1;32m [0;31m▀[0;1;31;41m▐[0;1;31;40m█▀▀[0;1;31;41m▀[0;1;31;40m█▄▀[0;31m▀[0m

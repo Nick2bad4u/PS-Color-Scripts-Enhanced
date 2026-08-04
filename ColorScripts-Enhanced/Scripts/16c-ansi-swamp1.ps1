@@ -1,13 +1,4 @@
-﻿# Converted from: SWAMP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansi/raw/SWAMP1.ANS
-# Source Revision: archive-sha256:50aaa63d173fc2f34f94b8a5b526a5ee8a8b9d7908c42264ab949073e7e0edf9
-# Source SHA-256: b68f43ccf690126dca495355c009cbddf61a7f23cf9e455e0e4852fad8cdfbfe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SWAMP1.ANS by David Hartmann (ansi); released in ansi and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: SWAMP1.ANS by David Hartmann | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansi-swamp1
 
 Write-Host '
          [31m█▀▀▀██▀▀▀█ ▀███▀▀▀█  ▄██▀█▄█  ▄██▀█▄█ ▀██▀  ▀██▀██▄   [0;37mFrom the Swamps[0m

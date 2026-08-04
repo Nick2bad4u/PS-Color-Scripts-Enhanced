@@ -1,20 +1,4 @@
-﻿# Converted from: x0-burning-at-both-ends.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_blocktober/raw/x0-burning-at-both-ends.ans
-# Source Revision: archive-sha256:a4249815771be4175829e3af0e1e24a265146879ea43ac19f701d6ebb72fa88f
-# Source SHA-256: 69269b6b259ae68c3f61cad010c36c28b5ad617d5871ef34541f897d058fdffd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: x0-burning-at-both-ends.ans by xero (blocktronics); released in blocktronics_blocktober and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: burning at both ends
-# SAUCE Author: xero
-# SAUCE Group: blocktronics
-# SAUCE Date: 20161012
-# SAUCE Dimensions: 80x199
-# SAUCE Font: IBM VGA
-# SAUCE Comments: x0^b7^imp! | have a spooky blocktober!
-# Lines: 101-150
-# Columns: 1-80
+﻿# Artwork: burning at both ends by xero | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blocktober-x0-burning-at-both-ends-part03
 
 Write-Host '
                  [30m▓[0;1;37m▒▒▒[0;1;33;47m▒▒▒▒[0;1;37;100m▒[0;30m▓▓▓▓[0;1;33;47m▒▒▒▒[0;30m▓▓▓▓[0;1;37m▒▒▒▒▒▒▒▒▒▒▒▒▒[0;30m▓▓[0m

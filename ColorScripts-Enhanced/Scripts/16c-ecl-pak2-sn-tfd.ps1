@@ -1,18 +1,4 @@
-﻿# Converted from: SN!TFD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak2/raw/SN!TFD.ANS
-# Source Revision: archive-sha256:c83fd66fd5682c2a8b3a34174fe62c7584ac006f8517d86002eef3fdd8671285
-# Source SHA-256: 2f7b1ae02b1915f92cfa89f9b48920f9711531306a5812e0af0f6462b3f665be
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SN!TFD.ANS by Snowball (Ecolove); released in ecl-pak2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Main menu for Tfd
-# SAUCE Author: Snowball
-# SAUCE Group: Ecolove
-# SAUCE Date: 19971224
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Main menu for Tfd by Snowball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak2-sn-tfd
 
 Write-Host '
                             [32m    [0;37m [0;32m▄▄▄▄▄▄▄    [0m

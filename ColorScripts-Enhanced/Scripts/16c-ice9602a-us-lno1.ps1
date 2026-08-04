@@ -1,18 +1,4 @@
-﻿# Converted from: US-LNO1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9602a/raw/US-LNO1.ICE
-# Source Revision: archive-sha256:a7cb032b47574ac80269aea88d994085abecd77228955f55ef8d0e5338bc0184
-# Source SHA-256: e95ba4616412df6b117eb3bcf284d9f9a71bba43fce81192219d19405ed22230
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-LNO1.ICE by Boa + Lord Soth (iCE Advertisements); released in ice9602a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Like No Other
-# SAUCE Author: Boa/LS
-# SAUCE Group: iCE Advertisements
-# SAUCE Date: 19960304
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Like No Other by Boa + Lord Soth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9602a-us-lno1
 
 Write-Host '
  [1;30m▒[0m                                                                            [1;30m░[0m

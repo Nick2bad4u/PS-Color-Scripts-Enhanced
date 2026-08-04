@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-HAZN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook10/raw/AVE-HAZN.ANS
-# Source Revision: raw-sha256:939be324901925588d10cbd714e0f535d5fb825964a4b2868caae134ac87cf68
-# Source SHA-256: 939be324901925588d10cbd714e0f535d5fb825964a4b2868caae134ac87cf68
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-HAZN.ANS by avenger (black maiden); released in bmbook10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hazard/2 pw-screen
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19960828
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: hazard/2 pw-screen by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook10-ave-hazn
 
 Write-Host '
 [1;36;46m▄[0;1;37;46m██[0;1;36;46m█[0;1;37;46m█[0;1;36;46m██▓▀░[0;36m▀[0;33m▄▄[0;1;33;43m░ ░[0;33m▄[0;1;33;43m  ░░▒▓[0;1;33;40m▀▀▄▄▄░░[0m [33m▄[0;1;33;43m░▒[0;1;33;40m▄[0;1;33;43m▒▓▒[0;1;33;40m██▀▀█▄▄▄▄▄▄▄▀▀████▄▄▄[0;36m▀▀[0;1;36;46m▀▓██████████████[0;1;37;46m▓[0;1;36;46m▄[0m

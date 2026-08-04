@@ -1,19 +1,4 @@
-﻿# Converted from: [011] SC-SEMW.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cx-timeline/raw/%5B011%5D%20SC-SEMW.ans
-# Source Revision: archive-sha256:44e1bee3ddc3b388b7cf12194583d4aab88cb5fa02ca90157d792ce814886a4e
-# Source SHA-256: 27dd81d7ac750ed04bccb374de4ec757d155c9ca99ca58a181ec479a1271603c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: [011] SC-SEMW.ans by Skarecrow (Visions of Reality); released in cx-timeline and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Seminole Wind
-# SAUCE Author: Skarecrow
-# SAUCE Group: Visions of Reality
-# SAUCE Date: 19941130
-# SAUCE Dimensions: 80x158
-# SAUCE Font: IBM VGA
-# Lines: 51-86
-# Columns: 1-80
+﻿# Artwork: Seminole Wind by Skarecrow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cx-timeline-011-sc-semw-part02
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: RD-RETAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0897/raw/RD-RETAS.ANS
-# Source Revision: archive-sha256:cabceb59b7b429d8e4c18b37682b5f04003f1a57c83a21398a4e2582b732a549
-# Source SHA-256: e0acf3ecf456d4b0968a3afa0bcf3d5039adf36dfad419cc1c27e0b7db1f471f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD-RETAS.ANS by raider (rost); released in plf-0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: KUKMANNEN
-# SAUCE Author: raider
-# SAUCE Group: rost
-# SAUCE Date: 19970718
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: KUKMANNEN by raider | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0897-rd-retas
 
 Write-Host '
 [1;47m▄[0;1;40m██████[0;1;47m▀[0;1;40m▀[0;30;47m▄▄[0m                                 [1;37;40m  [0;30;47m██████[0;1;37;40m [0m▄[1;47m▄[0;1;40m██████████████████[0;1;47m▀▀[0;1;40m███[0;1;47m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: OW-SL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stl-003/raw/OW-SL1.ANS
-# Source Revision: archive-sha256:f05577e69788bf833b2eeb503583305cc9119acc157823c14e039d65d70a6838
-# Source SHA-256: 020f09b79c2de26d04c59ec8bdf9bf8f9104f5eb118714ce38be0eec1876e20e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OW-SL1.ANS by oWyn (STILE); released in stl-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: shadowlands
-# SAUCE Author: oWyn
-# SAUCE Group: STILE
-# SAUCE Date: 19951205
-# SAUCE Dimensions: 80x65
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: shadowlands by oWyn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stl-003-ow-sl1-part01
 
 Write-Host '
           [33m▄▄[0;1;31m▄█[0;1;31;43m▄▄▒[0;33m▄▄[0;1;31m▀[0;1;31;47m▓[0;1;31;40m███[0;1;31;43m▄▄[0;33m▄[0;1;31;43m▄[0;33m█▄▄   ▄[0;1;31m▄[0;1;31;43m▄▒▒[0;1;31;40m███[0;1;31;43m▒▒[0;1;31;40m▀▄[0;1;31;43m▒[0;1;31;40m▄ ▄▄[0;33m▄[0m

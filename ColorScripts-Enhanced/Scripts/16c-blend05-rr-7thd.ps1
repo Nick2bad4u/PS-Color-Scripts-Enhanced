@@ -1,18 +1,4 @@
-﻿# Converted from: RR-7THD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend05/raw/RR-7THD.ANS
-# Source Revision: archive-sha256:3346c70671a4c24e002cb42d75f3af112f478c146f28bb98b9942b55d0894a44
-# Source SHA-256: f68fdbdad9f593c56b5c165ed55e81f901df46aa9ccc5b1d93457d25d283e3ce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RR-7THD.ANS by riddler (blend productions); released in blend05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 7th dimension
-# SAUCE Author: riddler
-# SAUCE Group: blend productions
-# SAUCE Date: 19961216
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: 7th dimension by riddler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend05-rr-7thd
 
 Write-Host '
                           [34m [0m                             [34m [0m

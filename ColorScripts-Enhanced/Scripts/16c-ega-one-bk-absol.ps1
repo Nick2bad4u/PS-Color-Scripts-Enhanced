@@ -1,18 +1,4 @@
-﻿# Converted from: BK-ABSOL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ega-one/raw/BK-ABSOL.ANS
-# Source Revision: archive-sha256:6a85c974a9d93a6c5723067b661851124ae90b1e81eb1a1d35a289b0099b8ffc
-# Source SHA-256: 446eb7917adca6cfd74ba8954583f142c403177f516f7289251977e0c9fd9666
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BK-ABSOL.ANS by bk (EGArtists); released in ega-one and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: absolom
-# SAUCE Author: bk
-# SAUCE Group: EGArtists
-# SAUCE Date: 19961204
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: absolom by bk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ega-one-bk-absol
 
 Write-Host '
 [1;30m....[0m                                                        [1;30m..... .... ........[0m

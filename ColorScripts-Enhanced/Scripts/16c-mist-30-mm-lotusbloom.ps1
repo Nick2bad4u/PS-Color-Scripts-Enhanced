@@ -1,19 +1,4 @@
-﻿# Converted from: MM-LOTUSBLOOM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/MM-LOTUSBLOOM.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: 5af06dfad0016fc9cb7b726d2235750126a5c03e1819597475309809f27d621b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-LOTUSBLOOM.ANS by Mavenmob (Mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Programming Roots Lotus
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241228
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: Programming Roots Lotus by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-mm-lotusbloom
 
 Write-Host '
 

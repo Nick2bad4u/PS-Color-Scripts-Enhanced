@@ -1,13 +1,4 @@
-﻿# Converted from: SKY-EC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fld9703/raw/SKY-EC.ANS
-# Source Revision: archive-sha256:889360822753138420e4e4c877cc785b122e8efb00f902c0cb76baf0b096308f
-# Source SHA-256: ae1c5d66c63a74fd5a61531fcd9db1adadace42ab457dda9e3c7abe910fd11af
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SKY-EC.ANS by Skylord (fld9703); released in fld9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: SKY-EC.ANS by Skylord | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fld9703-sky-ec
 
 Write-Host '
 

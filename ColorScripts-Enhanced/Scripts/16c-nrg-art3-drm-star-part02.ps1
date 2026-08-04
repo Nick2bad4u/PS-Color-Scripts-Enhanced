@@ -1,18 +1,4 @@
-﻿# Converted from: DRM-STAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nrg-art3/raw/DRM-STAR.ANS
-# Source Revision: archive-sha256:0ae85f5ea4f74c2b59a538e4c7ac08d3c739cee33103af816d9b1cc2444e121f
-# Source SHA-256: b7e3d9c90fe9a4338adcbc89d325303102b06e0bacfc7ca78fab147b7983c69b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DRM-STAR.ANS by dRm (nRg); released in nrg-art3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: third planet
-# SAUCE Author: dRm
-# SAUCE Group: nRg
-# SAUCE Date: 19990905
-# SAUCE Dimensions: 80x75
-# Lines: 26-75
-# Columns: 1-80
+﻿# Artwork: third planet by dRm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nrg-art3-drm-star-part02
 
 Write-Host '
 [37m  [0;1;33m███████████████████████▓░[0m

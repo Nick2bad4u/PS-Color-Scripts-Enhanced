@@ -1,18 +1,4 @@
-﻿# Converted from: 33-SUP2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0396/raw/33-SUP2.ANS
-# Source Revision: archive-sha256:1c74698b6bb36c67ca170e4e3759a91f94a3423157bd644c80d820a8fe56fd8d
-# Source SHA-256: f24cc0672fb222766df9e24eab93ab945ad22951436dca8b6f2e61f05e7c3383
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-SUP2.ANS by Eerie-Kun (Fire); released in fire0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Superflu issue #2
-# SAUCE Author: Eerie-Kun
-# SAUCE Group: Fire
-# SAUCE Date: 19960117
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Superflu issue #2 by Eerie-Kun | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0396-33-sup2
 
 Write-Host '
     [1m██▀▀▀▀▀▀▀▀▀█▓█▌            [0;31m [0m      [1;37m▄▄▄▄▄▄▄▄▄░  [0;1;30m            [0m           [31m  [0;1;31m    [0m

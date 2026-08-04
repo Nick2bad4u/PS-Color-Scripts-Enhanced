@@ -1,13 +1,4 @@
-﻿# Converted from: STC-EVIL.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9411/raw/STC-EVIL.ICE
-# Source Revision: archive-sha256:f886658398a77fb7bede9bec5c3391287ab0eb115da776e630e1d1096e09e7fb
-# Source SHA-256: 8b5e10fdae2d501b6801bef4cd096b952eb5daecc60a7eb4a76c489ac146e7d5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STC-EVIL.ICE by Stone The Crow (ice-9411); released in ice-9411 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: STC-EVIL.ICE by Stone The Crow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9411-stc-evil-part01
 
 Write-Host '
 

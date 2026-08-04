@@ -1,17 +1,4 @@
-﻿# Converted from: BC-MLK1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bat05/raw/BC-MLK1.ANS
-# Source Revision: archive-sha256:c1082e0417753715d0b89831e0230f9ac3baf3aab6c8a1f382615ebce2ab409a
-# Source SHA-256: 480ee91bd4dca17ff822e6d95e769e6efcc7a9e044bae52db65e08b68a041002
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BC-MLK1.ANS by beeyacH! (bat05); released in bat05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: wee%woah%melackagain%phunkeeistyle%
-# SAUCE Author: beeyacH!
-# SAUCE Date: 19970119
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: wee%woah%melackagain%phunkeeistyle% by beeyacH! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bat05-bc-mlk1
 
 Write-Host '
                                  [1;35m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: RL-OPX!!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0196/raw/RL-OPX!!.ANS
-# Source Revision: archive-sha256:b488878884154420cd3d4f315b5d1218512f30bbd731fa31bcae353756902b21
-# Source SHA-256: ad25c4a5319637e123af267c0a2d0b771f36795805009e9508a692648e016474
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL-OPX!!.ANS by Rawlock (Opium); released in opx-0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Contribute NOW!!
-# SAUCE Author: Rawlock
-# SAUCE Group: Opium
-# SAUCE Date: 19951222
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Contribute NOW!! by Rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0196-rl-opx
 
 Write-Host '
 

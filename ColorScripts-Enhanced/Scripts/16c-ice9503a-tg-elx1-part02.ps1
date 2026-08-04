@@ -1,18 +1,4 @@
-﻿# Converted from: TG-ELX1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9503a/raw/TG-ELX1.ICE
-# Source Revision: archive-sha256:081985c23735b95cddfdc1d77773259556c8f6f57a649cc5efbaea6df8684bed
-# Source SHA-256: e87970d7a72abc73cc2199f33ba0821e7282e00ff1f0b48e5a37f7340996d7b6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-ELX1.ICE by TooN GooN (iCE); released in ice9503a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Elixir
-# SAUCE Author: TooN GooN
-# SAUCE Group: iCE
-# SAUCE Date: 19950303
-# SAUCE Dimensions: 80x25
-# Lines: 48-93
-# Columns: 1-80
+﻿# Artwork: Elixir by TooN GooN | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9503a-tg-elx1-part02
 
 Write-Host '
 [32m████ [0;1;31m████████████████████████▌▐██  [0;33m▐[0;1;31;43m▐[0;1;31m████  [0;33m▄[0;1;31;43m▄[0;1;31m█▌ [0;33m█[0;1;31m██████████████████████  [0;33m█[0;1;31m██████[0m

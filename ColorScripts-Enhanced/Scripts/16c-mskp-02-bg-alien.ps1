@@ -1,18 +1,4 @@
-﻿# Converted from: BG-ALIEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mskp-02/raw/BG-ALIEN.ANS
-# Source Revision: archive-sha256:e2f26965ff1d6a3c768a3ba596182d63a257dc7f930f0715cef724467107c48d
-# Source SHA-256: 1ac2e4a714c38d450f5258b45ee361cc1b545b5c3b8057f7e60b1db21159bdf1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BG-ALIEN.ANS by BeRGuS (MASAKRE PRODUCTiONS); released in mskp-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: GReeN ALieN
-# SAUCE Author: BeRGuS
-# SAUCE Group: MASAKRE PRODUCTiONS
-# SAUCE Date: 19960714
-# SAUCE Dimensions: 80x25
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: GReeN ALieN by BeRGuS | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mskp-02-bg-alien
 
 Write-Host '
                 [32m▄[0;1;33;42m░▒▓▓▒░░░[0;32m▀ ▄█[0;1;33;42m        ░░░░░▓▓▓▒▒▒▒▒░░░ [0;1;30;42m░░▒▒▓[0;1;30;40m█▀▀▀▀▀▀██[0;1;30;42m▓▒▒░░░[0;1;33;42m [0;1;30;42m░░░▒▒[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MD-MADSK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twi-9701/raw/MD-MADSK.ANS
-# Source Revision: archive-sha256:26418846e3f66c7b21ef5303595f591853876ded0de00cde7eba5a3033612321
-# Source SHA-256: 30d09a47267272028fa858e548224f26bc934a24147e4f26f4f3c1eb3f2e32ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MD-MADSK.ANS by mendator (twilight); released in twi-9701 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: mad skillz
-# SAUCE Author: mendator
-# SAUCE Group: twilight
-# SAUCE Date: 19970113
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: mad skillz by mendator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twi-9701-md-madsk
 
 Write-Host '
  -( mad skillz - for defiant )-------------------------------------------------

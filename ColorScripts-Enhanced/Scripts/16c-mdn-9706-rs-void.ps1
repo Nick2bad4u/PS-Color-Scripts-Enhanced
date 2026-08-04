@@ -1,18 +1,4 @@
-﻿# Converted from: RS-VOID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9706/raw/RS-VOID.ANS
-# Source Revision: archive-sha256:7778e60ae879f03132c18bc660bc1aff97b6f3b65410765bf6f0d32a4bcff865
-# Source SHA-256: f18901fbcd206945ad92b680cf1a6dd29ce43f6a217fdbbab172f96d60047cf1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-VOID.ANS by rorshack (Maiden Brazil); released in mdn-9706 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: into the v0id
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19970516
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: into the v0id by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9706-rs-void
 
 Write-Host '
                              [1;32m░░░░[0m   [1m░░░▄█▄[0;1;36m [0m    [1m                     rs [0;1;33m([0;1;37mmaiden[0;1;33m)[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: HT-DIES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bli-0994/raw/HT-DIES.ANS
-# Source Revision: archive-sha256:e8a8a0a380e95ad8e079e29454639fb3744fea62262aae646675cdc56210b17e
-# Source SHA-256: c9dacaf9ecbe165fe57b1669607ece7eca7534c9521a7db27a1914757b60e3b8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HT-DIES.ANS by HuNTER (BLitZ); released in bli-0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: DiES iRAE
-# SAUCE Author: HuNTER
-# SAUCE Group: BLitZ
-# SAUCE Date: 19940810
-# SAUCE Dimensions: 80x191
-# Lines: 144-190
-# Columns: 1-80
+﻿# Artwork: DiES iRAE by HuNTER | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bli-0994-ht-dies-part04
 
 Write-Host '
 [34m░░░░░[0m                                   [31m░░░░░░░░░░░░░░░░░░░[0m

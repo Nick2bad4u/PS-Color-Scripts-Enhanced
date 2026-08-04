@@ -1,17 +1,4 @@
-﻿# Converted from: TB-ME.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot0697/raw/TB-ME.ANS
-# Source Revision: archive-sha256:cd8b6827004edaee3756929e0cbb3d0ec5efd33f1ee3e0394a0ebbb56fa3c6b7
-# Source SHA-256: 0d118cd3125c74fb1ba45addf7a25c5297ece7476ce65a1910d9378423566bdd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TB-ME.ANS by Turbine (RioT Productions); released in riot0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: Turbine
-# SAUCE Group: RioT Productions
-# SAUCE Date: 19970530
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: TB-ME.ANS by Turbine | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot0697-tb-me
 
 Write-Host '
         [1;33m▄█[0;1;33;43m▓[0;1;33;40m█▀▀███[0;1;33;43m▓[0;1;33;40m██▄[0m

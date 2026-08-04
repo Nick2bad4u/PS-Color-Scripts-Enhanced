@@ -1,18 +1,4 @@
-﻿# Converted from: HAL-APOC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0496/raw/HAL-APOC.ANS
-# Source Revision: archive-sha256:50df8163143d8d441a5fa61622ccb7c33b46a1217f5b4d1eaeeea3d3f2226464
-# Source SHA-256: 34b11c98d29c5579b544705670446a2e18b33a4ba24a80ed14c58ce9faf1e36f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HAL-APOC.ANS by Halaster (fire); released in fire0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Apocalypse
-# SAUCE Author: Halaster
-# SAUCE Group: fire
-# SAUCE Date: 19960309
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Apocalypse by Halaster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0496-hal-apoc
 
 Write-Host '
 [1m    ──[0m─[36m-─[0;1;30m────────────-─────-─- [0;36m▄[0;1;36m▄[0;1;37m▄[0;1;37;46m▓[0;1;36;46m▌[0;36m▀ [0;1;30m─--───────-──────────────-──────[0;36m──[0;37m-[0;1;37m──[0m

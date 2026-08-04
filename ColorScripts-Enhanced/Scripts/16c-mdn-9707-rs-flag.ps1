@@ -1,18 +1,4 @@
-﻿# Converted from: RS-FLAG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9707/raw/RS-FLAG.ANS
-# Source Revision: archive-sha256:bfcb83c6d9eb9beac4e313e6cb4a06c0bdcb3b894eaa2b7afbdde4d6e5181bec
-# Source SHA-256: 352f626455fdb46156c87bf88e4c332b41284c0b42012ddf27a027ba835a434f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-FLAG.ANS by rorshack (Maiden Brazil); released in mdn-9707 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: MADE IN BRAZIL. Got it?
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19970616
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: MADE IN BRAZIL. Got it? by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9707-rs-flag
 
 Write-Host '
                 [1;32m░░[0;1;32;42m█▓░[0;32m██▀▀[0;1;33m▄▄[0;1;33;43m▀[0;33m▀[0;1;34m▄▄█▀██[0;1;34;44m▄[0;34m▄[0;1;33m▀█▄▄[0;32m▀▀██████[0m

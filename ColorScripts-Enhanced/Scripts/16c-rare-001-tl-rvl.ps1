@@ -1,18 +1,4 @@
-﻿# Converted from: TL@RVL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-001/raw/TL%40RVL.ANS
-# Source Revision: archive-sha256:7435b1c9938dec461ab33b42b3dd164ea7e98ecfff30ea4d3df5a8e59194b0a3
-# Source SHA-256: 9419f0abcc6e76196f43d219c1cdb1db2c2a5345a19771b47ba463a05955149f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TL@RVL.ANS by timeless (rARE!ASCii); released in rare-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: revolution
-# SAUCE Author: timeless
-# SAUCE Group: rARE!ASCii
-# SAUCE Date: 19980305
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: revolution by timeless | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-001-tl-rvl
 
 Write-Host '
                                            [1;30m.[0m

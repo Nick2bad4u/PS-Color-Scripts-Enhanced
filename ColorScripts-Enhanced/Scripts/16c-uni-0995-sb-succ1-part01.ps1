@@ -1,17 +1,4 @@
-﻿# Converted from: SB-SUCC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0995/raw/SB-SUCC1.ANS
-# Source Revision: archive-sha256:66f11d43d10b981d3ff2235c6fadd1403a507952ad88040c9eb9cd5142a4f4b1
-# Source SHA-256: ae2ddcbd4c38c20a29cd229382859417f3d9c49aa81179d7441458102595b77a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SB-SUCC1.ANS by SpellBinder (uni-0995); released in uni-0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: SuccoTash #1
-# SAUCE Author: SpellBinder
-# SAUCE Date: 19950730
-# SAUCE Dimensions: 80x99
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: SuccoTash #1 by SpellBinder | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0995-sb-succ1-part01
 
 Write-Host '
 [34m▓██████████████████████████████████████████████████████████████████████████████▓[0m

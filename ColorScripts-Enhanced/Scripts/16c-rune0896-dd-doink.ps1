@@ -1,16 +1,4 @@
-﻿# Converted from: DD-DOINK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rune0896/raw/DD-DOINK.ANS
-# Source Revision: archive-sha256:a41a6fd18e5a57ea19659d03cc5ff527cec9b4701f346aaff2f3d3658fc2ad09
-# Source SHA-256: 11b43b75f8718aa88f05586c63f07e6a54ad6942befd224cedf10a1796750fb8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-DOINK.ANS by delirious dingo (rune); released in rune0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dOink!
-# SAUCE Author: delirious dingo
-# SAUCE Group: rune
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: dOink! by delirious dingo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rune0896-dd-doink
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-FISHY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0197/raw/IZ-FISHY.ANS
-# Source Revision: archive-sha256:db16ecaf9a5ba2dcf16f11149d4e3768d3e19930159af1ef0ef2625ea12b3e30
-# Source SHA-256: 43927b419e4e5ff74703eb36140852186f050f4dc6e36b394cc6830062ab17b4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-FISHY.ANS by ize (fusion); released in fsn-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: skull fish
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19961216
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: skull fish by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0197-iz-fishy
 
 Write-Host '
        [1;33m  [0m [1;33m             [0m [1;33m        [0m                            [33m░░░░░[0m

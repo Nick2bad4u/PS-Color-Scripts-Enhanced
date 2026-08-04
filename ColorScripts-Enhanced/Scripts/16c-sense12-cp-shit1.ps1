@@ -1,18 +1,4 @@
-﻿# Converted from: CP-SHIT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense12/raw/CP-SHIT1.ANS
-# Source Revision: archive-sha256:72a1d185ef815e3805a380072164234a2a5581149ba3dc403bf27328a83a059a
-# Source SHA-256: 30c462a3c4be7ad511c624b302b9522699ad0551a9f3797575a70482dde49377
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CP-SHIT1.ANS by cyberphreak (sense); released in sense12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: everything
-# SAUCE Author: cyberphreak
-# SAUCE Group: sense
-# SAUCE Date: 19980724
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: everything by cyberphreak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense12-cp-shit1
 
 Write-Host '
          [1;30m██[0m░░░[1;30m██████[0m            [1;30m▀▀█[0;1;30;47m▓▓▓▒░[0m▄[1;30m▀█[0;1;30;47m▓▒░[0m█▄      [1;30m█▓▒▓▓██[0;1;30;46m▓▓[0;1;30;40m█████▒▒▒▓▓▓██▓██[0;1;30;47m▓[0m

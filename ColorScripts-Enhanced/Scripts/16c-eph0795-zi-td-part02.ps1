@@ -1,13 +1,4 @@
-﻿# Converted from: ZI-TD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eph0795/raw/ZI-TD.ANS
-# Source Revision: archive-sha256:3ae356e33ba2054cf1d98da2bbc65f1e165e24aeb22f3b590704f646bdf96398
-# Source SHA-256: 4ed9777c40ece384036744f26c673cf27e66ea23cd6dc89e270ce47ab34c86c4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZI-TD.ANS by Zippo (eph0795); released in eph0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: ZI-TD.ANS by Zippo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eph0795-zi-td-part02
 
 Write-Host '
 [1;33m██████████████▄ ▀██████████████████████████████████████████████████████████████[0m

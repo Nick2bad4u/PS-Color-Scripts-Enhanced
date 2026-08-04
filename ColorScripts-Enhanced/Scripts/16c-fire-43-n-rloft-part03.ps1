@@ -1,19 +1,4 @@
-﻿# Converted from: N-RLOFT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-43/raw/N-RLOFT.ANS
-# Source Revision: archive-sha256:d3967e67800d0c773a52f120751caeb2bc01ead5180b478fb0a0e89978edc4ec
-# Source SHA-256: d96457111c1c32ac33b96f78c556f01bfe5b0330591d6424872d532176dc10d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-RLOFT.ANS by nail (fire); released in fire-43 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: strahd von zarovich
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 20250707
-# SAUCE Dimensions: 80x139
-# SAUCE Font: IBM VGA
-# Lines: 95-139
-# Columns: 1-80
+﻿# Artwork: strahd von zarovich by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-43-n-rloft-part03
 
 Write-Host '
 [1;30;47m▒▒▒▓[0;1;30;40m▓  ▄▄▄▄▀[0m     [1;30m░░░▄█[0m [1;30m▓██[0;1;30;47m▓[0;1;30;40m█[0m      [1;30m▄[0m           [1;30m░░[0m   [1;30m░░░░░[0m

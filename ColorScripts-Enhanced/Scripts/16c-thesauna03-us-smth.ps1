@@ -1,19 +1,4 @@
-﻿# Converted from: us-smth.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna03/raw/us-smth.ans
-# Source Revision: archive-sha256:997aaab655669129eb266c21ca0c4588b603e11c90338498bb530f8bba390fb2
-# Source SHA-256: 3c4844aecff3da8a9f4142c7b1ffb2d83130891eeb7849087d032c7c332fc766
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-smth.ans by Tainted + Knocturnal (blocktronics / laz); released in thesauna03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: smooth
-# SAUCE Author: tainted / knocturnal
-# SAUCE Group: blocktronics / laz
-# SAUCE Date: 20220404
-# SAUCE Dimensions: 120x35
-# SAUCE Font: IBM VGA
-# Lines: 1-35
-# Columns: 1-120
+﻿# Artwork: smooth by Tainted + Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna03-us-smth
 
 Write-Host '
 

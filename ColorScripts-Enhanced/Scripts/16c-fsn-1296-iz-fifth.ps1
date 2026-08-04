@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-FIFTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-1296/raw/IZ-FIFTH.ANS
-# Source Revision: archive-sha256:335d72ea88974be53669cf31a72ea37012b04dc993bc1fa4727d94939a55db7e
-# Source SHA-256: 0b674889478426064c9ce8b25ca3469b4573a1b760d6078d7c2ac8d4d638d6c2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-FIFTH.ANS by ize (fusion); released in fsn-1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fifth element
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19961117
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: fifth element by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-1296-iz-fifth
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: SP-TEA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-01/raw/SP-TEA1.ANS
-# Source Revision: archive-sha256:8a67b8a789d291ebb3c2dac335fadb955c4c5780d922eead5382af014b63c773
-# Source SHA-256: 8817577e248078f0a45e7112c7dbac98d3a9ed470ea2e387e4616b02b5ca5322
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SP-TEA1.ANS by Spearfx (The Used Coalition); released in used-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Tea
-# SAUCE Author: Spearfx
-# SAUCE Group: The Used Coalition
-# SAUCE Date: 19991021
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Tea by Spearfx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-01-sp-tea1
 
 Write-Host '
              [31m [0m           [37m [0m                    [1;30m▀▀▀▓[0m           [1;30m▄▄▀[0m     [36m▐[0m    [37m    [0m

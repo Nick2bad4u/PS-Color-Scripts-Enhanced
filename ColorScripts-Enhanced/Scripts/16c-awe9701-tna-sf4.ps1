@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-SF4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9701/raw/TNA-SF4.ANS
-# Source Revision: archive-sha256:d9ee1d58a6a06d01c9f7c4f38cd8e5ab0dc2d9bdfc6b97ab0ed0cc65c400a40c
-# Source SHA-256: d45d05dc5e149f889e679d7e781fa00f4ec988b4d6244aa08394d34ccf77cbd3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-SF4.ANS by The Night Angel (AWE Lettering); released in awe9701 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: SkullFish Menu
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961225
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: SkullFish Menu by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9701-tna-sf4
 
 Write-Host '
  [36m░[0;30;46m▓[0;36;40m▄[0m         [36;40m▄▄▄▄▄▄▄[0m                                                    [36;40m▒▒   [0;30;46m▓[0;36;40m▀[0;1;36;46m█[0m

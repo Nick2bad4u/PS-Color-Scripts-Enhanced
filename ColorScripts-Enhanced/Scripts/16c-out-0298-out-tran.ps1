@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-TRAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0298/raw/OUT-TRAN.ANS
-# Source Revision: archive-sha256:b2ed908ebe07b9abc8a1b605d9ab159a38924592b5eaadb06525f7a5e1e213a6
-# Source SHA-256: 1b12d1676c0f4ec51a013ca33befea9203344a9bd1cca8e4fdc51231a0356363
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-TRAN.ANS by Sandy Chidester (out-0298); released in out-0298 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: OUT-TRAN.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0298-out-tran
 
 Write-Host '
 [1;36;46m██[0;1;46m▒▒▓▓██▄▄▄[0;1;36;46m▄▄▄▄▄ [0;1;30;46m▄▄▄▄▄▄▄▄▄▄▄▄[0;36;47m█████████████[0;36;46m [0;36;47m█[0;1;46m▓▓████▄▄[0;36;47m██████[0;1;36;46m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;36;47m███████[0m

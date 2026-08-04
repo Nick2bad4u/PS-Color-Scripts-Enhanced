@@ -1,18 +1,4 @@
-﻿# Converted from: US-ZALT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0997/raw/US-ZALT.ANS
-# Source Revision: archive-sha256:d6ce507ee095ab9c7ce1d91178b57bff0c61babde42a3957415461a430e18407
-# Source SHA-256: 9d9ffc0d3d318c1b599138ad95868c4d5b4a4fbc47b7dc50da91cd82d89171d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ZALT.ANS by Big Yellow Man + Bizzarro (poffelipoff); released in plf-0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: grattis ZALT
-# SAUCE Author: bym//bizzarro
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19970921
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: grattis ZALT by Big Yellow Man + Bizzarro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0997-us-zalt
 
 Write-Host '
          [31m▄[0m                                [35m [0m         [31m▄▄▄[0;1;35m░░[0m

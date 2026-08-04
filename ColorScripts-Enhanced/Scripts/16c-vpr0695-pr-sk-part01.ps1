@@ -1,18 +1,4 @@
-﻿# Converted from: PR-SK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vpr0695/raw/PR-SK.ANS
-# Source Revision: archive-sha256:78c3ace83360714b9f57ab0b5b4ffd040155a161a665ae8c182b834426edfb2b
-# Source SHA-256: 418ecfb6234af1da273306adc8ad7a465f8f656ab2b67a54bb89e509723cf521
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR-SK.ANS by prism (vapor); released in vpr0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: spontaneous kombustion
-# SAUCE Author: prism
-# SAUCE Group: vapor
-# SAUCE Date: 19950605
-# SAUCE Dimensions: 80x86
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: spontaneous kombustion by prism | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vpr0695-pr-sk-part01
 
 Write-Host '
  [34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;37m [0m

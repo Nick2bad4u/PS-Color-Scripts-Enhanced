@@ -1,18 +1,4 @@
-﻿# Converted from: US-FARM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/b2k-008/raw/US-FARM.ANS
-# Source Revision: archive-sha256:3e9b4d7ccfde9a1c352ae7ce24e0af4f59bdd242e0d3360fde6cc827e611aabf
-# Source SHA-256: fd9c6bf20d75e9657d8dc69e9d6c0350a2d5a08617d891232031ed2f7afc710c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FARM.ANS by Spirit Of Rage + Big Yellow Man (poffelipoff); released in b2k-008 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: famer, selling, planet of apes
-# SAUCE Author: Multiple Artists
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19990607
-# SAUCE Dimensions: 80x121
-# Lines: 83-121
-# Columns: 1-80
+﻿# Artwork: famer, selling, planet of apes by Spirit Of Rage + Big Yellow Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-b2k-008-us-farm-part03
 
 Write-Host '
 [32m▀▄█████▀ [0;1;30m▐█▄▐█▓▌▄▄[0;33m▄[0;1;30;43m▒[0;1;30;40m▀[0;33m [0;1;30m▀[0;1;30;47m▓[0;1;30;40m█[0;33m [0;1;30;47m▓▓[0;1;30;40m▌[0;32m▐██▀▄███▀▄  ██▀▄████▀  [0;1;30m▄██▄▀[0m▀[1;30;47m▄░▒▒▓▓▓[0;1;30;40m▌[0;32m░[0;1;30m▀▀█▄▄██▄[0;32m ▀█[0;1;33;42m░░[0m

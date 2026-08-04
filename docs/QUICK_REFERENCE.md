@@ -11,18 +11,18 @@ PowerShell 5.1 and PowerShell 7+ are supported. Use an ANSI-capable terminal; a 
 
 ## Commands and Aliases
 
-| Command                          | Alias                                         | Purpose                                      |
-| -------------------------------- | --------------------------------------------- | -------------------------------------------- |
-| `Show-ColorScript`               | `scs`                                         | Render, list, or browse colorscripts         |
-| `Get-ColorScriptList`            | -                                             | Query colorscript inventory records          |
-| `New-ColorScriptCache`           | `Update-ColorScriptCache`, `Build-ColorScriptCache` | Build policy-selected cache entries |
-| `Clear-ColorScriptCache`         | -                                             | Remove selected cache entries                |
-| `Add-ColorScriptProfile`         | -                                             | Add a managed import/startup profile block   |
-| `Get-ColorScriptConfiguration`   | -                                             | Read effective configuration                 |
-| `Set-ColorScriptConfiguration`   | -                                             | Persist cache and startup preferences        |
-| `Reset-ColorScriptConfiguration` | -                                             | Restore built-in configuration defaults      |
-| `Export-ColorScriptMetadata`     | -                                             | Return metadata objects or write JSON        |
-| `New-ColorScript`                | -                                             | Scaffold a UTF-8 colorscript file            |
+| Command                          | Alias                                               | Purpose                                    |
+| -------------------------------- | --------------------------------------------------- | ------------------------------------------ |
+| `Show-ColorScript`               | `scs`                                               | Render, list, or browse colorscripts       |
+| `Get-ColorScriptList`            | -                                                   | Query colorscript inventory records        |
+| `New-ColorScriptCache`           | `Update-ColorScriptCache`, `Build-ColorScriptCache` | Build policy-selected cache entries        |
+| `Clear-ColorScriptCache`         | -                                                   | Remove selected cache entries              |
+| `Add-ColorScriptProfile`         | -                                                   | Add a managed import/startup profile block |
+| `Get-ColorScriptConfiguration`   | -                                                   | Read effective configuration               |
+| `Set-ColorScriptConfiguration`   | -                                                   | Persist cache and startup preferences      |
+| `Reset-ColorScriptConfiguration` | -                                                   | Restore built-in configuration defaults    |
+| `Export-ColorScriptMetadata`     | -                                                   | Return metadata objects or write JSON      |
+| `New-ColorScript`                | -                                                   | Scaffold a UTF-8 colorscript file          |
 
 Every command also accepts `-h` (alias `-help`) for its concise module help.
 

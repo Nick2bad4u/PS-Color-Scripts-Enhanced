@@ -1,18 +1,4 @@
-﻿# Converted from: PH-RUST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0596/raw/PH-RUST.ANS
-# Source Revision: archive-sha256:36c941759d451fdd3b8fb831978bf146c114a97ebcdf99a7ed67f1f699b42790
-# Source SHA-256: 3b7afa657804e1b3c960e0fad09347cddd2e023801e640fd04f0af8cb8d0f6b2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PH-RUST.ANS by Psychoholic (fire); released in fire0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Rust
-# SAUCE Author: Psychoholic
-# SAUCE Group: fire
-# SAUCE Date: 19960505
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Rust by Psychoholic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0596-ph-rust
 
 Write-Host '
 

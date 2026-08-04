@@ -1,18 +1,4 @@
-﻿# Converted from: TE-IE01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1296/raw/TE-IE01.ANS
-# Source Revision: archive-sha256:30782fcfc860946575894eb2b18cd82015430d9b2fe92875d1416c9b2489f009
-# Source SHA-256: 7dfc65ad86696cf7c87e44d31e1bd7eab2ab222da5fec86b845b25453ee812d7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-IE01.ANS by The ExtremisT (FIRE!/Mistigris); released in fire1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Illegal Error
-# SAUCE Author: The ExtremisT
-# SAUCE Group: FIRE!/Mistigris
-# SAUCE Date: 19961211
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Illegal Error by The ExtremisT | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1296-te-ie01
 
 Write-Host '
          [32m▀[0;1;32m▀▀▀▀[0;32m▀█▄▄[0m                                          [32m▄▄▄▄▄[0;1;32m▄▄[0;1;32;42m▄▄▄▄▄▄▄▄▄▄▄[0;32m█[0m

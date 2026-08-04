@@ -1,18 +1,4 @@
-﻿# Converted from: NI-KTLB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nitron-bftd/raw/NI-KTLB.ANS
-# Source Revision: archive-sha256:4c6df16f27c39462bd5da950772e9d859505d53ed6f2727c72aefdd2668e5e13
-# Source SHA-256: d46f1ad49404397c0ff979a14aead6b1d7f70e4367de8c9236e7713f03b57ac9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-KTLB.ANS by nitron (nitron-bftd); released in nitron-bftd and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: KTL Bomber Blue
-# SAUCE Author: nitron
-# SAUCE Date: 20220323
-# SAUCE Dimensions: 80x27
-# SAUCE Font: IBM VGA
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: KTL Bomber Blue by nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nitron-bftd-ni-ktlb
 
 Write-Host '
 [1m┌──────────────────[0;1;34m──[0;1;37m──────[0;1;34m─[0;1;37m────[0;1;34m──[0;1;37m─[0;1;34m──────────────────[0;34m──[0;1;34m───[0;34m──[0;1;34m──[0;34m─[0;1;34m─[0;34m────[0;1;34m─[0;34m──────────┐[0m

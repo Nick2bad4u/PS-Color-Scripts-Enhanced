@@ -1,13 +1,4 @@
-﻿# Converted from: zv-euph.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tnt-008/raw/zv-euph.ans
-# Source Revision: archive-sha256:6e0df4e5bc11386547156c58fbbd5e741464a783c809ccd13a3e11f04a37cc0a
-# Source SHA-256: ae5f1215b7bc5a885bf198df781ccc2323ac3d39d919ff1b26372623ce859e26
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zv-euph.ans by Zerovision (tnt-008); released in tnt-008 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 49-95
-# Columns: 1-80
+﻿# Artwork: zv-euph.ans by Zerovision | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tnt-008-zv-euph-part02
 
 Write-Host '
 [36m ██[0;1;34m▀[0;1;34;46m▓▄[0;36m▄    ░[0m                         [1;30m▀[0m                        [1;30;47m▓[0;1;30;40m█[0m [1;30m▒[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SM!NOC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-33/raw/SM!NOC.ANS
-# Source Revision: archive-sha256:b7cee44fd0827cc83a7bc73fa00064e8c1e5d7af79c8b40b6ee489ab68b999de
-# Source SHA-256: f2109c0f542967cc0a90f78d7ad76ac9e004eb3a624b510b0f6032d27948bbe4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM!NOC.ANS by sims (Fire); released in fire-33 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Noc_des matrix.
-# SAUCE Author: sims
-# SAUCE Group: Fire
-# SAUCE Date: 19980327
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Noc_des matrix. by sims | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-33-sm-noc
 
 Write-Host '
 [1m▒[0;1;36;46m▓▓░░[0;36m▓[0;30;46m▒▓[0m    [36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;1;36;40m░░[0;30m [0;36m                 [0m           [30;46m█[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓░[0;36;40m▓▓█▓[0;1;36;46m░▒[0;36m▄[0;1;36m▄[0;36m▄[0;37m [0;36m▀█▀█[0;1;36;46m▀▄[0;36m▄▄ ▀[0;1;36;46m░░[0m

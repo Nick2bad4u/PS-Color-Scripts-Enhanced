@@ -1,18 +1,4 @@
-﻿# Converted from: A-LAPIZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lpl-vis1/raw/A-LAPIZ.ANS
-# Source Revision: archive-sha256:8702cbee42c0bf5018ee16bdc506dfbe34d2b2e3fdf95af42078b170f8c1ca6d
-# Source SHA-256: 73db43f6542c50af6bc878dbc1f21ccbce9fa2e773a09e471515e1577ed160a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: A-LAPIZ.ANS by /]RLEQU!N (/0/ LPL .0.); released in lpl-vis1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: LAPIZ LOGO #1
-# SAUCE Author: /]RLEQU!N
-# SAUCE Group: /0/ LPL .0.
-# SAUCE Date: 19961004
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: LAPIZ LOGO #1 by /]RLEQU!N | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lpl-vis1-a-lapiz
 
 Write-Host '
 

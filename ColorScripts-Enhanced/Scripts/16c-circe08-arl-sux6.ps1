@@ -1,18 +1,4 @@
-﻿# Converted from: ARL-SUX6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe08/raw/ARL-SUX6.ANS
-# Source Revision: archive-sha256:cfc36d5daeed2f6543814097ace687f378a50215c24a95a0de66b512e3a41b9d
-# Source SHA-256: 2d899a96abf2ab20ab6cbc91812ff11ad74d1288c77a32efd9edc8a798992167
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARL-SUX6.ANS by Arlequin (Circe); released in circe08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: it to die
-# SAUCE Author: Arlequin
-# SAUCE Group: Circe
-# SAUCE Date: 19990727
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: it to die by Arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe08-arl-sux6
 
 Write-Host '
 

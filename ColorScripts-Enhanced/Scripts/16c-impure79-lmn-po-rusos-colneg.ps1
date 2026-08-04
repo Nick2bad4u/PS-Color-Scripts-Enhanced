@@ -1,16 +1,4 @@
-﻿# Converted from: lmn-po_rusos_colneg.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure79/raw/lmn-po_rusos_colneg.ans
-# Source Revision: archive-sha256:b4622c4fdfafdd578f3db64bb2bcff19a7154106ecf4c0e2e9ebef264d05fe2b
-# Source SHA-256: 101e1de74864738480c1f0658ad3a2a828049e4117c4a6660c49cd546f0e4e23
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: lmn-po_rusos_colneg.ans by Lavaramano (impure79); released in impure79 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20210419
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: lmn-po_rusos_colneg.ans by Lavaramano | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure79-lmn-po-rusos-colneg
 
 Write-Host '
 [1;33;105m    ░▒▓▌ █▀▀▀▀[0;1;33;45m▄▄▄▄ [0;1;33;105m ▄▄▄▄[0;1;33;45m▀▀▀▀█ [0;1;33;105m█▀▀▀▀[0;1;33;45m▄▄▄▄ [0;1;33;105m ▄▄▄▄[0;1;33;45m▀▀▀▀█[0;1;33;105m █▀▀▀▀[0;1;33;45m▄▄▄▄ [0;1;33;105m ▄▄▄▄[0;1;33;45m▀▀▀▀█ [0;1;33;105m▐▓▒░ [0;1;31;105m   [0m

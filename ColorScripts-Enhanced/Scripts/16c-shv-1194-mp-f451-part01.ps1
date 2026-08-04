@@ -1,18 +1,4 @@
-﻿# Converted from: MP-F451.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shv-1194/raw/MP-F451.ANS
-# Source Revision: archive-sha256:d3a40a3191a913cb36b897ad49063e6c40e8244915255128cbb96005c37748a9
-# Source SHA-256: a0a51971b6810e0eefdfc76bec5ac564902cbceae6add24afcf3e49f6150c409
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MP-F451.ANS by Mephitopeles (Shiver); released in shv-1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fahrenheit 451
-# SAUCE Author: Mephitopeles
-# SAUCE Group: Shiver
-# SAUCE Date: 19941029
-# SAUCE Dimensions: 80x25
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Fahrenheit 451 by Mephitopeles | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shv-1194-mp-f451-part01
 
 Write-Host '
 

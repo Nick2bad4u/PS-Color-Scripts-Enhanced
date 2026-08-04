@@ -1,18 +1,4 @@
-﻿# Converted from: ARL-SUXE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe08/raw/ARL-SUXE.ANS
-# Source Revision: archive-sha256:cfc36d5daeed2f6543814097ace687f378a50215c24a95a0de66b512e3a41b9d
-# Source SHA-256: 10ec8a80047c18fc75b58bd854125c9e48eaf86cede74093eed4bd2728c2dc5a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARL-SUXE.ANS by arlequin (circe); released in circe08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: winkofon
-# SAUCE Author: arlequin
-# SAUCE Group: circe
-# SAUCE Date: 20000121
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: winkofon by arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe08-arl-suxe
 
 Write-Host '
 

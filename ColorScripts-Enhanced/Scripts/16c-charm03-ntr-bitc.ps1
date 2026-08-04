@@ -1,17 +1,4 @@
-﻿# Converted from: NTR-BITC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/charm03/raw/NTR-BITC.ANS
-# Source Revision: archive-sha256:8269fc9de1b1c677a1ded984d0c0b044bcff6f003794a56803e4eb2a5a520340
-# Source SHA-256: 9a903ecd9114a0a92218640d5d66e879cb84fda6c010100723c995c812dd42a5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NTR-BITC.ANS by neurotrance (charm); released in charm03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: byebye my darling
-# SAUCE Author: neurotrance
-# SAUCE Group: charm
-# SAUCE Dimensions: 80x25
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: byebye my darling by neurotrance | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-charm03-ntr-bitc
 
 Write-Host '
    [34m░▄[0;1;34;44m▄▄[0;34m█▀▀▄░[0m     [34m░█▄░[0;35m    [0;34m░▄▄█[0;1;34;44m▄[0;34m▄▄░[0m

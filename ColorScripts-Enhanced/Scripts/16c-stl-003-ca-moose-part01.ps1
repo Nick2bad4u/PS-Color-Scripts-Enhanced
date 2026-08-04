@@ -1,18 +1,4 @@
-﻿# Converted from: CA-MOOSE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stl-003/raw/CA-MOOSE.ANS
-# Source Revision: archive-sha256:f05577e69788bf833b2eeb503583305cc9119acc157823c14e039d65d70a6838
-# Source SHA-256: 773c52dc8845e4313aa857c13f2364c1c9856ac8a7e18256d3e87892b36945a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CA-MOOSE.ANS by Catonica (Stile Productions 95); released in stl-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Moose City Logo
-# SAUCE Author: Catonica
-# SAUCE Group: Stile Productions 95
-# SAUCE Date: 19951214
-# SAUCE Dimensions: 80x62
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Moose City Logo by Catonica | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stl-003-ca-moose-part01
 
 Write-Host '
 [1;30m·■▀■▀▀■▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀■▀▀■▀■·[0m

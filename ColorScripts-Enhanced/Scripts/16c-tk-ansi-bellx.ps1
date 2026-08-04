@@ -1,18 +1,4 @@
-﻿# Converted from: BELLX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tk-ansi/raw/BELLX.ANS
-# Source Revision: archive-sha256:7a6e15a450305cb977de0a4eb06cf4ca525baa4933c9f7af1cf6080dced8bf2d
-# Source SHA-256: 5d7ff4a9eca50e665fd6f02011c070a31f9d1997200653451c53d4a02b8bd0b7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BELLX.ANS by Tank (ACiD Productions); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: No Ma Bell
-# SAUCE Author: Tank
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19920129
-# SAUCE Dimensions: 80x11
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: No Ma Bell by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tk-ansi-bellx
 
 Write-Host '
            [1m▄▄▄[0m

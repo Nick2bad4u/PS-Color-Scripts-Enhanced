@@ -1,18 +1,4 @@
-﻿# Converted from: BS-CBAR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-02/raw/BS-CBAR1.ANS
-# Source Revision: archive-sha256:47a67f112d88796e8c1419ea3c6c084684ff2719dfc540b2668a69dc0343be0d
-# Source SHA-256: 42ce8d08129d83d0d427e3f1bc3c5efdf1331f920bb44b9425dc982f6d40e31d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-CBAR1.ANS by burps (odium); released in odium-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the crossbar
-# SAUCE Author: burps
-# SAUCE Group: odium
-# SAUCE Date: 19951227
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: the crossbar by burps | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-02-bs-cbar1
 
 Write-Host '
 [1;40m                                                                                [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US-TLPRM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl199503/raw/US-TLPRM.ANS
-# Source Revision: archive-sha256:076dc5f7e8e5935b6779aca5076679253dcd9b76950721d084bd358b3028f504
-# Source SHA-256: 3fc56b595f08e118414be353291dc43b4befd2e99fe61089b0a7c6461ad8b9e9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TLPRM.ANS by Smooth + Celestian (TekLordZ); released in tl199503 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: TekLordZ Promo
-# SAUCE Author: Cel/Smooth
-# SAUCE Group: TekLordZ
-# SAUCE Date: 19950302
-# SAUCE Dimensions: 80x53
-# Lines: 27-53
-# Columns: 1-80
+﻿# Artwork: TekLordZ Promo by Smooth + Celestian | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl199503-us-tlprm-part02
 
 Write-Host '
 [37m▒[0m   [34m▄▄▄[0m  [37m▄██[0m [1;34m███   [0m    [31m▀▀[0m [31m▒[0m [1;30m▒▓[0;1;30;45m▄[0;1;30;40m▌▓[0;1;30;47m▓[0;1;30;40m▓▒▒░░▄ [0;35m▓ ▐[0;1;35;45m▓[0;35m▒▌[0m [31m▒[0m [31m▒[0m [31m▓[0m [31m▀▄▄[0m      [1;31m▄██[0m [1;31m▀▀░[0m  [1;31m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: KM-BAD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0594/raw/KM-BAD1.ANS
-# Source Revision: archive-sha256:c612ea4a59fec91943d878667a48e1c926e28a2e076d898f1c1ec92a14e6fce8
-# Source SHA-256: 6cf6c64e55aea01a6e970c4b9d0a830e26065c3dc80ede584299bd1520bf6acc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KM-BAD1.ANS by King Midas (ACiD Productions); released in acdu0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Badlands
-# SAUCE Author: King Midas
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940430
-# SAUCE Dimensions: 80x186
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: The Badlands by King Midas | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0594-km-bad1-part01
 
 Write-Host '
 ▄▄▄▄▄▄▄▄  [1m▄▀ [0m▄▄▄▄▄▄▄▄▄ [1m▀▄  [0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄

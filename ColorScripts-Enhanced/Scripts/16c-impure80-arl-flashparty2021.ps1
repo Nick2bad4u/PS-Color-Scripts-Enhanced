@@ -1,18 +1,4 @@
-﻿# Converted from: arl-flashparty2021.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure80/raw/arl-flashparty2021.ans
-# Source Revision: archive-sha256:6ccade3320791158c22ef03d56ecb45d9c0b8545b126c0cb47ca0f6ff3905e48
-# Source SHA-256: 4851429de6478a070db900e16bdaf52e7035d30b18fb83dc647dccb9bcd5b3e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: arl-flashparty2021.ans by Arlequin (Impure); released in impure80 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: Arlequin
-# SAUCE Group: Impure
-# SAUCE Date: 20210522
-# SAUCE Dimensions: 70x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-70
+﻿# Artwork: arl-flashparty2021.ans by Arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure80-arl-flashparty2021
 
 Write-Host '
 [31m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0;31;40m►[0;30;41m►[0m

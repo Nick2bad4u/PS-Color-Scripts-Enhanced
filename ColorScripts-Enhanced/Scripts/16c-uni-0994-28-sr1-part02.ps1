@@ -1,18 +1,4 @@
-﻿# Converted from: 28-SR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0994/raw/28-SR1.ANS
-# Source Revision: archive-sha256:d52e129f96f71f6848900ce3b29c8c11226ab1e8deb5b65d2dd6cfc9e9815cf7
-# Source SHA-256: 46d00e55c80bc15699cb42bc9e82ad0f5797e1b7976374402b2d3dd7b1970401
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 28-SR1.ANS by #28 (Union); released in uni-0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Satanic Remorse
-# SAUCE Author: #28
-# SAUCE Group: Union
-# SAUCE Date: 19940901
-# SAUCE Dimensions: 80x25
-# Lines: 33-72
-# Columns: 1-80
+﻿# Artwork: Satanic Remorse by #28 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0994-28-sr1-part02
 
 Write-Host '
 [30;41m░[0;31m▀[0;30;41m░[0;31m▀▀[0;1;31;41m░[0;31m▀▀[0;1;31;41m       [0;31m█▌[0m▐█[1;30;47m░[0;1m    ▄▄███▄[0;1;47m▓▓▓[0;1;40m████▄██████▄▄[0m  ▀▌ ▒ ░░▓ ░[31m ▐[0;30;41m                   [0m

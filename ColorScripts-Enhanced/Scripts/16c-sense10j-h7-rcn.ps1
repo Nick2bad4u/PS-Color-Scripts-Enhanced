@@ -1,18 +1,4 @@
-﻿# Converted from: H7-RCN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense10j/raw/H7-RCN.ANS
-# Source Revision: archive-sha256:79b287d3b8a2f4ceb916c80975416d0ea3340c57dd3b4333f96895fc037bee42
-# Source SHA-256: a26c31b274332d4fb730516e1db748032655f8c0786d82af3a92ee2d2ded5a7f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: H7-RCN.ANS by h7 (sense imagery); released in sense10j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: reality check network
-# SAUCE Author: h7
-# SAUCE Group: sense imagery
-# SAUCE Date: 20020926
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: reality check network by h7 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense10j-h7-rcn
 
 Write-Host '
 

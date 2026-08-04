@@ -1,18 +1,4 @@
-﻿# Converted from: 43-tp.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper05/raw/43-tp.ans
-# Source Revision: archive-sha256:33fac09b0787230492798535c47bf2642ecf35522de5af17dfe59b662d1606a6
-# Source SHA-256: 4a759f29c12ed1c0da2fc59f10f65b7fed63f24d8e8be4e14d35f55c7d012f12
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 43-tp.ans by aesthetic (jasper); released in jasper05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: toxic poison goodbye screen
-# SAUCE Author: aesthetic
-# SAUCE Group: jasper
-# SAUCE Date: 20020423
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: toxic poison goodbye screen by aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper05-43-tp
 
 Write-Host '
 [1;33m█████[0;1;33;47m▓▓[0;1;33;40m█▀▀▀▄▄█████▀▄███[0;1;33;47m▓▓[0;1;33;40m██▀▀▄████████[0;1;33;47m▓▓▒▒▓▓[0;1;33;40m██▀███▓▓███[0;1;33;47m████▓▓░▒▓▓[0;1;33;40m████▄█▄▄ [0m  [1;36m░▒[0;33m [0m

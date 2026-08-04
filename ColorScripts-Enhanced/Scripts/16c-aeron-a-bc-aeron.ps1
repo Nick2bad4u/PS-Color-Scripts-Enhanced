@@ -1,13 +1,4 @@
-﻿# Converted from: Bc-aeron.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aeron-a/raw/Bc-aeron.ans
-# Source Revision: archive-sha256:77ae7b32523591af134f7f3f8b7b910fee96858615d2fc199e08003552f80728
-# Source SHA-256: cd6da0454c818578b9a347fde6f25924e7c081a1df038c363663a21a05354d12
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Bc-aeron.ans by Bluecalx (aeron-a); released in aeron-a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Bc-aeron.ans by Bluecalx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aeron-a-bc-aeron
 
 Write-Host '
                               [1m__ [0m                              [1m__  [0m

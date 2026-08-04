@@ -1,18 +1,4 @@
-﻿# Converted from: INS_PLAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plenty/raw/INS_PLAN.ANS
-# Source Revision: raw-sha256:9cfc2b222aa452528f83cd0504f7044e50068b2dbe8184343e35d77bbdd90e64
-# Source SHA-256: 9cfc2b222aa452528f83cd0504f7044e50068b2dbe8184343e35d77bbdd90e64
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: INS_PLAN.ANS by insect (k!aa); released in plenty and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: planet
-# SAUCE Author: insect
-# SAUCE Group: k!aa
-# SAUCE Date: 20000201
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: planet by insect | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plenty-ins-plan
 
 Write-Host '
            [1;32m    [0m          [1;31m.[0m

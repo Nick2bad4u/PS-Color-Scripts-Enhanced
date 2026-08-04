@@ -1,18 +1,4 @@
-﻿# Converted from: ST-KA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_07/raw/ST-KA.ANS
-# Source Revision: archive-sha256:fdb99f4e825fce5f0239182b89b35e7a65dfd1f629b419cb099f04589247c9f8
-# Source SHA-256: 1182f4b4f073f145e1dafa2ad144581545e490c368480138169299792c99979b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-KA.ANS by soul trader (dox); released in dox_07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: killarmy
-# SAUCE Author: soul trader
-# SAUCE Group: dox
-# SAUCE Date: 19970406
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: killarmy by soul trader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-07-st-ka
 
 Write-Host '
 

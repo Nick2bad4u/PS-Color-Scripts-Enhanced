@@ -1,17 +1,4 @@
-﻿# Converted from: KLU-CIA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cia54/raw/KLU-CIA.ANS
-# Source Revision: archive-sha256:9b7b685b524341694e840bb32e23e0ecbdd87901428d1485320cda27f9079201
-# Source SHA-256: a6c8b602b44f592f3000d1af5fe97ac3d600f836c51f6d090220ce145dc2df84
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KLU-CIA.ANS by Klumzee (CIA Productions); released in cia54 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: CIA Promotional
-# SAUCE Author: Klumzee
-# SAUCE Group: CIA Productions
-# SAUCE Date: 19980707
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: CIA Promotional by Klumzee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cia54-klu-cia
 
 Write-Host '
 [31m▄[0;1;31;41m▄▄▄▄▄[0;31m██▄▄▄[0;1;37;41m░░[0;31m▄[0;1;31;41m▄[0;31m▄[0;37m  [0;31m▄[0;1;31;41m▄[0;31m▄[0;1;31;41m▄[0;31m▄[0;37m  [0;31m▄▄[0;1;37;41m▄[0;1;31;41m▄▄██▄[0;31m▓░[0;37m [0;31m▄[0m   [1;31;41m▄▀▀▀[0;31m▓░[0;1;30m  ▄ [0;31m░▓██[0;1;31;41m▀[0;31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;31;41m▀[0;1;37;41m▀[0;1;31;41m▀▀█▌[0;31m▓░[0;1;30m [0;31m▐[0;1;31;41m░[0m

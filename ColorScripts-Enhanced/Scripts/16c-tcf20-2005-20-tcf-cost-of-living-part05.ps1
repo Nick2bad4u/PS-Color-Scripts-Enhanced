@@ -1,13 +1,4 @@
-﻿# Converted from: 2005 - 20 - TCF - Cost of Living.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tcf20/raw/2005%20-%2020%20-%20TCF%20-%20Cost%20of%20Living.ans
-# Source Revision: archive-sha256:af8609219fccc484668fb405a7f1d45efb8c574501a461c5c1b47d87a12921ce
-# Source SHA-256: 3a5cb7b5b7af63d47145037d91d9a9fbb266315bc9cd45487adcbd22b2eaf279
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2005 - 20 - TCF - Cost of Living.ans by The Creep Fever (tcf20); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 176-220
-# Columns: 1-80
+﻿# Artwork: 2005 - 20 - TCF - Cost of Living.ans by The Creep Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tcf20-2005-20-tcf-cost-of-living-part05
 
 Write-Host '
 [1m  [0;34m░░[0;37m  [0;1;30m░[0m  [34m ░[0;1;30;44m▓[0m ▀▀       [34m░[0;1;37m   [0;1;37;47m▓ ░[0;1;37;40m██████████████▌  [0m▄▄▄    [1m [0m▀[1m▀▀▀▀[0m▀▀[1m   [0m▄[1m▄▄[0;1;47m▄[0;1;40m████[0;1;47m▄[0m▄[1m  ▐███[0m

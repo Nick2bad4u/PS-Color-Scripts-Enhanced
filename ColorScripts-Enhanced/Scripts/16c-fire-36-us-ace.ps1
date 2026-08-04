@@ -1,19 +1,4 @@
-﻿# Converted from: US-ACE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-36/raw/US-ACE.ANS
-# Source Revision: archive-sha256:43e7d46e56dc094cf8502b299dcd82ee875dea0a064a36248f4e6c844180fd25
-# Source SHA-256: 3a62492b028a143b1fec733aa8416d98f7e66f0ccfe3a9a8ca07bf88857eedc9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ACE.ANS by Cleaner + Avg (fire); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ace
-# SAUCE Author: cleaner & avg
-# SAUCE Group: fire
-# SAUCE Date: 20230303
-# SAUCE Dimensions: 80x22
-# SAUCE Font: IBM VGA
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: ace by Cleaner + Avg | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-36-us-ace
 
 Write-Host '
 

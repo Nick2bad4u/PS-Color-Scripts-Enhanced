@@ -1,18 +1,4 @@
-﻿# Converted from: 6R-BLNDR.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna03/raw/6R-BLNDR.ans
-# Source Revision: archive-sha256:997aaab655669129eb266c21ca0c4588b603e11c90338498bb530f8bba390fb2
-# Source SHA-256: c203ed434bb596530691d19984c3f5d198ae9666bcff8d9bce26ec1746267e5c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 6R-BLNDR.ans by Groove (thesauna03); released in thesauna03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Blender
-# SAUCE Author: Groove
-# SAUCE Date: 20220323
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Blender by Groove | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna03-6r-blndr
 
 Write-Host '
 

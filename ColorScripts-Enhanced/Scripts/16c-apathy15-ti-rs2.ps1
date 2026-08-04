@@ -1,18 +1,4 @@
-﻿# Converted from: TI-RS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy15/raw/TI-RS2.ANS
-# Source Revision: archive-sha256:5e243b226da6b745b1398dfdadb3776bdb866b2235d51f36e0cf209d2d8d9295
-# Source SHA-256: 623be13d90f8dda462ff797efe459078bb7f3c58b914d9adbac05a4c1b24adc5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TI-RS2.ANS by Trip (Apathy Studios); released in apathy15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Raging Sea
-# SAUCE Author: Trip
-# SAUCE Group: Apathy Studios
-# SAUCE Date: 19960924
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Raging Sea by Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy15-ti-rs2
 
 Write-Host '
 [1;30;47m░▒▓[0;1;30;40m▀[0;1;30;47m▄[0;1;30;40m▄ ▀[0;1;30;47m▄[0;1;30;40m▀ ▀▀ ▀    ▀ ▀▀ ▀[0;1;30;47m▄[0;1;30;40m▀ ▄[0;1;30;47m▄[0;1;30;40m▀[0;1;30;47m▓▒░[0m [1m▓▓▓▒▒[0;1;34m████████████[0;1;34;44m▀[0;34m▀[0;35m▄▄█▀█[0;1;35;45m▀[0;35m█[0;1;35;45m [0;35m█[0;1;35;45m▀[0;35m▀█[0;1;35;45m■▄[0;35m▄█[0;1;35;45m■▄[0;35m█▀[0;1;35;45m░[0;35m▌▄[0;34m▀[0;1;34;44m▀[0;1;34;40m█[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: l-jbk2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic81/raw/l-jbk2.ans
-# Source Revision: archive-sha256:0cb93c06f04383957a17ececed5294cffe669e7872c2fc9e1ac8b43d2a2f06ba
-# Source SHA-256: 15cf2c7606bd4888028b6ffa9e674e95b0cf25dcdad3b58ba1baf18f31e44f47
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: l-jbk2.ans by Lame (mimic81); released in mimic81 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 84-125
-# Columns: 1-80
+﻿# Artwork: l-jbk2.ans by Lame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic81-l-jbk2-part03
 
 Write-Host '
 [1;36m$[0;36m$$.  [0;1;36m `[0;36m4j$$[0;1;36m$$$$/    [0;36m .$$[0;1;36m$$$$$$$$$l$$[0;36m$[0;1;36m$:  [0m                       [36m    l$[0;1;36m$$[0;36m  $[0;1;36m$$$$[0m

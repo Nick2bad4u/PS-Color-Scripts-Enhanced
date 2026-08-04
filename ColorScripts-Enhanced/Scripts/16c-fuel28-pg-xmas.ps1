@@ -1,20 +1,4 @@
-﻿# Converted from: pg-xmas.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel28/raw/pg-xmas.ans
-# Source Revision: archive-sha256:f19d9f1f4d98a894d9a58a43443858287108d50e702695e0859df539776cf44a
-# Source SHA-256: 4dcec1ed41225b27c2d50019e90614d18f47c630365af6625d63bcf2e362fc94
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: pg-xmas.ans by Pinguino (Fuel); released in fuel28 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Christmas Card
-# SAUCE Author: Pinguino
-# SAUCE Group: Fuel
-# SAUCE Date: 20181122
-# SAUCE Dimensions: 75x34
-# SAUCE Font: IBM VGA
-# SAUCE Comments: printed card sent out this year
-# Lines: 1-34
-# Columns: 1-75
+﻿# Artwork: Christmas Card by Pinguino | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel28-pg-xmas
 
 Write-Host '
 [1;38;2;87;87;255;48;2;0;0;171m [0;38;2;0;0;171;48;2;0;0;0m███████████[0;1;38;2;87;87;255;48;2;0;0;171m░[0;38;2;0;0;171;48;2;0;0;0m█[0;1;38;2;87;87;255;48;2;0;0;171m░[0;38;2;0;0;171;48;2;0;0;0m███[0;1;38;2;255;255;255;48;2;0;0;171m■[0;38;2;0;0;171;48;2;0;0;0m██[0;1;38;2;87;87;255;48;2;0;0;171m░[0;38;2;0;0;171;48;2;0;0;0m██[0;1;38;2;87;87;255;48;2;0;0;171m░[0;38;2;0;0;171;48;2;0;0;0m███[0;1;38;2;255;255;87;48;2;0;0;171m■[0;38;2;0;0;171;48;2;0;0;0m██████████████[0;1;38;2;87;87;255;48;2;0;0;171m░[0;38;2;0;0;171;48;2;0;0;0m█████████[0;1;38;2;255;255;255;48;2;0;0;171m■[0;38;2;0;0;171;48;2;0;0;0m██████████████████[0;1;38;2;87;87;255;48;2;0;0;171m░[0;38;2;0;0;171;48;2;0;0;0m██[0m

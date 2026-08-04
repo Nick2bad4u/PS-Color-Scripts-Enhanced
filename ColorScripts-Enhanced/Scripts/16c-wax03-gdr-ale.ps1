@@ -1,13 +1,4 @@
-﻿# Converted from: GDR-ALE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wax03/raw/GDR-ALE.ANS
-# Source Revision: archive-sha256:8abfa43a62dd015a080596c8ad5586e96cf62a3664ebe2532297158d0dcb3a78
-# Source SHA-256: d3f62bc7662aca04997f0c661e62f659700339c3068883e0e8ecdb26132d2f3c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GDR-ALE.ANS by Gravedancer (wax03); released in wax03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: GDR-ALE.ANS by Gravedancer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wax03-gdr-ale
 
 Write-Host '
 [1;30mgdr[0m [1m [0;33m      ,a&%aa&&&8[0;1;31m88888888[0;33m8b,.    [0;1;30m``''`[0m      `:IIIIII&&aa,._____..,,,aa&&&&III

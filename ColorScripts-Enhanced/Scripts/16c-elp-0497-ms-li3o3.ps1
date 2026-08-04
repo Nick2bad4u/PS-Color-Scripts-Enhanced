@@ -1,17 +1,4 @@
-﻿# Converted from: MS-LI3O3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/elp-0497/raw/MS-LI3O3.ANS
-# Source Revision: archive-sha256:732b69d1dc6bfbdc62f0316a0f40a81a4bed95a40198b27f27b85da3fe2dba2a
-# Source SHA-256: 504882605147d1652d9d4d52462b574e67149898a2b409b29b06aa44cfbb88ab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MS-LI3O3.ANS by MrSPLiF (ELP); released in elp-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Lost iN ThreeHundredThree Logon
-# SAUCE Author: MrSPLiF
-# SAUCE Group: ELP
-# SAUCE Date: 19970331
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Lost iN ThreeHundredThree Logon by MrSPLiF | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-elp-0497-ms-li3o3
 
 Write-Host '
 [1;30m[0m

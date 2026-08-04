@@ -1,18 +1,4 @@
-﻿# Converted from: KLU_SEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense12/raw/KLU_SEN.ANS
-# Source Revision: archive-sha256:72a1d185ef815e3805a380072164234a2a5581149ba3dc403bf27328a83a059a
-# Source SHA-256: 0487760166ff46d0cf472b38c67fdab8d0340b5182a1d113563aa930779fe68a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KLU_SEN.ANS by klumzee (flare); released in sense12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: sense
-# SAUCE Author: klumzee
-# SAUCE Group: flare
-# SAUCE Date: 19980730
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: sense by klumzee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense12-klu-sen
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: US-XMAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tus-04/raw/US-XMAS.ANS
-# Source Revision: archive-sha256:cecd03bcea0453e8e941f2420e67a6eaf0283c8555a366d61575392cb904d263
-# Source SHA-256: b2e383c1b473eed754199f81516370af7d3af2d0ebd3b7df5f2a0083289c25a3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-XMAS.ANS by Discyple + Prizm (tus-04); released in tus-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: US-XMAS.ANS by Discyple + Prizm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tus-04-us-xmas
 
 Write-Host '
                                                 [1;33m$$ [0;1;37m [0;1;31mO[0m [34m/[0;1;31mO[0;34m\[0;37m [0;34m_[0;33m  $$[0;37m  [0;34m  .$[0m

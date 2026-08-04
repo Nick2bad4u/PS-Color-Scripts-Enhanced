@@ -1,19 +1,4 @@
-﻿# Converted from: NF-DEADOV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-46/raw/NF-DEADOV.ANS
-# Source Revision: archive-sha256:32c189dd42ed53f66ce0b86a88ea8027caddc32faf4da7cee2e674d9223cb9f4
-# Source SHA-256: 655a551033e826271f7eea050f4b0aa4ff9354b4ed81c54e20959c32b66f19e4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NF-DEADOV.ANS by necro (FIRE); released in fire-46 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Dead Of Veridon
-# SAUCE Author: necro
-# SAUCE Group: FIRE
-# SAUCE Date: 20260707
-# SAUCE Dimensions: 80x85
-# SAUCE Font: IBM VGA
-# Lines: 42-85
-# Columns: 1-80
+﻿# Artwork: Dead Of Veridon by necro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-46-nf-deadov-part02
 
 Write-Host '
 [33;40m█[0;36;43m▓[0;36;40m█[0;36;43m▓[0;33;40m█[0;36;43m░░▒▓[0;36;40m▀[0;1;30;40m▄▓[0;1;30;47m▓▒░[0m█[1;47m░[0;1;40m▄▀[0;1;47m▒▓[0m█[1;30m▓[0m [1;33;43m▒[0;1;33;40m▄[0;33m▌[0;37m [0;1;30m▀[0;1;30;43m▓[0;1;30;40m▄[0m   [1;30m▀▀[0;33m▀[0;1;33m▀▀▀[0;33m▀[0;37m  [0;1;37m▄[0;1;33;43m▓[0;1;33;47m▄▄[0;1;33;43m▓[0;1;37;40m▄[0m [1;30;43m▓[0m [1;33;43m▒[0;33m▀[0;37m▄[0;1;30;47m░[0m▐[1;47m▓[0;1;40m█[0;1;47m▒[0m▌█[1;30;47m░[0m▀[33m▄[0;1;33;43m░[0;33m▀▄▄▄▀[0;1;33;43m░▒▒[0;1;33;40m▄[0;36m▀█[0;36;43m░[0;33;40m█[0;36;43m░[0m

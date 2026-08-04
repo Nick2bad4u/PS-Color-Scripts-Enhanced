@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-CH1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-1197/raw/OUT-CH1.ANS
-# Source Revision: archive-sha256:e3bddf6b03a8cf5d2f5b54a415cf913351a133d4e38a6169e7f51e5008cecd91
-# Source SHA-256: b2f80eee7b5a8119d71d48f90407b0e31560c9bc493b4c0911bc03eaf724f356
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-CH1.ANS by Sandy Chidester (out-1197); released in out-1197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: OUT-CH1.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-1197-out-ch1
 
 Write-Host '
                                   [1;36m▄▄▄▄▄▄▄▄▄▄▄▄[0m

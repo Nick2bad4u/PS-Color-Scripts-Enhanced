@@ -1,20 +1,4 @@
-﻿# Converted from: US-27IN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-37/raw/US-27IN.ANS
-# Source Revision: archive-sha256:42913eb56742cc8575f96af5b8a027e63b5172fdb84271b8ac973c7820ea43ef
-# Source SHA-256: 1ad97ef73c20191a2d9eca0a907f104f413037999fd73ebe17985075079dfcb7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-27IN.ANS by ZIR + Abstrakt (FiRE); released in fire-37 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 27 Inch.
-# SAUCE Author: abstrakt & zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20230707
-# SAUCE Dimensions: 80x294
-# SAUCE Font: IBM VGA
-# SAUCE Comments: twenty-seven inches of pure love.
-# Lines: 50-97
-# Columns: 1-80
+﻿# Artwork: 27 Inch. by ZIR + Abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-37-us-27in-part02
 
 Write-Host '
 [38;2;171;171;171;48;2;0;0;0m [0;38;2;171;0;171;48;2;0;0;171m▀[0;38;2;171;0;171;48;2;0;0;0m█[0;1;38;2;255;87;87;48;2;171;0;171m▓[0;1;38;2;255;87;87;48;2;171;171;171m▓▓▓▓▓▓[0;1;38;2;255;87;87;48;2;0;0;0m████[0;1;38;2;255;87;87;48;2;171;0;171m▓[0;38;2;171;0;171;48;2;0;0;0m▀[0;38;2;171;0;0;48;2;0;0;0m▄[0;1;38;2;255;87;87;48;2;171;0;0m▓[0;1;38;2;255;87;87;48;2;0;0;0m█[0;1;38;2;255;87;87;48;2;171;0;0m▀[0;38;2;171;0;0;48;2;0;0;0m█[0;38;2;0;0;171;48;2;0;0;0m▓[0;38;2;171;0;171;48;2;0;0;0m▄▄▄▄[0;38;2;171;0;0;48;2;0;0;0m▄[0;38;2;171;0;171;48;2;0;0;0m▄▄▄[0;38;2;171;0;0;48;2;0;0;0m▄[0;38;2;171;0;171;48;2;0;0;0m▄[0;38;2;171;0;0;48;2;0;0;0m▄▄[0;38;2;171;0;171;48;2;0;0;0m▀▀▀▀▀▀▀▀▀▀[0;38;2;0;0;0;48;2;0;0;0m█[0;1;38;2;255;87;255;48;2;171;171;171m▓[0;1;38;2;255;87;255;48;2;171;0;171m▒[0;38;2;171;0;171;48;2;0;0;171m▓[0;38;2;0;0;171;48;2;0;0;0m ▐[0;1;38;2;87;87;255;48;2;0;0;171m▒▒░[0;38;2;0;0;171;48;2;0;0;0m▌[0;38;2;171;171;171;48;2;0;0;0m ▐▌  [0;1;38;2;87;87;87;48;2;0;171;171m█░▓[0;1;38;2;87;87;87;48;2;0;0;0m░[0;38;2;171;171;171;48;2;0;0;0m   [0;38;2;171;0;171;48;2;0;0;0m▀[0;38;2;171;171;171;48;2;0;0;0m [0;38;2;0;0;171;48;2;0;0;0m▐[0;1;38;2;87;87;255;48;2;0;0;171m░▓▓▓▓▒░[0;38;2;0;0;171;48;2;0;0;0m▄▒▒[0;38;2;171;171;171;48;2;0;0;0m░[0m

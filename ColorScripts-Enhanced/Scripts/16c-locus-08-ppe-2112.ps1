@@ -1,17 +1,4 @@
-﻿# Converted from: PPE-2112.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/locus-08/raw/PPE-2112.ANS
-# Source Revision: archive-sha256:eb790a44f4898ec0d7ea4b8e4754397832c1823b5b2db7b7444fc80312388961
-# Source SHA-256: 44c6289830d6d4691697d0124492252c9163cdab04b1b3fd66b3f71ce0d437e5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PPE-2112.ANS by propane (The Used Coalition); released in locus-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: propane
-# SAUCE Group: The Used Coalition
-# SAUCE Date: 20000319
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: PPE-2112.ANS by propane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-locus-08-ppe-2112
 
 Write-Host '
 [1;34m[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: GL-BECHH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0596/raw/GL-BECHH.ANS
-# Source Revision: archive-sha256:36c941759d451fdd3b8fb831978bf146c114a97ebcdf99a7ed67f1f699b42790
-# Source SHA-256: 4069af7f8378317674de64211039b2ec1ed6857532562768d0202cffc55aeceb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GL-BECHH.ANS by Grimlock (fire); released in fire0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Brand Echh
-# SAUCE Author: Grimlock
-# SAUCE Group: fire
-# SAUCE Date: 19960505
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: Brand Echh by Grimlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0596-gl-bechh
 
 Write-Host '
                [35m   ░ [0m

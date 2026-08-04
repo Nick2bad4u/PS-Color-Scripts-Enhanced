@@ -1,13 +1,4 @@
-﻿# Converted from: cc-alien.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/b2k-001/raw/cc-alien.ans
-# Source Revision: archive-sha256:32b736b1df2af53676c9c1c32a6e3865fca595d44c19dafc067328da873e57b4
-# Source SHA-256: fc6d65d0783233c4457822bd96b8d68144a822537d4fc9cc5d651f9a5a4b4f1e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cc-alien.ans by Chronicc (b2k-001); released in b2k-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: cc-alien.ans by Chronicc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-b2k-001-cc-alien
 
 Write-Host '
                             [34m░[0m        [34m░[0m     [34m░[0m

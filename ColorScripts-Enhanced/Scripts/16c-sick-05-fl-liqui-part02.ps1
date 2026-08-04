@@ -1,17 +1,4 @@
-﻿# Converted from: FL-LIQUI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sick-05/raw/FL-LIQUI.ANS
-# Source Revision: archive-sha256:efb1243ea170f8b742d232670e6686a2d6f79599cce5b66ec9741bfec0cca987
-# Source SHA-256: dffdf2797953c3ecc30f6eacc112ebaea408a909d3020ec198f4ca9d59951fd3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-LIQUI.ANS by Flax (SiCk); released in sick-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Liquid-E rave/drug brd
-# SAUCE Author: Flax
-# SAUCE Group: SiCk
-# SAUCE Date: 19951207
-# Lines: 35-82
-# Columns: 1-80
+﻿# Artwork: Liquid-E rave/drug brd by Flax | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sick-05-fl-liqui-part02
 
 Write-Host '
 [34m▓[0m       [34m░[0m        [34m▒[0m                      [1;30m▄▄▓[0;1;30;47m▀▀▀   ▀[0;1;30;40m▄▄[0m          [34m░[0m                [34m█[0m

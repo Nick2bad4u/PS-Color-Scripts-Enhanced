@@ -1,19 +1,4 @@
-﻿# Converted from: US-DS22.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-35/raw/US-DS22.ANS
-# Source Revision: archive-sha256:c366a38306f48b13ede280377c5f8ef243fdab7e7890ac3e053ec3ccbc5d901a
-# Source SHA-256: ac3e0558062bfd4ad1ef0a94024edb1abe4be000e1db34d9f6ef8dcbb6f92d5d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DS22.ANS by Avg + Tainted (Fire); released in fire-35 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Demosplash 2022 Promo
-# SAUCE Author: Tainted / AVG
-# SAUCE Group: Fire
-# SAUCE Date: 20221118
-# SAUCE Dimensions: 80x240
-# SAUCE Font: IBM VGA
-# Lines: 201-240
-# Columns: 1-80
+﻿# Artwork: Demosplash 2022 Promo by Avg + Tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-35-us-ds22-part05
 
 Write-Host '
             [34;40m░[0m                        [34;40m█ █[0m                   [34;40m█▌    █▌[0m

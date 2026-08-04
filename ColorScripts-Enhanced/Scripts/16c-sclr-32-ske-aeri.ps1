@@ -1,18 +1,4 @@
-﻿# Converted from: ske-aeri.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-32/raw/ske-aeri.ans
-# Source Revision: archive-sha256:592b7d4f358f30737b6158da53bb66d21faa0f145681ba11ddc050c10439c394
-# Source SHA-256: c72a612e36d2e9d6713f864a38b698c3d547c9779d866272d9b5cd0ce9b47557
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ske-aeri.ans by sketch rimanez'03 (secular!forever); released in sclr-32 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: aerial
-# SAUCE Author: sketch rimanez'03
-# SAUCE Group: secular!forever
-# SAUCE Date: 20030823
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: aerial by sketch rimanez'03 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-32-ske-aeri
 
 Write-Host '
 [33mske$$$$$$$$$$$$$$$$$$$$$$$╡$$$$$$$$$$$$$[0;31m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m

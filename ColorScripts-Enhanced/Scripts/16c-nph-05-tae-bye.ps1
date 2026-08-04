@@ -1,18 +1,4 @@
-﻿# Converted from: TAE!BYE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-05/raw/TAE!BYE.ANS
-# Source Revision: archive-sha256:32c1f67ac6058d9066b580c3bd5854b0529a1844e2dce2e40def969bcce3e47d
-# Source SHA-256: 7ebfe196558fc5aac5e89646c3724157f603bb186d7e8392eb8f86e4d6d93509
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TAE!BYE.ANS by taevore (nph^neonstr..); released in nph-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: bye; bon voyage
-# SAUCE Author: taevore
-# SAUCE Group: nph^neonstr..
-# SAUCE Date: 19971125
-# SAUCE Dimensions: 42x23
-# Lines: 1-22
-# Columns: 1-42
+﻿# Artwork: bye; bon voyage by taevore | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-05-tae-bye
 
 Write-Host '
 █[47m [0;40m██▌[0;34;40m██████████████████████[0;34;44m   [0m

@@ -1,19 +1,4 @@
-﻿# Converted from: nf-ape.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel21/raw/nf-ape.ans
-# Source Revision: archive-sha256:3c35978fe1aff0d9cad8b96088193a4169b923a7a460fe0bded18e44ac4f0ea9
-# Source SHA-256: e49fc2b5d54b3194885a98face1d8f46d01b2a4907eaa132d0fb22c94dee29f4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: nf-ape.ans by Necrofiliac (Fuel); released in fuel21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Ape
-# SAUCE Author: Necrofiliac
-# SAUCE Group: Fuel
-# SAUCE Date: 20161227
-# SAUCE Dimensions: 80x104
-# SAUCE Font: IBM VGA
-# Lines: 37-70
-# Columns: 1-80
+﻿# Artwork: Ape by Necrofiliac | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel21-nf-ape-part02
 
 Write-Host '
 [38;2;119;55;81;40m████████████▄▄▄[0;1;38;2;137;128;103;40m [0;38;2;193;128;103m▀█[0;1;38;2;217;175;131m█[0;38;2;193;128;103;48;2;217;175;131m▀[0;1;38;2;217;175;131m█[0;38;2;193;128;103m█[0;38;2;193;128;103;48;2;217;175;131m█[0;38;2;193;128;103m  [0;1;38;2;193;128;103m▐[0;38;2;193;128;103;48;2;217;175;131m▄[0;38;2;193;128;103;48;2;137;128;103m [0;38;2;193;128;103m [0;38;2;51;38;57m█  [0;1;33m▀█[0m    [33m▄[0;1;30m [0m [33m▄[0;1;30m▄[0m  [1;30m▓▒[0m [1;30m▒░[0m [1;30m░▌▒[0;38;2;51;38;57m ▀▀ ▄[0;1;30m▀▌[0m [38;2;51;38;57m  [0;38;2;119;55;81;48;2;51;38;57m▌[0;38;2;51;38;57;40m ▌ ▄[0;38;2;119;55;81;40m▐▌▄█▐█████[0;38;2;51;38;57;48;2;119;55;81m█[0m

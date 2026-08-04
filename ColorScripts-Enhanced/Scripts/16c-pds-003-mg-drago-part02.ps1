@@ -1,18 +1,4 @@
-﻿# Converted from: MG-DRAGO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pds-003/raw/MG-DRAGO.ANS
-# Source Revision: archive-sha256:a5e16e3dfa74397227460ffa3672d3754312817219d0c293cf2236e24ef7a3f6
-# Source SHA-256: 2350e35cbd9fbad4c9b629c3fb2089e48a8cb6a4a300a106a7441365d7d8337a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MG-DRAGO.ANS by Magician (Paradise); released in pds-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Dragons Lair
-# SAUCE Author: Magician
-# SAUCE Group: Paradise
-# SAUCE Date: 19960505
-# SAUCE Dimensions: 80x51
-# Lines: 27-51
-# Columns: 1-80
+﻿# Artwork: Dragons Lair by Magician | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pds-003-mg-drago-part02
 
 Write-Host '
 [1;30;40m░███████████████▀▀▀▀▀▀█▀▄[0;1;30;47m▄▄▄▒▓[0;1;30;40m███████▀[0m [1;33;41m▓░[0;31m▄[0;37m [0;1;30m▀█[0;1;30;47m▓[0m█▄▄▄[34m [0;1;34m▀[0;34m [0;37m█[0;1;30;47m▒▓[0;1;30;40m█████████████▀▒▒▓▓▓█████[0m

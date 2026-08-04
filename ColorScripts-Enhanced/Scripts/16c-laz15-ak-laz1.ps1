@@ -1,19 +1,4 @@
-﻿# Converted from: ak-laz1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz15/raw/ak-laz1.ans
-# Source Revision: archive-sha256:d35f5b18ac3e8cbe3d6d17eab809a7e050609a8e3cc7d160d14a87c59a191c12
-# Source SHA-256: ead373ba49826c27a859a411f39331690eb2aa3e18f5e0605ac391e1486b18c5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ak-laz1.ans by abstrakt (lazarus); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: laza
-# SAUCE Author: abstrakt
-# SAUCE Group: lazarus
-# SAUCE Date: 20220418
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: laza by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz15-ak-laz1
 
 Write-Host '
 [1m    [0m.┌s/┐[1;30m.   abs[0m               [36m_ [0;1;37mW$$$$$$[0ml[1m W$$$$$[0m$l[1m :$7.d$$$$$$$$$[0mj$P*┘"`.s$[1m$$s%#[0m

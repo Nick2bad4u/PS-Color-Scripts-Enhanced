@@ -1,18 +1,4 @@
-﻿# Converted from: HAL-FLR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1296/raw/HAL-FLR.ANS
-# Source Revision: archive-sha256:30782fcfc860946575894eb2b18cd82015430d9b2fe92875d1416c9b2489f009
-# Source SHA-256: 325e1104ab9659fbd8100c92dfed3adedb66f6e6da2fac080745b690929c6805
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HAL-FLR.ANS by Halaster (fire); released in fire1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Once more into the wild blue.
-# SAUCE Author: Halaster
-# SAUCE Group: fire
-# SAUCE Date: 19961214
-# SAUCE Dimensions: 80x25
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Once more into the wild blue. by Halaster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1296-hal-flr
 
 Write-Host '
                               [1;32m▄█▄[0m

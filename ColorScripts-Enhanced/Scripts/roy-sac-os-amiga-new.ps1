@@ -1,16 +1,4 @@
-﻿# Converted from: Roy-OS-AmigaNew.ANS
-# Source encoding: CP437
-# Source URL: https://www.roysac.com/images/galleries/ZIP/Roy_ANSI.ZIP
-# Source Revision: archive-sha256:8598a9432b4feb86c4e79552795b407b9d7c576fb6f25e9828d6143f1c7b35bc
-# Source SHA-256: 680b324dbe0ff7cae218b7bc76b5bc41102e39627f607a0e347f80459544d297
-# Source License: FAL-1.3
-# Source Attribution: Roy-OS-AmigaNew.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 20140712
-# SAUCE Dimensions: 80x42
-# SAUCE Font: Amiga Topaz 2+
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: Roy-OS-AmigaNew.ANS by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-os-amiga-new
 
 Write-Host '
                                         [1;30;40m:[0m                                  [1;30;40m|[0m

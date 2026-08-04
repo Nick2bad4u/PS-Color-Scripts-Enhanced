@@ -1,13 +1,4 @@
-﻿# Converted from: BCPACID_.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1991/raw/BCPACID_.ANS
-# Source Revision: archive-sha256:4dcfddb1a9f84aafa45e2facaadcb15ccf7ddad9041d8c346c723f7894d6cfb9
-# Source SHA-256: 4381dc1f110998686ee5c985523da4c03731ac90d6d97d7b667223e23308edf0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BCPACID_.ANS by Jed (1991); released in 1991 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: BCPACID_.ANS by Jed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1991-bcpacid
 
 Write-Host '
            [34m▄██[0;1;34;44m▄▄[0;34m▄  ▄[0;1;34;44m▄▄▄[0;34m▄   ▄[0;1;34;44m▄▄▄[0;34m▄[0m      [34m▄[0;34;44m [0;1;34;44m▄▄▄▄[0;34m▄ ▄█▌  ▐█▄  ▄[0;1;34;44m▄▄▄[0;34m▄ ▄█[0;34;44m [0;34;40m█▄    [0;35;40m▄[0m

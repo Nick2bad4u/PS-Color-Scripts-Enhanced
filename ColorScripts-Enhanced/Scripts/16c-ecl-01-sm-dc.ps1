@@ -1,18 +1,4 @@
-﻿# Converted from: SM-DC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-01/raw/SM-DC.ANS
-# Source Revision: archive-sha256:98f7ca14920172db6145e44afa4b8ac94de6e46d94b8cf326e89a96c3e7e5c1b
-# Source SHA-256: 4f52c156ba692c989cd912b44dbe7792b21a3f244156e8aaf64eeeb89cf3fcb4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-DC.ANS by sm0key (eclipse); released in ecl-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: diet cola ..
-# SAUCE Author: sm0key
-# SAUCE Group: eclipse
-# SAUCE Date: 19960606
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: diet cola .. by sm0key | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-01-sm-dc
 
 Write-Host '
 

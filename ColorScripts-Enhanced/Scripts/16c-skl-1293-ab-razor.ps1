@@ -1,13 +1,4 @@
-﻿# Converted from: AB-RAZOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/skl-1293/raw/AB-RAZOR.ANS
-# Source Revision: archive-sha256:050c4947b498cd34964b3caf5400f667c1dbd39367bdcae152e782cd46024a72
-# Source SHA-256: a9f579dcc185a3840dc5324749116054289e98a911d54dba3cc3348b962b42fb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AB-RAZOR.ANS by Abomination (skl-1293); released in skl-1293 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: AB-RAZOR.ANS by Abomination | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-skl-1293-ab-razor
 
 Write-Host '
                                                              [34m▄██▄[0m

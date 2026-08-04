@@ -1,18 +1,4 @@
-﻿# Converted from: NZ-EVOKE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook13/raw/NZ-EVOKE.ANS
-# Source Revision: archive-sha256:f383b37d2f0265a83b82afcdde57a4dae359d8a5127c467dcea28d0c8500d000
-# Source SHA-256: c082693fae71ee848eff567d80f6727eda6a6fdaa1dc158f7866e702c4d9eed5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NZ-EVOKE.ANS by Noize + Junk (blackmaiden.sargahd); released in bmbook13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: evoke logo
-# SAUCE Author: noize.junk
-# SAUCE Group: blackmaiden.sargahd
-# SAUCE Date: 19970423
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: evoke logo by Noize + Junk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook13-nz-evoke
 
 Write-Host '
 

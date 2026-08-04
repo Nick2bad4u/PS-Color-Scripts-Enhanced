@@ -1,20 +1,4 @@
-﻿# Converted from: us-fadingblack.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-001/raw/us-fadingblack.ans
-# Source Revision: archive-sha256:589c804657c8d15ba617f7c0fd80723e4505d519989b80eba9584665be49eb54
-# Source SHA-256: 168474db6d8adde12155242c516a2639518e97f30603f6affeb84f44abe464fd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-fadingblack.ans by Warpus + Smooth + The Knight (Legacy Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Fading Black
-# SAUCE Author: wa, 5m, 7k
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20191228
-# SAUCE Dimensions: 80x78
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Ad for Fading Black BBS by warpus, smooth, and tk
-# Lines: 40-78
-# Columns: 1-80
+﻿# Artwork: Fading Black by Warpus + Smooth + The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-001-us-fadingblack-part02
 
 Write-Host '
              [1m▄[0m█▄▀██▄                         [1;30m█[0m▓▓▓[1;30m▀[0m               ▀[1;47m░[0m█

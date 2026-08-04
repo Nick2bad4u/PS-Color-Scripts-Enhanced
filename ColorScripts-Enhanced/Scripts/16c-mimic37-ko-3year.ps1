@@ -1,13 +1,4 @@
-﻿# Converted from: ko-3year.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic37/raw/ko-3year.ans
-# Source Revision: archive-sha256:0d28aedb8d5d5b6826c950122d7b742a98e4b5cc019bb9166e510fcb07b70457
-# Source SHA-256: fd107febf1a76bb9d193f3cf203144752198300938aa60440063678d4c8ca956
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ko-3year.ans by Konami (mimic37); released in mimic37 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ko-3year.ans by Konami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic37-ko-3year
 
 Write-Host '
   [1m7☻☻☻[0;1;33m☻lk,[0m [1m☻☻l[0;1;33m,d ☻☻☻[0;1;37m☻☻[0m [1m☻l[0;1;33m,dl  [0;36ml☻;[0m     [1;33m.,,.[0m     [1;33m.,,.[0m     [1;33m.,,.[0m     [1;34m☻[0m  [1;34m☻[0m  [1;34m☻[0m  [1;34m☻[0m  [1;34m☻[0m

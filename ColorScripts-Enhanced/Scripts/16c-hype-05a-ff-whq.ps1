@@ -1,17 +1,4 @@
-﻿# Converted from: FF-WHQ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-05a/raw/FF-WHQ.ANS
-# Source Revision: archive-sha256:60e974debb2c53c16c4636763f36d313ae3236ca17347fcb32045fc9aeba992a
-# Source SHA-256: 98dfa069f935a3849d7d6e39b51bfdb41b0ebef3cd7ff032c7d1bc408e35260f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FF-WHQ.ANS by Free Fall (Hype Inc.); released in hype-05a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: " World Headquarters Ansi "
-# SAUCE Author: Free Fall
-# SAUCE Group: Hype Inc.
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: " World Headquarters Ansi " by Free Fall | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-05a-ff-whq
 
 Write-Host '
             [31m░▒▓██[0;30;41m                    [0;31;40m▓▒░[0;37;40m [0;31;40m░[0;30;41m▓[0m

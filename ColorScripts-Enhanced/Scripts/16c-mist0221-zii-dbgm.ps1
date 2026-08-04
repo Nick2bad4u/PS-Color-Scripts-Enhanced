@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-DBGM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0221/raw/ZII-DBGM.ANS
-# Source Revision: archive-sha256:4a8c9a8001bc7db23e62733bd188b07e2f92f8b5caca34bf87f4e45dd922c1a0
-# Source SHA-256: 3804d509f657f8829d33e6fca00f2dda756ce1204dde6c67290bfb75e14d80eb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-DBGM.ANS by Zeus II (Mistigris); released in mist0221 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Red Dragon
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20210208
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Red Dragon by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0221-zii-dbgm
 
 Write-Host '
 [31m  ▓▓▓█[0;1;31;41m▀▀[0;41m▀[0;1;31;41m▄░[0;31m█▀▄▄[0;37m   [0;1;30m░░[0m [1;33m█[0;1;37m█[0;1;33m▄[0;1;37m▄▄[0m  [1;30m░░[0m [1;33m▐▓[0m   [1;30m▀███▓▓▓▒▒[0m [1;30m░░[0m

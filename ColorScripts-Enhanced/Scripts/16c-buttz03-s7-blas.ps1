@@ -1,18 +1,4 @@
-﻿# Converted from: S7-BLAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/buttz03/raw/S7-BLAS.ANS
-# Source Revision: archive-sha256:c2ce80ae04a7cc270151547963184e535a628d1735fa79697954a632d59918cc
-# Source SHA-256: bc392a010848ac1008bdfc7c15cc035ee1448895f469823a2ad41ed8037462fd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S7-BLAS.ANS by Somberlain (Buttraiderz); released in buttz03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Blasphemy
-# SAUCE Author: Somberlain
-# SAUCE Group: Buttraiderz
-# SAUCE Date: 20001104
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Blasphemy by Somberlain | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-buttz03-s7-blas
 
 Write-Host '
 

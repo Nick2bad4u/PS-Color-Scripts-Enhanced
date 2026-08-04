@@ -1,18 +1,4 @@
-﻿# Converted from: HC-MALP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz03feb/raw/HC-MALP.ANS
-# Source Revision: archive-sha256:d402090580beb42f827386e6ac87eabae48765a9dcac692e22ff2b8314efb7a2
-# Source SHA-256: a6b772e7c1877af396c20013adc6ab6715ca6dbaf3b8b95a2c09d08749b308a1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HC-MALP.ANS by hachi (lazarus); released in laz03feb and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: malpractice
-# SAUCE Author: hachi
-# SAUCE Group: lazarus
-# SAUCE Date: 19970131
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: malpractice by hachi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz03feb-hc-malp
 
 Write-Host '
 [34m[0m[1;34;44m░░[0;34m████[0;1;34;44m                [0;34m▀▀[0;37m [0;35m▄▄▄▄[0;37m [0;34m▀[0;1;34;44m ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0;34m▀[0;37m [0;35m▄▄▄▓▄[0;37m [0;34m▀▀[0;1;34;44m          ▄▄▄    ░[0m

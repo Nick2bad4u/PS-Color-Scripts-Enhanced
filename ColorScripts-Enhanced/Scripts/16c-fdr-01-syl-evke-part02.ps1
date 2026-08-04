@@ -1,18 +1,4 @@
-﻿# Converted from: SYL-EVKE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fdr-01/raw/SYL-EVKE.ANS
-# Source Revision: archive-sha256:9413b8317ae532a8321557d5d3d1cb08aadb3372c739437bc2fde54e7706a363
-# Source SHA-256: 4e6bfee4c9eca2799f15a04798adaed7f538ee3e44a8514319f95b6298618625
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SYL-EVKE.ANS by Sylvao (Fire Dream); released in fdr-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Evoke Girl
-# SAUCE Author: Sylvao
-# SAUCE Group: Fire Dream
-# SAUCE Date: 20120813
-# SAUCE Dimensions: 80x80
-# Lines: 42-80
-# Columns: 1-80
+﻿# Artwork: Evoke Girl by Sylvao | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fdr-01-syl-evke-part02
 
 Write-Host '
 [1;31m██[0;1;31;47m▓▓[0;1;31;40m█████▄[0;33m ░[0;30m█[0;33m░▒░[0;30m██[0;33m░░[0;30m█[0;1;31m███[0;1;31;47m▓▓▓▓▓▓[0;1;31;40m██████████████████▀▀▀▀ [0m▄[30m█[0;33m░[0;30m█[0;1;37;47m▄[0;30m█[0;33m░░[0;30m█[0;33m░[0;30m█[0;33m░▒[0;30m█[0;1;37m████[0;5;47m▄[0m [1;31m▄████▓█[0m

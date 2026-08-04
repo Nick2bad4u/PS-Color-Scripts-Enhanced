@@ -1,20 +1,4 @@
-﻿# Converted from: CT-D'AULAIRES_BOOK_OF_GREEK_MYTHS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0426/raw/CT-D'AULAIRES_BOOK_OF_GREEK_MYTHS.ANS
-# Source Revision: archive-sha256:c759ba228fb42808866da1267838a1ce2371215b87bc273c64f35f4bc653e77d
-# Source SHA-256: 4cbf2a3cfa2c19ebd811a7da71672a1e132cb3a3294a2b0e98fc68132ca63295
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CT-D'AULAIRES_BOOK_OF_GREEK_MYTHS.ANS by Cthulu (Mistigris); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: D'Aulaires' Book of Greek Myths
-# SAUCE Author: Cthulu
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260425
-# SAUCE Dimensions: 80x53
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Doubleday, 1962.
-# Lines: 28-53
-# Columns: 1-80
+﻿# Artwork: D'Aulaires' Book of Greek Myths by Cthulu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0426-ct-d-aulaires-book-of-greek-myths-part02
 
 Write-Host '
 [1;33;40m████▄[0;1;37;40m▀▄[0;1;37;44m▓[0;1;37;40m▀▄▀▄[0;1;37;44m▓[0;1;37;40m▀▄▒[0m [33m▄▄▓▓▀▓▀▓ [0;1;33m████▀[0;1;37m▄▓██▄▀███████▀███▀▀▄[0;1;37;44m▒[0;1;37;40m▀▄██[0m [1;44m▓[0;1;40m [0;1;45m▒▓▒[0;1;40m [0;1;44m▓[0;1;40m▄▀[0;1;47m▒▓▓▓[0;1;40m ▄ [0;1;33;40m██[0;1;37;40m [0;1;37;47m▓[0;1;37;40m [0;1;33;40m██[0m

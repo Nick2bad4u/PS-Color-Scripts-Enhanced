@@ -1,19 +1,4 @@
-﻿# Converted from: US-GSRSD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-35/raw/US-GSRSD.ANS
-# Source Revision: archive-sha256:c366a38306f48b13ede280377c5f8ef243fdab7e7890ac3e053ec3ccbc5d901a
-# Source SHA-256: d6e3923472c4e28440bcbf131ebdb1f7b71b80651e53b7d9fee955e99d5fbf21
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GSRSD.ANS by Nail + Tainted (fire); released in fire-35 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: gunshot residue
-# SAUCE Author: nail + tainted
-# SAUCE Group: fire
-# SAUCE Date: 20220730
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: gunshot residue by Nail + Tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-35-us-gsrsd
 
 Write-Host '
                [35;40m [0;37;40m ▀▓░[0;1;37;40m ▀▓▓▄▀ ▄▀[0m   [1m▄██[0;1;42m▓▓▒▒▒▒[0;1;32;40m▀[0;1;32;42m▓▓[0;1;37;42m▒▒[0;1;32;42m░[0;32m█▀[0;1;32;42m▒▒░[0;32m█▄ ▀██[0;1;30;42m░░[0;32m▀▀[0;1;30;42m▓█[0m    [1;30m▄▄▄[0m

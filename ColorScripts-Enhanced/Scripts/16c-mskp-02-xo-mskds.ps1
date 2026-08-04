@@ -1,18 +1,4 @@
-﻿# Converted from: XO-MSKDS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mskp-02/raw/XO-MSKDS.ANS
-# Source Revision: archive-sha256:e2f26965ff1d6a3c768a3ba596182d63a257dc7f930f0715cef724467107c48d
-# Source SHA-256: 11f4b6cf474d82f0abbb83997ed0ee8b96e958d4ddeea7574df6a4d34cb674b4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XO-MSKDS.ANS by Xose (MASAKRE PRODUCTiONS); released in mskp-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: MaSaKrE PRODUCTIONS Distro Site
-# SAUCE Author: Xose
-# SAUCE Group: MASAKRE PRODUCTiONS
-# SAUCE Date: 19960219
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: MaSaKrE PRODUCTIONS Distro Site by Xose | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mskp-02-xo-mskds
 
 Write-Host '
 ████████████████████████████████████████████████████[1;33;47m                           [0m█

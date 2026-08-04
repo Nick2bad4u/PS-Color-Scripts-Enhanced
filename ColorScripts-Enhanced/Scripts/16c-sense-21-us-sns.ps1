@@ -1,18 +1,4 @@
-﻿# Converted from: US-SNS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense-21/raw/US-SNS.ANS
-# Source Revision: archive-sha256:c1e4d9e7af49c7636f26ea79ebe3e09527c170fed208ba49930c4515bd2726cb
-# Source SHA-256: f007d3cc5ef5508fc3562d70088241664d19a943b74e4f86db8fbeb3f8968e10
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SNS.ANS by Taintedx + Aesthetic (sense); released in sense-21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: sense 21 promo
-# SAUCE Author: aesthetic & tainted
-# SAUCE Group: sense
-# SAUCE Date: 20040920
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: sense 21 promo by Taintedx + Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense-21-us-sns
 
 Write-Host '
 █[30;47mÿÿÿÿÿÿÿÿÿÿÿ|||I.[0;37;40m▄▄[0;1;30;47m▀[0m███[30;47mÿÿÿ[0;37;40m█▓▓░░░▓▓██[0;30;47m``[0;37;40m█[0;1;30;47m▄▄[0m▀▀[1;30m▀[0m   [1;30m▄[0m▄[1;37;47m░░[0m▄▄▀▀▄[1;37;47m▄[0m█[1;30;47m▄[0m▀▀[1;30m▀▀[0m          [1;30m▀▀[0m▀[1;30;47m▄[0;1;30;40m▀▄[0;1;37;47m▀[0m

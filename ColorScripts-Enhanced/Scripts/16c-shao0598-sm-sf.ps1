@@ -1,18 +1,4 @@
-﻿# Converted from: SM-SF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shao0598/raw/SM-SF.ANS
-# Source Revision: archive-sha256:fcf6a35c3d61f83e469fa7cc3dc1c97bcc2088160fe62ce4da27686dc9519d0b
-# Source SHA-256: 6ff91518de1881116af849c9a2e445b6daa511decfdde6e21a31849766f7b1f7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-SF.ANS by Smokey (Shaolin's Finest); released in shao0598 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Shaolin
-# SAUCE Author: Smokey
-# SAUCE Group: Shaolin's Finest
-# SAUCE Date: 19980511
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Shaolin by Smokey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shao0598-sm-sf
 
 Write-Host '
 Smk[1m([0mSik[1m)[0m [31m░[0m                                       [31m░[0m             [31m▐▌[0m   [31m▐▌[0m

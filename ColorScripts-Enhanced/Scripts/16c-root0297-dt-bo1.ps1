@@ -1,15 +1,4 @@
-﻿# Converted from: DT-BO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0297/raw/DT-BO1.ANS
-# Source Revision: archive-sha256:ecfcd3f5cd2c4412c60edbfa5c15fbea724948a8a18d0e8a8931276c9082657e
-# Source SHA-256: 304e75306d4bb780bf83b25de4ff8750b4c80c2cb5b03208bd4209a1d1c705c3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-BO1.ANS by Defiant (root0297); released in root0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Blackout
-# SAUCE Author: Defiant
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Blackout by Defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0297-dt-bo1
 
 Write-Host '
    [34m▄[0;1;34;44m▄[0;1;34;40m▄▄▄▄▄[0;34m▄▄░░    ▄  ▄▄▄▄█▄▌░░   ▄    [0;31m▀ ▄  [0;1;30m░[0m      [32m▄▄▄█▀[0m            [34m▄ ▄▄▄▄▄[0;1;34;44m░[0;34m▄▌[0m

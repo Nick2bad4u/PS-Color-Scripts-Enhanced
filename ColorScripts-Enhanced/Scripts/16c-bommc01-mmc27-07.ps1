@@ -1,17 +1,4 @@
-﻿# Converted from: mmc27-07.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bommc01/raw/mmc27-07.ans
-# Source Revision: archive-sha256:0e202a554be4c5a61c37230b2f619caf545c069dc1c49e22f04718c59893cd7d
-# Source SHA-256: 4618cab66e6464096402115cdf7578b5720816f0dfe1a91c72411eccdfc183fc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mmc27-07.ans by Jashiin (Church of Selene); released in bommc01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: Jashiin
-# SAUCE Group: Church of Selene
-# SAUCE Date: 20000906
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: mmc27-07.ans by Jashiin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bommc01-mmc27-07
 
 Write-Host '
                                                         [1m  [0m

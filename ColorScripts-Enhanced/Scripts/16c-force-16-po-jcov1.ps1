@@ -1,18 +1,4 @@
-﻿# Converted from: PO-JCOV1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-16/raw/PO-JCOV1.ANS
-# Source Revision: archive-sha256:9ad935bd4cbb2615c5c684e690bc8979daa45859d0282b370bf26a8750d02425
-# Source SHA-256: edd7b0c8e965432929627ae89a1d8e5fb9782e27db6b7bd53e173037e42a3320
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PO-JCOV1.ANS by pOrtia (force); released in force-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: jism cover
-# SAUCE Author: pOrtia
-# SAUCE Group: force
-# SAUCE Date: 19970328
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: jism cover by pOrtia | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-16-po-jcov1
 
 Write-Host '
 [31m[0m[31m[0m[37m  [0;31m                  [0m                  [31m▄▄▄[0;1;31m░▄[0;31m▄[0;37m [0;1;31m░[0m

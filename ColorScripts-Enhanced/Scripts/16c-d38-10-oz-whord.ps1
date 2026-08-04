@@ -1,13 +1,4 @@
-﻿# Converted from: OZ-WHORD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-10/raw/OZ-WHORD.ANS
-# Source Revision: archive-sha256:ba7c4a4551adb8285347fd98fdb9f0a91fe459313bdff549b9e589778adcfcfe
-# Source SHA-256: 896ba9614930024bf28a07702b3d38d501f58261923ea13884fe282e10cace9c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OZ-WHORD.ANS by Ooze (d38-10); released in d38-10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: OZ-WHORD.ANS by Ooze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-10-oz-whord
 
 Write-Host '
                     [1;36m░░░░[0m                             [36m           [0m

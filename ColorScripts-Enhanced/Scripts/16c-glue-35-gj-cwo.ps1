@@ -1,18 +1,4 @@
-﻿# Converted from: GJ-CWO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-35/raw/GJ-CWO.ANS
-# Source Revision: archive-sha256:bc92204ac679e4231b1db133abb983c42252574e71b83e8773e063911f5f3ee6
-# Source SHA-256: d98614dd5c539fc88470468088f505b6206e73d0a9592b49ca9c75e728249e04
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GJ-CWO.ANS by grymmjack (gj!) (GLUE); released in glue-35 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: clockwork orange BBS menu template
-# SAUCE Author: grymmjack (gj!)
-# SAUCE Group: GLUE
-# SAUCE Date: 20010325
-# SAUCE Dimensions: 80x22
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: clockwork orange BBS menu template by grymmjack (gj!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-35-gj-cwo
 
 Write-Host '
 

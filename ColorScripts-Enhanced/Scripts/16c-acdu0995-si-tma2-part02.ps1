@@ -1,18 +1,4 @@
-﻿# Converted from: SI-TMA2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0995/raw/SI-TMA2.ANS
-# Source Revision: archive-sha256:33564e3b7dba06eac1f1e36dcc176b1f8d29f8167c2e77227197ff7bea5344f2
-# Source SHA-256: 221605adba767d5c55c47c7589993f7b8f410a82c9c5376de28f9af1b65838f8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SI-TMA2.ANS by Sinister X (ACiD Productions); released in acdu0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Mourning After 2
-# SAUCE Author: Sinister X
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950901
-# SAUCE Dimensions: 80x96
-# Lines: 49-96
-# Columns: 1-80
+﻿# Artwork: The Mourning After 2 by Sinister X | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0995-si-tma2-part02
 
 Write-Host '
 [1;32m [0;1;30m▐▌   ▐▌▐█[0;1;30;47m▓[0;1;30;40m███▓▀▀ ▄[0m     [32m▄▄ ▀██[0;1;32;42m░[0;32m▄▄▄█[0;1;32;42m░[0;32m████▀▀▄▄█▄ [0;31m▀[0;1;31;41m▄[0;31m▌ [0;1;31m▄ [0;31m▀ [0;32m■▄█▓███[0;1;32;42m░[0;32m████[0;1;32;42m▄[0;32m█[0;1;32;42m▀▀ [0;32m█ [0;1;32m▀█▌[0m

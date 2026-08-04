@@ -1,18 +1,4 @@
-﻿# Converted from: PH-HELL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dcds0796/raw/PH-HELL.ANS
-# Source Revision: archive-sha256:3509ed83150d72e01cde39c5fe6c61d852f4f7285feb9d94b431cec18116688b
-# Source SHA-256: 37fe35ae280112b87eedd0fccbdd85974a0ad744d0050a00e8f9d82128cfe5a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PH-HELL.ANS by Phlare (Decades); released in dcds0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Hellbound
-# SAUCE Author: Phlare
-# SAUCE Group: Decades
-# SAUCE Date: 19960702
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Hellbound by Phlare | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dcds0796-ph-hell
 
 Write-Host '
                                                     [1m▄[0m

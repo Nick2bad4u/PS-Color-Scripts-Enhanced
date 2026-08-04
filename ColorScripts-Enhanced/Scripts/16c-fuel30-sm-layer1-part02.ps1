@@ -1,19 +1,4 @@
-﻿# Converted from: sm-layer1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel30/raw/sm-layer1.ans
-# Source Revision: archive-sha256:e3148e82a669aa484baf0738069fbabe44ba2824856e1cb4b05875b86bdd4621
-# Source SHA-256: 00bf3075d4dcfb29150f1240b90077ddeff2d28eb69b84b3a20d2f2033b2ffc8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sm-layer1.ans by Smooth (Fuel); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: LayerOne 2019 Promo
-# SAUCE Author: Smooth
-# SAUCE Group: Fuel
-# SAUCE Date: 20190630
-# SAUCE Dimensions: 80x168
-# SAUCE Font: IBM VGA
-# Lines: 43-84
-# Columns: 1-80
+﻿# Artwork: LayerOne 2019 Promo by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel30-sm-layer1-part02
 
 Write-Host '
 [37;40m [0;35;44m░[0m      [1;36;40m▄░[0m       [34m▀[0;37m    [0;1;36m▄▄█████▓[0m  [1;36m▓██▄▄▄ [0m  [1;36m▓█████[0m  [34m▀▀[0;37m   [0;1;36m▄█████▄  ▀█████▄▄▄▄[0m

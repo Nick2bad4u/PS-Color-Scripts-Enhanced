@@ -1,13 +1,4 @@
-﻿# Converted from: UC-SPAZM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blnt0494/raw/UC-SPAZM.ANS
-# Source Revision: archive-sha256:ecf7450f078b4c4b4041f7e568d14f4b70df9558c81c0d6825f04a7ad031cdda
-# Source SHA-256: 63817179957f6f6bb4e226cdbea490af3ca504d1c712353d85a51303f8f4bc8b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UC-SPAZM.ANS by Unknown Comic (blnt0494); released in blnt0494 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 90-123
-# Columns: 1-80
+﻿# Artwork: UC-SPAZM.ANS by Unknown Comic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blnt0494-uc-spazm-part03
 
 Write-Host '
 [30;41m [0;1;41m▓▒ [0;30;41m▀[0m       [30;41m       [0m                 ▄▄▄▄

@@ -1,13 +1,4 @@
-﻿# Converted from: SF-DRUID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dope0894/raw/SF-DRUID.ANS
-# Source Revision: archive-sha256:e977fdb209d355bbe4dc1d9686fd5de8aacfb2e90f44da96b48f66ce4d326cda
-# Source SHA-256: 19db9d8f833c89fbf0740dd1709bc20051c0aa7ef3788ac5c85481760fe0ba27
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SF-DRUID.ANS by Superfly (dope0894); released in dope0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: SF-DRUID.ANS by Superfly | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dope0894-sf-druid
 
 Write-Host '
                                     [1;33m▄[0;1;33;47m▀▀▀[0;1;33;40m▄[0m

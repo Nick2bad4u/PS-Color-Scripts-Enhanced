@@ -1,18 +1,4 @@
-﻿# Converted from: MR-MEL01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus04/raw/MR-MEL01.ANS
-# Source Revision: archive-sha256:4a57ed6764f9ffca39ae941548ed0ed0ba98ce6594de23a7788152f10b7f60a4
-# Source SHA-256: 8e77c41da1b8048aa7fa40cbe7c4e665d7d25a16164d46095fbd18e424a1442c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-MEL01.ANS by Mr.Wrong (Fokus fonting); released in fokus04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Mellow
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: Fokus fonting
-# SAUCE Date: 19990517
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Mellow by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus04-mr-mel01
 
 Write-Host '
                            [1m [0;1;30m▄[0m      [1;30m▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: NEO-CMPU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack11/raw/NEO-CMPU.ANS
-# Source Revision: archive-sha256:e08c72486b8d6a71c334f4eeb7ca03c00b810be448bfe03d83954fc2036bcdb7
-# Source SHA-256: f6f2377fb31d0ae2bc10a0e8477b7c32d53f965e3759ad85257c6cf99cb9d54f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NEO-CMPU.ANS by Neo (Apocalyptic Visions); released in avpack11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Compupal
-# SAUCE Author: Neo
-# SAUCE Group: Apocalyptic Visions
-# SAUCE Date: 19960514
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Compupal by Neo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack11-neo-cmpu
 
 Write-Host '
         [33m▄▄██▄▄[0m            [33m▄▄▄[0m                [36m▄█▀▀ ▄█▀█▄ ██▀██▀█▄ [0;35m██▀█▄ [0;36m██ ██[0m

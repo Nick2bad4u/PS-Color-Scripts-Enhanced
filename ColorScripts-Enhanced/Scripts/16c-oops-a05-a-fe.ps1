@@ -1,18 +1,4 @@
-﻿# Converted from: _A-FE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oops_a05/raw/_A-FE.ANS
-# Source Revision: archive-sha256:cff76c9dd5d3c699dbbd8fb0832eac5d62706a3d9db1909416fdb97b45ddb91f
-# Source SHA-256: 2c496847a32c1dfc8437743e03815a66c76a053ed62146de807c4cdbdd54d782
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _A-FE.ANS by absent spinsister (oOps); released in oops_a05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fallen empires
-# SAUCE Author: absent spinsister
-# SAUCE Group: oOps
-# SAUCE Date: 19970529
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: fallen empires by absent spinsister | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oops-a05-a-fe
 
 Write-Host '
 [1m[0m

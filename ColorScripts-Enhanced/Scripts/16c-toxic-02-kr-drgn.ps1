@@ -1,18 +1,4 @@
-﻿# Converted from: KR-DRGN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toxic-02/raw/KR-DRGN.ANS
-# Source Revision: archive-sha256:7a41e32586e1dd3a5f33420e6d1fb67b20a2e05f1cdbe057f1893bebcaa0b653
-# Source SHA-256: 5e86ed0150f26e862d9a5e938eb1f56690104d5e4270fc34735816f3daf52652
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KR-DRGN.ANS by kirin (TOXiC); released in toxic-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: some dragon thing
-# SAUCE Author: kirin
-# SAUCE Group: TOXiC
-# SAUCE Date: 19960706
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: some dragon thing by kirin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toxic-02-kr-drgn
 
 Write-Host '
 [1;30m░[0m     [1;30m░[0m               [1;30m░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: MISC-012.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fever1yr/raw/MISC-012.ANS
-# Source Revision: archive-sha256:b8730cb239566d902cbbb793ec9880e9d3944024770c6cd876c7bf1b9023d8e7
-# Source SHA-256: a3bb47a07a0d30a2eb42ebfd4afb51a432b0d1ef6755d3917754095906f4f1e8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MISC-012.ANS by Fever (fever1yr); released in fever1yr and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: MISC-012.ANS by Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fever1yr-misc-012
 
 Write-Host '
 [30;47mc[0;30;46m▄ [0;1;36;46m▄▄▄[0;30;46m▐▀[0;37;40m [0;30;46m▄  [0;1;36;46m▄▄▄▄▄▄[0;30;46m [0;37;40m [0;30;46m▀█[0;36;40m░[0;30;46m▓▀▀ ▄▄[0;37;40m ░[0;30;47m▓▀[0;1;37;47m▄[0;1;33;40m███▀▀[0m [1;33m▄▄█[0;1;33;43m▀[0;1;33;40m▀[0;30;43m▄[0;30;47m██[0;37;40m [0;30;43m▀[0;30;47m█[0;30;43m▀▄[0;30;47m█[0;30;43m▀[0;1;31;43m▄█████[0;1;31;47m█[0;1;31;43m███▄[0;30;43m▀[0;30;47m█[0;1;33;40m  [0;30;47m██████[0;33;40m ▀░░[0m

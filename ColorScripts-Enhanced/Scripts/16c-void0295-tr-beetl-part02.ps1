@@ -1,18 +1,4 @@
-﻿# Converted from: TR-BEETL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/void0295/raw/TR-BEETL.ANS
-# Source Revision: archive-sha256:4a44bb34dd7dff10b5a2dda07cb89e234fbb0d7e21e3c15a308c427064caab51
-# Source SHA-256: 6c508c1e26e9e630e7c8378d5c9075e7ce8233922ea2c6c33c7ad59b5d5f4b3f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-BEETL.ANS by Turtle (Void); released in void0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Harvest Moon
-# SAUCE Author: Turtle
-# SAUCE Group: Void
-# SAUCE Date: 19950129
-# SAUCE Dimensions: 80x83
-# Lines: 42-83
-# Columns: 1-80
+﻿# Artwork: Harvest Moon by Turtle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-void0295-tr-beetl-part02
 
 Write-Host '
 [32m [0;1;30;47m ░[0m████████████▓▌[1;34m▐[0;1;34;46m▓▓▒▒[0;1;34;40m███[0;1;34;44m█▓[0;1;34;40m▄[0;33m▀██▌▐█████████[0;1;31;43m░▒[0;33m▌[0;1;34m▐███[0;1;34;46m███[0;1;34;44m█▓▓▒░[0;34m▄[0;37m▀▓████████████[0;1;30;47m░░▒▒▒░░[0m

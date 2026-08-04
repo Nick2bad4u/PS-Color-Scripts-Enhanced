@@ -1,18 +1,4 @@
-﻿# Converted from: US-SICK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-19/raw/US-SICK.ANS
-# Source Revision: archive-sha256:51e7ebafde7b29c06daae7a5ae4da992f41728aec84b8b28502f57cce3cd0f9a
-# Source SHA-256: 0e2e60dc024287af7e627aa26f56fe692aaf4092fccf36fb4b2e5ad2c08ac723
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SICK.ANS by Essence + Tee_Are (Remorse Productions); released in rmrs-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Sick
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Remorse Productions
-# SAUCE Date: 19980104
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Sick by Essence + Tee_Are | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-19-us-sick
 
 Write-Host '
 

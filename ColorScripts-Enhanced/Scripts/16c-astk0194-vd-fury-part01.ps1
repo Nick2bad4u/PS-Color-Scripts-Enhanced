@@ -1,13 +1,4 @@
-﻿# Converted from: VD-FURY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/astk0194/raw/VD-FURY.ANS
-# Source Revision: archive-sha256:85386f5551c42a88135027c451bdde0caf298cc394973b954eb4073e747445c6
-# Source SHA-256: 75d7c2735199ef5deb9a55e2449311083aff92c42b46b6e77e9b6056ef86c60a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VD-FURY.ANS by Vlad Drakul (astk0194); released in astk0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: VD-FURY.ANS by Vlad Drakul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-astk0194-vd-fury-part01
 
 Write-Host '
       █                           [1;30m▄[0;1;30;47m▓▓▓[0m▄                           █

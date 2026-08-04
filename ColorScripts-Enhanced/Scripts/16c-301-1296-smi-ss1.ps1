@@ -1,18 +1,4 @@
-﻿# Converted from: SMI-SS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/301-1296/raw/SMI-SS1.ANS
-# Source Revision: archive-sha256:6f239dcc15d58c6d9331e0bb065ccce7fcfdce2ee998eb6b4810f78fc2937b38
-# Source SHA-256: 7c15e7fa37e5d2798d8e0d0a1d7eea2a5b49c1db589e52199b49b133dd164bec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMI-SS1.ANS by samurai (project/301); released in 301-1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: special sauce matrix
-# SAUCE Author: samurai
-# SAUCE Group: project/301
-# SAUCE Date: 19961227
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: special sauce matrix by samurai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-301-1296-smi-ss1
 
 Write-Host '
 [1m███[0;1;35;45m███▓▒[0;35m▓[0;30;45m▒▓[0;37;40m [0;1;37;40m░░[0;36m░░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;37;40m  [0;30;45m░[0;35;40m▓[0;30;45m▓[0;35;40m░[0;37;40m  [0;33;40m▄▄▄[0;1;33;43m░▒▒▓▓▒▒░░░[0;33m▓▀██▀▀▀▀▀▀[0;1;33;43m░░[0;33m██[0;1;33;43m░░░[0;33m██[0;1;33;43m░░▒▒[0;33m▀▀███[0;1;33;43m░░░░[0;33m▌▄▄░[0;30;43m▓[0m

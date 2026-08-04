@@ -1,13 +1,4 @@
-﻿# Converted from: AW-ELTCH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pro-0597/raw/AW-ELTCH.ANS
-# Source Revision: archive-sha256:481b5fb97b76ab3f49d96748bbc6de9355df4dac5d8032169a495e45a44b207f
-# Source SHA-256: aebf4e17c6dbf99c6fd82ddf407a6d5e77ca79c4564b9f93a8b1080f6387af99
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AW-ELTCH.ANS by Necrophidius (pro-0597); released in pro-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: AW-ELTCH.ANS by Necrophidius | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pro-0597-aw-eltch
 
 Write-Host '
 [1m   [0;1;36m▀[0;32m▀[0;1;32m▀▀▀[0;32m\[0m       [1;36m▀[0;32m▀\    [0;1;36m▀[0;32m▀\ [0;1;36m▀[0;32m▀[0;1;32m▀▀▀[0;32m\ [0;1;36m▀[0;32m▀\  [0;1;36m▀[0;32m▀\    [0;33m▒▓████▓▓▓▓▓▒▓▒▒▒░░░░░░░▒▒▓▓[0m

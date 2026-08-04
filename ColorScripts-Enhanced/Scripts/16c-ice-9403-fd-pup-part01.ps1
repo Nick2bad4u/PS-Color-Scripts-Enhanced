@@ -1,13 +1,4 @@
-﻿# Converted from: FD-PUP.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9403/raw/FD-PUP.ICE
-# Source Revision: archive-sha256:256add313f6fb2d9526e695b09f6039aacb3931a76c34081a80ce81f3cc3dbc4
-# Source SHA-256: 0ffea9b89e222d55ff069b860db8d58e43ae51f181633c2667e9a0960de02e6d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FD-PUP.ICE by Final Descendant (ice-9403); released in ice-9403 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: FD-PUP.ICE by Final Descendant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9403-fd-pup-part01
 
 Write-Host '
 [34m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

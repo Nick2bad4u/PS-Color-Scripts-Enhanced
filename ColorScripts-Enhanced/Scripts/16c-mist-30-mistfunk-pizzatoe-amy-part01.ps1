@@ -1,19 +1,4 @@
-﻿# Converted from: MISTFUNK-PIZZATOE-AMY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/MISTFUNK-PIZZATOE-AMY.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: 427a5e2bbf8781f690a9fd1e38f76a092d06a866f56f51b8f1e3fb132d0b73aa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MISTFUNK-PIZZATOE-AMY.ANS by Consolejockey + Amy (Pizzatoe); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Mistfunk logo
-# SAUCE Author: Amy / CJ
-# SAUCE Group: Pizzatoe
-# SAUCE Date: 20241229
-# SAUCE Dimensions: 80x90
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Mistfunk logo by Consolejockey + Amy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-mistfunk-pizzatoe-amy-part01
 
 Write-Host '
 [1;30;45m░░░░░▓▓▒▒▒▓▓▓[0;1;30;40m██████[0;1;30;45m▒▒▒[0;1;30;40m████████████████████[0;1;30;45m▓[0;1;30;40m█████████████████████████████████████[0m

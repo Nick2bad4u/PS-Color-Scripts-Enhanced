@@ -1,18 +1,4 @@
-﻿# Converted from: LST-D0X.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_9702/raw/LST-D0X.ANS
-# Source Revision: archive-sha256:33822ef17727497e570bbe1fb936980d768f5ecb13f914599943b0c787232617
-# Source SHA-256: 8cb5f1a87cf88aaafa5981474ce3a211d1a677c0cc97e84883e030fda4892225
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LST-D0X.ANS by soul trader (d0x!pRODUCTIONs); released in dox_9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: we now have SAUCE!
-# SAUCE Author: soul trader
-# SAUCE Group: d0x!pRODUCTIONs
-# SAUCE Date: 19970119
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: we now have SAUCE! by soul trader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-9702-lst-d0x
 
 Write-Host '
 

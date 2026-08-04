@@ -1,18 +1,4 @@
-﻿# Converted from: 074-KERM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-17/raw/074-KERM.ANS
-# Source Revision: archive-sha256:8236759fde5db8ee2caeed4c8b472252ce9b47375d97816d78339cb82ea8285c
-# Source SHA-256: 213ab9d683320b7a4bccf5f2274e9920889dec16b5d5bc5d0338cec1f53a4f3a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 074-KERM.ANS by lemon1zer (e c o l o v e(ecl)); released in eco-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: kermit de kikker
-# SAUCE Author: lemon1zer
-# SAUCE Group: e c o l o v e(ecl)
-# SAUCE Date: 20000102
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: kermit de kikker by lemon1zer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-17-074-kerm
 
 Write-Host '
                  [1;30m░░░[0m

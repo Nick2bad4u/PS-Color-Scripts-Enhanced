@@ -1,13 +1,4 @@
-﻿# Converted from: TO-ILL.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-11/raw/TO-ILL.ICE
-# Source Revision: archive-sha256:5827a3d77b92b92d3b0eabff87e8b41b8ef31a232218b0b3b44b72f050fee9b3
-# Source SHA-256: 5d4ac1341bed885cfd72717aa87fa4987662335c55a9bf9255141f3c41755a24
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TO-ILL.ICE by Tornado (icepk-11); released in icepk-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: TO-ILL.ICE by Tornado | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-11-to-ill
 
 Write-Host '
                                                                    ▐[1;47m░▒▓▓[0;1;40m▌[0m

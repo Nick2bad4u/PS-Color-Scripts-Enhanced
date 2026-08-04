@@ -1,19 +1,4 @@
-﻿# Converted from: us-fcksp.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel24/raw/us-fcksp.ans
-# Source Revision: archive-sha256:a7b306ff5b6a5f79d069961e912fc7a6bbecdcf424503ada503978ca0662baf8
-# Source SHA-256: 5bb7b29681de7f337881c7dcc221f7870e8529375dc07b7ec1b09983553930fe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-fcksp.ans by Nail + The Knight (fuel + 67); released in fuel24 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fuck scene politics
-# SAUCE Author: the knight + nail
-# SAUCE Group: fuel + 67
-# SAUCE Date: 20170825
-# SAUCE Dimensions: 80x80
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: fuck scene politics by Nail + The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel24-us-fcksp-part01
 
 Write-Host '
 

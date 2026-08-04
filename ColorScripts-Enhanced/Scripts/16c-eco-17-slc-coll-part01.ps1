@@ -1,18 +1,4 @@
-﻿# Converted from: SLC-COLL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-17/raw/SLC-COLL.ANS
-# Source Revision: archive-sha256:8236759fde5db8ee2caeed4c8b472252ce9b47375d97816d78339cb82ea8285c
-# Source SHA-256: 9c8ae40d49c05e6d89fc13749ba79c063aab78976ec90ea42d9647df97ee9fb6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SLC-COLL.ANS by silence (ecolove); released in eco-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: colly
-# SAUCE Author: silence
-# SAUCE Group: ecolove
-# SAUCE Date: 20000103
-# SAUCE Dimensions: 80x61
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: colly by silence | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-17-slc-coll-part01
 
 Write-Host '
 

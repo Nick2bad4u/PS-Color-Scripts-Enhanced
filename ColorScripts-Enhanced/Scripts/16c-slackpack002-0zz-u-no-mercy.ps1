@@ -1,19 +1,4 @@
-﻿# Converted from: 0zZ-U-No-MeRCy.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/slackpack002/raw/0zZ-U-No-MeRCy.ans
-# Source Revision: archive-sha256:c9825ce8b4e923e4d1f86a6f63bce502ceaec66422c3ae1a65cba92cfc82cb17
-# Source SHA-256: 74e2b11bf4b24f98751ade9c2013f894417e4ac7d5574a1956b4f47263c74df1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 0zZ-U-No-MeRCy.ans by 0zZ-U (Slackers BBS); released in slackpack002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: No_MeRCy
-# SAUCE Author: 0zZ-U
-# SAUCE Group: Slackers BBS
-# SAUCE Date: 20251207
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: No_MeRCy by 0zZ-U | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-slackpack002-0zz-u-no-mercy
 
 Write-Host '
 [30m  [0;34m░░░░[0;30m    [0;34m░░░░[0;37m  [0;34m░░░░░[0;37m    [0;34m░░░[0;37m [0;34m░░░░░░░░░░░░░░░[0;37m  [0;34m░░[0;37m [0;34m░░░[0;37m [0;34m░░[0;37m [0;34m░░░[0;37m [0;34m░░░[0;37m [0;34m░░[0;37m  [0;34m░[0;37m [0;34m░[0;37m  [0;34m░░░░[0m

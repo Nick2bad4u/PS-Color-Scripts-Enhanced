@@ -1,13 +1,4 @@
-﻿# Converted from: AVG-BRZL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper07/raw/AVG-BRZL.ANS
-# Source Revision: archive-sha256:c42bfa4438f002452f1a6bc8caf7f32e2e6bfd8fffb358dd625c49ecd6cf6820
-# Source SHA-256: a92e1af2797978369f471b552c3ee5cdecfe31882b64e9015c62c281833f8c31
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-BRZL.ANS by Avenging Angel (jasper07); released in jasper07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: AVG-BRZL.ANS by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper07-avg-brzl
 
 Write-Host '
 

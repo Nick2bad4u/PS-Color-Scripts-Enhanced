@@ -1,13 +1,4 @@
-﻿# Converted from: UNKNOWN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nectar01/raw/UNKNOWN1.ANS
-# Source Revision: archive-sha256:db3812836800ba5278d4a1a62edfe8d06c2001872f9fe3d1064cdbc02eec11ac
-# Source SHA-256: 9aa9962b96e21368cb2ecf0c228367efcf948d13e7347e5a8eac580f89518256
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UNKNOWN1.ANS by Nectar (nectar01); released in nectar01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: UNKNOWN1.ANS by Nectar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nectar01-unknown1
 
 Write-Host '
 

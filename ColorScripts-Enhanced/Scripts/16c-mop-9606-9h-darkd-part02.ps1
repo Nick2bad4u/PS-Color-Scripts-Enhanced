@@ -1,18 +1,4 @@
-﻿# Converted from: 9H-DARKD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mop-9606/raw/9H-DARKD.ANS
-# Source Revision: archive-sha256:463860a107bd1858a99f948a23bd6a3e37e045ae88efb172d973eb29562ef020
-# Source SHA-256: fb5776add8ff7caa4d8341338343bef61ecc151d55a61012b28a82298e84ac1b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 9H-DARKD.ANS by pushead (mOp); released in mop-9606 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: dark domain
-# SAUCE Author: pushead
-# SAUCE Group: mOp
-# SAUCE Date: 19960602
-# SAUCE Dimensions: 80x25
-# Lines: 24-51
-# Columns: 1-80
+﻿# Artwork: dark domain by pushead | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mop-9606-9h-darkd-part02
 
 Write-Host '
           [30;44m▓[0m    [36;40m [0;30;44m▓[0;1;34;40m▐[0;1;34;47m▓[0;1;34;40m▌[0;1;37;40m [0;34m  ▄■   [0;1;34m ▀▄▄[0m    [36m [0;37m▄▄[0;35;47m░[0;1;37;47m▄█[0;1;33;47m░[0m▌▐[1;47m▀[0m█▀▀[35;47m░[0;1;37;47m▀▄▄[0;1;33;47m░[0;1;37;47m▄[0m▄▄[1m  [0;34m▐[0;1;34m█▌[0m      [1;34m [0m

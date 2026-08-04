@@ -1,18 +1,4 @@
-﻿# Converted from: SP-ECL3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-07/raw/SP-ECL3.ANS
-# Source Revision: archive-sha256:3007ab392a2ea4e107d02b3029b445696a097ac55d389caab2dbfe0944556beb
-# Source SHA-256: e8e1ab774122f7476c96be7492c59766c0dc8ca1bb32015eca65b32f2614fff1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SP-ECL3.ANS by spEAR (eclipse); released in ecl-07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: eclipse
-# SAUCE Author: spEAR
-# SAUCE Group: eclipse
-# SAUCE Date: 19960915
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: eclipse by spEAR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-07-sp-ecl3
 
 Write-Host '
                         [1;33m [0m

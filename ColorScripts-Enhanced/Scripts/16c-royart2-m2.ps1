@@ -1,13 +1,4 @@
-﻿# Converted from: M2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/royart2/raw/M2.ANS
-# Source Revision: archive-sha256:7bb839921483bf75cde51f65d158ac6b2ec4a48b32273b45c2f5acdb0f5924d0
-# Source SHA-256: 8d1c1d61067d65bafd22f333a5f5ce84ab17d44499bdcf2e25d06c4c2a4b7ad5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M2.ANS by Roy (royart2); released in royart2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: M2.ANS by Roy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-royart2-m2
 
 Write-Host '
 [31m▄▀▀▀▀▀▄▀▀▀▀▀[0;33m▄ [0;31m█▀▀▀▀▀▀▀▄  █▀▀▀▀▀▀▄   ▄▀▀▀▀▀▄▀▀▀▀▀[0;33m▄ [0;31m█▀▀▀▀▀▀▀▄  █▀▀▀▀▀▀▀▄  ▄▀▀▀▀▀▀[0;33;41m▄[0m

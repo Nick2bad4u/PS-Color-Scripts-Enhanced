@@ -1,19 +1,4 @@
-﻿# Converted from: MEATLOTION-EDVARD_MUNCH-THE_SCREAM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0120/raw/MEATLOTION-EDVARD_MUNCH-THE_SCREAM.ANS
-# Source Revision: archive-sha256:06a7b91c6785ce045afb663b4afd4ffe46b30537a4b176d253404a090a85ebb6
-# Source SHA-256: a3df416ac899782502db8ed401970c77c09360110503425fbc1ec93d15ea45a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MEATLOTION-EDVARD_MUNCH-THE_SCREAM.ANS by MeaTLoTioN (grAvY); released in mist0120 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: thE scrEAmIsh
-# SAUCE Author: MeaTLoTioN
-# SAUCE Group: grAvY
-# SAUCE Date: 20200116
-# SAUCE Dimensions: 80x59
-# SAUCE Font: IBM VGA
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: thE scrEAmIsh by MeaTLoTioN | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0120-meatlotion-edvard-munch-the-scream-part01
 
 Write-Host '
 [36m▓▓▓█▓▓▓▓▓▓[0;1;36;46m▒░░[0;36m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;36;46m░▒█▒▒░[0;36m▀▓▓▓[0;1;36;46m░[0;33m█▒░░▒▒▀▀▀[0;1;30m▒░░░░░▒[0;33m░▀▀▀[0;1;30m░▒▒▒░░░░░░▒[0;36m▀▀▄[0;37m [0;33m░░░░▒[0m

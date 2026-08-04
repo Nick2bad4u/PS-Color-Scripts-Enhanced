@@ -1,19 +1,4 @@
-﻿# Converted from: GJ-DWIMMER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0721/raw/GJ-DWIMMER.ANS
-# Source Revision: archive-sha256:9d3d54e42a99a6e7bef51cb79a023b85709051f377817bc02741bd65f1493da4
-# Source SHA-256: 068e96ee70d626756d6c7adbf47064f425a58a4dba04b1105ed76dfb3d27f19a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GJ-DWIMMER.ANS by grymmjack (MiSTiGRiS); released in mist0721 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: dwimmer
-# SAUCE Author: grymmjack
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 20210317
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: dwimmer by grymmjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0721-gj-dwimmer
 
 Write-Host '
                                                      [1;34m░[0m

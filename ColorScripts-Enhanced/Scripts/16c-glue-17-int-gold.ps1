@@ -1,18 +1,4 @@
-﻿# Converted from: INT-GOLD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-17/raw/INT-GOLD.ANS
-# Source Revision: archive-sha256:154ac874f13e20433925bb99a4f5e0a4299764bee7ed4d28bdaffd9ad392f554
-# Source SHA-256: ea993f4f8e6cc974bae563003c4101bf2d6c1e81ad25cbe5b220f3ab21e65375
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: INT-GOLD.ANS by Internal (Glue); released in glue-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: pot-o-gold
-# SAUCE Author: Internal
-# SAUCE Group: Glue
-# SAUCE Date: 19981212
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: pot-o-gold by Internal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-17-int-gold
 
 Write-Host '
           internalglue                      [36m▄[0;1;32m▄▄▄▄[0;36m▄[0m                [1;37m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SB-WRETC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/paw-0495/raw/SB-WRETC.ANS
-# Source Revision: archive-sha256:b37782f0b3cbd36928669e3c3f79651eca29a9eb5d3f4a9871c6633bbb6bb1d6
-# Source SHA-256: b640ae10267762de706fb17f4c9da2357489262b7b19e739183df926b0546c2e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SB-WRETC.ANS by Silver Blade (paw); released in paw-0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Wretch
-# SAUCE Author: Silver Blade
-# SAUCE Group: paw
-# SAUCE Date: 19950331
-# SAUCE Dimensions: 80x104
-# Lines: 68-104
-# Columns: 1-80
+﻿# Artwork: Wretch by Silver Blade | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-paw-0495-sb-wretc-part03
 
 Write-Host '
            [1;30;40m▀█  [0m      ▄[1;30;47m░[0;1;30;40m▐[0;1;30;47m▒[0m▌[1;30m▓▄   ▄▄[0;1;30;46m▓▓▓▓▓▒▒▒[0;36m▐[0;1;30;46m▒▒[0;1;30;40m▌ [0;36m░ ░[0;1;30;46m▒▒▓[0m                ▄[1;30;47m░[0m▀▀ ▀[1;30;47m░[0m▄

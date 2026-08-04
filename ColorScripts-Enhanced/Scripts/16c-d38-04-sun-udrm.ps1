@@ -1,18 +1,4 @@
-﻿# Converted from: SUN^UDRM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-04/raw/SUN%5EUDRM.ANS
-# Source Revision: archive-sha256:46dfc1c32c82269d5de42747ebd7355d3eb20f2453874c6355621a917a3f7589
-# Source SHA-256: c3a2aeb271241a9f2acf1132faa7fe27660c2be1c6f8ee63b11664c86af3a8b3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SUN^UDRM.ANS by Sunder (Department 38); released in d38-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Under World Dreams Menu
-# SAUCE Author: Sunder
-# SAUCE Group: Department 38
-# SAUCE Date: 19970312
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Under World Dreams Menu by Sunder | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-04-sun-udrm
 
 Write-Host '
     [1;33mu[0m       [1;33mn[0m  [33m░[0m    [1;33md[0m       [1;33me[0m    [33m░[0;37m  [0;1;33mr[0m       [1;33mw[0m   [33m░[0m   [1;33mo[0m       [1;33mr[0m    [33m░[0;37m  [0;1;33ml[0m      [1;33md[0m

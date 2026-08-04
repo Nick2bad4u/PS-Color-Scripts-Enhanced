@@ -1,13 +1,4 @@
-﻿# Converted from: LI-LOGO.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9708a/raw/LI-LOGO.ICE
-# Source Revision: archive-sha256:63deb9e752fa85f6afabd8a41875343388a49c3c7ad37b2b9b29f4bfd04a346f
-# Source SHA-256: 1b9d587fd2852fceecc4abd48d9977e54cf196ae8a8691ee68e99534b98943d2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LI-LOGO.ICE by Liquid Image (ice9708a); released in ice9708a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: LI-LOGO.ICE by Liquid Image | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9708a-li-logo-part01
 
 Write-Host '
                                  [34m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: VC!NTR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook11/raw/VC!NTR.ANS
-# Source Revision: archive-sha256:6da508e3d2c9ad7194cf66558467eb1206f408f5f9c5aa09aaab0387694a6604
-# Source SHA-256: 9961e7a3b26f5fe7b8ed1795fa60234cd0659e56b803997e4b3a9d32da474013
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VC!NTR.ANS by VOiCE (BLACK MAiDEN); released in bmbook11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: neutron logo
-# SAUCE Author: VOiCE
-# SAUCE Group: BLACK MAiDEN
-# SAUCE Date: 19961212
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: neutron logo by VOiCE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook11-vc-ntr
 
 Write-Host '
 [1m-──[[0m Neutron [1m]────────────────────────────────────────────────────────────────--[0m

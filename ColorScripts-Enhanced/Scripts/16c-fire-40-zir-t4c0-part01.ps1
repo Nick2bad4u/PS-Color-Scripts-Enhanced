@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-T4C0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-40/raw/ZIR-T4C0.ANS
-# Source Revision: archive-sha256:aff8105c0a955ac5c43ea367a02b086cd2849f6741fc41b8a5ff440b77e104a7
-# Source SHA-256: ac463befc43a782ea92f4168818989b8981d66544a0dce860ac05a6e6b1d4107
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-T4C0.ANS by zir (FiRE); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: taco pronto!!!
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20240707
-# SAUCE Dimensions: 80x77
-# SAUCE Font: IBM VGA
-# SAUCE Comments: taco taco pronto in a taco taco town.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: taco pronto!!! by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-40-zir-t4c0-part01
 
 Write-Host '
 [37;40m  [0;1;30;40m░[0m [31m░[0;37m [0;1;30m░░[0m   [1;30m░░[0;31m░[0;37m [0;1;30m░░[0m  [1;30m░░░[0m     [1;30m▄[0;1;30;47m▀[0;1;30;40m▄[0m   [1;30m▄▄░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: NW-IMIND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rage964a/raw/NW-IMIND.ANS
-# Source Revision: archive-sha256:d0c496f91fed24b1bfed72b7c636d15c2adfb5af3e83677e65b76d3b0bb34662
-# Source SHA-256: db694f0db588f4a43ddd42f5b36615e15cd4df9d4eaaad28de198f776ce2033e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NW-IMIND.ANS by NightshadoW (.rage.); released in rage964a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Inverted Midn
-# SAUCE Author: NightshadoW
-# SAUCE Group: .rage.
-# SAUCE Date: 19960414
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Inverted Midn by NightshadoW | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rage964a-nw-imind
 
 Write-Host '
                                                           [1;34m   ▄▄[0m▄[1;34;47m▓▒[0;1;34;40m▓▄[0m    [1;34m░   [0m

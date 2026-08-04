@@ -1,18 +1,4 @@
-﻿# Converted from: BM!ED.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mtn-0695/raw/BM!ED.ANS
-# Source Revision: archive-sha256:01dd59399f2e8a58353f1b1f371c45734c706b251afcfee6e2cfe8849635b194
-# Source SHA-256: 2fc4218aad185d76accb972604c4700bffda5804d8e5126c3c0623cd458c4f8c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BM!ED.ANS by blIndman (READ THE INI FILE); released in mtn-0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ethereal Dreams
-# SAUCE Author: blIndman
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950514
-# SAUCE Dimensions: 80x25
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Ethereal Dreams by blIndman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mtn-0695-bm-ed-part01
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: 22-RANT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-22/raw/22-RANT1.ANS
-# Source Revision: archive-sha256:d46ba48cfd0738c6a2c74264504a495798fea93d5b2e2ae2e6f0dd8f95d84664
-# Source SHA-256: 5f245a862effec8248d14531071d17bdbbedb50f167bf5349099cccba7259a46
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 22-RANT1.ANS by catch22 (the glue clan); released in glue-22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: rANT interface #1
-# SAUCE Author: catch22
-# SAUCE Group: the glue clan
-# SAUCE Date: 19990531
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: rANT interface #1 by catch22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-22-22-rant1
 
 Write-Host '
 [36m  [0;1;30m▄[0;36m▄[0;1;30;46m▀[0;1;36;46m░▓██████[0;1;36;40m█▀[0m                           [31m▀[0;1;31;41m░▒█▄[0;31m ▐[0;1;31;41m▓█████████████████████▀[0;1;31;40m▀[0;31m▀[0;1;31m█[0;1;31;41m██▄[0;31m▄ [0m

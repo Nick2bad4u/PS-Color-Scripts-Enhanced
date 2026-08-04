@@ -1,18 +1,4 @@
-﻿# Converted from: JR_BDIST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl-dope/raw/JR_BDIST.ANS
-# Source Revision: archive-sha256:94d0a6d1a54f912bf59b65f9ab8ad2e76bf857ee4ed7295093943e200494477a
-# Source SHA-256: 61228a1580d5324ee002efb816904f711fcdf501ea27a99c245d4fd6100b0bc0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_BDIST.ANS by jerusalem (boil); released in bl-dope and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: they come to get our dope!
-# SAUCE Author: jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19970413
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: they come to get our dope! by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-dope-jr-bdist
 
 Write-Host '
 [34m░░░░[0m             [34m▀[0;37;44m▀[0;1;34;44m▀[0;34m▌▀[0;37m  [0;31m█[0;1;31;47m [0;1;31;41m█[0;31m█ [0;33m▀▀▀[0;1;33;43m▀[0;33m▀▀▀[0;1;33;43m▀█[0;1;37;43m██[0;1;33;43m██░[0;33m█[0;1;33;43m░[0;33m██[0;1;33;43m▐[0;33m█[0;1;33;43m▄░░▒▒░░[0;33m█[0;1;33;43m░[0;33m███[0;1;33;43m░░░░░░░[0;33m█▄▄▄[0;37m [0;33m▀█[0;37;43m▒▓[0;33;40m█[0m

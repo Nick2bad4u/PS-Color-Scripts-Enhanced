@@ -1,18 +1,4 @@
-﻿# Converted from: ZT-FAME.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bat03/raw/ZT-FAME.ANS
-# Source Revision: archive-sha256:9a4caf97eccc5f927274385b1453d4721efcc76396736574c5f097ed7f8536be
-# Source SHA-256: acf507e396c7e69abb9d4b14715c50cf4d61cc985f561a152edf4acbf59ca045
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZT-FAME.ANS by [zout] (bad attitude); released in bat03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fame
-# SAUCE Author: [zout]
-# SAUCE Group: bad attitude
-# SAUCE Date: 19961116
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: fame by [zout] | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bat03-zt-fame
 
 Write-Host '
 [1;30m [0m

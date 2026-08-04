@@ -1,13 +1,4 @@
-﻿# Converted from: AVG-ZER1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense13j/raw/AVG-ZER1.ANS
-# Source Revision: archive-sha256:6b4e7b22ff11e363b1b5be8167daae9b4686076db84cab202311ff8a06211d49
-# Source SHA-256: 0e348fbdb5c23106b90a10696f240f854033b2a84a26f12a94b30022b6e23931
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-ZER1.ANS by Avenging Angel (sense13j); released in sense13j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: AVG-ZER1.ANS by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense13j-avg-zer1
 
 Write-Host '
 

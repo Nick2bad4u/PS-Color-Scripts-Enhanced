@@ -1,18 +1,4 @@
-﻿# Converted from: US-EARTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0198/raw/US-EARTH.ANS
-# Source Revision: archive-sha256:463d77f4b1466b54ce907e7ee760282fc69f7183ee8d9f351965b1f5ce417b30
-# Source SHA-256: d179b4bbc510dfb400be46a598e460a199ce79a7f4537b434ce4709a172e2466
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-EARTH.ANS by Big Yellow Man + Ize (hah); released in plf-0198 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Earth Add
-# SAUCE Author: Multiple Artists
-# SAUCE Group: hah
-# SAUCE Date: 19980106
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Earth Add by Big Yellow Man + Ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0198-us-earth
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: US-DYBT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-18/raw/US-DYBT.ANS
-# Source Revision: archive-sha256:3ece06be07a605d790194aecaf4c2aee0d01c3085ca10c10858ed29a4fc054bb
-# Source SHA-256: bbf281fc1f7f239d8b3403e09d450783ba5256ab362a3b088d4a56e8428c8081
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DYBT.ANS by Bizzarro + Tainted (AWE Lettering); released in awe-18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Destiny
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981028
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Destiny by Bizzarro + Tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-18-us-dybt
 
 Write-Host '
                                  ▄▄[1;30m▄░░[0m                                         

@@ -1,0 +1,302 @@
+{
+  "batch": 81,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch81-orphaned-creator-politeness-and-self-correction",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [{ "start": 29, "end": 45 }],
+          "expectedRawSha256": "1fd3d90cefe892500748ca76a6d8e89d85a76c6ecc6664e3d16b6052c39381c1",
+          "expectedRenderedSha256": "842a984e3e0ec138b6275f0fb06d85e4e71e43831924f4040fd632a378c866d4",
+          "row": 6,
+          "sha256": "02eb6dd6bdf6fee29cd9fe306973a000fbf16d33e62ca51aaf9e2d3f52d84777"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [{ "start": 29, "end": 45 }],
+          "expectedRawSha256": "89c718dcf86aac639f435ef5c978949b745878ac6814b2025ad9e55251f3975f",
+          "expectedRenderedSha256": "8989c3332b14b95aec54c42134a9f7230dc01de394f26fbe7dbd379224ba8275",
+          "row": 7,
+          "sha256": "38ef5c942828cb3469b6298ea9e5a4c7f67ca057e1f2d3ebf4638c2db7835f35"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [{ "start": 42, "end": 47 }],
+          "expectedRawSha256": "15c8fb7e303c48b30ebb8f4d1575fc50a8045edf269dba6f621cb3bd6ed07afe",
+          "expectedRenderedSha256": "025f2c347104537ba3b35293a3d75f64fde6e9f160c4135465930013990c1bf6",
+          "row": 8,
+          "sha256": "4c5488f5c4a4b7b46432289e5e5f09115a0f297970e4cad6ef6ff53b2c3143c6"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [{ "start": 27, "end": 44 }],
+          "expectedRawSha256": "b4b305b568e5ecae40d6baf82b2bc1c4fd67ca4a00b2935bcff5b08e627180f0",
+          "expectedRenderedSha256": "48e19874c9558ada050322ae77959f65c622f066fac43ba4c584d6e381bfa19f",
+          "row": 10,
+          "sha256": "c6f94365ace9fa9352a96a2b9f6194a22bb9f7c71e054006709601243cb1ba64"
+        }
+      ],
+      "file": "16c-ane-1295-mg-god2-part01.ps1",
+      "rationale": "Complete-composition, neighboring-row, introduction-commit preimage, and prior-ledger review proves every selected span is either a historically orphaned fragment of creator prose or a generic audience signoff. Dedications, credits, functional prompts, titles, identity, authored dialogue and narrative, slogans, structural lettering, art-integrated words, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch81-politeness-and-self-correction.json",
+        "temp/text-blanking-continuation/batch81-full-context.txt",
+        "temp/text-blanking-continuation/batch81-history-context.txt"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch81-orphaned-creator-politeness-and-self-correction",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [{ "start": 1, "end": 13 }],
+          "expectedRawSha256": "67279baf19ff25173969b2a87a1a1c4b0e57cb4dcc2756e72a8efeccf6b39aa4",
+          "expectedRenderedSha256": "559032e035d8bba3e54cc7649e75c78d809b2ac08cd58ce7b03a32d6b1fc9ffc",
+          "row": 11,
+          "sha256": "f08b26ef24b26b3c0be07471a0deaef6d93b0fd7e5cd680deb3234d37e91b8bd"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [{ "start": 1, "end": 13 }],
+          "expectedRawSha256": "123579195d81fb6ec3f467911b1bb6e528c7f6d9371cd13f328484ed227b31f8",
+          "expectedRenderedSha256": "f2cc5995c175fd9aad85d465c2ab109bb481333c859a57fab08695056a321ecb",
+          "row": 12,
+          "sha256": "62e8216a7bd3abb5e137d15cf30697d545061ca3ba8c862bfd935578eaec1fa2"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [{ "start": 1, "end": 12 }],
+          "expectedRawSha256": "ad9bc954c710097470f1fbb080e5f535193c19acaf080c0a2234aa5e108237cf",
+          "expectedRenderedSha256": "66098ec81018fdaf26b781f2975267b1f17476c8d8528bea63b2771a2cc428ed",
+          "row": 13,
+          "sha256": "fcd7f1d5f3ecb87dc47a9b554cb6ba17f08660090ef25d4d0b5a315197359801"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [{ "start": 1, "end": 11 }],
+          "expectedRawSha256": "17eb04a0976962636c3321db85323edcee7c80b31036a77bda28eb40de03514c",
+          "expectedRenderedSha256": "b2840dd134d539e9a5b04fbbfdcb0e5618250090c081dff6deba94fa8b8cdb62",
+          "row": 14,
+          "sha256": "8e1748fd349ea4c1f6e20bedf5f4e829e40b2a48a291e4faf72c6fe93037d0bf"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [{ "start": 1, "end": 12 }],
+          "expectedRawSha256": "eb9257b19402743d98c32cdac6405460946977b6940f4b75e8993cea16c7b42b",
+          "expectedRenderedSha256": "92af003c24902cdd8234bbdbee36f7e05d72b3fd7dd1cb7d4fdbb7ca2ddcb750",
+          "row": 15,
+          "sha256": "2573e3d7c2eccac0943bdc827ba2a8c166c4ed69ee915f58a0847c7da892babd"
+        }
+      ],
+      "file": "16c-avpack01-krl-av01-part01.ps1",
+      "rationale": "Complete-composition, neighboring-row, introduction-commit preimage, and prior-ledger review proves every selected span is either a historically orphaned fragment of creator prose or a generic audience signoff. Dedications, credits, functional prompts, titles, identity, authored dialogue and narrative, slogans, structural lettering, art-integrated words, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch81-politeness-and-self-correction.json",
+        "temp/text-blanking-continuation/batch81-full-context.txt",
+        "temp/text-blanking-continuation/batch81-history-context.txt"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch81-orphaned-creator-politeness-and-self-correction",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [{ "start": 19, "end": 24 }],
+          "expectedRawSha256": "2fc22aba9f4a9a327e52f8a8c41b7f860024bf30a95c1fc8de41452d930d9606",
+          "expectedRenderedSha256": "76b964e78c0b6b2a97842f550460d3a40ce12016595947d68d885df835a392c4",
+          "row": 24,
+          "sha256": "2ddadb44134ceaf5edd14cbf0dc4f482ca7858b6f805f0f28ee98afd14fa3eee"
+        }
+      ],
+      "file": "16c-ecl-11-cz-sf1.ps1",
+      "rationale": "Complete-composition, neighboring-row, introduction-commit preimage, and prior-ledger review proves every selected span is either a historically orphaned fragment of creator prose or a generic audience signoff. Dedications, credits, functional prompts, titles, identity, authored dialogue and narrative, slogans, structural lettering, art-integrated words, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch81-politeness-and-self-correction.json",
+        "temp/text-blanking-continuation/batch81-full-context.txt",
+        "temp/text-blanking-continuation/batch81-history-context.txt"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch81-orphaned-creator-politeness-and-self-correction",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [{ "start": 49, "end": 60 }],
+          "expectedRawSha256": "3665aefbd1dd74185f3c4ee3ffdb45d839d09bb2fd7d16fd70c58a997a11f79c",
+          "expectedRenderedSha256": "485b79b7a43bffd5bda4e18d3713937e412a1dc5b2dabe6a36e770a6074105d7",
+          "row": 9,
+          "sha256": "e64ba09a061af550e2a11de99c51c692e6086c31bcd4a9724fed1e25838a0c38"
+        }
+      ],
+      "file": "16c-laz05apr-ill-ntro.ps1",
+      "rationale": "Complete-composition, neighboring-row, introduction-commit preimage, and prior-ledger review proves every selected span is either a historically orphaned fragment of creator prose or a generic audience signoff. Dedications, credits, functional prompts, titles, identity, authored dialogue and narrative, slogans, structural lettering, art-integrated words, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch81-politeness-and-self-correction.json",
+        "temp/text-blanking-continuation/batch81-full-context.txt",
+        "temp/text-blanking-continuation/batch81-history-context.txt"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch81-orphaned-creator-politeness-and-self-correction",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [{ "start": 66, "end": 76 }],
+          "expectedRawSha256": "d1402a877f3dbdd677ed8c411ad3c768b7e3208553a8f66623362b3b348e4e8b",
+          "expectedRenderedSha256": "dec71c14e7db0bd88bb584b6decd3c67b57c15a5ab0bab1aeb4cb392ccb026ed",
+          "row": 5,
+          "sha256": "39f28aba8a4c133817ff1297a78dfef31af8cc71563d51c4a2728484d0be6825"
+        }
+      ],
+      "file": "16c-phar0796-yk-php.ps1",
+      "rationale": "Complete-composition, neighboring-row, introduction-commit preimage, and prior-ledger review proves every selected span is either a historically orphaned fragment of creator prose or a generic audience signoff. Dedications, credits, functional prompts, titles, identity, authored dialogue and narrative, slogans, structural lettering, art-integrated words, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch81-politeness-and-self-correction.json",
+        "temp/text-blanking-continuation/batch81-full-context.txt",
+        "temp/text-blanking-continuation/batch81-history-context.txt"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch81-orphaned-creator-politeness-and-self-correction",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            { "start": 1, "end": 7 },
+            { "start": 9, "end": 14 },
+            { "start": 67, "end": 71 },
+            { "start": 75, "end": 80 }
+          ],
+          "expectedRawSha256": "11d4c6fa66897967dec98067d5021f4766eff9facbdbf25b7b6a5f957f4b00a0",
+          "expectedRenderedSha256": "945a8c23c54b6c1c1ced7bb9c27962eb918c1198baba71753046ef77f6f9aaa0",
+          "row": 5,
+          "sha256": "e4d739d42a3d7cd2d6f254c837f3a651678be02dac3f92a624834560dc1bed18"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            { "start": 1, "end": 6 },
+            { "start": 11, "end": 13 },
+            { "start": 68, "end": 69 },
+            { "start": 76, "end": 80 }
+          ],
+          "expectedRawSha256": "650ea56d362bd7f0497a3ca6c0c5e09d59df756f615da25c47d30f0e1637c5e1",
+          "expectedRenderedSha256": "da87977e3923049c238d90c9df6b92c4b5381b7b3281c56e9755e5fc946a51b9",
+          "row": 6,
+          "sha256": "e8ff641abbbbeb28bfce0cccbf72d3f9f356f47aa80499561c3c7e7e260d4b26"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            { "start": 1, "end": 5 },
+            { "start": 12, "end": 13 },
+            { "start": 76, "end": 80 }
+          ],
+          "expectedRawSha256": "fb37247df724e8c0dd6201ab305c7269272a36be16e8d16d97cf2ec0a25bbd01",
+          "expectedRenderedSha256": "5028ebce7707be6e7939853d1f06b80ad66a123b63895e8c03bb0b16a0a4dad2",
+          "row": 7,
+          "sha256": "c99f11dc56bf28dfc34fc783ca8c7a60476155d22e2ca7323cbe73c70e5b9057"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            { "start": 1, "end": 5 },
+            { "start": 77, "end": 80 }
+          ],
+          "expectedRawSha256": "3a1cc1620b7d44b9dc15b176350c082ccc28690770eef049c8ae7761a591464c",
+          "expectedRenderedSha256": "bacc8ccb1657938c30146e5a50aab2b46e8405a0f90432c5f5a40a6b1a276db1",
+          "row": 8,
+          "sha256": "9ea5b1a8747d4c833adddf93c59901c0f18747ad5d46decb700acc53e582d601"
+        }
+      ],
+      "file": "16c-spe01-ig-dl.ps1",
+      "rationale": "Complete-composition, neighboring-row, introduction-commit preimage, and prior-ledger review proves every selected span is either a historically orphaned fragment of creator prose or a generic audience signoff. Dedications, credits, functional prompts, titles, identity, authored dialogue and narrative, slogans, structural lettering, art-integrated words, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch81-politeness-and-self-correction.json",
+        "temp/text-blanking-continuation/batch81-full-context.txt",
+        "temp/text-blanking-continuation/batch81-history-context.txt"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch81-orphaned-creator-politeness-and-self-correction",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [{ "start": 54, "end": 75 }],
+          "expectedRawSha256": "10d04b134e71ce624167ee3028b65b2e41f30bfcbca2be0848c7cccd4d027846",
+          "expectedRenderedSha256": "5a703fae0cb67b3dd018826e99e384d8cc2abb92c3f0916e99be5f342eccf098",
+          "row": 6,
+          "sha256": "0a27d37d07668cc72daa52aac73f2eb13f7cc2af955ac56ac4261fd4ee305942"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [{ "start": 54, "end": 69 }],
+          "expectedRawSha256": "4087f882e228bf562ca72d4946a72bc94a8131319b34bbbc3e38091869b0d325",
+          "expectedRenderedSha256": "5edcc53d6746857530f7068d80e50d66a7b856f4139069e499230058a784aedf",
+          "row": 8,
+          "sha256": "cee8bed427c10ec1b15da91eada94993af9dfae5c41c2ad23f1860288421e618"
+        }
+      ],
+      "file": "16c-utd-0495-ka-hoh-part01.ps1",
+      "rationale": "Complete-composition, neighboring-row, introduction-commit preimage, and prior-ledger review proves every selected span is either a historically orphaned fragment of creator prose or a generic audience signoff. Dedications, credits, functional prompts, titles, identity, authored dialogue and narrative, slogans, structural lettering, art-integrated words, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch81-politeness-and-self-correction.json",
+        "temp/text-blanking-continuation/batch81-full-context.txt",
+        "temp/text-blanking-continuation/batch81-history-context.txt"
+      ]
+    }
+  ],
+  "normalization": "SHA-256 of UTF-8 visible terminal-cell rows after ANSI-control removal and outer-whitespace trimming. Every accepted row pins exact raw projected and rendered hashes plus one-based inclusive blank-column ranges.",
+  "pendingInputs": [],
+  "policy": "Fail-closed review of apology, gratitude, hope, enjoyment, self-correction, tentative, direct-plea, and self-deprecation cues in every static color-script payload. Accept only generic creator commentary or audience signoffs proven separable or orphaned by introduction history; retain dedications, credits, functional prompts, titles, identity, authored dialogue or narrative, slogans, structural text, art-integrated words, and ambiguity.",
+  "priorRedactionExtensions": [
+    "16c-ane-1295-mg-god2-part01.ps1:6",
+    "16c-ane-1295-mg-god2-part01.ps1:7",
+    "16c-ane-1295-mg-god2-part01.ps1:8",
+    "16c-ane-1295-mg-god2-part01.ps1:10",
+    "16c-avpack01-krl-av01-part01.ps1:11",
+    "16c-avpack01-krl-av01-part01.ps1:12",
+    "16c-avpack01-krl-av01-part01.ps1:13",
+    "16c-avpack01-krl-av01-part01.ps1:14",
+    "16c-avpack01-krl-av01-part01.ps1:15",
+    "16c-ecl-11-cz-sf1.ps1:24",
+    "16c-laz05apr-ill-ntro.ps1:9",
+    "16c-phar0796-yk-php.ps1:5",
+    "16c-spe01-ig-dl.ps1:5",
+    "16c-spe01-ig-dl.ps1:6",
+    "16c-spe01-ig-dl.ps1:7",
+    "16c-spe01-ig-dl.ps1:8",
+    "16c-utd-0495-ka-hoh-part01.ps1:6",
+    "16c-utd-0495-ka-hoh-part01.ps1:8"
+  ],
+  "priorRetentionSupersessions": [],
+  "reviewedAt": "2026-08-02",
+  "schemaVersion": 1,
+  "status": "ready",
+  "summary": {
+    "acceptedDetectorCues": 7,
+    "blankColumnRows": 18,
+    "candidateFiles": 7,
+    "candidateGroups": 7,
+    "categoryRows": {
+      "batch81-orphaned-creator-politeness-and-self-correction": 18
+    },
+    "changedCells": 209,
+    "detectorAcceptedRows": 7,
+    "detectorFiles": 28,
+    "detectorRows": 28,
+    "evidenceRows": 18,
+    "familyExtensions": 11,
+    "parseFailures": 0,
+    "retainedDetectorRows": 21,
+    "staticFiles": 24801
+  }
+}

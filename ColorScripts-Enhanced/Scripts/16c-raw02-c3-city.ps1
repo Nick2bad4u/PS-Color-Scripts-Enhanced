@@ -1,17 +1,4 @@
-﻿# Converted from: C3-CITY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/raw02/raw/C3-CITY.ANS
-# Source Revision: archive-sha256:a9c7b11f45c1834d2f063eb1ae64ec8d77fb2fe3e9be2a125c82d6192e5de0b0
-# Source SHA-256: 25d60d83b26814833f90b3b6337ab1d4b12475dde869f0d0c2495d21d58e5489
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: C3-CITY.ANS by criminal enigma (raw02); released in raw02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: slam city
-# SAUCE Author: criminal enigma
-# SAUCE Date: 19970409
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: slam city by criminal enigma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-raw02-c3-city
 
 Write-Host '
 

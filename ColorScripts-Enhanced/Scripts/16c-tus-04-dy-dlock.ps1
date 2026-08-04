@@ -1,13 +1,4 @@
-﻿# Converted from: dy-dlock.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tus-04/raw/dy-dlock.ans
-# Source Revision: archive-sha256:cecd03bcea0453e8e941f2420e67a6eaf0283c8555a366d61575392cb904d263
-# Source SHA-256: 6cb85c9f71ef41a2e6f7876b462e5b069cb953249d2523faddd0d2eb01aa3c97
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: dy-dlock.ans by Discyple (tus-04); released in tus-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: dy-dlock.ans by Discyple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tus-04-dy-dlock
 
 Write-Host '
 [31m$$$$$$\$$$$$$$$$$$$$$$$$$$$[0;33m$$$$$$$[0;31m$$''[0;33m.a┌..┌s#%s┌.d$$$$$j*┘''``    `^²4b.  .sa.   [0m

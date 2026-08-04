@@ -1,17 +1,4 @@
-﻿# Converted from: DS-HSMX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shade001/raw/DS-HSMX.ANS
-# Source Revision: archive-sha256:95e2f7a399e8cc9b09c40e86b6294ee0079d7c3306ea3bda2b5440b5c54f5516
-# Source SHA-256: ef56c334b283cd669817618176a4cdea74799e3088924dcf8afbeb1a34d0920d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-HSMX.ANS by [ \2[[[[2____ 0   0[ (.%(sHADe)%.); released in shade001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dFUSE: Higher Sense Matrix
-# SAUCE Author: [ \2[[[[2____ 0   0[
-# SAUCE Group: .%(sHADe)%.
-# SAUCE Date: 19960720
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: dFUSE: Higher Sense Matrix by [ \2[[[[2____ 0 0[ | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shade001-ds-hsmx
 
 Write-Host '
 [32m▄█▀▀▀█▀▀▓▀█▀▀▀▀░▀░▄[0;1;32;42m░[0;32m▄■  ░▄[0;1;32;42m▓▄[0;32m▄  ▄▄░  ░    [0;37m░▄[0;1;37;47m▓▀[0;1;37;40m▀▀[0;32m░▄▓[0;1;32;42m ░░▒▒▒▓▓▓███[0;1;32;40m█[0;1;32;47m▓[0;1;32;40m███[0;1;32;42m█▓▓░[0;32m▄ ░[0;1;37m▀▀[0;1;37;47m▓░[0m█▄

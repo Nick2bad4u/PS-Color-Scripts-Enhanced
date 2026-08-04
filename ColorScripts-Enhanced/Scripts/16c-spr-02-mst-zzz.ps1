@@ -1,13 +1,4 @@
-﻿# Converted from: MST!ZZZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spr_02/raw/MST!ZZZ.ANS
-# Source Revision: archive-sha256:de213db32bec9e7b234598875579e360fcbdfa4c59f3f92173fe1b75c68a8cff
-# Source SHA-256: f1cd003722e668824e4ece7dffdd204a22aa87f6a7f690c1b903dfe2333e06f5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MST!ZZZ.ANS by Mist (spr_02); released in spr_02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: MST!ZZZ.ANS by Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spr-02-mst-zzz
 
 Write-Host '
 [1m  [0;1;31m▄█[0;1;31;41m▄▀[0;31m█▀[0;33m▄[0;31m [0;33m▄[0;1;31;43m▄[0;33m▌▄[0;1;31;43m▄██████▀▀▀▀▀▌▀█ [0;31m▐▌[0;33m█[0;1;31;43m▀████████████████▀▀▀     [0;33m▀▀▀[0;1;31;43m [0;33m▄▄[0;31m ▀▀██[0;1;31;41m▀▄[0;31m██[0;1;31;41m▀[0;31m█████[0m

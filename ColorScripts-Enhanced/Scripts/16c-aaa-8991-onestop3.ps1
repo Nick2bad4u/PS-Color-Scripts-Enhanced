@@ -1,13 +1,4 @@
-﻿# Converted from: onestop3.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aaa-8991/raw/onestop3.ans
-# Source Revision: archive-sha256:4d061270920d521151424fd00f38227b42b87cd232386c5aa0d1e2f575f3ffe0
-# Source SHA-256: cf849d78c9627e8d91b207cfaa19267eec8a2eb3411f8cc46279d6b03cda564c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: onestop3.ans by Shadow Demon (aaa-8991); released in aaa-8991 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: onestop3.ans by Shadow Demon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aaa-8991-onestop3
 
 Write-Host '
 [35m──────────────────────────────[0;1;37m    [0;35m─[0;1;37m  [0;35m─[0;1;37m  [0;1;34m  [0;34m  [0;35m─[0;1;37m  [0;1;34m  [0;34m [0;35m──────────────────────────────[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: AN-RAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-04/raw/AN-RAIN.ANS
-# Source Revision: archive-sha256:cf9a2279a34a1d82cee07323cbb5bca77fc6620fc4bda1203010fce2dfea132d
-# Source SHA-256: e1c0a5970011e62d117f12b6d77fdac6daa86b7de7647271dd7a20ed222198d4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AN-RAIN.ANS by Anilog (purg-04); released in purg-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: AN-RAIN.ANS by Anilog | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-04-an-rain
 
 Write-Host '
          [1;30;40m ▄▀▀▀▀▀▀▀▀▀▀▄▄ ▄▄▀▀▀▀▀▀▄▀▀▀▀▀▀▄▄▄▄▀▀▀▀▀▀▀▀▀▄▄▄▄▀▀▀▀▀▄ ▄▄▄▀▀▀▀▄  [0m

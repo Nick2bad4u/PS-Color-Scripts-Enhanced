@@ -1,13 +1,4 @@
-﻿# Converted from: sy-ectz.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic06/raw/sy-ectz.ans
-# Source Revision: archive-sha256:8bb620f7e2d45c448aca0b5581c9e9c89930ea09fe52d491a96fb500206496d4
-# Source SHA-256: 4dbc45dce335b7442183da2a7fc4e163a1eda18e5fb3e1cdda9a5b2b16fc7b3c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sy-ectz.ans by Psylock (mimic06); released in mimic06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: sy-ectz.ans by Psylock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic06-sy-ectz
 
 Write-Host '
 [1;32mk┐[0;32m,._[0;1;32m            [0;35m      [0;1;35m    [0m      [32m.[0;1;32md╬╬╬╬╬╬k┌[0;32m.[0;1;32m   [0;35m░░[0;37m  [0;32m  [0m

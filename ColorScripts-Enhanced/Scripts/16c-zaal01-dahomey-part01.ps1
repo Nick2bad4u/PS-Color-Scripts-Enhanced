@@ -1,16 +1,4 @@
-﻿# Converted from: Dahomey.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zaal01/raw/Dahomey.ANS
-# Source Revision: archive-sha256:0f9fad95be99ccdc16490741412db1096a9afeb8f5d81759a892dc543004c13c
-# Source SHA-256: ba88accef205054c8e98da4ab8c2f799d624134cb00c62289fd5d105effef7a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Dahomey.ANS by Zaal (zaal01); released in zaal01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20211005
-# SAUCE Dimensions: 80x54
-# SAUCE Font: IBM VGA
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Dahomey.ANS by Zaal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zaal01-dahomey-part01
 
 Write-Host '
 [1;37;40m██████████████████████████████████████████████[0;1;37;47m██[0;1;37;40m████████████████████████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: RS-RAVEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9611/raw/RS-RAVEN.ANS
-# Source Revision: archive-sha256:6b41322d047de0230f1e36ca781983cdc37fcc8e5dbee77febcac0b5e066cf9e
-# Source SHA-256: cf832ed47935f7188b20f246f0a3995e40d7fe349c18e84270a754a666a9253b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-RAVEN.ANS by r0rshack (Maiden Productions); released in mdn-9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: raven welcome
-# SAUCE Author: r0rshack
-# SAUCE Group: Maiden Productions
-# SAUCE Date: 19961024
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: raven welcome by r0rshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9611-rs-raven
 
 Write-Host '
 [1;30m[0m[1;30m[0m[1;30m[0m

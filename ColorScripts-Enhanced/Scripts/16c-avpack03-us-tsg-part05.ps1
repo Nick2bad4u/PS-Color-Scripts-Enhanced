@@ -1,18 +1,4 @@
-﻿# Converted from: US-TSG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack03/raw/US-TSG.ANS
-# Source Revision: archive-sha256:c5d60b56a09bec72cbe2b2af3e29c924f185f70cd3040fe03a60b1b9071e731a
-# Source SHA-256: 8b9c66a644683dab10c204f8e5b5414e1eb8acb6067784abdaf98262103dae94
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TSG.ANS by Bad Foundation + Krinkle (Apocalyptic Visions); released in avpack03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Spawning Ground
-# SAUCE Author: Joint Production
-# SAUCE Group: Apocalyptic Visions
-# SAUCE Date: 19950205
-# SAUCE Dimensions: 80x224
-# Lines: 177-224
-# Columns: 1-80
+﻿# Artwork: The Spawning Ground by Bad Foundation + Krinkle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack03-us-tsg-part05
 
 Write-Host '
                                              [31;40m░[0m      [31;40m░[0m           [31;40m░[0m

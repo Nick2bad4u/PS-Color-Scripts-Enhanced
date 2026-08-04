@@ -1,18 +1,4 @@
-﻿# Converted from: MR-CONFU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira1097a/raw/MR-CONFU.ANS
-# Source Revision: archive-sha256:07d85d7b1ace3ea382bd86ac8e385803a9939676404af93c0be4c41385f607a2
-# Source SHA-256: c4dee388d376947d97f80abd8ec81cb6f6f62916163764157a8ed70bf5a3587c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-CONFU.ANS by Mr.Wrong (irat-0 productions.); released in ira1097a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Confusion.
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: irat-0 productions.
-# SAUCE Date: 19970719
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Confusion. by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira1097a-mr-confu
 
 Write-Host '
 [1;34m▀▄[0m      [1;34m▄[0m   [1;34m▄▀▀▀▄[0m  [1;34m▀▄   [0m    [1;34m▄▀■[0m    [1;34m▄▀▀▀▀▀▄▄[0m  [1;34m▄▀[0;1;30m▄████▄▄▄[0m [1;34m▀▄▄▄▄[0m       [1;34m▄■[0m    [1;34m▄[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: H7-LFIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-40/raw/H7-LFIRE.ANS
-# Source Revision: archive-sha256:aff8105c0a955ac5c43ea367a02b086cd2849f6741fc41b8a5ff440b77e104a7
-# Source SHA-256: 95cde48d1579b21f5d502b2420b5b72bf28189e4fc88d4d1da2f16cdaebd3ad4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: H7-LFIRE.ANS by h7 (divine stylers); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: le fire
-# SAUCE Author: h7
-# SAUCE Group: divine stylers
-# SAUCE Date: 20240707
-# SAUCE Dimensions: 80x16
-# SAUCE Font: IBM VGA
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: le fire by h7 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-40-h7-lfire
 
 Write-Host '
 

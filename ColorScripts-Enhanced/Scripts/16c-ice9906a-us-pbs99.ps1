@@ -1,16 +1,4 @@
-﻿# Converted from: US-PBS99.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9906a/raw/US-PBS99.ICE
-# Source Revision: archive-sha256:0dc01179b9735202ce9e3063dbd8924b46ecbfa119b74c7b925d1eaf5340d752
-# Source SHA-256: bb73a399e197291939142fd361fe974df68f4e4af3890ce4e323773501fdd6b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PBS99.ICE by Multiple Orgasms (iCE); released in ice9906a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: PBS
-# SAUCE Author: Multiple Orgasms
-# SAUCE Group: iCE
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: PBS by Multiple Orgasms | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9906a-us-pbs99
 
 Write-Host '
 [33m░▒▓███▀▀▀▀▀▄▄▄ [0;1;30m [0m [1;30m▄▄[0m   [33m▄▄▄[0;37m  [0;1;30m▒[0m [33m░[0;37m  [0;33m░░░░[0;37m  [0;33m▀   ▀▀▓ ▀[0;37m  [0;33m░░▒▓██▓▓█████[0;1;33;43m░[0;33m██[0;1;33;43m░[0;33m█[0;1;33;43m░░▒▓▒▒[0;33m███▓▒░[0m

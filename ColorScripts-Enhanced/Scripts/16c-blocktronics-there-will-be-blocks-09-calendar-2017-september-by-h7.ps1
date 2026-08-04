@@ -1,16 +1,4 @@
-﻿# Converted from: _09_Calendar_2017_September_by_H7.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_there_will_be_blocks/raw/_09_Calendar_2017_September_by_H7.ans
-# Source Revision: archive-sha256:d99f6502677c5a3c863779944513ac7a61b8122179566cfc94d95537e904aa6b
-# Source SHA-256: f37a1a1507cba8fecc413a0770d605ab0c56e62cef578193af0ba93c897b81bb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _09_Calendar_2017_September_by_H7.ans by H7 (blocktronics_there_will_be_blocks); released in blocktronics_there_will_be_blocks and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20161217
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: _09_Calendar_2017_September_by_H7.ans by H7 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-there-will-be-blocks-09-calendar-2017-september-by-h7
 
 Write-Host '
 [31;40m█████████████████████████████████████[0;37;41m░░▒▒▒░░[0;31;40m████████████████████████████████████[0m

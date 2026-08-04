@@ -1,18 +1,4 @@
-﻿# Converted from: te-st02.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-02/raw/te-st02.ans
-# Source Revision: archive-sha256:21302c91644277d9117a9a1fcab004f6fa76d5a90d6a4926e513a24dd5b73cd5
-# Source SHA-256: 249f03a41941f94d42a021e8572e25a99d0ce420a3d2022cb16e6f737651ecc6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: te-st02.ans by tHEXT (The Used Coalition); released in used-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Sietch Tabr
-# SAUCE Author: tHEXT
-# SAUCE Group: The Used Coalition
-# SAUCE Date: 19991208
-# SAUCE Dimensions: 80x56
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Sietch Tabr by tHEXT | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-02-te-st02-part01
 
 Write-Host '
 [1;31m▄[0;1;31;43m▄▄▓[0;1;31;45m█[0;1;31;47m▀▀[0m▄▄[1;31m▄▄[0;33m▄▄[0m            [1;31;43m▄[0;33m [0;30m [0;35m [0;1;31;45m▀██[0;1;31;43m▄[0;1;31;40m▄▄▄▄▄▄▄▄▄[0;1;31;43m▄[0;33m▓ [0;35m [0;1;31m░▄[0;33m▄[0m        [1;31m ▄▄▄▄[0;33m▄▄[0m        [33m▄[0m

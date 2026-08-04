@@ -1,18 +1,4 @@
-﻿# Converted from: JOINT-02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oph-0013/raw/JOINT-02.ANS
-# Source Revision: archive-sha256:5e625c36cc911c4dcde4a3790624d86c03458fb68ba127d178ce0ea486babf74
-# Source SHA-256: 6ae994450283fe0c3711b0f1392795cfc3de0ef1c12d1b2d4b21797385d4a2ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JOINT-02.ANS by Fever + Arsen (ophidiac); released in oph-0013 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 02][\    02\      mEW!
-# SAUCE Author: arsen / fever
-# SAUCE Group: ophidiac
-# SAUCE Date: 19960816
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: 02][\ 02\ mEW! by Fever + Arsen | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oph-0013-joint-02
 
 Write-Host '
 [36m▄▄▄▓▓▀▀▀▀▄▄▄▄  [0;35m░[0;36m [0;30;41m▀▀▀▌[0;35;41m░▄▄[0;30;41m ▄[0;37;40m [0;1;37;40m▄██▓▓██▄▄[0m [1m■▄▄▄▄▓▓■▄▄▄▓▓▄[0m [1m■▄▄▄[0;1;47m▓▓[0;1;40m▀▀▀[0;1;47m▓[0;1;40m▄▄▄░░■▄▄[0;1;47m█▓▓██[0;1;40m▄▄▄[0m [1m■[0m

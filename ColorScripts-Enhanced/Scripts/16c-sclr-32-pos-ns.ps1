@@ -1,18 +1,4 @@
-﻿# Converted from: pos!ns.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-32/raw/pos!ns.ans
-# Source Revision: archive-sha256:592b7d4f358f30737b6158da53bb66d21faa0f145681ba11ddc050c10439c394
-# Source SHA-256: 20c28f045f26fb003c93a242b943ab8747f22ef749c4445edb76fe8b8b58344e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: pos!ns.ans by Poise (Secular); released in sclr-32 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ansichrist
-# SAUCE Author: Poise
-# SAUCE Group: Secular
-# SAUCE Date: 20031111
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Ansichrist by Poise | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-32-pos-ns
 
 Write-Host '
                        -[1;30m  p o i s e [0m [1;30mo f  s e c u l a r [0m -

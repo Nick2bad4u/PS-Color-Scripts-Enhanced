@@ -1,18 +1,4 @@
-﻿# Converted from: DS-GIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rawoe-98/raw/DS-GIN.ANS
-# Source Revision: archive-sha256:72c3cf0f44a476eef694d1cf3a1552a03dc3aa0478a61b3b389cc598bf59ebb8
-# Source SHA-256: 15430ce3d4ba0e69f85136c41a7caa2e360419e66ba016c2f0745d130de1ee50
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-GIN.ANS by drseuss(woe) (woe); released in rawoe-98 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: gin
-# SAUCE Author: drseuss(woe)
-# SAUCE Group: woe
-# SAUCE Date: 19981025
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: gin by drseuss(woe) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rawoe-98-ds-gin
 
 Write-Host '
 [31m█[0;1;31;41m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;31m██████[0;1;31;41m      ▄▄▄▄▄▄▄▄▄▄▄[0;31m████[0;1;31;41m █████████▓▓▒▒░░[0;31m███████[0;1;31;41m░░[0;31m███████[0;1;31;41m░░░░▒▒[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: VRG-902.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sadist05/raw/VRG-902.ANS
-# Source Revision: archive-sha256:48539c7fd3103651a6474c72efa2d6287c0500d048769b6f96b3f80e7845070c
-# Source SHA-256: c137fc30c47978cdfe0a263e3f8a0ad6134540438daed7e7a4de38ebe0119b97
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VRG-902.ANS by vaRgr (Sadist); released in sadist05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: sexxi boi
-# SAUCE Author: vaRgr
-# SAUCE Group: Sadist
-# SAUCE Date: 20050630
-# SAUCE Dimensions: 80x70
-# Lines: 36-70
-# Columns: 1-80
+﻿# Artwork: sexxi boi by vaRgr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sadist05-vrg-902-part02
 
 Write-Host '
 [32m  [0;30;47m█[0;1;30;40m██[0;30;47m█[0;33;40m██[0;30;47m█[0;33;40m█[0;1;31;43m▒[0;30;47m█[0;33;40m███▐[0;1;31;43m░░[0;30;47m█[0;1;31;43m░[0;33m▌[0;1;30m▐[0;1;30;47m▌[0;1;30;40m▌[0;30;47m█[0;1;30;40m  ▄▄▄[0;30;47m█[0;31;40m█[0;30;47m█[0;32;40m░▓▐ ▓  ▌▐[0;30;47m█[0;1;30;40m█[0;1;30;47m▒░[0;30;47m █[0;33;40m▀[0;1;34;40m▄▄█[0;1;34;44m▀▀▄[0;1;34;40m███▀[0;1;30;40m▄████[0;1;30;47m▒░░  ░[0;30;47m▀█[0;32;40m▀[0;1;33;42m [0;32m▐[0;1;32;42m░[0;1;33;42m [0;33;42m░[0;1;32;42m▒[0;33;42m░[0m

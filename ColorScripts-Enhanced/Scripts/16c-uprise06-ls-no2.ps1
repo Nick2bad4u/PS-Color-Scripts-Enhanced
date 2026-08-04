@@ -1,17 +1,4 @@
-﻿# Converted from: LS-NO2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise06/raw/LS-NO2.ANS
-# Source Revision: archive-sha256:62459159460ab7090ce349ed14c61a1bc8d3aa5785e22124741220f6b82d2ab8
-# Source SHA-256: 16a1d8f17da5ac3737e6e636399ddb47d14ee48d8e35cb1f300d2baaa01c3201
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LS-NO2.ANS by lost soul (uprise); released in uprise06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ???
-# SAUCE Author: lost soul
-# SAUCE Group: uprise
-# SAUCE Date: 19980728
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: ??? by lost soul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise06-ls-no2
 
 Write-Host '
 [1m [0;1;41m▓[0m        [1;41m▓[0m           [1m▄▄▄▄[0;1;41m▓▓[0;1;40m▄▄▄▄▄▄[0;1;41m▓▒▓▓▓[0;1;40m▄▄▄▄▄▄▄▄▄[0;1;41m▓[0m      [1;41m▓[0m                       [1;41m▓[0m

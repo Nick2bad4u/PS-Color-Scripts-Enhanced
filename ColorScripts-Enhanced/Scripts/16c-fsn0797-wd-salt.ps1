@@ -1,13 +1,4 @@
-﻿# Converted from: WD-SALT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn0797/raw/WD-SALT.ANS
-# Source Revision: archive-sha256:fc1844bde3fb3bc448ff1373e91cb7237c6c2f8016c75eb605f0f71b6d1e80d5
-# Source SHA-256: b95476d6734916f72aac2a35402de66f04b277387d7c123cdea7b465283127ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WD-SALT.ANS by Weirdo (fsn0797); released in fsn0797 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: WD-SALT.ANS by Weirdo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn0797-wd-salt
 
 Write-Host '
 

@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-BOOO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1018/raw/ZII-BOOO.ANS
-# Source Revision: archive-sha256:4640b189642741640f63d791a65624a377a6e833c336a8c97324805df6a47ba9
-# Source SHA-256: 0acef8edd4bfebf911290054cc08b2cbbf7e2f8899406cc5367b4fc38ebcf986
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-BOOO.ANS by Zeus II (Mistigris); released in mist1018 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: BOOO!
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20181006
-# SAUCE Dimensions: 80x78
-# SAUCE Font: IBM VGA
-# Lines: 40-78
-# Columns: 1-80
+﻿# Artwork: BOOO! by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1018-zii-booo-part02
 
 Write-Host '
 [37m  [0;31m░[0;37m  [0;31m▄   ▄█▀[0m             [31m▄▄█▓█[0;37m  [0;1;35;45m░[0;35m▀▄ █[0;1;35;45m▒▒░[0;35m [0;1;35;45m░▒▒░[0;35m█[0;1;30m  [0;36m▄[0;1;36;46m▒[0m   [34m░░░░░░[0;37m [0;1;30m [0;1;30;47m▓[0;1;30;40m▌ [0m ▓[1;36;46m░[0m▌ [31m█[0;36m▀▄[0;37m   [0;34m░░░░░[0m

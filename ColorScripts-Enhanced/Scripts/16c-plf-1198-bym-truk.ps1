@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-TRUK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1198/raw/BYM-TRUK.ANS
-# Source Revision: archive-sha256:477c26b469dae0fde0e5c1871acc3be9de3bb3a205f1c76fb0e3a883b7bf8f93
-# Source SHA-256: 6d6a7da93eb1fdc8b7801a634fc1b7ca4e20704a958281b5431429818e600f41
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-TRUK.ANS by beastie bym (poffelipoff); released in plf-1198 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: plf trucks inc.
-# SAUCE Author: beastie bym
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19981114
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: plf trucks inc. by beastie bym | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1198-bym-truk
 
 Write-Host '
 [1;31mbym[0;31m([0;37mplf[0;31m)[0;30;41m▓▓[0;37;40m [0;30;41m▓[0;37;40m  [0;31;40m░[0;30;41m▓▓[0;31;40m░░░░[0;30;41m▓▓[0;31;40m░[0;30;41m▓[0;31;40m░░[0;30;41m▓▓[0;31;40m░░░░[0;30;41m▓▓[0;31;40m░░[0;30;41m▓[0;31;40m░░░[0;37;40m  [0;31;40m█[0;1;31;41m█[0;1;31;47m  [0;1;31;41m█[0;31m▌[0m    [1;30m▀▀[0;36m▀█▄[0;37m [0;1;30m▄[0;1;36m█▄[0m    [1;35m░░[0m

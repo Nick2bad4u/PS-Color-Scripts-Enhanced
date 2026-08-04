@@ -1,18 +1,4 @@
-﻿# Converted from: AX-DSC4.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9609a/raw/AX-DSC4.ICE
-# Source Revision: archive-sha256:541cf0b323317a2c01aae16b97d3d5f7ccc5db8dbd14c10b2267c0eefccf97b7
-# Source SHA-256: 0bda8e55677876ba793f11eb3302e00d3dbbb00eadd420fa82679370e5d519e7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AX-DSC4.ICE by Apocalypse + Apox (iCE); released in ice9609a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: wreck the discotheque
-# SAUCE Author: apocalypse
-# SAUCE Group: iCE
-# SAUCE Date: 19960926
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: wreck the discotheque by Apocalypse + Apox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9609a-ax-dsc4
 
 Write-Host '
 [30;47m▓▒░ax∙[0;1;37;47mi[0;30;47mce[0;37;40m▓░[0m

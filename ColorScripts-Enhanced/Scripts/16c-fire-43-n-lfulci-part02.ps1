@@ -1,19 +1,4 @@
-﻿# Converted from: N-LFULCI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-43/raw/N-LFULCI.ANS
-# Source Revision: archive-sha256:d3967e67800d0c773a52f120751caeb2bc01ead5180b478fb0a0e89978edc4ec
-# Source SHA-256: d1490910504ee340ac08036dce20b88f28f0a0865a56a0e2c31561239e69eb4f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-LFULCI.ANS by nail (fire); released in fire-43 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the godfather of gore
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 20250707
-# SAUCE Dimensions: 80x58
-# SAUCE Font: IBM VGA
-# Lines: 30-58
-# Columns: 1-80
+﻿# Artwork: the godfather of gore by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-43-n-lfulci-part02
 
 Write-Host '
          [37m▄▀[0;1;37m▄[0m▐[1;47m▓[0m▌[1;34m ▐[0;1;34;45m▓[0;1;34;40m▄   [0;35m   ░░░   [0;1;34m▄[0;1;34;45m▓[0;1;34;40m▀[0;35m  ▐[0;1;34;45m░[0;35m▌[0;37m [0;33m▓[0;1;31;43m▓[0;1;31;47m▓▀[0;1;31;40m▄[0;33m ▀[0;1;31;43m▀░[0;1;31;40m▄▄[0;1;31;43m▄[0;1;31;40m█[0;1;31;43m▓▓░[0;33m▄▄[0;1;31;43m▄▄[0;1;31;47m▓▓▓[0;1;31;43m█[0;33m▌▐[0;1;31;47m▌ [0;1;37;47m███ [0m █[1;31;47m░▓[0;1;31;43m█[0;33m▌[0m

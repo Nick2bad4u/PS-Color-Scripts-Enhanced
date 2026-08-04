@@ -1,18 +1,4 @@
-﻿# Converted from: MRFS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira1097a/raw/MRFS.ANS
-# Source Revision: archive-sha256:07d85d7b1ace3ea382bd86ac8e385803a9939676404af93c0be4c41385f607a2
-# Source SHA-256: ab3463d630e4b2c088f383c9f3dfcb9e9bdbb18ee9c7ca14f6d3a3b66953695b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MRFS.ANS by Mr Wrong + Flying Squirrel (Irato); released in ira1097a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: irato promotional
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Irato
-# SAUCE Date: 19971002
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: irato promotional by Mr Wrong + Flying Squirrel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira1097a-mrfs
 
 Write-Host '
 [34m█▄  ■▄██[0;1;34;44m░░░[0;34m██[0;1;34;44m░░░░░░[0;34m█▀[0;37m▄█[0;1;37;47m░[0m█▄ ▄[1;47m░░[0m▄[34m▀[0;1;34;44m░▒▓▒░[0;34m███[0;1;34;44m░░▒░[0;34m███[0;1;34;44m░░░░▒▓▒▒▒▒▒▒▒▓▓█▓▒░[0;34m▀[0;1;33m▄▄[0;1;33;43m▓[0m [1;33m▀[0;1;33;43m▓[0;1;33;40m▄▄[0;34m▀[0;1;34;44m░▒▓[0m

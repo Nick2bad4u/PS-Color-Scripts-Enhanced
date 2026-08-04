@@ -1,18 +1,4 @@
-﻿# Converted from: TXT-N31.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/std-0903/raw/TXT-N31.ANS
-# Source Revision: archive-sha256:291646c75b1c576c4c00a56340430edd1505fa750e3ecf5d23662a4891ddb8d9
-# Source SHA-256: ef824914ea4b06669dbbc9e79faf18f550193987b4e512de570de84ca865e707
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TXT-N31.ANS by The Textorcist (STD); released in std-0903 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: For a friend..
-# SAUCE Author: The Textorcist
-# SAUCE Group: STD
-# SAUCE Date: 20030808
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: For a friend.. by The Textorcist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-std-0903-txt-n31
 
 Write-Host '
                                                         [1;30m▄▄▄▄▄▄▄▄▒▒▒▒▒▒▓▓▓▓▓[0m

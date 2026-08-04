@@ -1,18 +1,4 @@
-﻿# Converted from: SD-COVEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cnc-0595/raw/SD-COVEN.ANS
-# Source Revision: archive-sha256:8cba66a1e319e8c02a7ccf761c20d1428671731c0606ea557948e55e54c8838f
-# Source SHA-256: 3d4d08a240e1466a233711bc27edce3d646ec841b777f2651b40b5fba47fb498
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-COVEN.ANS by Superdave (CaNCeR Productions); released in cnc-0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Coven
-# SAUCE Author: Superdave
-# SAUCE Group: CaNCeR Productions
-# SAUCE Date: 19950425
-# SAUCE Dimensions: 80x25
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Coven by Superdave | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cnc-0595-sd-coven-part01
 
 Write-Host '
  [1;31m▀▀▀[0;1;31;41m█[0;1;31m█[0;1;31;41m▄▄▄▓[0;31m███[0;1;31;41m▒░[0;31m▄ [0;1;30m▀▀▀ [0;31m▄[0;1;31;41m▓░[0;31m▌ [0;1;30m▀▀▀▀ [0;31m██▄ ▄ [0;1;30m▀▀▀▀▀▀▀▀▀███▒██▓█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▓▒███░▄[0m

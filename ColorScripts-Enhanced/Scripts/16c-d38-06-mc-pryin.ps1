@@ -1,18 +1,4 @@
-﻿# Converted from: MC!PRYIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-06/raw/MC!PRYIN.ANS
-# Source Revision: archive-sha256:4c9f598b864a923147eb394591cb120a43a087e70e3844ab4ff73e06903fa178
-# Source SHA-256: 3dda932e9c979182e20bc364ca74c742a872f322cbc664dab620e6b99f1cb1fc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MC!PRYIN.ANS by Madcap (D38); released in d38-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: You goto pray,just to make it today
-# SAUCE Author: Madcap
-# SAUCE Group: D38
-# SAUCE Date: 25340422
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: You goto pray,just to make it today by Madcap | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-06-mc-pryin
 
 Write-Host '
         [32m░[0m       [32m▄▄[0;32;44m▓[0;32m▌[0m        [42m▒[0;1;33;40m   [0;33m▀▒[0;33;46m▓[0;32m░[0;33m▀   [0;35m▐[0;1;31;44m░[0;33;45m░[0;1;33;40m     [0;1;30;40m▄[0;1;30;43m▓[0m              [1;30;40m░▒[0;31m░[0;33m░▄▄[0;1;30m▄   MC![0m

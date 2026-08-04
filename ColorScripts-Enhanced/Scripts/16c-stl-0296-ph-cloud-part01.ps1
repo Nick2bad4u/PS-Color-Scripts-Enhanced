@@ -1,18 +1,4 @@
-﻿# Converted from: PH-CLOUD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stl-0296/raw/PH-CLOUD.ANS
-# Source Revision: archive-sha256:2a7c2972214cdcf66c05bb3cc15c513aafb38f4486172bc95b40d735e509a060
-# Source SHA-256: 0ee6c67467f5b3bcb12b84cf1d77dd3c6ec13bc729fe8cd6f6e340d21ce88f4f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PH-CLOUD.ANS by pharcyde (stiLe!); released in stl-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: cloudcity
-# SAUCE Author: pharcyde
-# SAUCE Group: stiLe!
-# SAUCE Date: 19960201
-# SAUCE Dimensions: 80x75
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: cloudcity by pharcyde | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stl-0296-ph-cloud-part01
 
 Write-Host '
 [1;47m█▀▀░[0m█[1;47m▄▓[0m▓▀▀[1;30;47mansiby[0;1;37;47mpharcyde[0;1;30;47mof[0m██[1;47m░[0m██▀▀ ▄▄▄▄▄ ▀▀█████[1;47m ░░▒▓[0m █████[1;47m░░[0m██████████ ███[1;47m░░▒[0;1;40m▀[0m █

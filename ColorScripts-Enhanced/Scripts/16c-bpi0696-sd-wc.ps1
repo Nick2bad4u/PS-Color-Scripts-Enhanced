@@ -1,18 +1,4 @@
-﻿# Converted from: SD!WC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bpi0696/raw/SD!WC.ANS
-# Source Revision: archive-sha256:24ba7f715feb33b38dd9d80af37fadd76c049ffae04949fb7d26267bd16ca3cf
-# Source SHA-256: 419a41f16245ecb59cc33ab45acd87025feef0f66bf2688308f2a39a13b4e57c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD!WC.ANS by sad (black pyramid! inc.); released in bpi0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: wc logo
-# SAUCE Author: sad
-# SAUCE Group: black pyramid! inc.
-# SAUCE Date: 19960522
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: wc logo by sad | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bpi0696-sd-wc
 
 Write-Host '
 

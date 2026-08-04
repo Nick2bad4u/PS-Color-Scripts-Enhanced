@@ -1,18 +1,4 @@
-﻿# Converted from: HEN-NGST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr025/raw/HEN-NGST.ANS
-# Source Revision: archive-sha256:f8a489218e37c66073e93a968f0c998780a85f95cb2796781b196d31d9281489
-# Source SHA-256: d37b2090bdd6c514adb328cccd6adbd4d73d47eb7df38ff1cabc1c5301c65d74
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HEN-NGST.ANS by hennifer (lazarus); released in blndr025 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: blender25
-# SAUCE Author: hennifer
-# SAUCE Group: lazarus
-# SAUCE Date: 19970513
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: blender25 by hennifer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr025-hen-ngst
 
 Write-Host '
 

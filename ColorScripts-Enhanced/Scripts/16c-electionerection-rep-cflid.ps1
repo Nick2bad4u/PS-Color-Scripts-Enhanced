@@ -1,19 +1,4 @@
-﻿# Converted from: rep-cflid.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/electionerection/raw/rep-cflid.ans
-# Source Revision: archive-sha256:aff12aff033c4c0d581c9372c743eafea10922bf03c4ccd821e0ec515ca8c95d
-# Source SHA-256: 8a307304747b6b9b6a722d9d56534ce5ad420274372d1ab6d4d5f5f4db6e9a20
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: rep-cflid.ans by REPUBLICUNT (ELECTION ERECTION); released in electionerection and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: KAMALAS COFFEE CUP
-# SAUCE Author: REPUBLICUNT
-# SAUCE Group: ELECTION ERECTION
-# SAUCE Date: 20240920
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: KAMALAS COFFEE CUP by REPUBLICUNT | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-electionerection-rep-cflid
 
 Write-Host '
 [1;30;46m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;36m▓▓▓▓▓▓▓▓[0;1;30;46m▒▒▒▒[0;36m▓[0;1;30;46m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;1;36;40m███[0m

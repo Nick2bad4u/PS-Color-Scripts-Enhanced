@@ -1,18 +1,4 @@
-﻿# Converted from: AL-FLATL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1194/raw/AL-FLATL.ANS
-# Source Revision: archive-sha256:0cd3429c05395c5369b2d8b470975ab968626be403f511098965c1e5f3d5050c
-# Source SHA-256: e7dc44d66055ac8e3e8d550ba4c38b385ee953ad8c3d9e6a8b4290713ddea19f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AL-FLATL.ANS by Animal (ACiD Productions); released in acdu1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Flatlined Reality
-# SAUCE Author: Animal
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19941031
-# SAUCE Dimensions: 80x170
-# Lines: 131-170
-# Columns: 1-80
+﻿# Artwork: Flatlined Reality by Animal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1194-al-flatl-part04
 
 Write-Host '
                                                                     - [1m31[0;36m/[0;1;37m1o[0;36m/[0;1;37m94 [0m

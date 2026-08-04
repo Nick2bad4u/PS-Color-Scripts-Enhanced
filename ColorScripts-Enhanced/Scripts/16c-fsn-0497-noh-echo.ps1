@@ -1,18 +1,4 @@
-﻿# Converted from: NOH-ECHO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0497/raw/NOH-ECHO.ANS
-# Source Revision: archive-sha256:0a24528ad1b8350dc6275ed84884990aa181682392c532082994d5872ceb5801
-# Source SHA-256: 24b5bc28816639483ce5ec6a3d7be36faeaa8dfb11f5d1a436948c6d6e04eeb3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-ECHO.ANS by nOah? (fusion); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: echo#@!
-# SAUCE Author: nOah?
-# SAUCE Group: fusion
-# SAUCE Date: 19970401
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: echo#@! by nOah? | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0497-noh-echo
 
 Write-Host '
                                   [1;30m    ▐█[0;33m█[0;33;47m▓▓[0;1;30;40m█[0m

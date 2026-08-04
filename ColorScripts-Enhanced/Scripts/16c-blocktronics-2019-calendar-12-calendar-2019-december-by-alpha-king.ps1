@@ -1,20 +1,4 @@
-﻿# Converted from: _12_Calendar_2019_December_by_Alpha_King.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-2019-calendar/raw/_12_Calendar_2019_December_by_Alpha_King.ans
-# Source Revision: archive-sha256:5dcb03d3562fc71c1bd681e0b01704387df6a6764ee8c64c58f8fc5646036621
-# Source SHA-256: 66e26c8fb8fbb821dd18659dc44158662215cf01e346b9cffd16eb974ff8341a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _12_Calendar_2019_December_by_Alpha_King.ans by Alpha King (Blocktronics); released in blocktronics-2019-calendar and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Mr. Bingle
-# SAUCE Author: Alpha King
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20181010
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Jingle, jangle, jingle. Here comes Mr. Bingle!
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Mr. Bingle by Alpha King | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-2019-calendar-12-calendar-2019-december-by-alpha-king
 
 Write-Host '
 [34;40m█████████████████████████████████[0;1;37;44m▀▀▄▄[0;34m██▀[0;1;33m▄▄[0;34m▀██████████████████[0;1;37;44m ▒▒[0;34m████████████████[0m

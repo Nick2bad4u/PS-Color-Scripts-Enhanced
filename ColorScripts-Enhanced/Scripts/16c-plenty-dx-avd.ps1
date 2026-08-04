@@ -1,18 +1,4 @@
-﻿# Converted from: DX-AVD!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plenty/raw/DX-AVD!.ANS
-# Source Revision: raw-sha256:17661ee885666093f2290dc3fe11dc9da3a086fefc30a979410b9d35781df209
-# Source SHA-256: 17661ee885666093f2290dc3fe11dc9da3a086fefc30a979410b9d35781df209
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DX-AVD!.ANS by dexter (slogan.arts); released in plenty and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fire of agravedict
-# SAUCE Author: dexter
-# SAUCE Group: slogan.arts
-# SAUCE Date: 20000106
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: fire of agravedict by dexter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plenty-dx-avd
 
 Write-Host '
 

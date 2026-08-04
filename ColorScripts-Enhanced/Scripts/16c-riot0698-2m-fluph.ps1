@@ -1,18 +1,4 @@
-﻿# Converted from: 2M-FLUPH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot0698/raw/2M-FLUPH.ANS
-# Source Revision: archive-sha256:5791ef4f99ff6b8056f353c96cd9d7e824bf90a19b6bfc824c2ed61513d5f9ac
-# Source SHA-256: ad25f2f5bf877bf1f2fdd2910c2051e7110edf3e407fe176171216e45d09d961
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2M-FLUPH.ANS by 2mStone (RioT Productions); released in riot0698 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fluph
-# SAUCE Author: 2mStone
-# SAUCE Group: RioT Productions
-# SAUCE Date: 19980622
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: fluph by 2mStone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot0698-2m-fluph
 
 Write-Host '
            [1;33m▄▄▀▀▀▀█▄▄▄▄▄[0m  [1;33m  [0m

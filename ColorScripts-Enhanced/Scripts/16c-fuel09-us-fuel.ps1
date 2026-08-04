@@ -1,18 +1,4 @@
-﻿# Converted from: US-FUEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel09/raw/US-FUEL.ANS
-# Source Revision: archive-sha256:cae1fe00a9cd349fa6bb692920586d60c6acc70987b088220f071822b0b1e1ed
-# Source SHA-256: 5870ebcf84d7beb176213ed28289547d3003d6d26d8cbb40f8a3d2ec4e32178c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FUEL.ANS by The Knight + Massm (iCE & Fuel); released in fuel09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fuel promo
-# SAUCE Author: massm & teakay
-# SAUCE Group: iCE & Fuel
-# SAUCE Date: 19961201
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Fuel promo by The Knight + Massm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel09-us-fuel
 
 Write-Host '
 [1;33m       [0;33m▄[0;1;33m▄▄[0;1;33;43m▄██[0;1;33;47m▄[0;1;33;40m▄▄[0m▄▄[1;33m     [0m      [1;33m       [0m

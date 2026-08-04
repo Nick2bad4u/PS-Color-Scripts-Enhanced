@@ -1,18 +1,4 @@
-﻿# Converted from: P1-TV3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0295/raw/P1-TV3.ANS
-# Source Revision: archive-sha256:783416b41a421333c3ef8049cdade58e4e0c645dd104994cd95b81b7407d25ff
-# Source SHA-256: 537bfd67d80c7d5c16197cedc1170ee4a680761a4136a433b0f33db850e839e1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P1-TV3.ANS by prisonernumberone (ACiD Productions); released in acdu0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Terminal Velocity
-# SAUCE Author: prisonernumberone
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950201
-# SAUCE Dimensions: 80x201
-# Lines: 162-201
-# Columns: 1-80
+﻿# Artwork: Terminal Velocity by prisonernumberone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0295-p1-tv3-part05
 
 Write-Host '
                                  [31;40m▐███▐▌[0;33;40m▐█▓▓▓[0;31;40m▐█ [0;33;40m░▒▒▒▒▓▓▓▓▓▓█▓▓███▓▓███▓█ [0;31;40m██████▓[0m

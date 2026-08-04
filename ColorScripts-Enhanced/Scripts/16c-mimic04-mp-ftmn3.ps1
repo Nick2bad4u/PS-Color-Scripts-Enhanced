@@ -1,18 +1,4 @@
-﻿# Converted from: mp-ftmn3.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic04/raw/mp-ftmn3.ans
-# Source Revision: archive-sha256:00571f7b582fa3f090f07ca0b9f195bc316718f6c7a327f8b7175cf434be604a
-# Source SHA-256: 044dbbcaa590817fca36a260bd5487c9e29b8af41374d1620a432b8f78af8c01
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mp-ftmn3.ans by meatpod (mimic); released in mimic04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: i cunt hair you!
-# SAUCE Author: meatpod
-# SAUCE Group: mimic
-# SAUCE Date: 19981013
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: i cunt hair you! by meatpod | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic04-mp-ftmn3
 
 Write-Host '
 [1;30mmp.[0m                 [33m.,┌y\@[0;1;31m&&&&&[0;33m@%y┐[0;1;31m [0m   [33m┐,._[0m     [34m [0;32m.[0;1;33m    [0;32m [0;1;33m$$$$$$$$$$$$$$$$$$$$$$$$$[0m

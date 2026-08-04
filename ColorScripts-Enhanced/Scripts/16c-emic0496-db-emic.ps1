@@ -1,13 +1,4 @@
-﻿# Converted from: DB-EMIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/emic0496/raw/DB-EMIC.ANS
-# Source Revision: archive-sha256:0081657214e0d3eeaf9fa72e89eaffd16455becfd5da03242b645aa6b0fa9295
-# Source SHA-256: d73baaaa7c894142ca119e27b0bed9c7c4f0526a2a895ebbe63c2fbdbd5b0d98
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DB-EMIC.ANS by Drummer Boy (emic0496); released in emic0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: DB-EMIC.ANS by Drummer Boy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-emic0496-db-emic
 
 Write-Host '
 

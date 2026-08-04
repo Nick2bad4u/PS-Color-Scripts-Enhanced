@@ -1,13 +1,4 @@
-﻿# Converted from: us-mmckg.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic33/raw/us-mmckg.ans
-# Source Revision: archive-sha256:5fdf09d291219692f770c94bedc0fcc7697a611c572ffe04f02e50b16c11b41e
-# Source SHA-256: ef9c7e89a54fe19337be79b1875f513d874430e6c844a47403083b86a12a78a5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-mmckg.ans by Konami + Haji (mimic33); released in mimic33 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: us-mmckg.ans by Konami + Haji | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic33-us-mmckg
 
 Write-Host '
 [1;30mKONAMI│HAJI│MIMIC│││ ││    │[0m             [1;30m│[0m

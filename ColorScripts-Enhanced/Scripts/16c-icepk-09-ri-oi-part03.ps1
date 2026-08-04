@@ -1,13 +1,4 @@
-﻿# Converted from: RI-OI.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-09/raw/RI-OI.ICE
-# Source Revision: archive-sha256:1fcbf4aa1710b0a53349a8ea40276f5225ba911f5e9d163ab7e96a35bbed2cd0
-# Source SHA-256: 982bf3e5233a09797468dcac9efd4935540298ecc4f45b3b194b505416b22b3c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RI-OI.ICE by Riothamus (icepk-09); released in icepk-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 70-103
-# Columns: 1-80
+﻿# Artwork: RI-OI.ICE by Riothamus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-09-ri-oi-part03
 
 Write-Host '
 

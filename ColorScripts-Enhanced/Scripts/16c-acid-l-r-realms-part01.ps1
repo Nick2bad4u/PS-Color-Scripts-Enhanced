@@ -1,13 +1,4 @@
-﻿# Converted from: REALMS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acid_l-r/raw/REALMS.ANS
-# Source Revision: archive-sha256:499c9b46916e1ae397884d58998fd5ed4387f783522347b660512aee3acb2ec0
-# Source SHA-256: 5b1dcf07ad824a971f25e5707803ba175fc0d020f137b62a38fcdb5f1e92e635
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: REALMS.ANS by Magius (acid_l-r); released in acid_l-r and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: REALMS.ANS by Magius | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acid-l-r-realms-part01
 
 Write-Host '
 [1;30m[0m[1m[0m[1;30m[0m[1m[0m[1;30m[0m[1m[0m[1m[0m[1;30m[0m[1m[0;1;30m[0;1;37m[0m[1;37m   [0;1;33m▄▄▄▄▄▄▄▄[0m                                                          [1;33m▄▄▄▄▄▄▄▄[0m

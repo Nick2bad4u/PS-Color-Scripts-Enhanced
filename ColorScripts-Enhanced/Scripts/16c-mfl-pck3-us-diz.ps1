@@ -1,13 +1,4 @@
-﻿# Converted from: US!DIZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mfl_pck3/raw/US!DIZ.ANS
-# Source Revision: archive-sha256:f42142d9c16b6e6135cc0630a64feba2c7c0e924386b7077d738e709f4b74f43
-# Source SHA-256: c2a3d4e546aed07ca44242371a5e3433a103c25be869379aff07fbe72a0760b4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US!DIZ.ANS by Binar + Mist (mfl_pck3); released in mfl_pck3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: US!DIZ.ANS by Binar + Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mfl-pck3-us-diz
 
 Write-Host '
 [1m[0m

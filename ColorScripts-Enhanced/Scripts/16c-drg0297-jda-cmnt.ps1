@@ -1,19 +1,4 @@
-﻿# Converted from: JDA^CMNT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg0297/raw/JDA%5ECMNT.ANS
-# Source Revision: archive-sha256:398d54ab48baf03b2a76271be28600e820cb7f3c3af599e851a71ac0924fa8fd
-# Source SHA-256: 3fb527ef64e54eba10e8aa4555710c25d791587ab4c7758eb8ce340e083ae266
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JDA^CMNT.ANS by joda (deranged); released in drg0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: comment to sysop
-# SAUCE Author: joda
-# SAUCE Group: deranged
-# SAUCE Date: 19970119
-# SAUCE Dimensions: 80x15
-# SAUCE Comments: leet! | dontripdontripdontrip. got it?
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: comment to sysop by joda | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg0297-jda-cmnt
 
 Write-Host '
 [1;30m          [0m      [37m░░[0m                                             [1;30m           [0m

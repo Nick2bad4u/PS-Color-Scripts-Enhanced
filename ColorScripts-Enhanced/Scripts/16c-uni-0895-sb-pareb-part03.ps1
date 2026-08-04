@@ -1,18 +1,4 @@
-﻿# Converted from: SB-PAREB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0895/raw/SB-PAREB.ANS
-# Source Revision: archive-sha256:d7578eae73cd5d7b840a098302ec5eecc570498f801ff39620bcdfbd3bc36d42
-# Source SHA-256: 1782f0c36bc6526be9b820bb5d111c2afcca9c501873d7bea66382eae4e3e9ad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SB-PAREB.ANS by SpellBinder (Union); released in uni-0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: MD & H. Lecter's pACbELL
-# SAUCE Author: SpellBinder
-# SAUCE Group: Union
-# SAUCE Date: 19950714
-# SAUCE Dimensions: 80x25
-# Lines: 88-129
-# Columns: 1-80
+﻿# Artwork: MD & H. Lecter's pACbELL by SpellBinder | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0895-sb-pareb-part03
 
 Write-Host '
 [1m█[0m                                           [1m▄█▀[0m  ▄▄ ▀

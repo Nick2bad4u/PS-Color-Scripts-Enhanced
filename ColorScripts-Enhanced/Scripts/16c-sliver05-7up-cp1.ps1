@@ -1,18 +1,4 @@
-﻿# Converted from: 7UP-CP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sliver05/raw/7UP-CP1.ANS
-# Source Revision: archive-sha256:6e2cc64d3369490e79ab97d6818428e76b42d77e8d26ea9913e9d21a1c34ddf3
-# Source SHA-256: a6d5b9d8652c4b512bc8ff95b026db79040e983055621b6d5f1366b8b7c213bc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 7UP-CP1.ANS by tup (sliver); released in sliver05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: cess pool?
-# SAUCE Author: tup
-# SAUCE Group: sliver
-# SAUCE Date: 19970801
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: cess pool? by tup | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sliver05-7up-cp1
 
 Write-Host '
                                             ▄[1;30;47m▀[0;1;30;40m▀[0m

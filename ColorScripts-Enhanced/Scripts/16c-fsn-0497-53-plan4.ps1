@@ -1,18 +1,4 @@
-﻿# Converted from: 53-PLAN4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0497/raw/53-PLAN4.ANS
-# Source Revision: archive-sha256:0a24528ad1b8350dc6275ed84884990aa181682392c532082994d5872ceb5801
-# Source SHA-256: 35354841aa6ac610c9f6d5b2b1e68df55e7f5175657275cff7e16df01721d73e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 53-PLAN4.ANS by senile (ewchko-); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: planets
-# SAUCE Author: senile
-# SAUCE Group: ewchko-
-# SAUCE Date: 19970403
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: planets by senile | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0497-53-plan4
 
 Write-Host '
 

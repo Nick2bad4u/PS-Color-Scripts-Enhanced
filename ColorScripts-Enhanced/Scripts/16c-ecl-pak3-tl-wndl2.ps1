@@ -1,18 +1,4 @@
-﻿# Converted from: TL@WNDL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak3/raw/TL%40WNDL2.ANS
-# Source Revision: archive-sha256:cde4af7e840865f437fedba26bbfb806e858a9b477c723c01bd9d080434c75bd
-# Source SHA-256: 01a9f3cb94df9e5f13704b58b601e2c02b41270cf128ad4185064f7085318c80
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TL@WNDL2.ANS by timeless (ecolove); released in ecl-pak3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: made in doorway ( sq was watching )
-# SAUCE Author: timeless
-# SAUCE Group: ecolove
-# SAUCE Date: 19800418
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: made in doorway ( sq was watching ) by timeless | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak3-tl-wndl2
 
 Write-Host '
       [35m░[0;35;45m [0;35;40m██[0m      [35;40m░░ ▄▄▄▄▄▄▄▄▄ ███▄▄▄▄▄▄ ███▄▄▄▄▄  ███▄▄▄▄▄▄ █[0;1;35;45m▄[0;35m█▄▄▄▄▄░░[0m

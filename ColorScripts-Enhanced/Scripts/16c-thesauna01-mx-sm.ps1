@@ -1,19 +1,4 @@
-﻿# Converted from: mx-sm.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna01/raw/mx-sm.ans
-# Source Revision: archive-sha256:70f712dbf565de1ceb0f2b7020b54aa443621235a47b082b92e24e13342b0672
-# Source SHA-256: 6f9a664a3eee4c684cdd466ebc0f2301b96bba25d7aa307b2df432035e56c3f2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mx-sm.ans by mx (thesauna01); released in thesauna01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: smooth criminal
-# SAUCE Author: mx
-# SAUCE Date: 20190715
-# SAUCE Dimensions: 80x38
-# SAUCE Font: IBM VGA
-# SAUCE Comments: One with infinity for the smoothest out there - Smooth <FUEL> :D
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: smooth criminal by mx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna01-mx-sm
 
 Write-Host '
 

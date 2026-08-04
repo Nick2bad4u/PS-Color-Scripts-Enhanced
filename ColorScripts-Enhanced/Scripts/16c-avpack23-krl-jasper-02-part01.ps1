@@ -1,19 +1,4 @@
-﻿# Converted from: krl-jasper_02.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack23/raw/krl-jasper_02.ans
-# Source Revision: archive-sha256:4cb075969fd39c69f76e28ad3f6f8f84bc5947f80ea16c9bad568d6b0e16803d
-# Source SHA-256: 72470b2a8d6227b4eb7da89041fd7a4acee0b605f8e1fd71cdc96b949d61839e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: krl-jasper_02.ans by Krl (av); released in avpack23 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Apoc Vis
-# SAUCE Author: Krl
-# SAUCE Group: av
-# SAUCE Date: 20231122
-# SAUCE Dimensions: 80x130
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Apoc Vis by Krl | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack23-krl-jasper-02-part01
 
 Write-Host '
 

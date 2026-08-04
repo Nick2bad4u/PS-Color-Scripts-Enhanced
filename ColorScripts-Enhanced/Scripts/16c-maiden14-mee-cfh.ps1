@@ -1,18 +1,4 @@
-﻿# Converted from: MEE-CFH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden14/raw/MEE-CFH.ANS
-# Source Revision: archive-sha256:8484fc17833e455250727f80fdc56cc19e17aec4fba2f82e3b86585a9e08cb6c
-# Source SHA-256: c48414deb4c7478340fb0dcad52661ea5ecba9ac8aea98570e18269dd9b85d04
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MEE-CFH.ANS by mEENO (mAIDEN!!); released in maiden14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: YEAH MUH FUCKIN BOARD!!!
-# SAUCE Author: mEENO
-# SAUCE Group: mAIDEN!!
-# SAUCE Date: 19971213
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: YEAH MUH FUCKIN BOARD!!! by mEENO | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden14-mee-cfh
 
 Write-Host '
 [1;30m▄▄██[0;1;30;47m▓▓[0;1;30;40m██████████████[0;1;30;46m▓▓▓[0;1;30;40m█▀▌████████[0m▒▒[1;30m███████▌▀█[0m  [1;32m([0mmINO[1;32m)[0m  [1;30m█▌[0m █[1;47m▐▄▄▄▄▄▄▄▄██████████[0;1;37;47m█[0m

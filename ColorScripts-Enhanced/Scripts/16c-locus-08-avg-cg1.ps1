@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-CG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/locus-08/raw/AVG-CG1.ANS
-# Source Revision: archive-sha256:eb790a44f4898ec0d7ea4b8e4754397832c1823b5b2db7b7444fc80312388961
-# Source SHA-256: e0327b88b911f85d387492649e81cfbf9c156c90c72fdfe396d3944b0017174a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-CG1.ANS by the avenging angel (locus2001 ;)); released in locus-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: cryo rocks..
-# SAUCE Author: the avenging angel
-# SAUCE Group: locus2001 ;)
-# SAUCE Date: 19990313
-# SAUCE Dimensions: 80x44
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: cryo rocks.. by the avenging angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-locus-08-avg-cg1
 
 Write-Host '
 [30m[0m[30m[0m[30m[0m[30m[0m[30m[0m[30m[0m[30m[0m[30m[0m[30m[0m[30m[0m[30m            [0m      [36m▄[0;1;36m▄[0;36m▄[0m                   [30m          [0m   [30m          [0m   [30m          [0m

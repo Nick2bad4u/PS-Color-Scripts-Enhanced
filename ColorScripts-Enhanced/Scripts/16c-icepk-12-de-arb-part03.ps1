@@ -1,13 +1,4 @@
-﻿# Converted from: DE-ARB.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-12/raw/DE-ARB.ICE
-# Source Revision: archive-sha256:03ccb24bebad343fffc4daed3f054ccd0ca265066fb8b4feff7bb3f469aac14e
-# Source SHA-256: cae055c532bee5b6d35ecb1f8f45a227077f46522c01dfd2ff5c66c09d89eb6f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DE-ARB.ICE by Dreamevil (icepk-12); released in icepk-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 100-149
-# Columns: 1-80
+﻿# Artwork: DE-ARB.ICE by Dreamevil | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-12-de-arb-part03
 
 Write-Host '
 [33m▓███▀[0m     [1;37m▀   [0;34m▄░░░▒▓█[0;1;34;44m░▒[0m  [34m▀░▒▓[0;1;34;44m░[0m  [34m▀▓[0;1;34;44m░[0m [34m▀█ ▒▒▓[0;1;34;44m░▓[0;34m▀▀▄▓ ▄▄░▀▀ ▄▄▀ ▄▄░░▒▓   ▀▓▒░[0m      [34m▐[0m

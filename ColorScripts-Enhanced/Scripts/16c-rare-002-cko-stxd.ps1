@@ -1,18 +1,4 @@
-﻿# Converted from: CKO-STXD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-002/raw/CKO-STXD.ANS
-# Source Revision: archive-sha256:0a3a1ab211a696c0dde542e6c378313f7a0800dd36697e1287d0a21d1dc7f85f
-# Source SHA-256: 3307c8a95dff0007c6c64af257fcb5deaed658e14afa40d79883572c85d687f5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CKO-STXD.ANS by cuckoo (rare!ascii); released in rare-002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: san-tx diz
-# SAUCE Author: cuckoo
-# SAUCE Group: rare!ascii
-# SAUCE Date: 19980326
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: san-tx diz by cuckoo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-002-cko-stxd
 
 Write-Host '
                                    [1m  [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: DM-SUB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force18a/raw/DM-SUB.ANS
-# Source Revision: archive-sha256:6a0f397e3657e6d033b73af64211a87e0404e38c6a0f4de7a8637861ae197039
-# Source SHA-256: 02ec28a6f117e13fe5f2d0cc02b6d3b44df04cfe73b4c843eddb69d7eed4d28b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DM-SUB.ANS by dangermouse (force art); released in force18a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Subject to Change
-# SAUCE Author: dangermouse
-# SAUCE Group: force art
-# SAUCE Date: 19970606
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Subject to Change by dangermouse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force18a-dm-sub
 
 Write-Host '
 [30;47m██[0;35;40m▄▄▄▄▀[0;1;35;40m▀▀▀▄▄▄[0;35m▀▀[0;1;35m▀▀▀[0;35m▀[0;1;35m▀▀▀▀[0;35m ▀█[0;1;35;45m░░[0;35m█[0;1;35;45m░[0;35m▓▓█▄▄[0;37m▄▄█[0m   [1;30m▀[0m      [1m ░[0m      █[1;47m▓▀▀[0;1;30;47m [0;1;30;40m     ██████[0m   [1;30m ▓▓ [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: JAG-TRR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-03/raw/JAG-TRR1.ANS
-# Source Revision: archive-sha256:6fde2a1886d2785cabbb7cd016b067488338380d986864d14f4373e994413062
-# Source SHA-256: 4573900b9b3857deb988fb32868b3529af7b59bd72a7952b6ab1bccb65e08d51
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JAG-TRR1.ANS by Jaguar (purg-03); released in purg-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: JAG-TRR1.ANS by Jaguar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-03-jag-trr1
 
 Write-Host '
         [31m  ▄ [0m

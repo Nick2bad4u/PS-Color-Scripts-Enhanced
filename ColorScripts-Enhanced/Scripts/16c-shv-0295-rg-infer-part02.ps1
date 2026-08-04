@@ -1,18 +1,4 @@
-﻿# Converted from: RG-INFER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shv-0295/raw/RG-INFER.ANS
-# Source Revision: archive-sha256:9d87841a969641f3687626cd13b6790a559a95e50b706cdd85134df3ba6b3667
-# Source SHA-256: fb1543cf1367b762e224c95ddc09b6a6abd8a37047a32cd775747d3401ffbe70
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RG-INFER.ANS by Rimgale (Shiver); released in shv-0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Inferno
-# SAUCE Author: Rimgale
-# SAUCE Group: Shiver
-# SAUCE Date: 19950123
-# SAUCE Dimensions: 80x25
-# Lines: 47-81
-# Columns: 1-80
+﻿# Artwork: Inferno by Rimgale | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shv-0295-rg-infer-part02
 
 Write-Host '
 [36m  [0;1;30m▐[0m████[1;30;47m░[0m▌                      ▀[30;47m■▀░[0;37;40m█[0;30;47m■▄[0;1;30;47m░[0;30;47m░▌[0;37;40m▌[0m                  [37;40m█[0;1;30;47m░[0m███[1;30;47m░[0;1;30;40m▓ [0;36m▓▀▀[0m

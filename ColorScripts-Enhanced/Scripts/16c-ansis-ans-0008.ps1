@@ -1,13 +1,4 @@
-﻿# Converted from: ANS-0008.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis/raw/ANS-0008.ANS
-# Source Revision: archive-sha256:cabd7c46b38b213194457f50f766681b723f86902e0b5d87c41548c28c231d67
-# Source SHA-256: 0dad548f9fdcb994219c238740f20110504834c98d9f8b873c6147b4c6ebfbc7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ANS-0008.ANS by Mark Stein (ansis); released in ansis and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: ANS-0008.ANS by Mark Stein | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-ans-0008
 
 Write-Host '
 [37;40m      [0;1;5;36;40m*[0;37;40m            [0;33;40m│[0;37;40m      [0;33;40m│[0;37;40m                                                     [0m

@@ -1,16 +1,4 @@
-﻿# Converted from: PZK-CLD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/arla0196/raw/PZK-CLD.ANS
-# Source Revision: archive-sha256:8a35d2bb39c2faca15c1fb2bebf77416e369d3cea398837e490885a2a237f536
-# Source SHA-256: dbf41d9506520dcb85d537591fa8bcb26be416f4510b1dddee0f7a97855e2a67
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PZK-CLD.ANS by pzyko (aRla); released in arla0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: cloudcity
-# SAUCE Author: pzyko
-# SAUCE Group: aRla
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: cloudcity by pzyko | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-arla0196-pzk-cld
 
 Write-Host '
                                                          [1;33m▄[0m    [1;33m▄▓▄[0m [1;33m ▓▄ [0m    [1;33m▄▓ [0m

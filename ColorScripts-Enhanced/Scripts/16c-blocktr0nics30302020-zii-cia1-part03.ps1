@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-CIA1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktr0nics30302020/raw/ZII-CIA1.ans
-# Source Revision: archive-sha256:9a86a13b1ff7cef4b57ed39c1aca190028df54b44bffe10202b539bef3cd3dcc
-# Source SHA-256: 92610ae41acd58d58d9fb4c0729062fb49e24033a7fba29b7b88a4a823442701
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-CIA1.ans by Zeus II (Blocktronics); released in blocktr0nics30302020 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: CiA Tribute
-# SAUCE Author: Zeus II
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20200119
-# SAUCE Dimensions: 80x125
-# SAUCE Font: IBM VGA
-# Lines: 74-109
-# Columns: 1-80
+﻿# Artwork: CiA Tribute by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktr0nics30302020-zii-cia1-part03
 
 Write-Host '
  [36m▄▄██[0;36;43m▌▐[0;36;40m▌[0;37;40m [0;1;37;40m▐███████▓[0m█[1;33m  [0;1;30m▄[0;33m ▀█[0;1;30m █▄  [0;31m▐[0;33m ░  [0;31m▌[0;35m▄ ▄▄▀[0;33m [0;1;30m▐[0;1;30;43m▒[0;1;31;43m░[0;1;31;40m █[0;33m█[0;1;31m▄██▄███████▀██[0;1;31;43m█▓[0;33m█[0;37m [0;1;37;47m░[0m█[1;33m [0m▌[1m▐███[0;1;47m▓▓[0;1;40m▌[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-BLUF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0197/raw/OUT-BLUF.ANS
-# Source Revision: archive-sha256:cd3236e0655bee5ba400dd6252ba2ee923995041f95ca558186d016b62049b9d
-# Source SHA-256: 638f3ab26dc6a4ad0ffa721875987ee26dac1fc476f99eb9d2fc0b5abb52a13b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-BLUF.ANS by Sandy Chidester (out-0197); released in out-0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: OUT-BLUF.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0197-out-bluf
 
 Write-Host '
       [33m░░▒▓░▓ █[0m                        [34m▀▄  ░[0;1;5;34;44m▓[0m   [34m▀▄[0m                            [5;34m▀[0m

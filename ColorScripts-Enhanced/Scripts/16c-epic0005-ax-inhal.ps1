@@ -1,18 +1,4 @@
-﻿# Converted from: ax_inhal.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/epic0005/raw/ax_inhal.ans
-# Source Revision: archive-sha256:e098312bed80469568d0a183adba6ccb17d24993089a96a47d7be876360a2283
-# Source SHA-256: 541d705bc8b4b0ecd275d76317269d79a669f09c26ed58a9fa21233b1b966d00
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ax_inhal.ans by alla xul (epic); released in epic0005 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: inhale
-# SAUCE Author: alla xul
-# SAUCE Group: epic
-# SAUCE Date: 20000118
-# SAUCE Dimensions: 80x40
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: inhale by alla xul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-epic0005-ax-inhal
 
 Write-Host '
                         [35m■■▄▄▄▄[0m                        [34m▀■■▀ [0;37m  [0m         [34m▄▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: NZ-AO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/void0893/raw/NZ-AO1.ANS
-# Source Revision: archive-sha256:455e77003f05e7419efd4a66be467938a5e8e3fcfd5003638f11c38ef6dc8e2d
-# Source SHA-256: 7bf2e399ce61d0e7ea06c1d498880e0920855877835d095f9b9dd5a09a3afe6b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NZ-AO1.ANS by Nailz (void0893); released in void0893 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 27-52
-# Columns: 1-80
+﻿# Artwork: NZ-AO1.ANS by Nailz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-void0893-nz-ao1-part02
 
 Write-Host '
 [31m [0;1;30m▓[0m              [1;31m███████▀[0;1;30m▄▀▄▀▄ ▀▄ ▄▀▄▀ ▄ [0;31m▀[0;1;31;41m▀▀[0;1;31m████████[0;1;31;41m█▓▒░[0;31m███[0m

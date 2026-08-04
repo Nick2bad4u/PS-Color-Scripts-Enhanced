@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-C#9B.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/buttz01/raw/ZII-C%239B.ANS
-# Source Revision: archive-sha256:f4e347ac1e32829287f7c9cd3dc2f74ed0856c453a34f9a477dc3eb22a6b3da5
-# Source SHA-256: 3795e1f8c66d2c4ae52a87c3cc8009dfe9f6908ca17e8afd5794b5608b83ec6d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-C#9B.ANS by Zeus II (buttraiderz); released in buttz01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: cloud#9
-# SAUCE Author: Zeus II
-# SAUCE Group: buttraiderz
-# SAUCE Date: 20001001
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: cloud#9 by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-buttz01-zii-c-9b
 
 Write-Host '
 

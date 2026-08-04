@@ -1,13 +1,4 @@
-﻿# Converted from: WAR-SI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_9612/raw/WAR-SI.ANS
-# Source Revision: archive-sha256:535386efaf0832a92df8cd43b1e1ec9e549c82ba4ee576a67c0fa93e7a363fe1
-# Source SHA-256: 664ef1d8ae018818887b6a88c57923782016914f1c10659d93769b4cdc09183d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WAR-SI.ANS by War (dox_9612); released in dox_9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: WAR-SI.ANS by War | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-9612-war-si
 
 Write-Host '
 ▄[1;47m░░[0m██[1;30;47m░░░░░░▒▒▒▒▓▓▓▓▓▒▒░░░░░[0m██[1;47m░░▒▓▒░[0;1;30;47m░░░░▒▒▒[0m▀▀▀▀▀[1;30;47m▄▒▒▒░░░░░░░[0m██[1;47m [0m██[1;47m░░▒▒░░░▒▓▒░[0m█[1;30;47m░░░▒[0m▄

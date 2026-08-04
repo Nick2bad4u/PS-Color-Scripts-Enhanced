@@ -1,13 +1,4 @@
-﻿# Converted from: MST!END.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-22/raw/MST!END.ANS
-# Source Revision: archive-sha256:16aa2f98eae3bd2cb4059b97f89789b4644f7ff4634a1175c89967184c88c518
-# Source SHA-256: d47feeee42b3752cea57b4ea93ff77f5f48f1c3badcdbc5d7751175f23905f64
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MST!END.ANS by Mist (sclr-22); released in sclr-22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: MST!END.ANS by Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-22-mst-end
 
 Write-Host '
 [1;31;41m▓▓▓▓[0;1;31;40m██[0;1;31;45m▓▓▓[0;1;31;40m▀▀▀▀████████████[0;1;31;41m▓[0;1;31;40m█[0;1;31;41m▓▓▒▓▒▒░░░▒▒▓[0;1;31;45m▓[0;1;31;41m▓▓[0;1;31;45m▓[0;1;31;41m▓[0;1;31;45m▓▓▓▓▓[0;1;31;40m█[0;1;31;45m▓▓▓[0;1;31;40m█[0;1;31;45m▓▓[0;1;31;40m█[0;1;31;45m▓[0;1;31;40m██████████████████[0;1;31;45m▓▓[0m

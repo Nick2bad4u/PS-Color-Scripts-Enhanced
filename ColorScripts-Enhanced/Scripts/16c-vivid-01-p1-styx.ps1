@@ -1,13 +1,4 @@
-﻿# Converted from: P1-STYX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vivid-01/raw/P1-STYX.ANS
-# Source Revision: archive-sha256:8e5f834ead72715c7088bdee61babf114a06cd1addc7c343b5723ba453e61731
-# Source SHA-256: 0f6e42a4792737edf3222275fcbcc652dcd05eab9d04cbb9aa34b42452d11635
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P1-STYX.ANS by Paranormal Intensity (vivid-01); released in vivid-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: P1-STYX.ANS by Paranormal Intensity | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vivid-01-p1-styx
 
 Write-Host '
 [1;30m.p1.vvd[0m                                             [33m▄[0m

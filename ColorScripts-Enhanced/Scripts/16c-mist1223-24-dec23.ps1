@@ -1,20 +1,4 @@
-﻿# Converted from: 24_DEC23.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1223/raw/24_DEC23.ANS
-# Source Revision: archive-sha256:86d02e5103ccb7950792473f0c3e4ca18e595c9011c06df5ce1fe1692dbd9f5a
-# Source SHA-256: e65d09837f3ed010d5f6c3aac1d22c9f794f6389bbe57b9a8e1d7bdcf0cfdf89
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 24_DEC23.ANS by The Green Herring (N/A); released in mist1223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Lighting the Way
-# SAUCE Author: The Green Herring
-# SAUCE Group: N/A
-# SAUCE Date: 20231120
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Made for AndyH's 2023 advent calendar project.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Lighting the Way by The Green Herring | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1223-24-dec23
 
 Write-Host '
 ████▓▓▓▒▒▒░░ [1m☼   [0;1;30m░░░▒▒░▒▒▒░[0m          [1;30m░[0m░░░░▒░ [1m☼ [0;1;30m░░░░░░░░░    [0;1;37m∙ [0;1;30m░░░░░▒▒▒▒▒▒▒▒░▒▒▓▓[0m

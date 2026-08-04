@@ -1,13 +1,4 @@
-﻿# Converted from: STC-PMT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pmt-0195/raw/STC-PMT1.ANS
-# Source Revision: archive-sha256:d6215aa308b0d4ab5fe1a9b87f61f0bf2cdd5e52aa3f7bb6750bb83ea7fd64fb
-# Source SHA-256: a8bbd4bce83d6ca061511671189a42a8fba7406f7e321d84613a28d134e2ace0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STC-PMT1.ANS by Stone The Crow (pmt-0195); released in pmt-0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 45-70
-# Columns: 1-80
+﻿# Artwork: STC-PMT1.ANS by Stone The Crow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pmt-0195-stc-pmt1-part02
 
 Write-Host '
  [1;30m                   m o n s t e r   t i t t i e s   r o c k[0m

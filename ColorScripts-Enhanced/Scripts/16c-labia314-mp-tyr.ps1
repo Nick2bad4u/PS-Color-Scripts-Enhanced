@@ -1,13 +1,4 @@
-﻿# Converted from: mp-tyr.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/labia314/raw/mp-tyr.ans
-# Source Revision: archive-sha256:704095869b71d0834bb8c83d90c0dddc7803f8a47b5046986cc14c14a7864134
-# Source SHA-256: 2514bc78adf4c41e4cfc2d0184b6b51df7a51e247754035a03577a4b3ac90388
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mp-tyr.ans by Meatpod (labia314); released in labia314 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: mp-tyr.ans by Meatpod | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-labia314-mp-tyr
 
 Write-Host '
 [1m [0m___________[1;32m [0m [32myyy.[0;1;34m [0m __[1;34m   [0;34m     [0;1;34m  [0m                      [1m [0m .,,,._

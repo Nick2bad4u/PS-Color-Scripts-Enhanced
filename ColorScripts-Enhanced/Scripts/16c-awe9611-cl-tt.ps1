@@ -1,18 +1,4 @@
-﻿# Converted from: CL-TT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9611/raw/CL-TT.ANS
-# Source Revision: archive-sha256:2b73e149488dc761d99422832825743596588d59e58f9bfecfb5d0e9dbffd274
-# Source SHA-256: 8464ea0c412e7b037d4d0ff4144e2d1c26a5a8b07ef9033048760fcc722492a5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL-TT.ANS by Colourless (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Termite Terrace
-# SAUCE Author: Colourless
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961028
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Termite Terrace by Colourless | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9611-cl-tt
 
 Write-Host '
                            ▐▄▄

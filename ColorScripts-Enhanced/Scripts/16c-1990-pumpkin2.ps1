@@ -1,13 +1,4 @@
-﻿# Converted from: PUMPKIN2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1990/raw/PUMPKIN2.ANS
-# Source Revision: archive-sha256:08ccf16537b7ec6a49d988d666ab246efafa48facbb3ef7beef1662a9cba1cc2
-# Source SHA-256: 329e4acd2f0ec7b99b208e13c8b23c74ecbe0fb0561f87bc9defdb7cafec6bca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PUMPKIN2.ANS by Lr (1990); released in 1990 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: PUMPKIN2.ANS by Lr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1990-pumpkin2
 
 Write-Host '
  [30;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m [1;32;40m▄▄[0m [30;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

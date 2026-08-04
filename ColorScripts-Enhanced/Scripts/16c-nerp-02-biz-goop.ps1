@@ -1,18 +1,4 @@
-﻿# Converted from: BIZ-GOOP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-02/raw/BIZ-GOOP.ANS
-# Source Revision: archive-sha256:3fd9f194d865cfc24c90bdf11a27528d8d82a8ba9c376ebed567183a2f95a9f3
-# Source SHA-256: 4e216f937e972b0036dcfcfbb5c44d8cc1c81d07c2ff962c4ed8d5b1b5d7313a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BIZ-GOOP.ANS by bizzarro (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: goop
-# SAUCE Author: bizzarro
-# SAUCE Group: nerp
-# SAUCE Date: 19971102
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: goop by bizzarro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-02-biz-goop
 
 Write-Host '
 [34m   [0m    [35m▌[0;37m  [0;31m [0;37m [0;35m░[0;30;45m▓[0;37;40m  [0;35;40m [0;37;40m [0;30;41m▓[0;37;40m  [0;31;40m░[0;30;41m▓[0;31;40m░░░ [0m

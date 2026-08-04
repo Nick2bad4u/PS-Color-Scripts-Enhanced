@@ -1,13 +1,4 @@
-﻿# Converted from: TS-DIE#6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/die-pk4/raw/TS-DIE%236.ANS
-# Source Revision: archive-sha256:a1674cbdd9a90de0b98d1fa61ccee38a69de2149be7ae847b0d725df8beedd0e
-# Source SHA-256: f69489dea9ef5cb75c4134d484d0c109e09b56dc9264fa04daf15c3c5f7eafc3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-DIE#6.ANS by The Shamen (die-pk4); released in die-pk4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-93
-# Columns: 1-80
+﻿# Artwork: TS-DIE#6.ANS by The Shamen | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-die-pk4-ts-die-6-part02
 
 Write-Host '
 [31m  ▒[0m                      [1;30;47m▒▓▓[0m      [1;30;47m░▒▓[0m     [1;30;47m▓░░[0m      [1;30;47m▓▓▒[0m                [31m█    ░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: CU-SPHER.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9604a/raw/CU-SPHER.ICE
-# Source Revision: archive-sha256:a8f8a3430f1223583f5ba829d23fcb523e4712909ac7211db98ebd0249624ef2
-# Source SHA-256: d896324699ba0e4cc980aecdfb82683f7de3e4984cf8afeb20530d5341480e5e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CU-SPHER.ICE by Cold and Ugly (iCE); released in ice9604a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Sphere
-# SAUCE Author: Cold and Ugly
-# SAUCE Group: iCE
-# SAUCE Date: 19960401
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: The Sphere by Cold and Ugly | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9604a-cu-spher
 
 Write-Host '
                   [34m                                     [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MAY-VM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/soc-03/raw/MAY-VM.ANS
-# Source Revision: archive-sha256:c175c8aa82a245be223e06eb9027824f56ef8c78bd414a0bcb9ec65fd6e66549
-# Source SHA-256: 78cdbd376a63aa8d92753097cc64bb81e2b4221ac2f291a90900989a62f941af
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MAY-VM.ANS by maytag man (society/camp ecc); released in soc-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: vim promo (i cant even read it)
-# SAUCE Author: maytag man
-# SAUCE Group: society/camp ecc
-# SAUCE Date: 19971010
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: vim promo (i cant even read it) by maytag man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-soc-03-may-vm
 
 Write-Host '
 [1;32m█[0;1;32;42m▀[0;32m▀[0;37m  [0;32m▀[0;1;32;42m▀[0;1;32;40m██[0;1;32;42m▓▓▀[0;1;32;40m▀[0;32m▀[0;37m  [0;1;32m░░[0m         [36m▀[0;1;36;46m▀[0;1;36;40m██[0;1;35;46m▒▒[0;1;36;40m█▀▀▀▀▀▀▀▀██[0m [1m▒▒▒▒▒▒▒▒▒▒[0m▀▀▀▀[1;33m▄[0;31m▄▄▄▄██▀██▓░[0m      [31m░░[0m

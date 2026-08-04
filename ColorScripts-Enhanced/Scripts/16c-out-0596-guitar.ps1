@@ -1,13 +1,4 @@
-﻿# Converted from: GUITAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0596/raw/GUITAR.ANS
-# Source Revision: archive-sha256:9990400a12de5e1b1df670afe52d9a916d94d6fea04a9b32c4014cf2f9c8ea1b
-# Source SHA-256: cf2c28c0743ee530eabb6193e507846aca00a6d71ab0463bfe77f06b78fdc0c9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GUITAR.ANS by Sandy Chidester (out-0596); released in out-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: GUITAR.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0596-guitar
 
 Write-Host '
              [31m▄██[0m       [1;30m║[0m                       ■[1;30m▄[0m       [33m▐[0;1;37m║[0m║[1m║[0;33m▌[0m

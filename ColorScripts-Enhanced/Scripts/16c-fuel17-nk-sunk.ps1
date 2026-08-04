@@ -1,18 +1,4 @@
-﻿# Converted from: NK-SUNK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel17/raw/NK-SUNK.ANS
-# Source Revision: archive-sha256:6bb17dad2b087feff514e10d76b337034c943aff1fa5007d50b103cb34f90d66
-# Source SHA-256: af8d6e8686fd237a6e349ab2234fdd8ffa72d0b79926bf7ff1bea2a308fe3e10
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NK-SUNK.ANS by novokane (fuel productions); released in fuel17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: spunk'crized?????
-# SAUCE Author: novokane
-# SAUCE Group: fuel productions
-# SAUCE Date: 19971001
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: spunk'crized????? by novokane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel17-nk-sunk
 
 Write-Host '
 

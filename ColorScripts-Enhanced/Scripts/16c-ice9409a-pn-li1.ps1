@@ -1,18 +1,4 @@
-﻿# Converted from: PN-LI1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9409a/raw/PN-LI1.ICE
-# Source Revision: archive-sha256:a92227369d28f50cbc2bfd487ba80600635ab872d2f29d81a7af3d04a31fd498
-# Source SHA-256: 53b4a8fe5fdab908aeed9a46811fb6cd3ba81ff9d305a83a2e7b0e3ef5e88fe8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PN-LI1.ICE by Pnakotic (iCE); released in ice9409a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Lost Innocence
-# SAUCE Author: Pnakotic
-# SAUCE Group: iCE
-# SAUCE Date: 19940929
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: Lost Innocence by Pnakotic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9409a-pn-li1
 
 Write-Host '
 [1;35;45m▒[0;1;35;40m▀[0;35m▀▀▀ ▀   ▀[0m                    [31m░[0m                  [37m▄[0m                 [35m▀  [0;37m▄[0;35m▀ ▀▀▀[0;1;35m▀[0;1;35;45m▒[0m

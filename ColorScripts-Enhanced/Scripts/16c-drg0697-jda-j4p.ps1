@@ -1,18 +1,4 @@
-﻿# Converted from: JDA-J4P!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg0697/raw/JDA-J4P!.ANS
-# Source Revision: archive-sha256:680b16d137638190eae45c3c61ec0a07880ed6f3bbd5387d78ba0c5c22b4bc71
-# Source SHA-256: 1cadaedcbeffd812a703512ad5de489c1f495e2887b96354cced656a6ea61c0f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JDA-J4P!.ANS by Joda (ddRANGdD); released in drg0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: just4phun menu.
-# SAUCE Author: Joda
-# SAUCE Group: ddRANGdD
-# SAUCE Date: 19970613
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: just4phun menu. by Joda | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg0697-jda-j4p
 
 Write-Host '
                     [30;42m▓[0;32;40m░[0;30;42m▓[0m          [1;35;40m       [0;1;35;45m [0;1;35;40m [0;35m [0;1;35m  [0m

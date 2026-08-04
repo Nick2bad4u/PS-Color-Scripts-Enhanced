@@ -1,18 +1,4 @@
-﻿# Converted from: PR-SYRUP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-0197/raw/PR-SYRUP.ANS
-# Source Revision: archive-sha256:08e3420d6f5bf039e22601d044f43006678a0458956ba31375be1cbab8367813
-# Source SHA-256: 1489cae70daa7beec5b7ffebccc90a0a7743ea0caca1da4a7a7127e709266875
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR-SYRUP.ANS by Primal Rage (Axf/Xeed); released in axf-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Syrup Logo
-# SAUCE Author: Primal Rage
-# SAUCE Group: Axf/Xeed
-# SAUCE Date: 19961226
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Syrup Logo by Primal Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-0197-pr-syrup
 
 Write-Host '
  [1;34m▄[0;1;34;44m▓[0;1;34;40m██▀▀▀▀▀[0;35m [0;1;31m████[0;35m [0;1;33m▄[0;1;33;43m▓[0;1;33;40m██▀██[0;1;33;43m▓[0;1;33;40m▄[0;35m [0;1;36m▀▀▀▀▀▀▀▀▀▀[0;1;36;46m██▓[0;1;36;40m▄[0m

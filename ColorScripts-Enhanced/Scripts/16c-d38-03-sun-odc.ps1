@@ -1,18 +1,4 @@
-﻿# Converted from: SUN^ODC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-03/raw/SUN%5EODC.ANS
-# Source Revision: archive-sha256:782ccbab81c9098e3c3d5b5d2d3703deba2cd08c356aa583e9b292783b136ef2
-# Source SHA-256: 4a7fbdef86532a7eb9cbbd586b9e2b6c0670c71f797f1f95ae65e7db2011af4b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SUN^ODC.ANS by Sunder (Department 38); released in d38-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 'Ol Dirty Couriers (c)
-# SAUCE Author: Sunder
-# SAUCE Group: Department 38
-# SAUCE Date: 19970212
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: 'Ol Dirty Couriers (c) by Sunder | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-03-sun-odc
 
 Write-Host '
                                           [1;30m ·[0m    [1;30m▄[0m▄▄[1;30m [0m

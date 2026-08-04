@@ -1,18 +1,4 @@
-﻿# Converted from: XS-OXBLD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amb-0001/raw/XS-OXBLD.ANS
-# Source Revision: archive-sha256:50117a0363f47a3201dbded78dece5a7d943bf5ee978c9adb3f23e48040c9989
-# Source SHA-256: 5ebaa6f1627855d3011f00025d55d11c4a7c28bf8dd06ebdeff6fb0ac952761a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XS-OXBLD.ANS by Excess (AMBUSH); released in amb-0001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: OX Blood - Main Menu
-# SAUCE Author: Excess
-# SAUCE Group: AMBUSH
-# SAUCE Date: 19960716
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: OX Blood - Main Menu by Excess | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amb-0001-xs-oxbld
 
 Write-Host '
 [1;30m          [0m              [36m ▄▄[0;1;36;46m▒▓▓[0;36m▄ [0m      [36m▄▄[0;1;36;46m▒▓▓[0;36m▄[0m                 [1;30m [0m       [36m▄[0;1;36;46m▓▓▒[0;36m▄▄[0m

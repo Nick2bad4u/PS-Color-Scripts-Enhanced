@@ -1,13 +1,4 @@
-﻿# Converted from: ZK-M1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m1-9606/raw/ZK-M1.ANS
-# Source Revision: archive-sha256:02ee6e1efe94091b000022e5fa12c9d580c2978cc2a61fe4fe9f470e1e8f5598
-# Source SHA-256: 608e156707b4a4fe686af8a71a76393b7d38ab02d8cabc4f24cd33dd07a59750
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZK-M1.ANS by Zulu King (m1-9606); released in m1-9606 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: ZK-M1.ANS by Zulu King | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m1-9606-zk-m1
 
 Write-Host '
     [31m▀ ▄[0m              [31m▄█▀▀▌▄    ▀▄▄ ▌    ▀  ▄  ▄▌ ▄▄▀█    █▄[0m     [31m█  ▄[0m

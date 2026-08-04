@@ -1,18 +1,4 @@
-﻿# Converted from: IC-HUMA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bleach03/raw/IC-HUMA.ANS
-# Source Revision: archive-sha256:2471cba47980d4022f27bc73f398c09351ab77507350614fd18a7c618c726caa
-# Source SHA-256: 7b64bbb03be93380c9a451d6267cc3e4a34c57b0bfbe5074bccdb7e309ae87e6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IC-HUMA.ANS by iNNER CHAOS (bleach); released in bleach03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Huma logo/ansi
-# SAUCE Author: iNNER CHAOS
-# SAUCE Group: bleach
-# SAUCE Date: 19950613
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Huma logo/ansi by iNNER CHAOS | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bleach03-ic-huma
 
 Write-Host '
 [34m███████▄[0;37m■▄▄[0;34m▀███▄[0;37m■▄▄[0;34m▀█████████[0;37m■▄▄[0;34m▀███▄[0;37m■▄▄[0;34m▀███████████████████████████████████████[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: XU-DWZ1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hr09-94/raw/XU-DWZ1.ANS
-# Source Revision: archive-sha256:19d6752273acd7579a76c32f15e06f7621728c1186bfdc8fc8606549db459301
-# Source SHA-256: 136b8ee88093b19f5e2efc7bbf798b3540c29cc74b5ce7be272d571ce645260a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XU-DWZ1.ANS by Xanadu (hr09-94); released in hr09-94 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: XU-DWZ1.ANS by Xanadu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hr09-94-xu-dwz1-part01
 
 Write-Host '
 [1m [0;1;42m                                                                              [0m

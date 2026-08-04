@@ -1,17 +1,4 @@
-﻿# Converted from: SPH_KTR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise07/raw/SPH_KTR.ANS
-# Source Revision: archive-sha256:e9fb6933d41a936134d4f2611eadee07355a10c1a02cff6221e1c572c3d24d6d
-# Source SHA-256: 0bb40f5d914b98d1d404611e6ec0da4634bff76bdd93f358fa1524e5d94cad39
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPH_KTR.ANS by sephiroth (uprise07); released in uprise07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: k3374r
-# SAUCE Author: sephiroth
-# SAUCE Date: 19980827
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: k3374r by sephiroth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise07-sph-ktr
 
 Write-Host '
 [34m    ▄[0;1;34;44m░[0;34m▌▄[0;1;34;44m░░░[0;34m▄▌▄█████▀[0;30;47m█[0;1;31;40m▄█▀▄█[0;1;31;43m█[0;33m▌[0;1;31m▀▄▄[0;1;31;43m▄█[0;33m▌[0;1;31;43m▌[0;33m▄▄[0;1;31m▀▀[0;1;31;43m████▄[0;33m▄▄▀██▀▄[0;30;47m█[0;34;40m▀▀███████▄▄▄[0;37;40m  [0;34;40m▄█[0;1;34;44m░░░░[0;34m▄▄      [0m

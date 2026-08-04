@@ -1,18 +1,4 @@
-﻿# Converted from: PL-NASAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rune0896/raw/PL-NASAL.ANS
-# Source Revision: archive-sha256:a41a6fd18e5a57ea19659d03cc5ff527cec9b4701f346aaff2f3d3658fc2ad09
-# Source SHA-256: eb78cbbdef8692e124b4061ac6f2b725f3211bd156accdfcc11697bc03d1f54a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PL-NASAL.ANS by phlux (rUne^96); released in rune0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: nasal malfunction
-# SAUCE Author: phlux
-# SAUCE Group: rUne^96
-# SAUCE Date: 19960707
-# SAUCE Dimensions: 80x18
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: nasal malfunction by phlux | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rune0896-pl-nasal
 
 Write-Host '
 [35m[0m                                                 [1;30m░[0m

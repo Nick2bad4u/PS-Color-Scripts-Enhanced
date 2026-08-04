@@ -1,18 +1,4 @@
-﻿# Converted from: US-CARN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-20/raw/US-CARN1.ANS
-# Source Revision: archive-sha256:23bbf66596e3e4f3c4b9e335dc62ccc331634eba04c3d179b73e396fa3971807
-# Source SHA-256: 867b16d30a6772cd0f00026e74347b1d2867171a8211fa421aba3e83cf7e9d09
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CARN1.ANS by Chronix + Dissonance (AWE Lettering); released in awe-20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Carnage Promotional
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981204
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Carnage Promotional by Chronix + Dissonance | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-20-us-carn1
 
 Write-Host '
 [32m▄  ▀[0;1;32m▀[0;1;32;42m▀[0;1;32;40m▓▓[0;32m▄  ▀[0;1;32;42m▀▓▄[0;1;32;40m▄[0;32m▄▀[0;1;32m▀[0;1;32;42m▀█[0;1;32;40m▀[0;32m▀ ▀ ▄[0;1;32m▄[0;1;37;42m▄█[0;1;32;42m█[0;1;37;40m▀[0;1;32;40m▀[0;32m▀[0;37m [0;1;32m▀[0;32m▀[0;37m  [0;32m▀[0;37m [0;1;30m▄[0m   [1;30m▄[0;32m▀[0;1;32m▓[0;1;37m▓[0;1;32;42m▀[0;1;32;40m▀[0;32m▀▀[0;1;32m▀[0;1;37m▀[0;1;37;42m▀[0;1;37;40m█[0;1;37;42m▀[0;1;32;40m▀[0;32m▀ [0;37m [0;1;32m▀[0;32m▀[0;37m [0;32m▀[0m   [32m▄[0;1;32;42m▄[0;1;32;40m▓[0;1;37;40m█[0;1;32;42m▀[0m [1m░[0m

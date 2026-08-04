@@ -1,17 +1,4 @@
-﻿# Converted from: DRM-PN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nrg-art1/raw/DRM-PN.ANS
-# Source Revision: archive-sha256:79dfa0b816968c81bc0f0162a4bb921d917ef228650d49a4b3990f25f5de781a
-# Source SHA-256: e35a1b7174beeb0f16ab2c94c71d6b1e73bb387c5d4c06fdc4057a461038eaca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DRM-PN.ANS by Dr. Dream (NRG art dep.); released in nrg-art1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: Dr. Dream
-# SAUCE Group: NRG art dep.
-# SAUCE Date: 19990219
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: DRM-PN.ANS by Dr. Dream | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nrg-art1-drm-pn
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: DZ-FLXMN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira9807/raw/DZ-FLXMN.ANS
-# Source Revision: archive-sha256:c471c4d36ee5bf845811666c0e7a6f5bfba6ac001a5bbd5053c14dd8e5728ef2
-# Source SHA-256: 76e8c535628b6f4f0e62b2a3ae16944f0c60ac2a27b0e520305c4d0f0c6846d3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DZ-FLXMN.ANS by dionyzos (irato); released in ira9807 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fiat lux's main screen
-# SAUCE Author: dionyzos
-# SAUCE Group: irato
-# SAUCE Date: 19980619
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: fiat lux's main screen by dionyzos | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira9807-dz-flxmn
 
 Write-Host '
 [34m▄[0;1;34;44m▄░[0m [35m▄▄[0;1;35;45m▓▒░[0;35m▀▀[0m          [35m▀▀▀[0;1;35;45m░[0;35m█▄[0m   [34m▀▀[0;1;34;44m▒▓░▓▒░░ ░░ ░░░▒▒▒▒▓▓▓▓▓▒▒▒▒░░░░░  ■▓▓░░ ░▓▓░▓▓░[0;34m▄[0m

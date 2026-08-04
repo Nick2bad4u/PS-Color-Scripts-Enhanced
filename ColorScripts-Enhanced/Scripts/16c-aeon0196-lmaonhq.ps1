@@ -1,13 +1,4 @@
-﻿# Converted from: LMAONHQ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aeon0196/raw/LMAONHQ.ANS
-# Source Revision: archive-sha256:9e935a3f1a0af071af39ef1e6040e82687f7f35e199404521457c0b02c93f5c1
-# Source SHA-256: 71899aba4f8b6592328615ce7a521e8e69a27c33ce8b984505a0dd383411b4dd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LMAONHQ.ANS by Lord Magnus (aeon0196); released in aeon0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: LMAONHQ.ANS by Lord Magnus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aeon0196-lmaonhq
 
 Write-Host '
                            [1;34m [0m     [1;34m ,yy[0;34myyy,.[0m

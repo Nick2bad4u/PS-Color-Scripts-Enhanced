@@ -1,13 +1,4 @@
-﻿# Converted from: NE-ASYL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-n/raw/NE-ASYL.ANS
-# Source Revision: archive-sha256:c71a317bef22d5118244ba95f552871899d98097e115e94b35d9631800ce0aa2
-# Source SHA-256: e2f62be25e1b61ad0f38f8c017c5690b1bece4b5be619eddb009c55073ac9ecb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NE-ASYL.ANS by Nemesis (ansis-n); released in ansis-n and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: NE-ASYL.ANS by Nemesis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-n-ne-asyl-part01
 
 Write-Host '
            [1m▐[0m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[1;30m▌[0m

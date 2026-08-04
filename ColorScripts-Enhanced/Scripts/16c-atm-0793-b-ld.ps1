@@ -1,13 +1,4 @@
-﻿# Converted from: B-LD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/atm-0793/raw/B-LD.ANS
-# Source Revision: archive-sha256:2791ea7960360c43fee92e39a37f109c33350847675dee72209056037e0dfd3e
-# Source SHA-256: 2eadfa9dfed4331a19cb0dcfcf5545ec945d39d3ecb97ed91586b7d1bf3ec13c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: B-LD.ANS by Bjorn (atm-0793); released in atm-0793 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: B-LD.ANS by Bjorn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-atm-0793-b-ld
 
 Write-Host '
 

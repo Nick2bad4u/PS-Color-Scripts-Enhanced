@@ -1,13 +1,4 @@
-﻿# Converted from: TOSACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acid_s-z/raw/TOSACID.ANS
-# Source Revision: archive-sha256:1e39be543cd73bd6445def20e0af89859836bb40b21bc0476427cae93491a647
-# Source SHA-256: 837e1f036325782b777169b73f4168d50a49a9a204b7f94c979189afc9e19a42
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TOSACID.ANS by Tank (acid_s-z); released in acid_s-z and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: TOSACID.ANS by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acid-s-z-tosacid
 
 Write-Host '
                                      [1;35m▐[0m

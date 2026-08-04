@@ -1,18 +1,4 @@
-﻿# Converted from: CZ-POO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toon1095/raw/CZ-POO.ANS
-# Source Revision: archive-sha256:d4b59c6d799c8c2a02788beeec8a06d37366bb8792f6739cb4b7e0bf67ae744a
-# Source SHA-256: 60ac2d90da2b14e476f537e80b9df74b73e7a967929083dfac0a472e6e911f1c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CZ-POO.ANS by cOma toaZt (tOOn); released in toon1095 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ascent2heaven
-# SAUCE Author: cOma toaZt
-# SAUCE Group: tOOn
-# SAUCE Date: 19950929
-# SAUCE Dimensions: 80x25
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: Ascent2heaven by cOma toaZt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toon1095-cz-poo
 
 Write-Host '
 [1m [0m        [1m  [0m   [1m  [0m    [1m  [0m   [1m [0m                        [31m▐▄░[0;37m   [0m

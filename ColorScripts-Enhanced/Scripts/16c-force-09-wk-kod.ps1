@@ -1,18 +1,4 @@
-﻿# Converted from: WK-KOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-09/raw/WK-KOD.ANS
-# Source Revision: archive-sha256:ce8026e794474c6e48d574a76c9366e170e87fe95fba0f1638e56cb02945c814
-# Source SHA-256: 097cfbabc6c4e2f5f6c632e6eab33339d703f01f3783ceabed567786a334d723
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WK-KOD.ANS by Weeping Killer (fORCe); released in force-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Knights of Darkness
-# SAUCE Author: Weeping Killer
-# SAUCE Group: fORCe
-# SAUCE Date: 19960615
-# SAUCE Dimensions: 80x22
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Knights of Darkness by Weeping Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-09-wk-kod
 
 Write-Host '
                             [31m▄▀▀[0;1;31m▀▀[0;31m▀[0;1;31m▐▀▀▓▀[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: CC-COUP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cran1094/raw/CC-COUP.ANS
-# Source Revision: archive-sha256:c9381fb75e8f8a66431f7b0fe625ed381b9b49f3dba635c4d39fcdced612d967
-# Source SHA-256: ae8b210c843014158ba96ea601b909ce97f6979d57993fc752798fb67bfd1fcf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CC-COUP.ANS by Clorox Cowboy (cran1094); released in cran1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 49-95
-# Columns: 1-80
+﻿# Artwork: CC-COUP.ANS by Clorox Cowboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cran1094-cc-coup-part02
 
 Write-Host '
 [1;31;43m▒▒▒▒▒▒▓▓   ░░[0;1;31;40m███████████ [0;30;47m▀           ▄▄▄▄[0;1;37;47m░░░[0;1;37;40m█▀ [0;1;31;40m▄████[0;1;37;40m█[0;1;37;47m░[0;1;37;40m████[0;1;37;47m░[0;1;37;40m██[0;1;30;40m▐██████████▓▓▒▒▒░░░[0m

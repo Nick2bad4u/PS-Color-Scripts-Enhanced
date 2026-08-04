@@ -1,18 +1,4 @@
-﻿# Converted from: RG!NOFX!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0297/raw/RG!NOFX!.ANS
-# Source Revision: archive-sha256:ebdb3432145de923aa3db5c356b5298a48e2bd3cd353301b704b88c85b6a63cb
-# Source SHA-256: 78d567443720780ebb8bcb4f9582bb0a17350b95a5d3a25f7bcc9751887915ad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RG!NOFX!.ANS by rage (opium); released in opx-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: nofx
-# SAUCE Author: rage
-# SAUCE Group: opium
-# SAUCE Date: 19970119
-# SAUCE Dimensions: 80x81
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: nofx by rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0297-rg-nofx-part01
 
 Write-Host '
         [35m░░[0m            [35m░[0m       [35m░░[0m           [35m░▒[0m        [35m░▒░[0m                   [35m░▒░░[0m

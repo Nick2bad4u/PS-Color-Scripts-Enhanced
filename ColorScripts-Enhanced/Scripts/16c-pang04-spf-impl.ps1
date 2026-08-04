@@ -1,18 +1,4 @@
-﻿# Converted from: SPF-IMPL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pang04/raw/SPF-IMPL.ANS
-# Source Revision: archive-sha256:c1247d4dc9957633abc13741bd5444e137d9305952ecd56b85b27068ad3e348a
-# Source SHA-256: 7fdb0d8ed6f06ac79640d32d62d587d71f59c97cb8b5838085c51fd3d1ff22a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPF-IMPL.ANS by [sPITFIRE] (Pang); released in pang04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Impulse
-# SAUCE Author: [sPITFIRE]
-# SAUCE Group: Pang
-# SAUCE Date: 19980419
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Impulse by [sPITFIRE] | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pang04-spf-impl
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: E0-BREED.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-20/raw/E0-BREED.ANS
-# Source Revision: archive-sha256:393d047e2180bfd9243bab3697da037cf54274d924108dd74eafdca6bd3a4109
-# Source SHA-256: a8dd8bdf0e9b91c8d6b78230e3eb2d4672a90b20754a95e1296b60a2bb561e74
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: E0-BREED.ANS by Enzo (Glue Pop, Time2rock); released in glue-20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Breed Hirez
-# SAUCE Author: Enzo
-# SAUCE Group: Glue Pop, Time2rock
-# SAUCE Date: 19990331
-# SAUCE Dimensions: 80x142
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: Breed Hirez by Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-20-e0-breed-part01
 
 Write-Host '
 [30me0[0m                                         [1;30m [0m                                  [30me0[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: miabordo.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/clear2ooo-ascii-year-lf/raw/miabordo.ans
-# Source Revision: archive-sha256:dd383b5bee47a74826e2ee2d07d90cd2a401abc53b70a009479dbf2d94c53f24
-# Source SHA-256: c5b80282e8c339f1384fa5dd4972055e35c2c9c04a71681d4d90e520355d41e8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: miabordo.ans by clear2ooo (clear2ooo-ascii-year-lf); released in clear2ooo-ascii-year-lf and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: miabordo.ans by clear2ooo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-clear2ooo-ascii-year-lf-miabordo
 
 Write-Host '
 [37;40m                                                                                [0m

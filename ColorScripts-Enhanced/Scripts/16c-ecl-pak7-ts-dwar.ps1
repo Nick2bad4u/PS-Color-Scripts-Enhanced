@@ -1,18 +1,4 @@
-﻿# Converted from: TS#DWAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak7/raw/TS%23DWAR.ANS
-# Source Revision: archive-sha256:7fe049f7ea66a68e72514c753b308561957baba6d2ea47a4bad5c35612b151ea
-# Source SHA-256: 6f3b2563824ad8155ffb38db5e8e87c8bbf5982574533943f5160a13dbe3065a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS#DWAR.ANS by the saint (ecl-pak7); released in ecl-pak7 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dwar entry
-# SAUCE Author: the saint
-# SAUCE Group: -
-# SAUCE Date: 19980615
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: dwar entry by the saint | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak7-ts-dwar
 
 Write-Host '
                                       [1;30m___[0m

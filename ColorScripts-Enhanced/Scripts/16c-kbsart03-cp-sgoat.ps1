@@ -1,18 +1,4 @@
-﻿# Converted from: CP-SGOAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/kbsart03/raw/CP-SGOAT.ANS
-# Source Revision: archive-sha256:3bc41b0cbaed5cc33563c576ee20fcd7a1c532d4df2df0fbf9fb63f79506bdf8
-# Source SHA-256: 44494052e96cdd28a9769bb97009d37e0ea07c66eaf01adabe67b9a2cf9e7625
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CP-SGOAT.ANS by cyberphreak (kibosh); released in kbsart03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: space goat
-# SAUCE Author: cyberphreak
-# SAUCE Group: kibosh
-# SAUCE Date: 19990716
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: space goat by cyberphreak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-kbsart03-cp-sgoat
 
 Write-Host '
 [31m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓███████▓▓▓▓▀▀▀▀[0;33m▄▄▓▓▓▓▓▓▄▄▄▄▄▄[0;31m▀▀▀▀▒▒▒▒▒▓▓███[0;1;31m▒▒[0;31m██████████[0;1;31m▒▒▒▒▒▒▒▒▒▒[0m

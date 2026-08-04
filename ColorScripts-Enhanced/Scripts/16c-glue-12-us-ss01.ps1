@@ -1,18 +1,4 @@
-﻿# Converted from: US-SS01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-12/raw/US-SS01.ANS
-# Source Revision: archive-sha256:f5221eba8c246d2fb321d3b43039222677071ff11211f119af33a969aa5543e9
-# Source SHA-256: e0259dc3844483514f862f48f9d87185341f4cdd5fa508d767430b8018f30100
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SS01.ANS by Catch 22 + Rzicus (avenge // glue); released in glue-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: skate shop
-# SAUCE Author: _rzicus & catch22
-# SAUCE Group: avenge // glue
-# SAUCE Date: 19980717
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: skate shop by Catch 22 + Rzicus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-12-us-ss01
 
 Write-Host '
 [1;30m    [0;1;36m░░░░▒▒▒▓▓▓[0;1;36;46m▓▓▒▒░░░░[0;36m████[0;36;45m▓▓▒▒░░[0;35;46m▓[0;36;45m░[0;35;46m▓█▓█[0;36;45m  [0;1;35;40m▒▒▒░░░░░[0;36m░░▒▒▓▓▓█▓█▄[0;1;36;46m░[0;1;36;40m▒▒▒▒░░░░░   ░░░░▒▒▒▒[0m

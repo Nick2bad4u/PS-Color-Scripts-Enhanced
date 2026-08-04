@@ -1,18 +1,4 @@
-﻿# Converted from: US-PIC69.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-9608/raw/US-PIC69.ANS
-# Source Revision: archive-sha256:e0f5425f7faae3de117c0d885e0924dd2bf38dd7cdfe2d34538a1957c175eebc
-# Source SHA-256: fee26936a498e422ec9ec5ebb5d148f41d050d32a2185ac4fb2801f504867f8f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PIC69.ANS by Giger + Mr Yuck (RcA); released in rca-9608 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: 69?!@#?
-# SAUCE Author: We
-# SAUCE Group: RcA
-# SAUCE Date: 19960730
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: 69?!@#? by Giger + Mr Yuck | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-9608-us-pic69
 
 Write-Host '
                     ▓▄▄▄▄▄▄▄▄▄▄▄░    ▄▄▄▄▄░     ▄▄▄▄▄▄▄▓                 [35m░[0m

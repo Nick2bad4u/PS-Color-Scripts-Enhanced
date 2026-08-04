@@ -1,18 +1,4 @@
-﻿# Converted from: TXTMF-H1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/std-0903/raw/TXTMF-H1.ANS
-# Source Revision: archive-sha256:291646c75b1c576c4c00a56340430edd1505fa750e3ecf5d23662a4891ddb8d9
-# Source SHA-256: c60aaa4a5d6cf997c35d8d4830e86ddf992e8f7d244c79e50807891b6a65218f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TXTMF-H1.ANS by The Textorcist + Mf (STD); released in std-0903 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Haunting the chapel
-# SAUCE Author: Multiple Artists
-# SAUCE Group: STD
-# SAUCE Date: 20030808
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Haunting the chapel by The Textorcist + Mf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-std-0903-txtmf-h1
 
 Write-Host '
 [1m██[0;1;33m█[0;1;32m█ █▓ ██▀▄▄[0;1;37m███[0;1;33m█[0;1;32m██[0;1;33m██[0;1;32m▄██[0;1;33m██[0;1;32m ░▓█[0;1;37m█[0;1;33m█[0;1;32m████▌▓█[0;1;33m█[0;1;32m ██ █▓▓▓▓▓▓▓█[0;32m█[0;1;32m█▓▓ ███▓ [0;36m░▒▓███████████▓▓▓[0m

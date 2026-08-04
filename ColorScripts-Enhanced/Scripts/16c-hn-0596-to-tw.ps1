@@ -1,13 +1,4 @@
-﻿# Converted from: TO-TW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hn-0596/raw/TO-TW.ANS
-# Source Revision: archive-sha256:341a7655c96a6dc0a8dbd297753a4c8350c669bd3952e121f4d23870d0eda7fc
-# Source SHA-256: 199848a6fd93c87926678c4bbfd5337daa7c08e1ff4a7f9b8886f53c76877c09
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TO-TW.ANS by Toadie (hn-0596); released in hn-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: TO-TW.ANS by Toadie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hn-0596-to-tw
 
 Write-Host '
    [34m░[0m                                                                         [34m░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: LZ!-ASTR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/act-0496/raw/LZ!-ASTR.ANS
-# Source Revision: archive-sha256:ba95533c0b6a530f3833df2b79e25f188960432a4e38622a7ba932fb42d819c9
-# Source SHA-256: ed1503cbb440e5568cf2ce7fd578e61a2484d018edd4c4c5b0bc2bd92430a0b6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LZ!-ASTR.ANS by Lizard (act-0496); released in act-0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: LZ!-ASTR.ANS by Lizard | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-act-0496-lz-astr
 
 Write-Host '
     ▐██▌

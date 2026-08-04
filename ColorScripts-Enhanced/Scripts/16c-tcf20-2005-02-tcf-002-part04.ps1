@@ -1,13 +1,4 @@
-﻿# Converted from: 2005 - 02 - tcf-002.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tcf20/raw/2005%20-%2002%20-%20tcf-002.ans
-# Source Revision: archive-sha256:af8609219fccc484668fb405a7f1d45efb8c574501a461c5c1b47d87a12921ce
-# Source SHA-256: 0a76e9db7065a4bdddf0695deaaf79d139b2aedf850b86e7a36463060ad0eb0b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2005 - 02 - tcf-002.ans by The Creep Fever (tcf20); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 122-162
-# Columns: 1-80
+﻿# Artwork: 2005 - 02 - tcf-002.ans by The Creep Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tcf20-2005-02-tcf-002-part04
 
 Write-Host '
 [1;31m $$$$$[0;33m$$$$$$$$$[0;1;30m$$$$$''[0;1;31m [0;1;30m:[0;33m$$$$$$$$$$[0;1;31m$$$$$$$$$$$$[0;33m$:[0;36m [0;1;30m:[0;36m$$$[0;37m: [0;32m:$$$$$$$$$$$$$$:[0;37m [0;1;31m:$$$$$[0;33m$I[0m

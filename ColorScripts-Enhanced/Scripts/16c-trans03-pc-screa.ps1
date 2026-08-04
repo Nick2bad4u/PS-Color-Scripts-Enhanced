@@ -1,18 +1,4 @@
-﻿# Converted from: PC-SCREA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/trans03/raw/PC-SCREA.ANS
-# Source Revision: archive-sha256:462ee1fa63e815fd54ca0469a616b314248ef7425a3668e2379cc1737c2b5402
-# Source SHA-256: e7acefae65a25865bd79b51114e1a6546f1fcd91abbd76f4874b1cae5d873888
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-SCREA.ANS by Proctologist (Transmission); released in trans03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fReAk 0uT!!
-# SAUCE Author: Proctologist
-# SAUCE Group: Transmission
-# SAUCE Date: 19971009
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: fReAk 0uT!! by Proctologist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-trans03-pc-screa
 
 Write-Host '
 [30;43m$[0;33;40m$[0;30;43m$▒[0;33;40m$$ [0;1;31;40md$$$$$$$$$Pⁿ°[0;33m`[0;1;31m`[0;1;37m_[0;33m`[0;1;37m__[0m_[33m`[0;37m_[0;33m`"°ⁿT$[0;1;31m$$$$$$$$$$$$ⁿ°"``[0;1;37m_[0;33m`[0;37m___[0;1;31m`[0m_[33m``"°ⁿT[0;1;31m$$$$s, [0;33m`ⁿ$$[0;30;43m$$[0;33;40m▒$[0m

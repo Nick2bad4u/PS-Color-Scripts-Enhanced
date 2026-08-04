@@ -1,18 +1,4 @@
-﻿# Converted from: UNS-7YN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0896/raw/UNS-7YN.ANS
-# Source Revision: archive-sha256:f9cf2b2d2bbd2b43295b2db0288f290749703458f413700d0129369379a58bf6
-# Source SHA-256: a684fe8aca0f3e8adeb93be6ec4a6bac431f5c1c0b263dc2819c71747adb6c8c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UNS-7YN.ANS by Unsane (fire); released in fire0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: 7YN
-# SAUCE Author: Unsane
-# SAUCE Group: fire
-# SAUCE Date: 19960622
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: 7YN by Unsane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0896-uns-7yn
 
 Write-Host '
 

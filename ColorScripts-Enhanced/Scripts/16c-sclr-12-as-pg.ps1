@@ -1,17 +1,4 @@
-﻿# Converted from: AS-PG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-12/raw/AS-PG.ANS
-# Source Revision: archive-sha256:931c722d30287faa0bca222aa92d91505851c62baf83a4aecf6463d7f408daf9
-# Source SHA-256: dfcce037869a809441692348a8d407b34d353b2cfc0ebed237bf9815270a1dbf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AS-PG.ANS by as-d (secular); released in sclr-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: pappy girl
-# SAUCE Author: as-d
-# SAUCE Group: secular
-# SAUCE Font: empathy by skaboy
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: pappy girl by as-d | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-12-as-pg
 
 Write-Host '
 [37;40m                                                                                [0m

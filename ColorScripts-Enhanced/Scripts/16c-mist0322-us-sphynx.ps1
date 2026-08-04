@@ -1,19 +1,4 @@
-﻿# Converted from: US-SPHYNX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0322/raw/US-SPHYNX.ANS
-# Source Revision: archive-sha256:d721ac329a32c7b9dccef4e8624e41c2516121b2eeceed2a1086408a7cc60358
-# Source SHA-256: a9b909dd57677dbafd1fee48345addd91a0a809bc7e032a6839512a6688e6314
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SPHYNX.ANS by Mr Roboto + Deadguy (Mistigris); released in mist0322 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: sphynx
-# SAUCE Author: Mr Roboto & deadguy
-# SAUCE Group: Mistigris
-# SAUCE Date: 20220326
-# SAUCE Dimensions: 80x45
-# SAUCE Font: IBM VGA
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: sphynx by Mr Roboto + Deadguy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0322-us-sphynx
 
 Write-Host '
 

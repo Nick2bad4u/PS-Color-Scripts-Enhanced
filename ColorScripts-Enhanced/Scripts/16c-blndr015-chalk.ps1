@@ -1,13 +1,4 @@
-﻿# Converted from: CHALK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr015/raw/CHALK.ANS
-# Source Revision: archive-sha256:207257efec59abae2611bc00a45085830a91002aa8a590ce35f7b3ac437e031e
-# Source SHA-256: 96f73291a0f240cc8e259f690f0ca6627d01fa4215a42d10a6c2f9bbc50a785b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CHALK.ANS by Mister Chalk (blndr015); released in blndr015 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: CHALK.ANS by Mister Chalk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr015-chalk
 
 Write-Host '
 [1;31m███████[0;1;31;41m▓▀▀▀[0;1;31;40m▀[0;31m▀[0m   [32m▄▄▄▄▄▄▄▄▄▄▄[0;1;32m▄▄[0;32m▄[0m   [31m▀▀[0;1;31;41m ▀█[0;1;31;40m███████████████[0;1;31;41m▀▀[0;31m▀▀▀[0;37m [0;1;37m▄▄▄▄▄▄▄▄▄▄▄▄▄  [0;31m▀[0;1;31m▀▀[0;1;31;41m▀▀▓[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: MO-DEAD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dead/raw/MO-DEAD1.ANS
-# Source Revision: archive-sha256:42002c7465322e6567b6ada22b7d24270f500cdc26769d5efac519e13d8ec757
-# Source SHA-256: 4bc621338ad9c8b9dc8240f660feec0ab97ac2292149ab381b13ee46774b0180
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MO-DEAD1.ANS by Manslaughter (dead); released in dead and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: MO-DEAD1.ANS by Manslaughter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dead-mo-dead1-part01
 
 Write-Host '
 

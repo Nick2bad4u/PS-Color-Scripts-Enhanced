@@ -1,13 +1,4 @@
-﻿# Converted from: DAM-LD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hrp-6/raw/DAM-LD.ANS
-# Source Revision: raw-sha256:9d4d23a34a5f18232f16c776d6710e050ad352cc11df7d8518844504e45cc005
-# Source SHA-256: 9d4d23a34a5f18232f16c776d6710e050ad352cc11df7d8518844504e45cc005
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DAM-LD.ANS by Living Death (hrp-6); released in hrp-6 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 151-199
-# Columns: 1-80
+﻿# Artwork: DAM-LD.ANS by Living Death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hrp-6-dam-ld-part04
 
 Write-Host '
       [1;31;41m▒▒[0m     [1;31;41m▓░[0m  [1;31;41m░▒[0m [1;31;41m▒▒[0m  [1;31;41m▒░[0m [1;31;41m▒▒░▒[0m   [1;31;41m▒▒[0m  [1;31;41m▒░[0m [1;31;41m▒▒[0m     [1;31;41m▒▒[0m  [1;31;41m▒░[0m [1;31;41m▒▒[0m  [1;31;41m░▓[0m [1;31;41m▒▒[0m     [1;31;41m▒▒[0m  [1;31;41m▒░[0m

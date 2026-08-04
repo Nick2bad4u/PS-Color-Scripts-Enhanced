@@ -1,13 +1,4 @@
-﻿# Converted from: SANC-SD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0892/raw/SANC-SD.ANS
-# Source Revision: archive-sha256:14bcca9d3edaab7b8929bb1c3df270abeebca1720c862cdfff0859ed6d69dd7d
-# Source SHA-256: 65d22685d5fa00b35ff2f8f6a7e6a46b50a6bf2ec56909a2870cf9c7b05e31e8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SANC-SD.ANS by Slam Dunk (acdu0892); released in acdu0892 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: SANC-SD.ANS by Slam Dunk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0892-sanc-sd-part01
 
 Write-Host '
                    [1m·[0m             [35m▄▄▄▄[0;1;35;45m▄▄▄▄[0;35m▀▀▀▀▀▀▄▄▄▄[0m      [1;37m·[0m

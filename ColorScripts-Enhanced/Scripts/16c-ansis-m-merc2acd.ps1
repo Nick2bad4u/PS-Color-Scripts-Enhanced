@@ -1,13 +1,4 @@
-﻿# Converted from: MERC2ACD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-m/raw/MERC2ACD.ANS
-# Source Revision: archive-sha256:8f21ce65de4fa3ae116524f771337d3fa9537261be6165b5480fb341776ab543
-# Source SHA-256: 24b07614134eedbb3a8dd6894eefc214ef0cac1f8bdd8f6a60a2c2f34b0d3ddf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MERC2ACD.ANS by Venom (ansis-m); released in ansis-m and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: MERC2ACD.ANS by Venom | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-m-merc2acd
 
 Write-Host '
 

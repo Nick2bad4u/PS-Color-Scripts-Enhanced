@@ -1,18 +1,4 @@
-﻿# Converted from: US-TC2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9612/raw/US-TC2.ANS
-# Source Revision: archive-sha256:7053afed6e742c75d943ea86bb6e43e9d362e1c6f64e894c811e4835a8b40e13
-# Source SHA-256: 2dcd665b7f99f0dbbebcae8b8e6c2142f93d9057600a37e593095df146db85da
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TC2.ANS by Fluor + Warpus (AWE Lettering); released in awe9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Total Chaos/2
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961202
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Total Chaos/2 by Fluor + Warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9612-us-tc2
 
 Write-Host '
          [1m ░░[0m

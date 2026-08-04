@@ -1,18 +1,4 @@
-﻿# Converted from: TSK-PNT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-04/raw/TSK-PNT.ANS
-# Source Revision: archive-sha256:8dc8586a37ce2081b7e99529b7087f421e6ff8d5ba2d146ef1d30bd490016720
-# Source SHA-256: 5c64fc7061c9f09a7282a02a8cbbeee73688107115304f29c3a6f1142e677d43
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-PNT.ANS by the silent killer (odium); released in odium-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: paint
-# SAUCE Author: the silent killer
-# SAUCE Group: odium
-# SAUCE Date: 19960220
-# SAUCE Dimensions: 80x25
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: paint by the silent killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-04-tsk-pnt
 
 Write-Host '
 

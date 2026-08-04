@@ -1,18 +1,4 @@
-﻿# Converted from: US-SPLOT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0797/raw/US-SPLOT.ANS
-# Source Revision: archive-sha256:36665a37d029524a07b3c0ade06e9ef3ded1bb8e68470bcb59063cd367dc113e
-# Source SHA-256: 045544c7ffef542660454d06de2ed749b72ba9a6a26c6e0c1b78149f22c9c8bc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SPLOT.ANS by Big Yellow Man + Spinal (phobia); released in plf-0797 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: splot
-# SAUCE Author: bym + spinal
-# SAUCE Group: phobia
-# SAUCE Date: 19970711
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: splot by Big Yellow Man + Spinal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0797-us-splot
 
 Write-Host '
                             [31m [0;1;30m  [0;1;35;45m▀[0;30;47m█[0;37;40m                                               [0m

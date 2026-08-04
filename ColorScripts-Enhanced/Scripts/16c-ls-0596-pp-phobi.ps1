@@ -1,18 +1,4 @@
-﻿# Converted from: PP-PHOBI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ls-0596/raw/PP-PHOBI.ANS
-# Source Revision: archive-sha256:66356efc2c42db2c2b9e33fd619f1e9d3ad138f2dd82375810dc37ad60467936
-# Source SHA-256: 6eb7342ed9ced5e9b0a934c46f1bc10581e8150537c4c12a225bc63dfff0f3c2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PP-PHOBI.ANS by phorce phed (leper society); released in ls-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: phobia
-# SAUCE Author: phorce phed
-# SAUCE Group: leper society
-# SAUCE Date: 19960529
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: phobia by phorce phed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ls-0596-pp-phobi
 
 Write-Host '
                            [30mpp[0;34m▄▄▄▄▄[0m

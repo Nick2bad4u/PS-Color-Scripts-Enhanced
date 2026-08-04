@@ -1,13 +1,4 @@
-﻿# Converted from: IV-ICEPR.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9609a/raw/IV-ICEPR.ICE
-# Source Revision: archive-sha256:541cf0b323317a2c01aae16b97d3d5f7ccc5db8dbd14c10b2267c0eefccf97b7
-# Source SHA-256: 946560fc2c6433d913f5ac1f27633daaf4c44ca49205127e99abbff1e8900584
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IV-ICEPR.ICE by Inner Vision (ice9609a); released in ice9609a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: IV-ICEPR.ICE by Inner Vision | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9609a-iv-icepr
 
 Write-Host '
 [1;32m▄[0m ▀▀█▓▓▓▒░   [33m░░▒▒▓▓█[0;1;33;43m░░▒▒▓██[0m                  [30m  [0m

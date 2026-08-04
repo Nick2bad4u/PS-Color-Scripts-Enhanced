@@ -1,18 +1,4 @@
-﻿# Converted from: RD-LLB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shade5/raw/RD-LLB.ANS
-# Source Revision: archive-sha256:9eb97f9412f63f0ce4837a80894f87a3aed455c1487394481c6e40b531c2203d
-# Source SHA-256: 136dc76d01b5325df06507abb477fceae5807d90372862a47a4929d6f4123e0f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD-LLB.ANS by raider (tibet); released in shade5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: legO!@
-# SAUCE Author: raider
-# SAUCE Group: tibet
-# SAUCE Date: 19970112
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: legO!@ by raider | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shade5-rd-llb
 
 Write-Host '
  [33m▀[0m    [33m:[0m   [1;33m░[0m [1;33m▀▀[0;30;43m░[0;1;33;40m▄▄▄[0;30;43m▀▀▓[0;37;40m  [0;30;43m▓▀▀▓▓[0;37;40m [0;30;43m▀▓[0m    [30;43m▓▓▀▀[0;37;40m [0;30;43m▓[0;37;40m  [0;1;37;40m▀[0m     [33m:[0;37m  [0;30;43m▓▀▀░[0;1;33;40m░▀[0;30;43m▄[0;37;40m  [0;1;33;40m░░[0m       [30;43m█[0;37;40m [0;1;33;40m▄[0m

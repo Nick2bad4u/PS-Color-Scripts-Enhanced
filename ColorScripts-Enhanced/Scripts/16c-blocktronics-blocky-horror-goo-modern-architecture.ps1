@@ -1,20 +1,4 @@
-﻿# Converted from: goo-modern_architecture.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-blocky-horror/raw/goo-modern_architecture.ans
-# Source Revision: archive-sha256:9b55aad043357449b0b0f61d3eddf0a2e277e46cf0768f93c8b9bc9b99d78a77
-# Source SHA-256: 1901268d6ea1132f18668f200b87bf4b1948a8144daa48f7b75bae7e5f48346e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: goo-modern_architecture.ans by GOO (blocktronics); released in blocktronics-blocky-horror and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: modern architecture
-# SAUCE Author: GOO
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190812
-# SAUCE Dimensions: 80x23
-# SAUCE Font: IBM VGA
-# SAUCE Comments: happy party!
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: modern architecture by GOO | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blocky-horror-goo-modern-architecture
 
 Write-Host '
 [1;32;40m▄▄[0;36m▄[0m       [1;31m▓▄█[0;1;34m [0;1;35m█▀█[0;1;34m [0;1;31m█▓█ [0;1;35m█▓█[0;1;31m █▄█[0;1;34m  [0m [1;35m█▀[0;1;31m  █▀▄[0;1;30m▐[0;31m███▄[0;37m [0;32m▄▄▄█[0;1;34m [0;1;35m█▄ ▄█[0;1;31m █▓█ [0;1;35m█▀▄[0;1;34m   [0;1;37m▄▄▄[0;1;37;45m▄▄▄▄▄[0;1;37;40m█[0;1;37;46m▄▄░░▒[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PS-HOC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drv-0595/raw/PS-HOC.ANS
-# Source Revision: archive-sha256:ab2903da2c95149760a6d9230201e2017a141769235eee49a007790b51e1be73
-# Source SHA-256: 00275ed0cfd8863ad07c91f5141d44f5ff550a1c1e15b26638406f0aea99fce6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PS-HOC.ANS by Psionide (Driven); released in drv-0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The House of Cain
-# SAUCE Author: Psionide
-# SAUCE Group: Driven
-# SAUCE Date: 19950331
-# SAUCE Dimensions: 80x104
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: The House of Cain by Psionide | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drv-0595-ps-hoc-part01
 
 Write-Host '
                            [1;30m ▄[0;1;30;47m▒[0;1;30;40m██▓██▄▄[0m

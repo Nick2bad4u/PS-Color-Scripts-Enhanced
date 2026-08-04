@@ -1,18 +1,4 @@
-﻿# Converted from: TB-CANIB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nland-04/raw/TB-CANIB.ANS
-# Source Revision: archive-sha256:eab686fd42219ed6c9add6a2f7726008adc5ca3e06c5f87a076203c52842513d
-# Source SHA-256: f04f99eefe38965e6003f7588ee1889d96d53756d3c2f12d64e7583fff49142d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TB-CANIB.ANS by The BiKer (NeveRLanD); released in nland-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Canibal Coders Group
-# SAUCE Author: The BiKer
-# SAUCE Group: NeveRLanD
-# SAUCE Date: 19960202
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Canibal Coders Group by The BiKer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nland-04-tb-canib
 
 Write-Host '
                                         [34m▄▀▀▀▀▄[0m               [1;34m▄▄▄▄▄[0m

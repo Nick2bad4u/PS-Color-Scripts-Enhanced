@@ -1,19 +1,4 @@
-﻿# Converted from: GL-FILES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dtd03/raw/GL-FILES.ANS
-# Source Revision: archive-sha256:12192704d4216d2aefe0d36b2c5bcb5e5157eafacf7ca0b06c6a5389afde918d
-# Source SHA-256: 3306139cb400961b500cabf9fb8613b13981add1684bf758169bd478022fc6d4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GL-FILES.ANS by GLANDYTH-A-KRAE (DEVOTiON TO DARKNESS); released in dtd03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 'FiLES' LOGO
-# SAUCE Author: GLANDYTH-A-KRAE
-# SAUCE Group: DEVOTiON TO DARKNESS
-# SAUCE Date: 19970709
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: for melle. | inspired by nail.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: 'FiLES' LOGO by GLANDYTH-A-KRAE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dtd03-gl-files
 
 Write-Host '
               [1m▄[0m        [36m▄▀[0m            [36m▄[0m                        [1;30m [0;36m▄[0m

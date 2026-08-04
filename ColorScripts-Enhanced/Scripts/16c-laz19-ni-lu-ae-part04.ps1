@@ -1,20 +1,4 @@
-﻿# Converted from: NI-LU-AE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz19/raw/NI-LU-AE.ANS
-# Source Revision: archive-sha256:b2207428f1b283b9c41d9ff03fce385f449fefe469c60e31e8dd7430a162f7c1
-# Source SHA-256: bc16b268360732c55edba716748004c4af1a0dbae3a8990c09f6119b858356cd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-LU-AE.ANS by Nitron (Lazarus); released in laz19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: New Terra: Hellriders
-# SAUCE Author: Nitron
-# SAUCE Group: Lazarus
-# SAUCE Date: 20240816
-# SAUCE Dimensions: 80x228
-# SAUCE Font: Default
-# SAUCE Comments: This ANSI was inspired by a funny moment in a particular RPG cam | paign that bore striking resemblance to a favorite scene in the | film 'Heavy Metal'. It depicts the Nameless Goddess riding her t | rusted steed over the plains of Hell.
-# Lines: 137-182
-# Columns: 1-80
+﻿# Artwork: New Terra: Hellriders by Nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz19-ni-lu-ae-part04
 
 Write-Host '
     [1;30m░░░▌[0m   ▌▌■ [1;30m▀[0m [1;30m▄▀[0m  [1;30m▄[0m [1;30m░░░    [0;1;31;43m █▓▓▓████▓▒▓▒░[0;33m█[0;37m [0;1;30m░░[0;1;31;43m░[0;33m██[0;1;31;43m░▒▓[0;1;31;47m▓▓[0m

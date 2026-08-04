@@ -1,18 +1,4 @@
-﻿# Converted from: 05MEMB05.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root05/raw/05MEMB05.ANS
-# Source Revision: raw-sha256:087186ffd64f397551f5dd5ba96478f636f19d0bc357cdf2e924b59fd2365fac
-# Source SHA-256: 087186ffd64f397551f5dd5ba96478f636f19d0bc357cdf2e924b59fd2365fac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 05MEMB05.ANS by Flight + Root (Root); released in root05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 0497 memberlist!
-# SAUCE Author: Root
-# SAUCE Group: Root
-# SAUCE Date: 19970717
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: 0497 memberlist! by Flight + Root | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root05-05memb05
 
 Write-Host '
                    [31m▄[0m

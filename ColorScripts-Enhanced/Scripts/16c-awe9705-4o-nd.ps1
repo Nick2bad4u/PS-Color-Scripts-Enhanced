@@ -1,18 +1,4 @@
-﻿# Converted from: 4O!ND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9705/raw/4O!ND.ANS
-# Source Revision: archive-sha256:8be34660f06cc6610ed258606edc1af91e25b5675ab5e99aed29e53c07e63e17
-# Source SHA-256: 1aab01e50012a0ee7a46438341ad1b285f84bc1812ef58a121e2344310c9c010
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 4O!ND.ANS by Mr4tune (AWE Lettering); released in awe9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Nocturnal Desire
-# SAUCE Author: Mr4tune
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970503
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Nocturnal Desire by Mr4tune | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9705-4o-nd
 
 Write-Host '
 [34m▀[0;37m [0;34m▀[0;36m▀▀[0;36;44m▀[0;34;40m▌▐[0;36;44m█[0;1;36;46m█▄[0;36;44m█▓▓░[0;34;40m▄[0;37;40m [0;34;40m▄[0;36;40m▄[0;36;44m▄▄[0;36;40m▄[0;34;40m▄[0;36;44m▄▄[0;34;40m▄[0;36;44m▄█▄[0;34;40m▄[0;37;40m [0;34;40m▀[0m   [1;30;40m░▄[0;36m▄[0;37m [0;1;30m▄[0;1;30;46m░▓[0;1;30;40m▀ [0m [1;30m▀▀[0m  [33m▄[0;1;33m▄▄▀[0m [34m░▓▓█[0;36;44m▄[0;34;40m▄[0;37;40m [0;34;40m▄[0;36;44m▄█▄[0;34;40m▀█[0;37;40m  [0;36;44m░[0;34;40m▀[0;36;44m░░[0;34;40m██▄[0;37;40m [0;36;40m░░[0;1;35;40m [0m

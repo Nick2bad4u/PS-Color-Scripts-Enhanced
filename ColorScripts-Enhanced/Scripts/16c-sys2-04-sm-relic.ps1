@@ -1,13 +1,4 @@
-﻿# Converted from: sm-relic.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sys2_04/raw/sm-relic.ans
-# Source Revision: archive-sha256:e0a121a9a9dfa21401cfdd06cbec5a8ecc05454c68a9bb59792be80b08d37bcc
-# Source SHA-256: 3c3b39187bfb14754d6c135144bf8349734590c7501997da72cc93ed7aeaa5f1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sm-relic.ans by Smoke (sys2_04); released in sys2_04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: sm-relic.ans by Smoke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sys2-04-sm-relic
 
 Write-Host '
 

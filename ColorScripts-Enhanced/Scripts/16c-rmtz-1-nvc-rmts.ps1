@@ -1,18 +1,4 @@
-﻿# Converted from: NVC-RMTS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmtz-1/raw/NVC-RMTS.ANS
-# Source Revision: archive-sha256:e96ee325d754c1e5b063aafdda446247803f028109cb9f0ea526dc0edc4ca3c5
-# Source SHA-256: 51b19d8adb5a929d6b0802d822fca4e8c7c85ba182d145b7f021e05248c152b6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NVC-RMTS.ANS by N0ViCE (rmtz); released in rmtz-1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: .o0} RMTS {0o.
-# SAUCE Author: N0ViCE
-# SAUCE Group: rmtz
-# SAUCE Date: 19960508
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: .o0} RMTS {0o. by N0ViCE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmtz-1-nvc-rmts
 
 Write-Host '
                                               [1;30m▄▄▄▄[0m

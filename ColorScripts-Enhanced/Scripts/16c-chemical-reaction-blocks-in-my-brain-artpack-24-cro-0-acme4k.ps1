@@ -1,13 +1,4 @@
-﻿# Converted from: 0-ACME4K.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/chemical.reaction.blocks.in.my.brain.artpack.24-cro/raw/0-ACME4K.ANS
-# Source Revision: archive-sha256:d93b6f57500c71739ad12c4cba603136de93fb865ec281117f9125d23e977959
-# Source SHA-256: 49a7485014e07d8cf1595db619d03fbaa899bb0b54a4ff5eda281dbc552b846f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 0-ACME4K.ANS by Chemical Reaction (chemical.reaction.blocks.in.my.brain.artpack.24-cro); released in chemical.reaction.blocks.in.my.brain.artpack.24-cro and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: 0-ACME4K.ANS by Chemical Reaction | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-chemical-reaction-blocks-in-my-brain-artpack-24-cro-0-acme4k
 
 Write-Host '
 [34;47m████[0;1;34;44m░░▒▒▒▓▓▓▓[0;1;34;46m▓▓▓▓▓▒▒▒▒▒▒▒▒░░░░░░░░░░[0;1;35;46m░░░░░░░░░░░░░░[0;1;34;46m░░░░░░░░[0;46m▄▄▄[0;1;30;47m▄▄▄▄[0;1;37;47m▀[0;1;37;46m▄▄[0;36m███████████[0m

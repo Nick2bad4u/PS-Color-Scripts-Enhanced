@@ -1,13 +1,4 @@
-﻿# Converted from: HB-EGGS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acne002/raw/HB-EGGS.ANS
-# Source Revision: archive-sha256:0516eab8dfdc497d78ee69558b1b3fb72f55dc40f3cd8a67a608229e59359299
-# Source SHA-256: b3831b7c8c52c2b3352e43bca1b4186a6908f513640fabaa37abbe41871d8bf7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HB-EGGS.ANS by Holybone (acne002); released in acne002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: HB-EGGS.ANS by Holybone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acne002-hb-eggs
 
 Write-Host '
                                                [1;37m [0m                           [1;37m▄▄▄[0m

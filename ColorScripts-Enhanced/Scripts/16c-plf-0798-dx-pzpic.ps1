@@ -1,18 +1,4 @@
-﻿# Converted from: DX-PZPIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0798/raw/DX-PZPIC.ANS
-# Source Revision: archive-sha256:ba14cc0f9129d345d6e8055f6819b7be294ddff8674fbcc97cd1db52d47ee088
-# Source SHA-256: 8df43e41c247681cd2ccc928203b0c39cf8b2f5d30753033a28d60c46e018261
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DX-PZPIC.ANS by drax (poffelipoff); released in plf-0798 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: p z
-# SAUCE Author: drax
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19980725
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: p z by drax | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0798-dx-pzpic
 
 Write-Host '
                       [31m.[0m    [31m,[0m     [31m,[0m      [31m,[0m     [31m,[0m    [31m.[0m

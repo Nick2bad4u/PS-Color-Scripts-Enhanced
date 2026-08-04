@@ -1,18 +1,4 @@
-﻿# Converted from: ND-DEMIS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blade-40/raw/ND-DEMIS.ANS
-# Source Revision: archive-sha256:36dce442fca1d182e4b74added5979db24d6a61d5306960c3e6982e7319e3076
-# Source SHA-256: b9c4c94d50f91becc1672ca8661e8b4a238e58195d47f91a132bc5519da3fc4b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ND-DEMIS.ANS by Napalm Death (blade productions 97); released in blade-40 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Demis Logo
-# SAUCE Author: Napalm Death
-# SAUCE Group: blade productions 97
-# SAUCE Date: 19970604
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Demis Logo by Napalm Death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blade-40-nd-demis
 
 Write-Host '
              [1;30m░░░░░░░░░░░░░░░░░░░░[0m                 [1;30m░░░░░░░░░░░░░░░░[0m

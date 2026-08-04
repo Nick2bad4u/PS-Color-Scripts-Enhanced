@@ -1,19 +1,4 @@
-﻿# Converted from: _Pumpkin_by_Whazzit.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_blocktober/raw/_Pumpkin_by_Whazzit.ans
-# Source Revision: archive-sha256:a4249815771be4175829e3af0e1e24a265146879ea43ac19f701d6ebb72fa88f
-# Source SHA-256: ca47f03547e0aae90fd7ea2c7298d44f1678272773ef9f7949f791451a992c74
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _Pumpkin_by_Whazzit.ans by Whazzit (Blocktronics); released in blocktronics_blocktober and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: WZ - Blocktober Pumpkin Challenge
-# SAUCE Author: Whazzit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20161020
-# SAUCE Dimensions: 110x54
-# SAUCE Font: IBM VGA
-# Lines: 1-27
-# Columns: 1-110
+﻿# Artwork: WZ - Blocktober Pumpkin Challenge by Whazzit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blocktober-pumpkin-by-whazzit-part01
 
 Write-Host '
 

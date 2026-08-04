@@ -1,17 +1,4 @@
-﻿# Converted from: HD_CMAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ltm-0002/raw/HD_CMAN.ANS
-# Source Revision: archive-sha256:781901eb93f0cb031ec3f7b4daa19680a5eef01b4b60325740b7b545db2b86c8
-# Source SHA-256: 79e2c402d5d36c347659913418c87b485c5cfe0fff2876e58430bea580bb4e22
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HD_CMAN.ANS by h0ND0 (Lithium); released in ltm-0002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Newskull 3     "Corbatin man"
-# SAUCE Author: h0ND0
-# SAUCE Group: Lithium
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Newskull 3 "Corbatin man" by h0ND0 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ltm-0002-hd-cman
 
 Write-Host '
                                 [32m,$,[0m         [32m,$,[0m

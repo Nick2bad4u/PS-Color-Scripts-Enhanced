@@ -1,18 +1,4 @@
-﻿# Converted from: LSP-NZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lsp-1095/raw/LSP-NZ.ANS
-# Source Revision: archive-sha256:2c17431a101ca3b5974a6cc9ce813ed38d4bf32c0e609f7ff002a213dc77c3cd
-# Source SHA-256: a4e8ee6d995642ddd48da3fbeba434527cd6e5bf5de26967431cf35c074c208a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LSP-NZ.ANS by LOCUTUS / LSP (LITESPEED [LSP]); released in lsp-1095 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: NEUTRAL ZONE - LOGIN ANSI
-# SAUCE Author: LOCUTUS / LSP
-# SAUCE Group: LITESPEED [LSP]
-# SAUCE Date: 19950918
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: NEUTRAL ZONE - LOGIN ANSI by LOCUTUS / LSP | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lsp-1095-lsp-nz-part01
 
 Write-Host '
 [1m                [0;1;30m▓                                   ▓                    ▓[0m

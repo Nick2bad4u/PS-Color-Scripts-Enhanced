@@ -1,18 +1,4 @@
-﻿# Converted from: SK!-SNSI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pen15-01/raw/SK!-SNSI.ANS
-# Source Revision: archive-sha256:9e28ab2113f1bcb81ed1730a86e0355147cb3acede958780e6bfef3630941a51
-# Source SHA-256: 2bc423fd12dad0c411368e6eb7fdaad18eb7aa64bfaf565d251d9c09206a1e63
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!-SNSI.ANS by sIMON kING (pEN15); released in pen15-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: sENSEI
-# SAUCE Author: sIMON kING
-# SAUCE Group: pEN15
-# SAUCE Date: 19980331
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: sENSEI by sIMON kING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pen15-01-sk-snsi
 
 Write-Host '
 

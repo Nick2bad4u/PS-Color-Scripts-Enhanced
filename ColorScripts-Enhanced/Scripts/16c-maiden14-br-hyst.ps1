@@ -1,18 +1,4 @@
-﻿# Converted from: BR-HYST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden14/raw/BR-HYST.ANS
-# Source Revision: archive-sha256:8484fc17833e455250727f80fdc56cc19e17aec4fba2f82e3b86585a9e08cb6c
-# Source SHA-256: 7d4c9a6244d0f18e96b4ab1b412ffb7259168d3b9fd45e7e8d24d54c57756da4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BR-HYST.ANS by beerfull (Maiden); released in maiden14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: hysteria
-# SAUCE Author: beerfull
-# SAUCE Group: Maiden
-# SAUCE Date: 19971202
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: hysteria by beerfull | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden14-br-hyst
 
 Write-Host '
    [1;30m [0m

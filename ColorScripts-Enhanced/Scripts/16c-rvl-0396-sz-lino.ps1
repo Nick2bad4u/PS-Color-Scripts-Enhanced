@@ -1,18 +1,4 @@
-﻿# Converted from: SZ-LINO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rvl-0396/raw/SZ-LINO.ANS
-# Source Revision: archive-sha256:6ba51b3d0dc168dac68fc2016875b770d4335425f90ca1ed6abc12b1946ac90a
-# Source SHA-256: 9ea69841f4e4d010b2217e274aa1ce4483482f59d775d24ddbd8cc593c0261ce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SZ-LINO.ANS by Seize (RiVAL); released in rvl-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Linoleum
-# SAUCE Author: Seize
-# SAUCE Group: RiVAL
-# SAUCE Date: 19960227
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Linoleum by Seize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rvl-0396-sz-lino
 
 Write-Host '
 

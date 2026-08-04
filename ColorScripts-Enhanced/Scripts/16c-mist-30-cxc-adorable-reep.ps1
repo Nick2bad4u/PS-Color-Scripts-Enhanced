@@ -1,19 +1,4 @@
-﻿# Converted from: CXC-ADORABLE_REEP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/CXC-ADORABLE_REEP.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: 20c037651c28665c4e58ac94b7fc0b2b3427c9757f873a9daeb1e88db242bd43
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CXC-ADORABLE_REEP.ANS by CoaXCable (Mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Adorable Reep
-# SAUCE Author: CoaXCable
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241229
-# SAUCE Dimensions: 80x42
-# SAUCE Font: IBM VGA
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: Adorable Reep by CoaXCable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-cxc-adorable-reep
 
 Write-Host '
 [1;33m███████████████████████████████████████████████████████████████[0;1;37m████████████████[0m

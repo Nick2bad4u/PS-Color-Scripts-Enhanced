@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-AWE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9704/raw/AVE-AWE.ANS
-# Source Revision: archive-sha256:da151757a637299fc8da8cc755ae75b6a0e1a281dd915d29497f1d00d429e5c1
-# Source SHA-256: 5ea74347decb2696f3571171e712536d0b96279d351aff72b692d192a1588da3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-AWE.ANS by Avenger (AWE Lettering); released in awe9704 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: AWE Promotional
-# SAUCE Author: Avenger
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970312
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: AWE Promotional by Avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9704-ave-awe
 
 Write-Host '
                                                      [1;34m░[0m   [1;34m█▄▌[0m [1;34m▀▌[0m [1;34m▄░[0m      [1;34m  [0m

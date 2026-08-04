@@ -1,13 +1,4 @@
-﻿# Converted from: AS-GBMAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/smr-03/raw/AS-GBMAT.ANS
-# Source Revision: archive-sha256:77d33932051a2296478bdf37a8b9b352e6a9992871ddd0f90fd8cb62b836d471
-# Source SHA-256: dda04f76680c7d8571920be61250bb4bf16dfa220cfb6cfb3ac04ffa1a49a36d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AS-GBMAT.ANS by Asd (smr-03); released in smr-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: AS-GBMAT.ANS by Asd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-smr-03-as-gbmat
 
 Write-Host '
                                 [32m [0;37m                             [0;32m ▄▄[0;1;36;42m░[0;32m▄▒▒▀▀[0;37m         [0m

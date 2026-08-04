@@ -1,18 +1,4 @@
-﻿# Converted from: CA-EDGE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend03/raw/CA-EDGE.ANS
-# Source Revision: archive-sha256:6d767e631d661e623edf3d8ec034eb7a5a9a7ccee4a3a8c748daf8e938f0d386
-# Source SHA-256: 84f7dc7208d3445d2178a1d28ac816eaa84c249dc59dc3ac7aa64814d9bb01a1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CA-EDGE.ANS by catonica (blend); released in blend03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: circuil edge
-# SAUCE Author: catonica
-# SAUCE Group: blend
-# SAUCE Date: 19961012
-# SAUCE Dimensions: 80x53
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: circuil edge by catonica | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend03-ca-edge-part01
 
 Write-Host '
 [1;30m██[0;1;30;43m▓[0m [1;31;43m▒░[0;33m████████████████████████████████████████████████████████████[0;1;31;43m░░░▒[0;33m [0;1;34;44m▓[0;1;34;46m▓[0;1;34;40m███[0;1;34;46m▓▓[0;1;34;44m▓▒[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: PND-DRAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d0697a3/raw/PND-DRAS.ANS
-# Source Revision: archive-sha256:4b1a5edf079ccd5aab68f5664461dac73c3f815b42e2d60b05d52946fe416fe5
-# Source SHA-256: 562efb0c68c8516942852977545424ae95e3a26e20a4a95818ba6e800936f451
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PND-DRAS.ANS by pandur (demons); released in d0697a3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: drastic login
-# SAUCE Author: pandur
-# SAUCE Group: demons
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: drastic login by pandur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d0697a3-pnd-dras
 
 Write-Host '
            [1;30m▓▓▄  ▄▄█▀  ▄██▀▀██  █▄▄[0m              [31m▄[0;1;31;41m▄█[0;1;31;47m▀ █▀[0;1;31;41m██████████▀███▀███▀▀▀[0;31m▀▀▀[0m

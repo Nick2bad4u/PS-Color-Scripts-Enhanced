@@ -1,18 +1,4 @@
-﻿# Converted from: ZO-DELI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9601/raw/ZO-DELI.ANS
-# Source Revision: archive-sha256:7aa9123f877021b71fa63f38de012fc68287c00ecd76f3a2105e748660eee14f
-# Source SHA-256: 70117a7082f92e3c848731c9ae7a6470e8794a52f4fdb90a3f65b90eb83da1b7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZO-DELI.ANS by zork (blade productions); released in blde9601 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the deli fontage
-# SAUCE Author: zork
-# SAUCE Group: blade productions
-# SAUCE Date: 19951220
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: the deli fontage by zork | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9601-zo-deli
 
 Write-Host '
                               the       [1;33m░▄▄░[0m  [1;33m▀▀ [0m       [1;30m [0;1;33m▄[0m

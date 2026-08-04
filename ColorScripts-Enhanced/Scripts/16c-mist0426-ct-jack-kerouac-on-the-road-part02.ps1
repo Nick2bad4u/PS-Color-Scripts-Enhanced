@@ -1,20 +1,4 @@
-﻿# Converted from: CT-JACK_KEROUAC-ON_THE_ROAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0426/raw/CT-JACK_KEROUAC-ON_THE_ROAD.ANS
-# Source Revision: archive-sha256:c759ba228fb42808866da1267838a1ce2371215b87bc273c64f35f4bc653e77d
-# Source SHA-256: c0e38c84e078372cd540375b638224fc1144ec44ae79952e0b2887a2fbeab699
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CT-JACK_KEROUAC-ON_THE_ROAD.ANS by Cthulu (Mistigris); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: On the Road
-# SAUCE Author: Cthulu
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260422
-# SAUCE Dimensions: 80x90
-# SAUCE Font: IBM VGA
-# SAUCE Comments: 1st edition, Viking Press.  Cover art by Bill English.
-# Lines: 47-89
-# Columns: 1-80
+﻿# Artwork: On the Road by Cthulu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0426-ct-jack-kerouac-on-the-road-part02
 
 Write-Host '
 [1;41m▓▓[0;1;40m██[0;1;41m▓[0;1;40m█[0;34m█[0;1;37m██[0;34m█████████[0;1;37;44m░▓░[0;31;44m░[0;31;40m██[0;1;31;41m░[0;31m██[0;1;31;41m░[0;31m███[0;1;37;41m░▒[0;31m▀[0;1;37;41m░▒▒[0;34m▀[0;1;37;41m▒▓▓[0;1;37;40m██[0;1;37;41m▓[0;1;37;40m████████[0m [1m░[0m [1m░[0m [1m░[0m [1m██[0;34m███[0;1;37m█[0m [1m▒▒▒▒▓▓▓███████[0m

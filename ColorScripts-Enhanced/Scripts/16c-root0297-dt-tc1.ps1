@@ -1,15 +1,4 @@
-﻿# Converted from: DT-TC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0297/raw/DT-TC1.ANS
-# Source Revision: archive-sha256:ecfcd3f5cd2c4412c60edbfa5c15fbea724948a8a18d0e8a8931276c9082657e
-# Source SHA-256: 0a666c64abfac07c9d3afb8666b638f37099b418b19a6e8c4819669903a65434
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-TC1.ANS by Defiant (root0297); released in root0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Crypt
-# SAUCE Author: Defiant
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: The Crypt by Defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0297-dt-tc1
 
 Write-Host '
 [32m▐[0;1;32m▄▄[0;1;32;42m▄▓▄[0;1;32;40m▄ [0;1;30;40m▀▄▄[0m     [32m░■ ▀[0m                                     [32m▀■ ▀▀[0;1;32;42m▀▀[0;1;32;40m█▄▄[0;32m▄░░░ ▀ ▀[0;1;32;42m▀█[0;1;32;40m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: 6R-ARMA!.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna03/raw/6R-ARMA!.ans
-# Source Revision: archive-sha256:997aaab655669129eb266c21ca0c4588b603e11c90338498bb530f8bba390fb2
-# Source SHA-256: 9367500c43f345a1cd8ae93aca3a3aa546d6d7479b8659033e963854c5d98485
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 6R-ARMA!.ans by Groove (thesauna03); released in thesauna03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Armafox
-# SAUCE Author: Groove
-# SAUCE Date: 20220323
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Armafox by Groove | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna03-6r-arma
 
 Write-Host '
        [35m▄ [0;33ma[0;37m             [0;1;30mr[0m              [33mm[0;37m              [0;1;30ma[0m        [35m▀ ▄[0;33mf[0;37m     [0;1;30mo[0;35m  [0;1;30mx[0m

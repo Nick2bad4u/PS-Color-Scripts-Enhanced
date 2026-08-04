@@ -1,17 +1,4 @@
-﻿# Converted from: KO-DARK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/brhood02/raw/KO-DARK.ANS
-# Source Revision: archive-sha256:3116c5502285672e08ebd3993834dcfa2070529c71dc4b0a25ebc4b675dbf891
-# Source SHA-256: 0b1e64b85101eae50362d484e23dfdc6696def7ae345f7fde8eea5de76d32a60
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KO-DARK.ANS by kingpin_o (guest) (brhood02); released in brhood02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: dark eternity
-# SAUCE Author: kingpin_o (guest)
-# SAUCE Date: 19981229
-# SAUCE Dimensions: 80x95
-# Lines: 49-95
-# Columns: 1-80
+﻿# Artwork: dark eternity by kingpin_o (guest) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-brhood02-ko-dark-part02
 
 Write-Host '
 [1;30m█░██████▒█▓▀█[0;1;33m███[0;1;30;47m▐▌░░░░░░░          [0m█████████████████[1;30;47m░░░[0m██████[1;30;47m░░░░[0m██████████████

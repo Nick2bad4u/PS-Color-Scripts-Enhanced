@@ -1,19 +1,4 @@
-﻿# Converted from: ungenannt-b7.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_miracle_on_67th_street/raw/ungenannt-b7.ans
-# Source Revision: archive-sha256:7a78b3edd176c6d05feb481522f2c4f3e57721df62292c2b4ce537e855c41ae8
-# Source SHA-256: 29b25f3192ef125c3b031d1a5ad6ac9b42922ea86664364b5d9e05339a23d194
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ungenannt-b7.ans by ungenannt (Blocktronics); released in blocktronics_miracle_on_67th_street and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: B7
-# SAUCE Author: ungenannt
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20181223
-# SAUCE Dimensions: 80x229
-# SAUCE Font: IBM VGA
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: B7 by ungenannt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-miracle-on-67th-street-ungenannt-b7-part01
 
 Write-Host '
 [38;2;171;171;171;48;2;0;0;0m  [0;1;38;2;87;255;255;48;2;0;0;0m                        [0m                 [38;2;0;171;171;48;2;0;0;0m░[0m                            [1;38;2;87;255;255;48;2;0;0;0m      [0m

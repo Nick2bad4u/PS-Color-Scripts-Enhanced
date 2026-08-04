@@ -1,18 +1,4 @@
-﻿# Converted from: cn!core.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cn202101/raw/cn!core.ans
-# Source Revision: raw-sha256:664599f3b342f96853a422ec278d9386b477460745a826a7f38bb44b93ec1094
-# Source SHA-256: 664599f3b342f96853a422ec278d9386b477460745a826a7f38bb44b93ec1094
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cn!core.ans by cooN (cn202101); released in cn202101 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Core
-# SAUCE Author: cooN
-# SAUCE Date: 20210913
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Core by cooN | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cn202101-cn-core
 
 Write-Host '
               [1;30m░[0m           [1;30m░[0m             [1;30m░[0m            [1;30m░[0m                [1;30m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: CR-CL01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge16/raw/CR-CL01.ANS
-# Source Revision: archive-sha256:41b95bc60f7563fc793aa38badcbd774150d7a4047808139dd61df92b8192e56
-# Source SHA-256: 9e0e590cd2a70e2779e5451ce2b27eeeb782e1f7dc4ffb2dc95952c5ac912c5a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CR-CL01.ANS by creator (Avenge Productions); released in avenge16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: colly
-# SAUCE Author: creator
-# SAUCE Group: Avenge Productions
-# SAUCE Date: 19990513
-# SAUCE Dimensions: 80x74
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: colly by creator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge16-cr-cl01-part01
 
 Write-Host '
           [31m▄[0m

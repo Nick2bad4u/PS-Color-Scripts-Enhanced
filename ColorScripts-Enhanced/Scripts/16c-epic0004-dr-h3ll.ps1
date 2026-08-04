@@ -1,18 +1,4 @@
-﻿# Converted from: DR-H3LL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/epic0004/raw/DR-H3LL.ANS
-# Source Revision: archive-sha256:c75b9e867fa35125e489436a8824c556bb5ed530e56134a70eaa34a6b213a513
-# Source SHA-256: 77ee902bdf39d7cfc05b9bcdab0be513a2e2600b1b0633ee22a4fa7d551b1e79
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DR-H3LL.ANS by Dr. Shizuma (EPiC); released in epic0004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Hellium!
-# SAUCE Author: Dr. Shizuma
-# SAUCE Group: EPiC
-# SAUCE Date: 19991021
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Hellium! by Dr. Shizuma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-epic0004-dr-h3ll
 
 Write-Host '
                                  [1;30m▄[0m         ▄▄▄[1;30;46m▀[0;1;30;40m▀▀[0;33m▄▄▄▄░[0;37m [0;1;33m▄[0m▄▄██████[1m▄▄[0m▄ [33m▀[0;1;33m▀[0;1;37m██[0;1;33m█▄[0m▀[1;30;47m▄▀▀[0;1;37;47m▄▄[0m

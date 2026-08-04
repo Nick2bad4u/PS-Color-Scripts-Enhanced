@@ -1,18 +1,4 @@
-﻿# Converted from: cn!esther.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cn202101/raw/cn!esther.ans
-# Source Revision: raw-sha256:ac87abb702e23c624b01273245036068df8a6a5a4cf4ed2a726ac5ee296eee9e
-# Source SHA-256: ac87abb702e23c624b01273245036068df8a6a5a4cf4ed2a726ac5ee296eee9e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cn!esther.ans by cooN (cn202101); released in cn202101 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Esther
-# SAUCE Author: cooN
-# SAUCE Date: 20210913
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Esther by cooN | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cn202101-cn-esther
 
 Write-Host '
 

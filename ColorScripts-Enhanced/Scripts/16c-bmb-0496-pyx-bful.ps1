@@ -1,13 +1,4 @@
-﻿# Converted from: PYX-BFUL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0496/raw/PYX-BFUL.ANS
-# Source Revision: archive-sha256:9fb4b1757bdb5b2d8b6612a644ec54aa19d509c5d6be8e96f657255031b4504b
-# Source SHA-256: 0a8c47efdf40ffb6fa8230518cccb7d7a8f12cdfd45cb63320e9e7f4ddaf4f4c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-BFUL.ANS by Pyx (bmb-0496); released in bmb-0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: PYX-BFUL.ANS by Pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0496-pyx-bful
 
 Write-Host '
 

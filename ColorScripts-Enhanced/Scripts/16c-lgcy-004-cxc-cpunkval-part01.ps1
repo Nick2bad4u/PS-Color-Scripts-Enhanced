@@ -1,19 +1,4 @@
-﻿# Converted from: cxc-cpunkval.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-004/raw/cxc-cpunkval.ans
-# Source Revision: archive-sha256:c716e28d4b828a0135c19992fe2f71464879479199ebc42fd3d533b5bd3bf4d4
-# Source SHA-256: 53ce077bbff960df6ab17b82fa43a2b2892f7ec053abb68077f773cb0ddb5fdf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cxc-cpunkval.ans by Coaxcable (Legacy Krew); released in lgcy-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Cyberpunk Valentine's Day
-# SAUCE Author: Coaxcable
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20210502
-# SAUCE Dimensions: 80x56
-# SAUCE Font: IBM VGA
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Cyberpunk Valentine's Day by Coaxcable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-004-cxc-cpunkval-part01
 
 Write-Host '
                                [35m▄[0;37m     [0;35m▄[0;37m   [0;35m■▄[0;37m       [0;35m▄[0m

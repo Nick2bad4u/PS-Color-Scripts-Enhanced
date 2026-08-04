@@ -1,17 +1,4 @@
-﻿# Converted from: TAE-FTC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pen15-02/raw/TAE-FTC.ANS
-# Source Revision: archive-sha256:c45faac655b2350900a9acb8b35a0ed4568af78fa28eaab050d211446248758a
-# Source SHA-256: b7a8acbd78316073a4afeab3c45af08757c32e7af2dd22cafc0961cd8c5d7e3d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TAE-FTC.ANS by taevore (pen15 art); released in pen15-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: taevore
-# SAUCE Group: pen15 art
-# SAUCE Date: 19980428
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: TAE-FTC.ANS by taevore | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pen15-02-tae-ftc
 
 Write-Host '
      ░

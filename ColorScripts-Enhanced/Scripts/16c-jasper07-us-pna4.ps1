@@ -1,13 +1,4 @@
-﻿# Converted from: us-pna4.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper07/raw/us-pna4.ans
-# Source Revision: archive-sha256:c42bfa4438f002452f1a6bc8caf7f32e2e6bfd8fffb358dd625c49ecd6cf6820
-# Source SHA-256: 2f8bcb702c23eca3fc2369d1822429a0c49eaacd15e67eaa7a57ee482921dedc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-pna4.ans by Fever + Zerostar (jasper07); released in jasper07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: us-pna4.ans by Fever + Zerostar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper07-us-pna4
 
 Write-Host '
 [31m ▀▀█▄ ▀█▄[0;32m  [0;1;32m▄[0;31m ▀▀█▄[0;32m [0;1;32m▄ [0;31m▀▀█▄[0;1;32m▀█▄[0;32m [0;31m▀███▓▀▀▀▀[0;1;37;41m ░░░░▄▄[0;31m███▀ [0;1;32m▄█▀[0;32m [0;31m▄███[0;1;37;41m▄▄▄▄▄■[0;31m▀[0;32m [0;1;32m▄[0;32m [0;31m██▀███████▀▀[0m

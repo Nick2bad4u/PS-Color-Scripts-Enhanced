@@ -1,18 +1,4 @@
-﻿# Converted from: PH-COR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eden0495/raw/PH-COR1.ANS
-# Source Revision: archive-sha256:237b9e6d55d8a6638986ba7714e0d9f7fe6d1f7d7e934f8c205f1a212e68415a
-# Source SHA-256: 59f0b669a65bc129ff4c9355d6be2a1e1a9bff72f78df50665349ef83535fbd1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PH-COR1.ANS by Pushead (Eden); released in eden0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: cOre
-# SAUCE Author: Pushead
-# SAUCE Group: Eden
-# SAUCE Date: 19950407
-# SAUCE Dimensions: 80x93
-# Lines: 50-93
-# Columns: 1-80
+﻿# Artwork: cOre by Pushead | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eden0495-ph-cor1-part02
 
 Write-Host '
      [36m▐[0;36;46m [0;1;30;46m░[0;1;36;46m░ ▒░▓[0m          [36m▐[0;1;36;46m░[0;1;30;46m░▒[0;36m▄▓[0m       [36m▓▄[0;1;36;46m░ ░[0;36m▌  [0;1;36;46m░░▒ [0;36m▌[0m       [1;36;46m▒▒░▓[0m [36m▓[0;36;46m [0;1;30;46m░[0;36m▄[0m

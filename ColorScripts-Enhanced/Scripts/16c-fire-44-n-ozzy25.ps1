@@ -1,19 +1,4 @@
-﻿# Converted from: N-OZZY25.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-44/raw/N-OZZY25.ANS
-# Source Revision: archive-sha256:6c51508cedeaa9140fcf08750a75edb14e0cec0eebe7b4290346e95cd3548876
-# Source SHA-256: dc0f2a493c07930e2cdd0d53ef8f98a1b12da8708afe6e7861fedf260513ec8d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-OZZY25.ANS by nail (fire); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: prince of darkness
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 20251111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: prince of darkness by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-44-n-ozzy25
 
 Write-Host '
 [35;40m▓▓▀▓▓▓▓▀▀▄▄▄▄ [0;1;30;40m   ▄[0;1;30;43m▓░[0;33m█▄█ [0;37;43m░░[0;1;30;40m [0;33m▄▓█[0;1;31;43m▄[0;1;31;47m▓▓▓[0;1;31;40m█[0;1;31;47m▓▓[0;1;31;40m██[0;1;31;47m▓[0;1;31;40m████[0;1;31;43m▓▓▒▒░[0;33m▄[0;37m [0;1;30m▀[0;1;30;43m▓▓[0;1;30;40m▀[0;1;30;43m░[0;1;30;40m▄▀[0;1;30;43m▓▓[0;1;30;40m▄[0m   [35m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m

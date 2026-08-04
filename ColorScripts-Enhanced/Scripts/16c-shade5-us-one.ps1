@@ -1,18 +1,4 @@
-﻿# Converted from: US-ONE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shade5/raw/US-ONE.ANS
-# Source Revision: archive-sha256:9eb97f9412f63f0ce4837a80894f87a3aed455c1487394481c6e40b531c2203d
-# Source SHA-256: d383b1d6eae763315cf2b0e211f492b668b601c7416f1940320eb1d88c2a8702
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ONE.ANS by Raider + Gooe (shade); released in shade5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: one liner
-# SAUCE Author: gooe & raider
-# SAUCE Group: shade
-# SAUCE Date: 19970225
-# SAUCE Dimensions: 80x25
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: one liner by Raider + Gooe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shade5-us-one
 
 Write-Host '
                 [30;44m██[0m     [30;44m█▓[0;34;40m▄[0m                                           [34;40m▐▄▄▄[0m

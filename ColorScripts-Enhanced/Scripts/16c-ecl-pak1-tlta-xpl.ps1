@@ -1,18 +1,4 @@
-﻿# Converted from: TLTA@XPL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak1/raw/TLTA%40XPL.ANS
-# Source Revision: archive-sha256:6b35b56dc24903414bd16ecb32b5990f418418f7d4290c94fd51891e14acec7b
-# Source SHA-256: 23c6178a281d13ea8c3a233e3565b1262c691a50cdbc5ff00ce0707cfeff0280
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TLTA@XPL.ANS by Timeless + The Avenger (ecolove); released in ecl-pak1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: explizit
-# SAUCE Author: tl/ta
-# SAUCE Group: ecolove
-# SAUCE Date: 19971123
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: explizit by Timeless + The Avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak1-tlta-xpl
 
 Write-Host '
                     [35m ▄[0m    [35m   [0m                            [35m▄[0m

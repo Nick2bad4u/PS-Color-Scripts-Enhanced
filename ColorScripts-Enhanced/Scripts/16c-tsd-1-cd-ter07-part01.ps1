@@ -1,13 +1,4 @@
-﻿# Converted from: CD-TER07.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tsd-1/raw/CD-TER07.ANS
-# Source Revision: raw-sha256:8173aa048da3e3cb58a7bca98bb63332c283c4520ec5c0666db9049e0268d629
-# Source SHA-256: 8173aa048da3e3cb58a7bca98bb63332c283c4520ec5c0666db9049e0268d629
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CD-TER07.ANS by Drakula (tsd-1); released in tsd-1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: CD-TER07.ANS by Drakula | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tsd-1-cd-ter07-part01
 
 Write-Host '
             [33m▄[0m

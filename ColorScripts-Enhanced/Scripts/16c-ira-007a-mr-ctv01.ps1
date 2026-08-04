@@ -1,18 +1,4 @@
-﻿# Converted from: MR-CTV01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira-007a/raw/MR-CTV01.ANS
-# Source Revision: archive-sha256:ee5a82ac7f98955da25871045743238711285c6b7b62811e228512414e2f4a52
-# Source SHA-256: 8973e89703a2b8a03dfc3023e9ec4263ac7341685d0ded5b7703849cff89296a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-CTV01.ANS by Mr.Wrong (irato); released in ira-007a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Color t.v. matrix
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: irato
-# SAUCE Date: 19981001
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Color t.v. matrix by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira-007a-mr-ctv01
 
 Write-Host '
 [30;43m▓▒░░[0;33;40m▀▀▀[0;1;31;40m [0;33m▄[0;1;31m▄▄▄[0m [33m▄[0;1;31m▄▄▄▒▓[0;1;37;41m░[0;1;31;40m▓▒ [0;33m   [0;1;31m [0;33m▀[0;1;31;43m ░░▒▒░▒▒ [0;1;30;43m░░[0;33m█[0;1;31;43m░░░░▒▒▒░░[0;33m████[0;1;30;43m░▒▓█[0;1;30;40m▓░[0m        [33m░[0;37m [0;33m░░ ░░░▒▒▓▓░[0m

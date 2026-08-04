@@ -1,18 +1,4 @@
-﻿# Converted from: ZR-CIB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spas9506/raw/ZR-CIB1.ANS
-# Source Revision: archive-sha256:5aef2da2d1ebb2a75b0fca00fbe51348ca43bfea31f9731b63760759f9a0221b
-# Source SHA-256: f6a9ac502beca74da08ba8999af7168064795888bb081cbb81b1b35b4209f06f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZR-CIB1.ANS by zOltaR (spastik!); released in spas9506 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: cItyee iZ bUr/\/inG ?!???
-# SAUCE Author: zOltaR
-# SAUCE Group: spastik!
-# SAUCE Date: 19950604
-# SAUCE Dimensions: 80x64
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: cItyee iZ bUr/\/inG ?!??? by zOltaR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spas9506-zr-cib1-part01
 
 Write-Host '
 [1;30m▄█▓[0;1;30;47m▀[0;1;30;40m▄▄    ▄▄▀█▓▄[0m                                                [1;30;40m(j0!) [0;33m▄■▓▄█▄▄[0m

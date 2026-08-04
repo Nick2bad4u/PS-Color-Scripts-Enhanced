@@ -1,19 +1,4 @@
-﻿# Converted from: CT-ICY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1225/raw/CT-ICY.ANS
-# Source Revision: archive-sha256:ad7094cd4ecc2b378f2db405885d71750ab479d4047a6dbcbce2412f0935f4aa
-# Source SHA-256: bb3377882ddc9a6f082afbdab680b557e71b977aff3204c6a0585ab9a4cbb1bb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CT-ICY.ANS by Cthulu (Mistigris); released in mist1225 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Icy Draw
-# SAUCE Author: Cthulu
-# SAUCE Group: Mistigris
-# SAUCE Date: 20251221
-# SAUCE Dimensions: 80x87
-# SAUCE Font: IBM VGA
-# Lines: 51-86
-# Columns: 1-80
+﻿# Artwork: Icy Draw by Cthulu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1225-ct-icy-part02
 
 Write-Host '
 [1;30m▒▒▒[0m [1m█[0m            ▐██▀     ▀ [1m▀▄[0m▄ [1;47m▀[0m▀                   ▐██▄▄██████████      █▄ct[1m█[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US-KLEXI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook20/raw/US-KLEXI.ANS
-# Source Revision: archive-sha256:ad9acf30fa46ab5c9a458319782448b90dee64987e366c3cf1e5e495b40c4e0a
-# Source SHA-256: d855cd03a1b01bfe2bd6b6f8097ce0e7ce7a73f9719267674d85a263078b8862
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-KLEXI.ANS by Avenger + Dieznyik (bm + klexikal); released in bmbook20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: klexikal
-# SAUCE Author: avenger + dieznyik
-# SAUCE Group: bm + klexikal
-# SAUCE Date: 19990409
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: klexikal by Avenger + Dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook20-us-klexi
 
 Write-Host '
 [31m════════════════════════════════════════════════════════════════════════════════[0m

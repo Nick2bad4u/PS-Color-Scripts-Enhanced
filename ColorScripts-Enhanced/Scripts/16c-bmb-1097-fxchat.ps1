@@ -1,18 +1,4 @@
-﻿# Converted from: FXCHAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-1097/raw/FXCHAT.ANS
-# Source Revision: archive-sha256:e00f8ccd747d6f713ee8049d7689cafe483a4db84fe36db34569c4f513f6fe6d
-# Source SHA-256: dce055f9642e95dda19431e17af246ad8d12645bfe45307604d7598a425a8d53
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FXCHAT.ANS by Flux (prbmb); released in bmb-1097 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: chat (remix)
-# SAUCE Author: Flux
-# SAUCE Group: prbmb
-# SAUCE Date: 19971022
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: chat (remix) by Flux | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-1097-fxchat
 
 Write-Host '
       [33m▄[0m      [1;33m  ▄[0;33m▄[0;1;33m [0m      [33m▄[0m

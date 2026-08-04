@@ -1,18 +1,4 @@
-﻿# Converted from: MO-GEST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0402/raw/MO-GEST.ANS
-# Source Revision: archive-sha256:19898cc2febb6deadccf50832dc421b4f362a33c899e27278bafd225bbc2d4d4
-# Source SHA-256: 771a7c1075b61177a1564cb942ce1a2649f7aa61289431e872a1dd6f2ba1c82b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MO-GEST.ANS by magnatOp (Revival); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: gesTalt
-# SAUCE Author: magnatOp
-# SAUCE Group: Revival
-# SAUCE Date: 20020415
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: gesTalt by magnatOp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0402-mo-gest
 
 Write-Host '
 

@@ -1,20 +1,4 @@
-﻿# Converted from: hrv_ansiology.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz17/raw/hrv_ansiology.ans
-# Source Revision: archive-sha256:2674245bad3e14fe6d4a935ba8daf9898a4426e394c56ca9710e3afa19d3d943
-# Source SHA-256: 2587676b644a5c0f6fd8638ba24e9a9b8748fbe876121ca09804df97f0075b2e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: hrv_ansiology.ans by harvest (Lazarus); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Church of Ansiology
-# SAUCE Author: harvest
-# SAUCE Group: Lazarus
-# SAUCE Date: 20230702
-# SAUCE Dimensions: 80x150
-# SAUCE Font: IBM VGA
-# SAUCE Comments: The man, the legend.. his holiness of the EGA palette | the minister of 9px, high priest of the CP437 realm. | A tribute to the ANSI artist known simply as nail | acknowledging his skills in the art of the holy textmode | A pivotal figure in the ANSI Art scene where he plays | an important role as the master of ceremonies of the | Saturday Mass in what became known as the Church of Ansilogy.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Church of Ansiology by harvest | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz17-hrv-ansiology-part02
 
 Write-Host '
         [34m░▓     ░[0;37m            [0;1;30m▒[0m▄▄▄■      [34m░[0;33m▓[0;1;31m█[0;1;31;47m░░[0;33m█▓[0;1;30m░[0m [1;30m▒[0m▄   ▄▀ [1;30m▐▐[0m [1;30m█[0m  [1;30m▓[0m [1;30m░[0m [1;30m▀▄▒[0m  [1;30m█[0m

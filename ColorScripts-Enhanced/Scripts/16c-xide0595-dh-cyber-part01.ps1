@@ -1,18 +1,4 @@
-﻿# Converted from: DH-CYBER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/xide0595/raw/DH-CYBER.ANS
-# Source Revision: archive-sha256:466351a1eca094d1b53ab4889d24356e9cdae414dc2e0fc07f0097ac118c9b27
-# Source SHA-256: 03d93910b53cb36cf6475deffd31f001b479b90dc47cde9a61a65919963673f2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DH-CYBER.ANS by Dark Horizon (READ THE INI FILE); released in xide0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: CyberPhuck
-# SAUCE Author: Dark Horizon
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950503
-# SAUCE Dimensions: 80x25
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: CyberPhuck by Dark Horizon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-xide0595-dh-cyber-part01
 
 Write-Host '
 [34m████▀ [0;1;31m▄█▀ [0;34m▄█████████████████████████████████████████████████████████████████████[0m

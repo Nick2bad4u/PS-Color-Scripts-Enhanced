@@ -1,18 +1,4 @@
-﻿# Converted from: US-IKEA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lure003/raw/US-IKEA.ANS
-# Source Revision: archive-sha256:1ff57f893971666a5780ed06387959ae5ebc9c163a5e118549c7818f33792253
-# Source SHA-256: 2afd3270932c9b578753f9eeae3dc87f52b960b3db7637a68e1ed2ae9567bb30
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-IKEA.ANS by Avenging Angel + Avenger (lure); released in lure003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ikea ansi
-# SAUCE Author: multiple artists
-# SAUCE Group: lure
-# SAUCE Date: 20020410
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ikea ansi by Avenging Angel + Avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lure003-us-ikea
 
 Write-Host '
                                              [31m▄▄▄▄▄▄[0m

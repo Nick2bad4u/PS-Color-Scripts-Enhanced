@@ -1,13 +1,4 @@
-﻿# Converted from: JF-STAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ncd0497/raw/JF-STAT.ANS
-# Source Revision: archive-sha256:eca89502cd8e1f7d1180a734517dc7783f9bfec6cc2b9c45338b917c679d8c53
-# Source SHA-256: 222dfdf934205cf275e5014c03017fa5bbd80951aa0bd7830c9e3b62a4eab796
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JF-STAT.ANS by Jellyfish (ncd0497); released in ncd0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: JF-STAT.ANS by Jellyfish | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ncd0497-jf-stat
 
 Write-Host '
 [36m▄▄[0m                                                                       [36mjf![0m

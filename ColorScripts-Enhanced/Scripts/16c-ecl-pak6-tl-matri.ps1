@@ -1,18 +1,4 @@
-﻿# Converted from: TL!MATRI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak6/raw/TL!MATRI.ANS
-# Source Revision: archive-sha256:b4f7c93716eee392b3e6c14cf967ef8fe1e7f7b1161a577fdbf227e863cb53fa
-# Source SHA-256: f5a85ecf4ce614c45429e217d7a45a1a13c8d580cfe5c07aa90b844da9a7b50c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TL!MATRI.ANS by timeless (ecolove); released in ecl-pak6 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: matrix
-# SAUCE Author: timeless
-# SAUCE Group: ecolove
-# SAUCE Date: 19980517
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: matrix by timeless | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak6-tl-matri
 
 Write-Host '
                      [1;30m▄▄[0m      [1;30m▄▄▄█▀▀█▄▄ [0m      [1;30m▄▄▄▄[0m

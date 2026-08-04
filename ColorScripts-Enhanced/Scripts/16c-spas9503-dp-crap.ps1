@@ -1,18 +1,4 @@
-﻿# Converted from: DP-CRAP!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spas9503/raw/DP-CRAP!.ANS
-# Source Revision: archive-sha256:921a7a02fdcd7f04f18871f0002a1b20474c016ac737399d9749e44d2b5c72dd
-# Source SHA-256: a1bde47f545b29f1a4200d73007c1e4f20ed05c7b494c0bf1586cb72c45a6564
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DP-CRAP!.ANS by Dairy Product (spas9503); released in spas9503 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: miscellaneous crap!
-# SAUCE Author: Dairy Product
-# SAUCE Date: 19950225
-# SAUCE Dimensions: 80x47
-# SAUCE Font: ?[0m?[255D
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: miscellaneous crap! by Dairy Product | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spas9503-dp-crap
 
 Write-Host '
 [1m▄▓▄▄▄▄▄▓[0;1;44m▓[0;1;40m▄▄▄▄▄▄ [0;1;30;40m▄[0;1;30;45m▀▀▀[0;1;30;40m▄[0;1;30;45m▓▀▀▀▀[0;1;30;40m▄▄ [0;1;37;40m▄ [0;1;30;40m▄▄[0;1;30;47m▓[0;1;30;40m▀▄▓[0;1;30;45m▀▀▀▓[0;1;30;40m▄▄  ▄[0;1;30;47m▓[0;1;30;40m█[0;1;30;45m▀▀[0;1;30;40m▓ ■▄[0;1;30;45m▀[0;1;30;40m█▄[0;1;30;45m▓▀▀▀▀▀[0;1;30;40m▄▄ [0;1;37;40m▄[0;1;37;44m▓[0;1;37;40m▄▄▄▄▄▄[0;1;37;46m▓[0;1;37;40m▄▄▄[0;1;37;46m▓░[0m

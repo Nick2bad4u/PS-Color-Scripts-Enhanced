@@ -1,18 +1,4 @@
-﻿# Converted from: DND-TOP7.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-006/raw/DND-TOP7.ANS
-# Source Revision: archive-sha256:4d7b445ca8b643922c5230e9f5b3c442135561ba0bcfa9b1ae5cb138b563798c
-# Source SHA-256: 28efa2c8213c9d2ad4a6b38c8583f08f502becfe6349817d141a9f0f84b4fa4f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DND-TOP7.ANS by diAMONd (RiB); released in rib-006 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: TOP SEVEN
-# SAUCE Author: diAMONd
-# SAUCE Group: RiB
-# SAUCE Date: 19980306
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: TOP SEVEN by diAMONd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-006-dnd-top7
 
 Write-Host '
 [1;34;44m▄▄▄[0;34m▄▄▄   [0;31m▀[0;1;31m▄▄▄▄[0;31m▄[0m       [36m░[0;30;46m▓░[0;36;40m▓[0;1;36;46m▓▌[0;36m   ░░[0;30;46m▓[0m    [36;40m░[0;30;46m▓[0;36;40m▄[0;1;36;40m▄▄▄▄[0;36m█[0;1;36;46m▄▄   [0;36m▀▀[0m    [34m▄▄▄▄▄▄▓░░░   ▀[0;1;34;44m █▄▄[0;34m▄▄[0;1;34;44m▄ [0m

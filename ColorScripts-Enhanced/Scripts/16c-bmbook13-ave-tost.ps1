@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-TOST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook13/raw/AVE-TOST.ANS
-# Source Revision: archive-sha256:f383b37d2f0265a83b82afcdde57a4dae359d8a5127c467dcea28d0c8500d000
-# Source SHA-256: ca752c43b2d41b809f1aae7c18ebec92c1162dde050dbf45220077169641ef2f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-TOST.ANS by avenger (black maiden); released in bmbook13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: tOast
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19970427
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: tOast by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook13-ave-tost
 
 Write-Host '
        [31m▄[0;1;33m▄▄[0;1;33;44m▀[0;1;33;40m▀[0;34m▀[0m     [1;33m▐[0;1;33;42m▄[0;1;33;40m▄▄▄▄▄▄▄▄[0;32m▄[0m    [33m▄▄[0;37;43m░[0;33;40m█[0;1;33;43m░▓[0;1;33;40m███[0;1;33;42m▓▄[0;32m▄[0m         [1;33m [0m

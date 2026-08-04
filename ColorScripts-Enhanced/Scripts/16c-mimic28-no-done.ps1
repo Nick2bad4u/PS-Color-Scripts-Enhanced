@@ -1,18 +1,4 @@
-﻿# Converted from: no-done.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic28/raw/no-done.ans
-# Source Revision: archive-sha256:fbdec470f2af164148a3e109b56a65368fb0d8e0c236d4bc238cf6e1ec39808a
-# Source SHA-256: da9606a251a0fb10a01936523dc457f8ba2ff9f1868819f372d57eb1955440be
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: no-done.ans by noches (l124&mimic); released in mimic28 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: info layout
-# SAUCE Author: noches
-# SAUCE Group: l124&mimic
-# SAUCE Date: 20001015
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: info layout by noches | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic28-no-done
 
 Write-Host '
 [33m.,┐*\[0;1;31m§§§§§§┘┘┘[0;33m┘[0;1;31m┘┘[0;33m┘┘[0m                       [1;31m         [0m

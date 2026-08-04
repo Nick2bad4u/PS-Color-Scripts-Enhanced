@@ -1,18 +1,4 @@
-﻿# Converted from: PC-MM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst0996/raw/PC-MM.ANS
-# Source Revision: archive-sha256:c58a9dfd64582c9f28da9ef1a731e3d6ed8d515023a3071391d83924f7f5a36c
-# Source SHA-256: e564159ec782f4123d8488fd158205aa6b10ddd955d82044a76d263a1c11cab0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-MM.ANS by pcarcass` (twisted); released in twst0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: magic mushrooms
-# SAUCE Author: pcarcass`
-# SAUCE Group: twisted
-# SAUCE Date: 19960901
-# SAUCE Dimensions: 80x49
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: magic mushrooms by pcarcass` | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst0996-pc-mm
 
 Write-Host '
 [1m[0m[1;30m--───────────────────────────────────────────────────────────────────────────---[0m

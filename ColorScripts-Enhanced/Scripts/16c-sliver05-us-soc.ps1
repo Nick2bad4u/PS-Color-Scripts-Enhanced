@@ -1,18 +1,4 @@
-﻿# Converted from: US-SOC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sliver05/raw/US-SOC.ANS
-# Source Revision: archive-sha256:6e2cc64d3369490e79ab97d6818428e76b42d77e8d26ea9913e9d21a1c34ddf3
-# Source SHA-256: 8bc1e612b3e0eba1f01c5ee03ddf9ca6262f0fea9945c84b7769eb21447aa1fe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SOC.ANS by Unique Phreak + Sadistic Intent (sliver); released in sliver05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: society promo
-# SAUCE Author: multiple artists
-# SAUCE Group: sliver
-# SAUCE Date: 19970801
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: society promo by Unique Phreak + Sadistic Intent | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sliver05-us-soc
 
 Write-Host '
                             [30;47m█[0m            [32;40m■[0m

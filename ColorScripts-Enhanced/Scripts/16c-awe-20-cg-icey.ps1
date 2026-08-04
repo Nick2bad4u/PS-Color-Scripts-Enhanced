@@ -1,18 +1,4 @@
-﻿# Converted from: CG-ICEY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-20/raw/CG-ICEY.ANS
-# Source Revision: archive-sha256:23bbf66596e3e4f3c4b9e335dc62ccc331634eba04c3d179b73e396fa3971807
-# Source SHA-256: 7766fbc50ea9b2d2a4d64f0c78d14bf02d0a1770c7f7a9aef05095ec319766fb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-ICEY.ANS by Cryogenic (AWE Lettering); released in awe-20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Ice Promotional
-# SAUCE Author: Cryogenic
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981231
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Ice Promotional by Cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-20-cg-icey
 
 Write-Host '
                            ░

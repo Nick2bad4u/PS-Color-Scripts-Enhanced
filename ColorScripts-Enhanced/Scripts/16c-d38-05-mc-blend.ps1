@@ -1,18 +1,4 @@
-﻿# Converted from: MC!BLEND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-05/raw/MC!BLEND.ANS
-# Source Revision: archive-sha256:eb0948671797309554c3545cf502cce8943191f153468011a76cca894133dc0a
-# Source SHA-256: 1efbce033ae22c5303b86d3bfb6ad3435b4b0bc9c52cfe2246e02dc886cefc88
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MC!BLEND.ANS by Madcap (d.38); released in d38-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: For Shadows, land of
-# SAUCE Author: Madcap
-# SAUCE Group: d.38
-# SAUCE Date: 20810408
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: For Shadows, land of by Madcap | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-05-mc-blend
 
 Write-Host '
 [1;37m██████▀ ▀▓▀████[0;1;37;47m▓▓[0;1;37;40m▓▓▓[0;1;37;47m▓▓▓[0;1;37;40m███████[0;1;37;47m▓▓[0;1;37;40m▓▓[0;1;37;47m▓[0;1;37;40m███░[0m         [35m·[0m

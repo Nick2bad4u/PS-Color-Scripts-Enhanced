@@ -1,19 +1,4 @@
-﻿# Converted from: cxc_lazarus_colored_baner2021.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz14/raw/cxc_lazarus_colored_baner2021.ans
-# Source Revision: archive-sha256:41b4e3770fbffb058172283f3da2aa00e47c872480cf93fdef94629ebc0751bb
-# Source SHA-256: 198b892c66370a15ec99351132365b5ceff8a9619671e185a05ebc98d76f82df
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cxc_lazarus_colored_baner2021.ans by CoaXCable (LAZARUS); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Lazarus
-# SAUCE Author: CoaXCable
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20211213
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Lazarus by CoaXCable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz14-cxc-lazarus-colored-baner2021
 
 Write-Host '
 

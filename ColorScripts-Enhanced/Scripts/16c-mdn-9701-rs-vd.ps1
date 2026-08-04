@@ -1,18 +1,4 @@
-﻿# Converted from: RS-VD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9701/raw/RS-VD.ANS
-# Source Revision: archive-sha256:45d6a082bca05ad193b510335e91b0bec312e4835ff5735e0eb40fe62d0e1180
-# Source SHA-256: 1df5b18bfc75ecf67ddd0080268ca9916358bda3a0faebda765607bce077fee2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-VD.ANS by rorshack (Maiden Brazil); released in mdn-9701 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: virtual death
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19961211
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: virtual death by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9701-rs-vd
 
 Write-Host '
                               [1;30m░░[0m [1m▄▄▄▄▄▄▄▄[0m

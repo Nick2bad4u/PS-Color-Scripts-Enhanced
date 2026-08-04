@@ -1,18 +1,4 @@
-﻿# Converted from: NS-ZONE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense14j/raw/NS-ZONE.ANS
-# Source Revision: archive-sha256:09ec71553d0e99093e00659fd39efd917ea23ae8b70a1c6de1aece96dc2e61a3
-# Source SHA-256: 379bf04b0f2acb360fa0993f309e0587670b98b6d5adfe698252702b630352a4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NS-ZONE.ANS by ansichrist (senseimagery); released in sense14j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: outzone
-# SAUCE Author: ansichrist
-# SAUCE Group: senseimagery
-# SAUCE Date: 20030522
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: outzone by ansichrist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense14j-ns-zone
 
 Write-Host '
 [1;31m▒▒[0;31m█[0;1;31m▒[0;31m█▀▀[0;34m▄[0;1;34m▄▄[0;1;34;44m▄[0;1;34;40m██[0;1;34;44m▄[0;1;34;40m▄[0;34m▄[0;31m▀▀███[0;1;31m▒▒[0;31m██▀▀[0;34m▄[0;1;34m▄▄[0;1;34;44m▄▓▓▄[0;1;34;40m▄▄[0;34m▄[0;31m▀▀▒▄[0;34m▀[0;1;34;44m▀▄[0;34m▄[0;31m▀██[0;30;41m░[0;31;40m▓▄[0;34;40m▀[0;1;34;44m▀[0;1;34;40m██[0;1;34;47m▓▓[0;1;34;44m▓░[0;34m▀[0;1;34;44m▓▓[0;1;34;40m██[0;1;34;44m▓[0;34m▀▄[0;1;34m▄█[0;1;34;47m▓▓[0;34m▄[0m    [34m▀[0;1;34;44m░[0;34m▄[0;31m▀[0m

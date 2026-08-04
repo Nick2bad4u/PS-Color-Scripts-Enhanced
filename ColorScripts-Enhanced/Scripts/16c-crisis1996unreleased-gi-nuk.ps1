@@ -1,18 +1,4 @@
-﻿# Converted from: GI-NUK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/crisis1996unreleased/raw/GI-NUK.ANS
-# Source Revision: archive-sha256:d42db79c3670e318c85ffe28ad5142bf995c4610d0c05cf0eae2c80b9a793fbb
-# Source SHA-256: 515cfcfd197f809a246730642975563f062a46e1d424cfb44e38365654c4a3f5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GI-NUK.ANS by Giger (crisis); released in crisis1996unreleased and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Nuklear Wasteland
-# SAUCE Author: Giger
-# SAUCE Group: crisis
-# SAUCE Date: 19960325
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Nuklear Wasteland by Giger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-crisis1996unreleased-gi-nuk
 
 Write-Host '
 [1;30;43m▓▒▒▓[0;1;30;40m███▓▀▀[0m  [1;30;47m▀░[0;30;47mcrisis[0;1;37;47m▓▄▓▄▄▄▄[0;1;37;40m▀▀▄▀▀▀░ [0;1;37;47m██████[0;1;37;40m▀▀▀▀▀▀[0;1;37;47m███████[0;1;37;40m▌▀▀▀▀[0;1;37;47m▄▄▄[0m▄     [1;30m▀▀▀▀▓█[0;1;30;43m▓[0;1;30;47m▓[0;1;30;40m█[0;1;30;43m▓[0;1;30;40m█[0m

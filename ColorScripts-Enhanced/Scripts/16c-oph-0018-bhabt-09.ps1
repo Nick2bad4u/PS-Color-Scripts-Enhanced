@@ -1,17 +1,4 @@
-﻿# Converted from: BHABT-09.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oph-0018/raw/BHABT-09.ANS
-# Source Revision: archive-sha256:b78bc978b69dedfb9a07152cba296ecefc97611bd7bc7f5211d489ff748613dc
-# Source SHA-256: 32d05e3b538cb7d6dad30374f557199352a0d18bfd533412e12609f4d96b7718
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BHABT-09.ANS by bad habit (oph-0018); released in oph-0018 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: []   _[\[\\[_] ^\\  \[ _[_ _]^_[ 0\
-# SAUCE Author: bad habit
-# SAUCE Date: 19960917
-# SAUCE Dimensions: 80x13
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: [] _[\[\\[_] ^\\ \[ _[_ _]^_[ 0\ by bad habit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oph-0018-bhabt-09
 
 Write-Host '
  [1;30m▄▄█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;45m▓[0;1;30;40m▄▄[0m

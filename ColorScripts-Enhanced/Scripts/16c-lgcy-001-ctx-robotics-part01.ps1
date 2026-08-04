@@ -1,20 +1,4 @@
-﻿# Converted from: ctx-robotics.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-001/raw/ctx-robotics.ans
-# Source Revision: archive-sha256:589c804657c8d15ba617f7c0fd80723e4505d519989b80eba9584665be49eb54
-# Source SHA-256: 813ec18c69d636434367cf0284621e8f88e5d0b23d704d4fdb249602a9854775
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ctx-robotics.ans by CatX (Legacy Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ctx-robotics
-# SAUCE Author: CatX
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20191124
-# SAUCE Dimensions: 80x88
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Contains ctx-thinking, ctx-cybercat and ctx-running.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: ctx-robotics by CatX | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-001-ctx-robotics-part01
 
 Write-Host '
                                [1;36m.[0m

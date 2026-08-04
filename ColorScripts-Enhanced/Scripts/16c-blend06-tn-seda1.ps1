@@ -1,18 +1,4 @@
-﻿# Converted from: TN-SEDA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend06/raw/TN-SEDA1.ANS
-# Source Revision: archive-sha256:bdb12df6fb66b6e7f7ab1240c15e9b23d66b94ced69828c85c717709162a24eb
-# Source SHA-256: c4ae799f7c6db9ac527706a81603df8abb824b6b1dbe8cb46132571539a2a449
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TN-SEDA1.ANS by Deadtank (blend); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Sedation sucks
-# SAUCE Author: Deadtank
-# SAUCE Group: blend
-# SAUCE Date: 19970213
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Sedation sucks by Deadtank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend06-tn-seda1
 
 Write-Host '
 [31m [0;33m [0;31m    ▄▄█▀▀ [0;1;37;47m▐███▀[0m▀ [31m▄█        ▄█  [0;1;32m░[0;32m▄██[0;1;33;42m░[0;32m███[0;1;32;42m▄▄▄▄██████████[0;1;32;40m▓▓▓▓▒▒[0;32m███████▄[0;37m [0;34m▄[0;37m [0;34m▀█▄  [0m

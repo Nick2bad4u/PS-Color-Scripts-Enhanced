@@ -1,18 +1,4 @@
-﻿# Converted from: GS-EVIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1195/raw/GS-EVIL.ANS
-# Source Revision: archive-sha256:69e419f1d1c331fd0cc84d59b407f2f77c26d7494508f2fe4429cc4214df9d32
-# Source SHA-256: 5660cf350207d50cc1d89bff3ebfacacbd53492dc6dd62eae489e869ce237f8e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GS-EVIL.ANS by Ghengis (ACiD Productions); released in acdu1195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Evil Intentions
-# SAUCE Author: Ghengis
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19951101
-# SAUCE Dimensions: 80x115
-# Lines: 82-115
-# Columns: 1-80
+﻿# Artwork: Evil Intentions by Ghengis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1195-gs-evil-part03
 
 Write-Host '
 [34m  █▓ [0;35m░[0;37m [0;35m░ [0;37m  [0;34m [0;31m [0;34m▒  ▒   [0;37m [0;1;30m            [0m [1;31m  [0;1;30m      [0;1;31m [0;1;30m [0;34m█▄[0;1;30m [0m   [1;30m    [0;34m [0;1;30m [0;34m▓[0;1;34;44m░[0;34m▀▀ ▒▄[0;1;30m [0m [35m▒[0;37m [0;35m░[0;37m [0;35m░▒[0;37m [0;34m░▄░ [0;37m [0;34m█▓[0m

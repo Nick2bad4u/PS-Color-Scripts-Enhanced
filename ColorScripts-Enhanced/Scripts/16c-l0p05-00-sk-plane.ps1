@@ -1,13 +1,4 @@
-﻿# Converted from: SK!PLANE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p05_00/raw/SK!PLANE.ANS
-# Source Revision: archive-sha256:d107a99a4f6346768b79c50cf89b1ea06eaa6378fa6264f2582e9bfb2f879d7f
-# Source SHA-256: 005a04f960930eedadb5c9646778c6817e8cce86b23012da1e1bf9efe719cf14
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!PLANE.ANS by Simonking (l0p05_00); released in l0p05_00 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: SK!PLANE.ANS by Simonking | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p05-00-sk-plane
 
 Write-Host '
                         [1m██[0m

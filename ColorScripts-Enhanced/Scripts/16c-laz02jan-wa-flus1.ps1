@@ -1,13 +1,4 @@
-﻿# Converted from: WA-FLUS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz02jan/raw/WA-FLUS1.ANS
-# Source Revision: archive-sha256:132672eb521503ab979d6725a75b6f055811245f253b5353290430aa5c4983b1
-# Source SHA-256: 12db0e5e8bec8eb94d6d10f97e6a025b4f94e4055cf81aef38a63675971db793
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WA-FLUS1.ANS by Warpus (laz02jan); released in laz02jan and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-10
-# Columns: 1-80
+﻿# Artwork: WA-FLUS1.ANS by Warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz02jan-wa-flus1
 
 Write-Host '
              [1;34m░░░[0m          [32m░░[0;30;42m▓[0;32;40m░░ [0m   [30;40m    [0;1;34;40m  [0m    [1;34m  [0m  [1;32m░░ [0m [32m   [0m      [32m░░░[0m    [32m░░░[0;30;42m▓[0;32;40m░▒▒▒[0;1;33;40m░░[0m

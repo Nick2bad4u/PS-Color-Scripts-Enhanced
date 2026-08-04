@@ -1,18 +1,4 @@
-﻿# Converted from: RL!-DEVI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-1196/raw/RL!-DEVI.ANS
-# Source Revision: archive-sha256:6ef6d0fc5e98023ae397158b861ea8c1f97c8bf9ea116a4660fdbca6650c96ff
-# Source SHA-256: 5b4d48bdfa5636bc4e1a9b40730d4856a8c81a2016f9266b31d99e6833cbc594
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL!-DEVI.ANS by rawlock (rl!) (opx); released in opx-1196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Eats you from the inside... =)
-# SAUCE Author: rawlock (rl!)
-# SAUCE Group: opx
-# SAUCE Date: 19961103
-# SAUCE Dimensions: 80x46
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: Eats you from the inside... =) by rawlock (rl!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-1196-rl-devi
 
 Write-Host '
                                                      [1m     [0m

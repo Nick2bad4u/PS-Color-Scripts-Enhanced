@@ -1,13 +1,4 @@
-﻿# Converted from: CCIACID1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1192/raw/CCIACID1.ANS
-# Source Revision: archive-sha256:8f9edeb4f92b0693833f343328f0977cc472aa2ea98dbae0f830bf926a78711d
-# Source SHA-256: 9c721ac5f7f43d6b3e155aaf681235852b4dca3e16ce849977b513a46af236da
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CCIACID1.ANS by Innate Malice (acdu1192); released in acdu1192 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: CCIACID1.ANS by Innate Malice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1192-cciacid1-part01
 
 Write-Host '
 [34m███████████████████▀[0;37m▄[0;1;30m▄[0;34m▀▀████████████████████████████████████████████████████████[0m

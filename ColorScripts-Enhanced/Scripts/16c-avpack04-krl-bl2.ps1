@@ -1,13 +1,4 @@
-﻿# Converted from: KRL-BL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack04/raw/KRL-BL2.ANS
-# Source Revision: archive-sha256:9fda3e62ea6f03ff3783df801cb7755dc6fc72a5a51e49bae41a28850a4d5c40
-# Source SHA-256: 06996ec66873b50be75a711fc5ce9cd6726daf8bec505d4884b0b581afd5e099
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KRL-BL2.ANS by Mr Krinkle (avpack04); released in avpack04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: KRL-BL2.ANS by Mr Krinkle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack04-krl-bl2
 
 Write-Host '
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

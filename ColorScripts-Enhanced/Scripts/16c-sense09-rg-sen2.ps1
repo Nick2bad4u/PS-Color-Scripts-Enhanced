@@ -1,18 +1,4 @@
-﻿# Converted from: RG-SEN2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense09/raw/RG-SEN2.ANS
-# Source Revision: archive-sha256:b3e3029d8f7c1c608f2835055baa2116210e782109ea7dc0a1af3ca3d050e5b9
-# Source SHA-256: 98f5b67715f45f1bb3e51828bbcb02ac977e24029f509df7f3eca349eb39a010
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RG-SEN2.ANS by Rage (sense); released in sense09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: *sniff*
-# SAUCE Author: Rage
-# SAUCE Group: sense
-# SAUCE Date: 19980420
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: *sniff* by Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense09-rg-sen2
 
 Write-Host '
 [1;36m  [0m

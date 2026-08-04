@@ -1,18 +1,4 @@
-﻿# Converted from: FP-COMA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flood-01/raw/FP-COMA1.ANS
-# Source Revision: archive-sha256:543c3313044baca82ad858ce1548c88cf8d5f938e94cd3141722019b3e2c36f7
-# Source SHA-256: 3215dfe8590906585cba6bb4f0fcb9177c5303bdc5728c09268ba5a127e73448
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FP-COMA1.ANS by Forsaken Prophet (Flood); released in flood-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: CoMa!
-# SAUCE Author: Forsaken Prophet
-# SAUCE Group: Flood
-# SAUCE Date: 19960426
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: CoMa! by Forsaken Prophet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flood-01-fp-coma1
 
 Write-Host '
                     [1;36m▄▄▄▄[0m

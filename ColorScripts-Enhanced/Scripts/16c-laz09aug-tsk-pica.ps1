@@ -1,18 +1,4 @@
-﻿# Converted from: TSK-PICA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz09aug/raw/TSK-PICA.ANS
-# Source Revision: archive-sha256:3e0bd3039fe877b3970f71e80b4456ee60793f2295ae127a50a6587b17c2d6a2
-# Source SHA-256: 794f7796e93d4853af0d6d334affbb44828fe39e4d83d3a934adcecb6dce778d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-PICA.ANS by The Silent Killer (lazarus); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Picalrt
-# SAUCE Author: The Silent Killer
-# SAUCE Group: lazarus
-# SAUCE Date: 19970804
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Picalrt by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz09aug-tsk-pica
 
 Write-Host '
 

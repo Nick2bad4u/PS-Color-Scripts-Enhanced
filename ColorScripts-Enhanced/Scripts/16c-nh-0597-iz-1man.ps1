@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-1MAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nh-0597/raw/IZ-1MAN.ANS
-# Source Revision: archive-sha256:87cec95111e4a1ac9fd985bbb75e4ede9867484f10b0355a7e43919af699000f
-# Source SHA-256: c3ccda47f25ccf278b4a47bc46d77f8d191f5bd24d630162dacc57d2e12f9e62
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-1MAN.ANS by ize (nh!); released in nh-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: one man crew
-# SAUCE Author: ize
-# SAUCE Group: nh!
-# SAUCE Date: 19970415
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: one man crew by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nh-0597-iz-1man
 
 Write-Host '
       [31m  [0m                  [1;33m     [0;34m  [0;1;33m [0m                                  [31m [0m

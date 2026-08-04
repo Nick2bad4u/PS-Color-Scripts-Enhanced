@@ -1,18 +1,4 @@
-﻿# Converted from: PPE-NEWS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spin02/raw/PPE-NEWS.ANS
-# Source Revision: archive-sha256:3cde50e59a0be9713b40f87d75b8cb62168e400a52dac471babfef5aef651f7f
-# Source SHA-256: d2db926ec37264ace8ba10f4619d03838d73c5d481b9d6ee923483552b47ce74
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PPE-NEWS.ANS by Purplee (SPIN); released in spin02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: News for YOUR board
-# SAUCE Author: Purplee
-# SAUCE Group: SPIN
-# SAUCE Date: 19980823
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: News for YOUR board by Purplee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spin02-ppe-news
 
 Write-Host '
 [33m   [0;1;33m    [0m [1;33m [0;1;33;43m [0;1;33;40m  [0m [33m  [0;37m  [0;1;37m [0m        [1m  [0m                [1m [0m      [1m [0m        [1m [0m [1m [0m             ┐  

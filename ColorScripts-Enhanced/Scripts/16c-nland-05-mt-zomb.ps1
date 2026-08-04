@@ -1,18 +1,4 @@
-﻿# Converted from: MT-ZOMB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nland-05/raw/MT-ZOMB.ANS
-# Source Revision: archive-sha256:9ecedfce350729554c325e3fa16a28f24118d9cc4a114d7d310d9ef56e778218
-# Source SHA-256: 9fb357c50aa175ac2bd27615c6e87c65582bc92d5aecb59ef65aa30b99922bff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MT-ZOMB.ANS by Mantus (NeveRLanD); released in nland-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Zombie
-# SAUCE Author: Mantus
-# SAUCE Group: NeveRLanD
-# SAUCE Date: 19960317
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Zombie by Mantus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nland-05-mt-zomb
 
 Write-Host '
                                       [31m▄▄▄▄[0;1;31;41m▒▒▒▒░░░░ [0;31m▄▄▄▄[0m

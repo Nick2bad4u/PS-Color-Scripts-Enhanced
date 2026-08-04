@@ -1,18 +1,4 @@
-﻿# Converted from: LE-FREE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0897/raw/LE-FREE.ANS
-# Source Revision: archive-sha256:2f847e13ac44c4a612ca9588cf01055509cccf841191e379aa1210361ce47235
-# Source SHA-256: 8310064f06082e7c9294f19e19b737168339a881daec8248ba2422fc1161fcf5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LE-FREE.ANS by leo! (fire); released in fire0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: free impression
-# SAUCE Author: leo!
-# SAUCE Group: fire
-# SAUCE Date: 19970905
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: free impression by leo! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0897-le-free
 
 Write-Host '
 [31m.[0;34m   [0;1;37m▄[0;1;33m▄[0;1;34m▄[0;34m▄[0;34;41m▓▓[0;37;40m [0;31;40m▀[0;37;40m [0;1;33;40m?[0;31m [0;37m [0;34m▄▄▓▓░[0;32;44m░░▓[0;34;40m▀▀[0;37;40m  [0;30;44m###[0;1;35;40m [0;1;35;41m$$[0;1;33;41m$&[0;1;36;44m&&[0m  [1;32m▄[0;1;36m▄[0;1;34m▄[0;31m▄[0;35m▄▄[0;1;33m [0m     [32m░[0;37m [0;1;35;44m░░▒▒[0;1;35;41m░░░[0;1;35;40m▓▓▄▄[0;1;34;40m▄ [0m [1;34;41m░[0;1;35;41m░░[0;1;34;41m▓[0m [1;35m▄▄[0;1;34m░░[0m

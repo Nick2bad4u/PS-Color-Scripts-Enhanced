@@ -1,18 +1,4 @@
-﻿# Converted from: KT-DOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-07/raw/KT-DOD.ANS
-# Source Revision: archive-sha256:f0498e40c7ce9f5718652374b5ec8d4837bb6e6a2bfea8c457a1793267178c86
-# Source SHA-256: 82e060ff062851656dc650d283d1315e1eea4c3cd36d1429cf34af8c07bed764
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KT-DOD.ANS by Kurrupt (fORCE); released in force-07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Depths of Depravity
-# SAUCE Author: Kurrupt
-# SAUCE Group: fORCE
-# SAUCE Date: 19960324
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Depths of Depravity by Kurrupt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-07-kt-dod
 
 Write-Host '
 [1;30m███▀▀▀▀▀██▀▀▀▀███████████████████▀▀▀▀▀▀▀▀▀▀███████████████████████▀▀▀▀▀▀▀▀▀▀████[0m

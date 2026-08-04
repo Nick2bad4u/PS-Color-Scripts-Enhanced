@@ -1,17 +1,4 @@
-﻿# Converted from: MZ^BUNK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phar0996/raw/MZ%5EBUNK.ANS
-# Source Revision: archive-sha256:a110fe168ec83f56158fe99c92124ea58d0884131cba0cb1f746e5e809cd3ac5
-# Source SHA-256: 8a2707d1713f6fa3a5463b554ddbaa5a5e4a8c447e311ac4dc42adfb1ba8172f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MZ^BUNK.ANS by Menzel (phar0996); released in phar0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Bunk Logo
-# SAUCE Author: Menzel
-# SAUCE Date: 19960902
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Bunk Logo by Menzel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phar0996-mz-bunk
 
 Write-Host '
 [1;34m                        [0m

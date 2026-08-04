@@ -1,18 +1,4 @@
-﻿# Converted from: ZV-EVIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge07/raw/ZV-EVIL.ANS
-# Source Revision: archive-sha256:115e0675d139221ae82af57d75adc6a5c40187386a2e1c7aedd5a13098a703d2
-# Source SHA-256: 2bacdda4d5c107c948d55fc4419a8c440909b04d35747eaf35123de8a246eba7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZV-EVIL.ANS by zerovision (avenge); released in avenge07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: evil emag
-# SAUCE Author: zerovision
-# SAUCE Group: avenge
-# SAUCE Date: 19980727
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: evil emag by zerovision | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge07-zv-evil
 
 Write-Host '
 [34m▓█████▓▓███▀▀▀▀[0;37m   ▄▄▄▄▄▄▄▄▄▄ [0;34m▀▀█▓[0;37m [0m     [1;30m▄▄▄ [0m  [1;30m▀████▓▓█▀[0m

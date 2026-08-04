@@ -1,18 +1,4 @@
-﻿# Converted from: YT-MONK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1197/raw/YT-MONK.ANS
-# Source Revision: archive-sha256:3a9d669c1bad2a5b99df2ca946d3588549aec30547a75fa8cf9c1fc4d0bb44db
-# Source SHA-256: e1f7b38399cf2ec781a4ccb1cff08482b790cd62475fc27560f8f8c65a3c51a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: YT-MONK.ANS by neophyte (unreleased); released in mist1197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: "blender #20 entry"
-# SAUCE Author: neophyte
-# SAUCE Group: unreleased
-# SAUCE Date: 19970517
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: "blender #20 entry" by neophyte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1197-yt-monk
 
 Write-Host '
                                                 [1;31m▐▌[0m

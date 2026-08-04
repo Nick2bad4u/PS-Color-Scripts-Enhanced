@@ -1,18 +1,4 @@
-﻿# Converted from: LE-GEFUN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook10/raw/LE-GEFUN.ANS
-# Source Revision: raw-sha256:f015b789fd11a0e76d5deca0aa55ccae86e0212ab798d0466f935a0dd32c131b
-# Source SHA-256: f015b789fd11a0e76d5deca0aa55ccae86e0212ab798d0466f935a0dd32c131b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LE-GEFUN.ANS by Leonardo (BlackMaiden); released in bmbook10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Gefunden
-# SAUCE Author: Leonardo
-# SAUCE Group: BlackMaiden
-# SAUCE Date: 19960915
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Gefunden by Leonardo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook10-le-gefun
 
 Write-Host '
 [1;30m▒▀[0m         [1;30m▒▓▀■[0m    [1;32;41m░[0m       [32m▄■ [0m       [32m■▀░[0m      [1;30m▄■[0m                         [1;30m▀▓[0m [1;30m▀▀▀█[0m

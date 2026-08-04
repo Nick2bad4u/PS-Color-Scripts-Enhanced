@@ -1,18 +1,4 @@
-﻿# Converted from: LE-G2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook18/raw/LE-G2.ANS
-# Source Revision: archive-sha256:3923f0369728e803f9484754cab6944bd0f8349523e51216ea34f98242393a94
-# Source SHA-256: cf2531cb6d785a99f64281e891f305c0ef70e799f4adeff9264c41c0f8f6bd06
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LE-G2.ANS by leo.ave (black maiden); released in bmbook18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: gee two
-# SAUCE Author: leo.ave
-# SAUCE Group: black maiden
-# SAUCE Date: 19981001
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: gee two by leo.ave | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook18-le-g2
 
 Write-Host '
     [30;42m▓▓░[0;32;40m██[0;1;32;42m▄▄[0;1;33;42m▓▓▓▀▀[0;32m▀▀[0;1;32;42m▄▄[0;1;32;40m▓▓▓[0;1;32;42m██▀▀██[0;1;30;42m▄▄▄[0;1;30;40m█▄▄[0;34m▄▄[0;1;30;44m▄[0;34m█[0;1;30m█[0;30;42m░░░[0m   [32;40m  ▄▄▄▄▄[0;34;40m▄▄▄█▀▀█[0;37;44m░░[0;34;40m▄▄▄▄▄▄▄▄▄▄▄[0m

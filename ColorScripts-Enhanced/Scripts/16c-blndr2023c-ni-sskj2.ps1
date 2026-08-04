@@ -1,20 +1,4 @@
-﻿# Converted from: NI-SSKJ2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2023c/raw/NI-SSKJ2.ANS
-# Source Revision: archive-sha256:07a69926d371ece526693ff0085edb91763562e45a461066e0c0cf725f075dbe
-# Source SHA-256: b0808ff338128f658a9af9a97b4eab5bc86b0a814b3981e9cb69da20ef12f7ee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-SSKJ2.ANS by nitron (blender); released in blndr2023c and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Blender '23/07
-# SAUCE Author: nitron
-# SAUCE Group: blender
-# SAUCE Date: 20230723
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: GODZILLA / SKYSCRAPER / PLAYING CHESS
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Blender '23/07 by nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2023c-ni-sskj2
 
 Write-Host '
 [1;34m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

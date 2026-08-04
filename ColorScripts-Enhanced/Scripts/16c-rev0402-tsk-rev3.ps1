@@ -1,18 +1,4 @@
-﻿# Converted from: TSK-REV3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0402/raw/TSK-REV3.ANS
-# Source Revision: archive-sha256:19898cc2febb6deadccf50832dc421b4f362a33c899e27278bafd225bbc2d4d4
-# Source SHA-256: 3745fed7fff309e233c73f5692593a58173f17fabc4537b251b59e4a83d54890
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-REV3.ANS by The Silent Killer (Revival); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Revival
-# SAUCE Author: The Silent Killer
-# SAUCE Group: Revival
-# SAUCE Date: 20020415
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Revival by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0402-tsk-rev3
 
 Write-Host '
 

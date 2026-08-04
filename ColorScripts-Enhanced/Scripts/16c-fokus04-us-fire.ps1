@@ -1,18 +1,4 @@
-﻿# Converted from: US-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus04/raw/US-FIRE.ANS
-# Source Revision: archive-sha256:4a57ed6764f9ffca39ae941548ed0ed0ba98ce6594de23a7788152f10b7f60a4
-# Source SHA-256: ba31206577ddf000e0f295348176541bb0cd919588f987d6fb22d495d9334df8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FIRE.ANS by Fever + Fluor (Fokus fonting); released in fokus04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fire combustion
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Fokus fonting
-# SAUCE Date: 19990516
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Fire combustion by Fever + Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus04-us-fire
 
 Write-Host '
                              [34m▄▄▄[0m          [34m  ▀▄[0;37m [0;34m░[0m

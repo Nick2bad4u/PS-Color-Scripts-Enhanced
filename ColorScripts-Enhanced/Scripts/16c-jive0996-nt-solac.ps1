@@ -1,15 +1,4 @@
-﻿# Converted from: NT-SOLAC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jive0996/raw/NT-SOLAC.ANS
-# Source Revision: archive-sha256:6b7d48e396de55126b3ae9c64ca3a6e3836b2eee40f86ad76fd1706353435055
-# Source SHA-256: 371999884bdeb2a17d502e917ec2f64211d743c10e172f1c3b14e9efdd7ccc6a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NT-SOLAC.ANS by NighTrain (jive0996); released in jive0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Solace matrix
-# SAUCE Author: NighTrain
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Solace matrix by NighTrain | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jive0996-nt-solac
 
 Write-Host '
            [36m [0m

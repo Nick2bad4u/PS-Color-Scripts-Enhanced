@@ -1,18 +1,4 @@
-﻿# Converted from: OW-STLFY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stl-0296/raw/OW-STLFY.ANS
-# Source Revision: archive-sha256:2a7c2972214cdcf66c05bb3cc15c513aafb38f4486172bc95b40d735e509a060
-# Source SHA-256: 95d9c271d32ba186f49fecc199e5b55d0072ebc014c7101eace6b8103e78047b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OW-STLFY.ANS by oWyn (stile); released in stl-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: stultify
-# SAUCE Author: oWyn
-# SAUCE Group: stile
-# SAUCE Date: 19960128
-# SAUCE Dimensions: 80x84
-# Lines: 44-84
-# Columns: 1-80
+﻿# Artwork: stultify by oWyn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stl-0296-ow-stlfy-part02
 
 Write-Host '
 [1m [0;33;46m           [0;1;36;46m▒█[0;36m  [0;32m▒[0;32;42m            [0;32;40m▒ [0;32;42m   [0;32;40m█[0;32;42m [0;32;40m█[0;32;42m                 [0;32;40m▀[0;1;32;40m▄ [0;32m▀▓[0;32;42m             [0;32;40m▓▒  [0;1;36;46m█  [0m

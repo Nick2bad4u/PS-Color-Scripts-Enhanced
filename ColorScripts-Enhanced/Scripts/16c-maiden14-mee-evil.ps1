@@ -1,18 +1,4 @@
-﻿# Converted from: MEE-EVIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden14/raw/MEE-EVIL.ANS
-# Source Revision: archive-sha256:8484fc17833e455250727f80fdc56cc19e17aec4fba2f82e3b86585a9e08cb6c
-# Source SHA-256: 733aa038af98ac5f91a9fe0c7dfd26f1cd5ecd9abf0292210aa800ee29fec47b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MEE-EVIL.ANS by mEENO (mAIDEN!); released in maiden14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: menu for evil hole
-# SAUCE Author: mEENO
-# SAUCE Group: mAIDEN!
-# SAUCE Date: 19971130
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: menu for evil hole by mEENO | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden14-mee-evil
 
 Write-Host '
 [31m█▌[0;1;31;47m████[0;1;31;41m▓▓[0;1;31;47m████[0;31m▀[0;37m [0;1;31m▀[0;31m▀[0;32m▄[0m    [31m▀[0;1;31;41m░▀██▀▀[0;31m█▀▀▀▀[0m      [31m▀█[0;1;31;41m▀██████[0;1;31;47m▀▐[0;1;31;41m█[0;31m██[0m       [31m██[0;1;31;41m██[0;1;31;47m█▀▀▀▀▀[0;1;31;41m█[0;1;31;47m▓▓[0;1;31;41m▌[0;31m███[0;1;31;41m██[0;1;31;47m▀[0m

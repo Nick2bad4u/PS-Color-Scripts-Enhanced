@@ -1,18 +1,4 @@
-﻿# Converted from: NO-HAZE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-12/raw/NO-HAZE.ANS
-# Source Revision: archive-sha256:f5221eba8c246d2fb321d3b43039222677071ff11211f119af33a969aa5543e9
-# Source SHA-256: 5bbe610bba389d8eb2e2ea4b8a260e02f3a3fe0489f5f368bcf3c9e501c3ac8d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NO-HAZE.ANS by Noktorian (Glue); released in glue-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Haze
-# SAUCE Author: Noktorian
-# SAUCE Group: Glue
-# SAUCE Date: 19980726
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Haze by Noktorian | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-12-no-haze
 
 Write-Host '
 [1;31m▀[0;31m▄[0;1;31m▄[0;1;31;41m▄[0;1;31;47m█▀███[0;1;31;41m▀▄██[0;1;31;47m▀▀▄██[0;1;31;40m██[0;1;31;47m██[0;1;31;40m█[0;1;31;47m▀[0;1;31;40m█[0;1;31;41m▀[0;1;31;40m▀██[0;1;31;47m▓▒▒  ▓[0;1;31;40m█[0;31m█[0;1;32m [0;1;35;45m ▄████[0;1;35;47m▀▀[0;1;35;45m█▄[0;35m▄[0;37m [0;1;37m▀[0;1;37;47m▄[0;1;37;40m▄[0m▄[1m [0;1;35m▀[0;1;35;45m▀[0;1;35;40m▀▀[0;35m▀[0;1;37m [0m▄[1m▄▄▄▄▄▄▄▄▄▄[0m▄ [35m▀[0;1;35m▀▀▀[0;1;35;45m▀[0;1;35;47m▄[0m

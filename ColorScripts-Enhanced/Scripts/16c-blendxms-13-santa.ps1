@@ -1,18 +1,4 @@
-﻿# Converted from: 13-SANTA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blendxms/raw/13-SANTA.ANS
-# Source Revision: archive-sha256:1539692350814531ceec0f95558508df1809c483c52a4b6f3f02993299b5fe16
-# Source SHA-256: 57cf2b1961c25bca1d475d158a776812abb15ebcf7e87492c07b9bd15de664e5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 13-SANTA.ANS by SANTAVILLE (BLEND CRISTMAS-GIRL5); released in blendxms and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: FUQED-UP-SANTA
-# SAUCE Author: SANTAVILLE
-# SAUCE Group: BLEND CRISTMAS-GIRL5
-# SAUCE Date: 19961216
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: FUQED-UP-SANTA by SANTAVILLE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blendxms-13-santa
 
 Write-Host '
 [31m13   [0;30;41m▓▓▓▓▓░░[0;31;40m██████████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

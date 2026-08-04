@@ -1,18 +1,4 @@
-﻿# Converted from: COL-MIND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0696/raw/COL-MIND.ANS
-# Source Revision: archive-sha256:812b4b6a142b76b92307dc090cdf58b49035a2b9097d1dc0a43da5e4fd3f4f2d
-# Source SHA-256: 597e0cef59a58fc6b2b744ebe6b15200f50120d4e0f9a8d500102be0a8c13f20
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: COL-MIND.ANS by colorblind (fire); released in fire0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: mindphuck
-# SAUCE Author: colorblind
-# SAUCE Group: fire
-# SAUCE Date: 19960528
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: mindphuck by colorblind | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0696-col-mind
 
 Write-Host '
    [1;32m       ▄▄▄█[0;1;32;42m▄▄[0;32m▄▄▄[0m

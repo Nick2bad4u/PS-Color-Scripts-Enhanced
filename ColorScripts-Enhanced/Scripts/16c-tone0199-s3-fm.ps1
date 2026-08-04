@@ -1,16 +1,4 @@
-﻿# Converted from: S3-FM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tone0199/raw/S3-FM.ANS
-# Source Revision: archive-sha256:cc68ea1eb33455f4fac3ad894e9449a738582c78ce2d942c658b2e45a01a80a9
-# Source SHA-256: fa5e09d1d84fd77446be71875100cfa406a3b257a99edf403d1e944d6a173fee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S3-FM.ANS by seltorn (tone); released in tone0199 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: file menu
-# SAUCE Author: seltorn
-# SAUCE Group: tone
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: file menu by seltorn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tone0199-s3-fm
 
 Write-Host '
 

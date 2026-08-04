@@ -1,18 +1,4 @@
-﻿# Converted from: US-ADRAW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9612/raw/US-ADRAW.ANS
-# Source Revision: archive-sha256:7053afed6e742c75d943ea86bb6e43e9d362e1c6f64e894c811e4835a8b40e13
-# Source SHA-256: bdd69175ef0b0ed7ab615bb7294d26370cfe401c5b8724de5f0651a11d7cb394
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ADRAW.ANS by Grindstoned + The Night Angel (AWE Lettering); released in awe9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: <ACiD>Draw
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961201
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: <ACiD>Draw by Grindstoned + The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9612-us-adraw
 
 Write-Host '
           [34m▄[0;1;34m▄▄▄▄▄▄▄▄▄▄▄▄[0;1;37m▄▌[0m            ▄  [1;30m ─ [0;1;37m           [0;36m [0;1;36m   [0;36m [0;37m [0;1;37m               [0;36m [0;1;36m   [0;36m [0m

@@ -1,17 +1,4 @@
-﻿# Converted from: R!TRAILS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jive1096/raw/R!TRAILS.ANS
-# Source Revision: archive-sha256:4088bb5774f9b38859804abb70d54fee1333f0bbe32acb21357a9f799a1418d7
-# Source SHA-256: c27557fd34a3bb69e841bed73c63f14004849276842b23bdcbadd0b9da1160a1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: R!TRAILS.ANS by The Riddler (jive); released in jive1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the trial stats screen
-# SAUCE Author: The Riddler
-# SAUCE Group: jive
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: the trial stats screen by The Riddler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jive1096-r-trails
 
 Write-Host '
 [1;30m[0m[1;30m[0m[1;30m[0m

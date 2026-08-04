@@ -1,13 +1,4 @@
-﻿# Converted from: LST-URBN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_9611/raw/LST-URBN.ANS
-# Source Revision: archive-sha256:0b1d0a69144cb3f6619a3754efa7186c4875d1c8fe6478f05d100643d2a160ff
-# Source SHA-256: c005b46a7900fd3b1ad10e645a61577d0ee2ef1db4b9a277ac82a3f5e8312c7f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LST-URBN.ANS by Soul Trader (dox_9611); released in dox_9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: LST-URBN.ANS by Soul Trader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-9611-lst-urbn
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: PC-DHIGH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense09/raw/PC-DHIGH.ANS
-# Source Revision: archive-sha256:b3e3029d8f7c1c608f2835055baa2116210e782109ea7dc0a1af3ca3d050e5b9
-# Source SHA-256: bca52b88aa8421bb28cdc8c4bd7e4d1ddd050619ade552553a4ee77d3bff1ae1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-DHIGH.ANS by Proctologist (SeNsE); released in sense09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Digital High
-# SAUCE Author: Proctologist
-# SAUCE Group: SeNsE
-# SAUCE Date: 19980514
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Digital High by Proctologist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense09-pc-dhigh
 
 Write-Host '
               ___               __

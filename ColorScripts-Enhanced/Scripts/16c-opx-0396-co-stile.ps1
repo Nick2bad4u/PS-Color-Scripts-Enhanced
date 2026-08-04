@@ -1,18 +1,4 @@
-﻿# Converted from: CO-STILE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0396/raw/CO-STILE.ANS
-# Source Revision: archive-sha256:8cd29f20ca0e9cb17c1100c76cb617825c92262f6ff8862ed793e9086f6dea43
-# Source SHA-256: 854a634f2c6fc8cf1187a6c27cff560eb989437d75cacca68fb8a952ffb071f0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CO-STILE.ANS by cocox (opx/stl); released in opx-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: stile productions '96
-# SAUCE Author: cocox
-# SAUCE Group: opx/stl
-# SAUCE Date: 19960229
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: stile productions '96 by cocox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0396-co-stile
 
 Write-Host '
 [30m••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••[0m

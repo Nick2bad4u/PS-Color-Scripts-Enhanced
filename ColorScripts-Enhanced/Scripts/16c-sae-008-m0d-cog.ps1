@@ -1,13 +1,4 @@
-﻿# Converted from: M0D-COG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sae-008/raw/M0D-COG.ANS
-# Source Revision: archive-sha256:4e6b1c06bbc79df9983b883e7b9196a10618e30ffbc282e9b736c5de32bd9603
-# Source SHA-256: 5148e55f80401ec38ecd2aa4c1efb838b7b4489c866d117050703c65062d54b3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M0D-COG.ANS by M0dium (sae-008); released in sae-008 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: M0D-COG.ANS by M0dium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sae-008-m0d-cog
 
 Write-Host '
 [1;34m                                                          [0;34m, _[0m

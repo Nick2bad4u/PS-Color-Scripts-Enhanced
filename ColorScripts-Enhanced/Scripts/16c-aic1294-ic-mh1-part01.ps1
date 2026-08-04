@@ -1,13 +1,4 @@
-﻿# Converted from: IC-MH1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aic1294/raw/IC-MH1.ANS
-# Source Revision: archive-sha256:b8f79c81882bfff1a9f4ed440a005e38510750969d5445db824292aef0f49f99
-# Source SHA-256: c0c5182bdc3dff85e23e1c8c9a40b5a5eeb96ad43444855ecc7d14a2df6af217
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IC-MH1.ANS by Inner Chaos (aic1294); released in aic1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: IC-MH1.ANS by Inner Chaos | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aic1294-ic-mh1-part01
 
 Write-Host '
 [1;34m [0m

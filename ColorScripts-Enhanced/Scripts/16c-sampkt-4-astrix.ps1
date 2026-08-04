@@ -1,13 +1,4 @@
-﻿# Converted from: ASTRIX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sampkt_4/raw/ASTRIX.ANS
-# Source Revision: archive-sha256:be6b7fce6ae136b16e9de0bf5934b172c2efde280c806be55d55cc5d6b51ea38
-# Source SHA-256: 236a9bdbbd2a96cc5ac2d4b3dff055d16b49b1c04bc42167d5e5005c82445c38
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ASTRIX.ANS by Vega (sampkt_4); released in sampkt_4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: ASTRIX.ANS by Vega | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sampkt-4-astrix
 
 Write-Host '
                                                                          [1m·[0m

@@ -1,16 +1,4 @@
-﻿# Converted from: MY-AS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ord-02/raw/MY-AS1.ANS
-# Source Revision: archive-sha256:258a1db955cbfd79949d88d4ce27b3dac8d9f43191081c5bcc9d3870b0d54f08
-# Source SHA-256: bfb5809f4c6eca0e901ca472a041ed36d31000ae0de79f64925aefe66b7c7881
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MY-AS1.ANS by Mr. Yuck (ord-02); released in ord-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: Mr. Yuck
-# SAUCE Date: 19960623
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: MY-AS1.ANS by Mr. Yuck | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ord-02-my-as1
 
 Write-Host '
                       [1;34m      ▄  ▀  ▀[0m  [1;34m▄[0m

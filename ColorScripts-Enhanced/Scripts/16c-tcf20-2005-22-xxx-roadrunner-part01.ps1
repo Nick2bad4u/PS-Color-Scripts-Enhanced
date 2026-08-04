@@ -1,13 +1,4 @@
-﻿# Converted from: 2005 - 22 - XXX - Roadrunner.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tcf20/raw/2005%20-%2022%20-%20XXX%20-%20Roadrunner.ans
-# Source Revision: archive-sha256:af8609219fccc484668fb405a7f1d45efb8c574501a461c5c1b47d87a12921ce
-# Source SHA-256: d373a41f5cc2912c34dca0c4e0b2bb201bcf05b08c7dc2b55db92e6282272b35
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2005 - 22 - XXX - Roadrunner.ans by Avenging Angel + Enzo + The Creep Fever (tcf20); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: 2005 - 22 - XXX - Roadrunner.ans by Avenging Angel + Enzo + The Creep Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tcf20-2005-22-xxx-roadrunner-part01
 
 Write-Host '
 

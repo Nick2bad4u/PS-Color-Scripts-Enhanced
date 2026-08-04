@@ -1,18 +1,4 @@
-﻿# Converted from: CY-TM01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cancer01/raw/CY-TM01.ANS
-# Source Revision: archive-sha256:1d674e5cb6391162607aaf95710b795f9d6c8bbd06eec06cf5932f93f338c133
-# Source SHA-256: 05d566a8ef3ebfc6108e28956ceba7e37a8942ca6a539dac030ee548e748a7b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CY-TM01.ANS by Crayon (Cancer); released in cancer01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Tainted Meat
-# SAUCE Author: Crayon
-# SAUCE Group: Cancer
-# SAUCE Date: 19960303
-# SAUCE Dimensions: 80x47
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: Tainted Meat by Crayon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cancer01-cy-tm01
 
 Write-Host '
 [1;34m░[0;34m██████████████████████████████████████████████████████████████████████████████[0;1;34m░[0m

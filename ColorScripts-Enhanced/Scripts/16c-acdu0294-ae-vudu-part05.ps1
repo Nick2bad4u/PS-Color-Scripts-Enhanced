@@ -1,18 +1,4 @@
-﻿# Converted from: AE-VUDU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0294/raw/AE-VUDU.ANS
-# Source Revision: archive-sha256:0b07fb9329d81f40ead17ad1bfccb58be060a9dc7ff2828ea9938c5cac09a5a8
-# Source SHA-256: 43ea17844e27c58ec0f89f78486c27ae093c67235a5112b67e77ddd0ca21a3e6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AE-VUDU.ANS by Alter Ego (ACiD Productions); released in acdu0294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ACiD - On Top In 1994
-# SAUCE Author: Alter Ego
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940131
-# SAUCE Dimensions: 80x300
-# Lines: 201-250
-# Columns: 1-80
+﻿# Artwork: ACiD - On Top In 1994 by Alter Ego | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0294-ae-vudu-part05
 
 Write-Host '
 [31m████████████████████████ [0;1;33;43m▓▒░ [0;35;43m░▒▓█▓[0;35;40m██████▀▀▄▄█▓██████████▓█▓▒▓▒░░   [0;1;33;40m░ ░░░▒▒▓▒▓█▓[0m

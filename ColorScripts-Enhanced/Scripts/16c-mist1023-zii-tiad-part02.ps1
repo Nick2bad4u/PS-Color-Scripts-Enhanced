@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-TIAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1023/raw/ZII-TIAD.ANS
-# Source Revision: archive-sha256:85986912ea2464623a6cb0e6c05b9b87ede10865c5aaf338ceaa9a86cac2b00a
-# Source SHA-256: 8fe8356b865181e4dc01b5f5f69a7e7fbcfa2663220246de4638261d0d6855ea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-TIAD.ANS by Zeus II (Mistigris); released in mist1023 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Tia Dalma @ JR
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20231026
-# SAUCE Dimensions: 80x85
-# SAUCE Font: IBM VGA
-# Lines: 51-83
-# Columns: 1-80
+﻿# Artwork: Tia Dalma @ JR by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1023-zii-tiad-part02
 
 Write-Host '
 [1;30m   ░   ░░   ░░░[0m [1;30m▒▒░[0m  [1;30m▓▓░[0m          [1;30m▄▓▓▓▓▓[0;1;30;47m▓[0;1;30;40m▓▓▓[0;1;30;47m▓[0;1;30;40m█▀▄▀▀▀▀[0m [35m▄[0;1;35m▄▄[0;1;35;45m■[0;35m▀ ▄▄▀▀  [0;1;30m░░[0m  [35m▀▄▄▄▀▀▀[0m

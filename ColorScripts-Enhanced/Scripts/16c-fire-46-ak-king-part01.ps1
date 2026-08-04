@@ -1,19 +1,4 @@
-﻿# Converted from: AK-KING.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-46/raw/AK-KING.ANS
-# Source Revision: archive-sha256:32c189dd42ed53f66ce0b86a88ea8027caddc32faf4da7cee2e674d9223cb9f4
-# Source SHA-256: d9c0ad99341740236299c50bbcffa59c48098ca9601e322a6c628ec9720384f9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-KING.ANS by abstrakt (fire); released in fire-46 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: long live the king
-# SAUCE Author: abstrakt
-# SAUCE Group: fire
-# SAUCE Date: 20260707
-# SAUCE Dimensions: 80x132
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: long live the king by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-46-ak-king-part01
 
 Write-Host '
 [31;40m$$$$$[0;1;31;40md$P[0;31m$$$[0;1;31md$$$$$$$$$$P[0;31m┌d$$$$$$$[0;1;31m┌d$$$$$$$P[0;31m$$$$P[0;1;31m.┌s$$$[0;31m$[0;1;31m$$$P[0;31m┌$$$[0;1;31md$$P[0;31m$$[0;1;31m,d$$$P[0;31md$$$[0;1;31m┌$[0m

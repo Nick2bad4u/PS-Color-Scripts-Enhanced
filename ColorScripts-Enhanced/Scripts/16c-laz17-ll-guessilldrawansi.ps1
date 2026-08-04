@@ -1,20 +1,4 @@
-﻿# Converted from: ll-guessilldrawansi.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz17/raw/ll-guessilldrawansi.ans
-# Source Revision: archive-sha256:2674245bad3e14fe6d4a935ba8daf9898a4426e394c56ca9710e3afa19d3d943
-# Source SHA-256: 29ee42ce9b8cfbbec4da1c9c9f9e02f970eb58d9e348ce4f77711a4ad9bebffa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ll-guessilldrawansi.ans by lucaslink (lazarus); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: guess i'll draw ansi
-# SAUCE Author: lucaslink
-# SAUCE Group: lazarus
-# SAUCE Date: 20230704
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# SAUCE Comments: its like ridin a bike you never forget. hello old friends. i hop | e you've been well. i used to draw ansis as an angsty teen under | another moniker. been pushing pixels ever since in every format | i can find.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: guess i'll draw ansi by lucaslink | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz17-ll-guessilldrawansi
 
 Write-Host '
 [1m████████████████████████████████████████████████████████████████████████████████[0m

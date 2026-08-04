@@ -1,13 +1,4 @@
-﻿# Converted from: AX_XTC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/itpnazis/raw/AX_XTC.ANS
-# Source Revision: archive-sha256:b63f1061c14ef43c41c98429978c6d429bbae740ff287c27de867b6629e2595b
-# Source SHA-256: 5b354601f2c83559f09245ce5ee563b897c545406ff8503c3be5d10e56926381
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AX_XTC.ANS by Alla Xul (itpnazis); released in itpnazis and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: AX_XTC.ANS by Alla Xul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-itpnazis-ax-xtc
 
 Write-Host '
 [1;37m▓▓▀█[0;1;30m▌[0m  ▒[1;30;47m▒[0m▄ ▄▄▄▄[1;30m▄▄[0m        ▄▄▄▄[1;30m [0m                      [34m░░░░░█████[0;31;44m░░░░░░░░░░[0;1;34;40m▒▒▒▒▒▒▒▒[0m

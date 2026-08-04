@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-H99.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook17/raw/AVE-H99.ANS
-# Source Revision: archive-sha256:f2ec1f05b2d28538e661dbe9f04f7009d1de727157f34731f67001dac4dedb95
-# Source SHA-256: 6309a4542b3fa34b176283b3ba15d15c8449f24b4481a1784b8e6fc0422648d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-H99.ANS by avenger (black maiden); released in bmbook17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hazard/99
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19980626
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: hazard/99 by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook17-ave-h99
 
 Write-Host '
 [35m█[0;37;45m▄▄▄[0;35;40m▄[0;37;40m [0;35;40m▀ [0m   [35;40m▀█▀[0;37;45m▀[0;35;40m▀░[0;30;45m▓[0;37;40m ▄[0;1;37;40m▄[0;1;37;47m▄[0;1;37;40m█▄[0m▀[1m▀[0;35m [0;37m [0;35m▄[0m   [35m▀ ▄█▄[0m   [35m▄[0;1;31;45m [0;35m▄[0m    [35m▀█▀[0;37m  [0;33m▄▄▐[0;32;43m▀░░[0;33;40m██▀▄▄▄[0m   [35;40m▀[0;37;45m▀[0;35;40m▀[0;37;40m [0;35;40m▄▄[0;37;40m [0;35;40m▀█▀░░[0m

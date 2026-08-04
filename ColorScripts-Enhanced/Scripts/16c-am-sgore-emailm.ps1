@@ -1,13 +1,4 @@
-﻿# Converted from: EMAILM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/am-sgore/raw/EMAILM.ANS
-# Source Revision: archive-sha256:10741bfb879a086728bfb37977a3dbeaa7ec2ef2e08f05f7c3c75419ac26bac6
-# Source SHA-256: 05870ddc33eba5f6b6f87f44f03ebcdd1f8e96830193128b5cd2abe595f200cb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EMAILM.ANS by Amroth (am-sgore); released in am-sgore and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: EMAILM.ANS by Amroth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-am-sgore-emailm
 
 Write-Host '
           [31m▄▄▄   ▄▀  ▄ ▀▀[0m                                        [37m([0;31mA[0;1;30m)[0;1;37mnnouncements[0m

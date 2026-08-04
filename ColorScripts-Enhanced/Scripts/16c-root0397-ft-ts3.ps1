@@ -1,17 +1,4 @@
-﻿# Converted from: FT-TS3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0397/raw/FT-TS3.ANS
-# Source Revision: archive-sha256:147f0608c1bd711b116f3ad049b80e805dfbb40e7d23ffce5f4580a5a57bae0f
-# Source SHA-256: 618b9550d1e1bb47397d527d3e0b4ef2f05602e07974868dc9daf3b86b07c236
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FT-TS3.ANS by Flight (root0397); released in root0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Source
-# SAUCE Author: Flight
-# SAUCE Date: 19970228
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: The Source by Flight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0397-ft-ts3
 
 Write-Host '
 

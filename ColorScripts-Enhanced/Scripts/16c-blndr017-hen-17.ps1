@@ -1,13 +1,4 @@
-﻿# Converted from: HEN-17.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr017/raw/HEN-17.ANS
-# Source Revision: archive-sha256:33626fef5e590e8d7714df8054452bf4058ebfd297707bc25313eb0021653d60
-# Source SHA-256: 7b01c66216d5d150d4cbe180fe455b2bee0579e65045de6661bde9cb02c2b501
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HEN-17.ANS by Hennifer (blndr017); released in blndr017 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: HEN-17.ANS by Hennifer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr017-hen-17
 
 Write-Host '
 [1;30m[0m   [31m▄▄▄[0;37m [0m                                                   [1;30m       c0MIX[0m

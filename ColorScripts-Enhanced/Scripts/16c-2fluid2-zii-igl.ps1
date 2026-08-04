@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-IGL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/2fluid2/raw/ZII-IGL.ANS
-# Source Revision: archive-sha256:5b7b859a6b313bef27715626a2129a68a4e711fed88780f169533809010a1ae8
-# Source SHA-256: 1570c6c19299ad1d9e0f3cdb419737b9b3e751cb17649cbbd7e7a40e700a578f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-IGL.ANS by Zeus II (Fluid); released in 2fluid2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: IGL 25liner
-# SAUCE Author: Zeus II
-# SAUCE Group: Fluid
-# SAUCE Date: 20010531
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: IGL 25liner by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-2fluid2-zii-igl
 
 Write-Host '
 [35;43m▓▓[0;35;40m██████████[0;35;43m█[0;35;40m██████████▄▄[0m       [34;40m▄▄[0;1;34;40m [0m  [1;47m██████[0;1;45m▌[0;35m█[0;1;35;45m▄▄██▓▄██▀▀▀[0;35m█▀▀[0;1;37m▄▄▄[0m▄▄▄[35m▀▀██▄▄▄[0;31m▀[0;1;31m▀█[0;1;31;47m▀[0m▄[31m▌[0;37m  [0m

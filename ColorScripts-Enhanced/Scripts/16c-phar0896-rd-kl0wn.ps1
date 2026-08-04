@@ -1,13 +1,4 @@
-﻿# Converted from: RD!KL0WN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phar0896/raw/RD!KL0WN.ANS
-# Source Revision: archive-sha256:6b5cc8d7252908bb34e044ed6dcfb42f8dbf6c65d3528deee6494d62c5743e7d
-# Source SHA-256: e77a56e48e71073837b8dc24ebae0594cd6ece4ce7a8341770d4176ba827d2db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD!KL0WN.ANS by Rabid Doctor (phar0896); released in phar0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: RD!KL0WN.ANS by Rabid Doctor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phar0896-rd-kl0wn
 
 Write-Host '
 [31m-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\[0m

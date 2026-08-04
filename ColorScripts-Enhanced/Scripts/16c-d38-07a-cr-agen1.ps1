@@ -1,18 +1,4 @@
-﻿# Converted from: CR_AGEN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-07a/raw/CR_AGEN1.ANS
-# Source Revision: archive-sha256:6502b6f7b940f1799a6ba4f4b08910561aba3d74e01448e36157cb66de10c8c7
-# Source SHA-256: e7d8c5da8a7b1ba92bdda27af2be980dae801c70f559872e70c9437f088bc777
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CR_AGEN1.ANS by CRUCiFER (Department 38); released in d38-07a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Agency
-# SAUCE Author: CRUCiFER
-# SAUCE Group: Department 38
-# SAUCE Date: 19970530
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: The Agency by CRUCiFER | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-07a-cr-agen1
 
 Write-Host '
 [1;30m░▒░▒▒▓▒▓▓█▓█████████████████████████████████████████▀██████████▀[0;1;36m▄[0;1;30m▀███▓▀▀▓▒▓▒▒░▒░[0m

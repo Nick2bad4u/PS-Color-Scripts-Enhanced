@@ -1,18 +1,4 @@
-﻿# Converted from: YT-TJM3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0797/raw/YT-TJM3.ANS
-# Source Revision: archive-sha256:e4775a757aef4d1cbaf4afe3e80ca53c95903e66bce5b0d15425834b8d9ddb3a
-# Source SHA-256: 00e8b1521bf1905ac27b735189144b85216f326987636e547c274dc141fd7894
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: YT-TJM3.ANS by neophyte (mistigris); released in mist0797 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the jade monkey
-# SAUCE Author: neophyte
-# SAUCE Group: mistigris
-# SAUCE Date: 19970714
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: the jade monkey by neophyte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0797-yt-tjm3
 
 Write-Host '
 [1;47mthe jade monkey ▒[0m▓░ [1;35m░▓██▀▀▀▀▀[0;1;35;45m▓▓░░[0;35m███▓▓░░[0;37m  [0;33m▄█[0;1;31;43m░░▓▓[0;1;31;40m███▄ [0;35m▀▀▀[0;1;35;45m▒▒░░   [0;35m▓░[0;37m ▐[0;1;37;47m▄▄▄▄[0m████████

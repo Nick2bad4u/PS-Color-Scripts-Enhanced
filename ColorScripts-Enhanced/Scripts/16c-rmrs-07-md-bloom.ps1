@@ -1,17 +1,4 @@
-﻿# Converted from: MD-BLOOM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-07/raw/MD-BLOOM.ANS
-# Source Revision: archive-sha256:61889e25f9aabca379d04e2b2d3feb488a6dd66438cbe11c86e0ef7c4ce83215
-# Source SHA-256: bcbfa6d22c5a06f277400c7054a9abb83f4863c1e1999d057d236112a8b7725f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MD-BLOOM.ANS by Mr. Self Destruct (ACiD Productions); released in rmrs-07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Bloom
-# SAUCE Author: Mr. Self Destruct
-# SAUCE Group: ACiD Productions
-# SAUCE Dimensions: 80x25
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Bloom by Mr. Self Destruct | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-07-md-bloom
 
 Write-Host '
 [1;34m [0;1;33m   [0;1;32m [0;1;33m  [0;1;32m       [0;32m [0;1;32m [0;32m           [0;1;37m ╓[0m─ [1;30m ╓ [0m [32m [0;1;30m [0m [1;30m [0m     [1;30m [0;32m [0;37m  [0;1;30m [0;32m [0;37m [0;32m        [0;1;32m   [0;1;33m [0;1;32m [0;32m [0;1;32m [0;32m [0;1;32m [0;32m   [0;1;30m [0;32m [0;1;30m      [0m

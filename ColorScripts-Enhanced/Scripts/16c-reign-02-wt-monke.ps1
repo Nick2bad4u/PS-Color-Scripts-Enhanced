@@ -1,18 +1,4 @@
-﻿# Converted from: WT-MONKE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/reign-02/raw/WT-MONKE.ANS
-# Source Revision: archive-sha256:dc3996199d28e47087a92912d34bad8e97b4ba4e4ae70fc7dadbaeac5af3f655
-# Source SHA-256: 02a22e9d4621eeda9c46b796c7aee001da925130623a9d160da93a6e9dbf6c7f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WT-MONKE.ANS by Whitey (Reign); released in reign-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Blue-monkey
-# SAUCE Author: Whitey
-# SAUCE Group: Reign
-# SAUCE Date: 19981111
-# SAUCE Dimensions: 80x48
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: Blue-monkey by Whitey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-reign-02-wt-monke
 
 Write-Host '
 [1;34;46m░▒▓[0;1;34;40m███[0;1;34;44m██▀▀▀▀▀▀[0;34m██████▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀[0;37m [0;33m▀[0;37m  [0;34m▀▀ [0;37m [0;33m▀[0;34m▀[0;37m  [0;33m▀▀▀▀▀[0;34m  [0;33m▀[0;34m [0;1;30;43m▓[0;33m███[0;1;30;43m▀[0;33m██[0;1;30;43m░░░░▒████[0;1;30;40m▓[0;1;30;43m█[0;1;30;40m▓▓▒░[0m

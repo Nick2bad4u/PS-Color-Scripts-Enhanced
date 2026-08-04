@@ -1,18 +1,4 @@
-﻿# Converted from: GSO-AVE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge10/raw/GSO-AVE2.ANS
-# Source Revision: archive-sha256:4725a49f000be405604fef00981ef162e49f75e837f44b5ac60d90188100f813
-# Source SHA-256: ac303a18eebcc8217f4bc8b1544a9030c1ba19d99d7151c71584f317461e6841
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GSO-AVE2.ANS by gso (avenge); released in avenge10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: dreamhack98 ansi compo
-# SAUCE Author: gso
-# SAUCE Group: avenge
-# SAUCE Date: 19981030
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: dreamhack98 ansi compo by gso | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge10-gso-ave2
 
 Write-Host '
 [1;34;44m▓[0;30;44m▐[0;37;40m [0;1;34;40m▐[0;1;34;46m▒[0;30;44m▐[0;30;47m█[0;30;43m██[0;1;30;40m▄[0;33m▄[0;1;31m▒▓▓[0;1;31;47m██[0;1;31;46m█[0;1;31;47m██████████████████████[0;1;31;46m█[0;1;31;47m█[0;1;31;46m█[0;1;31;47m█[0;1;31;46m█[0;1;31;47m██[0;1;31;43m███████████[0;1;31;40m█▒[0;1;30;40m░[0;30;43m█[0;30;47m█[0m     [1;30;40m▄█▀[0m ▄[1;47m▄[0;1;40m█[0;1;47m▀[0;1;30;47m▄[0m▀[1;30m▀[0m

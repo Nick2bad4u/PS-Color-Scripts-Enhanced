@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-WADO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0525/raw/ZII-WADO.ANS
-# Source Revision: archive-sha256:3f1c54fcce63651d0da098cd25cb8253b5a6b2c25c827a57c95e7c0e8210b5fb
-# Source SHA-256: eb64a2e7028782387571f9c18a2f49ed637b4c9ab354a9b387f88173c477d6ad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-WADO.ANS by Zeus II (Mistigris); released in mist0525 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Alien Wadoran Maya (SHS)
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20250411
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Alien Wadoran Maya (SHS) by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0525-zii-wado
 
 Write-Host '
 [32m  [0;36m█[0;32m  [0;36m▐██▀[0;32m [0;36m▄█▀[0;34m  ▄▄[0;1;34;44m ▄▀▀[0;34m▀▄▄[0;1;34;44m▄▄▄[0;34m▄▄ ▀[0;1;34m▄▀▄▀▀[0m  [1;34m▀█[0;1;34;47m▓[0;1;34;40m▄[0;34m▀[0;1;34;44m▀[0;1;34;40m█▄  [0;34m▀█▀▄[0;1;34;44m▄▀[0;34m▀ ▄  [0;36m▄▄  ▄▄  ▄▄    ▄▄ [0;34m▀[0;1;34;44m▀▄[0m

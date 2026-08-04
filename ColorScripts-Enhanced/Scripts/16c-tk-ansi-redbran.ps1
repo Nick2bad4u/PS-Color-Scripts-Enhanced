@@ -1,18 +1,4 @@
-﻿# Converted from: REDBRAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tk-ansi/raw/REDBRAN.ANS
-# Source Revision: archive-sha256:7a6e15a450305cb977de0a4eb06cf4ca525baa4933c9f7af1cf6080dced8bf2d
-# Source SHA-256: b7a5f5fa6735f8d5ce8d24ceb203fe53303bdfe6dbd72a2fd5c0632052db8267
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: REDBRAN.ANS by Tank (tk-ansi); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Red Branch
-# SAUCE Author: Tank
-# SAUCE Date: 19910529
-# SAUCE Dimensions: 80x24
-# SAUCE Comments: ANSi referencing the book by Morgan Llywelyn
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: The Red Branch by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tk-ansi-redbran
 
 Write-Host '
 [1;32;42m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;32;41m▄[0;31;40m█[0;1;32;41m▀[0;31m████[0;1;32;41m▀▀[0;1;32;42m▀▀▀▀▀▀[0;32;41m▄[0;31;40m█[0;1;32;41m▀[0;31m████████[0;1;32;41m▀[0;32;41m▄[0;31;40m█[0;1;32;41m▀[0;31m████[0;1;32;41m▀[0;1;32;42m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

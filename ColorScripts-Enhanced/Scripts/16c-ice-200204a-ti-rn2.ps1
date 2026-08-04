@@ -1,13 +1,4 @@
-﻿# Converted from: ti-rn2.ice
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-200204a/raw/ti-rn2.ice
-# Source Revision: archive-sha256:9474dbd5fb2aa6d81ae7bd493cf3123959dc1e3144cbf55081f58d459baca031
-# Source SHA-256: 13d2ad1d3371eb34956b0527a27e99f62b91f93e0110fce6a8deda510420aab5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ti-rn2.ice by Trip (ice-200204a); released in ice-200204a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ti-rn2.ice by Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-200204a-ti-rn2
 
 Write-Host '
 [36m░░░░[0;37m [0;1;30mTrip[0m  [36m░░ ░░▓▓[0;1;33;46m░▒▒[0;36m▄▀[0;1;33;46m▀▓[0;36m▄▀[0;1;33;46m▀█▄[0;36m▄▀[0;1;33;46m░[0;36m▄[0m           [37m [0;1;36m▄▄▄▄▄▄[0;36m▄[0m                [36m▄[0;1;36m▄▄▄[0m

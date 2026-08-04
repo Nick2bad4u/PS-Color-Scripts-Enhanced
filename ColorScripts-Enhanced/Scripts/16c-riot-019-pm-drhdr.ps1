@@ -1,13 +1,4 @@
-﻿# Converted from: PM-DRHDR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot-019/raw/PM-DRHDR.ANS
-# Source Revision: archive-sha256:9aa1bfedb3e77f40c8d03939fcdaf89791a58ec89409180a06683fe78363ea15
-# Source SHA-256: 0c879bdb167d7241dde2f396fbd99a361dcc37f6efa3b9f7bffb74c23e47409d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-DRHDR.ANS by Precious Metal (riot-019); released in riot-019 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: PM-DRHDR.ANS by Precious Metal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot-019-pm-drhdr
 
 Write-Host '
                                            [32m▄[0;1;32;42m░░[0;32m▄▄▄▄▄▄[0;1;30m▄[0;31m▄▄▌▄▄ [0;1;30m  [0;32m▄▄▄▄▄▄[0m

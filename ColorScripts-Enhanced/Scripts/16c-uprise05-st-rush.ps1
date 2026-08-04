@@ -1,13 +1,4 @@
-﻿# Converted from: ST-RUSH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise05/raw/ST-RUSH.ANS
-# Source Revision: archive-sha256:8a04f72dbd0084a3dd089505796d41f1fc098ce192bbfa410f8bc1039eb33f03
-# Source SHA-256: 1c3b33f448069f25e0c47cebe8e6fb84bed7ac48f62aa72d71b8fad51104a101
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-RUSH.ANS by Sting (uprise05); released in uprise05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: ST-RUSH.ANS by Sting | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise05-st-rush
 
 Write-Host '
 

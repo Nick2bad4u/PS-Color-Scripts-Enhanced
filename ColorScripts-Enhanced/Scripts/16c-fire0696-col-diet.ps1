@@ -1,18 +1,4 @@
-﻿# Converted from: COL-DIET.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0696/raw/COL-DIET.ANS
-# Source Revision: archive-sha256:812b4b6a142b76b92307dc090cdf58b49035a2b9097d1dc0a43da5e4fd3f4f2d
-# Source SHA-256: c207feeca2239a6cb96f8453bcf76d370437141bbc6c607c6c4d515d28a1dad0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: COL-DIET.ANS by colorblind (fire); released in fire0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: diet coke/cola
-# SAUCE Author: colorblind
-# SAUCE Group: fire
-# SAUCE Date: 19960528
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: diet coke/cola by colorblind | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0696-col-diet
 
 Write-Host '
                            [1;30m▄▄▄▄[0m [1;30m▀[0m [1;30m▄[0m

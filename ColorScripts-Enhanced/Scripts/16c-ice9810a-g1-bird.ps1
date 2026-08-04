@@ -1,18 +1,4 @@
-﻿# Converted from: G1-BIRD.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9810a/raw/G1-BIRD.ICE
-# Source Revision: archive-sha256:63fe2d69146dc3143da6d18446c5b4b0c856d89d79ccdae81c32b975d5630ef0
-# Source SHA-256: 4f801144a066826478a5cb234e73dbaebf9418408d90265882aa661fcfe0efe4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: G1-BIRD.ICE by Gloss (iCE Advertisements); released in ice9810a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Pychadelic Matrix
-# SAUCE Author: Gloss
-# SAUCE Group: iCE Advertisements
-# SAUCE Date: 19981007
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Pychadelic Matrix by Gloss | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9810a-g1-bird
 
 Write-Host '
 [1;30m ░[0m            [1;30m  [0m         [35m  [0m          [35m  [0;37m  [0;1;30m               [0m [31m░[0;30;41m▓[0;37;40m [0;1;30;40m          [0m   [35m  [0m

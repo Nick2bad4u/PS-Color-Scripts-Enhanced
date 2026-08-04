@@ -1,18 +1,4 @@
-﻿# Converted from: US-APUB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook20/raw/US-APUB.ANS
-# Source Revision: archive-sha256:ad9acf30fa46ab5c9a458319782448b90dee64987e366c3cf1e5e495b40c4e0a
-# Source SHA-256: 371adf7e9508ebd99308fe1520b83e0786401b95be208520f3e898c55409a581
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-APUB.ANS by Toot + Lemonizer (bmbook20); released in bmbook20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: alien pub , zippys#bbs
-# SAUCE Author: toot + lemon1zer
-# SAUCE Group: ... .
-# SAUCE Date: 19990603
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: alien pub , zippys#bbs by Toot + Lemonizer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook20-us-apub
 
 Write-Host '
 [1;32m▄[0;1;32;42m▄█████▓░[0;32m████████████████████[0;1;32;42m  ▀[0;1;32;40m█[0;1;37;40m██[0;1;32;40m██[0;1;32;42m▓▓▀[0;32m██████████████████[0;1;32m▒▒[0;32m█████████████[0;1;32;42m [0;1;32;40m███[0;1;32;42m▄[0;32m▌[0m

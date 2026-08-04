@@ -1,18 +1,4 @@
-﻿# Converted from: MR-ESC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira9802a/raw/MR-ESC.ANS
-# Source Revision: archive-sha256:157ead14d43652aeef2256f394202c3af23e0a670018a92df40a323cb79405f8
-# Source SHA-256: c0c850e9cc0b9ca72d8ce7b5208e85c8859ef8ca0369d7cc04fbbf3f4ad4064f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-ESC.ANS by Mr.Wrong (irato); released in ira9802a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Escape /33
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: irato
-# SAUCE Date: 19980113
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Escape /33 by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira9802a-mr-esc
 
 Write-Host '
   [33m■▄[0m                 [31m  [0m                     [31m [0m     [31m▄[0m

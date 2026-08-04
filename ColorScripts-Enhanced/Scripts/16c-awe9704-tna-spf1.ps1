@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-SPF1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9704/raw/TNA-SPF1.ANS
-# Source Revision: archive-sha256:da151757a637299fc8da8cc755ae75b6a0e1a281dd915d29497f1d00d429e5c1
-# Source SHA-256: 624f88aaf0e5c920ee478addf4a5b0696e658f69ef8234540134b4bf1bbb6981
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-SPF1.ANS by The Night Angel (AWE Lettering); released in awe9704 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Spoof
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970331
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Spoof by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9704-tna-spf1
 
 Write-Host '
                                                                           [1m░[0m

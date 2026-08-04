@@ -1,13 +1,4 @@
-﻿# Converted from: zv-lud.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tnt-009/raw/zv-lud.ans
-# Source Revision: archive-sha256:4d2e0521333de177726affff82e474509b25a1223425505aac445bc894496220
-# Source SHA-256: e43e974d6d6d4d6165c5f568513894c308da22c7bb66be2f84a063a3ad0f2dfa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zv-lud.ans by Zerovision (tnt-009); released in tnt-009 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: zv-lud.ans by Zerovision | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tnt-009-zv-lud-part01
 
 Write-Host '
 [31m██████████████[0;1;31;41m░░░▒▒▒▒▓▓▓▓▓[0;1;31;40m█▀▀▀[0m              [1;31m▀▀▀▀█████[0;1;31;41m▓▓▓▓▒▒▒▒▒▒░░░[0;31m█████████████[0m

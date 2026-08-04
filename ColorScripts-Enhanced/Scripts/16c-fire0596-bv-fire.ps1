@@ -1,18 +1,4 @@
-﻿# Converted from: BV-FIRE!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0596/raw/BV-FIRE!.ANS
-# Source Revision: archive-sha256:36c941759d451fdd3b8fb831978bf146c114a97ebcdf99a7ed67f1f699b42790
-# Source SHA-256: 0b3287a1aa8f23a125091daa0b1f613891732f34ee50510891b08ce9671311e5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BV-FIRE!.ANS by Black Viper (fire); released in fire0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fire Promotional
-# SAUCE Author: Black Viper
-# SAUCE Group: fire
-# SAUCE Date: 19960506
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Fire Promotional by Black Viper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0596-bv-fire
 
 Write-Host '
 [32m[0m[32m[0;1;30m[0m            [1;30m ─┐   [0m         [32m▄▐▀██▄[0m                           [37m               [0;1;30m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: KT&ND-FV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-12/raw/KT%26ND-FV.ANS
-# Source Revision: archive-sha256:7e4f8f6a94015166f300fe788b888a1d637b190c909ddf321a766f55494b93b3
-# Source SHA-256: 4b22c412dd91fc425f39efce2c0b6a1a636527abaa504fc5a00d48a2f3dcbccd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KT&ND-FV.ANS by Kurrupt + Noodles (fORCE); released in force-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: forceview
-# SAUCE Author: kURRUPt w/ noOdles
-# SAUCE Group: fORCE
-# SAUCE Date: 19960930
-# SAUCE Dimensions: 80x22
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: forceview by Kurrupt + Noodles | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-12-kt-nd-fv
 
 Write-Host '
   [1;32m [0m                                                       [1m   [0m

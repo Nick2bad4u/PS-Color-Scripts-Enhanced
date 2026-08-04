@@ -1,18 +1,4 @@
-﻿# Converted from: SWL-KOG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mtn-1095/raw/SWL-KOG1.ANS
-# Source Revision: archive-sha256:1666fed31c4a41db169658c4278e51992ae9a36f0a561cd49de5c8e5084f2d4e
-# Source SHA-256: e78102312286d705276514e722e5bab26e5a22a83d8ec3e4ebddf1178f8bd152
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SWL-KOG1.ANS by screeching we`sel (mOtion!); released in mtn-1095 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: kinGdom Of gRoove
-# SAUCE Author: screeching we`sel
-# SAUCE Group: mOtion!
-# SAUCE Date: 19950924
-# SAUCE Dimensions: 80x91
-# Lines: 48-91
-# Columns: 1-80
+﻿# Artwork: kinGdom Of gRoove by screeching we`sel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mtn-1095-swl-kog1-part02
 
 Write-Host '
 [1;30m  [0m   [1;30m  [0;33m░▒▒▓██[0;1;31;43m░▒▓[0;1;31;40m▌▐▄▄[0m                       [33m▀▄▀▄█████████▓███▓▓▓▓█[0;37;43m░░[0;33;40m [0;1;30;40m▓▓███[0;1;30;47m▓[0;1;30;40m▌[0m

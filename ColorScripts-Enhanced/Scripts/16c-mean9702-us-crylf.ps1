@@ -1,18 +1,4 @@
-﻿# Converted from: US-CRYLF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mean9702/raw/US-CRYLF.ANS
-# Source Revision: archive-sha256:50188cf6a7b32040057966067eb7319691f159dea5b32b2a96dde8d34c559d2e
-# Source SHA-256: 0a2bebd891fe15a0c9cd962f2789def383211045e628411036bb3a992bd82ab9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CRYLF.ANS by Nail + Kyp (mean schemen scheme); released in mean9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the crypt logoff
-# SAUCE Author: kyp+nail
-# SAUCE Group: mean schemen scheme
-# SAUCE Date: 19970210
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: the crypt logoff by Nail + Kyp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mean9702-us-crylf
 
 Write-Host '
 [1;35m   [0;35m [0;1;35m    [0;35m                ▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄                         [0;1;30m         [0m

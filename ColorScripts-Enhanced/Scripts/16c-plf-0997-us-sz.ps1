@@ -1,18 +1,4 @@
-﻿# Converted from: US-SZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0997/raw/US-SZ.ANS
-# Source Revision: archive-sha256:d6ce507ee095ab9c7ce1d91178b57bff0c61babde42a3957415461a430e18407
-# Source SHA-256: a7ed49f78705abbffca73699d6b6ec23b61a21ecb32a74611233094e9a59e1db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SZ.ANS by Big Yellow Man + Static4 (poffelipoff); released in plf-0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Shatter Zone
-# SAUCE Author: bym//s4
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19970915
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Shatter Zone by Big Yellow Man + Static4 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0997-us-sz
 
 Write-Host '
 

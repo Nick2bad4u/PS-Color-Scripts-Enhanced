@@ -1,18 +1,4 @@
-﻿# Converted from: TP-NUMB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0894/raw/TP-NUMB1.ANS
-# Source Revision: archive-sha256:579001802fef1b17332e841fc4a10a196f0fb598195527399813bce5932fa6e1
-# Source SHA-256: 9b05ab41c6e7422ae4703a6af73949d43ab71765a6f4bed3a610e56820f8a177
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TP-NUMB1.ANS by Terminal Psychosis (Union); released in uni-0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Numb
-# SAUCE Author: Terminal Psychosis
-# SAUCE Group: Union
-# SAUCE Date: 19940801
-# SAUCE Dimensions: 80x25
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: Numb by Terminal Psychosis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0894-tp-numb1
 
 Write-Host '
             [1m▄▀[0;1;47m▓[0;1;40m▀  ▄███[0;1;47m▓▓▓▒▒▒░░░               [0;1;30;47m░░▒▒[0;1;30;40m███▄[0;31m  ▄▄[0;1;31m▄[0m ▀▀[1;30;47m░▒[0;1;30;40m▄[0;1;37;40m  ▀[0;1;37;47m▓[0;1;37;40m▌[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: FR-UGLY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9705/raw/FR-UGLY.ANS
-# Source Revision: archive-sha256:42f41174635a4b9e44304d5d0f48b9b5aa0b6be93e48c5ea196226a31ced9fa8
-# Source SHA-256: d1a72a582505f546ecaab5d38d30af14f52d21df725c77cf98df4ad6e6ffd865
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FR-UGLY.ANS by feaRprOphet (compo); released in mdn-9705 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: here its for the compo! =)
-# SAUCE Author: feaRprOphet
-# SAUCE Group: compo
-# SAUCE Date: 19970415
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: here its for the compo! =) by feaRprOphet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9705-fr-ugly
 
 Write-Host '
            [1;30m▄▄▄▄▄█████████████████▄▄▄▄[0m

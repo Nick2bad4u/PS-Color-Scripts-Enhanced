@@ -1,19 +1,4 @@
-﻿# Converted from: US-PONCHIELLI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1021/raw/US-PONCHIELLI.ANS
-# Source Revision: archive-sha256:64634d001e2a6c18446bf552376701feb95a4ac9dffd53692196da98b42e43bd
-# Source SHA-256: 8e57228eda5f9353c44af8e205692fdaa9de79e32c8f5f56f0bea6e075cbea5a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PONCHIELLI.ANS by LDA + Cthulu (Mistigris); released in mist1021 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Dance of the Hours
-# SAUCE Author: Cthulu / LDA / Zylon
-# SAUCE Group: Mistigris
-# SAUCE Date: 20211024
-# SAUCE Dimensions: 80x100
-# SAUCE Font: IBM VGA
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: Dance of the Hours by LDA + Cthulu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1021-us-ponchielli-part01
 
 Write-Host '
 [34m██[0;1;34;44m▓▒▒▒▒░░░░  ▓▒▒▒▒░░░░  ▓▒▒▒░░ ▓▒▒░ ▓▒ ▓ ▓           ▓▒▒▒░░ ▓▒▒░ ▓▒ ▓ ▓        [0m

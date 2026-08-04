@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-27.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch01/raw/AVG-27.ANS
-# Source Revision: archive-sha256:bcdfc9b2605e2362d13ac77fb62c5078fc12465fcf977c00e2a69fa522191716
-# Source SHA-256: a27fce1217b75ef98a6eab5471be2b4c9a004fbe5631eb32a864292de0a9e749
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-27.ANS by avenging angel (27 inches); released in 27inch01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 27 promo
-# SAUCE Author: avenging angel
-# SAUCE Group: 27 inches
-# SAUCE Date: 20030218
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: 27 promo by avenging angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch01-avg-27
 
 Write-Host '
                                                                   [31m▄[0m

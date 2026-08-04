@@ -1,18 +1,4 @@
-﻿# Converted from: TS-TOM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy09/raw/TS-TOM1.ANS
-# Source Revision: archive-sha256:4a76e66d96462ed923b8b41dd8e01625078b4c791bda0ef6180f08638853037b
-# Source SHA-256: 1b595c600a1546a3483b7a0ec7df769f7956e06d08c0341929fc93cdaad3bffc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-TOM1.ANS by Transient (apathy); released in apathy09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Tower of Mana
-# SAUCE Author: Transient
-# SAUCE Group: apathy
-# SAUCE Date: 19960426
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Tower of Mana by Transient | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy09-ts-tom1
 
 Write-Host '
 [1;30m░▒▓████████████████████▀▀▀▀▀▀▀▀▀▀▀▀▀▀████████████████████████████████████████▓▒░[0m

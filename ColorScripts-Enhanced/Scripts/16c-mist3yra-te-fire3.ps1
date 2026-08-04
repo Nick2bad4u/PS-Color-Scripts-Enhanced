@@ -1,18 +1,4 @@
-﻿# Converted from: TE-FIRE3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist3yra/raw/TE-FIRE3.ANS
-# Source Revision: archive-sha256:2b1ec0b7cbe048c013d4fb5b84e23b783ff4f9f900b4e7c0cd1dcc3d31e02136
-# Source SHA-256: d8d317e68f8af7d18e8936d616ca3e379eed787fb2ce8e421bd41ae5a3e19f11
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-FIRE3.ANS by text (FIRE!/Mistigris); released in mist3yra and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fire walk with me
-# SAUCE Author: text
-# SAUCE Group: FIRE!/Mistigris
-# SAUCE Date: 19970904
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Fire walk with me by text | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist3yra-te-fire3
 
 Write-Host '
 [34m▄▀[0;1;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;34m▀▄[0m

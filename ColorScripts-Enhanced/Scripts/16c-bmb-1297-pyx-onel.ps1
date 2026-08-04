@@ -1,18 +1,4 @@
-﻿# Converted from: PYX-ONEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-1297/raw/PYX-ONEL.ANS
-# Source Revision: archive-sha256:8fe0580f10c9c4324a8f3895b4ceff54a332010a934acdbd13d10f88a0864853
-# Source SHA-256: a8262dca5295928180042290beb663222e15b78b5b68f7f11da9dac32b169f0e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-ONEL.ANS by pyx (bamboosh); released in bmb-1297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: oneliner
-# SAUCE Author: pyx
-# SAUCE Group: bamboosh
-# SAUCE Date: 19980118
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: oneliner by pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-1297-pyx-onel
 
 Write-Host '
      [36m░[0;30;46m▓[0;35;40m ▄▄▄   [0m

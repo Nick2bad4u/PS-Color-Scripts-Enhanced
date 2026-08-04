@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-THU2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-46/raw/ZII-THU2.ANS
-# Source Revision: archive-sha256:32c189dd42ed53f66ce0b86a88ea8027caddc32faf4da7cee2e674d9223cb9f4
-# Source SHA-256: 919bca514b33838ed19162256716684860e0536f759838087adf1cddb902d852
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-THU2.ANS by Zeus II (Mistigris); released in fire-46 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Underground (logo)
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260707
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: The Underground (logo) by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-46-zii-thu2
 
 Write-Host '
                [34;40m▄▄▄[0;1;30;40m  [0;31m▄▄[0m                  [34m▄[0m     [34m▄▄▄▄[0m                [34m▄▄▄[0m

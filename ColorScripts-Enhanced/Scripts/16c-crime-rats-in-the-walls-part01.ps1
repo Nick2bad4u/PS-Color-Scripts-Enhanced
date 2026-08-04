@@ -1,16 +1,4 @@
-﻿# Converted from: rats in the walls.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/crime/raw/rats%20in%20the%20walls.ans
-# Source Revision: archive-sha256:a367005eee144057c947d7208aa317fce4933acfe82550e7d3f4b62927953532
-# Source SHA-256: cbd89128b59e044773372acfc5accc20225250fbd1370b2f8a69fa3086bfc2f6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: rats in the walls.ans by Filth (crime); released in crime and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 20160125
-# SAUCE Dimensions: 80x85
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: rats in the walls.ans by Filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-crime-rats-in-the-walls-part01
 
 Write-Host '
 

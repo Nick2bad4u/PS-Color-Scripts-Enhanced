@@ -1,13 +1,4 @@
-﻿# Converted from: AMPLIFIR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zxica/raw/AMPLIFIR.ANS
-# Source Revision: archive-sha256:ef5a7129395b9ec08bfcf4061c70d6ecdc1c0015e2a4b12e71fa099c7877c834
-# Source SHA-256: 827cafce0352640386c3b95d99bbb1b4ecae8ccad203d6f873a24528f8482f23
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AMPLIFIR.ANS by Dieznyik (zxica); released in zxica and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: AMPLIFIR.ANS by Dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zxica-amplifir
 
 Write-Host '
                                [1m  ▄[0m▄[30;47m▓[0;37;40m▀[0;1;37;40m▀▀▓▄       [0m                               

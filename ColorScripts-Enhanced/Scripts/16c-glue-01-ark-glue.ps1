@@ -1,13 +1,4 @@
-﻿# Converted from: ARK-GLUE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-01/raw/ARK-GLUE.ANS
-# Source Revision: archive-sha256:0e63c5e62ea9b66430033b1875dc38843fc6f5d45408ae01bb2abd9ed19a0d23
-# Source SHA-256: ef1344a44fa5d36a52b92d08b2b1163b858bcd187b3493ed60f01ebd268ec38d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARK-GLUE.ANS by Ark Anjel (glue-01); released in glue-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: ARK-GLUE.ANS by Ark Anjel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-01-ark-glue
 
 Write-Host '
 [1;35m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;35m▄[0;1;35m  [0m   [30;47m▓[0m     [34;40m▄[0m

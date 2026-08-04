@@ -1,13 +1,4 @@
-﻿# Converted from: RB-MENU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axis-9/raw/RB-MENU.ANS
-# Source Revision: archive-sha256:b82f112c80b77b601afd20f06fa2d0515df5f0288a99244a4ccb297bb35fa70a
-# Source SHA-256: 59116b4493088619205d91963a21272d9b24351ecb7b2fe9b96c5cd82cf97ea0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RB-MENU.ANS by Rabi Li (axis-9); released in axis-9 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: RB-MENU.ANS by Rabi Li | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axis-9-rb-menu
 
 Write-Host '
 [1m▓████████[0;1;41m▀▀[0;1;40m████▀█▀██▀▀█████████████ [0;1;41m   [0;31m▄[0;31;41m   [0;31;40m▀[0m         [1;30;40m▓███████████████████████▓▌[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: NME-NF#2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-07/raw/NME-NF%232.ANS
-# Source Revision: archive-sha256:f0498e40c7ce9f5718652374b5ec8d4837bb6e6a2bfea8c457a1793267178c86
-# Source SHA-256: 0acec09162b3673e26562918b4de4d0980a667e993b9556505d7df9f314c3bd0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NME-NF#2.ANS by NMe (force); released in force-07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: nuclear fallout menu
-# SAUCE Author: NMe
-# SAUCE Group: force
-# SAUCE Date: 19960330
-# SAUCE Dimensions: 80x23
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: nuclear fallout menu by NMe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-07-nme-nf-2
 
 Write-Host '
 [35m [0;37m [0;1;32m▄[0;1;37m [0m [1;32m▄▄▄▄▓[0m [33m   [0;37m [0;1;32m▄▄▄▄▓[0m [33m  [0;37m [0;1;32m▄[0;1;37m [0;33m        [0;1;37m [0;1;32m▄▄▄▄▓[0m [33m   [0;37m [0;1;32m▄▄▄▄▄[0m     [1;32m▄▄▄▓▄[0m     [1;32m▄▄▄▄▓[0m

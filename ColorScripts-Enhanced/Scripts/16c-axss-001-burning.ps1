@@ -1,18 +1,4 @@
-﻿# Converted from: BURNING.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axss-001/raw/BURNING.ANS
-# Source Revision: archive-sha256:176d32795f2951cddf3670ed00cc6480fb77c7876a0a6bdca896b1d8ec0d4ac2
-# Source SHA-256: cdd2e766c059adb09f806befb6ec5ac2a39c6ca594ae6d2bc6264bc5c9ef9c7d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BURNING.ANS by Widowmaker (AWE Lettering); released in axss-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Burning Desires
-# SAUCE Author: Widowmaker
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970324
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Burning Desires by Widowmaker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axss-001-burning
 
 Write-Host '
                [34m▄[0m                          [34m▄[0m

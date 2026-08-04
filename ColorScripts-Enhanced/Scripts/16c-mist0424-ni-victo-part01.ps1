@@ -1,19 +1,4 @@
-﻿# Converted from: NI-VICTO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0424/raw/NI-VICTO.ANS
-# Source Revision: archive-sha256:d1bad4307edc4d5552b23ae4adea805150573b7a14b0c9ddfbd988a286da0bf3
-# Source SHA-256: e3cea7424a1085c52b5b4a3140d6373e451df19f049666b45783d83c49b9f161
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-VICTO.ANS by Nitron (Mistigris); released in mist0424 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Nike's Landing
-# SAUCE Author: Nitron
-# SAUCE Group: Mistigris
-# SAUCE Date: 20240419
-# SAUCE Dimensions: 80x115
-# SAUCE Font: Default
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Nike's Landing by Nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0424-ni-victo-part01
 
 Write-Host '
 

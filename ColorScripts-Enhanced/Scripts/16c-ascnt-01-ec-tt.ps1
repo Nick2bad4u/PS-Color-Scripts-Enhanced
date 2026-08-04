@@ -1,18 +1,4 @@
-﻿# Converted from: EC-TT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ascnt-01/raw/EC-TT.ANS
-# Source Revision: archive-sha256:3bdf8229aa519ad1025b75a48c0784037de8a99980400cee57d5562e91942b95
-# Source SHA-256: e35859cee87c87d66e37a156c2e6a3083c5eca07bdc9b5d6c95fdaad65fabc89
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EC-TT.ANS by eclipse (ascent); released in ascnt-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: toxic toast
-# SAUCE Author: eclipse
-# SAUCE Group: ascent
-# SAUCE Date: 19961019
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: toxic toast by eclipse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ascnt-01-ec-tt
 
 Write-Host '
                              [1;34m▄[0m               [1;32m■▄▄[0;32m     [0m            [32m  [0m       [32m  [0m

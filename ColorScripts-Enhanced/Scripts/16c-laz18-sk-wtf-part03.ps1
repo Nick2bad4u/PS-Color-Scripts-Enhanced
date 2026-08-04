@@ -1,20 +1,4 @@
-﻿# Converted from: sk!wtf.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz18/raw/sk!wtf.ans
-# Source Revision: archive-sha256:32d30452c4c99022fae4fa2ce9a2923ef46629d3ff7dd35a972944a991699c1f
-# Source SHA-256: e2ed008c6ca5d2d62c08b69e43c2a91ca5eba5a0fd947e2ceb695215ec457709
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sk!wtf.ans by sIMONkING (Lazarus); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: WTF
-# SAUCE Author: sIMONkING
-# SAUCE Group: Lazarus
-# SAUCE Date: 20240209
-# SAUCE Dimensions: 80x125
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Mexicana Szczyrk 07.02.2024 r.
-# Lines: 101-124
-# Columns: 1-80
+﻿# Artwork: WTF by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz18-sk-wtf-part03
 
 Write-Host '
 ▒▒▒░░   ▀█████████████████▀▀▀▀▀    [1m▀▀▀  [0m███████████████████████████▄▄▄▄▄▄  [1;30msK![0m

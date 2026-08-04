@@ -1,18 +1,4 @@
-﻿# Converted from: WA-911.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz08jly/raw/WA-911.ANS
-# Source Revision: archive-sha256:8d8d89cdb4f6a56f2eaa26003458d08f5faec96c5dffe1f9e4f0c78141100bcb
-# Source SHA-256: 0fe00807d73113c729dc65aa4d74bffe772132e5be17fbc2d3452b5ef43423db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WA-911.ANS by warpus (lazarus); released in laz08jly and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 911
-# SAUCE Author: warpus
-# SAUCE Group: lazarus
-# SAUCE Date: 19970624
-# SAUCE Dimensions: 80x48
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: 911 by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz08jly-wa-911
 
 Write-Host '
                                [1;34;47m [0m█

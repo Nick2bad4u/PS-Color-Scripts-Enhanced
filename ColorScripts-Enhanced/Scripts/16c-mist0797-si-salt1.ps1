@@ -1,18 +1,4 @@
-﻿# Converted from: SI!SALT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0797/raw/SI!SALT1.ANS
-# Source Revision: archive-sha256:e4775a757aef4d1cbaf4afe3e80ca53c95903e66bce5b0d15425834b8d9ddb3a
-# Source SHA-256: 572d839d5e63d1a23705d2d8bb636b7e12096a21d4f2dc26c3f05d3841f9c715
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SI!SALT1.ANS by sadistic intent (hurt productions); released in mist0797 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: salt
-# SAUCE Author: sadistic intent
-# SAUCE Group: hurt productions
-# SAUCE Date: 19970612
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: salt by sadistic intent | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0797-si-salt1
 
 Write-Host '
                            [30;45m▄█[0m                                                 [30;45m█[0m

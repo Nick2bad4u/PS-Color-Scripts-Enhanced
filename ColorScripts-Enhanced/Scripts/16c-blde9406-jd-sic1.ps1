@@ -1,13 +1,4 @@
-﻿# Converted from: JD-SIC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9406/raw/JD-SIC1.ANS
-# Source Revision: archive-sha256:72b7e4d128b1ee6d958f28aebe2b8aee4f4a1e44e8ccbb0543812bfd8b7b45ba
-# Source SHA-256: b86ef0808b13a586acbac808e43fa86b2f6c864b65404d73677a50ee341f7445
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JD-SIC1.ANS by Janzik Darkness (blde9406); released in blde9406 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: JD-SIC1.ANS by Janzik Darkness | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9406-jd-sic1
 
 Write-Host '
     [1m▀[0m                   [1;30;47m▒[0m       [1;30m█[0;1;30;43m▓▒░[0;33m█████▀▀▀▀██████████████████████████████[0;1;30;43m JzDk[0m

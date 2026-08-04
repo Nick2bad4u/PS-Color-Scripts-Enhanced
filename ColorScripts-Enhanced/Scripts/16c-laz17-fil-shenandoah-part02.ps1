@@ -1,19 +1,4 @@
-﻿# Converted from: FiL-SHENANDOAH.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz17/raw/FiL-SHENANDOAH.ans
-# Source Revision: archive-sha256:2674245bad3e14fe6d4a935ba8daf9898a4426e394c56ca9710e3afa19d3d943
-# Source SHA-256: a8c957c1505756e494af23225f28d0727e871b4ad1694ad2292afcef359ecad9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FiL-SHENANDOAH.ans by FiLTH (lAZARtR0NiCS); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: MEL FAR AMiSH STAR
-# SAUCE Author: FiLTH
-# SAUCE Group: lAZARtR0NiCS
-# SAUCE Date: 20230703
-# SAUCE Dimensions: 80x105
-# SAUCE Font: IBM VGA
-# Lines: 36-69
-# Columns: 1-80
+﻿# Artwork: MEL FAR AMiSH STAR by FiLTH | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz17-fil-shenandoah-part02
 
 Write-Host '
 [37m                [0;1;31;43m░░[0;33m▄▄▀[0;1;31;43m▄▄▄▄▓▓[0;1;31;47m▄[0;1;31;43m▓[0;1;31;40m▀[0;33m▀▄█[0;1;31m█[0;1;31;43m░[0;33m▌[0;1;31m█[0;1;31;47m▓[0;1;31;40m███[0;1;31;43m▓[0;1;31;40m▓█[0;1;31;43m▓[0;1;31;40m█▄[0;33m▄▀▀▀[0;1;31;43m▀▀▀░[0;33m▀▄[0;33;43m▓▓▓ ░[0;33;40m█[0;33;43m▄[0;33;40m███[0;1;31;43m░[0m [1;30m█[0m [33m▄▓▓█▌[0m

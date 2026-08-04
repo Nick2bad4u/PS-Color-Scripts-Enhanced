@@ -1,20 +1,4 @@
-﻿# Converted from: CT-ITALO_CALVINO-IF_ON_A_WINTER'S_NIGHT_A_TRAVELLER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0426/raw/CT-ITALO_CALVINO-IF_ON_A_WINTER'S_NIGHT_A_TRAVELLER.ANS
-# Source Revision: archive-sha256:c759ba228fb42808866da1267838a1ce2371215b87bc273c64f35f4bc653e77d
-# Source SHA-256: 3bd44e1246158278fee5e2a937c89921369c7d03118e0ae675c4670f33eab26a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CT-ITALO_CALVINO-IF_ON_A_WINTER'S_NIGHT_A_TRAVELLER.ANS by Cthulu (Mistigris); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: If On A Winter's Night A Traveller
-# SAUCE Author: Cthulu
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260422
-# SAUCE Dimensions: 80x55
-# SAUCE Font: IBM VGA
-# SAUCE Comments: 1992 Vintage edition
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: If On A Winter's Night A Traveller by Cthulu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0426-ct-italo-calvino-if-on-a-winter-s-night-a-traveller-part01
 
 Write-Host '
 [1m████████████████████████████████████████████████████████████████████████████████[0m

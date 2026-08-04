@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-KNDM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0299/raw/OUT-KNDM.ANS
-# Source Revision: archive-sha256:3dc48aee0995040816ea7e0f9d3250ff0ef0c7623cbdfc413526427f2f931ac6
-# Source SHA-256: 1a5e662b84195a5d05df1a77c634dabc3b847308573f957d08bec5343909002b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-KNDM.ANS by Sandy Chidester (out-0299); released in out-0299 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: OUT-KNDM.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0299-out-kndm
 
 Write-Host '
 [34m███████████████████████████████████████████████████[0;1;34;44m░[0;34m███████████████▀█▀███[0;1;30m▐▄▌[0;34m████[0m

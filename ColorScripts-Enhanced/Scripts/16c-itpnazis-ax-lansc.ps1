@@ -1,13 +1,4 @@
-﻿# Converted from: AX_LANSC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/itpnazis/raw/AX_LANSC.ANS
-# Source Revision: archive-sha256:b63f1061c14ef43c41c98429978c6d429bbae740ff287c27de867b6629e2595b
-# Source SHA-256: 2574d90ba994d5c54f8ab2787909d32b41093337bf6ac4c71f7b2d62140ea062
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AX_LANSC.ANS by Alla Xul (itpnazis); released in itpnazis and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: AX_LANSC.ANS by Alla Xul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-itpnazis-ax-lansc
 
 Write-Host '
 [46m▓▓▓▓▓▓▓[0;44m▓▓▓▓▓[0;40m█[0;44m▓[0;40m█[0;44m▓▓[0;36;40m▓[0;37;44m▓[0;37;46m▒▒▒[0;37;40m█▀▀░░░▄█[0;1;37;40m▒▒▒[0;44m▓▓▓[0;40m█[0;46m▒▒[0;1;30;47m░░░░[0m▓▓[1;30m▓▀[0m▄[1;30m▀[0m▀▒[1;30;47m▓▓[0;1;30;40m▄[0m▀█▄[1;30m▀▀▓▓[0;1;30;47m▓▓[0;1;30;40m▄[0m▀▀██▄▄ ▓▓▒▒[1;30m█[0m ▓[43m▒▒[0m

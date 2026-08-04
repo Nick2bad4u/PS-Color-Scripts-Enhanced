@@ -1,13 +1,4 @@
-﻿# Converted from: LOGON5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aeon0196/raw/LOGON5.ANS
-# Source Revision: archive-sha256:9e935a3f1a0af071af39ef1e6040e82687f7f35e199404521457c0b02c93f5c1
-# Source SHA-256: 1236c3dce95abd24e8a60fb426115d2b62abd50cb8c2015d46ad2f69d85ca0c2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LOGON5.ANS by Lord Magnus (aeon0196); released in aeon0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: LOGON5.ANS by Lord Magnus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aeon0196-logon5
 
 Write-Host '
      

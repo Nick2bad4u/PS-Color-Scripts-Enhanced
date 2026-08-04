@@ -1,17 +1,4 @@
-﻿# Converted from: BYM-YCAB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge13/raw/BYM-YCAB.ANS
-# Source Revision: archive-sha256:347f6c69918fead9ee3c845f2d1356dd84e1411d92cae5bcb8386da796611dd6
-# Source SHA-256: 72f6513065afd43d644ea13c6312acd5d30d88bf58f565549dc787b2d80297f5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-YCAB.ANS by b.y.rainman (guesting); released in avenge13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: a yellow cab
-# SAUCE Author: b.y.rainman
-# SAUCE Group: guesting
-# SAUCE Font: empathy by skaboy
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: a yellow cab by b.y.rainman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge13-bym-ycab
 
 Write-Host '
 [35;41m▓[0;31;45m░[0;35;41m▓[0;36;45m▄[0;35;41m▓[0;31;45m░░[0;1;33;45m░░[0;31;45m░[0;35;41m▓[0;31;45m░░[0;36;45m▀[0;31;45m░▒[0;35;41m▒[0;31;45m▒[0;35;41m▒▒[0;31;45m▒[0;35;41m░[0;36;45m▀[0;1;33;41m░[0;36;45m▄[0;31;45m▓▓[0;35;41m░[0;31;45m██[0;35;41m░[0;36;45m▀   [0;31;45m███[0;36;45m▀▄[0;31;45m█[0;31;40m▌ [0;37;40m▀▀█[0;1;37;40m▒▒███[0;1;37;46m▀[0;1;37;40m█[0;1;37;46m███▄▓▓[0;1;37;47m█▀[0;37;40m▀ [0;33;40m░[0;30;43m▓ avenge 1999 [0;33;40m▓▓[0m

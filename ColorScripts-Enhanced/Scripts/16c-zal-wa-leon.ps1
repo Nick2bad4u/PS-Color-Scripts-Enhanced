@@ -1,19 +1,4 @@
-﻿# Converted from: wa-leon.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zal/raw/wa-leon.ans
-# Source Revision: archive-sha256:27105a9153e1ab4f3cc531b07ab6db3370ec6ee44f65a8fce04e836afc280bb7
-# Source SHA-256: 6d94a30b9545cfd2a571d3c017e45506617397828ec7d257fe414ffdcddb4e78
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-leon.ans by warpus (LAZARUS); released in zal and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: LEON
-# SAUCE Author: warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20251228
-# SAUCE Dimensions: 80x42
-# SAUCE Font: IBM VGA
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: LEON by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zal-wa-leon
 
 Write-Host '
 [1;30m▒▒▒▒▒▓▓▓▓▓▓▓▓█████████████████████████████████████████████████▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒░░░[0m

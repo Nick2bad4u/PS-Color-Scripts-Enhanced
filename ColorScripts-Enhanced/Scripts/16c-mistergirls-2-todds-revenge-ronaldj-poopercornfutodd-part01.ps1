@@ -1,19 +1,4 @@
-﻿# Converted from: ronaldj-poopercornfutodd.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mistergirls-2-todds-revenge/raw/ronaldj-poopercornfutodd.ans
-# Source Revision: archive-sha256:daef7a9d06d692a9f92b578831789dfe6317b3337ec7a90d54fe826c9c7b4e13
-# Source SHA-256: 941e9366e653b7ece3dc98e5cd37d1988c43c69243660b2fe33a1e7a77f92df7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ronaldj-poopercornfutodd.ans by Ronald J Peppercorn (Mistergirls); released in mistergirls-2-todds-revenge and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Poopercorn
-# SAUCE Author: Ronald J Peppercorn
-# SAUCE Group: Mistergirls
-# SAUCE Date: 20180306
-# SAUCE Dimensions: 80x75
-# SAUCE Font: IBM VGA
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Poopercorn by Ronald J Peppercorn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mistergirls-2-todds-revenge-ronaldj-poopercornfutodd-part01
 
 Write-Host '
 [36;40m████████████████████████████████████████████████████████████████████████████████[0m

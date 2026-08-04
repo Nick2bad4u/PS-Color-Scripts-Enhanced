@@ -1,17 +1,4 @@
-﻿# Converted from: TI-QUID3.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9702a/raw/TI-QUID3.ICE
-# Source Revision: archive-sha256:540831d4e1a356189219ffbceaa28d97157e006639aca48afc56a145bd0d4c8c
-# Source SHA-256: 61c1593b78fae53e549ad711ca34bb8af5a4f4e5e52b5b6300ab5acb5b858224
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TI-QUID3.ICE by Trip (iCE Advertisements); released in ice9702a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Quiddity
-# SAUCE Author: Trip
-# SAUCE Group: iCE Advertisements
-# SAUCE Date: 19970212
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Quiddity by Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9702a-ti-quid3
 
 Write-Host '
 [33m▄[0;1;37m [0;1;33m▄[0;1;37m▄▄[0;1;33m▄[0;1;37m  [0;33m▀▀▀▌▀[0;1;37m ▄  [0;33m▀▀[0;1;37m [0;33m▀[0;1;37m [0;33m▀[0m   [1;37m▄[0m   [33m▀▄[0;1;37m  ▄[0m   [33m▀[0m    [1;37m▄▄▄▄[0m   [1m▄ [0m [33m ▄[0m

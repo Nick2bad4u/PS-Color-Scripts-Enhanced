@@ -1,18 +1,4 @@
-﻿# Converted from: UNS-PP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0896/raw/UNS-PP1.ANS
-# Source Revision: archive-sha256:f9cf2b2d2bbd2b43295b2db0288f290749703458f413700d0129369379a58bf6
-# Source SHA-256: 915e5f97dd292f0fd03fac49ca3204322044866580ce2ce1b81d614c845c9d5b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UNS-PP1.ANS by Unsane (fire); released in fire0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: These Are For?? - Halaster
-# SAUCE Author: Unsane
-# SAUCE Group: fire
-# SAUCE Date: 19960720
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: These Are For?? - Halaster by Unsane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0896-uns-pp1
 
 Write-Host '
 

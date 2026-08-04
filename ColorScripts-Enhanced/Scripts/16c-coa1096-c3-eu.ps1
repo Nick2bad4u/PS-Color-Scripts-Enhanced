@@ -1,17 +1,4 @@
-﻿# Converted from: C3-EU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/coa1096/raw/C3-EU.ANS
-# Source Revision: archive-sha256:128b6c2a8f568cf6bad059228a21cd32425d44608f32b5cbcfef7f04ec4e1f32
-# Source SHA-256: 1f3b9c7a7e8208dc2d5dded894c4a34051015b5de7bbf1e019690ecfef549e70
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: C3-EU.ANS by criminal enigma (coa); released in coa1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: criminal enigma
-# SAUCE Group: coa
-# SAUCE Date: 19961010
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: C3-EU.ANS by criminal enigma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-coa1096-c3-eu
 
 Write-Host '
 

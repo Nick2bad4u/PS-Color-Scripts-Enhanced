@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-MLMR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0426/raw/ZII-MLMR.ANS
-# Source Revision: archive-sha256:c759ba228fb42808866da1267838a1ce2371215b87bc273c64f35f4bc653e77d
-# Source SHA-256: 119d7ae8d86b553c1f32da470be8ccb6d29b69bfbf03ad663f97a06df3a35b35
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-MLMR.ANS by Zeus II (Mistigris); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: MorningLightMountain Rules
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260328
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: MorningLightMountain Rules by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0426-zii-mlmr
 
 Write-Host '
 [34m████[0;1;34;44m░[0;34m█[0;1;34;44m░░░░▒▓▒▒▓▓▓▄▓[0;1;34;40m██[0;1;34;44m▓[0;1;34;40m████████████████[0;1;34;44m▓▓[0;1;34;40m██[0;1;34;44m▓▄▓▓▓▓▓▒▒░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░[0;34m████████████████████████[0m

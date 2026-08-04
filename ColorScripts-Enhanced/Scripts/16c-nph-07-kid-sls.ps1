@@ -1,18 +1,4 @@
-﻿# Converted from: KID-SLS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-07/raw/KID-SLS.ANS
-# Source Revision: archive-sha256:05b9134433837782e39338bf79fd6ada6d2fc8bfba82437f2c41c6bc37a6d75a
-# Source SHA-256: 5f774d4d16ac283c63cc2a2481d23f8290089529267da92c50712bb0c33a10dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KID-SLS.ANS by /4lex 3<idd (Nitrophusion); released in nph-07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Slisers
-# SAUCE Author: /4lex 3<idd
-# SAUCE Group: Nitrophusion
-# SAUCE Date: 19980614
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Slisers by /4lex 3<idd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-07-kid-sls
 
 Write-Host '
                                              [1;33m,[0m

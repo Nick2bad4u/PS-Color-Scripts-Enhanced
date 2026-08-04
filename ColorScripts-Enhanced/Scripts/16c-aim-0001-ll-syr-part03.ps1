@@ -1,18 +1,4 @@
-﻿# Converted from: LL-SYR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aim-0001/raw/LL-SYR.ANS
-# Source Revision: archive-sha256:6558d2cfb6b6f22d37fcefc812400e835cd190461028275b61c3b8d10207124e
-# Source SHA-256: 23b6d9f50b09a80815812687dad3e9f6e6792c90cc109db9b44c18898d047e79
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LL-SYR.ANS by Lord Drakul (AiM); released in aim-0001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Scotland Yard - Revised
-# SAUCE Author: Lord Drakul
-# SAUCE Group: AiM
-# SAUCE Date: 19940826
-# SAUCE Dimensions: 80x197
-# Lines: 97-146
-# Columns: 1-80
+﻿# Artwork: Scotland Yard - Revised by Lord Drakul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aim-0001-ll-syr-part03
 
 Write-Host '
 [1;36;47m▒▒▒▒▒▒▒▒▒▒▒[0;1;36;40m▀▀▀▀▀▀▀[0m        [1;36;40m▀▀▀▀[0m  ▀▄▄          [1m               [0m           [1;30m░░▒▒▓[0m

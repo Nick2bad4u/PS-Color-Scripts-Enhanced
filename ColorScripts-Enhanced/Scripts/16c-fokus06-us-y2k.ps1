@@ -1,18 +1,4 @@
-﻿# Converted from: US-Y2K.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus06/raw/US-Y2K.ANS
-# Source Revision: archive-sha256:dc26abf5be8f48f280ad19d58f0c64fc91b5db6a0fab8539aa3970e4d64fad45
-# Source SHA-256: ee779f16863381e2868b03295828f06c53bcb64679b27b3a4fe922c961bf3cf7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-Y2K.ANS by Knocturnal + Zippy (Fokus fonting); released in fokus06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: y2k
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Fokus fonting
-# SAUCE Date: 19990802
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: y2k by Knocturnal + Zippy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus06-us-y2k
 
 Write-Host '
 

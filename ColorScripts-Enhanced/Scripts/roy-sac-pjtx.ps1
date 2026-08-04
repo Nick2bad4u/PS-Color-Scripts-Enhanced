@@ -1,13 +1,4 @@
-﻿# Converted from: ROY-PJTX.ANS
-# Source encoding: CP437
-# Source URL: https://www.roysac.com/images/galleries/ZIP/Roy_ANSI.ZIP
-# Source Revision: archive-sha256:8598a9432b4feb86c4e79552795b407b9d7c576fb6f25e9828d6143f1c7b35bc
-# Source SHA-256: 679fc052cd93769c93a2fbb86e404609c4640007c7d43ff1adc4dd719ac84a31
-# Source License: FAL-1.3
-# Source Attribution: ROY-PJTX.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ROY-PJTX.ANS by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-pjtx
 
 Write-Host '
    [1;35m▄█▄[0;1m▄[0;1;35m▄▄▄▄[0;35m▄▄▄[0m                                             [1m▀[0;1;35m▄[0m

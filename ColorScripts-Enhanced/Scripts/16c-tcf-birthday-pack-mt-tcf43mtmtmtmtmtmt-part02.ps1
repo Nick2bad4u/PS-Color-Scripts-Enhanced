@@ -1,16 +1,4 @@
-﻿# Converted from: MT-TCF43MTMTMTMTMTMT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tcf-birthday-pack/raw/MT-TCF43MTMTMTMTMTMT.ANS
-# Source Revision: archive-sha256:5fb39b960b46c4cd994cf0301752f9f8dc1c3995557cf113be5febfe29d7542a
-# Source SHA-256: 0f1d65d6dc5801822ad7ff6490cdabd7cca7cd38c0294ec5472fb6b6a307d19c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MT-TCF43MTMTMTMTMTMT.ANS by Aesthetic + Tcf (tcf-birthday-pack); released in tcf-birthday-pack and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 20150224
-# SAUCE Dimensions: 80x65
-# SAUCE Font: IBM VGA
-# Lines: 34-65
-# Columns: 1-80
+﻿# Artwork: MT-TCF43MTMTMTMTMTMT.ANS by Aesthetic + Tcf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tcf-birthday-pack-mt-tcf43mtmtmtmtmtmt-part02
 
 Write-Host '
  [1;30m ▐  ▀▀▀   █▄█[0;1;30;46m▓▓█▓▓▓▓▓▒▒░░[0;36m▄█▀ ▄ [0;37m▄█[0;1;37;47m░[0m▌[1m ■▀ [0;32m░[0;1;37m ▄██▄ [0m▐[1;47m░[0m  [36m▄▀[0m       [36m▒  [0;1;37m [0;36m▀▀█▓[0;1;33;46m░▓[0;1;37;40m [0m   ▄ ███

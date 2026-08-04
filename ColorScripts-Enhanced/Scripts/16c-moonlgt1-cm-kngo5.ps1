@@ -1,18 +1,4 @@
-﻿# Converted from: CM-KNGO5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moonlgt1/raw/CM-KNGO5.ANS
-# Source Revision: archive-sha256:9c3296d479bffdc90be8aa4a3f3118a85ae9456683674c3e67716221b3c262b5
-# Source SHA-256: def1ed5263103b6d94035cd8ac64ee28b69aedcfb1da9cd3162df84c8bbbf610
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CM-KNGO5.ANS by meeze chonkey (?!) (sunlight); released in moonlgt1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: kongo! ansi #5
-# SAUCE Author: meeze chonkey (?!)
-# SAUCE Group: sunlight
-# SAUCE Date: 19960818
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: kongo! ansi #5 by meeze chonkey (?!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moonlgt1-cm-kngo5
 
 Write-Host '
      [1;32m░[0m                                             [36m▄[0;1;34;46m░▒▓[0;1;34;40m▄ ▀ ■▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: TG-SOD1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9412/raw/TG-SOD1.ICE
-# Source Revision: archive-sha256:206fb790f3728acfca84972248fec43bde6e85e65881b18182d8ae9012f98785
-# Source SHA-256: 0f8c69cb61cdb0eb966c4496a54c7344b070dfa85eeb4ef204c27a4ad3884293
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-SOD1.ICE by Toon Goon (ice-9412); released in ice-9412 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 75-110
-# Columns: 1-80
+﻿# Artwork: TG-SOD1.ICE by Toon Goon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9412-tg-sod1-part03
 
 Write-Host '
 ██████[1;30;47m▄██[0;1;30m█▀▀[0m▄█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█████████████████[1;30;47m █[0m  [34m████████████████████████[0m

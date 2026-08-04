@@ -1,13 +1,4 @@
-﻿# Converted from: MI-SLAAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dope0694/raw/MI-SLAAD.ANS
-# Source Revision: archive-sha256:647e7fc7015e3106901446f171fa784f67ee9173d92110dd614c651aaebfadda
-# Source SHA-256: 504122b8fc06d0083bd8f90c213fc0e87c1f1716b07ccd97e45543afff097bea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MI-SLAAD.ANS by Malicious Intent (dope0694); released in dope0694 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: MI-SLAAD.ANS by Malicious Intent | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dope0694-mi-slaad
 
 Write-Host '
                                                               [1;33m▄▄▄▄[0m

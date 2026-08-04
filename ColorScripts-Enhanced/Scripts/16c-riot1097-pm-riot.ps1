@@ -1,18 +1,4 @@
-﻿# Converted from: PM-RIOT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot1097/raw/PM-RIOT.ANS
-# Source Revision: archive-sha256:b84c7734842a652de72debc7fc020ad913ff8d4d923b094dd49d00ce915470c8
-# Source SHA-256: 5626806ba2c48cbd5c2429f9e7c16557c193a402970ff59373a89f1bfbc03e9b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-RIOT.ANS by Precious Metal (RioT); released in riot1097 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: RioT Prod.
-# SAUCE Author: Precious Metal
-# SAUCE Group: RioT
-# SAUCE Date: 19971003
-# SAUCE Dimensions: 80x14
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: RioT Prod. by Precious Metal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot1097-pm-riot
 
 Write-Host '
                  [36m [0m                             [36m.[0m

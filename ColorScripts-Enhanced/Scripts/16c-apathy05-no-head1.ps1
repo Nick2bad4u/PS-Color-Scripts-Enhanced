@@ -1,18 +1,4 @@
-﻿# Converted from: NO-HEAD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy05/raw/NO-HEAD1.ANS
-# Source Revision: archive-sha256:2e1c7dd4c451a5d024352ee6b56eba52a2d5ba6a7d73a9cc34cff58fc603ca18
-# Source SHA-256: 52f0a66eb9b533773c9d367ea47a6a7f77ef79af824e8a08abe7d652f6763ae3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NO-HEAD1.ANS by Nosferatu (apathy!); released in apathy05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: .h. .e. .a. .d. .?.
-# SAUCE Author: Nosferatu
-# SAUCE Group: apathy!
-# SAUCE Date: 19960103
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: .h. .e. .a. .d. .?. by Nosferatu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy05-no-head1
 
 Write-Host '
 [1m[0m

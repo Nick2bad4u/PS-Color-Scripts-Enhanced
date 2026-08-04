@@ -1,18 +1,4 @@
-﻿# Converted from: PPE-SPIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spin02/raw/PPE-SPIN.ANS
-# Source Revision: archive-sha256:3cde50e59a0be9713b40f87d75b8cb62168e400a52dac471babfef5aef651f7f
-# Source SHA-256: b42ca034ac69ae05802ec2dff34c0d3e1bdffd9c6bad025be8f420b8ad7e7608
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PPE-SPIN.ANS by Purplee (spin); released in spin02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: SPIN promotion
-# SAUCE Author: Purplee
-# SAUCE Group: spin
-# SAUCE Date: 19980817
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: SPIN promotion by Purplee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spin02-ppe-spin
 
 Write-Host '
 [33m[0;1;33m[0m[1;33m[0;33m[0;1;33m[0;33m[0;1;33m[0m          _ _   __      _    _                                  [33m""[0;1;33m''[0m   [1;33m""[0m [1;33m$$$$$$$[0m

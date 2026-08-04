@@ -1,18 +1,4 @@
-﻿# Converted from: RGD#LITH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/303pack2/raw/RGD%23LITH.ANS
-# Source Revision: archive-sha256:4447fe2b8e8ce42dff70a445f43a7c14612a1a439620389cb1863f2a3b732682
-# Source SHA-256: c19dd3c16cdc9b170dec64ce2214c22dd5663c82f5c57018b248062528251a41
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RGD#LITH.ANS by Renegade (3o3); released in 303pack2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Lithium (alien-skin)
-# SAUCE Author: Renegade
-# SAUCE Group: 3o3
-# SAUCE Date: 19970409
-# SAUCE Dimensions: 80x66
-# Lines: 34-66
-# Columns: 1-80
+﻿# Artwork: Lithium (alien-skin) by Renegade | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-303pack2-rgd-lith-part02
 
 Write-Host '
 [37m [0;32m████████████▌[0;37m  [0;32m          [0;37m            [0;1;30m [0;32m▀█[0;1;32;42m░▒▓▀▀████▌[0;32m▌[0;37m                  [0;32m        [0;37m  [0m

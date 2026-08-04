@@ -1,18 +1,4 @@
-﻿# Converted from: 1096FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1096/raw/1096FIRE.ANS
-# Source Revision: archive-sha256:0aef116e4290fa41749730625329f38610014fc9d720313823330534bc5bca90
-# Source SHA-256: 1e2b7d111ba05ba498887ed16a82396c44bdfd973101e3483400e705672ccbb0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 1096FIRE.ANS by Eerie + Halaster (fire); released in fire1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: #INFO# Fire Hierarchy
-# SAUCE Author: Eerie/Halaster
-# SAUCE Group: fire
-# SAUCE Date: 19961016
-# SAUCE Dimensions: 80x25
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: #INFO# Fire Hierarchy by Eerie + Halaster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1096-1096fire
 
 Write-Host '
                                             [34m░░ ▄[0m

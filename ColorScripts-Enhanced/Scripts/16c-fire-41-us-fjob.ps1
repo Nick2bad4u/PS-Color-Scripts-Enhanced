@@ -1,20 +1,4 @@
-﻿# Converted from: US-FJOB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/US-FJOB.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: d4f81ce9fb9c4ff9e6cc2c762596c3bde43f670f7ef6dc791b5aeb9a9be1d428
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FJOB.ANS by Tainted + ZIR (FiRE); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Facejob: BLORP
-# SAUCE Author: tnt / zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20241111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: the job was simple: we preferred it do be difficult.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Facejob: BLORP by Tainted + ZIR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-us-fjob
 
 Write-Host '
 [31m▀ [0;33m▀▀[0;1;31;43m░[0;1;33;43m▀░[0;33m [0;36m▄[0;1;36;46m▄▄░[0;36m▌░░░ ░▓[0;1;32;46m ▐▐▀[0;1;33;47m▐▐[0;1;33;40m██[0;1;33;46m▓▄[0;1;33;47m▓▓[0;1;33;46m▀▀[0;1;32;46m▓▓░[0;36m▄ [0;31m░[0;1;31;41m:▄▄▄▄[0;31m▌[0;1;31;41m▄[0;31m▌[0;1;31;41m▄▄░[0;31m▓■[0;1;30m░▄[0m▄▄▄[31m ▀[0;1;31;41m░▄▄[0;31m▐▀░[0;1;30m▄▄[0m▄▄▄[1;30m▄[0;31m░▀[0;1;31;41m░▐▐[0;1;31;47m▀▓[0;1;31;41m░[0m

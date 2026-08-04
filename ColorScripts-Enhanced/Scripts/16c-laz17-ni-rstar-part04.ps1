@@ -1,19 +1,4 @@
-﻿# Converted from: NI-RSTAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz17/raw/NI-RSTAR.ANS
-# Source Revision: archive-sha256:2674245bad3e14fe6d4a935ba8daf9898a4426e394c56ca9710e3afa19d3d943
-# Source SHA-256: 1bf79edd335d777acd69eb8b53b64659a148ecc77500847f9bb7a5b781e6c31d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-RSTAR.ANS by Nitron (Lazarus); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Heat of Anger
-# SAUCE Author: Nitron
-# SAUCE Group: Lazarus
-# SAUCE Date: 20230426
-# SAUCE Dimensions: 80x174
-# SAUCE Font: IBM VGA
-# Lines: 151-174
-# Columns: 1-80
+﻿# Artwork: The Heat of Anger by Nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz17-ni-rstar-part04
 
 Write-Host '
 [1;30m████████[0m░░░[1;30m███████████████████████████▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░▒░▒▒░░░░░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: KT-PZ1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-05/raw/KT-PZ1.ANS
-# Source Revision: archive-sha256:6ce1a8eb67bc25e1ff8261b45d8d4b1a32fe173212454e270ffce85ef6f9e0d9
-# Source SHA-256: 2eb3321b3eb8c2d8f7ac185519c0536cd997c756e162d398d394d4fdd52a995a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KT-PZ1.ANS by Kurrupt (force-05); released in force-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 88-107
-# Columns: 1-80
+﻿# Artwork: KT-PZ1.ANS by Kurrupt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-05-kt-pz1-part03
 
 Write-Host '
                     [32m▄[0;37m [0;32m [0m           [32m▄[0m           [1;37m         [0m

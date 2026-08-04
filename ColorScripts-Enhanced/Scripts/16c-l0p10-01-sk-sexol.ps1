@@ -1,18 +1,4 @@
-﻿# Converted from: SK!SEXOL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p10_01/raw/SK!SEXOL.ANS
-# Source Revision: archive-sha256:07a7c989e195c9828a0ca382f79fb6d55a731b3471cfb9534617813c733c980c
-# Source SHA-256: e7c1933801fb6c094f593e5d75bfff71c1bc0a838e1c94952bbc756a41149dbe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!SEXOL.ANS by sIMONkING (tHELo0p); released in l0p10_01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: seXolotka
-# SAUCE Author: sIMONkING
-# SAUCE Group: tHELo0p
-# SAUCE Date: 20010205
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: seXolotka by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p10-01-sk-sexol
 
 Write-Host '
        [1;30m▄▀ ▄[0m            [33m▄▀[0m                [1;30m▄[0m

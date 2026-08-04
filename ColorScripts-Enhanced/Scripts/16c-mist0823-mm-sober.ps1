@@ -1,19 +1,4 @@
-﻿# Converted from: MM-SOBER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0823/raw/MM-SOBER.ANS
-# Source Revision: archive-sha256:62e93186540813ec7aaaeb24433016d426de59526762a0e3f8dda1eb133ed05c
-# Source SHA-256: bc24bc35c4ad2ef922671aa35b0a4d8cd72b804d6bbf45848c6b9869d133429e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-SOBER.ANS by Mavenmob (Mistigris); released in mist0823 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Sober.  Deprogrammed.
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20230828
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Sober. Deprogrammed. by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0823-mm-sober
 
 Write-Host '
 [1;30m:::::::[0;1;32m███  [0;1;30m:∙∙∙∙[0m     [1m:     ▄▄▄[0m▄▄▄ ▄▄    [1;30m::::::::∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙:[0m

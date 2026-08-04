@@ -1,18 +1,4 @@
-﻿# Converted from: ICP-ULV2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rage964a/raw/ICP-ULV2.ANS
-# Source Revision: archive-sha256:d0c496f91fed24b1bfed72b7c636d15c2adfb5af3e83677e65b76d3b0bb34662
-# Source SHA-256: 4ebad50419d1c85367af72472c222647c441e455d4f34402dc8d233871beedd9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ICP-ULV2.ANS by Icepick (RAGE); released in rage964a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Ultimate Vision 2
-# SAUCE Author: Icepick
-# SAUCE Group: RAGE
-# SAUCE Date: 19960414
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: The Ultimate Vision 2 by Icepick | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rage964a-icp-ulv2
 
 Write-Host '
 [35m[0;1;35m[0;1;37m[0m[35m[0;1;37m[0m[35miC[0;1;35mE[0;1;37mP[0;1;35mi[0;35mCK[0m     [36m■▀▓▄▄ [0;34m▄  [0;35m▄▄▄▓██[0;1;35;45m░[0;35m█▄▄ [0;34m▄▄[0;1;34;44m▄[0;34m▄▄[0m          [34m▄▄[0m     [34m▄  [0;36m▄█[0m      [36m▄▄▄▄[0m

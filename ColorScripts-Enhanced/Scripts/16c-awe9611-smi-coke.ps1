@@ -1,18 +1,4 @@
-﻿# Converted from: SMI-COKE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9611/raw/SMI-COKE.ANS
-# Source Revision: archive-sha256:2b73e149488dc761d99422832825743596588d59e58f9bfecfb5d0e9dbffd274
-# Source SHA-256: 4da457b7a1dac4a74b1a86f3616cb2d345eb21c1344f5b7419607e1eee665eee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMI-COKE.ANS by Samurai (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Free Coke
-# SAUCE Author: Samurai
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961031
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Free Coke by Samurai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9611-smi-coke
 
 Write-Host '
 [1;35;45m███████▓▓░░░░░░░░░░░[0;35m░[0;30;45m▓[0;37;40m [0;36;40m▄[0;37;40m  [0;35;40m░░[0;1;35;45m▀▀▀▀▀▀▀█▓▓░░░░░░░░░[0;35m░[0m      [35m░[0;30;45m▓░[0;35;40m▓▀▀▀▀▀▀▀▀▀[0;1;35;45m▐███[0;1;35;47m▓▓▓░░[0;1;37;40m████[0m

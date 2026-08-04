@@ -1,18 +1,4 @@
-﻿# Converted from: IP-BANE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz08jly/raw/IP-BANE.ANS
-# Source Revision: archive-sha256:8d8d89cdb4f6a56f2eaa26003458d08f5faec96c5dffe1f9e4f0c78141100bcb
-# Source SHA-256: 9633c192e089fddd7456b0d4b83ef77b3cdfc4a6f87f44b10c0ca01e3fb9f83c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IP-BANE.ANS by impulse (lazarus); released in laz08jly and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: bane
-# SAUCE Author: impulse
-# SAUCE Group: lazarus
-# SAUCE Date: 19970702
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: bane by impulse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz08jly-ip-bane
 
 Write-Host '
                                                                      [1;36m▄[0;36m [0;37m       [0m

@@ -1,19 +1,4 @@
-﻿# Converted from: US-ZOMBI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/US-ZOMBI.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: 71bcaf4bec0cc7650651975ac634971ac0256fc46088d963e3334b7717bbf4e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ZOMBI.ANS by Tainted + Toon Goon (fire); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: zombizle
-# SAUCE Author: tainted / toon goon
-# SAUCE Group: fire
-# SAUCE Date: 20241111
-# SAUCE Dimensions: 80x26
-# SAUCE Font: IBM VGA
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: zombizle by Tainted + Toon Goon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-us-zombi
 
 Write-Host '
 [34m█[0;1;31;44m    [0;34m███████████████[0;1;31;44m▀▄▓▓▓▓▓▓▓▓[0;1;31;40m███████▀▀[0;1;30;40m    [0;32m▄█▀▀▄[0;1;32;42m▄[0;32m█▄[0;37m   [0;1;31m▀███▄▀██▀[0;34m▄[0;1;31;44m▄[0;1;31;40m█[0;1;31;44m ▄[0;1;31;40m██[0;1;31;44m▀        [0m

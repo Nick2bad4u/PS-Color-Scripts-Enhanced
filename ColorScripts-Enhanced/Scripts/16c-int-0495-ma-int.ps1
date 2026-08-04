@@ -1,17 +1,4 @@
-﻿# Converted from: MA-INT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/int-0495/raw/MA-INT.ANS
-# Source Revision: archive-sha256:2068bce7c9888dddda04e1c3a7f3b13c04319edd3029f2f56516b4e57f9dac30
-# Source SHA-256: 84cbcfba7e2d11774b72b30940b23fea699d124f50af9ae86828b85110b11d7c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MA-INT.ANS by Mage (Integrity); released in int-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Integrity Promo
-# SAUCE Author: Mage
-# SAUCE Group: Integrity
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Integrity Promo by Mage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-int-0495-ma-int
 
 Write-Host '
 [35;40m██████▓██████████████████████████████████[0;30;45mMage[0;34;45m·[0;30;45mInt[0;35;40m█████[0;30;45m [0;35;40m████████████████████████[0m

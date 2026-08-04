@@ -1,18 +1,4 @@
-﻿# Converted from: mp-moral.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/homosex9/raw/mp-moral.ans
-# Source Revision: archive-sha256:c3a9c9896ba32110d2c8b2498f582083e2119797ddd9bc59c81f8d86d0c00623
-# Source SHA-256: 5fe267e6232196d7d5db685878902895b4053d73c92ff70c3bf819793713c041
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mp-moral.ans by meatpod (homo); released in homosex9 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: morals obsuck
-# SAUCE Author: meatpod
-# SAUCE Group: homo
-# SAUCE Date: 19970803
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: morals obsuck by meatpod | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-homosex9-mp-moral
 
 Write-Host '
            [1;30m_____[0m                         [31m   [0m         [37m__[0m            [37m [0m

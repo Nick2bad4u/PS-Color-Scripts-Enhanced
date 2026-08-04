@@ -1,15 +1,4 @@
-﻿# Converted from: FR-ALG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0397/raw/FR-ALG1.ANS
-# Source Revision: archive-sha256:147f0608c1bd711b116f3ad049b80e805dfbb40e7d23ffce5f4580a5a57bae0f
-# Source SHA-256: 844423a55c54bbf74d5d1dede15c1b56abceab8452ab3c21a92fc8182cb630b2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FR-ALG1.ANS by Fractal (root0397); released in root0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Analogue
-# SAUCE Author: Fractal
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Analogue by Fractal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0397-fr-alg1
 
 Write-Host '
 

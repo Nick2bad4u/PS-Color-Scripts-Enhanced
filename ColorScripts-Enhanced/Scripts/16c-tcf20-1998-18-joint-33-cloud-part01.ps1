@@ -1,13 +1,4 @@
-﻿# Converted from: 1998 - 18 - Joint - 33-cloud.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tcf20/raw/1998%20-%2018%20-%20Joint%20-%2033-cloud.ans
-# Source Revision: archive-sha256:af8609219fccc484668fb405a7f1d45efb8c574501a461c5c1b47d87a12921ce
-# Source SHA-256: ada879ca224d0cd7d2fa2fd886960c227ee4065fe4640ff134b47316abbfa885
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 1998 - 18 - Joint - 33-cloud.ans by Eerie + The Creep Fever (tcf20); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: 1998 - 18 - Joint - 33-cloud.ans by Eerie + The Creep Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tcf20-1998-18-joint-33-cloud-part01
 
 Write-Host '
 [1;30m        [0m        [1;30m                                           [0m          [31m░░░░░░▒▓[0m

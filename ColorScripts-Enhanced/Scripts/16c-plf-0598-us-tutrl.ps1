@@ -1,18 +1,4 @@
-﻿# Converted from: US-TUTRL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0598/raw/US-TUTRL.ANS
-# Source Revision: archive-sha256:e4eb608a76b35267c945e8d8ea0fbc9cde7f273818c342a2a37fa7f292193f2c
-# Source SHA-256: c43eac7c115fd093bd04f061d041f90ae8237b7e801746067c6789aebc9bc3a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TUTRL.ANS by Big Yellow Man + Flexor (poffelipoff); released in plf-0598 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: rymdgubbe
-# SAUCE Author: Multiple Artists
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19980507
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: rymdgubbe by Big Yellow Man + Flexor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0598-us-tutrl
 
 Write-Host '
 [35m  P   O   F   F   E   L   I   P   O   F   F       P   A   C    K    #   1   3[0m

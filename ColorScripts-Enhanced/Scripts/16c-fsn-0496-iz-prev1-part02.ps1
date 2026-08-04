@@ -1,18 +1,4 @@
-﻿# Converted from: IZ%PREV1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0496/raw/IZ%25PREV1.ANS
-# Source Revision: archive-sha256:ce06d33d533c0744d22c6fe5d3dd8583d43d922924a8ff4e1a6044170aa0ed46
-# Source SHA-256: 9fab4c78a79acca36220f027484818f504d3c563e6174721a1181ef536af74a1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ%PREV1.ANS by ize (fusion); released in fsn-0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: prevail pictur!
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19960412
-# SAUCE Dimensions: 80x62
-# Lines: 31-62
-# Columns: 1-80
+﻿# Artwork: prevail pictur! by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0496-iz-prev1-part02
 
 Write-Host '
 [1;34m██████▌[0m [1;31;41m░▒▓[0;31m▌[0;37m [0;1;34m█████▄[0m [1;30m▀▀[0;1;30;47m▄[0;1;37;47m░░▒▓▓█▓[0;1;37;40m▄[0m  [1;47m░▓[0;1;40m▌[0;1;32;42m▒▓[0;1;32;40m▌[0;1;37;47m░░▒[0;1;32;40m▐[0;1;32;42m▓▒[0m▐[1;47m░▒[0;1;40m▄[0;1;32;40m▐[0;1;32;42m▒[0m▐[1;47m░▒[0m [1;34m ▀▀[0m  [1;34m▀███████████████████[0m

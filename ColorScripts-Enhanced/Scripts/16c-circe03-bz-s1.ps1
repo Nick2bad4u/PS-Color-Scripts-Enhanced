@@ -1,18 +1,4 @@
-﻿# Converted from: BZ-S1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe03/raw/BZ-S1.ANS
-# Source Revision: raw-sha256:2dc4c481f8ca42dde3b965205c5a3e43ce1e130aa2d66cd829e91f09feced2b4
-# Source SHA-256: 2dc4c481f8ca42dde3b965205c5a3e43ce1e130aa2d66cd829e91f09feced2b4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BZ-S1.ANS by Biozard (Circe Argentina); released in circe03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: "Sistema Uno"
-# SAUCE Author: Biozard
-# SAUCE Group: Circe Argentina
-# SAUCE Date: 19971213
-# SAUCE Dimensions: 80x48
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: "Sistema Uno" by Biozard | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe03-bz-s1
 
 Write-Host '
                             [1;31m░░░[0;31m▄[0;1;31m▄▄▄▄[0;33m [0;1;31m▄▄[0;33m  ▄▄▄ ░[0;30;41m▓[0m

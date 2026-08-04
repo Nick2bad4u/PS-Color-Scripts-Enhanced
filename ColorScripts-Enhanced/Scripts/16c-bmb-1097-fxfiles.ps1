@@ -1,18 +1,4 @@
-﻿# Converted from: FXFILES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-1097/raw/FXFILES.ANS
-# Source Revision: archive-sha256:e00f8ccd747d6f713ee8049d7689cafe483a4db84fe36db34569c4f513f6fe6d
-# Source SHA-256: f8b276b20a472605824c14476550f1505d4b4d3865b3039e1079c04524da90f8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FXFILES.ANS by Flux (prbmb); released in bmb-1097 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: files (remix)
-# SAUCE Author: Flux
-# SAUCE Group: prbmb
-# SAUCE Date: 19971022
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: files (remix) by Flux | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-1097-fxfiles
 
 Write-Host '
       [31m▄▄▄▄ [0m          [31m ▄ [0m   [31m [0;37m  [0m                                       [37m   where  [0m

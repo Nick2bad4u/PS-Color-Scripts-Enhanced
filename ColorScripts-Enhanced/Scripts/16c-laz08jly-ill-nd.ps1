@@ -1,18 +1,4 @@
-﻿# Converted from: ILL-ND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz08jly/raw/ILL-ND.ANS
-# Source Revision: archive-sha256:8d8d89cdb4f6a56f2eaa26003458d08f5faec96c5dffe1f9e4f0c78141100bcb
-# Source SHA-256: e006c42c86ec351bcdd1514d1717c7359dcd48034eec3bbf6238213c3b51209b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ILL-ND.ANS by illogic (laz.); released in laz08jly and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: nocturnal desire
-# SAUCE Author: illogic
-# SAUCE Group: laz.
-# SAUCE Date: 19940103
-# SAUCE Dimensions: 80x15
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: nocturnal desire by illogic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz08jly-ill-nd
 
 Write-Host '
                 [34m▄[0;1;34m▄[0m

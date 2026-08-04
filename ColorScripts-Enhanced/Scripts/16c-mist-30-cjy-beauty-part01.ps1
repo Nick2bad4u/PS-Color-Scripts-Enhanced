@@ -1,19 +1,4 @@
-﻿# Converted from: CJY-BEAUTY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/CJY-BEAUTY.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: 92c908a14ca370ef5e5225550ee3a62eba8f3a06755077a472be40bfa01dbbf4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CJY-BEAUTY.ANS by consolejockey (Mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Beauty
-# SAUCE Author: consolejockey
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241230
-# SAUCE Dimensions: 80x72
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Beauty by consolejockey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-cjy-beauty-part01
 
 Write-Host '
  [35m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

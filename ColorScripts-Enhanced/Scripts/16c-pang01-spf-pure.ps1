@@ -1,13 +1,4 @@
-﻿# Converted from: SPF-PURE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pang01/raw/SPF-PURE.ANS
-# Source Revision: archive-sha256:24a47d3a6396232434bffa2e1615955141cf762e5fd721c02b6ad40f81a7def7
-# Source SHA-256: 65fa2f33f6d0522e8e3db2bfa3faffbdb5960e050c851fc1b55e169048c5d9fd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPF-PURE.ANS by Spitfire (pang01); released in pang01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: SPF-PURE.ANS by Spitfire | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pang01-spf-pure
 
 Write-Host '
                                                 [30;41m▓▓[0m

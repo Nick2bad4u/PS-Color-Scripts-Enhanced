@@ -1,17 +1,4 @@
-﻿# Converted from: US-CHICA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe05/raw/US-CHICA.ANS
-# Source Revision: archive-sha256:37d89d30ef39e93d86c9ed1aa9fcfc56f21493baa03286af8b8a012f2401a98a
-# Source SHA-256: 376f52fc238fe3933337870a9d6562d0c1c726c5bb439f47b60cde7054e2d6d7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CHICA.ANS by Arlequin + Otium Man (Circe); released in circe05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: Arl/Otium Man
-# SAUCE Group: Circe
-# SAUCE Date: 19960103
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: US-CHICA.ANS by Arlequin + Otium Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe05-us-chica
 
 Write-Host '
 [1m▓▓▀[0m▀[35m ▄▄[0;1;35;45m▄[0;35m▄[0;1;35;45m▄[0;1;32;45m▓▓[0;1;35;45m█[0;1;35;40m▓▓▓▓[0;1;35;45m▀▀▀[0;1;35;40m▒▒[0;1;35;45m    [0;1;32;45m░░▄[0;35m▄▄  ▀▀▀[0;1;35;45m▀█[0;1;35;40m▓▓▀[0;35m▄[0;1;35;45m▄[0;1;35;40m█▀  [0m

@@ -1,19 +1,4 @@
-﻿# Converted from: TG-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/TG-FIRE.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: e7d9bd3f93580c09e194b7c07916feb8f49c66e50fb08f20ba8db6136b38cc2b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-FIRE.ANS by Toon Goon (Blocktronics); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fire #34 Promo
-# SAUCE Author: Toon Goon
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20210228
-# SAUCE Dimensions: 80x86
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Fire #34 Promo by Toon Goon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-tg-fire-part01
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: MENDATOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blendxms/raw/MENDATOR.ANS
-# Source Revision: archive-sha256:1539692350814531ceec0f95558508df1809c483c52a4b6f3f02993299b5fe16
-# Source SHA-256: b20fa2bbbf6e8a6a5ed9c754e3013ae185da9c76deb8a91efdc5598ec5208949
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MENDATOR.ANS by mendator (blend); released in blendxms and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: mendator's greetings
-# SAUCE Author: mendator
-# SAUCE Group: blend
-# SAUCE Date: 19961223
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: mendator's greetings by mendator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blendxms-mendator
 
 Write-Host '
                                                                 [36m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: XS-EARTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise06/raw/XS-EARTH.ANS
-# Source Revision: archive-sha256:62459159460ab7090ce349ed14c61a1bc8d3aa5785e22124741220f6b82d2ab8
-# Source SHA-256: e53fcd200882e3341db5e50e72fe72dcf4a15400a0b18903d1afc1b9687d52dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XS-EARTH.ANS by xsys (uprise); released in uprise06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: earth
-# SAUCE Author: xsys
-# SAUCE Group: uprise
-# SAUCE Date: 19980715
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: earth by xsys | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise06-xs-earth
 
 Write-Host '
    [1;30m░░  [0m

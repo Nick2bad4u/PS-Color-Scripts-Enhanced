@@ -1,13 +1,4 @@
-﻿# Converted from: JS-GRAV1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/void0893/raw/JS-GRAV1.ANS
-# Source Revision: archive-sha256:455e77003f05e7419efd4a66be467938a5e8e3fcfd5003638f11c38ef6dc8e2d
-# Source SHA-256: edbc413cc7f560add3e7debd45a6a3c6b882e325764aebdc20da1c06a253dcf8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JS-GRAV1.ANS by John Shafter (void0893); released in void0893 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: JS-GRAV1.ANS by John Shafter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-void0893-js-grav1-part01
 
 Write-Host '
                                [1;31m▄ ▄  ▄▄[0m                          [1;31m▄▄[0m

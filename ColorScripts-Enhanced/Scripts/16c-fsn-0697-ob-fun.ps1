@@ -1,18 +1,4 @@
-﻿# Converted from: OB!FUN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0697/raw/OB!FUN.ANS
-# Source Revision: archive-sha256:4afa384dbe1edb8568d2d9e2fda5954485e730ef7ea56b2b5212bd5bbae30f83
-# Source SHA-256: 0224062430d15ba8b17036ab5b44fa044ca4be00ffb6480b3cffde7a929face7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OB!FUN.ANS by oddball (fsn); released in fsn-0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: funeral fog
-# SAUCE Author: oddball
-# SAUCE Group: fsn
-# SAUCE Date: 19970608
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: funeral fog by oddball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0697-ob-fun
 
 Write-Host '
                 [1;30m    [0m

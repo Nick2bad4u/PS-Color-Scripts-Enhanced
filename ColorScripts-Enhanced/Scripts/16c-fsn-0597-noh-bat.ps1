@@ -1,17 +1,4 @@
-﻿# Converted from: NOH-BAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0597/raw/NOH-BAT.ANS
-# Source Revision: archive-sha256:100499c687593fd78c29adf06f5899e8c0d61223958e380a9c31aadb955ab06d
-# Source SHA-256: 72b4af44c046341e07329b0536895a4297555af1fbe5fd2232177e2a8517fd65
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-BAT.ANS by nOah? (fsn-0597); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: bat#@!!! yeah!
-# SAUCE Author: nOah?
-# SAUCE Date: 19970427
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: bat#@!!! yeah! by nOah? | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0597-noh-bat
 
 Write-Host '
    [1;30m▐[0m      [1;30m▄▄▄[0m      [1;30m▌[0m   [1;30m░░[0m [1;30m▄[0m             [1;30m▄[0m           ░[30;47m▓[0m                  [34;40m▄[0m

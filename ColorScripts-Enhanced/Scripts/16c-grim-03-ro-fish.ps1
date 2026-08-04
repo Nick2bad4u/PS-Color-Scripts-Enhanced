@@ -1,13 +1,4 @@
-﻿# Converted from: RO-FISH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/grim-03/raw/RO-FISH.ANS
-# Source Revision: archive-sha256:ebc036abf9a775cca5b26ca6cd97418b4cbcbb8a88c78d39df773432429bd88a
-# Source SHA-256: 420f2af58b4c3e94c4a3f05d8bb6d2606d89b66ed73ad57cad1f8ae4847133ad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RO-FISH.ANS by Radioisotope (grim-03); released in grim-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: RO-FISH.ANS by Radioisotope | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-grim-03-ro-fish
 
 Write-Host '
  [34m░▒  [0;1;37m.[0m

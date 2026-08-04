@@ -1,18 +1,4 @@
-﻿# Converted from: MCI-AR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9608/raw/MCI-AR1.ANS
-# Source Revision: archive-sha256:85bb83b3d462d5b00a0e7d3a1bfbe68490ac5737682c9ce44c52faa33ffa6a2b
-# Source SHA-256: 72b7885bd9d7a8659f5af7d91ab4915b05f7d8a224a76737c6153079a460e156
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MCI-AR1.ANS by mindcrime (blade productions); released in blde9608 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: acid roswell
-# SAUCE Author: mindcrime
-# SAUCE Group: blade productions
-# SAUCE Date: 19960707
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: acid roswell by mindcrime | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9608-mci-ar1
 
 Write-Host '
      [35m▄██[0;1;35;45m░░[0;35m█[0;1;35;45m░░░[0;35m██▄[0m     [1;30m░ ░                             ░ ░[0m     [35m▄██[0;1;35;45m░░[0;35m█[0;1;35;45m░░░[0;35m██▄[0m

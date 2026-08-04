@@ -1,13 +1,4 @@
-﻿# Converted from: TERMINAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tw-roth/raw/TERMINAT.ANS
-# Source Revision: archive-sha256:190885942cec88a16c8a5d2e7952970dfc3a8a8e6b1ddb12dad31a590f611129
-# Source SHA-256: 6d240c627fe1bf0fb8bb0e5680bf8ce6b9fdf89817b8c9f3175d91cae72f9197
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TERMINAT.ANS by Nitron (tw-roth); released in tw-roth and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: TERMINAT.ANS by Nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tw-roth-terminat
 
 Write-Host '
 [1;33;43m▓▓▓▓████[0;1;37;43m███████████[0;1;33;43m██████████▓▓▓▓▓▓▓█████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓███[0;1;37;43m██████[0;1;33;43m█▓▓▓█[0;1;37;43m██[0;1;33;43m█[0m

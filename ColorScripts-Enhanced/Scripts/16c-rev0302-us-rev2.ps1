@@ -1,18 +1,4 @@
-﻿# Converted from: US-REV2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0302/raw/US-REV2.ANS
-# Source Revision: archive-sha256:7b2619e0400d7382d19d38767873337eae71942dd319abc1998c71f4a968776f
-# Source SHA-256: 210c8e1b0125e0890335312b4950246220211fc2fbcbfea7dc915e2efeedd2af
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-REV2.ANS by Magnatop + Discyple (Revival 2002); released in rev0302 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Revival
-# SAUCE Author: magnatOp/discyple
-# SAUCE Group: Revival 2002
-# SAUCE Date: 20020303
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Revival by Magnatop + Discyple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0302-us-rev2
 
 Write-Host '
                             ▐▄▄

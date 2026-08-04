@@ -1,18 +1,4 @@
-﻿# Converted from: VA-MONGO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-1296/raw/VA-MONGO.ANS
-# Source Revision: archive-sha256:506b105b4c26ae1c852aab6820467319ddc2b45f940a9c1fc20d63a6338d499e
-# Source SHA-256: 1b8cfafeeb15a4cd00f8d54c9e8853be57e14ea3b0657fa0da90bf6593e36d2b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VA-MONGO.ANS by vain (opium.graphics); released in opx-1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the swedish mongo
-# SAUCE Author: vain
-# SAUCE Group: opium.graphics
-# SAUCE Date: 19961022
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: the swedish mongo by vain | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-1296-va-mongo
 
 Write-Host '
 [1;42m█▓[0;1;32;42m▓▒░[0;32m▌[0;37m [0;1;35;45m ░▒▓▓[0;1;35;40m██████[0;1;35;45m▓▒░[0;35m▀[0;1;35;45m░[0;35m▀▀▀[0;1;35;45m ░▒▓▓[0;1;35;40m██████████████████[0;1;35;45m▓▓▓▒   [0m [1;30m▄▄▄▄[0m [1;32m▀▀[0;1;32;42m▓▓[0;1;37;42m██▓[0;1;32;42m▓▒░[0;32m▄[0;37m [0;1;30m▀[0;1;30;47m█▓▓▓█[0m

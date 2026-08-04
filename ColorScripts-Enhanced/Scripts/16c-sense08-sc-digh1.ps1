@@ -1,18 +1,4 @@
-﻿# Converted from: SC-DIGH1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense08/raw/SC-DIGH1.ANS
-# Source Revision: archive-sha256:1d55361966cfda352bce5be646cc961ad2fc811d088c34eafc09b3e17df065a4
-# Source SHA-256: 2c7450042df59fda7f8c01ef59947657e13f51e2e68794d46e9f3355ab17ec8d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-DIGH1.ANS by scrye (sense); released in sense08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: digital high logo
-# SAUCE Author: scrye
-# SAUCE Group: sense
-# SAUCE Date: 19980412
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: digital high logo by scrye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense08-sc-digh1
 
 Write-Host '
 [1;47m▓▓▓[0;1;40m█████[0;1;47m▄▄▄[0m▄▄▄▄

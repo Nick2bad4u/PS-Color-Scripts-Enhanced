@@ -1,18 +1,4 @@
-﻿# Converted from: DKL-BMB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-1296/raw/DKL-BMB.ANS
-# Source Revision: archive-sha256:f773a389f51b5e0da0cfb005fe603efcb492346271314d84a3bbd590d27c199e
-# Source SHA-256: d14bd8ad6fdb2257f9cee0e744307981cb931b067916824b4fdb0426f9505d2c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DKL-BMB.ANS by Darklord (Bamboosh); released in bmb-1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Bamboosh
-# SAUCE Author: Darklord
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19961118
-# SAUCE Dimensions: 80x11
-# Lines: 1-11
-# Columns: 1-80
+﻿# Artwork: Bamboosh by Darklord | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-1296-dkl-bmb
 
 Write-Host '
  [36m    [0m         [36m▄▄▄▄▄▄[0m         [37m            [0m        [36m▄▄▄▄▄▄[0m

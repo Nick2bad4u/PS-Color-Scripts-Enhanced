@@ -1,18 +1,4 @@
-﻿# Converted from: FN-PS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/crd-0995/raw/FN-PS.ANS
-# Source Revision: archive-sha256:92e8243206a19eb111052c953993f4e53dd9f67761e23e3ae8ade483112a7fd4
-# Source SHA-256: 29cf0bea139a000fda64d4999c3dffc78fb1f05ce0a20a4bd6956acb5ad5a8b0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FN-PS.ANS by fender (creed); released in crd-0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Primordial Soup Piccy
-# SAUCE Author: fender
-# SAUCE Group: creed
-# SAUCE Date: 19950816
-# SAUCE Dimensions: 80x69
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Primordial Soup Piccy by fender | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-crd-0995-fn-ps-part01
 
 Write-Host '
 [34m███████████████████████████████████████████████████████████████████████████████[0;1;34m [0m

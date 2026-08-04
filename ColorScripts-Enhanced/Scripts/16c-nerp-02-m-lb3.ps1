@@ -1,18 +1,4 @@
-﻿# Converted from: M-LB3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-02/raw/M-LB3.ANS
-# Source Revision: archive-sha256:3fd9f194d865cfc24c90bdf11a27528d8d82a8ba9c376ebed567183a2f95a9f3
-# Source SHA-256: 2af0dac09b63a1dc1f2f65c07f2d1c995de382ecc7d8ca327dbebe19b7719b79
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M-LB3.ANS by milkmang (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: lunchbox (3) logo
-# SAUCE Author: milkmang
-# SAUCE Group: nerp
-# SAUCE Date: 19971102
-# SAUCE Dimensions: 80x22
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: lunchbox (3) logo by milkmang | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-02-m-lb3
 
 Write-Host '
 

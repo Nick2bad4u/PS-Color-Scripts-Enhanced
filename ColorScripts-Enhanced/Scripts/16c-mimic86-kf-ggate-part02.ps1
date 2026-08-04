@@ -1,13 +1,4 @@
-﻿# Converted from: kf-ggate.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic86/raw/kf-ggate.ans
-# Source Revision: archive-sha256:969f3890889c3e2f4349453165d9c2901a897ce4f2d2945ce5a08769b15d28d9
-# Source SHA-256: 232b198bf5ee154e437f8b15029f8f2d83e035e1b670c9cdb38eb228d01a3fb6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: kf-ggate.ans by Kf (mimic86); released in mimic86 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 24-53
-# Columns: 1-80
+﻿# Artwork: kf-ggate.ans by Kf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic86-kf-ggate-part02
 
 Write-Host '
    [32m [0;37m  $''[0;1;30m,[0m  [31m$$$$$$ [0;1;30m$''[0m [31m,[0;37m  [0;31m;[0;37m [0;31m,$$''[0;1;30m,$$$$$$$$$$$$$$$$b,[0;31m`$[0;1;37m [0m;$ [1;30m;$[0;31m$$$ ;[0;37m  [0;31m;[0;37m  [0;31m;[0;37m  [0;31m,$$$''[0;37m [0;1;30m░[0m

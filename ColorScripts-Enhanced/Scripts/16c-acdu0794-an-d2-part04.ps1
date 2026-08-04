@@ -1,18 +1,4 @@
-﻿# Converted from: AN-D2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0794/raw/AN-D2.ANS
-# Source Revision: archive-sha256:53cd35a6f327a0c8a649f0c556ca1e17aa60e6c4040eff696f9e35efc72f4414
-# Source SHA-256: d05e2b14caa8bb6506ec4c194ed6c960ab9c299695855631e793c155a8ba0f68
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AN-D2.ANS by Andrew Nice (ACiD Productions); released in acdu0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Despair II
-# SAUCE Author: Andrew Nice
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940701
-# SAUCE Dimensions: 80x189
-# Lines: 140-189
-# Columns: 1-80
+﻿# Artwork: Despair II by Andrew Nice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0794-an-d2-part04
 
 Write-Host '
        [1;40m▐[0m▌[1;33m▐[0;1;33;43m███[0;1m██[0;1;47m▓[0;1m▀▄▀[0m                          [1;47m░[0m          [1;30m▄[0m▄▄[1m▄▄▄[0;1;47m█[0;1m▄▄▄[0m▄▄[1;30m▄[0m

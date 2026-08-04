@@ -1,13 +1,4 @@
-﻿# Converted from: RV-THEAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rave-02/raw/RV-THEAD.ANS
-# Source Revision: archive-sha256:447727a5cfbbc5918e977935bcb6d0d0ec1872d9757a7f07b0fd7d570603de43
-# Source SHA-256: 6ca014d8b25b239c0ed1bbae6ad559956bd0bfdee0d740b664df4801f21a544c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RV-THEAD.ANS by Raven (rave-02); released in rave-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 43-80
-# Columns: 1-80
+﻿# Artwork: RV-THEAD.ANS by Raven | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rave-02-rv-thead-part02
 
 Write-Host '
                   [1;30m█ [0m███▄ ▄ [1;30m▀ [0;1;37m████████████▌[0;1;30m▐▌ [0;1;37m▐█ [0;1;34m███████████ [0m▄██[1m█ [0;1;30m█[0m       [1;30m█[0m

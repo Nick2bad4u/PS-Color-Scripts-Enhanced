@@ -1,13 +1,4 @@
-﻿# Converted from: PW-SC-SO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-14/raw/PW-SC-SO.ANS
-# Source Revision: archive-sha256:fa7dc8a54dcfe9b4acf17ab4939f9c6bd0ce41fc6d419e8316e53675ae5b63a4
-# Source SHA-256: 3de96532a637eb42465a66ad6f0567d98f5fa3f980e13f98956addb60b726a6a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PW-SC-SO.ANS by Psychological Warfare (purg-14); released in purg-14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: PW-SC-SO.ANS by Psychological Warfare | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-14-pw-sc-so
 
 Write-Host '
                                                 [1;36m  ▄[0m    [1;36m▄▄▄[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: AK-LUNAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-37/raw/AK-LUNAT.ANS
-# Source Revision: archive-sha256:42913eb56742cc8575f96af5b8a027e63b5172fdb84271b8ac973c7820ea43ef
-# Source SHA-256: d6c5b376c0584246ea230b257912cbbe5590f370684e827201fe1a9b74e9b7c9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-LUNAT.ANS by abstrakt (fire); released in fire-37 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: lunatics
-# SAUCE Author: abstrakt
-# SAUCE Group: fire
-# SAUCE Date: 20230707
-# SAUCE Dimensions: 80x64
-# SAUCE Font: IBM VGA
-# Lines: 34-64
-# Columns: 1-80
+﻿# Artwork: lunatics by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-37-ak-lunat-part02
 
 Write-Host '
 [1;38;2;87;87;87;48;2;0;0;0m`└[0;38;2;171;171;171;48;2;0;0;0mQb┐._[0m          [38;2;171;87;0;48;2;0;0;0m4$[0;1;38;2;255;87;87;48;2;0;0;0m$$[0;38;2;171;87;0;48;2;0;0;0m$$[0;1;38;2;255;87;87;48;2;0;0;0m$$$$[0;38;2;171;87;0;48;2;0;0;0m''[0;1;38;2;255;87;87;48;2;0;0;0m $$$$$└4$jS[0;38;2;171;87;0;48;2;0;0;0m┘`[0m                        [1;38;2;87;87;87;48;2;0;0;0m$$$.,$┘[0;38;2;171;171;171;48;2;0;0;0m  [0;1;38;2;87;87;87;48;2;0;0;0m,$┘$.$[0m

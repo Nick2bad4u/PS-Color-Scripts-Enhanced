@@ -1,13 +1,4 @@
-﻿# Converted from: TP-ENIGM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9407/raw/TP-ENIGM.ANS
-# Source Revision: archive-sha256:9ff5137061d269ef5e9a6d18c624720e9c725aa5eeb2ff0b9d11388279913341
-# Source SHA-256: e1c3fe6587f87d2f1fcc34b7d4230fc95035ad8075f99b4990cdb2f2882f8431
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TP-ENIGM.ANS by Technophreak (blde9407); released in blde9407 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: TP-ENIGM.ANS by Technophreak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9407-tp-enigm-part01
 
 Write-Host '
 

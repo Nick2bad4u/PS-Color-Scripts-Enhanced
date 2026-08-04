@@ -1,18 +1,4 @@
-﻿# Converted from: NZ-DP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-30/raw/NZ-DP.ANS
-# Source Revision: archive-sha256:3b54a3ca5cf24b49daaa164f9b343386c409e97270d30a4eb2997d0a7e0901dd
-# Source SHA-256: 5b4619a59e8b74b8ad377311b3e6abb13bc034e8f45557668fe1b544d8153993
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NZ-DP.ANS by noize (fire); released in fire-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: dp
-# SAUCE Author: noize
-# SAUCE Group: fire
-# SAUCE Date: 19970907
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: dp by noize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-30-nz-dp
 
 Write-Host '
 [1;30m▄[0m  ███[1;30;47m▀[0m▌[33m▀ ▄[0;1;33;43m▄▀[0;1;33;40m▀[0;33m▀ ▀[0;1;33m▀[0;1;33;43m▀[0;33m ▀[0;37m ░ ▄ [0;33m▀[0;37m ▀[0;1;30;47m░[0;1;30;40m▀▄[0;1;30;47m░▒[0;1;30;40m▀▄[0;1;30;47m▓[0;1;30;40m▄[0m [1;30m▄[0;1;30;47m▀[0m██[1;30;47m▀[0;1;30;40m▄▀[0;1;30;47m▄[0m██████[1;30;47m▀[0m▄▄[1;30m▄[0;33m ▀[0;1;33m▀[0;33m █[0;1;33;43m▀[0m [1;30m░[0m [33m▀[0;1;33;43m▀████████████[0m

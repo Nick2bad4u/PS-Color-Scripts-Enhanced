@@ -1,18 +1,4 @@
-﻿# Converted from: AOH-SDK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel11/raw/AOH-SDK.ANS
-# Source Revision: archive-sha256:bc01376bbeb692c1fce16796b92a6fd889f89dbf4c55eb291719d5ea3fd5846c
-# Source SHA-256: 296a2268432a59daa0181a34d7eec10b2b1341f9d8b0d33e66329eb29acaf1f0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AOH-SDK.ANS by Angel of Hell (Fuel); released in fuel11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Sdk
-# SAUCE Author: Angel of Hell
-# SAUCE Group: Fuel
-# SAUCE Date: 19970304
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Sdk by Angel of Hell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel11-aoh-sdk
 
 Write-Host '
 [30;47m████████[0m     [30;47m██[0;1;30;40m [0;30;47m▓[0;1;37;47m █[0;1;37;40m████████████▀▀▀▀▀▀█████████▀▀ [0;33m▄[0;30m█[0;1;37m▀▀█████████[0;1;37;47m▄▄▄▄░[0m▄▄▄▄[30;47m▓[0;1;37;40m  [0;30;47m██[0m

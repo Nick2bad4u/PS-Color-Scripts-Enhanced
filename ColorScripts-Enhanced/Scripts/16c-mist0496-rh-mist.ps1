@@ -1,18 +1,4 @@
-﻿# Converted from: RH-MIST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0496/raw/RH-MIST.ANS
-# Source Revision: archive-sha256:be1a395f385261920c9bce8fb9a4a50e5287b1be7689ad97116617524efc6b52
-# Source SHA-256: 38bc92b73736039974ec401d90c013541a45b12c6d46e83eb90aa00a66eb260a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RH-MIST.ANS by Robin Hood (MiSTiGRiS); released in mist0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: MiSTiGRiS logo
-# SAUCE Author: Robin Hood
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19940903
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: MiSTiGRiS logo by Robin Hood | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0496-rh-mist
 
 Write-Host '
                  [31m▄█████████▄[0m            [31m▄██▄[0m       [31m▄█████▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: WA-AIR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz04mar/raw/WA-AIR.ANS
-# Source Revision: archive-sha256:44ec2aece59b6e1070eee7535121a4d2aa26d7d69e93852fb8f63376ca44c5f2
-# Source SHA-256: b10b2a5620dd651e6ed2fc6952eba99e4d3f539338798c873ae7a0d7df18f8b4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WA-AIR.ANS by warpus (lazarus); released in laz04mar and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: thin air
-# SAUCE Author: warpus
-# SAUCE Group: lazarus
-# SAUCE Date: 19970227
-# SAUCE Dimensions: 80x44
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: thin air by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz04mar-wa-air
 
 Write-Host '
                                           [32m  [0m

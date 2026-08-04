@@ -1,18 +1,4 @@
-﻿# Converted from: US-BLACK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-32/raw/US-BLACK.ANS
-# Source Revision: archive-sha256:5c71caa398de36397b85ed6fca632db882465791a5a1f87f0e2aeaa3af7b947c
-# Source SHA-256: d6cf9f5adc27edb2eec3e05ce5785c5c443e00909f8666fd2f44f4b529b7491d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BLACK.ANS by Bizzarro + Mendator (fire); released in fire-32 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: black rain
-# SAUCE Author: bizzarro / mendator
-# SAUCE Group: fire
-# SAUCE Date: 19980311
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: black rain by Bizzarro + Mendator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-32-us-black
 
 Write-Host '
      ▄▄▄▄▄[1;30m▄[0m * black *           [32m▄▄▄▄[0;1;32m▄▄▄[0;32m▄[0;1;32m▄[0;32m▄▄[0;1;30m▄[0m [32m▄▄▄[0m    [37m [0;1;30m▄▄[0m▄▄▄▄▄▄[1;33m░░░░░[0m   ▄▄▄

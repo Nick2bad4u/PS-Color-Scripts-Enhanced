@@ -1,18 +1,4 @@
-﻿# Converted from: CZ-OJ1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-02/raw/CZ-OJ1.ANS
-# Source Revision: archive-sha256:815fb0802a5a645b19e4bb1a2e67405cbfe5a7d016a5808efe6ef55f809d080c
-# Source SHA-256: ac57c9b7e3529d9856062383f9f5cb938c763f18599fa89d39ff38ceb5dc2e95
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CZ-OJ1.ANS by cheezey (eclipse); released in ecl-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: oj
-# SAUCE Author: cheezey
-# SAUCE Group: eclipse
-# SAUCE Date: 19960629
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: oj by cheezey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-02-cz-oj1
 
 Write-Host '
 

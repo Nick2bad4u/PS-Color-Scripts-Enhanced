@@ -1,18 +1,4 @@
-﻿# Converted from: BX-CYA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-ap-1/raw/BX-CYA.ANS
-# Source Revision: archive-sha256:677d92e3c1456f7d379a6bfd6ef2a3e9f4462186ed5fa427899c9f4c329d0aa2
-# Source SHA-256: f7f09c91f9584fa0206b32a2c266b39c05971e158c8e8c8aa57d571d4062d7e5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BX-CYA.ANS by baxter (Axial Force); released in axf-ap-1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Virtual Hell logoff screen
-# SAUCE Author: baxter
-# SAUCE Group: Axial Force
-# SAUCE Date: 19960211
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Virtual Hell logoff screen by baxter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-ap-1-bx-cya
 
 Write-Host '
   [36m [0m                    [1;36m   [0;36m▄██████▄▄    [0;1;33m▄███▄ [0;36m▄██▄[0m       [35m▄▀ ▀▄[0m          [36m   [0;37m [0;1;36m     [0m

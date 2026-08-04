@@ -1,20 +1,4 @@
-﻿# Converted from: us-impulse.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz21/raw/us-impulse.ans
-# Source Revision: archive-sha256:daa0e008ccfccc8179e0635097f8fe4a46a32781b45bbd86ff6e4505514c9e6d
-# Source SHA-256: 4324caa10aa3e3f3df180996bb6c9bfe6259de1f1a0ca7550d8176377cbbefa3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-impulse.ans by Warpus + Harvest (LAZARUS); released in laz21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: impulse.inercia.pt
-# SAUCE Author: harvest // warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20260310
-# SAUCE Dimensions: 80x28
-# SAUCE Font: IBM VGA
-# SAUCE Comments: data: 11 de julho 2026 | local: a beneficiencia familiar, porto | org: associacao inercia
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: impulse.inercia.pt by Warpus + Harvest | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz21-us-impulse
 
 Write-Host '
 [1;30m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m

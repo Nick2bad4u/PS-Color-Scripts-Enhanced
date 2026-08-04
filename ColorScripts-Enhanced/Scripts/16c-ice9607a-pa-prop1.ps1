@@ -1,13 +1,4 @@
-﻿# Converted from: PA-PROP1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9607a/raw/PA-PROP1.ICE
-# Source Revision: archive-sha256:6e317dcfbe1a18e9811dd69788e086bd6dba75308a8c6706d46c84b5eb4fd93a
-# Source SHA-256: b131202aaf5219f726b04eea17eeb4b0241597e0d626c7e8e16a93c6d2148591
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PA-PROP1.ICE by Parasite (ice9607a); released in ice9607a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: PA-PROP1.ICE by Parasite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9607a-pa-prop1
 
 Write-Host '
 [30mparasite[0;31m [0;37m  [0;1;30m░░▒▒░░[0m  [35mpa[0;1;35mice[0m   [31m░[0;30;41m▓[0;31;40m [0m   [31;40m░[0;30;41m▓[0;31;40m▒░[0;30;41m▓[0m      [31;40m█░▄[0;37;40m [0;34;40m░▄▐█▀▀█[0;1;34;40m▄[0;1;34;44m▓░[0;34m ▄[0;1;34;44m▄██▓▒░[0;34m█[0;1;34;44m░[0;34m▀[0;1;34;44m░[0;34m██[0;1;34;44m░░[0;34m▀██▄[0;1;34;44m░[0;34m█[0m

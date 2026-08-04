@@ -1,19 +1,4 @@
-﻿# Converted from: fil-C4Li6UL4.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz13/raw/fil-C4Li6UL4.ans
-# Source Revision: archive-sha256:0c2c63bd64664e02af0cf47cca1c746f6b942d60f66e98c86daa5feb695bcd8e
-# Source SHA-256: c966843254b1d162e03d59d9b64f86036c7f551a2443ce9d335e48d440310492
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: fil-C4Li6UL4.ans by f1L7H (Gary's Shoes); released in laz13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: CALiGULA
-# SAUCE Author: f1L7H
-# SAUCE Group: Gary's Shoes
-# SAUCE Date: 20210614
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: CALiGULA by f1L7H | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz13-fil-c4li6ul4
 
 Write-Host '
 

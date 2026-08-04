@@ -1,19 +1,4 @@
-﻿# Converted from: sK!mayan.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz21/raw/sK!mayan.ans
-# Source Revision: archive-sha256:daa0e008ccfccc8179e0635097f8fe4a46a32781b45bbd86ff6e4505514c9e6d
-# Source SHA-256: 411294e8489008ee07d2340c4967a825205cf23366643713ba6d033b36424ac1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sK!mayan.ans by sIMONkING! (thelo0p^LAZARUS); released in laz21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Mayan
-# SAUCE Author: sIMONkING!
-# SAUCE Group: thelo0p^LAZARUS
-# SAUCE Date: 20260409
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Mayan by sIMONkING! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz21-sk-mayan
 
 Write-Host '
 [30m██▄[0;37m [0;32m██[0;30m■[0;32m▄[0;1;36;42m▄[0;32m██[0;37m [0;1;33m▀[0;1;33;43m▄[0;31m██[0;1;34;41m▀▄[0;33;43m▄[0;30;43m▀[0;32;40m▀[0;1;32;42m▀[0;1;36;40m█[0;1;37;106m▀[0;32m█[0;30;43m▌[0;33;43m██[0;1;34;41m▀[0;31;43m▀[0;30;40m▌[0;1;36;42m▄[0;1;36;46m▀[0;1;30;40m▌[0;31;43m▄[0;31;40m█[0;1;34;40m█[0;1;36;40m▄[0;1;37;40m▀[0;1;37;103m▀[0;1;33m▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▀[0;1;37;103m▀[0m

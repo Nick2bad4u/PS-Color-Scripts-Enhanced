@@ -1,13 +1,4 @@
-﻿# Converted from: US-PURG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-30a/raw/US-PURG.ANS
-# Source Revision: archive-sha256:6639c51cd84d0739e4c497f5c5df7097f55575c94239859af87a8579ae4fa114
-# Source SHA-256: f58ccade7313f5b26e099ce8eff57e0acedc2ea24253dc9dd11ca8ce479f3d59
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PURG.ANS by Slackzor + Produkt (purg-30a); released in purg-30a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 40-83
-# Columns: 1-80
+﻿# Artwork: US-PURG.ANS by Slackzor + Produkt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-30a-us-purg-part02
 
 Write-Host '
 [31m▒▓▒▓▒▓▓▒░▒▓▒░[0m                                   [1;37m▄▄[0m▄ ▄[1m▄▄▄▄▀▀▀[0m▀   ▀[1m▄[0m ▄   ░[31m░▒▒▓██▓▓[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: gj-dn1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wrlk004/raw/gj-dn1.ans
-# Source Revision: archive-sha256:6792b8600a47ed48488c3fe76db1aac641251ae4f8a94a9c1a54f215adbcf956
-# Source SHA-256: 79d3fda4feb4806ee23d50345a84f3caf4c6ba7019da2445c2993bbb8dd51690
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: gj-dn1.ans by Grymmjack (wrlk004); released in wrlk004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: gj-dn1.ans by Grymmjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wrlk004-gj-dn1
 
 Write-Host '
                        [33m [0;32m░[0;1;33m░░[0m

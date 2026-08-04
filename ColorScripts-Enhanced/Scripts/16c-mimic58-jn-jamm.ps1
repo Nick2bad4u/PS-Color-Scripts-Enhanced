@@ -1,18 +1,4 @@
-﻿# Converted from: jn-jamm.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic58/raw/jn-jamm.ans
-# Source Revision: archive-sha256:4a98ca7612935105886d3a52b28e6b0b0af9427cf52bbe395a07526c0a9616a9
-# Source SHA-256: 0788abc471bc5f65daa6df82b3764fc20ab1d55e9a1746f1d5968cf910354c50
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: jn-jamm.ans by Jashiin (Mimic Productions); released in mimic58 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: JAMM!
-# SAUCE Author: Jashiin
-# SAUCE Group: Mimic Productions
-# SAUCE Date: 20030325
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: JAMM! by Jashiin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic58-jn-jamm
 
 Write-Host '
 [32m$$$$$$$$$$$$$$$$$$$$$[0;1;32m$$$$$$[0;32m$[0;1;32m$$$$$$$$$$$$$$$$[0;1;33m$$$$[0;1;32m$$$$$$$$[0;1;33m$$[0;1;32m$$[0;1;33m$$$$$$$$$$$$$[0;1;37m$$$$$$[0m

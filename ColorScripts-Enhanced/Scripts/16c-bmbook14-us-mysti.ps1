@@ -1,18 +1,4 @@
-﻿# Converted from: US-MYSTI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook14/raw/US-MYSTI.ANS
-# Source Revision: archive-sha256:f7fe2a62d3e7b3b16687ce251209098ea8d86719a4cfa33dae1489e0c9af9278
-# Source SHA-256: 0d59e6d10c20b5ffda57478c96dc338da5440dfa816b20a4bb9162a587791377
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-MYSTI.ANS by Toot + Blaze-Infinite (Black Maiden + Inf); released in bmbook14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: mystic
-# SAUCE Author: blaze.toot
-# SAUCE Group: Black Maiden + Inf
-# SAUCE Date: 19970625
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: mystic by Toot + Blaze-Infinite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook14-us-mysti
 
 Write-Host '
                                                        [33m   ▄[0;1;31m▄[0m▄[1;31m▄[0;33m▌[0m            [31m  ▄░[0m

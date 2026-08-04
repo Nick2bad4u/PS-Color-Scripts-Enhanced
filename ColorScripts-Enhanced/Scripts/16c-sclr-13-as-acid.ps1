@@ -1,13 +1,4 @@
-﻿# Converted from: AS-ACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-13/raw/AS-ACID.ANS
-# Source Revision: archive-sha256:1a2968c25b051f2b7445b499fa5cc5c82fc02017f286a7353384ed280dda5c1e
-# Source SHA-256: a6e0356bede9daba43975de967494a053cead92c878ca298a0d9770775b92b64
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AS-ACID.ANS by Asd (sclr-13); released in sclr-13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: AS-ACID.ANS by Asd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-13-as-acid
 
 Write-Host '
 [37;40m                                                                                [0m

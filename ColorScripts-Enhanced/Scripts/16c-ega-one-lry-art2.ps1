@@ -1,18 +1,4 @@
-﻿# Converted from: LRY-ART2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ega-one/raw/LRY-ART2.ANS
-# Source Revision: archive-sha256:6a85c974a9d93a6c5723067b661851124ae90b1e81eb1a1d35a289b0099b8ffc
-# Source SHA-256: d93355e763f0b0d61d14b2f51daadf88b3f4f2f3312fac245137d525d6c21170
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LRY-ART2.ANS by larry (ega); released in ega-one and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: art
-# SAUCE Author: larry
-# SAUCE Group: ega
-# SAUCE Date: 19961106
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: art by larry | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ega-one-lry-art2
 
 Write-Host '
 [1;30m█████████████████████████████████████████████████████████▀▀▓████████████████████[0m

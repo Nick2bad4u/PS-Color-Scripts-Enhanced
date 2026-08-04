@@ -1,18 +1,4 @@
-﻿# Converted from: D1_HOOD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-19/raw/D1_HOOD1.ANS
-# Source Revision: archive-sha256:db429aaaa9cca2e4296dcb178b9b345b980b5c7d6fe930188ea53fede20ed269
-# Source SHA-256: 4c15fcb782a20640c4a48c2cbb7fa76487a94feddf94ff097de9b1dde4e11f96
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D1_HOOD1.ANS by Dissonance (AWE Lettering); released in awe-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Hood Promotional
-# SAUCE Author: Dissonance
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981114
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Hood Promotional by Dissonance | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-19-d1-hood1
 
 Write-Host '
            [30;47m█[0;37;40m  [0;30;47m███████[0m              [1;30;40m [0;30;47m█[0;1;30;40m■[0;30;47m███[0;35;40m▄▄[0m

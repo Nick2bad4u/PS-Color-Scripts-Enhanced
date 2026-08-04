@@ -1,18 +1,4 @@
-﻿# Converted from: UT^OCT01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-1296/raw/UT%5EOCT01.ANS
-# Source Revision: archive-sha256:335d72ea88974be53669cf31a72ea37012b04dc993bc1fa4727d94939a55db7e
-# Source SHA-256: ce14ba3217b0b433d131bc3df244ffb77cfa2e79da196477f250046a93e33444
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UT^OCT01.ANS by undertaker (fusion); released in fsn-1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ..octagon #1..
-# SAUCE Author: undertaker
-# SAUCE Group: fusion
-# SAUCE Date: 19961203
-# SAUCE Dimensions: 80x15
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: ..octagon #1.. by undertaker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-1296-ut-oct01
 
 Write-Host '
                       [1;30m [0m    [31m▄▄▄  ▄ [0m

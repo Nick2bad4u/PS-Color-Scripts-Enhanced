@@ -1,18 +1,4 @@
-﻿# Converted from: DH`LTOI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/insm0796/raw/DH%60LTOI.ANS
-# Source Revision: archive-sha256:e3aef34bb564b08d1904f6f1567e1b9514c63c703fa2cbc5b50e7bd5188984fa
-# Source SHA-256: f7f27367aabec6ae35299c88c1a0a0a5bf9ad9d15a8bc9a7176680ddd644b720
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DH`LTOI.ANS by DarkHeart (insomnia); released in insm0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: lucifer's toilet
-# SAUCE Author: DarkHeart
-# SAUCE Group: insomnia
-# SAUCE Date: 19960601
-# SAUCE Dimensions: 80x16
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: lucifer's toilet by DarkHeart | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-insm0796-dh-ltoi
 
 Write-Host '
                                                               [36m▄░▒░▄[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: bym-i2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ikeadeus/raw/bym-i2.ans
-# Source Revision: archive-sha256:39c810e7c07f73323f80aabc58262e6b7a9a1735ab60c6dd400af5943fb7133b
-# Source SHA-256: 9cd36364df1306562ad4e20478f05320fc5d29ddecaa62d7d874bcfc762bc6e6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bym-i2.ans by superbym (ikeadeus); released in ikeadeus and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ullared
-# SAUCE Author: superbym
-# SAUCE Date: 20001217
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: ullared by superbym | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ikeadeus-bym-i2
 
 Write-Host '
 [1;30m................................................................................[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: RL-OPOST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0696/raw/RL-OPOST.ANS
-# Source Revision: archive-sha256:1ba4c8d098d1b0f05665c254631c4d3b64f02872fa1b37e7519ce6b263840874
-# Source SHA-256: dc126ed9ce28118e7f3af6f77fd1cb5d3c2f000480436cbe911ff374a1d4434f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL-OPOST.ANS by Rawlock (Opium); released in opx-0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Outpost
-# SAUCE Author: Rawlock
-# SAUCE Group: Opium
-# SAUCE Date: 19960527
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Outpost by Rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0696-rl-opost
 
 Write-Host '
                       [34m▄[0;1;34;44m▄[0;1;34;40m▀▀[0;34m ▓[0m

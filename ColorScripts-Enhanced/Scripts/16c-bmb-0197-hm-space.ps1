@@ -1,18 +1,4 @@
-﻿# Converted from: HM-SPACE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0197/raw/HM-SPACE.ANS
-# Source Revision: archive-sha256:331ffa2c0b41c075aec836339cfb4b33b33b171a17da17bd721952cf3966c823
-# Source SHA-256: 9df8781019bea849320363e1ff6045e6363c255310a1da7ca78b76fb574bacb6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HM-SPACE.ANS by head mOnk (Bamboosh); released in bmb-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: spacebar0
-# SAUCE Author: head mOnk
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19961230
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: spacebar0 by head mOnk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0197-hm-space
 
 Write-Host '
                         [1;35m  [0m [1;35m      ▀ ▀▀ ▀▀▀▀▀[0m [1;35m▀▀[0m [1;35m▀[0m

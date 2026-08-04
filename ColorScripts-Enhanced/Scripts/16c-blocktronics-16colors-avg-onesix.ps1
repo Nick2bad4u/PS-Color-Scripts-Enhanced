@@ -1,13 +1,4 @@
-﻿# Converted from: avg-onesix.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_16colors/raw/avg-onesix.ans
-# Source Revision: archive-sha256:906b8658ae1b298a9794b2bd98c553b56bef4b4de5008bd765b49c3ed6b68572
-# Source SHA-256: b522557b48b21282a9a2500539efc9330c8d57dc5dc686e1b48c26df53ca3aaf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-onesix.ans by Avenging Angel (blocktronics_16colors); released in blocktronics_16colors and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: avg-onesix.ans by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-16colors-avg-onesix
 
 Write-Host '
 

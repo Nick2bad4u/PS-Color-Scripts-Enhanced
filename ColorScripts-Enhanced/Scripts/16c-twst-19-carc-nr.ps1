@@ -1,18 +1,4 @@
-﻿# Converted from: CARC-NR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst-19/raw/CARC-NR.ANS
-# Source Revision: archive-sha256:38480cbb01973683b6bb179e82483ce3434180444dfcf5b811296224974846eb
-# Source SHA-256: 02c06e60e8d0526124f40164c75b609f6470b778442fbc0d469be9568d864f52
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CARC-NR.ANS by Putrid Carcass (Twisted); released in twst-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Nation Rape
-# SAUCE Author: Putrid Carcass
-# SAUCE Group: Twisted
-# SAUCE Date: 19980130
-# SAUCE Dimensions: 80x25
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Nation Rape by Putrid Carcass | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst-19-carc-nr
 
 Write-Host '
 [1;30m██[0;1;30;47m▀░▒▓[0;1;30;40m█████████████████████▀▀▀▀▀▀▀▀   ▀▀▀▀▓████████████▓░[0m [36mPutrid<<< tWIzT3D[0;37m  [0;1;30m░▓█[0m

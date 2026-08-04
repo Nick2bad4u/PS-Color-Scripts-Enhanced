@@ -1,17 +1,4 @@
-﻿# Converted from: NS-C0000.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-04/raw/NS-C0000.ANS
-# Source Revision: archive-sha256:1dcdf112160ec589150680778cd449e8af485dfba89bb104c44cd133db2d6fc0
-# Source SHA-256: 5137fd5b48d758a9fa95e9ff43880d50d12552f01b7e9c471037e4ddc480452c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NS-C0000.ANS by ansichrist (The Used Coalition); released in used-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Logo colly
-# SAUCE Author: ansichrist
-# SAUCE Group: The Used Coalition
-# SAUCE Dimensions: 80x200
-# Lines: 101-150
-# Columns: 1-80
+﻿# Artwork: Logo colly by ansichrist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-04-ns-c0000-part03
 
 Write-Host '
 [1m███████████████████▀▀▓▀░[0;33m▐[0;1;33;43m░▓[0;1;33;40m█▌         ▐█▀ ▀█[0;1;37;40m█▌▐███████[0m░▓████[1;47mbinaryc0de....[0m█████

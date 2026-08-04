@@ -1,19 +1,4 @@
-﻿# Converted from: sK!WarpeDSocieTy.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz16/raw/sK!WarpeDSocieTy.ans
-# Source Revision: archive-sha256:b093dd3cb06bf783d59a9df3724c51f9a41f686cd4fd545c920ada008d959f7a
-# Source SHA-256: 51daaae44ca0f40c0ccf96783794f1947b4960c95ff43dede028b243b531c579
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sK!WarpeDSocieTy.ans by sIMONkING (LAZARUS^thelo0p!); released in laz16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: WarpeD SocieTY!
-# SAUCE Author: sIMONkING
-# SAUCE Group: LAZARUS^thelo0p!
-# SAUCE Date: 20220925
-# SAUCE Dimensions: 80x65
-# SAUCE Font: IBM VGA
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: WarpeD SocieTY! by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz16-sk-warpedsociety-part01
 
 Write-Host '
   [1;30m░░░░░[0m                                                           [1;35m░▄[0;35m▄▄▄▄▄▄▄[0m

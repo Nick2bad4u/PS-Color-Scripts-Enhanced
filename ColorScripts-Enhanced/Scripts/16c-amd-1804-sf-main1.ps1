@@ -1,13 +1,4 @@
-﻿# Converted from: SF-MAIN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amd_1804/raw/SF-MAIN1.ANS
-# Source Revision: archive-sha256:b8d5d7dd230ffbf4a1ceb5c0d80b43a5804de5c25c8824ee7d2a4daf2f4d5c54
-# Source SHA-256: 0ede53ebe0a6dad48ee1d1e38df4b736ea7519ffd14d57e5454175748dceef7b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SF-MAIN1.ANS by Spitface (amd_1804); released in amd_1804 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: SF-MAIN1.ANS by Spitface | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amd-1804-sf-main1
 
 Write-Host '
                      [1;30m  [0m

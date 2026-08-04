@@ -1,19 +1,4 @@
-﻿# Converted from: MM-TENDERNESS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0226/raw/MM-TENDERNESS.ANS
-# Source Revision: archive-sha256:ef03a5a095d5c0479664f99ff23399e245703c452ca9d05ea2957005177022f9
-# Source SHA-256: ba9341700163d70714f41978e418b02ef0ce44df11e5414606bb40cc59ddb6e4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-TENDERNESS.ANS by Mavenmob (Mistigris); released in mist0226 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Tenderness in the Hands
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20251022
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Tenderness in the Hands by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0226-mm-tenderness
 
 Write-Host '
  [30;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;30;40m█[0m

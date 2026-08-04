@@ -1,19 +1,4 @@
-﻿# Converted from: US-HTSCE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-35/raw/US-HTSCE.ANS
-# Source Revision: archive-sha256:c366a38306f48b13ede280377c5f8ef243fdab7e7890ac3e053ec3ccbc5d901a
-# Source SHA-256: eace2b76acf2e2eb7662ddf996b35bd2f2c0e2ddd1d7f486dcfa2dfa5d0f4171
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-HTSCE.ANS by Nail + Filth (fire); released in fire-35 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: hot sauce
-# SAUCE Author: nail + filth
-# SAUCE Group: fire
-# SAUCE Date: 20220804
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: hot sauce by Nail + Filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-35-us-htsce
 
 Write-Host '
 [31;40m▄░▓███[0;1;31;40m▒[0;31m█[0;1;31m▓▓▓[0;1;31;41m▓▓▓▀[0;31m▀▀▀ [0;37m▀ [0;31m▄▄▄[0;1;31;41m░[0;1;33;41m░░[0;31m█▀▀▀▀ [0;37m▀ [0;31m▄▄▓▓▀▀■    [0;1;30m■   ▄▄ ░▀▀▓▓▓█▀▀██▄███▄█▄▄   [0m▀▓▓██

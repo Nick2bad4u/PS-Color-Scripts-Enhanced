@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-CONM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0226/raw/ZII-CONM.ANS
-# Source Revision: archive-sha256:ef03a5a095d5c0479664f99ff23399e245703c452ca9d05ea2957005177022f9
-# Source SHA-256: e59baa17d3625a0414f6855f9422167dda0c4c81a3c28a6c1dc41134082a252d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-CONM.ANS by Zeus II (Mistigris); released in mist0226 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Convolution BBS
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260118
-# SAUCE Dimensions: 80x200
-# SAUCE Font: IBM VGA
-# Lines: 150-198
-# Columns: 1-80
+﻿# Artwork: Convolution BBS by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0226-zii-conm-part04
 
 Write-Host '
 [1;30m█▀[0m ▄█[1;30;47m░▒▒[0;1;37;42m▓[0;1;37;47m██[0m [1m█[0;1;42m▒[0m▌[1;30m▐[0;1;30;47m▓[0;1;30;40m█[0m  [32m▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;37m ▄ [0;1;30;47m [0;1;37;47m░[0;1;30;47m [0m  [32m▓[0;1;32;42m░▀[0m

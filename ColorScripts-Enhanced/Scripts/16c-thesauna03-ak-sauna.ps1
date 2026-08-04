@@ -1,16 +1,4 @@
-﻿# Converted from: ak-sauna.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna03/raw/ak-sauna.ans
-# Source Revision: archive-sha256:997aaab655669129eb266c21ca0c4588b603e11c90338498bb530f8bba390fb2
-# Source SHA-256: e2c2c1a149af337483d760b853db6866ab81d43c82a26580cbcc1a88b48a98b2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ak-sauna.ans by Abstrakt (thesauna03); released in thesauna03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 20220319
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: ak-sauna.ans by Abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna03-ak-sauna
 
 Write-Host '
 [1;36m    o [0;30m$[0;1;36md$[0m [30m$[0;1;36m.┐s,[0m   [1;36m,[0m                   [1m,¬.[0m          [1m.,[0m┌┐.    [1m.d$[0m$Ss.

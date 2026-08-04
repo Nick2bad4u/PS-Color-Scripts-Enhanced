@@ -1,13 +1,4 @@
-﻿# Converted from: TT-TREM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tdd1295a/raw/TT-TREM.ANS
-# Source Revision: archive-sha256:ad48f7529474b8fc65c2ce807b19c874cf1bd6335a23d5fe9d02c59b64ca97be
-# Source SHA-256: 6c5510296d33f214f526c09566c401c88b0fafa23951aad91f65e8634b0f262e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TT-TREM.ANS by Trust (tdd1295a); released in tdd1295a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 24-56
-# Columns: 1-80
+﻿# Artwork: TT-TREM.ANS by Trust | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tdd1295a-tt-trem-part02
 
 Write-Host '
           [32m█[0m           [31m██▄▄▀   [0;1;31;41m░█[0;31m█▓ ▐[0m          [31m██▀▓█[0;1;31;41m░[0;31m█▄▄░▄▄[0m              [32m▄[0m

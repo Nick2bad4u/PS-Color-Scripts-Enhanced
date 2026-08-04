@@ -1,18 +1,4 @@
-﻿# Converted from: SK!ZWIER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p06_00/raw/SK!ZWIER.ANS
-# Source Revision: archive-sha256:3daad9bd70cd9307445d25e1dbbdc4eae498b83379a5b89ecd2ac9419e6150d3
-# Source SHA-256: b3a0d3489df050ca1d36bd6b1c5ef134345229f651227ff6a9a5aaaac88bb19b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!ZWIER.ANS by sIMONkING (thelo0p); released in l0p06_00 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: zezloszczony zwierzak =)
-# SAUCE Author: sIMONkING
-# SAUCE Group: thelo0p
-# SAUCE Date: 20000413
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: zezloszczony zwierzak =) by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p06-00-sk-zwier
 
 Write-Host '
 ██[1;31;41m███▀▀███[0;33;41m   ▐█[0;33;40m███[0;1;33;40m██[0;33m▀ ▄▄[0;37m   [0;33m ▀██▀▀▀▀▀▀▀▀[0;1;34m██[0;33m▄▀▀▀▀█[0;1;37m██[0;33m█[0;37m                   [0m

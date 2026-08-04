@@ -1,18 +1,4 @@
-﻿# Converted from: SK-PD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lure003/raw/SK-PD.ANS
-# Source Revision: archive-sha256:1ff57f893971666a5780ed06387959ae5ebc9c163a5e118549c7818f33792253
-# Source SHA-256: 098449bf68722ffe965deac7dc5acb745cbffe2b5ba51885694a834103834be8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK-PD.ANS by simon king (lure); released in lure003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: pixadelic dreams
-# SAUCE Author: simon king
-# SAUCE Group: lure
-# SAUCE Date: 20020426
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: pixadelic dreams by simon king | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lure003-sk-pd
 
 Write-Host '
                                                                [1m ███[0m   [1m███[0m   [1m███[0m

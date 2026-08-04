@@ -1,18 +1,4 @@
-﻿# Converted from: US-PNA2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy14/raw/US-PNA2.ANS
-# Source Revision: archive-sha256:c5547b07ff3d1430b4844962a9bc7b618137779daf38eea1b387904b434fbbab
-# Source SHA-256: e0936921601f70e98af62e4adde5c09147dc57f77398cc31a69140d6e7a031b0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PNA2.ANS by Apox + Tical + Unsane + Loi (Apathy Studios); released in apathy14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Paranoia/2
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Apathy Studios
-# SAUCE Date: 19960831
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Paranoia/2 by Apox + Tical + Unsane + Loi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy14-us-pna2
 
 Write-Host '
 [1;30m[0m[1;30m                         [0m               [1;31m░░[0m

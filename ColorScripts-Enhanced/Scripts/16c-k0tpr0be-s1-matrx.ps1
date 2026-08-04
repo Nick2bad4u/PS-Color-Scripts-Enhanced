@@ -1,18 +1,4 @@
-﻿# Converted from: S1-MATRX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k0tpr0be/raw/S1-MATRX.ANS
-# Source Revision: archive-sha256:fcb0e37abcb9d171de6d5cc918649afa7e9c0f2f5173dba90a7d8c38f69cec3d
-# Source SHA-256: 05fa2d6d161e3546999f5ea6b5f00f9565d713fccc8d29a735bb3a3138e1c158
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S1-MATRX.ANS by sma!1 (klfrogz!); released in k0tpr0be and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: vaginal lubrication login matrix
-# SAUCE Author: sma!1
-# SAUCE Group: klfrogz!
-# SAUCE Date: 19960725
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: vaginal lubrication login matrix by sma!1 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k0tpr0be-s1-matrx
 
 Write-Host '
 [34m ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0;1;33m▀[0m [34m▄▄▄▄▄▄▄[0;37m [0;1;33m▓[0m [34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0m

@@ -1,17 +1,4 @@
-﻿# Converted from: ZS-WORM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sys2_03/raw/ZS-WORM.ANS
-# Source Revision: archive-sha256:008fb7d825e566af77ae54caca44158087d80f399f5293cc1f9b3810d9305879
-# Source SHA-256: 733ceb9f8953e96d3c5feca1b47aae6915153d689c36df91627960000b278d95
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZS-WORM.ANS by zerostar (SystemII); released in sys2_03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: zerostar
-# SAUCE Group: SystemII
-# SAUCE Date: 20000501
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: ZS-WORM.ANS by zerostar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sys2-03-zs-worm
 
 Write-Host '
 [36m*''[0;37m . [0;36m°[0;37m.q@[0;1;37mSS[0m@p.[36m°[0;37m.┐┌. [0;36m\$$[0;1;36m$$$$[0;36mS*┘²''`[0;37m [0;33m____[0;36m`^''²└*SQ$[0;1;36m$$$$$$$$[0;36m$$S*┘²''^''²└*Q7`[0;37m.┐[0;1;37mp┌[0m.[36m°[0;37m * [0;36m*[0m

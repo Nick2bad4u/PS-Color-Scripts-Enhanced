@@ -1,19 +1,4 @@
-﻿# Converted from: DW-DSBBS_ENTRY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0921/raw/DW-DSBBS_ENTRY.ANS
-# Source Revision: archive-sha256:d0c46b43fcc75f34eccddd849ead8bb14d1cefded97053b0b2617868dbc835f6
-# Source SHA-256: 1eed96cbe50d4ff8ee2fc1737fbd1b6ca89e2f6614e7e3214673904cf4a271d9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DW-DSBBS_ENTRY.ANS by DW, Cthulu, LDA (Mistigris); released in mist0921 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Dark Systems BBS
-# SAUCE Author: DW, Cthulu, LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20210930
-# SAUCE Dimensions: 80x139
-# SAUCE Font: IBM VGA
-# Lines: 47-92
-# Columns: 1-80
+﻿# Artwork: Dark Systems BBS by DW, Cthulu, LDA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0921-dw-dsbbs-entry-part02
 
 Write-Host '
 [1;30m█████▄████▄██████▄           ▄████[0m [1m▄▄[0;1;34m▄[0;34m▄[0;37m [0;1;31m█[0;31m█[0;1;31m█[0;31m█[0;1;31m█[0;31m█[0;37m [0;1;37m██▀[0m [1m▀█████[0;1;42m▀[0;1;44m▄[0;1;41m▀[0;1;40m██[0m [31m█[0;1;31m█[0;31m█[0;1;31m█[0;31m█[0;1;31m█[0;31m█[0;1;31m█[0m [1m▄▄[0;1;34m▄[0;34m▄[0;37m [0;1;30m██[0m

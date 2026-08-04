@@ -1,18 +1,4 @@
-﻿# Converted from: PLZ-HEDN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-20/raw/PLZ-HEDN.ANS
-# Source Revision: archive-sha256:23bbf66596e3e4f3c4b9e335dc62ccc331634eba04c3d179b73e396fa3971807
-# Source SHA-256: bf47c8aef269a5c8373b521c94fe0794b005b60fe95673e7f0f7052442e1675f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PLZ-HEDN.ANS by Plazz (AWE Lettering); released in awe-20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Hedonic
-# SAUCE Author: Plazz
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981211
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Hedonic by Plazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-20-plz-hedn
 
 Write-Host '
    [1m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: LD-LOD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1294/raw/LD-LOD1.ANS
-# Source Revision: archive-sha256:f8a4b1074b7793df8f3d2e2341b035c3ebc6fa160937f8fe7508c74b4b0317e1
-# Source SHA-256: 126171a6c5caa2a084ea0cc2c8baadfbc33ce4a9bb70cb9cbd459aa234e1bde5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-LOD1.ANS by Lord Jazz (ACiD Productions); released in acdu1294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Land of Defiance
-# SAUCE Author: Lord Jazz
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19941201
-# SAUCE Dimensions: 80x57
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Land of Defiance by Lord Jazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1294-ld-lod1-part01
 
 Write-Host '
 [30;44m ld!·acid [0;1;34;44m░░░▒▒▒▒▒▒▒▒▓▒▓▓▓▓▓▓[0;1;34;40m█[0;1;34;44m▓▓▓[0;1;34;40m█[0;1;34;44m▓[0;1;34;40m████████████████████████████████████████████[0m

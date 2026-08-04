@@ -1,19 +1,4 @@
-﻿# Converted from: TG-SAM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-44/raw/TG-SAM.ANS
-# Source Revision: archive-sha256:6c51508cedeaa9140fcf08750a75edb14e0cec0eebe7b4290346e95cd3548876
-# Source SHA-256: b882c739324a39e05d07e6844164955e0d00a1d7e499f960e47a8804c6a53191
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-SAM.ANS by Toon Goon (FiRE); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Sam from Trick r' Treat
-# SAUCE Author: Toon Goon
-# SAUCE Group: FiRE
-# SAUCE Date: 20251111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Sam from Trick r' Treat by Toon Goon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-44-tg-sam
 
 Write-Host '
 [1;30;40m█[0;33m [0;1;30m▄[0;1;30;43m▀▀[0;33m [0;1;30;43m█[0;1;33;43m ░▒[0;1;30;43m▀[0;1;30;40m▀[0;1;30;43m▓░░░▒░░[0;33m█████[0;1;33;43m░░▓▓▓░[0;33m█[0;1;30m█▀[0;1;30;43m▀[0;1;30;40m▄[0;33m ▀[0;37m▀▄[0;1;30m▀[0;33m [0;1;30m▄▀[0;1;30;43m█▓▒░░░[0;33m███████[0;1;33;43m░░▒▒▄[0;1;30;43m▀[0;1;30;40m▄[0;33m  [0;1;30m▀▄[0;35m▀[0;1;35;45m░▓░[0;35m████[0;1;35;45m▄[0;35m████[0m

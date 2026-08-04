@@ -1,18 +1,4 @@
-﻿# Converted from: 09-FKS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus03/raw/09-FKS1.ANS
-# Source Revision: archive-sha256:ae240da6329918ab0bf39714e2edb95ea5883c52a5e5edf845b291bbb7142ce1
-# Source SHA-256: 9ee8b1379869f2edd6ab0603390df688171d971dd7a0fc650316c36807adcc25
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-FKS1.ANS by Fluor (Fokus fonting); released in fokus03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fokus fonting
-# SAUCE Author: Fluor
-# SAUCE Group: Fokus fonting
-# SAUCE Date: 19990429
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Fokus fonting by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus03-09-fks1
 
 Write-Host '
         [1;36m▒[0;36m▄ [0;34m░[0m            [34m▄[0m

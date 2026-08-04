@@ -1,18 +1,4 @@
-﻿# Converted from: BE-G3!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ftc-03/raw/BE-G3!.ANS
-# Source Revision: archive-sha256:1226dcacf4b055c72a07590d3a55db00d6617398cb0c9cab468627eb45b001d6
-# Source SHA-256: 70f55d24919ecf91cbba789fa84b68636d51402e7193f250f29d76368e01681e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BE-G3!.ANS by brain eater (ftc); released in ftc-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: g3!
-# SAUCE Author: brain eater
-# SAUCE Group: ftc
-# SAUCE Date: 19960709
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: g3! by brain eater | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ftc-03-be-g3
 
 Write-Host '
                                 [1;34;47m▓[0;1;34;40m▄▄▄▄[0m            [1;34;47m▓[0;1;34;40m▄▄▄▄[0m

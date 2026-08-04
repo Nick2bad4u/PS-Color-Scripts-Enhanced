@@ -1,19 +1,4 @@
-﻿# Converted from: us-cyber.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-420/raw/us-cyber.ans
-# Source Revision: archive-sha256:32206a6b687af3a407a7929bd0ae7f49a2a5a96e7853d9c98b3020df27e9b06d
-# Source SHA-256: e876bf09a07328dbc3edbd5e7389917e6d9ec20edef3ca1a137e5194a79f36f4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-cyber.ans by Filth + Keetar (bL0CKtR0NiCS); released in blocktronics-420 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: CYBEREASON
-# SAUCE Author: keetar & filth
-# SAUCE Group: bL0CKtR0NiCS
-# SAUCE Date: 20180305
-# SAUCE Dimensions: 80x31
-# SAUCE Font: IBM VGA
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: CYBEREASON by Filth + Keetar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-420-us-cyber
 
 Write-Host '
 [1;37;47m▓▓▓▀     ▄▄▄[0;1;36;40m░░ [0;1;37;40m   [0;1;36;40m ▐ [0;1;37;47m▄▄▄▄▄[0;1;37;40m  [0;1;37;47m [0m▀▄▄[1;47m▓▓▓[0;1;40m██████████[0;1;47m▓▓▓██▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░[0m ▄ ▀[1;47m░░░░░[0m

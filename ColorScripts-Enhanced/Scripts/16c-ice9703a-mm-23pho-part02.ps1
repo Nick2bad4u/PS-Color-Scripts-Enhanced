@@ -1,13 +1,4 @@
-﻿# Converted from: MM-23PHO.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9703a/raw/MM-23PHO.ICE
-# Source Revision: archive-sha256:6bff16e5edf32b4898857b0d23616134d84be36d169a4a2f3bc23f437f356dfe
-# Source SHA-256: b96f0cfe9ad9f0d38e570412634b401fd3009985addb7125750a1660d6a29092
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-23PHO.ICE by Magnetic M (ice9703a); released in ice9703a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 40-66
-# Columns: 1-80
+﻿# Artwork: MM-23PHO.ICE by Magnetic M | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9703a-mm-23pho-part02
 
 Write-Host '
 [34m▄[0;1;34m▄[0;1;34;44m▄[0;1;34;40m████████████████████▀█▄███████████▌▐█████▀▀▀ ▀████▄▄▄█▀▀[0;34m▀[0;1;34m▄▄▄[0;34m▄[0m

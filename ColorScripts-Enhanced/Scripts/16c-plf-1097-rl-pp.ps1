@@ -1,18 +1,4 @@
-﻿# Converted from: RL!-(PP).ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1097/raw/RL!-(PP).ANS
-# Source Revision: archive-sha256:36c7150b2835995ba27c6f1c5cfc23dc5fdf9213c2fb0b333e09d1aa0d00da5f
-# Source SHA-256: 498a53b63881a8c645c7fe425e5b90a1f166048c3d4517cb8f331bcddf745e76
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL!-(PP).ANS by rAwlOck     (rl!) (plf-1097); released in plf-1097 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: pOffelipOff prOductions.
-# SAUCE Author: rAwlOck     (rl!)
-# SAUCE Group: -
-# SAUCE Date: 19971011
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: pOffelipOff prOductions. by rAwlOck (rl!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1097-rl-pp
 
 Write-Host '
                                           [33m   [0m           [1;33m░░[0m

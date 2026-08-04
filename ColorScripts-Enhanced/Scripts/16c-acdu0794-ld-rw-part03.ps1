@@ -1,18 +1,4 @@
-﻿# Converted from: LD-RW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0794/raw/LD-RW.ANS
-# Source Revision: archive-sha256:53cd35a6f327a0c8a649f0c556ca1e17aa60e6c4040eff696f9e35efc72f4414
-# Source SHA-256: 76c87fd08dc4683387b5d62c868a0db53242dcd3689be74c6a57f815dafe6b09
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-RW.ANS by Lord Jazz (ACiD Productions); released in acdu0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Robag's World
-# SAUCE Author: Lord Jazz
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940630
-# SAUCE Dimensions: 80x211
-# Lines: 76-125
-# Columns: 1-80
+﻿# Artwork: Robag's World by Lord Jazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0794-ld-rw-part03
 
 Write-Host '
 [1;47m▓[0m

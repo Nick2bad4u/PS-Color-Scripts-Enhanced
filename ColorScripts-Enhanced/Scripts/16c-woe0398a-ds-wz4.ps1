@@ -1,18 +1,4 @@
-﻿# Converted from: DS-WZ4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/woe0398a/raw/DS-WZ4.ANS
-# Source Revision: archive-sha256:feef6c5067150fcb3afb8e1031cbd84508116073dc31e796c2f896be6ffc96b0
-# Source SHA-256: 747229c9f9b0e16ec08181c36b44bf88d56c1212839be03a6238d01cb6bb5ed2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-WZ4.ANS by Dr Seuss + Anomite (wOE!); released in woe0398a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: wZ!!
-# SAUCE Author: drseuss/anomite
-# SAUCE Group: wOE!
-# SAUCE Date: 19980222
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: wZ!! by Dr Seuss + Anomite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-woe0398a-ds-wz4
 
 Write-Host '
 [1;36m█████████████[0;1;36;46m▄▄▄▄▄▄[0;36m███[0;1;36;46m        [0;36m▀[0;34m▄▄▄▄▄▄▄▄[0;37m  [0;36m▀▀▀▓▓[0;37m [0;34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;37m  [0;34m█[0;1;34;44m [0;34m▄▄▄▄▄▐█[0;1;34;44m░░▄▄[0;34m█▌▄[0;36m▀[0m

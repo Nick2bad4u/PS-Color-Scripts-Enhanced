@@ -1,18 +1,4 @@
-﻿# Converted from: smp-csad.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0502/raw/smp-csad.ans
-# Source Revision: archive-sha256:98bfa3cc78c733050b0c647e7e0271e7623e3c31e4f40f218a00b89b2165c771
-# Source SHA-256: e9a81e6a9080b60a1442fc190265afc376c6d0aeba9da714b54ace11aba56a82
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: smp-csad.ans by Shrimp (Revival); released in rev0502 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Chaos AD
-# SAUCE Author: Shrimp
-# SAUCE Group: Revival
-# SAUCE Date: 20020502
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Chaos AD by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0502-smp-csad
 
 Write-Host '
 [1m[0;1;33m[0;1;37m[0m                                                                 [32m▄[0m

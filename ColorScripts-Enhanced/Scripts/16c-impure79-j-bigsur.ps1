@@ -1,16 +1,4 @@
-﻿# Converted from: j-bigsur.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure79/raw/j-bigsur.ans
-# Source Revision: archive-sha256:b4622c4fdfafdd578f3db64bb2bcff19a7154106ecf4c0e2e9ebef264d05fe2b
-# Source SHA-256: 37130fe5072c87d600a53e2f37c7d76c55d12cbab63f6bbcf39210a440ee700a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: j-bigsur.ans by Jojo (impure79); released in impure79 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20210425
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: j-bigsur.ans by Jojo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure79-j-bigsur
 
 Write-Host '
 [1;31;40m████████████████████████[0;1;34;40m██████████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m

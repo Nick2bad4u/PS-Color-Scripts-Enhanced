@@ -1,13 +1,4 @@
-﻿# Converted from: 2FC(C).ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-12/raw/2FC(C).ANS
-# Source Revision: archive-sha256:410083659cbc6eaaec3d23ed9548f99302029f4a7b459c350ecaa6d1820b2874
-# Source SHA-256: a76b8fadc496fda7dc923e818a081ef0dfc8eb2fdf77435340582ee9080eb92c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2FC(C).ANS by Chile (d38-12); released in d38-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: 2FC(C).ANS by Chile | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-12-2fc-c
 
 Write-Host '
 [1;30m(c) ownz yu [0;1;33m [0m              [33m▒[0m      [37m░[0;30;47m▓[0;1;30;40m▓[0;30;47m▓[0m              [31;40m░▄▄▄▄[0;1;36;40m [0;31m▒[0;37m [0;31m▄▄▄[0;33;41m ▒[0;37;40m [0;34;40m▄[0;37;40m [0;31;40m▄▐▄▄[0;37;40m  [0;34;40m▄▄█[0;1;36;44m■[0;34m▌[0m

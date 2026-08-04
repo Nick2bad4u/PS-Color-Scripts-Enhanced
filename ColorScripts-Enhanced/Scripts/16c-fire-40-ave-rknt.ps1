@@ -1,19 +1,4 @@
-﻿# Converted from: AVE-RKNT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-40/raw/AVE-RKNT.ANS
-# Source Revision: archive-sha256:aff8105c0a955ac5c43ea367a02b086cd2849f6741fc41b8a5ff440b77e104a7
-# Source SHA-256: 802c24c2c47c44a38a79b307670c6a92ba5aee851c1940af67e3aa4b7bd31f32
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-RKNT.ANS by avenger (Fire); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Radikant
-# SAUCE Author: avenger
-# SAUCE Group: Fire
-# SAUCE Date: 20240707
-# SAUCE Dimensions: 80x39
-# SAUCE Font: IBM VGA
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Radikant by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-40-ave-rknt
 
 Write-Host '
 

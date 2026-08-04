@@ -1,20 +1,4 @@
-﻿# Converted from: !US-SEAGULLS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0523/raw/!US-SEAGULLS.ANS
-# Source Revision: archive-sha256:53b565820f166e8e480fb61187f967fd47086f9bc5b7e5f420ec7196d573dd4b
-# Source SHA-256: 48bac8e20f6d717e4511b2061dd5115817aa92e7dc0bcf0c95b27b70c94e9977
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: !US-SEAGULLS.ANS by LDA + Cthulu (Mistigris); released in mist0523 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Seagulls
-# SAUCE Author: Cthulu & LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20230508
-# SAUCE Dimensions: 80x30
-# SAUCE Font: IBM VGA
-# SAUCE Comments: (Stop It Now)
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Seagulls by LDA + Cthulu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0523-us-seagulls
 
 Write-Host '
  [1;30m▐██▌[0m   [1;30m▄██▀  █▌   ▄█▀[0m  [1;30m██▐█▌[0m  [1;30m▐█▌[0m [1;30m▐█▌[0m       [1;30m██[0m   [1;30m█▄[0m   [1;30m▄[0m   [1;30m▐█▌[0m  [1;30m██    ▐█▌[0m    [1;30m▄█[0m

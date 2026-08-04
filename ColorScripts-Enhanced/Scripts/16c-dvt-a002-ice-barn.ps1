@@ -1,13 +1,4 @@
-﻿# Converted from: ICE-BARN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dvt-a002/raw/ICE-BARN.ANS
-# Source Revision: archive-sha256:cebc39699ae8b25ba518b2ba5782156ca1128226a0f97880c63d4b8cd53b3a57
-# Source SHA-256: 6ffefff30ddf5ef8a44d00e09e83ccfe2c149924653b58b026b22f77192c1309
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ICE-BARN.ANS by Iceman (dvt-a002); released in dvt-a002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: ICE-BARN.ANS by Iceman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dvt-a002-ice-barn
 
 Write-Host '
 [34m████████████████████████████████████████████████████████████████████████[0;34;44m█[0;34;40m███████[0m

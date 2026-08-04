@@ -1,13 +1,4 @@
-﻿# Converted from: MST!KLOP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spr_01/raw/MST!KLOP.ANS
-# Source Revision: archive-sha256:cf7c7b3ff110fb6079665640462cb52beaf7b27701f8d3257739b60b64ffb9f9
-# Source SHA-256: ad6d9c9a079a5f57d3c2fb327a0ae2e21ab6989ae6dd8bb323b0f82bfbbaac09
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MST!KLOP.ANS by Mist + With (spr_01); released in spr_01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: MST!KLOP.ANS by Mist + With | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spr-01-mst-klop
 
 Write-Host '
   [33m▐[0;1;31;43m▐███[0;33m█[0;37m  [0;33m█[0;1;31;43m██[0;33m█[0;37m  [0;33m█[0;1;31;43m██▌[0;33m▌[0;37m  [0;33m█[0;1;31;43m░░[0;33m█[0;37m  [0;33m █[0;1;31;43m██████████████[0;33m█ [0;31m ▐██▌▀██▌▀█████▀▐████▌▀██████▌[0m

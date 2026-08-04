@@ -1,18 +1,4 @@
-﻿# Converted from: V9-TC2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0397/raw/V9-TC2.ANS
-# Source Revision: archive-sha256:92948d41234c0b51c2e1cbae1fc45d03877af276dfc89419c464eee360a4eed8
-# Source SHA-256: 38be1bea22a9dd72c91ba44f5ee3a48b1e148a1524fd288a3b4a022bf1393353
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: V9-TC2.ANS by Vade79 (Fire); released in fire0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Total Chaos 2
-# SAUCE Author: Vade79
-# SAUCE Group: Fire
-# SAUCE Date: 19970228
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Total Chaos 2 by Vade79 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0397-v9-tc2
 
 Write-Host '
 [34;46m▌░▓▓[0;34;40m▌▀[0;1;34;40m▀▀▀▀[0;34m▀▀ [0;1;34m▄▄[0;34m▄▄▌    [0;35m░[0;30;45m▓[0;31;40m [0;35;40m ▄▄[0;1;35;40m▄[0;35m▌[0;31m [0;35m▄▌[0;31m [0;35m▐▄[0;31m  [0;34m▀▀█[0;1;34;44m░░▓▓▌▀[0;34m▀▀[0;31m  [0;34m▀[0;30mv9[0;34m░[0;30;44m▓[0;34;40m▀▀▌[0;37;40m [0;36;40m▀▀▀[0;34;46m░▓[0;34;40m▌[0;36;40m▄▄[0;34;40m▄▄▄▀▀█[0;1;34;44m░░░▒▒▓[0m

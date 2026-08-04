@@ -1,18 +1,4 @@
-﻿# Converted from: SUN^HARD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-03/raw/SUN%5EHARD.ANS
-# Source Revision: archive-sha256:782ccbab81c9098e3c3d5b5d2d3703deba2cd08c356aa583e9b292783b136ef2
-# Source SHA-256: 4b5a08d0ff3b5a055e93f2b30c85b44981f7ad64d23d83efe1a9a1c423fdbd1a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SUN^HARD.ANS by Sunder (Department 38); released in d38-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Hardcore! Donut Ripp, Donut Donut!
-# SAUCE Author: Sunder
-# SAUCE Group: Department 38
-# SAUCE Date: 19970212
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Hardcore! Donut Ripp, Donut Donut! by Sunder | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-03-sun-hard
 
 Write-Host '
                                             [33m▄██▄▄▄▄[0m

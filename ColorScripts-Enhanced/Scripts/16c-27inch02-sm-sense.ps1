@@ -1,18 +1,4 @@
-﻿# Converted from: SM-SENSE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch02/raw/SM-SENSE.ANS
-# Source Revision: archive-sha256:cf5edf9c96cc8253a46b06083b6d6c568d54a3ab114e7250815fc48f7f1a4c4c
-# Source SHA-256: ac3eebff908248fcd571dd621c293c1f50f511d8c229d570aabdcd2ff7915ba3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-SENSE.ANS by smooth (27inch); released in 27inch02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: SENSE promo
-# SAUCE Author: smooth
-# SAUCE Group: 27inch
-# SAUCE Date: 20030401
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: SENSE promo by smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch02-sm-sense
 
 Write-Host '
 [1;33m██▀▀[0;1;37m [0;1;33m▀[0;1;37m   [0;1;33m▀[0;1;37m [0;1;33m▄▄▄[0m                                                     [1;33m▄▄[0;1;37m [0;1;33m▀[0;1;37m   [0;1;33m▀[0;1;37m [0;1;33m▀▀██[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: NI-FEISR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0823/raw/NI-FEISR.ANS
-# Source Revision: archive-sha256:62e93186540813ec7aaaeb24433016d426de59526762a0e3f8dda1eb133ed05c
-# Source SHA-256: 691637ae34488c3bf260952a2d4c1792f81829e245bfde49b3bfd21b7fe27817
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-FEISR.ANS by Nitron (MiSTiGRiS); released in mist0823 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: FEISAR [XL]
-# SAUCE Author: Nitron
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 20230822
-# SAUCE Dimensions: 80x21
-# SAUCE Font: IBM VGA
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: FEISAR [XL] by Nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0823-ni-feisr
 
 Write-Host '
 [1;36;46m░░░░░░░░░░░░░░[0;36m███████████████████████████████████████[0;1;36;46m░░░░░░░░░░░░░░░░░░░░░░░░░[0;36m█▓[0m

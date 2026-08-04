@@ -1,18 +1,4 @@
-﻿# Converted from: PN-SLT1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9408/raw/PN-SLT1.ICE
-# Source Revision: archive-sha256:fa8a4e27d9a185cd662254cdd4d5c7083c450d81415053054b7d17d8e404dca2
-# Source SHA-256: 0e1bbcf06dbfafd4b1c3dd94188ddd3a19465d48d91c5666838ad10a7b16481b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PN-SLT1.ICE by Pnakotic (iCE); released in ice-9408 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Straylight Couriers
-# SAUCE Author: Pnakotic
-# SAUCE Group: iCE
-# SAUCE Date: 19940817
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: Straylight Couriers by Pnakotic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9408-pn-slt1
 
 Write-Host '
                     ░             ░         ░        [34m▀▓▀[0;1;34;44m■▒░[0;34m█[0;1;34;44m░[0;34m██▀█[0;34;44m [0;34;40m█[0;34;44m [0;1;34;44m░[0;34m▄▀▀[0;1;34;44m░▀■▒░  [0m

@@ -1,17 +1,4 @@
-﻿# Converted from: BP-FATAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/utd-0495/raw/BP-FATAL.ANS
-# Source Revision: archive-sha256:0d1a82ad3d13d836a92b422703d06a1d6a82ae4f50721578a08763a2338a2df8
-# Source SHA-256: c90eea1dbaa9d55759d1aa398437640c0b616af46b75f81f32af2f4f7616bd34
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BP-FATAL.ANS by Bigge Pif (United); released in utd-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fatal Error
-# SAUCE Author: Bigge Pif
-# SAUCE Group: United
-# SAUCE Date: 20950327
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Fatal Error by Bigge Pif | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-utd-0495-bp-fatal-part01
 
 Write-Host '
 [36m████████████████████████████████████████████████████████████████████████████████[0m

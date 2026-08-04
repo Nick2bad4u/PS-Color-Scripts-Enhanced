@@ -1,18 +1,4 @@
-﻿# Converted from: US!DD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg0697/raw/US!DD.ANS
-# Source Revision: archive-sha256:680b16d137638190eae45c3c61ec0a07880ed6f3bbd5387d78ba0c5c22b4bc71
-# Source SHA-256: d474d6fc40341f96daecae7f9eaf3730889046e12addfe4686adcf0d947987d2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US!DD.ANS by Xpozed + Vermin (wjroeit); released in drg0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dEWDLEDRAW
-# SAUCE Author: multiple jIZZMS
-# SAUCE Group: wjroeit
-# SAUCE Date: 19970617
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: dEWDLEDRAW by Xpozed + Vermin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg0697-us-dd
 
 Write-Host '
 

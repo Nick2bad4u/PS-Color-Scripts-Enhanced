@@ -1,13 +1,4 @@
-﻿# Converted from: PC-GLUE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-17/raw/PC-GLUE.ANS
-# Source Revision: archive-sha256:154ac874f13e20433925bb99a4f5e0a4299764bee7ed4d28bdaffd9ad392f554
-# Source SHA-256: 3e1c0190cb79a21449ac354cf8f6171f9631a369a4711523a929f7032c971ff4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-GLUE.ANS by Putrid Carcass (glue-17); released in glue-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: PC-GLUE.ANS by Putrid Carcass | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-17-pc-glue
 
 Write-Host '
 [1m            [0m        [1;30m▀███   ▄[0m   [1;30m█▄▐▓[0m        [1;30m░▌[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: smp-ly.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oops_a06/raw/smp-ly.ans
-# Source Revision: archive-sha256:76d1439495ceaf67a3d22c70624bd54be39b10015d9c690acf840cf8bbe7dbf7
-# Source SHA-256: 33f4de4f55237607791ba12d3bb23ba884484667b87938d2182737cc6e8b2eb8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: smp-ly.ans by Shrimp (oops_a06); released in oops_a06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: smp-ly.ans by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oops-a06-smp-ly
 
 Write-Host '
                  [32m:[0m

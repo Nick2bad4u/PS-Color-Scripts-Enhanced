@@ -1,18 +1,4 @@
-﻿# Converted from: QP-TLE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m-9801/raw/QP-TLE1.ANS
-# Source Revision: archive-sha256:68027b949f7edfef662f12aa514dfc21e6e156e3984f9866a81997534ce6ce87
-# Source SHA-256: a29168a79caecb03c03bfe8c124ec16e8f9a51879533da2fe5bcead6b3c02bbc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QP-TLE1.ANS by quip (lazarus); released in m-9801 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the living end
-# SAUCE Author: quip
-# SAUCE Group: lazarus
-# SAUCE Date: 19971206
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: the living end by quip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m-9801-qp-tle1
 
 Write-Host '
     [1;35m [0;35m░[0;30;45m▓▓[0;35;40m░░[0;30;45m▓[0;1;35;40m░░ [0m [35m     ░░[0;30;45m▓[0;1;35;40m░░░░░[0;35m░░[0;30;45m▓▓[0;35;40m░   ░[0;30;45m▓[0;35;40m░  [0m      [35;40m ▄▄   [0m

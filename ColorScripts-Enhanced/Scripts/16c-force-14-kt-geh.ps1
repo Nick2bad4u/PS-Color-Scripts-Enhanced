@@ -1,18 +1,4 @@
-﻿# Converted from: KT-GEH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-14/raw/KT-GEH.ANS
-# Source Revision: archive-sha256:92f7a11e9d63bbc4309a79352ecdc986660896bb6b7d6c4276c2371f769e4763
-# Source SHA-256: 3c4c607d7bfc10d74805add85b736108507fc919542423cdc1e3bec95c1973f2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KT-GEH.ANS by Kurrupt (READ THE INI FILE); released in force-14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Gehenna
-# SAUCE Author: Kurrupt
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19961010
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Gehenna by Kurrupt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-14-kt-geh
 
 Write-Host '
 [1;30m                      [0m

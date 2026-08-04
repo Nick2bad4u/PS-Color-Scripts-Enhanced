@@ -1,13 +1,4 @@
-﻿# Converted from: PH-RHN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch03/raw/PH-RHN.ANS
-# Source Revision: archive-sha256:faad3368b55fb434ef1208473b1dc06bfce9fe1104a0d093902743c45bd0d2f8
-# Source SHA-256: 9169bb3544c6de9d0aed774103f5e74c97c0afd325eb4654372a7c5cd9edd474
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PH-RHN.ANS by Pash (27inch03); released in 27inch03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: PH-RHN.ANS by Pash | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch03-ph-rhn
 
 Write-Host '
      [33m░[0;30;43m▓▓▓▓▓░░  ▓▓[0;37;40m [0;30;43m▓▓▓▓▓▓[0;33;40m░░[0m        [30;43m▓▓▓[0;33;40m░[0;30;43m▓▓▓▓▓▓[0m    [33;40m░ ░░[0;30;43m▓▓▓▓░░▓▓▓[0;33;40m░[0;30;43m▓▓▓▓██[0;33;40m░[0;30;43m▓▓▓▓▓[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: TT-SI.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-09/raw/TT-SI.ICE
-# Source Revision: archive-sha256:1fcbf4aa1710b0a53349a8ea40276f5225ba911f5e9d163ab7e96a35bbed2cd0
-# Source SHA-256: 703f32c73652b5143335f5dcaa82a8bc757ae00841075d33c7f3b73f7e3be9e9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TT-SI.ICE by Tempus Thales (icepk-09); released in icepk-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 25-73
-# Columns: 1-80
+﻿# Artwork: TT-SI.ICE by Tempus Thales | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-09-tt-si-part02
 
 Write-Host '
                                    [1;30m▀▀[0;1;34m▀▀[0;1;34;44m▀▀▀▀▀[0;1;34;40m▄▄▄▄▄[0m

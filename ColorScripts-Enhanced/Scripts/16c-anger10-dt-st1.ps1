@@ -1,16 +1,4 @@
-﻿# Converted from: DT-ST1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger10/raw/DT-ST1.ANS
-# Source Revision: archive-sha256:a84fd6d21030f26985899f91a956dceb5637b0b2cbc8b90ab0b918890b9e87cd
-# Source SHA-256: e6e2b7d8c66bca7fc5ce8a6b3ede1302840dc58a1219612ef0e052b551760bed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-ST1.ANS by defiant (anger); released in anger10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: shaolin temple
-# SAUCE Author: defiant
-# SAUCE Group: anger
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: shaolin temple by defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger10-dt-st1
 
 Write-Host '
                    ░░                                             [1;33m░░[0m

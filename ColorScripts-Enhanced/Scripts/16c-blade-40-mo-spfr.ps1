@@ -1,18 +1,4 @@
-﻿# Converted from: MO-SPFR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blade-40/raw/MO-SPFR.ANS
-# Source Revision: archive-sha256:36dce442fca1d182e4b74added5979db24d6a61d5306960c3e6982e7319e3076
-# Source SHA-256: 3a65ae93830622f44b6468a71441fe3d96cf5175c34ecb78ac7ab78db614cc6a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MO-SPFR.ANS by magnatOp (blade productions 97); released in blade-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: spfr
-# SAUCE Author: magnatOp
-# SAUCE Group: blade productions 97
-# SAUCE Date: 19970604
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: spfr by magnatOp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blade-40-mo-spfr
 
 Write-Host '
                     [1;30m ▄▄▄▄▄▄▄▄▄[0m  [1;30m ▄▄▄[0m    [1;30m▄[0m▄▄▄      ▄

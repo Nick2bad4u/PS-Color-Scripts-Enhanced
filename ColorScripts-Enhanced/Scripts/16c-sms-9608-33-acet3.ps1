@@ -1,18 +1,4 @@
-﻿# Converted from: 33-ACET3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9608/raw/33-ACET3.ANS
-# Source Revision: archive-sha256:28795cb401df281ef6294233e2af12663ffb83dc390b0bfbadecb49834e6c017
-# Source SHA-256: 3d7b7f58709f94feae3684712b50b4ab69fa1fbe98878673e4188a8607647dcf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-ACET3.ANS by EERIE-KUN (SAMSARA); released in sms-9608 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ACETONE
-# SAUCE Author: EERIE-KUN
-# SAUCE Group: SAMSARA
-# SAUCE Date: 19960731
-# SAUCE Dimensions: 80x44
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: ACETONE by EERIE-KUN | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9608-33-acet3
 
 Write-Host '
                         [1;30m░[0m

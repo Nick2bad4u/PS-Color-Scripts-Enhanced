@@ -1,18 +1,4 @@
-﻿# Converted from: TS-IST1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz03feb/raw/TS-IST1.ANS
-# Source Revision: archive-sha256:d402090580beb42f827386e6ac87eabae48765a9dcac692e22ff2b8314efb7a2
-# Source SHA-256: 4c07d7acd0b2a11446aa2300bfacd0c17b270e67c46fd8fbd6ea1499b6299bad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-IST1.ANS by tr(ansi)ent (l(aza)rus); released in laz03feb and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: (i)star
-# SAUCE Author: tr(ansi)ent
-# SAUCE Group: l(aza)rus
-# SAUCE Date: 19970104
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: (i)star by tr(ansi)ent | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz03feb-ts-ist1
 
 Write-Host '
 [1;30m[0m[1m[0m[1;30m[0m                       [1;37m▄▄[0m     [1;37m▄▄▄▄[0m  [1;37m   [0m    [1;37m    [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: CC-NL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ane-0496/raw/CC-NL.ANS
-# Source Revision: archive-sha256:f286865ff9fc371f84b0e7d928b97f862acd4b551efdc8e9d81b3e0ef899b1ce
-# Source SHA-256: 925a662b36d7f3611342e9ffbc5b9efeba8bf87ee6c68d27efb6679827342d78
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CC-NL.ANS by Clorox Cowboy (.;:Anemia:;.); released in ane-0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Never Land
-# SAUCE Author: Clorox Cowboy
-# SAUCE Group: .;:Anemia:;.
-# SAUCE Date: 19960407
-# SAUCE Dimensions: 80x25
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: Never Land by Clorox Cowboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ane-0496-cc-nl
 
 Write-Host '
    [34m  ▓   ░  ▀▄▄██▓████████████▀█▀▀[0;37m [0;34m▄[0;37m  [0;34m▀▀██████▀▀▀▀▓▄▄▄▄▄▄▄▄[0m   [34m▄▄▄▄▄▄▄▄▄[0m    [34m▄[0m

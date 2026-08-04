@@ -1,18 +1,4 @@
-﻿# Converted from: MD-SANCT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icon1295/raw/MD-SANCT.ANS
-# Source Revision: archive-sha256:29fdf7e44b576f8c227da56dd968c4bc8d9e086fc925c3d92445d241cee51ef7
-# Source SHA-256: cf3fec752a9cecd4533d63fdf9791fe4e8cb1689b090187019d157f77efd2201
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MD-SANCT.ANS by mr self destruct (icon); released in icon1295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: sanction
-# SAUCE Author: mr self destruct
-# SAUCE Group: icon
-# SAUCE Date: 19951203
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: sanction by mr self destruct | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icon1295-md-sanct
 
 Write-Host '
                                  [33m▄▄▄▄▄▄[0;1;33;43m░[0;33m▄▄▄▄[0m

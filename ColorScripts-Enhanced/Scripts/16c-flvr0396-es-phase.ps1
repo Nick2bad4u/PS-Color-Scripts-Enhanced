@@ -1,17 +1,4 @@
-﻿# Converted from: ES-PHASE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flvr0396/raw/ES-PHASE.ANS
-# Source Revision: archive-sha256:13e040cce687d81731bcd3978b1873431410655b513cbb6e2e0003a9016ce440
-# Source SHA-256: 1ae14929640b630c70079eeb506c17d7763a3b29cfc18181929708f3c796ec6a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ES-PHASE.ANS by elusive (flvr0396); released in flvr0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: phase one
-# SAUCE Author: elusive
-# SAUCE Date: 19960203
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: phase one by elusive | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flvr0396-es-phase
 
 Write-Host '
 [1;30m            [0m        [33m▐[0;1;33;43m░▒▒▓▓▓▓▓░░[0;33m▌[0;1;33m [0;1;30m              [0m               [1;30m     [0m [1;30m [0m

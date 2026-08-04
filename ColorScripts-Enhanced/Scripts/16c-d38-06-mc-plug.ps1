@@ -1,18 +1,4 @@
-﻿# Converted from: MC!PLUG!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-06/raw/MC!PLUG!.ANS
-# Source Revision: archive-sha256:4c9f598b864a923147eb394591cb120a43a087e70e3844ab4ff73e06903fa178
-# Source SHA-256: c118c9c9b6f6752f8db83cb52c3c4912c9d38a65baeef648c4abbc5e256dbc72
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MC!PLUG!.ANS by Madcap (D38); released in d38-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: I YAM WOLVERINE!!
-# SAUCE Author: Madcap
-# SAUCE Group: D38
-# SAUCE Date: 93240425
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: I YAM WOLVERINE!! by Madcap | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-06-mc-plug
 
 Write-Host '
 [1;35m[0m[34m[0m[34m [0;1;35m                                                                          [0m

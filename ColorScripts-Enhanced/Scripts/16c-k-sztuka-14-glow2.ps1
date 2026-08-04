@@ -1,15 +1,4 @@
-﻿# Converted from: 14_GLOW2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-sztuka/raw/14_GLOW2.ANS
-# Source Revision: archive-sha256:0ffb741cd09291626fd3edf310ba81b97a9ab070084b42833e9f92283ec8eb39
-# Source SHA-256: e3d70ae298f68211d93456559b4c24c467bea593034954d092705f26b105eafd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 14_GLOW2.ANS by Dieznyik (k-sztuka); released in k-sztuka and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 19990413
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: 14_GLOW2.ANS by Dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-sztuka-14-glow2
 
 Write-Host '
     [30;41m▒[0;31;40m▒[0m    [31;40m▄[0;37;40m [0;31;40m■[0;37;40m [0;31;40m▄▄[0;1;31;41m░░[0;31m▄▄[0;35m▄[0;35;41m▄[0;1;35;45m░▓▄[0;41m▄[0;35;40m▄[0;31;40m▄[0;37;40m  [0;31;40m▄█[0;1;31;41m░[0;31m▄[0;37m  [0;31m▀▀[0m                [31m░[0;30;41m▓[0;31;40m▒[0;30;41m▒[0;31;40m▒[0;30;41m░░[0;31;40m▓██[0;1;31;41m░░▒▒▒▓▓▓█[0;1;31;47m▀▀[0;1;31;41m▄▄[0;1;31;40m▄[0;31m▄ [0m

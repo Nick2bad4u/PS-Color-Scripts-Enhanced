@@ -1,18 +1,4 @@
-﻿# Converted from: M-LB8.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-02/raw/M-LB8.ANS
-# Source Revision: archive-sha256:3fd9f194d865cfc24c90bdf11a27528d8d82a8ba9c376ebed567183a2f95a9f3
-# Source SHA-256: a1b3e7697084adcbce3dc92da435ab9154500c77501a2a76d4f52aaafe5d470f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M-LB8.ANS by milkmang (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: lunchbox (8) 24liner #3
-# SAUCE Author: milkmang
-# SAUCE Group: nerp
-# SAUCE Date: 19971102
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: lunchbox (8) 24liner #3 by milkmang | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-02-m-lb8
 
 Write-Host '
 [32m█[0;1;30;42m░▓[0;1;30;40m▌[0m [34m░▌[0m   [34m▄▓▓▀ ▄▐███▄[0;37m [0;34m▐▀[0;37m  [0;34m▄▄[0;36;44m▄▓▓▄[0;34;40m█▄[0m   [37;40m [0;1;30;40m▀[0;1;30;42m█▓░[0;32m███▌[0;1;30m▐[0;1;30;42m░[0;32m████████████████[0;30;42m  [0;1;32;42mmilkman[0;30;42m([0;1;32;42mnerp[0;30;42m)[0;32;40m [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: WATCHING.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ete1-93/raw/WATCHING.ANS
-# Source Revision: archive-sha256:9bd355aeb4b2f27e4ea15cae457f81df5ba19e5ff3b12a289a6946d32240a289
-# Source SHA-256: 96f719b6b86105bd8e0e11bbecc72ae772348015530a43a103305490d88ff39f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WATCHING.ANS by Maestro (ete1-93); released in ete1-93 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: WATCHING.ANS by Maestro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ete1-93-watching
 
 Write-Host '
 

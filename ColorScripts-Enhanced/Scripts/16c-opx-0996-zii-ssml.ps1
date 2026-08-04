@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-SSML.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0996/raw/ZII-SSML.ANS
-# Source Revision: archive-sha256:9d2c16f2326b1b98168bc790edb6aadb0d52c5f6484964980e3ad8168b0cc77f
-# Source SHA-256: 569507d720a5b987852f670c4add715f7dea68fb5792da96c57ee91119db5fee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-SSML.ANS by Zeus II (Opium); released in opx-0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: "Silent Scream" login
-# SAUCE Author: Zeus II
-# SAUCE Group: Opium
-# SAUCE Date: 19960830
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: "Silent Scream" login by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0996-zii-ssml
 
 Write-Host '
       [1;36m▄[0;1;36;47m▒[0m■▀ [33m▄▄[0;37m ▄■▄[0;1;30;47m░░[0m ▄[1;30;47m░░[0m▀█▄[1;47m░▒▓▓▒░░[0m█[1;47m░[0m▀▀█[1;47m░░[0m█[1;30;47m░[0m██▀

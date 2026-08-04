@@ -1,18 +1,4 @@
-﻿# Converted from: SR-PMTN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0696/raw/SR-PMTN1.ANS
-# Source Revision: archive-sha256:812b4b6a142b76b92307dc090cdf58b49035a2b9097d1dc0a43da5e4fd3f4f2d
-# Source SHA-256: 32044ee707b40b3bb2df3fa85c35d68f954c65fef65ce59eea201de3a3a8ed75
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SR-PMTN1.ANS by Silver Rat (fire); released in fire0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Cactus, Comets and Livestock!
-# SAUCE Author: Silver Rat
-# SAUCE Group: fire
-# SAUCE Date: 19960604
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Cactus, Comets and Livestock! by Silver Rat | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0696-sr-pmtn1
 
 Write-Host '
       [1m.[0m                  [1m▄[0m                              [1m·[0m

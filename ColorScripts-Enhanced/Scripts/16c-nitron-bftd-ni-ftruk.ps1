@@ -1,19 +1,4 @@
-﻿# Converted from: NI-FTRUK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nitron-bftd/raw/NI-FTRUK.ANS
-# Source Revision: archive-sha256:4c6df16f27c39462bd5da950772e9d859505d53ed6f2727c72aefdd2668e5e13
-# Source SHA-256: d2932d43387b1e96987cc52bb891e84aed67e7c1d31730d08c3527ffbb7df81a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-FTRUK.ANS by nitron (nitron-bftd); released in nitron-bftd and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Freedom Truck
-# SAUCE Author: nitron
-# SAUCE Date: 20220323
-# SAUCE Dimensions: 78x50
-# SAUCE Font: IBM VGA
-# SAUCE Comments: So I live where this happened and yea, it was on my mind..
-# Lines: 1-50
-# Columns: 1-78
+﻿# Artwork: Freedom Truck by nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nitron-bftd-ni-ftruk
 
 Write-Host '
 [1m▀ ▀▀[0m  [1m▀▀▀[0m▀▀[1m▀[0m▀▀▀▀▀▀▀▀▀▀▀▀▀[1m  [0m▀▀▀▀▀▀[1m [0m▀[1m       [0m▀[1m [0m▀▀[1m    [0m▀▀▀▀[1m▀[0m▀▀▀[1m▀▀▀▀[0m▀▀[1m▀▀▀[0m  ▀▀▀ [1;30m▀▀▀[0m [1;30m▀[0m

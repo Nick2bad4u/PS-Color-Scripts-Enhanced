@@ -1,18 +1,4 @@
-﻿# Converted from: US-OML3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m-9802/raw/US-OML3.ANS
-# Source Revision: archive-sha256:b77081548bd69d77dfa44ebb7c4a66ac6a6977867bc0f2350868e9616f23eb59
-# Source SHA-256: 7b2576c88929afc96e48f9e7093c17c8826f0ea6faa3a4e86ea58ce70ed3354f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-OML3.ANS by Sarcasm + Quip (mistigris); released in m-9802 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: omlette
-# SAUCE Author: sarcasm / quip
-# SAUCE Group: mistigris
-# SAUCE Date: 19980131
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: omlette by Sarcasm + Quip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m-9802-us-oml3
 
 Write-Host '
 [34m▒▒░[0;37m▄▄[0;1;37;47m▄▄██[0;1;37;40m▓▓[0m█▒▒                               [31m▄▄▄▄[0;31;41m  [0;31;40m███▄▄▄[0m

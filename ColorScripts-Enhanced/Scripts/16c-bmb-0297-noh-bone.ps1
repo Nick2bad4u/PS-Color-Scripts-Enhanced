@@ -1,17 +1,4 @@
-﻿# Converted from: NOH-BONE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0297/raw/NOH-BONE.ANS
-# Source Revision: archive-sha256:be68381e2a6eb66da2c3748632738b57ddbb1f82deb6e57bebe558461357279b
-# Source SHA-256: 18f0e675a5a78178479de262f903205b03661dce746ec4bbe348150a558a2da1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-BONE.ANS by nOah! (Bamboosh); released in bmb-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Bone
-# SAUCE Author: nOah!
-# SAUCE Group: Bamboosh
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: Bone by nOah! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0297-noh-bone
 
 Write-Host '
                                                        [35m    [0m

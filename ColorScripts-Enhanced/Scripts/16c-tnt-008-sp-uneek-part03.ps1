@@ -1,13 +1,4 @@
-﻿# Converted from: sp!-uneek.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tnt-008/raw/sp!-uneek.ans
-# Source Revision: archive-sha256:6e0df4e5bc11386547156c58fbbd5e741464a783c809ccd13a3e11f04a37cc0a
-# Source SHA-256: 47b963c449e034eb926f982017e8a337347bbdedf38a6ba20ae32fc5a5f2c917
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sp!-uneek.ans by Skypager (tnt-008); released in tnt-008 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 90-133
-# Columns: 1-80
+﻿# Artwork: sp!-uneek.ans by Skypager | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tnt-008-sp-uneek-part03
 
 Write-Host '
 [1;33m█▌[0m  [1m███[0m [1;30m [0m   [1;30m██[0m  [1;31m▐[0;1;31;41m█[0;1;31;40m▄[0m  [1;30m▀█[0m   [1;35m▄[0;1;35;45m▀▀[0;35m▀[0;37m [0;1;35;45m▌▀[0m   [1;30m▌[0;1;37m  █  [0;1;30m [0m [1m▐[0m   [33m█[0;1;33;43m█[0;1;33;40m▌[0;34m [0;1;34m▄▌[0m   ▐    [1;30m ▐▌[0m   [1;35m░▒▓█[0;1;35;45m░░[0;1;31;40m█▒[0;1;31;45m █[0m

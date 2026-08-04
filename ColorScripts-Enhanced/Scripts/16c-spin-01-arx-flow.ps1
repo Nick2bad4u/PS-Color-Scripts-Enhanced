@@ -1,17 +1,4 @@
-﻿# Converted from: ARX_FLOW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spin-01/raw/ARX_FLOW.ANS
-# Source Revision: archive-sha256:ba78f741c8c48f614ecb0f3e5f78207f43cce4239d36fe3e606be09c2119943e
-# Source SHA-256: a2af1f4f5dea96c59e290a63a881b534302f6538248e3a90c17a3e51f83b2b4c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARX_FLOW.ANS by ARX (SPIN); released in spin-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: ARX
-# SAUCE Group: SPIN
-# SAUCE Date: 19980719
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: ARX_FLOW.ANS by ARX | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spin-01-arx-flow
 
 Write-Host '
 [1m$$$$$$$$$$$555%%%[0m     [1m%%%%;;;;555$$$$$IIIii[0m

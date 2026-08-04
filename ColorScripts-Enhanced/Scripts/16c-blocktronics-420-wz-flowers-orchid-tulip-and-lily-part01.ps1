@@ -1,19 +1,4 @@
-﻿# Converted from: WZ - Flowers (Orchid, tulip and lily).ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-420/raw/WZ%20-%20Flowers%20(Orchid%2C%20tulip%20and%20lily).ans
-# Source Revision: archive-sha256:32206a6b687af3a407a7929bd0ae7f49a2a5a96e7853d9c98b3020df27e9b06d
-# Source SHA-256: 94a552cf0f9a4eaa3cf9790eab59ebd0f74dab458a857af4549032dbee5984d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WZ - Flowers (Orchid, tulip and lily).ans by Whazzit (Blocktronics); released in blocktronics-420 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Orchid, tulip and lily
-# SAUCE Author: Whazzit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20170525
-# SAUCE Dimensions: 120x80
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-120
+﻿# Artwork: Orchid, tulip and lily by Whazzit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-420-wz-flowers-orchid-tulip-and-lily-part01
 
 Write-Host '
 [1;37;107m████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████[0m

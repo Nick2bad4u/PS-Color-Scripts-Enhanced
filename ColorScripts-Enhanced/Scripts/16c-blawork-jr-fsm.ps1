@@ -1,18 +1,4 @@
-﻿# Converted from: JR_FSM!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blawork/raw/JR_FSM!.ANS
-# Source Revision: raw-sha256:1311e370fda72928823cd8f0e082458a972e7d39487ad3206ff7e564c413c56a
-# Source SHA-256: 1311e370fda72928823cd8f0e082458a972e7d39487ad3206ff7e564c413c56a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_FSM!.ANS by jerusalem (boil); released in blawork and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: FS:: mainmenu #1
-# SAUCE Author: jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19971001
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: FS:: mainmenu #1 by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blawork-jr-fsm
 
 Write-Host '
 [1;46m██[0;36;44m█[0;1;36;46m▐[0;36;44m▌[0;34;40m▐[0;1;36;46m▐█[0;34m▌[0;36;44m▐[0;34;40m ░░  [0m    [1;34;44m▐[0;1;34;47m▒▓[0;1;34;44m█[0;34m▌▀[0;1;34;44m▀▌[0;34m ▐[0;1;34;44m█[0;1;34;47m▒▒[0;1;34;44m▄[0;34m▄[0m   [34m▐▒[0;1;34;44m██[0;1;34;47m▓▓▓[0;1;34;44m█████▀[0;34m▀ [0m                      [35m░░░░░░[0m

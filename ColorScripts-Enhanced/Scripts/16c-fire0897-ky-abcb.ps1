@@ -1,18 +1,4 @@
-﻿# Converted from: KY-ABCB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0897/raw/KY-ABCB.ANS
-# Source Revision: archive-sha256:2f847e13ac44c4a612ca9588cf01055509cccf841191e379aa1210361ce47235
-# Source SHA-256: 33e27e127367b73143721337729d6af8839b9ca50ced23144d2f6cc1384621db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KY-ABCB.ANS by kyo (fire); released in fire0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: abcb
-# SAUCE Author: kyo
-# SAUCE Group: fire
-# SAUCE Date: 19970907
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: abcb by kyo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0897-ky-abcb
 
 Write-Host '
  [36m█████[0;1;34;46m  [0;36m▀▐█████▌█[0;1;36;46m░▒░░[0;1;34;40m░[0;36m██[0;1;34;46m▐[0;1;34;40m [0;34m [0;33m▄██▄▄[0;34m [0;1;34m▐█[0;1;34;46m▓░[0;36m██[0;1;34;46m█▄[0;36m▀██[0;1;34;46m░[0;36m██[0;1;34;46m▄[0;1;36;46m░░[0;1;34;46m▄[0;1;34;40m▌[0;1;37;40m  [0m                       [1m   [0m

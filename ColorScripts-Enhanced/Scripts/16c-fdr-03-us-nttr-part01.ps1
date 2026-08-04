@@ -1,13 +1,4 @@
-﻿# Converted from: US-NTTR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fdr-03/raw/US-NTTR.ANS
-# Source Revision: archive-sha256:cac34a6b7c47c076c878193a4da01da4f38b7c8e471d7a9bf4b3a7850655fb5e
-# Source SHA-256: dacb29183b228c668309db9ef0d61ed040026389f8d9746881018fbd10747ad9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-NTTR.ANS by Cleaner + Sylvao (fdr-03); released in fdr-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: US-NTTR.ANS by Cleaner + Sylvao | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fdr-03-us-nttr-part01
 
 Write-Host '
           .

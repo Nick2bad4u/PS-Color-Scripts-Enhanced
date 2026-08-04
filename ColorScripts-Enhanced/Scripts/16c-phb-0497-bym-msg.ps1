@@ -1,18 +1,4 @@
-﻿# Converted from: BYM%MSG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phb-0497/raw/BYM%25MSG.ANS
-# Source Revision: archive-sha256:85681ee98c1ba1a2744730faa07d763080600c62bb25593bcf45c740268afee1
-# Source SHA-256: 40feb47b9feab49582b7581920f3905d20f6562dd93679dcb79dbe2b88f52d8e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM%MSG.ANS by big y3llow man (pHOBIA@!); released in phb-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: msg menu font@!.
-# SAUCE Author: big y3llow man
-# SAUCE Group: pHOBIA@!
-# SAUCE Date: 19970324
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: msg menu font@!. by big y3llow man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phb-0497-bym-msg
 
 Write-Host '
 

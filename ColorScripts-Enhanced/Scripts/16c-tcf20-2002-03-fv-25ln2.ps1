@@ -1,18 +1,4 @@
-﻿# Converted from: 2002 - 03 - FV-25LN2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tcf20/raw/2002%20-%2003%20-%20FV-25LN2.ANS
-# Source Revision: archive-sha256:af8609219fccc484668fb405a7f1d45efb8c574501a461c5c1b47d87a12921ce
-# Source SHA-256: 8b02df6851588b0603b4d925441527acd2d042596f4da0756702d2f853acae7c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2002 - 03 - FV-25LN2.ANS by The Creep Fever (Revival); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fuck Monkeys!
-# SAUCE Author: The Creep Fever
-# SAUCE Group: Revival
-# SAUCE Date: 20020408
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Fuck Monkeys! by The Creep Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tcf20-2002-03-fv-25ln2
 
 Write-Host '
 [34m▄ ▀▀[0;30;44m██[0;34;40m  ▀▀▀[0;30;44m███[0;34;40m [0;30;44m█[0;34;40m  [0;30;44m█[0;34;40m░[0;30;44m▓[0;34;40m [0;37;40m [0;33;40m░[0;1;31;40m▓█[0;1;31;47m ▀[0;1;31;40m█[0;1;31;43m  [0;33m▀[0;1;31;43m▀[0;1;31;47m▄▓[0;1;31;40m█[0;1;31;43m▌[0;33m▀[0;1;31m▓█[0;1;31;47m███▓▓▄[0;1;31;40m██[0;1;31;43m▀[0;33m▀[0;37m   [0;33m▄▄▄▄▄▄▄▄[0;37m [0;33m▀▀[0;1;31m▀▀▀[0;1;31;43m▀▀[0;1;31;40m████[0;1;31;43m▄[0;1;31;40m▄[0;33m▄▀[0;1;31m███[0m

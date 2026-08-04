@@ -1,17 +1,4 @@
-﻿# Converted from: M!-D38A.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-02/raw/M!-D38A.ANS
-# Source Revision: archive-sha256:4c203a22a273c62e868cc7246cefafb413002203c4d66bfee072b470754a2d40
-# Source SHA-256: 03cb2b06118c0339b58914c43181188226e92af43e8e438a6e8924290b19cc4a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M!-D38A.ANS by Myth (d38-02); released in d38-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Department38 (Messy)
-# SAUCE Author: Myth
-# SAUCE Date: 19970112
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Department38 (Messy) by Myth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-02-m-d38a
 
 Write-Host '
  [1;30m▄▄▒                [0m                             [1;30m▓[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PR-LIVIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-16/raw/PR-LIVIN.ANS
-# Source Revision: archive-sha256:c00416c7ddf398f58bbf4e903903b01262636f611404ac6c0f665b0399f0a726
-# Source SHA-256: 0d1feeb025a48ea526f1f4f01a90a1b5f58b6f230afe0f7036f852a7b38d6459
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR-LIVIN.ANS by president (ecolove); released in eco-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: grandma phoebe's living room
-# SAUCE Author: president
-# SAUCE Group: ecolove
-# SAUCE Date: 19990701
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: grandma phoebe's living room by president | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-16-pr-livin
 
 Write-Host '
 [36m▀▀▀▀▀▀▀▀[0;1;30;46m [0;1;36;46m▀░[0;36m▀▀███[0;1;36;46m▄[0;36m███████████[0;1;36;46m▄ ▄▄▄[0;36m████▀▀▀▀▀▀▀▀▀█[0;1;36;46m  ▄▄▄▄░░[0;36m██[0;1;36;46m   [0;36m██▒[0;1;30;46m [0;36m█[0;1;36;46m▄ ▄[0;36m██[0;1;36;46m▄[0;36m█▀▀ [0;31m▄[0;1;31m▄[0m▄[1;31m▄[0;31m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-KBS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-666/raw/AVG-KBS1.ANS
-# Source Revision: archive-sha256:d11115b3587e62c1c707f1a564cfc3a42ffe40bb5da491c5f6813d8a56931618
-# Source SHA-256: ecab436fc0505c978c5d51bff02b9ba30912c14573a3c07c881f4495ac9c5e5d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-KBS1.ANS by the avenging angel (youzd); released in used-666 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: kibosh mr wrong style..
-# SAUCE Author: the avenging angel
-# SAUCE Group: youzd
-# SAUCE Date: 20000730
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: kibosh mr wrong style.. by the avenging angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-666-avg-kbs1
 
 Write-Host '
 [1m[0m

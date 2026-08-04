@@ -1,13 +1,4 @@
-﻿# Converted from: PN!LOGIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fos-0396/raw/PN!LOGIN.ANS
-# Source Revision: archive-sha256:0fb35a03818408d73443becf9bac665063dbd20f02064de523f6c0c7d13b6da1
-# Source SHA-256: 232c633b194cd1e9e1df35e179fae7a157db866a4cdd746e4a3221778c1941bb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PN!LOGIN.ANS by Phyn (fos-0396); released in fos-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: PN!LOGIN.ANS by Phyn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fos-0396-pn-login
 
 Write-Host '
               [31m▄▀▄█▀▀█[0;1;30;41m░▓▓▒░[0;31m█ █[0;1;30;41m░▒▓▓▓▓▒▓▓▓▒[0;31m▓[0;1;30;41m▒▓▓▓▓▒░[0;31m█ █[0;1;30;41m░▒▒▒▒[0;31m█▀▀█▄▀▄[0m

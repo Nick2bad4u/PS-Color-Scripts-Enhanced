@@ -1,19 +1,4 @@
-﻿# Converted from: FILE_ID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0526/raw/FILE_ID.ANS
-# Source Revision: archive-sha256:96e9c14a0862fcfb7b203f3d94f85e28654461fdbf12521de185a12d5fb418bb
-# Source SHA-256: d8d16ba8c81bb3d24b633c37ba86f9f52c4d8e36bca19141ea64df553813ad8e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FILE_ID.ANS by Cthulu (Mistigris); released in mist0526 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: MIST0526 FILE_ID.DIZ
-# SAUCE Author: Cthulu
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260622
-# SAUCE Dimensions: 40x25
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-40
+﻿# Artwork: MIST0526 FILE_ID.DIZ by Cthulu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0526-file-id
 
 Write-Host '
  [1;42m     a[0;32m█[0;1;37;42mn[0;32m█[0;1;37;42ms[0;32m█[0;1;37;42mi[0;32m█[0;37;42mb[0;32;40m█[0;37;42ml[0;1;37;42m [0;42me[0;1;42m    a r t [0;42mi[0;1;42m [0;42mb[0;1;42m [0;42ml[0;1;42m [0;42me[0;1;42m   [0m

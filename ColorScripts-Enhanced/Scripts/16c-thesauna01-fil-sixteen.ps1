@@ -1,19 +1,4 @@
-﻿# Converted from: fil-sixteen.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna01/raw/fil-sixteen.ans
-# Source Revision: archive-sha256:70f712dbf565de1ceb0f2b7020b54aa443621235a47b082b92e24e13342b0672
-# Source SHA-256: ad8a1b6af07e57f76a3171a0d1d79c17445a7204e76ab15ab67e45b6f407fcea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: fil-sixteen.ans by filth (54UN4); released in thesauna01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: 16 colors promo
-# SAUCE Author: filth
-# SAUCE Group: 54UN4
-# SAUCE Date: 20190716
-# SAUCE Dimensions: 80x27
-# SAUCE Font: IBM VGA
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: 16 colors promo by filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna01-fil-sixteen
 
 Write-Host '
                                                                   [34;40m▄[0;32;40m▄[0;36;40m▄[0;31;40m▄[0;33;40m▄[0;37;40m▄[0;1;30;40m▄[0;1;34;40m▄[0;1;32;40m▄[0;1;36;40m▄[0;1;31;40m▄[0;1;35;40m▄[0;1;33;40m▄[0;1;37;40m▄[0m

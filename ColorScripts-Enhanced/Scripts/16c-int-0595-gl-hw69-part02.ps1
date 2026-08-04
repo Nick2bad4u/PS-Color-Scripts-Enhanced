@@ -1,18 +1,4 @@
-﻿# Converted from: GL-HW69.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/int-0595/raw/GL-HW69.ANS
-# Source Revision: archive-sha256:e22d3952ca70c64f879897fb904ffbbf60c66bd0e40f7e119d0e6bdf3808e773
-# Source SHA-256: e1cb8b0dd6d6cbc0f829397ae4f697de27b3af103de0c5b7c3291f08625400c0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GL-HW69.ANS by Grimlock (Integrity); released in int-0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Highway 69
-# SAUCE Author: Grimlock
-# SAUCE Group: Integrity
-# SAUCE Date: 19950430
-# SAUCE Dimensions: 80x25
-# Lines: 49-92
-# Columns: 1-80
+﻿# Artwork: Highway 69 by Grimlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-int-0595-gl-hw69-part02
 
 Write-Host '
  [31m▀[0m [31m█[0;1;30;41m░░[0m  [31m █▓[0m    [37m  [0m [37m [0;1;37m [0m   [1m [0m  [31m▀▓▄▄[0;1;31m▀▀[0;1;31;43m▓▓[0;1;31;40m▀[0m [33m▌█[0;1;31;43m▒▓[0;1;31;40m▀[0;33m▄[0;1;31;43m░░[0;31m▀▓[0;1;31;41m░[0;31m▀▀[0;37m   [0m [1;37m▄░[0m▄▄    [31m ▓█[0;1;31;41m░[0;31m▀▄▓[0m [31m ▄ ▀■ ▀▄▓▄░[0m

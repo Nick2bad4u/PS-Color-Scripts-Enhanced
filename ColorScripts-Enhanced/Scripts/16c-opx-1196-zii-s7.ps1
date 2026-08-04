@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-!S7!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-1196/raw/ZII-!S7!.ANS
-# Source Revision: archive-sha256:6ef6d0fc5e98023ae397158b861ea8c1f97c8bf9ea116a4660fdbca6650c96ff
-# Source SHA-256: 04e2da41b1ffd0e3f18bbbab0828f0ae7c2caefb752ff41bd659d7b885b9995c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-!S7!.ANS by Zeus II (Opium); released in opx-1196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Sector 7 - Opium WHQ
-# SAUCE Author: Zeus II
-# SAUCE Group: Opium
-# SAUCE Date: 19961005
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Sector 7 - Opium WHQ by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-1196-zii-s7
 
 Write-Host '
                                                             [31m ▄▄█[0;1;31;41m▒▓[0;1;31;40m▄[0;31m▄▄▄[0m

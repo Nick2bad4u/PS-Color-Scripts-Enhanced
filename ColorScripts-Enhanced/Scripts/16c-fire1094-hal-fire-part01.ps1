@@ -1,18 +1,4 @@
-﻿# Converted from: HAL-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1094/raw/HAL-FIRE.ANS
-# Source Revision: archive-sha256:06037b6172e9822784909b4e7dbd7d3a5e13ef98ca83a73f9d2e3796e3b6962d
-# Source SHA-256: 7492dabbc2b1bba254905d6388949f8fb9be5dcd54006ee86262b91329e73332
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HAL-FIRE.ANS by Halaster (FireSS); released in fire1094 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Fire Promotion 1
-# SAUCE Author: Halaster
-# SAUCE Group: FireSS
-# SAUCE Date: 19941010
-# SAUCE Dimensions: 80x94
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: Fire Promotion 1 by Halaster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1094-hal-fire-part01
 
 Write-Host '
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

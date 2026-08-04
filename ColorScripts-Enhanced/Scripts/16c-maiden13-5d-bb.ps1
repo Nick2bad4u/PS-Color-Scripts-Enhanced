@@ -1,17 +1,4 @@
-﻿# Converted from: 5D-BB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden13/raw/5D-BB.ANS
-# Source Revision: archive-sha256:70e231ea8653cd02d349f122b1a39f57757322f3913b0c8f20698b54c8795e68
-# Source SHA-256: 1803d4c0a95e4c6eb2f5ce14f66cf83f1167ca8038e3d999f8c865a9528d5677
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5D-BB.ANS by sl4yer dreams (m4iden); released in maiden13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: paparazzis never rest
-# SAUCE Author: sl4yer dreams
-# SAUCE Group: m4iden
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: paparazzis never rest by sl4yer dreams | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden13-5d-bb
 
 Write-Host '
            ▄[1;34m    [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: CD-HF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mga-0296/raw/CD-HF.ANS
-# Source Revision: archive-sha256:5d09e58aa7a772a5681461694f4744990a94bc1f6abf6a0c2008906558ad1a53
-# Source SHA-256: cdfe6f44de22b1266e527e1b2e601ca38035369dc8671e3a844aaaf8c9083b1d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CD-HF.ANS by Creaping Death (mga-0296); released in mga-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: CD-HF.ANS by Creaping Death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mga-0296-cd-hf
 
 Write-Host '
 [36m▄▄▄▄▄▄ ▄▄▄   [0;37m▄[0;1;30;47m░[0m▄[1m [0;36m▄  [0;1;37m [0;36m ▄▄▄▄ [0;1;37m  [0;36m▄  ▄ ▄▄[0;34m [0;36m▄▄▄▄▄ [0;34m [0;36m   ▄ ▄▄▄ ▄▄[0;37m [0;36m▄[0;37m [0;35m░▒[0;1;35;45m░[0;35m▀[0;36m▄ ▄▄[0;37m [0;35m░▒[0;1;35;45m░[0;35m▀▀░▒▄[0;36m ▄ ▄▄[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: FD-DAMAG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_10/raw/FD-DAMAG.ANS
-# Source Revision: archive-sha256:21def41607bc8f426e6b33cadf0099935014e2da13ee2908faa3303a70532ffa
-# Source SHA-256: 712c782b87bc237943ca7c4c5fa158d140e8f34d87235fb20bdc9966428af783
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FD-DAMAG.ANS by flood (dox_10); released in dox_10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: damage logo
-# SAUCE Author: flood
-# SAUCE Date: 19970607
-# SAUCE Dimensions: 80x15
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: damage logo by flood | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-10-fd-damag
 
 Write-Host '
 [1;35;45m▓▓▓▓▓▓▓▓▓[0;1;35;40m███[0;1;35;45m▓▓▓▓▓[0;1;35;40m███[0;1;35;45m▓[0;1;35;40m█[0;1;35;45m▓[0;1;35;40m██████████[0;1;35;45m████████████████████████████████▓▓▀▀▀▀▀▀▀▀[0;35m█[0;1;35;45m▀[0;35m█[0;1;35;45m▀[0m

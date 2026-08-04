@@ -1,18 +1,4 @@
-﻿# Converted from: AS-MMC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-25/raw/AS-MMC.ANS
-# Source Revision: archive-sha256:155c63f4ebfe557601b96fe32b39c51bbf83ff7df6b7135512d6b4d3f17d3905
-# Source SHA-256: 1f75020d1b9f7e8b45c039e49964570116a74ad1a7984b279d916db1703b5e10
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AS-MMC.ANS by as-d (secular); released in sclr-25 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: mmimic
-# SAUCE Author: as-d
-# SAUCE Group: secular
-# SAUCE Date: 20020113
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: mmimic by as-d | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-25-as-mmc
 
 Write-Host '
                                 ░

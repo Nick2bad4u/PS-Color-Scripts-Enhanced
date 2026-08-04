@@ -1,18 +1,4 @@
-﻿# Converted from: HAL-REB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0496/raw/HAL-REB.ANS
-# Source Revision: archive-sha256:50df8163143d8d441a5fa61622ccb7c33b46a1217f5b4d1eaeeea3d3f2226464
-# Source SHA-256: 8b159ed13ba6ba853f3a693789b6b863617cfdc0bcfde139e916fc59bee1ac56
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HAL-REB.ANS by Halaster (fire); released in fire0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Rebellion
-# SAUCE Author: Halaster
-# SAUCE Group: fire
-# SAUCE Date: 19960401
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: The Rebellion by Halaster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0496-hal-reb
 
 Write-Host '
 [34m▄██[0;34;44m▓███▓▓██▓▓██▓█▓[0;34;40m█[0;34;44m▓█[0;34;40m█[0;34;44m▓[0;34;40m████▀▀[0;32;40m▄▄[0;34;40m▀▓ [0;33;40m▄[0;34;40m▀█████[0;34;44m▓[0;34;40m██[0;34;44m▓░▓[0;34;40m█[0;34;44m█[0;34;40m██████[0;34;44m▓▓█[0;34;40m████[0;34;44m▓[0;34;40m██[0;34;44m▓▓████▓▓░▓[0;34;40m█[0;34;44m▓[0;34;40m██▄[0m

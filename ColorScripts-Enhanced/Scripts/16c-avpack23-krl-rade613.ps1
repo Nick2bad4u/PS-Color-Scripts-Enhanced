@@ -1,19 +1,4 @@
-﻿# Converted from: krl-rade613.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack23/raw/krl-rade613.ans
-# Source Revision: archive-sha256:4cb075969fd39c69f76e28ad3f6f8f84bc5947f80ea16c9bad568d6b0e16803d
-# Source SHA-256: 28b1b7b4b298f620346c18de53e9916dc7ed0c53f719c712fe4c33125c3bf4a3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: krl-rade613.ans by Krl (av); released in avpack23 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: RADE613
-# SAUCE Author: Krl
-# SAUCE Group: av
-# SAUCE Date: 20231122
-# SAUCE Dimensions: 80x30
-# SAUCE Font: IBM VGA
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: RADE613 by Krl | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack23-krl-rade613
 
 Write-Host '
 ██████████████████████████[33;47m░[0;33;44m░[0;33;40m███[0;33;47m░[0;37;40m████████████████████████████████████████████████[0m

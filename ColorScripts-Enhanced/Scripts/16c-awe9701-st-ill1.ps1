@@ -1,17 +1,4 @@
-﻿# Converted from: ST-ILL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9701/raw/ST-ILL1.ANS
-# Source Revision: archive-sha256:d9ee1d58a6a06d01c9f7c4f38cd8e5ab0dc2d9bdfc6b97ab0ed0cc65c400a40c
-# Source SHA-256: dd2f2d97a261efa368c176f0a061c96e66049762cec2b939613640cd6e016563
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-ILL1.ANS by Splatt (AWE Lettering); released in awe9701 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Illness
-# SAUCE Author: Splatt
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Illness by Splatt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9701-st-ill1
 
 Write-Host '
 

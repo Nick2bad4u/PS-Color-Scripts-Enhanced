@@ -1,13 +1,4 @@
-﻿# Converted from: NOH-FORC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0497/raw/NOH-FORC.ANS
-# Source Revision: archive-sha256:0a24528ad1b8350dc6275ed84884990aa181682392c532082994d5872ceb5801
-# Source SHA-256: f70522fc8a9aaa16584540caa40a915d7c8834c4cbedd4e2914be0cc9ec1f7ff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-FORC.ANS by Noah (fsn-0497); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: NOH-FORC.ANS by Noah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0497-noh-forc
 
 Write-Host '
                                                                         [35m [0m

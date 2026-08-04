@@ -1,13 +1,4 @@
-﻿# Converted from: us-bm00.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense26/raw/us-bm00.ans
-# Source Revision: archive-sha256:e46343ba88e05768d5d68d509f555dd871b83e4e31e36b22b3adbddb03ccaba6
-# Source SHA-256: ca4843726a650aa5d81986f40f52ae04f51896283a9ea78e1f85e1d13a602be3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-bm00.ans by Aesthetic (sense26); released in sense26 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: us-bm00.ans by Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense26-us-bm00
 
 Write-Host '
                                  [32m [0;37m   [0;32m  [0;37m   [0;32m [0m                     [32m  [0m     [32m▄[0m

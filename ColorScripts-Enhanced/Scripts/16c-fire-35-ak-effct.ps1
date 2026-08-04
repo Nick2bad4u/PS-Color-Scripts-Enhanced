@@ -1,19 +1,4 @@
-﻿# Converted from: AK-EFFCT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-35/raw/AK-EFFCT.ANS
-# Source Revision: archive-sha256:c366a38306f48b13ede280377c5f8ef243fdab7e7890ac3e053ec3ccbc5d901a
-# Source SHA-256: 7d6025b2decae85c46261f581c313cba02462d18eca70117e5ed611a9b26a0c5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-EFFCT.ANS by abstrakt (fire); released in fire-35 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: sleep
-# SAUCE Author: abstrakt
-# SAUCE Group: fire
-# SAUCE Date: 20221119
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: sleep by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-35-ak-effct
 
 Write-Host '
 [36;40m  ┌ [0;1;33;40m  [0;36m  ┐[0;1;33m       [0;36m  ┌[0;1;33m  [0;36m  [0;1;33m ┐  [0;34m   [0;1;30m [0m    [1;30m      ┐ [0m              [1;30m   └    [0m    [1;30m  [0m   [1;30m   [0;32m   [0m

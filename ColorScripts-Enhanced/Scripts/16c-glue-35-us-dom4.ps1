@@ -1,16 +1,4 @@
-﻿# Converted from: US-DOM4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-35/raw/US-DOM4.ANS
-# Source Revision: archive-sha256:bc92204ac679e4231b1db133abb983c42252574e71b83e8773e063911f5f3ee6
-# Source SHA-256: 628b697263c35d4f37e1fa104315b406b8c5e957031d7640d4bf50d5326b6912
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DOM4.ANS by Grymmjack + Liquid (GLUE); released in glue-35 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the dominion
-# SAUCE Author: liquid(lQ)&grymmjack
-# SAUCE Group: GLUE
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: the dominion by Grymmjack + Liquid | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-35-us-dom4
 
 Write-Host '
                                         [1;30m▄▄▄[0m         [1;37m  ▄ [0m▄▄

@@ -1,18 +1,4 @@
-﻿# Converted from: CR-NCT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge07/raw/CR-NCT.ANS
-# Source Revision: archive-sha256:115e0675d139221ae82af57d75adc6a5c40187386a2e1c7aedd5a13098a703d2
-# Source SHA-256: 82e697b3c484a41a0fac0b2c445bb3629522aca96afc3e55b28c9241a1a97f3b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CR-NCT.ANS by Creator + Hellspawn (avenge/tribe); released in avenge07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: terbium
-# SAUCE Author: _666
-# SAUCE Group: avenge/tribe
-# SAUCE Date: 19980722
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: terbium by Creator + Hellspawn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge07-cr-nct
 
 Write-Host '
 [1m                                                  [0m▄▄▄[1;47m░[0m▄▄

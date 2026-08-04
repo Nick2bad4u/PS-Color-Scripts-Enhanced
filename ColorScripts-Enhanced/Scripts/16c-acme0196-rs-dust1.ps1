@@ -1,18 +1,4 @@
-﻿# Converted from: RS-DUST1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acme0196/raw/RS-DUST1.ANS
-# Source Revision: archive-sha256:c6fe41920b57611c0b3b708ba1eab112f305d080bef9a4a699c6d17869098d06
-# Source SHA-256: d920074401b15f7203800dec836088fa7b4b2f93e08969713d98e0ffdd44755f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-DUST1.ANS by rusty (acme); released in acme0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dUST!
-# SAUCE Author: rusty
-# SAUCE Group: acme
-# SAUCE Date: 19951217
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: dUST! by rusty | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acme0196-rs-dust1
 
 Write-Host '
                       [34m░[0m

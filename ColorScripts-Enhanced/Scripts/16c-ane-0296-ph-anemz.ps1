@@ -1,18 +1,4 @@
-﻿# Converted from: PH-ANEMZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ane-0296/raw/PH-ANEMZ.ANS
-# Source Revision: archive-sha256:3968cc056bf297febf6892374e4caf7ab79dd8410790f6f7be0cb58cc17cd856
-# Source SHA-256: 9028578c5d1d58f5a456bef5fdc3adc12dba9812926d854bc2ea5391498e426f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PH-ANEMZ.ANS by Phantax (.;:Anemia:;.); released in ane-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Anemia Promotional
-# SAUCE Author: Phantax
-# SAUCE Group: .;:Anemia:;.
-# SAUCE Date: 19960121
-# SAUCE Dimensions: 80x25
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Anemia Promotional by Phantax | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ane-0296-ph-anemz
 
 Write-Host '
 

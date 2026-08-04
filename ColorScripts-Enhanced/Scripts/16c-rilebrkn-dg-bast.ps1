@@ -1,18 +1,4 @@
-﻿# Converted from: DG-BAST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rilebrkn/raw/DG-BAST.ANS
-# Source Revision: archive-sha256:631709d46940d5f633b8ebca426a515d51357cee4cca25bed435a2a8fbf53a10
-# Source SHA-256: a029df705eb53af5131a2443cf12f8fdc5ea7c7c88fb3348939cf3c1db338083
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DG-BAST.ANS by David Gould (rile); released in rilebrkn and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Bastard
-# SAUCE Author: David Gould
-# SAUCE Group: rile
-# SAUCE Date: 19970509
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Bastard by David Gould | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rilebrkn-dg-bast
 
 Write-Host '
 [1;32m   [0;32m▐[0;1;32;42m▐[0;1;32;40m███████[0;1;32;42m▓▒[0;32m▌[0;1;32m   [0;1;30mdg[0;1;32m     [0;32m▐[0;1;32;42m▐[0;1;32;40m███████████████████████[0;1;32;42m▌[0m    [1;32;42m▓[0;1;32;40m███████████████████████[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: RA-MindsEye.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktr0nics30302020/raw/RA-MindsEye.ans
-# Source Revision: archive-sha256:9a86a13b1ff7cef4b57ed39c1aca190028df54b44bffe10202b539bef3cd3dcc
-# Source SHA-256: af510b05f78d5e80351362e22ff3e9b532bebfb9a3dc958fa6faf29f466e9e06
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RA-MindsEye.ans by Randers (blocktronics); released in blocktr0nics30302020 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Minds Eye
-# SAUCE Author: Randers
-# SAUCE Group: blocktronics
-# SAUCE Date: 20200112
-# SAUCE Dimensions: 80x100
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Minds Eye by Randers | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktr0nics30302020-ra-mindseye-part01
 
 Write-Host '
 [1;47m▓[0;1;40m▀[0;35m▄[0;1;35m█[0;1;35;44m▓▓▓▓▓▓▓▓▓▓[0;1;35;40m█[0;1;35;45m▀▀[0;1;35;40m▀▀▀[0;35m▀▀▀▀[0;1;37m▄▄█[0;1;37;47m▓▒▓▓▓▓▓▓[0;1;37;40m█[0;1;37;47m▄[0m▄      ▄[1;47m▄[0;1;40m█[0;1;47m▓▓▓▓▓▓▓[0;1;40m█▀██▀[0;35m▄[0;1;35m▄[0;1;35;45m▄[0;1;35;40m████████[0;1;35;45m▄[0;1;35;40m▄[0;35m▄[0;1;37m   [0m▄[1m▄█[0;1;47m▓[0m

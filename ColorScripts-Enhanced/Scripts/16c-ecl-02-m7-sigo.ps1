@@ -1,18 +1,4 @@
-﻿# Converted from: M7-SIGO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-02/raw/M7-SIGO.ANS
-# Source Revision: archive-sha256:815fb0802a5a645b19e4bb1a2e67405cbfe5a7d016a5808efe6ef55f809d080c
-# Source SHA-256: e5d473bad6107eeac96f59d815812f1758be7a1c78d67159d31d1baa82d91b2c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M7-SIGO.ANS by magnafool (eclipse); released in ecl-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: sigo (??)
-# SAUCE Author: magnafool
-# SAUCE Group: eclipse
-# SAUCE Date: 19960630
-# SAUCE Dimensions: 80x15
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: sigo (??) by magnafool | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-02-m7-sigo
 
 Write-Host '
      [34m ▄▄▄▄▄▄[0m    [35m▄[0;1;31m▄▄▄▄[0;1;35m▄▄[0m

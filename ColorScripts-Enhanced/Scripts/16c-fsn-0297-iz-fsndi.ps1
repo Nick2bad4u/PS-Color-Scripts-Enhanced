@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-FSNDI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0297/raw/IZ-FSNDI.ANS
-# Source Revision: archive-sha256:d5e6767ccf66425c243bc55fc2b60157e4842e0dca350575e42372c154569008
-# Source SHA-256: eac1debe780a134d6d6b2cfa85e86ed002391d21c6ed1ea15a89c266c11c0652
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-FSNDI.ANS by ize (fusion); released in fsn-0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fusion dizzes
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19970128
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: fusion dizzes by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0297-iz-fsndi
 
 Write-Host '
 

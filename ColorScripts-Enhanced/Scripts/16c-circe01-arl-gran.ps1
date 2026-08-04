@@ -1,13 +1,4 @@
-﻿# Converted from: ARL-GRAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe01/raw/ARL-GRAN.ANS
-# Source Revision: archive-sha256:0b64c26f533b8c11a1aca04e7dcc1e21d4b014c2d6532ba66a48148862d54cb2
-# Source SHA-256: 95c1c1ed694b532627f6dedc8398315a6e0b224108fd72fdbace70c86e64b09f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARL-GRAN.ANS by Arlequin (circe01); released in circe01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: ARL-GRAN.ANS by Arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe01-arl-gran
 
 Write-Host '
                        [31m           [0;1;31m ┌┌┌┌[0;31m┌[0m       [1;30m       [0;31m [0;1;30m                  [0m

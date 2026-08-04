@@ -1,13 +1,4 @@
-﻿# Converted from: TE-TLC2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9703a/raw/TE-TLC2.ICE
-# Source Revision: archive-sha256:6bff16e5edf32b4898857b0d23616134d84be36d169a4a2f3bc23f437f356dfe
-# Source SHA-256: 364e192d6f65549a3aeed1462a3bfcb5d6607691513c789c14be607ce341cb5a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-TLC2.ICE by Tetanus (ice9703a); released in ice9703a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: TE-TLC2.ICE by Tetanus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9703a-te-tlc2
 
 Write-Host '
 [31m███▓▓▒▒░ [0;33m▄▄▌ [0;31m░░▒▒▓▓▀▀  [0;33m▄▄ [0;1;30m▀░▓▀█[0;1;30;47m▓▓▒▒░[0m▀[1;30;47m░▒▒▒░░▒▒▓▓[0;1;30;40m█▀▓▀▄▓   [0;33m▄▄ [0;31m▀▀▀▓▓▓▓▒ [0;33m▐▄▄  [0;31m░░░▒▒▓▓[0m

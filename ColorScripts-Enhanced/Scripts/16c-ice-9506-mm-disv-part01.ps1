@@ -1,13 +1,4 @@
-﻿# Converted from: MM-DISV.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9506/raw/MM-DISV.ICE
-# Source Revision: archive-sha256:54681166ad0e1930ad04020dc73021d068005fba5342f2f81e02d3344e14b83c
-# Source SHA-256: 170768d7b42503c6f456e33594edfda5f8bd7a240001d68ecdf69b926c2029f6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-DISV.ICE by Magnetic M (ice-9506); released in ice-9506 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: MM-DISV.ICE by Magnetic M | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9506-mm-disv-part01
 
 Write-Host '
             ░

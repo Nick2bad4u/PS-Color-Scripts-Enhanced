@@ -1,13 +1,4 @@
-﻿# Converted from: AB-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/skl-0194/raw/AB-FIRE.ANS
-# Source Revision: archive-sha256:1dcfe9cd5a24475acbc7f8eaf3e09fbb99ff6d92b8758ee9cb54d62a86e3d952
-# Source SHA-256: 1a8c47c169ea0bd92558eb6b0768a7f1e2ae14f72c72982691f6532131bb62ee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AB-FIRE.ANS by Abomination (skl-0194); released in skl-0194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 49-98
-# Columns: 1-80
+﻿# Artwork: AB-FIRE.ANS by Abomination | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-skl-0194-ab-fire-part02
 
 Write-Host '
 [33m████████████████████████████████████████████████████████████████████████████████[0m

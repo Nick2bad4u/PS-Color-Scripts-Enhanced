@@ -1,13 +1,4 @@
-﻿# Converted from: FRD-7LRD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/smr-04/raw/FRD-7LRD.ANS
-# Source Revision: archive-sha256:38a262911b83243b311c6be0c23fb485f6a2c1aa67c409ab1af66d03432a087e
-# Source SHA-256: 8d3421b62f3178a2f34edb796d0a7312c3895382746afe3e5f780e8edb1d3bb6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FRD-7LRD.ANS by Frodo (smr-04); released in smr-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: FRD-7LRD.ANS by Frodo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-smr-04-frd-7lrd
 
 Write-Host '
   ▄▄▄▄▄▄▄▄[36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;37m [0;36m   [0;31m░▒[0m

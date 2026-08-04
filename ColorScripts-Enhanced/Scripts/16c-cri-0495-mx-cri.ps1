@@ -1,18 +1,4 @@
-﻿# Converted from: MX-CRI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cri-0495/raw/MX-CRI.ANS
-# Source Revision: archive-sha256:68a525dc058e129b1830b66b54cbf91bf90c51e195457f4b9c43c4e7f818ef1e
-# Source SHA-256: 7c9e5d7476f43fceebedd19d3f38ff2cee786260616abecac88a34e90706cbeb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MX-CRI.ANS by Morphix (CRiSiS); released in cri-0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: CRiSiS.. animation .. unreleased.
-# SAUCE Author: Morphix
-# SAUCE Group: CRiSiS
-# SAUCE Date: 19940429
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: CRiSiS.. animation .. unreleased. by Morphix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cri-0495-mx-cri
 
 Write-Host '
                        [1;31m▄[0m      [1;31m░░[0;1;31;41m░[0;1;31;40m░▒▒▓▓[0;1;31;41m░▒▒▓▓[0;31m██████▀▀▀[0m     [31m▀▀██[0;1;31;41m▓▓▓▒▒[0;31m▄[0m

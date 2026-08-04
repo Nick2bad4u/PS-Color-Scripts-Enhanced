@@ -1,18 +1,4 @@
-﻿# Converted from: FU-FL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9610/raw/FU-FL1.ANS
-# Source Revision: archive-sha256:2f6e3c8c2e64cc8380afc3a639da2793e02ea87790d90b8b4bede4b760040753
-# Source SHA-256: ae3d858f573bdafe355480d4deb8332c68b81799d5d9af89c1e8ef31ff1fc8e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FU-FL1.ANS by Fury (awe lettering); released in awe9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Fetus Land
-# SAUCE Author: Fury
-# SAUCE Group: awe lettering
-# SAUCE Date: 19960929
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Fetus Land by Fury | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9610-fu-fl1
 
 Write-Host '
  [1;30m ▄[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: AV-WYVRN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/epic0001/raw/AV-WYVRN.ANS
-# Source Revision: archive-sha256:469e19c85e17e735160f218c31263c528e0f299d68abc25979191060f709ef80
-# Source SHA-256: c3056cb3f1322f6c757cfc2fd6c248459ab855a8b27553b8da01b8bcc18dcdae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AV-WYVRN.ANS by anvilhead (epic); released in epic0001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the wyvern
-# SAUCE Author: anvilhead
-# SAUCE Group: epic
-# SAUCE Dimensions: 80x25
-# Lines: 43-83
-# Columns: 1-80
+﻿# Artwork: the wyvern by anvilhead | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-epic0001-av-wyvrn-part02
 
 Write-Host '
 [34m████████████████████████████████[0;37m          [0;34m░▓▓███████████████████████████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: BF-VORT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plan9-03/raw/BF-VORT2.ANS
-# Source Revision: archive-sha256:301e233671503dd7a10ff4a4cb6dda4f8763f8d72d90155c91788bf54f67e346
-# Source SHA-256: bb83b59e9989e8a53680118a1b58403f6e28643ae9651d4befbe88fc85f125b6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BF-VORT2.ANS by Boba Fett (READ THE INI FILE); released in plan9-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: vortex ansis
-# SAUCE Author: Boba Fett
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19970209
-# SAUCE Dimensions: 80x25
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: vortex ansis by Boba Fett | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plan9-03-bf-vort2
 
 Write-Host '
 [1;47m  ░ [0m▀ [1;33m▄███▀[0m [1;41m▒▒▓▓█[0;1;47m███▓▓▒▒░░[0m██▌[1m [0;1;31;45m▒▒▓▓▒▒[0m  [1;31m▀▀▀▀▀▀[0;1;31;45m▓▓███[0;1;31;40m██[0;1;31;47m▓▓[0;1;31;40m████████████[0;1;31;45m▓▓[0;1;31;40m▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

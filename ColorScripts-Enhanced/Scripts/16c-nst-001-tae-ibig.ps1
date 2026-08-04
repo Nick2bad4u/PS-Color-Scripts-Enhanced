@@ -1,18 +1,4 @@
-﻿# Converted from: TAE-IBIG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nst_001/raw/TAE-IBIG.ANS
-# Source Revision: archive-sha256:73e351b64f3e5af00925276ea27a29359884e7841f4015afd3acb29f2a370d2d
-# Source SHA-256: 33f5db9958ea00bda8b52ad218073719c5ba6953ea84a34fabb6fac218e32e97
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TAE-IBIG.ANS by taevore (nst); released in nst_001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: "  bored girlie - pic "
-# SAUCE Author: taevore
-# SAUCE Group: nst
-# SAUCE Date: 19980402
-# SAUCE Dimensions: 80x44
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: " bored girlie - pic " by taevore | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nst-001-tae-ibig
 
 Write-Host '
                            [31m▄▄▄▄▄▄[0;31;41m         [0;31;40m█▄▄▄▄▄▄[0m     [31;40m░[0;30;41m▓[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: ODD-DUNGEON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0823/raw/ODD-DUNGEON.ANS
-# Source Revision: archive-sha256:62e93186540813ec7aaaeb24433016d426de59526762a0e3f8dda1eb133ed05c
-# Source SHA-256: bf17b1a4d55010f44338987b06d1556d47f117673eb904415cb4787e4cf8daa4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ODD-DUNGEON.ANS by 0dd (<Mist & LK>); released in mist0823 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: dungeon
-# SAUCE Author: 0dd
-# SAUCE Group: <Mist & LK>
-# SAUCE Date: 20230824
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: dungeon by 0dd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0823-odd-dungeon
 
 Write-Host '
                 ▄▄  ▄[1;30m▄[0m  [1;30m▄▒▓▄▄▀▒░[0m [1;30m▄[0m [1;30m▒░▓▀[0m  [1;30m▀▀▀▀▀▀▀▀█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

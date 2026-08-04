@@ -1,13 +1,4 @@
-﻿# Converted from: W-ETHER2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/atm-0594/raw/W-ETHER2.ANS
-# Source Revision: archive-sha256:a7745e0553a5b6c51bb70e798c51baa47b7f819d65244d42098c318b7e86f80b
-# Source SHA-256: 07bb885541c05dcfa74d2129d85b588045245592519b0b10c60a34409e22d6c8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: W-ETHER2.ANS by Willard (atm-0594); released in atm-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: W-ETHER2.ANS by Willard | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-atm-0594-w-ether2-part01
 
 Write-Host '
 [31m[[0;1;31mW[0;31mi[0;1;31mLL[0;31ma[0;1;31mRD[0;31m][0m                                [33m▄▄▄▄▄[0m

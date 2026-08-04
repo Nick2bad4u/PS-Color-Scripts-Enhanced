@@ -1,18 +1,4 @@
-﻿# Converted from: NT-DDN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/punc0396/raw/NT-DDN1.ANS
-# Source Revision: archive-sha256:a55ffe196038470017abdbc0c565585063d9213ab2534336071cea64c7ae59c9
-# Source SHA-256: 6f831efcb2cf04765a9f762bb2b92eff0dfea03ba7dff1dfd36869e3fa926ed6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NT-DDN1.ANS by natas (punc productions); released in punc0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: daydream nation
-# SAUCE Author: natas
-# SAUCE Group: punc productions
-# SAUCE Date: 19960301
-# SAUCE Dimensions: 80x25
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: daydream nation by natas | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-punc0396-nt-ddn1
 
 Write-Host '
                      [1;30m    [0m                  [1;30m          [0m

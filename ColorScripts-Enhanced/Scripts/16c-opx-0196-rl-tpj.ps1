@@ -1,18 +1,4 @@
-﻿# Converted from: RL-TPJ!!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0196/raw/RL-TPJ!!.ANS
-# Source Revision: archive-sha256:b488878884154420cd3d4f315b5d1218512f30bbd731fa31bcae353756902b21
-# Source SHA-256: c57544a6f4d620c37581d9a9549eaff3fce6968b113ae68d910c2cc757c3fb93
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL-TPJ!!.ANS by Rawlock (Opium); released in opx-0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Practical Joke
-# SAUCE Author: Rawlock
-# SAUCE Group: Opium
-# SAUCE Date: 19951216
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: The Practical Joke by Rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0196-rl-tpj
 
 Write-Host '
                                                      [1;36m▄▄▄▄▄[0m

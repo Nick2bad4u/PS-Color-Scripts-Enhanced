@@ -1,18 +1,4 @@
-﻿# Converted from: ST-ANSI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0302/raw/ST-ANSI.ANS
-# Source Revision: archive-sha256:7b2619e0400d7382d19d38767873337eae71942dd319abc1998c71f4a968776f
-# Source SHA-256: 0c8a5305f176ea7b684c7adc39662256cecd264851fa204736e8271d8496d3fe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-ANSI.ANS by splatt (Revival 2002); released in rev0302 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ansi revival
-# SAUCE Author: splatt
-# SAUCE Group: Revival 2002
-# SAUCE Date: 20020303
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: ansi revival by splatt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0302-st-ansi
 
 Write-Host '
     [1;30m   [0m

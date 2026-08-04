@@ -1,13 +1,4 @@
-﻿# Converted from: WZ-FPOT.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-0393/raw/WZ-FPOT.ICE
-# Source Revision: archive-sha256:31b03d3a9d263e952227664fe802688e743ab14a707f16c150dab800192d5fc5
-# Source SHA-256: 662255ac7a4fae32743d5b7b5de8dfab765536e44a7ccce3d7820a798889c467
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WZ-FPOT.ICE by Wiz (ice-0393); released in ice-0393 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: WZ-FPOT.ICE by Wiz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-0393-wz-fpot-part01
 
 Write-Host '
           [34m▄▄▄▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: BC-ART.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/art1294/raw/BC-ART.ANS
-# Source Revision: archive-sha256:df076adbc8b08496bbde7ea3e33ffe97171d29f1ee7c39d10dd1aaf8c301820a
-# Source SHA-256: 960c0a2a4150451a854d72efbd9f687da90efe8b98feef1da567bd2c84fb00b1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BC-ART.ANS by Beyond Cool (art1294); released in art1294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: BC-ART.ANS by Beyond Cool | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-art1294-bc-art
 
 Write-Host '
 [31m░[0m               [31m░   [0;1;37m                                      [0m        [31m░░[0m       [34m▄▄▄[0;31m [0m

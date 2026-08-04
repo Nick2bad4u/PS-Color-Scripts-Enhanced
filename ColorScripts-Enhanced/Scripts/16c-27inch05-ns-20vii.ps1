@@ -1,13 +1,4 @@
-﻿# Converted from: NS-20VII.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch05/raw/NS-20VII.ANS
-# Source Revision: archive-sha256:db9b1206c71a7c1f69d77bcc2ffae6377c5089e3db6c19d34216df53e4012ff2
-# Source SHA-256: ff286519eb2fd611a514702668e03753368aa7fe4c0117b04b50c3037161a288
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NS-20VII.ANS by Ansichrist (27inch05); released in 27inch05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: NS-20VII.ANS by Ansichrist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch05-ns-20vii
 
 Write-Host '
 [1;47m█[0;30mi[0;1;37;47m█████▀[0m▀[1;33m [0;33m▄[0;1;33;43m▄[0;1;33;40m██[0;1;33;43m▄[0;1;33;40m▄[0;33m▄[0;1;33m [0;33m▓▓▄[0;1;33m [0m▀[1m▀[0;1;47m▀[0;1;40m████████[0m [1m██████████████████▀▀▀▀▀█[0m [1m████▀▀▀██▀▀▀▀▀█▀█▀███[0m

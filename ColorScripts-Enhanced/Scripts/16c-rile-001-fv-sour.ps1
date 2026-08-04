@@ -1,18 +1,4 @@
-﻿# Converted from: FV-SOUR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile_001/raw/FV-SOUR.ANS
-# Source Revision: archive-sha256:f7a8644489c1d011b91477b5b1eab40d9f39b077b89f158a7a0c3d1c032c6d81
-# Source SHA-256: 0b73f378cf9f1226c360bc0a5b52097f8073234c82c4a124dcce70a6a23774cd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-SOUR.ANS by fever (RILE); released in rile_001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: sour
-# SAUCE Author: fever
-# SAUCE Group: RILE
-# SAUCE Date: 19970122
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: sour by fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile-001-fv-sour
 
 Write-Host '
 

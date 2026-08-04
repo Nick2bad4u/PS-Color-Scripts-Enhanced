@@ -1,19 +1,4 @@
-﻿# Converted from: us-catbat.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel22/raw/us-catbat.ans
-# Source Revision: archive-sha256:ba169f7927d483c43f833be895de0c289bdb93739fe60d9d716f1c3c01404206
-# Source SHA-256: 7414c06eeb3439fd7220e30727ce3b6e236b95cc49b9a785ec8b7e23ed7670bd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-catbat.ans by The Knight + Propane (fuel); released in fuel22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Catwoman and Batman
-# SAUCE Author: propane | the knight
-# SAUCE Group: fuel
-# SAUCE Date: 20170614
-# SAUCE Dimensions: 80x58
-# SAUCE Font: IBM VGA
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Catwoman and Batman by The Knight + Propane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel22-us-catbat-part01
 
 Write-Host '
                                               [1;30;40m                                 [0m

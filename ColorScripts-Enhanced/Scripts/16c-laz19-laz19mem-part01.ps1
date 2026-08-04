@@ -1,20 +1,4 @@
-﻿# Converted from: LAZ19MEM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz19/raw/LAZ19MEM.ANS
-# Source Revision: archive-sha256:b2207428f1b283b9c41d9ff03fce385f449fefe469c60e31e8dd7430a162f7c1
-# Source SHA-256: 863901fa70a66b7f9ebca238bfb30a8465d069387b8443ebaa45e9cf78fc17b2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LAZ19MEM.ANS by warpus (LAZARUS); released in laz19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: LAZARUS 19 MEMBERLIST
-# SAUCE Author: warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20240928
-# SAUCE Dimensions: 80x196
-# SAUCE Font: IBM VGA
-# SAUCE Comments: aka U.S.S. Membership
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: LAZARUS 19 MEMBERLIST by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz19-laz19mem-part01
 
 Write-Host '
 

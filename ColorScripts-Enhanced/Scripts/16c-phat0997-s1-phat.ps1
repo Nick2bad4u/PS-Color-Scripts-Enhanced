@@ -1,18 +1,4 @@
-﻿# Converted from: S1-PHAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0997/raw/S1-PHAT.ANS
-# Source Revision: archive-sha256:7c9b6e5a1bf85f5dceb70dad3a430f8a984427653988f85df1c8489157fd2d25
-# Source SHA-256: 7fa8fc5fddf0aebb0a49949486cd374b10c2e01e549fa44cc8c0f55b0d4c0008
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S1-PHAT.ANS by subsonic (Phat Studios '97); released in phat0997 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: phat studios
-# SAUCE Author: subsonic
-# SAUCE Group: Phat Studios '97
-# SAUCE Date: 19970719
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: phat studios by subsonic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0997-s1-phat
 
 Write-Host '
 

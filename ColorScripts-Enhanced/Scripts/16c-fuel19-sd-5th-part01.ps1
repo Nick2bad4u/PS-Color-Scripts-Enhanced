@@ -1,18 +1,4 @@
-﻿# Converted from: SD-5TH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel19/raw/SD-5TH.ANS
-# Source Revision: archive-sha256:7996394d1322b4d75a2eac63da1058443f8c8d07863e81821c5c4a203e798c3c
-# Source SHA-256: df4ade0de68cebabe73f4ca0cdeb61930fb2b3bac6cac5eb0ac280f9e44c0ac8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-5TH.ANS by sad (fuel); released in fuel19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 5th element
-# SAUCE Author: sad
-# SAUCE Group: fuel
-# SAUCE Date: 19971202
-# SAUCE Dimensions: 80x93
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: 5th element by sad | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel19-sd-5th-part01
 
 Write-Host '
 [1;32m▄■[0m    [1;32m  ▄[0m                 [1;32m░░[0m                                                 [1;32m■▄[0m

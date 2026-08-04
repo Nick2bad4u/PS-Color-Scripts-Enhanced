@@ -1,13 +1,4 @@
-﻿# Converted from: S4-GLUE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-02/raw/S4-GLUE.ANS
-# Source Revision: archive-sha256:39d2334584977ac14b33f06b2f4e2bf93d1902538006b996fc8bb6135cc5d15c
-# Source SHA-256: 350f9a6c408ce9f07ac609cb681c3cfa2e800adfc93e9a51c292854a31292dae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S4-GLUE.ANS by Static4 (glue-02); released in glue-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: S4-GLUE.ANS by Static4 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-02-s4-glue
 
 Write-Host '
 [1;34m▐█[0;1;34;47m▓▓▓[0;1;34;40m█████▀▀▀▀[0;31m   [0;1;36m▄▄[0;36m [0;1;34m▀▀▀▀█▀[0;31m [0;36m [0;1;36m▄▄[0;36m [0;1;34m▄████[0;1;34;44m▓[0;1;34;40m█████[0;1;34;47m▓▓▓[0;1;34;40m███████▀▀▀[0;31m  [0;1;36m▄▄[0;1;31m [0;1;34m▀██[0;1;34;47m▓▓[0;1;34;40m█████▀▀▀[0;31m [0m   [1;36m▄▄ [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: to-mdknt.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper06/raw/to-mdknt.ans
-# Source Revision: archive-sha256:e9db58af17bee8935edbe50f24a227bef7a311667f4a639d4f37f775998e9055
-# Source SHA-256: 133fe95ff8afc07f8187590078d530a192785391485df8cb6621c40af32549ed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: to-mdknt.ans by Two11two (jasper06); released in jasper06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: to-mdknt.ans by Two11two | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper06-to-mdknt
 
 Write-Host '
 [34m█████▀ [0;1;33m▄█████[0;1;33;43m▀▀▀▀[0;1;33;40m█[0;1;33;43m▄▄[0;1;33;40m████[0;1;33;43m▄[0;1;33;40m███[0;1;33;43m▄▄▄▀▀▀▀[0;1;33;40m██████████████[0;1;33;43m▄▄  ▀▀[0;1;33;40m▄▄ [0;1;30;40m  ▀██▌[0m [34m███████▀[0;1;32m [0;34m▀█████[0m

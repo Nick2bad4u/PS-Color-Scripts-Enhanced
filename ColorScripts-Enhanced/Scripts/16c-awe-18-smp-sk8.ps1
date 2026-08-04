@@ -1,18 +1,4 @@
-﻿# Converted from: SMP-SK8.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-18/raw/SMP-SK8.ANS
-# Source Revision: archive-sha256:3ece06be07a605d790194aecaf4c2aee0d01c3085ca10c10858ed29a4fc054bb
-# Source SHA-256: 1c5594d6909d53f4cec65d99e94adcac967bd40a65cf96cb91a8ed54f0c5e1be
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-SK8.ANS by Shrimp (AWE Lettering); released in awe-18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Skate Shop
-# SAUCE Author: Shrimp
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981008
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: Skate Shop by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-18-smp-sk8
 
 Write-Host '
 [1;30m      [0m                [1;32m [0;1;33m▄[0;32m▄[0;37m [0;32m▀█▄▄[0;37m [0;32m░[0m     [1;32m▀[0m [1;32m▄[0m    [36m     [0;37m [0;36m    [0;37m [0;1;36m  [0;36m       [0m          [32m▌[0;37m [0;32m░[0m

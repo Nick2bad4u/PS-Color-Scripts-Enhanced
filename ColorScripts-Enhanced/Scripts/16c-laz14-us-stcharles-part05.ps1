@@ -1,20 +1,4 @@
-﻿# Converted from: us-stcharles.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz14/raw/us-stcharles.ans
-# Source Revision: archive-sha256:41b4e3770fbffb058172283f3da2aa00e47c872480cf93fdef94629ebc0751bb
-# Source SHA-256: 69e08ea6a02160ddf9f7ed2870c2c9d31f03daa5afd2bb520bca5467b6519f71
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-stcharles.ans by Warpus + Mel Farr Suppastar (Lazarus); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: St Charles Avenue
-# SAUCE Author: warpus + MFS
-# SAUCE Group: Lazarus
-# SAUCE Date: 20211208
-# SAUCE Dimensions: 80x464
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Criss Angel appears courtesy of reprise records.
-# Lines: 189-225
-# Columns: 1-80
+﻿# Artwork: St Charles Avenue by Warpus + Mel Farr Suppastar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz14-us-stcharles-part05
 
 Write-Host '
 [0m[0m[1;34;40m██[0m [1;30;47m█[0m [1;30;47m░▐[0;1;30;40m▄▄[0;1;30;47m▌[0;1;36;47m╬[0;1;30;47m▐[0;1;30;40m▀■▌[0;1;30;47m▌▄■■■▄ ▐█▌░▐[0m [1;36;47m▌[0;1;35;47m▒[0;1;30;47m▐[0;1;37;47m▒[0;1;35;47m░[0;1;36;47m▒[0;1;30;47m▓■▀▀█▀▀▀█▀▀▓[0;1;35;47m░░[0;1;36;47m▓[0;1;30;47m▌[0;1;36;47m╬[0;1;30;47m▐[0m [1;35;47m▌[0;1;30;47m░▐[0;1;37;47m░[0;1;30;47m▌ ▄■■■▄░[0;1;30;40m▐■▀[0;1;30;47m▌[0;1;36;47m▒[0;1;30;47m▐[0;1;30;40m▄▄[0;1;30;47m▌[0;1;36;47m▒[0m [1;30;47m█[0m [1;34m▓▓[0m

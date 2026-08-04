@@ -1,18 +1,4 @@
-﻿# Converted from: BK-DI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0794/raw/BK-DI.ANS
-# Source Revision: archive-sha256:53cd35a6f327a0c8a649f0c556ca1e17aa60e6c4040eff696f9e35efc72f4414
-# Source SHA-256: 1bc11825002ce4532d8cdadc676feac176392507807f46b10ed0bd1c9e80e3d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BK-DI.ANS by Bad Karma (ACiD Productions); released in acdu0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Darkest Illusion
-# SAUCE Author: Bad Karma
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940701
-# SAUCE Dimensions: 80x170
-# Lines: 124-170
-# Columns: 1-80
+﻿# Artwork: The Darkest Illusion by Bad Karma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0794-bk-di-part04
 
 Write-Host '
       ▓  █   ▓ ▓

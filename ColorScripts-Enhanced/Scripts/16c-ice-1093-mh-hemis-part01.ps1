@@ -1,13 +1,4 @@
-﻿# Converted from: MH-HEMIS.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-1093/raw/MH-HEMIS.ICE
-# Source Revision: archive-sha256:10044395c9ad31c6388a6b0890df92bce1856a0bb71da1b1ac56bef00c085849
-# Source SHA-256: db6dfef0fbe82a90899fde5a3a297ff0e7d175498429611f41562fc9b5dcba60
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MH-HEMIS.ICE by Metal Head (ice-1093); released in ice-1093 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: MH-HEMIS.ICE by Metal Head | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-1093-mh-hemis-part01
 
 Write-Host '
 [33m▒▒▒▓▓█▄▀▄▄   [0;1;36m`[0;1;33m▀▄ [0;36m▀ [0;31m▀▓▓▒▀▀▄▄▀▀▄ [0;36m▀▓▓▄▄ [0;1;30m▄▓ ▄[0m

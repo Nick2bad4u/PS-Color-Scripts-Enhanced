@@ -1,18 +1,4 @@
-﻿# Converted from: SF-TOTAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0597/raw/SF-TOTAL.ANS
-# Source Revision: archive-sha256:d975415729673826f91e424c4e11b4c04f34184fd3a18803a91e92ec4aab5c0b
-# Source SHA-256: 0f6d11fa76d4e7ce0fe3fd96722b7079b0ea7ecb35433399dbd3199f0f2306ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SF-TOTAL.ANS by shaft (fire); released in fire0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: total chaos II
-# SAUCE Author: shaft
-# SAUCE Group: fire
-# SAUCE Date: 19970501
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: total chaos II by shaft | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0597-sf-total
 
 Write-Host '
     [33m░[0;30;43m▓[0;1;33;40m  [0m [34m        [0m       [1;33m  [0m░[30;47m▓[0;1;33;40m [0m

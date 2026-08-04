@@ -1,13 +1,4 @@
-﻿# Converted from: ST-NOACC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r5/raw/ST-NOACC.ANS
-# Source Revision: raw-sha256:75f528006cf89d0f19728e2802efc3a4613d485566af6abae7bb8fc0e8e6f97c
-# Source SHA-256: 75f528006cf89d0f19728e2802efc3a4613d485566af6abae7bb8fc0e8e6f97c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-NOACC.ANS by Stormy (afc-r5); released in afc-r5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 49-95
-# Columns: 1-80
+﻿# Artwork: ST-NOACC.ANS by Stormy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r5-st-noacc-part02
 
 Write-Host '
                 [32m█[0;1;32m█[0;1;32;42m▄▀▀ ▀[0;32m█[0;33m░░░░░▒░░░░░░▒░▒[0;1;32;42m█▄█▄[0m [32m▀[0m

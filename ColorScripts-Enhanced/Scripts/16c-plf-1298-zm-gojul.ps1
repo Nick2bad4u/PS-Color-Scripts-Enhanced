@@ -1,18 +1,4 @@
-﻿# Converted from: ZM-GOJUL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1298/raw/ZM-GOJUL.ANS
-# Source Revision: archive-sha256:075f933f0da18fbaf6a548eb0d971a2c335f576db461f97402cdbe530ee397b2
-# Source SHA-256: 732ee1f138b7b280a046fcb9a71a78e9b8ebc710756c47a48209dd1333cbb696
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZM-GOJUL.ANS by zatchmo (poffelipoff); released in plf-1298 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: god jul
-# SAUCE Author: zatchmo
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19981205
-# SAUCE Dimensions: 80x46
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: god jul by zatchmo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1298-zm-gojul
 
 Write-Host '
 [1m[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: INS-IP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/emic0496/raw/INS-IP.ANS
-# Source Revision: archive-sha256:0081657214e0d3eeaf9fa72e89eaffd16455becfd5da03242b645aa6b0fa9295
-# Source SHA-256: dee518852d883aa1fca1ec4adabbddf178e15c1da0e0a6a0ea1ece8b781f38cb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: INS-IP.ANS by Insomniac (EMiC); released in emic0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Image Purple
-# SAUCE Author: Insomniac
-# SAUCE Group: EMiC
-# SAUCE Date: 19960313
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Image Purple by Insomniac | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-emic0496-ins-ip
 
 Write-Host '
 

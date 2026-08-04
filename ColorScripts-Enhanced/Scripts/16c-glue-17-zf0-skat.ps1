@@ -1,18 +1,4 @@
-﻿# Converted from: ZF0-SKAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-17/raw/ZF0-SKAT.ANS
-# Source Revision: archive-sha256:154ac874f13e20433925bb99a4f5e0a4299764bee7ed4d28bdaffd9ad392f554
-# Source SHA-256: d49d6c01fd386a17c544de71af21eb4c614431594e984df3c5a2cdca7de3534c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZF0-SKAT.ANS by zfact0r (glue); released in glue-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Skate Shop
-# SAUCE Author: zfact0r
-# SAUCE Group: glue
-# SAUCE Date: 19981229
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Skate Shop by zfact0r | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-17-zf0-skat
 
 Write-Host '
 [1;33;43m▓▓█[0;1;37;43m▓██[0;1;33;43m██▀[0;1;33;40m▀[0;33m▀[0;36m [0;1;33m▀[0;36;43m▄[0;1;36;40m▄[0;1;37;40m▄▄[0;1;36;46m▄[0;1;37;46m▄▄[0;36m [0;1;33m░[0;36m [0;1;35;45m▄▄▄[0;35m [0;1;33m▀[0;1;37m▀[0;35m ▄[0;1;33m▀[0;1;33;43m▀█▓▄▄[0;35m ▄[0;1;35m▄▄▄[0;1;35;45m▄▄▄[0;35m [0;1;32m▓[0;1;37;42m▓[0;1;32;42m▀[0;1;32;40m▀[0;32m▀[0;35m ▄[0;1;35m▄[0;1;35;45m▄▄▄[0;32m  [0;35m ▄▄▄▄[0;1;35m▄▄[0;1;35;45m▄▄▄[0;36m [0;1;32;42m▀[0;32m▀  ▀[0;1;32m▀[0;1;32;42m▀[0;1;37;42m▓[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: MR-DU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-0197/raw/MR-DU.ANS
-# Source Revision: archive-sha256:08e3420d6f5bf039e22601d044f43006678a0458956ba31375be1cbab8367813
-# Source SHA-256: 9366176234a7f163bc2d699be59598285e8a3d7aa2e15ab10467d902e8204ff9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-DU.ANS by .,s$(minotaur)$s,. (.,s$(AXF)$s,.); released in axf-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: digital underworld logo
-# SAUCE Author: .,s$(minotaur)$s,.
-# SAUCE Group: .,s$(AXF)$s,.
-# SAUCE Date: 19961228
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: digital underworld logo by .,s$(minotaur)$s,. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-0197-mr-du
 
 Write-Host '
 [30m       [0m         [35m▄[0;1;35m▄▄▄▄[0;35m▄[0m                                   [35m▄[0;1;35m▄▄▄▄▄[0;35m▄[0m

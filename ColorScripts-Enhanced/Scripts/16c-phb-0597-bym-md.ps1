@@ -1,18 +1,4 @@
-﻿# Converted from: BYM%MD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phb-0597/raw/BYM%25MD.ANS
-# Source Revision: archive-sha256:5e2897b5aabe339c16f5d2024824fa427f86134be322d4a86a5d7157032f23f1
-# Source SHA-256: 0310808fd585111fcef7b9f2eaaa924511b2efc37ded94f39dbb9efb83e37978
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM%MD.ANS by big y3llow man (pHOBIA@!); released in phb-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: plf info generator intro
-# SAUCE Author: big y3llow man
-# SAUCE Group: pHOBIA@!
-# SAUCE Date: 19970501
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: plf info generator intro by big y3llow man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phb-0597-bym-md
 
 Write-Host '
      [1;30m▄▓███▄▄▄▄[0m    [31m▀█[0;1;31;41m▄[0;31m▄[0;37m  [0;1;30m█ [0m   [30;47m███████████████████[0;33;40m [0;30;47m█[0;33;40m [0;30;47m███[0;33;40m ░░  [0;1;33;40m▀▀[0;1;33;43m▀▀▀[0;1;33;40m██[0;1;33;43m█▓▓█[0;1;37;40m███████[0;1;33;43m█[0;1;33;40m▄ [0m

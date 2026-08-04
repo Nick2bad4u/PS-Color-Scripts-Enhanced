@@ -1,19 +1,4 @@
-﻿# Converted from: 17_DEC23.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1223/raw/17_DEC23.ANS
-# Source Revision: archive-sha256:86d02e5103ccb7950792473f0c3e4ca18e595c9011c06df5ce1fe1692dbd9f5a
-# Source SHA-256: 18148d796e5bec9923ef025f54d7b6ea9f82723fa01b0ad14214a12c6cb39c6b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 17_DEC23.ANS by grymmjack (mistigris); released in mist1223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: December 17th
-# SAUCE Author: grymmjack
-# SAUCE Group: mistigris
-# SAUCE Date: 20231130
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: December 17th by grymmjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1223-17-dec23
 
 Write-Host '
 [1;47m████▓▒░[0m██[1;35;47m░░▒▒▓▓▓▓▓▓[0;1;35;40m█████[0;1;35;45m▓▒░▓▒░[0;35m█[0;1;35;45m▒░[0;35m█[0;1;35;45m▒░[0;35m██████▓▒░▓▒░[0;37m [0;35m▒░[0;37m [0;35m░[0;37m              [0;1;36m▄▄[0;1;37;46m▄▄▄▄[0;1;36;40m▄▄[0m

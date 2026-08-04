@@ -1,18 +1,4 @@
-﻿# Converted from: PO-HORSE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-17/raw/PO-HORSE.ANS
-# Source Revision: archive-sha256:a388e5620de32c4145fd1d2f2e70343f674ce332483184514a867f9d5d569bc4
-# Source SHA-256: 4c12c290ef165dda9b4c98b3039ac1c5a0ccb5f0ddafdb0a0b4faa77cf4de012
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PO-HORSE.ANS by pOrtia (aeOn); released in force-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ..  horse
-# SAUCE Author: pOrtia
-# SAUCE Group: aeOn
-# SAUCE Date: 19970419
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: .. horse by pOrtia | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-17-po-horse
 
 Write-Host '
                       [32m ▐[0;1;32;42m░[0;32m▓█[0;1;32;42m██[0;1;32;40m▄[0;1;32;42m██▓░[0;32m█[0;1;32;42m░[0;32m█▄▄[0m

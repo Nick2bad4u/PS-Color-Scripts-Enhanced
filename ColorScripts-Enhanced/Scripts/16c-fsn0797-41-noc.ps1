@@ -1,18 +1,4 @@
-﻿# Converted from: 41-NOC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn0797/raw/41-NOC.ANS
-# Source Revision: archive-sha256:fc1844bde3fb3bc448ff1373e91cb7237c6c2f8016c75eb605f0f71b6d1e80d5
-# Source SHA-256: 0111ebeefa9d2809aad643bc1acf872ad92530ccfd6b95084881f3b6254b1cc6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 41-NOC.ANS by acidblood (fusion); released in fsn0797 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: matrix
-# SAUCE Author: acidblood
-# SAUCE Group: fusion
-# SAUCE Date: 19970705
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: matrix by acidblood | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn0797-41-noc
 
 Write-Host '
 ░ [1;30;47m▀[0;30;47m▀▌[0;37;40m▀▀[0;1;30;47m▄[0;30;47m▀[0;37;40m ▄[0;1;30;47m▀[0m█▀▀█[1;47m░[0;1;40m░[0m▄▄[1;30;47m▀[0m▀▀[1;30;47m [0;1;37;47m░[0;1;37;40m░[0m▓[1;47m░░[0m▄                               [34m▄[0m        [37m░░ [0;30;47m░[0;1;37;47m░[0m▌█[1;30m▄█[0m

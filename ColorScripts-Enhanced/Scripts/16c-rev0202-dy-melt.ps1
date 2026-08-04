@@ -1,13 +1,4 @@
-﻿# Converted from: Dy-melt.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0202/raw/Dy-melt.ans
-# Source Revision: archive-sha256:2dab715e9f2d819e9161d3954fa8210558a1b83f118c830394e2fdee6408a093
-# Source SHA-256: 33283f478ac266366c17291b43664689299612497c82931e66b2b75aa8fcec6e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Dy-melt.ans by Discyple (rev0202); released in rev0202 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Dy-melt.ans by Discyple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0202-dy-melt
 
 Write-Host '
 ▄[1;30m▀█▓▄▄██████▄  ▄▓███████   ▄█████████████   ▄[0;1;30;47m███[0m█[1;47m▄▓[0;1;40m████████████████████████████[0m

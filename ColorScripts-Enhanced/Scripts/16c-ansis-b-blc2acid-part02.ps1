@@ -1,13 +1,4 @@
-﻿# Converted from: BLC2ACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-b/raw/BLC2ACID.ANS
-# Source Revision: archive-sha256:85ec07cbae8447891364eff42c523db7c57ecb14ef9dd7d52bea01239ed4d3c0
-# Source SHA-256: eb71d97f8ac86845a6a1541d47cbb90c86d2c3ffcc21cb09323de55d5ae5f74d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BLC2ACID.ANS by Tank (ansis-b); released in ansis-b and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 32-56
-# Columns: 1-80
+﻿# Artwork: BLC2ACID.ANS by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-b-blc2acid-part02
 
 Write-Host '
 

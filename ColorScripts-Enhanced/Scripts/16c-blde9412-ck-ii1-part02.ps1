@@ -1,18 +1,4 @@
-﻿# Converted from: CK-II1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9412/raw/CK-II1.ANS
-# Source Revision: archive-sha256:b41d15e15138a70f793bdbf1405cc315054550aa9ff9ddbf322f906870d2a6d0
-# Source SHA-256: 95e168d5b543f4d01aa5672872f82a52c880d4b45a1dece19f048dd4237dc36c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CK-II1.ANS by Chromatik (Blade Productions); released in blde9412 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Illusion Island
-# SAUCE Author: Chromatik
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19941120
-# SAUCE Dimensions: 80x25
-# Lines: 28-72
-# Columns: 1-80
+﻿# Artwork: Illusion Island by Chromatik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9412-ck-ii1-part02
 
 Write-Host '
                                                                    [1;30;40m░[0m

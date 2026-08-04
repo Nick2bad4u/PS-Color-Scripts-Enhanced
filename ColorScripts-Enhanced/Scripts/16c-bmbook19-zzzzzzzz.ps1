@@ -1,18 +1,4 @@
-﻿# Converted from: zzzzzzzz.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook19/raw/zzzzzzzz.ans
-# Source Revision: archive-sha256:3dd762b50e992d041fc40857f6a08666cf879c80169b27b714b162069a52b736
-# Source SHA-256: 7a66b473bb9cb1d144d6f1201dff488851e6a21d464d69ba8a596aeb996b6193
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zzzzzzzz.ans by Avenger + Leo (blackmaiden); released in bmbook19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: with a small tear in your eye..
-# SAUCE Author: avenger.leo
-# SAUCE Group: blackmaiden
-# SAUCE Date: 19990202
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: with a small tear in your eye.. by Avenger + Leo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook19-zzzzzzzz
 
 Write-Host '
   [34m▀[0;31m▀[0;1;35;41m▀██▄[0;31m▄▄▄▄[0;34m▄[0m   [1;33;43m▐█▌[0;30;41m▓▓[0;33;40m▐[0;1;33;43m██▌[0m [33m█[0;1;37m██[0;33m▄[0;37m [0;33m▀█[0;1;33;43m██[0;1;37;40m███[0;1;33;43m████[0;33m█[0;31;43m▄[0;31;40m▀[0;1;33;40m ▄[0;33m▄▄▄[0;31m▄[0;33m█[0;1;33;43m██[0;33m█[0;31m█[0;37m  [0;1;35;41m▄██▄[0;31m█▄▄▄▄▄[0;37m [0;31m▀▀[0m    [31m▄[0;1;31;41m [0;1;35;41m░░[0m

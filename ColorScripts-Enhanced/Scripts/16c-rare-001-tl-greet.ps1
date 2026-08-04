@@ -1,18 +1,4 @@
-﻿# Converted from: TL@GREET.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-001/raw/TL%40GREET.ANS
-# Source Revision: archive-sha256:7435b1c9938dec461ab33b42b3dd164ea7e98ecfff30ea4d3df5a8e59194b0a3
-# Source SHA-256: 322550310f6ef1a4f89670c33833b62c6c25d75899d57c3a9206bcfffc7b4e59
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TL@GREET.ANS by Timeless (rARE!ASCii); released in rare-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Greets
-# SAUCE Author: Timeless
-# SAUCE Group: rARE!ASCii
-# SAUCE Date: 19980305
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Greets by Timeless | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-001-tl-greet
 
 Write-Host '
 

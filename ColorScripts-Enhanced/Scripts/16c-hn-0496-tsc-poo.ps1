@@ -1,13 +1,4 @@
-﻿# Converted from: TSC-POO!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hn-0496/raw/TSC-POO!.ANS
-# Source Revision: archive-sha256:913310781509e66bf4153ee79ee96d9bb402ed530e32d248aea0e8329b769db6
-# Source SHA-256: 5186688783533a389a4bcc44a09811b839d265c34239a7cc983a03cb1c4ae3a6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSC-POO!.ANS by The Shadow Caster (hn-0496); released in hn-0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: TSC-POO!.ANS by The Shadow Caster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hn-0496-tsc-poo
 
 Write-Host '
 [35m▓█████████████▀[0;1;30m/ phat beanie [0;35m████████▓▓▓[0m     [1;30m░ [0;35m▓███▓   [0m▄▓▄    [1;35m▄▄▄▄▄[0m

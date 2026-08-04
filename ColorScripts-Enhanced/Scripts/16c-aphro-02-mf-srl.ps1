@@ -1,13 +1,4 @@
-﻿# Converted from: MF-SRL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aphro-02/raw/MF-SRL.ANS
-# Source Revision: archive-sha256:2ed49ef33db911fd8910fcdda71afccaf0cc89cf17e91048e6c962995f300b73
-# Source SHA-256: dab5ad7eaa4006a621047494fd1a8f3965cbb9cdd3b059bc08a2f9e3e650ef00
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MF-SRL.ANS by Mortify (aphro-02); released in aphro-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: MF-SRL.ANS by Mortify | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aphro-02-mf-srl
 
 Write-Host '
                                                            [1;36m,ss,[0m

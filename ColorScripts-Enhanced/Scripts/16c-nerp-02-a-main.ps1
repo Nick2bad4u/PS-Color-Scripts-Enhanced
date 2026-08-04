@@ -1,18 +1,4 @@
-﻿# Converted from: A-MAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-02/raw/A-MAIN.ANS
-# Source Revision: archive-sha256:3fd9f194d865cfc24c90bdf11a27528d8d82a8ba9c376ebed567183a2f95a9f3
-# Source SHA-256: 39f85a149c8275d88e30838b12a371fe11818d47cda22e11ae5edabc4c1a1c1d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: A-MAIN.ANS by alecs (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: iridium - mainmenu
-# SAUCE Author: alecs
-# SAUCE Group: nerp
-# SAUCE Date: 19971102
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: iridium - mainmenu by alecs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-02-a-main
 
 Write-Host '
 [34m░░░[0;1;34m░░[0m    [1m░░[0m          [1m▄▄▄[0m         [1;33m░░░[0m            [34m░[0m       [1;34m░░░[0m         [34malecs(nerp)[0m

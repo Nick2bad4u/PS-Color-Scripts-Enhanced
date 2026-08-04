@@ -1,18 +1,4 @@
-﻿# Converted from: GK-DDL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1096/raw/GK-DDL2.ANS
-# Source Revision: archive-sha256:0aef116e4290fa41749730625329f38610014fc9d720313823330534bc5bca90
-# Source SHA-256: 63b202c2d7f6e59515657b3d81359757f7712315e14c8cba745a9bff07fa3f36
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GK-DDL2.ANS by grindking (fire); released in fire1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Doodle 4 Cover
-# SAUCE Author: grindking
-# SAUCE Group: fire
-# SAUCE Date: 19961013
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Doodle 4 Cover by grindking | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1096-gk-ddl2
 
 Write-Host '
 [33m▀▀█▀▀▀▀▀ [0;1;34;46m▒▒[0;1;34;47m▓[0;1;34;46m▓[0;1;34;40m████▓[0;1;37;40m [0;1;30;40m ▄░[0m [1;30m▄█▀▀[0;33m░░▄[0;1;31m▄▄[0;1;31;43m▄█▓[0m [1;31;43m▄░[0;33m▀[0;1;31;43m ▄▄░░[0;33m▄▄▄[0;1;31m [0;1;30m [0;33m■[0;37m [0;1;30m [0;34m▀■[0;1;37m [0;34m▀[0;1;34m▀[0;34m▄▄[0;1;34m░ [0;34m [0;1;32m▀[0;32m▀[0;1;32m▄▄[0;32m▄▄[0;37m [0;1;32m■[0;32m▄░ [0;1;32;42m░███▓[0;32m█ [0m

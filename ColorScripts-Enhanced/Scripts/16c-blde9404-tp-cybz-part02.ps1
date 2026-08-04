@@ -1,13 +1,4 @@
-﻿# Converted from: TP-CYBZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9404/raw/TP-CYBZ.ANS
-# Source Revision: archive-sha256:b5a6447140be0f2d0704586db4931f253a9b769ec22a9e738e72404b4d84b4df
-# Source SHA-256: cee0adddd444bf233341aa1072b8756f7c3aeac45356e513efd2884c1046bc2b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TP-CYBZ.ANS by Technophreak (blde9404); released in blde9404 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 43-90
-# Columns: 1-80
+﻿# Artwork: TP-CYBZ.ANS by Technophreak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9404-tp-cybz-part02
 
 Write-Host '
               [1;31;40m▄[0;1;31;43m▓[0;1;31;40m█▄▄▀▀▀█████████████████[0;1;31;43m▓[0;1;31;40m██████████████████▀▀▀▄▄██▄▄[0m

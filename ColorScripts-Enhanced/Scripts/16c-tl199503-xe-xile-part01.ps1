@@ -1,18 +1,4 @@
-﻿# Converted from: XE-XILE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl199503/raw/XE-XILE.ANS
-# Source Revision: archive-sha256:076dc5f7e8e5935b6779aca5076679253dcd9b76950721d084bd358b3028f504
-# Source SHA-256: 45d72c19337ca1aea5ed884446dbb266a8cc974d11e074b7b791156998c3cb02
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XE-XILE.ANS by Xeryrus (TekLordZ); released in tl199503 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Savage Exile!
-# SAUCE Author: Xeryrus
-# SAUCE Group: TekLordZ
-# SAUCE Date: 19950307
-# SAUCE Dimensions: 80x400
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Savage Exile! by Xeryrus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl199503-xe-xile-part01
 
 Write-Host '
                           [35;40m▄[0m                     [35;40m▀[0m

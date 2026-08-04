@@ -1,17 +1,4 @@
-﻿# Converted from: SMI-NERP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9708/raw/SMI-NERP.ANS
-# Source Revision: archive-sha256:defa13458710db8b7c1fa20a6cd29749e80a61eef8ba8dc70e8a9a4a0b1d4f5d
-# Source SHA-256: c78613d4c1173c2cdf78e9336286b20548cb1783b9f17afcbe8f4b1e2eab8909
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMI-NERP.ANS by Samurai (AWE Lettering); released in awe9708 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Nerp
-# SAUCE Author: Samurai
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Nerp by Samurai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9708-smi-nerp
 
 Write-Host '
 

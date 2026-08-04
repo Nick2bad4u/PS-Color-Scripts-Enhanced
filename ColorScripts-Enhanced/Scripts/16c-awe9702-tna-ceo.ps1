@@ -1,17 +1,4 @@
-﻿# Converted from: TNA-CEO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9702/raw/TNA-CEO.ANS
-# Source Revision: archive-sha256:66fa024bb27d2c5c9da5d44e7d12f110f2c57bdedd32c6f0a850d91a30d582a8
-# Source SHA-256: e71bb8a8c64601ae1228ff9b18bdaed83fd9c249872d3d47592e06750f0133d4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-CEO.ANS by The Night Angel (AWE Lettering); released in awe9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Ceo
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Ceo by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9702-tna-ceo
 
 Write-Host '
 [36m▄[0;1;36;46m▄███▓▒░░[0;36m█[0;1;36;46m░[0;36m██[0;1;36;46m▄[0;36m▀▀▀▀█[0;1;36;46m░[0;36m█▓▒░    ▀[0;1;36;46m▀[0;36m██▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;46m▄[0;36m█[0;1;36;46m▀▀████▓▓▒▒░░[0;36m█▓▒░[0m      [36m▀██▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: 7A-ROCNT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roc-0795/raw/7A-ROCNT.ANS
-# Source Revision: archive-sha256:2bf57007ac2a8bed76e7955f81f53242ad7dcb4ee6c40ef333372d5263a0233d
-# Source SHA-256: 9402c2ec28c5d43a6455419665b64556bfdb9663c8c20e87b282732a6426f08c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 7A-ROCNT.ANS by Seventh Assassin (Rulers Of Chaos); released in roc-0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ROC NET
-# SAUCE Author: Seventh Assassin
-# SAUCE Group: Rulers Of Chaos
-# SAUCE Date: 19950628
-# SAUCE Dimensions: 80x73
-# Lines: 47-73
-# Columns: 1-80
+﻿# Artwork: ROC NET by Seventh Assassin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roc-0795-7a-rocnt-part02
 
 Write-Host '
 [0m[0m[34m░░░░░░[0m   [1;30m            [0;1;30;47m▓▓▒▒░░                     ░░░▒▓▓[0;1;30;40m            [0m        [34m░░░░░░[0m

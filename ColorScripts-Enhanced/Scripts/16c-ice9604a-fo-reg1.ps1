@@ -1,13 +1,4 @@
-﻿# Converted from: FO-REG1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9604a/raw/FO-REG1.ICE
-# Source Revision: archive-sha256:a8f8a3430f1223583f5ba829d23fcb523e4712909ac7211db98ebd0249624ef2
-# Source SHA-256: bb6ebbff92a875c509b238065247ab678102ad9777b53d84c5e2a1e7b3d7da22
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FO-REG1.ICE by Fluor (ice9604a); released in ice9604a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: FO-REG1.ICE by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9604a-fo-reg1
 
 Write-Host '
 [1m[0;1;33m[0m[1;33m[0m[1;33m[0;1;37m[0m

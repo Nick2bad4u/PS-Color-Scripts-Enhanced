@@ -1,15 +1,4 @@
-﻿# Converted from: WA-ICE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-19/raw/WA-ICE2.ANS
-# Source Revision: archive-sha256:b473660f00ca745b2388645e3daf73e6bc00a051deac122753312589762b7c0e
-# Source SHA-256: 1d85f27a9e7a5941f7ca89a9589254e5ec8d0eb3738e6852a6d81ae540a09392
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WA-ICE2.ANS by Warpus (glue-19); released in glue-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 19981213
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: WA-ICE2.ANS by Warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-19-wa-ice2
 
 Write-Host '
  ░[30;47m▓[0;37;40m░░[0;30;47m▓[0;37;40m░[0m            [1;30;40m▄▄[0;1;37;40m▄▄[0;36m░[0;30;46m▓[0;1;30;40m▐[0;1;30;44m▀▀[0;34m▄▄[0;1;30m▄▄[0m            [1m░░[0m        [1;30m          [0m░[30;47m▓[0;37;40m░[0;30;47m▓[0;1;30;40m            [0m

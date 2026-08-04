@@ -1,18 +1,4 @@
-﻿# Converted from: BL-PRA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spas9504/raw/BL-PRA1.ANS
-# Source Revision: archive-sha256:916c7acab9b210f3e97ff0544079806a486a09bbb4eddfa318f2a69301332293
-# Source SHA-256: b67b61fbd75f172a6d8ab3fcd49e46a344fb76829a199ebb2e3dc833ef31ab1b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BL-PRA1.ANS by Black Lightning + Chromatik (Spastic); released in spas9504 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Prayer
-# SAUCE Author: Black Lightning
-# SAUCE Group: Spastic
-# SAUCE Date: 19950321
-# SAUCE Dimensions: 80x25
-# Lines: 46-89
-# Columns: 1-80
+﻿# Artwork: Prayer by Black Lightning + Chromatik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spas9504-bl-pra1-part02
 
 Write-Host '
 [31m   ▒  ▄[0m       [33m▀▀▀▀▓▄▄▄▓▒▒[0m        [33m▄▓▀ [0;1;31m█▄▄█▓▄▀▌▓[0;1;31;43m▓▓[0;1;31;40m█▀█[0;1;31;47m▓▒▒░▒[0;1;31;40m▓[0m      [33m▒▌[0m      [31m▀[0m

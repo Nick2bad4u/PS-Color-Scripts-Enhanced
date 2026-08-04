@@ -1,18 +1,4 @@
-﻿# Converted from: CR-NYX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-01/raw/CR-NYX.ANS
-# Source Revision: archive-sha256:8a67b8a789d291ebb3c2dac335fadb955c4c5780d922eead5382af014b63c773
-# Source SHA-256: 021d3284d8b395198d16856aad34b8b4ca596fab40c255bf2750e51114c7f54c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CR-NYX.ANS by creator (used); released in used-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: nyx
-# SAUCE Author: creator
-# SAUCE Group: used
-# SAUCE Date: 19991101
-# SAUCE Dimensions: 80x75
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: nyx by creator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-01-cr-nyx-part01
 
 Write-Host '
                              [1m▄▄▄▄▄▄▒▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

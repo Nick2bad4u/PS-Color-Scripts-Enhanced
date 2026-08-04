@@ -1,18 +1,4 @@
-﻿# Converted from: US-SUCDE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel12/raw/US-SUCDE.ANS
-# Source Revision: archive-sha256:ebe2e7b01f31e0e82aa2702a876007d4ec2dd824b98bdf40e4d59e2b113da7e4
-# Source SHA-256: 38b1da3a47ee32e5a6abfda6d8fdb229f4c981fe7cbbba13538f2f0d6f670ce2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SUCDE.ANS by Spirit Of Rage + Mr4tune (Fuel Productions); released in fuel12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Suicide
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Fuel Productions
-# SAUCE Date: 19970401
-# SAUCE Dimensions: 80x74
-# Lines: 38-74
-# Columns: 1-80
+﻿# Artwork: Suicide by Spirit Of Rage + Mr4tune | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel12-us-sucde-part02
 
 Write-Host '
  [1;30m░[0m    [1;30m░░░[0m   [1;30m▀▀▓████[0;1;30;47m██▓▒▒▓[0;1;30;40m█████▄▓[0;1;30;47m████[0;1;30;40m█[0;1;30;47m█▓▓[0;1;30;40m▄[0m       [1;30m....a[0m                 [1;30m ░ [0m

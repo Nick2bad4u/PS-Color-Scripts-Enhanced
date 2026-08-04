@@ -1,19 +1,4 @@
-﻿# Converted from: tk-shaolin.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel30/raw/tk-shaolin.ans
-# Source Revision: archive-sha256:e3148e82a669aa484baf0738069fbabe44ba2824856e1cb4b05875b86bdd4621
-# Source SHA-256: 80f853f52e1a88aa13c4e9055484b220e655075bc9e5dc377427da172c264e51
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tk-shaolin.ans by the knight (fuel); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: shaolin
-# SAUCE Author: the knight
-# SAUCE Group: fuel
-# SAUCE Date: 20190406
-# SAUCE Dimensions: 80x103
-# SAUCE Font: IBM VGA
-# Lines: 36-69
-# Columns: 1-80
+﻿# Artwork: shaolin by the knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel30-tk-shaolin-part02
 
 Write-Host '
           [34m▐[0;37m   ▄ ▄  ▄  ▄  ▄ ▄  ▄ ▄ [0;33m▀▀████████▀▀[0;37m▄  ▄  ▄ ▄  ▄  ▄ ▄  ▄ [0;34m▐[0m

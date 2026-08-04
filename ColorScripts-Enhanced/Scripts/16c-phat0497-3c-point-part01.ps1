@@ -1,18 +1,4 @@
-﻿# Converted from: 3C-POINT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0497/raw/3C-POINT.ANS
-# Source Revision: archive-sha256:ac23f379eb24f5f6ad8faa432723caa3c85fc7d4fc380b1d3e101e8eb50ca483
-# Source SHA-256: 35e17a1ffc077ffdb0219f484f7556f27f9a44c23369860fa24f391f744d73bc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 3C-POINT.ANS by tricolOre (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: this is the title
-# SAUCE Author: tricolOre
-# SAUCE Group: phat studios '97
-# SAUCE Date: 19970324
-# SAUCE Dimensions: 80x63
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: this is the title by tricolOre | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0497-3c-point-part01
 
 Write-Host '
                                                                             ·

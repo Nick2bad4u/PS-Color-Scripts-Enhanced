@@ -1,13 +1,4 @@
-﻿# Converted from: SYL-CUBE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fdr-03/raw/SYL-CUBE.ANS
-# Source Revision: archive-sha256:cac34a6b7c47c076c878193a4da01da4f38b7c8e471d7a9bf4b3a7850655fb5e
-# Source SHA-256: db1ffdbd237fd664a6a9726c68dbe6d031a7c8bcd6653040cc592c8cdc971090
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SYL-CUBE.ANS by Sylvao (fdr-03); released in fdr-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: SYL-CUBE.ANS by Sylvao | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fdr-03-syl-cube
 
 Write-Host '
 [32m [0;31m▐▌[0;37m [0;31m▐▌[0;37m [0;31m█[0;37m [0;31m▐▌[0;37m [0;31m█[0;1;31m▄[0m [32m [0;1;31m▀▄[0;32m [0;1;31m▓[0;32m  [0;1;31m░[0;32m  [0;1;31m [0m        [35m█████[0;32m [0;1;35m█[0;1;35;45m▒[0;35m█[0;37m [0;35m████[0;37m [0;1;35m██[0;1;35;45m▒░[0;35m█ ███[0;32m [0;35m███▌▐████▓[0;32m [0;35m███▓ ███▓▒[0m

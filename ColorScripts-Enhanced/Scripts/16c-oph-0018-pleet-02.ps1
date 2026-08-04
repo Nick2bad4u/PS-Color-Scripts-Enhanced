@@ -1,17 +1,4 @@
-﻿# Converted from: PLEET-02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oph-0018/raw/PLEET-02.ANS
-# Source Revision: archive-sha256:b78bc978b69dedfb9a07152cba296ecefc97611bd7bc7f5211d489ff748613dc
-# Source SHA-256: 4e520dd18d0493cb33c21d212845ca45ff098c51ce64e19afd8a6aef3a573c5e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PLEET-02.ANS by pleeto (oph-0018); released in oph-0018 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: _[[\     ^[] _[[[[[2\0  ^[[[[20
-# SAUCE Author: pleeto
-# SAUCE Date: 19960917
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: _[[\ ^[] _[[[[[2\0 ^[[[[20 by pleeto | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oph-0018-pleet-02
 
 Write-Host '
 [1;32;46mpleet(O)phid:[0;1;36;40m█████████████████▀▀▀▀▀[0m [1;32m▄▀[0m [1;33m▄▓[0m [1;36m▀██████████████████████▀     ░ ░░░▀███[0m

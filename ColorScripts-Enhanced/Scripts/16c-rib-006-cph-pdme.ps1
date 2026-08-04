@@ -1,18 +1,4 @@
-﻿# Converted from: CPH-PDME.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-006/raw/CPH-PDME.ANS
-# Source Revision: archive-sha256:4d7b445ca8b643922c5230e9f5b3c442135561ba0bcfa9b1ae5cb138b563798c
-# Source SHA-256: 65801c7cffe03268156388ab3043108841252aab9ffc5656c97a7ea671f1fe06
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-PDME.ANS by {YBERPUNCh (RiB); released in rib-006 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: PARADiZE dREAM MAiN M
-# SAUCE Author: {YBERPUNCh
-# SAUCE Group: RiB
-# SAUCE Date: 19980306
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: PARADiZE dREAM MAiN M by {YBERPUNCh | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-006-cph-pdme
 
 Write-Host '
                                                             [1;30m▐[0;1;30;47m▓░▒[0;1;30;40m▌[0m  [1;30manseeeby [0m

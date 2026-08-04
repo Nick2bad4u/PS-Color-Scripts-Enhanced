@@ -1,18 +1,4 @@
-﻿# Converted from: MR-WORK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira9801a/raw/MR-WORK.ANS
-# Source Revision: archive-sha256:e078b6410509abad43422f2b2341d3c9069c369cc769e7c4238a292c9d0a2694
-# Source SHA-256: d0802d11c6e272fd91d7f5bca4cfc326b43bc0f9782e8e56723f56b10b964972
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-WORK.ANS by Mr.Wrong (irato); released in ira9801a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: homework
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: irato
-# SAUCE Date: 19971223
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: homework by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira9801a-mr-work
 
 Write-Host '
 

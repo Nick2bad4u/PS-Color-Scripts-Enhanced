@@ -1,18 +1,4 @@
-﻿# Converted from: K1-FSO6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus03/raw/K1-FSO6.ANS
-# Source Revision: archive-sha256:ae240da6329918ab0bf39714e2edb95ea5883c52a5e5edf845b291bbb7142ce1
-# Source SHA-256: ab39d7c4532e9d0645d1568009ac772e0847c42152f4d59cc8bc20c658d4a300
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K1-FSO6.ANS by Knocturnal (Fokus fonting); released in fokus03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fokus fonting
-# SAUCE Author: Knocturnal
-# SAUCE Group: Fokus fonting
-# SAUCE Date: 19990422
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: Fokus fonting by Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus03-k1-fso6
 
 Write-Host '
                   [35m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m     [35m ▄▄[0;1;35m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;35m▄▄[0m

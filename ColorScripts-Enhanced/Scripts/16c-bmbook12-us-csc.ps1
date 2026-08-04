@@ -1,18 +1,4 @@
-﻿# Converted from: US-CSC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook12/raw/US-CSC.ANS
-# Source Revision: archive-sha256:ec66f5bb4ed961133c52314c375d67af30a5295789eb6bfc6eda91ebf8999fc2
-# Source SHA-256: f63f1abc3eda022138623d819cea09490bac3ae3830fd5a3819f3df881f3950c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CSC.ANS by Avenger + Toot (black maiden); released in bmbook12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: crescent
-# SAUCE Author: ave + toot
-# SAUCE Group: black maiden
-# SAUCE Date: 19970111
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: crescent by Avenger + Toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook12-us-csc
 
 Write-Host '
 [1m▄▐███████████████████████████[0;1;47m▌▀[0;1;40m▀▀▀[0m       [1m▀██████████████████████████████████████[0m

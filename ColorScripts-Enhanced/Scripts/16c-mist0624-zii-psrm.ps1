@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-PSRM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0624/raw/ZII-PSRM.ANS
-# Source Revision: archive-sha256:7e2642f67629daefe8d04ebedd2e233be2e8a74b2dea50eb02da49be24298927
-# Source SHA-256: be06f978302cd9930011785cae5a03b4a1ad3e8c57a41bea41784a12ed72eeb5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-PSRM.ANS by Zeus II (Mistigris); released in mist0624 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Psion Rumors Menu
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20231014
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Psion Rumors Menu by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0624-zii-psrm
 
 Write-Host '
 [1;30m▀▀▀▀[0;32m▀▀▀▀▀▀▀▀▀▀▀▀█[0;1;32;42m▀▀▄▄▄[0;1;30;42m░[0;32m██▀▀▀▀[0;1;30m▀▀▀▀▀▀[0;32m▀▀▀██ ▀▀▀▀▀▀[0;1;32;42m▀▀▄▄■░[0;32m▀▀▀▀[0;1;30m▀▀▀▀▀▀[0;32m▀▀▀█▀▀[0;37m   [0;32m▀▀▀[0;1;30m▀[0;1;30;42m▀▓█[0m

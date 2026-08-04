@@ -1,13 +1,4 @@
-﻿# Converted from: ko-lucca.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/karma-03/raw/ko-lucca.ans
-# Source Revision: archive-sha256:91bf38a37d265f766584c08474940331977133c323f72bff6bdb797423dda7af
-# Source SHA-256: 66c46946e708a22f4aaf8ff6eb9d3ce6d875e5db6234848575222bb2a57b506b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ko-lucca.ans by Konami (karma-03); released in karma-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ko-lucca.ans by Konami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-karma-03-ko-lucca
 
 Write-Host '
 [35m☻☻☻[0;1;35m☺☺[0;35m [0;37m [0;1;37m│[0m  [35m7`[0;37m .⌐[0;1;33m▲[0;1;37m☻[0;1;33;47m☻☻[0mb,`""`,d[1;33;47m☻☻[0;1;33;40m,[0m [1;33m`` [0;1;37m,d[0;1;33m☻l  :☻☻☻[0;1;37m▓▓▓[0;1;33m  ☻☻[0;1;37m☻☻/[0;1;30m,[0;1;37m  [0;1;33m,\[0;1;37m☻☻☻b[0;1;33m, [0;1;37m░░[0m,d☻[1;30m☻[0;1;31m  [0;35m☺☻☻☻☻☻☻[0m

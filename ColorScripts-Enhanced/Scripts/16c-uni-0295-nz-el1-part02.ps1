@@ -1,18 +1,4 @@
-﻿# Converted from: NZ-EL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0295/raw/NZ-EL1.ANS
-# Source Revision: archive-sha256:3c1f9e2be5bb9da143a16b3da10a257af365153b05cfdbe553f9e1db9662a266
-# Source SHA-256: 59bc5cbb0a7a146d68560d03179ea2b5e8213d20bb752f35d24afdd605b494a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NZ-EL1.ANS by Nailz (Union); released in uni-0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Eleutheria
-# SAUCE Author: Nailz
-# SAUCE Group: Union
-# SAUCE Date: 19950201
-# SAUCE Dimensions: 80x25
-# Lines: 45-80
-# Columns: 1-80
+﻿# Artwork: Eleutheria by Nailz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0295-nz-el1-part02
 
 Write-Host '
 [35m▄▄▄▄ [0;37m▀▀ [0;1;37m▒[0m▀▄[1m▒[0m▀▄[1m▓▀▄▀███▀▀█▄▄▄██[0;1;47m▓[0;1;40m▀▄██▀▓[0m▀                   [32m▄▄  [0;37m▌▐[0;1;37m▀[0;1;37;47m▓▒[0m [31m██████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: K-LEITK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook22/raw/K-LEITK.ANS
-# Source Revision: archive-sha256:aec74908b08ab1e6eeb2617f04dd839f89321bd6f70d460ae94d73bdd51d69b6
-# Source SHA-256: a9238aafe6d62e5689ad10f82dc582b9dadd4fe9c401e788ae51263a2286aace
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K-LEITK.ANS by kyp (black maiden); released in bmbook22 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: leitkultur
-# SAUCE Author: kyp
-# SAUCE Group: black maiden
-# SAUCE Date: 20010310
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: leitkultur by kyp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook22-k-leitk
 
 Write-Host '
 [1;36m░[0;1;30m▀[0;31m▀▀[0;1;30;41m▄[0;31m██[0;1;37m░░░░[0;31m██[0;1;33m▒▒[0;31m████[0;1;31m▒▒▒[0;31m█▀▀▀[0;1;30m▀▀▀[0;33m      [0m     [31m▀▀░░[0;37m [0;1;31m [0;34m▄[0;1;31;44m░[0;1;31;40m██[0;1;31;47m▓▓▓[0m██[1m▓▓[0m [31m▐█████████████[0;1;34m░░░░░[0;1;31m▒▒▒[0m

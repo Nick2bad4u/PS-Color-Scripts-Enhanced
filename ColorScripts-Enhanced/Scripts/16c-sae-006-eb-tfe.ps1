@@ -1,13 +1,4 @@
-﻿# Converted from: EB-TFE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sae-006/raw/EB-TFE.ANS
-# Source Revision: archive-sha256:e9e142a2625cad460a8146e0b620c72b2b6a3834ff77753a265e2be8e5c7719f
-# Source SHA-256: b0d12e403616f297aadaa51c8a4f5620e399380fcec10b3a01daf5c219696cea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EB-TFE.ANS by Eboy (sae-006); released in sae-006 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: EB-TFE.ANS by Eboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sae-006-eb-tfe
 
 Write-Host '
 [1;33;43m   ░    ░░▒░▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;33;40m██[0;1;33;43m▓[0;1;33;40m█[0;1;37;40m█[0;1;33;40m██[0;1;33;43m▓▓▓[0;1;33;40m███[0;1;33;43m▓▓[0;1;33;40m████[0;1;33;43m [0;1;37;40m█[0;1;33;40m██[0;1;33;43m▓▓▓▓▓▓▓▒▓▓░[0;1;33;40m██[0;1;37;40m█[0;1;33;40m██[0;1;33;43m▓▓▓▓▓▓▓░░ ░    [0m

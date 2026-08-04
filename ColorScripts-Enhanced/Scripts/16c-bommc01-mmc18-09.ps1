@@ -1,18 +1,4 @@
-﻿# Converted from: mmc18-09.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bommc01/raw/mmc18-09.ans
-# Source Revision: archive-sha256:0e202a554be4c5a61c37230b2f619caf545c069dc1c49e22f04718c59893cd7d
-# Source SHA-256: 99bc521d39ae92f4b5cce4c06269588c1d4f2e13ce542f03f72a92e11eda9a38
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mmc18-09.ans by h7 (mimic); released in bommc01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: flicker
-# SAUCE Author: h7
-# SAUCE Group: mimic
-# SAUCE Date: 19991206
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: flicker by h7 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bommc01-mmc18-09
 
 Write-Host '
 [1;30m([0;36mFLICKER - MAGAZINE[0;1;30m)[0m [33m.[0;37m [0;33m..[0;37m [0;33m.........[0;1;33m.... .   . ...[0;33m....................[0m

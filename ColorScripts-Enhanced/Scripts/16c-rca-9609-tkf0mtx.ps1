@@ -1,13 +1,4 @@
-﻿# Converted from: TKF0MTX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-9609/raw/TKF0MTX.ANS
-# Source Revision: archive-sha256:b8dd1220b09b83c8af4c4f2bd74968552ed3ecfc85ae31ad7bf3b2d62f23e9e2
-# Source SHA-256: 9d955055c9365aab94e9760d8e869cdeff469aec92c023238bfe9ef089e2f714
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TKF0MTX.ANS by Tek + F00l (rca-9609); released in rca-9609 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: TKF0MTX.ANS by Tek + F00l | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-9609-tkf0mtx
 
 Write-Host '
 [1m[0;1;30m[0m[1;30m[0m[1;30m.$''[0;36m,qS$$$$$$$$$$$$$$7ⁿ°ⁿS¼$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$Sp,[0;1;30m`$.[0m

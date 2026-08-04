@@ -1,18 +1,4 @@
-﻿# Converted from: US-PL4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/301-9701/raw/US-PL4.ANS
-# Source Revision: archive-sha256:68b3636a196d5929eee49531cea77973c53ca8e94fbe1b1791bba1f6e1e2e3c3
-# Source SHA-256: b3859c8d86365c0b3e43dfccb7f2485dd82c5ee7f3444f58d3b12b5d607e72d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PL4.ANS by Spiritseeker + Illogic (project three-oh-one); released in 301-9701 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Planets Confies?
-# SAUCE Author: Spiritseeker / ill
-# SAUCE Group: project three-oh-one
-# SAUCE Date: 19970118
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Planets Confies? by Spiritseeker + Illogic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-301-9701-us-pl4
 
 Write-Host '
 [1;34;44m░▄▓▄[0;1;34;40m██[0;1;34;47m▀▓█[0;1;34;40m███████████████████████████████████████[0;1;34;44m▌[0;1;30;40m▐[0;1;30;47m▓▀▀[0m█[1;30;47m▀[0m██████████████████[1;47m▀[0m█[1;47m▀▓▀▀[0;1;37;47m▓[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: RASTAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wld-art1/raw/RASTAS.ANS
-# Source Revision: archive-sha256:50ed6fae6086bd8627c6af52f6ef908060babebbb61eaf0313617feea2b46912
-# Source SHA-256: 75e2cf22854c1a726e45a127d40f924df25cf185e669a3e0a2d0c265807e4090
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RASTAS.ANS by Darkman-Circe (wld-art1); released in wld-art1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: RASTAS.ANS by Darkman-Circe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wld-art1-rastas
 
 Write-Host '
   [33m░▒[0;37m [0;33m░▒▒[0;37m [0;33m▒▒▓▒░[0;37m [0;33m▒[0m   [33m░[0;37m  [0;33m░▒▒░[0m       [33m░▒░[0m    [33m░░░░[0;37m [0;33m░▒▓▒▒░[0;37m  [0;33m░▒░[0m     [33m░[0;37m [0;33m░░▒▓▒░[0;37m  [0;33m░[0m   [33m░▒░[0m

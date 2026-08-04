@@ -1,18 +1,4 @@
-﻿# Converted from: FV-FRZCM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile_001/raw/FV-FRZCM.ANS
-# Source Revision: archive-sha256:f7a8644489c1d011b91477b5b1eab40d9f39b077b89f158a7a0c3d1c032c6d81
-# Source SHA-256: de017ff445b50ebb7e7e5c9ff9d553465f0bfcc8d6408235f0331d510fa65e88
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-FRZCM.ANS by fe v  e   r (rile); released in rile_001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: alice!
-# SAUCE Author: fe v  e   r
-# SAUCE Group: rile
-# SAUCE Date: 19970215
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: alice! by fe v e r | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile-001-fv-frzcm
 
 Write-Host '
                                                                [30;41m█[0m

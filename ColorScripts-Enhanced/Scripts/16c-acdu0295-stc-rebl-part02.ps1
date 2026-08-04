@@ -1,18 +1,4 @@
-﻿# Converted from: STC-REBL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0295/raw/STC-REBL.ANS
-# Source Revision: archive-sha256:783416b41a421333c3ef8049cdade58e4e0c645dd104994cd95b81b7407d25ff
-# Source SHA-256: 60a94fe335721f03d0e1bf0db43879d2c4e6f79be9b27c47551d0162ef7ceb56
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STC-REBL.ANS by Stone The Crow (ACiD Productions); released in acdu0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Rebellion
-# SAUCE Author: Stone The Crow
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950125
-# SAUCE Dimensions: 80x93
-# Lines: 44-93
-# Columns: 1-80
+﻿# Artwork: Rebellion by Stone The Crow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0295-stc-rebl-part02
 
 Write-Host '
  [34m▌[0m [34m▐▌[0m [1;30m▓[0m [34m▓[0m [34m▌[0;1;30m▓[0m ▐███▓█[1;47m░[0m▄▄         [1;30m  [0m   [43m▒[0;40m█[0;1;47m ░▒░[0m██ ▓████████[43m▓[0;40m▌[0;35;40m▐▓████▄  ▄▓████████████[0;37;40m [0m

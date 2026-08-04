@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-VOID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0822/raw/ZII-VOID.ANS
-# Source Revision: archive-sha256:ed72a43421208b7431337d20b0e65cf1daa85d400f3cf90754e23de5d5edd83f
-# Source SHA-256: 13632cc4bbad6a75e1d6be60434fd358d926092cd0575aea5e93e00991fad075
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-VOID.ANS by Zeus II (Mistigris); released in mist0822 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Void Heaven
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20220812
-# SAUCE Dimensions: 80x15
-# SAUCE Font: IBM VGA
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: Void Heaven by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0822-zii-void
 
 Write-Host '
 [35m█[0;1;36;45m▄▀[0;35m▀▄[0;1;35;45m▄▀▀[0;35m [0;32m▄▄▄▄[0;35m▄ ▀▓▀ ▄▄▄▄▄ ▄[0;1;35m▀[0;35m▀[0;37m  [0;32m▄▄▄[0;35m▄▄[0;37m   [0;35m▀[0;1;35;45m▄[0;35m▄█▀[0;37m   [0;32m▄▄▄▄[0;35m▄[0;37m  [0;35m▀▀█[0;37m [0;32m▄▄▄▄▄▄[0;35m▄[0;32m▄▄[0;35m▄[0;37m  [0;35m▀█[0;1;35;45m▄▀▀▄[0;35m▄▀[0;1;36;45m▀▄[0;35m▓[0m

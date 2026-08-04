@@ -1,17 +1,4 @@
-﻿# Converted from: WDMKR-03.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oph-0018/raw/WDMKR-03.ANS
-# Source Revision: archive-sha256:b78bc978b69dedfb9a07152cba296ecefc97611bd7bc7f5211d489ff748613dc
-# Source SHA-256: e83f27d003477f6118ea9046520f45358ad1bbf0b00f9bb75bb186b14e6e967f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WDMKR-03.ANS by widowmaker (READ THE INI FILE); released in oph-0018 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: widowmaker
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19960916
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: WDMKR-03.ANS by widowmaker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oph-0018-wdmkr-03
 
 Write-Host '
 

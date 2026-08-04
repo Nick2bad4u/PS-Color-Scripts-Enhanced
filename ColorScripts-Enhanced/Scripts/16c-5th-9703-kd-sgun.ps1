@@ -1,18 +1,4 @@
-﻿# Converted from: KD-SGUN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/5th-9703/raw/KD-SGUN.ANS
-# Source Revision: archive-sha256:fffb2c785ea5bb00b22bc525df88c9cca2a7e3ac70af213df8cc76a82e190c3a
-# Source SHA-256: 8422045ed7adcb8890f65c4500d92838f440da2ae398ef7bf55048a299a92dfa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KD-SGUN.ANS by KLeaR DiSToRTioN ([Chaos InC. Rhyme]); released in 5th-9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: shotgun bbs system
-# SAUCE Author: KLeaR DiSToRTioN
-# SAUCE Group: [Chaos InC. Rhyme]
-# SAUCE Date: 19970629
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: shotgun bbs system by KLeaR DiSToRTioN | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-5th-9703-kd-sgun
 
 Write-Host '
 [34m$$$$$$$$$$[0;1;37m [0;1;30m|[0;1;37m [0;34m$$$$$$"$$$$$$$$$$$$$$$$$$$$$$ⁿ"ⁿ$$$$$$$$$$$$$"$$$$$$$$$$$"$$$$$§$$$[0m

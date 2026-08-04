@@ -1,18 +1,4 @@
-﻿# Converted from: IQ-STL03.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stl-001/raw/IQ-STL03.ANS
-# Source Revision: archive-sha256:c816a943b20935c303514c1ef3cdd50eb87b0620e57aaacbb822a80e0731ed25
-# Source SHA-256: e4abf3444449013c3e70b48f70ada3c4f9d32c9e4d132836273b8245e0d11245
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IQ-STL03.ANS by Ique (Stile); released in stl-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Stile
-# SAUCE Author: Ique
-# SAUCE Group: Stile
-# SAUCE Date: 19941021
-# SAUCE Dimensions: 80x25
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Stile by Ique | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stl-001-iq-stl03
 
 Write-Host '
 [1;30m░[0m        [1;30m░░▒▒▓▓█▓█▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▓█▓▓▒▒░░[0m

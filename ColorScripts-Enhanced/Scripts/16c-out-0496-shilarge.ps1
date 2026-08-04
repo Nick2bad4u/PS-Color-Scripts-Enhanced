@@ -1,13 +1,4 @@
-﻿# Converted from: SHILARGE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0496/raw/SHILARGE.ANS
-# Source Revision: archive-sha256:cdd9cc2f1fca042f78e917daf1bb7a23c87facda51f5746b4bcfb25070cd2f45
-# Source SHA-256: 2dad1e44953d0ef59a5e1ad3a115aa7878c925bd3e2f079210ebfc2c9bb3bd5c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SHILARGE.ANS by Sandy Chidester (out-0496); released in out-0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: SHILARGE.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0496-shilarge
 
 Write-Host '
 [30;45m▀[0;1;30m▄[0;30;45m▀[0;1;30m▄[0;30;45m▀[0;1;30;44m▀[0;1;30;45m▄[0;1;30m▀  [0;30;45m▀[0;1;30m▄[0;30;45m▀[0;1;30;45m▀▀[0;1;30m█[0;34;45m▄[0;1;30;44m▀[0;30;45m▀[0m [1;30m▄▀[0;1;30;45m▀▀[0;1;30m▀ █▄ [0;35m█[0;1;30m▄▀▄ ▄ [0;1;30;45m▄[0;1;30m▄▄    [0;30;45m▀[0;1;30;45m█[0;30;45m▀[0;1;30m▄[0;30;45m▀▀[0m [1;30m▀[0;30;44m▄[0;34;44m█[0;1;30;44m▀[0;1;30m▄ [0;35m█[0;1;35m██[0;1;35;45m▄[0;1;30;45m▀[0;30;45m▀[0;1;30;45m▄[0;1;35;45m▀█▄[0;1;30;45m▀▀▀[0;30;44m▄[0;34;44m█[0;34;45m▄[0m [1;30m▄    [0;30;44m▄[0m

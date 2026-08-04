@@ -1,18 +1,4 @@
-﻿# Converted from: (M!)CLOS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0497/raw/(M!)CLOS.ANS
-# Source Revision: archive-sha256:ac23f379eb24f5f6ad8faa432723caa3c85fc7d4fc380b1d3e101e8eb50ca483
-# Source SHA-256: 63a7b23e79ba07f2824a5a502c78050cb68333ccb47c73e14fbec5ce23f0f947
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: (M!)CLOS.ANS by m0! (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: free "closed board"
-# SAUCE Author: m0!
-# SAUCE Group: phat studios '97
-# SAUCE Date: 19970325
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: free "closed board" by m0! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0497-m-clos
 
 Write-Host '
   [1;36m▄███▀▀▀█[0;1;36;46m█▀▄[0;36m█ [0;1;36m▄███[0m         [1;36m▄███▀▀▀█[0;1;36;46m█▀▄[0;36m█ [0;1;36m▄█[0;1;36;46m▓[0;1;36;40m█▀▀▀█[0;1;36;46m█▀▄[0;36m█ [0;1;36m▄███▀▀▀█[0;1;36;46m█▀▄[0;36m█ [0;1;36m▄███▀▀▀█[0;1;36;46m█▀░[0m

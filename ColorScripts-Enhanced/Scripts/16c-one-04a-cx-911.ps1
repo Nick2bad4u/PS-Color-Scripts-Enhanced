@@ -1,18 +1,4 @@
-﻿# Converted from: CX-911.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/one-04a/raw/CX-911.ANS
-# Source Revision: archive-sha256:01550923b0a1bcd95096534750e3829f7b161ebd7e1156106cd69ef8aa73e1ab
-# Source SHA-256: e0f451b196eeb1753983db74140ebf88b412c54987b713970f4280934c224864
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CX-911.ANS by Cyrix (One); released in one-04a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 911
-# SAUCE Author: Cyrix
-# SAUCE Group: One
-# SAUCE Date: 19970327
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: 911 by Cyrix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-one-04a-cx-911
 
 Write-Host '
 [1;30m[0m[1;34m[0m [1;30m▄▄▄▄▄[0m  [1;30m▄▄[0m  [1;30m▄▄▄▄▄[0m   [1;30m▄▄▄▄▄[0m    ▄▄[1;30m▄[0m▄[1;30m▄[0m   [1;30m▄▄▄▄▄[0m   [1;30m▄▄▄▄▄[0m    [1;30m▄▄▄▄▄[0m   [1;30m▄▄▄▄▄[0m   [1;30m▄▄▄▄▄[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: LS-TRMNL.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9403/raw/LS-TRMNL.ICE
-# Source Revision: archive-sha256:256add313f6fb2d9526e695b09f6039aacb3931a76c34081a80ce81f3cc3dbc4
-# Source SHA-256: 60260b571098c9ad36e16e8b252b9aa15e8fbcc0bca029daa7f6910357d046cc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LS-TRMNL.ICE by Lord Sloth (iCE); released in ice-9403 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Terminal Sabatage
-# SAUCE Author: Lord Sloth
-# SAUCE Group: iCE
-# SAUCE Date: 19940402
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: The most amazing ansi ever made
-# Lines: 87-127
-# Columns: 1-80
+﻿# Artwork: Terminal Sabatage by Lord Sloth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9403-ls-trmnl-part03
 
 Write-Host '
                                           [1;30;40m░▒▓▓[0m

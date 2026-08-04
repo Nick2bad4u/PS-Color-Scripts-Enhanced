@@ -1,18 +1,4 @@
-﻿# Converted from: 09-MARIE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9610/raw/09-MARIE.ANS
-# Source Revision: archive-sha256:2f6e3c8c2e64cc8380afc3a639da2793e02ea87790d90b8b4bede4b760040753
-# Source SHA-256: 5b8116107728f3fbf5b5955be56c0d5d90a75b17cede92013ce2c08b48c5d0d4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-MARIE.ANS by Fluor (awe lettering); released in awe9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Love Screen ;)
-# SAUCE Author: Fluor
-# SAUCE Group: awe lettering
-# SAUCE Date: 19960929
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Love Screen ;) by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9610-09-marie
 
 Write-Host '
   [1m■▄[0;1;30m█▄▄▄[0m

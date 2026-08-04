@@ -1,18 +1,4 @@
-﻿# Converted from: US-AMPER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9705/raw/US-AMPER.ANS
-# Source Revision: archive-sha256:8be34660f06cc6610ed258606edc1af91e25b5675ab5e99aed29e53c07e63e17
-# Source SHA-256: 67bbbe982b6a5fe98347b935811eda03c6996b735ce97e2904fe154fccf5c9f7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-AMPER.ANS by The Night Angel + Grindstoned (AWE Lettering); released in awe9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Ampersand
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970510
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Ampersand by The Night Angel + Grindstoned | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9705-us-amper
 
 Write-Host '
  [1;30m-──∙─-░-+─--──-─-- ▄ ─-[0m     [1;37m░▒▓▓██[0;1;37;46m▄[0;1;37;40m▄▄[0;1;36;40m▄▄ [0;1;30;40m─-───░─-─-───-─────-+──-────-∙─-───-+[0m

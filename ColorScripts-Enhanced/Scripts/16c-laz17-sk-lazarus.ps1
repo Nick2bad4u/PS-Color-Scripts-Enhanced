@@ -1,19 +1,4 @@
-﻿# Converted from: sk!lazarus.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz17/raw/sk!lazarus.ans
-# Source Revision: archive-sha256:2674245bad3e14fe6d4a935ba8daf9898a4426e394c56ca9710e3afa19d3d943
-# Source SHA-256: 5c34198432ac1e2091e17ea04e66f3248a36b2e24968a94c56c596cb00eb1238
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sk!lazarus.ans by sIMONkING! (thelo0p!^LAZARUS); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: LAZARUS
-# SAUCE Author: sIMONkING!
-# SAUCE Group: thelo0p!^LAZARUS
-# SAUCE Date: 20230703
-# SAUCE Dimensions: 80x29
-# SAUCE Font: IBM VGA
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: LAZARUS by sIMONkING! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz17-sk-lazarus
 
 Write-Host '
 

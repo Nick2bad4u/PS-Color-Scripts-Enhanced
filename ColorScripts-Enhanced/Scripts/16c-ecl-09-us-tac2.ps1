@@ -1,18 +1,4 @@
-﻿# Converted from: US-TAC2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-09/raw/US-TAC2.ANS
-# Source Revision: archive-sha256:6c371ec8bbb75e88f59630021fbbd23f2fc630c10ee1cde240cc20faafea1ca9
-# Source SHA-256: 78615d8073afe7086364411508a45df7f06be46039495d3d7da9ad7d13ad5507
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TAC2.ANS by Pzyko + Jeepee (multiple groups); released in ecl-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: tac
-# SAUCE Author: multiple artists
-# SAUCE Group: multiple groups
-# SAUCE Date: 19961115
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: tac by Pzyko + Jeepee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-09-us-tac2
 
 Write-Host '
 pzyko                  [36m▄[0;1;36m▄[0;1;37m▄▄[0;36m▄▐[0;1;37;46m▓▓█▄[0;1;37;40m▄▄[0;1;36;40m▄[0;36m▄[0m     [36m▄[0;1;37m▄[0;1;37;46m▄▄█▄[0;1;37;40m▄▄[0;36m▄[0m

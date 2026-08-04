@@ -1,19 +1,4 @@
-﻿# Converted from: mt-brianna.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy13/raw/mt-brianna.ans
-# Source Revision: archive-sha256:3ed7178f860604c6b9786846d46fd13095846b81c16a5324edc4e4b9ea7e6ba8
-# Source SHA-256: 60d06e7d420825d9a38f2668cfcf982c4f3505c670a72e9989ee2337d97f95b0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mt-brianna.ans by misfit (apathy); released in apathy13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: brianna
-# SAUCE Author: misfit
-# SAUCE Group: apathy
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x39
-# SAUCE Font: IBM VGA
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: brianna by misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy13-mt-brianna
 
 Write-Host '
 [36m████████████████████████████▀▀▀▀██▀▀▀█████████████████████████[0;1;32;46m▄▓▀▀[0;36m██[0;1;32;46m▄▄[0;36m████████[0;1;32;46m▀▓[0m

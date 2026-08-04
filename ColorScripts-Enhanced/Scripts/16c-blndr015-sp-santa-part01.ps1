@@ -1,13 +1,4 @@
-﻿# Converted from: SP-SANTA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr015/raw/SP-SANTA.ANS
-# Source Revision: archive-sha256:207257efec59abae2611bc00a45085830a91002aa8a590ce35f7b3ac437e031e
-# Source SHA-256: 95bf63399d1e0e434f44fe416260248984d92175c48c3df9dc983b720d14b706
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SP-SANTA.ANS by Seraphim (blndr015); released in blndr015 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: SP-SANTA.ANS by Seraphim | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr015-sp-santa-part01
 
 Write-Host '
          █[1;47m██[0m█       █[1;47m█[0m

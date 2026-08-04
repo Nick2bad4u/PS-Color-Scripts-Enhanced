@@ -1,20 +1,4 @@
-﻿# Converted from: us-4m15h.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna03/raw/us-4m15h.ans
-# Source Revision: archive-sha256:997aaab655669129eb266c21ca0c4588b603e11c90338498bb530f8bba390fb2
-# Source SHA-256: 5d4301d05407d99dc4ba6313bbfff54c6eec516e8b336553ca24ce130520ddb5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-4m15h.ans by Knocturnal + Tainted + Avg + Alpha King (sauna); released in thesauna03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: amish
-# SAUCE Author: tnt k1 ak avg
-# SAUCE Group: sauna
-# SAUCE Date: 20210811
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Think you're really righteous? | Think you're pure in heart? | Well, I know I'm a million times as humble as thou art!
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: amish by Knocturnal + Tainted + Avg + Alpha King | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna03-us-4m15h
 
 Write-Host '
 [33;40ma m i s h[0m

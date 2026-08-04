@@ -1,18 +1,4 @@
-﻿# Converted from: NT-JIVE5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy05/raw/NT-JIVE5.ANS
-# Source Revision: archive-sha256:2e1c7dd4c451a5d024352ee6b56eba52a2d5ba6a7d73a9cc34cff58fc603ca18
-# Source SHA-256: 442e963705993f68fb8a1ec94c11dbf8b94c84dfd561216bbae1ef4acd12346a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NT-JIVE5.ANS by Nootropic (Apathy); released in apathy05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Jive Soda #5 (905-569-9492)
-# SAUCE Author: Nootropic
-# SAUCE Group: Apathy
-# SAUCE Date: 19960104
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Jive Soda #5 (905-569-9492) by Nootropic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy05-nt-jive5
 
 Write-Host '
            [31m█░█[0;1;33;41m░[0;31m▒[0;1;33;41m▒▓[0;1;33;40m█▓[0;31m [0;35m▄▄▄█▓█ [0;1;33m░[0;35m▄▒▓██ [0;1;33m░[0;35m▄▄▒   ▄▄▒██▓ [0;1;33m▄■[0;35m ▄▄▄▄▒▄▄[0;31m▀▒▀[0;1;33;41m ░[0m [31m▓░[0;37m  [0;31mnewt[0;35m/[0;33mapathy[0m

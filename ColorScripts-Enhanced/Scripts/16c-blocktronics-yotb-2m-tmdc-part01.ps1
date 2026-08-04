@@ -1,13 +1,4 @@
-﻿# Converted from: 2m-tmdc.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_yotb/raw/2m-tmdc.ans
-# Source Revision: archive-sha256:f702f09f6116b5ac6fa523d36f54d796db6f44f880e4f1cd426d29a9fbda605e
-# Source SHA-256: 9ae1c3eac433090d95a2d20352a3f1fd561b4e4fb88e2b87cf11e725d2a79c9f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2m-tmdc.ans by Mattmatthew (blocktronics_yotb); released in blocktronics_yotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: 2m-tmdc.ans by Mattmatthew | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-yotb-2m-tmdc-part01
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: GR-HUB1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9505a/raw/GR-HUB1.ICE
-# Source Revision: archive-sha256:7861518dfd83d60b94b81bdb02a8d68bbd05655ea908dea3b656c859ebf9150f
-# Source SHA-256: 63a9bb5b0818ec05581f23644fe505f74a020f972d9743431b5fe73606049020
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GR-HUB1.ICE by grimace (ice); released in ice9505a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the hub
-# SAUCE Author: grimace
-# SAUCE Group: ice
-# SAUCE Date: 19950520
-# SAUCE Dimensions: 80x205
-# Lines: 81-118
-# Columns: 1-80
+﻿# Artwork: the hub by grimace | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9505a-gr-hub1-part03
 
 Write-Host '
 [36;44m▒░[0;34;40m▀▀▀    [0;1;34;40m▄▀[0;34m▀[0m       [34m▄[0;1;34m▄[0;1;34;44m▓[0;1;34;40m▀▀[0m       [34m▄▄[0;1;34m▀[0m▄▄▄ [34m▀▀▀[0m                [1;34m▀▀▄   ▄▀  [0;34m■▀  [0;1;30m▄[0;1;30;47m▓▒░[0m [1;34;46m▓[0m ██

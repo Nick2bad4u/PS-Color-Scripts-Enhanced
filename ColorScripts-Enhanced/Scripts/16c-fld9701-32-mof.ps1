@@ -1,18 +1,4 @@
-﻿# Converted from: 32-MOF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fld9701/raw/32-MOF.ANS
-# Source Revision: archive-sha256:48906ecb2b70839b4646d99f5fe92b4c8c8c55574804ed58eeb7ca2699a6e59d
-# Source SHA-256: 1cb1352cf2c6ab3dd3469bdd64b2fd4947edf01968a99634cd05bb73787caf33
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 32-MOF.ANS by ezy (fusion\fluid); released in fld9701 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ministriy of fear
-# SAUCE Author: ezy
-# SAUCE Group: fusion\fluid
-# SAUCE Date: 19970116
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: ministriy of fear by ezy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fld9701-32-mof
 
 Write-Host '
 

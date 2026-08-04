@@ -1,17 +1,4 @@
-﻿# Converted from: S7-LV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rune0896/raw/S7-LV.ANS
-# Source Revision: archive-sha256:a41a6fd18e5a57ea19659d03cc5ff527cec9b4701f346aaff2f3d3658fc2ad09
-# Source SHA-256: eefde3f23592366042e316f3c16dd445b020f918e9a61976afa6bd5591da1769
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S7-LV.ANS by slacker7 (rune); released in rune0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: lethal vengeance matrix
-# SAUCE Author: slacker7
-# SAUCE Group: rune
-# SAUCE Date: 19951101
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: lethal vengeance matrix by slacker7 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rune0896-s7-lv
 
 Write-Host '
 [1m███▀[0;1;31m [0;1;37m l   v  ▀███[0;31m ███████▀ [0;34m■▀░[0;31m  [0;34m     [0;1;34;44m░[0;1;34;40m▌[0;31m    [0;37m  [0;33m▄▄[0m   [34m▀[0;1;34;44m░[0m  [34m▐[0;37m [0;34m▄[0;1;34;44m░[0;34m▀  [0;37m [0;34m  ▐▌[0m       [34m▀[0;1;34;44m░[0;34m▌[0;37m  [0;34m░░[0m

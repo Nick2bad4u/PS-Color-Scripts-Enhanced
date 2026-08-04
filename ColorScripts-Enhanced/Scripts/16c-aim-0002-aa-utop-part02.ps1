@@ -1,13 +1,4 @@
-﻿# Converted from: AA-UTOP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aim-0002/raw/AA-UTOP.ANS
-# Source Revision: archive-sha256:ce9a7da7386b31fa55a453e9a67690bf9fc444631591f653878c87fe982d165f
-# Source SHA-256: 7653cb0e77f06193a67721485c1a70ac2a1d34f1dc6f9562013d9bfabbaca832
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AA-UTOP.ANS by Archangel-Aim (aim-0002); released in aim-0002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 34-62
-# Columns: 1-80
+﻿# Artwork: AA-UTOP.ANS by Archangel-Aim | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aim-0002-aa-utop-part02
 
 Write-Host '
        [1;30;40m▀[0;1;30;46m█▓▒▒░░░[0m [1;33;43m░ [0;33m▄   [0;37m░░   ░[0m             [33m▄[0;33;43m [0;1;33;43m░[0;33m▌[0;36m▐[0;36;46m         [0;1;30;46m░░░░▒▒▓[0m

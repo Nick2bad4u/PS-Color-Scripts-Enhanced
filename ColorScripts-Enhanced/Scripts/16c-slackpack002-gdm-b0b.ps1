@@ -1,19 +1,4 @@
-﻿# Converted from: gDm-B0B.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/slackpack002/raw/gDm-B0B.ans
-# Source Revision: archive-sha256:c9825ce8b4e923e4d1f86a6f63bce502ceaec66422c3ae1a65cba92cfc82cb17
-# Source SHA-256: 8681e39b21178c8d1a405ac81489d409d1a1cf55543afbc4501f0829306f6826
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: gDm-B0B.ans by GngrDr3dM4n (Slackers BBS); released in slackpack002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: B0B
-# SAUCE Author: GngrDr3dM4n
-# SAUCE Group: Slackers BBS
-# SAUCE Date: 20251207
-# SAUCE Dimensions: 80x33
-# SAUCE Font: IBM VGA
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: B0B by GngrDr3dM4n | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-slackpack002-gdm-b0b
 
 Write-Host '
 [36m████▓[0;1;36m│[0;36m▓██████████████▓[0;1;36m│[0;36m▓██████████[0;37m                     [0;36m▀▀▀▀▀███████████████▓[0;1;36m│[0;36m▓█[0m

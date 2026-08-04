@@ -1,18 +1,4 @@
-﻿# Converted from: FW-GTS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fog03/raw/FW-GTS.ANS
-# Source Revision: archive-sha256:f9beb4b752670f0f20395ea000ce199823bb5c5d99ff236dc3e0aff26ecf05a2
-# Source SHA-256: 1854d18fc96bbb34e89f0eca0d27454bb05632ec790eda6b33f0198256fd2ab2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FW-GTS.ANS by FightWindeR (FiniSH Of GoDZ); released in fog03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Gravy Train Station
-# SAUCE Author: FightWindeR
-# SAUCE Group: FiniSH Of GoDZ
-# SAUCE Date: 19951212
-# SAUCE Dimensions: 80x160
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Gravy Train Station by FightWindeR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fog03-fw-gts-part01
 
 Write-Host '
 [1;30m [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: QT-CYBR5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lght9404/raw/QT-CYBR5.ANS
-# Source Revision: archive-sha256:df9552287ee81971bce5423dd5ad22f2a1016992aac4507efd85664e976068ee
-# Source SHA-256: 15f8ab7debed4e0a015dc92b8115a48028a50a292edae8a208f4794f91f3bf37
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QT-CYBR5.ANS by Q Tak (lght9404); released in lght9404 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: QT-CYBR5.ANS by Q Tak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lght9404-qt-cybr5-part01
 
 Write-Host '
 

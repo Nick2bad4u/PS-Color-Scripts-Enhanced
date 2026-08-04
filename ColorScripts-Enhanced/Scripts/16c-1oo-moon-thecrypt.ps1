@@ -1,13 +1,4 @@
-﻿# Converted from: TheCrypt.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1oo-moon/raw/TheCrypt.ans
-# Source Revision: archive-sha256:171e2925602123fe0c10a0ec4407c2834bc26a002fba2fa406825fd80132e138
-# Source SHA-256: e47d74d2396432babe3602062a17e8ea46cefac4bd9255f58444ef726c55ef18
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TheCrypt.ans by Neurodancer (1oo-moon); released in 1oo-moon and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: TheCrypt.ans by Neurodancer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1oo-moon-thecrypt
 
 Write-Host '
                 [1;30;40m│[0m█▄

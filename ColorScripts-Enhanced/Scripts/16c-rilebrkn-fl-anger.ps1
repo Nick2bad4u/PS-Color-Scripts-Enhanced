@@ -1,18 +1,4 @@
-﻿# Converted from: FL-ANGER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rilebrkn/raw/FL-ANGER.ANS
-# Source Revision: archive-sha256:631709d46940d5f633b8ebca426a515d51357cee4cca25bed435a2a8fbf53a10
-# Source SHA-256: 01bc6aaf29b5d4bf5b82a801626726fd4c0e9b1dcee304d3ef52282b7fe6b8e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-ANGER.ANS by flame (RILE); released in rilebrkn and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: angry alice
-# SAUCE Author: flame
-# SAUCE Group: RILE
-# SAUCE Date: 19970502
-# SAUCE Dimensions: 80x25
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: angry alice by flame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rilebrkn-fl-anger
 
 Write-Host '
                                     [30;46m██[0m                                  [32;40m▄██▄▄[0;30;42m▓█[0m

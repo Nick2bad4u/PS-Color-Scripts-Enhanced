@@ -1,18 +1,4 @@
-﻿# Converted from: DG-ILLB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twi-9708/raw/DG-ILLB.ANS
-# Source Revision: archive-sha256:938b6bdc521ddcf0402d26161fce3427d94af463496779b296996fe588952a5f
-# Source SHA-256: 2ce1ab4beb2688e41ea0c19d70c62a3f989d459e3ed42a7a50edfd72d3fdff41
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DG-ILLB.ANS by David Gould (Twilight); released in twi-9708 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ill Bred
-# SAUCE Author: David Gould
-# SAUCE Group: Twilight
-# SAUCE Date: 19970815
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Ill Bred by David Gould | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twi-9708-dg-illb
 
 Write-Host '
 [1m███[0;1;47m▀[0;1;40m▀▀[0;1;47m▀[0;1;40m█████████████████████████████[0;1;47m█▀    [0;1;30;47m▐[0;1;30;40m██[0;1;30;47m▓▓▀[0;1;37;47m  ▄▄[0;1;37;40m███████████████████████████[0m

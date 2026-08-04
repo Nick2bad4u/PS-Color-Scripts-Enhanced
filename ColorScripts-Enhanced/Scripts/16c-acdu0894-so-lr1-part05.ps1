@@ -1,18 +1,4 @@
-﻿# Converted from: SO-LR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0894/raw/SO-LR1.ANS
-# Source Revision: archive-sha256:28600f23ee913202821d8c592f0de8a079254979b8f1dcaf5d782e506b6eee00
-# Source SHA-256: 4689fb239a32db4db0d3f06f0f8bbe8b4f962ceb4c32b71a830f1652d594b1ab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SO-LR1.ANS by Somms + Terminator2 (ACiD Productions); released in acdu0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Last Resort
-# SAUCE Author: Somms
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940801
-# SAUCE Dimensions: 80x249
-# Lines: 200-249
-# Columns: 1-80
+﻿# Artwork: Last Resort by Somms + Terminator2 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0894-so-lr1-part05
 
 Write-Host '
 [1;31;41m░[0;31m▄  ▀█▓▒░[0m     [31m▄[0m        [1;31m▄▄▀ ▄▄▄[0m     [31m▀▀▄▄▀▀[0;1;31;41m░▒▓▓[0;1;31;40m▀[0m      [31m▄▄▄  [0;1;30m▀  ▀█▐[0;1;30;47m▓[0;1;30;40m█▀▄▌ ▄▀▀▀▀▀▀[0m

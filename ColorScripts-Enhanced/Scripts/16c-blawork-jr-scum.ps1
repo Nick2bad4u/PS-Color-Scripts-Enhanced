@@ -1,18 +1,4 @@
-﻿# Converted from: JR_SCUM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blawork/raw/JR_SCUM.ANS
-# Source Revision: raw-sha256:9f03531024b39144368c17f1c04320199b1804fdd9359cddd0f1cd9220cbd2ed
-# Source SHA-256: 9f03531024b39144368c17f1c04320199b1804fdd9359cddd0f1cd9220cbd2ed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_SCUM.ANS by jerusalem (boil); released in blawork and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: vokuhila
-# SAUCE Author: jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19971001
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: vokuhila by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blawork-jr-scum
 
 Write-Host '
                              [1m░░[0m     [34m▄▄▄ [0m

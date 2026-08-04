@@ -1,13 +1,4 @@
-﻿# Converted from: OA-UDARK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0896/raw/OA-UDARK.ANS
-# Source Revision: archive-sha256:bb0bebc605b8e233d6fe31cc7180aa47f63f2a5a14d07cf49a2ecbe43d7638fe
-# Source SHA-256: 8c2a338c52cd3e9c89bba7273286e7a15316ddcf9591e837bd37de2ae8f08254
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OA-UDARK.ANS by Sandy Chidester (out-0896); released in out-0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: OA-UDARK.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0896-oa-udark
 
 Write-Host '
               [34m░░░░░░ ░░[0m                 [34m██ █████████ ██▒░    [0;30;47m▄[0m     [1;30m█ [0;1;47m▄[0m▄▀     [30;47m▄[0m [1;30m█[0m

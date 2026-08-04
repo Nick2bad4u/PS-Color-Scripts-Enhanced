@@ -1,18 +1,4 @@
-﻿# Converted from: INS-EMC3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/emic0496/raw/INS-EMC3.ANS
-# Source Revision: archive-sha256:0081657214e0d3eeaf9fa72e89eaffd16455becfd5da03242b645aa6b0fa9295
-# Source SHA-256: 7e54c1030f2a1483f0deda2aa2261075523598ee78ffe221fc4b74c8c2b04b72
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: INS-EMC3.ANS by Insomniac (EMiC); released in emic0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: EMiC Logo #3
-# SAUCE Author: Insomniac
-# SAUCE Group: EMiC
-# SAUCE Date: 19960321
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: EMiC Logo #3 by Insomniac | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-emic0496-ins-emc3
 
 Write-Host '
 

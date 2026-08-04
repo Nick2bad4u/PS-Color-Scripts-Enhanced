@@ -1,13 +1,4 @@
-﻿# Converted from: we-ot3.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch08/raw/we-ot3.ans
-# Source Revision: archive-sha256:0b48bbc7b5f5330115fa074e1d04a4fecd4f968dda50aa5ddc10be2f9cdb0f62
-# Source SHA-256: 69334d79f33d02af5c4b7d3bf69f81016c17ef578aad04d34b5e4480a1e9a2d0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-ot3.ans by Knocturnal + Enzo + Podsi (27inch08); released in 27inch08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 32-57
-# Columns: 1-80
+﻿# Artwork: we-ot3.ans by Knocturnal + Enzo + Podsi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch08-we-ot3-part02
 
 Write-Host '
 [34m░ ░  [0;37m [0;33m▄[0;1;33;43m▄▒[0;33m [0;35m▀[0;33m▄▄██▀▀ ▄[0;1;33m▄▄[0;1;33;43m▄▄▀[0;33m▀ [0;37m [0;34m░█[0;1;34;44m▒[0;34m▒ [0;33m   ▀   ▄▄ ▀▀    [0;37m [0;33m   [0;1;30m▄▄▀[0m     [33m▄    ▀■[0;37m [0;35m▀▄[0m     [35m▀[0m

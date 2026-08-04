@@ -1,18 +1,4 @@
-﻿# Converted from: HQ-HRESY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack07/raw/HQ-HRESY.ANS
-# Source Revision: archive-sha256:3c1e6f07357a92bb7ff48f87719d9d863e8ef702072ee083ff24c7e5053d4e8f
-# Source SHA-256: b1440013a84ba89969b8aee50ecd0525727d5ca94dd81004f391b5bd98704127
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HQ-HRESY.ANS by Harlequin (Apocalyptic Visions); released in avpack07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Request for Heresy, Colorado, USA
-# SAUCE Author: Harlequin
-# SAUCE Group: Apocalyptic Visions
-# SAUCE Date: 19951018
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: Request for Heresy, Colorado, USA by Harlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack07-hq-hresy
 
 Write-Host '
 

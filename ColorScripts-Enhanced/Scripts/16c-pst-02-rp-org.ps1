@@ -1,18 +1,4 @@
-﻿# Converted from: RP-ORG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pst-02/raw/RP-ORG.ANS
-# Source Revision: archive-sha256:c06bf63142fd5a3f0f0d963ec3d47ae1a48131ca67fbda73aeeb1c0250d9a0a8
-# Source SHA-256: 1716c9c366a7f76d269a0af106ca5bb2587ab662917b079a86f3ed4ece34ff3c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RP-ORG.ANS by Rippa (Polyester); released in pst-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: organic
-# SAUCE Author: Rippa
-# SAUCE Group: Polyester
-# SAUCE Date: 19971203
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: organic by Rippa | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pst-02-rp-org
 
 Write-Host '
                                                                  [1;36m▄▄▄[0m

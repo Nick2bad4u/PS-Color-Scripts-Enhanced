@@ -1,18 +1,4 @@
-﻿# Converted from: US-QUEND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0497/raw/US-QUEND.ANS
-# Source Revision: archive-sha256:0a24528ad1b8350dc6275ed84884990aa181682392c532082994d5872ceb5801
-# Source SHA-256: 0e80643ec2493e73b8c7e13d2c2648d9033247a260dd8c5d2b04260d62695965
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-QUEND.ANS by Ize + Noah (fusion); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: quendi matrix
-# SAUCE Author: noah + ize
-# SAUCE Group: fusion
-# SAUCE Date: 19970405
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: quendi matrix by Ize + Noah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0497-us-quend
 
 Write-Host '
 [1;36;46m [0;1;36;40m██[0;1;33;40m█[0;1;36;40m█████████████████████████████████████████████████████████████████[0;1;36;46m▄▄▄noah+ize[0m

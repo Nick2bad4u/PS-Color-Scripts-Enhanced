@@ -1,18 +1,4 @@
-﻿# Converted from: KP-ALPHA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0294/raw/KP-ALPHA.ANS
-# Source Revision: archive-sha256:0b07fb9329d81f40ead17ad1bfccb58be060a9dc7ff2828ea9938c5cac09a5a8
-# Source SHA-256: 13f58574789909cdfbe5c6e85d3305bd7427d2eda8b6ae80156ae7c3a196b487
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KP-ALPHA.ANS by Kingpin (ACiD Productions); released in acdu0294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Alpha 2010
-# SAUCE Author: Kingpin
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940115
-# SAUCE Dimensions: 80x108
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: Alpha 2010 by Kingpin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0294-kp-alpha-part01
 
 Write-Host '
 

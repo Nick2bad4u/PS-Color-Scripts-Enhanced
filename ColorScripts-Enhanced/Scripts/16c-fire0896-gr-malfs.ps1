@@ -1,18 +1,4 @@
-﻿# Converted from: GR-MALFS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0896/raw/GR-MALFS.ANS
-# Source Revision: archive-sha256:f9cf2b2d2bbd2b43295b2db0288f290749703458f413700d0129369379a58bf6
-# Source SHA-256: 66997329ea664bdfb38ae226a498c470c537fcca16f2f3c51e85fb0ea75a0fcc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GR-MALFS.ANS by Gunthar (fire); released in fire0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Malfeas
-# SAUCE Author: Gunthar
-# SAUCE Group: fire
-# SAUCE Date: 19960729
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Malfeas by Gunthar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0896-gr-malfs
 
 Write-Host '
 [33m▄[0;30;43m■ [0;37;43m░  Gr.[0;33;40m█▀ █[0;37;43m░       [0;33;40m▌▐[0;37;43m░  [0;33;40m▀[0;33;43m [0;33;40m▄[0;33;43m  [0;37;43m░   [0;30;43m■[0;33;40m▀█[0;30;43m▓[0m     [31;40m░░   [0;1;31;40m▐[0;1;31;41m▓▒░[0;31m▄▄▄▄▄▓░░ ▄[0;1;31m▄▄[0;31m▄▄[0;1;31;41m░[0;31m█▓░ ░    [0;33m░[0;30;43m▓[0m

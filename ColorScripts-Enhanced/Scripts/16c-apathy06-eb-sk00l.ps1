@@ -1,18 +1,4 @@
-﻿# Converted from: EB-SK00L.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy06/raw/EB-SK00L.ANS
-# Source Revision: archive-sha256:da68d928b75eacb21ef6bbd9cd632165def9238591f0378ec07f4b56faef6ea8
-# Source SHA-256: f4fc41d1544fbcb1c7fc547e5118479c1c02655baded66b0ff698b55ec6bcb51
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EB-SK00L.ANS by Eiht Ball (READ THE INI FILE); released in apathy06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Ol' Skool
-# SAUCE Author: Eiht Ball
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19960202
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: The Ol' Skool by Eiht Ball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy06-eb-sk00l
 
 Write-Host '
                         [32m█████[0m    [1;33m       [0m                  [1;33m [0m [32m█████[0m

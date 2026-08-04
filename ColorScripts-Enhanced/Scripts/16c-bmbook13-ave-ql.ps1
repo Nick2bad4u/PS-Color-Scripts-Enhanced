@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-QL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook13/raw/AVE-QL.ANS
-# Source Revision: archive-sha256:f383b37d2f0265a83b82afcdde57a4dae359d8a5127c467dcea28d0c8500d000
-# Source SHA-256: 8db15b82afa56a41abb43686cb0b8e8b41f4bca011ad05f14c71b8e75aac5d14
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-QL.ANS by avenger (black maiden); released in bmbook13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: haz/2 quick login
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19970427
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: haz/2 quick login by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook13-ave-ql
 
 Write-Host '
                                         [34m░[0m

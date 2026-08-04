@@ -1,13 +1,4 @@
-﻿# Converted from: HTF-UGLY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cnc-0494/raw/HTF-UGLY.ANS
-# Source Revision: archive-sha256:a2860c6058bc20deb4b9fe584adc3143209a13f75027fe0542d8e0a5a0f55c58
-# Source SHA-256: d0ca5062104200514c3f524e5a4399881b8d264da54b6fb66c41bc708309a957
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HTF-UGLY.ANS by Hanzo The Fiend (cnc-0494); released in cnc-0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 50-98
-# Columns: 1-80
+﻿# Artwork: HTF-UGLY.ANS by Hanzo The Fiend | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cnc-0494-htf-ugly-part02
 
 Write-Host '
 [30;40m              [0;33;40m▀[0;33;43m█[0;1;31;43m▀▀▀▀▀[0;33;43m███[0;33;40m▀▀[0;30;40m [0;33;43m█[0;33;40m▀▀▀[0;30;40m [0;33;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;30;40m [0;33;40m▀▀▀[0;33;43m█[0;30;40m█[0;33;40m▀▀[0;33;43m███[0;1;31;43m▀▀▀▀▀[0;33;43m█[0;33;40m▀[0;30;40m             [0m

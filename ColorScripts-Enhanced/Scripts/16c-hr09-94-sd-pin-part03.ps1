@@ -1,13 +1,4 @@
-﻿# Converted from: SD-PIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hr09-94/raw/SD-PIN.ANS
-# Source Revision: archive-sha256:19d6752273acd7579a76c32f15e06f7621728c1186bfdc8fc8606549db459301
-# Source SHA-256: f58dd878f6fac7bb0250948feab0fe2f9e36062d631ca5afbcfcc63e7c0054e1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-PIN.ANS by Tetsuo (hr09-94); released in hr09-94 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 77-116
-# Columns: 1-80
+﻿# Artwork: SD-PIN.ANS by Tetsuo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hr09-94-sd-pin-part03
 
 Write-Host '
 [31m    [0;31;41m           [0;31;40m█[0;1;31;40m███████████████████████████████████[0;1;31;41m▌[0;1;31;40m█████████████████████[0;31m▌[0m

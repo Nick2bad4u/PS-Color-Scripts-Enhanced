@@ -1,18 +1,4 @@
-﻿# Converted from: CL!-SLSL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-05/raw/CL!-SLSL.ANS
-# Source Revision: archive-sha256:32c1f67ac6058d9066b580c3bd5854b0529a1844e2dce2e40def969bcce3e47d
-# Source SHA-256: a0a60c4703e0fc8ddf6c40e8778495c8e86a1f5e4dfa70396734ede8fdd612cd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-SLSL.ANS by .:(cLEANER):. (.:(nITROPHUSION):.); released in nph-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: .:(sLISERS^lOGOFF):.
-# SAUCE Author: .:(cLEANER):.
-# SAUCE Group: .:(nITROPHUSION):.
-# SAUCE Date: 19971222
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: .:(sLISERS^lOGOFF):. by .:(cLEANER):. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-05-cl-slsl
 
 Write-Host '
        [32m▄▄▄▄[0m               [32m▄[0m       [32m▄▄▄▄[0m        [32m▄▄▄▄[0m        [32m▄▄▄▄[0m         [32m▄▄▄▄[0m

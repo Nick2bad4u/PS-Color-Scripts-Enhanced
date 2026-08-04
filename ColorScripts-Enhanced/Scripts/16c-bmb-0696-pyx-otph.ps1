@@ -1,18 +1,4 @@
-﻿# Converted from: PYX-OTPH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0696/raw/PYX-OTPH.ANS
-# Source Revision: archive-sha256:fea269136894850bbc3733a7e378f47769430ca8b14c0592a0c25c525a6a95a4
-# Source SHA-256: d20c269d4579ac0a35551783abaf2304142ffd3891767e9b67b69bcae880f554
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-OTPH.ANS by pyx (bamboosh); released in bmb-0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: "On the phone"
-# SAUCE Author: pyx
-# SAUCE Group: bamboosh
-# SAUCE Date: 19960526
-# SAUCE Dimensions: 80x49
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: "On the phone" by pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0696-pyx-otph
 
 Write-Host '
 [1m[0m[1m[0m[1m[0m[1m[0m

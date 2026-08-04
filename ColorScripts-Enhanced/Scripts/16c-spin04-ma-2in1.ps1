@@ -1,18 +1,4 @@
-﻿# Converted from: MA-2IN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spin04/raw/MA-2IN1.ANS
-# Source Revision: archive-sha256:d8d0b243395a454162bf4e70cc5ed89a7700344e3544729263edb9daedb33d8c
-# Source SHA-256: 3cc6b2376dfc6fbdbf47f11a3e24888fd55295d6e72238dcd57b53823ca4fa7b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MA-2IN1.ANS by minding age (spin); released in spin04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 2pix in one..
-# SAUCE Author: minding age
-# SAUCE Group: spin
-# SAUCE Date: 19981124
-# SAUCE Dimensions: 80x44
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: 2pix in one.. by minding age | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spin04-ma-2in1
 
 Write-Host '
                      [1m,:[0m      , .  ,  ;     .  ;

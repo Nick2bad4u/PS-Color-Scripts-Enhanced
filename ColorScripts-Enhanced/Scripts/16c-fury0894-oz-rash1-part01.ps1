@@ -1,13 +1,4 @@
-﻿# Converted from: OZ-RASH1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fury0894/raw/OZ-RASH1.ANS
-# Source Revision: raw-sha256:1d53b4995b7ffd6e83cbb33888b2cd3a3736b6dd918d7a583b01d6cb06d2a3c4
-# Source SHA-256: 1d53b4995b7ffd6e83cbb33888b2cd3a3736b6dd918d7a583b01d6cb06d2a3c4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OZ-RASH1.ANS by Ozzy (fury0894); released in fury0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: OZ-RASH1.ANS by Ozzy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fury0894-oz-rash1-part01
 
 Write-Host '
                                      [32m▄[0;1;32;42m░░[0m

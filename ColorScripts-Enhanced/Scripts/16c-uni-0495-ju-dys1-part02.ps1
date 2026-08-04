@@ -1,18 +1,4 @@
-﻿# Converted from: JU-DYS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0495/raw/JU-DYS1.ANS
-# Source Revision: archive-sha256:5c1b487f172d9b21547c289d0c6d77076f08925ed05d67b00c73baffeedf66f4
-# Source SHA-256: c674ce8517a4f782e18872122e9ecd50601451d5565260580b91166c7557bef2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JU-DYS1.ANS by Juice (READ THE INI FILE); released in uni-0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Dystopia
-# SAUCE Author: Juice
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950403
-# SAUCE Dimensions: 80x25
-# Lines: 42-82
-# Columns: 1-80
+﻿# Artwork: Dystopia by Juice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0495-ju-dys1-part02
 
 Write-Host '
 [34;40m▀▀▀    [0;1;36;40m▄▄[0;36m▐[0;37;46m▒▒░[0;36;40m██▄▀▀    [0;37;46m░[0;36;40m█▀ [0;1;31;40m▄  [0;36m▀[0;36;46m [0;37;46m░▒▒▒▒▒▒▒▓▓▓▓▓▓▓[0;36;40m▀[0;37;46m▓▓▓▓▓▒▒▒▒░░[0;36;40m█[0;35;46m░▓[0m [1;31;43m▓[0;1;31;40m█[0;1;31;43m▓[0;33m▓[0;1;31m▄ [0;36m▀█▌[0;37m▄   [0;36m▄ ▀▀▀[0m

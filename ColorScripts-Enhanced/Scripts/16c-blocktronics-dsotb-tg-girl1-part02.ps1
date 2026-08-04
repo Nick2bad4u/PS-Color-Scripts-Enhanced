@@ -1,19 +1,4 @@
-﻿# Converted from: tg-girl1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-dsotb/raw/tg-girl1.ans
-# Source Revision: archive-sha256:31e1fdfda207a2147f2b0badf1415308dc54d4c24afa56622db8a43f68f110f1
-# Source SHA-256: 136edca427a646751cf30d17fe4e201bcfc99e261178a8788683ca244771489c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tg-girl1.ans by toon goon (blocktronics); released in blocktronics-dsotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: girl
-# SAUCE Author: toon goon
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190726
-# SAUCE Dimensions: 80x69
-# SAUCE Font: IBM VGA
-# Lines: 36-69
-# Columns: 1-80
+﻿# Artwork: girl by toon goon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-dsotb-tg-girl1-part02
 
 Write-Host '
 [35m██[0;1;30;45m▄[0;35m▀[0;1;30m▀[0m   [1;33m██▄██[0;1;33;43m▀█▄██[0;1;33;40m███[0;1;33;43m▀[0;1;33;40m  [0;33m▀[0;1;33m██▀█████████[0;1;31m [0;1;31;43m  [0;1;31;40m██████[0;1;31;43m▀[0;1;31;40m▀▀▀▀▀[0;1;31;43m▀[0;33m▀[0;37m        [0;34m▄▄ [0;1;30m█[0;34m  ▄▄  ▄▄▄▄▄▄▄▄[0m

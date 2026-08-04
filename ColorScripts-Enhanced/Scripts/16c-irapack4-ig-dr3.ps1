@@ -1,13 +1,4 @@
-﻿# Converted from: IG-DR3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/irapack4/raw/IG-DR3.ANS
-# Source Revision: archive-sha256:ecb1d80dafdb417e5051f5ba35e0e511304e00b3a6fc7254558e7c31767db2ac
-# Source SHA-256: 4e70baf0c9a3da4f707d4311d273509ec4f36a2a841ec716fd71ee373008c438
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IG-DR3.ANS by Iguana (irapack4); released in irapack4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: IG-DR3.ANS by Iguana | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-irapack4-ig-dr3
 
 Write-Host '
         ▄▄[47m█▓▒▒▒░░░░░░[0;30;47m            [0m▄▄▄▄▄    [1m▄[0;1;47m████▓▓▒▒▒░░░░░░░░[0;1;30;47m       [0m▄▄▄▄

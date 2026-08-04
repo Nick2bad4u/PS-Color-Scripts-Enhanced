@@ -1,18 +1,4 @@
-﻿# Converted from: US-NERP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook21/raw/US-NERP.ANS
-# Source Revision: archive-sha256:a9340bf45277705f38b7b2e8dfe7bc518716b8c419a47ac48708bc33bd40ec01
-# Source SHA-256: ab0c240c95e5337b07682fc0db6f5a4b98245e5683cb72c98f2ce677b251da3e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-NERP.ANS by Spear + Toot (nerp); released in bmbook21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: nerp
-# SAUCE Author: spear.toot
-# SAUCE Group: nerp
-# SAUCE Date: 19991223
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: nerp by Spear + Toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook21-us-nerp
 
 Write-Host '
                                                             [1;35m... 5P34R 4ND 7007![0m

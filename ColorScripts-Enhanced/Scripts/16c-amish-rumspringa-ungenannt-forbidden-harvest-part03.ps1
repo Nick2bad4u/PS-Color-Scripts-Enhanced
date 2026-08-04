@@ -1,19 +1,4 @@
-﻿# Converted from: ungenannt-forbidden harvest.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amish-rumspringa/raw/ungenannt-forbidden%20harvest.ans
-# Source Revision: archive-sha256:710f00c8e218c58e7f7c9fe172cb22279b1ebbb4b713832762c12e983eb7ac2d
-# Source SHA-256: 665620b636220f087b25e5a32d02984b4a42a152766a747066dac7ad036760f4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ungenannt-forbidden harvest.ans by ungenannt (amish); released in amish-rumspringa and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: forbidden harvest
-# SAUCE Author: ungenannt
-# SAUCE Group: amish
-# SAUCE Date: 20190429
-# SAUCE Dimensions: 80x221
-# SAUCE Font: IBM VGA
-# Lines: 86-130
-# Columns: 1-80
+﻿# Artwork: forbidden harvest by ungenannt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amish-rumspringa-ungenannt-forbidden-harvest-part03
 
 Write-Host '
 [33m████████████ [0;1;37m▐[0;33m███  ▀ ▐█ ▐▌▓▓█████[0;36;43m  [0;33;40m█▓ █ █████[0;36;43m▐▓[0;33;40m█ █▒  ░░ ▄▄████[0;1;33;43m▐[0;33m ████████████████[0m

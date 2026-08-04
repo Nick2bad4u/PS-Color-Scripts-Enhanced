@@ -1,18 +1,4 @@
-﻿# Converted from: PAR-NOCT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-11/raw/PAR-NOCT.ANS
-# Source Revision: archive-sha256:2530f38f9aae898cfae9dad47a02de2875f4e85a94fcd7dfaf9a3e9f96fbd615
-# Source SHA-256: 4342372a4b499ab53cecdc46f9c1512898e2e3c63157d1253520f7f6e923a931
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PAR-NOCT.ANS by Pariah (REMORSE); released in rmrs-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Nocturne
-# SAUCE Author: Pariah
-# SAUCE Group: REMORSE
-# SAUCE Date: 19970502
-# SAUCE Dimensions: 80x89
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: Nocturne by Pariah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-11-par-noct-part01
 
 Write-Host '
 [1m[0m[1;30m--------------------------------------------------------------------------------[0m

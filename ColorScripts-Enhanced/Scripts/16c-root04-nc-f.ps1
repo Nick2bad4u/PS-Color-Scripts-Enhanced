@@ -1,18 +1,4 @@
-﻿# Converted from: NC-F.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root04/raw/NC-F.ANS
-# Source Revision: archive-sha256:8dec1aa0e303d37205499818eaff4458ebf93774cd973f016deaae45658df6b3
-# Source SHA-256: 4cde782756634d554199363f58a453011d8d740f3abea0482a11a0bd24fbb034
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NC-F.ANS by n3cr0lyt3 (Root); released in root04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: f0am
-# SAUCE Author: n3cr0lyt3
-# SAUCE Group: Root
-# SAUCE Date: 19970518
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: f0am by n3cr0lyt3 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root04-nc-f
 
 Write-Host '
                                        [35m░[0;30;45m▓[0;37;40m  [0;30;42m▓[0m    [32;40m░[0;30;42m▓[0;37;40m  [0;30;42m░[0;32;40m▓[0;1;32;42m▀▒▒[0;1;32;40m███[0;32m▄▄▄  [0;34m▀[0;1;34m▀▀███[0;1;34;44m▓▓░░[0;34m█[0;1;34;44m██[0;34m█[0m

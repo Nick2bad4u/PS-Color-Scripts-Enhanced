@@ -1,13 +1,4 @@
-﻿# Converted from: ko-btmog.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic63/raw/ko-btmog.ans
-# Source Revision: archive-sha256:8f813de85d7d3046ffe2cb310a91bc1ec1adc719c239478b229835f7e519427e
-# Source SHA-256: 459b54ba71862d9d7e32c252225aea61175bf5a74f0448b7db9c2d170c324546
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ko-btmog.ans by Konami (mimic63); released in mimic63 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ko-btmog.ans by Konami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic63-ko-btmog
 
 Write-Host '
 [1mXXXX[0m [31mbLACK tHURSDAY[0m    [1;30m,$`[0m    [1;30ml[0;31mS$$$$$$$$$$$$$$$$$$$[0;1;31m$$$$[0;31m,[0m            [1;30m,\` [0m   [1;30m,d$$$[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: TSH-DNA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dna0397/raw/TSH-DNA.ANS
-# Source Revision: archive-sha256:e1a4a5668c5ecdfaceffae094b291f77d84772de2eb8e1772dc5072c38cdc6bb
-# Source SHA-256: 4c34f316a947e803267ca8486e01b0174a5c8f12fd0c4dbf7c95798f137f4da7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSH-DNA.ANS by The Shadow (dna0397); released in dna0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: TSH-DNA.ANS by The Shadow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dna0397-tsh-dna
 
 Write-Host '
 ─ [36m▄█▀[0;1;37;46m▓▀[0;36m▀█▄ [0;1;37;46m▓▀[0m [36m█▄ [0;1;37;46m▓▀[0;36m▀██ [0;37m─ [0;36m▄[0;1;37;46m▀[0;36m▀█▄ [0;1;37;46m▓▀[0m [36m█▄ [0;1;37;46m▓▀[0;36m▀█▄ [0;1;37;46m▓▀[0;36m▀█▄ ▄[0;1;37;46m▀[0;36m▀█▄ [0;1;37;46m▓▀[0m ── [36m█▄ [0;37m────────────────[0m

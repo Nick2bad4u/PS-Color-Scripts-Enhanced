@@ -1,18 +1,4 @@
-﻿# Converted from: FD-DOX!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_9702/raw/FD-DOX!.ANS
-# Source Revision: archive-sha256:33822ef17727497e570bbe1fb936980d768f5ecb13f914599943b0c787232617
-# Source SHA-256: 33d53f0f0ac64287a94b35b67e92bc867aeeb6d504fef873c7a81debf1bf198d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FD-DOX!.ANS by flood (d0x!pRODUCTiONs); released in dox_9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: d0x! promo
-# SAUCE Author: flood
-# SAUCE Group: d0x!pRODUCTiONs
-# SAUCE Date: 19970114
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: d0x! promo by flood | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-9702-fd-dox
 
 Write-Host '
 

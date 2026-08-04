@@ -1,18 +1,4 @@
-﻿# Converted from: A-SAUCE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook16/raw/A-SAUCE2.ANS
-# Source Revision: archive-sha256:d1aa8631ff79ee4b09bd71933b409432473cd10141d9251920b316e16f81ad22
-# Source SHA-256: 2e9582ae719a4c8e691bd29c94f0fc6b63e91834d459ea559b22766b274bafcf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: A-SAUCE2.ANS by alecs (black maiden); released in bmbook16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: special sauce
-# SAUCE Author: alecs
-# SAUCE Group: black maiden
-# SAUCE Date: 19980207
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: special sauce by alecs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook16-a-sauce2
 
 Write-Host '
 [1;30m               [0m ▄░

@@ -1,19 +1,4 @@
-﻿# Converted from: _Pumpkin_by_nail.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_blocktober/raw/_Pumpkin_by_nail.ans
-# Source Revision: archive-sha256:a4249815771be4175829e3af0e1e24a265146879ea43ac19f701d6ebb72fa88f
-# Source SHA-256: 29a63e7909b4d8446eba3de65b4d4a5cad93cf7eb105e755cebdbdb52a7a52d8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _Pumpkin_by_nail.ans by nail (blocktronics); released in blocktronics_blocktober and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: lucille is a vampire bat
-# SAUCE Author: nail
-# SAUCE Group: blocktronics
-# SAUCE Date: 20161020
-# SAUCE Dimensions: 80x62
-# SAUCE Font: IBM VGA
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: lucille is a vampire bat by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blocktober-pumpkin-by-nail-part01
 
 Write-Host '
 [33;40m▄[0m

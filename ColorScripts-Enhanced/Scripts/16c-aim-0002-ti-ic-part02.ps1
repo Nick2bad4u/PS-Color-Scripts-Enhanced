@@ -1,13 +1,4 @@
-﻿# Converted from: TI-IC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aim-0002/raw/TI-IC.ANS
-# Source Revision: archive-sha256:ce9a7da7386b31fa55a453e9a67690bf9fc444631591f653878c87fe982d165f
-# Source SHA-256: e079e9b05cf5a441d9555c805072f2088d80d9d2cbae0053034f3b1ab185751a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TI-IC.ANS by The Illusionist (aim-0002); released in aim-0002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 42-77
-# Columns: 1-80
+﻿# Artwork: TI-IC.ANS by The Illusionist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aim-0002-ti-ic-part02
 
 Write-Host '
 [30m                                                                                [0m

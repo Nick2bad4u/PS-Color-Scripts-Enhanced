@@ -1,18 +1,4 @@
-﻿# Converted from: GS-BS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roc-1094/raw/GS-BS2.ANS
-# Source Revision: archive-sha256:b9f51920f78bda9bc4e939e42f211cdf72f5cc79d2a1f03e8249b35982ade015
-# Source SHA-256: 32add932f96e220bd495906e152bd1180e5d6a0e56b8f9ba6fa00627ef239d74
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GS-BS2.ANS by Godsung (ROC); released in roc-1094 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Bloodstorm II
-# SAUCE Author: Godsung
-# SAUCE Group: ROC
-# SAUCE Date: 19940922
-# SAUCE Dimensions: 80x151
-# Lines: 101-150
-# Columns: 1-80
+﻿# Artwork: Bloodstorm II by Godsung | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roc-1094-gs-bs2-part03
 
 Write-Host '
        [1;33;41m▓[0m             [1;33;41m░[0m                      [1;33;41m▓[0m                [1;33;41m░[0m

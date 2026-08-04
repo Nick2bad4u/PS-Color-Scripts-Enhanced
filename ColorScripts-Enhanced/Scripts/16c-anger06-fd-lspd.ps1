@@ -1,16 +1,4 @@
-﻿# Converted from: FD-LSPD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger06/raw/FD-LSPD.ANS
-# Source Revision: archive-sha256:efc6b6d6892fe7f05c3b06052b1d79464b7ee8ab8c7bee2d77361e00cf941f28
-# Source SHA-256: 487170c1e03fdc77b808ccc791459f4d5ba1cc1d2dbd1c61b70050a7bce39b4a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FD-LSPD.ANS by fadE (anger); released in anger06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: lightspeed courierz add.
-# SAUCE Author: fadE
-# SAUCE Group: anger
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: lightspeed courierz add. by fadE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger06-fd-lspd
 
 Write-Host '
                                                                              [35m▌[0m

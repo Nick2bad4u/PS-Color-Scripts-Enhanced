@@ -1,13 +1,4 @@
-﻿# Converted from: US-BLND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr013/raw/US-BLND.ANS
-# Source Revision: archive-sha256:72a5324fd4f22974c15c9ed8e8c6b4bec5368bc68ac7eac23784fe3c37a38257
-# Source SHA-256: 4e4a942f101f83cdae0dc08deb6fbf5ebce779b92340e4d43afbd50b9328ef59
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BLND.ANS by Nd + ACK (blndr013); released in blndr013 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: US-BLND.ANS by Nd + ACK | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr013-us-blnd
 
 Write-Host '
 ·   .  ·       ·    .        .    ·   .    ·    .  ·    .      .   +  ·   .  ·

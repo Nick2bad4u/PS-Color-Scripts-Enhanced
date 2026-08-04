@@ -1,13 +1,4 @@
-﻿# Converted from: DE-WP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rave-01/raw/DE-WP.ANS
-# Source Revision: archive-sha256:3803c4ee0e5a0a422382c9bc980ca25723c831f02b1a91c577d4c69aa1bb40d3
-# Source SHA-256: d1c5803606ed36ea6e2eacd55d260a7bd4125d52cb8a67db20434b95e811a872
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DE-WP.ANS by Deception (rave-01); released in rave-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 90-131
-# Columns: 1-80
+﻿# Artwork: DE-WP.ANS by Deception | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rave-01-de-wp-part03
 
 Write-Host '
 

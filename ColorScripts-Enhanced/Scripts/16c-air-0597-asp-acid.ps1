@@ -1,16 +1,4 @@
-﻿# Converted from: ASP_ACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/air_0597/raw/ASP_ACID.ANS
-# Source Revision: archive-sha256:6fe653cdae1d1be3a85ad8606d04a6519ed3da6d9d33e501c49ef3bdd23379d9
-# Source SHA-256: 67da153b8d48db6053108faff6e254c833903a0fb4667df826b0285d125246e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ASP_ACID.ANS by +aspyre_ (+aiR_); released in air_0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: acid+logo_thing
-# SAUCE Author: +aspyre_
-# SAUCE Group: +aiR_
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: acid+logo_thing by +aspyre_ | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-air-0597-asp-acid
 
 Write-Host '
 

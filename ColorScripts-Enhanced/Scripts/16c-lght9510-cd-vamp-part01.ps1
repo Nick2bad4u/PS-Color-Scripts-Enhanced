@@ -1,13 +1,4 @@
-﻿# Converted from: CD-VAMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lght9510/raw/CD-VAMP.ANS
-# Source Revision: archive-sha256:f08b0950ca84d86041370bb6a41c3c31b3b560de54deb6a3112e1594bdd71f69
-# Source SHA-256: 47052e66278e89d9640adaa09271b8505b2c421012d49666f47b41b97e470014
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CD-VAMP.ANS by Code (lght9510); released in lght9510 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: CD-VAMP.ANS by Code | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lght9510-cd-vamp-part01
 
 Write-Host '
 

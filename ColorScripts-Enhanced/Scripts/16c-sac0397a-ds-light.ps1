@@ -1,13 +1,4 @@
-﻿# Converted from: DS-LIGHT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0397a/raw/DS-LIGHT.ANS
-# Source Revision: archive-sha256:a5643402b7470fb900b36daeccc6ebdbb3a700bc372f618742377039777fc87e
-# Source SHA-256: d999ad05e6199327fb749b84469b893713f99fcef4ffd76733ed94e641015d0e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-LIGHT.ANS by Dark Star (sac0397a); released in sac0397a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: DS-LIGHT.ANS by Dark Star | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0397a-ds-light
 
 Write-Host '
        [1m    [0;34m▄██▄[0m    [34m▄[0;1;37m      [0m                          [1m      [0;34m▄[0m

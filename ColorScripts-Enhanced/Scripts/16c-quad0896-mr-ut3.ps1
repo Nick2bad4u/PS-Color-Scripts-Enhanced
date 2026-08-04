@@ -1,18 +1,4 @@
-﻿# Converted from: MR-UT3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0896/raw/MR-UT3.ANS
-# Source Revision: archive-sha256:aea0eeb92b0eab79feeb93a911e40d78834e5950cdc396c43c83fe60a2627fad
-# Source SHA-256: 5d9c48a9ba932d22d2dd1c0b007f12dbe0065ab764d06246cfea1b1ce2ab9a84
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-UT3.ANS by mithrandir (quad-p); released in quad0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: unsettling trend(3)
-# SAUCE Author: mithrandir
-# SAUCE Group: quad-p
-# SAUCE Date: 19960716
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: unsettling trend(3) by mithrandir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0896-mr-ut3
 
 Write-Host '
 

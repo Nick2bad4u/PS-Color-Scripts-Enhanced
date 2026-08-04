@@ -1,19 +1,4 @@
-﻿# Converted from: mt-paris_is_burning.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_acid_trip/raw/mt-paris_is_burning.ANS
-# Source Revision: archive-sha256:c0717ff5cb7d462ed7fa9a55edd7235adbd3f09e01132486021497c9281171b6
-# Source SHA-256: 762d354f79865165fba5f360dc6735835af9c95c8afb7d9cec3cdb57fa43686c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mt-paris_is_burning.ANS by Misfit (ACiD Productions); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Paris is Burning
-# SAUCE Author: Misfit
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x240
-# SAUCE Font: IBM VGA
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Paris is Burning by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-acid-trip-mt-paris-is-burning-part01
 
 Write-Host '
 [1;30m███████████████████[0;1;30;47m▓▓[0;1;30;40m████████[0;1;30;47m▓▓▓[0;1;30;40m██[0;1;30;47m▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░   ░░░░[0m███████

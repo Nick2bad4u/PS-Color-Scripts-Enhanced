@@ -1,20 +1,4 @@
-﻿# Converted from: n(_4ch_compo.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nms_pack1/raw/n(_4ch_compo.ans
-# Source Revision: archive-sha256:f99a1419a85f2107a1ef905f45d33edf79d1a955e17b541807601af9adb4edeb
-# Source SHA-256: 6f0d8e1405d0732443f7f3237dbb45999f7113f5528efb7c5ec534aac9923ae4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: n(_4ch_compo.ans by nemesulku (acid rain); released in nms_pack1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 4ch mod compo
-# SAUCE Author: nemesulku
-# SAUCE Group: acid rain
-# SAUCE Date: 19980329
-# SAUCE Dimensions: 80x22
-# SAUCE Font: IBM VGA
-# SAUCE Comments: for Rat's Nest 4 channel Mod Compo way back in the 90s when I wa | s going by handle nemesulku.  -bracket
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: 4ch mod compo by nemesulku | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nms-pack1-n-4ch-compo
 
 Write-Host '
        [1;30;40m▄▄▄▄▄▄▄▄▄▄[0m

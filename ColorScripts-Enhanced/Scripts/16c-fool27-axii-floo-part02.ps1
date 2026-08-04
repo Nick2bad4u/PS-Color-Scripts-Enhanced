@@ -1,19 +1,4 @@
-﻿# Converted from: aXII-floo.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fool27/raw/aXII-floo.ans
-# Source Revision: archive-sha256:2f2b93f8f0e4fec62b30a599f5faab168be4584610a3b26b5849676a1be20365
-# Source SHA-256: 346e9415c887fff28f0b67457d086b85a173da88ccc6a0866f11c2d756bd5820
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: aXII-floo.ans by Apollo XIII (FOOL); released in fool27 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: FLOO
-# SAUCE Author: Apollo XIII
-# SAUCE Group: FOOL
-# SAUCE Date: 20180502
-# SAUCE Dimensions: 80x94
-# SAUCE Font: IBM VGA
-# Lines: 49-94
-# Columns: 1-80
+﻿# Artwork: FLOO by Apollo XIII | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fool27-axii-floo-part02
 
 Write-Host '
      [35m██████[0;1;33;45m▀▀▀[0;35m█▀▀ ▄█[0;1;35;45m▄▀[0m                           [35m███[0;1;35;45m▀▓▄[0;35m██▀█[0;1;31;45m▄[0;35m█▄▄▀██████[0m

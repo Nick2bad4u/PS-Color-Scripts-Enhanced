@@ -1,18 +1,4 @@
-﻿# Converted from: N-SL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0897/raw/N-SL.ANS
-# Source Revision: archive-sha256:2f847e13ac44c4a612ca9588cf01055509cccf841191e379aa1210361ce47235
-# Source SHA-256: 561469af9f11be2a9db2174c060267620991d4e242c0f131795901db3024f9e2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-SL.ANS by nail (fire); released in fire0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: speedloader
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 19970809
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: speedloader by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0897-n-sl
 
 Write-Host '
 [1;31;43m▓▓░░░░░[0;33m███▀▀▀[0m

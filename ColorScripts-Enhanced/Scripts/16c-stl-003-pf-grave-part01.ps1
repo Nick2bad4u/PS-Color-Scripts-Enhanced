@@ -1,18 +1,4 @@
-﻿# Converted from: PF-GRAVE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stl-003/raw/PF-GRAVE.ANS
-# Source Revision: archive-sha256:f05577e69788bf833b2eeb503583305cc9119acc157823c14e039d65d70a6838
-# Source SHA-256: 0783e019594ca9f39c56037eab74c97a4107e3b35ab040cb227bb199fad1832a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PF-GRAVE.ANS by Pfezzyo (Stile Productions 95); released in stl-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Graveyard Logo
-# SAUCE Author: Pfezzyo
-# SAUCE Group: Stile Productions 95
-# SAUCE Date: 19951214
-# SAUCE Dimensions: 80x94
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Graveyard Logo by Pfezzyo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stl-003-pf-grave-part01
 
 Write-Host '
 [1;30m■ ■░▀■▀▀■▓■▀▀▀▀▀▀▀▀▀▀▀▀▀░▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀■▀▀▀▀▀■▒■▀▀▀▀▀▀▓■▀■■ ■[0m

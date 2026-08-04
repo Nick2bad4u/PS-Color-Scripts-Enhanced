@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-BNF0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0525/raw/ZII-BNF0.ANS
-# Source Revision: archive-sha256:3f1c54fcce63651d0da098cd25cb8253b5a6b2c25c827a57c95e7c0e8210b5fb
-# Source SHA-256: 515d8352b907828c76f393d7bca3f306bf17f8169362db92a197b1941c1e0d24
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-BNF0.ANS by Zeus II (Mistigris); released in mist0525 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: BA5ED nfo file
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20250406
-# SAUCE Dimensions: 80x150
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: BA5ED nfo file by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0525-zii-bnf0-part01
 
 Write-Host '
 

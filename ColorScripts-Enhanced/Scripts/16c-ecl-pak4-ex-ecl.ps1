@@ -1,18 +1,4 @@
-﻿# Converted from: EX-ECL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak4/raw/EX-ECL.ANS
-# Source Revision: archive-sha256:4de151b62f8e1e01744243eb3a08b6b162710f6f3d9cf33945fdb35eb3f11d38
-# Source SHA-256: ade72b60960c49407a9d4f94255759a899eec28974396592253bf6eb09a0da19
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EX-ECL.ANS by exocet (ncl / xpo??); released in ecl-pak4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ecl ansi!
-# SAUCE Author: exocet
-# SAUCE Group: ncl / xpo??
-# SAUCE Date: 19980212
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: ecl ansi! by exocet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak4-ex-ecl
 
 Write-Host '
   [1;30m              [0m                          [32m▄▄[0;1;32m▄▄[0m

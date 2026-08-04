@@ -1,18 +1,4 @@
-﻿# Converted from: US-DEEP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/divine01/raw/US-DEEP.ANS
-# Source Revision: archive-sha256:11fa9bc5007e937e6557200c9a6996087cdff7d49a741cfe192f769742cda34a
-# Source SHA-256: 58f6152d1d6cc35885f67907ea1b2c3183f83dbe8328c8ba64dc05d53993af9b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DEEP.ANS by Dosage + Luminous + Toxix (divine legacy); released in divine01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: deep ??
-# SAUCE Author: multiple artists
-# SAUCE Group: divine legacy
-# SAUCE Date: 19980507
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: deep ?? by Dosage + Luminous + Toxix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-divine01-us-deep
 
 Write-Host '
 [1;30m░░░[0m  [1;30m▄▄██[0;1;30;47m▓[0;1;30;40m▀[0;35m [0;33m▄▄▄  [0;37m   [0;33m░▄▄▄░[0;37m ▀██▄[0;1;30;47m░[0;1;30;40m▄█▓░[0;1;34;40m [0;34m▄[0;1;34m▄▄▄[0;1;34;47m▓[0;1;34;40m▓▓░░[0m [1;34m       [0;1;30m ░░[0m         [1;34m  ▒▒ [0m        [1;30m░░[0m

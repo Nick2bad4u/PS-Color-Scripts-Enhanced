@@ -1,19 +1,4 @@
-﻿# Converted from: j-mm.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna01/raw/j-mm.ans
-# Source Revision: archive-sha256:70f712dbf565de1ceb0f2b7020b54aa443621235a47b082b92e24e13342b0672
-# Source SHA-256: 5bfd5b5745a25e72833109e98dd5c59fc0ca40afe9890082ba8a0dc0e721f7fd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: j-mm.ans by jaiyan (sauna); released in thesauna01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: mavenmob
-# SAUCE Author: jaiyan
-# SAUCE Group: sauna
-# SAUCE Date: 20190826
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: mavenmob by jaiyan | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna01-j-mm
 
 Write-Host '
 

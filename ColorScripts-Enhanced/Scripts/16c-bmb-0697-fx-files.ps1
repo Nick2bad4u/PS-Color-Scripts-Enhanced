@@ -1,18 +1,4 @@
-﻿# Converted from: FX-FILES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0697/raw/FX-FILES.ANS
-# Source Revision: archive-sha256:608fe2b98dcac70515ce221c11f606d898ec739b4fcdd1a5448c437eb640df82
-# Source SHA-256: 42c49951efcca6ab19941c7a599fd5e2f0bd3fa987c8bf8b48cb25488d986f0a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FX-FILES.ANS by Flux (Psychic Release); released in bmb-0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: files ansi.. octane.. dumbfuck..
-# SAUCE Author: Flux
-# SAUCE Group: Psychic Release
-# SAUCE Date: 19970524
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: files ansi.. octane.. dumbfuck.. by Flux | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0697-fx-files
 
 Write-Host '
 [31m[0m   [1;30m▄   ░░[0m        [31m▄▄▄▄ [0m          [31m ▄ [0m   [31m [0;37m  [0;31m                                     [0m

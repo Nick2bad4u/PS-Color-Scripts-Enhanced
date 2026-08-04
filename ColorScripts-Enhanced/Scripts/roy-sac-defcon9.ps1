@@ -1,13 +1,4 @@
-﻿# Converted from: DEFCON9.ANS
-# Source encoding: CP437
-# Source URL: https://www.roysac.com/images/galleries/ZIP/Roy_ANSI.ZIP
-# Source Revision: archive-sha256:8598a9432b4feb86c4e79552795b407b9d7c576fb6f25e9828d6143f1c7b35bc
-# Source SHA-256: 1948fa1cbe1c31d173005585a6dbce70afe16ba323cde69d5a515215c7847ed1
-# Source License: FAL-1.3
-# Source Attribution: DEFCON9.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: DEFCON9.ANS by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-defcon9
 
 Write-Host '
 

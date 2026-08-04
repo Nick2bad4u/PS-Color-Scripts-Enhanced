@@ -1,19 +1,4 @@
-﻿# Converted from: S-57HATE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fool27/raw/S-57HATE.ANS
-# Source Revision: archive-sha256:2f2b93f8f0e4fec62b30a599f5faab168be4584610a3b26b5849676a1be20365
-# Source SHA-256: 25e9d4aabd4b1763bd1e787d42bd436dae6a4d73268077a0ec0ba151220d0664
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S-57HATE.ANS by screw (sucktronics); released in fool27 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 57 - sucktronics
-# SAUCE Author: screw
-# SAUCE Group: sucktronics
-# SAUCE Date: 20180627
-# SAUCE Dimensions: 80x28
-# SAUCE Font: IBM VGA
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: 57 - sucktronics by screw | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fool27-s-57hate
 
 Write-Host '
                                      [1;30;40m▄[0m▄▒▒

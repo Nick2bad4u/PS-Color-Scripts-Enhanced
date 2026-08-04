@@ -1,13 +1,4 @@
-﻿# Converted from: GR-SQUID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/irapack3-ira-ansi/raw/GR-SQUID.ANS
-# Source Revision: archive-sha256:6fed41f2189359ac8fc175895e43a6af0c3289bbdbde355fb090fc9339bbf7d0
-# Source SHA-256: d561a658cb056d3da4ce163af7f5cfbabe4188eb0a30efce62b372d597bf740e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GR-SQUID.ANS by Ghost Rider (irapack3-ira-ansi); released in irapack3-ira-ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: GR-SQUID.ANS by Ghost Rider | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-irapack3-ira-ansi-gr-squid
 
 Write-Host '
                                   [34m▄▄▄▄▄▄▄▄▄▄   [0;1;34mGR 96[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: FV-STATS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hmd-0696/raw/FV-STATS.ANS
-# Source Revision: archive-sha256:cdb2bd6a0639a2561fe55465badfc0395ee676b7bad0a20bb4669cc251eedfd7
-# Source SHA-256: 2c0981947ef037ac6866ebc892f5267179992ef6eeabc839dff19be06282439d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-STATS.ANS by fEVER (humid); released in hmd-0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: rage stats screen
-# SAUCE Author: fEVER
-# SAUCE Group: humid
-# SAUCE Date: 19960604
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: rage stats screen by fEVER | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hmd-0696-fv-stats
 
 Write-Host '
 [30;42m▓[0m   [1;30;40m░[0m   [1;30m▄▒▄▄▄[0;1;30;42m▓[0;30;42m▀▀▀▀▀▀▀▀▀▀▀[0m        [32;40m▄[0m    [30;43m▀▀ [0;1;31;43m▀▄▄[0;30;43m ▀[0;37;40m  [0;30;43m▌[0;1;31;47m▓██[0;1;31;43m███▀[0;30;43m ▄[0;1;31;43m▐████[0;1;31;47m▓[0;1;31;43m▓░[0;30;43m▄ [0;1;31;43m▓░[0;30;43m▄ [0;1;31;43m▄[0;30;43m▀[0;37;40m [0;1;31;43m░▓[0;30;43m▀▀[0m

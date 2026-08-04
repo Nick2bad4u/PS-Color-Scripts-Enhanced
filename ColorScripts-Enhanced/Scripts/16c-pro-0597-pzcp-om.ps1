@@ -1,13 +1,4 @@
-﻿# Converted from: PZCP!OM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pro-0597/raw/PZCP!OM.ANS
-# Source Revision: archive-sha256:481b5fb97b76ab3f49d96748bbc6de9355df4dac5d8032169a495e45a44b207f
-# Source SHA-256: 73fe7dd5388f27b472a507e36c94a50b89fde00c4258e31eae0f5a5fe8359b61
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PZCP!OM.ANS by Otium Man (pro-0597); released in pro-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: PZCP!OM.ANS by Otium Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pro-0597-pzcp-om
 
 Write-Host '
 

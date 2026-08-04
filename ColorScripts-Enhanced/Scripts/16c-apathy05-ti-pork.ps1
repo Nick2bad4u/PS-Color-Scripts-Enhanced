@@ -1,18 +1,4 @@
-﻿# Converted from: TI-PORK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy05/raw/TI-PORK.ANS
-# Source Revision: archive-sha256:2e1c7dd4c451a5d024352ee6b56eba52a2d5ba6a7d73a9cc34cff58fc603ca18
-# Source SHA-256: a5a01778d5d80dd0642cac69cf514705ecdca8a1c129b091075ad4199421e5ff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TI-PORK.ANS by Trip (Apathy); released in apathy05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Pork
-# SAUCE Author: Trip
-# SAUCE Group: Apathy
-# SAUCE Date: 19951211
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Pork by Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy05-ti-pork
 
 Write-Host '
 [1;30m           [0;33m               [0m                                          [1;30m░░░░░░[0m

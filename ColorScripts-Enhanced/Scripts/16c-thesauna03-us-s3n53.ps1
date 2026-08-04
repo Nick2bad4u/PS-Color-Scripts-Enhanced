@@ -1,19 +1,4 @@
-﻿# Converted from: us-s3n53.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna03/raw/us-s3n53.ans
-# Source Revision: archive-sha256:997aaab655669129eb266c21ca0c4588b603e11c90338498bb530f8bba390fb2
-# Source SHA-256: 2921d0f256b9194493358abce825cd240f057bcccf385d2d83356fdc9237bc33
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-s3n53.ans by Knocturnal + Zeus Ii + Tainted (sauna); released in thesauna03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: sense
-# SAUCE Author: k1 zii tnt
-# SAUCE Group: sauna
-# SAUCE Date: 20210412
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: sense by Knocturnal + Zeus Ii + Tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna03-us-s3n53
 
 Write-Host '
              [31;40m▄[0;1;31;41m▌[0;31m▄[0m        [37m▄[0;1;31m▄▀▀[0;31m▀[0m     [31m▄[0;1;31m▄▄[0m                  [37m▄[0;1;31m▄[0;31m▄■■[0m         [37m▄[0;1;31m▄[0m▀[1;31m▀[0;31m▀[0m

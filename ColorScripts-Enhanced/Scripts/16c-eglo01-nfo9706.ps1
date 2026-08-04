@@ -1,17 +1,4 @@
-﻿# Converted from: _NFO9706.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eglo01/raw/_NFO9706.ANS
-# Source Revision: archive-sha256:946b379c1627c6c0ce524ce16bdc1636c1614ddecdaaa61a3c3a875f18d94d0a
-# Source SHA-256: 9132be99a2b134403c4661dc9011986b1f3b22670ec42a1ca52fb3413adefeff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _NFO9706.ANS by Sophisto + Shaft (Everglo); released in eglo01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: sophisto, shaft
-# SAUCE Group: Everglo
-# SAUCE Date: 19970209
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: _NFO9706.ANS by Sophisto + Shaft | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eglo01-nfo9706
 
 Write-Host '
 [1;34;44m▄[0;34m▄[0;37m [0;1;37;47m ░░[0m [1;30m▀[0;1;32;46m░░▒▒▒[0;1;33;42m▓▓▒▒[0;1;32;46m▓▒▒[0;1;36;46mSf[0;36m▀▀▀[0;1;30m▀[0m [34m▄[0m   [34m▄▄[0;1;34m▄▄[0;1;34;44m▄[0;34m█▀[0;37m [0;35m▄[0;37m  [0;34m▄[0;1;34;44m▄▌[0;1;34;40m [0m [35m▄▄ ▀ ▄▄▄██▀▀▀▀▀     ▄▄▄▄▄▄[0;1;35m▄▄[0;1;35;45m▄▄█[0;1;35;47m▓▓[0m

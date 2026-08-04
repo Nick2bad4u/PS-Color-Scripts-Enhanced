@@ -1,18 +1,4 @@
-﻿# Converted from: RS-FP.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/sac0395/raw/RS-FP.ANS
-# Source Revision: archive-sha256:7b30118405d4d21f05022ba0c6f9cc20d209f8b3e8684cf8db7bf6713b2b2425
-# Source SHA-256: a987076f814791d6a61e751842cab7aa4a83dbea3bc6eff7ea66dc814fdc53e2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-FP.ANS by raiser; released in sac0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: FARPOiNT STATiON
-# SAUCE Author: RAiSER
-# SAUCE Group: SAC
-# SAUCE Date: 19950314
-# SAUCE Dimensions: 80x25
-# Lines: 178-210
-# Columns: 1-80
+﻿# Artwork: FARPOiNT STATiON by raiser | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0395-rs-fp-part05
 
 Write-Host '
 [1;32;42m▒▒[0;32m█[0;1;32;42m░[0;32m███▀▀▀[0;1;30m▄▄▄▄▄[0;32m▀[0;1;30m▄▄▄[0;32m▀▀██▀▀▀█▀▀▀[0;1;37m     [0;1;30m▄▄▄▄[0;1;37m                                       [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: GS-FOAM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_10/raw/GS-FOAM.ANS
-# Source Revision: archive-sha256:21def41607bc8f426e6b33cadf0099935014e2da13ee2908faa3303a70532ffa
-# Source SHA-256: e65605b7d92c6bf8f2fc637fb34fce0321ea13b482824d2ba81e66ce3bd9c9d9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GS-FOAM.ANS by Godsung (DOX); released in dox_10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Foam
-# SAUCE Author: Godsung
-# SAUCE Group: DOX
-# SAUCE Date: 19970623
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Foam by Godsung | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-10-gs-foam
 
 Write-Host '
 [1;32m              [0;1;37m▄▄▄▄▄[0;1;32m                                                             [0m

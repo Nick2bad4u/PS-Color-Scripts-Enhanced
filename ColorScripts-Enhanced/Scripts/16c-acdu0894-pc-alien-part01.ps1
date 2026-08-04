@@ -1,18 +1,4 @@
-﻿# Converted from: PC-ALIEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0894/raw/PC-ALIEN.ANS
-# Source Revision: archive-sha256:28600f23ee913202821d8c592f0de8a079254979b8f1dcaf5d782e506b6eee00
-# Source SHA-256: 6ae875ba45b0c254d5e0533ea9d72f8ee94457f8e46df29638353f1ddf5ddc9b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-ALIEN.ANS by P-Chan (ACiD Productions); released in acdu0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Alien Workshop
-# SAUCE Author: P-Chan
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940801
-# SAUCE Dimensions: 80x172
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: Alien Workshop by P-Chan | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0894-pc-alien-part01
 
 Write-Host '
                             [1m▄[0m▄▄▄▄[30;43m█[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: LM-KBS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/kbsart03/raw/LM-KBS2.ANS
-# Source Revision: archive-sha256:3bc41b0cbaed5cc33563c576ee20fcd7a1c532d4df2df0fbf9fb63f79506bdf8
-# Source SHA-256: 68250e45dadfc987438d7f505633dba38bedac35416d0dde4b27dae13ae88cc0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LM-KBS2.ANS by lichmistress (genuine); released in kbsart03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: lichmistress
-# SAUCE Group: genuine
-# SAUCE Date: 19990830
-# SAUCE Dimensions: 80x63
-# Lines: 34-63
-# Columns: 1-80
+﻿# Artwork: LM-KBS2.ANS by lichmistress | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-kbsart03-lm-kbs2-part02
 
 Write-Host '
  [1;33m██[0m   [35m▄▀[0;37m [0;35m▀▌[0;37m [0;1;33m█▄[0m  [1;33m▄████▀▄[0m [35m▀[0;37m   [0;34m█▄[0;37m [0;35m▀[0;37m [0;35m▀[0;37m  [0;35m▀[0m     [34m ▀▌▀▀█[0;1;34;44m▄[0;34m▄[0;37m [0;1;30m█▌[0m  [35m▐▄█[0;37m [0;35m▄[0;37m  [0;1;30m▀[0;1;30;46m▄▐[0;1;30;40m▌▐[0;36m▀[0;1;30m▀[0m [35m▄▀██[0;37m [0;1;30m▀[0;36m▀██[0;1;30m▌[0m

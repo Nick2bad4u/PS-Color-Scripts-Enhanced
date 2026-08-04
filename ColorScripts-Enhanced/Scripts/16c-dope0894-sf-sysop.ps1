@@ -1,13 +1,4 @@
-﻿# Converted from: SF-SYSOP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dope0894/raw/SF-SYSOP.ANS
-# Source Revision: archive-sha256:e977fdb209d355bbe4dc1d9686fd5de8aacfb2e90f44da96b48f66ce4d326cda
-# Source SHA-256: fb7559e78ddb8f697b331cc77f4d33c45ed0164e4e7011c3d76bbf9b0899e1e8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SF-SYSOP.ANS by Superfly (dope0894); released in dope0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: SF-SYSOP.ANS by Superfly | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dope0894-sf-sysop
 
 Write-Host '
   [1;30m■■[0m■[1;30m■[0m■[1;30m■[0m■■■  [1;30m¡[0;1;37mSYSGOD MENU[0;1;30m!  [0m■■[1;30m■[0m■[1;30m■[0m■■[1;30m■[0m■[1;30m■■[0m■[1;30m■■■[0m■           [1m▄[0;1;47m█[0;1;46m▀[0;36;46m█[0;1;37;46m▄[0;36;46m█████████████████[0m

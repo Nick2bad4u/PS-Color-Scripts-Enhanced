@@ -1,17 +1,4 @@
-﻿# Converted from: CY-OUCH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rilebrkn/raw/CY-OUCH.ANS
-# Source Revision: archive-sha256:631709d46940d5f633b8ebca426a515d51357cee4cca25bed435a2a8fbf53a10
-# Source SHA-256: 8f6c8e4a7d3a9f2a2f368b1740d0ac3ac2d4974451f1b0c96d56d9d872fee023
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CY-OUCH.ANS by Torture Crayon (rilebrkn); released in rilebrkn and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Rev Equipment
-# SAUCE Author: Torture Crayon
-# SAUCE Date: 19970420
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Rev Equipment by Torture Crayon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rilebrkn-cy-ouch
 
 Write-Host '
 [35m░░[0m                       [1;30m  [0m        [1;30m█▄[0m          [1;30m▄■[0m          [33m   [0;35m░[0;33m      [0;37m [0;33m▄▓▄▓░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: DLT-RBOT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/arc-14/raw/DLT-RBOT.ANS
-# Source Revision: archive-sha256:ed45d70e8d2c6a54dbf9cb117b8faceda9dce116544ae3fc808ed47a0f847615
-# Source SHA-256: a1d539525732502dc13d8cf53f33f39c178b91a84c2fd09c15ab5e9828111fb1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DLT-RBOT.ANS by dalton (arc.plf); released in arc-14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: robot med diskett
-# SAUCE Author: dalton
-# SAUCE Group: arc.plf
-# SAUCE Date: 19990727
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: robot med diskett by dalton | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-arc-14-dlt-rbot
 
 Write-Host '
 

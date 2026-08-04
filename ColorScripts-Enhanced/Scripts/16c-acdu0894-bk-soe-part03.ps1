@@ -1,18 +1,4 @@
-﻿# Converted from: BK-SOE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0894/raw/BK-SOE.ANS
-# Source Revision: archive-sha256:28600f23ee913202821d8c592f0de8a079254979b8f1dcaf5d782e506b6eee00
-# Source SHA-256: f3af9fd802224accd8a59c1fd3d806ecab74299394e3151aa7e5c446fdddf636
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BK-SOE.ANS by Bad Karma (ACiD Productions); released in acdu0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: State of Euphoria
-# SAUCE Author: Bad Karma
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940801
-# SAUCE Dimensions: 80x199
-# Lines: 101-149
-# Columns: 1-80
+﻿# Artwork: State of Euphoria by Bad Karma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0894-bk-soe-part03
 
 Write-Host '
 [34m███ [0;1;31m████████████▀▀[0m             [1;37m███▄▄ [0;1;31m▀█▄█████▄ ██ [0;1;31;43m▓[0;1;31;40m███████[0;1;37;40m▀[0;1;37;47m▓▓█[0;1;37;40m██████████▀[0;1;31;40m▄█████[0m

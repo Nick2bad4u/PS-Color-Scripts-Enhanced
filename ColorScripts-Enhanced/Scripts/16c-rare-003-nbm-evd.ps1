@@ -1,13 +1,4 @@
-﻿# Converted from: NBM-EVD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-003/raw/NBM-EVD.ANS
-# Source Revision: archive-sha256:de78ce19727ea90c75e1ecc7f5b4d900676dc27b4dceb8a870f61665ee210859
-# Source SHA-256: 4d1c93663295904eb8932e8d74fc159a90b65efac13bff6f287da83071326073
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NBM-EVD.ANS by Niobium (rare-003); released in rare-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: NBM-EVD.ANS by Niobium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-003-nbm-evd
 
 Write-Host '
 [32m$$$[0;1;32m$$$$$$$[0;32m$[0;1;34m  [0m                         [32m  [0;35m_,┌s#$$$$[0;1;35m$$$$$$$$$$$[0;35m$±*┘''`[0;32m,$$[0;1;32m$$[0;32ml[0;1;32m [0mniobium

@@ -1,18 +1,4 @@
-﻿# Converted from: BYM%PHB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phb-0597/raw/BYM%25PHB.ANS
-# Source Revision: archive-sha256:5e2897b5aabe339c16f5d2024824fa427f86134be322d4a86a5d7157032f23f1
-# Source SHA-256: 7939700e593f373c35d9337bd75b9dc194951ed1f84de1f6234f6cbd29010f8b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM%PHB.ANS by big y3llow man (pHOBIA@!); released in phb-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: phobia space font
-# SAUCE Author: big y3llow man
-# SAUCE Group: pHOBIA@!
-# SAUCE Date: 19970415
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: phobia space font by big y3llow man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phb-0597-bym-phb
 
 Write-Host '
                                     [30;45m▓▓▓▓▓▓▓▓[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: QUIP-GAZ1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1119/raw/QUIP-GAZ1.ANS
-# Source Revision: archive-sha256:55e25d51e7ea67e18beea3070275d20b31facc3af69759bb904716908b0d1228
-# Source SHA-256: 2da6a4ccd3aa699b6e4dda6c67c6e71434fd303a27817201a934f2ba0784c54d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QUIP-GAZ1.ANS by Quip (Mistigris); released in mist1119 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Gaz
-# SAUCE Author: Quip
-# SAUCE Group: Mistigris
-# SAUCE Date: 20191012
-# SAUCE Dimensions: 80x32
-# SAUCE Font: IBM VGA
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Gaz by Quip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1119-quip-gaz1
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: IK-COLNE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eden0495/raw/IK-COLNE.ANS
-# Source Revision: archive-sha256:237b9e6d55d8a6638986ba7714e0d9f7fe6d1f7d7e934f8c205f1a212e68415a
-# Source SHA-256: 66ed4474ef5fa5c313fad6ca29989de18770193d150e8a488f02101d25ea6984
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IK-COLNE.ANS by iLL cOMMUNIKATION (eDEN); released in eden0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: cOOL nESS
-# SAUCE Author: iLL cOMMUNIKATION
-# SAUCE Group: eDEN
-# SAUCE Date: 19950405
-# SAUCE Dimensions: 80x129
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: cOOL nESS by iLL cOMMUNIKATION | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eden0495-ik-colne-part01
 
 Write-Host '
 [1;30m██▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀███▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀██[0m

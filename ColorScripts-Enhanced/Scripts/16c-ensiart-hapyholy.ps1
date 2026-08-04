@@ -1,13 +1,4 @@
-﻿# Converted from: HAPYHOLY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ensiart/raw/HAPYHOLY.ANS
-# Source Revision: archive-sha256:1740ea49d8e6dbe7ec5d2c508ba38bad12fe73c43c677e55524f61db5ff5063b
-# Source SHA-256: 601746738dd110e34906f1a2da41aeb764dad0854fd5873297d94edaac9a8e4f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HAPYHOLY.ANS by Steve Book (ensiart); released in ensiart and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: HAPYHOLY.ANS by Steve Book | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ensiart-hapyholy
 
 Write-Host '
   [1;32m   [0;1;31m [0m       [1;33m██[0m     [1;31m [0;1;32m [0;1;31m [0;1;37m [0;1;31m     [0;1;32m [0;1;31m [0;1;32m [0;1;31m [0m

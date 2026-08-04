@@ -1,13 +1,4 @@
-﻿# Converted from: SL-PRSM2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cnc-0694/raw/SL-PRSM2.ANS
-# Source Revision: archive-sha256:4e4f856a58a73880d0094490e4341138b2c71a03af629f52c2556c21a30b23f9
-# Source SHA-256: 40bb67e67e089b50bd4e6521ce2ec1b201d80584c0915d7be03aa9c5793fa1f3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SL-PRSM2.ANS by Sir Lancelot (cnc-0694); released in cnc-0694 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: SL-PRSM2.ANS by Sir Lancelot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cnc-0694-sl-prsm2
 
 Write-Host '
             [1;34;44m███████[0;1;37;47m▒[0;1;37;40m█████████[0;1;34;44m░░░░░▒▒▒▒░[0;1;37;44m▐[0;1;37;47m▓▓[0;1;37;40m██████[0;1;37;47m▒[0;1;37;44m▌[0;1;34;40m▓▒░[0m

@@ -1,20 +1,4 @@
-﻿# Converted from: 04_DEC23.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1223/raw/04_DEC23.ANS
-# Source Revision: archive-sha256:86d02e5103ccb7950792473f0c3e4ca18e595c9011c06df5ce1fe1692dbd9f5a
-# Source SHA-256: 2bcd618c2645a491a89f12752e8517dd7804125fe6d86993499596419fbe9683
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 04_DEC23.ANS by nitron (mistigris); released in mist1223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Supply Stop - WIP Reel
-# SAUCE Author: nitron
-# SAUCE Group: mistigris
-# SAUCE Date: 20231121
-# SAUCE Dimensions: 80x184
-# SAUCE Font: Default
-# SAUCE Comments: WIP reel for 04 Mistigris 2023 December Advent Calendar
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Supply Stop - WIP Reel by nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1223-04-dec23-part01
 
 Write-Host '
 [1;31m████████████████████████████████████████████████████████████████████████████████[0m

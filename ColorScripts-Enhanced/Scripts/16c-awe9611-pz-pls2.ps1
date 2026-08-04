@@ -1,18 +1,4 @@
-﻿# Converted from: PZ-PLS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9611/raw/PZ-PLS2.ANS
-# Source Revision: archive-sha256:2b73e149488dc761d99422832825743596588d59e58f9bfecfb5d0e9dbffd274
-# Source SHA-256: 1999d2ed890777461c96b10693b4845cfbcd1675bc6d1d69163c02b916322dc2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PZ-PLS2.ANS by Pzyko (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Pulse
-# SAUCE Author: Pzyko
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961029
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Pulse by Pzyko | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9611-pz-pls2
 
 Write-Host '
                                                       [31m▄[0;1;31m▄▄[0;31m▄[0m            [1;31m▄[0;31m▄[0m

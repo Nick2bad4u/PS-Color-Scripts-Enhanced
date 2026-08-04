@@ -1,13 +1,4 @@
-﻿# Converted from: TSC-POOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fos-0196/raw/TSC-POOR.ANS
-# Source Revision: archive-sha256:7b35e2d1b77f64a0bb3f52fe512c20b089b55cb938c04933966099eeada5d6ff
-# Source SHA-256: ecb81a8eb202cbd88a1a0c100d4142f0274e0c1ab1880ab171797882538c6bd2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSC-POOR.ANS by The Shadow Caster (fos-0196); released in fos-0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: TSC-POOR.ANS by The Shadow Caster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fos-0196-tsc-poor
 
 Write-Host '
  [1;30m                     [0m            [1;30m█   ░░   ░ █                           [0m

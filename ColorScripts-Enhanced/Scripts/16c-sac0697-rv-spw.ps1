@@ -1,13 +1,4 @@
-﻿# Converted from: RV-SPW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0697/raw/RV-SPW.ANS
-# Source Revision: archive-sha256:0b721541cca8ac174bff16dfdb239e04c03d8d36e25a348efa54fb9152ea3678
-# Source SHA-256: 5af73c853d7748168357f7111260a3d5b850ac8f06172d974214d0881ef69407
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RV-SPW.ANS by Rave (sac0697); released in sac0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: RV-SPW.ANS by Rave | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0697-rv-spw
 
 Write-Host '
                      [1m┌[0m-∙∙┐    · [1;31m▄[0m─[1;31m▀[0m─[1m┐[0m      [1;31m▄[0m

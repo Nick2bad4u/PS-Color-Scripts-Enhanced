@@ -1,18 +1,4 @@
-﻿# Converted from: 4O-R.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sia_0199/raw/4O-R.ANS
-# Source Revision: archive-sha256:92d4e52b19beec97359b5e18744a5f894532a5c05a0b8383b262dcd5ad8ce0b0
-# Source SHA-256: 9285e5fdf5cb6d6e6041776049c75f040080d59d19451dfae356357193623d8d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 4O-R.ANS by 4o (bla); released in sia_0199 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: vier linien zerstoeren kein r
-# SAUCE Author: 4o
-# SAUCE Group: bla
-# SAUCE Date: 19990114
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: vier linien zerstoeren kein r by 4o | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sia-0199-4o-r
 
 Write-Host '
                                                              [36m [0m         [36m [0m

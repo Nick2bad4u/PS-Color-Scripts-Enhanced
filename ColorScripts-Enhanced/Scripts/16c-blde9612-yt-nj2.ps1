@@ -1,18 +1,4 @@
-﻿# Converted from: YT-NJ2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9612/raw/YT-NJ2.ANS
-# Source Revision: archive-sha256:634aaac85c7d9b6072d119f8ce41f9d77a163e2892fb18d233be18fe4fed4816
-# Source SHA-256: d017fdec6cc6c29166277de5953186b50cd0322bac3d9aa09cec308b367bb3c5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: YT-NJ2.ANS by neophyte (mistiblade); released in blde9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: neon jesus
-# SAUCE Author: neophyte
-# SAUCE Group: mistiblade
-# SAUCE Date: 19961130
-# SAUCE Dimensions: 80x25
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: neon jesus by neophyte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9612-yt-nj2
 
 Write-Host '
 [1;33m▓▓▒▒░░[0;1;30m [0m [1;33m░░[0m                      [1;30m▄▄▄▄[0m     [1;30m▄▄▄▄[0m                          neophyte

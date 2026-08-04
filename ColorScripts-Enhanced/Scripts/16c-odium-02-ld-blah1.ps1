@@ -1,18 +1,4 @@
-﻿# Converted from: LD-BLAH1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-02/raw/LD-BLAH1.ANS
-# Source Revision: archive-sha256:47a67f112d88796e8c1419ea3c6c084684ff2719dfc540b2668a69dc0343be0d
-# Source SHA-256: 71aa07ac94d18e21915d2852b46b694ac6f088f2616329821a69875536614d46
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-BLAH1.ANS by lordjazz (odium); released in odium-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: BLAHblahBlahBLahblAHblaHblahBLAH
-# SAUCE Author: lordjazz
-# SAUCE Group: odium
-# SAUCE Date: 19951217
-# SAUCE Dimensions: 80x25
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: BLAHblahBlahBLahblAHblaHblahBLAH by lordjazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-02-ld-blah1
 
 Write-Host '
                     [34mb[0m            [34ml[0m             [34ma[0m             [34mh[0m

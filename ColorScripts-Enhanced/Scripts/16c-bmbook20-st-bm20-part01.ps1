@@ -1,17 +1,4 @@
-﻿# Converted from: ST-BM20.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook20/raw/ST-BM20.ANS
-# Source Revision: archive-sha256:ad9acf30fa46ab5c9a458319782448b90dee64987e366c3cf1e5e495b40c4e0a
-# Source SHA-256: b53ac0cec021f22921728373f9b1468f94f4030fa7e113ca76089e71552ca873
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-BM20.ANS by storm (sia); released in bmbook20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: black maiden book 20
-# SAUCE Author: storm
-# SAUCE Group: sia
-# SAUCE Dimensions: 80x25
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: black maiden book 20 by storm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook20-st-bm20-part01
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: ISO-ENDZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/synth13a/raw/ISO-ENDZ.ANS
-# Source Revision: archive-sha256:ed56d018f000bbf001cf9032f2bfe126515c5f76553d7d7cf46296811d1c0ee8
-# Source SHA-256: f0ee6c52682586b1e7e6e2a3a80f243315fafe0b38118bb43740749f355c7b6d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ISO-ENDZ.ANS by isotone (synthetic); released in synth13a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: frayed^endz
-# SAUCE Author: isotone
-# SAUCE Group: synthetic
-# SAUCE Date: 19970829
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: frayed^endz by isotone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-synth13a-iso-endz
 
 Write-Host '
 [1;30m   ▓█▓▒▒░░▒▓█▓███▓▒▓██████████▓▒▒▓███▒░▒░▒▓▓███████████▓██▓▓▒█▓▒░ [0;34m▀▀▀████▓▓▒▒░░ [0m

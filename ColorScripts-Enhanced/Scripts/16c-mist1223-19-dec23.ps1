@@ -1,19 +1,4 @@
-﻿# Converted from: 19_DEC23.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1223/raw/19_DEC23.ANS
-# Source Revision: archive-sha256:86d02e5103ccb7950792473f0c3e4ca18e595c9011c06df5ce1fe1692dbd9f5a
-# Source SHA-256: 6f064ef6a762574ca4f1fb7a7f47d75d630662fbc7d1c9c072fba6a6c4dd914d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 19_DEC23.ANS by LDA (mistigris); released in mist1223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: December 19th
-# SAUCE Author: LDA
-# SAUCE Group: mistigris
-# SAUCE Date: 20231130
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: December 19th by LDA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1223-19-dec23
 
 Write-Host '
 [1;34;46m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m

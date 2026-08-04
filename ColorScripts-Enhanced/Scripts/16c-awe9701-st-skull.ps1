@@ -1,18 +1,4 @@
-﻿# Converted from: ST-SKULL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9701/raw/ST-SKULL.ANS
-# Source Revision: archive-sha256:d9ee1d58a6a06d01c9f7c4f38cd8e5ab0dc2d9bdfc6b97ab0ed0cc65c400a40c
-# Source SHA-256: 5c0800f3e79f4232278478f91ce5549d99762bffa73c7f8db28d4a47c2004e19
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-SKULL.ANS by Splatt (AWE Lettering); released in awe9701 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: SkullFish
-# SAUCE Author: Splatt
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970105
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: SkullFish by Splatt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9701-st-skull
 
 Write-Host '
 [1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄     [1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄▄▄

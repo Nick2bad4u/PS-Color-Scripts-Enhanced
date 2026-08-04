@@ -1,18 +1,4 @@
-﻿# Converted from: PAR-BEAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-19/raw/PAR-BEAT.ANS
-# Source Revision: archive-sha256:51e7ebafde7b29c06daae7a5ae4da992f41728aec84b8b28502f57cce3cd0f9a
-# Source SHA-256: c0c299ad199c71bc60477d7184ff0666db9d04b31d8fff1b55aabaede4e89f2f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PAR-BEAT.ANS by Pariah (Remorse Productions); released in rmrs-19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Beat Junkie Chemistry
-# SAUCE Author: Pariah
-# SAUCE Group: Remorse Productions
-# SAUCE Date: 19980104
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Beat Junkie Chemistry by Pariah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-19-par-beat
 
 Write-Host '
 [1;34m♫♫[0;34m''[0;37m [0;34md[0;1;34m♫♫♫♫♫♫♫♫[0;34m''[0;37m [0;33md╜ⁿ"~[0;1;31m````````[0;33m"ⁿ╙7[0;1;31m§♫♫♫♫♫♫♫♫♫♫♫♫§[0;33m§P╜ⁿ"[0;1;31m``````[0;33m`~[0;37m [0;34m`7[0;1;34m♫♫♫h[0;34m,`7[0;1;34m♫♫♫♫[0;34mh[0;37m [0;34m`[0;1;34m♫♫♫♫[0m

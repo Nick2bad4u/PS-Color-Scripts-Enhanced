@@ -1,13 +1,4 @@
-﻿# Converted from: bw-evoke2k11_assemble.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_awaken/raw/bw-evoke2k11_assemble.ans
-# Source Revision: archive-sha256:9d338d3910f6730204698339e869f7ab219513c3aa8e2f1b0bb278c633114d95
-# Source SHA-256: 67bec4f2f323ce57e851b91108215d9558933c4d0ebf353a69fa898154d98492
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bw-evoke2k11_assemble.ans by Binary Walker (blocktronics_awaken); released in blocktronics_awaken and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 196-242
-# Columns: 1-80
+﻿# Artwork: bw-evoke2k11_assemble.ans by Binary Walker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-awaken-bw-evoke2k11-assemble-part05
 
 Write-Host '
 [1;35;45m▀[0;35m▀[0;37m [0;1;35;45m▀[0;35m█[0;37m [0;35m█[0;37m  [0;35m▀[0;34m▄[0;37m  [0;1;30m▄[0m [32m▀[0m      [33m [0;1;30m▀▄[0m      ▄▄▄▄[33m [0;1;30m▀[0;33m  [0;1;31;41m▌[0m  [1;30m█▀▀[0m [1;30m▓▄▓▒░[0m       [34m▀▄▄▄[0;37m [0;32m▀[0;37m  [0;34m▄[0;37m  [0;35m▀[0;37m  [0;35m█[0;37m [0;35m█[0;1;35;45m▀[0m [35m▀[0;1;35;45m▀▀[0m

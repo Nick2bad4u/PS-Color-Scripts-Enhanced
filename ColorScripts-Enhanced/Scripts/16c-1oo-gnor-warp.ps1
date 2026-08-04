@@ -1,13 +1,4 @@
-﻿# Converted from: Warp.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1oo_gnor/raw/Warp.ans
-# Source Revision: raw-sha256:ac527fb7a9cfcdb07e27efd2500238a5bf01b936a7a30e3d1b62a03cd2df8020
-# Source SHA-256: ac527fb7a9cfcdb07e27efd2500238a5bf01b936a7a30e3d1b62a03cd2df8020
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Warp.ans by Neurodancer (1oo_gnor); released in 1oo_gnor and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Warp.ans by Neurodancer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1oo-gnor-warp
 
 Write-Host '
                                             [34;40m▒▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: Dy-rev2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0202/raw/Dy-rev2.ans
-# Source Revision: archive-sha256:2dab715e9f2d819e9161d3954fa8210558a1b83f118c830394e2fdee6408a093
-# Source SHA-256: dcec6cee595a5acea4fa309e66d49cc7713a3611fb41fe62a79eb494cd037adf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Dy-rev2.ans by Discyple (rev0202); released in rev0202 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Dy-rev2.ans by Discyple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0202-dy-rev2
 
 Write-Host '
 [1;36;46m ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;46m▄[0;1;36;46m     [0;1;30;46m▄▄[0;1;36;46m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0m

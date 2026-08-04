@@ -1,18 +1,4 @@
-﻿# Converted from: PX-ZH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0595/raw/PX-ZH.ANS
-# Source Revision: archive-sha256:1478f8c7d5db04e992c19b5f9ae4c1c658dfc070a60d6f0748aa57a73bab460e
-# Source SHA-256: ad6a098e5773b6db556532bf2fa1ed9d617b58df64770f2f7f5c302fe6fca767
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PX-ZH.ANS by phoenix (Uni); released in uni-0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: zero hour
-# SAUCE Author: phoenix
-# SAUCE Group: Uni
-# SAUCE Date: 19950422
-# SAUCE Dimensions: 80x25
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: zero hour by phoenix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0595-px-zh-part01
 
 Write-Host '
 [1m██████████████████▓█████████████████████████████████████████████████████████████[0m

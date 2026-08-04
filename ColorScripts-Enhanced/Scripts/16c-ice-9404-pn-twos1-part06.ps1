@@ -1,13 +1,4 @@
-﻿# Converted from: PN-TWOS1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9404/raw/PN-TWOS1.ICE
-# Source Revision: archive-sha256:e5a1f2d1c6054009d2e54f022b621731de1da87874b7a0cc14ccac875662035d
-# Source SHA-256: 5c553b66290e9d1ea39cd198b2a640b577a9a086256c17bc1c44f0a2f37a9b9c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PN-TWOS1.ICE by Pnakotic (ice-9404); released in ice-9404 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 226-268
-# Columns: 1-80
+﻿# Artwork: PN-TWOS1.ICE by Pnakotic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9404-pn-twos1-part06
 
 Write-Host '
                        [36m░▒▒░░▒[0m       [36m▓▓██░░  [0;1;30m▄▓[0m░[1;30m▓[0;36m░[0m                      [36m░[0m

@@ -1,15 +1,4 @@
-﻿# Converted from: SJ-VAGR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blind-02/raw/SJ-VAGR.ANS
-# Source Revision: archive-sha256:c5e79989307dbf090a38f911b35eef6e687ee7fb3d0611abf6934cc9737046e9
-# Source SHA-256: 94c8f23637ab2f2f9656da7c3423d57d1f6571a4ee92b62d8868648a0c6a4a80
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SJ-VAGR.ANS by The Sad Jester (blind-02); released in blind-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 19951120
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: SJ-VAGR.ANS by The Sad Jester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blind-02-sj-vagr
 
 Write-Host '
 [1;30m     B     l      i      n      d      S      t      u     d      i      o     s[0m

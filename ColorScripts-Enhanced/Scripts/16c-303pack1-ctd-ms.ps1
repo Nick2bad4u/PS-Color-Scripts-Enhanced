@@ -1,18 +1,4 @@
-﻿# Converted from: CTD-MS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/303pack1/raw/CTD-MS.ANS
-# Source Revision: archive-sha256:d96bc08a467a2a6ea2a6e843ebd49b97b1020499b45630ef796714f352c9da8a
-# Source SHA-256: a821740afb705ade0a8885910b3ae59d4bf6cbf6631da776cf807fb9d7464aa6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CTD-MS.ANS by Crash Test Dummy ([3o3]art'97); released in 303pack1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Midnight Society
-# SAUCE Author: Crash Test Dummy
-# SAUCE Group: [3o3]art'97
-# SAUCE Date: 19970313
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Midnight Society by Crash Test Dummy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-303pack1-ctd-ms
 
 Write-Host '
                                                          [1;30m▄▓▄▄▀[0m

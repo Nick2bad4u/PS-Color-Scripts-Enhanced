@@ -1,18 +1,4 @@
-﻿# Converted from: bj-asc51.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bj-creep/raw/bj-asc51.ans
-# Source Revision: archive-sha256:0debf4b45d7d951a68b5333767ded34f656851230e3888db7abc1feaad98e52f
-# Source SHA-256: 8ca50ca206eb990307ace96c1a49aa0362fe53fab8b68a784bc1ac85fef40388
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bj-asc51.ans by Black Jack (Pln_Odly [12/12/96]); released in bj-creep and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Bbs Advertisment (deadlock)
-# SAUCE Author: Black Jack
-# SAUCE Group: Pln_Odly [12/12/96]
-# SAUCE Date: 19961212
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Bbs Advertisment (deadlock) by Black Jack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bj-creep-bj-asc51
 
 Write-Host '
                    [34m`Y[0;1;34m$$[0;34m$[0;37md$$$Pⁿ[0;1;37mb,[0m`"ⁿY$$$$[1m&Il[0mi[1mP$$$$$$&Il[0mi[1;30m:i[0ml[1m&$[0m$$l[1;30m`Y$[0;31m$[0;1;30m$[0;31m$$b.ⁿYmmS$$$[0m

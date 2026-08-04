@@ -1,13 +1,4 @@
-﻿# Converted from: DZ-MANG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sadist02/raw/DZ-MANG.ANS
-# Source Revision: archive-sha256:3b487d46b8d6196e38a23b461a8a31a0bcfeed849c805b149ff5c967f2ad35e5
-# Source SHA-256: ce7df4be9e18b82831ead812ab73659a17cc36dfd641f3c385c9cf7e515d043b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DZ-MANG.ANS by Dizzy (sadist02); released in sadist02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 95-142
-# Columns: 1-80
+﻿# Artwork: DZ-MANG.ANS by Dizzy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sadist02-dz-mang-part03
 
 Write-Host '
 [1;34;44m▒▒▒▒░░░[0;34m█▀[0;33m [0;37m▄██[0;1;37;47m▄████[0;1;37;40m█[0;1;37;47m▀[0m█  ██▀  ▀▀[1;47m▀▀[0;1;40m████████████████▄▄▄▄▄[0m▄ ▄[1;47m▄▄▓█[0;1;40m████████████████████[0m

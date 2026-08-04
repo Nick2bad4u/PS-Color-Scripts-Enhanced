@@ -1,18 +1,4 @@
-﻿# Converted from: US-L0P03.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p11_01/raw/US-L0P03.ANS
-# Source Revision: archive-sha256:955421fc8dc0a32cbb14e70f7f41a091061719b2f842832204ce117895f09002
-# Source SHA-256: c998fbc799a209ec4e1cb12229f160bf69b362ae25a67d810ad2ef24f5d20aa5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-L0P03.ANS by Simonking + Firefx (thelo0p); released in l0p11_01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: thelo0p003
-# SAUCE Author: firefx^simonking
-# SAUCE Group: thelo0p
-# SAUCE Date: 20010614
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: thelo0p003 by Simonking + Firefx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p11-01-us-l0p03
 
 Write-Host '
                    [31m▄▀[0;37m [0;31m  ▐[0;1;31;41m██[0;31m▌▐[0;1;31;41m██[0;31m▌[0;37m [0;31m▄[0;37m [0;31m▄▄▄[0;1;31;41m▄████[0;31m█ [0m   [31m▄[0m

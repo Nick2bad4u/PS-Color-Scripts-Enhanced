@@ -1,18 +1,4 @@
-﻿# Converted from: US-COMET.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr018/raw/US-COMET.ANS
-# Source Revision: archive-sha256:e230175b2115976a01ea7e69ead3de020d0675eec77936207f1dcdcce0235524
-# Source SHA-256: ac3e518a7fec435e3a6d513fd277c81de79a43da2132c18e4caabd3ffcb4e80d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-COMET.ANS by Hennifer + Warpus (lAZ0RUS); released in blndr018 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: bLEND0R eIGHTEEN0R
-# SAUCE Author: hENNIF0R aND wARP0R
-# SAUCE Group: lAZ0RUS
-# SAUCE Date: 19970323
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: bLEND0R eIGHTEEN0R by Hennifer + Warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr018-us-comet
 
 Write-Host '
 [34m███████[0;1;34;44m▐█[0;1;34;45m▒[0;1;34;44m▐[0;1;34;40m██[0;1;34;44m▓▓██▌[0;34m▌▀ [0;1;37m▄[0;34m▀ █▀[0;1;34;44m▀[0;1;34;45m▓[0;35;44m░[0;34;40m▀▀[0;37;44m░[0;1;34;47m▓[0;1;34;44m█[0;1;34;47m▓▓█[0;1;34;44m██████[0;1;34;47m██[0;1;34;40m▓▒[0;1;30;44m▓[0;34m▌[0;30;44m▓[0;37;40m  [0;34;40m▐[0;1;34;44m▓███▒░[0;34m██[0;1;34;44m▒▒▒[0;34m█████[0;30;44mhen&wa(LAZ)[0m

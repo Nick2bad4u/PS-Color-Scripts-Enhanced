@@ -1,18 +1,4 @@
-﻿# Converted from: PC-CH01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0794/raw/PC-CH01.ANS
-# Source Revision: archive-sha256:53cd35a6f327a0c8a649f0c556ca1e17aa60e6c4040eff696f9e35efc72f4414
-# Source SHA-256: e20e8b1a41d25b99fcbf88756d7d770be74496d1e0f2fc78eaa3621532ba3c7b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-CH01.ANS by P-Chan + Lord Jazz (ACiD Productions); released in acdu0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Channel Zer0
-# SAUCE Author: P-Chan
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940701
-# SAUCE Dimensions: 80x379
-# Lines: 138-186
-# Columns: 1-80
+﻿# Artwork: Channel Zer0 by P-Chan + Lord Jazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0794-pc-ch01-part04
 
 Write-Host '
 [1;31;40m█████████████████████████████████[0;1;31;43m▓▓▓▒▒░░░░[0;30;43m▀[0m   [1;30m█▀ [0;30;43m▄▄▄[0m    [30;43m▀▀▀▀[0;1;31;43m░░░░░░░░░░░[0;30;43m▀▀▀▀▀[0m

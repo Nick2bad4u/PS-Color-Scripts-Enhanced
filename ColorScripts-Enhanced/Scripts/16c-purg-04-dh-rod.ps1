@@ -1,18 +1,4 @@
-﻿# Converted from: DH!ROD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-04/raw/DH!ROD.ANS
-# Source Revision: archive-sha256:cf9a2279a34a1d82cee07323cbb5bca77fc6620fc4bda1203010fce2dfea132d
-# Source SHA-256: 7d1054c983294d14fcaa0f10e684c18b015056372afcf4a769169f8aa8a41069
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DH!ROD.ANS by DarkHeart (PuRG PRoDuKSHuNZ); released in purg-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: rEalm oF dragOns
-# SAUCE Author: DarkHeart
-# SAUCE Group: PuRG PRoDuKSHuNZ
-# SAUCE Date: 19960612
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: rEalm oF dragOns by DarkHeart | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-04-dh-rod
 
 Write-Host '
                                [36m▄[0m       [1;36;46m▒[0m   [36m▄[0m

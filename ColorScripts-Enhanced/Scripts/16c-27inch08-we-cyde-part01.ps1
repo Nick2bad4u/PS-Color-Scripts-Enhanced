@@ -1,13 +1,4 @@
-﻿# Converted from: we-cyde.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch08/raw/we-cyde.ans
-# Source Revision: archive-sha256:0b48bbc7b5f5330115fa074e1d04a4fecd4f968dda50aa5ddc10be2f9cdb0f62
-# Source SHA-256: 923ca067f4c7600d1c299e084a0964d6d02137f599899f3abb0140e3fa8d3f39
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-cyde.ans by Tainted + Avenging Angel + Savage Dragon (27inch08); released in 27inch08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: we-cyde.ans by Tainted + Avenging Angel + Savage Dragon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch08-we-cyde-part01
 
 Write-Host '
 

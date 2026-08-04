@@ -1,13 +1,4 @@
-﻿# Converted from: MF-CNFG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/basic-05/raw/MF-CNFG.ANS
-# Source Revision: archive-sha256:a2f68eccc2948d19a9df8c4fd26441b93a19bdc137d65564784937cd2559a252
-# Source SHA-256: cb45d6ac6b57448b432711cd836888a64a59224eb5e74267409b6d4b8e2eb3c0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MF-CNFG.ANS by Mortify (basic-05); released in basic-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: MF-CNFG.ANS by Mortify | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-basic-05-mf-cnfg
 
 Write-Host '
    [1;31m  [0;33m     [0m          [37m [0m     [1;35m [0;35m    ▬  [0;1;35m          [0;35m  [0m

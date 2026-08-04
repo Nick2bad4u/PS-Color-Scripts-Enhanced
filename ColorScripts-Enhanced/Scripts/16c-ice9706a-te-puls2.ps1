@@ -1,13 +1,4 @@
-﻿# Converted from: TE-PULS2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9706a/raw/TE-PULS2.ICE
-# Source Revision: archive-sha256:0a30d58a68f6ed8491028319032dfc5288ff391a510df01a40b96a6e80e9a009
-# Source SHA-256: cabd255512928e34c5f41028c98e227166694295b1591b3e7b45412d9eecb98a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-PULS2.ICE by Tetanus (ice9706a); released in ice9706a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: TE-PULS2.ICE by Tetanus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9706a-te-puls2
 
 Write-Host '
 [1;31;41m████▓▓▓▓▒▒▓▓▓▓▓[0;1;31;40m███████[0;1;31;41m█[0;1;31;40m███████▀▐████[0;1;31;41m▓▓▓▓▓▓▒▒▒▒░░░░[0;31m█████[0;1;31;41m░░░░░[0;31m▀▀  ▄▄[0;1;31;41m░░[0;31m██[0;30;41mtetanus [0;31;40m█[0;30;41m░[0m

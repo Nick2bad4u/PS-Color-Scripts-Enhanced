@@ -1,13 +1,4 @@
-﻿# Converted from: US-EASE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twi-9702/raw/US-EASE.ANS
-# Source Revision: archive-sha256:61ff2cf32bf44ce24fc49eed8744dec36ac76366cfa168886be9711eb39decc1
-# Source SHA-256: b94bfa6675a42153418bee8c43f7f4c1b58060afe1768807714bfd47c591e687
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-EASE.ANS by Defiant + Deeply Disturbed (twi-9702); released in twi-9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: US-EASE.ANS by Defiant + Deeply Disturbed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twi-9702-us-ease
 
 Write-Host '
 [30;47m▓▓[0m                         [31;40m▀[0m    [31;40m▀▀▀[0m   [31;40m▀▀▀▀▀▀▀▀▀▀▀█████[0;1;31;41m░░░▒▒▒▓▓▓██[0;1;31;40m▀[0;1;31;47m▓▓▒▒▒▒[0m▀[1m   [0m [30;47m▓▓[0m

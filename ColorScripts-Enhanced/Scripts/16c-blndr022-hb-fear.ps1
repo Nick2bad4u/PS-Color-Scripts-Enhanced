@@ -1,13 +1,4 @@
-﻿# Converted from: HB-FEAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr022/raw/HB-FEAR.ANS
-# Source Revision: archive-sha256:1105fcab5f96be85e1c5d7fc82de0569b7a9bc9775f6dd9595256b07657f96f3
-# Source SHA-256: 64f03db7d13c87e73d0370048a90ac70fae25423986bba4b1a2f367df0a2b4a1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HB-FEAR.ANS by Handiboy (blndr022); released in blndr022 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: HB-FEAR.ANS by Handiboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr022-hb-fear
 
 Write-Host '
           [34m░░░░░░░░░░    [0;1;30m▀██▌▀[0m     [1;30m▄▌    [0;34m░░░[0m     [34m░░[0m                   [34m░░░   ░░▓▓[0m

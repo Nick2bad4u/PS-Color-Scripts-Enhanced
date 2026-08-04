@@ -1,18 +1,4 @@
-﻿# Converted from: LEM-USED.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-03/raw/LEM-USED.ANS
-# Source Revision: archive-sha256:d2599b97a9288d8f82ddd62f9c4821cdc0d5105bf01763fad11be3b958d4ce10
-# Source SHA-256: 5d95274c75391d96743d3162f23b0d4dbf3975555430e5fdba0137ade9358ecf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LEM-USED.ANS by lemOn 1one (groupless); released in used-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: USED3
-# SAUCE Author: lemOn 1one
-# SAUCE Group: groupless
-# SAUCE Date: 20000113
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: USED3 by lemOn 1one | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-03-lem-used
 
 Write-Host '
 

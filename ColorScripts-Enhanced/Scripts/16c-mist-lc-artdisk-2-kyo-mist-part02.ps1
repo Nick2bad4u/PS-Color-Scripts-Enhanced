@@ -1,18 +1,4 @@
-﻿# Converted from: KYO-MIST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-lc-artdisk-2/raw/KYO-MIST.ANS
-# Source Revision: archive-sha256:658acfd186c1e15106af9d9341fd3097fd3c468098cec2d1241e8927d57e144b
-# Source SHA-256: a2953e090fe8ab8fe42fcfeaf4d80cf5dd850ac78e21d8f8c62bc715bdee0308
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KYO-MIST.ANS by Kyo! (mISTFUNK 1998); released in mist-lc-artdisk-2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: my body is alive, but my spirit is
-# SAUCE Author: Kyo!
-# SAUCE Group: mISTFUNK 1998
-# SAUCE Date: 19980712
-# SAUCE Dimensions: 80x124
-# Lines: 27-75
-# Columns: 1-80
+﻿# Artwork: my body is alive, but my spirit is by Kyo! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-lc-artdisk-2-kyo-mist-part02
 
 Write-Host '
             [1;30m▄▄▄▄▄▄[0;33m▄[0;37m    [0;1;30m▄▄[0m

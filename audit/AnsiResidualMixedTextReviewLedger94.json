@@ -1,0 +1,193 @@
+{
+  "batch": 94,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch94-profanity",
+      "file": "16c-bl-brtsh-jr-dl.ps1",
+      "rationale": "Exact text-only profanity spans.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 19,
+          "columnRanges": [
+            {
+              "start": 63,
+              "end": 71
+            }
+          ],
+          "sha256": "fca94b679fb5ffd2e9c11464e1c0e30ceeab406f3e65742fcaa662eed28b0983",
+          "expectedRawSha256": "686852d8b53f90d6de12e09d2c662e4f1c9aeedc1222557e0e2ddd4615506d75",
+          "expectedRenderedSha256": "b222bc15165b0e3dfde2971a8fa0586288be8b49cd0074ae520012e8eb32c7a3"
+        }
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch94-profanity",
+      "file": "16c-bl-dope-fj-prot.ps1",
+      "rationale": "Exact text-only profanity spans.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 13,
+          "columnRanges": [
+            {
+              "start": 50,
+              "end": 63
+            }
+          ],
+          "sha256": "6fa1e228641ee00f9591bee612cfb73a51f45b3ea6c4f1ed8771896ca0f58fdf",
+          "expectedRawSha256": "951a417d6bced6015017fcb73c87da5ec0c1f6ce492e1e3653608ce3b8a61b07",
+          "expectedRenderedSha256": "e440578e9c6e4b780224f04ac838648e4bd3193efb36c1aa8ea2bcd659d3b778"
+        }
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch94-profanity",
+      "file": "16c-blndr016-bogan.ps1",
+      "rationale": "Exact text-only profanity spans.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 5,
+          "columnRanges": [
+            {
+              "start": 1,
+              "end": 7
+            }
+          ],
+          "sha256": "11ec2dc95c511ab9a481175382a8e53af793ba0740ef12a262c15a7ce954cfed",
+          "expectedRawSha256": "c460d26a2ad87d74893c7e0d84b346221998b0e03beb119a59dd5644b260182f",
+          "expectedRenderedSha256": "ff0c559240c4055d6bc96c0701a463c6d0849922d8fc8aa44e24a7b9653f33d8"
+        }
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch94-profanity",
+      "file": "16c-equate01-po-pb01-part03.ps1",
+      "rationale": "Exact text-only profanity spans.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 9,
+          "columnRanges": [
+            {
+              "start": 44,
+              "end": 49
+            }
+          ],
+          "sha256": "cd065a7d2fcb9a8f1a3662daa0e0533a080c6435568e68e9a50ae243f8e3e17d",
+          "expectedRawSha256": "ac9c4df8132e3e59d06935181545d5d857fdba732535988a59943c483a873b08",
+          "expectedRenderedSha256": "44e9144dfdb6bdbe7acbb027fc763637c743831e42c766f10a534402c1412954"
+        }
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch94-profanity",
+      "file": "16c-fuel12-sor-matx.ps1",
+      "rationale": "Exact text-only profanity spans.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 24,
+          "columnRanges": [
+            {
+              "start": 3,
+              "end": 9
+            }
+          ],
+          "sha256": "940f32fb8dc575f308fea628ecc5033619ea6b2524423fceba99016839d53f77",
+          "expectedRawSha256": "26b7e23337d217aeab0f360edeb1bcd0d4d5d725b85d2d9e49608577b206694e",
+          "expectedRenderedSha256": "f4d1ab7fdc5c64db339444725db36aeccf78389d1a057ffc1d5e2083a83ac6d8"
+        }
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch94-profanity",
+      "file": "16c-fuel12-sor-pl.ps1",
+      "rationale": "Exact text-only profanity spans.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 21,
+          "columnRanges": [
+            {
+              "start": 69,
+              "end": 75
+            }
+          ],
+          "sha256": "83d60ae83f864bfe5ca054a626e9b859d7474369bbdc684eb5bdaa3e270de95d",
+          "expectedRawSha256": "255480a50849a6d37fc3133fd488b4370f8511e05e742c683a06b74b018eb5a4",
+          "expectedRenderedSha256": "45f152adb8ca0cbb18094983491811f3269a9426c9a91d99106ce0ad858f3bfa"
+        }
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch94-profanity",
+      "file": "16c-ice9509a-tg-kp1-part01.ps1",
+      "rationale": "Exact text-only profanity spans.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 7,
+          "columnRanges": [
+            {
+              "start": 12,
+              "end": 18
+            }
+          ],
+          "sha256": "1490571891586c7eae6364f075e1cacdc6b4e3b517b65c9c6d59fd391e9160da",
+          "expectedRawSha256": "50cc8865c3fedcb0afd1a3ae7cab10b727999b6674d5f0537365904265197ed9",
+          "expectedRenderedSha256": "90fa43e442207ece2a62bc6da272411f8db3901f074116266dce0c4730841471"
+        }
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch94-profanity",
+      "file": "16c-inf-0997-sr-login.ps1",
+      "rationale": "Exact text-only profanity spans.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 5,
+          "columnRanges": [
+            {
+              "start": 38,
+              "end": 43
+            }
+          ],
+          "sha256": "5966b555b8b5368040bf1e7f029902f44ad8c6fbcca209c796870b4137051647",
+          "expectedRawSha256": "47cc87ed03bba25845d1389bb33992a86d8e33621e3271a54dd5d1f7e0515301",
+          "expectedRenderedSha256": "7261d62aa687a0317e28595209352f575f7a89488d3cefeae90260396e7022a5"
+        },
+        {
+          "action": "blank-columns",
+          "row": 7,
+          "columnRanges": [
+            {
+              "start": 45,
+              "end": 52
+            }
+          ],
+          "sha256": "9e84fb91f38fb3334d488699a521e5952a38f80d9aea5139b23cc47b5ea98c26",
+          "expectedRawSha256": "891782b81af9f51f7ff01c566b5b70801f8ac4ab2536b241056a16e5c02cb4e4",
+          "expectedRenderedSha256": "61da6654d3f04eefbf0edcae9992010d5739daade905d643f969a1cd06bdf322"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "candidateFiles": 8,
+    "evidenceRows": 9,
+    "categoryRows": { "batch94-profanity": 9 }
+  },
+  "schemaVersion": 1,
+  "status": "ready"
+}

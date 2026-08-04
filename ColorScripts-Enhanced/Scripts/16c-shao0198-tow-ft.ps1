@@ -1,17 +1,4 @@
-﻿# Converted from: TOW-FT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shao0198/raw/TOW-FT.ANS
-# Source Revision: archive-sha256:9542aa7262687ca25cc0b436a8616861468c32d627d2d66ec27e377ccb8920b8
-# Source SHA-256: 752811ee8ac667ebb5d0bb6c061de4a352558743fe7e8dd7cd0193f8af9ff70b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TOW-FT.ANS by Towser (Shaolin's Finest); released in shao0198 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fatal Toxins Advo.
-# SAUCE Author: Towser
-# SAUCE Group: Shaolin's Finest
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Fatal Toxins Advo. by Towser | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shao0198-tow-ft
 
 Write-Host '
 [1;30m[0m[1;30m[0m[1;30m[0m                       $ [1;30m$$$$$$$$$$$[0;1;30;47m$[0m$[1;30m$$$[0m$$[1;30;47m$[0;1;30;40m$[0m$$$$$$$$$ [1;30m$[0m

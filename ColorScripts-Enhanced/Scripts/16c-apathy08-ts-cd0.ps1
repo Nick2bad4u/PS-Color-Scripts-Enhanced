@@ -1,18 +1,4 @@
-﻿# Converted from: TS-CD0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy08/raw/TS-CD0.ANS
-# Source Revision: archive-sha256:dddbecd097515d8bc284ea8726046b80b56f2576fe024d98d7a392e98f8d9a1f
-# Source SHA-256: f1e7e6be95917dfaa9c7be21d430e8bdb4af26d9220f038d08ed46690535e351
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-CD0.ANS by transient (apathy); released in apathy08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: codine
-# SAUCE Author: transient
-# SAUCE Group: apathy
-# SAUCE Date: 19960316
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: codine by transient | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy08-ts-cd0
 
 Write-Host '
 [1m█▀█▀▓▀▀█░▀▒▀░[0m [1m▀[0m   [1m▀[0m    [1mc  o  [0m [1;33md[0m [1;37m   [0;1;35mi[0m [1;35m    [0m [35mn[0;1;35m   [0m   [1;30me[0m   [1;37ml[0m [1;33mi[0m t   [1m▀[0m   [1m▀[0m [1m░▀▒▀░█▀▀▓▀█▀█[0m

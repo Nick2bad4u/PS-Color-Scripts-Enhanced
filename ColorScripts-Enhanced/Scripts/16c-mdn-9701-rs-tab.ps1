@@ -1,18 +1,4 @@
-﻿# Converted from: RS-TAB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9701/raw/RS-TAB.ANS
-# Source Revision: archive-sha256:45d6a082bca05ad193b510335e91b0bec312e4835ff5735e0eb40fe62d0e1180
-# Source SHA-256: d502dce112ca5724646daaeb835f86f517420eb7b6aa9523ad61826793eccd88
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-TAB.ANS by rorshack (Maiden Brazil); released in mdn-9701 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the avatar board
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19961223
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: the avatar board by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9701-rs-tab
 
 Write-Host '
                            [36m░[0m                [1;30m░[0m      [1;30m▒[0m

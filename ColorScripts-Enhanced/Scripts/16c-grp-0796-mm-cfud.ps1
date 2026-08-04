@@ -1,18 +1,4 @@
-﻿# Converted from: MM-CFUD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/grp-0796/raw/MM-CFUD.ANS
-# Source Revision: archive-sha256:be098753331373d307d2771aacbecdb35b1784f2f60e9ac3c053f2df7b867fcd
-# Source SHA-256: 9307a81753c12e3da2b9f838dd4439d38741dfe6371444b743b8ebac4fe71384
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-CFUD.ANS by mr.manson (GRAPE); released in grp-0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: chocolate fudge
-# SAUCE Author: mr.manson
-# SAUCE Group: GRAPE
-# SAUCE Date: 19960615
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: chocolate fudge by mr.manson | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-grp-0796-mm-cfud
 
 Write-Host '
 [1m[0m[1;30m[0m[1m[0m                       ┌─-─--─· · ─-─--─· · ·        -          · ·-─-─-─·-─-─-┐

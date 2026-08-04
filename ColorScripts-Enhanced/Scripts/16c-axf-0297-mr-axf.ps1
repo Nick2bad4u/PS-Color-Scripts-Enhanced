@@ -1,18 +1,4 @@
-﻿# Converted from: MR-AXF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-0297/raw/MR-AXF.ANS
-# Source Revision: archive-sha256:60e502c9a1ba0703538ea6854865054cb1103c69d11b9a8571db69144d294d40
-# Source SHA-256: e8c0642800e294eb8b1d9d9ab500bac8bcdc1c685dc7b626c2f9fcd9acb88ca1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-AXF.ANS by .,s$(minotaur)$s,. (.,s$(AXF)$s,.); released in axf-0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: axf logo
-# SAUCE Author: .,s$(minotaur)$s,.
-# SAUCE Group: .,s$(AXF)$s,.
-# SAUCE Date: 19970109
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: axf logo by .,s$(minotaur)$s,. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-0297-mr-axf
 
 Write-Host '
 

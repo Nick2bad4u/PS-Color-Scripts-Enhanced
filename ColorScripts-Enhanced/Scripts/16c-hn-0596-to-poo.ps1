@@ -1,13 +1,4 @@
-﻿# Converted from: TO-POO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hn-0596/raw/TO-POO.ANS
-# Source Revision: archive-sha256:341a7655c96a6dc0a8dbd297753a4c8350c669bd3952e121f4d23870d0eda7fc
-# Source SHA-256: 3eacd5e6b1ec35d2f51d972226647494ca4db404f6423234c3f187d6fcdbd2e9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TO-POO.ANS by Toadie (hn-0596); released in hn-0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: TO-POO.ANS by Toadie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hn-0596-to-poo
 
 Write-Host '
 

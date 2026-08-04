@@ -1,13 +1,4 @@
-﻿# Converted from: STC-SNC1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9410/raw/STC-SNC1.ICE
-# Source Revision: archive-sha256:8c9142d0352992206e7fd9f090a7f89eeb1bb8623b53334a6a4eb0e9111ecc28
-# Source SHA-256: d54cc4435a79683a9a70016bfa4c33be7715951d06ea6fd3796cd8df27804a4d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STC-SNC1.ICE by Stone The Crow (ice-9410); released in ice-9410 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 121-158
-# Columns: 1-80
+﻿# Artwork: STC-SNC1.ICE by Stone The Crow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9410-stc-snc1-part04
 
 Write-Host '
 [1;30;40m▓██[0m▒[1;30m▀▄  [0;1;37m▄████████▓▌[0;1;30m░    [0m     [1;30m▀ ▄[0m ░[1;30m▌ ░▐█▀[0m               [1;30m  [0m    [1;30m▒[0m [1;30m▐▌[0m

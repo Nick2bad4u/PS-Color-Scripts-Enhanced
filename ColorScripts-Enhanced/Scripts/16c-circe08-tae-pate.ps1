@@ -1,17 +1,4 @@
-﻿# Converted from: TAE-PATE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe08/raw/TAE-PATE.ANS
-# Source Revision: archive-sha256:cfc36d5daeed2f6543814097ace687f378a50215c24a95a0de66b512e3a41b9d
-# Source SHA-256: 2a82b9b40729d8a2b9fda4c79fdd38093a085fdc39671976b3b3a5b0e49eb131
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TAE-PATE.ANS by taevore (circe); released in circe08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: pate
-# SAUCE Author: taevore
-# SAUCE Group: circe
-# SAUCE Dimensions: 80x41
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: pate by taevore | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe08-tae-pate
 
 Write-Host '
                                                                    [32m░░░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MR-ELEET.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad1096/raw/MR-ELEET.ANS
-# Source Revision: archive-sha256:6e8c166fa2bd984d99dfd9314d5fa194e51541b9445f04c7962b2818cada06d5
-# Source SHA-256: 0395f1d9b5f3fbe8ee472a0ca7f84378d5224e38e3e7e80a193da0bb632bf984
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-ELEET.ANS by mithrandir (quad-p); released in quad1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: eleet logo
-# SAUCE Author: mithrandir
-# SAUCE Group: quad-p
-# SAUCE Date: 19960925
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: eleet logo by mithrandir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad1096-mr-eleet
 
 Write-Host '
 

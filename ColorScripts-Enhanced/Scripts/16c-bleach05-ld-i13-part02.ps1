@@ -1,18 +1,4 @@
-﻿# Converted from: LD-I13.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bleach05/raw/LD-I13.ANS
-# Source Revision: archive-sha256:09b86858eb23a8eec48404a97e9a21a9057746b5757f06ffc27990d15e890f2c
-# Source SHA-256: ed055196ecbe2de411aaf25efc68f1d1e767b0588dde8f27cee9fe86d8a4d289
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-I13.ANS by Lord Jazz (Bleach); released in bleach05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Interrupt 13
-# SAUCE Author: Lord Jazz
-# SAUCE Group: Bleach
-# SAUCE Date: 19950825
-# SAUCE Dimensions: 80x25
-# Lines: 46-94
-# Columns: 1-80
+﻿# Artwork: Interrupt 13 by Lord Jazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bleach05-ld-i13-part02
 
 Write-Host '
 [34m▄▀ ▄█▀█[0;1;34;44m░[0;34m█  ▄  [0;1;30m▀[0;1;30;43m▓[0m [1;30;40m▄[0m        [1;30;40m▄ ▀▀▄▄ [0;33m▄[0;37;43m░[0;1;30;43m░[0;33m▄[0;1;30m▀[0;1;30;43m▓[0;1;30;40m▄▄▄▄[0m               [1;30;40m▐▄[0;1;30;43m█▓▒░[0;33m█████▌[0;34m▐▌ [0;1;30m▄▄  [0;34m▀■[0m

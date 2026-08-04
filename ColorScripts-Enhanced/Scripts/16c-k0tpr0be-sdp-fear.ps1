@@ -1,18 +1,4 @@
-﻿# Converted from: SDP-FEAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k0tpr0be/raw/SDP-FEAR.ANS
-# Source Revision: archive-sha256:fcb0e37abcb9d171de6d5cc918649afa7e9c0f2f5173dba90a7d8c38f69cec3d
-# Source SHA-256: c5e2006c47d4cb95c0c3ca7646b7f02b6fef236717a2f849c704a4beeccaf2c0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SDP-FEAR.ANS by s?dp0l (fbk); released in k0tpr0be and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: preview
-# SAUCE Author: s?dp0l
-# SAUCE Group: fbk
-# SAUCE Date: 19960829
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: preview by s?dp0l | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k0tpr0be-sdp-fear
 
 Write-Host '
           [1;32m▄▄[0m             [1;32m▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: T-UMBALA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook20/raw/T-UMBALA.ANS
-# Source Revision: archive-sha256:ad9acf30fa46ab5c9a458319782448b90dee64987e366c3cf1e5e495b40c4e0a
-# Source SHA-256: 2c73518ea6fd98ee78e5db1638ac410adb7936c9b24d61c411966e5a2a1934f8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T-UMBALA.ANS by toot (black maiden); released in bmbook20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: umbala script
-# SAUCE Author: toot
-# SAUCE Group: black maiden
-# SAUCE Date: 19990329
-# SAUCE Dimensions: 80x12
-# Lines: 1-12
-# Columns: 1-80
+﻿# Artwork: umbala script by toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook20-t-umbala
 
 Write-Host '
 [31mtoot[0;1;31mbm[0m       ██[1;31;47m▄[0;1;31;40m█[0;1;31;41m███▀[0m     [31m [0m       [1;31m▄▄[0;1;31;41m▄██[0;31m▀█[0;1;31;41m▄[0;1;35;40m▓▓██[0;31m██[0;1;33;41m░░[0;1;33;40m▄▓[0;1;37;40m▓██░[0m  [31m░▓██[0;37;41m░░[0;31;40m█▄   [0;1;33;40m▄▄▓▓[0;1;37;40m▓▓██[0;1;37;47m▀[0m

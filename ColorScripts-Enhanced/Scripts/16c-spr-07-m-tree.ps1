@@ -1,13 +1,4 @@
-﻿# Converted from: M!-TREE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spr_07/raw/M!-TREE.ANS
-# Source Revision: archive-sha256:491a09c0e89bb57ae22cc79be83b57d04e479fcd9fe6a15bcb489d11b02aee41
-# Source SHA-256: 7b88b717bf8bb32025b64820120419773b0763a9894aea95dd3d995cca1751b6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M!-TREE.ANS by Mike (spr_07); released in spr_07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: M!-TREE.ANS by Mike | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spr-07-m-tree
 
 Write-Host '
              [1;30m░[0m             [1m [0m▄

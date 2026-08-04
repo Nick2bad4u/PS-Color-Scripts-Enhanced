@@ -1,18 +1,4 @@
-﻿# Converted from: SR-RIBN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-004/raw/SR-RIBN.ANS
-# Source Revision: archive-sha256:a067efaae2c49d13d3802ef0b5eb48bb6eeae2862ad07b06fd09ee0c67c1af4f
-# Source SHA-256: 3b80fa1f51346042345440cb00ae269254e61277e507302f6472f83ea2b72e07
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SR-RIBN.ANS by ScroLLer (RiB); released in rib-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: logo
-# SAUCE Author: ScroLLer
-# SAUCE Group: RiB
-# SAUCE Date: 19971024
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: logo by ScroLLer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-004-sr-ribn
 
 Write-Host '
                                                 [1;31m             [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-QUEND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0597/raw/IZ-QUEND.ANS
-# Source Revision: archive-sha256:100499c687593fd78c29adf06f5899e8c0d61223958e380a9c31aadb955ab06d
-# Source SHA-256: cd63a1392a10b0925a064b7970561b155c13ff4c896585ff87f56e2948ff94ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-QUEND.ANS by ize (fusion); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: quendi menu
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19970504
-# SAUCE Dimensions: 80x26
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: quendi menu by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0597-iz-quend
 
 Write-Host '
 [1;33m█▄▐▄▄▄▄     [0;31mize[0;1;33m [0;31m▀▀▀███[0;1;31;41m░░[0;31m█████████████████████████████[0;1;30;41m ▀[0;1;30;40m▄▐[0;31m▄▄[0;1;30;41m▀[0;31m██████████▓▓[0;1;30m▌▄░░▀[0;31m▀[0;1;30;41m▄[0;31m█[0m

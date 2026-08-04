@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-SIK1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus04/raw/AVG-SIK1.ANS
-# Source Revision: archive-sha256:4a57ed6764f9ffca39ae941548ed0ed0ba98ce6594de23a7788152f10b7f60a4
-# Source SHA-256: 8b4eaf2dba47e10220512b2b2da35cdd1c7335af7cf6b753c1fe44b356101e22
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-SIK1.ANS by Avenging Angel (Fokus fonting); released in fokus04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Sik
-# SAUCE Author: Avenging Angel
-# SAUCE Group: Fokus fonting
-# SAUCE Date: 19990514
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: Sik by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus04-avg-sik1
 
 Write-Host '
 [36m  [0;37m  [0;36m░░░░░░░░░░░░░░░░░[0;37m  [0;1;33m▄▄[0;1;37m▄[0m▄        [36m                [0m                    [36m ░░░░░░░░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: OA-WITCH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-1096/raw/OA-WITCH.ANS
-# Source Revision: archive-sha256:b968a58ce40a1a23cb7e5d30344f2e323301c25c74ff3278c34876cf785468a8
-# Source SHA-256: a0a56abf47146896661d08587e4cf849f9258cfc7dc291fce11b4f1ee983b4cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OA-WITCH.ANS by Sandy Chidester (out-1096); released in out-1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: OA-WITCH.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-1096-oa-witch
 
 Write-Host '
            [1;30;40m█▄█[0m  [1;30;40m█[0;37;40m ▀██[0;1;30;40m█▄█████[0m   [1;30;40m▀██▄[0m

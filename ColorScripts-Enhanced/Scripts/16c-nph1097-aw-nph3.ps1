@@ -1,18 +1,4 @@
-﻿# Converted from: AW-NPH3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph1097/raw/AW-NPH3.ANS
-# Source Revision: archive-sha256:b6e257eb8371584ca5ade8b8a0fc4c2ec6d13bf6072ac7a83b43c3c01e88e287
-# Source SHA-256: 67bed2b5db486df16130228e62acfcab640cbb773d669f1728893e8ce34535ac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AW-NPH3.ANS by araWn (nitrophusion); released in nph1097 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: nph logo 3 i think
-# SAUCE Author: araWn
-# SAUCE Group: nitrophusion
-# SAUCE Date: 19971004
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: nph logo 3 i think by araWn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph1097-aw-nph3
 
 Write-Host '
               [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

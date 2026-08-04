@@ -1,17 +1,4 @@
-﻿# Converted from: US-POO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy02/raw/US-POO1.ANS
-# Source Revision: archive-sha256:4751c3f9cd685c3d43e0f25d3f72bf380d7fd38b3db164de3b3584c79b798431
-# Source SHA-256: 41801ac2f914d200345fe1df7e1577c80b63ccbf39bda8388eab7df834b42851
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-POO1.ANS by Ewheat + Scribble (apathy02); released in apathy02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: poO!
-# SAUCE Author: multiple artists
-# SAUCE Date: 19951008
-# SAUCE Dimensions: 80x124
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: poO! by Ewheat + Scribble | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy02-us-poo1-part01
 
 Write-Host '
 [5;36m┌───[0m [5;36m┐[0m   [5;36m┌[0m [5;36m┐[0m [5;36m┌[0m [5;36m┌───[0m [5;36m┌─┐[0m [5;36m─┬─[0m   [5;36m┌─┬─┐[0m [5;36m┌─┐[0m [5;36m┐[0m [5;36m┌─[0m [5;36m┌───[0m   [5;36m┌─┐[0m [5;36m┌─┐[0m [5;36m┌──[0m [5;36m┬[0m   [1;30m▄▄ [0m

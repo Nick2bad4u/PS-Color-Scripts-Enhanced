@@ -1,18 +1,4 @@
-﻿# Converted from: US-CRC4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zenith01/raw/US-CRC4.ANS
-# Source Revision: archive-sha256:89a769066be1ade04361b16bc2aabeb1a280fe034deee0fe7ee4c75badc7461d
-# Source SHA-256: 088ecc45fa06c4430d39a57434eeacb8545e211bfbc5b42c44a7f9bba1ba818e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CRC4.ANS by Arlequin + Enzo (Circe + Zenith); released in zenith01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Circe Pack #4
-# SAUCE Author: Arlequin + Enzo
-# SAUCE Group: Circe + Zenith
-# SAUCE Date: 19980502
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: Circe Pack #4 by Arlequin + Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zenith01-us-crc4
 
 Write-Host '
 [1;36;46m▀[0;36m▀▀[0;1;34m [0;36m▀[0;1;34m [0;34m▄[0;1;34m▄▄▄[0;1;34;44m▄[0;1;34;40m▓▓██[0;1;34;47m▓▓[0;1;34;40m█[0;1;34;44m▀[0;1;34;40m▀█▀███[0;1;34;47m▄▄[0;1;34;40m█[0;1;34;44m▀[0;1;34;40m▀▀█▄▄▄█ [0m [32m          [0;37m [0;33m▄[0;1;33m▄▄[0;1;33;43m▄[0;1;33;47m█[0;1;33;43m██[0;1;33;40m▄▄▄[0m [32m       [0m        [31m  [0;30;41m█▓▓[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: EYEBLINK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tk-ansi/raw/EYEBLINK.ANS
-# Source Revision: archive-sha256:7a6e15a450305cb977de0a4eb06cf4ca525baa4933c9f7af1cf6080dced8bf2d
-# Source SHA-256: 6e370ec88e5925f182e7dd3e3ac5dc320dcbbdc49509520525c7560712ecb286
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EYEBLINK.ANS by Tank (tk-ansi); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Eye Blink
-# SAUCE Author: Tank
-# SAUCE Date: 19901220
-# SAUCE Dimensions: 80x22
-# SAUCE Comments: My very first ANSIMation.I found a B&W pixel art of this eye in | a random book in a small library on the UT campus. I colored it, | created the rest of the face as would fit, and then created mult | iple frames to animate it.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Eye Blink by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tk-ansi-eyeblink
 
 Write-Host '
 [1;43m [0;1;31;43m░░░░▒░▒░░▒░▒▒▒▒▒▓▒▓▓[0;30;43m███[0;1;30;43m▌[0;1;31;43m▓▓▒▓▒▒▒▒░▒▒░▒░░░ ░ ░░ ░  ░   [0;1;30;43m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;30;43m▄  [0;1;31;43m░ ░░░[0m

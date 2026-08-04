@@ -1,18 +1,4 @@
-﻿# Converted from: V9-NEO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0897/raw/V9-NEO1.ANS
-# Source Revision: archive-sha256:2f847e13ac44c4a612ca9588cf01055509cccf841191e379aa1210361ce47235
-# Source SHA-256: ad90aba39a7de02c784ee16e0bbe7633650ce1fdc4f56e352d6fa172de90838a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: V9-NEO1.ANS by Vade79 (f1RE); released in fire0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Neosporin
-# SAUCE Author: Vade79
-# SAUCE Group: f1RE
-# SAUCE Date: 19970729
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Neosporin by Vade79 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0897-v9-neo1
 
 Write-Host '
                 [1;30m░[0m [1;30m [0m               [1;30m░[0m [1;30m░[0m         [1;30m■[0m [1;30m▄▐[0;1;30;47m▀▄[0;1;30;40m▀[0m ▄▌ [1;30m▐[0;1;30;47m▀██[0;1;30;40m▀  █▄▄  [0m   ░

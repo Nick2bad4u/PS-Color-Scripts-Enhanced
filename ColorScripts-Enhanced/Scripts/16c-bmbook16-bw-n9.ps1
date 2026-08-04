@@ -1,18 +1,4 @@
-﻿# Converted from: BW-N9.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook16/raw/BW-N9.ANS
-# Source Revision: archive-sha256:d1aa8631ff79ee4b09bd71933b409432473cd10141d9251920b316e16f81ad22
-# Source SHA-256: 92ac84d6c4fdc843ab5b75cdfa36193d9dad85d027f15d2e0a9a32dd541f8eb0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BW-N9.ANS by black weasel (black maiden); released in bmbook16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: back to thee old ddaayyss...
-# SAUCE Author: black weasel
-# SAUCE Group: black maiden
-# SAUCE Date: 19980205
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: back to thee old ddaayyss... by black weasel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook16-bw-n9
 
 Write-Host '
         [34m▐▄▄[0;31m   [0m    [31m▀▄▄[0m       [31m [0;1;31m▒▒[0;31m█▄         [0;37m  [0;31m ▄[0;33m▄[0;31m▄[0m        [35m▄[0m               [1;37m░░░[0m

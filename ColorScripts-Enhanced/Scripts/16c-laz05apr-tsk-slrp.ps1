@@ -1,13 +1,4 @@
-﻿# Converted from: TSK-SLRP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz05apr/raw/TSK-SLRP.ANS
-# Source Revision: archive-sha256:1015a880c3c2e42953df14381eb6ae6e6ec0326b482ac0273175f6e6e7073aa4
-# Source SHA-256: 1984052a6cbec70d3dca540d624cf575f76250239d5aa795341d7f7ee9b41879
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-SLRP.ANS by The Silent Killer (laz05apr); released in laz05apr and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: TSK-SLRP.ANS by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz05apr-tsk-slrp
 
 Write-Host '
                                    [31m▀█▄[0;1;31m▄[0;31m▄[0m

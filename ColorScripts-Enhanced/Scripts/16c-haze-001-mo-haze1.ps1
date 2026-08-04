@@ -1,18 +1,4 @@
-﻿# Converted from: MO-HAZE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/haze_001/raw/MO-HAZE1.ANS
-# Source Revision: archive-sha256:06ea95fc4fced062f873ae8b1961efc1bb6b26ebfde3f9963bba7fd32653a62f
-# Source SHA-256: dec3d080a384a49c83e04276602c5de5bd0f87ac7c28939292b4da996f30cb23
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MO-HAZE1.ANS by monarch (haze); released in haze_001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: haze promo
-# SAUCE Author: monarch
-# SAUCE Group: haze
-# SAUCE Date: 19950430
-# SAUCE Dimensions: 80x25
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: haze promo by monarch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-haze-001-mo-haze1
 
 Write-Host '
                                    [31m▄▄▀▀▄▄▄▄▀▀▄▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: BS-RA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ra-pack5/raw/BS-RA.ANS
-# Source Revision: archive-sha256:c686da67e3347a257f133229c38f0ded15c3b11846248779489ed776a4450659
-# Source SHA-256: 6fc3da911ff97df98ec2192f42d2e471acb19b795dafebb2a948bad668c2671d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-RA.ANS by Brainstew (ra-pack5); released in ra-pack5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: BS-RA.ANS by Brainstew | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ra-pack5-bs-ra
 
 Write-Host '
                                              [31m■ [0m

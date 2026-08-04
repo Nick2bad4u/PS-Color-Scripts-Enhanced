@@ -1,13 +1,4 @@
-﻿# Converted from: UC-JSD2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe01/raw/UC-JSD2.ANS
-# Source Revision: archive-sha256:0b64c26f533b8c11a1aca04e7dcc1e21d4b014c2d6532ba66a48148862d54cb2
-# Source SHA-256: d1c537d73733d997cb3e7a6c296040ab3339d0f85c1aa5784c4ccccb593d92c6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UC-JSD2.ANS by Uctumi (circe01); released in circe01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: UC-JSD2.ANS by Uctumi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe01-uc-jsd2
 
 Write-Host '
                  [1;32m░[0m               [1;33m░[0m     [1;33m [0m

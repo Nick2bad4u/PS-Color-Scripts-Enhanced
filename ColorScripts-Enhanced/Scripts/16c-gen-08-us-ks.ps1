@@ -1,17 +1,4 @@
-﻿# Converted from: us-ks.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gen-08/raw/us-ks.ans
-# Source Revision: archive-sha256:de1fb48c6dbe733c03717f643e0436c78be60ace5ba3be7fc4fd3b476c0d4de2
-# Source SHA-256: 03929ee5422919f5ab4941bf28112d830773b0eff797dbbe47c1fb4565981caf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-ks.ans by Somberlain + Undertaker (gen-08); released in gen-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ks
-# SAUCE Author: undertaker/somber
-# SAUCE Date: 19991130
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: ks by Somberlain + Undertaker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gen-08-us-ks
 
 Write-Host '
                                                                [36m       [0;37m  [0;36m        [0m

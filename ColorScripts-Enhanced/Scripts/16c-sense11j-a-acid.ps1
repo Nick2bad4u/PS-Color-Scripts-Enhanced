@@ -1,17 +1,4 @@
-﻿# Converted from: _A-ACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense11j/raw/_A-ACID.ANS
-# Source Revision: archive-sha256:9c1c7edf0d14ae95ae7a9cfcfa9322814b13baa95c33699852fa04d6685f708d
-# Source SHA-256: 8056f82739cdab9fbdaf553e47ad618b7a726da07cd20753d1dfddedf8141aab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _A-ACID.ANS by T. Absent Spinsister (sense11j); released in sense11j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: A C I D
-# SAUCE Author: T. Absent Spinsister
-# SAUCE Date: 20010907
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: A C I D by T. Absent Spinsister | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense11j-a-acid
 
 Write-Host '
 

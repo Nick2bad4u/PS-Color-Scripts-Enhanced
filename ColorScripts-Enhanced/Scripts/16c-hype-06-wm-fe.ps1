@@ -1,13 +1,4 @@
-﻿# Converted from: WM-FE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-06/raw/WM-FE.ANS
-# Source Revision: archive-sha256:6dc1ff1e5e2a2fbd4d8963ff27dba17dd0715e4d98ce4ed0c4cdd8e573084e6f
-# Source SHA-256: ea4ed3aadfef9eccf71707131151333d487842ad29c5d458c3e1f410de7a078d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WM-FE.ANS by Wintamute (hype-06); released in hype-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: WM-FE.ANS by Wintamute | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-06-wm-fe
 
 Write-Host '
     [31m ░[0m

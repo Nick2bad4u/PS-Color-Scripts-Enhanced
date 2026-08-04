@@ -1,13 +1,4 @@
-﻿# Converted from: frx-psy1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac-21/raw/frx-psy1.ans
-# Source Revision: archive-sha256:93c21e732e25bf2a0b9bdc59ef83ea0f396f10361c596ef1446076be27c71f89
-# Source SHA-256: 697bd2b47bf7d9b191eb8d6d40fd3e163ec18228f2af84afa00b510bcf43459a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: frx-psy1.ans by ferrex; released in sac-21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: frx-psy1.ans by ferrex | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac-21-frx-psy1
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: bym-swe.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gen-02/raw/bym-swe.ans
-# Source Revision: archive-sha256:a8bb305fa74299fe2b84ac6a7c53e3f231aa6311f01121f9650c819a93a468d5
-# Source SHA-256: 133f739c79a8a8bc5ad0cefdfa1773e576b82b3aa76c347811c336cb37f3a6cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bym-swe.ans by guestbym (guest); released in gen-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 99emag
-# SAUCE Author: guestbym
-# SAUCE Group: guest
-# SAUCE Date: 19981206
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: 99emag by guestbym | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gen-02-bym-swe
 
 Write-Host '
 [34m    ▀▀▀[0;1;33;44m   [0;1;34;44m█[0;1;34;47m▀[0;1;34;44m▄[0;34m▄▄  ▀[0;1;33;44m [0;34m███[0;1;33;44m▀[0;1;33;40m████████████[0;1;33;44m█▀▀       [0;1;34;40m░▒▒▒▒▒[0;1;33;44m            [0;1;36;40m▒▒[0;1;33;44m   bym░░,. . .[0m

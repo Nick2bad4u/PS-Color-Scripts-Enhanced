@@ -1,18 +1,4 @@
-﻿# Converted from: ST-VOW2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-04/raw/ST-VOW2.ANS
-# Source Revision: archive-sha256:9de244bc5206a1545721e4db8ef84c4a2cb5d7f6090c2c3eac0f88fbff822794
-# Source SHA-256: cf2ef000c0897362d96ee48fb83ec65716014479bd477488c4345ee09bb18541
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-VOW2.ANS by splatt (eclipse); released in ecl-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the darned vowel bbs
-# SAUCE Author: splatt
-# SAUCE Group: eclipse
-# SAUCE Date: 19960726
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: the darned vowel bbs by splatt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-04-st-vow2
 
 Write-Host '
 

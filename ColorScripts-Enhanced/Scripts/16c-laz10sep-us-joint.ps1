@@ -1,18 +1,4 @@
-﻿# Converted from: US-JOINT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz10sep/raw/US-JOINT.ANS
-# Source Revision: archive-sha256:4ab640a5762659d8c89d1d4c7a47f2c8ebad1c9e802d4965d8fdc943ea824060
-# Source SHA-256: ad609db184b4210cccea7fc6f157c9f54e75d03dff9b4e4541792c61590bd9d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-JOINT.ANS by Fluor + Quip + The Riddler + Impulse + Icepick + Phoman (many); released in laz10sep and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the joint!?
-# SAUCE Author: multiple artists
-# SAUCE Group: many
-# SAUCE Date: 19970818
-# SAUCE Dimensions: 80x47
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: the joint!? by Fluor + Quip + The Riddler + Impulse + Icepick + Phoman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz10sep-us-joint
 
 Write-Host '
                                         [35m▄ [0m

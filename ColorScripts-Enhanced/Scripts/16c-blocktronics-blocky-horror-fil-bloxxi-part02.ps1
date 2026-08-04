@@ -1,19 +1,4 @@
-﻿# Converted from: fil-bloxxi.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-blocky-horror/raw/fil-bloxxi.ans
-# Source Revision: archive-sha256:9b55aad043357449b0b0f61d3eddf0a2e277e46cf0768f93c8b9bc9b99d78a77
-# Source SHA-256: 3873ed713161067fe36a65126396d57968b1764bb617baad407ad36433f9d317
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: fil-bloxxi.ans by filth (bL0CKYtRONiCS); released in blocktronics-blocky-horror and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Spade Magazine
-# SAUCE Author: filth
-# SAUCE Group: bL0CKYtRONiCS
-# SAUCE Date: 20190925
-# SAUCE Dimensions: 80x157
-# SAUCE Font: IBM VGA
-# Lines: 37-73
-# Columns: 1-80
+﻿# Artwork: Spade Magazine by filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blocky-horror-fil-bloxxi-part02
 
 Write-Host '
 [31m   [0;1;37m █████▓██▓▓▓░░[0m [1m░[0m    [31m  [0;1;37m░▒▒[0;1;37;47m [0m██▀[1;30m▀▀[0;35m▄▄▓█▀▄[0;1;35;45m░[0;35m▀▀ [0;37m [0;35m  [0m      [35m [0;1;35m░░[0m             [31m▄██▄   ▀█▄[0m

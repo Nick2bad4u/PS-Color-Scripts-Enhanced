@@ -1,18 +1,4 @@
-﻿# Converted from: 77-OA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toon1095/raw/77-OA.ANS
-# Source Revision: archive-sha256:d4b59c6d799c8c2a02788beeec8a06d37366bb8792f6739cb4b7e0bf67ae744a
-# Source SHA-256: 3d33ff631be5c0a11aaa8e662bb9a81f9387c19d1fbd5370837f1e324edbcc60
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 77-OA.ANS by agent #77 (tOOn); released in toon1095 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: organized anarchy toon
-# SAUCE Author: agent #77
-# SAUCE Group: tOOn
-# SAUCE Date: 19951002
-# SAUCE Dimensions: 80x70
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: organized anarchy toon by agent #77 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toon1095-77-oa-part01
 
 Write-Host '
 [1;30m[0m[1;30m[0m[1;30m[0m           ▄[1m▄▄▄▄▄▄[0m ▄[1m▄▄▄▄▄ [0m▄[1m▄▄▄▄▄[0m   ▄[1m▄▄▄[0m     ▄[1m▄▄▄▄▄[0m   ▄[1m▄▄▄▄▄ [0m▄[1m▄▄▄[0m

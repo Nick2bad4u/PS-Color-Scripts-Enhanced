@@ -1,13 +1,4 @@
-﻿# Converted from: SJ-MYST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blind-02/raw/SJ-MYST.ANS
-# Source Revision: archive-sha256:c5e79989307dbf090a38f911b35eef6e687ee7fb3d0611abf6934cc9737046e9
-# Source SHA-256: 45975af2744e5ad1f4ac860364c7ca7682726f3ed93f03239319d8802841b4ac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SJ-MYST.ANS by The Sad Jester (blind-02); released in blind-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: SJ-MYST.ANS by The Sad Jester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blind-02-sj-myst
 
 Write-Host '
 

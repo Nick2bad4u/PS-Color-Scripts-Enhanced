@@ -1,19 +1,4 @@
-﻿# Converted from: zII-BALL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel29/raw/zII-BALL.ANS
-# Source Revision: archive-sha256:a7926daad48a6eaeb3fe9fe16388ddf3683cf76fdb5fb4156f51cd91fc2d12a5
-# Source SHA-256: 533f8dbcf537aa1915508bd9b9ebd92aae03d0e1537cefe5f6da4ee561dab329
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zII-BALL.ANS by Zeus II (FUEL); released in fuel29 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fireball Express!!!
-# SAUCE Author: Zeus II
-# SAUCE Group: FUEL
-# SAUCE Date: 20190205
-# SAUCE Dimensions: 80x46
-# SAUCE Font: IBM VGA
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Fireball Express!!! by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel29-zii-ball
 
 Write-Host '
 [37;40m  [0;34;40m▄[0;37;40m [0;34;40m▄▄▀▀[0;37;40m   [0;34;40m▄▄[0m                                                  [34;40m    ▀▀[0;37;40m  [0;34;40m▀▀▀▀▄▄[0m

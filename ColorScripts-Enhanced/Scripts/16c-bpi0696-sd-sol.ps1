@@ -1,18 +1,4 @@
-﻿# Converted from: SD!SOL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bpi0696/raw/SD!SOL.ANS
-# Source Revision: archive-sha256:24ba7f715feb33b38dd9d80af37fadd76c049ffae04949fb7d26267bd16ca3cf
-# Source SHA-256: 28c95a86ee21e93d861518640efc4fe8206ccf90b2a245abc4405a2f84e3c928
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD!SOL.ANS by sad (black pyramid! inc.); released in bpi0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: system overload login
-# SAUCE Author: sad
-# SAUCE Group: black pyramid! inc.
-# SAUCE Date: 19960516
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: system overload login by sad | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bpi0696-sd-sol
 
 Write-Host '
 

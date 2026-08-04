@@ -1,13 +1,4 @@
-﻿# Converted from: US-B6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch03/raw/US-B6.ANS
-# Source Revision: archive-sha256:faad3368b55fb434ef1208473b1dc06bfce9fe1104a0d093902743c45bd0d2f8
-# Source SHA-256: 3036930815389af327cf08f260194b8c9bbb2cd8df91e646f31478556903a87a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-B6.ANS by Spear + Toot (27inch03); released in 27inch03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: US-B6.ANS by Spear + Toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch03-us-b6
 
 Write-Host '
 [1;30m█████▄▀▀▀▀██████████████████████████▀▀▀▀█▄▄▄▀▀▀▀██▄[0;36m▀[0;37m  [0;36m███▀[0;37m  [0;36m▄█████▄██[0;1;36;46m███[0;36m███[0;37m [0;1;30m████[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: INSANACD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acid_e-k/raw/INSANACD.ANS
-# Source Revision: archive-sha256:39f65f593445c52be7979397cf597377ab7883bc6e967f4cf6ca51c15e64aa37
-# Source SHA-256: a2fdc14113850faa9bf04531b197a2b19168b9e87fa8779fd297919bb4a2ae8c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: INSANACD.ANS by Black Spyrit (acid_e-k); released in acid_e-k and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: INSANACD.ANS by Black Spyrit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acid-e-k-insanacd
 
 Write-Host '
         [1;30m▄▀▀▀ ▀    ▄▓[0m            [34m▐▌[0;31m▓  [0;1;30m▀▀▀[0m▀ [34m█[0m                [1;30m▓▄    ▀ ▀▀▀▄[0m

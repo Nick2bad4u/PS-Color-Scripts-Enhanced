@@ -1,13 +1,4 @@
-﻿# Converted from: MST!PLAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spr_03/raw/MST!PLAN.ANS
-# Source Revision: archive-sha256:4e72f654dd144c3fc4922c52ed27a746ba8b094b07e719417cf6392491ac9a47
-# Source SHA-256: a0770cf28834c6ac051b14108f82896c4d94431cc757fdbba5c044c17e4c8100
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MST!PLAN.ANS by Mist (spr_03); released in spr_03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: MST!PLAN.ANS by Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spr-03-mst-plan
 
 Write-Host '
               [1m▄▄▄[0;1;44m▓▓▓▓▓▓[0;34m▄▄▄[0m   [34m [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: TR-UPRSC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise05/raw/TR-UPRSC.ANS
-# Source Revision: archive-sha256:8a04f72dbd0084a3dd089505796d41f1fc098ce192bbfa410f8bc1039eb33f03
-# Source SHA-256: eca585e95ed9e8b3a16e6268857d25e9bf5405bfaf8f2832a8fb7f169a354a5b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-UPRSC.ANS by Trippah (uprise05); released in uprise05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: TR-UPRSC.ANS by Trippah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise05-tr-uprsc
 
 Write-Host '
 ([1mtr[0m/[1mupr[0m)                     [1;36m▄   ▄[0;1;37m▄▄▄▄▄▄[0;1;36m▄    ▄[0;36m▄[0;1;36m▄[0;1;37m▄     ▄▄▄▄▄[0;1;36m▄▄▄[0m      [1;36m▄[0;1;37m▄▄▄▄▄[0;1;36m▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SS-TASB.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9405/raw/SS-TASB.ICE
-# Source Revision: archive-sha256:a268d55ac0892ea3031043188566d3858668800e9c28eecd4de6a00493be3d6d
-# Source SHA-256: 1cb9ac3d5ec4c87c1f8c899afb59d4b03cdd82a88766adea9a74849995cdf6b8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SS-TASB.ICE by Spaceman Spiff (iCE); released in ice-9405 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Tempus is gay
-# SAUCE Author: Spaceman Spiff
-# SAUCE Group: iCE
-# SAUCE Date: 19940529
-# SAUCE Dimensions: 80x25
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: Tempus is gay by Spaceman Spiff | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9405-ss-tasb-part01
 
 Write-Host '
 [1m┌─[0m─[1m─[0m─[1;30m─[0m─[1;30m──[0m─[1;30m─[0;1;37m [0m [1;30m                                                    [0m [1m  [0;1;30m─[0m─[1;30m──[0m─[1;30m─[0m─[1m─[0m─[1m─┐[0m

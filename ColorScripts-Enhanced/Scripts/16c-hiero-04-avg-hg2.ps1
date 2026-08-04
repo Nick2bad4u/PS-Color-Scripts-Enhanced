@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-HG2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-04/raw/AVG-HG2.ANS
-# Source Revision: archive-sha256:fa04f9284176600bd187f5f89edb1d3f52550711ec8063377e14a2ec045346f2
-# Source SHA-256: c4486f21b9c45d0cc060cf1848256d93a6c3a46997ce9c3cb0f965e255883040
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-HG2.ANS by Avenging Angel (Hieroglyphics); released in hiero-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Hieroglyphics
-# SAUCE Author: Avenging Angel
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20001117
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Hieroglyphics by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-04-avg-hg2
 
 Write-Host '
   [1;30m    [0m

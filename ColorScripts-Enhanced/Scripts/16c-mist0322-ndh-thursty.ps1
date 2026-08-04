@@ -1,19 +1,4 @@
-﻿# Converted from: NDH-THURSTY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0322/raw/NDH-THURSTY.ANS
-# Source Revision: archive-sha256:d721ac329a32c7b9dccef4e8624e41c2516121b2eeceed2a1086408a7cc60358
-# Source SHA-256: 0188a37ca685241df71d061effa6e062534b7fcb16482377f9bf5eba9f1a9a4b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NDH-THURSTY.ANS by andy herbert (Mistigris); released in mist0322 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Thurston Waffles
-# SAUCE Author: andy herbert
-# SAUCE Group: Mistigris
-# SAUCE Date: 20220326
-# SAUCE Dimensions: 80x28
-# SAUCE Font: IBM VGA
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Thurston Waffles by andy herbert | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0322-ndh-thursty
 
 Write-Host '
      [1;44m╔═══════════════════════╗[0m   ▄[1m▄▄[0;1;47m▄[0m█▀[1m■ [0;1;30m■[0m [1;30m▄[0m

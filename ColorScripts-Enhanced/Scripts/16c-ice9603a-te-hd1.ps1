@@ -1,13 +1,4 @@
-﻿# Converted from: TE-HD1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9603a/raw/TE-HD1.ICE
-# Source Revision: archive-sha256:51bcd96b8979115d69f1f707dc5c3d398256f0ac7a750005c0ccb144327b6f27
-# Source SHA-256: 5ed8e88fb36201a5ff6b1d3b99cd7e75305e4f7262d7d25565f5c79ef98b9ac0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-HD1.ICE by Tetanus (ice9603a); released in ice9603a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: TE-HD1.ICE by Tetanus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9603a-te-hd1
 
 Write-Host '
 [1;34;44m▓▓[0;1;34;40m███████▀▀[0m ▄▄[1m▄▄▄[0m  [31m▄▄[0;37m [0;1;34m███████▀▀▀▀▀█▀[0m ▄▄[1;47m ▄▄[0;1;40m▄▄[0m [1;34m▀▀[0;1;34;44m▓▓[0;1;34;40m███████████████████████████[0;1;34;44m▓▓[0;1;34;40m██[0m

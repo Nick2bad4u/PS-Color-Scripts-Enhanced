@@ -1,16 +1,4 @@
-﻿# Converted from: grk-soli.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure69/raw/grk-soli.ans
-# Source Revision: archive-sha256:aed3f5f626196ad787935a946fc936821fc490ccfc3c07040a4d7dbea159ef47
-# Source SHA-256: ce402739ec134db0f2dbfa5c3dfee07f2ecaefc154bb6be246ed8d1df528a936
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: grk-soli.ans by Griskokare (impure69); released in impure69 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 20180619
-# SAUCE Dimensions: 80x48
-# SAUCE Font: IBM VGA
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: grk-soli.ans by Griskokare | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure69-grk-soli
 
 Write-Host '
 

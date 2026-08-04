@@ -1,18 +1,4 @@
-﻿# Converted from: NN-1999.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9604/raw/NN-1999.ANS
-# Source Revision: archive-sha256:c9d341fbab42005be8369b5b74c082e1beaf2773cdcff315b890579fc5c3d129
-# Source SHA-256: 13de4ad26f5184ca6c20d6f91fc21d6b8c3f73f8b7565f6b91093a080c4fcc1d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NN-1999.ANS by neo negro (blade); released in blde9604 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: east 1999
-# SAUCE Author: neo negro
-# SAUCE Group: blade
-# SAUCE Date: 19960320
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: east 1999 by neo negro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9604-nn-1999
 
 Write-Host '
     [1;34m░[0m          [1;34m░[0m          [1;34m░[0m          [1;34m░    [0;36m░░░ [0;1;32m░▄▄░[0m      [1;31m░ [0;36m░░░   ░░░▒▒▒▓▓▓[0;1;33;46m░░░▓▓▓[0m

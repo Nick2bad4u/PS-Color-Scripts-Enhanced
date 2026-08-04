@@ -1,18 +1,4 @@
-﻿# Converted from: IX-MTRX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy05/raw/IX-MTRX.ANS
-# Source Revision: archive-sha256:2e1c7dd4c451a5d024352ee6b56eba52a2d5ba6a7d73a9cc34cff58fc603ca18
-# Source SHA-256: 38efb21be29a92f37d0e3c5d73db4cd4b257286c9185cf8fd09e9df796e422c5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IX-MTRX.ANS by Illusion X (READ THE INI FILE); released in apathy05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Spawn matrix
-# SAUCE Author: Illusion X
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19951208
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Spawn matrix by Illusion X | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy05-ix-mtrx
 
 Write-Host '
    [1;30m░░░[0m           [1m    [0m▄▄▄▄▄[1;47m▓▓▒▒░░░  [0m█▌

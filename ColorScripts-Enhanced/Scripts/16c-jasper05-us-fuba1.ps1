@@ -1,18 +1,4 @@
-﻿# Converted from: US-FUBA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper05/raw/US-FUBA1.ANS
-# Source Revision: archive-sha256:33fac09b0787230492798535c47bf2642ecf35522de5af17dfe59b662d1606a6
-# Source SHA-256: ad32b5b47017c5801c7979cd17cddc46328fc3bcdf5fd63daad0ea74eeaecb48
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FUBA1.ANS by Untamed + Arrogance + Vade79 (jasper); released in jasper05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fubar
-# SAUCE Author: untamed/arrogance/v9
-# SAUCE Group: jasper
-# SAUCE Date: 20020414
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: fubar by Untamed + Arrogance + Vade79 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper05-us-fuba1
 
 Write-Host '
 [1m    [0;1;30m* [0;1;37mf U b A R ![0m

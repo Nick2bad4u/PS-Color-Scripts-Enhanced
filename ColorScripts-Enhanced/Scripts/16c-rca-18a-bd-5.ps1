@@ -1,13 +1,4 @@
-﻿# Converted from: BD-5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-18a/raw/BD-5.ANS
-# Source Revision: archive-sha256:79b264e900b0f3c0c1e1dfcb2a371291868034bc95083657623124fe09fd8162
-# Source SHA-256: e9f9f991131ae3ddae3b4287be82aad59a5d01ca3f00d03886da3aae7f5a27a5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BD-5.ANS by Blue Devil (rca-18a); released in rca-18a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: BD-5.ANS by Blue Devil | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-18a-bd-5
 
 Write-Host '
 [1m████[0;1;33m█████▀   [0m

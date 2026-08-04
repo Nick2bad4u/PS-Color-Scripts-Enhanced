@@ -1,18 +1,4 @@
-﻿# Converted from: MJ-ECHH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl-1195/raw/MJ-ECHH.ANS
-# Source Revision: archive-sha256:f1ed9662f9475081bf77e1fe9297899414eb11c1d47a752dfe30dc9707a3a222
-# Source SHA-256: a74f9b0e45927f9dee0075227b4cdcf5d964909e021a42dfe06d0e244a6732d8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MJ-ECHH.ANS by Mojo (Teklordz); released in tl-1195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Brand Echh!
-# SAUCE Author: Mojo
-# SAUCE Group: Teklordz
-# SAUCE Date: 19951102
-# SAUCE Dimensions: 80x25
-# Lines: 69-114
-# Columns: 1-80
+﻿# Artwork: Brand Echh! by Mojo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl-1195-mj-echh-part03
 
 Write-Host '
 [1;34;40m██████[0;1;34;44m█▓▀[0;34m▀ [0;1;30m▓███▌  [0;1;31m▄▐████████████████[0;1;31;43m█▄█▄▄[0;33m▄▄▄ [0;1;34m▀▀███████████████████████████████[0m

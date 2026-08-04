@@ -1,19 +1,4 @@
-﻿# Converted from: dman-negatives.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_1010/raw/dman-negatives.ans
-# Source Revision: archive-sha256:a99bb1826c554acf497ca2f3d3a318938bda45de706ac9decf9ca308162d3ee1
-# Source SHA-256: e91f038774ada4af6cf841fcb2e464c010345fda81707f7a8f042395bb1176a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: dman-negatives.ans by dman (pcb'n'b7); released in blocktronics_1010 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ????????
-# SAUCE Author: dman
-# SAUCE Group: pcb'n'b7
-# SAUCE Date: 20140924
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: ???????? by dman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-1010-dman-negatives
 
 Write-Host '
 [1;34;40m  ▄██████████████████████████████████████████████████████████████████████████▄[0m

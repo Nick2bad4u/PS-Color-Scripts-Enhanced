@@ -1,17 +1,4 @@
-﻿# Converted from: FD-KILL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_08/raw/FD-KILL.ANS
-# Source Revision: archive-sha256:f5d36139e5f7f2e2e6d40888afe2c0fec7cd427ccc34b8a60d8fe55ece2d0c15
-# Source SHA-256: 29c117432c60f5bef41a2d98841b637499e8be62a757c946d917e34bff2e97c9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FD-KILL.ANS by flood/chef (dox); released in dox_08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: killarmy logo
-# SAUCE Author: flood/chef
-# SAUCE Group: dox
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: killarmy logo by flood/chef | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-08-fd-kill
 
 Write-Host '
                      [32m█▌[0m

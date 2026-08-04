@@ -1,18 +1,4 @@
-﻿# Converted from: JUNK   3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/srg2vos/raw/JUNK%C2%A0%C2%A0%C2%A03.ANS
-# Source Revision: raw-sha256:d58ba9c6a33dee4929f348087042df253103fd218142a6f22239c982512e47a4
-# Source SHA-256: d58ba9c6a33dee4929f348087042df253103fd218142a6f22239c982512e47a4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JUNK   3.ANS by junk (fbk.sargahd); released in srg2vos and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: uprock
-# SAUCE Author: junk
-# SAUCE Group: fbk.sargahd
-# SAUCE Date: 19961102
-# SAUCE Dimensions: 80x71
-# Lines: 42-71
-# Columns: 1-80
+﻿# Artwork: uprock by junk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-srg2vos-junk-3-part02
 
 Write-Host '
        [1m▄██[0;1;47m▀[0;1;40m▀▀[0;30;47m▄[0m                [1;37;40m▀█[0;1;37;47m▓▓▓█[0;1;37;40m▀[0;30;47m▀▀█[0;1;37;40m▄▀[0;1;37;47m▓▓▓███[0;1;37;40m▀[0m                 [1m▀▀[0;1;47m▀██[0;1;40m▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: PY-MFIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/grim-03/raw/PY-MFIRE.ANS
-# Source Revision: archive-sha256:ebc036abf9a775cca5b26ca6cd97418b4cbcbb8a88c78d39df773432429bd88a
-# Source SHA-256: bbbe78f24eb4c40fbd851376c2ba501b8e78004ebadcc36f9a480fd337ba6494
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PY-MFIRE.ANS by Pyro (grim-03); released in grim-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: PY-MFIRE.ANS by Pyro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-grim-03-py-mfire-part01
 
 Write-Host '
                                            [1;33m▄██▀[0;36m▄████[0;1;36;46m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;36m████▄[0;1;30m▀▄[0;1;33m▀▄[0m

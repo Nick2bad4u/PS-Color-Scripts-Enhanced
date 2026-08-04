@@ -1,18 +1,4 @@
-﻿# Converted from: MB-FA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amb-0001/raw/MB-FA1.ANS
-# Source Revision: archive-sha256:50117a0363f47a3201dbded78dece5a7d943bf5ee978c9adb3f23e48040c9989
-# Source SHA-256: 719124396f2cd02652a895d137a96479c314f71be9121f1af750dca05a2d3d7d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MB-FA1.ANS by MADBiT (AMBUSH); released in amb-0001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fort Apache - Main Menu 1
-# SAUCE Author: MADBiT
-# SAUCE Group: AMBUSH
-# SAUCE Date: 19960826
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Fort Apache - Main Menu 1 by MADBiT | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amb-0001-mb-fa1
 
 Write-Host '
   [1;34;44m█▓[0;34m▀[0;1;34m▄[0;1;34;44m██▓▓▒▒░░[0m [1m▀▀▀▀[0;1;47m▓[0;1;40m██[0;1;47m▓[0;1;40m█[0;1;47m▓▒░[0m▀▀▀  [1;30m░░▀■[0m [1;30m■[0m [36m [0;37m [0;1;36m                           [0m [36m [0;37m [0;1;30m■▀[0m [1;30m■▓▀▄▓[0m

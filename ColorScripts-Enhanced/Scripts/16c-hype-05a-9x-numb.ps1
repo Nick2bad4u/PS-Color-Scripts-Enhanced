@@ -1,17 +1,4 @@
-﻿# Converted from: 9X-NUMB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-05a/raw/9X-NUMB.ANS
-# Source Revision: archive-sha256:60e974debb2c53c16c4636763f36d313ae3236ca17347fcb32045fc9aeba992a
-# Source SHA-256: 9e0fddc8983cbecf8a7f740c2ca3870fd975404eb90fd6882d3fb95ca2fb58fc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 9X-NUMB.ANS by PleetO (Hype Inc.); released in hype-05a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: " Numb "
-# SAUCE Author: PleetO
-# SAUCE Group: Hype Inc.
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: " Numb " by PleetO | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-05a-9x-numb
 
 Write-Host '
                      [1m▄▄▄▄▄▄▀▀▀ ▀▄▄▄▄▄▄[0m                    [1;30m   ▄▄▓█▄[0m   [1;30m [0m

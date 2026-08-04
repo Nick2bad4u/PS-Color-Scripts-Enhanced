@@ -1,18 +1,4 @@
-﻿# Converted from: SM!SOULS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1098/raw/SM!SOULS.ANS
-# Source Revision: archive-sha256:c4e49f581efdb23757cb4cd22ca84401fcd6ac0febdad687007b0b36de54547a
-# Source SHA-256: fba1b68e76c5ffc29df52b81a510e5ee9f62e533ea954ef37ecf3c82f7d0779d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM!SOULS.ANS by sims (poffelipoff); released in plf-1098 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: souls
-# SAUCE Author: sims
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19980924
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: souls by sims | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1098-sm-souls
 
 Write-Host '
   [33m [0m                                    [1;37m██[0m   [1;31m                   [0m

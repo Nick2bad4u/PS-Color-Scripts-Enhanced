@@ -1,13 +1,4 @@
-﻿# Converted from: TSK-SPLT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz02jan/raw/TSK-SPLT.ANS
-# Source Revision: archive-sha256:132672eb521503ab979d6725a75b6f055811245f253b5353290430aa5c4983b1
-# Source SHA-256: c50c647c38b06fc735ef620a0666c45c8bd30f5467ddb14f208a8f76347cd2e1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-SPLT.ANS by The Silent Killer (laz02jan); released in laz02jan and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: TSK-SPLT.ANS by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz02jan-tsk-splt
 
 Write-Host '
 [1m[0m[1m[0m

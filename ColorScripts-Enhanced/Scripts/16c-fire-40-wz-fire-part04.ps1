@@ -1,19 +1,4 @@
-﻿# Converted from: WZ-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-40/raw/WZ-FIRE.ANS
-# Source Revision: archive-sha256:aff8105c0a955ac5c43ea367a02b086cd2849f6741fc41b8a5ff440b77e104a7
-# Source SHA-256: e28e35bf90d358c8711e7c7b1e6b3bfaa48d369773115a5d3e794d6a2825651c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WZ-FIRE.ANS by Whazzit (Blocktronics); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fire 40
-# SAUCE Author: Whazzit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20240707
-# SAUCE Dimensions: 80x160
-# SAUCE Font: IBM VGA
-# Lines: 122-160
-# Columns: 1-80
+﻿# Artwork: Fire 40 by Whazzit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-40-wz-fire-part04
 
 Write-Host '
       [1;30m▀▄▀██[0m   [1;30m▒▒[0m  [1;30m▀▀▄▀[0m          [1;30m███[0m [1;30m█[0m      ▀▀▀▀▀█▄▄▄▄▄[33m▀▀▀▀▀███[0;37m [0;33m██▓▓▒[0;37m [0;33m▒█████[0;37m [0;33m▄▄▄▄[0m

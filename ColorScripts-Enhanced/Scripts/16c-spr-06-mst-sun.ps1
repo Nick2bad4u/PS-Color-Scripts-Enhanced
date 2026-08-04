@@ -1,13 +1,4 @@
-﻿# Converted from: MST!SUN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spr_06/raw/MST!SUN.ANS
-# Source Revision: archive-sha256:011b45019769fff7acdc69361784d20e61270e8922d782c0c08cbc7efb1e1aaf
-# Source SHA-256: d433fc7d4292618c9f708ce409b9562255dc12243fe977e924f52ebe7dcec109
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MST!SUN.ANS by Mist (spr_06); released in spr_06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: MST!SUN.ANS by Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spr-06-mst-sun
 
 Write-Host '
  [1;30m░[0m   [34m░[0m   [34m▄[0m    [1;30m▄[0m                                               [33m▄[0;37m  [0;33m▀[0m     [37mmist''01 [0m

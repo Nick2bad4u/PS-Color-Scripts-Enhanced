@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-ABST3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0197/raw/IZ-ABST3.ANS
-# Source Revision: archive-sha256:db16ecaf9a5ba2dcf16f11149d4e3768d3e19930159af1ef0ef2625ea12b3e30
-# Source SHA-256: 27c37fb4745f0fbae0e636cbebac8aa0d6adc19bb8cf44654db312aafbad3c96
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-ABST3.ANS by ize (fusion); released in fsn-0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: abstract
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19961215
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: abstract by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0197-iz-abst3
 
 Write-Host '
                                                         [1;30m░[0m

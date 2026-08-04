@@ -1,18 +1,4 @@
-﻿# Converted from: SYL-NOEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fdr-01/raw/SYL-NOEL.ANS
-# Source Revision: archive-sha256:9413b8317ae532a8321557d5d3d1cb08aadb3372c739437bc2fde54e7706a363
-# Source SHA-256: f014ef50f0c5428760cb41264adb05630205f8cb9e3a10be0286430088ba0e7a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SYL-NOEL.ANS by Sylvao (Fire Dream); released in fdr-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Noel
-# SAUCE Author: Sylvao
-# SAUCE Group: Fire Dream
-# SAUCE Date: 20121226
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Noel by Sylvao | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fdr-01-syl-noel
 
 Write-Host '
 [1;34;40m████████████████████████████████████████████████████████████████████████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: KI-FBLOF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9604/raw/KI-FBLOF.ANS
-# Source Revision: archive-sha256:c9d341fbab42005be8369b5b74c082e1beaf2773cdcff315b890579fc5c3d129
-# Source SHA-256: f184d3a54f4da1d647d62af642417cee0b04f97a1157f7a382931164c66c17f0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KI-FBLOF.ANS by kiwi (blade productions); released in blde9604 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: feasting the beast
-# SAUCE Author: kiwi
-# SAUCE Group: blade productions
-# SAUCE Date: 19960313
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: feasting the beast by kiwi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9604-ki-fblof
 
 Write-Host '
 [31m░░░░░░░░[0;37m [0;31m░░░░░░░░░░░░░░░░░░░░░░[0;37m [0;31m░░░[0m   [31m░░[0;37m [0;31m  [0;37m [0;31m░░[0;37m  [0;31m░░░ ░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

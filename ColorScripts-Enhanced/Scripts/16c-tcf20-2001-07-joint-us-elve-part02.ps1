@@ -1,18 +1,4 @@
-﻿# Converted from: 2001 - 07 - Joint - US-ELVE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tcf20/raw/2001%20-%2007%20-%20Joint%20-%20US-ELVE.ANS
-# Source Revision: archive-sha256:af8609219fccc484668fb405a7f1d45efb8c574501a461c5c1b47d87a12921ce
-# Source SHA-256: bbd4010d31d2132ba5400176129727578859f8a1bd03b534b3e2977cd3809366
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2001 - 07 - Joint - US-ELVE.ANS by fever&catch22 (glue); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: injection of lethal vengeance
-# SAUCE Author: fever&catch22
-# SAUCE Group: glue
-# SAUCE Date: 20001005
-# SAUCE Dimensions: 80x128
-# Lines: 43-84
-# Columns: 1-80
+﻿# Artwork: injection of lethal vengeance by fever&catch22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tcf20-2001-07-joint-us-elve-part02
 
 Write-Host '
 [30;44m▐[0;34;40m▐[0;30;44m▐[0;37;40m  [0;1;34;44m░[0;30;44m░[0;37;40m  [0;33;40m░[0;1;30;43m░ [0;1;31;43m░░[0;1;31;40m█[0;1;31;43m▓▓▒░▒▓▒▓▒▓▒░▒▒░ [0;33m▄▄[0;1;31;43m [0;33m███▌[0;1;34;44m█░[0;33m▐█[0;1;31;43m [0m [1;34;44m▒█▓[0;1;34;40m▌[0;30;44m▌[0;1;34;44m░[0;33m▐[0;1;31;43m▒▓▒[0;1;31;40m████[0;1;31;43m▒░░[0;30;47m█[0;34;40m ▓[0;30;44m       [0;1;34;44m▒[0;30;44m▐[0;34;40m▓[0;1;34;44m▒██[0;34m▒[0;30;44m██[0m

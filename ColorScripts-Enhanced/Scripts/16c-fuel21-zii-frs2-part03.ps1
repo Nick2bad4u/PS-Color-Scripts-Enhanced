@@ -1,19 +1,4 @@
-﻿# Converted from: zii-frs2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel21/raw/zii-frs2.ans
-# Source Revision: archive-sha256:3c35978fe1aff0d9cad8b96088193a4169b923a7a460fe0bded18e44ac4f0ea9
-# Source SHA-256: 8e640a064bc1a391214171a2831b0d33d2f9f4216e2f708d78a252c0d2d7fe05
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zii-frs2.ans by Zeus II (fuel); released in fuel21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fresh
-# SAUCE Author: Zeus II
-# SAUCE Group: fuel
-# SAUCE Date: 19970206
-# SAUCE Dimensions: 80x145
-# SAUCE Font: IBM VGA
-# Lines: 100-145
-# Columns: 1-80
+﻿# Artwork: Fresh by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel21-zii-frs2-part03
 
 Write-Host '
      [1;31m    [0;33m▄▄[0;1;31m▄[0;1;31;43m▄▄[0;1;31;40m███████[0;1;31;47m▓▓▓▓[0;1;31;40m████████████[0;1;31;43m▓░[0;31m [0;1;31m [0;35m  [0m      [31m▀[0m                         [31m░░[0m

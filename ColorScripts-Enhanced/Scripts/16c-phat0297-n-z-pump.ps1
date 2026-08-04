@@ -1,16 +1,4 @@
-﻿# Converted from: N!Z-PUMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0297/raw/N!Z-PUMP.ANS
-# Source Revision: archive-sha256:2e15cb2f2712a143323c9f3c6ecca94c5b5b12a452a019e911d205dd685c6eee
-# Source SHA-256: 86ea1a54019b68a8fdaac7b6504909885147f123564f93e4db03768cdff32c88
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N!Z-PUMP.ANS by noize (phat studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: pump-header
-# SAUCE Author: noize
-# SAUCE Group: phat studios '97
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: pump-header by noize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0297-n-z-pump
 
 Write-Host '
 [1;33;42m▒▒[0;1;32;42m█▄[0;32m█▄▄▄▄▄▄▄[0m   [32m▄▄▐▄▄▄▄▄▄▄▐[0;1;32;42m█[0;1;33;42m░░▓▒▒[0;1;32;42m▀▀[0;32m▌▄▄█[0;1;32;42m▀[0;1;33;42m▓▓[0;1;32;42m▓▓[0;32m▓▄▄▄██[0;1;32;42m▒▒▀▀[0;1;33;42m▒▒▓▓▒▒[0;1;32;42m▀▀▀▀[0;32m█▓[0;30;42m░[0;32;40m▓[0;30;42m░[0;32;40m▄▄▄[0;1;32;42m░░[0m [32m▀▀▄▓[0;30;42m░[0;32;40m▓[0m

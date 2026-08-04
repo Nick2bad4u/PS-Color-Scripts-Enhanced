@@ -1,13 +1,4 @@
-﻿# Converted from: LI-GOODB.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9410-logo/raw/LI-GOODB.ICE
-# Source Revision: archive-sha256:1be2dc432d9e640f3b31b2a4f8d73f99acc60e43cae2a373e768497dfcb9369e
-# Source SHA-256: 1ed2d4ac48afc8f6587231178c765c64d9eb3137aefabff0a9c34421d9b024c5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LI-GOODB.ICE by Lithium (ice-9410-logo); released in ice-9410-logo and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: LI-GOODB.ICE by Lithium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9410-logo-li-goodb
 
 Write-Host '
          [31m■[0m       [31m▀[0m       [31m▐  ▄▀   ▀▄ ▄ ▀▄ ■    ▄▄▄▀▀▀[0m      [31m▄▄▀▀▀  ▀  ■[0m

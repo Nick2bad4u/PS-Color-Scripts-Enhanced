@@ -1,18 +1,4 @@
-﻿# Converted from: MR-HG!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9703/raw/MR-HG!.ANS
-# Source Revision: archive-sha256:9e514042cc5e389aeb3f9323e41f842849e88d4294fdd727215463cf9566281b
-# Source SHA-256: 80ad6275fb24de3c9907266184a8018ac35c1db7890ede37c88105dce9405e37
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-HG!.ANS by minotaur (MAiDEN bRAZiL); released in mdn-9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: hell's gate logo
-# SAUCE Author: minotaur
-# SAUCE Group: MAiDEN bRAZiL
-# SAUCE Date: 19970205
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: hell's gate logo by minotaur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9703-mr-hg
 
 Write-Host '
 

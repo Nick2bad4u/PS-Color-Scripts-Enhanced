@@ -1,18 +1,4 @@
-﻿# Converted from: OK-POO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9609/raw/OK-POO1.ANS
-# Source Revision: archive-sha256:96c031e04e5c479ef9ed73f1afa21a3db6bca2a2de7ad88a46888136232884ff
-# Source SHA-256: ea23e912c45e56764a26f5c57793f80273a4ba50a1372f5a4789c06eaf35bf6e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OK-POO1.ANS by Outkast (Samsara); released in sms-9609 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Poo
-# SAUCE Author: Outkast
-# SAUCE Group: Samsara
-# SAUCE Date: 19960823
-# SAUCE Dimensions: 80x25
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Poo by Outkast | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9609-ok-poo1
 
 Write-Host '
 [1;35;45m           [0;35m█████████████████████[0;1;35;45m░░▒▒▒▓▓▓▓▓▓[0;1;35;40m█▓█▓▓▓█▀▀▀▀[0m           [35m▄▄▀[0m

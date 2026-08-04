@@ -1,13 +1,4 @@
-﻿# Converted from: NE-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0994/raw/NE-FIRE.ANS
-# Source Revision: archive-sha256:3703c7bad075d71c4631b4c27fbba8a167ccd10c7343d2d2bf3447e74000d1a8
-# Source SHA-256: f1bd65b3cbc58bb325a83be2d1c3a813efdca5f8b9255139f65f14eba4640fb2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NE-FIRE.ANS by Nemo (fire0994); released in fire0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: NE-FIRE.ANS by Nemo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0994-ne-fire
 
 Write-Host '
                     [35m▄[0;1;37;45m██[0;1;37;40m▄    [0;35m▄[0;1;37;45m▀[0;1;37;40m▄  [0;35m▄[0;1;37;45m▀[0;1;37;40m█▄  [0;35m▄[0;1;37;45m▀█[0;1;37;40m▄  [0;35m▄[0;1;37m█▄  ▄█▀▀█▄[0m

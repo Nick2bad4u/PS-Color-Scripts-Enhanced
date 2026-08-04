@@ -1,19 +1,4 @@
-﻿# Converted from: gDm-ZeroGreets.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/slackpack001/raw/gDm-ZeroGreets.ans
-# Source Revision: archive-sha256:5cacf66a668b317d377907af22e0a4e5723c4f7fb85756d1ef888c14cabea25b
-# Source SHA-256: 84d39fe9c5a478e63238d1c36b1dec2c034e05ede9aae92c5830383ee0ed6ae1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: gDm-ZeroGreets.ans by GngrDr3dM4n (Slackers); released in slackpack001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ZeroGreets
-# SAUCE Author: GngrDr3dM4n
-# SAUCE Group: Slackers
-# SAUCE Date: 20250607
-# SAUCE Dimensions: 80x24
-# SAUCE Font: TOPAZ 437
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ZeroGreets by GngrDr3dM4n | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-slackpack001-gdm-zerogreets
 
 Write-Host '
 [34m██▌╔════════════════╗▐████████████▀  [0;1;30m░█[0m██[1m██████████████▄▄[0m  [34m▀███████████████████[0m

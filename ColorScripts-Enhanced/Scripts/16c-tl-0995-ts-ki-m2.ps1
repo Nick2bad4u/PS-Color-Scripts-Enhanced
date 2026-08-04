@@ -1,18 +1,4 @@
-﻿# Converted from: TS-KI_M2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl-0995/raw/TS-KI_M2.ANS
-# Source Revision: archive-sha256:51170c53ad31be0dbe93369a89148c3a443ae98fedbb59618772427653ddb373
-# Source SHA-256: a49a9e59090883d63b6fb55f6ccb3f2bffa6332908e2dd1fce6c8fa0e6f03869
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-KI_M2.ANS by ts (Teklordz); released in tl-0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Killa Instinctz Menu
-# SAUCE Author: ts
-# SAUCE Group: Teklordz
-# SAUCE Date: 19950907
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Killa Instinctz Menu by ts | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl-0995-ts-ki-m2
 
 Write-Host '
 [1;30m░░[0;35m▀[0;1;35;45m░▒▓██[0;1;35;40m▀[0;1;30;40m░░[0m [35m▄▄[0;1;35;45m░▒▓[0;1;35;40m▀▀▀[0m   [1;35m▄▄▄[0;1;35;45m▓[0;1;35;40m▀▀[0m   ▄[36;47m░[0;37;40m▀▀▀[0m

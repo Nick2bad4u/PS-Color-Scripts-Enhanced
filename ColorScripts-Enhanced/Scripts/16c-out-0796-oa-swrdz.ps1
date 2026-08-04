@@ -1,13 +1,4 @@
-﻿# Converted from: OA-SWRDZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0796/raw/OA-SWRDZ.ANS
-# Source Revision: archive-sha256:5885aa6c86298098bedd64cf1c2cb3162edb04c2e9fa59fdfb9c5288ee0c054a
-# Source SHA-256: a5615f43fed4fbc0982ff0f52df093a62bafd1247f3e19460077be2669e1bead
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OA-SWRDZ.ANS by Sandy Chidester (out-0796); released in out-0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: OA-SWRDZ.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0796-oa-swrdz
 
 Write-Host '
 [34m▄▄▄   ▄▄▄▄▀▀▀▄ ▄▀▄▄▀▀ ■[0m                       [1;30m··[0m          [1;30m···[0m         [1;30m···[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: MST!KAP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spr_06/raw/MST!KAP.ANS
-# Source Revision: archive-sha256:011b45019769fff7acdc69361784d20e61270e8922d782c0c08cbc7efb1e1aaf
-# Source SHA-256: 91dac5a740cc87f43410bc729761f8eb7d09ebcd0ce8c16a5cad71d00e5c1989
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MST!KAP.ANS by Mist (spr_06); released in spr_06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: MST!KAP.ANS by Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spr-06-mst-kap
 
 Write-Host '
 [1m [0;1;33mm[0;1;32mi[0;32mst[0;33m''o1[0;1;37m  [0m░░░ [1;33m█[0;1;32m▀[0;32m▀[0;33m▀[0m

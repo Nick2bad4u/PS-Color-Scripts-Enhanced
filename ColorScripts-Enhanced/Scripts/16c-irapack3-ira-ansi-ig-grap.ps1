@@ -1,13 +1,4 @@
-﻿# Converted from: IG-GRAP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/irapack3-ira-ansi/raw/IG-GRAP.ANS
-# Source Revision: archive-sha256:6fed41f2189359ac8fc175895e43a6af0c3289bbdbde355fb090fc9339bbf7d0
-# Source SHA-256: a7ab2592ddc517ed12143f46d1ba867369ebefbd4a1926f70714d6af081e367b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IG-GRAP.ANS by Iguana (irapack3-ira-ansi); released in irapack3-ira-ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: IG-GRAP.ANS by Iguana | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-irapack3-ira-ansi-ig-grap
 
 Write-Host '
                                                  [33m▄[0;33;43m█████[0;33;40m▄[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: GNSTR-01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oph-0018/raw/GNSTR-01.ANS
-# Source Revision: archive-sha256:b78bc978b69dedfb9a07152cba296ecefc97611bd7bc7f5211d489ff748613dc
-# Source SHA-256: debb4c607f5f6ade0a15e9fe3f80eb3b9b7ef0856973c6a125fee6b681bba374
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GNSTR-01.ANS by gang starr (oph-0018); released in oph-0018 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ____22[[[[[[[______      ^20
-# SAUCE Author: gang starr
-# SAUCE Date: 19960917
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: ____22[[[[[[[______ ^20 by gang starr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oph-0018-gnstr-01
 
 Write-Host '
     [30m█[0m           [37m [0;30m█[0;5;31m░░▒▒▒▒▒▒▒▒░[0m

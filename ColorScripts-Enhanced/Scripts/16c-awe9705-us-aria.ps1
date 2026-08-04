@@ -1,18 +1,4 @@
-﻿# Converted from: US-ARIA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9705/raw/US-ARIA.ANS
-# Source Revision: archive-sha256:8be34660f06cc6610ed258606edc1af91e25b5675ab5e99aed29e53c07e63e17
-# Source SHA-256: d819eddadad181d6ffd7f0fcc69bb7a0ec245bbafb0b5fb89f9206db2c9d7539
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ARIA.ANS by Fluor + Halaster (AWE Lettering); released in awe9705 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Aria Online Game
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970505
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Aria Online Game by Fluor + Halaster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9705-us-aria
 
 Write-Host '
 [36m    [0m    [1;37m▌[0;36m  [0m                  [1;37m░[0;36m  [0m               [36m             [0;1;37m░[0;36m [0m

@@ -1,17 +1,4 @@
-﻿# Converted from: BS-REPLI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel10/raw/BS-REPLI.ANS
-# Source Revision: archive-sha256:cf40594777c22d11e0e68ffce1787c226a780219ccff2425f211f05671148899
-# Source SHA-256: ee6dcaacd6f1263ca9792591d9a8eba08ed7facb1684810541fd65db79f2e464
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-REPLI.ANS by burps (Fuel); released in fuel10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: replica
-# SAUCE Author: burps
-# SAUCE Group: Fuel
-# SAUCE Dimensions: 80x25
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: replica by burps | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel10-bs-repli
 
 Write-Host '
 [30m••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••[0m

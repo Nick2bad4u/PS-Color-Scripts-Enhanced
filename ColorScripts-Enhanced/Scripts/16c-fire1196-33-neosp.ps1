@@ -1,18 +1,4 @@
-﻿# Converted from: 33-NEOSP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1196/raw/33-NEOSP.ANS
-# Source Revision: archive-sha256:cd18ecfdae0904c56df3d636c6b858a4e9c49ad095ac3f517a511bb0e7a7a68e
-# Source SHA-256: 1debb067f81bb84a9fe67fef5f7a9d310fa75c1ff97970ee6a55c8f903f1b53d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-NEOSP.ANS by Eerie-Kun (Fire); released in fire1196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Neosporin
-# SAUCE Author: Eerie-Kun
-# SAUCE Group: Fire
-# SAUCE Date: 19961111
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Neosporin by Eerie-Kun | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1196-33-neosp
 
 Write-Host '
 [31m██▀▄█████▀▄████████▀▄████ █████░███▄▀█▄▄▀▄▄░ [0;36m▀█████████████████████████████████[0m

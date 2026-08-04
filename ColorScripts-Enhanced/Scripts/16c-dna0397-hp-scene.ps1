@@ -1,13 +1,4 @@
-﻿# Converted from: HP-SCENE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dna0397/raw/HP-SCENE.ANS
-# Source Revision: archive-sha256:e1a4a5668c5ecdfaceffae094b291f77d84772de2eb8e1772dc5072c38cdc6bb
-# Source SHA-256: d2bd3be9e5567166f148bdca90fc582b309cfea675c0175ddd4c3088e25c982c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HP-SCENE.ANS by Hypno (dna0397); released in dna0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: HP-SCENE.ANS by Hypno | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dna0397-hp-scene
 
 Write-Host '
  [31m▄████ [0;1;35m▄[0;1;35;44m▓[0;1;35;40m■[0;35;44m▓▒░[0;1;30;44m▄[0;35;44m▓[0;1;35;44m░▒[0;1;35;40m▄ [0;31m▀▓██▀▀▀  [0;1;35m▄[0;1;35;44m▓[0;1;35;40m▄[0;1;35;44m░[0;1;35;40m▄▄▄  [0;31m▓██████▓▀[0;34m▓▄█████▄▓[0;31m▀███████▀▀▀▀▀▀███████████[0m

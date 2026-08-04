@@ -1,18 +1,4 @@
-﻿# Converted from: ODB-SEEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shao0298/raw/ODB-SEEN.ANS
-# Source Revision: archive-sha256:47ded8a47966a1587135cef35ded87766a3d37a0cac2c4cb4bfdfb1bf3779882
-# Source SHA-256: 4d9ec31118a500f76708bef423715b1821a0e0f87e16d91715d6f2aca7515e28
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ODB-SEEN.ANS by Ol' Dirty Bastard (Shaolin's Finest); released in shao0298 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Renaissance
-# SAUCE Author: Ol' Dirty Bastard
-# SAUCE Group: Shaolin's Finest
-# SAUCE Date: 19980216
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Renaissance by Ol' Dirty Bastard | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shao0298-odb-seen
 
 Write-Host '
                         [1;35m [0;35m▄[0;1;35m▄▄▄▄  [0m

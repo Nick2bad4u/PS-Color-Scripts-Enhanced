@@ -1,19 +1,4 @@
-﻿# Converted from: US-ODIUM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-6710/raw/US-ODIUM.ANS
-# Source Revision: archive-sha256:65fe9e2a2e2016f30e4b0141be2d1472e9b7cc814d922f9663e0d0a04142d70a
-# Source SHA-256: 00909f337d1e5b74768f0d752cd04f6ec22efbf2d645566fe1f8734ad71c09e4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ODIUM.ANS by Burps + Alpha King (Fueltronics); released in blocktronics-6710 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Odium Tribute
-# SAUCE Author: Alpha King & Burps
-# SAUCE Group: Fueltronics
-# SAUCE Date: 20180731
-# SAUCE Dimensions: 80x48
-# SAUCE Font: IBM VGA
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Odium Tribute by Burps + Alpha King | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-6710-us-odium
 
 Write-Host '
 [1;37;40m [0;1;37;47m▓▓[0;1;37;40m██████[0;1;37;47m▓▓▓▓▓▓▓▀▀░░░[0m█▓▓▌[36m▐▄[0;1;37m▀[0;36m▀[0;1;37m▀[0;36m▄█[0;1;34;46m░[0;36m▀▄▄[0;1;34;46m░[0;36m▄▀■▀[0;1;36;46m░[0;1;36;40m▌[0;1;36;45m▓▓[0;1;36;40m██[0;36m▐[0;1;36m██[0;1;36;46m▓[0;1;36;40m▀▀▀▀[0;1;36;46m▓[0;1;36;40m██[0;1;36;46m▓▐[0;1;36;40m██[0;1;36;46m▓[0;1;36;40m███[0;1;36;46m▌▓[0;1;36;40m█[0;1;36;46m▓░[0;1;34;46m░[0;36m█▀[0;31m▄ [0;36m▌▄▓[0m

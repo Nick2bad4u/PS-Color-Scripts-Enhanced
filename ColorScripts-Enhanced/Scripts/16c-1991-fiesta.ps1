@@ -1,13 +1,4 @@
-﻿# Converted from: FIESTA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1991/raw/FIESTA.ANS
-# Source Revision: archive-sha256:4dcfddb1a9f84aafa45e2facaadcb15ccf7ddad9041d8c346c723f7894d6cfb9
-# Source SHA-256: d19d4a827a256c4011ef9c56d809d895a32d43ac6219d9a31d2281461e41a2be
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FIESTA.ANS by Jc (1991); released in 1991 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: FIESTA.ANS by Jc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1991-fiesta
 
 Write-Host '
       [30;41m█[0;1;30;43mvvvvvv[0m              [30;47m▒░  ░▒[0m   [30;47m▒░  ░▒[0m   [30;47m▒░  ░▒[0m   [30;47m▒░  ░▒[0m   [30;47m▒░  ░▒[0m

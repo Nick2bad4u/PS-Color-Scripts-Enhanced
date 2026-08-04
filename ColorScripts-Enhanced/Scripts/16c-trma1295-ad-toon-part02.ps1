@@ -1,18 +1,4 @@
-﻿# Converted from: AD-TOON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/trma1295/raw/AD-TOON.ANS
-# Source Revision: archive-sha256:6475c2ddc1d77e8d3b62fc5adb5522c8ec436bbb9b268bf030b84a522e46f493
-# Source SHA-256: 7a62fb5d86d65f00e563d4e4743ef76f6d08f30b748ed4586c3c2efc8a476ded
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AD-TOON.ANS by Armageddon Donut (Trauma); released in trma1295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Toon Promotional
-# SAUCE Author: Armageddon Donut
-# SAUCE Group: Trauma
-# SAUCE Date: 19951128
-# SAUCE Dimensions: 80x89
-# Lines: 46-89
-# Columns: 1-80
+﻿# Artwork: Toon Promotional by Armageddon Donut | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-trma1295-ad-toon-part02
 
 Write-Host '
 [34m███████████[0;1;34;44m░[0;1;34;40m█[0m [1;30m█[0;1;30;43m░[0;33m█████████████████████████████████████[0;1;30;43m░[0;1;30;40m█[0m [1;34m█[0;1;34;44m░[0;34m█████████████████████ [0m

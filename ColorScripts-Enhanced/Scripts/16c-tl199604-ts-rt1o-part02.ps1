@@ -1,18 +1,4 @@
-﻿# Converted from: TS-RT1O.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl199604/raw/TS-RT1O.ANS
-# Source Revision: archive-sha256:ab7ec791e29ab6c4664297096b97dad368f4f76b1e99cb674dbe349ce9914db1
-# Source SHA-256: 18edf38402daadaac1ca6bdf521dab757182f363a57ab322adaae4e11f26eb24
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-RT1O.ANS by ts (Teklordz); released in tl199604 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Retro Emag #1 Opener
-# SAUCE Author: ts
-# SAUCE Group: Teklordz
-# SAUCE Date: 19960327
-# SAUCE Dimensions: 80x51
-# Lines: 26-51
-# Columns: 1-80
+﻿# Artwork: Retro Emag #1 Opener by ts | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl199604-ts-rt1o-part02
 
 Write-Host '
           [1;33m▄▐[0;1;33;43m▒░░[0;33m█[0;1;33;43m░[0;33m█▀[0;37m [0;1;37m▄▄▄[0m [1;33m▀[0;1;33;43m▒░░▒░░[0;33m█▌[0;37m▐█ [0;34m▄▄▄▄▄[0;1;30m▄▄[0;1;30;44m▓[0;1;30;40m█[0;1;34;40m [0m█▌ [33m▌[0;1;34m▐[0;1;34;44m▓▓▒▒░░[0;34m▄[0;1;33m▀▐[0;1;33;43m▓▒[0;33m█[0;37m [0;33m▄█▄[0;37m [0;1;37m▀█[0m

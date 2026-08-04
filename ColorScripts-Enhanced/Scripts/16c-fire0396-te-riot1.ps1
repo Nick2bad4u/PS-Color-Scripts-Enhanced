@@ -1,18 +1,4 @@
-﻿# Converted from: TE-RIOT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0396/raw/TE-RIOT1.ANS
-# Source Revision: archive-sha256:1c74698b6bb36c67ca170e4e3759a91f94a3423157bd644c80d820a8fe56fd8d
-# Source SHA-256: 5625660401d1524ac9066609816282ded3510714a16f8952428903b20f6ddf21
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-RIOT1.ANS by The Extremist (fire); released in fire0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Riot
-# SAUCE Author: The Extremist
-# SAUCE Group: fire
-# SAUCE Date: 19951228
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Riot by The Extremist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0396-te-riot1
 
 Write-Host '
 [31m▄▄▄▄▄▄▄    [0;1;30m▄▄▄█  ███▌ [0;31m█[0;1;31;41m░░░░░░[0;31m█[0m         [31m░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: OZ-WTL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-11/raw/OZ-WTL.ANS
-# Source Revision: archive-sha256:436cbfb96b4d7d25ed4d5deb9e741ca5369f6cf815d67846e965ca9922db78b7
-# Source SHA-256: 9eaedfb17b306a89710f70a55208d02a79aa897f55f26697bf5f373d14acc1d3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OZ-WTL.ANS by ooze (department>38); released in d38-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: * DL calls his lawyer
-# SAUCE Author: ooze
-# SAUCE Group: department>38
-# SAUCE Date: 19971019
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: * DL calls his lawyer by ooze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-11-oz-wtl
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: RI-FREE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-01/raw/RI-FREE.ANS
-# Source Revision: archive-sha256:98f7ca14920172db6145e44afa4b8ac94de6e46d94b8cf326e89a96c3e7e5c1b
-# Source SHA-256: 42de6400eae966267be963226c58934457182e9ed6c7c100c6e127f2436b2e80
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RI-FREE.ANS by rye (eclipse); released in ecl-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: free coke
-# SAUCE Author: rye
-# SAUCE Group: eclipse
-# SAUCE Date: 19960606
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: free coke by rye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-01-ri-free
 
 Write-Host '
           [31m▐▌[0;37m [0;31m▐▌ [0;37m [0;31m▐▌[0;37m [0;31m▐▌[0m

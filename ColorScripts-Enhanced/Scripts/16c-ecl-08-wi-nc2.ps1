@@ -1,18 +1,4 @@
-﻿# Converted from: WI-NC2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-08/raw/WI-NC2.ANS
-# Source Revision: archive-sha256:0b90c936d49629839c01709c30be5eee3ae4012caa7a8f1570b6ae8cc1763cb4
-# Source SHA-256: 38dccb343a6fd3d9fcf9b1831e4e20eebd5dae145b2c557f7273f2d2bb5a36ce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WI-NC2.ANS by widowmaker (eclipse); released in ecl-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: no control
-# SAUCE Author: widowmaker
-# SAUCE Group: eclipse
-# SAUCE Date: 19961005
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: no control by widowmaker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-08-wi-nc2
 
 Write-Host '
 

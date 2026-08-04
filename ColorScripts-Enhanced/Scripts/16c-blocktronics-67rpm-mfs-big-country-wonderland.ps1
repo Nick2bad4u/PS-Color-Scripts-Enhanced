@@ -1,19 +1,4 @@
-﻿# Converted from: mfs-Big-Country-Wonderland.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-67rpm/raw/mfs-Big-Country-Wonderland.ans
-# Source Revision: archive-sha256:3bbf9039f3766954a270bac124a42d38fcc9fc482243f18bf40e3eb60d3ca1ae
-# Source SHA-256: 44d2fdbc373ff0f6beb71d54a82640f7da9a4e440a0e995d96282f560dd5523f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mfs-Big-Country-Wonderland.ans by Mel Farr Suppastar (Fuel); released in blocktronics-67rpm and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Big Country - Wonderland
-# SAUCE Author: Mel Farr Suppastar
-# SAUCE Group: Fuel
-# SAUCE Date: 20181229
-# SAUCE Dimensions: 80x46
-# SAUCE Font: IBM EGA
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Big Country - Wonderland by Mel Farr Suppastar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-67rpm-mfs-big-country-wonderland
 
 Write-Host '
 [1;37;45m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;37;47m▓▓▓▓▓[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: WZCHAOT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1991/raw/WZCHAOT.ANS
-# Source Revision: archive-sha256:4dcfddb1a9f84aafa45e2facaadcb15ccf7ddad9041d8c346c723f7894d6cfb9
-# Source SHA-256: 0cb5335659d50c73e40969eeed6282fa137b1daad774e77c0d1a988d5dcc92d8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WZCHAOT.ANS by Wiz (1991); released in 1991 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: WZCHAOT.ANS by Wiz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1991-wzchaot
 
 Write-Host '
 

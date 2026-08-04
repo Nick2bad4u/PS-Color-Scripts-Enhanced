@@ -1,18 +1,4 @@
-﻿# Converted from: zv-col5.ans
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/glue-31/raw/zv-col5.ans
-# Source Revision: archive-sha256:125b240e4f7c12edf343cce3b91cea614ad5d43fdbdf64dc76d9a06354b6a99c
-# Source SHA-256: c1ffd738bc8bb90305337056492ec940ea615c3365e8c01a28d4e2dabb9762ea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zv-col5.ans by zeroVision (GLUE); released in glue-31 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: collected art #5
-# SAUCE Author: zeroVision
-# SAUCE Group: GLUE
-# SAUCE Date: 20000519
-# SAUCE Dimensions: 80x174
-# Lines: 129-174
-# Columns: 1-80
+﻿# Artwork: collected art #5 by zeroVision | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-31-zv-col5-part04
 
 Write-Host '
 [1;30m-[ecstasy menu]-----------------------------------------------------------------[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SAS!ALIE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy05/raw/SAS!ALIE.ANS
-# Source Revision: archive-sha256:2e1c7dd4c451a5d024352ee6b56eba52a2d5ba6a7d73a9cc34cff58fc603ca18
-# Source SHA-256: 32710eb6cff63570bc230ae9800275a4c91c3c807d551e67044fa99d7a77f2dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SAS!ALIE.ANS by sasAfras (apathy); released in apathy05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: alien encounters
-# SAUCE Author: sasAfras
-# SAUCE Group: apathy
-# SAUCE Date: 19951218
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: alien encounters by sasAfras | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy05-sas-alie
 
 Write-Host '
                                      [36m [0;1;33m [0m       [1;33m  ▄▌[0m      [1;33m▄[0m

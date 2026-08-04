@@ -1,18 +1,4 @@
-﻿# Converted from: CL!-LOST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nst_001/raw/CL!-LOST.ANS
-# Source Revision: archive-sha256:73e351b64f3e5af00925276ea27a29359884e7841f4015afd3acb29f2a370d2d
-# Source SHA-256: eaebd5f6e1211eb22458a9c02e6d892b70e6ea1b7a8010caa2c9099329e4a95c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-LOST.ANS by .:(cLEANER):. (.:(nEON^sTRIKE):.); released in nst_001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: .:(lOST^pARADIZE^lOGO):.
-# SAUCE Author: .:(cLEANER):.
-# SAUCE Group: .:(nEON^sTRIKE):.
-# SAUCE Date: 19971128
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: .:(lOST^pARADIZE^lOGO):. by .:(cLEANER):. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nst-001-cl-lost
 
 Write-Host '
            [1;30m▄▄[0m▄▄[1m▄▄▓▄▄[0m▄▄[1;30m▄▄[0m         [1;30m▄▄[0m▄▄[1m▄▄▓▄▄[0m▄▄[1;30m▄▄[0m       [1;30m▄▄[0m▄▄[1m▄▓▄[0m▄▄[1;30m▄▄[0m

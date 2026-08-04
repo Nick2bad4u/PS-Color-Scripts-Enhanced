@@ -1,18 +1,4 @@
-﻿# Converted from: US-HAC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-01/raw/US-HAC.ANS
-# Source Revision: archive-sha256:c4f943c9f8f5c49a2aabdd3612f9f26bd1b04de18aa8de6e38c69a3051111537
-# Source SHA-256: 67f69d7309991fc6bcad0643149b146fc66338a1934fbf6cca9a32f7eb68120b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-HAC.ANS by Alecs + Avenger (bm & nerp); released in nerp-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hacienda
-# SAUCE Author: avenger & alecs
-# SAUCE Group: bm & nerp
-# SAUCE Date: 19970712
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: hacienda by Alecs + Avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-01-us-hac
 
 Write-Host '
 [1;30m[0m[1;30m[0m

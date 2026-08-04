@@ -1,13 +1,4 @@
-﻿# Converted from: TW-THAB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/atm-0294/raw/TW-THAB.ANS
-# Source Revision: archive-sha256:ec69de861bb9c5fa14955a518170ca9a952fbcf9fa8007e351a723feb534c81b
-# Source SHA-256: 21e0e4f1fc56c22015081d7d8e1c0d28a0c96f7a63658c70197e201386d18a14
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TW-THAB.ANS by The Watcher (atm-0294); released in atm-0294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: TW-THAB.ANS by The Watcher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-atm-0294-tw-thab-part01
 
 Write-Host '
      [1;30m▄█████████████████▀▀▀ ▀▀[0m        [31m▄ ▄▄▄▄▄▄▄▄▄[0m        [31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

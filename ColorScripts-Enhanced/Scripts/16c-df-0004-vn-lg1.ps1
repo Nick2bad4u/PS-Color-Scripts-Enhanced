@@ -1,18 +1,4 @@
-﻿# Converted from: VN-LG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/df-0004/raw/VN-LG1.ANS
-# Source Revision: archive-sha256:67203679d779fe212820fa7b395a6dba18055e5a0d6901e90b101261609c0eb5
-# Source SHA-256: 0bfb572d7cc266d196155ce3e88727a249ac19c69654aa936980acd09e96e102
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VN-LG1.ANS by VeNoMouS (vN!) (DeViL FoRCeS); released in df-0004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: dF lOGO!
-# SAUCE Author: VeNoMouS (vN!)
-# SAUCE Group: DeViL FoRCeS
-# SAUCE Date: 19971018
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: dF lOGO! by VeNoMouS (vN!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-df-0004-vn-lg1
 
 Write-Host '
 

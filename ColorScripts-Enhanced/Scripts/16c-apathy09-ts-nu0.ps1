@@ -1,18 +1,4 @@
-﻿# Converted from: TS-NU0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy09/raw/TS-NU0.ANS
-# Source Revision: archive-sha256:4a76e66d96462ed923b8b41dd8e01625078b4c791bda0ef6180f08638853037b
-# Source SHA-256: 1f339c3399172649d2eab7d974f988ccc9de865da4bc469d334f8416bca4efb9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-NU0.ANS by Transient (apathy); released in apathy09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: NU
-# SAUCE Author: Transient
-# SAUCE Group: apathy
-# SAUCE Date: 19960427
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: NU by Transient | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy09-ts-nu0
 
 Write-Host '
  [32mts[0;33m!▄▄[0;1;37;43m░[0;33m▄█▀ ▀ ▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀ ▀ ▀ ▀ ▀▄▀▄▀▄▀▄▀▄▀ ▀ ▀ ▀▄▀▄▀▄▀▄▀▄▀ ▀ ▀ ▀ ▀█▄[0;1;37;43m░[0;33m▄▄   [0m

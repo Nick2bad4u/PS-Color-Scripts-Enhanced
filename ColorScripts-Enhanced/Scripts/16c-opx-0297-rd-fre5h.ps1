@@ -1,18 +1,4 @@
-﻿# Converted from: RD-FRE5H.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0297/raw/RD-FRE5H.ANS
-# Source Revision: archive-sha256:ebdb3432145de923aa3db5c356b5298a48e2bd3cd353301b704b88c85b6a63cb
-# Source SHA-256: 48eded5c2b9cda9c0eaa1a324385666b22d03e433adcdbacbdd1ed28c909f6d7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD-FRE5H.ANS by raider (twilight); released in opx-0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fRESh.
-# SAUCE Author: raider
-# SAUCE Group: twilight
-# SAUCE Date: 19970114
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: fRESh. by raider | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0297-rd-fre5h
 
 Write-Host '
 [30;41m▓▄▄▒    ░░[0;33;41m░░░▒[0;30;43m▀▀[0;33;41m▓▓▓[0;30;43m  [0;31;43m░░[0;30;43m ░░ [0;33;41m░░▓[0;30;43m ▄   ▀    ▐▀▀   ░ [0;1;31;40m░░[0;30;43m░▀ ▀   [0;1;31;40m░░░[0;33;41m█[0;30;43m  ▀▀▌[0;33;41m▓▓▒▒░░░[0;30;41m░░░▄▄▓[0m

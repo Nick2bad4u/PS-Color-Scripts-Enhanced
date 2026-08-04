@@ -1,13 +1,4 @@
-﻿# Converted from: ox-s&.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zeit_02/raw/ox-s%26.ans
-# Source Revision: archive-sha256:e982840417828a62e1aeff459b17fc48750278562ee46820f401f5dfd3bffd7d
-# Source SHA-256: e08a56e2fd9620adc92eddf817baa6398ea5e45bb15e547bb0b9bb1a7e991a3c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ox-s&.ans by 0xel (zeit_02); released in zeit_02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ox-s&.ans by 0xel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zeit-02-ox-s
 
 Write-Host '
 [1m[0;35m[0;1;37m[0m[1m[0;1;35m[0;1;37m[0;35m[0;1;37m[0m[1;35m[0;1;37m[0;1;36m[0;35m[0;1;37m[0mZZZZZ2il:∙''[1;35m _.,,▬▬┐┐┌┌▬▬,,._.dP[0;1;37m   [0;1;36m  ,y↕┘²"^"²┘↕y,   [0;1;37m [0;35m:[0;1;37m [0m:iil2ZZZZZZZZZZZZZZ

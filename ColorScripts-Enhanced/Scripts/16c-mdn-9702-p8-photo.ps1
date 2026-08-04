@@ -1,18 +1,4 @@
-﻿# Converted from: P8-PHOTO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9702/raw/P8-PHOTO.ANS
-# Source Revision: archive-sha256:2bef5839074c598bf0f92bd4e5826154389b8896239a1e15db494b520fb6d9a8
-# Source SHA-256: 5751e9abe9bae63b8121b4c733da6f3aaa3b251120909ce49f131bece3d78345
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P8-PHOTO.ANS by photographer (Maiden Brazil); released in mdn-9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: EXTRA! EXTRA! sOulphuree photo!
-# SAUCE Author: photographer
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19970129
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: EXTRA! EXTRA! sOulphuree photo! by photographer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9702-p8-photo
 
 Write-Host '
             [33msⁿ°ⁿs[0m

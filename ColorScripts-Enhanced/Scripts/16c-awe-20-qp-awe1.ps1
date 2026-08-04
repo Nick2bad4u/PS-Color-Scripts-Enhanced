@@ -1,18 +1,4 @@
-﻿# Converted from: QP-AWE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-20/raw/QP-AWE1.ANS
-# Source Revision: archive-sha256:23bbf66596e3e4f3c4b9e335dc62ccc331634eba04c3d179b73e396fa3971807
-# Source SHA-256: 175c181c37d561a4f1accbb186767a53ad945ca95ae7bef45092a59e471c0a3f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QP-AWE1.ANS by Quip (AWE Lettering Guest); released in awe-20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: AWE Lettering
-# SAUCE Author: Quip
-# SAUCE Group: AWE Lettering Guest
-# SAUCE Date: 19981227
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: AWE Lettering by Quip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-20-qp-awe1
 
 Write-Host '
 [1m[0m                [32m [0m

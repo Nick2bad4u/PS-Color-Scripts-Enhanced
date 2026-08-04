@@ -1,18 +1,4 @@
-﻿# Converted from: U7-LYNX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0897/raw/U7-LYNX.ANS
-# Source Revision: archive-sha256:cabceb59b7b429d8e4c18b37682b5f04003f1a57c83a21398a4e2582b732a549
-# Source SHA-256: f0ea26744dbcc8d56aa788b689e1c796bc8c1c0c81b9811dcec782d4fc3103c0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: U7-LYNX.ANS by undertaker (poffelipoff); released in plf-0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: lYNX bABY!@@
-# SAUCE Author: undertaker
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19970819
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: lYNX bABY!@@ by undertaker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0897-u7-lynx
 
 Write-Host '
       [1;33mL y n x [0m        [1;30m  [0;1;37m█████████▄▄▄█▀▀█[0;1;37;47m▓▓[0;1;37;40m█[0;1;37;47m▒▒░░  [0;1;30;47m▀▀[0;1;30;40m██[0;1;37;40m░[0m        [1;33mL y n x [0m

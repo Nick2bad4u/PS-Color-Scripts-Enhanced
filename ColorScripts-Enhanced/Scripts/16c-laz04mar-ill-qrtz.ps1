@@ -1,18 +1,4 @@
-﻿# Converted from: ILL-QRTZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz04mar/raw/ILL-QRTZ.ANS
-# Source Revision: archive-sha256:44ec2aece59b6e1070eee7535121a4d2aa26d7d69e93852fb8f63376ca44c5f2
-# Source SHA-256: d4247d6da7f1f77fbf2ac5eff57c0924bb4b84a343b8cd6b10d7450c172a8d53
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ILL-QRTZ.ANS by illogic (laz.); released in laz04mar and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Quartz.
-# SAUCE Author: illogic
-# SAUCE Group: laz.
-# SAUCE Date: 19970222
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Quartz. by illogic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz04mar-ill-qrtz
 
 Write-Host '
                                                                    [1;31m▄▄▄▄▄▄▄▄▄▄▄▄[0m

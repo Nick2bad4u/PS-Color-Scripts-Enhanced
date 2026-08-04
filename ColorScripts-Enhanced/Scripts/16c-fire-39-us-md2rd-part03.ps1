@@ -1,20 +1,4 @@
-﻿# Converted from: US-MD2RD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-39/raw/US-MD2RD.ANS
-# Source Revision: archive-sha256:5e57507ce34170a4afb707b1587800d0885fae4776f1271b7b7cee7f71264d9d
-# Source SHA-256: 0b6dc26b93b008386d7e8d7b2deeef0fb9756ecee888e55c1866e0c5baa5ab5f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-MD2RD.ANS by Nail + Tainted (Fire); released in fire-39 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Maid That Raids
-# SAUCE Author: tainted + nail
-# SAUCE Group: Fire
-# SAUCE Date: 20240303
-# SAUCE Dimensions: 80x178
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Fixed version. Shamelessly re-released
-# Lines: 88-133
-# Columns: 1-80
+﻿# Artwork: Maid That Raids by Nail + Tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-39-us-md2rd-part03
 
 Write-Host '
 [37m   [0;1;30m▀▀▀[0;36m▀[0;1;30m▀▀[0;36m▀▀[0;37m    [0;36m▀[0;37m    ▒▒[0;1;30m▐[0m  [1;31;43m▀[0;33m▀[0;37m [0;33m█[0;1;31m█▌[0;1;36;46m▄[0;1;36;40m░[0;1;31;40m▐▄▄▌[0;1;36;46m▄[0;1;36;40m░[0;1;31;40m▐[0;1;31;43m [0;33m▌▌▌[0;37m [0;33m▀[0;37m [0;36m░▓█[0;1;32;46m░▒▓[0;1;32;40m████[0;1;32;46m▓▒░[0;36m▄▄▄▄[0;37m [0;32m▀▀▀▀██▀▄[0;1;32;42m▄▄▄[0;32m▄▄[0m

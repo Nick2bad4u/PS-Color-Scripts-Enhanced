@@ -1,19 +1,4 @@
-﻿# Converted from: CJY-LUCY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0525/raw/CJY-LUCY.ANS
-# Source Revision: archive-sha256:3f1c54fcce63651d0da098cd25cb8253b5a6b2c25c827a57c95e7c0e8210b5fb
-# Source SHA-256: 4f0d3145c5eec05174d2544535c81b727f3f67ea7b9fad71003ddf7cb1149460
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CJY-LUCY.ANS by consolejockey (Mistigris); released in mist0525 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Lucy
-# SAUCE Author: consolejockey
-# SAUCE Group: Mistigris
-# SAUCE Date: 20250530
-# SAUCE Dimensions: 80x150
-# SAUCE Font: IBM VGA
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Lucy by consolejockey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0525-cjy-lucy-part02
 
 Write-Host '
 [37m   [0;34m▀[0;37m [0;34m▀[0;37m [0;34m█▄▀░[0;37m    [0;1;30m▐[0;1;30;47m▓▓▓▓▓▓▒░░▒░░[0;1;37;47m▀▀▀[0;1;37;40m██[0;1;37;47m▀[0m▀ [1;30m▐[0;1;30;47m▓▒░░[0;1;37;47m ░▒▓[0;1;37;40m████████▌[0;33m░░        [0;32m░▒▒░[0;33m   [0;34m░▒▓██▓▒░[0m

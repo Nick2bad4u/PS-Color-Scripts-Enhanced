@@ -1,18 +1,4 @@
-﻿# Converted from: ARL-SBOX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe08/raw/ARL-SBOX.ANS
-# Source Revision: archive-sha256:cfc36d5daeed2f6543814097ace687f378a50215c24a95a0de66b512e3a41b9d
-# Source SHA-256: 6e281fe4dd5c420d8be26e50a31e0c2b05a01dea0a3665089edbc082cbd801c3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARL-SBOX.ANS by arlequin (circe); released in circe08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: s.box
-# SAUCE Author: arlequin
-# SAUCE Group: circe
-# SAUCE Date: 19971227
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: s.box by arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe08-arl-sbox
 
 Write-Host '
                                                [1;30msound[0m    ▄▄[34;47m▀[0;37;40m ▄   [0;1;30;40mpower[0m

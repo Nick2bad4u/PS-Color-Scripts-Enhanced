@@ -1,19 +1,4 @@
-﻿# Converted from: CG-JALP.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9502/raw/CG-JALP.ICE
-# Source Revision: archive-sha256:651d57ec8cfbb7a8c418d666720edd49ef86d48a0b256443452b3132c0397ce3
-# Source SHA-256: c5a55eab20e2b26f1954bfa3132036859dfef0572e96db7f1432fb6c203f23f4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-JALP.ICE by Cheese Grater (iCE); released in ice-9502 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Jalpur
-# SAUCE Author: Cheese Grater
-# SAUCE Group: iCE
-# SAUCE Date: 19950219
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: that's right!  cheesy did an ansi!
-# Lines: 43-84
-# Columns: 1-80
+﻿# Artwork: The Jalpur by Cheese Grater | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9502-cg-jalp-part02
 
 Write-Host '
 [30mShaggs,srebbie,  [0;32m▓ [0;1;32m▄▄[0;30;42m▀[0;1;32;40m▀[0;32m▓[0;1;32;42m▓▓[0;32m█▓▀ [0;30;45m▀ [0;35;40m▓[0;30;45m▀█[0;1;30;40m▀[0m▀▀[1;30m▓[0m▀[1;30;47m▄▓▄▄▄▄[0;1;30;40m█▀▓▀▀▀[0m     [30;44m▀[0;34;40m██[0;34;44m [0;1;34;44m▒░[0;34m█▀[0;30;44m▀[0;34;40m████▀▀██[0;1;34;44m░[0;34m███▀[0m

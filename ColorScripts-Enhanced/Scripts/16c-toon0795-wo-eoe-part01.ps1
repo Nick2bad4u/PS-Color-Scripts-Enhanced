@@ -1,18 +1,4 @@
-﻿# Converted from: WO-EOE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toon0795/raw/WO-EOE.ANS
-# Source Revision: archive-sha256:bbccc4a82016f54ecf3d0de5a108241c8f74bda668aff69f0bedbbe0a900b9a1
-# Source SHA-256: bcd3f73aecb7e6ee6da1f26d3765ce72caf95303afc6642c9cbfb08469484de5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WO-EOE.ANS by WatOr (Toon); released in toon0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: EOE
-# SAUCE Author: WatOr
-# SAUCE Group: Toon
-# SAUCE Date: 19950628
-# SAUCE Dimensions: 80x89
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: EOE by WatOr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toon0795-wo-eoe-part01
 
 Write-Host '
                          [1m▄[0;1;47m▓[0;1;40m▄[0m

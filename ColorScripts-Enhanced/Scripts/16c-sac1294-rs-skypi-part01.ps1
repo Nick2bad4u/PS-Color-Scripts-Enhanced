@@ -1,18 +1,4 @@
-﻿# Converted from: RS-SKYPI.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/sac1294/raw/RS-SKYPI.ANS
-# Source Revision: archive-sha256:4cf7765ee6660556cb900dacf0ec67f070b8e4df414172b5e01733a49d10031f
-# Source SHA-256: 116342ddf98e76b9ba979ffa3b4cf4643dd12df4dc40dc96a481a2dc5f9e2c8c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-SKYPI.ANS by raiser; released in sac1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
-# SAUCE Title: SKYLiGHT + PIC
-# SAUCE Author: RAiSER
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19941128
-# SAUCE Dimensions: 80x25
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: SKYLiGHT + PIC by raiser | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac1294-rs-skypi-part01
 
 Write-Host '
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀[1;30m▀[0m▀▀[1;30m▀▀[0m▀▀▀▀▀▀▀[1m▀[0m▀[1m▀▀[0m▀[1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀▀[1m▀[0m▀[1m▀▀[0m▀▀▀▀▀▀▀▀[1;30m▀[0m▀[1;30m▀▀[0m▀▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

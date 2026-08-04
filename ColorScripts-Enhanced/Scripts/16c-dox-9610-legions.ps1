@@ -1,13 +1,4 @@
-﻿# Converted from: LEGIONS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_9610/raw/LEGIONS.ANS
-# Source Revision: archive-sha256:e7bfbb1fe21c43e3877c5d54f86c9c428cabfb8e80ffec124eab471fa7d587aa
-# Source SHA-256: 31789184a9e8c09b58a0e8e958e6a3aa57309f4484f4b405157fe6e1ad239a21
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LEGIONS.ANS by Soul Trader (dox_9610); released in dox_9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: LEGIONS.ANS by Soul Trader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-9610-legions
 
 Write-Host '
 

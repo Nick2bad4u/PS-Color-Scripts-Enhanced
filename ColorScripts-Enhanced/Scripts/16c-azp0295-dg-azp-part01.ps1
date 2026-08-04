@@ -1,13 +1,4 @@
-﻿# Converted from: DG-AZP!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/azp0295/raw/DG-AZP!.ANS
-# Source Revision: archive-sha256:e9db0f8a76bf775175c4640a46df5a0086d7cd23b5b54479996cbf83e1efc89d
-# Source SHA-256: 503a9e4d492053a422fb047ccb1f1de461e441349455072bd951a9b71be89451
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DG-AZP!.ANS by Dogge (azp0295); released in azp0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: DG-AZP!.ANS by Dogge | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-azp0295-dg-azp-part01
 
 Write-Host '
 [31m██████▒███[0;31;47m█[0;37;41m░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓██████▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░ [0;31;40m▓[0;31;41m [0;31;40m█▓███▒█░[0m

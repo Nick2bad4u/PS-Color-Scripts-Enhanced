@@ -1,18 +1,4 @@
-﻿# Converted from: MW-TM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nland-04/raw/MW-TM.ANS
-# Source Revision: archive-sha256:eab686fd42219ed6c9add6a2f7726008adc5ca3e06c5f87a076203c52842513d
-# Source SHA-256: fe5e8bedab3099d26b442c424bb161e86914d81f1d628b0f00c00fa3bba61054
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MW-TM.ANS by MoonWalkeR (UFO); released in nland-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The - Man
-# SAUCE Author: MoonWalkeR
-# SAUCE Group: UFO
-# SAUCE Date: 19960111
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: The - Man by MoonWalkeR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nland-04-mw-tm
 
 Write-Host '
                                   [1;30m▄▄▄▄▄▄▄ [0m

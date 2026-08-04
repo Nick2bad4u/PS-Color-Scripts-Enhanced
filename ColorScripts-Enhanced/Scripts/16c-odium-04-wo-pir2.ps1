@@ -1,18 +1,4 @@
-﻿# Converted from: WO-PIR2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-04/raw/WO-PIR2.ANS
-# Source Revision: archive-sha256:8dc8586a37ce2081b7e99529b7087f421e6ff8d5ba2d146ef1d30bd490016720
-# Source SHA-256: 5d63c68d3e0648ebfa206d161babbc9a6a9d35e48a64e35ae5c53afab8a2737a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WO-PIR2.ANS by watOr (Odium); released in odium-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: piranha main menu
-# SAUCE Author: watOr
-# SAUCE Group: Odium
-# SAUCE Date: 19960228
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: piranha main menu by watOr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-04-wo-pir2
 
 Write-Host '
                      [1;30m▄[0m [1;30m■[0m [1;30m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PC-DEEP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense13/raw/PC-DEEP.ANS
-# Source Revision: archive-sha256:b0563618478d6216eb6bd83ff569d789b2e87f637bf95d7f88699f5b40df3192
-# Source SHA-256: 633346d25b5372eb96a625bb6eccdef1c47448416f09b28b33b272c91e7a38eb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-DEEP.ANS by Proctologist (SeNSE); released in sense13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Deep
-# SAUCE Author: Proctologist
-# SAUCE Group: SeNSE
-# SAUCE Date: 19980905
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Deep by Proctologist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense13-pc-deep
 
 Write-Host '
        [1m_.,,._[0m                          :                          [1m_.,,._[0m

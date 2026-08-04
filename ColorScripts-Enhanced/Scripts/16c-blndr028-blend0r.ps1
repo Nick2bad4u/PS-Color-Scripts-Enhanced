@@ -1,18 +1,4 @@
-﻿# Converted from: BLEND0R.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr028/raw/BLEND0R.ANS
-# Source Revision: archive-sha256:6270a47e1bed20f2b5496f39177e908c485ceed4df2272e4501bec218de0fddb
-# Source SHA-256: 71c223f88b66877276d17b37cd2a713cf675adbe72dbf2f87901f2f9ceef3886
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BLEND0R.ANS by Zeus II (psst..twilight..); released in blndr028 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: blender ..whatever # it is =)
-# SAUCE Author: Zeus II
-# SAUCE Group: psst..twilight..
-# SAUCE Date: 19970605
-# SAUCE Dimensions: 80x46
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: blender ..whatever # it is =) by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr028-blend0r
 
 Write-Host '
 [1;33m[0m[1;33m[0m

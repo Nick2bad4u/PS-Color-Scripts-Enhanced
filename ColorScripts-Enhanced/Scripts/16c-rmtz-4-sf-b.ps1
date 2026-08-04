@@ -1,13 +1,4 @@
-﻿# Converted from: SF-B.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmtz-4/raw/SF-B.ANS
-# Source Revision: archive-sha256:663feff958343c1493c6d6513da5c0f5391f92fd040a3691f9d1e48fae54b31f
-# Source SHA-256: 723ace2ee8b98688af958b58a126a2d0cf44cfaabd14d402ed5e42eb48a32766
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SF-B.ANS by Spitfire (rmtz-4); released in rmtz-4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: SF-B.ANS by Spitfire | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmtz-4-sf-b
 
 Write-Host '
                           [36m  ░[0;37m [0;36m▄[0;1;36;46m▄[0;36m▀▀▀▀▀█▄[0;37m [0m

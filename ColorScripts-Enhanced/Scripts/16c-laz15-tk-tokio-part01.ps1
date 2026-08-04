@@ -1,19 +1,4 @@
-﻿# Converted from: tk-tokio.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz15/raw/tk-tokio.ans
-# Source Revision: archive-sha256:d35f5b18ac3e8cbe3d6d17eab809a7e050609a8e3cc7d160d14a87c59a191c12
-# Source SHA-256: e3ecf6d3354a26357efa2e1b84d6c1f3bdc94f4671f5f48372eb38cbb5e98919
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tk-tokio.ans by the knight (lazarus); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Tokio
-# SAUCE Author: the knight
-# SAUCE Group: lazarus
-# SAUCE Date: 20220325
-# SAUCE Dimensions: 80x108
-# SAUCE Font: IBM VGA
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Tokio by the knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz15-tk-tokio-part01
 
 Write-Host '
 [1;30;40m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0;1;37;40m  [0;1;30;46m▓[0;1;30;41m█[0m░░[1;30;41m█[0m

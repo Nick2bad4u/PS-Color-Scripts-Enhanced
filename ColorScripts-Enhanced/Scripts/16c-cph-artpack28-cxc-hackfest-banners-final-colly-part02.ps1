@@ -1,13 +1,4 @@
-﻿# Converted from: cxc_hackfest_banners_final_colly.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cph.artpack28/raw/cxc_hackfest_banners_final_colly.ans
-# Source Revision: archive-sha256:c3d8d299aac3650a51574757712fd9f0940b06f7c2d1f7c898188c562f0549bd
-# Source SHA-256: 8a849872aef6d5eadd64e006f9af69abed8d6661058aa14449d3932c69b67b0f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cxc_hackfest_banners_final_colly.ans by Coaxcable (cph.artpack28); released in cph.artpack28 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 24-64
-# Columns: 1-80
+﻿# Artwork: cxc_hackfest_banners_final_colly.ans by Coaxcable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cph-artpack28-cxc-hackfest-banners-final-colly-part02
 
 Write-Host '
                      [36m▄▌[0;37m  ▌[0m

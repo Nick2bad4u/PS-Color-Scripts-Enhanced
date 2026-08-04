@@ -1,19 +1,4 @@
-﻿# Converted from: ale-brownie.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hpm-001/raw/ale-brownie.ans
-# Source Revision: archive-sha256:851f4293cfae53aeeb1a1b544afa6f2027f29ccc66626a7fe6e8803857f004c7
-# Source SHA-256: 09bc048aa23aa3bb3b06b76325541b1eb293f9681f35a269c263c608ed12b9ec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ale-brownie.ans by aleperez (hpm-001); released in hpm-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Browni
-# SAUCE Author: aleperez
-# SAUCE Date: 20220116
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# SAUCE Comments: ne of the best decisions that I have taken in my life was to sav | e Brownie, I'm really happy to share my days with her
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Browni by aleperez | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hpm-001-ale-brownie
 
 Write-Host '
 [33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;30m[0;33m[0;30m[0;33m[0;30m[0m[37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;30m[0;33m[0;30m[0m[37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;30m[0;33m[0;30m[0m[37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;30m[0;33m[0;30m[0m[37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;30m[0;33m[0;30m[0m[37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;33m[0;37m[0;30m[0;33m[0;30m[0m[37m                                                                      [0;1;33;47m▓▓▓▓[0m

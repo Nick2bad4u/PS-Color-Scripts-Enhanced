@@ -1,13 +1,4 @@
-﻿# Converted from: DC-SOUL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/allnc-01/raw/DC-SOUL.ANS
-# Source Revision: archive-sha256:4108b223b68d6a8afa5819b72ab949b76be4a349a20e7048ee062b0f9627a813
-# Source SHA-256: 6873f864896039251b7672973cf95cd00ef077745d525b93c86d60335c31df13
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DC-SOUL.ANS by Dead Calm (allnc-01); released in allnc-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: DC-SOUL.ANS by Dead Calm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-allnc-01-dc-soul-part01
 
 Write-Host '
                   [1;31m▄▄[0;1;31;41m▓▓▒[0;30;41m▀▀[0m

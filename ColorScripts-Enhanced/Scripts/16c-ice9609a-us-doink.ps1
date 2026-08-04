@@ -1,13 +1,4 @@
-﻿# Converted from: US-DOINK.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9609a/raw/US-DOINK.ICE
-# Source Revision: archive-sha256:541cf0b323317a2c01aae16b97d3d5f7ccc5db8dbd14c10b2267c0eefccf97b7
-# Source SHA-256: f837161172684f0b5da86487bd76d38b508dbfe3c9a28ec40e437369a26c60dd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DOINK.ICE by Apox + Clark (ice9609a); released in ice9609a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: US-DOINK.ICE by Apox + Clark | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9609a-us-doink
 
 Write-Host '
 [1;33;43m███████░░▄▄▄▄▄▄▄▀██████████████████████████████████████████████████████████[0;1;33;40m▓▒▒░░[0m

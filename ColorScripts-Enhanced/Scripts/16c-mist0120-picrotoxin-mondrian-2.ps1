@@ -1,17 +1,4 @@
-﻿# Converted from: PICROTOXIN-MONDRIAN-2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0120/raw/PICROTOXIN-MONDRIAN-2.ANS
-# Source Revision: archive-sha256:06a7b91c6785ce045afb663b4afd4ffe46b30537a4b176d253404a090a85ebb6
-# Source SHA-256: 0c4534afe632592c81fb53cb5729763232a24ee8e1f4028e3d534f924ad4525b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PICROTOXIN-MONDRIAN-2.ANS by Picrotoxin (Mistigris); released in mist0120 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Mondrian
-# SAUCE Author: Picrotoxin
-# SAUCE Group: Mistigris
-# SAUCE Date: 20200118
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Mondrian by Picrotoxin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0120-picrotoxin-mondrian-2
 
 Write-Host '
 [38;2;0;0;0;48;2;0;0;0m   [0;1;38;2;255;255;255;48;2;0;0;0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

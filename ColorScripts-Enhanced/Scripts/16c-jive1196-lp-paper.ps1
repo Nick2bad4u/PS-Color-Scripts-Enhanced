@@ -1,15 +1,4 @@
-﻿# Converted from: LP-PAPER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jive1196/raw/LP-PAPER.ANS
-# Source Revision: archive-sha256:74e1c77b15f9f77c425b7a6f94db1ea196521e43a60a356b13371fec7928ab41
-# Source SHA-256: f241ec64a689ffe912db9ec20b83ba92d822bf633e878b1a67ff71945cd67787
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LP-PAPER.ANS by Limpy (jive1196); released in jive1196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: JiVEvIEW menu
-# SAUCE Author: Limpy
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: JiVEvIEW menu by Limpy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jive1196-lp-paper
 
 Write-Host '
 [1;30m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m

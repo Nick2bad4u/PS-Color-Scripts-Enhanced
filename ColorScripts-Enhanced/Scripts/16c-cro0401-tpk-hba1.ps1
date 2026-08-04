@@ -1,13 +1,4 @@
-﻿# Converted from: tpk-HBA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cro0401/raw/tpk-HBA1.ANS
-# Source Revision: archive-sha256:ac85f096dfb94fec72304e0b6b432710ed03509489d174fc0e3e16ec16b340ae
-# Source SHA-256: be73f53376ec88bf8559559ef779fdd59f07524091a935bc183d66908af68300
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tpk-HBA1.ANS by Teepak (cro0401); released in cro0401 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: tpk-HBA1.ANS by Teepak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cro0401-tpk-hba1
 
 Write-Host '
               [36m▄▄▄█████████████████████████████████▄▄▄   [0m      [1;37m             [0m

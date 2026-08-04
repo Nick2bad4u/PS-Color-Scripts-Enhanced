@@ -1,13 +1,4 @@
-﻿# Converted from: DigitalDungeons.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1oo-moon/raw/DigitalDungeons.ans
-# Source Revision: archive-sha256:171e2925602123fe0c10a0ec4407c2834bc26a002fba2fa406825fd80132e138
-# Source SHA-256: 0ec71921dd441e346aef2d8b8cf2778e24b7406ae1b8932847a919e33865ff12
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DigitalDungeons.ans by Miracle (1oo-moon); released in 1oo-moon and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: DigitalDungeons.ans by Miracle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1oo-moon-digitaldungeons
 
 Write-Host '
         [1m░░░░[0m                                      [31m░▓█[0;1;31;41m▄[0;31m█▓▓▒[0m     [31m░░    ░   ░[0m

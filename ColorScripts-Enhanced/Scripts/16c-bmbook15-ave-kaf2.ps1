@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-KAF2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook15/raw/AVE-KAF2.ANS
-# Source Revision: archive-sha256:e54ebc8c52f8d9379c31843d1a642e9eaaf309656353be720cf874920f543492
-# Source SHA-256: 0280fa3e6006daaa3b25f3b32d8e2816ffaf31201810eb77ab6629da92c29324
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-KAF2.ANS by avenger (black maiden); released in bmbook15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: kafkaesk
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19971107
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: kafkaesk by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook15-ave-kaf2
 
 Write-Host '
 [31m▓▀▀[0m   [35m  [0m           [1;30m░▄▄[0;33m▄▄▄▄▄▄▄▄[0m

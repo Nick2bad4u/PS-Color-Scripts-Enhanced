@@ -1,13 +1,4 @@
-﻿# Converted from: 09-EVIL.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9605a/raw/09-EVIL.ICE
-# Source Revision: archive-sha256:cf7acb12a0ec01e1383bf24c3c45a68bc55fde8f0e38cd56180a1936aa9f8089
-# Source SHA-256: ab989197c9b198607c2341524a88931fcadaa6e05d40615506498329607f53f2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-EVIL.ICE by Fluor (ice9605a); released in ice9605a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: 09-EVIL.ICE by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9605a-09-evil
 
 Write-Host '
 [1m   [0;34m [0;1;37m           [0;32m▐▄[0;1;32m▄▄▄▄▄[0;32m▄[0;1;37m              [0;31m▄[0;1;37m            [0m

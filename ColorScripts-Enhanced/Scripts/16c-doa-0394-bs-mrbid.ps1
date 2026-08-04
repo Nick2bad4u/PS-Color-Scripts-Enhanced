@@ -1,13 +1,4 @@
-﻿# Converted from: BS-MRBID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/doa-0394/raw/BS-MRBID.ANS
-# Source Revision: archive-sha256:6acb1d2eee51624338f0056aad11c28c9c4b1d2c458b96e9f37f1242e05022c9
-# Source SHA-256: 842bddec0dfb036c8665e16d2ebbd0a5f085e9f4529c5570202a476a48982fbe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-MRBID.ANS by Brightshadow (doa-0394); released in doa-0394 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: BS-MRBID.ANS by Brightshadow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-doa-0394-bs-mrbid
 
 Write-Host '
 

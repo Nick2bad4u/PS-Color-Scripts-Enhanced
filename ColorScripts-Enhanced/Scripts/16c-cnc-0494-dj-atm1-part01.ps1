@@ -1,13 +1,4 @@
-﻿# Converted from: DJ-ATM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cnc-0494/raw/DJ-ATM1.ANS
-# Source Revision: archive-sha256:a2860c6058bc20deb4b9fe584adc3143209a13f75027fe0542d8e0a5a0f55c58
-# Source SHA-256: 381f41d738048b7c482f2f9601c330f7dd744fcc785740c29f4671a50ac89a40
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DJ-ATM1.ANS by Dr Jekyll (cnc-0494); released in cnc-0494 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: DJ-ATM1.ANS by Dr Jekyll | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cnc-0494-dj-atm1-part01
 
 Write-Host '
                                                                        [31m▀ ▄[0m

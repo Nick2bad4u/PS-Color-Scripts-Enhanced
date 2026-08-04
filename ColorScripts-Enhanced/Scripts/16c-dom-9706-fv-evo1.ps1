@@ -1,18 +1,4 @@
-﻿# Converted from: FV-EVO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dom-9706/raw/FV-EVO1.ANS
-# Source Revision: archive-sha256:a16d91b4075cff760b5038e2a8f1aab02d1965c9e4bbc85ed187b0405326b9b6
-# Source SHA-256: efc8b7fd2385f05d6951eb99b67db9ed9a31a6af74dae0b23340fa9884b44ec9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-EVO1.ANS by Fever (Domino); released in dom-9706 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Evolver
-# SAUCE Author: Fever
-# SAUCE Group: Domino
-# SAUCE Date: 19970605
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Evolver by Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dom-9706-fv-evo1
 
 Write-Host '
 [1;30m▀[0;1;30;46m▓[0;1;30;40m▀[0;1;30;46m▄[0;36m███[0;1;30;46m▄[0;36m██[0;1;30;46m▄[0;36m██[0;1;34;46m░░▀▀[0;36m█[0;1;30;46m ▄[0;36m██[0;1;30;46m▄[0;36m██[0;1;30;46m▄[0;1;30;40m▀[0;1;30;46m▄[0;36m██[0;1;30;46m▄[0;36m██[0;1;30;46m▄[0;36m███[0;1;30;46m▄[0;1;30;40m▀[0;1;30;46m▄[0;36m██[0;1;30;46m▄[0;36m██[0;1;30;46m▄[0;36m█████[0;1;30;46m▄[0;36m██[0;1;30;46m▄[0;36m█████[0;1;30;46m▄[0;36m██[0;1;30;46m▄[0;36m██[0;1;30;46m▄[0;36m██████[0;1;30;46m▄[0;36m██[0;1;30;46m▄[0;36m██[0;1;30;46m▀[0m

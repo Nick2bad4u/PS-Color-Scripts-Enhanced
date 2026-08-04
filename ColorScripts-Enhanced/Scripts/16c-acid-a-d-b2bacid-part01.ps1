@@ -1,13 +1,4 @@
-﻿# Converted from: B2BACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acid_a-d/raw/B2BACID.ANS
-# Source Revision: archive-sha256:0c2c2d0da26e60e3cf50a9f0ddc530332592fd090be0bbe48fac5e181dbe79b5
-# Source SHA-256: bb1b567d224fa3841e455a4125f387c730fe0eb7e9b116b5ef3cd7f781bd7cc5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: B2BACID.ANS by The Malevolent Trickster (acid_a-d); released in acid_a-d and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: B2BACID.ANS by The Malevolent Trickster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acid-a-d-b2bacid-part01
 
 Write-Host '
 

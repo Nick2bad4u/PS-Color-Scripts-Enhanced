@@ -1,18 +1,4 @@
-﻿# Converted from: FV-RILE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile_001/raw/FV-RILE.ANS
-# Source Revision: archive-sha256:f7a8644489c1d011b91477b5b1eab40d9f39b077b89f158a7a0c3d1c032c6d81
-# Source SHA-256: ccaea06fecadf0a1397ec66bc94e9c18362ad5ac153f461e6a3a2d326120dce4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-RILE.ANS by fever (RILE); released in rile_001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: rile rile, smells so bile!
-# SAUCE Author: fever
-# SAUCE Group: RILE
-# SAUCE Date: 19970130
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: rile rile, smells so bile! by fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile-001-fv-rile
 
 Write-Host '
       [36m     [0;37m  [0;30;46m▀▀▀▀ [0;1;37;46m ▄▄▄[0;30;46m▀▀▀▀██[0;36;40m▄ [0;30;46m█[0;36;40m▄▄░[0;30;46m▓[0;36;40m▄▄▄[0m      [36;40m░[0;30;46m▓[0m

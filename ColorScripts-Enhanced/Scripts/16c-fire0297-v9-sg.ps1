@@ -1,18 +1,4 @@
-﻿# Converted from: V9-SG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0297/raw/V9-SG.ANS
-# Source Revision: archive-sha256:12d66e55bc50470ef328e6f9ec21c65dbe558f61a1cf46f5aac359e3cb051dfe
-# Source SHA-256: c03e5be286f130ec169a76625d3753ec315d601b9a80eca5785d920b5c135e01
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: V9-SG.ANS by Vade79 (f1RE); released in fire0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Spinal Gamma
-# SAUCE Author: Vade79
-# SAUCE Group: f1RE
-# SAUCE Date: 19970123
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Spinal Gamma by Vade79 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0297-v9-sg
 
 Write-Host '
                      [36m░░░░░[0;30;46m▓[0m                                  [36;40m░░░░[0;30;46m▓[0;37;40m░░[0;30;47m▓[0m

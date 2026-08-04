@@ -1,13 +1,4 @@
-﻿# Converted from: IZ-PEYOT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0197/raw/IZ-PEYOT.ANS
-# Source Revision: archive-sha256:db16ecaf9a5ba2dcf16f11149d4e3768d3e19930159af1ef0ef2625ea12b3e30
-# Source SHA-256: 20360ee3776105c5dfc8c5971130701c4ac1dd052c82b4b0b554bc511ef00222
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-PEYOT.ANS by Ize (fsn-0197); released in fsn-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: IZ-PEYOT.ANS by Ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0197-iz-peyot
 
 Write-Host '
                                   [32m  [0;37m [0;32m░ ░[0;30;42m▓░[0;32;40m▓[0m

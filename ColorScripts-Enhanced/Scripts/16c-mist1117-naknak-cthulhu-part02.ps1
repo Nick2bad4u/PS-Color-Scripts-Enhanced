@@ -1,19 +1,4 @@
-﻿# Converted from: NAKNAK-CTHULHU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1117/raw/NAKNAK-CTHULHU.ANS
-# Source Revision: archive-sha256:979768c9a54f8ce85946b9c9bdf7d87c21099fb07a78a5c5970be22e943a4c52
-# Source SHA-256: 0cad770f8f35bacae720dd8f7795a9463f6e2b9df74dd3e3a9c2a49ad6b6add1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NAKNAK-CTHULHU.ANS by Nak (Mistigris); released in mist1117 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Self portrait as Cthulhu, 2006
-# SAUCE Author: Nak
-# SAUCE Group: Mistigris
-# SAUCE Date: 20171028
-# SAUCE Dimensions: 80x135
-# SAUCE Font: IBM VGA
-# Lines: 45-90
-# Columns: 1-80
+﻿# Artwork: Self portrait as Cthulhu, 2006 by Nak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1117-naknak-cthulhu-part02
 
 Write-Host '
  [1;30m░[0m  [1;30m░[0m  [32m███▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░[0;37m [0;32m░░░░░░░░[0;37m [0;32m░[0;37m [0;32m░[0;37m [0;32m░[0;37m [0;32m░░[0;37m [0;32m░[0;37m [0;32m░░░░[0;37m  [0;1;30m░[0m

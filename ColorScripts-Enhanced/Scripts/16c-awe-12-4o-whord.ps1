@@ -1,17 +1,4 @@
-﻿# Converted from: 4O-WHORD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-12/raw/4O-WHORD.ANS
-# Source Revision: archive-sha256:5c96c14e912296494a464a42e768321452d811693cf172945a9502eb4396c8bb
-# Source SHA-256: 676e1033c5ee6ff84e49ed942d7bb07466fd21cfb8c64e0d089627d3c711b3dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 4O-WHORD.ANS by Mr4tune (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Whord
-# SAUCE Author: Mr4tune
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: Whord by Mr4tune | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-12-4o-whord
 
 Write-Host '
 [30ms[0m                                     [1;30m░░ [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MJ-FLUPH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/forge_07/raw/MJ-FLUPH.ANS
-# Source Revision: archive-sha256:31988dbb0f8ac354fe2aab07b60dc99ad539514c181e9e9b1d3e0cda8369a182
-# Source SHA-256: 00eea5542d8602375aaf70679b659e9354857aecf9ff1f81eb8ac250c6ed2ed2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MJ-FLUPH.ANS by majiCk (ins/frg/sphere/blur); released in forge_07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fluph ad
-# SAUCE Author: majiCk
-# SAUCE Group: ins/frg/sphere/blur
-# SAUCE Date: 19960610
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: fluph ad by majiCk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-forge-07-mj-fluph
 
 Write-Host '
                [34m▐[0m

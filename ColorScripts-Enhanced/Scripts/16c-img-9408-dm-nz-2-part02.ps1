@@ -1,13 +1,4 @@
-﻿# Converted from: DM-NZ_2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/img-9408/raw/DM-NZ_2.ANS
-# Source Revision: archive-sha256:3b60cd0224e41b40e0e3d80c8a229cb6cc245fde84602ab9a04bbddec55d0b51
-# Source SHA-256: fa5ae19519a6bcabb460cc098eef0fb8c73352765faa039c9e8ac2196e657a24
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DM-NZ_2.ANS by Darkman (img-9408); released in img-9408 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: DM-NZ_2.ANS by Darkman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-img-9408-dm-nz-2-part02
 
 Write-Host '
       [1;30m▄▄▄[0;1;30;45m▓▓░▒▒▒▓▓██[0;1;30m▄  [0;31m██████[0;1;30;41m▐[0m    [1;35m▐[0;1;35;45m▒░[0;1;30;45m░▒▓▒░░░░░▒▓▓▓▓▒▒░░[0;35m████████████████[0;1;30;45m░░░░░░░░░░[0m

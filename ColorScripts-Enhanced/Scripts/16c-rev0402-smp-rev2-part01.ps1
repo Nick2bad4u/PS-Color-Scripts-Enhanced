@@ -1,18 +1,4 @@
-﻿# Converted from: Smp-rev2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0402/raw/Smp-rev2.ans
-# Source Revision: archive-sha256:19898cc2febb6deadccf50832dc421b4f362a33c899e27278bafd225bbc2d4d4
-# Source SHA-256: 563f07123d7e92dba3a77c52139254be58cab38dc392d4a75d092d1213f499fe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Smp-rev2.ans by milkmang (the legion); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: pacbell
-# SAUCE Author: milkmang
-# SAUCE Group: the legion
-# SAUCE Date: 20020412
-# SAUCE Dimensions: 80x60
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: pacbell by milkmang | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0402-smp-rev2-part01
 
 Write-Host '
 [1m[0;1;33m[0;1;37m[0m

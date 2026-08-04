@@ -1,18 +1,4 @@
-﻿# Converted from: ZV-THR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper04/raw/ZV-THR.ANS
-# Source Revision: archive-sha256:80df5b962e79c7e1df6d776b244f2783526ab7713c133db68d5f1c8d518678b1
-# Source SHA-256: 54cfd792112894fb389e98b5a71398b37f4cf4311460160b1bbf08229b964f5d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZV-THR.ANS by zeroVision (jasper); released in jasper04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: BlackThursday.header
-# SAUCE Author: zeroVision
-# SAUCE Group: jasper
-# SAUCE Date: 20020308
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: BlackThursday.header by zeroVision | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper04-zv-thr
 
 Write-Host '
 [31m███████▀ [0;1;37m▄[0m [31m████▀[0;37m [0;1;32m▄[0;1;32;42m▓▒░░[0;32m█▄[0;31m▀▓▌[0;1;32m▐▄[0m [31m▀███████████▀[0m   [1;30m▄[0;1;30;47m▓▒░[0m█[1;47m   ░░[0m█████[1;30;47m░▒▓[0;1;30;40m▄[0m [1;30m▀█[0m   [1;30m▀█▄  [0;31m▀███[0m

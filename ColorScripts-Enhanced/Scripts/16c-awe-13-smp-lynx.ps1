@@ -1,18 +1,4 @@
-﻿# Converted from: SMP-LYNX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-13/raw/SMP-LYNX.ANS
-# Source Revision: archive-sha256:fab7f52e9d735740432e5cc1693a7c3574c7cc669fe711a2863770d2425cce92
-# Source SHA-256: b9ae8f24c55ca9cffae3cb0259ec73150bed3dbece3a58f61c087e1ccd11c849
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-LYNX.ANS by Shrimp (AWE Lettering); released in awe-13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Lynx
-# SAUCE Author: Shrimp
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19960123
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Lynx by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-13-smp-lynx
 
 Write-Host '
                ▄            ▄▌▄▄▄ ▄                     [35m [0m               [1;31msh[0;1;35mri[0;35mmp[0m

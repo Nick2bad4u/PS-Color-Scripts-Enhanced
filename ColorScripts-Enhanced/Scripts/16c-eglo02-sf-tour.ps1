@@ -1,18 +1,4 @@
-﻿# Converted from: SF-TOUR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eglo02/raw/SF-TOUR.ANS
-# Source Revision: archive-sha256:d862af4560c46a8b2f9b7734dc1d7a739f807ae1a774cef5e941153df9ee1fb2
-# Source SHA-256: 4d2c33a25f309fba258a7ef6de8a6370c663e45aee4b09f008cb99c9c87fd206
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SF-TOUR.ANS by Shaft (Everglo Empire); released in eglo02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Tourettes issue #3
-# SAUCE Author: Shaft
-# SAUCE Group: Everglo Empire
-# SAUCE Date: 19970726
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Tourettes issue #3 by Shaft | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eglo02-sf-tour
 
 Write-Host '
 [1;34;47m░▒▒▓▓[0;1;34;40m█▓▀▀[0;33m▄▄▄▄[0;1;33;43m  ░ [0;1;37;43m░[0;1;33;43m░ [0;33m▄▄[0;1;34m ▀░ [0;1;30m [0;33m▄▄▄▄▄█[0;1;37;43m░[0;1;33;43m░[0;33m▀▀ ▄▄▄[0;1;30m [0;1;34m▀▓[0;1;34;47m▓▒[0;1;30;40m [0;1;34;47m▓▒[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[1;34;47m▄ [0m

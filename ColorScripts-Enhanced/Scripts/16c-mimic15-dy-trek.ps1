@@ -1,13 +1,4 @@
-﻿# Converted from: dy-trek.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic15/raw/dy-trek.ans
-# Source Revision: archive-sha256:b2a15ba740dfff25a7d78e41d79c57a71249121607b593efbce77bb6f1c95d97
-# Source SHA-256: 05f73da207e93359c52e268577f61a2cd399a8572331e0275d37430e86526a1b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: dy-trek.ans by Discyple (mimic15); released in mimic15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: dy-trek.ans by Discyple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic15-dy-trek
 
 Write-Host '
                  [1;31m.┌s┐.[0m

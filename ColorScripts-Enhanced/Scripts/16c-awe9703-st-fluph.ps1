@@ -1,17 +1,4 @@
-﻿# Converted from: ST-FLUPH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9703/raw/ST-FLUPH.ANS
-# Source Revision: archive-sha256:a9939674ffea8dfd0fb24f05e2f11874539fc93155c2d5ed5e55e91f76634858
-# Source SHA-256: 55655e9432d01ca65d33f2c0efd4679de3eb8d6bba97aa256ed6d73fde84b23d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-FLUPH.ANS by Splatt (AWE Lettering); released in awe9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fluph
-# SAUCE Author: Splatt
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Fluph by Splatt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9703-st-fluph
 
 Write-Host '
 

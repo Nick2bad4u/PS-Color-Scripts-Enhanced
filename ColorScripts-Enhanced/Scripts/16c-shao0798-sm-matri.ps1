@@ -1,17 +1,4 @@
-﻿# Converted from: SM-MATRI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shao0798/raw/SM-MATRI.ANS
-# Source Revision: archive-sha256:a305297ecf3ccbbac0d7a6bb9b330bd14712e9e5ab5b2c38800bf3289c458ebd
-# Source SHA-256: 3e735c2a12bf7bf298cf4209a177591fc0c9a5fd017d71c235c02dc4a56da845
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-MATRI.ANS by Smokey (Shaolin's Finest); released in shao0798 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Matrix
-# SAUCE Author: Smokey
-# SAUCE Group: Shaolin's Finest
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Matrix by Smokey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shao0798-sm-matri
 
 Write-Host '
 [1;34;44m▓▓█████▐███▀█▀▀▀▀▓▓█▀ ▀[0;34m█▀▀ [0;33m▄▄▄▄[0;34m ▀█[0;1;34;44m░▓██▌▀▀[0;34m█▀▀▀█[0;1;34;44m▀▀▐██▓░ [0;34m▄▀█[0;1;34;44m  [0;34m▀[0;1;34;44m  [0;34m▄▀█[0;1;34;44m▀▓█▄[0;34m█▄  [0;35m▀█[0;1;35;45m░░[0;35m█▄ [0m

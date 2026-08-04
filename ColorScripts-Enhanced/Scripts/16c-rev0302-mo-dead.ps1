@@ -1,18 +1,4 @@
-﻿# Converted from: MO-DEAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0302/raw/MO-DEAD.ANS
-# Source Revision: archive-sha256:7b2619e0400d7382d19d38767873337eae71942dd319abc1998c71f4a968776f
-# Source SHA-256: dcc3bcfae186abd15baa02c2940f739d6a42c8146ec456ee1609a064459a0859
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MO-DEAD.ANS by magnatOp (Revival 2002); released in rev0302 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Dead
-# SAUCE Author: magnatOp
-# SAUCE Group: Revival 2002
-# SAUCE Date: 20020314
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Dead by magnatOp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0302-mo-dead
 
 Write-Host '
          [1m▄▄▄▄▄[0m

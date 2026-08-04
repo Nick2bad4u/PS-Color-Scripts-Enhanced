@@ -1,13 +1,4 @@
-﻿# Converted from: REP-GRD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/karma-06/raw/REP-GRD.ANS
-# Source Revision: archive-sha256:2afed798090a9e0451a4ed3c68825b949462a49ff2944730c37ee015f44f49d5
-# Source SHA-256: 8c2e5b92df43d9bf1c1dd5945e34535f482fad379a07cda38970d31a329fab20
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: REP-GRD.ANS by Reptical (karma-06); released in karma-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: REP-GRD.ANS by Reptical | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-karma-06-rep-grd
 
 Write-Host '
                                                    [1;34m        [0;35m   [0;1;34m [0m

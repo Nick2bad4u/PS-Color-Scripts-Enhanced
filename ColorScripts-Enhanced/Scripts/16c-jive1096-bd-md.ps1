@@ -1,15 +1,4 @@
-﻿# Converted from: BD-MD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jive1096/raw/BD-MD.ANS
-# Source Revision: archive-sha256:4088bb5774f9b38859804abb70d54fee1333f0bbe32acb21357a9f799a1418d7
-# Source SHA-256: f19102cd851ba608a7a9cf500a7aec6b238f82f2e6b5747470c469587b356842
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BD-MD.ANS by Blood (jive1096); released in jive1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: M.D.
-# SAUCE Author: Blood
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: M.D. by Blood | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jive1096-bd-md
 
 Write-Host '
                         [35m▄▄███▄▄ ▄▄█████▄▄    [0;34m▄▄████▄▄[0m

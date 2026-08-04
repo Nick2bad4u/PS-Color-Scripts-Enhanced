@@ -1,18 +1,4 @@
-﻿# Converted from: TE-SIMP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira9807/raw/TE-SIMP1.ANS
-# Source Revision: archive-sha256:c471c4d36ee5bf845811666c0e7a6f5bfba6ac001a5bbd5053c14dd8e5728ef2
-# Source SHA-256: f9f946a098f118bf675aa3251ba1e08d34a8767efd00102cc777dc816b483f52
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-SIMP1.ANS by thext (irato); released in ira9807 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Suicidal Impulsion
-# SAUCE Author: thext
-# SAUCE Group: irato
-# SAUCE Date: 19980608
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Suicidal Impulsion by thext | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira9807-te-simp1
 
 Write-Host '
   [34m   ▄■▀[0;1;34;44m░░▓▓▓[0;1;34;46m▓▓▓▀[0m [1;34;44m▓[0;1;34;46m▓▓▓[0;34m [0;1;34;44m░[0;1;34;46m▓▄[0m [34m▀[0;1;34m▀▀[0;36m▀[0;37m [0;1;34m▄■▀▀▀[0;1;34;46m▓▓▄[0;34m  [0;1;34m▀[0;1;34;46m▓▀[0m [1;34;44m ░░▓▓[0;1;34;40m▀[0;36m■▄[0;37m   [0;34m [0;1;34;44m▓[0;1;34;46m▓▓▄[0m    [1;34;44m ░[0;1;34;40m▄[0;36m▄▄[0m

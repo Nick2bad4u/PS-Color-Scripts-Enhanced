@@ -1,13 +1,4 @@
-﻿# Converted from: TE-GOOP2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9606a/raw/TE-GOOP2.ICE
-# Source Revision: archive-sha256:5e6dcb16553010578f6a54fc5ab7554ad5fc1d41913968e4935ca2f10c08a8a7
-# Source SHA-256: 5973408b85487d12070a4167a2d05ae05a68e256e83fcb177d0261485ff01ba7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-GOOP2.ICE by Tetanus (ice9606a); released in ice9606a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: TE-GOOP2.ICE by Tetanus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9606a-te-goop2
 
 Write-Host '
 [1;47m▓[0m  [33m■   [0;1;33m▀[0;1;33;47m▒[0;1;33;40m▄ [0;1;37;40m▀██[0;1;37;47m▓[0;1;37;40m▌ [0;1;33;40m▐[0;1;33;43m▓[0;1;33;40m▌▐[0;1;33;43m▓[0;1;33;40m██ [0;1;37;40m▄[0;1;37;47m▓▓▒░[0m▌[1;33m▐ [0;1;33;47m▓▓▓▒▒▓▓[0m [1;33m███  [0;33m▐[0;1;33;43m░[0;33m█  ▀[0;1;37m▄ [0;33m▀ [0;1;37;47m▓[0;1;37;40m▌[0;33m▐[0;1;33;43m░[0m [1m▐[0;1;47m▓[0;1;40m█ [0;1;47m▓[0;1;40m███▄▀[0;1;47m▓▓▒▒░░  [0;1;37;47m [0m

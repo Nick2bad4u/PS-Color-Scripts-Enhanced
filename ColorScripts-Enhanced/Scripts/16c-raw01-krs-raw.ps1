@@ -1,17 +1,4 @@
-﻿# Converted from: KRS-RAW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/raw01/raw/KRS-RAW.ANS
-# Source Revision: archive-sha256:68018d98da2353ea67bd0935370f9f9e7167a56c319420d702baa29dd9d82b28
-# Source SHA-256: c062e9ba889a394bd1505a2f4067badb5e8e321c06090286a6b2ddf8b974f4a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KRS-RAW.ANS by krisis (raw01); released in raw01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: (guest) raw97
-# SAUCE Author: krisis
-# SAUCE Date: 19970328
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: (guest) raw97 by krisis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-raw01-krs-raw
 
 Write-Host '
                    [34m▄[0;1;34;44m▄[0;34m▄▄[0m        [34m▄[0;1;34;44m ▄[0;34m████[0;1;34;44m▄[0;34m▀▀▀▀██[0;1;34;44m░    ▄  [0;34m▄▄▄▄▄ [0m

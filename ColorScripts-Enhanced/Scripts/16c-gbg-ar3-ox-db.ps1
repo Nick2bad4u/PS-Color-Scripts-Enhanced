@@ -1,13 +1,4 @@
-﻿# Converted from: OX-DB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gbg-ar3/raw/OX-DB.ANS
-# Source Revision: archive-sha256:1849aab945ef52ceb4ff8720007f9e2606616602f1538b421204561fb84c8a4f
-# Source SHA-256: 833d9e2d9c4fd36ccda4bc6e44e7287aabf5f7e4b82e957319c85fe612759c41
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OX-DB.ANS by Orcx (gbg-ar3); released in gbg-ar3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: OX-DB.ANS by Orcx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gbg-ar3-ox-db
 
 Write-Host '
 [34m.,s%S$$$[0;37m [0;1;34m.,S$$$$$$$$$$$$$S'' [0m [1;34m,s$$$s,[0m [1;34m$$$$$$$$$d [0m    [1;34m ''S$$$$$$$$$$$$$S,.[0m [34m$$$S%s,.[0m

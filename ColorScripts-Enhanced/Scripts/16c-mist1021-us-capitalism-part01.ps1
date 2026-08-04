@@ -1,19 +1,4 @@
-﻿# Converted from: US-CAPITALISM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1021/raw/US-CAPITALISM.ANS
-# Source Revision: archive-sha256:64634d001e2a6c18446bf552376701feb95a4ac9dffd53692196da98b42e43bd
-# Source SHA-256: e300f32ade83bd866300a5e1ebb3b97d8d92cb00ba6b7e9dbf11f1d4f2971566
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CAPITALISM.ANS by Zeus Ii + LDA (Mistigris); released in mist1021 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: nightmare fuel
-# SAUCE Author: Zeus II / LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20211023
-# SAUCE Dimensions: 80x210
-# SAUCE Font: IBM VGA
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: nightmare fuel by Zeus Ii + LDA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1021-us-capitalism-part01
 
 Write-Host '
 

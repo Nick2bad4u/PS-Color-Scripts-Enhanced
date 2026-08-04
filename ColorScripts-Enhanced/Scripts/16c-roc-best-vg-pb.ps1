@@ -1,18 +1,4 @@
-﻿# Converted from: VG-PB!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roc-best/raw/VG-PB!.ANS
-# Source Revision: archive-sha256:ed2172be4f351fbbe490297eada190fa8af16bee5a8ce8834dea50cd318904c2
-# Source SHA-256: a0f9db666f0a82343971acac82378ded3dab3eee799e8d9133495533094d3783
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VG-PB!.ANS by Voltage (ROC); released in roc-best and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Plan B
-# SAUCE Author: Voltage
-# SAUCE Group: ROC
-# SAUCE Date: 19950924
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Plan B by Voltage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roc-best-vg-pb
 
 Write-Host '
 [1;34m▐████▌[0;1;30m▐▌[0;1;34m▐██████████████████████████▀▀▀▀[0;30m▄[0;1;30m▓[0m [1;34m██████████████████████▀▀▀[0;1;37m▄▄▄▄▄[0;1;34m▀▀██████[0m

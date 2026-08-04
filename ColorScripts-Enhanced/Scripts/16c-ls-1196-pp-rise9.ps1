@@ -1,18 +1,4 @@
-﻿# Converted from: PP-RISE9.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ls-1196/raw/PP-RISE9.ANS
-# Source Revision: archive-sha256:718178e922daa94fdced53d32f23831075a54e6f9d2a5d01df73e88ec78ba407
-# Source SHA-256: 6d9d845e157f7e23574ff54c54ccee5c44985bc0ca9c65fcb2edb481c3a6d8c8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PP-RISE9.ANS by phorce phed (leper society); released in ls-1196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: rise #9
-# SAUCE Author: phorce phed
-# SAUCE Group: leper society
-# SAUCE Date: 19961114
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: rise #9 by phorce phed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ls-1196-pp-rise9
 
 Write-Host '
 [1;35;41m▄[0;1;31;41m▄[0;31m▄▄▄  [0;37m [0;1;37m     [0m [1m [0m [1m         [0m

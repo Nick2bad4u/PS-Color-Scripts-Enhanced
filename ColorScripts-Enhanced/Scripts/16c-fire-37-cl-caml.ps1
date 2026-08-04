@@ -1,19 +1,4 @@
-﻿# Converted from: CL!-CAML.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-37/raw/CL!-CAML.ANS
-# Source Revision: archive-sha256:42913eb56742cc8575f96af5b8a027e63b5172fdb84271b8ac973c7820ea43ef
-# Source SHA-256: 3f70bf72dde57f832a734d3f22fad2e10726649d2cc576bf4d37a57ed760b8dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-CAML.ANS by Cleaner (Fire); released in fire-37 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Caml Light (July 2023)
-# SAUCE Author: Cleaner
-# SAUCE Group: Fire
-# SAUCE Date: 20230707
-# SAUCE Dimensions: 80x20
-# SAUCE Font: IBM VGA
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Caml Light (July 2023) by Cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-37-cl-caml
 
 Write-Host '
         [1;38;2;87;87;255;48;2;0;0;0m▄ [0;38;2;171;0;171;48;2;0;0;0m▀▀[0;1;38;2;87;87;255;48;2;0;0;0m [0;38;2;171;171;171;48;2;0;0;0m [0;1;38;2;87;87;255;48;2;0;0;0m▀[0;38;2;171;171;171;48;2;0;0;0m [0;1;38;2;87;87;255;48;2;0;0;0m▀▀█[0m      [1;38;2;87;87;255;48;2;0;0;0m▄ [0;38;2;171;0;171;48;2;0;0;0m▀▀[0;1;38;2;87;87;255;48;2;0;0;0m  ▀▀▀[0;38;2;171;171;171;48;2;0;0;0m [0;1;38;2;87;87;255;48;2;0;0;0m▀▀█    █▀▀ ▀▄[0m     [1;38;2;87;87;255;48;2;0;0;0m▄▀▀▀ █  █ ▀▀▀█[0m

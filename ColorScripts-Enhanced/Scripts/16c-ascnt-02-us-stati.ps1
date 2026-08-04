@@ -1,18 +1,4 @@
-﻿# Converted from: US-STATI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ascnt-02/raw/US-STATI.ANS
-# Source Revision: archive-sha256:941ef0ca832bfffcbb0345c39567a2df1704a250fe70a6052dbdbb0076b1c12b
-# Source SHA-256: aaf92d502110757dd440d22a435819dbf8f93908413da68eacee820670ddd951
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-STATI.ANS by Phlud + Paradox (Ascent); released in ascnt-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Phlud/Paradawx Joint Ans33
-# SAUCE Author: Phlud/Paradawx
-# SAUCE Group: Ascent
-# SAUCE Date: 19961109
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Phlud/Paradawx Joint Ans33 by Phlud + Paradox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ascnt-02-us-stati
 
 Write-Host '
                                                                [1;30m┌∙·.[0m

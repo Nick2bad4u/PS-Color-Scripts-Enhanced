@@ -1,18 +1,4 @@
-﻿# Converted from: NZ-GRAPE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-30/raw/NZ-GRAPE.ANS
-# Source Revision: archive-sha256:3b54a3ca5cf24b49daaa164f9b343386c409e97270d30a4eb2997d0a7e0901dd
-# Source SHA-256: 8e338263617cb121da4fc95a109ab8a7935334291a24048c58fec35975dbbadd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NZ-GRAPE.ANS by noize (fire); released in fire-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: grape
-# SAUCE Author: noize
-# SAUCE Group: fire
-# SAUCE Date: 19971103
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: grape by noize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-30-nz-grape
 
 Write-Host '
 

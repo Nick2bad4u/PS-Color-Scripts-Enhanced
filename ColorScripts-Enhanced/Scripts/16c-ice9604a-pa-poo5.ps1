@@ -1,18 +1,4 @@
-﻿# Converted from: PA-POO5.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9604a/raw/PA-POO5.ICE
-# Source Revision: archive-sha256:a8f8a3430f1223583f5ba829d23fcb523e4712909ac7211db98ebd0249624ef2
-# Source SHA-256: 7037e22eaa21ec117e89af18e68b645c1acf7e8d9185e475cced7b722bc7aedc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PA-POO5.ICE by Parasite (iCE); released in ice9604a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Poo
-# SAUCE Author: Parasite
-# SAUCE Group: iCE
-# SAUCE Date: 19960427
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Poo by Parasite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9604a-pa-poo5
 
 Write-Host '
                [1;30m▀[0m [1;30m▄[0m        [1;32m▄[0m        [1;30m           [0m   [1;30m▀[0m [1;30m▄[0m        [1;30m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MA-FORG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-12/raw/MA-FORG.ANS
-# Source Revision: archive-sha256:5c96c14e912296494a464a42e768321452d811693cf172945a9502eb4396c8bb
-# Source SHA-256: ac2650848b55bd07f0b8e5703a5a10fed7db437e0eb6cd14e49797080d1ae8a6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MA-FORG.ANS by Mass Murderer (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Unforgiven
-# SAUCE Author: Mass Murderer
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970928
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Unforgiven by Mass Murderer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-12-ma-forg
 
 Write-Host '
 [1;30m[0m[1;30m[0m             [1m▬[0;36m [0m            [37m [0;1;31m░[0m [1mU N 4 G I V E N[0;1;30m      [0m               [36m [0m          [1;33m░░[0;1;30m [0m

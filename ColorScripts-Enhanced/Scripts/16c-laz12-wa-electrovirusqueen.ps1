@@ -1,19 +1,4 @@
-﻿# Converted from: wa-electrovirusqueen.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz12/raw/wa-electrovirusqueen.ans
-# Source Revision: archive-sha256:a144f6a13f8495aad16f3fcaf95ff5b0bc91807c93dbcb455f2b655b9f9c0dd9
-# Source SHA-256: 20b5b69e14a31078335e0a05a836f0c6605febabcdf8cbaf2f300684751c5312
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-electrovirusqueen.ans by warpus (LAZARUS); released in laz12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Electrovirus Queen
-# SAUCE Author: warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20200812
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: The Electrovirus Queen by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz12-wa-electrovirusqueen
 
 Write-Host '
 [1;31m▓▓▓▓▓▓▓▓▓▓[0;33m [0;1;33m▒[0m▓ ░ ░     [1;31m▄[0;1;31;45m▓▓▒ [0;35m▄[0;1;30m   ▄■[0;35m         [0;31m▄[0;35m▄▄▐▓░[0;1;35m   [0;31m▓[0;35;41m█[0;35;40m██[0;35;41m████▓[0;31;45m░▓[0;31;40m██▄       [0;30;40m▓[0;1;30;40m│   ▒▒▒[0m

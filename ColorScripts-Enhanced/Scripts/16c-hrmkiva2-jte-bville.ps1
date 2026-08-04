@@ -1,18 +1,4 @@
-﻿# Converted from: JTE-BVILLE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hrmkiva2/raw/JTE-BVILLE.ANS
-# Source Revision: archive-sha256:abc573be699b490f9317d70002a528632e59fc3fddf316663449886fd8c21a04
-# Source SHA-256: 55fc3415ff54d3664261f0400e1589f08d153171a04419f01f54181f4a8ce33f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JTE-BVILLE.ANS by Jate (HiRMU); released in hrmkiva2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Baudville BBS
-# SAUCE Author: Jate
-# SAUCE Group: HiRMU
-# SAUCE Date: 19961110
-# SAUCE Font: IBM VGA
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: Baudville BBS by Jate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hrmkiva2-jte-bville
 
 Write-Host '
 [1;47m ░▒▓[0;1;40m██[0;1;47m▓[0;1;40m██[0;1;47m▓▒░ ░▄▄ ░▓[0;1;40m███[0;1;47m▓[0;1;40m███[0;1;47m▀▀▓▒░░ ▓[0;1;40m█[0;1;34;47m░█████[0;1;34;40m██[0;1;34;44m▓▓▓▒▒▒▒▒▒░░░░    [0;30;44m░░░░░░▒▒▒[0;34;40m▒▒▒[0;30;44m▓▓▓[0;34;40m░░░░[0;37;40m [0m

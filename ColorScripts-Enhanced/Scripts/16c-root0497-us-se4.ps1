@@ -1,18 +1,4 @@
-﻿# Converted from: US-SE4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0497/raw/US-SE4.ANS
-# Source Revision: archive-sha256:73d4445ab8a07d3fe160d256052163ed66b2081a0bebb59b18ae9b36e30223e0
-# Source SHA-256: ac63ce1d139664ee4650701437f07a3cdb6875e42113c69dafd9552290d97ac0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SE4.ANS by Fractal + Samurai (Root); released in root0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Spilled Entrails
-# SAUCE Author: Fractal/Samauri
-# SAUCE Group: Root
-# SAUCE Date: 19970403
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Spilled Entrails by Fractal + Samurai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0497-us-se4
 
 Write-Host '
      [34m▄[0;1;34m▄▄▄▌[0m            [33m▄▄▄▄▄▄▄▌ ▄▄▄▐█▀███[0;1;33;43m▄[0;33m▄▄▄[0m              [33;44m [0;37;40m [0;34;40m▄▄▄▄▄▄▄[0m

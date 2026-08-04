@@ -1,18 +1,4 @@
-﻿# Converted from: PX~CONF2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fld9612/raw/PX~CONF2.ANS
-# Source Revision: archive-sha256:398e960abe90b9818bfc3a6f74dd54965f44f4021cfa626535308061d6595a9e
-# Source SHA-256: 721b97bc987bedfa32b3c586c1263ed7a79ed2dc7c8f6ff9bff9df02c7ab5b65
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PX~CONF2.ANS by perplexer (f  l uidiflu i  d); released in fld9612 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: area selector
-# SAUCE Author: perplexer
-# SAUCE Group: f  l uidiflu i  d
-# SAUCE Date: 19800606
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: area selector by perplexer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fld9612-px-conf2
 
 Write-Host '
 [1;33m                        [0m▄▄[1;47m▄█[0;1;40m▀▓▀▀▀[0;1;47m▀█[0;1;40m▀[0m▄[1;47m▄█[0;1;40m█▀▓▀[0;1;47m▀[0;1;40m▄[0m▀[1;47m▀[0;1;40m█▀▀▀▀██▄  ▄█▓▀▀▀▀█▄[0;30m••••••••••••••[0m

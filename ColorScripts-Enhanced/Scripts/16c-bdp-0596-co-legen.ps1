@@ -1,18 +1,4 @@
-﻿# Converted from: CO-LEGEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bdp-0596/raw/CO-LEGEN.ANS
-# Source Revision: archive-sha256:c585407c7da432de8b278021a42088d2314fe9c2fa3b5517b4760e8c74fd8742
-# Source SHA-256: 45c8b233f4b3f6c14d69f1d53ef056c694af1469f3d245950c7f814f6b37460d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CO-LEGEN.ANS by Coeffey (BdP); released in bdp-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Legend
-# SAUCE Author: Coeffey
-# SAUCE Group: BdP
-# SAUCE Date: 19960415
-# SAUCE Dimensions: 80x47
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: Legend by Coeffey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bdp-0596-co-legen
 
 Write-Host '
 [30;46m                               ▄▄▄     ▄▄▄▄▄                                    [0m

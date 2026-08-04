@@ -1,18 +1,4 @@
-﻿# Converted from: KM-HIGH1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0594/raw/KM-HIGH1.ANS
-# Source Revision: archive-sha256:c612ea4a59fec91943d878667a48e1c926e28a2e076d898f1c1ec92a14e6fce8
-# Source SHA-256: 94767b6979ba270f4e3432a8ab8b6aed0eba5717684d362b4347d33ca812455a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KM-HIGH1.ANS by King Midas (ACiD Productions); released in acdu0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Higher Grounds
-# SAUCE Author: King Midas
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940501
-# SAUCE Dimensions: 80x156
-# Lines: 36-80
-# Columns: 1-80
+﻿# Artwork: Higher Grounds by King Midas | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0594-km-high1-part02
 
 Write-Host '
                                                            [33m▄███[0;33;43m  [0;33;40m▄[0;1;36;40m▀████████████[0m

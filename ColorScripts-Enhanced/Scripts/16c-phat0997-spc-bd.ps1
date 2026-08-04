@@ -1,18 +1,4 @@
-﻿# Converted from: SPC!-BD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0997/raw/SPC!-BD.ANS
-# Source Revision: archive-sha256:7c9b6e5a1bf85f5dceb70dad3a430f8a984427653988f85df1c8489157fd2d25
-# Source SHA-256: d6841c410ddb3081b107137080e1bf58d3ee23a567abd99d2a88ea27c5ae0946
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPC!-BD.ANS by spice (Phat Studios '97); released in phat0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: go!#6: brain damage
-# SAUCE Author: spice
-# SAUCE Group: Phat Studios '97
-# SAUCE Date: 19970722
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: go!#6: brain damage by spice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0997-spc-bd
 
 Write-Host '
 ▄[1;47m▄▄▓░[0m▄▐█[1;47m░░▒▓▓██▀▀[0m▀[1m▀[0m▀▀[31m░[0;1;31;41m▐[0;1;31;47m▄▓[0;1;31;41m▓░[0;31m█[0;30;41m░[0;31;40m▓▒[0;30;41m▓[0;37;40m [0;31;40m░[0;37;40m ░░░ [0;36;40m░[0;37;40m  [0;30;46m▓[0;36;40m░[0;30;46m▒[0;36;40m▓▓[0;1;36;46m   ░░░░▒▒▓▓░[0;36m▌[0;37m [0;30;41m▓[0;37;40m [0;31;40m░░[0;30;41m▒[0;31;40m▓[0;1;31;41m░░▓██[0;31m▌[0;37m ▐[0;1;37;47m▄░[0m▄[30;46m▓[0;36;40m░[0m

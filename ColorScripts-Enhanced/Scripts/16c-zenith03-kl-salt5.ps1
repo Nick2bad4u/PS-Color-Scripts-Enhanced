@@ -1,18 +1,4 @@
-﻿# Converted from: KL-SALT5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zenith03/raw/KL-SALT5.ANS
-# Source Revision: archive-sha256:e8b012d9554c8de00edbf4ae4690e8ec101af64bf1491a5f5dd86a06158d71d2
-# Source SHA-256: 0bce7e5f610cad72fbb9cf59bfaeb1ae53cd50f63e8796e3fa2eb80d9495d70a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KL-SALT5.ANS by Knocturnal (Guest); released in zenith03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Salt
-# SAUCE Author: Knocturnal
-# SAUCE Group: Guest
-# SAUCE Date: 19980731
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: Salt by Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zenith03-kl-salt5
 
 Write-Host '
       [1;30m▀[0;36m▄[0m     [34m          [0m                    [34m▄[0m          [32m▄[0;37m [0;32m▀[0;37m               [0;34m▄▄ ▀[0m

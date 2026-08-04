@@ -1,13 +1,4 @@
-﻿# Converted from: dr-sys2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic25/raw/dr-sys2.ans
-# Source Revision: archive-sha256:5af9b332a2faadb010632152ccd4009f2f76e6404b64d3e8afac01829e050c54
-# Source SHA-256: e1e15264c914fefb3d61f78c10c4c92c8775cc0c13f1565d8253e6f2d0bd5141
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: dr-sys2.ans by Dr Shizuma (mimic25); released in mimic25 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: dr-sys2.ans by Dr Shizuma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic25-dr-sys2
 
 Write-Host '
 [1;37m`"²/☻[0m`[31m [0;1;37m☻☻[0ml[31m l[0;1;31m☺[0;1;33m☺☺☺☺☺[0;1;31m☻☺[0;31m☻☻ [0;1;31m☻☺""☺[0;31m☻7[0;37m [0;36md[0;37m☻[0;1;37m☻☻☻☺☻☻☻☻☻☻l☻☻☻☻[0;1;30mb[0m      [31m   [0;1;30m`[0;31m`"[0;1;31m☺[0;31m⌐,[0m    [1;30m .`[0m

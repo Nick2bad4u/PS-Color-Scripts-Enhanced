@@ -1,19 +1,4 @@
-﻿# Converted from: US-BVII.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/US-BVII.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: 6064d74c3be0ddb2d7d82f2c9cd314f37304876619e247f606072737385d3f93
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BVII.ANS by Tainted + Tetanus (Blocktronics); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Block VII
-# SAUCE Author: Tetanus / Tainted
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20210224
-# SAUCE Dimensions: 80x677
-# SAUCE Font: IBM VGA
-# Lines: 98-146
-# Columns: 1-80
+﻿# Artwork: Block VII by Tainted + Tetanus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-us-bvii-part03
 
 Write-Host '
  [1;30m▀█▄▄[0m                 [1;30m░[0m                            [1;30m▄▄■[0m            [1;30m▀▀[0m  [1;30m░░[0m [1;30m▄[0m [1;30m▀[0m

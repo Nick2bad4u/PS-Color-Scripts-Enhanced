@@ -1,16 +1,4 @@
-﻿# Converted from: N_GAMBOA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/noel_gamboa/raw/N_GAMBOA.ANS
-# Source Revision: archive-sha256:286e154f902fbdde1a4853372b0972e0dffc08599003df1cc3186be2b1ab47e9
-# Source SHA-256: 7afd8d8606a44c0ea63a35d830931cb474ed6def15bd5b12e55e50e1bec76827
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N_GAMBOA.ANS by Noel Gamboa (noel_gamboa); released in noel_gamboa and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Self-portrait
-# SAUCE Author: Noel Gamboa
-# SAUCE Date: 20190423
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Self-portrait by Noel Gamboa | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-noel-gamboa-n-gamboa
 
 Write-Host '
 [31;40m█████████████████████████████████▀▀▀▀▀▀▀▀▀▀▀▀██████████████████████[0;30;41mNoel Gamboa[0;31;40m█[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: zO-JamesBodie.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_acid_trip/raw/zO-JamesBodie.ANS
-# Source Revision: archive-sha256:c0717ff5cb7d462ed7fa9a55edd7235adbd3f09e01132486021497c9281171b6
-# Source SHA-256: 8a42b80f00b7830ef1a4a0e6a8ff6a1479480324e6353ee56f38a5ca00ac722b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zO-JamesBodie.ANS by Enzo (blocktronics); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ANSi Legends: James Bodie
-# SAUCE Author: Enzo
-# SAUCE Group: blocktronics
-# SAUCE Date: 20131112
-# SAUCE Dimensions: 80x214
-# Lines: 130-173
-# Columns: 1-80
+﻿# Artwork: ANSi Legends: James Bodie by Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-acid-trip-zo-jamesbodie-part04
 
 Write-Host '
 █[1;30;47m▓▓[0m███[1;30;47m▀[0;1;32;40m [0;1;30;47m▓▓[0m [1;33;47m▒▒[0;1;32;40m █  ██ ▄[0;32m▀▀▀▄[0;1;32m ██ ██ [0;1;37;45m▓▓[0;35m█ [0;1;35;45m░█▓█▓[0;1;35;40m [0;1;37;47m▓▓▓[0m▀▄[1;33;47m▄▀[0m▀▀▀[1;30m▀[0;1;32m █ [0;32m█[0;1;32m █[0m▀[1;47m  [0m [1;47m██▀▀█▄   [0;1;30;47m▀[0m████[1;30;47m [0m██

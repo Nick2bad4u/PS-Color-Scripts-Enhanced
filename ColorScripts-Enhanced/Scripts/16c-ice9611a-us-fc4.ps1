@@ -1,13 +1,4 @@
-﻿# Converted from: US-FC4.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9611a/raw/US-FC4.ICE
-# Source Revision: archive-sha256:527ee850f561609baab7365c9f9f22dc966a04822d3f266d09600ed8b3eefb84
-# Source SHA-256: 0d41dfc92d05b53fb2c0dd8ea46ea236571c150da2a375e2803ee5c9b35bf69c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FC4.ICE by Mass Murderer + Apox (ice9611a); released in ice9611a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: US-FC4.ICE by Mass Murderer + Apox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9611a-us-fc4
 
 Write-Host '
 [1m[0m[1m[0m

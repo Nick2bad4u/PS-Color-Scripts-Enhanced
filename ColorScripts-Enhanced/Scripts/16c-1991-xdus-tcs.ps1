@@ -1,13 +1,4 @@
-﻿# Converted from: XDUS_TCS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1991/raw/XDUS_TCS.ANS
-# Source Revision: archive-sha256:4dcfddb1a9f84aafa45e2facaadcb15ccf7ddad9041d8c346c723f7894d6cfb9
-# Source SHA-256: 30974e9f32eab3dd653eb355c2edd87aa9a5617f639f745b6d9d7868f146cb95
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XDUS_TCS.ANS by Nautilus (1991); released in 1991 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: XDUS_TCS.ANS by Nautilus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1991-xdus-tcs
 
 Write-Host '
            [1m·[0m                 [1;30m·[0;36m·∙[0;1;36m∙==≡)Na[0;36mutil[0;1;36mus(≡==∙∙[0;36m·[0;1;30m·[0m                [1;30m·[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: ID-TRBSE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0596/raw/ID-TRBSE.ANS
-# Source Revision: archive-sha256:36c941759d451fdd3b8fb831978bf146c114a97ebcdf99a7ed67f1f699b42790
-# Source SHA-256: decde4c72bb4e3bf3a339d1e0f874b5a0965a10b5b6958a63727139d984ae791
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ID-TRBSE.ANS by Iodine (fire); released in fire0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Rebel Base
-# SAUCE Author: Iodine
-# SAUCE Group: fire
-# SAUCE Date: 19960503
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: The Rebel Base by Iodine | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0596-id-trbse
 
 Write-Host '
                                ░

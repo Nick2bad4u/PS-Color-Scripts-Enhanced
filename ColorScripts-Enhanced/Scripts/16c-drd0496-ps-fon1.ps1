@@ -1,18 +1,4 @@
-﻿# Converted from: PS-FON1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drd0496/raw/PS-FON1.ANS
-# Source Revision: archive-sha256:41fc89e5f261ce75ae4e46cbe1387759715c9d02278d3d6386bad5309e639848
-# Source SHA-256: 3dd2c31af1c22576e29a594dd58d2f1d8bb9eb4b051a66afa4e2007a4795032a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PS-FON1.ANS by pheonstar (droid); released in drd0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: force of nature
-# SAUCE Author: pheonstar
-# SAUCE Group: droid
-# SAUCE Date: 19960319
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: force of nature by pheonstar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drd0496-ps-fon1
 
 Write-Host '
                              [1;34m░[0m               [1;30m  [0m

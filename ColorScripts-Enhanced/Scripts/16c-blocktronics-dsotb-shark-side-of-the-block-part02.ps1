@@ -1,20 +1,4 @@
-﻿# Converted from: shark-side-of-the-block.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-dsotb/raw/shark-side-of-the-block.ans
-# Source Revision: archive-sha256:31e1fdfda207a2147f2b0badf1415308dc54d4c24afa56622db8a43f68f110f1
-# Source SHA-256: 2ae36b84479bd6cf9db9adb09653709895e7889821e62fcad1cb0dcc3475f744
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: shark-side-of-the-block.ans by Whazzit (Blocktronics); released in blocktronics-dsotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Shark Side of the Block
-# SAUCE Author: Whazzit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20190716
-# SAUCE Dimensions: 80x55
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Joe Thornton of the San Jose Sharks
-# Lines: 28-55
-# Columns: 1-80
+﻿# Artwork: Shark Side of the Block by Whazzit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-dsotb-shark-side-of-the-block-part02
 
 Write-Host '
                [1;30m▄▄[0;1;31m▀[0;1;31;43m▒▒░[0;1;31;40m█ [0;1;31;43m██[0;1;31;40m███[0;1;31;43m▓▓▓█[0;1;31;40m█████████[0;1;31;43m▀▀[0;33m▀[0;1;31;43m [0;33m█▄▄▀█▀▀█  [0;1;30m███[0;36m  ░░[0;1;30;46m▒[0;36m ████████████████[0m

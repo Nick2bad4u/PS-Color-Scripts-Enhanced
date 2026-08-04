@@ -1,13 +1,4 @@
-﻿# Converted from: FA-CIPH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/0196ciph/raw/FA-CIPH.ANS
-# Source Revision: archive-sha256:a2dd81806a0eee4537df8ce0b38cf86bae0804e2b53793c7f700889458b6b68d
-# Source SHA-256: 444ce768e63b15a61938cd6e2d67c2c442d43d2bdb417a1a7f2152e101a6cf30
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FA-CIPH.ANS by Fade Away (0196ciph); released in 0196ciph and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: FA-CIPH.ANS by Fade Away | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-0196ciph-fa-ciph
 
 Write-Host '
 [1;32;42m ░░░░▒▒▒▒▒░░░░░░▒▓[0;1;32;40m▄▀[0;1;32;42m▒▒░▒▒[0;1;32;40m▀[0;1;32;42m▓▓▓▓▓▒▒▒░░░░▒▓▓▓▓[0;1;32;40m▀▀[0;1;32;42m░░▓[0;1;32;40m▄▀▀[0;1;32;42m▓▓▓▓░░▓▓[0;1;32;40m▀▀▀[0;1;32;42m▓▓▓▓▒▒▒[0;32m▀[0;1;32m░▒[0;1;32;42m▒░░▒▓▓▓░[0m

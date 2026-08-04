@@ -1,18 +1,4 @@
-﻿# Converted from: RR-HC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0797/raw/RR-HC.ANS
-# Source Revision: archive-sha256:94b9d74f23cef45b7f0e0cddc6ad7ce59eed15dd66ca41ed74c0005a3af14ca4
-# Source SHA-256: aa35c8cb0777346ed557777ce9076178a7df04112526f469f9aa300cff91e98f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RR-HC.ANS by riddler (fire); released in fire0797 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: holocaust
-# SAUCE Author: riddler
-# SAUCE Group: fire
-# SAUCE Date: 19970621
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: holocaust by riddler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0797-rr-hc
 
 Write-Host '
               [36m  [0;1;30m▄[0m               [1;30m  [0m

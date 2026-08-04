@@ -1,13 +1,4 @@
-﻿# Converted from: ti-rn3.ice
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-200204a/raw/ti-rn3.ice
-# Source Revision: archive-sha256:9474dbd5fb2aa6d81ae7bd493cf3123959dc1e3144cbf55081f58d459baca031
-# Source SHA-256: b068d0a6f99ee331b1099bdde66deed97e28405520fba2c6a23741cab0adef01
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ti-rn3.ice by Trip (ice-200204a); released in ice-200204a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ti-rn3.ice by Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-200204a-ti-rn3
 
 Write-Host '
 [32m▐[0;32;46m▓▓▓▓[0;32;40m▌[0;37;40m [0;1;30;44m███[0;1;30;40m█▄▄   ▄▄▄▄[0m    [1;30m░░░[0m   [1;30m▄████▀▄███████▄ ▄▄▄▄   ▄████▄[0m   [1;30m░░░░[0m  [1;30m▄██████▄[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: CAL25-06.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-42/raw/CAL25-06.ANS
-# Source Revision: archive-sha256:5477badab90aaaa6ee2d08aa380254b6982d860b5d0de201e348668cb1eaa063
-# Source SHA-256: 0b311ef0f6ee9131bf76dde305bbba44ef6e042448a704de23149adb2202461b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CAL25-06.ANS by toon goon (fire); released in fire-42 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: blacula
-# SAUCE Author: toon goon
-# SAUCE Group: fire
-# SAUCE Date: 20250303
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: blacula by toon goon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-42-cal25-06
 
 Write-Host '
 [37;40m [0;31;40m▀■▀[0m            [31;40m▄[0m            [31;40m▀■ ▀[0m                        [31;40m▀▄▀▀[0m

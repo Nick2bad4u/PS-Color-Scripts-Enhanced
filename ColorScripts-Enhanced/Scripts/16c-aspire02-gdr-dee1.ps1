@@ -1,18 +1,4 @@
-﻿# Converted from: GDR-DEE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aspire02/raw/GDR-DEE1.ANS
-# Source Revision: archive-sha256:2a3d326a8ca130440ffd6aad2cfc82e14baf2656c973157652834b18c04ceb5d
-# Source SHA-256: 922efdb9be9ada7f5bf50014a8c409d672627fcbccc37abc0af0f479d7e10167
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GDR-DEE1.ANS by gravedancer (aspire); released in aspire02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: deep ad #1
-# SAUCE Author: gravedancer
-# SAUCE Group: aspire
-# SAUCE Date: 19980731
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: deep ad #1 by gravedancer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aspire02-gdr-dee1
 
 Write-Host '
 [36m▓▓[0;30;46mgdr[0;36;40m█████[0;37;40m   [0;33;40m█▀▀       ▀▀[0;1;33;43m▀▀[0;33m▀▀▀     █[0;1;33;43m▀▀[0;33m▀▀▀  ▀▀▀▀[0;37m [0;33m [0;37m         [0m

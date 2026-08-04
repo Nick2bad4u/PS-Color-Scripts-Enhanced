@@ -1,13 +1,4 @@
-﻿# Converted from: ANSI29.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansi/raw/ANSI29.ANS
-# Source Revision: archive-sha256:50aaa63d173fc2f34f94b8a5b526a5ee8a8b9d7908c42264ab949073e7e0edf9
-# Source SHA-256: 7783ddde0d90a4bfe10f8b836b5f668b29ead24b94faca1b3720a0cf0e138a6f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ANSI29.ANS by Pretty Please (ansi); released in ansi and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: ANSI29.ANS by Pretty Please | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansi-ansi29
 
 Write-Host '
 [36m███▀▀▀ [0;37m▄▄▄▄████▄[0;36m▀█████████▀ [0;37m▄█████▄▄▄ [0;36m▀▀▀█████████████████▀[0m                   [36m▀[0m

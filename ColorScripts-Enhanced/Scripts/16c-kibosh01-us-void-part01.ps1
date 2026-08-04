@@ -1,18 +1,4 @@
-﻿# Converted from: US-VOID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/kibosh01/raw/US-VOID.ANS
-# Source Revision: archive-sha256:8d1a88fa61503d65c439ad29bf67d0608682b94cf1606253ca8fc6eb534b89d8
-# Source SHA-256: 79c36b27a1133e8ffbece3a73095c3eff9668628929459fb0e247161993f7f4f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-VOID.ANS by Ironghost + Dyingsoul + Argon (kibosh/ice/ave); released in kibosh01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: void
-# SAUCE Author: arg/ds/ig
-# SAUCE Group: kibosh/ice/ave
-# SAUCE Date: 19990410
-# SAUCE Dimensions: 80x106
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: void by Ironghost + Dyingsoul + Argon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-kibosh01-us-void-part01
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: BS-HEADS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-04/raw/BS-HEADS.ANS
-# Source Revision: archive-sha256:46dfc1c32c82269d5de42747ebd7355d3eb20f2453874c6355621a917a3f7589
-# Source SHA-256: 8798be942dcf0a0d015df19e10b7fbc8ec5bafb548be0c26d7b9850e62061362
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-HEADS.ANS by Blind Sniper (Department 38); released in d38-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Headers Colly
-# SAUCE Author: Blind Sniper
-# SAUCE Group: Department 38
-# SAUCE Date: 19970312
-# SAUCE Dimensions: 80x25
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Headers Colly by Blind Sniper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-04-bs-heads
 
 Write-Host '
 [30;41m [0;1;37;41m    [0;30;41m                             [0;1;37;41m      [0;30;41m                                    [0;31;40m▌▌[0;30;41m►[0;31;40m▐[0m

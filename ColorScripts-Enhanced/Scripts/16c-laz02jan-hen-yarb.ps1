@@ -1,18 +1,4 @@
-﻿# Converted from: HEN-YARB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz02jan/raw/HEN-YARB.ANS
-# Source Revision: archive-sha256:132672eb521503ab979d6725a75b6f055811245f253b5353290430aa5c4983b1
-# Source SHA-256: 0b57217860197688348d8f49fde6ba71aa76ff8fd1b3ae59a64cb207ffde658d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HEN-YARB.ANS by hennifer (lazarus); released in laz02jan and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: yarbles inc.
-# SAUCE Author: hennifer
-# SAUCE Group: lazarus
-# SAUCE Date: 19970101
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: yarbles inc. by hennifer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz02jan-hen-yarb
 
 Write-Host '
 [1;5;30m[0m  [1;30m████████████████████████████████████████████████████████████████████████████[0m

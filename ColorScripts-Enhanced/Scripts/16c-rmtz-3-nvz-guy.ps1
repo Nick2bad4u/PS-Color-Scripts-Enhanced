@@ -1,18 +1,4 @@
-﻿# Converted from: NVZ-GUY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmtz-3/raw/NVZ-GUY.ANS
-# Source Revision: archive-sha256:9049eb84d35299820d945f342b3906500ed394a8e74f37bd2f023c428d1b0765
-# Source SHA-256: 2d067ebb5abf27c291f2c80d44b669138101117e43f54e0b67b6e1b6b3090532
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NVZ-GUY.ANS by nvz (rmtz); released in rmtz-3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: guy (!?!) :)
-# SAUCE Author: nvz
-# SAUCE Group: rmtz
-# SAUCE Date: 19960917
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: guy (!?!) :) by nvz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmtz-3-nvz-guy
 
 Write-Host '
 [1m·[0;34m  ░ ░       ░░      ░░░░░[0;1;37m·[0;34m  ░[0;1;37m.[0;34m░ ░░[0;1;37m.[0;34m    [0;1;37m·[0;34m░░  ░  [0;1;37m.[0;34m [0;1;37m.[0;34m░     [0;37m [0;34m   ░░░   ░░[0;1;37m.[0;34m░   ░[0;1;37m·[0;34m  ░ [0m

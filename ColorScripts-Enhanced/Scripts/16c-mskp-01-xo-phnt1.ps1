@@ -1,18 +1,4 @@
-﻿# Converted from: XO-PHNT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mskp-01/raw/XO-PHNT1.ANS
-# Source Revision: archive-sha256:453b00e753ff59d8f674e38f99c6a307fc28cd1eb85eea207aea113377d8e8ed
-# Source SHA-256: 018374967e14995f867c45712dc67865dfb6887cb721a0f121f42e855aa4abe5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XO-PHNT1.ANS by Xose (MaSaKrE); released in mskp-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Phantom's BBS (Part 1)
-# SAUCE Author: Xose
-# SAUCE Group: MaSaKrE
-# SAUCE Date: 19950921
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Phantom's BBS (Part 1) by Xose | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mskp-01-xo-phnt1
 
 Write-Host '
 [1;33mA[0m      [1;31;41m  [0;31m▄    █▄[0m      [1;31;41m [0;31m▄[0m     [1;31;41m [0;31m▄  [0;1;31;41m    [0;31m▄    [0;1;31;41m [0;31m▄    [0;1;31;41m [0;31m▄   █ █▄[0m         [35m▄███████▄[0m

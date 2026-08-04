@@ -1,17 +1,4 @@
-﻿# Converted from: GDR-DEEP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aspire01/raw/GDR-DEEP.ANS
-# Source Revision: archive-sha256:f43fc1225b31ab1a04e5d79452fd45ba80fce2e2fd3402d945be695dfc4cdc66
-# Source SHA-256: fc95e1560e8c6cdcf61ecd2d053e1a11ef52278e18888ce984d81ae76ebb649c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GDR-DEEP.ANS by gravedancer (aspire); released in aspire01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: deep menu
-# SAUCE Author: gravedancer
-# SAUCE Group: aspire
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: deep menu by gravedancer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aspire01-gdr-deep
 
 Write-Host '
 [31;41m█[0;31;40m ▄▄▄    ▀▀▌ ██▄   ▀▌ ██▄  ▀▌ ▄▄   ▀▀[0;1;30;41m▓▒░░[0;31m▀▀ [0m     [34m▄[0;1;34;44m░░░░[0m        [36m▀[0;34m▀[0;37m  [0;34m▄▄▄█▀▀▀▀███[0;1;34;44m░░░[0m

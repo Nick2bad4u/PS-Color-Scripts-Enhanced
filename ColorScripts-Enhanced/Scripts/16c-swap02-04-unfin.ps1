@@ -1,13 +1,4 @@
-﻿# Converted from: 04-unfin.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/swap02/raw/04-unfin.ans
-# Source Revision: archive-sha256:4d8cb393a00876207f46bb8198f121ecf1515abfe7fa8288241519cd92e6c95e
-# Source SHA-256: b2b0978786958f3a6817423252123c92d65c876f4aa01ab7b4df0b59ae30130e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 04-unfin.ans by Cheeze + Black Viper (swap02); released in swap02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: 04-unfin.ans by Cheeze + Black Viper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-swap02-04-unfin
 
 Write-Host '
                       [33m [0;37m [0;33m ▄▄███▄     [0;37m [0;33m▄▄█▄█[0;37m  [0;33m▄▄██[0m

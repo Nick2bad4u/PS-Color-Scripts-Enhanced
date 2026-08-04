@@ -1,18 +1,4 @@
-﻿# Converted from: LBO-HA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lbo2nfc/raw/LBO-HA.ANS
-# Source Revision: archive-sha256:a879a6eb34af3fb51b95c4cde63803278b530948f708e45332c53c389ac92d56
-# Source SHA-256: 58e22b325a81948a6b8f3459abc30eee281b5765d18db628c653b7f9f894e3a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LBO-HA.ANS by torlock pop (LBO2); released in lbo2nfc and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: house adonis bbs logon screen
-# SAUCE Author: torlock pop
-# SAUCE Group: LBO2
-# SAUCE Date: 19951108
-# SAUCE Dimensions: 80x25
-# Lines: 32-69
-# Columns: 1-80
+﻿# Artwork: house adonis bbs logon screen by torlock pop | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lbo2nfc-lbo-ha-part02
 
 Write-Host '
             [30m██[0;1;31;43m▓[0;30m█[0;1;31;43m▓[0;1;31m▀[0;30m█[0;34m█▓▄[0;30m███[0;34m▄▀▀[0;30m██[0;1;31;43m▓▒[0;30m██[0;1;31m██▄[0;30m█[0;1;31m▄████▄▄[0;30m█████[0;1;31m▀██████▀[0;30m█[0;1;31m▄█▀▄███[0;30m█[0m

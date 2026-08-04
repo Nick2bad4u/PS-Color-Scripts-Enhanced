@@ -1,19 +1,4 @@
-﻿# Converted from: FIL-EXEC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-35/raw/FIL-EXEC.ANS
-# Source Revision: archive-sha256:c366a38306f48b13ede280377c5f8ef243fdab7e7890ac3e053ec3ccbc5d901a
-# Source SHA-256: 7c1774a3fbc02e9610e3c57fbca476aee04b6a2ec2cb29cf9d57d02f69e87c36
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FIL-EXEC.ANS by filth (F i R E); released in fire-35 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: L1N3 N0153
-# SAUCE Author: filth
-# SAUCE Group: F i R E
-# SAUCE Date: 20221211
-# SAUCE Dimensions: 80x45
-# SAUCE Font: IBM VGA
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: L1N3 N0153 by filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-35-fil-exec
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: SK-XTC2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0402/raw/SK-XTC2.ANS
-# Source Revision: archive-sha256:19898cc2febb6deadccf50832dc421b4f362a33c899e27278bafd225bbc2d4d4
-# Source SHA-256: f665d97072b08a388bba6d80d5573aad0f94dc20313b0807c0a0a2541fc2e054
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK-XTC2.ANS by skatter (Revival); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ecstasy
-# SAUCE Author: skatter
-# SAUCE Group: Revival
-# SAUCE Date: 20020415
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Ecstasy by skatter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0402-sk-xtc2
 
 Write-Host '
  [1m [0m              [1;34m [0;1;35m.[0m

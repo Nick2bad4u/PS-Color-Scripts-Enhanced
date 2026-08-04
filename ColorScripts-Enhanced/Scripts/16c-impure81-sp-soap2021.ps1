@@ -1,17 +1,4 @@
-﻿# Converted from: sp-soap2021.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure81/raw/sp-soap2021.ans
-# Source Revision: archive-sha256:5619da472b28f91a009ce4d644c47799e68cbe57a614b545a0e5dc5e5f7081e3
-# Source SHA-256: 4f5ac2a59f5651f106fd1c1c7f2349956ecc3cf5f71b86edb8004ef8a5d7ad1b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sp-soap2021.ans by spinsane (impure81); released in impure81 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: spinsane
-# SAUCE Date: 20211031
-# SAUCE Dimensions: 80x100
-# SAUCE Font: IBM VGA
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: sp-soap2021.ans by spinsane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure81-sp-soap2021
 
 Write-Host '
                       __ .                        .┴\─

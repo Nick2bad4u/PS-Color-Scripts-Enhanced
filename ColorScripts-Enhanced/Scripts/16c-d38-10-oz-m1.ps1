@@ -1,13 +1,4 @@
-﻿# Converted from: OZ-M1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-10/raw/OZ-M1.ANS
-# Source Revision: archive-sha256:ba7c4a4551adb8285347fd98fdb9f0a91fe459313bdff549b9e589778adcfcfe
-# Source SHA-256: 43dbb85bf05395aad93c519a3595027434839b10be5015edddce79b9c689d51d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OZ-M1.ANS by Ooze (d38-10); released in d38-10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: OZ-M1.ANS by Ooze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-10-oz-m1
 
 Write-Host '
   [1;32m░░[0m   [1;32m▄▄▄▄▄[0;32m▄▄[0;1;32;42m▒░[0;32m▄▄▄[0;1;32m▄▄[0m [1;32;42m░[0;32m▄▄[0m           [1;32;46m ▄[0;1;32;40m█▄▄▄▄[0;32m▄[0;37m [0;1;32m░░[0m        [32m░░[0;37m [0;32m [0;1;32m▐▄▄[0;32m▄[0m       [1;32m▄▄▄[0;32m▄▄▄▄░░ [0m

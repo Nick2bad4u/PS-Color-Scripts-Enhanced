@@ -1,13 +1,4 @@
-﻿# Converted from: HB-ICEY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/esp0496/raw/HB-ICEY.ANS
-# Source Revision: archive-sha256:dbe6c60d1047fff7d32d35a3252db30cf5150247db0d75ed0d6bb39660636de9
-# Source SHA-256: af56c83b589aca51e179a2201864a86370e76b63b863dd2ee82d961a1c69e39d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HB-ICEY.ANS by Hatebreed (esp0496); released in esp0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: HB-ICEY.ANS by Hatebreed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-esp0496-hb-icey
 
 Write-Host '
       [36m▓███[0;34m░ [0;36m▄█[0;1;34;46m░░░[0;36m█▄   ▄██[0;1;34;46m░░░[0;36m▄  [0;1;34;46m▒░░[0;36m█[0;34m░[0;36m██[0;1;34;46m░░[0;34m░░[0;36m▄█[0;1;34;46m░░░░[0;36m▄ [0;34m░ [0;36m▄██[0;1;34;46m░[0;36m██▄[0;34m░░░[0;36m▄█████▄[0;34m░░[0;36m▓███[0m

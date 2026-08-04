@@ -1,20 +1,4 @@
-﻿# Converted from: ZII-CHAC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0226/raw/ZII-CHAC.ANS
-# Source Revision: archive-sha256:ef03a5a095d5c0479664f99ff23399e245703c452ca9d05ea2957005177022f9
-# Source SHA-256: 418c713bedfa86816f2280e59f714f689daf3615f622788e1c7a3e8e883ced98
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-CHAC.ANS by Zeus II (Mistigris); released in mist0226 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Chaotic Factor x2
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260214
-# SAUCE Dimensions: 80x60
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Chaotic Factor BBS, the hot new BBS in town! Obviously I would n | ever draw copyrighted characters. These guys are called Stevenom | and Cornage.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Chaotic Factor x2 by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0226-zii-chac-part01
 
 Write-Host '
 

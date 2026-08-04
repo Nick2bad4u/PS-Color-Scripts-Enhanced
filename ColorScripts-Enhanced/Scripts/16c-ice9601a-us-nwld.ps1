@@ -1,18 +1,4 @@
-﻿# Converted from: US-NWLD.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9601a/raw/US-NWLD.ICE
-# Source Revision: archive-sha256:e4c089e3103bdc63762348bbcc2c54a05a351461817f667c54ad471098c66860
-# Source SHA-256: 992e4fdc5f5272af2320301bb5ff7bc73352d7fefa811b12b234cc25ef8f7be0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-NWLD.ICE by Kadaver + Surreal Logic (iCE); released in ice9601a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: netherwOrld
-# SAUCE Author: surreallogic/kadaver
-# SAUCE Group: iCE
-# SAUCE Date: 19950205
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: netherwOrld by Kadaver + Surreal Logic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9601a-us-nwld
 
 Write-Host '
 [1;30;47m▒▓[0;1;30;40m▓[0;1;30;47m▓[0;1;30;43m▓[0;1;30;47m▓█[0;1;30;43m▓[0;1;30;40m▄  [0;33m░▒▓[0;1;30;43m▒[0;1;30;40m▓▒░░[0;33m▀[0;37;43m░░▒▓▒░[0;33;40m█[0;37;43m░[0;1;30;43m  [0;33;47m█[0;1;30;43m [0;43m░[0;1;30;43m░▒▓[0;1;30;40m▓▒░░[0;43m░[0;1;30;43m░ [0;43m░[0;1;30;43m [0;33m▓[0;1;30;43m░[0;33m█[0;1;30;43m░[0;33m█[0;1;30;43m░▒▓▓[0;1;30;40m▓▀▀[0;33m▄▄▓[0;1;30;43m░▒[0;33m▓[0;1;30;43m▒▓[0;1;30;40m▓░[0m░[1;30m ▄[0;1;30;47m▒▓[0;1;30;43m▓[0;1;30;47m▓█[0;1;30;40m▓▒░ [0m

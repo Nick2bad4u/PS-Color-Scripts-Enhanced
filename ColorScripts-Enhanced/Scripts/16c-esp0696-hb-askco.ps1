@@ -1,18 +1,4 @@
-﻿# Converted from: HB-ASKCO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/esp0696/raw/HB-ASKCO.ANS
-# Source Revision: archive-sha256:3a800bf374adccb43f95f84c9fee9750de98bcb01284f92f012872d242e939b8
-# Source SHA-256: cb6baa444708159bc3242607c1a86e80faaf1d650a4afcd39351daa9419ccac0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HB-ASKCO.ANS by HaTeBReeD (eSp); released in esp0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ascii Colly
-# SAUCE Author: HaTeBReeD
-# SAUCE Group: eSp
-# SAUCE Date: 19960515
-# SAUCE Dimensions: 80x47
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: Ascii Colly by HaTeBReeD | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-esp0696-hb-askco
 
 Write-Host '
 [1;34m[0;34m[0;35m[0;1;34m[0;34m[0;35m[0;1;34m[0;34m[0;1;34m[0m[1;34ms[0;34mPLIT[0;35m [0;1;34m242[0m                               [1m   [0m___

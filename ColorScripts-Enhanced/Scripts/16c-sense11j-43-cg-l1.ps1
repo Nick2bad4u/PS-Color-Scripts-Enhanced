@@ -1,18 +1,4 @@
-﻿# Converted from: 43&CG-L1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense11j/raw/43%26CG-L1.ANS
-# Source Revision: archive-sha256:9c1c7edf0d14ae95ae7a9cfcfa9322814b13baa95c33699852fa04d6685f708d
-# Source SHA-256: a42164ab0a27ed42452066b62c50da619bdcf0f2b3ca3265209d47c627276ac0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 43&CG-L1.ANS by aes/cryo (SENSE IMAGERY.); released in sense11j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: lure promo
-# SAUCE Author: aes/cryo
-# SAUCE Group: SENSE IMAGERY.
-# SAUCE Date: 20021118
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: lure promo by aes/cryo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense11j-43-cg-l1
 
 Write-Host '
 [1;36m████████████████████████████████████████████████████████████████████████████████[0m

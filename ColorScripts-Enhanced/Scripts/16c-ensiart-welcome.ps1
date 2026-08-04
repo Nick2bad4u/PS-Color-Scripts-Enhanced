@@ -1,13 +1,4 @@
-﻿# Converted from: WELCOME.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ensiart/raw/WELCOME.ANS
-# Source Revision: archive-sha256:1740ea49d8e6dbe7ec5d2c508ba38bad12fe73c43c677e55524f61db5ff5063b
-# Source SHA-256: d9d0c6a9c3a7581429f4332e4f2555c3de84df64b1f0e33c436acb21a2cc5738
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WELCOME.ANS by Tom Bradford (ensiart); released in ensiart and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: WELCOME.ANS by Tom Bradford | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ensiart-welcome
 
 Write-Host '
          [1m▄▄▄▄▄▄▄▄▄▄[0m             [1m▄▄[0m

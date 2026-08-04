@@ -1,19 +1,4 @@
-﻿# Converted from: FIL-OPIV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-38/raw/FIL-OPIV.ANS
-# Source Revision: archive-sha256:be80154150e87c06a8a7199ad7b8d7442acd5427250f57c89a783b9de15c69d7
-# Source SHA-256: 67940ddeef561ae86868ecc9dabcfb2e78188f1dcced16d11937932c95592ef0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FIL-OPIV.ANS by filth (FiRE); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 924 Gilman St.
-# SAUCE Author: filth
-# SAUCE Group: FiRE
-# SAUCE Date: 20231110
-# SAUCE Dimensions: 80x113
-# SAUCE Font: IBM VGA
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: 924 Gilman St. by filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-38-fil-opiv-part01
 
 Write-Host '
 [1;30;45m███████████████████████████████████████████████████████████████████████████████[0m

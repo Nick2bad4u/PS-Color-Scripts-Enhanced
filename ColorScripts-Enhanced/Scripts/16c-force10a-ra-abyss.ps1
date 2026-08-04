@@ -1,18 +1,4 @@
-﻿# Converted from: RA-ABYSS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force10a/raw/RA-ABYSS.ANS
-# Source Revision: archive-sha256:f2af75efab7b036cdbeddf266674e60423caa5c7ddcc4b43d8307cb5d3c84b64
-# Source SHA-256: f4f2dff2df90989b8e4fcaabf7f152e5f702e101dfe2a28d36733adfd1bf024b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RA-ABYSS.ANS by Rage (fORCE); released in force10a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Abyss
-# SAUCE Author: Rage
-# SAUCE Group: fORCE
-# SAUCE Date: 19960721
-# SAUCE Dimensions: 80x44
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: The Abyss by Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force10a-ra-abyss
 
 Write-Host '
        [1;30m▄[0m       [1;30m▀[0m                   [1;30m [0m                                [1;30m▀[0m   [1;30m ▄[0m  [1;30m▄▓▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: LO`FOI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/insm0796/raw/LO%60FOI.ANS
-# Source Revision: archive-sha256:e3aef34bb564b08d1904f6f1567e1b9514c63c703fa2cbc5b50e7bd5188984fa
-# Source SHA-256: cc2a6b1db8b62211f28ea9d983793d73ca1398caa0622ee1301af86e4d45173a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LO`FOI.ANS by Lord (Insomnia); released in insm0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: FOI
-# SAUCE Author: Lord
-# SAUCE Group: Insomnia
-# SAUCE Date: 19960625
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: FOI by Lord | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-insm0796-lo-foi
 
 Write-Host '
                         [1;33m░[0m

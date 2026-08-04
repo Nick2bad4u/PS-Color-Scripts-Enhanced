@@ -1,18 +1,4 @@
-﻿# Converted from: KT-MYST2.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/sac1294/raw/KT-MYST2.ANS
-# Source Revision: archive-sha256:4cf7765ee6660556cb900dacf0ec67f070b8e4df414172b5e01733a49d10031f
-# Source SHA-256: 86310fb52535303250289628d2af34a0498a9255dddeb9ec2e7a98c9e3ac6e3b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KT-MYST2.ANS by kaethe; released in sac1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
-# SAUCE Title: Mystery Logon
-# SAUCE Author: Kaethe
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19941123
-# SAUCE Dimensions: 80x25
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Mystery Logon by kaethe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac1294-kt-myst2-part01
 
 Write-Host '
                         [1;30m▄██▓█▄ [0;1;32m▄▓▒▓██▄   [0;32m▌[0m      [1;32;41m███[0;1;32;40m▓▓[0;1;32;41m█[0;31m▐▄[0;32m▄▄  ▀▄▄[0;31m▌[0;1;32;41m█[0;1;32;40m█▓█[0m

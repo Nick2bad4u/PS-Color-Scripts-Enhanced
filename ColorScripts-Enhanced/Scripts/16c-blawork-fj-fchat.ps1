@@ -1,18 +1,4 @@
-﻿# Converted from: FJ_FCHAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blawork/raw/FJ_FCHAT.ANS
-# Source Revision: raw-sha256:948993fc87d71f25426bbf50c45d171290281df0ea7633a28b8973edceb7cbbd
-# Source SHA-256: 948993fc87d71f25426bbf50c45d171290281df0ea7633a28b8973edceb7cbbd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FJ_FCHAT.ANS by fastjack (boil); released in blawork and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: supermarkt
-# SAUCE Author: fastjack
-# SAUCE Group: boil
-# SAUCE Date: 19970930
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: supermarkt by fastjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blawork-fj-fchat
 
 Write-Host '
                                               [31m  [0;1;31;41m█▄[0;31m▄ [0;1;31;41m▄ [0;31m ▀█[0;1;31;41m▀[0;31m▀▀▐▄[0;1;31;41m▄▄▄░░ [0;31m██[0;1;31m▄[0;31m▄ ███▄▄ [0m

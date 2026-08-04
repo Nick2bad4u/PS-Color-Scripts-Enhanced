@@ -1,18 +1,4 @@
-﻿# Converted from: ax-ice2.ice
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-200212/raw/ax-ice2.ice
-# Source Revision: archive-sha256:2a52c7a42f668fd9e19f8e478ebe971abc644da64c45c9dd740d1b14c0fd4364
-# Source SHA-256: bd7d8423bc993bd7dd1ed59fdeb6331b67f6b9e5213ec0de36ad5440b34ebed9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ax-ice2.ice by Alla Xul (iCE Advertisements); released in ice-200212 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ice ice baby 2
-# SAUCE Author: Alla Xul
-# SAUCE Group: iCE Advertisements
-# SAUCE Date: 20021231
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: ice ice baby 2 by Alla Xul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-200212-ax-ice2
 
 Write-Host '
               [1;30m░[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: us-claz.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz21/raw/us-claz.ans
-# Source Revision: archive-sha256:daa0e008ccfccc8179e0635097f8fe4a46a32781b45bbd86ff6e4505514c9e6d
-# Source SHA-256: 478501324da75fc0ac79147c29ac047d414c79a2621fb8f42824810187b1836b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-claz.ans by Nitron + LDA (Lazarus); released in laz21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Captain Lazarus
-# SAUCE Author: Nitron LDA
-# SAUCE Group: Lazarus
-# SAUCE Date: 20251218
-# SAUCE Dimensions: 80x180
-# SAUCE Font: IBM VGA
-# Lines: 132-180
-# Columns: 1-80
+﻿# Artwork: Captain Lazarus by Nitron + LDA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz21-us-claz-part04
 
 Write-Host '
 [34m▓█▌[0;1;33;43m▐[0;1;33;40m█  [0;34m▓[0;1;34;44m▒░[0;34m█▓░[0;37m            [0;1;34;44m░▒█[0;1;34;47m▓▒▒▓[0;1;34;44m█░[0;1;34;40m [0;1;34;44m▒▓▓▓▒▒░░[0;34m▒░[0;37m         [0;34m▒████[0;1;34;44m░[0;34m▒▒▓▓[0;37m    [0;1;34m▀[0;1;34;44m▓░[0;34m█████▒█▓[0m

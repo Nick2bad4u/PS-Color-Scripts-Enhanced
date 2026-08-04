@@ -1,18 +1,4 @@
-﻿# Converted from: RS-ENZO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden14/raw/RS-ENZO.ANS
-# Source Revision: archive-sha256:8484fc17833e455250727f80fdc56cc19e17aec4fba2f82e3b86585a9e08cb6c
-# Source SHA-256: e28175e2f94cd05836d86e6e85f4187712d9010365d83501a13c9975f6067b77
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-ENZO.ANS by rorshack (Maiden Brazil); released in maiden14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: enzo enzimas ferrari da silva jr.
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19971213
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: enzo enzimas ferrari da silva jr. by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden14-rs-enzo
 
 Write-Host '
                    [1;30m█[0m                   [1;30m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: DR-777.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/epic0004/raw/DR-777.ANS
-# Source Revision: archive-sha256:c75b9e867fa35125e489436a8824c556bb5ed530e56134a70eaa34a6b213a513
-# Source SHA-256: 626cb488c3f5ab7dea4642f8b9fa23fb6365a3ee8327f37e60801185dbf82c8a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DR-777.ANS by Dr. Shizuma (EPiC); released in epic0004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Hellium
-# SAUCE Author: Dr. Shizuma
-# SAUCE Group: EPiC
-# SAUCE Date: 19991115
-# SAUCE Dimensions: 80x25
-# Lines: 42-77
-# Columns: 1-80
+﻿# Artwork: Hellium by Dr. Shizuma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-epic0004-dr-777-part02
 
 Write-Host '
 ▀█▄ [36m   [0;1;30m▄[0m          [1m [0;31m▀[0;1;31m███[0;1;37;47m▐[0;1;37;40m█████████████████████████[0;1;37;41m█[0;1;37;40m████[0;1;37;47m▀[0;1;31;40m█▀▀[0;1;37;40m [0m▄▄▄[1m  [0m   [1;33m [0;1;37m▄▄▄[0m

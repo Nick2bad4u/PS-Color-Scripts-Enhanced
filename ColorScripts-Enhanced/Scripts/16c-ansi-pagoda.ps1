@@ -1,13 +1,4 @@
-﻿# Converted from: PAGODA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansi/raw/PAGODA.ANS
-# Source Revision: archive-sha256:50aaa63d173fc2f34f94b8a5b526a5ee8a8b9d7908c42264ab949073e7e0edf9
-# Source SHA-256: bc1cac45593b2cd026b7706231614558d45d2f558c7b905f5d223d8930633edb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PAGODA.ANS by Scat (ansi); released in ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: PAGODA.ANS by Scat | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansi-pagoda
 
 Write-Host '
        [1;37m▄███[0m              [33m███[0m             [1;37m⌂   [0;33m███[0m         [1;5;37m♦[0m

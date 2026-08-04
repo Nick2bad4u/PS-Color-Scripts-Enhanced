@@ -1,18 +1,4 @@
-﻿# Converted from: CO-DEV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bdp-0396/raw/CO-DEV.ANS
-# Source Revision: archive-sha256:fe5366e95d3996c23db1751d58a751cf943c2c7a9334dc99baa85e141a7a16a7
-# Source SHA-256: e75a0038795341588aad280645d6742b49669bfd16991a3eaa793d431a896c6a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CO-DEV.ANS by Coeffey (BdP); released in bdp-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: devious
-# SAUCE Author: Coeffey
-# SAUCE Group: BdP
-# SAUCE Date: 19960221
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: devious by Coeffey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bdp-0396-co-dev
 
 Write-Host '
 [1;30m▀       ■                  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: KS!-INSA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0396/raw/KS!-INSA.ANS
-# Source Revision: archive-sha256:ca76fc280b2a4bc027c52e1f5a3fd444bfc4dc199573d0f93ae0c0df3b3abb90
-# Source SHA-256: a01cd1cf90439fe41527b2b3b97a86eeb02b065a2ac0d4db42a6ed235cec2196
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KS!-INSA.ANS by Kestrel (MiSTiGRiS); released in mist0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Insanity 96
-# SAUCE Author: Kestrel
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19960316
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Insanity 96 by Kestrel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0396-ks-insa
 
 Write-Host '
 [35m██████████▌[0;37m [0;1;31m█▌[0;1;33;43m█[0;1;31;43m▓[0;1;31;40m█████████▀██████████████▀▀████[0;1;31;43m▓[0;1;31;40m██▄▄[0;1;33;40m▀▀███▀[0;1;31;40m ▄▄▄▄▄▄▄  [0;1;33;40m▀███▀▄███▀▀██[0m

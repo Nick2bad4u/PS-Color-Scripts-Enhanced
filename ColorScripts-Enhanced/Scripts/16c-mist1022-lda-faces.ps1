@@ -1,19 +1,4 @@
-﻿# Converted from: LDA-FACES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1022/raw/LDA-FACES.ANS
-# Source Revision: archive-sha256:b4cfb070b10229c71b6cdba49fff141c03f4ad9e6e51a5ef68dfa1930822da97
-# Source SHA-256: e37738dafc90511349555b9812e4fe20a1ebc56dc293ed427440aed9e60f3366
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LDA-FACES.ANS by LDA (Mistigris); released in mist1022 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Faces
-# SAUCE Author: LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20221029
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Faces by LDA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1022-lda-faces
 
 Write-Host '
                                                                 [35;44m█[0;34;40m▓▓[0m

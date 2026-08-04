@@ -1,15 +1,4 @@
-﻿# Converted from: KS-NRX02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jive1096/raw/KS-NRX02.ANS
-# Source Revision: archive-sha256:4088bb5774f9b38859804abb70d54fee1333f0bbe32acb21357a9f799a1418d7
-# Source SHA-256: 3a1e9d4ce2789fed7b98c6ec4d4accaf4acf4434ef6d6b9c9c22f90038bbd1c0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KS-NRX02.ANS by k-spiff (jive1096); released in jive1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: NightRaid X
-# SAUCE Author: k-spiff
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: NightRaid X by k-spiff | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jive1096-ks-nrx02
 
 Write-Host '
      [32m    [0m      [32m [0m  [32m  [0m     [32m [0m                [35m▄▄■[0m             [35m▄▄■[0m

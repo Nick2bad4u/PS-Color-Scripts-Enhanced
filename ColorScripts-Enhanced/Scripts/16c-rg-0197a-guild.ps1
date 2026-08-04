@@ -1,18 +1,4 @@
-﻿# Converted from: GUILD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rg-0197a/raw/GUILD.ANS
-# Source Revision: archive-sha256:4bc27325d13f712edf2110cd11717d490f6bde1cd8827262e7c1b1224b0317e9
-# Source SHA-256: 74d68faf4b6de6b82b02f4f688fe9a7619e7462e9d9b67f71235e8fcbe492b60
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GUILD.ANS by Night Hunter (RAGE Arts); released in rg-0197a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Guild
-# SAUCE Author: Night Hunter
-# SAUCE Group: RAGE Arts
-# SAUCE Date: 19961030
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Guild by Night Hunter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rg-0197a-guild
 
 Write-Host '
 [33m     [0m

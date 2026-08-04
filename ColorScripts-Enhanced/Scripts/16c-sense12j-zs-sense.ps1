@@ -1,13 +1,4 @@
-﻿# Converted from: ZS-SENSE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense12j/raw/ZS-SENSE.ANS
-# Source Revision: archive-sha256:e1859c229de4f4dd1e65990d325e90f1a80e1ce3863ae80925f53e6878990dc6
-# Source SHA-256: daf7fe0ed44cdd576c849b24e9051973bd16284cd224a2a425ddb9c5f47f979a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZS-SENSE.ANS by Zerostar (sense12j); released in sense12j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: ZS-SENSE.ANS by Zerostar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense12j-zs-sense
 
 Write-Host '
 [1;35m [0;34m░░[0;1;34;44m▀██▄[0;34m▄ ██[0;1;34;44m▀█[0;1;34;46m▄▄▄[0;1;34;44m██▀▀[0;34m████▀ ▄█[0;1;34;44m▄[0;34m█▀ ▐[0;1;34;44m▀▌[0;34m█▀█[0;1;34;44m▀[0;1;34;46m▄▄▓[0;1;34;44m█▀ [0;34m█▀██▄▀█[0;1;34;46m▄▓[0;1;34;44m▄[0;34m▄ ▀█[0;1;34;44m▀▀[0;34m█[0;1;34;44m▄[0;1;34;46m▀[0;1;34;44m█[0;34m███▀ ▄█[0;1;34;44m▀ ▄█[0;34m▌░ █[0m

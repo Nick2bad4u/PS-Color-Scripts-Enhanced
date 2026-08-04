@@ -1,13 +1,4 @@
-﻿# Converted from: us-dist.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/crisis9/raw/us-dist.ans
-# Source Revision: archive-sha256:4a6dc91ed3f4b07efbca45e28bb9c5eb5d2dc5a4b9a9571d7f4b3ad9b762f736
-# Source SHA-256: fe4112e52bd01c6bc236533f76448762a96852ef3918bb8827fef17464c4a09e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-dist.ans by Enzo + Fat Pacifist + Kid Frost (crisis9); released in crisis9 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 149-198
-# Columns: 1-80
+﻿# Artwork: us-dist.ans by Enzo + Fat Pacifist + Kid Frost | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-crisis9-us-dist-part04
 
 Write-Host '
 ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄

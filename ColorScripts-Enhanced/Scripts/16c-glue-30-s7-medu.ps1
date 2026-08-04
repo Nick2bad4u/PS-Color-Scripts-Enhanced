@@ -1,18 +1,4 @@
-﻿# Converted from: S7-MEDU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-30/raw/S7-MEDU.ANS
-# Source Revision: archive-sha256:962f4152a816a0536caf737c5088d0ec7bfe2e6c336907de4a27279b60da424e
-# Source SHA-256: 908edd41ff89f3179d92bf57a781f3527dcdb28404b6398d6a27d94d1e39bb06
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S7-MEDU.ANS by Somberlain + Zerovision (Glue); released in glue-30 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Medusa BBS Software
-# SAUCE Author: Somberlain
-# SAUCE Group: Glue
-# SAUCE Date: 20000304
-# SAUCE Dimensions: 80x44
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Medusa BBS Software by Somberlain + Zerovision | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-30-s7-medu
 
 Write-Host '
   [1m▄▄[0;1;47m▓▒░[0m███▀▀[1;32m [0;1;30m▄▄██████▀▀▄[0;1;32m  [0m▀█[1;47m░░▒▓▓█[0;1;40m█████[0;1;47m▀[0m▀▀ [1;32m  [0m▀[1;47m▀███▓▒░[0m█▀ [1;32m [0;1;30m▐██▀▀▀[0;1;30;47m▒▀[0;1;30;40m█▄▀████[0;1;30;47m▓▒[0m▄[1;32m [0m▀[1;47m░▒[0;1;37;47m▓[0m

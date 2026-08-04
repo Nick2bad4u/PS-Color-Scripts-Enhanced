@@ -1,18 +1,4 @@
-﻿# Converted from: GS-BSUN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1095/raw/GS-BSUN1.ANS
-# Source Revision: archive-sha256:488aebab08e35324a58b5bebccf7bdfbf1e869dd6136b50cfbc4e715d6ca4745
-# Source SHA-256: 0b9d5a268ade8d0adde0848fd4df01f5dd3ee85b56e86689432d6731e7b47b56
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GS-BSUN1.ANS by Ghengis (ACiD Productions); released in acdu1095 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Black Sunshine
-# SAUCE Author: Ghengis
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19951001
-# SAUCE Dimensions: 80x70
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Black Sunshine by Ghengis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1095-gs-bsun1-part01
 
 Write-Host '
    [32m▄▄▓[0;37m [0;33m▒[0;37m  [0;1;30m [0;33m░ ▒[0;1;30m   ▄▄▀▀▀▀▀▀▀▄▄  [0;32m                   [0m       [33m░[0m    [33m░[0m           [33m░▓▒▒░[0m

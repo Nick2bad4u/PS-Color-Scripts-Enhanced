@@ -1,17 +1,4 @@
-﻿# Converted from: PPE-DODL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spin04/raw/PPE-DODL.ANS
-# Source Revision: archive-sha256:d8d0b243395a454162bf4e70cc5ed89a7700344e3544729263edb9daedb33d8c
-# Source SHA-256: ab7a91f64af8c1f33c6a7663c5e3d831a82512db20f5d6da4c6d980a40d2e9d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PPE-DODL.ANS by purplee (spin); released in spin04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: purplee
-# SAUCE Group: spin
-# SAUCE Date: 19981124
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: PPE-DODL.ANS by purplee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spin04-ppe-dodl
 
 Write-Host '
 [1;30m░░░░░░░░[0m         [1;34m``*s$[0;1;37m$[0;34m$$$$[0;1;34mss[0m                           [1;34m__ _[0;1;37mss[0;34ms[0m

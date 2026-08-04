@@ -1,18 +1,4 @@
-﻿# Converted from: US-CHARM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook13/raw/US-CHARM.ANS
-# Source Revision: archive-sha256:f383b37d2f0265a83b82afcdde57a4dae359d8a5127c467dcea28d0c8500d000
-# Source SHA-256: bf372890b0047c4b826b42578599835487d6037186c281a745b7b5d263c790e2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CHARM.ANS by Toot + Ventti (Charm & Black Maiden); released in bmbook13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Charm
-# SAUCE Author: ventti.toot
-# SAUCE Group: Charm & Black Maiden
-# SAUCE Date: 19970322
-# SAUCE Dimensions: 80x12
-# Lines: 1-12
-# Columns: 1-80
+﻿# Artwork: Charm by Toot + Ventti | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook13-us-charm
 
 Write-Host '
 

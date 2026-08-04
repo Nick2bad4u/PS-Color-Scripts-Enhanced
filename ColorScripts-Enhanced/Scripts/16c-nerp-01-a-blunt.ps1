@@ -1,18 +1,4 @@
-﻿# Converted from: A-BLUNT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-01/raw/A-BLUNT.ANS
-# Source Revision: archive-sha256:c4f943c9f8f5c49a2aabdd3612f9f26bd1b04de18aa8de6e38c69a3051111537
-# Source SHA-256: 6af7213d25c7c7473e473ed441e7a6617035db2ec115a7dbe86db399099874c9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: A-BLUNT.ANS by alecs (nerp); released in nerp-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: blunt
-# SAUCE Author: alecs
-# SAUCE Group: nerp
-# SAUCE Date: 19970712
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: blunt by alecs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-01-a-blunt
 
 Write-Host '
             ░     [32m▄[0;1;32m▄[0m▄[1;32m▄[0;32m▄░[0m    [32m▄▐ ░[0;30;42m▓[0m   [32;40m▄ ▌[0m    [30;42m▓[0;32;40m░[0m

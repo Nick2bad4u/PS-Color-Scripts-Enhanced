@@ -1,19 +1,4 @@
-﻿# Converted from: 5m-twenty4beers.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-004/raw/5m-twenty4beers.ans
-# Source Revision: archive-sha256:c716e28d4b828a0135c19992fe2f71464879479199ebc42fd3d533b5bd3bf4d4
-# Source SHA-256: 532172e4ecfc71f911c0472f6839959d432f409f45006272d217e040364bc19c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5m-twenty4beers.ans by Smooth (Legacy Krew); released in lgcy-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: $20 for Beers
-# SAUCE Author: Smooth
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20220210
-# SAUCE Dimensions: 80x160
-# SAUCE Font: IBM VGA
-# Lines: 80-118
-# Columns: 1-80
+﻿# Artwork: $20 for Beers by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-004-5m-twenty4beers-part03
 
 Write-Host '
    [1;30m▄███▀▀[0;1;37m▄▌[0;33m█[0;36;43m▒[0;33;40m███[0;1;33;43m░░[0;33m█[0;37m [0;1;37m▀▄▄[0m      [33m▄█[0;1;31;43m▄▀▀[0;1;33;43m  ▀█▀[0;33m█[0;1;33;43m░░▒▒▒░[0;33m██▄[0;37m [0;1;37m▌[0m  [1;30m█▀[0m    [33m█[0;36;43m▒[0;33;40m███[0;1;33;43m░░[0;33m█[0;37m [0;1;37m▀▄▄[0m [1;30m▀▀███▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: MOUNTY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr039/raw/MOUNTY.ANS
-# Source Revision: archive-sha256:c9f4089d2b5b2cd460bf831bacf0aedf023ad23933c86c87f99086e5afa1f00f
-# Source SHA-256: 0a5bee11de6b06dcf1ccc049d1b39779771613efbd7ea9c0e4f0337771726f2e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MOUNTY.ANS by Happyfish (blndr039); released in blndr039 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: MOUNTY.ANS by Happyfish | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr039-mounty
 
 Write-Host '
 [30;41m [0;31;47m █[0;30;47m [0;31;47m              [0;30;47m                                       [0;1;36;47m    [0;30;47m [0;1;36;47m  [0;30;47m [0;1;36;47m         [0;30;47m [0;1;36;47m█ █[0m

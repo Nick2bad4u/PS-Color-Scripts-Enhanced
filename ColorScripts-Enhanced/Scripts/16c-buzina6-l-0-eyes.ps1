@@ -1,15 +1,4 @@
-﻿# Converted from: l&0-eyes.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/buzina6/raw/l%260-eyes.ans
-# Source Revision: archive-sha256:3e5537a18a122815d4c73fc8beda9e55f4e65a91e06cd054cf266c0ca6afd88f
-# Source SHA-256: a05616365b1623454ae3747b63d94e82d58f0fe2f022ac2a210d96b88a93ae29
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: l&0-eyes.ans by Lip + 0xel (buzina6); released in buzina6 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 20030205
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: l&0-eyes.ans by Lip + 0xel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-buzina6-l-0-eyes
 
 Write-Host '
 [1m                        [0;1;34;41m               [0m

@@ -1,17 +1,4 @@
-﻿# Converted from: AVG-AIS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-03/raw/AVG-AIS1.ANS
-# Source Revision: archive-sha256:d2599b97a9288d8f82ddd62f9c4821cdc0d5105bf01763fad11be3b958d4ce10
-# Source SHA-256: 1561630aa096e8dae47f72575731ca6f63fc17eb5198916789ec224d4b0d5d90
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-AIS1.ANS by Avenging_Angel (The Used Coalition); released in used-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ais
-# SAUCE Author: Avenging_Angel
-# SAUCE Group: The Used Coalition
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Ais by Avenging_Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-03-avg-ais1
 
 Write-Host '
         [32m▄[0;1;32;42m▄[0;32m██▄[0;1;30m  [0m [1;30m [0m     [1;30m         [0m  [1;30m           [0m                     [32m      [0;1;37mavg[0;1;30m([0mused[1;30m)[0m

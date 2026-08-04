@@ -1,18 +1,4 @@
-﻿# Converted from: MR-CTV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira9807/raw/MR-CTV.ANS
-# Source Revision: archive-sha256:c471c4d36ee5bf845811666c0e7a6f5bfba6ac001a5bbd5053c14dd8e5728ef2
-# Source SHA-256: 1b820d52025ae98293fc9b7aed75c9111a561ac91caaf69e73b87c211de2565e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-CTV.ANS by Mr.Wrong (Glue); released in ira9807 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Color T.V.
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: Glue
-# SAUCE Date: 19980701
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Color T.V. by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira9807-mr-ctv
 
 Write-Host '
                [1;34m [0m                         [31m ▄[0;37m [0;33m▀[0m

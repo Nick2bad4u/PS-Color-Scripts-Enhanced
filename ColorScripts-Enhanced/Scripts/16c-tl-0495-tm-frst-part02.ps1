@@ -1,18 +1,4 @@
-﻿# Converted from: TM-FRST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl-0495/raw/TM-FRST.ANS
-# Source Revision: archive-sha256:da48fc47aba1bdba6b1e6a892ddb2b6235082718f1e79e85e087949e87e785f8
-# Source SHA-256: 1c7de6b6cf6d492dcda0278639e6d258576a0ce27cf7e8bf69cdc06c190db9f4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TM-FRST.ANS by Tyme (TekLordZ); released in tl-0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Terminal Frost
-# SAUCE Author: Tyme
-# SAUCE Group: TekLordZ
-# SAUCE Date: 19950329
-# SAUCE Dimensions: 80x25
-# Lines: 36-74
-# Columns: 1-80
+﻿# Artwork: Terminal Frost by Tyme | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl-0495-tm-frst-part02
 
 Write-Host '
 [35m  [0;34m▒■ █[0;1;34;44m░░[0;34m█[0;1;34;44m▒[0;34m▀  [0;1;33m░   ▄██[0;1;33;43m▓▓[0;1;33;40m████[0;1;33;43m▓▓▓▓▒░░[0;1;33;40m▀  ░[0m             [34m█[0;1;34;44m░[0;34m▌▄▓▐[0;1;34;44m░▒▒[0;34m█[0m                   [35m░[0m

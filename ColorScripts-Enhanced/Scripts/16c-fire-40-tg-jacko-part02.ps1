@@ -1,19 +1,4 @@
-﻿# Converted from: TG-JACKO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-40/raw/TG-JACKO.ANS
-# Source Revision: archive-sha256:aff8105c0a955ac5c43ea367a02b086cd2849f6741fc41b8a5ff440b77e104a7
-# Source SHA-256: 29d7c272a39500b55d71d6de8d4b3770a7abdcafcd52ca9a3e15078d9cb70407
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-JACKO.ANS by Toon Goon (FiRE); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Jack-O-Lantern
-# SAUCE Author: Toon Goon
-# SAUCE Group: FiRE
-# SAUCE Date: 20240707
-# SAUCE Dimensions: 80x120
-# SAUCE Font: IBM VGA
-# Lines: 43-81
-# Columns: 1-80
+﻿# Artwork: Jack-O-Lantern by Toon Goon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-40-tg-jacko-part02
 
 Write-Host '
 [33m▀[0;1;31;43m▀[0;1;31;40m████████ [0;1;30;40m▀ ▀▄[0m           [33m▀[0;1;31m▀[0;1;31;43m▀█[0;33m███████ [0;1;31m██[0;1;33m █████████▀[0;33m▄██[0;1;31;43m█[0;33m█[0;1;31;43m▄▀ [0;33m████████[0;1;31;43m ▀[0;33m██████████▀[0m

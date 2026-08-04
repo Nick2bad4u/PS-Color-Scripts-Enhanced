@@ -1,13 +1,4 @@
-﻿# Converted from: AM-PITS1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-12/raw/AM-PITS1.ICE
-# Source Revision: archive-sha256:03ccb24bebad343fffc4daed3f054ccd0ca265066fb8b4feff7bb3f469aac14e
-# Source SHA-256: 9cee759f97bf9ad5946299ab1fedd8866405695f01cedf56ec46a2d7eb934b2a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AM-PITS1.ICE by Amroth (icepk-12); released in icepk-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 40-75
-# Columns: 1-80
+﻿# Artwork: AM-PITS1.ICE by Amroth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-12-am-pits1-part02
 
 Write-Host '
                   [31m░▒   ░░[0m     [31m░[0m           [1;30m░▒[0m              [1;30m▐▓▓░▒▓▒▒▒[0;33m▄▄▄ [0;1;30m░▒▒░  [0;33m▄▄[0m

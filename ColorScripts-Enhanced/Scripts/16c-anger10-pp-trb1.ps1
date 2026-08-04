@@ -1,16 +1,4 @@
-﻿# Converted from: PP-TRB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger10/raw/PP-TRB1.ANS
-# Source Revision: archive-sha256:a84fd6d21030f26985899f91a956dceb5637b0b2cbc8b90ab0b918890b9e87cd
-# Source SHA-256: 237e933404f5beaf57183106fe782ae52b7855571d64ce5cf7fb58581354433c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PP-TRB1.ANS by pixel_pusher (anger); released in anger10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the rebel base
-# SAUCE Author: pixel_pusher
-# SAUCE Group: anger
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: the rebel base by pixel_pusher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger10-pp-trb1
 
 Write-Host '
 

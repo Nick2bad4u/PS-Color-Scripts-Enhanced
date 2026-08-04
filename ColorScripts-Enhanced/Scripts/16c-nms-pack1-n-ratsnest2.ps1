@@ -1,20 +1,4 @@
-﻿# Converted from: n(_ratsnest2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nms_pack1/raw/n(_ratsnest2.ans
-# Source Revision: archive-sha256:f99a1419a85f2107a1ef905f45d33edf79d1a955e17b541807601af9adb4edeb
-# Source SHA-256: 1f48968677fecd63307ad71cac53873718eb1b0db77ecce3b7f5a759a7604c65
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: n(_ratsnest2.ans by nemesulku (acid rain); released in nms_pack1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Rat's Nest logo
-# SAUCE Author: nemesulku
-# SAUCE Group: acid rain
-# SAUCE Date: 19980329
-# SAUCE Dimensions: 80x21
-# SAUCE Font: IBM VGA
-# SAUCE Comments: This might've been Rat's Nest login screen at one point.. - brac | ket
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Rat's Nest logo by nemesulku | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nms-pack1-n-ratsnest2
 
 Write-Host '
                                   [1;37;40m▄[0m▄[1;30m▄[0m▄[31m▄[0;1;30m [0;31m▄[0;1;30m▄[0;31m▄[0;1;30m   ▄▄▄▄▄▄[0m

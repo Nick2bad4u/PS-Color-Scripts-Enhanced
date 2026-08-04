@@ -1,20 +1,4 @@
-﻿# Converted from: DARKMAN_ALMIGHTY-TREKMAS_LOVE_STORY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1223/raw/DARKMAN_ALMIGHTY-TREKMAS_LOVE_STORY.ANS
-# Source Revision: archive-sha256:86d02e5103ccb7950792473f0c3e4ca18e595c9011c06df5ce1fe1692dbd9f5a
-# Source SHA-256: 7888691bc0d68c30f60e9071454fff55cd8b65d507244ac5538b180a8b1c14bc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DARKMAN_ALMIGHTY-TREKMAS_LOVE_STORY.ANS by Darkman Almighty (Mistigris); released in mist1223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: A Trekmas Love Story
-# SAUCE Author: Darkman Almighty
-# SAUCE Group: Mistigris
-# SAUCE Date: 20231213
-# SAUCE Dimensions: 80x118
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Coming this holiday season brought to you by The Hallmark Channe | l; A Trekmas Love Story. Celebrate Christmas aboard the USS Ente | rprise. Do Picard and Crusher finally explore their burning love | for eachother? or are they doomed fighting a merry little cryst | aline entity. | ** Tune in December 25th to find out.
-# Lines: 101-118
-# Columns: 1-80
+﻿# Artwork: A Trekmas Love Story by Darkman Almighty | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1223-darkman-almighty-trekmas-love-story-part03
 
 Write-Host '
 [33;40m█▓[0;37;40m [0;32;40m█[0;34;42m▄[0;1;37;42m▀▀▀▀[0;31;42m▄[0;37;40m [0;33;40m██▓█[0;31;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;33;40m█[0;37;40m [0;32;40m█[0;34;42m▄[0;1;37;42m▀▀▀▀[0;31;42m▄[0;37;40m [0;33;40m▓██[0m

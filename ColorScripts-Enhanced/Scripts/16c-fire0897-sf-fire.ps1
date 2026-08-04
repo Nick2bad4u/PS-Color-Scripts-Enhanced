@@ -1,18 +1,4 @@
-﻿# Converted from: SF-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0897/raw/SF-FIRE.ANS
-# Source Revision: archive-sha256:2f847e13ac44c4a612ca9588cf01055509cccf841191e379aa1210361ce47235
-# Source SHA-256: e7e7c67de6aaca7f19d819dcf5c22dd8c124fa73576f4b883054da2c02e7e7a9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SF-FIRE.ANS by Shaft (Fire); released in fire0897 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fire Promotion
-# SAUCE Author: Shaft
-# SAUCE Group: Fire
-# SAUCE Date: 19970806
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Fire Promotion by Shaft | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0897-sf-fire
 
 Write-Host '
 [1;36m        [0;34m░░░░░ [0m   [36m▐[0;1;34;46m░[0;36m▄▄[0m           [1;34m▐[0;30;46m░[0;36;40m▓[0;1;34;40m▄▄[0m   [34m░░░░          [0;37m               [0;34m░░░░░░░░[0m

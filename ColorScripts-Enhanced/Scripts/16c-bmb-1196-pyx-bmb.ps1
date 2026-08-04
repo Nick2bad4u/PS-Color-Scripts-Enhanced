@@ -1,18 +1,4 @@
-﻿# Converted from: PYX-BMB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-1196/raw/PYX-BMB.ANS
-# Source Revision: archive-sha256:ea255d5404a293fd28c5348aeea6d132b83dc51aad0630d7773e1cb9fa7be562
-# Source SHA-256: 99d80739ca0fe6d5eeda2c1f40343e19a375eddad2874273efe2395d3c8d7b7d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-BMB.ANS by Pyx (Bamboosh); released in bmb-1196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Bamboosh!? (-hsoobmaB
-# SAUCE Author: Pyx
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19960919
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Bamboosh!? (-hsoobmaB by Pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-1196-pyx-bmb
 
 Write-Host '
 

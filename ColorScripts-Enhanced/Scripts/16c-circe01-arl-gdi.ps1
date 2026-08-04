@@ -1,13 +1,4 @@
-﻿# Converted from: ARL-GDI!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe01/raw/ARL-GDI!.ANS
-# Source Revision: archive-sha256:0b64c26f533b8c11a1aca04e7dcc1e21d4b014c2d6532ba66a48148862d54cb2
-# Source SHA-256: b6e35ae8e19b478f2267d5cf79dd20c187d8785888d4c09a5d0c433595ae1920
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARL-GDI!.ANS by Arlequin (circe01); released in circe01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ARL-GDI!.ANS by Arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe01-arl-gdi
 
 Write-Host '
 [31m  ▄▄▄[0;30;41m░[0;31;40m▓[0;30;41m░[0;31;40m███[0;1;31;41m▄▄▄▄▄▄▄▓▓▓▒[0;31m█▌▀▀▀▓[0;30;41m░[0;31;40m▓▒▒▒░[0;30;41m▓[0;31;40m░[0m   [31;40m░[0m                    [37;40m▄▄[0m

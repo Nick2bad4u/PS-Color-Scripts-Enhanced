@@ -1,18 +1,4 @@
-﻿# Converted from: SK!STARY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p02_99/raw/SK!STARY.ANS
-# Source Revision: archive-sha256:10e8790d701c5f14493ca780325e973c002fb27f7959b877e5afeecab9308b89
-# Source SHA-256: d60715bb227cf5752163422025445ecf4b579b676dd61715b9bacc9e40d14e15
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!STARY.ANS by sIMONkING (tHElo0p); released in l0p02_99 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: sTARY fACET z lYSA gLOWA =)
-# SAUCE Author: sIMONkING
-# SAUCE Group: tHElo0p
-# SAUCE Date: 19990421
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: sTARY fACET z lYSA gLOWA =) by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p02-99-sk-stary
 
 Write-Host '
                 [1m▄ [0m                                      [1;30m▄[0m

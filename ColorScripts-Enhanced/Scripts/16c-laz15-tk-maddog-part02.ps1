@@ -1,20 +1,4 @@
-﻿# Converted from: tk-maddog.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz15/raw/tk-maddog.ans
-# Source Revision: archive-sha256:d35f5b18ac3e8cbe3d6d17eab809a7e050609a8e3cc7d160d14a87c59a191c12
-# Source SHA-256: 511a508dca2705c96c366e31a7534dfcf0c8e3bda067fe080a7faea03e271b72
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tk-maddog.ans by The Knight (Lazarus); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Maddog
-# SAUCE Author: The Knight
-# SAUCE Group: Lazarus
-# SAUCE Date: 20220313
-# SAUCE Dimensions: 80x52
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Ansi for Maddog - for no reason.
-# Lines: 27-52
-# Columns: 1-80
+﻿# Artwork: Maddog by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz15-tk-maddog-part02
 
 Write-Host '
 [30m█████████████[0;1;37;41m  [0m [1;47m▐[0;1;40m█[0m [1m▀[0;1;41m▄█[0;31m█▄[0;37m   ░[0;1;37m▄[0m░   [1m ▄█▌█[0m░   [1m  [0m [1;33m [0;1;37m [0m      [1m▄▒[0m [1;41m▄█▄[0;31m█▄[0;37m    [0;1;33;41m░[0;1;37;41m [0;30m█████████████[0m

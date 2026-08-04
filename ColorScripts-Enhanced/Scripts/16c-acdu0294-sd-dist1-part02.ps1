@@ -1,18 +1,4 @@
-﻿# Converted from: SD-DIST1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0294/raw/SD-DIST1.ANS
-# Source Revision: archive-sha256:0b07fb9329d81f40ead17ad1bfccb58be060a9dc7ff2828ea9938c5cac09a5a8
-# Source SHA-256: 3fa677246587819aea088dd75855abf22d22651c4b92ff5494a333558abd31a3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-DIST1.ANS by Hannibal Lecter + Sand (ACiD Productions); released in acdu0294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Distorted Reality
-# SAUCE Author: Sand
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940115
-# SAUCE Dimensions: 80x124
-# Lines: 44-82
-# Columns: 1-80
+﻿# Artwork: Distorted Reality by Hannibal Lecter + Sand | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0294-sd-dist1-part02
 
 Write-Host '
 [33m▓▓ ▒░ █[0;1;31;43m░[0;33m█ ▓▒░  █▌▄▀▀ ▄▒▒    ░▒[0m                             [1;30m▀▀[0;1;30;43m▓█[0;1;30;40m▄[0m        [33m▓▓█▓▒▓█[0m

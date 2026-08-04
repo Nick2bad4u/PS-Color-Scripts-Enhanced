@@ -1,20 +1,4 @@
-﻿# Converted from: wa-NOVA22.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz16/raw/wa-NOVA22.ans
-# Source Revision: archive-sha256:b093dd3cb06bf783d59a9df3724c51f9a41f686cd4fd545c920ada008d959f7a
-# Source SHA-256: 3595b694804e22a0513bb31fe60070cdfbc3b155a0a5a6b273d68d7c9def2ea2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-NOVA22.ans by warpus (LAZARUS); released in laz16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: NOVA 22
-# SAUCE Author: warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20220813
-# SAUCE Dimensions: 80x41
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Drawn on steroids and antibiotics
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: NOVA 22 by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz16-wa-nova22
 
 Write-Host '
 [1;30m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m

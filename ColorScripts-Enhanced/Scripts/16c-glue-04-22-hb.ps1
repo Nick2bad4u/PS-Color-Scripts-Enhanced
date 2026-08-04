@@ -1,18 +1,4 @@
-﻿# Converted from: 22-HB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-04/raw/22-HB.ANS
-# Source Revision: archive-sha256:a183453b0b057b28f8e3a2d35babc61b59dbf71d40a258198f360e299e3212ab
-# Source SHA-256: c7ecf09e953c246dcc17e5e44ba06dfe7c2da3f0ce09278989efebf8be02972c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 22-HB.ANS by catch22 (glue); released in glue-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hellbound
-# SAUCE Author: catch22
-# SAUCE Group: glue
-# SAUCE Date: 19971020
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: hellbound by catch22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-04-22-hb
 
 Write-Host '
 [1;36m22glue[0;36m [0;1;33m▄▄▄[0;1;37m▄[0m

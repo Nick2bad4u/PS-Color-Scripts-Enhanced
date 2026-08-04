@@ -1,20 +1,4 @@
-﻿# Converted from: jp!-zn20.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-dsotb/raw/jp!-zn20.ans
-# Source Revision: archive-sha256:31e1fdfda207a2147f2b0badf1415308dc54d4c24afa56622db8a43f68f110f1
-# Source SHA-256: 81cfe99500b50f75471839c988c5c30016a289487f685c62f5a52e53aaeaa51b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: jp!-zn20.ans by jack phlash (blocktronics); released in blocktronics-dsotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: zer0net big 20!
-# SAUCE Author: jack phlash
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190725
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# SAUCE Comments: celebrating zer0net's 20th birthday this august 2019!
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: zer0net big 20! by jack phlash | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-dsotb-jp-zn20
 
 Write-Host '
    [34m■[0;36m  [0;35mT  [0;1;35mH[0;35m  [0;1;35mE[0;35m   Z[0;1;36m  [0;1;35mE  R[0;1;36m  [0;1;35m0[0;1;36m   [0;35mN[0;1;36m  [0;1;35mE[0;1;36m  [0;1;35mT[0;1;36m  [0;1;35mW[0;1;36m  [0;1;35m0[0;1;36m  [0;1;35mR[0;1;36m  [0;1;35mK[0;35m  [0;1;34m([0;35m [0;36mE[0;35m  [0;36mS[0;35m  [0;36mT[0;35m [0;36m.[0;35m [0;1;36m1  9  9  9[0;35m [0;1;34m)[0m  [34m■[0m

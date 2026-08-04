@@ -1,19 +1,4 @@
-﻿# Converted from: g-43.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-004/raw/g-43.ans
-# Source Revision: archive-sha256:c716e28d4b828a0135c19992fe2f71464879479199ebc42fd3d533b5bd3bf4d4
-# Source SHA-256: 33115b0405869e803df1ef83f561decfe55bb15728c5b1c8eeb84ab608777c93
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: g-43.ans by G. (lEGACY kREW!); released in lgcy-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Aesthetic
-# SAUCE Author: G.
-# SAUCE Group: lEGACY kREW!
-# SAUCE Date: 20210424
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Aesthetic by G. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-004-g-43
 
 Write-Host '
                                                               [1;37;40m▄▄▄[0m

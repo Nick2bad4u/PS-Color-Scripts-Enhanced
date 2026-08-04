@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-DBAY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0221/raw/ZII-DBAY.ANS
-# Source Revision: archive-sha256:4a8c9a8001bc7db23e62733bd188b07e2f92f8b5caca34bf87f4e45dd922c1a0
-# Source SHA-256: 45b963b62816b708fab50ebaf9abd63b349d6e20eb0bd6d99f77a258936626a1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-DBAY.ANS by Zeus II (Mistigris); released in mist0221 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Danger Bay BBS
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20210118
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Danger Bay BBS by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0221-zii-dbay
 
 Write-Host '
  [35m█[0;1;35;45m■[0;35m▀▀█▄ [0;1;35;45m░[0;35m█[0;34m ▄▄▄ [0;35m▀▀▀[0;34m ▄▄▄[0;37m [0;35m▀▀▀▀[0;1;35m▀▀▀▀▀▀▀▀▀▀[0;35m▀▀[0;1;35m▀▀[0;35m▀▀▀  ▀▀[0;1;35m▀▀▀▀▀[0;35m▀▀▀ ▀▀▀▀[0;1;35m▀▀[0;35m▀▀▀▀█[0;1;35;45m▀▀▄[0;35m█▀▀▄▄[0;1;35;45m▄▄[0;35m█[0m

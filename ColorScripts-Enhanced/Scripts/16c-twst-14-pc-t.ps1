@@ -1,18 +1,4 @@
-﻿# Converted from: PC-T.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst-14/raw/PC-T.ANS
-# Source Revision: archive-sha256:6d5cfdb3f87d671bf575e9a701e6fe996a23d0a5263b88cba8907338986e3ad3
-# Source SHA-256: 6bfdded4162b25cb2ca924a18decce65605715507123b9990297a1e0eb20612c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-T.ANS by Putrid Carcass (TWISTED); released in twst-14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Tarango
-# SAUCE Author: Putrid Carcass
-# SAUCE Group: TWISTED
-# SAUCE Date: 19970623
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Tarango by Putrid Carcass | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst-14-pc-t
 
 Write-Host '
 [1;31;41mPC, TWST[0;35;41m░▓▓[0;35;40m▄▄[0;1;35;45m░░▒▓[0;35m▀[0;1;35;45m▀█[0;1;35;47m▓▓▒▒▓▓[0;1;35;40m▀█[0;1;35;45m■[0;1;35;40m▄▄▄[0;1;35;45m ▀█[0;1;35;47m▓▓[0;1;35;40m▄▄[0;35m▄[0;1;35m▀▀[0;35m▀[0;1;35m▄[0;35m▄[0m                   [35m▄▄▄▄[0;1;35;45m░[0;35m▌[0m

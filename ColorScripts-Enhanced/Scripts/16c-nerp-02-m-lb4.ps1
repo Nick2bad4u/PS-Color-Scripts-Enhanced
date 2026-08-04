@@ -1,18 +1,4 @@
-﻿# Converted from: M-LB4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-02/raw/M-LB4.ANS
-# Source Revision: archive-sha256:3fd9f194d865cfc24c90bdf11a27528d8d82a8ba9c376ebed567183a2f95a9f3
-# Source SHA-256: d1891adecb4b98f693e744d9b4d299023297eb4bf23f80db619997a139ff49a1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M-LB4.ANS by milkmang (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: lunchbox (4) setupscreen
-# SAUCE Author: milkmang
-# SAUCE Group: nerp
-# SAUCE Date: 19971102
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: lunchbox (4) setupscreen by milkmang | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-02-m-lb4
 
 Write-Host '
 [1;36m▓████[0;1;36;46m██████▓░[0;36m█████▀█████████████[0;33m   [0m

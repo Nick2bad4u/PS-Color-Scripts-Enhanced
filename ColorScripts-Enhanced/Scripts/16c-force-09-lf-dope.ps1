@@ -1,18 +1,4 @@
-﻿# Converted from: LF-DOPE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-09/raw/LF-DOPE.ANS
-# Source Revision: archive-sha256:ce8026e794474c6e48d574a76c9366e170e87fe95fba0f1638e56cb02945c814
-# Source SHA-256: bf81a8b578070e6d8968f91b8a5f931c42b67edb7218be78c2b8b6f00ef7a83e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LF-DOPE.ANS by Lucifer (fORCE); released in force-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Dope!
-# SAUCE Author: Lucifer
-# SAUCE Group: fORCE
-# SAUCE Date: 19960616
-# SAUCE Dimensions: 80x24
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Dope! by Lucifer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-09-lf-dope
 
 Write-Host '
 [1;30m                                                                                [0m

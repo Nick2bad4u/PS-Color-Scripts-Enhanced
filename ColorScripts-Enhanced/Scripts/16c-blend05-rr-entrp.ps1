@@ -1,18 +1,4 @@
-﻿# Converted from: RR-ENTRP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend05/raw/RR-ENTRP.ANS
-# Source Revision: archive-sha256:3346c70671a4c24e002cb42d75f3af112f478c146f28bb98b9942b55d0894a44
-# Source SHA-256: 918d3afd0b27795a4cdd9e7d8c604e14d82bd9fd46c8571aed11abb2337af2c5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RR-ENTRP.ANS by riddler (blend productions); released in blend05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: enterprise
-# SAUCE Author: riddler
-# SAUCE Group: blend productions
-# SAUCE Date: 19961222
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: enterprise by riddler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend05-rr-entrp
 
 Write-Host '
 [31m███████████████████▀▀▀▀▀███▀▀▀█████████████████████████████████████████████████[0m

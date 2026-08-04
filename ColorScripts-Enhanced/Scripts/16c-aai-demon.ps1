@@ -1,13 +1,4 @@
-﻿# Converted from: DEMON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aai/raw/DEMON.ANS
-# Source Revision: archive-sha256:d609309bc496eaced8ac02ae95e3a3d5ea9f2dea8c65d5d6072738f0b9f17c93
-# Source SHA-256: ccb348dc538b28435cb7b93d6eede0ac950b24a6df3729177bd9babc866442f7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DEMON.ANS by Smooth (aai); released in aai and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: DEMON.ANS by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aai-demon
 
 Write-Host '
 ===========================================================================

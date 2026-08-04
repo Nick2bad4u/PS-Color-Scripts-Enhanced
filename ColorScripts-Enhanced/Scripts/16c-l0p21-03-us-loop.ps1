@@ -1,18 +1,4 @@
-﻿# Converted from: US-LOOP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p21_03/raw/US-LOOP.ANS
-# Source Revision: archive-sha256:6dd1bcc7f33fdea340cde4c01f01e87dc9ca492adcd030fa6cec941bff29d863
-# Source SHA-256: 529c1eb5f45017ad5eda08293f724850a8a18f1c512cab1e68247a39e960acae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-LOOP.ANS by Simonking + Wikman (thelo0p); released in l0p21_03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: thelo0p
-# SAUCE Author: wikman^simonking
-# SAUCE Group: thelo0p
-# SAUCE Date: 20031202
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: thelo0p by Simonking + Wikman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p21-03-us-loop
 
 Write-Host '
 [1;34;46m▓▒░░▒▒[0m         [1;30m▄[0;1;34m▄▄[0;36m▄▄▄[0m      [1;30m▄[0;36m▄[0;1;34m▄▄[0;1;34;46m▓▓▓[0;1;34;44m▓▓▓▓▓[0;34m▄▄▄ [0m

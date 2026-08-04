@@ -1,13 +1,4 @@
-﻿# Converted from: OS-DD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/atm-0793/raw/OS-DD.ANS
-# Source Revision: archive-sha256:2791ea7960360c43fee92e39a37f109c33350847675dee72209056037e0dfd3e
-# Source SHA-256: 574503a1e7b80ad2764783636d7228806a3342d60bd78687561dc64ba3eab61e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OS-DD.ANS by Ono-Sendai (atm-0793); released in atm-0793 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: OS-DD.ANS by Ono-Sendai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-atm-0793-os-dd
 
 Write-Host '
                   [1;33m▄[0;1;33;46m█[0;1;33m▄[0m                        [1;33m▐[0;1;33;46m▓[0;1;33m█[0m        [1;33m▄▄[0;1;33;46m██[0;1;33m▀[0m

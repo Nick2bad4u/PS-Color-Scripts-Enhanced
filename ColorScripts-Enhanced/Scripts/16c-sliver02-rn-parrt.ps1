@@ -1,18 +1,4 @@
-﻿# Converted from: RN-PARRT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sliver02/raw/RN-PARRT.ANS
-# Source Revision: archive-sha256:4e42af291937d6cfda1ffdc786ce33443c6145c7524c76570a1f8a3fbf372fef
-# Source SHA-256: 6882ae6366006746a3bdb3c8d57eb9e7dbfff65739806ff079b2542a7f020369
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RN-PARRT.ANS by ruiner (sliver); released in sliver02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: parrot
-# SAUCE Author: ruiner
-# SAUCE Group: sliver
-# SAUCE Date: 19970328
-# SAUCE Dimensions: 80x25
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: parrot by ruiner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sliver02-rn-parrt
 
 Write-Host '
            [1;33m▄[0m               [1;33m▄[0m

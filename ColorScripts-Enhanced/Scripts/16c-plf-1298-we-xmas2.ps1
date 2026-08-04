@@ -1,18 +1,4 @@
-﻿# Converted from: WE-XMAS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1298/raw/WE-XMAS2.ANS
-# Source Revision: archive-sha256:075f933f0da18fbaf6a548eb0d971a2c335f576db461f97402cdbe530ee397b2
-# Source SHA-256: 48c7b9df2fcba85dd77a49182d3a8ec79a8f096459c1db9fb258870c081ae1ee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WE-XMAS2.ANS by Big Yellow Man + Plc (poffelipoff); released in plf-1298 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: merry xmas!#%
-# SAUCE Author: bym >> plc
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19981224
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: merry xmas!#% by Big Yellow Man + Plc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1298-we-xmas2
 
 Write-Host '
       [1m▀[0m        [1;30m  [0m         [1;30m▄▌[0m  [1m▀[0m      [1;47m▀[0m           ░░░░

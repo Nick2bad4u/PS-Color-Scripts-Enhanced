@@ -1,18 +1,4 @@
-﻿# Converted from: PA-FROG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/unit01/raw/PA-FROG.ANS
-# Source Revision: archive-sha256:cab338f2eae80f507f7420c5633e2ed0fcca186c774137d9e9868ab55b919efb
-# Source SHA-256: 8a924d293437d4d600a9b53bc0f9929817995f3a8c51ada11e5965cdcf983ce3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PA-FROG.ANS by pandora (UNiT productions); released in unit01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: peace frog!
-# SAUCE Author: pandora
-# SAUCE Group: UNiT productions
-# SAUCE Date: 19960501
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: peace frog! by pandora | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-unit01-pa-frog
 
 Write-Host '
 [34m█████████████████████████████▄[0;1;34m▀▀██████████████▀▀[0;34m▄█████████████████████████████[0m

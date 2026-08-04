@@ -1,18 +1,4 @@
-﻿# Converted from: B!-MAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d0pe0597/raw/B!-MAIN.ANS
-# Source Revision: archive-sha256:75f6fa147ff2756ef0ec699179a2fc535ef1a8555e78479372a7ceb7b6a80326
-# Source SHA-256: c7e4f7c359e69d6be7fdc2db9498a6b9d18da4e3ae1ed84270c20df5c46526c3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: B!-MAIN.ANS by bleach (dope); released in d0pe0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dr?! main
-# SAUCE Author: bleach
-# SAUCE Group: dope
-# SAUCE Date: 19970509
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: dr?! main by bleach | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d0pe0597-b-main
 
 Write-Host '
                   [1;30m▀█▄    ▄    ▓  ▄[0m

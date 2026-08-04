@@ -1,18 +1,4 @@
-﻿# Converted from: ODB-JI1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dsco0795/raw/ODB-JI1.ANS
-# Source Revision: archive-sha256:966d7b267f819de4a0302f2a724bfb71dbffa0f22349c348b7676601afc61d5b
-# Source SHA-256: 8a8446827eed3c785c2fdb7252a5c7d7236a9fa92833a97014625f0c1e43a8f6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ODB-JI1.ANS by Ol' Dirty Bastard (READ THE INI FILE); released in dsco0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Jello Insanity
-# SAUCE Author: Ol' Dirty Bastard
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950708
-# SAUCE Dimensions: 80x25
-# Lines: 38-67
-# Columns: 1-80
+﻿# Artwork: Jello Insanity by Ol' Dirty Bastard | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dsco0795-odb-ji1-part02
 
 Write-Host '
 [1;32m───────────────────────────────────────────────────────────────────────────────[0m

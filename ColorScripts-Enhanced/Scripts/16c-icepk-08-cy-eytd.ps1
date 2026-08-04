@@ -1,13 +1,4 @@
-﻿# Converted from: CY-EYTD.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-08/raw/CY-EYTD.ICE
-# Source Revision: archive-sha256:76472331bcb8543f1e44f2a59ee8f7524c6af6373e89562b7fabb9e022104140
-# Source SHA-256: eb5ae8cbe4f7346ec82e5abb84132e899e85ce3dcadb64d045e1756ae3a1c629
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CY-EYTD.ICE by Cyclonus (icepk-08); released in icepk-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: CY-EYTD.ICE by Cyclonus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-08-cy-eytd
 
 Write-Host '
                      [1;30m█ █ [0;1;31m████[0;1;31;41m [0;1;31;40m███████████████████[0;1;31;41m [0;1;31;40m████ [0;1;30;40m█ █[0m

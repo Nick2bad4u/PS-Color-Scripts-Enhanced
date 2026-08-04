@@ -1,19 +1,4 @@
-﻿# Converted from: us-halfsies.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz15/raw/us-halfsies.ans
-# Source Revision: archive-sha256:d35f5b18ac3e8cbe3d6d17eab809a7e050609a8e3cc7d160d14a87c59a191c12
-# Source SHA-256: 4e2282807b875e0b20d3515b4018016a5a5f2ac0651e92c12e0e35be9dd741cd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-halfsies.ans by Warpus + Abstrakt (LAZARUS); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Halfsies
-# SAUCE Author: abstrakt & warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20220624
-# SAUCE Dimensions: 80x90
-# SAUCE Font: IBM VGA
-# Lines: 51-90
-# Columns: 1-80
+﻿# Artwork: Halfsies by Warpus + Abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz15-us-halfsies-part02
 
 Write-Host '
 [1;31;41m░[0;31m▀▄[0;1;31;41m▄▀[0;31m█$$# [0;1;30m░[0m      [1;30m░[0;33m  ▓[0;1;31;43m▒░░▒▒▓█[0;1;31;40m▀[0;33m           [0;1;34m,.[0;34m.       [0;1;36m.[0;36m$[0;1;36m$$$[0;36m$''   [0;1;30ml  l:[0;36m   [0;31m.`$.4$[0;1;31m$$[0;31m.`[0;1;31m$$[0m

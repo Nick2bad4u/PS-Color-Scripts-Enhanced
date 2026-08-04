@@ -1,18 +1,4 @@
-﻿# Converted from: US-LIGHT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook20/raw/US-LIGHT.ANS
-# Source Revision: archive-sha256:ad9acf30fa46ab5c9a458319782448b90dee64987e366c3cf1e5e495b40c4e0a
-# Source SHA-256: e0994f8e7246c64d19aa1b9c0eeaf3f61bb18d6c0d5b6a1bd3dc6ee6781c6e54
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-LIGHT.ANS by Shine + Bym (bm + plf); released in bmbook20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: sehnsucht
-# SAUCE Author: shine + bym
-# SAUCE Group: bm + plf
-# SAUCE Date: 19990516
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: sehnsucht by Shine + Bym | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook20-us-light
 
 Write-Host '
                                  [33m  ▄▄▄▄─▐▓[0;1;30;47m▓▓[0;1;30;40m▄▄[0m

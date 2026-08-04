@@ -1,18 +1,4 @@
-﻿# Converted from: PU-WHALE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1097/raw/PU-WHALE.ANS
-# Source Revision: archive-sha256:36c7150b2835995ba27c6f1c5cfc23dc5fdf9213c2fb0b333e09d1aa0d00da5f
-# Source SHA-256: 26ffb285ff319ad9261dd2038501de44c17e7abd955562c0445b0350ce2513bb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PU-WHALE.ANS by puppiluppan (poffelipoff); released in plf-1097 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: under ytan
-# SAUCE Author: puppiluppan
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19971023
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: under ytan by puppiluppan | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1097-pu-whale
 
 Write-Host '
                                 [1;33;43m▒░[0m          [1;33;43m▒░[0m

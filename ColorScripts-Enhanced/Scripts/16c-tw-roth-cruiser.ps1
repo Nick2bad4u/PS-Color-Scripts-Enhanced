@@ -1,13 +1,4 @@
-﻿# Converted from: CRUISER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tw-roth/raw/CRUISER.ANS
-# Source Revision: archive-sha256:190885942cec88a16c8a5d2e7952970dfc3a8a8e6b1ddb12dad31a590f611129
-# Source SHA-256: 042b95126a22af7a4292bc7f2ad782785d2025407275100cbb21de95c2748d20
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CRUISER.ANS by Nitron (tw-roth); released in tw-roth and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: CRUISER.ANS by Nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tw-roth-cruiser
 
 Write-Host '
 [34m▒[0;1;34m·[0m                           [1;31m▬■▬[0m            [1;30m__[0m___[36m▄▄▄▄[0;1;36;46m░▒▓▓▓▓[0;1;36;40m▄[0m          [34m░[0;1;33m.[0;34m░░░░░░░[0m

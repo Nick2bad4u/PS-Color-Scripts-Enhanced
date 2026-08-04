@@ -1,18 +1,4 @@
-﻿# Converted from: DD-NP2H.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe04/raw/DD-NP2H.ANS
-# Source Revision: archive-sha256:4f0496a9701d4903473a706c6407c52ebc6554ce22b4b35c3cd1e5bc9689ea7f
-# Source SHA-256: a79c4c8df918f403b5194f5821395cedf6c120183a343c27209ab61b82b5cc0a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-NP2H.ANS by Diamond Darrell (Circe); released in circe04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: No place to Hide Main Menu
-# SAUCE Author: Diamond Darrell
-# SAUCE Group: Circe
-# SAUCE Date: 19980415
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: No place to Hide Main Menu by Diamond Darrell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe04-dd-np2h
 
 Write-Host '
             [30;42m▓[0;32;40m░▓███[0m       [1;34;40m▄■[0m            [1;32m▓██[0;1;32;42m► [0;32m►[0;30;42m►[0;32;40m►[0;37;40m [0;1;37;40m                           [0m

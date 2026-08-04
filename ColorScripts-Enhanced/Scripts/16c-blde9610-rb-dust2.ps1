@@ -1,18 +1,4 @@
-﻿# Converted from: RB-DUST2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9610/raw/RB-DUST2.ANS
-# Source Revision: archive-sha256:82b9914588880433fa3d28215273cb7df08c23e4d4bcfd49e47a0d2b7c765626
-# Source SHA-256: 22d1328c36480896da090c044b544650179da20e153b20ffb6bef75d4b27ca05
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RB-DUST2.ANS by rebal (bLADE); released in blde9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: dUST
-# SAUCE Author: rebal
-# SAUCE Group: bLADE
-# SAUCE Date: 19960923
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: dUST by rebal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9610-rb-dust2
 
 Write-Host '
               [34m▄▄▄▄▄[0m

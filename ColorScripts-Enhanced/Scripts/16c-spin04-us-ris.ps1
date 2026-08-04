@@ -1,18 +1,4 @@
-﻿# Converted from: US-RIS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spin04/raw/US-RIS.ANS
-# Source Revision: archive-sha256:d8d0b243395a454162bf4e70cc5ed89a7700344e3544729263edb9daedb33d8c
-# Source SHA-256: d81be3fac5bba96f372e53640a70f296454578a02102828f228e59bffedd7faa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-RIS.ANS by Emok + Dyingsoul (spin); released in spin04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: emok/dyingsoul
-# SAUCE Author: multiple artist's
-# SAUCE Group: spin
-# SAUCE Date: 19981120
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: emok/dyingsoul by Emok + Dyingsoul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spin04-us-ris
 
 Write-Host '
 [34m[0;37m[0;34m[0;37m[0;34m[0m

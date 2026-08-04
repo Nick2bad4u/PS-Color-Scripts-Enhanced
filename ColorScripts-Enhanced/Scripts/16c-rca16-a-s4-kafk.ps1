@@ -1,13 +1,4 @@
-﻿# Converted from: S4-KAFK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca16-a/raw/S4-KAFK.ANS
-# Source Revision: archive-sha256:c66af227f0487c6a2106388d1038f0f141348ecfdbd559edd3cf06b5528480f9
-# Source SHA-256: 4242addadead07ab4e584e6fbf9d3ad4bf77b728e1e909e167545bb10642fa7c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S4-KAFK.ANS by Static Addiction (rca16-a); released in rca16-a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: S4-KAFK.ANS by Static Addiction | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca16-a-s4-kafk
 
 Write-Host '
 

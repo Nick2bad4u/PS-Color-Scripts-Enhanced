@@ -1,13 +1,4 @@
-﻿# Converted from: DIV-UE!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tea-001/raw/DIV-UE!.ANS
-# Source Revision: archive-sha256:147235a1a70693280758f75ece1aacb01689f31568adb354bab02dc6febc9e24
-# Source SHA-256: 68730fe76ed575678529e067d3ab61a1cedc26b0f8551fbeb02983c120a9c49b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DIV-UE!.ANS by Divine (tea-001); released in tea-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 38-77
-# Columns: 1-80
+﻿# Artwork: DIV-UE!.ANS by Divine | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tea-001-div-ue-part02
 
 Write-Host '
         [1;30m▓▒▓  ▒[0;1;30;43m▓▓░░[0;1;31;43m░░░[0;1;30;43m░[0;1;31;43m░[0;1;30;43m░░░░▒▒▒[0m   [1;30m▀▄   ▓ ▓█ ▓▓▓   [0;1;30;43m░░▒░[0;1;31;43m░░░░[0;1;30;43m░░▒▒▓▓[0m  [1;30m▓  ▓▓▓▓░▓[0m

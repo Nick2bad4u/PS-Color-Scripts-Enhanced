@@ -1,18 +1,4 @@
-﻿# Converted from: MJ!WKDWR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/insm0596/raw/MJ!WKDWR.ANS
-# Source Revision: archive-sha256:5a107f7ed67340c1aa68eaf605f85d0018e0b4086aa8c0cad10be2a8b1ad4ed8
-# Source SHA-256: 84167fa1a69450cfb4506c2fc2f0b9235ad959c02c76193fa67861f70ce2dfc9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MJ!WKDWR.ANS by Majick (CAP/iNSOMNiA/VOiD); released in insm0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Weekend Warriors
-# SAUCE Author: Majick
-# SAUCE Group: CAP/iNSOMNiA/VOiD
-# SAUCE Date: 19960411
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Weekend Warriors by Majick | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-insm0596-mj-wkdwr
 
 Write-Host '
 [1;30m▄▄▄▄▄▄▄[0m     ▄▄[1m▄▄▄▄[0m

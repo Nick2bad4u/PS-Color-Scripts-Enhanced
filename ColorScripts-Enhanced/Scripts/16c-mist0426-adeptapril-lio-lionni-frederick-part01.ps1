@@ -1,19 +1,4 @@
-﻿# Converted from: ADEPTAPRIL-LIO_LIONNI-FREDERICK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0426/raw/ADEPTAPRIL-LIO_LIONNI-FREDERICK.ANS
-# Source Revision: archive-sha256:c759ba228fb42808866da1267838a1ce2371215b87bc273c64f35f4bc653e77d
-# Source SHA-256: 766fc22aaf00750166250bfd5de872100846e352d931540e6b455816703bb45d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ADEPTAPRIL-LIO_LIONNI-FREDERICK.ANS by AdeptApril (Monoceros); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Frederick
-# SAUCE Author: AdeptApril
-# SAUCE Group: Monoceros
-# SAUCE Date: 20260421
-# SAUCE Dimensions: 80x65
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Frederick by AdeptApril | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0426-adeptapril-lio-lionni-frederick-part01
 
 Write-Host '
 [1m████████████████████████████████████████████████████████████████████████████████[0m

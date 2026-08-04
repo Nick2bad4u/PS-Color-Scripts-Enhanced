@@ -1,13 +1,4 @@
-﻿# Converted from: ME-BLADE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9407/raw/ME-BLADE.ANS
-# Source Revision: archive-sha256:9ff5137061d269ef5e9a6d18c624720e9c725aa5eeb2ff0b9d11388279913341
-# Source SHA-256: 6b027c6fadb147251c04be019c1a7ad2cb5432b029522a0615a23f5faccf337a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ME-BLADE.ANS by Mephitopeles (blde9407); released in blde9407 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: ME-BLADE.ANS by Mephitopeles | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9407-me-blade-part01
 
 Write-Host '
 [1;33;47m ░░░░░░░░░░       [0m▀[1;30m▄▀[0m▄▀[1;30m▄▀▀▄[0m▐▀[1;30m▄▀[0m▄ [1;30m█ █ [0m██▌[1;30m▐▌[0m▐▄[1;30m▀▄[0m

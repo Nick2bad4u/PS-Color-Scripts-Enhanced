@@ -1,19 +1,4 @@
-﻿# Converted from: 01_DEC23.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1223/raw/01_DEC23.ANS
-# Source Revision: archive-sha256:86d02e5103ccb7950792473f0c3e4ca18e595c9011c06df5ce1fe1692dbd9f5a
-# Source SHA-256: c02886353f42fdd288086a09f5614d0683bebd2782fe4c18251b91da08d8df7e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 01_DEC23.ANS by codefenix (Mistigris); released in mist1223 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: December 1st
-# SAUCE Author: codefenix
-# SAUCE Group: Mistigris
-# SAUCE Date: 20231130
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: December 1st by codefenix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1223-01-dec23
 
 Write-Host '
  [1;30m░[0m    [1;30m░░[0m   [1;33m.[0m             [1;33m.     [0;1;30m░     ░[0m               [1m▄[0;1;31m▄[0m          [1m▄[0;1;31m▄[0;1;37m▄[0m

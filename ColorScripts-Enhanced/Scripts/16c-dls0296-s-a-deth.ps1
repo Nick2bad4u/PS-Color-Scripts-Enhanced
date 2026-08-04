@@ -1,18 +1,4 @@
-﻿# Converted from: S&A-DETH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dls0296/raw/S%26A-DETH.ANS
-# Source Revision: archive-sha256:d07307efd5446d199a1d6623b0197b51b6d7034a39dc2f4b298cb8296f7c3796
-# Source SHA-256: 461590052993b9724d61e0f5f0461f37a1fec237c25aff711824214756db176e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S&A-DETH.ANS by Sudden Death + Amorphis (Delusion); released in dls0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Exploding Skull
-# SAUCE Author: S-Death/Amorphis
-# SAUCE Group: Delusion
-# SAUCE Date: 19960131
-# SAUCE Dimensions: 80x50
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Exploding Skull by Sudden Death + Amorphis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dls0296-s-a-deth
 
 Write-Host '
 [34m█████████████████████▓▓█████████████▓▓[0;1;36;44m▓[0;1;36;40m▓[0;31m▐[0;34m▐███████████████▓▓[0;1;36;44m░[0;34m███████████████████[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: cyberlogo.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cyberpack1/raw/cyberlogo.ans
-# Source Revision: archive-sha256:22c86100c349017caf42bcccadd068ca0a12bffc273b969eb406d82adaabee60
-# Source SHA-256: 65284276c50a08e2260860197d39326ed3573bc0c88fda2f569f3a59d02a37e2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cyberlogo.ans by Revengeday (CORTEXIMPLANT); released in cyberpack1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Cyber Logo
-# SAUCE Author: Revengeday
-# SAUCE Group: CORTEXIMPLANT
-# SAUCE Date: 20250727
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Cyber Logo by Revengeday | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cyberpack1-cyberlogo
 
 Write-Host '
  [1;32m█[0;1;32;42m▀▀▀▀▀▀▀▀▀▀▀▀[0;1;32;40m▄[0m [1;32m█[0;1;32;42m▀▀▀[0;1;32;40m█[0m  [1;32m█[0;1;32;42m▀▀[0;1;32;40m█[0m [1;32m█[0;1;32;42m▀▀[0;1;32;40m▄[0m [1;32m▄[0;1;32;42m▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;32;40m█[0;1;32;42m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;32;40m█[0;1;32;42m▀▀▀▀▀▀▀▀▀▀▀▀▄[0;32m▄[0m

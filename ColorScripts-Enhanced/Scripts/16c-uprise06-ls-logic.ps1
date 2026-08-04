@@ -1,17 +1,4 @@
-﻿# Converted from: LS-LOGIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise06/raw/LS-LOGIC.ANS
-# Source Revision: archive-sha256:62459159460ab7090ce349ed14c61a1bc8d3aa5785e22124741220f6b82d2ab8
-# Source SHA-256: fea443c3543fdb77438b30d77320964de60474ef9a650dce876a6734101b9453
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LS-LOGIC.ANS by lost soul (uprise); released in uprise06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: logic
-# SAUCE Author: lost soul
-# SAUCE Group: uprise
-# SAUCE Date: 19980728
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: logic by lost soul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise06-ls-logic
 
 Write-Host '
            [1;32;42m▐[0;1;32;40m█▄█[0m [1;32m▄▄[0m  [1;31;41m▐[0m            [31m█[0;1;31;41m▄▄▓▓▄[0;31m [0;1;31;41m▓▌[0;31m [0m

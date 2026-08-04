@@ -1,13 +1,4 @@
-﻿# Converted from: VD-BSPRM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/astk0194/raw/VD-BSPRM.ANS
-# Source Revision: archive-sha256:85386f5551c42a88135027c451bdde0caf298cc394973b954eb4073e747445c6
-# Source SHA-256: fc540bdab8de83de475ce44dd8c420117bfb758b2b0623a47c00625097902c8a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VD-BSPRM.ANS by Vlad Drakul (astk0194); released in astk0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: VD-BSPRM.ANS by Vlad Drakul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-astk0194-vd-bsprm-part01
 
 Write-Host '
 [34m▄▀  ▄▀ [0;1;34m▄▀▄███████████▀▀▀▀▀▀▀[0;1;34;41m▀▀▀▀▀▀[0;1;34m▀▀▀████████████████████████ █  [0;1;34;44m▌[0m   [34m█    █[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SK-ELP#1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/elp-0297/raw/SK-ELP%231.ANS
-# Source Revision: archive-sha256:cbfe67d5b5cc14151f562d333d3d551e0ee4047e81092f281544109eea01c6c2
-# Source SHA-256: 8579e1488c6cdc86ce8d49affadce9184ab68166792128b068662e74128f5851
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK-ELP#1.ANS by .o!Skyknight-o. (AXF.ANL.ELP); released in elp-0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Elysium Power - Logo
-# SAUCE Author: .o!Skyknight-o.
-# SAUCE Group: AXF.ANL.ELP
-# SAUCE Date: 19961222
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: Elysium Power - Logo by .o!Skyknight-o. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-elp-0297-sk-elp-1
 
 Write-Host '
   [1;31;43m█▓[0;1;31;40m▀[0;1;31;43m░ [0;1;30;43m░▒[0m [1;31;43m█▓[0m      [1;31;43m█▓[0m [1;31;43m░ [0;1;30;43m░▒[0m [1;31;43m█▓[0;1;31;40m▀[0;1;31;43m░ [0;1;30;43m░▒[0m [1;31;43m█▓[0m [1;31;43m█▓[0m [1;31;43m░ [0;1;30;43m░▒[0m [1;31;43m█▓[0;1;31;40m▀[0;1;31;43m░[0;33m▀[0;1;30;43m░▒▓[0;1;30;46m▓[0m                     [1;36;46m▓[0;1;36;40m▀▀▀▀[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SKY-ROSW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shade3/raw/SKY-ROSW.ANS
-# Source Revision: archive-sha256:35522a6f68aa2397662c2b623a174bba973989f9199c19dd49bd4f12d01513cc
-# Source SHA-256: eb00a41687966ea436325187f951277c558a91851d745b896846c5c40760484d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SKY-ROSW.ANS by sky (shade); released in shade3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the roswell incident
-# SAUCE Author: sky
-# SAUCE Group: shade
-# SAUCE Date: 19961026
-# SAUCE Dimensions: 80x25
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: the roswell incident by sky | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shade3-sky-rosw-part01
 
 Write-Host '
    [34m▀[0m            [34m▀[0m                  [1;30m [0m

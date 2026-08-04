@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-NW97.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9705/raw/TNA-NW97.ANS
-# Source Revision: archive-sha256:8be34660f06cc6610ed258606edc1af91e25b5675ab5e99aed29e53c07e63e17
-# Source SHA-256: 0b623281193a46125fd6be3086d5ff27e4540ef0bc87334f700c77d04c3e7084
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-NW97.ANS by The Night Angel (AWE Lettering); released in awe9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Network 97
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970423
-# SAUCE Dimensions: 80x25
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Network 97 by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9705-tna-nw97
 
 Write-Host '
 [1m[0m[1m[0m[1;30m[0m[1;30m   [0;32m░[0m                            [30;42m▓[0m                               [34;40m▄[0m              [34;40m▄[0m

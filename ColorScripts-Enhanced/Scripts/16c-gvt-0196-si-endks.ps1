@@ -1,18 +1,4 @@
-﻿# Converted from: SI-ENDKS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gvt-0196/raw/SI-ENDKS.ANS
-# Source Revision: archive-sha256:7f942a8f573ad7a36f28673aa7dba5e4385dcfd15878ca340c250e7b30758584
-# Source SHA-256: 93c2ebcc7a0e691865294361c7cdba9b8a1cb18f535fd1b2cd3d59b8bc063b86
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SI-ENDKS.ANS by Shadow iMAGE (GRAViTY); released in gvt-0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Endless Kaos!
-# SAUCE Author: Shadow iMAGE
-# SAUCE Group: GRAViTY
-# SAUCE Date: 19951227
-# SAUCE Dimensions: 80x30
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Endless Kaos! by Shadow iMAGE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gvt-0196-si-endks
 
 Write-Host '
 [1;31m░[0m            [1;31m░[0m        [1;31m░[0m             [1;31m░[0m     [1;31m░[0m         [1;31m░[0m         [1;31m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MN-TGO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-12/raw/MN-TGO1.ANS
-# Source Revision: archive-sha256:5c96c14e912296494a464a42e768321452d811693cf172945a9502eb4396c8bb
-# Source SHA-256: e22457119bb8052a91d0a86eafce5e41c0b0a14f785f0b2b2981bf8400915605
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MN-TGO1.ANS by Menace (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Tarango
-# SAUCE Author: Menace
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970816
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Tarango by Menace | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-12-mn-tgo1
 
 Write-Host '
 [1;34m▄▄▐[0;1;34;44m▓▒░[0;34m█▌▄▄[0m                          [37m░[0;30;47m▓[0m

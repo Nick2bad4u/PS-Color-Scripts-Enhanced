@@ -1,18 +1,4 @@
-﻿# Converted from: US-DDN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy09/raw/US-DDN.ANS
-# Source Revision: archive-sha256:4a76e66d96462ed923b8b41dd8e01625078b4c791bda0ef6180f08638853037b
-# Source SHA-256: b396f95427b73d78c2a2ce252eb85f9d5330cad68c814c51dfa71111aa667dc6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DDN.ANS by Misfit + Trip (Apathy Studios); released in apathy09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Daydream Nation
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Apathy Studios
-# SAUCE Date: 19960417
-# SAUCE Dimensions: 80x32
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Daydream Nation by Misfit + Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy09-us-ddn
 
 Write-Host '
 ▓[1;47m░[0m▄░ [1m▐[0;1;47m░[0m█[1;30;47m░▓▓[0;1;30;40m█▀[0;1;31;40m▄[0;1;31;47m▓[0;1;31;41m▓▓░░[0;31m▌▐[0;1;31;41m▒░ [0;31m▄▄[0;1;31m▀[0;1;31;47m▓▓[0;1;31;41m▓▓▒░░[0;31m█▌░▐██[0;1;31;41m░░░[0;31m██▀▀[0;1;31;41m░▒▒░ [0;31m█▓▒▓[0;1;31;41m░▒▓█[0;1;31;47m▓[0;1;31;41m█▄[0;31m▄▄██[0;1;31;41m░░▒░[0;31m██▓░[0;33m [0;31m▒░[0;37m [0;33m [0m

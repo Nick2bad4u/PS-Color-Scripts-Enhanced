@@ -1,18 +1,4 @@
-﻿# Converted from: VRM!ANA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg0597/raw/VRM!ANA.ANS
-# Source Revision: archive-sha256:4b9e307269e83d21c0001bef8c928b1395bba318985e2d25513e398c7ddcf754
-# Source SHA-256: b19cb758ab91aabb5d3fb0f0db1b29928ce9d672897d7f02c9374cddcefe1e8e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VRM!ANA.ANS by Vermin (vatos locos); released in drg0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: anathema
-# SAUCE Author: Vermin
-# SAUCE Group: vatos locos
-# SAUCE Date: 19970508
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: anathema by Vermin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg0597-vrm-ana
 
 Write-Host '
 

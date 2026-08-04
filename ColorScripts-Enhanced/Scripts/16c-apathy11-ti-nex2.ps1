@@ -1,18 +1,4 @@
-﻿# Converted from: TI-NEX2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy11/raw/TI-NEX2.ANS
-# Source Revision: archive-sha256:a8a1f25f60c56aa0932319ceb3e0a3707898d7c9d304c60c4912556d84eb4b61
-# Source SHA-256: e8c6a5b860d1d1492c9ef23bede49c970f59637ae749bf8b96879cbada1c9632
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TI-NEX2.ANS by Trip (Apathy); released in apathy11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Nexus File Conferences
-# SAUCE Author: Trip
-# SAUCE Group: Apathy
-# SAUCE Date: 19960620
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Nexus File Conferences by Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy11-ti-nex2
 
 Write-Host '
 [31m▌ ▀████████  ▄█ █ ██  ▄██ ▄█ ▄ █ ▄ █  ▄█  ▄█ ▄▄█  ▄█ ▄ █ ▄██  ▄█▄ ▀██████▀▀[0;33m▄▌[0;31m▐██[0m

@@ -1,16 +1,4 @@
-﻿# Converted from: MH-PGSKL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/splt0795/raw/MH-PGSKL.ANS
-# Source Revision: archive-sha256:f0c5acfffe939fae2738e314585b428de553de9c35da800dd032a55e9d26c599
-# Source SHA-256: 2704d230432110451aa546af2aca88f60fca036f5ae97c13d131d734c12d6496
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MH-PGSKL.ANS by Maddog Hoek (Splat); released in splt0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: PyroGenesis
-# SAUCE Author: Maddog Hoek
-# SAUCE Group: Splat
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: PyroGenesis by Maddog Hoek | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-splt0795-mh-pgskl
 
 Write-Host '
 [34m                               [0;1;33m▄▄▄▄▄███████████▄▄▄▄▄   [0;34m                         [0m

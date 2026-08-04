@@ -1,18 +1,4 @@
-﻿# Converted from: CR-SRNTY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shv-1194/raw/CR-SRNTY.ANS
-# Source Revision: archive-sha256:d3a40a3191a913cb36b897ad49063e6c40e8244915255128cbb96005c37748a9
-# Source SHA-256: c41726b028076bebb40e33ab1be7f110f0d4d8c4a5df72de0f60602381327214
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CR-SRNTY.ANS by Crimson Ryder (Shiver); released in shv-1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Serenity
-# SAUCE Author: Crimson Ryder
-# SAUCE Group: Shiver
-# SAUCE Date: 19941022
-# SAUCE Dimensions: 80x221
-# Lines: 44-88
-# Columns: 1-80
+﻿# Artwork: Serenity by Crimson Ryder | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shv-1194-cr-srnty-part02
 
 Write-Host '
 [1;30;40m▄[0;30m▄[0m        [30m▄▄[0;30;46m▀▀[0;1;30;46m▒░[0;30;46m■[0;1;30;46m▓[0;30;46m▐▀[0;1;30;46m▓[0;1;30;40m▀▀[0;1;30;46m▓▓[0;1;30;40m▀▄▄[0;1;30;46m▓▓▒▒[0;30;46m▀[0;1;30;46m░░[0;30;46m▀[0;1;30;40m▀▀▀[0;1;30;46m▓▓▓▒[0;30;46m▀▀██[0;1;30;46m█▓[0;1;30;40m▄▄[0;30;46m██[0;1;30;40m▀[0;1;30;46m▒▒[0;30;46m▀▀[0;36;40m▄[0m        [30;40m▄▄[0;1;30;40m▄▄[0;1;30;46m▓▓[0;1;30;40m▀▄[0;1;30;46m▓[0;30;46m▀▀▄▐[0m

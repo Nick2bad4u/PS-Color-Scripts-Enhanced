@@ -1,17 +1,4 @@
-﻿# Converted from: RUG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tk-ansi/raw/RUG.ANS
-# Source Revision: archive-sha256:7a6e15a450305cb977de0a4eb06cf4ca525baa4933c9f7af1cf6080dced8bf2d
-# Source SHA-256: 2ba1e4b75eecdf36bcb02a5c29ad46710c6302004355f85351f2b6dd76f47120
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RUG.ANS by Tank (tk-ansi); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Indian Rug
-# SAUCE Author: Tank
-# SAUCE Date: 19910224
-# SAUCE Dimensions: 80x23
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Indian Rug by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tk-ansi-rug
 
 Write-Host '
 

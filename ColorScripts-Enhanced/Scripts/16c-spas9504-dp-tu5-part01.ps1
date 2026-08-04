@@ -1,16 +1,4 @@
-﻿# Converted from: DP-TU5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spas9504/raw/DP-TU5.ANS
-# Source Revision: archive-sha256:916c7acab9b210f3e97ff0544079806a486a09bbb4eddfa318f2a69301332293
-# Source SHA-256: 6d9ef6517faa058610e92bec928304df4f76bb07a4a6b0bd622d9f6cc5fc2dd0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DP-TU5.ANS by Dairy Product (spas9504); released in spas9504 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: T	ky	 Undergr	und -D-- #5!!
-# SAUCE Author: Dairy Product
-# SAUCE Font: 2~_ ?[29C0   __?[0m
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Tky Undergrund -D-- #5!! by Dairy Product | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spas9504-dp-tu5-part01
 
 Write-Host '
                                [36m■▄[0;30;46m■           [0;36;40m▀▄[0m

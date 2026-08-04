@@ -1,18 +1,4 @@
-﻿# Converted from: EN-RMRS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-12/raw/EN-RMRS.ANS
-# Source Revision: archive-sha256:8bf57e9c308d7715e73d6aa5ef180cd04ce797a989584cd2736b274af103ff91
-# Source SHA-256: 2b7382570fc559169dc8824c5e7d32260584bc08074b857d13d1c50552df172d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EN-RMRS.ANS by Endless Nameless (REMORSE/ACiD Prod.); released in rmrs-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Remorse Promotional
-# SAUCE Author: Endless Nameless
-# SAUCE Group: REMORSE/ACiD Prod.
-# SAUCE Date: 19970603
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Remorse Promotional by Endless Nameless | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-12-en-rmrs
 
 Write-Host '
 [1;30m$$$$$[0;33m$[0;1;30m$[0;33m$$[0;1;30m$[0;33m$P²"[0;37m [0;33m`[0m                                   [33m`[0;37m [0;33m`"²Y$$$$[0;1;30m$$[0;33m$[0;1;30m$[0;33m$$[0;1;30m$$$$$$$$$$$$ [0m

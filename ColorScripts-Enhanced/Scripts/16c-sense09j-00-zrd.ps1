@@ -1,18 +1,4 @@
-﻿# Converted from: 00-ZRD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense09j/raw/00-ZRD.ANS
-# Source Revision: archive-sha256:9f583533fb256ec67ece3c5d38ebea61ce21b385a7859a4e786edef290584615
-# Source SHA-256: 996b1e9be050c2e2905d19d54753d37a19fe5af326c97dd5e2d094868c0262b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 00-ZRD.ANS by Character Zero (Sense Imagery); released in sense09j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Biohazard Snippet
-# SAUCE Author: Character Zero
-# SAUCE Group: Sense Imagery
-# SAUCE Date: 20020830
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Biohazard Snippet by Character Zero | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense09j-00-zrd
 
 Write-Host '
                      [1;30m░░ [0m        [1;30m░░[0m             [1;30m▀▀[0m [1;30m▄[0m

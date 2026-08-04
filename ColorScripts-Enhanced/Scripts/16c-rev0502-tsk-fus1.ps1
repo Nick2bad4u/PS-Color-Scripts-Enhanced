@@ -1,18 +1,4 @@
-﻿# Converted from: TSK-FUS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0502/raw/TSK-FUS1.ANS
-# Source Revision: archive-sha256:98bfa3cc78c733050b0c647e7e0271e7623e3c31e4f40f218a00b89b2165c771
-# Source SHA-256: 87d62f1a402a1a6b47b179399c3b65d8ec8297022f29203feed162c21865613f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-FUS1.ANS by The Silent Killer (revival); released in rev0502 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Cold Fusion
-# SAUCE Author: The Silent Killer
-# SAUCE Group: revival
-# SAUCE Date: 20020515
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Cold Fusion by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0502-tsk-fus1
 
 Write-Host '
 

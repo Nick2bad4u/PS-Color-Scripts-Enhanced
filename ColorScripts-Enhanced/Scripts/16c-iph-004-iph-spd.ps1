@@ -1,13 +1,4 @@
-﻿# Converted from: IPH-SPD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/iph-004/raw/IPH-SPD.ANS
-# Source Revision: archive-sha256:f6d0cdcefaffe7760a74aac16d236f4311157c0d3317e8802728ac758aa3f964
-# Source SHA-256: 3408b84f15aa8e9fc4a73db608ed8ac9ec3585a05cbf1d6fcc38730568ab3cc8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IPH-SPD.ANS by Interphaze (iph-004); released in iph-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: IPH-SPD.ANS by Interphaze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-iph-004-iph-spd
 
 Write-Host '
       [1;30m.....[0m                  [35m,[0;1;35m._  [0;1;30m....    ....[0m     [1;30m...[0m           [1;30m..  ...    ..[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: TAE-DIRT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tone1298/raw/TAE-DIRT.ANS
-# Source Revision: archive-sha256:2c4335e4a7099929072af13287d48313c4bf380989640349b3ef536a0c17fd63
-# Source SHA-256: 6845032ac273e5d6e3181a7d9ea57402f06840b2e2ee0f93d36dfafe8783a6a9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TAE-DIRT.ANS by Taevore (tone1298); released in tone1298 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: TAE-DIRT.ANS by Taevore | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tone1298-tae-dirt
 
 Write-Host '
                                                     [1;34m [0m         [34m [0;37m   [0;34m▄▌[0m

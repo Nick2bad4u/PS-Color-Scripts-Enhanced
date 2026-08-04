@@ -1,13 +1,4 @@
-﻿# Converted from: US-TERB.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9412/raw/US-TERB.ICE
-# Source Revision: archive-sha256:206fb790f3728acfca84972248fec43bde6e85e65881b18182d8ae9012f98785
-# Source SHA-256: 42611bc92a63b6dc9fdaf4716b140ab57cbe385daa3b5ed011d1ef79e53bef0b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TERB.ICE by Lord Soth + Stone The Crow (ice-9412); released in ice-9412 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 36-70
-# Columns: 1-80
+﻿# Artwork: US-TERB.ICE by Lord Soth + Stone The Crow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9412-us-terb-part02
 
 Write-Host '
                         [33m ▒▒▒░░▒░▒[0m [33m▒░[0m [1;30;47m▒▒[0m▌ ▄▄  ▄  ▄▄▐██[1;47m░[0m▀ [1;33m ████[0m       [31m▌[0;1;33m█[0;1;37m▐[0;1;33m█▌█▓▀[0;31m ▓▐[0;37m [0m

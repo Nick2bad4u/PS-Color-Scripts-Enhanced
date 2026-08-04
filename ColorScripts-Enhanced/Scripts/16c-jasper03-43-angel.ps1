@@ -1,18 +1,4 @@
-﻿# Converted from: 43-ANGEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper03/raw/43-ANGEL.ANS
-# Source Revision: archive-sha256:96c1272030a36fd5502bf2f34e681c795192c7d49fac9a2ab5dd4a5a2bf5606c
-# Source SHA-256: 0b7c12370ccb7d00d4bedc570b53f4d00efb66248dda62649f95236badd60981
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 43-ANGEL.ANS by aesthetic (jasper); released in jasper03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: clear blue moon
-# SAUCE Author: aesthetic
-# SAUCE Group: jasper
-# SAUCE Date: 20020221
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: clear blue moon by aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper03-43-angel
 
 Write-Host '
 [1;36m█[0;1;36;46m▓▒[0;36m▌ [0;1;37m▐██████████▌ ▐██████[0;1;37;46m▓▒░░[0;36m█[0;1;37;46m░░░▒▓▓▓▓▒▒░░░░ [0;36m█████████[0;1;37;46m░[0;36m█[0;1;37;46m░░▒▒▓▓[0;1;37;40m███▌[0m  [1m███[0;1;46m▓▒▒░[0;36m█[0;30;46m 43[0m

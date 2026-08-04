@@ -1,20 +1,4 @@
-﻿# Converted from: x0-fall.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amish-rumspringa/raw/x0-fall.ans
-# Source Revision: archive-sha256:710f00c8e218c58e7f7c9fe172cb22279b1ebbb4b713832762c12e983eb7ac2d
-# Source SHA-256: 7c295e08955b9ecf4ad7e5c6448aa37ba6326b2b9b59f283ce620446bcecaa6f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: x0-fall.ans by xeR0 (A.M.i.S.H); released in amish-rumspringa and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: FALL
-# SAUCE Author: xeR0
-# SAUCE Group: A.M.i.S.H
-# SAUCE Date: 20180717
-# SAUCE Dimensions: 80x133
-# SAUCE Font: IBM VGA
-# SAUCE Comments: x0^67^aMi5H^iMP! | https://0w.nz
-# Lines: 46-89
-# Columns: 1-80
+﻿# Artwork: FALL by xeR0 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amish-rumspringa-x0-fall-part02
 
 Write-Host '
                [30;43m░░[0m        [1;33;43m░[0;1;32;42m░▓[0;1;33;43m▓[0;1;32;42m░░░[0m [1;32;42m░▓▓▓[0m [1;32;42m░▓▓[0;1;33;43m░░▒▒▓[0m [1;33;43m▓▓[0m      [1;33;43m░[0;30;43m░[0;1;33;43m░[0;32;43m░[0;1;33;43m░[0;32;43m░[0;1;33;43m░[0;1;31;43m░[0;1;33;43m░[0;1;31;43m░[0m     [33;103m▓▓[0;1;32;42m▓[0;30;43m░[0;33;103m░[0m [1;32;42m▓░[0;33;103m▒[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SC-CSH1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9609/raw/SC-CSH1.ANS
-# Source Revision: archive-sha256:ebbff7e3049916d809d893ea2aa04734229c43fb86ad9d17682073c079d4ff3a
-# Source SHA-256: 5c0e86d78d32f56b7118f3cf5f50b97ef329b2539bbae8b8dd8904027a46cb33
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-CSH1.ANS by subconsciousness (bladeproductions); released in blde9609 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: col o  r   s  h o ck!
-# SAUCE Author: subconsciousness
-# SAUCE Group: bladeproductions
-# SAUCE Date: 19960813
-# SAUCE Dimensions: 80x23
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: col o r s h o ck! by subconsciousness | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9609-sc-csh1
 
 Write-Host '
 

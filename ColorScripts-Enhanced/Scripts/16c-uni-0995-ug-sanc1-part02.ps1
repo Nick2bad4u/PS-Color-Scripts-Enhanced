@@ -1,18 +1,4 @@
-﻿# Converted from: UG-SANC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0995/raw/UG-SANC1.ANS
-# Source Revision: archive-sha256:66f11d43d10b981d3ff2235c6fadd1403a507952ad88040c9eb9cd5142a4f4b1
-# Source SHA-256: c5589e2ca5b8a453fe41126ed8440d600307921f78c59d9b74e2cd634e0a33d4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UG-SANC1.ANS by Abomination + Prism (Union); released in uni-0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Sanction!
-# SAUCE Author: Union Group Prod.
-# SAUCE Group: Union
-# SAUCE Date: 19950901
-# SAUCE Dimensions: 80x25
-# Lines: 30-64
-# Columns: 1-80
+﻿# Artwork: Sanction! by Abomination + Prism | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0995-ug-sanc1-part02
 
 Write-Host '
 [1;35;45m [0;35m████[0;1;35;45m░ [0;35m███[0;1;35;45m░[0;35m█[0;1;35;45m [0;35m██[0;37m [0;1;33;43m▓▓▒░[0;33m█[0;30;43m■[0;1;33;43m░░░[0;33m███▌▐▄▓▀[0m                 [33m▄▄▄▄▄[0;1;33;43m░░░░░░░[0;33m▄▄  ▄▄▄▄▄▄[0m

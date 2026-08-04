@@ -1,19 +1,4 @@
-﻿# Converted from: FIL-BEER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-38/raw/FIL-BEER.ANS
-# Source Revision: archive-sha256:be80154150e87c06a8a7199ad7b8d7442acd5427250f57c89a783b9de15c69d7
-# Source SHA-256: b053bffa36face7d03917aaeb670f648da9de5987e08feb07b1fbe3b9108ce90
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FIL-BEER.ANS by filth (FiRE); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ROCK THE 40 oz.
-# SAUCE Author: filth
-# SAUCE Group: FiRE
-# SAUCE Date: 20231111
-# SAUCE Dimensions: 80x101
-# SAUCE Font: IBM VGA
-# Lines: 69-101
-# Columns: 1-80
+﻿# Artwork: ROCK THE 40 oz. by filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-38-fil-beer-part03
 
 Write-Host '
 [1;35m█[0;35m██[0;35;44m▀[0;35;40m█[0;35;44m▀▄▀[0;34;45m▓▓[0;34;40m█[0;37;40m   [0;35;40m▓█▓▓▓█▓▓[0m      [1;35;40m▄[0;1;35;45m▓[0;35m▀▄[0;1;35;45m▓▒▒▒░░[0;35m▄[0;1;35;45m░░░[0;35m█[0;1;35;45m░[0;35m█▀    [0;1;30m▀█▓▓█▀[0;35m ▄██[0;1;35;45m░[0;35m█▄▀▀[0;32m   [0;1;30m▄[0m ██████[1;30;47m░░[0m██

@@ -1,13 +1,4 @@
-﻿# Converted from: US-RMXIS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hazmat07/raw/US-RMXIS.ANS
-# Source Revision: archive-sha256:1fd31b035fd5e9ce9b27e4e32c17afe0938cc7c626f2ad694c9643e7ff114504
-# Source SHA-256: f153558069c4c77ebb38f237f898196c7f0fb9f257eb60310b0b0a29cf8d54df
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-RMXIS.ANS by Prosthesis + Double Zero (hazmat07); released in hazmat07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: US-RMXIS.ANS by Prosthesis + Double Zero | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hazmat07-us-rmxis
 
 Write-Host '
 [1m    ,*$##*┐,  $$;   ;$$yy┐┐┐           ,┐*,    ,┐┐┐  ┌┌┌┐┐    ;$$  ,┐*##$*,[0m

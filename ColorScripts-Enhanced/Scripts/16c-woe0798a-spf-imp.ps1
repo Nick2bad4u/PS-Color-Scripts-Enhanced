@@ -1,18 +1,4 @@
-﻿# Converted from: SPF-IMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/woe0798a/raw/SPF-IMP.ANS
-# Source Revision: archive-sha256:2188d0bbaf1192d032eaa1d7cdc4402fb0f0e32dcd77bb780a11ec762d5a8a04
-# Source SHA-256: 533cb5ba8de96347711eaf319165a71d4aa5f95bfefd76cb87cd8fcda02631c6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPF-IMP.ANS by [sPITFIRE] (wOE!); released in woe0798a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: impure#
-# SAUCE Author: [sPITFIRE]
-# SAUCE Group: wOE!
-# SAUCE Date: 19980715
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: impure# by [sPITFIRE] | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-woe0798a-spf-imp
 
 Write-Host '
 

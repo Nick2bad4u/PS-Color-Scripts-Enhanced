@@ -1,18 +1,4 @@
-﻿# Converted from: RNEKNAME.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tk-ansi/raw/RNEKNAME.ANS
-# Source Revision: archive-sha256:7a6e15a450305cb977de0a4eb06cf4ca525baa4933c9f7af1cf6080dced8bf2d
-# Source SHA-256: 7688020598989f6af169be8caaddc80d4f35326c7837a4a8864a161413c6a35f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RNEKNAME.ANS by Tank (tk-ansi); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Redneck
-# SAUCE Author: Tank
-# SAUCE Date: 19910723
-# SAUCE Dimensions: 80x24
-# SAUCE Comments: I was a Longhorn at the time...
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Redneck by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tk-ansi-rnekname
 
 Write-Host '
 [31m▄[0;31;41m  [0;1;31;41m▐[0;1;31;40m██████▄  ▄████████▄▄   ▄█████████▄  [0;31m▌[0m                                      [31m▐[0m

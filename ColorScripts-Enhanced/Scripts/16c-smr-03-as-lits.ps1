@@ -1,13 +1,4 @@
-﻿# Converted from: AS-LITS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/smr-03/raw/AS-LITS.ANS
-# Source Revision: archive-sha256:77d33932051a2296478bdf37a8b9b352e6a9992871ddd0f90fd8cb62b836d471
-# Source SHA-256: bec78a4c9379ceda6cb4cfd58ebc45155939946a018c6392ff762c584857f2fd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AS-LITS.ANS by Asd (smr-03); released in smr-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: AS-LITS.ANS by Asd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-smr-03-as-lits
 
 Write-Host '
 

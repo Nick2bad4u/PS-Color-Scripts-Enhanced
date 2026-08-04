@@ -1,18 +1,4 @@
-﻿# Converted from: TH-GIFT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel15/raw/TH-GIFT.ANS
-# Source Revision: archive-sha256:3b994e59b6a78be97a60517481673ca8661cd10fa275e8c56fe8095a44e5feee
-# Source SHA-256: 74219bef3518defaa9e625a2fe4666e272dff598f3dc6df6a7b45fda1f8455ea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH-GIFT.ANS by thrasher (fuel productions); released in fuel15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: wired surprise ascii compo
-# SAUCE Author: thrasher
-# SAUCE Group: fuel productions
-# SAUCE Date: 19970729
-# SAUCE Dimensions: 80x62
-# Lines: 26-62
-# Columns: 1-80
+﻿# Artwork: wired surprise ascii compo by thrasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel15-th-gift-part02
 
 Write-Host '
 [1;30m░▄▄▓▓███▄▄██████▄████████████████████████████████████▄▄██▄████▄▄[0;1;32m░[0;1;30m▄███▐███▄█[0;1;30;47m▓▓[0;1;30;40m▄▄[0m

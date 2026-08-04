@@ -1,13 +1,4 @@
-﻿# Converted from: PM-EMAIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot0598/raw/PM-EMAIL.ANS
-# Source Revision: archive-sha256:0c1b4d8014854195eee82655813426874e782c44b6e7d11df4cc84dbee4a5020
-# Source SHA-256: a737cf686a1a9d17e2798f87fc56290c80379007e015daae7f474b06fd2a04a1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-EMAIL.ANS by Precious Metal (riot0598); released in riot0598 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: PM-EMAIL.ANS by Precious Metal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot0598-pm-email
 
 Write-Host '
           [35m▄▄[0;1;35;45m░░[0;35m▄▄▄▄████▀▀▀▀[0;36m▄[0;1;36;46m ▄▄▄▄▄▄▄▄▄▄▄▄▒▄[0;36m▄ [0;1;36;46m░[0;1;36;40m▄▄[0;36m▄[0;37m [0;1;36m▄[0;36m▌▀[0;1;36;45m▓[0;36m▀[0;35m▄▄▌▄▄[0m

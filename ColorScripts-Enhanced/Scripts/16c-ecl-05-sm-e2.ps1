@@ -1,18 +1,4 @@
-﻿# Converted from: SM-E2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-05/raw/SM-E2.ANS
-# Source Revision: archive-sha256:9471ca7612415a41916878584e9d9bf710a5efbc5b8d389ed1bde764e2a602ca
-# Source SHA-256: 275c205c415592a087c5aebb975411312dc529aee22c11aca60bb80ae1347b83
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-E2.ANS by sm0key (eclipse); released in ecl-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: earth something
-# SAUCE Author: sm0key
-# SAUCE Group: eclipse
-# SAUCE Date: 19960813
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: earth something by sm0key | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-05-sm-e2
 
 Write-Host '
 

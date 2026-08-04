@@ -1,18 +1,4 @@
-﻿# Converted from: VDR-DUDE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bat05/raw/VDR-DUDE.ANS
-# Source Revision: archive-sha256:c1082e0417753715d0b89831e0230f9ac3baf3aab6c8a1f382615ebce2ab409a
-# Source SHA-256: 6d662cbdc3abe9e978a421538316a20d2441f831817c61990d0b9675f4ca82ed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VDR-DUDE.ANS by Vader (bad attitude); released in bat05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ugly dude...
-# SAUCE Author: Vader
-# SAUCE Group: bad attitude
-# SAUCE Date: 19970127
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: ugly dude... by Vader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bat05-vdr-dude
 
 Write-Host '
 [1;34m ▄▄█▀▓▀▀■▀▀▀▄▄[0m     [1;34m                            [0m

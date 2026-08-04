@@ -1,13 +1,4 @@
-﻿# Converted from: SC-TFR.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9407/raw/SC-TFR.ICE
-# Source Revision: archive-sha256:c6a6b9362995bb76d0cbb2d7dbf54e671ec2870d25bfdff1a5d3a538190c7d91
-# Source SHA-256: e01602e7e1f0246f3c18c4221e3e02cbf77dd8f618a831a8a4d9766c7522f0dd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-TFR.ICE by Sliver Cut (ice-9407); released in ice-9407 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 135-173
-# Columns: 1-80
+﻿# Artwork: SC-TFR.ICE by Sliver Cut | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9407-sc-tfr-part04
 
 Write-Host '
 [0m[0m█[1;30;47m░▒[0m▐███[1;30;47m░[0m███████[1;30;47m░[0m█[1;30;47m░▒░[0m██[1;30;47m░[0m█[1;30;47m░[0m█[1;30;47m░▒[0m▀▀▀▀▀[1;30m▄[0;1;30;43m▓▒░[0;1;33;43m░[0;33m███[0;1;30;43m░[0;1;30m▄▄▀ [0;1;30;43m▒▓▒▓▒[0;33m▄[0;1;30m▀▀▀█[0;1;30;43m▒[0;1;30m▌▐[0;1;30;43m▒[0;1;30m▀ [0;1;30;43m▓▒░ [0;33m█[0;35m▐█[0;1;35;45m░░[0;35m████[0;1;35;45m░[0;35m▀[0;1;30m▄[0;1;30;45m▓[0m

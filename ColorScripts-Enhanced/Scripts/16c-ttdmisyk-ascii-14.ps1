@@ -1,13 +1,4 @@
-﻿# Converted from: ASCII-14.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ttdmisyk/raw/ASCII-14.ANS
-# Source Revision: archive-sha256:691d88fad8510c75499187262885f1f653d52455952817f34e55b7599917acfc
-# Source SHA-256: 3273fcb54288966a454acaada512108cf438ea4fd8ac949a2bf84699f83c8e7a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ASCII-14.ANS by Konami (ttdmisyk); released in ttdmisyk and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: ASCII-14.ANS by Konami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ttdmisyk-ascii-14
 
 Write-Host '
             [1;30m┌──► [0;35mKONAMI ISSUE #8[0;37m [0;1;30m]──────────────────────────────╖[0m

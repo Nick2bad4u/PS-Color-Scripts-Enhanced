@@ -1,18 +1,4 @@
-﻿# Converted from: DDSUREAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe05/raw/DDSUREAL.ANS
-# Source Revision: archive-sha256:37d89d30ef39e93d86c9ed1aa9fcfc56f21493baa03286af8b8a012f2401a98a
-# Source SHA-256: 63e049d3a8130b003f8a17abd6913025b67420f90e271ad6c791781e08d8063b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DDSUREAL.ANS by Diamond Darrell (Circe); released in circe05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Inspiration
-# SAUCE Author: Diamond Darrell
-# SAUCE Group: Circe
-# SAUCE Date: 19980501
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Inspiration by Diamond Darrell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe05-ddsureal
 
 Write-Host '
                                          [31m▄▀[0;37m  [0;1;32m▀█████████████▀ ▀██████████████[0;1;37m███▓[0m

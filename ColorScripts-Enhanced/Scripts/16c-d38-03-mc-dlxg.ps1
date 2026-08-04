@@ -1,18 +1,4 @@
-﻿# Converted from: MC!DLXG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-03/raw/MC!DLXG.ANS
-# Source Revision: archive-sha256:782ccbab81c9098e3c3d5b5d2d3703deba2cd08c356aa583e9b292783b136ef2
-# Source SHA-256: ad1eb12a6deba80f7f79da9c604f4830e304946916b2a22f7cd2393a8e69c161
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MC!DLXG.ANS by Madcap (Department 38); released in d38-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Dream Land Xpress logo
-# SAUCE Author: Madcap
-# SAUCE Group: Department 38
-# SAUCE Date: 19961228
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: Dream Land Xpress logo by Madcap | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-03-mc-dlxg
 
 Write-Host '
 [1;33m     [0;36m▄▄▄▄▄[0m                 [36m▄▄▄▄▄▄[0m                [36m▄▄▄▄▄[0m

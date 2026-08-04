@@ -1,13 +1,4 @@
-﻿# Converted from: TH!RIG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-9609/raw/TH!RIG.ANS
-# Source Revision: archive-sha256:b8dd1220b09b83c8af4c4f2bd74968552ed3ecfc85ae31ad7bf3b2d62f23e9e2
-# Source SHA-256: 459d01dd6cb8296e81b7513dd6f55f750eb007db49f81a7d76b0df9af9ee98e7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH!RIG.ANS by Th (rca-9609); released in rca-9609 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: TH!RIG.ANS by Th | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-9609-th-rig
 
 Write-Host '
            [35m              [0m      [35m         [0m

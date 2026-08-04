@@ -1,18 +1,4 @@
-﻿# Converted from: SK!INSEC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p07_00/raw/SK!INSEC.ANS
-# Source Revision: archive-sha256:a3b441ad059a99c69fdbe6c7a0af1b4d1cc643ea6b978677fc1531d85260eaf2
-# Source SHA-256: 4d0576af9b458c67873dcb74143ff11eb3d6d64e4aa4f0455fa1c958333ff1cb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!INSEC.ANS by sIMONkING (tHElo0p); released in l0p07_00 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: iNSECT
-# SAUCE Author: sIMONkING
-# SAUCE Group: tHElo0p
-# SAUCE Date: 20000519
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: iNSECT by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p07-00-sk-insec
 
 Write-Host '
             [32m▀▄ ▄▄▄▄▄[0m

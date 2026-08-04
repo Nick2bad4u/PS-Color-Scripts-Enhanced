@@ -1,13 +1,4 @@
-﻿# Converted from: PL-NIHIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0997/raw/PL-NIHIL.ANS
-# Source Revision: archive-sha256:da5320832895c3901d4f15edb6d72c8cae3759c8058411ecb6a63c5962f374c9
-# Source SHA-256: 5fe2641de56713a753c0e241972d9f842f917b4393e9ef77b158f9d2a12a3078
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PL-NIHIL.ANS by Puschel (sac0997); released in sac0997 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: PL-NIHIL.ANS by Puschel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0997-pl-nihil
 
 Write-Host '
                                    [31m  [0;37m [0;1;31m▄[0m  [1;31m▀[0m                                  [31m▄[0m

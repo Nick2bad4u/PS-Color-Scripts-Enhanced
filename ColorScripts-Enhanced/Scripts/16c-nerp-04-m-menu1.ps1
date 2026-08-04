@@ -1,13 +1,4 @@
-﻿# Converted from: M-MENU1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-04/raw/M-MENU1.ANS
-# Source Revision: archive-sha256:d99c3d6576b4ffe30ad10598ac465177e9b6d171d7a6c4fd056707ad27adce95
-# Source SHA-256: 9f1159ae5f1e3467c42a114d7fcf63c4cbcc29c5debdbe9e320296d07a35a7b4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M-MENU1.ANS by Milkmang (nerp-04); released in nerp-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: M-MENU1.ANS by Milkmang | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-04-m-menu1
 
 Write-Host '
                                      ▄

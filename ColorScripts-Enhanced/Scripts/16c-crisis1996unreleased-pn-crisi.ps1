@@ -1,18 +1,4 @@
-﻿# Converted from: PN-CRISI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/crisis1996unreleased/raw/PN-CRISI.ANS
-# Source Revision: archive-sha256:d42db79c3670e318c85ffe28ad5142bf995c4610d0c05cf0eae2c80b9a793fbb
-# Source SHA-256: d54ab5d48fe65386771557fa1edcba38691f7376e1667cdce8ec93e70e42abf6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PN-CRISI.ANS by penn (crisis); released in crisis1996unreleased and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: logo
-# SAUCE Author: penn
-# SAUCE Group: crisis
-# SAUCE Date: 19960401
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: logo by penn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-crisis1996unreleased-pn-crisi
 
 Write-Host '
 ██[1;30;47m░[0m█████▄ ▄[47m [0;30;47mcrisis![0;37;40m████[0;1;30;47m░[0m██[47m   [0;40m██[0;1;30;47m░[0m████████▀█▄█[1;30;47m░░[0m███[1;30;47m░[0m█▀██[1;47m░[0m██████▄██████[1;30;47m░[0m█████▄████[1;37;47m░[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: PIZZATOE-AMY-GHOST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1024/raw/PIZZATOE-AMY-GHOST.ANS
-# Source Revision: archive-sha256:6949840195965f5eb9696cfb423e381432d7ccfa36b66290e336e4608b7c12f8
-# Source SHA-256: 2c34e967bbd55e03ce04b52cd812f600d8874f8314641b53e15b05c1349fd649
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PIZZATOE-AMY-GHOST.ANS by Amy (Pizzatoe); released in mist1024 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Ghost
-# SAUCE Author: Amy
-# SAUCE Group: Pizzatoe
-# SAUCE Date: 20241025
-# SAUCE Dimensions: 96x48
-# SAUCE Font: IBM VGA
-# Lines: 1-48
-# Columns: 1-96
+﻿# Artwork: Ghost by Amy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1024-pizzatoe-amy-ghost
 
 Write-Host '
 

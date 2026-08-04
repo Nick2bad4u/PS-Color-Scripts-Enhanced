@@ -1,13 +1,4 @@
-﻿# Converted from: FR_A5I2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aws-001/raw/FR_A5I2.ANS
-# Source Revision: archive-sha256:8825e31e9d68876954735282b644e136aea1ab04e05f449f3c5d89235290bde9
-# Source SHA-256: 9e2cd9843091fa267223e8e497dbbc15adc99f6b626a2ebde84f449fb2058449
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FR_A5I2.ANS by Fury (aws-001); released in aws-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: FR_A5I2.ANS by Fury | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aws-001-fr-a5i2
 
 Write-Host '
       [35m▄▄▄███████████████████████████████████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▄▄▄    [0m

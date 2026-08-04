@@ -1,18 +1,4 @@
-﻿# Converted from: D5-CDAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gel-008/raw/D5-CDAD.ANS
-# Source Revision: archive-sha256:6648b5dbd386c97319d5eb0d536ae1cd7ddc2539e4b7022245fc97306a45a869
-# Source SHA-256: bb1149291996bd066717f8d7d96ca4e05ed199adb2cc2da4be4e46139c2baa7b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D5-CDAD.ANS by dee five (gel); released in gel-008 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: cd add =)
-# SAUCE Author: dee five
-# SAUCE Group: gel
-# SAUCE Date: 19971017
-# SAUCE Dimensions: 80x25
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: cd add =) by dee five | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gel-008-d5-cdad
 
 Write-Host '
               [1;31m▄[0;33m▄▄[0;1;31;43m▀[0;33m█▀[0;1;31;43m▄[0;33m█▄▄▄[0m

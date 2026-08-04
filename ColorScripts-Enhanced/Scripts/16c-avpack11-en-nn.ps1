@@ -1,18 +1,4 @@
-﻿# Converted from: EN-NN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack11/raw/EN-NN.ANS
-# Source Revision: archive-sha256:e08c72486b8d6a71c334f4eeb7ca03c00b810be448bfe03d83954fc2036bcdb7
-# Source SHA-256: 09d656ec241544fdcd2a997b31fc705e4af466bb764f0d195321011b1ed31dc7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EN-NN.ANS by nnsanguined (apoc visionions); released in avpack11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Testify, Kick a hole in the sky
-# SAUCE Author: nnsanguined
-# SAUCE Group: apoc visionions
-# SAUCE Date: 19960513
-# SAUCE Dimensions: 80x45
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: Testify, Kick a hole in the sky by nnsanguined | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack11-en-nn
 
 Write-Host '
 

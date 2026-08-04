@@ -1,13 +1,4 @@
-﻿# Converted from: CI-GLOOM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moi-1296/raw/CI-GLOOM.ANS
-# Source Revision: archive-sha256:43ba331c3216dae712e2fc42adda89bce3b1a616e82a7a9594fb7cc9a7f26e06
-# Source SHA-256: 14d428c4ff3a34e5cf1527f3437d20da4bb9ab3bcfe86ea9e30a2d506f1b58ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CI-GLOOM.ANS by Civid (moi-1296); released in moi-1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: CI-GLOOM.ANS by Civid | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moi-1296-ci-gloom
 
 Write-Host '
 

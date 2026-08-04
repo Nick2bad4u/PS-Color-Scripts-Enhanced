@@ -1,18 +1,4 @@
-﻿# Converted from: US-H2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-03/raw/US-H2.ANS
-# Source Revision: archive-sha256:c463d41d9ae381f389778dd35b1d3ac7d9b856c30aea0076774f44c539a72586
-# Source SHA-256: 0e444aac1ff0d5243ac38c626c1764ac81087d026134374dbc80308f906d07c6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-H2.ANS by Dissonance + Avenging Angel (Hieroglyphics); released in hiero-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Hazard/2
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20001016
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Hazard/2 by Dissonance + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-03-us-h2
 
 Write-Host '
                                                         [1;30m [0m       [1;30m  [0m

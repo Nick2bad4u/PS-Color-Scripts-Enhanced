@@ -1,16 +1,4 @@
-﻿# Converted from: LR!-GRL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flux-003/raw/LR!-GRL.ANS
-# Source Revision: archive-sha256:c8241d6e438a30e14e803d31ea9639f514382ec0df6188aa9d91ed9f1ddec867
-# Source SHA-256: 1aca7c5f579c58b65cf10d9ce25f41fd71fa7a027a509517d8f9e790b7c0cc93
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LR!-GRL.ANS by Late Riser (flux-003); released in flux-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: Late Riser
-# SAUCE Date: 19970822
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: LR!-GRL.ANS by Late Riser | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flux-003-lr-grl
 
 Write-Host '
 [1;32;42m██░[0m [1;31m [0;33m███▄█▀█▄▀[0;1;31;43m░[0;33m▀▀[0;1;37m▄▄▄▄▄▄▄▄[0m▄[1;31m▀▀▀[0;1;31;47m████[0;1;31;40m▀[0;1;31;47m████████████[0;1;31;40m▀▀▀[0m▄[1m▄▄▄▄▄▄▄[0;1;31m▀▀[0;1;31;47m████[0;1;31;40m█[0m [34m█[0;1;34;44m██████▓█[0;34m█[0m [37m░ [0;36m░[0;37m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MT-TERB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy07/raw/MT-TERB1.ANS
-# Source Revision: archive-sha256:cf53c4ea5c286717abe3d962fb98452e352d7d7a30a31881220e7068a7f0bb79
-# Source SHA-256: 1f6b0229ca3458f10bb79f72ca077b0f45aaea7366701fda85d5e790ac87d935
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MT-TERB1.ANS by Misfit (Apathy Studios); released in apathy07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Terbium
-# SAUCE Author: Misfit
-# SAUCE Group: Apathy Studios
-# SAUCE Date: 19960217
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Terbium by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy07-mt-terb1
 
 Write-Host '
 [36m..[0;1;37mterbium numbah 6[0;36m..[0;37m [0;31m░[0;37m [0;33m▀[0;37m  [0;33m▄▄█▀[0;37m [0;33m░[0;37m  [0;33m▄▄█▄▄▀▀■▄▀█▄[0;37m [0;33m ░ [0;37m [0;33m▄█[0;37;43m░[0;33;40m▀▀[0;37;40m   [0;33;40m▒░░[0;37;40m                [0;33;40m░▒[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PL-COSMI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fact-04/raw/PL-COSMI.ANS
-# Source Revision: archive-sha256:ede22877181bcaee0ecbada01269c2c7bf675cbd1fe3cc75db17ea24e9fac1f9
-# Source SHA-256: 867d636c9353a6f2f94def09746b10c11baab6f7ea1e9d4801fb38f92a089798
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PL-COSMI.ANS by PU$$Yl0VEr (fACt!); released in fact-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: %cOSMiC hORROR% ^!^
-# SAUCE Author: PU$$Yl0VEr
-# SAUCE Group: fACt!
-# SAUCE Date: 19960424
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: %cOSMiC hORROR% ^!^ by PU$$Yl0VEr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fact-04-pl-cosmi
 
 Write-Host '
                     [34m▄[0;1;34;44m▒[0;34m█▀ [0;1;34m▄[0;1;34;47m▀[0;1;34;40m▄ ▄▄▄   [0;34m▄█[0;1;34;44m█▓[0;34m▄[0m

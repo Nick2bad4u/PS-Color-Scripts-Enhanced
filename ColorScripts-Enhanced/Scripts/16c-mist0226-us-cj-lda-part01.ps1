@@ -1,19 +1,4 @@
-﻿# Converted from: US-CJ-LDA.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/mist0226/raw/US-CJ-LDA.ANS
-# Source Revision: archive-sha256:ef03a5a095d5c0479664f99ff23399e245703c452ca9d05ea2957005177022f9
-# Source SHA-256: 56d2186295853bccf568a80279b72b7dd999e716a89eb1a6bcce96365ca82cdd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CJ-LDA.ANS by LDA + Consolejockey (Mistigris); released in mist0226 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: mutual appreciation
-# SAUCE Author: LDA / consolejockey
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260226
-# SAUCE Dimensions: 80x112
-# SAUCE Font: IBM VGA
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: mutual appreciation by LDA + Consolejockey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0226-us-cj-lda-part01
 
 Write-Host '
      ■

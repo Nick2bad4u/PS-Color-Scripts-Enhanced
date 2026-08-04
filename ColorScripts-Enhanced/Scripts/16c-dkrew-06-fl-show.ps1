@@ -1,18 +1,4 @@
-﻿# Converted from: FL-SHOW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dkrew-06/raw/FL-SHOW.ANS
-# Source Revision: archive-sha256:02960d7b88668b8887fe5cdf52da355c2d3dd37bf140c876abc30817d0d21bdb
-# Source SHA-256: ea541c966524a65b0b7f76df6532ef64885bb24c0ce141555c3bed27eb59bfd5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-SHOW.ANS by Flare (dk!); released in dkrew-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: LiGHT SH0W!
-# SAUCE Author: Flare
-# SAUCE Group: dk!
-# SAUCE Date: 19970420
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: LiGHT SH0W! by Flare | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dkrew-06-fl-show
 
 Write-Host '
   [1;30m█▀[0m  [1;30m▀[0m         [36m▄▄▄[0m     [34m    [0;1;30m▀[0;34m [0;31m  [0;1;30m▀▀▀░[0m   [1;30m▒░▀▀▀[0m▀▀[1;30m▀▓▀▀[0m▀[1;30m▀▀[0m  [1;30m▀▀▀[0m▀▀[1;30m▀▀[0m▀[1;30m▀▀[0m  [36m▄[0m   [1;30m▀▀▀▀▓[0;31m    [0m

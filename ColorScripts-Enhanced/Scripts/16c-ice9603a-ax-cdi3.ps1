@@ -1,13 +1,4 @@
-﻿# Converted from: AX-CDI3.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9603a/raw/AX-CDI3.ICE
-# Source Revision: archive-sha256:51bcd96b8979115d69f1f707dc5c3d398256f0ac7a750005c0ccb144327b6f27
-# Source SHA-256: c962007b21d3ecf03aef595724163191bd2ac814e42c10096b8bfa2f28843756
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AX-CDI3.ICE by Apox (ice9603a); released in ice9603a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: AX-CDI3.ICE by Apox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9603a-ax-cdi3
 
 Write-Host '
 [30m                  [0;1;30m  [0m                  [1;30m▄▄[0m

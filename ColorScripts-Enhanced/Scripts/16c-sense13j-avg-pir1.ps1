@@ -1,13 +1,4 @@
-﻿# Converted from: AVG-PIR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense13j/raw/AVG-PIR1.ANS
-# Source Revision: archive-sha256:6b4e7b22ff11e363b1b5be8167daae9b4686076db84cab202311ff8a06211d49
-# Source SHA-256: aaf628fa65b707d434b914a180939c99b9b728802be0436433c86732e0a23f3a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-PIR1.ANS by Avenging Angel (sense13j); released in sense13j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: AVG-PIR1.ANS by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense13j-avg-pir1
 
 Write-Host '
 [1;30;47m▀[0m         [1;30m▒[0;1;30;47m█▒▒ [0;1;37;47m▄▄[0;1;30;47m▀[0m▄▄[1;30m▄[0m [1;30m  ▒█████▒▒▒██████████[0;1;30;47m█▒▒    ▄[0;1;30;40m▀▀▀▀▀▀▀▀██[0;1;30;47m▓▓▓▓▓[0m [1;30m▄[0m▄[1;33m▄▄▄▄▄▄[0m▄

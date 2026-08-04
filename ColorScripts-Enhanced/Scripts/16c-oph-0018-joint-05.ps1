@@ -1,17 +1,4 @@
-﻿# Converted from: JOINT-05.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oph-0018/raw/JOINT-05.ANS
-# Source Revision: archive-sha256:b78bc978b69dedfb9a07152cba296ecefc97611bd7bc7f5211d489ff748613dc
-# Source SHA-256: fbdf7a26d13094a4e4dce91d62b2dc3f3eb1fda5042a0d9a5029ad3dcdad13c5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JOINT-05.ANS by Corey + Outkast (oph-0018); released in oph-0018 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: _22[\  _[\ _[[[[[\\[__
-# SAUCE Author: corey / outkast
-# SAUCE Date: 19960917
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: _22[\ _[\ _[[[[[\\[__ by Corey + Outkast | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oph-0018-joint-05
 
 Write-Host '
 [1;31;41m▒▒░░░[0;31m██▄█ ▄██▀▀▀█[0;1;31;41m░░░░░░[0;31m███[0;30;41m   ░░░░[0;31;40m██[0;1;31;41m  ░░░▒▒▒▒[0;31m▀▀▀▀▀▀▀▀▀[0;37m [0;34m▄▄▄▄[0;37m [0;31m▀▀▀▀[0;1;31;41m░░░▓▓▓▓▓▓█[0;1;31;47m▓▓█▄▄[0;1;31;41m█[0m

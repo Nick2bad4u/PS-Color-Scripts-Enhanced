@@ -1,18 +1,4 @@
-﻿# Converted from: M0-FLAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz09aug/raw/M0-FLAT.ANS
-# Source Revision: archive-sha256:3e0bd3039fe877b3970f71e80b4456ee60793f2295ae127a50a6587b17c2d6a2
-# Source SHA-256: a9d6b60494973f7a819197d0869243f21dbf7220babc3093a4b6b34a0cab9d10
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M0-FLAT.ANS by mosen (lazarus); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Flatscan
-# SAUCE Author: mosen
-# SAUCE Group: lazarus
-# SAUCE Date: 19970804
-# SAUCE Dimensions: 80x15
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: Flatscan by mosen | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz09aug-m0-flat
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: IN-YEAR2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9903a/raw/IN-YEAR2.ICE
-# Source Revision: archive-sha256:ef92f10fde60fb0721e912ca13097b8a2a4a9ff760d539c28cc549058aaa8c96
-# Source SHA-256: f4d7c86a5ff135f7a779685fcb859c8472c9999ac30c7a1a990d911ae4e6c72a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IN-YEAR2.ICE by inazone (ice); released in ice9903a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: two years later...
-# SAUCE Author: inazone
-# SAUCE Group: ice
-# SAUCE Date: 19990401
-# SAUCE Dimensions: 80x287
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: two years later... by inazone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9903a-in-year2-part01
 
 Write-Host '
 [1;30;47m                     [0;30;47m                                                           [0m

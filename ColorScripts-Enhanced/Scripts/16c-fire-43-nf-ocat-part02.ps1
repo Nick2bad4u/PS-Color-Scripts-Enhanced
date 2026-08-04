@@ -1,19 +1,4 @@
-﻿# Converted from: NF-OCAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-43/raw/NF-OCAT.ANS
-# Source Revision: archive-sha256:d3967e67800d0c773a52f120751caeb2bc01ead5180b478fb0a0e89978edc4ec
-# Source SHA-256: 410d79e5269142e46c8a1194009dd14616a74bea2f94ae355af9de343cf1bd27
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NF-OCAT.ANS by necro (fire); released in fire-43 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: oCat
-# SAUCE Author: necro
-# SAUCE Group: fire
-# SAUCE Date: 20250707
-# SAUCE Dimensions: 80x240
-# SAUCE Font: IBM VGA
-# Lines: 49-96
-# Columns: 1-80
+﻿# Artwork: oCat by necro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-43-nf-ocat-part02
 
 Write-Host '
 █[43m▓[0;40m█[0;43m▒[0;40m███████▌[0;1;47m▌[0m███[43m▓[0;40m█ [0;43m▓[0;40m██[0;43m▒▓[0;40m [0;1;47m▌[0m█████████████████ [1;47m▌[0m███▌▌[1;47m▌[0m██████████████████████[1;30;47m▒░▒▓▓▓[0m

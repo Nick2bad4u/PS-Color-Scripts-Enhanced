@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-LPHT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/ZII-LPHT.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: e7a4a936e7324237d02ef925b347194b90bc147e0a28b3a3e12e427724367967
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-LPHT.ANS by Zeus II (Mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: lopht BBS
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241230
-# SAUCE Dimensions: 80x190
-# SAUCE Font: IBM VGA
-# Lines: 163-189
-# Columns: 1-80
+﻿# Artwork: lopht BBS by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-zii-lpht-part07
 
 Write-Host '
 

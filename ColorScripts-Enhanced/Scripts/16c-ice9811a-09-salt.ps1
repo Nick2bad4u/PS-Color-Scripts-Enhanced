@@ -1,18 +1,4 @@
-﻿# Converted from: 09-SALT.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9811a/raw/09-SALT.ICE
-# Source Revision: archive-sha256:96b316fb8340c104fc47a45343f74618f8c7f20316b5ac03c800f98e3344853d
-# Source SHA-256: 53efce751313f0ba368c68f611e4f4ce706c15b780827f00e5264eb57d6dc0db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-SALT.ICE by Fluor (Ice Advertisements); released in ice9811a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Salt
-# SAUCE Author: Fluor
-# SAUCE Group: Ice Advertisements
-# SAUCE Date: 19981130
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Salt by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9811a-09-salt
 
 Write-Host '
                           [31m▄[0;37m   [0m

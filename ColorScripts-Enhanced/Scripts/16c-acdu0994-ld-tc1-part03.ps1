@@ -1,18 +1,4 @@
-﻿# Converted from: LD-TC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0994/raw/LD-TC1.ANS
-# Source Revision: archive-sha256:70e9e3ba45456511eb6a648215e7531dd3b7a09ca51f860ca2dd613c7dbc4d28
-# Source SHA-256: 512516998a2605c7d8ba64b3326dd99cf65144b7aef159e67044ef4b0f1ac9ab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-TC1.ANS by Lord Jazz (ACiD Productions); released in acdu0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Complex
-# SAUCE Author: Lord Jazz
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940901
-# SAUCE Dimensions: 80x149
-# Lines: 101-149
-# Columns: 1-80
+﻿# Artwork: The Complex by Lord Jazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0994-ld-tc1-part03
 
 Write-Host '
                         [1;36m▒[0m       [1;30m▒[0m           [1;30m░[0m            [1;30m░[0m

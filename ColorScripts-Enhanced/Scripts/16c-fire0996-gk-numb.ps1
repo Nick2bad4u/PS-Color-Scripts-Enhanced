@@ -1,18 +1,4 @@
-﻿# Converted from: GK-NUMB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0996/raw/GK-NUMB.ANS
-# Source Revision: archive-sha256:fd0c87547005857a37aee32ff40c82a1e8535aecda68a9edc2483cdc45b21af1
-# Source SHA-256: 3e33de220983a4f62d8061628dcabf645a92351d73ea8f8a198cffd90010515b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GK-NUMB.ANS by Numb + Grind King (samsara & fire); released in fire0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: samsara
-# SAUCE Author: numb & grind king
-# SAUCE Group: samsara & fire
-# SAUCE Date: 19960908
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: samsara by Numb + Grind King | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0996-gk-numb
 
 Write-Host '
                                           [1m    [0;32m▄▄▄[0;1;37m [0;32m     [0m

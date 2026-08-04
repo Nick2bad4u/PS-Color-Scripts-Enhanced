@@ -1,19 +1,4 @@
-﻿# Converted from: us-botfight.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-001/raw/us-botfight.ans
-# Source Revision: archive-sha256:589c804657c8d15ba617f7c0fd80723e4505d519989b80eba9584665be49eb54
-# Source SHA-256: a37a86798051e1ba545f478e12d4891884080dab473806626a832a17ce6b34a1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-botfight.ans by Catx + Oddfirefox (Legacy Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Botfight
-# SAUCE Author: oddfirefox & catx
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20191126
-# SAUCE Dimensions: 80x19
-# SAUCE Font: IBM VGA
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Botfight by Catx + Oddfirefox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-001-us-botfight
 
 Write-Host '
                          [1;30;40m-▄[0m [1;30m-[0m      [1;31m▄▄[0m

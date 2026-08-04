@@ -1,13 +1,4 @@
-﻿# Converted from: ZS-KO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sys2_02/raw/ZS-KO.ANS
-# Source Revision: archive-sha256:4be7ec805fb2a4a39fee328474e69db4f25855ccd9f3e08bd6de462c5c223bd8
-# Source SHA-256: 3bed78523a887e9ba89ada1474968be0515365e9526b60f960f230fd67d4c3d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZS-KO.ANS by Zerostar (sys2_02); released in sys2_02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: ZS-KO.ANS by Zerostar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sys2-02-zs-ko
 
 Write-Host '
 [1;34;44m░[0;34m▌[0;1;34;44m░░░[0;34m▀▌▄[0;1;34;44m░░[0m  [36m▄██[0;37m █▀ [0;1;36m▄[0;1;36;46m▓▓▒[0m [34m▀[0;1;34;44m▓▓▒▒░[0;34m▀▄▄[0;1;34;44m░░[0;34m▄█[0;1;34;44m░░░[0;34m▀▄[0;1;34;44m░░[0m [34m▄[0;1;34;44m░░[0;34m█▀[0;1;36m▐▓▓▀[0m [34m▄█▀▀▀▓▀▀▀▀▌▀▀▀▀▀▀██▀▀▀[0;1;34;44m▐██[0m

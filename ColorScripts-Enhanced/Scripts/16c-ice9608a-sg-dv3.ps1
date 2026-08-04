@@ -1,13 +1,4 @@
-﻿# Converted from: SG-DV3.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9608a/raw/SG-DV3.ICE
-# Source Revision: archive-sha256:3cb2898237aa255407c11f4c82532bf88edc414fa849eac52074494eeda3cbfa
-# Source SHA-256: 60bd89bf5fa99486f2fb5a5b081aed39a2f3e7fc28bb659f291541f0b5b2c169
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SG-DV3.ICE by Snake Grunger (ice9608a); released in ice9608a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: SG-DV3.ICE by Snake Grunger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9608a-sg-dv3
 
 Write-Host '
                                                              [31m  [0m

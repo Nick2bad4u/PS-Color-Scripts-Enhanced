@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-1NVS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-36/raw/ZIR-1NVS.ANS
-# Source Revision: archive-sha256:43e7d46e56dc094cf8502b299dcd82ee875dea0a064a36248f4e6c844180fd25
-# Source SHA-256: 525573f52b88ddfa6d2b076bc5a881c214c4e2231419f3545834b4cd781db45e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-1NVS.ANS by zir (FiRE); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: THE iNViSiBLES
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20230303
-# SAUCE Dimensions: 80x78
-# SAUCE Font: IBM VGA
-# SAUCE Comments: SMILE! :) :) :)
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: THE iNViSiBLES by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-36-zir-1nvs-part01
 
 Write-Host '
        [36;40m [0;37;40m                     [0;36;40m [0m                       [37;40m░░ [0;1;34;40m░[0;1;34;44m░░▓[0;1;34;46m█[0;1;34;47m█[0;1;34;40m▀▀██[0;1;34;46m►[0;36m█[0;36;45m►[0;35;40m█[0;1;35;45m░[0;35m▀[0;1;35;45m▒▓█[0;1;35;40m█▐[0m ░

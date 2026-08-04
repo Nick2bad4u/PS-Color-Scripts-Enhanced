@@ -1,13 +1,4 @@
-﻿# Converted from: BU-DNA!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dna0397/raw/BU-DNA!.ANS
-# Source Revision: archive-sha256:e1a4a5668c5ecdfaceffae094b291f77d84772de2eb8e1772dc5072c38cdc6bb
-# Source SHA-256: 7d03dcf5c6c8a0c0eddb6ac051b1e8c5f0871ef5fcb8956836bea1eda33968a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BU-DNA!.ANS by Buttman (dna0397); released in dna0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: BU-DNA!.ANS by Buttman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dna0397-bu-dna
 
 Write-Host '
 [1;30m──────  ─ ─ ─ ── ─ ─  ─      ─ ── ─ ─ ─ ─ ─[0m [1m                   [0m [1;30m      ─ ─ ─ ── [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: VLD-SBY3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-16/raw/VLD-SBY3.ANS
-# Source Revision: archive-sha256:c00416c7ddf398f58bbf4e903903b01262636f611404ac6c0f665b0399f0a726
-# Source SHA-256: 0a80bc2fafa4fb2d9e3deb14513714aa1ac66e990c6beafb177941f37a7edc52
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VLD-SBY3.ANS by velodrome (ecolove); released in eco-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: snow logoff matrix
-# SAUCE Author: velodrome
-# SAUCE Group: ecolove
-# SAUCE Date: 19990804
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: snow logoff matrix by velodrome | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-16-vld-sby3
 
 Write-Host '
 [34m▀▄█▀▀▀▄▄█▄[0;30;47m█[0;34;40m▀[0;30;47m████████[0;34;40m▀▄██[0;1;34;44m▄▄▓░[0;34m██▀▀▀▀███[0;1;34;44m [0;34m██▄[0;37m [0;1;30m▀[0;1;30;47m▄[0;1;37;47m▀███▀▀[0;1;30;47m▄[0m▀▀▀[1;30m▀ ▄▄▄████████▌▐[0;1;30;47m▌[0;1;37;47m▐█ [0;1;30;40m█ █[0;1;30;46m▓▓▀[0;1;30;40m█[0m

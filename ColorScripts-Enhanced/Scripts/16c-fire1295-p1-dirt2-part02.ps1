@@ -1,18 +1,4 @@
-﻿# Converted from: P1-DIRT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1295/raw/P1-DIRT2.ANS
-# Source Revision: archive-sha256:9b1099642415a2dfbc5c45eb692c69eb3103983367e2d26d1f0ab776b803ee9d
-# Source SHA-256: 8a29a63dc15c67d9eec9deadb52a45a262a26dbdd1d76fc167c6e77ec465910d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P1-DIRT2.ANS by Prisoner#1 (Fire); released in fire1295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Dirt Emag
-# SAUCE Author: Prisoner#1
-# SAUCE Group: Fire
-# SAUCE Date: 19951116
-# SAUCE Dimensions: 80x62
-# Lines: 34-61
-# Columns: 1-80
+﻿# Artwork: Dirt Emag by Prisoner#1 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1295-p1-dirt2-part02
 
 Write-Host '
                                        [33m░[0m      [33m▐[0;1;31;43m▀■░▓█[0;1;31;47m▓[0;1;31;43m█▀[0;33m█▌[0m [33m▄[0m     [33m [0m     [37m▄█[0;1;37;47m▄█████ [0m

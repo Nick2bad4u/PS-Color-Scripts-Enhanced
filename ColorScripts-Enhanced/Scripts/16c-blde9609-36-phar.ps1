@@ -1,18 +1,4 @@
-﻿# Converted from: 36-PHAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9609/raw/36-PHAR.ANS
-# Source Revision: archive-sha256:ebbff7e3049916d809d893ea2aa04734229c43fb86ad9d17682073c079d4ff3a
-# Source SHA-256: dea7d8004b95b79656b156efd41ed5e3ee7f1c1f9b0fd8d91e34c3824b4ffb16
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 36-PHAR.ANS by metallic blood (blade productions); released in blde9609 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the pharcyde!
-# SAUCE Author: metallic blood
-# SAUCE Group: blade productions
-# SAUCE Date: 19960830
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: the pharcyde! by metallic blood | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9609-36-phar
 
 Write-Host '
 

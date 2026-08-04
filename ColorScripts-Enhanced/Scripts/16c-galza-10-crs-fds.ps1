@@ -1,18 +1,4 @@
-﻿# Converted from: CRS-FDS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/galza-10/raw/CRS-FDS.ANS
-# Source Revision: archive-sha256:0f21c77ad7c2562ee83926908181132bbab1b7d608b70aa16bbd8a336fe8085b
-# Source SHA-256: 043d9482f7f0ee512023c54fd9bc0bcc156b7e384df516873c7ce6a079ca01b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CRS-FDS.ANS by Crasher (just-x/galza); released in galza-10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: from da dreamspace
-# SAUCE Author: Crasher
-# SAUCE Group: just-x/galza
-# SAUCE Date: 20010216
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: from da dreamspace by Crasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-galza-10-crs-fds
 
 Write-Host '
 

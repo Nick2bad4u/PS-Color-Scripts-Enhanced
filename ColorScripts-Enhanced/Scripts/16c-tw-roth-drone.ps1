@@ -1,13 +1,4 @@
-﻿# Converted from: DRONE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tw-roth/raw/DRONE.ANS
-# Source Revision: archive-sha256:190885942cec88a16c8a5d2e7952970dfc3a8a8e6b1ddb12dad31a590f611129
-# Source SHA-256: bf4f6e3fc9a70051107c9b42a484f2d3119df30a91aaad6fc1c7830988defdd4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DRONE.ANS by Nitron (tw-roth); released in tw-roth and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: DRONE.ANS by Nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tw-roth-drone
 
 Write-Host '
 [43m░░[0;33;40m▄▄▄[0;37;40m    .[0;1;30;40m      [0;34m░[0;37m          [0;36m.[0;37m                                         [0;34m░░░░░░░░░░[0m

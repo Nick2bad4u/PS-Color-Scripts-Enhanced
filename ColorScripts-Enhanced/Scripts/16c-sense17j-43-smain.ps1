@@ -1,13 +1,4 @@
-﻿# Converted from: 43-SMAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense17j/raw/43-SMAIN.ANS
-# Source Revision: archive-sha256:dd9d1d0c2e9d18c52916147f75b54ea93779080fcdcf859439501b8e3996efb6
-# Source SHA-256: e84afca8d669d936f0817dca1a6e76a2182e4aa223f00f98b0a09ab072c1b050
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 43-SMAIN.ANS by Aesthetic (sense17j); released in sense17j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: 43-SMAIN.ANS by Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense17j-43-smain
 
 Write-Host '
 [33m░░[0;1;37m ▄▄    [0;33m▒▒ [0;1;37m ▄▄▌▄    ░  [0;33m░░[0m      [1;37m░   [0;33m█▓▓█[0;1;37m   ▄ [0;33m██▀▀[0;1;37m ░[0;1;36m [0;1;37m [0;33m▀▀[0;35m ░░▓▓█[0;1;35;45m░░[0;35m███████████[0;1;37;45m  [0;35m█▓▓░[0m

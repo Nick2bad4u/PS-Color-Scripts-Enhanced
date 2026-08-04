@@ -1,19 +1,4 @@
-﻿# Converted from: VM-MISTIGRIS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/VM-MISTIGRIS.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: 0891d225d37bd6d969f45caaa09e2125a77f821276b19cf0d1ec40db2fd31734
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VM-MISTIGRIS.ANS by venom (mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: mistigris
-# SAUCE Author: venom
-# SAUCE Group: mistigris
-# SAUCE Date: 20241224
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: mistigris by venom | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-vm-mistigris
 
 Write-Host '
       [34m░[0;37m            [0;34m░[0;37m                                               [0;34m░[0m

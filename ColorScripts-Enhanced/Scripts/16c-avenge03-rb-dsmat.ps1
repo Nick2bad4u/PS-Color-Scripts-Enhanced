@@ -1,18 +1,4 @@
-﻿# Converted from: RB-DSMAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge03/raw/RB-DSMAT.ANS
-# Source Revision: archive-sha256:b53dd4509a562cc71a73a559baa7e13eeefa1cf193e827eee6178c14e3bd46f3
-# Source SHA-256: 3c2e1ef7e56c848a6ba7c462079374211bc84cfe8e252b6b8fca64066fb69162
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RB-DSMAT.ANS by rebal (the avenge cult); released in avenge03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: divided skies matrix
-# SAUCE Author: rebal
-# SAUCE Group: the avenge cult
-# SAUCE Date: 19980322
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: divided skies matrix by rebal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge03-rb-dsmat
 
 Write-Host '
 [34m▐▀ [0;35m▄▄[0;1;35;45m░▒▓[0;1;35;40m▀▀[0;34m [0;35m▀░▀[0;33m [0;1;30m▄▄▄▄▄▄[0;33m [0;35m░[0;1;30m▄▄▄[0m  [1;30mrb![0;34m ▀▀▀[0;1;34;44m▒░[0;34m▄[0;37m  [0;34m▀█▄[0;37m [0;34m░▒[0;35m▀█▄[0;37m  [0;1;30m▀███▀[0;1;30;46m▓[0;1;30;40m█[0;1;30;47m█▓▒[0;1;30;40m▀▀▀[0m  [36m▄[0;37m [0;33m   [0;1;36m▀[0;1;36;46m▓[0;1;36;40m▄▄[0m [1;30m▀▓█[0m

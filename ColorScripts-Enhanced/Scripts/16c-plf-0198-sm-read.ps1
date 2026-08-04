@@ -1,18 +1,4 @@
-﻿# Converted from: SM!READ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0198/raw/SM!READ.ANS
-# Source Revision: archive-sha256:463d77f4b1466b54ce907e7ee760282fc69f7183ee8d9f351965b1f5ce417b30
-# Source SHA-256: f256b8621ef1eed8afe85b11879aa2ede7b5fdd8262a0477fb29f9ea137b34c6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM!READ.ANS by siMs (poffelipoff); released in plf-0198 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: read
-# SAUCE Author: siMs
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19980109
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: read by siMs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0198-sm-read
 
 Write-Host '
                                              [1;34m [0m          [34m░[0;30;44m▓[0;34;40m        [0m         [1;34;40m░[0m

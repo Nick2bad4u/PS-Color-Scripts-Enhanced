@@ -1,19 +1,4 @@
-﻿# Converted from: GL-LOGON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dtd03/raw/GL-LOGON.ANS
-# Source Revision: archive-sha256:12192704d4216d2aefe0d36b2c5bcb5e5157eafacf7ca0b06c6a5389afde918d
-# Source SHA-256: a3e33806c72fbbed9b907c0e5ac1df9b7f1be99f3fd5cc0d8fc976f8083fc515
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GL-LOGON.ANS by GLANDYTH-A-KRAE (DEVOTiON TO DARKNESS); released in dtd03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 'LOGON' LOGO
-# SAUCE Author: GLANDYTH-A-KRAE
-# SAUCE Group: DEVOTiON TO DARKNESS
-# SAUCE Date: 19970709
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: for free. | bubblegum-style?
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: 'LOGON' LOGO by GLANDYTH-A-KRAE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dtd03-gl-logon
 
 Write-Host '
 [31;43m▓░[0;1;31;43m░▓[0;33m▄[0;31;43m▓▓░[0;33;40m▀[0;1;31;40m▀[0;31m▀[0;33m  [0;1;33;43m▓░[0;1;31;43m▓░[0;33m█[0;31;43m▓[0;33;40m▀ ▀[0;1;31;40m▀▀[0;33m▀▀[0;31m▀[0;33m▀  [0;1;31m▀[0;1;33;43m░░[0;33m▀ [0;1;37m▀[0;1;33m▀[0;1;33;43m▓▓[0;1;31;40m▀[0;33m▀[0;1;31m▀[0;1;31;43m▓░[0;31;43m░▓░[0;33;40m▀  ▀[0;31;40m▀░▀[0;1;31;40m▀[0;31m▀[0;33m▀ ▀[0;1;33;43m▓[0;33m▀  ▀[0;31m▀[0;31;43m▓░[0;33;40m▄▓[0;31;40m▀[0;33;40m▀[0;37;40m [0;31;40m▀[0;1;31;43m░[0;1;33;43m▓[0;1;33;40m▀[0;31m░[0;33m▄[0;1;33;43m░▓[0m

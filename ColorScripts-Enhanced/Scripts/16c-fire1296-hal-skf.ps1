@@ -1,18 +1,4 @@
-﻿# Converted from: HAL-SKF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1296/raw/HAL-SKF.ANS
-# Source Revision: archive-sha256:30782fcfc860946575894eb2b18cd82015430d9b2fe92875d1416c9b2489f009
-# Source SHA-256: fbd2a9cb09f6c9405009689eb0b563a15629f29c2b2e4fec0f733039c447807c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HAL-SKF.ANS by Halaster (fire); released in fire1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Skullfish
-# SAUCE Author: Halaster
-# SAUCE Group: fire
-# SAUCE Date: 19961208
-# SAUCE Dimensions: 80x25
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Skullfish by Halaster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1296-hal-skf
 
 Write-Host '
                                [36m░[0m

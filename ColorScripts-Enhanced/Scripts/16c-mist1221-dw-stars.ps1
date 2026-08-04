@@ -1,19 +1,4 @@
-﻿# Converted from: DW-STARS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1221/raw/DW-STARS.ANS
-# Source Revision: archive-sha256:5e9313825592ee844db1dbb5f288429b09b14a6176d448c30ff1c2ee32395d09
-# Source SHA-256: 75299c1154b8d1a68b9323b4a7a18c28c57a6a8d0e9f5152854a4fa751d60f32
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DW-STARS.ANS by DW (Mistigris); released in mist1221 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Merry Christmas 2021
-# SAUCE Author: DW
-# SAUCE Group: Mistigris
-# SAUCE Date: 20211220
-# SAUCE Dimensions: 80x35
-# SAUCE Font: IBM VGA
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Merry Christmas 2021 by DW | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1221-dw-stars
 
 Write-Host '
    [1;33m·[0m        [1m·[0m          [1;33m·[0m               [1m·[0m                                [1m·[0m

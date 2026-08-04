@@ -1,18 +1,4 @@
-﻿# Converted from: US-SMELL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/kbsart02/raw/US-SMELL.ANS
-# Source Revision: archive-sha256:db985c6cc647f5eef7416b8a6b8fee6ea9ea728844fba4bfa914fc08893c10ca
-# Source SHA-256: 2013ac0c571a5d802d4312c7f66b04264d0e39b82919effa9fe6d15f6e1880f8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SMELL.ANS by Cyberphreak + Cls (kibosh); released in kbsart02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The smell of ansi
-# SAUCE Author: cyberphreak and cls
-# SAUCE Group: kibosh
-# SAUCE Date: 19990614
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: The smell of ansi by Cyberphreak + Cls | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-kbsart02-us-smell
 
 Write-Host '
 [1;36m████[0;1;37;46m▓▓▓▓▓▓▓▓▓▓▓[0;1;36;40m███[0;1;36;46m [0;36m▀[0;37m     [0;30;47m█[0;30;40m                                                      [0m

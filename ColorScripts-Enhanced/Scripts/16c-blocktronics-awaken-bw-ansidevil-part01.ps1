@@ -1,13 +1,4 @@
-﻿# Converted from: bw-ansidevil.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_awaken/raw/bw-ansidevil.ans
-# Source Revision: archive-sha256:9d338d3910f6730204698339e869f7ab219513c3aa8e2f1b0bb278c633114d95
-# Source SHA-256: 00212836696e87c6841f05e3075c9076803baafeba90b15135067a44b7661c84
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bw-ansidevil.ans by Binary Walker (blocktronics_awaken); released in blocktronics_awaken and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: bw-ansidevil.ans by Binary Walker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-awaken-bw-ansidevil-part01
 
 Write-Host '
 

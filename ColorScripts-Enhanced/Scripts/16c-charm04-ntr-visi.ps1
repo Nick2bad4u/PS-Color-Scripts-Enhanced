@@ -1,18 +1,4 @@
-﻿# Converted from: NTR-VISI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/charm04/raw/NTR-VISI.ANS
-# Source Revision: archive-sha256:38d0a431ae1d547659978002dc7674e5ce3d32914d382be08425914443942edd
-# Source SHA-256: 7dba147fe984833f3937f87209d70307e32e4ad7e057c8b997067dc59ba7cfa7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NTR-VISI.ANS by Neurotrance (Charm); released in charm04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Vision - picture
-# SAUCE Author: Neurotrance
-# SAUCE Group: Charm
-# SAUCE Date: 19971018
-# SAUCE Dimensions: 80x25
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: Vision - picture by Neurotrance | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-charm04-ntr-visi
 
 Write-Host '
                                [31m▄[0;33m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: ZIP-CRFA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus06/raw/ZIP-CRFA.ANS
-# Source Revision: archive-sha256:dc26abf5be8f48f280ad19d58f0c64fc91b5db6a0fab8539aa3970e4d64fad45
-# Source SHA-256: 50742d2c78697bafe7676708ff21be16f5e37aeaf1682f7fea7c1328b26e0999
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIP-CRFA.ANS by zippy (Fokus fonting); released in fokus06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Chronic Farts
-# SAUCE Author: zippy
-# SAUCE Group: Fokus fonting
-# SAUCE Date: 19990731
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Chronic Farts by zippy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus06-zip-crfa
 
 Write-Host '
 [1m▒▒▒[0;31m▄ [0;1;33;41m██████[0;1;37;40m███[0m  [31m█[0;1;33;41m▄▄[0;31m█  █ [0;1;33m  █[0;1;33;41m██▄ [0;31m██[0;1;33;41m ███[0;33m [0m   [31m████ ▄[0;1;33;41m███[0;31m██[0;1;33;41m███[0;31m██▄[0;37m  [0;1;31m██[0m   [1;33;41m██[0;31m█  ▄█[0;1;33;41m▄▄▄██[0;1;33;40m   [0m

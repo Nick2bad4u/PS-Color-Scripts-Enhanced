@@ -1,20 +1,4 @@
-﻿# Converted from: DARKMAN-BLENDER2024D_CIRCUS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2024d/raw/DARKMAN-BLENDER2024D_CIRCUS.ANS
-# Source Revision: archive-sha256:78f2b42b8b915cc020359380738985aeae26cb7da34f2a9b3e11f3b25578d3fe
-# Source SHA-256: 33bffbc100198ed5514e6bf56b3948c815f81b8e7e0bdb27f820765ab5548b73
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DARKMAN-BLENDER2024D_CIRCUS.ANS by Darkman Almighty (Mistigris); released in blndr2024d and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Circus Mayhem
-# SAUCE Author: Darkman Almighty
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241020
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# SAUCE Comments: BLENDER 2024d --  MASKED CHILDREN / TERRORISM / CIRCUS | Children can be so innocent. FREE THE ANIMALS ! | Is that gun real?
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Circus Mayhem by Darkman Almighty | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2024d-darkman-blender2024d-circus
 
 Write-Host '
 [1;33m████▀[0;31m▄██▀[0;1;33m▄████▀[0;31m▄██▀[0;37m [0;1;33m█████[0m [31m███[0;37m [0;1;33m█████[0m [31m██[0;37m [0;1;33m████[0;31m ██ [0;1;33m███▄[0m [31m███[0;37m [0;1;33m▀█████[0m [31m██[0;37m [0;1;33m▀█████[0m [31m██[0;37m [0;1;33m▀███[0m

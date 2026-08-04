@@ -1,13 +1,4 @@
-﻿# Converted from: IN-AREA1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9412/raw/IN-AREA1.ICE
-# Source Revision: archive-sha256:206fb790f3728acfca84972248fec43bde6e85e65881b18182d8ae9012f98785
-# Source SHA-256: f2aaec1c08c4f36ff4e4658b7f1da0b7d3199f02c718425d4b81a917aec8073e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IN-AREA1.ICE by Incubus (ice-9412); released in ice-9412 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 39-77
-# Columns: 1-80
+﻿# Artwork: IN-AREA1.ICE by Incubus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9412-in-area1-part02
 
 Write-Host '
 [34;40m███ [0m▄█[1;47m▄█[0m▄   [1;30m▀  [0m▄▄[1m▄[0;1;47m▄[0m▄ [1m▄[0;1;47m▀ ▐[0;1m▄[0m▄▀  [1;30m▀  [0;1m▀█[0;1;47m▀[0m█   [34m█[0;34;44m            [0m  [1m█▄▐[0;1;47m▌[0m    [33m▄▄   [0;1;30m▀   ▐[0m     [34m█[0m

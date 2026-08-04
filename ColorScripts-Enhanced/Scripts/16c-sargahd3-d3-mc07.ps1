@@ -1,18 +1,4 @@
-﻿# Converted from: D3 -MC07.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sargahd3/raw/D3%C2%A0-MC07.ANS
-# Source Revision: archive-sha256:d4be65be862c17debbed01c060fb85aadbdbe00a8282836fa25f3f46073f618d
-# Source SHA-256: a3915ce9fd9ad141e3ff89791f0e87d66122b02de66ba33ac2869af5987ede8b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D3 -MC07.ANS by delirium (fbk.sargahd); released in sargahd3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: dung login matrix
-# SAUCE Author: delirium
-# SAUCE Group: fbk.sargahd
-# SAUCE Date: 19970210
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: dung login matrix by delirium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sargahd3-d3-mc07
 
 Write-Host '
       [34m░[0;37m  [0;34m░________...............,,,,,,,,,,,,,sssssssss@@@@@@$$$▒▒▒▒[0m

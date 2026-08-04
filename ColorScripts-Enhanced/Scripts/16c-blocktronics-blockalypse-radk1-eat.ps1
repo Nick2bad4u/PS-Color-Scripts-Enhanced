@@ -1,18 +1,4 @@
-﻿# Converted from: radk1-EAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_blockalypse/raw/radk1-EAT.ANS
-# Source Revision: archive-sha256:29ba148fe5fc8b4a774ee58a56a5b6d8104f139a95cba3df944ffda7c075e06a
-# Source SHA-256: be83be790e9605b27b2acb27b74fcb69e59c61ef732f96d544a8e6da55bc0b37
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: radk1-EAT.ANS by Knocturnal + Rad Man (ACiD Productions); released in blocktronics_blockalypse and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: EAT
-# SAUCE Author: RaD Man & Knocturnal
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 20140201
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: EAT by Knocturnal + Rad Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blockalypse-radk1-eat
 
 Write-Host '
                                         [31m░░[0m

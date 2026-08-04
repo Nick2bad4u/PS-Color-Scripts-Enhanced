@@ -1,18 +1,4 @@
-﻿# Converted from: 5B-PCM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-0297/raw/5B-PCM1.ANS
-# Source Revision: archive-sha256:60e502c9a1ba0703538ea6854865054cb1103c69d11b9a8571db69144d294d40
-# Source SHA-256: f3f06f7a399789ef028f9def35c1045ac9faa50700cf941bc60c918f5608e1ad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5B-PCM1.ANS by 5b (axf); released in axf-0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: pc-main
-# SAUCE Author: 5b
-# SAUCE Group: axf
-# SAUCE Date: 19970110
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: pc-main by 5b | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-0297-5b-pcm1
 
 Write-Host '
 p s y c h i c              [1;30m     5b![0;36m▄▄▄▄[0;1;32m [0;1;33m▄ [0;36m ▄▄▄▄▄▄▄[0m     [37m   [0m     [37mc o n f u s i o n[0m

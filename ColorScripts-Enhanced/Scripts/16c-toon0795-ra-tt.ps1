@@ -1,18 +1,4 @@
-﻿# Converted from: RA-TT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toon0795/raw/RA-TT.ANS
-# Source Revision: archive-sha256:bbccc4a82016f54ecf3d0de5a108241c8f74bda668aff69f0bedbbe0a900b9a1
-# Source SHA-256: 3e7d55431ecaf89f18135ddbd76bd1c64e3f194919a34ba9d419d5587705a4f2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RA-TT.ANS by Rage (Toon); released in toon0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Toon's Town
-# SAUCE Author: Rage
-# SAUCE Group: Toon
-# SAUCE Date: 19950628
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Toon's Town by Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toon0795-ra-tt
 
 Write-Host '
 [34m██ [0;1;30m██[0;1;30;47m▓[0;1;30;40m███████████████████████████[0;1;30;47m█▀▀▀▓[0;1;30;40m██ [0;34m█████████████▀▀▀▀▀▀▀▀██████████████████[0m

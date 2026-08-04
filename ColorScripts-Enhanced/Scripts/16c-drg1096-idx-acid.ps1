@@ -1,18 +1,4 @@
-﻿# Converted from: IDX-ACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg1096/raw/IDX-ACID.ANS
-# Source Revision: archive-sha256:3bf67f6fa507df2825f9e0d4d9b6e32bfa3182b2c4785835b1b79416dbc87e21
-# Source SHA-256: b0d73696925a5e89249e155fd1f11e92847e7b92b62c6ffc37b01b7dbb8cddf0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IDX-ACID.ANS by id x (deranged); released in drg1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: We tribute ACiD so much!
-# SAUCE Author: id x
-# SAUCE Group: deranged
-# SAUCE Date: 19961010
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: We tribute ACiD so much! by id x | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg1096-idx-acid
 
 Write-Host '
      [35m▄▄[0;1;35;45m░[0;35m▄▄▄▄▄ [0;34m [0;37m▄▄▄▄[0;1;34;47m░[0m▄▄▄  [35m▄▄▄[0;1;35;45m░[0;35m▄▄ [0;34m [0;37m▄▄▄▄▄▄▄▄[0;34m [0;35m▐▄[0;1;35;45m▓[0;35m▄[0;37m ▄[0;34m [0;37m▄[0;1;34;47m▓[0m [1;35;45m░[0;35m▄▄ [0;37m ▄▄▄▄[0;1;34;47m░[0m▄▄[34m [0;35m▀▀▄▄▄▄▄▄[0;1;35;45m░[0;35m▄ ▄[0m

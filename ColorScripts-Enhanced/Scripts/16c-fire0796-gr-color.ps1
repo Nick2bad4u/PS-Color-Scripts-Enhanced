@@ -1,16 +1,4 @@
-﻿# Converted from: GR-COLOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0796/raw/GR-COLOR.ANS
-# Source Revision: archive-sha256:f2392fcbe326be67243a018c170e3f1d8e22753f58b6051ec51575e3fcab8048
-# Source SHA-256: 40eeb977e29d0d6cf28976b1c8cdca5f3c333d3925b3e6df336ab5e647814061
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GR-COLOR.ANS by gunthar (fire); released in fire0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: color shock
-# SAUCE Author: gunthar
-# SAUCE Group: fire
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: color shock by gunthar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0796-gr-color
 
 Write-Host '
    [1;30m░[0m                                  [36m░▄▄▄▄[0m         [36m■▀   [0;1;30m░ ░░[0m               [1;30m░[0m

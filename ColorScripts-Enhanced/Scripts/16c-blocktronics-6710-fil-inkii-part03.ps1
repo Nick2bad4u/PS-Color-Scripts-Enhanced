@@ -1,19 +1,4 @@
-﻿# Converted from: FIL-iNKII.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-6710/raw/FIL-iNKII.ans
-# Source Revision: archive-sha256:65fe9e2a2e2016f30e4b0141be2d1472e9b7cc814d922f9663e0d0a04142d70a
-# Source SHA-256: dcad55bd2c7ebeed3d75c531899bd62abecd7cf93c9405783aab64b6b56709a3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FIL-iNKII.ans by filth (bLOCKtR0NiCS); released in blocktronics-6710 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: iNC. TO
-# SAUCE Author: filth
-# SAUCE Group: bLOCKtR0NiCS
-# SAUCE Date: 20180807
-# SAUCE Dimensions: 80x144
-# SAUCE Font: IBM VGA
-# Lines: 97-144
-# Columns: 1-80
+﻿# Artwork: iNC. TO by filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-6710-fil-inkii-part03
 
 Write-Host '
 [34m██ [0;36m▄██[0;1;35m ██[0;35m█[0;1;35m [0;35m▀▀▀ [0;1;35m [0;35m▄▄[0;1;35m▄▄▄▄███ [0;36m ███████████████████████████████████▌[0;1;34m▐███████ ████████[0m

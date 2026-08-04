@@ -1,18 +1,4 @@
-﻿# Converted from: SW-DARKW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/puke1-95/raw/SW-DARKW.ANS
-# Source Revision: archive-sha256:9359316ebe923960ff90d65cab6e9857aca7aa0527c1c6ee720479acf916af50
-# Source SHA-256: 029a95f3ff63981f6ca0ff13ee669de9496f038ba2851566e2f2835c5c034f58
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SW-DARKW.ANS by Sidewinder (puKe); released in puke1-95 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Darkwinds
-# SAUCE Author: Sidewinder
-# SAUCE Group: puKe
-# SAUCE Date: 19950503
-# SAUCE Dimensions: 80x48
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: Darkwinds by Sidewinder | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-puke1-95-sw-darkw
 
 Write-Host '
 [31m▐█[0;1;31;41m▐[0;1;31;40m█[0;1;37;40m▐█[0;1;37;47m▓▒░[0;1;30;47m▌[0;1;37;47m░▓▓[0;1;37;40m█[0;1;31;40m▐█[0;1;31;41m▌[0;31m▌[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SKY!NEWS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fld9701/raw/SKY!NEWS.ANS
-# Source Revision: archive-sha256:48906ecb2b70839b4646d99f5fe92b4c8c8c55574804ed58eeb7ca2699a6e59d
-# Source SHA-256: 4f780ca4c98fbb23d2144d525fed21f1718776374b065bbf424034bdd9449db5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SKY!NEWS.ANS by skylord (fluid); released in fld9701 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: news ?!?!
-# SAUCE Author: skylord
-# SAUCE Group: fluid
-# SAUCE Date: 19970111
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: news ?!?! by skylord | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fld9701-sky-news
 
 Write-Host '
                              [1;33m  [0m       [1;33m ▀██[0m

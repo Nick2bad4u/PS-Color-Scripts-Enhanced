@@ -1,18 +1,4 @@
-﻿# Converted from: CD-CAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hn-0596/raw/CD-CAD.ANS
-# Source Revision: archive-sha256:341a7655c96a6dc0a8dbd297753a4c8350c669bd3952e121f4d23870d0eda7fc
-# Source SHA-256: aa9a80403e8cdfa691dc50f0f16bf55a4a9733e4638b35b30c0786d9795397e6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CD-CAD.ANS by Comrade (HaLLUCi NaTi0N 96'); released in hn-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Chaos AD 96' Ridin' 0ut!
-# SAUCE Author: Comrade
-# SAUCE Group: HaLLUCi NaTi0N 96'
-# SAUCE Date: 19960423
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Chaos AD 96' Ridin' 0ut! by Comrade | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hn-0596-cd-cad
 
 Write-Host '
                       [35m ▄▄▄[0m

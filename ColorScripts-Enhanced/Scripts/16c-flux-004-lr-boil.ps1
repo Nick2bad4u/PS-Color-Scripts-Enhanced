@@ -1,18 +1,4 @@
-﻿# Converted from: LR!-BOIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flux-004/raw/LR!-BOIL.ANS
-# Source Revision: archive-sha256:184a3f5dd0450d61dd9a9b4da05ef76ebec147753f33bfa3706045bb53c0d7a5
-# Source SHA-256: 4f25cbd77cfcc0f719d50ad3c680bd0297640027e3aea1af2a3d57675aa1b2ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LR!-BOIL.ANS by LATE RISER (FLUX '97); released in flux-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: bunch of insane lamer logo
-# SAUCE Author: LATE RISER
-# SAUCE Group: FLUX '97
-# SAUCE Date: 19971022
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: bunch of insane lamer logo by LATE RISER | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flux-004-lr-boil
 
 Write-Host '
    [36m░░[0m                  [36m░░[0m

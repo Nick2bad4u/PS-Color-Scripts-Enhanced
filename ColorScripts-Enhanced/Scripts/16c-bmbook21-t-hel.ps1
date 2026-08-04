@@ -1,18 +1,4 @@
-﻿# Converted from: T-HEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook21/raw/T-HEL.ANS
-# Source Revision: archive-sha256:a9340bf45277705f38b7b2e8dfe7bc518716b8c419a47ac48708bc33bd40ec01
-# Source SHA-256: 1bcce40b0446706d7f3e493fcd03c9c74397750271684d76838371ddd161b2ea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T-HEL.ANS by toot (black maiden); released in bmbook21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hellium
-# SAUCE Author: toot
-# SAUCE Group: black maiden
-# SAUCE Date: 19991004
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: hellium by toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook21-t-hel
 
 Write-Host '
 [1;34m█████████[0;1;34;44m████▀[0;1;34;40m        █[0;1;34;44m██[0;1;34;46m▀  ▓▓[0;1;34;40m████████████████████████████████████[0;1;34;44m [0;34m▄▄[0;1;34m▄██[0;36m▓▓▓[0;1;34m██[0;1;34;44m [0;34m▄[0m

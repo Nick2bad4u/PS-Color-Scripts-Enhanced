@@ -1,18 +1,4 @@
-﻿# Converted from: US-HEMPG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz09aug/raw/US-HEMPG.ANS
-# Source Revision: archive-sha256:3e0bd3039fe877b3970f71e80b4456ee60793f2295ae127a50a6587b17c2d6a2
-# Source SHA-256: e110d9c9d079162ae15658b71f6af9793c49da772e2b3dca8fb3ada3947983f7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-HEMPG.ANS by Ironghost + Putrid Carcass (lazarus); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Hemp Gate
-# SAUCE Author: ig & pc
-# SAUCE Group: lazarus
-# SAUCE Date: 19970802
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Hemp Gate by Ironghost + Putrid Carcass | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz09aug-us-hempg
 
 Write-Host '
            [1;30m▐ [0m

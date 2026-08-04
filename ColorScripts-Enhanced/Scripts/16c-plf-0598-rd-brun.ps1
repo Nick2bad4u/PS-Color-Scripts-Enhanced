@@ -1,18 +1,4 @@
-﻿# Converted from: RD-BRUN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0598/raw/RD-BRUN.ANS
-# Source Revision: archive-sha256:e4eb608a76b35267c945e8d8ea0fbc9cde7f273818c342a2a37fa7f292193f2c
-# Source SHA-256: 2ebd11cc0bc1fae13b85058cb35e9b93166df2237d4a6e45412ef30b00d6e13b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD-BRUN.ANS by raider (leif's attack squad); released in plf-0598 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: BRUN.
-# SAUCE Author: raider
-# SAUCE Group: leif's attack squad
-# SAUCE Date: 19980419
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: BRUN. by raider | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0598-rd-brun
 
 Write-Host '
                  [1;30m [0m

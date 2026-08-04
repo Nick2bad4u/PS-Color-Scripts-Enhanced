@@ -1,13 +1,4 @@
-﻿# Converted from: OURHOUSE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ensiart/raw/OURHOUSE.ANS
-# Source Revision: archive-sha256:1740ea49d8e6dbe7ec5d2c508ba38bad12fe73c43c677e55524f61db5ff5063b
-# Source SHA-256: 82061724d767208d8fd97f896cff55de81441935664abf54d868290bd9d82f49
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OURHOUSE.ANS by Joseph Crum (ensiart); released in ensiart and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: OURHOUSE.ANS by Joseph Crum | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ensiart-ourhouse
 
 Write-Host '
 [46m  [0;1;5;33;46mWELCOME TO  [0;34;46m╔══╗ ╦  ╦ ╦══╗     ╦  ╦ ╔══╗ ╦  ╦ ╔══╗ ╦══╗               [0m

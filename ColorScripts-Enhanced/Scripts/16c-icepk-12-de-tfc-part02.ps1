@@ -1,13 +1,4 @@
-﻿# Converted from: DE-TFC.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-12/raw/DE-TFC.ICE
-# Source Revision: archive-sha256:03ccb24bebad343fffc4daed3f054ccd0ca265066fb8b4feff7bb3f469aac14e
-# Source SHA-256: abc70f73030f17eed4b75c671eeadcbec6113d24ac3422bd357da1f7d61ad38c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DE-TFC.ICE by Dreamevil (icepk-12); released in icepk-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 50-88
-# Columns: 1-80
+﻿# Artwork: DE-TFC.ICE by Dreamevil | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-12-de-tfc-part02
 
 Write-Host '
                                [1m▄▄▀▀ [0;1;30m▄▄[0;1;30;47m▀[0m▀                 [1;30m█[0m█

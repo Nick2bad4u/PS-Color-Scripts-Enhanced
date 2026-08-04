@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-H3VN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-45/raw/ZIR-H3VN.ANS
-# Source Revision: archive-sha256:0564021806e0277d72a0e235c044a0e0470226ba860a8976e1e3092326555d1d
-# Source SHA-256: 31a0ff905abc9647e63f601ed54d57da6677621fbd3fd0a5170c18ade98fcc64
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-H3VN.ANS by zir (FiRE); released in fire-45 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: h34V3N
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20260303
-# SAUCE Dimensions: 80x82
-# SAUCE Font: IBM VGA
-# SAUCE Comments: it's less than a block away, and you can get it for free.
-# Lines: 51-81
-# Columns: 1-80
+﻿# Artwork: h34V3N by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-45-zir-h3vn-part02
 
 Write-Host '
  [1;30;47m▓[0;1;30;40m████████████████████[0;1;30;47m█[0;1;30;40m█▐▌███▓░▓[0m   [1;30m░[0m  [1;30m▒[0m  [1;30m░  ▒▒█▌████▀▀█▄▄██████████████████████[0m

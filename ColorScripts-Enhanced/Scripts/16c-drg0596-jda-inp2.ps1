@@ -1,18 +1,4 @@
-﻿# Converted from: JDA_INP2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg0596/raw/JDA_INP2.ANS
-# Source Revision: archive-sha256:d670382d351e02706636ed3f42d5424159eaf3d63803a18a032bc93392d9c38d
-# Source SHA-256: b5e723eea6d470ea713b0b964d92f8f8b443087bacd523fd2f24f23593fc0b45
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JDA_INP2.ANS by Joda (Drg^InP); released in drg0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: InPulse Inc.
-# SAUCE Author: Joda
-# SAUCE Group: Drg^InP
-# SAUCE Date: 19960424
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: InPulse Inc. by Joda | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg0596-jda-inp2
 
 Write-Host '
   [1;34m [0m

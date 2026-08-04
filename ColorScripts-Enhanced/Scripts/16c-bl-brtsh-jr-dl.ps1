@@ -1,18 +1,4 @@
-﻿# Converted from: JR_DL!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl-brtsh/raw/JR_DL!.ANS
-# Source Revision: archive-sha256:d4d2c2945597259d409a8a2043adb463621296e39a0812b6c732bad34754acd9
-# Source SHA-256: b565901f519d8b166f98eccd8d6c3022095f557aa120f9e369f9584bec1872b7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_DL!.ANS by jerusalem (boil); released in bl-brtsh and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: GO!-compo #5 entry
-# SAUCE Author: jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19970505
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: GO!-compo #5 entry by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-brtsh-jr-dl
 
 Write-Host '
 [1;36m [0;35m░▒▒▒░░░▒▒░▓[0;35;44m▒▓[0;1;35;45m▒░[0;35m░[0;35;44m▓[0;35;40m█[0;1;35;45m░░░[0;35m██[0;1;35;45m▒░[0;35m▒▓█[0;1;35;45m▀[0;35m██▓[0;1;35;45m░░▒█[0;35m▀[0;1;35;45m■[0;35m▄░░[0;37m [0;34m▓█[0;1;34;44m▄[0;34m▀[0;1;34;44m▐▀▀[0;1;34;47m▄[0;34m█▀▀▌▀▀[0;1;33m [0;34m░▀[0;1;34;44m▀▀▀[0;34m▀▀▀ ▀▀[0;1;34;44m▀▀▀[0;34m▐[0;1;34;44m▀[0;1;34;47m░░[0;1;34;44m▀[0;1;34;47m▓[0;1;34;44m▒[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: GR-RAGE!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rage_294/raw/GR-RAGE!.ANS
-# Source Revision: archive-sha256:90d92c037da84e214e985a7f10cdfe535b9f8da7214b5d770940b9413919f925
-# Source SHA-256: ad4f6231f1cdc5f58bd473ec259c41f87443b6a11d84f63886d054eff90ce8e1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GR-RAGE!.ANS by Grey (rage_294); released in rage_294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: GR-RAGE!.ANS by Grey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rage-294-gr-rage
 
 Write-Host '
 

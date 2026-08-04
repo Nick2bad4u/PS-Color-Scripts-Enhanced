@@ -1,13 +1,4 @@
-﻿# Converted from: US-INTRU.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9407/raw/US-INTRU.ICE
-# Source Revision: archive-sha256:c6a6b9362995bb76d0cbb2d7dbf54e671ec2870d25bfdff1a5d3a538190c7d91
-# Source SHA-256: 833d9fbb0c7d3e2fd6e75e9412cb9d4641edd19f6a7e302930ddc7f28e218804
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-INTRU.ICE by Hoaks + Shaggy (ice-9407); released in ice-9407 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: US-INTRU.ICE by Hoaks + Shaggy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9407-us-intru-part01
 
 Write-Host '
  [1;30m▄[0m▄▄

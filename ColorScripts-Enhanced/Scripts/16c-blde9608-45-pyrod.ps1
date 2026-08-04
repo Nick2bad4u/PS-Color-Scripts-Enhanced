@@ -1,18 +1,4 @@
-﻿# Converted from: 45-PYROD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9608/raw/45-PYROD.ANS
-# Source Revision: archive-sha256:85bb83b3d462d5b00a0e7d3a1bfbe68490ac5737682c9ce44c52faa33ffa6a2b
-# Source SHA-256: 1e9463a09f2f07ba94899924970593a5dd80ee150b1e42eb1ac7d25d50ac665e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 45-PYROD.ANS by mass murderer (blade productions); released in blde9608 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: pyro
-# SAUCE Author: mass murderer
-# SAUCE Group: blade productions
-# SAUCE Date: 19960716
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: pyro by mass murderer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9608-45-pyrod
 
 Write-Host '
 [1;30m[0m[1m[0m[1;30m[0m[1m▀■▄[0m

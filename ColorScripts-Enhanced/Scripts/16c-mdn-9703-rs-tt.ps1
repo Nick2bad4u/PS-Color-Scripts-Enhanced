@@ -1,18 +1,4 @@
-﻿# Converted from: RS-TT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9703/raw/RS-TT.ANS
-# Source Revision: archive-sha256:9e514042cc5e389aeb3f9323e41f842849e88d4294fdd727215463cf9566281b
-# Source SHA-256: a24acc359a10fea247636f5ca87db437a1432600446f493a4d2bf5a51dfcb07a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-TT.ANS by rorshack (Maiden Brazil); released in mdn-9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: toon t0wn! header
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19970225
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: toon t0wn! header by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9703-rs-tt
 
 Write-Host '
                                       [1;30m▄▄▄▄▄▄▄[0m      [1;30m▄▄▄▄▄▄▄▄▄[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: AK-FA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-39/raw/AK-FA.ANS
-# Source Revision: archive-sha256:5e57507ce34170a4afb707b1587800d0885fae4776f1271b7b7cee7f71264d9d
-# Source SHA-256: 738e2e51435158f4925dfce5505f7e2543b9e6d44944ca753d9ef13a459ad2a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-FA.ANS by Abstrakt (Fire); released in fire-39 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ASCII
-# SAUCE Author: Abstrakt
-# SAUCE Group: Fire
-# SAUCE Date: 20240303
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ASCII by Abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-39-ak-fa
 
 Write-Host '
 [1;30;40mT[0;36m [0;1;30ml[0;36m [0;1;30ml[0;36m [0;1;30ml[0;36m [0;1;30m┘[0m [1;30m''[0;1;37m_..,,.[0;1;30m`[0m [1;30ml[0m [1;30ml[0m [1;30ml[0m [1;30ml[0m [1;30ml[0m [1;30ml[0m [1;30ml[0m [1;30ml[0m [1;30ml[0m [1;30ml[0m [1;30m┘[0m [1;30m'' l[0m [1;30ml[0m [1;30m┘[0m [1;30m`[0m [1;30m└[0m [1;30ml[0m [1;30ml[0m [1;30ml[0m [1;30ml[0m [1;30ml[0m [1;30ml[0m [1;30ml[0m [1;30ml[0m [1;30ml[0m [1;30ml[0m [1;30ml l I T[0m

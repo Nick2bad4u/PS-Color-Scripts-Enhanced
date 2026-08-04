@@ -1,20 +1,4 @@
-﻿# Converted from: we-ascend.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-dsotb/raw/we-ascend.ans
-# Source Revision: archive-sha256:31e1fdfda207a2147f2b0badf1415308dc54d4c24afa56622db8a43f68f110f1
-# Source SHA-256: cf330384168f15c475f2456357d4b9eaebe82fcc0ce27dae0693438eb8b53f63
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-ascend.ans by Ober + Whazzit + Alpha King (blocktronics); released in blocktronics-dsotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: we ascend
-# SAUCE Author: ober
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190729
-# SAUCE Dimensions: 80x100
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Clouds by whazzit. Various shading and touch ups by alpha king.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: we ascend by Ober + Whazzit + Alpha King | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-dsotb-we-ascend-part01
 
 Write-Host '
 [1;30;47m  ▄▄▄▄[0;1;30;40m███████[0;1;30;47m▓▓▓▓▓▓▓▓[0;1;30;40m██████████[0;1;37;40m ██████[0;1;37;47m█[0;1;37;40m██[0;1;37;47m█▓▓░░░ [0;1;30;47m     ▀[0;1;30;40m████████████▀[0m░░░░[1;30m▀▀[0;1;37m▄▄▄▄[0;1;30m▀▀█[0m

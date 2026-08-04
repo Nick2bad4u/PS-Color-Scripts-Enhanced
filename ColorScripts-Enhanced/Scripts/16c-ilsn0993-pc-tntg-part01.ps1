@@ -1,13 +1,4 @@
-﻿# Converted from: PC-TNTG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ilsn0993/raw/PC-TNTG.ANS
-# Source Revision: archive-sha256:e7e7c6f73942c5463cc3a2518ebe2afadd1de8982d1fa83f99bde36882861526
-# Source SHA-256: cdb5ddae8a5fd7b4d9b44ba55fe8f8d21d50d2ceabf23e8ebbcde5b7df6cb698
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-TNTG.ANS by Primordial Chowder + Brain Dead (ilsn0993); released in ilsn0993 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: PC-TNTG.ANS by Primordial Chowder + Brain Dead | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ilsn0993-pc-tntg-part01
 
 Write-Host '
 

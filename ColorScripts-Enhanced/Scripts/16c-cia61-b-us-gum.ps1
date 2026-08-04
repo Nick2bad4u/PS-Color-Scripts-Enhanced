@@ -1,17 +1,4 @@
-﻿# Converted from: US!GUM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cia61-b/raw/US!GUM.ANS
-# Source Revision: archive-sha256:c396ee18a913eeb40f634ec0d3d6e4b3d1d7f3c416103128046b3f9907bda1d6
-# Source SHA-256: 71c206064a9832914f0340ba3e0d12f34c5547578ca74c869b3375583f2eeb3c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US!GUM.ANS by Cat-Dog + Rage (hazmat); released in cia61-b and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: gumfuck
-# SAUCE Author: multiple mooks
-# SAUCE Group: hazmat
-# SAUCE Date: 19990218
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: gumfuck by Cat-Dog + Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cia61-b-us-gum
 
 Write-Host '
     .┌[1myyyy[0m┐.                        [32m.┌yS☻[0;1;32m☻☻[0;32mSy┐.[0;37m `;;ll[0;1;37m$$$$$$$$$$$$$$$$[0mlll;;

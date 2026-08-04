@@ -1,18 +1,4 @@
-﻿# Converted from: US-FRC!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force18a/raw/US-FRC!.ANS
-# Source Revision: archive-sha256:6a0f397e3657e6d033b73af64211a87e0404e38c6a0f4de7a8637861ae197039
-# Source SHA-256: 335096a95200382e9d6fc604d8dffe36660fac470b43d97021371442a16ae7cb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FRC!.ANS by Rzarector + Eclipse (forCe produCtions); released in force18a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: forCe promo
-# SAUCE Author: eclipse + rzarector
-# SAUCE Group: forCe produCtions
-# SAUCE Date: 19970614
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: forCe promo by Rzarector + Eclipse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force18a-us-frc
 
 Write-Host '
   [34m  [0;1;34m▄[0m     [34m [0m

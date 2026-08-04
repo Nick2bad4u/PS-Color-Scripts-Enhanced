@@ -1,16 +1,4 @@
-﻿# Converted from: [023] cxtcf-asari.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cx-timeline/raw/%5B023%5D%20cxtcf-asari.ans
-# Source Revision: archive-sha256:44e1bee3ddc3b388b7cf12194583d4aab88cb5fa02ca90157d792ce814886a4e
-# Source SHA-256: 84f8e8cb8539e1238b570c42f2709ba1d243879adb591dda2a098730f1668ebd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: [023] cxtcf-asari.ans by Tcf + Cyonx (cx-timeline); released in cx-timeline and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 20140120
-# SAUCE Dimensions: 80x91
-# SAUCE Font: IBM VGA
-# Lines: 45-91
-# Columns: 1-80
+﻿# Artwork: [023] cxtcf-asari.ans by Tcf + Cyonx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cx-timeline-023-cxtcf-asari-part02
 
 Write-Host '
 [30;40m███[0;1;32;40m·[0m   [1;32m■[0m           [35m██[0;36;45m█▒[0;35;40m██████████████[0;37;45m  [0;35;40m█████████████[0;35;45m▒▒▒[0;35;40m█████▄▄▄▄███[0;31;40m [0;35;41m░░░░░░░░░░░░[0m

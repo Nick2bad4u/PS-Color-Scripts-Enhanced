@@ -1,18 +1,4 @@
-﻿# Converted from: DZNYK-04.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oph-0013/raw/DZNYK-04.ANS
-# Source Revision: archive-sha256:5e625c36cc911c4dcde4a3790624d86c03458fb68ba127d178ce0ea486babf74
-# Source SHA-256: ecebce4202da5a8125eea7b64156c768166a236fd47f2efe0a0746086098c247
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DZNYK-04.ANS by dieznyik (ophidiac); released in oph-0013 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: 0 2\     0\\            _\2_\_
-# SAUCE Author: dieznyik
-# SAUCE Group: ophidiac
-# SAUCE Date: 19960816
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: 0 2\ 0\\ _\2_\_ by dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oph-0013-dznyk-04
 
 Write-Host '
             ▀[1;33m▀▀[0m  [1;33m▄▄[0m▄[1;33m▄▄▄▌  [0m

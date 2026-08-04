@@ -1,18 +1,4 @@
-﻿# Converted from: POS-DTD6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dtd04/raw/POS-DTD6.ANS
-# Source Revision: archive-sha256:7091bf957c6673d9b005844355015c4c77947e5b00fc05939206b31997a09f74
-# Source SHA-256: bed65f0310d53fdf5eaf38a1cb648753dd56294db9bea1baa9354cc81ea36811
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: POS-DTD6.ANS by positive pain (dtd'blz); released in dtd04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: devotion to darkness
-# SAUCE Author: positive pain
-# SAUCE Group: dtd'blz
-# SAUCE Date: 19971123
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: devotion to darkness by positive pain | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dtd04-pos-dtd6
 
 Write-Host '
                         [30;41m▌▌ [0;1;31;40m          [0m

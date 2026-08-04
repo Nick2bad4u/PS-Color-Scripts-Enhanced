@@ -1,18 +1,4 @@
-﻿# Converted from: MR-AIF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9706/raw/MR-AIF.ANS
-# Source Revision: archive-sha256:7778e60ae879f03132c18bc660bc1aff97b6f3b65410765bf6f0d32a4bcff865
-# Source SHA-256: ba87bd8fae79eaebbc5d4cb07ab154d0b2fa3d60a77f9e8d7e06839b2f677fb2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-AIF.ANS by minotaur (maiden^brazil); released in mdn-9706 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: guest for aif
-# SAUCE Author: minotaur
-# SAUCE Group: maiden^brazil
-# SAUCE Date: 19800101
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: guest for aif by minotaur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9706-mr-aif
 
 Write-Host '
 [1;36;47m▓▓[0;1;36;40m██████████████[0;1;36;46m▀▀[0;1;36;40m▀▀▀▀▀▀▀▀▀▀▀▀▀[0;36m▀▀[0;37m [0;1;36m▀▀▀▀▀▀▀[0;36m▀▌[0;37m ██  [0;33m▒▌[0;1;36;43m▐[0;1;37;40m██[0;1;36;43m▌[0;33m▀[0;37m [0;33m▀▀[0;1;36;43m▀██▀▀[0;33m▀▀▀[0;37m  [0;33m▀▀▀█[0;1;36;43m▀[0;33m█[0;1;37;43m░░▓▓██[0m

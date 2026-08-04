@@ -1,18 +1,4 @@
-﻿# Converted from: ILL-SF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz05apr/raw/ILL-SF.ANS
-# Source Revision: archive-sha256:1015a880c3c2e42953df14381eb6ae6e6ec0326b482ac0273175f6e6e7073aa4
-# Source SHA-256: 99995360cb7404e71ef5627ba3bcdef30ebe711b134a1697bcd6662d83455c9c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ILL-SF.ANS by illogic (lAz.); released in laz05apr and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: superfiend.
-# SAUCE Author: illogic
-# SAUCE Group: lAz.
-# SAUCE Date: 19970328
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: superfiend. by illogic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz05apr-ill-sf
 
 Write-Host '
 [1;30m[0m

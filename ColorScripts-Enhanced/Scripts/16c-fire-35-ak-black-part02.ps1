@@ -1,19 +1,4 @@
-﻿# Converted from: AK-BLACK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-35/raw/AK-BLACK.ANS
-# Source Revision: archive-sha256:c366a38306f48b13ede280377c5f8ef243fdab7e7890ac3e053ec3ccbc5d901a
-# Source SHA-256: e73773aee60791114fbcd452298d2eb5fc581ae6dcd339779a8f38bbe8c63799
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-BLACK.ANS by abstrakt (lazarus); released in fire-35 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: mel yarr
-# SAUCE Author: abstrakt
-# SAUCE Group: lazarus
-# SAUCE Date: 20221024
-# SAUCE Dimensions: 80x150
-# SAUCE Font: IBM VGA
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: mel yarr by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-35-ak-black-part02
 
 Write-Host '
 [34m$$`[0m       [1;30m`[0;34m  [0;1;30m`''YP[0;34m [0;31m,[0;1;31m$$[0;33m$''[0;37m [0;31mj[0;1;31m$[0;33mQ┘''[0m       [32mQ[0;1;36m$$$$$$$$$[0;36m$$[0;1;36m$$[0;36m$[0;1;36m$$[0;36m$.[0;1;36m [0;1;30m''[0;32m¬[0;1;30m.[0;32mb[0;1;30m  [0;36mY[0;1;36m$$[0;36m$[0;1;36mP`[0;32m/[0m       [32m└[0;1;30mb[0m

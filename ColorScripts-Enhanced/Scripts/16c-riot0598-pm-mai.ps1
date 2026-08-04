@@ -1,13 +1,4 @@
-﻿# Converted from: PM-MAI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot0598/raw/PM-MAI.ANS
-# Source Revision: archive-sha256:0c1b4d8014854195eee82655813426874e782c44b6e7d11df4cc84dbee4a5020
-# Source SHA-256: a1e49c59243e6e3ffd6ae722c0c452a065d19080f748723eab322584c57a3d75
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-MAI.ANS by Precious Metal (riot0598); released in riot0598 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: PM-MAI.ANS by Precious Metal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot0598-pm-mai
 
 Write-Host '
  [31m▲[0;37m  ▄[0;1;32m▄[0;1;32;42m▓[0;1;32;40m▄▄▄▄▄▄▄[0m▄                    [1;32;41m▓[0m

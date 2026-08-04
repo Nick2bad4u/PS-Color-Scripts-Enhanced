@@ -1,13 +1,4 @@
-﻿# Converted from: DRM-EPT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-13/raw/DRM-EPT.ANS
-# Source Revision: archive-sha256:c96e8204cdf1a3103513e07eb0d1ba369137dfc5e9ab833b936ceec1296a9193
-# Source SHA-256: f278876ffe4454d32c41c2721d8ad3fe95d4bd33ea5c1f1072ee0f56abf22ebf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DRM-EPT.ANS by Dorm (purg-13); released in purg-13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: DRM-EPT.ANS by Dorm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-13-drm-ept
 
 Write-Host '
    [1;36m          [0m▄ [1;36m      [0m         [1;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;36m▄[0;37m [0;1;36m [0m

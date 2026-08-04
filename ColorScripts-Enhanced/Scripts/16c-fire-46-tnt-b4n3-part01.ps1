@@ -1,19 +1,4 @@
-﻿# Converted from: TNT-B4N3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-46/raw/TNT-B4N3.ANS
-# Source Revision: archive-sha256:32c189dd42ed53f66ce0b86a88ea8027caddc32faf4da7cee2e674d9223cb9f4
-# Source SHA-256: 459f2afb3e2d376a8d88e7aada607520975f6838e454c0ed5bbaab4615b6e370
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNT-B4N3.ANS by tainted (FiRE); released in fire-46 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: absinthe 2
-# SAUCE Author: tainted
-# SAUCE Group: FiRE
-# SAUCE Date: 20260707
-# SAUCE Dimensions: 80x125
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: absinthe 2 by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-46-tnt-b4n3-part01
 
 Write-Host '
                                               [32;40m▄[0m

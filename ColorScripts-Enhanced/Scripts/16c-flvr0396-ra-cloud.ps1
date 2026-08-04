@@ -1,18 +1,4 @@
-﻿# Converted from: RA-CLOUD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flvr0396/raw/RA-CLOUD.ANS
-# Source Revision: archive-sha256:13e040cce687d81731bcd3978b1873431410655b513cbb6e2e0003a9016ce440
-# Source SHA-256: 14c5186d022011cc709b8642380254ac510d91a5679bf2429f5a0667ea6ff03c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RA-CLOUD.ANS by Reanimator (flavOr); released in flvr0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Cloudcity Welcomer.
-# SAUCE Author: Reanimator
-# SAUCE Group: flavOr
-# SAUCE Date: 19960117
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Cloudcity Welcomer. by Reanimator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flvr0396-ra-cloud
 
 Write-Host '
                                                                   [1;33m▄[0;1;33;47m▓[0;1;33;40m████▄[0m

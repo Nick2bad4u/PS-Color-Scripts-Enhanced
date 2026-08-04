@@ -1,18 +1,4 @@
-﻿# Converted from: RZA-TMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy11/raw/RZA-TMP.ANS
-# Source Revision: archive-sha256:a8a1f25f60c56aa0932319ceb3e0a3707898d7c9d304c60c4912556d84eb4b61
-# Source SHA-256: 40188dfcb2f116c89c81b367d61bedcc3302217a11c46d5dccc99ae436acd0c8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RZA-TMP.ANS by Rza + The Rza (Apathy); released in apathy11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: tempest
-# SAUCE Author: rza
-# SAUCE Group: Apathy
-# SAUCE Date: 19960702
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: tempest by Rza + The Rza | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy11-rza-tmp
 
 Write-Host '
      [34m ░▄▄▄▄▄▄[0m

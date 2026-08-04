@@ -1,13 +1,4 @@
-﻿# Converted from: DX-ASP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/karma-05/raw/DX-ASP.ANS
-# Source Revision: archive-sha256:8b333fb4eea6e4d8a67f24664d3a6b9f8755e4715b9b2274b218b0b2ca394add
-# Source SHA-256: e3477ba14ed865181781eb34ca0992b503aeebce9fa86adae28e56d142770e8e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DX-ASP.ANS by Drax (karma-05); released in karma-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: DX-ASP.ANS by Drax | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-karma-05-dx-asp
 
 Write-Host '
                           [1m ,.._[0m           [1m,._[0m

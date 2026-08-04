@@ -1,18 +1,4 @@
-﻿# Converted from: RS!PO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acme0695/raw/RS!PO1.ANS
-# Source Revision: archive-sha256:0e226b9c988965895536104bfca98e51dbabf1ce2c2021f8591d5d3935692f5c
-# Source SHA-256: f73be9f7fe21cc92607ddd707cfd5a86956ee83e330919530402f90d1e4de1ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS!PO1.ANS by rusty! (acme!); released in acme0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: point omega!
-# SAUCE Author: rusty!
-# SAUCE Group: acme!
-# SAUCE Date: 19950610
-# SAUCE Dimensions: 80x225
-# Lines: 49-95
-# Columns: 1-80
+﻿# Artwork: point omega! by rusty! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acme0695-rs-po1-part02
 
 Write-Host '
              [1;30m████ [0m█  [47m [0;40m▌ ▐[0;47m [0;40m▄ ▐[0;47m [0;40m▌[0;47m    [0;40m▄ [0;1;40m▄▀██ [0;1;47m▓▓▓▓▓▓▓[0;1;40m▀██▌■[0m        [1m▄███[0;41m   [0;31;40m▄[0;1;37;40m███▀[0;31m▄▀▀[0;1;30m██▄[0m

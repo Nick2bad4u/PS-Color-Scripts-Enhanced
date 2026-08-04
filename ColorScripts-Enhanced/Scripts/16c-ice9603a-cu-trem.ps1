@@ -1,18 +1,4 @@
-﻿# Converted from: CU-TREM.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9603a/raw/CU-TREM.ICE
-# Source Revision: archive-sha256:51bcd96b8979115d69f1f707dc5c3d398256f0ac7a750005c0ccb144327b6f27
-# Source SHA-256: a4c08d7eaba3e7b45f85363aae098a6060156902352f1bc8e862d5f9e5b5c552
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CU-TREM.ICE by Cold and Ugly (iCE); released in ice9603a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: tremOr
-# SAUCE Author: Cold and Ugly
-# SAUCE Group: iCE
-# SAUCE Date: 19960321
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: tremOr by Cold and Ugly | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9603a-cu-trem
 
 Write-Host '
                           [35m▀[0;37m [0;35m▄  [0;37m  [0;35m▀[0;37m  [0;35m▄[0m       [35m▄▀[0m     [35m▀▄  [0;37m  ▀ ▄[0m

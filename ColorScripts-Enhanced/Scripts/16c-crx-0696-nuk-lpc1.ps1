@@ -1,13 +1,4 @@
-﻿# Converted from: NUK-LPC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/crx-0696/raw/NUK-LPC1.ANS
-# Source Revision: archive-sha256:a5b6a2af830f8d344257e92470712ec60a389658c8ec31a804aab68a934a7993
-# Source SHA-256: b9b96fa3b9aee98c5887a80e6438a615f81125c93758a1dfd20d46ef738a342e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NUK-LPC1.ANS by Nuker (crx-0696); released in crx-0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: NUK-LPC1.ANS by Nuker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-crx-0696-nuk-lpc1
 
 Write-Host '
 [1;30;41m░░▒▒▒▒░░░  [0;1;31;41m░▒▓██[0;1;31;40m▀[0;31m▄[0;1;30m░░░░░[0;31m▄▄▀[0;1;30m░░░░░[0;31m▀▄▄[0;1;30;41m▒▒░░░   ░░░▒▒[0;1;31;40m▀▄[0;1;30;40m░░░░░░░░░░░░░░░░░░░[0;1;31;40m▄▀[0;31m▐[0;1;30;41m░░░▒▒▒▒░░[0m

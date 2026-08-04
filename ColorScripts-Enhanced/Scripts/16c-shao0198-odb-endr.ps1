@@ -1,18 +1,4 @@
-﻿# Converted from: ODB-ENDR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shao0198/raw/ODB-ENDR.ANS
-# Source Revision: archive-sha256:9542aa7262687ca25cc0b436a8616861468c32d627d2d66ec27e377ccb8920b8
-# Source SHA-256: 96697a87af87473d8e243cdaca33b03b9eaff82ce7afe1eb89166126fad2591a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ODB-ENDR.ANS by Ol' Dirty Bastard (Shaolin's Finest); released in shao0198 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Endor Moon
-# SAUCE Author: Ol' Dirty Bastard
-# SAUCE Group: Shaolin's Finest
-# SAUCE Date: 19980117
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: The Endor Moon by Ol' Dirty Bastard | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shao0198-odb-endr
 
 Write-Host '
 [1;30m▄████▄▄▄▄▄▄▄ ░░   ░░[0m

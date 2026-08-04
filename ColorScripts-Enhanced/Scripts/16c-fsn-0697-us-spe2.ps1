@@ -1,13 +1,4 @@
-﻿# Converted from: US-SPE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0697/raw/US-SPE2.ANS
-# Source Revision: archive-sha256:4afa384dbe1edb8568d2d9e2fda5954485e730ef7ea56b2b5212bd5bbae30f83
-# Source SHA-256: 42d1bd7475910ed32b5142ca243908dd28a794cacd43875c2f7c0fae6f0a3967
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SPE2.ANS by Oolite (fsn-0697); released in fsn-0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: US-SPE2.ANS by Oolite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0697-us-spe2
 
 Write-Host '
  ░[30;47m▓[0;1;37;40m [0m   [1m▄▄▄▄  [0m                [1m                                                [0m

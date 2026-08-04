@@ -1,18 +1,4 @@
-﻿# Converted from: GR-NEO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/saga9510/raw/GR-NEO.ANS
-# Source Revision: archive-sha256:bfe1c638d6035e3edd6d5e5ec7cf11b3ff729469ea893ab56c891ed136f06464
-# Source SHA-256: 75b7ace80e5bc8c5014c3511c0c1fe2e7a99a12c6b6832d97fb67710d5f90183
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GR-NEO.ANS by Nootropic + Grifter 805 (Saga); released in saga9510 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Neo Nacho
-# SAUCE Author: Grifter
-# SAUCE Group: Saga
-# SAUCE Date: 19951004
-# SAUCE Dimensions: 80x25
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Neo Nacho by Nootropic + Grifter 805 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-saga9510-gr-neo-part01
 
 Write-Host '
 [1;33m▄[0;1;37m█[0;1;33m██[0;1;33;46m▒[0;36m▒░   ░ [0;1;33m▄▄▄[0;36m     ▄▒▀[0;1;36m [0;36m  [0;1;33m■▄▄[0;36m▄▒ ■[0;1;33m▀[0;36m▀▒ [0;1;33m■▀[0;1;37m█[0;1;33m████[0;1;33;46m▒[0;1;30;46m░[0;36m▀▒ ░▀▀▒[0;1;33;46m░[0;36m█[0;1;36m░▒[0;36m█▓▄▄▒ [0;37m [0;36m [0;1;30m▄■[0m [36m▄[0;1;33;46m░[0;36m██▓██[0;1;36m░[0;36m██▓█[0m

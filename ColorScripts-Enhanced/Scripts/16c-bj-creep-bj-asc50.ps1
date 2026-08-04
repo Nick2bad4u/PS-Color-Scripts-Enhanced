@@ -1,18 +1,4 @@
-﻿# Converted from: bj-asc50.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bj-creep/raw/bj-asc50.ans
-# Source Revision: archive-sha256:0debf4b45d7d951a68b5333767ded34f656851230e3888db7abc1feaad98e52f
-# Source SHA-256: d3f11427ed553a363d63b708d17d17da54456a1d981c70a984a10ada25dd2962
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bj-asc50.ans by Black Jack (Odelay [12/10/96]); released in bj-creep and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Message Scanner (Wooded Lumber)
-# SAUCE Author: Black Jack
-# SAUCE Group: Odelay [12/10/96]
-# SAUCE Date: 19961216
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Message Scanner (Wooded Lumber) by Black Jack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bj-creep-bj-asc50
 
 Write-Host '
 [35m ,dS$$$$$$Pⁿ°""~ [0;1;33m_ ,[0;1;37m,,mm[0;1;33mmmmm,,,[0;35m`[0;1;33m_[0m [35m~"°ⁿ[0;1;30mY$$[0;35m$$$[0;1;30mⁿ[0;35m$$[0;1;30m,[0;35m$$$$$$$$$$$$$$$$$$[0;1;35m$S@m,_[0m   [1;30mblack[0m

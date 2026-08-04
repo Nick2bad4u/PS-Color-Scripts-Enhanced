@@ -1,20 +1,4 @@
-﻿# Converted from: wa-yak.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna03/raw/wa-yak.ans
-# Source Revision: archive-sha256:997aaab655669129eb266c21ca0c4588b603e11c90338498bb530f8bba390fb2
-# Source SHA-256: 9b49d1d532ba0f598f713c01b7a74c037e23251cfe9ea2f6c0e5f92d0156c160
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-yak.ans by warpus (lazarus); released in thesauna03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: yak
-# SAUCE Author: warpus
-# SAUCE Group: lazarus
-# SAUCE Date: 20210816
-# SAUCE Dimensions: 80x33
-# SAUCE Font: IBM VGA
-# SAUCE Comments: youth against kangaroos
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: yak by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna03-wa-yak
 
 Write-Host '
                                                                   [1;30;40m■■■▀▀█[0m

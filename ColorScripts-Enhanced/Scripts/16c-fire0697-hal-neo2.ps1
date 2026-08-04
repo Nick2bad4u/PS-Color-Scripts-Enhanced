@@ -1,16 +1,4 @@
-﻿# Converted from: HAL-NEO2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0697/raw/HAL-NEO2.ANS
-# Source Revision: archive-sha256:d190a8046767bbc429812300532b65ff0ea6e011704fc75ed31c91d378c985ff
-# Source SHA-256: b65391ad979393a51cc41c2058899307bd3674d20c2bd5ee4e32aefd94583076
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HAL-NEO2.ANS by halaster (fire); released in fire0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: neosporin
-# SAUCE Author: halaster
-# SAUCE Group: fire
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: neosporin by halaster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0697-hal-neo2
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: FL-PLMMT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile_002/raw/FL-PLMMT.ANS
-# Source Revision: archive-sha256:09fff222285c90eb6b714714b4c5e3c96cc514cdf338ccf4e30b5898f9a5a64b
-# Source SHA-256: 8dcafe792daef29f8c0d435426b78eebaed04aef0870bad34f4a8d2aadb07d12
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-PLMMT.ANS by flame (RILE); released in rile_002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: plummet.  from blender.
-# SAUCE Author: flame
-# SAUCE Group: RILE
-# SAUCE Date: 19970223
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: plummet. from blender. by flame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile-002-fl-plmmt
 
 Write-Host '
                 [31m▀█▓▀[0;31;47m▓[0;31;40m▌[0;37;40m  [0;31;44m▓[0;1;31;41m░░[0;1;31;40m▒[0;31m░[0m         [31m▓[0;31;47m▓▓[0;31;44m▓[0;31;40m▓[0m                [31;40m░[0;34;40m▒▀[0;1;31;44m░[0;1;34;41m░[0;31m▄▌[0m

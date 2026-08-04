@@ -1,19 +1,4 @@
-﻿# Converted from: AK-SPEAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-45/raw/AK-SPEAR.ANS
-# Source Revision: archive-sha256:0564021806e0277d72a0e235c044a0e0470226ba860a8976e1e3092326555d1d
-# Source SHA-256: 16d27a1e40338eb7b42b8dd1eeffa056b2d3663c62d370985f08e786a6b75374
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-SPEAR.ANS by abstrakt (fire); released in fire-45 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: spear
-# SAUCE Author: abstrakt
-# SAUCE Group: fire
-# SAUCE Date: 20260303
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: spear by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-45-ak-spear
 
 Write-Host '
 [1;30m4$[0;32m$$[0;1;30m$;[0;33m $[0;37m [0;1;30mI$[0;32m''[0;1;30m.$$[0;32m$P[0;37m [0;33m`[0;1;30m└[0;33mq[0;1;30m.[0m [1;30m\┘`[0m [1;30m.┌gS┘''`~[0;35m_[0;36m .,,.._[0;1;30m  ''²*┐[0;32m.`[0;1;30m└[0;32m$[0;1;30m$[0;32mQ$[0;1;30mb.`4[0;32m$[0;1;30mb     :[0;32ml[0;37m [0;32mI:  [0;1;30mj;[0m [33mj[0;1;30m$[0m

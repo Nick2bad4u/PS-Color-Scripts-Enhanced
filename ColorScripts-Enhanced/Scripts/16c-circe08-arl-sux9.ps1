@@ -1,18 +1,4 @@
-﻿# Converted from: ARL-SUX9.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe08/raw/ARL-SUX9.ANS
-# Source Revision: archive-sha256:cfc36d5daeed2f6543814097ace687f378a50215c24a95a0de66b512e3a41b9d
-# Source SHA-256: 916ae74a95e09798f21f4b0a30990d6e0122114376a5c919d9fd4ac8eb9eaa7b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARL-SUX9.ANS by arlequin (circe); released in circe08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: sucks
-# SAUCE Author: arlequin
-# SAUCE Group: circe
-# SAUCE Date: 19991118
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: sucks by arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe08-arl-sux9
 
 Write-Host '
           [36m█▀[0m                       [37m  [0m

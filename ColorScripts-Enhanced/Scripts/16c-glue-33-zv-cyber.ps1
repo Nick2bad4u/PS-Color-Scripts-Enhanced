@@ -1,18 +1,4 @@
-﻿# Converted from: Zv-cyber.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-33/raw/Zv-cyber.ans
-# Source Revision: archive-sha256:e7ea555ca4e5120f93bea383a2d06e5b7834897a2c1c0c9d8a9a4422e3c27093
-# Source SHA-256: 56568aa3fd1db369fc86be700d3aa612b36ea3b5fdcd0b474a23066abd9baf59
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Zv-cyber.ans by zeroVision (GLUE); released in glue-33 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: cyber
-# SAUCE Author: zeroVision
-# SAUCE Group: GLUE
-# SAUCE Date: 20001102
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: cyber by zeroVision | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-33-zv-cyber
 
 Write-Host '
 [zerovision-"cyber"-GLUE33-11/2/00]---------------------------------------------

@@ -1,18 +1,4 @@
-﻿# Converted from: Avg-sect.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper03/raw/Avg-sect.ans
-# Source Revision: archive-sha256:96c1272030a36fd5502bf2f34e681c795192c7d49fac9a2ab5dd4a5a2bf5606c
-# Source SHA-256: 81136042dbd2fa7253978c14481efc1a62ff91e9acba700ecc3548f35d0a2b0f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Avg-sect.ans by avenging angel (Jasper / Lure); released in jasper03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: sector 7
-# SAUCE Author: avenging angel
-# SAUCE Group: Jasper / Lure
-# SAUCE Date: 20020216
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: sector 7 by avenging angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper03-avg-sect
 
 Write-Host '
 [34m                        [0;37m       [0m

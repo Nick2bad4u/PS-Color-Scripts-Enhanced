@@ -1,13 +1,4 @@
-﻿# Converted from: PH-FSN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0995/raw/PH-FSN.ANS
-# Source Revision: archive-sha256:43f4339b6a2a251dc4c70c732aaf42d822edb35033f29580ac59fb9cc4be61b0
-# Source SHA-256: 8e6fa950b6acb83c6bcdb9faf21a4a0cf7577a0ba39a7380040e089e24c2e35b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PH-FSN.ANS by Pharcyde (fsn-0995); released in fsn-0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: PH-FSN.ANS by Pharcyde | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0995-ph-fsn-part01
 
 Write-Host '
 [1;30m  █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m

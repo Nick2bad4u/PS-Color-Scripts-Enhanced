@@ -1,13 +1,4 @@
-﻿# Converted from: LM-FC1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9603a/raw/LM-FC1.ICE
-# Source Revision: archive-sha256:51bcd96b8979115d69f1f707dc5c3d398256f0ac7a750005c0ccb144327b6f27
-# Source SHA-256: 3d18de1fa4cfa47c7ad85794d6435827fe79b8f48729f7c787f9a4a9eef99817
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LM-FC1.ICE by Lemonade (ice9603a); released in ice9603a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: LM-FC1.ICE by Lemonade | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9603a-lm-fc1
 
 Write-Host '
 [36m████▌[0;32m▐█████▌[0;36m▐[0;1;33;46m free coke[0;31;46m [0;37;40m [0;1;30;47m░[0m▀ [33m░░░       ░░░░▒▒▒[0;1;33m░░▒▒▒▓▓▀[0;33m▄[0;1;31;43m░░▒▒▒▓[0;1;31;40m [0m░░░░░░[1;30m▌[0;1;33m░░░░░▒▒▓▓▓▓▓[0m

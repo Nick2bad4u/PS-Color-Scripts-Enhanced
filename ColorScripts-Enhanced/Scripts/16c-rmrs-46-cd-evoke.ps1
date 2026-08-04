@@ -1,13 +1,4 @@
-﻿# Converted from: CD-EVOKE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-46/raw/CD-EVOKE.ANS
-# Source Revision: archive-sha256:579684f5d08ba80e6f0851ef140b90f977f3d651501f1429d81654246efb3324
-# Source SHA-256: 4841368f6dd5d61f0dbb5670a153507aa8150f0d4098e65246b4280b085f0ac2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CD-EVOKE.ANS by Cd_ (rmrs-46); released in rmrs-46 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: CD-EVOKE.ANS by Cd_ | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-46-cd-evoke
 
 Write-Host '
                             [34m   _[0m        [34m"┘[0m

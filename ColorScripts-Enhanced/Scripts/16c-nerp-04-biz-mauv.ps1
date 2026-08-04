@@ -1,18 +1,4 @@
-﻿# Converted from: BIZ-MAUV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-04/raw/BIZ-MAUV.ANS
-# Source Revision: archive-sha256:d99c3d6576b4ffe30ad10598ac465177e9b6d171d7a6c4fd056707ad27adce95
-# Source SHA-256: 11c8b4dfce2eceb6851cd47a232f9e98b472cd7e82c638e8c2755ffbe2121fde
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BIZ-MAUV.ANS by bizzarro (nerp); released in nerp-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: mauve
-# SAUCE Author: bizzarro
-# SAUCE Group: nerp
-# SAUCE Date: 19980115
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: mauve by bizzarro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-04-biz-mauv
 
 Write-Host '
 

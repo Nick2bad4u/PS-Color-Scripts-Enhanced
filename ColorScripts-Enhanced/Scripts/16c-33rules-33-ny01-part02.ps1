@@ -1,18 +1,4 @@
-﻿# Converted from: 33-NY01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/33rules/raw/33-NY01.ANS
-# Source Revision: archive-sha256:6cf2aef8e3ca97e1761e1ee4a8ba395e4fdab4dec9d3b2efb91c059359b50b00
-# Source SHA-256: efbf69d5dda22b1567800a4aa9f8b358d4067eaa952128f18a21fba795cecc75
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-NY01.ANS by Legion 07/98 (#4) (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: 'Nymph 1'
-# SAUCE Author: Legion 07/98 (#4)
-# SAUCE Group: Eerie
-# SAUCE Date: 19980701
-# SAUCE Dimensions: 80x25
-# Lines: 34-65
-# Columns: 1-80
+﻿# Artwork: 'Nymph 1' by Legion 07/98 (#4) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-33rules-33-ny01-part02
 
 Write-Host '
          [1;34;40m████████████████▌[0;31m░[0;1;34m▀▀▀▀█[0;1;34;42m▌▓▌[0;1;34;40m████████████████████ ░██████████████████████[0m

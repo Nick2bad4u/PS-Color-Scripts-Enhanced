@@ -1,19 +1,4 @@
-﻿# Converted from: fil-TRiBE.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktr0nics30302020/raw/fil-TRiBE.ans
-# Source Revision: archive-sha256:9a86a13b1ff7cef4b57ed39c1aca190028df54b44bffe10202b539bef3cd3dcc
-# Source SHA-256: 2a4a04476be7056a6b0573b5fbc53985b78006fd1078c9a0f5b86abbcee328e6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: fil-TRiBE.ans by filth (bLOCKtR0NiCS); released in blocktr0nics30302020 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: TRiBE tribute
-# SAUCE Author: filth
-# SAUCE Group: bLOCKtR0NiCS
-# SAUCE Date: 20200216
-# SAUCE Dimensions: 80x303
-# SAUCE Font: IBM VGA
-# Lines: 261-303
-# Columns: 1-80
+﻿# Artwork: TRiBE tribute by filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktr0nics30302020-fil-tribe-part07
 
 Write-Host '
 [37;40m█[0;1;30;47m▓▓[0m████████████████[1;30;47m▐▓▌░[0m██████[1;30;47m░[0;1;30;40m█▓[0;1;30;47m▌[0m█████[1;30m▓▓[0m█   [30;43m │ [0;1;33;43mª[0;30;43m ║ [0;1;33;43mD[0;30;43m ║ [0;1;33;43mÇ[0;30;43m ║ [0;1;33;43mi[0;30;43m ║ [0;1;33;43mM[0;30;43m ║ [0;1;33;43mi[0;30;43m ║ [0;1;33;43m§[0;30;43m │ [0;37;40m   ██[0m

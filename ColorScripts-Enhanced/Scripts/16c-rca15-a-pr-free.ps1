@@ -1,17 +1,4 @@
-﻿# Converted from: PR-FREE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca15-a/raw/PR-FREE.ANS
-# Source Revision: archive-sha256:9b3ffc1306b5fd493eeab3ea63762e0c761f90e1b26cf8dffddf39a511fbd0e2
-# Source SHA-256: 3214b1edd396840d448ca07a5a213146c76c062b5a231d3b8566c172af29cd59
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR-FREE.ANS by propane (rca15-a); released in rca15-a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Freebie
-# SAUCE Author: propane
-# SAUCE Date: 19970921
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Freebie by propane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca15-a-pr-free
 
 Write-Host '
 [1;30m▀▀█[0m   [1;30m█[0m░░░[1;30m▀▀█▀▀[0m      [1;30m▌▄▄[0m    [1;30m█[0m [1;30m▀▀▀▀▀█[0m  [1;30m▌[0m   [1;30m█▀▀▀▀[0m [1;30m▀▀▀▀▀▀▀█[0m    [1;30m█▀[0m [1;30m█[0m   [1;30m█▀[0;1;30;45m▒▒▒[0;1;30;40m▀█▀▀▀▀▀▀[0m

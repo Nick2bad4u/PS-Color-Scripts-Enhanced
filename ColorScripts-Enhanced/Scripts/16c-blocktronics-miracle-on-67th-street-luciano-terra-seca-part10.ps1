@@ -1,16 +1,4 @@
-﻿# Converted from: luciano_terra-seca.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_miracle_on_67th_street/raw/luciano_terra-seca.ans
-# Source Revision: archive-sha256:7a78b3edd176c6d05feb481522f2c4f3e57721df62292c2b4ce537e855c41ae8
-# Source SHA-256: ef3b868bbdff257c34f9c5e0aac12db28d021d0ab36556268fb8ff97854abfb3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: luciano_terra-seca.ans by Luciano Ayres (blocktronics_miracle_on_67th_street); released in blocktronics_miracle_on_67th_street and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 20171201
-# SAUCE Dimensions: 80x921
-# SAUCE Font: IBM VGA
-# Lines: 445-493
-# Columns: 1-80
+﻿# Artwork: luciano_terra-seca.ans by Luciano Ayres | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-miracle-on-67th-street-luciano-terra-seca-part10
 
 Write-Host '
 [1;33m [0;33m█ [0;1;33m▀▀▄▄█████████▀▀▀▀█▀ [0;31m▄▄  ▄▄▀▄█▀▀[0;33m▄█▄ [0;31m▀▄[0;1;33m▀███████████████████████████████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: LAC-UK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d0pe0597/raw/LAC-UK.ANS
-# Source Revision: archive-sha256:75f6fa147ff2756ef0ec699179a2fc535ef1a8555e78479372a7ceb7b6a80326
-# Source SHA-256: 270d86a0697325108be007a26384c710bb2aef838ee17b217697b5847af0aaa5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LAC-UK.ANS by lacaid (dope); released in d0pe0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: uk?! logo
-# SAUCE Author: lacaid
-# SAUCE Group: dope
-# SAUCE Date: 19970503
-# SAUCE Dimensions: 80x25
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: uk?! logo by lacaid | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d0pe0597-lac-uk
 
 Write-Host '
                        ░

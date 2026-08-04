@@ -1,13 +1,4 @@
-﻿# Converted from: SC-RIOT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot597a/raw/SC-RIOT.ANS
-# Source Revision: archive-sha256:f07656877106ee0a7da9f62e6293f74b4fe05cabd2e4ce82e7596d9ee3038c18
-# Source SHA-256: 907a76f29be70e914d07c719a21d08eaea958302b0d26e10117cc6680370b991
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-RIOT.ANS by Shadcat (riot597a); released in riot597a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: SC-RIOT.ANS by Shadcat | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot597a-sc-riot
 
 Write-Host '
 

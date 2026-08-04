@@ -1,18 +1,4 @@
-﻿# Converted from: bj-asc9.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bj-creep/raw/bj-asc9.ans
-# Source Revision: archive-sha256:0debf4b45d7d951a68b5333767ded34f656851230e3888db7abc1feaad98e52f
-# Source SHA-256: fb4b771114997777c522340f497bf4dac240303c53cd16880ac49e2533924dd9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bj-asc9.ans by Black Jack (Plain [10/02/96]); released in bj-creep and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Welcome Screen (Dementia)
-# SAUCE Author: Black Jack
-# SAUCE Group: Plain [10/02/96]
-# SAUCE Date: 19961029
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Welcome Screen (Dementia) by Black Jack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bj-creep-bj-asc9
 
 Write-Host '
 [36m.[0m     [36m.    [0;34m,+[0m                [36m.    +[0m                    [34m+,[0m               [36m.[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: PM-LOGOF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot0598/raw/PM-LOGOF.ANS
-# Source Revision: archive-sha256:0c1b4d8014854195eee82655813426874e782c44b6e7d11df4cc84dbee4a5020
-# Source SHA-256: 43217df5fe45f331d37edffbeda55dff71f177b1b750103eab85776f3813a7ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-LOGOF.ANS by Precious Metal (riot0598); released in riot0598 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: PM-LOGOF.ANS by Precious Metal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot0598-pm-logof
 
 Write-Host '
                  [34m▄▄▄[0m    [34m▄▄▄▄[0;1;34;44m░ ▄▄▄▄▄▄▓[0;34m▄[0m     [34m▄[0;1;34;44m▓[0;1;37;44m▓[0;1;34;44m▄▓[0;34m▄[0m      [34m▄[0;1;34;44m▓[0;1;34;47m▓[0;1;34;44m▄[0;1;34;40m▄▄▄▄▄▄▄▌[0m        [44m░░[0;1;34;44m░[0;1;34;40m▌[0m

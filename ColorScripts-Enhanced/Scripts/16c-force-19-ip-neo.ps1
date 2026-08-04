@@ -1,16 +1,4 @@
-﻿# Converted from: IP-NEO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-19/raw/IP-NEO.ANS
-# Source Revision: archive-sha256:320b7ef547a1befeeebbf4abc563d8da701bdc66e2a87710081c803548b46926
-# Source SHA-256: 244201318b3fbf7759a8ca50e15702d9e7bbeec33ea27624e047e05d7b467687
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IP-NEO.ANS by impulse (lazarus, force); released in force-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Neosporin Font
-# SAUCE Author: impulse
-# SAUCE Group: lazarus, force
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Neosporin Font by impulse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-19-ip-neo
 
 Write-Host '
                               [33m [0m     [1;33m▄[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: PE!P.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-12/raw/PE!P.ANS
-# Source Revision: archive-sha256:5c96c14e912296494a464a42e768321452d811693cf172945a9502eb4396c8bb
-# Source SHA-256: 56914a1eea1f29fa4129ad5153d8d472266f1675b8f328e9b628d38da5c19a66
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PE!P.ANS by Phony Eye (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Peniccillin
-# SAUCE Author: Phony Eye
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Peniccillin by Phony Eye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-12-pe-p
 
 Write-Host '
                      [35m  [0m

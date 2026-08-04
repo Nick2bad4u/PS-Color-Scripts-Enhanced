@@ -1,18 +1,4 @@
-﻿# Converted from: CP-PIGGY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense11/raw/CP-PIGGY.ANS
-# Source Revision: archive-sha256:0690b90402a70581c8f215d3ac545dcd69504e18bce536e07fefa6abfa4129ef
-# Source SHA-256: 3551d33610bd228d78a0308565b6bd790f18aa41010fe604ba310f5f3f3197fa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CP-PIGGY.ANS by cyber phreak (sense); released in sense11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: iniquity
-# SAUCE Author: cyber phreak
-# SAUCE Group: sense
-# SAUCE Date: 19980711
-# SAUCE Dimensions: 80x25
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: iniquity by cyber phreak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense11-cp-piggy
 
 Write-Host '
          [1;33m▄▄█[0;1;33;47m▓▓[0;1;33;40m█▄[0m                                           [1;30;40m▄▄▄▄▄[0m

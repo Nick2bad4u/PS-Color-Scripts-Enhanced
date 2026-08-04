@@ -1,18 +1,4 @@
-﻿# Converted from: MK-WOLF3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wolf0995/raw/MK-WOLF3.ANS
-# Source Revision: archive-sha256:bcb683eb0a6f26e642eb3a96f606e8810873de59535b199d98b85afb064e7f9b
-# Source SHA-256: 3c7ae063d3a17860b57c4fadb97a316491b144d029e6e07f864e0bd10756d08f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MK-WOLF3.ANS by Mask (WolfPack); released in wolf0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Current WolfPack Standings
-# SAUCE Author: Mask
-# SAUCE Group: WolfPack
-# SAUCE Date: 19950827
-# SAUCE Dimensions: 80x199
-# Lines: 49-98
-# Columns: 1-80
+﻿# Artwork: Current WolfPack Standings by Mask | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wolf0995-mk-wolf3-part02
 
 Write-Host '
                         [1;37;40m▄[0;1;37;47m▓[0;1;34;40m▐[0;1;34;41m▓▓▓▓▓▓▒▒▒▒▒▒▒░[0;36m▐█[0;36;46m [0;1;30;46m░▒▒▒▒░ [0;36m█▌[0;1;34;41m░▒▒▒▒▒▒▒▓▓▓▓▓▓[0;1;34;40m▌[0;1;37;40m▄▄[0m

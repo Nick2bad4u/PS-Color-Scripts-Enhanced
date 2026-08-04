@@ -1,18 +1,4 @@
-﻿# Converted from: RZ-SCRLZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-22/raw/RZ-SCRLZ.ANS
-# Source Revision: archive-sha256:e9d0326568be41d972423c1883bc8d5eea4966bab9e81326785f82909893446c
-# Source SHA-256: 380919c14fc9f17a87c4f2471cd8c628ffefc6f57456832396a14ea5a7b74d0d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RZ-SCRLZ.ANS by _rzicus (force); released in force-22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: scrollz
-# SAUCE Author: _rzicus
-# SAUCE Group: force
-# SAUCE Date: 19980801
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: scrollz by _rzicus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-22-rz-scrlz
 
 Write-Host '
                                     [31m▄[0;1;31m▄▄▄▄▄▄[0;31m▄[0;37m          [0m              [1;33m [0m  [1;33m         [0m

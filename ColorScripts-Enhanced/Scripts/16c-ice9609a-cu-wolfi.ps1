@@ -1,18 +1,4 @@
-﻿# Converted from: CU-WOLFI.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9609a/raw/CU-WOLFI.ICE
-# Source Revision: archive-sha256:541cf0b323317a2c01aae16b97d3d5f7ccc5db8dbd14c10b2267c0eefccf97b7
-# Source SHA-256: 8e067af0a0d2b1e9c5c881cc2b9ff2ed9fee7365bb942741fb0a782ad06be73d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CU-WOLFI.ICE by Cold and Ugly (iCE); released in ice9609a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Matrix for Wolfie
-# SAUCE Author: Cold and Ugly
-# SAUCE Group: iCE
-# SAUCE Date: 19960920
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Matrix for Wolfie by Cold and Ugly | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9609a-cu-wolfi
 
 Write-Host '
  [34m░░▓[0;1;34;44m [0;34m▓░ [0;37m [0;1;37;47m█▓▓▒[0m▌   ░▓▓███[1;47m░[0m███▓ ▓▓▒ ▐███▓▓▓▓▒▓█ █▀▄████████████[1;47m░░░▒▒▓[0m [35m░▓[0;1;35;45m▐██▓▓▒▓▓▓█[0m

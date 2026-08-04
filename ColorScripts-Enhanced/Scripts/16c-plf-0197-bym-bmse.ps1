@@ -1,18 +1,4 @@
-﻿# Converted from: BYM%BMSE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf_0197/raw/BYM%25BMSE.ANS
-# Source Revision: archive-sha256:0bef4e77d7c82c5af473f1433a65595e61d3227bf5a97a1733bde8181e32b843
-# Source SHA-256: f2478f034cb8d533a0e70ee78677afd0669ec905624204bb06d9a59cffd53d46
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM%BMSE.ANS by big yellow man (gummiboll.art); released in plf_0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: #fisk compo
-# SAUCE Author: big yellow man
-# SAUCE Group: gummiboll.art
-# SAUCE Date: 19970202
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: #fisk compo by big yellow man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0197-bym-bmse
 
 Write-Host '
                                                         [34m  [0m       [34m▄▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: LD-BENT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-02/raw/LD-BENT1.ANS
-# Source Revision: archive-sha256:47a67f112d88796e8c1419ea3c6c084684ff2719dfc540b2668a69dc0343be0d
-# Source SHA-256: e98fae7ac5b7108b0eabae5c8492037a6f7131b730ec9b7b85f2ebc61c9f43b7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-BENT1.ANS by lordjazz (odium); released in odium-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: bent
-# SAUCE Author: lordjazz
-# SAUCE Group: odium
-# SAUCE Date: 19951224
-# SAUCE Dimensions: 80x25
-# Lines: 1-12
-# Columns: 1-80
+﻿# Artwork: bent by lordjazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-02-ld-bent1
 
 Write-Host '
                   [32m▄▄▄[0m                                       [32m▄▄▄[0m

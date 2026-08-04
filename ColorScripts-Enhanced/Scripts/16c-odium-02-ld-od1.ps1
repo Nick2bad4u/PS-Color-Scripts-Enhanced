@@ -1,18 +1,4 @@
-﻿# Converted from: LD-OD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-02/raw/LD-OD1.ANS
-# Source Revision: archive-sha256:47a67f112d88796e8c1419ea3c6c084684ff2719dfc540b2668a69dc0343be0d
-# Source SHA-256: 3091c1bb72d6283f28e7136e1c968b202ec0752e8d8990e142f4ce1009202430
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-OD1.ANS by lordjazz (odium); released in odium-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: odium promotional
-# SAUCE Author: lordjazz
-# SAUCE Group: odium
-# SAUCE Date: 19951209
-# SAUCE Dimensions: 80x25
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: odium promotional by lordjazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-02-ld-od1
 
 Write-Host '
 [34m[0;1;33m[0;34m[0m                             [1;33m▄▄▄▄[0m

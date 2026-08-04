@@ -1,13 +1,4 @@
-﻿# Converted from: CC-NETW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cran1094/raw/CC-NETW.ANS
-# Source Revision: archive-sha256:c9381fb75e8f8a66431f7b0fe625ed381b9b49f3dba635c4d39fcdced612d967
-# Source SHA-256: 75e5f420554fe638d9a2116f6647a2e1d261526ce83bf7aa24cb5f987a9f6028
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CC-NETW.ANS by Clorox Cowboy (cran1094); released in cran1094 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 47-91
-# Columns: 1-80
+﻿# Artwork: CC-NETW.ANS by Clorox Cowboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cran1094-cc-netw-part02
 
 Write-Host '
 [1;30;40m░░█[0;1;30;47m▓[0;32m░░░▒▓▓▓▓▓▓▓▓[0;32;42m   [0;32;40m░░░░░░[0;33;40m░░ ▒░░ ▒  ▒░░ ▒[0;30;42m▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓[0;30;43m       ░░[0;1;36;40m┼[0m

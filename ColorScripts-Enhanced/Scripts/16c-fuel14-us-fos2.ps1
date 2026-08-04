@@ -1,18 +1,4 @@
-﻿# Converted from: US-FOS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel14/raw/US-FOS2.ANS
-# Source Revision: archive-sha256:5ee61a0e94a8eed583658335c026a1a037023d44b54da693bbed2c0844c1a5d9
-# Source SHA-256: d13bf8386db0fb1d8c9b9fc5467306ebd40832d43b68adbe275e54bdef1e3d83
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FOS2.ANS by Fever + The Knight (fuel&twi); released in fuel14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fos issue 2 screen
-# SAUCE Author: multiple artists
-# SAUCE Group: fuel&twi
-# SAUCE Date: 19970702
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: fos issue 2 screen by Fever + The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel14-us-fos2
 
 Write-Host '
 [32m▄▄▄▄▄[0;37m [0;1;30m  [0m [1m   [0m [1m [0m [1;30m  [0m    ▄▄▄███[1;47m      [0m████[1;30;47m▀▀▀▀██▓█▓▒▓█[0;1;30;40m▀░[0m [1;35m▄[0;1;35;45m▓▓▓[0;1;35;40m█▀[0;30;47m██[0;1;35;40m▀▀█▄▄██[0;1;35;45m▓▓[0;1;35;40m█▀▀▀[0;30;47m██████[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: jp-apa13.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy13/raw/jp-apa13.ans
-# Source Revision: archive-sha256:3ed7178f860604c6b9786846d46fd13095846b81c16a5324edc4e4b9ea7e6ba8
-# Source SHA-256: 17a68647ec0e80bb67eb0929e863f87e7d1065f0e4d64c7a3c28daa5cf136700
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: jp-apa13.ans by jack phlash (apathy); released in apathy13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: apathy #13
-# SAUCE Author: jack phlash
-# SAUCE Group: apathy
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x101
-# SAUCE Font: IBM VGA
-# Lines: 35-68
-# Columns: 1-80
+﻿# Artwork: apathy #13 by jack phlash | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy13-jp-apa13-part02
 
 Write-Host '
  [34m▄█▄[0;37m      [0;1;37m█[0m█[1m████████▀▀ ▄▄▀█████████████[0;1;47m█ [0;1;30;47m░▄▄██[0;1;30;40m▀▀▀▄▄██▀▀▀▀▀█████████[0;1;30;47m██▄▄[0;1;37;47m██ [0m██[1;30;47m▀[0;1;30;40m██▓[0m

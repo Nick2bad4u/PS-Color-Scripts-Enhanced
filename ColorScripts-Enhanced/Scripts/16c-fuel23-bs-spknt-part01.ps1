@@ -1,19 +1,4 @@
-﻿# Converted from: bs-spknt.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel23/raw/bs-spknt.ans
-# Source Revision: archive-sha256:cfe32eb98354b0830492d9be5038af88cfccfa9d08c77fbfa69a5660d9e29c20
-# Source SHA-256: a53bdfc12965b560d82d6d416360230b5ab19650dea5f12f24d89b8b9b057fbe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bs-spknt.ans by burps (fuel); released in fuel23 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: spooknet
-# SAUCE Author: burps
-# SAUCE Group: fuel
-# SAUCE Date: 20170806
-# SAUCE Dimensions: 80x79
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: spooknet by burps | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel23-bs-spknt-part01
 
 Write-Host '
 [37;40m [0;1;37;40m [0;30m░░░[0m

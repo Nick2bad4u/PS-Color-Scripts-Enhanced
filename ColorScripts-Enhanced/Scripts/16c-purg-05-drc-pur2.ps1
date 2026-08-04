@@ -1,18 +1,4 @@
-﻿# Converted from: DRC#PUR2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-05/raw/DRC%23PUR2.ANS
-# Source Revision: archive-sha256:96c802dc53f0425c511c5c8dea1d03f5279b0f5cc1c9fec877ee5552de1dca13
-# Source SHA-256: 1d693195325e19a7d6e2bb5137af19b8a85f3e62074a1e7268ae3a59761ab8ea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DRC#PUR2.ANS by Drc (Purg); released in purg-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Purg logo 2
-# SAUCE Author: Drc
-# SAUCE Group: Purg
-# SAUCE Date: 19961102
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Purg logo 2 by Drc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-05-drc-pur2
 
 Write-Host '
  [36m████████████████▀▀[0;37m [0;32m▄▄▄▄ [0;36m▀▀███████████████████████████████████████████████[0;1;36;46m▄▄▄▄[0;36m██[0m

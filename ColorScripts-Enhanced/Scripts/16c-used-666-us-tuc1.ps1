@@ -1,18 +1,4 @@
-﻿# Converted from: US-TUC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-666/raw/US-TUC1.ANS
-# Source Revision: archive-sha256:d11115b3587e62c1c707f1a564cfc3a42ffe40bb5da491c5f6813d8a56931618
-# Source SHA-256: f80a31815d36f30074caa94cd9251d93a98ed2d2dd5bdac6c6d0560be44a3dab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TUC1.ANS by Spear + Grymmjack (The Used Coalition); released in used-666 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Used Coalition
-# SAUCE Author: Multiple Artists
-# SAUCE Group: The Used Coalition
-# SAUCE Date: 20000620
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: The Used Coalition by Spear + Grymmjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-666-us-tuc1
 
 Write-Host '
                               [1;30m▀▀█▀▀[0m [1;30;47m█[0m [1;30m [0;1;30;47m▄[0m  [1;30m█▀▀[0m

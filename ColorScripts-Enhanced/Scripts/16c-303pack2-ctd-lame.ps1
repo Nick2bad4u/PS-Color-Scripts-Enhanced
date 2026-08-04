@@ -1,18 +1,4 @@
-﻿# Converted from: CTD-LAME.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/303pack2/raw/CTD-LAME.ANS
-# Source Revision: archive-sha256:4447fe2b8e8ce42dff70a445f43a7c14612a1a439620389cb1863f2a3b732682
-# Source SHA-256: 62cbb70907bda04dcad541cfc5a7c35e212207f5433e95a8bc42cfd229d70332
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CTD-LAME.ANS by crash test dummy ([3o3] 4r7 !?!); released in 303pack2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dunno .. ?!?
-# SAUCE Author: crash test dummy
-# SAUCE Group: [3o3] 4r7 !?!
-# SAUCE Date: 19970413
-# SAUCE Dimensions: 80x47
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: dunno .. ?!? by crash test dummy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-303pack2-ctd-lame
 
 Write-Host '
 [34m  ▄▄▄▄▄▓▓████▀▒▒▀██████████████████████████████████████████[0;1;34;44m   ░▒▄▄▄▓▄▄▄[0;44m▄[0;34;40m▓▄▄▄▄▄  [0m

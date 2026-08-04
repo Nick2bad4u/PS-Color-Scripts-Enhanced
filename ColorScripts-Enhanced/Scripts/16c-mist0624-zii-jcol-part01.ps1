@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-JCOL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0624/raw/ZII-JCOL.ANS
-# Source Revision: archive-sha256:7e2642f67629daefe8d04ebedd2e233be2e8a74b2dea50eb02da49be24298927
-# Source SHA-256: 287b4087a0b3bedd3208bd1c37f98fbe6e076fffd33f120d2c46816f048a4a16
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-JCOL.ANS by Zeus II (Mistigris); released in mist0624 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: CommanderX16 Menu
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20240622
-# SAUCE Dimensions: 80x60
-# SAUCE Font: IBM VGA
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: CommanderX16 Menu by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0624-zii-jcol-part01
 
 Write-Host '
 [33m      ▄▄▄██[0;37;43m▄▄▄[0;33;40m██████████████████████████████████████████████████████[0;37;43m▄▄[0;33;40m█▄▄▄[0m

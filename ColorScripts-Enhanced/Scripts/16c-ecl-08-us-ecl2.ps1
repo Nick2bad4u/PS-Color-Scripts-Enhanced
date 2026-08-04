@@ -1,18 +1,4 @@
-﻿# Converted from: US-ECL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-08/raw/US-ECL2.ANS
-# Source Revision: archive-sha256:0b90c936d49629839c01709c30be5eee3ae4012caa7a8f1570b6ae8cc1763cb4
-# Source SHA-256: 42283ebbb2625d3d030ff39d0e86416033507289951df168b8363bf88c5b88ad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ECL2.ANS by Spear + Crayon (ECL1PSE!); released in ecl-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Ecl1pse do0d.
-# SAUCE Author: Spear und Crayon
-# SAUCE Group: ECL1PSE!
-# SAUCE Date: 19961006
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Ecl1pse do0d. by Spear + Crayon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-08-us-ecl2
 
 Write-Host '
 

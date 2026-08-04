@@ -1,18 +1,4 @@
-﻿# Converted from: WA-SILK1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz01dec/raw/WA-SILK1.ANS
-# Source Revision: archive-sha256:5b380369fa665698a380513024a32a1e90544a62665a810c6e03347900a05ac8
-# Source SHA-256: e1a924605ed397ce404530a2ba91cc321cacabcc8b358bf53f1703c0b2c997d2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WA-SILK1.ANS by warpus (lazarus); released in laz01dec and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: silk
-# SAUCE Author: warpus
-# SAUCE Group: lazarus
-# SAUCE Date: 19961118
-# SAUCE Dimensions: 80x48
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: silk by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz01dec-wa-silk1
 
 Write-Host '
                           [1;32m   [0m

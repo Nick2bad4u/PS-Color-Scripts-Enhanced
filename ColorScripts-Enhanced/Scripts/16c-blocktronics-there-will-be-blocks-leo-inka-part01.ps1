@@ -1,16 +1,4 @@
-﻿# Converted from: leo-inka.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_there_will_be_blocks/raw/leo-inka.ans
-# Source Revision: archive-sha256:d99f6502677c5a3c863779944513ac7a61b8122179566cfc94d95537e904aa6b
-# Source SHA-256: 748b629a554bc12c010aa73a7435b9b21cdd7b351dbf464122a4a172e62fb054
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: leo-inka.ans by Leonardo (blocktronics_there_will_be_blocks); released in blocktronics_there_will_be_blocks and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20161104
-# SAUCE Dimensions: 80x103
-# SAUCE Font: IBM VGA
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: leo-inka.ans by Leonardo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-there-will-be-blocks-leo-inka-part01
 
 Write-Host '
                                                                    [33;40m▄[0;37;40m [0;33;40m▄ ▄ ▄ ▄ ▄[0m

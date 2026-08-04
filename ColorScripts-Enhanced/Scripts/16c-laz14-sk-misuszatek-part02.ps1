@@ -1,19 +1,4 @@
-﻿# Converted from: sk!misuszatek.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz14/raw/sk!misuszatek.ans
-# Source Revision: archive-sha256:41b4e3770fbffb058172283f3da2aa00e47c872480cf93fdef94629ebc0751bb
-# Source SHA-256: b31146815864fb66c90f7e91ef9d08270bf6d1c960e9688f5ea048780868b089
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sk!misuszatek.ans by sIMONkING (thelo0p!/LAZAURS); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: MiS Uszatek
-# SAUCE Author: sIMONkING
-# SAUCE Group: thelo0p!/LAZAURS
-# SAUCE Date: 20211213
-# SAUCE Dimensions: 80x85
-# SAUCE Font: IBM VGA
-# Lines: 44-85
-# Columns: 1-80
+﻿# Artwork: MiS Uszatek by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz14-sk-misuszatek-part02
 
 Write-Host '
 [33m█████[0;1;30;43m   █[0;1;30;40m▄[0m [1;30m▓[0;1;30;47m▓[0;1;30;40m▓▓▄[0m  [1;30m▀▀[0;1;30;43m▄[0;33m█[0;1;30;43m█[0m [33m█[0;1;30;43m█[0m [1;30;47m▀[0m  ▄[1;33;47m░▒▒▓▓▓▓▓[0;1;33;40m█[0;1;33;47m▓▓▓▓▓██▓▓[0m [33m█ ████▄██████[0;1;30;43m▄[0;1;30;40m██[0;33m ███████████[0;1;30m██[0m

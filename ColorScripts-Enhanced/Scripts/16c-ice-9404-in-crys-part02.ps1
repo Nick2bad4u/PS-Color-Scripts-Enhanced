@@ -1,13 +1,4 @@
-﻿# Converted from: IN-CRYS.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9404/raw/IN-CRYS.ICE
-# Source Revision: archive-sha256:e5a1f2d1c6054009d2e54f022b621731de1da87874b7a0cc14ccac875662035d
-# Source SHA-256: 9fd16d3027141dfec811121390e886e4cd8fe689a98a395f3b0ea7c070aeb466
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IN-CRYS.ICE by Incubus (ice-9404); released in ice-9404 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 47-93
-# Columns: 1-80
+﻿# Artwork: IN-CRYS.ICE by Incubus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9404-in-crys-part02
 
 Write-Host '
                                          [1;30m░[0m     [1;30m■[0m     [1;30m▓▀▄▄▀   ▄▄▓▀  ▐[0m

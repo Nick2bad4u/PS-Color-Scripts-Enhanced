@@ -1,20 +1,4 @@
-﻿# Converted from: us-dune.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz19/raw/us-dune.ans
-# Source Revision: archive-sha256:b2207428f1b283b9c41d9ff03fce385f449fefe469c60e31e8dd7430a162f7c1
-# Source SHA-256: 9c961dbe21a1d807194b66e2d764d53529968dd9732cac209a919aeb79b294af
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-dune.ans by Warpus + Nitron (LAZARUS); released in laz19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Desert Power
-# SAUCE Author: nitron & warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20240524
-# SAUCE Dimensions: 80x23
-# SAUCE Font: IBM VGA
-# SAUCE Comments: May your keyboards chip and shatter
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Desert Power by Warpus + Nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz19-us-dune
 
 Write-Host '
 [34m░░░▒▒▒▓▓[0;1;34;44m░░▒▒▓▓[0;1;34;47m▀▀▒▒▒▒[0;1;36;40m▒▒▒[0;1;34;47m▄▄▄▄▄[0;1;34;40m███▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;34;45m [0;34m▄▄[0m

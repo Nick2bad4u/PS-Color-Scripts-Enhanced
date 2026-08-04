@@ -1,18 +1,4 @@
-﻿# Converted from: CPL!PUTO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak9/raw/CPL!PUTO.ANS
-# Source Revision: archive-sha256:668d414adbcf3d3a3dc83256fe2a097b5d305158b015a8efbf3cb0f3b83bfec0
-# Source SHA-256: 5bf898cae847f8c584936ca2d7ee0ee29d19c868139fbb4a291631c1815c8dab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPL!PUTO.ANS by com. plons (ecolove); released in ecl-pak9 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the fast food robber
-# SAUCE Author: com. plons
-# SAUCE Group: ecolove
-# SAUCE Date: 19980901
-# SAUCE Dimensions: 80x47
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: the fast food robber by com. plons | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak9-cpl-puto
 
 Write-Host '
        [1;31;41m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m

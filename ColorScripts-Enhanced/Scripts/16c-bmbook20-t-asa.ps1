@@ -1,18 +1,4 @@
-﻿# Converted from: T-ASA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook20/raw/T-ASA.ANS
-# Source Revision: archive-sha256:ad9acf30fa46ab5c9a458319782448b90dee64987e366c3cf1e5e495b40c4e0a
-# Source SHA-256: 5a15b79c8a8ce7a65d4f28525a530d8b9c49a2aa9d615465fe5d50e0ad4350e8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T-ASA.ANS by toot (black maiden); released in bmbook20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: a(with a halo)sa
-# SAUCE Author: toot
-# SAUCE Group: black maiden
-# SAUCE Date: 19981121
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: a(with a halo)sa by toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook20-t-asa
 
 Write-Host '
 [36m[0;37m[0;36m[0m[36m[0m       [36måsa[0m

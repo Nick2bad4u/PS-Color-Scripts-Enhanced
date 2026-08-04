@@ -1,18 +1,4 @@
-﻿# Converted from: Po-amenu.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper08/raw/Po-amenu.ans
-# Source Revision: archive-sha256:4170bc28a3d93b55b5d7813a9078fa917029de207cfcf794080d34d8f6ddd97e
-# Source SHA-256: 124ae08d3eae42735eeee1ab63f3847c711eef6e2631d525f41b596f0fd908c1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Po-amenu.ans by portia (jasper); released in jasper08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: acropolis menu
-# SAUCE Author: portia
-# SAUCE Group: jasper
-# SAUCE Date: 20020730
-# SAUCE Dimensions: 80x12
-# Lines: 1-12
-# Columns: 1-80
+﻿# Artwork: acropolis menu by portia | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper08-po-amenu
 
 Write-Host '
 [30;44m░░[0;34;40m [0;37;40m [0;35;40m  [0;30;44m▓[0;34;40m░[0;30;44m▓▓[0;37;40m [0;34;40m ▀▀[0;34;45m▓▓[0;1;33;44m [0;30;44m ░[0;34;40m█▀▀▀[0m           [1;34;40m▀[0m [34m▀▀[0;1;34;44m▀▓▓[0;1;34;40m████[0;1;34;44m█[0;1;34;40m█[0;1;34;44m▀[0;1;34;40m▀[0;34m▀[0m      [30;44m▓[0;1;34;40m▀▀[0;1;34;47m█▓▓[0m  [35m▄[0m       [1;34m▀▀██████[0m

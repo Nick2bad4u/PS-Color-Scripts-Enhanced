@@ -1,17 +1,4 @@
-﻿# Converted from: HD_FRT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ltm-0002/raw/HD_FRT.ANS
-# Source Revision: archive-sha256:781901eb93f0cb031ec3f7b4daa19680a5eef01b4b60325740b7b545db2b86c8
-# Source SHA-256: ed34a3e5dca66fb2f85727a2147bbc70af897d26cfa565c372ede1f707cd3a91
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HD_FRT.ANS by h0ND0 (Lithium); released in ltm-0002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Newskull 6     "Logo Feretro"
-# SAUCE Author: h0ND0
-# SAUCE Group: Lithium
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Newskull 6 "Logo Feretro" by h0ND0 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ltm-0002-hd-frt
 
 Write-Host '
 [1m [0;1;34m,[0m             [34m,s#$$#s,[0m

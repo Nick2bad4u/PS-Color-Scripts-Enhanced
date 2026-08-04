@@ -1,19 +1,4 @@
-﻿# Converted from: N-DGRBAY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/N-DGRBAY.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: 8d1bd13d52e7315ad58d9202a656d8c3b0dd97399fc551aa14224fc12ea9c018
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-DGRBAY.ANS by nail (fire); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: danger bay
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 20241111
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: danger bay by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-n-dgrbay
 
 Write-Host '
       [1;33;40m  [0;33m▄▄[0m                [1;33m▓▓▓▓[0m

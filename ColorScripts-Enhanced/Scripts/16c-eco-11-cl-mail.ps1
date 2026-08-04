@@ -1,18 +1,4 @@
-﻿# Converted from: CL!-MAIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-11/raw/CL!-MAIL.ANS
-# Source Revision: archive-sha256:1dfdff2a149d7c508dd5217b2507a6f6de57b0b50768db84824a6336603554b3
-# Source SHA-256: 4362370c28cf497dbd1066185aabf31180d6a4a9913c645995dedbc27604d5b8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-MAIL.ANS by Cleaner (Ecolove); released in eco-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Nitrophusion Email Lister Matrix
-# SAUCE Author: Cleaner
-# SAUCE Group: Ecolove
-# SAUCE Date: 19981122
-# SAUCE Dimensions: 80x25
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Nitrophusion Email Lister Matrix by Cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-11-cl-mail
 
 Write-Host '
 [36m█[0;1;30;46m                           [0;36m█[0;1;30;46m     ░░[0;36m█▀▀▀▀▀▀[0;1;37m [0;33m▄▄▄[0;1;33;43m░░░[0;33m▀▀▀▀▀[0;1;33;43m░░░[0;33m▄▄▄[0;37m [0;36m▀▀▀▀▀▀[0;1;30;46m░░[0;1;36;46m░░░░▒▒▒▓▓█[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US-SUPA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook14/raw/US-SUPA.ANS
-# Source Revision: archive-sha256:f7fe2a62d3e7b3b16687ce251209098ea8d86719a4cfa33dae1489e0c9af9278
-# Source SHA-256: b9ff15ff8f4fa26f43be2b11a9dfbb691ec3cc87e20c76e1c1a79a7e5bb62df4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SUPA.ANS by Dv8 + Avenger (black maiden); released in bmbook14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: superman
-# SAUCE Author: dv8.ave
-# SAUCE Group: black maiden
-# SAUCE Date: 19970621
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: superman by Dv8 + Avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook14-us-supa
 
 Write-Host '
 [1;35;45m▓▓░░░[0;35m▓[0;30;45m░[0;35;40m▓░[0;30;45m▓[0;35;40m░[0;30;45m▓[0;1;31;40m    [0;1;37;40m░[0m▄[1m▄▄[0;1;47m▄██[0;1;40m█▀[0;1;30;40m [0;33m▄▓[0;1;31;43m▄[0;1;31;40m█▌██▌ ▄███[0;1;31;43m██▌[0;1;31;40m▀▄█▌▐██[0;1;31;43m▄[0;33m▄[0;1;30m [0;1;31m▄[0m▀[1;47m▀[0;1;40m▓[0;1;47m█████████▀[0m▀[1;47m▀[0;1;40m█[0;1;31;40m [0;35m░[0;30;45m▓[0;35;40m░[0;30;45m░[0;35;40m▓[0;30;45m░[0;1;35;45m░░▒▓[0m

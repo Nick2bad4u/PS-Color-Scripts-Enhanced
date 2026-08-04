@@ -1,18 +1,4 @@
-﻿# Converted from: S7!-MDN3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden13/raw/S7!-MDN3.ANS
-# Source Revision: archive-sha256:70e231ea8653cd02d349f122b1a39f57757322f3913b0c8f20698b54c8795e68
-# Source SHA-256: e1ac9128d48e7dd7ff6caf3be32883c09a0cd7de70b6bc77c721e8b9b70c9027
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S7!-MDN3.ANS by Soul s7alker! (Skl); released in maiden13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: maiden logo
-# SAUCE Author: Soul s7alker!
-# SAUCE Group: Skl
-# SAUCE Date: 19970925
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: maiden logo by Soul s7alker! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden13-s7-mdn3
 
 Write-Host '
 [1;30msoulstalker[0m([1;30mskl[0m)[1;33m [0;1;37m▐██[0;1;33;43m▓▓[0;1;33;40m█[0;1;33;43m▌ ░░[0;33m▌[0;1;33m  [0;32m [0;30;42m░[0;32;40m▓█▀▀█[0;1;32;42m░░[0;32m▌[0;37m [0;32m▀[0;37m [0;1;32;42m▀[0;32m█ ▀   [0;1;33m░[0;32m [0m         [32m▀▀▓[0;30;42m░[0;32;40m▓▀▀[0;1;32;42m░░▓██[0;1;37;40m█▌[0m

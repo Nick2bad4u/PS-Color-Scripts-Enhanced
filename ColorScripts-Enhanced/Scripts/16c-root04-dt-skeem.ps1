@@ -1,18 +1,4 @@
-﻿# Converted from: DT-SKEEM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root04/raw/DT-SKEEM.ANS
-# Source Revision: archive-sha256:8dec1aa0e303d37205499818eaff4458ebf93774cd973f016deaae45658df6b3
-# Source SHA-256: 37efee52a260b924f74ed5b3d69a21827c20f1b12b209eb5ca0ce32df827ffdf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-SKEEM.ANS by Defiant (Root); released in root04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the scheme
-# SAUCE Author: Defiant
-# SAUCE Group: Root
-# SAUCE Date: 19970517
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: the scheme by Defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root04-dt-skeem
 
 Write-Host '
                                   [31m■▄[0m       [36m░░▄▄▄▄  [0;34m■ ▄▄  [0;35m■[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: us-p1f.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna03/raw/us-p1f.ans
-# Source Revision: archive-sha256:997aaab655669129eb266c21ca0c4588b603e11c90338498bb530f8bba390fb2
-# Source SHA-256: 6cf9263097960937b4b9f6e2d7153a20d980c22a64966e10191ed26f6d0cb6e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-p1f.ans by Avg + Knocturnal (sauna); released in thesauna03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: poffelipoff
-# SAUCE Author: k1 avg
-# SAUCE Group: sauna
-# SAUCE Date: 20210816
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: poffelipoff by Avg + Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna03-us-p1f
 
 Write-Host '
 

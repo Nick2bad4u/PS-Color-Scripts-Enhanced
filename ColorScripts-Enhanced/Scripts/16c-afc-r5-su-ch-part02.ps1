@@ -1,13 +1,4 @@
-﻿# Converted from: SU-CH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r5/raw/SU-CH.ANS
-# Source Revision: raw-sha256:da866908caec8273a6eed78a5325123bb8b350d3e4c115564ec1f0e65b72fcb5
-# Source SHA-256: da866908caec8273a6eed78a5325123bb8b350d3e4c115564ec1f0e65b72fcb5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SU-CH.ANS by Suhu (afc-r5); released in afc-r5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 45-88
-# Columns: 1-80
+﻿# Artwork: SU-CH.ANS by Suhu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r5-su-ch-part02
 
 Write-Host '
 [1;33;40m [0;1;33;44m                                          [0;30;44m▐[0;33;40m▐████▌[0;30;44m███[0;33;40m██████████████▌[0;1;33;40m▐▄█▀▄█▀▄█▀█[0m

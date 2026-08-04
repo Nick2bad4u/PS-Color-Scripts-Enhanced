@@ -1,13 +1,4 @@
-﻿# Converted from: US-GUTTR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-18/raw/US-GUTTR.ANS
-# Source Revision: archive-sha256:0bc0a975c4de127fd6305114a49451275a1959513e343ea7612d70fa62951816
-# Source SHA-256: 23ebaf71edae0e06687e4b7f6929bc98aa2f8fd5fb57f9aba7a4fe3c931f5f67
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GUTTR.ANS by Internal + Shrimp (glue-18); released in glue-18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: US-GUTTR.ANS by Internal + Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-18-us-guttr
 
 Write-Host '
  [1;34;44m▀[0;1;34;47m▓[0;1;34;44m█▓[0m    [34m▄█▀[0m   [36m▄[0m    [34m▀█[0;1;34;44m▓█[0;34m▌[0m      [34m▐[0;1;34;44m▄[0;1;34;47m▓▄▄[0;1;34;44m▀[0;34m▀[0;37m  [0;34m▐[0;1;37m [0;1;34;44m██[0;1;34;47m▓▓░░ ▄[0;1;34;44m▀[0;34m▀[0m    [34m▀[0;1;34;44m▀▓░[0;34m▀ [0m      [34m▀[0;1;34;44m▀[0;1;34;47m▄[0;1;36;47m░[0;1;34;47m░▓[0;1;34;44m▌[0;34m▌ [0;37m  [0;34m▓[0m

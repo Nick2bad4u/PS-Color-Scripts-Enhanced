@@ -1,18 +1,4 @@
-﻿# Converted from: HT-TD1.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/sac0395/raw/HT-TD1.ANS
-# Source Revision: archive-sha256:7b30118405d4d21f05022ba0c6f9cc20d209f8b3e8684cf8db7bf6713b2b2425
-# Source SHA-256: a85e61ed8f3986a9ed56ceb59c61fabe2e9b8471f3b811fe9129bd15c190c09c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HT-TD1.ANS by hetero; released in sac0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
-# SAUCE Title: TOUCHDOWN BBS
-# SAUCE Author: HETERO
-# SAUCE Group: LKCC
-# SAUCE Date: 19950218
-# SAUCE Dimensions: 80x25
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: TOUCHDOWN BBS by hetero | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0395-ht-td1-part01
 
 Write-Host '
        [1m▄▄[0;1;47m███[0;1;40m▀[0;1;47m████████████████▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░[0m█████[1;47m░░░[0m█████▄▄

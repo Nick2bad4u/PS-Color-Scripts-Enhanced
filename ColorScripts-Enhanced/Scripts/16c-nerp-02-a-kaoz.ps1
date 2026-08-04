@@ -1,18 +1,4 @@
-﻿# Converted from: A-KAOZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-02/raw/A-KAOZ.ANS
-# Source Revision: archive-sha256:3fd9f194d865cfc24c90bdf11a27528d8d82a8ba9c376ebed567183a2f95a9f3
-# Source SHA-256: 9c2d6b91c2a9b4ae071647975df2b45819891736a6dd3bee19e9ce84434855fe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: A-KAOZ.ANS by alecs (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: kaoz - screen
-# SAUCE Author: alecs
-# SAUCE Group: nerp
-# SAUCE Date: 19971102
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: kaoz - screen by alecs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-02-a-kaoz
 
 Write-Host '
 [1;34m█[0;1;34;47m▓▓▓[0;1;34;40m███▀▀[0m   [36m▄▄▄▄[0;33m [0;1;33m░░[0;33m░[0m    [36m▄▄[0;33m  [0;1;34m ▀▀███▀▀██[0m

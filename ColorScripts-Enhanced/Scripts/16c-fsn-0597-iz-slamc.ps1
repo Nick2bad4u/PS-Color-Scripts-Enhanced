@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-SLAMC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0597/raw/IZ-SLAMC.ANS
-# Source Revision: archive-sha256:100499c687593fd78c29adf06f5899e8c0d61223958e380a9c31aadb955ab06d
-# Source SHA-256: ef70c25384b53bc9e24557c0fdf462a75cb09a5730439fe1ebf0a08e70b7278e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-SLAMC.ANS by ize (fusion); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: slam city
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19970420
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: slam city by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0597-iz-slamc
 
 Write-Host '
                                                         [31m     [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: GULP-06.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/joint05/raw/GULP-06.ANS
-# Source Revision: archive-sha256:7a1e0a617dfc2b504898f6fcd613c850545acc0ed676f782574405b258e76a5c
-# Source SHA-256: 4bb8d159259250a1d4e21a42910c138dcd9d22f0db87af90ec3a571dfeb8d0ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GULP-06.ANS by The Joint (joint05); released in joint05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: GULP-06.ANS by The Joint | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-joint05-gulp-06-part01
 
 Write-Host '
                                                         [1m  [0;1;31m  [0;1;37m .╓s%''"$$$[0;1;33m$"''%s╖.[0;1;31m   [0m

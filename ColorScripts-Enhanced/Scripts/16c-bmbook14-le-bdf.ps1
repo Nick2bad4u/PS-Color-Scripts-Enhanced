@@ -1,18 +1,4 @@
-﻿# Converted from: LE-BDF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook14/raw/LE-BDF.ANS
-# Source Revision: archive-sha256:f7fe2a62d3e7b3b16687ce251209098ea8d86719a4cfa33dae1489e0c9af9278
-# Source SHA-256: c6da62de720711b837298b72985a06cbcff1634f34901d17ce68ee9c08cf9fe3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LE-BDF.ANS by leo! (black maiden); released in bmbook14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: bd-font
-# SAUCE Author: leo!
-# SAUCE Group: black maiden
-# SAUCE Date: 19970629
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: bd-font by leo! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook14-le-bdf
 
 Write-Host '
          [30;46m▓▓▓[0m         [37;40m▄▄▄█[0m

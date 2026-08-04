@@ -1,17 +1,4 @@
-﻿# Converted from: MW-ART.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vpr0795/raw/MW-ART.ANS
-# Source Revision: archive-sha256:4a59d47b7694f8e39e774460d65dc196d91b5d4e90f4e35cac8b62cdf4456f27
-# Source SHA-256: c076eea1649ddb9b6ff1dc3f4a355fdb9e99e4c609b4516bc5495eb411ed0b70
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MW-ART.ANS by Maeve Wolf (Vapor); released in vpr0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Artifacts
-# SAUCE Author: Maeve Wolf
-# SAUCE Group: Vapor
-# SAUCE Date: 20950708
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Artifacts by Maeve Wolf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vpr0795-mw-art
 
 Write-Host '
 [1;30m                           ■ [0;1;34m▄[0m             [1;30m▄   [0;1;34m▄[0m

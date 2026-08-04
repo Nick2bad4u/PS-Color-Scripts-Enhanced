@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-1ST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sadist01/raw/BYM-1ST.ANS
-# Source Revision: archive-sha256:a09604d5f43fb8785b5c5dfd9a5165e810b4d58fd16a4084e3fe605eab5c8eb7
-# Source SHA-256: 25d8aa71b3694682390e93ed20b0499e44c8c763ee0521a6a4d959a66fe30873
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-1ST.ANS by big yellow man (guesting); released in sadist01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: 1st advent
-# SAUCE Author: big yellow man
-# SAUCE Group: guesting
-# SAUCE Date: 19981129
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: 1st advent by big yellow man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sadist01-bym-1st
 
 Write-Host '
 [1;31;41m▓[0;1;31;47m▓▓▀▀[0;1;31;41m▓▓▓[0;1;31;40m█[0;1;31;41m▀[0;1;31;40m▀▀▀[0;31m▀[0m                         [35m░[0;30;45m▓[0m                        [31;40m▀[0;1;31;40m▀▀▀▀[0;1;31;41m▀▓[0;1;37;41m░░[0;1;31;40m█[0;1;35;40m▓▓[0;1;31;47m░▓▓[0m

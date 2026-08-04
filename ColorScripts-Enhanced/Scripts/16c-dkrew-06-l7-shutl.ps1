@@ -1,18 +1,4 @@
-﻿# Converted from: L7-SHUTL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dkrew-06/raw/L7-SHUTL.ANS
-# Source Revision: archive-sha256:02960d7b88668b8887fe5cdf52da355c2d3dd37bf140c876abc30817d0d21bdb
-# Source SHA-256: 440bbd9ac78261ee4d2374b8b6ed78126ef7fccb37547648f24ac5cd488af600
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: L7-SHUTL.ANS by Lancelot (dead krew); released in dkrew-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Shuttle Login ANSi
-# SAUCE Author: Lancelot
-# SAUCE Group: dead krew
-# SAUCE Date: 19970408
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Shuttle Login ANSi by Lancelot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dkrew-06-l7-shutl
 
 Write-Host '
      [1;30m▄▀▀▀▄▄[0m     [1;30m▄▀▀▀▄▄[0m     [1;30m▄▀▀▀▄▄[0m     [1;30m▄▀▀▀▄▄[0m     [1;30m▄▀▀▀▄▄[0m

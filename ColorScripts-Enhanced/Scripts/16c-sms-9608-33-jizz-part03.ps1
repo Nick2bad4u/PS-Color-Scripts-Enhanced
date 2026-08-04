@@ -1,18 +1,4 @@
-﻿# Converted from: 33-JIZZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9608/raw/33-JIZZ.ANS
-# Source Revision: archive-sha256:28795cb401df281ef6294233e2af12663ffb83dc390b0bfbadecb49834e6c017
-# Source SHA-256: cfc5312ee7a85fc743b8a4d3a1c301a0856230ad2c6065e05f8d950e6972e4ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-JIZZ.ANS by EERIE-KUN (SAMSARA); released in sms-9608 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: JIZZ!!@  W00P!@#  =) =)
-# SAUCE Author: EERIE-KUN
-# SAUCE Group: SAMSARA
-# SAUCE Date: 19960731
-# SAUCE Dimensions: 80x124
-# Lines: 85-124
-# Columns: 1-80
+﻿# Artwork: JIZZ!!@ W00P!@# =) =) by EERIE-KUN | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9608-33-jizz-part03
 
 Write-Host '
                                        ▐[1;47m█▓[0m [1;32;42m░███░[0m ▐[1;30;47m▓[0m

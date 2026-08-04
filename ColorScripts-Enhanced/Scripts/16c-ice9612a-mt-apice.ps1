@@ -1,18 +1,4 @@
-﻿# Converted from: MT-APICE.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9612a/raw/MT-APICE.ICE
-# Source Revision: archive-sha256:4d394b60f9c715e629054db64cb8aa01a09120ffd63f7c1e537608a21d070f8a
-# Source SHA-256: 51af9f9b16d435730f2784a428c9e178a66af6cd3ac593dddee6987bd7e74479
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MT-APICE.ICE by Misfit (iCE Productions); released in ice9612a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Apathy/iCE info
-# SAUCE Author: Misfit
-# SAUCE Group: iCE Productions
-# SAUCE Date: 19961116
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Apathy/iCE info by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9612a-mt-apice
 
 Write-Host '
 [1;30;46m░░░░[0;36m▄[0;1;30;46m░░░░[0;36m▀▀▄▄[0;1;30;46m ░░░░░░ ░░░░░[0;36m▄[0;37m [0;1;30;46m░░░░░░░░░░▒░░░▒▒▒░▒▒▒▒▓▓▓▓▓[0;1;30;40m▀▀░░[0m

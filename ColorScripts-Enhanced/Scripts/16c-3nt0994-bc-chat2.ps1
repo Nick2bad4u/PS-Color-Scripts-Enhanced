@@ -1,13 +1,4 @@
-﻿# Converted from: BC-CHAT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/3nt0994/raw/BC-CHAT2.ANS
-# Source Revision: archive-sha256:8c4f630d748c04d180e6f0e7fbedf4e14617b11d9acbb0f34bb011e1bbc79693
-# Source SHA-256: 2f927de1edbe83166631f79333f292698473d5804a47bba6e03e7b7c4f4af26f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BC-CHAT2.ANS by Beyond Cool (3nt0994); released in 3nt0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: BC-CHAT2.ANS by Beyond Cool | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-3nt0994-bc-chat2
 
 Write-Host '
 [1m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m

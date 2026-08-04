@@ -1,13 +1,4 @@
-﻿# Converted from: SPIRITS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ea_oct94/raw/SPIRITS.ANS
-# Source Revision: archive-sha256:4718b0d953126492f0823787c16660683ad4fd6bac3b88629a31a6872cdb4745
-# Source SHA-256: 9404323e23821755a441b97badd45b9b8c0d59311e8db712a591ad8a07eb6622
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPIRITS.ANS by Tosh10 (ea_oct94); released in ea_oct94 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: SPIRITS.ANS by Tosh10 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ea-oct94-spirits
 
 Write-Host '
        [34m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

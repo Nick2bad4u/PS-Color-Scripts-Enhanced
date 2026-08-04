@@ -1,19 +1,4 @@
-﻿# Converted from: LDA-PUMPKIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1022/raw/LDA-PUMPKIN.ANS
-# Source Revision: archive-sha256:b4cfb070b10229c71b6cdba49fff141c03f4ad9e6e51a5ef68dfa1930822da97
-# Source SHA-256: 9b86525a0266772e490895e7fc40bada7ba25a6eb9faf57485e65a140a0d2369
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LDA-PUMPKIN.ANS by LDA (Mistigris); released in mist1022 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Pumpkin
-# SAUCE Author: LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20221029
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Pumpkin by LDA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1022-lda-pumpkin
 
 Write-Host '
 [36;44m▓▓▓▓▓[0;36;40m██████[0;34;46m▄▄[0;36;44m▀▀■ ░░░[0;34;40m█▀▀[0;35;40m ▄▄▄[0;34;40m▀▀███▀[0;35;40m▄[0;34;40m▀██████[0;36;44m░░░░░[0;34;40m████[0;36;44m▄▄▄▄▄▄▄▄[0;34;40m████[0;34;46m▀▀▀▀▀[0;36;44m▓▓▓▓[0;36;40m█[0;1;36;46m▄▄▄▄▄▄▄▄[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: Nzz-TI-2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/duodaughters01/raw/Nzz-TI-2.ans
-# Source Revision: archive-sha256:107dcc7639647744884177ba1bc2147746cc2fe523012ebd967c4f8ee48caaef
-# Source SHA-256: bf25469b682772c464e89aff90ada5e9c204f2073a6bc845c2f8a7d27a931398
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Nzz-TI-2.ans by TiMeGaWDZ TiMeSToRM (duo daughter); released in duodaughters01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ninjzz
-# SAUCE Author: TiMeGaWDZ TiMeSToRM
-# SAUCE Group: duo daughter
-# SAUCE Date: 20151214
-# SAUCE Dimensions: 80x82
-# SAUCE Font: IBM VGA
-# Lines: 42-82
-# Columns: 1-80
+﻿# Artwork: Ninjzz by TiMeGaWDZ TiMeSToRM | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-duodaughters01-nzz-ti-2-part02
 
 Write-Host '
                                         [34m██[0;1;34m█[0;1;37m██[0;1;34m█[0;34m██[0m

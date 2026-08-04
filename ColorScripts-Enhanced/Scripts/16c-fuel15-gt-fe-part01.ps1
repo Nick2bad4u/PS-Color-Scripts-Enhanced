@@ -1,18 +1,4 @@
-﻿# Converted from: GT-FE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel15/raw/GT-FE.ANS
-# Source Revision: archive-sha256:3b994e59b6a78be97a60517481673ca8661cd10fa275e8c56fe8095a44e5feee
-# Source SHA-256: 521d524119eb54b9f278c3d97c073558954c2e4b174cb193fbd3a12cebe1e00c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GT-FE.ANS by graphital (fuel productions); released in fuel15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fallen empires
-# SAUCE Author: graphital
-# SAUCE Group: fuel productions
-# SAUCE Date: 19970728
-# SAUCE Dimensions: 80x25
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: fallen empires by graphital | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel15-gt-fe-part01
 
 Write-Host '
 [30;45m▓░░[0;1;35;45m [0;35m██[0;1;35;45m░░▒▒▓[0;1;35;40m█▀▀▀▀▀▀▀▀[0;1;35;47m▓[0;1;35;40m█[0;1;35;45m▓▒▒░░[0;35m██[0;30;45m░░▓[0;35;40m░[0;37;40m [0;35;40m▓▒░[0;37;40m  [0;1;30;40m░░[0m [30;46m▓[0;36;40m▄[0;1;36;40m▄[0;1;36;46m▄█▄[0;1;36;40m▄[0;36m▄[0;30;46m▓[0;37;40m  [0;1;30;40m░░[0m  [30;46m▓[0;36;40m▄▄[0;37;40m [0;35;40m░░[0;37;40m [0;1;30;40m▓[0m        [1;30m░▒▓▓██[0m

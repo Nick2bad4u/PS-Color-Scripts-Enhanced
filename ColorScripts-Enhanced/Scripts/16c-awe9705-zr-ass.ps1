@@ -1,18 +1,4 @@
-﻿# Converted from: ZR-ASS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9705/raw/ZR-ASS.ANS
-# Source Revision: archive-sha256:8be34660f06cc6610ed258606edc1af91e25b5675ab5e99aed29e53c07e63e17
-# Source SHA-256: 009860f77ed3d5c2cb60a2d2e0c8168db359a523e4f4859b5ea0c1ad82c86618
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZR-ASS.ANS by Zoltar (AWE Lettering); released in awe9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Asphyxiie
-# SAUCE Author: Zoltar
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970422
-# SAUCE Dimensions: 80x25
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Asphyxiie by Zoltar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9705-zr-ass
 
 Write-Host '
 [1;31;41m█████████████████▀▀▀██████▀▓▒▒░[0;31m█▀▀[0m     [36m▄▄▄  [0;1;37masphyxiie[0m          [1;37;41m  [0m

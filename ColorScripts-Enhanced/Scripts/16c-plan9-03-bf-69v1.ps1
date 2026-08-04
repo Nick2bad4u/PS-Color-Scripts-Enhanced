@@ -1,18 +1,4 @@
-﻿# Converted from: BF-69V1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plan9-03/raw/BF-69V1.ANS
-# Source Revision: archive-sha256:301e233671503dd7a10ff4a4cb6dda4f8763f8d72d90155c91788bf54f67e346
-# Source SHA-256: 63cd228504665a801c84ea8bd8c8de158c3e17eae9a7dcd52ca63592178dfeb0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BF-69V1.ANS by Boba Fett (READ THE INI FILE); released in plan9-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 69viewer interface!
-# SAUCE Author: Boba Fett
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19970213
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: 69viewer interface! by Boba Fett | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plan9-03-bf-69v1
 
 Write-Host '
 [1m░░[0m  [31m░░[0;1;37m    [0;31m▄▓▓██▄▄[0;1;37m  [0m [31m░░  [0m   [37m░plAn9''s..·[0m            [1;33m░░▒▒[0m

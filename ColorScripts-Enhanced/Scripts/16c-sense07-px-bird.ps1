@@ -1,13 +1,4 @@
-﻿# Converted from: PX-BIRD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense07/raw/PX-BIRD.ANS
-# Source Revision: archive-sha256:bee7f118bb6315a9d497ecd226e485abc5e73e41d8cf666fe91e2b03665a3b3e
-# Source SHA-256: abeba95fa447258f63fa6b49e8e4e347da222cbb7f05dbb0e9e19c9599a8a944
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PX-BIRD.ANS by Hexd (sense07); released in sense07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: PX-BIRD.ANS by Hexd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense07-px-bird
 
 Write-Host '
                                     [1m   [0m                        ▄▄▄[1m██[0;1;47m░▒[0;1;40m▄▄▄[0m

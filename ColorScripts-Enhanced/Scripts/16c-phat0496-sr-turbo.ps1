@@ -1,18 +1,4 @@
-﻿# Converted from: SR-TURBO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0496/raw/SR-TURBO.ANS
-# Source Revision: archive-sha256:5ae4d6e28137ce2dc98f037245eb1ab03ad078074d85d6b6a5b431dff5abf402
-# Source SHA-256: 798c5a4910b2af708a21528cfdc6e874fe79bb668ce944813814a4b5018084fb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SR-TURBO.ANS by skullrazor (phat productions '96); released in phat0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: turbo matrix
-# SAUCE Author: skullrazor
-# SAUCE Group: phat productions '96
-# SAUCE Date: 19960407
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: turbo matrix by skullrazor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0496-sr-turbo
 
 Write-Host '
 [1m  [0;31m8$$$$8[0m         [31m8$$$$$  $$$$$$ 8$$$$$ⁿ"8$$$$a 8$$$$$[0m         [31m.o$$$8""8$$$o.[0m

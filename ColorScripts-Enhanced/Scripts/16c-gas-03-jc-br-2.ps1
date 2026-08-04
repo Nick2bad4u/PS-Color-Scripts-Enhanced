@@ -1,18 +1,4 @@
-﻿# Converted from: JC-BR#2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gas-03/raw/JC-BR%232.ANS
-# Source Revision: archive-sha256:9d16ec2efa84f41f04a3a0885f1a55c15cbeef8d9963890c5d07d45f34a97b3b
-# Source SHA-256: a5bb745cae24665b168fbb553e517b340f133d5abc4fc31b5a011ca5febfa192
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JC-BR#2.ANS by juice (gas); released in gas-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: banana republic
-# SAUCE Author: juice
-# SAUCE Group: gas
-# SAUCE Date: 19960901
-# SAUCE Dimensions: 80x24
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: banana republic by juice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gas-03-jc-br-2
 
 Write-Host '
            [34m■[0m       [34m░▒░   ▀░  ■▄  ░ ░    [0;1;30m▄[0m     [34m░ ▀   ▄[0m      [34m░[0m          [34m░▒░    ░[0m

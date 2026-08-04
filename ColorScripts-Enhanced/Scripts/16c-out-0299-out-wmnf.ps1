@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-WMNF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0299/raw/OUT-WMNF.ANS
-# Source Revision: archive-sha256:3dc48aee0995040816ea7e0f9d3250ff0ef0c7623cbdfc413526427f2f931ac6
-# Source SHA-256: cd3ddb66bd73e770722ac261070fbbaaedf9430d95c0ef5623755fdccdcb5480
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-WMNF.ANS by Sandy Chidester (out-0299); released in out-0299 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: OUT-WMNF.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0299-out-wmnf
 
 Write-Host '
 [35m██[0;1;35;45m▒░░[0;35m██████▄ ▄▄████████████▄  ▄████▀[0;34m▄▀▄█▀▄█[0;44m ░[0;34m▄ ▀█ ▀▄▓█ ██ █[0;44m ░[0;34m██▄ ▀█[0;44m░[0;34m██▓▒░ ░▒▓[0;44m▒[0;34m██[0m

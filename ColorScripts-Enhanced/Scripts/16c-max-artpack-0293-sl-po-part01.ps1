@@ -1,13 +1,4 @@
-﻿# Converted from: SL-PO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/max_artpack_0293/raw/SL-PO.ANS
-# Source Revision: archive-sha256:4391b75bf8c657316d4174c3ede061bb559b411b88e61eb928831c9bafa580bd
-# Source SHA-256: 3ca252d01e779e887579384553cad644fe3472f018ba4264b8c0bb9ea7660646
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SL-PO.ANS by Slinger (max_artpack_0293); released in max_artpack_0293 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: SL-PO.ANS by Slinger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-max-artpack-0293-sl-po-part01
 
 Write-Host '
 [1;30m░░[0m           [1;30m▒▒▒▒▒▒▒░░░░░    ░░░░░░░░░[0m                           [1;30m░░░░░░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: BZ-JUVE.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-12/raw/BZ-JUVE.ICE
-# Source Revision: archive-sha256:03ccb24bebad343fffc4daed3f054ccd0ca265066fb8b4feff7bb3f469aac14e
-# Source SHA-256: f7028b5929e840c8f0523d046f0c09957a6723eeea0841a5a4f11276f5718e8c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BZ-JUVE.ICE by Beez (icepk-12); released in icepk-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 34-65
-# Columns: 1-80
+﻿# Artwork: BZ-JUVE.ICE by Beez | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-12-bz-juve-part02
 
 Write-Host '
 [37;41m──┴──┬[0;31;40m▄▄▄▄ [0;33;40m▀▓▓▓▓▓█████████████▓▓▓▓ [0;31;40m▒▒▒[0;37;41m┴──┬──┴──┬─[0;32;41m████[0;37;41m┬[0;32;41m███[0;37;41m─[0;32;41m██[0;37;41m──[0;32;41m████[0;37;41m──┴─[0;32;41m██[0;37;41m──┴─[0;32;41m█[0;37;41m┬─[0m

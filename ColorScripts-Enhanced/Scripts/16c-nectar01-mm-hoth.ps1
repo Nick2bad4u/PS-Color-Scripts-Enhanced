@@ -1,13 +1,4 @@
-﻿# Converted from: MM-HOTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nectar01/raw/MM-HOTH.ANS
-# Source Revision: archive-sha256:db3812836800ba5278d4a1a62edfe8d06c2001872f9fe3d1064cdbc02eec11ac
-# Source SHA-256: a7e9c4e476e0c83f46a1298a147f3a7bdf1140a47a22c350f2f4de7c0b280ebd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-HOTH.ANS by Magnetic M (nectar01); released in nectar01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: MM-HOTH.ANS by Magnetic M | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nectar01-mm-hoth
 
 Write-Host '
 [34m▄█████████████████████████▀▀█▀▀   [0;37m▄[0;1;37;47m▄[0;1;37;40m██  [0;34m▀▀▀▀▀  ████████████████████████████████[0m

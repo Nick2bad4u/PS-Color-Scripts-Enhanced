@@ -1,19 +1,4 @@
-﻿# Converted from: tk-jeroentel.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flashback-2019-demoparty/raw/tk-jeroentel.ans
-# Source Revision: archive-sha256:b738430cc4fe12cad7e057e3ab51a85dc09291bcdcb66f958a6a7bcc5184c5af
-# Source SHA-256: 932ba4d1d032ae786d1c450a8dad165703751c70319d0177e438584042600230
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tk-jeroentel.ans by The Knight (Fuel); released in flashback-2019-demoparty and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Jeroen Tel
-# SAUCE Author: The Knight
-# SAUCE Group: Fuel
-# SAUCE Date: 20190530
-# SAUCE Dimensions: 80x23
-# SAUCE Font: IBM VGA
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Jeroen Tel by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flashback-2019-demoparty-tk-jeroentel
 
 Write-Host '
 [37;40m   [0;1;32;40m▐█▀▀▀▀▀▀█▌[0m                                     [34m▄[0;1;34m▄▄██[0;1;34;46m▀[0;1;36;46m▄▄▄[0;1;34;46m▀▀▀▀[0;1;34;40m██▄[0;34m▄[0m

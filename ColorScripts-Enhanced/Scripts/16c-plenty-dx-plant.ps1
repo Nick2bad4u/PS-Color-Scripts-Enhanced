@@ -1,18 +1,4 @@
-﻿# Converted from: DX-PLANT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plenty/raw/DX-PLANT.ANS
-# Source Revision: raw-sha256:2041961c6ae0e8bf55ae5acf4fc21540524828f91140f71c9cd28175d1aeca1b
-# Source SHA-256: 2041961c6ae0e8bf55ae5acf4fc21540524828f91140f71c9cd28175d1aeca1b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DX-PLANT.ANS by dexter (dreampa|nters); released in plenty and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: motywy roslinne w poezji ;)
-# SAUCE Author: dexter
-# SAUCE Group: dreampa|nters
-# SAUCE Date: 20000120
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: motywy roslinne w poezji ;) by dexter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plenty-dx-plant
 
 Write-Host '
                       [1m▄[0;1;36m▄[0m

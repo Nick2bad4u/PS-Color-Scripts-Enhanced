@@ -1,19 +1,4 @@
-﻿# Converted from: tnt-hiAF.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2022a/raw/tnt-hiAF.ans
-# Source Revision: archive-sha256:aa1e39fd06599355da5658d291314408b50b00ff0dae48d6c4b5175aa3186f13
-# Source SHA-256: 854167f937c2e075e317355008a4152b69a6d736d4764f8e41e9b508ae4835f5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tnt-hiAF.ans by tainted (blocktronics); released in blndr2022a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: mindblender
-# SAUCE Author: tainted
-# SAUCE Group: blocktronics
-# SAUCE Date: 20220123
-# SAUCE Dimensions: 80x76
-# SAUCE Font: IBM VGA
-# Lines: 51-76
-# Columns: 1-80
+﻿# Artwork: mindblender by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2022a-tnt-hiaf-part02
 
 Write-Host '
 [1m ▄[0;1;47m▒▒[0;1;40m▀▀[0;1;47m▀[0;1;40m▄[0m ▀▄ ▄[1;30m▀ ▄[0m▌[1;30m█[0;1;30;47m▓▓[0m  ▒█[1;30;47m▐[0;1;30;40m▌▄▀[0m     [35m░░░░░░[0;37m  [0;1;37;45m▓[0m █[1;47m▓▓▒▒░░[0m▀▀[1;35m▄[0;35m▄▄▄▄▄[0;37m [0;35m▄[0;37m   [0;1;37m■[0m    [1m▀[0m

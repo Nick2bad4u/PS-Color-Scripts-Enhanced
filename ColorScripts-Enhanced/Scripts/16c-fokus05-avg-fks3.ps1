@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-FKS3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus05/raw/AVG-FKS3.ANS
-# Source Revision: archive-sha256:1aa3ba6c9bb069effe029f69af967419cb8dc77ae4501a5215ae43589435acd5
-# Source SHA-256: 54bec3f8037a32d08103437dff311b43b624e54311b119d1e9626d5c89aa64de
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-FKS3.ANS by Avenging angel (Fokus fonting); released in fokus05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Fokus Fonting
-# SAUCE Author: Avenging angel
-# SAUCE Group: Fokus fonting
-# SAUCE Date: 19990630
-# SAUCE Dimensions: 80x24
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Fokus Fonting by Avenging angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus05-avg-fks3
 
 Write-Host '
 [1m   [0m                                                       [32m ▄[0m

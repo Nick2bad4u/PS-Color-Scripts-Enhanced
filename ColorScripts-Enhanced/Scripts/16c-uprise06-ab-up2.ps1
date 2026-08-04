@@ -1,17 +1,4 @@
-﻿# Converted from: AB-UP2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise06/raw/AB-UP2.ANS
-# Source Revision: archive-sha256:62459159460ab7090ce349ed14c61a1bc8d3aa5785e22124741220f6b82d2ab8
-# Source SHA-256: f4946efd4b330d743f146786d7fb9a5b9c06fd07cd218753976bf89035994204
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AB-UP2.ANS by acid burn (uprise); released in uprise06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: uprise
-# SAUCE Author: acid burn
-# SAUCE Group: uprise
-# SAUCE Date: 19980728
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: uprise by acid burn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise06-ab-up2
 
 Write-Host '
 

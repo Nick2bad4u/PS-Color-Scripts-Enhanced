@@ -30,13 +30,13 @@ This module supports both **Windows PowerShell 5.1** and **PowerShell 7.x** acro
 
 ### ✅ What We Test
 
-| Platform | PowerShell version | Reason                                      |
-| -------- | ------------------ | ------------------------------------------- |
-| Windows  | 5.1 (Desktop)      | Minimum supported Windows PowerShell        |
-| Windows  | Current 7.x        | Runner-provided stable PowerShell           |
-| macOS    | Current 7.x        | Runner-provided stable PowerShell           |
-| Linux    | Current 7.x        | Runner-provided stable PowerShell           |
-| Linux    | Current preview    | Early compatibility with the next release   |
+| Platform | PowerShell version | Reason                                    |
+| -------- | ------------------ | ----------------------------------------- |
+| Windows  | 5.1 (Desktop)      | Minimum supported Windows PowerShell      |
+| Windows  | Current 7.x        | Runner-provided stable PowerShell         |
+| macOS    | Current 7.x        | Runner-provided stable PowerShell         |
+| Linux    | Current 7.x        | Runner-provided stable PowerShell         |
+| Linux    | Current preview    | Early compatibility with the next release |
 
 ### ❌ What We DON'T Test
 

@@ -1,18 +1,4 @@
-﻿# Converted from: DD-DW1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/misery01/raw/DD-DW1.ANS
-# Source Revision: archive-sha256:e802ebf512d2eb802f079fd327fff852b8c112992e81e4f15801eeb22870d111
-# Source SHA-256: aa036115688d7049f15e872a2398d24846d0c1820b66fd576312fdda44cdd611
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-DW1.ANS by Da Drug (Misery Productions.); released in misery01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Dark World/2.
-# SAUCE Author: Da Drug
-# SAUCE Group: Misery Productions.
-# SAUCE Date: 19970330
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Dark World/2. by Da Drug | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-misery01-dd-dw1
 
 Write-Host '
 

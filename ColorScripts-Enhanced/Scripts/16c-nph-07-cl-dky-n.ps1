@@ -1,18 +1,4 @@
-﻿# Converted from: CL&DKY-N.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-07/raw/CL%26DKY-N.ANS
-# Source Revision: archive-sha256:05b9134433837782e39338bf79fd6ada6d2fc8bfba82437f2c41c6bc37a6d75a
-# Source SHA-256: ce454267ead6a9d96cfcf8f77322f00f86a4cec53678a1e4165de2b219b4cb16
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL&DKY-N.ANS by Cleaner + Darky (Nitrophusion); released in nph-07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Nitrophusion
-# SAUCE Author: Cleaner & Darky'
-# SAUCE Group: Nitrophusion
-# SAUCE Date: 19981230
-# SAUCE Dimensions: 80x25
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Nitrophusion by Cleaner + Darky | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-07-cl-dky-n
 
 Write-Host '
 [30;44m                                                                                [0m

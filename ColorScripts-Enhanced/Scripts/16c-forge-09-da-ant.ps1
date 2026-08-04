@@ -1,18 +1,4 @@
-﻿# Converted from: DA-ANT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/forge_09/raw/DA-ANT.ANS
-# Source Revision: archive-sha256:d4616dfe119968c45cde426a6fd89403c94d7b3dbbcec3e05db02fd0c751bac7
-# Source SHA-256: 5e2a6d04fc9e23c0a77c343ec383b56c8826eb521bf31176617d647609e86f1b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DA-ANT.ANS by Dracula (Forge Productions); released in forge_09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Forge Logo #1
-# SAUCE Author: Dracula
-# SAUCE Group: Forge Productions
-# SAUCE Date: 19800102
-# SAUCE Dimensions: 80x47
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: Forge Logo #1 by Dracula | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-forge-09-da-ant
 
 Write-Host '
 [36m███████████████▓██████████[0;1;36;46m░[0;36m████[0;1;36;46m░[0;36m████████████████████████████████████████████████[0m

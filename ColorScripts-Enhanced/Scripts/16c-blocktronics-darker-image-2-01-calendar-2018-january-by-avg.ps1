@@ -1,18 +1,4 @@
-﻿# Converted from: _01_Calendar_2018_January_by_avg.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_darker_image_2/raw/_01_Calendar_2018_January_by_avg.ans
-# Source Revision: archive-sha256:7282b405cc52219ce7cf6cd9d097796f1b25fc898e4c29fdb9f37c375d595996
-# Source SHA-256: c4a06f97e4ebb442777d738f4a5fd682934227606ffae696ff90f700076f8261
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _01_Calendar_2018_January_by_avg.ans by avg (blocktronics); released in blocktronics_darker_image_2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: avg
-# SAUCE Group: blocktronics
-# SAUCE Date: 20170914
-# SAUCE Dimensions: 80x46
-# SAUCE Font: IBM VGA
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: _01_Calendar_2018_January_by_avg.ans by avg | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-darker-image-2-01-calendar-2018-january-by-avg
 
 Write-Host '
                   [34;40m▄▄▄ ▀▀██████████████████████████████████▄▄▄▄[0m

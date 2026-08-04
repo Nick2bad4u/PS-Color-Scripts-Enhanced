@@ -1,18 +1,4 @@
-﻿# Converted from: MF-RMRS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/basic-05/raw/MF-RMRS.ANS
-# Source Revision: archive-sha256:a2f68eccc2948d19a9df8c4fd26441b93a19bdc137d65564784937cd2559a252
-# Source SHA-256: ad540668a4b2f44469bdf7ae04b14f72ec1da399f844fc8980dc70a2f922c6fa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MF-RMRS.ANS by mortify (basic); released in basic-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: remorse
-# SAUCE Author: mortify
-# SAUCE Group: basic
-# SAUCE Date: 19970509
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: remorse by mortify | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-basic-05-mf-rmrs
 
 Write-Host '
 

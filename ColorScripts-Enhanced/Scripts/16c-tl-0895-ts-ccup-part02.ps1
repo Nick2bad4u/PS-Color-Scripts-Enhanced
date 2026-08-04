@@ -1,18 +1,4 @@
-﻿# Converted from: TS-CCUP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl-0895/raw/TS-CCUP.ANS
-# Source Revision: archive-sha256:0b35a2a81a1202ba6f6b78b0a57e188d424d92283753d873090d86c1f56ab413
-# Source SHA-256: ac3972bd84c7f87c4ee65d9bee68b8f188a75db2ac870632dcc293597bf70e31
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-CCUP.ANS by ts (Teklordz); released in tl-0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the Country Cupboard
-# SAUCE Author: ts
-# SAUCE Group: Teklordz
-# SAUCE Date: 19950719
-# SAUCE Dimensions: 80x67
-# Lines: 35-67
-# Columns: 1-80
+﻿# Artwork: the Country Cupboard by ts | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl-0895-ts-ccup-part02
 
 Write-Host '
 [33m [0;1;30m▀▀[0;1;30;43m▓▓▓▓[0;1;30;40m▄[0;33m [0;1;30m▀[0;1;30;43m▒░▒▒▓[0;1;30;40m▄[0;1;33;43m [0;33m▀[0;1;30;43m░░▒▒░  ░░[0;1;33;43m [0;1;30;43m░░▒▒▓▓[0;1;30;40m▀▀[0;33m ▄▄ ▀█[0;1;33;43m░░░ [0;33m█▄██[0;1;33;43m░[0;33m████████▀[0;1;33;43m░▒░[0;33m▀▀▀   ▀▀▀[0;37m  [0;1;30m▄[0m [30mts[0;37m [0;1;30m▄[0m

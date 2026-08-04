@@ -1,13 +1,4 @@
-﻿# Converted from: CD-TSD03.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tsd-2/raw/CD-TSD03.ANS
-# Source Revision: raw-sha256:ce83c9014aaff8b166700c38b8d49829c352a2b90731acc93127e73c70e81167
-# Source SHA-256: ce83c9014aaff8b166700c38b8d49829c352a2b90731acc93127e73c70e81167
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CD-TSD03.ANS by Drakula (tsd-2); released in tsd-2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: CD-TSD03.ANS by Drakula | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tsd-2-cd-tsd03-part01
 
 Write-Host '
 

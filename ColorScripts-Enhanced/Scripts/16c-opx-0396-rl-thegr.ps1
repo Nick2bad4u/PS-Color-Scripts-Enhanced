@@ -1,18 +1,4 @@
-﻿# Converted from: RL-THEGR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0396/raw/RL-THEGR.ANS
-# Source Revision: archive-sha256:8cd29f20ca0e9cb17c1100c76cb617825c92262f6ff8862ed793e9086f6dea43
-# Source SHA-256: fb710f03370a06f4566e4fb48e0f7d28dd79677f65daab060ec5f522aeb059e5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL-THEGR.ANS by Rawlock (Opium); released in opx-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Grinches Realm
-# SAUCE Author: Rawlock
-# SAUCE Group: Opium
-# SAUCE Date: 19960226
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: The Grinches Realm by Rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0396-rl-thegr
 
 Write-Host '
 [1;30m                [0m                                   [1;30m▓▀▀▀▀▀▀▓[0m [1;30m                [0m

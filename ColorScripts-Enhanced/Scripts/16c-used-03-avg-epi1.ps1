@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-EPI1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-03/raw/AVG-EPI1.ANS
-# Source Revision: archive-sha256:d2599b97a9288d8f82ddd62f9c4821cdc0d5105bf01763fad11be3b958d4ce10
-# Source SHA-256: 8c552c4661bcabbc9db352ba9b1c5e4bcd87d94dbdd4c57bf5d33173c32bdb94
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-EPI1.ANS by avenging angel (the used coalition); released in used-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: epic ansi
-# SAUCE Author: avenging angel
-# SAUCE Group: the used coalition
-# SAUCE Date: 20000129
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: epic ansi by avenging angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-03-avg-epi1
 
 Write-Host '
               [1;30m▄▄▄[0m

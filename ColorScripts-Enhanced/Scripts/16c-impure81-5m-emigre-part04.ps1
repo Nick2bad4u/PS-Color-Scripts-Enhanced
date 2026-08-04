@@ -1,19 +1,4 @@
-﻿# Converted from: 5m-emigre.ans
-# Source encoding: CP860
-# Source URL: https://16colo.rs/pack/impure81/raw/5m-emigre.ans
-# Source Revision: archive-sha256:5619da472b28f91a009ce4d644c47799e68cbe57a614b545a0e5dc5e5f7081e3
-# Source SHA-256: fc63cd5eba36a1a79a1e38c21de19a30f9a93dc3f58fccb72be6a71de2df6fd0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5m-emigre.ans by Smooth (iMPURE 1940); released in impure81 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: EMiGRE EMAG TRIBUTE
-# SAUCE Author: Smooth
-# SAUCE Group: iMPURE 1940
-# SAUCE Date: 20220129
-# SAUCE Dimensions: 80x167
-# SAUCE Font: IBM VGA 860
-# Lines: 151-167
-# Columns: 1-80
+﻿# Artwork: EMiGRE EMAG TRIBUTE by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure81-5m-emigre-part04
 
 Write-Host '
 [37m [0;38;2;0;89;89m▄▀▀[0m      [32m▄▓▓▒[0;37m    [0;1;34m█[0m  [33m█[0;38;2;255;128;0m░░░░    ░░░░[0m      [38;2;255;128;0m▓▓ ▀▀[0m         [1;38;2;234;168;96m ▐ [0m   [1;34m▓▒[0m [38;2;255;128;0m ▀███▓█▄ [0;37m [0;32m░[0;37m [0;38;2;0;89;89m▀▀▄[0m

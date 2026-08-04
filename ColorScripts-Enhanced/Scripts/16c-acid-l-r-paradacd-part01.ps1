@@ -1,13 +1,4 @@
-﻿# Converted from: PARADACD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acid_l-r/raw/PARADACD.ANS
-# Source Revision: archive-sha256:499c9b46916e1ae397884d58998fd5ed4387f783522347b660512aee3acb2ec0
-# Source SHA-256: dfcd4c5f1fc80442962e085812d7056e5170c5e20ab10df52819fb39176adf04
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PARADACD.ANS by Slam Dunk (acid_l-r); released in acid_l-r and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: PARADACD.ANS by Slam Dunk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acid-l-r-paradacd-part01
 
 Write-Host '
                             [34m▄▄▄▄▄▄[0;1;34;44m░░▒▒▓▓[0;1;34;40m██[0;1;34;44m▓▓▒[0;1;34;40m▄[0;34m▄▄▄▄[0m

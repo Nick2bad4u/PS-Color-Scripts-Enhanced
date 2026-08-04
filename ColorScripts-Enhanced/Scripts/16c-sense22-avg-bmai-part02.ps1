@@ -1,13 +1,4 @@
-﻿# Converted from: avg-bmai.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense22/raw/avg-bmai.ans
-# Source Revision: archive-sha256:bc85c11cf049f286319d708c3e5bf2f85a707ab661c6de2482c2260d25e40c5c
-# Source SHA-256: ebc3f5d9a7648e8ed94918c59df8d23fec7268f1b0b494cd8eba2d90a705b0f1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-bmai.ans by Avenging Angel (sense22); released in sense22 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 33-64
-# Columns: 1-80
+﻿# Artwork: avg-bmai.ans by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense22-avg-bmai-part02
 
 Write-Host '
             [1;30m▀█[0m [31m▀[0;1;31;41m▀[0;1;31;47m▄[0;1;31;41m█[0m [1;30;42m█  ▀[0;1;30;40m▄[0m  [1;30;43m  [0m    [1;30;47m▀[0;1;37;47m▒▒▒[0m [1;30;47m█[0;1;37;47m ███▒[0m [1;30m█[0;1;30;47m   ▄[0m▀[1;30m▀[0m [1;30m▄▄[0m  [1;30;42m██[0m [1;30;42m▒▒[0;1;30;40m▒[0;32m██[0m

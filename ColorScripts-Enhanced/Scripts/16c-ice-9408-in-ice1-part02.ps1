@@ -1,13 +1,4 @@
-﻿# Converted from: IN-ICE1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9408/raw/IN-ICE1.ICE
-# Source Revision: archive-sha256:fa8a4e27d9a185cd662254cdd4d5c7083c450d81415053054b7d17d8e404dca2
-# Source SHA-256: 25e52b44f9f80c98087223e8dbc3b7923bf740c7bc106b0c5bd64f49916bb343
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IN-ICE1.ICE by Incubus (ice-9408); released in ice-9408 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 37-63
-# Columns: 1-80
+﻿# Artwork: IN-ICE1.ICE by Incubus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9408-in-ice1-part02
 
 Write-Host '
 [1m  ▄[0;1;47m█▀▀[0m▀▀█▀[1;47m▀▀[0m▄

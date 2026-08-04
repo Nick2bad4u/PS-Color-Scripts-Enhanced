@@ -1,19 +1,4 @@
-﻿# Converted from: N-VOODOO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-38/raw/N-VOODOO.ANS
-# Source Revision: archive-sha256:be80154150e87c06a8a7199ad7b8d7442acd5427250f57c89a783b9de15c69d7
-# Source SHA-256: a347530e2483b97e03aa674aa85309c80b4c39e3675c4686b93f6725569ef23d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-VOODOO.ANS by nail (fire); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: voodoo club
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 20220726
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: voodoo club by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-38-n-voodoo
 
 Write-Host '
 [34;40m ▓▓██[0;37;40m   [0;34;40m▀▓  ▄▄███████▀▀▀▄▓▄[0;1;30;40m [0;34m▓▓▀▄█[0;1;30m  [0;34m█▀▀[0;37m    [0;33m▄▄▄▄[0;1;30m▄▄[0m

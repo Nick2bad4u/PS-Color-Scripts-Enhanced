@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-HOLE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/ZIR-HOLE.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: fc5b58ceb20d689b583d0387a39f192fb4aff66d3dee532d19e8a9ccfc5ad792
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-HOLE.ANS by zir (FiRE); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hole in the sky
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20241111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: "i've watched the dogs of war enjoying their feast. | i've seen the western world go down in the east. | the food of love became the greed of our time. | and now we're living on the profits of crime." | -- sabbath, 'hole in the sky'
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: hole in the sky by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-zir-hole
 
 Write-Host '
  [36m [0;37m               [0;36m [0;33m░░[0;1;31m [0;1;30m░░░[0;1;31m [0;1;30m░░░░░░░░░ ░░░░  ░░░░[0m   [1;30m░░░░░░░░░░░░ ░░░░[0;36m [0;37m   [0;36m [0;37m        [0;36m [0m

@@ -1,16 +1,4 @@
-﻿# Converted from: PP-ZIL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger10/raw/PP-ZIL1.ANS
-# Source Revision: archive-sha256:a84fd6d21030f26985899f91a956dceb5637b0b2cbc8b90ab0b918890b9e87cd
-# Source SHA-256: 54d0ed0181406ac038660c466d1eddf7beb2d6f0b7a711ddf964d10eb2c258f9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PP-ZIL1.ANS by pixel_pusher (anger); released in anger10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: zillion
-# SAUCE Author: pixel_pusher
-# SAUCE Group: anger
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: zillion by pixel_pusher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger10-pp-zil1
 
 Write-Host '
 [35m░░[0m                                                                 [35m  [0m         [35m░░[0m

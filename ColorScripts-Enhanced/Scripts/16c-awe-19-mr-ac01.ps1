@@ -1,18 +1,4 @@
-﻿# Converted from: MR-AC01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-19/raw/MR-AC01.ANS
-# Source Revision: archive-sha256:db429aaaa9cca2e4296dcb178b9b345b980b5c7d6fe930188ea53fede20ed269
-# Source SHA-256: 98c7da9c508138612ece395b56a31f52136289f9e95b0764c8043286aa522a79
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-AC01.ANS by Mr. Wrong (AWE Lettering); released in awe-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Astro City
-# SAUCE Author: Mr. Wrong
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981129
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Astro City by Mr. Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-19-mr-ac01
 
 Write-Host '
               [35m▀░▄[0m              [36m░[0;1;30m▄[0;1;36m [0;1;30m▀[0;1;36m               [0;1;30m [0m [35m░[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: DAROKIN-ANSIARTLOVE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/DAROKIN-ANSIARTLOVE.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: b5a16f78148bfb7046a1daabad536d5cfbbb45ad66e8d3aa7488b9325fad6e4a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DAROKIN-ANSIARTLOVE.ANS by darokin (Mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ANSI ART love
-# SAUCE Author: darokin
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241230
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ANSI ART love by darokin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-darokin-ansiartlove
 
 Write-Host '
                            [1;33m.........................[0m

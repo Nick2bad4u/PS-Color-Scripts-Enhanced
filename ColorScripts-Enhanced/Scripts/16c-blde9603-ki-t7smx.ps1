@@ -1,18 +1,4 @@
-﻿# Converted from: KI-T7SMX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9603/raw/KI-T7SMX.ANS
-# Source Revision: archive-sha256:f6d7d8628f8fd582effd93b8e838e75d5d9c5ee94417e33eb7b84c6b3ba37ea3
-# Source SHA-256: aeba1a7856669f87c6085248c34d88ead0c3b3679c7f3eb6033d805ef1181b85
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KI-T7SMX.ANS by kiwi (blade productions); released in blde9603 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the seventh sun
-# SAUCE Author: kiwi
-# SAUCE Group: blade productions
-# SAUCE Date: 19960218
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: the seventh sun by kiwi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9603-ki-t7smx
 
 Write-Host '
    [31m▀[0m          [31m▀▀▀[0;37m [0;31m▀▀▀▀▀▀▀█████████████████[0;1;33m▓█████████████████████████████████████[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: NM-CCI.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-12/raw/NM-CCI.ICE
-# Source Revision: archive-sha256:03ccb24bebad343fffc4daed3f054ccd0ca265066fb8b4feff7bb3f469aac14e
-# Source SHA-256: 368f5cf0a8519a851800542d6a13272f07b9be21b4659afad3c8cc8df2606ff6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NM-CCI.ICE by The Necromancer (icepk-12); released in icepk-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 39-73
-# Columns: 1-80
+﻿# Artwork: NM-CCI.ICE by The Necromancer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-12-nm-cci-part02
 
 Write-Host '
 [1;30;40m██ [0;1;30;44m            [0;34m▓▒░[0m                                            [34m░▒▓[0;34;44m           [0m [37;40m█[0;1;30;40m█[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: DD-DEATH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe02/raw/DD-DEATH.ANS
-# Source Revision: archive-sha256:ce5cd736ecea3fcfef2c1df40ab4bdd995f6b633f97f1788244355f98c5d174e
-# Source SHA-256: 771696d15b5ee121cda485d21cb3fc4d20d35f7cb4c0ec5f753b3c2902672bfa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-DEATH.ANS by Diamond Darrell (Circe); released in circe02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: death star
-# SAUCE Author: Diamond Darrell
-# SAUCE Group: Circe
-# SAUCE Date: 19971110
-# SAUCE Dimensions: 80x33
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: death star by Diamond Darrell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe02-dd-death
 
 Write-Host '
       [34m▀▀▀▀▓▓▓[0;1;34;44m▀▀▀▀[0;1;34;40m█████████[0;1;34;47m▓[0;1;34;40m█[0;1;34;47m▓▓▓▒▒░░▒▒▓▓▓▓[0;1;34;40m█[0;1;34;47m▓[0;1;34;40m████[0;1;34;44m▀▀▀▀[0;1;34;40m█████[0;1;34;44m▀▀▀▀▀[0;1;34;40m███[0;1;34;47m██[0;1;34;40m█[0;1;34;44m▀▀[0;34m██▀▀▀▀[0;1;34m [0;34m▀[0m

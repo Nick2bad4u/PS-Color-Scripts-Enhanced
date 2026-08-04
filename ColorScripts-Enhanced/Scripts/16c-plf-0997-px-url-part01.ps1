@@ -1,18 +1,4 @@
-﻿# Converted from: PX-URL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0997/raw/PX-URL.ANS
-# Source Revision: archive-sha256:d6ce507ee095ab9c7ce1d91178b57bff0c61babde42a3957415461a430e18407
-# Source SHA-256: 587a273b849b9860a78e8353d2b2747c5e4d0fd557703242006822ade9d01901
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PX-URL.ANS by perplexer (poffelipoff); released in plf-0997 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: free weed
-# SAUCE Author: perplexer
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19970913
-# SAUCE Dimensions: 80x255
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: free weed by perplexer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0997-px-url-part01
 
 Write-Host '
 [1;33m [0;33mp[0;1;37;43mX[0;33m!      ▐███▄▐[0;1;31;43m▐██[0;1;31;47m▓[0;1;31;43m███▄▄▄░░[0;33m█▀▀▀[0;1;31;43m▀▀███[0;1;31;47m▓▓[0;1;31;43m███▌[0;33m░  ▐[0;1;31;43m█▄[0;33m▄▓▄  [0;34m▀▐██▄ ░        ▄█████████[0;30m•[0m

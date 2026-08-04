@@ -1,19 +1,4 @@
-﻿# Converted from: rad2m-HOTMESS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_acid_trip/raw/rad2m-HOTMESS.ANS
-# Source Revision: archive-sha256:c0717ff5cb7d462ed7fa9a55edd7235adbd3f09e01132486021497c9281171b6
-# Source SHA-256: c13b305655792833a8c6336815227b490f70517b8704517d2246fe6fcd1e372d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: rad2m-HOTMESS.ANS by Radman + Mattmatthew (ACiD Productions); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: d1st (hot mess)
-# SAUCE Author: RaD Man, mattmatthew
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x46
-# SAUCE Font: IBM VGA
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: d1st (hot mess) by Radman + Mattmatthew | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-acid-trip-rad2m-hotmess
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: SS-FAIL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eden0395/raw/SS-FAIL1.ANS
-# Source Revision: archive-sha256:b50ec2025fefd1c1874e410a097c06c1217ac744b10fe4d46fa9c39c47156ae2
-# Source SHA-256: 0293561b73a9d48f272a399686dfe8b2c5d845d352f62f2be15c3048b52b32b1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SS-FAIL1.ANS by saint sinner (eden!); released in eden0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: failure
-# SAUCE Author: saint sinner
-# SAUCE Group: eden!
-# SAUCE Date: 19950312
-# SAUCE Dimensions: 80x125
-# Lines: 85-125
-# Columns: 1-80
+﻿# Artwork: failure by saint sinner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eden0395-ss-fail1-part03
 
 Write-Host '
 [31m█▄[0m [31m███[0;1;30m [0;31m [0m  [31m▀▀█▄[0m [31m███[0;37;41m          [0;31;40m███▄[0m [31;40m███████[0;1;31;41m▄██[0;31m█ ▄████████████████▓[0m [31m██████[0;1;31;41m▀[0;31m█[0;1;31;41m■▄▀█[0;31m█ ▄█[0m

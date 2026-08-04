@@ -1,19 +1,4 @@
-﻿# Converted from: wa-thelook.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz11/raw/wa-thelook.ans
-# Source Revision: archive-sha256:68621cb5db58e1d89f5deb5798f3990fa932a6b4eb91cc1511f3f4c157d26f38
-# Source SHA-256: 0b8063c54ab50ccd2b9b49ddf52db3efde1ab71da244d5ec33ede92c0b7e01fe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-thelook.ans by warpus (LAZARUS); released in laz11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Look
-# SAUCE Author: warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20200615
-# SAUCE Dimensions: 80x87
-# SAUCE Font: IBM VGA
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: The Look by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz11-wa-thelook-part01
 
 Write-Host '
 

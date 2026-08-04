@@ -1,19 +1,4 @@
-﻿# Converted from: tk-amish.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel28/raw/tk-amish.ans
-# Source Revision: archive-sha256:f19d9f1f4d98a894d9a58a43443858287108d50e702695e0859df539776cf44a
-# Source SHA-256: af8476847f10500c664e02789d6a982bef3a8152a5b58ccc2a3527329b81f17e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tk-amish.ans by the knight (Fuel); released in fuel28 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Amish Hands
-# SAUCE Author: the knight
-# SAUCE Group: Fuel
-# SAUCE Date: 20181121
-# SAUCE Dimensions: 80x136
-# SAUCE Font: IBM VGA
-# Lines: 46-91
-# Columns: 1-80
+﻿# Artwork: Amish Hands by the knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel28-tk-amish-part02
 
 Write-Host '
                     [1;31m▄▄▀▀██[0;1;31;47m▓▓▓[0;1;31;40m██████[0;1;31;47m▓▒▓[0;1;31;43m▓[0m ██████[1;47m░░░░▓▓[0;1;40m▀[0m [1m ▄▄  ████▌[0m █[1;47m░[0;1;40m▄[0m

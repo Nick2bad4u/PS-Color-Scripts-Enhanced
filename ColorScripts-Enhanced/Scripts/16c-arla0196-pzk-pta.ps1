@@ -1,16 +1,4 @@
-﻿# Converted from: PZK-PTA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/arla0196/raw/PZK-PTA.ANS
-# Source Revision: archive-sha256:8a35d2bb39c2faca15c1fb2bebf77416e369d3cea398837e490885a2a237f536
-# Source SHA-256: 611ce7f0d4b2e150e9c22d36bf08bf5e6c9ccdb9c1e6ef23d5031b70ebc44f44
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PZK-PTA.ANS by pzyko (aRla); released in arla0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: perfecttradingalliance
-# SAUCE Author: pzyko
-# SAUCE Group: aRla
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: perfecttradingalliance by pzyko | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-arla0196-pzk-pta
 
 Write-Host '
 

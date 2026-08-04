@@ -1,18 +1,4 @@
-﻿# Converted from: D1-TWST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/idle-03/raw/D1-TWST.ANS
-# Source Revision: archive-sha256:de0b9b28f255e1cb9ab562a1ef9b6f1152dc7f06e952e19862071341f6d6c4c3
-# Source SHA-256: 3dcca4e11412909f2650c43505596b2e0ce42e7ae6fc05ae4e0bd783b7a6b955
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D1-TWST.ANS by Digo + Dissonance (idle); released in idle-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: twisted?!
-# SAUCE Author: digo
-# SAUCE Group: idle
-# SAUCE Date: 19961002
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: twisted?! by Digo + Dissonance | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-idle-03-d1-twst
 
 Write-Host '
                                     [1m▄▄▄[0m

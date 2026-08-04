@@ -1,18 +1,4 @@
-﻿# Converted from: NOH-BLK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0397/raw/NOH-BLK.ANS
-# Source Revision: archive-sha256:dbc842066d628a57d7819da260b477c6ec1e4d0ba1a7d08ba504501e875a1ea3
-# Source SHA-256: c47b8bde2e913b656eccd5a779274d250944d312648ecfae81a5910f8af5656f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-BLK.ANS by nOah! (Bamboosh); released in bmb-0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: black sun
-# SAUCE Author: nOah!
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19970311
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: black sun by nOah! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0397-noh-blk
 
 Write-Host '
 

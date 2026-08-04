@@ -1,18 +1,4 @@
-﻿# Converted from: FZ-ORIG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise07/raw/FZ-ORIG.ANS
-# Source Revision: archive-sha256:e9fb6933d41a936134d4f2611eadee07355a10c1a02cff6221e1c572c3d24d6d
-# Source SHA-256: 2107f373f282bbb3c341c9ec778e3edd8dc1998bb615aebde9f9489f89bd565e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FZ-ORIG.ANS by frozen (none); released in uprise07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: . . original??!? . .
-# SAUCE Author: frozen
-# SAUCE Group: none
-# SAUCE Date: 19980820
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: . . original??!? . . by frozen | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise07-fz-orig
 
 Write-Host '
 [33m██▌[0;37m [0;1;30m░[0m     [33m▐█[0;1;31;43m▒[0;1;31;40m█ [0;1;30;40m░[0m   [33m▐[0;1;31;43m▒[0;1;31;40m████████████████████████████████████▌[0;30m [0;1;30m░[0;30m   [0;33m▐[0;1;31;43m▒░░[0m [1;31m  [0;1;30m░[0;1;31m     [0;36m [0;33m▀█[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: MH!BOOM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/arsin02/raw/MH!BOOM.ANS
-# Source Revision: archive-sha256:8b3ca93f9d07119d47150f846bba6e8cd466371f5d81106c3318f874455ab21e
-# Source SHA-256: 3261987cdd0473b9d98aee396302177e9376397d5590a246453a30bef738c0cc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MH!BOOM.ANS by Maddog Hoek (arsin02); released in arsin02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: MH!BOOM.ANS by Maddog Hoek | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-arsin02-mh-boom
 
 Write-Host '
   [1;31;41m▓▓[0m          [1;31;41m▓▓[0m          [1;31;41m▓▓[0m          [1;31;41m▓▓[0m          [1;31;41m▓▓[0m          [1;31;41m▓▓[0m          [1;31;41m▓▓[0m

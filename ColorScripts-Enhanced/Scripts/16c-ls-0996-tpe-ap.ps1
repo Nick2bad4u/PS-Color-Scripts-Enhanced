@@ -1,18 +1,4 @@
-﻿# Converted from: TPE-AP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ls-0996/raw/TPE-AP.ANS
-# Source Revision: archive-sha256:6630c6d0a9b4df765e120f90c454a35df3f880cc9703a20738fa40c8ddab694c
-# Source SHA-256: bd48a33380e8273cbc58156e81f7bae94386fa341793fb4f61110b1b52af2291
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TPE-AP.ANS by the platinum eagle (leper society); released in ls-0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: acid plegm (with a crappy m)
-# SAUCE Author: the platinum eagle
-# SAUCE Group: leper society
-# SAUCE Date: 19960914
-# SAUCE Dimensions: 80x28
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: acid plegm (with a crappy m) by the platinum eagle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ls-0996-tpe-ap
 
 Write-Host '
                                                            [1;34m,a[0;1;36mA,[0m

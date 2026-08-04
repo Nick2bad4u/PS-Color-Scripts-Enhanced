@@ -1,19 +1,4 @@
-﻿# Converted from: 5m-force9.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-002/raw/5m-force9.ans
-# Source Revision: archive-sha256:035806f627526bbca92fb6becafc359d23b231b3ea478b7169ed62b6d2a1cc54
-# Source SHA-256: 8880cf9dffa405f4b37d1a8dd45f8ab6f8329ce3a43811b5d2b16591aa50290e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5m-force9.ans by Smooth (Legacy Krew); released in lgcy-002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Force 9 BBS
-# SAUCE Author: Smooth
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20200512
-# SAUCE Dimensions: 80x165
-# SAUCE Font: IBM VGA
-# Lines: 83-122
-# Columns: 1-80
+﻿# Artwork: Force 9 BBS by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-002-5m-force9-part03
 
 Write-Host '
 [1;30m▄[0;35m▄▄[0;36m░[0;37m [0;36m░░░░[0;37m [0;1;37m1[0m0▒[34m▓[0;1;33m▒[0m  [1m1[0m0[1;30m10[0;36m █[0;1;36;46m▓▓░[0;1;31;40m█[0;1;31;43m█[0;1;31;46m▄▄▄▄[0;1;31;43m████[0;1;31;40m█████████[0;1;31;43m████[0;1;31;46m▄▄▄▄[0;1;31;43m█[0;1;31;40m█[0;1;36;46m░▓▓[0;36m [0;1;30m01[0m0[1m1[0m  [1;33m▒[0m ▒0[1m1[0m [36m░░░░[0;37m [0;36m░[0;35m ▀[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: K1-TISX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-04/raw/K1-TISX.ANS
-# Source Revision: archive-sha256:1dcdf112160ec589150680778cd449e8af485dfba89bb104c44cd133db2d6fc0
-# Source SHA-256: 9bbaf0954efceb659f03e670add0ce1022ed42c18ed5900d05f113b33789275f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K1-TISX.ANS by knocturnal (used); released in used-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Trance Induced
-# SAUCE Author: knocturnal
-# SAUCE Group: used
-# SAUCE Date: 20000211
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Trance Induced by knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-04-k1-tisx
 
 Write-Host '
  [33m██[0;1;33;43m    [0;33m██████[0;37m  [0;1;33;43m [0;33m█[0;1;33m░░░[0m  [35m▓▓▓▓[0;37m [0;33m █[0;1;33;43m▒▒▒[0;33m█[0;37m         [0;33m █[0;1;33m▓▓▒[0;33m█[0m     [37m [0;35m▄[0;37m [0;35m▀[0;37m [0;33m▒▒▒▒▒▒[0m    [33m▒▒▒▒[0;37m [0;35m▬[0;37m [0;33m▒▒▒▒[0m

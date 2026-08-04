@@ -1,18 +1,4 @@
-﻿# Converted from: FI-HG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fear1194/raw/FI-HG.ANS
-# Source Revision: archive-sha256:f054d0bb154b653e223e56e77201cae8362bfb38bbbede42a20fa8c74f2102fe
-# Source SHA-256: 1c2284fa3b58c8fe9951c6033794127274c8a89077becd4228ae2e9c8a6bb540
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FI-HG.ANS by Future Imperfect ([FEAR]); released in fear1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Heaven's Gate
-# SAUCE Author: Future Imperfect
-# SAUCE Group: [FEAR]
-# SAUCE Date: 19941104
-# SAUCE Dimensions: 80x153
-# Lines: 118-153
-# Columns: 1-80
+﻿# Artwork: Heaven's Gate by Future Imperfect | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fear1194-fi-hg-part04
 
 Write-Host '
                          [1m║    [0;1;30m▐██[0m▌

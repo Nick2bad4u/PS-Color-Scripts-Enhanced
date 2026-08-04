@@ -1,17 +1,4 @@
-﻿# Converted from: DD-SALT3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/misery01/raw/DD-SALT3.ANS
-# Source Revision: archive-sha256:e802ebf512d2eb802f079fd327fff852b8c112992e81e4f15801eeb22870d111
-# Source SHA-256: 1e5c921577094296d85edd41909e9ea5b175d23cbd2410880a458e85bdbb4333
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-SALT3.ANS by Da Drug (Misery Productions.); released in misery01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Salt.
-# SAUCE Author: Da Drug
-# SAUCE Group: Misery Productions.
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Salt. by Da Drug | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-misery01-dd-salt3
 
 Write-Host '
                            [35m▄▄[0;1;34;45m▄[0;35m██▄▄[0m                                           [32m▄▄▄[0m

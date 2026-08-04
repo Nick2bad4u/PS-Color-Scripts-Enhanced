@@ -1,13 +1,4 @@
-﻿# Converted from: TT-WOLF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-t/raw/TT-WOLF.ANS
-# Source Revision: archive-sha256:1bd05509d0b9d3fd95988cf79c4eba55d4c815a1c253a90ba1bc1e221ff0e0f8
-# Source SHA-256: c274ed16de019411632bd5f6b36d857d91a64c3492358a3d298a2c29ad333077
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TT-WOLF.ANS by Tempus Thales (ansis-t); released in ansis-t and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: TT-WOLF.ANS by Tempus Thales | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-t-tt-wolf
 
 Write-Host '
             [1;30m▄▄[0m                  [1;30m▄▄[0m              [1;37mA[0mn[1;30msi[0m b[1;30my[0m                [34m▄▄▄▄[0m

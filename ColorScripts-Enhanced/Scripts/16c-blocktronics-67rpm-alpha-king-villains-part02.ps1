@@ -1,20 +1,4 @@
-﻿# Converted from: alpha_king-villains.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-67rpm/raw/alpha_king-villains.ans
-# Source Revision: archive-sha256:3bbf9039f3766954a270bac124a42d38fcc9fc482243f18bf40e3eb60d3ca1ae
-# Source SHA-256: 56e98d272d253cc0d0eee05d0be01d1d035259e99daa8161596f912c2e9f7042
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: alpha_king-villains.ans by Alpha King (Blocktronics); released in blocktronics-67rpm and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Villians
-# SAUCE Author: Alpha King
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20171211
-# SAUCE Dimensions: 80x100
-# SAUCE Font: IBM VGA
-# SAUCE Comments: QOTSA
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Villians by Alpha King | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-67rpm-alpha-king-villains-part02
 
 Write-Host '
 [1;37m██████████████████[0;1;37;41m▄[0;1;31;41m▀██▀[0;31m▓ [0;30m▒▒[0;36m▄[0;1;36m▀▀▀[0;30m▒▒▒[0;36m█[0;30m▒[0;1;33m░▒▓[0;1;33;43m██████████████[0;1;33;40m▀[0;1;37;40m▄[0;1;37;47m▓▓[0;1;37;40m███████▌██▀▌▌[0;1;37;46m▒[0;1;37;40m▌▓▌[0;1;37;46m▒[0;36m▓[0;1;37m▌[0;1;37;46m▒▒[0;1;37;40m▐[0m

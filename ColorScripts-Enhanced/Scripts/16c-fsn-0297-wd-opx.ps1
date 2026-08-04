@@ -1,17 +1,4 @@
-﻿# Converted from: WD-OPX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0297/raw/WD-OPX.ANS
-# Source Revision: archive-sha256:d5e6767ccf66425c243bc55fc2b60157e4842e0dca350575e42372c154569008
-# Source SHA-256: 098571f2dcc318bce7dd3a3bb965201d8ffb089bbe69d2cebccf0f79a0245447
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WD-OPX.ANS by weirdo (fusion); released in fsn-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: opium
-# SAUCE Author: weirdo
-# SAUCE Group: fusion
-# SAUCE Dimensions: 80x25
-# Lines: 1-12
-# Columns: 1-80
+﻿# Artwork: opium by weirdo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0297-wd-opx
 
 Write-Host '
                                [1;33m▄[0m     [1;33m░[0m             [32m▄▄ [0m

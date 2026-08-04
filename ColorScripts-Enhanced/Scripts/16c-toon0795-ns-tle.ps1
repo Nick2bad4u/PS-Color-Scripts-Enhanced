@@ -1,18 +1,4 @@
-﻿# Converted from: NS-TLE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toon0795/raw/NS-TLE.ANS
-# Source Revision: archive-sha256:bbccc4a82016f54ecf3d0de5a108241c8f74bda668aff69f0bedbbe0a900b9a1
-# Source SHA-256: 3acdaab39bc6b7abe6efa4efeeee4a0add79b6164f08e210678dcd785cd3bd69
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NS-TLE.ANS by New School (Toon); released in toon0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Lost Empire
-# SAUCE Author: New School
-# SAUCE Group: Toon
-# SAUCE Date: 19950628
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: The Lost Empire by New School | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toon0795-ns-tle
 
 Write-Host '
 [36m████████████████████████████████████████████████████████████████████████████████[0m

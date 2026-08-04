@@ -1,19 +1,4 @@
-﻿# Converted from: avg-328.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna03/raw/avg-328.ans
-# Source Revision: archive-sha256:997aaab655669129eb266c21ca0c4588b603e11c90338498bb530f8bba390fb2
-# Source SHA-256: 95446ba93da7d1b3cc62c9e182e118c2ea9eac198d72a01ca23c234299a08acb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-328.ans by avg (sauna); released in thesauna03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: 328
-# SAUCE Author: avg
-# SAUCE Group: sauna
-# SAUCE Date: 20210405
-# SAUCE Dimensions: 80x14
-# SAUCE Font: IBM VGA
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: 328 by avg | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna03-avg-328
 
 Write-Host '
 

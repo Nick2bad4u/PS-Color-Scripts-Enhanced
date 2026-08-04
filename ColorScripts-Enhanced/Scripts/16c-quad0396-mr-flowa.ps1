@@ -1,18 +1,4 @@
-﻿# Converted from: MR-FLOWA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0396/raw/MR-FLOWA.ANS
-# Source Revision: archive-sha256:f085ca3cf6d75985ae759e60a340bcc124fb43ad553f80bec492b8b584ca4713
-# Source SHA-256: 51745fb14ae2cb713738410dd26cf2621bda45305bf72dd676a17c9570ab6847
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-FLOWA.ANS by Mithrandir (quad-p); released in quad0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: It's a flowa bitch!
-# SAUCE Author: Mithrandir
-# SAUCE Group: quad-p
-# SAUCE Date: 19960213
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: It's a flowa bitch! by Mithrandir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0396-mr-flowa
 
 Write-Host '
                      [1;34;44m░[0;34m▀▀█▀███▀█[0;1;34;44m▀[0;34m█[0;1;34;44m░[0;34m█████[0;1;34;44m▀[0;34m████[0;1;34;44m▀[0;34m██[0;1;34;44m▀[0;34m██[0;1;34;44m▀▀ ▀▀[0;34m█[0;1;34;44m▀█[0;1;34;40m█[0m

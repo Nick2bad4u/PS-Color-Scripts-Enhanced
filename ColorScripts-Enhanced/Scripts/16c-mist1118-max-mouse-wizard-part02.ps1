@@ -1,19 +1,4 @@
-﻿# Converted from: MAX_MOUSE-WIZARD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1118/raw/MAX_MOUSE-WIZARD.ANS
-# Source Revision: archive-sha256:18668a97cce7635dd3e912e13eeb2dc6b239cc1ad417674cad21367b3edefe67
-# Source SHA-256: 85264ddea3e85423d584c3a7f0c87b0f8b9cde19428e71e11719693f1b23525f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MAX_MOUSE-WIZARD.ANS by Max Mouse (Mistigris); released in mist1118 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Wizard
-# SAUCE Author: Max Mouse
-# SAUCE Group: Mistigris
-# SAUCE Date: 20180526
-# SAUCE Dimensions: 80x57
-# SAUCE Font: IBM VGA
-# Lines: 27-57
-# Columns: 1-80
+﻿# Artwork: Wizard by Max Mouse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1118-max-mouse-wizard-part02
 
 Write-Host '
 [33m    [0;31m▀[0;33m▀[0;33;41m▄[0;33;40m■[0;31;40m▄▒▀[0;1;31;43m_[0;1;33;43m▄[0;1;31;43m▄[0;31;43m▀▀[0;33;40m█▄[0;31;40m░▐[0;33;40m█▒[0;33;41m▓█[0;1;33;43m█[0;1;33;40m█[0;1;31;43m_[0;33m██[0;1;31;43m▄[0;1;33;43m░[0;1;31;43m▄[0;33m███[0;33;41m▓[0;1;33;43m█[0;33m▓[0;33;41m▀[0;31;40m▄[0m        [35;40m▬[0m     [1;32;40m_[0m           [31m [0;1;33m [0;31m   [0;1;31;41m▐▓▀[0m

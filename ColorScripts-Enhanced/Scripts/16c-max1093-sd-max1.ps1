@@ -1,13 +1,4 @@
-﻿# Converted from: SD-MAX1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/max1093/raw/SD-MAX1.ANS
-# Source Revision: archive-sha256:0eadf465f7f0bbeed36d224f251caefa5855eb8e01542512b98e8cde9ca3573c
-# Source SHA-256: ac630d1fbc7d460415eb58cf1e891b3f94509b1e29f50044efb033416b1a1aa2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-MAX1.ANS by Snow Dog (max1093); released in max1093 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: SD-MAX1.ANS by Snow Dog | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-max1093-sd-max1
 
 Write-Host '
                                    [34m▌[0m

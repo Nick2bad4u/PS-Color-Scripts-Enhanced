@@ -1,19 +1,4 @@
-﻿# Converted from: _xmas_zii-baub.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_miracle_on_67th_street/raw/_xmas_zii-baub.ans
-# Source Revision: archive-sha256:7a78b3edd176c6d05feb481522f2c4f3e57721df62292c2b4ce537e855c41ae8
-# Source SHA-256: c9a9e14fc246d4426ae682ad0352d8bdb9eab91ed2568c11e42a6299c71cd9ce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _xmas_zii-baub.ans by Zeus II (Blocktronics); released in blocktronics_miracle_on_67th_street and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Christmas Bauble 2018
-# SAUCE Author: Zeus II
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20181125
-# SAUCE Dimensions: 80x58
-# SAUCE Font: IBM VGA
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Christmas Bauble 2018 by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-miracle-on-67th-street-xmas-zii-baub-part01
 
 Write-Host '
 [37;40m    [0;1;30;40m▄▄  ▄[0m [32m▀▀▀▄[0;1;30;42m▀▀[0;1;30;47m█[0;1;30;42m▄[0;32m▀[0;1;30;42m [0;32m▄[0;1;30;42m▄▄▀▀[0;1;30;40m▀[0;32m▀▄▄▄▀[0;31m ▓▌ █[0;1;31;41m▄[0;31m█[0;37m    [0;1;30m▀▀▀▄▄ ▀▄▄██▀[0;1;30;47m█[0;1;30;40m▀█ [0;32m▄▄▄▄▄▄▄   ▄█ █ ▀█[0m

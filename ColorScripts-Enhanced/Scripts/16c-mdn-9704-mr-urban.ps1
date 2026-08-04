@@ -1,18 +1,4 @@
-﻿# Converted from: MR-URBAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9704/raw/MR-URBAN.ANS
-# Source Revision: archive-sha256:f29d1a72731ce9383841840bc86b0749ff1457d1c25c6a64baa5adfdac9e6943
-# Source SHA-256: 1aa3f1f775871f6afba76618ee14bc7cfd1778785f4fd684cc4fb71b610c0fce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-URBAN.ANS by minotaur (mAidEN bRAZil); released in mdn-9704 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: urban magick logo
-# SAUCE Author: minotaur
-# SAUCE Group: mAidEN bRAZil
-# SAUCE Date: 19970308
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: urban magick logo by minotaur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9704-mr-urban
 
 Write-Host '
 

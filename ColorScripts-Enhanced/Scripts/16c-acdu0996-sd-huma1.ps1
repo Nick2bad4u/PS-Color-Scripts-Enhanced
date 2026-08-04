@@ -1,18 +1,4 @@
-﻿# Converted from: SD-HUMA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0996/raw/SD-HUMA1.ANS
-# Source Revision: archive-sha256:28df6d6ebb426351f7b23fe6f583a998e03c4447a46d1ae63d7f7aa63a80eb5d
-# Source SHA-256: fcdf5a296220c29fdd4d5a847c19a6da0e6b85727f7434084de68761dee5bb76
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-HUMA1.ANS by sir death (eclipse); released in acdu0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: huma
-# SAUCE Author: sir death
-# SAUCE Group: eclipse
-# SAUCE Date: 19960902
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: huma by sir death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0996-sd-huma1
 
 Write-Host '
                     [35m▄[0;1;35;45m▄[0;35m▄[0m

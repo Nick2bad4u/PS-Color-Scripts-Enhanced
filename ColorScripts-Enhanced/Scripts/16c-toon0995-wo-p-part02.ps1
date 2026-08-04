@@ -1,18 +1,4 @@
-﻿# Converted from: WO-P.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toon0995/raw/WO-P.ANS
-# Source Revision: archive-sha256:02c0858ccb65f788003d1baa20212382f5d5979442b6fda9c8793eaaadf48a11
-# Source SHA-256: 2a8225f429ce1e30f6b4942e4a377ed0e8d938289d468546680133269b617375
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WO-P.ANS by watOr (toon); released in toon0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: prophecy ad
-# SAUCE Author: watOr
-# SAUCE Group: toon
-# SAUCE Date: 19950823
-# SAUCE Dimensions: 80x115
-# Lines: 47-92
-# Columns: 1-80
+﻿# Artwork: prophecy ad by watOr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toon0995-wo-p-part02
 
 Write-Host '
 [1;34m█[0;35m ▌ [0m                 [1;37m [0m▄▄[1;47m▄▄█[0;1;40m███████████[0;1;47m▌[0;1;40m███████████████████[0;1;47m█▌[0m▌[35m▐████[0;1;34m █████████████[0m

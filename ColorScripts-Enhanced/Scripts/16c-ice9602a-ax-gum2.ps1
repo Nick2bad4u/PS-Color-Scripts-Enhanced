@@ -1,18 +1,4 @@
-﻿# Converted from: AX-GUM2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9602a/raw/AX-GUM2.ICE
-# Source Revision: archive-sha256:a7cb032b47574ac80269aea88d994085abecd77228955f55ef8d0e5338bc0184
-# Source SHA-256: 6f656a9996ad856a8bfeb37692140f2f87c764657799f9c69045741b5700086e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AX-GUM2.ICE by Apox (iCE Advertisements); released in ice9602a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Gum
-# SAUCE Author: Apox
-# SAUCE Group: iCE Advertisements
-# SAUCE Date: 19960301
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: Gum by Apox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9602a-ax-gum2
 
 Write-Host '
  [34m [0m          [37m  [0;1;37m▄▄▄▄▄▄▄▄▄░[0m                    [1m░[0m   [1m░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: KK-GODMX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thst0895/raw/KK-GODMX.ANS
-# Source Revision: archive-sha256:93911a377da69cfcde0000e470e3a7eca787ca62b80e55b7c1e6e49b8b7b8d71
-# Source SHA-256: 52957d1ee602a2202c0c01b4c0c07fbb3acb28114172f84d8f61d522e9df0a55
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KK-GODMX.ANS by Kamikaze (thst0895); released in thst0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: KK-GODMX.ANS by Kamikaze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thst0895-kk-godmx
 
 Write-Host '
            [1;30m▄▄▄[0m        [1;30m▄▄▄[0m                     [32m▄▄▀▀▀▄ ██▓░[0m

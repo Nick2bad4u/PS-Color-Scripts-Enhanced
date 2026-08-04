@@ -1,17 +1,4 @@
-﻿# Converted from: IO-HRNY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-22/raw/IO-HRNY.ANS
-# Source Revision: archive-sha256:e9d0326568be41d972423c1883bc8d5eea4966bab9e81326785f82909893446c
-# Source SHA-256: 285ffeee1d1b563c05999915456f6214b625c3bf8e9b87cd2b714c3a3909de47
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IO-HRNY.ANS by Imodium (Force); released in force-22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Horny 23liner
-# SAUCE Author: Imodium
-# SAUCE Group: Force
-# SAUCE Dimensions: 80x25
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: Horny 23liner by Imodium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-22-io-hrny
 
 Write-Host '
 ███████████████████████████████████████████████████████████████████████████████

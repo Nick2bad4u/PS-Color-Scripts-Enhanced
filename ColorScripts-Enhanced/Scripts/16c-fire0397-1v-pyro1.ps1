@@ -1,18 +1,4 @@
-﻿# Converted from: 1V-PYRO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0397/raw/1V-PYRO1.ANS
-# Source Revision: archive-sha256:92948d41234c0b51c2e1cbae1fc45d03877af276dfc89419c464eee360a4eed8
-# Source SHA-256: 056569a9f810b4add2e909f33f839fe73a4b181e09441e1d1e545e6c54e01f0d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 1V-PYRO1.ANS by IrmaVep (Fire); released in fire0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: PyroView Promotional
-# SAUCE Author: IrmaVep
-# SAUCE Group: Fire
-# SAUCE Date: 19990102
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: PyroView Promotional by IrmaVep | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0397-1v-pyro1
 
 Write-Host '
 [1;35m▄▄[0;1;35;45m░[0;35m█▀▌▀█▀[0;37m [0;35m▀ [0m     [35m▀▌[0m   [35m▀▀▐▀  ▄▄░[0m    [35m ░▄▄▄░░[0;30;45m▓[0;35;40m▄▄   [0;37;40m  [0;35;40m▀▀▓▄▄[0m          [35;40m [0;37;40m [0;35;40mirmaVep∙fire[0m

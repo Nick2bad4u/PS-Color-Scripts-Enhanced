@@ -1,18 +1,4 @@
-﻿# Converted from: US-PEIDO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden13/raw/US-PEIDO.ANS
-# Source Revision: archive-sha256:70e231ea8653cd02d349f122b1a39f57757322f3913b0c8f20698b54c8795e68
-# Source SHA-256: eb512cbd751b36207e1e26af9e4ebb508c5a626b87e8c713942ee293ac4ca43c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PEIDO.ANS by Rorshack + Minotaur (may damn bruuzil); released in maiden13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: peido warez!
-# SAUCE Author: minotaur + rorshack
-# SAUCE Group: may damn bruuzil
-# SAUCE Date: 19971005
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: peido warez! by Rorshack + Minotaur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden13-us-peido
 
 Write-Host '
 [32m                                   [0m    [32m                [0;1;32m░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MFS-ATLI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr006/raw/MFS-ATLI.ANS
-# Source Revision: archive-sha256:d5963037ced31fdb210a4b96b24d0d6ada43f938e508dcb50befdb7e45a6d6b7
-# Source SHA-256: 1c3a655e274a50b3a0a41931323c7ec6db7f2fd1cb4192bc85d0d4c53efcfe23
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MFS-ATLI.ANS by m3l farr suppastar (your mom); released in blndr006 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: alien plays basketball with human
-# SAUCE Author: m3l farr suppastar
-# SAUCE Group: your mom
-# SAUCE Date: 19961229
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: alien plays basketball with human by m3l farr suppastar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr006-mfs-atli
 
 Write-Host '
 [30;46m                                           [0;36;40m▀[0;1;36;40m [0;1;37;40m▄███ [0;1;36;40m████████▀▀▀▀▀██████ [0;1;37;40m████▄ [0;1;36;40m▀███[0m

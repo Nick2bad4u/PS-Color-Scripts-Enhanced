@@ -1,13 +1,4 @@
-﻿# Converted from: vp-rmrs.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-39/raw/vp-rmrs.ans
-# Source Revision: archive-sha256:ff2dc82e601d582d5ba14cde11c95bdd44462cb1bd0e264d5d8349e121c0a8ec
-# Source SHA-256: 14002868c47340d829b172676f402d12b7842975b8a804edd93c414a9d60e0d9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: vp-rmrs.ans by Vapor (rmrs-39); released in rmrs-39 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: vp-rmrs.ans by Vapor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-39-vp-rmrs
 
 Write-Host '
   vap ñÑÑÑ198119811981198119[1;35m 1198 [0m1981198119811981198119811981198119811981198119

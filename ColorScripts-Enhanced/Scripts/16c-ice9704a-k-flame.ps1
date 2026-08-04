@@ -1,18 +1,4 @@
-﻿# Converted from: K-FLAME.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9704a/raw/K-FLAME.ICE
-# Source Revision: archive-sha256:afaee15a3d0dc97869d0b30f626c40f1e86254d9eab5d72e1a8ed0e96379737a
-# Source SHA-256: 2efe7ca1b0d0485874aa8be43755868c05a7e71d854459ee623b9d3e2ac8506a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K-FLAME.ICE by kyp (ice); released in ice9704a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: flame's landscape screen
-# SAUCE Author: kyp
-# SAUCE Group: ice
-# SAUCE Date: 19970502
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: flame's landscape screen by kyp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9704a-k-flame
 
 Write-Host '
 [1;31m▓▓[0;33m▀[0;1;31m▀[0;33m▀▀[0;37m [0;33m▀[0;35m▄▄▄▓▓▓▓█[0;1;35;45m░▓▓[0;1;35;40m▓▓▄▄[0m [1;31m▓▌[0;1;31;43m▓▒▒[0;33m▀▀▀░ [0;37m [0;31m▀▌[0;1;34m▐██▄█[0;1;34;47m▓▓▓▓[0;1;34;40m█████▌▀▓▓▓█▌█████████[0;1;34;44m▓▓▓▄[0;1;34;40m▄[0;1;34;44m▓▓░[0;34m▄[0;1;34m    [0m

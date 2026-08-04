@@ -1,13 +1,4 @@
-﻿# Converted from: SM-DC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/escape01/raw/SM-DC.ANS
-# Source Revision: archive-sha256:8fb76a84502eb67aaaf0a7272ae8f06bcf8f5fa9822bf2bbf425ce8452e1bbfc
-# Source SHA-256: 93c21e0cb44bd4436c594b69de27294e6f7441fc5e5f2f20a4e6a874893b7383
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-DC.ANS by San Man (escape01); released in escape01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 27-51
-# Columns: 1-80
+﻿# Artwork: SM-DC.ANS by San Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-escape01-sm-dc-part02
 
 Write-Host '
 [30;40m██████████████████████████████████[0;1;32;40m█[0;30m█████████████████[0;1;32m██[0;30m███[0;1;32m██[0;30m█[0;1;32m█[0;30m██[0;1;32m█[0;30m██[0;1;32m█[0;30m█[0;1;32m█[0;30m█[0;37;47m█████████[0m

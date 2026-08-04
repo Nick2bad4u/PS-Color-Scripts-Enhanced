@@ -1,19 +1,4 @@
-﻿# Converted from: TNT-TACO.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/fire-42/raw/TNT-TACO.ANS
-# Source Revision: archive-sha256:5477badab90aaaa6ee2d08aa380254b6982d860b5d0de201e348668cb1eaa063
-# Source SHA-256: bbecf9c3cbc6e0fbee1497f1665f139756760dad0f43c1cd027597d5febe2f5d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNT-TACO.ANS by tainted (fire); released in fire-42 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: taco pronto
-# SAUCE Author: tainted
-# SAUCE Group: fire
-# SAUCE Date: 20250303
-# SAUCE Dimensions: 80x264
-# SAUCE Font: IBM VGA
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: taco pronto by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-42-tnt-taco-part02
 
 Write-Host '
                ▀[1;47m■[0m░ █                        ▌ ▓      ▓             ·

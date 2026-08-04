@@ -1,13 +1,4 @@
-﻿# Converted from: SG-REA1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9608a/raw/SG-REA1.ICE
-# Source Revision: archive-sha256:3cb2898237aa255407c11f4c82532bf88edc414fa849eac52074494eeda3cbfa
-# Source SHA-256: b55a339a30d46427618b25ba17639549427c669f2bfcfd0f13e5deb36f5b31bb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SG-REA1.ICE by Snake Grunger (ice9608a); released in ice9608a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: SG-REA1.ICE by Snake Grunger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9608a-sg-rea1
 
 Write-Host '
              [1;30m▀[0;33m▀[0;1;30m▄[0;33m▄  [0m       [1;30m▄▄[0;33m▄ [0m              [1;30m▄[0m

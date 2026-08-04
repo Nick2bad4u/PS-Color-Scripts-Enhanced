@@ -1,17 +1,4 @@
-﻿# Converted from: SB-SUCC3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0995/raw/SB-SUCC3.ANS
-# Source Revision: archive-sha256:66f11d43d10b981d3ff2235c6fadd1403a507952ad88040c9eb9cd5142a4f4b1
-# Source SHA-256: 6d132d978c028cf689c5c65bf9ee2d922775fb37b163f02a2a933d333fb2ff46
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SB-SUCC3.ANS by SpellBinder (uni-0995); released in uni-0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: SuccoTash #3
-# SAUCE Author: SpellBinder
-# SAUCE Date: 19950803
-# SAUCE Dimensions: 80x88
-# Lines: 46-88
-# Columns: 1-80
+﻿# Artwork: SuccoTash #3 by SpellBinder | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0995-sb-succ3-part02
 
 Write-Host '
 [36m███████████████████▀ [0;37m▄ ▀ ▄[0;1;37;47m▄[0;1;37;40m███[0;1;37;47m▀[0m▀▄[1m▄██[0;1;47m▓▓[0;1;40m█[0;1;47m▀[0;1;40m██████[0;1;47m▀░▀█▀▄▄[0;1;40m███[0;1;47m▒[0m▄▀▀▌[36m▀▄▄▄███████████████[0m

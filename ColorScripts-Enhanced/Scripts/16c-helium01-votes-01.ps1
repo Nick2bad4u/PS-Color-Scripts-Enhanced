@@ -1,13 +1,4 @@
-﻿# Converted from: VOTES-01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/helium01/raw/VOTES-01.ANS
-# Source Revision: archive-sha256:07d8759f10fea4e17af6dcb88e6f2f43e74915e40d49cbcecc26379922d3a782
-# Source SHA-256: df8638fefe61c21a99cb3ea7cadf26771e000a19662799f33f7396a54356e6db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VOTES-01.ANS by Abnormal (helium01); released in helium01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: VOTES-01.ANS by Abnormal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-helium01-votes-01
 
 Write-Host '
               [1;31m▄▄█[0;1;31;47m▌[0;1;31;43m██[0;1;31;40m▄▄    ▄[0;1;31;43m▓[0;1;31;40m████[0;1;31;43m▄[0;1;31;40m▄[0;33m▄[0m      [1;31m▄▄[0;33m▄[0m

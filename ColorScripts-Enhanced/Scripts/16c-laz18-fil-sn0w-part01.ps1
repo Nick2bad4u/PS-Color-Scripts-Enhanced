@@ -1,19 +1,4 @@
-﻿# Converted from: fil-sn0w.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz18/raw/fil-sn0w.ans
-# Source Revision: archive-sha256:32d30452c4c99022fae4fa2ce9a2923ef46629d3ff7dd35a972944a991699c1f
-# Source SHA-256: 8f4f3249fce5d600a9b9c88aad11b40ecb5e46d8301f68fa7cd05e4a3a9b2929
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: fil-sn0w.ans by filth (LAZ R' US); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Good boy!
-# SAUCE Author: filth
-# SAUCE Group: LAZ R' US
-# SAUCE Date: 20240207
-# SAUCE Dimensions: 80x70
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Good boy! by filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz18-fil-sn0w-part01
 
 Write-Host '
 [1m☼[0m

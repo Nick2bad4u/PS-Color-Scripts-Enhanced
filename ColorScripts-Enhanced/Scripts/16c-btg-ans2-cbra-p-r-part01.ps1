@@ -1,13 +1,4 @@
-﻿# Converted from: CBRA#P&R.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/btg_ans2/raw/CBRA%23P%26R.ANS
-# Source Revision: archive-sha256:ef1d7f5aa7f6ddd3a18962651dfef7920d45568f5c91446255731618604ffcb4
-# Source SHA-256: a882af0583e573e02565a9e783dd3e312ed53977e143bdf809fa7c4174870ae7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CBRA#P&R.ANS by Rage + Paz (btg_ans2); released in btg_ans2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: CBRA#P&R.ANS by Rage + Paz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-btg-ans2-cbra-p-r-part01
 
 Write-Host '
                                     [1;32m▄▄▄▄▄[0m

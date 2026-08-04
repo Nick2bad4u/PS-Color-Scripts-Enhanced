@@ -1,13 +1,4 @@
-﻿# Converted from: MST!SINE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spr_02/raw/MST!SINE.ANS
-# Source Revision: archive-sha256:de213db32bec9e7b234598875579e360fcbdfa4c59f3f92173fe1b75c68a8cff
-# Source SHA-256: ec82ff6af096fe2c62077a06bad839f31a99215c10577cf9fe96d4ff09d55f46
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MST!SINE.ANS by Mist (spr_02); released in spr_02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: MST!SINE.ANS by Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spr-02-mst-sine
 
 Write-Host '
 [1;31;41m██▓▓▒▒░░ ░  [0;31m█▀▀[0;1;30m▄▌[0;31m▀▀████████ █[0;1;31;41m▄▄▄[0;31m█▀▀▀█[0;1;31;41m▄▄[0;31m█[0;37m  [0;31m▄▀███▀[0;37m [0;1;31;41m██▀[0;31m▀▄▀███▀[0;37m [0;1;31;41m██▀[0;31m▀▀▀▀██[0;33m  [0;31m▐█▀▀▀▀[0;1;31;41m▀██[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: CW-ECLIP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eph0695/raw/CW-ECLIP.ANS
-# Source Revision: archive-sha256:61ec4551dc794352375c44fe76ae319c35cb8fdacc91cb701b40cfccfff3e01c
-# Source SHA-256: be17870a823f19826831c5339a835b7fa3ab8de0221fbaa4dbd85cce1a8c8557
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CW-ECLIP.ANS by Computer Wizard (euPHoRia); released in eph0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Final Eclipse aDD
-# SAUCE Author: Computer Wizard
-# SAUCE Group: euPHoRia
-# SAUCE Date: 19950506
-# SAUCE Dimensions: 80x96
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Final Eclipse aDD by Computer Wizard | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eph0695-cw-eclip-part01
 
 Write-Host '
 

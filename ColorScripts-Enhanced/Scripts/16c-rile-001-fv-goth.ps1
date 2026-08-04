@@ -1,18 +1,4 @@
-﻿# Converted from: FV-GOTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile_001/raw/FV-GOTH.ANS
-# Source Revision: archive-sha256:f7a8644489c1d011b91477b5b1eab40d9f39b077b89f158a7a0c3d1c032c6d81
-# Source SHA-256: 1a8bd4770e5a57526fa36b70355bc1b7e6f5e9ce0910038f505481670f70ba11
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-GOTH.ANS by fever (RILE); released in rile_001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: goth milk?
-# SAUCE Author: fever
-# SAUCE Group: RILE
-# SAUCE Date: 19970216
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: goth milk? by fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile-001-fv-goth
 
 Write-Host '
                                   [30;46m▀[0;36;40m [0;1;34;40m■▀[0m [1;34m▄░░[0m           [30;46m [0;1;34;46m▀[0;1;34;40m▄▄[0m▄

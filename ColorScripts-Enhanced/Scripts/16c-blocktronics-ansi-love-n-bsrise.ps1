@@ -1,19 +1,4 @@
-﻿# Converted from: N-BSRISE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_ansi_love/raw/N-BSRISE.ANS
-# Source Revision: archive-sha256:6bbd631cd11e3473b019590c35c9a89f139f75a09b13e07a93395613241d63e9
-# Source SHA-256: 8c888bb3369499ac9bfa2b97b56796320ec16dd52185f8a00c8bb5b5564e8c55
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-BSRISE.ANS by nail (blocktronics); released in blocktronics_ansi_love and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: bit sunrise
-# SAUCE Author: nail
-# SAUCE Group: blocktronics
-# SAUCE Date: 20170220
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: bit sunrise by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-ansi-love-n-bsrise
 
 Write-Host '
                                        [1;33;40m▄░[0m

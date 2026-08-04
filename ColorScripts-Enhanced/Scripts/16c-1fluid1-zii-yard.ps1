@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-YARD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1fluid1/raw/ZII-YARD.ANS
-# Source Revision: archive-sha256:9759ba706afa63d47d6227f5e680e2347d46ae0af2672fb17307d5aaeab19452
-# Source SHA-256: c128c4d63846c520af4d7d08541fb8eb7564a1029a18112260885b78360fb4c8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-YARD.ANS by Zeus II (Fluid); released in 1fluid1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: yard nfo
-# SAUCE Author: Zeus II
-# SAUCE Group: Fluid
-# SAUCE Date: 20010524
-# SAUCE Dimensions: 80x49
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: yard nfo by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1fluid1-zii-yard
 
 Write-Host '
                                        [1;30m▌[0m

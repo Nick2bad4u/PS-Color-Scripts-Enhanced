@@ -1,13 +1,4 @@
-﻿# Converted from: DIE-VTAG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-zxica/raw/DIE-VTAG.ANS
-# Source Revision: archive-sha256:098212bcd3fc250902be7ae08340a23e99b29f8fa69fe7b4990238a6d402d1f6
-# Source SHA-256: e918e6ed0f90e133bc449c5052ff5e05f0c709c25c0dcd04f1faf4c8c3cddf11
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DIE-VTAG.ANS by Dieznyik (k-zxica); released in k-zxica and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: DIE-VTAG.ANS by Dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-zxica-die-vtag
 
 Write-Host '
                         [33m▐[0;1;33;43mv[0;33m▌[0;31mi r t u a l[0;37m [0;33m▐[0;1;33;43mt[0;33m▌[0;31me x t m o d e[0;37m [0;33m▐[0;1;33;43ma[0;33m▌[0;31mr[0;37m [0;31mt[0;37m [0;33m▐[0;1;33;43mg[0;33m▌[0;31ma l l e r y[0m

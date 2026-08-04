@@ -1,18 +1,4 @@
-﻿# Converted from: _PH-PUNK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/soda03/raw/_PH-PUNK.ANS
-# Source Revision: archive-sha256:8ca6b1277c2cfab282ae43fc96ff48d3d51942dfad836f25624e00db8433621a
-# Source SHA-256: 094aa07475ef87da3f38e3aa79839de2fad289c0ea381d90a99dad84e11128cb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _PH-PUNK.ANS by photek (sodapop//cia); released in soda03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: blackmaiden1999
-# SAUCE Author: photek
-# SAUCE Group: sodapop//cia
-# SAUCE Date: 19990512
-# SAUCE Dimensions: 80x82
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: blackmaiden1999 by photek | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-soda03-ph-punk-part01
 
 Write-Host '
 

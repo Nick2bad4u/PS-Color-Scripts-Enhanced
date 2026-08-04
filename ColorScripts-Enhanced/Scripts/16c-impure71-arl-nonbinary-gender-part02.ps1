@@ -1,16 +1,4 @@
-﻿# Converted from: arl-nonbinary-gender.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure71/raw/arl-nonbinary-gender.ans
-# Source Revision: archive-sha256:495112ee0b431241e367597d47264349244654f3ccf85be27692a6e0870a453b
-# Source SHA-256: fd6769ab69882a1305e3322832e1cfb0e6f041e7c98d0b9be4aef6a83ba0e32d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: arl-nonbinary-gender.ans by Arlequin (impure71); released in impure71 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 20181020
-# SAUCE Dimensions: 80x82
-# SAUCE Font: IBM VGA
-# Lines: 41-82
-# Columns: 1-80
+﻿# Artwork: arl-nonbinary-gender.ans by Arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure71-arl-nonbinary-gender-part02
 
 Write-Host '
 [1;31m░░░░░░░░░░░[0;31;101m▓▓▓▓▓[0m            [31m███████████████▒░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PYX-SNAB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-1296/raw/PYX-SNAB.ANS
-# Source Revision: archive-sha256:f773a389f51b5e0da0cfb005fe603efcb492346271314d84a3bbd590d27c199e
-# Source SHA-256: 8cdf9041cdf9911b112e1930ae6450a1d17d6555a5c4348a3627319b2b4c3126
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-SNAB.ANS by Pyx (Bamboosh); released in bmb-1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Snabelk?se
-# SAUCE Author: Pyx
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19961123
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Snabelk?se by Pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-1296-pyx-snab
 
 Write-Host '
     [34m [0m                                                            [34m  [0m

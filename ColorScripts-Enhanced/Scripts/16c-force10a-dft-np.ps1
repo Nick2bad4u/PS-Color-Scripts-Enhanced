@@ -1,18 +1,4 @@
-﻿# Converted from: DFT-NP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force10a/raw/DFT-NP.ANS
-# Source Revision: archive-sha256:f2af75efab7b036cdbeddf266674e60423caa5c7ddcc4b43d8307cb5d3c84b64
-# Source SHA-256: 94d5bfef885a541cb190dad0005e283cd527efdaed97048cac9b1531e0c66502
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DFT-NP.ANS by draft (fORCE); released in force10a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Neo Pagan 1
-# SAUCE Author: draft
-# SAUCE Group: fORCE
-# SAUCE Date: 19800104
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Neo Pagan 1 by draft | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force10a-dft-np
 
 Write-Host '
 [35m▄▀▀▀▀[0;37m [0;35m▄▄[0;1;30m▀████▓█▀░[0;1;31m▄▄▄▄▄[0;1;30m▀▀█▓▄░[0m [34m██[0;37m [0;34m███▀▀▀▀░▓██[0;37m [0;34m▓██▓▄▀█▓[0;37m [0;34m▒▓█ [0;31m▌[0;37m [0;34m▓██▓ ▀▀[0;37m  [0;34m▀▀[0m   [34m▀[0;37m  [0;31m▀▀■▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: ARL-C1RC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe08/raw/ARL-C1RC.ANS
-# Source Revision: archive-sha256:cfc36d5daeed2f6543814097ace687f378a50215c24a95a0de66b512e3a41b9d
-# Source SHA-256: 75827f5171d319b28855630a2d9a4f8b7e7dede23df58d5510fb0b397ebc1dd2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARL-C1RC.ANS by arlequin (circe); released in circe08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: circe
-# SAUCE Author: arlequin
-# SAUCE Group: circe
-# SAUCE Date: 20000114
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: circe by arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe08-arl-c1rc
 
 Write-Host '
                         [1;30m  [0;34m▄▄[0;1;30m▄▄▄▄▄▄[0m                             [34m▄[0;1;30m▄▄[0m

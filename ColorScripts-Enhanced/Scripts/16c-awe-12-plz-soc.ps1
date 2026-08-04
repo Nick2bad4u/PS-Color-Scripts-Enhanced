@@ -1,18 +1,4 @@
-﻿# Converted from: PLZ-SOC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-12/raw/PLZ-SOC.ANS
-# Source Revision: archive-sha256:5c96c14e912296494a464a42e768321452d811693cf172945a9502eb4396c8bb
-# Source SHA-256: 399630525c8dae07340cf7e6bf15d95b41d6dd75916d9043433c9d14755a617b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PLZ-SOC.ANS by Plazz (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Society
-# SAUCE Author: Plazz
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19971016
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Society by Plazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-12-plz-soc
 
 Write-Host '
                                     [31m█[0m

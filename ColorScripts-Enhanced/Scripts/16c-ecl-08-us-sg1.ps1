@@ -1,18 +1,4 @@
-﻿# Converted from: US-SG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-08/raw/US-SG1.ANS
-# Source Revision: archive-sha256:0b90c936d49629839c01709c30be5eee3ae4012caa7a8f1570b6ae8cc1763cb4
-# Source SHA-256: 450cff297002ede1256eac48f160304e2d50d6d2bade3a4297fd703d0efe1396
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SG1.ANS by Cheeze + Defiant (eclipse/? =)); released in ecl-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: spinal gamma joint #01
-# SAUCE Author: cheeze/defiant
-# SAUCE Group: eclipse/? =)
-# SAUCE Date: 19961013
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: spinal gamma joint #01 by Cheeze + Defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-08-us-sg1
 
 Write-Host '
                                            ░[30;47m▓[0;37;40m░░[0;30;47m▓▓[0m

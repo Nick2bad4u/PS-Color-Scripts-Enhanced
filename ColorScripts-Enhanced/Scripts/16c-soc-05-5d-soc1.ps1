@@ -1,18 +1,4 @@
-﻿# Converted from: 5D-SOC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/soc-05/raw/5D-SOC1.ANS
-# Source Revision: archive-sha256:46523a4b1dc7d3ea7673c682260d26883a5d9a96c30ca837d4327e8bd8747ff4
-# Source SHA-256: bb1c68f0900bca7cae2979f955970e4369d95c9390a32bf77e41df7b3221281f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5D-SOC1.ANS by slayer dreams (society); released in soc-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: society logao!
-# SAUCE Author: slayer dreams
-# SAUCE Group: society
-# SAUCE Date: 19971201
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: society logao! by slayer dreams | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-soc-05-5d-soc1
 
 Write-Host '
 [1m██[0;1;30;47m▓▓▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m██[0;1;30;47m▀[0;1;30;40m▀▀[0m▀▌[1;30m ▀ █ [0;1;36m▐[0;1;30m  [0m   [1;30m▐▀ ▀▀[0m       [36m▐▀▀▀[0;31;46m░[0;36;41m▓[0;31;46m▓[0;1;31;41m▄[0;31m███████████[0;1;31;41m▀[0;31m▄█████████████████▌████[0m

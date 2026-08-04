@@ -1,13 +1,4 @@
-﻿# Converted from: cxc_silicon-underground_blue_skull_menu_blood_final.ans.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cph.artpack28/raw/cxc_silicon-underground_blue_skull_menu_blood_final.ans.ans
-# Source Revision: archive-sha256:c3d8d299aac3650a51574757712fd9f0940b06f7c2d1f7c898188c562f0549bd
-# Source SHA-256: 78d01ffbdebb069c7f409e3151926df0b0f3976871130ceda6f38668e7f01ae5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cxc_silicon-underground_blue_skull_menu_blood_final.ans.ans by Coaxcable (cph.artpack28); released in cph.artpack28 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: cxc_silicon-underground_blue_skull_menu_blood_final.ans.ans by Coaxcable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cph-artpack28-cxc-silicon-underground-blue-skull-menu-blood-final-ans
 
 Write-Host '
       [1;30m▀[0;1;36m▀[0m    [1;34;44m░[0m  [34m▄▄▄[0;1;34m▄▄▄[0m     [1;36m    [0;34m [0;37m  [0;34m▄▄▄▀▀[0;1;36m▀[0;1;34m▀[0;1;36m▀▀[0;1;34m▀[0;1;36m▀[0;1;37m▀■▄[0m  [34m [0;37m [0;36m▀[0;1;36m▀[0m      [1;34m▄▄▄[0;34m▄▄▄[0;37m  [0;1;34;44m░[0m   [1;30m▄[0;1;36m▄[0m   [1;30m▀[0;1;36m▀[0m

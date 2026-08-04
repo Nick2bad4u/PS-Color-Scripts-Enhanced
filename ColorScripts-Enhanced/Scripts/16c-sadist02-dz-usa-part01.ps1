@@ -1,13 +1,4 @@
-﻿# Converted from: DZ-USA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sadist02/raw/DZ-USA.ANS
-# Source Revision: archive-sha256:3b487d46b8d6196e38a23b461a8a31a0bcfeed849c805b149ff5c967f2ad35e5
-# Source SHA-256: bae461b8dccb67df40df28cc094e86b0498a8a1ee90f476662a5f12ea1f41ba6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DZ-USA.ANS by Dizzy (sadist02); released in sadist02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: DZ-USA.ANS by Dizzy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sadist02-dz-usa-part01
 
 Write-Host '
                                                                [1;31m████▄[0m

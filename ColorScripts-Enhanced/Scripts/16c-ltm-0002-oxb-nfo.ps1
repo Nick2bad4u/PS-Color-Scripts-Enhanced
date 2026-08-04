@@ -1,13 +1,4 @@
-﻿# Converted from: OXB!NFO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ltm-0002/raw/OXB!NFO.ANS
-# Source Revision: archive-sha256:781901eb93f0cb031ec3f7b4daa19680a5eef01b4b60325740b7b545db2b86c8
-# Source SHA-256: cddea2c350b0155c74264c5038cd74f065ed063d826760f6054d0f7f55adc1c4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OXB!NFO.ANS by Hondo (ltm-0002); released in ltm-0002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: OXB!NFO.ANS by Hondo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ltm-0002-oxb-nfo
 
 Write-Host '
 [1;30m [0m           [36m;[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: CL!-MFU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nst_001/raw/CL!-MFU.ANS
-# Source Revision: archive-sha256:73e351b64f3e5af00925276ea27a29359884e7841f4015afd3acb29f2a370d2d
-# Source SHA-256: 1313e9301645256022b5a435ed5059e5bd720b8015a4f6c39a9c97c1b34e93fc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-MFU.ANS by .:(cLEANER):. (.:(nEON^sTRIKE):.); released in nst_001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: .:(mAFIA^uNDERGROUND^lOGO):.
-# SAUCE Author: .:(cLEANER):.
-# SAUCE Group: .:(nEON^sTRIKE):.
-# SAUCE Date: 19971126
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: .:(mAFIA^uNDERGROUND^lOGO):. by .:(cLEANER):. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nst-001-cl-mfu
 
 Write-Host '
                      [1;30m░░[0m            [1;30m▄▄▄[0m      [1;30m▄▄▄▄▀▀▀▀▀▀▀ [0;1;35m▄▄▓▓▄ [0;1;30m▀▄[0m

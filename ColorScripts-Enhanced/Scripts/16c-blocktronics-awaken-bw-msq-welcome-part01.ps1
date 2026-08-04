@@ -1,13 +1,4 @@
-﻿# Converted from: bw-msq_welcome.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_awaken/raw/bw-msq_welcome.ans
-# Source Revision: archive-sha256:9d338d3910f6730204698339e869f7ab219513c3aa8e2f1b0bb278c633114d95
-# Source SHA-256: 45cf86f4702c0415188048410cdae3e77bf1c3d82d4a7969cf491af5c36723a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bw-msq_welcome.ans by Binary Walker (blocktronics_awaken); released in blocktronics_awaken and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: bw-msq_welcome.ans by Binary Walker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-awaken-bw-msq-welcome-part01
 
 Write-Host '
 [1;30m                    [0m   [31m▀[0m                   [31m▌[0m

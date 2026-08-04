@@ -1,19 +1,4 @@
-﻿# Converted from: US-APPDX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-44/raw/US-APPDX.ANS
-# Source Revision: archive-sha256:6c51508cedeaa9140fcf08750a75edb14e0cec0eebe7b4290346e95cd3548876
-# Source SHA-256: d75201fc698a3a43bb4469e158ea63d159dc1c9cad4408ca235e96e43abb7f1a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-APPDX.ANS by Tainted + Savage (FiRE); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Appendix BBS
-# SAUCE Author: tainted + Savage
-# SAUCE Group: FiRE
-# SAUCE Date: 20251116
-# SAUCE Dimensions: 80x42
-# SAUCE Font: IBM VGA
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: Appendix BBS by Tainted + Savage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-44-us-appdx
 
 Write-Host '
 

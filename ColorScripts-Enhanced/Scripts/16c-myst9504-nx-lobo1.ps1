@@ -1,13 +1,4 @@
-﻿# Converted from: NX-LOBO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/myst9504/raw/NX-LOBO1.ANS
-# Source Revision: archive-sha256:a90cbdb425ce06d8710b8a57528b3d33daeeb96dcafebdfec2b142856e77525e
-# Source SHA-256: 121b612511dccd2c9cb44d6b73c5d2a4b50c6c130d7f9bf8373e03dafa418183
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NX-LOBO1.ANS by Nexus (myst9504); released in myst9504 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: NX-LOBO1.ANS by Nexus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-myst9504-nx-lobo1
 
 Write-Host '
           [36m▒▓▓▓▄██████▓▓▀[0m           [36m▒▒▒▒████[0;1;36;46m░░▒░░[0;36m████[0;1;36;46m░▒▒░░[0;36m████[0;1;36;46m░░[0;36m██▓█████▓▓▓▓██▓▓▓[0m

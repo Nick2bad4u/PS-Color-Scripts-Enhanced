@@ -1,18 +1,4 @@
-﻿# Converted from: SC-GEN13.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9602/raw/SC-GEN13.ANS
-# Source Revision: archive-sha256:5e4639f25c539923328bf5d3dcaf0345f7881a951b04cd174712ef6ec2433a3a
-# Source SHA-256: 5acfc20bb84b6967de6f4e34c1e895d05858fb9ae44f200925c0f75f451dfcd8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-GEN13.ANS by subconsciousness (bladeproductions); released in blde9602 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: genonethree!stats
-# SAUCE Author: subconsciousness
-# SAUCE Group: bladeproductions
-# SAUCE Date: 19960129
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: genonethree!stats by subconsciousness | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9602-sc-gen13
 
 Write-Host '
             [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

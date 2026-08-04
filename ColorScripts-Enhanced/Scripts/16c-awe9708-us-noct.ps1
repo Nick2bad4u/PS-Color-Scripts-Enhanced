@@ -1,17 +1,4 @@
-﻿# Converted from: US-NOCT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9708/raw/US-NOCT.ANS
-# Source Revision: archive-sha256:defa13458710db8b7c1fa20a6cd29749e80a61eef8ba8dc70e8a9a4a0b1d4f5d
-# Source SHA-256: 3c7e8d8a13c8a14726ecdb46bf718d573f16f2c81a90110cefdfa4303c2cee10
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-NOCT.ANS by Magnatop + Skidoo (AWE Lettering); released in awe9708 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Nocturnal
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Nocturnal by Magnatop + Skidoo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9708-us-noct
 
 Write-Host '
 

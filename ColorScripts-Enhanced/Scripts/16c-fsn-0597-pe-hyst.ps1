@@ -1,13 +1,4 @@
-﻿# Converted from: PE!HYST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0597/raw/PE!HYST.ANS
-# Source Revision: archive-sha256:100499c687593fd78c29adf06f5899e8c0d61223958e380a9c31aadb955ab06d
-# Source SHA-256: e8b2449aaee86dd1f6e9a9622d74aaac6788ce7429c95fc60fcfaf5c3360b2e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PE!HYST.ANS by Phonyeye (fsn-0597); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: PE!HYST.ANS by Phonyeye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0597-pe-hyst
 
 Write-Host '
   [36m [0m

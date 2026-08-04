@@ -1,18 +1,4 @@
-﻿# Converted from: ZO-ANSI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9601/raw/ZO-ANSI.ANS
-# Source Revision: archive-sha256:7aa9123f877021b71fa63f38de012fc68287c00ecd76f3a2105e748660eee14f
-# Source SHA-256: 1d9a36ba20a0da5d426f5d2ed755e13544593ad22a0645f7806519cab501e0a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZO-ANSI.ANS by zork (blade productions); released in blde9601 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ansi detected and stuff!
-# SAUCE Author: zork
-# SAUCE Group: blade productions
-# SAUCE Date: 19951219
-# SAUCE Dimensions: 80x25
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: ansi detected and stuff! by zork | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9601-zo-ansi
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: TH-PREVA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel10/raw/TH-PREVA.ANS
-# Source Revision: archive-sha256:cf40594777c22d11e0e68ffce1787c226a780219ccff2425f211f05671148899
-# Source SHA-256: f5f66d4111f8523907a6d2f7975fc129204756830780197af83d632d08eb9fd1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH-PREVA.ANS by thrasher (fuel); released in fuel10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: prevail
-# SAUCE Author: thrasher
-# SAUCE Group: fuel
-# SAUCE Date: 19970201
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: prevail by thrasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel10-th-preva
 
 Write-Host '
 [34m ▄[0;1;35;44m░░[0;34m████▄[0;1;33m░[0;1;37m█[0;1;33m█[0;1;33;43m█▓░░[0;33m▀[0;1;37m  ▄██████[0;1;33m█[0;1;33;43m▓▒[0;1;37;43m▄[0;1;37;40m██[0;1;33;40m█[0;1;33;43m███[0;33m▀░█[0;1;31;43m▒▓[0;1;31;40m█▌[0;1;37;40m▐█▌[0;1;33;43m▄[0;33m██████▀▀ [0;1;37m▐█[0;1;33;47m▒[0;1;33;40m█[0;1;33;43m▓░[0;33m█[0;1;33m▐██[0;1;37m███[0;1;37;43m▓░[0;1;33;43m▐▄░▒[0;1;33;40m██[0;1;37;40m██[0m

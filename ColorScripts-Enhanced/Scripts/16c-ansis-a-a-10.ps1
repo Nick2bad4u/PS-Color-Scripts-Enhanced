@@ -1,13 +1,4 @@
-﻿# Converted from: A-10.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-a/raw/A-10.ANS
-# Source Revision: archive-sha256:0221aa78501a2c9c8b81cd8fec1b119855a8bcd3e09edf9032102665119fabc9
-# Source SHA-256: eed6f5a3abed084faf0f656aca67ecd85cdeeaf441c9a868edb4763ca777d0bd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: A-10.ANS by Michael C. Ling (ansis-a); released in ansis-a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: A-10.ANS by Michael C. Ling | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-a-a-10
 
 Write-Host '
 [30;44m┌────────────┐                                                                 [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: KL-SAUS6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fx-9808/raw/KL-SAUS6.ANS
-# Source Revision: archive-sha256:5d6a688adb69f4c7d9ef32859cb5e7dbdc43faaf082f50568e4bbcefcf9ef8b5
-# Source SHA-256: 8dec435fdec2e87511b37864a6dc245d5c6b005feda3892b8fb8acaf2d2db9da
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KL-SAUS6.ANS by Knocturnal (Awe); released in fx-9808 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Special Sauce
-# SAUCE Author: Knocturnal
-# SAUCE Group: Awe
-# SAUCE Date: 19980726
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Special Sauce by Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fx-9808-kl-saus6
 
 Write-Host '
                                                      [32m▄[0m

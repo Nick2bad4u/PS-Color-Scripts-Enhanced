@@ -1,13 +1,4 @@
-﻿# Converted from: m7m-soc.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic38/raw/m7m-soc.ans
-# Source Revision: archive-sha256:b70fa0575f54b674e8d5051f84e050fc2a6aadf81d01086b6cc61cb7022833be
-# Source SHA-256: 8295ab80df4c2fa7d5ca62f4b1ca5f8eff6a149779fdb3d79a607e269f1547e4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: m7m-soc.ans by Metal Militia (mimic38); released in mimic38 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: m7m-soc.ans by Metal Militia | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic38-m7m-soc
 
 Write-Host '
 [30m [0m

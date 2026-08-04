@@ -1,13 +1,4 @@
-﻿# Converted from: TP-THA01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vi-9403/raw/TP-THA01.ANS
-# Source Revision: raw-sha256:bddeba387723d8da6a2e6c048a40ee64e14b743186833f49579e027ad7b2535b
-# Source SHA-256: bddeba387723d8da6a2e6c048a40ee64e14b743186833f49579e027ad7b2535b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TP-THA01.ANS by Terminal Psychosis (vi-9403); released in vi-9403 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 40-61
-# Columns: 1-80
+﻿# Artwork: TP-THA01.ANS by Terminal Psychosis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vi-9403-tp-tha01-part02
 
 Write-Host '
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀                                    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

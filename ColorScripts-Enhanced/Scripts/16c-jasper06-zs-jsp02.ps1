@@ -1,13 +1,4 @@
-﻿# Converted from: ZS-JSP02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper06/raw/ZS-JSP02.ANS
-# Source Revision: archive-sha256:e9db58af17bee8935edbe50f24a227bef7a311667f4a639d4f37f775998e9055
-# Source SHA-256: 422dc2c73f76ed3bbad3e7c559c0547e58f2b5e8cd99224e71c4a83607e3850a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZS-JSP02.ANS by Zerostar (jasper06); released in jasper06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: ZS-JSP02.ANS by Zerostar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper06-zs-jsp02
 
 Write-Host '
 [1;30m  [0;36m░[0;37m [0;1;30m [0;36m ■[0m     [1;30m [0m   [36m [0;37m   [0;1;30m░░[0m  [36m  [0;37m [0;36m▬[0m      [36m▬  ▬[0m       [1;30m░[0;36m [0;37m   [0;36m▬[0m     [1;30m  ░░[0;35m [0;37m  [0;36m■[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: k1-gaph.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz17/raw/k1-gaph.ans
-# Source Revision: archive-sha256:2674245bad3e14fe6d4a935ba8daf9898a4426e394c56ca9710e3afa19d3d943
-# Source SHA-256: 1d8274a3067ee9dceff5217ba623d52cc89d9a82b97e0d139ba0cfb907e15723
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: k1-gaph.ans by knocturnal (lazarus); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Pharcyde
-# SAUCE Author: knocturnal
-# SAUCE Group: lazarus
-# SAUCE Date: 20230330
-# SAUCE Dimensions: 80x132
-# SAUCE Font: IBM VGA
-# Lines: 101-132
-# Columns: 1-80
+﻿# Artwork: The Pharcyde by knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz17-k1-gaph-part03
 
 Write-Host '
  [35m█ [0;37;45m█[0;37;40m▓[0;35;40m▄[0;1;35;45m [0;35m█▌[0;37m  [0;1;31m▓[0m [1m██▌[0;1;30m [0;1;37;47m▓[0;1;37;40m███[0;1;30;40m  [0m [1m███[0m [1m▀███▀[0m [1m▀███▀[0m [1;31m▌[0;1;37m▀█████▀[0m [1m██▌[0;1;31m▄[0;1;37m████[0m  [1m▀███▌[0;31m▐[0;1;31m▓[0m

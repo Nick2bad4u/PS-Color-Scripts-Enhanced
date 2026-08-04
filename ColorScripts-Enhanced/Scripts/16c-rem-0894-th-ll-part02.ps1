@@ -1,13 +1,4 @@
-﻿# Converted from: TH-LL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rem-0894/raw/TH-LL.ANS
-# Source Revision: archive-sha256:83a1aaa6c07cbd23f5c8c587fd08549f6031372a9269c40f0d3603e89b198700
-# Source SHA-256: a7109c87a5a90c42929393e394a67b9553769dd3e636f71679c483cc105d46de
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH-LL.ANS by Thrasher-Rem (rem-0894); released in rem-0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: TH-LL.ANS by Thrasher-Rem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rem-0894-th-ll-part02
 
 Write-Host '
                     [34m▒▒░░░░░░░░░░░▒▒▒▒▒░░░▒▒░░░▒▒▒▒▒░░░░░░░░░░░▒▒[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: cat-SKULLVORTEX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_acid_trip/raw/cat-SKULLVORTEX.ANS
-# Source Revision: archive-sha256:c0717ff5cb7d462ed7fa9a55edd7235adbd3f09e01132486021497c9281171b6
-# Source SHA-256: 172d728b3f45e3fa3a64397b9a5553e15eaaa92357487785eb53e7bdde979e94
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cat-SKULLVORTEX.ANS by Knocturnal + Catbones (ACiD Productions); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Skull Vortex
-# SAUCE Author: Catbones
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x98
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Skull Vortex by Knocturnal + Catbones | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-acid-trip-cat-skullvortex-part01
 
 Write-Host '
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

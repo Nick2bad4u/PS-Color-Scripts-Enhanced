@@ -1,18 +1,4 @@
-﻿# Converted from: HT-SACCF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0395/raw/HT-SACCF.ANS
-# Source Revision: archive-sha256:7b30118405d4d21f05022ba0c6f9cc20d209f8b3e8684cf8db7bf6713b2b2425
-# Source SHA-256: af1210d411236a09af76d3687c5545800625ec60454c85ce386df6e88530cb15
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HT-SACCF.ANS by hetero; released in sac0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
-# SAUCE Title: SAC CONFERENCE
-# SAUCE Author: HETERO
-# SAUCE Group: LKCC
-# SAUCE Date: 19950204
-# SAUCE Dimensions: 80x25
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: SAC CONFERENCE by hetero | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0395-ht-saccf
 
 Write-Host '
 [1;30m────────────────────────────────────────────────────────────────── [0;32m▄ [0;1;30m──────────[0m

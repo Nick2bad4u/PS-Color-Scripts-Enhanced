@@ -1,17 +1,4 @@
-﻿# Converted from: FL-TREP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/esp0296/raw/FL-TREP.ANS
-# Source Revision: archive-sha256:7ba951ae4e6a69ae13f17e85d94c040c85d212c9217542aa1b77f88401cbf091
-# Source SHA-256: 82c3fc9125e624ac8758e9842be3dda2e355abea30b767d8e481a4b5bda9e42b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-TREP.ANS by fLeA (ESP Productions); released in esp0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: fLeA
-# SAUCE Group: ESP Productions
-# SAUCE Date: 19960130
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: FL-TREP.ANS by fLeA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-esp0296-fl-trep
 
 Write-Host '
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: SF-OLD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmtz-2/raw/SF-OLD.ANS
-# Source Revision: archive-sha256:4098da1ce5096b58e9d8e2d422f1498dadae3c1a4608ab2bce3811e49527bb5d
-# Source SHA-256: ffe273bb08c156eed8e91111cd027a1587b16b277d5c1b06ea9e4ddaec05eaa0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SF-OLD.ANS by Spitfire (Rigamortiz); released in rmtz-2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: Spitfire
-# SAUCE Group: Rigamortiz
-# SAUCE Date: 19960727
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: SF-OLD.ANS by Spitfire | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmtz-2-sf-old
 
 Write-Host '
 

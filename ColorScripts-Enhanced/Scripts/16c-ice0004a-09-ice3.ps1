@@ -1,13 +1,4 @@
-﻿# Converted from: 09-ICE3.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice0004a/raw/09-ICE3.ICE
-# Source Revision: archive-sha256:bfc06c954be7f0ef73a1cdef8dddfdf1805bb02c6810989d32481de4e3fa5e6c
-# Source SHA-256: dbff183e8736f467407a3e3b24b8a7ecd486ef635a365584af64d85fbee467c9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-ICE3.ICE by Fluor (ice0004a); released in ice0004a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: 09-ICE3.ICE by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice0004a-09-ice3
 
 Write-Host '
 [30mfunky[0m                               [1;30m▄[0m▄▄▄▄▄▄▄▄▄▄▄▄                         [30mstyle[0m

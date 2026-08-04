@@ -1,18 +1,4 @@
-﻿# Converted from: SC-NEG3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel12/raw/SC-NEG3.ANS
-# Source Revision: archive-sha256:ebe2e7b01f31e0e82aa2702a876007d4ec2dd824b98bdf40e4d59e2b113da7e4
-# Source SHA-256: a119db818afaba2cda594eaa6555d12fcba119aa022ee18b43ae5f43192e7e65
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-NEG3.ANS by Scoundrel (Fuel Productions); released in fuel12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Negative
-# SAUCE Author: Scoundrel
-# SAUCE Group: Fuel Productions
-# SAUCE Date: 19970401
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Negative by Scoundrel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel12-sc-neg3
 
 Write-Host '
 [1;34m [0m [34m ▄▄▄[0;37m  [0;33m▄[0;37m [0;34m▄▄▄▄[0;37m [0;33m▄[0m       [34m ▄▄[0;1;34m▄▄▄▄▄▄[0;34m▄[0m       [32m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m   [32m░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SE-TST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0196/raw/SE-TST.ANS
-# Source Revision: archive-sha256:41103238687664686d9e07f96e72b5487be82fbd8791178c3c1cfb2e24f00d8f
-# Source SHA-256: 809bc934d4ec8e10143d893429112b356242a001a9398f9dd366795895faa3ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SE-TST.ANS by Sentience (MiSTiGRiS); released in mist0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Screaming Tomato
-# SAUCE Author: Sentience
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19951102
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: The Screaming Tomato by Sentience | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0196-se-tst
 
 Write-Host '
 [45m     [0;30;45m▄▄▄▄▄▄▄▄                                                                   [0m

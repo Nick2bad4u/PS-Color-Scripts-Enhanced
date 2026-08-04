@@ -1,18 +1,4 @@
-﻿# Converted from: CPH-AVEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-010/raw/CPH-AVEN.ANS
-# Source Revision: archive-sha256:f0e8a1202a9ab4518ddf30655a3e3a838d00336d432c41d2fb4ced8564853688
-# Source SHA-256: 7baa9f77d9edcd0249be8fb7d684cd75f03472421d77b4e36bfb1e7b3424e889
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-AVEN.ANS by {YBERPUNCh (RiB); released in rib-010 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: avenge cult
-# SAUCE Author: {YBERPUNCh
-# SAUCE Group: RiB
-# SAUCE Date: 19980703
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: avenge cult by {YBERPUNCh | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-010-cph-aven
 
 Write-Host '
 [32m [0m

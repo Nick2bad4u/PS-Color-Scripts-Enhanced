@@ -1,18 +1,4 @@
-﻿# Converted from: DR-TIC2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0494/raw/DR-TIC2.ANS
-# Source Revision: archive-sha256:cda9410890e0ae8f5b3a1e8c7fce4e1b3de00d8e334ef300576869cead7a6b53
-# Source SHA-256: 1b0dd5dc6d9f0929f1f531697da2dcb5c676dc0612ffa1c77a0a1e7a5ee49151
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DR-TIC2.ANS by Duster (ACiD Productions); released in acdu0494 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Icy Connection
-# SAUCE Author: Duster
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940401
-# SAUCE Dimensions: 80x122
-# Lines: 84-122
-# Columns: 1-80
+﻿# Artwork: The Icy Connection by Duster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0494-dr-tic2-part03
 
 Write-Host '
                                      [1m▄▄████▄▄[0m

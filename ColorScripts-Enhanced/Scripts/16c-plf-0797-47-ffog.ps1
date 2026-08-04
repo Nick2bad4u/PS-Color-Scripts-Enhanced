@@ -1,17 +1,4 @@
-﻿# Converted from: 47-FFOG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0797/raw/47-FFOG.ANS
-# Source Revision: archive-sha256:36665a37d029524a07b3c0ade06e9ef3ded1bb8e68470bcb59063cd367dc113e
-# Source SHA-256: 009b7d10d04a57ca1eab1c0f845068284a58fc939458fee6bc0ff51368b23880
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 47-FFOG.ANS by dflower (phobia); released in plf-0797 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: funeral fog
-# SAUCE Author: dflower
-# SAUCE Group: phobia
-# SAUCE Dimensions: 80x25
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: funeral fog by dflower | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0797-47-ffog
 
 Write-Host '
                         [31m  [0m

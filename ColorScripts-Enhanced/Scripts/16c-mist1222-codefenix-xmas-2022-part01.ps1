@@ -1,19 +1,4 @@
-﻿# Converted from: CODEFENIX-XMAS_2022.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1222/raw/CODEFENIX-XMAS_2022.ANS
-# Source Revision: archive-sha256:dc51c8663732b6ebaaab8641a3d12addc3b06cbf210c1aba30f6784842cda291
-# Source SHA-256: 886b3f921415dc605c0dd426662acd4e179d7bfd15dc48e688eb2ad207206ce9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CODEFENIX-XMAS_2022.ANS by Codefenix (mist1222); released in mist1222 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Season's Greetings!
-# SAUCE Author: Codefenix
-# SAUCE Date: 20221104
-# SAUCE Dimensions: 80x92
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Just a simple Season's Greetings ANSI for XMAS 2022!
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Season's Greetings! by Codefenix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1222-codefenix-xmas-2022-part01
 
 Write-Host '
 [1;30m    [0;1;37m·[0m         [1m.[0m [34m░[0;37m  [0;34m░░░░░░░░░▒▓▓[0;1;34;44m░[0;1;34;40m██[0;1;34;44m░[0;34m▓▒░░░[0;37m [0;35m░█[0;1;35m▒█▒[0;35m█▓▒░░░░░░░░       [0;1;37m.[0m      [1m·[0m

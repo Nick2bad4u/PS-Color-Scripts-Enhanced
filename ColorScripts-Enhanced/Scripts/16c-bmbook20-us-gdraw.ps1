@@ -1,18 +1,4 @@
-﻿# Converted from: US-GDRAW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook20/raw/US-GDRAW.ANS
-# Source Revision: archive-sha256:ad9acf30fa46ab5c9a458319782448b90dee64987e366c3cf1e5e495b40c4e0a
-# Source SHA-256: ece9e97a6a61b12760504e57828aa1127f0975b40c75201b8cff42cc586d6160
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GDRAW.ANS by Toot + Zippy (black maiden); released in bmbook20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: gdraw
-# SAUCE Author: zippy + toot
-# SAUCE Group: black maiden
-# SAUCE Date: 19990211
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: gdraw by Toot + Zippy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook20-us-gdraw
 
 Write-Host '
                                                                      [1;30m   [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: cxc_cellfish_banners_colly_final.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cph.artpack28/raw/cxc_cellfish_banners_colly_final.ans
-# Source Revision: archive-sha256:c3d8d299aac3650a51574757712fd9f0940b06f7c2d1f7c898188c562f0549bd
-# Source SHA-256: 526bb001cc817af48dc8b1d420790ea1692724d8fb8d00fe4d712c63acaa5d40
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cxc_cellfish_banners_colly_final.ans by Coaxcable (cph.artpack28); released in cph.artpack28 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 40-58
-# Columns: 1-80
+﻿# Artwork: cxc_cellfish_banners_colly_final.ans by Coaxcable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cph-artpack28-cxc-cellfish-banners-colly-final-part02
 
 Write-Host '
 [35m-------------------------------------------------------------------------------[0m

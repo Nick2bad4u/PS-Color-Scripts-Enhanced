@@ -1,15 +1,4 @@
-﻿# Converted from: LUM-EIH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shl_0697/raw/LUM-EIH.ANS
-# Source Revision: archive-sha256:f37ba99e5179f73a5abe519014081c697c2370772c460edc74d0d6a6178c483d
-# Source SHA-256: 261b84e7dbbff2498deea15cd39ae62561beb9ca589744e97f3f1afb8b19f23b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LUM-EIH.ANS by Luminator (shl_0697); released in shl_0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 19970529
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: LUM-EIH.ANS by Luminator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shl-0697-lum-eih
 
 Write-Host '
    [31m [0m            [35m▄▄▄▄▄▄[0m

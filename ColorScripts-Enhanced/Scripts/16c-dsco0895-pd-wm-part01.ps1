@@ -1,18 +1,4 @@
-﻿# Converted from: PD-WM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dsco0895/raw/PD-WM.ANS
-# Source Revision: archive-sha256:c5eafe9a144b7f2a60871b789ee8823ca79eafbd0e867cafcaf16646225c9998
-# Source SHA-256: f8729d1304361540a5f53da24a2938f5655cfab923935d0be606235fcb08d6ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PD-WM.ANS by proddy (disCo); released in dsco0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: wintermute
-# SAUCE Author: proddy
-# SAUCE Group: disCo
-# SAUCE Date: 19950705
-# SAUCE Dimensions: 80x55
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: wintermute by proddy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dsco0895-pd-wm-part01
 
 Write-Host '
 [34m▄██████████████████████████████████████████████████████████████████████████████▄[0m

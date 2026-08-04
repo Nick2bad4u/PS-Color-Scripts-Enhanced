@@ -1,18 +1,4 @@
-﻿# Converted from: NOH-PREV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0497/raw/NOH-PREV.ANS
-# Source Revision: archive-sha256:0a24528ad1b8350dc6275ed84884990aa181682392c532082994d5872ceb5801
-# Source SHA-256: 52afe302f0378134b56a04407ffcb5450ac929755f265bd65f9dff2232cc1f36
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-PREV.ANS by nOah? (fusion); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: prevail
-# SAUCE Author: nOah?
-# SAUCE Group: fusion
-# SAUCE Date: 19970401
-# SAUCE Dimensions: 80x13
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: prevail by nOah? | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0497-noh-prev
 
 Write-Host '
         [31m▄[0;1;31m▄[0;31m▄[0m        [31m▄[0;1;31m▄[0;31m▄[0m    [31m-nOah?[0;37m  [0;31m▄[0;1;31m▄▄▄[0;31m▄[0m            [31m▄[0;1;31m▄▄[0;31m▄[0m         [31m▄[0;1;31m▄▄▄▄▄▄▄▄▄▄▄[0;31m▄[0m

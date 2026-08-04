@@ -1,13 +1,4 @@
-﻿# Converted from: ROY-M&S.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roy-stuf/raw/ROY-M%26S.ANS
-# Source Revision: archive-sha256:1f203f95f339c258e43a9098f8d2e689ed73de537b1cfe6bea312dfc156f1358
-# Source SHA-256: 6bef63a828ae8c1b2c271075a8ac544d0901a285e88fa41d975557787746ed82
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ROY-M&S.ANS by Roy (roy-stuf); released in roy-stuf and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: ROY-M&S.ANS by Roy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roy-stuf-roy-m-s
 
 Write-Host '
                     [32m· ─ ─── [0;1;33mW E L C O M E [0;32m· [0;1;33mT O [0;32m─── ─ ·[0m

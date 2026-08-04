@@ -1,18 +1,4 @@
-﻿# Converted from: FK-VC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0295/raw/FK-VC.ANS
-# Source Revision: archive-sha256:3c1f9e2be5bb9da143a16b3da10a257af365153b05cfdbe553f9e1db9662a266
-# Source SHA-256: f746e30478ee0f89b5b953e8e4f33c2f395d804bac4dbb7975d6ae6680af89e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FK-VC.ANS by Flick (Union); released in uni-0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Violent Crimes
-# SAUCE Author: Flick
-# SAUCE Group: Union
-# SAUCE Date: 19950201
-# SAUCE Dimensions: 80x25
-# Lines: 48-95
-# Columns: 1-80
+﻿# Artwork: Violent Crimes by Flick | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0295-fk-vc-part02
 
 Write-Host '
 [1;33m█▓▄[0m         [1;30m▒▄▀[0m                            ░░ ▒▓█▌[1;30m▐████████████████████████████[0m

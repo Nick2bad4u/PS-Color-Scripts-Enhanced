@@ -1,13 +1,4 @@
-﻿# Converted from: FB-YAKH1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/atm-0594/raw/FB-YAKH1.ANS
-# Source Revision: archive-sha256:a7745e0553a5b6c51bb70e798c51baa47b7f819d65244d42098c318b7e86f80b
-# Source SHA-256: 9084b784f2b86c2f479686aa4fb9335a21c2a2e89c576dd461a9dd137f8e00cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FB-YAKH1.ANS by Frost Byte (atm-0594); released in atm-0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: FB-YAKH1.ANS by Frost Byte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-atm-0594-fb-yakh1-part01
 
 Write-Host '
         [36m▄[0;1;36;46m▀▀█▀▀[0;36m▄    ▄[0;1;36;46m▀▀█▀▀[0;36m▄   [0;35m┌───────────────────────────────────────────────┐[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: 1999 - 07 - FEV-VOID.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tcf20/raw/1999%20-%2007%20-%20FEV-VOID.ans
-# Source Revision: archive-sha256:af8609219fccc484668fb405a7f1d45efb8c574501a461c5c1b47d87a12921ce
-# Source SHA-256: 81e2a2550faeeb4ef3308a917cfa3f4433a95987a98cd8c0c570128f1c970799
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 1999 - 07 - FEV-VOID.ans by slim shady (S7E7V7E7N); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Void!
-# SAUCE Author: slim shady
-# SAUCE Group: S7E7V7E7N
-# SAUCE Date: 19990317
-# SAUCE Comments: Original pic of the void.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: The Void! by slim shady | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tcf20-1999-07-fev-void-part01
 
 Write-Host '
 

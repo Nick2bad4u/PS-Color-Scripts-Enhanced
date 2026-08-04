@@ -1,18 +1,4 @@
-﻿# Converted from: JTE-MAT9.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hrmkiva2/raw/JTE-MAT9.ANS
-# Source Revision: archive-sha256:abc573be699b490f9317d70002a528632e59fc3fddf316663449886fd8c21a04
-# Source SHA-256: bc9ff8e1363e9150ca087ec1d9c3341a3efca6c6cb555ad8032cf745757c21c5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JTE-MAT9.ANS by Jate (HiRMU); released in hrmkiva2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: dA Vulva Matrix screen
-# SAUCE Author: Jate
-# SAUCE Group: HiRMU
-# SAUCE Date: 19960603
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: dA Vulva Matrix screen by Jate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hrmkiva2-jte-mat9
 
 Write-Host '
 [1;47m                     [0m▀▀[30;43m▀▀▄▀▀    ▄▀ [0;1;31;43m▒[0;30;43m▐░ ░ ░    ▀▄   ▀▀[0m

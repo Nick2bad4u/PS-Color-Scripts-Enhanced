@@ -1,18 +1,4 @@
-﻿# Converted from: NTR-ILL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/charm04/raw/NTR-ILL.ANS
-# Source Revision: archive-sha256:38d0a431ae1d547659978002dc7674e5ce3d32914d382be08425914443942edd
-# Source SHA-256: f82685f36e98da7f02693474e9cdb796e6f557a6153fcf6921c012c0933287ef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NTR-ILL.ANS by Neurotrance (Charm); released in charm04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Neurotrance's hour of illusions
-# SAUCE Author: Neurotrance
-# SAUCE Group: Charm
-# SAUCE Date: 19971030
-# SAUCE Dimensions: 80x25
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: Neurotrance's hour of illusions by Neurotrance | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-charm04-ntr-ill
 
 Write-Host '
               [34m [0m          [1;36m▄[0;36m▄[0m

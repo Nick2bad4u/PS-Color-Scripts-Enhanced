@@ -1,13 +1,4 @@
-﻿# Converted from: 25L00023.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fever1yr/raw/25L00023.ANS
-# Source Revision: archive-sha256:b8730cb239566d902cbbb793ec9880e9d3944024770c6cd876c7bf1b9023d8e7
-# Source SHA-256: cd83758e4ba414f6c4b6ac1b03ad6ecd7c4531440aaa83aea99f7a1cd9bfb113
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 25L00023.ANS by Fever (fever1yr); released in fever1yr and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: 25L00023.ANS by Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fever1yr-25l00023
 
 Write-Host '
 [1;31;41m░[0;30;41m▄▄ ▄▄▄ ▄▄  ▄▄[0;30;47m█[0;30;41m▄[0;36;40m [0;1;30;40m▄▀■▄[0;1;30;46m▓░[0;36m▓[0;1;30;46m▄[0;1;30;40m▓▀[0;36m [0;30;43m▀[0;37;40m  [0;30;43m▀    [0;1;33;43m  [0;1;30;43m ░░▄[0;30;43m▄▄[0;30;47m██[0;30;43m▀▀▀[0;30;47m█[0;37;40m [0;1;30;40m■▄▓[0;1;30;43m▓░░[0;30;43m      ▄[0;30;47m████[0;33;40m░[0;30;47m█[0;30;43m▀▀ [0;1;30;43m▄▄[0;30;43m    [0;1;30;40m`[0m

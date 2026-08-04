@@ -1,18 +1,4 @@
-﻿# Converted from: SN!HARRY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak2/raw/SN!HARRY.ANS
-# Source Revision: archive-sha256:c83fd66fd5682c2a8b3a34174fe62c7584ac006f8517d86002eef3fdd8671285
-# Source SHA-256: af5378e40b3c62cebbb2f575ae1e9534980a2339af3abcf109993025b09a1f78
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SN!HARRY.ANS by Snowball (Ecolove); released in ecl-pak2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Een ode aan Haagse Harry!
-# SAUCE Author: Snowball
-# SAUCE Group: Ecolove
-# SAUCE Date: 19971224
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Een ode aan Haagse Harry! by Snowball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak2-sn-harry
 
 Write-Host '
 [1;30;47m▓▀▀[0;1;30;40m█▄▄▄[0;1;30;47m▓▓[0;1;30;40m█[0;1;30;47m▀[0;1;37;47m▀[0;1;30;47m▀▀▀▀▀▀▀▀▀▀ ▀▓▓[0;1;30;40m████[0;1;30;47m█▀[0;1;30;40m████▄▄▄▄▄██[0m    [1;30m     [0m    [1;30m            [0m

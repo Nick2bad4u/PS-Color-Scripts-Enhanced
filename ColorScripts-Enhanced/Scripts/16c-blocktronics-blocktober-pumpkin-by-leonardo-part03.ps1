@@ -1,19 +1,4 @@
-﻿# Converted from: _Pumpkin_by_Leonardo.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_blocktober/raw/_Pumpkin_by_Leonardo.ans
-# Source Revision: archive-sha256:a4249815771be4175829e3af0e1e24a265146879ea43ac19f701d6ebb72fa88f
-# Source SHA-256: d87ded45a02c5da9c494ecf846f08b1ab44414a1124cc4bac90a7eecedc64ffd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _Pumpkin_by_Leonardo.ans by Leonardo + Nail (mean scheme); released in blocktronics_blocktober and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Mean Scheme Halloween 2016
-# SAUCE Author: leonardo and nail
-# SAUCE Group: mean scheme
-# SAUCE Date: 20160818
-# SAUCE Dimensions: 80x167
-# SAUCE Font: IBM VGA
-# Lines: 85-126
-# Columns: 1-80
+﻿# Artwork: Mean Scheme Halloween 2016 by Leonardo + Nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blocktober-pumpkin-by-leonardo-part03
 
 Write-Host '
 [34m/[0;37m [0;34m▀▀▀[0;34;104m▄[0m [31m ▄[0;31;44m▄▄[0;35;41m▄[0;1;35;45m▄[0;35;105m▀[0;31;45m▀▀[0;31;40m▄▄[0;37;40m [0;31;40m▄[0;37;40m [0;31;40m▄[0;37;40m  [0;31;40m▄ [0;37;40m    [0;34;40m [0;1;30;40m▄[0;31m▄ █[0;37m [0;34m▄[0;37m    [0;31m█▌▄▄▐[0;1;31;41m▀█[0;1;33;101m▀▀[0;31m█ ▄▄▄▄▄▄▄[0;1;31;41m▄▄▄███▀[0;31m▌[0;33m▀[0m

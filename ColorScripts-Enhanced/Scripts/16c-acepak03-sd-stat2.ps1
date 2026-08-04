@@ -1,13 +1,4 @@
-﻿# Converted from: SD-STAT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acepak03/raw/SD-STAT2.ANS
-# Source Revision: archive-sha256:71f78f593817a36727e411dee91071ce24dbde3a62d521b9c6d47c19e804a8d7
-# Source SHA-256: 9a038a60c370240aa2d331a5390fed3a798e7db6f381d39e7448ba6fb5235aa2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-STAT2.ANS by Sudden Death (acepak03); released in acepak03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: SD-STAT2.ANS by Sudden Death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acepak03-sd-stat2
 
 Write-Host '
 

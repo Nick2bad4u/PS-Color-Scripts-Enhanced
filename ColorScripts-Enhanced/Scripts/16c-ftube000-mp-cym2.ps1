@@ -1,13 +1,4 @@
-﻿# Converted from: mp-cym2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ftube000/raw/mp-cym2.ans
-# Source Revision: archive-sha256:f29188f4b41daf99fc774947c2d6d1a423baf4db21494dd9d6a1f60fefebfd1f
-# Source SHA-256: 9e5e04ab5a67d1feeef797db7c3e29e2dd179fc44aa5bd4e6e76fc8f3925cd80
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mp-cym2.ans by Meatpod (ftube000); released in ftube000 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: mp-cym2.ans by Meatpod | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ftube000-mp-cym2
 
 Write-Host '
 [34m$$$$$$$$$$$$$$$$$$$┘`[0;33m.,[0;37m.[0;34m`└[0;37m . [0;34m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$P┘²²²└?$$$$$$$$[0m

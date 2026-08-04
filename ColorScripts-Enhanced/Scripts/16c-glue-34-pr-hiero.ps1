@@ -1,18 +1,4 @@
-﻿# Converted from: Pr-hiero.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-34/raw/Pr-hiero.ans
-# Source Revision: archive-sha256:9e0a0dccb577f6014cf58e9ea09ed207eb1e2086aae9821b650288ffddccb599
-# Source SHA-256: 305ba90291c70363644f877b2ddba79b672e8e76af36a45a74f0b97a5a754028
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Pr-hiero.ans by president (glue); released in glue-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: hieroglyphics
-# SAUCE Author: president
-# SAUCE Group: glue
-# SAUCE Date: 20080221
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: hieroglyphics by president | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-34-pr-hiero
 
 Write-Host '
                         [1;30m▄▄▄▄[0m [1;30m▄▄▄          [0m                [1;30m██[0m

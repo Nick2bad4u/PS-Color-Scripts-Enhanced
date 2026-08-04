@@ -1,18 +1,4 @@
-﻿# Converted from: K0-BLADE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/goo001/raw/K0-BLADE.ANS
-# Source Revision: archive-sha256:609b75692692ccb2a91163fa5e36ca9c681f1416fea825b599b6028bd9003936
-# Source SHA-256: 6e03613c08ea0dc9347d11a32433e3fe65f7dc4ce64ed38a0c3115c1d88969ab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K0-BLADE.ANS by k0rpse (gOo!prOductionz); released in goo001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Blade Promotional
-# SAUCE Author: k0rpse
-# SAUCE Group: gOo!prOductionz
-# SAUCE Date: 19951210
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Blade Promotional by k0rpse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-goo001-k0-blade
 
 Write-Host '
 [1m[0m           [33m▄▄▓▄[0m

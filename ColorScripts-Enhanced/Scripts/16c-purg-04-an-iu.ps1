@@ -1,13 +1,4 @@
-﻿# Converted from: AN-IU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-04/raw/AN-IU.ANS
-# Source Revision: archive-sha256:cf9a2279a34a1d82cee07323cbb5bca77fc6620fc4bda1203010fce2dfea132d
-# Source SHA-256: 79c65625b7273838757088ed626c01d6b4c86421d6961d349ad9ad1b503b46bd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AN-IU.ANS by Anilog (purg-04); released in purg-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: AN-IU.ANS by Anilog | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-04-an-iu
 
 Write-Host '
          [37;40m▄[0;1;37;47m░░▒▓▓[0;1;37;40m▀[0;32;40m▄▄▄▄▄▄▄▄▄▄▄▄[0;1;32;40m▄[0;32;40m   [0;37;40m                                         [0m

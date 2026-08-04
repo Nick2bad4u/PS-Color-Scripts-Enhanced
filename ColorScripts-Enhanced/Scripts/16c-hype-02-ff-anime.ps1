@@ -1,17 +1,4 @@
-﻿# Converted from: FF-ANIME.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-02/raw/FF-ANIME.ANS
-# Source Revision: archive-sha256:85e01eadce5f9498d81aff1ce740b243afce4b217290d5d85773c523660d0b86
-# Source SHA-256: d3a3cf6e9612ad94eef21bce97987bd541c47a4b13bd40bbe56e3b71cd6046b7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FF-ANIME.ANS by Free Fall (Hype); released in hype-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: "Hype whq" Pic
-# SAUCE Author: Free Fall
-# SAUCE Group: Hype
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: "Hype whq" Pic by Free Fall | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-02-ff-anime
 
 Write-Host '
 [1;34m▐▌[0;34m░[0;1;31m▄▄▄▄█▄[0m [1;34m▀[0m [1;34m▀[0m [1;34;44m▒[0m [1;34m▄[0;1;34;44m▓[0;1;34;40m▀[0m  [34m░░▄▄▄▄▄[0;37m  [0;1;34m▀[0;1;34;44m░[0;1;34;40m▄[0m  [34m░░[0m

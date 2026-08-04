@@ -1,18 +1,4 @@
-﻿# Converted from: DD-NEW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rags2r2a/raw/DD-NEW.ANS
-# Source Revision: archive-sha256:b6fe4ad2710b940b9fc065cc3d8845bc48a34f58dd8c5b1b55d6bd7f8162e058
-# Source SHA-256: 38b002a9817650fbef5adf55e7f9830aa7bc74ac32e804f9182b2c47f77e2044
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-NEW.ANS by DD (.rAGS 2 rICHES.); released in rags2r2a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: "DeeplyDisturbed ... rICH b0Y!"
-# SAUCE Author: DD
-# SAUCE Group: .rAGS 2 rICHES.
-# SAUCE Date: 19970316
-# SAUCE Dimensions: 80x245
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: "DeeplyDisturbed ... rICH b0Y!" by DD | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rags2r2a-dd-new-part01
 
 Write-Host '
 

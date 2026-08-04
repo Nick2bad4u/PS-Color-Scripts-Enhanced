@@ -1,13 +1,4 @@
-﻿# Converted from: SFNet.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1oo-moon/raw/SFNet.ans
-# Source Revision: archive-sha256:171e2925602123fe0c10a0ec4407c2834bc26a002fba2fa406825fd80132e138
-# Source SHA-256: f929b0c068c63a43f860e41f15ceaa8eb787f4b567c409ac09c8860538836d25
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SFNet.ans by Miracle (1oo-moon); released in 1oo-moon and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-9
-# Columns: 1-80
+﻿# Artwork: SFNet.ans by Miracle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1oo-moon-sfnet
 
 Write-Host '
 [1;30m▄▄▄▄▄▄▄▄▄▄[0m      [1;30m▄▄▄▄▄▄▄▄▄[0m  [1;30m▄▄▄▄▄▄▄▄[0m              [1;30m▄▄▄▄▄[0;1;34m■[0;1;30m▄▄▄  ▄▄▄▄▄▄▄▄▄[0m [1;30m▄▄▄▄▄▄▄▄▄[0m

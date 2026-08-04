@@ -1,18 +1,4 @@
-﻿# Converted from: SN-SHA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/epic0001/raw/SN-SHA.ANS
-# Source Revision: archive-sha256:469e19c85e17e735160f218c31263c528e0f299d68abc25979191060f709ef80
-# Source SHA-256: cb4b4932c8def6ef4a583497bf4c456ae7d46c91394fe6bf1d3a3d707ad0c69b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SN-SHA.ANS by Snowball (Ecolove); released in epic0001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Shaolin Style
-# SAUCE Author: Snowball
-# SAUCE Group: Ecolove
-# SAUCE Date: 19990704
-# SAUCE Dimensions: 80x172
-# Lines: 87-129
-# Columns: 1-80
+﻿# Artwork: Shaolin Style by Snowball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-epic0001-sn-sha-part03
 
 Write-Host '
 [1;37;40m▀[0m [1m▄▄█[0;1;47m▓▓▒▒░░░[0m█████▀██████[1;33;47m░░[0m███████████[1;30;47m ░[0;1;30;40m▄[0m  [1;30m▀▀[0;1;30;47m▓▓[0;1;30;40m███[0m [1;30m░▓███[0;1;30;41m▓▓[0;1;30;40m████[0;1;30;42m▓[0;1;30;40m███▌[0m [33m▐[0;1;30;43m▓[0;1;30;40m▌[0m   [1m██▄[0m [33m▀[0;1;31;43m░▒[0m

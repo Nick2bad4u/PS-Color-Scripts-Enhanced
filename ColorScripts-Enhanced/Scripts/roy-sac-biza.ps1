@@ -1,13 +1,4 @@
-﻿# Converted from: ROY-BIZA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roy-stuf/raw/ROY-BIZA.ANS
-# Source Revision: archive-sha256:1f203f95f339c258e43a9098f8d2e689ed73de537b1cfe6bea312dfc156f1358
-# Source SHA-256: 93038afb037fbd6dd61e79eb72ee356f0c892ad5001963fa62d0d3ebabc5a784
-# Source License: FAL-1.3
-# Source Attribution: ROY-BIZA.ANS by Roy/SAC aka Carsten Cumbrowski; released in roy-stuf and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: ROY-BIZA.ANS by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-biza
 
 Write-Host '
 

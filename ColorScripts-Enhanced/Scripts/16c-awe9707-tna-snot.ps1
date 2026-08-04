@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-SNOT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9707/raw/TNA-SNOT.ANS
-# Source Revision: archive-sha256:718ad2b08b14a24156d1af86433f0063bd9bba178c290c317100b8e5ffb3939c
-# Source SHA-256: a27524f6b4d8569877cfb533588b6aa1c896352a71943f3f8c792fd5bcd0c9eb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-SNOT.ANS by The Night Angel (AWE Lettering); released in awe9707 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Snot
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970713
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Snot by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9707-tna-snot
 
 Write-Host '
 

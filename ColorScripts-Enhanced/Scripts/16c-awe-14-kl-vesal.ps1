@@ -1,18 +1,4 @@
-﻿# Converted from: KL-VESAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-14/raw/KL-VESAL.ANS
-# Source Revision: archive-sha256:21c28d2dde738f9d23fc96c444edc6890afcd7e03360cdb363478f356a32f6cd
-# Source SHA-256: 79d66bc6de664372cbd041e3ecc0e3ae098849b04fe485db680dc63afcd07e6a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KL-VESAL.ANS by Knocturnal (AWE Lettering); released in awe-14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Vesalis
-# SAUCE Author: Knocturnal
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19971229
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Vesalis by Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-14-kl-vesal
 
 Write-Host '
 [34m▄▄[0m   [34m▄[0m     [34m▄▄▄▄▄   ▒▒ [0;1;34m▄▄[0;34m▄[0;1;34m▄[0;34m▄▄ ▄[0m   [34m▄[0;36m▄[0;1;34m▄[0;34m▄[0;1;34m▄[0;34m▄[0;1;34m▄▄[0;34m▄  ▄▄ ▄[0;1;34m▄▄[0;34m▄[0;36m ░░[0;1;36m▄▄[0;36m▄▄[0;34m [0;37m▄[0;1;34m▄[0;34m▄[0;1;34m▄▄[0;34m▄▄[0;1;34m▄[0;34m▄ ▄▄ ▄ ▄[0;1;30m [0m [33m   [0m

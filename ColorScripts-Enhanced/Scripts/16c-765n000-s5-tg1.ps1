@@ -1,18 +1,4 @@
-﻿# Converted from: S5-TG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/765n000/raw/S5-TG1.ANS
-# Source Revision: archive-sha256:bc948aa3c1d1be4a72991269719a2bbe84c0eab31a040d40941acad4d7a8b0f3
-# Source SHA-256: 3cb3a3ecbee7255f39e33c89f8328555abf4755455a495c4ce5a3b218adfc095
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S5-TG1.ANS by SuicidalSnowman (765); released in 765n000 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Gauntlet
-# SAUCE Author: SuicidalSnowman
-# SAUCE Group: 765
-# SAUCE Date: 19960421
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: The Gauntlet by SuicidalSnowman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-765n000-s5-tg1
 
 Write-Host '
 [1m[0m[1m [0;33m▐[0;1;33;43m░[0;1;30;43m░[0;33m██[0;1;35m░ [0;33m▄█[0;1;33;43m▒░░[0;33m█▀▄█▓▓░   ██[0;1;31;43m▒█[0;1;31;40m█  [0;1;31;41m░[0;31m▌▐▌[0;1;31m▐[0;1;31;41m▒░[0;31m█ [0;37m░  [0;1;30m▄████ [0;1;30;47m█[0m [1;31;41m▐[0m [1;30;40m█████▄▄[0;31m▀▀[0;1;31;41m░▒[0;1;31;40m▄ [0;1;31;47m▓▓[0;1;31;40m█  [0;31m█[0;1;37;41m░[0;31m█ ██ █[0;1;35m░[0m

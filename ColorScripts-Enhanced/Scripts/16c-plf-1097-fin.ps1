@@ -1,18 +1,4 @@
-﻿# Converted from: _FIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1097/raw/_FIN.ANS
-# Source Revision: archive-sha256:36c7150b2835995ba27c6f1c5cfc23dc5fdf9213c2fb0b333e09d1aa0d00da5f
-# Source SHA-256: c2adaf4a8982a2955deeeaec42a25ec3483af1c53f6c10ede7f5b35b698f8fb8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _FIN.ANS by Flexor + Big Yellow Man (poffelipoff); released in plf-1097 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the end
-# SAUCE Author: flexor + bym
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19971103
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: the end by Flexor + Big Yellow Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1097-fin
 
 Write-Host '
                 [36m▐▌[0m                       [36m▐[0m     [33m▄█[0;1;31;43m  [0;1;31;40m███[0;1;31;43m▄ [0m

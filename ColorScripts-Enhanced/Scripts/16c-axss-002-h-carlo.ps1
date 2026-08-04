@@ -1,18 +1,4 @@
-﻿# Converted from: $H-CARLO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axss-002/raw/%24H-CARLO.ANS
-# Source Revision: archive-sha256:f4056ab449151f35290bdde24a5abd8e7eccf7e50033d46e82fd20afc57e22cb
-# Source SHA-256: 321ea2f716baef62097226d627a8e941462ed54f80f337ca1cdf1cdaa7131f3b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: $H-CARLO.ANS by Shinigami (.%.AXss.%. -97); released in axss-002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: A Logo for a coder.
-# SAUCE Author: Shinigami
-# SAUCE Group: .%.AXss.%. -97
-# SAUCE Date: 19970604
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: A Logo for a coder. by Shinigami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axss-002-h-carlo
 
 Write-Host '
                              [1;30m...[0m                              [1;30m..:::::.[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: zAK-BAT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel27/raw/zAK-BAT2.ANS
-# Source Revision: raw-sha256:1ee3e0a55e0040c7d52bfd8000b799f2ada48821332b33b21417e47fe63ac55f
-# Source SHA-256: 1ee3e0a55e0040c7d52bfd8000b799f2ada48821332b33b21417e47fe63ac55f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zAK-BAT2.ANS by ZAK (Fuel); released in fuel27 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Batman?
-# SAUCE Author: ZAK
-# SAUCE Group: Fuel
-# SAUCE Date: 20180312
-# SAUCE Dimensions: 80x70
-# SAUCE Font: IBM VGA
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: Batman? by ZAK | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel27-zak-bat2-part01
 
 Write-Host '
 [34;40m███████[0;1;34;44m▄▄[0;34m██████████████████████▀[0;37m [0;34m▀[0m

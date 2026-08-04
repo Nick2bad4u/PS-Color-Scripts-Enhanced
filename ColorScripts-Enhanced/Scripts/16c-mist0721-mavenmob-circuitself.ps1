@@ -1,19 +1,4 @@
-﻿# Converted from: MAVENMOB-CIRCUITSELF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0721/raw/MAVENMOB-CIRCUITSELF.ANS
-# Source Revision: archive-sha256:9d3d54e42a99a6e7bef51cb79a023b85709051f377817bc02741bd65f1493da4
-# Source SHA-256: e4619aa891e4033da94b4a0dd2801fc60c04601ed19145d402da2db1160352ad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MAVENMOB-CIRCUITSELF.ANS by Mavenmob (Mistigris); released in mist0721 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Creation of a Self Logos
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20210711
-# SAUCE Dimensions: 80x44
-# SAUCE Font: IBM VGA
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: The Creation of a Self Logos by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0721-mavenmob-circuitself
 
 Write-Host '
 

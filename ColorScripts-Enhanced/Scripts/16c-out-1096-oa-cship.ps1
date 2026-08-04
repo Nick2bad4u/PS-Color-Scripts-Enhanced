@@ -1,13 +1,4 @@
-﻿# Converted from: OA-CSHIP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-1096/raw/OA-CSHIP.ANS
-# Source Revision: archive-sha256:b968a58ce40a1a23cb7e5d30344f2e323301c25c74ff3278c34876cf785468a8
-# Source SHA-256: a873dac15ae173e642df4099eb2eb5a61df5bdc6ba6e31396639b7721dced9e1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OA-CSHIP.ANS by Sandy Chidester (out-1096); released in out-1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: OA-CSHIP.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-1096-oa-cship
 
 Write-Host '
 [1;31;40m┌──────────────────[0;31;40m▀[0;1;31;40m──[0;31;40m▄ ▄█▄▄[0;1;31;40m──[0;31;40m▄▄▄[0;1;31;40m──[0;31;40m▄▄▀▀ [0;1;31;40m▄██▀▄█[0;1;33;40m▀▄▄▄▄▀██▀[0;1;33;41m▄▄[0;37;40m [0;1;33;40m▀▀▀▀[0;1;33;41m▄▄[0;1;33;40m▄██ ▀▄▄█ [0;31;40m▄▄▄[0;1;31;40m───┐[0m

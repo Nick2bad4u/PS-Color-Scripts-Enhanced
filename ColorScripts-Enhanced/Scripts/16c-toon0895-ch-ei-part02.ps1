@@ -1,13 +1,4 @@
-﻿# Converted from: CH-EI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toon0895/raw/CH-EI.ANS
-# Source Revision: archive-sha256:c1a6798ea83d0ccac05fb0d58c558b4384e596f6d867896c83346030bd76baa1
-# Source SHA-256: 339d21a9a683b1ae08e403bedbe182b395ade009ceda2914c914ee5f1c6e826d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CH-EI.ANS by Chromium (toon0895); released in toon0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 48-94
-# Columns: 1-80
+﻿# Artwork: CH-EI.ANS by Chromium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toon0895-ch-ei-part02
 
 Write-Host '
 [1;36m██[0m [32m█[0;37m [0;31m██▄▀[0;1;36m▄████████████[0;1;36;46m█[0;36m██[0;1;36;46m [0m [33m██[0;37m [0;33m██████[0;37m [0;33m████████████████▀██[0;37m [0;1;36m███████████████████████[0m

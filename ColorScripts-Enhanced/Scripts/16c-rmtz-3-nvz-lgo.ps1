@@ -1,18 +1,4 @@
-﻿# Converted from: NVZ-LGO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmtz-3/raw/NVZ-LGO.ANS
-# Source Revision: archive-sha256:9049eb84d35299820d945f342b3906500ed394a8e74f37bd2f023c428d1b0765
-# Source SHA-256: a0a3d8017e80855833280a47ce1ac5401b979ea0600936289601f042ec80ce57
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NVZ-LGO.ANS by novice (rmtz); released in rmtz-3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: compo ANSi by nvz^rmtz (gulp)
-# SAUCE Author: novice
-# SAUCE Group: rmtz
-# SAUCE Date: 19960824
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: compo ANSi by nvz^rmtz (gulp) by novice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmtz-3-nvz-lgo
 
 Write-Host '
 [1;34m ░▒▓▓▓████████████▀▀▀▀████▀[0;36m▄▀▀▀▀▀▀▄[0;1;34m▀██████▀[0;36m▄▄▀▀▀▀▀▀▀▀▀▀▀▀▀▄[0;1;34m▀▀▀██████████[0;1;34;44mnvz.rmtz[0m

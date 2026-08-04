@@ -1,18 +1,4 @@
-﻿# Converted from: IP-TILT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/coa1096/raw/IP-TILT.ANS
-# Source Revision: archive-sha256:128b6c2a8f568cf6bad059228a21cd32425d44608f32b5cbcfef7f04ec4e1f32
-# Source SHA-256: a6366bcfb7dd9303db14a0dda4463b9e353ace8cfc89a9da192dd559cb8cd058
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IP-TILT.ANS by impulse (coa); released in coa1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Tilt
-# SAUCE Author: impulse
-# SAUCE Group: coa
-# SAUCE Date: 19961029
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: Tilt by impulse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-coa1096-ip-tilt
 
 Write-Host '
 

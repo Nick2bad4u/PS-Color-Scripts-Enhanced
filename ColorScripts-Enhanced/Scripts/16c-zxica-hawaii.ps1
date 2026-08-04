@@ -1,13 +1,4 @@
-﻿# Converted from: HAWAII.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zxica/raw/HAWAII.ANS
-# Source Revision: archive-sha256:ef5a7129395b9ec08bfcf4061c70d6ecdc1c0015e2a4b12e71fa099c7877c834
-# Source SHA-256: c42e9c1ca21c94b3c632d955443396367f9603349753a4a7d627f8146babe75b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HAWAII.ANS by Dieznyik (zxica); released in zxica and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: HAWAII.ANS by Dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zxica-hawaii
 
 Write-Host '
            [31m▀▄ ░▄[0m         [34m [0m          [30;42m░[0;32;40m░[0;30;42m▓[0m

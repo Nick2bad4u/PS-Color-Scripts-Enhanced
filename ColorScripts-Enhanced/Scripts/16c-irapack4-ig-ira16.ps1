@@ -1,13 +1,4 @@
-﻿# Converted from: IG-IRA16.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/irapack4/raw/IG-IRA16.ANS
-# Source Revision: archive-sha256:ecb1d80dafdb417e5051f5ba35e0e511304e00b3a6fc7254558e7c31767db2ac
-# Source SHA-256: d35f6c55bf4c73a086b2a861f9765d43393763141488e1a07c677fd2ea78225b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IG-IRA16.ANS by Iguana (irapack4); released in irapack4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: IG-IRA16.ANS by Iguana | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-irapack4-ig-ira16
 
 Write-Host '
 

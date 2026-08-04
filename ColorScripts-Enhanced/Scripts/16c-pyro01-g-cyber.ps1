@@ -1,18 +1,4 @@
-﻿# Converted from: G-CYBER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pyro01/raw/G-CYBER.ANS
-# Source Revision: archive-sha256:31125dd5a4148d0c78638bab08ce0b4f385c968ebbdf5e860d18cf47bc1faabe
-# Source SHA-256: 7626aea720c59000bbed10a4966298d9a3b9d1f90d8ac2ea423ec02b71c94193
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: G-CYBER.ANS by Genocide (Pyro); released in pyro01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Cyber Mail
-# SAUCE Author: Genocide
-# SAUCE Group: Pyro
-# SAUCE Date: 19960216
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Cyber Mail by Genocide | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pyro01-g-cyber
 
 Write-Host '
      [1;34m▄[0;1;34;42m▓▒░ [0;32m██[0;1;32;42m░[0;32m█[0;1;33;42m▄▄[0;1;32;42m░[0;1;32;40m▄  [0;1;34;46m▒░▒[0;1;34;42m▓[0m  [1;32m▀[0;1;32;42m▓▒[0;1;33;42m▄[0;32m▄  [0;1;34m▄[0;1;34;42m▓▓▒[0;32m█[0;1;32;42m░[0;1;33;42m▄[0;1;32;42m░[0;32m▄    [0;1;34m▄[0;1;34;42m▓▒[0;1;35;42m░  [0;1;32;42m░[0;32m█[0;1;33;42m▄[0;32m█[0;1;32;42m░[0;32m▄   [0;1;34m▄[0;1;34;42m▓▒░ [0;1;33;42m░ ▄[0;32m▄▄[0;1;30mGENOCiDE[0m

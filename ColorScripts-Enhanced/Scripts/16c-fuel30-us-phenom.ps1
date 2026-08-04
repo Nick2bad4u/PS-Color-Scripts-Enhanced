@@ -1,19 +1,4 @@
-﻿# Converted from: us-phenom.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel30/raw/us-phenom.ans
-# Source Revision: archive-sha256:e3148e82a669aa484baf0738069fbabe44ba2824856e1cb4b05875b86bdd4621
-# Source SHA-256: 2f2a9bb32f88196ec37fc837dc9fd589c617c846e1117403df7a3209afaeece6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-phenom.ans by The Knight + Smooth (fuel); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Phenom Productions
-# SAUCE Author: the knight & smooth
-# SAUCE Group: fuel
-# SAUCE Date: 20190502
-# SAUCE Dimensions: 80x46
-# SAUCE Font: IBM VGA
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Phenom Productions by The Knight + Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel30-us-phenom
 
 Write-Host '
                                   [1;30;40m▄[0m

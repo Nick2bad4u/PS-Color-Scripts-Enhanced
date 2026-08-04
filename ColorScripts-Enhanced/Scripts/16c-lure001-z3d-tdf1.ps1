@@ -1,18 +1,4 @@
-﻿# Converted from: Z3D-TDF1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lure001/raw/Z3D-TDF1.ANS
-# Source Revision: archive-sha256:4bd385abce2c9c5a8caaface84fa74809f8b3dae67f2f4374e4664550d5af3bf
-# Source SHA-256: 8b093e4c359668df66cae634e75c92f4835334f7bdec013edc465b7c5b513326
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Z3D-TDF1.ANS by zed3dee (lure); released in lure001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Nightmares
-# SAUCE Author: zed3dee
-# SAUCE Group: lure
-# SAUCE Date: 20010730
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: Nightmares by zed3dee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lure001-z3d-tdf1
 
 Write-Host '
 [1;31;45m▓░[0;35m█▌▄[0m                  [35m░░░░[0m                                             [35m   ▄[0;37m  [0;35m▀[0;1;31;45m▓[0m

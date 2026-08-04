@@ -1,13 +1,4 @@
-﻿# Converted from: kmb-gen2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gen-09/raw/kmb-gen2.ans
-# Source Revision: archive-sha256:28dfd4d53028a3ef9674c9b8c0f8c88f562e508d39c2de8ee56ef396a94aef65
-# Source SHA-256: 4fd2f44ae1231f23ac06bc39e618faf972b6ff7da80165f534683646e1e909df
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: kmb-gen2.ans by Kumb4 (gen-09); released in gen-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: kmb-gen2.ans by Kumb4 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gen-09-kmb-gen2
 
 Write-Host '
 [34m█[0;1;34;47m░░▓[0;34m▄[0m      [34m   ▀[0;1;34;44m░[0;1;34;40m▄[0;34m▄[0m     [34m█[0;34;47m▄[0;37;40m [0;34;40m   [0;1;30;40m ▄▄▄▄[0;1;30;47m▓▓[0;1;30;40m▀▀▀▀▀[0;1;30;47m▓▓[0;1;30;40m▄▄▄▄[0m [34m▀▀▀[0;1;34;44m▀ ░▓█▄▄[0;34m▄▄▄▄▄[0m   [34m▄[0m   [34m▄[0m

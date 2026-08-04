@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-H2S.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ega-one/raw/AVE-H2S.ANS
-# Source Revision: archive-sha256:6a85c974a9d93a6c5723067b661851124ae90b1e81eb1a1d35a289b0099b8ffc
-# Source SHA-256: 133386865901f4c66d3c72ac54e44ff7ca9f2163a94a85e97e907d1013c2c487
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-H2S.ANS by avenger (ega); released in ega-one and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hazard/2 status screen
-# SAUCE Author: avenger
-# SAUCE Group: ega
-# SAUCE Date: 19961004
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: hazard/2 status screen by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ega-one-ave-h2s
 
 Write-Host '
  [34m▌[0;1;34;44m░[0;34m██████[0;1;34;44m [0;34m▐[0;37m [0;34m▌[0m    [36m▄▄[0;37m  [0;36m▀[0;37m [0;34m▌█▐[0;1;34;44m  [0;34m▌[0m    [36m▄▄[0;37m  [0;36m▀[0;37m [0;34m▐[0;37m [0;1;34;44m▄░[0;34m▐[0;37m [0;34m▐[0;37m [0;34m▐██[0;1;34;44mhazard/2 user status    [0;34m█▐[0m

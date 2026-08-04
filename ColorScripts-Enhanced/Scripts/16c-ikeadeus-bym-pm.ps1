@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-PM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ikeadeus/raw/BYM-PM.ANS
-# Source Revision: archive-sha256:39c810e7c07f73323f80aabc58262e6b7a9a1735ab60c6dd400af5943fb7133b
-# Source SHA-256: 962f175f5246dda9d7366f90e2a41ac6e158254c2034e19ab6c2eacf90964b23
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-PM.ANS by superbym (bym enterprizes); released in ikeadeus and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: san diego
-# SAUCE Author: superbym
-# SAUCE Group: bym enterprizes
-# SAUCE Date: 20010114
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: san diego by superbym | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ikeadeus-bym-pm
 
 Write-Host '
  [34m▀[0;35;44m [0;34;40m▀▀▀[0;35;40m▀▀██▀▀▀██▀▀▀[0;35;44m█[0;35;40m▀▀███▀▀██[0;35;44m▄ [0;1;33;44m▀ [0;34m▀▀▀▀▀▀[0;37m  [0;34m▀[0m        [1;30m▄░░[0m    [31m▄███▄▄▄▄[0m        [31m▀[0;1;31;41m░▀[0;31m█▀▀[0;1;31;41m ░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: LILDEVIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/burn0996/raw/LILDEVIL.ANS
-# Source Revision: archive-sha256:1d0613dc7d765beb82132eb272a2b52814aed11a76720323c6b2b8307b2d07bf
-# Source SHA-256: 630877642ed7157ce1062d245c2355e92b5e59e3fefc3e9715d3cd8dea45d53a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LILDEVIL.ANS by Racerx + Skull Crusher (Burn); released in burn0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: lil' devil promo for burn
-# SAUCE Author: RacerX.Skull Crusher
-# SAUCE Group: Burn
-# SAUCE Date: 19960817
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: lil' devil promo for burn by Racerx + Skull Crusher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-burn0996-lildevil
 
 Write-Host '
  [1;31m  [0;31m   [0;1;31m█[0m      [31m░░          [0m          [1;31m█[0m

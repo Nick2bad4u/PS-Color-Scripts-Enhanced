@@ -1,13 +1,4 @@
-﻿# Converted from: PM-DYNAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot0697/raw/PM-DYNAS.ANS
-# Source Revision: archive-sha256:cd8b6827004edaee3756929e0cbb3d0ec5efd33f1ee3e0394a0ebbb56fa3c6b7
-# Source SHA-256: ba853d06f2548aaecb5a92bd049997a95b18748d30c645b4a5bb7cd00d995fdd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-DYNAS.ANS by Precious Metal (riot0697); released in riot0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: PM-DYNAS.ANS by Precious Metal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot0697-pm-dynas
 
 Write-Host '
 [34m$$$$$s''[0m   [34m`$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m    [34m$$$$$$[0m

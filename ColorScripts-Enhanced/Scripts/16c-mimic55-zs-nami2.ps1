@@ -1,13 +1,4 @@
-﻿# Converted from: zs-nami2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic55/raw/zs-nami2.ans
-# Source Revision: archive-sha256:be5bd0202fcf0139dda1eb053ed369bdc1ed586aaa4596ccff7a092ae658b699
-# Source SHA-256: 100c37ee421ce9e0f038f748a89291fa4fe2b76fe666b797ba5cedc05f1ffd99
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zs-nami2.ans by Zerostar (mimic55); released in mimic55 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: zs-nami2.ans by Zerostar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic55-zs-nami2
 
 Write-Host '
                   :                                           :

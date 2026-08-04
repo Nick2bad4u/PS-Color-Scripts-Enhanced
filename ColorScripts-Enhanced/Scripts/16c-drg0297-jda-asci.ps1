@@ -1,18 +1,4 @@
-﻿# Converted from: JDA^ASCI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg0297/raw/JDA%5EASCI.ANS
-# Source Revision: archive-sha256:398d54ab48baf03b2a76271be28600e820cb7f3c3af599e851a71ac0924fa8fd
-# Source SHA-256: 6e45a26f149f3587d21f49be8fc2d005d52843be00935870f5483cacf41464ac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JDA^ASCI.ANS by Joda (DEranged); released in drg0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ascii colly.
-# SAUCE Author: Joda
-# SAUCE Group: DEranged
-# SAUCE Date: 19970217
-# SAUCE Dimensions: 80x46
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: ascii colly. by Joda | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg0297-jda-asci
 
 Write-Host '
 

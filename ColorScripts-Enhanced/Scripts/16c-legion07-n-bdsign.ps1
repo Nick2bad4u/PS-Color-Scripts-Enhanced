@@ -1,18 +1,4 @@
-﻿# Converted from: N-BDSIGN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/legion07/raw/N-BDSIGN.ANS
-# Source Revision: archive-sha256:95e8b9f4e57b59312ac2a0b9b38a55e0e1e88600621a27ddf38351dd36070d9d
-# Source SHA-256: 06d0c8972f9cbc1d673641c5a5557b0b624897463e19a32fde2cd69c1c4d36c5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-BDSIGN.ANS by nail (the legion); released in legion07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ballistic designs
-# SAUCE Author: nail
-# SAUCE Group: the legion
-# SAUCE Date: 19981001
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: ballistic designs by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-legion07-n-bdsign
 
 Write-Host '
 

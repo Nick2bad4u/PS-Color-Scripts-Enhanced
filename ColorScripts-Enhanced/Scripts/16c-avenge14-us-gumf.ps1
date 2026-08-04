@@ -1,18 +1,4 @@
-﻿# Converted from: US-GUMF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge14/raw/US-GUMF.ANS
-# Source Revision: archive-sha256:b0e749d5e6297574610409aa68f6dd9e8c54af434247cd2b743b8d1e2d2406d7
-# Source SHA-256: 8911d954c48e49a500b6d4e28b3cc0124ac7c548f7113f1b182d8539aed97760
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GUMF.ANS by Luminous + Minister (Multiple Groups); released in avenge14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: gumfuck
-# SAUCE Author: min / lum
-# SAUCE Group: Multiple Groups
-# SAUCE Date: 19990211
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: gumfuck by Luminous + Minister | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge14-us-gumf
 
 Write-Host '
  [36m██[0;1;33;46m░[0;36m▀▀▀[0;37m [0;1;33m▄▄▄▄▄▄▄░[0;1;36;46m░░[0;30;46m min/lumi[0;36;40m█[0;1;36;46m░▒[0;36m░[0;37m [0;1;33m░▓[0;1;33;43m▓[0;1;33;40m▄[0m [33m▀[0;37m   [0;33m▀▀[0;37m  [0;33m▄[0;37m [0;1;30m░[0m [1;31;43m░ [0;33m▓▀▀▀▓[0;1;31;43m   [0;33m███[0;1;31;43m  ░░▒[0;33m▀▀[0;37m [0;1;30m░[0m     [34m░[0;1;31m▀▀[0m

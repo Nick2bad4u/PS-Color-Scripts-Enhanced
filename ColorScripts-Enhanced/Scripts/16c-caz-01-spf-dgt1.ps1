@@ -1,13 +1,4 @@
-﻿# Converted from: SPF-DGT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/caz-01/raw/SPF-DGT1.ANS
-# Source Revision: archive-sha256:7a4c09c2b25a260b78ed0f993dd522fa8c17dd3c7e9cce15d2a01c43263430d2
-# Source SHA-256: f26363b5ef38c5e04a12b1adbd58b7578713d9a6dc05fa8f0886e9f5f954b857
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPF-DGT1.ANS by Spitfire (caz-01); released in caz-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: SPF-DGT1.ANS by Spitfire | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-caz-01-spf-dgt1
 
 Write-Host '
 [1m[0m[1m[0;34m[0;1;30m[0;1;37m[0m[1m[0m[1m[0;1;30m[0;34m[0;1;37m[0;1;30m[0m[34m[0m                             [1;30m [0m    [1m [0m              [30;44m█[0m        [1;37;40m [0m

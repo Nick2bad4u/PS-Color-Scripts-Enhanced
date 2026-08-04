@@ -1,19 +1,4 @@
-﻿# Converted from: gDM-G4rg45m3ll.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/slackpack002/raw/gDM-G4rg45m3ll.ans
-# Source Revision: archive-sha256:c9825ce8b4e923e4d1f86a6f63bce502ceaec66422c3ae1a65cba92cfc82cb17
-# Source SHA-256: 2f9c0426f2e1ac9f0df44d80aebc45c222affbe09a4e9bbf6385367adf1d4edf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: gDM-G4rg45m3ll.ans by GngrDr3dM4n (Slackers BBS); released in slackpack002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: G4rg45m3ll
-# SAUCE Author: GngrDr3dM4n
-# SAUCE Group: Slackers BBS
-# SAUCE Date: 20251207
-# SAUCE Dimensions: 80x39
-# SAUCE Font: IBM VGA
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: G4rg45m3ll by GngrDr3dM4n | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-slackpack002-gdm-g4rg45m3ll
 
 Write-Host '
  [34m▄[0;1;34m [0;34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: OF-FREE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz09aug/raw/OF-FREE.ANS
-# Source Revision: archive-sha256:3e0bd3039fe877b3970f71e80b4456ee60793f2295ae127a50a6587b17c2d6a2
-# Source SHA-256: 7bf0b4b1d3992607e2262336a51f8c885f6358c813216e3f7c4f8425b397681e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OF-FREE.ANS by offspring (lazarus); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: my right eye
-# SAUCE Author: offspring
-# SAUCE Group: lazarus
-# SAUCE Date: 19970716
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: my right eye by offspring | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz09aug-of-free
 
 Write-Host '
 [1;31;47m▓▓[0;1;31;43m█[0;1;31;40m████████▀▀[0;1;30;40m  [0m       [30;47m▓▓[0;1;30;40m  [0m [1;31m▀▀▀[0;1;31;43m██[0;1;31;40m████████[0m [1;30;47m░[0;1;37;47m░░[0m  [1;30m                                 [0m

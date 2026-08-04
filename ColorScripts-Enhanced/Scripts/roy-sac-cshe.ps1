@@ -1,13 +1,4 @@
-﻿# Converted from: ROY-CSHE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0398/raw/ROY-CSHE.ANS
-# Source Revision: archive-sha256:5deb0c572555b712853a4e44d44a0abdfad1e60e47bfcff7ce192c9fa583bdec
-# Source SHA-256: eebaea8a83a30b88528d1bfaced5a96e52e98e1933e87376573cc292b050e3d2
-# Source License: FAL-1.3
-# Source Attribution: ROY-CSHE.ANS by Roy/SAC aka Carsten Cumbrowski; released in sac0398 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: ROY-CSHE.ANS by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-cshe
 
 Write-Host '
 

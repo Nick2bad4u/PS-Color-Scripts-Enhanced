@@ -1,18 +1,4 @@
-﻿# Converted from: GT-HORNY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge07/raw/GT-HORNY.ANS
-# Source Revision: archive-sha256:115e0675d139221ae82af57d75adc6a5c40187386a2e1c7aedd5a13098a703d2
-# Source SHA-256: beb746f2a595bc622ef9549454f90cb8722fcebce0b7affc86e3cc47dd983d3f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GT-HORNY.ANS by Graphital (avenge); released in avenge07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Horny Emag
-# SAUCE Author: Graphital
-# SAUCE Group: avenge
-# SAUCE Date: 19980729
-# SAUCE Dimensions: 80x25
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Horny Emag by Graphital | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge07-gt-horny
 
 Write-Host '
 [1;31m█████████[0;1;31;47m█████▓▓▓▓[0;1;31;40m█████████████[0;1;31;47m███[0;1;31;40m██████[0;1;31;43m▄▄  [0;30;43m░░[0;33;40m▄[0;37;40m ▀[0;1;37;47m▒[0;1;37;40m█████[0;1;37;47m██[0;1;37;40m████████████████████[0;1;37;47m▓▓[0m

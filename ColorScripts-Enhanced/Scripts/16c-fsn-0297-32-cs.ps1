@@ -1,18 +1,4 @@
-﻿# Converted from: 32-CS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0297/raw/32-CS.ANS
-# Source Revision: archive-sha256:d5e6767ccf66425c243bc55fc2b60157e4842e0dca350575e42372c154569008
-# Source SHA-256: c9c72a0752f469bcca700dc670a6f3cab1bca7e95281b893b081d5a4be9e0b2d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 32-CS.ANS by ezy (fusion\fluid); released in fsn-0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: cream soda
-# SAUCE Author: ezy
-# SAUCE Group: fusion\fluid
-# SAUCE Date: 19970124
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: cream soda by ezy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0297-32-cs
 
 Write-Host '
 

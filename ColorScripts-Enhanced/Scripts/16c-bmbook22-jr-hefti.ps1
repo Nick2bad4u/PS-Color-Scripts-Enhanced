@@ -1,18 +1,4 @@
-﻿# Converted from: JR_HEFTI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook22/raw/JR_HEFTI.ANS
-# Source Revision: archive-sha256:aec74908b08ab1e6eeb2617f04dd839f89321bd6f70d460ae94d73bdd51d69b6
-# Source SHA-256: 0b2dba3da8ef7436c4445aec82ac2aad176d0aad24ef42a0d3312d874d247b22
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_HEFTI.ANS by jerusalem (boil); released in bmbook22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: boil promotion +o7+
-# SAUCE Author: jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19980707
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: boil promotion +o7+ by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook22-jr-hefti
 
 Write-Host '
                                    [35mB O [0;1;31mi[0;35m L   [0;1;31m#[0;36m7[0;35m [0m

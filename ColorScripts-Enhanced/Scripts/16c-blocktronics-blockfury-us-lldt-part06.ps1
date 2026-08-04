@@ -1,19 +1,4 @@
-﻿# Converted from: US-LLDT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_blockfury/raw/US-LLDT.ANS
-# Source Revision: archive-sha256:071260960977ea1068cec2d97ab877e753876c2d02c413111354a74175d7cd04
-# Source SHA-256: 207ea408944b74cb93472aeb3ee50ecccc16364bd1f44b1007be83ebcdbb7b0c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-LLDT.ANS by Null Fruit + Resetsurvivor (b7 + rsz); released in blocktronics_blockfury and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: A WINNER IS YOU.
-# SAUCE Author: nllfrt x r5
-# SAUCE Group: b7 + rsz
-# SAUCE Date: 20150415
-# SAUCE Dimensions: 80x296
-# SAUCE Font: IBM VGA
-# Lines: 248-296
-# Columns: 1-80
+﻿# Artwork: A WINNER IS YOU. by Null Fruit + Resetsurvivor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blockfury-us-lldt-part06
 
 Write-Host '
 [1;36m█████▒[0;30m░░░░░░░[0;30;47m░░[0;37;47m▐▐▐▐[0;30;47m░[0;37;40m░░░[0;30;101m▌[0;1;31;101m░░[0;30;101m░[0;1;31;101m░░░░░░░░░░[0;30;101m░[0;30;105m▌[0;1;35;105m░░░░░░[0;30;45m▌[0;1;35;105m░░░░░░░░░░░[0;30;105m▐[0m░░░▓▓[47m▓▓▓▓[0;40m▓[0m     [1;36;40m▒▓█████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: crs-rlc.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/buzina9/raw/crs-rlc.ans
-# Source Revision: archive-sha256:a02bfc8f9f07e5659ab9c722e15e97fe0f78c92e7b251c85cfb21bf178bdaad6
-# Source SHA-256: 58f42464eec1a1bcaacb9df21c0460176bbd4d9a69fc339dcf1cb60c91fca38d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: crs-rlc.ans by Crasher (buzina); released in buzina9 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: REALY LAST CIGARETTE
-# SAUCE Author: Crasher
-# SAUCE Group: buzina
-# SAUCE Date: 20031008
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: REALY LAST CIGARETTE by Crasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-buzina9-crs-rlc
 
 Write-Host '
         [33m                                                                   [0m

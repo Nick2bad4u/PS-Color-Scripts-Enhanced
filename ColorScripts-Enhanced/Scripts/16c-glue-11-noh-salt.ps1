@@ -1,18 +1,4 @@
-﻿# Converted from: NOH-SALT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-11/raw/NOH-SALT.ANS
-# Source Revision: archive-sha256:72e53ef6085b74f7ad1018be1993344eb17bea15f35525a0857b61ca5067bc5a
-# Source SHA-256: 6571bae02b21a4dec8ebbb9187d1c27fe466b27f5168c332b1d34355bc533465
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-SALT.ANS by /nOah? (gLUE); released in glue-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: salt matrix
-# SAUCE Author: /nOah?
-# SAUCE Group: gLUE
-# SAUCE Date: 19970701
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: salt matrix by /nOah? | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-11-noh-salt
 
 Write-Host '
      [30;41m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██▓▓██▓█████▓████▓▓██▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: TH-TRAG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/helium01/raw/TH-TRAG.ANS
-# Source Revision: archive-sha256:07d8759f10fea4e17af6dcb88e6f2f43e74915e40d49cbcecc26379922d3a782
-# Source SHA-256: 96a0cf0feb3eed52211c33ab9c28fd44c1dcf51590367610aac806a86fe8244d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH-TRAG.ANS by Thrasher (helium01); released in helium01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: TH-TRAG.ANS by Thrasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-helium01-th-trag
 
 Write-Host '
 

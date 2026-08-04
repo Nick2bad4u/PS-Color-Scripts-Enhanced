@@ -1,18 +1,4 @@
-﻿# Converted from: ML-N!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acme0296/raw/ML-N!.ANS
-# Source Revision: archive-sha256:5cbb7c836a329833b657f6859c4a30abc419f56c33ad0e58fa1fef60983b6379
-# Source SHA-256: de29b2ff470ba50641d481aed3da95e6e3649a0d4c98d386c46acc5748c3d586
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ML-N!.ANS by Mortal (Acme); released in acme0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Neurosis stats screen
-# SAUCE Author: Mortal
-# SAUCE Group: Acme
-# SAUCE Date: 19960204
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Neurosis stats screen by Mortal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acme0296-ml-n
 
 Write-Host '
 [1;31m████[0;1;31;43m█[0;1;31;40m▀▀▀▀▀▀▀▀▀[0;1;31;43m▒▒▒▒▒▓▓▓▒▓▒▒▓▓▓▓█▓█[0m         [1;30;40m▓▀▀▀▀▀▓▄[0m

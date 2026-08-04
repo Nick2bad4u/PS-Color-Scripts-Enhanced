@@ -1,19 +1,4 @@
-﻿# Converted from: a-sK!robot_trainig_vr.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2020/raw/a-sK!robot_trainig_vr.ans
-# Source Revision: archive-sha256:9d4f52c1185463990664e9f171bfbfc9162b0a67262c063ea6cad81ca1993d3a
-# Source SHA-256: 67d310fc5e2acdd74d25ab138d4b14d109f3bdf4c6112fd6059270ebfc95c6ae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: a-sK!robot_trainig_vr.ans by sIMONkING (thelo0p!); released in blndr2020 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: BLENDER-robot_training_vr
-# SAUCE Author: sIMONkING
-# SAUCE Group: thelo0p!
-# SAUCE Date: 20200418
-# SAUCE Dimensions: 80x100
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: BLENDER-robot_training_vr by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2020-a-sk-robot-trainig-vr-part01
 
 Write-Host '
 [1;33;47m▒▒▒▒▒[0;1;33;40m████████████████[0;1;37;40m███[0;1;33;40m██  [0;1;34;40m███████████████████[0m [1m▄███████▀▀█████████████[0;1;46m▓▓▓▓▓▓▒▒▒[0m

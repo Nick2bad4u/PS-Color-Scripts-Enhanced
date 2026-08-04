@@ -1,18 +1,4 @@
-﻿# Converted from: I3-PROPH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden16/raw/I3-PROPH.ANS
-# Source Revision: archive-sha256:5eec87aa8a926ff580ebebb1a03e3414c92381a206a8caa2448e563d5972636c
-# Source SHA-256: ed3fbe02f2e51887158e94a9b9dae80e5bbd64860b8de4463a5760f7777bbf4f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: I3-PROPH.ANS by Islayer (Maiden); released in maiden16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: prophecy board
-# SAUCE Author: Islayer
-# SAUCE Group: Maiden
-# SAUCE Date: 19980823
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: prophecy board by Islayer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden16-i3-proph
 
 Write-Host '
                                     [34m [0m                                   [36m▀[0;1;36;46m▀[0m

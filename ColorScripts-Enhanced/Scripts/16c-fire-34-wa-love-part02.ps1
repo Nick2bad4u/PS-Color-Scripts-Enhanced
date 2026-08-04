@@ -1,20 +1,4 @@
-﻿# Converted from: WA-LOVE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/WA-LOVE.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: 6b2d8c622f111a9489b60fade3c167f0aab067c2b6c03496a4d9fd7af0c0dc43
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WA-LOVE.ANS by warpus (LAZARUS); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: LOVE
-# SAUCE Author: warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20210111
-# SAUCE Dimensions: 80x60
-# SAUCE Font: IBM VGA
-# SAUCE Comments: start fucking
-# Lines: 31-60
-# Columns: 1-80
+﻿# Artwork: LOVE by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-wa-love-part02
 
 Write-Host '
 [31m░▒▓█[0;1;30m░[0;1;30;41m░[0;31m█████[0;1;37;41m: [0;31m███████████[0;1;36;41m▓█[0;31m██[0;1;36;41m░▓░[0;31m███[0;1;36;41m■[0;31m████████████████████████████████████████████▌[0m

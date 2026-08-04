@@ -1,18 +1,4 @@
-﻿# Converted from: DT-HEL4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9609/raw/DT-HEL4.ANS
-# Source Revision: archive-sha256:96c031e04e5c479ef9ed73f1afa21a3db6bca2a2de7ad88a46888136232884ff
-# Source SHA-256: d9cf41befbfc4b083e51369beeb1a2680569b502ed5e6b7b6c3e71435b62a40a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-HEL4.ANS by Defiant (Samsara); released in sms-9609 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Helltech
-# SAUCE Author: Defiant
-# SAUCE Group: Samsara
-# SAUCE Date: 19960824
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Helltech by Defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9609-dt-hel4
 
 Write-Host '
   [1;30m▀ ▄ ▀ [0;32m▀[0;1;30m▄▄[0;1;30;47m▓[0;1;30;40m▌▄ ▀▀[0;33m░ [0;1;30m▀ ▀▀[0;33m▄▄▌ ░░ ░░ ░ [0;1;30m▀[0;1;30;47m▓[0;1;30;40m▀▀▄▄[0m     [36m█[0;1;36;46m▓[0;36m█ ███████[0;1;37;46m░[0;36m▄█▓██ █████[0;1;36;46m█[0;36m█[0m     [32m▐▄[0m

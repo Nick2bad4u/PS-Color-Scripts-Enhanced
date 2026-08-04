@@ -1,13 +1,4 @@
-﻿# Converted from: ICEBRG06.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-i/raw/ICEBRG06.ANS
-# Source Revision: archive-sha256:f77378b97edc46c0ec6cf225511f19f71c28e4a75fabba5da45e865a8cd20d8d
-# Source SHA-256: 87b62d09bb3f89eb72d089148473f79512d0adbfd2432378710744bd2dc4e6c2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ICEBRG06.ANS by Slum Dweller (ansis-i); released in ansis-i and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: ICEBRG06.ANS by Slum Dweller | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-i-icebrg06
 
 Write-Host '
  [34m██████████████████████████████████████████████████████████████████████████████[0m

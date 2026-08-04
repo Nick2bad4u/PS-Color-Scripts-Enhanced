@@ -1,18 +1,4 @@
-﻿# Converted from: 33-DROOL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/33rules/raw/33-DROOL.ANS
-# Source Revision: archive-sha256:6cf2aef8e3ca97e1761e1ee4a8ba395e4fdab4dec9d3b2efb91c059359b50b00
-# Source SHA-256: 04a7b5fb2d6345c86fc07f1266eb9a683cccb2d4b14444a103446f0815469f14
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-DROOL.ANS by Integrity 07/95 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Digital Drool
-# SAUCE Author: Integrity 07/95
-# SAUCE Group: Eerie
-# SAUCE Date: 19950630
-# SAUCE Dimensions: 80x25
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: Digital Drool by Integrity 07/95 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-33rules-33-drool-part01
 
 Write-Host '
 

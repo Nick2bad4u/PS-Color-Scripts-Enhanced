@@ -1,19 +1,4 @@
-﻿# Converted from: tg-ice21.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronicsonice/raw/tg-ice21.ans
-# Source Revision: archive-sha256:09feb7a5adb913c88be16d43a1a4e86bf7073f13399d8bc54e5478cad35282e5
-# Source SHA-256: 9fad0d792dd16f5bae9dc744be8b48dffb5f0319b10bb61b9464eee300e9eae4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tg-ice21.ans by Toon Goon (Blocktronics); released in blocktronicsonice and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: iCE Tribute 2021
-# SAUCE Author: Toon Goon
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20210817
-# SAUCE Dimensions: 80x165
-# SAUCE Font: IBM VGA
-# Lines: 151-164
-# Columns: 1-80
+﻿# Artwork: iCE Tribute 2021 by Toon Goon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronicsonice-tg-ice21-part04
 
 Write-Host '
 [35m [0;1;31;41m █[0;31m█[0;35m              [0;31m██[0;35m [0;31m█▀[0;35m                             [0;34m████  ████[0;36;44m█[0;36;40m███████[0;1;36;46m█▄[0m [35m██[0;1;35;45m▄▄▄▄▄[0m

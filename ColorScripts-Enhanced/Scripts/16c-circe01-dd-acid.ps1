@@ -1,17 +1,4 @@
-﻿# Converted from: DD-ACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe01/raw/DD-ACID.ANS
-# Source Revision: archive-sha256:0b64c26f533b8c11a1aca04e7dcc1e21d4b014c2d6532ba66a48148862d54cb2
-# Source SHA-256: d3ccf06b0354ba804d2dce440369b80b7fe1bce7c68ebba03fbdfc0f6930f157
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-ACID.ANS by Diamond Darrell (A.M.B.U.S.H.); released in circe01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: Diamond Darrell
-# SAUCE Group: A.M.B.U.S.H.
-# SAUCE Date: 19970613
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: DD-ACID.ANS by Diamond Darrell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe01-dd-acid
 
 Write-Host '
               [1;32m▄▄▄▄▄▄▄▄▄▄[0m   [1;32m▄▄▄▄▄▄▄▄▄▄ ▄▄▄ ▄▄▄▄▄▄▄▄▄▄   ▄▄▄▄▄▄▄▄▄[0m

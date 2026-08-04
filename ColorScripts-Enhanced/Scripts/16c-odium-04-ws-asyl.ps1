@@ -1,18 +1,4 @@
-﻿# Converted from: WS-ASYL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-04/raw/WS-ASYL.ANS
-# Source Revision: archive-sha256:8dc8586a37ce2081b7e99529b7087f421e6ff8d5ba2d146ef1d30bd490016720
-# Source SHA-256: 351884dd0225cfc1647c83f89e88ea54311fbf82ff64bb74bd844a1a8eaaae0c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WS-ASYL.ANS by whitesnake (odium); released in odium-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: arkham asylum
-# SAUCE Author: whitesnake
-# SAUCE Group: odium
-# SAUCE Date: 19960217
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: arkham asylum by whitesnake | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-04-ws-asyl
 
 Write-Host '
                                           [1;30m░[0m

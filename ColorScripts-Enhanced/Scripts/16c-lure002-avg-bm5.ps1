@@ -1,13 +1,4 @@
-﻿# Converted from: AVG-BM5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lure002/raw/AVG-BM5.ANS
-# Source Revision: archive-sha256:f1a17285c6f66215a41b3537354833c5fccbb84d30b92c78e4ea0603dc7f8cf1
-# Source SHA-256: 6a4fa75b7bd93075ec52943669d68252ae222ebdfa1ffc017ee07f5526a15978
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-BM5.ANS by Avenging Angel (lure002); released in lure002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: AVG-BM5.ANS by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lure002-avg-bm5
 
 Write-Host '
 

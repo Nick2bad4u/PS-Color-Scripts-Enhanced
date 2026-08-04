@@ -1,13 +1,4 @@
-﻿# Converted from: SWIMMING.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr015/raw/SWIMMING.ANS
-# Source Revision: archive-sha256:207257efec59abae2611bc00a45085830a91002aa8a590ce35f7b3ac437e031e
-# Source SHA-256: b3d16fdd42f4dfb7da6249107d0cf9994ff29c84691ea2991d465c355d7822b3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SWIMMING.ANS by Gza (blndr015); released in blndr015 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: SWIMMING.ANS by Gza | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr015-swimming
 
 Write-Host '
 [1;34m[0m               [1;34m ▄▄▄[0m                                          [1;34m▄▄▄ [0m

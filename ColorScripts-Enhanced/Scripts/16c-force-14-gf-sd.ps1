@@ -1,18 +1,4 @@
-﻿# Converted from: GF-SD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-14/raw/GF-SD.ANS
-# Source Revision: archive-sha256:92f7a11e9d63bbc4309a79352ecdc986660896bb6b7d6c4276c2371f769e4763
-# Source SHA-256: 018ac17181ebf0aabd3ee908c1f955d5bca7a8bc09b1b5cc089659284cf3ca75
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GF-SD.ANS by Griffin (fORCE); released in force-14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Static Discharge Picture
-# SAUCE Author: Griffin
-# SAUCE Group: fORCE
-# SAUCE Date: 19930126
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Static Discharge Picture by Griffin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-14-gf-sd
 
 Write-Host '
                     ▄▄▄▄▄   [1;30m       [0;1;32m  [0;1;30m  [0;32m  [0;1;30m       [0m   [1;30m                           [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: G-SHITC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-17/raw/G-SHITC.ANS
-# Source Revision: archive-sha256:a388e5620de32c4145fd1d2f2e70343f674ce332483184514a867f9d5d569bc4
-# Source SHA-256: e5e2a7c217acd5d3d36d060b600814f12bdfdab99cb6a867e0a858d5f2257889
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: G-SHITC.ANS by geigalow 10+3. (f o r c e); released in force-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: maerlowgowcolliey
-# SAUCE Author: geigalow 10+3.
-# SAUCE Group: f o r c e
-# SAUCE Date: 19970420
-# SAUCE Dimensions: 80x46
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: maerlowgowcolliey by geigalow 10+3. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-17-g-shitc
 
 Write-Host '
 [1;34;44m          [0;34m▐▌▐░[0;30;44m▓[0m

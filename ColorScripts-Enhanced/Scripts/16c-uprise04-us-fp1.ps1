@@ -1,18 +1,4 @@
-﻿# Converted from: US-FP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise04/raw/US-FP1.ANS
-# Source Revision: archive-sha256:6204c432cee124de7a23bbd0ed08d47236d0960a5348cb24828a60b39129e775
-# Source SHA-256: 1e3468db371c240061e8450dfa682f8b0826dd1beff422fa0dffb236149869ee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FP1.ANS by Sting + Crow (Oil.); released in uprise04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Fear Phactor..
-# SAUCE Author: Sting / Crow
-# SAUCE Group: Oil.
-# SAUCE Date: 19980521
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Fear Phactor.. by Sting + Crow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise04-us-fp1
 
 Write-Host '
 

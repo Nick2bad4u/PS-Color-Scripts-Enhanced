@@ -1,13 +1,4 @@
-﻿# Converted from: mp-july.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic25/raw/mp-july.ans
-# Source Revision: archive-sha256:5af9b332a2faadb010632152ccd4009f2f76e6404b64d3e8afac01829e050c54
-# Source SHA-256: f16b53a9c022dcc39d5c326d9649c8d3d3e356546f942cf410f3c7d50d186193
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mp-july.ans by Meatpod (mimic25); released in mimic25 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: mp-july.ans by Meatpod | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic25-mp-july
 
 Write-Host '
               [36m_.,┌[0;1;33myd[0;36m.[0m     [32m%y┐,._[0m       [1;32m [0m       [1;35m    [0;35m.[0m

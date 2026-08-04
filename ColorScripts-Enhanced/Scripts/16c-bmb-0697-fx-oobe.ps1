@@ -1,17 +1,4 @@
-﻿# Converted from: FX-OOBE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0697/raw/FX-OOBE.ANS
-# Source Revision: archive-sha256:608fe2b98dcac70515ce221c11f606d898ec739b4fcdd1a5448c437eb640df82
-# Source SHA-256: 373f2d883822858cd055b4992dc47a03f65bca2dfbc17ee2324d60a1bd2a1e3f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FX-OOBE.ANS by Flux (Psychic Release); released in bmb-0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: oobe - my new boardie, check?*#!"
-# SAUCE Author: Flux
-# SAUCE Group: Psychic Release
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: oobe - my new boardie, check?*#!" by Flux | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0697-fx-oobe
 
 Write-Host '
                                       [36m▄[0;1;36m▄▄▄▄[0;36m▄[0m

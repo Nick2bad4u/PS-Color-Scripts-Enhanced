@@ -1,19 +1,4 @@
-﻿# Converted from: _xmas_us-bauble.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_miracle_on_67th_street/raw/_xmas_us-bauble.ans
-# Source Revision: archive-sha256:7a78b3edd176c6d05feb481522f2c4f3e57721df62292c2b4ce537e855c41ae8
-# Source SHA-256: 3728ba069d3be444977d9c4f29ceab302ccfab863c12540ce259635707b85698
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _xmas_us-bauble.ans by Avenging Angel + Necro (Blocktronics); released in blocktronics_miracle_on_67th_street and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Christmas Bauble 2018
-# SAUCE Author: avg & necro
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20181125
-# SAUCE Dimensions: 80x82
-# SAUCE Font: IBM VGA
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Christmas Bauble 2018 by Avenging Angel + Necro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-miracle-on-67th-street-xmas-us-bauble-part01
 
 Write-Host '
 [37;40m    [0;1;30;40m▄▄  ▄[0m [32m▀▀▀▄[0;1;30;47m▀▀█▄[0;1;37;40m▀[0;1;37;47m▄[0m▄[1;30;47m▄▄[0;1;37;40m▄▄[0;1;30;40m▀[0;32m▀▄▄▄▀[0m           [1;30m▀▀▀▄▄ ▀▄▄██▀[0;1;30;47m█[0;1;30;40m▀█ [0;32m▄▄▄[0;1;37m▄▄▄[0;32m▄[0;37m   [0;32m▄█[0;37m [0;32m█[0;37m [0;32m▀[0;1;32;42m░[0m

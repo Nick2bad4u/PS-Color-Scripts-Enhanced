@@ -1,17 +1,4 @@
-﻿# Converted from: HF-DEVIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist3yra/raw/HF-DEVIL.ANS
-# Source Revision: archive-sha256:2b1ec0b7cbe048c013d4fb5b84e23b783ff4f9f900b4e7c0cd1dcc3d31e02136
-# Source SHA-256: f7295ffab27891fe463b09bfc4223be8c72d985d13d2bbf13908b8524f8d1fe4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HF-DEVIL.ANS by Happyfish (MiSTiGRiS); released in mist3yra and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: da devil himshelf
-# SAUCE Author: Happyfish
-# SAUCE Group: MiSTiGRiS
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: da devil himshelf by Happyfish | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist3yra-hf-devil
 
 Write-Host '
 [34m         [0;35m [0;34m  [0;35m ▀[0;1;31;45m░[0;35m▄[0;34m         [0;35m▄▄▄▄▄[0m                [35m■▄▄[0m

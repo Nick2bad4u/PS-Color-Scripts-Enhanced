@@ -1,18 +1,4 @@
-﻿# Converted from: 77-DOA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/yak9601a/raw/77-DOA1.ANS
-# Source Revision: archive-sha256:0ef47e6c5957fc02130eec9688203a874e59abb766f403c5192fe56bd23b5e1f
-# Source SHA-256: 0cc8f836a159afe3507a36b6a7c0ca8423f8471296c6694f3bff3c3620acc733
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 77-DOA1.ANS by 77 (yak); released in yak9601a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: doa
-# SAUCE Author: 77
-# SAUCE Group: yak
-# SAUCE Date: 19960123
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: doa by 77 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-yak9601a-77-doa1
 
 Write-Host '
 [1;30m████████████████████████████████████████████████████████████████████[0;1;30;47m░[0m [34m██████████[0m

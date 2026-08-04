@@ -1,18 +1,4 @@
-﻿# Converted from: CG-SENSE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense09j/raw/CG-SENSE.ANS
-# Source Revision: archive-sha256:9f583533fb256ec67ece3c5d38ebea61ce21b385a7859a4e786edef290584615
-# Source SHA-256: d26e26f2c29a42d74955916ad80b6c39230327e34adbb9aa6c43893daf3b5b32
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-SENSE.ANS by cryogenic (sense); released in sense09j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: sense
-# SAUCE Author: cryogenic
-# SAUCE Group: sense
-# SAUCE Date: 19990705
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: sense by cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense09j-cg-sense
 
 Write-Host '
                             [1;30m██████████████████████[0m

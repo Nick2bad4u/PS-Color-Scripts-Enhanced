@@ -1,13 +1,4 @@
-﻿# Converted from: SM-D23.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moi-1296/raw/SM-D23.ANS
-# Source Revision: archive-sha256:43ba331c3216dae712e2fc42adda89bce3b1a616e82a7a9594fb7cc9a7f26e06
-# Source SHA-256: fe19943b2111aee277944293f9672b9831239982af150ea42f773b1836b07f19
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-D23.ANS by Smoke (moi-1296); released in moi-1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: SM-D23.ANS by Smoke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moi-1296-sm-d23
 
 Write-Host '
 [1;30m┌-----------------------------------------[0m [1;30m-[0m [1;30m-------[0m  [1;30m------------[0m  [1;30m-----------+[0m

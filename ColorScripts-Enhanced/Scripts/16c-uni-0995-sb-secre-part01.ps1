@@ -1,17 +1,4 @@
-﻿# Converted from: SB-SECRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0995/raw/SB-SECRE.ANS
-# Source Revision: archive-sha256:66f11d43d10b981d3ff2235c6fadd1403a507952ad88040c9eb9cd5142a4f4b1
-# Source SHA-256: fcd42f6eb77507eae99a2265831f8493941ca8946fcfd1a6bb721805e2bb4da7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SB-SECRE.ANS by SpellBinder (uni-0995); released in uni-0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Secrecy BBS-Software
-# SAUCE Author: SpellBinder
-# SAUCE Date: 19950730
-# SAUCE Dimensions: 80x98
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Secrecy BBS-Software by SpellBinder | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0995-sb-secre-part01
 
 Write-Host '
 [1;30m─[0m  [1;30m───[0m [1;30m─────────  ── ────────────────────────────────────────────[0m [1;30m─[0m [1;30m─[0m [1;30m──  ────[0m

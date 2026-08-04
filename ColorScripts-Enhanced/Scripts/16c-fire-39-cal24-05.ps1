@@ -1,19 +1,4 @@
-﻿# Converted from: CAL24-05.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-39/raw/CAL24-05.ANS
-# Source Revision: archive-sha256:5e57507ce34170a4afb707b1587800d0885fae4776f1271b7b7cee7f71264d9d
-# Source SHA-256: a551e24f58ee9401432cc8dff216d62a7135c39eff54a64e42de3a029ddbbb13
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CAL24-05.ANS by Savage (Fire); released in fire-39 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fire 2024 Calendar: May
-# SAUCE Author: Savage
-# SAUCE Group: Fire
-# SAUCE Date: 20240303
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Fire 2024 Calendar: May by Savage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-39-cal24-05
 
 Write-Host '
 [35;40m▄▓[0;30;45m░░[0;35;40m▓[0;30;45m░[0;35;40m▓[0;1;35;45m  ▄█████▄▄▄    ▀███████[0;1;35;47m███[0;1;35;40m▓▓▓▓[0;1;35;45m■    [0;30;45m░░░[0;37;45m   [0;1;35;45m    [0;35m▌·█[0;1;35;45m■   [0m [35m░[0;37m [0;35m▐[0;1;35;45m ▄███[0;1;35;47m▓▓▓▓█[0;1;35;45m██▌[0;35m▓▓[0;30;45m░[0;35;40m■[0m

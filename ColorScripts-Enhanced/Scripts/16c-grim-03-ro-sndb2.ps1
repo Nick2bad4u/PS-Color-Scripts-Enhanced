@@ -1,13 +1,4 @@
-﻿# Converted from: RO-SNDB2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/grim-03/raw/RO-SNDB2.ANS
-# Source Revision: archive-sha256:ebc036abf9a775cca5b26ca6cd97418b4cbcbb8a88c78d39df773432429bd88a
-# Source SHA-256: 59bbbd8bab905fa5125d45456070c03d24fb5cb61290f498a60ecce5d3e307a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RO-SNDB2.ANS by Radioisotope (grim-03); released in grim-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: RO-SNDB2.ANS by Radioisotope | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-grim-03-ro-sndb2
 
 Write-Host '
 [34m[0;1;34m[0;31m[0;1;31m[0;32m[0;1;32m[0;32m[0;36m[0;1;36m[0m[1;33m████████▀███ [0;35m         [0;1;35m          [0;31m        [0;1;31m         [0;32m      [0;1;32m         [0m     [1m       [0m

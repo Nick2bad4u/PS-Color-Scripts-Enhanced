@@ -1,13 +1,4 @@
-﻿# Converted from: GT_SPCRM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ensiart/raw/GT_SPCRM.ANS
-# Source Revision: archive-sha256:1740ea49d8e6dbe7ec5d2c508ba38bad12fe73c43c677e55524f61db5ff5063b
-# Source SHA-256: 78f4674f9926360e0ed60c38d3831d02d7f634adcfdda8730d62e2dddb3e05e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GT_SPCRM.ANS by Andrew Welch (ensiart); released in ensiart and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: GT_SPCRM.ANS by Andrew Welch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ensiart-gt-spcrm
 
 Write-Host '
                                      [44m  [0m

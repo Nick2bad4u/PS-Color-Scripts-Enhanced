@@ -1,18 +1,4 @@
-﻿# Converted from: US-BFONT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/buttz03/raw/US-BFONT.ANS
-# Source Revision: archive-sha256:c2ce80ae04a7cc270151547963184e535a628d1735fa79697954a632d59918cc
-# Source SHA-256: 2c6e12455f1bbb6aef3741b8e1a4f0cf834346dee43220f8f72ac8725d3a4dec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BFONT.ANS by Zeus Ii + Somberlain (Buttraiderz); released in buttz03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Buttraiderz Fontage
-# SAUCE Author: Somberlain & Zeus II
-# SAUCE Group: Buttraiderz
-# SAUCE Date: 20001027
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Buttraiderz Fontage by Zeus Ii + Somberlain | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-buttz03-us-bfont
 
 Write-Host '
    [1;30m☻[0m                                                      [1;30m [0m

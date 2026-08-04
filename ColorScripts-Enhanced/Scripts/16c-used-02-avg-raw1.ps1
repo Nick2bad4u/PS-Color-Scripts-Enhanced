@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-RAW1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-02/raw/AVG-RAW1.ANS
-# Source Revision: archive-sha256:21302c91644277d9117a9a1fcab004f6fa76d5a90d6a4926e513a24dd5b73cd5
-# Source SHA-256: 3d045e9f6ad0e2dc746976fa0f5c347c3f11588f747c9a7e4b8480eedafe6acd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-RAW1.ANS by avenging angel (the used coalition); released in used-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: raw promo
-# SAUCE Author: avenging angel
-# SAUCE Group: the used coalition
-# SAUCE Date: 19991113
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: raw promo by avenging angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-02-avg-raw1
 
 Write-Host '
 [36m          [0m         [33m         [0m                                               [33m▀  [0m

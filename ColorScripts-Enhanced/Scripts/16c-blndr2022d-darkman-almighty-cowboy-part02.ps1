@@ -1,20 +1,4 @@
-﻿# Converted from: DARKMAN_ALMIGHTY-COWBOY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2022d/raw/DARKMAN_ALMIGHTY-COWBOY.ANS
-# Source Revision: archive-sha256:a6a81402fbe9b339ed1bbad5c465fd471b3826faeb49393aa64eb517698587ff
-# Source SHA-256: b40f9bd6558de7e45124e18ce4e7b79eca874637cd6d7bb549a766d2ba30c4d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DARKMAN_ALMIGHTY-COWBOY.ANS by Darkman Almighty (Mistigris); released in blndr2022d and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: VR Cowboy
-# SAUCE Author: Darkman Almighty
-# SAUCE Group: Mistigris
-# SAUCE Date: 20221023
-# SAUCE Dimensions: 80x52
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Blender; OCtober 2022- COWBOY / DUELLING / ABANDONED METAVERSE | Cowboys duelling in a 90's VR world...
-# Lines: 27-52
-# Columns: 1-80
+﻿# Artwork: VR Cowboy by Darkman Almighty | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2022d-darkman-almighty-cowboy-part02
 
 Write-Host '
 [36m████████[0;37m [0;1;37m███[0m [36m█████▄[0;37m [0;33m██▓█[0;37m [0;1;37m██████▄[0m [33m███[0;37m  [0;36m▀███[0;37m [0;1;37m███[0m [36m███[0;37m [0;34m██[0;37m [0;36m█[0;37m [0;33m██▄▄▄▄▄▄██  [0;34m██[0;37m [0;36m▀▀[0;37m [0;35m▄▄████[0m

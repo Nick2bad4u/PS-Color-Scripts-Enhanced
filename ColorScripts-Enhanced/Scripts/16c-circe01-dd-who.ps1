@@ -1,15 +1,4 @@
-﻿# Converted from: DD-WHO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe01/raw/DD-WHO.ANS
-# Source Revision: archive-sha256:0b64c26f533b8c11a1aca04e7dcc1e21d4b014c2d6532ba66a48148862d54cb2
-# Source SHA-256: 256efaa33dcb105b86e81706616ff34f04ca5ae6b357494392210e89b07a1ad8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-WHO.ANS by Diamond Darrell (circe01); released in circe01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 19970710
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: DD-WHO.ANS by Diamond Darrell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe01-dd-who
 
 Write-Host '
   [33m▀▀▀▀▀▀[0;1;31;43m [0;33m▓▓█[0;1;31;43m░░▀▀▀▒[0;1;31;40m▓▓[0;1;31;43m▄▄  ░[0;33m▄[0;1;31m▀[0;1;31;47m▓▓[0;1;31;40m████[0;1;31;43m▄[0;33;47m██[0;33;40m██▄▐▄ ░[0;30;43m▓[0;37;40m          [0;1;30;40m   ░  ░▒▓▀[0m   [1;30m ░▒ ▓▓█[0;1;30;47m▓▓▒[0;33m   [0m

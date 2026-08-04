@@ -1,19 +1,4 @@
-﻿# Converted from: APAM-MAGICK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1018/raw/APAM-MAGICK.ANS
-# Source Revision: archive-sha256:4640b189642741640f63d791a65624a377a6e833c336a8c97324805df6a47ba9
-# Source SHA-256: 581be9debcd68994eb495b8c4c410f25224dde3485dd8c779c2671f69cb51645
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: APAM-MAGICK.ANS by Apam (Mistigris); released in mist1018 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Magicka deflection
-# SAUCE Author: Apam
-# SAUCE Group: Mistigris
-# SAUCE Date: 20170423
-# SAUCE Dimensions: 80x53
-# SAUCE Font: IBM VGA
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Magicka deflection by Apam | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1018-apam-magick-part01
 
 Write-Host '
 [1;33;40m   [0m       [31m▄[0m     [31m▄▄[0m       [31m▄▄▄[0m

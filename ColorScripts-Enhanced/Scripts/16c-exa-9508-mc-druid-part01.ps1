@@ -1,13 +1,4 @@
-﻿# Converted from: MC-DRUID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/exa-9508/raw/MC-DRUID.ANS
-# Source Revision: archive-sha256:4f70db23cf77a080198ca2f12f4dba113e98b8ab8d0e9c0e31a47f18996d2bcb
-# Source SHA-256: 3c9c1190994e7b800ac40eec9a27a7b6be75cbf167a0b03eee40a7a4451f1b6c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MC-DRUID.ANS by Mercury (exa-9508); released in exa-9508 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: MC-DRUID.ANS by Mercury | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-exa-9508-mc-druid-part01
 
 Write-Host '
                                                 [31m░░░░░[0m

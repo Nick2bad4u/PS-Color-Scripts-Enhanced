@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-74C0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-44/raw/ZIR-74C0.ANS
-# Source Revision: archive-sha256:6c51508cedeaa9140fcf08750a75edb14e0cec0eebe7b4290346e95cd3548876
-# Source SHA-256: cbf8989c84e9f3d16d04fcc5ddf693e7c1fbf512443fd28a3b892b83ac849e32
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-74C0.ANS by zir (FiRE); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: tACO pRONTO
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20251111
-# SAUCE Dimensions: 80x26
-# SAUCE Font: IBM VGA
-# SAUCE Comments: zoco prozo. damn. i read taco. yay. is it taco??? aye. taco pron | to. nice. maybe. nope. that's ok this says testament. i think. y | a ya ya ya. temu ink maybe? &JOD P30r.&0. ja ja.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: tACO pRONTO by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-44-zir-74c0
 
 Write-Host '
                   [31;40m▄▄[0m

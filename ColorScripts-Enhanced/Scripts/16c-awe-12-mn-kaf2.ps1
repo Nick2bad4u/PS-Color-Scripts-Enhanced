@@ -1,18 +1,4 @@
-﻿# Converted from: MN-KAF2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-12/raw/MN-KAF2.ANS
-# Source Revision: archive-sha256:5c96c14e912296494a464a42e768321452d811693cf172945a9502eb4396c8bb
-# Source SHA-256: 7f42c9070f02311f3b44995dd8e84f8cdbf491d31b7d8b51001622fbef04f9cd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MN-KAF2.ANS by Menace (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Kafkaesk
-# SAUCE Author: Menace
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970819
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Kafkaesk by Menace | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-12-mn-kaf2
 
 Write-Host '
 menace([1mawe[0m)             [1;30m▀[0m                [1;30m▀[0m              [32m▄▄▄▄▄▄▄[0m

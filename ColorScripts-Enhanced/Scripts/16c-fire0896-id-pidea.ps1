@@ -1,17 +1,4 @@
-﻿# Converted from: ID-PIDEA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0896/raw/ID-PIDEA.ANS
-# Source Revision: archive-sha256:f9cf2b2d2bbd2b43295b2db0288f290749703458f413700d0129369379a58bf6
-# Source SHA-256: 98b65fb36d382bb7e723357b0e971376983a90116c028ed29cecb36fe3502bd8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ID-PIDEA.ANS by iodine (Fire); released in fire0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Posioned Ideaz
-# SAUCE Author: iodine
-# SAUCE Group: Fire
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Posioned Ideaz by iodine | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0896-id-pidea
 
 Write-Host '
                        [36m▄  ▄ ░   [0;37m▄[0;1;37m▄[0;1;37;47m▄[0;1;37;40m█▌  ░[0m▄[1;47m▄[0;1;40m█▄▄▄[0m

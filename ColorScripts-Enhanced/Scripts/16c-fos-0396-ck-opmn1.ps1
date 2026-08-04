@@ -1,13 +1,4 @@
-﻿# Converted from: CK-OPMN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fos-0396/raw/CK-OPMN1.ANS
-# Source Revision: archive-sha256:0fb35a03818408d73443becf9bac665063dbd20f02064de523f6c0c7d13b6da1
-# Source SHA-256: 38264f063d236ac39c42633ad4710dae2b54f1621d440190758400377d1f9dba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CK-OPMN1.ANS by Clark (fos-0396); released in fos-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: CK-OPMN1.ANS by Clark | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fos-0396-ck-opmn1
 
 Write-Host '
                                       [1m  [0m  ▄▄▓▄▄▄▄

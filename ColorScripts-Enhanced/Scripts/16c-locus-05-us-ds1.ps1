@@ -1,13 +1,4 @@
-﻿# Converted from: US-DS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/locus-05/raw/US-DS1.ANS
-# Source Revision: archive-sha256:e794f4a6bc7d61ceeb91dcf253d8af6f1d242da726d5159e3be21f4afcead4b3
-# Source SHA-256: 7af70611c944596f378d15670931e2403620ed9706d924899b4b1d4cf4297458
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DS1.ANS by Avenging Angel + Kartoon (locus-05); released in locus-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: US-DS1.ANS by Avenging Angel + Kartoon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-locus-05-us-ds1
 
 Write-Host '
      [34m           [0m

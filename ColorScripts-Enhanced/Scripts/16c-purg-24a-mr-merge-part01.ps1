@@ -1,13 +1,4 @@
-﻿# Converted from: MR-MERGE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-24a/raw/MR-MERGE.ANS
-# Source Revision: archive-sha256:d6d2cbca30699944d1c37edfb38c2cd975e18179eb1d7dc8c9c66cab7d21597d
-# Source SHA-256: 83d859bab279b6ebb5ecfe931619eb23922b4e34716c4635ed2f18c871f6dcaf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-MERGE.ANS by Mr D (purg-24a); released in purg-24a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: MR-MERGE.ANS by Mr D | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-24a-mr-merge-part01
 
 Write-Host '
 [1;30m [0m▐[1m▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄  [0m [1m [0m [1m   [0m  ▌

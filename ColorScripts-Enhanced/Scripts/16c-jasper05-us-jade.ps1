@@ -1,15 +1,4 @@
-﻿# Converted from: us-jade.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper05/raw/us-jade.ans
-# Source Revision: archive-sha256:33fac09b0787230492798535c47bf2642ecf35522de5af17dfe59b662d1606a6
-# Source SHA-256: 9d85f543d86dbcbf77fb98ebc108e513093fc47460b0e057eafa84f1e8508361
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-jade.ans by Ize (jasper05); released in jasper05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 20020426
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: us-jade.ans by Ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper05-us-jade
 
 Write-Host '
                                                       [1;36m █[0;1;36;46m▄[0;36m▄[0;37m   [0;31m░▄▄▄▄▄[0m

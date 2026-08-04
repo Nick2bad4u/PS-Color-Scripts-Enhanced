@@ -1,18 +1,4 @@
-﻿# Converted from: MR-TLC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9708/raw/MR-TLC.ANS
-# Source Revision: archive-sha256:3376fc365de5181233b813e877de1cd710dc83f3caddf0e27d10d8d02107f39f
-# Source SHA-256: a7e97f8bb8b531c192f8e53b63c022d538d685e75e07813f00659660d2fa7273
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-TLC.ANS by minotaur (maiden^brazil); released in mdn-9708 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the lost city
-# SAUCE Author: minotaur
-# SAUCE Group: maiden^brazil
-# SAUCE Date: 19800101
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: the lost city by minotaur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9708-mr-tlc
 
 Write-Host '
 [1;31m▒[0;31m▄▄[0m     [1;31m▄▄█[0;31m█▄▄[0m      [37mthe[0m             [37m  [0m                                [37mmr([0;1;32mMAIDEN[0m)

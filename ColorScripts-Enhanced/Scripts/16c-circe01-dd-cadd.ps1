@@ -1,18 +1,4 @@
-﻿# Converted from: DD-CADD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe01/raw/DD-CADD.ANS
-# Source Revision: archive-sha256:0b64c26f533b8c11a1aca04e7dcc1e21d4b014c2d6532ba66a48148862d54cb2
-# Source SHA-256: 5e7621a66c5eda5c8d972ea2a0890e8e3b58d247152dcd2f759ea2ff845f7de5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-CADD.ANS by Diamond Darrell (PVM); released in circe01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Cookie adder
-# SAUCE Author: Diamond Darrell
-# SAUCE Group: PVM
-# SAUCE Date: 19970725
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Cookie adder by Diamond Darrell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe01-dd-cadd
 
 Write-Host '
 [1;31;43m░░   [0;33m▓▓[0;1;31;43m▓[0;1;31;40m▄▄ [0;1;33;43m▓▓[0;1;33;40m▄[0;1;31;40m ▀█[0;1;31;47m▒▒[0;1;31;40m████████████[0;1;31;43m▓[0;1;31;40m█[0;1;31;43m█▓▓[0;1;33;40m [0;1;33;43m▓▓[0;1;33;40m▀[0;33m▄█[0;1;31;43m░▓▓[0;1;31;40m██████████[0;1;31;43m▓▓[0;1;33;40m▀▀▓▄[0;33m▀[0;1;31;43m░░[0;33m▀▀[0;1;31m    [0m [1;31m [0;33m▄▄▄░ [0;1;33m░█▓[0m

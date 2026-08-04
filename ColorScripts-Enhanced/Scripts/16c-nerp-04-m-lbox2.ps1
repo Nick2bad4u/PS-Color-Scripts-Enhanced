@@ -1,18 +1,4 @@
-﻿# Converted from: M-LBOX2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-04/raw/M-LBOX2.ANS
-# Source Revision: archive-sha256:d99c3d6576b4ffe30ad10598ac465177e9b6d171d7a6c4fd056707ad27adce95
-# Source SHA-256: 43ca9742ffa212ce73d95adb2d5000a1168225bad88bdb542446b01b50db960a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M-LBOX2.ANS by milkmang (nerp productions); released in nerp-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: lunchbox ereet
-# SAUCE Author: milkmang
-# SAUCE Group: nerp productions
-# SAUCE Date: 19971229
-# SAUCE Dimensions: 80x49
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: lunchbox ereet by milkmang | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-04-m-lbox2
 
 Write-Host '
 

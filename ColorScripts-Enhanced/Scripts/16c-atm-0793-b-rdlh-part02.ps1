@@ -1,13 +1,4 @@
-﻿# Converted from: B-RDLH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/atm-0793/raw/B-RDLH.ANS
-# Source Revision: archive-sha256:2791ea7960360c43fee92e39a37f109c33350847675dee72209056037e0dfd3e
-# Source SHA-256: be41074f2a8a768688e09cb3d4a0db9eda9eb74051162aaec55e85d7fb04d274
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: B-RDLH.ANS by Bjorn (atm-0793); released in atm-0793 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: B-RDLH.ANS by Bjorn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-atm-0793-b-rdlh-part02
 
 Write-Host '
                [1;34;44m▐[0m          [34m██[0;1;34;44m▀[0;1;34;40m▄[0m         [34m▄██[0;1;34;44m▀[0;1;34;40m▄[0m

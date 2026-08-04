@@ -1,18 +1,4 @@
-﻿# Converted from: NS-COLL5.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/glue-35/raw/NS-COLL5.ANS
-# Source Revision: archive-sha256:bc92204ac679e4231b1db133abb983c42252574e71b83e8773e063911f5f3ee6
-# Source SHA-256: 347d242ea5abfc53bc9f2350c595a12da0897fd85a6fe765c17956e660ae4f02
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NS-COLL5.ANS by ansichrist (glue); released in glue-35 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: small pics & logo colly part 5
-# SAUCE Author: ansichrist
-# SAUCE Group: glue
-# SAUCE Date: 20010414
-# SAUCE Dimensions: 80x303
-# Lines: 220-264
-# Columns: 1-80
+﻿# Artwork: small pics & logo colly part 5 by ansichrist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-35-ns-coll5-part06
 
 Write-Host '
 [1;37;46m [0;36m▓[0;1;37;46m [0;36m▓▒▓▒▒▓[0;1;37;46m       [0;36m▓▀[0;1;37m ▄[0;1;37;46m▓▄[0;36m▓▀ [0;1;37m▄[0;1;37;46m▓▓▄       [0;1;30;40m░░[0;1;36;40m   [0;1;37;46m          [0;30;46m▐[0;30;40m████[0;30;46m█  [0;1;30;40m░[0;30;46m████▌         ▐█████[0m

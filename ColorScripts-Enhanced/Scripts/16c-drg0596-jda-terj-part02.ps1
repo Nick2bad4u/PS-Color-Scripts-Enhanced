@@ -1,18 +1,4 @@
-﻿# Converted from: JDA_TERJ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg0596/raw/JDA_TERJ.ANS
-# Source Revision: archive-sha256:d670382d351e02706636ed3f42d5424159eaf3d63803a18a032bc93392d9c38d
-# Source SHA-256: 533e60549ed92ea0f3ff91b98c72e29ac4fd620b0f18427eac243f974c99a6c8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JDA_TERJ.ANS by Joda (Drg^InP); released in drg0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: No title!!!
-# SAUCE Author: Joda
-# SAUCE Group: Drg^InP
-# SAUCE Date: 19960424
-# SAUCE Dimensions: 80x51
-# Lines: 26-51
-# Columns: 1-80
+﻿# Artwork: No title!!! by Joda | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg0596-jda-terj-part02
 
 Write-Host '
 [1;34;40m███████████████████▌[0;1;31;40m▐██[0m [1m████████   [0;1;47m▌[0m▌[1m▐██   [0;1;47m▌[0m▌[1;31m▐█[0;1;31;43m▌[0;33m▌[0;1;34m▐████████████[0;1;34;44m██████████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: ZIP-NECK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-04/raw/ZIP-NECK.ANS
-# Source Revision: archive-sha256:fa04f9284176600bd187f5f89edb1d3f52550711ec8063377e14a2ec045346f2
-# Source SHA-256: d7a9756bdab64b5e94fa30493529d39232e0af6f4441b6d150b481dc35902e55
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIP-NECK.ANS by Zippy (Hieroglyphics); released in hiero-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Neck
-# SAUCE Author: Zippy
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20001130
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Neck by Zippy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-04-zip-neck
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: GT-STAFF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wolf0995/raw/GT-STAFF.ANS
-# Source Revision: archive-sha256:bcb683eb0a6f26e642eb3a96f606e8810873de59535b199d98b85afb064e7f9b
-# Source SHA-256: abf5559b9a0df86cc8f93ae9628c6cd10f567dd7fe561e7fc43808fb472054e2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GT-STAFF.ANS by Glasnost (Wolfpack); released in wolf0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Binary Realm Ad
-# SAUCE Author: Glasnost
-# SAUCE Group: Wolfpack
-# SAUCE Date: 19950827
-# SAUCE Dimensions: 80x101
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Binary Realm Ad by Glasnost | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wolf0995-gt-staff-part02
 
 Write-Host '
                     [1;31m▄████[0;1;31;47m▓[0;1;31;40m█[0;1;31;47m▓[0;1;31;40m████████[0;1;31;47m▓[0;1;31;40m█▄▄▄[0m

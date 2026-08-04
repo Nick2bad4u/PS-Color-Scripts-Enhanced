@@ -1,19 +1,4 @@
-﻿# Converted from: c-sK!rescuingmonkeysbetweenrealities.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2020/raw/c-sK!rescuingmonkeysbetweenrealities.ans
-# Source Revision: archive-sha256:9d4f52c1185463990664e9f171bfbfc9162b0a67262c063ea6cad81ca1993d3a
-# Source SHA-256: a970a55211c7ffa31517baf6d95cecae7f4981f96a5cb163dc84b492a35c43a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: c-sK!rescuingmonkeysbetweenrealities.ans by sIMONkING (thelo0p!); released in blndr2020 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: MONKEYS / RESCUING / BETWEEN REALIT
-# SAUCE Author: sIMONkING
-# SAUCE Group: thelo0p!
-# SAUCE Date: 20200419
-# SAUCE Dimensions: 80x100
-# SAUCE Font: IBM VGA
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: MONKEYS / RESCUING / BETWEEN REALIT by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2020-c-sk-rescuingmonkeysbetweenrealities-part01
 
 Write-Host '
 [1;35;45m░░░░░░░░[0;35m████[0;1;30;45m▄▄▄▄▄[0;1;30;40m▀[0;35m▀▀▀▀▀██▀▀▀[0;37m   ▄▄▄▄▄▄▄▄   [0;35m█████[0;1;30;45m▄▄▄▀▀▀[0;35m███████▀▀██████████[0;1;35;45m░░░░░░░░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: NO-TS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/grnd1194/raw/NO-TS1.ANS
-# Source Revision: archive-sha256:a46351645581e540e2e9a58eed61604cab2bbdc718b54c2120d2704a9fc83974
-# Source SHA-256: 6b75209cde4f325b5cfa78aebbf7a28fc7cdf2ae32493461173e0e69c3e82fba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NO-TS1.ANS by Nosferatu (grnd1194); released in grnd1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: NO-TS1.ANS by Nosferatu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-grnd1194-no-ts1
 
 Write-Host '
                                                             [1;30m░░░░░[0;32m░░░░░[0;1;30m░░░░░░░░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: ess!k4l1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/karma-04/raw/ess!k4l1.ans
-# Source Revision: archive-sha256:b68d5bdeb72850c951e2f07dad7681bad480a3ceb7c165fa9119913ec8d6f8fc
-# Source SHA-256: 99a3bc24a68d1dee2775b3ecdac390511a12701558f7839e3c10c0cc4b0e1b23
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ess!k4l1.ans by Essence (Karma); released in karma-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Karma
-# SAUCE Author: Essence
-# SAUCE Group: Karma
-# SAUCE Date: 19980719
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Karma by Essence | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-karma-04-ess-k4l1
 
 Write-Host '
                                       [1;30m.[0m                                    [1;30m.[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: CAL23-02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-36/raw/CAL23-02.ANS
-# Source Revision: archive-sha256:43e7d46e56dc094cf8502b299dcd82ee875dea0a064a36248f4e6c844180fd25
-# Source SHA-256: 28b8ee2db9d69c6fc758ec09078c63c1f75480a8a2c7c964237c5617740497da
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CAL23-02.ANS by knocturnal (fire-36); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: February
-# SAUCE Author: knocturnal
-# SAUCE Date: 20230303
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# SAUCE Comments: February 1st is Face and Body Painting Day
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: February by knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-36-cal23-02
 
 Write-Host '
 [34;40m   ░░░░░░▒[0;30;44m▒[0;34;40m▒[0;30;44m▒[0;34;40m▒▓▓▓▓[0;30;44m░[0;34;40m▓█[0;30;44m░░░[0;34;40m███████████████████▀▀▀[0m            [34;40m▀▀███████████████▓▓▓▓▓[0m

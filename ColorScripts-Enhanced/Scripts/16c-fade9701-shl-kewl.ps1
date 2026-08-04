@@ -1,18 +1,4 @@
-﻿# Converted from: SHL-KEWL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fade9701/raw/SHL-KEWL.ANS
-# Source Revision: archive-sha256:c6d5a184fb7d2c1b4105639e94f213f1497485260f1e9efd32c494b51c17401b
-# Source SHA-256: 12fa34db9b92519344fb90089f0e19bf534c8827dc35afcadc8084062c586e36
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SHL-KEWL.ANS by shizzl (fade); released in fade9701 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: little pic
-# SAUCE Author: shizzl
-# SAUCE Group: fade
-# SAUCE Date: 19961223
-# SAUCE Dimensions: 80x25
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: little pic by shizzl | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fade9701-shl-kewl
 
 Write-Host '
 [1;36;46m██████████████████████████████████████████████████████[0;1;36;40m█[0;1;36;46m█████████████████████████[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: AM-TBG1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-10/raw/AM-TBG1.ICE
-# Source Revision: archive-sha256:bf182b3a4a3821f59456de515e0caeefdf153f2040b433c6321d39d23c909d77
-# Source SHA-256: c231f30970fcd20985d2cf837216b2b5eaa6b0e0085b1611844345f6e88e5538
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AM-TBG1.ICE by Amroth (icepk-10); released in icepk-10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: AM-TBG1.ICE by Amroth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-10-am-tbg1-part02
 
 Write-Host '
                       [33m▄▄▄▄▄████[0;1;33;43m░░░░░░░░░░░░░[0;33m████████████████░▒▌[0m

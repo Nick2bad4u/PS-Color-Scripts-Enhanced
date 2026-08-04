@@ -1,18 +1,4 @@
-﻿# Converted from: AN-TG3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0794/raw/AN-TG3.ANS
-# Source Revision: archive-sha256:53cd35a6f327a0c8a649f0c556ca1e17aa60e6c4040eff696f9e35efc72f4414
-# Source SHA-256: e4e701d29704ef62fda263f04a7cae13bd1655f8e2ce72c0a5491d74f0926ed7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AN-TG3.ANS by Andrew Nice (ACiD Productions); released in acdu0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Thieve's Guild
-# SAUCE Author: Andrew Nice
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940701
-# SAUCE Dimensions: 80x116
-# Lines: 83-116
-# Columns: 1-80
+﻿# Artwork: Thieve's Guild by Andrew Nice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0794-an-tg3-part03
 
 Write-Host '
                                                                    [1;30m▀[0;1;30;45m▓[0;33m▓[0;35m▄[0m

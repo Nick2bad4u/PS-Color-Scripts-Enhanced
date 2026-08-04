@@ -1,13 +1,4 @@
-﻿# Converted from: OM-CA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tlyx-01/raw/OM-CA.ANS
-# Source Revision: archive-sha256:0aaa019b0cc03774266a75f56965f846b967e04bb2a77c96da7de25b8a5bb42a
-# Source SHA-256: 2665374232b4756ba61a7712b138c0af828aa2058f86d8111233a04777bc8146
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OM-CA.ANS by Otium Man (tlyx-01); released in tlyx-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: OM-CA.ANS by Otium Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tlyx-01-om-ca
 
 Write-Host '
                  [31m_,[0;1;31m [0;31mssⁿ[0;1;31m ⁿ[0;31m°°""[0;1;31m""[0;31m"[0;1;31m"[0;31m"[0;1;31m°°°[0;31mⁿⁿⁿ[0;1;31mⁿⁿⁿ¶S$$$$$$$$$$SSSgggm,[0;31m`°[0;1;31mⁿS$lm[0m

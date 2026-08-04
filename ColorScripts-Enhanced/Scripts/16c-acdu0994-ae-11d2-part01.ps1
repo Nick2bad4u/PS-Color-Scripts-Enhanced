@@ -1,18 +1,4 @@
-﻿# Converted from: AE-11D2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0994/raw/AE-11D2.ANS
-# Source Revision: archive-sha256:70e9e3ba45456511eb6a648215e7531dd3b7a09ca51f860ca2dd613c7dbc4d28
-# Source SHA-256: b6b1e0dffbc9fc65ccbd14ac72c8b9c73ec0919dad6cfc14ba77afcf623560bf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AE-11D2.ANS by Alter Ego (ACiD Productions); released in acdu0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Eleventh Dungeon Two
-# SAUCE Author: Alter Ego
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940901
-# SAUCE Dimensions: 80x88
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: The Eleventh Dungeon Two by Alter Ego | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0994-ae-11d2-part01
 
 Write-Host '
 [31m█████▀▀█████▀▀█████████████████████████████████████████████████████████████████[0m

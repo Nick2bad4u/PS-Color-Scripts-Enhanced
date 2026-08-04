@@ -1,16 +1,4 @@
-﻿# Converted from: misfit-valentine.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-420/raw/misfit-valentine.ans
-# Source Revision: archive-sha256:32206a6b687af3a407a7929bd0ae7f49a2a5a96e7853d9c98b3020df27e9b06d
-# Source SHA-256: ab2ccc01a2573b7adf1509d9fab47670990b35afafcfdf0c84130c208fff0aa4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: misfit-valentine.ans by Misfit (blocktronics-420); released in blocktronics-420 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 20180213
-# SAUCE Dimensions: 80x253
-# SAUCE Font: IBM VGA
-# Lines: 213-253
-# Columns: 1-80
+﻿# Artwork: misfit-valentine.ans by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-420-misfit-valentine-part06
 
 Write-Host '
 [33m░░░[0;37m  [0;33m░░[0;37m        [0;33m   [0;37m          [0;31m▓▓████[0;1;34;41m    ██  ███████   ██   [0;31m████[0;1;31;41m [0;31m▌[0m

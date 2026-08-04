@@ -1,18 +1,4 @@
-﻿# Converted from: PC-RITK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst0696/raw/PC-RITK.ANS
-# Source Revision: archive-sha256:347df47865230bbb26c34a4c83d3b745b5aa8a50aaa211f3da18188712bc5174
-# Source SHA-256: a07b43434c5e691bbc75f47bc6cc4600dbb62e8be6a0fc9031a3ed8c15656080
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-RITK.ANS by putrid carcass (twisted); released in twst0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ritual shit
-# SAUCE Author: putrid carcass
-# SAUCE Group: twisted
-# SAUCE Date: 19960526
-# SAUCE Dimensions: 80x46
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: ritual shit by putrid carcass | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst0696-pc-ritk
 
 Write-Host '
 [1;30m∙  ▄█▓▄ ▄[0;1;30;47m▓[0;1;30;40m ▄[0;1;30;47m█▓[0;1;30;40m▄ ▄[0m

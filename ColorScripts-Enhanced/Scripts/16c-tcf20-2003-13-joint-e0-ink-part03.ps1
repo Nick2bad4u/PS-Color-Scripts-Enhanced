@@ -1,13 +1,4 @@
-﻿# Converted from: 2003 - 13 - Joint - E0-INK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tcf20/raw/2003%20-%2013%20-%20Joint%20-%20E0-INK.ANS
-# Source Revision: archive-sha256:af8609219fccc484668fb405a7f1d45efb8c574501a461c5c1b47d87a12921ce
-# Source SHA-256: ce6a0c3fd5f1d1a364005a1d2befef451d1b23fcd4c69de748977360a7746679
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2003 - 13 - Joint - E0-INK.ANS by Enzo + The Creep Fever (tcf20); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 96-144
-# Columns: 1-80
+﻿# Artwork: 2003 - 13 - Joint - E0-INK.ANS by Enzo + The Creep Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tcf20-2003-13-joint-e0-ink-part03
 
 Write-Host '
 [1;34m████[0;1;34;47m▓▒▒▒▓[0;1;34;40m█▓ ▐█[0;34m▌[0;37m [0;1;30m▀▀▄[0;1;30;47m▀[0m██[1;30;47m▄[0m█████[36;47m░[0;37;40m██[0;1;36;47m░░[0m█▀▀[1;30m▀[0;33m▄[0;1;33;43m█[0;1;37;40m▄▄[0m  [1;30;47m▌[0m████[1;30;47m▀[0m█▄[1;30m▄▀▀▀█[0m [1;34;44m▀▓▓█▀[0;34m▀[0;1;34m   ▀███[0;1;34;47m▓▓[0;1;34;40m██[0;1;34;47m▓▒░[0;1;34;40m  ▐[0m

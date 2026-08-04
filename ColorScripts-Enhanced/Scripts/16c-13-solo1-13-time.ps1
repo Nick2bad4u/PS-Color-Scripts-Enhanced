@@ -1,18 +1,4 @@
-﻿# Converted from: 13-TIME.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/13-solo1/raw/13-TIME.ANS
-# Source Revision: archive-sha256:2b044723726e03e5c180cb21277db4a4292085c3d8e95a5e0e481210deb4ec42
-# Source SHA-256: 20d42627210e070454d1317f7a89990d4b36a369d36cd016bc76d95894a097e6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 13-TIME.ANS by Ville (Blend); released in 13-solo1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: gatetime, ehh.... timegate.
-# SAUCE Author: Ville
-# SAUCE Group: Blend
-# SAUCE Date: 19961019
-# SAUCE Dimensions: 80x45
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: gatetime, ehh.... timegate. by Ville | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-13-solo1-13-time
 
 Write-Host '
 [1;33m[0m                         [36m                            [0m

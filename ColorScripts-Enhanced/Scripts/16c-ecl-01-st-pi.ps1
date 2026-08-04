@@ -1,18 +1,4 @@
-﻿# Converted from: ST-PI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-01/raw/ST-PI.ANS
-# Source Revision: archive-sha256:98f7ca14920172db6145e44afa4b8ac94de6e46d94b8cf326e89a96c3e7e5c1b
-# Source SHA-256: 79e7013b48a1d736e013f8c39f3532d90b0bc38c8c6778ff0d61200be587a8f5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-PI.ANS by SPLatt (3clips3); released in ecl-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: poisonedidears#!#@
-# SAUCE Author: SPLatt
-# SAUCE Group: 3clips3
-# SAUCE Date: 19960603
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: poisonedidears#!#@ by SPLatt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-01-st-pi
 
 Write-Host '
 

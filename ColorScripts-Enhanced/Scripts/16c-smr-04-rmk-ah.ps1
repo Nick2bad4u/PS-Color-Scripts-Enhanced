@@ -1,13 +1,4 @@
-﻿# Converted from: RMK-AH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/smr-04/raw/RMK-AH.ANS
-# Source Revision: archive-sha256:38a262911b83243b311c6be0c23fb485f6a2c1aa67c409ab1af66d03432a087e
-# Source SHA-256: 5f4a910829551fade50f65684bd26fab51c905dec340e5e3a35dbb85168827a6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RMK-AH.ANS by Rumik (smr-04); released in smr-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: RMK-AH.ANS by Rumik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-smr-04-rmk-ah
 
 Write-Host '
                      [1;34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0m

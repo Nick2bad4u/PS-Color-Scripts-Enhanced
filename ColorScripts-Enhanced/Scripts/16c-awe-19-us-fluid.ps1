@@ -1,18 +1,4 @@
-﻿# Converted from: US-FLUID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-19/raw/US-FLUID.ANS
-# Source Revision: archive-sha256:db429aaaa9cca2e4296dcb178b9b345b980b5c7d6fe930188ea53fede20ed269
-# Source SHA-256: 0fb919fb3e138579610cde6bc7b952ccfb244b34a796d27fbbbc835755993b19
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FLUID.ANS by Mr Wrong + Cleaner (AWE Lettering); released in awe-19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fluid Promotional
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981130
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Fluid Promotional by Mr Wrong + Cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-19-us-fluid
 
 Write-Host '
                        [33m░░[0;37m░[0m    [33m░[0;1;33m░ [0;1;30m▄[0;33m▄░[0;1;33m   [0;1;30m▄[0m

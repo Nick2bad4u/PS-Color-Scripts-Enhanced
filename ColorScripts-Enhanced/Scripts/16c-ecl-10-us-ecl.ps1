@@ -1,13 +1,4 @@
-﻿# Converted from: US-ECL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-10/raw/US-ECL.ANS
-# Source Revision: archive-sha256:6734a0716f5363aecb5b8387359a704e7e1a498f17ee632abf4e9ca947f0336d
-# Source SHA-256: f954e9388c5ad347373cdb67cb843a1e21ad1b84de8be17363fdbad2989dec6b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ECL.ANS by Cheeze + Haji (ecl-10); released in ecl-10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: US-ECL.ANS by Cheeze + Haji | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-10-us-ecl
 
 Write-Host '
 [30m[0m[30m[0m[1;37m                               [0m                          [1m░░░[0m

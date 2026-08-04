@@ -1,13 +1,4 @@
-﻿# Converted from: SKN-MD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pang03/raw/SKN-MD.ANS
-# Source Revision: archive-sha256:9a4d3bad3e5904d1f75fb63220bec772afa6ee695697fd873d943948d0f4ac7d
-# Source SHA-256: 0dc5d6c2ffd2b47192a497cf17b5dc1119e4bd4d58ad1ff505773cc1a516bd5f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SKN-MD.ANS by Skin 972 (pang03); released in pang03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: SKN-MD.ANS by Skin 972 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pang03-skn-md
 
 Write-Host '
                                                           [1;35;45m▄░[0;35m▄[0m

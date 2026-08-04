@@ -1,19 +1,4 @@
-﻿# Converted from: MM-ASLIGHTINJECTION.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/MM-ASLIGHTINJECTION.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: ca5bb9090249d7c0a0fb7dbef76f1e74e82622c5d33957295217df7a48f678f1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-ASLIGHTINJECTION.ANS by Mavenmob (Mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: A Slight Injection Please
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241228
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: A Slight Injection Please by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-mm-aslightinjection
 
 Write-Host '
 

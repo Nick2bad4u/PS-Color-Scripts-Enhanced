@@ -1,17 +1,4 @@
-﻿# Converted from: SUB-SUM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cia54/raw/SUB-SUM.ANS
-# Source Revision: archive-sha256:9b7b685b524341694e840bb32e23e0ecbdd87901428d1485320cda27f9079201
-# Source SHA-256: 146e3ef4ea90e1eb5e360c412ef5e3563c1382c6bf2d70f21b4f0725d4527468
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SUB-SUM.ANS by subsonic (cia54); released in cia54 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: sumatra
-# SAUCE Author: subsonic
-# SAUCE Date: 19980512
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: sumatra by subsonic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cia54-sub-sum
 
 Write-Host '
        [1;34m▄▄[0;34m▄▄▄   [0m       [34m░░[0m

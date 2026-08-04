@@ -1,18 +1,4 @@
-﻿# Converted from: TRC-AD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0497/raw/TRC-AD.ANS
-# Source Revision: archive-sha256:ac23f379eb24f5f6ad8faa432723caa3c85fc7d4fc380b1d3e101e8eb50ca483
-# Source SHA-256: f87b5c75a05803baf1d1c55f85434fc84becf97f11049cc3b769b2b6709a6dad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TRC-AD.ANS by tricycle (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: artificial dope - go#2 entry
-# SAUCE Author: tricycle
-# SAUCE Group: phat studios '97
-# SAUCE Date: 19970219
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: artificial dope - go#2 entry by tricycle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0497-trc-ad
 
 Write-Host '
        [31m▄[0m      [33m░[0;30;43m▓[0;33;40m▓█ [0;37;40m [0;33;40m▀██[0;1;31;43m▒[0;33m▀[0;37m [0;33m▄ [0;37m [0;33m█▓░[0;37m [0;33m▐[0;1;31;43m░░░[0;33m▓░[0m     [33m▄[0;30;43m░[0;33;40m▓▀[0;37;40m  [0;34;40m [0;37;40m░[0;30;47m▓[0m        [1;33;40m [0;33m▄[0;1;33m■[0m            [1;34m░░[0m

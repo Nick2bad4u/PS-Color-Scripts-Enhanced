@@ -1,18 +1,4 @@
-﻿# Converted from: T-REAP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook13/raw/T-REAP1.ANS
-# Source Revision: archive-sha256:f383b37d2f0265a83b82afcdde57a4dae359d8a5127c467dcea28d0c8500d000
-# Source SHA-256: f5e2f2ab5b24744634689e9bcfeca87c3c5f746fbc35ad0ebc8d7e5cb19f67ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T-REAP1.ANS by Toot (Black Maiden); released in bmbook13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Reaper Pro Screen
-# SAUCE Author: Toot
-# SAUCE Group: Black Maiden
-# SAUCE Date: 19970420
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Reaper Pro Screen by Toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook13-t-reap1
 
 Write-Host '
   [1m [0m           [32m▄▄[0;1;33m▄▄▄▄▄▄[0;1;33;42m▄▄▄█[0;1;37;40m██[0;1;33;42m███████████▓▓░░[0;32m████▌▀▀[0;37m [0;1;33m░░[0;32m ░▓██████▀▀▀▀▀▀▀▀▀▀▀█████▄[0m

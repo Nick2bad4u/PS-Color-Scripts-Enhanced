@@ -1,13 +1,4 @@
-﻿# Converted from: FR-BAD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bat04/raw/FR-BAD1.ANS
-# Source Revision: archive-sha256:d176f3f3481cd621bff59d2bfb55aef8be05c9007ac772bba99c98c138cb9e41
-# Source SHA-256: 13f46077b7c44bf04ac10c3d28a421551e537354d5817911c7c8a0523ea31e1d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FR-BAD1.ANS by Freezer (bat04); released in bat04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: FR-BAD1.ANS by Freezer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bat04-fr-bad1
 
 Write-Host '
 

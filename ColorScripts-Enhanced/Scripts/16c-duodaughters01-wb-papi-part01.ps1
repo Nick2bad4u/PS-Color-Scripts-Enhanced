@@ -1,16 +1,4 @@
-﻿# Converted from: WB-PAPI.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/duodaughters01/raw/WB-PAPI.ans
-# Source Revision: archive-sha256:107dcc7639647744884177ba1bc2147746cc2fe523012ebd967c4f8ee48caaef
-# Source SHA-256: f30d651e0ef67fbcbbb15bd8350b468ec33cac44a77688bb4592dce7bcda7c6a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WB-PAPI.ans by Wolf Biker (duodaughters01); released in duodaughters01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 20151214
-# SAUCE Dimensions: 80x106
-# SAUCE Font: IBM VGA
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: WB-PAPI.ans by Wolf Biker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-duodaughters01-wb-papi-part01
 
 Write-Host '
 

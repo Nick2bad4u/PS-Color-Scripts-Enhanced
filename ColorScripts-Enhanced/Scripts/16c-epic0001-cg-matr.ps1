@@ -1,18 +1,4 @@
-﻿# Converted from: CG-MATR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/epic0001/raw/CG-MATR.ANS
-# Source Revision: archive-sha256:469e19c85e17e735160f218c31263c528e0f299d68abc25979191060f709ef80
-# Source SHA-256: 96a0139adc55415f7b09cfa7f482140a7bd263caf0ffa673009a872a5fff2c07
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-MATR.ANS by cryogenic (epic); released in epic0001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: matrix
-# SAUCE Author: cryogenic
-# SAUCE Group: epic
-# SAUCE Date: 19990602
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: matrix by cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-epic0001-cg-matr
 
 Write-Host '
   [1;31;41m▄[0;1;31;47m██▓▓[0;1;31;41m█[0;31m▓░[0;1;31;41m▄▓[0m [31m▄[0;1;31;41m░░[0;31m▀[0;33m▄[0;1;31;43m▄█████████▓[0;33m [0;1;31;43m▓█[0;1;31;47m▓▓[0;33m▀ [0;1;31;43m▄█▀[0;31m [0;33m▄[0;37m [0;31m▄░▀[0;1;31;41m▓[0m  [32m░[0;30;42m▓[0;32;40m░    [0m    [1;30;40mcryogenic[0m    [32m    ░[0;30;42m▓[0;32;40m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: RZ-HDOOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force18a/raw/RZ-HDOOD.ANS
-# Source Revision: archive-sha256:6a0f397e3657e6d033b73af64211a87e0404e38c6a0f4de7a8637861ae197039
-# Source SHA-256: 1e2507771222b5667a0940acabb5e7d46da4c236bbe708d7f48c1eddc7d1edb7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RZ-HDOOD.ANS by Rzarector (fOrce prOduktiOns); released in force18a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Happy doOd?
-# SAUCE Author: Rzarector
-# SAUCE Group: fOrce prOduktiOns
-# SAUCE Date: 19970603
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Happy doOd? by Rzarector | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force18a-rz-hdood
 
 Write-Host '
 [1;30m--------------------------------------------------------------------------------[0m

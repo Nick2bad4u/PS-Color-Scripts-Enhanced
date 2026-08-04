@@ -1,18 +1,4 @@
-﻿# Converted from: 09-PEC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9708/raw/09-PEC1.ANS
-# Source Revision: archive-sha256:defa13458710db8b7c1fa20a6cd29749e80a61eef8ba8dc70e8a9a4a0b1d4f5d
-# Source SHA-256: 5d963c6ef3bc02ecd76c93a6c4fa8ac2e0fd7369b4ffcd00d4c445e8a6ecdb40
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-PEC1.ANS by Fluor (AWE Lettering); released in awe9708 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Pec
-# SAUCE Author: Fluor
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970810
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Pec by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9708-09-pec1
 
 Write-Host '
                      [1;34m░ [0;34m▄[0m                                  [35m▄ ▄[0;1;35m▄  [0;35m▄[0;1;35m▄[0;1;35;45m▄[0m [35m▄[0;1;35;45m▄▓[0;1;35;40m▄▄▄[0;35m▄[0m

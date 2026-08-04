@@ -1,13 +1,4 @@
-﻿# Converted from: HP-1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ddip1196/raw/HP-1.ANS
-# Source Revision: archive-sha256:c2477a6ae50796566abddfa2870c440511b1266fe5f1eb8f614027b16fe779be
-# Source SHA-256: d6dad2f488a16eaaf7bb558285d24eb4df145b4c6c9336d540190bac4d50c1fe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HP-1.ANS by Hyper (ddip1196); released in ddip1196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: HP-1.ANS by Hyper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ddip1196-hp-1
 
 Write-Host '
                                         [30m████████████████████████████████████████[0m

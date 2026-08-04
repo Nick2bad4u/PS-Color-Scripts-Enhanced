@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-DRAG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0897/raw/OUT-DRAG.ANS
-# Source Revision: archive-sha256:549bf8e96e7f7e860f0287ba7104856044d3d84459139164d9a185bf317f9174
-# Source SHA-256: 71159e0f9be73cacbb22bca050c78665ab98fc784f201307be89d4c87d0ec6f4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-DRAG.ANS by Sandy Chidester (out-0897); released in out-0897 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: OUT-DRAG.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0897-out-drag
 
 Write-Host '
      [34m▄███████████▀▀▀▀████    ▄███▄ ▄ ▄▄  ▄▄▄▄▄▄▄▄▄▄▄██████████████████████▄▄[0m

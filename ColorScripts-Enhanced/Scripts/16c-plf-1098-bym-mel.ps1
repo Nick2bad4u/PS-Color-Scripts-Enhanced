@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-MEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1098/raw/BYM-MEL.ANS
-# Source Revision: archive-sha256:c4e49f581efdb23757cb4cd22ca84401fcd6ac0febdad687007b0b36de54547a
-# Source SHA-256: cd64f3bde36a9fe242bec988386dadeaa0d74ce6825dffc76b325b453107e2d8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-MEL.ANS by bubbelbym (poffelipoff); released in plf-1098 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: myluev
-# SAUCE Author: bubbelbym
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19981011
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: myluev by bubbelbym | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1098-bym-mel
 
 Write-Host '
   [31m░[0m

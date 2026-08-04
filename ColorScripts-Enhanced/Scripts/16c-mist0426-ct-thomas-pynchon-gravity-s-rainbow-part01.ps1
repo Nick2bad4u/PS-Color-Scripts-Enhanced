@@ -1,20 +1,4 @@
-﻿# Converted from: CT-THOMAS_PYNCHON-GRAVITY'S_RAINBOW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0426/raw/CT-THOMAS_PYNCHON-GRAVITY'S_RAINBOW.ANS
-# Source Revision: archive-sha256:c759ba228fb42808866da1267838a1ce2371215b87bc273c64f35f4bc653e77d
-# Source SHA-256: 9c4e873aa08fe3a6c47a93f3458b2482020fe95f99ff42bdd2f4207588462a5d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CT-THOMAS_PYNCHON-GRAVITY'S_RAINBOW.ANS by Cthulu (Mistigris); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Gravity's Rainbow
-# SAUCE Author: Cthulu
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260422
-# SAUCE Dimensions: 80x58
-# SAUCE Font: IBM VGA
-# SAUCE Comments: 1st edition, Viking Press, 1973.  Jacket design by Marc Gette.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Gravity's Rainbow by Cthulu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0426-ct-thomas-pynchon-gravity-s-rainbow-part01
 
 Write-Host '
 [31m███████████████████████████████████████████████████████████████████▓▓▓▓▓▓▓▒▒▒▒░░[0m

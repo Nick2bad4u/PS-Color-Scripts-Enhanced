@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-AC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook21/raw/AVE-AC.ANS
-# Source Revision: archive-sha256:a9340bf45277705f38b7b2e8dfe7bc518716b8c419a47ac48708bc33bd40ec01
-# Source SHA-256: 21cecbf71ff352a4a41c14254ebe0cbb0bb05d0147600bf01b21bb30fb18b279
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-AC.ANS by avenger (black maiden); released in bmbook21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: err. astrocity or something
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 20000106
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: err. astrocity or something by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook21-ave-ac
 
 Write-Host '
 

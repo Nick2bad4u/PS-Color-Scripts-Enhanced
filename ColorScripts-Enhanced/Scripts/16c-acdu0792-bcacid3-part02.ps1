@@ -1,13 +1,4 @@
-﻿# Converted from: BCACID3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0792/raw/BCACID3.ANS
-# Source Revision: archive-sha256:c1f89246ee030ee53ad4f4f0ca24668f73a08f89ecd499ef9148ebcc992b9b4d
-# Source SHA-256: 2232f46a5d21d3997836cea79488118ceec3e8510dd5215f5027ad53f772e4ed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BCACID3.ANS by Manufacturer (acdu0792); released in acdu0792 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 41-59
-# Columns: 1-80
+﻿# Artwork: BCACID3.ANS by Manufacturer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0792-bcacid3-part02
 
 Write-Host '
    [1m▄▄[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄                                [1m▄▄[0m▄▄▄▄▄▄   [1m▄▄[0m▄▄▄▄▄▄▄

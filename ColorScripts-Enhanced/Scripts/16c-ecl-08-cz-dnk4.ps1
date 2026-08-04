@@ -1,18 +1,4 @@
-﻿# Converted from: CZ-DNK4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-08/raw/CZ-DNK4.ANS
-# Source Revision: archive-sha256:0b90c936d49629839c01709c30be5eee3ae4012caa7a8f1570b6ae8cc1763cb4
-# Source SHA-256: 092ef358aaca569e141d179f36a5effbd448e08e230f1ff21f756d2141b7c77e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CZ-DNK4.ANS by cheeze (elk lips); released in ecl-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: doink, home of green eggs.
-# SAUCE Author: cheeze
-# SAUCE Group: elk lips
-# SAUCE Date: 19961002
-# SAUCE Dimensions: 80x26
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: doink, home of green eggs. by cheeze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-08-cz-dnk4
 
 Write-Host '
 [1m░[0;1;36m███[0;1;37m█████████████[0;1;37;47m▄[0m▄[1;32m [0;32m▀[0;1;32;42m▀[0;1;32;47m████████████████▓▓▓▓█████████████[0;1;32;42m▓▓▓░[0;32m▌[0;1;32m [0m▐[1;47m▐[0;1;36;40m█[0;1;37;40m█[0;1;36;40m██[0;1;37;40m███████████░[0m

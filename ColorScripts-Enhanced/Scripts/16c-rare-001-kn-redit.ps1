@@ -1,18 +1,4 @@
-﻿# Converted from: KN!REDIT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-001/raw/KN!REDIT.ANS
-# Source Revision: archive-sha256:7435b1c9938dec461ab33b42b3dd164ea7e98ecfff30ea4d3df5a8e59194b0a3
-# Source SHA-256: af93fbfce686c165b5b73ef3a4cdcd41d183d74c9eba3561d9215e39dd39ab37
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KN!REDIT.ANS by Kenetic (rARE!ASCii); released in rare-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Raf - User editor
-# SAUCE Author: Kenetic
-# SAUCE Group: rARE!ASCii
-# SAUCE Date: 19980308
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Raf - User editor by Kenetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-001-kn-redit
 
 Write-Host '
 

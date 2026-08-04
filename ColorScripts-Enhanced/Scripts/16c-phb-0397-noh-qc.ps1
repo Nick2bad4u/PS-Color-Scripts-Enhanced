@@ -1,17 +1,4 @@
-﻿# Converted from: NOH-QC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phb-0397/raw/NOH-QC.ANS
-# Source Revision: archive-sha256:d18868f8faf7726799689b37fb1a0005133cfca83163c8b652f242ae3ef3a67d
-# Source SHA-256: c42f545e41d8917c49cf290689458632a26f9cc0b3d11145202eeff27424dd25
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-QC.ANS by nOah! (phb-0397); released in phb-0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: for some compo...
-# SAUCE Author: nOah!
-# SAUCE Date: 19970302
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: for some compo... by nOah! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phb-0397-noh-qc
 
 Write-Host '
            [31m░░[0m

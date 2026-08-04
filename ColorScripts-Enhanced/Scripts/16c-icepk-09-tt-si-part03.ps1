@@ -1,13 +1,4 @@
-﻿# Converted from: TT-SI.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-09/raw/TT-SI.ICE
-# Source Revision: archive-sha256:1fcbf4aa1710b0a53349a8ea40276f5225ba911f5e9d163ab7e96a35bbed2cd0
-# Source SHA-256: 703f32c73652b5143335f5dcaa82a8bc757ae00841075d33c7f3b73f7e3be9e9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TT-SI.ICE by Tempus Thales (icepk-09); released in icepk-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 74-123
-# Columns: 1-80
+﻿# Artwork: TT-SI.ICE by Tempus Thales | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-09-tt-si-part03
 
 Write-Host '
 [33m████[0;1;33;43m▀▀[0;1;33;40m██▄▄ ▀▀▀▄▄▄   [0;33m▄█   ▀▀▀[0m          [34m▄[0;1;34;44m▄[0m      [34m▄[0;1;34;44m▀▀[0;1;34;47m▄▄▄[0;1;37;40m▄   ▀ [0;34m▄██▀▀[0;1;34;44m▀▀[0;1;34;47m▄[0;1;34;40m▄  ▐▌  ▄ [0;34m▀  [0;1;34m█[0m

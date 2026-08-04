@@ -1,17 +1,4 @@
-﻿# Converted from: PR-TWST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst-17/raw/PR-TWST.ANS
-# Source Revision: archive-sha256:35f03b7d00dfd2b7741376c75f7e7f045a734adb19013498a9c6493657505f94
-# Source SHA-256: f36ca26eb5bb3a85765ef8991b5f7bd9a7ab9ae34567003a028cf86246623430
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR-TWST.ANS by propane (twst-17); released in twst-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Twisted
-# SAUCE Author: propane
-# SAUCE Date: 19971005
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: Twisted by propane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst-17-pr-twst
 
 Write-Host '
 ▒▒                         ░     ░                                           ░

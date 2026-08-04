@@ -1,18 +1,4 @@
-﻿# Converted from: (A)L2^97.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0297/raw/(A)L2%5E97.ANS
-# Source Revision: archive-sha256:2e15cb2f2712a143323c9f3c6ecca94c5b5b12a452a019e911d205dd685c6eee
-# Source SHA-256: 374e050b2cead2e7547450a6acb856d8c84afb06ea2e3c9e344e7869a1957404
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: (A)L2^97.ANS by Tricycle + Alecs (PHAT STUDIOS '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: logo cluster 2^97
-# SAUCE Author: al3cs
-# SAUCE Group: PHAT STUDIOS '97
-# SAUCE Date: 19970103
-# SAUCE Dimensions: 80x139
-# Lines: 91-139
-# Columns: 1-80
+﻿# Artwork: logo cluster 2^97 by Tricycle + Alecs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0297-a-l2-97-part03
 
 Write-Host '
                                 /_/\

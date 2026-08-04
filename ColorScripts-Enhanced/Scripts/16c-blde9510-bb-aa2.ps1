@@ -1,17 +1,4 @@
-﻿# Converted from: BB-AA2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9510/raw/BB-AA2.ANS
-# Source Revision: archive-sha256:149b0df86257f885432e0d9aa230b7e35be56bb6bed80e8852133e9ac428a332
-# Source SHA-256: f0241bb46f665d62418f3214cef5a417ab592477d736226b4588ba863459cba6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BB-AA2.ANS by scribble (blde9510); released in blde9510 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: alderAAn?!##@@#25@&**@()
-# SAUCE Author: scribble
-# SAUCE Date: 19951008
-# SAUCE Dimensions: 80x45
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: alderAAn?!##@@#25@&**@() by scribble | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9510-bb-aa2
 
 Write-Host '
 [1m[0m[30m[0m[30m[0m

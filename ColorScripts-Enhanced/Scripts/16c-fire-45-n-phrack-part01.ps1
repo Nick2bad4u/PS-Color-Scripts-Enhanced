@@ -1,19 +1,4 @@
-﻿# Converted from: N-PHRACK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-45/raw/N-PHRACK.ANS
-# Source Revision: archive-sha256:0564021806e0277d72a0e235c044a0e0470226ba860a8976e1e3092326555d1d
-# Source SHA-256: f76da403e5ec36f9cd836e11436252b6c0268719601e15a20d500ffb9b1bb2dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-PHRACK.ANS by nail (fire); released in fire-45 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: phrack gnome
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 20260303
-# SAUCE Dimensions: 80x60
-# SAUCE Font: IBM VGA
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: phrack gnome by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-45-n-phrack-part01
 
 Write-Host '
                                 [1;30;40m▄▄[0m▄[1;30;47m▀▀▀[0;1;30;40m██▄[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-WEDN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0223/raw/ZII-WEDN.ANS
-# Source Revision: archive-sha256:f6abf3bbd53eb017898fa84b28d2ac43fcb70297788ba675e470ca73794cbbfd
-# Source SHA-256: 862fda1a86509577a7e313f40f08e3dd927db59811a57e28e42398d4dfd25517
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-WEDN.ANS by Zeus II (Mistigris); released in mist0223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Save the date!
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20230227
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Save the date! by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0223-zii-wedn
 
 Write-Host '
    [1;33;43m░[0m  [1;33;43m░░[0m [33m▄[0;34m  ▀▄█▀[0;1;34;44m■▄▄[0;34m▄  ▀▀█▓[0;1;34;44m▀▀▄▄▄[0;34m▓▄▄█[0;1;34;44m▄▄[0;34m▓[0;1;34;44m▀▀▄▄[0;44m [0;34;40m▀▀▀[0;37;44m░[0;34;40m▄▄▄[0;1;34;44m▄▄[0;34m█[0;1;34;44m▀▀▀[0;34m█▀▓▓▓▓▒░ ▄▄▀▀  ░░░▀▀[0;37;44m░[0m

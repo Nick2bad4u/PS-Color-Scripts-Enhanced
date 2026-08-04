@@ -1,18 +1,4 @@
-﻿# Converted from: PA-MTX1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/unit01/raw/PA-MTX1.ANS
-# Source Revision: archive-sha256:cab338f2eae80f507f7420c5633e2ed0fcca186c774137d9e9868ab55b919efb
-# Source SHA-256: ae64dfec937543eab425ae305a5248551354994a77e4e824227dfb7ff48c64a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PA-MTX1.ANS by pandora (UNiT productions); released in unit01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: matrix
-# SAUCE Author: pandora
-# SAUCE Group: UNiT productions
-# SAUCE Date: 19960428
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: matrix by pandora | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-unit01-pa-mtx1
 
 Write-Host '
  [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m [1;30m▄▄▄[0m [1;30m▄▄▄[0m     [1;30m▄▄▄▄▄▄▄▄▄[0m  [33m▄▄▄▄▄▄▄[0;37m  [0;1;30m▄▄▄pa!▄[0m

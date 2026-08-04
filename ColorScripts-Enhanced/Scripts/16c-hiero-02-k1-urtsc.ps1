@@ -1,18 +1,4 @@
-﻿# Converted from: K1-URTSC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-02/raw/K1-URTSC.ANS
-# Source Revision: archive-sha256:bb8ce420598b36a52d4f9cba3bdfbad44af088efeb11a778f52d121622116149
-# Source SHA-256: 588c83a0420d6f84be76035bcd7691a67f8e55ae4246fd29f06619b0c37910d5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K1-URTSC.ANS by Knocturnal (Hieroglyphics); released in hiero-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Umberto Raye / The Shell Collective
-# SAUCE Author: Knocturnal
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20001002
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Umberto Raye / The Shell Collective by Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-02-k1-urtsc
 
 Write-Host '
                      [32m▓▓▓ [0;1;33m▀▌[0m          [32m▓▓▓[0;37m [0;1;33m▀▌[0m          [32m▓▓▓[0;37m [0;1;33m▀▌[0m

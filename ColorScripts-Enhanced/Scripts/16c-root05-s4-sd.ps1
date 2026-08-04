@@ -1,18 +1,4 @@
-﻿# Converted from: S4-SD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root05/raw/S4-SD.ANS
-# Source Revision: raw-sha256:b1152451420dfff2ccbcb57522bfca89cf2542b66189644618c0b380e86d557c
-# Source SHA-256: b1152451420dfff2ccbcb57522bfca89cf2542b66189644618c0b380e86d557c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S4-SD.ANS by static addiction (root); released in root05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: subsonic dream
-# SAUCE Author: static addiction
-# SAUCE Group: root
-# SAUCE Date: 19970627
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: subsonic dream by static addiction | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root05-s4-sd
 
 Write-Host '
 [1m█[0;1;34;44m████████████▀[0;34m████▀▀[0;37m [0;32m▄[0;1;32m▄[0;1;32;42m▄▄[0;32m▄ ▄[0;1;32;42m▄▄[0;1;32;40m▄[0;32m▄[0;37m [0;34m▀▀██[0;1;34;44m▀██[0;1;37;40m██[0;1;34;44m██▀[0;34m███▀▀▀ [0;31m▄▄▄[0;1;31;41m▄▄[0;31m▄[0;34m █[0;1;34;44m ███▌[0;34m▌[0;31m▐▄▄[0;1;31;41m▄▄[0;31m▄[0;34m █[0;1;34;44m▐██[0;1;37;40m███[0m

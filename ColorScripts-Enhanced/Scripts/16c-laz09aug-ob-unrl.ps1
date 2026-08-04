@@ -1,18 +1,4 @@
-﻿# Converted from: OB-UNRL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz09aug/raw/OB-UNRL.ANS
-# Source Revision: archive-sha256:3e0bd3039fe877b3970f71e80b4456ee60793f2295ae127a50a6587b17c2d6a2
-# Source SHA-256: e0ac19c2ff34804fe310ab6feb48e60868e7e4eee0a75ed8fd8d4f2eba43962e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OB-UNRL.ANS by oddball (lazarus); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Unreal!
-# SAUCE Author: oddball
-# SAUCE Group: lazarus
-# SAUCE Date: 19970802
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Unreal! by oddball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz09aug-ob-unrl
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: SK!-BULL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pen15-01/raw/SK!-BULL.ANS
-# Source Revision: archive-sha256:9e28ab2113f1bcb81ed1730a86e0355147cb3acede958780e6bfef3630941a51
-# Source SHA-256: cfaf690943ac359c1a9c2539e0965d17c953c9ab1e1649fa2efd0c5ae11d265a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!-BULL.ANS by sIMON kING (pROCREATION); released in pen15-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: bULL
-# SAUCE Author: sIMON kING
-# SAUCE Group: pROCREATION
-# SAUCE Date: 19980402
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: bULL by sIMON kING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pen15-01-sk-bull
 
 Write-Host '
                [31m▄▄▄▄▄[0;1;31;41m░[0;31m▄[0m

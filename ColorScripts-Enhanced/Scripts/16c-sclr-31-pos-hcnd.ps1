@@ -1,13 +1,4 @@
-﻿# Converted from: POS!HCND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-31/raw/POS!HCND.ANS
-# Source Revision: archive-sha256:bb03d6a159f24338a3412f8c68b8b46e7434c6ed248bdd824b6bd523813298d1
-# Source SHA-256: 5cb2fdf4854caa15cd8ac7702cc50a3b42c905c3a51cae46985c5709419a6252
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: POS!HCND.ANS by Poise (sclr-31); released in sclr-31 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: POS!HCND.ANS by Poise | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-31-pos-hcnd
 
 Write-Host '
 

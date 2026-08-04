@@ -1,18 +1,4 @@
-﻿# Converted from: LG-CESS3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/air_0697/raw/LG-CESS3.ANS
-# Source Revision: archive-sha256:5cd3011ba297092d80d79117f4d787f8ea3f225f068d30fcf0de8461325ab083
-# Source SHA-256: 78d228060ed8b4f9abc520e56eec686100435007ce04a1f3bae40a77912c1caf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LG-CESS3.ANS by liquid_goblin (air); released in air_0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: cess_pool
-# SAUCE Author: liquid_goblin
-# SAUCE Group: air
-# SAUCE Date: 19970604
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: cess_pool by liquid_goblin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-air-0697-lg-cess3
 
 Write-Host '
                      [36m [0;35m,s,[0m        [35m,s[0;34m ,sS$$¼[0;37m [0;35m,s,[0m                     [34m    [0m

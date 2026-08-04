@@ -1,18 +1,4 @@
-﻿# Converted from: DT-SARC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0395/raw/DT-SARC1.ANS
-# Source Revision: archive-sha256:f2a95642991562087407da2d5718c9539e60d73ef03932f3b9b3875815fbc27c
-# Source SHA-256: 96096a58b22994ea584504174bebe28d6800df46a60ece1ff7ad96a1e94d4e57
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-SARC1.ANS by Diamond Traveller (Mistigris); released in mist0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Sarcastic Toastah!
-# SAUCE Author: Diamond Traveller
-# SAUCE Group: Mistigris
-# SAUCE Date: 19950301
-# SAUCE Dimensions: 80x129
-# Lines: 49-92
-# Columns: 1-80
+﻿# Artwork: Sarcastic Toastah! by Diamond Traveller | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0395-dt-sarc1-part02
 
 Write-Host '
 [36m████▌[0;37m   [0;1;30m░[0m   [1;30m▄▄[0m [1;30m▄[0m   [1;30m ▒▓▄▓▀ [0;31m▄▄▄▓▀▄▓█▄▄[0;37m       [0;1;30m▄ ▄▄▄  ░▓ ▄▄ [0m [31m▄▄[0;37m  [0;1;30m▀[0m [31m▄▓▄[0;37m [0;1;30m█▀ ░[0m [36m▐██████[0m

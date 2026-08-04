@@ -1,13 +1,4 @@
-﻿# Converted from: NK-PHID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/optk0294/raw/NK-PHID.ANS
-# Source Revision: archive-sha256:553bebf23e65cf38a8895a7a4f69bf9a99d621e74f69922e35a000a003431ced
-# Source SHA-256: 4c045805b248fcfc0fb78cefe37b5c16bd99baff10bb55fa4690e51bd6922cbf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NK-PHID.ANS by Nuke (optk0294); released in optk0294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-99
-# Columns: 1-80
+﻿# Artwork: NK-PHID.ANS by Nuke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-optk0294-nk-phid-part02
 
 Write-Host '
                             [1;30m░▒[0;1;33;43m▓█ ░▒▓[0;1;33m████████████[0;1;33;47m▌[0m▒░        [1;33;47m▐[0;1;33m██████████[0;1;33;43m▓▒░ █▓[0m

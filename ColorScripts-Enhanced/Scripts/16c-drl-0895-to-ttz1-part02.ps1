@@ -1,18 +1,4 @@
-﻿# Converted from: TO-TTZ1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drl-0895/raw/TO-TTZ1.ANS
-# Source Revision: archive-sha256:fde65845d924ac8b59de334a5b79b9625c3b3c69121ac72a3256ec6e98ae58ed
-# Source SHA-256: c74d6b9879819df0b0e1bdada5cf9f07d0ea378f03eeacfd2ff050ed2a52b9a3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TO-TTZ1.ANS by Tonto (drOol prOductionz); released in drl-0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Twilight Zone
-# SAUCE Author: Tonto
-# SAUCE Group: drOol prOductionz
-# SAUCE Date: 19950723
-# SAUCE Dimensions: 80x112
-# Lines: 42-82
-# Columns: 1-80
+﻿# Artwork: The Twilight Zone by Tonto | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drl-0895-to-ttz1-part02
 
 Write-Host '
 [1;34m████[0;1;34;44m▌[0;33m▐█[0;1;33;43m▄[0;1;33;40m██▌[0;1;30;43m░[0;1;31;43m░░▒▓▓▓▓▓▒░[0m█[1m████ █████[0m█[1;31;43m░░░▓[0m█[1;47m███▄[0m███████[1;47m█████[0m█[31m█▀[0;33m▄▄[0;1;31;43m▄[0;33m▄▄▀██▄[0;37m [0;33m▀████[0;34m▐[0;1;34;44m▐█[0;1;34;40m███[0m

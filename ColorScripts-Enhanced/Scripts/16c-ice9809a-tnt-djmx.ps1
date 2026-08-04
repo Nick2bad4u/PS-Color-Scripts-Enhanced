@@ -1,13 +1,4 @@
-﻿# Converted from: TNT-DJMX.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9809a/raw/TNT-DJMX.ICE
-# Source Revision: archive-sha256:f2a098775fdbb210a9bf7cffa0ea655de4a9c467e19d0ddf64020794584e71e7
-# Source SHA-256: 9ec727be1de1093d6756ed20278fa53f9c9140ba51b75fbd083a1da037858c29
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNT-DJMX.ICE by Taintedx (ice9809a); released in ice9809a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: TNT-DJMX.ICE by Taintedx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9809a-tnt-djmx
 
 Write-Host '
      [1;30m▄[0;33m▄▄[0;1;33;43m░[0;36m [0;32m▄░░[0;37m  [0m          [37m░▒▒░░░[0m                     [37m░░░ InsoMix [0;1;37mTaintedx[0m[[1;33miCE[0m]

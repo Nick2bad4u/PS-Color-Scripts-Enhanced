@@ -1,18 +1,4 @@
-﻿# Converted from: XX-CV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stl-002a/raw/XX-CV.ANS
-# Source Revision: archive-sha256:3e235a6ddff72e10a9e874069691fccf7376513a7a30975b9ba4876883c86918
-# Source SHA-256: 5e5dbdece30388eef438178e96bed11ea48db1374c41a7bf33ff90b3c7faabf7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XX-CV.ANS by Gangstar + Pfezzyo (Stile); released in stl-002a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Convulsion
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Stile
-# SAUCE Date: 19941111
-# SAUCE Dimensions: 80x25
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Convulsion by Gangstar + Pfezzyo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stl-002a-xx-cv
 
 Write-Host '
 [1;30m■█■■▀■▀▀■▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀■▀▀■▀■■█■[0m

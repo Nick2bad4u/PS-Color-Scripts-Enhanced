@@ -1,18 +1,4 @@
-﻿# Converted from: CM-EDGE0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy06/raw/CM-EDGE0.ANS
-# Source Revision: archive-sha256:da68d928b75eacb21ef6bbd9cd632165def9238591f0378ec07f4b56faef6ea8
-# Source SHA-256: 992b19be36f252e2aed073ed203c86259bcddbc520802cd3e97bf60e471fe48c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CM-EDGE0.ANS by Carpet Monkey (READ THE INI FILE); released in apathy06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Edge
-# SAUCE Author: Carpet Monkey
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19960110
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Edge by Carpet Monkey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy06-cm-edge0
 
 Write-Host '
 

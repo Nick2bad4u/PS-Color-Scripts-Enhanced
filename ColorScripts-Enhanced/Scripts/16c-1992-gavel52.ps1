@@ -1,13 +1,4 @@
-﻿# Converted from: GAVEL52.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1992/raw/GAVEL52.ANS
-# Source Revision: archive-sha256:408f6102282b4b4f582d319af7c00d0c1a49a9b89d70dc7754d4cd44f475f4fb
-# Source SHA-256: 5e005fbded887db63157ae4135e8f95948f41a3aba165088e0aff80365f13d68
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GAVEL52.ANS by Jan (1992); released in 1992 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: GAVEL52.ANS by Jan | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1992-gavel52
 
 Write-Host '
      [1;33m.[0m            [1;5;36m.[0m                [1;33m*[0m            [1;33m.[0m      [1;5;36m.[0m        [1m.[0m

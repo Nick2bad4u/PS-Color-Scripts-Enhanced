@@ -1,19 +1,4 @@
-﻿# Converted from: krl-demon_04.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz19/raw/krl-demon_04.ans
-# Source Revision: archive-sha256:b2207428f1b283b9c41d9ff03fce385f449fefe469c60e31e8dd7430a162f7c1
-# Source SHA-256: 15c6c5b051f14c1881e71259243b639678ea72233b83953b2a7ad0e97036e47b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: krl-demon_04.ans by krl (Lazarus); released in laz19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Neon Horror
-# SAUCE Author: krl
-# SAUCE Group: Lazarus
-# SAUCE Date: 20240321
-# SAUCE Dimensions: 80x215
-# SAUCE Font: IBM VGA
-# Lines: 201-215
-# Columns: 1-80
+﻿# Artwork: Neon Horror by krl | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz19-krl-demon-04-part05
 
 Write-Host '
 [35m [0;1;31;45m░░░░[0;35m [0;1;31;45m░░░[0;35m▒░[0;1;31;45m░░░░░░░░░░░░░[0;35m░ [0;1;30m░[0;35m   ▓[0;1;31;45m░░░░░░░[0;35m▄[0;33;45m▀[0;35;40m████[0;1;31;45m░░░░░░░[0;35m [0;1;30m▀[0;1;30;45m▄[0;35m█[0;1;31;45m░░[0;35m▄░[0;1;31;45m░▒▒▒[0;35m░  █[0;1;31;45m░░░░[0;35m█[0;37m   [0;35m░▓[0;1;31;45m░░░[0m

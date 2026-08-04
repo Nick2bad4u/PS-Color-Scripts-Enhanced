@@ -1,18 +1,4 @@
-﻿# Converted from: RZ-LSTCL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force18a/raw/RZ-LSTCL.ANS
-# Source Revision: archive-sha256:6a0f397e3657e6d033b73af64211a87e0404e38c6a0f4de7a8637861ae197039
-# Source SHA-256: 3894f40d07b76154a3a5b5c0d2fe2f797e50c7b5a137b0d4587aa1798df6102f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RZ-LSTCL.ANS by Rzarector (fOrce prOduktiOns); released in force18a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: lASt CAllERZ
-# SAUCE Author: Rzarector
-# SAUCE Group: fOrce prOduktiOns
-# SAUCE Date: 19970603
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: lASt CAllERZ by Rzarector | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force18a-rz-lstcl
 
 Write-Host '
                                      [31m▐▄[0m

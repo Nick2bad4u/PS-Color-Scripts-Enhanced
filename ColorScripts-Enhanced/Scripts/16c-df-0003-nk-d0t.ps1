@@ -1,18 +1,4 @@
-﻿# Converted from: NK-D0T.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/df-0003/raw/NK-D0T.ANS
-# Source Revision: archive-sha256:b59a00faa55cb53d11e6e7c91be535e3e73ce875fe506be00a89872efdb01456
-# Source SHA-256: 94fdc13eddc5413178902a4a161cb39c57cfb92ed3b328595581a4c52069ee21
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NK-D0T.ANS by NiGHT KNiGHT (dEViL fORCeS); released in df-0003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: d.0.t. LoGo
-# SAUCE Author: NiGHT KNiGHT
-# SAUCE Group: dEViL fORCeS
-# SAUCE Date: 19970922
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: d.0.t. LoGo by NiGHT KNiGHT | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-df-0003-nk-d0t
 
 Write-Host '
                                                                    [1;33m·[0m

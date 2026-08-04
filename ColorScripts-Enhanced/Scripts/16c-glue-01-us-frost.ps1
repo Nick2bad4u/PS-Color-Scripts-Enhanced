@@ -1,18 +1,4 @@
-﻿# Converted from: US-FROST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-01/raw/US-FROST.ANS
-# Source Revision: archive-sha256:0e63c5e62ea9b66430033b1875dc38843fc6f5d45408ae01bb2abd9ed19a0d23
-# Source SHA-256: bd6a6cb068063cf2c4fcc8d54a0913b03bfb9122e8f36caa5184a6b435b5aab0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FROST.ANS by Warpus + Catch 22 (lazarus / mistigris); released in glue-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: frosted cereal
-# SAUCE Author: warpus / catch22
-# SAUCE Group: lazarus / mistigris
-# SAUCE Date: 19970623
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: frosted cereal by Warpus + Catch 22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-01-us-frost
 
 Write-Host '
                                                                    [31m░░░[0m

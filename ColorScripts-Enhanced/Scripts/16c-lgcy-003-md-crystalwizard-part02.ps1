@@ -1,19 +1,4 @@
-﻿# Converted from: md-crystalwizard.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-003/raw/md-crystalwizard.ans
-# Source Revision: archive-sha256:44a26aad0e8691f16e2777283660069b61e5916234397869961a696ba22e89f6
-# Source SHA-256: 793245fd7ce99f12087b30b4d3b55d4ec39d21ec621b8680e55c1436f8f22350
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: md-crystalwizard.ans by MaDDoG (Legacy Krew); released in lgcy-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Crystal Wizard
-# SAUCE Author: MaDDoG
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20200501
-# SAUCE Dimensions: 80x85
-# SAUCE Font: IBM VGA
-# Lines: 44-85
-# Columns: 1-80
+﻿# Artwork: Crystal Wizard by MaDDoG | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-003-md-crystalwizard-part02
 
 Write-Host '
  [1;31m█▄[0m [1;31;43m░▒▓[0;1;31;40m██▄▀▄▄[0;1;31;43m▓[0;1;31;40m▄▄[0;1;31;43m░▒▓[0;1;31;40m██[0;1;31;43m▓▒▓[0;1;31;40m█[0m [33m▄[0;1;31;43m░▒▓▓[0;1;31;40m██[0m▐[1;30m▀[0;36m [0;1;30;47m░▓[0;30m█[0;36m  [0;37m▌[0;1;30m▐[0;1;30;47m░[0;1;30;40m   ▐[0;1;30;47m░[0;1;30;40m▓[0;36m [0;37m▐[0;1;30m▓[0;36m [0;1;30;47m░[0m▌[30m█[0;1;30m▐[0;31m [0;1;30m▓[0;1;30;47m▓[0m▀[1;30m▐▌[0;30m█[0;1;30m▀░ █▄[0m [32m▒[0;37m [0;32m▀▄█▀▀▀[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: AVL-ABD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shl-0897/raw/AVL-ABD.ANS
-# Source Revision: archive-sha256:93ef5f553e3bc362f06eac3bc6655c2df4649860903447ccefb9661eb3a53f37
-# Source SHA-256: d9cf71582035b9f40cc602d5e1900ce2a1c913f6973956d098608adad9ea7b9c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVL-ABD.ANS by Anvil (shl-0897); released in shl-0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: AVL-ABD.ANS by Anvil | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shl-0897-avl-abd
 
 Write-Host '
 [1;33;42mavl[0;36m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m

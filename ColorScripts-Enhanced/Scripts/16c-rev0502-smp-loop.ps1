@@ -1,18 +1,4 @@
-﻿# Converted from: SMP-LOOP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0502/raw/SMP-LOOP.ANS
-# Source Revision: archive-sha256:98bfa3cc78c733050b0c647e7e0271e7623e3c31e4f40f218a00b89b2165c771
-# Source SHA-256: 58d08682b23383167b5d44f688217724c8314a856e82372e0a87b1cf1570dd28
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-LOOP.ANS by shrimp (revival); released in rev0502 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: loop
-# SAUCE Author: shrimp
-# SAUCE Group: revival
-# SAUCE Date: 20020515
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: loop by shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0502-smp-loop
 
 Write-Host '
 [31m█[0;1;31;41m▄▌▄[0;31m██▀   [0m                          [31m [0;37m  [0;31m▀▀██▄▄ [0;32m ▀▀█[0;1;32m▄[0;32m▄▄      ▄▄[0;1;32;42m▄▄▀[0;32m█▀▀▄[0;37m  [0;36m█[0;1;36;46m▄[0;36m█ [0;37m [0;31m█[0;1;31;41m█▄▄[0;31m█[0m

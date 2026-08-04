@@ -1,18 +1,4 @@
-﻿# Converted from: US-H2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-19/raw/US-H2.ANS
-# Source Revision: archive-sha256:db429aaaa9cca2e4296dcb178b9b345b980b5c7d6fe930188ea53fede20ed269
-# Source SHA-256: b1e405f9bb20ae206606be1026f01d198587c96614b6d8a732c7865151030ccf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-H2.ANS by Multiple Artists (AWE Lettering); released in awe-19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Hazard/2
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981130
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Hazard/2 by Multiple Artists | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-19-us-h2
 
 Write-Host '
                                     [1m [0m                [1;31m                   [0m

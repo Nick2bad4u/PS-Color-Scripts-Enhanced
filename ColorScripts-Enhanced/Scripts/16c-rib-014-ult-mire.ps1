@@ -1,18 +1,4 @@
-﻿# Converted from: ULT-MIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-014/raw/ULT-MIRE.ANS
-# Source Revision: archive-sha256:38aae4e6b3e943656501d868e7ccbeee319f7541f5197f0cc3aeed0b83030214
-# Source SHA-256: 35aea4d0386c9c808dfeba75cf6a6021e7b3e8335ef4ed919e2b93095db9d673
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ULT-MIRE.ANS by Ultimate (Rib); released in rib-014 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: mire ee
-# SAUCE Author: Ultimate
-# SAUCE Group: Rib
-# SAUCE Date: 19981024
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: mire ee by Ultimate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-014-ult-mire
 
 Write-Host '
 [34m▀ [0;37m [0;34m░▄[0m       [34m%m.i.r.e%[0m                [34m▄[0m

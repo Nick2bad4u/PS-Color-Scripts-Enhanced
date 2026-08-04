@@ -1,13 +1,4 @@
-﻿# Converted from: CW-OPP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p19_03/raw/CW-OPP.ANS
-# Source Revision: archive-sha256:29e846aab08e0cbbff67b8bbb9c6aca86568fc7c7276ebb4f28e7de4f529ef28
-# Source SHA-256: 808b9515aeabf8ba27766e2b4344fc38abe69005eed43d61d085d95372e90746
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CW-OPP.ANS by Ceelow (l0p19_03); released in l0p19_03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: CW-OPP.ANS by Ceelow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p19-03-cw-opp
 
 Write-Host '
 [36m      [0;1;30m▄[0;36m▄▄█████[0;1;30;46m░▒░[0;36m███████████████████████████[0;1;30;46m░[0;36m████████████████[0;1;30;46m░▒░[0;36m███████▄▄[0;1;30m▄[0;36m      [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US-TRS12.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fdr-01/raw/US-TRS12.ANS
-# Source Revision: archive-sha256:9413b8317ae532a8321557d5d3d1cb08aadb3372c739437bc2fde54e7706a363
-# Source SHA-256: 3f83ebbc89a1cd41a16e167388d07d4cce7a750f690b8a900231a1c0703d6188
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TRS12.ANS by Sylvao + Cleaner (Fire Dream); released in fdr-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: TRSAC 2012
-# SAUCE Author: Cleaner & Sylvao
-# SAUCE Group: Fire Dream
-# SAUCE Date: 20121019
-# SAUCE Dimensions: 80x139
-# Lines: 94-139
-# Columns: 1-80
+﻿# Artwork: TRSAC 2012 by Sylvao + Cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fdr-01-us-trs12-part03
 
 Write-Host '
 [33m██ [0;1;33m████[0;34m [0;1;33m [0;1;34m█[0;34m [0;1;33m ███ ████ ████▌▐██ [0;33m [0;37m [0;33m▀[0;1;31;43m▀[0;1;31;40m█████[0;1;31;43m██[0;1;31;40m███████████████████████[0;1;31;47m▀[0m▀  [1;33m▄█▀████▀█[0;1;37m██[0;1;33m█[0m

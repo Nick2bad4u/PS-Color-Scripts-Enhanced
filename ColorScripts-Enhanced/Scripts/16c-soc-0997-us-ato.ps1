@@ -1,18 +1,4 @@
-﻿# Converted from: US-ATO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/soc-0997/raw/US-ATO.ANS
-# Source Revision: archive-sha256:9f75ecf0c54898b416dd9a92ccde7addf7c89b0fd725610fbbbb036936c3287b
-# Source SHA-256: 589ba71927785eb4e81a96a2afbbfb0b279683e76ca8d2dbdab44d292e37cd51
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ATO.ANS by Enzo + Chronicc (society); released in soc-0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: aTO(enzo+chronicc)
-# SAUCE Author: Multiple Artists
-# SAUCE Group: society
-# SAUCE Date: 19970919
-# SAUCE Dimensions: 80x25
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: aTO(enzo+chronicc) by Enzo + Chronicc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-soc-0997-us-ato
 
 Write-Host '
 [34m█[0;1;34;44m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0;34m█▀▀[0m   [1;31m▄▄▄▄▄▄[0;33m▄[0m   [34m▀▀[0;1;34;44m  ▄▄▄▄▐▄▄  [0;34m▀▐▀▀[0;1;34;44m [0;34m▀▀▀[0;1;34;44m ▄▄▄▄▄▄▄[0;34m▒[0;1;34;44m   ▄▄▄▐▄▄▄▄▄▄▄▄[0;34m▒[0m

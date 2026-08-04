@@ -1,18 +1,4 @@
-﻿# Converted from: LD-PARA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0495/raw/LD-PARA1.ANS
-# Source Revision: archive-sha256:93425d63fbf60a9e51bd167f233b1cc6d824b1daa247d08c1db7f22759166ba0
-# Source SHA-256: a59d55b358cc99ea2b4d52808d92e6b70807e280d120e83c6460c76cedcb5a30
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-PARA1.ANS by Lord Jazz (ACiD Productions); released in acdu0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Parallox
-# SAUCE Author: Lord Jazz
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950317
-# SAUCE Dimensions: 80x216
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: Parallox by Lord Jazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0495-ld-para1-part01
 
 Write-Host '
 [1ma[0m          C         [1;30mi[0m         [1;30md[0m     [1;30m···[0m     [1;30mp[0m          [1;30mr[0m          O          [1md[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: HS-REN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nland-04/raw/HS-REN.ANS
-# Source Revision: archive-sha256:eab686fd42219ed6c9add6a2f7726008adc5ca3e06c5f87a076203c52842513d
-# Source SHA-256: b6458e9677c5a41cd573e9e48f47f6b269fac4c4b7a038d0ad60734043230b69
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HS-REN.ANS by Han SoLo (NeveRLanD People); released in nland-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Ren!
-# SAUCE Author: Han SoLo
-# SAUCE Group: NeveRLanD People
-# SAUCE Date: 19960131
-# SAUCE Dimensions: 80x46
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Ren! by Han SoLo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nland-04-hs-ren
 
 Write-Host '
 [1;36;46m████▓▒░                                                                 ░▒▓█████[0m

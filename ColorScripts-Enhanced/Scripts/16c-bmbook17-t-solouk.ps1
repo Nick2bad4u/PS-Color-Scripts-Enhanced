@@ -1,18 +1,4 @@
-﻿# Converted from: T-SOLOUK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook17/raw/T-SOLOUK.ANS
-# Source Revision: archive-sha256:f2ec1f05b2d28538e661dbe9f04f7009d1de727157f34731f67001dac4dedb95
-# Source SHA-256: 13e1d816b6983e13315a37744e129048818952a874ff7fcee042aa6602fe39d9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T-SOLOUK.ANS by toot (black maiden); released in bmbook17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: #solo_uk
-# SAUCE Author: toot
-# SAUCE Group: black maiden
-# SAUCE Date: 19980408
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: #solo_uk by toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook17-t-solouk
 
 Write-Host '
 [34m░[0;32;44m▄█[0;34;40m▌[0;37;40m  [0;34;40m░░▓▓[0;32;44m░▓▄[0;1;32;40m▄[0;34m▄[0m   [30;42m▀▀▀[0m      [34;40m░░▓▓[0;1;34;44m░▓▄[0m▄[34m▄[0;37m  [0;30;46m▀▀▀[0m    [34;40m ▄▄▄▐[0;1;34;44m░▓█▄[0;1;34;40m▄[0;34m▄▄▄▄[0;37m [0;32;44m▐[0;1;32;42m▄[0;32;44m▄[0;34;40m░[0m   [34;40m▄▄[0;32;44m▄▌[0;34;40m█ ░░▄[0;32;40m▄▄[0;34;40m▄[0m

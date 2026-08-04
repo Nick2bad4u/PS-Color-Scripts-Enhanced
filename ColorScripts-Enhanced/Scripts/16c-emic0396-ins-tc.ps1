@@ -1,18 +1,4 @@
-﻿# Converted from: INS-TC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/emic0396/raw/INS-TC.ANS
-# Source Revision: archive-sha256:df6e60efee3df7e79d500230fc52a88ca86aef811bdfcd5a9622a5e70c3b04f2
-# Source SHA-256: 9ea7060f429dbc946c9051e6dd6ef8c94ae38eeeac940ed579bbe9db8f74fcb6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: INS-TC.ANS by Insomniac (EMiC); released in emic0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Terminal Countdown
-# SAUCE Author: Insomniac
-# SAUCE Group: EMiC
-# SAUCE Date: 19960227
-# SAUCE Dimensions: 80x15
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: Terminal Countdown by Insomniac | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-emic0396-ins-tc
 
 Write-Host '
                         [30m■ ▄[0m             [30m▄▄▄■[0;30;47m▀[0;30;40m■▄▄[0m

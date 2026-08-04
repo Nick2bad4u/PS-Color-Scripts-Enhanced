@@ -1,18 +1,4 @@
-﻿# Converted from: GN-GAMMA.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9605a/raw/GN-GAMMA.ICE
-# Source Revision: archive-sha256:cf7acb12a0ec01e1383bf24c3c45a68bc55fde8f0e38cd56180a1936aa9f8089
-# Source SHA-256: 008fc01a227149fe08808e6d136dd5655d799fbfd3fb42992aed59dbe40a40db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GN-GAMMA.ICE by grindstone (ice); released in ice9605a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: spinal gamma
-# SAUCE Author: grindstone
-# SAUCE Group: ice
-# SAUCE Date: 19960601
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: spinal gamma by grindstone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9605a-gn-gamma
 
 Write-Host '
                                                   [35m▀■▄[0m

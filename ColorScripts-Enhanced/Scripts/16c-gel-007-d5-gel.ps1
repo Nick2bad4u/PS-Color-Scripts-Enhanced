@@ -1,17 +1,4 @@
-﻿# Converted from: D5-GEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gel-007/raw/D5-GEL.ANS
-# Source Revision: archive-sha256:9192a970cac78457607ab731e7000dbedc44aa4f5078f2ad282aff679d35f94d
-# Source SHA-256: c5e104c22d22fcaea01a8ec276097d1bcc16d9ac8070c497b8724e33e0dc8180
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D5-GEL.ANS by dee five (gel); released in gel-007 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: gel-sun-thingy
-# SAUCE Author: dee five
-# SAUCE Group: gel
-# SAUCE Dimensions: 80x25
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: gel-sun-thingy by dee five | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gel-007-d5-gel
 
 Write-Host '
 ██████████████████████████████████████████████████████ [1;33m▄[0m  [1;33m▄▀███████████████████[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: RS-SCDDM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9702/raw/RS-SCDDM.ANS
-# Source Revision: archive-sha256:2bef5839074c598bf0f92bd4e5826154389b8896239a1e15db494b520fb6d9a8
-# Source SHA-256: 5dee3761b392102b1c75c2cd67326cf84d654332679669670e0068ed07bf3e50
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-SCDDM.ANS by rorshack (Maiden Brazil); released in mdn-9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: this if for tha people of the sun
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil
-# SAUCE Dimensions: 80x25
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: this if for tha people of the sun by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9702-rs-scddm
 
 Write-Host '
                  [1m▄[0m

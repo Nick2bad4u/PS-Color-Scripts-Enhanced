@@ -1,19 +1,4 @@
-﻿# Converted from: 03_DEC23.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1223/raw/03_DEC23.ANS
-# Source Revision: archive-sha256:86d02e5103ccb7950792473f0c3e4ca18e595c9011c06df5ce1fe1692dbd9f5a
-# Source SHA-256: 8566c43ca28ae5c45692d16af4353e1cb09c4f376ab6643ab592e9d3db0dcdae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 03_DEC23.ANS by Cthulu (Mistigris); released in mist1223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: December 3rd
-# SAUCE Author: Cthulu
-# SAUCE Group: Mistigris
-# SAUCE Date: 20231130
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: December 3rd by Cthulu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1223-03-dec23
 
 Write-Host '
 [1;34m████[0;1;34;44m▄▄▀▀█[0;1;34;40m███████████████████████[0;1;34;44m▄▄▀▀█[0;1;34;40m██████████████████████████[0;1;34;47m▀[0;1;34;40m█▀[0;34m▀▀[0;1;34;46m▀[0;1;34;44m▀[0;1;34;40m██████████[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: WWANS338.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1990/raw/WWANS338.ANS
-# Source Revision: archive-sha256:08ccf16537b7ec6a49d988d666ab246efafa48facbb3ef7beef1662a9cba1cc2
-# Source SHA-256: 4d26da212d512fa0319dabd39b07280f2706244fe5d8c5309756cf0154bf6c07
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WWANS338.ANS by Slyce (1990); released in 1990 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: WWANS338.ANS by Slyce | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1990-wwans338
 
 Write-Host '
 [1m[0m[1mFri Oct 12 23:01:27 1990[0m

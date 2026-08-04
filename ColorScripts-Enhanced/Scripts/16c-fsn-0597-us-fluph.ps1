@@ -1,13 +1,4 @@
-﻿# Converted from: US-FLUPH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0597/raw/US-FLUPH.ANS
-# Source Revision: archive-sha256:100499c687593fd78c29adf06f5899e8c0d61223958e380a9c31aadb955ab06d
-# Source SHA-256: 0cc9ea88c68810ba786722d576ea9364cb1732b7efebd2d2a8e00cabe19bbd43
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FLUPH.ANS by Oolite + Wat0r (fsn-0597); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: US-FLUPH.ANS by Oolite + Wat0r | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0597-us-fluph
 
 Write-Host '
              [36m [0;1;36m    ▌   ░░[0;36m▌[0;1;36m▄▄▌[0m

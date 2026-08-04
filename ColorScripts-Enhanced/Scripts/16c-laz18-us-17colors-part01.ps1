@@ -1,20 +1,4 @@
-﻿# Converted from: us-17colors.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz18/raw/us-17colors.ans
-# Source Revision: archive-sha256:32d30452c4c99022fae4fa2ce9a2923ef46629d3ff7dd35a972944a991699c1f
-# Source SHA-256: bcf9a6f79fae621b2095977123a0e8dcbb37119d5ec90c4e7728b1cace155467
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-17colors.ans by Warpus + Lucaslink (LAZARUS); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Dolphon
-# SAUCE Author: lucaslink & warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20240209
-# SAUCE Dimensions: 100x126
-# SAUCE Font: IBM VGA
-# SAUCE Comments: squint for optimal Dolphon
-# Lines: 1-50
-# Columns: 1-100
+﻿# Artwork: Dolphon by Warpus + Lucaslink | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz18-us-17colors-part01
 
 Write-Host '
 [30m░░░░░░▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓████░░▀▀▀▀▀▀▀▀▀▀▄▄▄▄▄▄▄██░█▄░▒▒░▄▄█████░█████████████▄▄▄██████▓▓▓▓▓▓▓▓[0m

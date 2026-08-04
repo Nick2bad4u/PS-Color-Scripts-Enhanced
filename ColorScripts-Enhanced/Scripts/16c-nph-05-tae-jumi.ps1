@@ -1,18 +1,4 @@
-﻿# Converted from: TAE!JUMI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-05/raw/TAE!JUMI.ANS
-# Source Revision: archive-sha256:32c1f67ac6058d9066b580c3bd5854b0529a1844e2dce2e40def969bcce3e47d
-# Source SHA-256: 100d038b17384ab96c6dcf3588b10cda486e7a7e61443633c2b322ba3101f11b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TAE!JUMI.ANS by taevore (nph^neonflx..); released in nph-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: jumi(suomalaiset tajuu nolouden)
-# SAUCE Author: taevore
-# SAUCE Group: nph^neonflx..
-# SAUCE Date: 19971125
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: jumi(suomalaiset tajuu nolouden) by taevore | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-05-tae-jumi
 
 Write-Host '
                   [1;30m▄░██▓███▄[0m          [30;47m▀[0;1;37;47m█▓▒░[0m▄██▄▄

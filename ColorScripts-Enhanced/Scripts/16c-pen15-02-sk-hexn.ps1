@@ -1,18 +1,4 @@
-﻿# Converted from: SK!-HEXN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pen15-02/raw/SK!-HEXN.ANS
-# Source Revision: archive-sha256:c45faac655b2350900a9acb8b35a0ed4568af78fa28eaab050d211446248758a
-# Source SHA-256: f3b45e98634d5529ae0df487c2a04f7d5c7c8dd8f502bc372cf1bf1648357e7a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!-HEXN.ANS by sIMON kING (nOMINAL^pEN15); released in pen15-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hEXEN zONE bBS
-# SAUCE Author: sIMON kING
-# SAUCE Group: nOMINAL^pEN15
-# SAUCE Date: 19980409
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: hEXEN zONE bBS by sIMON kING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pen15-02-sk-hexn
 
 Write-Host '
 [1;30;47m▓  ▀[0;1;30;40m▀[0m▀[1;30m▀▀███████████▀▀▀▀▀▀▀███████▀▀▀▀█████▀▀▀▀███▀▀▀▀▀▀▀▀███[0;1;30;47m█[0;1;30;40m▀▀▀▀▀▀▀██[0;1;30;47m▀▄▄  [0m██[1;30;47m░[0m

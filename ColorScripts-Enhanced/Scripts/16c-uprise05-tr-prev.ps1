@@ -1,13 +1,4 @@
-﻿# Converted from: TR-PREV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise05/raw/TR-PREV.ANS
-# Source Revision: archive-sha256:8a04f72dbd0084a3dd089505796d41f1fc098ce192bbfa410f8bc1039eb33f03
-# Source SHA-256: 98fb75a3d348d90444f3f0fd4581d6e0983ebae1a92d18713b749f824f708a61
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-PREV.ANS by Trippah (uprise05); released in uprise05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: TR-PREV.ANS by Trippah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise05-tr-prev
 
 Write-Host '
        [1;34m▄▄▄[0m       [1;34m▄▄▄ ▄▄▄   ▄▄▄[0m       [1;34m▄▄▄  ▄▄▄[0m             [1;34m▄▄▄   [0;31m▄▄[0;1;31;41m░▓░▒▓██[0;1;31;40m█[0;1;31;41m█▄▄[0;31m▄[0m

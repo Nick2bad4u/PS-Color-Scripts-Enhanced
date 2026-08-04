@@ -1,18 +1,4 @@
-﻿# Converted from: PD-ILLB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-04/raw/PD-ILLB.ANS
-# Source Revision: archive-sha256:a183453b0b057b28f8e3a2d35babc61b59dbf71d40a258198f360e299e3212ab
-# Source SHA-256: 8370a06fc2cdae12f9af0c2060862bc7e07ec22fa3e2bf0c4057bea88ed0f211
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PD-ILLB.ANS by paradox (glue); released in glue-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: illbred
-# SAUCE Author: paradox
-# SAUCE Group: glue
-# SAUCE Date: 19971031
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: illbred by paradox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-04-pd-illb
 
 Write-Host '
                                 [34m ▄[0;1;34m▄▄[0m

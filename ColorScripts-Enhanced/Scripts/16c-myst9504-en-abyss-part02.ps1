@@ -1,13 +1,4 @@
-﻿# Converted from: EN-ABYSS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/myst9504/raw/EN-ABYSS.ANS
-# Source Revision: archive-sha256:a90cbdb425ce06d8710b8a57528b3d33daeeb96dcafebdfec2b142856e77525e
-# Source SHA-256: 9213ec3a216b36715a1a83f21caaff7fae180e8b4fc835ee20cb081d9d88958b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EN-ABYSS.ANS by Enigma (myst9504); released in myst9504 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: EN-ABYSS.ANS by Enigma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-myst9504-en-abyss-part02
 
 Write-Host '
 [36m███████[0;1;31m▐[0;31m██ [0;1;30m▄▄▀▀▀▀    [0;1;31m▄▄▄[0;31m▄▄[0;1;30m▄   [0;31m▄▄█[0;1;31;41m▀[0;31m█▀▀▀  ▄█▀▀ ▄▄█[0;1;31;41m░▄▄█[0;1;31;40m██[0;1;31;41m▀▀▀[0;31m██[0;1;31;41m▓[0;31m█▀ [0;36m▄████████████████[0m

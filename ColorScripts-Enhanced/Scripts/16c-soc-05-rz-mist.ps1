@@ -1,18 +1,4 @@
-﻿# Converted from: RZ-MIST!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/soc-05/raw/RZ-MIST!.ANS
-# Source Revision: archive-sha256:46523a4b1dc7d3ea7673c682260d26883a5d9a96c30ca837d4327e8bd8747ff4
-# Source SHA-256: 39257f1dc86491fdd4eb6dc92f92ed71ef382c6a1db2e256e764511789916795
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RZ-MIST!.ANS by rzarector (society); released in soc-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: mistigris
-# SAUCE Author: rzarector
-# SAUCE Group: society
-# SAUCE Date: 19971213
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: mistigris by rzarector | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-soc-05-rz-mist
 
 Write-Host '
 

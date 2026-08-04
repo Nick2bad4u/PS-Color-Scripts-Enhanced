@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-35SD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/ZIR-35SD.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: 454a7b3925851c56323c465c8786a72cf22b0991f98c3524e6b6158a3f07eeef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-35SD.ANS by zir (FiRE); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: egg salad sex device
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20241111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: for unlawful carnal mayonnaise
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: egg salad sex device by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-zir-35sd
 
 Write-Host '
  [36m░░ ░░ ░░░░░░ ░░░░░░▄░░░░   [0;37m▄[0;1;30;47m▀[0;1;37;47m  [0;1;30;40m▐[0m░░[36m ░░░▐[0;1;37;46m░[0;1;36;46m▄[0;36m▌[0;37m+[0;1;30m------------[0m+[1;30m▓[0;1;30;47m▀[0;1;30;40m▄[0m [1;30;47m▀[0;1;30;40m░[0;1;33;47m░[0;1;30;40m░[0;1;30;47m▀[0;1;30;40m░▄▄░░░[0;36m ░░░ ░░[0m

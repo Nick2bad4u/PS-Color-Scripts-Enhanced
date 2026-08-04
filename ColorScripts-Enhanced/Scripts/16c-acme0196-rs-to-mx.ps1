@@ -1,18 +1,4 @@
-﻿# Converted from: RS-TO_MX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acme0196/raw/RS-TO_MX.ANS
-# Source Revision: archive-sha256:c6fe41920b57611c0b3b708ba1eab112f305d080bef9a4a699c6d17869098d06
-# Source SHA-256: 992315a2d0b3edead4050ac2a7a516ba93cd0366e6634bc24c4fae6ea7869a2e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-TO_MX.ANS by rusty (acme); released in acme0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: terminal overdose matrix
-# SAUCE Author: rusty
-# SAUCE Group: acme
-# SAUCE Date: 19951210
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: terminal overdose matrix by rusty | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acme0196-rs-to-mx
 
 Write-Host '
  [1;36m▄▄[0;1;36;46m█▀▀ ▀▀[0;36m█[0;1;36;46m▀[0;36m██████▀▀▀█████████████████████████████████████████████████[0;1;37;46m▀[0;36m█[0;1;37;46m▀▀▀ ▀▀▀[0;1;37;40m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: ST!TVE01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aif-9702/raw/ST!TVE01.ANS
-# Source Revision: archive-sha256:3b9f61860c22d001c6e381a5b94c16d8789cd57ba721bbd4a78c247058aafa2b
-# Source SHA-256: 8dff0b75c6e7aeceff14096f6ee399f563c51ffbc7467540db8096f222502e45
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST!TVE01.ANS by sterac (aif); released in aif-9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the virtual empire
-# SAUCE Author: sterac
-# SAUCE Group: aif
-# SAUCE Date: 19970111
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: the virtual empire by sterac | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aif-9702-st-tve01
 
 Write-Host '
                          [1;30m░[0m

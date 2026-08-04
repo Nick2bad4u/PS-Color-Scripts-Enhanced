@@ -1,18 +1,4 @@
-﻿# Converted from: HOCZ-B#2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toon1095/raw/HOCZ-B%232.ANS
-# Source Revision: archive-sha256:d4b59c6d799c8c2a02788beeec8a06d37366bb8792f6739cb4b7e0bf67ae744a
-# Source SHA-256: 618eed40d02640cee85acf427b532fd2ff46d69b780bb2c7c504d3d11d9c02cc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HOCZ-B#2.ANS by Coma Toazt + Holocaust (8lE7k!?!??$!?@#$); released in toon1095 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: blerk,numero,dos : regency!
-# SAUCE Author: cOma toaZt/hOlocaust
-# SAUCE Group: 8lE7k!?!??$!?@#$
-# SAUCE Date: 19950930
-# SAUCE Dimensions: 80x25
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: blerk,numero,dos : regency! by Coma Toazt + Holocaust | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toon1095-hocz-b-2-part02
 
 Write-Host '
                                                  [1m`"[0;1;33m²[0;1;37m$[0;1;33m$$²[0;1;32mS[0;1;33m$[0;1;32m$[0;32mS[0;1;32m$S[0;32m$$7[0;1;30m²[0;32m"[0;1;30m''[0m

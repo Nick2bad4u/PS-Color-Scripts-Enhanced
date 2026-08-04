@@ -1,19 +1,4 @@
-﻿# Converted from: AK-SPLT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-37/raw/AK-SPLT2.ANS
-# Source Revision: archive-sha256:42913eb56742cc8575f96af5b8a027e63b5172fdb84271b8ac973c7820ea43ef
-# Source SHA-256: 0faacc749db306d2bc32f1a7b10461d7a39c5d7e61f1161bc601d618ed37d0e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-SPLT2.ANS by abstrakt (fire); released in fire-37 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: sh menu
-# SAUCE Author: abstrakt
-# SAUCE Group: fire
-# SAUCE Date: 20230707
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: sh menu by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-37-ak-splt2
 
 Write-Host '
 [1;38;2;87;87;87;48;2;0;0;0m$[0;38;2;171;171;171;48;2;0;0;0m$[0;1;38;2;87;87;87;48;2;0;0;0m$[0;38;2;171;171;171;48;2;0;0;0m. [0;1;38;2;87;87;87;48;2;0;0;0m:[0;38;2;171;171;171;48;2;0;0;0m$┌[0;1;38;2;87;87;87;48;2;0;0;0m$$┘`[0m     [38;2;171;171;171;48;2;0;0;0m., [0;1;38;2;87;87;87;48;2;0;0;0ml$;[0;1;38;2;255;255;255;48;2;0;0;0m,┐,.    [0;1;38;2;87;87;87;48;2;0;0;0m`¬┐$7[0;38;2;171;171;171;48;2;0;0;0m [0;1;38;2;87;87;87;48;2;0;0;0m,[0;38;2;171;171;171;48;2;0;0;0md$[0;1;38;2;87;87;87;48;2;0;0;0mP''   [0;38;2;171;87;0;48;2;0;0;0m┌[0;38;2;171;0;0;48;2;0;0;0m,[0;38;2;171;171;171;48;2;0;0;0m   [0;38;2;171;0;0;48;2;0;0;0m.[0;1;38;2;255;87;87;48;2;0;0;0m,┌┐,┌⌂[0;38;2;171;0;0;48;2;0;0;0mq[0;1;38;2;255;87;87;48;2;0;0;0m┐,[0;38;2;171;87;0;48;2;0;0;0m.[0;38;2;171;0;0;48;2;0;0;0m.,┌[0;1;38;2;255;87;87;48;2;0;0;0m⌐┐,┌\[0;38;2;171;0;0;48;2;0;0;0mP┘[0;1;38;2;255;87;87;48;2;0;0;0mb[0;38;2;171;0;0;48;2;0;0;0m,  [0;1;38;2;87;87;87;48;2;0;0;0m$[0;38;2;171;171;171;48;2;0;0;0m$$[0;1;38;2;87;87;87;48;2;0;0;0mb.[0m

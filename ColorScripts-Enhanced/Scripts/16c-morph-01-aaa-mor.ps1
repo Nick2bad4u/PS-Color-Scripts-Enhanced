@@ -1,18 +1,4 @@
-﻿# Converted from: _AAA-MOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/morph-01/raw/_AAA-MOR.ANS
-# Source Revision: archive-sha256:bc2a545325e27203d9d1be11c4c8e367cd7a18c5f91873a9a46244823d7901fd
-# Source SHA-256: 87a00e13c430690c219d03438190eb590976913374ae0e1de5c2536a4515f8bb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _AAA-MOR.ANS by Archangel + Absent Spinsister (morph); released in morph-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: morph
-# SAUCE Author: arhcangel+aspnsister
-# SAUCE Group: morph
-# SAUCE Date: 19970917
-# SAUCE Dimensions: 80x25
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: morph by Archangel + Absent Spinsister | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-morph-01-aaa-mor
 
 Write-Host '
   [1maa[0m([1mmorph[0m)[1;36m  [0;36m  ___[0;1;36m___[0;36m____[0;1;36m__                 [0;1;30m [0;1;36m           [0;36m;[0;1;36m;[0m         [1;37m _a[0m([1muhh[0m)

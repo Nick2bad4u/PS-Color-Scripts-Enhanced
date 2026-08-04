@@ -1,18 +1,4 @@
-﻿# Converted from: PO-AD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook12/raw/PO-AD.ANS
-# Source Revision: archive-sha256:ec66f5bb4ed961133c52314c375d67af30a5295789eb6bfc6eda91ebf8999fc2
-# Source SHA-256: 9d61b3bd070645225a2ee23101b56ee0a570eca6101ebe7d8c49b1a70a08a62c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PO-AD.ANS by poti (black maiden); released in bmbook12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: artificial dope (go#2)
-# SAUCE Author: poti
-# SAUCE Group: black maiden
-# SAUCE Date: 19970221
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: artificial dope (go#2) by poti | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook12-po-ad
 
 Write-Host '
 [1;30m   ▄  [0m    [1;30m▄▄▄▌░░[0m   [1;30m▄▌   [0m            [1;30m▄▄▄▓[0m ▄▄▌ [1;30m▀[0m  [1m▄▄▄▄▄▄▄▄ ▀██▄[0m  [1m  [0;1;30mpo[0;1;37m▄▄▄[0;1;37;47m███[0;1;37;40m▀[0m [1m▀██▄[0m

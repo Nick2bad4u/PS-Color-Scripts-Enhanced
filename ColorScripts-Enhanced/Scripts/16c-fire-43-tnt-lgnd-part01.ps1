@@ -1,19 +1,4 @@
-﻿# Converted from: TNT-LGND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-43/raw/TNT-LGND.ANS
-# Source Revision: archive-sha256:d3967e67800d0c773a52f120751caeb2bc01ead5180b478fb0a0e89978edc4ec
-# Source SHA-256: 6a5fcaa09a02ee64df02e991c0a2444e1c13436fd248677d6c55e973c88cbf68
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNT-LGND.ANS by tainted (fire); released in fire-43 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: legend
-# SAUCE Author: tainted
-# SAUCE Group: fire
-# SAUCE Date: 20250707
-# SAUCE Dimensions: 80x60
-# SAUCE Font: IBM VGA
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: legend by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-43-tnt-lgnd-part01
 
 Write-Host '
                                                         [1;30;40m■[0m

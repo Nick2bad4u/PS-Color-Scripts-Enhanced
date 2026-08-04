@@ -1,18 +1,4 @@
-﻿# Converted from: XKS-DTH!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-20/raw/XKS-DTH!.ANS
-# Source Revision: archive-sha256:f9b6fa3399b36cc49af26304a91cb6eea5ff2df3ad575bff7f071211f95cc902
-# Source SHA-256: ec3229ddbc28f74abcea8c9317572be4632775d9af95a2ea0367a59305802640
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XKS-DTH!.ANS by xkeys (secular); released in sclr-20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: death!
-# SAUCE Author: xkeys
-# SAUCE Group: secular
-# SAUCE Date: 20010705
-# SAUCE Dimensions: 80x45
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: death! by xkeys | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-20-xks-dth
 
 Write-Host '
                               [1;30m [0m

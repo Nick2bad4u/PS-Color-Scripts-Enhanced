@@ -1,17 +1,4 @@
-﻿# Converted from: RAWAPP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/raw01/raw/RAWAPP.ANS
-# Source Revision: archive-sha256:68018d98da2353ea67bd0935370f9f9e7167a56c319420d702baa29dd9d82b28
-# Source SHA-256: b4d96f06162158c9bcebf1d9fa02657910c86c749dae6eb6467f20f139577280
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RAWAPP.ANS by raw staff (raw01); released in raw01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: raw application
-# SAUCE Author: raw staff
-# SAUCE Date: 19970405
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: raw application by raw staff | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-raw01-rawapp
 
 Write-Host '
 [30;47m█[0;1;35;40m     [0;35m▄[0;1;35m▄▄▄▄▄[0;35m▄[0;31m [0;35m▄[0m                  [1;37mr a w   a p p l i c a t i o n[0m

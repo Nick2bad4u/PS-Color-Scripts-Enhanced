@@ -1,18 +1,4 @@
-﻿# Converted from: SPH_MON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sadist05/raw/SPH_MON.ANS
-# Source Revision: archive-sha256:48539c7fd3103651a6474c72efa2d6287c0500d048769b6f96b3f80e7845070c
-# Source SHA-256: c5d7c371a345a082eb32cc6de84b14b1d58ae2bf8cc93ebb9a4fb644111dc110
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPH_MON.ANS by Sephiroth (Sadist); released in sadist05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Monks
-# SAUCE Author: Sephiroth
-# SAUCE Group: Sadist
-# SAUCE Date: 20050220
-# SAUCE Dimensions: 80x93
-# Lines: 45-92
-# Columns: 1-80
+﻿# Artwork: Monks by Sephiroth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sadist05-sph-mon-part02
 
 Write-Host '
 [1;30m▓█▄▄▄[0m    [1;30m░░░▓▓[0;1;30;41m▄▄▓▄▓[0;1;30;40m██[0m  [1;30m▐[0;1;30;47m▒[0m▓█  [1;30m░[0m [1;30m▐[0m▒▓█████████[1;37;47m░▒[0m██▌[1;30m▌[0;1;30;47m▓[0m▓████[1;37;47m  ░[0m▌ [1;30m▐[0m▒▌ [1;30m▒[0m     [1;30m▐[0m▓[1;30;47m░[0m██[30;47m░[0;37;40m███[0;1;37;47m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: 09-TV1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-21/raw/09-TV1.ANS
-# Source Revision: archive-sha256:d980c3e2187ff0ef4bb9edce960381dc01c8374df0b01b4ddb8d104484f4b936
-# Source SHA-256: 82b46a8c26a2f5c4858c624ea53d5278e1a55692e3f239469f12161be0ac5221
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-TV1.ANS by Fluor (Awe Lettering); released in awe-21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Color TV
-# SAUCE Author: Fluor
-# SAUCE Group: Awe Lettering
-# SAUCE Date: 19990119
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Color TV by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-21-09-tv1
 
 Write-Host '
 [33m░ [0;1;33m▄[0;33m▄▀    [0;37m▄  [0;33m░▄▄  ▄▄[0;1;33;43m▄[0;33m▀▀ [0;37m▄ [0;33m▀ ▀[0;1;33m▀ [0;33m▀[0;1;33;43m▀[0;1;33;40m▀ [0;33m▀[0;1;33m▀▀▀  [0;33m▄[0;1;33;43m▄▄[0;33m▄ ▄█[0;1;33;43m▄[0;33m▄ [0;1;33;43m▀[0;1;33;40m▀[0;33m▀ [0;37m▄ [0;33m▀ ░▀[0;1;33m▀[0;1;33;43m▀[0;1;33;40m▄ [0;33m▄[0;1;33;43m▀[0;33m▀▀  [0;37m▄  [0;33m▀▀[0;1;33m▀[0;1;33;43m▀[0;33m▀[0m

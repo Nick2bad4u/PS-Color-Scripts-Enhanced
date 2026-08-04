@@ -1,18 +1,4 @@
-﻿# Converted from: MD-CLOUD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/trick01/raw/MD-CLOUD.ANS
-# Source Revision: archive-sha256:c3ea36d0e67b15c9bdc665de1ef6dfc521c7508de688a6cdefd1a2cb4b54a376
-# Source SHA-256: 63215f87c20a8b676d0aae8e306c6e249bb682a9ebea582d7207ea71f1d15e91
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MD-CLOUD.ANS by mobb deep (caption%trick); released in trick01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: clouded
-# SAUCE Author: mobb deep
-# SAUCE Group: caption%trick
-# SAUCE Date: 19960903
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: clouded by mobb deep | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-trick01-md-cloud
 
 Write-Host '
    [34m▄▄▌█[0;1;34m█[0;1;34;44m▄▄[0;34m█[0m    [34m██[0m     [34m▀▀██[0;37m [0;34m█[0;1;34;44m▄[0;34m▌█[0;1;34;44m▄[0;34m▄▌[0;1;34;44m▐[0;34m█▐[0;37m [0;1;34m  [0m [34m█[0;1;34;44m▀▀[0;34m█▐[0;1;34;44m ▀▄[0;34m█▐[0;1;34;44m▄▄[0;34m▄[0;37m [0;34m█[0;1;34;44m▄[0;34m█[0;37m [0;34m▀▄[0;37m [0;34m▄▄[0;37m  [0;34m▄▄▌▄[0;37m  [0;34m█[0;1;34;44m▄[0;34m▄▄█[0m

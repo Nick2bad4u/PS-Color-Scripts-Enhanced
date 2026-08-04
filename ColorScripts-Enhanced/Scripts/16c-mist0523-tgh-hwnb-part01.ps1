@@ -1,20 +1,4 @@
-﻿# Converted from: TGH-HWNB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0523/raw/TGH-HWNB.ANS
-# Source Revision: archive-sha256:53b565820f166e8e480fb61187f967fd47086f9bc5b7e5f420ec7196d573dd4b
-# Source SHA-256: f29ed365e0d9477854d325fde80f42a5d89cc97d953aa66239e7ed2ea926e2a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TGH-HWNB.ANS by The Green Herring (N/A); released in mist0523 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Humanity Will Never Be Replaced
-# SAUCE Author: The Green Herring
-# SAUCE Group: N/A
-# SAUCE Date: 20230509
-# SAUCE Dimensions: 80x75
-# SAUCE Font: Custom
-# SAUCE Comments: A character from my ZZT game "Cyber Purge" carries the robotic | skulls of generative AI algorithms over a message against | attempts to use them to replace human artists, a quixotic dream | fueled by the same brand of con artistry as NFTs, the same that | tried to convince you that a receipt for ownership of an awful | monkey picture would be your ticket to riches. | Though I had the idea for this picture before, the revelations | that came up around a certain "cyberpunk samurai" and its lack | of actual human artistry inspired me to draw this.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Humanity Will Never Be Replaced by The Green Herring | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0523-tgh-hwnb-part01
 
 Write-Host '
                                                             [1;30m▄▄[0m [1;30m▄[0m

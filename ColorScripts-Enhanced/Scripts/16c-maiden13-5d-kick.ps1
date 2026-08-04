@@ -1,18 +1,4 @@
-﻿# Converted from: 5D-KICK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden13/raw/5D-KICK.ANS
-# Source Revision: archive-sha256:70e231ea8653cd02d349f122b1a39f57757322f3913b0c8f20698b54c8795e68
-# Source SHA-256: 21eeffee3dbd7f48c3937db31e013229e5337b409e27f38b6e6ff5e5bc884eb4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5D-KICK.ANS by slayer dreams (maiden brazzilllllLL); released in maiden13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: maiden brazil!!
-# SAUCE Author: slayer dreams
-# SAUCE Group: maiden brazzilllllLL
-# SAUCE Date: 19971002
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: maiden brazil!! by slayer dreams | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden13-5d-kick
 
 Write-Host '
     [1;33m                      [0m              [32m                  [0;37m  [0;1;33m┌ [0;32m [0;1;33m          [0m   [32m [0m

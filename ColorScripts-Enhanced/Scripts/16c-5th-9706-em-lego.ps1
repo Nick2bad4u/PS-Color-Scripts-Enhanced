@@ -1,18 +1,4 @@
-﻿# Converted from: EM-LEGO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/5th-9706/raw/EM-LEGO.ANS
-# Source Revision: archive-sha256:85921ee1820ec1a40b04cf68d8975e5348a79e29e438d8146255e01b4afbee6a
-# Source SHA-256: 88ed9a47a09885bccfe49ff9a4c4e1c2c1c3a092d5645cb81ad84acf4c3b0f96
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EM-LEGO.ANS by eviL milkmAn (5thzwrtHzflx); released in 5th-9706 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: joint marathon...uh I'm stoned
-# SAUCE Author: eviL milkmAn
-# SAUCE Group: 5thzwrtHzflx
-# SAUCE Date: 19970929
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: joint marathon...uh I'm stoned by eviL milkmAn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-5th-9706-em-lego
 
 Write-Host '
 [32m[0m

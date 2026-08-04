@@ -1,18 +1,4 @@
-﻿# Converted from: TR-PLF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0999/raw/TR-PLF.ANS
-# Source Revision: archive-sha256:a2e683452933f0cc0c7c5f8185be51af4846ace8a1753ba20cf7f9ba82c1dcf4
-# Source SHA-256: d424942e2ed2ab440d3be17bded5c5f5bf57163be9086a95cb1adb318ca33025
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-PLF.ANS by Tarot (poffelipoff); released in plf-0999 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Poffelipoff Ansee
-# SAUCE Author: Tarot
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19990813
-# SAUCE Dimensions: 80x25
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: Poffelipoff Ansee by Tarot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0999-tr-plf
 
 Write-Host '
 

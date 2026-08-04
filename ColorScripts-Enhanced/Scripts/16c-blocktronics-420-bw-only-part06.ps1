@@ -1,18 +1,4 @@
-﻿# Converted from: bw_Only.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-420/raw/bw_Only.ans
-# Source Revision: archive-sha256:32206a6b687af3a407a7929bd0ae7f49a2a5a96e7853d9c98b3020df27e9b06d
-# Source SHA-256: 461ad63d893c2b5a5e84d5c5daad7593490c846c13d06d32fa45c8500b20202f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bw_Only.ans by binary walker (blocktronics); released in blocktronics-420 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: binary walker
-# SAUCE Group: blocktronics
-# SAUCE Date: 20200416
-# SAUCE Dimensions: 80x368
-# SAUCE Font: IBM VGA
-# Lines: 231-276
-# Columns: 1-80
+﻿# Artwork: bw_Only.ans by binary walker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-420-bw-only-part06
 
 Write-Host '
              [1;33m███████  [0;36m███[0;37m [0;36m████[0;37m [0;1;33m██████████████▓████████████▄██████████[0m

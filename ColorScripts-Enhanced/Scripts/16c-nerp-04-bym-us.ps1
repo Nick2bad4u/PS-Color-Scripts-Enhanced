@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-US.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-04/raw/BYM-US.ANS
-# Source Revision: archive-sha256:d99c3d6576b4ffe30ad10598ac465177e9b6d171d7a6c4fd056707ad27adce95
-# Source SHA-256: 144abbf190f8ba1baaa0ebf3b42d7972ce9f314a7048de8e07f9cedf0c3231ff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-US.ANS by superbym (nerp); released in nerp-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: userstats
-# SAUCE Author: superbym
-# SAUCE Group: nerp
-# SAUCE Date: 19980109
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: userstats by superbym | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-04-bym-us
 
 Write-Host '
 [34m▌[0m                             [1;37m [0;1;33m░[0;1;37m [0m      [1m   [0m                                [34m░░░[0m

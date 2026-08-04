@@ -1,18 +1,4 @@
-﻿# Converted from: P1-KILO8.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vivid03/raw/P1-KILO8.ANS
-# Source Revision: archive-sha256:707c507abc7daafa803f0e19897b10ba6d9a8f9e09826a64950be6878f695dbf
-# Source SHA-256: d1ced69a3fdc842e34f126b2ce5f488fdb072e196f685e6f56a321ca7441d5ef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P1-KILO8.ANS by Paranormal Intensity (ViViD); released in vivid03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: P1-KILO8
-# SAUCE Author: Paranormal Intensity
-# SAUCE Group: ViViD
-# SAUCE Date: 19980113
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: P1-KILO8 by Paranormal Intensity | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vivid03-p1-kilo8
 
 Write-Host '
 [1;31;41m███▄[0;31m▄[0;36m▀[0;1;36;46m▀█▀[0;36m▀▀▀▀▀ [0;32m▄▄▄▌[0;1;36;46m▐███▀[0;36m▀[0;1;36;46m▀█████▄[0;36m▄[0;1;30m▀[0;1;30;47m▄           ▄▄[0;1;30;40m▀[0;1;30;47m▄                ▄[0;1;30;40m▀ [0m▀[1;47m▀████████[0;1;37;47m█[0m

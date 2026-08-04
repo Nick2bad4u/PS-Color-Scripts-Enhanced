@@ -1,13 +1,4 @@
-﻿# Converted from: SK!MATRI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p06_00/raw/SK!MATRI.ANS
-# Source Revision: archive-sha256:3daad9bd70cd9307445d25e1dbbdc4eae498b83379a5b89ecd2ac9419e6150d3
-# Source SHA-256: 667bfa5e5da6e0c4b4160a1768f9f420efbdd63c35cfa6d088ec84ab473b6c08
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!MATRI.ANS by Simonking (l0p06_00); released in l0p06_00 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 44-78
-# Columns: 1-80
+﻿# Artwork: SK!MATRI.ANS by Simonking | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p06-00-sk-matri-part02
 
 Write-Host '
 

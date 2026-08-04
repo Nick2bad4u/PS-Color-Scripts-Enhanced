@@ -1,18 +1,4 @@
-﻿# Converted from: DT-ELD8.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9607/raw/DT-ELD8.ANS
-# Source Revision: archive-sha256:9e6601fb76997375dd243211c26e8c2351f2e546b672c94103f06b10c1d474c2
-# Source SHA-256: 17681459916ff1c9ede60fea01ae40f556a273f40e36658c18eff67d22291d41
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-ELD8.ANS by Defiant (Samsara); released in sms-9607 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Eldorado
-# SAUCE Author: Defiant
-# SAUCE Group: Samsara
-# SAUCE Date: 19960706
-# SAUCE Dimensions: 80x67
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Eldorado by Defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9607-dt-eld8-part01
 
 Write-Host '
 [1;30m░  ░░[0;1;37m███▓▓░░ ░  [0;1;33m░████[0;1;33;45m▐[0;35m█▀▀▀█████▌▌   ▀░░    [0;30;42m▓▓[0m   [35;40m▀▀[0;1;35;45m▀▀█▓█▓▄[0;35m▄▄▄   ▀[0;1;35;45m▀██▀[0;35m▀[0;1;35;45m▀██▄[0;35m▄▄░ ▀[0m

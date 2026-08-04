@@ -1,20 +1,4 @@
-﻿# Converted from: AVG-AIR23.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-38/raw/AVG-AIR23.ANS
-# Source Revision: archive-sha256:be80154150e87c06a8a7199ad7b8d7442acd5427250f57c89a783b9de15c69d7
-# Source SHA-256: ed1fd9199a45bfcf281902ffbcb1206fe0ab85e3dad62e264649c3d9dc38d01f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-AIR23.ANS by Savage (Fire Graphics); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: OOH YAIR
-# SAUCE Author: Savage
-# SAUCE Group: Fire Graphics
-# SAUCE Date: 20231008
-# SAUCE Dimensions: 80x139
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Michael Jordan
-# Lines: 49-94
-# Columns: 1-80
+﻿# Artwork: OOH YAIR by Savage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-38-avg-air23-part02
 
 Write-Host '
 [33;44m  [0;34;40m███████░░░[0;30;40m   [0;37;40m░[0;36;40m░[0;1;30;40m  [0;30;41m▀[0;1;31;40m▄[0;1;30;40m▄[0;1;31;40m▄[0;1;30;46m▀[0;1;31;40m▄[0;36m█[0;30;41m▀[0;31;40m░░[0;30;41m▓[0m       [33;40m░[0;1;33;43m■[0;33m▌  [0;1;31;45m▓▓[0;35m▄[0;37m  [0;34m▀[0m                   [34m▄█▀[0m        [34m██[0m

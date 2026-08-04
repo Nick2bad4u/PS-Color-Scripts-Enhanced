@@ -1,20 +1,4 @@
-﻿# Converted from: ZII-NATS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1225/raw/ZII-NATS.ANS
-# Source Revision: archive-sha256:ad7094cd4ecc2b378f2db405885d71750ab479d4047a6dbcbce2412f0935f4aa
-# Source SHA-256: ac88394b570ee2094a0b27d0e6e813dd2d94f1603bd96f40d5ec18d4b51cb898
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-NATS.ANS by Zeus II (Mistigris); released in mist1225 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Another SHS Promo!
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20251218
-# SAUCE Dimensions: 80x235
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Depicts Natsuki Sasahara from Hyper Police, but everything is an | original drawing. Including both squirrels. Merry Christmas!
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Another SHS Promo! by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1225-zii-nats-part01
 
 Write-Host '
 

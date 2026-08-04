@@ -1,13 +1,4 @@
-﻿# Converted from: CPH-BZLG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-17/raw/CPH-BZLG.ANS
-# Source Revision: archive-sha256:154ac874f13e20433925bb99a4f5e0a4299764bee7ed4d28bdaffd9ad392f554
-# Source SHA-256: a46f8116de825f672847aa6cbb4fd917b3386a7ec3e4ce82a63bf0aa233bff04
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-BZLG.ANS by Cyberpunch (glue-17); released in glue-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: CPH-BZLG.ANS by Cyberpunch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-17-cph-bzlg
 
 Write-Host '
 [34m█[0;1;34;44m██▄[0;34m▄   ▄███▀ ▄[0;1;34;44m▄██[0;34m█████▀[0;31m ░[0;30;41m▓[0;31;40m          ▄██▀[0;34;40m ▄[0;1;34;44m▄[0;34m█[0;37m [0;31m▀█[0;32;41m▄[0;1;33;42m▄[0;32;41m█[0;32;45m▓▓[0;31;45m▓▓[0;31;40m██████▌[0;37;40m [0;33;40m▐█[0m   [31;40m▄▄  [0;34;40m░[0;30;44m▓░[0;34;40m▓▓[0;1;34;44m░▓▓[0m

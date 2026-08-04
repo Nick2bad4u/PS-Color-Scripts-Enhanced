@@ -1,18 +1,4 @@
-﻿# Converted from: 2002 - 28 - Joint - US-TIR2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tcf20/raw/2002%20-%2028%20-%20Joint%20-%20US-TIR2.ANS
-# Source Revision: archive-sha256:af8609219fccc484668fb405a7f1d45efb8c574501a461c5c1b47d87a12921ce
-# Source SHA-256: 40529e898ec2a6b8d6614bb0549e96c93366e460277131e0f9a31391426d1b0e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2002 - 28 - Joint - US-TIR2.ANS by fever&catch22 (glue); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: tir tairngire
-# SAUCE Author: fever&catch22
-# SAUCE Group: glue
-# SAUCE Date: 20010816
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: tir tairngire by fever&catch22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tcf20-2002-28-joint-us-tir2
 
 Write-Host '
 [1m██▀[0m [1;30m ▐█[0;1;30;44m▓[0;1;30;40m███[0;1;30;47m▓▓▓[0m [1;30m [0m░[1;30m▄████[0;1;30;47m▒▒▒▒▒[0;1;30;40m▀▀▀▀▀███▄▄▄██▄▀▀████[0;1;30;46m▓▓▓[0;1;30;40m█▄▄ ▀▀[0;1;30;45m█▓▓▓[0;1;30;40m ▐[0;1;30;45m▓▓[0;1;30;40m▌▌[0m░[1;30;45m▓[0;1;30;40m█  ▒██▀▀▀▄▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: TR-JDMM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0497/raw/TR-JDMM.ANS
-# Source Revision: archive-sha256:ac23f379eb24f5f6ad8faa432723caa3c85fc7d4fc380b1d3e101e8eb50ca483
-# Source SHA-256: 10d5b26d5b5e85b59918430b49940e49c6e99b342d8ab1d0a46973be6f6cbd33
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-JDMM.ANS by trinity (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: jd main menu
-# SAUCE Author: trinity
-# SAUCE Group: phat studios '97
-# SAUCE Date: 19970226
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: jd main menu by trinity | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0497-tr-jdmm
 
 Write-Host '
  [31m▄▄▄[0;1;31;41m▄[0;31m▄▄▄[0;37m  [0;31m░░▄▄█[0;1;31;41m░░[0;31m██▄▄▄[0m                [31m▄[0;37m [0;31m░░▓██[0;37m [0m          [31m▄▄▄[0m           [31m▄▄▄▄▄▄▄░░[0m

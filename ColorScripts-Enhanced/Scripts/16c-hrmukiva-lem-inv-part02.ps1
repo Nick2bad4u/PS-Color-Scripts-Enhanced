@@ -1,13 +1,4 @@
-﻿# Converted from: LEM-INV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hrmukiva/raw/LEM-INV.ANS
-# Source Revision: archive-sha256:b0c56ddd0f66f09c0be6cfbe1a90d54621d8338118ef96d80cb729268282e5ca
-# Source SHA-256: eac7d589170a728c6681213c1ebf786a2ddfea43c17a4c5fb51ac8d2d6db1bbb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LEM-INV.ANS by Lemming (hrmukiva); released in hrmukiva and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 41-80
-# Columns: 1-80
+﻿# Artwork: LEM-INV.ANS by Lemming | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hrmukiva-lem-inv-part02
 
 Write-Host '
 [1;37;40m██████████████████▌[0;30;41m▀  [0;1;31;41m██▓▒░░          [0;30;41m▀[0;1;37;40m▀███[0;1;37;47m▒▓▓▓[0;1;37;40m█[0;1;37;47m▓▓▒▓░▒▓[0;1;37;40m█[0;1;37;47m▒[0;1;37;40m█[0;1;37;47m▓▒▓▓▓▓[0;1;37;40m█[0;1;37;47m▓▓▓[0;1;37;40m█[0;1;37;47m▓▓▓▓[0;1;37;40m██████[0m

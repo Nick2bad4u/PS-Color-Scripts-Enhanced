@@ -1,13 +1,4 @@
-﻿# Converted from: QT-NNLD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lght9404/raw/QT-NNLD1.ANS
-# Source Revision: archive-sha256:df9552287ee81971bce5423dd5ad22f2a1016992aac4507efd85664e976068ee
-# Source SHA-256: 603c246e256190ad5eadd326bd1b4f4ff9ee3eab7ceea6356f8439a895302628
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QT-NNLD1.ANS by Q Tak (lght9404); released in lght9404 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: QT-NNLD1.ANS by Q Tak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lght9404-qt-nnld1-part02
 
 Write-Host '
 [1;33;43m░░░░░░░░              [0;33m▄▄▄▄▄▄▄▄▄▄[0;33;43m      [0;1;33;43m░░░░░░░░░░░░▒░░░░▒▒▒▒░░▒▒▒▒░░▒▒▒░▒▒▒░▒▒▒░[0m

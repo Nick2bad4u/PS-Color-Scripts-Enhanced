@@ -1,18 +1,4 @@
-﻿# Converted from: IQ-WZOMB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stl-001/raw/IQ-WZOMB.ANS
-# Source Revision: archive-sha256:c816a943b20935c303514c1ef3cdd50eb87b0620e57aaacbb822a80e0731ed25
-# Source SHA-256: 1f973294503d74f22c126db160859639bd57f35f1ca4b425b817bdc5e9792c5e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IQ-WZOMB.ANS by Ique (Stile); released in stl-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: White Zombie
-# SAUCE Author: Ique
-# SAUCE Group: Stile
-# SAUCE Date: 19940929
-# SAUCE Dimensions: 80x25
-# Lines: 44-88
-# Columns: 1-80
+﻿# Artwork: White Zombie by Ique | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stl-001-iq-wzomb-part02
 
 Write-Host '
               [1;30m░▒▓▀[0m▄▀▀[1;30m▄▄▌[0;1;37;47m░░[0m▌[1m██[0;1;47m▓[0m▌[1;47m▓▓▓[0;1;40m▐[0;1;47m▓▒[0m [1;47m▒▓▓[0m▐[1;47m▓[0;1;40m█▐[0m▐[1;30;47m▒▓[0;1;30;40m▄▄▄[0m▀▀▄[1;30m▀▓▒░[0m               [1;30m░[0m

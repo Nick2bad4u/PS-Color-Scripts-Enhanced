@@ -1,18 +1,4 @@
-﻿# Converted from: &COVER14.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook14/raw/%26COVER14.ANS
-# Source Revision: archive-sha256:f7fe2a62d3e7b3b16687ce251209098ea8d86719a4cfa33dae1489e0c9af9278
-# Source SHA-256: 4f50c232b75771c4630b9c3efbec76a7b8222f1b05311ca0ec3b9200933ee475
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: &COVER14.ANS by avenger (black maiden); released in bmbook14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: welcome to book 14
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19970630
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: welcome to book 14 by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook14-cover14
 
 Write-Host '
 

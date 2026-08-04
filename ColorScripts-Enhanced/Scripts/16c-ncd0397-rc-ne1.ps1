@@ -1,13 +1,4 @@
-﻿# Converted from: RC-NE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ncd0397/raw/RC-NE1.ANS
-# Source Revision: archive-sha256:279b79a24916a8da9fdbbf933292cd4026cd3832fca43ab7f735b3c3ea1fd603
-# Source SHA-256: 268efb39ba811ab8553cef7438c6c37aa8201ec34b877a7e42d49fb530e76836
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RC-NE1.ANS by Reflect (ncd0397); released in ncd0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: RC-NE1.ANS by Reflect | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ncd0397-rc-ne1
 
 Write-Host '
                                                     [1;33m___/\___[0m

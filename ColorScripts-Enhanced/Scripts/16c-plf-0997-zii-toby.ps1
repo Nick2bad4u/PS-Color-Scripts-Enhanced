@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-TOBY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0997/raw/ZII-TOBY.ANS
-# Source Revision: archive-sha256:d6ce507ee095ab9c7ce1d91178b57bff0c61babde42a3957415461a430e18407
-# Source SHA-256: 6b181f281329f9b11a6b4050048d46d0ffa38e7fa528157685932d612bb33277
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-TOBY.ANS by Zeus II (poffelipoff); released in plf-0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: spann tobi
-# SAUCE Author: Zeus II
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19970919
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: spann tobi by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0997-zii-toby
 
 Write-Host '
                            ▄▄▄▄[1m▄[0;1;47m▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;40m▄[0m▄▄▄▄

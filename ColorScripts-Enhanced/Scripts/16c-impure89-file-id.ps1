@@ -1,13 +1,4 @@
-﻿# Converted from: FILE_ID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure89/raw/FILE_ID.ANS
-# Source Revision: archive-sha256:9410455cf1d33232fa4914c7e845b102da6bc2adfffe67cc07a895dab44b8e1b
-# Source SHA-256: 0ef4c7debb490699918b516344a1baf97a921e871bd567a9c9d77dd53c0e0b3a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FILE_ID.ANS by Anachronist (impure89); released in impure89 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-10
-# Columns: 1-80
+﻿# Artwork: FILE_ID.ANS by Anachronist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure89-file-id
 
 Write-Host '
 [30;40m [0;1;33;40m [0m      [1;35;40m     [0;35m       [0;1;35m    [0m

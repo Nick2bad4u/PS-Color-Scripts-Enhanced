@@ -1,18 +1,4 @@
-﻿# Converted from: p5-flick.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/charm05/raw/p5-flick.ans
-# Source Revision: raw-sha256:707041be635861230ccc83ffffdc6ceca3785b755ebbaa853f53ff178f512117
-# Source SHA-256: 707041be635861230ccc83ffffdc6ceca3785b755ebbaa853f53ff178f512117
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: p5-flick.ans by prosthesis (charm); released in charm05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fIIRsT@O! 43 liner from meh
-# SAUCE Author: prosthesis
-# SAUCE Group: charm
-# SAUCE Date: 19980110
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: fIIRsT@O! 43 liner from meh by prosthesis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-charm05-p5-flick
 
 Write-Host '
 

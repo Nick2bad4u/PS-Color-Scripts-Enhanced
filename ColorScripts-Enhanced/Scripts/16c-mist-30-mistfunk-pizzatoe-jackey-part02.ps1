@@ -1,19 +1,4 @@
-﻿# Converted from: MISTFUNK-PIZZATOE-JACKEY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/MISTFUNK-PIZZATOE-JACKEY.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: b1047293ed2c8d3de2786ab43a2bc0459b9df8e3bc44a997e852239e11472a5f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MISTFUNK-PIZZATOE-JACKEY.ANS by Consolejockey + Jackey (Pizzatoe); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Mistfunk logo
-# SAUCE Author: Jackey / CJ
-# SAUCE Group: Pizzatoe
-# SAUCE Date: 20241229
-# SAUCE Dimensions: 80x90
-# SAUCE Font: IBM VGA
-# Lines: 51-90
-# Columns: 1-80
+﻿# Artwork: Mistfunk logo by Consolejockey + Jackey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-mistfunk-pizzatoe-jackey-part02
 
 Write-Host '
 [1;31;41m░░[0;31m███[0;1;31;41m▓▓[0;31m███████[0;31;41m▄▄[0;1;31;41m▒▒[0;31m██[0;33;41m▀▀▀▀[0;33;40m██████[0;37;40m [0;33;40m█[0;37;40m [0;33;40m█[0;35;40m▄▄█[0;1;35;40m██[0;35m██[0;1;31;45m▄[0;35m█[0;1;35m█[0;35m██[0;1;35m█[0;1;35;45m▄▄▄▄▄[0;35m██[0;1;35m██[0;35m██[0;1;35m█[0;35m██[0;33m█[0;37m     [0;33m█[0;37m   [0;33m█[0;31m█[0;37m [0;31;43m▄▄[0;33;41m▀▀▀[0;31;40m█[0m

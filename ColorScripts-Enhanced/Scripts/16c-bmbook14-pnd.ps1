@@ -1,18 +1,4 @@
-﻿# Converted from: PND!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook14/raw/PND!.ANS
-# Source Revision: archive-sha256:f7fe2a62d3e7b3b16687ce251209098ea8d86719a4cfa33dae1489e0c9af9278
-# Source SHA-256: f77b17e57f377d09af739e723ab93a203a323fc768762774d268b6b42a95bd04
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PND!.ANS by -------------------- (Black Maiden); released in bmbook14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: pandur
-# SAUCE Author: --------------------
-# SAUCE Group: Black Maiden
-# SAUCE Date: 19970701
-# SAUCE Dimensions: 80x14
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: pandur by -------------------- | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook14-pnd
 
 Write-Host '
 [36;44m▐[0;1;37;46m█[0;1;33;46m█▓░░[0;36;44m▀[0;36;40m▀[0;34;40m▀[0;37;40m  [0;33;40m▄[0;1;33;40m▄▄[0m

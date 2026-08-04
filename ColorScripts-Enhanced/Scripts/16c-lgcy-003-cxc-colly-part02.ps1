@@ -1,19 +1,4 @@
-﻿# Converted from: cxc-colly.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-003/raw/cxc-colly.ans
-# Source Revision: archive-sha256:44a26aad0e8691f16e2777283660069b61e5916234397869961a696ba22e89f6
-# Source SHA-256: fb75ed53309885cb2005db0d1adefebdc60a3fdea6fa97b904482efb5cec5438
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cxc-colly.ans by Coax Cable (Legacy Krew); released in lgcy-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: BBS screens and logo colly
-# SAUCE Author: Coax Cable
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20210101
-# SAUCE Dimensions: 80x149
-# SAUCE Font: IBM VGA
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: BBS screens and logo colly by Coax Cable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-003-cxc-colly-part02
 
 Write-Host '
 [1;36;44m▄▀[0;34m▀█[0;1;34;44m▀[0;34m▄▄  ▄▄▄[0;1;34;44m▒[0;34m▀▀[0;1;36;44m▀▄[0;34m▄▄[0;1;34;44m▒[0;34m▄█▌[0;1;34;44m▒[0;34m▌▀▀▀[0;1;34;44m▓[0;1;36;44m▀▓[0;34m▓█▀▐[0;1;34;44m░[0;1;36;44m▒▄[0;1;34;44m▄[0;34m▄ ▄ ■▄▄█[0;1;34;44m▓▀▄[0;34m▀█▄█[0;1;36;44m▄[0;34m▌■ ▌▀[0;1;36;44m■[0;1;34;44m▀[0;34m█▀▓▀[0;1;36;44m▀▒[0;34m▀■▄▓█▀█[0;1;36;44m▒▒[0;1;34;44m▀[0;34m▌[0m

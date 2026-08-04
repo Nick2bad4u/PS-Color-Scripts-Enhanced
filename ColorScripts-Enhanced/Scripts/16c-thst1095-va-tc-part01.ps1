@@ -1,18 +1,4 @@
-﻿# Converted from: VA-TC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thst1095/raw/VA-TC.ANS
-# Source Revision: archive-sha256:9a2937acf2a12d83dbeb0087d44dbd2e6f68af68f6c467e60486d6dd8df2d5c9
-# Source SHA-256: 042cac24aec81990e552621f77c8ab3f9d98aa726b45ce25312039e53e18ed27
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VA-TC.ANS by Vassago (THRuSt); released in thst1095 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Tokin' Toadie!
-# SAUCE Author: Vassago
-# SAUCE Group: THRuSt
-# SAUCE Date: 19951003
-# SAUCE Dimensions: 80x56
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Tokin' Toadie! by Vassago | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thst1095-va-tc-part01
 
 Write-Host '
 [1;30m────────────────────────────────────────────────────[0;35m─[0;1;30m─[0;35m─Another─[0;1;30m─[0;35m─[0;1;30m───────────────[0m

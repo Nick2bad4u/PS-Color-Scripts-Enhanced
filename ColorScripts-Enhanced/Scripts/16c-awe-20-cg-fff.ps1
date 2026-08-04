@@ -1,18 +1,4 @@
-﻿# Converted from: CG-FFF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-20/raw/CG-FFF.ANS
-# Source Revision: archive-sha256:23bbf66596e3e4f3c4b9e335dc62ccc331634eba04c3d179b73e396fa3971807
-# Source SHA-256: af3f0f335b2864b3c3b8fc2a21558d2cb0c49074cac536382a4ec420716e66ad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-FFF.ANS by Cryogenic (AWE Lettering); released in awe-20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Freebie F
-# SAUCE Author: Cryogenic
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981231
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Freebie F by Cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-20-cg-fff
 
 Write-Host '
               [31m▄▄[0m                 [1;31m░[0m    [1;34m░[0m

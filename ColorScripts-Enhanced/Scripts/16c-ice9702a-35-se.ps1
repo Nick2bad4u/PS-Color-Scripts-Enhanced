@@ -1,13 +1,4 @@
-﻿# Converted from: 35-SE.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9702a/raw/35-SE.ICE
-# Source Revision: archive-sha256:540831d4e1a356189219ffbceaa28d97157e006639aca48afc56a145bd0d4c8c
-# Source SHA-256: 2594e19a0d942b0bd7f45835fc1bb102189b2a225ca032b38d314cc8e64d6e70
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 35-SE.ICE by Elastic (ice9702a); released in ice9702a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: 35-SE.ICE by Elastic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9702a-35-se
 
 Write-Host '
                      [1;30m░[0m                      [1;30m▄[0m

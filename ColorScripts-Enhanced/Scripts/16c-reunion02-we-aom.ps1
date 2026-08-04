@@ -1,13 +1,4 @@
-﻿# Converted from: we-aom.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/reunion02/raw/we-aom.ans
-# Source Revision: archive-sha256:96373910879aaeef56ec93cdb037a3ea200c9a9f2e45a43873cda58ee68480a0
-# Source SHA-256: 4d237842d04466eb4489357b9b756519cfc8c8787500351722bdccaed76d17e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-aom.ans by Maestro + The Silent Killer (reunion02); released in reunion02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: we-aom.ans by Maestro + The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-reunion02-we-aom
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: LK-VORT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plan9-03/raw/LK-VORT.ANS
-# Source Revision: archive-sha256:301e233671503dd7a10ff4a4cb6dda4f8763f8d72d90155c91788bf54f67e346
-# Source SHA-256: 403f30fab3d8403bef64e899f97674984227db3e8447467b8215236a601a12be
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LK-VORT.ANS by L0wK3y (plAn 9); released in plan9-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Colly 2
-# SAUCE Author: L0wK3y
-# SAUCE Group: plAn 9
-# SAUCE Date: 19970303
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Colly 2 by L0wK3y | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plan9-03-lk-vort
 
 Write-Host '
             [1;30m [0m

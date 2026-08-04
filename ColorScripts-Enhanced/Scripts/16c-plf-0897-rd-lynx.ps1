@@ -1,18 +1,4 @@
-﻿# Converted from: RD-LYNX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0897/raw/RD-LYNX.ANS
-# Source Revision: archive-sha256:cabceb59b7b429d8e4c18b37682b5f04003f1a57c83a21398a4e2582b732a549
-# Source SHA-256: ea54a64fa4cae0fb670728c606288122e572b58ce87252181a87b584cf292b4b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD-LYNX.ANS by raider (rile); released in plf-0897 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: lynx
-# SAUCE Author: raider
-# SAUCE Group: rile
-# SAUCE Date: 19970606
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: lynx by raider | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0897-rd-lynx
 
 Write-Host '
                    [30;43m▓[0m                  [1;30;40m▐[0m

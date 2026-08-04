@@ -1,13 +1,4 @@
-﻿# Converted from: ST-AID2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0695a/raw/ST-AID2.ANS
-# Source Revision: archive-sha256:fdb220fd949148b42f901401233ee5917f0ab0d506d9b91fc04ce4bed204f9b8
-# Source SHA-256: 55ece9b75d65518ee0c11992ac12ee883c1f8908791051a4e70c7143b2c6cd4a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-AID2.ANS by shot; released in sac0695a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ST-AID2.ANS by shot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0695a-st-aid2
 
 Write-Host '
  [1;30m▓ ▓[0m                                                                           [1;30m█[0m

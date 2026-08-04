@@ -1,19 +1,4 @@
-﻿# Converted from: SHIBA_FAST_FUN2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2021c/raw/SHIBA_FAST_FUN2.ANS
-# Source Revision: archive-sha256:baa2059605ee816e4be74f3c9757fea52c63c2050f4b0601e325c775b9f572c7
-# Source SHA-256: eb22fbac6c2da3d0edf1189913bd8d3b8e62dfbb122bb6b1cca2d11ab5ae25da
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SHIBA_FAST_FUN2.ANS by sIMONkING (LAZARUS); released in blndr2021c and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: SHIBA INU / FROLICKING / PARALLEL R
-# SAUCE Author: sIMONkING
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20210718
-# SAUCE Dimensions: 80x220
-# SAUCE Font: IBM VGA
-# Lines: 87-129
-# Columns: 1-80
+﻿# Artwork: SHIBA INU / FROLICKING / PARALLEL R by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2021c-shiba-fast-fun2-part03
 
 Write-Host '
 [37m          [0;31m░██[0;1;31m█████[0;31m██[0;32m███[0;1;32m████[0;34m██████████[0;1;33m█▓████▓▓[0m█[35m███[0;1;35m█████▓█[0;31m▓[0;1;31m████[0;31m█░[0;1;32m░████[0;32m██▒░[0;37m  [0;36m░░[0m

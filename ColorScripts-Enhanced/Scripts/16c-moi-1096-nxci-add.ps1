@@ -1,13 +1,4 @@
-﻿# Converted from: NXCI-ADD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moi-1096/raw/NXCI-ADD.ANS
-# Source Revision: archive-sha256:b08f58ff6462f4244b49eaabf5e3eaec7c8e12fe3cf4d84f161db4bcc4a6f782
-# Source SHA-256: c19903b15d2ed874be4f2756dd9b6e4de2674dc3074fbf5861f74b8850dbd399
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NXCI-ADD.ANS by Civid + Nofx (moi-1096); released in moi-1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: NXCI-ADD.ANS by Civid + Nofx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moi-1096-nxci-add
 
 Write-Host '
 [1;31m[0m                                   [1;31m▀▀■  ■▀▀[0m

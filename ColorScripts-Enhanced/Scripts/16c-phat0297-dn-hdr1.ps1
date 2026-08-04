@@ -1,17 +1,4 @@
-﻿# Converted from: DN!-HDR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0297/raw/DN!-HDR1.ANS
-# Source Revision: archive-sha256:2e15cb2f2712a143323c9f3c6ecca94c5b5b12a452a019e911d205dd685c6eee
-# Source SHA-256: cf2bd638ac130dc7d9ec55e7fe6527d3f0a313720976e237633a7e8555251eb5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DN!-HDR1.ANS by dreadnought (pHaT studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dreadnoughtic header
-# SAUCE Author: dreadnought
-# SAUCE Group: pHaT studios '97
-# SAUCE Dimensions: 80x25
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: dreadnoughtic header by dreadnought | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0297-dn-hdr1
 
 Write-Host '
 [1;30m▓▓█▓███[0;1;30;47m▒░[0;1;30;40m░▓▓█████████[0;1;30;47m▓[0;1;30;40m▓▀░░[0m▀ [1;30m▓██████▓█░[0;1;30;47m▓[0;1;30;40m████▄░[0;1;30;47m▓▓▓[0;1;30;40m▓████▄▓▀░▀░[0;1;30;47m▓[0;1;30;40m▓▓████[0;1;30;47m▓[0;1;30;40m▄ [0m  ▄[1;30m▄▄▄▄█[0m [1;30m▀█[0m

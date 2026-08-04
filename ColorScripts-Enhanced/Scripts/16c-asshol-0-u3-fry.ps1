@@ -1,13 +1,4 @@
-﻿# Converted from: U3-FRY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/asshol-0/raw/U3-FRY.ANS
-# Source Revision: archive-sha256:e1ef34d839551b8dbf250f2cd801253e9605ddc8d53b358d1401c5bfc5e8fdba
-# Source SHA-256: 581862b791518a647d1d35a013699b6ffef59d274171dfa22be5e05b1b4c7c09
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: U3-FRY.ANS by Unseen Fate (asshol-0); released in asshol-0 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: U3-FRY.ANS by Unseen Fate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-asshol-0-u3-fry
 
 Write-Host '
 [35m█[0;1;35;45m▄▄▄▄▄[0;35m█[0;1;30m▓▀[0m [34m▓▓███████████████████[0;1;36;44m▄▄▄▄▄[0;34m█[0;1;30;44m█[0m [35m▀█[0;1;35;45m▀▀▀▀▀▀▀▀█▓▓░[0;35m██[0;1;30m▓▀    [0;35m [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: WY-ICE2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9701a/raw/WY-ICE2.ICE
-# Source Revision: archive-sha256:2b4740d08283c009b0da564f58adfe176d60e60708d85f690f875edfd33d46e1
-# Source SHA-256: 0663b7751681e6d6be44bb8ca0b1de02198dc4010c8d58e547422faef7b5fe30
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WY-ICE2.ICE by Wyvern (ice9701a); released in ice9701a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: WY-ICE2.ICE by Wyvern | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9701a-wy-ice2
 
 Write-Host '
   [35m  ▄▄[0;1;35;45m▄▄ ▄░░[0;35m██▄▄ [0m

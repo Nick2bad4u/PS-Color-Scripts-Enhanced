@@ -1,19 +1,4 @@
-﻿# Converted from: US-FLASHPARTY-PUZZLE_CUBE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1023/raw/US-FLASHPARTY-PUZZLE_CUBE.ANS
-# Source Revision: archive-sha256:85986912ea2464623a6cb0e6c05b9b87ede10865c5aaf338ceaa9a86cac2b00a
-# Source SHA-256: bdcee255df5b90d836817ae5b370278b6b58a5ed903adcbfa2cecf0c82dbc418
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FLASHPARTY-PUZZLE_CUBE.ANS by Polyducks + El Hombre Lombre (Mistigris); released in mist1023 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Puzzle Cube
-# SAUCE Author: PDX / El Hombre Ombr
-# SAUCE Group: Mistigris
-# SAUCE Date: 20231026
-# SAUCE Dimensions: 80x90
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Puzzle Cube by Polyducks + El Hombre Lombre | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1023-us-flashparty-puzzle-cube-part01
 
 Write-Host '
 [1;33;44m Polyducks [PDX] &        [0;1;34;44m░░░▒▒▒░▒░░░░░░░[0;34m██[0;1;34;44m░░░[0;34m████████[0;1;34;44m░▒▓▒░░░:.[0;34m█████[0;1;34;44m █[0;30;44m░[0;1;34;44m░[0;34m███[0;1;34;44m.[0;34m████[0m

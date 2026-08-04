@@ -1,13 +1,4 @@
-﻿# Converted from: ARG-PANT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense07/raw/ARG-PANT.ANS
-# Source Revision: archive-sha256:bee7f118bb6315a9d497ecd226e485abc5e73e41d8cf666fe91e2b03665a3b3e
-# Source SHA-256: 9b996cfc8661e91eeafb3b21d91fb79c027a0f385a4c83db3c2f5154c5795c7d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARG-PANT.ANS by Argyle (sense07); released in sense07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: ARG-PANT.ANS by Argyle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense07-arg-pant
 
 Write-Host '
 [31m███████████▄[0m      [31m█████[0m     [31m████[0;37m  [0;31m████[0;37m [0;31m█████████[0;37m [0;31m███████ ███████▄[0m      [31m█████[0m

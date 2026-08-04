@@ -1,18 +1,4 @@
-﻿# Converted from: YA-SPART.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nland-03/raw/YA-SPART.ANS
-# Source Revision: archive-sha256:7ddb21e455f18ac13bd1d0242ad29db8419e3ff5847d9aa5ea635b533172de76
-# Source SHA-256: 072eec210b34c5472de748bc55d9ab1e7dfce732ef1d03125f516286afd1b0e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: YA-SPART.ANS by Yasop (NeveRLanD); released in nland-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Street Party BBS
-# SAUCE Author: Yasop
-# SAUCE Group: NeveRLanD
-# SAUCE Date: 19960111
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Street Party BBS by Yasop | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nland-03-ya-spart
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: D1-HYS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-21/raw/D1-HYS2.ANS
-# Source Revision: archive-sha256:d980c3e2187ff0ef4bb9edce960381dc01c8374df0b01b4ddb8d104484f4b936
-# Source SHA-256: aa19a398f4a048f430169b98f988d82c822ee30f087f3eee0216704f0483b8d0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D1-HYS2.ANS by Dissonance (AWE Lettering); released in awe-21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Hysteria
-# SAUCE Author: Dissonance
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19990112
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Hysteria by Dissonance | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-21-d1-hys2
 
 Write-Host '
                          [1;30m     [0m                                [1m■[0m  [1m [0m

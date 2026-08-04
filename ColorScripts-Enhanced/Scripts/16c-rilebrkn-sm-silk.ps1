@@ -1,18 +1,4 @@
-﻿# Converted from: SM-SILK!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rilebrkn/raw/SM-SILK!.ANS
-# Source Revision: archive-sha256:631709d46940d5f633b8ebca426a515d51357cee4cca25bed435a2a8fbf53a10
-# Source SHA-256: 7feb3108f7d2aeaeec04423143d62da6894d06d2f926c6eeddfda4e12bc77ab1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-SILK!.ANS by sammael (art); released in rilebrkn and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: silk
-# SAUCE Author: sammael
-# SAUCE Group: art
-# SAUCE Date: 19970421
-# SAUCE Dimensions: 80x12
-# Lines: 1-12
-# Columns: 1-80
+﻿# Artwork: silk by sammael | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rilebrkn-sm-silk
 
 Write-Host '
 

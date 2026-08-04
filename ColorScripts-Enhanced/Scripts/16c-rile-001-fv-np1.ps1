@@ -1,18 +1,4 @@
-﻿# Converted from: FV-NP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile_001/raw/FV-NP1.ANS
-# Source Revision: archive-sha256:f7a8644489c1d011b91477b5b1eab40d9f39b077b89f158a7a0c3d1c032c6d81
-# Source SHA-256: cef54aba77943fe3c212156095a97c4bd5987720d4a126b3cd07ad906fb647bc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-NP1.ANS by fever (RILE); released in rile_001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: neon pizza
-# SAUCE Author: fever
-# SAUCE Group: RILE
-# SAUCE Date: 19970122
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: neon pizza by fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile-001-fv-np1
 
 Write-Host '
    [32m░░[0;30;42m▀█▀▀▀▀▀[0;30;47m█[0;30;42m▀▀▀▀▀▀▀▀▀[0m

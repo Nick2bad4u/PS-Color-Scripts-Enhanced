@@ -1,18 +1,4 @@
-﻿# Converted from: ob_shoulder_gaze.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-globalblockdown/raw/ob_shoulder_gaze.ans
-# Source Revision: archive-sha256:72def6914c400cf448198b2a3876b5414476d859652144a1c3db260cf8838ba8
-# Source SHA-256: 8838171624cb2c09e633400dbb57f5b76d0e42530a43b02fd3e4e0885070a2a4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ob_shoulder_gaze.ans by ober (67); released in blocktronics-globalblockdown and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: ober
-# SAUCE Group: 67
-# SAUCE Date: 20200417
-# SAUCE Dimensions: 80x53
-# SAUCE Font: IBM VGA
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: ob_shoulder_gaze.ans by ober | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-globalblockdown-ob-shoulder-gaze-part01
 
 Write-Host '
 [46m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m

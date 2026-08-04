@@ -1,18 +1,4 @@
-﻿# Converted from: AV-DRIVN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drv-0595/raw/AV-DRIVN.ANS
-# Source Revision: archive-sha256:ab2903da2c95149760a6d9230201e2017a141769235eee49a007790b51e1be73
-# Source SHA-256: 2b262ff01800374d6b0a8cc16cfbedd7c6e048be42ee9dc5f300f69d63a546b6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AV-DRIVN.ANS by Aventari (Driven/Punk); released in drv-0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Driven Ansi
-# SAUCE Author: Aventari
-# SAUCE Group: Driven/Punk
-# SAUCE Date: 19950330
-# SAUCE Dimensions: 80x25
-# Lines: 86-135
-# Columns: 1-80
+﻿# Artwork: Driven Ansi by Aventari | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drv-0595-av-drivn-part03
 
 Write-Host '
                                  [1;31m█▐[0;1;31;41m░[0;1;31;40m  ▌[0m        [36m████ █████████▓█[0m

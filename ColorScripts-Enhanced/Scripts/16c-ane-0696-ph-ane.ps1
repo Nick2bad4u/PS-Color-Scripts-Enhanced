@@ -1,18 +1,4 @@
-﻿# Converted from: PH-ANE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ane-0696/raw/PH-ANE.ANS
-# Source Revision: archive-sha256:d749d6dfb1aa7099bfe8de2fa9928647cd0fee95bf1e9f28d13d3a4e290eafb8
-# Source SHA-256: 2bd51a80349c20eb2cde321fd8c6c4f27b21bd738bc97a14c8651658d420a6ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PH-ANE.ANS by Psychoholic (.;:Anemia:;.); released in ane-0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Anemia Promotional
-# SAUCE Author: Psychoholic
-# SAUCE Group: .;:Anemia:;.
-# SAUCE Date: 19960424
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Anemia Promotional by Psychoholic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ane-0696-ph-ane
 
 Write-Host '
 

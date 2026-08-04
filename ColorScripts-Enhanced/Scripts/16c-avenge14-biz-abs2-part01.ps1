@@ -1,18 +1,4 @@
-﻿# Converted from: BIZ-ABS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge14/raw/BIZ-ABS2.ANS
-# Source Revision: archive-sha256:b0e749d5e6297574610409aa68f6dd9e8c54af434247cd2b743b8d1e2d2406d7
-# Source SHA-256: 89d89e76929693ca0c2e6cf6c34cb177e416ffcbe9fb06c9f7b8f64e52d58beb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BIZ-ABS2.ANS by Bizzarro (The AvengeCult); released in avenge14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ABS2
-# SAUCE Author: Bizzarro
-# SAUCE Group: The AvengeCult
-# SAUCE Date: 19990228
-# SAUCE Dimensions: 80x58
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ABS2 by Bizzarro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge14-biz-abs2-part01
 
 Write-Host '
 

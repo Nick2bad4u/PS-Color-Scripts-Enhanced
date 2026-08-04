@@ -1,17 +1,4 @@
-﻿# Converted from: SW-NITRO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph1097/raw/SW-NITRO.ANS
-# Source Revision: archive-sha256:b6e257eb8371584ca5ade8b8a0fc4c2ec6d13bf6072ac7a83b43c3c01e88e287
-# Source SHA-256: a3b2093f47c9a186b2149f4945c4b781e7f4bb72aaa87e1982b40edecdd3bb08
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SW-NITRO.ANS by SandWorM (NitROpHuSiON); released in nph1097 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: .% NiTROpHUSiON LogO %.
-# SAUCE Author: SandWorM
-# SAUCE Group: NitROpHuSiON
-# SAUCE Dimensions: 80x25
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: .% NiTROpHUSiON LogO %. by SandWorM | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph1097-sw-nitro
 
 Write-Host '
 [1;30m ▄▀▀ [0;1;37m▐[0m [1;30m▀▀[0m  [1;30m▀[0m  [1;30m  [0m

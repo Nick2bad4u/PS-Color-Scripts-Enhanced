@@ -1,13 +1,4 @@
-﻿# Converted from: VC-MOON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bm-pack1/raw/VC-MOON.ANS
-# Source Revision: archive-sha256:6417ad69f63736f283b8569dd1c311da9ee98ffc12abadc304eb692f019b7776
-# Source SHA-256: 63fb0ea211551f0ec7e0fa4f6ef95ae318750cc99c2f8c598bdbe9e1d74fe58c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VC-MOON.ANS by Voice (bm-pack1); released in bm-pack1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 50-99
-# Columns: 1-80
+﻿# Artwork: VC-MOON.ANS by Voice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bm-pack1-vc-moon-part02
 
 Write-Host '
                                              [34m░▒▓▓▒░[0m

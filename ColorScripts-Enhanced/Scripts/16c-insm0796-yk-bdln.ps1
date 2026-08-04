@@ -1,18 +1,4 @@
-﻿# Converted from: YK`BDLN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/insm0796/raw/YK%60BDLN.ANS
-# Source Revision: archive-sha256:e3aef34bb564b08d1904f6f1567e1b9514c63c703fa2cbc5b50e7bd5188984fa
-# Source SHA-256: 3d949a65c05b7cbec3d8e4d89e102eb0d26c756351ba0cf6e9bd46e66b541551
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: YK`BDLN.ANS by YaNKeE (insomnia); released in insm0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: BoRDeR LiNe
-# SAUCE Author: YaNKeE
-# SAUCE Group: insomnia
-# SAUCE Date: 19960701
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: BoRDeR LiNe by YaNKeE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-insm0796-yk-bdln
 
 Write-Host '
                           [34m  [0m                         [32m [0;1;32m▄▄▄▄▄[0;32m▄▄▄▄[0m

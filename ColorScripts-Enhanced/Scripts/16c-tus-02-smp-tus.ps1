@@ -1,18 +1,4 @@
-﻿# Converted from: SMP-TUS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tus-02/raw/SMP-TUS.ANS
-# Source Revision: archive-sha256:1847ccf8f73b78fd290bcfae71e9f3879e98988c4912942d1ab6ff427e924c10
-# Source SHA-256: 784e748ba0ab42084450a74276ec6f09e2f8ed8735439f66bcbef6a8fe90311e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-TUS.ANS by Shrimp (Foliage); released in tus-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Blur
-# SAUCE Author: Shrimp
-# SAUCE Group: Foliage
-# SAUCE Date: 20010910
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Blur by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tus-02-smp-tus
 
 Write-Host '
 [36m[0m                                                  [37m_.,▬┌∟aa∟┐▬,._ [0m

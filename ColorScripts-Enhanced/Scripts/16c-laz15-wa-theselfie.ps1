@@ -1,20 +1,4 @@
-﻿# Converted from: wa-theselfie.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz15/raw/wa-theselfie.ans
-# Source Revision: archive-sha256:d35f5b18ac3e8cbe3d6d17eab809a7e050609a8e3cc7d160d14a87c59a191c12
-# Source SHA-256: f8f59b6963e226e942606df63f48059b2aae08571468e4ec4968167fed79aeab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-theselfie.ans by warpus (LAZARUS); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Selfie
-# SAUCE Author: warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20220624
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# SAUCE Comments: My best ever drawing of AVG
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: The Selfie by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz15-wa-theselfie
 
 Write-Host '
 [1;30m█[0;1;30;42m▓▓[0;1;30;46m▓▓▓▒▒▒░░░░░░[0;36m▄▄▀▀[0;1;30;46m                     ░░░░░░░░░░░░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓[0m

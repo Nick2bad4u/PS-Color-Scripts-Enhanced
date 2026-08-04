@@ -1,18 +1,4 @@
-﻿# Converted from: TC-HOLE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/legend01/raw/TC-HOLE.ANS
-# Source Revision: archive-sha256:c16596ccc1998cdb5411a048e84f89a3c6fef84f98dc2ac6ceb2de7e2933a7f8
-# Source SHA-256: 609fa26ea4033aab8d629c3680b2ab9b8591d283f038f423f1e50a25bb8a21b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TC-HOLE.ANS by The Clone (Legend); released in legend01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Hole
-# SAUCE Author: The Clone
-# SAUCE Group: Legend
-# SAUCE Date: 19950714
-# SAUCE Dimensions: 80x25
-# Lines: 73-109
-# Columns: 1-80
+﻿# Artwork: Hole by The Clone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-legend01-tc-hole-part03
 
 Write-Host '
                      ███[1;47m░[0m▌[1m▐█[0;1;47m▓▓[0;1;40m▀[0;1;47m▌[0m█ [1;47m▓▒▒░░[0m█[1;47m░[0m [1m▐[0;1;47m▓▒▒██[0m▀[1;30;47m▓[0;1;30;40m▒▄ [0;1;30;47m▓[0;1;30;40m▓▒▄▀▀[0m

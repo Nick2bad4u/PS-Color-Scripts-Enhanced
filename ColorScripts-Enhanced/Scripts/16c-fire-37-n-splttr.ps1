@@ -1,19 +1,4 @@
-﻿# Converted from: N-SPLTTR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-37/raw/N-SPLTTR.ANS
-# Source Revision: archive-sha256:42913eb56742cc8575f96af5b8a027e63b5172fdb84271b8ac973c7820ea43ef
-# Source SHA-256: 7f383f0254954de9bb4d82f0111751fe7840707c41883f991e03fbec48d61f60
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-SPLTTR.ANS by nail (fire); released in fire-37 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 666, grab a crucifix
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 20230707
-# SAUCE Dimensions: 80x23
-# SAUCE Font: IBM VGA
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: 666, grab a crucifix by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-37-n-splttr
 
 Write-Host '
                        [38;2;171;87;0;48;2;0;0;0m▀▓▓▄▄[0m

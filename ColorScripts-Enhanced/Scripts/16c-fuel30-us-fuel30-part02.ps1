@@ -1,19 +1,4 @@
-﻿# Converted from: us-fuel30.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel30/raw/us-fuel30.ans
-# Source Revision: archive-sha256:e3148e82a669aa484baf0738069fbabe44ba2824856e1cb4b05875b86bdd4621
-# Source SHA-256: a9ffc5184691c6c1e4761bbfbca9dff8f3cb84f4e8831ddb71cdd9a8cdcc5807
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-fuel30.ans by Warpus + Quip (Fuel); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fuel #30
-# SAUCE Author: Warpus & Quip
-# SAUCE Group: Fuel
-# SAUCE Date: 20190713
-# SAUCE Dimensions: 80x144
-# SAUCE Font: IBM VGA
-# Lines: 48-96
-# Columns: 1-80
+﻿# Artwork: Fuel #30 by Warpus + Quip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel30-us-fuel30-part02
 
 Write-Host '
 [1;30m [0;30m██████████████████[0;1;30m  █[0m     [30m█[0;37m [0;30m█[0;1;30m▐[0;34m░[0;37m   [0;30m██[0;1;30m▄[0;34m██[0;1;34;44m ▓[0;34m   [0;1;30m▄█[0;34m▓[0;30m█[0;1;30m▄[0;30m█[0;37m [0;30m█[0;37m   [0;30m█[0;37m░  [0;1;30m▐▄█[0;1;30;47m██[0;1;30;40m▀[0m      [1;32;42m▒[0;1;30;42m░[0m

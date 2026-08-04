@@ -1,18 +1,4 @@
-﻿# Converted from: PYX-PUKE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0197/raw/PYX-PUKE.ANS
-# Source Revision: archive-sha256:331ffa2c0b41c075aec836339cfb4b33b33b171a17da17bd721952cf3966c823
-# Source SHA-256: c25e2dc2d414a75993ac60c13636f49d0a493f90c69530c510756d420da68442
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-PUKE.ANS by Pyx (Bamoosh); released in bmb-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Puke!
-# SAUCE Author: Pyx
-# SAUCE Group: Bamoosh
-# SAUCE Date: 19961214
-# SAUCE Dimensions: 80x63
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Puke! by Pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0197-pyx-puke-part01
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: SN!FRANK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak8/raw/SN!FRANK.ANS
-# Source Revision: archive-sha256:ced165506b655ee7f3831f87db1b8e3be54d70977e70581005d4ce6480dd88ea
-# Source SHA-256: 940e2479fbe8f2154e0644929e0d6b39304f0704b26b61529409ce91de0fbf52
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SN!FRANK.ANS by S s s nowball (Ecolove); released in ecl-pak8 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Dr. Frankenstein..woehaha
-# SAUCE Author: S s s nowball
-# SAUCE Group: Ecolove
-# SAUCE Date: 19980725
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Dr. Frankenstein..woehaha by S s s nowball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak8-sn-frank
 
 Write-Host '
 [36m▄▄▄▄▄[0m      [37m▄▄[0;1;30m▄▄[0m  [1;30m▄[0m                                        [34m▄▄████▄▄[0m

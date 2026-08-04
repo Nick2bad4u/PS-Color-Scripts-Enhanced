@@ -1,13 +1,4 @@
-﻿# Converted from: sp-jasp2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper08/raw/sp-jasp2.ans
-# Source Revision: archive-sha256:4170bc28a3d93b55b5d7813a9078fa917029de207cfcf794080d34d8f6ddd97e
-# Source SHA-256: 4dbb788f93a6da0164658bfe427808f3a9b748dca726d4b2f63defe58a635765
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sp-jasp2.ans by Spear (jasper08); released in jasper08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: sp-jasp2.ans by Spear | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper08-sp-jasp2
 
 Write-Host '
 

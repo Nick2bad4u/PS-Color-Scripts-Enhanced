@@ -1,18 +1,4 @@
-﻿# Converted from: P-CRC2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe02/raw/P-CRC2.ANS
-# Source Revision: archive-sha256:ce5cd736ecea3fcfef2c1df40ab4bdd995f6b633f97f1788244355f98c5d174e
-# Source SHA-256: 1316c724758515132efb6b5267e44d4776308e8b80fd727e53e281359b0b3470
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P-CRC2.ANS by pop-a (circe); released in circe02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: circe logo #2
-# SAUCE Author: pop-a
-# SAUCE Group: circe
-# SAUCE Date: 19971203
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: circe logo #2 by pop-a | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe02-p-crc2
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: SS-FB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9404/raw/SS-FB.ANS
-# Source Revision: archive-sha256:b5a6447140be0f2d0704586db4931f253a9b769ec22a9e738e72404b4d84b4df
-# Source SHA-256: 77aff52289926c0b22f224b009eca1f603ae02453b90534a98ade7bfa064be36
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SS-FB.ANS by Soul Seeker (blde9404); released in blde9404 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 122-151
-# Columns: 1-80
+﻿# Artwork: SS-FB.ANS by Soul Seeker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9404-ss-fb-part04
 
 Write-Host '
 [33m [0;1;33m▄[0;1;33;43m░░░░░░░░▒▒▒▒▒▒▒[0;1;33;40m▄   ▄[0;1;33;43m░░░░░░▒▒▒▒▒▒▒▒▒[0;1;33;40m▄   ▄[0;1;33;43m░░░░░░▒▒▒▒▒▒▒▒▒[0;1;33;40m▄   ▄[0;1;33;43m░░░░░░░░▒▒▒▒▒▒▒[0;1;33;40m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: ZM-SEA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise06/raw/ZM-SEA.ANS
-# Source Revision: archive-sha256:62459159460ab7090ce349ed14c61a1bc8d3aa5785e22124741220f6b82d2ab8
-# Source SHA-256: df291c869eb7a04b20429df376cf9a4be5ea701b0fa214732ed293fd0e6d77d8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZM-SEA.ANS by zatchmo (uprise); released in uprise06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: sea
-# SAUCE Author: zatchmo
-# SAUCE Group: uprise
-# SAUCE Date: 19980722
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: sea by zatchmo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise06-zm-sea
 
 Write-Host '
             [34m  ▄▄▄▄▄▄▄[0;35m [0;34m▀[0m   [34m▀[0m      [34m▀[0m

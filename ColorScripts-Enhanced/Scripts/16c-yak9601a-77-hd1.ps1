@@ -1,18 +1,4 @@
-﻿# Converted from: 77-HD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/yak9601a/raw/77-HD1.ANS
-# Source Revision: archive-sha256:0ef47e6c5957fc02130eec9688203a874e59abb766f403c5192fe56bd23b5e1f
-# Source SHA-256: eb806658d6f91f85c34184b18ef2d0bb979e49d1e617794f32246b7df52f162f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 77-HD1.ANS by agent#77 (yak); released in yak9601a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hazardless destrction
-# SAUCE Author: agent#77
-# SAUCE Group: yak
-# SAUCE Date: 19950901
-# SAUCE Dimensions: 80x49
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: hazardless destrction by agent#77 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-yak9601a-77-hd1
 
 Write-Host '
 [1;31m[0m[1;35m[0;1;30m[0;1;31m[0;1;30m[0;35m[0m[1;35m[0m [1;31m [0m▄[1;31m▄▄██████████████████████████████████████████████████████████████████████[0;1;37m▄[0;1;31m▄▄ [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-TP6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0197/raw/IZ-TP6.ANS
-# Source Revision: archive-sha256:db16ecaf9a5ba2dcf16f11149d4e3768d3e19930159af1ef0ef2625ea12b3e30
-# Source SHA-256: 2ca5bbf2ddf70cdf3bfbde7fddf465f69f09b88080973ca5797c2bc4059db7d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-TP6.ANS by ize (fusion); released in fsn-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The party VI
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19970102
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: The party VI by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0197-iz-tp6
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: SMP-LURE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0402/raw/SMP-LURE.ANS
-# Source Revision: archive-sha256:19898cc2febb6deadccf50832dc421b4f362a33c899e27278bafd225bbc2d4d4
-# Source SHA-256: 137e3eb09fe2a199997ab4229aded31f8d8a146080611d389f0cf96c670d964a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-LURE.ANS by Shrimp (Revival); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Lure
-# SAUCE Author: Shrimp
-# SAUCE Group: Revival
-# SAUCE Date: 20020407
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Lure by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0402-smp-lure
 
 Write-Host '
 [1;47m▓░[0m▀▀  ▀[1;47m▀█▓░[0m▌▀█▀   [36m▄▄▀ [0;37m  ▀[0;1;37;47m ░[0m█  ░[30;47m▓[0m     [30;47m▓▓[0m     [37;40m▀▀█[0;1;37;47m▀▄[0m▄▀▀▀█[1;47m▄▌[0m     ▄▐▀  ▀▀[1;47m▀[0m▀  [1;47m■[0m▀ ▀   [1;37;47m░[0m

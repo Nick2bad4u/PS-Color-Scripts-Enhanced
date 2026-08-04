@@ -1,13 +1,4 @@
-﻿# Converted from: JY_BOB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bgs_num1/raw/JY_BOB.ANS
-# Source Revision: archive-sha256:e0f00bf907dd5be4b375ace59bb594eecd3ca210e7121710e2a68853cfcf6d12
-# Source SHA-256: b4430027a8542b2d55849888ff7066f55b753258c7af546eccb05fa927df2c30
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JY_BOB.ANS by Joy (bgs_num1); released in bgs_num1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: JY_BOB.ANS by Joy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bgs-num1-jy-bob
 
 Write-Host '
 [1m                                       [0m  [1m▄▀[0m▀ [1;34m▄▄▓▀[0m [33m▄▀[0;1;31;43m▒[0;1;31;40m██[0;1;31;43m▓[0;1;31;40m▄[0;1;34;40m▀[0;1;31;40m▄▄▀▄█▓▄[0;1;31;43m█[0;1;31;40m██[0;1;31;43m▓▀▀[0;33m▀[0;1;31m ▄█[0;1;31;43m▀▀▒[0;1;31;40m▄ [0m

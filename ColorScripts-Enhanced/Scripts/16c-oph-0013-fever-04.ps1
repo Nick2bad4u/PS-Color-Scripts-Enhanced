@@ -1,18 +1,4 @@
-﻿# Converted from: FEVER-04.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oph-0013/raw/FEVER-04.ANS
-# Source Revision: archive-sha256:5e625c36cc911c4dcde4a3790624d86c03458fb68ba127d178ce0ea486babf74
-# Source SHA-256: 98194da9b20527fe780aee9ef2ec8e8488074986b0f5d72e05026e98d758f357
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FEVER-04.ANS by fever (ophidiac); released in oph-0013 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: \2_        00 \\\ _2_
-# SAUCE Author: fever
-# SAUCE Group: ophidiac
-# SAUCE Date: 19960816
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: \2_ 00 \\\ _2_ by fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oph-0013-fever-04
 
 Write-Host '
                                                [30;42m▀▀[0;37;40m [0;30;42m▌▐[0;37;40m [0;30;42m▌▐[0;37;40m [0;30;42m█[0m

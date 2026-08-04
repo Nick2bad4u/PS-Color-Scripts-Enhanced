@@ -1,18 +1,4 @@
-﻿# Converted from: LO`LORE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/insm0796/raw/LO%60LORE.ANS
-# Source Revision: archive-sha256:e3aef34bb564b08d1904f6f1567e1b9514c63c703fa2cbc5b50e7bd5188984fa
-# Source SHA-256: 38428eaf0934e8f5b98e42e6d87e3de16ebaba5d8bf5b27a625bc417a1875a28
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LO`LORE.ANS by lord (mud); released in insm0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Lore E-Mag
-# SAUCE Author: lord
-# SAUCE Group: mud
-# SAUCE Date: 19960624
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Lore E-Mag by lord | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-insm0796-lo-lore
 
 Write-Host '
                                           [33m░[0m                [33m░[0m

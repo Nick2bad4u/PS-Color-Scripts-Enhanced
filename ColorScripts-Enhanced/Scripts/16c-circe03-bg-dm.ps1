@@ -1,18 +1,4 @@
-﻿# Converted from: BG-DM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe03/raw/BG-DM.ANS
-# Source Revision: raw-sha256:d20d1aaaf25a705a8b60b0bfeb74defe9793ee8054e397ffc602a0596834f7a7
-# Source SHA-256: d20d1aaaf25a705a8b60b0bfeb74defe9793ee8054e397ffc602a0596834f7a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BG-DM.ANS by Bergus (Circe Argentina); released in circe03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: "Depraved Minds"
-# SAUCE Author: Bergus
-# SAUCE Group: Circe Argentina
-# SAUCE Date: 19971213
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: "Depraved Minds" by Bergus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe03-bg-dm
 
 Write-Host '
                                   [33m▌[0m         [31m▐[0m          [37m [0m

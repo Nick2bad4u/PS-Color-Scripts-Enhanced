@@ -1,13 +1,4 @@
-﻿# Converted from: we-cougar.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_resvolution/raw/we-cougar.ans
-# Source Revision: archive-sha256:d0690af9ec91bf96f335196e9f9ddfb5d7ea02d97d300b53301bebaf58d83c35
-# Source SHA-256: 4d610fd40e9a0b0118277147c759112aa732db81a918cd5c93032e12fc235044
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-cougar.ans by Avenging Angel + Tombin (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 29-56
-# Columns: 1-80
+﻿# Artwork: we-cougar.ans by Avenging Angel + Tombin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-resvolution-we-cougar-part02
 
 Write-Host '
 [1;34m▓▓▓▓[0m [36m░[0;1;36m░░░[0;34m▀▀[0;37m   [0;34;45m▓▓▓▓[0;1;34;40m░[0m [1;36m░░░[0m [34m▒[0;34;45m░░░░█[0;34;40m▄[0;34;45m▀[0;34;40m█▒[0;1;36;40m░░[0m [34;45m░░░░█▓▓▓▓[0;37;40m  [0;34;40m▀▀▀▀[0;37;40m   [0;35;44m░░░░░[0;37;40m [0;1;36;40m▓▓[0;1;34;40m▒[0;35;44m░░[0;1;34;44m░[0;35;44m░░[0;1;34;44m░[0;35;44m░░[0;32;40m  [0;37;40m [0;35;44m░░░░░[0m

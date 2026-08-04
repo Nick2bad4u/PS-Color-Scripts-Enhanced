@@ -1,19 +1,4 @@
-﻿# Converted from: cd-medusa.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel27/raw/cd-medusa.ans
-# Source Revision: raw-sha256:727d7fff23365f03a8a1b513ce44053c91e26b943311ed91007dd7c540d6e5bb
-# Source SHA-256: 727d7fff23365f03a8a1b513ce44053c91e26b943311ed91007dd7c540d6e5bb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cd-medusa.ans by Who!? aka CD (FUeL); released in fuel27 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Medusa
-# SAUCE Author: Who!? aka CD
-# SAUCE Group: FUeL
-# SAUCE Date: 20180428
-# SAUCE Dimensions: 80x513
-# SAUCE Font: IBM VGA
-# Lines: 377-424
-# Columns: 1-80
+﻿# Artwork: Medusa by Who!? aka CD | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel27-cd-medusa-part09
 
 Write-Host '
                                   [1;30;47m█[0;32m▄[0m      [37m█[0m            [1;30m▓[0;1;30;47m█[0m [1;30;47m█[0m  [1;30;47m█[0m█     [1;30;47m▒[0m██[1;47m▄[0;1;40m█[0m [1;30;47m█[0m██

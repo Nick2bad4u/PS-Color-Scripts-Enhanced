@@ -1,13 +1,4 @@
-﻿# Converted from: HB-TECK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/esp0496/raw/HB-TECK.ANS
-# Source Revision: archive-sha256:dbe6c60d1047fff7d32d35a3252db30cf5150247db0d75ed0d6bb39660636de9
-# Source SHA-256: 462048f31f2ce01557f1f82e607ce3cebfe7b6943a59501e962f05f48246fbbe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HB-TECK.ANS by Hatebreed (esp0496); released in esp0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: HB-TECK.ANS by Hatebreed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-esp0496-hb-teck
 
 Write-Host '
        ▄▀▄▄▄              ▄▄▄▄▄     ▄▄▄▄▄▄     ▄▄▄                 ▄

@@ -1,18 +1,4 @@
-﻿# Converted from: US-ENTRO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel14/raw/US-ENTRO.ANS
-# Source Revision: archive-sha256:5ee61a0e94a8eed583658335c026a1a037023d44b54da693bbed2c0844c1a5d9
-# Source SHA-256: 0819aa4b7c5cc1acb1a495e04e4be5e30e0e0eb28d73f4ac26937a9b2c57567c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ENTRO.ANS by Elastic + Numb (fuel); released in fuel14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: entropy pic
-# SAUCE Author: multiple artists
-# SAUCE Group: fuel
-# SAUCE Date: 19970630
-# SAUCE Dimensions: 80x25
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: entropy pic by Elastic + Numb | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel14-us-entro
 
 Write-Host '
 

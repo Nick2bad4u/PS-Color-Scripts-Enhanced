@@ -1,18 +1,4 @@
-﻿# Converted from: IC-ALCAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vain0495/raw/IC-ALCAT.ANS
-# Source Revision: archive-sha256:1cc1157d9a40c1f786b3466fc6c703b67f85db52c6c211f1daae73b21bef6d62
-# Source SHA-256: 3cbd469e4f8b797fd6dfe7b584ad46ca345cbd42ed979bd6fe1ca0c699fa732a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IC-ALCAT.ANS by iNNER CHAOS (READ THE INI FILE); released in vain0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Alcatraz ad..
-# SAUCE Author: iNNER CHAOS
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950324
-# SAUCE Dimensions: 80x25
-# Lines: 28-52
-# Columns: 1-80
+﻿# Artwork: Alcatraz ad.. by iNNER CHAOS | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vain0495-ic-alcat-part02
 
 Write-Host '
 [34m███████▄▓  ▓████[0;1;34;44m▒[0;34m██████▓  ▀██████████[0m [1;33m███[0m [1;34;44miç[0;34m█[0m [1;33m███[0m [34m█[0;1;33m   [0m [34m████[0m [1;33m███[0m [34m████▀   ▓▀▀█████[0m

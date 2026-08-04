@@ -1,13 +1,4 @@
-﻿# Converted from: s1-tinm.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-43/raw/s1-tinm.ans
-# Source Revision: archive-sha256:e05594b3c5864602e3239dad7817570d6f038944639001eac29a3813c3cedabc
-# Source SHA-256: 0946f2cd110544c87da2aee43596bb3b416a1bc8cac78f35cb495fe75403d4dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: s1-tinm.ans by Sinseone (rmrs-43); released in rmrs-43 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: s1-tinm.ans by Sinseone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-43-s1-tinm
 
 Write-Host '
 [[1;35m [0;31m80x25[0;1;35m [0m] sinseone[1;35m [0;1;30m_[0;1;35m [0mrMRS [1;35m ☻ [0m [35m☻[0;1;35m [0m [31m☻[0;37m ------------------------------------------ ][0m

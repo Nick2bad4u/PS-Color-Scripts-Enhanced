@@ -1,18 +1,4 @@
-﻿# Converted from: 1999 - 18 - Joint - FEV-SYCO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tcf20/raw/1999%20-%2018%20-%20Joint%20-%20FEV-SYCO.ANS
-# Source Revision: archive-sha256:af8609219fccc484668fb405a7f1d45efb8c574501a461c5c1b47d87a12921ce
-# Source SHA-256: 469ae00fff05a4febef6c5d90521771522d9a576b8afa156ca41f608b713d9ae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 1999 - 18 - Joint - FEV-SYCO.ANS by fever (CIA); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: An Innocent Psychopath
-# SAUCE Author: fever
-# SAUCE Group: CIA
-# SAUCE Date: 19990102
-# SAUCE Dimensions: 80x54
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: An Innocent Psychopath by fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tcf20-1999-18-joint-fev-syco-part01
 
 Write-Host '
 [1;30m████████████████████████████████████████████████████████████████████████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: VE-INFO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dvl-pk01/raw/VE-INFO.ANS
-# Source Revision: archive-sha256:04659a71fad0b44fa33c1540ce482a88ef2d7d511aaf3612fdd59e5ae6746955
-# Source SHA-256: c02088d29c4df9ad484ae6989537b23f5b00d65b8f143c628aa6036b8dbfa696
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VE-INFO.ANS by VeNoMouS (DeViL FoRCeS); released in dvl-pk01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: iNF0 4 EveryPlace
-# SAUCE Author: VeNoMouS
-# SAUCE Group: DeViL FoRCeS
-# SAUCE Date: 19970310
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: iNF0 4 EveryPlace by VeNoMouS | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dvl-pk01-ve-info
 
 Write-Host '
 [33m,s#@S$¼½¼½¼½¼½¼½¼½¼½¼½¼½¼½¼½¼½¼½½¼½¼½¼½¼½¼½¼¼½¼¼¼¼½¼½½½¼¼½¼½¼½¼½¼½½¼¼½¼½¼½$S@#s,[0m

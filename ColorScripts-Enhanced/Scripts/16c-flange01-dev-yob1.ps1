@@ -1,18 +1,4 @@
-﻿# Converted from: dev-yob1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flange01/raw/dev-yob1.ans
-# Source Revision: archive-sha256:14aba7e5405b940f46aca460d899ba9dad4982ed94cb18dc30ab4dba5911d191
-# Source SHA-256: c1f293f4f989279dd395d9129298a69f55b22d604967ce080083ac8257a549cd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: dev-yob1.ans by dev (flange); released in flange01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: yobbo.man
-# SAUCE Author: dev
-# SAUCE Group: flange
-# SAUCE Date: 19971218
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: yobbo.man by dev | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flange01-dev-yob1
 
 Write-Host '
                                               [33m▄▄▓▓▓▓████[0;1;31;43m▒[0;33m█████████[0;1;30;43m░[0;33m█████[0;1;30;43m░▒▒▓▓▓▓[0m

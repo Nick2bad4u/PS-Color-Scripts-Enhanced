@@ -1,18 +1,4 @@
-﻿# Converted from: LD-FD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0594/raw/LD-FD.ANS
-# Source Revision: archive-sha256:c612ea4a59fec91943d878667a48e1c926e28a2e076d898f1c1ec92a14e6fce8
-# Source SHA-256: f49dbf9cd8cf60ae8c142cff779708b17009611de263f794aae1b8534ed60250
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-FD.ANS by Lord Jazz (ACiD Productions); released in acdu0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Final Destiny
-# SAUCE Author: Lord Jazz
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940430
-# SAUCE Dimensions: 80x603
-# Lines: 35-68
-# Columns: 1-80
+﻿# Artwork: Final Destiny by Lord Jazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0594-ld-fd-part02
 
 Write-Host '
 

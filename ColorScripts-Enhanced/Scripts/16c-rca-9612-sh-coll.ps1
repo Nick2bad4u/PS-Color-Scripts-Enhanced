@@ -1,17 +1,4 @@
-﻿# Converted from: SH-COLL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-9612/raw/SH-COLL.ANS
-# Source Revision: archive-sha256:a54ebacd3fdb04987b5350bc238a3952079afdae93f6242ba7ef6af6e3ac2ec9
-# Source SHA-256: e5b7d17ad464cb0f9019a9f608d8fa678fa8e4a04804ae5fc2a8e57854dda691
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SH-COLL.ANS by Shaft (rca-9612); released in rca-9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ansi Cluster
-# SAUCE Author: Shaft
-# SAUCE Date: 19961211
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: Ansi Cluster by Shaft | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-9612-sh-coll
 
 Write-Host '
 

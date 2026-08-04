@@ -1,18 +1,4 @@
-﻿# Converted from: GK-GAMMA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0896/raw/GK-GAMMA.ANS
-# Source Revision: archive-sha256:f9cf2b2d2bbd2b43295b2db0288f290749703458f413700d0129369379a58bf6
-# Source SHA-256: ecf953e7ecf284ec5e1285af6c81cc37c39bc08e85b52bbc1f230df05a0ff263
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GK-GAMMA.ANS by grind king (fire(96)); released in fire0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: spinal gamma
-# SAUCE Author: grind king
-# SAUCE Group: fire(96)
-# SAUCE Date: 19960813
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: spinal gamma by grind king | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0896-gk-gamma
 
 Write-Host '
 

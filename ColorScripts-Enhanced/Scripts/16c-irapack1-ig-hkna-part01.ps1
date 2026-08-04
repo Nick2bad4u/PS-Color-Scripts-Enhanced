@@ -1,13 +1,4 @@
-﻿# Converted from: IG-HKNA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/irapack1/raw/IG-HKNA.ANS
-# Source Revision: archive-sha256:96bc9993557d51cf44fc1b215ff7a2693ea395db6c6b4d982d551a24b93f90a1
-# Source SHA-256: 457228bbb4061d25607cf926ad249e5f8205caf8fbe85c5c1265d88b17872e39
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IG-HKNA.ANS by Iguana (irapack1); released in irapack1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: IG-HKNA.ANS by Iguana | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-irapack1-ig-hkna-part01
 
 Write-Host '
    [1;33m▄[0;1;33;43m▓▓▓[0;1;33;40m▄[0m     [1;33;40m▄[0;1;33;43m▓▓[0;1;33;40m▄[0m                                                     [1;33;40m▐[0;1;33;43m▓▓▓[0;1;33;40m▄[0m

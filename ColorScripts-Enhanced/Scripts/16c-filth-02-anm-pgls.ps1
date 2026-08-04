@@ -1,18 +1,4 @@
-﻿# Converted from: ANM-PGLS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/filth-02/raw/ANM-PGLS.ANS
-# Source Revision: archive-sha256:46b99aa483384d08c7e9024c193a186fa17d0f474da97a19dd27e922b3876973
-# Source SHA-256: 7618047e882ca2687591ff082a0acfffb2424d9124da77a644c33af65933343f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ANM-PGLS.ANS by anomite (scum); released in filth-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 10 last and page
-# SAUCE Author: anomite
-# SAUCE Group: scum
-# SAUCE Date: 19970621
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: 10 last and page by anomite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-filth-02-anm-pgls
 
 Write-Host '
 [35m ▄▄▄▄▄[0m           [34m▄▄[0;35m [0;34m▄[0;35m  [0;34m▄▄[0m    [34m▀[0;35m [0;34m▄▄▄▄▄[0m      [34m▄▄▄▄▄▄▀[0;35m [0;34m▄▄▄▄▄▄[0;35m [0;34m▀[0m    [34m▄[0;35m  [0;34m▄▄▄[0m

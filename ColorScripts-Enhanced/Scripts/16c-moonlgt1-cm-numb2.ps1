@@ -1,18 +1,4 @@
-﻿# Converted from: CM-NUMB2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moonlgt1/raw/CM-NUMB2.ANS
-# Source Revision: archive-sha256:9c3296d479bffdc90be8aa4a3f3118a85ae9456683674c3e67716221b3c262b5
-# Source SHA-256: d6e91b29d1daa07f2414fb820233a438513ebd83627886c1c0dea05336e870ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CM-NUMB2.ANS by cheeEZE monKEY (uhmm.. i fergit); released in moonlgt1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: comfterably numb (#2)
-# SAUCE Author: cheeEZE monKEY
-# SAUCE Group: uhmm.. i fergit
-# SAUCE Date: 19960818
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: comfterably numb (#2) by cheeEZE monKEY | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moonlgt1-cm-numb2
 
 Write-Host '
                                    [1;34m░[0m

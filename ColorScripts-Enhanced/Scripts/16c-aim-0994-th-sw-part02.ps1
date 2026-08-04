@@ -1,18 +1,4 @@
-﻿# Converted from: TH-SW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aim-0994/raw/TH-SW.ANS
-# Source Revision: archive-sha256:0d60e9ee8ba5f13944b63b30f49cb1d30bbbf43a3a5619c4684275efb56c4f7c
-# Source SHA-256: e4a12ecd6b6da2bb8a22b63f333c08a41aa14707382f408288dd818f0c8a40f8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH-SW.ANS by TH/LP (AiM); released in aim-0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Shadow World BBS ANSi
-# SAUCE Author: TH/LP
-# SAUCE Group: AiM
-# SAUCE Date: 19940920
-# SAUCE Dimensions: 80x174
-# Lines: 44-86
-# Columns: 1-80
+﻿# Artwork: Shadow World BBS ANSi by TH/LP | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aim-0994-th-sw-part02
 
 Write-Host '
 [34m▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;34;44m ░░░▒▒▓▓▓▓▒░[0;34m██▓▓▓▓▓█[0;1;34;44m░▒▓▓[0;1;34;40m██[0;1;34;44m▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒░░[0;34m██▓▓▓▓▓██[0;1;34;44m░▒▓[0;1;34;40m████[0;1;34;44m▓▒▒[0;34m█▓▓[0;37m [0m

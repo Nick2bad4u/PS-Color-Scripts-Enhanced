@@ -1,18 +1,4 @@
-﻿# Converted from: FT-TS_N.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0497/raw/FT-TS_N.ANS
-# Source Revision: archive-sha256:73d4445ab8a07d3fe160d256052163ed66b2081a0bebb59b18ae9b36e30223e0
-# Source SHA-256: a7b49663d524eb4f3ef7f3761d314fd6799e9748f76dcb8cd22374086201015a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FT-TS_N.ANS by Flight (Root); released in root0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 2 tS! newscan things
-# SAUCE Author: Flight
-# SAUCE Group: Root
-# SAUCE Date: 19970330
-# SAUCE Dimensions: 80x51
-# Lines: 27-51
-# Columns: 1-80
+﻿# Artwork: 2 tS! newscan things by Flight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0497-ft-ts-n-part02
 
 Write-Host '
 

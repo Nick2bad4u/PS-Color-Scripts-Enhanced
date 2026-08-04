@@ -1,19 +1,4 @@
-﻿# Converted from: wa-cossack-with-musket.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz15/raw/wa-cossack-with-musket.ans
-# Source Revision: archive-sha256:d35f5b18ac3e8cbe3d6d17eab809a7e050609a8e3cc7d160d14a87c59a191c12
-# Source SHA-256: 40007e33ecb113c163828f7c1a89011d250913b3c424eeaeabad2effd6f008db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-cossack-with-musket.ans by warpus (LAZARUS); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Cossack with musket
-# SAUCE Author: warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20220624
-# SAUCE Dimensions: 80x31
-# SAUCE Font: IBM VGA
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Cossack with musket by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz15-wa-cossack-with-musket
 
 Write-Host '
           [1;33m▄[0m                                                         [1;33m▄[0m  [1;33m▄[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: STI-UP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shao0798/raw/STI-UP.ANS
-# Source Revision: archive-sha256:a305297ecf3ccbbac0d7a6bb9b330bd14712e9e5ab5b2c38800bf3289c458ebd
-# Source SHA-256: dec940756db0bf8b83bd028108486ffe1107214dcf550eb88a572a923bb30411
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STI-UP.ANS by Stimpy (Shaolin's Finest); released in shao0798 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Uprise
-# SAUCE Author: Stimpy
-# SAUCE Group: Shaolin's Finest
-# SAUCE Dimensions: 80x40
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Uprise by Stimpy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shao0798-sti-up
 
 Write-Host '
                   [1m░[0m                                       [1m░[0m

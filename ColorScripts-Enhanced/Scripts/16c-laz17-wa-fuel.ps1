@@ -1,19 +1,4 @@
-﻿# Converted from: wa-fuel.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz17/raw/wa-fuel.ans
-# Source Revision: archive-sha256:2674245bad3e14fe6d4a935ba8daf9898a4426e394c56ca9710e3afa19d3d943
-# Source SHA-256: 22ec9563e0d980e9137b045d60e0ea803a5005914a4be8302b31bc1f7a9f2535
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-fuel.ans by warpus (LAZARUS); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: FUEL
-# SAUCE Author: warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20230702
-# SAUCE Dimensions: 80x19
-# SAUCE Font: IBM VGA
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: FUEL by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz17-wa-fuel
 
 Write-Host '
 [1;36m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;30;46mwa[0m

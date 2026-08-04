@@ -1,13 +1,4 @@
-﻿# Converted from: LIPS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansipics/raw/LIPS.ANS
-# Source Revision: raw-sha256:2c3ba93968e9bfdde78adc04defb795510425e52d982317e2a469eafdf611b52
-# Source SHA-256: 2c3ba93968e9bfdde78adc04defb795510425e52d982317e2a469eafdf611b52
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LIPS.ANS by Jrr (ansipics); released in ansipics and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: LIPS.ANS by Jrr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansipics-lips
 
 Write-Host '
 [30;45m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m

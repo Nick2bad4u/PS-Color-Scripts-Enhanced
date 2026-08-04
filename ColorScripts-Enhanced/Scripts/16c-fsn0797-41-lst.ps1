@@ -1,18 +1,4 @@
-﻿# Converted from: 41-LST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn0797/raw/41-LST.ANS
-# Source Revision: archive-sha256:fc1844bde3fb3bc448ff1373e91cb7237c6c2f8016c75eb605f0f71b6d1e80d5
-# Source SHA-256: 28054be04e2ec8e2b9065d056b1b80bf9f81341fa379eb5a911a772c5a0d2927
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 41-LST.ANS by Acidblood (fusion); released in fsn0797 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: last callers
-# SAUCE Author: Acidblood
-# SAUCE Group: fusion
-# SAUCE Date: 19970627
-# SAUCE Dimensions: 80x12
-# Lines: 1-12
-# Columns: 1-80
+﻿# Artwork: last callers by Acidblood | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn0797-41-lst
 
 Write-Host '
 [32m░[0;36m  [0;1;37m▄▄[0;36m▌ ░ [0;32m [0;36m [0;32m▐[0;36m  [0;32m▐[0;1;32m░[0;32m▄▐█▓░[0;36m  ▄[0;1;33m▓[0;36m▄  ░[0m         [1;36m░[0;36m  ▄[0;1;37m▄▄[0;1;36;46m▄▓░[0;36m  [0;32m░░[0;36m ░░[0m     [32m░▐▄▓░[0m

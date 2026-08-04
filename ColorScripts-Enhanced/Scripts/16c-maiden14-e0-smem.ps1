@@ -1,18 +1,4 @@
-﻿# Converted from: E0-SMEM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden14/raw/E0-SMEM.ANS
-# Source Revision: archive-sha256:8484fc17833e455250727f80fdc56cc19e17aec4fba2f82e3b86585a9e08cb6c
-# Source SHA-256: b5e0b8e978a531e6c118adaf4b7301d16ae02b856082b98c57a8884438c85ae7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: E0-SMEM.ANS by Enzo (Society 1997); released in maiden14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Society Memberlist
-# SAUCE Author: Enzo
-# SAUCE Group: Society 1997
-# SAUCE Date: 19971115
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Society Memberlist by Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden14-e0-smem
 
 Write-Host '
                                            [36m▀[0;1;36;46m▀[0;1;36;40m██[0;1;36;47m▀[0;1;37;40m███[0;1;36;40m██▌ [0m             [30;47m▓[0;1;37;47m▐[0;1;37;40m█[0;1;33;40m▓[0;1;37;40m  [0m [36m▀[0;37m [0;36m▀[0;1;36;46m▀█[0m

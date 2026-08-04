@@ -1,18 +1,4 @@
-﻿# Converted from: TN-PUMAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impact06/raw/TN-PUMAN.ANS
-# Source Revision: archive-sha256:ef18622c9c66dd847bb2cc457197b6f4440a43602cfe6adb3f0cc31807a0f445
-# Source SHA-256: 1ce4a71404e073225c3701fcd52a58e610ea2bf9e212e68cef31b5484a49f7ff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TN-PUMAN.ANS by toon} (iMPACT); released in impact06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ~pu.man~
-# SAUCE Author: toon}
-# SAUCE Group: iMPACT
-# SAUCE Date: 19970125
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: ~pu.man~ by toon} | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impact06-tn-puman
 
 Write-Host '
                                                  [31m     [0m

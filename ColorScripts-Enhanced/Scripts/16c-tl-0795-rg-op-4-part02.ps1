@@ -1,18 +1,4 @@
-﻿# Converted from: RG-OP#4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl-0795/raw/RG-OP%234.ANS
-# Source Revision: archive-sha256:cc100c6a0c273cd42e848ec70d170e2825a98efaeb84e152cf11a1a4f8abea10
-# Source SHA-256: e2297212f9a817c9d6b81741811a7b0d97c2c51a335d2f124bd50578d9875514
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RG-OP#4.ANS by Rimgale (teklordz); released in tl-0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Obscene Phobia #4
-# SAUCE Author: Rimgale
-# SAUCE Group: teklordz
-# SAUCE Date: 19950705
-# SAUCE Dimensions: 80x76
-# Lines: 42-76
-# Columns: 1-80
+﻿# Artwork: Obscene Phobia #4 by Rimgale | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl-0795-rg-op-4-part02
 
 Write-Host '
 [1;30m   ▓▄   ▀▓▌ [0m▀▓                                                       [1;30m▓[0;1;30;47m▓[0;1;30;40m█▓[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: us-xmasgreet.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-003/raw/us-xmasgreet.ans
-# Source Revision: archive-sha256:44a26aad0e8691f16e2777283660069b61e5916234397869961a696ba22e89f6
-# Source SHA-256: aa27202bd7b2c68f9ca94ab2f60bff0300117009a2f1b76957be7486cae74260
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-xmasgreet.ans by Maddog + Coaxcable (Legacy Krew); released in lgcy-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Xmas Greetings
-# SAUCE Author: CoaxCable and MadDog
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20210101
-# SAUCE Dimensions: 80x70
-# SAUCE Font: IBM VGA
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Xmas Greetings by Maddog + Coaxcable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-003-us-xmasgreet-part01
 
 Write-Host '
 [1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

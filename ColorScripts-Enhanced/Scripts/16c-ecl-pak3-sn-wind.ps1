@@ -1,18 +1,4 @@
-﻿# Converted from: SN!WIND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak3/raw/SN!WIND.ANS
-# Source Revision: archive-sha256:cde4af7e840865f437fedba26bbfb806e858a9b477c723c01bd9d080434c75bd
-# Source SHA-256: 77aaf83594d177d94378b86fe4755e84588795f039e953a583acac2bc44d686b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SN!WIND.ANS by Snowball (Ecolove); released in ecl-pak3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Login Matrix for Wind of Insanity
-# SAUCE Author: Snowball
-# SAUCE Group: Ecolove
-# SAUCE Date: 19980125
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Login Matrix for Wind of Insanity by Snowball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak3-sn-wind
 
 Write-Host '
     [1m  [0m

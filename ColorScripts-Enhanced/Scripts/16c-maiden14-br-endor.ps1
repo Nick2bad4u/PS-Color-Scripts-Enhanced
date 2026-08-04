@@ -1,18 +1,4 @@
-﻿# Converted from: BR-ENDOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden14/raw/BR-ENDOR.ANS
-# Source Revision: archive-sha256:8484fc17833e455250727f80fdc56cc19e17aec4fba2f82e3b86585a9e08cb6c
-# Source SHA-256: 9fb6316ab67923876302384500bee5f491938f0c32e8cc3fd25cac202d7b6984
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BR-ENDOR.ANS by beerfull (maiden); released in maiden14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Endor logo
-# SAUCE Author: beerfull
-# SAUCE Group: maiden
-# SAUCE Date: 19971202
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Endor logo by beerfull | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden14-br-endor
 
 Write-Host '
                            [36m [0m                            [35m [0m

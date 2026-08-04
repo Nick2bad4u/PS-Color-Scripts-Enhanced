@@ -1,18 +1,4 @@
-﻿# Converted from: US-SHROO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel10/raw/US-SHROO.ANS
-# Source Revision: archive-sha256:cf40594777c22d11e0e68ffce1787c226a780219ccff2425f211f05671148899
-# Source SHA-256: 9fb87355989030fee04adb3cf9860cc8e0da0289a1e89bd305155937272c735e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SHROO.ANS by Angel Of Hell + The Night Angel (Fuel); released in fuel10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: shroom
-# SAUCE Author: aoh tna
-# SAUCE Group: Fuel
-# SAUCE Date: 19970202
-# SAUCE Dimensions: 80x28
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: shroom by Angel Of Hell + The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel10-us-shroo
 
 Write-Host '
                 [1;34m■[0m                         [34m■[0m                [34m▄▄[0;1;34;44m░▒▓███[0;1;37;44m░[0;1;34;44m▄[0;1;34;40m▄[0;34m▄░[0m

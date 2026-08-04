@@ -1,13 +1,4 @@
-﻿# Converted from: PM-INIQ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot1097/raw/PM-INIQ.ANS
-# Source Revision: archive-sha256:b84c7734842a652de72debc7fc020ad913ff8d4d923b094dd49d00ce915470c8
-# Source SHA-256: eac7173e60ee548dc2501c2119961782652b820cff25295d711f9adfd0026776
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-INIQ.ANS by Precious Metal (riot1097); released in riot1097 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: PM-INIQ.ANS by Precious Metal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot1097-pm-iniq
 
 Write-Host '
       [34m▌[0m   [1;34m▄▄[0m [34m▐[0m     [1;34m▄[0m [34m▐[0m          [34m▌[0m             [1;34m▌[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: AB-FBB2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/df-0002/raw/AB-FBB2.ANS
-# Source Revision: archive-sha256:e44db76773a2405296a872965cababe7c2d393941afd0c283db330b845eeab02
-# Source SHA-256: 3e2e776f2751b279be9b3aa4e1c416d448cc1d25fd3aafb677fad92603ec09a9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AB-FBB2.ANS by Acid Brain (df-0002); released in df-0002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: AB-FBB2.ANS by Acid Brain | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-df-0002-ab-fbb2
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: S5-EVOL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-05/raw/S5-EVOL2.ANS
-# Source Revision: archive-sha256:00017ea77a556a0e8fa8903f908ba8848ddc89ac19675ccac8aee269ef1bbdb5
-# Source SHA-256: 5a5798ed3e70db7286b48d610f4c8c725f49cb35e4731e2391c01e6d20b84660
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S5-EVOL2.ANS by Suicidalsnowman (odium-05); released in odium-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: S5-EVOL2.ANS by Suicidalsnowman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-05-s5-evol2
 
 Write-Host '
                         ▄▄

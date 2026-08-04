@@ -1,13 +1,4 @@
-﻿# Converted from: XT-BOX1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot0897/raw/XT-BOX1.ANS
-# Source Revision: archive-sha256:2b8eaa17eb064959808a437b20477b0414e345f3edaa54962280cdc315093a9d
-# Source SHA-256: 42224c6ee5ca13a9db5dc5faaed3f34b7233701316d5c567338e828bc4177aaf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XT-BOX1.ANS by Exocet (riot0897); released in riot0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: XT-BOX1.ANS by Exocet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot0897-xt-box1
 
 Write-Host '
    [1;32;42m▀[0;32m█[0;37m      [0;1;32;42m▀[0;32m█[0m                           [1;32;42m▀[0;32m█[0m

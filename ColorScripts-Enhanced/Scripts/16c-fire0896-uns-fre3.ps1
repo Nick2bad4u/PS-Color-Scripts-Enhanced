@@ -1,18 +1,4 @@
-﻿# Converted from: UNS-FRE3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0896/raw/UNS-FRE3.ANS
-# Source Revision: archive-sha256:f9cf2b2d2bbd2b43295b2db0288f290749703458f413700d0129369379a58bf6
-# Source SHA-256: effc83fbfc94c0d5e7494fd17226530cc3a5f19e834d1a40d1265ee546c6d8a9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UNS-FRE3.ANS by Unsane (fire); released in fire0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Fire Promotional Logo
-# SAUCE Author: Unsane
-# SAUCE Group: fire
-# SAUCE Date: 19960715
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Fire Promotional Logo by Unsane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0896-uns-fre3
 
 Write-Host '
 

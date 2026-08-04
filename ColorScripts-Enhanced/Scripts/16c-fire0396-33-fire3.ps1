@@ -1,18 +1,4 @@
-﻿# Converted from: 33-FIRE3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0396/raw/33-FIRE3.ANS
-# Source Revision: archive-sha256:1c74698b6bb36c67ca170e4e3759a91f94a3423157bd644c80d820a8fe56fd8d
-# Source SHA-256: 09cbd2c309362449a9b627d1cdf6ca46680109ff018de0f138d8e2b52c132f0a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-FIRE3.ANS by Eerie-Kun (Fire); released in fire0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fire promotional - like we need 'em
-# SAUCE Author: Eerie-Kun
-# SAUCE Group: Fire
-# SAUCE Date: 19960117
-# SAUCE Dimensions: 80x25
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Fire promotional - like we need 'em by Eerie-Kun | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0396-33-fire3
 
 Write-Host '
 [1;5m[0m[1;31m[0m

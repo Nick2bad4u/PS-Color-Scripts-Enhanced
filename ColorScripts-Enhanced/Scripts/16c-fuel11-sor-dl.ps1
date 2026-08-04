@@ -1,18 +1,4 @@
-﻿# Converted from: SOR-DL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel11/raw/SOR-DL.ANS
-# Source Revision: archive-sha256:bc01376bbeb692c1fce16796b92a6fd889f89dbf4c55eb291719d5ea3fd5846c
-# Source SHA-256: abb2cffcf95ef1cfff720772de9f6b569e47b1e9033b15ed4d70acd400008138
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SOR-DL.ANS by Spirit of Rage (Fuel); released in fuel11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Deadlock
-# SAUCE Author: Spirit of Rage
-# SAUCE Group: Fuel
-# SAUCE Date: 19970222
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Deadlock by Spirit of Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel11-sor-dl
 
 Write-Host '
 [33m [0;37m  [0;33m░[0;37m [0;31m▄[0m   [30;41m▓[0;31;40m▀[0m    [31;40m  [0;37;40m [0;31;40m  [0;37;40m  [0;31;40m  [0;37;40m [0;31;40m░[0;30;41m▓[0m          [30;41m▓[0m            [1;30;40m ▀ [0m [1;30m░▒▀▐[0;1;30;46m▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m█[0;1;30;47m▓▓▓▒▒▓▓▓▓▒▒░▒▒▒░░[0;1;37;47m░[0m

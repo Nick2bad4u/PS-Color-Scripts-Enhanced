@@ -1,18 +1,4 @@
-﻿# Converted from: RL!-POWE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0596/raw/RL!-POWE.ANS
-# Source Revision: archive-sha256:06f164afecd2a38c1a107122cbc0c2c2d07c6484c9e867e2eecffd5f8b0065bf
-# Source SHA-256: d2902c3b9f01beee825c2e576fdfd2b6f174f6ba6ab5c48cad163d40cff93024
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL!-POWE.ANS by Rawlock (Opium); released in opx-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Flower Power
-# SAUCE Author: Rawlock
-# SAUCE Group: Opium
-# SAUCE Date: 19960502
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Flower Power by Rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0596-rl-powe
 
 Write-Host '
 [1m[0;1;32m[0;32m[0;1;32m[0;32m[0;1;32m[0;32m[0;1;32m[0;32m[0;1;32m[0;32m[0;1;32m[0;32m[0;1;32m[0;32m[0;1;32m[0;32m[0;1;32m[0;32m[0;1;32m[0;32m[0;1;32m[0;32m[0;37m[0;1;37m[0m[1;32m[0;32m[0m[37m [0;34m▄▄▄[0;1;34;44m░[0;34m▄▄▄▄▄[0;1;34;44m▀▓[0;34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄[0;1;34;44m░[0;34m▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄[0;1;34;44m▓[0;34m▄▄[0;1;34;44m░[0;34m▄▄▄▄▄▄[0m

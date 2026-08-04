@@ -1,17 +1,4 @@
-﻿# Converted from: XP!-CHMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/serial02/raw/XP!-CHMP.ANS
-# Source Revision: archive-sha256:931d9b67ca76383ace53d796c9cdf620b09c74be427676b9b3693778e13bc6c8
-# Source SHA-256: e5c8b770e96e77e82f64c3feb91b8c3e39b2ccfa1e46ec116d3c12f02838eaa7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XP!-CHMP.ANS by xenophobe (serial ascii); released in serial02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: xenophobe
-# SAUCE Group: serial ascii
-# SAUCE Date: 19970129
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: XP!-CHMP.ANS by xenophobe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-serial02-xp-chmp
 
 Write-Host '
                                 [32m   [0;1;32m_.,m±±[0;32m±±±±±±±±±±±mmmmmm,.  [0m

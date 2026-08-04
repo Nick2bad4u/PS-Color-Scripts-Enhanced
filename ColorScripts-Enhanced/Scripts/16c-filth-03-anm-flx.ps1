@@ -1,18 +1,4 @@
-﻿# Converted from: ANM-FLX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/filth-03/raw/ANM-FLX.ANS
-# Source Revision: archive-sha256:b6f2315cfad065f1991cb92404702b647137d4d70f2233c4b9c5e1e758c1cc15
-# Source SHA-256: becffb8275103f13b90ff4f49fea3e77733b88ed27eda658c390e660295a9bba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ANM-FLX.ANS by anOmite (filth); released in filth-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fLUX
-# SAUCE Author: anOmite
-# SAUCE Group: filth
-# SAUCE Date: 19970709
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: fLUX by anOmite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-filth-03-anm-flx
 
 Write-Host '
 [31m [0;1;31m▄[0;31m▄▄▌  [0;32m ▄▄▄▄▄▄██[0;30;42m░░[0;32;40m▄▄ [0;31;40m▄[0m   [32;40m    [0;1;30;40m▄▄▄▄[0m                    [32m       [0m            [1;30m▄▄▄[0m

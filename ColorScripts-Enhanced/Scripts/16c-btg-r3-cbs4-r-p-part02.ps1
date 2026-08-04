@@ -1,13 +1,4 @@
-﻿# Converted from: CBS4#R&P.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/btg-r3/raw/CBS4%23R%26P.ANS
-# Source Revision: raw-sha256:6275d310b887c6a564523984ad161ecb29ff92fa7dadd433ede271e57120daa7
-# Source SHA-256: 6275d310b887c6a564523984ad161ecb29ff92fa7dadd433ede271e57120daa7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CBS4#R&P.ANS by Rage (btg-r3); released in btg-r3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 40-78
-# Columns: 1-80
+﻿# Artwork: CBS4#R&P.ANS by Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-btg-r3-cbs4-r-p-part02
 
 Write-Host '
 [35m█▓█░░▒█▓ ▒░█[0;1;30;47m██▓▓▒▓▒░ [0m    [1;37;47m▒▒▒▓▓[0;1;37;40m███[0m       [1;37;40m███████████  ████████   ███████ [0;35m▒▒ ▓█ [0;1;33;43m▒░[0m

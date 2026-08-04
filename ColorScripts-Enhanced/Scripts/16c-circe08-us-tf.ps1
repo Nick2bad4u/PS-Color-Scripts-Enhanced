@@ -1,17 +1,4 @@
-﻿# Converted from: US-TF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe08/raw/US-TF.ANS
-# Source Revision: archive-sha256:cfc36d5daeed2f6543814097ace687f378a50215c24a95a0de66b512e3a41b9d
-# Source SHA-256: 3f4642b20a03ad907570e87844fb94480bf6fec8ce2b2ac4d213b475c04c5c33
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TF.ANS by Taevore + Fugitivo (circe); released in circe08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: tf
-# SAUCE Author: Multiple Artists
-# SAUCE Group: circe
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: tf by Taevore + Fugitivo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe08-us-tf
 
 Write-Host '
        [1;31m░[0m           [32m░[0;37m   [0;32m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MS-COLOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blur9604/raw/MS-COLOR.ANS
-# Source Revision: archive-sha256:f34199ac74590675ded2180ca27511328a450728efb320959a16e7122378876b
-# Source SHA-256: 9f41af292d25e184534111a2ab61a1f8d4ed42a47d78f49dbd954c8ed13d83fb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MS-COLOR.ANS by emmm esss! (blurrrrrrrrrrrr); released in blur9604 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: A color shock shocker!
-# SAUCE Author: emmm esss!
-# SAUCE Group: blurrrrrrrrrrrr
-# SAUCE Date: 19960326
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: A color shock shocker! by emmm esss! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blur9604-ms-color
 
 Write-Host '
                                       [35m∙[0m                      [35m┌┐[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: UG-SKULL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bdp-0195/raw/UG-SKULL.ANS
-# Source Revision: archive-sha256:d0ebae297c38a765d13bbb636e42ba45ef5e96692cd9dace930c30116d2f361f
-# Source SHA-256: 880be58d9c5dfd18a2a55f0004a3784b1bec59cb65e9a7c9c05954c36efbd8b3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UG-SKULL.ANS by U-GoD (BdP); released in bdp-0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Skull of death
-# SAUCE Author: U-GoD
-# SAUCE Group: BdP
-# SAUCE Date: 19950106
-# SAUCE Dimensions: 80x101
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Skull of death by U-GoD | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bdp-0195-ug-skull-part01
 
 Write-Host '
 [31m░░░░▒▒▒▒▒[0;30;41m░░░░░░░░░░░░░░░░░░░░░[0;31;41m░░░░[0;30;41m░░░░░░[0;1;33;41m░░░░░░░░░░░░░▒▒▒▓▓▓▓▓▓▓                 [0m

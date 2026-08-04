@@ -1,19 +1,4 @@
-﻿# Converted from: 5m-logocolly.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-003/raw/5m-logocolly.ans
-# Source Revision: archive-sha256:44a26aad0e8691f16e2777283660069b61e5916234397869961a696ba22e89f6
-# Source SHA-256: 06c332e7aafdce6967e7f8b1b9bbf4fef2709f7c6528c1ed80cb35ddeb69a195
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5m-logocolly.ans by Smooth (Legacy Krew); released in lgcy-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Logo colly
-# SAUCE Author: Smooth
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20201218
-# SAUCE Dimensions: 80x122
-# SAUCE Font: IBM VGA
-# Lines: 37-84
-# Columns: 1-80
+﻿# Artwork: Logo colly by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-003-5m-logocolly-part02
 
 Write-Host '
 [37m [0m             [36m░ ▓  ▄▄▀▀▄[0m                [36m░ ▒  ▄▄▀▀▄[0m             [36m░ ▒  ▄▄▀▀▄[0m

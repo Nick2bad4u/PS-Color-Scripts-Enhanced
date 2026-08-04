@@ -1,13 +1,4 @@
-﻿# Converted from: DF-DUST1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moi-1096/raw/DF-DUST1.ANS
-# Source Revision: archive-sha256:b08f58ff6462f4244b49eaabf5e3eaec7c8e12fe3cf4d84f161db4bcc4a6f782
-# Source SHA-256: 03b77699b1e5d6966f7f85822bf283c1e370218e0346d6e18910a434707052eb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DF-DUST1.ANS by Dark Force (moi-1096); released in moi-1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: DF-DUST1.ANS by Dark Force | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moi-1096-df-dust1
 
 Write-Host '
 █████▀[1;30;47m▄[0;1;30;40m█[0;36m▐█▄[0;1;36m█ [0m▀▀ ▀    [36m▐██[0;1;36m█ [0;1;37m                                [0;1;30m▀▀    ▀    ▀[0m

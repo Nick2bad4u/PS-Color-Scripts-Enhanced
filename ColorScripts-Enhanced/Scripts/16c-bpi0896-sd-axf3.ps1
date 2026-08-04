@@ -1,18 +1,4 @@
-﻿# Converted from: SD!AXF3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bpi0896/raw/SD!AXF3.ANS
-# Source Revision: archive-sha256:521b9df4427f9da93a66112b8a2a14c0b669272e30efda8662d4d103f6c7fd36
-# Source SHA-256: fc7a0c57c078c8b43166ffa647dd9bcfbf17e9dafb59948606f9f6e2563f117a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD!AXF3.ANS by sad (black pyramid! inc.); released in bpi0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: axial force
-# SAUCE Author: sad
-# SAUCE Group: black pyramid! inc.
-# SAUCE Date: 19960729
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: axial force by sad | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bpi0896-sd-axf3
 
 Write-Host '
 

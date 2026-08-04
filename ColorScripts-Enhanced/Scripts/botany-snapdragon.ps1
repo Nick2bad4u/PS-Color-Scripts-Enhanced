@@ -1,11 +1,4 @@
-# Converted from: snapdragon3.ansi
-# Source encoding: utf8
-# Source URL: https://raw.githubusercontent.com/jifunks/botany/2802121ed8268df1b69584167a14d4c690aaea35/art/snapdragon3.ansi
-# Source Revision: 2802121ed8268df1b69584167a14d4c690aaea35
-# Source SHA-256: 2c14bf0c7d757d6c0a058b2cf55932b1ce4cebffaccacd07cb8ab81e9e6e016e
-# Source License: ISC
-# Source Attribution: Jacob Funke (jifunks)
-# Source Conversion Mode: Passthrough
+# Artwork: snapdragon3.ansi by Jacob Funke (jifunks) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=botany-snapdragon
 
 Write-Host '
 

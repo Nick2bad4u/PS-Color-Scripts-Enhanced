@@ -1,18 +1,4 @@
-﻿# Converted from: DT-TCW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy06/raw/DT-TCW.ANS
-# Source Revision: archive-sha256:da68d928b75eacb21ef6bbd9cd632165def9238591f0378ec07f4b56faef6ea8
-# Source SHA-256: a7f88562c5bb53fec68d8e1d153348c8cadfa62df2240c102359c0c9d5586b60
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-TCW.ANS by Defiant (Apathy); released in apathy06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Crimson Waters
-# SAUCE Author: Defiant
-# SAUCE Group: Apathy
-# SAUCE Date: 19960125
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: The Crimson Waters by Defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy06-dt-tcw
 
 Write-Host '
 [32m█[0;1;32;42m▄[0;32m█████████████████████████████████████████████████████████████████████████████[0m

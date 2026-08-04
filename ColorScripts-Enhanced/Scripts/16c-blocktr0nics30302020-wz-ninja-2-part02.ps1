@@ -1,19 +1,4 @@
-﻿# Converted from: wz_ninja_2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktr0nics30302020/raw/wz_ninja_2.ans
-# Source Revision: archive-sha256:9a86a13b1ff7cef4b57ed39c1aca190028df54b44bffe10202b539bef3cd3dcc
-# Source SHA-256: db656b003d95cfd4eeaec2fd2c2380e07a8dd60ceb774642ce5e024c8c48d0b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wz_ninja_2.ans by Whazzit (Blocktronics); released in blocktr0nics30302020 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Ninja Type Thing 2
-# SAUCE Author: Whazzit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20191130
-# SAUCE Dimensions: 80x60
-# SAUCE Font: IBM VGA
-# Lines: 35-60
-# Columns: 1-80
+﻿# Artwork: Ninja Type Thing 2 by Whazzit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktr0nics30302020-wz-ninja-2-part02
 
 Write-Host '
      [1;30;45m▒[0;35m░░[0;1;30;45m▓[0;35m [0;37m   [0;35m [0;35;47m▒[0;1;30;45m▓[0;1;30;40m▒[0m   [1;30m░░[0m ░[1;30;45m▒[0;1;30;40m░[0m        [1;30m▒[0m░[1;30m▀    [0m   [1;30m░[0m  [1;30m▓▓[0m [1;30m░░ ░ [0m    [1;30m░░[0m      [1;31m  [0;35m░░   ▄▄[0;36m   [0;35m▄[0m

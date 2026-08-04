@@ -1,18 +1,4 @@
-﻿# Converted from: 2M-TCG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot0598/raw/2M-TCG.ANS
-# Source Revision: archive-sha256:0c1b4d8014854195eee82655813426874e782c44b6e7d11df4cc84dbee4a5020
-# Source SHA-256: 107f541a62a90f4799fa526f358011d9b68d3525b2b45ade01dce3072a02a923
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2M-TCG.ANS by 2much4u (RioT Productions); released in riot0598 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Cemetery Gates
-# SAUCE Author: 2much4u
-# SAUCE Group: RioT Productions
-# SAUCE Date: 19980512
-# SAUCE Dimensions: 80x49
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: The Cemetery Gates by 2much4u | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot0598-2m-tcg
 
 Write-Host '
                                       [1;30m▄▄▄▄▄▄▄▄▄▄▄[0m

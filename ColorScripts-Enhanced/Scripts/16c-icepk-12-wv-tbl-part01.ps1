@@ -1,13 +1,4 @@
-﻿# Converted from: WV-TBL.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-12/raw/WV-TBL.ICE
-# Source Revision: archive-sha256:03ccb24bebad343fffc4daed3f054ccd0ca265066fb8b4feff7bb3f469aac14e
-# Source SHA-256: 08fc5b3dbe1d275f7e069e7431e7af06dc3f9108b38d3f7d659d516c03c5d143
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WV-TBL.ICE by Wolverine (icepk-12); released in icepk-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: WV-TBL.ICE by Wolverine | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-12-wv-tbl-part01
 
 Write-Host '
                              [1;33m▄▀[0;33m▀▀▀▀[0;1;33m▀▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: TI-NEX3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy11/raw/TI-NEX3.ANS
-# Source Revision: archive-sha256:a8a1f25f60c56aa0932319ceb3e0a3707898d7c9d304c60c4912556d84eb4b61
-# Source SHA-256: 7cb94f3bb28955cc4f5d78fb5b2b371d9efe772c5222c22412a818a5a3d0c752
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TI-NEX3.ANS by Trip (Apathy); released in apathy11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Nexus quicklogin
-# SAUCE Author: Trip
-# SAUCE Group: Apathy
-# SAUCE Date: 19960618
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Nexus quicklogin by Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy11-ti-nex3
 
 Write-Host '
 [36m   [0;30;46m▓▓▓▒▒▒░░░[0;36;40m████████████████████████████████████████████████████████[0;30;46m░░░▒▒▒▓▓▓[0;36;40m   [0m

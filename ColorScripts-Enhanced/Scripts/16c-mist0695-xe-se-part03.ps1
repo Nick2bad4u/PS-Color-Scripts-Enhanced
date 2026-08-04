@@ -1,18 +1,4 @@
-﻿# Converted from: XE-SE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0695/raw/XE-SE.ANS
-# Source Revision: archive-sha256:cd4d9f21f90522cc13e89b8aecd1f8fac67b693881bc0be303ed48e8c596636d
-# Source SHA-256: e734e6e4a95f7685ff1a9d5ed4d1b40746d86a1e4cebaa7b80b1204c30ec12aa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XE-SE.ANS by Xeryrus (MiSTiGRiS); released in mist0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Savage Exile!
-# SAUCE Author: Xeryrus
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19950510
-# SAUCE Dimensions: 80x25
-# Lines: 80-110
-# Columns: 1-80
+﻿# Artwork: Savage Exile! by Xeryrus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0695-xe-se-part03
 
 Write-Host '
   ██[1;30;47m░▒[0m██       [1;30m▄▌[0m ██▓█  [1;30m▓[0m      [1;30m    [0m  [1;30m░[0m  [1;30m░[0m  [1;30m▓▓█▒███▓░ [0m    ▄        [1;30m██▒░[0m

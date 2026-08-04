@@ -1,13 +1,4 @@
-﻿# Converted from: EL-BED.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9704a/raw/EL-BED.ICE
-# Source Revision: archive-sha256:afaee15a3d0dc97869d0b30f626c40f1e86254d9eab5d72e1a8ed0e96379737a
-# Source SHA-256: 5c0dcbf132e37f85bb79f769535ec405e65de9971ee64d279738ada1475ba0af
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EL-BED.ICE by Elastic (ice9704a); released in ice9704a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: EL-BED.ICE by Elastic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9704a-el-bed
 
 Write-Host '
                                                       [36m▄[0m

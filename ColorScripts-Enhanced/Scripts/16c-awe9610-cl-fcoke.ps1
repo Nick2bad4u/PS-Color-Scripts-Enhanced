@@ -1,18 +1,4 @@
-﻿# Converted from: CL-FCOKE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9610/raw/CL-FCOKE.ANS
-# Source Revision: archive-sha256:2f6e3c8c2e64cc8380afc3a639da2793e02ea87790d90b8b4bede4b760040753
-# Source SHA-256: 38cdf07bf56f671f1ae7811cda01a746fd65c963f06f21e65ae35186af30504d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL-FCOKE.ANS by Colourless (awe lettering); released in awe9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Free Coke
-# SAUCE Author: Colourless
-# SAUCE Group: awe lettering
-# SAUCE Date: 19960929
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Free Coke by Colourless | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9610-cl-fcoke
 
 Write-Host '
                ░[30;47m▓[0;37;40m▐▄▄▄▄▄▄  [0;31;40m▄   [0;37;40m▄▄▄[0m

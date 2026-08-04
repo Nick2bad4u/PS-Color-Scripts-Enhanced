@@ -1,13 +1,4 @@
-﻿# Converted from: BH-STRAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/heat03/raw/BH-STRAN.ANS
-# Source Revision: raw-sha256:b802fa6733b96f3f9ae1d32cf762454eea5346b5a2bce4d14cb38b4955340e50
-# Source SHA-256: b802fa6733b96f3f9ae1d32cf762454eea5346b5a2bce4d14cb38b4955340e50
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BH-STRAN.ANS by Bishop-Heat (heat03); released in heat03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: BH-STRAN.ANS by Bishop-Heat | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-heat03-bh-stran
 
 Write-Host '
                       [1;30m▄▄▄[0m                        [1;30m▄▄▄[0m

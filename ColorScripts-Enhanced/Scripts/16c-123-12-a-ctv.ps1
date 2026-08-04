@@ -1,13 +1,4 @@
-﻿# Converted from: _A-CTV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/123-12/raw/_A-CTV.ANS
-# Source Revision: archive-sha256:af311216faea4a293463ebcefb70b0554be496d44ae44ccb54d62ccbcbed8cf0
-# Source SHA-256: 227477e9832f9db6d57a8d52f9e7a0abd2be58617a3a2e0b2b483a36c020a7df
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _A-CTV.ANS by Absent Spinsister (123-12); released in 123-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: _A-CTV.ANS by Absent Spinsister | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-123-12-a-ctv
 
 Write-Host '
                   [33m_[0;1;31m_[0;33m_[0m          [33m____,Q[0;1;31m$ :[0m     $[1;37m1[0m1[1;37m::[0m:

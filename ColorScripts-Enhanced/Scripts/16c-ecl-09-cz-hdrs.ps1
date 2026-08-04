@@ -1,13 +1,4 @@
-﻿# Converted from: CZ-HDRS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-09/raw/CZ-HDRS.ANS
-# Source Revision: archive-sha256:6c371ec8bbb75e88f59630021fbbd23f2fc630c10ee1cde240cc20faafea1ca9
-# Source SHA-256: 3a42f7894661ee411b3cff19459139cd4be3dbcadfa38344c7f2e658c2118952
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CZ-HDRS.ANS by Cheeze (ecl-09); released in ecl-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: CZ-HDRS.ANS by Cheeze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-09-cz-hdrs
 
 Write-Host '
 [1;36m███[0;1;37m██[0;1;37;47m▀[0m▀ [32m▄[0;33m [0;1;37;47m░[0;1;37;40m████████████████████████████████████████[0;1;37;47m░ [0;1;30;40m█░[0m [1;30mhalloween?[0m [1;30m░░░[0m [1;30m ░░[0m    [1;30m░[0m

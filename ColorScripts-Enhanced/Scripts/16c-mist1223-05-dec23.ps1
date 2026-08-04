@@ -1,19 +1,4 @@
-﻿# Converted from: 05_DEC23.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1223/raw/05_DEC23.ANS
-# Source Revision: archive-sha256:86d02e5103ccb7950792473f0c3e4ca18e595c9011c06df5ce1fe1692dbd9f5a
-# Source SHA-256: ab31497975c34fe8f45851e67741a326c46df7c1c1ee51398d4704797bff3628
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 05_DEC23.ANS by LDA (Mistigris); released in mist1223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: December 5th
-# SAUCE Author: LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20231130
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: December 5th by LDA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1223-05-dec23
 
 Write-Host '
 [1;32m▓▓[0;1;37;47m▀[0;1;37;40m██████[0;1;37;47m▄▄[0;1;37;40m▄▄▄▄[0m      [1m▀█[0;1;47m▀▀[0;1;40m▀▀[0m [1m▄▄▄▄[0m              [32m░░░░░░[0;37m    [0;32m░░░░░░[0;37m               [0;1;32m▄[0;32m░░[0m

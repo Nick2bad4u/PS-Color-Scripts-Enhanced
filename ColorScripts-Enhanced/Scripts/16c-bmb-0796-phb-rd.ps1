@@ -1,18 +1,4 @@
-﻿# Converted from: PHB-RD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0796/raw/PHB-RD.ANS
-# Source Revision: archive-sha256:f782dac10caec7358fb12f56ab648d6b2d754d33c969b772c25d26329ee46f63
-# Source SHA-256: 2742fd9f15eeb57ac96630f4dca9b3514ecdedb86d265db52edb85f0983d07c5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PHB-RD.ANS by Phobic (Bamboosh); released in bmb-0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Radical Dreams [ans] logo
-# SAUCE Author: Phobic
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19960726
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Radical Dreams [ans] logo by Phobic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0796-phb-rd
 
 Write-Host '
    [31m [0;37m    [0m                    [37m                     [0m

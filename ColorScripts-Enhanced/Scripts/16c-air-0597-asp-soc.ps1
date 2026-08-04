@@ -1,18 +1,4 @@
-﻿# Converted from: ASP_SOC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/air_0597/raw/ASP_SOC.ANS
-# Source Revision: archive-sha256:6fe653cdae1d1be3a85ad8606d04a6519ed3da6d9d33e501c49ef3bdd23379d9
-# Source SHA-256: bcb3e45af74ab0a7469dd69a8334073561420173dd8dfd0cd7dec0d1b79c9a5c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ASP_SOC.ANS by aspyre (air); released in air_0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: society emag PIC!!!
-# SAUCE Author: aspyre
-# SAUCE Group: air
-# SAUCE Date: 19970501
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: society emag PIC!!! by aspyre | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-air-0597-asp-soc
 
 Write-Host '
 [1m,╓╓asp%SS$[0m$[1m$[0m$[1m$$[0m$$$$²²''~[1m^"[0m''[31m.,._[0;37m^`²$$$[0;1;37m$[0m$[1m$[0m$[1m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$SS%asp╖╖.[0m

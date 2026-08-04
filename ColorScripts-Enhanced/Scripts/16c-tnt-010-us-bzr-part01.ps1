@@ -1,13 +1,4 @@
-﻿# Converted from: us-bzr.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tnt-010/raw/us-bzr.ans
-# Source Revision: raw-sha256:53468a0fe6468039598ef2d40b8f334211da9102ca2a8d7b7d419afd7f66f7cb
-# Source SHA-256: 53468a0fe6468039598ef2d40b8f334211da9102ca2a8d7b7d419afd7f66f7cb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-bzr.ans by Knocturnal + Skypager (tnt-010); released in tnt-010 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: us-bzr.ans by Knocturnal + Skypager | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tnt-010-us-bzr-part01
 
 Write-Host '
 [1;30m[0m[1;30m[0m

@@ -1,16 +1,4 @@
-﻿# Converted from: DT-NIP2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger10/raw/DT-NIP2.ANS
-# Source Revision: archive-sha256:a84fd6d21030f26985899f91a956dceb5637b0b2cbc8b90ab0b918890b9e87cd
-# Source SHA-256: 15cb120e2637ab7f271f165cdf664316da42922c334a89a14f683b5e13c108e5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-NIP2.ANS by defiant (anger); released in anger10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: nip matrix
-# SAUCE Author: defiant
-# SAUCE Group: anger
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: nip matrix by defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger10-dt-nip2
 
 Write-Host '
 [31m▓█[0;1;33;41m░░[0;31m██[0;1;31;41m░[0;31m███████▀ [0;1;33m▄▄███[0;1;33;42m█████████▀▓▀ [0;32m█[0;1;33;42m▀[0;32m███▀▀▄▄ [0;1;31m▀▀█[0;1;31;41m█▓▓▀▀░░[0;31m██░[0m                     [31m░[0m

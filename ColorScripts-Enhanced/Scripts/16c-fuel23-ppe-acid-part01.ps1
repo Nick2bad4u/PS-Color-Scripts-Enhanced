@@ -1,20 +1,4 @@
-﻿# Converted from: ppe-acid.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel23/raw/ppe-acid.ans
-# Source Revision: archive-sha256:cfe32eb98354b0830492d9be5038af88cfccfa9d08c77fbfa69a5660d9e29c20
-# Source SHA-256: fefa2c08698d15391e572e23fa95e14a5e1d70f4f0b51db7c42599d146072bb2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ppe-acid.ans by propane (fuel); released in fuel23 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: acid underworld
-# SAUCE Author: propane
-# SAUCE Group: fuel
-# SAUCE Date: 20170917
-# SAUCE Dimensions: 80x131
-# SAUCE Font: IBM VGA
-# SAUCE Comments: acid underworld logo by burps
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: acid underworld by propane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel23-ppe-acid-part01
 
 Write-Host '
 

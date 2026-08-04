@@ -1,18 +1,4 @@
-﻿# Converted from: RG-UDUDE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lcd-a001/raw/RG-UDUDE.ANS
-# Source Revision: archive-sha256:55e314de3437204a90547056ed7bd388c2225541f9bc2d93c6d567b798eee7fd
-# Source SHA-256: c984d72ad914cbf74e21d14d8cccccefdd7dee9586bdab278d196e2b6fc413dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RG-UDUDE.ANS by Rimgale (LUCiD); released in lcd-a001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Ugly Dude
-# SAUCE Author: Rimgale
-# SAUCE Group: LUCiD
-# SAUCE Date: 19941208
-# SAUCE Dimensions: 80x25
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Ugly Dude by Rimgale | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lcd-a001-rg-udude
 
 Write-Host '
 [1;30m■ ■■▀■▀▀■▀▀▀■▀▀▀▀▀■▀▀▀▀▀▀▀■▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀■▀▀▀▀▀■▀▀▀▀▀▀▀▀■▀▀▀■▀▀■▀■■ ■[0m

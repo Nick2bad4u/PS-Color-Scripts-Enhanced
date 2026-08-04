@@ -1,18 +1,4 @@
-﻿# Converted from: TE-TT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toon0995/raw/TE-TT.ANS
-# Source Revision: archive-sha256:02c0858ccb65f788003d1baa20212382f5d5979442b6fda9c8793eaaadf48a11
-# Source SHA-256: dddfc1c4e98e1c8a6fe33659f43575f46ee1375f2481b1b07fb59e9881857843
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-TT.ANS by Tetanus + Wat0r (toon/union); released in toon0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: toons town
-# SAUCE Author: Tetanus
-# SAUCE Group: toon/union
-# SAUCE Date: 19950824
-# SAUCE Dimensions: 80x86
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: toons town by Tetanus + Wat0r | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toon0995-te-tt-part01
 
 Write-Host '
 

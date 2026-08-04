@@ -1,13 +1,4 @@
-﻿# Converted from: 2005 - 17 - TCF - Sadist.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tcf20/raw/2005%20-%2017%20-%20TCF%20-%20Sadist.ans
-# Source Revision: archive-sha256:af8609219fccc484668fb405a7f1d45efb8c574501a461c5c1b47d87a12921ce
-# Source SHA-256: b603cf3dca49c44fca0e5b7e66f59e2a7ed0dd8abcf83f9766423f8dfa393548
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2005 - 17 - TCF - Sadist.ans by The Creep Fever (tcf20); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: 2005 - 17 - TCF - Sadist.ans by The Creep Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tcf20-2005-17-tcf-sadist
 
 Write-Host '
 [31m ▄[0;35;41m▄▀▀▀▀▀[0;31;40m██[0;35;41m▀▀▀[0;31;40m███[0;35;41m▀[0;31;40m▓▓▓▓▓▓▓▓▓▓▓▓▓▀▀  ░  █▒    ▄▄▄▄▄▄▄▄▄▄▀[0;35;41m▀▀[0;31;40m███████[0;35;41m▀▀[0;35;40m▀[0;35;41m▀▀▀[0;35;40m▀▀[0;35;41m▀▀[0;35;40m▀▀▀▄▄[0m

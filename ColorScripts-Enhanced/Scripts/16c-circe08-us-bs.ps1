@@ -1,18 +1,4 @@
-﻿# Converted from: US-BS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe08/raw/US-BS.ANS
-# Source Revision: archive-sha256:cfc36d5daeed2f6543814097ace687f378a50215c24a95a0de66b512e3a41b9d
-# Source SHA-256: 3bcb165bfafd303eaee69c75aa0432146e362346c61000e0f0547582755edbd9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BS.ANS by Arlequin + Acid Brain + Darkman-Circe (Circe); released in circe08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Black Sun at 2600meet
-# SAUCE Author: Arleq/Dm/Ab
-# SAUCE Group: Circe
-# SAUCE Date: 19990818
-# SAUCE Dimensions: 80x44
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Black Sun at 2600meet by Arlequin + Acid Brain + Darkman-Circe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe08-us-bs
 
 Write-Host '
      [1m   [0;35m░░[0;1;37m               [0;1;31m▄▄[0;31m██[0;1;36;41m░░░░░[0;1;31;46m▓▓[0;31m░[0m    [1;30m▄[0m░[1;30m█▄[0m          [1;35;43m▄█[0;35m█▄[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-GNON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0226/raw/ZII-GNON.ANS
-# Source Revision: archive-sha256:ef03a5a095d5c0479664f99ff23399e245703c452ca9d05ea2957005177022f9
-# Source SHA-256: b18522c1e6164e65cd833f8be4ad3b1cb7e236f1e6471621fb28d83d028f2f78
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-GNON.ANS by Zeus II (Mistigris); released in mist0226 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Gemenon BBS promo
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260228
-# SAUCE Dimensions: 80x262
-# SAUCE Font: IBM VGA
-# Lines: 151-200
-# Columns: 1-80
+﻿# Artwork: Gemenon BBS promo by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0226-zii-gnon-part04
 
 Write-Host '
 [37m    [0;35m▄[0;1;35m███▌[0m [1;31m███[0m  [1;30m▀[0m  [1;31m▄██▀[0m [31m▄█[0;1;31;41m░▒▒▒▒[0;31m▀[0;1;35m ▀[0m [32m█[0;1;32;42m▄[0;1;32;40m██████████▓█████▐███████████[0;32m█▀[0;1;35m▄█████████[0;1;35;45m▀[0;35m▀[0m

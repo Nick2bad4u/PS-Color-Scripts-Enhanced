@@ -1,18 +1,4 @@
-﻿# Converted from: US-DV8.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spin03/raw/US-DV8.ANS
-# Source Revision: archive-sha256:ded576726f5b403e4f7bf63316db54f0b3c8cdbd2a92c07d313ed1e69ff5c623
-# Source SHA-256: c8e0ee676a14e0956da0e5f107e2adedfa0f0fbb92e96f01668e9666bc7ec0ce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DV8.ANS by Dyingsoul + Sephiroth (spin); released in spin03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dyingsoul & sephiroth
-# SAUCE Author: multiple artist's
-# SAUCE Group: spin
-# SAUCE Date: 19981008
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: dyingsoul & sephiroth by Dyingsoul + Sephiroth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spin03-us-dv8
 
 Write-Host '
 [1;34m▄[0;1;34;44m░░[0;34m▀[0;1;37m  [0;34m▄▄[0;1;34;44m░[0;34m▀▀[0;32;44m [0;34;40m▄[0;1;34;44m░[0;34m▄[0;1;34;44m░[0;34m▀[0;1;34;44m░░[0;34m▄▄[0;1;33m [0;1;37m   [0;34m▄[0;1;34;44m░░[0;34m▀▀▀▀▄▄▀▀▀▀▄▄[0;37m  [0;1;37m                                      [0m

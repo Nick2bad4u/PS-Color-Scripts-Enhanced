@@ -1,18 +1,4 @@
-﻿# Converted from: SN!IMG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak3/raw/SN!IMG.ANS
-# Source Revision: archive-sha256:cde4af7e840865f437fedba26bbfb806e858a9b477c723c01bd9d080434c75bd
-# Source SHA-256: 35272a33837b4e864690201b7a44305bbc2217f06dab5d1c7f4184c6ddf6ffa3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SN!IMG.ANS by Snowball (Ecolove); released in ecl-pak3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Logo for Imagine...
-# SAUCE Author: Snowball
-# SAUCE Group: Ecolove
-# SAUCE Date: 19980125
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Logo for Imagine... by Snowball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak3-sn-img
 
 Write-Host '
        [1;30m■[0m                                   [32m  ▄▄[0;1;32m▄▄[0m

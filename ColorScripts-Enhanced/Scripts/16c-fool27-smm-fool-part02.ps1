@@ -1,19 +1,4 @@
-﻿# Converted from: smm-fool.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fool27/raw/smm-fool.ans
-# Source Revision: archive-sha256:2f2b93f8f0e4fec62b30a599f5faab168be4584610a3b26b5849676a1be20365
-# Source SHA-256: 573877439c060e96d3bf42d7b9a67ee0a293689de5fe563116d17dd9792db34e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: smm-fool.ans by SEL MAR MUPERFAR (F 0 0 L); released in fool27 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: NO ENERGY LEFT FOR U
-# SAUCE Author: SEL MAR MUPERFAR
-# SAUCE Group: F 0 0 L
-# SAUCE Date: 20180624
-# SAUCE Dimensions: 80x59
-# SAUCE Font: IBM VGA
-# Lines: 41-59
-# Columns: 1-80
+﻿# Artwork: NO ENERGY LEFT FOR U by SEL MAR MUPERFAR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fool27-smm-fool-part02
 
 Write-Host '
 [37m  [0;1;30;44m▄[0;1;30;40m███████████[0;1;33;40m█[0m       [1;36m [0;1;30;44m▄[0;1;30;40m███████████[0;1;30;44m█[0;1;36;40m [0m       [1;30;44m▄[0;1;30;40m███████████[0;1;33;40m█[0m        [1;30;44m▄[0;1;30;40m███[0;1;33;40m█[0m

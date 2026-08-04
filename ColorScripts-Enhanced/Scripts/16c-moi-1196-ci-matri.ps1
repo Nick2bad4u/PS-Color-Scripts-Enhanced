@@ -1,13 +1,4 @@
-﻿# Converted from: CI-MATRI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moi-1196/raw/CI-MATRI.ANS
-# Source Revision: archive-sha256:a489980c23b1f6d57442b7b731d0e35c1c46367b9d85c37fb8b0b1fc51e07ad6
-# Source SHA-256: dc4a737c3718a36c65a3f1c5b10503dc709692c5ebcfe0fa415572786efecd3e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CI-MATRI.ANS by Civid (moi-1196); released in moi-1196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: CI-MATRI.ANS by Civid | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moi-1196-ci-matri
 
 Write-Host '
 

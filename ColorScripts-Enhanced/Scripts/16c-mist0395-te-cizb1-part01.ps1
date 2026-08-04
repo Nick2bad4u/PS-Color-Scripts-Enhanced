@@ -1,18 +1,4 @@
-﻿# Converted from: TE-CIZB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0395/raw/TE-CIZB1.ANS
-# Source Revision: archive-sha256:f2a95642991562087407da2d5718c9539e60d73ef03932f3b9b3875815fbc27c
-# Source SHA-256: 8f954b879730ac91b88d79b46d9f7e70dd680d868eac1c109d9efddd1fd291c4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-CIZB1.ANS by The ExtremisT (m1st1gr1s); released in mist0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: City iZ Burning! 418.841.3410
-# SAUCE Author: The ExtremisT
-# SAUCE Group: m1st1gr1s
-# SAUCE Date: 19950301
-# SAUCE Dimensions: 80x25
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: City iZ Burning! 418.841.3410 by The ExtremisT | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0395-te-cizb1-part01
 
 Write-Host '
 [44m [0;30;44m                                                                    [0;34;40m▀[0;34;44m         [0m

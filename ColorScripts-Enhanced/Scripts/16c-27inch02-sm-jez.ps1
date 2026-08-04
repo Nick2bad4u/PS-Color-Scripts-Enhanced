@@ -1,18 +1,4 @@
-﻿# Converted from: SM-JEZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch02/raw/SM-JEZ.ANS
-# Source Revision: archive-sha256:cf5edf9c96cc8253a46b06083b6d6c568d54a3ab114e7250815fc48f7f1a4c4c
-# Source SHA-256: adb38c9acb2bc9e6f64e4574e4b6e59dcfb6539f25ec0599c6ddd7f4695793eb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-JEZ.ANS by smooth (27inch); released in 27inch02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 24liner for JEZEBEL door game
-# SAUCE Author: smooth
-# SAUCE Group: 27inch
-# SAUCE Date: 20030401
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: 24liner for JEZEBEL door game by smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch02-sm-jez
 
 Write-Host '
 [1m    [0;1;32m  █▄▀[0;1;37m   [0;1;32m▀[0;1;37m [0;1;33m ▄▄▀▀[0;1;30m▀▀[0;33m ▀▀▄▄[0;32m  ▓▓█[0;33m ▄[0;1;30m▄[0m [32m▀[0;37m   [0;1;32;42m▒░[0;32m▓[0;37m    [0;32m▀▀▀▒[0;37m [0;32m▒▓█[0;37m  [0;34m▄▀▀▀███████▓▓▒▒░[0m

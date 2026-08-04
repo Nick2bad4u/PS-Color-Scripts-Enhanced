@@ -1,18 +1,4 @@
-﻿# Converted from: ARL-REEB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe05/raw/ARL-REEB.ANS
-# Source Revision: archive-sha256:37d89d30ef39e93d86c9ed1aa9fcfc56f21493baa03286af8b8a012f2401a98a
-# Source SHA-256: c899f463814e52c210e2a36c00bf6ec3d06332d48b05c98376f7d088e26869da
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARL-REEB.ANS by Arlequin (Circe); released in circe05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: PVM Batch Resumer
-# SAUCE Author: Arlequin
-# SAUCE Group: Circe
-# SAUCE Date: 19960103
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: PVM Batch Resumer by Arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe05-arl-reeb
 
 Write-Host '
 [34m  ▄▄[0;1;34;44m▄▄██▄▄[0;34m▄▄▀[0;36;44m▀█[0;1;36;46m▀██[0;1;33;40m██[0;1;36;46m░ [0;36;44m█▓▒░[0;34;40m█▀▀[0;36;40m [0;1;36;40m▒▒[0;1;36;46m████[0;36m█▀▀ ▄[0;1;36m [0;36m▀▀[0;37m [0;1;36m▄▄[0m [36m█[0;1;36;46m███[0m [36m▄▄█▀▀▀[0;37m [0;36m▄▄[0;1;36m▄▄[0m  [36m  [0;37m [0;36m▄[0;1;36m▄▄[0m   Arl

@@ -1,13 +1,4 @@
-﻿# Converted from: DZ-99.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sadist02/raw/DZ-99.ANS
-# Source Revision: archive-sha256:3b487d46b8d6196e38a23b461a8a31a0bcfeed849c805b149ff5c967f2ad35e5
-# Source SHA-256: ae422680ef3adf946ac7c8b0e70b0f48f245ae1bb797f56d3c750edeefaaf50f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DZ-99.ANS by Dizzy (sadist02); released in sadist02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 29-65
-# Columns: 1-80
+﻿# Artwork: DZ-99.ANS by Dizzy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sadist02-dz-99-part02
 
 Write-Host '
                  [34m░░[0;37m [0;1;32;42m░░[0;32m▓██[0;1;37;42m░░░░[0;32m███[0;1;37;42m░░░[0m  [1m░[0;30;47m▓[0m

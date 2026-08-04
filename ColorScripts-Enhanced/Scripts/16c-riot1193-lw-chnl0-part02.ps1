@@ -1,13 +1,4 @@
-﻿# Converted from: LW-CHNL0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot1193/raw/LW-CHNL0.ANS
-# Source Revision: archive-sha256:5907a0582d7ebf7e00c712faa05f59b72be5b400e002d17b8807cf21a50dab9e
-# Source SHA-256: c3239ce3c76c3f13153abfbfdc389a49d272a4bdb4d52ee4cc4e2f61118acf9d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LW-CHNL0.ANS by Lew (riot1193); released in riot1193 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 17-65
-# Columns: 1-80
+﻿# Artwork: LW-CHNL0.ANS by Lew | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot1193-lw-chnl0-part02
 
 Write-Host '
                           [1;30m▄▄▄[0;1;30;47m▓▓▒[0;1;30;40m▓▄▄▄[0m

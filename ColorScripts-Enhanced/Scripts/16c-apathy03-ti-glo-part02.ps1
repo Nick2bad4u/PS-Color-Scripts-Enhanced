@@ -1,17 +1,4 @@
-﻿# Converted from: TI-GLO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy03/raw/TI-GLO.ANS
-# Source Revision: archive-sha256:a3a53ea79bcbcd57bc05c6d80b9369444063e81f9dc4053225ede5f60d209f4b
-# Source SHA-256: 7e28d1fe64957fa40ca57f3883ba0632485bac998eba917bac1cb5b3a745a86d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TI-GLO.ANS by Trip (apathy03); released in apathy03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Globe
-# SAUCE Author: Trip
-# SAUCE Date: 19951106
-# SAUCE Dimensions: 80x136
-# Lines: 45-87
-# Columns: 1-80
+﻿# Artwork: The Globe by Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy03-ti-glo-part02
 
 Write-Host '
 [33m████▄█■█[0;1;33;43m░[0;33m█[0;1;33;43m░[0;33m█[0;1;33;43m░░[0;33m█[0;1;33;43m░░░░░░░░░░░▒[0;33m█[0;1;33;43m░░▒░░▒░▒░░[0;33m██[0;1;33;43m░[0;33m█[0;1;33;43m░[0;33m██▌[0m      [1;33;43m▒[0;33m▌[0;1;33;43m▒▒░▒░▒▒░░▒▒░▒░░▒▒░[0;33m█▓ ▄ ▄[0;1;33;43m░[0;33m█[0m

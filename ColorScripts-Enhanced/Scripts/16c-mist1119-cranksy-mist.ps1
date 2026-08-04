@@ -1,20 +1,4 @@
-﻿# Converted from: CRANKSY-MIST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1119/raw/CRANKSY-MIST.ANS
-# Source Revision: archive-sha256:55e25d51e7ea67e18beea3070275d20b31facc3af69759bb904716908b0d1228
-# Source SHA-256: fd852f621b118e61ee52e36093342773431ee3b777313606f5284c53bf7b1ac6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CRANKSY-MIST.ANS by Cranksy (Mistigris); released in mist1119 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Mistigris
-# SAUCE Author: Cranksy
-# SAUCE Group: Mistigris
-# SAUCE Date: 20191119
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Extracted from unreleased j33p33-fishmist.ans for use as templat | e.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Mistigris by Cranksy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1119-cranksy-mist
 
 Write-Host '
 

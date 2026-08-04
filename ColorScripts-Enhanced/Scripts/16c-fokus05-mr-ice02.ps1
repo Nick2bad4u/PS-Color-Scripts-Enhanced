@@ -1,18 +1,4 @@
-﻿# Converted from: MR-ICE02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus05/raw/MR-ICE02.ANS
-# Source Revision: archive-sha256:1aa3ba6c9bb069effe029f69af967419cb8dc77ae4501a5215ae43589435acd5
-# Source SHA-256: fecdf1b702b256b84bd9e4366d7d9da12613650e446760a6325e58a1f767adf9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-ICE02.ANS by Mr.Wrong (Fokus fonting); released in fokus05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: iCE Productions
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: Fokus fonting
-# SAUCE Date: 19990609
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: iCE Productions by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus05-mr-ice02
 
 Write-Host '
                [36m░[0m                   [36m▄▄  ▄[0;1;36;46m▄[0;36m▄ [0;1;30m▀[0m             [1;30m▄[0m

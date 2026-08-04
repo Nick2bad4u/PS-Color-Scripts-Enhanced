@@ -1,19 +1,4 @@
-﻿# Converted from: MM-HELLJUICE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0524/raw/MM-HELLJUICE.ANS
-# Source Revision: archive-sha256:26af390c70c8fbd1a650cda6420771d9febb05e55fff2dce05253b3fc19147b7
-# Source SHA-256: f895dee39bcf21d05ceac07827892d050d5f5e69ad76828cdcd5f96bee7ada35
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-HELLJUICE.ANS by Mavenmob (Mistigris); released in mist0524 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Refreshing Stream of Hell Juice
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20240512
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Refreshing Stream of Hell Juice by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0524-mm-helljuice
 
 Write-Host '
                         [32m│[0;37m            [0;32m││[0;1;37m0[0;1;32m0[0;32m│[0;37m    [0;32m:[0;37m      [0;1;30m0[0;32m1[0;37m    [0;31m:[0m

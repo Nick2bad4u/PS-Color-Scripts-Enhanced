@@ -1,17 +1,4 @@
-﻿# Converted from: HOS-CFMN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9701/raw/HOS-CFMN.ANS
-# Source Revision: archive-sha256:d9ee1d58a6a06d01c9f7c4f38cd8e5ab0dc2d9bdfc6b97ab0ed0cc65c400a40c
-# Source SHA-256: d1ca825a045e13930b3a9a643ec13b592f334168052253b33e9a034d579eeb5b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HOS-CFMN.ANS by Hos (AWE Lettering); released in awe9701 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Chronic Farts Menu
-# SAUCE Author: Hos
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Chronic Farts Menu by Hos | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9701-hos-cfmn
 
 Write-Host '
 [34m─────────────────────────────────────────────  [0;1;37m▬  [0;34m──────────────────────────────[0m

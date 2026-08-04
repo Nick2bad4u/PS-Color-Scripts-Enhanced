@@ -1,18 +1,4 @@
-﻿# Converted from: RG-FURE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lcd-a002/raw/RG-FURE2.ANS
-# Source Revision: archive-sha256:8b5679a927020dfb5f6f49dc17dcd2556a8c7cb139b041c7e9bec87c202d787a
-# Source SHA-256: a7499820043de0e73dfaacae4359cc3515cd667ac01a657fc2d9c6b64f85aaaf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RG-FURE2.ANS by Rimgale (LUCiD); released in lcd-a002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Future Reality #2
-# SAUCE Author: Rimgale
-# SAUCE Group: LUCiD
-# SAUCE Date: 19941209
-# SAUCE Dimensions: 80x25
-# Lines: 33-70
-# Columns: 1-80
+﻿# Artwork: Future Reality #2 by Rimgale | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lcd-a002-rg-fure2-part02
 
 Write-Host '
 [1;30;40m    [0m█ [33m▐[0;1;31;43m░▒▓[0;1;31;40m████▐▌[0;31m▐▌ ▄▄[0;31;41m  [0;1;31;41m░▒▓[0;31m▄▄[0;37m▀[0;1;37m▀▀ ▀▀▀ ▀▀[0;31m▄▄[0m     [1;31;41m░[0;31m█ [0;1;31m█████▌▐████[0m

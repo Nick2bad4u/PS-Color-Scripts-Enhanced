@@ -1,18 +1,4 @@
-﻿# Converted from: TR-ITT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flvr0196/raw/TR-ITT.ANS
-# Source Revision: archive-sha256:279ad8e010cc1a23befe2a90c11e2ca2920042ed1799924b9123e589e1e118aa
-# Source SHA-256: f2a90131c47909835d81ddcd747f95379b67b50c1b855225ed2dc026e9aed054
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-ITT.ANS by tarot (flavOr); released in flvr0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: itt & cna
-# SAUCE Author: tarot
-# SAUCE Group: flavOr
-# SAUCE Date: 19951222
-# SAUCE Dimensions: 80x15
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: itt & cna by tarot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flvr0196-tr-itt
 
 Write-Host '
                 [31m░▄[0m              [31m   [0m          [31m■▄▄[0m        [31m [0m

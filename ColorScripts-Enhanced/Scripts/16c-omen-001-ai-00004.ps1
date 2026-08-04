@@ -1,17 +1,4 @@
-﻿# Converted from: AI#00004.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/omen-001/raw/AI%2300004.ANS
-# Source Revision: archive-sha256:639d01c4976c2412f40262280b42786a4a9a8dcf0c6d28b14f10b18fb7bde312
-# Source SHA-256: c3e339ac50f6a2a9d6a4844a39717b706e9bffcceee0731c43c8c27ea97c8fb7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AI#00004.ANS by artistic implosion (omen); released in omen-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: abstract
-# SAUCE Author: artistic implosion
-# SAUCE Group: omen
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: abstract by artistic implosion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-omen-001-ai-00004
 
 Write-Host '
 [31martistic implosion  [0;1;30m▀▀[0;32m▀▀▀█[0;1;32;42m░▀▀█[0;1;32;47m▓▓[0;1;32;42m█▓▓▓▒▒░░[0;32m█[0;1;32;42m░░[0;1;30;42m░[0;32m▀▀▀[0;1;30m▀▀▀[0m           [1;31;47m▓[0;1;31;40m▀[0;1;31;41m▒[0;30;41m▓[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: XS-TOAST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise06/raw/XS-TOAST.ANS
-# Source Revision: archive-sha256:62459159460ab7090ce349ed14c61a1bc8d3aa5785e22124741220f6b82d2ab8
-# Source SHA-256: effa15de0f6017fc23af5dc0c0f41b3b150370365303dd25bcd741cf185c67cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XS-TOAST.ANS by xsys (uprise); released in uprise06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: toast
-# SAUCE Author: xsys
-# SAUCE Group: uprise
-# SAUCE Date: 19980704
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: toast by xsys | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise06-xs-toast
 
 Write-Host '
    [1;30m░░[0m             [33m░░[0m        [1;30m██[0;1;30;47m▓▒[0;1;30;40m█▄[0m              [1;30m▒░[0m [33m [0;1;30mx[0;33m [0;1;30ms y s[0;33m [0;1;30m o f[0;33m [0;1;30m [0;43mu[0;1;30;40m p r i s e[0;33m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: FXLAMER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-1097/raw/FXLAMER.ANS
-# Source Revision: archive-sha256:e00f8ccd747d6f713ee8049d7689cafe483a4db84fe36db34569c4f513f6fe6d
-# Source SHA-256: 63b0d57ae59223a09730a5090cb50ccb16ef28f51ad35fd86da949bc71a2dc60
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FXLAMER.ANS by Flux (prbmb); released in bmb-1097 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: lamers
-# SAUCE Author: Flux
-# SAUCE Group: prbmb
-# SAUCE Date: 19971024
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: lamers by Flux | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-1097-fxlamer
 
 Write-Host '
 [1;34m ▄[0;35m▄[0;1;34m▐[0;1;34;45m▓░[0;35m▄[0m            [35m▄[0m                              [34m▄[0;1;34m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: LO-PBF.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9504a/raw/LO-PBF.ICE
-# Source Revision: archive-sha256:7e06a69e8d7baf8133687f2e7b917774996272e1a0f23faaff663b1fe4e44657
-# Source SHA-256: ac9e9d4b446219f739c709f5e7d2e806d1a5fd69e7112ae5384a38decb04ee35
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LO-PBF.ICE by Leonardo (iCE); released in ice9504a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Primal Bloodfest
-# SAUCE Author: Leonardo
-# SAUCE Group: iCE
-# SAUCE Date: 19950425
-# SAUCE Dimensions: 80x25
-# Lines: 75-115
-# Columns: 1-80
+﻿# Artwork: Primal Bloodfest by Leonardo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9504a-lo-pbf-part03
 
 Write-Host '
 [33m████ [0;1;31;43m░[0m [33m▀▄░  [0;1;36m░█▀[0;33m▄▄[0;1;31;43m▒▒[0m [1;31;40m▄▒▄ ▄  [0;32m░   [0;37m▐[0;1;36;47m▒░[0m▒░  [32m▒▀▓  [0;33m▐█▓░ █▒[0m     [33m▓▓▓▓▓▓▓▓▓▓▓▓▓▒▓▓▓▓▓▒▓▓▒▒▒[0m

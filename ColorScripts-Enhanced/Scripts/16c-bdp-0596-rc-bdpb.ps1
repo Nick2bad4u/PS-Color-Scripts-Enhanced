@@ -1,17 +1,4 @@
-﻿# Converted from: RC(BDPB).ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bdp-0596/raw/RC(BDPB).ANS
-# Source Revision: archive-sha256:c585407c7da432de8b278021a42088d2314fe9c2fa3b5517b4760e8c74fd8742
-# Source SHA-256: fb4ef86973d53f33fa743b72c55af86a0e85f413d945683a3f663fea8b47b1cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RC(BDPB).ANS by 0  ^[2[_[2_[2\~0 (.boogiE%Woogie.); released in bdp-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: .bdp(logo). .
-# SAUCE Author: 0  ^[2[_[2_[2\~0
-# SAUCE Group: .boogiE%Woogie.
-# SAUCE Date: 19960501
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: .bdp(logo). . by 0 ^[2[_[2_[2\~0 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bdp-0596-rc-bdpb
 
 Write-Host '
                                               [33m░[0m

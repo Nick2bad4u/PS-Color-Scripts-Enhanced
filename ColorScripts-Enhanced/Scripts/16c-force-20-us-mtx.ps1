@@ -1,18 +1,4 @@
-﻿# Converted from: US-MTX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-20/raw/US-MTX.ANS
-# Source Revision: archive-sha256:b65b1598bdbe93e151f93f9f40d2613d08906785e28b647f36a717a146afc8fc
-# Source SHA-256: f2565752b81d2da338fdb4568f18284906dfbd8b5702b3d526ba61d8f51672f3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-MTX.ANS by Cryogenic + Immortality (force); released in force-20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fear matrix
-# SAUCE Author: iy / cryo
-# SAUCE Group: force
-# SAUCE Date: 19980601
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: fear matrix by Cryogenic + Immortality | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-20-us-mtx
 
 Write-Host '
     ▄[1m▄[0m▄▄   [36m▄[0;37m  [0;36m▀[0;37m  [0;36m▀▀[0;1;36;46m▀█████████▓▓▒▒░░▒░[0;36m▄▄▄▄▄▄[0m        [36m▄▄▄▄▄▄███[0;37m [0;33m░░▄▄[0;37m [0;33m▀[0m       [33m▀[0;37m [0;33m▄▄░[0m

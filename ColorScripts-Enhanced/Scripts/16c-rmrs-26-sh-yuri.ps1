@@ -1,17 +1,4 @@
-﻿# Converted from: SH-YURI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-26/raw/SH-YURI.ANS
-# Source Revision: archive-sha256:6eb675818067c0505ba67ef50ef4897872453c8d351a5cb9371d3a9a3b417d63
-# Source SHA-256: 3a4a618e398a24de6f6496d402715f9c612cedd5ab4d89e90d9db143740312fa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SH-YURI.ANS by Shiro (Remorse Ascii); released in rmrs-26 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Yuri
-# SAUCE Author: Shiro
-# SAUCE Group: Remorse Ascii
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Yuri by Shiro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-26-sh-yuri
 
 Write-Host '
 [36m☻☻☻[0;1;36m☻s┐[0;1;37m.`''└*☻│☻[0;1;33m☻☻☻$*[0;33m┘²└*4☻☻''[0;1;31m ƒ☻Fj┘'' [0;33m :[0;1;31m j       `''└[0;33m☻  ☻[0;1;31m☻☻☻☻☻ [0;33m:[0;1;31m☻☻☻☻☻☻☻[0m☻☻[1;31m☻☻☻[0m

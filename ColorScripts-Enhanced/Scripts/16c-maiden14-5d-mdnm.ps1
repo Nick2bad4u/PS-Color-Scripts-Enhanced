@@ -1,18 +1,4 @@
-﻿# Converted from: 5D-MDNM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden14/raw/5D-MDNM.ANS
-# Source Revision: archive-sha256:8484fc17833e455250727f80fdc56cc19e17aec4fba2f82e3b86585a9e08cb6c
-# Source SHA-256: 08de25e651389c493d31588fa72112b473c9714a326e60bc911fef491aa0799b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5D-MDNM.ANS by slayer dreams (maiden!); released in maiden14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: MaidenLogo!
-# SAUCE Author: slayer dreams
-# SAUCE Group: maiden!
-# SAUCE Date: 19971024
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: MaidenLogo! by slayer dreams | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden14-5d-mdnm
 
 Write-Host '
                       [1;33m▄[0m                              [31m     [0m

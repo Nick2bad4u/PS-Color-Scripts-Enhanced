@@ -1,18 +1,4 @@
-﻿# Converted from: ROY-TRSC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roy-stuf/raw/ROY-TRSC.ANS
-# Source Revision: archive-sha256:1f203f95f339c258e43a9098f8d2e689ed73de537b1cfe6bea312dfc156f1358
-# Source SHA-256: e0bc406f217e980b35834fb8ec79d0e8a3501f55b58171a7a239af8d5a061b7e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ROY-TRSC.ANS by ROY (READ THE INI FILE); released in roy-stuf and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Trsi Memberconference
-# SAUCE Author: ROY
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19931124
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Trsi Memberconference by ROY | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roy-stuf-roy-trsc
 
 Write-Host '
    [1;34m·[0m            [33m▄▀▀ ▄▀▀▄ [0;33;41m▀[0;33m▀▀▄ ▄▀▀ ▄▀▀ [0;33;41m▀[0;33m▀▀▄ ▄▀▀ [0;33;41m▀[0;33m▀▀▄ ▄▀▀ ▄▀▀[0m

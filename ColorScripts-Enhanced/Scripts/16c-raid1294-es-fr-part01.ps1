@@ -1,18 +1,4 @@
-﻿# Converted from: ES-FR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/raid1294/raw/ES-FR.ANS
-# Source Revision: archive-sha256:6db657953c2bf702e615ee60af4650551f7d0cbe043e196de6d8cd476953dd19
-# Source SHA-256: 689e71da9dd1576535077c1d68ca8b5252a956899d290b30c10b2fb881f75ae3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ES-FR.ANS by Emerald Skelter (RAiD); released in raid1294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Forged Reality
-# SAUCE Author: Emerald Skelter
-# SAUCE Group: RAiD
-# SAUCE Date: 19941126
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Forged Reality by Emerald Skelter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-raid1294-es-fr-part01
 
 Write-Host '
 [1;37;40m  [0m     [1;30m       [0m [1;30m [0m    [1m  [0m

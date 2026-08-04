@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-USER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0597/raw/IZ-USER.ANS
-# Source Revision: archive-sha256:100499c687593fd78c29adf06f5899e8c0d61223958e380a9c31aadb955ab06d
-# Source SHA-256: 58320fc202fbc2bfa25d1179e6c21fbc0a158110c84f2963730b81a29120afed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-USER.ANS by ize (fusion); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: user header
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19970509
-# SAUCE Dimensions: 80x12
-# Lines: 1-12
-# Columns: 1-80
+﻿# Artwork: user header by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0597-iz-user
 
 Write-Host '
                                                                      [1;35m  [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: CY-TGE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz09aug/raw/CY-TGE.ANS
-# Source Revision: archive-sha256:3e0bd3039fe877b3970f71e80b4456ee60793f2295ae127a50a6587b17c2d6a2
-# Source SHA-256: f7e1b198c992d76340efe1edd2acedb1eae2a25346f315960b54228ae0af67ad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CY-TGE.ANS by RevCrayon (Rile); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The great escape
-# SAUCE Author: RevCrayon
-# SAUCE Group: Rile
-# SAUCE Date: 19970418
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: The great escape by RevCrayon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz09aug-cy-tge
 
 Write-Host '
                             ·                                ·

@@ -1,13 +1,4 @@
-﻿# Converted from: MB-LOGO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ceg-009a/raw/MB-LOGO1.ANS
-# Source Revision: archive-sha256:36de4fb416a65a577937e78bfec25dc221c4dcc9c4aa94e7ed574de7854853b0
-# Source SHA-256: f75dcc016fdfadc80b6cb422640513507108a35560e61a4d7574b5fc7e92fb29
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MB-LOGO1.ANS by Mr Byte (ceg-009a); released in ceg-009a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: MB-LOGO1.ANS by Mr Byte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ceg-009a-mb-logo1-part01
 
 Write-Host '
 [1;36m████████▀▀▀██████████████████████▀▀[0;1;37m▄▄▄[0;1;36m▀██▀[0;1;37m▄▄[0;1;36m▀██████████████▀▀[0;1;37m▄▄▄▄[0;1;36m▀▀██████████▀▀█[0m

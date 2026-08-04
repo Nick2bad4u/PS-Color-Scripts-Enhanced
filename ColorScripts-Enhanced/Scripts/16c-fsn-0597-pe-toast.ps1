@@ -1,13 +1,4 @@
-﻿# Converted from: PE!TOAST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0597/raw/PE!TOAST.ANS
-# Source Revision: archive-sha256:100499c687593fd78c29adf06f5899e8c0d61223958e380a9c31aadb955ab06d
-# Source SHA-256: 3ca626de2822d98c8e2a24f3e95147b552d8469335eb22e96eea4137d09a1f17
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PE!TOAST.ANS by Phonyeye (fsn-0597); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: PE!TOAST.ANS by Phonyeye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0597-pe-toast
 
 Write-Host '
 

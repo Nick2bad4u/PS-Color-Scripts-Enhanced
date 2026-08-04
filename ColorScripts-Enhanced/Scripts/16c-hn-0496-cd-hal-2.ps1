@@ -1,18 +1,4 @@
-﻿# Converted from: CD-HAL#2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hn-0496/raw/CD-HAL%232.ANS
-# Source Revision: archive-sha256:913310781509e66bf4153ee79ee96d9bb402ed530e32d248aea0e8329b769db6
-# Source SHA-256: 1991dff2adc01a4596f0167752d47f9e9d07bf1debc316377cc48380b9d96e7c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CD-HAL#2.ANS by CoMrAdE (HaLLUCi NaTiON); released in hn-0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Halluci Nation #2
-# SAUCE Author: CoMrAdE
-# SAUCE Group: HaLLUCi NaTiON
-# SAUCE Date: 19960213
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Halluci Nation #2 by CoMrAdE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hn-0496-cd-hal-2
 
 Write-Host '
 

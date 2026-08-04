@@ -1,18 +1,4 @@
-﻿# Converted from: ViiX2 - SPH - HORSE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/viix2ii/raw/ViiX2%20-%20SPH%20-%20HORSE.ANS
-# Source Revision: archive-sha256:6b58db64a496db7dca4458b96e985fd3167eddf90989e07fbdc9d0b35b24d182
-# Source SHA-256: cb2b68ac3c3cedc9c721cf70d69b473481666e6998ff84794a087c5d6d06aa55
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ViiX2 - SPH - HORSE.ANS by sephiroth (viix2); released in viix2ii and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: horse
-# SAUCE Author: sephiroth
-# SAUCE Group: viix2
-# SAUCE Date: 20051204
-# SAUCE Dimensions: 80x66
-# Lines: 32-66
-# Columns: 1-80
+﻿# Artwork: horse by sephiroth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-viix2ii-viix2-sph-horse-part02
 
 Write-Host '
                        [30;47m█[0;1;30;40m█[0;1;30;43m▀░[0;33m██▀▌[0;1;30m▐[0;1;30;43m▓░[0;33m█▌[0;1;30m▓[0;1;30;43m▓[0;33m██[0;33;47m▓[0;33;40m██░[0;1;30;40m█[0;33m██▄▌ [0m    [35m     [0m     [1;30m▄[0;1;30;43m▀▀[0;1;30;40m▀█[0;1;30;43m █[0m [1;30m█[0;1;30;43m▀▀ [0;1;30;40m█░█[0m

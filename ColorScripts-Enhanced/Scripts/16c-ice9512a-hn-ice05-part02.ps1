@@ -1,18 +1,4 @@
-﻿# Converted from: HN-ICE05.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9512a/raw/HN-ICE05.ICE
-# Source Revision: archive-sha256:4030957a38a6c532250e7b5d72d2d1e2534a6871d5254eac6b842adfae93f5ac
-# Source SHA-256: add34833da6921363ac307e8e14e71a856193981e769cc47fe936854c1a7685e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HN-ICE05.ICE by Highness (iCE); released in ice9512a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: iCE(tm) Advertisements
-# SAUCE Author: Highness
-# SAUCE Group: iCE
-# SAUCE Date: 19960101
-# SAUCE Dimensions: 80x75
-# Lines: 39-75
-# Columns: 1-80
+﻿# Artwork: iCE(tm) Advertisements by Highness | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9512a-hn-ice05-part02
 
 Write-Host '
 [1;34;40m██▄[0m [1;32;42m▒[0;32m█[0;1;32;42m░▓[0;1;32;40m▄[0;32m▄[0m [31m▀[0m [32m████████████████████▀▀▀[0m [37m▄▄▄▄[0;1;37;47m▒▒▒▓▓▓[0;1;37;40m▀░██████ ███████▌▐█████████▓▄▄[0m [1;31;40m█[0m

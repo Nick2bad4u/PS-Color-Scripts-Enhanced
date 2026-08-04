@@ -1,18 +1,4 @@
-﻿# Converted from: PT-SYSX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-0297/raw/PT-SYSX.ANS
-# Source Revision: archive-sha256:05d734ffa62e5884411f00e8c0f6959c06f165738a13021b90f9ca088ae9d885
-# Source SHA-256: a2bcdddc02b7caf8feb8e43c9e2b40a2db0c13195bdccbab8146205f4eb491f7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PT-SYSX.ANS by paratoxic (RCA); released in rca-0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: System X
-# SAUCE Author: paratoxic
-# SAUCE Group: RCA
-# SAUCE Date: 19970209
-# SAUCE Dimensions: 80x45
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: System X by paratoxic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-0297-pt-sysx
 
 Write-Host '
      [31m░▄▄▄▄░▄▄▄▄[0m      [30m                            [0m

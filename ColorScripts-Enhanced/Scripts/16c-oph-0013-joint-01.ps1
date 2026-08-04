@@ -1,18 +1,4 @@
-﻿# Converted from: JOINT-01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oph-0013/raw/JOINT-01.ANS
-# Source Revision: archive-sha256:5e625c36cc911c4dcde4a3790624d86c03458fb68ba127d178ce0ea486babf74
-# Source SHA-256: 0a7ba1bc2634645152236f1f1517d8882c97e71d50609faed0d814df41e43ee4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JOINT-01.ANS by Fever + Arsen (ophidiac); released in oph-0013 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: [20       __[\[[
-# SAUCE Author: arsen / fever
-# SAUCE Group: ophidiac
-# SAUCE Date: 19960816
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: [20 __[\[[ by Fever + Arsen | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oph-0013-joint-01
 
 Write-Host '
         [30;45m▀▀▀▀▀[0;1;35;45m▄▒▄[0;30;45m ▄[0m   [31;40m■[0m   [30;41m▄▄[0;37;40m  [0;30;45m▓░[0;1;35;45m░[0;30;45m▀▀▀██[0m      [30;45m▀[0m     [30;41m▀[0;37;40m [0;31;40m■[0;37;40m [0;30;41m▀[0m              [30;41m▀[0m   [30;45m▀▀[0;1;35;45m▄▄[0;30;45m░▒▓█[0m

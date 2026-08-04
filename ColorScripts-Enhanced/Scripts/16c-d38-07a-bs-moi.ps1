@@ -1,17 +1,4 @@
-﻿# Converted from: BS--MOI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-07a/raw/BS--MOI.ANS
-# Source Revision: archive-sha256:6502b6f7b940f1799a6ba4f4b08910561aba3d74e01448e36157cb66de10c8c7
-# Source SHA-256: f51825f3c13c8ea41b27ffe08898bf9e14c29dc65a00ed4eff3c3f8a4ad971c2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS--MOI.ANS by blind sniper (Department 38); released in d38-07a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: elite special force,
-# SAUCE Author: blind sniper
-# SAUCE Group: Department 38
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: elite special force, by blind sniper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-07a-bs-moi
 
 Write-Host '
              [35m  [0m       [31m▄▄▄▄▄[0m               [31m░▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;31;41m░░[0;31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: ESS!LOGF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-001/raw/ESS!LOGF.ANS
-# Source Revision: archive-sha256:7435b1c9938dec461ab33b42b3dd164ea7e98ecfff30ea4d3df5a8e59194b0a3
-# Source SHA-256: 5870387737c476e9a17bc9ac196a4241dfce550ba3056658ec01b4cf1d5b8d97
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ESS!LOGF.ANS by Essence (rARE!ASCii); released in rare-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Legend Logoff
-# SAUCE Author: Essence
-# SAUCE Group: rARE!ASCii
-# SAUCE Date: 19980305
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: The Legend Logoff by Essence | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-001-ess-logf
 
 Write-Host '
 [1m[0m[1;30m[0;33m[0;1;33m[0;33m[0m[37m[0;33m[0m[1;37m[0m[1m[0m    ;$$; [33miIS[0;1;33m$$[0;1;37m$$[0;1;33mSl;[0;33m;[0;1;30m:     [0m               [33m     [0;37m  [0;33m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: HOS-SD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9612/raw/HOS-SD1.ANS
-# Source Revision: archive-sha256:7053afed6e742c75d943ea86bb6e43e9d362e1c6f64e894c811e4835a8b40e13
-# Source SHA-256: 7cc868c3575f62414d75630bff1bffaa7b7c31a9831a706cb103dc2324490729
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HOS-SD1.ANS by Hos (AWE Lettering); released in awe9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Syndetic BBS Software
-# SAUCE Author: Hos
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961201
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Syndetic BBS Software by Hos | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9612-hos-sd1
 
 Write-Host '
 [1;30m            [0m                               [32m▬[0m

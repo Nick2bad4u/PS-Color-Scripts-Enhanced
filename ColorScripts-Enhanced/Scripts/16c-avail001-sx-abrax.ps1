@@ -1,17 +1,4 @@
-﻿# Converted from: SX-ABRAX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avail001/raw/SX-ABRAX.ANS
-# Source Revision: archive-sha256:9cbaa787b6662030e213c61424dac56ad6a32dd1e4c1c3746be3d708384511f0
-# Source SHA-256: 4e14c19d675c8a006d8144d1314b2e7fcaa73f6cd1404a4603f7d7a7a133856f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SX-ABRAX.ANS by Sinister x (aVaiL); released in avail001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: !Abraxis
-# SAUCE Author: Sinister x
-# SAUCE Group: aVaiL
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: !Abraxis by Sinister x | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avail001-sx-abrax
 
 Write-Host '
                                      ▄▄

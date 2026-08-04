@@ -1,18 +1,4 @@
-﻿# Converted from: CZ-OCHO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-11/raw/CZ-OCHO1.ANS
-# Source Revision: archive-sha256:124f5de71b4943d1edf363ae27ec83def11b741938d7ad78955f12dc3ea0753e
-# Source SHA-256: 9375e062777cb33eef01ee132bd617e4e9864d21674cb0064d1b230d050088bf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CZ-OCHO1.ANS by cheezdawg (ECLiPSE PRODUCTiONS); released in ecl-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 8? ate? ocho!
-# SAUCE Author: cheezdawg
-# SAUCE Group: ECLiPSE PRODUCTiONS
-# SAUCE Date: 19970103
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: 8? ate? ocho! by cheezdawg | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-11-cz-ocho1
 
 Write-Host '
                                       [1;31m     [0m

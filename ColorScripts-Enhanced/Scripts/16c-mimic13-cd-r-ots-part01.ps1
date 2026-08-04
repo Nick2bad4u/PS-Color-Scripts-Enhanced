@@ -1,13 +1,4 @@
-﻿# Converted from: cd!r-ots.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic13/raw/cd!r-ots.ans
-# Source Revision: archive-sha256:b89761bf015402998f9d650a98f03d2e2b0bb5c6784fc4e3199726c9428917de
-# Source SHA-256: 316abb82ec258f97281e07834259598c2979cd037c904ebae2800273b1174ae3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cd!r-ots.ans by Cat-Dog (mimic13); released in mimic13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: cd!r-ots.ans by Cat-Dog | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic13-cd-r-ots-part01
 
 Write-Host '
                      [1;31m_.┌y%%%%y┐.[0m            .┌S[1m$$S┐.[0m

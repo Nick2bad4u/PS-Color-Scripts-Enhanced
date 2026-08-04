@@ -1,18 +1,4 @@
-﻿# Converted from: US-UPR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise07/raw/US-UPR.ANS
-# Source Revision: archive-sha256:e9fb6933d41a936134d4f2611eadee07355a10c1a02cff6221e1c572c3d24d6d
-# Source SHA-256: 7698ee4c8791bcf54b6e3e2c71ad69d29dd09572f989ae9435eeb5344f5edf04
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-UPR.ANS by Sephiroth + Cleaner (Uprise); released in uprise07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Uprise^Logo
-# SAUCE Author: Cleaner + Sephiroth
-# SAUCE Group: Uprise
-# SAUCE Date: 19980723
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Uprise^Logo by Sephiroth + Cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise07-us-upr
 
 Write-Host '
 [30;44m▓▓▓▓▓▓▓▓█[0m

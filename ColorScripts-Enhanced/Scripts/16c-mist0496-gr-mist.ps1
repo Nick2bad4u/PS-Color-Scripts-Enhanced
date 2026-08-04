@@ -1,18 +1,4 @@
-﻿# Converted from: GR_MIST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0496/raw/GR_MIST.ANS
-# Source Revision: archive-sha256:be1a395f385261920c9bce8fb9a4a50e5287b1be7689ad97116617524efc6b52
-# Source SHA-256: 54b1abb4d333a64c6b9124629362042ad4fd057b3c8590466429423740187380
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GR_MIST.ANS by Grim Reaper (Mistigris); released in mist0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Typical Logos!
-# SAUCE Author: Grim Reaper
-# SAUCE Group: Mistigris
-# SAUCE Date: 19960306
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Typical Logos! by Grim Reaper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0496-gr-mist
 
 Write-Host '
 

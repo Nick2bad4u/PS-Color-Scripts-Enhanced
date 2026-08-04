@@ -1,18 +1,4 @@
-﻿# Converted from: SK!JASPE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bafh-pack5/raw/SK!JASPE.ANS
-# Source Revision: archive-sha256:f6ffd5d60c996e02e8fb877cf3a2f1c62a6faf406b40b5531913c875caf43a2d
-# Source SHA-256: a3220e9ffdb8fb215905d0280684dbb7da50ca421603f05e4f06bc2f8b8e5753
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!JASPE.ANS by sIMONkING (thelo0p); released in bafh-pack5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: jASPER lOGO
-# SAUCE Author: sIMONkING
-# SAUCE Group: thelo0p
-# SAUCE Date: 20020308
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: jASPER lOGO by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bafh-pack5-sk-jaspe
 
 Write-Host '
                        ▐[1m▄[0m       [1;30m▄▄[0m  [1;30m▀▄[0m                  ▄[1m▄▄▄[0m  [1;47m██▓▓[0m     [1;30m▀      [0m

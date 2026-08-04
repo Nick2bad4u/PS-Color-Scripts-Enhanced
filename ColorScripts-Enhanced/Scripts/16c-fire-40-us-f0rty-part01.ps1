@@ -1,19 +1,4 @@
-﻿# Converted from: US-F0RTY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-40/raw/US-F0RTY.ANS
-# Source Revision: archive-sha256:aff8105c0a955ac5c43ea367a02b086cd2849f6741fc41b8a5ff440b77e104a7
-# Source SHA-256: 47d6b5bac82c8310106b578c6b071b6fc507900e196225893e7dc655b29203df
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-F0RTY.ANS by Savage + ZIR (FiRE); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: godzilla, skyscraper, playing chess
-# SAUCE Author: savage + zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20240707
-# SAUCE Dimensions: 80x166
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: godzilla, skyscraper, playing chess by Savage + ZIR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-40-us-f0rty-part01
 
 Write-Host '
 [37;40m [0;34;40m░░░[0;37;40m  [0;34;40m░░░░[0;37;40m  [0;34;40m░[0;37;40m   [0;34;40m░[0;37;40m  [0;34;40m░░░[0;37;40m    [0;34;40m░░░[0;37;40m   [0;34;40m░░░░[0;37;40m [0;34;40m░░  ░░░░[0;37;40m   [0;34;40m░[0;37;40m [0;34;40m░░[0;37;40m   [0;34;40m░░░[0;37;40m [0;34;40m░░[0;37;40m  [0;34;40m░░░░[0;37;40m   [0;34;40m░░░[0;37;40m   [0;34;40m░░░[0m

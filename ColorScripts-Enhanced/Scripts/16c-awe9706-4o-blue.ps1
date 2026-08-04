@@ -1,18 +1,4 @@
-﻿# Converted from: 4O-BLUE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9706/raw/4O-BLUE.ANS
-# Source Revision: archive-sha256:867680f5fb3c86dcb017d8ed4cd79085881689d65da90056f84aba519ae4bdfe
-# Source SHA-256: 30f41ae1e29c965aa06b7f94663d58f634a0e82aa45982bd50633677023db2e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 4O-BLUE.ANS by Mr4tune (AWE Lettering); released in awe9706 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Blue
-# SAUCE Author: Mr4tune
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970604
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Blue by Mr4tune | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9706-4o-blue
 
 Write-Host '
 [34m▄[0;1;34;44m▄█▄[0m  [36m▄█[0;1;33;46m▄[0;36m▄[0;37m [0;1;30m▀[0;1;30;47m▓[0;1;30;40m▀▄▄▀ ▄▀[0m [34m ▄▄ ▄▄▌[0;37m [0;36m▐[0;1;36;46m▄▌[0;35m [0;36m▄[0;1;36;46m▄▓▒░[0;36m▀[0;1;30m▀[0m [34m▄▄▄[0;37m ▀[0;1;30m▀[0m [34m▄[0;1;34;44m░[0;34m▄▄▀[0;37m [0;34m▄[0;1;34;44m░[0;34m▄[0;37m ▀[0;1;30m▀[0m  [1;33m▄[0;1;37m▄▀[0m  [34m█[0;1;34;44m▄░[0;34m▄▄▀[0;1;34;44m▀░[0;34m█▄▄[0;37m [0;1;30m▀[0m

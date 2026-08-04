@@ -1,13 +1,4 @@
-﻿# Converted from: tsk-fus1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/reunion02/raw/tsk-fus1.ans
-# Source Revision: archive-sha256:96373910879aaeef56ec93cdb037a3ea200c9a9f2e45a43873cda58ee68480a0
-# Source SHA-256: 8fbe94303af8fb5aa201400ed927c2ec051b4ead6a2653397a41302d72584269
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tsk-fus1.ans by The Silent Killer (reunion02); released in reunion02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: tsk-fus1.ans by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-reunion02-tsk-fus1
 
 Write-Host '
 

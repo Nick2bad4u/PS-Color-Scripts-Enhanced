@@ -1,16 +1,4 @@
-﻿# Converted from: gee-piss.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/duodaughters01/raw/gee-piss.ans
-# Source Revision: archive-sha256:107dcc7639647744884177ba1bc2147746cc2fe523012ebd967c4f8ee48caaef
-# Source SHA-256: 7a819bd7f2128964503928f97008f5e5e56ed6947f09a2957dc7668eb163a23d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: gee-piss.ans by Energeezer (duodaughters01); released in duodaughters01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 20151210
-# SAUCE Dimensions: 80x109
-# SAUCE Font: IBM VGA
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: gee-piss.ans by Energeezer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-duodaughters01-gee-piss-part01
 
 Write-Host '
 [37;40m████████████████████████████████████████████████████████████████████████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: T-PREV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-03/raw/T-PREV.ANS
-# Source Revision: archive-sha256:9ea26ff16b2d0162532c602fba75b69e539d71620a3b4e34b796de886326619c
-# Source SHA-256: 8e75f4ae814ba217ede019484cf704f6b77506fb0532ddb11c74e9d3eb89e641
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T-PREV.ANS by toot (nerp); released in nerp-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: prevail
-# SAUCE Author: toot
-# SAUCE Group: nerp
-# SAUCE Date: 19971224
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: prevail by toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-03-t-prev
 
 Write-Host '
 [1;33;43m░░▓▓█████▌▀[0;33;41m▓▓░░[0;31;40m▓░[0;37;40m [0;31;40m█[0;1;31;41m█[0;1;31;47m▓▓░░ [0;1;37;47m▀░░[0;1;31;47m▐▄▄█▄[0;1;31;41m██▓░ [0;31m▓▓░░ [0;34m░▓███[0;1;34m▒▒[0;1;34;44m░░░[0;34m██████[0;1;33;44m▀[0;36;44m▌[0;34;40m█[0;36;44m▀█[0;1;33;46m▀██[0;1;37;44m██[0;1;33;46m▓▓░░[0;36;44m░[0;34;40m░▐[0;1;34;44m█[0;1;34;47m▓[0;1;34;44m▌[0m

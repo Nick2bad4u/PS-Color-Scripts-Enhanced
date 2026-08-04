@@ -1,17 +1,4 @@
-﻿# Converted from: KA-VM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/utd-0495/raw/KA-VM.ANS
-# Source Revision: archive-sha256:0d1a82ad3d13d836a92b422703d06a1d6a82ae4f50721578a08763a2338a2df8
-# Source SHA-256: 03be971297d3eee135fb5d1398f82534b87fb504c500303e1d07a898f5b22cec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KA-VM.ANS by Kamui (United); released in utd-0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Victory Mansions
-# SAUCE Author: Kamui
-# SAUCE Group: United
-# SAUCE Date: 20950316
-# Lines: 41-78
-# Columns: 1-80
+﻿# Artwork: Victory Mansions by Kamui | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-utd-0495-ka-vm-part02
 
 Write-Host '
 [33m▀▄█▀  ▄▄  [0;1;31m█████ [0;1;37m██████████▀  ██████ [0;1;31m██ [0;1;37m███████▀  ██████████▀[0;1;31m▄███████ [0;33m▄█▄ [0;1;30m██████[0m

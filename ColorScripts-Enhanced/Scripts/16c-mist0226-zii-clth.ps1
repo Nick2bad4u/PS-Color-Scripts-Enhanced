@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-CLTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0226/raw/ZII-CLTH.ANS
-# Source Revision: archive-sha256:ef03a5a095d5c0479664f99ff23399e245703c452ca9d05ea2957005177022f9
-# Source SHA-256: 9a66cc5e41238b4bb3283364fd2ec5b193fbacc97cf2cce035145ed2acf59af2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-CLTH.ANS by Zeus II (Mistigris); released in mist0226 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260118
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ZII-CLTH.ANS by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0226-zii-clth
 
 Write-Host '
     [36m▄▀[0;37m      [0;1;36;46m▀▓▄[0;36m▀ ▄                          [0;1;30m▄▄▀ ▄▀ ▄▀  ▄ ▀▄ ▀▄▄█▄▄▀▀▀       [0;32m▄[0;1;32m▄[0m

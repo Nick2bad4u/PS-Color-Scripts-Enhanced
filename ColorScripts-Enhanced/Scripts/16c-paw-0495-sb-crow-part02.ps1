@@ -1,18 +1,4 @@
-﻿# Converted from: SB-CROW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/paw-0495/raw/SB-CROW.ANS
-# Source Revision: archive-sha256:b37782f0b3cbd36928669e3c3f79651eca29a9eb5d3f4a9871c6633bbb6bb1d6
-# Source SHA-256: cf4c307117e67078651dd974aae988bbd89afa73dcc222209a36d12a34aa2a91
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SB-CROW.ANS by Silver Blade (Paw); released in paw-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Crow'S nest
-# SAUCE Author: Silver Blade
-# SAUCE Group: Paw
-# SAUCE Date: 19950331
-# SAUCE Dimensions: 80x125
-# Lines: 40-81
-# Columns: 1-80
+﻿# Artwork: The Crow'S nest by Silver Blade | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-paw-0495-sb-crow-part02
 
 Write-Host '
           [34m [0m               [34m▀▄[0;1;34;44m▒[0;34m▌[0m [34m▌[0m [1;34;44m▓[0m [34m█▌▐▌[0;1;30m  [0;1;34;44m░[0;1;30;40m      [0;34m▒[0;1;30m [0;34m▐[0;1;30m  [0;34m▓▌[0;1;30m [0;34m█[0;1;30m [0m

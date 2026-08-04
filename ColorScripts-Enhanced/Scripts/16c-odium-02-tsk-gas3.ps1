@@ -1,18 +1,4 @@
-﻿# Converted from: TSK-GAS3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-02/raw/TSK-GAS3.ANS
-# Source Revision: archive-sha256:47a67f112d88796e8c1419ea3c6c084684ff2719dfc540b2668a69dc0343be0d
-# Source SHA-256: 3d08d600f288ede1473f9adf90fb72f6ff74fa6f4b78eb7e7d4dd4e5fd39fa26
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-GAS3.ANS by the stupid kunt (odium); released in odium-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the gas chamber
-# SAUCE Author: the stupid kunt
-# SAUCE Group: odium
-# SAUCE Date: 19951226
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: the gas chamber by the stupid kunt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-02-tsk-gas3
 
 Write-Host '
 [1;30modium[0m               [1m▄[0;1;44m█[0;1;40m▄[0m         [1m ▐█▄[0m

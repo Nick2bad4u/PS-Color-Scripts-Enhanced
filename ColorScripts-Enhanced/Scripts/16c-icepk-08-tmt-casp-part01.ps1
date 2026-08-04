@@ -1,13 +1,4 @@
-﻿# Converted from: TMT-CASP.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-08/raw/TMT-CASP.ICE
-# Source Revision: archive-sha256:76472331bcb8543f1e44f2a59ee8f7524c6af6373e89562b7fabb9e022104140
-# Source SHA-256: 4f45fb9838db8503a1686aed0c47be0d2fc8975f55975e932f2fc15f5fd3df1f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TMT-CASP.ICE by The Malevolent Trickster (icepk-08); released in icepk-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: TMT-CASP.ICE by The Malevolent Trickster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-08-tmt-casp-part01
 
 Write-Host '
 

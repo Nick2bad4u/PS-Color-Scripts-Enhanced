@@ -1,17 +1,4 @@
-﻿# Converted from: US-JESUS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/b2k-007/raw/US-JESUS.ANS
-# Source Revision: archive-sha256:3e03211a3f1562019157324a3b7c84ab87167511fc7e95c85af01fc80c220db7
-# Source SHA-256: c6b239923b0fcb4c2d0bc3bb554b3e41d40fad993cb40a73642e80220f499e4d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-JESUS.ANS by Toot + Polygon + Ansichrist (black maiden); released in b2k-007 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: toot
-# SAUCE Group: black maiden
-# SAUCE Date: 19990530
-# SAUCE Dimensions: 80x1000
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: US-JESUS.ANS by Toot + Polygon + Ansichrist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-b2k-007-us-jesus-part01
 
 Write-Host '
                               [34m░░▓█████[0;1;34;44m░░░░░░░░[0;34m██▓░▓██████[0;1;34;44m░░░░░░░░░░░░░▓▓▓▓▓░░░░[0;34m█[0m

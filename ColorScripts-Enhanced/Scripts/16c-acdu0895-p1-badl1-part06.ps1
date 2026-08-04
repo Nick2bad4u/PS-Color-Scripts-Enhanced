@@ -1,18 +1,4 @@
-﻿# Converted from: P1-BADL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0895/raw/P1-BADL1.ANS
-# Source Revision: archive-sha256:3becf3c2c00dadeb41257fa85bb842a48deb8515cdc494db0d9ff697d2e04d12
-# Source SHA-256: c65b797ab15e0aa424df623f461f2cf10b464938bbb7c25c3cbb6f99225071aa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P1-BADL1.ANS by prisonernumberone (ACiD Productions); released in acdu0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The BadLands
-# SAUCE Author: prisonernumberone
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950801
-# SAUCE Dimensions: 80x274
-# Lines: 232-274
-# Columns: 1-80
+﻿# Artwork: The BadLands by prisonernumberone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0895-p1-badl1-part06
 
 Write-Host '
    [35m█[0;1;31;45m▓▓▒▓[0;35m█[0m [35m [0m [36m▄[0m [34m░░[0m   [35m ▄▄▀[0m [35m█[0;1;31;45m▒▒▒▓[0;35m█[0m [34m░ [0m      [34m░[0m   [35m█[0;1;31;45m████[0;35m█[0;37m [0;35m [0;34m░░[0;37m [0;34m░░ [0;37m [0;35m█[0;1;31;45m████[0;35m█▌[0;37m     [0m

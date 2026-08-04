@@ -1,19 +1,4 @@
-﻿# Converted from: sm-ugarmy.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel30/raw/sm-ugarmy.ans
-# Source Revision: archive-sha256:e3148e82a669aa484baf0738069fbabe44ba2824856e1cb4b05875b86bdd4621
-# Source SHA-256: 8956ec371ea003e0cb6b748daa680bcf82262cb63ba5699460b0689c88dd037d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sm-ugarmy.ans by Smooth (Fuel); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Underground Army
-# SAUCE Author: Smooth
-# SAUCE Group: Fuel
-# SAUCE Date: 20190630
-# SAUCE Dimensions: 80x135
-# SAUCE Font: IBM VGA
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Underground Army by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel30-sm-ugarmy-part01
 
 Write-Host '
                                                                [35;40m░[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-CHQL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0221/raw/ZII-CHQL.ANS
-# Source Revision: archive-sha256:4a8c9a8001bc7db23e62733bd188b07e2f92f8b5caca34bf87f4e45dd922c1a0
-# Source SHA-256: 40f55e7ac35513c2956633bfcff4c1bf31c78dd599097664e68dc5b0ec5c216e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-CHQL.ANS by Zeus II (Mistigris); released in mist0221 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: CHQ Logo
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20210110
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: CHQ Logo by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0221-zii-chql
 
 Write-Host '
            [1;30m▄▄[0m        [36m▄[0;1;33m▄▄▄[0;36m▄[0;37m  [0;1;30m▄▄[0m [1;30m▀[0m [36m▄[0;1;33;46m■[0m                       [31m▄[0;1;36m▄▄[0;31m▄▀[0;1;36m▀▀▀▀[0;31m▀[0;1;36m▀[0;31m▀█[0m

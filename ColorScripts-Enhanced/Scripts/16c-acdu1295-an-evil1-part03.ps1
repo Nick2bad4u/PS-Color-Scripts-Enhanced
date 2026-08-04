@@ -1,18 +1,4 @@
-﻿# Converted from: AN-EVIL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1295/raw/AN-EVIL1.ANS
-# Source Revision: archive-sha256:8b2aeb495b44e4fe40c88334cd96b390eca2f913c4b5790d916cbc8fc3499bdb
-# Source SHA-256: 91378e421ea46da96ad3e0e32ea760ea17c06a5002388b68d29bfcb3abeed810
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AN-EVIL1.ANS by Anubis (ACiD Productions); released in acdu1295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Evil Intentions
-# SAUCE Author: Anubis
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19951201
-# SAUCE Dimensions: 80x102
-# Lines: 74-101
-# Columns: 1-80
+﻿# Artwork: Evil Intentions by Anubis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1295-an-evil1-part03
 
 Write-Host '
 [36m█▀▀[0;37m░[0;36m  [0;1;33m [0;33m░[0;37m [0;33m░[0m [37m [0;1;30m▄▄[0;1;30;47m▓▒[0m▀[36m▄▄█████████▄[0;1;30m▀█████▀ ▀█   [0m         [1;30;42m▒[0m [1;30;42m▒[0m [1;30;42m▒[0m [1;30;42m▓[0m [33m▄[0;37;43m▒[0;33;40m▀ ▀███[0;1;30;43m░▒▓[0m  [32m█[0m [33m  [0;32m [0;33m   [0m

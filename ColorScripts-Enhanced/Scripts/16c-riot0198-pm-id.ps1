@@ -1,13 +1,4 @@
-﻿# Converted from: PM-ID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot0198/raw/PM-ID.ANS
-# Source Revision: archive-sha256:7952109d83ab43458509eae0ab06692cf4f74f0e9e4252a478e28e2dff87767e
-# Source SHA-256: efceeb234f745dbe4a91973280bca0a0e82e4b75466d37678b85de9533dc50ac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-ID.ANS by Precious Metal (riot0198); released in riot0198 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: PM-ID.ANS by Precious Metal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot0198-pm-id
 
 Write-Host '
                             [31m▌[0m                 [31m█[0;1;33;41m▓[0;1;33;40m██[0m  [1;33m▄███▌█▄▄[0m

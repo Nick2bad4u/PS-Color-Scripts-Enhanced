@@ -1,13 +1,4 @@
-﻿# Converted from: 04-FINAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/swap06/raw/04-FINAL.ANS
-# Source Revision: archive-sha256:926154aaace1633e51cc158f24c89ba8bba7cc871e944df2a19ea96f18603e2e
-# Source SHA-256: 0caaccb70012b0f1f38a8e4ddb919d5a83014021f1ab27f6d29ed431acd7d245
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 04-FINAL.ANS by Widowmaker + Trahma + Black Viper + Cheeze + Dieznyik + Illusion X + Nail (swap06); released in swap06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: 04-FINAL.ANS by Widowmaker + Trahma + Black Viper + Cheeze + Dieznyik + Illusion X + Nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-swap06-04-final
 
 Write-Host '
 [33m     ▄▄[0m          [33mweird.[0m

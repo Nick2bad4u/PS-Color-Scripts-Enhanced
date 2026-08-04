@@ -1,18 +1,4 @@
-﻿# Converted from: SM-UG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl-0295/raw/SM-UG1.ANS
-# Source Revision: archive-sha256:eaf162c007b15a73ec8ddc40aa3b63ccc7c10a1aa835bd918a225b4fe7dc9196
-# Source SHA-256: b0f7debebad0b463af9ece90c0e9f7cf38e074071ac18a186ce2db6297801d88
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-UG1.ANS by Smooth (TekLordZ); released in tl-0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: UnderGrown Promo
-# SAUCE Author: Smooth
-# SAUCE Group: TekLordZ
-# SAUCE Date: 19950208
-# SAUCE Dimensions: 80x87
-# Lines: 44-87
-# Columns: 1-80
+﻿# Artwork: UnderGrown Promo by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl-0295-sm-ug1-part02
 
 Write-Host '
                  [32m▒▄▄[0m [32m▀░[0m

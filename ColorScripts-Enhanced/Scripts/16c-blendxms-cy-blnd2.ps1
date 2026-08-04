@@ -1,18 +1,4 @@
-﻿# Converted from: CY-BLND2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blendxms/raw/CY-BLND2.ANS
-# Source Revision: archive-sha256:1539692350814531ceec0f95558508df1809c483c52a4b6f3f02993299b5fe16
-# Source SHA-256: f09494a440ebc3c9f1f4cb62fec11313e388e60e7bf2b338a72ff6d2355ab72c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CY-BLND2.ANS by Reverend Crayon (Blend); released in blendxms and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Take a damn guess
-# SAUCE Author: Reverend Crayon
-# SAUCE Group: Blend
-# SAUCE Date: 19961223
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Take a damn guess by Reverend Crayon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blendxms-cy-blnd2
 
 Write-Host '
    [1m▄▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: LB-MEM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca15-a/raw/LB-MEM.ANS
-# Source Revision: archive-sha256:9b3ffc1306b5fd493eeab3ea63762e0c761f90e1b26cf8dffddf39a511fbd0e2
-# Source SHA-256: ffe096b577b34f49599d908fe5ba2de38bf469127d948cf79519cee31cb1090c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LB-MEM.ANS by Lady Blue + Kitiara (rca15-a); released in rca15-a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: LB-MEM.ANS by Lady Blue + Kitiara | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca15-a-lb-mem
 
 Write-Host '
 

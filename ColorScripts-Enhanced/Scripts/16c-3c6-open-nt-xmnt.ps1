@@ -1,13 +1,4 @@
-﻿# Converted from: NT-XMNT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/3c6-open/raw/NT-XMNT.ANS
-# Source Revision: archive-sha256:48a057a32817733445ae90a1c66b8604c10e555e1293348fc9c323a6f73930f4
-# Source SHA-256: eade87ecc9d8e6bd2e59f9848b797723032a321a3a67804843c1b016103b0d03
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NT-XMNT.ANS by Nootropic (3c6-open); released in 3c6-open and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: NT-XMNT.ANS by Nootropic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-3c6-open-nt-xmnt
 
 Write-Host '
 ────────────────────────────────────────────────────────────────────────────────

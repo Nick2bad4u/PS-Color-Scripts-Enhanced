@@ -1,13 +1,4 @@
-﻿# Converted from: JESTER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansi/raw/JESTER.ANS
-# Source Revision: archive-sha256:50aaa63d173fc2f34f94b8a5b526a5ee8a8b9d7908c42264ab949073e7e0edf9
-# Source SHA-256: 1a373e23296ee1fa2ac69054703c302720a680116866e454efc9af9eb17ab880
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JESTER.ANS by Mad Dog (ansi); released in ansi and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: JESTER.ANS by Mad Dog | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansi-jester
 
 Write-Host '
 

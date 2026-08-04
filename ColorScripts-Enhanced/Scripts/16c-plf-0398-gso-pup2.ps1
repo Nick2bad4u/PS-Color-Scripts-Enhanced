@@ -1,18 +1,4 @@
-﻿# Converted from: GSO-PUP2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0398/raw/GSO-PUP2.ANS
-# Source Revision: archive-sha256:f8b78bce0ded523528171ee9d37c603a9a96c5e8abf885d101375334b587e435
-# Source SHA-256: 767dbce9061444f67764dd2014ce72281c70f63f6a12714c0d501e3dbf3c29d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GSO-PUP2.ANS by gasol (plf); released in plf-0398 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: puppetmaster logo!@#
-# SAUCE Author: gasol
-# SAUCE Group: plf
-# SAUCE Date: 19980313
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: puppetmaster logo!@# by gasol | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0398-gso-pup2
 
 Write-Host '
                   [35m░░[0;30;45m▓[0m        [35;40m▄[0;1;35;40m▄▄[0;35m▄[0m

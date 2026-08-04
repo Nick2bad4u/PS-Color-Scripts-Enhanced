@@ -1,17 +1,4 @@
-﻿# Converted from: BV-SS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0696/raw/BV-SS.ANS
-# Source Revision: archive-sha256:812b4b6a142b76b92307dc090cdf58b49035a2b9097d1dc0a43da5e4fd3f4f2d
-# Source SHA-256: b1a2539e1620d00a4bd8a6ec7483aaea39e1189e94ad131d0f9e10a19351e94c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BV-SS.ANS by Black Viper (fire0696); released in fire0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: System Shock
-# SAUCE Author: Black Viper
-# SAUCE Date: 19960607
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: System Shock by Black Viper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0696-bv-ss
 
 Write-Host '
 [1m▓▓██████████████████████████████▀  [0;30;44m▓▓[0;34;40m▄▄▓▄ ▄ ░░  ▄[0;1;34;44m░▒[0;34m▀▀▀░░[0;37m [0;34m▀[0;1;34;44m░[0;34m■▄▄[0m        [1;37m ▀▀█████▄ [0m

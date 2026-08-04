@@ -1,18 +1,4 @@
-﻿# Converted from: FR-AVMTX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9705/raw/FR-AVMTX.ANS
-# Source Revision: archive-sha256:42f41174635a4b9e44304d5d0f48b9b5aa0b6be93e48c5ea196226a31ced9fa8
-# Source SHA-256: 73de8f862cace476f25ab6edda0252e237124c56747515b90486c39b429070ae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FR-AVMTX.ANS by feaRprOphet (csf/mdn/aif); released in mdn-9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: avatar bOard matrix
-# SAUCE Author: feaRprOphet
-# SAUCE Group: csf/mdn/aif
-# SAUCE Date: 19970430
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: avatar bOard matrix by feaRprOphet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9705-fr-avmtx
 
 Write-Host '
 [1;36m▀▀▀[0;1;36;46m▀███▓▒░▀[0;1;36;40m▀[0;36m▀[0;1;36m  [0;36m▄[0;1;36m▄[0;1;36;46m▄▀[0;36m▀[0;1;36m  [0;36m▀[0;1;36m▀[0;36m▀[0;1;36m [0;34m▄[0;1;34m▄▄▄▄[0;1;34;44m▄[0;1;34;40m█████████[0;1;34;44m█▄[0;1;34;40m▄▄▄▄▄▄[0;34m▄[0;37m [0;36m▀[0;1;36m▀▀▀▀▀[0;1;36;46m▀██▀[0;1;36;40m▀▀[0;36m▀[0;37m  [0;36m▄[0;1;36m▄▄[0;36m▄[0;37m  [0;36m▀[0;1;36m▀[0;1;36;46m▀██▄[0;36m▄[0m

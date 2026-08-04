@@ -1,13 +1,4 @@
-﻿# Converted from: TP-SKBAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9408/raw/TP-SKBAD.ANS
-# Source Revision: archive-sha256:802b0e00f1d7521280ab279c4507115014273c696f6db48a1d2c229cb379eb8a
-# Source SHA-256: dc3756cf82ecdc84ac8731096abc9a4793ba62a86aa6c3e47dbfeb23a4099b93
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TP-SKBAD.ANS by Technophreak (blde9408); released in blde9408 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 101-147
-# Columns: 1-80
+﻿# Artwork: TP-SKBAD.ANS by Technophreak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9408-tp-skbad-part03
 
 Write-Host '
 [1;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m     [1;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: MM-DARKPLACE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0226/raw/MM-DARKPLACE.ANS
-# Source Revision: archive-sha256:ef03a5a095d5c0479664f99ff23399e245703c452ca9d05ea2957005177022f9
-# Source SHA-256: 2f66bc81fa3112bc8173080e83fb8fd3a8ea5f2530140df117a3f8d720f26dc7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-DARKPLACE.ANS by Mavenmob (Mistigris); released in mist0226 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Dark Place
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20251022
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Dark Place by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0226-mm-darkplace
 
 Write-Host '
 [1;33m██[0;1;33;47m▓[0;1;33;40m█████████████████████████████████████████████████████████████████████████████[0m

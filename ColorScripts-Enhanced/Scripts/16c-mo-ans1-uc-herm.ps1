@@ -1,13 +1,4 @@
-﻿# Converted from: UC^HERM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mo-ans1/raw/UC%5EHERM.ANS
-# Source Revision: raw-sha256:a7563d2e32fae5bbbfde15fb798063d81c6023ca50db47c576a41c56b6858564
-# Source SHA-256: a7563d2e32fae5bbbfde15fb798063d81c6023ca50db47c576a41c56b6858564
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UC^HERM.ANS by Uctumi (mo-ans1); released in mo-ans1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: UC^HERM.ANS by Uctumi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mo-ans1-uc-herm
 
 Write-Host '
                                                    ▄█▄

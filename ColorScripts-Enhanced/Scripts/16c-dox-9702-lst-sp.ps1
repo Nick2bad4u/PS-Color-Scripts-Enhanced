@@ -1,18 +1,4 @@
-﻿# Converted from: LST-SP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_9702/raw/LST-SP.ANS
-# Source Revision: archive-sha256:33822ef17727497e570bbe1fb936980d768f5ecb13f914599943b0c787232617
-# Source SHA-256: 5a1cb3c828ade50f76a836cde90245b3706288ae88595334e58f3c33d50b74da
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LST-SP.ANS by soul trader (d0x!productions); released in dox_9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: snap! the dead group!
-# SAUCE Author: soul trader
-# SAUCE Group: d0x!productions
-# SAUCE Date: 19970126
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: snap! the dead group! by soul trader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-9702-lst-sp
 
 Write-Host '
 

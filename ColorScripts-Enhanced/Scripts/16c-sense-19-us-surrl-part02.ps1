@@ -1,13 +1,4 @@
-﻿# Converted from: us-surrl.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense-19/raw/us-surrl.ans
-# Source Revision: archive-sha256:ea10c48aec14899714c3e14041c7674268b2c0787d3213fdbe479590d88b8c03
-# Source SHA-256: f1249d1189631c64ecebad920741ed7d48ac0e66feee8ec80d513149fc8aceef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-surrl.ans by Taintedx + Aesthetic (sense-19); released in sense-19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 37-79
-# Columns: 1-80
+﻿# Artwork: us-surrl.ans by Taintedx + Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense-19-us-surrl-part02
 
 Write-Host '
 [1;33m    [0;33m░░  ░   [0;1;33m░░░░░[0;33m  ░░ ░ ░░▓▓░░  [0;1;33m░▒▒░[0;33m ░░ ░░▓▓░  ░ [0;1;30;47m░[0m██[1;30;47m░[0m▌[33m ░░ ▄▄▄[0m     [33m▀ ▄[0;31;43m░░[0;33;40m███▄▄[0;1;30;40m░[0m

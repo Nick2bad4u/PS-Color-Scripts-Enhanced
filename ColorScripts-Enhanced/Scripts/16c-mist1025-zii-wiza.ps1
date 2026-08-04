@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-WIZA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1025/raw/ZII-WIZA.ANS
-# Source Revision: archive-sha256:c6ce2eb1560c66497e345290ad53cd5a430626bac015b2788f41b6db23db8045
-# Source SHA-256: 2f26afcc2ed5f20d8810435e08b766ebc25b6f7ca7859c83a9a47e241aa96860
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-WIZA.ANS by Zeus II (Mistigris); released in mist1025 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Katzenpost wizard
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20251025
-# SAUCE Dimensions: 80x42
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Katzenpost wizard by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1025-zii-wiza
 
 Write-Host '
 █[1;33;47m░[0m█[1;47m░░[0m█[1;47m▄█▓[0;1;30;47m░[0;34m ████[0;1;34;44m░[0;34m██▀▀[0;37m                      [0;34m██▀▀[0;37m   [0;34m▀█▓ [0;35m░[0;37m   [0;35m▄▄▀▀[0;37m [0;34m▄▓█▀[0;37m [0;35m█[0;1;35m [0;35m▄▄[0;37m [0;35m▄[0;37m  [0;1;35m▄[0m  [34m▄[0m

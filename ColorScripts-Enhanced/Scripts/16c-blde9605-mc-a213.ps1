@@ -1,18 +1,4 @@
-﻿# Converted from: MC-A213.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9605/raw/MC-A213.ANS
-# Source Revision: archive-sha256:644a8b90a5c5ec724e95ecee326ed183bff05e759113d75234577c85289317dc
-# Source SHA-256: 9bc3dc928489d01c6985b1576428eb8f3dc688ec819eecb93e05b03d67d81231
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MC-A213.ANS by mindcrime (blade productions); released in blde9605 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: apartment 213
-# SAUCE Author: mindcrime
-# SAUCE Group: blade productions
-# SAUCE Date: 19960515
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: apartment 213 by mindcrime | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9605-mc-a213
 
 Write-Host '
  [33m▄▄▄▄▄▄▄▄██[0;1;31;43m░░[0;33m██[0;1;31;43m░[0;33m██████▄[0m                 [37m▄▄▄█[0;1;37;47m░[0m█[1;47m░░[0m█[30;47m▀▀▀[0m                          [1;30;40m░[0m

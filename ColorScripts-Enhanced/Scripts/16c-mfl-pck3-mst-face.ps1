@@ -1,13 +1,4 @@
-﻿# Converted from: MST!FACE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mfl_pck3/raw/MST!FACE.ANS
-# Source Revision: archive-sha256:f42142d9c16b6e6135cc0630a64feba2c7c0e924386b7077d738e709f4b74f43
-# Source SHA-256: 4c85f0fa378f81079277c1ee8802a6b75c7cf1ca9ee639a60ba1e1fb1a1f18ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MST!FACE.ANS by Mist (mfl_pck3); released in mfl_pck3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: MST!FACE.ANS by Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mfl-pck3-mst-face
 
 Write-Host '
 [1;30m██████████████████████████████████▓▓▓▓▓▓████▓▓▓▓▓▓█████████████████████████████[0m

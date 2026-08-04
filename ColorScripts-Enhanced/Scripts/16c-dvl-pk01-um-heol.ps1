@@ -1,18 +1,4 @@
-﻿# Converted from: UM-HEOL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dvl-pk01/raw/UM-HEOL.ANS
-# Source Revision: archive-sha256:04659a71fad0b44fa33c1540ce482a88ef2d7d511aaf3612fdd59e5ae6746955
-# Source SHA-256: f16989a48bbf6f447d0ddd5e3d79cdf80bb86da3795df56d0ec15d4b69b30641
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UM-HEOL.ANS by uM! (dVL_fRC); released in dvl-pk01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hS!oLDCHooL!
-# SAUCE Author: uM!
-# SAUCE Group: dVL_fRC
-# SAUCE Date: 19970305
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: hS!oLDCHooL! by uM! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dvl-pk01-um-heol
 
 Write-Host '
               [36m_______[0m         [36m_[0;32m_____[0;36m__[0m                [32m__[0;36m____[0m

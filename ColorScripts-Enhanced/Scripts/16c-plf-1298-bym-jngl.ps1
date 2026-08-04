@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-JNGL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1298/raw/BYM-JNGL.ANS
-# Source Revision: archive-sha256:075f933f0da18fbaf6a548eb0d971a2c335f576db461f97402cdbe530ee397b2
-# Source SHA-256: 695276d1b756a4eea2a1bb610087825ead4bfcad6ea5aeb5ab5f95620cd58a09
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-JNGL.ANS by winterbym (poffelipoff); released in plf-1298 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: jingel bells
-# SAUCE Author: winterbym
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19981205
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: jingel bells by winterbym | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1298-bym-jngl
 
 Write-Host '
 

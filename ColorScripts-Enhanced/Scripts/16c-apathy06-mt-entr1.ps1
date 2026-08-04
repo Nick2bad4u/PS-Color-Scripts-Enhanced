@@ -1,17 +1,4 @@
-﻿# Converted from: MT-ENTR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy06/raw/MT-ENTR1.ANS
-# Source Revision: archive-sha256:da68d928b75eacb21ef6bbd9cd632165def9238591f0378ec07f4b56faef6ea8
-# Source SHA-256: 94385d2388a1961c10cc157e5da5f975ec3fd2ca3dae4bf0634b51bb50f5682d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MT-ENTR1.ANS by Misfit (apathy06); released in apathy06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Entropy matrix
-# SAUCE Author: Misfit
-# SAUCE Date: 19960117
-# SAUCE Dimensions: 80x29
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Entropy matrix by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy06-mt-entr1
 
 Write-Host '
 [31m▓█▓░▀[0;37m  [0;34m▒[0;37m                                           [0;34m░[0;37m          [0;1;30m  mt(apa/ice)[0m  [34m ░▒[0m

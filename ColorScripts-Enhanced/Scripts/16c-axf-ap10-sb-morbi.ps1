@@ -1,18 +1,4 @@
-﻿# Converted from: SB-MORBI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-ap10/raw/SB-MORBI.ANS
-# Source Revision: archive-sha256:4b5b1b4244cee06cc53820d2525c12d15cb30c6b21160e027508c5fdc1d1569c
-# Source SHA-256: f233274a31d42f1121b6896a5e6e476427850433614705fb05f2f86e30936240
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SB-MORBI.ANS by snowblind (axf); released in axf-ap10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: morbied illusions
-# SAUCE Author: snowblind
-# SAUCE Group: axf
-# SAUCE Date: 19961028
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: morbied illusions by snowblind | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-ap10-sb-morbi
 
 Write-Host '
        [1;33m▄[0;1;37m▄▄██[0;1;33m█▀▀▀███▄▄[0m

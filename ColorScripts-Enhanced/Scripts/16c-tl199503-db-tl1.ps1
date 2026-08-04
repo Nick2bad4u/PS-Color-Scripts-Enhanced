@@ -1,18 +1,4 @@
-﻿# Converted from: DB-TL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl199503/raw/DB-TL1.ANS
-# Source Revision: archive-sha256:076dc5f7e8e5935b6779aca5076679253dcd9b76950721d084bd358b3028f504
-# Source SHA-256: ac4a240422515c4fcddcdb82788114ad476da3eb88adda665d085e721f3512c6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DB-TL1.ANS by Diabolos (TekLordZ); released in tl199503 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: TekLordZ Promo
-# SAUCE Author: Diabolos
-# SAUCE Group: TekLordZ
-# SAUCE Date: 19950307
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: TekLordZ Promo by Diabolos | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl199503-db-tl1
 
 Write-Host '
 [34;40m███[0;1;34;44m░[0;34m██████████[0;1;34;44m░[0;34m████████████████[0;1;34;44m▒[0;34m██████▀[0m            [34m▀███████████▓▒░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: HX-ROSE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense08/raw/HX-ROSE.ANS
-# Source Revision: archive-sha256:1d55361966cfda352bce5be646cc961ad2fc811d088c34eafc09b3e17df065a4
-# Source SHA-256: 50fa9c7352d72b264891dc55a71c9f0322ead803792936d0ff8cd405e786eb3a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HX-ROSE.ANS by HeXD (Sense); released in sense08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Rose
-# SAUCE Author: HeXD
-# SAUCE Group: Sense
-# SAUCE Date: 19980415
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Rose by HeXD | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense08-hx-rose
 
 Write-Host '
 [1m██████[0;1;36;46m████[0;1;37;40m█████[0;1;36;46m███[0;1;37;40m█[0;1;36;46m█[0;1;37;40m███▌█[0m

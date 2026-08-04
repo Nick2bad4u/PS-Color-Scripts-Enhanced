@@ -1,17 +1,4 @@
-﻿# Converted from: TNA-THDR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9706/raw/TNA-THDR.ANS
-# Source Revision: archive-sha256:867680f5fb3c86dcb017d8ed4cd79085881689d65da90056f84aba519ae4bdfe
-# Source SHA-256: 93ac82d786b0ab66c0afce96fe0a91f9e00d7658dd250eed50fe68f53eb2d890
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-THDR.ANS by The Night Angel (AWE Lettering); released in awe9706 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Toast
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Toast by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9706-tna-thdr
 
 Write-Host '
                                 [34m▄█▄[0m     [34m▄▄ ▀▀▀[0;33m▄▄[0;1;33m▄▄▄▄▄  [0;34m▄▄░[0m            [1;30mchromatik?[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: SI!SD3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sliver04/raw/SI!SD3.ANS
-# Source Revision: archive-sha256:529e30461247b864c0eece46b368b4c4f9988338d62ccc620bb53802b236c052
-# Source SHA-256: 906231e51cd2de846843196b625d8e01f41319514f0ed34bb0a53560d0b1a884
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SI!SD3.ANS by Sadistic Intent (sliver04); released in sliver04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: SI!SD3.ANS by Sadistic Intent | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sliver04-si-sd3
 
 Write-Host '
 

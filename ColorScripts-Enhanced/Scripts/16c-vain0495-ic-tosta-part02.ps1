@@ -1,18 +1,4 @@
-﻿# Converted from: IC-TOSTA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vain0495/raw/IC-TOSTA.ANS
-# Source Revision: archive-sha256:1cc1157d9a40c1f786b3466fc6c703b67f85db52c6c211f1daae73b21bef6d62
-# Source SHA-256: 4cd6e73062a8bc57956276c748d8cb694909f2af58a11e500ce10f2900e82123
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IC-TOSTA.ANS by iNNER CHAOS (READ THE INI FILE); released in vain0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Sarcastic Toaster
-# SAUCE Author: iNNER CHAOS
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950326
-# SAUCE Dimensions: 80x25
-# Lines: 51-99
-# Columns: 1-80
+﻿# Artwork: Sarcastic Toaster by iNNER CHAOS | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vain0495-ic-tosta-part02
 
 Write-Host '
 [34m█[0;1;34;44m░[0;34m███[0m [31m█[0;1;30;41m░▒▓[0m [31m▐[0;1;30;41m░[0;31m█[0;1;30;41miç[0;31m▄[0m [31m▄[0m [1;31m▀▀▀▀[0m [31m▄▄▄██▌[0m [1;30;41m▒░░[0;31m██▄[0m [31m█[0;1;30;41m░▒[0;1;30;40m▄▄▄▄[0m [31m▄▄▄▄[0;1;30;41m▓██[0;1;30;40m▌[0;31m▐█[0;1;30;41m░░▒[0m [31m▐███▌[0;1;30m▐[0;1;30;41m▒░[0;31m█▌[0m [34m████████[0m

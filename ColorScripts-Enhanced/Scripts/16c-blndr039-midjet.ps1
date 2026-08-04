@@ -1,13 +1,4 @@
-﻿# Converted from: MIDJET.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr039/raw/MIDJET.ANS
-# Source Revision: archive-sha256:c9f4089d2b5b2cd460bf831bacf0aedf023ad23933c86c87f99086e5afa1f00f
-# Source SHA-256: b5258f8882bbb70b609c1e5540b648ee10966e2798daf56b2b604fd0f4e120d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MIDJET.ANS by Formaldehyde (blndr039); released in blndr039 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: MIDJET.ANS by Formaldehyde | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr039-midjet
 
 Write-Host '
                                                                      ▄

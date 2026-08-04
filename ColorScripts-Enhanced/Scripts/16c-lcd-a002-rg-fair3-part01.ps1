@@ -1,18 +1,4 @@
-﻿# Converted from: RG-FAIR3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lcd-a002/raw/RG-FAIR3.ANS
-# Source Revision: archive-sha256:8b5679a927020dfb5f6f49dc17dcd2556a8c7cb139b041c7e9bec87c202d787a
-# Source SHA-256: e1f6cf1ae02fc3d13c3b91165ed77fe8ebc7fe6a7ab0d393f660adc9558beffd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RG-FAIR3.ANS by Rimgale (LUCiD); released in lcd-a002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: FairGround #3
-# SAUCE Author: Rimgale
-# SAUCE Group: LUCiD
-# SAUCE Date: 19941216
-# SAUCE Dimensions: 80x25
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: FairGround #3 by Rimgale | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lcd-a002-rg-fair3-part01
 
 Write-Host '
 [1;30m▀▀▀▀[0;1;34m▀[0;1;30m▀▀[0;1;34m▀[0;1;30m▀▀[0;1;34m▀[0;1;30m▀[0;1;34m▀[0;1;30m▀[0;1;34m▀[0m▀[1;34m▀[0m▀[1m▀[0m▀[1m▀[0m▀[1m▀▀▀[0m▀[1m▀[0m▀▀[1m▀[0m▀[1;34m▀[0m▀[1;34m▀[0m▀[1;34m▀[0m▀[1;34m▀[0;1;30m▀[0;1;34m▀▀[0;1;30m▀[0;1;34m▀[0;1;30m▀[0;1;34m▀[0;1;30m▀▀▀[0;1;34m▀[0;1;30m▀▀▀[0;1;34m▀[0;1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

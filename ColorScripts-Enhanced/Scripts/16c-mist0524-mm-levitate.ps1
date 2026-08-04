@@ -1,19 +1,4 @@
-﻿# Converted from: MM-LEVITATE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0524/raw/MM-LEVITATE.ANS
-# Source Revision: archive-sha256:26af390c70c8fbd1a650cda6420771d9febb05e55fff2dce05253b3fc19147b7
-# Source SHA-256: 50cd7441ff1c3f3c03582cef12dd2285e7aa292ac1da62f025e13eab067aa9b1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-LEVITATE.ANS by Mavenmob (Mistigris); released in mist0524 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: You Leviate Bro
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20240512
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: You Leviate Bro by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0524-mm-levitate
 
 Write-Host '
 [1m████████████████████████████████████[0;1;47m▓▓▓▐▌▓▓▓[0;1;40m████████████████████████████████████[0m

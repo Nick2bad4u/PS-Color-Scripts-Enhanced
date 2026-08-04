@@ -1,13 +1,4 @@
-﻿# Converted from: DE-SX1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dyn9406/raw/DE-SX1.ANS
-# Source Revision: archive-sha256:f7bcf74cd55db263391d1e44e2c0a81416796097aa27613bd35d5309c46437ee
-# Source SHA-256: 4314568d2e14a8454317d7f804578204695218788851e7cae96eb13357d840df
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DE-SX1.ANS by Dragons Eye (dyn9406); released in dyn9406 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: DE-SX1.ANS by Dragons Eye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dyn9406-de-sx1-part01
 
 Write-Host '
               [1m▄▄▄▓▓█████████████▀▀▀▀▀▀▀▀▀▀▀    █████████████████▀▀▀[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: CRWL2ACD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-c/raw/CRWL2ACD.ANS
-# Source Revision: archive-sha256:8b997da557c2fa076d3377ec6179475faefed07fc04c79d8737621ab4b6a848b
-# Source SHA-256: c7d94a909c839c064dd084f345298404f6dd6193a6524e248afe5d9c6d79d21b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CRWL2ACD.ANS by Tank (ansis-c); released in ansis-c and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 46-90
-# Columns: 1-80
+﻿# Artwork: CRWL2ACD.ANS by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-c-crwl2acd-part02
 
 Write-Host '
 [1;30m·[0m                                                                              [1;30m·[0m

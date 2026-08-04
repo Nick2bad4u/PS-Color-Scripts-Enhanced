@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-PITY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel09/raw/IZ-PITY.ANS
-# Source Revision: archive-sha256:cae1fe00a9cd349fa6bb692920586d60c6acc70987b088220f071822b0b1e1ed
-# Source SHA-256: 4356c8ef1be216266f6d24fd0136ee216d2909919f350f7be911a324111ba3c0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-PITY.ANS by ize (fuel); released in fuel09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: pity
-# SAUCE Author: ize
-# SAUCE Group: fuel
-# SAUCE Date: 19961029
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: pity by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel09-iz-pity
 
 Write-Host '
 

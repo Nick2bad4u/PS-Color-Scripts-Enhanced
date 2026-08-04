@@ -1,18 +1,4 @@
-﻿# Converted from: sword.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/openworld-00/raw/sword.ans
-# Source Revision: archive-sha256:c63b7e311b2f32732fc0eeb1fa7695d8130932a067d3f1dea8635092af807736
-# Source SHA-256: 8e4e39cffb2499e01be277e1c8cbb5d7ad36cfcd6d53bcbfd9184a2020f0737e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sword.ans by luxuse (Openworld); released in openworld-00 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the-sword
-# SAUCE Author: luxuse
-# SAUCE Group: Openworld
-# SAUCE Dimensions: 68x80
-# SAUCE Comments: ansi have somme bugs
-# Lines: 1-50
-# Columns: 1-68
+﻿# Artwork: the-sword by luxuse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-openworld-00-sword-part01
 
 Write-Host '
 [1;33mlx[0m

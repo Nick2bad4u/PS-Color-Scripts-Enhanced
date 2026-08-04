@@ -1,18 +1,4 @@
-﻿# Converted from: PH-INF1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sfc0295/raw/PH-INF1.ANS
-# Source Revision: archive-sha256:ac5c670ea5678e69dbdac94a8dbcb7988a32ffb31dccdc68ae0c5f41ef14153e
-# Source SHA-256: f8149a67ed8fa49450ca5488ff200a67ff0f16a82a0457e4fcc8748096179c3b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PH-INF1.ANS by Phatal (READ THE INI FILE); released in sfc0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Infinity Magazine
-# SAUCE Author: Phatal
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950127
-# SAUCE Dimensions: 80x25
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Infinity Magazine by Phatal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sfc0295-ph-inf1-part01
 
 Write-Host '
                            [31m▄▄█[0m

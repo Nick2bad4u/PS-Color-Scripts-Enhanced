@@ -1,18 +1,4 @@
-﻿# Converted from: WO-WON1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-01/raw/WO-WON1.ANS
-# Source Revision: archive-sha256:02daba1854ea15a74853647b74ca1a8ef210c7b74f961fd840514c4a8beebb8f
-# Source SHA-256: 5c7270acfd62e92b205ee2f1af252888969ad5e8254763535bb41eaa2a788317
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WO-WON1.ANS by watOr (Odium/plain); released in odium-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: wOnderland!
-# SAUCE Author: watOr
-# SAUCE Group: Odium/plain
-# SAUCE Date: 19951128
-# SAUCE Dimensions: 80x95
-# Lines: 47-93
-# Columns: 1-80
+﻿# Artwork: wOnderland! by watOr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-01-wo-won1-part02
 
 Write-Host '
 [1;30m [0m               [31m   ▄▄▄▄▄▄▄▀▀███████[0;1;31;41m▀███[0;1;31;40m█████████████▀▀▄████[0;1;31;47m▓▓[0;1;31;40m█[0;1;31;41m███▄[0;31m█████ [0m

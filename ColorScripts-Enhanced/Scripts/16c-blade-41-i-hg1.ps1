@@ -1,18 +1,4 @@
-﻿# Converted from: I!-HG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blade-41/raw/I!-HG1.ANS
-# Source Revision: archive-sha256:4bd79ef281b8ab7a825cdf52b83bde6cbe7c637e271a1366a909c3a71335a95c
-# Source SHA-256: 12cdc274112b008d8f161dfeee25ee0c035d21e6cfde4e56948551224fb0e1a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: I!-HG1.ANS by internal stalker (blade); released in blade-41 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hemp gate
-# SAUCE Author: internal stalker
-# SAUCE Group: blade
-# SAUCE Date: 19970701
-# SAUCE Dimensions: 80x24
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: hemp gate by internal stalker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blade-41-i-hg1
 
 Write-Host '
    [36m▄▄▄▄████▌▀[0m

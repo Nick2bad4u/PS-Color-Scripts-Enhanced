@@ -1,18 +1,4 @@
-﻿# Converted from: AX%RT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0897/raw/AX%25RT2.ANS
-# Source Revision: archive-sha256:cabceb59b7b429d8e4c18b37682b5f04003f1a57c83a21398a4e2582b732a549
-# Source SHA-256: 9eab673b80cb6e7d29af2c9b6f19b425c4885c3e0c2995d0021d78f8f50423bd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AX%RT2.ANS by alla xul (poffelipoff); released in plf-0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ridjeck thorm
-# SAUCE Author: alla xul
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19970807
-# SAUCE Dimensions: 80x48
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: ridjeck thorm by alla xul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0897-ax-rt2
 
 Write-Host '
 [1;30;47m▓▓[0;1;30;40m▓[0;1;37;40m░░[0;1;30;40m ▐[0;1;37;40m░[0;1;30;40m▀▓ ▀ [0m    [1;30m  [0m   [1;30m▄▄██▄▌░░  ▄[0m   [1;30m▄▄ ▀██▄▀▓▀[0m  ▒▒▒███[1;47m▀▄[0m█[1;47m▀▀▓▓▄▄ ▀░░[0;1;40m▒▒[0;1;47m▀███▄█▀█▄▀[0;1;37;47m▄[0m

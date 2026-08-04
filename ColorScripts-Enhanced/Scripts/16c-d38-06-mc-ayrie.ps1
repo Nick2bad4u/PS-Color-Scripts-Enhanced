@@ -1,18 +1,4 @@
-﻿# Converted from: MC!AYRIE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-06/raw/MC!AYRIE.ANS
-# Source Revision: archive-sha256:4c9f598b864a923147eb394591cb120a43a087e70e3844ab4ff73e06903fa178
-# Source SHA-256: 8f3d3d90e29036123f38f4e717d990c698b01aa91557afb1bcf87aa595e837fc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MC!AYRIE.ANS by mADcap d00d!@ (D38); released in d38-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Ayrie intro thang
-# SAUCE Author: mADcap d00d!@
-# SAUCE Group: D38
-# SAUCE Date: 20180415
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Ayrie intro thang by mADcap d00d!@ | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-06-mc-ayrie
 
 Write-Host '
           [36m▄▄[0;1;36m▄▄▄▄▄[0;36m▄▄[0m      [1;36m▐[0;1;32m▐     [0;32m▐[0;1;32m██[0;1;32;42m▄▀█▀[0;32m░[0;1;37m▄█████████▄▄▄ [0;1;32m▀[0;1;32;42m▀[0;32m▌[0;1;37m▄ [0;1;32;42m█[0;1;32;40m██[0;1;32;42m▌[0m

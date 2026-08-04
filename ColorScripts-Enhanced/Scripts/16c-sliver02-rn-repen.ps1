@@ -1,17 +1,4 @@
-﻿# Converted from: RN-REPEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sliver02/raw/RN-REPEN.ANS
-# Source Revision: archive-sha256:4e42af291937d6cfda1ffdc786ce33443c6145c7524c76570a1f8a3fbf372fef
-# Source SHA-256: f115d79edd55b5a638e66dbebd3a20b792feba03502bfbf85a93e7fb1622529e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RN-REPEN.ANS by ruiner (sliver); released in sliver02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: reppen
-# SAUCE Author: ruiner
-# SAUCE Group: sliver
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: reppen by ruiner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sliver02-rn-repen
 
 Write-Host '
                                   ▓███

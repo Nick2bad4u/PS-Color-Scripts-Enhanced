@@ -1,18 +1,4 @@
-﻿# Converted from: DS-NEGAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-03/raw/DS-NEGAT.ANS
-# Source Revision: archive-sha256:9ea26ff16b2d0162532c602fba75b69e539d71620a3b4e34b796de886326619c
-# Source SHA-256: 23a947906ce4cc7414d805f5ed94fff69b07584e4d5e1caa173944f53bbee220
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-NEGAT.ANS by dfuse (nerp); released in nerp-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: negative
-# SAUCE Author: dfuse
-# SAUCE Group: nerp
-# SAUCE Date: 19971224
-# SAUCE Dimensions: 80x25
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: negative by dfuse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-03-ds-negat
 
 Write-Host '
 [1;30m      [0m [32m▐███ [0;1;32m      [0m

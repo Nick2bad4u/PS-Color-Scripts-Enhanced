@@ -1,18 +1,4 @@
-﻿# Converted from: SC-NM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bleach05/raw/SC-NM1.ANS
-# Source Revision: archive-sha256:09b86858eb23a8eec48404a97e9a21a9057746b5757f06ffc27990d15e890f2c
-# Source SHA-256: 68aac21b86d431ad095aa29c3d33a4afe22e0511623220b5b9b8214873080512
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-NM1.ANS by Stone Chapel (Bleach); released in bleach05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Nevermind
-# SAUCE Author: Stone Chapel
-# SAUCE Group: Bleach
-# SAUCE Date: 19950830
-# SAUCE Dimensions: 80x25
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Nevermind by Stone Chapel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bleach05-sc-nm1-part02
 
 Write-Host '
   [1;30;47m░░[0m [33m█▄ ▐▄█[0;1;33;43m░[0;33m██▀▄█▄██▓▓▓▓▓▀▀[0;1;30m▄▄[0;1;30;47m▓▓▒▓▒▒░[0m▄▄[31m▀▀▓█▓███ [0;37m [0;31m▀▄[0;1;30;41m▒▒░░[0;31m██▄█[0;1;31;41m▒[0;31m▄■[0;1;34m▐[0;33m▐▌▓▐▌[0;1;34m▐███████████[0m

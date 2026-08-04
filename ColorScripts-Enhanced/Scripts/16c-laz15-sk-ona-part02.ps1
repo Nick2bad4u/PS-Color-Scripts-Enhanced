@@ -1,19 +1,4 @@
-﻿# Converted from: sk!ona.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz15/raw/sk!ona.ans
-# Source Revision: archive-sha256:d35f5b18ac3e8cbe3d6d17eab809a7e050609a8e3cc7d160d14a87c59a191c12
-# Source SHA-256: 1c2e1dd099897efe0e5646269d0b618b82e6ae5f2277fa27ad0d23a6f5d59dc0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sk!ona.ans by sIMONkING (LAZARUS); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Ona
-# SAUCE Author: sIMONkING
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20220618
-# SAUCE Dimensions: 80x55
-# SAUCE Font: IBM VGA
-# Lines: 28-53
-# Columns: 1-80
+﻿# Artwork: Ona by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz15-sk-ona-part02
 
 Write-Host '
 [1;30;40m████[0m  [1m▄▄▄[0;1;30m▄[0m█  [33;47m▀[0;33;40m█[0;1;31;47m▄▀[0;1;31;43m▀[0;33m▀▄█[0;37m  [0;1;31m█[0;1;31;47m▓▓▓[0;1;31;40m██[0;1;31;43m▀[0;33m█▀[0;1;31m▄▄█[0;1;31;47m▓▒▒[0;1;31;40m██[0;33m▀█[0;1;31m█[0;1;31;43m▓▓▓[0;1;31;47m▓▓▓▓▓▓▓▓▓[0;1;31;40m███[0;1;30;43m▒▒[0;1;31;47m▓▓▓▓[0;33m█▀▀[0;36m█[0;1;36;46m▀[0;1;36;40m█▄[0m  [36m▀[0;37m▀▀▀[0;37;46m▄[0;1;36;47m▀[0;1;36;46m▄[0m

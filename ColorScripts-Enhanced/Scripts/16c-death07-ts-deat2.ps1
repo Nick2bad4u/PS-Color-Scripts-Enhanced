@@ -1,13 +1,4 @@
-﻿# Converted from: TS-DEAT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/death07/raw/TS-DEAT2.ANS
-# Source Revision: archive-sha256:19606a01eb52f423b3fb4cdf11b14f678edcc8b2dac3dd1ba40f8a216dd117d5
-# Source SHA-256: 2b8e82ae749de8f94c7880411bb1c16f54732332ed7eb02be73fb804edd7fa58
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-DEAT2.ANS by Trisar (death07); released in death07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: TS-DEAT2.ANS by Trisar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-death07-ts-deat2
 
 Write-Host '
                             [1;30m░░░░░░░▒▒▒▒▒▒▒▒▒░░░░░░[0m

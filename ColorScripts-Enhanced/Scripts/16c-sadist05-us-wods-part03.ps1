@@ -1,18 +1,4 @@
-﻿# Converted from: US-WODS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sadist05/raw/US-WODS.ANS
-# Source Revision: archive-sha256:48539c7fd3103651a6474c72efa2d6287c0500d048769b6f96b3f80e7845070c
-# Source SHA-256: 87cff8c1f482a39e4148f3851958be77108c4b0e55753e33b895b4a44566c3aa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-WODS.ANS by Keetar + Sephiroth (Sadist); released in sadist05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Glade
-# SAUCE Author: Keetar&Sephiroth
-# SAUCE Group: Sadist
-# SAUCE Date: 20050220
-# SAUCE Dimensions: 80x177
-# Lines: 89-132
-# Columns: 1-80
+﻿# Artwork: The Glade by Keetar + Sephiroth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sadist05-us-wods-part03
 
 Write-Host '
 [1;30;44m▀▀▄▄▄▄█[0;34m███[0;1;30;44m▄▄███▄▄▄▄▄▄▄▄[0;34m███████▄▄▄ [0;32m▀▀▀[0;1;32;42m▀▒▒▒[0;1;30;42m▀[0;1;30;40m▄[0m [34m▀█▀████▀▄▄█   ▀▀  ▀▀█▀▀▓█▄▄[0;32m  ▀▀███▀▀[0m

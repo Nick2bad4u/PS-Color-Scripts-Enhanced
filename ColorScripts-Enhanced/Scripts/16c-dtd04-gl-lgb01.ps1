@@ -1,17 +1,4 @@
-﻿# Converted from: GL-LGB01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dtd04/raw/GL-LGB01.ANS
-# Source Revision: archive-sha256:7091bf957c6673d9b005844355015c4c77947e5b00fc05939206b31997a09f74
-# Source SHA-256: 7becb7646f8fb9b9adaaa461c6808810f01f0ad6181b8ae2700faf06f008564f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GL-LGB01.ANS by glandyth-a-krae (DEVOTiON TO DARKNESS); released in dtd04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: lugburz menu letter.
-# SAUCE Author: glandyth-a-krae
-# SAUCE Group: DEVOTiON TO DARKNESS
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: lugburz menu letter. by glandyth-a-krae | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dtd04-gl-lgb01
 
 Write-Host '
    [34m▀ ▄▄[0m     [34m░[0m               [30;44m▓[0;34;40m░[0m            [31;40m      [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: S0G-GOOP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bleach01/raw/S0G-GOOP.ANS
-# Source Revision: archive-sha256:b051f200d4cb4a187bf381a6b9042d79015b79b0cf19e4a4a725c252afed48ec
-# Source SHA-256: 58a44b95e00ae9b78fb6d74c41eecb99b97d1f9e2e00ffd8ab037826034dd6b7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S0G-GOOP.ANS by Snoop (READ THE INI FILE); released in bleach01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: gOop!
-# SAUCE Author: Snoop
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950217
-# SAUCE Dimensions: 80x25
-# Lines: 48-97
-# Columns: 1-80
+﻿# Artwork: gOop! by Snoop | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bleach01-s0g-goop-part02
 
 Write-Host '
 [35m██▓█ [0;1;33m▌[0;33m▓[0;1;33m██[0;33m▓█ [0;1;33m█  [0;33m░██    [0;31m▄▄▄▄[0;1;31m▄▄▄▄▄ ▀██[0;1;31;41m▒████▓▓▓█████████████▓▓▓▒████░█░[0;1;31;40m▀█▀▀ [0;35m████████[0m

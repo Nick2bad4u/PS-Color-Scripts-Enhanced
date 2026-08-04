@@ -1,18 +1,4 @@
-﻿# Converted from: US-EQZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-18/raw/US-EQZ.ANS
-# Source Revision: archive-sha256:3ece06be07a605d790194aecaf4c2aee0d01c3085ca10c10858ed29a4fc054bb
-# Source SHA-256: 707d3de34335ed7d08701b8c24d6d8f8c2b8e00d95b6d14ba4c87dc330a3698d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-EQZ.ANS by Cleaner + Kleenex (AWE Lettering); released in awe-18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Equalizer
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981030
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Equalizer by Cleaner + Kleenex | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-18-us-eqz
 
 Write-Host '
                                                               [1;30m ▀█[0m▒▒░[1;30m▄[0m

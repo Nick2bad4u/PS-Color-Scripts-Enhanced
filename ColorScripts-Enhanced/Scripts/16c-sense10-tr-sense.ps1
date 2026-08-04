@@ -1,18 +1,4 @@
-﻿# Converted from: TR-SENSE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense10/raw/TR-SENSE.ANS
-# Source Revision: archive-sha256:b6321b8225c23719ad6deac35de4ad4ee43be60d289a60a77bc643ba3343ad2f
-# Source SHA-256: 5c4452e02fcd6ef06d6be8322028e591d74ca34fad81cb339456a40c4febcfbd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-SENSE.ANS by Tee Are (Sense Guest); released in sense10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Sense promo!
-# SAUCE Author: Tee Are
-# SAUCE Group: Sense Guest
-# SAUCE Date: 19980605
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Sense promo! by Tee Are | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense10-tr-sense
 
 Write-Host '
 [1m[0m

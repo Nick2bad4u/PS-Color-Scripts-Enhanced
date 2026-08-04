@@ -1,19 +1,4 @@
-﻿# Converted from: tk-rubik.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz16/raw/tk-rubik.ans
-# Source Revision: archive-sha256:b093dd3cb06bf783d59a9df3724c51f9a41f686cd4fd545c920ada008d959f7a
-# Source SHA-256: a2d0e38a41b86304dc3edc09804011e59a0e38399ca8c3fcedc4ac3b9596463b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tk-rubik.ans by The Knight (Lazarus); released in laz16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Rubik
-# SAUCE Author: The Knight
-# SAUCE Group: Lazarus
-# SAUCE Date: 20220801
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Rubik by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz16-tk-rubik
 
 Write-Host '
                                                             [1;37;40m▄▄▄██[0m

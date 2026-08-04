@@ -1,18 +1,4 @@
-﻿# Converted from: TA-VIEW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak3/raw/TA-VIEW.ANS
-# Source Revision: archive-sha256:cde4af7e840865f437fedba26bbfb806e858a9b477c723c01bd9d080434c75bd
-# Source SHA-256: 71fa8619fa5f579fe1bb9795e6449f20d17bcaf818e3ef66c8cd81c945e219aa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TA-VIEW.ANS by the avenger (ecolove); released in ecl-pak3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ansiviewer ansi
-# SAUCE Author: the avenger
-# SAUCE Group: ecolove
-# SAUCE Date: 19980125
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: ansiviewer ansi by the avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak3-ta-view
 
 Write-Host '
 [1;30mansi by ta! [0m  [1;30m░░[0;35m▄▄▄▄▄▄[0m             [35m▄▄▄▄[0m          [35m▄▄▄▄▄▄[0m          [35m▄▄▄[0;37m  [0;1;30m          [0m

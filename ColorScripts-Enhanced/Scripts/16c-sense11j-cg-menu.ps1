@@ -1,13 +1,4 @@
-﻿# Converted from: CG-MENU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense11j/raw/CG-MENU.ANS
-# Source Revision: archive-sha256:9c1c7edf0d14ae95ae7a9cfcfa9322814b13baa95c33699852fa04d6685f708d
-# Source SHA-256: 9a0b197d81507eaf2f9b044cd5a1f1ee4a9766cf63585478850825c93335a515
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-MENU.ANS by Cryogenic (sense11j); released in sense11j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: CG-MENU.ANS by Cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense11j-cg-menu
 
 Write-Host '
 [1;31;47m▓▓[0;1;31;41m█▄░[0;31m▀█[0;1;31m▒▒[0;31m█▀  ▄██[0;1;31;41m ░▓[0;1;31;47m▓[0;1;31;41m█▀[0;31m▀  [0;1;30m░░░[0;31m ▄[0;1;31;41m▄[0;1;31;47m▓▓█[0;1;31;41m▄[0;31m▄░ [0;30;46m▓[0;1;30;40m▄[0m▄[1;30;47m▀[0;1;37;47m ▄▄▄███████████████▄[0m▄ [1;30mcryogenic([0msense[1;30m)[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: US-SAMAX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-6710/raw/US-SAMAX.ANS
-# Source Revision: archive-sha256:65fe9e2a2e2016f30e4b0141be2d1472e9b7cc814d922f9663e0d0a04142d70a
-# Source SHA-256: f1b30556d8dae9a8035ce0b043ecf3171f05be5f642e818d003f6174873d8a3f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SAMAX.ANS by Nail + Misfit (blocktronics); released in blocktronics-6710 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: sam and max hit evoke
-# SAUCE Author: nail + misfit
-# SAUCE Group: blocktronics
-# SAUCE Date: 20180811
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: sam and max hit evoke by Nail + Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-6710-us-samax
 
 Write-Host '
 [1;34;47m█[0;1;34;40m█▀ [0;1;37;40m▄[0;1;30;40m▄[0m [1;34m▀█▌[0m [1m███████▐██ [0;1;34m  [0;1;37m ██▌ ▄████████▄ ▐██  ██▌ ▐██████▌ [0;1;34m██[0;1;34;47m▀▀▀[0;1;34;40m█[0;1;34;47m█[0;1;34;40m█████[0;1;34;47m███[0;1;34;40m█████[0;1;34;47m▄▀[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SD-SF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-03/raw/SD-SF.ANS
-# Source Revision: archive-sha256:8478e7ed47e52d1e07bf55e17a5f105ced4b468c6f56a8b59fd6b8ef8dada5ca
-# Source SHA-256: 4f21510541b3e364205019b85bc17bbcac90d3a85234fdddf489396c362097d5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-SF.ANS by sirdeath (eclipse); released in ecl-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: second_front
-# SAUCE Author: sirdeath
-# SAUCE Group: eclipse
-# SAUCE Date: 19960713
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: second_front by sirdeath | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-03-sd-sf
 
 Write-Host '
                                          [36m▄▄[0;1;36m▄▄[0;1;37m▄[0m

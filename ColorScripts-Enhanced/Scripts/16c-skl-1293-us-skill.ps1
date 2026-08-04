@@ -1,13 +1,4 @@
-﻿# Converted from: US-SKILL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/skl-1293/raw/US-SKILL.ANS
-# Source Revision: archive-sha256:050c4947b498cd34964b3caf5400f667c1dbd39367bdcae152e782cd46024a72
-# Source SHA-256: 981d7e67edd53fae54b4c822a6919fc49de87674cc913bfa76bc66651fbd9c73
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SKILL.ANS by The Dark Half + Devils Spawn (skl-1293); released in skl-1293 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: US-SKILL.ANS by The Dark Half + Devils Spawn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-skl-1293-us-skill
 
 Write-Host '
 

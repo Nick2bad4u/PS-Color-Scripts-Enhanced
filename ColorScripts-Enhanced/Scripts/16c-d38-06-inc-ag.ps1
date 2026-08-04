@@ -1,18 +1,4 @@
-﻿# Converted from: INC^AG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-06/raw/INC%5EAG.ANS
-# Source Revision: archive-sha256:4c9f598b864a923147eb394591cb120a43a087e70e3844ab4ff73e06903fa178
-# Source SHA-256: 553edee393f5abe2067670f5a0fd9ca5dac08e61a0e454679f38cd7263728f29
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: INC^AG.ANS by Incarnate (Department 38); released in d38-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: THE agency
-# SAUCE Author: Incarnate
-# SAUCE Group: Department 38
-# SAUCE Date: 19970510
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: THE agency by Incarnate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-06-inc-ag
 
 Write-Host '
 

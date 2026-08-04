@@ -1,13 +1,4 @@
-﻿# Converted from: CBS4#R&P.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/btg-r3/raw/CBS4%23R%26P.ANS
-# Source Revision: raw-sha256:6275d310b887c6a564523984ad161ecb29ff92fa7dadd433ede271e57120daa7
-# Source SHA-256: 6275d310b887c6a564523984ad161ecb29ff92fa7dadd433ede271e57120daa7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CBS4#R&P.ANS by Rage (btg-r3); released in btg-r3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 79-114
-# Columns: 1-80
+﻿# Artwork: CBS4#R&P.ANS by Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-btg-r3-cbs4-r-p-part03
 
 Write-Host '
   [1;33;43m▓[0m [35m█▓░▒ █  [0;1;30;47m█▓▒░ [0m [1;30;47m▓▒░   [0;1;37;47m░░░▒▒▒▓▓▓▓[0m [1;37;40m▄▄ ▄▄▄▄ ▄▄▄▄▐███▀▀ ██[0m     [1;37;40m███████  [0;35m██ [0;1;33;43m▓▓[0m [35m██[0m [1;33;43m▒[0m

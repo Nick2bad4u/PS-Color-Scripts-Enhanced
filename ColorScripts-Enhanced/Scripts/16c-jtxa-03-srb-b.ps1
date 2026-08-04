@@ -1,13 +1,4 @@
-﻿# Converted from: SRB-B.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jtxa-03/raw/SRB-B.ANS
-# Source Revision: archive-sha256:de571bacb7b86b226826d994a3fc94698dc85ca0c815875e65d6229240d825aa
-# Source SHA-256: c14dde433f841581b7f5df974079d60a5a4aff4afc1327eb611ac55e29460619
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SRB-B.ANS by Sketch Rimanez (jtxa-03); released in jtxa-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: SRB-B.ANS by Sketch Rimanez | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jtxa-03-srb-b
 
 Write-Host '
 [1m                    [0;1;33m          _..,,▄aaa▄[0;33m,._[0m

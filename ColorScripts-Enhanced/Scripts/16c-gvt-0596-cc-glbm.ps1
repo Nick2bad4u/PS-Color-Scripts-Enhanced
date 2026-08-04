@@ -1,18 +1,4 @@
-﻿# Converted from: CC-GLBM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gvt-0596/raw/CC-GLBM.ANS
-# Source Revision: archive-sha256:f2fd877c7a0bae39c5f44298c1713c8be39cba6ec4746c1081cbff581fa31626
-# Source SHA-256: 527c64ac3c5e6eac22b902be7341a4e66944df61622004a33dab9131f776062a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CC-GLBM.ANS by clorox cowboy (gravity); released in gvt-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 'The Globe' Message Conferences
-# SAUCE Author: clorox cowboy
-# SAUCE Group: gravity
-# SAUCE Date: 19960502
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: 'The Globe' Message Conferences by clorox cowboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gvt-0596-cc-glbm
 
 Write-Host '
 [1;31;45m░[0;1;35;45m▄                       [0;35m▀[0;37m [0;31m▄▓░[0m    [31m▀[0;37m  [0;33m▐[0;1;31;43m░░▒▒▒░  [0;33m▀[0;31m░[0;37m [0;1;31m▄▄█████████▄█[0m [31m▀[0;1;31;41m▀[0;31m██▀▄[0;1;31;41m▒[0;31m█▀[0;37m  [0;31m░[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-UBBS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/ZII-UBBS.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: 1a62037d64a093052a70d67079b2be03bc6c76cfdd6e0885cdfa811785018cab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-UBBS.ANS by Zeus II (Mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Uncomfortable Business
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241230
-# SAUCE Dimensions: 80x169
-# SAUCE Font: IBM VGA
-# Lines: 125-165
-# Columns: 1-80
+﻿# Artwork: Uncomfortable Business by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-zii-ubbs-part04
 
 Write-Host '
 [34m████▄[0;37m  [0;1;30m▀▀[0;36m▀▀▀▀[0;1;30m▀[0m  [34m██▄▄[0;37m     [0;34m▄▄███████████████████████████████████████████████▀██▀▄█[0m

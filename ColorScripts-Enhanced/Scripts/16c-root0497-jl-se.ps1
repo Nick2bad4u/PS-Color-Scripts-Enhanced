@@ -1,18 +1,4 @@
-﻿# Converted from: JL-SE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0497/raw/JL-SE.ANS
-# Source Revision: archive-sha256:73d4445ab8a07d3fe160d256052163ed66b2081a0bebb59b18ae9b36e30223e0
-# Source SHA-256: 00700aec77145a5d23621d596086b2ec186a74fab5620925d662ea53217eae0e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JL-SE.ANS by Joll (Root); released in root0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Spilled Entrails
-# SAUCE Author: Joll
-# SAUCE Group: Root
-# SAUCE Date: 19970403
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Spilled Entrails by Joll | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0497-jl-se
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: 4O-PULSE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9706/raw/4O-PULSE.ANS
-# Source Revision: archive-sha256:867680f5fb3c86dcb017d8ed4cd79085881689d65da90056f84aba519ae4bdfe
-# Source SHA-256: 45991cbc688b66610e7cb03e1c2402d496cdb7d1ba57327a2bc732a8497287ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 4O-PULSE.ANS by Mr4tune (AWE Lettering); released in awe9706 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Pulse
-# SAUCE Author: Mr4tune
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970604
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Pulse by Mr4tune | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9706-4o-pulse
 
 Write-Host '
   [31m▀[0;1;31;41m▀[0;31m▀[0;37m [0;33m▄█▄  █[0;1;33;43m░   [0;30;43m░[0;33;40m▓░[0;30;43m▓[0;37;40m [0;1;37;40m█ ░▓█[0;33m▀[0;37m [0;31m▄▄▄[0;37m [0;1;33;41m [0;1;31;41m [0;31m█[0;37m [0;31m▄[0;1;31;41m▄[0;31m  [0;33m▀▀[0;37m [0;31m░▄[0;37m [0;33m▀[0;30;43m4o[0;33;40m▀▀[0;1;30;40m ░▄[0m [33m▀[0;1;33m▒[0;33m▀[0;31m▀[0;35m [0;31m▄[0;1;31m▄[0m [1;30m█▄ [0;31m▀▄[0;1;33;43m░[0;31m▄█[0;1;31;41m  [0;31m█[0;30;41m░[0;31;40m▓░[0;30;41m▓[0;37;40m [0;33;40m▄[0m

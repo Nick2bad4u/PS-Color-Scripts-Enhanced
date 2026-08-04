@@ -1,13 +1,4 @@
-﻿# Converted from: ack-sns1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense25/raw/ack-sns1.ans
-# Source Revision: archive-sha256:a8bf7bb3570e1374cb3962f65c32ad8f31210e5d139d9ba57fa558a31504c963
-# Source SHA-256: c25a37bba7cf254fdc7048e23a722a95a92aa96336e653d468ca1de7e588f4d8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ack-sns1.ans by Arrogance (sense25); released in sense25 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: ack-sns1.ans by Arrogance | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense25-ack-sns1
 
 Write-Host '
       [31m░░░░░[0m                   [31m░░  [0m          [31m░░░░░░░░░░[0m       [31m░░░░░░░░[0m

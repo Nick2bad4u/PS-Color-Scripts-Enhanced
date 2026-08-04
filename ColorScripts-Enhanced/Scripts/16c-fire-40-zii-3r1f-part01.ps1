@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-3R1F.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-40/raw/ZII-3R1F.ANS
-# Source Revision: archive-sha256:aff8105c0a955ac5c43ea367a02b086cd2849f6741fc41b8a5ff440b77e104a7
-# Source SHA-256: e0e1a71cee6e8b63e5d815d8ca72ea16df690123b150a7b09d51066200a83992
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-3R1F.ANS by Zeus II (Mistigris); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fire 40 Tribute
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20240707
-# SAUCE Dimensions: 80x125
-# SAUCE Font: IBM VGA
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: Fire 40 Tribute by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-40-zii-3r1f-part01
 
 Write-Host '
 [1;33;40m████████████████████████████████████████████████████████████████████████████████[0m

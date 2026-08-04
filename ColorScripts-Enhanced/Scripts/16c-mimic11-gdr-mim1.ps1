@@ -1,13 +1,4 @@
-﻿# Converted from: gdr-mim1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic11/raw/gdr-mim1.ans
-# Source Revision: archive-sha256:17b31c349acaa0549a02f08f7d9dfda8d263be5213edfc173c86efc16c06c82a
-# Source SHA-256: 47818e99e33eb703f0d91f2b48f02cd8a9dec736df5ab237604d53875eee8f4c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: gdr-mim1.ans by Gravedancer (mimic11); released in mimic11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: gdr-mim1.ans by Gravedancer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic11-gdr-mim1
 
 Write-Host '
 [1mGDR$$$$$b,  [0;33m IIIIII88[0;1;33m8[0;1;37m88[0;1;33m888[0;33m8888[0;1;33m888[0;33m88888$$$F  ,d88788[0;1;33m88[0;33m888[0;1;33m8888[0;33m888b,..[0;1;37m  ,d$$$$$$$$[0m

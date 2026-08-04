@@ -1,18 +1,4 @@
-﻿# Converted from: MB-MALOL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ceg-010a/raw/MB-MALOL.ANS
-# Source Revision: archive-sha256:5b3b98df164004f313dd0829d66e01a5471066e939dd03917a4e036b8d8f18b9
-# Source SHA-256: 7e367d83c05de0e3309b98121c38570ebf73c8470fc411ca5c1f6f7c6a340c5d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MB-MALOL.ANS by mr.byte (chaos energy group); released in ceg-010a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 'maloletka'
-# SAUCE Author: mr.byte
-# SAUCE Group: chaos energy group
-# SAUCE Date: 20000216
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: 'maloletka' by mr.byte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ceg-010a-mb-malol
 
 Write-Host '
                                [33m▄▄[0m

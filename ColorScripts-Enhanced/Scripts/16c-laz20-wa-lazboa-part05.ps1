@@ -1,19 +1,4 @@
-﻿# Converted from: wa-lazboa.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz20/raw/wa-lazboa.ans
-# Source Revision: archive-sha256:d88c3ff3e728f60821a5682143c2fe9e054bc535483ce1618db0798990cb65e8
-# Source SHA-256: 4f2cbc0f005e517c3e441ace3fd3de1ce9a16c200da1e06715876dfe47c722bc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-lazboa.ans by warpus (LAZARUS); released in laz20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Lazboa
-# SAUCE Author: warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20250602
-# SAUCE Dimensions: 80x285
-# SAUCE Font: IBM VGA
-# Lines: 190-237
-# Columns: 1-80
+﻿# Artwork: Lazboa by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz20-wa-lazboa-part05
 
 Write-Host '
 [1;30m        ▄[0m  [1;33m░▒▓███▀█████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄████▀███████[0;1;33;47m▌[0;1;33;40m ▓▓▌▓▓▌[0;1;37;40m▒[0;1;33;47m█[0;1;33;40m███[0;1;33;47m▌▀[0;1;33;40m░░░[0m▀▀▀[1;30m▄   ▀[0m

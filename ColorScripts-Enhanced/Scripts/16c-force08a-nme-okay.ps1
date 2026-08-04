@@ -1,18 +1,4 @@
-﻿# Converted from: NME-OKAY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force08a/raw/NME-OKAY.ANS
-# Source Revision: archive-sha256:0905e3c7088720102cb865257748e92163ff43248c29c1868f516a99a6c2f5b4
-# Source SHA-256: 3fc7db1b718be523e550284c13ca055a481defcee4891d855fd6f7ba62b99ba6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NME-OKAY.ANS by nme (fORCE); released in force08a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Organized Kaos
-# SAUCE Author: nme
-# SAUCE Group: fORCE
-# SAUCE Date: 19960512
-# SAUCE Dimensions: 80x23
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Organized Kaos by nme | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force08a-nme-okay
 
 Write-Host '
                                                                  [36m,ssss[0;1;32ms,..[0m

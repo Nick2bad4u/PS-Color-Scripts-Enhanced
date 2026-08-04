@@ -1,13 +1,4 @@
-﻿# Converted from: AD-MIST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-09/raw/AD-MIST.ANS
-# Source Revision: archive-sha256:6c371ec8bbb75e88f59630021fbbd23f2fc630c10ee1cde240cc20faafea1ca9
-# Source SHA-256: 8c3b1d47124a2d6db72c6aff70f1d3f6b570d45212fc1cf384da6452c980b993
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AD-MIST.ANS by Armageddon Donut (ecl-09); released in ecl-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: AD-MIST.ANS by Armageddon Donut | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-09-ad-mist-part01
 
 Write-Host '
 [35m███████████████████████▀▀▀█▀▀▀▀▀▀▀██████████████████████████████████████████████[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: IM-TUD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0593/raw/IM-TUD.ANS
-# Source Revision: archive-sha256:8c7baa39d9445bc7162b1fbc692de8758b1894e3b1e098baf24f16863b0aaa14
-# Source SHA-256: 2df0188679366e5662c92495208ff65a46e25d4cbdc9e6d09ef5280954701be0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IM-TUD.ANS by Iron Man (acdu0593); released in acdu0593 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: IM-TUD.ANS by Iron Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0593-im-tud-part01
 
 Write-Host '
 

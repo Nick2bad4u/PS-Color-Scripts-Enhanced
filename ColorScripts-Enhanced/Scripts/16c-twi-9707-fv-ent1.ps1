@@ -1,18 +1,4 @@
-﻿# Converted from: FV-ENT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twi-9707/raw/FV-ENT1.ANS
-# Source Revision: archive-sha256:45f176586f3b4789bcbef0a4c75b2f85d21418108c7ec2a4ab268a104d12eb41
-# Source SHA-256: c49450ecaf6db57af87a4a197767b9465b7a2bba837d988f1b6baf4fe7b8e87a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-ENT1.ANS by Fever (Rile); released in twi-9707 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Entropy
-# SAUCE Author: Fever
-# SAUCE Group: Rile
-# SAUCE Date: 19970716
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Entropy by Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twi-9707-fv-ent1
 
 Write-Host '
 [1;36;42m▄▓[0;1;36;46m███▄ ▀████▓▒░    [0;1;30;46m▄[0;1;36;46m  [0m   [33m▓ [0;1;31;43m▐████▌[0;30;47m█[0;1;30;40m▄[0;30;47m█[0;1;30;40m▄▄▓▓█[0m▒[1;30m▌[0m░[1;30m▌[0;30;43m█[0;1;31;43m▐████[0;1;31;47m▓▓[0;1;31;43m███▌[0m  [1;30m█[0;1;30;47m▓▓[0;1;30;40m▓ [0m [30;46m████▀░░     [0;36;40m▓▓▒[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-MAT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook10/raw/AVE-MAT2.ANS
-# Source Revision: raw-sha256:2462360cc924815582667814a82b6f0c93a7b06e06702e6acd32062ac84da568
-# Source SHA-256: 2462360cc924815582667814a82b6f0c93a7b06e06702e6acd32062ac84da568
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-MAT2.ANS by avenger (black maiden); released in bmbook10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hazard/2 matrix
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19960908
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: hazard/2 matrix by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook10-ave-mat2
 
 Write-Host '
          [34m░░[0m     [34m▄▄▄▄▄▄▄▌▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

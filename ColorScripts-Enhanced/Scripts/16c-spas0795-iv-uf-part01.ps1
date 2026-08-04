@@ -1,18 +1,4 @@
-﻿# Converted from: IV-UF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spas0795/raw/IV-UF.ANS
-# Source Revision: archive-sha256:0b03dbe3b76ad238c23558feaa101fce5b6c23b945c08f3870fd50977b7f9e65
-# Source SHA-256: 999982e98fa9c473eff14008634f1e33713fc9580ac71e8d264ee2e0dd354e99
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IV-UF.ANS by iNNeR vIsIOn (Spastic Productions); released in spas0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Unseen Fate
-# SAUCE Author: iNNeR vIsIOn
-# SAUCE Group: Spastic Productions
-# SAUCE Date: 19950626
-# SAUCE Dimensions: 80x25
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Unseen Fate by iNNeR vIsIOn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spas0795-iv-uf-part01
 
 Write-Host '
 [1;30m░[0m▄[1;47m░▓[0;1;40m██[0;1;33;40m▄[0;1;30;40m ░░[0;1;37;40m▄▀[0;1;37;47m░[0;1;30;47m ░[0;1;30;40m▀▄[0m  [1m [0;1;30m ▄▓▄▄[0m  ▓[1;30m▄▒░░[0m [36m  ░[0m

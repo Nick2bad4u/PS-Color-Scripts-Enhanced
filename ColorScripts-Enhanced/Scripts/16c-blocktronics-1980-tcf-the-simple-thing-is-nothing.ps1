@@ -1,16 +1,4 @@
-﻿# Converted from: tcf - the simple thing is nothing.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_1980/raw/tcf%20-%20the%20simple%20thing%20is%20nothing.ans
-# Source Revision: archive-sha256:042192cf53a2f2df5da334e3c25cbe21b5d9ed2e910f503354d4bcd3dae5de0e
-# Source SHA-256: f93df12a9d767748125d7502f72bc68f8b320c9a64cbc5ff07a231da0af0aeb6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tcf - the simple thing is nothing.ans by Tcf (blocktronics_1980); released in blocktronics_1980 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20140403
-# SAUCE Dimensions: 81x44
-# SAUCE Font: IBM VGA25G
-# Lines: 1-44
-# Columns: 1-81
+﻿# Artwork: tcf - the simple thing is nothing.ans by Tcf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-1980-tcf-the-simple-thing-is-nothing
 
 Write-Host '
 

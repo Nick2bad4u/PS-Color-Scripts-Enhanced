@@ -1,16 +1,4 @@
-﻿# Converted from: DT-FFG4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger10/raw/DT-FFG4.ANS
-# Source Revision: archive-sha256:a84fd6d21030f26985899f91a956dceb5637b0b2cbc8b90ab0b918890b9e87cd
-# Source SHA-256: 8cc0cab8e2f77e6f638c0511f38bbf8312bc599b5c061dbde4b8cebbef075b2d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-FFG4.ANS by defiant (anger); released in anger10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fall from grace.
-# SAUCE Author: defiant
-# SAUCE Group: anger
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: fall from grace. by defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger10-dt-ffg4
 
 Write-Host '
           [32m▄▄  ▀   ▄▄  ░▄▄██████[0;1;33;42m▄[0;32m█[0;1;33;42m▄▄▄[0;32m██▄▄▄▄▄▄░    ▄▄███▄▄[0;1;33;42m▄███████▀▀[0;32m██▄▄[0m

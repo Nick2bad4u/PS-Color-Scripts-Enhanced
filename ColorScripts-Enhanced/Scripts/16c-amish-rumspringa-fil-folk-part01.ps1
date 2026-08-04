@@ -1,19 +1,4 @@
-﻿# Converted from: fil-folk.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amish-rumspringa/raw/fil-folk.ans
-# Source Revision: archive-sha256:710f00c8e218c58e7f7c9fe172cb22279b1ebbb4b713832762c12e983eb7ac2d
-# Source SHA-256: b9286ea8157d24e37ff44192e2f7b0c3b49069a7937d35a3830d3a908eb5d6ad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: fil-folk.ans by FiLTH (AMiSH); released in amish-rumspringa and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: FOLKY
-# SAUCE Author: FiLTH
-# SAUCE Group: AMiSH
-# SAUCE Date: 20141119
-# SAUCE Dimensions: 80x72
-# SAUCE Font: IBM VGA
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: FOLKY by FiLTH | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amish-rumspringa-fil-folk-part01
 
 Write-Host '
 [1;34;47m                                                                                [0m

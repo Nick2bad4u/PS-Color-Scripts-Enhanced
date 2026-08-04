@@ -1,19 +1,4 @@
-﻿# Converted from: cranksy-epic_loon.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz12/raw/cranksy-epic_loon.ans
-# Source Revision: archive-sha256:a144f6a13f8495aad16f3fcaf95ff5b0bc91807c93dbcb455f2b655b9f9c0dd9
-# Source SHA-256: b9905fbe816ea12fd8c0bcdd611dd1fcf6ba8e6d1607163afebe6a87c1f52ca7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cranksy-epic_loon.ans by cranksy (LAZARUS); released in laz12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Epic Loon
-# SAUCE Author: cranksy
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20201221
-# SAUCE Dimensions: 80x70
-# SAUCE Font: IBM VGA
-# Lines: 35-68
-# Columns: 1-80
+﻿# Artwork: Epic Loon by cranksy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz12-cranksy-epic-loon-part02
 
 Write-Host '
        [34m█[0;37m [0;1;30m██[0m [34m▀▀▀▀[0;37m [0;1;30m░[0m███[1;30m▓████████████████████████████████████▓[0m███[1;30m░[0m [34m▀▀▀▀[0;37m [0;1;30m██[0m [34m█[0m

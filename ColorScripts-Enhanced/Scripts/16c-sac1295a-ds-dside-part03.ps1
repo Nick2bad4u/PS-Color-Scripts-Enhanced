@@ -1,18 +1,4 @@
-﻿# Converted from: DS-DSIDE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac1295a/raw/DS-DSIDE.ANS
-# Source Revision: archive-sha256:df1e340bade503c5962393e18a0cfbf683e0762bd02b2e413ad8403ae23ca102
-# Source SHA-256: 655dd8f70594beef3d8e2ee1365938119b00d3277a9f86f7b7869839af66ef8e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-DSIDE.ANS by dark star; released in sac1295a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Darkside Login
-# SAUCE Author: Dark Star
-# SAUCE Group: SAC
-# SAUCE Date: 19951223
-# SAUCE Dimensions: 80x114
-# Lines: 83-114
-# Columns: 1-80
+﻿# Artwork: Darkside Login by dark star | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac1295a-ds-dside-part03
 
 Write-Host '
            [1;30m▄[0m                           [1;30m▀[0m                         [1;30m ▄  [0m

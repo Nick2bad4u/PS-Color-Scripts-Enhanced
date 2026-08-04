@@ -1,0 +1,4095 @@
+{
+  "batch": 43,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "137c03aa8285e9d784b243742806a283bb49838fc8132f4b2efaa252b3cc52a7",
+          "expectedRenderedSha256": "3a1d08cef5834d2e4fcde1e6cc4d27610a1fa13cbe89b05cb8db3e8a7df7fcc7",
+          "row": 14,
+          "sha256": "7de058f54aecafebc26123d1b02d0da025f0faed88376e9367c58309a680ca42"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "f5109cb8b4adda61442d12ef35b1dcd61765016e6222466b338445d5e098ac54",
+          "expectedRenderedSha256": "76e9cc381077e6f3063c608f3361f7575f2e5d211208f8cde2f21168b8e6ffe3",
+          "row": 15,
+          "sha256": "583d0f0d7d22b5f20a8c173727de0482214231d0add3d982731b321376a0ede7"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "4fce5f0802aa7409ecb4165e4c064496136a7f402e0aadc482447133505bf0a4",
+          "expectedRenderedSha256": "56663f46b0478eb244b8a40c9764e9cd0861b8a1251b71726d37f4b85db421af",
+          "row": 16,
+          "sha256": "7b3ce05590462098846b82239b4f7ef0a8d261df8a5708e88157dc39f233c8c3"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "1ad68233b3a187074c89eece93ccc6a49686030e8203be287879ad4ae1f8ac8a",
+          "expectedRenderedSha256": "295ca8a9ccebf12a98bacc90a5302d050652dff9eed00a11f1cb985f86c29855",
+          "row": 17,
+          "sha256": "666f818f6069aeb08dab504b502de3c8fbe5af705b3415cfc06cab0dca08b10e"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "d1fda9cd11ea3d04f147cfecb279d3db9b7690249236dee1df2b9f50e017b9de",
+          "expectedRenderedSha256": "c5feb9cb6afca4713f81e470256b95607972ce6f48ae0ab1bc0aedf723ca767f",
+          "row": 18,
+          "sha256": "71a5bdfd8d78e5a7c8ada2654ce48dda1b022431d2230189ee47fe640c0bcf27"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "755692e9952ec2f437f3a0d945fb831dda490404051e14a9b580656cd87e673f",
+          "expectedRenderedSha256": "b6a3e3bca5ccd9062994b4ce2246bf76dcc01669bb19f2ecc451c7446b7f5002",
+          "row": 19,
+          "sha256": "ac88e8c70dc3d0dee7c67e99c5547e23b12073feaba3bd25be449f9b375591e8"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "68c3f166e1b47a04cedf50fa41eecbd9490bc03df7880abe3435972ca9cd4e86",
+          "expectedRenderedSha256": "e0ce5d3b4f5d29ca395273af24ce9bf41172b499309c213dec164eb2999e122e",
+          "row": 20,
+          "sha256": "d23781539529bd6b95e8a5f00d597cbe9fd069deeb0f3ef3b25b7251ddcb596b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "e1e94eb02ce642aa0d8d3f05d2f9ee47347b91143225db91f7edabe109bf556f",
+          "expectedRenderedSha256": "61f973b56650bc8e8e3b375fc0d9cfc4191dddbfa69d6f37095a6e0134857dab",
+          "row": 21,
+          "sha256": "c0b04c2baef7407af777a6fbea926ba12125c7f6fd4e47031c05be043e15b70c"
+        }
+      ],
+      "file": "16c-dkrew-06-l7-selct.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "d8d0684f507be37f70d645610381ce985f507604e15b868873977c1de9acdc02",
+          "expectedRenderedSha256": "1d6e3b1976a8693b32ef081f2f30802d695e58c7ab4bf4afbd3769d6448b294d",
+          "row": 6,
+          "sha256": "8bcbb492eeba2d571ec2050ffbf37f3c701c4cc0e21378d164cc4be3ac6ab39e"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "12da934fdb79d132de160288523a021c32e9dc5f8597a1212c6cb6489033c2f4",
+          "expectedRenderedSha256": "9c1146a0defe0ff085c339c6a86848f161a5c737d0727109ce33bab49a31679a",
+          "row": 7,
+          "sha256": "9354d6345a007b580715706fd78d0e472818a86d09be2981984e902bd3da38eb"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "cb9cc13d820743b22f13a280810a736e00e8b9e7b0e602c267bc267c8e950855",
+          "expectedRenderedSha256": "436464b969a20bc2cd73fc3358cea67f59ddbafa879b570560515e212b38177a",
+          "row": 8,
+          "sha256": "8b4f93ca07554bf7df27a4dc49054e2e60c21c95a69b746153b23110641eb160"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "c53201e458daaa18a79ba0eff29bb4a76225720249bd64892ed50d6631aada66",
+          "expectedRenderedSha256": "bae858b78f7a1e2b944744e48b02a64682c922a2bd69800bc9d40a3130a898b3",
+          "row": 9,
+          "sha256": "5c043b401c8bdd8d6a1c6a6e1c8df3f4c7e245c5ba14e2765381f404c866f3e2"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "270e5f7c0494b34458e923bc1c58991b3ade1af67a04873dfafb6f89d25fa1cd",
+          "expectedRenderedSha256": "6216ca29814f6ec5d633ae4ca8295990852f4b68a5d7e3ce77f60a294a1174fd",
+          "row": 10,
+          "sha256": "f49ba505989b0260af25a740989e5238c3951a63e4e3f54a18ef7bb93b8637f2"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "c2e1557f2cf0d07961f2425b993575f8e13d8366fc4d490755815082c4f9f3fa",
+          "expectedRenderedSha256": "999eb2d2744cffce8448ab42366e57df17f642b0a150ef54028e622233ddbaee",
+          "row": 11,
+          "sha256": "cadba5f75f72a38fed8cb8661212817eb8ffd95c09d6c2e9c8fa062524d4198d"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "72c8813190b6e10a6f1648e4454c3cd258d7f7cc8a26edf270d79dfb7254dad6",
+          "expectedRenderedSha256": "40b83fee3430c312ffdfb26fd7022f04623b7c74d113e408d4e31d9226860f57",
+          "row": 12,
+          "sha256": "3da877bb624be2ab929aca886e4ccb121230508ab0bc6a5095978ecbc258f604"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "db108bc1554db241af2a92da7abb303c45307f7b3a93565b5af5bd3b58cccda1",
+          "expectedRenderedSha256": "258cb63226aa96c243f1f5a5636d4248fa074a0fc926386fdf7035271943ba25",
+          "row": 13,
+          "sha256": "9b3d4db79952009419515977ecaee83cfceff20be92eb1ea9d14b343f3459a6a"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "fb1248bdc243819fd62b4959e1ab34d9ed8f11beba3cb131a66168df6bbd19b6",
+          "expectedRenderedSha256": "258b90d7d662882a03cca35f49c67f76bf018ead2119362448a52d636418ae3c",
+          "row": 14,
+          "sha256": "1d8d06b0ffbbce82a379b5d4d7242dcba1c0535934a6ae45083fdd2861a09c22"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "37b27ec34702ffbc6c21b2151803b5b644ed6bae63b57f94fdf45138fc29896d",
+          "expectedRenderedSha256": "0cac4e7e73b21c47064d2159e4045e0fee901733e599d5e061eed54d55ef0bb5",
+          "row": 15,
+          "sha256": "f1171cd9643d850fb935bcb1404445956e79ca4aa949ba1eba81c1d95c63dfa6"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "3ac8c80ef170b4d4bf1db0f1384f5fd144cc35a62468e275b7ab26d55f01e57f",
+          "expectedRenderedSha256": "c3c12ef7fd6455ce52264aca8d8a00523335f9f12f2be09d07e84338ce1ba42e",
+          "row": 16,
+          "sha256": "c05735779592d16bb21a54eb0608775669042e7d96d8234f8e5b4c97f9d3bfd4"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "f33945a5dfcbd8686bd6157d2d0c7270b41e8f3c6ff41bfeffc45c0145109c8d",
+          "expectedRenderedSha256": "267fc9646154c2c24eac6ed62f20eccd6ef45bce8a3a3e795594f4d6ee2f162f",
+          "row": 17,
+          "sha256": "acd4324135b8ca5e91e253cf2460faaca59e3906ed6c2bbd692bd4d434f96daa"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "7985f1bd44b9b964a863a899fe685f7eb1ece5e91defd30808d65ffd3deb24b5",
+          "expectedRenderedSha256": "95700056ab0ef061896d3e314d61df91d724af4f624bbea838a01938f37cc149",
+          "row": 18,
+          "sha256": "bdb3b2907333a8874970f4753a9839bf7343b65759e35c2e5df8571100bd01a4"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "eb313cd2ce67c8c9d3aad746a1318ead74fa4c14f3b961b73516884e537c8c9d",
+          "expectedRenderedSha256": "3a74c1bc7119f71a484525478a85f5e7cf1346a9f632ac544ab63f6fa3fd8038",
+          "row": 19,
+          "sha256": "ed01ae8760629fed5f3efde9d11252f4539e37bcafc039b3e540f3c4a28be539"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "e744d756424fae7866bab933ddecb830eb9ab5f4baf82988d1b6f221e5629ee0",
+          "expectedRenderedSha256": "118412d890492d7db318a8cfb418aa52df9e5114b8b58cebbf68dd3ecf059b2a",
+          "row": 20,
+          "sha256": "b455ce3c8144f0e5af8db0c69e3859647bd0cf145eefde4915d720cfffe7c2d2"
+        }
+      ],
+      "file": "16c-circe06-us-moral.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 19,
+              "start": 10
+            },
+            {
+              "end": 35,
+              "start": 26
+            }
+          ],
+          "expectedRawSha256": "c05137916e21bb7aa3a4bbd77f1bd4b1ec985643b65eb6a502626b8811f383d4",
+          "expectedRenderedSha256": "eac92b05cebba9e68637580beda647ed0e243123a11b3bd59f3905403eb4fb4b",
+          "row": 14,
+          "sha256": "8ca3081eb27de87794838adedad07f133aea4c679aaf0f919678391bd7b3b350"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 19,
+              "start": 10
+            },
+            {
+              "end": 35,
+              "start": 26
+            }
+          ],
+          "expectedRawSha256": "f561ac214158b29e37cc67a1bc704d0a050b47eec48b90a1e98d1e6aa9c735b4",
+          "expectedRenderedSha256": "6b9ac7665ebfe27cdef30ff4c1d5cefa417494516edc3618ab984fae5ebc43a4",
+          "row": 15,
+          "sha256": "c1a0aa9e5c1b2df1183299715dd315da544623c40f9412fb401ea4dba72e08c4"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 19,
+              "start": 10
+            },
+            {
+              "end": 35,
+              "start": 26
+            }
+          ],
+          "expectedRawSha256": "5283927f956e46f255887ad9f1ba52243147ac89355d74d047b170a11589f26d",
+          "expectedRenderedSha256": "bd1a96f8274e11a3abfb9df13e7125e48126bfab2d78862923a2a8f805552a2a",
+          "row": 18,
+          "sha256": "96759398eed28936cff773dfe59fefd4821603b7fccc0f260f7de9fb754a8e15"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 19,
+              "start": 10
+            },
+            {
+              "end": 35,
+              "start": 26
+            }
+          ],
+          "expectedRawSha256": "fdf0230a511cfd81443e17ed168177c5e7bdb61e3c4bd4a54ee0957606169959",
+          "expectedRenderedSha256": "2e9cf8f3779f991f144c8a354dd2521fe3dd70e311dfe95dbb5a4786b5289155",
+          "row": 19,
+          "sha256": "07a1d54ba2f73751370a77286ad42f8cfae883b6644eae45610eb8994cb2d1a2"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 19,
+              "start": 10
+            },
+            {
+              "end": 35,
+              "start": 26
+            }
+          ],
+          "expectedRawSha256": "a17b3cc07a68124b293587a9cfbb9e35c54f8005bdd763a10ed46152ceb18c45",
+          "expectedRenderedSha256": "e1ceae43465d35db8d1eb778a95eede5fa9f2e9fe78c08b79dc1fcad21fe2c19",
+          "row": 20,
+          "sha256": "c00c8c51c08f3fbad6da8fd5c095fdbfa5e5c376e243bc49bc987fd7dd7231fc"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 19,
+              "start": 10
+            },
+            {
+              "end": 35,
+              "start": 26
+            }
+          ],
+          "expectedRawSha256": "55c3c1767e8315adfdc217b1eb36b57b0dbfb6fcdb8063742fc9019d3205fb79",
+          "expectedRenderedSha256": "d13ba7f8c1c66b7cb3d860c7682b7696aedf3dae05b9657dd0b617663d32e13a",
+          "row": 21,
+          "sha256": "fc017c145dc3a0fa557db4398a1e2e64d189cee92b0421ab857c2c19e4c99f8f"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 19,
+              "start": 10
+            },
+            {
+              "end": 35,
+              "start": 26
+            }
+          ],
+          "expectedRawSha256": "b02b5540a34b683fca2ad935ec95eaf0bd80c1a8ef2f1ad26c082623f631cf35",
+          "expectedRenderedSha256": "73bf2823fe0a5cdfae0bb916c508ee2ab4266e01016fdba6faf529cdf6e26d54",
+          "row": 22,
+          "sha256": "8fe31dd9c6b4ff2a3aed71045b0bf42623ed750ee6037b6a5d9f1b655e99ba34"
+        }
+      ],
+      "file": "16c-m-9802-rh-smpm1.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 62,
+              "start": 55
+            },
+            {
+              "end": 77,
+              "start": 70
+            }
+          ],
+          "expectedRawSha256": "739de1941a716dc823c3008b44fa5d860fba5b5acf2c9cd20b5bee36c76cb71d",
+          "expectedRenderedSha256": "98e493816b3b0deb160714a424fcdd00f42a8192b9d01baceb15a02fc1a382b2",
+          "row": 6,
+          "sha256": "87139c1bbeff233b532c0776e021d7bcb02bc7cb722b91c2ece79894fd51a3ec"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 62,
+              "start": 55
+            },
+            {
+              "end": 77,
+              "start": 70
+            }
+          ],
+          "expectedRawSha256": "64bc4f24b97e42aff9fd23aa1b22efe4689530906f1592c3ce078af30f0b1752",
+          "expectedRenderedSha256": "82ee484a4d4a3fe8243af6803e5963f9679191171f7ce947a33902dc2d1c6f9f",
+          "row": 7,
+          "sha256": "41a9f513f38965c2648a0096753cad57c94bc246e4e407fe5239e5f8a5f5713c"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 62,
+              "start": 55
+            },
+            {
+              "end": 77,
+              "start": 70
+            }
+          ],
+          "expectedRawSha256": "ac5d4f6d3cd673064a5ba0fde564cbceed247116f8b48f32e523856913565c60",
+          "expectedRenderedSha256": "3da6add1780043adac41597742e47a8aa865c211eff1888f4b72cb488c3d1a32",
+          "row": 8,
+          "sha256": "6eedaa6b7a920f782545b81487d5a61b5dcf3cdacc9d101c52ff45f18cbd3a80"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 62,
+              "start": 55
+            },
+            {
+              "end": 77,
+              "start": 70
+            }
+          ],
+          "expectedRawSha256": "68a008cbeaa36f047629e731b6843e734ce7ed23938bcfe51e3721f7a2e686e4",
+          "expectedRenderedSha256": "6bfe7ede89a0f0950cb3a7707da49e637a68ddf6e8c131396c76172dc03fe656",
+          "row": 9,
+          "sha256": "a0b9f8abc6644880346ef637f87a6e77bf2258e2de6b8d291e67520de45cce41"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 62,
+              "start": 55
+            },
+            {
+              "end": 77,
+              "start": 70
+            }
+          ],
+          "expectedRawSha256": "24ae2cf978b4aed4f0f750a1e48388da84fb5690142fa335993f48dffb965c02",
+          "expectedRenderedSha256": "9e2b6a0a0bc6559aa6727e5711b737e352a3a1251f15a912bd9605f2ba701447",
+          "row": 10,
+          "sha256": "5f4263c24bf24fb98a12005e2e035f1abb6dde98f1d13b6dddc626848942c1dc"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 62,
+              "start": 55
+            },
+            {
+              "end": 77,
+              "start": 70
+            }
+          ],
+          "expectedRawSha256": "aaa18b0de20b5835cef1e958aba896c59f8e17ffe85f92c6874616d6a7292164",
+          "expectedRenderedSha256": "95232cbcfda3419a04ed069b745186adcc7fffdec9720fbc252588ab89d99699",
+          "row": 11,
+          "sha256": "64f088bf75e26744790a4608f3af123e2b6ebbd74fa0ab481d7158c86c2192cc"
+        }
+      ],
+      "file": "16c-d38-08-bs-soc.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 62
+            }
+          ],
+          "expectedRawSha256": "cd111a06807a0daae953627a18891b24054043b5d29722b24bc92b4096d04584",
+          "expectedRenderedSha256": "4c2b670ca52e4c028ff987251856dbe3b82426d3e884b8823416c9c39ffe38c9",
+          "row": 11,
+          "sha256": "bf72562d0d7f9af67fa0889f9c2aeed350becd8649e3d33b68ab085381cc5a6d"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 62
+            }
+          ],
+          "expectedRawSha256": "870127e2ba2d9d85c26622f562288a5116c77518ae7e4993ffe815506fcfe131",
+          "expectedRenderedSha256": "f304c41707f97abe84b8cc590543fe5f1d6c7ae6b1ea1758a23bb26dc67fe308",
+          "row": 12,
+          "sha256": "9f063d2a6845539e4469d6fc2084e2497d89cc96844fb619eeb4f283e04f48c6"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 62
+            }
+          ],
+          "expectedRawSha256": "e235f1cfc583e74b90d3795833ca087bb546c8a99c30670d4ca7bfc916901d16",
+          "expectedRenderedSha256": "faaaf2fc01f3adc446d2b2abc19bfc0b7d254ca0e9f4b01a6342a192642ada91",
+          "row": 13,
+          "sha256": "337b61722582c13cc376e58dad0ed150f78a3dfd333520838623889cd250408e"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 62
+            }
+          ],
+          "expectedRawSha256": "011f5a0d51159f948a31004ca25f33438867a357e7a7bee85ff0df4e8519f726",
+          "expectedRenderedSha256": "3e1c2c4cd041a114192ef53a097cc51f9ecf40ddf91df8ff26e40a1d1e1b18be",
+          "row": 14,
+          "sha256": "329df829c8b302b95fd7dd7ada64d4a6070a491f8ee764022e299fa99cc3a2cc"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 62
+            }
+          ],
+          "expectedRawSha256": "1e41eff6d0ba1598d5de66e2574d796fe382e06f3e77f83c778891f3ae0bd5cb",
+          "expectedRenderedSha256": "12a4f519f8b311813da019d0af6c355cc8044dea6b036f0334d64f4c7ff98a54",
+          "row": 15,
+          "sha256": "40e19c92e84683a258170a20b1a121d2899a6d2aaadfe947226c0bdb9d96c14c"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 62
+            }
+          ],
+          "expectedRawSha256": "e893aef8c0e0b9b81eb7395912ca3f12707ef37d7e9578c25dd58722a1aaeecb",
+          "expectedRenderedSha256": "560a8c822679e0926b492e47c1708d721f3638cedf60b9f7e494c274ef1b783b",
+          "row": 16,
+          "sha256": "d491072301d97bfa4b77498f9b2b14f70a4e4e2af9bd6e05f1b03aad0d102a93"
+        }
+      ],
+      "file": "16c-awe9701-tna-fc2.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 62,
+              "start": 51
+            }
+          ],
+          "expectedRawSha256": "6df029f200f2ac4c284a5e56b6fef2133d0c3e394f24c56f1c61a7e24a35a737",
+          "expectedRenderedSha256": "1625e403efa9af25bf73c334e69da5b4c8b7ea0aa0a87d3af95c6ac1ed740cb7",
+          "row": 8,
+          "sha256": "fa853cf3bbc3c957c5386681e9d128b3b876984cc27ce7b5f340988c8a9fe561"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 62,
+              "start": 51
+            }
+          ],
+          "expectedRawSha256": "caf753287887a538fa2545b6ccf60464cfce26e8a56732a298e9d591b54df5dc",
+          "expectedRenderedSha256": "34978cf282a79249efbc7aa5087b7e0ea21a85079e6eddafbf9828da7230694b",
+          "row": 9,
+          "sha256": "1ca3b8e61f854e4df36f57a8ae4fab9caab87a342249f6c742b48360e57c064b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 62,
+              "start": 51
+            }
+          ],
+          "expectedRawSha256": "b4314ad19cb20343c473ece6c52d6eab643cd998df075f93bc92fba5b8b46be7",
+          "expectedRenderedSha256": "4f0d8ed0dfed6361a8121cf17df8c72b42aea8a7c7491dd93110409993c092a2",
+          "row": 10,
+          "sha256": "255498abf2a7efeb6a60b2f324bd4437e8c09e0d13809ec622761abf227d84fe"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 62,
+              "start": 51
+            }
+          ],
+          "expectedRawSha256": "eb10e56ca091280c18dc7b0b27fa18b01899760adccc0cd5bbcbaaea0933ef85",
+          "expectedRenderedSha256": "db3f5474a0b1d459c9c22420a296ab66939eeaaf52ab3745223502a604804a11",
+          "row": 11,
+          "sha256": "221f2b7b46e37829490912a1907bea9b96a6d5c30cb310b7f53f42672af9baf8"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 62,
+              "start": 51
+            }
+          ],
+          "expectedRawSha256": "af89b67d6fe09e73ae7711b2a7d73b567b5424162e00168703e7bd9da2903d8d",
+          "expectedRenderedSha256": "095df377e03b815c8d8137f4a00bc8c4e83fbe50773e9ee34834c58a3d25be9e",
+          "row": 12,
+          "sha256": "3dc87187a601cddddcd26f35b0e588cda87871798905ac0b6d1d2980b1c9d58c"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 62,
+              "start": 51
+            }
+          ],
+          "expectedRawSha256": "ce024d4571c35ed39a65cca3c251b5ee81351ddae1f0896ecd2a833cb0062bbf",
+          "expectedRenderedSha256": "68b3dcb3d0e50b18a09aee48c6bbf55a3fc6e0dfafee0b9e0894ee28bbba9963",
+          "row": 13,
+          "sha256": "2f1a638daa6c381364e0a5ecb62da85771587c2d263eee05389b9856eca82693"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 62,
+              "start": 51
+            }
+          ],
+          "expectedRawSha256": "a28cde81a5d11a077643e76c729ad103fb5a48633d33e7451b5498e686781393",
+          "expectedRenderedSha256": "c471a71ff78c571c322edb2aa6ad1494135c49136964a4c7bfcb0805cc5ea106",
+          "row": 14,
+          "sha256": "b1ea615ee317d523a2286cf4360275c6eef0cf63850b4d1e8a4dfa21213a14d0"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 62,
+              "start": 51
+            }
+          ],
+          "expectedRawSha256": "9c5ff58c757a6e182e0ba62d1e4c6ab08f96ad6d2d37b446f0e92357d17a7072",
+          "expectedRenderedSha256": "f2d760b0f303d73c591f95fd70a6791f58e7c6992a4b1cfeae5ea53667db1759",
+          "row": 15,
+          "sha256": "14827f0d48608aa7fb61eb3f9829e6c2d91a606a807ff344c2a8f96dec74f956"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 62,
+              "start": 51
+            }
+          ],
+          "expectedRawSha256": "143597762989b782129839f0c4bd78ea2e9c1fca356e883e96c6d1a978660342",
+          "expectedRenderedSha256": "bfb8caf981c6e79214079648127c2a9441fdd639a9e96c1dc6d15f079572923f",
+          "row": 16,
+          "sha256": "4b7bfb97f00550c9736a197c86ea9ab9d58837d3ff3c93f9ec5b6662e2edbd28"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 62,
+              "start": 51
+            }
+          ],
+          "expectedRawSha256": "cdd17163bac6665d6724017cebbb786c3de9ac8731d0fd0a6afc097d5b258691",
+          "expectedRenderedSha256": "72ac768edd3020fffd2352090becc5c2a1bd9ecfba4b5d176ff90d44066e3752",
+          "row": 17,
+          "sha256": "9aa9fa93bc2dbe86e2768cba62cb1c525af27d5ab3b7711b91810ed7f038c84f"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 62,
+              "start": 51
+            }
+          ],
+          "expectedRawSha256": "bbe84292c09c869e96d47e7cee0c947a5a7dd53a3d7ec21d53cde3f17d698fa7",
+          "expectedRenderedSha256": "d9e934d42bc701556cb36134e05358fdaa38e4f3c2b068dab1110226ab5b850d",
+          "row": 18,
+          "sha256": "71dbb6bd55eaf3eed6c6853acd9261762b354dfd0c4f6dd5d1e076866e25ac5b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 62,
+              "start": 51
+            }
+          ],
+          "expectedRawSha256": "3b43052eafc04bc6698d85ab1b8adade02395d0eb95c66d9f0443f81ad1517f1",
+          "expectedRenderedSha256": "bef4deb0dce4801dc13acbd66a717023bcaced03497d9a99b702f2ba435dbc57",
+          "row": 19,
+          "sha256": "1325571c03b28651b3b53b14c94aefbd6e76000b7ac96ff743a509d727549f47"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 62,
+              "start": 51
+            }
+          ],
+          "expectedRawSha256": "0859b7eb5b3feed100877069d709e748dd3b59a1369b079b589e39be28e6d749",
+          "expectedRenderedSha256": "db093158bba0ce99bb687bae86529de584b59c2b64c39987960d410ec121f1cd",
+          "row": 20,
+          "sha256": "bb198fd72e0c5ee2bec631db801ee487819253b8efd448ae0791ef7e02dec6fb"
+        }
+      ],
+      "file": "16c-awe9701-tna-sf4.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 25,
+              "start": 14
+            }
+          ],
+          "expectedRawSha256": "48df12d853fe1d299340d7be8f026c769f345dae531bfc6445e9b6d695db4a47",
+          "expectedRenderedSha256": "c635a19366f5285032971787d1d911886465376a8993b449ab47bb417751da0c",
+          "row": 19,
+          "sha256": "1877f45e297751fb04809c2546c66a633f8ea0c99b0bb0e6dfee52755f22e78b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 25,
+              "start": 14
+            }
+          ],
+          "expectedRawSha256": "e19b56b652b02c098ce9bdc874d96c5b476349fe259050e514f8754076d112cd",
+          "expectedRenderedSha256": "91e161ee20801d0e6da803161b6b8c84a0eba97aaca74aab2462ba4db9209d7a",
+          "row": 20,
+          "sha256": "fd593d8b83ebe3833561da4bd0ec1bd8850dce0157e8e398aa4e7fffbe83c8c2"
+        }
+      ],
+      "file": "16c-apathy08-sp-dw.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 11,
+              "start": 3
+            }
+          ],
+          "expectedRawSha256": "e73958b4201d461b0a55014cbe88dd0b580a3527e285c3388f03b2aba24edc87",
+          "expectedRenderedSha256": "c3d8927ac3f5505b737903f81da4151638443b5b0335852abbb1296752b36fa8",
+          "row": 7,
+          "sha256": "2464ddd1e2bc43db2137c362526703b82f8524b7a7ebb45264ae786babdfd10b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 11,
+              "start": 3
+            }
+          ],
+          "expectedRawSha256": "b1000c24ff3f08051cfff3efdb0d08363a77f1d07ce8ad66e9f40783f3f5712e",
+          "expectedRenderedSha256": "f44e5e2311ae231c39d04be5cb71990fdcfb7b405e4b6d5624cbd7e606499fa1",
+          "row": 8,
+          "sha256": "35df014f8c82cee96155760460f9b90a897f3e0e7481b0dd0b0ac4bcc141dab1"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 11,
+              "start": 3
+            }
+          ],
+          "expectedRawSha256": "2b30fdf624ec434d66b7ae459fde90203666a7cf6fd948243f3effbf51e5d780",
+          "expectedRenderedSha256": "16b2f69f48799c686b5222a0740cfb89f598d9f6cdf8067a61515398cd42248c",
+          "row": 9,
+          "sha256": "568dc4d04708157a4b129cd69259a94fda26244c9382a184c240366dc29e83ef"
+        }
+      ],
+      "file": "16c-blend06-rr-sol2.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 59,
+              "start": 59
+            },
+            {
+              "end": 67,
+              "start": 61
+            }
+          ],
+          "expectedRawSha256": "0a8c49804198e77a93feaf7f54a41070e021c13c59071f5ddacfa9de97178315",
+          "expectedRenderedSha256": "c5d9e1d50c78a8d649f3346ba1db8e3b601026782bef1786f37539c22d55ea42",
+          "row": 7,
+          "sha256": "fb155ce163bf4614eb129eb57263a9f6c70dec0731e4261bbf81d9f3726e0857"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 59,
+              "start": 59
+            },
+            {
+              "end": 67,
+              "start": 61
+            }
+          ],
+          "expectedRawSha256": "06c21ee1bdd6ffa908447688e04bb1eede9e6e773a785da5615db1227a94b904",
+          "expectedRenderedSha256": "59aad578a9050c576c0c783ca17d9a64f338c3d85d21fffbfa80cbc8b44ee8cc",
+          "row": 8,
+          "sha256": "46fa25e0c2a90152fd637e583169b694eb1130657345010b054994abf6d0ef2d"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 59,
+              "start": 59
+            },
+            {
+              "end": 67,
+              "start": 61
+            }
+          ],
+          "expectedRawSha256": "43a0995b665ece5b28a1d6c79e630b1178ce47cfa6c14e02ec8307cba691c228",
+          "expectedRenderedSha256": "20bacb107461f305021d4671fd43f26222e15e76792add552e27c442d35e0e30",
+          "row": 9,
+          "sha256": "b4b51debefa7bbd82cbd87a5529c7b4bacfe8e767936a999b2a050a706b758a4"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 59,
+              "start": 59
+            },
+            {
+              "end": 67,
+              "start": 61
+            }
+          ],
+          "expectedRawSha256": "93e23e846a8859c4f839c3ce2b9cb73a0e80495ed184e576a79f443f5ef949ec",
+          "expectedRenderedSha256": "be0191be95eb282e3b80bb27f5105ae76df29f9d3948e792b2c5635ad0e17f3b",
+          "row": 10,
+          "sha256": "f1ca3e6e2cbcf6b0146e2a140ab2764ca5404dd4bf53cea43b50a5b8452cc950"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 59,
+              "start": 59
+            },
+            {
+              "end": 67,
+              "start": 61
+            }
+          ],
+          "expectedRawSha256": "b7c46fe067f37483bb0fce5d5f80ff3b071d0accbb7896e14fa027ccf2586ce4",
+          "expectedRenderedSha256": "ad3c69d1f38fbef4c18f161945658e0e051e19adde1ad0b170455c48915a82e3",
+          "row": 11,
+          "sha256": "747c392d96d844aab9e0510d192931e74a8572ef031f1ac14e4a9e4db8601333"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 59,
+              "start": 59
+            },
+            {
+              "end": 67,
+              "start": 61
+            }
+          ],
+          "expectedRawSha256": "64fa12498ae6ac816d2707c1defb25a9f61a16714d8649e698ea2ce678d8aef8",
+          "expectedRenderedSha256": "c57e39d40e1acc454fe4fb02b845e07d5560e35ad45128c8ce7aa624a8a04d29",
+          "row": 12,
+          "sha256": "a0c5b3f212f463c87c54bb77aa988b06d8d6e80280023d28e7b963b35088c04e"
+        }
+      ],
+      "file": "16c-m-9801-mr-dysfm.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 50
+            }
+          ],
+          "expectedRawSha256": "bcb9c93ed0372ea8ece6f1b2694b584088b070f20fef15eebb8005bee923214f",
+          "expectedRenderedSha256": "2373c176de26897d1d058b32a94f01948e044c121df7aad3f622d73d7cd160a6",
+          "row": 9,
+          "sha256": "640111fe190e427f07468d71f0020f22b36ac11cf0cdc563482281dfc6617949"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 50
+            }
+          ],
+          "expectedRawSha256": "27dedec72e7e501a6c1af70fc39cc14b676df4ef7b89289a7e8e1a0fe6e3ce25",
+          "expectedRenderedSha256": "080d14a83e009c1f2dd45d54555949d49a8adbd81a4f0d1a899977c20d90ce95",
+          "row": 10,
+          "sha256": "5d331bc816ef10002cb483a109e01854e3208220507b330e2702af03ddecc56b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 50
+            }
+          ],
+          "expectedRawSha256": "f54b179702343124dd183fd8baa295fadcf83b44d53f0a9a5fcc49d2108950b4",
+          "expectedRenderedSha256": "0ae70b8976a358cd5f613c420154a47be63b14212943164e88fd774a997c84d1",
+          "row": 11,
+          "sha256": "0c455c670da06d0a706c826da51988b2a7ddd1e477decc4c6005235dacf91499"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 50
+            }
+          ],
+          "expectedRawSha256": "5b0f95483d6460ffeb137e885dab5dfc8fc1649472488c26b9afc7bfdf4f3e5a",
+          "expectedRenderedSha256": "091885241f8338f20ab7cf095858dae0e6d55f4fa86ca8a7f6fa1df89d163f01",
+          "row": 12,
+          "sha256": "43946b126ba07e9003721a2993bb5a064ad46aab9da3083069d376f2709f6a2b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 50
+            }
+          ],
+          "expectedRawSha256": "d19c1693a51823fc90ab64312e5dfb58ef9f840c4fc599a79bbe2a63017ebb31",
+          "expectedRenderedSha256": "10dd99fc461af98a5bbb5a85991697644193f99e83be080dcab759fe545b2bd5",
+          "row": 13,
+          "sha256": "bb1f7429dfe4034f3bc2a344571363d998f471a80f02b86bc4945ebcc641c182"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 50
+            }
+          ],
+          "expectedRawSha256": "0461d8d188b88b22c4b0b2978dd1f7dfa486bcc4c1e90c1677227036e423f3ad",
+          "expectedRenderedSha256": "0071822930ca3175b4944b993ad560760aa2b5295f9fd883c4ee774c2d00c1a9",
+          "row": 14,
+          "sha256": "0578c4e005b36f8435e83298c4835edff3ca1344a9e2829fdc55dceb570e2b87"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 50
+            }
+          ],
+          "expectedRawSha256": "db596615b6db0b1a009ac730e10c0804749c923b78340057fa4973cb7f15b8fa",
+          "expectedRenderedSha256": "864785727606e31d9ffe58aeb0641a99b50100ace07e1054e74a1514a9dcf5c2",
+          "row": 15,
+          "sha256": "e188711d184af4526a91093f63b8701ac831d0aa632a64ccbaffb5134c6051d9"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 50
+            }
+          ],
+          "expectedRawSha256": "51bfbc1d6493c095fe2c579922df45e58cb53ada2c7c7a5c5c66cba2f13a1a91",
+          "expectedRenderedSha256": "717baa326f9ffc5617f0caf8fa2965b79c23b95e1b086545ea85b8dc51e5960b",
+          "row": 16,
+          "sha256": "9ac70a8d819d357b933b1ab7c33c7be6f30217be3f14c674361b0bc816d7af73"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 50
+            }
+          ],
+          "expectedRawSha256": "d04c38d509e1618be55cdd56e2dc809c774b05220f827d0f87c31da615bd8c36",
+          "expectedRenderedSha256": "8340a6acb3cecf8ee262495e189628fd37d0fcad13f7b132084e5030a2feeca0",
+          "row": 17,
+          "sha256": "74b9998cf246135289812cf204b2757e9c13ac4f423f9ad753911408c689aba4"
+        }
+      ],
+      "file": "16c-maiden16-s7-corg.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 52
+            }
+          ],
+          "expectedRawSha256": "ec1dd61f56ce4ba712aa0effed13ae5815d65aa28a9f35b1fc866a96905ab5c5",
+          "expectedRenderedSha256": "38716fcee537ba49de5046628a21bc6aa34bde628e6176a3a268b0949df3d5aa",
+          "row": 11,
+          "sha256": "9c384b7ec76a1e27f11766114ad437bf28c74e435b1cddfe61bed2baf2733117"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 52
+            }
+          ],
+          "expectedRawSha256": "887bbb3875175cab78a4c92ea28f3b539a60866fd0b5e52f83a318e0579f87e5",
+          "expectedRenderedSha256": "87524d2d782dbfab595bcc8e3032401a8e619102b4d6c13b39a922a212d2d1c1",
+          "row": 12,
+          "sha256": "7df12eb3d3d9f387b5ce1d698b792d4658b3fff2f232213ffaad75fd6bfe8131"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 52
+            }
+          ],
+          "expectedRawSha256": "a0d1f7387eb3417fd9dd76dd10b20e5beaa1702f9f511acdfd02447cb6a815e3",
+          "expectedRenderedSha256": "22029fb708fd952ee1edaf46204676a8c881aeafea4c1232000793dddd5767a8",
+          "row": 13,
+          "sha256": "7a283e689dccd418ecd7e023d3cf9893fdb1c77f846fc56fe68ff4ce9cc99f38"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 52
+            }
+          ],
+          "expectedRawSha256": "d8c37d6f844665174cc4a98831648a596fa4208550dcb3c1c3f93bef86beea1a",
+          "expectedRenderedSha256": "d6ed5dab84ba47e18d598dff0561edffc80294cb6823d88bb134b65db29f44d6",
+          "row": 14,
+          "sha256": "48bdb3b98a5794cd2e203d3d595e00db98b0be8a5a1b915d70c4a13e1d09f9b4"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 60,
+              "start": 52
+            }
+          ],
+          "expectedRawSha256": "86a3ab9d0d5ae1ff25c36718a893425eda6797dcba5cbd00b198d80c7bd01d3d",
+          "expectedRenderedSha256": "4c1071ce8738e404ad8edeb4e23b800b15b500ce860eb2f05aaa57528629699f",
+          "row": 15,
+          "sha256": "51ea5c6fe5967cb28207e326583120e4875eda2e793d08b972a02f1d15989ff2"
+        }
+      ],
+      "file": "16c-root04-us-ie.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "c2d70affaa96d8fcacb870346fb1e89eaccc15c2987e305cb615b5a0bcf17b2b",
+          "expectedRenderedSha256": "52d52c30d1da2e7b833870914a1f32fb4ff2f360abdd8f8e155800e487881647",
+          "row": 8,
+          "sha256": "9e37d8f2108f77be90c3b3fc73adf6b12cd25541494559e46d91b0f6ef50afb4"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "1d225cba890f44a3591914d25c7a6981c39b8ca0d8f63cfd6df7012befe6b9f5",
+          "expectedRenderedSha256": "b96ab5e206ccccd1cd8922fbfa0f464be69fa4f4aad4eb6d4694331b75a44b44",
+          "row": 9,
+          "sha256": "14708809cba87a5bb9a8db8bb918be93f6636a2dc3ad117dd65c3795990a81c3"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "3ba4fe2eaecdaa73bba831af937a02a07f642ea6bc0cf7e5f9ada58f9bc48bd4",
+          "expectedRenderedSha256": "7a323953814b20c3ac942e648a9986fee4def4137bc823383d053601cf59fe63",
+          "row": 10,
+          "sha256": "9863df257eb62ef848ed07fe59e4d842499222782fb2f7ed566355ef41354257"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "d5493cc6d8805e5e1c8a6fbd348bf6161704fd4d1a0da72c2ffcfa05c9c3acfd",
+          "expectedRenderedSha256": "d67e426fc853f1d44ec3d0c25dcb73a8be3f9ff04684f37ab664ed2a721be7e9",
+          "row": 11,
+          "sha256": "fa3da9bde85b22f4d716279ff678c705b76c3a21293898b48f263f9547cb9dc5"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "0248da091366fdc0e5bfc16b921f26f98133fb27fc49e92579db31338ae022cf",
+          "expectedRenderedSha256": "d38193bced0790abb47b2cb05e88774197c585c78dc230c69375f9ed82081455",
+          "row": 12,
+          "sha256": "acd07c1932646e3588e6f053f7bae5f97b97b0ce6e9c545d71a3fe52a6fd49c4"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "6da6b5c11cc338dc8ba3a788f620913a5f9a2f9a7ad8ba6db6edb492d6b58e8f",
+          "expectedRenderedSha256": "a86bd2b8a2109159b52fc4c2ba3b279d8e0979c241b5c9c514685bd9259aa582",
+          "row": 13,
+          "sha256": "6287313d0f601040ac38e64e5bd9e7ae2c22242e2f5f85ab58dae9eabf8b6426"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "2f76bc9374a987d205b0402b80ff79466d846c18b48e6985395e09b6876b4424",
+          "expectedRenderedSha256": "1334b3f2933b1c9d687c8373f72278697feba327a1d07ac2afe4c1ce9caf5258",
+          "row": 14,
+          "sha256": "21dfb6bc63413d774507bf18c1cfb498e8985a1c4b1e5aef79b45bf717ec5c0a"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "39b1a2f38cb6e31701764ab2feeb82c2120253be13f2b0226b035b5f32d9433f",
+          "expectedRenderedSha256": "24738bbf468b52e085e47fdc43261f765e6e339d57523efcce76e1fbb26233dd",
+          "row": 15,
+          "sha256": "3afe6df7dd6dfc9f5db9ac48bd65ad077d38d0df98a6ea75845d9dd72d1a394a"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "3b3b1785b01800035c8d823bfacbc33ca8a005fd923aeb02d42e4a701b6b5ee5",
+          "expectedRenderedSha256": "fc2e514d304e94bc763d5e7e3b09415feb2144e2531fa0161e53c1b0397bb1bd",
+          "row": 16,
+          "sha256": "80d0cc9e6cfdb574982d6b356df5a1ea2d342a0efadd10804840cecf71c780d3"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "c92d4dd8428fc3af77c3a3ccaebd1b281adb4385c77bf21856e4f2d76f39675c",
+          "expectedRenderedSha256": "4af426d462a243b515bcb2d61b553d191e52ef6a864e4acddf894474d8f0d891",
+          "row": 17,
+          "sha256": "d1db5a1336e81b9914d7f274871b6f2b7e504f2006b790fdfc14462564928a73"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "9fe0f5696d2964e7da41e9af613d2f5320949d1a5d5e39374a98c809bb8458c5",
+          "expectedRenderedSha256": "757740df841792c1f104f6beead7dff8960e3bf24226fe317cdf8ce6614557d1",
+          "row": 18,
+          "sha256": "01456677573c0dc57b33f464172ab24641729b9ca81a76de1f4d607e736ee94b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "8af8513ca4a6c548b1b1bb744beee72b411782d1f4f213947b891ca1370dd309",
+          "expectedRenderedSha256": "1511cfb9651f06e52d1701fc168422a757b41a3f56f34ea8db056d23673c7bc2",
+          "row": 19,
+          "sha256": "685c2b4caf6ba86c8ada7d10dee445cfb893c9811e9757bcc3c7ff89f775b209"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "d85f573cba6199e35d7533184e28645e16847f1af5f65890191350ee1e2dec6b",
+          "expectedRenderedSha256": "c83474940f1fdc99b8f7c3819ad4feef6f995f567858a4633b4295d73e1e92b1",
+          "row": 20,
+          "sha256": "0e080fb047c0ef0816c6bcd40e5cc2331c5e62646107458ca22c8034e9113492"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "fc2b6eb605d33562b793d3488290a005342b68928ef9571461ff3b7ca4dff949",
+          "expectedRenderedSha256": "d9a80b8df4d19114ab220c4241b01e3abe94ad35bd2bbfdb69a6d08bc3cb2b38",
+          "row": 21,
+          "sha256": "afaba30db06a9ed0b484a2ae3aed2be91a803e3b22e4fdf80c559e6c9cc4c408"
+        }
+      ],
+      "file": "16c-awe9702-09-sf2.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 52,
+              "start": 44
+            }
+          ],
+          "expectedRawSha256": "abf103ae2b699264ea9e6fc6000efc2dcfa23ef8c52ca20d7f3483a5e01a7b00",
+          "expectedRenderedSha256": "a97e2b3552ef894866f543304b431a0e435bd608db10f91c85c124ab60418a48",
+          "row": 10,
+          "sha256": "d4dae1508bbac919925912cf8ed14802e6d51bafb028b64f3d71e7e1cf18524c"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 52,
+              "start": 44
+            }
+          ],
+          "expectedRawSha256": "5055ea0f2143bd1f85c3076c67f9541e94de5425e66447a5b9941c270a262b8d",
+          "expectedRenderedSha256": "d0ff6c696b697e1d37b5e32e582b0d5823c48213578de5cf35941beb210394bd",
+          "row": 11,
+          "sha256": "f9021eb8aefb726bf1c7c60a93f377f899b2b7cee32d85b3dd8b78646b15d242"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 52,
+              "start": 44
+            }
+          ],
+          "expectedRawSha256": "b8aa9ab9eb5b950fe77e319e659f89373e42171d232b4a0b24be96f3bb9db8e1",
+          "expectedRenderedSha256": "e039ff4063aecb6c2f5b163e312d0d5d89572553a10fb54f9fc3d29164c7094a",
+          "row": 12,
+          "sha256": "55cd04cade2c26fa435cca9191cd86c38582c44c773ba2795ddb8f1654354811"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 52,
+              "start": 44
+            }
+          ],
+          "expectedRawSha256": "8fae2fdef1b90615ba044d368ea092b4cd84f0781c0958539e13c3ed103665a1",
+          "expectedRenderedSha256": "49ef9497eb2a2a93fcdef130b38212fef28d3eb4025b749d056c5fdcaecfadfb",
+          "row": 13,
+          "sha256": "1a0e3b38fa4ae3d6441af04c37f4af95a97d2cfccd8a5a9839c0f754effdc755"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 52,
+              "start": 44
+            }
+          ],
+          "expectedRawSha256": "756f3d669f4217be2ec15e14f30120807d1e201c9ab1818cec1a50eb8cca2cc2",
+          "expectedRenderedSha256": "f79325a50cf992f90992cf58601424c188d75d65fb3fad55372396b20342afa7",
+          "row": 14,
+          "sha256": "bf4a499075285aaf73dfd57b190b65cf1dafbb3b937b1f117e244761e7830132"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 52,
+              "start": 44
+            }
+          ],
+          "expectedRawSha256": "9b871f1c272061f91afee9cf69d1c7879505d607838ae2c412294bb22bb978a5",
+          "expectedRenderedSha256": "80182020f1dfb0c38819a712566f82604815243ccce0d9eb556959db65519bd4",
+          "row": 15,
+          "sha256": "2be6575eaa2557c332734cb8c2a2880c250fd87bdb76e45e16a5a659c6a8d4b0"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 52,
+              "start": 44
+            }
+          ],
+          "expectedRawSha256": "ed979ce47063dc014eba8272c45483f03973f1b346535cbd52cbd0e08b6bafb0",
+          "expectedRenderedSha256": "5103132f13e4f875acb3b880f7350a999179a886c92466fc5290cc431a1a4de3",
+          "row": 16,
+          "sha256": "bf241742c8820e40850d352e40c61af2b16283f3e59b035601dd2a8466348308"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 52,
+              "start": 44
+            }
+          ],
+          "expectedRawSha256": "a80daa740444a86437810d81bd814b7983bd8887ed0a94c55e53a1ea026aaa43",
+          "expectedRenderedSha256": "6fa7c35d02a0c85781ed35299dbeb0570811a5748b99a2e91128412922cb5a07",
+          "row": 17,
+          "sha256": "dc5d837bb22c8dbbe5866976064e3ac77b4ce82b4ae4f6a90c213f1278193257"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 52,
+              "start": 44
+            }
+          ],
+          "expectedRawSha256": "ed6d40237299b33c4494aa109cb9f8e9d9f9f6f2783f3e0c289a2979db683b89",
+          "expectedRenderedSha256": "3f8ea5e5c6c595427f77dfaac09c83fe6b36d1fa988eaf8d4d01273727c696d0",
+          "row": 18,
+          "sha256": "315a4df168296323345e4cc139b7e244998130c423cd7da2b751f7fd3f4252e1"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 52,
+              "start": 44
+            }
+          ],
+          "expectedRawSha256": "b700c33f9ea1206545ca5bc2748348baf172b8c34766f7bfdf67e4bacf6985b0",
+          "expectedRenderedSha256": "4310e63610c62b908959bd360773101b895a9250a970464f7d48055df0520a5c",
+          "row": 19,
+          "sha256": "002d8abe44b99cd6a125011a4639ba8914a104f969b81f72a54afa049bd65935"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 52,
+              "start": 44
+            }
+          ],
+          "expectedRawSha256": "b646265f79a20dba555a09989a5aed231ea6a1c3d31bd7c62d4e6607e9680144",
+          "expectedRenderedSha256": "21f952ca3fbdb2a8f155a0d715093ea8afe1950500adc902282d59ff95cebd13",
+          "row": 20,
+          "sha256": "40a0a7a6085ffbe4f0428c33b1572a5a17058b2d372ad7c6829998e89c527432"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 52,
+              "start": 44
+            }
+          ],
+          "expectedRawSha256": "2fcf12a0864c9531c65a00c24c400482691ce7b3c548fa54636dd98bf0a19c42",
+          "expectedRenderedSha256": "1f880e5642e200ecc5c01352315434360eca6fd6e1a9e70cb481a32e8b0b32f7",
+          "row": 21,
+          "sha256": "ee0a0c2b7647a8274d9c9bd96c5ac0c0dfc24d3b5e7c0b8558515601e46992db"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 52,
+              "start": 44
+            }
+          ],
+          "expectedRawSha256": "6c2dbeb6ee054e83d5ffcf175de39552b1f46b7860bcba365216df4f3f625278",
+          "expectedRenderedSha256": "7c18f6ed2eb5645a45e75fc2dd277bb4608729bae43889338f0c6bdcc5a4a5d4",
+          "row": 22,
+          "sha256": "81de8041a086ba08c6c901a18ad21e66a415e4d385c61448fa51d548e758e569"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 52,
+              "start": 44
+            }
+          ],
+          "expectedRawSha256": "3ade71183bedf1f67918a82a123d9b6695a0fd48385e35d855e08d70a275b0fb",
+          "expectedRenderedSha256": "afdc1bf58351241e694b5efffa80d09b7ea89ea25ff81c52d3e26cc2377033e8",
+          "row": 23,
+          "sha256": "07a3839271b89da8c36970e69cbcf9fcd828930d7bf94d23d2fdc753d4ef174b"
+        }
+      ],
+      "file": "16c-awe9705-tna-spf2.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 16,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "f5c38802bd8d7baabadcc2b6ebbe3f7d929c16a28415ad896d1d68aadc7a50be",
+          "expectedRenderedSha256": "7629a44e9cf627d97cc5ff2ad1d492dc634b33dd349eaacb93d412c1acef916f",
+          "row": 11,
+          "sha256": "6fc79e073fc281d02ff22aac392e466dc2606f2855ed4c68fb152ed0f015c3c4"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 16,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "7fca23eb64870cb2e35ceb10d569ba1cdba84fc812bcc61dba7bdf1b40ab5f3e",
+          "expectedRenderedSha256": "611e078d06ac55958e6b736983b85690753e483db6cf81ebc43a3bc0e7f63326",
+          "row": 12,
+          "sha256": "df4c4bd676c273669f4b67cd5d090ec06bbcb78474bf00178e23860bfeb2c4f3"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 16,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "bed143d1678363cab9188f636793a670e2bc511a3c773e533a4d45d85ba4fe58",
+          "expectedRenderedSha256": "7df502e7d81a76f4b6b5d62f3139dfb324cd9f21644241a057f4b5395c29e766",
+          "row": 13,
+          "sha256": "fe307cf98e3e8926786ac8af27c36c645e085ceff8e39aac4be38b219871f025"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 16,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "1c1045b26411858fd26b2223a4e1fea5cef343b0ee682ada059c8860962bb0d3",
+          "expectedRenderedSha256": "e3d9b52e8bce2833d40146431ac4ed6dfad18a55281f88312824afc7a5724b11",
+          "row": 14,
+          "sha256": "9086e5f6aa3a3a4ef29de89031cdc874f4c913010e471929b867b1efd9e99258"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 16,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "2ec870310492ce411b17970658f1f833a51981f84184290bbff444016c82c327",
+          "expectedRenderedSha256": "1f6cfa3e0f0fcb7dd44c22ebe8b79116312a1895558ce436c826bb91b1f0d90a",
+          "row": 15,
+          "sha256": "f6a1e912bbd6e95dbe3c876d1ba257f36f04e7cf05a2b09e67a3a1a149b71554"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 16,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "7ae9279b67d628841c59c0c6c63e530bf90b74543047f7c3cc430f7028421658",
+          "expectedRenderedSha256": "7c0d35fe01ffc31709647211e6ff5671878b13ce10d3c0df0cc0d97cf137d607",
+          "row": 16,
+          "sha256": "476950ebf6338fc8025924c4952dd759a2a92b406e40c01d26ad236d3159c4fa"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 16,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "0aaa72b19eb3c0f36b89b68f1347b0933d7220633f82cc0fe883e937213a6d3a",
+          "expectedRenderedSha256": "b7c173878bf43206ba71c06c229d40f23e3baa8adf36c543f9f4645d7477cf2f",
+          "row": 17,
+          "sha256": "0592dfab16b1d71ae7723c1d2be4bf8dc184e5b882ef951370a7fe9413303dcd"
+        }
+      ],
+      "file": "16c-swap08-03-final.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 19,
+              "start": 5
+            }
+          ],
+          "expectedRawSha256": "932c939aea284015aa65aa9caad51d68c2c075e0dcc52074f68d7e439d9867dc",
+          "expectedRenderedSha256": "dcabc82f1cdba7d1d6dcf8433700859049ea1cf00d21f87b34a23a2ceee55904",
+          "row": 4,
+          "sha256": "b5ba409dd0b7fa62a7d9192227cc242dde25cfc782c4b2ffa768ebbd072ed7f7"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 19,
+              "start": 5
+            }
+          ],
+          "expectedRawSha256": "6b42153a0786cf28315330c1713a18d50d44bc4852c8a65a4ce480b5c41b82d3",
+          "expectedRenderedSha256": "3a88a8d21a7546278f3527c2cd7e47bf5f188038ff2736c51afb357444af45a9",
+          "row": 5,
+          "sha256": "fa2231e10fb2bd88dc2f922119b398eeda7c25df5b287d9be57aa2b91842bdd0"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 13,
+              "start": 5
+            }
+          ],
+          "expectedRawSha256": "0b1117314f0fffcfad3d35a534b8ec67b8de3f2f9da60cd527ddde633f401f1a",
+          "expectedRenderedSha256": "951117f5459efd5e6b14a8b9b2f0cd249e4c7950c3855ff50df9b01218f382ef",
+          "row": 6,
+          "sha256": "a33f2e02c6e3c33618480411d9370d7bb75dcea641562e6fe88516adb87d1391"
+        }
+      ],
+      "file": "16c-awe-12-4o-salt.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 16,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "a9a4273a81a6c55f07e5750b9ff54dbbbc78f30d49b4e3e1d3baef295494ef2b",
+          "expectedRenderedSha256": "2f48e990f6c71c967895b2eb928603da696217141295320e5052e47ea3c26de6",
+          "row": 17,
+          "sha256": "466665ddffdce746af704a4b2906459c05e3bf43db4e44d590962709edf39766"
+        }
+      ],
+      "file": "16c-raw01-c3-tpl.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 14,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "0045c49f2f5070636260efce0b25dae6fcf9bb6a71dd4a74ef3eaea766f588d6",
+          "expectedRenderedSha256": "199344f6aa602e000b0966c4b8404ec649855755f63a7a4f8c07f7d4b7ae1af3",
+          "row": 16,
+          "sha256": "beabcc6ddcc2363a963da4382a6145732ec9767f8bd9c46e92a5cbaae7ab4eb0"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 14,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "71a91ea8bea992a1186228232cb89bff8094ea453fa51ba458ee2ec835890e0b",
+          "expectedRenderedSha256": "165062326f5f33d6e6b36fa62b74e09bf3ed99cbe95814987d9728a57bd3507d",
+          "row": 17,
+          "sha256": "7bb36f547d4d0cc91c58bdbf305ad6bc5e85b2efcbe1ac46f32f763f4aaff02f"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 14,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "3cf57bdff1c1a8367693cbfbef9d411147d0b2f67bf39446db52a2d2d0bb3f51",
+          "expectedRenderedSha256": "e846e86c0b247290ae99627f18ee353c3c1af558c309e6323be2f84eb459c4de",
+          "row": 18,
+          "sha256": "e80fa483c4bd46d237c3cd0044385133cdb1bdc7a320ff2b002d93ab7734c9f3"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 14,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "b74bfea1f7a780ec97db9874325ecf60d4aa131dedcc24db4afd36591f1bc19b",
+          "expectedRenderedSha256": "de2a405d5759eb0f2b3749fb7fe607ead1ed34568b19504de22abc3ab0abe0ef",
+          "row": 19,
+          "sha256": "c7ed0fe44780410d4c2913b0781092752f926d7c130f3ea6c15f97e881cd32d0"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 14,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "406d57604e32602ad520e9cef4db20d33b5374a308c26d71a8791c049dc60ea2",
+          "expectedRenderedSha256": "415178172076a0bd482a4bd88d56d3f4480ab3fac232dca13ffa78305a3ef2ea",
+          "row": 20,
+          "sha256": "226ead936fb9cc26ddf1bd2bc74b3ae728eed277c8c9e1a4bedef2e776844a0e"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 14,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "e0f4d3b93ac1f951359b72145d94bab98f7af5c17797555a473dfecfc650499f",
+          "expectedRenderedSha256": "35ad2c385d0362d911564d0f81e8e23eac6ce1118c523e8c9fc1d7ff74327d50",
+          "row": 21,
+          "sha256": "30765bb596e001295c6864f305f70e5cc21af9ae244de7e309756723bb59e181"
+        }
+      ],
+      "file": "16c-used-04-us-h6.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 52
+            }
+          ],
+          "expectedRawSha256": "ae6fc71b56fde8ecd64b80826784bdb4d5d46554bfae3dd4c5536bf7899ee535",
+          "expectedRenderedSha256": "7ef472b2f0a371e07d8ba6b1b9251686ef7f230c489318af12f9a3450c3497c0",
+          "row": 12,
+          "sha256": "4ce3222917dea0de13aa0beb88fe6c68034e0b8ce6dc80964ce6e830aa3b18b9"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 52
+            }
+          ],
+          "expectedRawSha256": "fc61bc02e8e0fdd8bb344b0946b191d81d2beacee20549b433f251ae5fef2cf6",
+          "expectedRenderedSha256": "31cb8f89a83e791638a08ed0a2f2aed3c45ac88787c0490a89474f99429bde30",
+          "row": 13,
+          "sha256": "bcdcc1c076fceebeac7ad4a7699d46f296ef82a1c9aef854df4e06dfa95061cc"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 52
+            }
+          ],
+          "expectedRawSha256": "4d78ac6fb52a9e18615cf3d3b52dcd723f2494dee3e99cf948fffa490147c3bb",
+          "expectedRenderedSha256": "17a53f3839497edfabf3fa1897242ff4b675e6690bffeb12119e6267a34a2b91",
+          "row": 14,
+          "sha256": "f1d18ae81060c578abe786e5d72204a97cc8dfb0fec0ea147aa63b7b29bb7f07"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 52
+            }
+          ],
+          "expectedRawSha256": "b772c6317a0f3cb4627f80fe3fef1ffc244653db0329e7ad995b28935b2c3fee",
+          "expectedRenderedSha256": "462918c6efae48adb99b784585e119d38173ba88986fe12132db6196f76608ee",
+          "row": 15,
+          "sha256": "9b39430af9f8265af6f6c5e009c7e45f149b25af766fd47c784e259ff5985712"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 52
+            }
+          ],
+          "expectedRawSha256": "4293926a82e9d9c168ec23844bca03ad2187d60b158eb6a554ef90ce5d7c8ee8",
+          "expectedRenderedSha256": "4db366b768b4d47512999ceb6c2ce51948de32bc8416082d7b720fa75d42fc16",
+          "row": 16,
+          "sha256": "a354807c23f4f3223bedf8c18a01079ef988c9b0aa2dea8ffdf954f2021f6fef"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 52
+            }
+          ],
+          "expectedRawSha256": "d16d9d2ace17f0de5b32689eb3dbb6748b6a400af34d4994491dee9a03f99dff",
+          "expectedRenderedSha256": "c0d02190c13a02e98e3e21c82fab04333fa7eaeca89a1b7b7b16542da5b2c995",
+          "row": 17,
+          "sha256": "a5136e7aef71c98c4a9df1e91022c66e7789521d9295f4ae12fc86228a00f1d1"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 52
+            }
+          ],
+          "expectedRawSha256": "4a63d51bfd5e68198ac67a03cc32c3e4a1fff019efd60f57bc4c19b5349f02d0",
+          "expectedRenderedSha256": "aac737731e451f4a8245c98730968e336bd66ecdda253b1a8a84bb511e3fe658",
+          "row": 18,
+          "sha256": "1e8be3314adda8de780993ba5c616603e01c69ee54008ea834eb062630e1fe09"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 52
+            }
+          ],
+          "expectedRawSha256": "79059be0d9801b40a12b7d7310016a47938a248813f2e6abe122100f48ce9577",
+          "expectedRenderedSha256": "00a29c694142156e25c53f1a53b61b0cc0b58797eabaf66f5a8f8f014297f9dc",
+          "row": 19,
+          "sha256": "fb8921cb5e70482b5b793a05debe66633da9cfcd2e31f1a267babba2840c09a4"
+        }
+      ],
+      "file": "16c-bmbook15-pnd-schw.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 56,
+              "start": 47
+            },
+            {
+              "end": 65,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "5623f99c662ec590d505aa9f240b2fd229cff9a3a1e3d15f743420586018a53d",
+          "expectedRenderedSha256": "3cb3d8ef0450952880e21cdd19b7fefb2fa3006817a9fb96a73c960b6185d051",
+          "row": 7,
+          "sha256": "07706f949c8c31044e25d85f18c6aac2305780a7d09b1d084bdb2d6e73a79ad8"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 56,
+              "start": 47
+            },
+            {
+              "end": 65,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "258ea5e65c5c229809213a3c2c6d97e355b447efbd803bcb9dcb77b823c94eef",
+          "expectedRenderedSha256": "9bc82ed5685d472f407b1a283c6aaf242bf26ecc00a75ea3e085515f35de69ae",
+          "row": 8,
+          "sha256": "f13cb6dcc2345730915a91633b04202cd2cc6ff7fa5475054c29968eb27137db"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 56,
+              "start": 47
+            },
+            {
+              "end": 65,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "7e65ca6609b83144b7f8e7bb1224a642212222a35045996d2cfb062cecca17c1",
+          "expectedRenderedSha256": "42d1a176b930fda4a7251aae93fc13cbe24de6ccde82c66c847ab6eea7abc90e",
+          "row": 9,
+          "sha256": "6d3f922037305bf0583d84e938d4919117257354218ccb067a861261178a0ff2"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 56,
+              "start": 47
+            },
+            {
+              "end": 65,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "edef2ded2a986bdd19cdfc191dcc42467f9dbce059f8a399450319f42999243b",
+          "expectedRenderedSha256": "0d9bb071f8daa1e4a808e0071c3518d9241f78f37e1e04e6b05626f9d3c31e81",
+          "row": 10,
+          "sha256": "b300ef23ba47a7f902289323080bddc8656a15f3113a0115a47f362c71e063e4"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 56,
+              "start": 47
+            },
+            {
+              "end": 65,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "d5fdeac16ca5301f58c48221e5f3fcaa9cd00fe5512698ef174290db019e21ab",
+          "expectedRenderedSha256": "2fa32a4c3799ec8ce8a1e96936b210f40046001f43aafbf9bb5aaa982bb0904d",
+          "row": 11,
+          "sha256": "1873966c8a3d9a705572d0a9c289f9d5f2c63d1e735b9ea1875e41687c0a3a63"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 56,
+              "start": 47
+            },
+            {
+              "end": 65,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "68aa7011b10ab544024d6f08f263768b486695429fb8f57bdd28b5be59ba8a4d",
+          "expectedRenderedSha256": "4fac4aa538e06d56ba46ad9f613fed17e901c3247024d677996efcdab2362bef",
+          "row": 12,
+          "sha256": "fa266db7dfaaa55fffa19ceb300f9d736570c6adda15bc48690a22ae44ebcdfe"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 56,
+              "start": 47
+            },
+            {
+              "end": 65,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "6f90e635a1d757ad09c9c1b7af5c98a639e33822885a9ca40b13a4538d0ffc2d",
+          "expectedRenderedSha256": "144e3b27384b2881870b3e17527549a6d0ce784b4382f0db5423e59b0d2b085d",
+          "row": 13,
+          "sha256": "9661b3d2d8068ee442c2c069c955b9e3ef312273a0d5bcf011e3e25a96259d72"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 56,
+              "start": 47
+            },
+            {
+              "end": 65,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "8cb76beba32cb49a0d668a02294882295bbf6147902ff35f3b62c4b995f742b2",
+          "expectedRenderedSha256": "5a1d7c4bb13db8ec5f4b1d5ddb9db07f1f9654a1fdfa9d52ca9556ff21a6f127",
+          "row": 14,
+          "sha256": "f5bb3f5f08e7241d4aa4dc1301f16262613cf57305f5c1061fa3b5adc64eaeca"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 56,
+              "start": 47
+            },
+            {
+              "end": 65,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "e9cc339e66a505efd426615e9a849fa3efcae877991f6d9a78bc22421589f598",
+          "expectedRenderedSha256": "fcf6d9fdffeb6cf4811d836ea040b6bd0ba7fbede36622854315ad448b9d956b",
+          "row": 15,
+          "sha256": "ad76f638bc20b105dd869c8c7630ee71e9670fe5df1fd20a112760dbfe1b82ba"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 56,
+              "start": 47
+            },
+            {
+              "end": 66,
+              "start": 58
+            }
+          ],
+          "expectedRawSha256": "c4d9af547d98e7ea130f98dbe8273f747fbe3b49904aeb8f4b0e1241f5518b46",
+          "expectedRenderedSha256": "c8f3cdf3cc82c8c73826c6c9b10f6c495ad02c76d0e5287c01ac8885ad7ce706",
+          "row": 16,
+          "sha256": "1f4452b46c11050187ba9470f543d1bcddc3060127af893e7bb7d5b09e70277c"
+        }
+      ],
+      "file": "16c-plf-1198-zm-tjoin.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 41,
+              "start": 24
+            }
+          ],
+          "expectedRawSha256": "df51f2f1d9725e97909d63cc6965c0b15a0dc5dc18a2b171adbe317ae2aea9a8",
+          "expectedRenderedSha256": "4939da01b0faf61c71aca2282909f040c8213bc46964c1bbe083cc58ed45b470",
+          "row": 16,
+          "sha256": "6bad585e12d6f78781d5db5294d4883973ae6f189a5042953edb6d1c803fd68c"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 41,
+              "start": 24
+            }
+          ],
+          "expectedRawSha256": "942f029986b8384b20b39bea17985ef85085b0912145474540300e708027c66c",
+          "expectedRenderedSha256": "320dc1bebe1cff222ba401bfebd163b5484dafd7cb4b67c1db28b4d3a440283c",
+          "row": 17,
+          "sha256": "b7b77576dea2b842a9d2687ff75c5a0821be0934e4880c7d9b79e70b290fdb9e"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 47,
+              "start": 30
+            }
+          ],
+          "expectedRawSha256": "ca74950635ce9b00c5a235f7e04a785fff0c01360af88d6a0e35b57dff6c86cc",
+          "expectedRenderedSha256": "e0eb6a627d557c346b2ca6ec27cba75ab27d673b006e12d6b6a1b54cfc7974ae",
+          "row": 18,
+          "sha256": "fb82064102ddb46bd4492405f7e95a49be6cd389c4ee5eeafa7c2d8489d894cd"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 49,
+              "start": 32
+            }
+          ],
+          "expectedRawSha256": "903c3971e792c0d709a171e5d1db19c16db722d17610f655745eeee44899cdbe",
+          "expectedRenderedSha256": "ac2ee18e44063d8e43dae5c56d4bb98bb3fa77b6430a57a65d9453a4e9dbb60a",
+          "row": 19,
+          "sha256": "ebdbd8f472d3fed0ccf9efb89d1eab71b1d180aae45f0d5025dd47f91e69b5b3"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 50,
+              "start": 33
+            }
+          ],
+          "expectedRawSha256": "19019d4769b4c070b9fff6cbfb9cee4c7397ec1ab5660d9caf6d767aa1a48e80",
+          "expectedRenderedSha256": "d11ce3a80388ca12c21ba25ccaaa3b1e9597cf9dee117e93fca2e52bfb88c252",
+          "row": 20,
+          "sha256": "4f792a3d10b2cdb06cd184e76a83f76a8a6a2cbffcc3adb0fa711700c0526bf7"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 50,
+              "start": 33
+            }
+          ],
+          "expectedRawSha256": "f576983354a03ef8171e2f98b8c3a538d016126f11738303aa34c3dc2824e048",
+          "expectedRenderedSha256": "d00fb8a660989c594580b41fccf9e09a6d6366c44d5e8379cf87202f27cb9aef",
+          "row": 21,
+          "sha256": "d91e5bd04dc98b88aeb3d6540157fad3962722282885b9ac118706bae10bd07f"
+        }
+      ],
+      "file": "16c-bmb-0697-fx-files.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 32,
+              "start": 23
+            },
+            {
+              "end": 55,
+              "start": 46
+            }
+          ],
+          "expectedRawSha256": "f174b23811f134e3a8e348a5f223f617dd65203976449b0e60694afa27ec541e",
+          "expectedRenderedSha256": "4c61eeabb252e7525cd243f73853e2c85dd66770d129c72b6d56da3378259508",
+          "row": 13,
+          "sha256": "360bcbd5a699d0b14857392cd3179e67db8231ba9c365a77d3d29c97bcd9ae8a"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 32,
+              "start": 23
+            },
+            {
+              "end": 55,
+              "start": 46
+            }
+          ],
+          "expectedRawSha256": "10eb2f7c26aa4eeb45a6d6b4d7a97218c2be35acafe8d6006ea62d691cfbe105",
+          "expectedRenderedSha256": "6af6370e89725b871b896b78640a69b5c71029c5f0248ae6d13ca80d322059d7",
+          "row": 14,
+          "sha256": "bde9a44cfdfc09d7c034fb5800fb8a10bdfd170b52cdf672538b90389794f3d2"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 32,
+              "start": 23
+            },
+            {
+              "end": 55,
+              "start": 46
+            }
+          ],
+          "expectedRawSha256": "abc1ae35a8459bce800a2466f3a7b600c858d6979ad73e78aa83a00dd94033b4",
+          "expectedRenderedSha256": "a01d86086551ef2537ab9991b4d76ad581108dd37fd5fe32fd001b11a002d329",
+          "row": 15,
+          "sha256": "49fc296f4a08a49843e85abd2f46cef6a51b33d3ae57fa2173616a0435a17d93"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 32,
+              "start": 23
+            },
+            {
+              "end": 55,
+              "start": 46
+            }
+          ],
+          "expectedRawSha256": "a50447d82b6fbb0a7449348be937907dae32ce8f5430d1567ea081178cbe7ff6",
+          "expectedRenderedSha256": "1bc801c3d762766ff8b70f4d569c095eb57b3d00e80de5507a52cdd34d8bea9b",
+          "row": 16,
+          "sha256": "12d552abc3725385515bc44a788aed48cda5ecea847da8f3976c73cb3fd80da5"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 55,
+              "start": 45
+            }
+          ],
+          "expectedRawSha256": "a504275223c4e2e27f1308d3d85ae08d3c48cf7b6517e291337f90d64e8653d2",
+          "expectedRenderedSha256": "a379253a91b155333dc6f7cfba482a358fdc7cb129aeb150df7f378b851060b6",
+          "row": 18,
+          "sha256": "8cc7a7d57069e7deccdf062b05778750c11940309fe357ae5dcc8dc3b93346a7"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 55,
+              "start": 46
+            }
+          ],
+          "expectedRawSha256": "75bfce366536ec1dd3e24b70a0c759c84f2fd0df3aed62028646c5c440ecb48a",
+          "expectedRenderedSha256": "f23c9cf573b7aa06e49fae4cfec573adc7db941433b50e78f37d9eede8ba6e5b",
+          "row": 17,
+          "sha256": "fbb7be2ae0bfebea0a60662b478c64a1ab3b31ad70867b4f18de2f6993ad372b"
+        }
+      ],
+      "file": "16c-bmb-0697-fx-bull.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "fdfc117d5609d280da75d00c3ba71a889d017e4303ec759319a89935e62cbd14",
+          "expectedRenderedSha256": "d70d3929e353e99ef126fb8cb9e0f2bb426bd47a106b118a6547a881ae0aeb07",
+          "row": 9,
+          "sha256": "6c9ba4635ede26abbfd302e79e0fb3f585ba1a021835cc38376937fda690068d"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "dd11c61603c65f70cabe8c429b435f73949ddcb2f298b6d514eef017da4b4045",
+          "expectedRenderedSha256": "3c4bde0e7ffa76496c8302888dfd475312181eeb60274bfc4ca04c6acccaf4e2",
+          "row": 10,
+          "sha256": "49ea3c56fec574819c29b3f556532d3d5088014b300269aeb0ce0e270cacf2ee"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "070537bf211c2f039bf33552614f62bee3f9c90afc47145a9c3022b569f62d7c",
+          "expectedRenderedSha256": "ca2dc41636c7481b42a68ca62a4432438277644f7b9eb2841453620d5445923c",
+          "row": 11,
+          "sha256": "ed89efa5bc2979ea298c69b62afe734ce866ba9d7d64a023571635809251ac6c"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "41dc904a02e37d3601a01ca0987e6e369492bf6741c770422982f1421b7b461a",
+          "expectedRenderedSha256": "e850ee95f2ff1b6a2c55dd69faf52307c636b6418ac972e890ca18c772f7d59e",
+          "row": 12,
+          "sha256": "db7e939fa5ae370adfaab26d8dfb3d06d29605d81b800df298975d9939bae15e"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "451fd36bc8c22c0e657b8c523fed1913ce59c94ef9b054aeac322eebb980ac7d",
+          "expectedRenderedSha256": "953078fbcbe63e7f966da31d91ced55ed6db5a29666ad8c48aa24d776d6a4e0c",
+          "row": 13,
+          "sha256": "fe89ae31839b8ec542cd28727f78e22a4c6a984a0af5e5868b683626bdeadc66"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "030c5fa90447436eae323d068db24597e83c9175beee0eb96bcfbf534376e745",
+          "expectedRenderedSha256": "d3fff507c9109e47cf1e86885fa93cbb6c63b17509964123ec8480f25140005e",
+          "row": 14,
+          "sha256": "f95532270a68cdd79d6e5b5224834a50ea203324a55239b518e32ad084da582e"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "a29a47d5ec938addac519453e25e60b83dd34f74111d6b8539770c549fb42209",
+          "expectedRenderedSha256": "302f55f95e235ebf7f9a23ad8d99f5100938165995c789084b06ad43f0f03ef5",
+          "row": 15,
+          "sha256": "9da60dd9d44910f235aae0ff3eb87fb4df6a727000ade03842c0f8e317705032"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "09a8fb7c8f6e5e043d9f1c17e9a76ba7f79057c197f1ac101ac40efa4af0cab2",
+          "expectedRenderedSha256": "b5afb63dbd20ec4199f4cda2b71c2a6c6dfacf60fedc66182a780a17d88ef4dd",
+          "row": 16,
+          "sha256": "b7f75a617ccf3b025662ab247a35caba2beb35bbee407a0a60c0a6857c3cbb96"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "496c600e25a58a58fd23d3e5041a64310b1bfdf2db3ae89ea25ec66e0ad483a7",
+          "expectedRenderedSha256": "2a79ac46047d7096893d68163c686d968be5ab6fc6e20d99c4763d89f06d4782",
+          "row": 17,
+          "sha256": "1334592fc27c9dcf1cbf6c72707193286ce392aa960260baaf01737084d636b1"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "2ee4c14d24da3ce345fe55f2d842ca363e904f2ecd19beec65f067c1326060bd",
+          "expectedRenderedSha256": "87e170e70b025c3103882c7d74ad87d03cda3eaef77853309aa178eff99fefab",
+          "row": 19,
+          "sha256": "34249b0d4edd8f9555d38e735fa6b7ca777b2b4f0eae4722b2ee751c6953d5fc"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "d06c02bf436a6f11e6b5a39e4fbf2612c9a8a88130bc4cf0a2ea464ccbf20aa4",
+          "expectedRenderedSha256": "11fa23c066a5dcbfbce4ac0f813ec39f9927db808a5dced03b0ebae87c42ffcf",
+          "row": 20,
+          "sha256": "4930d183b01ced931a2145cc450e2f0b8424d3d7cf781b59063ee8c87ac84c1c"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "cec44096f88b73c20d44ecf362f5610a205a56a58a64ebc895554de6cf15aa20",
+          "expectedRenderedSha256": "617eb7fff7a01ce290084ca850e6ff3123a61978e07466c1fec1c2737e2f486f",
+          "row": 21,
+          "sha256": "4ba49c97a235a5dae07e5a48b01d6d21af547e452c59d298fa931812bd88c438"
+        }
+      ],
+      "file": "16c-bl-omann-jr-irdiu.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "7806597258c9d586ad07ac5ecde7413efae323f0e615a51ea1f29094487bc183",
+          "expectedRenderedSha256": "d765d6c44bd4f947d423b91af182d0da7bb9e3a116d0286c60111a089ea39236",
+          "row": 10,
+          "sha256": "6fd7736427f53fd6e2fa4043a5d113e70737e3c9fe78242a758e31037243f92b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "fb0105a63dd9ef2af0990b79b0d94c115391232f1da8f9ebb5e73697071ad102",
+          "expectedRenderedSha256": "5603c1975d9d699bf66d70b5270c332c7db850c12d8202df9638ec345bde3f43",
+          "row": 11,
+          "sha256": "41b4722a647473590979f97a9cf181f3974538f7cfcceb3c1874a10888f56526"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "40a9dadb005c28f03e07908a6a498008201cd351b39b56446dffc585e3e9366e",
+          "expectedRenderedSha256": "9c08df53bb86a6f6b880005f16c21298bc378f096249ae36ec69390a8a8f23e1",
+          "row": 12,
+          "sha256": "9f543c462a5123c8895078aa60fe267036c2a17309e71fc3d7a73e59267222e9"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "74a5905cd4288af268bb9429e66e3b44aae6ed68858b7f1b702111fb6253e41e",
+          "expectedRenderedSha256": "ed64d312c1316f9eacd2e1e18e27142047ff593a4f1ef1b6dd7727a6121273f1",
+          "row": 13,
+          "sha256": "587678387d3151a805743ec97645dcd2b20596b97c704a067ba98d5d4ba99396"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "8a4b590f4ac41dccd6d6c25e2ce5b0d16e325fc51de5ff513f27a0b474dd54a4",
+          "expectedRenderedSha256": "39dd6f8180f591ac9b5038b2a50f606ce522cd75c834aef8087b86e9b6ca6b25",
+          "row": 14,
+          "sha256": "6a44beab56df14eeb064c9285b4e0a07e346f60a92ef66f272536754856dfe01"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "5b791b5c6f319cc981db7e8da6f1e7dfac4d3737516d39e5f03646c11fcf4716",
+          "expectedRenderedSha256": "8093bbbb76c03fe59a02fb434dd6d779a71833b81449b51b70c39120255c60be",
+          "row": 16,
+          "sha256": "3026fb0d4827631e615373b722ad024e56225270fb1c2bacaa29385d51990f93"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "fcf1cf1f2adceb20b43fc03299789c54444678b3379f2cbdb032e32c2b74e8da",
+          "expectedRenderedSha256": "f5f38dfdffbc318bd7c08fe0ac802ca7d7f65c7dda7a3cd8d9f3ab12300950e3",
+          "row": 17,
+          "sha256": "28a3e8b825dc817cfdc4dc910211e45fad527b3cf8099c9737c89b8f8ada8211"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "27f5613588b14d3cbc2216d2636305365424dfb3941cc2ce5107a680728961d3",
+          "expectedRenderedSha256": "2887e4ad3c1443c838dbf4dfd41f54abc88ca0d80f4d09fbf4389962b7fed9b3",
+          "row": 18,
+          "sha256": "05852dde53b9c4d1341a9ba6d3f8ed5c4c3678b01684c7894af365550d619c3d"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "bc614fb9e2ec4eb2ae5d5f15ddff34889929b065d807d716aa2b8d58aa83a05f",
+          "expectedRenderedSha256": "e4d5974e124a04d6e226ecbd893aa233df31dd48c9d585507d447e7467bc7cb6",
+          "row": 19,
+          "sha256": "571222ee8329bab3a6ea63dfbf7053118f97de1c94177a3ae89e317e57a18e90"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "803b303c7a3857b711ca070ecaf49251c202c7ee7eead5100d98e5676d4cffbb",
+          "expectedRenderedSha256": "0778919138fbb91a3135204c493e76c36a91e9ee0596fe8b8b68526bc9ab5394",
+          "row": 20,
+          "sha256": "3060370fad654ac595207b942ea55fd68c63a96a55bc621e3700fc4e48052bc3"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "2280f6bc43cb6042f3e46dc1b743bc4db9ff5d982f7ead35cbfbb1a9e1264dbe",
+          "expectedRenderedSha256": "52de4eb9a04614d6f0ed00595b148a8a5f3911903bf0a11bf15202f95b4ebc38",
+          "row": 21,
+          "sha256": "b020755db4afd1f1c4fb40785fb7f71d0491c0c283bc1e4b648c3461e8aaebbe"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "67969f5dec97724c3dc981e6b10235de0e5b1eab7bea2def025a5ffb28853941",
+          "expectedRenderedSha256": "e3ee558fcd8320401d128f9efff9b906729527961c0bde4c0c415262f6e68de5",
+          "row": 22,
+          "sha256": "24491b7838d05696942c92a8a52ce966864cb938e062dc12107e35a9abe772c0"
+        }
+      ],
+      "file": "16c-bl-omann-jr-mindf.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 17,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "f313174d014b90109417f6760670e6fd43cfc0821a3bc8bb47c3aed52d397016",
+          "expectedRenderedSha256": "370a18c0ec161b183a36d314b69dcca6d870b815cf5c0a703b2c4ecd2909ae32",
+          "row": 20,
+          "sha256": "a83e948b9d5abea1745a7ca5baafe80159a8228331c08310429f1dbfb762da29"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 17,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "6d8f7951a3b958929b4d6d710b2ea06d2696c776b33a22425afb34f02778dbd2",
+          "expectedRenderedSha256": "edbd08619cb2b916ef020dc94c7123bbd5f3a4f7338d1cad8a49a0e5e0afe1d5",
+          "row": 21,
+          "sha256": "7053adb2ee98864cf4272b562837622d82ada4bc01758cc7c2108738b01abff4"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 17,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "4477ec5ef9bc3569d75c046bca1c5e8d1d85403fe0c5e3687b50545b56c04605",
+          "expectedRenderedSha256": "1a6146c9df242ea3cc753789edd1ddf41bb90bd522f6bd5afa7402202e3be61d",
+          "row": 22,
+          "sha256": "33fe25ccf86eb185156f45113066fb12fbccae2e11a6c5815d6516bd332f0255"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 17,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "64236314876afe85857c5fbc80fecf0ab4910d526c00e3b7af915b5ee90e494b",
+          "expectedRenderedSha256": "4ac522799b976e0a94dee9f74cc8d7f69c6398dccb06b4e992de8502b1b3f3a3",
+          "row": 23,
+          "sha256": "023b8ed5b42c0db60dae044dc7cb6a9cd9d151bf72a1604d297cbe2a9321dc8e"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 17,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "70fe0991ddee73e48034fb7926fab0232aeb95497c05e86a1c5aacb354e88c9c",
+          "expectedRenderedSha256": "d4233226b15faf1c9c15d4ad2a491b13dc8091876ac83b208f687c140d1eb4ce",
+          "row": 24,
+          "sha256": "142c202f39df76dce1d8321fce856d902d2ada2a05c1fd7913382da4d45596c2"
+        }
+      ],
+      "file": "16c-crisis8-jp-gym2.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 64
+            }
+          ],
+          "expectedRawSha256": "23564b63f045c9c6af2426080c21c3a673c4277e458db9cd8b17b05c132c8ee1",
+          "expectedRenderedSha256": "99a3f2aa9010e805a488733651de7deb3828bfebe748fae8e20f77bb3b1b99e4",
+          "row": 9,
+          "sha256": "a08918638901e38b11d32f032adf8ee0a9f2684c0764ab97edd89f6fe28cc097"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 64
+            }
+          ],
+          "expectedRawSha256": "4ffbedfeba9d96bdfa8886311f60f240ed495c08cc8e093d3c9b542d1aea1191",
+          "expectedRenderedSha256": "411c1ac4616992e8a184b1c8305d749410cca0879fc77204e493a2563e343d93",
+          "row": 10,
+          "sha256": "f38ab5f8f625ec4de718a2d30468902ff6a201c47157918f25a2386781889188"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 64
+            }
+          ],
+          "expectedRawSha256": "811067b38343ab0aaf04d387db7c9bf3d27bebb5a6b80824ca3871456ea5ed77",
+          "expectedRenderedSha256": "65518062bd9ad92001be89baa55916b17253ebfc1de019bbf046c5e639cc2885",
+          "row": 11,
+          "sha256": "64ffc15f5e84265ea905eba0e3d7614c504262398367b4ee3d2a2ee89faa0db9"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 64
+            }
+          ],
+          "expectedRawSha256": "89b159aea4f36280aa2674e59eab1908c356fd5d76a6b163b8c7bbbbb036cc2a",
+          "expectedRenderedSha256": "79f4b00c42f4ee001f7e56d5794d75f47a6daac563f094abf1b72fb40b6db7e9",
+          "row": 12,
+          "sha256": "f0ef2fc89eab4d839c23042e335c23873b88a1706a690314f78210c5bbd45266"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 64
+            }
+          ],
+          "expectedRawSha256": "1985a117ee8e4f8948964cdaedcd1012a9b9a7a828bde5c25daf622f494487d4",
+          "expectedRenderedSha256": "41d8ac20e9e935d73919b581c39c6d36b7f8b16b1c1b6a07d8245f9b1d0d1b30",
+          "row": 13,
+          "sha256": "41cb78cb6b62e4aca09be806243f8dcf8ed1450df2be5dfbe818811244c8d92d"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 64
+            }
+          ],
+          "expectedRawSha256": "578f5610c34280539ffd4a22eb289bd9ec6f548635247186ebd6b4bf5eaa4724",
+          "expectedRenderedSha256": "653447bf75f668d3d1d26ae51332c8ac4b2328d1f0a729384d154069329966dd",
+          "row": 14,
+          "sha256": "345878617f59198bf2fa6c872527177ee065e53b598af1f7b7c1ea9354e5f2bb"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 64
+            }
+          ],
+          "expectedRawSha256": "8f908c17a813c9bfa61db716e98aac0da871aa008f89c2a45fe7760e1f953870",
+          "expectedRenderedSha256": "c4c6a0144f1050418d6bb750a3f9913ebf971a2d12f611cc7915bad335a7aa8f",
+          "row": 15,
+          "sha256": "26dc1e8be3f5870f21113c8bcc1d2f51b41ba099252bd66851d3ae516167c274"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 64
+            }
+          ],
+          "expectedRawSha256": "0b594a5250767d43b479349735309af24ba1023d1f3ecf327fdce2fbc81881c0",
+          "expectedRenderedSha256": "869afb162bac0a717d70d55edf2eb6f8a26be348408ff33b15a3214fe7371dbf",
+          "row": 16,
+          "sha256": "09d6b3f322cc88f7e95b722109e5b61d2a1ff0b4c9b77a402ec112f09dee87b6"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 64
+            }
+          ],
+          "expectedRawSha256": "31d52e55061fbf8a85de105c9a708875a37fc73ce8835167b38f2754cda327fd",
+          "expectedRenderedSha256": "bc76e1661d6c19a4a9384d1857a3ba1815717d76e5c6d1a83b52a82566d30d95",
+          "row": 17,
+          "sha256": "cf582cbf708313c67e19e946af06b84a100b617effefec532b8eaced6749b763"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 64
+            }
+          ],
+          "expectedRawSha256": "74b3010aadbc398ca2645ca92720d75584c43c50d3f8cb0038c03893a568a984",
+          "expectedRenderedSha256": "413b43fec3996ae1dd8f0d9dbeded5b92deaacb130ef0d64cbc1868446176e3c",
+          "row": 18,
+          "sha256": "8d1f6a1b192fac08998edd233b98e362539879ce5d7ff1a07ad0d111779daf97"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 64
+            }
+          ],
+          "expectedRawSha256": "ab814deacb8d507e65c6e75837ba1ae78e1b703385fea38cc1f9cb8da5d9f651",
+          "expectedRenderedSha256": "a525ec1654e1f5713fc72b832676fd0b942631b9f53a39e4dfc6d40ff71f87ba",
+          "row": 19,
+          "sha256": "2335e5413d3e053a011f769f591d93e8bf79b995bf9a6127bb3da74b764a2c30"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 64
+            }
+          ],
+          "expectedRawSha256": "3345ca9d18aa29e28ad18e729b8eaf6cc4d206809d04a7db0ac69e93d7f2ae99",
+          "expectedRenderedSha256": "5970ea2a5b0606fa0abe3ef803ec6faf945005d0901de34637fc733899e9e2ed",
+          "row": 20,
+          "sha256": "ef1102a383bfd4f8e5845701cff427f5e89a29d995ecf0ed1a97a6832955d4e3"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 64
+            }
+          ],
+          "expectedRawSha256": "20ab97f1ac0fc5f3ca8ee5d4b264c8e4247f8ac181607e998305ec85dea2cb61",
+          "expectedRenderedSha256": "abb626c26f1b610496ee12823c3ac52c6b397336cd463e0fb3fbdd5cddd88292",
+          "row": 21,
+          "sha256": "b0110e7bba4c376c6720c7b6b6c637ef0f3bad2ab4d4da0767e281553670517e"
+        }
+      ],
+      "file": "16c-purg-29a-sz-gc2.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "a3d17e919c8b7dea7e7057a9d1652324f4a9b2e901448823ddb9aef1267d16b9",
+          "expectedRenderedSha256": "fe0b0f0287fde07ca6df341f5753393d8fba0922d7848eba4612a4084148602e",
+          "row": 14,
+          "sha256": "af9bff5ecc8bdf2c168c64f29f4db356d314fbb02be82ec5f02a4638ff92d5b2"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "d96839739129fe8f259f894e325fada9bb2680362937c696541e1a03b1bb8eaf",
+          "expectedRenderedSha256": "6aee389b6a4dfa2dfbc25c069a7f5897892f4083be35e41a3359ac9ac77abd81",
+          "row": 15,
+          "sha256": "c466951b30572e1ae83cb4a25d099738c93b2ada48c67363d537e3c33d36efad"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "1601f319a58a0475bfd3b1bef3cc89121cd88853b2b441a98e2c890f4c023fbe",
+          "expectedRenderedSha256": "f56ba5c412bea2e7a5731d4d782c4f55807f1b9c060dd85447030de3f882c4a4",
+          "row": 16,
+          "sha256": "6343dd8b83d646cdaa51b11f82ee1abad3607dcec5f745c295d1069ecda32e54"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "56c127bfc8b1aef967305acee8c50589a11e0608f6cfa34f8006b0a7e6df182f",
+          "expectedRenderedSha256": "9d4afd08fe0892e731aef49b1ba8630e7a2f5a40efa4cba5ee40861a04292647",
+          "row": 17,
+          "sha256": "97ed46441016415b31dceea493afbe211b6d2462751b74b707d39593d2540b41"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "fccb5cd4894e8fcb03ca6097335dd061d9fb746e0fecbf305a8fda3946a10061",
+          "expectedRenderedSha256": "353ab5a100286f3b30df0cae306887d3e91430f863a7aee58ecbf5f8394c3e9a",
+          "row": 18,
+          "sha256": "834eb199beedefc3c7d062f13b06ce4012587e2707c9b6555334b6b8841737ab"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "b18c2c9c2ce6e4b5dbef27df7e6323f4d89076056382f8f8a71b3f0eb4f5aa03",
+          "expectedRenderedSha256": "a56bc6965b0b226385571a144147b58883c00c7d675d90fe62e3bbe5fabcb5b6",
+          "row": 19,
+          "sha256": "3a243cb03d0ad42d76925133c766b5f9440d4f051d544fde67e01d2d196775e8"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "ee9ee50611a10abb247ef1e36d6c0933d3583c3636cbf589c41e34b57c0d00e0",
+          "expectedRenderedSha256": "ddf85994c2a63b6618601e65cdc76fc310a917013eace7c6a0a2d8a87daeba1a",
+          "row": 20,
+          "sha256": "b8c666ac9b22aa73b7fda72d1f298b20029a55f848c4ac6a92440b62d0bab253"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "81ff22a1598e6953cac25abc08d98f3be386e680fad7efb9b42af9143d83a1d4",
+          "expectedRenderedSha256": "6b3408d4234ff01de8407a09f93e21e2e24a4816e3fe4864472cf106db0ab6b7",
+          "row": 21,
+          "sha256": "42236cf5e84b89f4719cdec4bb42f522820de79fe67aeee0b9c52ccafa9cf522"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "098be27aaf54896edd3cc9db9b2e6f7637585bbb03929973e6d043db17acf112",
+          "expectedRenderedSha256": "5f23e45b0e896096b041585aeff8cedeb9c623615387ffbbc53ee05c2d653080",
+          "row": 22,
+          "sha256": "7b432fff16eeaa6ecab5f2b32264528f9390c310bc278e11aa9e497f3671dcbe"
+        }
+      ],
+      "file": "16c-bl-brtsh-jr-sk8er.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 47,
+              "start": 36
+            }
+          ],
+          "expectedRawSha256": "d2a84950badb8fa22e59422919d5df39c926dc5bedf598cdfa73a43b4dd3bf57",
+          "expectedRenderedSha256": "f9cdfc9b01ba29e1f96daf4601ffd6675f3eb6e7ee7871c837a02df45710d4fd",
+          "row": 6,
+          "sha256": "657fef9373a41b7e0b8e91d125afd8e8d6fb093e33a86d4f9493db7248dc4ec6"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 47,
+              "start": 36
+            }
+          ],
+          "expectedRawSha256": "3af230dbaa92c3a5910e55c0d964bbf8225ab4015ade6f90789291a61a4e1f9a",
+          "expectedRenderedSha256": "1608ffab8351ba2baa0137f503b24bbc8a00c4fde42d85f8031107947ee945a6",
+          "row": 7,
+          "sha256": "b4e7fe9c7226928c8c652a93332f8e54ed1064eb89a1947be24bb9c09b3d87d0"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 47,
+              "start": 36
+            }
+          ],
+          "expectedRawSha256": "719ea22b41269f946b17f59f6884ae2e872fa68d612e4ffe028c28eec64009e5",
+          "expectedRenderedSha256": "40761329fb56f872cfe6d1061e7aab6a363755a9b37e5a288e413c42e6fa739c",
+          "row": 8,
+          "sha256": "047c9d950bce203206aa4a6bb0554d8e127a13bd1d4d088f57afd7cd7596d370"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 47,
+              "start": 36
+            }
+          ],
+          "expectedRawSha256": "9f3c8ce145a3e22f431930801166810745b7ec7684e02983062ffe899fe9ed4c",
+          "expectedRenderedSha256": "f60d674c332f92b14ac4bb5a10e596338f66cbc601390297dd89c2e3c1b9e2e4",
+          "row": 9,
+          "sha256": "ccb7b61364bd4f87b6c56c361bc4a375251eef7ae4b4fc1e481efcf26ca2b7d7"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 47,
+              "start": 36
+            }
+          ],
+          "expectedRawSha256": "23d41051a5eb81fb3634a5eec7e2917be788baae0ae1f494c28e491f09d60e1f",
+          "expectedRenderedSha256": "ba25c49f5d202c13cf461f60eb6890d1428d1257e6278361e03be16cb9d4b14f",
+          "row": 11,
+          "sha256": "17b04eed7cd4e168aefc91cacd3358918b3e8aa5abe5dac6b534e19d3555f468"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 47,
+              "start": 36
+            }
+          ],
+          "expectedRawSha256": "aa447c7d37bc2b6070d0d3e765edc281a1ba673d4b6cde08ea69c6df353397be",
+          "expectedRenderedSha256": "c197e36dfc253680304f07816bf40a21ed9cdb327561d3098f3cb3fc307d2751",
+          "row": 12,
+          "sha256": "fb6c16939b71b6574dfa7a0f0cca282f3f2ddd33f0b2c81421ace09b9becfd0d"
+        }
+      ],
+      "file": "16c-gen-05-lm-vill1.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 79,
+              "start": 70
+            }
+          ],
+          "expectedRawSha256": "06dad4dfbd6ff723a1f47079506e67ccd563460c3f3ca073c705f1f70bb2ae30",
+          "expectedRenderedSha256": "3c7c525381550d3848b73562787bdf2e5a1e93e8edd68149defecfbb59c96ce0",
+          "row": 18,
+          "sha256": "931979524bad355f88159d91f9b86e95d8ea33d7263e2d527acae099647b7556"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 78,
+              "start": 71
+            }
+          ],
+          "expectedRawSha256": "1e7ec72b61452c72b9044d981a614f1542b495b520ab1a28dfcf4ae81b3010bc",
+          "expectedRenderedSha256": "a92988a01fd52c0f11c2fc0fef49cfc780b6f1146144a76c99530da265d9ef33",
+          "row": 15,
+          "sha256": "288ebe8c1e005c5e52ac87d344f52f824e952878d084cef7bc2587a75727b466"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 73
+            }
+          ],
+          "expectedRawSha256": "96a2453468864895b4cb33133d787fb5bfb50c7adf721c531822aa3b82929f05",
+          "expectedRenderedSha256": "b84e7c891eac5cdd006f56d01c31129c48ce390ad772d2291f4b6b29b925fd3e",
+          "row": 14,
+          "sha256": "6a195c1ad673ce5c65e83c45dba7395d23039673fa642a4d2c7baf726de2ed75"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 73
+            }
+          ],
+          "expectedRawSha256": "22f9919ee650a8e9824be1e28b132b6f23eba279c1dde2255b5e0a5491d14671",
+          "expectedRenderedSha256": "e4601c576288395bea63bea37f2020171c8ad5f5a2692fa24727b9110062dfcd",
+          "row": 16,
+          "sha256": "f0cf381aca980b3ec8e27a17c4aa4736149109ac234c54ab6f3b2aca90c241ea"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 74
+            }
+          ],
+          "expectedRawSha256": "fb0fde9d0fadd35cd294e7aba3f121dbef8f7e1db2315118a701461372325f3f",
+          "expectedRenderedSha256": "e17a6ea9e8f231d8a8fc8a124219ad15f578f5c6f5b15cf4a63934a07c5a77e1",
+          "row": 17,
+          "sha256": "6f739da7d79931eac27dc5b00ebc6bd5cc59b47108e088fc130cfdf7af0e24ad"
+        }
+      ],
+      "file": "16c-ice9608a-sg-lv2.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 62,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "2f2e3ca70c8b789f82259793fd83f205fa3f6297c6c278c68bb3f7853490d30e",
+          "expectedRenderedSha256": "9e76efd2f95e8e873046e96a2f6e597519e063090dc67f466caa2e5d14b5a2f3",
+          "row": 23,
+          "sha256": "db3ea64cb16d396ce757f420a0c823deaf3e8ec2d7f38644ec359d1fc3c76250"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 62,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "7ab92ead6c00445c103deeb9ad57324f158c7995dcef2c3701ca42aad124019e",
+          "expectedRenderedSha256": "0b4dc945b620f5b96fb67cd0ae24245d8a071a614756b3815831ac147faf39de",
+          "row": 24,
+          "sha256": "095b56348290b928e8749f4eb316956f51d1a15ea1e285fb4fd8c824fcc3c598"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 62,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "5807253bdebcd2ef12e7fed552616c7ce419c52e2cbfc9e38b233292030f7ebc",
+          "expectedRenderedSha256": "e56630219ec1ad3d74ca8ff5f7ae10cd150d44f23381c724399dfbd5f523e5f5",
+          "row": 25,
+          "sha256": "1a448c9077c3665be4a4afb6d986b1bb9d14e6ab3cd91ecc264789bc944c4a84"
+        }
+      ],
+      "file": "16c-twst-14-pc-t.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 70
+            }
+          ],
+          "expectedRawSha256": "fe461ef46a565d0028338098dec1647f5247a7464037c1b5ad8ee43fe5ca5c11",
+          "expectedRenderedSha256": "180e48e8ace1dc71e1817c9160862a55354c80c4da5817d6396ef853f68b67b1",
+          "row": 21,
+          "sha256": "3537c22593d597f9232d15d7735ac0839514a3b967552ad5caac62cf6421f367"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 70
+            }
+          ],
+          "expectedRawSha256": "e44af7e732a3ceebe39661287dd638c7136b5fbca787e862eab0345ff948a8ae",
+          "expectedRenderedSha256": "bd220d97119d700b985e4489ecc24374d585a667135e0ef8a21d019925f9257d",
+          "row": 22,
+          "sha256": "acfd920bb5290b1052cc97f06a6108ca7d9575911388284cd432e8f9160f2c1f"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 70
+            }
+          ],
+          "expectedRawSha256": "ec85cf17269630381ec5d226a8078cead1f182572c1f71905ab63093d1704925",
+          "expectedRenderedSha256": "5d1e357a49cbcf13008f7d447e114814e7e90177e45c6b87df9ba95632596c89",
+          "row": 23,
+          "sha256": "a89163cf19a16441ea92960887e0da404c18a76cd0e9dca9da23708891383b42"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 70
+            }
+          ],
+          "expectedRawSha256": "67f9d1e34b3862c4c348e64b0dbdfcc3672b5b6a94a202a199488bf3ac952546",
+          "expectedRenderedSha256": "be7da9b3439c2a9aea7f96d34d143a1c991efd793fdda564079250c92caf415e",
+          "row": 24,
+          "sha256": "a9ef41443be925d82e6930027017aab439f4a9cd362523f46d1ff074e7a67b50"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 70
+            }
+          ],
+          "expectedRawSha256": "6b2b4ea9e7152205cf85086f07ff64590dfc8feb068fd862f42eea378c00a9d3",
+          "expectedRenderedSha256": "b700a428db7137ef513acde8f54e7a1b78a075d47bd494bc7d58c493f196a924",
+          "row": 25,
+          "sha256": "f6b82f367e9efb9e41781f202719c13fb225aa4ee67a423fe4b7bf6f7ca18a00"
+        }
+      ],
+      "file": "16c-eco-15-us-lon.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 64
+            }
+          ],
+          "expectedRawSha256": "54a3343e78522839afdf6c2334b665c568872f659b2396d1e325725e977159c7",
+          "expectedRenderedSha256": "cde03175d55a316dc34400dd538132634f2dc3dc5af3f549da0f388b019c2781",
+          "row": 5,
+          "sha256": "23609ecc6b8c571df0a5489fb4c4458bd01de3f2c6aae31f76f838896465f102"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 64
+            }
+          ],
+          "expectedRawSha256": "a7e111614729e9eaab302f6fa124464a9f1341983626436f152129afef4fe628",
+          "expectedRenderedSha256": "db0307047d0a307b801bb3a7ee94ea70aa3986d2b7332dba5b238e100de81053",
+          "row": 6,
+          "sha256": "8696b37a289e910b6c258915ed0e8a8729730ec848d1627089645ee3ecca1108"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 64
+            }
+          ],
+          "expectedRawSha256": "1670fd734f0f77f1978691dca00d5cb07916f8694cb6a893bc4ece579b15553c",
+          "expectedRenderedSha256": "a2c150e321825db392b9bb280b86820db3816d12a70d62ec3e2d3c3b156c7a28",
+          "row": 7,
+          "sha256": "c86bf952b7fc30a9a833424c12afd0786eadaa6d309674dd1a833d30a8eff9fc"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 64
+            }
+          ],
+          "expectedRawSha256": "32b8a8d52ef1fa92b244a692a484c83495bf9e8407c9edf439b1b70ae47dda13",
+          "expectedRenderedSha256": "8e56b4592dbfeb71e17bd2225139a31719cb5460eceaa34e79b12b1a2ee5b50b",
+          "row": 8,
+          "sha256": "bf954b9a3b69028ad1eeed550d923c68e2bb2a6f99017e09aebac003aff1c317"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 64
+            }
+          ],
+          "expectedRawSha256": "168930e80345cfa2c97dc305dc5761e4db76de7e62b9951f8b68661a87d1b901",
+          "expectedRenderedSha256": "f6ed74fc934f884aec10f659aee8a9f37975efe47c58ebf93ce8c65c51a3f69d",
+          "row": 9,
+          "sha256": "8e7b4956f98f9727bb141d141b9951ace0ace67cc880d09844480f478532a952"
+        }
+      ],
+      "file": "16c-awe9704-4o-blood.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 17,
+              "start": 9
+            }
+          ],
+          "expectedRawSha256": "b90a0b41e973fc6bb185b16097ecbb6a4a321a593677656c9a1a7ebfe31673d5",
+          "expectedRenderedSha256": "c312b59871a33bb3d1bb37a45d252ce303f83eeae48b1ac35de5d4eefa90c3ee",
+          "row": 10,
+          "sha256": "7cb1a4ff0bfe35312f76e63db6b7abe8ad99db3777390ca7d42cb8d8768277e7"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 17,
+              "start": 9
+            }
+          ],
+          "expectedRawSha256": "07adfbc6d793890684f5024aab52b279d5f47a520e058fe72ad1392de5bafadc",
+          "expectedRenderedSha256": "c485d3ff0075d931df151aaf7c2d089d58da036054eea807df67d6edaf39ec22",
+          "row": 11,
+          "sha256": "83ea58d1052f370234f716e89012b9a31435d65d05de802c4b32381e44b28a1e"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 17,
+              "start": 9
+            }
+          ],
+          "expectedRawSha256": "517c7497e5508896c4cd926aa626d29c61f4cd483f79e6e143621179bb4b38a9",
+          "expectedRenderedSha256": "1d040b5d30845cb118a56fb63f3d240584c3cddcb2bc5f3bd6f7c7c32a3f1cc2",
+          "row": 12,
+          "sha256": "c9ffa020aed5e83b8b074347a788c6214891f7aa52e08710647182c6cb22613b"
+        }
+      ],
+      "file": "16c-opx-0996-zii-21bm.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 25,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "87ff396517a2976bc092afdce6362559180c5fa0a1240efa160867b80d563225",
+          "expectedRenderedSha256": "339268e3b1566c82818e0afe9de4877a47271b74dad7d078c184ffd3a476ac0d",
+          "row": 7,
+          "sha256": "56dc5b9e8be4592006689d44c0774e0407910be6679ba1f87bf5c71a0294f350"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 25,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "c1b72319c6d3c3ea4ea07e951acb6a0e6a4bb82aa28e64c5a1d0be303c54e0d0",
+          "expectedRenderedSha256": "6fed8e7152152021feca572a3a5149fa38603607dd28f517dd356b8c1eeca6ec",
+          "row": 8,
+          "sha256": "8ff6add693ddc522f24719bb0f5cc49ae83e0f7f8f40ad6fdd81385c0109338e"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 25,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "9f4fdb2d7b87017015aebc3baa2aa91b02202aa88e3416359966b1b3af7fc35c",
+          "expectedRenderedSha256": "7a0c16f7a1c609bfc611599654a51eed4e28f415335c22ecd8ea7950fc6b04f2",
+          "row": 9,
+          "sha256": "ff140418ce22af800797e42f895ff04f8dfbbba86a4a1178ff8b0ed9110282d5"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 25,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "2f4ea164fd1f2603f70f05ec3555e656619964a873f5409c2dc52c019467585a",
+          "expectedRenderedSha256": "0ca7ddea134b182aa47e288a5ab7ab59af7d748cb283d87a44247dd29c6aa8c6",
+          "row": 10,
+          "sha256": "2f5afcba744d5f6a658258815ee4bf80219c3722a0015ecc93679f0d9ffe23a7"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 25,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "396b369efb920f559ac72468d7585967ff97377d15fac4a373d44c6a778c8597",
+          "expectedRenderedSha256": "2f1416e289f5d9ea9842c81a994414a169f185e33bab6d4ee72dae1872684bac",
+          "row": 11,
+          "sha256": "a473ca07e5e3b304de8f5e7723928f0f655b87d90b3b68109b75a7e54e7fd7fd"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 25,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "a1c86d4e74afa6229508dfe33b157ccef48a852d3491481e9195c1b4517fa383",
+          "expectedRenderedSha256": "6aa5c14211f66ef91833019688e037ea93355133f899a4809fe280f5f29cffe4",
+          "row": 12,
+          "sha256": "569d93b6bd4761d6dc23ff08f0b198db0e8851dc834c48e5396b8ed6f0df58f3"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 25,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "261d33ca92c4fcca3a87b8bded069b2ca5c52a9663ea715732f9271828de7d44",
+          "expectedRenderedSha256": "41802ca759dcac2d5aa9cb39087a5245bd48d40fbbef5f82035a57837885777b",
+          "row": 13,
+          "sha256": "648c65c98100e0f5cab36c222b018bb2f55f109a7d8cb519f4237a6e276681df"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 25,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "a9bca90c3d847b159ea5e62a6859c7012a18b041af479eee5d42b491f39b1d06",
+          "expectedRenderedSha256": "61a21e7197a48daabc646e89096dbdcb7dfcdba72be28da87b45eb185fbd80fa",
+          "row": 14,
+          "sha256": "93669060f2ffd686ea64cfc83f0fdd2439ad220a250b32248a379f3320a656e6"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 25,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "cf6b6fc10895be97177c5b65a5144957e1821c99139ce7a53dd17875635d381d",
+          "expectedRenderedSha256": "6982b4801e2ae8829f0848739e33eea03305f5045280b771fead015b05cfdef3",
+          "row": 15,
+          "sha256": "9d1652fa42ec945b0334eda967ffb54bcb282eb8ef62973617d96a6bccd506fb"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 25,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "0e7ff8095b8ffea62698c472cb7e6f2522e1bd16d73859c0b0300d47dbeaff59",
+          "expectedRenderedSha256": "3075e0090963e2e59e3c361bc1294328d4a2b788227941f9723c589aacd2ad30",
+          "row": 16,
+          "sha256": "78af74b87a6ff1bc4052754e166a61378a56ebac3a7c9272d289f47f5e98631d"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 25,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "bd7f61f46180d8e8dcf8dc93c53fe9039527dd3f8d7df2f031fd5d235102643f",
+          "expectedRenderedSha256": "477981a7c69507f4c09f00360c5043576a5d339b4461b39a598e3eb6179ee068",
+          "row": 17,
+          "sha256": "25674ab5b03adb1cb1331f64c586d0097409ee660b20fd8ad8030653eb8c280b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 25,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "1cf7ea6cd05c10ead61c5676d7051d2ca7e7858b0b3a6913d7517680e1c69a73",
+          "expectedRenderedSha256": "9785a55d0d5fb881340ec67d6cc62489160eac9b5828f16db814d6cb6a1b8519",
+          "row": 18,
+          "sha256": "62fbe2c0db3b6fd2edd2bf513fe040783961979ecfa9b1354f8990520ebe7eff"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 25,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "5c1e5192f3ce0e9dfedf87c159062018b07700faf3d000b09718bd0fec20fd44",
+          "expectedRenderedSha256": "05e69e0893a33064f4bd48f0edae427ac9965f0e40bf8b5b29faa8a925a31dbb",
+          "row": 19,
+          "sha256": "5bb27fb56be36e372247999975edc668cf69b579d8a808b805a4c35124b0a19d"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 25,
+              "start": 8
+            }
+          ],
+          "expectedRawSha256": "4a1ff86e1324189306cbf87e519b97355007ddb0174b7ccbb9c14df4f331b382",
+          "expectedRenderedSha256": "dbbe705ba7dc6cc4efc3608105196f0b2ab11e8ba77a8a730f02a9010ab58379",
+          "row": 20,
+          "sha256": "454878d873ec85247cefc93974a32ab77ef9d506b34b22125f0c07c699acde1a"
+        }
+      ],
+      "file": "16c-d0697a3-pnd-pmen.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 40,
+              "start": 40
+            },
+            {
+              "end": 67,
+              "start": 63
+            }
+          ],
+          "expectedRawSha256": "967b5fa89eaa2ded56b3ba575eee9ac1331c0a7de913aa81e95712227c838971",
+          "expectedRenderedSha256": "79e035f77306a61c0e07416e326d97a9dac54925b9282e2f87ced2f87c3acacd",
+          "row": 11,
+          "sha256": "9a032dffa5b0d00ba8f735824a6117cbf930845629a07520f6df461c69094338"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 40,
+              "start": 40
+            },
+            {
+              "end": 67,
+              "start": 63
+            }
+          ],
+          "expectedRawSha256": "77777386d80b0d7db15e63f46bfededf1a1e82f50574a0757ac5077e6662f4fc",
+          "expectedRenderedSha256": "b4f73bbc3ffef79f492f389169fc04579f3232a0e12eb6f6843326f0abd3d959",
+          "row": 12,
+          "sha256": "0822bba8044b4d710f01017ff71e33fb060336c9282798e08cdbec609fadffd4"
+        }
+      ],
+      "file": "16c-ira1297f-fs-fz1.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 42,
+              "start": 40
+            }
+          ],
+          "expectedRawSha256": "060387b17be05a3f14b91f7ae9df95e912f5e600a4e5f10503148d8dcf27ccff",
+          "expectedRenderedSha256": "e9be0d165ebe34f065804c632944f1f9922bea5fe6ebbb6882717f5f06296b21",
+          "row": 8,
+          "sha256": "725a6c5d874c114bb17c655b0098b5cb1dceea23d78ecc2340a2bb6257275993"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 42,
+              "start": 40
+            }
+          ],
+          "expectedRawSha256": "d65ab73814cb26f5c4f26cdaab8a9add5a4eb5cbc3f5a1e1a39680add99a7fd0",
+          "expectedRenderedSha256": "24888e2818e9e6f3f9795e38d3904d355364def707a2914b0e7dba61ecf3d6a8",
+          "row": 9,
+          "sha256": "885dfaef4ba2a9aa48f29cb49da0e16d2d9a111c7ac020b6380b81668dd8e9a8"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 42,
+              "start": 40
+            }
+          ],
+          "expectedRawSha256": "bc61d6f6da4bc0f6fb8243f4c7a937acbbe110dd177597b84c96c9e89aceddae",
+          "expectedRenderedSha256": "e5abda1b01b3eb41054f7ea2d04132fbf9f4152feed646e3e5bb304fda67ee25",
+          "row": 10,
+          "sha256": "49e48517dfcad5e59e83401a716a98b5d368a86d02777dd37a148faf1778d952"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 42,
+              "start": 40
+            }
+          ],
+          "expectedRawSha256": "940d076ddc83799e4a31b49c9279c53c2db7f2a2569d8714e5344124f6069cd7",
+          "expectedRenderedSha256": "27e94994daba61744763252f314521f50c854c19275b043379d68be7e0d7f1e5",
+          "row": 11,
+          "sha256": "bb72b1e2f16582d89fb119502e5a63162eb0b7ae4b92620715e54c8793f070ea"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 42,
+              "start": 40
+            }
+          ],
+          "expectedRawSha256": "1bd416e4028b60224fea293332c15921132323be345141e56fb91db2bad222a3",
+          "expectedRenderedSha256": "1b737e9f508caa325cd2b44f144bb994726bc98379fd219d9044990a3b6a7795",
+          "row": 12,
+          "sha256": "b1ded8ebdeb248694420f81573e6b755cca0096c3e047d49a13ce7ed07d95f3d"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 42,
+              "start": 40
+            }
+          ],
+          "expectedRawSha256": "d860f3fa5468e5072dc19a2dee8a64f6951576724cc31a102de90555c52733f2",
+          "expectedRenderedSha256": "f5902e46f19d016b6386c7425a920042ec7c3c62a51625bd23e8e2308767fb4f",
+          "row": 13,
+          "sha256": "94880447cb3f978917143948ebf67113d351da479b62296b41ac78dc404eec22"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 42,
+              "start": 40
+            }
+          ],
+          "expectedRawSha256": "7259dad4dde0e441920311749fcbd8e55bb5eee4ec52d69f55d158915f4517a4",
+          "expectedRenderedSha256": "031a8121bded591c60b7bb69c41406a1aa328030319dd653e2b9ae2eff081e3c",
+          "row": 14,
+          "sha256": "2f6eae1d76267f8dfe4052e364b0d511b8a058af092e7eccac6d237f47cedcc3"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 42,
+              "start": 40
+            }
+          ],
+          "expectedRawSha256": "7772ee7c66a1f515c253833150b54670b7ebff4868f458428bea0c408085733b",
+          "expectedRenderedSha256": "1c518b0ff4ff1f344e8c689ffebed8a01e42a2fb4204fca852d5cba4e2f99588",
+          "row": 15,
+          "sha256": "63445f252baf76db86d3366af8206f5ef5262b88d42e52d3b087f8ff89fd0615"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 42,
+              "start": 40
+            }
+          ],
+          "expectedRawSha256": "ced1463a6474bf02810e5e8a0ab9f142876e313b5bc8ba6983866e1f8f481082",
+          "expectedRenderedSha256": "ffd6d19e087fa84c43493d09347407b340b50f9c06ff53f56d4a2f074782e599",
+          "row": 16,
+          "sha256": "c56c080b00bb9241ab072876290d3404b37d7ba6425b68ea21c9c064750d80b9"
+        }
+      ],
+      "file": "16c-riot-019-pm-dr.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch43-reconciled-adjacent-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 53,
+              "start": 51
+            }
+          ],
+          "expectedRawSha256": "def182d897fb9c3e27ec064d2af534da2b6d530ab6d2a63187ec643977d86cc8",
+          "expectedRenderedSha256": "023237b9b23cc146a7c9127ee7719f0f60375c9f74458cfa24a80aa746b2c370",
+          "row": 12,
+          "sha256": "7f0b356341ccd9e13fae262a3464101c1f0165578839691337b6ad659d15abbf"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 53,
+              "start": 51
+            }
+          ],
+          "expectedRawSha256": "a4d022abd71c9e1e642fc859e1837cd3194ab16c662da15b9eb3cafae7d5c246",
+          "expectedRenderedSha256": "08c8b4d7d677915cba38140bb90acd84f1678df77354ee03f37cbb661f95b609",
+          "row": 13,
+          "sha256": "e1deed4a5a048941fb30913e059e43041abb74e0b11f145457382d1925066ae0"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 53,
+              "start": 51
+            }
+          ],
+          "expectedRawSha256": "ebf778b0953d1787632761311537dd0b0e324caeaf768dabd2a07b4c14f505bf",
+          "expectedRenderedSha256": "4478e617a9eacb630d991051d4b2e682f0f294f0b5f45e24d36d3afd08824743",
+          "row": 14,
+          "sha256": "a80f0039418905bf6cace5e1ae4b9a150e2007d220906784579155ee296c932c"
+        }
+      ],
+      "file": "16c-root0397-dt-nc2.ps1",
+      "rationale": "The earlier full-payload adjacent-block audit accepted this coherent placeholder family, but its surviving cells were never fully represented in a tracked ledger. Exact live-source hashes and one-based source-cell ranges remove only the accepted command, option, conference, empty-field, or placement placeholder while preserving unrelated artwork, attribution, ANSI controls, colored spaces, widths, and row coordinates.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/adjacent-block-final-acceptance.json",
+        "temp/text-blanking-continuation/adjacent-block-final-audit.json",
+        "temp/text-blanking-continuation/batch43-adjacent-acceptance-reconciliation.json",
+        "temp/text-blanking-continuation/batch43-focused-review.json",
+        "temp/text-blanking-continuation/batch43-focused-crosscheck.json"
+      ]
+    }
+  ],
+  "normalization": "SHA-256 of UTF-8 visible terminal-cell rows after ANSI-control removal and outer-whitespace trimming. Every row also pins exact raw projected and rendered hashes plus one-based inclusive blank-column ranges.",
+  "pendingInputs": [],
+  "policy": "Fail-closed reconciliation of every earlier adjacent-block final acceptance after Batch 42. Only previously accepted generic command, option, conference, empty-field, and placement placeholders are included. Artwork, attribution, identities, titles, functional copy, and structural text remain intact.",
+  "reviewedAt": "2026-08-01",
+  "schemaVersion": 1,
+  "status": "ready",
+  "summary": {
+    "blankColumnRows": 261,
+    "candidateFiles": 36,
+    "candidateGroups": 36,
+    "categoryRows": {
+      "batch43-reconciled-adjacent-placeholder": 261
+    },
+    "evidenceRows": 261,
+    "priorAcceptExtensions": 28,
+    "priorRetainSupersessions": 0
+  }
+}

@@ -1,15 +1,4 @@
-﻿# Converted from: US-GLUE9.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-02/raw/US-GLUE9.ANS
-# Source Revision: archive-sha256:39d2334584977ac14b33f06b2f4e2bf93d1902538006b996fc8bb6135cc5d15c
-# Source SHA-256: 3ae9c120e1ccf74aca3b2ea895cd4edba3c70f6f1e518ff3bb19f70fdd6fb1d2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GLUE9.ANS by The Ruiner + Malformed (glue-02); released in glue-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 19970830
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: US-GLUE9.ANS by The Ruiner + Malformed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-02-us-glue9
 
 Write-Host '
 [31m      [0m                      [37m  ▄▄▄▄▄▄▄▄▄▄[0m                [1;37m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MJ-MAYO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pls-0795/raw/MJ-MAYO.ANS
-# Source Revision: archive-sha256:bdd6440856336ce1c2f9386af3aea5c75d583322476d833baac03e78c520884a
-# Source SHA-256: b49da409e3584ae8ca13696321dcb5bca5ebac9ed6c7a18599d11bd28be11860
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MJ-MAYO.ANS by Mojo (pulse); released in pls-0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Mayo
-# SAUCE Author: Mojo
-# SAUCE Group: pulse
-# SAUCE Date: 19950630
-# SAUCE Dimensions: 80x101
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Mayo by Mojo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pls-0795-mj-mayo-part01
 
 Write-Host '
 [1;37;47m█████████████████████████████████████                                          [0m

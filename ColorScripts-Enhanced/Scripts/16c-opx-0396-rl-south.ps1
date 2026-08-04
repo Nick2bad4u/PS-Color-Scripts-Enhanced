@@ -1,18 +1,4 @@
-﻿# Converted from: RL-SOUTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0396/raw/RL-SOUTH.ANS
-# Source Revision: archive-sha256:8cd29f20ca0e9cb17c1100c76cb617825c92262f6ff8862ed793e9086f6dea43
-# Source SHA-256: d994182327da70db3030d0f6236ecca381ff148fbfb4728cf75435895e3815f0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL-SOUTH.ANS by Rawlock (Opium); released in opx-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: South Central
-# SAUCE Author: Rawlock
-# SAUCE Group: Opium
-# SAUCE Date: 19960217
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: South Central by Rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0396-rl-south
 
 Write-Host '
 [1;32m                                                            [0m [32m▄[0;1;36m▄[0;1;36;42m▄[0;1;36;40m█[0;1;36;42m▓[0;1;32;40m          [0m

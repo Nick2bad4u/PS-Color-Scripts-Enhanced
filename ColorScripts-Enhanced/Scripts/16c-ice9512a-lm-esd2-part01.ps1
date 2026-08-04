@@ -1,18 +1,4 @@
-﻿# Converted from: LM-ESD2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9512a/raw/LM-ESD2.ICE
-# Source Revision: archive-sha256:4030957a38a6c532250e7b5d72d2d1e2534a6871d5254eac6b842adfae93f5ac
-# Source SHA-256: b8ea6ee1f50392c38313c158b9c0e3d73121ae96389081959473af5aa90c741f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LM-ESD2.ICE by Lemonade (iCE); released in ice9512a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Elusive System Designs
-# SAUCE Author: Lemonade
-# SAUCE Group: iCE
-# SAUCE Date: 19951224
-# SAUCE Dimensions: 80x25
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Elusive System Designs by Lemonade | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9512a-lm-esd2-part01
 
 Write-Host '
 [1;35;45m░░░░░░░░░░░░░░░░░▒░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░░░░░░▒▒▒░▒▒▒▒▒░░░░[0m

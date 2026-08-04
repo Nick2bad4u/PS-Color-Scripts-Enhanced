@@ -1,13 +1,4 @@
-﻿# Converted from: NS-EE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/soda03/raw/NS-EE.ANS
-# Source Revision: archive-sha256:8ca6b1277c2cfab282ae43fc96ff48d3d51942dfad836f25624e00db8433621a
-# Source SHA-256: 3cff70f51457de7a71ea40d3c9e501d3a19baeb94f05c11a75d4ca1caead59e5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NS-EE.ANS by Ansichrist (soda03); released in soda03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: NS-EE.ANS by Ansichrist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-soda03-ns-ee
 
 Write-Host '
 [1;33;43m░░[0;33m▀▄▄[0;1;33;43m░[0;33m██▄█[0;1;33;43m░░░░░░░[0;30;43m░[0;33;40m▓▀ ▄▓█[0;30;43m░[0;33;40m▓[0;1;31;43m░░░░░░░░░░░▓▓[0;1;31;47m▓▓[0;1;31;43m▓░░[0;33m▓▀[0m       [33m▀[0;1;33;43m░░[0;33m▓░[0;37m  [0;31m░▓█[0;1;31;41m░[0;31m█▀▀[0;36m ░[0;30;46m▓[0;36;40m [0;31;40m▀▀▀▀▀▓[0;1;31;41m░░░[0m

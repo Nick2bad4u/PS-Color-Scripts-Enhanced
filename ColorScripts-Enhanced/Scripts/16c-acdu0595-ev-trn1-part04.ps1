@@ -1,18 +1,4 @@
-﻿# Converted from: EV-TRN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0595/raw/EV-TRN1.ANS
-# Source Revision: archive-sha256:1a664cdcc2084e4e5945a0d8fd0224453424a0dd62ea58b8b239525b59199682
-# Source SHA-256: 091a93ff5afd689494f27e6b9a027b1c3184697247397373fd2fa0ac2047d11a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EV-TRN1.ANS by Everlast (ACiD Productions); released in acdu0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Ravaged Nightmare
-# SAUCE Author: Everlast
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950501
-# SAUCE Dimensions: 80x177
-# Lines: 135-177
-# Columns: 1-80
+﻿# Artwork: The Ravaged Nightmare by Everlast | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0595-ev-trn1-part04
 
 Write-Host '
 [37m [0;1;32;42m▓▒░[0;32m██[0;37m [0;1;32;42m▒▓▓▒▓▒█[0m [1;47m ▒▒░ ░░[0m▄▄▄▄▄▄▄▄[1m    [0m ▄ ▄ [1;32;42m▓█▒[0;32m▀[0;1;30;42m▓[0;1;32;42m ░░  ░░▒░▓▒▓[0;1;32;40m▀▀▀▀[0;1;30;40m▄▄▄[0;1;30;42m▓▒▓▓▓[0m [42m▓▒[0;40m▀[0;32;40m▄▓███[0;1;30;42m▓[0;32m  [0m

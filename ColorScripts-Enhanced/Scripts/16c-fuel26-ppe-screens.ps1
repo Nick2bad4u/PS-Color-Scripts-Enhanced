@@ -1,19 +1,4 @@
-﻿# Converted from: ppe-screens.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel26/raw/ppe-screens.ans
-# Source Revision: archive-sha256:d10918a36531171a7bd7de77ac2a92891100e4055d3be9227ebf98ff3c0d1cc3
-# Source SHA-256: 00c574037ed49ac5a8c731f50084bb822c93cfcfe3db16e732b9bad8067624cc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ppe-screens.ans by Propane (FUEL); released in fuel26 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: BBS screens
-# SAUCE Author: Propane
-# SAUCE Group: FUEL
-# SAUCE Date: 20170301
-# SAUCE Dimensions: 80x49
-# SAUCE Font: IBM VGA
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: BBS screens by Propane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel26-ppe-screens
 
 Write-Host '
 [1;30;40m--------------------------------------------------------------------------------[0m

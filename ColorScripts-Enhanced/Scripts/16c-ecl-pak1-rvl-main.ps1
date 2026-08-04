@@ -1,18 +1,4 @@
-﻿# Converted from: RVL_MAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak1/raw/RVL_MAIN.ANS
-# Source Revision: archive-sha256:6b35b56dc24903414bd16ecb32b5990f418418f7d4290c94fd51891e14acec7b
-# Source SHA-256: f993fa73e0b20cb350ff3625ef2fd1d0bf31590a780ad369bf984a250de0a79e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RVL_MAIN.ANS by President + Snowball (ecolove); released in ecl-pak1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: revolution ansi
-# SAUCE Author: president
-# SAUCE Group: ecolove
-# SAUCE Date: 19971123
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: revolution ansi by President + Snowball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak1-rvl-main
 
 Write-Host '
 [1;30m                              [0;36m▄▄▄▄[0m                            [37m [0;36m▄▄▄[0;1;34;46m░░░░░[0;36m▄▄▄[0;37m [0;1;30m    [0m

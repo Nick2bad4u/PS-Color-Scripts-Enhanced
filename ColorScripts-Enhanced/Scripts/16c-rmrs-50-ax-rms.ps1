@@ -1,18 +1,4 @@
-﻿# Converted from: ax_rms.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-50/raw/ax_rms.ans
-# Source Revision: archive-sha256:d8331eae576e5ab26fff5891b5f3cf24463edd0a8c7b0fa2c1de21560b99f205
-# Source SHA-256: e79978774799ab102a70844bfe5013a8742185bad2eb33653e17a721ff5a412c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ax_rms.ans by Alla_Xul (ACiD Productions); released in rmrs-50 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Remorse
-# SAUCE Author: Alla_Xul
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 20030907
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Remorse by Alla_Xul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-50-ax-rms
 
 Write-Host '
   [31m. [0;37m [0;31m≥,[0m    [1;30m;[0m   [31m:$$[0m     [1;30m;[0m      [1;30m____ [0m         [1;30my≥≥[0m   [1;30m....[0m  [31m$$:[0;37m [0;1;30m..[0m     [31m,≥[0;37m [0;31m . [0;1;30m:[0m   [1;30m.''[0m

@@ -5,6 +5,13 @@
 const fs = require("fs");
 const path = require("path");
 const iconv = require("iconv-lite");
+const { DEFAULT_PROVENANCE_PATH } = require("./ArtworkProvenance.js");
+const {
+    buildGeneratedArtworkEntry,
+    prepareGeneratedArtworkProvenance,
+    readGeneratedArtworkTemplate,
+    writeGeneratedArtworkTransaction,
+} = require("./GeneratedArtworkProvenance.js");
 const {
     readAnsiFile,
     convertAnsiToPs1,
@@ -45,6 +52,8 @@ const DEFAULT_OUTPUT_DIR = path.join(
  * @property {number | null} segmentEvery
  * @property {"cp437" | "utf8" | null} encoding
  * @property {boolean} force
+ * @property {string} provenancePath
+ * @property {string | null} provenanceRecordPath
  * @property {{
  *     url: string | null;
  *     revision: string | null;
@@ -156,6 +165,8 @@ function parseArguments(argv) {
         segmentEvery: null,
         encoding: null,
         force: false,
+        provenancePath: DEFAULT_PROVENANCE_PATH,
+        provenanceRecordPath: null,
         sourceProvenance: {
             url: null,
             revision: null,
@@ -245,6 +256,14 @@ function parseArguments(argv) {
             options.stripSpaceBackground = false;
         } else if (arg === "--force") {
             options.force = true;
+        } else if (arg.startsWith("--provenance-record=")) {
+            options.provenanceRecordPath = path.resolve(
+                arg.slice("--provenance-record=".length)
+            );
+        } else if (arg.startsWith("--provenance-path=")) {
+            options.provenancePath = path.resolve(
+                arg.slice("--provenance-path=".length)
+            );
         } else if (arg.startsWith("--source-url=")) {
             options.sourceProvenance.url = validateSourceUrl(
                 arg.slice("--source-url=".length)
@@ -578,6 +597,7 @@ function ensureTrailingReset(content) {
  *         modification?: string | null;
  *     };
  *     sourceColumns?: string | null;
+ *     compactHeader?: string | null;
  * }} baseInfo
  *
  * @returns {string}
@@ -585,6 +605,9 @@ function ensureTrailingReset(content) {
 function buildChunkPs1(chunk, baseInfo) {
     const joined = chunk.lines.join("\n");
     const normalized = ensureTrailingReset(joined);
+    if (baseInfo.compactHeader) {
+        return `${baseInfo.compactHeader}\n\n${buildPowerShellOutput(normalized, { startOnNewLine: true })}`;
+    }
     const header = [
         buildSourceMetadataHeader(
             baseInfo.sourceName,
@@ -616,6 +639,7 @@ function buildChunkPs1(chunk, baseInfo) {
  *         modification?: string | null;
  *     };
  *     sourceColumns?: string | null;
+ *     compactHeader?: string | null;
  * }} baseInfo
  *
  * @returns {void}
@@ -766,6 +790,12 @@ function main(argv = process.argv.slice(2)) {
         console.error(
             "  --source-modification=<text> Describe source modifications in each part"
         );
+        console.error(
+            "  --provenance-record=<json> Emit compact headers and upsert complete external records"
+        );
+        console.error(
+            "  --provenance-path=<psd1>   Override the authoritative provenance data file"
+        );
         process.exit(1);
     }
 
@@ -779,6 +809,25 @@ function main(argv = process.argv.slice(2)) {
     let inputFormat = options.inputFormat;
     if (inputFormat === "auto") {
         inputFormat = ext === ".ps1" ? "ps1" : "ansi";
+    }
+    const provenanceTemplate = options.provenanceRecordPath
+        ? readGeneratedArtworkTemplate(options.provenanceRecordPath)
+        : null;
+    if (provenanceTemplate) {
+        if (inputFormat !== "ansi" || options.format !== "ps1") {
+            throw new Error(
+                "--provenance-record requires ANSI/ICE input and PowerShell output."
+            );
+        }
+        if (
+            Object.values(options.sourceProvenance).some(
+                (value) => value !== null
+            )
+        ) {
+            throw new Error(
+                "--provenance-record cannot be combined with legacy --source-* header options. Put those values in the JSON record."
+            );
+        }
     }
 
     /** @type {string[][]} */
@@ -919,24 +968,74 @@ function main(argv = process.argv.slice(2)) {
         fs.mkdirSync(outputDir, { recursive: true });
     }
 
-    outputs.forEach(({ chunk, range, outputPath }) => {
-        if (options.format === "ansi") {
-            writeChunkAnsi(outputPath, chunk, sourceEncoding);
-        } else {
-            writeChunkPs1(outputPath, chunk, {
-                sourceName: path.basename(ansiPath),
-                sourceEncoding,
-                sauce,
-                sourceProvenance: options.sourceProvenance,
-                sourceColumns: range
-                    ? `${range.start + 1}-${range.end + 1}`
-                    : fullSourceColumns
-                      ? `1-${fullSourceColumns}`
-                      : null,
-            });
+    if (provenanceTemplate) {
+        const sourceBuffer = fs.readFileSync(ansiPath);
+        const entries = new Map();
+        for (const { chunk, range, outputPath } of outputs) {
+            const scriptName = path.basename(outputPath, ".ps1");
+            const sourceColumns = range
+                ? `${range.start + 1}-${range.end + 1}`
+                : `1-${fullSourceColumns || 80}`;
+            entries.set(
+                scriptName,
+                buildGeneratedArtworkEntry({
+                    conversionMode: "TerminalEmulation",
+                    name: scriptName,
+                    sauce,
+                    sourceBuffer,
+                    sourceColumns,
+                    sourceEncoding,
+                    sourceName: ansiPath,
+                    sourceRows: `${chunk.start + 1}-${chunk.end}`,
+                    template: provenanceTemplate,
+                })
+            );
         }
-        console.log(`  → ${outputPath}`);
-    });
+        const prepared = prepareGeneratedArtworkProvenance(
+            options.provenancePath,
+            entries
+        );
+        const scripts = new Map();
+        for (const { chunk, range, outputPath } of outputs) {
+            const scriptName = path.basename(outputPath, ".ps1");
+            scripts.set(
+                path.resolve(outputPath),
+                buildChunkPs1(chunk, {
+                    compactHeader: prepared.headers.get(scriptName),
+                    sauce,
+                    sourceColumns: range
+                        ? `${range.start + 1}-${range.end + 1}`
+                        : `1-${fullSourceColumns || 80}`,
+                    sourceEncoding,
+                    sourceName: path.basename(ansiPath),
+                })
+            );
+        }
+        writeGeneratedArtworkTransaction(
+            options.provenancePath,
+            prepared.provenanceSource,
+            scripts
+        );
+    } else {
+        outputs.forEach(({ chunk, range, outputPath }) => {
+            if (options.format === "ansi") {
+                writeChunkAnsi(outputPath, chunk, sourceEncoding);
+            } else {
+                writeChunkPs1(outputPath, chunk, {
+                    sourceName: path.basename(ansiPath),
+                    sourceEncoding,
+                    sauce,
+                    sourceProvenance: options.sourceProvenance,
+                    sourceColumns: range
+                        ? `${range.start + 1}-${range.end + 1}`
+                        : fullSourceColumns
+                          ? `1-${fullSourceColumns}`
+                          : null,
+                });
+            }
+        });
+    }
+    outputs.forEach(({ outputPath }) => console.log(`  → ${outputPath}`));
 
     console.log("Split complete.");
 }

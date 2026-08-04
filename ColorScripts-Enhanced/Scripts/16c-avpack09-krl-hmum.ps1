@@ -1,18 +1,4 @@
-﻿# Converted from: KRL-HMUM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack09/raw/KRL-HMUM.ANS
-# Source Revision: archive-sha256:3f219db3cc4582f9b9dc0d49acbeee50e3e74b4183f03c5668762afed184f532
-# Source SHA-256: 3c2312c969aa7e05162af0efdc9235d303de4aa519100bece0b88193c573a9d2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KRL-HMUM.ANS by Mr Krinkle (Apocalyptic Visions); released in avpack09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: HMIAM Emag Promo
-# SAUCE Author: Mr Krinkle
-# SAUCE Group: Apocalyptic Visions
-# SAUCE Date: 19960324
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: HMIAM Emag Promo by Mr Krinkle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack09-krl-hmum
 
 Write-Host '
 [1;31;42m         [0;32m█[0;1;31;42m    [0;32m█[0;1;31;42m         [0;32m█[0;1;31;42m         [0;32m█[0;1;31;42m    [0;32m█[0;1;31;42m         [0;32m█[0;1;31;42m         [0;32m█[0;1;31;42m    [0;32m█[0;1;31;42m              [0;32m█[0m

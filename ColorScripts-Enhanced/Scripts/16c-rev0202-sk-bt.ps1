@@ -1,13 +1,4 @@
-﻿# Converted from: SK-BT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0202/raw/SK-BT.ANS
-# Source Revision: archive-sha256:2dab715e9f2d819e9161d3954fa8210558a1b83f118c830394e2fdee6408a093
-# Source SHA-256: 10e3e547131e574900a2fda696abd24c4784f6427d1be147f4af8d13726ae3e8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK-BT.ANS by Skatter (rev0202); released in rev0202 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: SK-BT.ANS by Skatter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0202-sk-bt
 
 Write-Host '
 

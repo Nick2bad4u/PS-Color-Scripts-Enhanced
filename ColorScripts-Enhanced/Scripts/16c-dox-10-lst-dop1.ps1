@@ -1,18 +1,4 @@
-﻿# Converted from: LST-DOP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_10/raw/LST-DOP1.ANS
-# Source Revision: archive-sha256:21def41607bc8f426e6b33cadf0099935014e2da13ee2908faa3303a70532ffa
-# Source SHA-256: 18ac36d3ec1743bee5c0f7f8e6bc4a401e916d2897f4944cd5829bbcf89b0856
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LST-DOP1.ANS by soul trader (dox); released in dox_10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: dope?
-# SAUCE Author: soul trader
-# SAUCE Group: dox
-# SAUCE Date: 19970612
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: dope? by soul trader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-10-lst-dop1
 
 Write-Host '
 [31m█▀▀ ▀▐[0;1;31;41m████▓░[0;31m▌[0;1;31;41m░[0;31m████[0;35m [0;1;35m▄▄▄▄[0m [1;31;41m█[0;1;31;47m▓░▓[0;1;31;41m██▓░[0;31m [0;1;31;41m░ [0;31m▐[0;1;31;41m████[0;1;31;47m▀[0;1;31;41m████▌█▓░[0;31m█[0;1;31;41m▌ ███▌██████▓░   ▌███▌███████▌[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: QSTCFIST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-q/raw/QSTCFIST.ANS
-# Source Revision: archive-sha256:b5bb8bd42480c86f4a93cd003875f0a8f4e4e3ded76985779dd86ce07f23aad0
-# Source SHA-256: 42e108b5ef95fb5cf8a8b8b677c4441d9bd2002ace59ea4516c7877c0b630b09
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QSTCFIST.ANS by Quick Silver (ansis-q); released in ansis-q and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: QSTCFIST.ANS by Quick Silver | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-q-qstcfist
 
 Write-Host '
 [1;30m▓░▒ [0;1;34m▄▄▄[0;1;30m░▓▒▓░░░░░░█░█▒█░░░▓▒░▒▒▓░░▓░░░▓▒▒▒░░░  ░░[0m          [1;34m▄[0m

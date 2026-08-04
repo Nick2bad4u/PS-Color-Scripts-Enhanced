@@ -1,17 +1,4 @@
-﻿# Converted from: US-NEO2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9706/raw/US-NEO2.ANS
-# Source Revision: archive-sha256:867680f5fb3c86dcb017d8ed4cd79085881689d65da90056f84aba519ae4bdfe
-# Source SHA-256: 2ffffc582821c44244ecf0c2f87156f8b265e8484be3cf971b9a1b11a2363264
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-NEO2.ANS by Massm + Samurai (AWE Lettering); released in awe9706 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Neo
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Neo by Massm + Samurai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9706-us-neo2
 
 Write-Host '
 

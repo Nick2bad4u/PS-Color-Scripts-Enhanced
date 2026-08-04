@@ -1,13 +1,4 @@
-﻿# Converted from: NWLACID1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0792/raw/NWLACID1.ANS
-# Source Revision: archive-sha256:c1f89246ee030ee53ad4f4f0ca24668f73a08f89ecd499ef9148ebcc992b9b4d
-# Source SHA-256: de4c97b867327c9699c1cc5766c4d2f8416532871cf6977a0bdaf6246e0a5dcb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NWLACID1.ANS by Darkman (acdu0792); released in acdu0792 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 32-61
-# Columns: 1-80
+﻿# Artwork: NWLACID1.ANS by Darkman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0792-nwlacid1-part02
 
 Write-Host '
        [1;30m▒▌    ░▒▀[0m          [1;30m░   ░[0m       [1;30m░ ░▐[0m                   [1;30m▐█▒░▒[0m         [1;30m▐[0m

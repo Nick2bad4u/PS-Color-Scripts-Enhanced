@@ -1,17 +1,4 @@
-﻿# Converted from: PND-PMEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d0697a3/raw/PND-PMEN.ANS
-# Source Revision: archive-sha256:4b1a5edf079ccd5aab68f5664461dac73c3f815b42e2d60b05d52946fe416fe5
-# Source SHA-256: bbb7b68f9d1e1678791b2758953bfb32b3a878a2ddd68b54bb3881bb5ec6ffa4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PND-PMEN.ANS by pandur (d0697a3); released in d0697a3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ppps menu
-# SAUCE Author: pandur
-# SAUCE Date: 19970528
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: ppps menu by pandur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d0697a3-pnd-pmen
 
 Write-Host '
 [1;30m█▌▀[0;34m▄▄▓▓▓▓▀▀   ▓▓  ▀▀█▓▓▄▀▀[0;1;34;44m▓█[0;1;34;40m▄▄[0;1;30;40m █▀▀▄████▓▓░░[0m          [33m [0m      [33m▀[0;37m [0;33m■[0m

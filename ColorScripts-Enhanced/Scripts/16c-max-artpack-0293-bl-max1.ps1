@@ -1,13 +1,4 @@
-﻿# Converted from: BL-MAX1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/max_artpack_0293/raw/BL-MAX1.ANS
-# Source Revision: archive-sha256:4391b75bf8c657316d4174c3ede061bb559b411b88e61eb928831c9bafa580bd
-# Source SHA-256: 77e2fc5c698d3eaa7cc6b5c0acad35e71d4e80b4ddd3d1494680fd18c568b489
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BL-MAX1.ANS by Blades (max_artpack_0293); released in max_artpack_0293 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: BL-MAX1.ANS by Blades | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-max-artpack-0293-bl-max1
 
 Write-Host '
                     [31m█   █[0m             [31m█[0m

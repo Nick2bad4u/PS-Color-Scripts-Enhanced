@@ -1,19 +1,4 @@
-﻿# Converted from: 5m-crow.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-001/raw/5m-crow.ans
-# Source Revision: archive-sha256:589c804657c8d15ba617f7c0fd80723e4505d519989b80eba9584665be49eb54
-# Source SHA-256: 07c6a55f4abd56c9907cc817c69929cf9db12e45e9d63ab34fd738851026292e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5m-crow.ans by Smooth (Legacy Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Crow
-# SAUCE Author: Smooth
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20191229
-# SAUCE Dimensions: 80x230
-# SAUCE Font: IBM VGA
-# Lines: 70-106
-# Columns: 1-80
+﻿# Artwork: Crow by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-001-5m-crow-part02
 
 Write-Host '
 [0m[0m[31m▒▌▓[0;37m   [0;1;30m▓▓█▒▒░░ ▒[0m      [1;30m░░░ [0;1;30;47m▓[0;1;30;40m ██ █ ▓[0;1;30;47m▓[0;1;30;40m██ [0;1;30;47m█▓[0;1;30;40m█▓ [0;1;30;47m▓▓█▄▒░[0;1;30;40m [0;1;30;47m▓[0;1;37;47m░[0;1;30;47m▒[0;1;30;40m▀░   ▄▄▓░  █[0;1;30;47m▒[0;1;30;40m█▀▀▀[0m  [31m▄███░[0;37m [0;31m░▐[0m

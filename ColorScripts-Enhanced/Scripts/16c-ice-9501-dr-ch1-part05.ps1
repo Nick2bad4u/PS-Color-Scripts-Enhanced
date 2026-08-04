@@ -1,18 +1,4 @@
-﻿# Converted from: DR-CH1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9501/raw/DR-CH1.ICE
-# Source Revision: archive-sha256:11505df9cbb4046b5d3b5eec267bf894e7e973683094a4e78d879efbf7a9364a
-# Source SHA-256: 35cf7b6912fa74d2c89ad1bdb51f7877a1c269eeb0b6b07b76a6272f7cc37fd9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DR-CH1.ICE by Lord Drakul (iCE); released in ice-9501 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Cerebral Hemorrhage
-# SAUCE Author: Lord Drakul
-# SAUCE Group: iCE
-# SAUCE Date: 19950117
-# SAUCE Dimensions: 80x214
-# Lines: 167-212
-# Columns: 1-80
+﻿# Artwork: Cerebral Hemorrhage by Lord Drakul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9501-dr-ch1-part05
 
 Write-Host '
                       [1;37m █████████████████████████████████████████████████████████[0m

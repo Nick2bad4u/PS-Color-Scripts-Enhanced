@@ -1,18 +1,4 @@
-﻿# Converted from: mrd-xlog.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flange01/raw/mrd-xlog.ans
-# Source Revision: archive-sha256:14aba7e5405b940f46aca460d899ba9dad4982ed94cb18dc30ab4dba5911d191
-# Source SHA-256: 74919e0613019b2757ef50dd962c65c2d01a90b6718ff758088f470ec1309b1b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mrd-xlog.ans by mr.d (flange); released in flange01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: login.matrix
-# SAUCE Author: mr.d
-# SAUCE Group: flange
-# SAUCE Date: 19971229
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: login.matrix by mr.d | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flange01-mrd-xlog
 
 Write-Host '
 [1;30m■ ■■▀■▀▀■▀▀▀■▀▀▀▀▀■▀▀▀▀▀▀▀■▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀■▀▀▀▀▀■▀▀▀▀▀▀▀▀■▀▀▀■▀▀■▀■■[0m

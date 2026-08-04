@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-JUM2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0822/raw/ZII-JUM2.ANS
-# Source Revision: archive-sha256:ed72a43421208b7431337d20b0e65cf1daa85d400f3cf90754e23de5d5edd83f
-# Source SHA-256: 673aa3c98355f28b69373dfa583f72a597dce0d1e07425019d225a5240d39411
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-JUM2.ANS by Zeus II (Mistigris); released in mist0822 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Jumpstart BBS intro
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20220807
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Jumpstart BBS intro by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0822-zii-jum2
 
 Write-Host '
 [1;34m    ▄▄▄▄[0;1;34;47m████████████[0;1;34;40m██████████████████████████████████████████████████▄▄▄▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: MST!S666.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mfl_pck2/raw/MST!S666.ANS
-# Source Revision: archive-sha256:77631ce6bb0edd4a43c3ffe0fc3739a864ef0fcb9fc821031da22b9c9ef7dec7
-# Source SHA-256: 4d3673a7bb9e130638a058e34c979ca6db4ea24caf3a49a2351b934c168d850c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MST!S666.ANS by Mist (mfl_pck2); released in mfl_pck2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: MST!S666.ANS by Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mfl-pck2-mst-s666
 
 Write-Host '
 [31m▄▄▄▄▄▄▄[0;1;37m [0;1;31;41m▒▒▓▓[0;1;31;40m███████▓[0;1;37;40m [0;31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;37m    [0;31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

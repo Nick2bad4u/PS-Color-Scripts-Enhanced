@@ -1,18 +1,4 @@
-﻿# Converted from: MR-PGP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira1297f/raw/MR-PGP.ANS
-# Source Revision: archive-sha256:aaf8efb3855bf52b486533186764296c0de75f15c8aab234da34f02a9e2d45f6
-# Source SHA-256: d488d174ced1a84f9b0e8b16860e51cf1da1b59cdaf61907d52aa23faffe80d0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-PGP.ANS by Mr.Wrong (irato); released in ira1297f and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Pretty good piracy
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: irato
-# SAUCE Date: 19971109
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Pretty good piracy by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira1297f-mr-pgp
 
 Write-Host '
 

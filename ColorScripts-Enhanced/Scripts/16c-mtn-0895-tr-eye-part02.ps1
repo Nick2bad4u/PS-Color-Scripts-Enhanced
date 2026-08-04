@@ -1,18 +1,4 @@
-﻿# Converted from: TR-EYE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mtn-0895/raw/TR-EYE.ANS
-# Source Revision: archive-sha256:d9373769381047b628fcd9583a9cbb9f6ac2b6af3501e750d2eaba43061dafea
-# Source SHA-256: 8d56d705a2faa78e2a9659d99811e81cafb4c13a8a3ddde76dcb5954e2ab472e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-EYE.ANS by Tripe (Motion); released in mtn-0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Cool Looking Eye
-# SAUCE Author: Tripe
-# SAUCE Group: Motion
-# SAUCE Date: 19950702
-# SAUCE Dimensions: 80x25
-# Lines: 30-51
-# Columns: 1-80
+﻿# Artwork: Cool Looking Eye by Tripe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mtn-0895-tr-eye-part02
 
 Write-Host '
 [1;30;40m  [0;30mwing[0m             [1;30;47m█▓▒▒░░░░[0;1;37;47m░░▒▒▒▒▓▓▓[0;1;37;40m███████[0;1;37;47m▓▒▒▒▒▒▒░░░[0;1;30;47m░░░▒▒▒▓█[0m

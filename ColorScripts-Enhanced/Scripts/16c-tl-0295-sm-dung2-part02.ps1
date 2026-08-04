@@ -1,18 +1,4 @@
-﻿# Converted from: SM-DUNG2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl-0295/raw/SM-DUNG2.ANS
-# Source Revision: archive-sha256:eaf162c007b15a73ec8ddc40aa3b63ccc7c10a1aa835bd918a225b4fe7dc9196
-# Source SHA-256: 305269627d1c781e6a662884992f531c13bde70fd5fe6e8e90fcad656afcaf6d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-DUNG2.ANS by Smooth (TekLordZ); released in tl-0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Anutha Dungeon 2 ANSi
-# SAUCE Author: Smooth
-# SAUCE Group: TekLordZ
-# SAUCE Date: 19950207
-# SAUCE Dimensions: 80x123
-# Lines: 38-80
-# Columns: 1-80
+﻿# Artwork: Anutha Dungeon 2 ANSi by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl-0295-sm-dung2-part02
 
 Write-Host '
 [1;31m░  ▄ ▀■ [0;31m█[0;1;31;43m░▒[0;1;31;40m▓▓▓▓▓▓▒░ [0m▄[1m▄▄░[0;1;30m▀  [0;1;31m▒ [0;33m▒ [0;1;31m▀▓▀ ░ ▓▀  [0;1;30m░ [0;1;37;41m▓[0;1;37;40m████████[0;1;37;41m▄█[0;1;37;40m████[0;1;37;41m▒▄[0;1;37;40m██■    [0;35m░[0m

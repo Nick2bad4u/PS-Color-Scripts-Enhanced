@@ -1,13 +1,4 @@
-﻿# Converted from: US-TC.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9407/raw/US-TC.ICE
-# Source Revision: archive-sha256:c6a6b9362995bb76d0cbb2d7dbf54e671ec2870d25bfdff1a5d3a538190c7d91
-# Source SHA-256: 04e56c02261181df8be3cc6b1905ab0aee6614f857bf96c99692bad6d1291693
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TC.ICE by Tempus Thales (ice-9407); released in ice-9407 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: US-TC.ICE by Tempus Thales | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9407-us-tc-part01
 
 Write-Host '
                                  [31m▄▄    ▄▄▄[0m            [31m▓[0m

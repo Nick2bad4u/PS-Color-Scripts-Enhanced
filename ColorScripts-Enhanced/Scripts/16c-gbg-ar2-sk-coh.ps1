@@ -1,18 +1,4 @@
-﻿# Converted from: SK-COH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gbg-ar2/raw/SK-COH.ANS
-# Source Revision: archive-sha256:c13817cb67a4bfd2ae773671d50436cbf39ac310a923ef26548c5637c3b2646b
-# Source SHA-256: d351c30626a0f867b745775874fae3430caa40f2de63cdce87c25490ff459466
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK-COH.ANS by SiKE (tRASH!); released in gbg-ar2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Crusaders of Hell logo
-# SAUCE Author: SiKE
-# SAUCE Group: tRASH!
-# SAUCE Date: 19961106
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Crusaders of Hell logo by SiKE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gbg-ar2-sk-coh
 
 Write-Host '
     [32m_[0;37m  [0;1;34m.s$$[0m [1;34m$$$Ss.[0m    [1;34m.s$$[0m [1;34m$$$Ss.[0m    [32m_[0m    [1;34m.s$$[0m [1;34m$$$Ss.[0m    [32m_[0;37m  [0;1;34m.s$$[0m [1;34m$$$Ss.[0;32m_[0m

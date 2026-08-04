@@ -1,18 +1,4 @@
-﻿# Converted from: GL-DTDFL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dtd03/raw/GL-DTDFL.ANS
-# Source Revision: archive-sha256:12192704d4216d2aefe0d36b2c5bcb5e5157eafacf7ca0b06c6a5389afde918d
-# Source SHA-256: 1fcd253f3be9f047d4cc5e8d7000d16e088cd34cef0df820e94e5c299b1dc019
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GL-DTDFL.ANS by GLANDYTH-A-KRAE (DEVOTiON TO DARKNESS); released in dtd03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 'DTD' APPLiCATiON FRONT LOGO
-# SAUCE Author: GLANDYTH-A-KRAE
-# SAUCE Group: DEVOTiON TO DARKNESS
-# SAUCE Date: 19970709
-# SAUCE Dimensions: 80x25
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: 'DTD' APPLiCATiON FRONT LOGO by GLANDYTH-A-KRAE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dtd03-gl-dtdfl
 
 Write-Host '
                                   [1;31m    [0m

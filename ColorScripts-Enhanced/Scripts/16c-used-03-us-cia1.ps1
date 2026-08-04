@@ -1,17 +1,4 @@
-﻿# Converted from: US-CIA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-03/raw/US-CIA1.ANS
-# Source Revision: archive-sha256:d2599b97a9288d8f82ddd62f9c4821cdc0d5105bf01763fad11be3b958d4ce10
-# Source SHA-256: 25a2e601cef92b6d607482d3349678ef647270e355f25e7a2300500e2f4ec59f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CIA1.ANS by Spear + Propane (used-03); released in used-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: cia?!
-# SAUCE Author: spear\propane
-# SAUCE Date: 20000202
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: cia?! by Spear + Propane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-03-us-cia1
 
 Write-Host '
 

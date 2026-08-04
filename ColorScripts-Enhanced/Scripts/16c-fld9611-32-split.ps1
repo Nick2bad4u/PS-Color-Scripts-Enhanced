@@ -1,17 +1,4 @@
-﻿# Converted from: 32-SPLIT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fld9611/raw/32-SPLIT.ANS
-# Source Revision: archive-sha256:c3be5f7f5a1a29d13d34b467174f87c610dcf087ab12ff7b46ba81bca9a6eb51
-# Source SHA-256: e1bcda062744b4c76135eb75fd632e5ac930f9686280f8d109042a6b6df641da
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 32-SPLIT.ANS by Ezy (Fluid); released in fld9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Split Second
-# SAUCE Author: Ezy
-# SAUCE Group: Fluid
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Split Second by Ezy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fld9611-32-split
 
 Write-Host '
               [31m▄▄█[0;30;41m  [0;31;40m█▀▀[0;30;41m■▓[0;31;40m█▄[0;37;40m [0;31;40m▄▄[0;1;31;41m  [0;31m▀▀[0;1;31;41m   [0;31m▄[0;37m [0;31m▄[0;1;31;41m [0;30;41m▄[0;31;40m▄[0m       [37;40m [0;31;40m▄[0;1;31;41m [0;31m▓[0;37m  [0;31m▄[0;1;31;41m [0;30;41m▄[0;1;31;41m [0;31m32[0m

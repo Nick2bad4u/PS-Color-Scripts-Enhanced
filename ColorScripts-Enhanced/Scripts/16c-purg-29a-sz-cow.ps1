@@ -1,13 +1,4 @@
-﻿# Converted from: SZ-COW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-29a/raw/SZ-COW.ANS
-# Source Revision: archive-sha256:5de89fa125eb7333a54bae49908ef76358fcc0ce9b3df66010dca2eb64b17560
-# Source SHA-256: 966847b0f565fc227216b9a6881a3fb2ed07e7005b6869983cc39ab602877a9c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SZ-COW.ANS by Slackzor (purg-29a); released in purg-29a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: SZ-COW.ANS by Slackzor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-29a-sz-cow
 
 Write-Host '
 [33m[0m                                   [33mcow[0;1;36m![0m                   [1m▄[0m

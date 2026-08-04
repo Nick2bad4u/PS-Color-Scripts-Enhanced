@@ -1,13 +1,4 @@
-﻿# Converted from: UC^MOCO5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mo-ans1/raw/UC%5EMOCO5.ANS
-# Source Revision: raw-sha256:101b0d1ffc2044511e3fc495ecf39e1145dcfde866f32058d68ba62b8c2d2491
-# Source SHA-256: 101b0d1ffc2044511e3fc495ecf39e1145dcfde866f32058d68ba62b8c2d2491
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UC^MOCO5.ANS by Uctumi (mo-ans1); released in mo-ans1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: UC^MOCO5.ANS by Uctumi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mo-ans1-uc-moco5
 
 Write-Host '
                              [1;31m [0;31m [0;1;31;41m▒▓[0;1;31;40m█[0;1;31;41m▓▒[0;31m▌[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: MST!BLL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spr_04/raw/MST!BLL.ANS
-# Source Revision: archive-sha256:80400b543fddd21b5bb915bcb9d7bfdd8d505ecdc431bf7520433af063988fa1
-# Source SHA-256: 49eb3aa2b62d45fdd3d22de0f72c2a99b842d1c019f57e9d19554942cc55be14
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MST!BLL.ANS by Mist (spr_04); released in spr_04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: MST!BLL.ANS by Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spr-04-mst-bll
 
 Write-Host '
                    [31m    [0;37m [0;31m▄▐▓▀▄▄[0;1;31;41m■·[0;31m▓▓▀▀▄  ▄▀▀▓▓[0;1;31;41m·■[0;31m▄▄▀▓▌▄▀[0;37m [0;31m▀▀▄[0m

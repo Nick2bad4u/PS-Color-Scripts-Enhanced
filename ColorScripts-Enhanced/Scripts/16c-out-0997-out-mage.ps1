@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-MAGE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0997/raw/OUT-MAGE.ANS
-# Source Revision: archive-sha256:94eb22bc00c2bdc1c239e9e52fdfa587ee06a92aafccdaa57fd3d3eb25176be0
-# Source SHA-256: c13be783c310a5f37dfb61c006f9580ed9c1f3191b44401ca87c74c6473927bb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-MAGE.ANS by Sandy Chidester (out-0997); released in out-0997 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: OUT-MAGE.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0997-out-mage
 
 Write-Host '
                 [1m·  ·  · [0;1;36m■[0;1;34m■[0;1;37m· ·[0m                    [1;37m·    ·    · ·[0m

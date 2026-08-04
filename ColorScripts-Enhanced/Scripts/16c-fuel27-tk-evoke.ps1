@@ -1,19 +1,4 @@
-﻿# Converted from: tk-evoke.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel27/raw/tk-evoke.ans
-# Source Revision: raw-sha256:84ef49fec57f4ca05d9332d6c08c63ed97aceac063950b74e8cad4dcc722a32e
-# Source SHA-256: 84ef49fec57f4ca05d9332d6c08c63ed97aceac063950b74e8cad4dcc722a32e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tk-evoke.ans by The Knight (Fuel); released in fuel27 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Simon Says
-# SAUCE Author: The Knight
-# SAUCE Group: Fuel
-# SAUCE Date: 20180802
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Simon Says by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel27-tk-evoke
 
 Write-Host '
 [1;30;41m▒▒▒▒░[0;31m▄    ░    ■[0m     [34m [0m         [31m▄▄▄██[0;1;33;41m [0;1;31;41m [0;31m█[0;1;31;41m [0;31m█[0;1;31;41m  [0;31m█[0;1;31;41m▄[0;1;33;41m  ▄[0;1;31;41m▄▄░[0;31m███████▓█▄▄▄ ░    ■[0m

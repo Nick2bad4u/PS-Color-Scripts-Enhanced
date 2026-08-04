@@ -1,18 +1,4 @@
-﻿# Converted from: GSO-PR6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge14/raw/GSO-PR6.ANS
-# Source Revision: archive-sha256:b0e749d5e6297574610409aa68f6dd9e8c54af434247cd2b743b8d1e2d2406d7
-# Source SHA-256: faffa310827e28d80a42d24dd6d20552c71685cdc79df4979836b5f1cf187e83
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GSO-PR6.ANS by gso (The AvengeCult); released in avenge14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: kanske
-# SAUCE Author: gso
-# SAUCE Group: The AvengeCult
-# SAUCE Date: 19990131
-# SAUCE Dimensions: 80x53
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: kanske by gso | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge14-gso-pr6-part01
 
 Write-Host '
 

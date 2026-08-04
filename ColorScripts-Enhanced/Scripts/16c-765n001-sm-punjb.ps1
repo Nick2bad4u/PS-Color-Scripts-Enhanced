@@ -1,18 +1,4 @@
-﻿# Converted from: SM-PUNJB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/765n001/raw/SM-PUNJB.ANS
-# Source Revision: raw-sha256:cf7199bdb3f18eff217c6540e873a648bd1b90dfcdff68ed302f21e90d8097b8
-# Source SHA-256: cf7199bdb3f18eff217c6540e873a648bd1b90dfcdff68ed302f21e90d8097b8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-PUNJB.ANS by sodium (the girl scouts); released in 765n001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: punjab!
-# SAUCE Author: sodium
-# SAUCE Group: the girl scouts
-# SAUCE Date: 19960731
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: punjab! by sodium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-765n001-sm-punjb
 
 Write-Host '
    [1;34m [0;1;34;44m▓▀▀[0;34m█[0;1;34;44m▀[0;34m█[0;37;44m▀░[0;1;34;44mp[0;34m██▀██████████▄ [0;1;34;44m▓▀ [0;44m▀░[0;1;34;44mu[0;1;36;44m░░░░[0;34m█[0;1;31m  [0;34m▐[0;37;44m      [0;34;40m██▄[0;31;40m [0;1;34;44m▓▀▀▀▀[0;34m█[0;37;44m▀░[0;1;34;44mn[0;34m██▀██████████▄[0;1;34m░[0m

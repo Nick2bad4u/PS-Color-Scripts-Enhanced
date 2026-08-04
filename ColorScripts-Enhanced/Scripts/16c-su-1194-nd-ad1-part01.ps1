@@ -1,17 +1,4 @@
-﻿# Converted from: ND-AD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/su-1194/raw/ND-AD1.ANS
-# Source Revision: archive-sha256:8c71c83c5b7a7fee0795cd661ad449c0647d0084df9302a841bb7d97dc5d0dc9
-# Source SHA-256: 26337a41de271c43270101828228fd3583a05c371de2bfaed0a8d172d215b949
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ND-AD1.ANS by Nuclear Dreamer (su-1194); released in su-1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ad For Atomic Delusion
-# SAUCE Author: Nuclear Dreamer
-# SAUCE Date: 19941022
-# SAUCE Dimensions: 80x67
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Ad For Atomic Delusion by Nuclear Dreamer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-su-1194-nd-ad1-part01
 
 Write-Host '
   [31m   ■ █▓▒[0;1;31;41m░▒▓[0m [1;37;40m  [0m                                               [1m  [0;1;31;41m▓▒░[0;31m▒▓█ ■   [0m

@@ -1,19 +1,4 @@
-﻿# Converted from: TNT-AUP2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-35/raw/TNT-AUP2.ANS
-# Source Revision: archive-sha256:c366a38306f48b13ede280377c5f8ef243fdab7e7890ac3e053ec3ccbc5d901a
-# Source SHA-256: 17ae343f40b4c351c8714e623cb0a842e30d9f9567ecfcc067b5c9b7a33a7c7a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNT-AUP2.ANS by tainted (fire); released in fire-35 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: acid underworld promo 2
-# SAUCE Author: tainted
-# SAUCE Group: fire
-# SAUCE Date: 20221208
-# SAUCE Dimensions: 80x202
-# SAUCE Font: IBM VGA
-# Lines: 163-202
-# Columns: 1-80
+﻿# Artwork: acid underworld promo 2 by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-35-tnt-aup2-part05
 
 Write-Host '
 [33m▒▓██████████▀  [0;1;30m▄█[0m   [1;30m░▄ ░▒▓█▀[0m [1;30m░▒▓▀[0m  [1;30m░░▒▓█[0;1;30;47m▓[0;1;30;40m▌[0m   [1;30m░░[0m   [1;30m░░[0m  [1;30m██ [0;33m███▓▌[0;1;30m▐[0;1;30;47m▓▓[0;1;30;40m▄[0;33m [0;37m▐[0;1;30m▄[0;1;30;47m▌[0;1;37;40m▄[0;1;30;40m  ░ [0m▐▌

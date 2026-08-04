@@ -1,17 +1,4 @@
-﻿# Converted from: BLION-11.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oph-0018/raw/BLION-11.ANS
-# Source Revision: archive-sha256:b78bc978b69dedfb9a07152cba296ecefc97611bd7bc7f5211d489ff748613dc
-# Source SHA-256: 6cb84b494bfdb9a34e280029379c5dd32cdb35cfafbf5831f73c3e84d936819c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BLION-11.ANS by bass lion (oph-0018); released in oph-0018 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ^[\  \[[[[[\\\[]
-# SAUCE Author: bass lion
-# SAUCE Date: 19960917
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: ^[\ \[[[[[\\\[] by bass lion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oph-0018-blion-11
 
 Write-Host '
                                                        [1;33m▄▄▄██████▓▄▄▄[0m

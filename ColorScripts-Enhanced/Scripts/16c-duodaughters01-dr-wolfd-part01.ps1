@@ -1,16 +1,4 @@
-﻿# Converted from: dr-wolfd.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/duodaughters01/raw/dr-wolfd.ans
-# Source Revision: archive-sha256:107dcc7639647744884177ba1bc2147746cc2fe523012ebd967c4f8ee48caaef
-# Source SHA-256: ad41e616f3eb5ab2bb840eaf4fb91239d83fade212205365c7a9641d71cef506
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: dr-wolfd.ans by Drifter (duodaughters01); released in duodaughters01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20151212
-# SAUCE Dimensions: 80x149
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: dr-wolfd.ans by Drifter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-duodaughters01-dr-wolfd-part01
 
 Write-Host '
 [34;40m██████████████████████[0;1;33;44m▄[0;34m████████████████████████████████████[0;1;33;44m▄[0;34m████████████████████[0m

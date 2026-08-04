@@ -1,18 +1,4 @@
-﻿# Converted from: YK`D4M.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/insm0796/raw/YK%60D4M.ANS
-# Source Revision: archive-sha256:e3aef34bb564b08d1904f6f1567e1b9514c63c703fa2cbc5b50e7bd5188984fa
-# Source SHA-256: 559cde19f49ed7058b2dfc7539a04e130747aeca4a90c733bdae518f10289077
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: YK`D4M.ANS by YaNKeE (iNSoMNia); released in insm0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: DH3~4NS1~M4CH1N3
-# SAUCE Author: YaNKeE
-# SAUCE Group: iNSoMNia
-# SAUCE Date: 19960610
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: DH3~4NS1~M4CH1N3 by YaNKeE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-insm0796-yk-d4m
 
 Write-Host '
                                [36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: 06-FINAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/swap06/raw/06-FINAL.ANS
-# Source Revision: archive-sha256:926154aaace1633e51cc158f24c89ba8bba7cc871e944df2a19ea96f18603e2e
-# Source SHA-256: 80b79d804c73977ec3a549202a55896d7b25282d25ccaba213e3cc78a6d3fb89
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 06-FINAL.ANS by Black Viper + Cheeze + Dieznyik + Flame + Nail + Widowmaker + Trahma (swap06); released in swap06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: 06-FINAL.ANS by Black Viper + Cheeze + Dieznyik + Flame + Nail + Widowmaker + Trahma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-swap06-06-final
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: PYX-EYS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0596/raw/PYX-EYS2.ANS
-# Source Revision: archive-sha256:2b7b1dd95a9d9508170892c43bef2c3ed5e02282eecce8d0ae15c8f279497494
-# Source SHA-256: 7a3b91686983a964d3042480f93e58229cf611c0ea60044553e07c9a95d7d137
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-EYS2.ANS by Pyx (bmb-0596); released in bmb-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: PYX-EYS2.ANS by Pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0596-pyx-eys2
 
 Write-Host '
   [1;35;45m░▒▓▓▒░[0;35m█[0;34m▐[0;1;34;44m░▒░▒░░[0;34m█[0;1;34;44m░[0;34m▀▀▀▀▀████[0;1;34;44m░[0;34m██[0;1;34;44m░░▒▒▓▓▓▓▓▓▒▒▒░░░░[0;34m███████▀▀[0;1;34;44m░▒▒▒▓▓[0;1;34;40m████[0;34m [0;35m█[0;1;35;45m░▒▓░ [0;35m█[0;34m [0m

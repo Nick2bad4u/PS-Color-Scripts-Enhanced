@@ -1,18 +1,4 @@
-﻿# Converted from: EX-BLUR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blur9608/raw/EX-BLUR.ANS
-# Source Revision: archive-sha256:b7e32d66c5e7d34aeada9c181e3ca4f933570a8887545f8df4f9ab36f4c2fe1a
-# Source SHA-256: 97c767592e4953d09ddc0a573039d9b501e32fca08f2b84ba1ff1aac3c6c0c5c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EX-BLUR.ANS by Exulted (BLUR); released in blur9608 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Blur Logo
-# SAUCE Author: Exulted
-# SAUCE Group: BLUR
-# SAUCE Date: 19960710
-# SAUCE Dimensions: 80x24
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Blur Logo by Exulted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blur9608-ex-blur
 
 Write-Host '
             [1;30m    [0m                 [1;36m [0;1;33m▄─[0;1;36m [0m  [34m [0;37m  [0;1;37m▄[0;1;37;47m░[0m▀██[30;47m░▓[0;37;40m [0;1;30;40m░[0;34m       [0m

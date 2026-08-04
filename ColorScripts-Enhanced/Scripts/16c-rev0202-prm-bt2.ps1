@@ -1,18 +1,4 @@
-﻿# Converted from: prm-bt2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0202/raw/prm-bt2.ans
-# Source Revision: archive-sha256:2dab715e9f2d819e9161d3954fa8210558a1b83f118c830394e2fdee6408a093
-# Source SHA-256: e1d60e8966f3013e1aeba971b60788126cca7b6ddbf44f6d64717f7e10d2bb40
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: prm-bt2.ans by pR1ZM (rEVIVAL^aNSI); released in rev0202 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: bTHURZ
-# SAUCE Author: pR1ZM
-# SAUCE Group: rEVIVAL^aNSI
-# SAUCE Date: 20020213
-# SAUCE Dimensions: 80x25
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: bTHURZ by pR1ZM | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0202-prm-bt2
 
 Write-Host '
 [1;37;40m█████ █████  ███████ ████████ ██████████ [0;1;31;40mS[0;1;37;40m ████████ █████  [0;1;31;40mSSS[0;1;37;40m [0;1;37;46m█████[0;1;37;40m [0;1;31;40mpΓ[0;1;33;40m1[0;1;31;40mZM ²°''`[0m

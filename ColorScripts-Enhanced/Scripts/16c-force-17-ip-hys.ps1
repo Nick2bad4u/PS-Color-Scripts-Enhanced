@@ -1,18 +1,4 @@
-﻿# Converted from: IP-HYS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-17/raw/IP-HYS.ANS
-# Source Revision: archive-sha256:a388e5620de32c4145fd1d2f2e70343f674ce332483184514a867f9d5d569bc4
-# Source SHA-256: 8e42abcf5085e2ad728a164a9ca14e7145d3f1929c15ee1c5c8ae28a323e5a21
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IP-HYS.ANS by Impulse (Force); released in force-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Hysteria
-# SAUCE Author: Impulse
-# SAUCE Group: Force
-# SAUCE Date: 19970428
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Hysteria by Impulse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-17-ip-hys
 
 Write-Host '
 

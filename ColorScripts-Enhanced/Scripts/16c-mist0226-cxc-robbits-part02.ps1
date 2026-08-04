@@ -1,19 +1,4 @@
-﻿# Converted from: CXC-ROBBITS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0226/raw/CXC-ROBBITS.ANS
-# Source Revision: archive-sha256:ef03a5a095d5c0479664f99ff23399e245703c452ca9d05ea2957005177022f9
-# Source SHA-256: a38c80dd5716bffc7b53578a644cb64287c7c77b024f31034e7ec86035c4578b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CXC-ROBBITS.ANS by coaxcable (mist); released in mist0226 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: robbits
-# SAUCE Author: coaxcable
-# SAUCE Group: mist
-# SAUCE Date: 20260226
-# SAUCE Dimensions: 80x55
-# SAUCE Font: IBM VGA
-# Lines: 29-55
-# Columns: 1-80
+﻿# Artwork: robbits by coaxcable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0226-cxc-robbits-part02
 
 Write-Host '
              _______\[1m  [0m▄[1;33;107m▀[0m▀    [1m▀[0m [1m▀[0m  █[1;33;47m▄▓[0;1;33;107m▒[0m▄▀[1;33;47m▓▄[0m█  [1m▀[0m [1m▀[0m    ▀[1;33;107m█[0m▄  /___[1m____[0m

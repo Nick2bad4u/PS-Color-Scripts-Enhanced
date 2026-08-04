@@ -1,13 +1,4 @@
-﻿# Converted from: kmb-spr5.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gen-08/raw/kmb-spr5.ans
-# Source Revision: archive-sha256:de1fb48c6dbe733c03717f643e0436c78be60ace5ba3be7fc4fd3b476c0d4de2
-# Source SHA-256: 2bd3b89ce366ae8e3b6ded6001aed761b926cb212bdad4a3edf75f594ee45d40
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: kmb-spr5.ans by Kumb4 (gen-08); released in gen-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: kmb-spr5.ans by Kumb4 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gen-08-kmb-spr5
 
 Write-Host '
         [1;30m░░[0m                            [1;30m░░[0m       [1;30m▄▄[0m

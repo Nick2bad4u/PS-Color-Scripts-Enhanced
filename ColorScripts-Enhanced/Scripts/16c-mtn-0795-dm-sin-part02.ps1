@@ -1,18 +1,4 @@
-﻿# Converted from: DM-SIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mtn-0795/raw/DM-SIN.ANS
-# Source Revision: archive-sha256:1fb87db87a5bf1997fd2eee527ba7592bfed81861b31d80276ebf097c7eecd70
-# Source SHA-256: ea4948ead8c8d96211169eca8647dd6bf1b4a62553dab0c304f76bd426fab2a9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DM-SIN.ANS by Domino (mOtion); released in mtn-0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Sin Systems
-# SAUCE Author: Domino
-# SAUCE Group: mOtion
-# SAUCE Date: 19950703
-# SAUCE Dimensions: 80x84
-# Lines: 40-84
-# Columns: 1-80
+﻿# Artwork: Sin Systems by Domino | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mtn-0795-dm-sin-part02
 
 Write-Host '
         [1;33m▄██[0;1;33;43m█▀■ [0;33m█▀▀▀▀▀▀▀▀▀[0;1;33;43m▀▀[0;1;33;40m████████████████████▌[0;1;37;40m▀▄████▀[0;32m▐[0;1;32;42m▄████████████▌.[0;32m██[0;1;32m▐[0;1;32;42m██████[0m

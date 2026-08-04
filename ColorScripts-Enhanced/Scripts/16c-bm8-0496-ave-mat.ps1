@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-MAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bm8-0496/raw/AVE-MAT.ANS
-# Source Revision: archive-sha256:6a20500f0b019daf8b74b1011f4e13acdbac779a421770d34d848962bd1ba353
-# Source SHA-256: 90ed8b46e18f375ba5179131dab76036c8416902b99da99584ab6690a63c2b6c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-MAT.ANS by AVENGER (BM & UTsHG); released in bm8-0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: free matrix
-# SAUCE Author: AVENGER
-# SAUCE Group: BM & UTsHG
-# SAUCE Date: 19960414
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: free matrix by AVENGER | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bm8-0496-ave-mat
 
 Write-Host '
 [30;43m░░░░░░░░░░░░░░░░░░░   [0;1;33;43m░▒[0;30;47m█  [0;1;30;47m░[0;30;47m                                               [0;1;30;47m░[0;30;47m    [0m

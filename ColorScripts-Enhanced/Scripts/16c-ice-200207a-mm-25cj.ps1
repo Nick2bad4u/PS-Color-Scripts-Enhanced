@@ -1,13 +1,4 @@
-﻿# Converted from: mm-25cj.ice
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-200207a/raw/mm-25cj.ice
-# Source Revision: archive-sha256:87ec080ca63a5b37e40caa65bc014e3155f9f2203365424dda6094de81bc8bf6
-# Source SHA-256: 36362e8b87fca673e0e53c132ce57aa42b1e086678be55fd8a2482595aeb8ef8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mm-25cj.ice by Magnetic M (ice-200207a); released in ice-200207a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: mm-25cj.ice by Magnetic M | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-200207a-mm-25cj
 
 Write-Host '
 [1;36;46m▀[0;1;36;40m▀[0;36m▀[0;37m [0;34m▄▄[0;1;34m▄ [0;34m▀▀[0;1;34m▀[0;1;36m [0;1;34m   [0;1;34;44m▀[0;34m▀▀▀[0;1;34m [0;34m▄[0;1;34m▄▄▄[0;1;34;44m▄[0;1;34;40m▄▄▄▄▄[0;34m▄[0;1;34m  [0m [1;34m [0;34m▄▄[0;37m [0;36m▀[0;1;36m [0;36m▀[0;1;36;46m▀[0;1;36;40m████████████████[0;1;36;46m▀[0;1;36;40m [0;33m [0;1;30m▀[0;33m██████[0;1;37;43m░░▒▒[0;33m▀██[0;37m [0;36m█[0;1;36m███[0m

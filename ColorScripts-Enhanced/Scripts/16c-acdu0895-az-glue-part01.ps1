@@ -1,18 +1,4 @@
-﻿# Converted from: AZ-GLUE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0895/raw/AZ-GLUE.ANS
-# Source Revision: archive-sha256:3becf3c2c00dadeb41257fa85bb842a48deb8515cdc494db0d9ff697d2e04d12
-# Source SHA-256: db6fde40b1f675a8d160dd3a6283aead407031889681b594112bc9c83d2eeddb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AZ-GLUE.ANS by Azrael + Axitious + Twotone (ACiD Productions); released in acdu0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Glue
-# SAUCE Author: Azrael
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950801
-# SAUCE Dimensions: 80x101
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: Glue by Azrael + Axitious + Twotone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0895-az-glue-part01
 
 Write-Host '
 [1m█▓ [0;1;30m·■▀■▄[0;1;37m   [0;1;30m▄■[0;1;37m [0;1;30m▀■▄[0;1;37m [0;1;30m■▀▄[0;1;37m ▓█████████████████████▓███████▒█████████████░████▒███▒████[0m

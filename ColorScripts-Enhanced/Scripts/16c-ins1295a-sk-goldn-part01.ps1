@@ -1,18 +1,4 @@
-﻿# Converted from: SK-GOLDN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ins1295a/raw/SK-GOLDN.ANS
-# Source Revision: archive-sha256:0b68d4daa11b0e9ab0b29fa989c942e6fe09c6576ebd507a2bf77817932365c5
-# Source SHA-256: f33474f537b57022f18a039d4fc59f5a6fd77e3e304f1c577f4844e3bf0344b7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK-GOLDN.ANS by SKY (Xgy^Ld); released in ins1295a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Golden Image Logon
-# SAUCE Author: SKY
-# SAUCE Group: Xgy^Ld
-# SAUCE Date: 19951202
-# SAUCE Dimensions: 80x63
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Golden Image Logon by SKY | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ins1295a-sk-goldn-part01
 
 Write-Host '
 

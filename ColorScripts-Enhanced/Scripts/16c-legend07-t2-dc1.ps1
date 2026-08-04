@@ -1,18 +1,4 @@
-﻿# Converted from: T2-DC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/legend07/raw/T2-DC1.ANS
-# Source Revision: archive-sha256:3712cd566b8bed7b1760317a3fccc3f73308ec1824fc5f6c1df906c5288bfa19
-# Source SHA-256: 62f9513f17101ccb3bf743f6cff926646d41108dafec5d55e2b92cc3c7b4d1bc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T2-DC1.ANS by Terminator 2 (Legend); released in legend07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Diet Cola
-# SAUCE Author: Terminator 2
-# SAUCE Group: Legend
-# SAUCE Date: 19960803
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Diet Cola by Terminator 2 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-legend07-t2-dc1
 
 Write-Host '
                         [32m▄[0;1;32;42m▄░[0;32m█▄[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: AK-TRI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-43/raw/AK-TRI.ANS
-# Source Revision: archive-sha256:d3967e67800d0c773a52f120751caeb2bc01ead5180b478fb0a0e89978edc4ec
-# Source SHA-256: f8280d54a5fcc12f6561cd4cc4eefa79f1f111448dbf160bf9c57797c12a9292
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-TRI.ANS by abstrakt (fire); released in fire-43 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: nuke the hurricanes
-# SAUCE Author: abstrakt
-# SAUCE Group: fire
-# SAUCE Date: 20250707
-# SAUCE Dimensions: 80x100
-# SAUCE Font: IBM VGA
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: nuke the hurricanes by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-43-ak-tri-part02
 
 Write-Host '
 [34m$$js,..┌$$[0;37m [0;1;30mj[0m;      [33m`\j$[0;1;31m$$$$$$$$$$[0;33m$j$7┘`[0m        [33m,┌ ''[0;37m   [0;1;37m`[0;1;30m┐[0m [31m`$b`$$$$$.`$$$$$W[0;37m [0;31ml$$$$[0m

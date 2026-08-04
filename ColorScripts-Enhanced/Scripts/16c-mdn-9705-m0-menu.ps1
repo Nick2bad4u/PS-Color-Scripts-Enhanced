@@ -1,18 +1,4 @@
-﻿# Converted from: M0-MENU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9705/raw/M0-MENU.ANS
-# Source Revision: archive-sha256:42f41174635a4b9e44304d5d0f48b9b5aa0b6be93e48c5ea196226a31ced9fa8
-# Source SHA-256: 92adb5846c38a0a52524084291310b4dcd4a3199b528fb1985cbd6443a466c72
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M0-MENU.ANS by mosh (maiden brazil); released in mdn-9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: crap Void main menu
-# SAUCE Author: mosh
-# SAUCE Group: maiden brazil
-# SAUCE Date: 19970429
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: crap Void main menu by mosh | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9705-m0-menu
 
 Write-Host '
 

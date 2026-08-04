@@ -1,13 +1,4 @@
-﻿# Converted from: US-JNT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-24a/raw/US-JNT.ANS
-# Source Revision: archive-sha256:d6d2cbca30699944d1c37edfb38c2cd975e18179eb1d7dc8c9c66cab7d21597d
-# Source SHA-256: 66b2c62f0e4d42560f786f3764cb6f268ed4d19de088329aa9c2b0b869c1da6b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-JNT.ANS by The Reaper + Inclusive + Sephiroth + Zerovision (purg-24a); released in purg-24a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: US-JNT.ANS by The Reaper + Inclusive + Sephiroth + Zerovision | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-24a-us-jnt-part01
 
 Write-Host '
   [32m▄▄[0;1;32;42m░▓[0;1;32;40m▌[0m [1;47m▒[0m [1;32m▐[0;1;32;42m▓░[0;32m▄▄[0m   [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US-HM2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook12/raw/US-HM2.ANS
-# Source Revision: archive-sha256:ec66f5bb4ed961133c52314c375d67af30a5295789eb6bfc6eda91ebf8999fc2
-# Source SHA-256: b15501d6bb037a8a8ae814ce4568a3c888dabbed488d21cc6e240bf9ac15d5a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-HM2.ANS by Avenger + Dv8 (bm + groupless); released in bmbook12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hazard/2 matrix
-# SAUCE Author: ave + dv8
-# SAUCE Group: bm + groupless
-# SAUCE Date: 19970228
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: hazard/2 matrix by Avenger + Dv8 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook12-us-hm2
 
 Write-Host '
  [33m                                                               [0;35m ▀[0;1;35m▒▒[0;30;45m     dv8&ave[0m

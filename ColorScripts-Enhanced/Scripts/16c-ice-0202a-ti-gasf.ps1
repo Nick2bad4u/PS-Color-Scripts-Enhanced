@@ -1,13 +1,4 @@
-﻿# Converted from: ti-gasf.ice
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-0202a/raw/ti-gasf.ice
-# Source Revision: archive-sha256:c4bf95b47e86377ae98f69d57fe7522ce967af633963b24f229910063507f22c
-# Source SHA-256: 92b28fe25bac3beb920607e53156e5093f8e2cb308bd3270cd7242bb4e8a5a56
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ti-gasf.ice by Trip (ice-0202a); released in ice-0202a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ti-gasf.ice by Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-0202a-ti-gasf
 
 Write-Host '
 [1;30m                                  [0;33m   [0;1;36;43m▄█████[0;33m▌[0;37m [0;34m███[0;37m [0;33m▐[0;1;36;43m█████▄[0m   [34m█████[0;37m   [0;1;36;43m▄█████[0;33m▌[0m

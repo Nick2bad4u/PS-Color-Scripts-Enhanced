@@ -1,19 +1,4 @@
-﻿# Converted from: CL!-PHCK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-40/raw/CL!-PHCK.ANS
-# Source Revision: archive-sha256:aff8105c0a955ac5c43ea367a02b086cd2849f6741fc41b8a5ff440b77e104a7
-# Source SHA-256: 734c4e49810a01d8a2f01ebaaddfe374c579e0373badbc6ea194acfa2395674b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-PHCK.ANS by Cleaner (Fire); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Phrack Magazine
-# SAUCE Author: Cleaner
-# SAUCE Group: Fire
-# SAUCE Date: 20240707
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Phrack Magazine by Cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-40-cl-phck
 
 Write-Host '
 

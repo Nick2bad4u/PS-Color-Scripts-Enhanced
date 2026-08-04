@@ -1,18 +1,4 @@
-﻿# Converted from: PP-KZ1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger06/raw/PP-KZ1.ANS
-# Source Revision: archive-sha256:efc6b6d6892fe7f05c3b06052b1d79464b7ee8ab8c7bee2d77361e00cf941f28
-# Source SHA-256: cb7b9c6398a65b5e3e5ce96e56d049887eb007dff767e4ce4011bd2b4eb8a5e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PP-KZ1.ANS by pixel_pusher (anger produktionz); released in anger06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: kOmbat+zOne fOnt.
-# SAUCE Author: pixel_pusher
-# SAUCE Group: anger produktionz
-# SAUCE Date: 19960109
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: kOmbat+zOne fOnt. by pixel_pusher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger06-pp-kz1
 
 Write-Host '
 

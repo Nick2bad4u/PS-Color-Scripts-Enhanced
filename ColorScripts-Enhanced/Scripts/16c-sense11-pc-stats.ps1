@@ -1,18 +1,4 @@
-﻿# Converted from: PC-STATS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense11/raw/PC-STATS.ANS
-# Source Revision: archive-sha256:0690b90402a70581c8f215d3ac545dcd69504e18bce536e07fefa6abfa4129ef
-# Source SHA-256: adc338693ef1ead5db92f7ccddc404b1bbf50ed3ae6482d5ec622fb237fab7a8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-STATS.ANS by Proctologist (SeNSE); released in sense11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: statisticks
-# SAUCE Author: Proctologist
-# SAUCE Group: SeNSE
-# SAUCE Date: 19980707
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: statisticks by Proctologist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense11-pc-stats
 
 Write-Host '
   [1;36m,[0m               [1;36m,[0m               [1;36m,[0m               [1;36m,[0m               [1;36m,[0m

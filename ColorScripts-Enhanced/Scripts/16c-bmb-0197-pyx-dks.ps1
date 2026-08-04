@@ -1,18 +1,4 @@
-﻿# Converted from: PYX-DKS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0197/raw/PYX-DKS.ANS
-# Source Revision: archive-sha256:331ffa2c0b41c075aec836339cfb4b33b33b171a17da17bd721952cf3966c823
-# Source SHA-256: 29647992e459bfdf50cdab9413b21129acb0b66799eed5177e1afe7085bcc298
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-DKS.ANS by Pyx (Bamboosh); released in bmb-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: DarkSide
-# SAUCE Author: Pyx
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19961223
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: DarkSide by Pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0197-pyx-dks
 
 Write-Host '
 

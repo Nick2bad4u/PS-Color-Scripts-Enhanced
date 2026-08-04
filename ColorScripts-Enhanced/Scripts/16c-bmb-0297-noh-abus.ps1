@@ -1,18 +1,4 @@
-﻿# Converted from: NOH-ABUS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0297/raw/NOH-ABUS.ANS
-# Source Revision: archive-sha256:be68381e2a6eb66da2c3748632738b57ddbb1f82deb6e57bebe558461357279b
-# Source SHA-256: 6c8802d10be81eabc1e6ba14f20b5e9c3dcfecdb0f1103fd603d29cfd119d7d5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-ABUS.ANS by nOah! (Bamboosh); released in bmb-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Abuse
-# SAUCE Author: nOah!
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19970203
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: Abuse by nOah! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0297-noh-abus
 
 Write-Host '
                      [1;30;47m█[0;1;37;47m▀▀▀▀▀▀▓[0m

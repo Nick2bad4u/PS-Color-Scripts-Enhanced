@@ -1,18 +1,4 @@
-﻿# Converted from: AR-ETS.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9504a/raw/AR-ETS.ICE
-# Source Revision: archive-sha256:7e06a69e8d7baf8133687f2e7b917774996272e1a0f23faaff663b1fe4e44657
-# Source SHA-256: f4016eda79cb43723e9c76422a0b13b630cb53c3a0123d7dc2da791372fde0cc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AR-ETS.ICE by Argon (iCE); released in ice9504a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Eternal Silence
-# SAUCE Author: Argon
-# SAUCE Group: iCE
-# SAUCE Date: 19950421
-# SAUCE Dimensions: 80x160
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: Eternal Silence by Argon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9504a-ar-ets-part01
 
 Write-Host '
                         [1;30m▓[0m ▒░  ▄▄▓█▀[47m  [0;40m▄▄  [0;31;40m░[0;37;40m  [0;31;40m░[0;37;40m▀█▓▄▄  [0;34;40m░▒▓[0;37;40m [0;1;30;40m░[0m

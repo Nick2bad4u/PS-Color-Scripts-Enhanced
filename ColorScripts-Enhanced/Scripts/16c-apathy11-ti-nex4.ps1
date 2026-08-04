@@ -1,18 +1,4 @@
-﻿# Converted from: TI-NEX4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy11/raw/TI-NEX4.ANS
-# Source Revision: archive-sha256:a8a1f25f60c56aa0932319ceb3e0a3707898d7c9d304c60c4912556d84eb4b61
-# Source SHA-256: 499679ebe8e9b3022de344e8e069f99f832e8411a80dbcb61780b9bc5cada87d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TI-NEX4.ANS by Trip (Apathy); released in apathy11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Nexus new user stuff
-# SAUCE Author: Trip
-# SAUCE Group: Apathy
-# SAUCE Date: 19960621
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Nexus new user stuff by Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy11-ti-nex4
 
 Write-Host '
 ▄[1;30;47m▒▓[0;1;30;40m████████[0;1;30;47m█[0;1;30;40m██▀▄██████▄▄▄▄▄▀▀▄▌ ▄[0;1;30;47m▓[0;1;30;40m▀▄[0m▄[1;30;47m▒▓▓[0;1;30;40m██▀▀▄▄▄█[0;1;30;47m▓▓▒░[0m▄▄[1;30m▀█[0;1;30;47m▓▒░[0m▌[34m▐█[0;1;37;44mnEW  [0;34m███▌[0m

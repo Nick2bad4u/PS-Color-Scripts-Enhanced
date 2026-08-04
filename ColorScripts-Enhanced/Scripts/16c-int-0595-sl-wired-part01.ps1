@@ -1,18 +1,4 @@
-﻿# Converted from: SL-WIRED.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/int-0595/raw/SL-WIRED.ANS
-# Source Revision: archive-sha256:e22d3952ca70c64f879897fb904ffbbf60c66bd0e40f7e119d0e6bdf3808e773
-# Source SHA-256: 0997c9055b15cdef0b4e6f575fae82d9c8cc56b59d354a2a107e385a328a5c34
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SL-WIRED.ANS by Surreal Logic (Integrity); released in int-0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Wired
-# SAUCE Author: Surreal Logic
-# SAUCE Group: Integrity
-# SAUCE Date: 19950430
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Wired by Surreal Logic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-int-0595-sl-wired-part01
 
 Write-Host '
 [34m▄██████████▀[0m [37m▄▄▄[0;1;30m▄[0;1;34m [0;34m▀▀██████████████████████████████████████████████████████████▄[0;37m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SG-BE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bleach05/raw/SG-BE1.ANS
-# Source Revision: archive-sha256:09b86858eb23a8eec48404a97e9a21a9057746b5757f06ffc27990d15e890f2c
-# Source SHA-256: 9fe595fcd1067276d2d41adf60e0c8193530b06b4742b02c56e1cfe03a94325e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SG-BE1.ANS by Snake Grunger (Bleach); released in bleach05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Brand Echh
-# SAUCE Author: Snake Grunger
-# SAUCE Group: Bleach
-# SAUCE Date: 19950825
-# SAUCE Dimensions: 80x117
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Brand Echh by Snake Grunger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bleach05-sg-be1-part01
 
 Write-Host '
                         [1;30m█[0m     [1;30m▓[0m    [1;30m ░[0m             [1;30m ▓[0m

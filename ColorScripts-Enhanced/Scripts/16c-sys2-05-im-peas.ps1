@@ -1,13 +1,4 @@
-﻿# Converted from: im-peas.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sys2_05/raw/im-peas.ans
-# Source Revision: archive-sha256:6dcbe70b49bee617620145cb83c812c2901642bcaa6000c04117e3ae07892cb6
-# Source SHA-256: d5ca0c149b3e3065fe3c75ae594bfa9919de2c8c5176b3a6f98da73a1a2338e5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: im-peas.ans by Icedmouse (sys2_05); released in sys2_05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: im-peas.ans by Icedmouse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sys2-05-im-peas
 
 Write-Host '
 [35m$$$$$$$$$$$$$$$$$jF`[0m    [37m___│  $$$''[0m     [37m    [0;33m$$[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: ID-GCIDE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0996/raw/ID-GCIDE.ANS
-# Source Revision: archive-sha256:fd0c87547005857a37aee32ff40c82a1e8535aecda68a9edc2483cdc45b21af1
-# Source SHA-256: dde8eecd51292b8207eb6fab90ebd3420ca1c7b30b2b8368c01bb832662c6db3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ID-GCIDE.ANS by iodine (fire); released in fire0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Genocide
-# SAUCE Author: iodine
-# SAUCE Group: fire
-# SAUCE Date: 19960831
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Genocide by iodine | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0996-id-gcide
 
 Write-Host '
                                                                  [35m▐▄▄[0m

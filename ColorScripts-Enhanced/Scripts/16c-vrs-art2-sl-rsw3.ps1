@@ -1,13 +1,4 @@
-﻿# Converted from: SL-RSW3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vrs-art2/raw/SL-RSW3.ANS
-# Source Revision: archive-sha256:273bed4ba3df9b056fa8f6732738ecb6c35d4780cfe36052c9913519cce9e247
-# Source SHA-256: 499babd47cd79aa6a0c40f24566107783ba8530658bd4b9763093829f537b181
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SL-RSW3.ANS by Slam (vrs-art2); released in vrs-art2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: SL-RSW3.ANS by Slam | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vrs-art2-sl-rsw3
 
 Write-Host '
 

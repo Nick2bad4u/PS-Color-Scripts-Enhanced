@@ -1,18 +1,4 @@
-﻿# Converted from: RL-!BROK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0696/raw/RL-!BROK.ANS
-# Source Revision: archive-sha256:1ba4c8d098d1b0f05665c254631c4d3b64f02872fa1b37e7519ce6b263840874
-# Source SHA-256: d77b8c633aec8c5832404810583931bd4addfdcaf5a5ed4a5a23ed9700ebdafb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL-!BROK.ANS by Rawlock (Opium); released in opx-0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Broken Arrow
-# SAUCE Author: Rawlock
-# SAUCE Group: Opium
-# SAUCE Date: 19960601
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Broken Arrow by Rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0696-rl-brok
 
 Write-Host '
                 [33m  [0m            [34m▄[0m

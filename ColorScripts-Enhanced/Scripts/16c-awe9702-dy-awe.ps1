@@ -1,18 +1,4 @@
-﻿# Converted from: DY-AWE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9702/raw/DY-AWE.ANS
-# Source Revision: archive-sha256:66fa024bb27d2c5c9da5d44e7d12f110f2c57bdedd32c6f0a850d91a30d582a8
-# Source SHA-256: ffbb6427f8a122a5eb1bd0ccb26838b48da05fe8a3c4f8f72e5fbd29d49714d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DY-AWE.ANS by Discyple (AWE Lettering); released in awe9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: AWE Promotional
-# SAUCE Author: Discyple
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970117
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: AWE Promotional by Discyple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9702-dy-awe
 
 Write-Host '
                                            [1;33m░[0m

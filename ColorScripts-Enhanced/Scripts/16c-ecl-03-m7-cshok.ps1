@@ -1,18 +1,4 @@
-﻿# Converted from: M7-CSHOK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-03/raw/M7-CSHOK.ANS
-# Source Revision: archive-sha256:8478e7ed47e52d1e07bf55e17a5f105ced4b468c6f56a8b59fd6b8ef8dada5ca
-# Source SHA-256: 4cdb13994d5fb5b58e9abd5434a050dc0dafd152a32739f3acdaebfc1df843e2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M7-CSHOK.ANS by magna-7up (eclipse); released in ecl-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: culture shock? :)
-# SAUCE Author: magna-7up
-# SAUCE Group: eclipse
-# SAUCE Date: 19960712
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: culture shock? :) by magna-7up | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-03-m7-cshok
 
 Write-Host '
     [1m▄▄▄▄▄▄▄[0m [1;33m ▄▄▄▄▄██▀▀██▄▄▄▄▄▄▄  ██████[0m

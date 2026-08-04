@@ -1,13 +1,4 @@
-﻿# Converted from: AVE-TDF1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/locus-05/raw/AVE-TDF1.ANS
-# Source Revision: archive-sha256:e794f4a6bc7d61ceeb91dcf253d8af6f1d242da726d5159e3be21f4afcead4b3
-# Source SHA-256: 7a6c70e29244268d02f6c5a83afc2d9c5ac9d92b1a6cfcbf319aba0108061b8f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-TDF1.ANS by Avenging Angel (locus-05); released in locus-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 46-91
-# Columns: 1-80
+﻿# Artwork: AVE-TDF1.ANS by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-locus-05-ave-tdf1-part02
 
 Write-Host '
 [35m▀[0;37m [0;33m▄[0;1;33m▄[0;1;33;43m▄▓▓▒▓▓[0;33m▀[0;37m [0;36m▄[0;1;36;46m ░░[0;36m▄[0;37m [0;33m▀[0;1;31;43m▓▓▓▒[0;33m▌  ▐██[0;1;31;43m░░░░[0;33m█████████████████▄   ▀█[0;1;31;43m░░░[0;33m█▀[0;37m  [0;36m▄[0;1;36;46m░░ [0;36m▄[0;37m [0;33m▀[0;1;33;43m▓▓▒▓▓▄[0;1;33;40m▄[0;33m▄[0;37m [0m

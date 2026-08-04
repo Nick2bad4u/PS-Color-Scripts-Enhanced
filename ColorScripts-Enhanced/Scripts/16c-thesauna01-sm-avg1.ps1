@@ -1,18 +1,4 @@
-﻿# Converted from: sm-avg1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna01/raw/sm-avg1.ans
-# Source Revision: archive-sha256:70f712dbf565de1ceb0f2b7020b54aa443621235a47b082b92e24e13342b0672
-# Source SHA-256: e1237f30728c56b3c855d0ea52506f4f31a2dbaad74eef3f4533628065f4563e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sm-avg1.ans by Smooth (thesauna01); released in thesauna01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: AVG - The coolest AUSSIE I know
-# SAUCE Author: Smooth
-# SAUCE Date: 20190908
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: AVG - The coolest AUSSIE I know by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna01-sm-avg1
 
 Write-Host '
                                   [35m■[0m

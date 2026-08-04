@@ -1,17 +1,4 @@
-﻿# Converted from: GDR-SUBL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sublim01/raw/GDR-SUBL.ANS
-# Source Revision: archive-sha256:2cbe9a35c4c18e2fe60e5ff056a2948091a3039db227596f944c600cadec7937
-# Source SHA-256: 53de51c36392e3171314d8e8b3c7a3b42e32b8b72fd1a667591cc59dff556b3f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GDR-SUBL.ANS by Gravedancer (sublim01); released in sublim01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Sublime
-# SAUCE Author: Gravedancer
-# SAUCE Date: 19990415
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Sublime by Gravedancer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sublim01-gdr-subl
 
 Write-Host '
 [1;30mgdr[0m                    [31m__...____[0;37m  [0;1;37m``''7$$$$$$$$$$$$II_______[0m

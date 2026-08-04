@@ -1,13 +1,4 @@
-﻿# Converted from: GAVEL86.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1992/raw/GAVEL86.ANS
-# Source Revision: archive-sha256:408f6102282b4b4f582d319af7c00d0c1a49a9b89d70dc7754d4cd44f475f4fb
-# Source SHA-256: c180ddbcff665e21cc0d498143d8f9a5b3828f514d78d0e210f5a1258cae2ed5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GAVEL86.ANS by Vito (1992); released in 1992 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: GAVEL86.ANS by Vito | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1992-gavel86-part01
 
 Write-Host '
 [35m█[0;35;45m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;35;40m▀▀▀▀▀[0;35;45m▀▀▀▀▀▀▀▀█[0m

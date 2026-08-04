@@ -1,13 +1,4 @@
-﻿# Converted from: MST!GOZD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spr_05/raw/MST!GOZD.ANS
-# Source Revision: archive-sha256:6282becd01198e113280cb897d8e26425ec96848c7f61db4a06b5e779788170c
-# Source SHA-256: b67d3924781ec1bfce9ddbb73e83265b4a950991fc8ef60d6ce50b116e0ce68f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MST!GOZD.ANS by Mist (spr_05); released in spr_05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: MST!GOZD.ANS by Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spr-05-mst-gozd
 
 Write-Host '
 [1;30m▀[0m [1;30m▀███[0m [1;30m▀▀▀ ████[0m [1;30m░███████████████████████████████████░[0m        [1;30m [0m                 

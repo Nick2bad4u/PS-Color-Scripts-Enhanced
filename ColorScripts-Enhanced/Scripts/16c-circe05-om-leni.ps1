@@ -1,13 +1,4 @@
-﻿# Converted from: OM!LENI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe05/raw/OM!LENI.ANS
-# Source Revision: archive-sha256:37d89d30ef39e93d86c9ed1aa9fcfc56f21493baa03286af8b8a012f2401a98a
-# Source SHA-256: dfb852afe1d3cf3a457f217cb47f8e08b98e8b2ec74d2b9bf597f69cd898292a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OM!LENI.ANS by Otium Man (circe05); released in circe05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: OM!LENI.ANS by Otium Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe05-om-leni
 
 Write-Host '
 [31m$$$$[0;1;31;41m$$[0;31m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m

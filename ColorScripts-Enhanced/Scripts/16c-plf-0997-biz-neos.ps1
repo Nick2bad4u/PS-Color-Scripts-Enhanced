@@ -1,18 +1,4 @@
-﻿# Converted from: BIZ-NEOS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0997/raw/BIZ-NEOS.ANS
-# Source Revision: archive-sha256:d6ce507ee095ab9c7ce1d91178b57bff0c61babde42a3957415461a430e18407
-# Source SHA-256: e103f91c5e305a7abffd00c682034fb1637bb67c3e578aa1bc02274bdc90fcf3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BIZ-NEOS.ANS by bizzarro (poffelipoff); released in plf-0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: neosporin
-# SAUCE Author: bizzarro
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19970915
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: neosporin by bizzarro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0997-biz-neos
 
 Write-Host '
       [30;47m▓[0;37;40m░░[0;30;47m▓█[0;1;30;40m [0m ░[30;47m▓[0;37;40m░[0m

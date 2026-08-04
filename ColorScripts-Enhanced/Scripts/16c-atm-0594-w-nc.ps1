@@ -1,13 +1,4 @@
-﻿# Converted from: W-NC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/atm-0594/raw/W-NC.ANS
-# Source Revision: archive-sha256:a7745e0553a5b6c51bb70e798c51baa47b7f819d65244d42098c318b7e86f80b
-# Source SHA-256: a9a9891998e3380a7918dd79d9e33153791fc89130b5a5b18acaa68e9d6e53ea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: W-NC.ANS by Willard (atm-0594); released in atm-0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: W-NC.ANS by Willard | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-atm-0594-w-nc
 
 Write-Host '
 [1m    [0m▄▄[1;30;47m░▒▓▓▓▒░[0m█[1;47m░▒▓▓▒▒░[0m▄▄    [31m▄[0;1;31;41m░▄▄▄▄▄▄▄[0;31m▄▐[0;1;31;41m▄▄[0;31m█  █[0;1;31;41m░▄▄▄▄▄▄░░[0;31m▌   [0;34m┌──[0;1;34m─────────────[0;34m────[0;1;34m─┐[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PH-PRNHA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0496/raw/PH-PRNHA.ANS
-# Source Revision: archive-sha256:ce06d33d533c0744d22c6fe5d3dd8583d43d922924a8ff4e1a6044170aa0ed46
-# Source SHA-256: 64d261dcbcee12debdab7e31d4efb97db43618d5852e7851a7cb3e431358821a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PH-PRNHA.ANS by Pharcyde (Fusion); released in fsn-0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Piranha logo
-# SAUCE Author: Pharcyde
-# SAUCE Group: Fusion
-# SAUCE Date: 19960331
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Piranha logo by Pharcyde | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0496-ph-prnha
 
 Write-Host '
      [32m  [0m

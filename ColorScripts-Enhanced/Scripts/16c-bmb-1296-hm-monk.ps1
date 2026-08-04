@@ -1,18 +1,4 @@
-﻿# Converted from: HM-MONK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-1296/raw/HM-MONK.ANS
-# Source Revision: archive-sha256:f773a389f51b5e0da0cfb005fe603efcb492346271314d84a3bbd590d27c199e
-# Source SHA-256: adc5bd61439b81db0dbe3da8011731cd8e1a862f86d562f95bcc96c45a5b3d4b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HM-MONK.ANS by head mOnk (bamboosh); released in bmb-1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: mOnk! the artboard!
-# SAUCE Author: head mOnk
-# SAUCE Group: bamboosh
-# SAUCE Date: 19961125
-# SAUCE Dimensions: 80x48
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: mOnk! the artboard! by head mOnk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-1296-hm-monk
 
 Write-Host '
      [1;34m▄▓███▓▓▄[0m     [1;35m▄▓██▓▓▄[0m [1;35m [0;34m▄▓█▓▄[0;1;35m  ▄▓███▓▄ [0;35m ▄▓█▓▄ [0;1;35m [0;1;34m▄▓▓▓▒[0m  [1;35m▄▓███[0;1;35;45m█[0;1;35;40m█▓▄▄[0m [34m       ▀▓██▓[0m

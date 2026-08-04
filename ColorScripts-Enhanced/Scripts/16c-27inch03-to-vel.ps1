@@ -1,13 +1,4 @@
-﻿# Converted from: TO-VEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch03/raw/TO-VEL.ANS
-# Source Revision: archive-sha256:faad3368b55fb434ef1208473b1dc06bfce9fe1104a0d093902743c45bd0d2f8
-# Source SHA-256: 610d236b7b033db0fd18da39b11ecc70bc07f2e034367f70cc469877231c92c9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TO-VEL.ANS by Toot (27inch03); released in 27inch03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: TO-VEL.ANS by Toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch03-to-vel
 
 Write-Host '
             [1;30m██[0m▓▓[1;30m█[0m                           ░░░░░

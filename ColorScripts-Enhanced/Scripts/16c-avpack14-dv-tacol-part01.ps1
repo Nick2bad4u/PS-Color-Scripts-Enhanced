@@ -1,17 +1,4 @@
-﻿# Converted from: DV-TACOL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack14/raw/DV-TACOL.ANS
-# Source Revision: archive-sha256:cc504a5dba52c5f998daf5493fac68a658e6668bcf22da76e3af7c67337c8c9c
-# Source SHA-256: de106714585f3bba1b8f561110389a9374c9a6e231dff5af52e1834151ae2270
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DV-TACOL.ANS by digital vampire (Apocalyptic Visions); released in avpack14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the asylum logon
-# SAUCE Author: digital vampire
-# SAUCE Group: Apocalyptic Visions
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: the asylum logon by digital vampire | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack14-dv-tacol-part01
 
 Write-Host '
 [1;30m---------------------------------------------------------------.logon.----------[0m

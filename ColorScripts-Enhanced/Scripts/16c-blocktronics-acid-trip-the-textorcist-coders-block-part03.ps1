@@ -1,18 +1,4 @@
-﻿# Converted from: the textorcist - Coders Block.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_acid_trip/raw/the%20textorcist%20-%20Coders%20Block.ANS
-# Source Revision: archive-sha256:c0717ff5cb7d462ed7fa9a55edd7235adbd3f09e01132486021497c9281171b6
-# Source SHA-256: 7f043dd5c0e0db8faf88fa7f8eff705f47742d1de95f438b754400fff8f63aa7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: the textorcist - Coders Block.ANS by The Textorcist (blocktronics); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Coders Block
-# SAUCE Author: The Textorcist
-# SAUCE Group: blocktronics
-# SAUCE Date: 20131112
-# SAUCE Dimensions: 80x183
-# Lines: 92-137
-# Columns: 1-80
+﻿# Artwork: Coders Block by The Textorcist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-acid-trip-the-textorcist-coders-block-part03
 
 Write-Host '
 [34;40m███[0;1;34;45m█████▄[0;35;44m▄[0;34;40m██[0;35;44m▀▄[0;34;40m███████[0;35;44m░░░[0;1;34;45m███[0;1;34;40m▀▀[0;34m░░[0;37m   [0;33m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░[0;34m [0;35m  [0;34m ▀▀▓▓███[0;1;34;45m▓▓▓▓█▄[0;35;44m▄[0;34;40m██[0;35;44m▀▄░░░[0m

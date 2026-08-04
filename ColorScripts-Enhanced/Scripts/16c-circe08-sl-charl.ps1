@@ -1,18 +1,4 @@
-﻿# Converted from: SL-CHARL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe08/raw/SL-CHARL.ANS
-# Source Revision: archive-sha256:cfc36d5daeed2f6543814097ace687f378a50215c24a95a0de66b512e3a41b9d
-# Source SHA-256: fa90009b343f6188f7380106b3637b25db210e0ddfe5ed8cc973fac117f0f19b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SL-CHARL.ANS by squarel00p (circe); released in circe08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: charles bronson
-# SAUCE Author: squarel00p
-# SAUCE Group: circe
-# SAUCE Date: 20000421
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: charles bronson by squarel00p | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe08-sl-charl
 
 Write-Host '
               [33m▄▄▄▀███▐██▓▓█▌█[0;1;31m██[0;33m▄[0m   [33m▄▀[0;37m [0;33m██[0m    [33m▄[0;37m [0;33m█[0;37m [0;33m███[0;37m [0;33m█[0m

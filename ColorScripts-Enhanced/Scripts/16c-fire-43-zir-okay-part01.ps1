@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-OKAY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-43/raw/ZIR-OKAY.ANS
-# Source Revision: archive-sha256:d3967e67800d0c773a52f120751caeb2bc01ead5180b478fb0a0e89978edc4ec
-# Source SHA-256: ce97961c0ca0b36aa1ffafb06afe594f3bd1b58d4f373bde13057c2d90d40ea3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-OKAY.ANS by zir (FiRE); released in fire-43 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: yep everything is okay
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20250707
-# SAUCE Dimensions: 80x126
-# SAUCE Font: IBM VGA
-# SAUCE Comments: mostly normal things. not dying inside or losing touch with real | ity or anything like that. try the noodles.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: yep everything is okay by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-43-zir-okay-part01
 
 Write-Host '
 [37;40m  [0;1;30;40m▄▄▄[0;1;30;47m▓▓[0;1;30;40m▀▀▄▄▄▓▓▓▓▓▓▄▄▄▄▄▄▄▄▄░░░▄▄▄░░[0m    [1;30m▄▄▄▄▄[0m   ░ [1;30m░░[0m   [1;30m░░[0;1;37m░[0m [1;30m░░[0m  [1;30m░░░ ░░[0m  [1;30m░░[0m [1;30m░░░[0m [1;30m░░[0m

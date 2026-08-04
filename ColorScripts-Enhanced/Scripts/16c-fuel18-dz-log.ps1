@@ -1,17 +1,4 @@
-﻿# Converted from: DZ-LOG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel18/raw/DZ-LOG.ANS
-# Source Revision: archive-sha256:7a2739e511667050683f7d648c4125b41da107e306c80c5430d3f835b8aa02d6
-# Source SHA-256: 228c04aece34afabb6940cdfc8eb514a1a725f1b6625fe9151551cf719e739b2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DZ-LOG.ANS by drawzer (fuel); released in fuel18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: logon
-# SAUCE Author: drawzer
-# SAUCE Group: fuel
-# SAUCE Dimensions: 80x25
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: logon by drawzer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel18-dz-log
 
 Write-Host '
 [1;30;47m▒░[0m████████▄[1;30m▀[0;1;30;47m▄[0m████████████████████████[1;30;47m░░░[0m▀[1;30m▄[0;1;30;47m▀ [0m█████████████████████████████████[1;30;47m░░░[0m

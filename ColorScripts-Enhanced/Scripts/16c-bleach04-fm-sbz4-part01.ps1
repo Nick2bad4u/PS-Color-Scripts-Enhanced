@@ -1,18 +1,4 @@
-﻿# Converted from: FM-SBZ4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bleach04/raw/FM-SBZ4.ANS
-# Source Revision: archive-sha256:baa32e2a78fcaeb0a7d7d4af9b9beca3cca36bb322ba39b26f818f95ee969108
-# Source SHA-256: 12b268fbafe5e6c3cc76af50e08b3952b74ff60dadf0ed67eb041638875876d8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FM-SBZ4.ANS by flood myth (bleach); released in bleach04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: sushi bar z
-# SAUCE Author: flood myth
-# SAUCE Group: bleach
-# SAUCE Date: 19950719
-# SAUCE Dimensions: 80x25
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: sushi bar z by flood myth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bleach04-fm-sbz4-part01
 
 Write-Host '
 [1;30;41m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m

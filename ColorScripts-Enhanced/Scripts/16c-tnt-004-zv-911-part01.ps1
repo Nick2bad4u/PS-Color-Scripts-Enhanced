@@ -1,13 +1,4 @@
-﻿# Converted from: zv-911.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tnt-004/raw/zv-911.ans
-# Source Revision: archive-sha256:5aef4e6c838217221fa2a589ab98341ebfa71bc0f467df6aa706b97d4e08fe3c
-# Source SHA-256: 19d1d1c07f5f37b1d4208ffdd649fc8abb91de11991a1653ad48f946375b477e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zv-911.ans by Zerovision (tnt-004); released in tnt-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: zv-911.ans by Zerovision | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tnt-004-zv-911-part01
 
 Write-Host '
 [1;30;43m▒░░[0;33m███████████████████████[0;37m▄▄[0;1;30m▀[0;1;30;43m▄▄[0;33m██[0;33;47m▄[0;37;40m▄[0;33;40m▀▀███████████████[0;37;43m▄[0;1;30;40m▀▀[0;1;30;43m▄▄[0;33m█████[0;1;30;43m░░░▒▒▓▓▓[0;1;30;40m▀▀▀▀▀[0;33m▄▄▄▄▄[0m

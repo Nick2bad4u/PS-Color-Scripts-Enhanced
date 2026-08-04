@@ -1,19 +1,4 @@
-﻿# Converted from: wz_pandemic_1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-globalblockdown/raw/wz_pandemic_1.ans
-# Source Revision: archive-sha256:72def6914c400cf448198b2a3876b5414476d859652144a1c3db260cf8838ba8
-# Source SHA-256: 073e4c2a22871cd4b7cd23d8eeb8d8a69d45dfa2ade80f0ef087197eee935de2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wz_pandemic_1.ans by Whazzit (Blocktronics); released in blocktronics-globalblockdown and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Pandemic 1 - Once More
-# SAUCE Author: Whazzit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20200412
-# SAUCE Dimensions: 80x100
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Pandemic 1 - Once More by Whazzit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-globalblockdown-wz-pandemic-1-part01
 
 Write-Host '
 

@@ -1,17 +1,4 @@
-﻿# Converted from: US-NEDLA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe08/raw/US-NEDLA.ANS
-# Source Revision: archive-sha256:cfc36d5daeed2f6543814097ace687f378a50215c24a95a0de66b512e3a41b9d
-# Source SHA-256: 549d5565c633c3f538aee93ee286c354553db42a3bd4bfecf0023cf59f51abe3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-NEDLA.ANS by Arlequin + Darkman-Circe (circe); released in circe08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: nedland
-# SAUCE Author: arlequin+darkieman
-# SAUCE Group: circe
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: nedland by Arlequin + Darkman-Circe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe08-us-nedla
 
 Write-Host '
  [35m▀[0;37m [0;35m▀[0;1;31;45m▀[0;35m▀[0;1;35;45m▀[0;35m▀[0;1;35;45m▀[0;1;30;45m▄[0;1;35;45m▀[0;35m▀[0;1;35;45m▀[0;1;30;45m▄▄[0;1;35;45m▀[0;1;35;47m▄[0;1;35;45m█▀[0;35m▀█▀█▀[0;37m  [0;31m▓█▓▓▓▒▓▒▒░▒░░[0;37m [0;31m░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: GOODBYE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansi/raw/GOODBYE1.ANS
-# Source Revision: archive-sha256:50aaa63d173fc2f34f94b8a5b526a5ee8a8b9d7908c42264ab949073e7e0edf9
-# Source SHA-256: 71a86ed787a290abfde79286fb3e73e6d6f0e99d3fb437cd9061d592c6f8cc4f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GOODBYE1.ANS by David Hartmann (ansi); released in ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: GOODBYE1.ANS by David Hartmann | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansi-goodbye1
 
 Write-Host '
                  [1;35m_─┐[0m               [1;35m┌┘[0;1;33m▄[0;1;35m└┐[0m                [1;30m_▄─__[0m

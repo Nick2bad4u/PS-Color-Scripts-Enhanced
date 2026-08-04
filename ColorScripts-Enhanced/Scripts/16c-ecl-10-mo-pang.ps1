@@ -1,17 +1,4 @@
-﻿# Converted from: MO-PANG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-10/raw/MO-PANG.ANS
-# Source Revision: archive-sha256:6734a0716f5363aecb5b8387359a704e7e1a498f17ee632abf4e9ca947f0336d
-# Source SHA-256: cca1abfc64773ffb053fc51c50482adf356b03cbf6bf981c671bd19f82e4dbd2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MO-PANG.ANS by magnatOp (elk piss); released in ecl-10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: pangelO
-# SAUCE Author: magnatOp
-# SAUCE Group: elk piss
-# SAUCE Date: 19961214
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: pangelO by magnatOp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-10-mo-pang
 
 Write-Host '
 [1;30m░░░░░[0m        [1;30m███[0m                           [1;30m▓▓▓▓▓▄▄[0m          [30;47m▓[0;1;37;47m█[0;1;37;40m▄▄▄[0m▄▄▄

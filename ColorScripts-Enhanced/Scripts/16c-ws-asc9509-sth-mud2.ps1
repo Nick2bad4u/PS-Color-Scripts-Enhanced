@@ -1,18 +1,4 @@
-﻿# Converted from: STH-MUD2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ws-asc9509/raw/STH-MUD2.ANS
-# Source Revision: archive-sha256:98e15c5095e2a719efa77edbc250a25a24728f576009726dc280dd3638f3e813
-# Source SHA-256: 3c2c94ea6c8349b6a902f68b302a4e231b1b8fd60d8a15a0e9d3416fcb902232
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STH-MUD2.ANS by seethe (READ THE INI FILE); released in ws-asc9509 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: muh name is mud
-# SAUCE Author: seethe
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950903
-# SAUCE Dimensions: 80x25
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: muh name is mud by seethe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ws-asc9509-sth-mud2
 
 Write-Host '
               [1;30m$$[0;35m  ssss$$$$$sss [0;1;33m"""$$$$$$$$$$s[0;35m    [0m

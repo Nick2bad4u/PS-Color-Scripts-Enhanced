@@ -1,18 +1,4 @@
-﻿# Converted from: TI-DIV1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy09/raw/TI-DIV1.ANS
-# Source Revision: archive-sha256:4a76e66d96462ed923b8b41dd8e01625078b4c791bda0ef6180f08638853037b
-# Source SHA-256: eb4d34c2e5366b3eaf509ddf0ea82714873d8e5f08da9ffede4aaaffb925181e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TI-DIV1.ANS by Trip (Apathy); released in apathy09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Divine Intervention template
-# SAUCE Author: Trip
-# SAUCE Group: Apathy
-# SAUCE Date: 19960418
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Divine Intervention template by Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy09-ti-div1
 
 Write-Host '
 [36m▒▒░░[0;37m [0;32m░[0;1;32m▀[0;1;37;42m▓[0;1;32;40m█▀▀▀[0;1;32;42m▓[0;1;32;40m▄▄▄[0;32m▄[0m    [36m░[0m          [36m░░░[0m   [36m░[0m                [36m░░[0m       [36m░[0m    [36m░░░[0m    [36m░░▒▒[0m

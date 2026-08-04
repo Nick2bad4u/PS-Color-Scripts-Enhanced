@@ -1,20 +1,4 @@
-﻿# Converted from: sK!boom_logo2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz16/raw/sK!boom_logo2.ans
-# Source Revision: archive-sha256:b093dd3cb06bf783d59a9df3724c51f9a41f686cd4fd545c920ada008d959f7a
-# Source SHA-256: 317fb2c5dbd00a6b6102e37758d7c6fb8da40b0f0f7bd2c1e5398fa34e41b5e4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sK!boom_logo2.ans by sIMONkING! (thelo0p^LAZARUS); released in laz16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: BOOM!
-# SAUCE Author: sIMONkING!
-# SAUCE Group: thelo0p^LAZARUS
-# SAUCE Date: 20220730
-# SAUCE Dimensions: 100x40
-# SAUCE Font: IBM VGA
-# SAUCE Comments: TeddyBeer C=64 Party Tuchola, Poland 2022
-# Lines: 1-38
-# Columns: 1-100
+﻿# Artwork: BOOM! by sIMONkING! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz16-sk-boom-logo2
 
 Write-Host '
                                      [1;30m▄▄▄███▓▓▄▄[0m

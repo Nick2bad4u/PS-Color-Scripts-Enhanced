@@ -1,19 +1,4 @@
-﻿# Converted from: ale-capitan.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hpm-04/raw/ale-capitan.ans
-# Source Revision: archive-sha256:d2c0a14e6aa186cff60c36e0afbe6cc20a83d0b801e42df0e6a8c7b44be43337
-# Source SHA-256: 853186fbb473e4a3ea19a541a1b1a8ed40db14bd9caea961f0514b1fa7a6ea41
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ale-capitan.ans by aleperez (HPM); released in hpm-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Capitan del espacio
-# SAUCE Author: aleperez
-# SAUCE Group: HPM
-# SAUCE Date: 20250917
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Capitan del espacio by aleperez | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hpm-04-ale-capitan
 
 Write-Host '
           [1m▄[0m

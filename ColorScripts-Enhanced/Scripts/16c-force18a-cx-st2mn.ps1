@@ -1,18 +1,4 @@
-﻿# Converted from: CX-ST2MN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force18a/raw/CX-ST2MN.ANS
-# Source Revision: archive-sha256:6a0f397e3657e6d033b73af64211a87e0404e38c6a0f4de7a8637861ae197039
-# Source SHA-256: ce13e8492c020d1bbf404bbd439e8710ab584bd6b91d2674e2e6d83b385c205c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CX-ST2MN.ANS by cyntax (force); released in force18a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: staesis(2)main
-# SAUCE Author: cyntax
-# SAUCE Group: force
-# SAUCE Date: 19970518
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: staesis(2)main by cyntax | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force18a-cx-st2mn
 
 Write-Host '
 [32m▄▄▄[0;32;42m█▀[0;32;40m█[0;1;32;40m██▄▄▄▌ [0;35m▀▀▀▀█[0;1;35m▄[0;35m▄▄█[0;35;43m▓░[0;33;40m▄███▄▄▓▄████[0;31;43m░▒▓[0;31;40m██▄▄▄▓████▄ [0;35;40m▐██▄█[0;1;35;45m█▄[0;1;37;45m▄[0;1;35;45m▄[0;35m▄██▄ [0;1;30mcyntax[0;32m([0;36mf[0;34mO[0;36mrce[0;31m)[0m

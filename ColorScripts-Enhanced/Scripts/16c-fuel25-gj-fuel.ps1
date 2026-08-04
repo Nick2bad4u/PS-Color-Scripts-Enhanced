@@ -1,19 +1,4 @@
-﻿# Converted from: gj-fuel.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel25/raw/gj-fuel.ans
-# Source Revision: archive-sha256:c29da20a4b03d4b9cfd5beb0ae4c26b848a9b8ba121f4b3a4bde4c0893de19b6
-# Source SHA-256: 5f534a03c915818cf7c02a102a13681761d594883b164bd3e6f9df2909bf625b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: gj-fuel.ans by grymmjack (gj!) (FUEL); released in fuel25 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Fuel and the Fury
-# SAUCE Author: grymmjack (gj!)
-# SAUCE Group: FUEL
-# SAUCE Date: 20180208
-# SAUCE Dimensions: 80x46
-# SAUCE Font: IBM VGA
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: The Fuel and the Fury by grymmjack (gj!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel25-gj-fuel
 
 Write-Host '
 [31;40m   ▄[0m        [31;40m▄█    ░░  |[0m                                       [31;40m▀▀▀[0;1;33;41m▄▄[0m  [1;33m░░[0m [31m▀▀▀▀[0m

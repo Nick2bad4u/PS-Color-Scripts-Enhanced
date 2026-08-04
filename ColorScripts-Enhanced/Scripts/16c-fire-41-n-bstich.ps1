@@ -1,19 +1,4 @@
-﻿# Converted from: N-BSTICH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/N-BSTICH.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: e81061c115a026550d11e06fd7546b94e458093a64385bf9f5eecad3f0cc5be4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-BSTICH.ANS by nail (fire); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the main man
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 20241111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: the main man by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-n-bstich
 
 Write-Host '
       [1;30;40m▄[0;1;30;47m▀[0;1;30;40m▄[0;1;30;47m▀      ░░▓▓[0;1;30;40m▓░ [0m [1;33;43m▄▓░[0;33m▓▄[0;1;30m▀█[0;1;30;47m  ░░░░░  ▀[0;1;30;40m▄▀▀▀[0m        [1;30m▄▄▄▄[0m    [1;30m▄[0m▄▄▄[1;30m▄[0m          [1;30m▀███[0m

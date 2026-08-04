@@ -1,18 +1,4 @@
-﻿# Converted from: SM!OPX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-19/raw/SM!OPX.ANS
-# Source Revision: archive-sha256:a1a349998c43bff25c02d1af200718ce6af4aab839e4b035817a369236a8260f
-# Source SHA-256: 302cbc681e6a2c5263a77b79c903aff77581e9b1f1b4b368e939f115c044ab1c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM!OPX.ANS by _sm(SIMS) (opium graphix); released in opx-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: OPX Logo
-# SAUCE Author: _sm(SIMS)
-# SAUCE Group: opium graphix
-# SAUCE Date: 19971119
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: OPX Logo by _sm(SIMS) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-19-sm-opx
 
 Write-Host '
 [1;33m░░[0m      [1;33m░[0m                  [33m▄[0;1;33m▄▄[0;1;33;43m▄[0;1;33;40m███████▄▓▄▄▓▄▄▄[0;33m▄[0;1;30m▄ [0m       [1;33m░░[0m   [1;33m░[0m          [1;33m    [0;33m▄[0;1;33m▄▄[0m

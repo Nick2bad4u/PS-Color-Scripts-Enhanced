@@ -1,16 +1,4 @@
-﻿# Converted from: %@-ICEB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0697/raw/%25%40-ICEB.ANS
-# Source Revision: archive-sha256:d190a8046767bbc429812300532b65ff0ea6e011704fc75ed31c91d378c985ff
-# Source SHA-256: ba8268b8a301b989e8d866a60c844673ee4aefafd7c72612478de6c1fce89efb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: %@-ICEB.ANS by zircus (fire); released in fire0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: icebreaker
-# SAUCE Author: zircus
-# SAUCE Group: fire
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: icebreaker by zircus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0697-iceb
 
 Write-Host '
 

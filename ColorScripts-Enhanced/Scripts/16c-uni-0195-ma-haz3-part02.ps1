@@ -1,18 +1,4 @@
-﻿# Converted from: MA-HAZ3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0195/raw/MA-HAZ3.ANS
-# Source Revision: archive-sha256:874f19df1d2975eb4a251b4e9722be66f88a94e2778db4593e3b6fbe57329d35
-# Source SHA-256: 2e6ab1988837c8bbb879898c4b65e2a25017cadc9c4a69204bdfadc25344428b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MA-HAZ3.ANS by Maestro (Maestro '95!); released in uni-0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Hazardous Transport
-# SAUCE Author: Maestro
-# SAUCE Group: Maestro '95!
-# SAUCE Date: 19950101
-# SAUCE Dimensions: 80x25
-# Lines: 42-85
-# Columns: 1-80
+﻿# Artwork: Hazardous Transport by Maestro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0195-ma-haz3-part02
 
 Write-Host '
 [33m▒▓████[0;33;47m▓[0;33;40m▄█████████████████████████[0;33;43m [0;33;40m███▓████ ▌[0;37;40m▒▓███▒▄[0;1;37;47m▒░[0m▄▄▓████▒░▒▓█▓█████ ▀▀ █ █ █

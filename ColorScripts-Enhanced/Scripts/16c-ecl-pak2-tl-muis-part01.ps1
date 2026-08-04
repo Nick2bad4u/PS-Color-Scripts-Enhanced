@@ -1,18 +1,4 @@
-﻿# Converted from: TL@MUIS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak2/raw/TL%40MUIS.ANS
-# Source Revision: archive-sha256:c83fd66fd5682c2a8b3a34174fe62c7584ac006f8517d86002eef3fdd8671285
-# Source SHA-256: b1e1f59074de3644ebef6195948f1d7d0a7464ad66265437a8c040c8611f92ee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TL@MUIS.ANS by timeless (ecolove); released in ecl-pak2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: a mouse ..
-# SAUCE Author: timeless
-# SAUCE Group: ecolove
-# SAUCE Date: 19971225
-# SAUCE Dimensions: 80x51
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: a mouse .. by timeless | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak2-tl-muis-part01
 
 Write-Host '
                                                  ▄▄▄▄▄▄

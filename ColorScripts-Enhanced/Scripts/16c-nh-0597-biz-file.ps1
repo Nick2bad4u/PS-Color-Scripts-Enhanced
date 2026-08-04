@@ -1,18 +1,4 @@
-﻿# Converted from: BIZ-FILE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nh-0597/raw/BIZ-FILE.ANS
-# Source Revision: archive-sha256:87cec95111e4a1ac9fd985bbb75e4ede9867484f10b0355a7e43919af699000f
-# Source SHA-256: 274c9897b4199b87afde47f2ac2c2cdf0c966d9c3749c7a3d450cec8d9a0d710
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BIZ-FILE.ANS by bizzarro (nH!); released in nh-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: "kladd" for funeral fog..
-# SAUCE Author: bizzarro
-# SAUCE Group: nH!
-# SAUCE Date: 19970411
-# SAUCE Dimensions: 80x15
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: "kladd" for funeral fog.. by bizzarro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nh-0597-biz-file
 
 Write-Host '
 [1;34;44m▓▓▀[0;1;34;40m▀[0;34m▀  [0;1;34;44m▀[0;1;34;40m▀▀█[0;1;34;44m▄[0;34m▄[0;33m [0;1;34m▀██▀[0;34m▌[0;37m [0;1;34m▄█[0;1;34;44m▓▓░[0;1;34;40m ▐▄▐[0;1;34;44m▀[0;34m▀▄▌[0m       [1;34m [0m

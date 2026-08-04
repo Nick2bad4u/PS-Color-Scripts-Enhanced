@@ -1,18 +1,4 @@
-﻿# Converted from: NR-NITRO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dvs-0995/raw/NR-NITRO.ANS
-# Source Revision: archive-sha256:c96846922be7282bb4d52b30c2de2b6fb138adce3b4626045c7cf1eb7216d3fd
-# Source SHA-256: 0bdb2745536d0953fdb2aa47aa5d630535489bf90a7da54c3d0c2064cdab4a39
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NR-NITRO.ANS by Nero (DeviouS); released in dvs-0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Nitrogen
-# SAUCE Author: Nero
-# SAUCE Group: DeviouS
-# SAUCE Date: 19950822
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: Nitrogen by Nero | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dvs-0995-nr-nitro
 
 Write-Host '
                                       [1;34m▄[0;34m▄▄[0;1;34;44m░[0;34m▄■[0;1;30m·[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: VS-ACID2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0395/raw/VS-ACID2.ANS
-# Source Revision: archive-sha256:c61de425dfa6c17c15d8c7a3f501188ae0f41871982f3a874a318b2cadecd44e
-# Source SHA-256: f5ff77a1ea7e83c8d4eb0f1e34deb89d734b606ec4dea71f034ecf9f3baf0225
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VS-ACID2.ANS by Vision (ACiD Productions); released in acdu0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: "Making the competition scream..."
-# SAUCE Author: Vision
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950301
-# SAUCE Dimensions: 80x82
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: "Making the competition scream..." by Vision | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0395-vs-acid2-part01
 
 Write-Host '
 

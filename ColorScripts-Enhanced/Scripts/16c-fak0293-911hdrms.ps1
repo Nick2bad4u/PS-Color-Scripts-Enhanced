@@ -1,13 +1,4 @@
-﻿# Converted from: 911HDRMS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fak0293/raw/911HDRMS.ANS
-# Source Revision: archive-sha256:f38489726ba4330bb15d4808ecfdffcee68a45c9eabd27aa903ef6b22da8f95c
-# Source SHA-256: eaa64eb14dae4969e3a0215bd9ced7be641bfc0b8cbf4eb12930aac332619c1c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 911HDRMS.ANS by Straight Jacket (fak0293); released in fak0293 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: 911HDRMS.ANS by Straight Jacket | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fak0293-911hdrms
 
 Write-Host '
                                 [31;41m [0;31;40m█[0m

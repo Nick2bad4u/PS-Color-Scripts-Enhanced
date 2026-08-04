@@ -1,19 +1,4 @@
-﻿# Converted from: MB-VASNK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amb-0002/raw/MB-VASNK.ANS
-# Source Revision: archive-sha256:ddf2bfb6c349501ad0002133992d1d3c9602291731a9f4cef0d5ef9af30b761f
-# Source SHA-256: 253f9b8b3c878ea0be5612cafb625fab9e51af4865485dd9d5dd8543f89f9fe5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MB-VASNK.ANS by MADBiT (AMBUSH Productions); released in amb-0002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Vasniak-O-Matic
-# SAUCE Author: MADBiT
-# SAUCE Group: AMBUSH Productions
-# SAUCE Date: 19961028
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: This is the layout for "Vasniak-O-Matic", a joke PPE being run | in Fort Apache. =)
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Vasniak-O-Matic by MADBiT | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amb-0002-mb-vasnk
 
 Write-Host '
 [1;30m▀▀▓▀▀■▀▀▓▀■▀▀▀▀▓▀■▀▓▀■▀▓▀▀▓▀▀■▀■▀▀■▀▀▓▀■ ▄▓▒ ▀ ▀[0m [1;30m ▀▓▀▀▓▀■▀■▓▀▀▀■▓▀▀▀▓ [0;32m█[0;1;30m ■▀▓▀▀■[0m

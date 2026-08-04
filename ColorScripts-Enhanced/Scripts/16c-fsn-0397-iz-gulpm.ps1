@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-GULPM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0397/raw/IZ-GULPM.ANS
-# Source Revision: archive-sha256:0bbae31e52a4c1ad24c4bfa8a6bfcd082f750141f70c56dfd02f65c0d93bbb46
-# Source SHA-256: e2b3a8daa6349631b4fe5302b719981825b58957bf967ae8bf542b4a0dfe5e4a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-GULPM.ANS by izey (fusion); released in fsn-0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: gulp
-# SAUCE Author: izey
-# SAUCE Group: fusion
-# SAUCE Date: 19970201
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: gulp by izey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0397-iz-gulpm
 
 Write-Host '
                  [33m▀▀[0;1;37m▀▀▀[0;1;37;43m▀▀█▄[0;1;37;40m▄▄[0;33m▄▄[0;31m  [0;33mGulp[0m

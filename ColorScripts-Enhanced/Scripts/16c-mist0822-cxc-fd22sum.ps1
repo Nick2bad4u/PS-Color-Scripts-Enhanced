@@ -1,19 +1,4 @@
-﻿# Converted from: CXC_FD22SUM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0822/raw/CXC_FD22SUM.ANS
-# Source Revision: archive-sha256:ed72a43421208b7431337d20b0e65cf1daa85d400f3cf90754e23de5d5edd83f
-# Source SHA-256: 4d7b5bcf16381c050334466b5a7b617afb08b95f3f1b1c1806875a888939e89f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CXC_FD22SUM.ANS by CoaXCable (Mistigris); released in mist0822 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Forn Data 2022 Summer
-# SAUCE Author: CoaXCable
-# SAUCE Group: Mistigris
-# SAUCE Date: 20220821
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Forn Data 2022 Summer by CoaXCable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0822-cxc-fd22sum
 
 Write-Host '
 [36m██████████████████████████████████████████████████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀██[0m

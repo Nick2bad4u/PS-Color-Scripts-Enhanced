@@ -15,6 +15,7 @@ ColorScripts-Enhanced is a mature module and a large, curated ANSI-art collectio
 - ANSI conversion, splitting, duplicate detection, corpus validation, and release automation
 - Resumable 16colors and Roy archive inventory with rendered-cell deduplication and interactive visual review
 - Hash-locked content, contact, geometry, and adult-policy review ledgers for the retained gallery
+- Repository-only authoritative artwork provenance with compact per-script links and a generated web details index
 
 ## Active Maintenance Priorities
 
@@ -55,7 +56,7 @@ These are candidates, not commitments:
 - richer gallery/search tooling over exported metadata;
 - better preview and visual-QA tooling for converted ANSI art;
 - additional terminal and font compatibility fixtures;
-- contributor-facing provenance templates for art imports;
+- schema-backed provenance-template validation and editor assistance;
 - clearer reporting for partial translations;
 - performance benchmarks that measure real renderer/cache paths without claiming universal multipliers.
 
@@ -74,4 +75,4 @@ Useful starting points:
 
 ---
 
-_Last reviewed: July 28, 2026_
+_Last reviewed: August 4, 2026_

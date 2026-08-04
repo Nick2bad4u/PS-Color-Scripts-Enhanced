@@ -1,13 +1,4 @@
-﻿# Converted from: NEPTUNE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-n/raw/NEPTUNE.ANS
-# Source Revision: archive-sha256:c71a317bef22d5118244ba95f552871899d98097e115e94b35d9631800ce0aa2
-# Source SHA-256: 7254e5d2bbb225aa8d42670b9a976385bfec91d64b09a1b9b996f5ad0038250e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NEPTUNE.ANS by Ray Sulich (ansis-n); released in ansis-n and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: NEPTUNE.ANS by Ray Sulich | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-n-neptune
 
 Write-Host '
 [44m  [0;1;33;45m■[0;1;33;41m═══════════════════[0;1;33;45m■[0;1;33;41m═══════════════════[0;1;33;45m■[0;1;33;44m           [0;44m°                         [0m

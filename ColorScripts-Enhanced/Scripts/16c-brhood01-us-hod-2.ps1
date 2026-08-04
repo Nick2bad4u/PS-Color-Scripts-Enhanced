@@ -1,18 +1,4 @@
-﻿# Converted from: US-HOD#2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/brhood01/raw/US-HOD%232.ANS
-# Source Revision: archive-sha256:49545c574175e2e8b1228abad2aa6d170e196315bd4f0b310c2e4952f3479341
-# Source SHA-256: 4bcb7739b83d36d9da758164988696cf143c0b4298dbe1a22b11f848af5ee925
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-HOD#2.ANS by Big Yellow Man + Spirit Of Rage (groupless); released in brhood01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: h00d
-# SAUCE Author: sor + bym
-# SAUCE Group: groupless
-# SAUCE Date: 19981029
-# SAUCE Dimensions: 80x44
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: h00d by Big Yellow Man + Spirit Of Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-brhood01-us-hod-2
 
 Write-Host '
                         ▌                       [36m▄[0;1;36m▄▄▄[0;36m▄[0m     [37m▐[0m        [37m   [0m

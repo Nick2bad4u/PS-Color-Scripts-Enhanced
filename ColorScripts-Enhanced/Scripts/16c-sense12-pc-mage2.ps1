@@ -1,18 +1,4 @@
-﻿# Converted from: PC-MAGE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense12/raw/PC-MAGE2.ANS
-# Source Revision: archive-sha256:72a1d185ef815e3805a380072164234a2a5581149ba3dc403bf27328a83a059a
-# Source SHA-256: 87d37b5e1e49528c28fbe82bf2d0e9cc5ff65df0d12ece0c291305b044df04a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-MAGE2.ANS by Proctologist (SeNSE); released in sense12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Mages
-# SAUCE Author: Proctologist
-# SAUCE Group: SeNSE
-# SAUCE Date: 19980716
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: The Mages by Proctologist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense12-pc-mage2
 
 Write-Host '
        [32m,$#g╖,_[0m                         [35m.[0m            [32m_____[0m

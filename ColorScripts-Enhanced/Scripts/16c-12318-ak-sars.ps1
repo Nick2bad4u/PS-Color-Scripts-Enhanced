@@ -1,13 +1,4 @@
-﻿# Converted from: AK-SARS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/12318/raw/AK-SARS.ANS
-# Source Revision: archive-sha256:8359e16f49f42e2c460172ce01977fb5fbee410f8f2dd001d4cfcdb4bcff56f5
-# Source SHA-256: a707143bfa1db680d0693fa1ec9e48458ab39fff3d577331e4b09aebec7fd750
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-SARS.ANS by Abstrakt (12318); released in 12318 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: AK-SARS.ANS by Abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-12318-ak-sars
 
 Write-Host '
 

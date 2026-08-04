@@ -1,18 +1,4 @@
-﻿# Converted from: TK-01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rags2r2a/raw/TK-01.ANS
-# Source Revision: archive-sha256:b6fe4ad2710b940b9fc065cc3d8845bc48a34f58dd8c5b1b55d6bd7f8162e058
-# Source SHA-256: ab39ac610870e5bfd3db0abe28419e4db1027351bba989a9d681048377bd171f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TK-01.ANS by TK (.rAGS 2 rICHES.); released in rags2r2a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: "The Knight ... rAG nUMBAH 0NE?"
-# SAUCE Author: TK
-# SAUCE Group: .rAGS 2 rICHES.
-# SAUCE Date: 19970629
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: "The Knight ... rAG nUMBAH 0NE?" by TK | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rags2r2a-tk-01
 
 Write-Host '
                                       [33m░▒▓▓▓▒░ ░▒▓▓▒░ ░▒▓█▓▒░ ░▒▓▓░░▒▓▓▓▒░[0m

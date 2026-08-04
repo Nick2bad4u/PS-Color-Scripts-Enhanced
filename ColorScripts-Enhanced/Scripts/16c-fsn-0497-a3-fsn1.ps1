@@ -1,17 +1,4 @@
-﻿# Converted from: A3-FSN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0497/raw/A3-FSN1.ANS
-# Source Revision: archive-sha256:0a24528ad1b8350dc6275ed84884990aa181682392c532082994d5872ceb5801
-# Source SHA-256: ee3e5e53d92d06def2bb81202675563910164e8540299e1f2453937ece1166bd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: A3-FSN1.ANS by absence (fsn-0497); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fusion
-# SAUCE Author: absence
-# SAUCE Date: 19970326
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: fusion by absence | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0497-a3-fsn1
 
 Write-Host '
    [31m░[0m                   [31m░░[0m                    [31m░[0m       [31m▄ [0;37m [0;31m▄▄▄▄▄[0;37m [0;1;37m░[0m [31m [0m   [1;37m░░░[0m  [1m▄ [0m  [1m░[0m

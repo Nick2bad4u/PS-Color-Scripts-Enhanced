@@ -1,19 +1,4 @@
-﻿# Converted from: ODD-SPIRIT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1220/raw/ODD-SPIRIT.ANS
-# Source Revision: archive-sha256:7b66b2cfb79216f099f22989bbfdbaed6011518fbd677e1a8e92c15c7fe1620a
-# Source SHA-256: 43fd31ca1aa31ba3d4b805e598095d4e88013126efab6d67ef83f15f5f09fb73
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ODD-SPIRIT.ANS by OddManBoi (Mistigris); released in mist1220 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Holiday Spirit boss fight
-# SAUCE Author: OddManBoi
-# SAUCE Group: Mistigris
-# SAUCE Date: 20201220
-# SAUCE Dimensions: 120x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-120
+﻿# Artwork: Holiday Spirit boss fight by OddManBoi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1220-odd-spirit
 
 Write-Host '
 [33m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

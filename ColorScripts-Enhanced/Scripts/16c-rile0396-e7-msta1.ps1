@@ -1,18 +1,4 @@
-﻿# Converted from: E7-MSTA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile0396/raw/E7-MSTA1.ANS
-# Source Revision: archive-sha256:aa9dd90720d227515e11bc1d46c3e84a97b4668c1c9167ba7ef2915a41619b06
-# Source SHA-256: d03222ccca3e2c3eea884a4ba88347ec5422561ce41d49794775e8b9d12d5f83
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: E7-MSTA1.ANS by Vertigo (Rile); released in rile0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Mista
-# SAUCE Author: Vertigo
-# SAUCE Group: Rile
-# SAUCE Date: 19960227
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Mista by Vertigo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile0396-e7-msta1
 
 Write-Host '
  [33m [0;30;43m▀▀[0;33;40m ▀░▀██▄ ▄▄[0m               [34;40m   [0;33;40m▄▄▄[0;1;33;43m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄       ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;33m▄▄▄[0;34m   [0m

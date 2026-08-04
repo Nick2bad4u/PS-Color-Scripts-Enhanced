@@ -1,13 +1,4 @@
-﻿# Converted from: B-TAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/atm-0793/raw/B-TAL.ANS
-# Source Revision: archive-sha256:2791ea7960360c43fee92e39a37f109c33350847675dee72209056037e0dfd3e
-# Source SHA-256: 82fed2c655159b08d7b47d26c6e4e930d1e0ce2b7b505b758713eb576b784dd7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: B-TAL.ANS by Bjorn (atm-0793); released in atm-0793 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: B-TAL.ANS by Bjorn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-atm-0793-b-tal
 
 Write-Host '
                                [1;33m▄▄  [0;1;33;43m▒[0m                         [1;30;40m█▓▒▒▒▒░░░░░▒▒▒░▒░░[0m

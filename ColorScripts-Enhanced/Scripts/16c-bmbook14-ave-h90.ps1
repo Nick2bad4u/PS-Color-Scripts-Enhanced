@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-H90.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook14/raw/AVE-H90.ANS
-# Source Revision: archive-sha256:f7fe2a62d3e7b3b16687ce251209098ea8d86719a4cfa33dae1489e0c9af9278
-# Source SHA-256: 734f32aed4a41b7a2c7eea97ce5839348824c42bffcdd85733d099440a56fdf4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-H90.ANS by avenger (black maiden); released in bmbook14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hazard/2
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19970629
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: hazard/2 by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook14-ave-h90
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: SN-TOON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-15/raw/SN-TOON.ANS
-# Source Revision: archive-sha256:409ec45d4d8a58bbd858f19a2194e4a9e60ce3a5a22824158eb9e0a6b60e9226
-# Source SHA-256: 15e497c8a1344e2b9960aff711cdeae0f3352d8967629f266ef5bc6ee5aa97f0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SN-TOON.ANS by 5now8a11 (Ecolove); released in eco-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Shitty Cartoon Colly
-# SAUCE Author: 5now8a11
-# SAUCE Group: Ecolove
-# SAUCE Date: 19990609
-# SAUCE Dimensions: 80x105
-# Lines: 41-70
-# Columns: 1-80
+﻿# Artwork: Shitty Cartoon Colly by 5now8a11 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-15-sn-toon-part02
 
 Write-Host '
 [37m [0;1;32m█[0;1;33m▄▄[0;1;31m▄[0;31m▀[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: TB!TGH!0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toon0795/raw/TB!TGH!0.ANS
-# Source Revision: archive-sha256:bbccc4a82016f54ecf3d0de5a108241c8f74bda668aff69f0bedbbe0a900b9a1
-# Source SHA-256: fa2a3a85e887556d888d737fbad2f0fb7fc6cb4796874f2a19b2ba8a0ce1c5f7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TB!TGH!0.ANS by Tribe & Green Hornet (Toon); released in toon0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fluxland
-# SAUCE Author: Tribe & Green Hornet
-# SAUCE Group: Toon
-# SAUCE Date: 19950623
-# SAUCE Dimensions: 80x99
-# Lines: 50-99
-# Columns: 1-80
+﻿# Artwork: Fluxland by Tribe & Green Hornet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toon0795-tb-tgh-0-part02
 
 Write-Host '
 [34m█ [0;1;37m████████████████████[0;1;37;47m█[0;1;37;40m██[0;1;37;47m██▄[0;1;37;40m███[0;1;37;47m▄▄[0m█▄▄▄[1;31m▀▀▀▀[0;1;37m▄▄▄▄████████████████[0;1;37;47m▀▀▀  [0;1;37;40m███████████▌[0;1;34;40m▐[0m

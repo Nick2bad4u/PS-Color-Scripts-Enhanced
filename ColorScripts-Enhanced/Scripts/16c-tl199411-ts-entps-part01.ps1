@@ -1,13 +1,4 @@
-﻿# Converted from: TS-ENTPS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl199411/raw/TS-ENTPS.ANS
-# Source Revision: archive-sha256:2327064d2e76a821c0fb598daa2f23a5d0c76b4b5b5337e012c8056f0db5f107
-# Source SHA-256: c9b76d3aef8854c6d6e3cd1a1e13f509295e39e1a5d81f5de041292da74885a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-ENTPS.ANS by Ts (tl199411); released in tl199411 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: TS-ENTPS.ANS by Ts | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl199411-ts-entps-part01
 
 Write-Host '
                   [1;30m·[0m

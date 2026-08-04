@@ -1,18 +1,4 @@
-﻿# Converted from: GJ-DNESS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus04/raw/GJ-DNESS.ANS
-# Source Revision: archive-sha256:4a57ed6764f9ffca39ae941548ed0ed0ba98ce6594de23a7788152f10b7f60a4
-# Source SHA-256: 81e8fa33272de9a173f3179e37de816698e84bfea7be1df1f0a28c56355d9f9e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GJ-DNESS.ANS by grymmjack(gj!) (fokus fonting); released in fokus04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: darkness doorgame
-# SAUCE Author: grymmjack(gj!)
-# SAUCE Group: fokus fonting
-# SAUCE Date: 19990509
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: darkness doorgame by grymmjack(gj!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus04-gj-dness
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: PA-ICE6.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9709a/raw/PA-ICE6.ICE
-# Source Revision: archive-sha256:85ac9952151d7c030fafa5887a3bdbf1b6ec9e7a75d45cafbc83b70fbc73dd3a
-# Source SHA-256: 3a055010f2a10a442740ffb8e2521c4df10bb9042b357bebea9c1d096e5fdb46
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PA-ICE6.ICE by Parasite (ice9709a); released in ice9709a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: PA-ICE6.ICE by Parasite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9709a-pa-ice6
 
 Write-Host '
 [34m  ▄[0;1;34m▄▄[0;34m▄▐██[0;1;34;44m▒▒░░░[0;34m█▀▄▄[0;1;34;44m░░░[0;34m██████▀[0;1;34;44m░░[0;34m█[0;1;34;44m░[0;34m███[0;1;34;44m░░░░[0;34m██[0;1;34m▒[0;34m███████[0;1;34m▒[0;30;44m░░[0;34;40m██[0;30;44m░[0;34;40m█[0;1;34;44m ░░░░[0;34m██████████▀█[0;1;34;44m░▒▒░[0;34m█[0;30;44m░▒[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: CG-BIO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense11j/raw/CG-BIO1.ANS
-# Source Revision: archive-sha256:9c1c7edf0d14ae95ae7a9cfcfa9322814b13baa95c33699852fa04d6685f708d
-# Source SHA-256: b62bc122f668bdf8718dfe698106ee3aed556e913066917e44925d3f895353b6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-BIO1.ANS by cryogenic (sense); released in sense11j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: biohazard
-# SAUCE Author: cryogenic
-# SAUCE Group: sense
-# SAUCE Date: 20020913
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: biohazard by cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense11j-cg-bio1
 
 Write-Host '
      [1;34m▄▄[0;34m▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: GK-GATES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dcr0194/raw/GK-GATES.ANS
-# Source Revision: archive-sha256:dcfb9db1289c69a4466e53b21ca84e387d9027fec37a38e17f8268683995d7e4
-# Source SHA-256: 2d0148a76ab7a7941aff4e98ac398fa73336774b574beac186da0fa653e20d07
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GK-GATES.ANS by Gatekeeper (dcr0194); released in dcr0194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: GK-GATES.ANS by Gatekeeper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dcr0194-gk-gates
 
 Write-Host '
                        [1m▄▓▓▓▒░░[0;1;30m▒▒▓▀[0m       [1;30m▀▓▒▒▒[0;1m░▒▒▒▓▓▓▓▄[0m

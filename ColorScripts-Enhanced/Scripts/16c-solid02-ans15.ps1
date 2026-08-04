@@ -1,13 +1,4 @@
-﻿# Converted from: ANS15.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/solid02/raw/ANS15.ANS
-# Source Revision: archive-sha256:0b307e515d601f2deca75bbf6ded264aebabfcc579546d0b6fb4272331d7e039
-# Source SHA-256: 1cf88ad2af14098ba784d4bbf21efa03215883c1aa656e6c13ec2bede4dc4353
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ANS15.ANS by Surreal (solid02); released in solid02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: ANS15.ANS by Surreal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-solid02-ans15
 
 Write-Host '
 [36m══════════════════╦╦╦╦╗[0;32m ▄[0;1;32m▄[0;1;32;47m▀▀[0;1;32;40m▄[0;32m  [0;36m═══════════════════════════════════════════════[0m

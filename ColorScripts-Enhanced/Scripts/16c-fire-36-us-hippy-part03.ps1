@@ -1,19 +1,4 @@
-﻿# Converted from: US-HIPPY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-36/raw/US-HIPPY.ANS
-# Source Revision: archive-sha256:43e7d46e56dc094cf8502b299dcd82ee875dea0a064a36248f4e6c844180fd25
-# Source SHA-256: c3bfed361921bcdb5e63bd1c5b4400c8fba3edce08b203f2b6861e2b62f0fe18
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-HIPPY.ANS by Avg + Tainted (fire); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the munchies
-# SAUCE Author: tainted / avg
-# SAUCE Group: fire
-# SAUCE Date: 20230303
-# SAUCE Dimensions: 80x143
-# SAUCE Font: IBM VGA
-# Lines: 94-143
-# Columns: 1-80
+﻿# Artwork: the munchies by Avg + Tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-36-us-hippy-part03
 
 Write-Host '
 [1;31;40m▓▓[0;1;31;46m▄[0;1;31;40m▄[0m [1;31m▓▓▓▓▓▐▓▓▓▓[0m [36m▄[0;1;31m▄▄[0m    ░░░░[1;30m▄[0m [1;30m▀█▀[0;33m▄▄[0;1;30m▀▄[0m [32m▄[0;37m [0;1;30m▄▄▄██[0m [1;47m■[0m▀ ▄[1;30m▀▀[0m  [1;30m▄[0;1;30;47m▀▀[0;1;37;47m [0m▄[1m▄[0;1;30m▀[0m [33m▀▀[0;1;31;43m   ▀[0;1;31;40m▓▓▓[0;1;31;43m▄[0;1;31;40m▄[0;33m▄[0;37m [0;33m▀▀▄[0;1;31;43m█[0;1;31;40m█[0m

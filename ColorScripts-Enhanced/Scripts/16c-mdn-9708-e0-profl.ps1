@@ -1,18 +1,4 @@
-﻿# Converted from: E0-PROFL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9708/raw/E0-PROFL.ANS
-# Source Revision: archive-sha256:3376fc365de5181233b813e877de1cd710dc83f3caddf0e27d10d8d02107f39f
-# Source SHA-256: 31d6867e4668fa3469311943b14595ecb0b346b8c26f0cca24ca62562ca946a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: E0-PROFL.ANS by enzo (Cia Productions); released in mdn-9708 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Profile v1.0b
-# SAUCE Author: enzo
-# SAUCE Group: Cia Productions
-# SAUCE Date: 19970717
-# SAUCE Dimensions: 80x15
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: Profile v1.0b by enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9708-e0-profl
 
 Write-Host '
 [1;33m[0m[1;32m[0m[1m[0m                  [1;30m   [0m                            ▄[1m▄▄▄[0;1;33m▄[0m ▄[1m▄[0m      ▄[1m▄▄▄[0;1;33m▄[0m ▄[1m▄▄▄▄[0m

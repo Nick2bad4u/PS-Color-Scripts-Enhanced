@@ -1,18 +1,4 @@
-﻿# Converted from: US-SS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-11/raw/US-SS.ANS
-# Source Revision: archive-sha256:1dfdff2a149d7c508dd5217b2507a6f6de57b0b50768db84824a6336603554b3
-# Source SHA-256: 8bc9ed68a0ec7f85f5b42b55375b0c9e97d1f3e1eee52d0eeccb3b21cd6965fa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SS.ANS by Cleaner + Avenging Angel (Force / Ecolove); released in eco-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: SS Matrix
-# SAUCE Author: Cleaner / Ave_Angel
-# SAUCE Group: Force / Ecolove
-# SAUCE Date: 19980929
-# SAUCE Dimensions: 80x25
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: SS Matrix by Cleaner + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-11-us-ss
 
 Write-Host '
 [34m░[0;30;44m▓[0;34;40m░[0;30;44m▓▓█████[0;34;40m░[0;30;44m▓[0;34;40m░[0;30;44m▓[0;34;40m░[0;30;44m███████████████[0;34;40m░[0;30;44m▓[0;34;40m░[0;30;44m▓▓██████[0;33;40m [0;1;33;43m▐█[0;1;37;43m██[0;1;33;43m████████▀[0;1;33;40m▓▓[0;1;33;43m▓▓▒▒░░     ░░▓▓[0;33m▄[0;1;33;43m░▒▓[0;1;37;43m██[0;1;33;43m▄[0;33m▄[0m

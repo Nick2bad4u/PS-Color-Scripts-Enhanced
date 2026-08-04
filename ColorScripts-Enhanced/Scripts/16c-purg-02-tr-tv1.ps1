@@ -1,13 +1,4 @@
-﻿# Converted from: TR-TV1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-02/raw/TR-TV1.ANS
-# Source Revision: archive-sha256:13a6a5336de8c729c09f9c49d168aa7729cddadf417f85218af7276fcb803af7
-# Source SHA-256: e4aeaf44c815db88e6ae94ec480481ec456d7ec2d3d3af6189ea3d555ce9bd80
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-TV1.ANS by The Reaper (purg-02); released in purg-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: TR-TV1.ANS by The Reaper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-02-tr-tv1
 
 Write-Host '
                        [1;30m▄█▀▀▀▀▀▀▀▀▀▀▀▀▀█▄ [0;1;37m          [0m

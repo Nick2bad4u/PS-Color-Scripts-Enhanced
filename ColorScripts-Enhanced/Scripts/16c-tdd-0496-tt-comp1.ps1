@@ -1,13 +1,4 @@
-﻿# Converted from: TT-COMP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tdd-0496/raw/TT-COMP1.ANS
-# Source Revision: archive-sha256:e39cb58dd97a963ca2842d090864750adebc6aee5ed43d58b324a5ab270fe5a7
-# Source SHA-256: 12688c533c88779ec7f5a9c80c75504110a56aa43e1e8fdcf59232d5013c0351
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TT-COMP1.ANS by Trust (tdd-0496); released in tdd-0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: TT-COMP1.ANS by Trust | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tdd-0496-tt-comp1
 
 Write-Host '
 [1m███▓████▓█▄▀█▀▄███████▀[0;36m▄██[0;1;36;46m░  [0;36m███▄[0;1;37m▀██▓██████▀███████▓█▀▀[0;36m▄▄█[0;1;36;46m▄[0;36m██[0;1;36;46m░ ▄ [0;36m██[0;1;36;46m▀▄[0;36m█[0;1;36;46m██▄▓▄▀[0;36m███[0m

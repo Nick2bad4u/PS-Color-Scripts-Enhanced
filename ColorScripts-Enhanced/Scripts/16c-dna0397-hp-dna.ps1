@@ -1,13 +1,4 @@
-﻿# Converted from: HP-DNA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dna0397/raw/HP-DNA.ANS
-# Source Revision: archive-sha256:e1a4a5668c5ecdfaceffae094b291f77d84772de2eb8e1772dc5072c38cdc6bb
-# Source SHA-256: 7e7cac4946d603e9bdb1f69d3d569435d5cd5c6b7027ceeb4d824786b85cb52b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HP-DNA.ANS by Hypno (dna0397); released in dna0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: HP-DNA.ANS by Hypno | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dna0397-hp-dna
 
 Write-Host '
  [32m░ ░ ░[0m      [32m░░  ░  [0;30;42m▓[0;37;40m  [0;32;40m░[0m        [32;40m░░  [0;30;42m▓█[0;32;40m░ [0;30;42m▓[0;37;40m [0;32;40m░  [0;30;42m▓[0;32;40m░ [0;30;42m▓[0;37;40m [0;32;40m░  ░ [0;30;42m▓▓[0;37;40m [0;32;40m░  [0;30;42m▓▒▓[0;37;40m  [0;1;30;40mhP@dNA  [0;32m░[0m     [32m░[0m

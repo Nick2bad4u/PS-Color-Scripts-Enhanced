@@ -1,13 +1,4 @@
-﻿# Converted from: 2003 - 02 - TCF-100%.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tcf20/raw/2003%20-%2002%20-%20TCF-100%25.ANS
-# Source Revision: archive-sha256:af8609219fccc484668fb405a7f1d45efb8c574501a461c5c1b47d87a12921ce
-# Source SHA-256: cb5e36a709839cf5b0b5350e420f050a32028cf4ec8d31ff0e2ef87ee34e4e7f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2003 - 02 - TCF-100%.ANS by The Creep Fever (tcf20); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: 2003 - 02 - TCF-100%.ANS by The Creep Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tcf20-2003-02-tcf-100-part01
 
 Write-Host '
 

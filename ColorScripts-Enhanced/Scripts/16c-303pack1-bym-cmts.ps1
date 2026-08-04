@@ -1,18 +1,4 @@
-﻿# Converted from: BYM%CMTS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/303pack1/raw/BYM%25CMTS.ANS
-# Source Revision: archive-sha256:d96bc08a467a2a6ea2a6e843ebd49b97b1020499b45630ef796714f352c9da8a
-# Source SHA-256: 730d7be869f6fc026925ac2eef0786385ddc379e1e69de3b96199535f18155b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM%CMTS.ANS by big y3llow man (phobia); released in 303pack1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: shamera key - comets
-# SAUCE Author: big y3llow man
-# SAUCE Group: phobia
-# SAUCE Date: 19970309
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: shamera key - comets by big y3llow man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-303pack1-bym-cmts
 
 Write-Host '
   [31m [0m            [1;31m▀▌[0m          [30;45m▓▓[0m                              [30;45m▓▓[0m

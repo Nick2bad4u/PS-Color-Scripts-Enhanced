@@ -1,18 +1,4 @@
-﻿# Converted from: 13-CRYPT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0797/raw/13-CRYPT.ANS
-# Source Revision: archive-sha256:94b9d74f23cef45b7f0e0cddc6ad7ce59eed15dd66ca41ed74c0005a3af14ca4
-# Source SHA-256: 6ff25ff04099c0ffe6f736d5a54379acca7808dd41c23a45cc64aa5aeeb9b26a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 13-CRYPT.ANS by 13 (fire); released in fire0797 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: nail's crypt
-# SAUCE Author: 13
-# SAUCE Group: fire
-# SAUCE Date: 19970515
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: nail's crypt by 13 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0797-13-crypt
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: PX-PRIME.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/prz-9607/raw/PX-PRIME.ANS
-# Source Revision: archive-sha256:c9c5cc7ecf1f26596c4d88f592166c82d585c7e5de1be5fa6d5e25ebed6d7d14
-# Source SHA-256: 0a29ebe04b5a953e0e6db601994d636e63a087f727c5f72671952d16b7dc52c0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PX-PRIME.ANS by perplexer (pharazoone); released in prz-9607 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: prime
-# SAUCE Author: perplexer
-# SAUCE Group: pharazoone
-# SAUCE Date: 19960517
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: prime by perplexer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-prz-9607-px-prime
 
 Write-Host '
                                      [1;33m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: e0-dank.ice
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-200208/raw/e0-dank.ice
-# Source Revision: archive-sha256:8266cb0c83bed6dfb88c70a84c59bfe21a823cfea9ed9899f924b07278ea02a4
-# Source SHA-256: b752f8b9e3ea047b4dcbbd0692033aff845f05995a1d62e16177591c130c4c15
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: e0-dank.ice by Enzo (iCE Advertisements); released in ice-200208 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Dank logon
-# SAUCE Author: Enzo
-# SAUCE Group: iCE Advertisements
-# SAUCE Date: 20020904
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Dank logon by Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-200208-e0-dank
 
 Write-Host '
 [1;30m▀[0;1;37m [0;1;30m▄▄[0m [1;30m▀[0m [1;30m▄▄[0m  [1;30m▀[0;1;30;45m▄[0;35m [0;1;30m▀[0;1;30;45m▄[0;35m▀ ▀[0;1;35;45m▀▀[0;1;30;45m▄[0;35m▀[0;1;30m▀[0;35m▄[0;1;35;45m▄█▀[0;35m▀▀▄▄▄▀[0;1;35;45m▄[0;1;30;45m░[0;35m▄█[0;1;35;45m▄[0;35m█▀▀▄▄▀[0;1;30;45m░░[0;1;35;45m▄[0;35m█▀▄▄▀[0;1;35;45m▀█▄[0;35m▄[0;1;30m▀[0;1;30;45m▀[0;1;35;45m ░░░[0;35m█▀ ▄[0;1;35;45m▄▄[0;35m██[0;1;35;45m░░░[0;35m▀[0;1;35;45m░░[0;35m█[0;37m [0;35m▄[0m

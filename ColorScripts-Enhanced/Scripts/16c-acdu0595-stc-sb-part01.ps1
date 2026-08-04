@@ -1,18 +1,4 @@
-﻿# Converted from: STC-SB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0595/raw/STC-SB.ANS
-# Source Revision: archive-sha256:1a664cdcc2084e4e5945a0d8fd0224453424a0dd62ea58b8b239525b59199682
-# Source SHA-256: eb5cf37a7787d116ad1ac0765b2d432e92e8c12d54d2aa37b7d40a56f4e97738
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STC-SB.ANS by Stone The Crow (ACiD Productions); released in acdu0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Silver Bullet
-# SAUCE Author: Stone The Crow
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950501
-# SAUCE Dimensions: 80x141
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: The Silver Bullet by Stone The Crow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0595-stc-sb-part01
 
 Write-Host '
 [1;30m                   ▄▄▄▄▄▄▄▄▄▄█████████████████████████████████████████████████░[0m

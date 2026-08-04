@@ -1,18 +1,4 @@
-﻿# Converted from: 53-BLND2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend06/raw/53-BLND2.ANS
-# Source Revision: archive-sha256:bdb12df6fb66b6e7f7ab1240c15e9b23d66b94ced69828c85c717709162a24eb
-# Source SHA-256: 4aaec2eb86f00f81d04ea104a795faf5d76487e720066da462e806dc0927255a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 53-BLND2.ANS by senile (blend); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: blend
-# SAUCE Author: senile
-# SAUCE Group: blend
-# SAUCE Date: 19970209
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: blend by senile | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend06-53-blnd2
 
 Write-Host '
     [1;30m░░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: BD-ECL5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-04/raw/BD-ECL5.ANS
-# Source Revision: archive-sha256:9de244bc5206a1545721e4db8ef84c4a2cb5d7f6090c2c3eac0f88fbff822794
-# Source SHA-256: 28ac7aef85bf7f8fe469957ff22b6c7cd20175bf772d37908c20fafb1cf6658e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BD-ECL5.ANS by bowd (ELK#!@); released in ecl-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: lce
-# SAUCE Author: bowd
-# SAUCE Group: ELK#!@
-# SAUCE Date: 19960730
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: lce by bowd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-04-bd-ecl5
 
 Write-Host '
 

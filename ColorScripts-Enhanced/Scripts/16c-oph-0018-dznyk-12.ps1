@@ -1,17 +1,4 @@
-﻿# Converted from: DZNYK-12.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oph-0018/raw/DZNYK-12.ANS
-# Source Revision: archive-sha256:b78bc978b69dedfb9a07152cba296ecefc97611bd7bc7f5211d489ff748613dc
-# Source SHA-256: cbb509615659e540b069e8d0855a69d189cdaf284e357b875f37197e16de694d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DZNYK-12.ANS by dieznyik (oph-0018); released in oph-0018 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: [20_2[\       ___  ~\\      ^
-# SAUCE Author: dieznyik
-# SAUCE Date: 19960917
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: [20_2[\ ___ ~\\ ^ by dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oph-0018-dznyk-12
 
 Write-Host '
 [36mfor crayon..[0m              [34m░[0;30;44m▓[0m   [34;40m ▄▄▄▄[0;30;44m░[0;34;40m▓▄▄▄▄▄▄▄▄▄▌[0;1;37;40m░[0m   [34m░[0;30;44m▓[0m

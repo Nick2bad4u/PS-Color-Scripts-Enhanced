@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-STAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0397/raw/OUT-STAR.ANS
-# Source Revision: archive-sha256:7a5f524fa8ef97e5a27c2f90979bc317761a86794412c0b989c9ab1dfc672049
-# Source SHA-256: 89790e89f8390e44642a842d267930646b573be85064112c2573fcac55c01e19
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-STAR.ANS by Sandy Chidester (out-0397); released in out-0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: OUT-STAR.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0397-out-star
 
 Write-Host '
  [33m░░░░[0m     [33m▓▓▒░░[0;1;33m▀▄ ▄▄▀▀    ▄█  ▀▀▀▄  [0;1;33;43m░░[0;1;33;40m▐[0;33m██[0m           [34m████████▀▀▀▀▀▀▀▀███████████[0m

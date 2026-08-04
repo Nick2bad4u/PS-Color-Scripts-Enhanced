@@ -1,13 +1,4 @@
-﻿# Converted from: sp!-madd.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tnt-009/raw/sp!-madd.ans
-# Source Revision: archive-sha256:4d2e0521333de177726affff82e474509b25a1223425505aac445bc894496220
-# Source SHA-256: 9d6534e1fc6b3793fcc20d7e9587c9b9f5f218bc60770686df141c224d72c614
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sp!-madd.ans by Skypager (tnt-009); released in tnt-009 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: sp!-madd.ans by Skypager | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tnt-009-sp-madd-part01
 
 Write-Host '
 

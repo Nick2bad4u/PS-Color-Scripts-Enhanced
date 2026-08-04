@@ -1,18 +1,4 @@
-﻿# Converted from: MR-BG01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus04/raw/MR-BG01.ANS
-# Source Revision: archive-sha256:4a57ed6764f9ffca39ae941548ed0ed0ba98ce6594de23a7788152f10b7f60a4
-# Source SHA-256: 2d084a28886400485e8de49fc2779261421d619d23e3f48b4653357eaf915ebf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-BG01.ANS by Mr.Wrong (Fokus fonting); released in fokus04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Borgasm #1
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: Fokus fonting
-# SAUCE Date: 19990524
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Borgasm #1 by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus04-mr-bg01
 
 Write-Host '
               [1;30m▄[0;1;30;47m▀[0;1;30;40m▄[0;1;36;40m  [0;1;30;40m▀[0m          [1;36m   [0m    [1;36m ░░[0;36m░[0m

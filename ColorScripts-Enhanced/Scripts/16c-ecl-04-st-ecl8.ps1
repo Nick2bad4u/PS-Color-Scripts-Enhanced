@@ -1,18 +1,4 @@
-﻿# Converted from: ST-ECL8.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-04/raw/ST-ECL8.ANS
-# Source Revision: archive-sha256:9de244bc5206a1545721e4db8ef84c4a2cb5d7f6090c2c3eac0f88fbff822794
-# Source SHA-256: 02251c6165f95dc72ffe2c59ecc2d207bac0f637427710640dec0317bf6916fa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-ECL8.ANS by stEAKLIPSE (eaklipse); released in ecl-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ek-wipse in 96
-# SAUCE Author: stEAKLIPSE
-# SAUCE Group: eaklipse
-# SAUCE Date: 19960726
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: ek-wipse in 96 by stEAKLIPSE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-04-st-ecl8
 
 Write-Host '
           [1;34m░░░░░[0m

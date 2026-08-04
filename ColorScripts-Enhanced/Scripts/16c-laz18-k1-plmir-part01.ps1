@@ -1,19 +1,4 @@
-﻿# Converted from: k1-plmir.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz18/raw/k1-plmir.ans
-# Source Revision: archive-sha256:32d30452c4c99022fae4fa2ce9a2923ef46629d3ff7dd35a972944a991699c1f
-# Source SHA-256: 399b15080e61360412a582bf0fc6b79008f6cb0e3662fe2e273fbabebe88744f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: k1-plmir.ans by knocturnal (lazarus); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Project Lazarus
-# SAUCE Author: knocturnal
-# SAUCE Group: lazarus
-# SAUCE Date: 20240103
-# SAUCE Dimensions: 80x185
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Project Lazarus by knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz18-k1-plmir-part01
 
 Write-Host '
       [37;40m                                                           [0;1;37;40m  [0m [1m   [0m  

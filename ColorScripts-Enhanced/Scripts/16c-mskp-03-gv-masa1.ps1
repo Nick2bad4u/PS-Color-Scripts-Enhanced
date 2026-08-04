@@ -1,18 +1,4 @@
-﻿# Converted from: GV-MASA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mskp-03/raw/GV-MASA1.ANS
-# Source Revision: archive-sha256:369f71f9db47e6e5b0d0bdfdf19b2a22bd51dadea3798ab3bf33876f294ae21a
-# Source SHA-256: f30b2779394ad94fb7b69f70891601cd2f0795427488f58cc804e650afee8171
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GV-MASA1.ANS by gROOVE ({msk%tod%lpl%rep%sc}); released in mskp-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: mASAKRE #1
-# SAUCE Author: gROOVE
-# SAUCE Group: {msk%tod%lpl%rep%sc}
-# SAUCE Date: 19960911
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: mASAKRE #1 by gROOVE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mskp-03-gv-masa1
 
 Write-Host '
 [35m                                     .[0m                              [35m [0m

@@ -1,20 +1,4 @@
-﻿# Converted from: DEL-BLOK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-40/raw/DEL-BLOK.ANS
-# Source Revision: archive-sha256:aff8105c0a955ac5c43ea367a02b086cd2849f6741fc41b8a5ff440b77e104a7
-# Source SHA-256: 6211ae99413a566e3c5b6e0849897d60cdedda0f272a5da6679fcd9a9a7027de
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DEL-BLOK.ANS by delicious (blocktronics); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: blocktronics
-# SAUCE Author: delicious
-# SAUCE Group: blocktronics
-# SAUCE Date: 20240707
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# SAUCE Comments: miss you guys
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: blocktronics by delicious | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-40-del-blok
 
 Write-Host '
                                                       [35;40m█[0m

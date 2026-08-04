@@ -1,17 +1,4 @@
-﻿# Converted from: us-raw1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-02/raw/us-raw1.ans
-# Source Revision: archive-sha256:21302c91644277d9117a9a1fcab004f6fa76d5a90d6a4926e513a24dd5b73cd5
-# Source SHA-256: 17256ec1bf1c2d71a544402b9223af37327bad1121416ab2d31b8e0bf8aa9c8e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-raw1.ans by Spear + Produkt (used-02); released in used-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Raw
-# SAUCE Author: Spear and Produkt
-# SAUCE Date: 19991216
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Raw by Spear + Produkt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-02-us-raw1
 
 Write-Host '
 [1;36;46m░▓[0;1;36;40m█[0;1;37;40m▀[0;1;36;40m▀▀▀[0;36m▀[0;37m [0;36m▄▄[0;37m  [0;36m▀[0;1;36m▀[0;1;36;47m▓[0m [1;36m░[0m   [1;36m░[0m      [30;46m▓[0m                 [30;42m░[0m       [30;42m▓[0m         [37;40m      [0;30;42m▓[0;37;40m [0;30;42m▓[0m

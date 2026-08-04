@@ -1,13 +1,4 @@
-﻿# Converted from: US-JADE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p16_02/raw/US-JADE.ANS
-# Source Revision: archive-sha256:f14040a9d68edb58d098453fc4b0fc3b1d73172046af4c5ef395d54b3010b7f2
-# Source SHA-256: 5117e8d56b41b766348d9572388cad32267ba9dded418e060e72540f2ec6ea4c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-JADE.ANS by Simonking + Ize (l0p16_02); released in l0p16_02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: US-JADE.ANS by Simonking + Ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p16-02-us-jade
 
 Write-Host '
                                                       [1;36m █[0;1;36;46m▄[0;36m▄[0;37m   [0;31m░▄▄▄▄▄[0m

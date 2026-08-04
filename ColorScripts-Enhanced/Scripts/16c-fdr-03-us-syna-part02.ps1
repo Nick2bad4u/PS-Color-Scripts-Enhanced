@@ -1,13 +1,4 @@
-﻿# Converted from: US-SYNA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fdr-03/raw/US-SYNA.ANS
-# Source Revision: archive-sha256:cac34a6b7c47c076c878193a4da01da4f38b7c8e471d7a9bf4b3a7850655fb5e
-# Source SHA-256: 98256167744e9cf35602299395f0cf82613643d0eeba29eefc5a638eb4079fbe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SYNA.ANS by Cleaner + Sylvao (fdr-03); released in fdr-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 33-64
-# Columns: 1-80
+﻿# Artwork: US-SYNA.ANS by Cleaner + Sylvao | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fdr-03-us-syna-part02
 
 Write-Host '
 ▀[1;30m▀▀▓[0;1;32m [0;1;30;44m░[0;34m█[0;1;37;44m░░[0;34m█[0;30;44m▀[0;34;40m███▀ [0;37;40m▓[0;1;30;40m [0;1;30;47m▓[0;1;30;40m▄[0;32m [0;34m█████[0;1;33;44m░░[0;34m██ [0;1;34m▀ ▀▀█▀█ █▀█▀▀ ▀ [0;34m█[0;1;33;44m░░[0;34m███ [0;1;30m▓█▓ [0;34m▀ [0;1;30m▄[0;1;30;47m▓[0;1;30;40m█[0;32m [0;34m▀███[0;30;44m▀[0;34;40m█[0;1;37;44m░░[0;34m█[0;1;30;44m░[0;1;30;40m [0;1;30;47m▓▓[0;1;30;40m█▄▄[0m

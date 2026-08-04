@@ -1,18 +1,4 @@
-﻿# Converted from: ARFCDB2K.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/b2k-001/raw/ARFCDB2K.ANS
-# Source Revision: archive-sha256:32b736b1df2af53676c9c1c32a6e3865fca595d44c19dafc067328da873e57b4
-# Source SHA-256: 30dc3928edbf52d5bd681ffb1788faae3ac55a741b476a46dcb7809ef2f61727
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARFCDB2K.ANS by Argon + Facade (DARK Illustrated); released in b2k-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: MONSTER - EATING - AMSTERDAM
-# SAUCE Author: Argon & Facade
-# SAUCE Group: DARK Illustrated
-# SAUCE Date: 19990411
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: MONSTER - EATING - AMSTERDAM by Argon + Facade | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-b2k-001-arfcdb2k
 
 Write-Host '
 [1;33;46mOolong''s[0;46m░[0;36;40m▌[0;37;40m   ▄▄[0;1;37;47m░▒▓[0;1;37;40m██▄▄[0m [1;30m▀[0m▒▓█[1;37;47m░▒▓██[0;1;37;40m▄ [0m ▀[1;33;47m ░▒▓███████████▄██▀████▄███▄▄[0;44m▓▓[0;1;30;47m▄ [0;1;33;47m  ▀ [0m█[1;30;47m▀[0m▒▒[1;30m███[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: LE-BD2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook14/raw/LE-BD2.ANS
-# Source Revision: archive-sha256:f7fe2a62d3e7b3b16687ce251209098ea8d86719a4cfa33dae1489e0c9af9278
-# Source SHA-256: 71ac15f8085c9d3602a18af1226816013e525c70dae5e35ac4324efabebcac0a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LE-BD2.ANS by leo! (black maiden); released in bmbook14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: brain damage
-# SAUCE Author: leo!
-# SAUCE Group: black maiden
-# SAUCE Date: 19970701
-# SAUCE Dimensions: 80x54
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: brain damage by leo! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook14-le-bd2-part01
 
 Write-Host '
 [1;30m▄▄    ▄▄▄     [0;34m █[0;1;34;44m▐██▄ ▀▀██[0;1;37;47m▀[0;1;34;47m [0;1;34;44m█▄[0;34m▄█[0;1;34;44m▀▀██[0;1;34;47m ▀█[0;1;34;44m███▓▓▓▄▄▄▄▄▄[0;34m██████[0;1;34;44m▀▀▀▀▀▀███████████▄▄▄███[0;34m█[0m

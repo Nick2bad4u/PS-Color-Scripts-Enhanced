@@ -1,18 +1,4 @@
-﻿# Converted from: RS-UTOP2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9704/raw/RS-UTOP2.ANS
-# Source Revision: archive-sha256:f29d1a72731ce9383841840bc86b0749ff1457d1c25c6a64baa5adfdac9e6943
-# Source SHA-256: bde7fd00aff7ff56e475ab92f98bef413baf45927229accbc3f7bd8500b64ab8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-UTOP2.ANS by rorshack (Maiden Brazil); released in mdn-9704 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: utopia inside
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19970324
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: utopia inside by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9704-rs-utop2
 
 Write-Host '
                                  [1;32;42m▓[0;1;32;40m█[0;1;32;42m▄[0;1;32;40m▄[0;32m▄[0m

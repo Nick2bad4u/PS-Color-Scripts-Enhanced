@@ -1,19 +1,4 @@
-﻿# Converted from: MIHNOOMAH-SHOW DOWN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2022d/raw/MIHNOOMAH-SHOW%20DOWN.ANS
-# Source Revision: archive-sha256:a6a81402fbe9b339ed1bbad5c465fd471b3826faeb49393aa64eb517698587ff
-# Source SHA-256: 52aaf3beaaf4e16e59f6ecf7b7e779e2136fd8500d8506a96154e48db512879f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MIHNOOMAH-SHOW DOWN.ANS by Mihnoomah (P.U.P.); released in blndr2022d and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Show Down
-# SAUCE Author: Mihnoomah
-# SAUCE Group: P.U.P.
-# SAUCE Date: 20221023
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Show Down by Mihnoomah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2022d-mihnoomah-show-down
 
 Write-Host '
 █░░░░░▒▒▒▓░░░░░░░░░░░░░░▒▒▒░░▒░░░▒▒▒▒▒▒▒░▒▒▒▒▒▒▒▒▒░░▒▓▓▓▒▒░░░░▒░░░░░░▒░░░░░░░░░

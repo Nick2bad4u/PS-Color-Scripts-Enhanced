@@ -1,16 +1,4 @@
-﻿# Converted from: US-POECI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p13_01/raw/US-POECI.ANS
-# Source Revision: archive-sha256:7be01055dd13efccf716f85ba12aeb587f20efb2cff2c3e0ca4196c620859951
-# Source SHA-256: 72d8c8fc401fcd8895c2eef3e1cfaf0245e28e63f17c71e91c1d1cdef2c1c9a5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-POECI.ANS by Simonking + Slackzor (l0p13_01); released in l0p13_01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: 34
-# SAUCE Date: 20011030
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: US-POECI.ANS by Simonking + Slackzor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p13-01-us-poeci
 
 Write-Host '
                    [33m▄[0m        [37m            [0;33m▀▄▄▄[0m            [37m                [0m

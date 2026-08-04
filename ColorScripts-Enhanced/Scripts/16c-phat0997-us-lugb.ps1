@@ -1,18 +1,4 @@
-﻿# Converted from: US-LUGB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0997/raw/US-LUGB.ANS
-# Source Revision: archive-sha256:7c9b6e5a1bf85f5dceb70dad3a430f8a984427653988f85df1c8489157fd2d25
-# Source SHA-256: 7df4b32f27059bca1929b4755d02f78bfaaae65e2ac02c38a2e7704f31cd8d08
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-LUGB.ANS by Spice + Noize (phat & fire,ms,bm...); released in phat0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: lugburz-joint for glandyth
-# SAUCE Author: spice & noize
-# SAUCE Group: phat & fire,ms,bm...
-# SAUCE Date: 19970810
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: lugburz-joint for glandyth by Spice + Noize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0997-us-lugb
 
 Write-Host '
 [1;35;45m█▄[0;35m▄[0;1;35;45m▄▄[0;35m [0;36m▄█▄  ▄█   [0;30;45m▄[0;1;35;45m▀██[0;36m ░[0;35m ▀▌[0;36m  [0;35m▄[0;1;35;45m▄[0;1;35;47m░░[0;1;35;45m█████▄[0;35m▄[0;1;35;45m▄[0;1;35;47m░░[0;1;35;45m█▀[0;35m [0;1;33;43m██████████[0;1;37;40m██[0;1;33;43m██████[0;1;37;40m██[0;1;33;43m████████[0;35m [0;1;35;45m▄█[0;1;35;47m▓▓▓[0;1;35;45m█▄[0m

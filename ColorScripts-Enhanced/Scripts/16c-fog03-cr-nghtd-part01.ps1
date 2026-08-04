@@ -1,18 +1,4 @@
-﻿# Converted from: CR-NGHTD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fog03/raw/CR-NGHTD.ANS
-# Source Revision: archive-sha256:f9beb4b752670f0f20395ea000ce199823bb5c5d99ff236dc3e0aff26ecf05a2
-# Source SHA-256: b9ac3215da75fd1e61a748f33ee7d50de47d9151ed2e3e82aa987c76088dcf33
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CR-NGHTD.ANS by Coroner + Fightwinder (FiNiSH of GODz); released in fog03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Night Dancing
-# SAUCE Author: The Coroner
-# SAUCE Group: FiNiSH of GODz
-# SAUCE Date: 19950824
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Night Dancing by Coroner + Fightwinder | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fog03-cr-nghtd-part01
 
 Write-Host '
 

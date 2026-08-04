@@ -1,13 +1,4 @@
-﻿# Converted from: PT-ZAND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-25a/raw/PT-ZAND.ANS
-# Source Revision: archive-sha256:f5c8391b86dda7b9c24ba71e4f358f5fc8b34e7de595b39988ff48ce74abca3e
-# Source SHA-256: eb2ad70afe4280c50e950c2f4a8aff607d793a12f9782d1761e3435f2825902b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PT-ZAND.ANS by Produkt (purg-25a); released in purg-25a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: PT-ZAND.ANS by Produkt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-25a-pt-zand
 
 Write-Host '
    [34m▄▄[0;37;44m▄▄[0;1;34;44m▄[0;34m▄▄[0;37m    [0;34m▄[0;1;34;44m▄▄▄[0;34m▄[0;37m  [0;34m▄▄[0;1;34;44m▄[0;1;34;46m▓[0;1;34;44m▄[0;34m█▄▀[0;1;34;44m▀[0;34m█▀▀[0;37m   [0;34m▀▀▀[0;37m   [0;34m▀▀[0;1;34;44m▀[0;34m███▄▄▄[0;37m  [0;34m▄▄▄▄[0;37m  [0;34m▄▄▄▄[0m      [34m▄▄▄[0m

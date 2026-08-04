@@ -1,13 +1,4 @@
-﻿# Converted from: MO-SAUC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-09/raw/MO-SAUC.ANS
-# Source Revision: archive-sha256:6c371ec8bbb75e88f59630021fbbd23f2fc630c10ee1cde240cc20faafea1ca9
-# Source SHA-256: a5bedfa96a71c16c4154298379d5ee8de4642ec63b8ea8dcae07fb649fc7c351
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MO-SAUC.ANS by Magnatop (ecl-09); released in ecl-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: MO-SAUC.ANS by Magnatop | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-09-mo-sauc
 
 Write-Host '
                  [1;31m■[0m [1;31m▀[0;1;31;45m▓▓[0;1;31;40m▄▄▄ [0m                                               [1m▄▄▄████[0m

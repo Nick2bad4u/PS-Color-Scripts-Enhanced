@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-REV1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-37/raw/AVG-REV1.ANS
-# Source Revision: archive-sha256:80363f10709d17331c287999d9ad4e4cac34260721fa508975384b4507a00819
-# Source SHA-256: c7f1ae12bcda9d8d872bc3e83763ef48d8dfd6012517ffc55e21de4ae1bd0934
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-REV1.ANS by avg (glue); released in glue-37 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: revival.
-# SAUCE Author: avg
-# SAUCE Group: glue
-# SAUCE Date: 20020720
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: revival. by avg | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-37-avg-rev1
 
 Write-Host '
 

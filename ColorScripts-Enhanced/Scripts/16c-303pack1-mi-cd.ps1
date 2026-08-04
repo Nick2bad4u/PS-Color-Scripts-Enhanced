@@ -1,18 +1,4 @@
-﻿# Converted from: MI_CD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/303pack1/raw/MI_CD.ANS
-# Source Revision: archive-sha256:d96bc08a467a2a6ea2a6e843ebd49b97b1020499b45630ef796714f352c9da8a
-# Source SHA-256: 7f9016270d4677d1cf5fe1dd7bf54b5e908d15a5bca36a48c16c11e9daa15ba6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MI_CD.ANS by Mongi (ACiD Procductions); released in 303pack1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Claustrophobic Dimension
-# SAUCE Author: Mongi
-# SAUCE Group: ACiD Procductions
-# SAUCE Date: 19970301
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Claustrophobic Dimension by Mongi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-303pack1-mi-cd
 
 Write-Host '
                         [1;33;43m▐[0;1;33;40m█████[0;33m▌[0;1;32m [0;1;32;42ml[0;1;32;40m a[0m [1;32mu[0m [1;32;42ms[0m [1;32mt[0m [1;32mr[0m [1;32mo[0m [1;32;42mp[0m [1;32;42mh[0m [1;32mo[0m [1;32;42mb[0m [1;32mi[0m [1;32mc[0m [33m▄▄▄[0;1;33;43m     ▄▄[0;33m▄▄▄[0m

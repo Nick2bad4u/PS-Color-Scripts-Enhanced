@@ -1,18 +1,4 @@
-﻿# Converted from: US-MTX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel09/raw/US-MTX.ANS
-# Source Revision: archive-sha256:cae1fe00a9cd349fa6bb692920586d60c6acc70987b088220f071822b0b1e1ed
-# Source SHA-256: af8f06f3091fb27b542aa847b4a9f51185b54684f91311f5e52a7cab1ecd430a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-MTX.ANS by Thrasher + Madball (fuel); released in fuel09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: a matrix dammit
-# SAUCE Author: madball & thrasher
-# SAUCE Group: fuel
-# SAUCE Date: 19961110
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: a matrix dammit by Thrasher + Madball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel09-us-mtx
 
 Write-Host '
 [31m█ [0;33m▐██▓███████████████████████[0;37;43m░░[0;33;40m█▄▄[0;1;31;43m░[0;33m███████▀▀▀▀▀▀▀▀▀████[0;37;43m░░[0;33;40m█[0;37;43m░[0;33;40m██████[0;1;33;43m░░[0;33m█████████[0;37;43m░░[0;33;40m▄ [0m

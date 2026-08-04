@@ -1,18 +1,4 @@
-﻿# Converted from: PLC-PHS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0798/raw/PLC-PHS.ANS
-# Source Revision: archive-sha256:ba14cc0f9129d345d6e8055f6819b7be294ddff8674fbcc97cd1db52d47ee088
-# Source SHA-256: c3de6070dc7bde2cee8980f4f0bcba60d973b83698385722e1d25b69a6ca51e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PLC-PHS.ANS by plc (poffelipoff); released in plf-0798 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: phare side
-# SAUCE Author: plc
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19980705
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: phare side by plc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0798-plc-phs
 
 Write-Host '
                                                                    [1;30m░░░░░░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: MT-NOTE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fos-0595/raw/MT-NOTE.ANS
-# Source Revision: archive-sha256:1752292815770b63f1b1d8ec40a734e7d4c8d494497bf3408ee46172835b476d
-# Source SHA-256: be61ecd7067ed7172f7b7191e2adb489a51942eed26c2bd197c2c5773151e705
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MT-NOTE.ANS by Morbid Thought (fos-0595); released in fos-0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 41-82
-# Columns: 1-80
+﻿# Artwork: MT-NOTE.ANS by Morbid Thought | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fos-0595-mt-note-part02
 
 Write-Host '
 [34;44m [0;1;33;44m▓[0;34m▓▓▒▓[0;1;33m█[0;35;44m▒░[0;34;40m▓█[0;1;33;44m▄▀ [0;34m▓▓█[0;1;30;44m░[0;1;33;44m▐▌[0;1;30;44m░[0;34m▌[0;1;37m▀[0;1;33;47m░[0;1;37;41m▀▄▀[0;1;37;40m██[0;1;37;41m▌[0;1;37;40m█[0;1;37;47m▄[0m▄[34m█[0;34;47m▓[0;1;34;47m▓[0;34;47m▓█[0;34;40m██[0;34;47m▒[0;37;40m▄[0;1;37;41m▀▀▀[0;1;37;40m████[0;1;37;47m█░[0;1;33;47m░[0;1;37;40m▀[0;34m▐█[0;35;44m░[0;1;33;47m▓▒[0;1;33;40m█[0;34m█[0;1;33m██[0;1;33;44m▌[0;35;44m░[0;34;40m▓▓▒░░░[0m     [34;40m░[0m

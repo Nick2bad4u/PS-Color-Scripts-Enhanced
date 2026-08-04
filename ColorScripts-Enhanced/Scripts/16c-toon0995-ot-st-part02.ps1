@@ -1,13 +1,4 @@
-﻿# Converted from: OT-ST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toon0995/raw/OT-ST.ANS
-# Source Revision: archive-sha256:02c0858ccb65f788003d1baa20212382f5d5979442b6fda9c8793eaaadf48a11
-# Source SHA-256: 76514fbe61d32f5bc2bc26ef68033bb2d896602811b5d11056e19c474df924db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OT-ST.ANS by Otter + Wat0r (toon0995); released in toon0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 19-59
-# Columns: 1-80
+﻿# Artwork: OT-ST.ANS by Otter + Wat0r | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toon0995-ot-st-part02
 
 Write-Host '
 [36m▄██████████████████████████████████████████████████████████████████████████████▄[0m

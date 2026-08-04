@@ -1,18 +1,4 @@
-﻿# Converted from: NVZ-TDI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmtz-2/raw/NVZ-TDI.ANS
-# Source Revision: archive-sha256:4098da1ce5096b58e9d8e2d422f1498dadae3c1a4608ab2bce3811e49527bb5d
-# Source SHA-256: 46c789f7a0fbc1b3372b10c4a42b330760569a4c5ed5771e83c01ddf1dc2c7dd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NVZ-TDI.ANS by N0ViCE (rmtz); released in rmtz-2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: tlp distsite ansi (bc-bokz)
-# SAUCE Author: N0ViCE
-# SAUCE Group: rmtz
-# SAUCE Date: 19960714
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: tlp distsite ansi (bc-bokz) by N0ViCE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmtz-2-nvz-tdi
 
 Write-Host '
 [33m██████████████[0;36;43m▄▀█▀▀▄[0;33;40m███████████████████████████▀[0;1;34;40m▄[0;33m▀█████████▀▀▀▀▀▀▀[0;1;34m▄▄▄▄[0;33m▀▀▀██████[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: US-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-45/raw/US-FIRE.ANS
-# Source Revision: archive-sha256:0564021806e0277d72a0e235c044a0e0470226ba860a8976e1e3092326555d1d
-# Source SHA-256: c5b4fedc2ebf302128493e7999467fd53547328755eab73a8a41333e601b3d9f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FIRE.ANS by Nail + Abstrakt (fire); released in fire-45 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fire
-# SAUCE Author: abstrakt + nail
-# SAUCE Group: fire
-# SAUCE Date: 20260303
-# SAUCE Dimensions: 80x29
-# SAUCE Font: IBM VGA
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: fire by Nail + Abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-45-us-fire
 
 Write-Host '
 [30;40m  [0;32;40m   [0;33;40m ▄ ■[0m                                                             [33;40m▀[0m

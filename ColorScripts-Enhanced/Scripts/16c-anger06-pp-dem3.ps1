@@ -1,16 +1,4 @@
-﻿# Converted from: PP-DEM3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger06/raw/PP-DEM3.ANS
-# Source Revision: archive-sha256:efc6b6d6892fe7f05c3b06052b1d79464b7ee8ab8c7bee2d77361e00cf941f28
-# Source SHA-256: ce63121f47d9ab837a8cd59425d002cad94de48ed3702dd721e81b44f9939705
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PP-DEM3.ANS by pixel_pusher (anger); released in anger06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: demolition add.
-# SAUCE Author: pixel_pusher
-# SAUCE Group: anger
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: demolition add. by pixel_pusher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger06-pp-dem3
 
 Write-Host '
 

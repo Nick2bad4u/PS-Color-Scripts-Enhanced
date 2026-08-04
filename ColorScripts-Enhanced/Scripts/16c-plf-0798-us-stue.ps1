@@ -1,18 +1,4 @@
-﻿# Converted from: US-STUE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0798/raw/US-STUE.ANS
-# Source Revision: archive-sha256:ba14cc0f9129d345d6e8055f6819b7be294ddff8674fbcc97cd1db52d47ee088
-# Source SHA-256: 126c6560a6bf581fb32bcdecaaaf0d80dffd820fdf388afa8a8d3340f74fac20
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-STUE.ANS by Big Yellow Man + Keetar (poffelipoff); released in plf-0798 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: statue
-# SAUCE Author: keetar & bym
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19980721
-# SAUCE Dimensions: 80x25
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: statue by Big Yellow Man + Keetar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0798-us-stue
 
 Write-Host '
 [1;34m███▓▓█▀[0m [1;34m▀██▀[0m ▄▄ ▄▄███▄     [34m     [0;1;34m▄▄  ▄▄[0;34m▄▄▄▄▄▄▄▄▄▄▄▄              [0m

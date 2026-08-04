@@ -1,17 +1,4 @@
-﻿# Converted from: IY-01A.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-19a/raw/IY-01A.ANS
-# Source Revision: archive-sha256:81f21b6ad591f112e54dc904e184a85b63ca9af95a156ccc7d812cfbc401b70a
-# Source SHA-256: 9da259979b68f761712247b2e062008a2030daf599eee255735e59884ca51d23
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IY-01A.ANS by Imortality (RCA); released in rca-19a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: Imortality
-# SAUCE Group: RCA
-# SAUCE Date: 19980416
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: IY-01A.ANS by Imortality | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-19a-iy-01a
 
 Write-Host '
          ░     [1m  [0m                                       ░░      [35m▀▀▀▀[0m

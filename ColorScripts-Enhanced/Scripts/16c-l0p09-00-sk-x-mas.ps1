@@ -1,18 +1,4 @@
-﻿# Converted from: SK!X-MAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p09_00/raw/SK!X-MAS.ANS
-# Source Revision: archive-sha256:2d55e0471b241c84b2000d7f1ba05c65c9f1c93ead6af87d8d0b58764c2b8dba
-# Source SHA-256: aa0897802fa43866a5bc9f6dfcf7a84380babe8a903954bec69268486094accf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!X-MAS.ANS by sIMONkING (tHelo0p); released in l0p09_00 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: zyczenia od mikolaja
-# SAUCE Author: sIMONkING
-# SAUCE Group: tHelo0p
-# SAUCE Date: 20001128
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: zyczenia od mikolaja by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p09-00-sk-x-mas
 
 Write-Host '
                                                                        ▄[1;47m▄[0;1;40m██[0;1;47m█▄[0m▄

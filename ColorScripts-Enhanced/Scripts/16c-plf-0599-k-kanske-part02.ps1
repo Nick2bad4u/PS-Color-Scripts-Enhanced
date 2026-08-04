@@ -1,18 +1,4 @@
-﻿# Converted from: K!KANSKE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0599/raw/K!KANSKE.ANS
-# Source Revision: archive-sha256:d4668fdc774723fd3862fc372670dffa7b0207fe2fa7056074fcd8d0ae9a7357
-# Source SHA-256: 29f72d3b8c2f7720a03bbd0c6c0dd2fb6d3704da289e371c1c9af80cb47e7359
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K!KANSKE.ANS by keetar (poffelipoff); released in plf-0599 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: kanske
-# SAUCE Author: keetar
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19990501
-# SAUCE Dimensions: 80x25
-# Lines: 50-89
-# Columns: 1-80
+﻿# Artwork: kanske by keetar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0599-k-kanske-part02
 
 Write-Host '
 

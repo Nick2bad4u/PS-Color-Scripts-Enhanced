@@ -1,13 +1,4 @@
-﻿# Converted from: LC-LGN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aim-0002/raw/LC-LGN1.ANS
-# Source Revision: archive-sha256:ce9a7da7386b31fa55a453e9a67690bf9fc444631591f653878c87fe982d165f
-# Source SHA-256: 5b09ac8874b78d293a65ff991645c6f7b37236e30907fe1b47655f0e9dd8e7c6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LC-LGN1.ANS by Luc (aim-0002); released in aim-0002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: LC-LGN1.ANS by Luc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aim-0002-lc-lgn1
 
 Write-Host '
 [1;30;47m▒▓▒[0;1;30;40m░░▄▄▀▀██▓▒░   █   ░▒░[0m      [1;30;40m█   ░░▒▒▓▓████▀ [0;1;30;47m▓▒░[0;1;37;47m░▒▓[0;1;37;40m▌[0;34m▐██████████████████████████[0m

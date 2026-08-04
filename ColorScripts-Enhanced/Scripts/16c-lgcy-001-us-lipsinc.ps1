@@ -1,20 +1,4 @@
-﻿# Converted from: us-lipsinc.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-001/raw/us-lipsinc.ans
-# Source Revision: archive-sha256:589c804657c8d15ba617f7c0fd80723e4505d519989b80eba9584665be49eb54
-# Source SHA-256: dd02d80a552d899a3f35ece610e0084e5604a74f1ea5b23498e4906273237e54
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-lipsinc.ans by The Knight + Deep Freezer (Legacy Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Lips inc.
-# SAUCE Author: DFR & The Knight
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20191124
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Lips Inc. submission to Evoke Demoparty 2019 by Deep Freezer<Leg | acy> and theKnight<Legacy>.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Lips inc. by The Knight + Deep Freezer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-001-us-lipsinc
 
 Write-Host '
 [1m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;47m█[0;1;40m███████████████▀▀▀▀[0m [34m▄[0;37m   [0;34m▄▄▄   [0;1;37m▀▀▀██████████████████████[0m

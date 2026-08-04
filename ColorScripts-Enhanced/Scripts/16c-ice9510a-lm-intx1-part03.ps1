@@ -1,18 +1,4 @@
-﻿# Converted from: LM-INTX1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9510a/raw/LM-INTX1.ICE
-# Source Revision: archive-sha256:399b6e9725b29795559a6219f7addf6b31d694eb7c81ec3a3e3fa8aafebac298
-# Source SHA-256: c04a8d8fdee918a267cf90fa3c12db79bd9da0cc3009d312f2c1cbf25011e768
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LM-INTX1.ICE by Lemonade (iCE); released in ice9510a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Intoxica
-# SAUCE Author: Lemonade
-# SAUCE Group: iCE
-# SAUCE Date: 19951101
-# SAUCE Dimensions: 80x25
-# Lines: 80-117
-# Columns: 1-80
+﻿# Artwork: Intoxica by Lemonade | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9510a-lm-intx1-part03
 
 Write-Host '
 [31m█ ▄▄▀█▌[0;1;37m▐█ ██[0;1;37;47m▓▒▒░░[0;1;37;40m ██[0;1;37;47m▓▓▒[0m▌[1m█[0;1;47m▓▓▒▒░[0;1;40m ▀[0;1;47m▓[0m▀[1m [0;32m▄▓▀▓█▀ [0m   [32m▄▀[0m    [31m  ▄█████████▓██▀▀▀█▄▄▄███████[0m

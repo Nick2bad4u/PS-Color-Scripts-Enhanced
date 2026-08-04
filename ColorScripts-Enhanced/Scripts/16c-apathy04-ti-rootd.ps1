@@ -1,18 +1,4 @@
-﻿# Converted from: TI-ROOTD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy04/raw/TI-ROOTD.ANS
-# Source Revision: archive-sha256:772bb39e58ca5d5cbd3e7c4879ee6a5c2bff382ac67615f9de23118b8ccdce77
-# Source SHA-256: 4c6ec028680c3c948dcba58eedf5759bad13e1ef811496967f9f9453e523ab3c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TI-ROOTD.ANS by Trip (READ THE INI FILE); released in apathy04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Root Down interface
-# SAUCE Author: Trip
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19951112
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Root Down interface by Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy04-ti-rootd
 
 Write-Host '
 [31m█▀[0;33m▄█[0;1;33;43m░[0;33m▄██▄█[0;1;33;43m░[0;33m█▄   ▀    ▀▄ █▀▄▀█▀█████▄▀█████[0;1;33;43m░[0;33m█▀[0;37m▄██▀[0;33m▄██████▀███████▀████████[0;1;33;43m░[0;33m▄▐████[0m

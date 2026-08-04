@@ -1,18 +1,4 @@
-﻿# Converted from: 22-EBU1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-13/raw/22-EBU1.ANS
-# Source Revision: archive-sha256:cca55d5724b62fdb9e6ef78f12545840535bf0f0878d8408ef8b98504542add6
-# Source SHA-256: 03ed10672c333bd67761ebf0e8a91d45d011f792e1b74105aaf39f13e75f2800
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 22-EBU1.ANS by catch22 (glue clan); released in glue-13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ebuild
-# SAUCE Author: catch22
-# SAUCE Group: glue clan
-# SAUCE Date: 19980827
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: ebuild by catch22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-13-22-ebu1
 
 Write-Host '
 [1;35m░░[0;35m▄▄▄ [0;1;35m░[0;35m▄▄▄▐▄     ▀▀[0;1;35;45m▀██[0;1;35;47m▓▓[0;1;35;45m██[0;1;35;47m▓▓▒▒[0;1;35;45m▄[0;35m▄ ▄ ▐▀   ▀[0;1;35;45m░▓██[0;35m▌[0;33m [0;1;31m░[0;1;31;43m░▒▓▓█████████[0;1;31;47m▓▓▒▒▓[0;1;31;43m██[0;1;31;47m▓▓▓[0;1;31;43m█████████[0m

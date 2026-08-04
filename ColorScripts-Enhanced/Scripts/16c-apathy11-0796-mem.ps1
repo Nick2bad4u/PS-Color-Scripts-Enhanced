@@ -1,18 +1,4 @@
-﻿# Converted from: 0796-MEM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy11/raw/0796-MEM.ANS
-# Source Revision: archive-sha256:a8a1f25f60c56aa0932319ceb3e0a3707898d7c9d304c60c4912556d84eb4b61
-# Source SHA-256: 51c2f8fd0e6847f38f4c165b0b8ab170a423b9ab111e031cc92b9fd864d6f53e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 0796-MEM.ANS by Trip (Apathy); released in apathy11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: July^96 Memberlist
-# SAUCE Author: Trip
-# SAUCE Group: Apathy
-# SAUCE Date: 19960707
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: July^96 Memberlist by Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy11-0796-mem
 
 Write-Host '
 [1;30;47m▓[0;1;30;40m████████████████▄▄▄▄▄▄▀▀▀▀▀▀██████████████████████████████████▀▀▌[0m [1;30mansi by trip[0m

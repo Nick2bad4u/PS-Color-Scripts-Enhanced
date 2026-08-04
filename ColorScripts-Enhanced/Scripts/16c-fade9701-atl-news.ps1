@@ -1,18 +1,4 @@
-﻿# Converted from: ATL-NEWS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fade9701/raw/ATL-NEWS.ANS
-# Source Revision: archive-sha256:c6d5a184fb7d2c1b4105639e94f213f1497485260f1e9efd32c494b51c17401b
-# Source SHA-256: b125284ab978c10e184f2b484b6b3f390ff483a12a71ed026d5a6f4e6da6d41e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ATL-NEWS.ANS by atlantic (fade); released in fade9701 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: news
-# SAUCE Author: atlantic
-# SAUCE Group: fade
-# SAUCE Date: 19961231
-# SAUCE Dimensions: 80x13
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: news by atlantic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fade9701-atl-news
 
 Write-Host '
 

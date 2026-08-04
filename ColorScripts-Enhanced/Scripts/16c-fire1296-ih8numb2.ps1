@@ -1,17 +1,4 @@
-﻿# Converted from: IH8NUMB2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1296/raw/IH8NUMB2.ANS
-# Source Revision: archive-sha256:30782fcfc860946575894eb2b18cd82015430d9b2fe92875d1416c9b2489f009
-# Source SHA-256: 829bc2b6776ba44054a9e5439191fa74a078358dafe5cb2cb5320bc28bd62d4b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IH8NUMB2.ANS by oned (fire1296); released in fire1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: I Hate Numb.
-# SAUCE Author: oned
-# SAUCE Date: 19961210
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: I Hate Numb. by oned | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1296-ih8numb2
 
 Write-Host '
                                               [1;30m▄▄▄    ▄▄▄▄  ▄▄▄▄[0m

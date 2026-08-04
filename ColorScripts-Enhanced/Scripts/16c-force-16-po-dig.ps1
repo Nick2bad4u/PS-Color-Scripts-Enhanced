@@ -1,18 +1,4 @@
-﻿# Converted from: PO-DIG#!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-16/raw/PO-DIG%23!.ANS
-# Source Revision: archive-sha256:9ad935bd4cbb2615c5c684e690bc8979daa45859d0282b370bf26a8750d02425
-# Source SHA-256: b2a3ca69880bbc01b18786e86e285fdf14e6f55b839290052e8d4961a579ab9c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PO-DIG#!.ANS by pOrtia (force); released in force-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: digital peice
-# SAUCE Author: pOrtia
-# SAUCE Group: force
-# SAUCE Date: 19980225
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: digital peice by pOrtia | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-16-po-dig
 
 Write-Host '
         ▀▄ ▄▀▄▄▀▄██▀▀▄▄▓█▌▀  [1;33m▐█[0;1;37m▄[0;1;37;47m▓ [0m░ [36m▀[0;1;33;46m▀▓[0;1;33;40m▄▀▄[0m [1;33m▄[0m    [35m░▄▄▀[0;37m [0;35m▀▓█▌░▄[0;1;33;45m▄[0;1;33;40m▌▀[0m [1;30m                 [0m

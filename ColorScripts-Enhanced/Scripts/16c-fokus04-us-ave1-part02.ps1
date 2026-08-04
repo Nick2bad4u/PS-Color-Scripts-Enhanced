@@ -1,18 +1,4 @@
-﻿# Converted from: US-AVE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus04/raw/US-AVE1.ANS
-# Source Revision: archive-sha256:4a57ed6764f9ffca39ae941548ed0ed0ba98ce6594de23a7788152f10b7f60a4
-# Source SHA-256: ec258c74dfc93b21fd03c5cdd1aa8253ab929d4e50795530aa6e90e2fcd00cbf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-AVE1.ANS by Zedfactor + Avenging Angel (Fokus fonting); released in fokus04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Avenge
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Fokus fonting
-# SAUCE Date: 19990524
-# SAUCE Dimensions: 80x64
-# Lines: 33-64
-# Columns: 1-80
+﻿# Artwork: Avenge by Zedfactor + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus04-us-ave1-part02
 
 Write-Host '
 

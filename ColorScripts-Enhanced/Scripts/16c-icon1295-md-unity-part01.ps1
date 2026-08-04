@@ -1,18 +1,4 @@
-﻿# Converted from: MD-UNITY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icon1295/raw/MD-UNITY.ANS
-# Source Revision: archive-sha256:29fdf7e44b576f8c227da56dd968c4bc8d9e086fc925c3d92445d241cee51ef7
-# Source SHA-256: bdbab234b954c6c2a890a36ab93c201f83ffc6103f9377d82cf589f2535b89de
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MD-UNITY.ANS by mr self destruct (icon); released in icon1295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: unity 2
-# SAUCE Author: mr self destruct
-# SAUCE Group: icon
-# SAUCE Date: 19951203
-# SAUCE Dimensions: 80x54
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: unity 2 by mr self destruct | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icon1295-md-unity-part01
 
 Write-Host '
 

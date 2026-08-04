@@ -1,18 +1,4 @@
-﻿# Converted from: SA-DAVE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wbt-0195/raw/SA-DAVE1.ANS
-# Source Revision: archive-sha256:796665d63839084a3e064ad6d02fdcac454fe856d0c61a26a4030285b18917b6
-# Source SHA-256: 1e8f2637e37b2e599fca1dc25f81c4c50d6d20aa232632f12d4533d1ce5c4376
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SA-DAVE1.ANS by Sabotage (WBT/SHiVER); released in wbt-0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Cave
-# SAUCE Author: Sabotage
-# SAUCE Group: WBT/SHiVER
-# SAUCE Date: 19941124
-# SAUCE Dimensions: 80x25
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: The Cave by Sabotage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wbt-0195-sa-dave1-part01
 
 Write-Host '
                            ░                                    [35m▓▄▀▀▀▀▀▓▄▄[0m

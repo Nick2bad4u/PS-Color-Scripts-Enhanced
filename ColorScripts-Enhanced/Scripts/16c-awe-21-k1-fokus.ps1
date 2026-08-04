@@ -1,18 +1,4 @@
-﻿# Converted from: K1-FOKUS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-21/raw/K1-FOKUS.ANS
-# Source Revision: archive-sha256:d980c3e2187ff0ef4bb9edce960381dc01c8374df0b01b4ddb8d104484f4b936
-# Source SHA-256: 0d8dc291d5dff98c00937a56cab34fb3b7ec8003b34122492e6bb4d1400e21c5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K1-FOKUS.ANS by Knocturnal (AWE Lettering); released in awe-21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Fokus
-# SAUCE Author: Knocturnal
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981220
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Fokus by Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-21-k1-fokus
 
 Write-Host '
 

@@ -1,19 +1,4 @@
-﻿# Converted from: SF-FORZE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-44/raw/SF-FORZE.ANS
-# Source Revision: archive-sha256:6c51508cedeaa9140fcf08750a75edb14e0cec0eebe7b4290346e95cd3548876
-# Source SHA-256: 3decf8a70bb1782c17986074b385089ef23b01eb59c6ee586d19ef843b35c68f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SF-FORZE.ANS by sander (focus); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the forze
-# SAUCE Author: sander
-# SAUCE Group: focus
-# SAUCE Date: 20251111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: the forze by sander | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-44-sf-forze
 
 Write-Host '
 [1;37;40m▀[0;1;37;44m▀[0;1;37;40m█[0;1;37;44m▀▀[0m [1m█[0;34m▄▄▄[0;1;37m█[0m [35m▄[0;1;37;45m▄▀[0;1;37;40m▀▀[0m [1;30m░[0m [1;30m░[0m [1;30m░░░░░░░░░░░░▒░░░░▒░▒░▒░▒░▒░▒░▒░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░▒░[0m

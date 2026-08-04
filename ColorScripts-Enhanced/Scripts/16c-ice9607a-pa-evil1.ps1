@@ -1,13 +1,4 @@
-﻿# Converted from: PA-EVIL1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9607a/raw/PA-EVIL1.ICE
-# Source Revision: archive-sha256:6e317dcfbe1a18e9811dd69788e086bd6dba75308a8c6706d46c84b5eb4fd93a
-# Source SHA-256: dbfa18d3296881716747a3a4a61db94f2f736e43a9a33912705c17d9906d9a77
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PA-EVIL1.ICE by Parasite (ice9607a); released in ice9607a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: PA-EVIL1.ICE by Parasite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9607a-pa-evil1
 
 Write-Host '
 [1m▄[0;33m [0;37m [0;33m█[0;1;33;43m░░▒▒[0;33m▄█▀█[0;1;33;43m░░[0;33m▄█▀▐█[0;1;33;43m░░▒▓▒░[0;33m▄  ▐[0;1;33;43m░░[0;33m▀█[0;1;33;43m░░[0;33m█▀█▄[0;1;33;43m░░▒▒▒░░░[0;33m█[0;1;33;43m░[0;33m████▀[0;37m [0;1;37m   [0m▄[1m  [0m▄

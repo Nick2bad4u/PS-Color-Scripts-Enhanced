@@ -1,18 +1,4 @@
-﻿# Converted from: TG-A51A.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/df-0004/raw/TG-A51A.ANS
-# Source Revision: archive-sha256:67203679d779fe212820fa7b395a6dba18055e5a0d6901e90b101261609c0eb5
-# Source SHA-256: 3d47d5293671085159c5b9d655feb2fdbc8d23f376de7299d525204ce5fcd2fb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-A51A.ANS by The Guyver (Devil Forces); released in df-0004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: What? Area 51? no  no no nono....
-# SAUCE Author: The Guyver
-# SAUCE Group: Devil Forces
-# SAUCE Date: 19971005
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: What? Area 51? no no no nono.... by The Guyver | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-df-0004-tg-a51a
 
 Write-Host '
 

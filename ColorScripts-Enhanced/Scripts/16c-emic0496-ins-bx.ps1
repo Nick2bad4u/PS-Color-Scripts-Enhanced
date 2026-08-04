@@ -1,18 +1,4 @@
-﻿# Converted from: INS-BX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/emic0496/raw/INS-BX.ANS
-# Source Revision: archive-sha256:0081657214e0d3eeaf9fa72e89eaffd16455becfd5da03242b645aa6b0fa9295
-# Source SHA-256: a02613020a212babe9859c30d2239bc5e278d9b5b2fb75c2353ec7029b981428
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: INS-BX.ANS by Insomniac (EMiC); released in emic0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Brand Echh
-# SAUCE Author: Insomniac
-# SAUCE Group: EMiC
-# SAUCE Date: 19960310
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Brand Echh by Insomniac | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-emic0496-ins-bx
 
 Write-Host '
 

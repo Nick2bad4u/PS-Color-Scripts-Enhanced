@@ -1,18 +1,4 @@
-﻿# Converted from: US-TO99.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/kbsart02/raw/US-TO99.ANS
-# Source Revision: archive-sha256:db985c6cc647f5eef7416b8a6b8fee6ea9ea728844fba4bfa914fc08893c10ca
-# Source SHA-256: 712894cc70d51ace73e825076f3507af15bcbaf233ffb6663c942c6dec4abd0f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TO99.ANS by Dyingsoul + Colloss (kibosh); released in kbsart02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: TakeOver 99
-# SAUCE Author: DyingSoul & cLs
-# SAUCE Group: kibosh
-# SAUCE Date: 19990515
-# SAUCE Dimensions: 80x76
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: TakeOver 99 by Dyingsoul + Colloss | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-kbsart02-us-to99-part01
 
 Write-Host '
                               [1;36m░[0m

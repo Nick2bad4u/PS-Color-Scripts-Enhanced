@@ -1,18 +1,4 @@
-﻿# Converted from: TSK-TB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-03/raw/TSK-TB1.ANS
-# Source Revision: archive-sha256:fae30929abb2b921ba96bc7ad0b445be298bbdb28aa42921644d897c08d22f33
-# Source SHA-256: 4d33775fcc3748887cadee4e313c1b6f9b9191689801c28b72a7b4c79d4445ae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-TB1.ANS by the silent killer (odium); released in odium-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the bomb
-# SAUCE Author: the silent killer
-# SAUCE Group: odium
-# SAUCE Date: 19960203
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: the bomb by the silent killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-03-tsk-tb1
 
 Write-Host '
                 [1m▄[0;1;47m▓▒[0m▌      ■ ·[1;30m   [0m([1;30m nikotine''s [0m)[1;30m      [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-SFIEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0497/raw/IZ-SFIEN.ANS
-# Source Revision: archive-sha256:0a24528ad1b8350dc6275ed84884990aa181682392c532082994d5872ceb5801
-# Source SHA-256: 83c1edbfe094b6f61799b54c399a95da7f34452bef065d08f201eaf0d45c0f8f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-SFIEN.ANS by ize (fusion); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: superfiend
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19970323
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: superfiend by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0497-iz-sfien
 
 Write-Host '
 

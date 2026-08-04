@@ -1,13 +1,4 @@
-﻿# Converted from: KLU-WON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flare01/raw/KLU-WON.ANS
-# Source Revision: archive-sha256:70ac9c6e8f7c924a370aa1a1c2181a1b32fbcdb216a632b2af20b1d07c5dc8f1
-# Source SHA-256: 6b1fd743cc62474bdd2f275c9b044c562639beb306cd03ed039178cd46066ddc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KLU-WON.ANS by Klumzee (flare01); released in flare01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: KLU-WON.ANS by Klumzee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flare01-klu-won
 
 Write-Host '
            [1;36;46m▓████▀[0;36m▀▀[0;37m  [0;1;30m        W O N D E R L A N D         [0;36m▀▀[0;1;36;46m▀████▓[0m

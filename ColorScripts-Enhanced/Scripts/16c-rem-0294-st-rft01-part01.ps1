@@ -1,13 +1,4 @@
-﻿# Converted from: ST-RFT01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rem-0294/raw/ST-RFT01.ANS
-# Source Revision: archive-sha256:de0e4f7fd389e9f69e4e4052e02a1677636eec21b8439f9e251f3687c0ec6af9
-# Source SHA-256: 0317dd5f3c7916b64dd56c7378b7561183bccf83f79887bcaf252bc5e8c5d355
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-RFT01.ANS by Stony (rem-0294); released in rem-0294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: ST-RFT01.ANS by Stony | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rem-0294-st-rft01-part01
 
 Write-Host '
                                 ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄

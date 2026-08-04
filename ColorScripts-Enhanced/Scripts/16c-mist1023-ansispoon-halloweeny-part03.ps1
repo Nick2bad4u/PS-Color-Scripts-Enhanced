@@ -1,19 +1,4 @@
-﻿# Converted from: ANSISPOON-HALLOWEENY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1023/raw/ANSISPOON-HALLOWEENY.ANS
-# Source Revision: archive-sha256:85986912ea2464623a6cb0e6c05b9b87ede10865c5aaf338ceaa9a86cac2b00a
-# Source SHA-256: c2a4ba7281a2cab9e62a81f392f3f81fa2a3296c3fe48dce054621273aedb3a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ANSISPOON-HALLOWEENY.ANS by Ansispoon (Mistigris); released in mist1023 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Maddison
-# SAUCE Author: Ansispoon
-# SAUCE Group: Mistigris
-# SAUCE Date: 20231028
-# SAUCE Dimensions: 80x184
-# SAUCE Font: IBM VGA
-# Lines: 101-150
-# Columns: 1-80
+﻿# Artwork: Maddison by Ansispoon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1023-ansispoon-halloweeny-part03
 
 Write-Host '
 [1;30m▒[0;30m▒▒▒[0;31m▒[0;30m▒▒▒[0;1;30m▒[0;30m███[0;1;37m█[0;31m█[0;1;37m█[0;30m█ [0;31m█[0;1;37m█[0;1;30m▒[0;30m████[0;31m██[0;30m▒▒▒▒▒[0;1;34m▒[0;34m█[0;1;30m▒▒▒▒▒▒▒▒▒▒▒▒[0;30m████[0;1;34m█[0;30m▒▒▒▒[0;1;34m▒▒[0;34m██[0;30m▒[0;1;30m▒[0;30m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m

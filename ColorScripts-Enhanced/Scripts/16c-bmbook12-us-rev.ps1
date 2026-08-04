@@ -1,18 +1,4 @@
-﻿# Converted from: US-REV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook12/raw/US-REV.ANS
-# Source Revision: archive-sha256:ec66f5bb4ed961133c52314c375d67af30a5295789eb6bfc6eda91ebf8999fc2
-# Source SHA-256: f376c92c7288d4918bbdc152e1c0ea5da18d0c24286b3baed0ca76decc9ea4cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-REV.ANS by Avenger + Poti (black maiden); released in bmbook12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: revolution
-# SAUCE Author: ave + poti
-# SAUCE Group: black maiden
-# SAUCE Date: 19970228
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: revolution by Avenger + Poti | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook12-us-rev
 
 Write-Host '
 

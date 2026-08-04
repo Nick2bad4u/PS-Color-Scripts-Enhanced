@@ -1,18 +1,4 @@
-﻿# Converted from: PO-GSN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat1296/raw/PO-GSN.ANS
-# Source Revision: archive-sha256:7d01b0bd390151991b0a903d8d987d245c20f2b06635915da8eb049974bd356a
-# Source SHA-256: e3e6968ae62bfd7434fa52e3d414ac747e06ff87d8e2cd5e9ef10126b726f64c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PO-GSN.ANS by poti. (phat.); released in phat1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: gsn.
-# SAUCE Author: poti.
-# SAUCE Group: phat.
-# SAUCE Date: 19961130
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: gsn. by poti. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat1296-po-gsn
 
 Write-Host '
 ▄[30;47m■[0;1;33;47m░░░[0;30;47m░░[0;37;40m►[0;30;47m►[0;37;40m►[0;30;47m►[0;37;40m►[0;30;47m►[0;37;40m►[0;30;47m►[0;37;40m►[0;30;47m►[0;1;33;47m░[0m▄▄▄▄▄▄▄▄▄▄[1;33;47m░░░[0;30;47m█[0;37;40m▄▄[0;1;33;47m░░[0m▄▄▄▄▄[30;47m█[0;37;40m▄▄▄[0;1;33;47m░░[0m▄[30;47m░[0;37;40m▄▄▄▄▄▄▄▄[0;1;33;47m░░░[0m▄▄▄[30;47m♥░[0;37;40m►[0;30;47m►[0;37;40m►[0;30;47m►[0;37;40m►[0;30;47m►[0;37;40m►[0;30;47m►[0;37;40m►[0;30;47m►[0;37;40m►[0;30;47m►po[0m

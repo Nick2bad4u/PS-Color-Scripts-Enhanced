@@ -1,18 +1,4 @@
-﻿# Converted from: RL-POVP!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0196/raw/RL-POVP!.ANS
-# Source Revision: archive-sha256:b488878884154420cd3d4f315b5d1218512f30bbd731fa31bcae353756902b21
-# Source SHA-256: 709334d383fcfb2bf1140897303f1f86a5c57a7b364e71b86dff7b09e11dbe5b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL-POVP!.ANS by Rawlock (Opium); released in opx-0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Povertys Paradise
-# SAUCE Author: Rawlock
-# SAUCE Group: Opium
-# SAUCE Date: 19951211
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: Povertys Paradise by Rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0196-rl-povp
 
 Write-Host '
 [1;30m                                    [0m                 [1;34m████[0m

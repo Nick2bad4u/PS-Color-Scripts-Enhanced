@@ -1,20 +1,4 @@
-﻿# Converted from: JTE-MAT10.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hrmkiva2/raw/JTE-MAT10.ANS
-# Source Revision: archive-sha256:abc573be699b490f9317d70002a528632e59fc3fddf316663449886fd8c21a04
-# Source SHA-256: 301c025d323dd929ad4f2e8df933edd7ec36dfb598300779f7dd2697f736c1dd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JTE-MAT10.ANS by Jate (HiRMU); released in hrmkiva2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dA Vulva BBS Matrix screen
-# SAUCE Author: Jate
-# SAUCE Group: HiRMU
-# SAUCE Date: 20180811
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Not sure which BBS
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: dA Vulva BBS Matrix screen by Jate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hrmkiva2-jte-mat10
 
 Write-Host '
      [31m░[0m      [31m░░  .[0m            [1;30m▒ ░[0;30;47m██[0;1;30;40m▄■ ▄▄[0;1;30;47m▓▒▒▒░░░░            [0m▄▄

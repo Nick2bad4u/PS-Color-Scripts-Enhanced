@@ -1,18 +1,4 @@
-﻿# Converted from: NS-USED1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-04/raw/NS-USED1.ANS
-# Source Revision: archive-sha256:1dcdf112160ec589150680778cd449e8af485dfba89bb104c44cd133db2d6fc0
-# Source SHA-256: eba1481d9c2219e3def391b9f4a0a2856b704b41f9e0d5b6c49fded99ab12eb1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NS-USED1.ANS by ansichrist (used); released in used-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: used
-# SAUCE Author: ansichrist
-# SAUCE Group: used
-# SAUCE Date: 20000329
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: used by ansichrist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-04-ns-used1
 
 Write-Host '
 [1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;36;46m░░[0;36m▀[0;34m░[0;36m░[0;37m [0;36m▀[0;1;36;46m░[0;34;46m░▓[0;34;40m▄▄[0;31;40m   ▄▓[0;1;31;41m░▓▓░[0;31m▓▄▄█▀▓[0;1;31;41m░▓░[0;31m▓[0;1;31;41m░░▓▓█[0;1;31;47m▓▓[0;1;31;41m▓░[0;31m▄▀ ▀[0;1;31;41m░[0;31m▓[0;1;31;41m░░▓[0;1;31;47m▓[0;1;31;41m█▓░[0;31m█▄▀▀▀▄▄[0;1;31;41m░[0;31m▓▀[0;1;31;41m░░▓[0;1;31;47m▓[0;1;31;40m▄[0m   [34m▀[0;34;46m▓░[0;36;40m▀▀[0;34;40m  [0;36;40m▄[0;1;36;46m░[0m

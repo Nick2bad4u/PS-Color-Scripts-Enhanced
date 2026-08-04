@@ -1,18 +1,4 @@
-﻿# Converted from: DV8-TOAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook14/raw/DV8-TOAS.ANS
-# Source Revision: archive-sha256:f7fe2a62d3e7b3b16687ce251209098ea8d86719a4cfa33dae1489e0c9af9278
-# Source SHA-256: 7657096c32fe9ae83537257547c939384dc3dec33f82c40689959bd3df0aebec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DV8-TOAS.ANS by dv8 (black maiden); released in bmbook14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: toast 704
-# SAUCE Author: dv8
-# SAUCE Group: black maiden
-# SAUCE Date: 19970629
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: toast 704 by dv8 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook14-dv8-toas
 
 Write-Host '
 [1m█[0;1;47m░[0m▌▌  ▄ ▀[1;47m░▄[0;1;40m▄[0m▄  ▄[1m▄░[0m▀▄[1m▄▄▄▄▌ [0m▀[1m▀▀▀[0;1;47m█▄[0;1;40m▄[0m [1m▀▓▄█▌[0m  █  ▄[1m▄[0;1;47m▄[0;1;40m██[0;1;47m▄[0m▄ ▀▀[1;47m░█▌[0;1;40m▄[0m ▀[1m▀[0;1;47m▀[0;1;40m▓▄▄░[0m   [1;47m███[0;1;36;40m   █████[0m

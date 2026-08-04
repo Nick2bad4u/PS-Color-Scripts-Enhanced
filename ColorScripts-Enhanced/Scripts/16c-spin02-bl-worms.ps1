@@ -1,18 +1,4 @@
-﻿# Converted from: BL-WORMS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spin02/raw/BL-WORMS.ANS
-# Source Revision: archive-sha256:3cde50e59a0be9713b40f87d75b8cb62168e400a52dac471babfef5aef651f7f
-# Source SHA-256: 66d711deaf9b3984b8ca542590c246915e13f2f5f4e12e1c6d3c6aa7f390d5f4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BL-WORMS.ANS by Blader (spin); released in spin02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Worms
-# SAUCE Author: Blader
-# SAUCE Group: spin
-# SAUCE Date: 19980827
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Worms by Blader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spin02-bl-worms
 
 Write-Host '
                           _,sS$Ss,_       [32m_.,sS$$Ss,.[0m

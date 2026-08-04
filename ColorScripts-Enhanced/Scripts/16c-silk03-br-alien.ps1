@@ -1,13 +1,4 @@
-﻿# Converted from: br-alien.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/silk03/raw/br-alien.ans
-# Source Revision: archive-sha256:f2ee9db55a4d3dc8a2a295dc1714c5b8c1381f22271067f4590235031a112230
-# Source SHA-256: 020be0c432b36e9b4ef4faf435e33a88ff6ba071d27e5456887d039c928a0c08
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: br-alien.ans by Blackrain (silk03); released in silk03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: br-alien.ans by Blackrain | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-silk03-br-alien
 
 Write-Host '
 [1m[0m[1m[0m                 [1m,d$Pⁿ°"''`''"°ⁿ4$b,[0m          [1m,d$Pⁿ°"''`''"°ⁿ4$b,[0m

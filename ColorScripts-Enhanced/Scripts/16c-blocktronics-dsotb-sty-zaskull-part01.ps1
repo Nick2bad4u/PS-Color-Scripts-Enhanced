@@ -1,20 +1,4 @@
-﻿# Converted from: sty-zaskull.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-dsotb/raw/sty-zaskull.ans
-# Source Revision: archive-sha256:31e1fdfda207a2147f2b0badf1415308dc54d4c24afa56622db8a43f68f110f1
-# Source SHA-256: b3fbb8ead21e1b492997f6fd44dccef920ce1090f3fc3f8fbe1f7ff94bb76789
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sty-zaskull.ans by stygian (blocktronics); released in blocktronics-dsotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: pizzaskull_cassafrass
-# SAUCE Author: stygian
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190728
-# SAUCE Dimensions: 80x65
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Made with moebius
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: pizzaskull_cassafrass by stygian | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-dsotb-sty-zaskull-part01
 
 Write-Host '
 ▄▀[1m     [0m▀▀[107m▄[0;1;47m▄▄[0;30;107m blocktr[0;31;107mo[0;30;107mnic[0;31;107ms![0;1m█[0;107m▀▀▄▄▄▄▄[0m▀▀▀▀[1m  [0;33m▄▄▄▄▄▄▄▄  [0;37m▀▀▀▀[0;37;107m▄▄▄▄ ▀  ▀▀▀ ▀▀▀▀▀▀▀▀▀ ▀▀▀ [0m

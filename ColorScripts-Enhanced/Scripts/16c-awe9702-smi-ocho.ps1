@@ -1,18 +1,4 @@
-﻿# Converted from: SMI-OCHO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9702/raw/SMI-OCHO.ANS
-# Source Revision: archive-sha256:66fa024bb27d2c5c9da5d44e7d12f110f2c57bdedd32c6f0a850d91a30d582a8
-# Source SHA-256: e35130bb10450784f336dc8c0c5626264b9075096e4bef7dfa1ac3ddd2581d3c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMI-OCHO.ANS by Samurai (AWE Lettering); released in awe9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Ocho
-# SAUCE Author: Samurai
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970131
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Ocho by Samurai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9702-smi-ocho
 
 Write-Host '
 [35m░░[0m

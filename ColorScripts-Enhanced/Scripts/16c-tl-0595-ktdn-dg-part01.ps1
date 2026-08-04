@@ -1,18 +1,4 @@
-﻿# Converted from: KTDN-DG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl-0595/raw/KTDN-DG.ANS
-# Source Revision: archive-sha256:2a9ee1147d1683e4f1f557167c86371c5059e003792efbebaea013640a85da25
-# Source SHA-256: 3ee0293bbbae4c884db6f3bd0f73d6da5fa3c2a1f4107c3a092b7feb1ff7758e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KTDN-DG.ANS by Knight*Time (TekLordZ); released in tl-0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Dark Genesis
-# SAUCE Author: Knight*Time
-# SAUCE Group: TekLordZ
-# SAUCE Date: 19950401
-# SAUCE Dimensions: 80x25
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Dark Genesis by Knight*Time | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl-0595-ktdn-dg-part01
 
 Write-Host '
 [1;30m████████████████████████████████████████████████████████████████████████████████[0m

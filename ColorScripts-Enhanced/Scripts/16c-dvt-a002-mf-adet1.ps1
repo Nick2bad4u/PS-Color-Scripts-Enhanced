@@ -1,13 +1,4 @@
-﻿# Converted from: MF-ADET1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dvt-a002/raw/MF-ADET1.ANS
-# Source Revision: archive-sha256:cebc39699ae8b25ba518b2ba5782156ca1128226a0f97880c63d4b8cd53b3a57
-# Source SHA-256: f2cc93b842ddf8eeed1af8460535744179edc860a93dd58fc3732f48f93441db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MF-ADET1.ANS by Mangafan (dvt-a002); released in dvt-a002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: MF-ADET1.ANS by Mangafan | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dvt-a002-mf-adet1
 
 Write-Host '
             [1;33m█▄[0m      [1;33m▀█[0m     [1;33m█[0m    [1;33m▄█[0m    [1;33m▄█[0m       [1;33m▄█[0m

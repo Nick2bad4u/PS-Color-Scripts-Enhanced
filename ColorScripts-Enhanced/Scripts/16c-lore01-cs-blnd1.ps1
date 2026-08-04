@@ -1,17 +1,4 @@
-﻿# Converted from: CS-BLND1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lore01/raw/CS-BLND1.ANS
-# Source Revision: archive-sha256:fc43b93e9a302e7547a088ce455791b9de06a32af663cf260d834f799aafa87c
-# Source SHA-256: 1161a332411091ab07e374db4a36708a9ffecfe07eeb96f2c8658a292a5b8335
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CS-BLND1.ANS by crimsonskye (lore01); released in lore01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: bleng emag
-# SAUCE Author: crimsonskye
-# SAUCE Date: 19981018
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: bleng emag by crimsonskye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lore01-cs-blnd1
 
 Write-Host '
 [34m       ▄[0;37m [0;34m                         [0;37m  [0;34m▄[0;37m [0;34m■[0;37m [0m    [37m [0;34m▄▄■[0m                     [34m▄■[0;37m [0;34m       [0m

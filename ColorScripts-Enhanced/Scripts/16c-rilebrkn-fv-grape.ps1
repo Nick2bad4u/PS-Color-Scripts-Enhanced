@@ -1,18 +1,4 @@
-﻿# Converted from: FV-GRAPE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rilebrkn/raw/FV-GRAPE.ANS
-# Source Revision: archive-sha256:631709d46940d5f633b8ebca426a515d51357cee4cca25bed435a2a8fbf53a10
-# Source SHA-256: 839c9c9e26fc3e66b01591ea93c67fb5648ac7290ce043310ec79a175af0dee9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-GRAPE.ANS by fevre (rile); released in rilebrkn and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Grape Font
-# SAUCE Author: fevre
-# SAUCE Group: rile
-# SAUCE Date: 19970507
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Grape Font by fevre | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rilebrkn-fv-grape
 
 Write-Host '
 [30;46m█▄█▄ ▄▄▄▄▄    [0;1;36;46m░░▀[0;30;46m▄[0;1;36;40m▀▀▀▀▀▀▀[0;30;46m▄[0;1;36;46m▀[0;1;36;40m▀▀[0;30;46m▄██▄[0;1;36;40m▀▀▀[0;1;36;46m▀█▀[0;30;46m▄[0;1;36;46m▀▀[0;1;36;40m▀▀▀[0;30;46m▄[0;1;36;46m▀████▀[0;1;36;40m▀[0;30;46m▄███[0;1;36;40m▀▀[0;30;46m▄██[0;1;36;40m▀[0;30;46m▄ ▄▄▄   ▄▄  ▄▄▄█▄[0m

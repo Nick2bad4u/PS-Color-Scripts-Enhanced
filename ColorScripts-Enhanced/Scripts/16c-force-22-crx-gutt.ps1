@@ -1,18 +1,4 @@
-﻿# Converted from: CRX-GUTT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-22/raw/CRX-GUTT.ANS
-# Source Revision: archive-sha256:e9d0326568be41d972423c1883bc8d5eea4966bab9e81326785f82909893446c
-# Source SHA-256: 868fc726439dc3b517cc2c6b1f81427a20936280f08cc449310829cedb3cdeca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CRX-GUTT.ANS by chr0nix (f0rc3); released in force-22 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: gutter emag
-# SAUCE Author: chr0nix
-# SAUCE Group: f0rc3
-# SAUCE Date: 19980727
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: gutter emag by chr0nix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-22-crx-gutt
 
 Write-Host '
 [1;36;46m░▒▓▓   ░▓▄▄▄▓▓▒[0;36m▒[0;33m░░[0m [36m▀[0;1;36m▀[0;1;37;46m▀██▓[0;1;37;40m▓█[0;1;36;46m█▓▓▒▒░[0m [1;31;41m▄[0m▓[1;31m▄[0;31m▄[0m  [31m▄[0;1;31;41m▄▌[0;31m▌[0;36m▐[0;1;36;46m▐█[0;1;37;46m██▓[0;1;37;40m▓[0;1;36;40m▓[0;1;36;46m▓▒▒░░[0;36m▓▀▀▀▀[0;1;36m▀▀▀▀[0;1;36;46m▀█[0;1;37;46m███▓[0;1;36;46m███[0;1;36;40m▓[0;1;36;46m▓▒▒[0m

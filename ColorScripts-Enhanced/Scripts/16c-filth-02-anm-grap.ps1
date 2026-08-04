@@ -1,18 +1,4 @@
-﻿# Converted from: ANM-GRAP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/filth-02/raw/ANM-GRAP.ANS
-# Source Revision: archive-sha256:46b99aa483384d08c7e9024c193a186fa17d0f474da97a19dd27e922b3876973
-# Source SHA-256: 80b7a89813cff0448bb157a8075b1bdbe39dfc234c8664435b31e0afc77c4a4d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ANM-GRAP.ANS by anomite (scum); released in filth-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: barf-vomit-puke
-# SAUCE Author: anomite
-# SAUCE Group: scum
-# SAUCE Date: 19970604
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: barf-vomit-puke by anomite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-filth-02-anm-grap
 
 Write-Host '
 [36m▓░[0;37m [0;1;30m▄▄[0m  [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0m   [1;30m ▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m  [1;30m▄▄▄▄▄▄[0m     [36m▄▄▄▄▄░░[0m

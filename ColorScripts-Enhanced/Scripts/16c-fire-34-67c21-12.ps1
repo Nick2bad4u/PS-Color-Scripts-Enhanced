@@ -1,19 +1,4 @@
-﻿# Converted from: 67C21-12.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/67C21-12.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: d28920e506e3ff00815cbdcfc3185e18619f501877856f5493905b4a4decdb16
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 67C21-12.ANS by aesthetic (blocktronics); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: december
-# SAUCE Author: aesthetic
-# SAUCE Group: blocktronics
-# SAUCE Date: 20200929
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: december by aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-67c21-12
 
 Write-Host '
 [1;34;44m░[0;34m████████████████▒▒   [0;1;37m░░░░░[0m▄[31m  [0;37m▄[0m         [34m▀▀[0;1;34m▀[0;36m▀▀[0;1;34m▀[0;34m▀█[0;1;34;44m▄░   [0;1;33;44m            [0;1;34;44m      ▀  ▀▀▀▀▀▓[0m

@@ -1,15 +1,4 @@
-﻿# Converted from: FU-SE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0297/raw/FU-SE2.ANS
-# Source Revision: archive-sha256:ecfcd3f5cd2c4412c60edbfa5c15fbea724948a8a18d0e8a8931276c9082657e
-# Source SHA-256: 1a385f98d823da9da4fbe568b129aac96e7c913efde008dca6c1d38800163101
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FU-SE2.ANS by Fusion (root0297); released in root0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Spilled Entrails
-# SAUCE Author: Fusion
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: Spilled Entrails by Fusion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0297-fu-se2
 
 Write-Host '
 

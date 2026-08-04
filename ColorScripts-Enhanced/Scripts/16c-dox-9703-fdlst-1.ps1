@@ -1,17 +1,4 @@
-﻿# Converted from: FDLST-1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_9703/raw/FDLST-1.ANS
-# Source Revision: archive-sha256:77a6a7f6432126598204aeed388eb7e1cd0dbc6097b43b2ef1dd1e89f5f350c2
-# Source SHA-256: 680906385c6d8add44f2c9b95e7bebd15266cb7873504062b6da267a696dcaf5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FDLST-1.ANS by fd and lst! (dox_9703); released in dox_9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: styles! its a war
-# SAUCE Author: fd and lst!
-# SAUCE Date: 19970216
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: styles! its a war by fd and lst! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-9703-fdlst-1
 
 Write-Host '
 

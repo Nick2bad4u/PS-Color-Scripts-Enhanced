@@ -1,17 +1,4 @@
-﻿# Converted from: FF-MNKEY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-01/raw/FF-MNKEY.ANS
-# Source Revision: archive-sha256:426dbb36b724e33c2040ddd8594afb85cb1f6463b96a01a2c52ed58e8dd1db9c
-# Source SHA-256: cf07797aa0f80fe09f8a3a633c182f82f882ea0d554a9ee27ae2243d70492720
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FF-MNKEY.ANS by Free Fall (Hype.produktions); released in hype-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: public.use.monkey
-# SAUCE Author: Free Fall
-# SAUCE Group: Hype.produktions
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: public.use.monkey by Free Fall | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-01-ff-mnkey
 
 Write-Host '
                     [31m▄▄██▄▄▓▓█████[0;30;41m░░[0;1;31;41m▄▄▄▄[0;31m▄▄▄[0m                        [37m▄▄▄█[0;1;37;47m▄▓▄[0m█▄▄▄▄

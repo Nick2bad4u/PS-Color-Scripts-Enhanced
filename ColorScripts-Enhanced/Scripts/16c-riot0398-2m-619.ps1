@@ -1,17 +1,4 @@
-﻿# Converted from: 2M-619.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot0398/raw/2M-619.ANS
-# Source Revision: archive-sha256:f3323ad6a5714f493e59be69c1f7c1fd2dd20a2ec3f74c575b86fba1be376e97
-# Source SHA-256: 00c06dc67dd16f6d33df00fe78e2e02db64e0d5ccc4251fe43a7c7347182e3eb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2M-619.ANS by 2much4u (RioT Productions); released in riot0398 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: 2much4u
-# SAUCE Group: RioT Productions
-# SAUCE Date: 19980315
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: 2M-619.ANS by 2much4u | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot0398-2m-619
 
 Write-Host '
  [36m█[0m    [36m█[0m    [36m██[0;37m [0;35;46m█[0;37;40m [0;35;46m██[0m   [36;40m██[0;35;46m█[0;36;40m█[0;35;46m█[0;37;40m  [0;36;40m█[0;35;46m▓[0;36;40m█[0;37;40m [0;36;40m█[0;37;40m  [0;35;46m█[0;36;40m█[0;35;46m█[0m   [36;40m█[0;35;46m█[0m    [35;46m▓[0;37;40m [0;36;40m█[0;35;46m█[0;37;40m [0;35;46m█[0;36;40m█[0;37;40m [0;36;40m█[0;35;46m██[0;37;40m [0;35;46m█[0;36;40m███[0;37;40m  [0;36;40m██[0m    [36;40m█[0m   [36;40m█[0m

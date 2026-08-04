@@ -1,18 +1,4 @@
-﻿# Converted from: MR-DRG2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-21/raw/MR-DRG2.ANS
-# Source Revision: archive-sha256:d980c3e2187ff0ef4bb9edce960381dc01c8374df0b01b4ddb8d104484f4b936
-# Source SHA-256: dbbc3d862141028f0fb66226c398fec21f5905f9e3833a5fa08d54d81fbff018
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-DRG2.ANS by Mr. Wrong (AWE Lettering); released in awe-21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Dr.Ganja
-# SAUCE Author: Mr. Wrong
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19990130
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Dr.Ganja by Mr. Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-21-mr-drg2
 
 Write-Host '
          [32m░░[0m   [32m [0m                [32m [0;1;30m▀[0;32m▄[0;37m░[0;32m     ░   [0m               [32m [0m

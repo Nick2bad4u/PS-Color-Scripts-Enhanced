@@ -1,19 +1,4 @@
-﻿# Converted from: g-soap.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-004/raw/g-soap.ans
-# Source Revision: archive-sha256:c716e28d4b828a0135c19992fe2f71464879479199ebc42fd3d533b5bd3bf4d4
-# Source SHA-256: 4494efb20c6b26a244fbbbf9d4f3304a97840bcbcb00c0ea38ba1de504ac9224
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: g-soap.ans by G. (lEGACY kREW!); released in lgcy-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: S0AP
-# SAUCE Author: G.
-# SAUCE Group: lEGACY kREW!
-# SAUCE Date: 20210405
-# SAUCE Dimensions: 80x26
-# SAUCE Font: IBM VGA
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: S0AP by G. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-004-g-soap
 
 Write-Host '
                   [1;37;40m,[0m-.                         [1m,[0m-.    ,──.   ,-.

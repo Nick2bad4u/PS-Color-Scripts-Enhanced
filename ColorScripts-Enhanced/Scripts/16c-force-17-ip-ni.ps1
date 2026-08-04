@@ -1,18 +1,4 @@
-﻿# Converted from: IP-NI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-17/raw/IP-NI.ANS
-# Source Revision: archive-sha256:a388e5620de32c4145fd1d2f2e70343f674ce332483184514a867f9d5d569bc4
-# Source SHA-256: 02f53a1ed61426e943aea4bbd15c86bfcfca77b84e62960130d20fb132486796
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IP-NI.ANS by Impulse (Force); released in force-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Negative Infinity
-# SAUCE Author: Impulse
-# SAUCE Group: Force
-# SAUCE Date: 19970428
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Negative Infinity by Impulse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-17-ip-ni
 
 Write-Host '
                                                 [1;33m      [0m [1;33m  [0m

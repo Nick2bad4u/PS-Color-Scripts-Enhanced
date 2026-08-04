@@ -1,17 +1,4 @@
-﻿# Converted from: US-&2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9609/raw/US-%262.ANS
-# Source Revision: archive-sha256:96c031e04e5c479ef9ed73f1afa21a3db6bca2a2de7ad88a46888136232884ff
-# Source SHA-256: d1b16766d5ec7b525d1d1d7b23d8fa9187be622cea226465cf8e5f7c12957af4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-&2.ANS by Elliz + Spirit Of Illusion + Circus Freak (Otterpop!@); released in sms-9609 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: & (Ampersand)
-# SAUCE Author: Elliz & SOI
-# SAUCE Group: Otterpop!@
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: & (Ampersand) by Elliz + Spirit Of Illusion + Circus Freak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9609-us-2-part01
 
 Write-Host '
        [34m▄[0;31m▄▄    [0;34m▄[0;31m▄▄[0m      [34m▄[0;31m▄▄[0m          [34m▄[0;31m▄▄[0m      [34m▄[0;31m▄▄[0m       [34m▄[0;31m▄▄    [0;34m▄[0;31m▄▄[0m        [34m▄[0;31m▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: 2M-SHCOL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot1297/raw/2M-SHCOL.ANS
-# Source Revision: archive-sha256:7bd5836fa16624c33d90d7b8d157576c042e1a7f12ab842c8fb178c52f465fc3
-# Source SHA-256: 5408089c87ea863a3de869f8d70f343c9812260d7e729335aaae72617af675b4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2M-SHCOL.ANS by 2much4u (RioT Productions); released in riot1297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: A short colly
-# SAUCE Author: 2much4u
-# SAUCE Group: RioT Productions
-# SAUCE Date: 19971219
-# SAUCE Dimensions: 80x47
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: A short colly by 2much4u | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot1297-2m-shcol
 
 Write-Host '
 [1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m--------------------------------------------------------------------------------[0m

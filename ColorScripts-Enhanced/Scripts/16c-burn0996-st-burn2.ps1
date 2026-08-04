@@ -1,18 +1,4 @@
-﻿# Converted from: ST-BURN2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/burn0996/raw/ST-BURN2.ANS
-# Source Revision: archive-sha256:1d0613dc7d765beb82132eb272a2b52814aed11a76720323c6b2b8307b2d07bf
-# Source SHA-256: 06852e4ed34ffa13673411dc9f8520b9366d07820046bc7c204404281f776a13
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-BURN2.ANS by static (burn); released in burn0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: burn logo#2
-# SAUCE Author: static
-# SAUCE Group: burn
-# SAUCE Date: 19960826
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: burn logo#2 by static | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-burn0996-st-burn2
 
 Write-Host '
 

@@ -1,20 +1,4 @@
-﻿# Converted from: n(_ratsnest.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nms_pack1/raw/n(_ratsnest.ans
-# Source Revision: archive-sha256:f99a1419a85f2107a1ef905f45d33edf79d1a955e17b541807601af9adb4edeb
-# Source SHA-256: e3c63ee4c18ec41b8fc9fe84b73c3b5b147edaede61632024a5cd54ad6f811e6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: n(_ratsnest.ans by nemesulku (acid rain); released in nms_pack1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Rat?'s Nest login scrren
-# SAUCE Author: nemesulku
-# SAUCE Group: acid rain
-# SAUCE Date: 19980329
-# SAUCE Dimensions: 80x20
-# SAUCE Font: IBM VGA
-# SAUCE Comments: A login screen for the Rat's Nest bbs -bracket
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Rat?'s Nest login scrren by nemesulku | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nms-pack1-n-ratsnest
 
 Write-Host '
             [1;30;40m▄■.[0m      [1;31;40mhosted by[0m     [1;30;40m.■▄  [0m▄[1m▄[0m▄[1;30m▄▄   ▄[0m▄[1m▄[0m▄[1;30m▄ [0;1;31mw e l c u m[0m

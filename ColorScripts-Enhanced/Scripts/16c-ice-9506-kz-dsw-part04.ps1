@@ -1,13 +1,4 @@
-﻿# Converted from: KZ-DSW.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9506/raw/KZ-DSW.ICE
-# Source Revision: archive-sha256:54681166ad0e1930ad04020dc73021d068005fba5342f2f81e02d3344e14b83c
-# Source SHA-256: c74cd46a5238c752a83ebf81b318bcb401e2da16ab59318d1b99eb90168dd7d2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KZ-DSW.ICE by Kamikazee (ice-9506); released in ice-9506 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 141-172
-# Columns: 1-80
+﻿# Artwork: KZ-DSW.ICE by Kamikazee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9506-kz-dsw-part04
 
 Write-Host '
 [33m[0m

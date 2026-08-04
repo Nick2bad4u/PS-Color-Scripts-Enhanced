@@ -1,16 +1,4 @@
-﻿# Converted from: NC-FOAM3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0397/raw/NC-FOAM3.ANS
-# Source Revision: archive-sha256:147f0608c1bd711b116f3ad049b80e805dfbb40e7d23ffce5f4580a5a57bae0f
-# Source SHA-256: c33cf9e9304835fafcf5d8dd2dd88eb32cae08b5ef8d51071332912539885417
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NC-FOAM3.ANS by Necrolyte (root0397); released in root0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Foam
-# SAUCE Author: Necrolyte
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Foam by Necrolyte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0397-nc-foam3
 
 Write-Host '
                                                          [34m▄[0m

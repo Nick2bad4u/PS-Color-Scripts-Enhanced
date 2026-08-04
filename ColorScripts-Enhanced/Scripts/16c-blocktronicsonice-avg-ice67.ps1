@@ -1,19 +1,4 @@
-﻿# Converted from: avg-ice67.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronicsonice/raw/avg-ice67.ans
-# Source Revision: archive-sha256:09feb7a5adb913c88be16d43a1a4e86bf7073f13399d8bc54e5478cad35282e5
-# Source SHA-256: 4181ab3b526161c08595f3d381f17a8f1a80fc84bc1202e02e583467eb2e8c67
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-ice67.ans by avg (blocktronics); released in blocktronicsonice and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ice font
-# SAUCE Author: avg
-# SAUCE Group: blocktronics
-# SAUCE Date: 20210311
-# SAUCE Dimensions: 80x44
-# SAUCE Font: IBM VGA
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: ice font by avg | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronicsonice-avg-ice67
 
 Write-Host '
 

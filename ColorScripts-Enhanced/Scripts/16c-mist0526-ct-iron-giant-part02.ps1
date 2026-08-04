@@ -1,20 +1,4 @@
-﻿# Converted from: CT-IRON_GIANT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0526/raw/CT-IRON_GIANT.ANS
-# Source Revision: archive-sha256:96e9c14a0862fcfb7b203f3d94f85e28654461fdbf12521de185a12d5fb418bb
-# Source SHA-256: 82f292afa4ded96a683292cc010ee379b4c0e09721cb9120814efa5fdcc426c0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CT-IRON_GIANT.ANS by Cthulu (Mistigris); released in mist0526 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: You Don't Have To Be A Gun
-# SAUCE Author: Cthulu
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260622
-# SAUCE Dimensions: 80x90
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Excofles font type designed by the Drizzy Foundry in Indonesia.
-# Lines: 51-90
-# Columns: 1-80
+﻿# Artwork: You Don't Have To Be A Gun by Cthulu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0526-ct-iron-giant-part02
 
 Write-Host '
 [1;30m████████████████████████████████████▄▄[0m           [1;34m▀▀█████████████████████████████[0m

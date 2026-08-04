@@ -1,18 +1,4 @@
-﻿# Converted from: BU-NWS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9704/raw/BU-NWS.ANS
-# Source Revision: archive-sha256:f29d1a72731ce9383841840bc86b0749ff1457d1c25c6a64baa5adfdac9e6943
-# Source SHA-256: 6eb6cdf72e49cb69ed067d218877570b9ce143e4b482f25ad3560027a67de55a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BU-NWS.ANS by BuTTMaN (cSf/mAiden); released in mdn-9704 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: night world system
-# SAUCE Author: BuTTMaN
-# SAUCE Group: cSf/mAiden
-# SAUCE Date: 19970331
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: night world system by BuTTMaN | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9704-bu-nws
 
 Write-Host '
 [1;30m[0m

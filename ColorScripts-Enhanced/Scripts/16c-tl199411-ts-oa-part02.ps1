@@ -1,13 +1,4 @@
-﻿# Converted from: TS-OA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl199411/raw/TS-OA.ANS
-# Source Revision: archive-sha256:2327064d2e76a821c0fb598daa2f23a5d0c76b4b5b5337e012c8056f0db5f107
-# Source SHA-256: 0c1af3b5800fe056130f661726483757bf0ca3618fad79b35e74cae1b15d3b21
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-OA.ANS by Ts (tl199411); released in tl199411 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 44-81
-# Columns: 1-80
+﻿# Artwork: TS-OA.ANS by Ts | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl199411-ts-oa-part02
 
 Write-Host '
                             [35m█  ▐▌[0m                             [35m▐█[0m

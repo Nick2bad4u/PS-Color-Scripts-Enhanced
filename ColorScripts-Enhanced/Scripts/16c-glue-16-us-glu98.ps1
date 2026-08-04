@@ -1,18 +1,4 @@
-﻿# Converted from: US-GLU98.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-16/raw/US-GLU98.ANS
-# Source Revision: archive-sha256:b44675c14d0a6b8706358886e9a05961468006b6ae7257eede82583c6468b7b5
-# Source SHA-256: 72f13af3405fc728774bb0234aeb9f23d84c5c512d567d4d217ca1dbc49482c9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GLU98.ANS by Retribution + Catch 22 (glue d00d); released in glue-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: glue in da ninEIGHT
-# SAUCE Author: retribution&catch22
-# SAUCE Group: glue d00d
-# SAUCE Date: 19981122
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: glue in da ninEIGHT by Retribution + Catch 22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-16-us-glu98
 
 Write-Host '
 [1;30m[0m

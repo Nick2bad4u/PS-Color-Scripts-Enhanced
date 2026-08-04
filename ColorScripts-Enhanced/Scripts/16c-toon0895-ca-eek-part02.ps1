@@ -1,13 +1,4 @@
-﻿# Converted from: CA-EEK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toon0895/raw/CA-EEK.ANS
-# Source Revision: archive-sha256:c1a6798ea83d0ccac05fb0d58c558b4384e596f6d867896c83346030bd76baa1
-# Source SHA-256: 38bc41914e09af7e986d8d64c12c3e31b1bfb2eeb050980bc067769a7d3e440c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CA-EEK.ANS by Calamity (toon0895); released in toon0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 33-68
-# Columns: 1-80
+﻿# Artwork: CA-EEK.ANS by Calamity | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toon0895-ca-eek-part02
 
 Write-Host '
             [1;30m▄▄▄▄██[0;1;30;45m▀[0;35m███████▄▄▄▄▄[0;1;30m▀▀▀▀▀▀▄▄▄███[0;1;30;45m▄▀[0;35m██▀  ▄▄▄▄▀▀▄▄█▄▄███████████████▄▄▄▀[0m

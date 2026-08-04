@@ -1,13 +1,4 @@
-﻿# Converted from: IC03.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gel-001/raw/IC03.ANS
-# Source Revision: archive-sha256:f39b33e02636cbb4b211973a27d1eb69bf403daf2130e31318b895ea824d1e7b
-# Source SHA-256: 46695708dce468f3b59982c1e3f131951fc3a8b025be015f97b19f01e28f59a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IC03.ANS by Incesticide (gel-001); released in gel-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: IC03.ANS by Incesticide | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gel-001-ic03
 
 Write-Host '
                                                                    [36m█▀█[0;37m [0;36m█▀[0;37m [0;36m█[0m

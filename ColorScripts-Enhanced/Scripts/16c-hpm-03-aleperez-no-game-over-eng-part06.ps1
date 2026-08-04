@@ -1,19 +1,4 @@
-﻿# Converted from: aleperez-no_game_over_eng.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hpm-03/raw/aleperez-no_game_over_eng.ans
-# Source Revision: archive-sha256:f306b491a21cb141b48eee782e0899699764f418773c4914057147ff246d8ce4
-# Source SHA-256: b3681b76699050579b30596ccce971ce78acd85c046910158563f5ccdff831e1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: aleperez-no_game_over_eng.ans by @AljandroPrez (HPM); released in hpm-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: no game over
-# SAUCE Author: @AljandroPrez
-# SAUCE Group: HPM
-# SAUCE Date: 20230405
-# SAUCE Dimensions: 80x375
-# SAUCE Font: IBM VGA
-# Lines: 235-281
-# Columns: 1-80
+﻿# Artwork: no game over by @AljandroPrez | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hpm-03-aleperez-no-game-over-eng-part06
 
 Write-Host '
 [1;34m███[0;1;37m█[0m [32m████████[0;37m [0;1;37m█[0;1;36m████████████████████████[0m  [1;30m█████[0m [1;34m████████████████████████[0m [36m██████▄▄[0m

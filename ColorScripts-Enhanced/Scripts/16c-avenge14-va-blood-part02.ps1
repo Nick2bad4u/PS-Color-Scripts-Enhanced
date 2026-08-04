@@ -1,18 +1,4 @@
-﻿# Converted from: VA-BLOOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge14/raw/VA-BLOOD.ANS
-# Source Revision: archive-sha256:b0e749d5e6297574610409aa68f6dd9e8c54af434247cd2b743b8d1e2d2406d7
-# Source SHA-256: 0e6215a85412365eb9780daad62720b567486a5fa3ed4da101bd7e1406462754
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VA-BLOOD.ANS by VampOfT (The AvengeCult); released in avenge14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: BLOOD
-# SAUCE Author: VampOfT
-# SAUCE Group: The AvengeCult
-# SAUCE Date: 19990228
-# SAUCE Dimensions: 80x55
-# Lines: 22-55
-# Columns: 1-80
+﻿# Artwork: BLOOD by VampOfT | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge14-va-blood-part02
 
 Write-Host '
 ██▓▄▄▄ [1;30m▀▀▄▄▄▄[0m                                                            ▄▄▄▄███

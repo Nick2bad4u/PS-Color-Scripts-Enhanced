@@ -1,18 +1,4 @@
-﻿# Converted from: FA-HYM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst0896/raw/FA-HYM.ANS
-# Source Revision: archive-sha256:e4d7808a3aee56a0f088b81af2c166d34ffb9daae39e27d0b2d33816c6c524c2
-# Source SHA-256: 3ed1bc83a1b07ec3dbb6aba4172221ba1e2fb79f518c612918ec0ce7dac5e745
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FA-HYM.ANS by fate (twisted); released in twst0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: hymen
-# SAUCE Author: fate
-# SAUCE Group: twisted
-# SAUCE Date: 19960816
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: hymen by fate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst0896-fa-hym
 
 Write-Host '
   [1m▄▄[0m                                              [1;30m▄▄▄[0m      [1;30m▄▄▄■[0m      [1;30m▄▄■    [0;1;33m▌[0m

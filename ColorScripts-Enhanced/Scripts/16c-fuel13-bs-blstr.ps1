@@ -1,18 +1,4 @@
-﻿# Converted from: BS-BLSTR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel13/raw/BS-BLSTR.ANS
-# Source Revision: archive-sha256:570310635bd377c51dda6add80730abba1fa8786bf6aaf423ae20c54dbfdb41a
-# Source SHA-256: b967b5398c38cb18c43a2c5e914e4468b7403a5a7468f30f50e3b819db466f7e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-BLSTR.ANS by burps (Fuel Productions); released in fuel13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Blister #3
-# SAUCE Author: burps
-# SAUCE Group: Fuel Productions
-# SAUCE Date: 19970525
-# SAUCE Dimensions: 80x25
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Blister #3 by burps | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel13-bs-blstr
 
 Write-Host '
 [1;31;41m▀[0;1;31;40m██ ▄▄[0;31m▄▄ [0;1;31m▀▀▀▀[0;1;31;41m▓[0;31m [0;1;31m▄▄[0;31m▄▄ [0;1;31m█[0;1;31;41m░▀[0;1;31;40m█[0;1;31;41m▓[0;1;31;40m▀▀▀▀[0;1;31;41m▓[0;1;31;40m▀▀▀[0;31m▀[0;1;31m▀[0;31m▀[0;1;31m▀▀▀▀▀ ▄▄[0;31m▄▄ [0;1;31m▀▀▀[0;1;31;41m▓▄[0;1;31;40m███▀▀▀▀▀▀▀[0;1;31;41m▓[0;1;31;40m▀▀▀▀▀▀▀▀▀▀▀[0;1;31;41m▓[0;1;31;40m████[0m

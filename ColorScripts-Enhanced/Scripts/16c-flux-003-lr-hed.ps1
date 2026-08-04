@@ -1,16 +1,4 @@
-﻿# Converted from: LR!-HED.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flux-003/raw/LR!-HED.ANS
-# Source Revision: archive-sha256:c8241d6e438a30e14e803d31ea9639f514382ec0df6188aa9d91ed9f1ddec867
-# Source SHA-256: ba50a6331bcb55fa45bcf1012e94beec938be01f5921f5a159cdf97a77e84731
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LR!-HED.ANS by Late Riser (flux-003); released in flux-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Soup
-# SAUCE Author: Late Riser
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: The Soup by Late Riser | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flux-003-lr-hed
 
 Write-Host '
  [34m▄███[0;37;44m   [0;34;40m█████████████████████████████████████████████████████████████[0;1;30;44m░[0;34m███[0;1;30;44m░▒▓▓▓[0;1;30;40m▄[0;34m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SPH_HOTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sadist03/raw/SPH_HOTH.ANS
-# Source Revision: archive-sha256:aad069a20b3a55e608ff5f7b3cbbfa85da447754484a4340da178067d56a89cc
-# Source SHA-256: e4368149cb763e10d4131824710ce9967637eeaaf741696817f9d1afe7f9b1e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPH_HOTH.ANS by sephiroth (sadist); released in sadist03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: hoth
-# SAUCE Author: sephiroth
-# SAUCE Group: sadist
-# SAUCE Date: 19990201
-# SAUCE Dimensions: 80x166
-# Lines: 42-82
-# Columns: 1-80
+﻿# Artwork: hoth by sephiroth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sadist03-sph-hoth-part02
 
 Write-Host '
 [33m▐[0;1;33;43m░[0;33m▐[0;1;33;43m░▒▓[0;33m█ [0;31m▄[0;37m [0;31m▀▀▄▄▄[0;1;31;41m▄[0;1;31;47m▓[0;1;31;41m▄██▀[0;31m▀[0;37m [0;1;37;47m▐▀▀[0m▀    ▀▀▄[1;47m▀▄[0m▄▀[1;47m░░[0m█▀▀    ▀[1;47m▀▀▀▀█[0;1;30;47m▐[0m [31m▀[0;1;31;41m▀▀[0;1;31;47m▄▄▀▓▓[0;1;31;41m█[0;1;31;47m▓[0;1;31;41m█▄▄[0;31m▄[0;37m [0;33m█[0;1;33;43m█████▀[0;33m▀  [0m

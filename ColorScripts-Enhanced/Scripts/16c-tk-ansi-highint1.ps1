@@ -1,19 +1,4 @@
-﻿# Converted from: HIGHINT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tk-ansi/raw/HIGHINT1.ANS
-# Source Revision: archive-sha256:7a6e15a450305cb977de0a4eb06cf4ca525baa4933c9f7af1cf6080dced8bf2d
-# Source SHA-256: d6633235a45379d7fd0f6749517391ce1b01505a40ff8e294903d9aa4d094990
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HIGHINT1.ANS by Tank (RPM); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: High Intensity BBS Ad
-# SAUCE Author: Tank
-# SAUCE Group: RPM
-# SAUCE Date: 19911017
-# SAUCE Dimensions: 80x24
-# SAUCE Comments: I think this was an unfinished or prototype of a future ansi for |  a bbs.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: High Intensity BBS Ad by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tk-ansi-highint1
 
 Write-Host '
         [1m▄[0;1;44m▀▀[0;1;30;47m▒░░▒[0;1;37;44m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;37;40m█▓[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: PIZZATOE-AMY-QING_ZOMBIE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1024/raw/PIZZATOE-AMY-QING_ZOMBIE.ANS
-# Source Revision: archive-sha256:6949840195965f5eb9696cfb423e381432d7ccfa36b66290e336e4608b7c12f8
-# Source SHA-256: de4a82c9afbc1d940ca6598fe312690232e3aec8251e97ddbe649ab480a08551
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PIZZATOE-AMY-QING_ZOMBIE.ANS by Amy (Pizzatoe); released in mist1024 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: QingZombie
-# SAUCE Author: Amy
-# SAUCE Group: Pizzatoe
-# SAUCE Date: 20241025
-# SAUCE Dimensions: 96x48
-# SAUCE Font: IBM VGA
-# Lines: 1-48
-# Columns: 1-96
+﻿# Artwork: QingZombie by Amy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1024-pizzatoe-amy-qing-zombie
 
 Write-Host '
                                        [34m☻☻☻[0;37m0[0;31m00000[0;37m0[0m

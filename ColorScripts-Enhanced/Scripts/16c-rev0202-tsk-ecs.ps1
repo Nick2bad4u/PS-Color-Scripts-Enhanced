@@ -1,13 +1,4 @@
-﻿# Converted from: TSK-ECS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0202/raw/TSK-ECS.ANS
-# Source Revision: archive-sha256:2dab715e9f2d819e9161d3954fa8210558a1b83f118c830394e2fdee6408a093
-# Source SHA-256: 0a65adbd121ce61bb43f653914199923036f73fc2f20fc10e59ebbdb30dccd42
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-ECS.ANS by The Silent Killer (rev0202); released in rev0202 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: TSK-ECS.ANS by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0202-tsk-ecs
 
 Write-Host '
                              [1;33m [0m

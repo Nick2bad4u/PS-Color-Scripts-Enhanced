@@ -1,13 +1,4 @@
-﻿# Converted from: Amiga.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1oo_gnor/raw/Amiga.ans
-# Source Revision: raw-sha256:9c23dc6c1fbfa2134e7ae9a1db8b693e4030abbb53bd3a3ce6921d25810bda1f
-# Source SHA-256: 9c23dc6c1fbfa2134e7ae9a1db8b693e4030abbb53bd3a3ce6921d25810bda1f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Amiga.ans by Neurodancer (1oo_gnor); released in 1oo_gnor and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: Amiga.ans by Neurodancer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1oo-gnor-amiga
 
 Write-Host '
 ♀

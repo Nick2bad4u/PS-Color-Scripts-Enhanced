@@ -1,18 +1,4 @@
-﻿# Converted from: 22-VES2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-15/raw/22-VES2.ANS
-# Source Revision: archive-sha256:27d6625e69a5207f7e1ecdf7cdf18b62e352300eb88e02c3e1b0355793535d53
-# Source SHA-256: 6e7d4f902496e035ea903db2a0d4bee4b473fdcb981b0b1354615bb11e40804b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 22-VES2.ANS by catch22 (eulg); released in glue-15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: v354l15
-# SAUCE Author: catch22
-# SAUCE Group: eulg
-# SAUCE Date: 19981028
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: v354l15 by catch22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-15-22-ves2
 
 Write-Host '
 [1;34;47m▒▒▓▓▓[0;1;34;44m███████▀▀▀[0;34m▀▀▀▀██[0;1;34;44m [0;34m███[0;1;34;44m▀[0;34m█[0;1;34;44m▄▄[0;34m██████▄[0;1;30m [0;36m▀[0;1;36;46m▀██████████████████▓░[0;36m██[0;1;30;46m [0;36m█▀▀▀ [0;34m▄▄[0;1;34m▄▄[0;1;34;44m▄██[0m [31m█[0;30;41mn[0;31;40m█[0;1;31;41m ░[0m

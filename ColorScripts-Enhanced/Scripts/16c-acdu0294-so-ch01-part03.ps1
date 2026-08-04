@@ -1,18 +1,4 @@
-﻿# Converted from: SO-CH01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0294/raw/SO-CH01.ANS
-# Source Revision: archive-sha256:0b07fb9329d81f40ead17ad1bfccb58be060a9dc7ff2828ea9938c5cac09a5a8
-# Source SHA-256: d9dae706073670abfe7236dbd07e82f50a82ffee7c148194c180d8901f933e1d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SO-CH01.ANS by Somms (ACiD Productions); released in acdu0294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Channel Zer0
-# SAUCE Author: Somms
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940201
-# SAUCE Dimensions: 80x135
-# Lines: 93-135
-# Columns: 1-80
+﻿# Artwork: Channel Zer0 by Somms | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0294-so-ch01-part03
 
 Write-Host '
 [1;35;45m▓▓[0;1;35;40m█████[0;1;35;45m▌[0m   ▓▓█▓▓█▓█ [1;30m███████████████████▄[0;1;37m▀[0;1;37;47m██████████████████████████[0m [1;30;40m▓▓▓▄▀▀▓[0;1;30;47m████[0m

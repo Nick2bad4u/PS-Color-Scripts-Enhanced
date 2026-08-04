@@ -1,18 +1,4 @@
-﻿# Converted from: MEDEATH1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0497/raw/MEDEATH1.ANS
-# Source Revision: archive-sha256:73d4445ab8a07d3fe160d256052163ed66b2081a0bebb59b18ae9b36e30223e0
-# Source SHA-256: 773095d6772116dbc53553b81fb3cf2961cd9a5033a1a4b07c7b1295c02c0ed5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MEDEATH1.ANS by Malformed Earthborn (Root/Twisted); released in root0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: death...
-# SAUCE Author: Malformed Earthborn
-# SAUCE Group: Root/Twisted
-# SAUCE Date: 19970327
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: death... by Malformed Earthborn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0497-medeath1
 
 Write-Host '
                 [1;30m░[0m

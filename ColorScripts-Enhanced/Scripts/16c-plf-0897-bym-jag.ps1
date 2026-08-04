@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-JAG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0897/raw/BYM-JAG.ANS
-# Source Revision: archive-sha256:cabceb59b7b429d8e4c18b37682b5f04003f1a57c83a21398a4e2582b732a549
-# Source SHA-256: 14aea0a6f2c7fd3c2a98004bb1ffe3677b865f0d2aaf33d7154ef41f2b2b4e1d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-JAG.ANS by big yellow man (poffelipoff); released in plf-0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: it's me =)
-# SAUCE Author: big yellow man
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19970820
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: it's me =) by big yellow man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0897-bym-jag
 
 Write-Host '
                        [1;33m [0;33m▄▄[0;1;33m▄▄▄▄[0;1;33;43m▄▄[0;1;33;40m██[0;1;33;43m▄[0;1;33;40m██████████████████████████████▀[0;33m▀[0;1;33m   [0;33m▀[0;1;33m▀[0;1;33;43m▀[0;1;33;40m▄▄▄[0m

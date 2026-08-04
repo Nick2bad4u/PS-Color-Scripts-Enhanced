@@ -1,19 +1,4 @@
-﻿# Converted from: CW-SNACK_ATTACK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1120/raw/CW-SNACK_ATTACK.ANS
-# Source Revision: archive-sha256:1aea60fe15e22f1a93a6bf5d2d7a91f468dbfe0f5023717734ce9e5a750497b0
-# Source SHA-256: d4be390a885d8ec5d0d76ee536d0a48f24b05624ea583f1ca0c275b06be51aef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CW-SNACK_ATTACK.ANS by CW (Mistigris); released in mist1120 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Snack Attack
-# SAUCE Author: CW
-# SAUCE Group: Mistigris
-# SAUCE Date: 20201111
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Snack Attack by CW | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1120-cw-snack-attack
 
 Write-Host '
 [1;107m·············▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒································[0m

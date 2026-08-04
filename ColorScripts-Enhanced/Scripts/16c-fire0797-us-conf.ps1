@@ -1,18 +1,4 @@
-﻿# Converted from: US-CONF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0797/raw/US-CONF.ANS
-# Source Revision: archive-sha256:94b9d74f23cef45b7f0e0cddc6ad7ce59eed15dd66ca41ed74c0005a3af14ca4
-# Source SHA-256: 50138d3e0722b303182f1786b6aec594d8cdc6fda3d14e62343a388810f03a4f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CONF.ANS by Ville + Riddler (f1RE pRODUCTIONS); released in fire0797 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: conferences
-# SAUCE Author: riddler / ville
-# SAUCE Group: f1RE pRODUCTIONS
-# SAUCE Date: 19970609
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: conferences by Ville + Riddler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0797-us-conf
 
 Write-Host '
                                     ▀[1m░ [0m  [1m▐▓░[0m

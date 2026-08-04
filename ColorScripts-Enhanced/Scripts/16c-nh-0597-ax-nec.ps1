@@ -1,18 +1,4 @@
-﻿# Converted from: AX%NEC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nh-0597/raw/AX%25NEC.ANS
-# Source Revision: archive-sha256:87cec95111e4a1ac9fd985bbb75e4ede9867484f10b0355a7e43919af699000f
-# Source SHA-256: bfb2610dc10f5540275ebba81ed4425525bdde68bd9a1305f966f1efd8ea8b74
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AX%NEC.ANS by alla xul (nh!); released in nh-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: necrosis main
-# SAUCE Author: alla xul
-# SAUCE Group: nh!
-# SAUCE Date: 19970511
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: necrosis main by alla xul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nh-0597-ax-nec
 
 Write-Host '
            [31max[0;1;31m▄▓[0;31m█▀▀▌▀[0;34m▄▄[0;31m [0;1;31;41m▄[0;1;31;40m▀[0;31m■▄■[0;31;47m▓[0;31;40m▄[0;37;40m  [0;31;40m■▄▌[0m         [31;40m▐ax▄[0;1;31;41m▒[0;31m▄▄▌▄[0;37m [0;31m▄[0;31;47m▓[0;31;40m▀[0;37;40m [0;31;40m▀▀■[0;37;40m [0;31;40m▄[0;1;31;41m▄[0;31m▄▓▓░░[0;1;31m  [0;31m▐[0;1;31m▀[0;1;31;41m▀▓▀[0;31m▓▓░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: DIGIMATR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flux-003/raw/DIGIMATR.ANS
-# Source Revision: archive-sha256:c8241d6e438a30e14e803d31ea9639f514382ec0df6188aa9d91ed9f1ddec867
-# Source SHA-256: bc094fd818bd897f79d7baca7d321934173daf78dbb146d4a4307342ba8ef0a3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DIGIMATR.ANS by metal defender (rap); released in flux-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: digital inc. matrix
-# SAUCE Author: metal defender
-# SAUCE Group: rap
-# SAUCE Date: 19970727
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: digital inc. matrix by metal defender | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flux-003-digimatr
 
 Write-Host '
 [1;37;44m████▒▒▒[0;34;40m█[0;1;37;44m░░░░▒[0;34;40m███▀▀▀▀[0;37;40m [0;34;40m▀[0;37;40m [0;34;40m▀[0;37;40m [0;1;32;40m▄[0;37;40m [0;34;40m▀[0m  [34;40m▀[0m  [34;40m▀[0;37;40m [0;1;32;40m▀[0m  [34;40m▀[0m  [1;32;40m▄[0;34;40m▀[0m   [34;40m▀[0m    [34;40m▀[0;37;40m [0;34;40m▀▀▀██████████[0;1;34;44m▒[0;34;40m██████[0;1;34;44m▒▒▒▒▒[0;1;36;44m▒▒[0m

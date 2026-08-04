@@ -1,19 +1,4 @@
-﻿# Converted from: FIL-F123.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-40/raw/FIL-F123.ANS
-# Source Revision: archive-sha256:aff8105c0a955ac5c43ea367a02b086cd2849f6741fc41b8a5ff440b77e104a7
-# Source SHA-256: 7078b624dde17146a5c7c4987deb912d1e96d92248cbd60ade93bd78b26a1604
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FIL-F123.ANS by filth (FiRE); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: F 1 2 3
-# SAUCE Author: filth
-# SAUCE Group: FiRE
-# SAUCE Date: 20240707
-# SAUCE Dimensions: 80x37
-# SAUCE Font: IBM VGA
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: F 1 2 3 by filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-40-fil-f123
 
 Write-Host '
 [31;40m [0;33;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

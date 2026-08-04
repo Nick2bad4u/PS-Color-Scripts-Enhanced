@@ -1,19 +1,4 @@
-﻿# Converted from: MM-PAINBOY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0624/raw/MM-PAINBOY.ANS
-# Source Revision: archive-sha256:7e2642f67629daefe8d04ebedd2e233be2e8a74b2dea50eb02da49be24298927
-# Source SHA-256: 70abbe7393351d0cc90c8a137550007cd4822660da9462e6ca205112c1984b56
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-PAINBOY.ANS by Mavenmob (Mistigris); released in mist0624 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: SuperPainBoy
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20240408
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: SuperPainBoy by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0624-mm-painboy
 
 Write-Host '
 [30;41m████████████████████████████████████████████████████████████████████████████████[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: NF-LOVE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-38/raw/NF-LOVE.ANS
-# Source Revision: archive-sha256:be80154150e87c06a8a7199ad7b8d7442acd5427250f57c89a783b9de15c69d7
-# Source SHA-256: 3667e2fdc9a47c765e5498a4eca1e8aae7e1a53c49b9d260088a8193c4e8f3e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NF-LOVE.ANS by necro (fire / rbbs); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: love
-# SAUCE Author: necro
-# SAUCE Group: fire / rbbs
-# SAUCE Date: 20230729
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: love by necro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-38-nf-love
 
 Write-Host '
       [31;40m▄▄██▄███████████████▀▄▄▄▀███▀███████▀▄████████████████████████████▄▄[0m

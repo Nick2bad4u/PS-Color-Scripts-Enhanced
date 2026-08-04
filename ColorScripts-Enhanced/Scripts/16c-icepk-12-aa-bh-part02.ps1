@@ -1,13 +1,4 @@
-﻿# Converted from: AA-BH.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-12/raw/AA-BH.ICE
-# Source Revision: archive-sha256:03ccb24bebad343fffc4daed3f054ccd0ca265066fb8b4feff7bb3f469aac14e
-# Source SHA-256: bfd881bf778a53c1626293cb98aad883ad6f50d1cd7fd81bd0b738634c19ceb3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AA-BH.ICE by Aada (icepk-12); released in icepk-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 44-89
-# Columns: 1-80
+﻿# Artwork: AA-BH.ICE by Aada | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-12-aa-bh-part02
 
 Write-Host '
                              [31m░░▒▒[0;1;31;41m░░▒▒[0;1;37;41m▓[0;31m░░[0m                  [31m░[0;1;30m▐██ ▒[0m

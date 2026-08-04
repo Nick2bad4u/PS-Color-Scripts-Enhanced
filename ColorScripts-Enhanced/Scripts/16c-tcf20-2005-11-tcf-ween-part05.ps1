@@ -1,13 +1,4 @@
-﻿# Converted from: 2005 - 11 - tcf-ween.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tcf20/raw/2005%20-%2011%20-%20tcf-ween.ans
-# Source Revision: archive-sha256:af8609219fccc484668fb405a7f1d45efb8c574501a461c5c1b47d87a12921ce
-# Source SHA-256: 7ac03051ba092c809a37073ce18097c325ab651b351d15fab9a413149794d714
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2005 - 11 - tcf-ween.ans by Tcf (tcf20); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 180-225
-# Columns: 1-80
+﻿# Artwork: 2005 - 11 - tcf-ween.ans by Tcf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tcf20-2005-11-tcf-ween-part05
 
 Write-Host '
      ░[1m▀▓▓▓▓▓█[0;1;41m▄[0;1;40m███▓▄ ▀▄[0m     [1m▄▄    ▄▄▒▄▄██▀▀▀█▄████████████▀  ▄▄█▓▓[0;1;47m▓[0;1;40m██[0;1;47m▓▓[0;1;40m▀[0m [1m░[0m

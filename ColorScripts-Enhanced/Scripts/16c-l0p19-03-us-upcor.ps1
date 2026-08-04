@@ -1,13 +1,4 @@
-﻿# Converted from: US-UPCOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p19_03/raw/US-UPCOR.ANS
-# Source Revision: archive-sha256:29e846aab08e0cbbff67b8bbb9c6aca86568fc7c7276ebb4f28e7de4f529ef28
-# Source SHA-256: ad03f60d2b29f1a597a310f48d6ad9540df150343030ccd017809e1595f57a52
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-UPCOR.ANS by Spear + Ceelow + Ville (l0p19_03); released in l0p19_03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: US-UPCOR.ANS by Spear + Ceelow + Ville | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p19-03-us-upcor
 
 Write-Host '
                     [33m░░[0;37m [0;31m█▀▄[0;1;37;41m                                                  [0;31m▄▀█[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: WT-ART.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0497/raw/WT-ART.ANS
-# Source Revision: archive-sha256:ac23f379eb24f5f6ad8faa432723caa3c85fc7d4fc380b1d3e101e8eb50ca483
-# Source SHA-256: 10a749268e71fd4fd1856cc1a77b0351a64300154ca03b1f3d2aeb408aba3649
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WT-ART.ANS by wiktor (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ansi cluster 3/97
-# SAUCE Author: wiktor
-# SAUCE Group: phat studios '97
-# SAUCE Date: 19970330
-# SAUCE Dimensions: 80x129
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: ansi cluster 3/97 by wiktor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0497-wt-art-part01
 
 Write-Host '
 [31m█████████████▐███████████[0m                      [31m             [0m

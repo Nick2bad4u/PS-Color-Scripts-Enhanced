@@ -1,19 +1,4 @@
-﻿# Converted from: bym-67ACiDTRIP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_acid_trip/raw/bym-67ACiDTRIP.ANS
-# Source Revision: archive-sha256:c0717ff5cb7d462ed7fa9a55edd7235adbd3f09e01132486021497c9281171b6
-# Source SHA-256: 11286bf847e5c74ec93621d517c9068b7ee1e49affad7af683558bc7658d7574
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bym-67ACiDTRIP.ANS by big yellow man (blocktronics); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ACiDtrip
-# SAUCE Author: big yellow man
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x148
-# SAUCE Font: IBM VGA
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: ACiDtrip by big yellow man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-acid-trip-bym-67acidtrip-part01
 
 Write-Host '
                   [1;36m████████[0m  [1;32m█[0;1;36m▄[0m [1;32m░░[0m                            [1;30m▄▀[0m    [1;36m██[0;1;36;46m▓▓[0;1;36;40m████[0m

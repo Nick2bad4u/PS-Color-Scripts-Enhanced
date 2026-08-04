@@ -1,18 +1,4 @@
-﻿# Converted from: SA-HM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0594/raw/SA-HM1.ANS
-# Source Revision: archive-sha256:db2a228a3fd36387543cf50f2d4002959c041991ff20ee6a7b4aeaef602533bd
-# Source SHA-256: 057c48495d761376b6cd995e229354a0253e13ccca8cb43f09127a7646173d79
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SA-HM1.ANS by Stone Angel (UNiON); released in uni-0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Harvest Moon
-# SAUCE Author: Stone Angel
-# SAUCE Group: UNiON
-# SAUCE Date: 19940501
-# SAUCE Dimensions: 80x25
-# Lines: 69-105
-# Columns: 1-80
+﻿# Artwork: Harvest Moon by Stone Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0594-sa-hm1-part03
 
 Write-Host '
       [32m▄[0;1;32;42m░░ ░[0;32m▄    [0;1;32m▄[0;1;32;42m▓▒░[0;32m█▄[0m     [1;32m▄▀▀▀▀[0;1;32;42m▓▓[0;1;32;40m▄[0m       [1;32;40m▄▀▀▀▀[0;1;32;42m▓▓[0;1;32;40m▄[0m       [32m▄[0;1;32;42m░░ ░░[0;32m▄[0m     [32m▄[0;31;42m░   [0;32;40m▄[0m

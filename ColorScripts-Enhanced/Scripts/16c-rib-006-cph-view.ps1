@@ -1,18 +1,4 @@
-﻿# Converted from: CPH-VIEW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-006/raw/CPH-VIEW.ANS
-# Source Revision: archive-sha256:4d7b445ca8b643922c5230e9f5b3c442135561ba0bcfa9b1ae5cb138b563798c
-# Source SHA-256: 67c38b07d82a5730aa71cdbaae314db8410f990e52b2c01f1c0438dabf788aa1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-VIEW.ANS by {YBERPUNCh (RiB); released in rib-006 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: RiB ViEW
-# SAUCE Author: {YBERPUNCh
-# SAUCE Group: RiB
-# SAUCE Date: 19980306
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: RiB ViEW by {YBERPUNCh | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-006-cph-view
 
 Write-Host '
 

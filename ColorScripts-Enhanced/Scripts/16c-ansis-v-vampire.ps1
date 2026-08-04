@@ -1,13 +1,4 @@
-﻿# Converted from: VAMPIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-v/raw/VAMPIRE.ANS
-# Source Revision: archive-sha256:db3bc6eaee7315cb3600f4d27b3c6bd69dafe79d29d1a2ab63cf064a175c8e84
-# Source SHA-256: b9066854b1c56829aa2283c9c259a027e9890dff444a2862ea569de8b3ab4030
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VAMPIRE.ANS by Michael Arnett (ansis-v); released in ansis-v and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: VAMPIRE.ANS by Michael Arnett | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-v-vampire
 
 Write-Host '
                   [47m  [0;30;47m▀▀▀▀▄▄▄▄▄▄▀ ▌        [0;30;43m█[0;30;47m▄[0;37;40m┌┼┬┼┼┴┬┬┼┐─┐    ├┼┼┐├┤┬┐[0m

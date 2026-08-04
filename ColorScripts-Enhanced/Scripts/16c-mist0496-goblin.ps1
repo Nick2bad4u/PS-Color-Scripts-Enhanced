@@ -1,18 +1,4 @@
-﻿# Converted from: GOBLIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0496/raw/GOBLIN.ANS
-# Source Revision: archive-sha256:be1a395f385261920c9bce8fb9a4a50e5287b1be7689ad97116617524efc6b52
-# Source SHA-256: b513b240765915c0652158b18b34668363f756e28f635196ce4654332c99d6e4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GOBLIN.ANS by mAGE (MiSTiGRiS); released in mist0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: sTICKY orC hEAD
-# SAUCE Author: mAGE
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19940912
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: sTICKY orC hEAD by mAGE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0496-goblin
 
 Write-Host '
                        [32m▄▄▄▄▄[0m        [32m▄▄▄[0m

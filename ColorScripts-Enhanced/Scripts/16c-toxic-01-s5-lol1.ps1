@@ -1,18 +1,4 @@
-﻿# Converted from: S5-LOL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toxic-01/raw/S5-LOL1.ANS
-# Source Revision: archive-sha256:3b597be1b67b12799dd35541511cf17a47483b999aba055f1358423895441c18
-# Source SHA-256: 75db01bdea0d78d3c2aeafc3de561841b0e3e90ae836dd4cf445848f0d77f1ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S5-LOL1.ANS by SuicidalSnowman (TOXiC); released in toxic-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Land'O'Lettuce (ANSIMATED)
-# SAUCE Author: SuicidalSnowman
-# SAUCE Group: TOXiC
-# SAUCE Date: 19960510
-# SAUCE Dimensions: 80x25
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Land'O'Lettuce (ANSIMATED) by SuicidalSnowman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toxic-01-s5-lol1
 
 Write-Host '
 [30m████████████████████████████████████████████████████████████████████████████████[0m

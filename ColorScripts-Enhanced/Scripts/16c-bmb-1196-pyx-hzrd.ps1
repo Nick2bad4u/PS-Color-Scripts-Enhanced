@@ -1,18 +1,4 @@
-﻿# Converted from: PYX-HZRD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-1196/raw/PYX-HZRD.ANS
-# Source Revision: archive-sha256:ea255d5404a293fd28c5348aeea6d132b83dc51aad0630d7773e1cb9fa7be562
-# Source SHA-256: a95de2ceb7821e79d68ba74cdfcc09861e72854878fe7e121b65858eb522a9b3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-HZRD.ANS by Pyx (Bamboosh); released in bmb-1196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Hazard
-# SAUCE Author: Pyx
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19960922
-# SAUCE Dimensions: 80x25
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: Hazard by Pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-1196-pyx-hzrd
 
 Write-Host '
 

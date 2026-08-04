@@ -1,19 +1,4 @@
-﻿# Converted from: TE-TRAM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/miis0794/raw/TE-TRAM.ANS
-# Source Revision: archive-sha256:4ebbe79afabdcd6b7976d6ff3c6624896f33a528bb41f41cc941f1667e28e8f3
-# Source SHA-256: f9e754a9d66621c3335351112758d00e4711b99e947a23c8386d96bd63b14fa2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-TRAM.ANS by The Exorcist (MiiS); released in miis0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Tramontane
-# SAUCE Author: The Exorcist
-# SAUCE Group: MiiS
-# SAUCE Date: 19940609
-# SAUCE Dimensions: 80x81
-# SAUCE Comments: Call Street Rage To Apply To MiiS (8i3)785-9308
-# Lines: 48-82
-# Columns: 1-80
+﻿# Artwork: Tramontane by The Exorcist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-miis0794-te-tram-part02
 
 Write-Host '
 

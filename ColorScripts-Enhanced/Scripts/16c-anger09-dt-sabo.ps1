@@ -1,16 +1,4 @@
-﻿# Converted from: DT-SABO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger09/raw/DT-SABO.ANS
-# Source Revision: archive-sha256:1d024ab1b967a873387ebae34f188b304120e208b081dccdcb5397c8adcbd2a4
-# Source SHA-256: aca5000fc3b4977bcd3a3f8230f446fee2c6bf37c526dc2d103d2b0cafc72ff8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-SABO.ANS by defiant (anger); released in anger09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: sabotage
-# SAUCE Author: defiant
-# SAUCE Group: anger
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: sabotage by defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger09-dt-sabo
 
 Write-Host '
 [31m▒█[0;31;41m▄█[0;1;31;41m▀▀▓██▀▀▀▀[0;31;41m█[0;1;31;41m▀[0;31;41m██[0;1;31;41m▀▀▀▀▀████████████████████▌░[0;31m██▀  [0;1;30m░   ▄█▀▀[0m

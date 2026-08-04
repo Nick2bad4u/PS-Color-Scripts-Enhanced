@@ -1,13 +1,4 @@
-﻿# Converted from: moqui-alt.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/titan-artpack3/raw/moqui-alt.ans
-# Source Revision: archive-sha256:7a38999f8e9fb11d8eb7f21866278677e39c97072413abd68c6b28c2088a7208
-# Source SHA-256: 35a27da52fad55d3e37d232c6ebb8b76d8c61bb497cce66edfee35b0879bd434
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: moqui-alt.ans by Moqui (titan-artpack3); released in titan-artpack3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 70-112
-# Columns: 1-80
+﻿# Artwork: moqui-alt.ans by Moqui | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-titan-artpack3-moqui-alt-part03
 
 Write-Host '
  [1;30m▄[0;31;40m [0;33;40m▄[0;31;40m [0;1;30;40m▄[0m           [1;30;40m▄[0;31;40m▀[0;33;40m▄[0;31;40m▀[0;1;30;40m▄[0m           [31;40m▄▀▄[0;33;40m▀▄[0;31;40m▀▄[0m           [1;30;40m▄[0;31;40m [0;33;40m▄[0;31;40m [0;1;30;40m▄[0m          [31;40m▄ [0;33;40m▄[0;31;40m ▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MR-S701.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-05/raw/MR-S701.ANS
-# Source Revision: archive-sha256:c84fdc261f7fd501a311025e55fa5ba4ffaded89b8d307d907b0105e1d45695f
-# Source SHA-256: d5a105b8339abbbad749fd79c7a320ec99ff9e249686c43fe4c8a999c28754a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-S701.ANS by Mr.Wrong (The Used Coalition); released in used-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Sector 7
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: The Used Coalition
-# SAUCE Date: 20000606
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Sector 7 by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-05-mr-s701
 
 Write-Host '
              [36m▄[0m       [37m     [0m         [37m [0m     [37m  [0m   [37m  [0m                   [36m▄[0;37m  [0m

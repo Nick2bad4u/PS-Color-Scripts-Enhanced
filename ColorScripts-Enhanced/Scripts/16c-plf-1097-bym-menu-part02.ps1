@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-MENU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1097/raw/BYM-MENU.ANS
-# Source Revision: archive-sha256:36c7150b2835995ba27c6f1c5cfc23dc5fdf9213c2fb0b333e09d1aa0d00da5f
-# Source SHA-256: d850537c4eea18a04ffd27a7ce6f9395e16284d45d05eb76d8e794389f356fc5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-MENU.ANS by (BYM)Stor Gul Man (poffelipoff); released in plf-1097 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: twin tower menuset
-# SAUCE Author: (BYM)Stor Gul Man
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19971028
-# SAUCE Dimensions: 80x146
-# Lines: 50-99
-# Columns: 1-80
+﻿# Artwork: twin tower menuset by (BYM)Stor Gul Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1097-bym-menu-part02
 
 Write-Host '
 [36m  [0;1;30m▄▄▄[0;36m▄[0;1;36;46m▄[0;36m█[0;1;30;46m▄[0;36m▀[0;1;30m▀▀[0;36m  [0;1;30m▄▄[0;36m▄▄████[0;1;30;46m▄[0;36m▀▀▀[0;1;30m▀▀[0m

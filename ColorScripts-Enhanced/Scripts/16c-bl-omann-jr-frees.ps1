@@ -1,18 +1,4 @@
-﻿# Converted from: JR_FREES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl_omann/raw/JR_FREES.ANS
-# Source Revision: archive-sha256:05aeb5241910df97f7b5f5e1c0f0b2ddf59063a1cb9f232ef34e44c86905e918
-# Source SHA-256: 5f808a444c3ca62490f4f9f4b4e8968c65daa692b1f0b3a96d1ca38057ea75fe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_FREES.ANS by jerusalem (boil); released in bl_omann and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: schimmel an den w?nden
-# SAUCE Author: jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19971117
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: schimmel an den w?nden by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-omann-jr-frees
 
 Write-Host '
                            [34m▄  [0;36m▄[0;34m▄[0m

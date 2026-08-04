@@ -1,18 +1,4 @@
-﻿# Converted from: N!MSQ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mean9702/raw/N!MSQ.ANS
-# Source Revision: archive-sha256:50188cf6a7b32040057966067eb7319691f159dea5b32b2a96dde8d34c559d2e
-# Source SHA-256: 5525749f900b27d58d5fc7b0a5ef5167f9b48964b618c792deafe4154356e576
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N!MSQ.ANS by nail (mean scheme); released in mean9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: masquerade
-# SAUCE Author: nail
-# SAUCE Group: mean scheme
-# SAUCE Date: 19970209
-# SAUCE Dimensions: 80x44
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: masquerade by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mean9702-n-msq
 
 Write-Host '
 [1;30m. . . i n   m e m o r i a m[0m

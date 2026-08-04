@@ -1,19 +1,4 @@
-﻿# Converted from: us-molaram.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel27/raw/us-molaram.ans
-# Source Revision: raw-sha256:75a2959abcaa6e4a29f3e8fb54bfdf8126a11d4b426a4c5640e31223cf8f1dfe
-# Source SHA-256: 75a2959abcaa6e4a29f3e8fb54bfdf8126a11d4b426a4c5640e31223cf8f1dfe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-molaram.ans by The Knight + Zeus Ii (FUEL); released in fuel27 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Mola Ram
-# SAUCE Author: the knight , Zeus II
-# SAUCE Group: FUEL
-# SAUCE Date: 20180702
-# SAUCE Dimensions: 80x72
-# SAUCE Font: IBM VGA
-# Lines: 37-72
-# Columns: 1-80
+﻿# Artwork: Mola Ram by The Knight + Zeus Ii | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel27-us-molaram-part02
 
 Write-Host '
 [31m▒[0;37m [0;31m█████[0;1;30m▒[0m [1;30m▒[0;1;30;41m▒▒[0;1;30;40m▒[0m [1;30m▄[0;1;30;41m░[0;31m█░█[0;1;30;41m▒▒[0;31m▌[0;1;30m▒[0m       [33m▓▓█[0;1;31;43m▒[0;1;31;40m▌  [0;1;31;43m░▒[0;1;31;40m  [0;1;31;43m░▒▓▓[0;1;31;40m▄[0;33m▄  [0;1;31m▀[0;1;31;43m▀[0;1;31;40m█[0;1;31;43m░░[0;1;31;40m [0;33m█ █[0;1;30m▌[0m  [1;30m▒[0;1;30;41m▒░[0;31m▓ ▓▌██▓ █[0;1;30;41m░░[0m [1;30m░[0;1;30;41m▓▓[0;1;30;40m▓[0m

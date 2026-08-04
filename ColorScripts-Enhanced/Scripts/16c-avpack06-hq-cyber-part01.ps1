@@ -1,18 +1,4 @@
-﻿# Converted from: HQ-CYBER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack06/raw/HQ-CYBER.ANS
-# Source Revision: archive-sha256:0409464d408e8d33d99f2b2aeeeeb37e9aaf53c4d4f54f7fe0d64ee05dd04c7e
-# Source SHA-256: cca29cb5c0e00bbab9e3fce56c222fee1eb05ab64939584a17ec493a0d69941a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HQ-CYBER.ANS by Harlequin (Apocaliptic Visions); released in avpack06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: All things Dark & Cyberpunk
-# SAUCE Author: Harlequin
-# SAUCE Group: Apocaliptic Visions
-# SAUCE Date: 19950901
-# SAUCE Dimensions: 80x104
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: All things Dark & Cyberpunk by Harlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack06-hq-cyber-part01
 
 Write-Host '
 [30m                 [0m       [1;30m▄▄[0;1;30;47m▓░░[0;1;37;47m▀[0m▄[1m▄[0m                                       [1m▄▄▄▄▄▄▄▄[0m

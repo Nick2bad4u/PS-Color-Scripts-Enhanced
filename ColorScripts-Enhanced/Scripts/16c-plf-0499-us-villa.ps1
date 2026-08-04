@@ -1,16 +1,4 @@
-﻿# Converted from: US-VILLA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0499/raw/US-VILLA.ANS
-# Source Revision: archive-sha256:ea9f0e992f2e19fb60599694860938ab492c8ddcb42b1500d338ba65bfe40cd6
-# Source SHA-256: 7ff36b2fa3d50efd0420336b01e0d6b545d5078f944000b554d992ce02f381b1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-VILLA.ANS by Keetar + Konami (poffelipoff); released in plf-0499 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: village matrix
-# SAUCE Author: Multiple Artists
-# SAUCE Group: poffelipoff
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: village matrix by Keetar + Konami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0499-us-villa
 
 Write-Host '
 ░   ░▓[1;30;47m▓▀▄  ░▓[0;1;30;40m▀▀[0;1;30;47m███[0;1;30;40m▀▀[0m▀[1;30m▀[0m█[1;30;47m▀[0m██████████████████████████████████████████▓▓█▐████▄▄  ▄

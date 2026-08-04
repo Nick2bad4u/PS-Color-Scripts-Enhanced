@@ -1,13 +1,4 @@
-﻿# Converted from: RV-FDN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0697/raw/RV-FDN.ANS
-# Source Revision: archive-sha256:0b721541cca8ac174bff16dfdb239e04c03d8d36e25a348efa54fb9152ea3678
-# Source SHA-256: 9955931790ba5ae1b95d5941ab0534ba2bb554fbac0da7daa34f6b577e96a616
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RV-FDN.ANS by Rave (sac0697); released in sac0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: RV-FDN.ANS by Rave | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0697-rv-fdn
 
 Write-Host '
         [34m▄█▀[0;1;34m▀▀▀[0;34m▀▀▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: dsk-350.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aeron-a/raw/dsk-350.ans
-# Source Revision: archive-sha256:77ae7b32523591af134f7f3f8b7b910fee96858615d2fc199e08003552f80728
-# Source SHA-256: e06cb33b87b38d12d7db39b35a25fb5c3bcbe85c5ab095e3dc247f5256de2ae0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: dsk-350.ans by Deesink (aeron-a); released in aeron-a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: dsk-350.ans by Deesink | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aeron-a-dsk-350
 
 Write-Host '
              [35m·[0;37m    [0;35m▄[0;1;35;45m░[0;35m▄[0m         [35m▀[0m                               [35m▄[0m

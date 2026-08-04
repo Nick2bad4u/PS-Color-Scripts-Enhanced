@@ -1,13 +1,4 @@
-﻿# Converted from: DX!-SE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oops_a04/raw/DX!-SE.ANS
-# Source Revision: archive-sha256:152751703632084c3874f4d0774968181737168c5892dd20cae40e0ac76659c9
-# Source SHA-256: 363105edda64341db7ebf298a6b633e4439a2623078319a3742553748f0306f4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DX!-SE.ANS by Drax (oops_a04); released in oops_a04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: DX!-SE.ANS by Drax | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oops-a04-dx-se
 
 Write-Host '
              [1;32mo[0;32m. .  .o[0m

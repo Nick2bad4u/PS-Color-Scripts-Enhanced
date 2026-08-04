@@ -1,18 +1,4 @@
-﻿# Converted from: TX-HH2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0197/raw/TX-HH2.ANS
-# Source Revision: archive-sha256:331ffa2c0b41c075aec836339cfb4b33b33b171a17da17bd721952cf3966c823
-# Source SHA-256: d963a69fb4a200ad998fb2f419467e23b814e7d5c44173a2427d4365e0bd748c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TX-HH2.ANS by tektronix (bamboosh); released in bmb-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: humble home ad!
-# SAUCE Author: tektronix
-# SAUCE Group: bamboosh
-# SAUCE Date: 19961222
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: humble home ad! by tektronix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0197-tx-hh2
 
 Write-Host '
           [36m  [0;32m·[0m       [1;32m·[0m                  [1;32;42m░[0m                 [32m·[0m

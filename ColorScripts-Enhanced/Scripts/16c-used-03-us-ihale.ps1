@@ -1,18 +1,4 @@
-﻿# Converted from: US-IHALE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-03/raw/US-IHALE.ANS
-# Source Revision: archive-sha256:d2599b97a9288d8f82ddd62f9c4821cdc0d5105bf01763fad11be3b958d4ce10
-# Source SHA-256: c1f82770b2cc915e2019e9cfcf09534c210b81b8f31eefd4b4807af833c5a1c6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-IHALE.ANS by Multiple Artists (The Used Coalition); released in used-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Inhale
-# SAUCE Author: Multiple Artists
-# SAUCE Group: The Used Coalition
-# SAUCE Date: 19800119
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Inhale by Multiple Artists | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-03-us-ihale
 
 Write-Host '
 

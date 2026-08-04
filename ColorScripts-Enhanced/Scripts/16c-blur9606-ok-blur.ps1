@@ -1,18 +1,4 @@
-﻿# Converted from: OK-BLUR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blur9606/raw/OK-BLUR.ANS
-# Source Revision: archive-sha256:ffa9787881efe63b0b277d2660710693ab8c4162df884fbd2e37bd095d9f386e
-# Source SHA-256: b3ce5f2ec68961b6e102f59f2467edbd42c7296536dd3b7f2e363b89133aad68
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OK-BLUR.ANS by oUTkAST (BlUR); released in blur9606 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Blur Productions
-# SAUCE Author: oUTkAST
-# SAUCE Group: BlUR
-# SAUCE Date: 19960505
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Blur Productions by oUTkAST | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blur9606-ok-blur
 
 Write-Host '
 

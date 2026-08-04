@@ -1,18 +1,4 @@
-﻿# Converted from: ph-madd.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wrlk002/raw/ph-madd.ans
-# Source Revision: archive-sha256:dbf9ee09deee25efc683b127eb355630d1399244f8976fda07ec3c8f121bedff
-# Source SHA-256: dd6e6bf80a30a5113ee653d98a49ca5679163bb220b931d062c7f817c37b9001
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ph-madd.ans by psychoholic (warlock); released in wrlk002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: madd bbs logo
-# SAUCE Author: psychoholic
-# SAUCE Group: warlock
-# SAUCE Date: 20010926
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: madd bbs logo by psychoholic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wrlk002-ph-madd
 
 Write-Host '
                    [1;30m▄▄▄[0m          [1;34m▄   [0;1;30m▄▄▄[0m▄[1;30m▄[0m▄

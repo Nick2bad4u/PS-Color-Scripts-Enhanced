@@ -1,18 +1,4 @@
-﻿# Converted from: 4TDAHERO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat1296/raw/4TDAHERO.ANS
-# Source Revision: archive-sha256:7d01b0bd390151991b0a903d8d987d245c20f2b06635915da8eb049974bd356a
-# Source SHA-256: 7f9abdbdcc1befcd570186952868fa1bee40d74d1573f9bd30ba972a7f6d05d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 4TDAHERO.ANS by mr.4tUne (pHaT); released in phat1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hero 0f the day
-# SAUCE Author: mr.4tUne
-# SAUCE Group: pHaT
-# SAUCE Date: 19961201
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: hero 0f the day by mr.4tUne | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat1296-4tdahero
 
 Write-Host '
 

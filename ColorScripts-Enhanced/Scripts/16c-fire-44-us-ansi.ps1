@@ -1,20 +1,4 @@
-﻿# Converted from: US-ANSI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-44/raw/US-ANSI.ANS
-# Source Revision: archive-sha256:6c51508cedeaa9140fcf08750a75edb14e0cec0eebe7b4290346e95cd3548876
-# Source SHA-256: 42237157303f87e7ba88d95b6b50edfd74b0b8a7ee4dacb61959ceb9e2334fec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ANSI.ANS by Tainted + ZIR (FiRE); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ANSi
-# SAUCE Author: tainted + zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20251111
-# SAUCE Dimensions: 80x35
-# SAUCE Font: IBM VGA
-# SAUCE Comments: !!ANSi ART SAVES LiVES!!
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: ANSi by Tainted + ZIR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-44-us-ansi
 
 Write-Host '
 [37;40m  [0;31;40m░░░░░░░[0m     [31;40m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m      [31;40m░░░░[0m

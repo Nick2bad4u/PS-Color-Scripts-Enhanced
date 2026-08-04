@@ -1,17 +1,4 @@
-﻿# Converted from: vdr-idle.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gen-03/raw/vdr-idle.ans
-# Source Revision: archive-sha256:2ac761e3083f46d5d584973ff5d98c7259cd9fd4cee70395df0609588a554c09
-# Source SHA-256: a707f0d6c573de8216138959b64f09ace4d653ecf6f4b7677c019bee718d36e5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: vdr-idle.ans by vader (gen-03); released in gen-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: idle dreams
-# SAUCE Author: vader
-# SAUCE Date: 19990304
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: idle dreams by vader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gen-03-vdr-idle
 
 Write-Host '
 [1;30m▄▓▓▀▄██████▀▀▀▀ [0;31m▄▄▄▄█████[0;37;41m░░[0;31;40m███▄▄▄▄ [0;1;30;40m▀▀▀▀▓██████████████████████████████████▀▄██▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: 43-outer.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense22/raw/43-outer.ans
-# Source Revision: archive-sha256:bc85c11cf049f286319d708c3e5bf2f85a707ab661c6de2482c2260d25e40c5c
-# Source SHA-256: 2beed59bf67d5b06f525ef457232d5196194c02247d50e237bd3414cabd9dbc4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 43-outer.ans by Aesthetic (sense22); released in sense22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 214-255
-# Columns: 1-80
+﻿# Artwork: 43-outer.ans by Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense22-43-outer-part06
 
 Write-Host '
 ▀ [33m▐██  █▒█▌[0m                       [33m    [0;37m [0;1;33;43m▒[0;33m█[0m             [1;30m▀[0;33m▀  [0;37m    █[0;1;37;47m▓[0m    ▀[1;47m [0m▀    █[1;47m██▌[0m

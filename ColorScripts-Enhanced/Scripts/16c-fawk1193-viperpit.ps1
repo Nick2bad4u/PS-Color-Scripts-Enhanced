@@ -1,13 +1,4 @@
-﻿# Converted from: VIPERPIT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fawk1193/raw/VIPERPIT.ANS
-# Source Revision: archive-sha256:9b7a0058358bf49c33df2abe04101f21e2da1e17f0226e4c66539cead6d5a5c3
-# Source SHA-256: 8d1181ad8ffe3236eaa59e732753efe3e7cc3fbf7f916975f8a10e288300858e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VIPERPIT.ANS by Marly Man (fawk1193); released in fawk1193 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: VIPERPIT.ANS by Marly Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fawk1193-viperpit
 
 Write-Host '
 [1;33m▄▄▄▄ ▄▄ ▄▄ ▄▄▄▄ ▄▄▄▄ ▄▄▄▄  ▄▄▄▄▄▄[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: CG-AWE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/CG-AWE1.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: f913234ce7b697f927b17054b6160b27acc78f3aa24643bfc400f64e0a7d2c3b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-AWE1.ANS by cryogenic (fire graphics); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: awe lettering
-# SAUCE Author: cryogenic
-# SAUCE Group: fire graphics
-# SAUCE Date: 20241111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: awe lettering by cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-cg-awe1
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: LS-NC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/atm-0793/raw/LS-NC.ANS
-# Source Revision: archive-sha256:2791ea7960360c43fee92e39a37f109c33350847675dee72209056037e0dfd3e
-# Source SHA-256: 788c12927743c43fff3a84dde57eb480526138e509468fbd9d6cb352538b7cb8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LS-NC.ANS by Lord Scarlet (atm-0793); released in atm-0793 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: LS-NC.ANS by Lord Scarlet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-atm-0793-ls-nc
 
 Write-Host '
 [35;41m▐██[0m   [35;41m▐█[0m   [35;41m▐████[0m      [35;41m▐████[0m   [35;41m▐████[0m  [35;41m▐█████[0m  [35;41m▐█████[0m  [35;41m▐█████[0m [35;41m▐██████[0m [35;41m▐█████[0m

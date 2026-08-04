@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-CMMT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dom-9706/raw/ZII-CMMT.ANS
-# Source Revision: archive-sha256:a16d91b4075cff760b5038e2a8f1aab02d1965c9e4bbc85ed187b0405326b9b6
-# Source SHA-256: ba75375242f5f3b40ada283a97cbcee7e3cfabdb9f6ad6bb06a6b2703fe23efd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-CMMT.ANS by Zeus II (twilight); released in dom-9706 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: comment ansi
-# SAUCE Author: Zeus II
-# SAUCE Group: twilight
-# SAUCE Date: 19970604
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: comment ansi by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dom-9706-zii-cmmt
 
 Write-Host '
 [36m[0m                                    [36m▄[0;1;36m▄▄[0m [36m▐[0;1;36;46m▀[0m [36m▄[0;1;32m▄[0m

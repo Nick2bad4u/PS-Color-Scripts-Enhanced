@@ -1,13 +1,4 @@
-﻿# Converted from: PLZ-AWE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense10j/raw/PLZ-AWE.ANS
-# Source Revision: archive-sha256:79b287d3b8a2f4ceb916c80975416d0ea3340c57dd3b4333f96895fc037bee42
-# Source SHA-256: 87582f107a27ffe515a9cff3e9b0b1433d1eca305e480bd2d735539f68840aec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PLZ-AWE.ANS by Plazz (sense10j); released in sense10j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: PLZ-AWE.ANS by Plazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense10j-plz-awe
 
 Write-Host '
 

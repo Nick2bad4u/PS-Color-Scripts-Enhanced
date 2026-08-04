@@ -1,18 +1,4 @@
-﻿# Converted from: OZ-SSF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-08/raw/OZ-SSF.ANS
-# Source Revision: archive-sha256:0567468a2c5f3b6be5032c5650cb72f6233cef61565d1d349ba0b887559b2680
-# Source SHA-256: 42f436e7b432b3af2a86662f2771f11952219e407d5a293147afceaa70f3cdbe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OZ-SSF.ANS by oOze (D#*); released in d38-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: files
-# SAUCE Author: oOze
-# SAUCE Group: D#*
-# SAUCE Date: 19970612
-# SAUCE Dimensions: 80x25
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: files by oOze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-08-oz-ssf
 
 Write-Host '
          [41m▌[0;1;31;41m▄[0;1;31;40m█[0;1;31;41m▄[0;1;31;40m█▀▀▀▀▀▀[0m▀▀

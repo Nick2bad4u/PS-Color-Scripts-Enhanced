@@ -1,18 +1,4 @@
-﻿# Converted from: PPE-FONT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/buttz01/raw/PPE-FONT.ANS
-# Source Revision: archive-sha256:f4e347ac1e32829287f7c9cd3dc2f74ed0856c453a34f9a477dc3eb22a6b3da5
-# Source SHA-256: d4a1983c624c0f1a4e2978aeebb06f4959029ca505fdb5940caa59588db3f82e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PPE-FONT.ANS by propane (USED); released in buttz01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Ansi Font
-# SAUCE Author: propane
-# SAUCE Group: USED
-# SAUCE Date: 20000917
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Ansi Font by propane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-buttz01-ppe-font
 
 Write-Host '
 

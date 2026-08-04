@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-SLT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-20/raw/TNA-SLT1.ANS
-# Source Revision: archive-sha256:23bbf66596e3e4f3c4b9e335dc62ccc331634eba04c3d179b73e396fa3971807
-# Source SHA-256: 254945574ef9abdd5956e94e437b2f18c5810ab7ce6cd77cf045ef5e090fad96
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-SLT1.ANS by The Night Angel (AWE Lettering); released in awe-20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Salt
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981221
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Salt by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-20-tna-slt1
 
 Write-Host '
                             [1;31m■[0m

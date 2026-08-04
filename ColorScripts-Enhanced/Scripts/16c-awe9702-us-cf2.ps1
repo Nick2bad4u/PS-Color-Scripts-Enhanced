@@ -1,17 +1,4 @@
-﻿# Converted from: US-CF2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9702/raw/US-CF2.ANS
-# Source Revision: archive-sha256:66fa024bb27d2c5c9da5d44e7d12f110f2c57bdedd32c6f0a850d91a30d582a8
-# Source SHA-256: 996a03d95309165c2140603b36713e8e2f175dfe6fdd4b51091099a88b15e497
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CF2.ANS by The Night Angel + Hos (AWE Lettering); released in awe9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Chronic Farts
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Chronic Farts by The Night Angel + Hos | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9702-us-cf2
 
 Write-Host '
 hos([1mawe[0m) / tna([1mawe[0m)                [1;36m░░░░░[0m                   [1;34m░░  [0;34m▄▄▄▄▄▄▄░[0m

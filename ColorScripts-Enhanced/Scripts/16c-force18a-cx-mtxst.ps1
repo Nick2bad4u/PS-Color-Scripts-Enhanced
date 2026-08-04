@@ -1,18 +1,4 @@
-﻿# Converted from: CX-MTXST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force18a/raw/CX-MTXST.ANS
-# Source Revision: archive-sha256:6a0f397e3657e6d033b73af64211a87e0404e38c6a0f4de7a8637861ae197039
-# Source SHA-256: e30d047a763c59b326cf2a111ced1ee3b3fce2322f61c3517af4e125547e09bd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CX-MTXST.ANS by cyntax (force); released in force18a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: staesis(2)matrix
-# SAUCE Author: cyntax
-# SAUCE Group: force
-# SAUCE Date: 19970518
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: staesis(2)matrix by cyntax | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force18a-cx-mtxst
 
 Write-Host '
 [31m[0m[37m[0;31m[0m[37m[0;31m[0m

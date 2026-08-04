@@ -1,13 +1,4 @@
-﻿# Converted from: TD-FT01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aura0995/raw/TD-FT01.ANS
-# Source Revision: archive-sha256:0c27df0c9dc7dcde4560426f6185a5334be41f32223fe29cac5a762ef833d991
-# Source SHA-256: 80c08dff44f22932ac1ad1ed31eb70f9068cb32cdd9fdf1f13544e284ca820a6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TD-FT01.ANS by Twilight Serenity (aura0995); released in aura0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 33-67
-# Columns: 1-80
+﻿# Artwork: TD-FT01.ANS by Twilight Serenity | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aura0995-td-ft01-part02
 
 Write-Host '
 [1;30;40m▓[0;1;30;43m▓█[0;1;30;40m▄▄▀[0;1;30;43m▒▒▒░░░░░[0;33m▀[0;1;30m▄[0;1;30;43m▒▒░░[0;33m▄[0;1;30;43m░░░[0;33m█[0;1;31;43m░░▒▒▒▒▓▓[0;1;31;40m▄[0m  [33m▄▄[0;1;37m [0;1;31;43m░[0;33m▄[0;37m  [0;34m [0;30;41m██[0;31;40m  [0;30;41m▄[0;31;40m██[0;30;41m▄ [0;31;40m███[0;30;41m ▄████▌[0;1;31;41m [0;31m█[0;1;31;41m░[0;31m██[0;1;31;41m [0;31m█[0;1;31;41m ░░░░[0;30;41m▀[0;31;40m▄ [0;30;41m█▄[0m

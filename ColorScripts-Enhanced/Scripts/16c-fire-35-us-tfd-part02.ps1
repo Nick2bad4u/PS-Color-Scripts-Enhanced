@@ -1,19 +1,4 @@
-﻿# Converted from: US-TFD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-35/raw/US-TFD.ANS
-# Source Revision: archive-sha256:c366a38306f48b13ede280377c5f8ef243fdab7e7890ac3e053ec3ccbc5d901a
-# Source SHA-256: 66211dd14f362de90e42e81374770aaa520ab45c392fa352bb9f1e64f75f41f8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TFD.ANS by Nail + Halaster (fire); released in fire-35 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Fiction's All I Got (Sometimes)
-# SAUCE Author: nail + halaster
-# SAUCE Group: fire
-# SAUCE Date: 20221009
-# SAUCE Dimensions: 80x108
-# SAUCE Font: IBM VGA
-# Lines: 36-71
-# Columns: 1-80
+﻿# Artwork: The Fiction's All I Got (Sometimes) by Nail + Halaster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-35-us-tfd-part02
 
 Write-Host '
 [35m   [0;37m [0;31m▐[0;1;37;41m▐▓[0;31m█▓▒█[0;1;31;41m░░▒▒▓▓[0;1;31;40m█████[0;1;37;40m█[0;1;37;41m▓ [0m

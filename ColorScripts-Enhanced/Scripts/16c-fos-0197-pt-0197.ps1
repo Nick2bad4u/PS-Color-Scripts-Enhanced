@@ -1,18 +1,4 @@
-﻿# Converted from: PT-0197.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fos-0197/raw/PT-0197.ANS
-# Source Revision: archive-sha256:0aef049ae019aec7691a0c54513d0a325164e67863a76cd8f72cb5d617b7dc25
-# Source SHA-256: 677cd8ff3844dea35c0506fd364d9a118e155b8620d6f251c21e179cdc6aeb52
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PT-0197.ANS by Platinum (MiSTiGRiSTEEL); released in fos-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: January Logocolly
-# SAUCE Author: Platinum
-# SAUCE Group: MiSTiGRiSTEEL
-# SAUCE Date: 19961221
-# SAUCE Dimensions: 80x25
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: January Logocolly by Platinum | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fos-0197-pt-0197
 
 Write-Host '
                                      [33m░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PF-DZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/forge_09/raw/PF-DZ.ANS
-# Source Revision: archive-sha256:d4616dfe119968c45cde426a6fd89403c94d7b3dbbcec3e05db02fd0c751bac7
-# Source SHA-256: 1f750cf3b6e8fd01a14e5921b59444f798abb87dafe7db954a287c6e7daa3c2f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PF-DZ.ANS by Plasmic Fluid (Forge Productions); released in forge_09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: kickin DZ logo
-# SAUCE Author: Plasmic Fluid
-# SAUCE Group: Forge Productions
-# SAUCE Date: 19800102
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: kickin DZ logo by Plasmic Fluid | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-forge-09-pf-dz
 
 Write-Host '
                         [1;31;41m░[0m     [1;31;41m░[0m    [31m▀[0m    [1;31;41m▒[0m         [31m▄[0m

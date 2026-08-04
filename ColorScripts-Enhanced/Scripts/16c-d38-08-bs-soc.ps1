@@ -1,17 +1,4 @@
-﻿# Converted from: BS-SOC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-08/raw/BS-SOC.ANS
-# Source Revision: archive-sha256:0567468a2c5f3b6be5032c5650cb72f6233cef61565d1d349ba0b887559b2680
-# Source SHA-256: b1015c8247dc41c224c3dd98548f9dbc58ac95c4a48424d75e800a7f6c6ac55d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-SOC.ANS by blind sniper (department 38); released in d38-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: society thing for their app
-# SAUCE Author: blind sniper
-# SAUCE Group: department 38
-# SAUCE Dimensions: 80x25
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: society thing for their app by blind sniper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-08-bs-soc
 
 Write-Host '
 [35ms[0;1;31mociety[0;1;33m,[0;1;37m. [0;33m ██[0;30;43m░[0;33;40m▄▄▄▄▄   [0;1;30;40m▄▀▀[0;1;30;43m▀▒░[0;33m▀▀▀▀███████▌▄▄▄▄▄[0m              [33m▄█[0;1;30;43m▄[0;33m█▄  ▐[0;1;30;43m▄[0;1;30;40m▀[0m     [33m▀▌▐█▌[0m

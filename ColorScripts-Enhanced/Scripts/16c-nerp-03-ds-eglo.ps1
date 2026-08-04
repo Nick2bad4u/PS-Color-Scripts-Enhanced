@@ -1,18 +1,4 @@
-﻿# Converted from: DS-EGLO!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-03/raw/DS-EGLO!.ANS
-# Source Revision: archive-sha256:9ea26ff16b2d0162532c602fba75b69e539d71620a3b4e34b796de886326619c
-# Source SHA-256: cb07424d8c9b875ab20356d1ed14f15fd695ea322de5a9f2a66be5d289538326
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-EGLO!.ANS by dfuse (nerp); released in nerp-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: everglo promo
-# SAUCE Author: dfuse
-# SAUCE Group: nerp
-# SAUCE Date: 19971224
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: everglo promo by dfuse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-03-ds-eglo
 
 Write-Host '
        [33m▄▄[0;37m  [0;35m▄[0;1;33;45m▄[0;31m▄[0m              [1;34m [0m                                [31m  [0m

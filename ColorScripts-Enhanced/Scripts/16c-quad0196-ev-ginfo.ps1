@@ -1,18 +1,4 @@
-﻿# Converted from: EV-GINFO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0196/raw/EV-GINFO.ANS
-# Source Revision: archive-sha256:61642f5831b797f313fe10336de4c5f16c13238dc27081faf3549cf8df1329cd
-# Source SHA-256: b50686dd7d722b29b221e018e59e5a47254e8dd032e62877d4468be085b40822
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EV-GINFO.ANS by Evilive ([Quad-P]); released in quad0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ganja Magazine
-# SAUCE Author: Evilive
-# SAUCE Group: [Quad-P]
-# SAUCE Date: 19951113
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Ganja Magazine by Evilive | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0196-ev-ginfo
 
 Write-Host '
            [31m_ ___  ___[0m                            [31m____ __ _[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: 09-DV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9611/raw/09-DV.ANS
-# Source Revision: archive-sha256:2b73e149488dc761d99422832825743596588d59e58f9bfecfb5d0e9dbffd274
-# Source SHA-256: b4cc7576fc3b16614241f68a2eba676292c70843d144c1a4bd87381f1f299da0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-DV.ANS by Fluor (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Disembodied Voices
-# SAUCE Author: Fluor
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961031
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Disembodied Voices by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9611-09-dv
 
 Write-Host '
 [1m[0m[1;30m[0m[1m[0m    [30;47m▓[0;37;40m░[0;1;30;40m [0m               [1;30m ▄[0m                        [1m▄[0;1;30m [0;1;37m   [0m         [1;30m [0m           [1;30m░[0;30;47m▓▓[0;37;40m░[0;1;30;40m▄▄[0m

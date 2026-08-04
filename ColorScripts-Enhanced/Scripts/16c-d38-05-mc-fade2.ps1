@@ -1,18 +1,4 @@
-﻿# Converted from: MC!FADE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-05/raw/MC!FADE2.ANS
-# Source Revision: archive-sha256:eb0948671797309554c3545cf502cce8943191f153468011a76cca894133dc0a
-# Source SHA-256: 71491bd6069c8d285b3cd06a911a9c3210e2f99f8f215c73dc3610f2eb9d5974
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MC!FADE2.ANS by Madcap of course :) (Department 38); released in d38-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Why is this in here? Coz it's weird
-# SAUCE Author: Madcap of course :)
-# SAUCE Group: Department 38
-# SAUCE Date: 19960224
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Why is this in here? Coz it's weird by Madcap of course :) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-05-mc-fade2
 
 Write-Host '
 [1;33m  [0;34m░░░  ░░░░░░ ░░▒▒[0;1;34m░░░░░░[0;34m▒[0;1;34m░[0;34m▓▓[0;1;34m░[0;34m░[0;1;34m░[0;34m█[0;1;34m▒[0;34m█[0;1;34m░[0;34m░ ░[0;1;34m▀▀▀▓▓▒▒[0;34m█[0;1;34m▒▒▓▀    [0;1;32m░░▒░░▒▒░░░░▒░   ░  [0;36m▓▒▒░░[0m

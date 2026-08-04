@@ -1,13 +1,4 @@
-﻿# Converted from: US-PB1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9607a/raw/US-PB1.ICE
-# Source Revision: archive-sha256:6e317dcfbe1a18e9811dd69788e086bd6dba75308a8c6706d46c84b5eb4fd93a
-# Source SHA-256: 1ca7ba874f3825ebefef0fe7127e522cace94c2680e79642c748b851b21ca783
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PB1.ICE by Fluor + Apox (ice9607a); released in ice9607a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: US-PB1.ICE by Fluor + Apox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9607a-us-pb1
 
 Write-Host '
        [1;30m░░ [0m [1;30m▄[0m

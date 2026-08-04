@@ -1,13 +1,4 @@
-﻿# Converted from: ko-kasc.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic33/raw/ko-kasc.ans
-# Source Revision: archive-sha256:5fdf09d291219692f770c94bedc0fcc7697a611c572ffe04f02e50b16c11b41e
-# Source SHA-256: 1587342930569e0d58d0351df157f7c388b40c3ba6adf81f2f89719e2e76d8b2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ko-kasc.ans by Konami (mimic33); released in mimic33 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ko-kasc.ans by Konami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic33-ko-kasc
 
 Write-Host '
 [31m☻☺;[0;37m      [0;31m☺☺[0;37m    [0;31m☺[0;37m  [0;31m☺ [0;36m..,,.._[0;37m  [0;31m;[0m   [31m☺[0;37m [0;31m`☺[0;37m  [0;1;33m;[0m  [31m☺``[0;37m  [0;1;33m,¬s[0;1;37m☻7"`[0m [1;33m`[0m    [1;33m [0m          [31m``;;☺☺☺☻☻[0m

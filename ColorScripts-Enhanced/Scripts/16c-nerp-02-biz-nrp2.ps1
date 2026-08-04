@@ -1,18 +1,4 @@
-﻿# Converted from: BIZ-NRP2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-02/raw/BIZ-NRP2.ANS
-# Source Revision: archive-sha256:3fd9f194d865cfc24c90bdf11a27528d8d82a8ba9c376ebed567183a2f95a9f3
-# Source SHA-256: cabdccb472efa320f9ea6a6cb621ab3849eedbe1030075d075f014ab8b64c914
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BIZ-NRP2.ANS by bizzarro (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: nerp
-# SAUCE Author: bizzarro
-# SAUCE Group: nerp
-# SAUCE Date: 19971102
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: nerp by bizzarro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-02-biz-nrp2
 
 Write-Host '
 

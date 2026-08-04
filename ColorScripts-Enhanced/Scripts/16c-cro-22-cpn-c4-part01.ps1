@@ -1,13 +1,4 @@
-﻿# Converted from: cpn-c4.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cro-22/raw/cpn-c4.ans
-# Source Revision: archive-sha256:ee6c03024f2f8a99e43c4669f0d5af73156455ce80629878cdce7524ba771416
-# Source SHA-256: 3bac5962cb8dd5041a24798e1cee4856b02353eb20f1e63bda93369d9c877e5a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cpn-c4.ans by Cpn (cro-22); released in cro-22 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: cpn-c4.ans by Cpn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cro-22-cpn-c4-part01
 
 Write-Host '
 [34m  ▄▄▄▓▓▓▓█████████▄▄▄▄[0m      [34m▄▓▓██████████▄ ▄▓███████▄▄   ▄▓▓█████████████▓▓▓▄[0m

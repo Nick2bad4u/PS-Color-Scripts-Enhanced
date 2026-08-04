@@ -1,17 +1,4 @@
-﻿# Converted from: CX-RAW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/raw01/raw/CX-RAW.ANS
-# Source Revision: archive-sha256:68018d98da2353ea67bd0935370f9f9e7167a56c319420d702baa29dd9d82b28
-# Source SHA-256: 93600877abbe88b264e98e7b81f1b806d4d51adf9a6a5ae8c9874047ec9a0826
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CX-RAW.ANS by cyntax (raw01); released in raw01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: (guest) raw97
-# SAUCE Author: cyntax
-# SAUCE Date: 19970326
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: (guest) raw97 by cyntax | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-raw01-cx-raw
 
 Write-Host '
                            [1;30m..%$Stm[0m

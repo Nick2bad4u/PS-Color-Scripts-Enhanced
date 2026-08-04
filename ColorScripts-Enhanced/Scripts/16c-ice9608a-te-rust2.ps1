@@ -1,13 +1,4 @@
-﻿# Converted from: TE-RUST2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9608a/raw/TE-RUST2.ICE
-# Source Revision: archive-sha256:3cb2898237aa255407c11f4c82532bf88edc414fa849eac52074494eeda3cbfa
-# Source SHA-256: e56f96e551a228b7419100783c2b53a15502cb8540464975c004abbfce7b3a93
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-RUST2.ICE by Tetanus (ice9608a); released in ice9608a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: TE-RUST2.ICE by Tetanus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9608a-te-rust2
 
 Write-Host '
 [33m▀▄[0;1;33;43m░▒▓[0;1;33;40m▄▄[0m [1;33m▀▀[0;1;33;43m▓▓[0;1;33;40m▀▀▀▀▀▀▀[0;1;33;43m▓[0;1;33;40m▄░▓█▄▓█[0;1;33;43m▓▒[0;33m▌[0;1;33m▐▌▐[0;1;33;43m▓[0;1;33;40m▀██▓░▄█[0;1;33;43m▓[0;1;33;40m▀[0m [1;33;43m▒[0m [1m▐▀▀▄[0;1;47m▓▓▒▒[0;1;40m▀▀    ▀▀▀[0;1;47m▓▓▓[0;1;40m▀▀  [0m ▀▀[1;47m░░░   [0;1;37;47m [0m

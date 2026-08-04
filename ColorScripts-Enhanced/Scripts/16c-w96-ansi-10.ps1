@@ -1,13 +1,4 @@
-﻿# Converted from: 10.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/w96_ansi/raw/10.ANS
-# Source Revision: archive-sha256:ca01f75aa71fce05884ec864b3f35243045906bc35a6cb1be4b4882d15f0c536
-# Source SHA-256: 65fb6153d11cc054c25756035fa03fe71238c54c927c47ce4c9114242bf038b2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 10.ANS by Caynan (w96_ansi); released in w96_ansi and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: 10.ANS by Caynan | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-w96-ansi-10
 
 Write-Host '
 [1;30m+──-───────────────────── ▄▄▄▄[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [1;30m──────── ░░░ ────----+[0m

@@ -1,20 +1,4 @@
-﻿# Converted from: 22_DEC23.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1223/raw/22_DEC23.ANS
-# Source Revision: archive-sha256:86d02e5103ccb7950792473f0c3e4ca18e595c9011c06df5ce1fe1692dbd9f5a
-# Source SHA-256: c87d277314555a5b544c711dd1e4ed8ca7b4ac65717de7b09abc8a32757bc983
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 22_DEC23.ANS by grymmjack (MiSTiGRiS); released in mist1223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 2023 Advent Ansi
-# SAUCE Author: grymmjack
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 20231117
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Happy Holidays!
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: 2023 Advent Ansi by grymmjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1223-22-dec23
 
 Write-Host '
 [5;36;46m███████[0;1;36;46m▄▄▄▄▄▄[0;1;36;40m█[0;1;37;46m▒▒██▓▓████[0;1;36;40m██[0;1;37;46m█[0;1;36;40m███[0;1;36;46m▓▓▀▀▀[0;1;33;46m▒▒ [0;36m█[0;1;33;46m░░[0;36m████[0;1;36;46m▄▄▄[0;1;36;40m█[0;1;37;46m▓▓[0;1;37;47m█[0;1;33;47m██▓██▓▓█[0;1;36;40m██[0;1;33;47m███[0;1;33;40m▓▓[0;1;33;46m██[0;1;36;40m██[0;1;33;46m█[0;1;33;47m█[0;1;33;46m▓▓[0;1;33;40m█████[0m

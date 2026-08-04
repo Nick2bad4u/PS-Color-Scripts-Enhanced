@@ -1,13 +1,4 @@
-﻿# Converted from: NM-MAST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-n/raw/NM-MAST.ANS
-# Source Revision: archive-sha256:c71a317bef22d5118244ba95f552871899d98097e115e94b35d9631800ce0aa2
-# Source SHA-256: 5fbdb6ee2cde6cf34250681a61c39fa74af3a2794d4c417cbf9bdc01416928b6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NM-MAST.ANS by The Necromancer (ansis-n); released in ansis-n and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 73-104
-# Columns: 1-80
+﻿# Artwork: NM-MAST.ANS by The Necromancer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-n-nm-mast-part03
 
 Write-Host '
            [1m▐[0;31m█▄[0m        [1;37;41m▌[0m        [1;37;40m▄▄[0;31m████▄▄[0m        [31m▄▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MR-FIC01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus05/raw/MR-FIC01.ANS
-# Source Revision: archive-sha256:1aa3ba6c9bb069effe029f69af967419cb8dc77ae4501a5215ae43589435acd5
-# Source SHA-256: 426dcfc8de1a235365b3ad8d3b863115d70be3dacdc2a1aaad6c13e646ace54a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-FIC01.ANS by Mr.Wrong (Fokus fonting); released in fokus05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fiction #01
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: Fokus fonting
-# SAUCE Date: 19990617
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Fiction #01 by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus05-mr-fic01
 
 Write-Host '
                                                                   [1;30m▀ [0m [1;30m▄[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: sar-lude.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/serial03/raw/sar-lude.ans
-# Source Revision: archive-sha256:06825ac680bd3b8f90d42d5667f1d31ba5675110618f18c2ff3cfa59e65026af
-# Source SHA-256: 81648b72f46ca4a60d3992b83efb26bae7e9fe0744f57710162d47fbdc90189f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sar-lude.ans by sargon (serial ascii); released in serial03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: sargon
-# SAUCE Group: serial ascii
-# SAUCE Date: 19970217
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: sar-lude.ans by sargon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-serial03-sar-lude
 
 Write-Host '
 [34m$$$,[0;32m`$Ss,,sS$Ss,sS$''[0;34m,$$$$$$$$$$ $$$$$$$$$ $$$$$$$$ $$$$$$$$       $$$$$$$$     [0;37m [0m

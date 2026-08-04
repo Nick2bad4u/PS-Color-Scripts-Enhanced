@@ -1,19 +1,4 @@
-﻿# Converted from: VERIFIED.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz16/raw/VERIFIED.ANS
-# Source Revision: archive-sha256:b093dd3cb06bf783d59a9df3724c51f9a41f686cd4fd545c920ada008d959f7a
-# Source SHA-256: 56442135c0adcd1c7f6b5074d7b851ad0541d915e5b3c01e3a341cdfc1416a83
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VERIFIED.ANS by warpus (LAZARUS); released in laz16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: VERIFIED
-# SAUCE Author: warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20230101
-# SAUCE Dimensions: 45x22
-# SAUCE Font: IBM VGA
-# Lines: 1-22
-# Columns: 1-45
+﻿# Artwork: VERIFIED by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz16-verified
 
 Write-Host '
 [31m▓▓▒▒▒▓▓▓▓▒▒▒▓▓▓█▓▓█▓▀▀▓▀▀████████████▓███████[0m

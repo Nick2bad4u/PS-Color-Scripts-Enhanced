@@ -1,13 +1,4 @@
-﻿# Converted from: CH-SAC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0998a/raw/CH-SAC.ANS
-# Source Revision: archive-sha256:9b9a2ee5e8db74f03ee64276a9fb1381785e9e16b76485790deab4ed4256dd67
-# Source SHA-256: 0e852449eb62005da98b69e46eb1b438f480fcc8d91e777b2e45edfbc3f2d640
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CH-SAC.ANS by Creature Of Hell (sac0998a); released in sac0998a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: CH-SAC.ANS by Creature Of Hell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0998a-ch-sac
 
 Write-Host '
     [1;30m   [0m      [1;30m       [0;1;37m▄▄[0;1;30m [0m        [1m░[0m [1;30m  [0m  [1;34m▄[0m           [1;30m▓▄■▀ [0m [1;30m    ▀■▄     [0m

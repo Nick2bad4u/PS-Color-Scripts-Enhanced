@@ -1,18 +1,4 @@
-﻿# Converted from: FV-WS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twi-9706/raw/FV-WS.ANS
-# Source Revision: archive-sha256:e362df8ee3f0b210cf92d27e649f4cf846383e7667a4d4a16ff3beb3ea9ae887
-# Source SHA-256: b24aabe7c48b94832592a82402aa371b88fbed951690bc7aaec18b2737fe294b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-WS.ANS by Fever (Twilight); released in twi-9706 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fruit nut 25 liner
-# SAUCE Author: Fever
-# SAUCE Group: Twilight
-# SAUCE Date: 19960617
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Fruit nut 25 liner by Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twi-9706-fv-ws
 
 Write-Host '
 [30;46m [0;1;36;46m░▄ █▀[0;30;46m▄[0;1;36;46m▀▄ [0;1;30;46m░▒▄[0;1;36;46m  ░▀██▄█████████▀[0;30;46m▄▄▄▄ [0;1;36;46m▀▀  ▄▄██▓▒░░[0;30;46m  [0;1;36;46m░░[0;30;46m      [0;1;30;46m   ▄ ▄▄▓▓████[0;1;30;40m▓[0m▒[30;46m▐▄▄▄[0;1;36;46m▀█▓▓[0m

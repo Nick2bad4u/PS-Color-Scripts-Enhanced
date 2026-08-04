@@ -1,18 +1,4 @@
-﻿# Converted from: PU-ME!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf_0197/raw/PU-ME!.ANS
-# Source Revision: archive-sha256:0bef4e77d7c82c5af473f1433a65595e61d3227bf5a97a1733bde8181e32b843
-# Source SHA-256: 32717882e3fc98a73a29255dd9d688d8ece6bc31b6e24d33871c718033cf8ca0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PU-ME!.ANS by puppiluppan (gummiboll.art); released in plf_0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: thats me!
-# SAUCE Author: puppiluppan
-# SAUCE Group: gummiboll.art
-# SAUCE Date: 19970204
-# SAUCE Dimensions: 80x63
-# Lines: 49-63
-# Columns: 1-80
+﻿# Artwork: thats me! by puppiluppan | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0197-pu-me-part02
 
 Write-Host '
        [1m▄[0;1;35m▄[0m            [1m                              [0;1;35m [0m [35m▄[0m   [35m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: EM-SPRAY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/5th-9704/raw/EM-SPRAY.ANS
-# Source Revision: archive-sha256:433f02eb594b278a0e5f90fc6395e864545264f86c73c6d9e4386917e4a13780
-# Source SHA-256: 93f0ccc0ed75c73f7cf3a2c9923f7649b2bac018cf369773ad2c80051123fc4b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EM-SPRAY.ANS by evil milkman (z flux z the 5th z); released in 5th-9704 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: god damn sprayers >=)
-# SAUCE Author: evil milkman
-# SAUCE Group: z flux z the 5th z
-# SAUCE Date: 19970706
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: god damn sprayers >=) by evil milkman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-5th-9704-em-spray
 
 Write-Host '
                               [32m▄▄[0;1;32;42m■▒▄[0;32;40m█▄▄[0m                        [37;40m▄[0;1;37;47m▒[0;37;40m▄▄[0m    [1;32;40m░[0m

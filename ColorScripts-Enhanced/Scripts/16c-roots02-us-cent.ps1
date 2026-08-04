@@ -1,13 +1,4 @@
-﻿# Converted from: us-cent.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roots02/raw/us-cent.ans
-# Source Revision: archive-sha256:76e48703c4ae574ec2cec39d9f297f8abe09593046838247863eedaee737caa1
-# Source SHA-256: 379886385c3ae28cb9947eef65f6d58d35dc58a5945141f80f98e90ab9b53702
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-cent.ans by Tombin + Avenging Angel (roots02); released in roots02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: us-cent.ans by Tombin + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roots02-us-cent
 
 Write-Host '
                                 [1;30m░[0m

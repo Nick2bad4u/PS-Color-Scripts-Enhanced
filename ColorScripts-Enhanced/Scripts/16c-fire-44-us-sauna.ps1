@@ -1,19 +1,4 @@
-﻿# Converted from: US-SAUNA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-44/raw/US-SAUNA.ANS
-# Source Revision: archive-sha256:6c51508cedeaa9140fcf08750a75edb14e0cec0eebe7b4290346e95cd3548876
-# Source SHA-256: daecde5fc3904e160911169657e923458f8d1c5b8e7faa5bde6b048599b67bf8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SAUNA.ANS by Tainted + Abstrakt (fire); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: sauna
-# SAUCE Author: tainted / abstrakt
-# SAUCE Group: fire
-# SAUCE Date: 20251111
-# SAUCE Dimensions: 80x36
-# SAUCE Font: IBM VGA
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: sauna by Tainted + Abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-44-us-sauna
 
 Write-Host '
              [37;40mb[0m

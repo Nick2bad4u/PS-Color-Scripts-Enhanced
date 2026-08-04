@@ -1,20 +1,4 @@
-﻿# Converted from: wa-letting_go.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-67rpm/raw/wa-letting_go.ans
-# Source Revision: archive-sha256:3bbf9039f3766954a270bac124a42d38fcc9fc482243f18bf40e3eb60d3ca1ae
-# Source SHA-256: 76c1bbc43ba0b0fea1d2ffa84025d9ff52782bd549ff7c8ed1d20fd90824cb6e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-letting_go.ans by warpus (fuel); released in blocktronics-67rpm and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: on letting go
-# SAUCE Author: warpus
-# SAUCE Group: fuel
-# SAUCE Date: 20190210
-# SAUCE Dimensions: 80x146
-# SAUCE Font: IBM VGA
-# SAUCE Comments: I saw this album cover and had to draw it
-# Lines: 99-146
-# Columns: 1-80
+﻿# Artwork: on letting go by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-67rpm-wa-letting-go-part03
 
 Write-Host '
 [1;30;47m    [0m███████████████████████[30m█[0;37m█[0;1;33m░[0;1;31m▓[0;1;33m▓[0;30m█[0;1;33m▀[0;1;31m▄[0;1;35m [0;1;31m▄[0;1;31;41m▓[0;1;31;40m▓[0;30;47m█[0;37;40m▐[0;37;46m▓▓[0;37;40m▌▐[0;37;46m▓▓▒▒[0;36;40m▀▀[0;30;40m█[0;36;40m▄[0;37;46m▒▒▒▒▒▒▒░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒[0m

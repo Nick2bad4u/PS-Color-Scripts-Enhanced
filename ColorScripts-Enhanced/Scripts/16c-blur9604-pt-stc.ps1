@@ -1,18 +1,4 @@
-﻿# Converted from: PT-STC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blur9604/raw/PT-STC.ANS
-# Source Revision: archive-sha256:f34199ac74590675ded2180ca27511328a450728efb320959a16e7122378876b
-# Source SHA-256: 2fe3e7e82ba00cc49979c8c1dd94fe1a8d86572e7281ae7ae95802b064de0d70
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PT-STC.ANS by prestige (blur!); released in blur9604 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Stone Chapel
-# SAUCE Author: prestige
-# SAUCE Group: blur!
-# SAUCE Date: 19960318
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Stone Chapel by prestige | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blur9604-pt-stc
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: SM!OPX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0198/raw/SM!OPX.ANS
-# Source Revision: archive-sha256:463d77f4b1466b54ce907e7ee760282fc69f7183ee8d9f351965b1f5ce417b30
-# Source SHA-256: e1f0a5e676bfede2c6c2ffdc4aa507cafa2c1388c1da3669b3869bd7d42dc2e2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM!OPX.ANS by siMs (poffelipoff); released in plf-0198 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: OPX Logo
-# SAUCE Author: siMs
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19980106
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: OPX Logo by siMs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0198-sm-opx
 
 Write-Host '
 [1;33m░░[0m      [1;33m░[0m                  [33m▄[0;1;33m▄▄[0;1;33;43m▄[0;1;33;40m███████▄▓▄▄▓▄▄▄[0;33m▄[0;1;30m▄ [0m       [1;33m░░[0m   [1;33m░[0m          [1;33m    [0;33m▄[0;1;33m▄▄[0m

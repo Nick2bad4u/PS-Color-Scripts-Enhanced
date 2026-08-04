@@ -1,18 +1,4 @@
-﻿# Converted from: TX-WFC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zenith03/raw/TX-WFC.ANS
-# Source Revision: archive-sha256:e8b012d9554c8de00edbf4ae4690e8ec101af64bf1491a5f5dd86a06158d71d2
-# Source SHA-256: 24fc24b52467a19e3f004764ccf4c589bba657b6f560f123df0ab50c4334e5e8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TX-WFC.ANS by Toons Xilion (Zenith); released in zenith03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Infusion Bbs
-# SAUCE Author: Toons Xilion
-# SAUCE Group: Zenith
-# SAUCE Date: 19980731
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Infusion Bbs by Toons Xilion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zenith03-tx-wfc
 
 Write-Host '
 [1;47m  ░▓▓▓▓[0;1;40m▀▀ [0;34m▄██[0;37;44m▄[0;1;37;44m▄[0;1;37;47m▄▄[0;1;37;40m▒[0;1;37;47m▄[0;1;37;40m███▒▒[0;1;37;44m░[0;1;34;40m▄▄ [0;34m░░▓▓[0;1;34;44m░░▒[0;1;37;44m░[0;1;34;40m▓[0;1;34;44m▀▀▀▀▓▓▓[0;1;34;40m▓▓▓[0;1;34;44m▀[0;1;34;40m█▀▀[0;1;37;44m░░[0;1;34;44m▓[0;1;34;40m▄▄    [0;1;30;40mtx := zenith[0m     [1m■[0m

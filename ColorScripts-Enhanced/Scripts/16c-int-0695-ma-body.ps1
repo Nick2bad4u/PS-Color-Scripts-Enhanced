@@ -1,18 +1,4 @@
-﻿# Converted from: MA-BODY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/int-0695/raw/MA-BODY.ANS
-# Source Revision: archive-sha256:6771e2ee2a532a03e3048eaa1b1bbf7fcd6b77f65d21375ee296ff4fbc6ca5cd
-# Source SHA-256: e1a02753a2d39d8252314e63acf38e4378cd5a8864661dff15c9f3c3ed1cd725
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MA-BODY.ANS by Mage (Integrity); released in int-0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: She's got a great body (of water)
-# SAUCE Author: Mage
-# SAUCE Group: Integrity
-# SAUCE Date: 19950531
-# SAUCE Dimensions: 80x49
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: She's got a great body (of water) by Mage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-int-0695-ma-body
 
 Write-Host '
 [1m  [0;1;36m  [0;36m [0;1;36m                  [0;1;37m [0m   [1;36;46m█████▓▓▓[0;1;36;40m▀[0;1;37;40m▄[0;1;37;47m▀[0;1;37;40m███[0;1;37;47m█[0;1;37;40m▄[0m▀[1;47m░[0m▄▄[1;36m▀▀[0;1;36;46m███▓▓[0;1;36;40m█[0;1;36;46m█▓[0;1;36;40m█[0;1;36;46m▓▓[0;1;36;40m█▀[0;1;37;40m▄[0;1;37;47m▀▓[0;1;37;40m█████▄[0;1;36;40m▀█[0;1;36;46m▓██▓▓[0;1;36;40m█ [0m

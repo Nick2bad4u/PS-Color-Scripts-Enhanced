@@ -1,18 +1,4 @@
-﻿# Converted from: US-URCH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden13/raw/US-URCH.ANS
-# Source Revision: archive-sha256:70e231ea8653cd02d349f122b1a39f57757322f3913b0c8f20698b54c8795e68
-# Source SHA-256: b6b0261045317ca7ac0fdb9df528ea8149765682aee6371b6e02f38fcc03014a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-URCH.ANS by Minotaur + Soul Trader (maiden + 3o3); released in maiden13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: @@ urban chaos r0x @@
-# SAUCE Author: lst + mino
-# SAUCE Group: maiden + 3o3
-# SAUCE Date: 19970921
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: @@ urban chaos r0x @@ by Minotaur + Soul Trader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden13-us-urch
 
 Write-Host '
                                    [1;47m [0;1;40m           [0;1;30;40m  [0m               

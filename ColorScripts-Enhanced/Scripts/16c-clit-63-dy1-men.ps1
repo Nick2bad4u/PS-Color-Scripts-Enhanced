@@ -1,13 +1,4 @@
-﻿# Converted from: dy1-men.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/clit-63/raw/dy1-men.ans
-# Source Revision: archive-sha256:d3b4e882f44abd294768cb9bd5670a6445d2a5e2ff15c5853a00f270e296e2a5
-# Source SHA-256: 3ab0bf140f2f13561fe785821e187f445f0fbceb2e97011e92897cb8de235eb1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: dy1-men.ans by Discyple (clit-63); released in clit-63 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: dy1-men.ans by Discyple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-clit-63-dy1-men
 
 Write-Host '
    [1;31mdb,,d''[0;31m*└[0;1;31m` ┌.[0m

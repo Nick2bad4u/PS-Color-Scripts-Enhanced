@@ -1,19 +1,4 @@
-﻿# Converted from: MT-1NS03.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/MT-1NS03.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: 53e597b28e0e3d3e0828a56c385648b7aa279498299564758db168cc72d2a621
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MT-1NS03.ANS by Misfit (Blocktronics); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 1NS0MN1A - burial
-# SAUCE Author: Misfit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20200323
-# SAUCE Dimensions: 80x51
-# SAUCE Font: IBM VGA
-# Lines: 27-51
-# Columns: 1-80
+﻿# Artwork: 1NS0MN1A - burial by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-mt-1ns03-part02
 
 Write-Host '
 [37;40m [0;33;40m█▀▄    ░░ ▀█[0;37;43m■▄[0;33;40m▄  ▀█ ▌[0;1;30;40m  ░░░░░▒▒▓▓▓▓███████[0;1;30;47m▀▀[0m█[1;47m░░[0m██[1;30;47m▒▓▓▓[0;1;30;40m██[0;1;30;47m▀[0m█████[1;30;47m░░[0;1;30;40m▌[0m [33m█▓▄░░  ▄■▀▀[0m

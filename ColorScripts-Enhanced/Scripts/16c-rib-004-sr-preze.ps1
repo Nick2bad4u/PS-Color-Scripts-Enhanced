@@ -1,18 +1,4 @@
-﻿# Converted from: SR-PREZE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-004/raw/SR-PREZE.ANS
-# Source Revision: archive-sha256:a067efaae2c49d13d3802ef0b5eb48bb6eeae2862ad07b06fd09ee0c67c1af4f
-# Source SHA-256: 1c074ac7b93ed242e06dbc408a7423c868beeb537d111d498a6ffd1b224c8377
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SR-PREZE.ANS by ScroLLer (RiB); released in rib-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: rib prezenta
-# SAUCE Author: ScroLLer
-# SAUCE Group: RiB
-# SAUCE Date: 19971024
-# SAUCE Dimensions: 80x22
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: rib prezenta by ScroLLer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-004-sr-preze
 
 Write-Host '
       [30m████████[0;37m [0;30m█[0;30;47m██████[0;36;40m            [0;33;40m ▄[0;1;30;43m░[0;1;33;40m▄▄██▄▄[0;31m [0;36m                  [0;30m█████████████████[0m

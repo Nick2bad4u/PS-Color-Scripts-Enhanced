@@ -1,18 +1,4 @@
-﻿# Converted from: PC-ERN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst0496/raw/PC-ERN.ANS
-# Source Revision: archive-sha256:3c7a2beca2f308f553da7e98e6442c0f3abdc286c7ddc8048ce0d5b9419ae167
-# Source SHA-256: 799dd1e19c1af9dff5181de55904dc1efa28ff172cbe744c68b15375ac4f13fd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-ERN.ANS by putrid carcass (twisted); released in twst0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: kronic screen/ernie :)
-# SAUCE Author: putrid carcass
-# SAUCE Group: twisted
-# SAUCE Date: 19960401
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: kronic screen/ernie :) by putrid carcass | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst0496-pc-ern
 
 Write-Host '
 

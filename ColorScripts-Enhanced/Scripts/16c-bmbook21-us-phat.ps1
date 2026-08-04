@@ -1,17 +1,4 @@
-﻿# Converted from: US-PHAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook21/raw/US-PHAT.ANS
-# Source Revision: archive-sha256:a9340bf45277705f38b7b2e8dfe7bc518716b8c419a47ac48708bc33bd40ec01
-# Source SHA-256: 4e14a8db26185f57b1beffc48e2538dd7d7a1446d6057200e27dd0d8e23acd56
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PHAT.ANS by Potzkoten + Spear (bmbook21); released in bmbook21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: phat studios
-# SAUCE Author: spear.potzkoten
-# SAUCE Date: 20000105
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: phat studios by Potzkoten + Spear | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook21-us-phat
 
 Write-Host '
 [35m [0m     [35m  ▀[0;37m [0;35m  [0;1;30m  ▄▄[0m   [1;30m  [0m [1;30m▬■  ▄ [0m [1;30m▐ [0m       [1;30m  ▄ [0m [1;30m  ▄[0m   [1;30m▄▄[0m   [1;30m [0m         [1;30m▐▄▄ [0;35m▀ [0;37m [0;1;30m ▀[0m      [35m▄[0m

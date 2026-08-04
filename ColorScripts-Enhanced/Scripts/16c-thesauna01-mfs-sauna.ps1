@@ -1,16 +1,4 @@
-﻿# Converted from: mfs-SAUNA.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna01/raw/mfs-SAUNA.ans
-# Source Revision: archive-sha256:70f712dbf565de1ceb0f2b7020b54aa443621235a47b082b92e24e13342b0672
-# Source SHA-256: 9d6ac86c83082b71f681f8e9bdfad2401fa620757698abcc49ab659be4a537a6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mfs-SAUNA.ans by Mel Farr Suppastar (thesauna01); released in thesauna01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 20190901
-# SAUCE Dimensions: 80x27
-# SAUCE Font: IBM VGA
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: mfs-SAUNA.ans by Mel Farr Suppastar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna01-mfs-sauna
 
 Write-Host '
 [1;37;40m    [0;1;36;40m _╓╖[0m

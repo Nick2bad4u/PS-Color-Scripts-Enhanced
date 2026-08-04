@@ -1,18 +1,4 @@
-﻿# Converted from: DG-ECL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rilebrkn/raw/DG-ECL2.ANS
-# Source Revision: archive-sha256:631709d46940d5f633b8ebca426a515d51357cee4cca25bed435a2a8fbf53a10
-# Source SHA-256: c4b4c8a0213ce171362168c32caaecd8b30eb175f0d1b8fc02db5cd2ed057ab4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DG-ECL2.ANS by David Gould (rile); released in rilebrkn and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Eclipse had warez.
-# SAUCE Author: David Gould
-# SAUCE Group: rile
-# SAUCE Date: 19970509
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Eclipse had warez. by David Gould | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rilebrkn-dg-ecl2
 
 Write-Host '
                                                  [1;33m░░[0m

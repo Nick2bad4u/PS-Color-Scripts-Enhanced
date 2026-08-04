@@ -1,18 +1,4 @@
-﻿# Converted from: K1-PLF8.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus05/raw/K1-PLF8.ANS
-# Source Revision: archive-sha256:1aa3ba6c9bb069effe029f69af967419cb8dc77ae4501a5215ae43589435acd5
-# Source SHA-256: f06e167417a84d6b309a7949a907ae5010969f072923311123f9d1d2ad4b7169
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K1-PLF8.ANS by knocturnal (Fokus); released in fokus05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: poffelipoff
-# SAUCE Author: knocturnal
-# SAUCE Group: Fokus
-# SAUCE Date: 19990610
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: poffelipoff by knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus05-k1-plf8
 
 Write-Host '
 

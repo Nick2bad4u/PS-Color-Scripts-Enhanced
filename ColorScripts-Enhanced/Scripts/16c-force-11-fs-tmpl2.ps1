@@ -1,18 +1,4 @@
-﻿# Converted from: FS-TMPL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-11/raw/FS-TMPL2.ANS
-# Source Revision: archive-sha256:fb569ca0f426a612fae941c52b66a1bf2185c5bf71d8e011fd47447565da1174
-# Source SHA-256: 8333943a6d96abb6c04d42b211b0dcb8df5d34c0b69e8df94811b41851b23cca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FS-TMPL2.ANS by flipside (fORCE); released in force-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: da temple
-# SAUCE Author: flipside
-# SAUCE Group: fORCE
-# SAUCE Date: 19960902
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: da temple by flipside | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-11-fs-tmpl2
 
 Write-Host '
 [1;30mthe[0m

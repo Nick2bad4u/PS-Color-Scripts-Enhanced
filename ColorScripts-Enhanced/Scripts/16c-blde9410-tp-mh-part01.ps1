@@ -1,18 +1,4 @@
-﻿# Converted from: TP-MH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9410/raw/TP-MH.ANS
-# Source Revision: archive-sha256:bd859dd294a62200dca01965f176566e1c6690d3dec16fdb5f06c1ef58e2dc4e
-# Source SHA-256: 9e1acbfbd649df2d06919dcdb9ab9f8b7abc59b948c45b8415d93ff4952c86ef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TP-MH.ANS by TechnoPhreaK (Blade Productions); released in blde9410 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Mass Hysteria
-# SAUCE Author: TechnoPhreaK
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19940930
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Mass Hysteria by TechnoPhreaK | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9410-tp-mh-part01
 
 Write-Host '
 [33m████████████████████████████████████████████████████████████████████████████████[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: us-mmc.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic16/raw/us-mmc.ans
-# Source Revision: archive-sha256:60ac0d88d5794eddcc09b43fa357d7c6ef71877ab00adc0b1f356b7bf05f8ad8
-# Source SHA-256: 9755b1fd3b5c0c263c1a1c9e768d6093e853988ff37cbaca995f24a820916c24
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-mmc.ans by H7 + Polygon (mimic16); released in mimic16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: us-mmc.ans by H7 + Polygon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic16-us-mmc
 
 Write-Host '
 $$b⌂┌.          [36md;[0;1;32m [0m4[1m$$$$[0m([1m [0m

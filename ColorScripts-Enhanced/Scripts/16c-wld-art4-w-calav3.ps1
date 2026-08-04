@@ -1,13 +1,4 @@
-﻿# Converted from: W-CALAV3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wld-art4/raw/W-CALAV3.ANS
-# Source Revision: archive-sha256:1f8892d232e0daf7c428da775a3094fc940e21a6b02631b983a2d766277e28a8
-# Source SHA-256: da6dc132bdc4de467bcfabf4736bd1e7fddad0295ca2fbed35cb52b5461f074c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: W-CALAV3.ANS by Wolfman-Circe (wld-art4); released in wld-art4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: W-CALAV3.ANS by Wolfman-Circe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wld-art4-w-calav3
 
 Write-Host '
 

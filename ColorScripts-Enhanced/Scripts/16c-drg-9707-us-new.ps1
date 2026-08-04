@@ -1,18 +1,4 @@
-﻿# Converted from: US-NEW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg-9707/raw/US-NEW.ANS
-# Source Revision: archive-sha256:b65590bddff9617f17d3b4025c35c3e5faf3352cc09c0ee1a348f46ee7e889fc
-# Source SHA-256: 65c8b719b2e383e425f129fc83a1ad37bc428f1bb61b91f50826ca35e51f4291
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-NEW.ANS by Joda + Flux (drg&pr); released in drg-9707 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: joint. new. privat, dont touch.
-# SAUCE Author: flux&joda
-# SAUCE Group: drg&pr
-# SAUCE Date: 19970717
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: joint. new. privat, dont touch. by Joda + Flux | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg-9707-us-new
 
 Write-Host '
                            [31m░▄▐[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: TX-MONK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0197/raw/TX-MONK.ANS
-# Source Revision: archive-sha256:331ffa2c0b41c075aec836339cfb4b33b33b171a17da17bd721952cf3966c823
-# Source SHA-256: dbbab0bdca5b3c5207c8ca69dd4cf13c61193949ad713a97eca69d8a6cc363a6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TX-MONK.ANS by tektronix (bamboosh); released in bmb-0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: MONK
-# SAUCE Author: tektronix
-# SAUCE Group: bamboosh
-# SAUCE Date: 19961218
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: MONK by tektronix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0197-tx-monk
 
 Write-Host '
 

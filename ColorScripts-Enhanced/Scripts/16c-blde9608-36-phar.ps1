@@ -1,18 +1,4 @@
-﻿# Converted from: 36-PHAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9608/raw/36-PHAR.ANS
-# Source Revision: archive-sha256:85bb83b3d462d5b00a0e7d3a1bfbe68490ac5737682c9ce44c52faa33ffa6a2b
-# Source SHA-256: 774cac1f00cb4e1f6c8fbb9281e8ad62023f389cfab9feea7bfbe9218552cea2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 36-PHAR.ANS by metallic blood (bLADE!); released in blde9608 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: pharcyde + note
-# SAUCE Author: metallic blood
-# SAUCE Group: bLADE!
-# SAUCE Date: 19960731
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: pharcyde + note by metallic blood | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9608-36-phar
 
 Write-Host '
            [35;44m▒▓▓[0;35;40m▀[0m                                                   [35;40m▀[0;35;44m███[0m

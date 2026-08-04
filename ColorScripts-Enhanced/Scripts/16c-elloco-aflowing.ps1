@@ -1,18 +1,4 @@
-﻿# Converted from: AFLOWING.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/elloco/raw/AFLOWING.ANS
-# Source Revision: raw-sha256:2665704ecbb0c10714a5568123013eecde7b4c63e3e9f6ce1f7efa8b6fabfbf8
-# Source SHA-256: 2665704ecbb0c10714a5568123013eecde7b4c63e3e9f6ce1f7efa8b6fabfbf8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AFLOWING.ANS by El LoCo (NeveRLanD); released in elloco and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Acid Flowing
-# SAUCE Author: El LoCo
-# SAUCE Group: NeveRLanD
-# SAUCE Date: 19951129
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Acid Flowing by El LoCo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-elloco-aflowing
 
 Write-Host '
               [1;34m█[0;1;34;44m▓▒░  [0;34m█▀[0;1;37m▄▄███████▄ [0;34m▀█████████████████████████[0;34;44m  [0;1;34;44m░░░▒▓[0;1;34;40m█[0m

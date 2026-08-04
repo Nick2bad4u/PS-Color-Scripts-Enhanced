@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-MANG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-37/raw/ZIR-MANG.ANS
-# Source Revision: archive-sha256:42913eb56742cc8575f96af5b8a027e63b5172fdb84271b8ac973c7820ea43ef
-# Source SHA-256: d375d34fff4dd6bffb00dabfc1a8c2b7a3238cf9777df4b317db964c7ca01b3d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-MANG.ANS by zir (FiRE); released in fire-37 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: amanda lauren <3 <3 <3
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20230707
-# SAUCE Dimensions: 80x86
-# SAUCE Font: IBM VGA
-# SAUCE Comments: "mandalorian painting graffii in the hood" | for blender, april 22, 2023.
-# Lines: 51-86
-# Columns: 1-80
+﻿# Artwork: amanda lauren <3 <3 <3 by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-37-zir-mang-part02
 
 Write-Host '
 [38;2;171;171;171;48;2;0;0;0m [0;38;2;0;0;171;48;2;0;0;0m▌[0;38;2;171;0;171;48;2;0;0;0m▐[0;1;38;2;255;87;87;48;2;171;0;171m█[0;1;38;2;255;87;255;48;2;0;0;0m██[0;1;38;2;255;87;87;48;2;171;0;171m▌[0;38;2;171;0;171;48;2;0;0;0m [0;38;2;0;0;171;48;2;0;0;0m▄[0;1;38;2;255;87;87;48;2;171;0;171m▒▓▓▓[0;38;2;0;0;171;48;2;171;0;171m▐[0;38;2;171;0;171;48;2;0;0;0m  ▐[0;1;38;2;255;87;87;48;2;171;0;171m█[0;1;38;2;255;87;255;48;2;0;0;0m██[0;1;38;2;255;87;87;48;2;171;0;171m█▒[0;38;2;171;0;171;48;2;0;0;0m ▐▐[0;1;38;2;255;87;87;48;2;171;0;171m█[0;1;38;2;255;87;255;48;2;0;0;0m██[0;1;38;2;255;87;87;48;2;171;0;171m▒[0;38;2;171;0;171;48;2;0;0;0m  [0;1;38;2;255;87;87;48;2;171;0;171m█[0;1;38;2;255;87;255;48;2;0;0;0m██[0;1;38;2;255;87;87;48;2;171;0;171m▒[0;38;2;171;0;171;48;2;0;0;0m▌[0;1;38;2;255;87;87;48;2;171;0;171m░█[0;1;38;2;255;87;255;48;2;0;0;0m██[0;1;38;2;255;87;87;48;2;171;0;171m▒[0;38;2;171;0;171;48;2;0;0;0m  [0;1;38;2;255;87;87;48;2;171;0;171m▒[0;1;38;2;255;87;255;48;2;0;0;0m██[0;1;38;2;255;87;87;48;2;171;0;171m█▒[0;38;2;0;171;171;48;2;0;0;0m [0;38;2;171;0;171;48;2;0;0;0m░[0;38;2;171;171;171;48;2;0;0;0m [0;1;38;2;87;87;87;48;2;0;0;0m█[0;1;38;2;87;255;87;48;2;0;171;171m░[0;1;38;2;87;255;87;48;2;0;0;0m█[0;1;38;2;255;255;87;48;2;0;0;0m███[0;1;38;2;87;255;87;48;2;0;0;0m█[0;1;38;2;87;255;87;48;2;0;171;171m█░[0;38;2;0;171;171;48;2;0;0;0m [0;38;2;171;0;0;48;2;0;0;0m▐█[0;38;2;171;171;171;48;2;0;0;0m [0;38;2;171;0;0;48;2;0;0;0m░[0;1;38;2;255;87;87;48;2;171;0;171m░▒[0;38;2;171;171;171;48;2;0;0;0m [0;1;38;2;87;255;87;48;2;0;171;171m▒[0;1;38;2;87;255;87;48;2;0;0;0m█[0;1;38;2;255;255;87;48;2;0;0;0m██[0;1;38;2;87;255;87;48;2;0;0;0m██[0;1;38;2;87;255;87;48;2;0;171;171m▌ [0;1;38;2;87;87;87;48;2;0;0;0m▀[0;38;2;171;0;0;48;2;0;0;0m▓[0m

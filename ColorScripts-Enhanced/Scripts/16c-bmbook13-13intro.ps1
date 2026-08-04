@@ -1,18 +1,4 @@
-﻿# Converted from: 13INTRO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook13/raw/13INTRO.ANS
-# Source Revision: archive-sha256:f383b37d2f0265a83b82afcdde57a4dae359d8a5127c467dcea28d0c8500d000
-# Source SHA-256: e7bfcd0a82c8b0cacaedc97e4681aa9c1661b720bb779fdfea5115d35ad61c35
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 13INTRO.ANS by black maiden (black maiden); released in bmbook13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: book #13
-# SAUCE Author: black maiden
-# SAUCE Group: black maiden
-# SAUCE Date: 19970427
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: book #13 by black maiden | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook13-13intro
 
 Write-Host '
 [36m[0;37m[0;36m[0m                         [1;35m░[0m

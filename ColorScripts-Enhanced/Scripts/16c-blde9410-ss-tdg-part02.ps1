@@ -1,18 +1,4 @@
-﻿# Converted from: SS-TDG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9410/raw/SS-TDG.ANS
-# Source Revision: archive-sha256:bd859dd294a62200dca01965f176566e1c6690d3dec16fdb5f06c1ef58e2dc4e
-# Source SHA-256: 10e410ebaf7449fed4fb9566a2bc1f01b5b0d9e6a01186265bdbd65f29d3fd14
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SS-TDG.ANS by Soul Seeker (Blade Productions); released in blde9410 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Dark Gate Adverstisement
-# SAUCE Author: Soul Seeker
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19940926
-# SAUCE Dimensions: 80x25
-# Lines: 37-72
-# Columns: 1-80
+﻿# Artwork: The Dark Gate Adverstisement by Soul Seeker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9410-ss-tdg-part02
 
 Write-Host '
 [1;37m ████████████▄ [0;34m█ [0;1;37m▀▀▄ [0;34m▀██████▒████████████▓██ [0;1;37m██████████████ [0;34m█ [0;1;37m█████████████████[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: AB-DCKER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/astk0194/raw/AB-DCKER.ANS
-# Source Revision: archive-sha256:85386f5551c42a88135027c451bdde0caf298cc394973b954eb4073e747445c6
-# Source SHA-256: 4debbc2be07d42ed943989a81878e219e8277a678e7b8f5878d7f7723fa6f623
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AB-DCKER.ANS by Astral Buster + The Extremist (astk0194); released in astk0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 37-69
-# Columns: 1-80
+﻿# Artwork: AB-DCKER.ANS by Astral Buster + The Extremist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-astk0194-ab-dcker-part02
 
 Write-Host '
  [32m█▀▀▀[0m                 [32m▄▄▄▄▄▄[0m              [1;37m▄    [0m█ [1;34;47m▓▒░[0m█████████████████████████ [32m▄[0m

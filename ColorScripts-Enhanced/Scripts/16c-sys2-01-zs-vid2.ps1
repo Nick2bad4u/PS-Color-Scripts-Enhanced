@@ -1,13 +1,4 @@
-﻿# Converted from: ZS-VID2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sys2_01/raw/ZS-VID2.ANS
-# Source Revision: archive-sha256:f707a7fe693d07201b6eb70e6937a345c157a5d2d28da9983b4bb47eb4421fde
-# Source SHA-256: bee5d24d5e77c62cf4fff7fb04c76c3b0e2cdacdb061e45c7151ed81cd21d8c7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZS-VID2.ANS by Zerostar (sys2_01); released in sys2_01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: ZS-VID2.ANS by Zerostar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sys2-01-zs-vid2
 
 Write-Host '
 [1;36m§§§§§§§§§§§§§§§§[0;36m§;[0m        [36m;[0;1;36m§§§[0;36m§§§§§§§§§§§§§§§§§§[0;1;36m§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§[0m

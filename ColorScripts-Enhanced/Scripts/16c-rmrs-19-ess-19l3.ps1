@@ -1,18 +1,4 @@
-﻿# Converted from: ESS!19L3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-19/raw/ESS!19L3.ANS
-# Source Revision: archive-sha256:51e7ebafde7b29c06daae7a5ae4da992f41728aec84b8b28502f57cce3cd0f9a
-# Source SHA-256: 5d141e827cbc5a5d64755b6a0cea62ffe3c1711faefd63428a389036751583c1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ESS!19L3.ANS by Essence (Remorse Productions); released in rmrs-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: BodyCount News
-# SAUCE Author: Essence
-# SAUCE Group: Remorse Productions
-# SAUCE Date: 19980104
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: BodyCount News by Essence | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-19-ess-19l3
 
 Write-Host '
 [1;30mess(rmrs) [0m¥¥¥[1m [0;1;34m [0;1;30m:[0;1;34m [0;1;30m¥[0m¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥[1;30ml[0m [1;30m:[0m ¥¥[1m¥¥¥[0;1;33m¥¥[0;1;37m¥¥[0m¥[1;30mP[0;34m .[0;37m ⌐ Bodycount News![0m

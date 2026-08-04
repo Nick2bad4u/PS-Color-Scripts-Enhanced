@@ -1,18 +1,4 @@
-﻿# Converted from: HT-IACCS.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/sac1294/raw/HT-IACCS.ANS
-# Source Revision: archive-sha256:4cf7765ee6660556cb900dacf0ec67f070b8e4df414172b5e01733a49d10031f
-# Source SHA-256: 789081d9ac801c895beb159c35c3207ee6679ab9fd0380a4405714554ab750c3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HT-IACCS.ANS by hetero; released in sac1294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ILLEGAL ACCESS
-# SAUCE Author: HETERO
-# SAUCE Group: LKCC
-# SAUCE Date: 19941029
-# SAUCE Dimensions: 80x25
-# Lines: 42-91
-# Columns: 1-80
+﻿# Artwork: ILLEGAL ACCESS by hetero | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac1294-ht-iaccs-part02
 
 Write-Host '
 [36m [0;1;30m█[0;1;36;47m▒▒▒[0;1;30;40m▓ ▓[0;1;36;47m▓▒▒[0;1;30;40m█[0;36m▒[0m      [1;30m▒[0;1;36;47m▓▒▒[0;1;30;40m█[0;36m▒[0m      [1;30m▓[0;1;36;47m▓▓▒[0;1;30;40m█ █[0;1;36;47m▒░[0;1;30;40m▓█ █[0;1;36;47m▓▒▒[0;1;30;40m█ █[0;1;36;47m░░[0;1;30;47m░[0;1;30;40m█ ▓[0;1;36;47m▒░▒[0;1;30;40m▓ ▓[0;1;36;47m▒▒▒[0;1;30;40m▓ ▓[0;1;36;47m▓▒▒[0;1;30;40m█[0;36m▒[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SK-REQUE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-0197/raw/SK-REQUE.ANS
-# Source Revision: archive-sha256:08e3420d6f5bf039e22601d044f43006678a0458956ba31375be1cbab8367813
-# Source SHA-256: 9e30f703868253e6390948623b0edeafc06c946499db0867fc023bc25321f284
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK-REQUE.ANS by .o!Skyknight-o. (AXF.ANL.ELP); released in axf-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Request
-# SAUCE Author: .o!Skyknight-o.
-# SAUCE Group: AXF.ANL.ELP
-# SAUCE Date: 19961206
-# SAUCE Dimensions: 80x11
-# Lines: 1-11
-# Columns: 1-80
+﻿# Artwork: Request by .o!Skyknight-o. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-0197-sk-reque
 
 Write-Host '
       [1;32m▄▄▄▄▄[0;32m▄[0m         [1;36m [0;36m▄[0;30;46m░[0;36;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;30;46m░[0;36;40m▄[0;1;36;40m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: ME-P91.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plan9-03/raw/ME-P91.ANS
-# Source Revision: archive-sha256:301e233671503dd7a10ff4a4cb6dda4f8763f8d72d90155c91788bf54f67e346
-# Source SHA-256: f83983b60f099ca2ff05d3073b951252eabc473a338e626bbb0f51872927d3a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ME-P91.ANS by Malformed Earthborn (root/twisted/plan9); released in plan9-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Plan9 logo.. shitty..
-# SAUCE Author: Malformed Earthborn
-# SAUCE Group: root/twisted/plan9
-# SAUCE Date: 19970213
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Plan9 logo.. shitty.. by Malformed Earthborn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plan9-03-me-p91
 
 Write-Host '
 [33;40m▓[0;1;31;43m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;31m▓[0;1;31;43m▄▄▄▄▄▄▄▄[0;1;31;40m▓[0;1;31;43m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;31;40m▓[0m

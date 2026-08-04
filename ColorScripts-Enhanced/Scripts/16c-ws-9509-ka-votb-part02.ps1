@@ -1,18 +1,4 @@
-﻿# Converted from: KA-VOTB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ws-9509/raw/KA-VOTB.ANS
-# Source Revision: archive-sha256:f80be9f57a72f3731fd02149f3cc3f702afe87dd851a20e852584349c036c76a
-# Source SHA-256: 0a745f4ea08ee95494a3a10ad3220e5bf5259b38b4d3fc4a4eacdc1aea509357
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KA-VOTB.ANS by kadaver (READ THE INI FILE); released in ws-9509 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: valley of the buffalo
-# SAUCE Author: kadaver
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950904
-# SAUCE Dimensions: 80x25
-# Lines: 42-83
-# Columns: 1-80
+﻿# Artwork: valley of the buffalo by kadaver | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ws-9509-ka-votb-part02
 
 Write-Host '
 [1;36;44m░[0m [1;33;43m▒[0;1;33;40m██[0;1;33;41m▓[0;1;33;43m▒▓[0;1;31;40m▓▒[0;1;33;41m▒[0;1;31;40m▒[0;1;33;40m▒▄▄▄▄▄▄[0m [1;31;43m▒░▓░░░[0;30;41m█[0;1;30;41m  ░▒    [0;31m█[0;1;30;41m ░▓[0;1;30;40m▄[0;31m▀[0;1;30;41m░[0;1;30;40m▄[0;34m  [0;1;34m▀▀[0;34m▓[0;1;37m [0m▀█[1;47m░▒▒▓[0;1;40m█[0;1;47m▓[0;1;40m▌[0;34m▒[0;1;34;44m░▒[0;34m [0;1;30;41m▓▒░[0m [30m [0;1;36;44m ▒░▒░ ▒░▒ ░ ░[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: PR-ENIG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca15-a/raw/PR-ENIG.ANS
-# Source Revision: archive-sha256:9b3ffc1306b5fd493eeab3ea63762e0c761f90e1b26cf8dffddf39a511fbd0e2
-# Source SHA-256: b0d887da69ac9010d40fa611a35b48fe2f8d6ca83b56c397538b51516127099f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR-ENIG.ANS by propane (rca15-a); released in rca15-a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Enigma
-# SAUCE Author: propane
-# SAUCE Date: 19970920
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Enigma by propane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca15-a-pr-enig
 
 Write-Host '
 [33m░░░░░[0m             [33m▀▀▒▀▀▀▀▀█[0;1;33;43m░░░░░▒▒▒▒▒▒▒░░░░░ [0;33m██▒[0;1;33m  [0;32m██[0;1;32;42m▓▓██[0;1;32;40m▀░▀[0;1;32;42m█[0;1;32;47m▒[0;1;32;42m███▒▒[0;32m█ [0;1;30m▐▄▄▄▄▄▄▄█▀▀░[0m

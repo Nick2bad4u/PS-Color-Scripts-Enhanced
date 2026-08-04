@@ -1,13 +1,4 @@
-﻿# Converted from: AG-TECH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/forge_01/raw/AG-TECH.ANS
-# Source Revision: archive-sha256:2fff2888a241fdc9a6b0d055819600aba00cda0ced5716e6af27b87d54779399
-# Source SHA-256: 0b3dcdff62f1815366eae8119ba01510f6f1f76b6d491e15e9c37f60bec95e34
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AG-TECH.ANS by Armageddon-Forge (forge_01); released in forge_01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: AG-TECH.ANS by Armageddon-Forge | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-forge-01-ag-tech
 
 Write-Host '
 

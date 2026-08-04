@@ -1,20 +1,4 @@
-﻿# Converted from: wa-acid2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz21/raw/wa-acid2.ans
-# Source Revision: archive-sha256:daa0e008ccfccc8179e0635097f8fe4a46a32781b45bbd86ff6e4505514c9e6d
-# Source SHA-256: cf7606b63357979cd36f8fa983ddbb64ebacb50b0efaa78303be12eef74f97e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-acid2.ans by warpus (LAZARUS); released in laz21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Echsen fC<r Acid
-# SAUCE Author: warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20260419
-# SAUCE Dimensions: 80x140
-# SAUCE Font: IBM VGA
-# SAUCE Comments: for filth.  he was probably in acid.  heck he probably ran it
-# Lines: 101-140
-# Columns: 1-80
+﻿# Artwork: Echsen fC<r Acid by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz21-wa-acid2-part03
 
 Write-Host '
 [34m██[0;30m█[0;37m  [0;36m█[0;1;31;46m▒[0;36m▌[0;34m▓▓▓█▐██▌[0;37m  [0;1;33;43m▄■[0;33m█[0;37m   [0;34m▄[0;1;37m▀[0;1;36;46m▄[0;31;46m▐[0;31;40m▄[0;1;32;40m░░[0;32m▀▀         [0;34m▐[0;1;34;44m▀[0;34m ▌[0;30m███[0;34m▐▌[0;37m  [0;30m▌[0;34m▐██[0;30m███[0;31m       [0;34m▐▌[0;37m [0;34m██[0;1;36m▌[0m [41m [0;32;41m▄▄[0;35;40m▄[0m

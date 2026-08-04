@@ -1,19 +1,4 @@
-﻿# Converted from: DEL-SAUN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-40/raw/DEL-SAUN.ANS
-# Source Revision: archive-sha256:aff8105c0a955ac5c43ea367a02b086cd2849f6741fc41b8a5ff440b77e104a7
-# Source SHA-256: 240659490357b95c795f14b9628fb8ff4bed1b5cf28dab6ec28aabcd2dd5411d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DEL-SAUN.ANS by delicious (blocktronics); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Sauna
-# SAUCE Author: delicious
-# SAUCE Group: blocktronics
-# SAUCE Date: 20240707
-# SAUCE Dimensions: 80x23
-# SAUCE Font: IBM VGA
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Sauna by delicious | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-40-del-saun
 
 Write-Host '
 

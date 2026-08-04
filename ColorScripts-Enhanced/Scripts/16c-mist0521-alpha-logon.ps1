@@ -1,19 +1,4 @@
-﻿# Converted from: ALPHA-LOGON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0521/raw/ALPHA-LOGON.ANS
-# Source Revision: archive-sha256:dd93e60733e1829e7eaea5eb93f8610a00af34f747d5fa7e9c88f5fba1ef15c1
-# Source SHA-256: f7271b761a981a720c19ca4bdb3b78acf1ed6f3cc2a86bfb059da6eacedc5ba8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ALPHA-LOGON.ANS by Alpha (None); released in mist0521 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Alpha Complex login screen
-# SAUCE Author: Alpha
-# SAUCE Group: None
-# SAUCE Date: 20210502
-# SAUCE Dimensions: 80x23
-# SAUCE Font: IBM VGA
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Alpha Complex login screen by Alpha | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0521-alpha-logon
 
 Write-Host '
 [31m███ [0;36m▄[0;1;30;46m▄[0;1;30;47m▀[0m████████████████████████████████████[1;30;47m▀[0;1;30;46m▄[0;36m▄[0;37m [0;31m████████████████████████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: TB-TS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-04/raw/TB-TS.ANS
-# Source Revision: archive-sha256:cf9a2279a34a1d82cee07323cbb5bca77fc6620fc4bda1203010fce2dfea132d
-# Source SHA-256: a282bda3ed8dfb0fd699d6dc7f351776b69f79e65d4147b0b316a3eccf06c5e9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TB-TS.ANS by Trebor (PuRG PRoDuKSHuNZ); released in purg-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Thought Surfers
-# SAUCE Author: Trebor
-# SAUCE Group: PuRG PRoDuKSHuNZ
-# SAUCE Date: 19960613
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: Thought Surfers by Trebor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-04-tb-ts
 
 Write-Host '
 [1;30m▄▄▄▄▄▄[0m

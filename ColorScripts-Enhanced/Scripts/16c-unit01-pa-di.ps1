@@ -1,18 +1,4 @@
-﻿# Converted from: PA-DI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/unit01/raw/PA-DI.ANS
-# Source Revision: archive-sha256:cab338f2eae80f507f7420c5633e2ed0fcca186c774137d9e9868ab55b919efb
-# Source SHA-256: bbb4b39ef0c37d83244e4d0cf2767eba4733eda400e9122f6789a1a2ac6e6492
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PA-DI.ANS by pandora (UNiT productions); released in unit01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: digital illusions
-# SAUCE Author: pandora
-# SAUCE Group: UNiT productions
-# SAUCE Date: 19960428
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: digital illusions by pandora | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-unit01-pa-di
 
 Write-Host '
                                          [1m▄ [0;1;36m [0;1;37m▄[0m▄▄        [1;30m▄[0m

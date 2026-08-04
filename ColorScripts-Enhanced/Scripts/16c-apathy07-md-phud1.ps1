@@ -1,18 +1,4 @@
-﻿# Converted from: MD-PHUD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy07/raw/MD-PHUD1.ANS
-# Source Revision: archive-sha256:cf53c4ea5c286717abe3d962fb98452e352d7d7a30a31881220e7068a7f0bb79
-# Source SHA-256: f74a6f98ac087d8f3901e01e583ff3452c95bab4743cb37cc6d8a6f0d5dcd4ea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MD-PHUD1.ANS by Mr. Self Destruct (Apathy); released in apathy07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: phudge
-# SAUCE Author: Mr. Self Destruct
-# SAUCE Group: Apathy
-# SAUCE Date: 19800101
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: phudge by Mr. Self Destruct | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy07-md-phud1
 
 Write-Host '
 [40m          [0;34;40m▄▄[0;1;34;40m▄[0;1;34;44m▄■▒▒░[0;34m▀▀ ▀  [0;1;34m░░ [0;34m▄▄[0m

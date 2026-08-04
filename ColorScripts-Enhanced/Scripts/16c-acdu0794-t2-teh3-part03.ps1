@@ -1,18 +1,4 @@
-﻿# Converted from: T2-TEH3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0794/raw/T2-TEH3.ANS
-# Source Revision: archive-sha256:53cd35a6f327a0c8a649f0c556ca1e17aa60e6c4040eff696f9e35efc72f4414
-# Source SHA-256: 1d73fa615f5cb82543900e57e6966f55fb0183bbaf4432754f03cdb4a920245f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T2-TEH3.ANS by Terminator2 (ACiD Productions); released in acdu0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Eleventh Hour
-# SAUCE Author: Terminator2
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940701
-# SAUCE Dimensions: 80x143
-# Lines: 101-143
-# Columns: 1-80
+﻿# Artwork: The Eleventh Hour by Terminator2 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0794-t2-teh3-part03
 
 Write-Host '
                                 [1;30m░[0m      ▄

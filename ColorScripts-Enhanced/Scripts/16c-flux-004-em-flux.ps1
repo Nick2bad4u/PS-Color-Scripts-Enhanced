@@ -1,18 +1,4 @@
-﻿# Converted from: EM-FLUX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flux-004/raw/EM-FLUX.ANS
-# Source Revision: archive-sha256:184a3f5dd0450d61dd9a9b4da05ef76ebec147753f33bfa3706045bb53c0d7a5
-# Source SHA-256: 7c8869cd322a661c9de73bf6c77fbd847b87e65a612d174cb86ac2d138584440
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EM-FLUX.ANS by evil milkman (flux z the 5th); released in flux-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: phlukz lohgoh
-# SAUCE Author: evil milkman
-# SAUCE Group: flux z the 5th
-# SAUCE Date: 19970705
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: phlukz lohgoh by evil milkman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flux-004-em-flux
 
 Write-Host '
 

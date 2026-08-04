@@ -1,13 +1,4 @@
-﻿# Converted from: BP-HOTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nectar01/raw/BP-HOTH.ANS
-# Source Revision: archive-sha256:db3812836800ba5278d4a1a62edfe8d06c2001872f9fe3d1064cdbc02eec11ac
-# Source SHA-256: a504e4f51f59ffc57b92ddc9bbc6a6bc7e09f75e4d5ef786a0e1ea62d8e88513
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BP-HOTH.ANS by Bigge Pif (nectar01); released in nectar01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: BP-HOTH.ANS by Bigge Pif | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nectar01-bp-hoth
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: FR-BCBOX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmtz-3/raw/FR-BCBOX.ANS
-# Source Revision: archive-sha256:9049eb84d35299820d945f342b3906500ed394a8e74f37bd2f023c428d1b0765
-# Source SHA-256: 583014df6babcc2b080fab4936a01227980b0fc86d028d116ce8035fdbddbbb7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FR-BCBOX.ANS by Fear (rmtz); released in rmtz-3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: BC-Bokz
-# SAUCE Author: Fear
-# SAUCE Group: rmtz
-# SAUCE Date: 19960929
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: BC-Bokz by Fear | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmtz-3-fr-bcbox
 
 Write-Host '
 [1;33m██▀███████[0m [1;33m████▄[0m

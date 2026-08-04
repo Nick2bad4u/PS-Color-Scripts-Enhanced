@@ -1,18 +1,4 @@
-﻿# Converted from: GR-SE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root04/raw/GR-SE.ANS
-# Source Revision: archive-sha256:8dec1aa0e303d37205499818eaff4458ebf93774cd973f016deaae45658df6b3
-# Source SHA-256: 6d463a5995083ee768965447ef8cd5ad3db6bec7b528d02cfe94b00703d87274
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GR-SE.ANS by Gree (Root); released in root04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: spilled entrails
-# SAUCE Author: Gree
-# SAUCE Group: Root
-# SAUCE Date: 19970518
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: spilled entrails by Gree | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root04-gr-se
 
 Write-Host '
                        ▄▄▄▄▄▄▄▄▄▄▄▄▄       [1;34m ▄▄▄▄▀▀▀▀■[0m             [1;32m▄▄▄[0m

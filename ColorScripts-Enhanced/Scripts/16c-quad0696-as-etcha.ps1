@@ -1,18 +1,4 @@
-﻿# Converted from: AS-ETCHA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0696/raw/AS-ETCHA.ANS
-# Source Revision: archive-sha256:236a7fb0a93235d8f2e65905276d126bcc0373b294a0bdfc5818d6b91f477e07
-# Source SHA-256: f3fac8d81e3c9b71da359a363167e70fedbb17d9b429f077f89ff29291c58b6d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AS-ETCHA.ANS by Assassin ([Quad-P]); released in quad0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Etch`a'sketch Quad-P logo
-# SAUCE Author: Assassin
-# SAUCE Group: [Quad-P]
-# SAUCE Date: 19960511
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Etch`a'sketch Quad-P logo by Assassin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0696-as-etcha
 
 Write-Host '
 [34m                     [0;1;33;47m▒[0;1;33;41m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;33;40m█[0;34m                      [0m

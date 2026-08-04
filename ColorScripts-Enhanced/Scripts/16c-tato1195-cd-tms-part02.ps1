@@ -1,17 +1,4 @@
-﻿# Converted from: CD!-TMS!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tato1195/raw/CD!-TMS!.ANS
-# Source Revision: archive-sha256:f333614a4cb8ea014d89f3f61d43ca62d476aeb093fb4271fc5458c44493defa
-# Source SHA-256: dc2ed6baa896b56879a3d1e69fbf7a94312109dcb24634a18fc9c50b3a8e107b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CD!-TMS!.ANS by cREEPiNG dEATH (tato1195); released in tato1195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: martiansolution
-# SAUCE Author: cREEPiNG dEATH
-# SAUCE Date: 19951030
-# SAUCE Dimensions: 80x63
-# Lines: 32-63
-# Columns: 1-80
+﻿# Artwork: martiansolution by cREEPiNG dEATH | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tato1195-cd-tms-part02
 
 Write-Host '
 [36m█████████████████[0;1;36;46m▀[0;1;36;40m▄▄ [0;1;31;40m▀▀▀██████████████████████████████▀▀ [0;36m▄██████████████████████[0m

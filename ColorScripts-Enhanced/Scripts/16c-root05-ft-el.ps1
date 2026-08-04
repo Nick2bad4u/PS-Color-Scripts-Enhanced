@@ -1,18 +1,4 @@
-﻿# Converted from: FT-EL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root05/raw/FT-EL.ANS
-# Source Revision: raw-sha256:8ab8a9d05ebb48e9e34c189fb9772f950f0d94f71d216472e5813126cae758a0
-# Source SHA-256: 8ab8a9d05ebb48e9e34c189fb9772f950f0d94f71d216472e5813126cae758a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FT-EL.ANS by Flight (Root); released in root05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: el255 header
-# SAUCE Author: Flight
-# SAUCE Group: Root
-# SAUCE Date: 19970717
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: el255 header by Flight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root05-ft-el
 
 Write-Host '
                        [31m▄▄[0m           [31m░[0m

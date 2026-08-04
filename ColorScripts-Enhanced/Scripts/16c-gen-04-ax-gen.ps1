@@ -1,13 +1,4 @@
-﻿# Converted from: ax_gen.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gen-04/raw/ax_gen.ans
-# Source Revision: archive-sha256:e213093116f6e1ab2eaa1e638df21b95956d50ac9a8ac57c3b8a10a54175dc97
-# Source SHA-256: b003a075637f13bdbd4b44e2af9e8a9ef348355c65f2cf833163a5033c2ccfde
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ax_gen.ans by Alla Xul (gen-04); released in gen-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: ax_gen.ans by Alla Xul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gen-04-ax-gen
 
 Write-Host '
    ▄■▀           [1;30m░[0m              [31m▄▄▓▓█▀▀ [0;1;30m  [0;31m▀[0;1;30m [0;31m■[0m         [1;30m  [0m            ▄▄█▌■

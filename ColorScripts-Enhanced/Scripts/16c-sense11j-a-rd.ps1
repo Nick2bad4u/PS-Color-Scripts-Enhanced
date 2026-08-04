@@ -1,16 +1,4 @@
-﻿# Converted from: _A-RD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense11j/raw/_A-RD.ANS
-# Source Revision: archive-sha256:9c1c7edf0d14ae95ae7a9cfcfa9322814b13baa95c33699852fa04d6685f708d
-# Source SHA-256: 9b5b2b0c3c24c6d07ae6abd9de18f4df5e7dd915073c763b60038ee23b628fdc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _A-RD.ANS by Absent Spinsister (sense11j); released in sense11j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Group: .
-# SAUCE Date: 20021203
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: _A-RD.ANS by Absent Spinsister | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense11j-a-rd
 
 Write-Host '
                                       [36md.[0m

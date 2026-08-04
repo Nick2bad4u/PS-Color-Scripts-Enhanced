@@ -1,13 +1,4 @@
-﻿# Converted from: AOH-AXOM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/emic0496/raw/AOH-AXOM.ANS
-# Source Revision: archive-sha256:0081657214e0d3eeaf9fa72e89eaffd16455becfd5da03242b645aa6b0fa9295
-# Source SHA-256: c2dc2fdf150addbbf595cc4fbaf1d7625182520b7b95f9c306e8b8c57c5172b7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AOH-AXOM.ANS by Angel Of Hell (emic0496); released in emic0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: AOH-AXOM.ANS by Angel Of Hell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-emic0496-aoh-axom
 
 Write-Host '
                                     [33ms[0;1;33m.[0m

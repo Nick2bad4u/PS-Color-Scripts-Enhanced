@@ -1,18 +1,4 @@
-﻿# Converted from: FL-FUZZ4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rilebrkn/raw/FL-FUZZ4.ANS
-# Source Revision: archive-sha256:631709d46940d5f633b8ebca426a515d51357cee4cca25bed435a2a8fbf53a10
-# Source SHA-256: 91db4e3ccfc914bbaed363caacf6b07c4178665b54a643549ae7f182db12a19e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-FUZZ4.ANS by flame (RILE); released in rilebrkn and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the fuzzhut.
-# SAUCE Author: flame
-# SAUCE Group: RILE
-# SAUCE Date: 19970428
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: the fuzzhut. by flame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rilebrkn-fl-fuzz4
 
 Write-Host '
 [32;43m▄[0;33;40m█▒▀░▀▀▀▀[0m   [33;40m▀[0;37;40m  [0;33;40m▄▄▄░░[0;31;40m▀▐[0;1;33;41m▄[0;31m▌[0;37m [0;1;33m░░[0m [33m▄▄[0m    [33m▀▀▀▀[0m   [33m▀▀[0;32m▀▀[0;33m▀░▀[0;32;43m░[0;33;40m▄[0;1;33;40m░▐[0;1;37;40m███[0;1;33;41m█[0;1;33;46m▌▓[0;1;33;40m█░[0m [33m▐[0;36;43m▓▓▓▓░[0;30;43m▓[0;1;33;40m░███[0m [36;43m░▒▓▓▓▄▄[0m

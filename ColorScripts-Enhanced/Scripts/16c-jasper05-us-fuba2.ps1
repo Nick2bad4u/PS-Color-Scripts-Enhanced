@@ -1,13 +1,4 @@
-﻿# Converted from: US-FUBA2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper05/raw/US-FUBA2.ANS
-# Source Revision: archive-sha256:33fac09b0787230492798535c47bf2642ecf35522de5af17dfe59b662d1606a6
-# Source SHA-256: c128a3401694bf1935866eeb5709d36d3a258f193690eb842b8fb4a7936808c4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FUBA2.ANS by Catch 22 + Avg + Untamed (jasper05); released in jasper05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: US-FUBA2.ANS by Catch 22 + Avg + Untamed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper05-us-fuba2
 
 Write-Host '
 

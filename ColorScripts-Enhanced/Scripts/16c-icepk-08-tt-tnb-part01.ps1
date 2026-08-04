@@ -1,13 +1,4 @@
-﻿# Converted from: TT-TNB.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-08/raw/TT-TNB.ICE
-# Source Revision: archive-sha256:76472331bcb8543f1e44f2a59ee8f7524c6af6373e89562b7fabb9e022104140
-# Source SHA-256: 89d7d80a058f5454ff38dff34f7869b11e46036a39b4716ad7f12422f4a6e2e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TT-TNB.ICE by Tempus Thales (icepk-08); released in icepk-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: TT-TNB.ICE by Tempus Thales | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-08-tt-tnb-part01
 
 Write-Host '
 

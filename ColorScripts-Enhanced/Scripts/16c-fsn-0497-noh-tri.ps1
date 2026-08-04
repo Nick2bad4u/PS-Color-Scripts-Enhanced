@@ -1,18 +1,4 @@
-﻿# Converted from: NOH-TRI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0497/raw/NOH-TRI.ANS
-# Source Revision: archive-sha256:0a24528ad1b8350dc6275ed84884990aa181682392c532082994d5872ceb5801
-# Source SHA-256: fa7a09a804257f5b92526f8f382cc7f813df9cdd34b629980b62a01c3a8b17fe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-TRI.ANS by nOah? (fusion); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: tri (not requested)
-# SAUCE Author: nOah?
-# SAUCE Group: fusion
-# SAUCE Date: 19970403
-# SAUCE Dimensions: 80x13
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: tri (not requested) by nOah? | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0497-noh-tri
 
 Write-Host '
                 [33m [0m                                     [1;31;43m ██[0;1;31;47m▓▓[0;1;31;43m [0m

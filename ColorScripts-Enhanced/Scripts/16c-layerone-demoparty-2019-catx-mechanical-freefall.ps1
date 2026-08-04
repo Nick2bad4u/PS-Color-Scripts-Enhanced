@@ -1,18 +1,4 @@
-﻿# Converted from: CatX_-_Mechanical_freefall.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/layerone_demoparty_2019/raw/CatX_-_Mechanical_freefall.ans
-# Source Revision: archive-sha256:21f4752c62776b6c16e92d822c559836f6af28e9a279be89084d23622e9b7046
-# Source SHA-256: 255b09970e08e4e199941487509555edcc7a79ee369ef713eee20c45b3c27067
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CatX_-_Mechanical_freefall.ans by CatX (layerone_demoparty_2019); released in layerone_demoparty_2019 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Mechanical freefall
-# SAUCE Author: CatX
-# SAUCE Date: 20180520
-# SAUCE Dimensions: 80x23
-# SAUCE Font: IBM VGA
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Mechanical freefall by CatX | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-layerone-demoparty-2019-catx-mechanical-freefall
 
 Write-Host '
          [1;31;40m■[0;31m'' [0;1;31m░ [0;1;36m■[0;36m▄[0;1;36m.[0;1;31m''■▄.[0;1;37m [0;1;31m■[0;31m▄[0;1;31m. [0;1;36m  [0;36m .[0;1;36;46m▐▌[0;1;36;40m ·[0;1;36;46m▐▓[0;36m▌ [0m      [36m.[0m           [1;30m [0;1;37m▐[0;1;37;41m▓[0;1;37;47m▀[0;1;37;41m▀[0m▀

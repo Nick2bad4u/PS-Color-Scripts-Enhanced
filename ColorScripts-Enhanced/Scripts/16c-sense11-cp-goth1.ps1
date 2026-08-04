@@ -1,18 +1,4 @@
-﻿# Converted from: CP-GOTH1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense11/raw/CP-GOTH1.ANS
-# Source Revision: archive-sha256:0690b90402a70581c8f215d3ac545dcd69504e18bce536e07fefa6abfa4129ef
-# Source SHA-256: 44ce82a2116484537b22f68d2adc198320337de46d344b74f8378f2bfc926641
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CP-GOTH1.ANS by cyber phreak (sense); released in sense11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: goth
-# SAUCE Author: cyber phreak
-# SAUCE Group: sense
-# SAUCE Date: 19980624
-# SAUCE Dimensions: 80x25
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: goth by cyber phreak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense11-cp-goth1
 
 Write-Host '
     [1;30;47m▓[0;1;30;40m█▀█[0m ▀[1;30;47m░▓[0m█[1;30;47m░▓[0;1;30;40m██▀█▀[0m  [1;30m▀[0m   [1;30m▀[0m▀ [31m  ▌░[0;37m ▀[0;1;30m▀█[0;1;30;47m▓[0;1;30;40m [0m [1;30m▀[0m    [1;30;47m░[0m█▀[1;30m▀[0m  ▀▀[1;30m▀▌[0m  ▀[1;30m▀[0m  ▀▀[1;47m░[0;1;30;47m░▓[0;1;30;40m█▀[0m▀█▀[1;30m▀▀[0;1;30;47m▓▓[0m

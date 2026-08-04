@@ -1,17 +1,4 @@
-﻿# Converted from: TK-BT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel11/raw/TK-BT.ANS
-# Source Revision: archive-sha256:bc01376bbeb692c1fce16796b92a6fd889f89dbf4c55eb291719d5ea3fd5846c
-# Source SHA-256: 12cc740025b1582035cae4c2c102a0beb2932a4844f635b4fd1a0f51aa96f33f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TK-BT.ANS by The Knight (Fuel); released in fuel11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Black Thursday
-# SAUCE Author: The Knight
-# SAUCE Group: Fuel
-# SAUCE Dimensions: 80x25
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Black Thursday by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel11-tk-bt
 
 Write-Host '
 [1;31;41m░[0;31m▀▄[0;30;41m░░[0;31;40m▀▀▄▄█▀▀[0;37;40m  [0;31;40m▀▀[0;1;31;41m▓▒░[0;31m▀[0;37m  [0;1;33m█[0m [31m▀▀[0;1;31;41m░[0;31m▀▀█[0;1;31;41m░▓▒▒░[0;31m█[0;30;41m░[0;31;40m██▀▀▀▀░ [0;1;36;40m  [0m [1;36m [0;31m▄▄▄[0;1;36m  [0;31m░░[0;1;36m  [0m    [1;33m░[0;1;37m  [0;31m░░░[0;1;37m  ░[0m    ▄[1;47m█▀[0;1;40m▄[0m

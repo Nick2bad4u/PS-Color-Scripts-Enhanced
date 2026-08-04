@@ -1,18 +1,4 @@
-﻿# Converted from: 0896-MEM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy12/raw/0896-MEM.ANS
-# Source Revision: archive-sha256:8a537460f8b0ab878576d3588ae2a516d4d1f431ef70564144a8ef972d7a139a
-# Source SHA-256: cbb66f5dbc5755e2f916bc83a1b032873249eade47386f4050b128390ed0579a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 0896-MEM.ANS by Apathy Studios (Apathy); released in apathy12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: August '96 Member List
-# SAUCE Author: Apathy Studios
-# SAUCE Group: Apathy
-# SAUCE Date: 19960810
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: August '96 Member List by Apathy Studios | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy12-0896-mem
 
 Write-Host '
 [1;30;47m▓[0;1;30;40m████████████████▄▄▄▄▄▄▀▀▀▀▀▀██████████████████████████████████▀▀▌[0m [1;30mansi by trip[0m

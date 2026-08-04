@@ -1,13 +1,4 @@
-﻿# Converted from: MAJ-LD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hrp-6/raw/MAJ-LD.ANS
-# Source Revision: raw-sha256:f79536109157d4ca14227c11259409bbfbb2990e62a01112bb6c4d7fe043275b
-# Source SHA-256: f79536109157d4ca14227c11259409bbfbb2990e62a01112bb6c4d7fe043275b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MAJ-LD.ANS by Living Death (hrp-6); released in hrp-6 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 39-73
-# Columns: 1-80
+﻿# Artwork: MAJ-LD.ANS by Living Death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hrp-6-maj-ld-part02
 
 Write-Host '
                                ▐[1;30m██[0m▐[1m██[0m▐[1;30m██[0m

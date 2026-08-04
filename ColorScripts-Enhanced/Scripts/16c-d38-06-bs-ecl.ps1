@@ -1,18 +1,4 @@
-﻿# Converted from: BS-ECL!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-06/raw/BS-ECL!.ANS
-# Source Revision: archive-sha256:4c9f598b864a923147eb394591cb120a43a087e70e3844ab4ff73e06903fa178
-# Source SHA-256: b688bab8398623435cdc61c5a9bbbb8704d766623b782053ba2b34a30ccef03b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-ECL!.ANS by Blind Sniper (Department 38); released in d38-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Eclipse Promo
-# SAUCE Author: Blind Sniper
-# SAUCE Group: Department 38
-# SAUCE Date: 19970424
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Eclipse Promo by Blind Sniper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-06-bs-ecl
 
 Write-Host '
                                                                  [1;30m  [0m

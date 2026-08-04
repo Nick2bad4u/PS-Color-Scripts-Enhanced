@@ -1,18 +1,4 @@
-﻿# Converted from: 3I-BURN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-02/raw/3I-BURN.ANS
-# Source Revision: archive-sha256:bb8ce420598b36a52d4f9cba3bdfbad44af088efeb11a778f52d121622116149
-# Source SHA-256: 938174b03e1a96537b754c50ce5905f4aa50e0f558c0c42f5fe1d12ef992ce61
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 3I-BURN.ANS by Nitrifik (Hieroglyphics); released in hiero-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Burn
-# SAUCE Author: Nitrifik
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20000824
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: Burn by Nitrifik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-02-3i-burn
 
 Write-Host '
 [1;30m   [0;1;37m█████████████████████████████████████████████████████████▀▀▀█▀▀▀█▀▀▀█▀▀▀█[0;1;30m    [0m

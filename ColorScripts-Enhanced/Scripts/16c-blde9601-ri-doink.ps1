@@ -1,18 +1,4 @@
-﻿# Converted from: RI-DOINK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9601/raw/RI-DOINK.ANS
-# Source Revision: archive-sha256:7aa9123f877021b71fa63f38de012fc68287c00ecd76f3a2105e748660eee14f
-# Source SHA-256: 8437bebd20f5ed5cb646db7ac5a965dc4f9a25becb3f9b5628d355980035fd29
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RI-DOINK.ANS by rai (blade); released in blde9601 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dOink!
-# SAUCE Author: rai
-# SAUCE Group: blade
-# SAUCE Date: 19951213
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: dOink! by rai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9601-ri-doink
 
 Write-Host '
                          [1;33m▄[0m              [1;33m▄[0m

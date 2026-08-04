@@ -1,13 +1,4 @@
-﻿# Converted from: PB-OOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tri-1094/raw/PB-OOD.ANS
-# Source Revision: archive-sha256:5855e3cbc5c817618276c3b7671d20ac98109b50a7c1ab554c91a6eb3e9c8d67
-# Source SHA-256: 58ed19f928c72288a333474ddeaf061f85c04c8e15e5362c749f7316131e0fe8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PB-OOD.ANS by Putbull (tri-1094); released in tri-1094 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: PB-OOD.ANS by Putbull | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tri-1094-pb-ood-part02
 
 Write-Host '
                        [31m█ █[0m                           [31m█ █[0m

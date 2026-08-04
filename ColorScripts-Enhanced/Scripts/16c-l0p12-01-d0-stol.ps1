@@ -1,16 +1,4 @@
-﻿# Converted from: D0-STOL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p12_01/raw/D0-STOL.ANS
-# Source Revision: archive-sha256:678c9348e291c059a717bb7990ccaffc699e8a46d4f8d71e273fe24e3b605bbc
-# Source SHA-256: 5eaaf627e7cd63602ebc8813b1c82a9c6efcedd421f17106e807cdf70dec9501
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D0-STOL.ANS by d0 (l0p12_01); released in l0p12_01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: d0
-# SAUCE Date: 19991021
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: D0-STOL.ANS by d0 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p12-01-d0-stol
 
 Write-Host '
 

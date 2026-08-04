@@ -1,13 +1,4 @@
-﻿# Converted from: us-myth.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/crisis8/raw/us-myth.ans
-# Source Revision: archive-sha256:196f9c3784e1cc5cbdbd9897127f0cfd86940d923500873c384e50e8b3c19f82
-# Source SHA-256: 6d3c60e09bddb008ec67324e00d4fa44406e5ffac9af220c354b1e0cfb85664e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-myth.ans by Zerovision + Grymmjack (crisis8); released in crisis8 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 91-134
-# Columns: 1-80
+﻿# Artwork: us-myth.ans by Zerovision + Grymmjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-crisis8-us-myth-part03
 
 Write-Host '
 [34m▄██████▌[0;32m ██[0;1;32;42m░▒[0;1;30;42m▒[0m [34m███████████[0;37m [0;1;30m▄[0m [1;30m▀█[0m [1;30;47m▄[0m█[1;30;47m▒▒[0m█▀ [1;30m▄██[0;1;30;47m▓▓▓█▓[0;1;30;40m█▐▀ [0m [1;30m▐█▌[0m   [1;30m▄[0m▄▄▄▄  [34m▀▀▀[0;37m   █[0;1;37m▒ [0;1;30;47m [0m ▐[1;47m▐█[0m

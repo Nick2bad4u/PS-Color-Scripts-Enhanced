@@ -1,18 +1,4 @@
-﻿# Converted from: BD-PASTE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-02/raw/BD-PASTE.ANS
-# Source Revision: archive-sha256:815fb0802a5a645b19e4bb1a2e67405cbfe5a7d016a5808efe6ef55f809d080c
-# Source SHA-256: 9373734a4f646161f36da7a917699099592ebf3c953b560845b457451129d9de
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BD-PASTE.ANS by cold (eclipse); released in ecl-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: pastey
-# SAUCE Author: cold
-# SAUCE Group: eclipse
-# SAUCE Date: 19960630
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: pastey by cold | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-02-bd-paste
 
 Write-Host '
                                     [32m▐[0m

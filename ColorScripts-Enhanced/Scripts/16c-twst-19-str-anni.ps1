@@ -1,18 +1,4 @@
-﻿# Converted from: STR-ANNI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst-19/raw/STR-ANNI.ANS
-# Source Revision: archive-sha256:38480cbb01973683b6bb179e82483ce3434180444dfcf5b811296224974846eb
-# Source SHA-256: ff6b8b00624cf6bc8d4f4a14caa7ce386f7868ef6e1fe1f36e21b1dc0e374105
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STR-ANNI.ANS by strike (twisted); released in twst-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: happy b-day twst
-# SAUCE Author: strike
-# SAUCE Group: twisted
-# SAUCE Date: 19980201
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: happy b-day twst by strike | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst-19-str-anni
 
 Write-Host '
  [34m░░░░░                        ░░░░░░░░░░░░░░░░░░░░░░░░░░░ ░░░░░ ░░░[0;37m [0;34m  ░░   [0m   [34m░[0m

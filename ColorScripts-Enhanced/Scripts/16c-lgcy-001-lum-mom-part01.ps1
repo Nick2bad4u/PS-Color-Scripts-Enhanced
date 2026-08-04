@@ -1,20 +1,4 @@
-﻿# Converted from: lum-mom.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-001/raw/lum-mom.ans
-# Source Revision: archive-sha256:589c804657c8d15ba617f7c0fd80723e4505d519989b80eba9584665be49eb54
-# Source SHA-256: 6a4254462ca262c3cc2fbee3dbd3bcb97d6c9b4d8afb99c0506b113c3d832d6f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: lum-mom.ans by luminator (legacy); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: mom
-# SAUCE Author: luminator
-# SAUCE Group: legacy
-# SAUCE Date: 20191221
-# SAUCE Dimensions: 80x79
-# SAUCE Font: IBM VGA
-# SAUCE Comments: in loving memory to my mom
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: mom by luminator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-001-lum-mom-part01
 
 Write-Host '
 [34m████████████████████████████████████████████████████████████████████████████████[0m

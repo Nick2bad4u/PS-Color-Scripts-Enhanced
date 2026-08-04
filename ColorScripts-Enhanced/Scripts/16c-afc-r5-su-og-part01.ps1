@@ -1,13 +1,4 @@
-﻿# Converted from: SU-OG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r5/raw/SU-OG.ANS
-# Source Revision: raw-sha256:09d4308d927b6072338a6fe4029c502204cf94fb35b05aaecda5790647f1655a
-# Source SHA-256: 09d4308d927b6072338a6fe4029c502204cf94fb35b05aaecda5790647f1655a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SU-OG.ANS by Suhu (afc-r5); released in afc-r5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: SU-OG.ANS by Suhu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r5-su-og-part01
 
 Write-Host '
 [40m  [0;1m∙   [0;1;32m▄▄▄▄▄▄▄▄▄▄▄   ▄▄▄▄▄ ▄▄▄▄▄   ▄▄▄▄▄▄▄▄▄▄▄   ▄▄▄▄▄▄▄▄▄▄▄   ▄▄▄▄▄▄▄▄▄▄▄[0m

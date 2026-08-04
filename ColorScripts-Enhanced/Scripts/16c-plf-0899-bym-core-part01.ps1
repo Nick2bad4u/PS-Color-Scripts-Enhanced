@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-CORE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0899/raw/BYM-CORE.ANS
-# Source Revision: archive-sha256:0617fc8f8bbe2fa17749abcf8386f3d9e092bf5e07b71b50ee42b85b712bb9fc
-# Source SHA-256: 63cc61421870784162c5eedaa696a11b67a44781891653dc265ec6733cfee8dd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-CORE.ANS by warbym (poffelipoff); released in plf-0899 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: city soldier
-# SAUCE Author: warbym
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19990801
-# SAUCE Dimensions: 80x54
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: city soldier by warbym | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0899-bym-core-part01
 
 Write-Host '
 [34m████████████████████████████████████████████████████████████████████████████████[0m

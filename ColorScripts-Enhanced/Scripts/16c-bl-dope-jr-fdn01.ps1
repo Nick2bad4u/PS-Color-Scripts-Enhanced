@@ -1,18 +1,4 @@
-﻿# Converted from: JR_FDN01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl-dope/raw/JR_FDN01.ANS
-# Source Revision: archive-sha256:94d0a6d1a54f912bf59b65f9ab8ad2e76bf857ee4ed7295093943e200494477a
-# Source SHA-256: cfbf11a781b1bc9dbf7160b4ca703fcf3a46f26b64e4b28c1d0968bb8f55a127
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_FDN01.ANS by jerusalem (boil); released in bl-dope and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: das ende vom anfang.
-# SAUCE Author: jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19970413
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: das ende vom anfang. by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-dope-jr-fdn01
 
 Write-Host '
           [34m▄░ ▄▄▄ [0m

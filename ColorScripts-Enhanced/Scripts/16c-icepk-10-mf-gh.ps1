@@ -1,13 +1,4 @@
-﻿# Converted from: MF-GH.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-10/raw/MF-GH.ICE
-# Source Revision: archive-sha256:bf182b3a4a3821f59456de515e0caeefdf153f2040b433c6321d39d23c909d77
-# Source SHA-256: 6f581e828b6f2fd5d198ae2027485f0f6df169b1b0d62506a415987fb7661780
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MF-GH.ICE by Microfarad (icepk-10); released in icepk-10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: MF-GH.ICE by Microfarad | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-10-mf-gh
 
 Write-Host '
 

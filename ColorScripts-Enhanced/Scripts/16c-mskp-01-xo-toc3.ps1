@@ -1,18 +1,4 @@
-﻿# Converted from: XO-TOC3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mskp-01/raw/XO-TOC3.ANS
-# Source Revision: archive-sha256:453b00e753ff59d8f674e38f99c6a307fc28cd1eb85eea207aea113377d8e8ed
-# Source SHA-256: 0b9ecacfa98590a14f216fb17d86f61071dc30ebdfbc4efc21e6ac4f23a05355
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XO-TOC3.ANS by Xose (MaSaKrE); released in mskp-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Train of Consequences BBS (Part 3)
-# SAUCE Author: Xose
-# SAUCE Group: MaSaKrE
-# SAUCE Date: 19950509
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: Train of Consequences BBS (Part 3) by Xose | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mskp-01-xo-toc3
 
 Write-Host '
 

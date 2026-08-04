@@ -1,13 +1,4 @@
-﻿# Converted from: DIE-NP2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-zxica/raw/DIE-NP2.ANS
-# Source Revision: archive-sha256:098212bcd3fc250902be7ae08340a23e99b29f8fa69fe7b4990238a6d402d1f6
-# Source SHA-256: de8fe457b4c5b03a2acafde5b345a8fe15dbc0ee367b5cf6c7260020e0d874db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DIE-NP2.ANS by Dieznyik (k-zxica); released in k-zxica and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: DIE-NP2.ANS by Dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-zxica-die-np2
 
 Write-Host '
 [36m/[0;1;36m.[0;36m\[0m        [33m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

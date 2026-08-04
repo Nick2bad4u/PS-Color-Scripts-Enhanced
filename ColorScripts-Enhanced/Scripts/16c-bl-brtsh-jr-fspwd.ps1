@@ -1,18 +1,4 @@
-﻿# Converted from: JR_FSPWD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl-brtsh/raw/JR_FSPWD.ANS
-# Source Revision: archive-sha256:d4d2c2945597259d409a8a2043adb463621296e39a0812b6c732bad34754acd9
-# Source SHA-256: fcbe5bef4c9696185d96b184375d99c0c848130aa2647cdd1feb680f26ddf327
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_FSPWD.ANS by jerusalem (boil); released in bl-brtsh and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: FS:: victim of borschtsch
-# SAUCE Author: jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19970525
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: FS:: victim of borschtsch by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-brtsh-jr-fspwd
 
 Write-Host '
       [33m░░[0;1;30m ▄[0;1;30;47m▓▓[0;1;30;40m▀▀▀    [0;33m░░░░░[0;1;30m    ▀▀[0;1;30;47m▒▒[0;1;30;40m██▄[0m [1m▄[0m     [35m░▒▓▓[0;37m  [0;35m▄[0;1;33;45m▄█▀[0;35m▀[0;37m [0;35m▄[0;1;33;45m▄▀[0;35m▀[0;37m [0;35m▄[0;1;33;45m▄█▀[0;35m▀[0;37m [0;35m▄[0;1;33;45m▄█▀[0;35m▀▀ ▄▄[0;1;33;45m▄█▀[0;35m▀▄[0m

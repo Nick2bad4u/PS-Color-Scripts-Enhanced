@@ -1,18 +1,4 @@
-﻿# Converted from: US-MYTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dvd-0196/raw/US-MYTH.ANS
-# Source Revision: archive-sha256:8a57ac99c945ff5806ca71d49eb25bcb471617bdf8f3826d8261f443fdd5021c
-# Source SHA-256: 85bf83f5f4621d2d524e0a945f7b3148f2d224811d4139a70333e15edbbee863
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-MYTH.ANS by Seize + O-Tron (devoid/teklordz); released in dvd-0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Myth [joint ansi]
-# SAUCE Author: Seize & otron [tl]
-# SAUCE Group: devoid/teklordz
-# SAUCE Date: 19951231
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: Myth [joint ansi] by Seize + O-Tron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dvd-0196-us-myth
 
 Write-Host '
 [35m███▓▒░[0;1;31;43m▓▓[0;1;31;40m██████▀▀▀▀▀██[0;1;31;47m███[0;1;31;40m▄▄[0;35m▀▀███ [0;31m████[0;37m ▀[0;1;37;47m▓▒░[0m▀▀▀ ▄▀ [31m▄[0;37m  [0;1;37;47m▓▒░   [0;1;30;47m░[0m▀[31m▄ [0;1;37m▀[0;1;37;47m▓▒░  [0m▀ [31m▀[0;37m▄▄[0;1;37;47m  ░▒▓[0m▀

@@ -1,18 +1,4 @@
-﻿# Converted from: E0-SFISH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zenith01/raw/E0-SFISH.ANS
-# Source Revision: archive-sha256:89a769066be1ade04361b16bc2aabeb1a280fe034deee0fe7ee4c75badc7461d
-# Source SHA-256: ba51269fe869060188d27067e7e1439790863f4befed936fdf926b37d3c6654c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: E0-SFISH.ANS by enzo (Zenith); released in zenith01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Skull Fisher
-# SAUCE Author: enzo
-# SAUCE Group: Zenith
-# SAUCE Date: 19980526
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Skull Fisher by enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zenith01-e0-sfish
 
 Write-Host '
 [1;44m▀[0;1;40m▓[0;1;44m▀ ▀[0;1;40m▓[0;1;44m▀[0;34m█[0;1;37;44m▀[0;1;37;40m▓[0;1;37;44m▀[0;34m█[0;1;37;44m ▀[0;34m▀▀▀[0;37m ▄[0;1;37m▄▄▄▄▄▄▄▄▄[0m [1;31m   [0;34m [0;33m ▄[0;1;33;43m░[0;33m▄▄██▄[0;37m [0;1;32m▄[0;1;32;42m▐[0m▄[1;32m▄[0;1;32;42m▌[0;1;32;40m▄[0m [1;30m▄[0m [32m▄[0;1;32m▄[0m▄ [1;32;42m▐[0;1;32;40m▄[0;1;30;40m▄ [0;32m▄[0;1;32m▄[0m▄[32m [0;37m [0;32m▄[0;1;32m▄▄[0m [32m▄[0;1;32m▄[0m▄[33m▄[0;37m [0;32m▄[0;1;32m▄[0m▄ [1;30m▄[0;33m▓▓[0m

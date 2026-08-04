@@ -1,18 +1,4 @@
-﻿# Converted from: US-KAF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz05apr/raw/US-KAF.ANS
-# Source Revision: archive-sha256:1015a880c3c2e42953df14381eb6ae6e6ec0326b482ac0273175f6e6e7073aa4
-# Source SHA-256: 0f271a6ef8ad9f55959658d3f408006cc035867f7c4e64e53ae06c6f6a19c4c3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-KAF.ANS by Wat0r + Iceage (Echo & Lazarus); released in laz05apr and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Kafkaesk
-# SAUCE Author: WatOr and Iceage
-# SAUCE Group: Echo & Lazarus
-# SAUCE Date: 19970401
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Kafkaesk by Wat0r + Iceage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz05apr-us-kaf
 
 Write-Host '
                                    [1m▐█[0;1;33m█▌[0m

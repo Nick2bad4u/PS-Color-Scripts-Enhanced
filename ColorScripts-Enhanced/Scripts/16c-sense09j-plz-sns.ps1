@@ -1,18 +1,4 @@
-﻿# Converted from: PLZ-SNS!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense09j/raw/PLZ-SNS!.ANS
-# Source Revision: archive-sha256:9f583533fb256ec67ece3c5d38ebea61ce21b385a7859a4e786edef290584615
-# Source SHA-256: 01d66c2df8aac2aadba5bcdced25e90bb0ad2d01da0ae64a389cf02c5afe8f85
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PLZ-SNS!.ANS by Plazz (Sense); released in sense09j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Sense Imagery
-# SAUCE Author: Plazz
-# SAUCE Group: Sense
-# SAUCE Date: 20020901
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Sense Imagery by Plazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense09j-plz-sns
 
 Write-Host '
 

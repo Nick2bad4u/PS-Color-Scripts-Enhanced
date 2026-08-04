@@ -1,18 +1,4 @@
-﻿# Converted from: GSO-PLF2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0398/raw/GSO-PLF2.ANS
-# Source Revision: archive-sha256:f8b78bce0ded523528171ee9d37c603a9a96c5e8abf885d101375334b587e435
-# Source SHA-256: 0327f398d3e1556b8ee4f3cec18dc2dd38a9d814276a05ae1594e13ce001eba1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GSO-PLF2.ANS by gasol (plf); released in plf-0398 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: poffelipoff 1998
-# SAUCE Author: gasol
-# SAUCE Group: plf
-# SAUCE Date: 19980308
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: poffelipoff 1998 by gasol | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0398-gso-plf2
 
 Write-Host '
 

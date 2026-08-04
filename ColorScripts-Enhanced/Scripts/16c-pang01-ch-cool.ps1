@@ -1,13 +1,4 @@
-﻿# Converted from: CH-COOL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pang01/raw/CH-COOL.ANS
-# Source Revision: archive-sha256:24a47d3a6396232434bffa2e1615955141cf762e5fd721c02b6ad40f81a7def7
-# Source SHA-256: 8550b0ea9eca4300a30fd67f95edbef8941e80d4a70ec5ae553a958bc159594f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CH-COOL.ANS by Chronic-Pang (pang01); released in pang01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: CH-COOL.ANS by Chronic-Pang | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pang01-ch-cool
 
 Write-Host '
 [32m [0m            [1;33m▄[0m

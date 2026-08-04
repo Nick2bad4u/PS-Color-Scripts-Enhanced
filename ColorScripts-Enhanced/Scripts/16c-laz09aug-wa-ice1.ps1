@@ -1,18 +1,4 @@
-﻿# Converted from: WA-ICE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz09aug/raw/WA-ICE1.ANS
-# Source Revision: archive-sha256:3e0bd3039fe877b3970f71e80b4456ee60793f2295ae127a50a6587b17c2d6a2
-# Source SHA-256: d58659dd918fff57eb31eacffcce1cd3d1f7e8fcd5e1c86dd1f204c67d9b4856
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WA-ICE1.ANS by warpus (lazarus); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: icephunk
-# SAUCE Author: warpus
-# SAUCE Group: lazarus
-# SAUCE Date: 19970714
-# SAUCE Dimensions: 80x34
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: icephunk by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz09aug-wa-ice1
 
 Write-Host '
                                                       [33m▄▄▄▄▄▄   [0m

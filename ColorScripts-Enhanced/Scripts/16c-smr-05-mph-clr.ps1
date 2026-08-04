@@ -1,13 +1,4 @@
-﻿# Converted from: MPH-CLR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/smr-05/raw/MPH-CLR.ANS
-# Source Revision: archive-sha256:6c589592cb102bb3cb03efca975252b9e8b7f23e59c47e5916cb88ac2253c9a2
-# Source SHA-256: 69351f658515cc124127b05cd163c2415e69a08a6fa9dd96c2c91a59f07b51b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MPH-CLR.ANS by Mephisto (smr-05); released in smr-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: MPH-CLR.ANS by Mephisto | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-smr-05-mph-clr
 
 Write-Host '
 

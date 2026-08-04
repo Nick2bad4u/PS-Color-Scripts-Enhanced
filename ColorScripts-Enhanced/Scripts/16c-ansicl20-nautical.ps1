@@ -1,13 +1,4 @@
-﻿# Converted from: NAUTICAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansicl20/raw/NAUTICAL.ANS
-# Source Revision: raw-sha256:2feba29bc63a3145f6620eaecf52eadd4cdf34792fc3c4653e66aceb03538f89
-# Source SHA-256: 2feba29bc63a3145f6620eaecf52eadd4cdf34792fc3c4653e66aceb03538f89
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NAUTICAL.ANS by Michael Arnett (ansicl20); released in ansicl20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: NAUTICAL.ANS by Michael Arnett | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansicl20-nautical
 
 Write-Host '
                                                        [1;40m▄[0;1;47m▄▄▄[0;1;40m▄[0m

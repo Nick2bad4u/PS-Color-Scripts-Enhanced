@@ -1,19 +1,4 @@
-﻿# Converted from: US-SLEEP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/US-SLEEP.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: 08340fb5b75b98da88f46cc9fe9ef8b03f7bb1a8183751e2e1c57e34a3279151
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SLEEP.ANS by Nail + Halaster (fire); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: when i sleep
-# SAUCE Author: nail + halaster
-# SAUCE Group: fire
-# SAUCE Date: 20180523
-# SAUCE Dimensions: 80x148
-# SAUCE Font: IBM VGA
-# Lines: 99-148
-# Columns: 1-80
+﻿# Artwork: when i sleep by Nail + Halaster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-us-sleep-part03
 
 Write-Host '
                                                      [1;30m▐[0m      [31m [0;1;30m █▄▐  ▐▌[0m

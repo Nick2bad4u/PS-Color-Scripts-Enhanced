@@ -1,18 +1,4 @@
-﻿# Converted from: KD-YOUS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/5th-9703/raw/KD-YOUS.ANS
-# Source Revision: archive-sha256:fffb2c785ea5bb00b22bc525df88c9cca2a7e3ac70af213df8cc76a82e190c3a
-# Source SHA-256: 6bb4ea1910b0ada641e7c6f8ab869910c75c05e952c2e5622b7a5ebda44aead3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KD-YOUS.ANS by KLeaR DiSToRTioN ([Chaos InC. Rhyme]); released in 5th-9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: yousabulussain online-
-# SAUCE Author: KLeaR DiSToRTioN
-# SAUCE Group: [Chaos InC. Rhyme]
-# SAUCE Date: 19970628
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: yousabulussain online- by KLeaR DiSToRTioN | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-5th-9703-kd-yous
 
 Write-Host '
 [1;30m$'' ▄▄▄▀▀▀▄ `$$$$$$$$$ⁿ""ⁿ$$$$ⁿⁿⁿⁿⁿⁿⁿ$"""$$$$$$b[0;1;32m .,,,,,..[0;1;30m`""┴$$$$$$$$$$$$$$$$$$$$[0m

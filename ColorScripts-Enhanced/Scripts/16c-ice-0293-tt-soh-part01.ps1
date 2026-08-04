@@ -1,13 +1,4 @@
-﻿# Converted from: TT-SOH.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-0293/raw/TT-SOH.ICE
-# Source Revision: archive-sha256:3558174c2af04b8f06ccaceffca5e0890099a675e014d8cae8c02fa12138688d
-# Source SHA-256: 166495bd8106138153fb0b7eedeeff933d20a49c692421d6efb6fd9388c4e0f1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TT-SOH.ICE by Tempus Thales (ice-0293); released in ice-0293 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: TT-SOH.ICE by Tempus Thales | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-0293-tt-soh-part01
 
 Write-Host '
                                                    [33m▄▄  ▄[0m

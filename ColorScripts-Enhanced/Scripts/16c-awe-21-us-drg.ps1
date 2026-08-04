@@ -1,17 +1,4 @@
-﻿# Converted from: US-DRG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-21/raw/US-DRG.ANS
-# Source Revision: archive-sha256:d980c3e2187ff0ef4bb9edce960381dc01c8374df0b01b4ddb8d104484f4b936
-# Source SHA-256: 2b970b7f89863d7614a36d8ab7d189da6898b619b1dafe67657c22a9539e03cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DRG.ANS by Knocturnal + Ironghost (AWE Lettering); released in awe-21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Dr. Ganja
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Dr. Ganja by Knocturnal + Ironghost | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-21-us-drg
 
 Write-Host '
                  [1;30m▄ [0m           [31m▀[0;1;31m▀[0;31m░░[0m   [1;33m  [0m

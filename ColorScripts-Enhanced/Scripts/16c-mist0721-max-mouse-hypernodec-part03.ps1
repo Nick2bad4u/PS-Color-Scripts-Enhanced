@@ -1,19 +1,4 @@
-﻿# Converted from: MAX_MOUSE-HYPERNODEC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0721/raw/MAX_MOUSE-HYPERNODEC.ANS
-# Source Revision: archive-sha256:9d3d54e42a99a6e7bef51cb79a023b85709051f377817bc02741bd65f1493da4
-# Source SHA-256: 41fe70b979857aa6106c8faa41c725f5a8603649246922fa43c6e9eca958b48b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MAX_MOUSE-HYPERNODEC.ANS by Max_Mouse (Mistigris); released in mist0721 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Hypernode colly
-# SAUCE Author: Max_Mouse
-# SAUCE Group: Mistigris
-# SAUCE Date: 20210711
-# SAUCE Dimensions: 80x145
-# SAUCE Font: IBM VGA
-# Lines: 101-145
-# Columns: 1-80
+﻿# Artwork: Hypernode colly by Max_Mouse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0721-max-mouse-hypernodec-part03
 
 Write-Host '
 [30m        [0;1;32m▄  ▄[0m

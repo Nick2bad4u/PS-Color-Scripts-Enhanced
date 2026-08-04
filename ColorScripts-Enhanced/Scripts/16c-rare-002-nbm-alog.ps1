@@ -1,18 +1,4 @@
-﻿# Converted from: NBM-ALOG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-002/raw/NBM-ALOG.ANS
-# Source Revision: archive-sha256:0a3a1ab211a696c0dde542e6c378313f7a0800dd36697e1287d0a21d1dc7f85f
-# Source SHA-256: 3713a6547bdc95224c64e1c9901f527560b71228e0fd1dacbd6c44c65e289eb3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NBM-ALOG.ANS by niobium (rare!ascii); released in rare-002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: allura login
-# SAUCE Author: niobium
-# SAUCE Group: rare!ascii
-# SAUCE Date: 19980424
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: allura login by niobium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-002-nbm-alog
 
 Write-Host '
 [1;30m¥¥[0m¥¥¥¥[1m¥¥¥¥[0m¥[1m¥¥[0m¥¥¥Sb, [1;30m`[0mT¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥│$[1;30m;[0m╜ⁿ[1;30m°°[0mⁿ[1;30m╙;$│[0m¥¥¥¥¥¥¥¥¥¥¥¥¥¥[1;30m¥¥¥[0m¥[1m¥[0m¥[1;30m¥¥¥¥[0m

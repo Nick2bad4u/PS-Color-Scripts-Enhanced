@@ -1,13 +1,4 @@
-﻿# Converted from: AOFACID5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1292/raw/AOFACID5.ANS
-# Source Revision: archive-sha256:6c5c7ef66182056ff3f821bfb6f5ceb9b593ec0078def1a5d2bd62ceb180acde
-# Source SHA-256: 3a950b9cbb7c9bcc3ed71ee6fba14cbbf53dd3b07a9b8580136a692f088d67e4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AOFACID5.ANS by Darkman (acdu1292); released in acdu1292 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: AOFACID5.ANS by Darkman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1292-aofacid5-part01
 
 Write-Host '
 [31m▀███▓▒░▒▓███████▓▓▓▒▒░░    ░░▒▒▓▓███████▓▓▒░░▒▓███[0;1;30;41m░▒█[0;1;30;40m█▀▀ ░▒▓█[0;1;30;41m▓▒░ [0;31m▒░░▒▌ ░▒▓  ▓▒░[0m

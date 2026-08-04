@@ -1,17 +1,4 @@
-﻿# Converted from: TK-CRMAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel11/raw/TK-CRMAT.ANS
-# Source Revision: archive-sha256:bc01376bbeb692c1fce16796b92a6fd889f89dbf4c55eb291719d5ea3fd5846c
-# Source SHA-256: 0ba8bd7cdebc7bb044de651551c5cda3d0c1f8a4eae431d89c14ca6a7da010ec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TK-CRMAT.ANS by The Knight (Fuel); released in fuel11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Crypt matrix
-# SAUCE Author: The Knight
-# SAUCE Group: Fuel
-# SAUCE Dimensions: 80x25
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: The Crypt matrix by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel11-tk-crmat
 
 Write-Host '
  [1;31;41m░[0;31m▀▄[0;30;41m░░[0;31;40m▀▀▄▄█▀▀[0;35;40m▄░[0;31;40m▀▀[0;1;31;41m▓▒░[0;31m▀[0;1;35m▄[0;1;35;45m▓░[0;35m▄[0;31m▀▀[0;1;31;41m░[0;31m▀█▄█[0;1;31;41m░[0;31m▀▀[0;35m▄[0;1;35;45m░▓[0;1;35;40m▄▀▄[0;31m▀[0;1;31;41m▓[0;31m▀▀[0;35m░▄[0;31m▀▀█▄▄▀▀[0;30;41m░░[0;31;40m▄▀[0;1;31;41m░[0;31m [0;37m▄.%.[0;1;37mthe crypt[0m.%.▄[1;47m▀▀[0m

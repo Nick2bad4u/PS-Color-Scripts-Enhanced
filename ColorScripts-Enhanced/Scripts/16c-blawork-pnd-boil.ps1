@@ -1,18 +1,4 @@
-﻿# Converted from: PND-BOIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blawork/raw/PND-BOIL.ANS
-# Source Revision: raw-sha256:3631cd9e65c86e2f73f851f5fc1918db388ebcc99ddb824f92551c3382bf8b2d
-# Source SHA-256: 3631cd9e65c86e2f73f851f5fc1918db388ebcc99ddb824f92551c3382bf8b2d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PND-BOIL.ANS by pandur (black maiden); released in blawork and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: boil ja
-# SAUCE Author: pandur
-# SAUCE Group: black maiden
-# SAUCE Date: 19970831
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: boil ja by pandur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blawork-pnd-boil
 
 Write-Host '
                      [1;31m    [0m

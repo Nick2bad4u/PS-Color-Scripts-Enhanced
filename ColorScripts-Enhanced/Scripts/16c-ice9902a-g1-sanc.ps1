@@ -1,18 +1,4 @@
-﻿# Converted from: G1-SANC.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9902a/raw/G1-SANC.ICE
-# Source Revision: archive-sha256:6cf7fdec038e0d971ab2b181357dad5f064cb6f0c4b16391c913d4864432f656
-# Source SHA-256: 3b9ac95f19336c727d86a1a51a053269be5dac57a36586edc8122ec9814ad2ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: G1-SANC.ICE by Gloss (iCE Advertisements); released in ice9902a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Sanctum
-# SAUCE Author: Gloss
-# SAUCE Group: iCE Advertisements
-# SAUCE Date: 19990228
-# SAUCE Dimensions: 80x37
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: The Sanctum by Gloss | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9902a-g1-sanc
 
 Write-Host '
                                          [1;30m▄▄▄[0m         [1;30m [0m          [1;30m [0m

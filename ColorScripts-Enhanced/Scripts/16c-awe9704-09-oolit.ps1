@@ -1,18 +1,4 @@
-﻿# Converted from: 09-OOLIT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9704/raw/09-OOLIT.ANS
-# Source Revision: archive-sha256:da151757a637299fc8da8cc755ae75b6a0e1a281dd915d29497f1d00d429e5c1
-# Source SHA-256: b4a3a0654a2c55d366635e572248a0ea35823975b14df6ddb2d389d9a2dcb67c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-OOLIT.ANS by Fluor (AWE Lettering); released in awe9704 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Oolite
-# SAUCE Author: Fluor
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970331
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Oolite by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9704-09-oolit
 
 Write-Host '
  [32m▄[0;1;32;42m▄██▓[0;1;32;40m▓[0;1;32;42m▒░░ ░[0;32m█▀[0;1;37m [0;32m▄[0;1;32;42m░▓[0;1;32;47m▓█[0;1;32;42m▓[0;1;32;40m▓▒░░[0m  [1;32m░[0m  [32m▐[0;1;32;42m▐█[0;1;32;47m▓█[0;1;32;42m█▓[0;1;32;40m▓[0;1;32;42m░░[0;32m█[0;1;32;42m░[0;32m█[0;1;32;42m■▄█▄█[0;1;32;47m█▓[0;1;32;42m▓[0;1;32;40m▓[0;1;32;42m░[0;32m█[0;1;33;42m▄░ [0;1;32;42m [0;32m██[0;1;32;42m ■░[0;32m███▄▓▓██[0;1;32;42m ░[0;1;32;40m▓[0;1;32;42m▄▌[0;32m▌[0;37m  [0;32m░[0m

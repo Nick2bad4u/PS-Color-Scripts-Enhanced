@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-VEGS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0697/raw/OUT-VEGS.ANS
-# Source Revision: archive-sha256:c19fdd4f041491970421fe5aa251126710e8675662e02e0d20be64b30b3d74e2
-# Source SHA-256: 5845156af29ee6d344a4a2836845e9832cac2aa2d93fcfadadb2bfb449681f93
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-VEGS.ANS by Sandy Chidester (out-0697); released in out-0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: OUT-VEGS.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0697-out-vegs
 
 Write-Host '
 [31m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;31m▀▀▀▀▀▀▀▀[0;1;31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;31m▀▀▀▀▀▀▀▀▀█[0m

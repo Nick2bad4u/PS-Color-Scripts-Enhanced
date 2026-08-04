@@ -1,18 +1,4 @@
-﻿# Converted from: CD!-MNU2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mgma0597/raw/CD!-MNU2.ANS
-# Source Revision: archive-sha256:4321ed96c03457476be7881d0c1ef30e9189de218dff8231543b22aa7744f58c
-# Source SHA-256: d2143dced93d5117b2287cbe778228f4b2ae53c81e1d7ae1bffe4324f5f36331
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CD!-MNU2.ANS by cardiac (magma); released in mgma0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: broken remnants of society menu #1
-# SAUCE Author: cardiac
-# SAUCE Group: magma
-# SAUCE Date: 19970223
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: broken remnants of society menu #1 by cardiac | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mgma0597-cd-mnu2
 
 Write-Host '
        [31m▐██▄▄[0m   [35m      [0;37m [0;35m      [0m                     [1;35m     [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: LE-ANI#1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bm9-0796/raw/LE-ANI%231.ANS
-# Source Revision: archive-sha256:d47d05b28420594f05f00658e00b1f3ab4cdbebb1e89c0fe0f1e7938e6e8f937
-# Source SHA-256: e5697f53d1a5913e598f4d18ad4956b092202d75621e80711a0938a8161ab3c1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LE-ANI#1.ANS by Leonardo (Black Maiden); released in bm9-0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Anime #1
-# SAUCE Author: Leonardo
-# SAUCE Group: Black Maiden
-# SAUCE Date: 19960627
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: Anime #1 by Leonardo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bm9-0796-le-ani-1
 
 Write-Host '
 [1;33;43m░░▒▓[0;1;33;40m██████[0;1;33;43m▓▓▓▒▒░▒[0;1;33;40m██[0;1;33;43m▓▓░▓▓▓█▓▓██████████[0;1;33;40m████████████[0;1;33;43m▓▓▓▒████████[0;1;33;40m█▄[0m [1;30m▒▓▓███▓▒ ▄▌  ■[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SM!MENU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge06/raw/SM!MENU.ANS
-# Source Revision: archive-sha256:3343a7da51e4a450136a75930623f444cfdaa25bcfa6b32a1ded4c93bc4637e9
-# Source SHA-256: ed64bca45efa807f96ddf46e4b1c0ee6cd200ed5a680cafbe099b99bd19c3c40
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM!MENU.ANS by sims (avenge); released in avenge06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: area51
-# SAUCE Author: sims
-# SAUCE Group: avenge
-# SAUCE Date: 19980630
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: area51 by sims | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge06-sm-menu
 
 Write-Host '
   [36m▄[0;1;36;46m▄█[0;36m▄[0;1;36;46m▄█[0;36m▄[0;37m [0;1;36m▄[0;36m▄ [0m   [36m░[0;30;46m▓[0;36;40m▓[0;30;46m░[0;36;40m▓░[0;30;46m▓[0m   [30;46m░[0;36;40m▓[0;1;36;40m▄▄[0;36m▄ [0;1;36m [0m  [1;36m▄[0;36m▄[0;37m  [0;36m▀[0;1;36m░░[0;36m▄[0m

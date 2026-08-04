@@ -1,18 +1,4 @@
-﻿# Converted from: SMI-NERP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-01/raw/SMI-NERP.ANS
-# Source Revision: archive-sha256:c4f943c9f8f5c49a2aabdd3612f9f26bd1b04de18aa8de6e38c69a3051111537
-# Source SHA-256: c0c3103be9b004963136d97e15426d7e563f4b9c7a3b48d722220294a70bdb57
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMI-NERP.ANS by samurai (everglo); released in nerp-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: (guest) nerp
-# SAUCE Author: samurai
-# SAUCE Group: everglo
-# SAUCE Date: 19970720
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: (guest) nerp by samurai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-01-smi-nerp
 
 Write-Host '
 

@@ -1,19 +1,4 @@
-﻿# Converted from: TNT-H3X.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-45/raw/TNT-H3X.ANS
-# Source Revision: archive-sha256:0564021806e0277d72a0e235c044a0e0470226ba860a8976e1e3092326555d1d
-# Source SHA-256: 2694521998294d5c5c6752a302e55946d826ea9e411de8a4b704eb1765594a2d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNT-H3X.ANS by tainted (FiRE); released in fire-45 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Hexed
-# SAUCE Author: tainted
-# SAUCE Group: FiRE
-# SAUCE Date: 20260303
-# SAUCE Dimensions: 80x150
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Hexed by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-45-tnt-h3x-part01
 
 Write-Host '
 [1;30m    ▄▄▄▄▄     ▄▄▄▄▄██████████████████████████████████████████▄▄▄▄▄     ▄▄▄▄[0m

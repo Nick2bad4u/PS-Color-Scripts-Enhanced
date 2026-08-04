@@ -1,18 +1,4 @@
-﻿# Converted from: FV-GRP3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dom-9706/raw/FV-GRP3.ANS
-# Source Revision: archive-sha256:a16d91b4075cff760b5038e2a8f1aab02d1965c9e4bbc85ed187b0405326b9b6
-# Source SHA-256: 4b623c01a36d608ff0cad110fcf09d0ef7904bb43c61b2c7dfd577209da57fcd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-GRP3.ANS by Fever (Domino); released in dom-9706 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Grape menu
-# SAUCE Author: Fever
-# SAUCE Group: Domino
-# SAUCE Date: 19970605
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Grape menu by Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dom-9706-fv-grp3
 
 Write-Host '
         [30;44m▀[0;1;34;44m▄[0;1;34;40m▄[0;30;44m▀█[0m               [30;44m▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;34;40m▓[0;30;44m▀[0m               [30;44m█▀[0;1;34;40m▄[0;1;34;44m▄[0;30;44m▀[0m

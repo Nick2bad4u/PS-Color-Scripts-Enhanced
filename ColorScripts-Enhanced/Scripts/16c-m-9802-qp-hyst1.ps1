@@ -1,18 +1,4 @@
-﻿# Converted from: QP-HYST1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m-9802/raw/QP-HYST1.ANS
-# Source Revision: archive-sha256:b77081548bd69d77dfa44ebb7c4a66ac6a6977867bc0f2350868e9616f23eb59
-# Source SHA-256: c73871992b5090a0fdc17b869c891b7b82086524bbd75107566e2fda745cd69c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QP-HYST1.ANS by quip (mistigris); released in m-9802 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hysteria
-# SAUCE Author: quip
-# SAUCE Group: mistigris
-# SAUCE Date: 19980211
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: hysteria by quip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m-9802-qp-hyst1
 
 Write-Host '
     [34m                                                                            [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: Gs-ac01.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-34/raw/Gs-ac01.ans
-# Source Revision: archive-sha256:9e0a0dccb577f6014cf58e9ea09ed207eb1e2086aae9821b650288ffddccb599
-# Source SHA-256: 54a3eb9b3bd0b943468eddfbb8e755281c25b96a24e1bfa918c4734ed978fe96
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Gs-ac01.ans by grindstone (glue); released in glue-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Astral Cortex
-# SAUCE Author: grindstone
-# SAUCE Group: glue
-# SAUCE Date: 20010209
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Astral Cortex by grindstone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-34-gs-ac01
 
 Write-Host '
 [32m [0;36m▄[0m                [36m▄[0m            [36m░[0;31m [0;36m░▓▒▓███[0;30;46m░[0;36;40m▓▀▀▓▀[0;1;36;40m▀[0;36m▀▀[0;1;36m▀[0;1;36;46m▀[0;36m█[0;1;36;46m▀▀[0;1;36;40m▀ ▀[0;36m▀[0;37m [0;36m▀▓ [0;1;31m [0m         [1;31m  [0;36m▄[0;1;31m  [0m

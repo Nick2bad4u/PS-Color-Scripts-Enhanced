@@ -1,17 +1,4 @@
-﻿# Converted from: HT-FG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac1294/raw/HT-FG.ANS
-# Source Revision: archive-sha256:4cf7765ee6660556cb900dacf0ec67f070b8e4df414172b5e01733a49d10031f
-# Source SHA-256: ba31c109b1960f129dc2927155b225270e9caa8596041bd7e19cb3b8aaf1ab52
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HT-FG.ANS by hetero; released in sac1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
-# SAUCE Title: THE FATE GATE
-# SAUCE Author: HETERO
-# SAUCE Group: LKCC
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: THE FATE GATE by hetero | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac1294-ht-fg-part01
 
 Write-Host '
   [1;30m░   ░░░░░░░░░░░░[0m       [1;30m░░░░░░░░░░░░░░░░[0m      [1;30m░░░░░░░░░░░░░░  ░░░░░░░░░░░░░░░░[0m

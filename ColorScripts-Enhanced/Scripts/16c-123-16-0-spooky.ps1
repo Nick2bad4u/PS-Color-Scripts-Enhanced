@@ -1,13 +1,4 @@
-﻿# Converted from: 0^SPOOKY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/123-16/raw/0%5ESPOOKY.ANS
-# Source Revision: archive-sha256:1432c66356f3fb637fd9ab1a7f664735e71b934e6ef8d23618a4d250cf369b0f
-# Source SHA-256: 8df9c76597123fcf88310ad830ebf15f9b41e2cb667c52f572e5f85554efa5a8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 0^SPOOKY.ANS by Abstrakt (123-16); released in 123-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: 0^SPOOKY.ANS by Abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-123-16-0-spooky
 
 Write-Host '
 $$$$[34m$$$$jjj$$###[0m      [34m##[0;37m   [0;34m`$$$$$$$##[0;37m##[0;34m [0m    [34m. `[0;37m  [0;36m_.[0;1;33m,▬┌⌐⌐¬¬┐,._[0m    [34m`┐$$$$$$$$$$$[0m

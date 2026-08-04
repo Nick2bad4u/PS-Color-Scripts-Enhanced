@@ -1,13 +1,4 @@
-﻿# Converted from: CL!-SP03.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spleen02/raw/CL!-SP03.ANS
-# Source Revision: archive-sha256:2e7b8d7038a89e76e7795c302a477a87a071f598a1cf9d0dc749052354fee432
-# Source SHA-256: 1a730b635a62a964802bd3eb464b63a64263536cbaa64fc1f45fa1923802e2ec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-SP03.ANS by Cleaner (spleen02); released in spleen02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: CL!-SP03.ANS by Cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spleen02-cl-sp03
 
 Write-Host '
          [1;30m▄ [0;35m■[0;1;30m [0;35m▀▀[0;37m [0;35m▀▀█▄[0m                [35m▄[0;37m [0;35m█▀[0;1;31m [0;35m▀[0;1;31m [0;1;30m▀  [0;35m■▄[0;1;30m [0m      [1;30m  [0;35m▀[0;37m [0;35m▀▀▀[0;37m [0;1;30m▀ ▀[0;35m▀█[0;1;30m  [0m

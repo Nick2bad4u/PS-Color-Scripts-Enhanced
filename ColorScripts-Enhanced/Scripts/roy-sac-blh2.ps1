@@ -1,13 +1,4 @@
-﻿# Converted from: ROY-BLH2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac1296/raw/ROY-BLH2.ANS
-# Source Revision: archive-sha256:c85a4096950740daf891e591a7227b3738f0676b5756c32fe6c534f5c1bf43cd
-# Source SHA-256: ff03d8775b267d5b1238aac22f1232cd076fc36b5add8a3c77bf52fd172419cd
-# Source License: FAL-1.3
-# Source Attribution: ROY-BLH2.ANS by Roy/SAC aka Carsten Cumbrowski; released in sac1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: ROY-BLH2.ANS by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-blh2
 
 Write-Host '
 

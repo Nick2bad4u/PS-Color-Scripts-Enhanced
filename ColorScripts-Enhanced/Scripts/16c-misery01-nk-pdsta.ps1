@@ -1,18 +1,4 @@
-﻿# Converted from: NK-PDSTA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/misery01/raw/NK-PDSTA.ANS
-# Source Revision: archive-sha256:e802ebf512d2eb802f079fd327fff852b8c112992e81e4f15801eeb22870d111
-# Source SHA-256: 60ad5949fac7251fab81d328ad851a424d95fa2b0c2d6b8918dee60c01366fa8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NK-PDSTA.ANS by novokane (misery); released in misery01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: pandemonium stats!! !!#@##
-# SAUCE Author: novokane
-# SAUCE Group: misery
-# SAUCE Date: 19970319
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: pandemonium stats!! !!#@## by novokane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-misery01-nk-pdsta
 
 Write-Host '
                                     [1;33;43m▓[0m

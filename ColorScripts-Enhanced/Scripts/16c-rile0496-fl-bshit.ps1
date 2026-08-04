@@ -1,18 +1,4 @@
-﻿# Converted from: FL-BSHIT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile0496/raw/FL-BSHIT.ANS
-# Source Revision: archive-sha256:970ba17ca3338e96740571feaeb5cccb1e503d5151fde5fa1bc67bce49fcb3a4
-# Source SHA-256: fd9ff7acd79b5ee70705891a1efbc17633307f5816ad074ea2f91a144eca67f5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-BSHIT.ANS by flame (rile); released in rile0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: bullsh1t emag
-# SAUCE Author: flame
-# SAUCE Group: rile
-# SAUCE Date: 19960328
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: bullsh1t emag by flame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile0496-fl-bshit
 
 Write-Host '
 [31m▄▄[0;30;41m░[0;1;31;41m░▒▀▐███[0;1;31;47m▓▒▓[0;1;31;41m█[0;1;31;47m▓[0;1;31;41m████████▓▀▀▀▀░▀[0;31m█[0;1;31;41m▀▀[0;31m▀▀▀▀▀▀▀▀▀[0;32m [0;31m█[0;1;31;41m▀▀[0;1;31;47m▓[0;1;31;41m░[0;31m▄▄▄▀▀[0;1;31;41m▀███[0;1;31;47m▓[0;1;31;41m███[0;1;31;40m▒[0;30;41m░[0;31;40m▀▀▀▀[0;1;31;41m■▄[0;31m▄▄▀▀[0;1;31;41m▀[0;30;41m░[0;31;40m░[0;32;40m▄▐[0;1;32;42m▄[0m

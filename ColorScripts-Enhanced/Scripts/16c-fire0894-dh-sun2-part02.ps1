@@ -1,13 +1,4 @@
-﻿# Converted from: DH-SUN2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0894/raw/DH-SUN2.ANS
-# Source Revision: archive-sha256:5810e139e825e1092a27333c7d266cac63dba57f81bd1a7f34ba559f87784d8b
-# Source SHA-256: 1abbb2fa973c931952dd020529bbe88ef2ceddb50152160010cf9a4795408168
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DH-SUN2.ANS by Donut Hole (fire0894); released in fire0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: DH-SUN2.ANS by Donut Hole | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0894-dh-sun2-part02
 
 Write-Host '
 [32m  [0;1;33m▀[0;1;33;43m▒[0;1;33m▀[0;32m▄▀[0;1;33m▄[0;33m▀[0;1;33;43m▒░░░[0;33m████▀[0m     [32m▀▄▄[0;33m▀▀    [0;1;33m▄[0;32m▐▌[0m     [32m▀▀▀▄▄   [0;1;33m▄[0;1;33;47m▀[0;1;33m▄[0m                 [1;33m▄ [0;32m█  [0;1;33m▀[0m

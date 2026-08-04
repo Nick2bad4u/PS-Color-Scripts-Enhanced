@@ -1,13 +1,4 @@
-﻿# Converted from: SP-RACT.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-0393/raw/SP-RACT.ICE
-# Source Revision: archive-sha256:31b03d3a9d263e952227664fe802688e743ab14a707f16c150dab800192d5fc5
-# Source SHA-256: 532194fe4f180780fb54751157b56710cdb011d1619bb833b4b1003aee438ef3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SP-RACT.ICE by Sparr (ice-0393); released in ice-0393 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 50-71
-# Columns: 1-80
+﻿# Artwork: SP-RACT.ICE by Sparr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-0393-sp-ract-part02
 
 Write-Host '
 

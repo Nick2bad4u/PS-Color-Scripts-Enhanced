@@ -1,19 +1,4 @@
-﻿# Converted from: fr-wraith.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-002/raw/fr-wraith.ans
-# Source Revision: archive-sha256:035806f627526bbca92fb6becafc359d23b231b3ea478b7169ed62b6d2a1cc54
-# Source SHA-256: 2c5388d7c84b93e9c5afaf9ca43af3a632b99d41575043a88694bc97f9025edd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: fr-wraith.ans by FreshRich (Legacy Krew); released in lgcy-002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Wraith - Dark Carnival
-# SAUCE Author: FreshRich
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20190820
-# SAUCE Dimensions: 80x80
-# SAUCE Font: IBM VGA
-# Lines: 41-80
-# Columns: 1-80
+﻿# Artwork: Wraith - Dark Carnival by FreshRich | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-002-fr-wraith-part02
 
 Write-Host '
     [31m░▒░▒[0;1;30m█[0;1;30;43m▀[0;1;30;40m█[0;1;30;41m▀▀[0;31m▒▓[0;35m░▒▓[0;1;31;41m▓▄[0;31m▓▒▓▓▓[0;1;31;41m▓[0;31m░[0;1;31m▄[0;1;31;41m▓[0;31m░▄▓▀[0;1;33m▄▄▄▄[0;1;33;43m▓▄[0;33m█[0;1;33;43m▀[0;33m▓█[0;37m [0;1;33;43m░[0;1;33;40m███[0;1;33;43m▒[0;33m██▓░▄█[0;1;33;43m░▒▓[0;1;33;40m██▄[0;35m░[0;37m [0;1;33m█[0;1;30;47m▒░░▒▒[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: KZ-RATS.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9601a/raw/KZ-RATS.ICE
-# Source Revision: archive-sha256:e4c089e3103bdc63762348bbcc2c54a05a351461817f667c54ad471098c66860
-# Source SHA-256: f9de08e1098b55cad8bead2cc02def0a43ea13222f6b2742efc50925a4ecfb4b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KZ-RATS.ICE by Kamikazee (iCE Advertisements); released in ice9601a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Rat's Nest
-# SAUCE Author: Kamikazee
-# SAUCE Group: iCE Advertisements
-# SAUCE Date: 19960205
-# SAUCE Dimensions: 80x25
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: The Rat's Nest by Kamikazee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9601a-kz-rats
 
 Write-Host '
                                 [1;30m▀[0m [1;30m▄[0m

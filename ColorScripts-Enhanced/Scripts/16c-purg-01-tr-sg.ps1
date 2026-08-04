@@ -1,13 +1,4 @@
-﻿# Converted from: TR-SG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-01/raw/TR-SG.ANS
-# Source Revision: archive-sha256:52e459066bb4c242989ee5376b0bf205dd329f7ed65ae88f8a028ac37e19ed86
-# Source SHA-256: 5c982bd0b29a07728d46cc70246205a92fe89ef1072e0e8833abe78b21e80944
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-SG.ANS by The Reaper (purg-01); released in purg-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: TR-SG.ANS by The Reaper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-01-tr-sg
 
 Write-Host '
 

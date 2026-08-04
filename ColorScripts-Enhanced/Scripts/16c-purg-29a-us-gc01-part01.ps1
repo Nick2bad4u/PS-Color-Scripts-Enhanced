@@ -1,13 +1,4 @@
-﻿# Converted from: US-GC01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-29a/raw/US-GC01.ANS
-# Source Revision: archive-sha256:5de89fa125eb7333a54bae49908ef76358fcc0ce9b3df66010dca2eb64b17560
-# Source SHA-256: e42f03736d9c3d1df483ae4ab5c1656750c38cadc44cd0f99c645780ec5cc901
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GC01.ANS by Slackzor + Arlequin + Zippy (purg-29a); released in purg-29a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: US-GC01.ANS by Slackzor + Arlequin + Zippy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-29a-us-gc01-part01
 
 Write-Host '
                                       [35m▄▄ [0m

@@ -1,17 +1,4 @@
-﻿# Converted from: DIZ-NEVE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0497/raw/DIZ-NEVE.ANS
-# Source Revision: archive-sha256:6310c9227506d6d2a21aaf62decb0dd3510e5ffb455efa377e329a37d758ea8f
-# Source SHA-256: 33ce06a6bcf604d34d739686428f42b09f4f8bc7c0d7f52849ea58c4c7986601
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DIZ-NEVE.ANS by Dizzy (opium); released in opx-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: Dizzy
-# SAUCE Group: opium
-# SAUCE Date: 19961213
-# SAUCE Dimensions: 80x88
-# Lines: 44-88
-# Columns: 1-80
+﻿# Artwork: DIZ-NEVE.ANS by Dizzy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0497-diz-neve-part02
 
 Write-Host '
 [32m▄▄[0;37m  [0;32m▀▀▄▄ [0;34m▀█[0;1;34;44m░▀[0;34m█[0;1;34;44m▄[0;34m██[0;1;34;44m░[0;34m█[0;37m [0;1;33;47m▓[0;1;33;40m█▓[0m         [1m [0m  ▀[1;47m░▒▓▓[0;1;40m████[0;1;47m▓▓▓[0m▄ [1;31m ▀▀[0m   [1;31m [0m [1;31m██████████▓▓███[0m [1;31;43m██▓▒[0;33m▄[0;1;31;43m▓[0;1;31;40m [0m

@@ -1,19 +1,4 @@
-﻿# Converted from: ZIR-SMRA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/ZIR-SMRA.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: 13cd920ec5fc933350638057d8a0854616a3c5df56836e32693d4379d5e79747
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-SMRA.ANS by zir (FiRE); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: samsara
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20241111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: samsara by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-zir-smra
 
 Write-Host '
 [37;40m [0;31;40m[[0;37;40msamsara[0;31;40m: [0;37;40m1996[0;31;40m-[0;37;40m1996[0;31;40m]░░░░░░░░░░░░░[0;33;40m░░[0;31;40m░[0;33;40m░░[0;37;40m [0;1;33;40m░░░[0;33m░ ░[0;31m░░░░░░░░░░░░░░░░░░░[[0;37mzir[0;31m/[0;37mfire2024[0;31m][0m

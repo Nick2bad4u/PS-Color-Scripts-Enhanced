@@ -1,18 +1,4 @@
-﻿# Converted from: RZA-TREE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dsco0895/raw/RZA-TREE.ANS
-# Source Revision: archive-sha256:c5eafe9a144b7f2a60871b789ee8823ca79eafbd0e867cafcaf16646225c9998
-# Source SHA-256: c208cf8582f2945248cfe4d13fbd8d962bb0acff49261f9bcf2f7bb3a169c28c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RZA-TREE.ANS by the RZA (Disco); released in dsco0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: 0DB Mcdowell
-# SAUCE Author: the RZA
-# SAUCE Group: Disco
-# SAUCE Date: 19950727
-# SAUCE Dimensions: 80x25
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: 0DB Mcdowell by the RZA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dsco0895-rza-tree-part01
 
 Write-Host '
 [1;30m▓▄[0m [33m▒[0;1;30m▐▌▀▀[0m  [34m▓[0;1;34;44m▓██▓█░░░[0;34m█▓█████[0m [1;30m▄█▓██[0m [32m▓[0;1;30m███████▓▓▓▒░▒░[0m     [1;30m░░[0m [1;32m▓[0m   [33m▓[0;32m [0;1;30m▄░▄[0m [1;30m▓ [0;32m▄[0m [32m▀▄[0m    [32m░[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: ak-level2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz15/raw/ak-level2.ans
-# Source Revision: archive-sha256:d35f5b18ac3e8cbe3d6d17eab809a7e050609a8e3cc7d160d14a87c59a191c12
-# Source SHA-256: f84fbe06eea0f4c7149a360fe25b04599b06b2ca2b79a3f1cd851ef0fdba44de
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ak-level2.ans by abstrakt (lazarus); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: error level
-# SAUCE Author: abstrakt
-# SAUCE Group: lazarus
-# SAUCE Date: 20220623
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: error level by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz15-ak-level2
 
 Write-Host '
 [35mj[0;1;30m''[0;1;33m.┌%[0;1;37my[0;1;32myyyy%%¬[0;32m┐.[0;1;30m`[0;35m''[0;1;33m,yy%[0;1;37m%[0m%[1;32m%%%%yy¬[0;32m┐.[0;1;30m'' [0;1;33m┌y[0my%[1;32m%%%%y¬┐[0;32m.[0;1;30m`[0;35m''[0;1;30m [0;1;33m.┌[0;1;32my%%¬┐[0;32m,.[0;1;30m`[0;35m┘[0;1;30m [0;1;33m,┌y[0my[1;32m%%%%yy¬[0;32m┐.[0;37m [0;35m`[0;1;30m [0;1;36ma[0;36mbs[0m

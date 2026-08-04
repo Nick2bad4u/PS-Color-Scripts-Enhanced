@@ -1,18 +1,4 @@
-﻿# Converted from: BIZ-SDS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0297/raw/BIZ-SDS.ANS
-# Source Revision: archive-sha256:12d66e55bc50470ef328e6f9ec21c65dbe558f61a1cf46f5aac359e3cb051dfe
-# Source SHA-256: be5e066c4c842c2fa357b67dda8f7aa8c1ec22954c6ce2c99f69eea31d53ca53
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BIZ-SDS.ANS by Bisounours (Fire); released in fire0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Sonic! Dizzy sensations.
-# SAUCE Author: Bisounours
-# SAUCE Group: Fire
-# SAUCE Date: 19970119
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Sonic! Dizzy sensations. by Bisounours | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0297-biz-sds
 
 Write-Host '
                    [31m▄[0;1;31m▄▄[0;31m▄[0;1;31m▄▄▄[0;31m  [0m

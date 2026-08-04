@@ -1,18 +1,4 @@
-﻿# Converted from: OM-TPC9.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shv-0595/raw/OM-TPC9.ANS
-# Source Revision: archive-sha256:82fe2913421f037d08041cae82983960f00d748b889c6356f72c6026b00a0a26
-# Source SHA-256: 297350a3bfed40416919c060e6a5cea343d42171d85a42de58eb19403d7192b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OM-TPC9.ANS by Omega Red (Shiver); released in shv-0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Players Club
-# SAUCE Author: Omega Red
-# SAUCE Group: Shiver
-# SAUCE Date: 19950429
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: The Players Club by Omega Red | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shv-0595-om-tpc9-part01
 
 Write-Host '
 [1m  [0m         [1m [0;1;30m░[0;1;37m  [0;1;30m▄▄[0m▄[1;30m▄[0m▄[1;30;47m░[0m   [1;30m [0m

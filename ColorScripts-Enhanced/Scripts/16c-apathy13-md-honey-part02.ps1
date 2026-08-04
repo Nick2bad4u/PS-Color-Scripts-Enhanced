@@ -1,18 +1,4 @@
-﻿# Converted from: md-honey.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy13/raw/md-honey.ans
-# Source Revision: archive-sha256:3ed7178f860604c6b9786846d46fd13095846b81c16a5324edc4e4b9ea7e6ba8
-# Source SHA-256: ee161bb0f8fcb29e991d6ca86dade19a3097854f890d54b5b321aa8564f6081b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: md-honey.ans by MSd!@# (Soap); released in apathy13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Honey Blunt
-# SAUCE Author: MSd!@#
-# SAUCE Group: Soap
-# SAUCE Date: 19961126
-# SAUCE Dimensions: 80x57
-# Lines: 30-57
-# Columns: 1-80
+﻿# Artwork: Honey Blunt by MSd!@# | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy13-md-honey-part02
 
 Write-Host '
 $$$[1;30m$$$$$$$$$$$b,[0;1;37m`''²4[0m$$a,[1m.[0m.[1m,d[0m$S²''[1;30m,$$$$$$$$$$$$$$$$$$P[0;1;37m ,P[0;1;33m''S$.[0m`4$[1;30m$$$$$$$$$$$$$$Si[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US-BM01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook22/raw/US-BM01.ANS
-# Source Revision: archive-sha256:aec74908b08ab1e6eeb2617f04dd839f89321bd6f70d460ae94d73bdd51d69b6
-# Source SHA-256: a7577182f2383efad5976375a6968885f4ce04bc56fac3e844541f852d4c9b1f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BM01.ANS by Avenger + Mr Wrong (bm & hrg); released in bmbook22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Black Maiden
-# SAUCE Author: ave & mr. wrong
-# SAUCE Group: bm & hrg
-# SAUCE Date: 20001212
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Black Maiden by Avenger + Mr Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook22-us-bm01
 
 Write-Host '
        [1;30m  [0m   [1;30m [0m                                      [1;30m▄[0m

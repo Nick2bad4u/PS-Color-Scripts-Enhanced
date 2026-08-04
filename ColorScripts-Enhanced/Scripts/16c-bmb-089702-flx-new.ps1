@@ -1,18 +1,4 @@
-﻿# Converted from: FLX-NEW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-089702/raw/FLX-NEW.ANS
-# Source Revision: archive-sha256:e48c38fcf9ad1e8bdcd70f413f385ac4fe4835bcda18b3e71092baf5cce2e35b
-# Source SHA-256: db874f12b1e531891a8098dc5aeeeeb1f0a4f5356880ff846f2c9dd00275a671
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FLX-NEW.ANS by flux (bamboosh); released in bmb-089702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: new user registration
-# SAUCE Author: flux
-# SAUCE Group: bamboosh
-# SAUCE Date: 19880110
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: new user registration by flux | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-089702-flx-new
 
 Write-Host '
           [31m▄▄▄▌[0m     [1;34m▄[0m

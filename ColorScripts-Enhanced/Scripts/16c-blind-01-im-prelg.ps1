@@ -1,13 +1,4 @@
-﻿# Converted from: im-prelg.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blind-01/raw/im-prelg.ans
-# Source Revision: archive-sha256:74df0a182d8565b8f40daa4c4ea8bc2d71e1cbb40408d576ae51b526e5cad036
-# Source SHA-256: 2debac990b63c52ec51a36542c59fd0c9b2b42be1a235f0f627246e22d36b1a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: im-prelg.ans by Icedmouse (blind-01); released in blind-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: im-prelg.ans by Icedmouse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blind-01-im-prelg
 
 Write-Host '
         _[1;30m  [0m [1;30m [0m                          [1m.-[0m-[1;30m.[0m     [1;30m·[0m              [1;30m [0m

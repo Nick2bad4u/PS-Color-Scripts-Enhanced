@@ -1,18 +1,4 @@
-﻿# Converted from: SR-UG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0295/raw/SR-UG.ANS
-# Source Revision: archive-sha256:783416b41a421333c3ef8049cdade58e4e0c645dd104994cd95b81b7407d25ff
-# Source SHA-256: d2ca554a5db2558095a9077847ad81c2b8939380ba46372ba97e2f3eda8a297d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SR-UG.ANS by Silver Rat (ACiD Productions); released in acdu0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Undergrown Magazine
-# SAUCE Author: Silver Rat
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950125
-# SAUCE Dimensions: 80x92
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: Undergrown Magazine by Silver Rat | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0295-sr-ug-part01
 
 Write-Host '
 

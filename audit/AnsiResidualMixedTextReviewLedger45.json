@@ -1,0 +1,599 @@
+{
+  "batch": 45,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch45-novel-generic-label-or-production-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 54,
+              "start": 39
+            }
+          ],
+          "expectedRawSha256": "bcedf0a093586041bb70ae5c139f32c0f058d85f75ef574c265bfca2bc99e5d0",
+          "expectedRenderedSha256": "6f4384522bebf9f62996959eeeaa706a0abecc6ba8f57a110b9c2ec1bc893ce8",
+          "row": 21,
+          "sha256": "62ce04538df622543f76f0141ac64f0f2a9e54b4f1ef5978b943fb0e81e384a0"
+        }
+      ],
+      "file": "16c-awe-12-tna-awe.ps1",
+      "rationale": "A history-excluded whole-gallery generic-label review confirmed that these exact cells are disposable command and option placeholders, an explicit hidden-text marker, or narrowly separable source-production counters. Full-family extensions complete repeated placeholder structures without selecting titles, identities, attribution, filenames, authored dialogue, functional prompts, terminal-art glyphs, ANSI controls, colored spaces, widths, or row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/research-residual-generic-labels-report.json",
+        "temp/text-blanking-continuation/batch45-residual-generic-history-index.json",
+        "temp/text-blanking-continuation/batch45-terminal-review.json",
+        "temp/text-blanking-continuation/batch45-focused-review.json",
+        "temp/text-blanking-continuation/batch45-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch45-novel-generic-label-or-production-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "7c72ac3963ffcd37364fe1fab677c5811505be411961d7994636051bc6da36fa",
+          "expectedRenderedSha256": "545bd38b4255fb173ca6a6e7de469895a88eebb0cec37532a9fca527d1fc2546",
+          "row": 11,
+          "sha256": "8037dcd60fd391ac813b171c8480cf5151b1e6bd29cf6ffbd86c1d48a6dc7498"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "99702a9eeb7c9c7e1f43c9ea70371ad4e265844a8b3c2db96720d734fdeb0b15",
+          "expectedRenderedSha256": "b4b129b6507cb3008ae1a54308aa86ee87e67b449fd9f6e7d571c39ed7bd23a5",
+          "row": 12,
+          "sha256": "d8ee16854268c5e98b18b8b2ec0bf35755801120adf9cd7fa500b743092c4b54"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "bba98a5502978724b5390745bd94f4e4afe3335b3640a6dfdc9d6fd64a038ff8",
+          "expectedRenderedSha256": "55c2118e52e27019689460d8f2e6b05f0e08f6227fe0a5c23b0795b07ec138f7",
+          "row": 13,
+          "sha256": "06828ab7a8eb4b1c955599e36a8b3dec4cc9ce626848ec563856edf5b909e208"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "757e0837ce0157414c21062d2b432a5330eeb804232da4d7908800f70ec146e4",
+          "expectedRenderedSha256": "64f92457377aa11f53cbfdb98504a4e9d4e7cca28a4346f1acb8b4d4dad3bb29",
+          "row": 14,
+          "sha256": "9e430a733a082d319ec6c3ddadce2c88b1ebd44616f233b2c0bab046b7a87a9d"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "eb44367c9b16052bb863a9fd579fe5c17fa06c98fa481b9c4fbb3102db273a50",
+          "expectedRenderedSha256": "7f35dac4e51617ba94c063341853c321fcbfa09843b156ab5e80c21a2465b5e9",
+          "row": 15,
+          "sha256": "3bc3a46bd96748066212b94e82d48cb50513eb73d0e292a437bbbc867cc16be7"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "750750c2eec5b29b36fc3838ae6e4acce8383ed99bfa1b6d23490ef2995e8780",
+          "expectedRenderedSha256": "fd78a581aff2581accfd41e07a67b0eabb178d6660c11be65db88c61ecc64b46",
+          "row": 16,
+          "sha256": "524d284d353e1ba8342858aaa53e08b6f630861e54cc57fe961c9f179c4fa96a"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "9da6ea8640ff7d33fdfeff17d21326a34014e6a9f6c34de41561cd73fe348e83",
+          "expectedRenderedSha256": "f8cf595cf73a3c365f3cc844c3ce7d0002ce53b187250b1b315d0367223e1677",
+          "row": 17,
+          "sha256": "e4b8610a08a36499c4707efc23da8a8f7b588b57dcb894586ea909a8d2d33b44"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "846c7bd3f70981f70d623f305a2640f4209054b638e1c4a5a214ce60ae5dfb7d",
+          "expectedRenderedSha256": "691be00a84031833ba417eaebc4f2a3ca6218937c4435e176733a3aacd4dea27",
+          "row": 18,
+          "sha256": "bf31fbf24be9a3a67069575b699080df97a0b63f2385dc53451b63b8800af99d"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "ce6e00d79ea9d9770f6a95e47c2b7a89929c755019aac8d28896b10b533de4f3",
+          "expectedRenderedSha256": "b37e034545bcb1e62d65051809d6a783a10fed84e51c8d05fed3972c135669f1",
+          "row": 19,
+          "sha256": "4f5dad9fb8b7384c97bb4ec588664350a6e33fada5771b0d1495531c9f208473"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "d66fd7f9ffe4d2d6e323804a76c3e6f364d8d98f76e37fa201c87fdc4e062497",
+          "expectedRenderedSha256": "f7682f93becd8743e93e2c43b08d10908bb5fb52fb698cea05136557cf3049c7",
+          "row": 20,
+          "sha256": "88b28a7de954c3bde1fa5eaf9877f3e04a269b4d97253012fb2d497692807e69"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "8b4a29511de0c0f7e3d1ff7bf8f29c74eabd3638c06dd094880217a3b3aace50",
+          "expectedRenderedSha256": "4eef2d231298dae4b4dcf8537b7515106864f49798995bd8fafacf1b693b685f",
+          "row": 21,
+          "sha256": "800e01bd89f5d7ba722d28fbd92c032bc8af1bb5a6238a80edc31b20354b0267"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "d90f5f0d3bbcb04bb83a03d8df1dacd4e52d8764d8adf47c83e885d4f68c72a0",
+          "expectedRenderedSha256": "d4dd8b6f0d229dc73523214fa2a477fd29c6dad97a115e11c9af942bf6c982af",
+          "row": 22,
+          "sha256": "539a4f6fb36ddf50711eaefcf0c560ca89a769f55dc7287dae671ddce204dadb"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "6dee41cc71737a8ff4c6846d9518e62b3a5c410fcca4573a28f308c9d7ef75e8",
+          "expectedRenderedSha256": "0ef592063075e0719ba883dadbf3b78b5b3d04bea4499f1336b6cbd3bcd3fba7",
+          "row": 23,
+          "sha256": "1a20cd7ca6c343364589296ef664f193ff0232b8ba30d4382e4dee98bed59789"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "9866141b11085f724a1fd952c248e6bb912118dee76a9e61074a6fdaf6910720",
+          "expectedRenderedSha256": "24fd0ee1740b88105125868699a103eaebfb634026f35045f5302fc929868054",
+          "row": 24,
+          "sha256": "eff6bdb271ecc1ba5d45bbbc3ac0e5bd78641fa93296ab3b090c2891e8a75cf2"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "c1bd950961bede8447603c63679ab8e9ca4862160db0bc04bd43441d16e63edc",
+          "expectedRenderedSha256": "a10e81c24b5d99f92ac4dd567f2a80e568522fe6a8a5aa3b036fcbb9d27d6ec7",
+          "row": 25,
+          "sha256": "a662bdeae30d31e02d260126c3a6d1626d2ce3a1861cee4116b435e5e3c5a529"
+        }
+      ],
+      "file": "16c-awe9706-tna-kaoz.ps1",
+      "rationale": "A history-excluded whole-gallery generic-label review confirmed that these exact cells are disposable command and option placeholders, an explicit hidden-text marker, or narrowly separable source-production counters. Full-family extensions complete repeated placeholder structures without selecting titles, identities, attribution, filenames, authored dialogue, functional prompts, terminal-art glyphs, ANSI controls, colored spaces, widths, or row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/research-residual-generic-labels-report.json",
+        "temp/text-blanking-continuation/batch45-residual-generic-history-index.json",
+        "temp/text-blanking-continuation/batch45-terminal-review.json",
+        "temp/text-blanking-continuation/batch45-focused-review.json",
+        "temp/text-blanking-continuation/batch45-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch45-novel-generic-label-or-production-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 64,
+              "start": 38
+            }
+          ],
+          "expectedRawSha256": "5fdc061f2e772750b083deb57f74773dd57f339fd6341c5ae2e582a13fe3f4f9",
+          "expectedRenderedSha256": "98d98bb6026809d1d9668640cc59be5caafcdfea11b1c2ed386b92d9b5e640b4",
+          "row": 18,
+          "sha256": "574a19f4cd805de29c85cdbc25af465a81c4836fceec9d1592504035e48833d5"
+        }
+      ],
+      "file": "16c-distant2-ds-sde1.ps1",
+      "rationale": "A history-excluded whole-gallery generic-label review confirmed that these exact cells are disposable command and option placeholders, an explicit hidden-text marker, or narrowly separable source-production counters. Full-family extensions complete repeated placeholder structures without selecting titles, identities, attribution, filenames, authored dialogue, functional prompts, terminal-art glyphs, ANSI controls, colored spaces, widths, or row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/research-residual-generic-labels-report.json",
+        "temp/text-blanking-continuation/batch45-residual-generic-history-index.json",
+        "temp/text-blanking-continuation/batch45-terminal-review.json",
+        "temp/text-blanking-continuation/batch45-focused-review.json",
+        "temp/text-blanking-continuation/batch45-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch45-novel-generic-label-or-production-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 62,
+              "start": 51
+            }
+          ],
+          "expectedRawSha256": "df80182fed15833cb2535175bd0f1692a5c7dd6db9e27312c872d9391a8e0e41",
+          "expectedRenderedSha256": "723004be2f3761f7a73d0fde9e893f54594f00abf952309b9bf6f8e39fbd58df",
+          "row": 20,
+          "sha256": "2e8e7a8bc1ea0298edf3a1417bc4fe87fa88c0d1e1dca408210868d099d9e2ae"
+        }
+      ],
+      "file": "16c-divine01-us-deep.ps1",
+      "rationale": "A history-excluded whole-gallery generic-label review confirmed that these exact cells are disposable command and option placeholders, an explicit hidden-text marker, or narrowly separable source-production counters. Full-family extensions complete repeated placeholder structures without selecting titles, identities, attribution, filenames, authored dialogue, functional prompts, terminal-art glyphs, ANSI controls, colored spaces, widths, or row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/research-residual-generic-labels-report.json",
+        "temp/text-blanking-continuation/batch45-residual-generic-history-index.json",
+        "temp/text-blanking-continuation/batch45-terminal-review.json",
+        "temp/text-blanking-continuation/batch45-focused-review.json",
+        "temp/text-blanking-continuation/batch45-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch45-novel-generic-label-or-production-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 10,
+              "start": 5
+            }
+          ],
+          "expectedRawSha256": "54dc4a471cb27da53db45c9f1460290a2f9aa35600a173e35e33b8ef524193ce",
+          "expectedRenderedSha256": "a6fedc9040182c4a8b762672480a0c7582fe58e27714e556aaccf34813783a52",
+          "row": 6,
+          "sha256": "293c0f9bb9b394e46a91eb3e536b5366c6b79f248b091491b55f11216cadc5df"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 10,
+              "start": 5
+            }
+          ],
+          "expectedRawSha256": "9624994976bb5643bc163495166fc2be4fc613459e67c6563d41717998f5c606",
+          "expectedRenderedSha256": "c2ff66652303f4bb00994cdd98b2940e37819b5ae81e7cbafe00e6011a09e782",
+          "row": 7,
+          "sha256": "1cdb88925dbc41f387af46ce686109c213aa62050d90ee1fdd21f91ed10cebc7"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 10,
+              "start": 5
+            }
+          ],
+          "expectedRawSha256": "abd36c1309b478453028d6bdb451c452df91a2544210159b46da96a31769a058",
+          "expectedRenderedSha256": "17acce3d672905e7ef4b4ab70e0f95973ecb276d20d29f77c4288d9b6a42dedc",
+          "row": 8,
+          "sha256": "db7ce9193027e3948c85dc437639050ce27661589d63f5ac182a9d83495bdd22"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 10,
+              "start": 5
+            }
+          ],
+          "expectedRawSha256": "fcdf46b5ffcf38e9dbcd4fef160bef4223b7a48c5951f470f6c41cd370b15dab",
+          "expectedRenderedSha256": "41a32df169d751c2ae6985a20f85c9f4755c35457577516c0948387f53531a9e",
+          "row": 9,
+          "sha256": "1ebd81b6f9e058ad2e393edc70870847633f66cbbe24fe06e71884505b121aa7"
+        }
+      ],
+      "file": "16c-fire-38-ak-sh.ps1",
+      "rationale": "A history-excluded whole-gallery generic-label review confirmed that these exact cells are disposable command and option placeholders, an explicit hidden-text marker, or narrowly separable source-production counters. Full-family extensions complete repeated placeholder structures without selecting titles, identities, attribution, filenames, authored dialogue, functional prompts, terminal-art glyphs, ANSI controls, colored spaces, widths, or row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/research-residual-generic-labels-report.json",
+        "temp/text-blanking-continuation/batch45-residual-generic-history-index.json",
+        "temp/text-blanking-continuation/batch45-terminal-review.json",
+        "temp/text-blanking-continuation/batch45-focused-review.json",
+        "temp/text-blanking-continuation/batch45-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch45-novel-generic-label-or-production-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 62,
+              "start": 51
+            }
+          ],
+          "expectedRawSha256": "df80182fed15833cb2535175bd0f1692a5c7dd6db9e27312c872d9391a8e0e41",
+          "expectedRenderedSha256": "723004be2f3761f7a73d0fde9e893f54594f00abf952309b9bf6f8e39fbd58df",
+          "row": 20,
+          "sha256": "2e8e7a8bc1ea0298edf3a1417bc4fe87fa88c0d1e1dca408210868d099d9e2ae"
+        }
+      ],
+      "file": "16c-force-20-us-deep.ps1",
+      "rationale": "A history-excluded whole-gallery generic-label review confirmed that these exact cells are disposable command and option placeholders, an explicit hidden-text marker, or narrowly separable source-production counters. Full-family extensions complete repeated placeholder structures without selecting titles, identities, attribution, filenames, authored dialogue, functional prompts, terminal-art glyphs, ANSI controls, colored spaces, widths, or row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/research-residual-generic-labels-report.json",
+        "temp/text-blanking-continuation/batch45-residual-generic-history-index.json",
+        "temp/text-blanking-continuation/batch45-terminal-review.json",
+        "temp/text-blanking-continuation/batch45-focused-review.json",
+        "temp/text-blanking-continuation/batch45-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch45-novel-generic-label-or-production-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 78,
+              "start": 71
+            }
+          ],
+          "expectedRawSha256": "5a0533126453e75d69abb3f8e383cb0d6716287b060b9e4585d955ba12955612",
+          "expectedRenderedSha256": "3d1aba77f136a7e7010579db144d33186c882304ee0b59c36a5a19b7e781819c",
+          "row": 27,
+          "sha256": "8aba61f9c870a378614bdaf4f92eef5e4acc3ad1da1555e108eb4a41295b3c04"
+        }
+      ],
+      "file": "16c-fuel25-tk-araknode.ps1",
+      "rationale": "A history-excluded whole-gallery generic-label review confirmed that these exact cells are disposable command and option placeholders, an explicit hidden-text marker, or narrowly separable source-production counters. Full-family extensions complete repeated placeholder structures without selecting titles, identities, attribution, filenames, authored dialogue, functional prompts, terminal-art glyphs, ANSI controls, colored spaces, widths, or row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/research-residual-generic-labels-report.json",
+        "temp/text-blanking-continuation/batch45-residual-generic-history-index.json",
+        "temp/text-blanking-continuation/batch45-terminal-review.json",
+        "temp/text-blanking-continuation/batch45-focused-review.json",
+        "temp/text-blanking-continuation/batch45-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch45-novel-generic-label-or-production-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 47,
+              "start": 38
+            }
+          ],
+          "expectedRawSha256": "11560d7d6d55c0df9f5154ae4b30aae3fb995c583bba146963031cb608d77509",
+          "expectedRenderedSha256": "4b44cf1322c5eb593ed8ff43e56c62d91ec3456b0a1d56a05e389dff16ab445a",
+          "row": 26,
+          "sha256": "ec90ddea550d35a1e0a3cbe7311b42de7dcfb9b1789492a652e193dad8c59f51"
+        }
+      ],
+      "file": "16c-phat0297-pt-choco-part02.ps1",
+      "rationale": "A history-excluded whole-gallery generic-label review confirmed that these exact cells are disposable command and option placeholders, an explicit hidden-text marker, or narrowly separable source-production counters. Full-family extensions complete repeated placeholder structures without selecting titles, identities, attribution, filenames, authored dialogue, functional prompts, terminal-art glyphs, ANSI controls, colored spaces, widths, or row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/research-residual-generic-labels-report.json",
+        "temp/text-blanking-continuation/batch45-residual-generic-history-index.json",
+        "temp/text-blanking-continuation/batch45-terminal-review.json",
+        "temp/text-blanking-continuation/batch45-focused-review.json",
+        "temp/text-blanking-continuation/batch45-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch45-novel-generic-label-or-production-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 46,
+              "start": 33
+            }
+          ],
+          "expectedRawSha256": "1b96abbd6fd2f19ee0e77ab4a07e469065a799321704eaac7196b33167e42427",
+          "expectedRenderedSha256": "9bb35133359f673f683b39a4aed4f409169410c63f4ce8022648ddc2525c514d",
+          "row": 43,
+          "sha256": "f55364a14fde0c9b9115ede7a2378dd56698694e9043d74ee56ec535b88df3bc"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 48,
+              "start": 33
+            }
+          ],
+          "expectedRawSha256": "7275822ff67906dd81b2ac32a9f0315779edbd352e53c6dab60dc740b96c299a",
+          "expectedRenderedSha256": "e64d861ca551fb434752c794830ee29613d34c34ea747b182e7942eb27f7f1bc",
+          "row": 44,
+          "sha256": "7413c539bdbb35e70ac59f25475c4c3d0a073d1f6dbfc10e87a024b27e11915a"
+        }
+      ],
+      "file": "16c-phb-0397-dz-clus-part03.ps1",
+      "rationale": "A history-excluded whole-gallery generic-label review confirmed that these exact cells are disposable command and option placeholders, an explicit hidden-text marker, or narrowly separable source-production counters. Full-family extensions complete repeated placeholder structures without selecting titles, identities, attribution, filenames, authored dialogue, functional prompts, terminal-art glyphs, ANSI controls, colored spaces, widths, or row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/research-residual-generic-labels-report.json",
+        "temp/text-blanking-continuation/batch45-residual-generic-history-index.json",
+        "temp/text-blanking-continuation/batch45-terminal-review.json",
+        "temp/text-blanking-continuation/batch45-focused-review.json",
+        "temp/text-blanking-continuation/batch45-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch45-novel-generic-label-or-production-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "693b40f63ae06ce5782e2872fa5ccf43ca1b07dead782d34d120ef118a2b777c",
+          "expectedRenderedSha256": "84f25b2218eafee5add67f017fc25ec044d55452ab2e512120d82db92e23f0cd",
+          "row": 6,
+          "sha256": "b78d1cdb782841ed91e1bb7a0541cd253a6f14815ed46580dafdb888414d618c"
+        }
+      ],
+      "file": "16c-plenty-dx-100ln-part01.ps1",
+      "rationale": "A history-excluded whole-gallery generic-label review confirmed that these exact cells are disposable command and option placeholders, an explicit hidden-text marker, or narrowly separable source-production counters. Full-family extensions complete repeated placeholder structures without selecting titles, identities, attribution, filenames, authored dialogue, functional prompts, terminal-art glyphs, ANSI controls, colored spaces, widths, or row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/research-residual-generic-labels-report.json",
+        "temp/text-blanking-continuation/batch45-residual-generic-history-index.json",
+        "temp/text-blanking-continuation/batch45-terminal-review.json",
+        "temp/text-blanking-continuation/batch45-focused-review.json",
+        "temp/text-blanking-continuation/batch45-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch45-novel-generic-label-or-production-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 70,
+              "start": 61
+            }
+          ],
+          "expectedRawSha256": "b765e8d705c0da6caab2aa6c96a72a6fb52dc9cd26cdb8e7553f972cfa3b5429",
+          "expectedRenderedSha256": "995a9c15e39dd91e577afd44d55df512c9034c3e4221f6d63915455bc3f0bb01",
+          "row": 8,
+          "sha256": "1557a282198d503602590d28a4242084a1759f970a2ab8e2eaed82b139d0f323"
+        }
+      ],
+      "file": "16c-rare-001-ess-mtrx.ps1",
+      "rationale": "A history-excluded whole-gallery generic-label review confirmed that these exact cells are disposable command and option placeholders, an explicit hidden-text marker, or narrowly separable source-production counters. Full-family extensions complete repeated placeholder structures without selecting titles, identities, attribution, filenames, authored dialogue, functional prompts, terminal-art glyphs, ANSI controls, colored spaces, widths, or row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/research-residual-generic-labels-report.json",
+        "temp/text-blanking-continuation/batch45-residual-generic-history-index.json",
+        "temp/text-blanking-continuation/batch45-terminal-review.json",
+        "temp/text-blanking-continuation/batch45-focused-review.json",
+        "temp/text-blanking-continuation/batch45-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch45-novel-generic-label-or-production-placeholder",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 9,
+              "start": 3
+            },
+            {
+              "end": 22,
+              "start": 13
+            }
+          ],
+          "expectedRawSha256": "231c525c3231cd4bdbe590b5f5339d63e3ea7cac1103fba04890788d558ef02d",
+          "expectedRenderedSha256": "4c257b7a9bdfef857b7fa1c59c1937190f141e354f0572dd1feea228b55dd883",
+          "row": 3,
+          "sha256": "7ccead1143d646ea5d528def37e69ad55c0214dedc772aaa966e0e6a01f034ee"
+        }
+      ],
+      "file": "16c-tpy-15-cl-tris.ps1",
+      "rationale": "A history-excluded whole-gallery generic-label review confirmed that these exact cells are disposable command and option placeholders, an explicit hidden-text marker, or narrowly separable source-production counters. Full-family extensions complete repeated placeholder structures without selecting titles, identities, attribution, filenames, authored dialogue, functional prompts, terminal-art glyphs, ANSI controls, colored spaces, widths, or row geometry.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/research-residual-generic-labels-report.json",
+        "temp/text-blanking-continuation/batch45-residual-generic-history-index.json",
+        "temp/text-blanking-continuation/batch45-terminal-review.json",
+        "temp/text-blanking-continuation/batch45-focused-review.json",
+        "temp/text-blanking-continuation/batch45-focused-crosscheck.json"
+      ]
+    }
+  ],
+  "normalization": "SHA-256 of UTF-8 visible terminal-cell rows after ANSI-control removal and outer-whitespace trimming. Every row also pins exact raw projected and rendered hashes plus one-based inclusive blank-column ranges.",
+  "pendingInputs": [],
+  "policy": "Fail-closed review of every generic-label detector coordinate absent from the completed Batch 30 history, terminal field review, and all tracked mixed-text ledgers. Accept only separable generic placeholders, hidden-text markers, and production counters; retain project demonstrations, titles, identities, attribution, filenames, authored text, functional copy, and source-significant facts.",
+  "reviewedAt": "2026-08-01",
+  "schemaVersion": 1,
+  "status": "ready",
+  "summary": {
+    "blankColumnRows": 30,
+    "candidateFiles": 12,
+    "candidateGroups": 12,
+    "categoryRows": {
+      "batch45-novel-generic-label-or-production-placeholder": 30
+    },
+    "detectorRows": 21,
+    "evidenceRows": 30,
+    "familyExtensions": 9,
+    "priorAcceptExtensions": 0,
+    "priorRetainSupersessions": 0,
+    "retainedDetectorRows": 32
+  }
+}

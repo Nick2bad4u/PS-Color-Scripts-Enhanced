@@ -1,18 +1,4 @@
-﻿# Converted from: DZ!-CLUS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phb-0397/raw/DZ!-CLUS.ANS
-# Source Revision: archive-sha256:d18868f8faf7726799689b37fb1a0005133cfca83163c8b652f242ae3ef3a67d
-# Source SHA-256: d726f1943559772bbc88874fe64307d065dc8ea37df992c8037d0f7cbfe8238d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DZ!-CLUS.ANS by dezeit (phobia); released in phb-0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: clustah
-# SAUCE Author: dezeit
-# SAUCE Group: phobia
-# SAUCE Date: 19970301
-# SAUCE Dimensions: 80x102
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: clustah by dezeit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phb-0397-dz-clus-part01
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: BE-SP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ftc-03/raw/BE-SP.ANS
-# Source Revision: archive-sha256:1226dcacf4b055c72a07590d3a55db00d6617398cb0c9cab468627eb45b001d6
-# Source SHA-256: fed3129d519989413b2f2726d212ab40e82d91bceb6d3ef770f2f9312172f9cb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BE-SP.ANS by brain eater (ftc); released in ftc-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: schizophrenia
-# SAUCE Author: brain eater
-# SAUCE Group: ftc
-# SAUCE Date: 19960709
-# SAUCE Dimensions: 80x18
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: schizophrenia by brain eater | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ftc-03-be-sp
 
 Write-Host '
                   [1;34m [0;36m,s@[0;1;34mS[0;36m$$[0;1;34m$[0;36m$P"[0;1;34m"[0;36m""Y$[0;1;34m$[0;36ms╖.[0;37m  [0m   [36m,ss@@[0;1;34mS[0;36mSP"[0;1;34m"[0;36m"[0;1;34mY$[0;36m$$$S@[0;1;34ms[0m

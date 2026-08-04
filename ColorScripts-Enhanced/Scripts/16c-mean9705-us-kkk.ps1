@@ -1,18 +1,4 @@
-﻿# Converted from: US-KKK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mean9705/raw/US-KKK.ANS
-# Source Revision: archive-sha256:96235d9849bffd6005b05e894c29f6b67b3d4c051090948bf653b689870cae3a
-# Source SHA-256: 8bc111dc6d71a185452302f96b58654efcc78531783831b2950e11ea40a2e6d4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-KKK.ANS by Nail + Kyp (mean scheme); released in mean9705 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: kafkaesk
-# SAUCE Author: kyp / nail
-# SAUCE Group: mean scheme
-# SAUCE Date: 19970329
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: kafkaesk by Nail + Kyp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mean9705-us-kkk
 
 Write-Host '
 [1;30mkyp+nail[0m    [1;30m▄▀[0m    [1;30m▌[0m ▐[1;47m▀▀[0;1;40m██████[0;1;47m▓░░[0m██[1;30;47m▓▓▀▀▓█[0;1;30;40m▀▀[0m

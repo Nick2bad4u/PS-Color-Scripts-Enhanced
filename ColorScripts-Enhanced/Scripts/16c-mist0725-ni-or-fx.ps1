@@ -1,20 +1,4 @@
-﻿# Converted from: NI-OR-FX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0725/raw/NI-OR-FX.ANS
-# Source Revision: archive-sha256:f8228caade9b0e4810405349f1959bd68f07890aea1a0d6aaa1eef2a322b5f21
-# Source SHA-256: 19249e7f59d215b18c2a735347add07e858f946b92aba5d311ac81f76f3e8eed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-OR-FX.ANS by Nitron (Mistigris); released in mist0725 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Orion & Felix
-# SAUCE Author: Nitron
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241127
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: My good boys!
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Orion & Felix by Nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0725-ni-or-fx
 
 Write-Host '
   [1m▄▄▄▄▄▄▄▄▄▄[0m▄[1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄▄[1m▄▄▄▄▄▄[0m▄▄[1m▄[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[1m▄[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄

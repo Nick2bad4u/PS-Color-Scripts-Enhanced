@@ -1,18 +1,4 @@
-﻿# Converted from: FX-WZ1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9410/raw/FX-WZ1.ANS
-# Source Revision: archive-sha256:bd859dd294a62200dca01965f176566e1c6690d3dec16fdb5f06c1ef58e2dc4e
-# Source SHA-256: 1506a80ff9759384a26cfac08b4c7e91ee05b70bf0b886d4fb674c04883c0c28
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FX-WZ1.ANS by Facsimile (BLADE); released in blde9410 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Warp Zone
-# SAUCE Author: Facsimile
-# SAUCE Group: BLADE
-# SAUCE Date: 19940926
-# SAUCE Dimensions: 80x226
-# Lines: 47-92
-# Columns: 1-80
+﻿# Artwork: The Warp Zone by Facsimile | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9410-fx-wz1-part02
 
 Write-Host '
 [1;30;40m▒▓▌▒[0m  [1;30;40m▓█▒▌[0m [1;30;40m▒[0m [1;30;40m▒[0m     [1;31;40m▐███████████████[0;1;31;43m█[0;1;31;40m█▄█[0;1;31;43m███████████████████[0;1;31;40m███████▌▐ ██████ [0;1;33;40m█[0;1;33;43m▓▓░ [0m

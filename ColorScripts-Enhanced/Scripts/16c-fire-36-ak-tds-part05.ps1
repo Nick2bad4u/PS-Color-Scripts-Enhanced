@@ -1,19 +1,4 @@
-﻿# Converted from: AK-TDS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-36/raw/AK-TDS.ANS
-# Source Revision: archive-sha256:43e7d46e56dc094cf8502b299dcd82ee875dea0a064a36248f4e6c844180fd25
-# Source SHA-256: 1e0a1de2b470757d04acc0aa8aa3b3ee9b6e467808792f8d45adcd067b0c33d3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-TDS.ANS by abstrakt (fire); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: tds
-# SAUCE Author: abstrakt
-# SAUCE Group: fire
-# SAUCE Date: 20230303
-# SAUCE Dimensions: 80x215
-# SAUCE Font: IBM VGA
-# Lines: 174-215
-# Columns: 1-80
+﻿# Artwork: tds by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-36-ak-tds-part05
 
 Write-Host '
 [35m`^"² ;[0;1;35m$[0;35m¬.    [0;37m┌''   [0;35mj$[0;1;35m$$$$$$$[0;35m$$$`''└*$j$$Ss┐._[0m            [1;30m`''└*/.[0m          [1;30m:$$$$$$$$[0m

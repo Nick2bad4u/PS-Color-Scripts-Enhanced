@@ -1,13 +1,4 @@
-﻿# Converted from: MU-RAGE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r7/raw/MU-RAGE.ANS
-# Source Revision: raw-sha256:72f6930b1e77686eb97eca6b4177bef118466036c297656fbe2539b28ac4537a
-# Source SHA-256: 72f6930b1e77686eb97eca6b4177bef118466036c297656fbe2539b28ac4537a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MU-RAGE.ANS by Mule (afc-r7); released in afc-r7 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 88-108
-# Columns: 1-80
+﻿# Artwork: MU-RAGE.ANS by Mule | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r7-mu-rage-part03
 
 Write-Host '
                     [1;37;47m█▓▒░[0m████[1;30;47m░▒[0m [1;37;47m█▓▒░[0m████[1;30;47m░▒[0m [1;37;47m█▓▒░[0m████[1;30;47m░▒[0m [1;37;47m█▓▒░[0m████[1;30;47m░▒[0m [1;30;40m[[0mM[1;30mULE/[0mA[1;30mFC][0m

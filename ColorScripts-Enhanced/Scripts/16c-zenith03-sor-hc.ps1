@@ -1,18 +1,4 @@
-﻿# Converted from: SOR-HC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zenith03/raw/SOR-HC.ANS
-# Source Revision: archive-sha256:e8b012d9554c8de00edbf4ae4690e8ec101af64bf1491a5f5dd86a06158d71d2
-# Source SHA-256: 2903cb9fc69e4841d5acdd2a3722a8789f1486e879d1f464d29779f2d1a2bfab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SOR-HC.ANS by Spirit of Rage (Zenith); released in zenith03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: High Casualties
-# SAUCE Author: Spirit of Rage
-# SAUCE Group: Zenith
-# SAUCE Date: 19980731
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: High Casualties by Spirit of Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zenith03-sor-hc
 
 Write-Host '
 ░█[1;36;47m▄▄▄▄▄▄▄▄▄ ▄[0m██▓▓██[1;36;47m▄[0m█[1;36;47m▄▄▄▄▄[0m█ [1;31;41m▓▓[0;1;31;40m█[0;1;31;47m█▓▓[0;1;31;40m▒▒ ▒[0;1;31;41m▓▓[0;1;31;40m███[0;1;31;47m▓▓▒▒▓▓▓▓[0;1;31;40m█[0;1;31;41m▀▀▀▀[0;31m▀▀▀▀[0;1;31m ▒▒[0;1;31;41m▒▓[0;1;31;40m█[0;1;31;47m▓▓▓▒▒▒[0;1;31;40m█[0;1;31;41m▓▓▓▓[0;1;31;40m▒▒░[0m

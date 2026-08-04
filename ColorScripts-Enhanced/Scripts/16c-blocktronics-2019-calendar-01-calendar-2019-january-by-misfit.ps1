@@ -1,19 +1,4 @@
-﻿# Converted from: _01_Calendar_2019_January_by_Misfit.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-2019-calendar/raw/_01_Calendar_2019_January_by_Misfit.ans
-# Source Revision: archive-sha256:5dcb03d3562fc71c1bd681e0b01704387df6a6764ee8c64c58f8fc5646036621
-# Source SHA-256: 088d3eb7675cabcd0462f5b5d7d7de56e8f8794ad1fa33b3ad041081686f2057
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _01_Calendar_2019_January_by_Misfit.ans by Misfit (Blocktronics); released in blocktronics-2019-calendar and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: January
-# SAUCE Author: Misfit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20181011
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: January by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-2019-calendar-01-calendar-2019-january-by-misfit
 
 Write-Host '
 [1;36;46m▒▓▓   ▒▒▓▓▓[0;1;36;40m███[0;1;36;46m▓▓[0;1;36;40m██[0;1;36;46m▓[0;1;36;40m█████████[0;36m████[0;1;36;46m▄[0;1;36;40m█▀▀[0;36m    [0;37m [0;36m           [0;1;34m  █    [0;36m           [0;1;36m▀▀▀█[0;1;36;46m▄[0;36m█████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MAIN4GCH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-1196/raw/MAIN4GCH.ANS
-# Source Revision: archive-sha256:6ef6d0fc5e98023ae397158b861ea8c1f97c8bf9ea116a4660fdbca6650c96ff
-# Source SHA-256: d1ea54fc9ea404fa30f977b099fbb43033112d6dfaf11c4960d61f92a730f8ec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MAIN4GCH.ANS by Rimfire (OPX); released in opx-1196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Lethal Minds Main Menu
-# SAUCE Author: Rimfire
-# SAUCE Group: OPX
-# SAUCE Date: 19961103
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Lethal Minds Main Menu by Rimfire | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-1196-main4gch
 
 Write-Host '
 [36m$$$$$$$$$$$$$$$$$7"~ ~"╙4$''[0;35m.sS[0;1;35m7[0;35m"ⁿ[0;1;35m4[0;35ms.[0;37m [0;36m''4$$$$$$$b._[0m

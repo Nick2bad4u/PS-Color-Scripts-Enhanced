@@ -1,18 +1,4 @@
-﻿# Converted from: SMI-SALT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr00x/raw/SMI-SALT.ANS
-# Source Revision: archive-sha256:74ae48edf9bc91704b88625f0cbbf25fff4fb2783052b431c99e65491b984938
-# Source SHA-256: 0033608a14e3066813e2e534f9efd5c5e63f25b8349a5ef16bb48aef3918de80
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMI-SALT.ANS by samurai (function); released in blndr00x and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: salt
-# SAUCE Author: samurai
-# SAUCE Group: function
-# SAUCE Date: 19980804
-# SAUCE Dimensions: 80x121
-# Lines: 39-80
-# Columns: 1-80
+﻿# Artwork: salt by samurai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr00x-smi-salt-part02
 
 Write-Host '
 [1;30m▓▓██[0m▒[1;30;47m▓░[0;1;37;47m [0;1;30;47m▄▓▓[0;1;30;40m▓░[0m  [1;47m░░▒▒▓▓[0m▄[1;30m▀[0;1;32;42m░[0;1;32;40m▒[0;32m▄▄[0;1;30m▄[0m              [1;30m [0;1;32m▒▒[0;32m▀█▓▓░░[0;1;30m▓▓▀▀██[0;1;30;47m█[0;1;30;40m█ [0m  [32m  [0;1;32m ▒[0;1;32;42m▒██████[0;1;32;40m▓[0;32m▀▄▓▓▓▓[0m

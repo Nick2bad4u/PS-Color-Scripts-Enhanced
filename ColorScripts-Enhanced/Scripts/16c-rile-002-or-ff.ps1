@@ -1,18 +1,4 @@
-﻿# Converted from: OR-FF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile_002/raw/OR-FF.ANS
-# Source Revision: archive-sha256:09fff222285c90eb6b714714b4c5e3c96cc514cdf338ccf4e30b5898f9a5a64b
-# Source SHA-256: fd2d7bde80b8a03722e656e6378c058147b27001e1fde7e16dba2cb2e75bb093
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OR-FF.ANS by outraider (rile); released in rile_002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: funfair
-# SAUCE Author: outraider
-# SAUCE Group: rile
-# SAUCE Date: 19970304
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: funfair by outraider | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile-002-or-ff
 
 Write-Host '
 [36m█[0;1;36;46m░░░[0;36m█[0;34;46m ░[0;36;44m▓[0;36;40m█[0;1;36;46m░░▀▀░[0;36m████[0;34;46m░[0;36;44m▓[0;34;46m░▄▄▄[0;36;40m▀▀[0;34;40m▀▀[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0m                  [31;40m   ░[0;30;41m▓░[0;31;40m▓[0;30;41m░[0;31;40m██[0;1;31;41m░░▓▓██[0;1;31;47m▀▓▓▀▀[0;1;31;41m██▌[0;30;46m▓▓[0m

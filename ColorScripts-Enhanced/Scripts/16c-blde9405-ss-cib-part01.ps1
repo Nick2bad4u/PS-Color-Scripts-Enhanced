@@ -1,13 +1,4 @@
-﻿# Converted from: SS-CIB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9405/raw/SS-CIB.ANS
-# Source Revision: archive-sha256:1a80748d26b1608956e62981097747a5f5037b77df31445dba1dcac7e173021c
-# Source SHA-256: 658c926b5754f28a80efa1120f8c66e7d338cb1c191a68405b78e19f1cf817ed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SS-CIB.ANS by Soul Seeker (blde9405); released in blde9405 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: SS-CIB.ANS by Soul Seeker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9405-ss-cib-part01
 
 Write-Host '
           [1m▄▄▄▀▀▀▀▀▀▀▀▀▀▄▄▄ [0;1;30m────────────────────────────────────────────────────[0m

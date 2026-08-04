@@ -1,18 +1,4 @@
-﻿# Converted from: US-GSTON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/kibosh01/raw/US-GSTON.ANS
-# Source Revision: archive-sha256:8d1a88fa61503d65c439ad29bf67d0608682b94cf1606253ca8fc6eb534b89d8
-# Source SHA-256: fce8373f5abbb615ae103a28b56f36abe761a8c17e4f7f715894606c8041b503
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GSTON.ANS by Dyingsoul + Cyberphreak + Colloss (kibosh); released in kibosh01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Gaston!
-# SAUCE Author: cp / ds / cLs
-# SAUCE Group: kibosh
-# SAUCE Date: 19990329
-# SAUCE Dimensions: 80x70
-# Lines: 43-70
-# Columns: 1-80
+﻿# Artwork: Gaston! by Dyingsoul + Cyberphreak + Colloss | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-kibosh01-us-gston-part02
 
 Write-Host '
                                    [1;36m ▀[0m

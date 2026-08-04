@@ -1,13 +1,4 @@
-﻿# Converted from: ROY-5YMS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roy-stuf/raw/ROY-5YMS.ANS
-# Source Revision: archive-sha256:1f203f95f339c258e43a9098f8d2e689ed73de537b1cfe6bea312dfc156f1358
-# Source SHA-256: 7bee02e3d92f4b554950c3dc93c5cc2023d3941cd69c72522a63ec3c593f0800
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ROY-5YMS.ANS by Roy (roy-stuf); released in roy-stuf and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: ROY-5YMS.ANS by Roy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roy-stuf-roy-5yms
 
 Write-Host '
 

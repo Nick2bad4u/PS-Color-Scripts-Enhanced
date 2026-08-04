@@ -1,18 +1,4 @@
-﻿# Converted from: BW_NOIR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/noir0997/raw/BW_NOIR.ANS
-# Source Revision: archive-sha256:ac4316ff36a9df882fd888cca50238dc81152ff454dd21b4b6a2aa5485f47e6f
-# Source SHA-256: e8ee68f673b3b65bdc4503919a54f1e93bf0c32acb10d34b32821017b6a2c9d0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BW_NOIR.ANS by black weasel (BOIL & NOIR); released in noir0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: legal sukking
-# SAUCE Author: black weasel
-# SAUCE Group: BOIL & NOIR
-# SAUCE Date: 19970909
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: legal sukking by black weasel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-noir0997-bw-noir
 
 Write-Host '
 [31m           █[0;1;31;41m▀▀[0;1;31;47m▓▓▓█[0;41m▄[0;1;41m▄[0;31m███████ [0;34m [0;31m [0;1;31;41m▀[0;1;31;47m▓░░[0;1;37;47m░░[0;1;31;47m▄[0;1;31;41m▓░[0;33;41m░▓▓█[0;1;33;43m▀▐[0;1;37;43m███[0;1;33;43m█▓░[0;33;41m█▓[0m                [31;40m▄▌ [0m

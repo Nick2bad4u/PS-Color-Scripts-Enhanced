@@ -1,19 +1,4 @@
-﻿# Converted from: N-STAYOT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/N-STAYOT.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: 18f4473f32b7bae370de22bed05e66ed5d9acee702feb254fe11e8d5c3d8f638
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-STAYOT.ANS by nail (blocktronics); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: stay over there
-# SAUCE Author: nail
-# SAUCE Group: blocktronics
-# SAUCE Date: 20200722
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: stay over there by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-n-stayot
 
 Write-Host '
           [1;30;40m [0m [1;30m▄ [0m                       [1;30m▄▄▄▄▄▄[0m                [31m▄▄▄[0;37m   [0;31m  ▐▌[0m

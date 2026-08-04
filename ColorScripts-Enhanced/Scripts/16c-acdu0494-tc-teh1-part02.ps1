@@ -1,18 +1,4 @@
-﻿# Converted from: TC-TEH1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0494/raw/TC-TEH1.ANS
-# Source Revision: archive-sha256:cda9410890e0ae8f5b3a1e8c7fce4e1b3de00d8e334ef300576869cead7a6b53
-# Source SHA-256: 305dc32779d08f20d8768d1e00ae5495a792545770725f6b5ef45902530c2425
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TC-TEH1.ANS by The Clone (ACiD Productions); released in acdu0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Eleventh Hour
-# SAUCE Author: The Clone
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940331
-# SAUCE Dimensions: 80x149
-# Lines: 51-99
-# Columns: 1-80
+﻿# Artwork: The Eleventh Hour by The Clone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0494-tc-teh1-part02
 
 Write-Host '
 [33m▒▓▓▄ [0;1;30m░  ░▀▀▒░ [0;33m▐▓▒░ ░▒▓█   [0;1;30m░▒▒[0;35m▄ [0;1;30m░░▒▓[0;1;35m▀[0;1;35;45m▓▒[0;35m▄[0;33m▀▌[0;1;31;43m░[0m [33m▀▄▀[0;1;31;43m▒[0;33m▀ [0;1;31m▄▌▐[0;1;31;43m▓[0;1;31m▌▐▌[0;1;31;43m▓[0;1;35m▐[0;1;35;45m▒▓▓▓▒[0;1;30m░[0;35m▐[0;1;30;45m▒[0;35m▌[0;1;30m░[0;1;35;45m▓▓[0;1;35m▀▀[0;1;30m░▒▄▄[0;1;30;45m▓▒░[0m

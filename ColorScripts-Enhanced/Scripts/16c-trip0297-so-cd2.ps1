@@ -1,18 +1,4 @@
-﻿# Converted from: SO-CD2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/trip0297/raw/SO-CD2.ANS
-# Source Revision: archive-sha256:3315e4ec7736887989951e067242a6db29d5b6a5bb4ab8f07eec71fbf5276280
-# Source SHA-256: 640ab31f19f1008cbfb45bb5d5adae0ba25d1e2de0b70e2b0cf4dbe85caabc15
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SO-CD2.ANS by Soopaphunky (trippin); released in trip0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Smoooooooooooveeee.....
-# SAUCE Author: Soopaphunky
-# SAUCE Group: trippin
-# SAUCE Date: 19970122
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Smoooooooooooveeee..... by Soopaphunky | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-trip0297-so-cd2
 
 Write-Host '
 [1;34m            [0;1;37m [0m ▄[1m▄█████████▄ [0;1;34m                                           [0;33m ███[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: TT-MERC2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-09/raw/TT-MERC2.ICE
-# Source Revision: archive-sha256:1fcbf4aa1710b0a53349a8ea40276f5225ba911f5e9d163ab7e96a35bbed2cd0
-# Source SHA-256: 0ebb886cc51f2f2939de041ba3fc26985d758aee9d29c3c465d7b61bacd1f536
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TT-MERC2.ICE by Tempus Thales (icepk-09); released in icepk-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: TT-MERC2.ICE by Tempus Thales | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-09-tt-merc2-part01
 
 Write-Host '
                                   [1m▄▄▄█▄▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PC-MESS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/trans03/raw/PC-MESS.ANS
-# Source Revision: archive-sha256:462ee1fa63e815fd54ca0469a616b314248ef7425a3668e2379cc1737c2b5402
-# Source SHA-256: 6fb502a0d050d8f837d61c5f5d09c5ec22872c51384d1a29755ddfd06ef559a4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-MESS.ANS by Proctologist (Transmission); released in trans03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: i'm tired...
-# SAUCE Author: Proctologist
-# SAUCE Group: Transmission
-# SAUCE Date: 19971009
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: i'm tired... by Proctologist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-trans03-pc-mess
 
 Write-Host '
 [1;30m$$$$ [0;1;34m$$$$$$$$$$$[0;34m$[0;1;34m$$[0;34m$[0;1;34m$[0;30;44m$[0;34;40m$$$$[0;1;34;40m$[0;30;44m$[0;34;40m$$Pⁿ`[0;37;40m [0;31;40m_,s[0;1;31;40m$ⁿ[0;1;30;40m [0;36m_,s$b,[0;1;30m [0;1;31m`?[0;30;41mb[0;31;40m,[0;1;30;40m [0;34m`.[0;1;30m`?$$$$$ⁿⁿⁿⁿⁿⁿⁿⁿⁿⁿ$$$$$P'' [0;1;34m,[0m

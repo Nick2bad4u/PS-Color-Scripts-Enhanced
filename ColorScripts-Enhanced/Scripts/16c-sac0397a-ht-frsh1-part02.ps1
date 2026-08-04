@@ -1,17 +1,4 @@
-﻿# Converted from: HT-FRSH1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0397a/raw/HT-FRSH1.ANS
-# Source Revision: archive-sha256:a5643402b7470fb900b36daeccc6ebdbb3a700bc372f618742377039777fc87e
-# Source SHA-256: 1548090db7b0b2a3c9aebf7b4d5a327fa74144c94f79fde0bfbe83032cd23a39
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HT-FRSH1.ANS by hetero; released in sac0397a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fresh BBS
-# SAUCE Author: Hetero
-# SAUCE Group: Lkcc~Sac~Dynasty
-# SAUCE Dimensions: 80x25
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Fresh BBS by hetero | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0397a-ht-frsh1-part02
 
 Write-Host '
 [1;31;40m███ [0;1;37;40m███ [0;1;34;40m██████████ [0;33m██ [0;1;34m███ [0;34m██ [0;1;31m█████[0;1;31;43m▓▓[0m [34m█ [0;1;34m███ [0;33m██[0;1;34m▐ [0;33m█[0;1;37m███████████▄█████▄[0;33m▀[0;1;37;43m▀█[0;1;37;40m████████▀▀[0m

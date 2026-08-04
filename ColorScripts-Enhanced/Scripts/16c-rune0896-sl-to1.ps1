@@ -1,18 +1,4 @@
-﻿# Converted from: SL-TO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rune0896/raw/SL-TO1.ANS
-# Source Revision: archive-sha256:a41a6fd18e5a57ea19659d03cc5ff527cec9b4701f346aaff2f3d3658fc2ad09
-# Source SHA-256: 4b46ca4834ef92bc39906e06ddad1014086193d06da8ba7fdb96f5ed8a16d237
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SL-TO1.ANS by sinful! (rune!); released in rune0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: total ad!
-# SAUCE Author: sinful!
-# SAUCE Group: rune!
-# SAUCE Date: 19960711
-# SAUCE Dimensions: 80x30
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: total ad! by sinful! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rune0896-sl-to1
 
 Write-Host '
 [1;47m█▀▀▀▀▀ ▀▀▀[0;1;40m▀▀[0m▀▀[1m▀[0m [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m [1;30m▀▀▀▀▀█[0;1;30;47m▒░[0m██████████[1;30;47m▀ [0m█[1;30;47m▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀[0;1;30;40m▓[0m

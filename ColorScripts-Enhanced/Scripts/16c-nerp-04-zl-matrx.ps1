@@ -1,13 +1,4 @@
-﻿# Converted from: ZL-MATRX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-04/raw/ZL-MATRX.ANS
-# Source Revision: archive-sha256:d99c3d6576b4ffe30ad10598ac465177e9b6d171d7a6c4fd056707ad27adce95
-# Source SHA-256: c9164529c080a2f48f706a4883e25db32dfdc30a84782a0357ddd0ac6c906459
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZL-MATRX.ANS by Zalt (nerp-04); released in nerp-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: ZL-MATRX.ANS by Zalt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-04-zl-matrx
 
 Write-Host '
 [1mzalt[0;36m([0;1;32mawe[0;36m)                        ▄▄[0;1;30m▄[0;35m  ▄▄[0;1;30m▄  [0;36m▄▄▄[0;1;30m▄[0;36m     [0;37m                           [0m

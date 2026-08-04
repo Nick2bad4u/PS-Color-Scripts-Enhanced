@@ -1,13 +1,4 @@
-﻿# Converted from: US-HANG0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr019/raw/US-HANG0.ANS
-# Source Revision: archive-sha256:ad90ded7200a58bab801f751fabe1211ce5c038aeaa3a5fcedbee3c905282a6d
-# Source SHA-256: f56af7fb151770f1ec114208feffedea79fb4bd23cd8ff1090555c21cc3150c3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-HANG0.ANS by Warpus + Hennifer (blndr019); released in blndr019 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: US-HANG0.ANS by Warpus + Hennifer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr019-us-hang0
 
 Write-Host '
         [31m ▄▄[0;37m [0;1;37;42m██[0;1;32;47m▓▓██[0;1;32;42m██▒  [0;32m▄▄▄▄▄▄▄▄▄[0;1;31m▄▄[0;32m▄▄[0;1;30;42m▒▒▀▀[0;1;30;40m▀▀[0;32m▀▀ [0;37m  [0m      [37m   [0;1;37m▄[0m

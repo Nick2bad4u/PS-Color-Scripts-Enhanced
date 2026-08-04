@@ -1,18 +1,4 @@
-﻿# Converted from: LST-DT3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_09/raw/LST-DT3.ANS
-# Source Revision: archive-sha256:c5cd33a328263069da0cd19f0b3fe2e4d6f041d2250819ad0b16ea4737718456
-# Source SHA-256: a10d385fbb8a7a54c0e436209d6e23312ae681d0a14499d7e0817434496f3266
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LST-DT3.ANS by soul trader (dox!productions); released in dox_09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: death trap header
-# SAUCE Author: soul trader
-# SAUCE Group: dox!productions
-# SAUCE Date: 19970504
-# SAUCE Dimensions: 80x6
-# Lines: 1-6
-# Columns: 1-80
+﻿# Artwork: death trap header by soul trader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-09-lst-dt3
 
 Write-Host '
                  [34m▄▄▄▄▄[0m           [34m▄▄▄▄▄[0m

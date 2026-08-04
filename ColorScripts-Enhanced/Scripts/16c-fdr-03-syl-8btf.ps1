@@ -1,13 +1,4 @@
-﻿# Converted from: SYL-8BTF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fdr-03/raw/SYL-8BTF.ANS
-# Source Revision: archive-sha256:cac34a6b7c47c076c878193a4da01da4f38b7c8e471d7a9bf4b3a7850655fb5e
-# Source SHA-256: cddd3a6bf736bc0ccd5325fc3eb1462101a2f162962d436311b120b5013fd8cb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SYL-8BTF.ANS by Sylvao (fdr-03); released in fdr-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: SYL-8BTF.ANS by Sylvao | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fdr-03-syl-8btf
 
 Write-Host '
 [31m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓██████████████████████████[0;1;31;41m░░░░░░░░░░░[0m

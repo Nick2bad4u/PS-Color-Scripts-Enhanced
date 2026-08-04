@@ -1,19 +1,4 @@
-﻿# Converted from: fi-plate.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amish-rumspringa/raw/fi-plate.ans
-# Source Revision: archive-sha256:710f00c8e218c58e7f7c9fe172cb22279b1ebbb4b713832762c12e983eb7ac2d
-# Source SHA-256: b2b88244bfd4e1a955efb72895f5f0810402b1a4cd99ce2b512767506c9b4615
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: fi-plate.ans by filth '94 (AMiSH); released in amish-rumspringa and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: old school filth I
-# SAUCE Author: filth '94
-# SAUCE Group: AMiSH
-# SAUCE Date: 19970224
-# SAUCE Dimensions: 80x80
-# SAUCE Font: IBM VGA
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: old school filth I by filth '94 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amish-rumspringa-fi-plate-part01
 
 Write-Host '
            [33;40m▀ [0;1;33;41m█▒░[0;1;33;40m▀   ▄██▀ [0;1;31;40m▄▄▄▄▄▄▄▄    ▄▄[0m            [1;33m▀[0;1;33;41m▒▓[0;1;33;40m█    ▀█[0m

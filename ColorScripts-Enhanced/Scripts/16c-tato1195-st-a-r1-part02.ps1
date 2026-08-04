@@ -1,17 +1,4 @@
-﻿# Converted from: ST!A&R1!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tato1195/raw/ST!A%26R1!.ANS
-# Source Revision: archive-sha256:f333614a4cb8ea014d89f3f61d43ca62d476aeb093fb4271fc5458c44493defa
-# Source SHA-256: 06bd7df72f66d4574a5468dc743983db2606a2b6be4c2b54e77b227cc34423b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST!A&R1!.ANS by The STiNGeR (tato1195); released in tato1195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Age Of Rage
-# SAUCE Author: The STiNGeR
-# SAUCE Date: 19951124
-# SAUCE Dimensions: 80x89
-# Lines: 49-89
-# Columns: 1-80
+﻿# Artwork: Age Of Rage by The STiNGeR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tato1195-st-a-r1-part02
 
 Write-Host '
 [1;30m▓[0m                                                                              [1;30m▓[0m

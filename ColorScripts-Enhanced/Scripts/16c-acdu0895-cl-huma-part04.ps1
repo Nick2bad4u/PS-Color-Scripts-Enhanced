@@ -1,18 +1,4 @@
-﻿# Converted from: CL-HUMA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0895/raw/CL-HUMA.ANS
-# Source Revision: archive-sha256:3becf3c2c00dadeb41257fa85bb842a48deb8515cdc494db0d9ff697d2e04d12
-# Source SHA-256: 7453ec7b541c944604ad8b8cb905863ae0bccd0abb38ab960b1304aece08bd79
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL-HUMA.ANS by Crime Lord (ACiD Productions); released in acdu0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Huma
-# SAUCE Author: Crime Lord
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950801
-# SAUCE Dimensions: 80x160
-# Lines: 123-160
-# Columns: 1-80
+﻿# Artwork: Huma by Crime Lord | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0895-cl-huma-part04
 
 Write-Host '
 [1;30m███████████████████████████████████████████████████████████████████████████████[0m

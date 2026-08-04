@@ -1,18 +1,4 @@
-﻿# Converted from: GYC2PAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tk-ansi/raw/GYC2PAS.ANS
-# Source Revision: archive-sha256:7a6e15a450305cb977de0a4eb06cf4ca525baa4933c9f7af1cf6080dced8bf2d
-# Source SHA-256: aff52d4519b0c2a63fb081256ea89a7c1b1db82004021b06e7c289ef77b61994
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GYC2PAS.ANS by Tank (tk-ansi); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Graveyard Crew
-# SAUCE Author: Tank
-# SAUCE Date: 19911229
-# SAUCE Dimensions: 80x24
-# SAUCE Comments: This was my group of HS friends in Spring Texas. We were 31337!
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: The Graveyard Crew by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tk-ansi-gyc2pas
 
 Write-Host '
          [32m▄▄▄[0;1;32;42m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;32m▄▄  ▄▄[0;1;32;42m▄▄▄▄▄[0;30;42m▀[0m        [30;42m▀▀[0;1;32;42m▄▄▄▄▄▄[0;30;42m▀[0m   [30;42m▀▀▀[0;1;32;42m▄▄▄▄▄▄▄▄▄▄▄▄▄[0;30;42m▀▀[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US-DEVIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p12_01/raw/US-DEVIL.ANS
-# Source Revision: archive-sha256:678c9348e291c059a717bb7990ccaffc699e8a46d4f8d71e273fe24e3b605bbc
-# Source SHA-256: 44cba2e95e5e549a25d3f629b39cfb15923592f8c4e2ed1ea7d35c334670c6b8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DEVIL.ANS by Simonking + Slackzor (thelo0p); released in l0p12_01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: devil
-# SAUCE Author: slackzor^simonking
-# SAUCE Group: thelo0p
-# SAUCE Date: 20010909
-# SAUCE Dimensions: 80x47
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: devil by Simonking + Slackzor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p12-01-us-devil
 
 Write-Host '
 [1;36;46m                                                         [0;36m████[0;1;37;46m                [0;1;36;46m   [0m

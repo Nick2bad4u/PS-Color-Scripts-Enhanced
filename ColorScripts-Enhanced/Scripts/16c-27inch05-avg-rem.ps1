@@ -1,13 +1,4 @@
-﻿# Converted from: AVG-REM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch05/raw/AVG-REM.ANS
-# Source Revision: archive-sha256:db9b1206c71a7c1f69d77bcc2ffae6377c5089e3db6c19d34216df53e4012ff2
-# Source SHA-256: e8c1f56efbc8ba0983c37bcbd7f8c6aa9e8275f196d5966866f42bad183dcedc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-REM.ANS by Avenging Angel (27inch05); released in 27inch05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: AVG-REM.ANS by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch05-avg-rem
 
 Write-Host '
 [1;30;47m█▓▓▓[0;1;30;40m▄[0;1;30;47m██[0;1;30;40m▀[0m  [1;30m▄[0m▄[1;30;47m▀[0m██▒ [36m▀[0;1;36m▀[0m   [36m  [0;37m  [0;1;30m▀[0;1;30;47m█▀[0m▄▄[1;30m▄[0m  [1;30m▒[0;1;30;47m██▒ [0m█[1;47m▄████▒[0;1;30;47m█[0;1;30;40m▓[0m    [36m▄[0;1;36m▄[0;36m▄[0;37m [0;1;30;47m█[0m█[1;47m▓██▄[0;1;30;47m▀[0m▄▄[1;30m▄[0;36m▀[0;1;36m▀[0m   [1;30m▓[0;1;30;47m▄[0;1;37;47m██████▒[0m

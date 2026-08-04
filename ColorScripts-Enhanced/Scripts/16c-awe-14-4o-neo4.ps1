@@ -1,17 +1,4 @@
-﻿# Converted from: 4O-NEO4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-14/raw/4O-NEO4.ANS
-# Source Revision: archive-sha256:21c28d2dde738f9d23fc96c444edc6890afcd7e03360cdb363478f356a32f6cd
-# Source SHA-256: b035eeb648b45e8c8738573f10b708cdc1e7d47cbd9f231cfe9bb7f2fa3f857a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 4O-NEO4.ANS by Mr4tune (AWE Lettering); released in awe-14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Neosporin
-# SAUCE Author: Mr4tune
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Neosporin by Mr4tune | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-14-4o-neo4
 
 Write-Host '
                                          [1;31m [0m

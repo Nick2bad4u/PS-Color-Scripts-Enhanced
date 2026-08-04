@@ -1,18 +1,4 @@
-﻿# Converted from: SMP-LP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-19/raw/SMP-LP.ANS
-# Source Revision: archive-sha256:db429aaaa9cca2e4296dcb178b9b345b980b5c7d6fe930188ea53fede20ed269
-# Source SHA-256: 13308475afb93c5225cd4ab5e243c065dfbd0e33b08c98061ffa2073c1241a86
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-LP.ANS by Shrimp (AWE Lettering); released in awe-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Lost Paradize
-# SAUCE Author: Shrimp
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981114
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Lost Paradize by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-19-smp-lp
 
 Write-Host '
 shrimp[1mawe[0m                           [35m [0m                         [35m░[0;37m [0;35m░[0;1;35;45m▓[0;35m▌[0m

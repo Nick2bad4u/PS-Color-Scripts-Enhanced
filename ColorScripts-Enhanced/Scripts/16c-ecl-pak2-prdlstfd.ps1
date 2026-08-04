@@ -1,18 +1,4 @@
-﻿# Converted from: PRDLSTFD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak2/raw/PRDLSTFD.ANS
-# Source Revision: archive-sha256:c83fd66fd5682c2a8b3a34174fe62c7584ac006f8517d86002eef3fdd8671285
-# Source SHA-256: 9a95203dd79a5553c4269ac910d08be963a69173efb98d5a57a56ef863a59521
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PRDLSTFD.ANS by President + Delusion (ecolove^fade); released in ecl-pak2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the first degree logo
-# SAUCE Author: president & delusion
-# SAUCE Group: ecolove^fade
-# SAUCE Date: 19971223
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: the first degree logo by President + Delusion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak2-prdlstfd
 
 Write-Host '
                                                          [1;34m▄▄▄[0;1;34;44m░█[0;1;34;47m▓[0;1;34;40m▀▀[0m

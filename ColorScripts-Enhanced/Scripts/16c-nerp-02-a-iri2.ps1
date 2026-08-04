@@ -1,18 +1,4 @@
-﻿# Converted from: A-IRI2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-02/raw/A-IRI2.ANS
-# Source Revision: archive-sha256:3fd9f194d865cfc24c90bdf11a27528d8d82a8ba9c376ebed567183a2f95a9f3
-# Source SHA-256: ef2fa12735bb58963917f7d7dba93bf7e140c30a4545ada5d3a0b84433b58d66
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: A-IRI2.ANS by alecs (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: iridium - login
-# SAUCE Author: alecs
-# SAUCE Group: nerp
-# SAUCE Date: 19971104
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: iridium - login by alecs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-02-a-iri2
 
 Write-Host '
 

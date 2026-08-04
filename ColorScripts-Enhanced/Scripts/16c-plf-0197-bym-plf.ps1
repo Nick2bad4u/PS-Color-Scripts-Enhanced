@@ -1,18 +1,4 @@
-﻿# Converted from: BYM%PLF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf_0197/raw/BYM%25PLF.ANS
-# Source Revision: archive-sha256:0bef4e77d7c82c5af473f1433a65595e61d3227bf5a97a1733bde8181e32b843
-# Source SHA-256: 20a47f9c59536c77335acba5d79707796541454be6d5926fa9da98a5d059b754
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM%PLF.ANS by big yellow man (gummiboll.art); released in plf_0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: sun and water
-# SAUCE Author: big yellow man
-# SAUCE Group: gummiboll.art
-# SAUCE Date: 19970202
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: sun and water by big yellow man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0197-bym-plf
 
 Write-Host '
                                    [1;33m█[0m

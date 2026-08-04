@@ -1,18 +1,4 @@
-﻿# Converted from: ROY-500N.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roy-stuf/raw/ROY-500N.ANS
-# Source Revision: archive-sha256:1f203f95f339c258e43a9098f8d2e689ed73de537b1cfe6bea312dfc156f1358
-# Source SHA-256: 278fa5e2c20fbd3f7bc6446834dc12b0edb2c362f365a5632a8e35a47d3fab08
-# Source License: FAL-1.3
-# Source Attribution: ROY-500N.ANS by Roy/SAC aka Carsten Cumbrowski; released in roy-stuf and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
-# SAUCE Title: 500 Nations
-# SAUCE Author: ROY
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950218
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: 500 Nations by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-500n
 
 Write-Host '
                           [1;30m▒   ▄[0m       [1;30m▄[0m     [1;30m▄  ░[0m            [31m░    [0;1;30m▄[0m

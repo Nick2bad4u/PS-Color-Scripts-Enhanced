@@ -1,18 +1,4 @@
-﻿# Converted from: ST-7TH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0996/raw/ST-7TH.ANS
-# Source Revision: archive-sha256:28df6d6ebb426351f7b23fe6f583a998e03c4447a46d1ae63d7f7aa63a80eb5d
-# Source SHA-256: d8435bdac046f9433fb7d58da9d7a092d146d5656e78dbf53ce2816df6ac9d25
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-7TH.ANS by spAt (eclipse); released in acdu0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the 20th seal
-# SAUCE Author: spAt
-# SAUCE Group: eclipse
-# SAUCE Date: 19960830
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: the 20th seal by spAt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0996-st-7th
 
 Write-Host '
                       [34m▄▄▄▄▄▄▄▄[0m

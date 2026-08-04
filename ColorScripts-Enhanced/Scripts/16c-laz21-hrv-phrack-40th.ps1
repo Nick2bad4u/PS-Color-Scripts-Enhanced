@@ -1,20 +1,4 @@
-﻿# Converted from: HRV_PHRACK_40th.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz21/raw/HRV_PHRACK_40th.ans
-# Source Revision: archive-sha256:daa0e008ccfccc8179e0635097f8fe4a46a32781b45bbd86ff6e4505514c9e6d
-# Source SHA-256: c65ef1aabfd19b6d2b139f072ae84c381e3849277f99e327e9f97a267eb28fe9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HRV_PHRACK_40th.ans by harvest (Lazarus); released in laz21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Phrack 40th Anniversary
-# SAUCE Author: harvest
-# SAUCE Group: Lazarus
-# SAUCE Date: 20250630
-# SAUCE Dimensions: 73x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: My humble submission to the call for art on the Phrack #72 Editi | on, celabration their 40th Anniversary - Crongratulations people | keep on phracking! -- HRV^LAZ | 2025.06.03
-# Lines: 1-25
-# Columns: 1-73
+﻿# Artwork: Phrack 40th Anniversary by harvest | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz21-hrv-phrack-40th
 
 Write-Host '
 [36m∙[0;37m         [0;34m01110000 01101000 01110010 01100001 01100011 01101011[0m

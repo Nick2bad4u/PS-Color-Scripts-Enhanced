@@ -1,17 +1,4 @@
-﻿# Converted from: rl-inmz.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gen-03/raw/rl-inmz.ans
-# Source Revision: archive-sha256:2ac761e3083f46d5d584973ff5d98c7259cd9fd4cee70395df0609588a554c09
-# Source SHA-256: 350fe9eb8f0f02147000195746ee34f6dd78a06d10621c824eaff73131260a26
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: rl-inmz.ans by rawlock (gen-03); released in gen-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: inmz0r
-# SAUCE Author: rawlock
-# SAUCE Date: 19990202
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: inmz0r by rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gen-03-rl-inmz
 
 Write-Host '
                   [1;34m [0;34m▄[0m

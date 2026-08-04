@@ -1,13 +1,4 @@
-﻿# Converted from: SK!BAFH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bafh-pack5/raw/SK!BAFH.ANS
-# Source Revision: archive-sha256:f6ffd5d60c996e02e8fb877cf3a2f1c62a6faf406b40b5531913c875caf43a2d
-# Source SHA-256: a11eb90cfaabc496fd3906039cce48b93d52b54d331df85a595d4e73130910f3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!BAFH.ANS by Simonking (bafh-pack5); released in bafh-pack5 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: SK!BAFH.ANS by Simonking | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bafh-pack5-sk-bafh
 
 Write-Host '
                                      [31m▄[0;1;33m  [0;31m▄[0m    [1;33m [0m

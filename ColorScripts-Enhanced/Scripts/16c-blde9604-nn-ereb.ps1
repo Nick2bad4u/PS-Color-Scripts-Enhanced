@@ -1,18 +1,4 @@
-﻿# Converted from: NN-EREB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9604/raw/NN-EREB.ANS
-# Source Revision: archive-sha256:c9d341fbab42005be8369b5b74c082e1beaf2773cdcff315b890579fc5c3d129
-# Source SHA-256: e7d86061d82e4239e0ef3dc698937cd8f649bcaec4a2e9f2128f285618496798
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NN-EREB.ANS by neo negro (blade); released in blde9604 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: erebus!
-# SAUCE Author: neo negro
-# SAUCE Group: blade
-# SAUCE Date: 19960320
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: erebus! by neo negro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9604-nn-ereb
 
 Write-Host '
 [1;33m████████▀▀█████[0;1;33;47m▓[0;1;33m░[0m               [36m░[0;35m▄    [0;1;31m░░░[0m             [36m░[0;35m▄[0m          ▄░ ░▄▄░ [1m░[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: jn-konam.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic59/raw/jn-konam.ans
-# Source Revision: archive-sha256:72ea6eb47fecdf0981d4f90bfdc989ed3b77cc406dca2a483bf0dbbcd230e12d
-# Source SHA-256: d09e5bda519ae5c5533e59f4a1c1397bc5cfb786c01646a238929947276aa147
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: jn-konam.ans by Jashiin (Mimic Productions); released in mimic59 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: Jashiin
-# SAUCE Group: Mimic Productions
-# SAUCE Date: 20030511
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: jn-konam.ans by Jashiin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic59-jn-konam
 
 Write-Host '
                                                [1;37m$$[0m  [1;37m$$[0m

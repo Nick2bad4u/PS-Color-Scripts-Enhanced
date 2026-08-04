@@ -1,18 +1,4 @@
-﻿# Converted from: MG-PR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0495/raw/MG-PR.ANS
-# Source Revision: archive-sha256:5c1b487f172d9b21547c289d0c6d77076f08925ed05d67b00c73baffeedf66f4
-# Source SHA-256: 207ac5a0887ae7d64a54518c2df2808cb2082c1f86cafc6869dc7c1bb56289ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MG-PR.ANS by Magnus (READ THE INI FILE); released in uni-0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Packaged Rebellion
-# SAUCE Author: Magnus
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950403
-# SAUCE Dimensions: 80x25
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: Packaged Rebellion by Magnus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0495-mg-pr-part01
 
 Write-Host '
 [1;30m█▀[0;35m▀[0;1;30m▀▀[0;35m▀[0;1;31m▀[0;35m▀[0;1;30m▀[0;35m▀[0;1;31m▀[0;35m▀[0;1;31m▀▀[0;35m▀[0;1;30m▀[0;35m▀▀[0;1;31m▀▀[0;35m▀[0;1;30m▀[0;35m▀▀[0;1;30m▀▀[0;35m▀▀[0;1;30m▀▀[0;35m▀[0;1;30m▀▀[0;35m▀[0;1;30m▀▀▀▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m

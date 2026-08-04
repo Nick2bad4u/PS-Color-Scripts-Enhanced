@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-NECK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0222/raw/ZII-NECK.ANS
-# Source Revision: archive-sha256:298b44b8b7049e43debc6d372a2843121b005521ff5ef92f5442efdcf0a21843
-# Source SHA-256: ae14aac740ee1c3006eddd3c64d1b54a0b09dea567a3dcb5c510a43281c587bd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-NECK.ANS by Zeus II (Mistigris); released in mist0222 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ROUGH NECK
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20211118
-# SAUCE Dimensions: 80x200
-# SAUCE Font: IBM VGA
-# Lines: 97-143
-# Columns: 1-80
+﻿# Artwork: ROUGH NECK by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0222-zii-neck-part03
 
 Write-Host '
 [1;37;44m  [0;34m█[0;37m  [0;1;31;43m   [0;33m▓▓[0;1;31m [0;31m█▀[0;1;31m  [0;1;31;43m▓▓▓▓▓▓▓▓▓▓[0;1;31;40m█████[0;1;31;43m▓▒▒▒▒▒▒▒▓▓[0;1;31;40m█[0m  [34m█[0;1;34;44m▒[0;1;37;44m▐██▌[0;1;34;44m▒▒[0;34m█▀[0;37m  [0;33m▄▄[0;37m      [0;33m▄▄[0;1;31;43m▄▄▄▄[0;33m▄▄▄█[0;1;31;43m░░░░▄[0;33m▄▄[0m

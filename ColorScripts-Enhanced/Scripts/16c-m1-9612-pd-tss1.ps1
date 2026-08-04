@@ -1,17 +1,4 @@
-﻿# Converted from: PD-TSS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m1-9612/raw/PD-TSS1.ANS
-# Source Revision: archive-sha256:3345b8669e1e5395f00119c0204de5931cc61e1b206afc14cb4b582ca2764c50
-# Source SHA-256: 8124a1c31f95959c1b158bcb69ddbb27cc670f7477b50ca5a212e95c0cf469b2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PD-TSS1.ANS by Paradox (Maiten1); released in m1-9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Spiral Staircase
-# SAUCE Author: Paradox
-# SAUCE Group: Maiten1
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: The Spiral Staircase by Paradox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m1-9612-pd-tss1
 
 Write-Host '
 [1;46m [0;1;36;46m [0m                  [1;36;40m  [0;36m [0;1;34m [0;1;35m  [0;35m     [0;1;32m  [0;32m       [0m                 [32m  ▀[0m

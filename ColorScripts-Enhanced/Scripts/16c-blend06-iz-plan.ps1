@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-PLAN!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend06/raw/IZ-PLAN!.ANS
-# Source Revision: archive-sha256:bdb12df6fb66b6e7f7ab1240c15e9b23d66b94ced69828c85c717709162a24eb
-# Source SHA-256: e4ac224f54a1d03a4eb6844d1a0522dbfa89d96a7d02da1c8806bf9b01ab98c4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-PLAN!.ANS by ize (blEnd); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: planets
-# SAUCE Author: ize
-# SAUCE Group: blEnd
-# SAUCE Date: 19970212
-# SAUCE Dimensions: 80x17
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: planets by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend06-iz-plan
 
 Write-Host '
 

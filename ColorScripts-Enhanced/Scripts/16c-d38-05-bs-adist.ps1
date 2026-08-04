@@ -1,17 +1,4 @@
-﻿# Converted from: BS-ADIST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-05/raw/BS-ADIST.ANS
-# Source Revision: archive-sha256:eb0948671797309554c3545cf502cce8943191f153468011a76cca894133dc0a
-# Source SHA-256: 84ce29fa2c9e7e56d504c8af64fb86b2a3da94f656b0747dbaa7e485362d28be
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-ADIST.ANS by Blind Sniper (Department 38); released in d38-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ASDFG emag promo
-# SAUCE Author: Blind Sniper
-# SAUCE Group: Department 38
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ASDFG emag promo by Blind Sniper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-05-bs-adist
 
 Write-Host '
              [30;47m▓[0;37;40m▄▄        [0m                [31;40m▄[0m              [37;40m    [0;1;30;40m▄▄[0m▄▄

@@ -1,18 +1,4 @@
-﻿# Converted from: OK-EVLE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9610/raw/OK-EVLE1.ANS
-# Source Revision: archive-sha256:5789c5cb1a5ac21acfd3fa7dc4a5a88db3f4a5b9545409ca8ca34a86bd816077
-# Source SHA-256: 9f61518c19c4dbde689abdc229ed18b764d9bb849d6044d8e3f0ead1505d9681
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OK-EVLE1.ANS by Outkast (Samsara); released in sms-9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Evileye
-# SAUCE Author: Outkast
-# SAUCE Group: Samsara
-# SAUCE Date: 19960912
-# SAUCE Dimensions: 80x25
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Evileye by Outkast | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9610-ok-evle1
 
 Write-Host '
 [1;34;44m░[0;34m█▓▒▒░░[0;30;44m▓[0m     [1;30;40m▄▄▄▓▓[0;1;30;47m█▓▓▒▒▒░░░[0m███[1;47m░░▒▓▓[0;1;40m▄▄▄[0m    [34m░░░▒▒▓█[0;1;34;44m░░[0;34m▓▒▒░░[0;30;44m▓[0m   [34;40m░░[0;30;44m▓[0m    [34;40m░░[0m      [34;40m░[0;30;44m▓[0;34;40m▓[0;1;34;44m░[0m

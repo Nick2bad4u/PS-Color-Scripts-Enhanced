@@ -1,17 +1,4 @@
-﻿# Converted from: SG-POD2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twi-9705/raw/SG-POD2.ANS
-# Source Revision: archive-sha256:da02c43b1820a742de37b3fac57f43bf8bd10c99913580df5a1bac1c50a70bec
-# Source SHA-256: 98108d14523494d8e658662d036daab6adbbdd247bc1f5cc35aab0d7c6f6c32d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SG-POD2.ANS by snake grunger (twilight); released in twi-9705 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: power of the darkside
-# SAUCE Author: snake grunger
-# SAUCE Group: twilight
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: power of the darkside by snake grunger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twi-9705-sg-pod2
 
 Write-Host '
 [1;34;44m███▓▓█▓▓▓▒▓▓▒▒▒▒░▒▒▒▒░▒░░░░░[0;34m█▀▀[0;37m▄[0;1;37m▄[0;1;37;47m▄▄▓▓[0m [1;47m▓▓▒[0m [1m▒[0;1;47m▒▒▒▒▒▒░▒░[0;1;30;47m▀[0m▄[1;30m▄▄[0m [1;30m▀▀[0m▀[1;30;47m▄▄[0m▄▄  [1;30m▀[0;1;30;47m▓[0m█[1;47m▒▒░[0m██[1;30;47m░░▒▒▓[0m

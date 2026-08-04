@@ -1,18 +1,4 @@
-﻿# Converted from: SPH_WIZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense17j/raw/SPH_WIZ.ANS
-# Source Revision: archive-sha256:dd9d1d0c2e9d18c52916147f75b54ea93779080fcdcf859439501b8e3996efb6
-# Source SHA-256: f075c282e40e8403bc9f0bbc53ea68d31a41efefaca365ba99b69e0a61735e4b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPH_WIZ.ANS by Sephiroth (sense imagery); released in sense17j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: gl?mma de
-# SAUCE Author: Sephiroth
-# SAUCE Group: sense imagery
-# SAUCE Date: 20000103
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: gl?mma de by Sephiroth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense17j-sph-wiz
 
 Write-Host '
 

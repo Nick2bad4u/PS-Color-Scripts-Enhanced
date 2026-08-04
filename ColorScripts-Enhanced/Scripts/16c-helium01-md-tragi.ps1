@@ -1,13 +1,4 @@
-﻿# Converted from: MD-TRAGI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/helium01/raw/MD-TRAGI.ANS
-# Source Revision: archive-sha256:07d8759f10fea4e17af6dcb88e6f2f43e74915e40d49cbcecc26379922d3a782
-# Source SHA-256: 42291e7fc13e9d5546e46a96e70c0e0d75a748ca892e5421d92241d7d3d00ed6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MD-TRAGI.ANS by Mendator (helium01); released in helium01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: MD-TRAGI.ANS by Mendator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-helium01-md-tragi
 
 Write-Host '
 [1;31m [0;33m▄[0;1;31;43m░▒▓[0;1;31;40m███████[0;1;31;43m▓▓[0;1;31;40m████[0;1;31;43m▓[0;1;31;40m████████████[0;1;31;43m▓[0;1;31;40m█████[0;1;31;43m▓[0;1;31;40m█[0;1;31;43m▓[0;1;31;40m█████[0;1;31;43m▓[0;1;31;40m███[0;1;31;43m▓▓[0;1;31;40m█████[0;1;31;43m▓[0;1;31;40m███████[0;1;31;43m▓[0;1;31;40m███[0;1;31;43m▀[0;1;31;40m▀▀▀▀▀▀[0;1;31;43m▀▒░[0;33m▄[0m

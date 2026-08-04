@@ -1,18 +1,4 @@
-﻿# Converted from: US-WW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook14/raw/US-WW.ANS
-# Source Revision: archive-sha256:f7fe2a62d3e7b3b16687ce251209098ea8d86719a4cfa33dae1489e0c9af9278
-# Source SHA-256: 01a383b31c29942d02b11ce3e512c4b9ed0b7df7071273c5ccd2b69bba925ae2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-WW.ANS by Black Weasel + Poti (phat & black maiden); released in bmbook14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: waterworld's scream
-# SAUCE Author: black weasel.poti
-# SAUCE Group: phat & black maiden
-# SAUCE Date: 19970630
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: waterworld's scream by Black Weasel + Poti | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook14-us-ww
 
 Write-Host '
  ■                       

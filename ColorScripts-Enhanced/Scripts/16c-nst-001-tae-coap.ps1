@@ -1,18 +1,4 @@
-﻿# Converted from: TAE-COAP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nst_001/raw/TAE-COAP.ANS
-# Source Revision: archive-sha256:73e351b64f3e5af00925276ea27a29359884e7841f4015afd3acb29f2a370d2d
-# Source SHA-256: 29ae94a520b2332cf02c6fa8e59ccb44236a38c09f331acd284b94fc40083522
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TAE-COAP.ANS by taevore (neon strike); released in nst_001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: "  chaos on a plate "
-# SAUCE Author: taevore
-# SAUCE Group: neon strike
-# SAUCE Date: 19980402
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: " chaos on a plate " by taevore | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nst-001-tae-coap
 
 Write-Host '
          [35m░▄[0;1;31;45m▄[0;35m▌[0m         [35m▐▄[0;1;31;45m▄▄▄[0;35m▓░▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: FB-SHAZ2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/atm-0294/raw/FB-SHAZ2.ANS
-# Source Revision: archive-sha256:ec69de861bb9c5fa14955a518170ca9a952fbcf9fa8007e351a723feb534c81b
-# Source SHA-256: fc0548025d9513775f6c84c526d24e8b88220162e25561d4e62f64c632b1b461
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FB-SHAZ2.ANS by Frost Byte (atm-0294); released in atm-0294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: FB-SHAZ2.ANS by Frost Byte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-atm-0294-fb-shaz2
 
 Write-Host '
          [1;30m▄▄▄▄[0m      [1;30m▄   ▄[0m     [1;30m▄▄▄▄▄[0m      [1;30m▄▄▄▄[0m      [1;30m▄▄▄▄▄[0m      [1;30m▄▄▄▄▄▄▄▄▄▄[0m

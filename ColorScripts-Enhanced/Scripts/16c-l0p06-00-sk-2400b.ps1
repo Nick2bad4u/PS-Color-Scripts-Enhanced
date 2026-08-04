@@ -1,13 +1,4 @@
-﻿# Converted from: SK!2400B.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p06_00/raw/SK!2400B.ANS
-# Source Revision: archive-sha256:3daad9bd70cd9307445d25e1dbbdc4eae498b83379a5b89ecd2ac9419e6150d3
-# Source SHA-256: 675534f66ca2bf43c9c87ad7d8c413327d7d85ad56f981dee718ac154202436c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!2400B.ANS by Simonking (l0p06_00); released in l0p06_00 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: SK!2400B.ANS by Simonking | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p06-00-sk-2400b
 
 Write-Host '
 

@@ -1,19 +1,4 @@
-﻿# Converted from: zII-BATL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel29/raw/zII-BATL.ANS
-# Source Revision: archive-sha256:a7926daad48a6eaeb3fe9fe16388ddf3683cf76fdb5fb4156f51cd91fc2d12a5
-# Source SHA-256: 9aa707e4be5b3b9008bde4550359521606a0896b384bb0e030d59e56b3ce401b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zII-BATL.ANS by Zeus II (FUEL); released in fuel29 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Battlestar BBS
-# SAUCE Author: Zeus II
-# SAUCE Group: FUEL
-# SAUCE Date: 20190216
-# SAUCE Dimensions: 80x53
-# SAUCE Font: IBM VGA
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Battlestar BBS by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel29-zii-batl-part01
 
 Write-Host '
 

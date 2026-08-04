@@ -1,13 +1,4 @@
-﻿# Converted from: avg-frc.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense22/raw/avg-frc.ans
-# Source Revision: archive-sha256:bc85c11cf049f286319d708c3e5bf2f85a707ab661c6de2482c2260d25e40c5c
-# Source SHA-256: 2a3185f2971522482ea66eec5eede9fdbbaee3440569db51038dade7d8f6289a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-frc.ans by Avenging Angel (sense22); released in sense22 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: avg-frc.ans by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense22-avg-frc
 
 Write-Host '
 [1m   [0m▄[1m▄[0;1;47m▄[0;1;40m████████[0;1;46m██▄  [0;36m████[0;35;46m▀[0;36;40m▄[0;35;40m▄[0m      [31;40m▄[0;1;31;45m░░[0;35;41m▓▓▓[0;1;31;41m▒██[0;1;31;40m▄[0m

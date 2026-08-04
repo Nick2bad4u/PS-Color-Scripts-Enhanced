@@ -1,13 +1,4 @@
-﻿# Converted from: Mystical.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1oo-moon/raw/Mystical.ans
-# Source Revision: archive-sha256:171e2925602123fe0c10a0ec4407c2834bc26a002fba2fa406825fd80132e138
-# Source SHA-256: ba4c8e647392e35e1776d1bf81d987884fdeb5cf0f45e28cac704e92ce35b2a6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Mystical.ans by Miracle (1oo-moon); released in 1oo-moon and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Mystical.ans by Miracle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1oo-moon-mystical
 
 Write-Host '
                                         [34m▒░░[0m                               [34m░[0m

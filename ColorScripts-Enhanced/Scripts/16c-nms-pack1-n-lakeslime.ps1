@@ -1,20 +1,4 @@
-﻿# Converted from: n(_lakeslime.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nms_pack1/raw/n(_lakeslime.ans
-# Source Revision: archive-sha256:f99a1419a85f2107a1ef905f45d33edf79d1a955e17b541807601af9adb4edeb
-# Source SHA-256: c2519e25d10a808648c4ad92504190af2cf0962e816748cb17fd3837483a7120
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: n(_lakeslime.ans by nemesulku (acid rain); released in nms_pack1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Lake Slime
-# SAUCE Author: nemesulku
-# SAUCE Group: acid rain
-# SAUCE Date: 19980329
-# SAUCE Dimensions: 80x20
-# SAUCE Font: IBM VGA
-# SAUCE Comments: This was for Lake Slime bbs, a login screen. - bracket
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Lake Slime by nemesulku | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nms-pack1-n-lakeslime
 
 Write-Host '
       [34;40m▄▄▄[0;30;44m░[0;34;40m▒░▒[0;30;44m░[0;34;40m▄▄[0;37;40m    [0;34;40m▄▄▄[0;30;44m  [0;32;44m░[0;30;44m [0;34;40m▄▓[0;32;44m░▒░▒▓▓█▓[0;30;42m  [0;34;42m░[0;30;42m [0;34;42m░[0;30;42m [0;34;42m░[0;32;40m▄▄▄▄███▄▄█████▄▄▄▄   [0;37;40m [0;32;40m   ▄▄▄[0;1;32;42m▒░░[0;32m▄▄[0m

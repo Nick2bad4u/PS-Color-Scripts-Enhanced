@@ -1,15 +1,4 @@
-﻿# Converted from: R!COREWB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jive1196/raw/R!COREWB.ANS
-# Source Revision: archive-sha256:74e1c77b15f9f77c425b7a6f94db1ea196521e43a60a356b13371fec7928ab41
-# Source SHA-256: 1254f9d032d09744adcfa3967c282ac269a0b93c6fe643623f91a0fba9c8a0a3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: R!COREWB.ANS by The Riddler (jive1196); released in jive1196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Core logo
-# SAUCE Author: The Riddler
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Core logo by The Riddler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jive1196-r-corewb
 
 Write-Host '
 [1;30m[0m[1;30m[0m[1;30m[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: MT-PIN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy05/raw/MT-PIN1.ANS
-# Source Revision: archive-sha256:2e1c7dd4c451a5d024352ee6b56eba52a2d5ba6a7d73a9cc34cff58fc603ca18
-# Source SHA-256: b806826c52b12788bbc1f8fe64b627d3d8db27b9bd253aed9f9e27cb0a547e00
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MT-PIN1.ANS by Misfit (apathy05); released in apathy05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Pinion
-# SAUCE Author: Misfit
-# SAUCE Date: 19951221
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Pinion by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy05-mt-pin1
 
 Write-Host '
 [1;30m░░[0m   [1;30m░[0m [34m▀▀▀▀▀█████████████▄▄ [0;1;30m▀▀▄▄░░            [0;1;31mpinion [0;31m..[0;1;30m              ░    ░░ ░░▒[0m

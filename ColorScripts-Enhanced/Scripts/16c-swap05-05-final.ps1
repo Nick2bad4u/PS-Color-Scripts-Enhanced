@@ -1,13 +1,4 @@
-﻿# Converted from: 05-FINAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/swap05/raw/05-FINAL.ANS
-# Source Revision: archive-sha256:fceb3d2e4bba0b62b2e83e158149b6fa840b9e6be402b2462d4e968cc5c0a458
-# Source SHA-256: d0e9266475036ff16349561ff229b7b11c3f0cff29db2aef47c0b2adb4a9aa73
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 05-FINAL.ANS by Widowmaker + Cheeze + Vade79 + Flame + Nail + Pariah + Black Viper (swap05); released in swap05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: 05-FINAL.ANS by Widowmaker + Cheeze + Vade79 + Flame + Nail + Pariah + Black Viper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-swap05-05-final
 
 Write-Host '
                                     [31m▄▄█████████████▄█▀▓░ [0m      [34m▀▀█████████████[0m

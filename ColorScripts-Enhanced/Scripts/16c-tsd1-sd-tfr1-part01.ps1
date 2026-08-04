@@ -1,13 +1,4 @@
-﻿# Converted from: SD-TFR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tsd1/raw/SD-TFR1.ANS
-# Source Revision: archive-sha256:46fcc0cabd317411058a341a12c1c12a208f3a319890bc1d8d832fa869d914c4
-# Source SHA-256: 153111b640e3217ad9c9a8aa57b1d8aa3b8ef26a5181daa167b29696ff42cee7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-TFR1.ANS by Soup Dragon (tsd1); released in tsd1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: SD-TFR1.ANS by Soup Dragon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tsd1-sd-tfr1-part01
 
 Write-Host '
 [5;30m∙[0;1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;5;30m∙∙∙∙∙∙∙∙∙∙∙∙∙∙[0m

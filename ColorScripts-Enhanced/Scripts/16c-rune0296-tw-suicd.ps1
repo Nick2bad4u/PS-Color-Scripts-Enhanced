@@ -1,17 +1,4 @@
-﻿# Converted from: TW-SUICD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rune0296/raw/TW-SUICD.ANS
-# Source Revision: archive-sha256:1cc279748badd7f61a5f083ba1c8b526b1d5d143bea36336d1817d4778ed4d79
-# Source SHA-256: 9c1b7ae28a2cb9c4d5da53513dede45cd2545b5672f855888e91629217dd37bc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TW-SUICD.ANS by twilight (rune); released in rune0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: suicidal tendencies
-# SAUCE Author: twilight
-# SAUCE Group: rune
-# SAUCE Date: 19960201
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: suicidal tendencies by twilight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rune0296-tw-suicd
 
 Write-Host '
 [35m▄██▄[0;33m [0m                                 [1;30m■[0m    [1;30m■[0m                    [35m▄[0;37m [0;35m▀▀▀▓▀▄[0;37m [0;35m░[0;37m [0;35m▀██▄■[0m

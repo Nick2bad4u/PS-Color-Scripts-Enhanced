@@ -1,18 +1,4 @@
-﻿# Converted from: cl!-sad.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic06/raw/cl!-sad.ans
-# Source Revision: archive-sha256:8bb620f7e2d45c448aca0b5581c9e9c89930ea09fe52d491a96fb500206496d4
-# Source SHA-256: 3f5c1de6b415a3157a8b5daa7f7acc151b471263623d8530d9ce3e1b0e2c492e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cl!-sad.ans by Cleaner (Mimic); released in mimic06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Sadist
-# SAUCE Author: Cleaner
-# SAUCE Group: Mimic
-# SAUCE Date: 19981204
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Sadist by Cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic06-cl-sad
 
 Write-Host '
                 [34m [0;35m.∙[0;34m ∙[0;35m.[0m

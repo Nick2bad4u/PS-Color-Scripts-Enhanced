@@ -1,18 +1,4 @@
-﻿# Converted from: CG-WM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-02/raw/CG-WM.ANS
-# Source Revision: archive-sha256:21302c91644277d9117a9a1fcab004f6fa76d5a90d6a4926e513a24dd5b73cd5
-# Source SHA-256: b388afe4349fadbe89348049b02eb20d823e19e5c0dd65a08c731b245152c2ce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-WM.ANS by cryogenic (used); released in used-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: wm
-# SAUCE Author: cryogenic
-# SAUCE Group: used
-# SAUCE Date: 19991209
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: wm by cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-02-cg-wm
 
 Write-Host '
         [34m [0m       [34m▄▄▄▄[0;1;34m░░░[0;34m▄▄▄▄[0;37m [0;1;34m░[0m

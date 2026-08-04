@@ -1,13 +1,4 @@
-﻿# Converted from: MA-AS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p14_02/raw/MA-AS2.ANS
-# Source Revision: archive-sha256:d20654a6c01baca0c78130f8dbf627e3758aef76e81e82df43ce19f00f1e58b7
-# Source SHA-256: 3860ee84023d5fd6f4b9281dc4321b65ecbaec007531d101588aa5c9a6507dc2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MA-AS2.ANS by Maffiosos (l0p14_02); released in l0p14_02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: MA-AS2.ANS by Maffiosos | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p14-02-ma-as2
 
 Write-Host '
 

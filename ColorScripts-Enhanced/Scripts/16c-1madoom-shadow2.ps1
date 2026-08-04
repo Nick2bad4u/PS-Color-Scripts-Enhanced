@@ -1,18 +1,4 @@
-﻿# Converted from: SHADOW2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1madoom/raw/SHADOW2.ANS
-# Source Revision: raw-sha256:b1688e84b43ecff5d463cfd6e1777a7e3aa63087875e33ccec2b58edf74de81b
-# Source SHA-256: b1688e84b43ecff5d463cfd6e1777a7e3aa63087875e33ccec2b58edf74de81b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SHADOW2.ANS by Doomsday (ShadowByte); released in 1madoom and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: SDWB (ShadowByte) Graphitty
-# SAUCE Author: Doomsday
-# SAUCE Group: ShadowByte
-# SAUCE Date: 19960125
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: SDWB (ShadowByte) Graphitty by Doomsday | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1madoom-shadow2
 
 Write-Host '
 [1;30mDoomsday[0;1;37m█████████████████████████████████████▀▀ [0;31m▐███[0;1;37;41m▀▀▀▀▀▀▀▀▀▀[0;1;37;40m██████████████████[0m

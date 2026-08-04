@@ -1,18 +1,4 @@
-﻿# Converted from: SN!LGF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak4/raw/SN!LGF.ANS
-# Source Revision: archive-sha256:4de151b62f8e1e01744243eb3a08b6b162710f6f3d9cf33945fdb35eb3f11d38
-# Source SHA-256: b7fa736bc7f4c334807a06269880756a98f279f8cc4f48485ae856693f11ccf8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SN!LGF.ANS by Snowball (Ecolove); released in ecl-pak4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Gabber Piet forever...
-# SAUCE Author: Snowball
-# SAUCE Group: Ecolove
-# SAUCE Date: 19980306
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Gabber Piet forever... by Snowball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak4-sn-lgf
 
 Write-Host '
            [1;31m [0m

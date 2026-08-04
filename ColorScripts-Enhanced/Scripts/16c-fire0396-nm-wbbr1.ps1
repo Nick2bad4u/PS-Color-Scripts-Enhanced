@@ -1,18 +1,4 @@
-﻿# Converted from: NM-WBBR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0396/raw/NM-WBBR1.ANS
-# Source Revision: archive-sha256:1c74698b6bb36c67ca170e4e3759a91f94a3423157bd644c80d820a8fe56fd8d
-# Source SHA-256: 9650ec0e28b4cc9eca048ddfd20bb51d91d7e4453add26bfb10f5996f3d5053c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NM-WBBR1.ANS by Numb (fire); released in fire0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Black Rain
-# SAUCE Author: Numb
-# SAUCE Group: fire
-# SAUCE Date: 19960113
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Black Rain by Numb | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0396-nm-wbbr1
 
 Write-Host '
 [33m ▄■▀[0;37m [0;33m▄▀ [0;37;43m [0;33;40m▀[0;37;40m [0;33;40m█[0;37;43m░[0;33;40m▀ [0;37;43m░[0;33;40m▀[0;37;40m [0;1;31;43m▒▒▓▓[0;1;31;40m███[0;33m▐[0;37;43m░[0;1;31;40m▐[0;1;31;43m▒▓[0;1;31;40m█████████[0;31m [0;37m [0;1;33m [0m

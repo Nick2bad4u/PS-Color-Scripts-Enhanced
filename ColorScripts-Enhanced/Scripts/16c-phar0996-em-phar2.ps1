@@ -1,18 +1,4 @@
-﻿# Converted from: EM^PHAR2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phar0996/raw/EM%5EPHAR2.ANS
-# Source Revision: archive-sha256:a110fe168ec83f56158fe99c92124ea58d0884131cba0cb1f746e5e809cd3ac5
-# Source SHA-256: 7e9c779f8756139e1fae18904975770f276cf26b732a448e6a5a2c5627468e36
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EM^PHAR2.ANS by Emberman (StORM i996); released in phar0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Phar Logo
-# SAUCE Author: Emberman
-# SAUCE Group: StORM i996
-# SAUCE Date: 19960902
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Phar Logo by Emberman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phar0996-em-phar2
 
 Write-Host '
 [34m■█▄███████████[0;1;37;44m▀▀▀[0;1;37;40m▄▄▄[0;34m ▀[0;1;37;44m▀▀▀▀[0;1;37;40m▄▄[0m

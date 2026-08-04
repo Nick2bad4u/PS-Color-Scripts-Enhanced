@@ -1,13 +1,4 @@
-﻿# Converted from: FU-BLAH3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/solo1295/raw/FU-BLAH3.ANS
-# Source Revision: archive-sha256:5caaffad62372d7eff4ec276f634e659aea2eb6d02670ee7c939e0e4125d45bf
-# Source SHA-256: b9fce2d33aaf7dd343d8f29448049952ac0834041808a512acbd002dba118c94
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FU-BLAH3.ANS by Fury (solo1295); released in solo1295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 41-79
-# Columns: 1-80
+﻿# Artwork: FU-BLAH3.ANS by Fury | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-solo1295-fu-blah3-part02
 
 Write-Host '
 [33m█▄  [0;37m▀██████[0;1;37;47m▓[0;1;37;40m█[0;1;37;47m▀▀▀▀▀░[0m████▀▀   [33m▄███  ████▄▄[0m                 [33m▄▄██████▓ ▄░▐[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: QP-SF2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fx-9806/raw/QP-SF2.ANS
-# Source Revision: archive-sha256:205b78b0dc9b01b9235d0f977ebf5a9ed0d12b5b72e9d6e68b3a926965fd1522
-# Source SHA-256: 5c59521ad635f1accaea82d92895bbcf6e85f083a412469c60d43878de1be378
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QP-SF2.ANS by Quip (Function); released in fx-9806 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Superfiend
-# SAUCE Author: Quip
-# SAUCE Group: Function
-# SAUCE Date: 19980523
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Superfiend by Quip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fx-9806-qp-sf2
 
 Write-Host '
 [33m█[0;1;33;43m▒█▀[0;33m█[0;37m [0;33m█[0;1;31;43m▓▒█▓▒▓░[0;33m▌▐[0;1;31;43m▓█▒▓░[0;33m▄▐[0;1;31;43m█▓█▓░[0;33m█[0;1;31;43m▓█▒▓[0;33m▌█[0;1;31;43m█▓▒[0;33m▄[0;37m [0;1;30m▀▄ [0m [1;30m▀[0m                    [1;30mquip(function)[0m

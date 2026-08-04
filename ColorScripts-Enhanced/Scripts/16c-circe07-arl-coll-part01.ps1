@@ -1,18 +1,4 @@
-﻿# Converted from: ARL-COLL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe07/raw/ARL-COLL.ANS
-# Source Revision: archive-sha256:2cbba3cedd8eb19a25555cbc1ca3ce5023e1f497b14e2a9d7de86e055d96afd2
-# Source SHA-256: 8c66ba18d30df34b8ecd9c047d2b99a061229b2a0bdbc999beb53d15b75ae83a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARL-COLL.ANS by Arlequin (Circe Choice); released in circe07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Colly
-# SAUCE Author: Arlequin
-# SAUCE Group: Circe Choice
-# SAUCE Date: 19990203
-# SAUCE Dimensions: 80x111
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: Colly by Arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe07-arl-coll-part01
 
 Write-Host '
 [30;41m▓[0;1;31;41m [0;31m▄[0;37m [0;35m▀[0;1;35;45m███[0;35m▄[0;37m [0;35m    [0;34;46m░  ▀[0;35;40m░[0;1;35;45m███[0m [1;31;41m█▄[0;31m▄[0;1;35m▀[0;1;35;45m██[0;1;35;40m▓[0;35m▄ [0;1;30m▀████[0;34m▀[0;1;34;44m██[0;34m▀[0;37m  [0;1;35;45m███[0;1;31;40m▒█[0;1;31;47m▀▀[0;1;31;40m▄[0m [35m▀[0;1;35;45m██▄[0;35m▄[0;1;34m  [0;34m▀[0;1;34;44m▀█▀ [0;1;30;40m███▀[0;34m     [0;1;31;47m▓▓█[0;1;31;40m█[0;1;31;47m▀[0;31m▄[0;34m [0m

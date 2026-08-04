@@ -1,18 +1,4 @@
-﻿# Converted from: S&4-ANSC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense09j/raw/S%264-ANSC.ANS
-# Source Revision: archive-sha256:9f583533fb256ec67ece3c5d38ebea61ce21b385a7859a4e786edef290584615
-# Source SHA-256: e68c9e037fd2eebd5a5b476fa6d7af4925e1c24134227ec96d0a6b896c0cb2bb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S&4-ANSC.ANS by Absent Spinsister + Aesthetic (sense); released in sense09j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: anscii
-# SAUCE Author: AbsentSpinsister/43
-# SAUCE Group: sense
-# SAUCE Date: 20020826
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: anscii by Absent Spinsister + Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense09j-s-4-ansc
 
 Write-Host '
  [1;30mtextmode art..[0m              [36m.[0;1;36m........[0;36m..[0m                        [1;37m_______[0m

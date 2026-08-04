@@ -1,18 +1,4 @@
-﻿# Converted from: MR-DOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9704/raw/MR-DOD.ANS
-# Source Revision: archive-sha256:f29d1a72731ce9383841840bc86b0749ff1457d1c25c6a64baa5adfdac9e6943
-# Source SHA-256: cf6f3004c928c8693702d8239d22f23a94ed7d203056188decbd6f85dafffc6e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-DOD.ANS by minotaur (mAidEN bRAZil); released in mdn-9704 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dome of darkness menu
-# SAUCE Author: minotaur
-# SAUCE Group: mAidEN bRAZil
-# SAUCE Date: 19970310
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: dome of darkness menu by minotaur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9704-mr-dod
 
 Write-Host '
 

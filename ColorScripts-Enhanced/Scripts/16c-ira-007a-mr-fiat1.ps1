@@ -1,18 +1,4 @@
-﻿# Converted from: MR-FIAT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira-007a/raw/MR-FIAT1.ANS
-# Source Revision: archive-sha256:ee5a82ac7f98955da25871045743238711285c6b7b62811e228512414e2f4a52
-# Source SHA-256: a25c33c996e124cdb1c485bb1b212314fe8fb237736df69959e3a72e1c6db65f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-FIAT1.ANS by Mr.Wrong (irato); released in ira-007a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fiat lux
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: irato
-# SAUCE Date: 19981001
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: fiat lux by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira-007a-mr-fiat1
 
 Write-Host '
                       [31m▄[0m                       [37m        [0m

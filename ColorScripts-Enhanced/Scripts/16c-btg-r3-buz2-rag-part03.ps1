@@ -1,13 +1,4 @@
-﻿# Converted from: BUZ2#RAG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/btg-r3/raw/BUZ2%23RAG.ANS
-# Source Revision: raw-sha256:ff8526999f7e8521466703f3f41bb8c6c923024cb02d829d36e4be855bd2c577
-# Source SHA-256: ff8526999f7e8521466703f3f41bb8c6c923024cb02d829d36e4be855bd2c577
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BUZ2#RAG.ANS by Rage (btg-r3); released in btg-r3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 101-127
-# Columns: 1-80
+﻿# Artwork: BUZ2#RAG.ANS by Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-btg-r3-buz2-rag-part03
 
 Write-Host '
          [1;30m▄▄▄▄▄▄▄[0m         [1;30m▄▄[0m      [1;30m▄▄[0m        [1;30m▄▄▄▄▄▄▄▄▄▄▄[0m       [1;30m▄▄▄▄▄▄▄▄▄▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: C3-KAOS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-12/raw/C3-KAOS1.ANS
-# Source Revision: archive-sha256:7e4f8f6a94015166f300fe788b888a1d637b190c909ddf321a766f55494b93b3
-# Source SHA-256: e194ec0b65a884d4fb22b83440fbea88877ee4b512f70c7c8532aec116b4a26b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: C3-KAOS1.ANS by criminal enigma (fORCE); released in force-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: organised kaos (fixed)
-# SAUCE Author: criminal enigma
-# SAUCE Group: fORCE
-# SAUCE Date: 19960910
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: organised kaos (fixed) by criminal enigma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-12-c3-kaos1
 
 Write-Host '
 [1;36;46m░[0;36m▄[0;1;36m [0;36m▀▀▀▀▀▓[0;37m [0;36m▀[0;1;36;46m░▄▓[0;36m▀[0;37m  [0;1;32;42m░[0;32m▄▄▄ [0;36m▀▀[0;1;36;46m░▄▓░[0;36m▀[0;37m [0;36m▀▀[0;33m▄▄▄▄[0;1;33;43m░▄▄▄▄▄░[0;33m▄▄▄[0;37m [0;36m▀▀[0;37m [0;36m▀[0;1;36;46m░▓▄░[0;36m▀▀ [0;32m▄▄▄[0;1;32;42m░[0m [36m▀▀[0;1;36;46m▓▄░[0;36m▀[0;37m [0;36m▀▀▀▓▀▀[0;37m [0;36m▄[0;1;36;46m░[0m

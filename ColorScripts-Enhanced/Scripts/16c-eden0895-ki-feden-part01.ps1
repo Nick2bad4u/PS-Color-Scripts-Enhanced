@@ -1,18 +1,4 @@
-﻿# Converted from: KI-FEDEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eden0895/raw/KI-FEDEN.ANS
-# Source Revision: archive-sha256:d8195ae4b13bea5c7f9f4700bc4b8c4f43c8846f0490a063130920669eeccae6
-# Source SHA-256: e1777ac1cd0dfb2472b402d1a162cb29c80f3acb8eb76ab52cbb670289988ea9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KI-FEDEN.ANS by Kiwi (eden); released in eden0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Eden
-# SAUCE Author: Kiwi
-# SAUCE Group: eden
-# SAUCE Date: 19950714
-# SAUCE Dimensions: 80x73
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: Eden by Kiwi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eden0895-ki-feden-part01
 
 Write-Host '
 [1;34m██████████████████████▀▀▀███████████████████▀███████▄▄[0;32m▀▀▀▀[0;30;42m░░ ░ [0;32;40m█[0;30;42m [0;32;40m███████████[0m

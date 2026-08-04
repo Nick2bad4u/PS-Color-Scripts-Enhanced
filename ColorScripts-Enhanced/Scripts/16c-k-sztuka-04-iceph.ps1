@@ -1,15 +1,4 @@
-﻿# Converted from: 04_ICEPH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-sztuka/raw/04_ICEPH.ANS
-# Source Revision: archive-sha256:0ffb741cd09291626fd3edf310ba81b97a9ab070084b42833e9f92283ec8eb39
-# Source SHA-256: 04d59f0a84994bee5e0e2af078b8e6cea5ea236a7c650aa292bd4fa45f6f8b5e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 04_ICEPH.ANS by Dieznyik (k-sztuka); released in k-sztuka and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 19990413
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: 04_ICEPH.ANS by Dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-sztuka-04-iceph
 
 Write-Host '
 [36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m·[0;1;36m·[0;36m··[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: US-54D1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sadist05/raw/US-54D1.ANS
-# Source Revision: archive-sha256:48539c7fd3103651a6474c72efa2d6287c0500d048769b6f96b3f80e7845070c
-# Source SHA-256: 5aee6df3040bab04d22ef1d0a2a82d1c89641cead01b5b910415cd5ba1059e5b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-54D1.ANS by Mixelpic + Sephiroth (sadist05); released in sadist05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: sadist
-# SAUCE Author: seph+mix
-# SAUCE Date: 20000122
-# SAUCE Dimensions: 80x60
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: sadist by Mixelpic + Sephiroth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sadist05-us-54d1-part01
 
 Write-Host '
        [1;35m░░    ░░[0m       [1;35m░[0m      [1;35m░[0m      [1;35m░░[0m

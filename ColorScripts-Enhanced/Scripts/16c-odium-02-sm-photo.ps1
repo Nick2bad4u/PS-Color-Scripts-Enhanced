@@ -1,18 +1,4 @@
-﻿# Converted from: SM-PHOTO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-02/raw/SM-PHOTO.ANS
-# Source Revision: archive-sha256:47a67f112d88796e8c1419ea3c6c084684ff2719dfc540b2668a69dc0343be0d
-# Source SHA-256: 6e4f76dcbba5e17c7ec2012c495253d8f6d4b57517e592fa6f197b31ab9832bc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-PHOTO.ANS by Sodium (Odium); released in odium-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Photosynthetic Shit
-# SAUCE Author: Sodium
-# SAUCE Group: Odium
-# SAUCE Date: 19951224
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Photosynthetic Shit by Sodium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-02-sm-photo
 
 Write-Host '
                        [1;30m░[0m          [32m░   [0;1;30m░   [0;32m░[0m        [32m▒    [0;1;30m░[0m

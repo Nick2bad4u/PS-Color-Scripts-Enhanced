@@ -1,18 +1,4 @@
-﻿# Converted from: FO-BYM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phb-0497/raw/FO-BYM.ANS
-# Source Revision: archive-sha256:85681ee98c1ba1a2744730faa07d763080600c62bb25593bcf45c740268afee1
-# Source SHA-256: 23b8bf41b64b0290e1fdf865451a83830f49bc33ea3d714dacd829906b6d1e91
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FO-BYM.ANS by flexor (pHOBIA@!); released in phb-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: big yellow man
-# SAUCE Author: flexor
-# SAUCE Group: pHOBIA@!
-# SAUCE Date: 19970329
-# SAUCE Dimensions: 80x66
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: big yellow man by flexor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phb-0497-fo-bym-part01
 
 Write-Host '
 

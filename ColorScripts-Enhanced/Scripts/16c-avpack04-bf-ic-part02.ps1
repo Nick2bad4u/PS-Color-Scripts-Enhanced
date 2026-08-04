@@ -1,13 +1,4 @@
-﻿# Converted from: BF-IC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack04/raw/BF-IC.ANS
-# Source Revision: archive-sha256:9fda3e62ea6f03ff3783df801cb7755dc6fc72a5a51e49bae41a28850a4d5c40
-# Source SHA-256: ce634c2b0e7187d6376ba8532e54562785527e69db2a948e835120ceb7c28595
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BF-IC.ANS by Bad Foundation (avpack04); released in avpack04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: BF-IC.ANS by Bad Foundation | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack04-bf-ic-part02
 
 Write-Host '
 [1;34;40m █[0;1;34;44m▓▓▓▓[0;1;34;40m█ [0;35m░ [0;1;34m▀[0;1;34;44m▓▓▓▓▓▓▓▓▓▓[0;1;34;40m▀▀[0;1;34;44m▓▓▓▓▓▓[0;1;34;40m█[0;1;34;44m▓▓▒▒▒▓[0m ▀▄▄[1;30m▀▀▄▄▀[0m▄▀▀ [1;34m▄▄[0;1;34;44m▓▓▓░▒[0;1;34;40m██▄[0m▀█ [1;34m█[0;1;34;44m▒▒░░░░░░░▒▒▓▓[0m

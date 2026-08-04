@@ -1,13 +1,4 @@
-﻿# Converted from: RB_HILND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/crp-0794/raw/RB_HILND.ANS
-# Source Revision: archive-sha256:7ddbfb316c11970dc9e9ac95c4d4e81fd0fb7d7c5649de340d1d719e880ea882
-# Source SHA-256: aadb478ef7ea47a1b7e2c9951471adf6a76d33db70329c3aee46fb5cbb4123b0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RB_HILND.ANS by Red Baron (crp-0794); released in crp-0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: RB_HILND.ANS by Red Baron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-crp-0794-rb-hilnd
 
 Write-Host '
   [1;30m█████┼┼┼┼┼┼┼┼┼┼┼┼┼┼█████████████████████████┼┼┼┼┼┼┼┼┼┼┼┼████████████████▄[0m

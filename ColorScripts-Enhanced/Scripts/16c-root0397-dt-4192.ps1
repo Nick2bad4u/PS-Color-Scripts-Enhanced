@@ -1,15 +1,4 @@
-﻿# Converted from: DT-4192.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0397/raw/DT-4192.ANS
-# Source Revision: archive-sha256:147f0608c1bd711b116f3ad049b80e805dfbb40e7d23ffce5f4580a5a57bae0f
-# Source SHA-256: 5a269eff6fb857a77b3165a1f125dd1718e75554a0f1088fcd9317d971b93be9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-4192.ANS by Defiant (root0397); released in root0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: 419
-# SAUCE Author: Defiant
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: 419 by Defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0397-dt-4192
 
 Write-Host '
                                [34m▄▄[0;1;34m▄▄▄▄▄[0m        [1;34m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: 22-FIC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-19/raw/22-FIC1.ANS
-# Source Revision: archive-sha256:b473660f00ca745b2388645e3daf73e6bc00a051deac122753312589762b7c0e
-# Source SHA-256: 080fb0ad87d0bfc54b3b580cdf6099d48afddafbe0010fd1b448956cbd590fa7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 22-FIC1.ANS by catch22 (the glue); released in glue-19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fiction electronic magazine
-# SAUCE Author: catch22
-# SAUCE Group: the glue
-# SAUCE Date: 19990301
-# SAUCE Dimensions: 80x206
-# Lines: 83-124
-# Columns: 1-80
+﻿# Artwork: fiction electronic magazine by catch22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-19-22-fic1-part03
 
 Write-Host '
               [1;30;47m██▓░[0m████████[1;47m░░▒▒▒▒▒▒▒░[0m        [1;30m▀▀▀▀▀[0m [30m22[0m       [1;30;47m▒[0m███[1;30;47m░░▒▒▓▓█[0m [1;30m▄██▀▀▀[0m

@@ -1,20 +1,4 @@
-﻿# Converted from: THE_WAR_ON_CHRISTMAS-FOX_HUNT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0424/raw/THE_WAR_ON_CHRISTMAS-FOX_HUNT.ANS
-# Source Revision: archive-sha256:d1bad4307edc4d5552b23ae4adea805150573b7a14b0c9ddfbd988a286da0bf3
-# Source SHA-256: 31c93f7f9c6333d1eceb9c23a3735105a594a065e8af219d141c1258a35cd4dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: THE_WAR_ON_CHRISTMAS-FOX_HUNT.ANS by TheWarOnChristmas (Mistigris); released in mist0424 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Fox Hunt
-# SAUCE Author: TheWarOnChristmas
-# SAUCE Group: Mistigris
-# SAUCE Date: 20240429
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: after Winslow Homer
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Fox Hunt by TheWarOnChristmas | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0424-the-war-on-christmas-fox-hunt
 
 Write-Host '
 [1;34m$$$$$[0;1;37m{8{}}8{}}{{8}{}8}[0;34m$$$$$$b┐,[0;1;30m~,-b┐, `\,[0;34m4$$P''[0;1;30m,-''_,┐qdRP"-=-[0;34m_,┐yd$$$$$$$$$$$$$$$[0m

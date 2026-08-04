@@ -1,17 +1,4 @@
-﻿# Converted from: TR-RPR01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-29a/raw/TR-RPR01.ANS
-# Source Revision: archive-sha256:5de89fa125eb7333a54bae49908ef76358fcc0ce9b3df66010dca2eb64b17560
-# Source SHA-256: 0cfc6ef3784787593e02d43951a253280943281dc8ce5899547ebb3ca5062055
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-RPR01.ANS by The Reaper (Purg Productions); released in purg-29a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: The Reaper
-# SAUCE Group: Purg Productions
-# SAUCE Date: 19990901
-# SAUCE Dimensions: 80x142
-# Lines: 96-142
-# Columns: 1-80
+﻿# Artwork: TR-RPR01.ANS by The Reaper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-29a-tr-rpr01-part03
 
 Write-Host '
 [1;32;42m█[0;1;32;40m█████████████[0;1;32;42m [0;1;32;40m [0;32m▄[0;1;32;42m▄▄▄[0;1;32;40m██[0;1;32;42m▀[0;32m▀▐[0;1;32;42m▐[0;1;32;40m████[0;1;32;42m▓▒░░[0;32m ▀▄[0;1;32m [0;32m▐[0;1;32;42m▐[0;1;32;40m█████████████████████████████████[0;1;32;42m▌[0;32m▌ ▄▀▄[0;1;32m [0m

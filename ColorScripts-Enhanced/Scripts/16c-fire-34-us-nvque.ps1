@@ -1,19 +1,4 @@
-﻿# Converted from: US-NVQUE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/US-NVQUE.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: 1a589ca6b69aa5923b90d3f151ff5aa8a6e828d99d6af62d356a2c271bf845f7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-NVQUE.ANS by Nail + Avg (blocktronics); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: novoque
-# SAUCE Author: nail + avg
-# SAUCE Group: blocktronics
-# SAUCE Date: 20200810
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: novoque by Nail + Avg | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-us-nvque
 
 Write-Host '
 [1;30;40m▀█[0;1;30;47m██▄■·  ▄▄▄ [0m█████[1;47m ▐█▌[0m███[1;47m·▄[0;1;40m▓▓▓[0m██[1;30;47m▄ ▄█████████[0;1;30;40m▀▀[0m  ▀▀░░▀▓▓[1;30m▀▀▀▀▀████[0;1;30;47m▄[0;1;30;40m██[0;1;30;47m▀ [0;1;30;40m███[0;1;30;47m▓▓▀▀▀[0m░░░

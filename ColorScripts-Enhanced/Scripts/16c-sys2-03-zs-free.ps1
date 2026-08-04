@@ -1,18 +1,4 @@
-﻿# Converted from: ZS-FREE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sys2_03/raw/ZS-FREE.ANS
-# Source Revision: archive-sha256:008fb7d825e566af77ae54caca44158087d80f399f5293cc1f9b3810d9305879
-# Source SHA-256: 0bfca9fef80a2db3acd437f69313e086ab386e036b87dcd638187e3dec27fcf3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZS-FREE.ANS by zerostar (SystemII); released in sys2_03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: free head.. erm. headers.
-# SAUCE Author: zerostar
-# SAUCE Group: SystemII
-# SAUCE Date: 20000425
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: free head.. erm. headers. by zerostar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sys2-03-zs-free
 
 Write-Host '
 

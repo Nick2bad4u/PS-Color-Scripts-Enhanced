@@ -1,18 +1,4 @@
-﻿# Converted from: T-SHINE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook21/raw/T-SHINE.ANS
-# Source Revision: archive-sha256:a9340bf45277705f38b7b2e8dfe7bc518716b8c419a47ac48708bc33bd40ec01
-# Source SHA-256: 81a756e68fbd669fd559f7113e6c8b90b704698977c91e124ca385d36fd777cc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T-SHINE.ANS by toot (black maiden); released in bmbook21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: shine
-# SAUCE Author: toot
-# SAUCE Group: black maiden
-# SAUCE Date: 19991019
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: shine by toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook21-t-shine
 
 Write-Host '
 

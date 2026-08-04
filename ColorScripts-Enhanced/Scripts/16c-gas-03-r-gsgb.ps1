@@ -1,18 +1,4 @@
-﻿# Converted from: R!GSGB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gas-03/raw/R!GSGB.ANS
-# Source Revision: archive-sha256:9d16ec2efa84f41f04a3a0885f1a55c15cbeef8d9963890c5d07d45f34a97b3b
-# Source SHA-256: 48806b6a586c11e51304bf35f51016ce0eb855b284bed7488934b8765e355c4c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: R!GSGB.ANS by the riddler (gas); released in gas-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: grim scum
-# SAUCE Author: the riddler
-# SAUCE Group: gas
-# SAUCE Date: 19960901
-# SAUCE Dimensions: 80x8
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: grim scum by the riddler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gas-03-r-gsgb
 
 Write-Host '
 [1;30m[0m[1;30m[0m[1;30m[0m                                           [34m▄█[0;1;34;44m▄▄░▄[0;34m▄[0m

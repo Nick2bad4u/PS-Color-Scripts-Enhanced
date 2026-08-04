@@ -1,13 +1,4 @@
-﻿# Converted from: M7M-CMC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/comic-06/raw/M7M-CMC.ANS
-# Source Revision: archive-sha256:9a71e4b876231e3fe7c2a3378a2e3da8e219bec0547b972a530da23d91cfe4f1
-# Source SHA-256: c3ee6dbfda6b295f1420e102cecfa017659e1809416f965b10ab009c7738a3b6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M7M-CMC.ANS by Metal Militia (comic-06); released in comic-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: M7M-CMC.ANS by Metal Militia | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-comic-06-m7m-cmc
 
 Write-Host '
 

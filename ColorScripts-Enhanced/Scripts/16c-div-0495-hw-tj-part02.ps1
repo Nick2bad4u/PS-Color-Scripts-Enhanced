@@ -1,18 +1,4 @@
-﻿# Converted from: HW-TJ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/div-0495/raw/HW-TJ.ANS
-# Source Revision: archive-sha256:36be8065bfe90ad824a198d77443ef6585ffb6a898051b94c4c49a6ff96eff74
-# Source SHA-256: ec73bbda0dcefce267369ab115e9b3e281a1c82448c1fbf84e3eb09059b5b5ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HW-TJ.ANS by Heat Wave (DIVINE); released in div-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Tijuana Jail
-# SAUCE Author: Heat Wave
-# SAUCE Group: DIVINE
-# SAUCE Date: 19950320
-# SAUCE Dimensions: 80x134
-# Lines: 45-88
-# Columns: 1-80
+﻿# Artwork: Tijuana Jail by Heat Wave | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-div-0495-hw-tj-part02
 
 Write-Host '
 [30m███████████[0;36m▄■[0;30m██[0;36m▀▀[0;36;43m▓▓▒▒░[0;33;40m▓[0;36;43m░[0;33;40m▀▀▄▓████[0;1;33;43m░░  [0;33m▀▀▄▄▄▓███▀█▀█[0;1;30;43m░[0;33m▄[0;1;30;43m░ [0;30m█[0;1;30;43m ░[0;30m█[0;1;30;43m░ [0;30m█[0;1;30;43m [0;33m▓[0;1;30;43m [0;30m████████████████[0m

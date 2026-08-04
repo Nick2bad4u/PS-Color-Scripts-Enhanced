@@ -1,17 +1,4 @@
-﻿# Converted from: TR-SUMGY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-01/raw/TR-SUMGY.ANS
-# Source Revision: archive-sha256:426dbb36b724e33c2040ddd8594afb85cb1f6463b96a01a2c52ed58e8dd1db9c
-# Source SHA-256: 85b8cb6c691192da593f264c8ada5657fdc85eacc88e67abf0cc0b8e55c0e05b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-SUMGY.ANS by Trident (Hype.produktions); released in hype-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: some.guy.done.spur.of.the.moment
-# SAUCE Author: Trident
-# SAUCE Group: Hype.produktions
-# SAUCE Dimensions: 80x25
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: some.guy.done.spur.of.the.moment by Trident | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-01-tr-sumgy
 
 Write-Host '
 [1;36;46m▓▓▒▓[0m  [31m░░[0;37m  [0;31m▄[0;1;31;41m▄[0;31m▀▀▄[0;37m  [0;31m▀▄[0;37m  [0;31m▀[0m    [31m▀[0m   [1;33;41m░[0;31m▓▀[0;37m  [0;31m▀[0m       [31m▀[0;1;33;41m░[0;31m█▄▄[0m   [31m░[0;37m [0;1;36;46m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m

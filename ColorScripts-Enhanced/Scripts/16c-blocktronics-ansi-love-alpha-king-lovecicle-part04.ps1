@@ -1,16 +1,4 @@
-﻿# Converted from: alpha_king-lovecicle.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_ansi_love/raw/alpha_king-lovecicle.ans
-# Source Revision: archive-sha256:6bbd631cd11e3473b019590c35c9a89f139f75a09b13e07a93395613241d63e9
-# Source SHA-256: 9b83cde68c8e44a40e20d9632f50ecc257ad19124c8a1b489c40e408370e54a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: alpha_king-lovecicle.ans by Alpha King (blocktronics_ansi_love); released in blocktronics_ansi_love and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20170822
-# SAUCE Dimensions: 80x179
-# SAUCE Font: IBM VGA
-# Lines: 136-180
-# Columns: 1-80
+﻿# Artwork: alpha_king-lovecicle.ans by Alpha King | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-ansi-love-alpha-king-lovecicle-part04
 
 Write-Host '
 [31;43m  [0;30;43m■[0;31;43m  ▒      ▐███████████[0;1;31;41m░░░░[0;31;43m██[0;31;40m▓[0;31;43m▌▐██[0;1;31;41m░░░░░░░░░[0;31;43m█    ▐[0;31;40m▓[0;31;43m    [0;31;40m▓[0;31;43m████[0;31;40m▓[0;31;43m  ░[0;31;40m▓[0;1;31;41m█▓▒ [0;31;43m ▐█[0;1;31;41m░ █[0;1;37;101m░[0;1;31;41m█[0;31m▓[0;31;43m█░[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: TNA-AWE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-12/raw/TNA-AWE.ANS
-# Source Revision: archive-sha256:5c96c14e912296494a464a42e768321452d811693cf172945a9502eb4396c8bb
-# Source SHA-256: 4d19eb9870b8680d59f1e36aeae095c29d4bb1a6a1ab4daaab485ade0db3ebdc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-AWE.ANS by The Night Angel (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: AWE Promotional
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: AWE Promotional by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-12-tna-awe
 
 Write-Host '
 

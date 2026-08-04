@@ -1,16 +1,4 @@
-﻿# Converted from: N!Z-WAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0297/raw/N!Z-WAR.ANS
-# Source Revision: archive-sha256:2e15cb2f2712a143323c9f3c6ecca94c5b5b12a452a019e911d205dd685c6eee
-# Source SHA-256: 7dea15eec9ca8fa1e54aa3a56cd0f40dbd83e412d3c464847da425b7957d2f7e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N!Z-WAR.ANS by noize (phat studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: no war
-# SAUCE Author: noize
-# SAUCE Group: phat studios '97
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: no war by noize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0297-n-z-war
 
 Write-Host '
 [34m▓[0;30;44m░[0;34;40m▌[0m   [1;33;40m▐[0;1;33;41m██[0;31m█████▓▓▀▀▀██[0;1;33;41m▀▀▀▀[0;1;33;40m███▄▄▄▄▄[0;1;33;41m██▀▀▀▀[0;31m██[0;1;33;41m█[0;1;33;40m██[0m  [34m██████████████████████████████████[0m

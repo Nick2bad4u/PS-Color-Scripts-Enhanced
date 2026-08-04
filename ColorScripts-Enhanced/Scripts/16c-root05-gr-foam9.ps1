@@ -1,18 +1,4 @@
-﻿# Converted from: GR-FOAM9.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root05/raw/GR-FOAM9.ANS
-# Source Revision: raw-sha256:f30da7f843d71741a070a76543186f8ec272c93f3614ffd6bee8d974edcd4662
-# Source SHA-256: f30da7f843d71741a070a76543186f8ec272c93f3614ffd6bee8d974edcd4662
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GR-FOAM9.ANS by gree (ROOT\FOS); released in root05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: sticky *yuck?*
-# SAUCE Author: gree
-# SAUCE Group: ROOT\FOS
-# SAUCE Date: 19970531
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: sticky *yuck?* by gree | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root05-gr-foam9
 
 Write-Host '
                                      ▄▄▄▄▄                                  [1;30m  [0m

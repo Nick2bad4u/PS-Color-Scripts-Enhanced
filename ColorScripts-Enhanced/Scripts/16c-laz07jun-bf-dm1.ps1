@@ -1,13 +1,4 @@
-﻿# Converted from: BF-DM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz07jun/raw/BF-DM1.ANS
-# Source Revision: archive-sha256:6a4341d9d0364566769256e4356d86035ad4ee53c0aa654acf41be18e58ca462
-# Source SHA-256: 502c734ddb59e2e78d1863907a198a9aa53f80198c814a6f8ca7631124d0a7a8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BF-DM1.ANS by Boba Fett (laz07jun); released in laz07jun and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: BF-DM1.ANS by Boba Fett | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz07jun-bf-dm1
 
 Write-Host '
 [34m░░[0;30;44m▓[0;34;40m░░░░[0;30;44m▓[0;34;40m░░░[0;30;44m▓[0;34;40m░[0;30;44m▓[0;34;40m░░░░[0;30;44m▓[0;34;40m░░░[0;30;44m▓[0;34;40m░░░░[0;30;44m▓[0;34;40m░░░░░░░░░░░░░░[0;30;44m▓[0;34;40m░░░░░[0;30;44m▓[0;34;40m░░░░░░░[0;30;44m▓[0;34;40m░░░░░░░░░░[0;30;44m▓[0;34;40m░░░▒▒▒▒▒▒▒▓[0m

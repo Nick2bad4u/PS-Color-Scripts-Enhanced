@@ -1,17 +1,4 @@
-﻿# Converted from: GV-ECHO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amb-0003/raw/GV-ECHO.ANS
-# Source Revision: archive-sha256:6c1f5bb711b3a9f527f0db6688312bdf8c740b8b238d72b35c41b715b9f7e0bd
-# Source SHA-256: d1373a3e8c27cda19e492ce1ba4b0f536c3f08bdc048607ee27c25f9ceec0374
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GV-ECHO.ANS by groove (amb-0003); released in amb-0003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: echo
-# SAUCE Author: groove
-# SAUCE Date: 19970608
-# SAUCE Dimensions: 80x12
-# Lines: 1-12
-# Columns: 1-80
+﻿# Artwork: echo by groove | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amb-0003-gv-echo
 
 Write-Host '
   [1;30m░[0m   [1;30m;[0m              [1;30m;░░░░;░[0m [1;30m;[0m  [1;30m;;[0m   [1;30m░ ░  [0m [1;30m;; ░░[0m  [31m  ,s%@S$$[0;1;31m$$$$[0;1;33m$%[0;1;37ms,[0m       [1;30m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US-HZD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend06/raw/US-HZD.ANS
-# Source Revision: archive-sha256:bdb12df6fb66b6e7f7ab1240c15e9b23d66b94ced69828c85c717709162a24eb
-# Source SHA-256: 118eaebda1202083ed875a4c441e944d78a656bd7a6101a6ec7706e80ba12bc2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-HZD.ANS by Tarot + Drynwhyl + Silverspoon (blend+shade); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: hazard
-# SAUCE Author: tr/dw/ph
-# SAUCE Group: blend+shade
-# SAUCE Date: 19970213
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: hazard by Tarot + Drynwhyl + Silverspoon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend06-us-hzd
 
 Write-Host '
      [31m░░[0;37m  [0;31m ▄▄▄▄▄▄▄▄▄[0;37m [0;1;37m░░[0m    ░░            [31m [0m                [33m▌▄[0;1;31m▄▄[0;33m▄[0m

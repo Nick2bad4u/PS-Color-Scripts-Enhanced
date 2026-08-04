@@ -1,18 +1,4 @@
-﻿# Converted from: DY-BLUE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9702/raw/DY-BLUE.ANS
-# Source Revision: archive-sha256:66fa024bb27d2c5c9da5d44e7d12f110f2c57bdedd32c6f0a850d91a30d582a8
-# Source SHA-256: 3e8d6b6f77e44eca94ce146dd168c9ed7c0f2d725e67df42c712336d9345305e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DY-BLUE.ANS by Discyple (AWE Lettering); released in awe9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Blue
-# SAUCE Author: Discyple
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970116
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Blue by Discyple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9702-dy-blue
 
 Write-Host '
                                                   [1;35m▄▄███[0;1;37m█▌ [0;35m▄  ▄▄[0m

@@ -1,0 +1,203 @@
+{
+  "batch": 105,
+  "summary": {
+    "candidateFiles": 9,
+    "evidenceRows": 9,
+    "categoryRows": {
+      "batch105-residual-bad-language": 9
+    }
+  },
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch105-residual-bad-language",
+      "file": "16c-33rules-33-prod2-part02.ps1",
+      "rationale": "Exact text-only residual bad-language cells.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 22,
+          "columnRanges": [
+            {
+              "start": 66,
+              "end": 71
+            }
+          ],
+          "sha256": "c99aa8d14ede8f969781ab133296938582d28d7dbce1ba5acee1a0ce1244b9c3",
+          "expectedRawSha256": "507be0eac0b9ca9d867375b23ce25b7c426671a9accb4ab0fb2835857c43bae8",
+          "expectedRenderedSha256": "47919350ca1be926b7199a97874b72c80e98f3dfe6318195e4b003bb9de2c0ad"
+        }
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch105-residual-bad-language",
+      "file": "16c-asshol-0-us-sacn.ps1",
+      "rationale": "Exact text-only residual bad-language cells.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 18,
+          "columnRanges": [
+            {
+              "start": 13,
+              "end": 19
+            }
+          ],
+          "sha256": "de36ea091bf12e56de62258eaf5c8fa3d1bd768ffa1f6fca44d68903c1224082",
+          "expectedRawSha256": "49e068d22fa98a081b9903e67dd6f10c93eb90cafc5830763fd9dba5121d5f17",
+          "expectedRenderedSha256": "db3915a8af7f49fe3f32bd1cd591a80ef01a9812e21d253cf5428a6b8a0c85fe"
+        }
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch105-residual-bad-language",
+      "file": "16c-atm-0594-fb-gsa1-part02.ps1",
+      "rationale": "Exact text-only residual bad-language cells.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 20,
+          "columnRanges": [
+            {
+              "start": 70,
+              "end": 75
+            }
+          ],
+          "sha256": "a1070f2058af8e56e1b586dfeb41d145b5e387f05072e85ca4a5a4292ac8f47c",
+          "expectedRawSha256": "c7dd21a605c604522a40e36e17cb1883cc73182b2d1f91ecab3f333ff24a64e6",
+          "expectedRenderedSha256": "f1d8b865af2c583806bfa9788e7da8eb72ecdf75ae48ec3f7ea91f2fa7765529"
+        }
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch105-residual-bad-language",
+      "file": "16c-bmb-1196-pyx-drg.ps1",
+      "rationale": "Exact text-only residual bad-language cells.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 2,
+          "columnRanges": [
+            {
+              "start": 20,
+              "end": 26
+            }
+          ],
+          "sha256": "f5a0b73d32775789687a4688fa05bfe5d25a7176280738327a8818859277cd10",
+          "expectedRawSha256": "f409c9beb287db6518c6603c7a3544a6be1f65bcf1cd4a6c104b06820275b81b",
+          "expectedRenderedSha256": "227b452dcc98f6c349b0a5f8c528c36dd28d44bb5975f89e576411e071c5c935"
+        }
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch105-residual-bad-language",
+      "file": "16c-fire1296-ih8numb2.ps1",
+      "rationale": "Exact text-only residual bad-language cells.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 23,
+          "columnRanges": [
+            {
+              "start": 70,
+              "end": 74
+            }
+          ],
+          "sha256": "d551b1724511b32a31ae30a8ec170e04e141f6f4dd189b5052f74eb2a9ed6025",
+          "expectedRawSha256": "77f2fc38b10c170eeeb7ee7c1db893741f7287c05c09f96da92a708130024a08",
+          "expectedRenderedSha256": "4030339b430720b4b5bb3e8a435ca40aff85375f1d48896dacfea1488f3e3b57"
+        }
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch105-residual-bad-language",
+      "file": "16c-k0tpr0be-bw-logof.ps1",
+      "rationale": "Exact text-only residual bad-language cells.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 15,
+          "columnRanges": [
+            {
+              "start": 66,
+              "end": 71
+            }
+          ],
+          "sha256": "b4f5085bff90952ca1ca843f4c025247d2c82f81ce33be77ee9e56594f479704",
+          "expectedRawSha256": "ae69ca04cbdcc64cd5a6f5d8facd95695864fa4eb7108af2e5dda0d5762028dc",
+          "expectedRenderedSha256": "db81893e2403ba5c45587b2d66e1e404d97549b9008305b470ca4611f13243f5"
+        }
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch105-residual-bad-language",
+      "file": "16c-rare-003-nbm-bnlg.ps1",
+      "rationale": "Exact text-only residual bad-language cells.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 9,
+          "columnRanges": [
+            {
+              "start": 55,
+              "end": 70
+            }
+          ],
+          "sha256": "6273a8b459d519ab0763fd9011c8c7441a4c1c29435b9a9b770cd0dea40a1001",
+          "expectedRawSha256": "306db11ff7289001dafc97526ce8024865661d03abc07ca545c4a73d30d53326",
+          "expectedRenderedSha256": "1db74ba248320c48b4772adadfd764e67ecdbeb2b85880701be38bb01fd6714d"
+        }
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch105-residual-bad-language",
+      "file": "16c-rmrs-56-dvn-ani1.ps1",
+      "rationale": "Exact text-only residual bad-language cells.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 22,
+          "columnRanges": [
+            {
+              "start": 36,
+              "end": 43
+            }
+          ],
+          "sha256": "dde986c79e3ca69d96d481caf7d4f5987a4f712d144600cc67dc94d53414fab6",
+          "expectedRawSha256": "362ebebead3ec396271a5f9723ab60f18b147c5970580fb7b602f3fe3e21ca43",
+          "expectedRenderedSha256": "2fd50011b82a6e73f8a934e2afa5a25427e21820778332526a0cf1eaf03935bd"
+        }
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch105-residual-bad-language",
+      "file": "16c-wbt-0195-hw-lost-part01.ps1",
+      "rationale": "Exact text-only residual bad-language cells.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 5,
+          "columnRanges": [
+            {
+              "start": 73,
+              "end": 76
+            }
+          ],
+          "sha256": "256f70ccf17f8f09e02ca245007f6325f062ee3c5f337bb813cf167c77261aba",
+          "expectedRawSha256": "58391d125c1cca5e996b8c412f57124ffe72d6eb290cd291f2b504f24e52b139",
+          "expectedRenderedSha256": "6b5d285e75f71e46a5d9524b0d0e2fad92a7bd4f4667d14bbbe1a46e1a44228c"
+        }
+      ]
+    }
+  ],
+  "schemaVersion": 1,
+  "status": "ready"
+}

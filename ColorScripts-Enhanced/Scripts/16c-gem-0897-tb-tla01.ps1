@@ -1,18 +1,4 @@
-﻿# Converted from: TB!TLA01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gem-0897/raw/TB!TLA01.ANS
-# Source Revision: archive-sha256:f42357457f41a2b5131c00a88d410a22a6062b3d72ae6b43f8ce24ded01ef3c6
-# Source SHA-256: 0367af6325de637836c60fe38343023d217202382cd5ee39b282c17fa19a38c7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TB!TLA01.ANS by techbit (gemfire); released in gem-0897 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: tla logo
-# SAUCE Author: techbit
-# SAUCE Group: gemfire
-# SAUCE Date: 19970725
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: tla logo by techbit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gem-0897-tb-tla01
 
 Write-Host '
                     [32m▄▄▄▄▄░▄▄▄▄▄▄▄▄▄▄[0;35m [0;31m  [0;35m [0;1;35m▄░▄▄▄▄▄▄▄[0m                        [34m░[0m

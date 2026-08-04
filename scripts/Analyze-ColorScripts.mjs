@@ -9,6 +9,7 @@ import { fileURLToPath } from "node:url";
 const require = createRequire(import.meta.url);
 const { convertAnsiToPs1 } = require("./Convert-AnsiToColorScript.js");
 const { extractLinesFromPs1 } = require("./Split-AnsiFile.js");
+const { readArtworkProvenance } = require("./ArtworkProvenance.js");
 
 const ESCAPE_SEQUENCE = /\u001b\[[0-?]*[ -/]*[@-~]/gu;
 const SPLIT_NAME =
@@ -67,6 +68,24 @@ const defaultScriptsDirectory = path.join(
     "ColorScripts-Enhanced",
     "Scripts"
 );
+let checkedInProvenance = null;
+
+function getCheckedInProvenanceEntry(filePath, name) {
+    if (
+        path.resolve(path.dirname(filePath)).toLowerCase() !==
+        path.resolve(defaultScriptsDirectory).toLowerCase()
+    ) {
+        return null;
+    }
+    checkedInProvenance ??= readArtworkProvenance();
+    return checkedInProvenance.scripts.get(name) || null;
+}
+
+function parseProvenanceRange(value) {
+    if (typeof value !== "string") return null;
+    const match = /^(\d+)-(\d+)$/u.exec(value);
+    return match ? { end: Number(match[2]), start: Number(match[1]) } : null;
+}
 const defaultExceptionsPath = path.join(
     scriptDirectory,
     "ColorScriptAnalysisExceptions.json"
@@ -727,20 +746,43 @@ function analyzeAnsiLines(lines) {
 function analyzeScript(filePath) {
     const source = fs.readFileSync(filePath, "utf8");
     const name = path.basename(filePath, path.extname(filePath));
-    const rowMatch = SOURCE_ROW_RANGE.exec(source);
-    const columnMatch = SOURCE_COLUMN_RANGE.exec(source);
+    const provenance = getCheckedInProvenanceEntry(filePath, name);
+    const provenanceRows = parseProvenanceRange(provenance?.SourceRows);
+    const provenanceColumns = parseProvenanceRange(provenance?.SourceColumns);
+    const rowMatch = provenanceRows ? null : SOURCE_ROW_RANGE.exec(source);
+    const columnMatch = provenanceColumns
+        ? null
+        : SOURCE_COLUMN_RANGE.exec(source);
     const splitMatch = SPLIT_NAME.exec(name);
     const header = {};
     for (const match of source.matchAll(HEADER_FIELD)) {
         header[match[1]] = match[2];
+    }
+    if (provenance) {
+        const collection = checkedInProvenance.collections.get(
+            provenance.Collection
+        );
+        const externalFields = {
+            "Converted from": provenance.ConvertedFrom,
+            "SAUCE Comments": provenance.SauceComments,
+            "Source Attribution":
+                provenance.Attribution ?? collection?.Attribution,
+            "Source SHA-256": provenance.SourceSha256,
+            "Source URL": provenance.SourceUrl,
+        };
+        for (const [field, value] of Object.entries(externalFields)) {
+            if (typeof value === "string") header[field] = value;
+        }
     }
     let lines = [];
     let metrics = null;
     let analysisError = null;
     try {
         lines = extractLinesFromPs1(filePath);
-        if (rowMatch) {
-            const expectedRows = Number(rowMatch[2]) - Number(rowMatch[1]) + 1;
+        if (provenanceRows || rowMatch) {
+            const expectedRows = provenanceRows
+                ? provenanceRows.end - provenanceRows.start + 1
+                : Number(rowMatch[2]) - Number(rowMatch[1]) + 1;
             if (lines.length === expectedRows + 1 && lines[0] === "") {
                 // The serializer intentionally puts the opening quote on the
                 // preceding line. That presentation newline is not one of the
@@ -764,10 +806,16 @@ function analyzeScript(filePath) {
         filePath,
         lines,
         header,
-        sourceRowStart: rowMatch ? Number(rowMatch[1]) : null,
-        sourceRowEnd: rowMatch ? Number(rowMatch[2]) : null,
-        sourceColumnStart: columnMatch ? Number(columnMatch[1]) : null,
-        sourceColumnEnd: columnMatch ? Number(columnMatch[2]) : null,
+        sourceRowStart:
+            provenanceRows?.start ?? (rowMatch ? Number(rowMatch[1]) : null),
+        sourceRowEnd:
+            provenanceRows?.end ?? (rowMatch ? Number(rowMatch[2]) : null),
+        sourceColumnStart:
+            provenanceColumns?.start ??
+            (columnMatch ? Number(columnMatch[1]) : null),
+        sourceColumnEnd:
+            provenanceColumns?.end ??
+            (columnMatch ? Number(columnMatch[2]) : null),
         splitBase: splitMatch?.groups?.base || null,
         panel: splitMatch?.groups?.panel
             ? Number(splitMatch.groups.panel)
@@ -776,6 +824,7 @@ function analyzeScript(filePath) {
         metrics,
         analysisError,
         reviewEligible: Boolean(
+            provenance ||
             header["Converted from"] ||
             header["Source URL"] ||
             splitMatch?.groups?.base
@@ -1186,10 +1235,7 @@ function analyzeReviewSignals(records, options) {
             });
         }
         for (const run of metrics.blankRuns) {
-            if (
-                run.kind !== "internal" ||
-                run.rows < options.blankRun
-            ) {
+            if (run.kind !== "internal" || run.rows < options.blankRun) {
                 continue;
             }
             const visibleRowsAfter = metrics.rowVisibleCellCounts
@@ -1204,7 +1250,11 @@ function analyzeReviewSignals(records, options) {
                 rows: run.rows,
                 visibleRowsAfter,
             });
-            if (run.rows >= 8 && visibleRowsAfter > 0 && visibleRowsAfter <= 2) {
+            if (
+                run.rows >= 8 &&
+                visibleRowsAfter > 0 &&
+                visibleRowsAfter <= 2
+            ) {
                 issues.push({
                     type: "orphaned-tail-after-blank-run",
                     family,

@@ -1,18 +1,4 @@
-﻿# Converted from: 0897QUTE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0897/raw/0897QUTE.ANS
-# Source Revision: archive-sha256:cabceb59b7b429d8e4c18b37682b5f04003f1a57c83a21398a4e2582b732a549
-# Source SHA-256: ef74608606e2009965a99eff2a44ed8bc403de46ce823ffc89ca5c7cb9c14c16
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 0897QUTE.ANS by Zeus II (?hh); released in plf-0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dagens quote
-# SAUCE Author: Zeus II
-# SAUCE Group: ?hh
-# SAUCE Date: 19970815
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: dagens quote by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0897-0897qute
 
 Write-Host '
 

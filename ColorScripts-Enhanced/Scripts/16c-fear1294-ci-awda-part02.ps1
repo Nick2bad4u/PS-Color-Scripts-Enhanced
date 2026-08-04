@@ -1,13 +1,4 @@
-﻿# Converted from: CI-AWDA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fear1294/raw/CI-AWDA.ANS
-# Source Revision: archive-sha256:ce48958b81ce02cd7817b7016d49203a4a8b0d17f60c6c2aca6560a372e9e82c
-# Source SHA-256: 96c8634950de0167c91fb26ba5f427eef8229a37663f47eb069b92578fa85038
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CI-AWDA.ANS by Criminally Insane (fear1294); released in fear1294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 42-84
-# Columns: 1-80
+﻿# Artwork: CI-AWDA.ANS by Criminally Insane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fear1294-ci-awda-part02
 
 Write-Host '
                 ▒▒▒██       [1;45m░[0m       █

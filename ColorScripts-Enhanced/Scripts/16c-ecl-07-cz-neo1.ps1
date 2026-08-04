@@ -1,18 +1,4 @@
-﻿# Converted from: CZ-NEO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-07/raw/CZ-NEO1.ANS
-# Source Revision: archive-sha256:3007ab392a2ea4e107d02b3029b445696a097ac55d389caab2dbfe0944556beb
-# Source SHA-256: bd6f66e9ac06ea58f759f40f0c94038aae8a4a257c4c3642a706173bc1a64f76
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CZ-NEO1.ANS by cHEZ (eclipse); released in ecl-07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: nEO-sPORIN
-# SAUCE Author: cHEZ
-# SAUCE Group: eclipse
-# SAUCE Date: 19960821
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: nEO-sPORIN by cHEZ | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-07-cz-neo1
 
 Write-Host '
               █▀▀     ▀▀▀▀▀██▀▀ [1;33m░░[0m        ▀▀▀███▀    [36m▄▄▄▄▄[0m    [37m▀[0;1;37;47m░░[0m█

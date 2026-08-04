@@ -1,13 +1,4 @@
-﻿# Converted from: ER-ER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hn-0996/raw/ER-ER.ANS
-# Source Revision: archive-sha256:8ede9915f0a64fbbede49f7cbfb8456fc4106bc073503874bef856ab2c56b727
-# Source SHA-256: d8433dc3b8435205dbe485138924cba77ac2a76c3a26e5310b8a84ea6a81b2bb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ER-ER.ANS by Erupt (hn-0996); released in hn-0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: ER-ER.ANS by Erupt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hn-0996-er-er
 
 Write-Host '
                                           [36m [0m       [37m        [0;36m.x$[0;1;36mx.[0m

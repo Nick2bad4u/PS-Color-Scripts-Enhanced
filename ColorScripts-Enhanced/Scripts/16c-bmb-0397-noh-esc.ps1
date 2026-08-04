@@ -1,17 +1,4 @@
-﻿# Converted from: NOH-ESC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0397/raw/NOH-ESC.ANS
-# Source Revision: archive-sha256:dbc842066d628a57d7819da260b477c6ec1e4d0ba1a7d08ba504501e875a1ea3
-# Source SHA-256: 4a7e93e75f3d1ca636d6cd4641f2abbc406b0f4ad2df67757578d4021fdd0cfe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-ESC.ANS by nOah! (bmb-0397); released in bmb-0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: escape
-# SAUCE Author: nOah!
-# SAUCE Date: 19970311
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: escape by nOah! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0397-noh-esc
 
 Write-Host '
 

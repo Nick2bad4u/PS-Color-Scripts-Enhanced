@@ -1,19 +1,4 @@
-﻿# Converted from: US-AWE25.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-44/raw/US-AWE25.ANS
-# Source Revision: archive-sha256:6c51508cedeaa9140fcf08750a75edb14e0cec0eebe7b4290346e95cd3548876
-# Source SHA-256: e1df2ba1b1043a05a32345bea9cd63e4bae62b4227cce732e525a14bce155027
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-AWE25.ANS by Tainted + Cleaner (fire); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: awe
-# SAUCE Author: tainted/cleaner
-# SAUCE Group: fire
-# SAUCE Date: 20251111
-# SAUCE Dimensions: 80x30
-# SAUCE Font: IBM VGA
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: awe by Tainted + Cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-44-us-awe25
 
 Write-Host '
            [1;35;40m■[0m

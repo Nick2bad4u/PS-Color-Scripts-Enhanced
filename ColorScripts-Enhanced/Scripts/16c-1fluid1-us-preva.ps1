@@ -1,18 +1,4 @@
-﻿# Converted from: US_PREVA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1fluid1/raw/US_PREVA.ANS
-# Source Revision: archive-sha256:9759ba706afa63d47d6227f5e680e2347d46ae0af2672fb17307d5aaeab19452
-# Source SHA-256: 0f999d24cb23e8cb28a49859269bc8e4f182ac8c2e89f134233119741fade6ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US_PREVA.ANS by President + Delicious (lots); released in 1fluid1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: prevail
-# SAUCE Author: president+delicious
-# SAUCE Group: lots
-# SAUCE Date: 20010520
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: prevail by President + Delicious | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1fluid1-us-preva
 
 Write-Host '
                       ░

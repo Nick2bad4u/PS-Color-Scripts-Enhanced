@@ -1,18 +1,4 @@
-﻿# Converted from: PC-DUCKY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense02/raw/PC-DUCKY.ANS
-# Source Revision: archive-sha256:1d31fbf231dbaabd3efa982aed6b6e20ca5351486dc40a22789602fe7dac5a49
-# Source SHA-256: 277f1e4b11b39bdf0fe3ee44134350bf2e7eb8f33d6e65b4830062b37f9cdd14
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-DUCKY.ANS by Proctologist (SeNsE); released in sense02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The ultimate cleaner
-# SAUCE Author: Proctologist
-# SAUCE Group: SeNsE
-# SAUCE Date: 19970917
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: The ultimate cleaner by Proctologist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense02-pc-ducky
 
 Write-Host '
 [1m [0m

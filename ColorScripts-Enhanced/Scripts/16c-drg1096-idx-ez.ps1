@@ -1,18 +1,4 @@
-﻿# Converted from: IDX-EZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg1096/raw/IDX-EZ.ANS
-# Source Revision: archive-sha256:3bf67f6fa507df2825f9e0d4d9b6e32bfa3182b2c4785835b1b79416dbc87e21
-# Source SHA-256: 3fe6d598cd94f808b37676b96a26f5eba00ab296c35b53caced65114c73217f9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IDX-EZ.ANS by id x (deranged); released in drg1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: E-Zone logo
-# SAUCE Author: id x
-# SAUCE Group: deranged
-# SAUCE Date: 19960427
-# SAUCE Dimensions: 80x25
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: E-Zone logo by id x | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg1096-idx-ez
 
 Write-Host '
 

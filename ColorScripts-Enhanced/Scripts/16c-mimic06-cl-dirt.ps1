@@ -1,18 +1,4 @@
-﻿# Converted from: cl!-dirt.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic06/raw/cl!-dirt.ans
-# Source Revision: archive-sha256:8bb620f7e2d45c448aca0b5581c9e9c89930ea09fe52d491a96fb500206496d4
-# Source SHA-256: 9dfb1ce0b93baa012d305868f567df5fa3d75eb7c3a81e0b2aea3a3ed6d9d2c6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cl!-dirt.ans by Cleaner (Mimic); released in mimic06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Dirt 1983
-# SAUCE Author: Cleaner
-# SAUCE Group: Mimic
-# SAUCE Date: 19981215
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Dirt 1983 by Cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic06-cl-dirt
 
 Write-Host '
                                   [1;36m   [0m

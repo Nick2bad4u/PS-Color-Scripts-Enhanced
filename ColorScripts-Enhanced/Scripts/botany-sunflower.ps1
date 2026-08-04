@@ -1,11 +1,4 @@
-# Converted from: sunflower3.ansi
-# Source encoding: utf8
-# Source URL: https://raw.githubusercontent.com/jifunks/botany/2802121ed8268df1b69584167a14d4c690aaea35/art/sunflower3.ansi
-# Source Revision: 2802121ed8268df1b69584167a14d4c690aaea35
-# Source SHA-256: e02b15f93f48933c3def511369efb843c3f059cc55b4b4ffba8fbafc910e5316
-# Source License: ISC
-# Source Attribution: Jacob Funke (jifunks)
-# Source Conversion Mode: Passthrough
+# Artwork: sunflower3.ansi by Jacob Funke (jifunks) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=botany-sunflower
 
 Write-Host '
 [38;5;7m [38;5;7m [38;5;7m [38;5;7m [38;5;7m [38;5;7m [38;5;7m [38;5;7m [38;5;7m [38;5;7m [38;5;7m [38;5;7m [38;5;3m\[38;5;3m|[38;5;3m|[38;5;3m/[38;5;8m [38;5;8m [38;5;8m [38;5;8m [38;5;8m [38;5;8m [38;5;8m [38;5;8m 

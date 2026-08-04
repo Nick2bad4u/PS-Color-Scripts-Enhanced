@@ -1,18 +1,4 @@
-﻿# Converted from: BYM%WTNG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/303pack2/raw/BYM%25WTNG.ANS
-# Source Revision: archive-sha256:4447fe2b8e8ce42dff70a445f43a7c14612a1a439620389cb1863f2a3b732682
-# Source SHA-256: 20b06ac29dac60a9be4758cf6302bc1d389e905557024baf486f1a5298ff0427
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM%WTNG.ANS by big y3llow man (pHOBIA@!#); released in 303pack2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: wuTANG (soon whq)
-# SAUCE Author: big y3llow man
-# SAUCE Group: pHOBIA@!#
-# SAUCE Date: 19970325
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: wuTANG (soon whq) by big y3llow man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-303pack2-bym-wtng
 
 Write-Host '
 

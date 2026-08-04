@@ -1,18 +1,4 @@
-﻿# Converted from: T-IDLE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook22/raw/T-IDLE.ANS
-# Source Revision: archive-sha256:aec74908b08ab1e6eeb2617f04dd839f89321bd6f70d460ae94d73bdd51d69b6
-# Source SHA-256: 66eafea073067b0ba0febcc7a0e1671a569b92b7db0167ffe1175f20acc51df3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T-IDLE.ANS by toot (black maiden); released in bmbook22 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: idle dreams
-# SAUCE Author: toot
-# SAUCE Group: black maiden
-# SAUCE Date: 20000823
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: idle dreams by toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook22-t-idle
 
 Write-Host '
                    [1;36mtoot[0m        [1;36m black maiden [0m        ▄[1m▄▄▄[0m▄[1;30m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: ESP-SED.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend02/raw/ESP-SED.ANS
-# Source Revision: archive-sha256:bde3c6f5d93583ed2dfd08b87bf2868e7727eb6920f332597388acf9fc15ce92
-# Source SHA-256: 5fd5cfce33916bde953fab480aecaaf197e0c2234fdbaeda941ba449b4b99fef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ESP-SED.ANS by Esparrago (Blend); released in blend02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Sedation
-# SAUCE Author: Esparrago
-# SAUCE Group: Blend
-# SAUCE Date: 19960817
-# SAUCE Dimensions: 80x25
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Sedation by Esparrago | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend02-esp-sed
 
 Write-Host '
                    [33m░░░░░░[0m          [1;30m [0m    [1;30m░░░░░░░[0m    [1;30m   [0;33m      [0;1;30mesp[0;33m▄░░░▄[0m    [32m   ░░░░[0m

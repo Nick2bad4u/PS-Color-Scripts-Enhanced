@@ -1,18 +1,4 @@
-﻿# Converted from: TI-SAM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thst0895/raw/TI-SAM.ANS
-# Source Revision: archive-sha256:93911a377da69cfcde0000e470e3a7eca787ca62b80e55b7c1e6e49b8b7b8d71
-# Source SHA-256: 3b4afe40c597f311624806dbabae2fd1711ca216f35f1fa414d0b1e5b8a82c61
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TI-SAM.ANS by TRiP (THRuSt); released in thst0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Samurai
-# SAUCE Author: TRiP
-# SAUCE Group: THRuSt
-# SAUCE Date: 19950711
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Samurai by TRiP | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thst0895-ti-sam
 
 Write-Host '
     [31m█▄  ▄▀▄  ▄█                                                  █▄  ▄▀▄  ▄█[0m

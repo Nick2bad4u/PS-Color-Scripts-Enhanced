@@ -1,18 +1,4 @@
-﻿# Converted from: E0-BAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zenith01/raw/E0-BAT.ANS
-# Source Revision: archive-sha256:89a769066be1ade04361b16bc2aabeb1a280fe034deee0fe7ee4c75badc7461d
-# Source SHA-256: b566cb2aa9319afc686ff82d3f68cadffb482059b857d7e9621b1e65802354dd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: E0-BAT.ANS by Enzo ((Z)); released in zenith01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: SupahRad Matrix
-# SAUCE Author: Enzo
-# SAUCE Group: (Z)
-# SAUCE Date: 19980526
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: SupahRad Matrix by Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zenith01-e0-bat
 
 Write-Host '
 [31m ▄█[0;1;31;41m▄▄▄▄ [0;31m▄ [0;1;31;41m▄█[0;1;31;47m▄▄[0;1;31;41m▀▀▀[0;31m▀▀▀[0;1;33m  [0;31m  ▄▄▄[0;1;31;41m▄▄██[0;1;31;47m▀▀▀[0;1;31;41m█████████▄[0;31m▄▀[0;1;31;41m▀██▀[0;31m▀[0;1;31;41m▀████[0;1;31;47m██[0;1;31;41m▄[0;31m▄[0;1;31;41m▄[0;1;31;47m█████[0;1;31;41m█▄[0;31m▄ ▀[0;1;31;41m▀██[0;31m█ [0;30;41m [0;1;31;41m▀██[0m

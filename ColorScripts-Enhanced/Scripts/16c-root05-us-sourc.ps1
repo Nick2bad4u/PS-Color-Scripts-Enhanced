@@ -1,18 +1,4 @@
-﻿# Converted from: US-SOURC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root05/raw/US-SOURC.ANS
-# Source Revision: raw-sha256:ac4a98d89ed75f7c4b754449ee6b50698aafec046774dea032cc706e864a2f9f
-# Source SHA-256: ac4a98d89ed75f7c4b754449ee6b50698aafec046774dea032cc706e864a2f9f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SOURC.ANS by Static Addiction + Burnout-Root (Root); released in root05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Source
-# SAUCE Author: s4/bo
-# SAUCE Group: Root
-# SAUCE Date: 19970717
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: The Source by Static Addiction + Burnout-Root | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root05-us-sourc
 
 Write-Host '
 [31m[0;1;30m[0m[1;30m[0m[1;30m[0m[31m,$$$$$$$$$$$''[0;34m,d$$$$$ⁿⁿ$$$$$$b [0;31m$$$$$$$$$$ⁿⁿ$$$$$$$$$$$$$@b,._ [0;1;30m ugly part:[0m

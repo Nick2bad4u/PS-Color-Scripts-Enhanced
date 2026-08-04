@@ -1,18 +1,4 @@
-﻿# Converted from: IGFL3333.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fx-9806/raw/IGFL3333.ANS
-# Source Revision: archive-sha256:205b78b0dc9b01b9235d0f977ebf5a9ed0d12b5b72e9d6e68b3a926965fd1522
-# Source SHA-256: af5a5728c8e71a82caa526bab384d9509440742d36c1ad42a1c32005c523b1c0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IGFL3333.ANS by Flame + Ironghost (Function); released in fx-9806 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Eerie
-# SAUCE Author: Ironghost / Flame
-# SAUCE Group: Function
-# SAUCE Date: 19970726
-# SAUCE Dimensions: 80x25
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Eerie by Flame + Ironghost | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fx-9806-igfl3333
 
 Write-Host '
 [34m▀[0;36m▄░[0m        [37m [0;1;30m▀▓█[0;1;30;43m▓▓▒░[0;33m█▀▀▀▀▀█▓░[0;30;43m▓[0m   [33;40m░[0;30;43m▓[0m     [37;40m [0;33;40m░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;37;40m  [0m       [33;40m▐██▓░[0;30;43m▓[0m            [36;40m▀░▄██▄[0;37;40m [0;34;40m▀▄[0m

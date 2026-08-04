@@ -1,18 +1,4 @@
-﻿# Converted from: RL-SS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1294/raw/RL-SS2.ANS
-# Source Revision: archive-sha256:f8a4b1074b7793df8f3d2e2341b035c3ebc6fa160937f8fe7508c74b4b0317e1
-# Source SHA-256: 03d4c6871153b677ccae6548f649994a786450a247c7a281f545d2c8e92d69f9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL-SS2.ANS by Red Leader (ACiD Productions); released in acdu1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Suicidal Shrimp
-# SAUCE Author: Red Leader
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19941127
-# SAUCE Dimensions: 80x236
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Suicidal Shrimp by Red Leader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1294-rl-ss2-part01
 
 Write-Host '
 ████████████████████████████

@@ -1,16 +1,4 @@
-﻿# Converted from: Banzo9420-Sword_Master.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hpm-002/raw/Banzo9420-Sword_Master.ans
-# Source Revision: archive-sha256:ac1c5734e02a8b9f6dc786a430b6a4555daba27767e3a09c6335e008cfa324e4
-# Source SHA-256: 0de19742146f4ae1daf8215e3a192028a68a86a0130566c1ecce9f0b0760e46b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Banzo9420-Sword_Master.ans by Banzo9420 (hpm-002); released in hpm-002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20220620
-# SAUCE Dimensions: 80x55
-# SAUCE Font: IBM VGA
-# Lines: 29-55
-# Columns: 1-80
+﻿# Artwork: Banzo9420-Sword_Master.ans by Banzo9420 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hpm-002-banzo9420-sword-master-part02
 
 Write-Host '
 [1;31;42m█[0;1;31;101m▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;1;31m████████[0m   [33m█████[0;32m█████[0;1;32;42m░░░[0;32m█████[0;1;32;42m░░░[0;33;42m▀▀[0;37;40m      [0;33;40m█████[0;33;103m█[0;33m  [0;1;31m███[0;1;31;101m▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m

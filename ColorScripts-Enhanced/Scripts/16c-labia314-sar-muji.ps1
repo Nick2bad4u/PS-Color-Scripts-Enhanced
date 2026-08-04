@@ -1,13 +1,4 @@
-﻿# Converted from: sar-muji.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/labia314/raw/sar-muji.ans
-# Source Revision: archive-sha256:704095869b71d0834bb8c83d90c0dddc7803f8a47b5046986cc14c14a7864134
-# Source SHA-256: 8149f3a4146a2b834589e8438a5172355e4f9d7b87121af039703c2887596c98
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sar-muji.ans by Sargon (labia314); released in labia314 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: sar-muji.ans by Sargon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-labia314-sar-muji
 
 Write-Host '
 [35m           .╥yyy╥.      [0;31m     [0;35m_.,[0;31m$$S%╥,._                 __..,,╥[0;1;31m╥╥╥[0;31m,[0;1;31m,.[0m

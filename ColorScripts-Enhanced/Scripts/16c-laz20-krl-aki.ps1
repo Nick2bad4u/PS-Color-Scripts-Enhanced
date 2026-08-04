@@ -1,19 +1,4 @@
-﻿# Converted from: Krl-Aki.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz20/raw/Krl-Aki.ans
-# Source Revision: archive-sha256:d88c3ff3e728f60821a5682143c2fe9e054bc535483ce1618db0798990cb65e8
-# Source SHA-256: 80e1f9e142fd394775392fe3b96d8085499503b39116983739566cd9507c8b30
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Krl-Aki.ans by KRL (Lazarus); released in laz20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Aki
-# SAUCE Author: KRL
-# SAUCE Group: Lazarus
-# SAUCE Date: 20250416
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Aki by KRL | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz20-krl-aki
 
 Write-Host '
 [1;33m██████████████▀[0m       [1;33m███████▀▀       ███████████████▀[0m     [1;33m▓████████████████████[0m

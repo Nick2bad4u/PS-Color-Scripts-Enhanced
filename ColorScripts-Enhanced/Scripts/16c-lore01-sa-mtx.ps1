@@ -1,18 +1,4 @@
-﻿# Converted from: SA-MTX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lore01/raw/SA-MTX.ANS
-# Source Revision: archive-sha256:fc43b93e9a302e7547a088ce455791b9de06a32af663cf260d834f799aafa87c
-# Source SHA-256: 8c39577672e848f22e851082099586928555d33206b840db5477c2d8049367c1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SA-MTX.ANS by Samnesia (Lore); released in lore01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Matrix
-# SAUCE Author: Samnesia
-# SAUCE Group: Lore
-# SAUCE Date: 19981021
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Matrix by Samnesia | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lore01-sa-mtx
 
 Write-Host '
  [1;30;42m▓[0;1;31;40m      [0;33m   [0;1;31m  [0m  [1;31m [0;33m▀▀▀[0;1;31;43m▒▒▒▒▒▓▓▓▓████████████████████▓▓▓▓▓▓▓▓▓[0;33m▀▀▀▀▀▀▀▀[0m   [33m ▄▄▄▄▄▄▄ [0;1;31m   [0m

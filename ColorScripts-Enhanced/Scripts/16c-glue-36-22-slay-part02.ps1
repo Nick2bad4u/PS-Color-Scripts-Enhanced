@@ -1,18 +1,4 @@
-﻿# Converted from: 22-SLAY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-36/raw/22-SLAY.ANS
-# Source Revision: archive-sha256:bf477dfe5f73a7addcb3cfde3273a28cc631116bf697d10a376cdba3af8b6c78
-# Source SHA-256: 122d4a53ca17c3d16f944c5a83f3327b81ed1b48e36dfe0678be26537835cfc0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 22-SLAY.ANS by catch22 (glue); released in glue-36 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: someone call animal rights!
-# SAUCE Author: catch22
-# SAUCE Group: glue
-# SAUCE Date: 20011201
-# SAUCE Dimensions: 80x71
-# Lines: 36-71
-# Columns: 1-80
+﻿# Artwork: someone call animal rights! by catch22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-36-22-slay-part02
 
 Write-Host '
 [1;33m█[0;1;37m█[0;1;33m██████████████████████████▌ [0m        [1;33m ▄███████▄▀▀ ▐▄      █████████████████████[0m

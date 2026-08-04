@@ -1,18 +1,4 @@
-﻿# Converted from: 32-MOOSE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0197/raw/32-MOOSE.ANS
-# Source Revision: archive-sha256:331ffa2c0b41c075aec836339cfb4b33b33b171a17da17bd721952cf3966c823
-# Source SHA-256: 41b54c524bc26dd5de6d60264422b56655155b0bfd1f28b1005c44f06f3573b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 32-MOOSE.ANS by ezy (bamboosh); released in bmb-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: moose city
-# SAUCE Author: ezy
-# SAUCE Group: bamboosh
-# SAUCE Date: 19961219
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: moose city by ezy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0197-32-moose
 
 Write-Host '
 [1;34;44m [0;1;34;40m██▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;34;44m▀[0;1;34;40m███████▓▓████[0;1;34;44m▓[0;1;34;40m██▀[0m [34m▄[0;1;34;44m▄[0;1;34;40m██████████▀[0m  ▄[1m▄▄▄▄[0;1;47m▄[0;1;40m██[0;1;47m▓▓▓[0;1;40m▄[0m  [1;34;44m░[0;1;34;40m██[0;1;34;44m▓▓[0;1;34;40m██▓▓████[0m

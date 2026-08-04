@@ -1,18 +1,4 @@
-﻿# Converted from: PH!DISP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stl-003/raw/PH!DISP.ANS
-# Source Revision: archive-sha256:f05577e69788bf833b2eeb503583305cc9119acc157823c14e039d65d70a6838
-# Source SHA-256: 2be39d33a353bc058d11039533be02467a7036f213732347e476eaa743e3d823
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PH!DISP.ANS by Pharcyde (stiLe!); released in stl-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: disphobia
-# SAUCE Author: Pharcyde
-# SAUCE Group: stiLe!
-# SAUCE Date: 19951217
-# SAUCE Dimensions: 80x54
-# Lines: 27-54
-# Columns: 1-80
+﻿# Artwork: disphobia by Pharcyde | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stl-003-ph-disp-part02
 
 Write-Host '
 [1;33m▓▓▓▓▓▒▓▓▓▓▒░[0m [33m▀▀▓[0;1;30;43m░░[0;33m▒░░[0;37m  [0;1;31m▄▄▄▄▄▄▄▀▀▄███████▄▄▄[0;1;37m▀▀▀[0;1;37;47m▓[0;1;37;40m██[0m [1;47m▓▓[0;1;40m████[0m [1;47m▓[0;1;40m▀▀[0;1;31;40m▄[0;33m███▌[0;1;31m [0m

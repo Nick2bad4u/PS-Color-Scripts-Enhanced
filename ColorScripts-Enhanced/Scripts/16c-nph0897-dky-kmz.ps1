@@ -1,19 +1,4 @@
-﻿# Converted from: DKY-KMZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph0897/raw/DKY-KMZ.ANS
-# Source Revision: archive-sha256:3814486a94ec4aaadfe2d1cd2baab60cc94248206ac9cb229e7270a0d2a533fc
-# Source SHA-256: 1a7d388609c595f72cb67fc31e5e19ed461312c4318bc6c6fea6312f5c56b041
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DKY-KMZ.ANS by .dky. (.nitrophusion.); released in nph0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: .kromozome placid logo.
-# SAUCE Author: .dky.
-# SAUCE Group: .nitrophusion.
-# SAUCE Date: 19970704
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: .dedicated to voodoo puppet and gOO-r00, the biozax wizzahz.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: .kromozome placid logo. by .dky. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph0897-dky-kmz
 
 Write-Host '
               [34m▀█[0;1;34;44m▄[0;34m▄▄▄▄[0m          [34m▀  ▀▓▓▄▄▄▄▄░░▄▄[0m                     [36m▀   ▀▄▄[0m

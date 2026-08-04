@@ -1,13 +1,4 @@
-﻿# Converted from: DN-DOA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/digipak1/raw/DN-DOA1.ANS
-# Source Revision: archive-sha256:91077cec8c9e5ca4ff6c8fcea9cd3e9cbc93394f873aaace19109619a61d761d
-# Source SHA-256: e5add01a561832bc8fc266c5c8eaebdb2a314dc459a037d4f6acaee328260025
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DN-DOA1.ANS by Dark Ninja (digipak1); released in digipak1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: DN-DOA1.ANS by Dark Ninja | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-digipak1-dn-doa1-part01
 
 Write-Host '
                   [34m▄[0m

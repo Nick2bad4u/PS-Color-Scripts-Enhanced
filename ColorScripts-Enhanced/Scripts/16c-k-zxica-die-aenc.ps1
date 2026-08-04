@@ -1,13 +1,4 @@
-﻿# Converted from: DIE-AENC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-zxica/raw/DIE-AENC.ANS
-# Source Revision: archive-sha256:098212bcd3fc250902be7ae08340a23e99b29f8fa69fe7b4990238a6d402d1f6
-# Source SHA-256: 7e367adfc9855dab54afcde16410eceeb5b2130d32f9acd2d42090eacd7fcffe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DIE-AENC.ANS by Dieznyik (k-zxica); released in k-zxica and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: DIE-AENC.ANS by Dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-zxica-die-aenc
 
 Write-Host '
                                                    [1;30m░░[0m [1;30m▄[0m▄▄[1;30;47m▀[0;30;47m░[0;1;37;47m░░░▄▄[0m▄▄▄

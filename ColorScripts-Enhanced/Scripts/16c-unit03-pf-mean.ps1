@@ -1,18 +1,4 @@
-﻿# Converted from: PF-MEAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/unit03/raw/PF-MEAN.ANS
-# Source Revision: archive-sha256:14397867310c247896cee9ae85588007c2e913800ae4fa325b0eb998bbd62f6a
-# Source SHA-256: e36aff87c5e6c802c456568bdd90d3db91d8cfb06c619074b87e53110203492a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PF-MEAN.ANS by puff (UNiT Productions); released in unit03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: mean guy
-# SAUCE Author: puff
-# SAUCE Group: UNiT Productions
-# SAUCE Date: 19961122
-# SAUCE Dimensions: 80x25
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: mean guy by puff | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-unit03-pf-mean
 
 Write-Host '
                      [1;30m [0m    [1;30m   [0m_,[1;30m╖a%SSSS%a╖ _,╖a%SSS%a╖,_[0;1;37m [0m

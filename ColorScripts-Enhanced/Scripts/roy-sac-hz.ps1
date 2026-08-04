@@ -1,13 +1,4 @@
-﻿# Converted from: ROY-HZ.ANS
-# Source encoding: CP437
-# Source URL: https://www.roysac.com/images/galleries/ZIP/Roy_ANSI.ZIP
-# Source Revision: archive-sha256:8598a9432b4feb86c4e79552795b407b9d7c576fb6f25e9828d6143f1c7b35bc
-# Source SHA-256: 815458de4c4d4be0c3e35ae79efa60f2f32dcb57a7571480adf024e2542b4a7b
-# Source License: FAL-1.3
-# Source Attribution: ROY-HZ.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: ROY-HZ.ANS by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-hz
 
 Write-Host '
                                                            [1;30m▄▄▄▄[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: 09-NEO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9702/raw/09-NEO1.ANS
-# Source Revision: archive-sha256:66fa024bb27d2c5c9da5d44e7d12f110f2c57bdedd32c6f0a850d91a30d582a8
-# Source SHA-256: c143bf99f0449a31426756694cdda06db640c81908f6b344d300a4bee93455b0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-NEO1.ANS by Fluor (AWE Lettering); released in awe9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Neosporin
-# SAUCE Author: Fluor
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Neosporin by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9702-09-neo1
 
 Write-Host '
    [1m░[0m [1m [0m    [1m░[0m         [1m░[0m      ■    [1m░ [0m [1m [0m     ■                  [1m░ [0m  [1m  [0m■[1m  [0m      [33m░[0;37m [0;1;37m░[0m

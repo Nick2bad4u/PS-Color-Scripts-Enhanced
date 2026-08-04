@@ -1,18 +1,4 @@
-﻿# Converted from: rl-elite.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gen-08/raw/rl-elite.ans
-# Source Revision: archive-sha256:de1fb48c6dbe733c03717f643e0436c78be60ace5ba3be7fc4fd3b476c0d4de2
-# Source SHA-256: ddb7dc1c7d27f643cfcf72585e00d2c9125c249c068bc64985b492e6429f3c78
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: rl-elite.ans by rawlock (genuine); released in gen-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: i'm back
-# SAUCE Author: rawlock
-# SAUCE Group: genuine
-# SAUCE Date: 19991129
-# SAUCE Dimensions: 80x69
-# Lines: 37-69
-# Columns: 1-80
+﻿# Artwork: i'm back by rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gen-08-rl-elite-part02
 
 Write-Host '
  [1;33m ██▀▀[0m [33m▄▄▄▄[0m   [1;33m▀[0;1;33;43m█[0m  [1;31;43m░░[0;33m████▀[0;1;31m    [0;33m▄[0;1;31m▄▄▄▄▄▄▄[0;33m▄[0;1;31m    [0;33m▀[0;1;31;43m▀[0;1;31;40m████████[0;1;31;43m█[0;33m▌[0;1;31m     [0;33m▄[0;1;31m▄[0;1;31;43m▄[0;1;31;40m██[0;1;31;43m▄[0;1;31;40m▄▄[0;33m▄▄▀[0;1;31m   [0;1;33;43m▓[0;1;33;40m███▄▀█[0m

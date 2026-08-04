@@ -1,18 +1,4 @@
-﻿# Converted from: BT-NIHIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger06/raw/BT-NIHIL.ANS
-# Source Revision: archive-sha256:efc6b6d6892fe7f05c3b06052b1d79464b7ee8ab8c7bee2d77361e00cf941f28
-# Source SHA-256: 20b0c793979472c50e9357e154191fb05f722cd6f033494ade906893fb51ec18
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BT-NIHIL.ANS by buzztone (ANGER PRODUCTIONS); released in anger06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: B00MER's - NiHiL - RIP THE SYSTEM!
-# SAUCE Author: buzztone
-# SAUCE Group: ANGER PRODUCTIONS
-# SAUCE Date: 19960118
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: B00MER's - NiHiL - RIP THE SYSTEM! by buzztone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger06-bt-nihil
 
 Write-Host '
 [1m[0;1;36m[0;36m[0;1;37m[0;36m[0;1;37m[0;36m[0;1;37m[0;36m[0;1;37m[0;36m[0;1;36m[0;1;37m[0;36m[0;1;37m[0;36m[0;1;36m[0;36m[0;1;37m[0;36m[0;1;37m[0m[34m███████████▌[0;35m██[0;1;35;45m▀ [0;35m███[0;1;35;45m▀ ▄[0;35m█▀██[0;1;35;45m▄[0;35m█[0;1;35;45m  [0;35m▐[0;1;35;45m ▄ [0;35m██[0;1;35;45m   [0;35m█[0;1;35;45m ▄ ▄[0;35m███▐██[0;1;35;45m ▄[0;35m█▀▐█[0;1;35;45m  ▄[0;35m███[0;1;35;45m▀[0;35m██[0;37m [0;30;43m▀▀[0;37;40m [0;35;40m█[0;1;35;45m▄[0;35m█[0;37m [0;35m█[0;1;35;45m▄[0;35m███▐[0m

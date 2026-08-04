@@ -1,18 +1,4 @@
-﻿# Converted from: SHL%XPO3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/expose-3/raw/SHL%25XPO3.ANS
-# Source Revision: archive-sha256:c524942ac8d53334a2dddf3999dcc9e9f427d4f637a4395c37c9577462457908
-# Source SHA-256: 7dfa2147648bedd6173843019e412f466639791ca22117da25e66d5116732592
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SHL%XPO3.ANS by shizzl (<-- (xpo) -->); released in expose-3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: expose #3
-# SAUCE Author: shizzl
-# SAUCE Group: <-- (xpo) -->
-# SAUCE Date: 19970604
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: expose #3 by shizzl | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-expose-3-shl-xpo3
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-H61.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ega-one/raw/AVE-H61.ANS
-# Source Revision: archive-sha256:6a85c974a9d93a6c5723067b661851124ae90b1e81eb1a1d35a289b0099b8ffc
-# Source SHA-256: 2271a24f878b6d23b40478ad3a7a9d23d450c19a03bb654324384654a066001c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-H61.ANS by avenger (ega); released in ega-one and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hazard/2
-# SAUCE Author: avenger
-# SAUCE Group: ega
-# SAUCE Date: 19961007
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: hazard/2 by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ega-one-ave-h61
 
 Write-Host '
                                                               [30;47m▓▓[0;37;40m▄[0;1;37;40m▄▄[0m

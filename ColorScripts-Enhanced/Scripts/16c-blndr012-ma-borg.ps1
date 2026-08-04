@@ -1,13 +1,4 @@
-﻿# Converted from: MA-BORG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr012/raw/MA-BORG.ANS
-# Source Revision: archive-sha256:85afd90470dcc9c6da39bf81c0e72eacde470fdefeb7850c5fb95f1834e06df4
-# Source SHA-256: 5c23059804c2e2d052f59db0cdfe4f57e428bf4f3487cd42177c2f1081cc9fd0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MA-BORG.ANS by Mafesto (blndr012); released in blndr012 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: MA-BORG.ANS by Mafesto | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr012-ma-borg
 
 Write-Host '
 ░░░░░░░[1;30m▀▀▀ [0;34m▄▄[0;1;34m▄▄▄ [0;1;30m▀▀▀[0m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░

@@ -1,19 +1,4 @@
-﻿# Converted from: krl-dreamstate.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz21/raw/krl-dreamstate.ans
-# Source Revision: archive-sha256:daa0e008ccfccc8179e0635097f8fe4a46a32781b45bbd86ff6e4505514c9e6d
-# Source SHA-256: 0a41d5e98c997df75031e139a6704673573ad123ff2f96e0e52b39fa5be9c61b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: krl-dreamstate.ans by krl (Lazarus); released in laz21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Dream State
-# SAUCE Author: krl
-# SAUCE Group: Lazarus
-# SAUCE Date: 20260304
-# SAUCE Dimensions: 80x242
-# SAUCE Font: IBM VGA
-# Lines: 201-241
-# Columns: 1-80
+﻿# Artwork: Dream State by krl | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz21-krl-dreamstate-part05
 
 Write-Host '
  [1m██████████████[0;1;47m▄[0;1;40m████████████▄████[0;1;47m▀[0;1;40m▀▀[0m▀    ▄[1m████████[0;1;47m▄[0m▄  █[1m█████[0;1;47m▄[0m      ▄[1;47m▄[0;1;40m███████[0m▄

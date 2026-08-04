@@ -1,18 +1,4 @@
-﻿# Converted from: FU-CF4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9611/raw/FU-CF4.ANS
-# Source Revision: archive-sha256:2b73e149488dc761d99422832825743596588d59e58f9bfecfb5d0e9dbffd274
-# Source SHA-256: d1fcec348a1630835ea792973a74f35af62c210de469c0c464a00ea894a68987
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FU-CF4.ANS by Fury (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Chronic Farts
-# SAUCE Author: Fury
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961101
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Chronic Farts by Fury | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9611-fu-cf4
 
 Write-Host '
 [31m▀[0;34m ▀[0;37m [0;34m▀▀▀▀▀▓███▓▓░░░░▓▓[0;1;34;44m░▓[0;1;34;40m▄▄[0;1;37;40m▄[0;34m [0;30;44m▓▒▓▓[0;34;40m ░[0;31;40m░[0;34;40m [0;30;44m▓░[0;34;40m ░░▓▀[0;37;40m  [0;34;40m▀▀▀▀▀[0;1;34;44m░[0;34m▀▀▀[0;30;44m░[0;34;40m▓[0;1;34;44m░▓░[0;44m░▒▓▓█[0;1;40m▄[0;1;33;40m▄▄[0m [1;30m░▒░░[0m [31m ▄■[0;37m [0;31m▄[0;1;31;41m░░▓[0m

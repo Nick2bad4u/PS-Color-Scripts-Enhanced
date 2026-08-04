@@ -1,13 +1,4 @@
-﻿# Converted from: 3_69.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ai-1299/raw/3_69.ANS
-# Source Revision: archive-sha256:f4c9c5ee8fa32dffa863044f16a58d3c1ce2d0c1fe58aad2e67f1ebc5477c5e4
-# Source SHA-256: 6a38df83f5912e42ce714349f5e050fc676946168f85960403ab5f92446b05ef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 3_69.ANS by Seltorn (ai-1299); released in ai-1299 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: 3_69.ANS by Seltorn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ai-1299-3-69
 
 Write-Host '
  [1;37m [0m                                 ┌────────[1;37m  ▄▄▄ [0m──────[1;37m [0m─[1;37m [0m──[1;37m [0m─[1;37m  [0m─[1;37m [0m─[1;37m [0m──[1;37m [0m─────┐

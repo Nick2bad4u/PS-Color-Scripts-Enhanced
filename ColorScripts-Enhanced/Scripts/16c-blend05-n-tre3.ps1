@@ -1,18 +1,4 @@
-﻿# Converted from: N#TRE3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend05/raw/N%23TRE3.ANS
-# Source Revision: archive-sha256:3346c70671a4c24e002cb42d75f3af112f478c146f28bb98b9942b55d0894a44
-# Source SHA-256: 266e8cbb6e8a13124a8a32cc9500507d5f4773969949d6ed6bf8457a1cdb1e44
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N#TRE3.ANS by nos (blend); released in blend05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: tre
-# SAUCE Author: nos
-# SAUCE Group: blend
-# SAUCE Date: 19970114
-# SAUCE Dimensions: 80x25
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: tre by nos | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend05-n-tre3
 
 Write-Host '
 

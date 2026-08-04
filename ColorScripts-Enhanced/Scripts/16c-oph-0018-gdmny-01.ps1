@@ -1,17 +1,4 @@
-﻿# Converted from: GDMNY-01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oph-0018/raw/GDMNY-01.ANS
-# Source Revision: archive-sha256:b78bc978b69dedfb9a07152cba296ecefc97611bd7bc7f5211d489ff748613dc
-# Source SHA-256: 8e251695a0b27d3a0271bc5b01f62ce46e56f0d8c4c16b7a4ff4554044308baf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GDMNY-01.ANS by god money (oph-0018); released in oph-0018 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: _ 12[[[[[[[[[[[[[[[[[[[[[__  [2
-# SAUCE Author: god money
-# SAUCE Date: 19960917
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: _ 12[[[[[[[[[[[[[[[[[[[[[__ [2 by god money | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oph-0018-gdmny-01
 
 Write-Host '
 [1;34m░[0;34m   [0m

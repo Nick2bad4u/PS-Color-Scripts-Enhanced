@@ -1,13 +1,4 @@
-﻿# Converted from: DIE-NMAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-zxica/raw/DIE-NMAL.ANS
-# Source Revision: archive-sha256:098212bcd3fc250902be7ae08340a23e99b29f8fa69fe7b4990238a6d402d1f6
-# Source SHA-256: 7fe3b79ab9c2b951a8d06a0eb7f860ce791e10b66e79c950e640db9cac780a65
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DIE-NMAL.ANS by Dieznyik (k-zxica); released in k-zxica and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: DIE-NMAL.ANS by Dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-zxica-die-nmal
 
 Write-Host '
 [31m[0;1;31m[0;31m[0;36m[0;30m[0m                                                              [30;42m▓▓[0m

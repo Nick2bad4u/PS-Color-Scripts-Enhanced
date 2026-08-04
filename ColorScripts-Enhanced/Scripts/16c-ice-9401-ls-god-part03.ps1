@@ -1,13 +1,4 @@
-﻿# Converted from: LS-GOD.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9401/raw/LS-GOD.ICE
-# Source Revision: archive-sha256:28c2a17c965dec6a0723040e48f9d01daba4f6802cfeb3f3aca86eb658570671
-# Source SHA-256: 1f9b23bfdeaae6da28d7ae5e39c456bee8371bb01ec8e5407d57454470187862
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LS-GOD.ICE by Lord Soth + Hell Raiser (ice-9401); released in ice-9401 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 91-129
-# Columns: 1-80
+﻿# Artwork: LS-GOD.ICE by Lord Soth + Hell Raiser | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9401-ls-god-part03
 
 Write-Host '
                                         [33;40m░ [0;1;30;40m▓▓▓▓░▒▓▓ [0;33m▀▄▓█[0;37;43m░░[0m [1;30;40m▄▄[0m

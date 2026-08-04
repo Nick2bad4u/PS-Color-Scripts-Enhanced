@@ -1,19 +1,4 @@
-﻿# Converted from: ak-vault.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz15/raw/ak-vault.ans
-# Source Revision: archive-sha256:d35f5b18ac3e8cbe3d6d17eab809a7e050609a8e3cc7d160d14a87c59a191c12
-# Source SHA-256: 2b2b49560250ef4be6cdc051ba1bfbdacccaf25cb089ea895aa0206c15677a61
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ak-vault.ans by abstrakt (lazarus); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the vault
-# SAUCE Author: abstrakt
-# SAUCE Group: lazarus
-# SAUCE Date: 20220625
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: the vault by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz15-ak-vault
 
 Write-Host '
   [35m [0;37m   [0;35m [0;37m     [0;35m [0;37m   [0;1;30m  [0m [35m [0;37m   [0;35m [0;37m   [0;1;30m   [0;35m [0;37m   [0;35m [0;37m         [0;1;30m         [0;33m ⌐  ┐        ┌ [0m

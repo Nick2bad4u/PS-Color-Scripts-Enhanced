@@ -1,18 +1,4 @@
-﻿# Converted from: 43-IDLE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper03/raw/43-IDLE.ANS
-# Source Revision: archive-sha256:96c1272030a36fd5502bf2f34e681c795192c7d49fac9a2ab5dd4a5a2bf5606c
-# Source SHA-256: 0bedaab6e8725b62d604679ee8478a380a2a646b6e646b1c7415af247be271b0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 43-IDLE.ANS by aesthetic (the jasper project); released in jasper03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: idle dreams promo
-# SAUCE Author: aesthetic
-# SAUCE Group: the jasper project
-# SAUCE Date: 20020211
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: idle dreams promo by aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper03-43-idle
 
 Write-Host '
 

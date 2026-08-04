@@ -1,18 +1,4 @@
-﻿# Converted from: CC-GOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ane-1195/raw/CC-GOD.ANS
-# Source Revision: archive-sha256:db13b95bab45be59576e9c40a0246c6356b7a8244e034c959637c25406670a85
-# Source SHA-256: a6722f370771166d43e16abdf7366e9dcb81f1770e652a66c1f3fd697bab5efd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CC-GOD.ANS by Clorox Cowboy (anemia productions); released in ane-1195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Grounds of Despair Pic #1
-# SAUCE Author: Clorox Cowboy
-# SAUCE Group: anemia productions
-# SAUCE Date: 19951102
-# SAUCE Dimensions: 80x119
-# Lines: 55-86
-# Columns: 1-80
+﻿# Artwork: Grounds of Despair Pic #1 by Clorox Cowboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ane-1195-cc-god-part02
 
 Write-Host '
 [0m[0m███████████     ▐▓████▓▐█▐█▀▓▄███▀ [33m███[0;37m ▀██[0;1;36;47m░[0m█▓[1;36;47m▒[0m█▀██[1;36;47m░[0m██[1;36;47m░[0m█▓▌       ██▀███▓█████████

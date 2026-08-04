@@ -1,13 +1,4 @@
-﻿# Converted from: PF-CONV3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stl-0296/raw/PF-CONV3.ANS
-# Source Revision: archive-sha256:2a7c2972214cdcf66c05bb3cc15c513aafb38f4486172bc95b40d735e509a060
-# Source SHA-256: 33ce0afa4f4a1d165fca8fed9db6e852c3227ff1bb066574f89bdc0101d981e6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PF-CONV3.ANS by Pfezzyo (stl-0296); released in stl-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 49-96
-# Columns: 1-80
+﻿# Artwork: PF-CONV3.ANS by Pfezzyo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stl-0296-pf-conv3-part02
 
 Write-Host '
 [1;37;47m  [0m▓▒░[1;30m█[0m [1;36;46m░[0;36m▌[0;37m [0;1;36;46m▓▒[0m   [36m▐▌[0m            [33m▄[0;37m  [0;1;31m▄[0;1;31;43m██▓[0;1;31;40m▌[0;33m▄[0;1;31;43m░▒[0;33m▄▄[0;37m  [0;1;30m▀[0;1;30;43m▓▒░░░▒▓[0;33m   [0;1;31m▐[0;1;31;43m████▓▒░[0;1;30;43m░▒[0;1;30;40m▌[0;1;30;43m▓▒[0m [1;30m▄[0;33m ▀[0;37m [0;1;30m▄[0m▒[1;30m▀[0m [1;30m▄▄▓[0m

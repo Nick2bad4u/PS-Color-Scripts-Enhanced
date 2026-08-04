@@ -1,18 +1,4 @@
-﻿# Converted from: PR_SUML.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak6/raw/PR_SUML.ANS
-# Source Revision: archive-sha256:b4f7c93716eee392b3e6c14cf967ef8fe1e7f7b1161a577fdbf227e863cb53fa
-# Source SHA-256: ff4621df1610d1020514f3ccab008adbddaa4808395adacb96fc881da75a4d06
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR_SUML.ANS by president (ecolove); released in ecl-pak6 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: sumatra logoff
-# SAUCE Author: president
-# SAUCE Group: ecolove
-# SAUCE Date: 19980425
-# SAUCE Dimensions: 80x47
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: sumatra logoff by president | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak6-pr-suml
 
 Write-Host '
                                                         [1;32m▄▄[0;1;32;42m [0;32m█████▄▄ [0m

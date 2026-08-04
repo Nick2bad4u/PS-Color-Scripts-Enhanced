@@ -1,19 +1,4 @@
-﻿# Converted from: US-PIRATES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0620/raw/US-PIRATES.ANS
-# Source Revision: archive-sha256:7ee88774d07aa7bf9773f823f6d0b751342570148302f09cda1c046c6d496e0a
-# Source SHA-256: 900a448996c81c06777d08e95c0ee8efb0771ceb771334613c85217888e7df9e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PIRATES.ANS by Polyducks + Rhoq + Mig_Moog (Mistigris); released in mist0620 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Pirates!
-# SAUCE Author: Textmode Friends
-# SAUCE Group: Mistigris
-# SAUCE Date: 20200615
-# SAUCE Dimensions: 80x300
-# SAUCE Font: IBM VGA
-# Lines: 201-250
-# Columns: 1-80
+﻿# Artwork: Pirates! by Polyducks + Rhoq + Mig_Moog | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0620-us-pirates-part05
 
 Write-Host '
 [34;46m▄[0;1;30;46m▄▀[0;1;30;45m▀[0;35m█[0;34m██[0;36;44m▀[0;36;40m█[0;1;30;46m▄[0;1;30;40m█[0;35m█[0;34m█[0;36m██[0;1;36m██[0;36m█[0;1;30;45m▄[0;34;45m▀[0;34;40m█[0;34;46m▄[0;36;40m█[0;1;36;40m██[0;36m█[0;35m█[0;34m█[0;36;44m▄[0;34;40m█[0;36;44m▄[0;36;40m█[0;1;36;46m▄[0;1;36;45m▄[0;35;44m▄[0;34;40m██[0;36;44m▄[0;36;40m██[0;1;36;46m▄[0;1;36;44m▄[0;35;44m▄[0;34;40m████[0;36;44m▄▄▄[0;35;44m▄[0;34;47m▄▄[0;34;40m██[0;34;47m▄▄[0;34;40m██████[0;36;44m▄[0;36;40m██[0;36;44m▄▄[0;34;40m███████[0;1;30;40m██[0;36m███[0m

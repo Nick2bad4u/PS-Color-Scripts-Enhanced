@@ -1,18 +1,4 @@
-﻿# Converted from: JR_GOAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook22/raw/JR_GOAT.ANS
-# Source Revision: archive-sha256:aec74908b08ab1e6eeb2617f04dd839f89321bd6f70d460ae94d73bdd51d69b6
-# Source SHA-256: 30698e8dd5464a357348b3ae81b7a2eeeabd716fa00a824a9edd9bb2d3ba5d14
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_GOAT.ANS by jerusalem (boil^black_maiden); released in bmbook22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: goatonzos
-# SAUCE Author: jerusalem
-# SAUCE Group: boil^black_maiden
-# SAUCE Date: 19980115
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: goatonzos by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook22-jr-goat
 
 Write-Host '
 

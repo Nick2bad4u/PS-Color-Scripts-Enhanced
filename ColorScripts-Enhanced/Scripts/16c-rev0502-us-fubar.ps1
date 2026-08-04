@@ -1,18 +1,4 @@
-﻿# Converted from: Us-fubar.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0502/raw/Us-fubar.ans
-# Source Revision: archive-sha256:98bfa3cc78c733050b0c647e7e0271e7623e3c31e4f40f218a00b89b2165c771
-# Source SHA-256: 7473e052b6f7ce7143cc3f74f4aaa665a8ad400866118b753d1796c037cbbc69
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Us-fubar.ans by ZeusII %% ZNH (Revival/?); released in rev0502 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: FUBAR
-# SAUCE Author: ZeusII %% ZNH
-# SAUCE Group: Revival/?
-# SAUCE Date: 20020419
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: FUBAR by ZeusII %% ZNH | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0502-us-fubar
 
 Write-Host '
 [31m  ▀▀▀█████[0;1;31;41m▀▀▀▀████████[0;1;31;40m▌[0m     [31m█  [0;1;35;41m▄▐██▌[0;31m   [0;1;31;41m░[0;31m░[0m   [31m▀▀▀██▄▄▄█▀▀[0;1;35;41m▀▀▄▄ [0;31m▓[0;1;31m▒[0;31m▒[0m               [31m▄[0;1;31m░[0m

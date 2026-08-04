@@ -1,17 +1,4 @@
-﻿# Converted from: TNA-FCOL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9702/raw/TNA-FCOL.ANS
-# Source Revision: archive-sha256:66fa024bb27d2c5c9da5d44e7d12f110f2c57bdedd32c6f0a850d91a30d582a8
-# Source SHA-256: 608357d7f76f6fb05902d575793f27edc965706b08d6f2d092f97742678c4b0e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-FCOL.ANS by The Night Angel (AWE Lettering); released in awe9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Oneliners [FC]
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Oneliners [FC] by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9702-tna-fcol
 
 Write-Host '
  [31m▄[0;1;31;41m▄[0;31m███▄ [0;37m▀[0;1;37;47m▄▄[0;1;37;40m███[0;1;37;47m█▓▒░░[0;30;47m░[0;37;40m▓[0;30;47m▒[0;37;40m▒░[0;30;47m▓[0m [1;31;40m▄[0;1;31;41m▀▀[0;31m█[0;31;47m▓[0;31;40m██[0;1;31;40m▄[0;1;31;41m▀▀  [0;1;33;41m░[0;31m░ [0;1;31m▄▄▓[0;1;31;41m▀[0;31m██▓░  [0;1;31m▄[0;1;31;41m▀▀[0;31m██▓▒░ [0;1;37m░▒▓[0;1;37;47m█▀[0;1;37;40m▀[0m▀ [31m▄ ▀[0;1;31;41m▀[0m  [31m▄ ▀▀▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: CG-SALT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge15/raw/CG-SALT.ANS
-# Source Revision: archive-sha256:11a79c92e9fc8c892f1f79f19699fe30da6c6fb4d0229d77725e757a82129c1a
-# Source SHA-256: 66155876098bd408a275820047efdb9f9ade5e83322253a5f0fd0402833474a8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-SALT.ANS by cryogenic (avenge); released in avenge15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: salt
-# SAUCE Author: cryogenic
-# SAUCE Group: avenge
-# SAUCE Date: 19990318
-# SAUCE Dimensions: 80x102
-# Lines: 35-68
-# Columns: 1-80
+﻿# Artwork: salt by cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge15-cg-salt-part02
 
 Write-Host '
 [1;30m [0m  [31m▐██▀[0m   [31m▀██▀▀ [0;37m ▄[0;1;37;47m▄▄[0m▄  ▄▄[1m [0m  ▄[1;47m▄[0m ▄[1;47m░[0m▀  [1;47m▓[0;1;40m▄[0;1;33;40m▄[0;1;37;47m▄[0;1;37;40m█[0;1;37;47m▄[0;1;37;40m▄▄[0;1;37;47m▄[0;1;33;40m▓▄[0;33m▄[0;1;33m░░[0;1;37;47m [0m▄  [31m▀▀▀[0m   [31m▀▀▀██▀▀███[0;1;31;41m░[0m  [1;33m░[0m

@@ -1,20 +1,4 @@
-﻿# Converted from: wa-mandiesinspace.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel30/raw/wa-mandiesinspace.ans
-# Source Revision: archive-sha256:e3148e82a669aa484baf0738069fbabe44ba2824856e1cb4b05875b86bdd4621
-# Source SHA-256: c956c35347974e6533930e052bfd0b5d2eec5714284e332d9a4d3e619a6f29a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-mandiesinspace.ans by warpus (FUEL); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Man dies in space
-# SAUCE Author: warpus
-# SAUCE Group: FUEL
-# SAUCE Date: 20190614
-# SAUCE Dimensions: 80x76
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Inspired by the Wojciech Golczewski album cover
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Man dies in space by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel30-wa-mandiesinspace-part01
 
 Write-Host '
 

@@ -1,19 +1,4 @@
-﻿# Converted from: SO-NEXS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/trip0297/raw/SO-NEXS2.ANS
-# Source Revision: archive-sha256:3315e4ec7736887989951e067242a6db29d5b6a5bb4ab8f07eec71fbf5276280
-# Source SHA-256: 42ef12551692873dbd5ab3a3cef2f3b00d424f2e0570af7253a2630b0a59101e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SO-NEXS2.ANS by Soopaphunky (tripp'n biznotch!); released in trip0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Nexus bbs...
-# SAUCE Author: Soopaphunky
-# SAUCE Group: tripp'n biznotch!
-# SAUCE Date: 19970118
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: cool little 25 liner...
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Nexus bbs... by Soopaphunky | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-trip0297-so-nexs2
 
 Write-Host '
            [1;30m [0;1;33m [0;31m  [0;1;30m   [0;31m  [0;1;33m  [0;31m ▐ [0m   [1;30m           [0m   [1m [0m

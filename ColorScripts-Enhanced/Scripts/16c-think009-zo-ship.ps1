@@ -1,17 +1,4 @@
-﻿# Converted from: ZO-SHIP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/think009/raw/ZO-SHIP.ANS
-# Source Revision: archive-sha256:a97f33364c41bbc99c9277d272dc5201a0732c520c8843f7c589cee9cd39daf9
-# Source SHA-256: fe130d2836109107fe053e6e3c0f87940a8dbddbf438a26d5af05e47f2138be8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZO-SHIP.ANS by zoob (think); released in think009 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ship
-# SAUCE Author: zoob
-# SAUCE Group: think
-# SAUCE Dimensions: 80x49
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: ship by zoob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-think009-zo-ship
 
 Write-Host '
 [36m[0m

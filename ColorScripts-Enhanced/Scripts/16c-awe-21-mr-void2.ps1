@@ -1,18 +1,4 @@
-﻿# Converted from: MR-VOID2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-21/raw/MR-VOID2.ANS
-# Source Revision: archive-sha256:d980c3e2187ff0ef4bb9edce960381dc01c8374df0b01b4ddb8d104484f4b936
-# Source SHA-256: e82c642f1138df9c450566c565bf31cbd3916fe4c79520376d9cfa38076c3959
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-VOID2.ANS by Mr. Wrong (AWE Lettering); released in awe-21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Void
-# SAUCE Author: Mr. Wrong
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19990113
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: The Void by Mr. Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-21-mr-void2
 
 Write-Host '
        [1;30m▄▀▀▄ [0;33m   [0m        [33m      [0m         [33m  [0;37m [0;36m▄[0;1;36m [0;1;37m░[0;1;36m  [0;36m▄[0m   [1;36m░[0m [33m    [0m                 [34m▄[0;33m [0m

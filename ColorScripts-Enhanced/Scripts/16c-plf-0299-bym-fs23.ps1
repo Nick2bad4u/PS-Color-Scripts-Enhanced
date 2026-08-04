@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-FS23.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0299/raw/BYM-FS23.ANS
-# Source Revision: archive-sha256:57e7c91b1786691e95d6debf77d3c8e4fd7e77416307edfb34a7cd247bdbf1c2
-# Source SHA-256: 167883d259d6df2375ce20dae2ff67d3e2069692610c22d9e0608bf3d5d6ca02
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-FS23.ANS by bym303:a (poffelipoff); released in plf-0299 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fsol (23lines)
-# SAUCE Author: bym303:a
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19990223
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: fsol (23lines) by bym303:a | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0299-bym-fs23
 
 Write-Host '
 [1;33m[0;35m[0;1;32m[0m[35;43m█▓[0;35;40m [0;35;43m▀[0;33;40m▀[0;30;47m█[0;33;40m▄▌[0;30;47m█[0;33;40m▄█▀▄[0;1;37;43m▄[0;33m█▄[0;30;47m█[0;33;40m▄█[0;31;40m  ░[0;30;41m▓[0;31;40m░▒[0;30;41m▒▒[0;31;40m▒▓[0;30;41m░░[0;31;40m▓██████████████▄▄▄[0;30;47m████[0;33;40m▀[0;35;43m▀▀███▄[0;33;40m▄▄▄[0;35;40m▀▀▀██[0;35;43m▀▀[0;33;40m█[0;1;37;43m░░[0;33m▄▄▀▀[0;35;43m▀██[0m

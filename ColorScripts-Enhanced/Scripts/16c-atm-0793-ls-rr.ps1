@@ -1,13 +1,4 @@
-﻿# Converted from: LS-RR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/atm-0793/raw/LS-RR.ANS
-# Source Revision: archive-sha256:2791ea7960360c43fee92e39a37f109c33350847675dee72209056037e0dfd3e
-# Source SHA-256: 436008b376bd7af89d6c91b81105c57afb89e7b81b3fd7c58f9a7545ffc60a9c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LS-RR.ANS by Lord Scarlet (atm-0793); released in atm-0793 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: LS-RR.ANS by Lord Scarlet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-atm-0793-ls-rr
 
 Write-Host '
    [33m▓▓▒[0m

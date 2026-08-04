@@ -1,18 +1,4 @@
-﻿# Converted from: CPH-3EJM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-012/raw/CPH-3EJM.ANS
-# Source Revision: archive-sha256:4b822377f08e44404edc6b006616be9a58b9ffc0848d36336fc9de37f7065343
-# Source SHA-256: e2c2ca6ea0ac3cb563147cfec3f8aadbb932c66ec9ee758ed3145f05f12c8aa9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-3EJM.ANS by cyberpunch (rIb); released in rib-012 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 3EJ main menu
-# SAUCE Author: cyberpunch
-# SAUCE Group: rIb
-# SAUCE Date: 19980901
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: 3EJ main menu by cyberpunch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-012-cph-3ejm
 
 Write-Host '
                                                    [1m   [0m

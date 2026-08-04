@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-B420.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-40/raw/ZIR-B420.ANS
-# Source Revision: archive-sha256:aff8105c0a955ac5c43ea367a02b086cd2849f6741fc41b8a5ff440b77e104a7
-# Source SHA-256: 3ed6767771df5d38820b25c85f4bed6fbdbb3a28f78c2e7ff580022e7857b627
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-B420.ANS by zir (FiRE); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: DRAGON HOT YOGA GROW OP
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20240707
-# SAUCE Dimensions: 80x77
-# SAUCE Font: IBM VGA
-# SAUCE Comments: for blender 4/20/2024: | DRAGON / HOT YOGA / GROW OP
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: DRAGON HOT YOGA GROW OP by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-40-zir-b420-part01
 
 Write-Host '
                  [31;40m░[0;37;40m [0;1;30;40m░░[0m   [1;30m░░[0;31m░[0;37m [0;1;30m░░[0m  [1;30m░░░[0m ░ [1;30m░░  [0;36m░[0;1;30m ░  ░░  [0;36m░[0;1;30m ░  ░░  ░ ░░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: CZ-ICEAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-1195/raw/CZ-ICEAD.ANS
-# Source Revision: archive-sha256:471abdff49e14b47a2aa568e1d6f9131b48488a5ff449d7366f19b849bba9c9f
-# Source SHA-256: 84ea6e688d9dadedfa308dc9471c0762dade1236571564111a72272dbc77dae0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CZ-ICEAD.ANS by Caze (fsn-1195); released in fsn-1195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: CZ-ICEAD.ANS by Caze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-1195-cz-icead
 
 Write-Host '
 

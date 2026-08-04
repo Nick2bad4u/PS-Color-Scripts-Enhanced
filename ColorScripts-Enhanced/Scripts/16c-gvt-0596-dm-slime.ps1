@@ -1,18 +1,4 @@
-﻿# Converted from: DM-SLIME.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gvt-0596/raw/DM-SLIME.ANS
-# Source Revision: archive-sha256:f2fd877c7a0bae39c5f44298c1713c8be39cba6ec4746c1081cbff581fa31626
-# Source SHA-256: 838398ac7d9efb6251c5ae2e4d3bbfc0ec228a4123f993218eb83af8c61a15fb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DM-SLIME.ANS by domino (gravity); released in gvt-0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: slime line hdr
-# SAUCE Author: domino
-# SAUCE Group: gravity
-# SAUCE Date: 19960403
-# SAUCE Dimensions: 80x14
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: slime line hdr by domino | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gvt-0596-dm-slime
 
 Write-Host '
  [31m▐█▌[0m    [32m▄[0;1;32;42m░▒▓▓[0;1;32;40m▄[0m                                   [1m▄[0m [1m▄[0m                    [31m▄███▄[0m

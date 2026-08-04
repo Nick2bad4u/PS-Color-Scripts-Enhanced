@@ -1,17 +1,4 @@
-﻿# Converted from: VBOY-DOB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-06/raw/VBOY-DOB.ANS
-# Source Revision: archive-sha256:23bf7a2dd40d2b6120f5e578427d7f6ab3055fd2a788b1f3e27f63e9880c5fa0
-# Source SHA-256: e8dafa9697a4524ecc628fdbf2118a0ce014dec9c3feda1554d5581384f25ff7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VBOY-DOB.ANS by VibroBoy (nph-06); released in nph-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Doberman
-# SAUCE Author: VibroBoy
-# SAUCE Date: 19970608
-# SAUCE Dimensions: 80x25
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Doberman by VibroBoy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-06-vboy-dob
 
 Write-Host '
 [1;44m                                                                               [0;1;37;44m [0m

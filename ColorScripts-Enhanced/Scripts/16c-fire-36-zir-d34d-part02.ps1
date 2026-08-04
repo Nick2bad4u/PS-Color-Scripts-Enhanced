@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-D34D.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-36/raw/ZIR-D34D.ANS
-# Source Revision: archive-sha256:43e7d46e56dc094cf8502b299dcd82ee875dea0a064a36248f4e6c844180fd25
-# Source SHA-256: 369ca2a1d50b1c434e22be59f06fe2fbc62cada1d1bec045be78759539b0eb41
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-D34D.ANS by zir (FiRE); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ANSi aRT sAVES LiVES
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20230303
-# SAUCE Dimensions: 80x60
-# SAUCE Font: IBM VGA
-# SAUCE Comments: a lo fidelity re-affirmation, for these disturbing times.
-# Lines: 50-60
-# Columns: 1-80
+﻿# Artwork: ANSi aRT sAVES LiVES by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-36-zir-d34d-part02
 
 Write-Host '
                                                         [34m░[0;1;34m░░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: LI-HAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hn-0196/raw/LI-HAN.ANS
-# Source Revision: archive-sha256:f6510bc83b70b952effda1d67fe5f574e81ab4b61d3fc76297963039371fb384
-# Source SHA-256: d842219a33d19a93a3a0a0e8e4a7e8edad73bb3fedea77a575710202c4598328
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LI-HAN.ANS by Lithium (hn-0196); released in hn-0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: LI-HAN.ANS by Lithium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hn-0196-li-han
 
 Write-Host '
                 [31m▐[0m

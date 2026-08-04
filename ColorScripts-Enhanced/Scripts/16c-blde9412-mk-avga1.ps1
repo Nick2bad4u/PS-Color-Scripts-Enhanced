@@ -1,18 +1,4 @@
-﻿# Converted from: MK-AVGA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9412/raw/MK-AVGA1.ANS
-# Source Revision: archive-sha256:b41d15e15138a70f793bdbf1405cc315054550aa9ff9ddbf322f906870d2a6d0
-# Source SHA-256: 77ab6e37272d254215667930f6adcd9b1574097dab7efa3c6b4cda6c4defca5e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MK-AVGA1.ANS by Modeus Khahn (Blade Productions); released in blde9412 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Avga Logo
-# SAUCE Author: Modeus Khahn
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19941107
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Avga Logo by Modeus Khahn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9412-mk-avga1
 
 Write-Host '
 [36m░[0;36;46m [0;36;40m█[0;36;46m [0;36;40m██▓███████████████████[0;1;30;46m░░▒▓[0;1;30;40m▀▀▀ [0;1;36;40m▄▄▄[0;1;36;46m▒░[0;36m█[0;36;46m  [0;36;40m███[0;1;36;46m░▒[0;1;36;40m▄▄▄ [0;1;37;40m▀▀▀[0;1;37;46m▓▒░░ [0;36m██▀▀▀▀▀▀▀▀▀▓████████▓[0m

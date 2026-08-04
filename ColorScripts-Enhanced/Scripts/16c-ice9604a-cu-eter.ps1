@@ -1,18 +1,4 @@
-﻿# Converted from: CU-ETER.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9604a/raw/CU-ETER.ICE
-# Source Revision: archive-sha256:a8f8a3430f1223583f5ba829d23fcb523e4712909ac7211db98ebd0249624ef2
-# Source SHA-256: c3334db0329a8e7f10abacb54eec0d78cf07f5ab32e4557ca6df5465222cd5fa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CU-ETER.ICE by Cold and Ugly (iCE); released in ice9604a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Eternity's Salvation
-# SAUCE Author: Cold and Ugly
-# SAUCE Group: iCE
-# SAUCE Date: 19960501
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Eternity's Salvation by Cold and Ugly | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9604a-cu-eter
 
 Write-Host '
 [33m███▀▀▀        ▄▄▄▄███▄    [0;37m [0;33m▄█████[0;1;33;43m░░░ [0;33m▀▀[0m     [33m ▄▄▄█▀▀▀▀▀█▀▀██▀███████████████████[0m

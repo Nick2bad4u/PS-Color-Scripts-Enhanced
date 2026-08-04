@@ -1,18 +1,4 @@
-﻿# Converted from: PC-ENEMA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense11/raw/PC-ENEMA.ANS
-# Source Revision: archive-sha256:0690b90402a70581c8f215d3ac545dcd69504e18bce536e07fefa6abfa4129ef
-# Source SHA-256: 0a3e6cd3bd8b26531a5c67fed9411fa4acfb1268be4f68baf44fd1d286b4efa5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-ENEMA.ANS by Proctologist (SeNSE); released in sense11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: cow dung
-# SAUCE Author: Proctologist
-# SAUCE Group: SeNSE
-# SAUCE Date: 19980707
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: cow dung by Proctologist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense11-pc-enema
 
 Write-Host '
 [1;30m$$$$$$$$$$$P╜`[0;35m,╖dP╜ⁿ"^`[0;1;30m_,,,[0m [35md$`[0;1;30m,╥╥╥,[0;35m`"4b[0;37m [0;1;30m`?P╜╜ⁿⁿ"""""ⁿⁿ╜?$''[0m [35md$''[0;1;30m,╥gggg╥,[0;35m``"ⁿ?$b,[0;1;30m`[0m

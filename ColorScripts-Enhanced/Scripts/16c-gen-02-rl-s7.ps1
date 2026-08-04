@@ -1,17 +1,4 @@
-﻿# Converted from: rl-s7.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gen-02/raw/rl-s7.ans
-# Source Revision: archive-sha256:a8bb305fa74299fe2b84ac6a7c53e3f231aa6311f01121f9650c819a93a468d5
-# Source SHA-256: 4eb52fbf53e1fd4ca2c4a6e24680937119ec9fa0629e2cfe80a39fd617110b9b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: rl-s7.ans by rawlock (gen-02); released in gen-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: sectorseven
-# SAUCE Author: rawlock
-# SAUCE Date: 19990110
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: sectorseven by rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gen-02-rl-s7
 
 Write-Host '
        ▄[1;37m▄▄[0m▄

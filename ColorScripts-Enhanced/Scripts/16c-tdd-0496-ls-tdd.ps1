@@ -1,13 +1,4 @@
-﻿# Converted from: LS!-TDD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tdd-0496/raw/LS!-TDD.ANS
-# Source Revision: archive-sha256:e39cb58dd97a963ca2842d090864750adebc6aee5ed43d58b324a5ab270fe5a7
-# Source SHA-256: e227910f64811a3b012eca2d75d972b7fc9f297017374367feb48b9056815fc5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LS!-TDD.ANS by Luke Skywalker (tdd-0496); released in tdd-0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: LS!-TDD.ANS by Luke Skywalker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tdd-0496-ls-tdd
 
 Write-Host '
      [35m`S,[0;33m`$[0m                                                          [33m$S''[0;35m,&''[0m

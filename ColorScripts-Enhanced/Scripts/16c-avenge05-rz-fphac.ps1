@@ -1,18 +1,4 @@
-﻿# Converted from: RZ-FPHAC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge05/raw/RZ-FPHAC.ANS
-# Source Revision: archive-sha256:615f93ac3e9f6dbb8b5c0af3b04c28ece4dfc24ad41847f78024e1caa01cce6c
-# Source SHA-256: a3981a91e7f133f809d5319d7c414eea0014cdabbbda0e4e41b03a02a8edfb1a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RZ-FPHAC.ANS by _rz (avenge cult); released in avenge05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fear factor
-# SAUCE Author: _rz
-# SAUCE Group: avenge cult
-# SAUCE Date: 19980510
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: fear factor by _rz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge05-rz-fphac
 
 Write-Host '
 [1;31m▓▓[0;1;31;41m▒▒[0;1;33;41m [0;1;31;41m▓▓▓▓[0;1;33;41m [0;31m████[0;1;31;41m▌[0;31m█[0;1;33;41m [0;30;41m░[0;31;40m▓▓[0;30;41m░[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;37;40m [0;30;41m▓[0;31;40m░[0;1;30;40m  [0;33m█▐  ▐[0;1;31;43m ▒▓█████████████[0;1;31;47m▓█[0;1;31;43m███▀[0;1;31;40m▀[0;1;31;43m▀[0;1;31;47m▓[0;1;31;43m████████[0;1;31;40m█████[0;1;31;43m▓▒[0;33m▀[0;1;30m▄[0;33m▌[0;31m▌█[0m

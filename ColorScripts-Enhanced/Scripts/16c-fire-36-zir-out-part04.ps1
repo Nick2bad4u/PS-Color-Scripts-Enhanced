@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-OUT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-36/raw/ZIR-OUT.ANS
-# Source Revision: archive-sha256:43e7d46e56dc094cf8502b299dcd82ee875dea0a064a36248f4e6c844180fd25
-# Source SHA-256: 4da46166406e83d7c65e3103610300cc0bfb60eaa9af2e8e09cfb63cc5c2e283
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-OUT.ANS by zir (FiRE); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: outrage industry!!!
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20230303
-# SAUCE Dimensions: 80x200
-# SAUCE Font: IBM VGA
-# SAUCE Comments: last buffalo of commodity.
-# Lines: 151-200
-# Columns: 1-80
+﻿# Artwork: outrage industry!!! by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-36-zir-out-part04
 
 Write-Host '
  [36m▒[0;1;33;42m░░░░░[0;36m████████████████[0;1;36;46m         [0;1;34;46m ░░░▒▒█[0;1;34;40m█▄[0m        [34m▒▓█████▓▓░[0m       [35m▒▓▌[0;34m▀█[0;36;44m░░░[0;34;40m██[0;31;44m░░[0;34;40m░[0m

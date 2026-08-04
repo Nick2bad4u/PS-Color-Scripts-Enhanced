@@ -1,18 +1,4 @@
-﻿# Converted from: TF-TC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ane-0296/raw/TF-TC.ANS
-# Source Revision: archive-sha256:3968cc056bf297febf6892374e4caf7ab79dd8410790f6f7be0cb58cc17cd856
-# Source SHA-256: 0fb51d13248425e80e24830765ed2086b1b3fa46c5ede2b2b703b2e96a60b8fc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TF-TC.ANS by The Fool (.;:Anemia:;.); released in ane-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Total Chaos
-# SAUCE Author: The Fool
-# SAUCE Group: .;:Anemia:;.
-# SAUCE Date: 19960127
-# SAUCE Dimensions: 80x25
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: Total Chaos by The Fool | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ane-0296-tf-tc
 
 Write-Host '
 [1;30m                    [0m

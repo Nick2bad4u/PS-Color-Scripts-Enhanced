@@ -1,13 +1,4 @@
-﻿# Converted from: KK-IIMTX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thst0895/raw/KK-IIMTX.ANS
-# Source Revision: archive-sha256:93911a377da69cfcde0000e470e3a7eca787ca62b80e55b7c1e6e49b8b7b8d71
-# Source SHA-256: 3da7a753db0d15774ecaac8dd222d8ea9d6f2d217f59327a1c73126e092c1bad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KK-IIMTX.ANS by Kamikaze (thst0895); released in thst0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: KK-IIMTX.ANS by Kamikaze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thst0895-kk-iimtx
 
 Write-Host '
   [1;30m▄░[0;1;31m▄▄[0;1;31;43m▒[0;1;31;40m██▄▄[0;1;30;40m█░▒▄ ■░ ░[0m      [1;30;40m░ [0;1;31;40m▄▄▄▄▄▄▄[0;1;30;40m░  ▄▓█▀▀[0;1;34;40m▓▄▄▓▄▄▄▄▄▄▄▓▄▄▄▓▄▄▄▄▄▄▓[0;1;30;40m▀▀ ▀▀▀▄▓▀▀▀▀▄[0m

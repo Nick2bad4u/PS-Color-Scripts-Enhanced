@@ -1,18 +1,4 @@
-﻿# Converted from: ano-woe.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gen-02/raw/ano-woe.ans
-# Source Revision: archive-sha256:a8bb305fa74299fe2b84ac6a7c53e3f231aa6311f01121f9650c819a93a468d5
-# Source SHA-256: 412e95e7160ad46de491f4bb11adeec8e91aa24024f35ed85ac9028d42fe6e38
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ano-woe.ans by anomite (genuine); released in gen-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: woezine
-# SAUCE Author: anomite
-# SAUCE Group: genuine
-# SAUCE Date: 19990104
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: woezine by anomite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gen-02-ano-woe
 
 Write-Host '
 [1;32;42m▄[0;32m▄▄▄▄[0m               [32m░[0;30;42m▓[0;32;40m░[0;37;40m [0;1;30;40m░░░[0m [33m░[0;30;43m▓[0;33;40m░[0m   [35;40m░[0;30;45m▓[0;35;40m░[0;30;45m▓[0;35;40m░[0;30;45m▓[0m           [36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0m

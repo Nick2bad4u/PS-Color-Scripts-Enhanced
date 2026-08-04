@@ -1,17 +1,4 @@
-﻿# Converted from: TST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1296/raw/TST.ANS
-# Source Revision: archive-sha256:a5937ea873f32af89503c110a1f21b4a92739816aac229c57b84fb609f8133cd
-# Source SHA-256: a98d3b819c02b4718ec352c535042fe78f28f1a1c7dd2a460d447a4f203a9cef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TST.ANS by Iodine (mist1296); released in mist1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Screaming Tomato
-# SAUCE Author: Iodine
-# SAUCE Date: 19960120
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: The Screaming Tomato by Iodine | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1296-tst
 
 Write-Host '
              [36m▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: AS-TFTD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-27/raw/AS-TFTD.ANS
-# Source Revision: archive-sha256:268d6733492cd762a602dad2d82b4950aab62a1c27ccd388f9e4fd4220a519e2
-# Source SHA-256: bddaed2042e6dfaeae0369b21c88e3b75f0728e8d699424e45d3ed1e2162602b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AS-TFTD.ANS by Asd (sclr-27); released in sclr-27 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: AS-TFTD.ANS by Asd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-27-as-tftd
 
 Write-Host '
 [37;40m                                                                                [0m

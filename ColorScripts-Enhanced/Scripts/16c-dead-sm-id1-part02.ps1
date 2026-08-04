@@ -1,13 +1,4 @@
-﻿# Converted from: SM-ID1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dead/raw/SM-ID1.ANS
-# Source Revision: archive-sha256:42002c7465322e6567b6ada22b7d24270f500cdc26769d5efac519e13d8ec757
-# Source SHA-256: 4164fb6c98239a1357b3beb7f39ed7c5467fc9364e81e0faa712946a3601a6e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-ID1.ANS by Soundmaster (dead); released in dead and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-75
-# Columns: 1-80
+﻿# Artwork: SM-ID1.ANS by Soundmaster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dead-sm-id1-part02
 
 Write-Host '
  [30;41m▄▄ [0m  [30;41m [0m                         [30;41m▄▄  [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: we-HTC.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_resvolution/raw/we-HTC.ans
-# Source Revision: archive-sha256:d0690af9ec91bf96f335196e9f9ddfb5d7ea02d97d300b53301bebaf58d83c35
-# Source SHA-256: 892feb15b96a50c258ba635239d05ab9cd59e61d8eb40ab7db9f4cc3b47783d5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-HTC.ans by Avenging Angel + Retribution + Zerovision + Enzo + Capsone (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 95-141
-# Columns: 1-80
+﻿# Artwork: we-HTC.ans by Avenging Angel + Retribution + Zerovision + Enzo + Capsone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-resvolution-we-htc-part03
 
 Write-Host '
 [1;34;44m░[0;34m█[0;30;47m██[0;1;34;44m░[0;34m▌▐[0;30;47m█[0;1;34;40m█[0;34m██[0;1;34;44m▐▌[0;34m▌[0;30;47m█[0;34;40m▐█[0;1;34;44m░░[0;34m█▀▀▀▀▀▄▄▄▄▄█[0;30;47m█[0;34;40m█[0;30;47m█[0;34;40m█[0;30;47m█[0;34;40m█▓▓▓█▄[0;33;40m▀[0;30;47m█[0;34;40m▀[0;33;40m▄▀[0;30;47m██[0;1;34;44m░[0;34m█[0;30;47m█[0;34;40m██▀▀▀[0;1;34;40m▄▄[0;1;34;44m▀▀[0;34m█▀[0;30;47m█[0;34;40m▄▀[0;32;40m▄█[0;30;47m█[0;1;37;42m██[0;1;32;42m██▄[0;1;32;40m▄[0;32m▄[0;30;47m██[0;32;40m▀▀[0m

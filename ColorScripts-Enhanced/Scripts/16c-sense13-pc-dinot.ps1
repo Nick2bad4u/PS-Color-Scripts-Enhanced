@@ -1,18 +1,4 @@
-﻿# Converted from: PC-DINOT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense13/raw/PC-DINOT.ANS
-# Source Revision: archive-sha256:b0563618478d6216eb6bd83ff569d789b2e87f637bf95d7f88699f5b40df3192
-# Source SHA-256: 2147ede858e5d316f97f390c41268fabe1890373cab167411382952a7322f2f5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-DINOT.ANS by Proctologist (SeNSE); released in sense13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Dinotion bbs software
-# SAUCE Author: Proctologist
-# SAUCE Group: SeNSE
-# SAUCE Date: 19980914
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Dinotion bbs software by Proctologist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense13-pc-dinot
 
 Write-Host '
                        [1;35m_.,╖[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: N-SG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0297/raw/N-SG.ANS
-# Source Revision: archive-sha256:12d66e55bc50470ef328e6f9ec21c65dbe558f61a1cf46f5aac359e3cb051dfe
-# Source SHA-256: c806e3a61a633961490dc27cad6688decb7bf0aedac89555eec6349cdcbbdc76
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-SG.ANS by nail (fire0297); released in fire0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: spinal gamma
-# SAUCE Author: nail
-# SAUCE Date: 19970126
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: spinal gamma by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0297-n-sg
 
 Write-Host '
 [31m▄[0;1;31;41m▄[0;1;31;47m▓[0;1;31;41m██[0;1;31;47m▄▓▓[0;1;31;41m█▀[0;31m▀▀░[0;1;37m  [0m▄▄[1m▄[0;1;47m▄▄[0;1;40m███[0;1;47m▓░[0;1;30;47m▀▀[0;1;30;40m▄▄[0m [31m▀[0;1;31m▀▌■▄▄▄[0;1;31;47m▓▓[0;1;31;40m█▄▄▄[0;31m▄[0;1;31m▄▄▄[0;31m▄ [0;1;31m▄[0;1;31;41m█[0;31m▌▀[0m                    [1;31m▐▀[0;1;31;41m▓▄[0;31m▄[0;37m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MEND-SM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-02/raw/MEND-SM.ANS
-# Source Revision: archive-sha256:3fd9f194d865cfc24c90bdf11a27528d8d82a8ba9c376ebed567183a2f95a9f3
-# Source SHA-256: ed606f63b3b018e77947ac828e9135d5a76239fdb732eca2597364f9910131d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MEND-SM.ANS by mendator (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: seth molytic
-# SAUCE Author: mendator
-# SAUCE Group: nerp
-# SAUCE Date: 19971102
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: seth molytic by mendator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-02-mend-sm
 
 Write-Host '
       [30;47m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;37;40m      [0;30;47m▓▓▓▓▓▓▓▓▓[0;37;40m     [0;30;47m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;37;40m     [0m

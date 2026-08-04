@@ -1,18 +1,4 @@
-﻿# Converted from: AS-OBT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9602/raw/AS-OBT.ANS
-# Source Revision: archive-sha256:5e4639f25c539923328bf5d3dcaf0345f7881a951b04cd174712ef6ec2433a3a
-# Source SHA-256: 6c252f08be01baf0af3af5bc75f2512584d713c8ce5de09587b66373eb343240
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AS-OBT.ANS by altered state (blade productions); released in blde9602 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the obituary
-# SAUCE Author: altered state
-# SAUCE Group: blade productions
-# SAUCE Date: 19960204
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: the obituary by altered state | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9602-as-obt
 
 Write-Host '
        ▄▄▄▄▄              ▄▄

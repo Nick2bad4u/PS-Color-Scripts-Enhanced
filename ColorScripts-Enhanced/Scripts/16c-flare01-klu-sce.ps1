@@ -1,13 +1,4 @@
-﻿# Converted from: klu-sce.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flare01/raw/klu-sce.ANS
-# Source Revision: archive-sha256:70ac9c6e8f7c924a370aa1a1c2181a1b32fbcdb216a632b2af20b1d07c5dc8f1
-# Source SHA-256: 16e2443d3c2d3904dd225f41c3dd37c5523d0bcc72c92f18cb0a1244b88fc6c8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: klu-sce.ANS by Klumzee (flare01); released in flare01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: klu-sce.ANS by Klumzee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flare01-klu-sce
 
 Write-Host '
 [1;34;44m███▓▓▓▒▒▒▒▒░░[0;34m█▀[0;37m▄▀[0;1;30m [0;34m▄[0;1;30m  [0;33m▓▓▀[0;1;30m [0m▄▀ [33m▄▄[0;1;30;43m░[0;1;30;40m [0m■▀[33m▄[0;37;43m░░░[0;33;40m▄▄[0;1;30;40m [0m▀▀■[1;30m [0;33m▄▄▄[0;1;30m  [0m▄  [1;30m  [0;33m ▄[0;1;30m [0m▀▄[33m▀█▄[0;37m▀■[0;33m▀██▓▓░[0;1;30m     [0;34m░▓██[0m

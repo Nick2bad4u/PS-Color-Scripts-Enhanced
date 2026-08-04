@@ -1,13 +1,4 @@
-﻿# Converted from: 911-DEAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fak0293/raw/911-DEAT.ANS
-# Source Revision: archive-sha256:f38489726ba4330bb15d4808ecfdffcee68a45c9eabd27aa903ef6b22da8f95c
-# Source SHA-256: df3109a4e97ecfe8e3fd198ff7559831175778c25b114b42228029431f3635cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 911-DEAT.ANS by Mr. Ski (fak0293); released in fak0293 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: 911-DEAT.ANS by Mr. Ski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fak0293-911-deat
 
 Write-Host '
               [34m░▒▓[0;1;37m██████████████[0;34m▓[0;1;37m██████[0;34m░▒▓[0;1;37m██████[0;34m▓[0;1;37m██████████████[0m

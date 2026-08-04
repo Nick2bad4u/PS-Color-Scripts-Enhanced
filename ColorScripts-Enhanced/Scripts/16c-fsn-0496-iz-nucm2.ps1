@@ -1,18 +1,4 @@
-﻿# Converted from: IZ%NUCM2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0496/raw/IZ%25NUCM2.ANS
-# Source Revision: archive-sha256:ce06d33d533c0744d22c6fe5d3dd8583d43d922924a8ff4e1a6044170aa0ed46
-# Source SHA-256: 615d7c3eed55efbb37211173a20379dc3e01137257e7834302030234d8e805e9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ%NUCM2.ANS by IZE (FUSION); released in fsn-0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: NUCLEAR NATION #2
-# SAUCE Author: IZE
-# SAUCE Group: FUSION
-# SAUCE Date: 19960328
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: NUCLEAR NATION #2 by IZE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0496-iz-nucm2
 
 Write-Host '
           [32m▄▄█████▄▀██▄▀███▄  ▄██████▄▀█▄   ▄██████▄  ▄████████▄ ■▄██████▄[0m

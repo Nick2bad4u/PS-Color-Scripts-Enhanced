@@ -1,13 +1,4 @@
-﻿# Converted from: PT-RAPIE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-29a/raw/PT-RAPIE.ANS
-# Source Revision: archive-sha256:5de89fa125eb7333a54bae49908ef76358fcc0ce9b3df66010dca2eb64b17560
-# Source SHA-256: 558d7ef4f3de834f423d8c3b02c275713a99fc3d8ae0aa9ee1fc8ceab9133d48
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PT-RAPIE.ANS by Produkt (purg-29a); released in purg-29a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 26-52
-# Columns: 1-80
+﻿# Artwork: PT-RAPIE.ANS by Produkt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-29a-pt-rapie-part02
 
 Write-Host '
 [1;30;43m█▓░▓█[0;1;30;47m▓▓▓▒▓[0;1;30;40m▌[0m [34m  [0;37m  [0;34m▀░░ [0;37m  [0;34m▄[0;37m [0;31m▐▄▀▀[0;1;31;41m░[0;31m█▄▌█[0;1;31;41m██[0;1;31;47m▓▓[0;1;31;41m██▄[0;35;41m░░▓█[0;1;35;45m▄▄░█░[0;35;41m▓░░[0;1;31;41m░▓▓░[0;31m █[0;1;31;41m░▒▓█▒▒▄[0;31m▄[0;33m  [0;31m▄[0;1;31;41m▄[0;1;31;47m▓▒▒░[0;31m [0;1;30m▀[0;1;30;47m▄[0;1;30;40m▀[0;32m▄█[0m

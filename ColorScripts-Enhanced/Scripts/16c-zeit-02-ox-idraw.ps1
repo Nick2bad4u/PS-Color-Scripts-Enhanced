@@ -1,13 +1,4 @@
-﻿# Converted from: ox-idraw.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zeit_02/raw/ox-idraw.ans
-# Source Revision: archive-sha256:e982840417828a62e1aeff459b17fc48750278562ee46820f401f5dfd3bffd7d
-# Source SHA-256: fa53de97950fa9c5f1de93124f96422e5781904b626aa9c0c6615a6a86f05c79
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ox-idraw.ans by 0xel (zeit_02); released in zeit_02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: ox-idraw.ans by 0xel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zeit-02-ox-idraw
 
 Write-Host '
 [1;30m  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: UC^ALIEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mo-ans1/raw/UC%5EALIEN.ANS
-# Source Revision: raw-sha256:c355f14b1714443b134500a0b5505143fd99e5b2cbbd42a9728f065fe10dbcde
-# Source SHA-256: c355f14b1714443b134500a0b5505143fd99e5b2cbbd42a9728f065fe10dbcde
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UC^ALIEN.ANS by Uctumi (mo-ans1); released in mo-ans1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: UC^ALIEN.ANS by Uctumi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mo-ans1-uc-alien
 
 Write-Host '
                      [1;33m▄▄▄▄▄▄[0;1;33;43m▓▓▓▓▓▓[0;1;33;40m█▄▄▄▄▄▄▄[0m

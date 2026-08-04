@@ -1,17 +1,4 @@
-﻿# Converted from: DS-ARJ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/arc-13/raw/DS-ARJ.ANS
-# Source Revision: archive-sha256:c3c9a3714c35c28f9db77eb19e14cfc571df61b2688ba07e9011e85ad3932576
-# Source SHA-256: 83bacbc237d88b9ec383d4a7e9e3d29b0ff2d6f17b8dba403f6aaa4df88073d5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-ARJ.ANS by Dying Soul (Kibosh); released in arc-13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: Dying Soul
-# SAUCE Group: Kibosh
-# SAUCE Date: 19990528
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: DS-ARJ.ANS by Dying Soul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-arc-13-ds-arj
 
 Write-Host '
 [34m▀ ▄▄ [0m           [34m▄[0;1;34m▄[0;1;34;44m▄[0;1;34;40m█[0;1;34;47m▓▓[0;1;34;40m█[0;1;34;44m▀[0;34m▀[0;37m [0;35m        [0m                 [34m▄▄▀[0;1;34;44m▀[0;34m▀[0;37m [0;34m▀[0m        [34m▐[0;1;34;44m▐█[0;1;34;47m▓▓[0;1;34;44m█▌[0;34m▌[0m

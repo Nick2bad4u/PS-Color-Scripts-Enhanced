@@ -1,13 +1,4 @@
-﻿# Converted from: asx-flms.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-51/raw/asx-flms.ans
-# Source Revision: archive-sha256:ff9424ea0d61c43ca9938ec01e57b31d69411e1d785e81dcbf80607f1fcf46f7
-# Source SHA-256: d627aec934abbe95819ddd51bd1b892461148b84fd2e41a0d97f1357baafd89e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: asx-flms.ans by Asphyx (rmrs-51); released in rmrs-51 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: asx-flms.ans by Asphyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-51-asx-flms
 
 Write-Host '
                                                                    [1;30m▀[0m

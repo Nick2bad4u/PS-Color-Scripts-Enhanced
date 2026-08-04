@@ -1,18 +1,4 @@
-﻿# Converted from: E0-SOC#1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/soc-03/raw/E0-SOC%231.ANS
-# Source Revision: archive-sha256:c175c8aa82a245be223e06eb9027824f56ef8c78bd414a0bcb9ec65fd6e66549
-# Source SHA-256: 4840a72a23f2715f32b19bc45b968dcc9567c292af766aaea383b154aa243f6c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: E0-SOC#1.ANS by Enzo (Society Prods. 1997); released in soc-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: SoCcer 97
-# SAUCE Author: Enzo
-# SAUCE Group: Society Prods. 1997
-# SAUCE Date: 19970919
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: SoCcer 97 by Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-soc-03-e0-soc-1
 
 Write-Host '
 ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  [33m ▄[0;1;33m▄▄▄[0;1;37m▄[0m   [1;30m▄[0m▄▄▄▄▄▄▄▄▌  [1;30m▄[0m▄▄▄▄[1m▄▄▄▄[0m▄   [1;30m▄[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▌▄▄▄

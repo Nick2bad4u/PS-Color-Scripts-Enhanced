@@ -1,19 +1,4 @@
-﻿# Converted from: WZ - Zodiac Libra.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_darker_image_2/raw/WZ%20-%20Zodiac%20Libra.ans
-# Source Revision: archive-sha256:7282b405cc52219ce7cf6cd9d097796f1b25fc898e4c29fdb9f37c375d595996
-# Source SHA-256: e79834d14d4620f4535ff107fc0333afd6624c370623de327bd6504aa25047fb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WZ - Zodiac Libra.ans by Whazzit (Blocktronics); released in blocktronics_darker_image_2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Libra
-# SAUCE Author: Whazzit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20170525
-# SAUCE Dimensions: 120x82
-# SAUCE Font: IBM VGA
-# Lines: 43-82
-# Columns: 1-120
+﻿# Artwork: Libra by Whazzit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-darker-image-2-wz-zodiac-libra-part02
 
 Write-Host '
 [30;40m███[0;1;32;40m∙[0;30m█████████[0;34m   ▄[0;34;44m████████▓██████[0;34;40m█[0;34;44m████[0;37;44m█ [0;34;44m█[0;1;34;47m▒[0;44m█ ▀▄▄▀▀▀▀▀███▄▄▄▄▄▄▄███▀[0;34;44m█[0;1;34;44m [0;34;44m██[0;32;44m▄[0;34;44m██████████████▒▓███████████[0;34;40m▄▄▄[0;30;40m░▓███▓░[0;34;40m▄▄▄[0;34;44m█████▓▓▓▓▓[0m

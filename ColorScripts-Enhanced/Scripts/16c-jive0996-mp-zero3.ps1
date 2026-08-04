@@ -1,15 +1,4 @@
-﻿# Converted from: MP-ZERO3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jive0996/raw/MP-ZERO3.ANS
-# Source Revision: archive-sha256:6b7d48e396de55126b3ae9c64ca3a6e3836b2eee40f86ad76fd1706353435055
-# Source SHA-256: 46c295db4173e78e0f2b820d50c034f0ef514c870872bfe597afbcaeb46719b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MP-ZERO3.ANS by Mephitopeles (jive0996); released in jive0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Zero Matrix
-# SAUCE Author: Mephitopeles
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Zero Matrix by Mephitopeles | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jive0996-mp-zero3
 
 Write-Host '
                                                  ▀█[1;30;47m░[0m█▄

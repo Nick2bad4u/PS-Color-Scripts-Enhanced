@@ -1,18 +1,4 @@
-﻿# Converted from: DB%MATRX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/expose-2/raw/DB%25MATRX.ANS
-# Source Revision: archive-sha256:50501077e343f96b733b48c16d6cbc10c48e462f6f9a0c3330a1aaeb72df8eef
-# Source SHA-256: 6285959ce085fc2c04aef1485d2d8ef81f7d06e466a835752aace8e985e33cf6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DB%MATRX.ANS by dirt bag (xpo"97); released in expose-2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: % matrix
-# SAUCE Author: dirt bag
-# SAUCE Group: xpo"97
-# SAUCE Date: 19970215
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: % matrix by dirt bag | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-expose-2-db-matrx
 
 Write-Host '
  [1m▄▄▄[0m [33m▐[0;1;33m   [0;33m▄[0;1;33;43m▄[0;1;33;40m█████▄ [0;1;33;43m [0;1;33;40m████████████▀[0m  [33m▄[0;1;33m▄[0;1;33;43m▄[0;1;33;40m██[0;1;33;47m▓▓▓[0;1;33;40m██▌[0m  [33m▄[0;1;33m▄▄▄[0;1;33;43m▄[0;1;33;40m█▀▀[0m  [1;30m▄▄▄▄▄▄▄[0m▄[1;30m▄[0m▄▄▄[1m▄[0m▄[1m▄▄▄▄▄▄▄[0m

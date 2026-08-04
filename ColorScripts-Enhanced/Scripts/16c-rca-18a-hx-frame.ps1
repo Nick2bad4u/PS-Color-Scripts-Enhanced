@@ -1,13 +1,4 @@
-﻿# Converted from: hx-frame.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-18a/raw/hx-frame.ans
-# Source Revision: archive-sha256:79b264e900b0f3c0c1e1dfcb2a371291868034bc95083657623124fe09fd8162
-# Source SHA-256: b7df5130a97ca2e237b830b80a69626258dbb16f5bad28a23441b47eb83245df
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: hx-frame.ans by Hexd (rca-18a); released in rca-18a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: hx-frame.ans by Hexd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-18a-hx-frame
 
 Write-Host '
 [30;47m ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0m

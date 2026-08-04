@@ -1,13 +1,4 @@
-﻿# Converted from: TI-BRT2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9807a/raw/TI-BRT2.ICE
-# Source Revision: archive-sha256:e3d9daf25d2dc92c2643dac31e7c47c6a8ddbc47befd1cdd5451231cba5845ba
-# Source SHA-256: 4e6056db4225179442b91e45cfc3fe7cc0a9b54ffd165eae18e2680d65aa5c97
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TI-BRT2.ICE by Trip (ice9807a); released in ice9807a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: TI-BRT2.ICE by Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9807a-ti-brt2
 
 Write-Host '
 [1;30m███████████████████████████████████████████████████████████████████████████████[0m

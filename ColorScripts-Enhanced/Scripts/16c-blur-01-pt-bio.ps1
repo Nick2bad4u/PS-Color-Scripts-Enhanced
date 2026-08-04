@@ -1,18 +1,4 @@
-﻿# Converted from: PT-BIO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blur-01/raw/PT-BIO.ANS
-# Source Revision: archive-sha256:2e24e002aa423e6089e230171fb4f78c11c68510667b6cff05ce5bffed646ce1
-# Source SHA-256: 3da5eaa9c67e3401678086bf635a42b86e313131856eecb0f547af4e6aff8b93
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PT-BIO.ANS by Prestige (fear!blur!); released in blur-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Biohazard
-# SAUCE Author: Prestige
-# SAUCE Group: fear!blur!
-# SAUCE Date: 19960221
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Biohazard by Prestige | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blur-01-pt-bio
 
 Write-Host '
 [1;31m■ ▀[0m  [1;31m▄[0m  [1;31m░[0m

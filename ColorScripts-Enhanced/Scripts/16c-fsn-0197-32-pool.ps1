@@ -1,18 +1,4 @@
-﻿# Converted from: 32-POOL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0197/raw/32-POOL.ANS
-# Source Revision: archive-sha256:db16ecaf9a5ba2dcf16f11149d4e3768d3e19930159af1ef0ef2625ea12b3e30
-# Source SHA-256: 1ea9f0f3f881e2941d023e89760fde68d94317127be43df6b263e9d7b0f6c1b1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 32-POOL.ANS by ezy (fu510n); released in fsn-0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: pOol!
-# SAUCE Author: ezy
-# SAUCE Group: fu510n
-# SAUCE Date: 19970105
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: pOol! by ezy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0197-32-pool
 
 Write-Host '
                                                                            [1;31m▄[0m

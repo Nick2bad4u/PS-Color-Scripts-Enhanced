@@ -1,18 +1,4 @@
-﻿# Converted from: CARC-DF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst-19/raw/CARC-DF.ANS
-# Source Revision: archive-sha256:38480cbb01973683b6bb179e82483ce3434180444dfcf5b811296224974846eb
-# Source SHA-256: dcf239b82710a2be94f6290106691eaa78afc77d8214cc40cdfb6fda67bb9685
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CARC-DF.ANS by Putrid Carcass (Twisted); released in twst-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Digital Force
-# SAUCE Author: Putrid Carcass
-# SAUCE Group: Twisted
-# SAUCE Date: 19980110
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Digital Force by Putrid Carcass | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst-19-carc-df
 
 Write-Host '
 [36m▀▀▓▄▄ [0;1;30m▀▀▀█████████▀▀▓▀▀▀[0;36m [0;1;30m▀████[0;1;30;47m▓▓▓▓▓▒▓▒▓▓▓▓[0;1;30;40m█▀[0;1;30;47m▓[0;1;30;40m█████▀██▀███▀▀▀▀▀▄▄██[0;1;30;47m▓▓▀[0;1;30;40m▄▄[0;36m  [0;1;30m▄▄▄[0m

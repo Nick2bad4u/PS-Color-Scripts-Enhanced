@@ -1,18 +1,4 @@
-﻿# Converted from: MR-IDT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9702/raw/MR-IDT.ANS
-# Source Revision: archive-sha256:2bef5839074c598bf0f92bd4e5826154389b8896239a1e15db494b520fb6d9a8
-# Source SHA-256: d7fa605128ed321e9f8a8e027088bebf5c58392f202dcae9ca78720f576ad4c2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-IDT.ANS by .,s$(minotaur)$s,. (MAiDEN BRAZiL); released in mdn-9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: iDT E-MAG ANSi...
-# SAUCE Author: .,s$(minotaur)$s,.
-# SAUCE Group: MAiDEN BRAZiL
-# SAUCE Date: 19970129
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: iDT E-MAG ANSi... by .,s$(minotaur)$s,. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9702-mr-idt
 
 Write-Host '
 [1;47m▓▓[0;1;40m██████▓░  ▀████[0m█ [31m▐[0;1;31;41m▄[0;1;31;40m▀▀▀▀▀▀▀▀[0;1;31;41m▀[0;1;31;40m▀▀▀▀▀[0;31m▀[0;37m [0;30;46m▓[0;1;36;40m████[0;36m█[0;37m  [0;1;36m████[0;36m█[0;37m [0;30;46m▓[0;31;40m▀[0;1;31;40m▀▀▀▀▀[0;1;31;41m▀▄[0;31m▌[0;37m █[0;1;37m████▀  ░▓██████[0;1;37;47m▓▓[0m

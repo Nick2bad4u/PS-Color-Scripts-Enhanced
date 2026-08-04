@@ -1,18 +1,4 @@
-﻿# Converted from: NVZ-BADX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmtz-4/raw/NVZ-BADX.ANS
-# Source Revision: archive-sha256:663feff958343c1493c6d6513da5c0f5391f92fd040a3691f9d1e48fae54b31f
-# Source SHA-256: 0b305c50688add2cf013da39c7f78919fcc72d52ba08251bff4c33fd540e9173
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NVZ-BADX.ANS by nvz (rmtz); released in rmtz-4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: bad xmas
-# SAUCE Author: nvz
-# SAUCE Group: rmtz
-# SAUCE Date: 19961130
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: bad xmas by nvz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmtz-4-nvz-badx
 
 Write-Host '
        [31m▄▄▓█████▄[0m

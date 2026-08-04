@@ -1,18 +1,4 @@
-﻿# Converted from: MI-CLUST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0497/raw/MI-CLUST.ANS
-# Source Revision: archive-sha256:6310c9227506d6d2a21aaf62decb0dd3510e5ffb455efa377e329a37d758ea8f
-# Source SHA-256: 98b7ba92780843fb41c4fd5841a98b2fae08092d755224aeda10158f8dff8168
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MI-CLUST.ANS by mongi (Opium Graphix); released in opx-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Prodigium stuff-cluster
-# SAUCE Author: mongi
-# SAUCE Group: Opium Graphix
-# SAUCE Date: 19970204
-# SAUCE Dimensions: 80x131
-# Lines: 36-85
-# Columns: 1-80
+﻿# Artwork: Prodigium stuff-cluster by mongi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0497-mi-clust-part02
 
 Write-Host '
 [1m-(prod login)-------------------------------------------------------------------[0m

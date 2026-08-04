@@ -1,18 +1,4 @@
-﻿# Converted from: RL!-TRIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0596/raw/RL!-TRIC.ANS
-# Source Revision: archive-sha256:06f164afecd2a38c1a107122cbc0c2c2d07c6484c9e867e2eecffd5f8b0065bf
-# Source SHA-256: 080f074ed0a3eecc3fe5db9b4dd6666a1f80602b71b3209eeb8421996cd44603
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL!-TRIC.ANS by Rawlock (Opium); released in opx-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Triclone
-# SAUCE Author: Rawlock
-# SAUCE Group: Opium
-# SAUCE Date: 19960502
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Triclone by Rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0596-rl-tric
 
 Write-Host '
                 [33m [0;1;30m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: YO-REGE0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spas9504/raw/YO-REGE0.ANS
-# Source Revision: archive-sha256:916c7acab9b210f3e97ff0544079806a486a09bbb4eddfa318f2a69301332293
-# Source SHA-256: 78b49346bef4092784ef3e3ff15274a364f36bce85fa4f375433221f3307b9e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: YO-REGE0.ANS by Young (Spastic Studios); released in spas9504 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Regency
-# SAUCE Author: Young
-# SAUCE Group: Spastic Studios
-# SAUCE Date: 19950327
-# SAUCE Dimensions: 80x25
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: The Regency by Young | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spas9504-yo-rege0-part01
 
 Write-Host '
 [30;47m███████████████[0;33;40m░[0;1;30;40m░░[0;30;47m██████[0;33;40m▓[0;1;30;40m▒░[0;30;47m█[0;33;40m▄[0;30;47m██[0;1;30;40m▒[0;30;47m███[0;33;40m■▓▄[0;1;30;40m▒░[0;30;47m███████[0;33;40m▄■[0;1;30;40m░[0;30;47m██████[0;33;40m▓[0;1;30;40m▒░[0;30;47m██[0;33;40m▒[0;1;30;40m░░[0;30;47m█████[0;33;40m▄▒▒[0;1;30;40m░[0;30;47m█[0;33;40m░[0;30;47m█[0;33;40m■[0;30;47m██[0m

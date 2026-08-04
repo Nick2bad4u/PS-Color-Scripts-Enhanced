@@ -1,18 +1,4 @@
-﻿# Converted from: SF-ANIME.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmtz-2/raw/SF-ANIME.ANS
-# Source Revision: archive-sha256:4098da1ce5096b58e9d8e2d422f1498dadae3c1a4608ab2bce3811e49527bb5d
-# Source SHA-256: 0fc0b7b7afa86405e8ce4dfce359b8174b59a57d0f5f8fa9725e2235da210d88
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SF-ANIME.ANS by Spitfire (Rigamortiz); released in rmtz-2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 24 zeilen ansi
-# SAUCE Author: Spitfire
-# SAUCE Group: Rigamortiz
-# SAUCE Date: 19960726
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: 24 zeilen ansi by Spitfire | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmtz-2-sf-anime
 
 Write-Host '
 [1;34m     ▄▄▄▄[0;1;34;46m▓[0;1;34;40m█████████████████▓█████▀[0;31m▄█▓▀▀████▒▓██████▀█[0;1;31;41m [0;31m█▀██████████████████▓█▄▄  [0m

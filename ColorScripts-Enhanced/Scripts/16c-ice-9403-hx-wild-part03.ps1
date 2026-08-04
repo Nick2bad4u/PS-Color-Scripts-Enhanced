@@ -1,13 +1,4 @@
-﻿# Converted from: HX-WILD.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9403/raw/HX-WILD.ICE
-# Source Revision: archive-sha256:256add313f6fb2d9526e695b09f6039aacb3931a76c34081a80ce81f3cc3dbc4
-# Source SHA-256: b4adf8efba7e773f6cedf85b2188f9d014154369f5f3d7fc462bb56142c7031e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HX-WILD.ICE by Hoaks (ice-9403); released in ice-9403 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 79-119
-# Columns: 1-80
+﻿# Artwork: HX-WILD.ICE by Hoaks | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9403-hx-wild-part03
 
 Write-Host '
                     [1;30;40m░░[0m                             [30;44m▀[0;34;40m▄[0;30;44m▀▀[0m           [30;44m▀[0;34;40m▀[0m

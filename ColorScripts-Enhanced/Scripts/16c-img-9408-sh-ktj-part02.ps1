@@ -1,13 +1,4 @@
-﻿# Converted from: SH-KTJ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/img-9408/raw/SH-KTJ.ANS
-# Source Revision: archive-sha256:3b60cd0224e41b40e0e3d80c8a229cb6cc245fde84602ab9a04bbddec55d0b51
-# Source SHA-256: 93390bf59f93a6244ee14928b680d88142758df4ae5c6feb17865e9e94deefc4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SH-KTJ.ANS by Shred (img-9408); released in img-9408 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 40-81
-# Columns: 1-80
+﻿# Artwork: SH-KTJ.ANS by Shred | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-img-9408-sh-ktj-part02
 
 Write-Host '
 [1;37m████████████ [0;1;31m█[0;31m███[0m                   [31m▄██▄[0m       [31m███████████▄ [0;34m▀ [0;1;37m██████████████████[0m

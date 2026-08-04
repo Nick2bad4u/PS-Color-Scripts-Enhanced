@@ -1,15 +1,4 @@
-﻿# Converted from: NT-HATE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jive1096/raw/NT-HATE.ANS
-# Source Revision: archive-sha256:4088bb5774f9b38859804abb70d54fee1333f0bbe32acb21357a9f799a1418d7
-# Source SHA-256: 826732c410a2b43f4bc88bf189a79ebf218978ccaf6cb7cf7e8f004899f67b21
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NT-HATE.ANS by NighTrain (jive1096); released in jive1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: We Hate JiVE :)
-# SAUCE Author: NighTrain
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: We Hate JiVE :) by NighTrain | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jive1096-nt-hate
 
 Write-Host '
                   [33m [0m

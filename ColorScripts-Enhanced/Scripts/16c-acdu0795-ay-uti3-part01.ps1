@@ -1,18 +1,4 @@
-﻿# Converted from: AY-UTI3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0795/raw/AY-UTI3.ANS
-# Source Revision: archive-sha256:b042f2e6a26a8c2a821b417d4e2b86e987c7df5bd65216e2a8dfcc5666319353
-# Source SHA-256: 6ae15f1ea58a00972b890ee23e12e254394c7421db6d954fee1c3999d351b156
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AY-UTI3.ANS by Asylum (ACiD Productions); released in acdu0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Under The Influence
-# SAUCE Author: Asylum
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950701
-# SAUCE Dimensions: 80x101
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Under The Influence by Asylum | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0795-ay-uti3-part01
 
 Write-Host '
 [1;30m ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m [1;30m▄▄▄▄▄▄[0m [1;30m▄[0m

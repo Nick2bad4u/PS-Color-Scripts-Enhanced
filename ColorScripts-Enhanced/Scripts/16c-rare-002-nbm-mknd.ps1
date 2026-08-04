@@ -1,18 +1,4 @@
-﻿# Converted from: NBM-MKND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-002/raw/NBM-MKND.ANS
-# Source Revision: archive-sha256:0a3a1ab211a696c0dde542e6c378313f7a0800dd36697e1287d0a21d1dc7f85f
-# Source SHA-256: 5fd7f836201121c6cf9955cffd1933c0de491f7c4c19685fc39b9fa1b9af6a6b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NBM-MKND.ANS by niobium (rare!ascii); released in rare-002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: mankind ?! =]
-# SAUCE Author: niobium
-# SAUCE Group: rare!ascii
-# SAUCE Date: 19980424
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: mankind ?! =] by niobium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-002-nbm-mknd
 
 Write-Host '
                                     [1;32m_.[0;32m,┌s,[0m

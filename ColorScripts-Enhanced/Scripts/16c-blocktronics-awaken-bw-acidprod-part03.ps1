@@ -1,13 +1,4 @@
-﻿# Converted from: bw-ACIDprod.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_awaken/raw/bw-ACIDprod.ans
-# Source Revision: archive-sha256:9d338d3910f6730204698339e869f7ab219513c3aa8e2f1b0bb278c633114d95
-# Source SHA-256: b543cdd08c0bf40bcfb8260a844cd85a671c798aa67d87c79084f6cd6957de8a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bw-ACIDprod.ans by Binary Walker (blocktronics_awaken); released in blocktronics_awaken and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 97-144
-# Columns: 1-80
+﻿# Artwork: bw-ACIDprod.ans by Binary Walker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-awaken-bw-acidprod-part03
 
 Write-Host '
 [37m [0;31m▄[0;1;31m▄▀[0;31m▀[0;1;30m▄▄██████[0;1;30;47m█[0;1;30;40m▓▓[0m░█▓▓[1;47m░▒[0;1;40m▄[0;31m▀[0;1;31;41m▀█▌[0;1;30;40m ▓██▓███ ▀▀▄ [0;1;30;47m█▓░[0m██ ██░▄▀[1;47m▓▓▓██[0m [1;30m███▀▀  ██████[0;1;30;47m▒░[0m██▒█▓▓▄▄

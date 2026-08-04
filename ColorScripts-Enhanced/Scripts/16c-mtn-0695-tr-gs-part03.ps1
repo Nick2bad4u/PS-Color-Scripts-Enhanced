@@ -1,19 +1,4 @@
-﻿# Converted from: TR-GS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mtn-0695/raw/TR-GS.ANS
-# Source Revision: archive-sha256:01dd59399f2e8a58353f1b1f371c45734c706b251afcfee6e2cfe8849635b194
-# Source SHA-256: d12f33b92fc33323dc6a7e0d329d2014aca2c25e627f9efb74bd279b9db41fdd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-GS.ANS by Tripe (mOtion); released in mtn-0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Graveyard Shift
-# SAUCE Author: Tripe
-# SAUCE Group: mOtion
-# SAUCE Date: 19950530
-# SAUCE Dimensions: 80x101
-# SAUCE Font: m  ?[1;30m1?[0m ?[0m?
-# Lines: 70-101
-# Columns: 1-80
+﻿# Artwork: Graveyard Shift by Tripe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mtn-0695-tr-gs-part03
 
 Write-Host '
                     [30;47m▄[0;1;30;47m▒▒▒░░ [0;30;47m▀▀[0m   [30;47m▌[0;1;37;47m░▒▒▒▓▓▒[0;30;47m▀▄[0;1;30;47m░░[0;30;47m▄▄[0;37;40m [0;1;30;40m▒▒▀[0m [1m▄[0;1;47m█▓▒░[0;1;30;47m▒[0;1;30;40m▀░[0m    [1;30m░[0m  [1;30m [0m

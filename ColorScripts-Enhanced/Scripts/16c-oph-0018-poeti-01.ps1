@@ -1,17 +1,4 @@
-﻿# Converted from: POETI-01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oph-0018/raw/POETI-01.ANS
-# Source Revision: archive-sha256:b78bc978b69dedfb9a07152cba296ecefc97611bd7bc7f5211d489ff748613dc
-# Source SHA-256: 285db181c5933880cf64232208843cf4a748d4227e9984c51e3b1d3f1f9d78c1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: POETI-01.ANS by poetic justice (oph-0018); released in oph-0018 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ^[[20    _[\    _[[[] \[[22_
-# SAUCE Author: poetic justice
-# SAUCE Date: 19960917
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: ^[[20 _[\ _[[[] \[[22_ by poetic justice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oph-0018-poeti-01
 
 Write-Host '
 [31m      [0;1;31m▀▀▄[0;1;33m▄[0m       [1;30m                                        [0;31m   [0;1;33m▄[0m

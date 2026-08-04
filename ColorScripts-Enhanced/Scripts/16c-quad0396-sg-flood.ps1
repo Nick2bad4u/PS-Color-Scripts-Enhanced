@@ -1,18 +1,4 @@
-﻿# Converted from: SG-FLOOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0396/raw/SG-FLOOD.ANS
-# Source Revision: archive-sha256:f085ca3cf6d75985ae759e60a340bcc124fb43ad553f80bec492b8b584ca4713
-# Source SHA-256: e9b3e2bc6a38a7f96f97630c51f944325969b644686bfa59aa98a519c498c88f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SG-FLOOD.ANS by Stygian (Quad-P); released in quad0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Flood
-# SAUCE Author: Stygian
-# SAUCE Group: Quad-P
-# SAUCE Date: 19960222
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Flood by Stygian | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0396-sg-flood
 
 Write-Host '
 

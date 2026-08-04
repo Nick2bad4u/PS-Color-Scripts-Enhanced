@@ -1,17 +1,4 @@
-﻿# Converted from: NOH-ILD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phb-0397/raw/NOH-ILD.ANS
-# Source Revision: archive-sha256:d18868f8faf7726799689b37fb1a0005133cfca83163c8b652f242ae3ef3a67d
-# Source SHA-256: 515d74c16ebc8fe87edce55a9d2ce6b56982ce2d10fb540bb87e82751dbf5042
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-ILD.ANS by nOah! (phb-0397); released in phb-0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ildfrost
-# SAUCE Author: nOah!
-# SAUCE Date: 19970302
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: ildfrost by nOah! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phb-0397-noh-ild
 
 Write-Host '
                [1;31m░[0m [33m       [0m                                     [32m          [0m

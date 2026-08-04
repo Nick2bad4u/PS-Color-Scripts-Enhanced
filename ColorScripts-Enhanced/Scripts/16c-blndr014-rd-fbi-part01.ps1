@@ -1,18 +1,4 @@
-﻿# Converted from: RD-FBI!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr014/raw/RD-FBI!.ANS
-# Source Revision: archive-sha256:ad44042812972510297d47df18015a4f5b83b8ec4f5ee374e0b9e14beb21dc5d
-# Source SHA-256: dc773243b018fbdad95f7bfcbab94bdd22317054b6bc379d39b232a93d509fad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD-FBI!.ANS by raider (blender 14); released in blndr014 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: FBI skydiving in India
-# SAUCE Author: raider
-# SAUCE Group: blender 14
-# SAUCE Date: 19960224
-# SAUCE Dimensions: 80x78
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: FBI skydiving in India by raider | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr014-rd-fbi-part01
 
 Write-Host '
 [36m════ [0;1;36m                               [0;36m ═══════════════════════════════════════════[0m

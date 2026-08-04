@@ -1,18 +1,4 @@
-﻿# Converted from: IV-HOLE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spas9506/raw/IV-HOLE2.ANS
-# Source Revision: archive-sha256:5aef2da2d1ebb2a75b0fca00fbe51348ca43bfea31f9731b63760759f9a0221b
-# Source SHA-256: c5ae7009be494541d2aecdae5946dd45a1a33e0b707cf8895ba1cb14e198f9dd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IV-HOLE2.ANS by iNTeR vIzIoN (spastik!); released in spas9506 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hOle! #2 !
-# SAUCE Author: iNTeR vIzIoN
-# SAUCE Group: spastik!
-# SAUCE Date: 19950604
-# SAUCE Dimensions: 80x71
-# Lines: 32-70
-# Columns: 1-80
+﻿# Artwork: hOle! #2 ! by iNTeR vIzIoN | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spas9506-iv-hole2-part02
 
 Write-Host '
 [1;31;41m▒░▒░░[0m [31m▓[0;1;30m▀▓░[0m  [1;30m▒[0m [1;30m█▓░[0m [1;30m▒[0;32m░▀▓ [0;1;30;42m▓[0;32m▓░[0m  [1;37m  ▄[0;1;37;47m▓[0;1;37;40m▓[0m [1;31;40m▐█[0;1;31;41m▓▓▓▓▒░[0;31m▄[0;1;31;41m▒[0;31m▀[0;1;31;41m░▒▒▓▓▓[0;1;31;40m███████▄[0m    [1;37;40m░[0m    [32m▌[0m  [32m▐▓ ▄[0m [1;32m▀[0;1;32;42m▒▓▓[0m

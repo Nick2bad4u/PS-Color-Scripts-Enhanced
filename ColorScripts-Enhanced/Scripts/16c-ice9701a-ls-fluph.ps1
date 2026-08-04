@@ -1,13 +1,4 @@
-﻿# Converted from: LS-FLUPH.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9701a/raw/LS-FLUPH.ICE
-# Source Revision: archive-sha256:2b4740d08283c009b0da564f58adfe176d60e60708d85f690f875edfd33d46e1
-# Source SHA-256: cfd04cb3c307f0a4f6aafd7c85845721b1ea7c2925fe800ec74ed72f35de27e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LS-FLUPH.ICE by Lord Soth (ice9701a); released in ice9701a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: LS-FLUPH.ICE by Lord Soth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9701a-ls-fluph
 
 Write-Host '
  [1;30m [0m▄   [1;30m [0m▄▄[1;30m▄▄▄[0m     ▄▄[1;30m▄▄▄[0m    [1m [0;1;30m                                                   [0m

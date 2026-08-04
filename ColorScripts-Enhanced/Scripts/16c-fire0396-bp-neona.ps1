@@ -1,18 +1,4 @@
-﻿# Converted from: BP-NEONA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0396/raw/BP-NEONA.ANS
-# Source Revision: archive-sha256:1c74698b6bb36c67ca170e4e3759a91f94a3423157bd644c80d820a8fe56fd8d
-# Source SHA-256: 3c92ad7cbc46f3b90b172e35ebef5ba425b00d969ce6a94d2731d1129daafce0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BP-NEONA.ANS by Bigge Pif (fire); released in fire0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Neo Nacho
-# SAUCE Author: Bigge Pif
-# SAUCE Group: fire
-# SAUCE Date: 19960225
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Neo Nacho by Bigge Pif | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0396-bp-neona
 
 Write-Host '
 [1;30m ellisdee''s[0m        [1;34m▄  ▄██[0;1;34;44m▄[0;1;34;40m▄[0;34m▄[0m     [1;34m▄  ▄██[0;1;34;44m▄[0;1;34;40m▄[0;34m▄[0m     [1;34m▄  ▄██[0;1;34;44m▄[0;1;34;40m▄[0;34m▄[0m

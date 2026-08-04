@@ -1,18 +1,4 @@
-﻿# Converted from: US-FC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9610/raw/US-FC1.ANS
-# Source Revision: archive-sha256:2f6e3c8c2e64cc8380afc3a639da2793e02ea87790d90b8b4bede4b760040753
-# Source SHA-256: 901d4e46e95ecb04af12a03fc23bdaebec0d4c04f3790f32c9126272067b0068
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FC1.ANS by Grindstoned + Tetanus (awe lettering); released in awe9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Free Coke
-# SAUCE Author: Grindstone / Tetanus
-# SAUCE Group: awe lettering
-# SAUCE Date: 19960929
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Free Coke by Grindstoned + Tetanus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9610-us-fc1
 
 Write-Host '
                                         [1;30m [0m

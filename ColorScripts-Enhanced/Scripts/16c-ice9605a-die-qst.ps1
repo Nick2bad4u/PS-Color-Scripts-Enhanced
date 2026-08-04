@@ -1,13 +1,4 @@
-﻿# Converted from: DIE-QST.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9605a/raw/DIE-QST.ICE
-# Source Revision: archive-sha256:cf7acb12a0ec01e1383bf24c3c45a68bc55fde8f0e38cd56180a1936aa9f8089
-# Source SHA-256: 4063f37e121b7cb5341e4f6afa67cd53263da7014c98da16f5133519f66cebd2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DIE-QST.ICE by Dieznyik (ice9605a); released in ice9605a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: DIE-QST.ICE by Dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9605a-die-qst
 
 Write-Host '
  ▄▐[1;47m▄[0;1;40m██████[0;1;47m█▓▓▄[0;1;40m▄▄▄[0m▄[1m  [0m  [1m  ░   ░▒▓[0;1;47m░[0;1;40m▄▄▄▄▄▄▄▄▄▄[0;1;47m▄[0;1;40m██[0;1;41m▓[0;1;40m█████████████████[0;1;47m▀[0m▀[1m [0m▄[1m▄▄ ▀█████[0;1;47m▄[0m▌▄

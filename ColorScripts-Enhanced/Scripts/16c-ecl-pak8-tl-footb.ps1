@@ -1,18 +1,4 @@
-﻿# Converted from: TL!FOOTB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak8/raw/TL!FOOTB.ANS
-# Source Revision: archive-sha256:ced165506b655ee7f3831f87db1b8e3be54d70977e70581005d4ce6480dd88ea
-# Source SHA-256: 3f30c867e5e2c4675bcebf56469cb35ad56cc56dac3aecd563af659dfec7c894
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TL!FOOTB.ANS by timeless (ecolove); released in ecl-pak8 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: football
-# SAUCE Author: timeless
-# SAUCE Group: ecolove
-# SAUCE Date: 19980706
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: football by timeless | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak8-tl-footb
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: TL@XMAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak2/raw/TL%40XMAS.ANS
-# Source Revision: archive-sha256:c83fd66fd5682c2a8b3a34174fe62c7584ac006f8517d86002eef3fdd8671285
-# Source SHA-256: 4e5809d8c90a665c1aed8e72528680e2f439fce148fe0097f2341f4ee302f6e1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TL@XMAS.ANS by timeless (ecolove); released in ecl-pak2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: x-maaaaas
-# SAUCE Author: timeless
-# SAUCE Group: ecolove
-# SAUCE Date: 19971225
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: x-maaaaas by timeless | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak2-tl-xmas
 
 Write-Host '
 [1;34m[0;34m[0;1;37m[0;1;34m[0m[1;34m[0m[1m[0m[1;34m[0m[1m[0;1;34m[0m                                       [1;34m└────────---───────────────--──-────────┘[0m

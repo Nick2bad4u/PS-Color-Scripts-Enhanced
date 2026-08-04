@@ -1,18 +1,4 @@
-﻿# Converted from: RC(TELE).ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bdp-0396/raw/RC(TELE).ANS
-# Source Revision: archive-sha256:fe5366e95d3996c23db1751d58a751cf943c2c7a9334dc99baa85e141a7a16a7
-# Source SHA-256: df4a2b07ef40ac83bd59faa27c70cfddf5217867ebfb2f16400e73e9422026bc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RC(TELE).ANS by 2_ \~paradise\ ^2 (.boogiE%Woogie.); released in bdp-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: .telepathy.
-# SAUCE Author: 2_ \~paradise\ ^2
-# SAUCE Group: .boogiE%Woogie.
-# SAUCE Date: 19960302
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: .telepathy. by 2_ \~paradise\ ^2 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bdp-0396-rc-tele
 
 Write-Host '
 

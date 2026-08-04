@@ -1,13 +1,4 @@
-﻿# Converted from: MER-PZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r6/raw/MER-PZ.ANS
-# Source Revision: raw-sha256:3796e343d58690e7363ca52e28f514376c2de043e32f5a66f291e6765a59e9b5
-# Source SHA-256: 3796e343d58690e7363ca52e28f514376c2de043e32f5a66f291e6765a59e9b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MER-PZ.ANS by Mercer (afc-r6); released in afc-r6 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: MER-PZ.ANS by Mercer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r6-mer-pz
 
 Write-Host '
                                                         [1;33m▄▄▄▄▄▄▄[0m

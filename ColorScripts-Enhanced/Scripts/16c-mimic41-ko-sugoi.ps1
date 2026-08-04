@@ -1,13 +1,4 @@
-﻿# Converted from: ko-sugoi.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic41/raw/ko-sugoi.ans
-# Source Revision: archive-sha256:adde03fb39fa1a8721d5c372b0ea50c1351e790c154441683303c83e8be3eeaf
-# Source SHA-256: f5dac93d36a77d3f89adef6e472549c960d4fbdcfb982ec0733f313c220a320c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ko-sugoi.ans by Konami (mimic41); released in mimic41 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ko-sugoi.ans by Konami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic41-ko-sugoi
 
 Write-Host '
  [31m☻`[0;37m [0;31m☻`[0;37m  [0;1;35md☻☻ [0m             [1;31m☻☻☻☻☻☺[0;31m☻☻[0;37m [0;1;33m☻[0m [31m☻[0;1;31m☻☻☻☻☻☻☻☻☻☻[0;31m [0;1;31m☻☻☻[0;31m [0;1;31m☻☻☻☻☻☻☻☻☻☻☻☻☻l[0m [1;33mb,[0;31m7☻☻☻☻☻☻☻[0;1;31m☻☻☻[0m

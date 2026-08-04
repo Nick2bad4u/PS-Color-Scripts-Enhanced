@@ -1,13 +1,4 @@
-﻿# Converted from: VRG-402.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sadist05/raw/VRG-402.ANS
-# Source Revision: archive-sha256:48539c7fd3103651a6474c72efa2d6287c0500d048769b6f96b3f80e7845070c
-# Source SHA-256: 81d7f3d5be7e5f5a440446498ee5e28729ee39bf506954c1958a2242d2e41bef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VRG-402.ANS by Vargr (sadist05); released in sadist05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 44-85
-# Columns: 1-80
+﻿# Artwork: VRG-402.ANS by Vargr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sadist05-vrg-402-part02
 
 Write-Host '
 [31;40m█[0;1;31;41m░[0;31m█[0;1;31;41m▐[0;1;31;40m▌[0;30;47m█[0;1;37;40m▐███▌[0;30;47m█[0;1;31;40m█[0;1;31;41m▒[0;30;47m██[0;1;30;47m▒[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m██[0;1;30;47m▌▒[0;47m [0;1;30;47m [0;1;37;47m▐▒▐▓░[0;47m  [0;1;37;47m▄[0;1;30;47m▐[0;1;34;47m░▓▒[0;47m [0;1;37;47m░[0;1;30;47m▒[0;47m [0;1;30;47m▓[0;1;30;40m███[0;30;47m███[0;1;37;40m█[0;30;47m██[0;33;40m▐▌▀█▀▌[0m     [33;40m▐████▌[0;37;40m  [0;34;40m░[0;37;40m  [0;33;40m█████[0;30;47m██[0m

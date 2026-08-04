@@ -1,18 +1,4 @@
-﻿# Converted from: CS-IMATR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tdd-0296/raw/CS-IMATR.ANS
-# Source Revision: archive-sha256:56140cf576d73e2da24941d94c481d5e2c240ed984cb1a73b7ff63806fa622c7
-# Source SHA-256: 888d47684b89c0148166dd99bd6d187bd12794ef9467991544ce17f31a45b419
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CS-IMATR.ANS by casper (the dirty dozen); released in tdd-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: intentional misuse matrix
-# SAUCE Author: casper
-# SAUCE Group: the dirty dozen
-# SAUCE Date: 19960122
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: intentional misuse matrix by casper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tdd-0296-cs-imatr
 
 Write-Host '
 [36m▀▀▀▀▀█▓███▄▀▄▀▀▓▀▄▄ ■   [0m

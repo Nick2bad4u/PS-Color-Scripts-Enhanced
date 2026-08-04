@@ -1,18 +1,4 @@
-﻿# Converted from: MR-IDT4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9707/raw/MR-IDT4.ANS
-# Source Revision: archive-sha256:bfcb83c6d9eb9beac4e313e6cb4a06c0bdcb3b894eaa2b7afbdde4d6e5181bec
-# Source SHA-256: f8d5406a21069a58af0d5894e748b195221ed826e9f40925857804772f219eec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-IDT4.ANS by minotaur (maiden^brazil); released in mdn-9707 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: screen for idt zine #4
-# SAUCE Author: minotaur
-# SAUCE Group: maiden^brazil
-# SAUCE Date: 19800101
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: screen for idt zine #4 by minotaur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9707-mr-idt4
 
 Write-Host '
 [1m█[0;1;47m▄   [0m▌[1m▐███[0;1;47m▄  [0;1;40m [0;1;33;40m██[0;1;37;40m██[0;1;37;47m▄     [0;1;37;40m  ▄▄[0m▄[1m  [0m [32m▐[0;1;33;42m▐████████[0;1;32;40m▒[0;32m▌[0;37m [0;1;37;47m███▀▀▀░[0m▀▀  ▀      [1;36m▐[0;1;36;46m███[0;1;36;40m▌[0;36m [0;37m  [0;1;37mmr_[0m ▀▀[1;47m▀█[0;1;37;47m█[0m

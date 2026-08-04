@@ -1,13 +1,4 @@
-﻿# Converted from: KK-OSAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ato-0294/raw/KK-OSAD.ANS
-# Source Revision: archive-sha256:454aa1a9076f3caf80d90d68e4d574fe47b3937a6e418db9d418d1d796c31371
-# Source SHA-256: e501d0d10dd8318c0a8fd79acdaca62ef7f83005b3bf99122c9518690dd67184
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KK-OSAD.ANS by Krisis In De Kremlin (ato-0294); released in ato-0294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 137-181
-# Columns: 1-80
+﻿# Artwork: KK-OSAD.ANS by Krisis In De Kremlin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ato-0294-kk-osad-part04
 
 Write-Host '
             [31m▓[0m                         [31m░[0m            [31m▒[0m

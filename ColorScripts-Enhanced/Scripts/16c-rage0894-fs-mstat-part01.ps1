@@ -1,18 +1,4 @@
-﻿# Converted from: FS-MSTAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rage0894/raw/FS-MSTAT.ANS
-# Source Revision: archive-sha256:345657a40d2002626c65db3dac97db8d999b7e402ab29ac839672477b7ea03d0
-# Source SHA-256: 8f648d867619edd3b6c10e5f722e3dd0ce76873ea0297f1869bf6cda92efbac5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FS-MSTAT.ANS by Fistandantilus (READ THE INI FILE); released in rage0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Main Stats Ansi
-# SAUCE Author: Fistandantilus
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19940707
-# SAUCE Dimensions: 80x25
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Main Stats Ansi by Fistandantilus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rage0894-fs-mstat-part01
 
 Write-Host '
 

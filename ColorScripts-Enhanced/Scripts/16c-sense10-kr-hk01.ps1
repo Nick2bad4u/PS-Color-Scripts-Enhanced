@@ -1,18 +1,4 @@
-﻿# Converted from: KR-HK01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense10/raw/KR-HK01.ANS
-# Source Revision: archive-sha256:b6321b8225c23719ad6deac35de4ad4ee43be60d289a60a77bc643ba3343ad2f
-# Source SHA-256: 1953d377a46cad4a1aed6e8166ec2d8c06295833537b1b08d882331510d51181
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KR-HK01.ANS by kriminal (sense); released in sense10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hooked mag. number one.
-# SAUCE Author: kriminal
-# SAUCE Group: sense
-# SAUCE Date: 19980609
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: hooked mag. number one. by kriminal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense10-kr-hk01
 
 Write-Host '
 [1m[0m     [36m$$$       [0m                         [36m$$$      [0m   [36m   [0m              [36m$$$[0m

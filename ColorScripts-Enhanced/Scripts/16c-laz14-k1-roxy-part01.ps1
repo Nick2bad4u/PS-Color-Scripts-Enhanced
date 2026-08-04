@@ -1,19 +1,4 @@
-﻿# Converted from: k1-roxy.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz14/raw/k1-roxy.ans
-# Source Revision: archive-sha256:41b4e3770fbffb058172283f3da2aa00e47c872480cf93fdef94629ebc0751bb
-# Source SHA-256: 98ed05690c0782bba6a06b61d07480811110b65b8d84dfdce9e9f09fa0ae6237
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: k1-roxy.ans by knocturnal (lazarus); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: laz 14 promo
-# SAUCE Author: knocturnal
-# SAUCE Group: lazarus
-# SAUCE Date: 20210730
-# SAUCE Dimensions: 80x101
-# SAUCE Font: IBM VGA
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: laz 14 promo by knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz14-k1-roxy-part01
 
 Write-Host '
 [1;37;40m███████ [0;33m ▓▓███ [0;1;37m ██████████████████████████████████████████████████████▒▒   ▒▒ █[0m

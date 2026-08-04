@@ -1,17 +1,4 @@
-﻿# Converted from: genmem.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gen-03/raw/genmem.ans
-# Source Revision: archive-sha256:2ac761e3083f46d5d584973ff5d98c7259cd9fd4cee70395df0609588a554c09
-# Source SHA-256: 0bbe0129057c18ba65bc9ca7c21dfe5ed1a4b4ae28e8d59698069dbd4eaab065
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: genmem.ans by Prst + The Chef + Vader-Sweden (gen-03); released in gen-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: genuine members
-# SAUCE Author: genuine
-# SAUCE Date: 19990304
-# SAUCE Dimensions: 80x49
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: genuine members by Prst + The Chef + Vader-Sweden | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gen-03-genmem
 
 Write-Host '
                                            [31m████████████████████████████████[0m

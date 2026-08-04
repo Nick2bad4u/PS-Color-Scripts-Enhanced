@@ -1,19 +1,4 @@
-﻿# Converted from: ll-darlaakacrystal.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz17/raw/ll-darlaakacrystal.ans
-# Source Revision: archive-sha256:2674245bad3e14fe6d4a935ba8daf9898a4426e394c56ca9710e3afa19d3d943
-# Source SHA-256: e870f131b4b7e651f439aab65f3ea076a1a52680c70032a78e16b4b1654929e4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ll-darlaakacrystal.ans by lucaslink (lazarus); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: darla aka crystal
-# SAUCE Author: lucaslink
-# SAUCE Group: lazarus
-# SAUCE Date: 20230618
-# SAUCE Dimensions: 80x108
-# SAUCE Font: IBM VGA
-# Lines: 37-72
-# Columns: 1-80
+﻿# Artwork: darla aka crystal by lucaslink | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz17-ll-darlaakacrystal-part02
 
 Write-Host '
 [1;30;40m▌▐█[0;1;30;47m▀[0;1;30;40m█[0;1;30;47m▄[0m█[1;30;47m▀▀[0;1;30;40m█[0;1;30;47m▀▄[0;1;30;40m█[0;1;30;47m▄▄▀▄[0m██ [1m██████[0;107m  [0;1m█████████████████████████[0;107m [0;1m██████[0m █[1;30;47m▀[0;1;30;40m█[0m█[1;30m██[0m▐[1;30;47m▌▌▌▌▌▌▌▌▌▌▌▌[0m

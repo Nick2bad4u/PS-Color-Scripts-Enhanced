@@ -1,18 +1,4 @@
-﻿# Converted from: M-LBMASS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/legion01/raw/M-LBMASS.ANS
-# Source Revision: archive-sha256:d218c68b4cfd6495af1135744a18396a67a8a40b4afc550f293d2079e34b1f6d
-# Source SHA-256: 20d3d1394746d843bfcfacadd02667e54a90868f863367598c14a6978dca99b8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M-LBMASS.ANS by milkmang (the legion); released in legion01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: lunchbox masshysteria
-# SAUCE Author: milkmang
-# SAUCE Group: the legion
-# SAUCE Date: 19980301
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: lunchbox masshysteria by milkmang | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-legion01-m-lbmass
 
 Write-Host '
    [30;47m░[0;37;40m███████▌▒[0;30;47m░[0;37;40m████████▄▒ ░ [0;1;34;40m▓[0;1;34;44m███████████▓░[0;34m ░[0;1;32m▐[0;1;37m█[0;32m▓[0;37m  [0;32m      [0;34m░▓[0;1;34;44m▓█████████████████████▓[0m

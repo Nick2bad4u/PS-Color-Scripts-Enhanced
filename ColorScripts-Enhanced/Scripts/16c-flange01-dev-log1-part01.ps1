@@ -1,18 +1,4 @@
-﻿# Converted from: dev-log1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flange01/raw/dev-log1.ans
-# Source Revision: archive-sha256:14aba7e5405b940f46aca460d899ba9dad4982ed94cb18dc30ab4dba5911d191
-# Source SHA-256: 11b01f48acfd546da71d51b3ed8c563dfc17ae276f65695fb5c2415a1b71f746
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: dev-log1.ans by dev (flange); released in flange01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: logo.one
-# SAUCE Author: dev
-# SAUCE Group: flange
-# SAUCE Date: 19971215
-# SAUCE Dimensions: 80x25
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: logo.one by dev | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flange01-dev-log1-part01
 
 Write-Host '
 [31m▄░▒▒▓░▓░░▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓░░▓░▒░▒░▒░▒░▒░▒▒▀▀▀▀▀▀▀▀▓░▓░▒▓▓░▒▒▓▒░▄[0m

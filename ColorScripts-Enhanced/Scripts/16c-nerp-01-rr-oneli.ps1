@@ -1,18 +1,4 @@
-﻿# Converted from: RR-ONELI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-01/raw/RR-ONELI.ANS
-# Source Revision: archive-sha256:c4f943c9f8f5c49a2aabdd3612f9f26bd1b04de18aa8de6e38c69a3051111537
-# Source SHA-256: 6118d1d6dfced9974b7f116c050c34adab1d89390b34cd94c72b8eddd1fbb161
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RR-ONELI.ANS by riddler (nerp); released in nerp-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: oneliners
-# SAUCE Author: riddler
-# SAUCE Group: nerp
-# SAUCE Date: 19970712
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: oneliners by riddler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-01-rr-oneli
 
 Write-Host '
    [32m  [0m                                [36m  [0m   [1;30m [0m [1m▄▄▀[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: LM1ACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1192/raw/LM1ACID.ANS
-# Source Revision: archive-sha256:8f9edeb4f92b0693833f343328f0977cc472aa2ea98dbae0f830bf926a78711d
-# Source SHA-256: b8877af99176de697e4b624e5a3a00340178adcd4cbd78a97a90c5d3d4f1d21f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LM1ACID.ANS by Tank (acdu1192); released in acdu1192 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: LM1ACID.ANS by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1192-lm1acid-part01
 
 Write-Host '
           █[1;47m░░▒▓[0;1;40m▌[0;1;30;40m░░▒▓█[0m                         █[1;47m░░▒▓[0;1;40m▌[0;1;30;40m░░▒▓█[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: STC-CC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0395/raw/STC-CC1.ANS
-# Source Revision: archive-sha256:c61de425dfa6c17c15d8c7a3f501188ae0f41871982f3a874a318b2cadecd44e
-# Source SHA-256: 05a1f230a05e6d194453fcce32fd88dd43e5e1376297aa92f83208d8b2f7ca73
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STC-CC1.ANS by Stone The Crow (ACiD Productions); released in acdu0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Cat's Cradle
-# SAUCE Author: Stone The Crow
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950301
-# SAUCE Dimensions: 80x179
-# Lines: 48-91
-# Columns: 1-80
+﻿# Artwork: Cat's Cradle by Stone The Crow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0395-stc-cc1-part02
 
 Write-Host '
    [31m▐[0m [31m▌[0m [31m ▄▄█[0;1;31;41m░░░[0;31m▓▄▄▀▀▀██▀  [0;33m▀▄[0m   [33m▓[0m   [33m█[0m    [33m▄▄▀[0m   [33m▄▄▄▄▀▀[0m          [33m▄[0m   [31m▄▄▄▄▄[0m [31m▀[0m     [31m■[0m

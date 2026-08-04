@@ -1,13 +1,4 @@
-﻿# Converted from: sp!-uneek.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tnt-008/raw/sp!-uneek.ans
-# Source Revision: archive-sha256:6e0df4e5bc11386547156c58fbbd5e741464a783c809ccd13a3e11f04a37cc0a
-# Source SHA-256: 47b963c449e034eb926f982017e8a337347bbdedf38a6ba20ae32fc5a5f2c917
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sp!-uneek.ans by Skypager (tnt-008); released in tnt-008 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: sp!-uneek.ans by Skypager | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tnt-008-sp-uneek-part01
 
 Write-Host '
                                                       [1;33m ▀▄[0m

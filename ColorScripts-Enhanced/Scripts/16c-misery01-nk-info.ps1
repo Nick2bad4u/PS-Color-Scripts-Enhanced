@@ -1,18 +1,4 @@
-﻿# Converted from: NK-INFO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/misery01/raw/NK-INFO.ANS
-# Source Revision: archive-sha256:e802ebf512d2eb802f079fd327fff852b8c112992e81e4f15801eeb22870d111
-# Source SHA-256: f44375af1cbe0a9925541b0490cd83151738636d15a5eda2e5e665c143ac8a67
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NK-INFO.ANS by Novokane. (misery); released in misery01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Novokane's info.
-# SAUCE Author: Novokane.
-# SAUCE Group: misery
-# SAUCE Date: 19970321
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Novokane's info. by Novokane. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-misery01-nk-info
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: JY-XMAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nland-04/raw/JY-XMAS.ANS
-# Source Revision: archive-sha256:eab686fd42219ed6c9add6a2f7726008adc5ca3e06c5f87a076203c52842513d
-# Source SHA-256: 2e2cb77d1d129f56db07ac2af094629cb3fbde85ff00042daef15c08260633f6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JY-XMAS.ANS by JulY (NeveRLanD People); released in nland-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Space X-mas
-# SAUCE Author: JulY
-# SAUCE Group: NeveRLanD People
-# SAUCE Date: 19960201
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Space X-mas by JulY | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nland-04-jy-xmas
 
 Write-Host '
                      [1m▄[0m                                                     [1m▄[0m

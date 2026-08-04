@@ -1,18 +1,4 @@
-﻿# Converted from: SKY!MOF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fld9701/raw/SKY!MOF.ANS
-# Source Revision: archive-sha256:48906ecb2b70839b4646d99f5fe92b4c8c8c55574804ed58eeb7ca2699a6e59d
-# Source SHA-256: e2398300efdf096ba4c0b1250465ee863a1f2f05927baa2451591df5afcc9d18
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SKY!MOF.ANS by skylord (fluid); released in fld9701 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ministry of fear (menu)
-# SAUCE Author: skylord
-# SAUCE Group: fluid
-# SAUCE Date: 19970111
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: ministry of fear (menu) by skylord | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fld9701-sky-mof
 
 Write-Host '
                   [36m▄▄ [0;1;30mm i ni s t[0;34m░[0;1;30mr[0;34m▄ [0;1;30my  [0;34m░▄  [0;1;36m▄ ░▄▄[0m      [34m▄[0;1;34m▓   [0;34m▄▄   [0;1;34m▄▓[0m

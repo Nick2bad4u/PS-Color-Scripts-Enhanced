@@ -1,17 +1,4 @@
-﻿# Converted from: TII-TWR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/arc-16/raw/TII-TWR.ANS
-# Source Revision: archive-sha256:e369cb471f14ccd57254b0b30c1dc8ac4b174131115a1090d2162b1c8280c087
-# Source SHA-256: 60c36027587895418eb6633fae1eafc098bf57adcf3ca899300914459bdb7da2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TII-TWR.ANS by tetsuo_ii (arc-16); released in arc-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the war room bbs
-# SAUCE Author: tetsuo_ii
-# SAUCE Date: 20000401
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: the war room bbs by tetsuo_ii | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-arc-16-tii-twr
 
 Write-Host '
 [1m [0;32m█[0;1;32;42m▄[0;32m█[0;30;47mthe[0;32;40m█████████████▀▀▀▀▀▀▀█[0;37;40m [0;1;37;40m█████ [0;32m█[0;1;30;42m▄▄▄[0;32m█████████████▀▀▀▀▀▀▀█████[0;1;32;42m▄▄▄[0;32m█[0;1;32;42m▄▄[0;30;42mmx(sae)[0;32;40m█[0m

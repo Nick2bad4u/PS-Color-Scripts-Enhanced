@@ -1,18 +1,4 @@
-﻿# Converted from: FLUX2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flx-0797/raw/FLUX2.ANS
-# Source Revision: archive-sha256:8881bffa0acfdeb90957524533ce6ee992fcd4666c7b6ff313d36d1cb171ca2b
-# Source SHA-256: 4ad4063b12113596e436bc8146f08f4fc1efc26ae2df0c3b93e9a5a822d52e36
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FLUX2.ANS by insert (Phat Studios'97); released in flx-0797 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: small cluster
-# SAUCE Author: insert
-# SAUCE Group: Phat Studios'97
-# SAUCE Date: 19970530
-# SAUCE Dimensions: 80x12
-# Lines: 1-12
-# Columns: 1-80
+﻿# Artwork: small cluster by insert | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flx-0797-flux2
 
 Write-Host '
                   [34m▄▄▄▄[0m

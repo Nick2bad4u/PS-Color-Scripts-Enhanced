@@ -1,18 +1,4 @@
-﻿# Converted from: ANM-SB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/filth-02/raw/ANM-SB.ANS
-# Source Revision: archive-sha256:46b99aa483384d08c7e9024c193a186fa17d0f474da97a19dd27e922b3876973
-# Source SHA-256: 2a6ed7eb53e8576c927fd838f009986b7f4b1b12afd4e3eda19a80580070a0c2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ANM-SB.ANS by anomite,. (scum ofcourse!@ =)); released in filth-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: spacebahr, welcome screen
-# SAUCE Author: anomite,.
-# SAUCE Group: scum ofcourse!@ =)
-# SAUCE Date: 19970613
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: spacebahr, welcome screen by anomite,. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-filth-02-anm-sb
 
 Write-Host '
   [31m▄▄▄[0;37m [0;31m▐▀▀[0;37m [0;31m ▄▄▄▄▄▄[0m      [31m▄▄██▀[0m      [34m▄▄[0;37m  [0;31m░[0;30;41m▓[0;37;40m [0;31;40m▄▄▄[0;37;40m [0;31;40m▄███[0;1;31;41m░[0;31m▄██[0;1;31;41m░[0;31m█▄▌███[0;1;31;41m▐[0;31m█▄[0;37m  [0;31m▄███[0;1;31;41m▀▄▄[0;31m█▄[0;37m [0;31m▀█[0;1;31;41m▀[0;31m█ [0m

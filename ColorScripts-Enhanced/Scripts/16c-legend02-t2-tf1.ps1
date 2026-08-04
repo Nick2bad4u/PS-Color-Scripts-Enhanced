@@ -1,18 +1,4 @@
-﻿# Converted from: T2-TF1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/legend02/raw/T2-TF1.ANS
-# Source Revision: archive-sha256:3d09510951d722882aec8ec217ff2dbc35e0c5252f8e5685b8b241b7e7a6d9ce
-# Source SHA-256: c3d16bff588bd0e388292a0c0339ac521f086b92394515002326ab7532694df1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T2-TF1.ANS by Terminator2 (Legend); released in legend02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Terra Firma
-# SAUCE Author: Terminator2
-# SAUCE Group: Legend
-# SAUCE Date: 19950828
-# SAUCE Dimensions: 80x25
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: Terra Firma by Terminator2 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-legend02-t2-tf1
 
 Write-Host '
 [36m▓▀[0;1;31m▄[0;31m▄▓▄▄▄▄▄▄▄▄▄▄ ░ [0;1;36;46m█▓▒░░[0;36m▀▀▀ ▀[0;30;46m▐[0;36;40m▀▀▀[0;30;46m■[0;1;36;46m░[0;36m▌▐[0;30;46m▀[0;1;36;46m░▒░[0;36m▀▀▀· [0;1;34m▄▄▓▀[0;36m▄▄ ▀▀▀▄[0;1;36;46m░[0;36m▀[0;1;36;46m▒[0;36m▀▀▀▐▓█[0;1;36;46m░░▒[0;1;36;40m▓[0;1;36;46m░░░░▒▒▓▓██[0m

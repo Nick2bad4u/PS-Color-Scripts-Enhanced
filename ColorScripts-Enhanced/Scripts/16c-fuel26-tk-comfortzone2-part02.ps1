@@ -1,19 +1,4 @@
-﻿# Converted from: tk-comfortzone2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel26/raw/tk-comfortzone2.ans
-# Source Revision: archive-sha256:d10918a36531171a7bd7de77ac2a92891100e4055d3be9227ebf98ff3c0d1cc3
-# Source SHA-256: b3d0cbde0c10f3c0cf9ff88a4fa403faa76f2fdcf6145f0230d2647c6549a60b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tk-comfortzone2.ans by the knight (fuel); released in fuel26 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Comfortzone #2
-# SAUCE Author: the knight
-# SAUCE Group: fuel
-# SAUCE Date: 20180426
-# SAUCE Dimensions: 80x119
-# SAUCE Font: IBM VGA
-# Lines: 39-77
-# Columns: 1-80
+﻿# Artwork: Comfortzone #2 by the knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel26-tk-comfortzone2-part02
 
 Write-Host '
                 [1;30m▄▄▄▄ [0m   [34m▀[0;1;34m▀[0;1;34;44m▀[0;1;34;40m█▄ ██▒▓   [0;1;30;40m█[0;1;30;47m▒░▒▒[0;1;37;40m██[0m██▓[1;34;47m░[0;1;34;40m██[0;34m░▓[0;1;34m▓ ▄[0;34m█▀▀ [0;37m [0;1;34m▀ [0m [1;30m▄▄▄▄ [0;1;34m▀[0;34m░░ [0m       [34m█[0m

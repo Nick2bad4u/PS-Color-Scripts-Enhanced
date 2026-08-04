@@ -1,20 +1,4 @@
-﻿# Converted from: sm-dungeon.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel28/raw/sm-dungeon.ans
-# Source Revision: archive-sha256:f19d9f1f4d98a894d9a58a43443858287108d50e702695e0859df539776cf44a
-# Source SHA-256: 5639822b2ca42274c9c976b9f9fc206e917a06c75369994607194d441bc653e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sm-dungeon.ans by Smooth + Asphixia (Fuel); released in fuel28 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Dungeon BBS (remix)
-# SAUCE Author: Smooth
-# SAUCE Group: Fuel
-# SAUCE Date: 19950401
-# SAUCE Dimensions: 80x233
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Original ANSI designed by Asphixia of ACiD Productions in 4/95
-# Lines: 95-139
-# Columns: 1-80
+﻿# Artwork: Dungeon BBS (remix) by Smooth + Asphixia | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel28-sm-dungeon-part03
 
 Write-Host '
 [31m▀▀▄▄▄ [0;1;31m▀▀▀▀█[0;1;31;47m▒▒[0;1;31;40m▄[0;1;31;47m▓▓[0;1;31;40m██▄▄██[0;31m [0;37m  [0;1;33;41m█[0;1;37;40m█[0;1;33;41m█[0;31m   [0;1;33m▄▀[0;31m [0;1;31m  [0;33m   [0;1;30m▀▀[0;33m▀    ▓[0;1;31;43m ▒▒░[0;33m▓▀ █[0;1;31m [0;1;31;43m▒░[0;33m█▀▀[0;31m▀▀[0;33m   ▄[0m      [33m░[0;37m  [0;31m▀██[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: BF-PRK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-15/raw/BF-PRK.ANS
-# Source Revision: archive-sha256:cd2d406ee7567eb1c250b9572bb0b7fdd8b6cfa2b5014b290774725da37d8cc8
-# Source SHA-256: d62240e9efb758448b00022442b91552529b153ed176b53cfe51d9be2368da99
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BF-PRK.ANS by Black Fire (f0RCE); released in force-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: anscii 4 P.R.i.C.K HPA Mag
-# SAUCE Author: Black Fire
-# SAUCE Group: f0RCE
-# SAUCE Date: 19961221
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: anscii 4 P.R.i.C.K HPA Mag by Black Fire | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-15-bf-prk
 
 Write-Host '
 

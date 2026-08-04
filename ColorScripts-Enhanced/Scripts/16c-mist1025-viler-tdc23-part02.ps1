@@ -1,18 +1,4 @@
-﻿# Converted from: VILER-TDC23.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1025/raw/VILER-TDC23.ANS
-# Source Revision: archive-sha256:c6ce2eb1560c66497e345290ad53cd5a430626bac015b2788f41b6db23db8045
-# Source SHA-256: 44bd097824e2c67562c29fe9e2d0cc0047009ac89ed494e6ede5d48fa99d7876
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VILER-TDC23.ANS by VileR (mist1025); released in mist1025 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: TDC23
-# SAUCE Author: VileR
-# SAUCE Date: 20250815
-# SAUCE Dimensions: 80x200
-# SAUCE Font: IBM VGA
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: TDC23 by VileR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1025-viler-tdc23-part02
 
 Write-Host '
 [1;30;42m▒[0;1;32;42m░[0;32;42m  [0;1;30;42m▄[0;30;42m▄▄[0;1;30;40m▀▀[0;30m   [0;30;42m▄▄[0;32;40m░[0;30;40m [0;35;40m░[0;1;30;45m▒▓[0;34;41m▒[0;35;40m▒[0;30;40m [0;1;30;42m▒[0;30m  [0;1;30m▄[0;35m░░░░▒[0;1;30;45m░[0;35m▓[0;31;44m▒[0;30;40m [0;1;30;40m▒▄▬[0;30m  [0;1;30m▄▄[0;35m░[0;1;30m░[0;1;30;45m░[0;34;45m░[0;1;30;40m▄░[0;32m░[0;30;42m▓▒▓[0;30;40m    [0;1;30;40m▄[0;34;45m▒▒▒[0;1;30;40m█[0;31;44m▒[0;35;40m▄▄▄[0;30;40m [0;32;40m░[0;32;42m [0;1;32;42m ░░ [0;32;42m  [0;32;40m▄[0;32;42m [0;1;32;42m░[0;32m▓[0;30m [0;31;44m▒[0m

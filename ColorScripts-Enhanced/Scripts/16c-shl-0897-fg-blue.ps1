@@ -1,18 +1,4 @@
-﻿# Converted from: FG-BLUE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shl-0897/raw/FG-BLUE.ANS
-# Source Revision: archive-sha256:93ef5f553e3bc362f06eac3bc6655c2df4649860903447ccefb9661eb3a53f37
-# Source SHA-256: cd8084f8b6506e608e209f156e84074a8a8c90f8164b4c4dcfdc9140363595b2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FG-BLUE.ANS by fluga (school); released in shl-0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: bue thing bleeding
-# SAUCE Author: fluga
-# SAUCE Group: school
-# SAUCE Date: 19970717
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: bue thing bleeding by fluga | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shl-0897-fg-blue
 
 Write-Host '
 

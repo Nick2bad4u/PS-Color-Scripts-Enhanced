@@ -1,18 +1,4 @@
-﻿# Converted from: NC-23L.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root05/raw/NC-23L.ANS
-# Source Revision: raw-sha256:a8a343ae2584fbf4482745f6a2afa8621b1b0794c37ae05e68bebee310a622ee
-# Source SHA-256: a8a343ae2584fbf4482745f6a2afa8621b1b0794c37ae05e68bebee310a622ee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NC-23L.ANS by Necrolyte (Root); released in root05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Morals0 23liner
-# SAUCE Author: Necrolyte
-# SAUCE Group: Root
-# SAUCE Date: 19970717
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Morals0 23liner by Necrolyte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root05-nc-23l
 
 Write-Host '
 morals obscure                   [35m█[0;1;35;45m▀[0;35m█▄█▄▄█[0;1;35;45m██[0;30;45m░[0;35;40m░   [0;37;40m [0;34;40m ▄▄[0;1;34;40m▄[0;34m▄[0;1;34m▄▄[0;34m  [0;37m  [0;35m▀▀[0;30;45m░[0;35;40m▓▄█▄▄▄███[0;1;35;45m▀[0;35m██[0;1;35;45m██[0;35m██ [0m

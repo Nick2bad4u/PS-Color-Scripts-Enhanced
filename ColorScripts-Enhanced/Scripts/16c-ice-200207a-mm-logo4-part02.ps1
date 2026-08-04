@@ -1,13 +1,4 @@
-﻿# Converted from: mm-logo4.ice
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-200207a/raw/mm-logo4.ice
-# Source Revision: archive-sha256:87ec080ca63a5b37e40caa65bc014e3155f9f2203365424dda6094de81bc8bf6
-# Source SHA-256: e460ebe1c2a6b7d2f23bfea2cf0079f89b245edf0d04574e3eda6f1019da2f02
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mm-logo4.ice by Magnetic M (ice-200207a); released in ice-200207a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 41-84
-# Columns: 1-80
+﻿# Artwork: mm-logo4.ice by Magnetic M | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-200207a-mm-logo4-part02
 
 Write-Host '
 [37;40m   [0;1;30;40m░░░[0m         [36m▄[0m     [1;36m▄[0;1;37m▄[0m                         [36m▄[0;1;36m▄[0;1;37m▄▄[0m

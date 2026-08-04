@@ -1,19 +1,4 @@
-﻿# Converted from: us-pigeon.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel25/raw/us-pigeon.ans
-# Source Revision: archive-sha256:c29da20a4b03d4b9cfd5beb0ae4c26b848a9b8ba121f4b3a4bde4c0893de19b6
-# Source SHA-256: 4ed336ac7cf0824c6639f5f336b6956d83c2980d7876f949c06322f858e03b60
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-pigeon.ans by Necrofiliac + The Knight + Propane (FUEL); released in fuel25 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fuel the pigeon
-# SAUCE Author: Necro Pro TK
-# SAUCE Group: FUEL
-# SAUCE Date: 20180108
-# SAUCE Dimensions: 80x44
-# SAUCE Font: IBM VGA
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Fuel the pigeon by Necrofiliac + The Knight + Propane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel25-us-pigeon
 
 Write-Host '
 [37;40m   [0;1;37;40m                                  [0m                                       

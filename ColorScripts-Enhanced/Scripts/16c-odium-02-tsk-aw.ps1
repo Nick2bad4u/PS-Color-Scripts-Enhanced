@@ -1,18 +1,4 @@
-﻿# Converted from: TSK-AW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-02/raw/TSK-AW.ANS
-# Source Revision: archive-sha256:47a67f112d88796e8c1419ea3c6c084684ff2719dfc540b2668a69dc0343be0d
-# Source SHA-256: 6b5867daa9339bd369fdc5bd4d8665fc0964cbbd57ff97326ac9afa0743b5695
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-AW.ANS by the silent killer (odium); released in odium-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: alien workshop
-# SAUCE Author: the silent killer
-# SAUCE Group: odium
-# SAUCE Date: 19951230
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: alien workshop by the silent killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-02-tsk-aw
 
 Write-Host '
 

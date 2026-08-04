@@ -1,18 +1,4 @@
-﻿# Converted from: TK-GLAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel12/raw/TK-GLAS.ANS
-# Source Revision: archive-sha256:ebe2e7b01f31e0e82aa2702a876007d4ec2dd824b98bdf40e4d59e2b113da7e4
-# Source SHA-256: 137740b8cd0536224b3cfbde4e0c90aff1b6e9c6fbe11e20310bca31245f8392
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TK-GLAS.ANS by The Knight (Fuel Productions); released in fuel12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Glass
-# SAUCE Author: The Knight
-# SAUCE Group: Fuel Productions
-# SAUCE Date: 19970401
-# SAUCE Dimensions: 80x25
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Glass by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel12-tk-glas
 
 Write-Host '
 [1;35;45m▄█▓▒░[0;35m██▀▀▀[0;1;30m  [0;35m▀▀[0;37m  [0;1;30m▄▄▄▄█▀▓██▓█▌█ ▓ [0m [34m [0;32m▄█▀▓▒░[0;34m [0;32m▄░▒▄[0;1;33m▄▄[0;1;33;42m▓▓▓▓░░▄▄■░[0;32m▀▀▌[0;34m [0;33m        [0;32m░░▀█[0;1;33;42m░[0;32m█▄██[0;1;33;42m░[0m

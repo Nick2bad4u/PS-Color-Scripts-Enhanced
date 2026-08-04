@@ -1,13 +1,4 @@
-﻿# Converted from: MECCACD2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acid_l-r/raw/MECCACD2.ANS
-# Source Revision: archive-sha256:499c9b46916e1ae397884d58998fd5ed4387f783522347b660512aee3acb2ec0
-# Source SHA-256: 919433a4fcc78f990a7268d69fa905ff2b24fbcb4d9b9ad67e292b9d2ad7637c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MECCACD2.ANS by Triton (acid_l-r); released in acid_l-r and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: MECCACD2.ANS by Triton | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acid-l-r-meccacd2
 
 Write-Host '
            [1;36;40m█[0;1;36;46m▓▒░[0m

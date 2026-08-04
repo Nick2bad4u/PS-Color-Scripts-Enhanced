@@ -1,13 +1,4 @@
-﻿# Converted from: TO-DW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hn-0496/raw/TO-DW.ANS
-# Source Revision: archive-sha256:913310781509e66bf4153ee79ee96d9bb402ed530e32d248aea0e8329b769db6
-# Source SHA-256: 46a16a11ca09aa26ee0391cd6565b7ed3a1b5c13dfc92b72384da3e8ee15b301
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TO-DW.ANS by Toadie (hn-0496); released in hn-0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: TO-DW.ANS by Toadie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hn-0496-to-dw
 
 Write-Host '
                 [1;31m▄[0;1;31;41m▓[0;1;31;40m▄[0;1;31;41m░[0;1;31;40m▄▄[0;31m▄[0m     [1;31m▄[0;1;31;41m▓[0;1;31;40m▄▄[0;31m▄[0m      [1;31m▄[0;1;31;41m▓[0;1;31;40m▀[0m      [31m▀[0;1;31;41m▓[0;1;31;40m▄▄▄[0;31m▄ ▓  ▄■[0m

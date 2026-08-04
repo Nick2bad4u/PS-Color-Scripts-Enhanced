@@ -1,13 +1,4 @@
-﻿# Converted from: CK-SHUT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thst0895/raw/CK-SHUT.ANS
-# Source Revision: archive-sha256:93911a377da69cfcde0000e470e3a7eca787ca62b80e55b7c1e6e49b8b7b8d71
-# Source SHA-256: 30595f8aea848379a4590d0fdfbb526778cb78748f797e1a3114040a19495aa7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CK-SHUT.ANS by Clark (thst0895); released in thst0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: CK-SHUT.ANS by Clark | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thst0895-ck-shut
 
 Write-Host '
 [1;31;41m▓▒░░[0;1;32;41m [0;41m         ▼ ▲                                                         [0;1;41m [0;1;31;41m ░░▒▓[0m

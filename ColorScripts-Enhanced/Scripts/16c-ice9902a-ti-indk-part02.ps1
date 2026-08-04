@@ -1,16 +1,4 @@
-﻿# Converted from: TI-INDK.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9902a/raw/TI-INDK.ICE
-# Source Revision: archive-sha256:6cf7fdec038e0d971ab2b181357dad5f064cb6f0c4b16391c913d4864432f656
-# Source SHA-256: f081cf4e4a0eaa840d1227c3e4d69dfeffc75fb375ab27922167ffabb33d9ded
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TI-INDK.ICE by Trip (iCE Advertisements); released in ice9902a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Infinite Darkness
-# SAUCE Author: Trip
-# SAUCE Group: iCE Advertisements
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Infinite Darkness by Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9902a-ti-indk-part02
 
 Write-Host '
 [1;30m▐██   ██[0;1;30;47m▓▓[0;1;30;40m█▄   [0;33m   ▐[0;1;34;43m▓▓▄[0;33m  [0;1;30m▀[0;1;34;43m▐█▓▓█▓▓▓▒▒[0;1;34;40m▀[0;1;30;40m▀[0;33m▒▒▓▓▓▒▓▓▒▓██▓██▓▓▒ [0m          [1;30m▀▀[0m       [1;30m▀▀▀▀[0m

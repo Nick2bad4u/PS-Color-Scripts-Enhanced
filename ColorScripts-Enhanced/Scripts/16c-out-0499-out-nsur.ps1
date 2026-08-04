@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-NSUR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0499/raw/OUT-NSUR.ANS
-# Source Revision: archive-sha256:80caf8ef2ecfc59ca36b78a827ea093355087edc6eb5203c1ece7db6823d669d
-# Source SHA-256: 63eca1d4cd584ed2622d0b368941f8767104ec8817afdf886918d4661f409a64
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-NSUR.ANS by Sandy Chidester (out-0499); released in out-0499 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: OUT-NSUR.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0499-out-nsur
 
 Write-Host '
 [36m█████ █████████▀▄ ▀▄▄██▄▄▀ ▀▀   ▀███ █████▀██[0;1;30;46m▒▒░[0;36m████████████[0;1;30;46m░[0;36m███[0;1;30;46m░[0;36m██████[0;1;30;46m░[0;36m███[0;1;30;46m░[0;36m███[0;1;30;46m░[0m

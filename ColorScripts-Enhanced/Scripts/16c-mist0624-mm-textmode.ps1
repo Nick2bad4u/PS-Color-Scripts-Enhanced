@@ -1,19 +1,4 @@
-﻿# Converted from: MM-TEXTMODE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0624/raw/MM-TEXTMODE.ANS
-# Source Revision: archive-sha256:7e2642f67629daefe8d04ebedd2e233be2e8a74b2dea50eb02da49be24298927
-# Source SHA-256: 403b2987e7af0b5e79d1093e4b46915536fb3f8ace109de40f29752ca72896e2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-TEXTMODE.ANS by Mavenmob (Mistigris); released in mist0624 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Textmode Sparks
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20240408
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Textmode Sparks by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0624-mm-textmode
 
 Write-Host '
 

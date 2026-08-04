@@ -1,18 +1,4 @@
-﻿# Converted from: BS-EMAGH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eden1194/raw/BS-EMAGH.ANS
-# Source Revision: archive-sha256:eefd7c1cd83f3b39c38ce8a67a36dd02791375ecc803b0c5c1d538b4395d6281
-# Source SHA-256: 64aa0b1623d98614e3829f0bf9b05974d22627b3ec4d8f782ad02b5567a0740a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-EMAGH.ANS by Borys (Edem); released in eden1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: EdenMag Header
-# SAUCE Author: Borys
-# SAUCE Group: Edem
-# SAUCE Date: 19940829
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: EdenMag Header by Borys | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eden1194-bs-emagh
 
 Write-Host '
    [33m▄▀[0m         [33m▐[0;33;43m█▓▓[0;33;40m▌ [0m        [31;40m           [0m               [33;40m [0m         [33;40m [0;1;33;40m▄[0m    [33m-bs[0m   [1;33m▀[0;1;33;41m██▓[0m

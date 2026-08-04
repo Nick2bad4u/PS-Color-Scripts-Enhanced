@@ -1,18 +1,4 @@
-﻿# Converted from: NO-POO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy06/raw/NO-POO1.ANS
-# Source Revision: archive-sha256:da68d928b75eacb21ef6bbd9cd632165def9238591f0378ec07f4b56faef6ea8
-# Source SHA-256: 1a39bc3aee67d6dd451cd3c09311d32ed91dcd0d5659aaa5cd2ad2f2eb129bc6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NO-POO1.ANS by Nosferatu (apathy!); released in apathy06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Poo
-# SAUCE Author: Nosferatu
-# SAUCE Group: apathy!
-# SAUCE Date: 19960109
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Poo by Nosferatu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy06-no-poo1
 
 Write-Host '
 [1;30m[0m                                           [33m▄[0;1;33m▄[0m

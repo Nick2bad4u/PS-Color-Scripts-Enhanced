@@ -1,18 +1,4 @@
-﻿# Converted from: PY-UTPIA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0795/raw/PY-UTPIA.ANS
-# Source Revision: archive-sha256:4618e29cb34b4ee59fd8cc3bf6bfd4daade875efc4a6539f8a712e6be6a91a14
-# Source SHA-256: b3d1f4c10482270ea9a09604cebe70c7dfb20948c7aa2b0cf8955f46fcad7172
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PY-UTPIA.ANS by Pyro (FusioN); released in fsn-0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Utopia
-# SAUCE Author: Pyro
-# SAUCE Group: FusioN
-# SAUCE Date: 19950630
-# SAUCE Dimensions: 80x92
-# Lines: 51-92
-# Columns: 1-80
+﻿# Artwork: Utopia by Pyro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0795-py-utpia-part02
 
 Write-Host '
                          [33m▒▒▒▒▒▒▒ ▒    ░░░░░░░░░░░░░░░░▒▒[0m

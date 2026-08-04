@@ -1,17 +1,4 @@
-﻿# Converted from: N!EUSTA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mean9610/raw/N!EUSTA.ANS
-# Source Revision: archive-sha256:eb05f2b8207463fc94de363304abab4a1544e298daf7dc7d1efbc5b0f6afd5eb
-# Source SHA-256: 7912692a67e572753de8712053cab6c1c9ec6d77bf6a290f10367f539cada116
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N!EUSTA.ANS by nail (mean9610); released in mean9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: eternity underground stats
-# SAUCE Author: nail
-# SAUCE Date: 19961031
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: eternity underground stats by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mean9610-n-eusta
 
 Write-Host '
                         [33m▀▄▄░[0;37m [0;33m▀▀[0;37m [0;33m▄▄[0;1;31;43m▄▓█▀▀[0;33m█[0;1;31;43m░[0;33m▀▀█▀▀[0m   [33m▀░▀▀▀[0;1;31;43m░░▓▄[0;33m▄▄░▀▌[0;30;43m░[0;33;40m█[0;1;31;43m░[0;33m█▀[0;30;43m░[0;1;31;43m░░▓░[0;33m▄▀▐[0;30;43m░░[0m

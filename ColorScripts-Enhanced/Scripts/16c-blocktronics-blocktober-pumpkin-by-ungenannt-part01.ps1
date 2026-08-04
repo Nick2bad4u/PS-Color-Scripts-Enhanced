@@ -1,16 +1,4 @@
-﻿# Converted from: _Pumpkin_by_ungenannt.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_blocktober/raw/_Pumpkin_by_ungenannt.ans
-# Source Revision: archive-sha256:a4249815771be4175829e3af0e1e24a265146879ea43ac19f701d6ebb72fa88f
-# Source SHA-256: e2043df7b000b9820cdeff1b37969244cf760dc0caa3f2050edbb8c4d73b9434
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _Pumpkin_by_ungenannt.ans by Ungenannt (blocktronics_blocktober); released in blocktronics_blocktober and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20161020
-# SAUCE Dimensions: 80x70
-# SAUCE Font: IBM VGA
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: _Pumpkin_by_ungenannt.ans by Ungenannt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blocktober-pumpkin-by-ungenannt-part01
 
 Write-Host '
 [34;40m▓▓▓▓█▓██████████████████████████████████████████████████████[0;35;44m▄███████▄▄▄▄▄▄[0;34;40m███[0;35;44m░░░[0m

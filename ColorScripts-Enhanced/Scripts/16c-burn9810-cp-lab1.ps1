@@ -1,18 +1,4 @@
-﻿# Converted from: CP-LAB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/burn9810/raw/CP-LAB1.ANS
-# Source Revision: archive-sha256:4939a4c829f1e509649c8dfea832931253ce302949e7cc19faf66bb52fecb589
-# Source SHA-256: 184a005e84dab3401b7f79fbb8bee28567890c45cdaba50a3117065acbbeb170
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CP-LAB1.ANS by cyberphreak (burn); released in burn9810 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: lab
-# SAUCE Author: cyberphreak
-# SAUCE Group: burn
-# SAUCE Date: 19980920
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: lab by cyberphreak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-burn9810-cp-lab1
 
 Write-Host '
         [1;30m█[0;1;30;47m▓[0m       [1;30m▀▀▀██ █[0;1;30;47m▓▓[0;1;30;40m██▀▀█▀  ▀▀▀██[0;1;30;47m▓░▒▓[0;1;30;40m▄▄▄[0m    [1;30m ▄█[0;1;30;47m▓▓░░▓▓[0;1;30;40m█▄▄[0m      [1;30;47m▓▓[0m         [1;30m█[0m

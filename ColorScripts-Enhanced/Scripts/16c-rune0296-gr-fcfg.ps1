@@ -1,17 +1,4 @@
-﻿# Converted from: GR-FCFG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rune0296/raw/GR-FCFG.ANS
-# Source Revision: archive-sha256:1cc279748badd7f61a5f083ba1c8b526b1d5d143bea36336d1817d4778ed4d79
-# Source SHA-256: 2076f389e2e0ac265ac00d2a027d96f9785c3a5f1885e0ec1d4a4f33771339ea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GR-FCFG.ANS by gunthar (rune); released in rune0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: obv2 file config
-# SAUCE Author: gunthar
-# SAUCE Group: rune
-# SAUCE Date: 19960201
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: obv2 file config by gunthar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rune0296-gr-fcfg
 
 Write-Host '
 [1;36;46m▒░        [0;30;46m░ ░░░[0;36;40m▀[0m [1;35;45m▓[0;1;37;45m░ [0;35m▌[0;1;33m▐[0;1;33;47m▓▓[0;1;33;40m█[0;1;33;47m▓[0;1;33;40m██████[0;1;33;43m▓[0;1;33;40m▌[0m [1;35;45m▒░░[0;35m▀[0m [1;30mGr.[0;35m▄▀▄▄[0;1;35;45m░[0;35m▀▀▀▀▀[0;1;35;45m░░[0;35m▓▄▀▓[0;1;35;45m░[0;35m▌[0m [30;45m░[0;1;35;45m░░[0m [35m▀[0m [35m▄[0;35;45m   [0;1;35;45m░░░░░▒▒[0m

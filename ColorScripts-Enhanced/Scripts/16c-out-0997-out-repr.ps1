@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-REPR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0997/raw/OUT-REPR.ANS
-# Source Revision: archive-sha256:94eb22bc00c2bdc1c239e9e52fdfa587ee06a92aafccdaa57fd3d3eb25176be0
-# Source SHA-256: af34ee4536db4a520776d80f2804d2ecc32e64eb0e0fba88a3b3a2d93bc25ee7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-REPR.ANS by Sandy Chidester (out-0997); released in out-0997 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: OUT-REPR.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0997-out-repr
 
 Write-Host '
 [31m█[0;1;31;41m░░░[0;31m█[0;1;31;41m░░[0;31m█[0;1;31;41m░░[0;31m████████████[0;1;31;41m░░▒░[0;31m█████▄  ▀██ ▄███▀ [0;33m█[0m              ▀▀███▓▓▒░ ░░

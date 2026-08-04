@@ -1,18 +1,4 @@
-﻿# Converted from: PYX-LOF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0696/raw/PYX-LOF.ANS
-# Source Revision: archive-sha256:fea269136894850bbc3733a7e378f47769430ca8b14c0592a0c25c525a6a95a4
-# Source SHA-256: 75eb7db90035046a682c98173a8e05b33f7331aa2f47427d697ab21e9f6eb5b3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-LOF.ANS by pyx (bamboosh); released in bmb-0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: "Lake Of Fire"
-# SAUCE Author: pyx
-# SAUCE Group: bamboosh
-# SAUCE Date: 19960529
-# SAUCE Dimensions: 80x44
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: "Lake Of Fire" by pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0696-pyx-lof
 
 Write-Host '
 [34m███████████████████████████████████████████████████████████████████████████████ [0m

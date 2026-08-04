@@ -1,18 +1,4 @@
-﻿# Converted from: LRY-ANSE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ega-one/raw/LRY-ANSE.ANS
-# Source Revision: archive-sha256:6a85c974a9d93a6c5723067b661851124ae90b1e81eb1a1d35a289b0099b8ffc
-# Source SHA-256: ffa77e99b919ddfc4121c1947b4efa6fcf8769afd87b47e872c73709376af9c2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LRY-ANSE.ANS by larry (ega); released in ega-one and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ansee
-# SAUCE Author: larry
-# SAUCE Group: ega
-# SAUCE Date: 19961020
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ansee by larry | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ega-one-lry-anse
 
 Write-Host '
                                                   [31m▄▄▄▄ [0m

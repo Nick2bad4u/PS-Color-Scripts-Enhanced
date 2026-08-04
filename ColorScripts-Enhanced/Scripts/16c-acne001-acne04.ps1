@@ -1,18 +1,4 @@
-﻿# Converted from: ACNE04.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acne001/raw/ACNE04.ANS
-# Source Revision: archive-sha256:ff78f081f29dbf9348d2ba73d7de71fcb00f4abbe902d1234d35e7fb3c198d20
-# Source SHA-256: bb2ec719f7d7ba0d726ae65cf4b3b08fab4484adb0084bfa9cb75071b5e4ae7b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ACNE04.ANS by Nomad X + Holybone (aCNE ANSi ArT); released in acne001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: RaVeNPoRT BbS
-# SAUCE Author: NoMaD X- + HOLYBONe
-# SAUCE Group: aCNE ANSi ArT
-# SAUCE Date: 19951113
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: RaVeNPoRT BbS by Nomad X + Holybone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acne001-acne04
 
 Write-Host '
   [1;30m▄[0m [1;30m  ▀ ▄  ▀[0;31m▄[0;1;30m    [0;31m▄▀[0;1;30m   [0;31m▄[0;1;30m [0;31m▀▄[0;1;30m      [0m

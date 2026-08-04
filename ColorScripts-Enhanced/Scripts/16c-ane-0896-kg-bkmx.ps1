@@ -1,18 +1,4 @@
-﻿# Converted from: KG-BKMX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ane-0896/raw/KG-BKMX.ANS
-# Source Revision: archive-sha256:5e24853d550a7b67e3659447cdedc955c2a6220ebe025cc69bac3636c87a5d4e
-# Source SHA-256: bf8243c48cfe1430d8aebdf6d9e70b56c21a03a9266bb035b537bfd4d7b3efe0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KG-BKMX.ANS by Kargus (.;:Anemia:;.); released in ane-0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: BatKave Matrix
-# SAUCE Author: Kargus
-# SAUCE Group: .;:Anemia:;.
-# SAUCE Date: 19960716
-# SAUCE Dimensions: 80x25
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: BatKave Matrix by Kargus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ane-0896-kg-bkmx
 
 Write-Host '
 [33m ■▄ [0;34m░[0;1;37m  [0;34m░▒[0;1;37m  [0;33m▄▄▄[0;37;43m  [0;30;43m [0;37;43m   [0;33;40m▓▀[0;30;43m■[0;33;40m▄[0;37;43m ░ [0;31;43m░[0;37;43m ░[0;1;37;43m░[0;1;30;43m░[0;43m [0;33;40m▀▀▀▀▀[0;1;37;40m [0;33m▄▄▄[0;31;43m░░░[0;37;43m [0;31;43m░░[0;37;43m    [0;33;40m▀[0;37;43m [0;33;40m▄▄▄[0;30;43m░░▒[0;33;40m▀▀▄▄[0;37;43m [0;31;43m░[0;37;43m  ░  [0;33;40m▄[0;37;43m [0;31;43m░[0;37;43m [0;31;43m░[0;37;43m    [0m

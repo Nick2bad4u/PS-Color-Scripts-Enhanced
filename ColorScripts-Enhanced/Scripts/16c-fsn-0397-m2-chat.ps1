@@ -1,18 +1,4 @@
-﻿# Converted from: M2-CHAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0397/raw/M2-CHAT.ANS
-# Source Revision: archive-sha256:0bbae31e52a4c1ad24c4bfa8a6bfcd082f750141f70c56dfd02f65c0d93bbb46
-# Source SHA-256: 27f39cd9f078499ce4598baccd502e603c6a0b1dfcc9261e5b4c1688bf37da81
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M2-CHAT.ANS by _mi1kman (fusion); released in fsn-0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: chat header
-# SAUCE Author: _mi1kman
-# SAUCE Group: fusion
-# SAUCE Date: 19970228
-# SAUCE Dimensions: 80x13
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: chat header by _mi1kman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0397-m2-chat
 
 Write-Host '
                  [1;30m                                                    [0;1;37m  [0;1;30m   [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: U3-GAMMA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tone1298/raw/U3-GAMMA.ANS
-# Source Revision: archive-sha256:2c4335e4a7099929072af13287d48313c4bf380989640349b3ef536a0c17fd63
-# Source SHA-256: d3134fcdbbda41b3bd03beb193bc4baac2fac068349721afecb724b438cdc5ee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: U3-GAMMA.ANS by Unseen Fate (tone1298); released in tone1298 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: U3-GAMMA.ANS by Unseen Fate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tone1298-u3-gamma
 
 Write-Host '
 

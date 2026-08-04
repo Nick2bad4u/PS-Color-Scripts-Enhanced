@@ -1,13 +1,4 @@
-﻿# Converted from: EB-ATLA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-e/raw/EB-ATLA.ANS
-# Source Revision: archive-sha256:232c128a17d30f5851971dff44b1fb80cd71d0b9a6a491ceb604371e4eac872e
-# Source SHA-256: a8f78dbfe34b2e549ab623db72a9389ec284f9eb48ed75fa5e2bf72da587cd94
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EB-ATLA.ANS by Eight Ball (ansis-e); released in ansis-e and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: EB-ATLA.ANS by Eight Ball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-e-eb-atla
 
 Write-Host '
      [34m▄[0;1;36m█████[0;1;36;44m█[0;34m▄[0;1;36m███████[0;34m▄[0;1;36m███    [0;34m▄[0;1;36;44m██████[0m [34m▄[0;1;36m███   [0;34m▄[0;1;36m███[0;34m▄[0;1;36m███████  [0;31m▄█  [0;34m▄[0;1;36m███████████[0m

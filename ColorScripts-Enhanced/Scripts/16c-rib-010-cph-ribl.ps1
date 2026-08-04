@@ -1,18 +1,4 @@
-﻿# Converted from: CPH-RIBL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-010/raw/CPH-RIBL.ANS
-# Source Revision: archive-sha256:f0e8a1202a9ab4518ddf30655a3e3a838d00336d432c41d2fb4ced8564853688
-# Source SHA-256: 8bea9a0915090baf3ab8005c7ef33492f3cfbdf346be68c12ad62c139eba0ff8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-RIBL.ANS by cyberpunch (divine legacy); released in rib-010 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: caffeine
-# SAUCE Author: cyberpunch
-# SAUCE Group: divine legacy
-# SAUCE Date: 19980630
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: caffeine by cyberpunch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-010-cph-ribl
 
 Write-Host '
                                           [1;30m▀[0m [1;30m▀▀[0;1;30;47m▄[0;1;30;40m█[0;1;30;47m▀[0;1;30;40m████████████████[0;1;30;47m▄[0;1;30;40m█████▌▌   ▀██[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: [009] SC-STALK.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cx-timeline/raw/%5B009%5D%20SC-STALK.ans
-# Source Revision: archive-sha256:44e1bee3ddc3b388b7cf12194583d4aab88cb5fa02ca90157d792ce814886a4e
-# Source SHA-256: 1e69124fb4e50e1cff235a2f6fc8991f1abba1a0b9796b9fba183832172a9fe7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: [009] SC-STALK.ans by Skarecrow (VOR); released in cx-timeline and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Stalker's guild logoff
-# SAUCE Author: Skarecrow
-# SAUCE Group: VOR
-# SAUCE Date: 19941006
-# SAUCE Dimensions: 80x211
-# SAUCE Font: IBM VGA
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: Stalker's guild logoff by Skarecrow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cx-timeline-009-sc-stalk-part01
 
 Write-Host '
         [34;40m────────[0;1;37;40m      [0;34m─[0;1;37m   [0;34m────────────────────────────────────────────────────┐[0m

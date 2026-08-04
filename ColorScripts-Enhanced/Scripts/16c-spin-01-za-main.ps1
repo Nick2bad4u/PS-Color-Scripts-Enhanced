@@ -1,17 +1,4 @@
-﻿# Converted from: (ZA)MAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spin-01/raw/(ZA)MAIN.ANS
-# Source Revision: archive-sha256:ba78f741c8c48f614ecb0f3e5f78207f43cce4239d36fe3e606be09c2119943e
-# Source SHA-256: de3aea287675497332970793d788e3844381818b2e2dd2288792a5b1d6e90b83
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: (ZA)MAIN.ANS by ZALZA (SPIN); released in spin-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: ZALZA
-# SAUCE Group: SPIN
-# SAUCE Date: 19980719
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: (ZA)MAIN.ANS by ZALZA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spin-01-za-main
 
 Write-Host '
   [1;30mii:ii:¼¼$$$¼½¼½¼&lii::[0m        [1;30m░░[0m                        [1;30m        ░░            [0m

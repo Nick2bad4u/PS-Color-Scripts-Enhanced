@@ -1,18 +1,4 @@
-﻿# Converted from: EV-TNW1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/legend04/raw/EV-TNW1.ANS
-# Source Revision: archive-sha256:8d7c89819709343239d9819160f9119efc661234c4b1d2dab5894cd096ee1758
-# Source SHA-256: bd0024a105aa1ec535c0cb9f9add6d8475e58b80f5c471a14d3ece255b74d397
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EV-TNW1.ANS by EverLast (Legend 1995); released in legend04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Never Worlds
-# SAUCE Author: EverLast
-# SAUCE Group: Legend 1995
-# SAUCE Date: 19951020
-# SAUCE Dimensions: 80x25
-# Lines: 39-75
-# Columns: 1-80
+﻿# Artwork: The Never Worlds by EverLast | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-legend04-ev-tnw1-part02
 
 Write-Host '
      [1;33m▄▄▄▄▄█[0;1;33;43m▓▓▒▒░[0m [1;30;47m▓▓[0;1;30;40m▌▐[0;1;30;47m▓▓[0m▄▄▄███▄▄                [1;30m▐[0;1;30;47m▓[0m [1;30m▀[0m  ▀[1;30;47m░░[0m▌               [1;33;43m░▒▓[0;1;33;40m▌▐[0;1;33;43m▓[0;1;33;40m▌[0m

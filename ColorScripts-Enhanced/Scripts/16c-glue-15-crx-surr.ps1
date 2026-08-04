@@ -1,18 +1,4 @@
-﻿# Converted from: CRX-SURR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-15/raw/CRX-SURR.ANS
-# Source Revision: archive-sha256:27d6625e69a5207f7e1ecdf7cdf18b62e352300eb88e02c3e1b0355793535d53
-# Source SHA-256: 5f8d2164c1cd95870f689aa2d6b40c1be66fee08a3c0ee010fee5665d8d9df85
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CRX-SURR.ANS by chr0nix (glue); released in glue-15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Surreal
-# SAUCE Author: chr0nix
-# SAUCE Group: glue
-# SAUCE Date: 19981031
-# SAUCE Dimensions: 80x47
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: Surreal by chr0nix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-15-crx-surr
 
 Write-Host '
 [31m [0;1;31m▐[0;31m▀   ░[0;30;41m▓[0;31;40m  [0;30;41m▓[0;31;40m▒░▄[0;1;31;40m▄[0;31m▌[0;37m [0;35m▄ [0m   [35m▄  ▀▌[0;37m crx[0;1;30m([0;1;37mglue[0;1;30m)[0m   [31m░[0;37m [0;1;31m░░[0m    [31m ░[0;37m [0;31m░▒▓▄▓[0m     [35m▄  ▀▌[0;37m  [0;1;31;41m░[0m [31m▄[0;37m  [0;1;31;41m░[0;1;31;40m░[0m

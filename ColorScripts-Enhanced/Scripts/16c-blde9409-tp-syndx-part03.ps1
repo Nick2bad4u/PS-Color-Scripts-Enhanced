@@ -1,18 +1,4 @@
-﻿# Converted from: TP-SYNDX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9409/raw/TP-SYNDX.ANS
-# Source Revision: archive-sha256:a72f6b61ef8732921793cd342551769e167ed7d0078d9fb08d5ad3a3a9cd5a47
-# Source SHA-256: 23da1ef4c25b6febe710cc291dbe365803f8e0061310f07a751ee5b7cc2c7012
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TP-SYNDX.ANS by TechoPhreaK (Blade Productions); released in blde9409 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Syndication-X Advertisement
-# SAUCE Author: TechoPhreaK
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19940809
-# SAUCE Dimensions: 80x25
-# Lines: 101-133
-# Columns: 1-80
+﻿# Artwork: Syndication-X Advertisement by TechoPhreaK | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9409-tp-syndx-part03
 
 Write-Host '
 [33m[0;1;33m[0;1;30m[0m[1;30m[0m[33m[0;1;33m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[33m[0;1;33m[0;1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[33m[0;1;33m[0;1;30m[0m  [33m [0;1;33m  ┤[0;1;30m          [0m  [1;30m                [0m

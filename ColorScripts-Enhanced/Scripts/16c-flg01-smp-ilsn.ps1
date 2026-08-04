@@ -1,15 +1,4 @@
-﻿# Converted from: SMP-ILSN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flg01/raw/SMP-ILSN.ANS
-# Source Revision: archive-sha256:562ebcaad20a0b2a8b7b107f134b5be6ba5f067cf297f19839a81e7c0eee3352
-# Source SHA-256: 3f68f5afa52161021dc5309d4aa8405df6cd7e4d4d54e39a003c94013c52904e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-ILSN.ANS by Shrimp (flg01); released in flg01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 20010712
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: SMP-ILSN.ANS by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flg01-smp-ilsn
 
 Write-Host '
 [1;34;44m▀▀▀▀[0;34m█▀▀▀▀▀▀▀▀▀▀█[0;1;34;44m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

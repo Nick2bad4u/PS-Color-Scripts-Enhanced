@@ -1,17 +1,4 @@
-﻿# Converted from: JE-AGNCY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-02/raw/JE-AGNCY.ANS
-# Source Revision: archive-sha256:4c203a22a273c62e868cc7246cefafb413002203c4d66bfee072b470754a2d40
-# Source SHA-256: 836d1c78b9f8dc47eab2deec6a0ee7972f1675b993966a80f6c539327a46ac96
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JE-AGNCY.ANS by Madcap + Blind Sniper (Department 38); released in d38-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The AGENCY
-# SAUCE Author: [Joint Effort]
-# SAUCE Group: Department 38
-# SAUCE Dimensions: 80x25
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: The AGENCY by Madcap + Blind Sniper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-02-je-agncy
 
 Write-Host '
                               [31m░░░░░░░░░░░░░░░░░░░░░░▒[0m

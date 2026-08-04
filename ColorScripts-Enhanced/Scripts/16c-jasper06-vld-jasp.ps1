@@ -1,18 +1,4 @@
-﻿# Converted from: VLD-JASP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper06/raw/VLD-JASP.ANS
-# Source Revision: archive-sha256:e9db58af17bee8935edbe50f24a227bef7a311667f4a639d4f37f775998e9055
-# Source SHA-256: b8aed719a56ea68a7ba6391ebd1c111ef01bcf202daff70905282806c4662ad2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VLD-JASP.ANS by velo (jasper); released in jasper06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: jasper logo
-# SAUCE Author: velo
-# SAUCE Group: jasper
-# SAUCE Date: 20020601
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: jasper logo by velo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper06-vld-jasp
 
 Write-Host '
 [1;36;46m▀[0;36m█▄ ▀████▀▀   ▀▀██[0;1;36;46m▄▄▄▄▄▄ ▄[0;36m██▀▀ ▀  ▀[0m                       [36m▄[0;37m   [0;36m▄[0m        [36m▄[0;1;36;46m▄▄[0;36m█[0;1;36;46m▀[0;36m▀[0m

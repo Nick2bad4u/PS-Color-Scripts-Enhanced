@@ -1,18 +1,4 @@
-﻿# Converted from: SPECTRUM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tk-ansi/raw/SPECTRUM.ANS
-# Source Revision: archive-sha256:7a6e15a450305cb977de0a4eb06cf4ca525baa4933c9f7af1cf6080dced8bf2d
-# Source SHA-256: 73813f1b02bb6ca62416b63177a46355a081aec9ba2043de3696b78ed7b41f6f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPECTRUM.ANS by Tank (tk-ansi); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Prism
-# SAUCE Author: Tank
-# SAUCE Date: 19910406
-# SAUCE Dimensions: 80x22
-# SAUCE Comments: Just a doodle
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Prism by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tk-ansi-spectrum
 
 Write-Host '
                                                              [1;35m▄[0;1;35;42m█▓▓[0;1;32;45m░[0;1;35;42m▒▓▒[0;1;32;45m░[0m

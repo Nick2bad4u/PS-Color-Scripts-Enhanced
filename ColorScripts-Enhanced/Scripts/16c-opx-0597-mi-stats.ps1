@@ -1,19 +1,4 @@
-﻿# Converted from: MI-STATS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0597/raw/MI-STATS.ANS
-# Source Revision: archive-sha256:e6fe3ae4fc988a430f4c2e43606b4738207590afea7cf3991b6548469f3cd377
-# Source SHA-256: c5aa64fe58dc4696a3944cdb00afa8c13eaa814e556cbc5ecf6710afd6cc1c7c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MI-STATS.ANS by Mongi (Opium Graphics); released in opx-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: view stats for southern cross
-# SAUCE Author: Mongi
-# SAUCE Group: Opium Graphics
-# SAUCE Date: 19970421
-# SAUCE Dimensions: 80x27
-# SAUCE Comments: call +46-8-7495104
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: view stats for southern cross by Mongi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0597-mi-stats
 
 Write-Host '
    [34m▄▄[0;37m  [0;34m▀▀▀[0m   [34m▀▀▀▀[0;37m [0;34m▀▀▀▀▀[0;37m [0;34m███▀▀▀▀[0;37m [0;34m▀▀[0;37m [0;34m▀▀▀▀▀▀▀█▄[0;1;34mmi[0;34mopx [0;1;34m▄▄▄▄▄▄[0m   [1;34m▀▀[0m    [1;34m▄▄▄▄▄▄▄[0m

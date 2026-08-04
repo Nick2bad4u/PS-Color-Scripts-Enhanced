@@ -1,18 +1,4 @@
-﻿# Converted from: WD-CS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0397/raw/WD-CS.ANS
-# Source Revision: archive-sha256:0bbae31e52a4c1ad24c4bfa8a6bfcd082f750141f70c56dfd02f65c0d93bbb46
-# Source SHA-256: 94c2bd4492685706576ae6eae8e00ba0b0734274ea16cd14cf31bb6c4e9005aa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WD-CS.ANS by weirdo (fusion); released in fsn-0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: cream soda
-# SAUCE Author: weirdo
-# SAUCE Group: fusion
-# SAUCE Date: 19970211
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: cream soda by weirdo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0397-wd-cs
 
 Write-Host '
                               [32m  [0m

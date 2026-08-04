@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-TRB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9701/raw/TNA-TRB.ANS
-# Source Revision: archive-sha256:d9ee1d58a6a06d01c9f7c4f38cd8e5ab0dc2d9bdfc6b97ab0ed0cc65c400a40c
-# Source SHA-256: 4e419e110ec5958081ef7aabc6d2446ccde27f6f3009af4ecb171011136c4f22
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-TRB.ANS by The Night Angel (AWE Lettering); released in awe9701 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Rebel Base
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961216
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: The Rebel Base by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9701-tna-trb
 
 Write-Host '
 

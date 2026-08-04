@@ -1,18 +1,4 @@
-﻿# Converted from: KRZ-FSN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0297/raw/KRZ-FSN.ANS
-# Source Revision: archive-sha256:d5e6767ccf66425c243bc55fc2b60157e4842e0dca350575e42372c154569008
-# Source SHA-256: d1745dec1ea793b8515f5e274b69722a52808258969fd5721b5e8d3920ba4ceb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KRZ-FSN.ANS by krazie (fsn97); released in fsn-0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fusion..
-# SAUCE Author: krazie
-# SAUCE Group: fsn97
-# SAUCE Date: 19970123
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: fusion.. by krazie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0297-krz-fsn
 
 Write-Host '
                           [30;44m██[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: IZ%ISLAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0696/raw/IZ%25ISLAN.ANS
-# Source Revision: archive-sha256:91a5df7d6634d8d6a544eb72836639f3955b2e59017de7861042fc9fa05f7000
-# Source SHA-256: 6dca813ccb65ec08338d5e15117a35de1ed9e5a7ba0a04cdebf937ca3619951f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ%ISLAN.ANS by ize (fusion); released in fsn-0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: island
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19960609
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: island by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0696-iz-islan
 
 Write-Host '
 

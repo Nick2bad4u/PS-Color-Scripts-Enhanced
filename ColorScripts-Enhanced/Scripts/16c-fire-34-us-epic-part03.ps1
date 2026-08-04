@@ -1,19 +1,4 @@
-﻿# Converted from: US-EPIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/US-EPIC.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: 1acca7707dbb2403194c713a6fb92424cc5f4a3e3e50849e53d0a674611810cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-EPIC.ANS by The Night Angel + Tainted (Blocktronics); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Epic
-# SAUCE Author: TNA / TNT
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20210302
-# SAUCE Dimensions: 80x109
-# SAUCE Font: IBM VGA
-# Lines: 74-109
-# Columns: 1-80
+﻿# Artwork: Epic by The Night Angel + Tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-us-epic-part03
 
 Write-Host '
                    [34m▀[0;37m    [0;1;30m▀[0;1;30;47m▄[0;1;37;47m▀█▄[0m█[1;30;47m█[0m▀█▀[36m▄[0;1;36;46m▄[0;36m██▄[0;1;30;47m▀[0;1;30;40m▄▄▀[0;36m ▀▀▀[0;37m   [0;36m▀█▀▌[0;37m  [0;34m░[0m

@@ -1,20 +1,4 @@
-﻿# Converted from: md-greenface.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-001/raw/md-greenface.ans
-# Source Revision: archive-sha256:589c804657c8d15ba617f7c0fd80723e4505d519989b80eba9584665be49eb54
-# Source SHA-256: 67658a6162ae5b6b52f8c4b88413733c6b23058a0f6430019d2ce5e34ba732b7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: md-greenface.ans by MaDDoG (Legacy Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: FreenGace
-# SAUCE Author: MaDDoG
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20191117
-# SAUCE Dimensions: 80x65
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Greenface by MaDDoG. logo by burps
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: FreenGace by MaDDoG | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-001-md-greenface-part01
 
 Write-Host '
          [1;30;40m░[0m                         [1;30m▄[0;1;30;42m░▒▓[0m [1;30;42m▓▒[0;1;30;40m▄[0m    [1;30m▄░[0;1;30;42m░░▒▓[0;1;30;40m▓███▀[0m       [1;30m▌░░[0;1;30;42m▓▓▓▓▓[0;1;30;40m▄[0m  [1;30m▀░[0;1;30;42m▄[0m

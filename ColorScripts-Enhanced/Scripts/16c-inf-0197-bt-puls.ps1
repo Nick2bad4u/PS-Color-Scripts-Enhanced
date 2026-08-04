@@ -1,13 +1,4 @@
-﻿# Converted from: BT-PULS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/inf-0197/raw/BT-PULS.ANS
-# Source Revision: archive-sha256:66a5392eae7b2de905008681a589d53894d4254a8182544461ea33bac1b8a03c
-# Source SHA-256: 4220d3c2555250e9f9cd89e8ed512959317a38a6817cf33cfdee5adb4e0f4926
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BT-PULS.ANS by Black Tyde (inf-0197); released in inf-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: BT-PULS.ANS by Black Tyde | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-inf-0197-bt-puls
 
 Write-Host '
 [1;31;43m█[0;1;31;40m▄ ▀█▓▀▄▀ [0;34m█ [0;1;31m▄ ▀[0;1;31;43m█[0;1;31;40m▄[0;1;31;43m█[0;1;31;40m▓▄[0;1;31;43m█[0;1;31;40m▌[0;34m▀[0;1;31m▄█▓▄▀[0;1;31;43m█[0;1;31;40m█[0;1;31;43m█[0;1;31;40m▄[0;1;31;43m█████[0;1;31;40m▄[0;1;31;43m█[0;1;31;40m▄[0;1;31;43m▓░[0m      [34m░▄   [0;31m▓██[0;30;41m                        [0m

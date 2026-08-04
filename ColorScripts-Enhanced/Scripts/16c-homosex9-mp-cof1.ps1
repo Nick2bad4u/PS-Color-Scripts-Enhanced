@@ -1,18 +1,4 @@
-﻿# Converted from: mp-cof1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/homosex9/raw/mp-cof1.ans
-# Source Revision: archive-sha256:c3a9c9896ba32110d2c8b2498f582083e2119797ddd9bc59c81f8d86d0c00623
-# Source SHA-256: afe53b558cf43afe0153d1983059ee677f97f71ee80c9b047665273ea30c2e00
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mp-cof1.ans by meatpod (HOMO); released in homosex9 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: city of industry
-# SAUCE Author: meatpod
-# SAUCE Group: HOMO
-# SAUCE Date: 19970803
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: city of industry by meatpod | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-homosex9-mp-cof1
 
 Write-Host '
               [35m [0;37m  [0;35m [0m             [35m  [0m            [35m__[0m

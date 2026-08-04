@@ -1,18 +1,4 @@
-﻿# Converted from: VMM-LGO2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icon0496/raw/VMM-LGO2.ANS
-# Source Revision: archive-sha256:d45ba3c531383a68a6fe3cb7b74f30408daf0896d017d24ef32fe0bd2494f84e
-# Source SHA-256: b59c9ea4e2e8324559385033a04e27df755f2d7560055806be7d59320c892763
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VMM-LGO2.ANS by VooDoo Medicine Man (iCON `96); released in icon0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Video Static Logo
-# SAUCE Author: VooDoo Medicine Man
-# SAUCE Group: iCON `96
-# SAUCE Date: 19960322
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Video Static Logo by VooDoo Medicine Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icon0496-vmm-lgo2
 
 Write-Host '
                                                           [1;33m▄▄▄▄[0m

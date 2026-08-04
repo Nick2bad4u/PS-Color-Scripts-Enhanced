@@ -1,18 +1,4 @@
-﻿# Converted from: MR-DISTR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9709/raw/MR-DISTR.ANS
-# Source Revision: archive-sha256:a8c36d8798287a241d2dd7ef1ff5dc55fddff796595a296c3f5aa388a9423ee9
-# Source SHA-256: 8953bd408b42d0b0fc4b2c8b6167930e97a7ae36c9a2a8858279586ef004caa6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-DISTR.ANS by mINO (mAIDEN); released in mdn-9709 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: bababebow bird is the word yeah
-# SAUCE Author: mINO
-# SAUCE Group: mAIDEN
-# SAUCE Date: 19800101
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: bababebow bird is the word yeah by mINO | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9709-mr-distr
 
 Write-Host '
  [1;30m░░░[0m          [1;31;41m██[0;1;31;40m▒[0;31m▌  ░░░░░[0m                          [34m▀▀▀█[0;1;34;44m▀▀██[0;34m█[0;37m [0;1;34m▓[0m▒[1;34m░░[0;34m  [0;37m     [0;1;34m▄▄▄[0;34m▄▄▓[0;1;34;44m▀█[0m

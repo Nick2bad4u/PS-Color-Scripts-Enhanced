@@ -1,18 +1,4 @@
-﻿# Converted from: OZ-DI2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-02/raw/OZ-DI2.ANS
-# Source Revision: archive-sha256:4c203a22a273c62e868cc7246cefafb413002203c4d66bfee072b470754a2d40
-# Source SHA-256: a1074d3221b2f2262673f8fbed5fb91d94216693d3805e8c127b2213e622d308
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OZ-DI2.ANS by ooZe (dEPARTMENT^38); released in d38-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Damage Inc Ansi
-# SAUCE Author: ooZe
-# SAUCE Group: dEPARTMENT^38
-# SAUCE Date: 19970112
-# SAUCE Dimensions: 80x25
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Damage Inc Ansi by ooZe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-02-oz-di2
 
 Write-Host '
              [36m█[0;37m [0;36m█[0;32m [0m               [32m [0m                              [32m [0;36m█[0;37m [0;36m█[0m

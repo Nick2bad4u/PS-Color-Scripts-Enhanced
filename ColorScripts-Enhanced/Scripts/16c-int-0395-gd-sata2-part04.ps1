@@ -1,18 +1,4 @@
-﻿# Converted from: GD-SATA2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/int-0395/raw/GD-SATA2.ANS
-# Source Revision: archive-sha256:57df35fbd13cf5d0e1eff7653dbaa292a5b927d07ac0495e7c72c3b66a636148
-# Source SHA-256: ac56a5354df1feb5f090ac8234cc73a3c5691b6deba490631f64eeb3963a6dfe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GD-SATA2.ANS by Grateful Dead (Integrity); released in int-0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Satan's Asylum
-# SAUCE Author: Grateful Dead
-# SAUCE Group: Integrity
-# SAUCE Date: 19950228
-# SAUCE Dimensions: 80x25
-# Lines: 117-160
-# Columns: 1-80
+﻿# Artwork: Satan's Asylum by Grateful Dead | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-int-0395-gd-sata2-part04
 
 Write-Host '
                [34m▄▄[0m  [1;34m▄[0;1;34;44m▒[0;34m▀▀[0;30;42m█[0;32;40m░▒▓▓[0;30;42m [0;1;32;42m░░▒▒░░░░[0;32m▓▒░[0;30;42m▀[0;32;40m▓[0;30;42m▀▀[0;1;32;42m░░░░[0;1;32;40m▄[0;30;42m▄[0;1;32;42m▒[0;1;32;40m▀[0;1;32;42m▒▓▓▒▒▒▒▒░[0m [1;32;40m▄███[0;1;32;42m▓▒░[0m   [34m▄▐▌[0m

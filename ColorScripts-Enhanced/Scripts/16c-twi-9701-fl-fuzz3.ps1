@@ -1,18 +1,4 @@
-﻿# Converted from: FL-FUZZ3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twi-9701/raw/FL-FUZZ3.ANS
-# Source Revision: archive-sha256:26418846e3f66c7b21ef5303595f591853876ded0de00cde7eba5a3033612321
-# Source SHA-256: 9e6e723e7a7a91eb365790365d8f1491ac3656b0152bb93a8018614a728adbd1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-FUZZ3.ANS by flame (twilight.); released in twi-9701 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fuzZy wuz.
-# SAUCE Author: flame
-# SAUCE Group: twilight.
-# SAUCE Date: 19970110
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: fuzZy wuz. by flame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twi-9701-fl-fuzz3
 
 Write-Host '
   [1;30m▄[0m  [36m▐▄ [0;37m ░[0m   [37m    [0;1;30m▄▄▄▄▄▄[0m                           [31m            [0m                [1;31m [0;33m [0m

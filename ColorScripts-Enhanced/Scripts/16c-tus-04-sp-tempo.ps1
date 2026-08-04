@@ -1,13 +1,4 @@
-﻿# Converted from: SP-TEMPO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tus-04/raw/SP-TEMPO.ANS
-# Source Revision: archive-sha256:cecd03bcea0453e8e941f2420e67a6eaf0283c8555a366d61575392cb904d263
-# Source SHA-256: 8bdabc4759945a5dc8b0051b949726bb356ed8b617190316a4bc30c32ed62a6e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SP-TEMPO.ANS by Spinsane (tus-04); released in tus-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: SP-TEMPO.ANS by Spinsane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tus-04-sp-tempo
 
 Write-Host '
 [1m    $$ tempo by  $$$*╜ⁿ╜($$$$$$$$$$:╨╨╨╨*4╬$$$$$╨╨╨╨╨╨╨╨╨╨4$$$$$$$$$$$$$$$$$$$[0m

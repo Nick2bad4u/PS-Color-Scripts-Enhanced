@@ -1,19 +1,4 @@
-﻿# Converted from: LK-LEECH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/5th-9703/raw/LK-LEECH.ANS
-# Source Revision: archive-sha256:fffb2c785ea5bb00b22bc525df88c9cca2a7e3ac70af213df8cc76a82e190c3a
-# Source SHA-256: 961e1a1f4208d72e3d72d6bc78756ef4e5b2d4ea2b9a7dd43183e364b039090a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LK-LEECH.ANS by Lightning Knight (Ascent); released in 5th-9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Leech Definition
-# SAUCE Author: Lightning Knight
-# SAUCE Group: Ascent
-# SAUCE Date: 19970107
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: Definition of a leech
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Leech Definition by Lightning Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-5th-9703-lk-leech
 
 Write-Host '
   [1;30m.,a@S$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$S@a,.[0m

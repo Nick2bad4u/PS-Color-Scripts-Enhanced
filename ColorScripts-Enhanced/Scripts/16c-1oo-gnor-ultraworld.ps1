@@ -1,13 +1,4 @@
-﻿# Converted from: UltraWorld.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1oo_gnor/raw/UltraWorld.ans
-# Source Revision: raw-sha256:6ea18dfbe7efcc295ee5779195d8bb0428dd1290b84f19be009bfb9c4c6f43b1
-# Source SHA-256: 6ea18dfbe7efcc295ee5779195d8bb0428dd1290b84f19be009bfb9c4c6f43b1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UltraWorld.ans by Neurodancer (1oo_gnor); released in 1oo_gnor and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: UltraWorld.ans by Neurodancer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1oo-gnor-ultraworld
 
 Write-Host '
          [36;40m▄▄ ▄▄[0m                                                    [36;40m▄▄[0m       [36;40m▄▄[0m

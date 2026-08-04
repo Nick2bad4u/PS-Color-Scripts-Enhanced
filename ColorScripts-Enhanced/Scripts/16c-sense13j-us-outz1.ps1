@@ -1,13 +1,4 @@
-﻿# Converted from: US-OUTZ1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense13j/raw/US-OUTZ1.ANS
-# Source Revision: archive-sha256:6b4e7b22ff11e363b1b5be8167daae9b4686076db84cab202311ff8a06211d49
-# Source SHA-256: 617f3b0196374c1610170103ac82780db1e9e405b2d16573706602f6a3553964
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-OUTZ1.ANS by Cryogenic + Sinister X (sense13j); released in sense13j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: US-OUTZ1.ANS by Cryogenic + Sinister X | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense13j-us-outz1
 
 Write-Host '
 [1;34;44m█▀[0;1;34;40m▀[0;1;37;44m░[0;1;37;40m▄▄███▄[0;34m▄ [0;1;34;44m▀[0;1;34;40m▓▓[0;34m▀  ▀▓[0;1;34;44m▄███▄[0;34m▄  [0;1;37;44m░▓██▄[0;1;37;40m▄▄▄[0;34m▄[0;1;37m [0;34m▀▀▀[0;1;34;44m ▄▄[0;34m▄[0m

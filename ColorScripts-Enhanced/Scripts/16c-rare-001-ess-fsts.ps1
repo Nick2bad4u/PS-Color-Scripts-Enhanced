@@ -1,18 +1,4 @@
-﻿# Converted from: ESS!FSTS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-001/raw/ESS!FSTS.ANS
-# Source Revision: archive-sha256:7435b1c9938dec461ab33b42b3dd164ea7e98ecfff30ea4d3df5a8e59194b0a3
-# Source SHA-256: d904f7e87e1529478c2201e46e5002e89f1d89848219b62b0a2e8538a7806a34
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ESS!FSTS.ANS by Essence (rARE!ASCii); released in rare-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: TFD Stats
-# SAUCE Author: Essence
-# SAUCE Group: rARE!ASCii
-# SAUCE Date: 19980305
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: TFD Stats by Essence | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-001-ess-fsts
 
 Write-Host '
  [1;30m,[0mg@££££@g[1;30m,[0m  [1;30m,[0m [1;30mi[0miIIDIDD£££££££££££££££££££££££££££££££@[1;30mg,`[0;35m╚$$[0;1;35m$$$$$$$[0;35m$[0;1;30mb[0m [1;30m`[0ml[1m£[0m£[1;30ml[0;1;37m [0;1;30ml[0;35m$[0;1;35m$[0m

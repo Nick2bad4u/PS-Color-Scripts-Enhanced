@@ -1,18 +1,4 @@
-﻿# Converted from: D1_SCNT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-10/raw/D1_SCNT1.ANS
-# Source Revision: archive-sha256:d704a20dcd17ea70f67190ae077a8c0836b1765cd20aaf9901158fb0fb9868d6
-# Source SHA-256: 4dffea8f1952530e5e838192596812e5994c46f1af0a6ddaaef6e9862a1338d2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D1_SCNT1.ANS by Dissonance (Glue); released in glue-10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Scent
-# SAUCE Author: Dissonance
-# SAUCE Group: Glue
-# SAUCE Date: 19980513
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Scent by Dissonance | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-10-d1-scnt1
 
 Write-Host '
 

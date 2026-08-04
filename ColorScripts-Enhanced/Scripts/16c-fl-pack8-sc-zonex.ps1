@@ -1,18 +1,4 @@
-﻿# Converted from: SC-ZONEX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fl-pack8/raw/SC-ZONEX.ANS
-# Source Revision: archive-sha256:1c1ac495e0474cd61bc114057c964a454c884ceea0be55a334171c27241b5499
-# Source SHA-256: e4e7fada8463a9929b4940f4cc452b1ce04dd867a14af25f615793a22494c0ae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-ZONEX.ANS by scratch (fuel); released in fl-pack8 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: zone-x logo
-# SAUCE Author: scratch
-# SAUCE Group: fuel
-# SAUCE Date: 19960131
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: zone-x logo by scratch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fl-pack8-sc-zonex
 
 Write-Host '
 

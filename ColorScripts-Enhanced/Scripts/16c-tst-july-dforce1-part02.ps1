@@ -1,13 +1,4 @@
-﻿# Converted from: DFORCE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tst-july/raw/DFORCE1.ANS
-# Source Revision: archive-sha256:ec9982e6da05239e3805ee474008c0d518b97b249e6e9a6f37df89f18f8d558b
-# Source SHA-256: 1a69f057a62377a0673d3ed0747f96d3ba4c864b0293519d07a624365eca2663
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DFORCE1.ANS by Senator (tst-july); released in tst-july and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 33-68
-# Columns: 1-80
+﻿# Artwork: DFORCE1.ANS by Senator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tst-july-dforce1-part02
 
 Write-Host '
                           [1;34m┌[0;34m──────[0;1;34m─[0;1;37m┐ [0;1;34m┌─[0;1;37m┐  [0;1;34m┌─[0;1;37m┐ [0;1;34m┌[0;34m─────[0;1;34m─[0;1;37m┐[0m

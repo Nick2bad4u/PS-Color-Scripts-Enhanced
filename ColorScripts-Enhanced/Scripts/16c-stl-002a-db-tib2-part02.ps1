@@ -1,18 +1,4 @@
-﻿# Converted from: DB-TIB2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stl-002a/raw/DB-TIB2.ANS
-# Source Revision: archive-sha256:3e235a6ddff72e10a9e874069691fccf7376513a7a30975b9ba4876883c86918
-# Source SHA-256: fd043be7a27fbe1d3ae2735ab49452f59f2b29193318d992a2e9f497f4666054
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DB-TIB2.ANS by D-Vibe (Stile); released in stl-002a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Ice Box
-# SAUCE Author: D-Vibe
-# SAUCE Group: Stile
-# SAUCE Date: 19941116
-# SAUCE Dimensions: 80x25
-# Lines: 51-77
-# Columns: 1-80
+﻿# Artwork: The Ice Box by D-Vibe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stl-002a-db-tib2-part02
 
 Write-Host '
 

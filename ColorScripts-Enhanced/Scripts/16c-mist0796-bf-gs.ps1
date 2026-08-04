@@ -1,18 +1,4 @@
-﻿# Converted from: BF-GS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0796/raw/BF-GS.ANS
-# Source Revision: archive-sha256:c6091a02ddb09590f7622dd7eb72ef185587f7a5bb6fa4e0b101ceb8692a7479
-# Source SHA-256: 52e3e7920ccabf7607cd080f26260f032ad042c1e011c50d4c9e6be456b9a704
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BF-GS.ANS by babyface (Mistigris); released in mist0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Groove Station / 2
-# SAUCE Author: babyface
-# SAUCE Group: Mistigris
-# SAUCE Date: 19960723
-# SAUCE Dimensions: 80x34
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Groove Station / 2 by babyface | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0796-bf-gs
 
 Write-Host '
 [31;42m███████▓▓▀[0;1;32;42mbf·mist[0;32m███████████████████████████████████████████████████████████[0;1;32;42m▀▀██[0m

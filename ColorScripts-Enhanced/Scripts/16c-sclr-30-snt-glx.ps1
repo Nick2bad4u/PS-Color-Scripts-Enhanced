@@ -1,13 +1,4 @@
-﻿# Converted from: SNT-GLX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-30/raw/SNT-GLX.ANS
-# Source Revision: archive-sha256:cced30f0ebc6724350e1f2e7833990d763bb9cd1f5c31b6cc234b064544ea925
-# Source SHA-256: 830ea057c8a53c99e37d6c9f776d73ff0fd375423f30d8f7a00023bc00247f7c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SNT-GLX.ANS by Shanti (sclr-30); released in sclr-30 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: SNT-GLX.ANS by Shanti | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-30-snt-glx
 
 Write-Host '
 

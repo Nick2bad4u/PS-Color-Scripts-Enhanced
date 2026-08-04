@@ -1,19 +1,4 @@
-﻿# Converted from: TNT-AP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/TNT-AP.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: c9f0246d887222a3dc6f0585e5f7438ba34470ecbf461b9761986277303a37f2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNT-AP.ANS by tainted (fire); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: apathy
-# SAUCE Author: tainted
-# SAUCE Group: fire
-# SAUCE Date: 20241028
-# SAUCE Dimensions: 80x38
-# SAUCE Font: IBM VGA
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: apathy by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-tnt-ap
 
 Write-Host '
 

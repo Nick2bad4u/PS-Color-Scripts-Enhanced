@@ -1,18 +1,4 @@
-﻿# Converted from: RS-SALT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9705/raw/RS-SALT.ANS
-# Source Revision: archive-sha256:42f41174635a4b9e44304d5d0f48b9b5aa0b6be93e48c5ea196226a31ced9fa8
-# Source SHA-256: e4a15ea329bddb270d4c9a6099d74fd774aceffc623d4c6a8637a1ebdafaa112
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-SALT.ANS by rorshack (Maiden Brazil); released in mdn-9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: veruca salt? salt'n'peppa?
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19970403
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: veruca salt? salt'n'peppa? by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9705-rs-salt
 
 Write-Host '
                             [1;30m░[0m  [1m▄[0;1;47m██▓█[0;1;40m▄[0m [1m▄▄[0m

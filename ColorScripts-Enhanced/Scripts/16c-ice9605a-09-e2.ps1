@@ -1,13 +1,4 @@
-﻿# Converted from: 09-E2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9605a/raw/09-E2.ICE
-# Source Revision: archive-sha256:cf7acb12a0ec01e1383bf24c3c45a68bc55fde8f0e38cd56180a1936aa9f8089
-# Source SHA-256: cefbff1ab058a3349b049074d7e0e4050ac132b7891a5aaf510fd0a520ce7494
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-E2.ICE by Fluor (ice9605a); released in ice9605a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: 09-E2.ICE by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9605a-09-e2
 
 Write-Host '
                  [35m▄[0m                                                 [1;35m░░░░[0m

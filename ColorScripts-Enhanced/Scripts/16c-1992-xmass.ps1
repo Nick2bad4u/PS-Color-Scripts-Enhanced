@@ -1,13 +1,4 @@
-﻿# Converted from: XMASS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1992/raw/XMASS.ANS
-# Source Revision: archive-sha256:408f6102282b4b4f582d319af7c00d0c1a49a9b89d70dc7754d4cd44f475f4fb
-# Source SHA-256: 74bcbbb1460b7e701b5ffd07e0494ea494fed1e51c8c779cafe027e34d2bc35f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XMASS.ANS by Jeremy Liao (1992); released in 1992 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: XMASS.ANS by Jeremy Liao | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1992-xmass
 
 Write-Host '
 [1;36m████████████████████████████████████████[0;36m████████████████████████████████████████[0m

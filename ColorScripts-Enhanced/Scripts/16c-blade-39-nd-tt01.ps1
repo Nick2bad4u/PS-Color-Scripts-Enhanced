@@ -1,18 +1,4 @@
-﻿# Converted from: ND-TT01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blade-39/raw/ND-TT01.ANS
-# Source Revision: archive-sha256:1776ceee3f0ac81d5c3bff8701dd1656a31f76fff34981bcd6970dd08b4177dd
-# Source SHA-256: d06fd4a000eadb3531a5b3796c6b03318b2d1d1dffe788b6ee39ace84b7f2f1e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ND-TT01.ANS by napalm death (blade productions); released in blade-39 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: termite terrace
-# SAUCE Author: napalm death
-# SAUCE Group: blade productions
-# SAUCE Date: 19970506
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: termite terrace by napalm death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blade-39-nd-tt01
 
 Write-Host '
 [1;33m ██████████████████▓████████▓▓▓▒░▒▓▀▀▀▀ [0;33m▄▄▄▄  [0;1;33m▀▀ [0;33m▄   [0;1;33m▀██[0m [1;30m█[0m

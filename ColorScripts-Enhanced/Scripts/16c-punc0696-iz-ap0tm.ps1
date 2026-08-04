@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-AP0TM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/punc0696/raw/IZ-AP0TM.ANS
-# Source Revision: archive-sha256:c1d91131d4338806dd76a90956d40e18f8052615b134a7c344dc843db82ba175
-# Source SHA-256: aecbc9cd5e83e64ca675371c9c160006de88575645a283ccedd5716ce3c8adf3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-AP0TM.ANS by ize (punc productions); released in punc0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ap0tm
-# SAUCE Author: ize
-# SAUCE Group: punc productions
-# SAUCE Date: 19960520
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: ap0tm by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-punc0696-iz-ap0tm
 
 Write-Host '
 

@@ -1,19 +1,4 @@
-﻿# Converted from: US-SNAP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-44/raw/US-SNAP.ANS
-# Source Revision: archive-sha256:6c51508cedeaa9140fcf08750a75edb14e0cec0eebe7b4290346e95cd3548876
-# Source SHA-256: 5240b08d7a94d56370729ecf103c7e13021661e2901412a856be3140b53bd26a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SNAP.ANS by Tainted + Aesthetic (fire); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: snap
-# SAUCE Author: tainted/aesthetic
-# SAUCE Group: fire
-# SAUCE Date: 20251111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: snap by Tainted + Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-44-us-snap
 
 Write-Host '
 [37;40m  [0;1;33;40m█[0;1;37;40m▓░[0;1;33;40m  ▄█[0;1;33;43m░░[0;1;33;40m░[0;1;37;40m■[0m             [1;33m░░[0m                        [1;30m░░[0m [1;30m░░[0m

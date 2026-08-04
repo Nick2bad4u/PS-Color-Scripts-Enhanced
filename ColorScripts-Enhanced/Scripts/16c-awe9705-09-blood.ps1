@@ -1,18 +1,4 @@
-﻿# Converted from: 09-BLOOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9705/raw/09-BLOOD.ANS
-# Source Revision: archive-sha256:8be34660f06cc6610ed258606edc1af91e25b5675ab5e99aed29e53c07e63e17
-# Source SHA-256: b34731ab7cd6eca4edf7e2bf781c08dbcf96046a06ebebeade5bfbcbd432032b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-BLOOD.ANS by Fluor (AWE Lettering); released in awe9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Blood Line
-# SAUCE Author: Fluor
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970507
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Blood Line by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9705-09-blood
 
 Write-Host '
         [34m▄▄█[0;1;34;44m▄[0;1;34;47m▀▓[0;1;34;44m▓▄[0;1;34;40m▄▄[0;34m▄[0m     [34m▄[0;37m  [0;34m▌[0m          [34m ▄░[0m            [1;37m [0m [34m▀▄[0;1;34;44m█▄[0;1;34;40m▄▄▄▄[0;34m▄[0m

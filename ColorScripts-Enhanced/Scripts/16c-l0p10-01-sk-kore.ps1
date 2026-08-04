@@ -1,18 +1,4 @@
-﻿# Converted from: SK!KORE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p10_01/raw/SK!KORE.ANS
-# Source Revision: archive-sha256:07a7c989e195c9828a0ca382f79fb6d55a731b3471cfb9534617813c733c980c
-# Source SHA-256: 9d962efd93d708ea3f05555a4a8676cfe373f45b38511dbcd5ed4185961aaff9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!KORE.ANS by sIMONkING (tHElo0p); released in l0p10_01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: kORE.2001
-# SAUCE Author: sIMONkING
-# SAUCE Group: tHElo0p
-# SAUCE Date: 20010210
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: kORE.2001 by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p10-01-sk-kore
 
 Write-Host '
 

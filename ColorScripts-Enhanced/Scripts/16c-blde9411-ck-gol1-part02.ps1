@@ -1,18 +1,4 @@
-﻿# Converted from: CK-GOL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9411/raw/CK-GOL1.ANS
-# Source Revision: archive-sha256:79cc4c8f449f9f4069fbe5b152a1416ccd968354ad63ab0dfce361f0f42f13a8
-# Source SHA-256: 12f5b2fed584e0a7ae0f70ef3e92670d4052aeb894d8f3a80f84198651c541a3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CK-GOL1.ANS by Chromatik (Blade Productions); released in blde9411 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Golgotha
-# SAUCE Author: Chromatik
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19941105
-# SAUCE Dimensions: 80x25
-# Lines: 49-91
-# Columns: 1-80
+﻿# Artwork: Golgotha by Chromatik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9411-ck-gol1-part02
 
 Write-Host '
 [1;30m████▓ [0;31m██   ▄█▀▀▀[0;37m▄▄██▓███████▓█▄   ██[0;1;30;47m░▒▓▀▓█[0m [1;37;47m█▒░  [0m ██     ███   ▓ ▓░░█▀▓ █ ███▄ █

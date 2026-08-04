@@ -1,20 +1,4 @@
-﻿# Converted from: 5m-pcboard.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-001/raw/5m-pcboard.ans
-# Source Revision: archive-sha256:589c804657c8d15ba617f7c0fd80723e4505d519989b80eba9584665be49eb54
-# Source SHA-256: 6a4880ae57aa02a43d6c63889ce287b2614f43c1af275f47c66b0536a16eefbb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5m-pcboard.ans by Smooth (Legacy Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: PCBoard - PBBS
-# SAUCE Author: Smooth
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20191124
-# SAUCE Dimensions: 120x120
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Different versions of logo of new BBS by Ozz Nixon.
-# Lines: 1-38
-# Columns: 1-120
+﻿# Artwork: PCBoard - PBBS by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-001-5m-pcboard-part01
 
 Write-Host '
 

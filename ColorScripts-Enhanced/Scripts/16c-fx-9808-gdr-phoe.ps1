@@ -1,18 +1,4 @@
-﻿# Converted from: GDR-PHOE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fx-9808/raw/GDR-PHOE.ANS
-# Source Revision: archive-sha256:5d6a688adb69f4c7d9ef32859cb5e7dbdc43faaf082f50568e4bbcefcf9ef8b5
-# Source SHA-256: a98d8ff010d8fb49c82c94b27f471692743d71c10a6c4817a19da46778e34dd1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GDR-PHOE.ANS by Gravedancer (Function); released in fx-9808 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Evolution
-# SAUCE Author: Gravedancer
-# SAUCE Group: Function
-# SAUCE Date: 19980803
-# SAUCE Dimensions: 80x49
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Evolution by Gravedancer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fx-9808-gdr-phoe
 
 Write-Host '
                                                    [31m     [0;33m▄▄▄▄▄▄▄█[0;33;41m█▓▓▒░░░░░[0;31;40m███████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: V9-AWE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0497/raw/V9-AWE.ANS
-# Source Revision: archive-sha256:42e18118a4fe23187162d4202e0e64c79c23017db87b8967f1816ba2b79540c6
-# Source SHA-256: ffecbd30615e718b06569087422d423e80d3ff6afc8803797f410cef8a81e0e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: V9-AWE.ANS by Vade79 (f1RE); released in fire0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: AWE Lettering Promo
-# SAUCE Author: Vade79
-# SAUCE Group: f1RE
-# SAUCE Date: 19970407
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: AWE Lettering Promo by Vade79 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0497-v9-awe
 
 Write-Host '
                             ▀  ▄▄                  ▄ ■  ░

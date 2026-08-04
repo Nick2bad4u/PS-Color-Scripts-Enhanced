@@ -1,13 +1,4 @@
-﻿# Converted from: BF-SCNT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-09/raw/BF-SCNT1.ANS
-# Source Revision: archive-sha256:5e8e723726c065de5b817b7ce85a187353e8974f2bd6baa128d259f19a9c1065
-# Source SHA-256: cb1c0cc62b76326521b2a08bff9743547bd5567c2cdc6d1fbdd49a68a492c01c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BF-SCNT1.ANS by Boba Fett (glue-09); released in glue-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: BF-SCNT1.ANS by Boba Fett | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-09-bf-scnt1
 
 Write-Host '
 t[1;30mox[0mi[1;30mx[0m''s [1;30m,[0m.  .[1;30m,[0m [1;30mS[0mC[1;30mEN[0mT.  [1;30m▐[0;1;30;47m▀[0;1;30;40m▄[0m   [1;30m▀[0m               [31m▄▄▄▄[0;1;33;41m░░▓▓[0;1;33;40m██▀▀▀[0;1;37;40m▀▀▀[0m [32m▄[0;1;32;42m▄[0;1;32;40m█[0;32m░[0;37m [0;1;37m▄█[0;1;33m██[0;1;37m▄[0m  [32m░[0m

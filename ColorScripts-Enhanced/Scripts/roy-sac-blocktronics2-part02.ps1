@@ -1,13 +1,4 @@
-﻿# Converted from: ROY-BLOCKTRONICS2.ANS
-# Source encoding: CP437
-# Source URL: https://www.roysac.com/images/galleries/ZIP/Roy_ANSI.ZIP
-# Source Revision: archive-sha256:8598a9432b4feb86c4e79552795b407b9d7c576fb6f25e9828d6143f1c7b35bc
-# Source SHA-256: 0fa9a6c5efaf08810583380ec63aeb9cf64b67fba56baee6829ecc36ae589739
-# Source License: FAL-1.3
-# Source Attribution: ROY-BLOCKTRONICS2.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 29-55
-# Columns: 1-80
+﻿# Artwork: ROY-BLOCKTRONICS2.ANS by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-blocktronics2-part02
 
 Write-Host '
 [37;40m       [0;31m█[0;1;33m█▒[0;31m██[0;37m [0;1;30m██▓▒▒▒░[0;37m [0;31m░[0;37m [0;1;30m▒▒▒[0;37m [0;1;33;41m▓[0;37;40m [0;1;30;40m▒▒▒[0;37m [0;1;30m██▓▒▒░[0;37m [0;31m░[0;37m [0;1;30m▒▒▒[0;37m [0;31m▓▓▓[0;37m [0;1;30m▒▒[0;37m [0;1;30m░▒▒▒▒▒░[0;31m [0;1;30m▒▒▒[0;31m [0;1;33m░[0;31m [0;1;30m▒▒▒[0;31m [0;1;33;41m▓[0;31;40m██▓▒▒░[0m

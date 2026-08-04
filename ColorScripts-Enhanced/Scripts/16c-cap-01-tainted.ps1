@@ -1,18 +1,4 @@
-﻿# Converted from: TAINTED.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cap-01/raw/TAINTED.ANS
-# Source Revision: archive-sha256:3a30c7b77791e87d815903f98420152c863b9d1c1a9f4d5832ccdb2bfd9f8926
-# Source SHA-256: 072dab2e819a76fafc74a9eba2b8628ed97b53c7ddb59559a46c6dc579b13946
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TAINTED.ANS by taintedx (representing ZENITH); released in cap-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: caption guest
-# SAUCE Author: taintedx
-# SAUCE Group: representing ZENITH
-# SAUCE Date: 19980801
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: caption guest by taintedx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cap-01-tainted
 
 Write-Host '
                                    [34m▄▄▄[0;1;37m▄▄[0;34m░[0;30;44m▓[0m

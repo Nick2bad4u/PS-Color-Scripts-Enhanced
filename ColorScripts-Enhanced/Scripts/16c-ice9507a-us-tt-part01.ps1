@@ -1,18 +1,4 @@
-﻿# Converted from: US-TT.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9507a/raw/US-TT.ICE
-# Source Revision: archive-sha256:a72421113d2c951ec39875f37c234c38446688f5d51179a98cd9dcc0e7568ca7
-# Source SHA-256: 8c3d67e2a63887f2eef5b8c498a4028b849e088925f551c95b3e2a1fdc03cedc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TT.ICE by Turtle + Grimace (iCE?!); released in ice9507a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: termite terrace
-# SAUCE Author: turtle/grimace
-# SAUCE Group: iCE?!
-# SAUCE Date: 19950615
-# SAUCE Dimensions: 80x76
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: termite terrace by Turtle + Grimace | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9507a-us-tt-part01
 
 Write-Host '
 [1;34m[0;34m[0;1;34m[0;35m[0;34m[0;1;34m[0;34m[0m[1;34m█████[0;1;34;44m▀▀▀▀   ▄▄▄[0;1;34;40m██[0;1;34;44m▄▄▄[0;1;34;40m█[0;1;34;44m▀▀▀▀[0;1;34;40m███████████████[0;1;34;44m▀▀[0;1;34;40m██[0;1;34;44m▄▄[0;1;34;40m██[0;1;34;44m▄▄ ▀▀[0;1;34;40m█████████████████████[0;1;34;44m▀▀ ▄[0;1;34;40m█[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: CPH-HRUC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-012/raw/CPH-HRUC.ANS
-# Source Revision: archive-sha256:4b822377f08e44404edc6b006616be9a58b9ffc0848d36336fc9de37f7065343
-# Source SHA-256: 93d15214f4969b889597e60a2997eb726bfe455c33c0b1d168fef1337f14d2a1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-HRUC.ANS by {YBERPUNCh (RiB); released in rib-012 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hidden reality stuff
-# SAUCE Author: {YBERPUNCh
-# SAUCE Group: RiB
-# SAUCE Date: 19980901
-# SAUCE Dimensions: 80x15
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: hidden reality stuff by {YBERPUNCh | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-012-cph-hruc
 
 Write-Host '
 [31m ▄▄[0m     [31m ░           [0m      [31m  [0m    [31m   [0m                         [33m▄▄[0m     [31m  ░[0m

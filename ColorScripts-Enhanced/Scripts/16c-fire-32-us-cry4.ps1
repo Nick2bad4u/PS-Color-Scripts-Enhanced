@@ -1,18 +1,4 @@
-﻿# Converted from: US-CRY4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-32/raw/US-CRY4.ANS
-# Source Revision: archive-sha256:5c71caa398de36397b85ed6fca632db882465791a5a1f87f0e2aeaa3af7b947c
-# Source SHA-256: 0aca55993579373c6de073b0f7da0b8b7cae875de4ed52a5c37022095683ad5b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CRY4.ANS by Nail + Kyp (fire); released in fire-32 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the crypt
-# SAUCE Author: kyp / nail
-# SAUCE Group: fire
-# SAUCE Date: 19980308
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: the crypt by Nail + Kyp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-32-us-cry4
 
 Write-Host '
 [1;30m [0m▄[1;47m▄░░[0;1;30;47m [0m█[1;30;47m▀[0;1;30;40m▄[0;1;30;47m [0;1;37;47m▀░░[0;1;30;47m [0m▄[1;30m▐███▄  ▐[0;1;30;47m▌▄[0;1;37;47m▀░[0;1;30;47m ▀[0;1;30;40m▄▐█████████▀  [0;34m▄▀[0;1;30m [0;33m   ▄▄▄▓▓▄ [0;34m▀███▀▀[0;33m [0;37m [0;34m░░[0m    [34m   ░░▓██▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: AD-ST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/trma1295/raw/AD-ST.ANS
-# Source Revision: archive-sha256:6475c2ddc1d77e8d3b62fc5adb5522c8ec436bbb9b268bf030b84a522e46f493
-# Source SHA-256: 37a4d7e6e154feefb69487d27b0c2f444ec5643ca7785fc409c3154431a51be7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AD-ST.ANS by Armageddon Donut (Trauma); released in trma1295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Shaolin Temple
-# SAUCE Author: Armageddon Donut
-# SAUCE Group: Trauma
-# SAUCE Date: 19951128
-# SAUCE Dimensions: 80x86
-# Lines: 42-86
-# Columns: 1-80
+﻿# Artwork: Shaolin Temple by Armageddon Donut | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-trma1295-ad-st-part02
 
 Write-Host '
 [1;32;42m███[0;1;32;40m█[0m ▄[1;47m░▄▄▓[0;1;40m█[0;1;47m▄[0m█ [1;47m░▄▓▄▄░[0m▄ [1;32m▐██[0;1;32;42m██████████[0;1;32;40m███████[0;30;47m▓▀[0;37;40m█[0;30;47m░[0;37;40m▄[0;30;47m░[0;1;37;47m▀▀▀▓[0;1;37;40m██[0;1;37;47m█[0;1;37;40m███[0;1;37;47m▄▄▄[0;30;47m░░[0;37;40m████████████████ [0m

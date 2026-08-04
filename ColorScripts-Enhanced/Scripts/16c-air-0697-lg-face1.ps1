@@ -1,18 +1,4 @@
-﻿# Converted from: LG-FACE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/air_0697/raw/LG-FACE1.ANS
-# Source Revision: archive-sha256:5cd3011ba297092d80d79117f4d787f8ea3f225f068d30fcf0de8461325ab083
-# Source SHA-256: 33b8d170b5af3bddf994da64920f025deb27e6b5775893154bb7502f548a8294
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LG-FACE1.ANS by liquid_goblin (air); released in air_0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: toon
-# SAUCE Author: liquid_goblin
-# SAUCE Group: air
-# SAUCE Date: 19970604
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: toon by liquid_goblin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-air-0697-lg-face1
 
 Write-Host '
                               [1;30m▄▄▄▄▄▄▄▄[0m   [35m   [0m    [35m  [0m

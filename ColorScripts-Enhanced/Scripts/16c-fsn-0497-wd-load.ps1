@@ -1,18 +1,4 @@
-﻿# Converted from: WD-LOAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0497/raw/WD-LOAD.ANS
-# Source Revision: archive-sha256:0a24528ad1b8350dc6275ed84884990aa181682392c532082994d5872ceb5801
-# Source SHA-256: 6cd8ea3f9d3bbd6894eb8a4f0821ccb57be4f34dd0dec7920c57525017cbcfaa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WD-LOAD.ANS by weirdo (fusion); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: loader
-# SAUCE Author: weirdo
-# SAUCE Group: fusion
-# SAUCE Date: 19970406
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: loader by weirdo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0497-wd-load
 
 Write-Host '
          [32m▓▀[0m      [32m▐[0;37m  [0;32m     [0m         [1;30m█[0;36m█[0;1;36;46m▄▄[0;36m█[0;37m [0;1;30m▀[0;36m▀█▄▄▄▄[0;37m   [0;32m▌▄▄▄▌▄▄░░[0m             [32m ▄▓▄▐[0m

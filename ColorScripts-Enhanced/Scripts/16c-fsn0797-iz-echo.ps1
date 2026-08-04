@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-ECHO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn0797/raw/IZ-ECHO.ANS
-# Source Revision: archive-sha256:fc1844bde3fb3bc448ff1373e91cb7237c6c2f8016c75eb605f0f71b6d1e80d5
-# Source SHA-256: f864109cb78c00a39d66128e6315e969011cde70cca6961aacfaacbd3c53064b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-ECHO.ANS by ize (fusion); released in fsn0797 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: echo promo
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19970708
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: echo promo by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn0797-iz-echo
 
 Write-Host '
                                            [31m▌[0m

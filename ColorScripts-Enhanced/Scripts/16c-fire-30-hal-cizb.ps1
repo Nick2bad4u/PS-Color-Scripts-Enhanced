@@ -1,18 +1,4 @@
-﻿# Converted from: HAL-CIZB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-30/raw/HAL-CIZB.ANS
-# Source Revision: archive-sha256:3b54a3ca5cf24b49daaa164f9b343386c409e97270d30a4eb2997d0a7e0901dd
-# Source SHA-256: 5b059c56640c21d5e99f3305010223cfed5de9a977db7a2f8776609fafc3b104
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HAL-CIZB.ANS by Halaster (fire); released in fire-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: City Iz Burning
-# SAUCE Author: Halaster
-# SAUCE Group: fire
-# SAUCE Date: 19971109
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: City Iz Burning by Halaster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-30-hal-cizb
 
 Write-Host '
                                  [1;32m░[0m              [1;33m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PC-CONTS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense11/raw/PC-CONTS.ANS
-# Source Revision: archive-sha256:0690b90402a70581c8f215d3ac545dcd69504e18bce536e07fefa6abfa4129ef
-# Source SHA-256: c7a1acee57132dffdbaa7efdb30f5f20ab1625b6b53ebafbf56f289d723b1889
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-CONTS.ANS by Proctologist (SeNSE); released in sense11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Hooked e-mag
-# SAUCE Author: Proctologist
-# SAUCE Group: SeNSE
-# SAUCE Date: 19980617
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Hooked e-mag by Proctologist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense11-pc-conts
 
 Write-Host '
                               [34m__[0m

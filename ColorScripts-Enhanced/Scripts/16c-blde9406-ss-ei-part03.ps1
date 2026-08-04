@@ -1,13 +1,4 @@
-﻿# Converted from: SS-EI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9406/raw/SS-EI.ANS
-# Source Revision: archive-sha256:72b7e4d128b1ee6d958f28aebe2b8aee4f4a1e44e8ccbb0543812bfd8b7b45ba
-# Source SHA-256: bb99a82bf2286eb5312386fcaeb0f7c407ba6b61f373278c7ba978c95be72415
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SS-EI.ANS by Soul Seeker + Mindcrime (blde9406); released in blde9406 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 98-123
-# Columns: 1-80
+﻿# Artwork: SS-EI.ANS by Soul Seeker + Mindcrime | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9406-ss-ei-part03
 
 Write-Host '
 

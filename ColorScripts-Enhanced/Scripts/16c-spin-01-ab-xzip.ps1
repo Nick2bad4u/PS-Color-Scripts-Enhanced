@@ -1,18 +1,4 @@
-﻿# Converted from: AB-XZIP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spin-01/raw/AB-XZIP.ANS
-# Source Revision: archive-sha256:ba78f741c8c48f614ecb0f3e5f78207f43cce4239d36fe3e606be09c2119943e
-# Source SHA-256: 81d7446a54ea3cdf632c66b3ec7650750ad27736ff7ecfedea2a03c1e2754161
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AB-XZIP.ANS by aCID^bURN (spin/arc); released in spin-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: foto on the mighty xzip!
-# SAUCE Author: aCID^bURN
-# SAUCE Group: spin/arc
-# SAUCE Date: 19950806
-# SAUCE Dimensions: 80x49
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: foto on the mighty xzip! by aCID^bURN | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spin-01-ab-xzip
 
 Write-Host '
 [1;30m[ab][0m               [1;30m░░[0m              [33m▄▄[0m        [1;30m░░[0m

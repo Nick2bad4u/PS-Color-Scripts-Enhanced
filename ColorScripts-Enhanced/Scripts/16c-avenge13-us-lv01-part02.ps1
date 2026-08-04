@@ -1,18 +1,4 @@
-﻿# Converted from: US-LV01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge13/raw/US-LV01.ANS
-# Source Revision: archive-sha256:347f6c69918fead9ee3c845f2d1356dd84e1411d92cae5bcb8386da796611dd6
-# Source SHA-256: d4cd9ac2862fc0a02a1c62e6deb4d0c14764808f70298be35de14b3066b604be
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-LV01.ANS by Mydknight + Creator + Mr Wrong (The AvengeCult); released in avenge13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Lethal Vengeance
-# SAUCE Author: multiple
-# SAUCE Group: The AvengeCult
-# SAUCE Date: 19990130
-# SAUCE Dimensions: 80x87
-# Lines: 49-87
-# Columns: 1-80
+﻿# Artwork: Lethal Vengeance by Mydknight + Creator + Mr Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge13-us-lv01-part02
 
 Write-Host '
                                                    [1;30m░░[0m

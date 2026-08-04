@@ -1,17 +1,4 @@
-﻿# Converted from: US-TGO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0797/raw/US-TGO.ANS
-# Source Revision: archive-sha256:e4775a757aef4d1cbaf4afe3e80ca53c95903e66bce5b0d15425834b8d9ddb3a
-# Source SHA-256: b89a333640d034c9c253977bae61d3cbeee3efa74a54fabc2347bb9285942005
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TGO.ANS by Menace + Ize (MiSTiGRiS / Fusion); released in mist0797 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Tarango
-# SAUCE Author: Menace / Ize
-# SAUCE Group: MiSTiGRiS / Fusion
-# SAUCE Dimensions: 80x25
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Tarango by Menace + Ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0797-us-tgo
 
 Write-Host '
         [1m░[0m                 [34m░[0;30;44m▓[0;34;40m░[0m                                [1;30;40m      [0m       [1m    [0m 

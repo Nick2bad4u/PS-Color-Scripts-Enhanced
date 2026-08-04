@@ -1,18 +1,4 @@
-﻿# Converted from: 33-SHV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/33-pic95/raw/33-SHV.ANS
-# Source Revision: archive-sha256:cb087acd81a851210de22e3c5d37c8f07d2236b75952adfe16e824d8820e530d
-# Source SHA-256: 3ad1e0cca6839b9e1964b74d32a244eb93f2c5c9791218a60fae428e82baf1f7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-SHV.ANS by Eerie (Shiver); released in 33-pic95 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Shiver Promotional
-# SAUCE Author: Eerie
-# SAUCE Group: Shiver
-# SAUCE Date: 19950120
-# SAUCE Dimensions: 80x25
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Shiver Promotional by Eerie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-33-pic95-33-shv-part02
 
 Write-Host '
       █████████▓▀ [1;30m▄▓█▀▀[0m                          [1;30m                     [0m

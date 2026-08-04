@@ -1,16 +1,4 @@
-﻿# Converted from: PP-MAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ls-0396/raw/PP-MAIN.ANS
-# Source Revision: archive-sha256:027827aba2a8182d830f3ad2fb41dbb22eb3c3bf864eed4898dd3e30e7ae3a86
-# Source SHA-256: 3cc69fcd1c6c64e3e63b50499b84c1ea17c722646961b8c41e0c81093f23324f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PP-MAIN.ANS by phorce phed (leper society); released in ls-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: main lane
-# SAUCE Author: phorce phed
-# SAUCE Group: leper society
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: main lane by phorce phed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ls-0396-pp-main
 
 Write-Host '
 [1;33m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

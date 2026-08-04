@@ -1,18 +1,4 @@
-﻿# Converted from: S0G-DA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bleach01/raw/S0G-DA.ANS
-# Source Revision: archive-sha256:b051f200d4cb4a187bf381a6b9042d79015b79b0cf19e4a4a725c252afed48ec
-# Source SHA-256: d466a88eb06b689f31591c642c7a365f87bfd72f493302e4c0a3943a0f0814b8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S0G-DA.ANS by Snoop (READ THE INI FILE); released in bleach01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Digital Armageddon
-# SAUCE Author: Snoop
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950217
-# SAUCE Dimensions: 80x25
-# Lines: 47-91
-# Columns: 1-80
+﻿# Artwork: Digital Armageddon by Snoop | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bleach01-s0g-da-part02
 
 Write-Host '
 [1;30m█████▓▄██ ███▓█▄[0;31m▐[0;1;31;41m░▒▒▓▓█[0;1;31;40m▄▄[0m      [34m▀[0;1;34m▀[0m     [1;31m▄▄[0;1;31;41m░▒▓▓███▒▒█[0;1;31;40m▀    [0;1;34;40m▀[0m       [1;30;40m▐▓▀█▓███[0;34m▐████[0;1;34;44m░[0;34m███[0m

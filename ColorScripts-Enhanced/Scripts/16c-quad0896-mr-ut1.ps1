@@ -1,18 +1,4 @@
-﻿# Converted from: MR-UT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0896/raw/MR-UT1.ANS
-# Source Revision: archive-sha256:aea0eeb92b0eab79feeb93a911e40d78834e5950cdc396c43c83fe60a2627fad
-# Source SHA-256: 04009b7a690808115e962490e7f76c2af5712ae02486b4798b62948962ca0f54
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-UT1.ANS by mithrandir (quad-p); released in quad0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: unsettling trend(1)
-# SAUCE Author: mithrandir
-# SAUCE Group: quad-p
-# SAUCE Date: 19960712
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: unsettling trend(1) by mithrandir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0896-mr-ut1
 
 Write-Host '
                  a n s i  b y  m i t h r a n d i r  q u a d - p

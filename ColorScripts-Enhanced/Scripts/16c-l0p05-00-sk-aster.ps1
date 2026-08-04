@@ -1,13 +1,4 @@
-﻿# Converted from: SK!ASTER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p05_00/raw/SK!ASTER.ANS
-# Source Revision: archive-sha256:d107a99a4f6346768b79c50cf89b1ea06eaa6378fa6264f2582e9bfb2f879d7f
-# Source SHA-256: 506655b6d7d4068ad1728cfabfa564a96b124737ef654f63cc5d8fbd52b6cad2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!ASTER.ANS by Simonking (l0p05_00); released in l0p05_00 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: SK!ASTER.ANS by Simonking | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p05-00-sk-aster
 
 Write-Host '
                                                   [1;30m   [0m█[1;47m░░[0;1;30;47m▐[0;1;30;40m                    [0m

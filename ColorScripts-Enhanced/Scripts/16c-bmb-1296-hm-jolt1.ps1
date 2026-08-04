@@ -1,18 +1,4 @@
-﻿# Converted from: HM-JOLT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-1296/raw/HM-JOLT1.ANS
-# Source Revision: archive-sha256:f773a389f51b5e0da0cfb005fe603efcb492346271314d84a3bbd590d27c199e
-# Source SHA-256: 78cb40ba6be2d937ed54923909c95c95e31ae22ace34d28a6ec06a0899af80ed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HM-JOLT1.ANS by head mOnk (bamboosh); released in bmb-1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Jolt again!
-# SAUCE Author: head mOnk
-# SAUCE Group: bamboosh
-# SAUCE Date: 19961124
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Jolt again! by head mOnk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-1296-hm-jolt1
 
 Write-Host '
       [1;34m▄[0;1;34;44m▀▓[0;1;34;40m▄[0m [1;34m▄[0;1;34;44m▓▀▀[0;1;34;40m▀[0;1;34;44m▀▀▀▓[0;1;34;40m▄[0m [1;34m▄[0;1;34;44m▓▀[0;1;34;40m▄[0m [1;34m▄[0;1;34;44m▓▀▀[0;1;34;40m▀▀[0;1;34;44m▓▀▀▀[0;1;34;40m▀▀[0;1;34;44m▀▀▓[0;1;34;40m▄[0;34m [0m

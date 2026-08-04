@@ -1,19 +1,4 @@
-﻿# Converted from: md-LGCY.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-001/raw/md-LGCY.ans
-# Source Revision: archive-sha256:589c804657c8d15ba617f7c0fd80723e4505d519989b80eba9584665be49eb54
-# Source SHA-256: e413e949106e5ece5f8d866060cad38f155fd9d07b039fc52dabf04a8df4c97c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: md-LGCY.ans by MaDDoG (Legacy Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Legacy Krew font
-# SAUCE Author: MaDDoG
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20191216
-# SAUCE Dimensions: 80x35
-# SAUCE Font: IBM VGA
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Legacy Krew font by MaDDoG | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-001-md-lgcy
 
 Write-Host '
 ███████████▀████████████████████████[1;30;47m░▒▓█[0;1;30;40m▀▀▀▀█[0;1;30;47m▓▓[0;1;30;40m▀▀▀▀▀▀▀▀[0;1;30;47m▀▓▓[0;1;30;40m█▀▀▀▀▀█[0;1;30;47m▄[0m█████████[1;47m▒▒[0m███

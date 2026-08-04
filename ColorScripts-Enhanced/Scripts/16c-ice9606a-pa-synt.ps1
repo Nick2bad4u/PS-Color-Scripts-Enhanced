@@ -1,18 +1,4 @@
-﻿# Converted from: PA-SYNT.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9606a/raw/PA-SYNT.ICE
-# Source Revision: archive-sha256:5e6dcb16553010578f6a54fc5ab7554ad5fc1d41913968e4935ca2f10c08a8a7
-# Source SHA-256: cdcf4f64a40d22ed42ea13177427b75178c1d75a4c4124366042a4dd318aea7b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PA-SYNT.ICE by Parasite (iCE); released in ice9606a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Happy Birthday!
-# SAUCE Author: Parasite
-# SAUCE Group: iCE
-# SAUCE Date: 19960630
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Happy Birthday! by Parasite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9606a-pa-synt
 
 Write-Host '
  ▄▄█████████▄██▀▀▀█████████[1;30;47m░░░[0m█[1;30;47m░[0m█████████████████[30;47m  [0;37;40m███████[0;1;30;47m▀▀[0m█[1;30;47m▀[0m██████[47m0[0;40m████████▄▄ [0m

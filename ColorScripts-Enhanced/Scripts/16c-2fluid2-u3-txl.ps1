@@ -1,13 +1,4 @@
-﻿# Converted from: U3-TXL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/2fluid2/raw/U3-TXL.ANS
-# Source Revision: archive-sha256:5b7b859a6b313bef27715626a2129a68a4e711fed88780f169533809010a1ae8
-# Source SHA-256: f4d41f5b27655c5cda13114200c2dd4809347b53f23af476336b37a1f13bcfee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: U3-TXL.ANS by Unseen Fate (2fluid2); released in 2fluid2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: U3-TXL.ANS by Unseen Fate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-2fluid2-u3-txl
 
 Write-Host '
                      [1;30m▄▀[0m                                     [1;30m▀▄[0m

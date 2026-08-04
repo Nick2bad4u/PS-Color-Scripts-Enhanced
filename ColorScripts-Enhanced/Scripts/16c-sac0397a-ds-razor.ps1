@@ -1,13 +1,4 @@
-﻿# Converted from: DS-RAZOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0397a/raw/DS-RAZOR.ANS
-# Source Revision: archive-sha256:a5643402b7470fb900b36daeccc6ebdbb3a700bc372f618742377039777fc87e
-# Source SHA-256: 256db6f63c5cae8ce1da62cd4777913c6a56ea4fbca129c9eef02e1d648c9d8d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-RAZOR.ANS by Dark Star (sac0397a); released in sac0397a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: DS-RAZOR.ANS by Dark Star | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0397a-ds-razor
 
 Write-Host '
 [1;36m   [0;34m▄[0;1;36m [0;1;34m▄[0;1;34;46m▀[0;1;34;40m▄[0m [34m▄[0;1;34m░[0;31m     [0;1;34m ░[0;31m             [0;1;34m░[0;31m                 [0;1;34m░[0;31m    [0;1;34m░[0;31m         [0;1;34m░[0;34m ▄[0;1;34m ▄[0;1;34;46m▀[0;1;34;40m▄[0;31m [0;34m▄[0;31m ■ ▄▄[0m

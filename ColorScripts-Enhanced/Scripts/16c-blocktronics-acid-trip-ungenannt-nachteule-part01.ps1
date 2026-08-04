@@ -1,19 +1,4 @@
-﻿# Converted from: ungenannt_nachteule.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_acid_trip/raw/ungenannt_nachteule.ANS
-# Source Revision: archive-sha256:c0717ff5cb7d462ed7fa9a55edd7235adbd3f09e01132486021497c9281171b6
-# Source SHA-256: 5c9dde5f939a10e44e05c9b3f47162e847e8966a2ebddde94e8def7730a3aec1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ungenannt_nachteule.ANS by ungenannt (blocktronics); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: nacht eule
-# SAUCE Author: ungenannt
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x200
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: nacht eule by ungenannt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-acid-trip-ungenannt-nachteule-part01
 
 Write-Host '
 [1;36;46m░░░░░          [0;1;33;46m               [0;36;46m   [0;1;37;46m▄ [0;36;46m         [0;36;40m█████[0;36;46m    [0;1;36;46m░░░░▒▒▒░▒▒▒▒▒▒░░░░▒▒▒▓▓▓▓▒[0m

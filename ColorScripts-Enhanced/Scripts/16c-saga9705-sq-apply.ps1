@@ -1,18 +1,4 @@
-﻿# Converted from: SQ-APPLY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/saga9705/raw/SQ-APPLY.ANS
-# Source Revision: archive-sha256:9950004e76ea5c0e6c27ac92b1d4c958f7cea833041843273d527effb62ad1ee
-# Source SHA-256: e56a4f1e9b27f11fdb063ddf0b27e32c8cd1a578a6bf69d7bc25c3b9f2d823d4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SQ-APPLY.ANS by SharQue (saga); released in saga9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: saga apply ansi
-# SAUCE Author: SharQue
-# SAUCE Group: saga
-# SAUCE Date: 19930502
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: saga apply ansi by SharQue | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-saga9705-sq-apply
 
 Write-Host '
 [1;30m▐███▓░▀▐██▌   ░░░▓▓▓████▌██▀▄▓▀██[0;1;30;46m▓▓▒▒▓▒░░  ░[0;36m██▓▓▀▀░▄▄██▀▀▀[0m

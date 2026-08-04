@@ -1,13 +1,4 @@
-﻿# Converted from: BLENDER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr008/raw/BLENDER.ANS
-# Source Revision: archive-sha256:538713f6eceb08f3ae929b511bdabc41afc7e24581ca518038e52dcff7842248
-# Source SHA-256: a8740fc639f74d0bb7038e475aa76b9c7657c0ad4e6a74af0cbe6979e528b497
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BLENDER.ANS by Blender (blndr008); released in blndr008 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: BLENDER.ANS by Blender | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr008-blender
 
 Write-Host '
 

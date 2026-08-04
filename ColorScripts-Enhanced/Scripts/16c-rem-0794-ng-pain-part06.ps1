@@ -1,13 +1,4 @@
-﻿# Converted from: NG-PAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rem-0794/raw/NG-PAIN.ANS
-# Source Revision: archive-sha256:c58fd07ae96de95a60edfac1fe22976447eb9758c5349eb32bce42f8bcfbc628
-# Source SHA-256: 274c91581a68050512f449f7d5e8464cb3a9b301f95b1be0f3d779f1ffe0de36
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NG-PAIN.ANS by Yuehwoungdade + Ng (rem-0794); released in rem-0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 240-286
-# Columns: 1-80
+﻿# Artwork: NG-PAIN.ANS by Yuehwoungdade + Ng | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rem-0794-ng-pain-part06
 
 Write-Host '
                         [34m░  ░[0m                [1;34m▀▄[0m         [1;34m█[0m

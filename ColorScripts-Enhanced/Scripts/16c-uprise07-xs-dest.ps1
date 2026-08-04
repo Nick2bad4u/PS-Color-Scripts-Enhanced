@@ -1,15 +1,4 @@
-﻿# Converted from: XS-DEST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise07/raw/XS-DEST.ANS
-# Source Revision: archive-sha256:e9fb6933d41a936134d4f2611eadee07355a10c1a02cff6221e1c572c3d24d6d
-# Source SHA-256: c8d248573c4f3b62b17c00d6aed7f963b62cd458d6cb4d47e3a02212f4145690
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XS-DEST.ANS by Xsys (uprise07); released in uprise07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 19980828
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: XS-DEST.ANS by Xsys | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise07-xs-dest
 
 Write-Host '
 

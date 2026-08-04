@@ -1,13 +1,4 @@
-﻿# Converted from: TSK-KAFK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz05apr/raw/TSK-KAFK.ANS
-# Source Revision: archive-sha256:1015a880c3c2e42953df14381eb6ae6e6ec0326b482ac0273175f6e6e7073aa4
-# Source SHA-256: f33483ad78aa61f9f250cf9915bb9225457cd5c2f99d0e5dd1fb4a4177bbeaf0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-KAFK.ANS by The Silent Killer (laz05apr); released in laz05apr and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: TSK-KAFK.ANS by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz05apr-tsk-kafk
 
 Write-Host '
 

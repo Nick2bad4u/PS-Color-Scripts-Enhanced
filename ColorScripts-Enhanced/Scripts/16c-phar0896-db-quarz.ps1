@@ -1,18 +1,4 @@
-﻿# Converted from: DB!QUARZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phar0896/raw/DB!QUARZ.ANS
-# Source Revision: archive-sha256:6b5cc8d7252908bb34e044ed6dcfb42f8dbf6c65d3528deee6494d62c5743e7d
-# Source SHA-256: c0c50699cd9b7e9f8ca0505b68b51ef740dc57cde558929275285ac09576bc3d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DB!QUARZ.ANS by Drunken Bastard (phar); released in phar0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Quarz Logo
-# SAUCE Author: Drunken Bastard
-# SAUCE Group: phar
-# SAUCE Date: 19960731
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Quarz Logo by Drunken Bastard | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phar0896-db-quarz
 
 Write-Host '
 

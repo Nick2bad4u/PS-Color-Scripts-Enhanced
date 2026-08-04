@@ -1,18 +1,4 @@
-﻿# Converted from: KA-AILL.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9601a/raw/KA-AILL.ICE
-# Source Revision: archive-sha256:e4c089e3103bdc63762348bbcc2c54a05a351461817f667c54ad471098c66860
-# Source SHA-256: c967a15c32e598c114fce6ed88a0707dcad4d1241fabe25859e38dacbdb2d3f4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KA-AILL.ICE by kadaver (iCE); released in ice9601a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: abstractiLLUSIONs
-# SAUCE Author: kadaver
-# SAUCE Group: iCE
-# SAUCE Date: 19960205
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: abstractiLLUSIONs by kadaver | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9601a-ka-aill
 
 Write-Host '
 [1;31m▀▀[0;1;31;43m▓▓▓▒▒▒▒░░[0;33m▄▄▄░[0;1;31m▀▀[0;1;31;43m▓█[0;1;31;40m▄▄▄[0;1;33;40m▀▀███████████[0;1;33;44m▓[0;1;33;40m████████████████████████████████████████████[0m

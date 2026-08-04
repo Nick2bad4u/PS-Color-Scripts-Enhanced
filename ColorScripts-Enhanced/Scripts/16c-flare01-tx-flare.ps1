@@ -1,13 +1,4 @@
-﻿# Converted from: tx-flare.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flare01/raw/tx-flare.ans
-# Source Revision: archive-sha256:70ac9c6e8f7c924a370aa1a1c2181a1b32fbcdb216a632b2af20b1d07c5dc8f1
-# Source SHA-256: 0660c7b762a59e878950d36cdf21f5c808d51cb80fed31bf7dbba71f348d3df9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tx-flare.ans by Toons Xilion (flare01); released in flare01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: tx-flare.ans by Toons Xilion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flare01-tx-flare
 
 Write-Host '
 [31m[0;1;31m[0m[1;30m[0m[1;30m[0m

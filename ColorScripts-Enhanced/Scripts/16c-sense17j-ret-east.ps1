@@ -1,13 +1,4 @@
-﻿# Converted from: RET-EAST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense17j/raw/RET-EAST.ANS
-# Source Revision: archive-sha256:dd9d1d0c2e9d18c52916147f75b54ea93779080fcdcf859439501b8e3996efb6
-# Source SHA-256: d518fd3f33bee2c6848d28c9dfe594fc01174b9a0717d8cefbf010399349bbbc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RET-EAST.ANS by Retribution (sense17j); released in sense17j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: RET-EAST.ANS by Retribution | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense17j-ret-east
 
 Write-Host '
 [35m[0m

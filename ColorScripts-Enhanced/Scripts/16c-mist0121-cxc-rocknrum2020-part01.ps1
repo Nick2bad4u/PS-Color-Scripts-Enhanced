@@ -1,13 +1,4 @@
-﻿# Converted from: CXC_ROCKNRUM2020.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0121/raw/CXC_ROCKNRUM2020.ANS
-# Source Revision: archive-sha256:be6acc37c46308204b64f544c343f93533b3c26c7b10ead91ddc0227519a1a6a
-# Source SHA-256: 224bde90a23b6fa8c853b26aca698345df7e4476057f563171d0d087b117f44e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CXC_ROCKNRUM2020.ANS by Coaxcable (mist0121); released in mist0121 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: CXC_ROCKNRUM2020.ANS by Coaxcable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0121-cxc-rocknrum2020-part01
 
 Write-Host '
 

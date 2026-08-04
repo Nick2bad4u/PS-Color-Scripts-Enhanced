@@ -1,18 +1,4 @@
-﻿# Converted from: HX-LAIR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tclick01/raw/HX-LAIR.ANS
-# Source Revision: archive-sha256:f1c06a658b383a86443f2984b5263dea5f9443af6cf9c415715c1f36fca6ec12
-# Source SHA-256: 1727803efbff54f6193dbda29d42d5b8e44c128065c6a2e3397911f4069555f7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HX-LAIR.ANS by haliphax (rBL); released in tclick01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the lair 80/25
-# SAUCE Author: haliphax
-# SAUCE Group: rBL
-# SAUCE Date: 19980211
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: the lair 80/25 by haliphax | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tclick01-hx-lair
 
 Write-Host '
    [1m _[0;1;31m_[0;31m [0m   [1;37m _[0;1;31m_[0;31m [0m          [1;37m _[0;1;31m_[0;31m [0m                     [37m [0m

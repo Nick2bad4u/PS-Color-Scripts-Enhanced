@@ -1,18 +1,4 @@
-﻿# Converted from: K-NST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1299/raw/K-NST.ANS
-# Source Revision: archive-sha256:83adb8251a8dc8c325101454935a0efc46e834de99da0956bfb9a33bb74d6870
-# Source SHA-256: 74b44a28326eebff4db492b2338a396707788cffa07db444b697e872af9e6187
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K-NST.ANS by kyp (black maiden); released in plf-1299 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: PLF 23 promotion
-# SAUCE Author: kyp
-# SAUCE Group: black maiden
-# SAUCE Date: 19991213
-# SAUCE Dimensions: 80x25
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: PLF 23 promotion by kyp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1299-k-nst
 
 Write-Host '
 [36;45m    [0;35;40m█████[0;36;45m      ..  ._______           _________  .......               [0;35;40m█████████[0m

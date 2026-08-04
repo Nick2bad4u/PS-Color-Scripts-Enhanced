@@ -1,18 +1,4 @@
-﻿# Converted from: MI-POLLY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0597/raw/MI-POLLY.ANS
-# Source Revision: archive-sha256:e6fe3ae4fc988a430f4c2e43606b4738207590afea7cf3991b6548469f3cd377
-# Source SHA-256: 137690d95f3af9632b801ed08171319ae2a3623810bb1f8382d5fc1649290152
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MI-POLLY.ANS by Mongi (Opium Graphics); released in opx-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Polly Planet
-# SAUCE Author: Mongi
-# SAUCE Group: Opium Graphics
-# SAUCE Date: 19970428
-# SAUCE Dimensions: 80x56
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Polly Planet by Mongi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0597-mi-polly-part01
 
 Write-Host '
 [36m█████████[0;1;36;46m▄▀[0;36m██▀▄[0;1;34;46m░░▄▄[0;36m███████████▀▀▀[0;37m [0;33m▄▄▄▄▄▄[0;37m [0;36m▀▀▀█████████████████████▀▀▀▀▀▀▀▀███████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: KRZ-RTS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phb-0397/raw/KRZ-RTS.ANS
-# Source Revision: archive-sha256:d18868f8faf7726799689b37fb1a0005133cfca83163c8b652f242ae3ef3a67d
-# Source SHA-256: 20d1d3dc71fc525ffb54472d28933464eaa3ab9b20c66d188e41507e82de342e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KRZ-RTS.ANS by krazie (fsn/phobia); released in phb-0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: diabolic rites
-# SAUCE Author: krazie
-# SAUCE Group: fsn/phobia
-# SAUCE Date: 19970226
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: diabolic rites by krazie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phb-0397-krz-rts
 
 Write-Host '
       [1;30m                    [0m

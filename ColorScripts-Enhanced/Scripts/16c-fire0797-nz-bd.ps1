@@ -1,18 +1,4 @@
-﻿# Converted from: NZ-BD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0797/raw/NZ-BD.ANS
-# Source Revision: archive-sha256:94b9d74f23cef45b7f0e0cddc6ad7ce59eed15dd66ca41ed74c0005a3af14ca4
-# Source SHA-256: ddb3c2c45a1e36d35785c0a57705485ceb1c8a5d835da33729ae7881f548765d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NZ-BD.ANS by noize (fire); released in fire0797 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: brain damage
-# SAUCE Author: noize
-# SAUCE Group: fire
-# SAUCE Date: 19970616
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: brain damage by noize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0797-nz-bd
 
 Write-Host '
 [1;31;47m▀[0;1;31;41m█▀█████▀███[0;31m▄[0;37m [0;1;30m▐[0m▄[1m▄[0;1;30m [0;1;30;47m▀[0m [31m▀▀▄[0;1;31;41m▄██▀█[0;1;31;47m▀[0;1;31;40m▀[0;31m▀  ▄[0;1;31;41m▄█[0;1;31;47m▀▌[0;1;36;47m░[0;1;31;47m▒[0;1;31;41m█▀[0;34m [0;1;31;41m▀█████[0;1;31;47m▀▀▀[0;1;36;47m▓[0;1;31;47m░▒▓[0;1;31;41m█████▀▄ ▀[0;31m▀▀      [0;34m▄▄[0m

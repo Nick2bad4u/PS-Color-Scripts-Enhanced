@@ -1,18 +1,4 @@
-﻿# Converted from: PR_WONDR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak2/raw/PR_WONDR.ANS
-# Source Revision: archive-sha256:c83fd66fd5682c2a8b3a34174fe62c7584ac006f8517d86002eef3fdd8671285
-# Source SHA-256: c1a9ecc4d9163df0da58265c99afb372944f55a349d011a119cc47322d641528
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR_WONDR.ANS by president (ecolove); released in ecl-pak2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: wonderland
-# SAUCE Author: president
-# SAUCE Group: ecolove
-# SAUCE Date: 19971223
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: wonderland by president | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak2-pr-wondr
 
 Write-Host '
                                 [1;30m            ▄▄▄█▀▀▀▀▀█▄   [0m

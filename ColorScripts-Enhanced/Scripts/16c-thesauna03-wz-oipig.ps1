@@ -1,19 +1,4 @@
-﻿# Converted from: wz_oipig.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna03/raw/wz_oipig.ans
-# Source Revision: archive-sha256:997aaab655669129eb266c21ca0c4588b603e11c90338498bb530f8bba390fb2
-# Source SHA-256: 6f017b6704bed15d00f19439c3dd2119cc08e869dfb7cd033fb2a655a099475a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wz_oipig.ans by Whazzit (Blocktronics); released in thesauna03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Oipig
-# SAUCE Author: Whazzit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20220327
-# SAUCE Dimensions: 80x28
-# SAUCE Font: IBM VGA
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Oipig by Whazzit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna03-wz-oipig
 
 Write-Host '
        [1;30m▄[0m         ░░                 [1;30m▄[0m [1;30m░░[0m

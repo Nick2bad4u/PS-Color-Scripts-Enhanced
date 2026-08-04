@@ -1,19 +1,4 @@
-﻿# Converted from: ODD-SCARECROW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0220/raw/ODD-SCARECROW.ANS
-# Source Revision: archive-sha256:e3f248191f6a4c5d18400da49b246b76d2b21cd5d1846e599b74d4bfe2fab83d
-# Source SHA-256: 797abaa402e699fe1d03da97b2f6fec194d35bc154c8fe85d5d2d67d2854265f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ODD-SCARECROW.ANS by OddManBoi (Solo FTM); released in mist0220 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Scarecrow
-# SAUCE Author: OddManBoi
-# SAUCE Group: Solo FTM
-# SAUCE Date: 20200213
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Scarecrow by OddManBoi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0220-odd-scarecrow
 
 Write-Host '
    [1m·[0m                                  [36m■[0;37m       [0;1;30m< 0DD >[0m      [1m·[0m         [1m■[0m

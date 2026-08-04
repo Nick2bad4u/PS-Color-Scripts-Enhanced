@@ -1,18 +1,4 @@
-﻿# Converted from: SMI-PREV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9708/raw/SMI-PREV.ANS
-# Source Revision: archive-sha256:defa13458710db8b7c1fa20a6cd29749e80a61eef8ba8dc70e8a9a4a0b1d4f5d
-# Source SHA-256: 3c20382fa27c1fef98ee254f47a5cda45d4891776d5750e246ea82f5c73d4d59
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMI-PREV.ANS by Samurai (AWE Lettering); released in awe9708 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Prevail
-# SAUCE Author: Samurai
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970728
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Prevail by Samurai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9708-smi-prev
 
 Write-Host '
 [30;41m▓▓▓▓[0m        [30;41m▓▓▓▓▓[0m       [31;40m░░[0m              [31;40m  [0m                [31;40m▀▌[0;34;40m  [0;31;40m▀[0m   [31;40m░[0m

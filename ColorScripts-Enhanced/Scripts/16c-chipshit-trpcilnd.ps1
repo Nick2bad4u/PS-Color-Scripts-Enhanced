@@ -1,16 +1,4 @@
-﻿# Converted from: trpcilnd.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/chipshit/raw/trpcilnd.ans
-# Source Revision: archive-sha256:7c30186dac6e198e0a97d993845979c0e6211c6d94abf76b29117bf264bb25ae
-# Source SHA-256: 35b083856e69621022c075b2349101972de6f2e7d84a2abc541ae1f61a703c8a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: trpcilnd.ans by Ay38910 (chipshit); released in chipshit and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20250301
-# SAUCE Dimensions: 32x16
-# SAUCE Font: IBM VGA
-# Lines: 1-16
-# Columns: 1-32
+﻿# Artwork: trpcilnd.ans by Ay38910 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-chipshit-trpcilnd
 
 Write-Host '
 [1;44m█[0;36;106m▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;32;42m▓   [0;36;106m▓▓▓[0;1;32;42m██[0;36;106m▓▓▓▓▓▓▓▓▓[0m

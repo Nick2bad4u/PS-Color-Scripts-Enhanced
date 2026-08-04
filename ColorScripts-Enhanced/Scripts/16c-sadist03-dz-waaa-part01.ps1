@@ -1,13 +1,4 @@
-﻿# Converted from: DZ-WAAA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sadist03/raw/DZ-WAAA.ANS
-# Source Revision: archive-sha256:aad069a20b3a55e608ff5f7b3cbbfa85da447754484a4340da178067d56a89cc
-# Source SHA-256: ae7be0c5a0169924cb2fb4b178659809b9f895168db385c149d7086e0a3c5668
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DZ-WAAA.ANS by Dizzy (sadist03); released in sadist03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: DZ-WAAA.ANS by Dizzy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sadist03-dz-waaa-part01
 
 Write-Host '
 

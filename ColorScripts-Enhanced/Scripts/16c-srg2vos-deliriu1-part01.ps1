@@ -1,18 +1,4 @@
-﻿# Converted from: DELIRIU1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/srg2vos/raw/DELIRIU1.ANS
-# Source Revision: raw-sha256:db2f6c5d3cf18d19334e8014024e36164631fd5d8b9844c17aa4b61783cd75a7
-# Source SHA-256: db2f6c5d3cf18d19334e8014024e36164631fd5d8b9844c17aa4b61783cd75a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DELIRIU1.ANS by delirium (fbk.sargahd^vos); released in srg2vos and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: mobser
-# SAUCE Author: delirium
-# SAUCE Group: fbk.sargahd^vos
-# SAUCE Date: 19961111
-# SAUCE Dimensions: 80x54
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: mobser by delirium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-srg2vos-deliriu1-part01
 
 Write-Host '
 [34m$[0;1;34m$$$$$P [0m

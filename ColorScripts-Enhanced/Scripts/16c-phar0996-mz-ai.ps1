@@ -1,17 +1,4 @@
-﻿# Converted from: MZ^AI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phar0996/raw/MZ%5EAI.ANS
-# Source Revision: archive-sha256:a110fe168ec83f56158fe99c92124ea58d0884131cba0cb1f746e5e809cd3ac5
-# Source SHA-256: b4c3f02c007d356b94681b6659c917bd994eb801b4602e2056b475d233e5cba8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MZ^AI.ANS by Menzel (phar0996); released in phar0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: aI Logo
-# SAUCE Author: Menzel
-# SAUCE Date: 19960902
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: aI Logo by Menzel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phar0996-mz-ai
 
 Write-Host '
 [31m      [0m   [1;30m▀▒▄▄▀ ▀ ▀        ▄░ ▀▀▄▄    ▄  ▀   ▄▄▀[0m [1;30m▒[0m       [1;30m▀[0m      [1m▄▄▄▄[0;1;30m▀ ▄  [0;31m        [0m

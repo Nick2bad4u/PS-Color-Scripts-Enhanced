@@ -1,16 +1,4 @@
-﻿# Converted from: sp-bt01.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_1980/raw/sp-bt01.ans
-# Source Revision: archive-sha256:042192cf53a2f2df5da334e3c25cbe21b5d9ed2e910f503354d4bcd3dae5de0e
-# Source SHA-256: 0f3d8177e1bbc279cf19fd06e80f7822316c40eefdf5a2cd8c7b3c1767395e32
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sp-bt01.ans by Spear (blocktronics_1980); released in blocktronics_1980 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20140203
-# SAUCE Dimensions: 80x44
-# SAUCE Font: IBM VGA
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: sp-bt01.ans by Spear | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-1980-sp-bt01
 
 Write-Host '
 

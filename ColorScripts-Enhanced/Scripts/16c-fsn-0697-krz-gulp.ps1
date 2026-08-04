@@ -1,18 +1,4 @@
-﻿# Converted from: KRZ-GULP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0697/raw/KRZ-GULP.ANS
-# Source Revision: archive-sha256:4afa384dbe1edb8568d2d9e2fda5954485e730ef7ea56b2b5212bd5bbae30f83
-# Source SHA-256: bf7a34a71e405c0fb0e127b2a8d22d667bd0977d4c8b718c0bc1d30192679b17
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KRZ-GULP.ANS by krazie (fusion); released in fsn-0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: gulp
-# SAUCE Author: krazie
-# SAUCE Group: fusion
-# SAUCE Date: 19970518
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: gulp by krazie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0697-krz-gulp
 
 Write-Host '
                   [36m    ▄[0m

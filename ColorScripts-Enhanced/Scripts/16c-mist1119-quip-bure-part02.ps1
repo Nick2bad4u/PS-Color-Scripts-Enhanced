@@ -1,19 +1,4 @@
-﻿# Converted from: QUIP-BURE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1119/raw/QUIP-BURE.ANS
-# Source Revision: archive-sha256:55e25d51e7ea67e18beea3070275d20b31facc3af69759bb904716908b0d1228
-# Source SHA-256: a185086784bb7d91b07ae09069c27988ad18c47b40880f58a616571989d34465
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QUIP-BURE.ANS by Quip (Mistigris); released in mist1119 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Pavel Bure
-# SAUCE Author: Quip
-# SAUCE Group: Mistigris
-# SAUCE Date: 20191124
-# SAUCE Dimensions: 80x79
-# SAUCE Font: IBM VGA
-# Lines: 44-79
-# Columns: 1-80
+﻿# Artwork: Pavel Bure by Quip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1119-quip-bure-part02
 
 Write-Host '
               [1;30m░[0m         [1;30m░▒[0m     [1;30m░[0m      [33m█[0;1;31;43m ░░░▒▒▒▒▒░░[0;1;31;40m▀ [0m     █[1;47m▐[0;1;40m▌[0m

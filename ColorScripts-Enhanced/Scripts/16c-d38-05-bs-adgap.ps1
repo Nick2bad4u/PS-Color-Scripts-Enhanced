@@ -1,18 +1,4 @@
-﻿# Converted from: BS-ADGAP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-05/raw/BS-ADGAP.ANS
-# Source Revision: archive-sha256:eb0948671797309554c3545cf502cce8943191f153468011a76cca894133dc0a
-# Source SHA-256: e01b8ef4a0d3e7ebe9a704853b2537267f2db3d69aaa4cb14f568a3bfd81181b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-ADGAP.ANS by Blind Sniper (Department 38); released in d38-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ASDFG app screen plug plug
-# SAUCE Author: Blind Sniper
-# SAUCE Group: Department 38
-# SAUCE Date: 19970330
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ASDFG app screen plug plug by Blind Sniper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-05-bs-adgap
 
 Write-Host '
 [30;47m     ▓[0;35;40m ▄▄▄▄▄[0;37;40m [0;1;30;40m▄▄░[0m [35m■■[0;37m [0;1;30m▄[0;1;30;47m▓[0;1;30;40m▄[0m▄▄▄▄▄▄▄  [35m███▀▀[0;37m  [0;35m▄[0;37m [0;35m▀[0;37m [0;35m▄[0;37m  [0;36m▄▄▄▄[0;1;36m▄[0;1;33m▄[0;1;37m▌[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: JC-NEC#2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gas-02/raw/JC-NEC%232.ANS
-# Source Revision: archive-sha256:3f4a8ec10117a9d2d588cb5b9c03441f35378297d885b1fb90bac8e105c89d94
-# Source SHA-256: 8f957d6cc1f1a8491a5f389281df474f5b16e490504c5bdcfb04b26a28d79c01
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JC-NEC#2.ANS by juice (gas); released in gas-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: necrospire menuset
-# SAUCE Author: juice
-# SAUCE Group: gas
-# SAUCE Date: 19960801
-# SAUCE Dimensions: 80x21
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: necrospire menuset by juice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gas-02-jc-nec-2
 
 Write-Host '
 ▄[47m [0;1;30;47m▒░▒ [0m▓▄▓[47m [0;1;47m░▒░ [0m▓[47m  [0;1;47m░[0m▓░▓[47m [0;1;47m░[0m▓▄[34m░▓[0;34;44m    [0;1;34;44m▄              [0;34m▓ [0;33m▄[0;1;31;43m░ [0;33m▄ [0;34m▓▀ [0;33m▄[0;1;31;43m░ [0;33m▄ [0;34m▓[0;34;44m  [0;1;34;44m▄          [jc][0;34m▓[0m

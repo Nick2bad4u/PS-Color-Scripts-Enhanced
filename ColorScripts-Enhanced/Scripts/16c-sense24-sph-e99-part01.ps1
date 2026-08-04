@@ -1,18 +1,4 @@
-﻿# Converted from: SPH_E99.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense24/raw/SPH_E99.ANS
-# Source Revision: archive-sha256:8873cbedb30712f2bc9e4c92a60cdb9c72153cb3946af0473f1522d370964606
-# Source SHA-256: 33aa949da00ae98813e3e9b1eb08031713edc8d83db1eec7c9c4ea32a2ce02d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPH_E99.ANS by Sephiroth (sadist&sense); released in sense24 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: East99
-# SAUCE Author: Sephiroth
-# SAUCE Group: sadist&sense
-# SAUCE Date: 20000103
-# SAUCE Dimensions: 80x60
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: East99 by Sephiroth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense24-sph-e99-part01
 
 Write-Host '
                                    [34m                      [0m

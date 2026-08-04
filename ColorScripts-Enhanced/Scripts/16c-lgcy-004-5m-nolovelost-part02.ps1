@@ -1,19 +1,4 @@
-﻿# Converted from: 5m-nolovelost.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-004/raw/5m-nolovelost.ans
-# Source Revision: archive-sha256:c716e28d4b828a0135c19992fe2f71464879479199ebc42fd3d533b5bd3bf4d4
-# Source SHA-256: 0ce1a1425efef2fdfa643353105f19b24163801ea64f7bc5eef615f6757a45ed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5m-nolovelost.ans by Smooth (Legacy Krew); released in lgcy-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: No Love Lost
-# SAUCE Author: Smooth
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20210104
-# SAUCE Dimensions: 80x84
-# SAUCE Font: IBM VGA
-# Lines: 51-84
-# Columns: 1-80
+﻿# Artwork: No Love Lost by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-004-5m-nolovelost-part02
 
 Write-Host '
        [35m▀[0;1;35m▄[0;35m▄    [0;1;30m▀▀▀[0;1;30;47m█▄█▄██[0;1;30;40m▀[0;36m▄▀  [0;1;30m▓    [0;31m▌▌[0m      [1;30m░░[0m            [1;31m█ [0;1;30m ▄▀[0;1;31m  [0;1;30m▌[0m

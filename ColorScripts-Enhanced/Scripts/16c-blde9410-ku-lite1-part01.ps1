@@ -1,18 +1,4 @@
-﻿# Converted from: KU-LITE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9410/raw/KU-LITE1.ANS
-# Source Revision: archive-sha256:bd859dd294a62200dca01965f176566e1c6690d3dec16fdb5f06c1ef58e2dc4e
-# Source SHA-256: 57b472ca32d4898c93a3efdbb5aad1b0ef5b2f60c67d3050d665adad724f03c1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KU-LITE1.ANS by Kung Lao (Blade Productions); released in blde9410 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Lite
-# SAUCE Author: Kung Lao
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19940903
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: The Lite by Kung Lao | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9410-ku-lite1-part01
 
 Write-Host '
 [1;30m█▌  █  ▄■  [0;36m▄▄▄▄▄▄    ▓▄▄▄■   ▄▄▄[0m                             [1;30m▄▄▀  ▄[0m       [1;30m▄▄[0m

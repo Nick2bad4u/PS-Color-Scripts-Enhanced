@@ -1,18 +1,4 @@
-﻿# Converted from: HX!_RCA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-9606/raw/HX!_RCA1.ANS
-# Source Revision: archive-sha256:17184d9de795da70887ff99b1b153045f02122654d7b09784879392fd0a552da
-# Source SHA-256: becc3ada95a152dfade7b31d913989a86411bf6b2daf063aaf404a869da71b63
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HX!_RCA1.ANS by HexadecimaL / hx! (RC/4); released in rca-9606 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: RC/4 logo 01
-# SAUCE Author: HexadecimaL / hx!
-# SAUCE Group: RC/4
-# SAUCE Date: 19960530
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: RC/4 logo 01 by HexadecimaL / hx! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-9606-hx-rca1
 
 Write-Host '
              [1m  [0m    [1;30m▌[0m                       [1;30m▌[0m                       [1;30m▌[0m

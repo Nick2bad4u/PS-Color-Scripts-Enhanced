@@ -1,19 +1,4 @@
-﻿# Converted from: H&B-GLOW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack12/raw/H%26B-GLOW.ANS
-# Source Revision: archive-sha256:55286e18e28c272f11e63b1c16158d9df2657a21ca3df761a4c27630305acaa1
-# Source SHA-256: 8ad037bdcf7053e8a66fe70be62b2821b01ab584df064b442a224b1460598c27
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: H&B-GLOW.ANS by Harlequin + Blue Apache (Apocalyptic Visions); released in avpack12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Rainmaker turned glow-babe.
-# SAUCE Author: Harlequin & B.Apache
-# SAUCE Group: Apocalyptic Visions
-# SAUCE Date: 19960630
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: Does anyone out there read these comments????
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Rainmaker turned glow-babe. by Harlequin + Blue Apache | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack12-h-b-glow
 
 Write-Host '
 [1;32;42m▓▓[0;1;32;40m▌▐[0;1;32;42m▓[0;32m [0;1;32;42m▓[0;1;32;40m▄▄[0;1;32;42m▓[0;1;32;40m▄▀▄▀[0;36m [0;1;30m    [0m         [1m░[0m                      [1m░[0m                 [1;30m           [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: GB-EL112.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mft-0794/raw/GB-EL112.ANS
-# Source Revision: archive-sha256:a09a75fb914cda81883cb121c6f1c7a05996b21542dacf8ee6a58b0035156904
-# Source SHA-256: 42de1b8e77ff9fdf09ecbeedceb6324fabd61e00ca7b2423da36f0d585413e90
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GB-EL112.ANS by Gambit (mft-0794); released in mft-0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 84-122
-# Columns: 1-80
+﻿# Artwork: GB-EL112.ANS by Gambit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mft-0794-gb-el112-part03
 
 Write-Host '
 [1;30;40m [0;32m█  █  [0;36;42m░[0;36;40m▄▀ [0;36;42m▒[0m [36;40m██[0;1;36;40m▄[0;32m▀[0;1;30;42m▒▒▒░░▒▒▓▓▓[0m [36m██[0m             [1;33m▄█[0;1;33;42m▓[0;32m▀▀[0m     [36m▀▄▄▄▄▄▄ ░[0;1;30;46m▓▓░[0;36m█[0;1;30;46m░▒▓[0m [36m█[0;1;30;46m▒░ ░▒▓[0m [1;30;40m▒░[0m

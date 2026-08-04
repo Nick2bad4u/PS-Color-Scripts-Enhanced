@@ -1,18 +1,4 @@
-﻿# Converted from: HW-SOV1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wbt-0195/raw/HW-SOV1.ANS
-# Source Revision: archive-sha256:796665d63839084a3e064ad6d02fdcac454fe856d0c61a26a4030285b18917b6
-# Source SHA-256: ab317995def84cf7bdb0e55c08c4a8268a3d6dab8f8fdde0d2e3ebe35aac5555
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HW-SOV1.ANS by Heat Wave (WBT/SHiVER); released in wbt-0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Spirits of Vengeance
-# SAUCE Author: Heat Wave
-# SAUCE Group: WBT/SHiVER
-# SAUCE Date: 19941228
-# SAUCE Dimensions: 80x141
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: Spirits of Vengeance by Heat Wave | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wbt-0195-hw-sov1-part01
 
 Write-Host '
 [30m[0m[30m[0m[30m[0m[30m[0m[30m[0m[30m[0m[30m[0m[1;30m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m

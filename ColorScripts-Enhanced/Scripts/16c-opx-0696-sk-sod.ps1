@@ -1,18 +1,4 @@
-﻿# Converted from: SK!SOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0696/raw/SK!SOD.ANS
-# Source Revision: archive-sha256:1ba4c8d098d1b0f05665c254631c4d3b64f02872fa1b37e7519ce6b263840874
-# Source SHA-256: a8ad57909ec8b35fd7caa45bbf0eae7d2d31ad3f069824e62bcb536167a1b77b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!SOD.ANS by skeleton (opium graphix!); released in opx-0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: sod!
-# SAUCE Author: skeleton
-# SAUCE Group: opium graphix!
-# SAUCE Date: 19960526
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: sod! by skeleton | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0696-sk-sod
 
 Write-Host '
 [36m[0;1;30m[0;36m[0;1;30m[0;36m[0;1;30m[0m[1;30;43m█▀▀▀▀▀▀▀▀███[0;1;30;40m▀▀▀▀▀▀[0;1;30;43m████▀▀▀▀▀▀▀▀▀▀▀▀████████████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m

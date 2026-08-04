@@ -1,16 +1,4 @@
-﻿# Converted from: N!Z-DV8.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0297/raw/N!Z-DV8.ANS
-# Source Revision: archive-sha256:2e15cb2f2712a143323c9f3c6ecca94c5b5b12a452a019e911d205dd685c6eee
-# Source SHA-256: e4c319923a6189813ca49907d30f1a800edd0bcd8c9b0635c450f3b2db44740d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N!Z-DV8.ANS by noize (phat studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: dv8-logo
-# SAUCE Author: noize
-# SAUCE Group: phat studios '97
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: dv8-logo by noize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0297-n-z-dv8
 
 Write-Host '
 

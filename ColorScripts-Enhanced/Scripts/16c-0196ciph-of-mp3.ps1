@@ -1,18 +1,4 @@
-﻿# Converted from: OF-MP3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/0196ciph/raw/OF-MP3.ANS
-# Source Revision: archive-sha256:a2dd81806a0eee4537df8ce0b38cf86bae0804e2b53793c7f700889458b6b68d
-# Source SHA-256: a498f21bd34c2490620dd8983793b311be0baf9f0615b401885e379bbb82c329
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OF-MP3.ANS by Offspring (PRiC); released in 0196ciph and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Mnemonic Psychosis Font
-# SAUCE Author: Offspring
-# SAUCE Group: PRiC
-# SAUCE Date: 19960106
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Mnemonic Psychosis Font by Offspring | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-0196ciph-of-mp3
 
 Write-Host '
                  [1;30m▄[0m  [1;30m▐[0m [1;30m▄[0m           [1;30m ▄▄▄▄▄▄▄▄▄▄▄[0m

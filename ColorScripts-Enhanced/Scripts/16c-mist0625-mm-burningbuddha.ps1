@@ -1,20 +1,4 @@
-﻿# Converted from: MM-BURNINGBUDDHA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0625/raw/MM-BURNINGBUDDHA.ANS
-# Source Revision: archive-sha256:6ee9af28fa25e25a7c8d524c0b340107e083c251e59a271e20836a9f47bec3b2
-# Source SHA-256: 8b3971afefa1eb6c48548560f80d149631909d9f3f5196a055de2d27dc45dc8b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-BURNINGBUDDHA.ANS by Mavenmob (Mistigris); released in mist0625 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Burning of Bamiyan Buddhas
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20250627
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# SAUCE Comments: The rhythm of light coming out of your fingers. Heaven. Can you | feel it?
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Burning of Bamiyan Buddhas by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0625-mm-burningbuddha
 
 Write-Host '
 [30;43m███[0;35;40m█████[0;35;47m▓▓[0;37;40m [0;35;47m▓▓▓▓▓[0;35;40m██[0;37;40m█[0;1;37;47m▓[0;1;35;47m▓[0;1;35;40m██[0;1;35;41m▐[0;1;35;40m▀█[0;1;35;41m▐[0;41m▐▐[0;31;47m██[0;1;31;47m███[0;1;31;41m█[0;1;35;41m█[0m [1;35;41m██[0;1;31;41m█[0;1;31;47m███[0;1;31;40m▀[0;1;31;47m██████[0m [1;31;41m██████████[0;1;37;47m▓[0;31;47m██[0;37;41m▐[0;1;31;41m▐▐[0;1;31;47m▓[0m [1;31;47m▓[0;1;31;41m▐▐[0m▀[1;31;47m▓▓▓▓[0;30;43m███[0m

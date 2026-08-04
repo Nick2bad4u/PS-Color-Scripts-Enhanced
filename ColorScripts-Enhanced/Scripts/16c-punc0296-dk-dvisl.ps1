@@ -1,18 +1,4 @@
-﻿# Converted from: DK-DVISL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/punc0296/raw/DK-DVISL.ANS
-# Source Revision: archive-sha256:77d6380aea8b73102d5ce9e69ab9b838bbcd43d090ae7f9819e27ef3026ed31a
-# Source SHA-256: 881b5cd303b3ff1bd5564749c6e3e9681b0801242dc7512ee42ac127c7e8b565
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DK-DVISL.ANS by dragoon kain (punc productions); released in punc0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: devil's island
-# SAUCE Author: dragoon kain
-# SAUCE Group: punc productions
-# SAUCE Date: 19960120
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: devil's island by dragoon kain | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-punc0296-dk-dvisl
 
 Write-Host '
   [34m▄▄▄▄[0m      [34m▄▄▄▄[0m      [34m▄▄▄▄[0m      [34m▄▄▄▄ ▄▄▄▄[0m      [34m▄▄▄▄[0m

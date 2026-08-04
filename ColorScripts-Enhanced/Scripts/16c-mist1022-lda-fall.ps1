@@ -1,19 +1,4 @@
-﻿# Converted from: LDA-FALL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1022/raw/LDA-FALL.ANS
-# Source Revision: archive-sha256:b4cfb070b10229c71b6cdba49fff141c03f4ad9e6e51a5ef68dfa1930822da97
-# Source SHA-256: 511cf45967c021b3dc9b252c6495faedc976f7bd37c8ff71ecf4c6208e911fd2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LDA-FALL.ANS by LDA (Mistigris); released in mist1022 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Fall
-# SAUCE Author: LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20221029
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Fall by LDA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1022-lda-fall
 
 Write-Host '
 [46m                                 [0;1;33;46m■▄[0;1;33;43m▓[0;1;33;46m▄[0;46m   [0;1;31;46m▄▌[0;33;46m [0;37;46m   [0;31;46m▄[0;37;46m   [0;1;31;46m▄▄[0;1;33;46m■[0;1;33;40m█[0;1;33;46m▀▀[0;31;46m▄[0;33;41m░░[0;31;40m▄ [0;1;31;46m███[0;30;46m■▀██[0;1;33;40m░[0;30;46m █▓   [0;37;46m     [0m

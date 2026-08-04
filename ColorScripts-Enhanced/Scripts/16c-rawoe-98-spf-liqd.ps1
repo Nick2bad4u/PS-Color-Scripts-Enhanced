@@ -1,18 +1,4 @@
-﻿# Converted from: SPF-LIQD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rawoe-98/raw/SPF-LIQD.ANS
-# Source Revision: archive-sha256:72c3cf0f44a476eef694d1cf3a1552a03dc3aa0478a61b3b389cc598bf59ebb8
-# Source SHA-256: 0a469e5146360c4f684696cc68117fc91b4e1e51738f27654874aaca2ea236ec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPF-LIQD.ANS by [sPITFIRE] (woe); released in rawoe-98 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: liquid!
-# SAUCE Author: [sPITFIRE]
-# SAUCE Group: woe
-# SAUCE Date: 19980416
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: liquid! by [sPITFIRE] | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rawoe-98-spf-liqd
 
 Write-Host '
             [34m▄[0;30;44m░[0;34;40m▄▄▄▄[0m                 [1;30;40m░░[0m

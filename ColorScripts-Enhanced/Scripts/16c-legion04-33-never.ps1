@@ -1,18 +1,4 @@
-﻿# Converted from: 33-NEVER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/legion04/raw/33-NEVER.ANS
-# Source Revision: archive-sha256:0d07f7ae4323afa2f3b17624e402877744879e819036fe24f941aefc96e2fd9e
-# Source SHA-256: b0209cf41516171dcee55702850303589b749eae3b2b9fb26df7b419391615ea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-NEVER.ANS by eerie (the legion); released in legion04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: neverhood
-# SAUCE Author: eerie
-# SAUCE Group: the legion
-# SAUCE Date: 19980701
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: neverhood by eerie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-legion04-33-never
 
 Write-Host '
 [1;45m         [0;35m███████████████████████████████▀▀[0;34m▄▄▄▄███████▄▄▄▄[0;35m▀▀▀███████[0;1;37;45m            [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SD-ECL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-05/raw/SD-ECL1.ANS
-# Source Revision: archive-sha256:9471ca7612415a41916878584e9d9bf710a5efbc5b8d389ed1bde764e2a602ca
-# Source SHA-256: e9831604bd0e34aa43767d5261def0ebfd6656c0b06a05a49fa863c6f9dbfecf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-ECL1.ANS by sore_deaf (eek_l_ipz); released in ecl-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: th4t_th1ng
-# SAUCE Author: sore_deaf
-# SAUCE Group: eek_l_ipz
-# SAUCE Date: 19960812
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: th4t_th1ng by sore_deaf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-05-sd-ecl1
 
 Write-Host '
                         [1;30m▄[0m

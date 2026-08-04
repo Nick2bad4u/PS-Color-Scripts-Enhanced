@@ -1,18 +1,4 @@
-﻿# Converted from: ZO-SCUM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9603/raw/ZO-SCUM.ANS
-# Source Revision: archive-sha256:f6d7d8628f8fd582effd93b8e838e75d5d9c5ee94417e33eb7b84c6b3ba37ea3
-# Source SHA-256: b0bb19db40f8e31ad201000eb61fffcf99189f7654b24f1d8437451356eab8c4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZO-SCUM.ANS by zork (blade productions); released in blde9603 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: scum!
-# SAUCE Author: zork
-# SAUCE Group: blade productions
-# SAUCE Date: 19960214
-# SAUCE Dimensions: 80x25
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: scum! by zork | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9603-zo-scum
 
 Write-Host '
          [1;30m▄[0m                    [1;30m▄[0m  [1;30m■[0m [1;30m▄[0m   [1;30m▄▄[0m   [1;30m■[0m                  [1;30m▄[0m

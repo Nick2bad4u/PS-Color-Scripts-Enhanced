@@ -1,18 +1,4 @@
-﻿# Converted from: MA-BORG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impact07/raw/MA-BORG.ANS
-# Source Revision: archive-sha256:07b2349bb1ba93a9281e6fa758ea73e28867b3746ecdb88c10b3557ff427fd39
-# Source SHA-256: 3a057e37b9fab49566819dce4846d7fe9c3751945ac9342c47b2ab42a4fffe20
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MA-BORG.ANS by mafesto (impact); released in impact07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: skate shop
-# SAUCE Author: mafesto
-# SAUCE Group: impact
-# SAUCE Date: 19970511
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: skate shop by mafesto | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impact07-ma-borg
 
 Write-Host '
 ░░░░░░░[1;30m▀▀▀ [0;34m▄▄[0;1;34m▄▄▄ [0;1;30m▀▀▀[0m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░

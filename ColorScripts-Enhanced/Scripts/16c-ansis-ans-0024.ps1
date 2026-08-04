@@ -1,13 +1,4 @@
-﻿# Converted from: ANS-0024.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis/raw/ANS-0024.ANS
-# Source Revision: archive-sha256:cabd7c46b38b213194457f50f766681b723f86902e0b5d87c41548c28c231d67
-# Source SHA-256: 3feea53f54e80bc8dff47c239647d9074c4d1255ea93d130c96e77f2f953b767
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ANS-0024.ANS by Neighborhood (ansis); released in ansis and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: ANS-0024.ANS by Neighborhood | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-ans-0024
 
 Write-Host '
 [37;40m                           [0;1;36;40m                   [0;37;40m [0;1;36;40m [0;37;40m [0;1;36;40m    [0;37;40m  [0;1;36;40m                         [0m

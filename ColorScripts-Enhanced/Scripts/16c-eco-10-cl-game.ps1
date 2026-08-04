@@ -1,18 +1,4 @@
-﻿# Converted from: CL!-GAME.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-10/raw/CL!-GAME.ANS
-# Source Revision: archive-sha256:000952cb4ae67d2cb270a79e09c60fdaab382006cc958dcf78f2d6e69f1e8e04
-# Source SHA-256: a3a1aa72e07f4da54439430b75cab4c0e102b3d4591445a2c439fc9bbcc0654f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-GAME.ANS by Cleaner (Ecolove); released in eco-10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Injection game selector ppe
-# SAUCE Author: Cleaner
-# SAUCE Group: Ecolove
-# SAUCE Date: 19981011
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Injection game selector ppe by Cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-10-cl-game
 
 Write-Host '
 [1;33;43m▓[0;1;33;40m█[0;1;31;40m [0;1;31;43m▓[0;1;31;40m▀▄▄▄[0;1;31;43m▓▒▒▓[0;1;31;40m▄▄▄▀▀[0;1;31;43m▓▒▓[0;1;31;40m▀█[0;1;31;43m▓▓▓[0;1;31;40m█▀[0;1;31;43m▓▒▓[0;1;31;40m▀▀▄▄▄[0;1;31;43m▒░▒▓[0;1;31;40m▄▄▄▀███[0;1;31;43m▓▓[0;1;31;40m█[0;1;31;47m▓▓[0m [36m█[0;1;30;46m                         [0;36m█[0m

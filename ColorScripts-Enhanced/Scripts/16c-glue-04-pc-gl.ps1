@@ -1,18 +1,4 @@
-﻿# Converted from: PC-GL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-04/raw/PC-GL.ANS
-# Source Revision: archive-sha256:a183453b0b057b28f8e3a2d35babc61b59dbf71d40a258198f360e299e3212ab
-# Source SHA-256: 7d45156598d554a6830adaf7bf5446f7b1306a362cdaad1ed848910964161848
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-GL.ANS by putrid carcass (dark (guest)); released in glue-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: glue
-# SAUCE Author: putrid carcass
-# SAUCE Group: dark (guest)
-# SAUCE Date: 19971031
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: glue by putrid carcass | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-04-pc-gl
 
 Write-Host '
 [1;30m███[0;1;30;47m▓▒░[0;1;37;47m░[0;1;30;47m▄[0;1;30;40m▀[0;32m ▄▄▌[0;37m [0;1;30m▀▀[0m [32m▄▄▄████[0;37m [0;1;30;47m░▒▓[0;1;30;40m█▀▀▀▀▀▀█[0;1;30;47m▓▓▓▒▒░░ [0;1;37;47m▀░[0;1;30;47m░░▒▒▓▓▓[0;1;30;40m█[0;1;30;47m▄[0;1;37;47m▀▓░[0;1;30;47m░▓[0;1;30;40m██[0;1;30;47m▓▒░▒▒▓▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m██[0;1;30;47m▓▄[0;1;30;40m█▀▀██[0m

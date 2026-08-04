@@ -1,13 +1,4 @@
-﻿# Converted from: PW_IT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/poly9612/raw/PW_IT.ANS
-# Source Revision: archive-sha256:5e3ff3a314744e0a220283f8f44eb4f835ae8d9b5cc466efa9cc5260225a2315
-# Source SHA-256: 85cce0553d26315f34da2b56ee127683ac571a1444ee525d32084a5ce0495ab9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PW_IT.ANS by Pennywise (poly9612); released in poly9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: PW_IT.ANS by Pennywise | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-poly9612-pw-it
 
 Write-Host '
                                     [1;31m░░░░░░░[0m

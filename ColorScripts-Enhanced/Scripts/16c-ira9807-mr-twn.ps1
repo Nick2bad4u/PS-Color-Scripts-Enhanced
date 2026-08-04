@@ -1,18 +1,4 @@
-﻿# Converted from: MR-TWN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira9807/raw/MR-TWN.ANS
-# Source Revision: archive-sha256:c471c4d36ee5bf845811666c0e7a6f5bfba6ac001a5bbd5053c14dd8e5728ef2
-# Source SHA-256: 3a2d511fc15bf569e7f8e41d2b901c34104bf1a524ee82ecca06bff36aeb5d14
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-TWN.ANS by Mr.Wrong (Mistigris); released in ira9807 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Witty Net
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: Mistigris
-# SAUCE Date: 19980701
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: The Witty Net by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira9807-mr-twn
 
 Write-Host '
       [35m▀[0;1;35m▄[0;35m▄▄ [0;37m [0;35m [0;37m    [0;35m▄[0;37m         [0m

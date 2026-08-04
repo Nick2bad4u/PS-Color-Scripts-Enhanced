@@ -1,13 +1,4 @@
-﻿# Converted from: 2009 - 03 - we-entropy.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tcf20/raw/2009%20-%2003%20-%20we-entropy.ans
-# Source Revision: archive-sha256:af8609219fccc484668fb405a7f1d45efb8c574501a461c5c1b47d87a12921ce
-# Source SHA-256: cbb376ba13ed3c17bbf2388ad8412072ad8701159c1e72e098ca8b2295fda74c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2009 - 03 - we-entropy.ans by The Creep Fever + Avenging Angel + Enzo (tcf20); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 185-232
-# Columns: 1-80
+﻿# Artwork: 2009 - 03 - we-entropy.ans by The Creep Fever + Avenging Angel + Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tcf20-2009-03-we-entropy-part05
 
 Write-Host '
 [1;32;42m▒████████▒[0;32m [0;34;42m█[0;1;34;44m██[0;36;44m [0;34;46m█▄[0;36;40m█[0;1;36;46m▄▄[0;34;46m▀ [0;1;36;46m▀▄[0;36m█[0;34;46m▀[0;36;40m▄▄[0;34;46m█[0;34;40m▀▀[0;36;40m [0m                [1;30;40m▄▄█▀[0;32m [0;1;30m▄▄ ▄▄▄[0;32m [0;1;30m▀▀[0;32m    ░░[0m

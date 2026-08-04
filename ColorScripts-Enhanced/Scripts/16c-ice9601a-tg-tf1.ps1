@@ -1,18 +1,4 @@
-﻿# Converted from: TG-TF1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9601a/raw/TG-TF1.ICE
-# Source Revision: archive-sha256:e4c089e3103bdc63762348bbcc2c54a05a351461817f667c54ad471098c66860
-# Source SHA-256: 0892d26ed47e1572998a03a33e20d85afafeb63dbcee41ead14b27b97785a71e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-TF1.ICE by tOon gOon (iCe); released in ice9601a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Forum EMag
-# SAUCE Author: tOon gOon
-# SAUCE Group: iCe
-# SAUCE Date: 19960113
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: The Forum EMag by tOon gOon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9601a-tg-tf1
 
 Write-Host '
 [33m█[0;1;33m███[0;1;33;43m▀[0;1;36;40m █████[0;36m█[0;1;36m██████████[0;1;36;46m▀[0;1;36;40m██████[0m [1m██[0m [1;35m█▀[0;1;37m▄███▀[0;36m▄[0;1;36;46m▄█[0;1;36;40m██████████▀[0;1;37;40m █▄█ [0;1;36;40m [0;1;37;40m▄▀[0;1;36;40m [0;36m▄[0;1;36;46m▄[0;1;36;40m████████[0;1;36;46m▀[0;1;36;40m▀[0;36m▀[0;1;36m [0;1;36;46m▀[0;1;36;40m██[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SM!SETH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0198/raw/SM!SETH.ANS
-# Source Revision: archive-sha256:463d77f4b1466b54ce907e7ee760282fc69f7183ee8d9f351965b1f5ce417b30
-# Source SHA-256: b9a6ad30bd0af06cb4628049ebf94e43fd731f5bdfd3d2ad382f43d995ea8525
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM!SETH.ANS by siMs (poffelipoff); released in plf-0198 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Seth molytic
-# SAUCE Author: siMs
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19980112
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Seth molytic by siMs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0198-sm-seth
 
 Write-Host '
 ░░        [1;31m▌[0m            [1;31m             ▄▄▄▄▄▄[0;1;31;43m▀[0;1;31;40m▀▀▀▀[0;33m▀[0;37m        [0;1;31m             [0;33m▄[0;1;31m▄▄▄[0;1;31;43m▄███[0;1;31;40m██[0m

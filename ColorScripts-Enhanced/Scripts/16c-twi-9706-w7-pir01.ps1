@@ -1,18 +1,4 @@
-﻿# Converted from: W7-PIR01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twi-9706/raw/W7-PIR01.ANS
-# Source Revision: archive-sha256:e362df8ee3f0b210cf92d27e649f4cf846383e7667a4d4a16ff3beb3ea9ae887
-# Source SHA-256: 0a124d351cbf30fe817904b161e8f3a3e2c0f9cd5336cfe0b546f4f32bd74ea3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: W7-PIR01.ANS by WhiteTrash (Twilight); released in twi-9706 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Pirahna
-# SAUCE Author: WhiteTrash
-# SAUCE Group: Twilight
-# SAUCE Date: 19970616
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Pirahna by WhiteTrash | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twi-9706-w7-pir01
 
 Write-Host '
 [30;41m░[0;31;40m█[0;1;31;41m░░▒░[0;31m▄▄[0;30;41m░░[0;31;40m▀█[0;1;31;41m░▒░[0;31m██[0;30;41m░▓[0;37;40m [0;30;41m▓▒░[0;1;31;41m░[0;31m█[0;30;41m░[0;37;40m  [0;1;32;40m▐▄▄▄[0m  [31m▀▀▀[0;30;41m░░[0;1;31;41m░[0;31m██[0;1;31;41m░░░[0;31m██[0;37m [0;30;44m▓▓[0;34;40m░[0;37;40m  [0;1;37;40m▄▄▄▓▀▀▓▄[0m     [1m░▒▓▄▄▀▀[0;1;44m▓[0;1;40m▄[0m [34m░▒[0;30;44m░ [0m

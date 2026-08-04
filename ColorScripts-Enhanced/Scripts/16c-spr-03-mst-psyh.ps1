@@ -1,13 +1,4 @@
-﻿# Converted from: MST!PSYH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spr_03/raw/MST!PSYH.ANS
-# Source Revision: archive-sha256:4e72f654dd144c3fc4922c52ed27a746ba8b094b07e719417cf6392491ac9a47
-# Source SHA-256: 0cdc16582e981a8de2ee0fd1c1161e7342299c6c06d4e9e4c204db4267fc4d26
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MST!PSYH.ANS by Mist (spr_03); released in spr_03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: MST!PSYH.ANS by Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spr-03-mst-psyh
 
 Write-Host '
 [1;30m ▀███   ▐▀▄ ▄▀█ ▄▀█▄▀▄█▄▀▄██ ▄▀███ ▄▄██▀▄▀███ ▄▀ █ ▀█ ███ ▀▀ ▓ ▓ ▄▀██████▀ ▄[0m

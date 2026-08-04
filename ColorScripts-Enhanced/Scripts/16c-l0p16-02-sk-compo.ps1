@@ -1,13 +1,4 @@
-﻿# Converted from: SK!COMPO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p16_02/raw/SK!COMPO.ANS
-# Source Revision: archive-sha256:f14040a9d68edb58d098453fc4b0fc3b1d73172046af4c5ef395d54b3010b7f2
-# Source SHA-256: 5f45204924f4b587ce5c7af019ebb27d8ae9cbe2a2ce07c4385b7998a08b3cee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!COMPO.ANS by Simonking (l0p16_02); released in l0p16_02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: SK!COMPO.ANS by Simonking | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p16-02-sk-compo
 
 Write-Host '
 [1;36;46m░░░░░░░░░░░░░░░[0;36m█████████████████████████████████████[0m        [1;30m░░░░[0m   [31mANS![0m     [1;34m██[0m

@@ -1,15 +1,4 @@
-﻿# Converted from: DT-NC6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0397/raw/DT-NC6.ANS
-# Source Revision: archive-sha256:147f0608c1bd711b116f3ad049b80e805dfbb40e7d23ffce5f4580a5a57bae0f
-# Source SHA-256: 0582cca86e933eb908cda008c367fd1fae198671d615b06a5abd995ded365d12
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-NC6.ANS by Defiant (root0397); released in root0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: No Control
-# SAUCE Author: Defiant
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: No Control by Defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0397-dt-nc6
 
 Write-Host '
 [1m████[0;1;47m▓▓▀[0m▀ [34m█▓██▓▒▒░[0;30;44m▓[0;34;40m░ ░    [0;37;40m▄[0;37;41m▓░[0;31;40m█▀   ▄   ░[0m              [31;40m▀[0;1;31;40m▀[0;1;31;41m▀▀▓▓▄▄[0;31m▄[0;1;31;41m░░[0;31m▄▄▀▀▀  ▀▀▀█[0;1;31;41m▀▀██▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: WARPUS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr001/raw/WARPUS.ANS
-# Source Revision: archive-sha256:78795bef9553ddc216c3e28e99f10e873445a6a7dd9334ec3282accc038974f8
-# Source SHA-256: 163f809555791220d8b5312c9853932a8a48d91c1e75b2f22b69baaf03cb9795
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WARPUS.ANS by warpus (lazarus); released in blndr001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: blender#1
-# SAUCE Author: warpus
-# SAUCE Group: lazarus
-# SAUCE Date: 19961120
-# SAUCE Dimensions: 80x40
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: blender#1 by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr001-warpus
 
 Write-Host '
 [32m  [0;34m▓▓░░[0;32m      [0;1;37m  [0;32m [0;37m [0;34m███▄▄▄░░[0m   [34m░░  [0;37m  [0;35m░░[0m            [34m░░░░[0;37m [0;34m▄▄▄▄[0m   [31m▄█▀█▀▄  [0m    [34m░░   [0m

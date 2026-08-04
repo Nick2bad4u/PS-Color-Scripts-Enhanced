@@ -1,18 +1,4 @@
-﻿# Converted from: WT-HAZ2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0297/raw/WT-HAZ2.ANS
-# Source Revision: archive-sha256:2e15cb2f2712a143323c9f3c6ecca94c5b5b12a452a019e911d205dd685c6eee
-# Source SHA-256: 308b12128c8ebb434927214dc92219f8f329a038febd17ab6823ad83093dfcfc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WT-HAZ2.ANS by wiktor (phat studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hazard/deux pic of cb
-# SAUCE Author: wiktor
-# SAUCE Group: phat studios '97
-# SAUCE Date: 19970109
-# SAUCE Dimensions: 80x107
-# Lines: 72-107
-# Columns: 1-80
+﻿# Artwork: hazard/deux pic of cb by wiktor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0297-wt-haz2-part03
 
 Write-Host '
 [1;37;47m▓[0;1;37;40m██[0;1;37;47m▀░[0m▀         ▀[1;47m▓[0;1;40m███████████████████[0;1;47m▒[0;1;40m█[0m███████▄   ▄   [1;30m                           [0m

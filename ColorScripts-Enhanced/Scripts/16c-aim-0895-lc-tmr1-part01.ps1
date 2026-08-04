@@ -1,18 +1,4 @@
-﻿# Converted from: LC-TMR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aim-0895/raw/LC-TMR1.ANS
-# Source Revision: archive-sha256:204b30a10a0d728beeb2b6ef77a685417d42699bf345ab491eb081a7bbd4b870
-# Source SHA-256: 4e8506961371261268bffa02038118aeda8a134e642947d1e87c8a812dc3ea80
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LC-TMR1.ANS by Luc (<AiM>); released in aim-0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Magicians Realm
-# SAUCE Author: Luc
-# SAUCE Group: <AiM>
-# SAUCE Date: 19950805
-# SAUCE Dimensions: 80x72
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: The Magicians Realm by Luc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aim-0895-lc-tmr1-part01
 
 Write-Host '
               [1;35m███[0;35m███ ███[0;1;35m██[0;1;35;45m▀▀[0;35m█████████████▀▀▀▀▀▀▄▀▄▀▀▀▀▀▀████████████████ ███[0;1;35m██[0;1;35;45m█[0;1;35;40m█[0m

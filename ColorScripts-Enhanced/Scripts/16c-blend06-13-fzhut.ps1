@@ -1,17 +1,4 @@
-﻿# Converted from: 13-FZHUT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend06/raw/13-FZHUT.ANS
-# Source Revision: archive-sha256:bdb12df6fb66b6e7f7ab1240c15e9b23d66b94ced69828c85c717709162a24eb
-# Source SHA-256: 9195edca65ee2a5256596e9f227249c3d5ad640d38c43ce659cd4e12a2f6fd0f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 13-FZHUT.ANS by ville (blend karate); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fuzzhut
-# SAUCE Author: ville
-# SAUCE Group: blend karate
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: fuzzhut by ville | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend06-13-fzhut
 
 Write-Host '
  [1;34m_13[0m  [32m░░[0;37m [0;34m▄[0m    [34m■[0;37m  [0;1;34m░[0m  [1;34m▀[0m                           [32m░[0m     [36m [0;32m░[0;34m▄[0;36m▄▄░ [0;37m  [0;36m▄░[0m      [34m▄[0;36m▄▄[0;32m░[0m

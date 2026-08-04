@@ -1,18 +1,4 @@
-﻿# Converted from: RG-INTR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lcd-a001/raw/RG-INTR1.ANS
-# Source Revision: archive-sha256:55e314de3437204a90547056ed7bd388c2225541f9bc2d93c6d567b798eee7fd
-# Source SHA-256: 63d43f9d275db845662e095703401750ca545af7d0f9e69d2595aef90f53c50b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RG-INTR1.ANS by Rimgale (LUCiD); released in lcd-a001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Intro Picture
-# SAUCE Author: Rimgale
-# SAUCE Group: LUCiD
-# SAUCE Date: 19941208
-# SAUCE Dimensions: 80x25
-# Lines: 47-93
-# Columns: 1-80
+﻿# Artwork: Intro Picture by Rimgale | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lcd-a001-rg-intr1-part02
 
 Write-Host '
                 [1;30m▀▀▀▀▀▀▀▀ [0;1;31m▄▄▄█▄▄ [0;1;30m▀▀[0m     [31m▄▄█[0;1;31;41m░░[0;31m▄▄[0;1;31;41m░[0;31m▌[0m     [31m▐▌[0m                [1;31;41m▓[0;1;31;40m█[0m

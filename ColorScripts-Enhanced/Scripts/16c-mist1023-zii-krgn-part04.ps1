@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-KRGN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1023/raw/ZII-KRGN.ANS
-# Source Revision: archive-sha256:85986912ea2464623a6cb0e6c05b9b87ede10865c5aaf338ceaa9a86cac2b00a
-# Source SHA-256: b19241bfea92d72b2e59bb3833d805f236f937c5f6f9b89fd10e17a87ad67dea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-KRGN.ANS by Zeus II (Mistigris); released in mist1023 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Kurgan!
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20231007
-# SAUCE Dimensions: 80x320
-# SAUCE Font: IBM VGA
-# Lines: 132-181
-# Columns: 1-80
+﻿# Artwork: Kurgan! by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1023-zii-krgn-part04
 
 Write-Host '
 [37m [0;1;30m▀[0;31m   [0;1;30m▄[0m   [1;30m▄[0;1;30;43m▓[0m  [1;30m█[0m   [1;30m▐[0;1;30;47m▓▒▓[0;1;30;40m█▌ ░▀█▌ ▓▓█[0;1;30;47m▓▓[0;1;30;40m█████▀▄▀█[0;1;30;47m▓▓[0;1;30;40m▓██▀▀██▓████▓▓ █     ▐▓▌[0m [31m▐▀▄▄▀█[0;30;41mZII[0;31;40m█[0m

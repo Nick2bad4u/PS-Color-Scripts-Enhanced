@@ -1,18 +1,4 @@
-﻿# Converted from: PU-EXL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf_1296/raw/PU-EXL.ANS
-# Source Revision: archive-sha256:902ffb47b5338e6dcb178867d2ae1bc19c0a38faa788ba01e9fb9532c108eebc
-# Source SHA-256: d62238e2bc06c829c930791d851b93a335e8031931a648ed26dae82dba5afb0f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PU-EXL.ANS by puppiluppan (poffelipoff); released in plf_1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: exlusive logo
-# SAUCE Author: puppiluppan
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19961217
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: exlusive logo by puppiluppan | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1296-pu-exl
 
 Write-Host '
 

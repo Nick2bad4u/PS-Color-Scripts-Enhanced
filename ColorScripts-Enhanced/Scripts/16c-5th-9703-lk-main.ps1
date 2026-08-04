@@ -1,18 +1,4 @@
-﻿# Converted from: LK-MAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/5th-9703/raw/LK-MAIN.ANS
-# Source Revision: archive-sha256:fffb2c785ea5bb00b22bc525df88c9cca2a7e3ac70af213df8cc76a82e190c3a
-# Source SHA-256: 3844c5e82958012149ab3ea8985b302d9e39984cc42b9c5841b98cefdca54c7b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LK-MAIN.ANS by lightning knight ((the 5th..)); released in 5th-9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the electric cube main menu
-# SAUCE Author: lightning knight
-# SAUCE Group: (the 5th..)
-# SAUCE Date: 19970618
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: the electric cube main menu by lightning knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-5th-9703-lk-main
 
 Write-Host '
 ▄▀████████▀███████████████████▄

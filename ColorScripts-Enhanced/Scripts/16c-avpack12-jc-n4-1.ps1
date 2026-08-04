@@ -1,18 +1,4 @@
-﻿# Converted from: JC-N4#1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack12/raw/JC-N4%231.ANS
-# Source Revision: archive-sha256:55286e18e28c272f11e63b1c16158d9df2657a21ca3df761a4c27630305acaa1
-# Source SHA-256: 513220f39e28bb5e0b3abad8668084049ac94eeb9a6f93db1f5dacceb19c15bf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JC-N4#1.ANS by Juice (Apocalyptic Visions); released in avpack12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Stats Screen
-# SAUCE Author: Juice
-# SAUCE Group: Apocalyptic Visions
-# SAUCE Date: 19960504
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Stats Screen by Juice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack12-jc-n4-1
 
 Write-Host '
 [1;34;44m█▀▀▀▀▀▓[0;1;34;40m▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄ [0;1;34;44m█▀▀▀▀▀▓[0m  [1;34;40m▄[0;1;34;44m▓▀▀▀▀▓[0;1;34;40m▀[0;1;34;44m▓▀▀▀▀▀▓[0m [1;34;40m▄[0;1;34;44m▓▀▀▀▀▓[0;1;34;40m▀▀▀▀▀▀   [0;1;34;44m█▀▀▀▀▀▓[0;1;34;40m▄▄▄▄▄▄▄[0m

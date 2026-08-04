@@ -1,19 +1,4 @@
-﻿# Converted from: checs_espacio_liminal_linea_144.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hpm-04/raw/checs_espacio_liminal_linea_144.ans
-# Source Revision: archive-sha256:d2c0a14e6aa186cff60c36e0afbe6cc20a83d0b801e42df0e6a8c7b44be43337
-# Source SHA-256: 129226bdfb53aa63a1d335673e7fd94e170d75d2d3ec54bbae0e6cfa6afc34d2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: checs_espacio_liminal_linea_144.ans by checs (HPM); released in hpm-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: espacio liminal
-# SAUCE Author: checs
-# SAUCE Group: HPM
-# SAUCE Date: 20250917
-# SAUCE Dimensions: 80x111
-# SAUCE Font: IBM VGA
-# Lines: 38-74
-# Columns: 1-80
+﻿# Artwork: espacio liminal by checs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hpm-04-checs-espacio-liminal-linea-144-part02
 
 Write-Host '
 [36m    [0;37m [0;36m                            [0;37m     [0;36m▄██████[0;35m████[0;1;37;45m▄[0;1;37;40m██[0;35m████[0;1;37m██[0;35m██████[0;1;37m██[0;35m█████[0;36m█████▄[0;37m  [0;1;30m [0m

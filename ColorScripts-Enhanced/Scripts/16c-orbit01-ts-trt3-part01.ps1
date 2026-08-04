@@ -1,13 +1,4 @@
-﻿# Converted from: TS-TRT3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/orbit01/raw/TS-TRT3.ANS
-# Source Revision: archive-sha256:45e7ee6ca4092d8688f02c906ea29837a94566f7544687f1a5895261397fc2fe
-# Source SHA-256: a4a4f844ea37735f05f0b29fe9885553c682f2393b700e89c3329fc4d57b9f5a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-TRT3.ANS by Tsunami Surge (orbit01); released in orbit01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: TS-TRT3.ANS by Tsunami Surge | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-orbit01-ts-trt3-part01
 
 Write-Host '
 [1;36;46m█▓▒[0;1;36;44m▓[0;1;36;46m░[0;1;36;44m▒[0;1;34;46m▒▓[0;1;34;44m█▓[0;1;34;40m▓[0;1;34;44m▒░[0;34m█[0;1;34m▒[0;34m▓[0;1;34m░[0;34m▒░[0m                                        [1;34m▄[0;1;34;44m▓[0;1;30;44m▒[0;34m▒ [0;1;34;44m▓▄▄ [0;34m▄▄▄[0m

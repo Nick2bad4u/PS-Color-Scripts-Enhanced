@@ -1,18 +1,4 @@
-﻿# Converted from: XO-APPLY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mskp-03/raw/XO-APPLY.ANS
-# Source Revision: archive-sha256:369f71f9db47e6e5b0d0bdfdf19b2a22bd51dadea3798ab3bf33876f294ae21a
-# Source SHA-256: 009e1ce3aa1965115c6a1bf06728dab09f1edbaf79730d373a70e1a8487c58ea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XO-APPLY.ANS by XoSe (MASAKRE PRODUCTiONS); released in mskp-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: MSKP APPLY ONLiNE SCReeN
-# SAUCE Author: XoSe
-# SAUCE Group: MASAKRE PRODUCTiONS
-# SAUCE Date: 19960802
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: MSKP APPLY ONLiNE SCReeN by XoSe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mskp-03-xo-apply
 
 Write-Host '
 [1;30m  [0;1m.$$$$$$$$$$$$$$$$$$.[0m         [1;31mMaSaKrE PRODUCTiONS[0m         [1m.$$$$$$$$$$$$$$$$$.[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: HX-KEG.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9404/raw/HX-KEG.ICE
-# Source Revision: archive-sha256:e5a1f2d1c6054009d2e54f022b621731de1da87874b7a0cc14ccac875662035d
-# Source SHA-256: eaf5a7a608924d5ec0580cf6a14e28ffeed7bb1471847af299ff6c9627796083
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HX-KEG.ICE by Hoaks (ice-9404); released in ice-9404 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: HX-KEG.ICE by Hoaks | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9404-hx-keg-part01
 
 Write-Host '
 [1;34m███[0;1;34;47m████[0;1;34;40m████████[0;1;34;47m█████████████████████████████████████████████████████████████████[0m

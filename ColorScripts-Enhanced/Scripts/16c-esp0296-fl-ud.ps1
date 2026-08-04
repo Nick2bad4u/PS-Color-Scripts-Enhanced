@@ -1,15 +1,4 @@
-﻿# Converted from: FL-UD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/esp0296/raw/FL-UD.ANS
-# Source Revision: archive-sha256:7ba951ae4e6a69ae13f17e85d94c040c85d212c9217542aa1b77f88401cbf091
-# Source SHA-256: fedf78d681e1abe64f9ca2142c57167c76bd32654d40e34abe99e7ee03c060e9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-UD.ANS by Flea (esp0296); released in esp0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 19960125
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: FL-UD.ANS by Flea | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-esp0296-fl-ud
 
 Write-Host '
 [1;30m              [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: ME-STACK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0497/raw/ME-STACK.ANS
-# Source Revision: archive-sha256:73d4445ab8a07d3fe160d256052163ed66b2081a0bebb59b18ae9b36e30223e0
-# Source SHA-256: 94b0070f385627e6ec324c5b55573c4ea41e59adc452f366409135cdf3d45982
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ME-STACK.ANS by Malformed Earthborn (Root/Twisted); released in root0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: logo colly
-# SAUCE Author: Malformed Earthborn
-# SAUCE Group: Root/Twisted
-# SAUCE Date: 19970403
-# SAUCE Dimensions: 80x54
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: logo colly by Malformed Earthborn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0497-me-stack-part01
 
 Write-Host '
 [1;33m[0m[1;30m-────────────────────────────────────────────────────────────────────────────--[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: 7k-gunbeach.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-001/raw/7k-gunbeach.ans
-# Source Revision: archive-sha256:589c804657c8d15ba617f7c0fd80723e4505d519989b80eba9584665be49eb54
-# Source SHA-256: ea6a1b294238808c98266f7df4cc0c6c8e82d3a5a1399520e9b01efbd0c69c9c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 7k-gunbeach.ans by The Knight (Legacy Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Gun Beach
-# SAUCE Author: The Knight
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20191230
-# SAUCE Dimensions: 80x110
-# SAUCE Font: IBM VGA
-# Lines: 41-76
-# Columns: 1-80
+﻿# Artwork: Gun Beach by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-001-7k-gunbeach-part02
 
 Write-Host '
 [33m██▒▒▀[0;36m▄███▀██▀ ▀▀ ▀▀[0;1;31m [0;36m [0;1;37;46m▄[0;1;37;40m█[0;33m▄▓▒░[0;1;31m ▓▓[0;1;31;47m▒▒▒▒▒▒▓[0;1;31;43m▓▓▓▓▒▓▒▒[0;1;31;46m▓[0;1;31;43m▓▓▓[0;1;31;40m    [0;1;36;40m    [0;36m▓[0;1;33m▄[0m  [1m█▀[0m [1;30m [0;36m█[0m        [36m  [0;37m  [0;1;31;46m▓[0;1;31;40m█[0m

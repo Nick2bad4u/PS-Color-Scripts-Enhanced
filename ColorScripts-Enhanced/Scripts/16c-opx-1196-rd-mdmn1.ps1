@@ -1,18 +1,4 @@
-﻿# Converted from: RD-MDMN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-1196/raw/RD-MDMN1.ANS
-# Source Revision: archive-sha256:6ef6d0fc5e98023ae397158b861ea8c1f97c8bf9ea116a4660fdbca6650c96ff
-# Source SHA-256: 0955bb35fab0b7603af5ed6633db24ad1f0f8c19cbad85761f0a1e3f7b6dba61
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD-MDMN1.ANS by raider (mOp); released in opx-1196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: mortal dreams menuset
-# SAUCE Author: raider
-# SAUCE Group: mOp
-# SAUCE Date: 19960810
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: mortal dreams menuset by raider | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-1196-rd-mdmn1
 
 Write-Host '
       [33m░[0m   [33m▄[0;37m [0;33m░[0;37m  [0;33m ▒░[0;37m  [0;1;33m [0m [33m░[0m          [33m▒[0m     [33m░[0m         [1;31m                            [0m  [33m░[0m

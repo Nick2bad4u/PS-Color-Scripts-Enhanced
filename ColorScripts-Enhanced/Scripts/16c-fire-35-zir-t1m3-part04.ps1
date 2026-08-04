@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-T1M3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-35/raw/ZIR-T1M3.ANS
-# Source Revision: archive-sha256:c366a38306f48b13ede280377c5f8ef243fdab7e7890ac3e053ec3ccbc5d901a
-# Source SHA-256: 3780bf89687e0a3e7ab757646f4413a492901fb18048a06adb64e48b0cd94c0b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-T1M3.ANS by zir (FiRE); released in fire-35 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: gaping maw of time
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20221130
-# SAUCE Dimensions: 80x391
-# SAUCE Font: IBM VGA
-# SAUCE Comments: hail satan hell yes.
-# Lines: 151-200
-# Columns: 1-80
+﻿# Artwork: gaping maw of time by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-35-zir-t1m3-part04
 
 Write-Host '
 [1;30m [0;35m░[0;1;35;45m░█[0;1;35;47m▓ ▓▓[0;1;35;45m▀▀▓▓▓[0;35m▓░[0;1;35m [0;35m  [0;37m [0;36m   [0;1;36m░[0;1;36;46m░░░[0;1;36;40m░[0;36m░ [0;1;36m  ░▄▄██[0;36m▌[0;37m [0;36m▀▀[0m                [36m░▒▓[0;1;37;46m░[0;1;33;46m░░[0;1;36;46m▄[0;36m▓░[0;1;35m  [0m [1;36m░░▒▒[0m [36m  ░[0;1;36;46m▄█[0;1;36;40m▓[0m

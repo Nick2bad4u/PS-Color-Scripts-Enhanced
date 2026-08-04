@@ -1,18 +1,4 @@
-﻿# Converted from: DY-SB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shv-0994/raw/DY-SB.ANS
-# Source Revision: archive-sha256:6fef501305afa1ee8c62f4d65ae68ce468913963008b7665f76edae1cb42cd85
-# Source SHA-256: e233a5296a42d392b0bb2b32ecafe5c147ededb2b844ded85086f832f2768a3d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DY-SB.ANS by Dynosaw (Shiver); released in shv-0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Shattered Beliefs
-# SAUCE Author: Dynosaw
-# SAUCE Group: Shiver
-# SAUCE Date: 19940830
-# SAUCE Dimensions: 80x25
-# Lines: 96-132
-# Columns: 1-80
+﻿# Artwork: Shattered Beliefs by Dynosaw | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shv-0994-dy-sb-part03
 
 Write-Host '
 

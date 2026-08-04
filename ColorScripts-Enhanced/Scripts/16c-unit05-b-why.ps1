@@ -1,18 +1,4 @@
-﻿# Converted from: B-WHY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/unit05/raw/B-WHY.ANS
-# Source Revision: archive-sha256:d9d081bcd648a606849ced3aa0d639f91baee945b215fdcfbb848c4f3e14fadc
-# Source SHA-256: 713313c38cdc4fc42b159737f683ec7164899237186b5cfb7e055983eb53f7b8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: B-WHY.ANS by b Love (unit artworks); released in unit05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: why?!?
-# SAUCE Author: b Love
-# SAUCE Group: unit artworks
-# SAUCE Date: 19970127
-# SAUCE Dimensions: 80x25
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: why?!? by b Love | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-unit05-b-why
 
 Write-Host '
         ░[1;30;47m▓▓▓[0m

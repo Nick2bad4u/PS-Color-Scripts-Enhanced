@@ -1,13 +1,4 @@
-﻿# Converted from: QP-TT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-0597/raw/QP-TT.ANS
-# Source Revision: archive-sha256:6068514913baa1ec916369db865939b991470ac5490f350bfb80359a0a337dc6
-# Source SHA-256: b0f93852138d71c4ae258029ec4ea58237ff87271b6e954d22dd26e0c6a8603c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QP-TT.ANS by Quip 46 (axf-0597); released in axf-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: QP-TT.ANS by Quip 46 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-0597-qp-tt
 
 Write-Host '
 [31m███▀▀[0;37m [0;1;33m▀[0;34m░[0;31m▀▀▀▀[0;1;30m  [0;31m▀[0;1;31;41m░[0;31m██[0m                                [31m   [0m

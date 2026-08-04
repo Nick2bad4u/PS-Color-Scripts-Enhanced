@@ -1,17 +1,4 @@
-﻿# Converted from: T&L-FACE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/synth05b/raw/T%26L-FACE.ANS
-# Source Revision: archive-sha256:b300e14b5859e0bbaf132f4f4c27a669d7ca44cbe6957ea13d395356d8c1c5c0
-# Source SHA-256: b4723bd53414d5da55e3da361d98573474c83ecbe8b3185c5c13d5a33a985172
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T&L-FACE.ANS by Liquid Grey + Trippah (Synthetic.Production); released in synth05b and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Joint ansi!
-# SAUCE Author: Trip/Liq.G
-# SAUCE Group: Synthetic.Production
-# SAUCE Dimensions: 80x25
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Joint ansi! by Liquid Grey + Trippah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-synth05b-t-l-face
 
 Write-Host '
 [1;47m█[0;1;40m█████████████████████████████████████████████████████████████████████▀▀▀██████[0m

@@ -1,15 +1,4 @@
-﻿# Converted from: DIS-SP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0297/raw/DIS-SP1.ANS
-# Source Revision: archive-sha256:ecfcd3f5cd2c4412c60edbfa5c15fbea724948a8a18d0e8a8931276c9082657e
-# Source SHA-256: d081e61f1502d4f240988284bb4abf3e7809862327367b51496e23ae43a6aee6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DIS-SP1.ANS by Dislogic (root0297); released in root0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Spilled Entrails
-# SAUCE Author: Dislogic
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: Spilled Entrails by Dislogic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0297-dis-sp1
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: KLU-LORE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/reign-02/raw/KLU-LORE.ANS
-# Source Revision: archive-sha256:dc3996199d28e47087a92912d34bad8e97b4ba4e4ae70fc7dadbaeac5af3f655
-# Source SHA-256: 4d0cab19271b1a8555e2daa2105939ca3fc8b79cabbcb299e94a98223e72dcf4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KLU-LORE.ANS by Klumzee (Reign); released in reign-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Lore Promotional
-# SAUCE Author: Klumzee
-# SAUCE Group: Reign
-# SAUCE Date: 19981113
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Lore Promotional by Klumzee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-reign-02-klu-lore
 
 Write-Host '
 

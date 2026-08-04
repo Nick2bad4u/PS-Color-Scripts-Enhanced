@@ -1,18 +1,4 @@
-﻿# Converted from: 9MM-ELD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-13/raw/9MM-ELD1.ANS
-# Source Revision: archive-sha256:fab7f52e9d735740432e5cc1693a7c3574c7cc669fe711a2863770d2425cce92
-# Source SHA-256: 563d436c928ae21f0ae371909a2347f76da14425f601ae08ea6a26a902dcee96
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 9MM-ELD1.ANS by 9 Millimeter (AWE Lettering); released in awe-13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Eldorado
-# SAUCE Author: 9 Millimeter
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19971212
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Eldorado by 9 Millimeter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-13-9mm-eld1
 
 Write-Host '
                                                                       [1;30m-[0m9mm([1mawe[0m)

@@ -1,20 +1,4 @@
-﻿# Converted from: DISCGATOR-HEBI1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0223/raw/DISCGATOR-HEBI1.ANS
-# Source Revision: archive-sha256:f6abf3bbd53eb017898fa84b28d2ac43fcb70297788ba675e470ca73794cbbfd
-# Source SHA-256: d972c8a63e62027e00de59503402d64ee5d49ed059deb3f1a9ea2dfe8e4048ad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DISCGATOR-HEBI1.ANS by discGator (mistigris); released in mist0223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: hebi1
-# SAUCE Author: discGator
-# SAUCE Group: mistigris
-# SAUCE Date: 20230214
-# SAUCE Dimensions: 80x110
-# SAUCE Font: IBM VGA
-# SAUCE Comments: sowing and reaping
-# Lines: 75-110
-# Columns: 1-80
+﻿# Artwork: hebi1 by discGator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0223-discgator-hebi1-part03
 
 Write-Host '
 [1;30m.[0;31m,;;;;;;,.[0;37m  [0;1;30m  [0m [1;30m..::.  [0;33m`VCCCCCbc,[0;1;33m   `Y#######Y'' [0;33m,d$$V''[0;1;30m ...'' .  ::'' . [0;31m;;;;;;;;;;;;[0m

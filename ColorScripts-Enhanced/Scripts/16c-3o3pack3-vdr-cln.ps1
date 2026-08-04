@@ -1,17 +1,4 @@
-﻿# Converted from: VDR-CLN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/3o3pack3/raw/VDR-CLN.ANS
-# Source Revision: archive-sha256:b5dfdf16317093e021e01dd0d7e36a564e7f39c51c5104c8f9a26a69d8d72653
-# Source SHA-256: 5eca32162225c2a28f134786313e1e7ec3a897c5fe79725ea98c4c70f30d9b50
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VDR-CLN.ANS by Vader (3o3pack3); released in 3o3pack3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Clean
-# SAUCE Author: Vader
-# SAUCE Date: 19970428
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Clean by Vader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-3o3pack3-vdr-cln
 
 Write-Host '
 

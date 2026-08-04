@@ -1,17 +1,4 @@
-﻿# Converted from: PV-CCI0.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-lc-artdisk/raw/PV-CCI0.ans
-# Source Revision: archive-sha256:d99dd05882b547bcfac565e3fc99e4c20080a2bb9c34c833b810d4e465d15217
-# Source SHA-256: a8254b7724c8d76c3970098021d6b66f306c8ebc24ec878ccfdff94a537e96c2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PV-CCI0.ans by Pure Voltage (MiSTiGRiS); released in mist-lc-artdisk and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: CyberCrime International
-# SAUCE Author: Pure Voltage
-# SAUCE Group: MiSTiGRiS
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: CyberCrime International by Pure Voltage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-lc-artdisk-pv-cci0
 
 Write-Host '
  [1;30m▄▓███████████████▀▀▒▀█▀▒▀[0;1;30;46m█▓▓▓▓[0;36m░▀[0;1;30;46m▒▒▒[0;36m▒▀[0;1;30;46m░░░░░[0;36;46mThis  [0;1;36;46m░░░░░▒▒▒▒▓▓▓▓▓████[0;1;36;40m▀▀ [0;1;34;40m▄▄▄▄▄[0;34m▄ [0;1;36m▀[0;1;36;46m▓[0;1;36;40m▄[0m

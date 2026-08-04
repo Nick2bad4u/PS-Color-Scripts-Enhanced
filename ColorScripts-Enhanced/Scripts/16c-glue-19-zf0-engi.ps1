@@ -1,18 +1,4 @@
-﻿# Converted from: ZF0-ENGI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-19/raw/ZF0-ENGI.ANS
-# Source Revision: archive-sha256:b473660f00ca745b2388645e3daf73e6bc00a051deac122753312589762b7c0e
-# Source SHA-256: 26c6f3e30fafe854aa69c504b4f65de69b9b2e6e78a7ec91a37d8e4f31113880
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZF0-ENGI.ANS by zfact0r (glue); released in glue-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Engine
-# SAUCE Author: zfact0r
-# SAUCE Group: glue
-# SAUCE Date: 19990110
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Engine by zfact0r | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-19-zf0-engi
 
 Write-Host '
  [31m▀[0;37m [0;31m▄▌[0;37m  [0;31m▀[0;37m [0;31m▄[0;30;41m░░▓▓[0;37;40m ░░  [0;31;40m▄[0m   [31;40m▄[0m     [31;40m▐▄▄▀[0m   [31;40m▀[0;37;40m [0;31;40m▄[0;37;40m [0;31;40m▄▌[0;37;40m  [0;31;40m▄▌[0m     [31;40m▄▄[0;37;40m  [0;31;40m▐[0;1;31;40m▄▄[0;31m▄[0;37m [0;31m▀▀[0m    [1;31m░░▓▓[0;31m▄▄▀[0m

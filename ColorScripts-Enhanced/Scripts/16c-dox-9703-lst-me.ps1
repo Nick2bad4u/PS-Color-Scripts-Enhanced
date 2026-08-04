@@ -1,18 +1,4 @@
-﻿# Converted from: LST-ME!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_9703/raw/LST-ME!.ANS
-# Source Revision: archive-sha256:77a6a7f6432126598204aeed388eb7e1cd0dbc6097b43b2ef1dd1e89f5f350c2
-# Source SHA-256: d7c25e2748ff6951e9857a69815563411a15b41f4db47ec8b921f80f4879d025
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LST-ME!.ANS by soul trader (dox); released in dox_9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: 1 pizza 100 tokens $ 35.00!
-# SAUCE Author: soul trader
-# SAUCE Group: dox
-# SAUCE Date: 19970309
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: 1 pizza 100 tokens $ 35.00! by soul trader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-9703-lst-me
 
 Write-Host '
              [1;30m              [0m

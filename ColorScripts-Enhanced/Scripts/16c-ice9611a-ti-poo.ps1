@@ -1,13 +1,4 @@
-﻿# Converted from: TI-POO!.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9611a/raw/TI-POO!.ICE
-# Source Revision: archive-sha256:527ee850f561609baab7365c9f9f22dc966a04822d3f266d09600ed8b3eefb84
-# Source SHA-256: c6208d894317945c9c996b0215edded1caf6b339bfc43960b61ee4ca54769b40
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TI-POO!.ICE by Trip (ice9611a); released in ice9611a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: TI-POO!.ICE by Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9611a-ti-poo
 
 Write-Host '
               [31m▄▄▄▄[0m         [31m▄▄▄▄[0m   [31m [0;37;41m░░[0;31;40m▌[0m

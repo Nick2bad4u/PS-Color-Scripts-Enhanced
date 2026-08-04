@@ -1,18 +1,4 @@
-﻿# Converted from: C3-ONE#!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-16/raw/C3-ONE%23!.ANS
-# Source Revision: archive-sha256:9ad935bd4cbb2615c5c684e690bc8979daa45859d0282b370bf26a8750d02425
-# Source SHA-256: 2a3c605bac2572b25edf3a1ddb5e67032b2808e4cd0b1550ba5343cbd6e25e66
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: C3-ONE#!.ANS by c3 (force); released in force-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: One Liners
-# SAUCE Author: c3
-# SAUCE Group: force
-# SAUCE Date: 19980225
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: One Liners by c3 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-16-c3-one
 
 Write-Host '
 [36m █[0;1;36;46m▀ [0;36m▀[0;1;34;46m░[0;36m▄█ ▀▀█▀[0;1;36;46m▀▀[0;36m▄▌▀▓█▀█[0;1;36;46m▀▌[0;36m▐[0;1;36;46m▀▀[0;36m▀██[0;1;36;46m▄[0;36m▄▐█▓▀[0;1;36;46m ▀[0;36m▄ ▀▀▀ █[0;1;36;46m▀[0;36m█▀█[0;1;36;46m▀▌[0;36m ▄█▀▀[0;1;36;46m▀▌[0;36m▄▄▀█[0;1;36;46m▀[0;36m▀[0;1;34;46m░[0;36m▐▄ [0;37m [0;32m▀[0;1;32;42m▀[0;1;37;46m█[0;1;32;42m▄[0;1;32;40m▄[0;32m▄[0;36m [0;1;30mc3[0;36m  [0m

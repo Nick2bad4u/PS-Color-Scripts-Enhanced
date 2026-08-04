@@ -1,18 +1,4 @@
-﻿# Converted from: TR-OXYGN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-15/raw/TR-OXYGN.ANS
-# Source Revision: archive-sha256:37d8769a36716113b70ba43b5758aa52d1bdcac55027798541093d77711f63e4
-# Source SHA-256: 862e23a630c8dcc7fcb6418a72f4e23b9ade99d50858c6f1ce41b6206e7201d0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-OXYGN.ANS by Terrato (ACiD Productions); released in rmrs-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Oxygen
-# SAUCE Author: Terrato
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19970910
-# SAUCE Dimensions: 80x25
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Oxygen by Terrato | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-15-tr-oxygn
 
 Write-Host '
 [1;30m:+²"`````````````````````````````"²∙:∙::"[0m [1;31m,$$$$$$Qg,.`4$$$$$$,[0m

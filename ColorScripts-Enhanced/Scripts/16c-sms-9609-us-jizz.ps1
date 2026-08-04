@@ -1,17 +1,4 @@
-﻿# Converted from: US-JIZZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9609/raw/US-JIZZ.ANS
-# Source Revision: archive-sha256:96c031e04e5c479ef9ed73f1afa21a3db6bca2a2de7ad88a46888136232884ff
-# Source SHA-256: 9f2830c6a8300b2cddf3b11b16ad761379a3f919e49add114f094309284892aa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-JIZZ.ANS by Lord Jazz + Outkast (Samsara & ACiD); released in sms-9609 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Jizz
-# SAUCE Author: Outkast & Lord Jazz
-# SAUCE Group: Samsara & ACiD
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Jizz by Lord Jazz + Outkast | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9609-us-jizz
 
 Write-Host '
  [31m░[0;30;41m▓[0;37;40m [0;31;40m░▒░[0;37;40m  [0;31;40m░[0;30;41m▓[0;31;40m░[0;37;40m [0;31;40m  [0;1;33;40m▐▌[0m [33m▓[0;1;33;43m▒▓[0;1;33;40m▌[0;33m▐[0;1;33;43m░▒▒[0;1;33;47m▓[0;1;33;40m▀[0;33m▄▓[0;1;31;43m ░░░▒▒▒▓▓▓[0;1;31;40m██████████▓[0m [33m▓[0;1;33;43m░[0;1;33;40m▄█[0;33m▀▓[0;1;33;43m░░▓[0;1;33;40m█[0;1;33;47m▓[0;1;33;40m█▀█[0m

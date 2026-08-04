@@ -1,18 +1,4 @@
-﻿# Converted from: EM-DUDE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flux-004/raw/EM-DUDE.ANS
-# Source Revision: archive-sha256:184a3f5dd0450d61dd9a9b4da05ef76ebec147753f33bfa3706045bb53c0d7a5
-# Source SHA-256: 5264f0b5eb7c347f690df7bcadf43d948579db0d1113a5b2f499462383c92bd1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EM-DUDE.ANS by eviL milkmAn (5thzflx); released in flux-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: graffiti livez
-# SAUCE Author: eviL milkmAn
-# SAUCE Group: 5thzflx
-# SAUCE Date: 19971021
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: graffiti livez by eviL milkmAn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flux-004-em-dude
 
 Write-Host '
 

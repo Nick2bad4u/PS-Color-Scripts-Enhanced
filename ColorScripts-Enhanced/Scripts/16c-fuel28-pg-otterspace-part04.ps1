@@ -1,19 +1,4 @@
-﻿# Converted from: pg-otterspace.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel28/raw/pg-otterspace.ans
-# Source Revision: archive-sha256:f19d9f1f4d98a894d9a58a43443858287108d50e702695e0859df539776cf44a
-# Source SHA-256: 0832060a6c7f9e45955f5cae0b464c951af224d91f61f3f8967c584fe99d9260
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: pg-otterspace.ans by Pinguino (Fuel); released in fuel28 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: An Ansi from Otter Space
-# SAUCE Author: Pinguino
-# SAUCE Group: Fuel
-# SAUCE Date: 20181102
-# SAUCE Dimensions: 80x159
-# SAUCE Font: IBM VGA
-# Lines: 122-159
-# Columns: 1-80
+﻿# Artwork: An Ansi from Otter Space by Pinguino | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel28-pg-otterspace-part04
 
 Write-Host '
 [38;2;0;0;171;48;2;0;0;0m█  ▀██████████████████████████████████████████▒▓█▌█████████████████▀[0m        [38;2;0;0;171;48;2;0;0;0m░▒▓▒[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US-HG5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-05/raw/US-HG5.ANS
-# Source Revision: archive-sha256:9a8be922d1845a782b9897ae82406f49203492d3f9366796ffa94c1b52060165
-# Source SHA-256: c355be8d6c48cd0bfdb92bac68d250d85ab89b07f2217da2e4322dccf1acdcc9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-HG5.ANS by Firehead + Avenging Angel (Hieroglyphics); released in hiero-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Hieroglyphics
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20010101
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Hieroglyphics by Firehead + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-05-us-hg5
 
 Write-Host '
     [32m   [0;37m  [0;31m   [0;37m  [0;34m               [0m

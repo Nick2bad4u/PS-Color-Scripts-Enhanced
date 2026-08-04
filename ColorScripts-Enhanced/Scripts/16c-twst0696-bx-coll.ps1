@@ -1,18 +1,4 @@
-﻿# Converted from: BX-COLL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst0696/raw/BX-COLL.ANS
-# Source Revision: archive-sha256:347df47865230bbb26c34a4c83d3b745b5aa8a50aaa211f3da18188712bc5174
-# Source SHA-256: 3ce55d5b4235c9585b73e3654f0cd6cccc757d4b548c282ca9061df059336c80
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BX-COLL.ANS by Balistix (TWiSTEd); released in twst0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Logo & Header Collection
-# SAUCE Author: Balistix
-# SAUCE Group: TWiSTEd
-# SAUCE Date: 19960531
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Logo & Header Collection by Balistix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst0696-bx-coll
 
 Write-Host '
 [1;30m[0;1;37m[0m[1;37m[0m[1;37mit against me. :)[0;1;30m------------------------------------------------------------bx][0m

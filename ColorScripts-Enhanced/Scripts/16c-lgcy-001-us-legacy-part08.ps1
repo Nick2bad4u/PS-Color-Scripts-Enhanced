@@ -1,20 +1,4 @@
-﻿# Converted from: us-legacy.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-001/raw/us-legacy.ans
-# Source Revision: archive-sha256:589c804657c8d15ba617f7c0fd80723e4505d519989b80eba9584665be49eb54
-# Source SHA-256: 6353e016c6e29e0bb3ef2496c42ccf14b1533fa198504f620961c1405d472759
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-legacy.ans by Warpus + The Knight + Smooth (Legacy Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: LEGACY LION
-# SAUCE Author: wa, tk, sm
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20191228
-# SAUCE Dimensions: 80x374
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Enter the Lion.  Enter the Legacy Krew 90% of this thing comes | from the mind of warpus.  tk provided the lion and several key i | mprovements and additions.  smooth drew some things and a whole | letter that ended up being completely removed due to an unfortun | ate diplomatic incident.  However, parts of that letter have bee | n repurposed.  Long live the lion
-# Lines: 329-374
-# Columns: 1-80
+﻿# Artwork: LEGACY LION by Warpus + The Knight + Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-001-us-legacy-part08
 
 Write-Host '
 [1;30;40m█████▌[0;1;35;40m▓[0;30m██████████ █    [0;1;30m▀▀▀▀▀▀████████████████████▌[0;34m [0;30m█ █  [0;31m▄  ▀ ▄▌[0;30m██ [0;1;30m▐[0;1;30;47m▓▓▒▒▒[0;1;30;40m▌███████[0m

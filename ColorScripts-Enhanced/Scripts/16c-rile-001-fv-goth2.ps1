@@ -1,18 +1,4 @@
-﻿# Converted from: FV-GOTH2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile_001/raw/FV-GOTH2.ANS
-# Source Revision: archive-sha256:f7a8644489c1d011b91477b5b1eab40d9f39b077b89f158a7a0c3d1c032c6d81
-# Source SHA-256: 83baf819197dfcd38071ccf2cbb06a1eef69ece5cf410ef9379f19fa233ef95b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-GOTH2.ANS by fever (RILE); released in rile_001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: goth some more milk?
-# SAUCE Author: fever
-# SAUCE Group: RILE
-# SAUCE Date: 19970122
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: goth some more milk? by fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile-001-fv-goth2
 
 Write-Host '
 

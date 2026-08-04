@@ -1,13 +1,4 @@
-﻿# Converted from: AVG-NON2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense-19/raw/AVG-NON2.ANS
-# Source Revision: archive-sha256:ea10c48aec14899714c3e14041c7674268b2c0787d3213fdbe479590d88b8c03
-# Source SHA-256: 048ca1e774028dda14cef9c145e4afe92ff3fd45e4b517bd5c0cb58d4a489ac7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-NON2.ANS by Avenging Angel (sense-19); released in sense-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: AVG-NON2.ANS by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense-19-avg-non2
 
 Write-Host '
      ▒[1;30;47m▒  [0;1;36;47m▒▒███[0;1;30;47m [0;1;30;40m█▒[0m      [1;30m▄▄▄[0;33m▄[0;1;30m▄[0m       [1;36m▒▒[0;1;36;47m██▄[0;1;30;47m▀[0m▄[1;30m▄  ▀[0;1;30;47m▄[0;1;36;47m▀█▒▒[0;1;30;47m▒[0;1;30;40m███[0;1;30;47m██[0;1;30;40m█[0;1;36;47m▄▄[0;1;30;47m▀[0;1;30;40m   ▄▄███  ▄[0;1;30;47m██[0;1;30;40m█[0;1;30;47m▒[0;1;36;47m█▄[0;1;30;47m▀[0;1;30;40m [0m

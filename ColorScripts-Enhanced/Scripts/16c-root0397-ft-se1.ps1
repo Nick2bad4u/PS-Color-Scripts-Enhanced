@@ -1,17 +1,4 @@
-﻿# Converted from: FT-SE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0397/raw/FT-SE1.ANS
-# Source Revision: archive-sha256:147f0608c1bd711b116f3ad049b80e805dfbb40e7d23ffce5f4580a5a57bae0f
-# Source SHA-256: cacf2cc130247889c5737ca490f0cbb2497cd6793cbdca4e749d05e07aaae02b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FT-SE1.ANS by Flight (root0397); released in root0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Spilled Entrails
-# SAUCE Author: Flight
-# SAUCE Date: 19970228
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Spilled Entrails by Flight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0397-ft-se1
 
 Write-Host '
 [1;30;47m▒▓█[0;1;30;40m▀▀▀▀▀▀▀[0m [1;30m▀[0m     [1ms[0m  [1mp[0m  [1mi[0m  [1ml[0m  [1ml[0m  [1me[0m  [1md[0m    [1me[0m  [1mn[0m  [1mt[0m  [1mr[0m  [1ma[0m  [1mi[0m  [1ml[0m  [1ms[0m       [1;30m▀[0m [1;30m▀▀▀▀▀[0;1;30;47m▓▒░[0m

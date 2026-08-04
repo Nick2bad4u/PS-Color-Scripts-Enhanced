@@ -1,18 +1,4 @@
-﻿# Converted from: HQ-COVEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack09/raw/HQ-COVEN.ANS
-# Source Revision: archive-sha256:3f219db3cc4582f9b9dc0d49acbeee50e3e74b4183f03c5668762afed184f532
-# Source SHA-256: 8d15c6800ad63650706cbeaec1eaabbdcbcdb3fa110ec677e8ca00969a27f9c5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HQ-COVEN.ANS by Harlequin (Apocalyptic Visions); released in avpack09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Coven96 Promo
-# SAUCE Author: Harlequin
-# SAUCE Group: Apocalyptic Visions
-# SAUCE Date: 19960308
-# SAUCE Dimensions: 80x25
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: Coven96 Promo by Harlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack09-hq-coven
 
 Write-Host '
 [1m▀▀▀▀███████████████████████████████████████████████████████████████████████████▓[0m

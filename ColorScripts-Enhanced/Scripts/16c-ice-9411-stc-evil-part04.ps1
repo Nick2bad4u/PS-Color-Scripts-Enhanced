@@ -1,13 +1,4 @@
-﻿# Converted from: STC-EVIL.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9411/raw/STC-EVIL.ICE
-# Source Revision: archive-sha256:f886658398a77fb7bede9bec5c3391287ab0eb115da776e630e1d1096e09e7fb
-# Source SHA-256: 8b5e10fdae2d501b6801bef4cd096b952eb5daecc60a7eb4a76c489ac146e7d5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STC-EVIL.ICE by Stone The Crow (ice-9411); released in ice-9411 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 138-179
-# Columns: 1-80
+﻿# Artwork: STC-EVIL.ICE by Stone The Crow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9411-stc-evil-part04
 
 Write-Host '
          [36m▒[0m [36m░[0m [1;30m [0;36m░[0;1;30m  [0;36m▐[0;1;36;46m▒[0;36m▌[0;1;30m [0m  [1;30m  [0m                             [1;30m  [0m  [1;30m [0;36m▐▒▌[0;1;30m  [0;36m░[0;1;30m [0m [36m░[0m [36m▒[0m

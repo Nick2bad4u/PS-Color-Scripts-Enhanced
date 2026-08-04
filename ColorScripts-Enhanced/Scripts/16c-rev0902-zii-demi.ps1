@@ -1,18 +1,4 @@
-﻿# Converted from: Zii-demi.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0902/raw/Zii-demi.ans
-# Source Revision: archive-sha256:8537b7dfc4e56bfe671cea284194fa6f621bcce1f2fa291a7ed7a56a5e107081
-# Source SHA-256: b019a9cb051606f08998c495f5e076180f4333c88a938d8ba77d6c89500bdb28
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Zii-demi.ans by Zeus II (Revival); released in rev0902 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Demi
-# SAUCE Author: Zeus II
-# SAUCE Group: Revival
-# SAUCE Date: 20020915
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Demi by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0902-zii-demi
 
 Write-Host '
 

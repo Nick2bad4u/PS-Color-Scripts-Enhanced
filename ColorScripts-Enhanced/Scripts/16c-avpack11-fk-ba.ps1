@@ -1,18 +1,4 @@
-﻿# Converted from: FK-BA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack11/raw/FK-BA.ANS
-# Source Revision: archive-sha256:e08c72486b8d6a71c334f4eeb7ca03c00b810be448bfe03d83954fc2036bcdb7
-# Source SHA-256: f1da9f388302eddefff69303b52a677ad1a76dd662cbfd44826b02bc3f9e467c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FK-BA.ANS by flick (Apocalyptic Visions); released in avpack11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Black Apple
-# SAUCE Author: flick
-# SAUCE Group: Apocalyptic Visions
-# SAUCE Date: 19960510
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Black Apple by flick | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack11-fk-ba
 
 Write-Host '
 [1;32m       [0;32m [0;1;32m [0;32m  [0m                           [36m▄[0m    [36m [0m         [36m▄[0m

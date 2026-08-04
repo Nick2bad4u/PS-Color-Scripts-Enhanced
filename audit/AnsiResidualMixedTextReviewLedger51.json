@@ -1,0 +1,686 @@
+{
+  "batch": 51,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch51-one-sided-prose-extensions",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 65,
+              "start": 51
+            },
+            {
+              "end": 79,
+              "start": 71
+            }
+          ],
+          "expectedRawSha256": "d16b9cac2643d8c9a8ca0074fe4a9a411d3b3af4c88a8520def3dd2fa52dc81c",
+          "expectedRenderedSha256": "6aaeabe6a94d250f1da380959a24a4f87f421509ba03d83df1a882117d7f0646",
+          "row": 22,
+          "sha256": "51b3218de68a67454f39abecdadb51bfe20c3014332e4bbda70968b197a62825"
+        }
+      ],
+      "file": "16c-33rules-33-prod2-part01.ps1",
+      "rationale": "Each exact span is a surviving design comment, greeting head, solicitation fragment, author-to-recipient note, or promotional sentence beside two accepted rows from the same disposable family. Full-payload review, supplemented by aligned import-preimage evidence where available, preserves separable titles, names, identities, attribution, and art glyphs. No tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch51-one-sided-prose-scan.json",
+        "temp/text-blanking-continuation/batch51-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch51-focused-review.json",
+        "temp/text-blanking-continuation/batch51-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch51-one-sided-prose-extensions",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 78,
+              "start": 69
+            }
+          ],
+          "expectedRawSha256": "4b9b9bc28d9254e79bfe8505b0f9b8a7f0f87fcc502ee2d38d521a41f2668e3e",
+          "expectedRenderedSha256": "a385b622c95236c01aa157fd4b2fb2a9fd1a5c86e950d23db47f0cc8f10aec2f",
+          "row": 11,
+          "sha256": "59f797916eff6b54284dff2ca112a996b3eb07ffbf6ecb18c85221dc88f67682"
+        }
+      ],
+      "file": "16c-acdu0794-bk-di-part01.ps1",
+      "rationale": "Each exact span is a surviving design comment, greeting head, solicitation fragment, author-to-recipient note, or promotional sentence beside two accepted rows from the same disposable family. Full-payload review, supplemented by aligned import-preimage evidence where available, preserves separable titles, names, identities, attribution, and art glyphs. No tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch51-one-sided-prose-scan.json",
+        "temp/text-blanking-continuation/batch51-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch51-focused-review.json",
+        "temp/text-blanking-continuation/batch51-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch51-one-sided-prose-extensions",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 50,
+              "start": 36
+            }
+          ],
+          "expectedRawSha256": "17a59d692c4aba6d3c4117b4cdc08183f0585d3eab8a7c03b513d99c885511ee",
+          "expectedRenderedSha256": "f7ce234134ad9fe2d80adb77b634ff07a4b46d0ecc3d8254ba2beb94b0516eec",
+          "row": 19,
+          "sha256": "57de11ecbe0a0a96715202e0464ba60cac78ae440c1277847517df3784dbfef2"
+        }
+      ],
+      "file": "16c-avpack05-krl-mad.ps1",
+      "rationale": "Each exact span is a surviving design comment, greeting head, solicitation fragment, author-to-recipient note, or promotional sentence beside two accepted rows from the same disposable family. Full-payload review, supplemented by aligned import-preimage evidence where available, preserves separable titles, names, identities, attribution, and art glyphs. No tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch51-one-sided-prose-scan.json",
+        "temp/text-blanking-continuation/batch51-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch51-focused-review.json",
+        "temp/text-blanking-continuation/batch51-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch51-one-sided-prose-extensions",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 68,
+              "start": 51
+            }
+          ],
+          "expectedRawSha256": "1d0ec758c596adf6550a7b333d8dd77847dfe968066d2fa58c62fda93374e6c8",
+          "expectedRenderedSha256": "f98f793155a36a52e342a3c4d9ff006b875844766915937f2811ed9ee962e9e8",
+          "row": 22,
+          "sha256": "c9b6dad8998d6e211cbc66d3a2aabb1f91431e957e97f339ee57762e226050ae"
+        }
+      ],
+      "file": "16c-avpack08-hq-drm.ps1",
+      "rationale": "Each exact span is a surviving design comment, greeting head, solicitation fragment, author-to-recipient note, or promotional sentence beside two accepted rows from the same disposable family. Full-payload review, supplemented by aligned import-preimage evidence where available, preserves separable titles, names, identities, attribution, and art glyphs. No tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch51-one-sided-prose-scan.json",
+        "temp/text-blanking-continuation/batch51-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch51-focused-review.json",
+        "temp/text-blanking-continuation/batch51-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch51-one-sided-prose-extensions",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 15,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "db530c29e31e800af9ed508dad30ce6637e0e65e0743c63aad4ca8bc3f645db3",
+          "expectedRenderedSha256": "4cebfcb3615aa0f0df9e211d9c9468bf888d31761097f00de696610d450f4349",
+          "row": 35,
+          "sha256": "19a8a58ee830882c0416e3787461a360771c10d5568d1e220e46210506eea401"
+        }
+      ],
+      "file": "16c-blde9409-tp-rc-part03.ps1",
+      "rationale": "Each exact span is a surviving design comment, greeting head, solicitation fragment, author-to-recipient note, or promotional sentence beside two accepted rows from the same disposable family. Full-payload review, supplemented by aligned import-preimage evidence where available, preserves separable titles, names, identities, attribution, and art glyphs. No tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch51-one-sided-prose-scan.json",
+        "temp/text-blanking-continuation/batch51-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch51-focused-review.json",
+        "temp/text-blanking-continuation/batch51-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch51-one-sided-prose-extensions",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 20,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "b1a61f849a0a7b0be6d4488431179ae6e4fdd83327ae05dc248d08d0519fd6f5",
+          "expectedRenderedSha256": "308f8a38568634c27081ce19f2c7b2a5bdc59af6205d4cec2a2546f534ca7553",
+          "row": 9,
+          "sha256": "6acf53c1a38517a5cfe1059d85317783f60863b2b98aab55e221f126f2bd7d8f"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 18,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "df18e291d1366e384191dd0b440ed803a8f234527f93896f24a8e19f4fffaba2",
+          "expectedRenderedSha256": "bd4827288f4c2e081b2f957c957706cb74d7923e5d5b9dbdaa39bef9277f91f3",
+          "row": 10,
+          "sha256": "e30ef98102796b286f28575ecd2550975e63285bc9fb3cc2ab5dcebeee0d213f"
+        }
+      ],
+      "file": "16c-blur-01-ms-wierd.ps1",
+      "rationale": "Each exact span is a surviving design comment, greeting head, solicitation fragment, author-to-recipient note, or promotional sentence beside two accepted rows from the same disposable family. Full-payload review, supplemented by aligned import-preimage evidence where available, preserves separable titles, names, identities, attribution, and art glyphs. No tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch51-one-sided-prose-scan.json",
+        "temp/text-blanking-continuation/batch51-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch51-focused-review.json",
+        "temp/text-blanking-continuation/batch51-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch51-one-sided-prose-extensions",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 42,
+              "start": 30
+            }
+          ],
+          "expectedRawSha256": "ec1546d07f3cd26126f7df569adda76b155554c0fc8c893b379b8061baddd6a2",
+          "expectedRenderedSha256": "e978e2bc0e0573cea31e1b8ef9282a7179c9ac35554e0dd9c1e173e3966086dc",
+          "row": 20,
+          "sha256": "da1da728647a618455f266cf46c128df4e7d48762272046032fbfeffe9c9ff47"
+        }
+      ],
+      "file": "16c-d38-06-mc-pryin.ps1",
+      "rationale": "Each exact span is a surviving design comment, greeting head, solicitation fragment, author-to-recipient note, or promotional sentence beside two accepted rows from the same disposable family. Full-payload review, supplemented by aligned import-preimage evidence where available, preserves separable titles, names, identities, attribution, and art glyphs. No tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch51-one-sided-prose-scan.json",
+        "temp/text-blanking-continuation/batch51-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch51-focused-review.json",
+        "temp/text-blanking-continuation/batch51-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch51-one-sided-prose-extensions",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 28,
+              "start": 11
+            }
+          ],
+          "expectedRawSha256": "954377f91ff79953f8cbfa69ca2d25e031b21596a1d8674f94372c17facb437d",
+          "expectedRenderedSha256": "87e0dfa310af34cc5ddbd01c3018ee3ea197d6c3348842dfd1df0ff6a05e9314",
+          "row": 16,
+          "sha256": "483cd260793ac19518fcc68a36659646e8d212ef439427227b19b89172eb9e9c"
+        }
+      ],
+      "file": "16c-d38-06-oz-bug.ps1",
+      "rationale": "Each exact span is a surviving design comment, greeting head, solicitation fragment, author-to-recipient note, or promotional sentence beside two accepted rows from the same disposable family. Full-payload review, supplemented by aligned import-preimage evidence where available, preserves separable titles, names, identities, attribution, and art glyphs. No tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch51-one-sided-prose-scan.json",
+        "temp/text-blanking-continuation/batch51-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch51-focused-review.json",
+        "temp/text-blanking-continuation/batch51-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch51-one-sided-prose-extensions",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 24,
+              "start": 2
+            }
+          ],
+          "expectedRawSha256": "4c1f0d0afb1a41e2813ff760bd6bc1434fa4e073e0c99a8a4329fae7e99277c5",
+          "expectedRenderedSha256": "39aa91cdfdceb21edee38f14e5f1b96bbca77b86ded78b8fcf28de73f046b0fa",
+          "row": 22,
+          "sha256": "a2f7a6446f2a0377fbb516fd44a7e4428d9ecf5d58897a0fcd953733df101d20"
+        }
+      ],
+      "file": "16c-ice-9407-us-tc-part02.ps1",
+      "rationale": "Each exact span is a surviving design comment, greeting head, solicitation fragment, author-to-recipient note, or promotional sentence beside two accepted rows from the same disposable family. Full-payload review, supplemented by aligned import-preimage evidence where available, preserves separable titles, names, identities, attribution, and art glyphs. No tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch51-one-sided-prose-scan.json",
+        "temp/text-blanking-continuation/batch51-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch51-focused-review.json",
+        "temp/text-blanking-continuation/batch51-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch51-one-sided-prose-extensions",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 69,
+              "start": 56
+            }
+          ],
+          "expectedRawSha256": "356c13be6d958b2ff9f9f59a03023747aaef2fbd54c3bc6c1fa9a7250ebb40f7",
+          "expectedRenderedSha256": "6fc8079f0fbb0a93aa547cef84e89ce94c891a9fef654abfa86bace44c5f8520",
+          "row": 8,
+          "sha256": "4544db7259a67e61f49185b197b9b91daada354ae4c658c4bf407b882d465011"
+        }
+      ],
+      "file": "16c-ice-9506-mm-disv-part01.ps1",
+      "rationale": "Each exact span is a surviving design comment, greeting head, solicitation fragment, author-to-recipient note, or promotional sentence beside two accepted rows from the same disposable family. Full-payload review, supplemented by aligned import-preimage evidence where available, preserves separable titles, names, identities, attribution, and art glyphs. No tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch51-one-sided-prose-scan.json",
+        "temp/text-blanking-continuation/batch51-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch51-focused-review.json",
+        "temp/text-blanking-continuation/batch51-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch51-one-sided-prose-extensions",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 11,
+              "start": 7
+            },
+            {
+              "end": 29,
+              "start": 22
+            }
+          ],
+          "expectedRawSha256": "28aa488c6742009ed672780b96f4263007f424d7ac2a45b9ece117c3595db813",
+          "expectedRenderedSha256": "38d590955ac1416f33a52d4224d502155ca90b3d499886ed16ecbdf998d8df30",
+          "row": 25,
+          "sha256": "3652f610a10fd173c7e6abe2100b96f5017e713e80f5dc16beb9d69821c5c678"
+        }
+      ],
+      "file": "16c-ice-9506-tg-hole1-part01.ps1",
+      "rationale": "Each exact span is a surviving design comment, greeting head, solicitation fragment, author-to-recipient note, or promotional sentence beside two accepted rows from the same disposable family. Full-payload review, supplemented by aligned import-preimage evidence where available, preserves separable titles, names, identities, attribution, and art glyphs. No tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch51-one-sided-prose-scan.json",
+        "temp/text-blanking-continuation/batch51-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch51-focused-review.json",
+        "temp/text-blanking-continuation/batch51-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch51-one-sided-prose-extensions",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 10,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "c3641a6f94fa6beca8aba25a699f8ebe53e5e7f5d529ff43ae127c067837201e",
+          "expectedRenderedSha256": "8c32c6878fcc60e8b31df8398314f1599144eea60e986ac58a4c4d3dce248876",
+          "row": 13,
+          "sha256": "69ba88a2b1d7c7b206247846213cd8aa983fa4f962f127759a630efa7b209c8d"
+        }
+      ],
+      "file": "16c-ice9504a-ar-ets-part01.ps1",
+      "rationale": "Each exact span is a surviving design comment, greeting head, solicitation fragment, author-to-recipient note, or promotional sentence beside two accepted rows from the same disposable family. Full-payload review, supplemented by aligned import-preimage evidence where available, preserves separable titles, names, identities, attribution, and art glyphs. No tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch51-one-sided-prose-scan.json",
+        "temp/text-blanking-continuation/batch51-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch51-focused-review.json",
+        "temp/text-blanking-continuation/batch51-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch51-one-sided-prose-extensions",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 68,
+              "start": 50
+            }
+          ],
+          "expectedRawSha256": "25be553d7cb3a7b9c4a0358d0f53f8fa68f0aac05abea2b26a3467bdf3f0c1ba",
+          "expectedRenderedSha256": "de9605b31134d192dfb3b754bf5a6fb0a00a88034686e07bcf2ea372df053578",
+          "row": 10,
+          "sha256": "70acd67026db9faffea7aa411be5a0773f605b6d93458ab23e1afaff9218e362"
+        }
+      ],
+      "file": "16c-img0994-c-sitr-part04.ps1",
+      "rationale": "Each exact span is a surviving design comment, greeting head, solicitation fragment, author-to-recipient note, or promotional sentence beside two accepted rows from the same disposable family. Full-payload review, supplemented by aligned import-preimage evidence where available, preserves separable titles, names, identities, attribution, and art glyphs. No tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch51-one-sided-prose-scan.json",
+        "temp/text-blanking-continuation/batch51-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch51-focused-review.json",
+        "temp/text-blanking-continuation/batch51-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch51-one-sided-prose-extensions",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "0489911ae90c944bb8a50521be9c6cf255660422363fab85ce8a3506313e7cf2",
+          "expectedRenderedSha256": "12a453a35d7a7ad316e89fda1161fec5250f3d705eb0cbc7a2cb8178bf115c1a",
+          "row": 14,
+          "sha256": "3848ea7af95edf5aabe488d56672df53c372ffeebda62b42a1ac8c6bd8c3315a"
+        }
+      ],
+      "file": "16c-legend05-sg-trn1-part01.ps1",
+      "rationale": "Each exact span is a surviving design comment, greeting head, solicitation fragment, author-to-recipient note, or promotional sentence beside two accepted rows from the same disposable family. Full-payload review, supplemented by aligned import-preimage evidence where available, preserves separable titles, names, identities, attribution, and art glyphs. No tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch51-one-sided-prose-scan.json",
+        "temp/text-blanking-continuation/batch51-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch51-focused-review.json",
+        "temp/text-blanking-continuation/batch51-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch51-one-sided-prose-extensions",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 69,
+              "start": 51
+            }
+          ],
+          "expectedRawSha256": "452d6d169c1315172815d6f079f87c176304dda876073daa60d51e7c331cbb44",
+          "expectedRenderedSha256": "c292708d496b4dac31e73f5f9fca2f4e42fe9cc57d5dd792a18addef04d05bf1",
+          "row": 14,
+          "sha256": "7638a53d8ad73b91aa7ade5894b6b036cb90547f304c73979206358768c445c4"
+        }
+      ],
+      "file": "16c-out-0297-out-dist.ps1",
+      "rationale": "Each exact span is a surviving design comment, greeting head, solicitation fragment, author-to-recipient note, or promotional sentence beside two accepted rows from the same disposable family. Full-payload review, supplemented by aligned import-preimage evidence where available, preserves separable titles, names, identities, attribution, and art glyphs. No tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch51-one-sided-prose-scan.json",
+        "temp/text-blanking-continuation/batch51-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch51-focused-review.json",
+        "temp/text-blanking-continuation/batch51-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch51-one-sided-prose-extensions",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 47,
+              "start": 33
+            }
+          ],
+          "expectedRawSha256": "d8d69cdeb674d28ce2641ab8247d6fccb42ab9e1b1ab3a39d8e23126a0b26bee",
+          "expectedRenderedSha256": "b01a119723c1fabf2a94733648bbeb3399487993b2489d6188cc1e12bd5738b5",
+          "row": 19,
+          "sha256": "19d2eab6d7d98246022034e473058a625e88349fe1348a340024cf6ebd6d8c51"
+        }
+      ],
+      "file": "16c-plf-0797-l8er0n.ps1",
+      "rationale": "Each exact span is a surviving design comment, greeting head, solicitation fragment, author-to-recipient note, or promotional sentence beside two accepted rows from the same disposable family. Full-payload review, supplemented by aligned import-preimage evidence where available, preserves separable titles, names, identities, attribution, and art glyphs. No tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch51-one-sided-prose-scan.json",
+        "temp/text-blanking-continuation/batch51-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch51-focused-review.json",
+        "temp/text-blanking-continuation/batch51-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch51-one-sided-prose-extensions",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 47,
+              "start": 33
+            }
+          ],
+          "expectedRawSha256": "d8d69cdeb674d28ce2641ab8247d6fccb42ab9e1b1ab3a39d8e23126a0b26bee",
+          "expectedRenderedSha256": "b01a119723c1fabf2a94733648bbeb3399487993b2489d6188cc1e12bd5738b5",
+          "row": 19,
+          "sha256": "19d2eab6d7d98246022034e473058a625e88349fe1348a340024cf6ebd6d8c51"
+        }
+      ],
+      "file": "16c-plf-0897-l8er0n.ps1",
+      "rationale": "Each exact span is a surviving design comment, greeting head, solicitation fragment, author-to-recipient note, or promotional sentence beside two accepted rows from the same disposable family. Full-payload review, supplemented by aligned import-preimage evidence where available, preserves separable titles, names, identities, attribution, and art glyphs. No tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch51-one-sided-prose-scan.json",
+        "temp/text-blanking-continuation/batch51-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch51-focused-review.json",
+        "temp/text-blanking-continuation/batch51-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch51-one-sided-prose-extensions",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 74,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "ba0cfeb8de544b6975447c521b3ac8d644b7e7e45a67e01f337d7916b19a755d",
+          "expectedRenderedSha256": "a38ccb8ec4e0416892bbd0e2aa7adf17bdb99f0d76af2afbc28d536cfc750e61",
+          "row": 20,
+          "sha256": "7a36fdec2a2e5e47800865b3691d0c6d61b06f548c603fc9cc3a2a35a7c0acdb"
+        }
+      ],
+      "file": "16c-rev0502-gl-frog.ps1",
+      "rationale": "Each exact span is a surviving design comment, greeting head, solicitation fragment, author-to-recipient note, or promotional sentence beside two accepted rows from the same disposable family. Full-payload review, supplemented by aligned import-preimage evidence where available, preserves separable titles, names, identities, attribution, and art glyphs. No tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch51-one-sided-prose-scan.json",
+        "temp/text-blanking-continuation/batch51-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch51-focused-review.json",
+        "temp/text-blanking-continuation/batch51-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch51-one-sided-prose-extensions",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 16,
+              "start": 5
+            }
+          ],
+          "expectedRawSha256": "bd92746a422066b94cf979eaa2e51adcacf0c3b32bb30198bd49ebdba4dd04de",
+          "expectedRenderedSha256": "2b2f459ff4f00055f0f072c75688dcca34af83b0add7919f498e783aeff8be5f",
+          "row": 22,
+          "sha256": "e74c8c902aa2bf783d4d774bbb06054240e6c6516116a65c385e72fddb1f3a02"
+        }
+      ],
+      "file": "16c-sense11j-43-cg-l1.ps1",
+      "rationale": "Each exact span is a surviving design comment, greeting head, solicitation fragment, author-to-recipient note, or promotional sentence beside two accepted rows from the same disposable family. Full-payload review, supplemented by aligned import-preimage evidence where available, preserves separable titles, names, identities, attribution, and art glyphs. No tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch51-one-sided-prose-scan.json",
+        "temp/text-blanking-continuation/batch51-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch51-focused-review.json",
+        "temp/text-blanking-continuation/batch51-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch51-one-sided-prose-extensions",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 49,
+              "start": 38
+            }
+          ],
+          "expectedRawSha256": "3b985a0173894c0e5e6229075e05ed26e27d034a50b3f55d96d8bb494c16956e",
+          "expectedRenderedSha256": "ff2f763405654b2510a586c786b7454d8b23fe732ee61d67dd9c04f89b83e09a",
+          "row": 30,
+          "sha256": "1dcb4426c9839b6037fc6d6b810e3bf074b4ef184649ec30b0012dbf362f604e"
+        }
+      ],
+      "file": "16c-sept9605-us-doink-part03.ps1",
+      "rationale": "Each exact span is a surviving design comment, greeting head, solicitation fragment, author-to-recipient note, or promotional sentence beside two accepted rows from the same disposable family. Full-payload review, supplemented by aligned import-preimage evidence where available, preserves separable titles, names, identities, attribution, and art glyphs. No tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch51-one-sided-prose-scan.json",
+        "temp/text-blanking-continuation/batch51-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch51-focused-review.json",
+        "temp/text-blanking-continuation/batch51-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch51-one-sided-prose-extensions",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 10,
+              "start": 2
+            }
+          ],
+          "expectedRawSha256": "99224b072fed01d4e4dc122d13110eaebe892788367925514145363d78f581a1",
+          "expectedRenderedSha256": "f8e22df33b03f353e0b04c170cb02931c17485a215f7691f1332ab07c7a56837",
+          "row": 12,
+          "sha256": "4f6729a63a83766bf65ac4d93c4743a733127f3a4bcdc35414d3cb11427b880a"
+        }
+      ],
+      "file": "16c-tl-0195-sm-emi3.ps1",
+      "rationale": "Each exact span is a surviving design comment, greeting head, solicitation fragment, author-to-recipient note, or promotional sentence beside two accepted rows from the same disposable family. Full-payload review, supplemented by aligned import-preimage evidence where available, preserves separable titles, names, identities, attribution, and art glyphs. No tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch51-one-sided-prose-scan.json",
+        "temp/text-blanking-continuation/batch51-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch51-focused-review.json",
+        "temp/text-blanking-continuation/batch51-terminal-review.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch51-one-sided-prose-extensions",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 23,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "22e2a804af1eda0e3cd422194d5c0058681416d633fde03206d89e43f7e61d12",
+          "expectedRenderedSha256": "f462e012ad915ce9ba186f982bf0ed09ab20c113063a1dba8ec5f45101413ad6",
+          "row": 25,
+          "sha256": "2269c745631810a56b130a504bda36dbb628d9355fb707cbfabbe2329c47270a"
+        }
+      ],
+      "file": "16c-uni-0995-md-dyst1-part02.ps1",
+      "rationale": "Each exact span is a surviving design comment, greeting head, solicitation fragment, author-to-recipient note, or promotional sentence beside two accepted rows from the same disposable family. Full-payload review, supplemented by aligned import-preimage evidence where available, preserves separable titles, names, identities, attribution, and art glyphs. No tracked decision is overridden.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch51-one-sided-prose-scan.json",
+        "temp/text-blanking-continuation/batch51-original-review.json",
+        "temp/text-blanking-continuation/batch28-completed-history-index.json",
+        "temp/text-blanking-continuation/batch30-history-index.json",
+        "temp/text-blanking-continuation/batch51-focused-review.json",
+        "temp/text-blanking-continuation/batch51-terminal-review.json"
+      ]
+    }
+  ],
+  "normalization": "SHA-256 of UTF-8 visible terminal-cell rows after ANSI-control removal and outer-whitespace trimming. Every row also pins exact raw projected and rendered hashes plus one-based inclusive blank-column ranges.",
+  "pendingInputs": [],
+  "policy": "Fail-closed review of all 59 post-Batch-50 natural-language survivors with an immediate accepted neighbor and a second accepted row on the same side. Accept only separable spans proven to extend the same disposable prose, greeting, solicitation, author-note, or design-commentary family. Retain poetry, dialogue, narrative, captions, functional copy, titles, identities, attribution, structural lettering, source-significant content, and ambiguity. Completed-history collisions and tracked projections are forbidden.",
+  "reviewedAt": "2026-08-01",
+  "schemaVersion": 1,
+  "status": "ready",
+  "summary": {
+    "blankColumnRows": 23,
+    "candidateFiles": 22,
+    "candidateGroups": 22,
+    "categoryRows": {
+      "batch51-one-sided-prose-extensions": 23
+    },
+    "detectorRows": 59,
+    "evidenceRows": 23,
+    "familyExtensions": 23,
+    "importReconstructionFailures": 8,
+    "importedRowsReconstructed": 51,
+    "priorAcceptExtensions": 23,
+    "priorRetainSupersessions": 0,
+    "retainedDetectorRows": 36
+  }
+}

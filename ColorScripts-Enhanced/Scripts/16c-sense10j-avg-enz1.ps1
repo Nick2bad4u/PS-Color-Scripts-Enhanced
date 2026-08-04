@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-ENZ1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense10j/raw/AVG-ENZ1.ANS
-# Source Revision: archive-sha256:79b287d3b8a2f4ceb916c80975416d0ea3340c57dd3b4333f96895fc037bee42
-# Source SHA-256: 8f3c2409f6e75ba0d5a684335b0affe09ec2eb666f5f56b737fae02543fe7762
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-ENZ1.ANS by avenging angel (sense); released in sense10j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: enzo
-# SAUCE Author: avenging angel
-# SAUCE Group: sense
-# SAUCE Date: 20020930
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: enzo by avenging angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense10j-avg-enz1
 
 Write-Host '
 

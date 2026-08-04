@@ -1,13 +1,4 @@
-﻿# Converted from: MERC3ACD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0193/raw/MERC3ACD.ANS
-# Source Revision: archive-sha256:c729763da203493829eaf520c8dfb3731964e34fb4b62c8fede76fdf5a43fced
-# Source SHA-256: dead6616e07dad3526e944db21e5852baea1587fe7606f24399bbe37fbeb46aa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MERC3ACD.ANS by Spectral Illusion (acdu0193); released in acdu0193 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: MERC3ACD.ANS by Spectral Illusion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0193-merc3acd-part01
 
 Write-Host '
 [47m   [0;1m█[0m                      [33m█▓▒░  █▓▒░[0m          [33m▀█▓▒░▄█▓▒░[0m                [33m▄█▓▒░[0m

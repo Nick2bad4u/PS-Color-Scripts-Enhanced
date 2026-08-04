@@ -1,16 +1,4 @@
-﻿# Converted from: dman-f4.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_wtf4/raw/dman-f4.ans
-# Source Revision: archive-sha256:250b5eed057a6c043b178a52a71a9f6b183e2a63591879f24e3c64051465130b
-# Source SHA-256: 7d0ecf6e0d33d17f298f78af4f41654f14ee83ac095f5a21f8006243435671ad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: dman-f4.ans by Dman (blocktronics_wtf4); released in blocktronics_wtf4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 20140804
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: dman-f4.ans by Dman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-wtf4-dman-f4
 
 Write-Host '
 [30;46m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m

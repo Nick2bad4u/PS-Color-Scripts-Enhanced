@@ -1,18 +1,4 @@
-﻿# Converted from: BD-FFG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-02/raw/BD-FFG.ANS
-# Source Revision: archive-sha256:815fb0802a5a645b19e4bb1a2e67405cbfe5a7d016a5808efe6ef55f809d080c
-# Source SHA-256: c131a766f0bba0bea1250736eace4121d6429206de7871b033a0bee574b87666
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BD-FFG.ANS by bold (eclipse); released in ecl-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fall from grace
-# SAUCE Author: bold
-# SAUCE Group: eclipse
-# SAUCE Date: 19960629
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: fall from grace by bold | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-02-bd-ffg
 
 Write-Host '
 

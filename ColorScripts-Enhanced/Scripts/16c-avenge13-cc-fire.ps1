@@ -1,15 +1,4 @@
-﻿# Converted from: CC-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge13/raw/CC-FIRE.ANS
-# Source Revision: archive-sha256:347f6c69918fead9ee3c845f2d1356dd84e1411d92cae5bcb8386da796611dd6
-# Source SHA-256: 8f2b027c7b4d57f43278810e5bc2e4c3e8614260af07ae13beb11f510256c884
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CC-FIRE.ANS by chronicc (avenge13); released in avenge13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fire (blenderii)
-# SAUCE Author: chronicc
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: fire (blenderii) by chronicc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge13-cc-fire
 
 Write-Host '
 

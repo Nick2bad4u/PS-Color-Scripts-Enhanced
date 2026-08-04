@@ -1,19 +1,4 @@
-﻿# Converted from: tnt-pir8.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz15/raw/tnt-pir8.ans
-# Source Revision: archive-sha256:d35f5b18ac3e8cbe3d6d17eab809a7e050609a8e3cc7d160d14a87c59a191c12
-# Source SHA-256: ca5d818299a1f540de99ce2ba4d99764ca28337222aef532254a04bbe7fa64cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tnt-pir8.ans by tainted (blocktronics); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: hold fast bbs
-# SAUCE Author: tainted
-# SAUCE Group: blocktronics
-# SAUCE Date: 20220614
-# SAUCE Dimensions: 80x105
-# SAUCE Font: IBM VGA
-# Lines: 36-70
-# Columns: 1-80
+﻿# Artwork: hold fast bbs by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz15-tnt-pir8-part02
 
 Write-Host '
                  [1;30m██▌[0m [1;30m█[0;1;30;46m▓[0;1;30;40m▌[0m  [1;30m▄▄▄▄█[0m [1;30m██▌[0m  [1;30m▄▄██[0;1;30;46m▓[0;1;30;40m▌[0m [1;30m▀██[0;1;30;46m█[0;1;30;40m▀▀▄▄▄█[0;1;30;46m▓[0;1;30;40m▄[0m [1;30m▄▄███▀▄██[0m

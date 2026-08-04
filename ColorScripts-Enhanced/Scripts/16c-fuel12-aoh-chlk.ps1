@@ -1,18 +1,4 @@
-﻿# Converted from: AOH-CHLK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel12/raw/AOH-CHLK.ANS
-# Source Revision: archive-sha256:ebe2e7b01f31e0e82aa2702a876007d4ec2dd824b98bdf40e4d59e2b113da7e4
-# Source SHA-256: 11869dcdcd375bc06a43ff34808e01f18b95de7b56ea8faa6a4a65ece80b64f0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AOH-CHLK.ANS by Angel of Hell (Fuel Productions); released in fuel12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Chalkboard file load screen
-# SAUCE Author: Angel of Hell
-# SAUCE Group: Fuel Productions
-# SAUCE Date: 19970401
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Chalkboard file load screen by Angel of Hell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel12-aoh-chlk
 
 Write-Host '
            ▄▄▄▄▄▄▄[1;30;47m ░░░░▒▓[0;1;30;40m██████▀███████[0;1;30;47m▓▓▒▒▒[0;30;47m░░░░[0;37;40m▀▀▀ ▄▄▄▄[0;1;34;47m░▒▓▓█▓[0;1;34;40m██▀▀▀▀▓[0;34m▄[0;1;34m███████[0;1;34;44m▓▒░[0m

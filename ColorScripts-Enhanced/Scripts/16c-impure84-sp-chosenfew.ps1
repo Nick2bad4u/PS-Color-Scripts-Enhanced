@@ -1,19 +1,4 @@
-﻿# Converted from: sp-chosenfew.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure84/raw/sp-chosenfew.ans
-# Source Revision: archive-sha256:d8a09ea8caa6a7527c42f29f38b4d95854161d144db19311f361c7c38d2a14cf
-# Source SHA-256: 704dd4069ce7028fdae570fdf97aee6f2d152064c480020c5fe481cfd46e9903
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sp-chosenfew.ans by spinsane (STREETS); released in impure84 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: CHOSEN FEW
-# SAUCE Author: spinsane
-# SAUCE Group: STREETS
-# SAUCE Date: 20230217
-# SAUCE Dimensions: 80x30
-# SAUCE Font: IBM VGA
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: CHOSEN FEW by spinsane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure84-sp-chosenfew
 
 Write-Host '
     [1;33mc h o s e n / f e w[0m

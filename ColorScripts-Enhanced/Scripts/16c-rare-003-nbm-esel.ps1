@@ -1,13 +1,4 @@
-﻿# Converted from: NBM-ESEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-003/raw/NBM-ESEL.ANS
-# Source Revision: archive-sha256:de78ce19727ea90c75e1ecc7f5b4d900676dc27b4dceb8a870f61665ee210859
-# Source SHA-256: 03f3d4a576c638ad7dc9a254fe566abe1b0e0dfb21e7bcf1f071ae1af0281902
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NBM-ESEL.ANS by Niobium (rare-003); released in rare-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: NBM-ESEL.ANS by Niobium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-003-nbm-esel
 
 Write-Host '
                                                [1;30m_,[0;1;34m  [0;34m,[0;1;34m  [0;1;30m,.[0;32m_[0m

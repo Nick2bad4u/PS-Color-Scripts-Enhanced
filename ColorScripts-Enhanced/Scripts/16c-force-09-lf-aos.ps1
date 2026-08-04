@@ -1,18 +1,4 @@
-﻿# Converted from: LF-AOS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-09/raw/LF-AOS.ANS
-# Source Revision: archive-sha256:ce8026e794474c6e48d574a76c9366e170e87fe95fba0f1638e56cb02945c814
-# Source SHA-256: b1f52b21a02d2ff636f2bbf10cef33b6e743424a064024d92cff947309737065
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LF-AOS.ANS by Lucifer (fORCE); released in force-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Aultar of Sacrifice
-# SAUCE Author: Lucifer
-# SAUCE Group: fORCE
-# SAUCE Date: 19960616
-# SAUCE Dimensions: 80x22
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Aultar of Sacrifice by Lucifer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-09-lf-aos
 
 Write-Host '
 

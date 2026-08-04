@@ -1,13 +1,4 @@
-﻿# Converted from: TS-ZC2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hav-0594/raw/TS-ZC2.ANS
-# Source Revision: archive-sha256:1d2eec2ab9921d52acd53b3b0e670f7d60e818766fc731641d7032ae0ff12d14
-# Source SHA-256: b5d84adf40f5a5550bc08ed67adeb2e97424859478a4dd652c1befb1eb590eda
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-ZC2.ANS by The Stalker (hav-0594); released in hav-0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: TS-ZC2.ANS by The Stalker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hav-0594-ts-zc2-part01
 
 Write-Host '
    [34m▄▄[0;1;34;44m░░░░░░░░░[0;34m▄▄[0m            [34m▄ ▀[0m

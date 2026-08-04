@@ -1,16 +1,4 @@
-﻿# Converted from: _Pumpkin_by_ober.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_blocktober/raw/_Pumpkin_by_ober.ans
-# Source Revision: archive-sha256:a4249815771be4175829e3af0e1e24a265146879ea43ac19f701d6ebb72fa88f
-# Source SHA-256: c69e4a88fb97c37a58a2b9a0cb152a0cbcabbfe02cfd437926a8735760c2457d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _Pumpkin_by_ober.ans by Ober (blocktronics_blocktober); released in blocktronics_blocktober and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20161020
-# SAUCE Dimensions: 80x53
-# SAUCE Font: IBM VGA
-# Lines: 28-53
-# Columns: 1-80
+﻿# Artwork: _Pumpkin_by_ober.ans by Ober | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blocktober-pumpkin-by-ober-part02
 
 Write-Host '
 [31m   ▒█[0;31;43m▄▀[0;33;40m███[0;31;43m▀▄[0;31;40m█ [0;1;33;43m▓[0;33m█▐[0;1;33m█[0;1;33;43m▄▌[0;1;33;40m [0;33m█[0;30;41m▐[0;30;40m [0;33;40m▄[0;1;33;40m▄▄  ▀[0;33m▌▀[0;1;33;43m▀█[0;33m▀[0;1;33m▄[0;1;33;43m█[0;1;33;40m▄[0;1;33;43m▀[0;33m▀[0;1;33;43m█▄[0;1;33;40m▀█▄█▄[0;33m▀[0;1;33m██[0;33m▀▐[0;1;33m▀[0;33m▀ [0;1;33m▄▄[0;33m▄ [0;30;41m▌[0;33;40m█ [0;1;33;40m█[0;1;33;43m▀▄[0;33m▌[0;1;33;43m▀▄[0;33m████████[0;31;43m▄█[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: BNTYACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1092/raw/BNTYACID.ANS
-# Source Revision: archive-sha256:768e49c0fcc70036d81b58eb68d2e9509e4ecc466f4fb706e35cc9eb05b78dcb
-# Source SHA-256: f8cf50c0dff293f1552d96648e7f2a93d97f022812a77221018fc771596a0df0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BNTYACID.ANS by Tank (acdu1092); released in acdu1092 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 44-60
-# Columns: 1-80
+﻿# Artwork: BNTYACID.ANS by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1092-bntyacid-part02
 
 Write-Host '
         [34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄[0m     [34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄   ▄▄▄▄▄[0m

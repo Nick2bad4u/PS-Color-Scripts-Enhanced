@@ -1,13 +1,4 @@
-﻿# Converted from: MC-HH1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fury1094/raw/MC-HH1.ANS
-# Source Revision: archive-sha256:2145760f5777a71feb8e1e27cbc26b1f838d7c493ac98b618ab92bd2a40dc619
-# Source SHA-256: 91e025f773d4c3fa92a505fc819e1c0f102104b07a3e2b14e4ac00f5d63e8038
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MC-HH1.ANS by Mr Corruption (fury1094); released in fury1094 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 96-143
-# Columns: 1-80
+﻿# Artwork: MC-HH1.ANS by Mr Corruption | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fury1094-mc-hh1-part03
 
 Write-Host '
 [1;34;44m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m

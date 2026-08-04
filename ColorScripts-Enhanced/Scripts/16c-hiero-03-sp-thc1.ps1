@@ -1,18 +1,4 @@
-﻿# Converted from: SP-THC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-03/raw/SP-THC1.ANS
-# Source Revision: archive-sha256:c463d41d9ae381f389778dd35b1d3ac7d9b856c30aea0076774f44c539a72586
-# Source SHA-256: 7c7b3e393d4b429cceb730014609de7086fdc66c332693666a99bfb874ccbd1f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SP-THC1.ANS by Spearfx (Hieroglyphics); released in hiero-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: THC
-# SAUCE Author: Spearfx
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20001003
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: THC by Spearfx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-03-sp-thc1
 
 Write-Host '
 

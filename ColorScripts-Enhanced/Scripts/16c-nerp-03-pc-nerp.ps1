@@ -1,18 +1,4 @@
-﻿# Converted from: PC-NERP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-03/raw/PC-NERP.ANS
-# Source Revision: archive-sha256:9ea26ff16b2d0162532c602fba75b69e539d71620a3b4e34b796de886326619c
-# Source SHA-256: 0b63d40bec4f41a889b0d4fdcd9995dc19b8f4df0b9c4c0a0f4248ceaa7d5598
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-NERP.ANS by Putrid Carcass (Nerp); released in nerp-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Nerp
-# SAUCE Author: Putrid Carcass
-# SAUCE Group: Nerp
-# SAUCE Date: 19971224
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Nerp by Putrid Carcass | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-03-pc-nerp
 
 Write-Host '
 [1;33;41m░░[0;33m█▀▀▀[0;37m [0;1;36m░[0m [36m▄[0;1;36;46m▄▄██▀▀▄▄░ ░ [0;36m███▀[0m   [36m▀▀[0;1;36;46m▀▀▓▀██▄▄▄▌▄███▀█[0;36m░[0;37m  [0;31m▄▄[0;1;33;41m  ▄▄▄█[0;1;37;40m█[0;1;37;47m▓▄[0;1;37;40m█[0;1;33;41m██▀▀██▄[0;31m▄▄ █ ▄█▀[0m

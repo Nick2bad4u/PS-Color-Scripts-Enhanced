@@ -1,18 +1,4 @@
-﻿# Converted from: CPH-PMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-010/raw/CPH-PMP.ANS
-# Source Revision: archive-sha256:f0e8a1202a9ab4518ddf30655a3e3a838d00336d432c41d2fb4ced8564853688
-# Source SHA-256: b3a97c391a790abdb5dfd1d96b7a4c876890ddb4a1b6b6f2de3132b298f193d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-PMP.ANS by {YBERPUNCh (RiB); released in rib-010 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: pmp
-# SAUCE Author: {YBERPUNCh
-# SAUCE Group: RiB
-# SAUCE Date: 19980703
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: pmp by {YBERPUNCh | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-010-cph-pmp
 
 Write-Host '
                                                                        [1;34m░░[0m   [1;34m  [0m

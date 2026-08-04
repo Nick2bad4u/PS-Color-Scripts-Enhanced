@@ -1,18 +1,4 @@
-﻿# Converted from: 22-DRAW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-06/raw/22-DRAW.ANS
-# Source Revision: archive-sha256:28dde9151f207f082f400b6aca29fbef427328344e409f22756ce1aa06272f8d
-# Source SHA-256: fb2573c18d17aa08160b556aa1e67e971ef5fb2c5bcb327e396c011cb3e8e523
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 22-DRAW.ANS by catch (glue); released in glue-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: creating meaning
-# SAUCE Author: catch
-# SAUCE Group: glue
-# SAUCE Date: 19980123
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: creating meaning by catch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-06-22-draw
 
 Write-Host '
      ▄▄  ▄▄▐█▄ [1;33m▀▄[0m ▀[1;47m▀▓▓▒[0m [1;35m█[0m ▀█ [1;31m█[0m [1;47m▒▒[0m [1;36m█[0m [1;30;47m▒▒[0m [1;31m█[0m █▀ [1;35m█[0m [1;30;47m▒▓▓▀[0m▀ [1;33m▄▀[0m ▄[1;30;47m▄████████▓▓▒▒[0m▄▄▄ [1;30mcatch69[0m

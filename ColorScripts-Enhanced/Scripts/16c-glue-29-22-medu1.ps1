@@ -1,18 +1,4 @@
-﻿# Converted from: 22-MEDU1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-29/raw/22-MEDU1.ANS
-# Source Revision: archive-sha256:64287797434ba5c34f8fdee757bcedec56b8ae5a9f153947e0e8412775bc9c8e
-# Source SHA-256: f233dc22acf33bcd2cf622f74de73620a6c1d9fa961fb9f97aba9d1d84737912
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 22-MEDU1.ANS by catch22 (glue); released in glue-29 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: medusa bbs screen
-# SAUCE Author: catch22
-# SAUCE Group: glue
-# SAUCE Date: 19991222
-# SAUCE Dimensions: 80x28
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: medusa bbs screen by catch22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-29-22-medu1
 
 Write-Host '
 [35m   [0;1;30m▄█▀[0;35m ▄[0;1;35;45m░▄▄▄[0;35m▄░[0m                                               [34m▄[0;1;34;44m░░[0;34m█▄ [0;1;30m [0;34m [0;32m▀[0;1;32m▐[0;32m▌[0;1;32;42m▓[0;32m▐[0;1;32;42m█[0;32m [0;1;32;42m█[0;32m▌[0;1;32;42m▓█[0m

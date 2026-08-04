@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-GUT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook17/raw/AVE-GUT.ANS
-# Source Revision: archive-sha256:f2ec1f05b2d28538e661dbe9f04f7009d1de727157f34731f67001dac4dedb95
-# Source SHA-256: f704f99cd9147e0841d7b36605ad1ce69e5c08d062d341095b50fbcf2b750475
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-GUT.ANS by avenger (black maiden); released in bmbook17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: gutter magazine
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19980628
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: gutter magazine by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook17-ave-gut
 
 Write-Host '
 [35m        [0;30;45m▌    ▐[0;35;40m       [0m     [33;40m▄[0;37;40m [0;33;40m▀[0m          [33;40m░[0;37;40m [0;1;37;40m▄█▀▀▀▀[0m▀▀▀[1m▀▀▀▀▀▀▀▀▀▀▀[0m▀▀[1m▀▀▀▀[0m▀[1m ▀▀[0m▀[1m▀▀█▄[0m

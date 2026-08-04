@@ -1,18 +1,4 @@
-﻿# Converted from: CPH-PLUS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-012/raw/CPH-PLUS.ANS
-# Source Revision: archive-sha256:4b822377f08e44404edc6b006616be9a58b9ffc0848d36336fc9de37f7065343
-# Source SHA-256: 2f3b5e702f9c8dd27b1d3c209e63732b5551f5211ee49ecf0048097fc1b97745
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-PLUS.ANS by {YBERPUNCh (RiB); released in rib-012 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: plush logo
-# SAUCE Author: {YBERPUNCh
-# SAUCE Group: RiB
-# SAUCE Date: 19980901
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: plush logo by {YBERPUNCh | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-012-cph-plus
 
 Write-Host '
 [1m  [0;1;31m░▓[0m    [1m    [0m          [1m [0m            [1m [0m      [31m░░░░[0m       [1;33m░░[0;1;34m [0m         [31m▄[0;33m▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: LOSTC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aaa-8991/raw/LOSTC.ANS
-# Source Revision: archive-sha256:4d061270920d521151424fd00f38227b42b87cd232386c5aa0d1e2f575f3ffe0
-# Source SHA-256: 7d275b51de0e3ed48b34f96f79c62f1c3a24bce1e927884e156e8c16eb2ce63c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LOSTC.ANS by Mondoman (aaa-8991); released in aaa-8991 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: LOSTC.ANS by Mondoman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aaa-8991-lostc
 
 Write-Host '
 [33m░░▓▒▓▓░▓▓░▒▒░░░[0m [33m░[0m [33m░[0m [1;33m▄▄▀▀[0;1;33;43m▀[0;1;33;40m█[0m            [1;33;40m▄[0;1;33;43m▀▀▀▀▀▀▀▀[0;1;33;40m▄▄[0;1;33;43m▀▀[0;1;33;40m▀▀▀▀[0;1;33;43m▀[0;1;33;40m▄[0;33m░░[0;1;33;40m▀[0;33m░[0;1;33;40m▀[0;33m░▒░▒▒░▒▓▓▒▓░▓▒░░▓[0m

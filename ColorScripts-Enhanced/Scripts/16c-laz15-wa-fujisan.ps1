@@ -1,20 +1,4 @@
-﻿# Converted from: wa-Fujisan.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz15/raw/wa-Fujisan.ans
-# Source Revision: archive-sha256:d35f5b18ac3e8cbe3d6d17eab809a7e050609a8e3cc7d160d14a87c59a191c12
-# Source SHA-256: b4378aff60c9db8f2d2e3da92051cd6a558ff62bbf0af85ab88a114a2e9ace27
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-Fujisan.ans by warpus (LAZARUS); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fujisan
-# SAUCE Author: warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20220624
-# SAUCE Dimensions: 80x37
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Drawn for pinguino & the Off the Chain conference in SF June 7/2 | 022
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Fujisan by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz15-wa-fujisan
 
 Write-Host '
 [1;30m  ░▒[0;1;34m░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m

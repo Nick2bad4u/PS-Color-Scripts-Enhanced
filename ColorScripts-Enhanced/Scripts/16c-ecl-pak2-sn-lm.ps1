@@ -1,18 +1,4 @@
-﻿# Converted from: SN!LM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak2/raw/SN!LM.ANS
-# Source Revision: archive-sha256:c83fd66fd5682c2a8b3a34174fe62c7584ac006f8517d86002eef3fdd8671285
-# Source SHA-256: f31518380008d815e6fb9fab6260e8b3426a4e7be6c4336bb9196ed591c987f2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SN!LM.ANS by Snowball (Ecolove); released in ecl-pak2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Login Matrix....
-# SAUCE Author: Snowball
-# SAUCE Group: Ecolove
-# SAUCE Date: 19971224
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Login Matrix.... by Snowball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak2-sn-lm
 
 Write-Host '
     [1;30m▄▄▄▄▄▄▄▄[0m     [1;30m  [0m   [1;32;42m▌▀[0;1;32;40m▌[0m    [1;30m▄▄▄▄▄▄▄▄▄▄▄▄[0m     [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;31m  [0m

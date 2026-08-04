@@ -1,18 +1,4 @@
-﻿# Converted from: ESS!BCLN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-001/raw/ESS!BCLN.ANS
-# Source Revision: archive-sha256:7435b1c9938dec461ab33b42b3dd164ea7e98ecfff30ea4d3df5a8e59194b0a3
-# Source SHA-256: 4f85b20b676776e46219df1c763033a3c6ef84dd7757b9a715bd2dc0071860e6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ESS!BCLN.ANS by Essence (rARE!ASCii); released in rare-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Bodycount Liner
-# SAUCE Author: Essence
-# SAUCE Group: rARE!ASCii
-# SAUCE Date: 19980305
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Bodycount Liner by Essence | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-001-ess-bcln
 
 Write-Host '
   [1;30m╝ [0m [1m [0;1;36m [0;36m⌐┌⌐   ┐[0;1;30m [0;36m  [0;37m                                                            [0;1;34m  [0;34m [0m

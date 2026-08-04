@@ -1,19 +1,4 @@
-﻿# Converted from: US-CRYPT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-40/raw/US-CRYPT.ANS
-# Source Revision: archive-sha256:aff8105c0a955ac5c43ea367a02b086cd2849f6741fc41b8a5ff440b77e104a7
-# Source SHA-256: 83f2a012ed6c9ac4d616735295035bb6d863c1436778a9da42daa89370b621ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CRYPT.ANS by Savage + Nail + Tainted (fire); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the crypt
-# SAUCE Author: avg, nail, tnt
-# SAUCE Group: fire
-# SAUCE Date: 20240707
-# SAUCE Dimensions: 80x375
-# SAUCE Font: IBM VGA
-# Lines: 96-141
-# Columns: 1-80
+﻿# Artwork: the crypt by Savage + Nail + Tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-40-us-crypt-part03
 
 Write-Host '
 [33m ▀▀[0;1;31;43m▀[0;33m▌[0;37m▐█▌[0;1;34m █[0m       [1;34m█ ▒▀ ▄[0;1;34;47m▓[0m▀[1;34m▄[0;1;34;47m▓[0m▀[1;34m▄▓▓▓ [0;34m▄▄[0;1;34m░░░    [0;34m░[0m     [1;34m░   ░[0m   [34m░[0m      [1;34;44m▀[0;1;34;47m▓▓[0m [1;34;47m▓[0m       ▄ [1m▓[0m [1m▓[0m

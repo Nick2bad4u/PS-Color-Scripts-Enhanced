@@ -1,18 +1,4 @@
-﻿# Converted from: US-FIRE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz03feb/raw/US-FIRE1.ANS
-# Source Revision: archive-sha256:d402090580beb42f827386e6ac87eabae48765a9dcac692e22ff2b8314efb7a2
-# Source SHA-256: c7c2b27cbc59c08fa4a7bdd2e2d36b460d2be27d9bbc8a80ca84ba839f2a0836
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FIRE1.ANS by Grind King + Wat0r (eCHOLAZ); released in laz03feb and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Fire Promotional
-# SAUCE Author: watOr & grind king
-# SAUCE Group: eCHOLAZ
-# SAUCE Date: 19970130
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Fire Promotional by Grind King + Wat0r | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz03feb-us-fire1
 
 Write-Host '
                                    [31m▄[0m     [31m▄[0m

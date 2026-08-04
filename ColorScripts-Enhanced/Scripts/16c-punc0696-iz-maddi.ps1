@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-MADDI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/punc0696/raw/IZ-MADDI.ANS
-# Source Revision: archive-sha256:c1d91131d4338806dd76a90956d40e18f8052615b134a7c344dc843db82ba175
-# Source SHA-256: 6dec90286bd806e1a155e299780a5a83c3702b433e410c3a5c6905d625693b61
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-MADDI.ANS by ize (punc productions); released in punc0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: madbase
-# SAUCE Author: ize
-# SAUCE Group: punc productions
-# SAUCE Date: 19960531
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: madbase by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-punc0696-iz-maddi
 
 Write-Host '
 ▄[1;33;47m▄▄[0;1;33;40m███▄▄[0;34m▀[0;1;33m ▄█▀ [0;34m█[0;1;34;44m░[0;34m██▀█▀[0;37m  [0;34m░[0m       [1;30mblack area for[0m       [34m░[0m   [34m▄[0;1;34;44m░[0;34m▀█[0;1;37;44m ░[0;34m▄[0;1;37m ▄██▀█▀███▀███[0;1;37;47m▌[0m▄

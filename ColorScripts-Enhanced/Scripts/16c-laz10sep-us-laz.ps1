@@ -1,18 +1,4 @@
-﻿# Converted from: US-LAZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz10sep/raw/US-LAZ.ANS
-# Source Revision: archive-sha256:4ab640a5762659d8c89d1d4c7a47f2c8ebad1c9e802d4965d8fdc943ea824060
-# Source SHA-256: 53e3ddffcb5c234339a846c0ed053ba18da37f4576beee3ecd71f98aadc8f7d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-LAZ.ANS by Icepick + The Riddler (lazarus); released in laz10sep and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: laz!
-# SAUCE Author: multiple artists
-# SAUCE Group: lazarus
-# SAUCE Date: 19851027
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: laz! by Icepick + The Riddler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz10sep-us-laz
 
 Write-Host '
 ip & r1

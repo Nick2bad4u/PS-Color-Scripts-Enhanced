@@ -1,13 +1,4 @@
-﻿# Converted from: US-PLEX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sys2_03/raw/US-PLEX.ANS
-# Source Revision: archive-sha256:008fb7d825e566af77ae54caca44158087d80f399f5293cc1f9b3810d9305879
-# Source SHA-256: 66c40078008652eb0ee3c020fd93c6f4f463e3e5a250b3b1e7dd877653a23386
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PLEX.ANS by Zerostar + Ansichrist + Teflon (sys2_03); released in sys2_03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: US-PLEX.ANS by Zerostar + Ansichrist + Teflon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sys2-03-us-plex
 
 Write-Host '
 w h a t  [1;30m■[0mh a v e   i   b e c o m e ?[1;30m [0m  [1;30m▄[0m       ▄[1m   [0m▄[1m▄[0;1;47m▄█▄[0;1;40m [0m [1;30m▄▌[0m [1;30m▄[0m      [1;30m░[0m  ▄[1m  [0;1;30m▄[0m

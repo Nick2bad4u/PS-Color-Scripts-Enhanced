@@ -1,18 +1,4 @@
-﻿# Converted from: UM-DVL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dvl-pk01/raw/UM-DVL.ANS
-# Source Revision: archive-sha256:04659a71fad0b44fa33c1540ce482a88ef2d7d511aaf3612fdd59e5ae6746955
-# Source SHA-256: 49016ab4101eebae33ff6caa4169ca382209eb16cb117b6b3023e18e781a277b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UM-DVL.ANS by uM! (dVL_fRC); released in dvl-pk01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dVLlOGO!
-# SAUCE Author: uM!
-# SAUCE Group: dVL_fRC
-# SAUCE Date: 19970305
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: dVLlOGO! by uM! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dvl-pk01-um-dvl
 
 Write-Host '
              [35m                [0m

@@ -1,17 +1,4 @@
-﻿# Converted from: MO-PLAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-11/raw/MO-PLAS.ANS
-# Source Revision: archive-sha256:124f5de71b4943d1edf363ae27ec83def11b741938d7ad78955f12dc3ea0753e
-# Source SHA-256: 9ad5a1075c6cd09282fee59ce53e963060be57a43be3ed62fbaa24bdf2d777ac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MO-PLAS.ANS by m4gn470p (3cl1p53); released in ecl-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: plastic ANAL HOLES <snicker>
-# SAUCE Author: m4gn470p
-# SAUCE Group: 3cl1p53
-# SAUCE Dimensions: 80x25
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: plastic ANAL HOLES <snicker> by m4gn470p | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-11-mo-plas
 
 Write-Host '
                                          [1;30m░░░[0m

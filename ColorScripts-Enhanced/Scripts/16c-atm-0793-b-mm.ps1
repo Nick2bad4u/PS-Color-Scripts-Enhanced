@@ -1,13 +1,4 @@
-﻿# Converted from: B-MM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/atm-0793/raw/B-MM.ANS
-# Source Revision: archive-sha256:2791ea7960360c43fee92e39a37f109c33350847675dee72209056037e0dfd3e
-# Source SHA-256: dfc9099cc9697a44b1f4bad5544000b3367360005c1677efe6a7ee757bf80334
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: B-MM.ANS by Bjorn (atm-0793); released in atm-0793 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: B-MM.ANS by Bjorn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-atm-0793-b-mm
 
 Write-Host '
                          [1;33m█[0m         [1;33m▄▄[0m                        [1;37m▐█[0;1;37;47m▓▓▓▒▒▒░░░░      [0m

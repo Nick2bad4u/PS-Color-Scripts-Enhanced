@@ -1,15 +1,4 @@
-﻿# Converted from: us-glue.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gen-04/raw/us-glue.ans
-# Source Revision: archive-sha256:e213093116f6e1ab2eaa1e638df21b95956d50ac9a8ac57c3b8a10a54175dc97
-# Source SHA-256: efac064fe5741cc5a23e43b5363fa4f837ba2467c6d3a15c30a8510f5f4dd617
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-glue.ans by Funk-E + Zatchmo (gen-04); released in gen-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 19990429
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: us-glue.ans by Funk-E + Zatchmo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gen-04-us-glue
 
 Write-Host '
                              [34m▀[0;37m [0m    [30;42m███[0m   [34;40m▄[0;37;40m    [0;34;40m▄[0m

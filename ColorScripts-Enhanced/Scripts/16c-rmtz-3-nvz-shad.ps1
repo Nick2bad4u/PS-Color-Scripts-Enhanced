@@ -1,18 +1,4 @@
-﻿# Converted from: NVZ-SHAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmtz-3/raw/NVZ-SHAD.ANS
-# Source Revision: archive-sha256:9049eb84d35299820d945f342b3906500ed394a8e74f37bd2f023c428d1b0765
-# Source SHA-256: 23ef381b98f899a3b65f4e3e425f16007978b1cd4ecdfe8c24e09e7a45774ca8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NVZ-SHAD.ANS by nvz (rmtz); released in rmtz-3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: shadow world
-# SAUCE Author: nvz
-# SAUCE Group: rmtz
-# SAUCE Date: 19960828
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: shadow world by nvz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmtz-3-nvz-shad
 
 Write-Host '
 [1;47m▒░░[0;44m████[0;1;47m░[0;44m██[0;1;47m░[0;44m█[0;1;47m░░░[0;44m█[0;1;47m░[0;44m█[0;1;47m░[0;44m█▀[0;34;40m█████████████[0;30;44m   [0;34;40m███████████████████████████████████████████[0m

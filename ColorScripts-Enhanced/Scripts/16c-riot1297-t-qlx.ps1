@@ -1,18 +1,4 @@
-﻿# Converted from: T!-QLX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot1297/raw/T!-QLX.ANS
-# Source Revision: archive-sha256:7bd5836fa16624c33d90d7b8d157576c042e1a7f12ab842c8fb178c52f465fc3
-# Source SHA-256: 1ad45e8aec3cef7839fb2dbfd563d4c0e7ba96df6df9090dbb2af1a72e70ab27
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T!-QLX.ANS by .xX[ tERROR ]Xx. (RioT); released in riot1297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: qqqqaaaallllaaaaxxxxyyyy!!!!@@##$$
-# SAUCE Author: .xX[ tERROR ]Xx.
-# SAUCE Group: RioT
-# SAUCE Date: 19971118
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: qqqqaaaallllaaaaxxxxyyyy!!!!@@##$$ by .xX[ tERROR ]Xx. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot1297-t-qlx
 
 Write-Host '
 

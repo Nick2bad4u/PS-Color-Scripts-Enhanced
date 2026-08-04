@@ -1,18 +1,4 @@
-﻿# Converted from: RZ-IIO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-03/raw/RZ-IIO.ANS
-# Source Revision: archive-sha256:d2599b97a9288d8f82ddd62f9c4821cdc0d5105bf01763fad11be3b958d4ce10
-# Source SHA-256: d84c417bb6dcaea91d0e625c39995d5ed9ba8adab67079a2fb9de64fd7b9eb86
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RZ-IIO.ANS by _rzicus (used); released in used-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: http://iv.ice.org
-# SAUCE Author: _rzicus
-# SAUCE Group: used
-# SAUCE Date: 19991220
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: http://iv.ice.org by _rzicus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-03-rz-iio
 
 Write-Host '
        [35m▀[0m   [35m▄[0m                                   [35m▄[0m                [1;30m [0m [1;30m             [0m

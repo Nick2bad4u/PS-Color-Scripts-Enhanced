@@ -1,18 +1,4 @@
-﻿# Converted from: DI-ND5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ash-2/raw/DI-ND5.ANS
-# Source Revision: archive-sha256:c8305f725fa2ac753acd79a3b8ce60eb4b57346eed044e5eb2d7db75631b7442
-# Source SHA-256: 986df9bc063f9e29e82c4cbf5be5ba9076567a47e7e5a76d423161da1428de68
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DI-ND5.ANS by divine intervention (ASh 1996!); released in ash-2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: napalm dynasty fonT #5!
-# SAUCE Author: divine intervention
-# SAUCE Group: ASh 1996!
-# SAUCE Date: 19960207
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: napalm dynasty fonT #5! by divine intervention | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ash-2-di-nd5
 
 Write-Host '
 [1;30m░▒▓[0;1;30;46m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;40m▓▒░▒▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▒░[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: FIL-A13X.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-42/raw/FIL-A13X.ANS
-# Source Revision: archive-sha256:5477badab90aaaa6ee2d08aa380254b6982d860b5d0de201e348668cb1eaa063
-# Source SHA-256: 49c5a918fc14e4d635ad790c57b996305b3eb372c9afdee5990e2075d5307537
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FIL-A13X.ANS by filth (FiRE!!!); released in fire-42 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: A13X
-# SAUCE Author: filth
-# SAUCE Group: FiRE!!!
-# SAUCE Date: 20250303
-# SAUCE Dimensions: 80x22
-# SAUCE Font: IBM VGA
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: A13X by filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-42-fil-a13x
 
 Write-Host '
 

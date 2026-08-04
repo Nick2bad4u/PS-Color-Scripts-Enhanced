@@ -1,13 +1,4 @@
-﻿# Converted from: SD-GLUE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-01/raw/SD-GLUE1.ANS
-# Source Revision: archive-sha256:0e63c5e62ea9b66430033b1875dc38843fc6f5d45408ae01bb2abd9ed19a0d23
-# Source SHA-256: de446686751f4b4e6ab9dca83309885a0bff4c94ee056ae9c32cf0cacf10b40a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-GLUE1.ANS by Sirdeath (glue-01); released in glue-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: SD-GLUE1.ANS by Sirdeath | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-01-sd-glue1
 
 Write-Host '
 [1mSIRDEATH[0m                    [1;34;44m▐[0;1;34;40m██▀[0m

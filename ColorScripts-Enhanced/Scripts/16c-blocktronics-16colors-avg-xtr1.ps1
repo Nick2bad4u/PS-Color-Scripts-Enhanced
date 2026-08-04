@@ -1,13 +1,4 @@
-﻿# Converted from: avg-xtr1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_16colors/raw/avg-xtr1.ans
-# Source Revision: archive-sha256:906b8658ae1b298a9794b2bd98c553b56bef4b4de5008bd765b49c3ed6b68572
-# Source SHA-256: ccb77e7aa1226d91a06a14dc5f819620602818472e6990c639d845aadd667607
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-xtr1.ans by Avenging Angel (blocktronics_16colors); released in blocktronics_16colors and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: avg-xtr1.ans by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-16colors-avg-xtr1
 
 Write-Host '
 [31m░░░[0;30m█[0;37m [0;1;30m█[0;1;30;47m▀▀[0m░░░[1;30m▀[0;30m█[0;1;30m▄█▀[0m [1;30m██[0;1;30;46m▓▓▓[0;1;35;40m [0;1;30;46m▓▓[0;1;30;40m███▄[0;30m█[0;1;30m▀▓▄▀████[0m░[1;30m███▄ █[0;1;30;47m█[0;1;30;40m▌[0m [30m█[0;37m [0;31m▄[0;35;41m▄█[0;31;40m▀▓▓▓▓▓███▄ [0;35;41m▀[0;31;40m███████▄▄███▄[0m

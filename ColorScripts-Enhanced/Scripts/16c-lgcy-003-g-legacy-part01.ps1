@@ -1,16 +1,4 @@
-﻿# Converted from: g-legacy.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-003/raw/g-legacy.ans
-# Source Revision: archive-sha256:44a26aad0e8691f16e2777283660069b61e5916234397869961a696ba22e89f6
-# Source SHA-256: 8f91ba96c3f5cc684460ed6c1c5acf5fe16a24938ec2c9913d29862135006c5f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: g-legacy.ans by Griskokare (lgcy-003); released in lgcy-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20200724
-# SAUCE Dimensions: 80x90
-# SAUCE Font: IBM VGA
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: g-legacy.ans by Griskokare | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-003-g-legacy-part01
 
 Write-Host '
 [37;40m  [0;1;33;40m────────────────────────────────────────────────────────────────────────────[0m

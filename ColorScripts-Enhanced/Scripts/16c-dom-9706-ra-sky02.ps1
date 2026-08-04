@@ -1,18 +1,4 @@
-﻿# Converted from: RA-SKY02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dom-9706/raw/RA-SKY02.ANS
-# Source Revision: archive-sha256:a16d91b4075cff760b5038e2a8f1aab02d1965c9e4bbc85ed187b0405326b9b6
-# Source SHA-256: 7e276d9b2eb17ff9d941fb65f6fcd0cf9a5144d620b66ee8947284825bf65a1d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RA-SKY02.ANS by Reanimator (Domino); released in dom-9706 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Sky
-# SAUCE Author: Reanimator
-# SAUCE Group: Domino
-# SAUCE Date: 19970616
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Sky by Reanimator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dom-9706-ra-sky02
 
 Write-Host '
                          [30;46m█████████████[0;1;34;40m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: DR-SS1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9502/raw/DR-SS1.ICE
-# Source Revision: archive-sha256:651d57ec8cfbb7a8c418d666720edd49ef86d48a0b256443452b3132c0397ce3
-# Source SHA-256: a44a67a688f5b37d5bbeeab8255ce1375d68024f29a12013c98c2eb3d0cde7c3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DR-SS1.ICE by Lord Drakul (iCE); released in ice-9502 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Suicidal Shrimp
-# SAUCE Author: Lord Drakul
-# SAUCE Group: iCE
-# SAUCE Date: 19950226
-# SAUCE Dimensions: 80x25
-# Lines: 48-91
-# Columns: 1-80
+﻿# Artwork: Suicidal Shrimp by Lord Drakul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9502-dr-ss1-part02
 
 Write-Host '
 [1;34;44m░[0;34m▄  ▀██▀[0;37m ▄ █[0;1;30;47m░░[0m██▀▀▄▄▄▀▀██████▄▄  [34m▀ ▀█[0;1;34;44m░░[0;34m██ [0;1;34;44m░[0;34m█ ▐▓[0;1;34;44m░[0;34m█▓▄▌ [0;37m [0;34m [0;37m █████[0;1;37;47m░░[0m██████████[1;47m░░[0m███

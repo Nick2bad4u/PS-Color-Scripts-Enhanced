@@ -1,13 +1,4 @@
-﻿# Converted from: US-ENT1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9703a/raw/US-ENT1.ICE
-# Source Revision: archive-sha256:6bff16e5edf32b4898857b0d23616134d84be36d169a4a2f3bc23f437f356dfe
-# Source SHA-256: ee295aea428fe00d56800a157703c34f83b6fa40834af536b278669044c77fcb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ENT1.ICE by Slothy + Boa (ice9703a); released in ice9703a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: US-ENT1.ICE by Slothy + Boa | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9703a-us-ent1
 
 Write-Host '
           [34m▄▄▀[0m              [34m [0m      [34m [0m                         [34m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: HB-PJAC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0897/raw/HB-PJAC1.ANS
-# Source Revision: archive-sha256:e809b9f8b188286d36406dafe0847bbd16221683918da377bfda26da9187f000
-# Source SHA-256: a211d2d9d5abf7d4d238deed952fb2d68aee9fc5f5377b268b4967dfdbe01ec5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HB-PJAC1.ANS by Handiboy (Mistigris); released in mist0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Fingerman!@#
-# SAUCE Author: Handiboy
-# SAUCE Group: Mistigris
-# SAUCE Date: 19970731
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Fingerman!@# by Handiboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0897-hb-pjac1
 
 Write-Host '
  [36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▐█[0;1;36;46m▄▄▄▄▄[0;1;37;46m▄▄[0;46m▄▄[0;36;40m█████████[0;36;46m [0;36;40m███████████████████[0;1;33;46m▄[0;36m███[0;36;46m [0;1;33;40m█████[0;1;37;40m██▌[0m▄▄

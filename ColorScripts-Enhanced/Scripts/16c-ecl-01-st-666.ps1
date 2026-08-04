@@ -1,18 +1,4 @@
-﻿# Converted from: ST-666.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-01/raw/ST-666.ANS
-# Source Revision: archive-sha256:98f7ca14920172db6145e44afa4b8ac94de6e46d94b8cf326e89a96c3e7e5c1b
-# Source SHA-256: 92576dddceb1b10079c1eded562ec7d0319ae0f1ca0b8b18e9fc740c5b5bcd2d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-666.ANS by splATT (@Ecl); released in ecl-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: root 666
-# SAUCE Author: splATT
-# SAUCE Group: @Ecl
-# SAUCE Date: 19960605
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: root 666 by splATT | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-01-st-666
 
 Write-Host '
 

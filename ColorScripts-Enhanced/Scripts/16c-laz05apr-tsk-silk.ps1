@@ -1,13 +1,4 @@
-﻿# Converted from: TSK-SILK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz05apr/raw/TSK-SILK.ANS
-# Source Revision: archive-sha256:1015a880c3c2e42953df14381eb6ae6e6ec0326b482ac0273175f6e6e7073aa4
-# Source SHA-256: e460149232542a9bfc7e363e567fef0539b3e18f4366b8cad4523ed3d02960fa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-SILK.ANS by The Silent Killer (laz05apr); released in laz05apr and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: TSK-SILK.ANS by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz05apr-tsk-silk
 
 Write-Host '
 

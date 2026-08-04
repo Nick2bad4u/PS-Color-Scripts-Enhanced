@@ -1,18 +1,4 @@
-﻿# Converted from: TI-ENT3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy11/raw/TI-ENT3.ANS
-# Source Revision: archive-sha256:a8a1f25f60c56aa0932319ceb3e0a3707898d7c9d304c60c4912556d84eb4b61
-# Source SHA-256: b02b8ecdbeccb8c675e62467cc16007a61b1c7906f3c4dadc3119383fabf0c3e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TI-ENT3.ANS by Trip (Apathy); released in apathy11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Entropy menu template
-# SAUCE Author: Trip
-# SAUCE Group: Apathy
-# SAUCE Date: 19960613
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Entropy menu template by Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy11-ti-ent3
 
 Write-Host '
 [36m┌----[0;1;36m▄[0;1;37m▄▄[0;1;36m▄[0;36m-------┐[0m         [31m▄▄████████▀██[0;1;31;41m░[0;31m▀▀[0;1;31m [0;1;31;41m░▒▓[0;1;31;40m██[0;1;31;47m▓▓▒▒░░[0m█▄▄

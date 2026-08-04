@@ -1,18 +1,4 @@
-﻿# Converted from: HD-TBS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0694/raw/HD-TBS1.ANS
-# Source Revision: archive-sha256:d92719f4ff9ab4f68d054353409d00f48d16b810acb3ee04d6b238f934e3f3ba
-# Source SHA-256: f82e68f93873e249b2ceae4d56e7d32ab3d9a0f26a755cbd8f52cb207fd76c11
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HD-TBS1.ANS by Hound (UNiON); released in uni-0694 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Burning Sanctuary
-# SAUCE Author: Hound
-# SAUCE Group: UNiON
-# SAUCE Date: 19940601
-# SAUCE Dimensions: 80x159
-# Lines: 74-115
-# Columns: 1-80
+﻿# Artwork: The Burning Sanctuary by Hound | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0694-hd-tbs1-part03
 
 Write-Host '
            [1;30m░░  ░▒[0m                     [31m▓█▌██▓[0m                       [1;30m▒░ ░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: KRS-OK#1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-16/raw/KRS-OK%231.ANS
-# Source Revision: archive-sha256:9ad935bd4cbb2615c5c684e690bc8979daa45859d0282b370bf26a8750d02425
-# Source SHA-256: fcffecf60d4a74fd9c3b8a4c6474bb0909fccf0ca32350505a6c1912c30ab6de
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KRS-OK#1.ANS by Krisis (force); released in force-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Organized Kaos
-# SAUCE Author: Krisis
-# SAUCE Group: force
-# SAUCE Date: 19980225
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Organized Kaos by Krisis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-16-krs-ok-1
 
 Write-Host '
   [34m▄[0;1;34;44m▄▄▄▄▄▄[0;1;34;40m█[0;1;34;44m▄▄[0;1;34;40m██[0;1;34;44m▄[0;1;34;40m████[0;1;34;44m▄[0;1;34;40m███████████████████████████▀[0m▄[1;47m▄[0;1;40m█▄ [0;1;34;40m▀▀▀▀▀▀▀▀▀▀▀████████████████[0m

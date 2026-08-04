@@ -1,13 +1,4 @@
-﻿# Converted from: WW-EOR2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spl9607/raw/WW-EOR2.ANS
-# Source Revision: archive-sha256:cfcb128304238e082de7d191be273a1b4ecfa4b546d20f08c775b155194f3a99
-# Source SHA-256: f9e1b04d30adb3e30a9e6ee337f38ee8943ad334df97b5c6d81b92d6a97be23f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WW-EOR2.ANS by Wicked Wolf (spl9607); released in spl9607 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: WW-EOR2.ANS by Wicked Wolf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spl9607-ww-eor2-part02
 
 Write-Host '
 [1;30m█░░░░░▒▒▓▓█ [0;36m██    [0;1;30m▄ [0;36m██ [0;1;30m▄▄ [0;36m██ ██ [0;1;30m▄▀    [0;36m██    [0;1;30m▄▄█▓▓█ [0;36m██ [0;1;30m▄▄ [0;36m██ ██    [0;1;30m▄▄█▓▓▓▓▒▒▒░░█[0m

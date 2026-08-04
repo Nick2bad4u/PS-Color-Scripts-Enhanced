@@ -1,18 +1,4 @@
-﻿# Converted from: MB-IRN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ceg-010a/raw/MB-IRN.ANS
-# Source Revision: archive-sha256:5b3b98df164004f313dd0829d66e01a5471066e939dd03917a4e036b8d8f18b9
-# Source SHA-256: f5a5656a17f4352893d2a5caa81514554fd01d90eded0bd1d36d4ace8128eede
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MB-IRN.ANS by mr.byte (chaos energy groop); released in ceg-010a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 'ceg is not a limonade'
-# SAUCE Author: mr.byte
-# SAUCE Group: chaos energy groop
-# SAUCE Date: 19991121
-# SAUCE Dimensions: 80x57
-# Lines: 30-57
-# Columns: 1-80
+﻿# Artwork: 'ceg is not a limonade' by mr.byte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ceg-010a-mb-irn-part02
 
 Write-Host '
 [1;37;40m██[0;1;37;47m▓[0;1;37;40m██[0;1;37;47m▄▀▄   ▄▄[0;1;37;40m███[0;1;33;47m▓▓▓▒▒▓▓░▓▓▒▒▒▓▓[0;1;37;40m█████████[0;1;37;47m▓[0;1;37;40m██[0;1;37;47m▄▄▄[0;1;37;40m███████████████████████[0;1;37;47m▒▓[0;1;37;40m████[0;1;37;47m░▓[0;1;37;40m███[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SK!SZATA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p01_99/raw/SK!SZATA.ANS
-# Source Revision: archive-sha256:8f60f196ab9303212b95219847d0542467217a03e8a054cd4a20b59f229d7873
-# Source SHA-256: b31f2893c413cc70850aece48129e16bc07625d12c065c92f12eab39a6e5184c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!SZATA.ANS by sIMON kING (tHElo0p); released in l0p01_99 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: szatan w cieniu
-# SAUCE Author: sIMON kING
-# SAUCE Group: tHElo0p
-# SAUCE Date: 19990329
-# SAUCE Dimensions: 80x46
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: szatan w cieniu by sIMON kING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p01-99-sk-szata
 
 Write-Host '
 [34m█[0;36;44m [0;34;40m██[0;36;44m░░[0;34;40m███[0;36;44m░░░░░░░░[0;1;30;44m▀▄▄[0;36;44m░░░░░[0;1;30;40m▌[0;34m [0;1;30m▀[0;1;30;44m▄[0;36;44m░░░░[0;34;40m███[0;36;44m░░[0;34;40m██████████████████████████▓▓▌ [0;1;30;40m   [0;34m░▐█▓▌░███[0m

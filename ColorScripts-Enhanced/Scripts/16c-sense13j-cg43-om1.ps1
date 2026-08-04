@@ -1,18 +1,4 @@
-﻿# Converted from: CG43-OM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense13j/raw/CG43-OM1.ANS
-# Source Revision: archive-sha256:6b4e7b22ff11e363b1b5be8167daae9b4686076db84cab202311ff8a06211d49
-# Source SHA-256: 9bc77402db6deeae988fd428dab95d094eca573cbc43d4d42428e7ea083a99b1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG43-OM1.ANS by Cryogenic + Aesthetic (sense); released in sense13j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: outzone matrix
-# SAUCE Author: cryo/aes
-# SAUCE Group: sense
-# SAUCE Date: 20030204
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: outzone matrix by Cryogenic + Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense13j-cg43-om1
 
 Write-Host '
 [1;31;41m██▄█████▄[0;1;31;44m█[0;1;31;41m█[0;1;37;41m░[0;1;31;47m▓▓[0;1;31;41m█▀[0;31m▀[0;37m  [0;34m▄██[0m     [1;31m▓[0;31m▀[0;37m  [0;31m▀[0;1;31;41m██▄[0;1;31;40m▄[0;1;31;41m▄██▀[0;1;31;40m▀[0;31m▀[0;37m   [0;31m▀[0;1;31m▀▀[0;1;31;41m▀████████████[0;1;31;40m█[0;1;31;41m█▄[0;1;31;40m▄[0;31m [0;37m   [0;1;30m  [0;1;37m43[0m&[1mcg[0m [34m▓▓[0m

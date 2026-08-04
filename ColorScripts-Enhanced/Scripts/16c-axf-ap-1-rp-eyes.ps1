@@ -1,13 +1,4 @@
-﻿# Converted from: RP-EYES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-ap-1/raw/RP-EYES.ANS
-# Source Revision: archive-sha256:677d92e3c1456f7d379a6bfd6ef2a3e9f4462186ed5fa427899c9f4c329d0aa2
-# Source SHA-256: 661570f1d5aac221b1c4403fd4d9d393806de72d9c5ca2b6e64346492549b303
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RP-EYES.ANS by Raptor (axf-ap-1); released in axf-ap-1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: RP-EYES.ANS by Raptor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-ap-1-rp-eyes
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: CZ-FLD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-03/raw/CZ-FLD1.ANS
-# Source Revision: archive-sha256:8478e7ed47e52d1e07bf55e17a5f105ced4b468c6f56a8b59fd6b8ef8dada5ca
-# Source SHA-256: ce4dde99d8d56ccf0d24f834b2bbc34ebfeafb7407e61f8f9dce804ad64dcd30
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CZ-FLD1.ANS by 3-cheeze pizza (eclipse); released in ecl-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: mad field
-# SAUCE Author: 3-cheeze pizza
-# SAUCE Group: eclipse
-# SAUCE Date: 19960708
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: mad field by 3-cheeze pizza | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-03-cz-fld1
 
 Write-Host '
 

@@ -1,19 +1,4 @@
-﻿# Converted from: N-BAMF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/N-BAMF.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: c8744b8ad48729f6610b16bbc90eb8d3ce6ca53f9d513863a9df4fdbc6a1543c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-BAMF.ANS by nail (fire); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: bamf
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 20180613
-# SAUCE Dimensions: 80x53
-# SAUCE Font: IBM VGA
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: bamf by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-n-bamf-part01
 
 Write-Host '
                                              [35;40m▄[0m

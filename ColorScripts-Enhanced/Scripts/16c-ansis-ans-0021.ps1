@@ -1,13 +1,4 @@
-﻿# Converted from: ANS-0021.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis/raw/ANS-0021.ANS
-# Source Revision: archive-sha256:cabd7c46b38b213194457f50f766681b723f86902e0b5d87c41548c28c231d67
-# Source SHA-256: 34a46eb98334171f7e7d20aaa495b24415bcd2117078bcffed455d9365f21f9b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ANS-0021.ANS by Sal Manaro (ansis); released in ansis and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ANS-0021.ANS by Sal Manaro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-ans-0021
 
 Write-Host '
 [1;34;40m████████████████████████████████████████████████████████████████████████████████[0m

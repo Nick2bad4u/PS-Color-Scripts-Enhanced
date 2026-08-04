@@ -1,18 +1,4 @@
-﻿# Converted from: US-SUI.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9603a/raw/US-SUI.ICE
-# Source Revision: archive-sha256:51bcd96b8979115d69f1f707dc5c3d398256f0ac7a750005c0ccb144327b6f27
-# Source SHA-256: 2c6f657f16bce5d8c2eaa0442ac3ed7d1b94cd8539a58bb7ea1837b4e7b4c54d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SUI.ICE by Boa + Cold And Ugly (iCE '96); released in ice9603a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Suicide Emag
-# SAUCE Author: BoA/Cold n Ugly
-# SAUCE Group: iCE '96
-# SAUCE Date: 19960331
-# SAUCE Dimensions: 80x31
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Suicide Emag by Boa + Cold And Ugly | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9603a-us-sui
 
 Write-Host '
 [1;30m[sof]------ ----- ---- Suicide Emag ---- -- -[0m

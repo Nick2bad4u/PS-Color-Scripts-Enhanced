@@ -1,18 +1,4 @@
-﻿# Converted from: MR-DYSMN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira1297f/raw/MR-DYSMN.ANS
-# Source Revision: archive-sha256:aaf8efb3855bf52b486533186764296c0de75f15c8aab234da34f02a9e2d45f6
-# Source SHA-256: a8bc40b47bb6f73146c0a3c14c01760080fec986b851914fd4ee9221b047cb5a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-DYSMN.ANS by Mr.Wrong (irato); released in ira1297f and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Dystopia main menu
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: irato
-# SAUCE Date: 19971122
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Dystopia main menu by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira1297f-mr-dysmn
 
 Write-Host '
         [31m [0m

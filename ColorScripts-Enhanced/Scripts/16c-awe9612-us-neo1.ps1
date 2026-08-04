@@ -1,18 +1,4 @@
-﻿# Converted from: US-NEO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9612/raw/US-NEO1.ANS
-# Source Revision: archive-sha256:7053afed6e742c75d943ea86bb6e43e9d362e1c6f64e894c811e4835a8b40e13
-# Source SHA-256: d8be781d3c810af9124859d47aebbc3fa01d85fa24c7a8f83415811693dc008d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-NEO1.ANS by Grindstone + Fluor (AWE Lettering); released in awe9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Neosporin
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961202
-# SAUCE Dimensions: 80x26
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Neosporin by Grindstone + Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9612-us-neo1
 
 Write-Host '
       [1m [0m  ▄[1m▄▄▄[0;1;36;46m▄[0;1;37;40m▄[0m▄[1;30m ▐▄[0;1;30;47m▀[0;1;30;40m▄▄[0;1;37;40m▄▄▄  [0m  [1mrage[0;1;33m''[0;1;37ms[0m            ▄  [1;30m─[0;1;37m [0;35m![0;1;35m09[0;1;37m + [0;34m![0;1;34mgs[0m

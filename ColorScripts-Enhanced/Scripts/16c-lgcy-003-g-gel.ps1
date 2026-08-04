@@ -1,19 +1,4 @@
-﻿# Converted from: g-gel.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-003/raw/g-gel.ans
-# Source Revision: archive-sha256:44a26aad0e8691f16e2777283660069b61e5916234397869961a696ba22e89f6
-# Source SHA-256: ca3e22c9edc865ed57d412abb50e2261d14494ba044e4ac810a5122e87649aee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: g-gel.ans by Griskokare (Legacy Krew); released in lgcy-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: gel
-# SAUCE Author: Griskokare
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20200516
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: gel by Griskokare | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-003-g-gel
 
 Write-Host '
                         [1;37;40m   [0m      [44m [0;30;44m       [0;37;44m [0;30;44m    [0;37;44m [0m       [1;33;40m ┌ [0;1;37;40m   [0;1;30;40m░[0m            [33m [0m

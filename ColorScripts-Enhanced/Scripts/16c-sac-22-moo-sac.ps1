@@ -1,13 +1,4 @@
-﻿# Converted from: MOO_SAC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac-22/raw/MOO_SAC.ANS
-# Source Revision: archive-sha256:91473aec9998ca25ac024484a953b37d1dad07c4a6cee0ff8aa068869bfed70f
-# Source SHA-256: db008a59e1a1914e834aceaf889af5297dd9946f9de3d1c81fdf69457f37741d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MOO_SAC.ANS by moolok; released in sac-22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: MOO_SAC.ANS by moolok | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac-22-moo-sac
 
 Write-Host '
             [1;31;43m▒░▒▓▓▒▒░░[0m                              [1;31;43m▒░▓░[0m

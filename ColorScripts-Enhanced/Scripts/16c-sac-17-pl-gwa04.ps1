@@ -1,13 +1,4 @@
-﻿# Converted from: PL-GWA04.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac-17/raw/PL-GWA04.ANS
-# Source Revision: archive-sha256:143ba0b02cb6e0c3c0ef0ef67e5dad2b30187f657127441ee41c3731c02ed4a2
-# Source SHA-256: 0ab6d891f60e8ae0b2e98e2d2ba0db2fecd1b381d92d76f4a8629e8dfd196a10
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PL-GWA04.ANS by puschel; released in sac-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: PL-GWA04.ANS by puschel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac-17-pl-gwa04
 
 Write-Host '
 [1;32m      _[0m

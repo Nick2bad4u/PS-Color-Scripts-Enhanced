@@ -1,18 +1,4 @@
-﻿# Converted from: KRS-FOH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-07/raw/KRS-FOH.ANS
-# Source Revision: archive-sha256:f0498e40c7ce9f5718652374b5ec8d4837bb6e6a2bfea8c457a1793267178c86
-# Source SHA-256: e91c27a923b4801e854bcde5d0936e71bc77febbca98c985e55daf399e6e3388
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KRS-FOH.ANS by Krisis (fORCE); released in force-07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Force of Habit
-# SAUCE Author: Krisis
-# SAUCE Group: fORCE
-# SAUCE Date: 19960324
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Force of Habit by Krisis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-07-krs-foh
 
 Write-Host '
  [1;32m█▀▀[0m  [1;33m▄▄[0m  [1;32m▀▀█ [0m [1;32m■▀▀▀▀█[0m [1;32m■▀▀▀▀▀▀▀▀▀▀█ ▀▀▀▀▀█▀▀▀█[0m     [1;32m█▀▀▀▀■▄▄▄▄▄▄▄▄▄[0m     [1;33m▄▄[0m    [1;32m▄▄▄ [0m

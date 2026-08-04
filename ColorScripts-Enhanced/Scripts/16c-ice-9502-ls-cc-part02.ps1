@@ -1,18 +1,4 @@
-﻿# Converted from: LS-CC.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9502/raw/LS-CC.ICE
-# Source Revision: archive-sha256:651d57ec8cfbb7a8c418d666720edd49ef86d48a0b256443452b3132c0397ce3
-# Source SHA-256: 30e90ed804910ccaf2d1992da2b2bb0b12d6153118e56d76ee4e34509d417164
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LS-CC.ICE by Lord Soth (iCE); released in ice-9502 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Cat's Cradle
-# SAUCE Author: Lord Soth
-# SAUCE Group: iCE
-# SAUCE Date: 19950228
-# SAUCE Dimensions: 80x25
-# Lines: 43-78
-# Columns: 1-80
+﻿# Artwork: The Cat's Cradle by Lord Soth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9502-ls-cc-part02
 
 Write-Host '
 [1;30;47m▓[0;1;30;40m██▓ ▓[0m          [33m▐[0;1;30m▀[0;33m▐[0;1;30;43m▒▓[0;1;30;40m▀▄▄▓▀▄▄[0;1;31;40m▀██▀▀▀▀▀  [0;31m▀[0;1;31;41m░░░░[0;31m▄[0;1;37;41m▀▀[0;31m▄[0;1;31;41m░░░[0;31m▌ [0;1;31m▀▀   [0;1;30m▀▓▄ ▒  ░[0m        [1;30m▀█  ▀▄[0m

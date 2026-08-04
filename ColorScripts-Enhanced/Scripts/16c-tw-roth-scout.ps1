@@ -1,13 +1,4 @@
-﻿# Converted from: SCOUT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tw-roth/raw/SCOUT.ANS
-# Source Revision: archive-sha256:190885942cec88a16c8a5d2e7952970dfc3a8a8e6b1ddb12dad31a590f611129
-# Source SHA-256: 9eb1e2e018d6160de4759cec5e353465c286b025cd3a37be5007b430a5189996
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SCOUT.ANS by Nitron (tw-roth); released in tw-roth and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: SCOUT.ANS by Nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tw-roth-scout
 
 Write-Host '
 [34m░░[0;37m                    .                                      [0;31m░▒██▓█[0;1;33;41m░▒██[0;1;37;40m█[0;1;33;41m███[0;1;37;40m██[0;1;37;44m█[0;1;37;40m█[0m

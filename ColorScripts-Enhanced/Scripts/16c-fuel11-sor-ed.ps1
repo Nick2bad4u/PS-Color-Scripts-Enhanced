@@ -1,18 +1,4 @@
-﻿# Converted from: SOR-ED.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel11/raw/SOR-ED.ANS
-# Source Revision: archive-sha256:bc01376bbeb692c1fce16796b92a6fd889f89dbf4c55eb291719d5ea3fd5846c
-# Source SHA-256: 177ec960c08aeb61624b70b4c893950bcac45828e094ab40e34e3e6a40fa2e47
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SOR-ED.ANS by Spirit of Rage (Fuel); released in fuel11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Eternal Dreams
-# SAUCE Author: Spirit of Rage
-# SAUCE Group: Fuel
-# SAUCE Date: 19970220
-# SAUCE Dimensions: 80x15
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: Eternal Dreams by Spirit of Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel11-sor-ed
 
 Write-Host '
   [36m░[0;30;46m▓[0m         [30;46m▓[0;36;40m▄▄▄▄[0m    [33;40m....[0;30;46m▓[0;36;40m░[0;1;33;40meternal dreams[0;33m.[0;30;45m▓[0;35;40m░[0;33;40m...[0m         [36;40m░[0;30;46m▓[0m       [36;40m▄▄▄▄[0m

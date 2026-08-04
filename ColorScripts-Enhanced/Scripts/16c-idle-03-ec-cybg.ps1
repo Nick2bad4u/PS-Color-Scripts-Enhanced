@@ -1,18 +1,4 @@
-﻿# Converted from: EC-CYBG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/idle-03/raw/EC-CYBG.ANS
-# Source Revision: archive-sha256:de0b9b28f255e1cb9ab562a1ef9b6f1152dc7f06e952e19862071341f6d6c4c3
-# Source SHA-256: 5cf24f03cf64a2a1a2c81d7059a3d6d13c800eaa1a4e560825b74d99f587274b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EC-CYBG.ANS by eclipse (idle); released in idle-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: cyber gateway
-# SAUCE Author: eclipse
-# SAUCE Group: idle
-# SAUCE Date: 19961002
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: cyber gateway by eclipse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-idle-03-ec-cybg
 
 Write-Host '
    [34m░[0m         [34m▄[0m     [1;34;44m░[0m  [34m░[0m     [1;36m░[0m        [34m▄[0;37m [0;34m▄[0;37m  [0;34m▄▀▄[0m   [34m▐   ░[0m      [34m▀[0m   [34m▀[0m    [34m░[0m     [34m▄[0;37m  [0;34m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SMI-EVR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eglo01/raw/SMI-EVR.ANS
-# Source Revision: archive-sha256:946b379c1627c6c0ce524ce16bdc1636c1614ddecdaaa61a3c3a875f18d94d0a
-# Source SHA-256: 154badb10b6d5bd063c656d191fd8d930303d497e6fcccc3a799bffbea2b22ec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMI-EVR.ANS by samurai (Everglo); released in eglo01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Everglo
-# SAUCE Author: samurai
-# SAUCE Group: Everglo
-# SAUCE Date: 19970129
-# SAUCE Dimensions: 80x25
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: Everglo by samurai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eglo01-smi-evr
 
 Write-Host '
                                                             [36m [0m

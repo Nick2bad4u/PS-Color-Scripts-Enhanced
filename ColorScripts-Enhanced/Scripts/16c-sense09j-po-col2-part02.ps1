@@ -1,13 +1,4 @@
-﻿# Converted from: PO-COL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense09j/raw/PO-COL2.ANS
-# Source Revision: archive-sha256:9f583533fb256ec67ece3c5d38ebea61ce21b385a7859a4e786edef290584615
-# Source SHA-256: 92332c7b7b6f63f7884573def2bfa13faf0443e2d8263d01cb0117163f7ef9d3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PO-COL2.ANS by Portia (sense09j); released in sense09j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 47-96
-# Columns: 1-80
+﻿# Artwork: PO-COL2.ANS by Portia | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense09j-po-col2-part02
 
 Write-Host '
 [31m█████  [0;37m█████[0;1;30;47m░░▓█[0;1;30;40m▌[0m [30;41m▓[0;37;40m    [0;31;40m▄▄█[0;1;37;41m░[0;31m█[0;1;31;41m [0;31m▄▄▄▄██[0;1;31;41m░░[0;31m███[0;1;31;41m▀▀[0;31m██▄▄▄[0;37m   [0;31m▄▄▄▄███▓[0;30;41m░[0;31;40m█▄ [0;37;40m [0;1;30;40m▐[0;1;30;47m░░[0m███[1;30;47m░░[0m██[31m ░▓████[0m

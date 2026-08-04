@@ -1,13 +1,4 @@
-﻿# Converted from: cc-gen.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gen-02/raw/cc-gen.ans
-# Source Revision: archive-sha256:a8bb305fa74299fe2b84ac6a7c53e3f231aa6311f01121f9650c819a93a468d5
-# Source SHA-256: 2adaea2124f8de32ec5099564eeacc1a3995463b1dd1c7f9fc8844e81dd4517a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cc-gen.ans by Chronicc (gen-02); released in gen-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: cc-gen.ans by Chronicc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gen-02-cc-gen
 
 Write-Host '
                          [1;36m▐▄▄▄▄█[0;1;36;46m▀[0;1;36;40m▌▄▄[0m

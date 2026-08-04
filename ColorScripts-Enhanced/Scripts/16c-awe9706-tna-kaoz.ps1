@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-KAOZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9706/raw/TNA-KAOZ.ANS
-# Source Revision: archive-sha256:867680f5fb3c86dcb017d8ed4cd79085881689d65da90056f84aba519ae4bdfe
-# Source SHA-256: 0840287d9f0e8a16c7d83a7f7be171aefde175c3e9445053264048df2d99675d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-KAOZ.ANS by The Night Angel (AWE Lettering); released in awe9706 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Kaoz
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970527
-# SAUCE Dimensions: 80x25
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: Kaoz by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9706-tna-kaoz
 
 Write-Host '
                        [30;46m▓[0m            [1;30;40m▄[0m                   [33m░  ▄[0m        [33m▄ ▀▀▄[0m

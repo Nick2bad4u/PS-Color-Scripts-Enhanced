@@ -1,19 +1,4 @@
-﻿# Converted from: cd-dragonspire.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel27/raw/cd-dragonspire.ans
-# Source Revision: raw-sha256:9ebf08ab9c744f33ddf4d22ce129a501ee65d8075d0427641454b95f7c11467c
-# Source SHA-256: 9ebf08ab9c744f33ddf4d22ce129a501ee65d8075d0427641454b95f7c11467c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cd-dragonspire.ans by Who!? aka CD (FUeL); released in fuel27 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Dragonspire
-# SAUCE Author: Who!? aka CD
-# SAUCE Group: FUeL
-# SAUCE Date: 20180531
-# SAUCE Dimensions: 80x533
-# SAUCE Font: IBM VGA
-# Lines: 145-192
-# Columns: 1-80
+﻿# Artwork: Dragonspire by Who!? aka CD | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel27-cd-dragonspire-part04
 
 Write-Host '
 [0m[0m[1;31;40m█████████████████[0;1;31;43m▓░[0;33m   ▓█████▄ [0;1;32m█[0;1;33;42m▓[0;1;33;40m [0;33m████████████ [0;1;33;43m▄[0;1;33;40m█ [0;33m██████████[0;1;31;43m░[0;1;31;40m█[0;1;31;43m▓  [0;33m█▌ [0;37m█  [0;33m░[0;1;31;43m▓[0;1;31;40m████████[0m

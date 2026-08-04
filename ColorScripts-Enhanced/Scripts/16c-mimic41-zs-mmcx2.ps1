@@ -1,13 +1,4 @@
-﻿# Converted from: zs-mmcx2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic41/raw/zs-mmcx2.ans
-# Source Revision: archive-sha256:adde03fb39fa1a8721d5c372b0ea50c1351e790c154441683303c83e8be3eeaf
-# Source SHA-256: 6a881848123e0f5c33d99475a7210d97c2fd043123cfec4efca98fbfa4b7ad3e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zs-mmcx2.ans by Zerostar (mimic41); released in mimic41 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: zs-mmcx2.ans by Zerostar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic41-zs-mmcx2
 
 Write-Host '
 [31m┌─--[0;37m [0;31m.┐y%@@%y┐-──----──[0;32m :: [0;31m──----──---───-───[0;1;30m :: [0;31m─---[[0;1;31mMIMIC ASCII[0;31m]─----[0;35m :: [0;31m────┐[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: KI-CRSTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eden1295/raw/KI-CRSTH.ANS
-# Source Revision: archive-sha256:b1b727ddee3a1e2d5daf09b8a5e6e928b5ab5d44f0b8b9be24932503c37a0a77
-# Source SHA-256: 4f121ce28d78e3536f9b9e817e257418e7228f74a642493abec52104364a9396
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KI-CRSTH.ANS by kiwi (EDeN); released in eden1295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: kiwi
-# SAUCE Group: EDeN
-# SAUCE Date: 19951202
-# SAUCE Dimensions: 80x62
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: KI-CRSTH.ANS by kiwi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eden1295-ki-crsth-part01
 
 Write-Host '
 [34m▒░▒▒░░░[0;37m [0;34m░[0;37m [0;34m░░░░[0;37m [0;34m░kiwi░.EDeN[0;37m  [0;1;37m▄▄[0;1;37;47m▓▓▒[0m▄          [34m░[0m   [34m░░[0;37m [0;34m█▓▒▒░▒░░ ░░░░░░▀██▓▓▒░░░░░[0;37m [0;34m░░[0m

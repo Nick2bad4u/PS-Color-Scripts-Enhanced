@@ -1,18 +1,4 @@
-﻿# Converted from: PO-CLS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook13/raw/PO-CLS2.ANS
-# Source Revision: archive-sha256:f383b37d2f0265a83b82afcdde57a4dae359d8a5127c467dcea28d0c8500d000
-# Source SHA-256: a94b41df1bea8befdeba2d655971d8916bb13366dbcf7188ba7070f60eb45cb5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PO-CLS2.ANS by poti (black(SONIC)maiden); released in bmbook13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: logocluster #2
-# SAUCE Author: poti
-# SAUCE Group: black(SONIC)maiden
-# SAUCE Date: 19970427
-# SAUCE Dimensions: 80x77
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: logocluster #2 by poti | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook13-po-cls2-part01
 
 Write-Host '
  [1m┌─────■                            [0m ────────────────────────────────────────┌┌

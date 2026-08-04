@@ -1,18 +1,4 @@
-﻿# Converted from: YA-DMIND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nland-04/raw/YA-DMIND.ANS
-# Source Revision: archive-sha256:eab686fd42219ed6c9add6a2f7726008adc5ca3e06c5f87a076203c52842513d
-# Source SHA-256: 3479fa869ca21de069965b3aa9e3d2e5b31e033e29b9f02187d792f17556788c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: YA-DMIND.ANS by Yasop (NeveRLanD People); released in nland-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Dark Mind BBS
-# SAUCE Author: Yasop
-# SAUCE Group: NeveRLanD People
-# SAUCE Date: 19960128
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Dark Mind BBS by Yasop | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nland-04-ya-dmind
 
 Write-Host '
 [1m [0;33m██▄▄[0m     [33m██▄▄[0m     [33m██▄▄[0m     [1;30;47m██[0m    [33m██[0m       [33m▄▄▄▄ ▄ ▄▄▄[0m     [33m██ ██▄▄[0m     [33m██▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: TY-CRYM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mean9705/raw/TY-CRYM.ANS
-# Source Revision: archive-sha256:96235d9849bffd6005b05e894c29f6b67b3d4c051090948bf653b689870cae3a
-# Source SHA-256: 071c68fef7d437ea9837e6a8bbc3338e8ee909282a421cc1ee71e184f0126d3d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TY-CRYM.ANS by tyron (mean scheme); released in mean9705 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the crypt matrix
-# SAUCE Author: tyron
-# SAUCE Group: mean scheme
-# SAUCE Date: 19970430
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: the crypt matrix by tyron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mean9705-ty-crym
 
 Write-Host '
 [1;31;41m▀█[0;30;41m▐█▀[0;1;31;41m▄[0;1;31;47m▓[0;1;31;41m█▀[0;31m█████▀▀▀▀▀▀▀▀███[0;1;31;41m▀▄[0;30;41m▀▀▌[0;1;31;41m░░[0;31m███████[0;1;31;41m▀ █▀[0;31m▀[0;30;41m█[0;31;40m▄[0;1;31;41m▄██▀[0;31m████[0;1;33;41m░░[0;31m████████[0;1;31;41m█[0;31m█[0;1;31;41m██[0;31m███████[0;1;31;41m▀▄[0;30;41m▀█[0m

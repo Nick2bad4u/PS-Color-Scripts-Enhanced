@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-R2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge11/raw/BYM-R2.ANS
-# Source Revision: archive-sha256:e5d18ebc517ba234357fa596914e49dc0a90f1312a6a355c5ccb72e1da9a0414
-# Source SHA-256: 3bcf973a4820ae1d3fd9313c118b81f52cc35b65a0d70f8d44623747827f77cd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-R2.ANS by THeBYM (guest); released in avenge11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: purple river!#?
-# SAUCE Author: THeBYM
-# SAUCE Group: guest
-# SAUCE Date: 19981201
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: purple river!#? by THeBYM | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge11-bym-r2
 
 Write-Host '
 [1;34m██▀[0m [1;36m [0m░░░░░░░[1;36m   [0m ▀[1;30m▀[0m [1;30m▄[0m▄▄         [1;30m▄[0m▄ [1;30m▄[0m    [1;36m░░░░[0m [1;36m░░░░░[0m    [1;34m░░░░░░░░░▓▓▓█████▀▀▀[0m▄▄▄[1;47m▄▄▄[0m

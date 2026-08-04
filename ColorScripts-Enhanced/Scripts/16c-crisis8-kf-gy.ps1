@@ -1,13 +1,4 @@
-﻿# Converted from: kf-gy.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/crisis8/raw/kf-gy.ans
-# Source Revision: archive-sha256:196f9c3784e1cc5cbdbd9897127f0cfd86940d923500873c384e50e8b3c19f82
-# Source SHA-256: 2fcb326fbb20c566437f079bad77d47149ebc9ccb31c21c2dbcc72b95cf6e96e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: kf-gy.ans by Kid Frost (crisis8); released in crisis8 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: kf-gy.ans by Kid Frost | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-crisis8-kf-gy
 
 Write-Host '
 [34m█▓▀▀[0;37m▄▄[0;1;37;47m▄▄▄▄▄▄▄[0m▄▄▄[34m▀▓[0;1;34;44m  [0;34m▓▀[0;1;37m▄[0m▄[1;47m░▓[0;1;40m██▌▄[0m▄[34m▀▓███████████[0;1;34;44m ░[0;34m▓▀▀██[0;1;34;44m░▓░[0;34m▀[0;37m▄[0;1;37m▄▐▓[0;1;37;47m▓░[0;1;37;40m▌▄[0m▄[34m▀█[0;1;34;44m░[0;34m▀[0;37m▄▄[0;1;37;47m▄▄▄▄▄▄[0m▄[34m▀[0;1;34;44m░▓[0m

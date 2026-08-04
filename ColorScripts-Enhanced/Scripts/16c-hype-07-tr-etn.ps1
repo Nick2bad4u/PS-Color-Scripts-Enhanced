@@ -1,17 +1,4 @@
-﻿# Converted from: TR-ETN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-07/raw/TR-ETN.ANS
-# Source Revision: archive-sha256:87d90bdc1c58c50ea0888b8aaf262fcc5dbe049c5db52a725ab539c33c4e5735
-# Source SHA-256: 65ac1b7c7336c68adf6ad77e145f62caec5c6988c91b7bdfa7d307acf6a3c3f1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-ETN.ANS by Trident (Hypeart); released in hype-07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: " Eternity logo (warez) "
-# SAUCE Author: Trident
-# SAUCE Group: Hypeart
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: " Eternity logo (warez) " by Trident | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-07-tr-etn
 
 Write-Host '
                              [31m▓[0m

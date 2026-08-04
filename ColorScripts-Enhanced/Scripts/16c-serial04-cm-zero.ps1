@@ -1,13 +1,4 @@
-﻿# Converted from: cm-zero.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/serial04/raw/cm-zero.ans
-# Source Revision: archive-sha256:78034803801a1f40066a95540d7041a4cbf3ae166611a3e78ae615b11b038c71
-# Source SHA-256: ed901d093b1b8b1937075ec80689da91a0a9da6b88a51e11f4b8d32420845910
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cm-zero.ans by Computer Man (serial04); released in serial04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: cm-zero.ans by Computer Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-serial04-cm-zero
 
 Write-Host '
 [1m                              [0;1;34m_.+.[0m

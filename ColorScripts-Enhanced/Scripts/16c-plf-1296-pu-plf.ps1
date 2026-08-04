@@ -1,18 +1,4 @@
-﻿# Converted from: PU-PLF!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf_1296/raw/PU-PLF!.ANS
-# Source Revision: archive-sha256:902ffb47b5338e6dcb178867d2ae1bc19c0a38faa788ba01e9fb9532c108eebc
-# Source SHA-256: 0ec789efe40b632f512b0f83ae9cdc33a5712519351cfb6407ea4751643a5e76
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PU-PLF!.ANS by puppiluppan (poffelipoff); released in plf_1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: poffelipoff logo
-# SAUCE Author: puppiluppan
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19961217
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: poffelipoff logo by puppiluppan | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1296-pu-plf
 
 Write-Host '
 

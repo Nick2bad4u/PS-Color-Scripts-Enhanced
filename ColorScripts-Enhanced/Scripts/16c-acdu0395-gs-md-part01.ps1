@@ -1,18 +1,4 @@
-﻿# Converted from: GS-MD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0395/raw/GS-MD.ANS
-# Source Revision: archive-sha256:c61de425dfa6c17c15d8c7a3f501188ae0f41871982f3a874a318b2cadecd44e
-# Source SHA-256: d3a5011c67252c4eaa92c09bbc81a69938257695ce396f92be03b02f00bb269b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GS-MD.ANS by Gangstar (ACiD Productions); released in acdu0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Mortal Disorder
-# SAUCE Author: Gangstar
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950301
-# SAUCE Dimensions: 80x90
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: Mortal Disorder by Gangstar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0395-gs-md-part01
 
 Write-Host '
 [1;30m[0m[1;30m[0m[1;30m[0m                                                [31m░[0m

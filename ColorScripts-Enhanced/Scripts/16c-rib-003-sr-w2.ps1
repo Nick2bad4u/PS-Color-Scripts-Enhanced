@@ -1,13 +1,4 @@
-﻿# Converted from: SR-W2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-003/raw/SR-W2.ANS
-# Source Revision: archive-sha256:09817656d743388b570b7dfb39c4f133f8c40aecb92562f60d9e0c45a3f39730
-# Source SHA-256: 0f92a421c20c826caec15deea54ea6b3eaa7164bd49889bfedff6bae82f0dfbc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SR-W2.ANS by Scroller (rib-003); released in rib-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: SR-W2.ANS by Scroller | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-003-sr-w2
 
 Write-Host '
                                [34m [0m

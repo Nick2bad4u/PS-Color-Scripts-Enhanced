@@ -1,18 +1,4 @@
-﻿# Converted from: LY-TFM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl199603/raw/LY-TFM1.ANS
-# Source Revision: archive-sha256:0efb2f799ead394e7068a363d08b4382c71543fc86834c3fc142767771a369dc
-# Source SHA-256: c693d4d376c2688eec2fd4127cc0c86fed75c3a646cd731691fed8ca6e10e013
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LY-TFM1.ANS by Lysene (Teklordz); released in tl199603 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: TFM
-# SAUCE Author: Lysene
-# SAUCE Group: Teklordz
-# SAUCE Date: 19960310
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: TFM by Lysene | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl199603-ly-tfm1
 
 Write-Host '
 [32m▀[0;37m [0;34m▄▄[0m   [1;33m ▄▄[0m [31m■▀▀ ▀▀[0;1;31;41m░[0;31m▄[0;37m [0;1;33m▀▀▀ ▄▄[0m [34m▀▀[0;1;34;44m░[0;34m▄[0;37m  [0;34m▀[0;31m▄[0;34m ■[0;37m [0;34m▄[0;37m  [0;1;33m▀▀▄[0m      [1;33m▄[0;1;32m ░[0m  [1;32m ▄▄▄▄[0;32m▄[0;37m [0;1;32m▀▀▄▄[0m  [1;32m▄[0;1;32;42m▀[0;1;32;40m▀[0m [1;32m▄▄▄[0;1;32;42m▀[0;1;32;40m▀[0m

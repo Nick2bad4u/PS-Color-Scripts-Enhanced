@@ -1,18 +1,4 @@
-﻿# Converted from: CO-NYC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bdp-1195/raw/CO-NYC.ANS
-# Source Revision: archive-sha256:1b43f12a2225fa99f61f8383153046022622b294b70c9ac85ac44c0e22a26a9f
-# Source SHA-256: 579136cd98e5f4d2a502dc9463b7369db1de242d0c38f9e1aee84da481dbe31a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CO-NYC.ANS by Coeffey (bdP); released in bdp-1195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: New York City
-# SAUCE Author: Coeffey
-# SAUCE Group: bdP
-# SAUCE Date: 19951017
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: New York City by Coeffey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bdp-1195-co-nyc
 
 Write-Host '
 [30;41m▀▄[0;1;31;41m░[0;30;41m▄▄[0;37;40m▄▄▄[0;37;47m▓[0;37;40m▀▀▀▄[0m [30;41m▀[0;1;31;41m░[0;30;41m▀▀▀▄▄▄[0;1;31;41m░░░▒▒▒▓▓▓[0;1;31;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

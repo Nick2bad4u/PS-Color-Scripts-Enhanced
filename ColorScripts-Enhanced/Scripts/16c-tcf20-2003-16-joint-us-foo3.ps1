@@ -1,13 +1,4 @@
-﻿# Converted from: 2003 - 16 - Joint  - US-FOO3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tcf20/raw/2003%20-%2016%20-%20Joint%20%20-%20US-FOO3.ANS
-# Source Revision: archive-sha256:af8609219fccc484668fb405a7f1d45efb8c574501a461c5c1b47d87a12921ce
-# Source SHA-256: 63474937a03958813e603e64143949da39e3cc815c51fb94d157ffff48810363
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2003 - 16 - Joint  - US-FOO3.ANS by Enzo + The Creep Fever (tcf20); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: 2003 - 16 - Joint - US-FOO3.ANS by Enzo + The Creep Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tcf20-2003-16-joint-us-foo3
 
 Write-Host '
 [35m [0;31m▌░[0;35m  ░░[0;1;33m [0;33m░█[0;1;31;43m███████[0;1;31;47m▓▒▒▒▒▓▓[0;1;31;43m█████████░░░░ [0;33m██[0;37;43m ░[0;33;40m [0;31;40m▐[0;1;31;40m░[0;31m▌  [0;1;31m ░[0;31m█░  [0;35;41m▓[0;31;40m █[0;33;40m [0;31;40m [0;33;40m ▀ ▄[0;1;31;43m▄▒[0;33m▄▀[0;1;31;43m▒[0;33m▄  [0;1;35m░[0;1;37m     [0;1;34m▀▓▓[0m

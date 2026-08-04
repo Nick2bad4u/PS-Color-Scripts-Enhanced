@@ -1,19 +1,4 @@
-﻿# Converted from: TG-HH23.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-38/raw/TG-HH23.ANS
-# Source Revision: archive-sha256:be80154150e87c06a8a7199ad7b8d7442acd5427250f57c89a783b9de15c69d7
-# Source SHA-256: 7408e1139a7c832313206928ce9960b8818b06c08afc674a76e3f20a5f096594
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-HH23.ANS by Toon Goon (FiRE); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Happy Halloween 2023
-# SAUCE Author: Toon Goon
-# SAUCE Group: FiRE
-# SAUCE Date: 20231022
-# SAUCE Dimensions: 80x58
-# SAUCE Font: IBM VGA
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Happy Halloween 2023 by Toon Goon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-38-tg-hh23-part01
 
 Write-Host '
 [31;40m██████████████████████[0;1;31;41m░░░░░ ▄▄█[0;1;31;47m▀▀▀▀▀▒▒▓▓▓[0;1;31;41m██▀▀▀▀▀▀▀[0;31m▄▄▀[0;1;31;41m▀[0;31m▀  ▄▄▄▄▄▄▄ ▀▀▄▄██▀▀▄▄ ▄███[0m

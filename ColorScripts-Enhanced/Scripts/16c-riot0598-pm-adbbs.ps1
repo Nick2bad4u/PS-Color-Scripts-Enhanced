@@ -1,13 +1,4 @@
-﻿# Converted from: PM-ADBBS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot0598/raw/PM-ADBBS.ANS
-# Source Revision: archive-sha256:0c1b4d8014854195eee82655813426874e782c44b6e7d11df4cc84dbee4a5020
-# Source SHA-256: b3def0ed202c7435316c6c053335b20100bbd15310a7c455eb36a6a1f3e1210d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-ADBBS.ANS by Precious Metal (riot0598); released in riot0598 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: PM-ADBBS.ANS by Precious Metal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot0598-pm-adbbs
 
 Write-Host '
     [1;30m░░ ▄▄█[0;1;30;46m█[0;1;30;40m██[0;1;30;46m▓[0;1;30;40m█[0;1;30;46m▀░▒░░▀[0;1;30;40m█▀█████[0;1;30;46m▒░[0;1;30;40m███[0;1;30;44m▓[0;1;30;40m████████[0;1;30;46m░░ ▄[0;1;30;40m█████████▓▌█[0;1;30;46m▀▀[0;1;30;40m█[0;1;36;46m░[0;1;30;46m▀[0;1;36;46m▄▄▄▄▄▄▄▄▓[0;1;30;46m▀[0;1;30;40m██[0;1;30;46m▒▓[0;1;30;40m▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: EP-QI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0894/raw/EP-QI.ANS
-# Source Revision: archive-sha256:5810e139e825e1092a27333c7d266cac63dba57f81bd1a7f34ba559f87784d8b
-# Source SHA-256: 7cc6bad03a5f53cbe840724824477713a8be03d26e25d7809d804f7f74ec37d2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EP-QI.ANS by Epitaph (fire0894); released in fire0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: EP-QI.ANS by Epitaph | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0894-ep-qi-part01
 
 Write-Host '
                    [33m▄▄▄▄▄▄▄▄▄▄[0m

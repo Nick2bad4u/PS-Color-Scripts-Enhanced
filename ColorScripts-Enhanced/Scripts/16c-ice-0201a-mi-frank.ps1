@@ -1,13 +1,4 @@
-﻿# Converted from: mi-frank.ice
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-0201a/raw/mi-frank.ice
-# Source Revision: archive-sha256:6afdfb1f21f89c7f53db62f7cbe6c0d6964b4e2a3b5f4106cb2e3dadfb758734
-# Source SHA-256: 434c379f8ee4a2352dd938028d2dd33cce6b11a45fd90e45da5eb823bc6c6816
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mi-frank.ice by Mongi (ice-0201a); released in ice-0201a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: mi-frank.ice by Mongi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-0201a-mi-frank
 
 Write-Host '
 [1mpixel fantastic[0m                   [33m▒[0;37m   [0;36m▄▄▄▄[0;1;36;46m░░░░░░░[0;34m░░[0m

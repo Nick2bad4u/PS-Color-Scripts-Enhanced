@@ -1,18 +1,4 @@
-﻿# Converted from: 09-PS1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9710a/raw/09-PS1.ICE
-# Source Revision: archive-sha256:d2847f32aebd3efb38a7554b205a8c1ae530e718b7cf09458b28d38f4085367b
-# Source SHA-256: 0036cd355672b09ffcd74c586ad53538999b8ca331aa6805fa0d25418a97d205
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-PS1.ICE by Fluor (iCE); released in ice9710a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Private System
-# SAUCE Author: Fluor
-# SAUCE Group: iCE
-# SAUCE Date: 19971106
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Private System by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9710a-09-ps1
 
 Write-Host '
     [31m▄ ▄▄[0;1;31;41m░[0;31m  [0;37m  [0;1;30m■[0;31m ░[0;1;31;41m▀[0;31m▀[0;37m [0;31m▄▓▀▀ ▄▓[0;1;31;41m▓▄[0;31m▄▄[0;1;31;41m▄▓[0;31m▓░▄▄[0;1;31m▄[0;1;31;41m▄[0;1;31;47m▓[0;1;31;41m▄▓░[0;31m▄▄[0;37m [0;31m▀▀[0;1;31;41m░▀[0;1;31;47m▓[0;1;31;41m▓[0;1;31;40m▄[0;1;31;41m▄[0m [1;31m░[0m   [31m▐[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: KN-LOGO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-02/raw/KN-LOGO.ANS
-# Source Revision: archive-sha256:85e01eadce5f9498d81aff1ce740b243afce4b217290d5d85773c523660d0b86
-# Source SHA-256: 34a86516f377c9e7ee6ea871b75f554d4a63edccaa73f280e47ad921b07694c3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KN-LOGO.ANS by Kaneda (Hype); released in hype-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Kaneda Logo2
-# SAUCE Author: Kaneda
-# SAUCE Group: Hype
-# SAUCE Dimensions: 80x25
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: Kaneda Logo2 by Kaneda | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-02-kn-logo
 
 Write-Host '
 [1m[0m               [1;34m▄▄▄▄[0m

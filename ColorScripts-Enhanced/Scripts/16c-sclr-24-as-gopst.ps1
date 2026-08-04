@@ -1,13 +1,4 @@
-﻿# Converted from: AS-GOPST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-24/raw/AS-GOPST.ANS
-# Source Revision: archive-sha256:941504543a070d123f982105313110e2e0cd0032e6193b222a5df6a537f3703e
-# Source SHA-256: 9bbd021a45105cece50122e22886c9de085ccc6ec99e7a0df87b8f636e6c3cc1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AS-GOPST.ANS by Asd (sclr-24); released in sclr-24 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: AS-GOPST.ANS by Asd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-24-as-gopst
 
 Write-Host '
 [34m$$$$$$$$$$$$$$$[0;1;34;44m$$[0;34m$├$├$\*└²"``[0;1;30m_.,┌a%AS$$$$$$$$$$$$$$$$$$$$$$$$$$$$\[0m [34m`/S$$$$$$$$[0m

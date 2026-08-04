@@ -1,18 +1,4 @@
-﻿# Converted from: AN-MATIX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-11/raw/AN-MATIX.ANS
-# Source Revision: archive-sha256:fb569ca0f426a612fae941c52b66a1bf2185c5bf71d8e011fd47447565da1174
-# Source SHA-256: de9d24446d62058109acc871cfbde728159f787c41ed5de689ce8402c8a9ab2f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AN-MATIX.ANS by Anubis (fORCE); released in force-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Warhammer bbs login Matrix
-# SAUCE Author: Anubis
-# SAUCE Group: fORCE
-# SAUCE Date: 19960907
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Warhammer bbs login Matrix by Anubis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-11-an-matix
 
 Write-Host '
 [36m██▀▀[0m      [34m▄▄▓███[0;1;33;44m [0;34m█[0;1;33;44m░[0;1;34;44m▄[0;34m██████████[0;1;34;44m [0;34m▄[0;37m [0;36m▀▀████[0;1;36m▒[0;36m▀▀▀[0m            [34m▄[0;30;44m█[0;34;40m▓[0;30;44m▓[0;34;40m█[0;1;33;44m░[0;34m███[0;1;34;44m░▄█▀▀[0;34m██[0;1;34;44m▄[0;34m▄▄▄▄  [0m

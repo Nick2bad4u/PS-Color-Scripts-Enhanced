@@ -1,18 +1,4 @@
-﻿# Converted from: RG!ALBK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr006/raw/RG!ALBK.ANS
-# Source Revision: archive-sha256:d5963037ced31fdb210a4b96b24d0d6ada43f938e508dcb50befdb7e45a6d6b7
-# Source SHA-256: cc48da47a3e41bc1707cacae631ad01e69385ba34544aadb7d4f6e7687e9429d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RG!ALBK.ANS by rage (opium); released in blndr006 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: aliens playing moonbasket?!
-# SAUCE Author: rage
-# SAUCE Group: opium
-# SAUCE Date: 19961230
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: aliens playing moonbasket?! by rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr006-rg-albk
 
 Write-Host '
 [33m[0m[1;33m[0m[1;33m[0;33m[0;1;33m[0;33m[0;1;33m[0;33m[0;1;32m[0;33m[0;1;33m[0;33m[0;1;32m[0m           [1;30m▄[0m     [1;30m▄▄█▄▄▄▌[0m [1;30m▄[0m      [1;30m▄[0m     [1;30m▄[0m [1;30m▄ ▄▄▄▄▄▌▄▄▄▄▄▄█▓▄▄▄▄▌  ▄ [0m         [1;30m▄[0m

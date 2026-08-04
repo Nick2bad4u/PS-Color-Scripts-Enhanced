@@ -1,18 +1,4 @@
-﻿# Converted from: SP-GAS#1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gas-03/raw/SP-GAS%231.ANS
-# Source Revision: archive-sha256:9d16ec2efa84f41f04a3a0885f1a55c15cbeef8d9963890c5d07d45f34a97b3b
-# Source SHA-256: 870e3c5428098345eafe605cc7c622c45656a8017eb13eb0cd38dca05dd3fc1e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SP-GAS#1.ANS by spear (gas); released in gas-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: gas promo
-# SAUCE Author: spear
-# SAUCE Group: gas
-# SAUCE Date: 19960901
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: gas promo by spear | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gas-03-sp-gas-1
 
 Write-Host '
 

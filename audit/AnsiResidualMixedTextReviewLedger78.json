@@ -1,0 +1,462 @@
+{
+  "batch": 78,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch78-farewells-meta-fillers-and-orphaned-remnants",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 1,
+              "end": 14
+            }
+          ],
+          "expectedRawSha256": "245696f026994a2967e4ddf9ef7b5dce14c566fd7448ff3585f2574e8205b715",
+          "expectedRenderedSha256": "ad040f12fe4d98553913a3a80c6118a5aca3315a9fb417a4d92959739264bd23",
+          "row": 3,
+          "sha256": "74be7a0859449e95c0212221355390c45989404b19dd150aaea6e3f1cee035c3"
+        }
+      ],
+      "file": "16c-awe-16-us-ave1.ps1",
+      "rationale": "Complete-composition, neighboring-row, introduction-commit preimage, family, and prior-ledger review proves every selected span is separable audience chatter, a generic metadata or production filler, or an orphaned remnant of previously redacted creator prose. Functional menus and fields, titles, identity, attribution, authored dialogue and narrative, slogans, structural lettering, art-integrated words, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch78-meta-fillers.json",
+        "temp/text-blanking-continuation/batch78-farewells-and-reactions.json",
+        "temp/text-blanking-continuation/batch78-full-context.txt",
+        "temp/text-blanking-continuation/batch78-history-context.txt"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch78-farewells-meta-fillers-and-orphaned-remnants",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 35,
+              "end": 41
+            }
+          ],
+          "expectedRawSha256": "b6acd40ebafebbd7dfac325f1615a415b23dba45da877408134ac8f1d6753895",
+          "expectedRenderedSha256": "62e23726981ecd8fdbbe73a13bfeae08af4258e46d7cf06981911ab11a4b939c",
+          "row": 20,
+          "sha256": "657197c552167481e46bd5e2908ad2f80aad2491257b00742ea5192fa3ba3496"
+        }
+      ],
+      "file": "16c-bj-creep-bj-asc38.ps1",
+      "rationale": "Complete-composition, neighboring-row, introduction-commit preimage, family, and prior-ledger review proves every selected span is separable audience chatter, a generic metadata or production filler, or an orphaned remnant of previously redacted creator prose. Functional menus and fields, titles, identity, attribution, authored dialogue and narrative, slogans, structural lettering, art-integrated words, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch78-meta-fillers.json",
+        "temp/text-blanking-continuation/batch78-farewells-and-reactions.json",
+        "temp/text-blanking-continuation/batch78-full-context.txt",
+        "temp/text-blanking-continuation/batch78-history-context.txt"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch78-farewells-meta-fillers-and-orphaned-remnants",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 1,
+              "end": 35
+            }
+          ],
+          "expectedRawSha256": "d50279e9b01f60280e87ca44f917cb36869602edb46eed346a1f863541bfcc40",
+          "expectedRenderedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "row": 42,
+          "sha256": "2b733870acad546339a221a414a8c811d2a748f49109dc9dd63e2eb2ddb6bb24"
+        }
+      ],
+      "file": "16c-eden1294-bs-eden2-part03.ps1",
+      "rationale": "Complete-composition, neighboring-row, introduction-commit preimage, family, and prior-ledger review proves every selected span is separable audience chatter, a generic metadata or production filler, or an orphaned remnant of previously redacted creator prose. Functional menus and fields, titles, identity, attribution, authored dialogue and narrative, slogans, structural lettering, art-integrated words, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch78-meta-fillers.json",
+        "temp/text-blanking-continuation/batch78-farewells-and-reactions.json",
+        "temp/text-blanking-continuation/batch78-full-context.txt",
+        "temp/text-blanking-continuation/batch78-history-context.txt"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch78-farewells-meta-fillers-and-orphaned-remnants",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 51,
+              "end": 62
+            }
+          ],
+          "expectedRawSha256": "f721bbf5eaf2a99d811b54a7e859e8922d47ad341f1377694e77fc1bd8f085a0",
+          "expectedRenderedSha256": "de2c926ae689ce85a32c6b50eec21d459b23e07ad80ea0a9bdb2b16dd826ad16",
+          "row": 6,
+          "sha256": "90cb50ce6ad51dfc847bf982b47db469ce89b34ecb1c0fbc95dd522711f32eee"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 51,
+              "end": 56
+            }
+          ],
+          "expectedRawSha256": "31f22071aac118cdef776f6965bc63e88e1a6f85601fd192669d772ccfa56c91",
+          "expectedRenderedSha256": "5a23599a56dcf32f1db9afceb21fb140e2e1a37db7ced27da89ec0965f143fe9",
+          "row": 7,
+          "sha256": "6ec709b4194db1087de25d7275164751381cadd5fe0ed3d089715eedc297e70d"
+        }
+      ],
+      "file": "16c-eglo02-sf-tour.ps1",
+      "rationale": "Complete-composition, neighboring-row, introduction-commit preimage, family, and prior-ledger review proves every selected span is separable audience chatter, a generic metadata or production filler, or an orphaned remnant of previously redacted creator prose. Functional menus and fields, titles, identity, attribution, authored dialogue and narrative, slogans, structural lettering, art-integrated words, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch78-meta-fillers.json",
+        "temp/text-blanking-continuation/batch78-farewells-and-reactions.json",
+        "temp/text-blanking-continuation/batch78-full-context.txt",
+        "temp/text-blanking-continuation/batch78-history-context.txt"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch78-farewells-meta-fillers-and-orphaned-remnants",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 57,
+              "end": 69
+            }
+          ],
+          "expectedRawSha256": "12bede8f9b03b290b2b1de98b643a4465beb4c92517989b1aed5e184c6a92f77",
+          "expectedRenderedSha256": "91dcdfdba3de0544432bab55ee606a2c17d8d4973c8a2d79c53497018104caed",
+          "row": 9,
+          "sha256": "2943640bb80cf25b75d443aa173daeee52a6efc8eec2a774dbc1a4a7cb6c71ef"
+        }
+      ],
+      "file": "16c-ice9605a-09-evil.ps1",
+      "rationale": "Complete-composition, neighboring-row, introduction-commit preimage, family, and prior-ledger review proves every selected span is separable audience chatter, a generic metadata or production filler, or an orphaned remnant of previously redacted creator prose. Functional menus and fields, titles, identity, attribution, authored dialogue and narrative, slogans, structural lettering, art-integrated words, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch78-meta-fillers.json",
+        "temp/text-blanking-continuation/batch78-farewells-and-reactions.json",
+        "temp/text-blanking-continuation/batch78-full-context.txt",
+        "temp/text-blanking-continuation/batch78-history-context.txt"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch78-farewells-meta-fillers-and-orphaned-remnants",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 1,
+              "end": 5
+            }
+          ],
+          "expectedRawSha256": "fd2a0cc806253518286dca077d89dbe2726da1117faf8ece653d36f6e0e5a5d7",
+          "expectedRenderedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "row": 28,
+          "sha256": "dc79e902c86bba81edd4e4f01978cfcf29ec7d4c68a907c6ab66fe969f7deec1"
+        }
+      ],
+      "file": "16c-ice9607a-th-rust.ps1",
+      "rationale": "Complete-composition, neighboring-row, introduction-commit preimage, family, and prior-ledger review proves every selected span is separable audience chatter, a generic metadata or production filler, or an orphaned remnant of previously redacted creator prose. Functional menus and fields, titles, identity, attribution, authored dialogue and narrative, slogans, structural lettering, art-integrated words, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch78-meta-fillers.json",
+        "temp/text-blanking-continuation/batch78-farewells-and-reactions.json",
+        "temp/text-blanking-continuation/batch78-full-context.txt",
+        "temp/text-blanking-continuation/batch78-history-context.txt"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch78-farewells-meta-fillers-and-orphaned-remnants",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 69,
+              "end": 77
+            }
+          ],
+          "expectedRawSha256": "cef26dc03516d42a1ae93cae03b73a11b08a6abfa835a52a25e9130c6aa4d2aa",
+          "expectedRenderedSha256": "2a76b7d2cef0caa3d15f51aea4d4aa61b7d84b44b84997da2be79f6c723b3006",
+          "row": 14,
+          "sha256": "f4c407d44cdd23079ccc2d2b478a8caa0afb4dfc44f0ae2d58561730c09c4877"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 69,
+              "end": 77
+            }
+          ],
+          "expectedRawSha256": "a661690cb3a3f12f043e23eb9b8e4f3f2bdca0added58ae3881921cdb5d6227b",
+          "expectedRenderedSha256": "9438db3aded40b52b8174ef695b4c4c4034564d0e7a99490f12bd21a561f2afd",
+          "row": 15,
+          "sha256": "60ef4e13591b4c809b8de3dda932e1397f48c3717f682060a2b1d490a59d19b2"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 72,
+              "end": 73
+            }
+          ],
+          "expectedRawSha256": "ca04f1a6068e7062abfa5fb938d90a74a2d2b279f090b3ae687aec6eb04239b3",
+          "expectedRenderedSha256": "e23d0c8b6a3dc77db88e15b34c3e1a73f508c96f83f8d94ba9451aa5fda13fca",
+          "row": 16,
+          "sha256": "56532eefdaa85e02b5721b8de8d9216d6ab642d124a5e375886d2a0d7e73bacf"
+        }
+      ],
+      "file": "16c-ice9608a-te-rust3.ps1",
+      "rationale": "Complete-composition, neighboring-row, introduction-commit preimage, family, and prior-ledger review proves every selected span is separable audience chatter, a generic metadata or production filler, or an orphaned remnant of previously redacted creator prose. Functional menus and fields, titles, identity, attribution, authored dialogue and narrative, slogans, structural lettering, art-integrated words, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch78-meta-fillers.json",
+        "temp/text-blanking-continuation/batch78-farewells-and-reactions.json",
+        "temp/text-blanking-continuation/batch78-full-context.txt",
+        "temp/text-blanking-continuation/batch78-history-context.txt"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch78-farewells-meta-fillers-and-orphaned-remnants",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 61,
+              "end": 76
+            }
+          ],
+          "expectedRawSha256": "409a9d31102cc9c8d6bed303f3b84f6e64ff5881e7ee6babbf316588bad30084",
+          "expectedRenderedSha256": "fff4263724a4b1ccc9f5fe0d0d004db1001ce7744225ad992d662b715295a4a2",
+          "row": 3,
+          "sha256": "fbed49ad408358a282cfc20adb76be8d864fc25497b66077a77faa63267307fc"
+        }
+      ],
+      "file": "16c-mist0496-fish.ps1",
+      "rationale": "Complete-composition, neighboring-row, introduction-commit preimage, family, and prior-ledger review proves every selected span is separable audience chatter, a generic metadata or production filler, or an orphaned remnant of previously redacted creator prose. Functional menus and fields, titles, identity, attribution, authored dialogue and narrative, slogans, structural lettering, art-integrated words, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch78-meta-fillers.json",
+        "temp/text-blanking-continuation/batch78-farewells-and-reactions.json",
+        "temp/text-blanking-continuation/batch78-full-context.txt",
+        "temp/text-blanking-continuation/batch78-history-context.txt"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch78-farewells-meta-fillers-and-orphaned-remnants",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 66,
+              "end": 78
+            }
+          ],
+          "expectedRawSha256": "5282f97d87a4e2e9827db2ef88d78f3dd6881d02dd929e5c4920364d258f1ff2",
+          "expectedRenderedSha256": "794aba233c0623da4626a0b6891e0b4f97cf8a6c0550f3cc3eb8a40fcce546ea",
+          "row": 19,
+          "sha256": "0afc84917a8c5586e34c6432610b98d352476571d46dff38c137217b8d684bca"
+        }
+      ],
+      "file": "16c-raw01-cx-raw.ps1",
+      "rationale": "Complete-composition, neighboring-row, introduction-commit preimage, family, and prior-ledger review proves every selected span is separable audience chatter, a generic metadata or production filler, or an orphaned remnant of previously redacted creator prose. Functional menus and fields, titles, identity, attribution, authored dialogue and narrative, slogans, structural lettering, art-integrated words, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch78-meta-fillers.json",
+        "temp/text-blanking-continuation/batch78-farewells-and-reactions.json",
+        "temp/text-blanking-continuation/batch78-full-context.txt",
+        "temp/text-blanking-continuation/batch78-history-context.txt"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch78-farewells-meta-fillers-and-orphaned-remnants",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 1,
+              "end": 3
+            }
+          ],
+          "expectedRawSha256": "1d8a31376e07f3865f0334c2162099f2163b74f31905759660f6dcff725f7e0f",
+          "expectedRenderedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "row": 28,
+          "sha256": "27111dbdc33a697f92882ab126f190d417eeafbd6dcd949c80f88be896d60dc8"
+        }
+      ],
+      "file": "16c-tlyx-02-om-deh.ps1",
+      "rationale": "Complete-composition, neighboring-row, introduction-commit preimage, family, and prior-ledger review proves every selected span is separable audience chatter, a generic metadata or production filler, or an orphaned remnant of previously redacted creator prose. Functional menus and fields, titles, identity, attribution, authored dialogue and narrative, slogans, structural lettering, art-integrated words, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch78-meta-fillers.json",
+        "temp/text-blanking-continuation/batch78-farewells-and-reactions.json",
+        "temp/text-blanking-continuation/batch78-full-context.txt",
+        "temp/text-blanking-continuation/batch78-history-context.txt"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch78-farewells-meta-fillers-and-orphaned-remnants",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 1,
+              "end": 6
+            }
+          ],
+          "expectedRawSha256": "369b2097cc386aefdc05bdffbb2db386687478fef8ffb27b453ec0191f51d568",
+          "expectedRenderedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "row": 24,
+          "sha256": "8b1321f0a730abab3f6246f5132fc1d53a30c5bd54f038ea6cbb04e656700939"
+        }
+      ],
+      "file": "16c-twat0898-lgc-twt.ps1",
+      "rationale": "Complete-composition, neighboring-row, introduction-commit preimage, family, and prior-ledger review proves every selected span is separable audience chatter, a generic metadata or production filler, or an orphaned remnant of previously redacted creator prose. Functional menus and fields, titles, identity, attribution, authored dialogue and narrative, slogans, structural lettering, art-integrated words, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch78-meta-fillers.json",
+        "temp/text-blanking-continuation/batch78-farewells-and-reactions.json",
+        "temp/text-blanking-continuation/batch78-full-context.txt",
+        "temp/text-blanking-continuation/batch78-history-context.txt"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch78-farewells-meta-fillers-and-orphaned-remnants",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 1,
+              "end": 7
+            }
+          ],
+          "expectedRawSha256": "16a525ece760fcf06601de3b6ca7fd8ae0536618b29849cb151468f20f97f710",
+          "expectedRenderedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "row": 17,
+          "sha256": "403f86fa5276eb79aac1bbd512ff545016e0af922a3a84d186e4e85c78ab14fd"
+        }
+      ],
+      "file": "16c-twat0898-logic-st.ps1",
+      "rationale": "Complete-composition, neighboring-row, introduction-commit preimage, family, and prior-ledger review proves every selected span is separable audience chatter, a generic metadata or production filler, or an orphaned remnant of previously redacted creator prose. Functional menus and fields, titles, identity, attribution, authored dialogue and narrative, slogans, structural lettering, art-integrated words, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch78-meta-fillers.json",
+        "temp/text-blanking-continuation/batch78-farewells-and-reactions.json",
+        "temp/text-blanking-continuation/batch78-full-context.txt",
+        "temp/text-blanking-continuation/batch78-history-context.txt"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch78-farewells-meta-fillers-and-orphaned-remnants",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 1,
+              "end": 5
+            }
+          ],
+          "expectedRawSha256": "f89303caa24d073c9418822b04bea3b7385ea44df8bdd449c299ee92d70a4295",
+          "expectedRenderedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "row": 13,
+          "sha256": "08d781d3c33682a2987eb509127b98013a942778416f8cebb5e320b438359cb8"
+        }
+      ],
+      "file": "16c-twat0898-logic-tw.ps1",
+      "rationale": "Complete-composition, neighboring-row, introduction-commit preimage, family, and prior-ledger review proves every selected span is separable audience chatter, a generic metadata or production filler, or an orphaned remnant of previously redacted creator prose. Functional menus and fields, titles, identity, attribution, authored dialogue and narrative, slogans, structural lettering, art-integrated words, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch78-meta-fillers.json",
+        "temp/text-blanking-continuation/batch78-farewells-and-reactions.json",
+        "temp/text-blanking-continuation/batch78-full-context.txt",
+        "temp/text-blanking-continuation/batch78-history-context.txt"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch78-farewells-meta-fillers-and-orphaned-remnants",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 21,
+              "end": 36
+            }
+          ],
+          "expectedRawSha256": "b35b48f20b47cc770ddcad68f61a2dd3bd46aebe7d5a422a237b8d80ea8cac4e",
+          "expectedRenderedSha256": "fd304d011c7a115240cac163f749ecfc377e5ca817fd1943f8518a0d69213518",
+          "row": 37,
+          "sha256": "0b53ca802c77aae0b9f24e16131f083477b721edb09ab419c31a9beb7dfd30bc"
+        }
+      ],
+      "file": "16c-used-04-ns-c0000-part04.ps1",
+      "rationale": "Complete-composition, neighboring-row, introduction-commit preimage, family, and prior-ledger review proves every selected span is separable audience chatter, a generic metadata or production filler, or an orphaned remnant of previously redacted creator prose. Functional menus and fields, titles, identity, attribution, authored dialogue and narrative, slogans, structural lettering, art-integrated words, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch78-meta-fillers.json",
+        "temp/text-blanking-continuation/batch78-farewells-and-reactions.json",
+        "temp/text-blanking-continuation/batch78-full-context.txt",
+        "temp/text-blanking-continuation/batch78-history-context.txt"
+      ]
+    }
+  ],
+  "normalization": "SHA-256 of UTF-8 visible terminal-cell rows after ANSI-control removal and outer-whitespace trimming. Every accepted row pins exact raw projected and rendered hashes plus one-based inclusive blank-column ranges.",
+  "pendingInputs": [],
+  "policy": "Fail-closed review of informal meta-filler, farewell, affirmation, hesitation, return, dismissal, and outcome-reaction cues in every static color-script payload. Accept only exact separable audience chatter, generic production or metadata filler, and historically proven orphaned remnants; retain functional interfaces, titles, identity, attribution, authored dialogue or narrative, slogans, structural text, art-integrated words, and ambiguity.",
+  "priorRedactionExtensions": [
+    "16c-awe-16-us-ave1.ps1:3",
+    "16c-bj-creep-bj-asc38.ps1:20",
+    "16c-eden1294-bs-eden2-part03.ps1:42",
+    "16c-eglo02-sf-tour.ps1:6",
+    "16c-eglo02-sf-tour.ps1:7",
+    "16c-ice9607a-th-rust.ps1:28",
+    "16c-mist0496-fish.ps1:3",
+    "16c-raw01-cx-raw.ps1:19",
+    "16c-tlyx-02-om-deh.ps1:28",
+    "16c-twat0898-lgc-twt.ps1:24",
+    "16c-twat0898-logic-st.ps1:17",
+    "16c-twat0898-logic-tw.ps1:13",
+    "16c-used-04-ns-c0000-part04.ps1:37"
+  ],
+  "priorRetentionSupersessions": [],
+  "reviewedAt": "2026-08-02",
+  "schemaVersion": 1,
+  "status": "ready",
+  "summary": {
+    "acceptedDetectorCues": 14,
+    "blankColumnRows": 17,
+    "candidateFiles": 14,
+    "candidateGroups": 14,
+    "categoryRows": {
+      "batch78-farewells-meta-fillers-and-orphaned-remnants": 17
+    },
+    "changedCells": 161,
+    "detectorAcceptedRows": 14,
+    "detectorFiles": 38,
+    "detectorRows": 41,
+    "evidenceRows": 17,
+    "familyExtensions": 3,
+    "parseFailures": 21,
+    "retainedDetectorRows": 27,
+    "staticFiles": 24801
+  }
+}

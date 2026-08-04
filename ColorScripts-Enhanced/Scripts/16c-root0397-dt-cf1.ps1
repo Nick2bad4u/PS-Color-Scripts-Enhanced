@@ -1,15 +1,4 @@
-﻿# Converted from: DT-CF1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0397/raw/DT-CF1.ANS
-# Source Revision: archive-sha256:147f0608c1bd711b116f3ad049b80e805dfbb40e7d23ffce5f4580a5a57bae0f
-# Source SHA-256: 7e7a3555dfb3d0c92779e31facd23030e422ae53cf92dba8ab19c5b919163eb9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-CF1.ANS by Defiant (root0397); released in root0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Chronic Farts
-# SAUCE Author: Defiant
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Chronic Farts by Defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0397-dt-cf1
 
 Write-Host '
 [1;30m▀ ▄▄▄▄▄█[0;1;30;47m▓[0m [31m░░▄█[0;1;31;41m░[0;31m██▀▀ ▄▐▌[0;33m░ [0;31m▌ [0;1;33;43m▓[0;33m▀░[0;31m▄ [0;33m▀  ▀[0;1;33m▀[0;1;33;43m▀[0;1;33;40m▌[0;33m▐[0;1;33m▄█[0;1;33;43m▓[0;33m▐[0;1;33;43m▀▓[0;1;33;40m▄▄▄[0;1;33;43m▀[0m [33m▀   ▀[0;1;33;43m▓[0m [31m▄ [0;33m▀[0;1;33;43m▀▓[0;1;33;40m░ [0;1;30;40m░  [0;1;30;44m  [0;1;34;44mlogon  [0m [1;30;40m░[0m

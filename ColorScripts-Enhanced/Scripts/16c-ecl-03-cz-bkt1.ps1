@@ -1,18 +1,4 @@
-﻿# Converted from: CZ-BKT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-03/raw/CZ-BKT1.ANS
-# Source Revision: archive-sha256:8478e7ed47e52d1e07bf55e17a5f105ced4b468c6f56a8b59fd6b8ef8dada5ca
-# Source SHA-256: 250cd38c0dfe85f7c24c5e44352accc5994b6479bbd011219a4d9afb18af38d9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CZ-BKT1.ANS by mozzerella (eclipse); released in ecl-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: buckets 'O' fun
-# SAUCE Author: mozzerella
-# SAUCE Group: eclipse
-# SAUCE Date: 19960708
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: buckets 'O' fun by mozzerella | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-03-cz-bkt1
 
 Write-Host '
 

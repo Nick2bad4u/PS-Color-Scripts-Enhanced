@@ -1,18 +1,4 @@
-﻿# Converted from: RG-THOM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ra-pack1/raw/RG-THOM1.ANS
-# Source Revision: archive-sha256:6ba30463e4c2bcfc6c9f45f98abfa7c41360bc9b3e9f223cc357dc6e3c5ff4fc
-# Source SHA-256: 1f1f6e7f2a9d5d729dcaa043a4d789e25ad11d27dd7f5731b3cecf3ddb3884ad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RG-THOM1.ANS by Rage (Rebel Art); released in ra-pack1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The House of Madness #1
-# SAUCE Author: Rage
-# SAUCE Group: Rebel Art
-# SAUCE Date: 19970719
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: The House of Madness #1 by Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ra-pack1-rg-thom1
 
 Write-Host '
 [1;30m                                                                                [0m

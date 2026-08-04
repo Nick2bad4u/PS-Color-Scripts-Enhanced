@@ -1,13 +1,4 @@
-﻿# Converted from: bw_time_to_evoke.ans.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_wtf4/raw/bw_time_to_evoke.ans.ans
-# Source Revision: archive-sha256:250b5eed057a6c043b178a52a71a9f6b183e2a63591879f24e3c64051465130b
-# Source SHA-256: c572a7b2acfff0e7c6e93119fb511b89938290a9c16f2c18ac52b068538dac57
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bw_time_to_evoke.ans.ans by Binary Walker (blocktronics_wtf4); released in blocktronics_wtf4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 272-315
-# Columns: 1-80
+﻿# Artwork: bw_time_to_evoke.ans.ans by Binary Walker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-wtf4-bw-time-to-evoke-ans-part07
 
 Write-Host '
 [1;31;40m███████████▓▓[0m    [35m   █[0;1;35;45m░▒[0;35m███████████[0m                [1;31m██[0;1;31;47m▓▓▓[0;1;31;40m█████████████████████████[0m

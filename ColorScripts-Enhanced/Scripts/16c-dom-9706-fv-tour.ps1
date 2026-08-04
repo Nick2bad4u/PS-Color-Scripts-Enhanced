@@ -1,18 +1,4 @@
-﻿# Converted from: FV-TOUR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dom-9706/raw/FV-TOUR.ANS
-# Source Revision: archive-sha256:a16d91b4075cff760b5038e2a8f1aab02d1965c9e4bbc85ed187b0405326b9b6
-# Source SHA-256: 98ac9640f13e2875bbd9c84b02ae65bc1f4ef340edec469d9694051c5b1a2fbc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-TOUR.ANS by Fever (Domino); released in dom-9706 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Tourettes
-# SAUCE Author: Fever
-# SAUCE Group: Domino
-# SAUCE Date: 19970616
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Tourettes by Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dom-9706-fv-tour
 
 Write-Host '
 [1;30m▓▀[0m [1;30m▀[0m           [30;41m████[0m                                                         [1;30;40m▀[0m [1;30m▀▓[0m

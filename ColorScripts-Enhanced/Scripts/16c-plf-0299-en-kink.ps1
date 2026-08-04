@@ -1,18 +1,4 @@
-﻿# Converted from: EN-KINK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0299/raw/EN-KINK.ANS
-# Source Revision: archive-sha256:57e7c91b1786691e95d6debf77d3c8e4fd7e77416307edfb34a7cd247bdbf1c2
-# Source SHA-256: 1d73c66c357920a9e724ca40a26044d38e9802e3493a88a8ac31d9b08ad80a24
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EN-KINK.ANS by el nino (plf); released in plf-0299 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: trivialized life
-# SAUCE Author: el nino
-# SAUCE Group: plf
-# SAUCE Date: 19990227
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: trivialized life by el nino | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0299-en-kink
 
 Write-Host '
 ▓▓▓[32m [0;1;34m▓▓▓▓▓▓▓███▒▒▒▒▒▒▒█████████████████████████[0;1;34;47m▓▓[0;1;34;40m█████████[0;1;34;46m▀▀    [0;1;34;40m███████████▓▄▄[0;35m▄[0m

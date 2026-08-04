@@ -1,19 +1,4 @@
-﻿# Converted from: MM-MUSIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0823/raw/MM-MUSIC.ANS
-# Source Revision: archive-sha256:62e93186540813ec7aaaeb24433016d426de59526762a0e3f8dda1eb133ed05c
-# Source SHA-256: 11cdada1717d949b7b7d61714dfef9b5faf606972f99750bd43401f44d74aef3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-MUSIC.ANS by Mavenmob (Mistigris); released in mist0823 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Music Is Being Played
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20230824
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: The Music Is Being Played by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0823-mm-music
 
 Write-Host '
 [35m███[0;1;31m████████[0;35m████[0;1;34;45m░░░░░░[0;35m██████[0;1;30;45m░░░░░░░░░░░[0;35m█[0;1;34;45m░░░░░░[0;35m████████[0;1;31m███[0;1;33m█[0;1;31m████████[0;1;31;45m░░░░░░[0;1;31;40m█[0;35m████████[0m

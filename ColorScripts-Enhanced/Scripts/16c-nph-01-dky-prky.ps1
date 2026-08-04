@@ -1,18 +1,4 @@
-﻿# Converted from: DKY-PRKY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-01/raw/DKY-PRKY.ANS
-# Source Revision: archive-sha256:599cc5d270a4d0147da5f37eff9386c7f67f74a074eb88659d141b05218146e0
-# Source SHA-256: 2e90db75f76e8b14a7dd9ab2a3072da9931e3085ee6ab8bda38f6011d0872441
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DKY-PRKY.ANS by .:[dARKY']:. (.:[nITROPHUSION]:.); released in nph-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: .:[pORKY'S^lAND^lOGON]:.
-# SAUCE Author: .:[dARKY']:.
-# SAUCE Group: .:[nITROPHUSION]:.
-# SAUCE Date: 19961229
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: .:[pORKY'S^lAND^lOGON]:. by .:[dARKY']:. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-01-dky-prky
 
 Write-Host '
 [1;30m ──          ─   ─                                               ─── ─    ──    [0m

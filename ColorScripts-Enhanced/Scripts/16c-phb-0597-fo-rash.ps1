@@ -1,18 +1,4 @@
-﻿# Converted from: FO-RASH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phb-0597/raw/FO-RASH.ANS
-# Source Revision: archive-sha256:5e2897b5aabe339c16f5d2024824fa427f86134be322d4a86a5d7157032f23f1
-# Source SHA-256: daa7c8dce78ce1acbe5c40d28c0a62cd3dbd0ef6ea263144827396ea22ff1cbd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FO-RASH.ANS by flexor (pHOBIA@!); released in phb-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: roadrash
-# SAUCE Author: flexor
-# SAUCE Group: pHOBIA@!
-# SAUCE Date: 19970504
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: roadrash by flexor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phb-0597-fo-rash
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: CPH-RIBV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-010/raw/CPH-RIBV.ANS
-# Source Revision: archive-sha256:f0e8a1202a9ab4518ddf30655a3e3a838d00336d432c41d2fb4ced8564853688
-# Source SHA-256: fb88490b806c4b23b7a4e3686d47b84fd2e3e4a1137ff81492574ac7da199d52
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-RIBV.ANS by {YBERPUNCh (rib); released in rib-010 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: rib
-# SAUCE Author: {YBERPUNCh
-# SAUCE Group: rib
-# SAUCE Date: 19980703
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: rib by {YBERPUNCh | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-010-cph-ribv
 
 Write-Host '
                                     [34m          [0m

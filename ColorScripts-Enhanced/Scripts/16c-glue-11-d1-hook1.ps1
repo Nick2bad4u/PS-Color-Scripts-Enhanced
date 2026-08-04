@@ -1,18 +1,4 @@
-﻿# Converted from: D1_HOOK1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-11/raw/D1_HOOK1.ANS
-# Source Revision: archive-sha256:72e53ef6085b74f7ad1018be1993344eb17bea15f35525a0857b61ca5067bc5a
-# Source SHA-256: 3c0e3004a2ffadd8fc4b7b2510c8d50bfb7bec8405d4624b2f08107d95b34bf7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D1_HOOK1.ANS by Dissonance (Glue); released in glue-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Hook Ups
-# SAUCE Author: Dissonance
-# SAUCE Group: Glue
-# SAUCE Date: 19980630
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Hook Ups by Dissonance | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-11-d1-hook1
 
 Write-Host '
                                    [33m■[0;37m  [0m

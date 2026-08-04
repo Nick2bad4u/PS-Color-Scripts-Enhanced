@@ -1,18 +1,4 @@
-﻿# Converted from: cn!mackie.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cn202101/raw/cn!mackie.ans
-# Source Revision: raw-sha256:484e64d00e629410e39723229ca0c3cba4cd4e6a9c08db3b2a908bb8cb16fd33
-# Source SHA-256: 484e64d00e629410e39723229ca0c3cba4cd4e6a9c08db3b2a908bb8cb16fd33
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cn!mackie.ans by cooN (cn202101); released in cn202101 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: mackie
-# SAUCE Author: cooN
-# SAUCE Date: 20210913
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: mackie by cooN | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cn202101-cn-mackie
 
 Write-Host '
         ▄▄[1;47m▄ [0m▄      [1;30m░[0;1;34m░░[0m

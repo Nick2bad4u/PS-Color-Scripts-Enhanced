@@ -1,18 +1,4 @@
-﻿# Converted from: MR-AVE01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-20/raw/MR-AVE01.ANS
-# Source Revision: archive-sha256:23bbf66596e3e4f3c4b9e335dc62ccc331634eba04c3d179b73e396fa3971807
-# Source SHA-256: 188e9fac82eb9866d2bddd626a5e6dbd0545c0fdca945ed8b772b939ce284531
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-AVE01.ANS by Mr. Wrong (AWE Lettering); released in awe-20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Avenge Promotional
-# SAUCE Author: Mr. Wrong
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981220
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Avenge Promotional by Mr. Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-20-mr-ave01
 
 Write-Host '
                       [35m▀ ▄      [0m               [35m▀ ▄        [0m

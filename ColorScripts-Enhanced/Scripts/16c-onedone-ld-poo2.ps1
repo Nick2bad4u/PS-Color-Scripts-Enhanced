@@ -1,13 +1,4 @@
-﻿# Converted from: LD-POO2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/onedone/raw/LD-POO2.ANS
-# Source Revision: archive-sha256:1beb9bf34864e4d3dff6d9e9ef1552871b8f5ad51d67da6ed978ae29e8e44526
-# Source SHA-256: 9999be540206a88a92ebede1bd5a5b5daac147a410dcd62b1ba265807a191e0d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-POO2.ANS by Lord Jazz (onedone); released in onedone and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: LD-POO2.ANS by Lord Jazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-onedone-ld-poo2
 
 Write-Host '
  [33m▄▐█▄▀██[0;1;37;43m░[0;33m▌░  [0;37m█[0;1;37m▐[0;1;37;47m▓▒░[0m▀▄▄███▄ [1m▀[0;1;47m▓▒░ [0m [1;40m▐[0;1;47m▓▒[0;1;40m▐██[0;1;47m▓▓▒░░ [0m▌ ▄[1;47m▒░ [0m▀▀ ▄▄▄▀▓▓[47m  [0;1;47m░░▒[0m█  ▌[33m▐[0;1;37;43m░[0;33m██▀▄█████▀[0m

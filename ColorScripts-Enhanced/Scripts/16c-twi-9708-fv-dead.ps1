@@ -1,18 +1,4 @@
-﻿# Converted from: FV-DEAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twi-9708/raw/FV-DEAD.ANS
-# Source Revision: archive-sha256:938b6bdc521ddcf0402d26161fce3427d94af463496779b296996fe588952a5f
-# Source SHA-256: 87160710d3c49896a7a0f7f678411215eadb6dcdc6af2982427add692f7f0ef3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-DEAD.ANS by Fever (Twilight); released in twi-9708 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: deademesne
-# SAUCE Author: Fever
-# SAUCE Group: Twilight
-# SAUCE Date: 19970815
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: deademesne by Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twi-9708-fv-dead
 
 Write-Host '
 [33m▓▓▀▀▀█▄▄[0;1;33;43m [0;33m▀▀ ▄ [0;30;43m▄[0;33;40m [0;30;43m▀▀[0;33;40m▓▀▀ ▄▄[0;1;31;43m▄█[0;1;31;41m▓[0;1;31;43m███▀[0;30;43m▄[0;37;40m  [0;30;43m▀▀[0;1;31;43m░░[0;30;43m▀▌[0;1;31;43m░[0;30;43m░[0;37;40m [0;30;47m███[0;30;46m▀▀     ▄▄▄▄[0;37;40m [0;30;46m▄▄[0;37;40m [0;30;46m▄[0;37;40m [0;1;30;40mdemesne[0m [30;46m▄[0;37;40m [0;30;46m▄▄[0;37;40m [0;30;46m▄▄▄ [0m

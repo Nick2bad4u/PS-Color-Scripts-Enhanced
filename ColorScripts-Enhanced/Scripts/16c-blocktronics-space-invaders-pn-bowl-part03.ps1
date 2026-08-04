@@ -1,13 +1,4 @@
-﻿# Converted from: pn-bowl.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_space_invaders/raw/pn-bowl.ans
-# Source Revision: archive-sha256:c8f02d48521b213dd146adf31869fd604c2af314eab4dd9a1f4528b39146b7a9
-# Source SHA-256: 61778700ff3c56b100461efa4e39bc6e2f662c001bb8bd97ab675146de0e0f8d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: pn-bowl.ans by Pandur (blocktronics_space_invaders); released in blocktronics_space_invaders and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 94-137
-# Columns: 1-80
+﻿# Artwork: pn-bowl.ans by Pandur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-space-invaders-pn-bowl-part03
 
 Write-Host '
 [33m█████  [0;35m▀[0;1;35m██[0;1;35;43m▒▒[0;35m▄[0m        [37m▓▓ [0;1;31m▄█[0;1;37m████[0;1;33m██▄   [0;32m░░[0;1;32m██ [0;32m██ [0;1;31m▄█[0;1;37m████[0;1;33m██▄[0m     [1;34m▀[0m         [1;30m▄▄▄[0;35m▄▄▄[0;1;35m▄▄▄[0;1;31m██[0;1;31;45m▓[0m

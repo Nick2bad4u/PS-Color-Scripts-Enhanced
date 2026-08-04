@@ -1,13 +1,4 @@
-﻿# Converted from: ROY-LOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac1297b/raw/ROY-LOD.ANS
-# Source Revision: archive-sha256:e4c35a24ffc69bcc579de5fc26d58b207367560ff74b93ff41cdf43e1a9c1c22
-# Source SHA-256: 5838f0a36cd08ee92ff5b1ddac3db86aa1a5b81e22f7cb857ae33166d1b03331
-# Source License: FAL-1.3
-# Source Attribution: ROY-LOD.ANS by Roy/SAC aka Carsten Cumbrowski; released in sac1297b and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ROY-LOD.ANS by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-lod
 
 Write-Host '
       [1;30m▄[0;1m▄[0;1;30m▄[0m

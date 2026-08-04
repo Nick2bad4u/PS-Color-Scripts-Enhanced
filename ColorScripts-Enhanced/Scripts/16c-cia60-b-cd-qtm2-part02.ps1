@@ -1,17 +1,4 @@
-﻿# Converted from: CD!QTM2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cia60-b/raw/CD!QTM2.ANS
-# Source Revision: archive-sha256:1e922c365da9a13dc324a4296007152c187ef45a964d45168ebe8f2b396ac324
-# Source SHA-256: a7fb32fe8b22429c39656cffa072de536beb943f19c4cb94d9128062ad99b747
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CD!QTM2.ANS by cat-dog (hazmat!a); released in cia60-b and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: quantum #2
-# SAUCE Author: cat-dog
-# SAUCE Group: hazmat!a
-# SAUCE Date: 19990120
-# Lines: 43-86
-# Columns: 1-80
+﻿# Artwork: quantum #2 by cat-dog | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cia60-b-cd-qtm2-part02
 
 Write-Host '
 $$$$$$$$$$$$$$$┘`\┘`                                   `└$$`┘$$$$$$$$$$$$$$$$$$$

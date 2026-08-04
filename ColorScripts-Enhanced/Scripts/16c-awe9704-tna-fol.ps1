@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-FOL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9704/raw/TNA-FOL.ANS
-# Source Revision: archive-sha256:da151757a637299fc8da8cc755ae75b6a0e1a281dd915d29497f1d00d429e5c1
-# Source SHA-256: 43d5d269c8ede2f1b36c321e50e90f7569e709fb42ea96e933f7ddd8bb620cee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-FOL.ANS by The Night Angel (AWE Lettering); released in awe9704 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Oneliners [Fluph]
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970314
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Oneliners [Fluph] by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9704-tna-fol
 
 Write-Host '
 [1;47m▀[0m▀ [33m▄[0;1;33m▄[0;1;33;43m▄█████[0;1;33;40m▄▄ [0m░▒▓▓██[1;30;47m▀[0m▄[1;30m▄ [0m▄ [33m▄[0;33;43m [0;33;40m▀▀▀[0;33;47m██[0;33;40m▀ ▄ ░ [0;1;37;47m▄[0m▄[1;30;47m▀[0m████[1;47m▀[0m▀ ▄▄█  [33m▄[0;1;33m▄ [0m░ [1;30m───────────────────-─[0m

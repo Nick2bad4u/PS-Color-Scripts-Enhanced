@@ -1,13 +1,4 @@
-﻿# Converted from: SW-HALLU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dfc0796/raw/SW-HALLU.ANS
-# Source Revision: archive-sha256:b24ff078a4055b8c086b9c78728330686d95cb2dd65a4593834e1e9fdf8a0174
-# Source SHA-256: bb95c272bfb3e2dca83a70904f364778f4931d15e6da4a5dc287803e987240a5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SW-HALLU.ANS by Sandworm (dfc0796); released in dfc0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-9
-# Columns: 1-80
+﻿# Artwork: SW-HALLU.ANS by Sandworm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dfc0796-sw-hallu
 
 Write-Host '
  [1;36m [0m [1;36m [0m░    ░     ░        ░              ░               ░           ░       ░

@@ -1,18 +1,4 @@
-﻿# Converted from: ZYAL8ER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shade5/raw/ZYAL8ER.ANS
-# Source Revision: archive-sha256:9eb97f9412f63f0ce4837a80894f87a3aed455c1487394481c6e40b531c2203d
-# Source SHA-256: 8a519e5efc9c37a753fb63884ef38dd92321c8821333fa3183b4333e3993d103
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZYAL8ER.ANS by Raider + Phlare (shade); released in shade5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: star?!@.. umpf.. something nice :)
-# SAUCE Author: raider & phlare
-# SAUCE Group: shade
-# SAUCE Date: 19970226
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: star?!@.. umpf.. something nice :) by Raider + Phlare | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shade5-zyal8er
 
 Write-Host '
                                         [35m░[0m

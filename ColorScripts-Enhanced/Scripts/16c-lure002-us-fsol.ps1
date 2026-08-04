@@ -1,18 +1,4 @@
-﻿# Converted from: US-FSOL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lure002/raw/US-FSOL.ANS
-# Source Revision: archive-sha256:f1a17285c6f66215a41b3537354833c5fccbb84d30b92c78e4ea0603dc7f8cf1
-# Source SHA-256: 24277bdaf5fffb408f7ca59a68f9bc76b2be011412305f02195a7df06d87c0b6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FSOL.ANS by Avenging Angel + Ansichrist (lure); released in lure002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fsol
-# SAUCE Author: ansichrist / avg
-# SAUCE Group: lure
-# SAUCE Date: 20020307
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: fsol by Avenging Angel + Ansichrist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lure002-us-fsol
 
 Write-Host '
 

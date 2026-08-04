@@ -1,13 +1,4 @@
-﻿# Converted from: NV-UNBRD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fi-1194/raw/NV-UNBRD.ANS
-# Source Revision: archive-sha256:c5c78143754003a29c9176acbc9c5704b0def0a026c0746890b16cf468794665
-# Source SHA-256: 9eb72f6f3b7f40678ea67d606a937852a7da573004caad9f37fbacc7bd757acb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NV-UNBRD.ANS by Nevermind (fi-1194); released in fi-1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 93-124
-# Columns: 1-80
+﻿# Artwork: NV-UNBRD.ANS by Nevermind | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fi-1194-nv-unbrd-part03
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: CAV-DPMX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel12/raw/CAV-DPMX.ANS
-# Source Revision: archive-sha256:ebe2e7b01f31e0e82aa2702a876007d4ec2dd824b98bdf40e4d59e2b113da7e4
-# Source SHA-256: 02e0210a4414dbf8289004a13e9532d2ab8571c35ad347dccf3eed325a41d480
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CAV-DPMX.ANS by Caviar (Fuel Productions); released in fuel12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Diesel Power Matrix
-# SAUCE Author: Caviar
-# SAUCE Group: Fuel Productions
-# SAUCE Date: 19970401
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Diesel Power Matrix by Caviar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel12-cav-dpmx
 
 Write-Host '
 [32m [0;37m  [0;1;37m▐[0;32m   ▐▌ ▐▌[0m        [35m▄[0;1;35m▄ [0;35m▌ ▄[0;37m▄[0;35m▄[0m     [1;32m▐▌[0m [32m▐[0;1;32;42m▐[0;1;32;40m▌[0m

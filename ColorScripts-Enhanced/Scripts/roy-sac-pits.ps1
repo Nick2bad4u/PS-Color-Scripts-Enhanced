@@ -1,13 +1,4 @@
-﻿# Converted from: PITS.ANS
-# Source encoding: CP437
-# Source URL: https://www.roysac.com/images/galleries/ZIP/Roy_EarlyANSI.ZIP
-# Source Revision: archive-sha256:cad71f6167590b04f85d75a819d6aded9a2f6729c741e43ea1101a43159886c1
-# Source SHA-256: 2b350eef769168af7bfee5bb35383275b652bfccc437b79fa7773d0e28325315
-# Source License: FAL-1.3
-# Source Attribution: PITS.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_EarlyANSI.ZIP archive.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: PITS.ANS by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-pits
 
 Write-Host '
                   ▄[1m▄▄▄▄▄▄▄▄▄▄▄▄[0m▄ ▄[1m▄▄▄▄[0m▄ ▄[1m▄▄▄▄[0m▄ ▄[1m▄▄▄▄▄▄▄▄▄[0m▄

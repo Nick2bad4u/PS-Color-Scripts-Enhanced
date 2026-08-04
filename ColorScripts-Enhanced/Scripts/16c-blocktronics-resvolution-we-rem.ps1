@@ -1,13 +1,4 @@
-﻿# Converted from: we-rem.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_resvolution/raw/we-rem.ans
-# Source Revision: archive-sha256:d0690af9ec91bf96f335196e9f9ddfb5d7ea02d97d300b53301bebaf58d83c35
-# Source SHA-256: 118854d56a709707778b4d77e68452e47b11f0ecddeabded46f722678cfbaae1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-rem.ans by Avenging Angel + Grindstoned (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: we-rem.ans by Avenging Angel + Grindstoned | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-resvolution-we-rem
 
 Write-Host '
 [36m [0m                                  [1;34;44m [0;34m▀▄[0m

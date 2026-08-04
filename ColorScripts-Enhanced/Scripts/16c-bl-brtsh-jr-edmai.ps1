@@ -1,18 +1,4 @@
-﻿# Converted from: JR_EDMAI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl-brtsh/raw/JR_EDMAI.ANS
-# Source Revision: archive-sha256:d4d2c2945597259d409a8a2043adb463621296e39a0812b6c732bad34754acd9
-# Source SHA-256: 86492c79254dee9e3a80260545546a66d313dd61bad24c110bdcbc2c1fea3fb0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_EDMAI.ANS by jerusalem (boil); released in bl-brtsh and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ED:: sp?lmashine now!
-# SAUCE Author: jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19970522
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: ED:: sp?lmashine now! by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-brtsh-jr-edmai
 
 Write-Host '
 [31;44m▓[0;1;31;41m▄▄▄░░▄▄▄░░[0;31m▀▀▀[0;37m [0;1;30m▄▄[0;1;30;47m▀▀▀[0;1;30;40m▄[0m                 [31m▀[0;1;31;41m▐[0;31;44m▓[0;37;40m ░░▄[0;1;37;47m▄████░░░[0;1;33;47m░░[0;41m▓[0;1;30;47m░░[0;1;37;47m░█▀▀[0m▀▀▀[1;30m▄▄▄▄▄[0m▀▀▀[1;47m▀░[0m▓[1;30;47m▓[0;1;30;40m▓░[0m

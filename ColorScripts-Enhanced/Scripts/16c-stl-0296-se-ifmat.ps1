@@ -1,18 +1,4 @@
-﻿# Converted from: SE-IFMAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stl-0296/raw/SE-IFMAT.ANS
-# Source Revision: archive-sha256:2a7c2972214cdcf66c05bb3cc15c513aafb38f4486172bc95b40d735e509a060
-# Source SHA-256: 5e7149d542024e3a819fd7564cc52fb76f2066acd093b7070f0bc1ffad04bc96
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SE-IFMAT.ANS by sensei (stile productions); released in stl-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: infusion matrix
-# SAUCE Author: sensei
-# SAUCE Group: stile productions
-# SAUCE Date: 19960218
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: infusion matrix by sensei | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stl-0296-se-ifmat
 
 Write-Host '
 [1;30;47msensei░▒▓[0;1;30;40m▌[0;1;30;47m▓[0;1;30;40m▓██▌▒▓█ ▓▓█[0;1;30;43m█[0;33m██[0;1;30;43m░[0;33m█[0;31m ▄▀▀▀▀[0;1;31;41m░[0;31m▄▀█[0;1;31;41m░[0;31m▀▀▄▀█▀▀▀▄▄▓▓█▀█▀▓▀▄█▓▄▀░█ ▀▀ ▄▄ █[0;1;31;41m░[0;31m▄▄▀[0;1;31;41m░[0;31m██▄ [0m

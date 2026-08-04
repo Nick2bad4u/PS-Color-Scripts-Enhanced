@@ -1,13 +1,4 @@
-﻿# Converted from: US-SENSE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch01/raw/US-SENSE.ANS
-# Source Revision: archive-sha256:bcdfc9b2605e2362d13ac77fb62c5078fc12465fcf977c00e2a69fa522191716
-# Source SHA-256: cc2c1ca584d1fbfb87ab071095510dcf7f78e97f06eeb364a82199d276decb38
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SENSE.ANS by Enzo + Spear (27inch01); released in 27inch01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: US-SENSE.ANS by Enzo + Spear | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch01-us-sense
 
 Write-Host '
 

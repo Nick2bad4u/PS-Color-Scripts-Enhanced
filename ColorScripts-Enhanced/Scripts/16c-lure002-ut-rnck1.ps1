@@ -1,18 +1,4 @@
-﻿# Converted from: UT-RNCK1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lure002/raw/UT-RNCK1.ANS
-# Source Revision: archive-sha256:f1a17285c6f66215a41b3537354833c5fccbb84d30b92c78e4ea0603dc7f8cf1
-# Source SHA-256: c3ec901038e6f91008adae66c0a33ec2deff6c9ccbf797a631e41c9984bbbe86
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UT-RNCK1.ANS by untamed (jasper); released in lure002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: rough neck matrix
-# SAUCE Author: untamed
-# SAUCE Group: jasper
-# SAUCE Date: 20020324
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: rough neck matrix by untamed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lure002-ut-rnck1
 
 Write-Host '
                    [1;30m▀▀[0m [1;30m▀█[0;1;30;45m▓░[0;35m▀[0;37m [0;35m▄[0;1;30;45m░[0;1;35;45m░▒[0;1;35;40m▀[0m  [1;35m▄▄ ut[0m [35m░▓██████[0;1;35;45m░▒▓[0;1;35;40m█▄[0m  ▀▀▀█[1;47m   ░░▒▓[0;1;40m████████████[0;1;30;40m [0m

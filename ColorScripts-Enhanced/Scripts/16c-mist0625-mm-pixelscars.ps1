@@ -1,19 +1,4 @@
-﻿# Converted from: MM-PIXELSCARS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0625/raw/MM-PIXELSCARS.ANS
-# Source Revision: archive-sha256:6ee9af28fa25e25a7c8d524c0b340107e083c251e59a271e20836a9f47bec3b2
-# Source SHA-256: 645fb94d1b420095fc9cd48fd54f8303994995ee1b146569b45cbf0058907cfa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-PIXELSCARS.ANS by Mavenmob (Mistigris); released in mist0625 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Beautiful Pixel Scars
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20250627
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Beautiful Pixel Scars by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0625-mm-pixelscars
 
 Write-Host '
 

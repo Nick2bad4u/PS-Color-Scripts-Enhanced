@@ -1,18 +1,4 @@
-﻿# Converted from: AOH-ONIX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel11/raw/AOH-ONIX.ANS
-# Source Revision: archive-sha256:bc01376bbeb692c1fce16796b92a6fd889f89dbf4c55eb291719d5ea3fd5846c
-# Source SHA-256: 3c9bde21180d5da6050591a6c5207a7ca886b92e6a180faba35024294ccc39b7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AOH-ONIX.ANS by Angel of Hell (Fuel); released in fuel11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Onix
-# SAUCE Author: Angel of Hell
-# SAUCE Group: Fuel
-# SAUCE Date: 19970218
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Onix by Angel of Hell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel11-aoh-onix
 
 Write-Host '
 

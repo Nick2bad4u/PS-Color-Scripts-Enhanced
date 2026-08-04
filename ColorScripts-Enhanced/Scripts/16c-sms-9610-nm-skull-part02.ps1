@@ -1,17 +1,4 @@
-﻿# Converted from: NM-SKULL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9610/raw/NM-SKULL.ANS
-# Source Revision: archive-sha256:5789c5cb1a5ac21acfd3fa7dc4a5a88db3f4a5b9545409ca8ca34a86bd816077
-# Source SHA-256: 3c9f3a5a4d2a738eae67df59554b667b1c636641d0aecf2613fb6e99ff86b03b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NM-SKULL.ANS by Numb (Samsara); released in sms-9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Skullfish
-# SAUCE Author: Numb
-# SAUCE Group: Samsara
-# SAUCE Dimensions: 80x25
-# Lines: 36-67
-# Columns: 1-80
+﻿# Artwork: Skullfish by Numb | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9610-nm-skull-part02
 
 Write-Host '
 [1;30m▀[0m         [1;30m░[0m░[1;47m▒▓[0;1;40m█████████[0;1;47m▓▒░[0;1;30;47m▓[0;1;30;40m▓[0m        [1;37;40m▄ [0;1;37;47m▄[0;1;37;40m▄[0m░░   [1;30m▄▄  ░[0m▀█▀  [1;47m▓[0;1;40m██[0;1;47m▓[0m█  ▓█[1;47m░░[0m▒ [1;30m░▄[0m

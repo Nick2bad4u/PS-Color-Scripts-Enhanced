@@ -1,13 +1,4 @@
-﻿# Converted from: DTU-PUBE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cnc-0494/raw/DTU-PUBE.ANS
-# Source Revision: archive-sha256:a2860c6058bc20deb4b9fe584adc3143209a13f75027fe0542d8e0a5a0f55c58
-# Source SHA-256: ddbc2a66c07b3726aa41aafcc9496e9a4418f392510291d851f8add8adb5e299
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DTU-PUBE.ANS by Deathlok The Ugly (cnc-0494); released in cnc-0494 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 149-196
-# Columns: 1-80
+﻿# Artwork: DTU-PUBE.ANS by Deathlok The Ugly | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cnc-0494-dtu-pube-part04
 
 Write-Host '
 [1;34m[0;34m[0;31m[0;34m[0;31m[0;34m[0;31m[0;34m[0;31m[0;1;30m[0;1;34m[0m[1;37m[0;1;34m[0;34m[0;31m[0;34m[0;31m[0;34m[0;31m[0;1;34m[0;1;30m[0m[1;37m[0;1;34m[0;34m[0;31m[0;34m[0;31m[0;34m[0;31m[0;34m[0;31m[0;1;34m[0;1;30m[0m[1;34m[0;34m[0;31m[0;34m[0;31m[0;34m[0;1;30m[0m[1;37m[0;1;34m[0;34m[0;31m[0;34m[0;1;34m[0;1;30m[0m[1;34m[0;31m[0;34m[0;31m[0;34m[0;1;30m[0m[1;36m[0;1;34m[0;31m[0;34m[0;31m[0;34m[0;1;34m[0m[31m[0;34m[0;31m[0;34m[0;1;30m[0m[1;36m[0;1;34m[0;31m[0;34m[0;31m[0;1;34m[0;1;30m[0m[31m[0;34m[0;31m[0;1;30m[0m[31m[0;34m[0;31m[0m

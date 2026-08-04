@@ -1,18 +1,4 @@
-﻿# Converted from: MR-SILIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9704/raw/MR-SILIC.ANS
-# Source Revision: archive-sha256:f29d1a72731ce9383841840bc86b0749ff1457d1c25c6a64baa5adfdac9e6943
-# Source SHA-256: b433417ea047ded48aadfebd25709f7330b424fcc96676d4171b5c252fcfef8c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-SILIC.ANS by minotaur (mAidEN bRAZil!); released in mdn-9704 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: silicon knights logo
-# SAUCE Author: minotaur
-# SAUCE Group: mAidEN bRAZil!
-# SAUCE Date: 19970301
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: silicon knights logo by minotaur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9704-mr-silic
 
 Write-Host '
                                               [1;31m   [0m

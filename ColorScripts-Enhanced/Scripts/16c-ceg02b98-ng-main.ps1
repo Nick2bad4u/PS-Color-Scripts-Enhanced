@@ -1,13 +1,4 @@
-﻿# Converted from: NG-MAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ceg02b98/raw/NG-MAIN.ANS
-# Source Revision: archive-sha256:8bcd40ef85c83bb4a3943aa6aa741a7f7993d8a567aa7cee1a09a91430ff3181
-# Source SHA-256: 3aa741fcdab1d2e48820e9da0a01d40390f98201a411b24991aadafde2f9a9ef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NG-MAIN.ANS by Nazgul (ceg02b98); released in ceg02b98 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: NG-MAIN.ANS by Nazgul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ceg02b98-ng-main
 
 Write-Host '
 [1;30m  ░░░▒▓██████▓▓▒▒▒▒[0m░░░░░░░▒▒▓[1;30m▒▒▒▒▓▓██████████▓▒░[0m                        [1;35m ░▒▓▓███[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: D38-DST1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-01/raw/D38-DST1.ANS
-# Source Revision: archive-sha256:839932970b12d0c8f9bed0d87f002a63e0f2cc60ac78a12ea0891a4123fc4507
-# Source SHA-256: 0fcdce2ff63cb1a770cc79ae2d6b3901d4657ac67479ff771c2b61ae74585573
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D38-DST1.ANS by Blind sniper (Department 38); released in d38-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Department 38 Distro#1
-# SAUCE Author: Blind sniper
-# SAUCE Group: Department 38
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Department 38 Distro#1 by Blind sniper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-01-d38-dst1
 
 Write-Host '
 

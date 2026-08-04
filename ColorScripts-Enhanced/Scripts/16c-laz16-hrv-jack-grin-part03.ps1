@@ -1,20 +1,4 @@
-﻿# Converted from: HRV_Jack_Grin.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz16/raw/HRV_Jack_Grin.ans
-# Source Revision: archive-sha256:b093dd3cb06bf783d59a9df3724c51f9a41f686cd4fd545c920ada008d959f7a
-# Source SHA-256: 0f4851387811f4cbe87964db0e62b4078fa1800a97c59e4fcac909fdca970e2e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HRV_Jack_Grin.ans by harvest (Lazarus); released in laz16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Jack Grin
-# SAUCE Author: harvest
-# SAUCE Group: Lazarus
-# SAUCE Date: 20230101
-# SAUCE Dimensions: 80x107
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Started on Halloween Season and finished around Xmas... | So naughty but nice ;)
-# Lines: 73-107
-# Columns: 1-80
+﻿# Artwork: Jack Grin by harvest | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz16-hrv-jack-grin-part03
 
 Write-Host '
 [34;40m▒[0;35;44m ▒░[0;34;40m▓▓▒▒▒[0;35;44m  [0;34;40m▒[0;35;44m▓░[0;34;40m   ▒▒▓██▓▓██▓▓█░▒▓[0;35;44m░[0;34;40m█▓▓█▓███[0;35;44m░[0;1;35;40m▒[0;34m██▓▓░▓▓█▓█▓████▓▓▓░  ░[0;35;44m [0;34;40m░█▓[0;35;44m ▒[0;34;40m▒▒▒▓▒▒ ░▒[0m

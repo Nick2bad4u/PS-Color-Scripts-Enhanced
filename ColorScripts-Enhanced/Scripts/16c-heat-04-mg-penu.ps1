@@ -1,13 +1,4 @@
-﻿# Converted from: MG-PENU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/heat-04/raw/MG-PENU.ANS
-# Source Revision: archive-sha256:790223fc34f1e6181bfaff47a39d8ae72cceea1f08ac57acae6f612973572ec9
-# Source SHA-256: 476cea3d7a39c55110e6cffba54a1cc59c4fa3226a2b8f8610561c42f338505e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MG-PENU.ANS by Magnus (heat-04); released in heat-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: MG-PENU.ANS by Magnus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-heat-04-mg-penu
 
 Write-Host '
 [1m[0m[1m[0m

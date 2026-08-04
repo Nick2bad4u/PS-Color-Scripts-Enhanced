@@ -1,18 +1,4 @@
-﻿# Converted from: D1_NINE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-02/raw/D1_NINE1.ANS
-# Source Revision: archive-sha256:bb8ce420598b36a52d4f9cba3bdfbad44af088efeb11a778f52d121622116149
-# Source SHA-256: 8b556ced2ca61e085872c6925adfafc3f4e748999ac49bdc741f7701e1f6aa95
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D1_NINE1.ANS by Dissonance (Hieroglyphics); released in hiero-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Cloud 9
-# SAUCE Author: Dissonance
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20000928
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: Cloud 9 by Dissonance | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-02-d1-nine1
 
 Write-Host '
                           [1;30m▄[0m                                                  [1;30m▄[0m

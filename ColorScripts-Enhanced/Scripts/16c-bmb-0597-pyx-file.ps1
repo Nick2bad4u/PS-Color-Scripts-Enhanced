@@ -1,18 +1,4 @@
-﻿# Converted from: PYX-FILE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0597/raw/PYX-FILE.ANS
-# Source Revision: archive-sha256:77e5528a945f670ea04f743fe66c6a4dc19b897ad7883b4458eeee0528f25975
-# Source SHA-256: 9ae5da49c0615fd9d51a6aea3478970b65e887c54ee593c9655ecbc676fba963
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-FILE.ANS by Pyx (b a m b o o s h .); released in bmb-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Files - for hexx
-# SAUCE Author: Pyx
-# SAUCE Group: b a m b o o s h .
-# SAUCE Date: 19970214
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Files - for hexx by Pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0597-pyx-file
 
 Write-Host '
                                                     [33m░[0;37m [0;1;33m▐▌▐▌[0;1;33;43m░[0;1;33;40m▐▌[0m [1;33m▄[0m

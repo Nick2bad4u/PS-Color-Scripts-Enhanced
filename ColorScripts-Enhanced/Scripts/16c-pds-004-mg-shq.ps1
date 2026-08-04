@@ -1,18 +1,4 @@
-﻿# Converted from: MG-SHQ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pds-004/raw/MG-SHQ.ANS
-# Source Revision: archive-sha256:51608e242e03bba4bafa1e53cb31584cb83b11fdd028a6e53fb5496fcf57e6d1
-# Source SHA-256: 90604ed2ffd57e3b20aca5b02f0c88cf12819fed2132708d910725d39527cf37
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MG-SHQ.ANS by magician (paradise); released in pds-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: moose city - pds shq
-# SAUCE Author: magician
-# SAUCE Group: paradise
-# SAUCE Date: 19960728
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: moose city - pds shq by magician | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pds-004-mg-shq
 
 Write-Host '
 [34m░▒▓███████████████████████████████████████████████████████▀▀▀█████████████▒▓▒░  [0m

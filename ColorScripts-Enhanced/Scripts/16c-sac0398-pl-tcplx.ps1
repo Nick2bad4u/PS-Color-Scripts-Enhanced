@@ -1,13 +1,4 @@
-﻿# Converted from: PL-TCPLX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0398/raw/PL-TCPLX.ANS
-# Source Revision: archive-sha256:5deb0c572555b712853a4e44d44a0abdfad1e60e47bfcff7ce192c9fa583bdec
-# Source SHA-256: 4b3cd8496522c184f6a181e4a076cbcbc779acde5baf7ffe08964055dcd42c6e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PL-TCPLX.ANS by puschel; released in sac0398 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: PL-TCPLX.ANS by puschel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0398-pl-tcplx
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: LO^TJT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blur9607/raw/LO%5ETJT1.ANS
-# Source Revision: archive-sha256:b26c8b94015ee6d1b8810f7d19551196eb13cdc7b545981a4755cd2ae5715624
-# Source SHA-256: 12c36121279da24abd027a86b961e272c0856aa609df910cfb78258ba7bd3a36
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LO^TJT1.ANS by Lord (blur); released in blur9607 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Daily
-# SAUCE Author: Lord
-# SAUCE Group: blur
-# SAUCE Date: 19960627
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: The Daily by Lord | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blur9607-lo-tjt1
 
 Write-Host '
           [1;30m░[0m          [1;30m░[0m             [1;30m░[0m            [1;30m░[0m

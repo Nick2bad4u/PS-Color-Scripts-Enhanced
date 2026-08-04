@@ -1,13 +1,4 @@
-﻿# Converted from: RT-PHIRE.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9402/raw/RT-PHIRE.ICE
-# Source Revision: archive-sha256:542a55b371fcf2e1b6ce730207fe668cc74b9fc898d3341dc11812e6d7a4ac5c
-# Source SHA-256: a7fe6cf150ab906beb53fdc6832113fb4cbda7ddeb27cf2ad02b70dab8654e79
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RT-PHIRE.ICE by Riptide (ice-9402); released in ice-9402 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: RT-PHIRE.ICE by Riptide | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9402-rt-phire-part01
 
 Write-Host '
 [1;30m[0m[30m[0m[30m[0;1;30m[0m                                                             [1;30m▄▄▄▄▄▄[0;1;30;47m▓▓▒▒░[0m▄[1;30m▀██[0;1;30;47m▓▓▓[0m

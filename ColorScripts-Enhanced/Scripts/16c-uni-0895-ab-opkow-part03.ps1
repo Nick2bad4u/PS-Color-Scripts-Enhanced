@@ -1,18 +1,4 @@
-﻿# Converted from: AB-OPKOW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0895/raw/AB-OPKOW.ANS
-# Source Revision: archive-sha256:d7578eae73cd5d7b840a098302ec5eecc570498f801ff39620bcdfbd3bc36d42
-# Source SHA-256: 309072a947b794844488360065f08ae648adb7acda62121e5ef507fe318193af
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AB-OPKOW.ANS by Abomination (Union); released in uni-0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Operation k0w - You Got fo0led
-# SAUCE Author: Abomination
-# SAUCE Group: Union
-# SAUCE Date: 19950714
-# SAUCE Dimensions: 80x25
-# Lines: 75-112
-# Columns: 1-80
+﻿# Artwork: Operation k0w - You Got fo0led by Abomination | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0895-ab-opkow-part03
 
 Write-Host '
 [1;32;42mab![0;32m███▓▄▀█████████████▄▄▀▌ [0;37m [0;33m▀[0;1;33;43m░[0;33m██▀[0;32m   ██████████[0;1;32;42m░░░░[0m [32m [0;1;37m███▀▀[0m   [32m░░░░░░░░░░░░▒▒▒▒▒▓▓▓[0m

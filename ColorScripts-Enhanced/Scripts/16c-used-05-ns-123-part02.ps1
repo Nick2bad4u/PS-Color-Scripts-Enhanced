@@ -1,18 +1,4 @@
-﻿# Converted from: NS-123.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-05/raw/NS-123.ANS
-# Source Revision: archive-sha256:c84fdc261f7fd501a311025e55fa5ba4ffaded89b8d307d907b0105e1d45695f
-# Source SHA-256: c5d692fdf7bf3ab6bb329d0e016fa7b5ac6024b0cbfbf7f0bd262a81332968c1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NS-123.ANS by ansichrist (used coalition); released in used-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: showing my skills... or not.
-# SAUCE Author: ansichrist
-# SAUCE Group: used coalition
-# SAUCE Date: 20000604
-# SAUCE Dimensions: 80x285
-# Lines: 51-98
-# Columns: 1-80
+﻿# Artwork: showing my skills... or not. by ansichrist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-05-ns-123-part02
 
 Write-Host '
 [36m░[0;30;46m▓░[0;36;40m▓█[0;1;37;46m░▒▓▒░[0;36m▌▌▐[0;37m [0;1;37m                                [0m

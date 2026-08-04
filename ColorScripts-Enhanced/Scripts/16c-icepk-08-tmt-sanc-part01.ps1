@@ -1,13 +1,4 @@
-﻿# Converted from: TMT-SANC.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-08/raw/TMT-SANC.ICE
-# Source Revision: archive-sha256:76472331bcb8543f1e44f2a59ee8f7524c6af6373e89562b7fabb9e022104140
-# Source SHA-256: 12e16e65bf64af1004123f5f81d2bc0f1069faffa4b983c6c2f78864d150362c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TMT-SANC.ICE by The Malevolent Trickster (icepk-08); released in icepk-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: TMT-SANC.ICE by The Malevolent Trickster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-08-tmt-sanc-part01
 
 Write-Host '
   [34m▄▄▄▄[0m                                                [1;33m▄▄▄[0m▄  ▄█[1;33;47m▒▒▓▓[0;1;33;40m▌  [0m█[1;33;47m░░░▒[0;1;37;47m░[0m  [1;30;40m▄[0;1;33;47m░[0m

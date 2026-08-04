@@ -1,13 +1,4 @@
-﻿# Converted from: cxc_blackflag_bbs_colly_ansi.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cph.artpack28/raw/cxc_blackflag_bbs_colly_ansi.ans
-# Source Revision: archive-sha256:c3d8d299aac3650a51574757712fd9f0940b06f7c2d1f7c898188c562f0549bd
-# Source SHA-256: 65d0f665d7af0eb22ed2efc52bdfaa3b4831a2ee4427b2e8e7c1aee545fea68a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cxc_blackflag_bbs_colly_ansi.ans by Coaxcable (cph.artpack28); released in cph.artpack28 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 74-109
-# Columns: 1-80
+﻿# Artwork: cxc_blackflag_bbs_colly_ansi.ans by Coaxcable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cph-artpack28-cxc-blackflag-bbs-colly-ansi-part03
 
 Write-Host '
 [1;36m-------------------------------------------------------------------------------[0m

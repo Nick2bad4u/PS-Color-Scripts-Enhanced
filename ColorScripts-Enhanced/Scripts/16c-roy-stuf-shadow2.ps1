@@ -1,13 +1,4 @@
-﻿# Converted from: SHADOW2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roy-stuf/raw/SHADOW2.ANS
-# Source Revision: archive-sha256:1f203f95f339c258e43a9098f8d2e689ed73de537b1cfe6bea312dfc156f1358
-# Source SHA-256: 379cba319af901dc9a1251c25f663fbd5543295e80d5cbb5c0736ad7c2731e7b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SHADOW2.ANS by Roy (roy-stuf); released in roy-stuf and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: SHADOW2.ANS by Roy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roy-stuf-shadow2
 
 Write-Host '
       [1;30m░[0m        [31m░[0m        [31m░    ░░  ░░░ ░▒░ ░░░  ░[0m      [31m░[0m        [31m░[0m            [1;30m░[0m

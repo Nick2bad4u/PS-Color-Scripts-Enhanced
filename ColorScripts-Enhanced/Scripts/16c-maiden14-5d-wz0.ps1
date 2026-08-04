@@ -1,18 +1,4 @@
-﻿# Converted from: 5D-WZ0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden14/raw/5D-WZ0.ANS
-# Source Revision: archive-sha256:8484fc17833e455250727f80fdc56cc19e17aec4fba2f82e3b86585a9e08cb6c
-# Source SHA-256: e31abba08f89b023d6e2f11c4332b0c9cf3cacc933414581040faeee7415d60c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5D-WZ0.ANS by slayer dreams (maiden brazil); released in maiden14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: weed zine ansi!@
-# SAUCE Author: slayer dreams
-# SAUCE Group: maiden brazil
-# SAUCE Date: 19971227
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: weed zine ansi!@ by slayer dreams | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden14-5d-wz0
 
 Write-Host '
                                                                     [1;34m▄[0;34m [0m

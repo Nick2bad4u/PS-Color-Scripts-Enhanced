@@ -1,19 +1,4 @@
-﻿# Converted from: smooth-abu.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flashback-2019-demoparty/raw/smooth-abu.ans
-# Source Revision: archive-sha256:b738430cc4fe12cad7e057e3ab51a85dc09291bcdcb66f958a6a7bcc5184c5af
-# Source SHA-256: a979a029eeb00527183d1d49a8581301e4ff1609f9c371f2a58737b07c7b3c3a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: smooth-abu.ans by Smooth (Fuel); released in flashback-2019-demoparty and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: abu skidoo
-# SAUCE Author: Smooth
-# SAUCE Group: Fuel
-# SAUCE Date: 20190531
-# SAUCE Dimensions: 80x23
-# SAUCE Font: IBM VGA
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: abu skidoo by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flashback-2019-demoparty-smooth-abu
 
 Write-Host '
 [1;30;40m░[0m [1;30m░▄░▄░▀░▀[0m        [34m ▀▀█▄▄[0m        [33m░[0;37m [0;1;30m▄[0;33m▄[0;37m [0;33m▄ [0;35m▄[0;1;31m▄[0;35m▄[0;37m [0;33m▄[0;37m [0;33m▄[0;1;30m▄[0m [33m░[0m      [34m▄▄██▀▀▀[0m        [1;30m▀░▀░▄░▄░[0m [1;30m░[0m

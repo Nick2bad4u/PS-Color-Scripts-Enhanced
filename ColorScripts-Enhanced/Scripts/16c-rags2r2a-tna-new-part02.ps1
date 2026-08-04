@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-NEW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rags2r2a/raw/TNA-NEW.ANS
-# Source Revision: archive-sha256:b6fe4ad2710b940b9fc065cc3d8845bc48a34f58dd8c5b1b55d6bd7f8162e058
-# Source SHA-256: 85f9206632493fc99a2fcbfcb2c5271a1be45b2bffa32e2f4dbde61041bc171e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-NEW.ANS by TNA (.rAGS 2 rICHES.); released in rags2r2a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: "The Night Angel ... rICH b0Y!"
-# SAUCE Author: TNA
-# SAUCE Group: .rAGS 2 rICHES.
-# SAUCE Date: 19970709
-# SAUCE Dimensions: 80x57
-# Lines: 33-57
-# Columns: 1-80
+﻿# Artwork: "The Night Angel ... rICH b0Y!" by TNA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rags2r2a-tna-new-part02
 
 Write-Host '
 [1;34;44m░[0m  ▄[1;47m▄██[0m▄  [1m█  ▄[0;1;47m█[0m  [1;34;44m▐▄[0;34m▄ [0;1;33m▐█ [0;33m▄ [0;34m▀▀▀ [0;37m▬▀ [0;1;37;47m█[0m    [1m█ [0;1;47m▓█[0;1;40m▌░▓▓░  [0;1;47m▓ [0m [1m▐█▌ ▓░ [0;34m░░  ▀▀  [0;37m▬▀[0;1;37m▀ [0;34m▄▄ [0;1;37m▀ [0m▀ [1;34;44m░[0;34m█[0m

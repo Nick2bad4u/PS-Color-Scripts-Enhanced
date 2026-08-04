@@ -1,18 +1,4 @@
-﻿# Converted from: E0-SALT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zenith02/raw/E0-SALT.ANS
-# Source Revision: archive-sha256:89af45c021399cb7150be8c9dd70d9c3709facfd5b2491816aa34f9f5096ceb7
-# Source SHA-256: 046e0a8b5d1012bb66dddd6864acb188b402174f83b3089c021af3c69619674f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: E0-SALT.ANS by Enzo (Zenith); released in zenith02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Salt Matrix
-# SAUCE Author: Enzo
-# SAUCE Group: Zenith
-# SAUCE Date: 19980621
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Salt Matrix by Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zenith02-e0-salt
 
 Write-Host '
 [1;30m  [0m           .                                                              .

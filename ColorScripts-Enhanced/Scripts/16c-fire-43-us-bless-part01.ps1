@@ -1,19 +1,4 @@
-﻿# Converted from: US-BLESS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-43/raw/US-BLESS.ANS
-# Source Revision: archive-sha256:d3967e67800d0c773a52f120751caeb2bc01ead5180b478fb0a0e89978edc4ec
-# Source SHA-256: 0e5896c6644fdad9b0f28ce4666d09ca8e4b11766ac8f98d8382e1d6ded88992
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BLESS.ANS by Tainted + Toon Goon (fire); released in fire-43 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: happy 420!
-# SAUCE Author: tainted/toon goon
-# SAUCE Group: fire
-# SAUCE Date: 20250707
-# SAUCE Dimensions: 80x96
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: happy 420! by Tainted + Toon Goon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-43-us-bless-part01
 
 Write-Host '
 [37;40m [0;31;40m▄▄▓██[0;1;31;41m▄██▀▀[0;31m▀▀[0;33m▄▄█[0;1;33;43m▄▄▄[0;1;33;40m████████[0;1;37;40m██[0;1;37;43m▄[0;1;33;40m▄[0;33m▄[0;37m [0;36m▀██████▀[0;37m   [0;36m▄▄████████[0;37m  [0;32m▀[0;37m    [0;36m█[0;37m [0;32m▄[0;37m   [0;36m█████▀[0;37m [0;32m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: 13-ORGY1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend07/raw/13-ORGY1.ANS
-# Source Revision: archive-sha256:ca5dd679a175bb824bf5bf250a5bbd7f932645b5aabbf63799cb92711cab24b8
-# Source SHA-256: b9b6cd71d97f873b556d24b3264766284b2b7d9793854d94e526a32728c53371
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 13-ORGY1.ANS by ville (blend&fire); released in blend07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: orgyemag
-# SAUCE Author: ville
-# SAUCE Group: blend&fire
-# SAUCE Date: 19970304
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: orgyemag by ville | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend07-13-orgy1
 
 Write-Host '
 [31m▓[0;31;42m▀[0;31;40m█[0;31;42m▓[0;31;40m█▀▀▄[0;33;40m▄▄▄▄▄[0;31;40m░░   ░░░[0;37;40m [0;31;40m███▀▀▀▀▀▀▀▓▓█▓▀▀▀░░[0m     [31;40m░▀▓▓▀▀▀▀░[0;37;40m  [0;31;40m░[0;37;40m [0;31;40m▀▀▀▓▓░[0m     [37;40m░[0m     [37;40m░[0m

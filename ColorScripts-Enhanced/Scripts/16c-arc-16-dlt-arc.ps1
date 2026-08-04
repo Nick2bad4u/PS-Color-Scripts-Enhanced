@@ -1,18 +1,4 @@
-﻿# Converted from: DLT-ARC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/arc-16/raw/DLT-ARC.ANS
-# Source Revision: archive-sha256:e369cb471f14ccd57254b0b30c1dc8ac4b174131115a1090d2162b1c8280c087
-# Source SHA-256: c419f50773f55d548ac89ac1b15ce0802f007d90585de8a3ca0646cfbe20f33a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DLT-ARC.ANS by dalton (arc/plf); released in arc-16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: r?ka
-# SAUCE Author: dalton
-# SAUCE Group: arc/plf
-# SAUCE Date: 20000315
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: r?ka by dalton | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-arc-16-dlt-arc
 
 Write-Host '
 

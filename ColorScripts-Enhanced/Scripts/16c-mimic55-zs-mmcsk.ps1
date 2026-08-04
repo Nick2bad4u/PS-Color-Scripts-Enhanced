@@ -1,13 +1,4 @@
-﻿# Converted from: zs-mmcsk.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic55/raw/zs-mmcsk.ans
-# Source Revision: archive-sha256:be5bd0202fcf0139dda1eb053ed369bdc1ed586aaa4596ccff7a092ae658b699
-# Source SHA-256: be3113c60f9f289a0b68455d0b4d592f492b43f7329cab2ab844ab00193b66fb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zs-mmcsk.ans by Zerostar (mimic55); released in mimic55 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: zs-mmcsk.ans by Zerostar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic55-zs-mmcsk
 
 Write-Host '
                                   [1;30m_[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: FT-ILL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root05/raw/FT-ILL1.ANS
-# Source Revision: raw-sha256:94cfdb070a2fe96a45766c2f06d571232208ea9a4009387a3caeda1c739a49c0
-# Source SHA-256: 94cfdb070a2fe96a45766c2f06d571232208ea9a4009387a3caeda1c739a49c0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FT-ILL1.ANS by Flight (Root); released in root05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Illbred Menuset
-# SAUCE Author: Flight
-# SAUCE Group: Root
-# SAUCE Date: 19970717
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Illbred Menuset by Flight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root05-ft-ill1
 
 Write-Host '
 [34m█▀  [0;1;37m▄    ░░   [0mi llb r  ed   [1m░░[0m      [34m░░    ▀▀▄▄▄[0m       [34m▀▀▀███████████▄▄ ▀▀▀███▓▓[0m

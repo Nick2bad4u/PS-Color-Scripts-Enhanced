@@ -1,19 +1,4 @@
-﻿# Converted from: tornillius.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/clear2ooo-ascii-year-lf/raw/tornillius.ans
-# Source Revision: archive-sha256:dd383b5bee47a74826e2ee2d07d90cd2a401abc53b70a009479dbf2d94c53f24
-# Source SHA-256: 7957a6ce3b7a88236aea32514dfdb7a70f42df74edc5533333035d5a96f60039
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tornillius.ans by clear2ooo (clear2ooo-ascii-year-lf); released in clear2ooo-ascii-year-lf and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: tornillius
-# SAUCE Author: clear2ooo
-# SAUCE Date: 20250208
-# SAUCE Dimensions: 80x181
-# SAUCE Font: IBM VGA
-# SAUCE Comments: another one messed up by moebius. which i had to edit afterward.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: tornillius by clear2ooo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-clear2ooo-ascii-year-lf-tornillius-part01
 
 Write-Host '
 

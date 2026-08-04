@@ -1,18 +1,4 @@
-﻿# Converted from: PSY-HLB!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aif-9702/raw/PSY-HLB!.ANS
-# Source Revision: archive-sha256:3b9f61860c22d001c6e381a5b94c16d8789cd57ba721bbd4a78c247058aafa2b
-# Source SHA-256: e1117ddde7bf51a15b6e7b02a60a42124a4519202499d5a0603cdcde7ac777cc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PSY-HLB!.ANS by [lord.autopsy] (aif); released in aif-9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hellbound logo
-# SAUCE Author: [lord.autopsy]
-# SAUCE Group: aif
-# SAUCE Date: 19970203
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: hellbound logo by [lord.autopsy] | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aif-9702-psy-hlb
 
 Write-Host '
 [1m8<[0m-[1m        [0m---------------------------------------------------------------------

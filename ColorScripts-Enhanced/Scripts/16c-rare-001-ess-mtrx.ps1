@@ -1,18 +1,4 @@
-﻿# Converted from: ESS!MTRX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-001/raw/ESS!MTRX.ANS
-# Source Revision: archive-sha256:7435b1c9938dec461ab33b42b3dd164ea7e98ecfff30ea4d3df5a8e59194b0a3
-# Source SHA-256: 1dc4b2e19c8f65f052f07d7c6743e02dc83f885ae9df488a0c134c463dec4ffc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ESS!MTRX.ANS by Essence (rARE!ASCii); released in rare-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Legend Logon
-# SAUCE Author: Essence
-# SAUCE Group: rARE!ASCii
-# SAUCE Date: 19980305
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: The Legend Logon by Essence | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-001-ess-mtrx
 
 Write-Host '
 [1m[0m[1m[0m[1m[0m[1m[0m[32m$ [0;1;32m [0;32mS[0;1;32m$$$"[0;32m"S[0;1;32m$[0;32m$ [0;1;32m [0;32mS[0;1;32m$$$[0;32m""S$[0;37m :lSb,"   ═-  ,,._[0;32m`²╚$$[0;1;32m$$[0;1;33m$[0;1;37m$[0;1;32m$[0;32m$$[0;1;30mi[0m  [1;30m,[0;32m:ilIIS$SS$#%g,_,g%╝╚%g,[0m

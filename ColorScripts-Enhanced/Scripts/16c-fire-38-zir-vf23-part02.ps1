@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-VF23.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-38/raw/ZIR-VF23.ANS
-# Source Revision: archive-sha256:be80154150e87c06a8a7199ad7b8d7442acd5427250f57c89a783b9de15c69d7
-# Source SHA-256: 500edf2ed72f45f74b5cfa4ee6746fd87baa54c7d1ff024df7067b14afa000d3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-VF23.ANS by zir (FiRE); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: NNL / 20FB
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20230828
-# SAUCE Dimensions: 80x149
-# SAUCE Font: IBM VGA
-# SAUCE Comments: 419 LIVES! | on behalf of Paulie420 and Rainman, for VCF CHICAGO 2023.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: NNL / 20FB by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-38-zir-vf23-part02
 
 Write-Host '
 [37;40m [0;34;40m░░  ■·░[0;31;44m▄▐▄[0;1;31;41m▄[0;31;44m█[0;1;31;41m▀▀[0;31;44m▀▀▀[0;34;40m▀▀▀[0m     [34;40m░░░[0m     [34;40m░[0;31;44m░▓[0;1;31;41m░▓▌[0;34m▌░░[0;37m    [0;34m░░[0;31;44m░░░░[0;34;40m■[0;37;40m   [0;34;40m▀▀▀▀▀▀▀▀▀[0;31;44m▀▀▀[0;1;31;41m▀[0;1;31;47m▓▓[0;31;44m▌[0;37;40m    [0;34;40m░░[0m

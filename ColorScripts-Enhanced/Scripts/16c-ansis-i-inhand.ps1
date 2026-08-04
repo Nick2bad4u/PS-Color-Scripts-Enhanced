@@ -1,13 +1,4 @@
-﻿# Converted from: INHAND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-i/raw/INHAND.ANS
-# Source Revision: archive-sha256:f77378b97edc46c0ec6cf225511f19f71c28e4a75fabba5da45e865a8cd20d8d
-# Source SHA-256: 8d41ca85532ececdab281cff5344bc2787f25d47c94893993c130766a84e1f85
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: INHAND.ANS by Michael Arnett (ansis-i); released in ansis-i and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: INHAND.ANS by Michael Arnett | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-i-inhand
 
 Write-Host '
            [30;44m│[0m [30;47m [0;30;41m█[0m                      [30;43m▀▀[0m                      [30;47m [0m

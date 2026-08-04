@@ -1,18 +1,4 @@
-﻿# Converted from: MW-TNMAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nland-04/raw/MW-TNMAN.ANS
-# Source Revision: archive-sha256:eab686fd42219ed6c9add6a2f7726008adc5ca3e06c5f87a076203c52842513d
-# Source SHA-256: 63553ea63b62925ccc67afba469e20e8e5cec9b4ebd728053f1171cc9229238b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MW-TNMAN.ANS by MoonWalkeR (NeveRLanD People); released in nland-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: CaricaToon Man.
-# SAUCE Author: MoonWalkeR
-# SAUCE Group: NeveRLanD People
-# SAUCE Date: 19960128
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: CaricaToon Man. by MoonWalkeR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nland-04-mw-tnman
 
 Write-Host '
                              [32m▄▄▄[0m      [32m [0;37m  [0;1;32m▄▄▄▄▄▄[0m

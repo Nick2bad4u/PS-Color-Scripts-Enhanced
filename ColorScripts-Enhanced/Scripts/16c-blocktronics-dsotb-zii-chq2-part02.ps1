@@ -1,19 +1,4 @@
-﻿# Converted from: zii-chq2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-dsotb/raw/zii-chq2.ans
-# Source Revision: archive-sha256:31e1fdfda207a2147f2b0badf1415308dc54d4c24afa56622db8a43f68f110f1
-# Source SHA-256: 463235f9846b30ef574a90062e5246c66f2d7bc5db2fea2473a02ab95bd918cd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zii-chq2.ans by Zeus II (Blocktronics); released in blocktronics-dsotb and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: CHQ Logon screen
-# SAUCE Author: Zeus II
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20190729
-# SAUCE Dimensions: 80x67
-# SAUCE Font: IBM VGA
-# Lines: 35-67
-# Columns: 1-80
+﻿# Artwork: CHQ Logon screen by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-dsotb-zii-chq2-part02
 
 Write-Host '
   [1;33;41m▓[0;36m [0;36;44m▓[0;1;37;46m██▄[0;31m [0;1;31;41m▄▄▄[0;31m▄▄ ▀[0;1;31m▀[0;1;33m▀▀[0;31m█[0;37m          [0;31m█[0;1;33;41m▄[0;1;37;41m▄▄[0;1;33;41m▄[0;1;31;41m▄▄[0;1;31;40m▄▄[0;31m▄▄[0;1;31m▄▄▄▄[0;1;31;41m▄▄[0;1;33;41m▄▄▄▄[0;31m█[0;37m    [0;1;30m▀▀[0m    [1;33;41m▓[0;1;37;40m█[0;1;33;41m▀■[0;31m▌ [0;1;31;41m▓[0m [1;30m▓[0m [1;30m▓▒[0m  [1;30m▐[0m

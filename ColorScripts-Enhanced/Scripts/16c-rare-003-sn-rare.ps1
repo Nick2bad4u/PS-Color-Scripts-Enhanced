@@ -1,18 +1,4 @@
-﻿# Converted from: SN!RARE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-003/raw/SN!RARE.ANS
-# Source Revision: archive-sha256:de78ce19727ea90c75e1ecc7f5b4d900676dc27b4dceb8a870f61665ee210859
-# Source SHA-256: 2b3f87a8dfe75102afe19d362095b3b11c362397a0cc0c98162e2b9c60c41a1a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SN!RARE.ANS by snowball (rare!ascii); released in rare-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: dwar-2 entry
-# SAUCE Author: snowball
-# SAUCE Group: rare!ascii
-# SAUCE Date: 19980608
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: dwar-2 entry by snowball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-003-sn-rare
 
 Write-Host '
 

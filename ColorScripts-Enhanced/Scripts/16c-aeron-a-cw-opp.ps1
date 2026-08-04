@@ -1,13 +1,4 @@
-﻿# Converted from: Cw-opp.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aeron-a/raw/Cw-opp.ans
-# Source Revision: archive-sha256:77ae7b32523591af134f7f3f8b7b910fee96858615d2fc199e08003552f80728
-# Source SHA-256: d0b5d8590f0dfa096ed706eb5898477e1cf398a0d1c363f84cb627684f51edec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Cw-opp.ans by Ceelow (aeron-a); released in aeron-a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Cw-opp.ans by Ceelow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aeron-a-cw-opp
 
 Write-Host '
 

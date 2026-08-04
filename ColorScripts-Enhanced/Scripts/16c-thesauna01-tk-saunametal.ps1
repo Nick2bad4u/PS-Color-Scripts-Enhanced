@@ -1,19 +1,4 @@
-﻿# Converted from: tk-saunametal.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna01/raw/tk-saunametal.ans
-# Source Revision: archive-sha256:70f712dbf565de1ceb0f2b7020b54aa443621235a47b082b92e24e13342b0672
-# Source SHA-256: ff096323accfd6dd948e5f0f83d7e8e5f8056ab213ae8f5b9bb8996ce956fa17
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tk-saunametal.ans by The Knight (Fuel); released in thesauna01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Sauna metal logo
-# SAUCE Author: The Knight
-# SAUCE Group: Fuel
-# SAUCE Date: 20190814
-# SAUCE Dimensions: 80x21
-# SAUCE Font: IBM VGA
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Sauna metal logo by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna01-tk-saunametal
 
 Write-Host '
 [1;37;40m  [0m·[1;30m·[0m [1mM  A  Y [0;1;30m·· [0;1;37mT  H  E [0;1;30m··[0;1;37m S  T  E  A  M [0;1;30m·· [0;1;37mB  E [0;1;30m·· [0;1;37mW  I  T  H [0;1;30m·· [0;1;37mY  O  U[0m [1;30m·[0m·

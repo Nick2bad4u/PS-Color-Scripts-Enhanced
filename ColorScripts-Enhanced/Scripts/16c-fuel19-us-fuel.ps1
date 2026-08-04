@@ -1,18 +1,4 @@
-﻿# Converted from: US-FUEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel19/raw/US-FUEL.ANS
-# Source Revision: archive-sha256:7996394d1322b4d75a2eac63da1058443f8c8d07863e81821c5c4a203e798c3c
-# Source SHA-256: 3dc04c197dcb4fbe407e6b9000bdb7efb931a55c4065d6fefaab099b94886e29
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FUEL.ANS by Jekyll + Pc (fuel & dark); released in fuel19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fuel promo 1997
-# SAUCE Author: multiple artists
-# SAUCE Group: fuel & dark
-# SAUCE Date: 19971202
-# SAUCE Dimensions: 80x47
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: fuel promo 1997 by Jekyll + Pc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel19-us-fuel
 
 Write-Host '
 [32m░▒░▒▒▒░░▓░[0m                  [32m [0m                        [1;30m░░▒▒░░[0m   [31m ▄▀▀▄[0;37m  [0;31m [0;1;31;41m░[0m [31m▐▀▀▀▀[0;1;33;41m░[0m

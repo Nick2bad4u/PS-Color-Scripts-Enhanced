@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-THERA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0297/raw/IZ-THERA.ANS
-# Source Revision: archive-sha256:d5e6767ccf66425c243bc55fc2b60157e4842e0dca350575e42372c154569008
-# Source SHA-256: 76a2e3773f1f5483b945afcb5f1ec556652322a7bf28dc1dddd2823e4d1aec4e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-THERA.ANS by ize (fusion); released in fsn-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: therapy
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19970204
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: therapy by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0297-iz-thera
 
 Write-Host '
 

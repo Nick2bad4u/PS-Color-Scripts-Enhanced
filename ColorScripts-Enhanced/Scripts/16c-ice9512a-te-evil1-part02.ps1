@@ -1,18 +1,4 @@
-﻿# Converted from: TE-EVIL1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9512a/raw/TE-EVIL1.ICE
-# Source Revision: archive-sha256:4030957a38a6c532250e7b5d72d2d1e2534a6871d5254eac6b842adfae93f5ac
-# Source SHA-256: a28577c802e4fdab30fc37e74ee953282005f20b99896cd073ebb9466fe76e18
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-EVIL1.ICE by Tetanus (iCE); released in ice9512a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Industrial Evil
-# SAUCE Author: Tetanus
-# SAUCE Group: iCE
-# SAUCE Date: 19951209
-# SAUCE Dimensions: 80x25
-# Lines: 39-74
-# Columns: 1-80
+﻿# Artwork: Industrial Evil by Tetanus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9512a-te-evil1-part02
 
 Write-Host '
 [35m████[0;1;30;45m░[0;35m▌ [0;1;35;45m░[0;35m▌[0;37m [0;35m ▓██████████▓▒░▒▒▓▓▓███[0;1;35;45m░[0;35m▌[0;37m [0;35m▐██[0;1;35;45m░▒[0;1;35;40m▌[0;35m▐[0;1;35;45m▒▒▒▓▓[0;1;35;40m▀[0;35m▄██▒▒[0;1;35;45m░░[0m [35m▐[0;1;35;45m░▒[0;1;35;40m▌▐▌[0m [34m         ░░ [0;32m▓▒▒▒[0m

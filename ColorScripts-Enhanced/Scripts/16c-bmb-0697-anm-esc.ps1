@@ -1,18 +1,4 @@
-﻿# Converted from: ANM-ESC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0697/raw/ANM-ESC.ANS
-# Source Revision: archive-sha256:608fe2b98dcac70515ce221c11f606d898ec739b4fcdd1a5448c437eb640df82
-# Source SHA-256: 4dce677e6ee9b7edd52068e93d0b7ab653fe3c1e0422cf4102b9d4167600fd8f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ANM-ESC.ANS by anomite (drg); released in bmb-0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Essence .. prelog.
-# SAUCE Author: anomite
-# SAUCE Group: drg
-# SAUCE Date: 19970507
-# SAUCE Dimensions: 80x46
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Essence .. prelog. by anomite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0697-anm-esc
 
 Write-Host '
 [36m█[0;1;36;46m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;36m██[0;1;30m  [0;1;37m [0;36m     ░▓[0;1;36;46m▐▌[0;36m▓▀▀▀▀▀▓[0;1;36;46m▀▀▌[0;36m▓     ▀▓[0;1;36;46m▀█▀▀█▌[0m

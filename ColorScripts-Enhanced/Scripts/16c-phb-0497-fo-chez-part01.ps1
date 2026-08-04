@@ -1,18 +1,4 @@
-﻿# Converted from: FO-CHEZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phb-0497/raw/FO-CHEZ.ANS
-# Source Revision: archive-sha256:85681ee98c1ba1a2744730faa07d763080600c62bb25593bcf45c740268afee1
-# Source SHA-256: d15c4b5c324557d498c13ba826a20e24f282e3c3a73f074ca49b2c193627bcff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FO-CHEZ.ANS by flexor (pHOBIA@!); released in phb-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: cheeze
-# SAUCE Author: flexor
-# SAUCE Group: pHOBIA@!
-# SAUCE Date: 19970406
-# SAUCE Dimensions: 80x54
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: cheeze by flexor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phb-0497-fo-chez-part01
 
 Write-Host '
 

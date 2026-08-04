@@ -1,18 +1,4 @@
-﻿# Converted from: CK-REB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9503/raw/CK-REB1.ANS
-# Source Revision: archive-sha256:72185d7ca3df5653ee1a42b2eb8e244cb5d2597fdc0961f51b76f8fa01da3a75
-# Source SHA-256: 803821ceca65a14b40bc12c05be4e617f99d587495e62852d19fbfab267e0ad4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CK-REB1.ANS by chromatik (Blade Productions); released in blde9503 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: rebel studios
-# SAUCE Author: chromatik
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19950213
-# SAUCE Dimensions: 80x25
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: rebel studios by chromatik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9503-ck-reb1-part01
 
 Write-Host '
 [1;30m[0m                                [35m■[0m [35m▄[0m

@@ -1,20 +1,4 @@
-﻿# Converted from: dman-sancho.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_yotb/raw/dman-sancho.ans
-# Source Revision: archive-sha256:f702f09f6116b5ac6fa523d36f54d796db6f44f880e4f1cd426d29a9fbda605e
-# Source SHA-256: 10515dac037a2a2795da39c9afa29403d622cbfdec5e37c291848b3b7e842503
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: dman-sancho.ans by dman (pcb'n'b7); released in blocktronics_yotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Sancho
-# SAUCE Author: dman
-# SAUCE Group: pcb'n'b7
-# SAUCE Date: 20141112
-# SAUCE Dimensions: 80x80
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Blocktronics Year of the Block!
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Sancho by dman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-yotb-dman-sancho-part01
 
 Write-Host '
 [1;34;40m██████████████████████████████████████▀▀▀▀████████████[0;30;104m▄▄▄▄▄▄▄▄▄▄▄[0;1;34m███████████████[0m

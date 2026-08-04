@@ -1,18 +1,4 @@
-﻿# Converted from: CZ-HT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile0296/raw/CZ-HT.ANS
-# Source Revision: archive-sha256:e0799bed4025fcb07c582e52908fc52eee56a172381968e99c9dbe61586559df
-# Source SHA-256: 15f103f3be5fa55635a1d160ce7636ad28da9cb237d4885bed7d8a756d54f5a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CZ-HT.ANS by Cazz (RiLE); released in rile0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: High Times
-# SAUCE Author: Cazz
-# SAUCE Group: RiLE
-# SAUCE Date: 19960128
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: High Times by Cazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile0296-cz-ht
 
 Write-Host '
 

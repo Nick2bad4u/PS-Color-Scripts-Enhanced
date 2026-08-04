@@ -1,13 +1,4 @@
-﻿# Converted from: SYL-FARM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fdr-03/raw/SYL-FARM.ANS
-# Source Revision: archive-sha256:cac34a6b7c47c076c878193a4da01da4f38b7c8e471d7a9bf4b3a7850655fb5e
-# Source SHA-256: fc71e54a433cfefa8607a5de88a6851342b0604796c327971124397dede51e40
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SYL-FARM.ANS by Sylvao (fdr-03); released in fdr-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 33-64
-# Columns: 1-80
+﻿# Artwork: SYL-FARM.ANS by Sylvao | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fdr-03-syl-farm-part02
 
 Write-Host '
 [32m████ [0;1;37m▄[0;1;33m▄▀▄█▀▄█▓▄[0;32m ▀██▓████[0;1;32m▓[0;32m█[0;1;32m▄[0;32m██[0;1;32m▐[0;32m███████▄█▀███▀██[0;1;32m▌[0;32m▄█[0;1;32m▓[0;32m▓▄██[0;1;32m▐[0;32m███▀[0;37m [0;33m▓▓█▓▄[0;37m [0;1;31m▄█▀▀▀▀▀█▄[0m  [1;31m▄▄█[0m

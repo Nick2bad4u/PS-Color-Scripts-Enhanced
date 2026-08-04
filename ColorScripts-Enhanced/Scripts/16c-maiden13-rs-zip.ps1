@@ -1,18 +1,4 @@
-﻿# Converted from: RS-ZIP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden13/raw/RS-ZIP.ANS
-# Source Revision: archive-sha256:70e231ea8653cd02d349f122b1a39f57757322f3913b0c8f20698b54c8795e68
-# Source SHA-256: b53e74e9e51ffe9ebd92ececf826b773cf7ed0176bbeae18577a39cf5769371b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-ZIP.ANS by rorshack (Maiden Brazil); released in maiden13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: zip it up
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19970914
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: zip it up by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden13-rs-zip
 
 Write-Host '
 

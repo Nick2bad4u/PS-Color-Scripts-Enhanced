@@ -1,18 +1,4 @@
-﻿# Converted from: BK-DIGIT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0894/raw/BK-DIGIT.ANS
-# Source Revision: archive-sha256:28600f23ee913202821d8c592f0de8a079254979b8f1dcaf5d782e506b6eee00
-# Source SHA-256: a7d314d3bdbb6ec336f58dcc054607a83fbf4975385d59999c4d013b406f20c9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BK-DIGIT.ANS by Bad Karma (ACiD Productions); released in acdu0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Digitalia
-# SAUCE Author: Bad Karma
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940801
-# SAUCE Dimensions: 80x193
-# Lines: 97-146
-# Columns: 1-80
+﻿# Artwork: Digitalia by Bad Karma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0894-bk-digit-part03
 
 Write-Host '
 [1;30m   ░▒▓▓█████▌  ░▒▒▓▓▓███▌  ░▒▒▓▓█ ░ ░░[0m

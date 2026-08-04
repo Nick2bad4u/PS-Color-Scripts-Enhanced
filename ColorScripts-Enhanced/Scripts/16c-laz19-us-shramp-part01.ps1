@@ -1,19 +1,4 @@
-﻿# Converted from: us-shramp.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz19/raw/us-shramp.ans
-# Source Revision: archive-sha256:b2207428f1b283b9c41d9ff03fce385f449fefe469c60e31e8dd7430a162f7c1
-# Source SHA-256: e118a43941d11b6b31f4d3f451a730fe281b631ce49540e35b74ee9a5f047eea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-shramp.ans by Warpus + Pinguino (lazarus); released in laz19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: SHRAMP
-# SAUCE Author: pinguino & warpus
-# SAUCE Group: lazarus
-# SAUCE Date: 20240926
-# SAUCE Dimensions: 100x90
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-100
+﻿# Artwork: SHRAMP by Warpus + Pinguino | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz19-us-shramp-part01
 
 Write-Host '
 [1;35m▒▒▒▒▒[0;35m████████[0;1;31;45m░▒[0;1;31;40m▓▓▓▓▓▓[0;1;31;45m▀▀▀[0;35m██████[0;35;44m▀▀[0;34;40m██████▀▄█████████████████[0;37;40m    [0;34;40m██[0;37;40m  [0;34;40m▒[0;37;40m [0;34;40m▒[0;37;40m   [0;34;40m░[0;37;40m     [0;34;40m▄[0;37;40m                 [0;1;37;40m▄[0m

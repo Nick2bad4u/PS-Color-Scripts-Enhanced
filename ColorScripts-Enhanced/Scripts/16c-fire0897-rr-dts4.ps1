@@ -1,18 +1,4 @@
-﻿# Converted from: RR-DTS4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0897/raw/RR-DTS4.ANS
-# Source Revision: archive-sha256:2f847e13ac44c4a612ca9588cf01055509cccf841191e379aa1210361ce47235
-# Source SHA-256: d47fc92cdae5651693fcb45b58210f8fe3e0942e437b6b0f845ce7ee2c860c41
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RR-DTS4.ANS by riddler (fire graphics); released in fire0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: deathscape
-# SAUCE Author: riddler
-# SAUCE Group: fire graphics
-# SAUCE Date: 19970902
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: deathscape by riddler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0897-rr-dts4
 
 Write-Host '
 [1;32m▒▒▒[0;32m███▀██▀██████▀▀████████▓▓[0;1;32m░[0;34m [0;1;34m░▓▓█▓░[0;1;31m [0;34m▄[0;1;34m▄▓██████[0;1;34;44m█▓[0;34m▌[0;1;31m [0;34m▄[0;1;34;44m▄[0;1;34;40m██████████████▓▓▒░[0;1;31;40m [0;34m▀▓▓▄█▀▓[0;1;31m [0m

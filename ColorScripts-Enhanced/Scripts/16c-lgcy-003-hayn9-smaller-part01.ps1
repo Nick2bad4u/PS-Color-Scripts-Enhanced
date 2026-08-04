@@ -1,19 +1,4 @@
-﻿# Converted from: hayn9-smaller.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-003/raw/hayn9-smaller.ans
-# Source Revision: archive-sha256:44a26aad0e8691f16e2777283660069b61e5916234397869961a696ba22e89f6
-# Source SHA-256: ffade1f1272bcad2607f14c888cc30e34d317af7c3d0e1a9eb06694975fb8a1b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: hayn9-smaller.ans by hayn9 (Legacy Krew); released in lgcy-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: smaller
-# SAUCE Author: hayn9
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20201105
-# SAUCE Dimensions: 80x79
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: smaller by hayn9 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-003-hayn9-smaller-part01
 
 Write-Host '
                [31m■■______________________________________________■■[0m

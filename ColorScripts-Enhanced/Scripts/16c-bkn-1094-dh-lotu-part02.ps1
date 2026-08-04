@@ -1,13 +1,4 @@
-﻿# Converted from: DH-LOTU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bkn-1094/raw/DH-LOTU.ANS
-# Source Revision: archive-sha256:0b4926846547047cc058a9f9147da439da0893de17058bf72520e5e6355b08ff
-# Source SHA-256: f67b1a25edbd7555a30ab009794c54f1e87c9b5f6d6ec3bfd183fc6be9c81383
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DH-LOTU.ANS by Die Hard (bkn-1094); released in bkn-1094 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: DH-LOTU.ANS by Die Hard | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bkn-1094-dh-lotu-part02
 
 Write-Host '
 [36m████▌[0;1;30m▐[0;1;30;47m▌     [0;1;37;47m░▒▓█[0;1;37;41m██████████████████████▀█▌[0;31m█[0;1;37;41m▐███[0;31m█[0;1;37;41m████████▄[0;31m█[0;1;37;41m▀█████▄[0;31m██[0;1;37;41m▄██▀████▄[0;31m█[0;1;37;41m████[0m

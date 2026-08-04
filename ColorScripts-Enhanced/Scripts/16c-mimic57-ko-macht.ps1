@@ -1,13 +1,4 @@
-﻿# Converted from: ko-macht.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic57/raw/ko-macht.ans
-# Source Revision: archive-sha256:01b4e6ffc2d9406cbdbefe8353e19854b60cc8e7985718b649dcb5401e7eafe8
-# Source SHA-256: 780a82af47ef16936604e5f80609323b05e6bdf0c32c331d50dfe7cd10a9506f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ko-macht.ans by Konami (mimic57); released in mimic57 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ko-macht.ans by Konami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic57-ko-macht
 
 Write-Host '
 [1ml[0m [36m⌐,_[0;37m [0;1;37m`"²[0m [34m☻☻☻☻☻☻☻☻☻☻☻\²[0;36ml☻☻[0;1;36m☻[0;1;37m☻☻☻☻;[0m [1m☻☻[0;1;33mKOSMOS☻☻[0;33ml[0;1;37m;☻☻☻☻☻☻☻[0;1;36m☻[0m  [34m☺☻☻☻☻☻☻☻☻☻[0;1;37m [0;36mb,[0;1;37m`7☻☻☻[0;1;31mKONAMI[0;1;37m☻[0m

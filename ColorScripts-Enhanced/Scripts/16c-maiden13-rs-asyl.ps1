@@ -1,18 +1,4 @@
-﻿# Converted from: RS-ASYL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden13/raw/RS-ASYL.ANS
-# Source Revision: archive-sha256:70e231ea8653cd02d349f122b1a39f57757322f3913b0c8f20698b54c8795e68
-# Source SHA-256: efcc5b55e3bd1fec8994016d4feceb63c1046ce7b7370db65100c41b9cdc76b7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-ASYL.ANS by rorshack (Maiden Brazil); released in maiden13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the asylum, main menu
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19970914
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: the asylum, main menu by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden13-rs-asyl
 
 Write-Host '
  [34m░[0;30;44m▓[0;34;40m░[0;37;40m ▄[0;1;30;47m░▒▒▓▓[0;1;30;40m█▄▄[0m  [31m▄[0;37m ▀▀[0;1;30;47m░░▒▒▓▓[0;1;30;40m███▀▀[0m [30;44m▓[0;34;40m░[0;36;40m ██  ██ [0;1;37;40m                     [0;36m ██ [0;1;30m          [0m

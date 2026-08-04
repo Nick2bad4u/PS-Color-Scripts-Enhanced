@@ -1,18 +1,4 @@
-﻿# Converted from: DT-GZ1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lap-0794/raw/DT-GZ1.ANS
-# Source Revision: archive-sha256:a385ab6f06d1a038608115f838ad55681f691e036bb82be64e681a5ba7982c9a
-# Source SHA-256: e4bd984a30a217cbddc359ac314ad44d6e7889eed1a5f5357f37567e256ae7f7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-GZ1.ANS by Delirium Tremens (Lapse); released in lap-0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Ground Zero
-# SAUCE Author: Delirium Tremens
-# SAUCE Group: Lapse
-# SAUCE Date: 19940214
-# SAUCE Dimensions: 80x25
-# Lines: 98-144
-# Columns: 1-80
+﻿# Artwork: Ground Zero by Delirium Tremens | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lap-0794-dt-gz1-part03
 
 Write-Host '
 [30;43m█[0;1;31;43m█[0;1;31;47m██▓[0;1;31;43m██▓▓▓▓▓▓▓▓▒▒░ ░░ [0;30;43m░░▒▒▒▒▒[0;33;40m░░░░░░[0m                     [33;40m░░[0;30;43m▒[0;33;40m▒▒[0;30;43m░[0;33;40m▓[0;33;43m   [0;1;31;43m░░░░░▒▒▒▒▒▓▓▓[0m

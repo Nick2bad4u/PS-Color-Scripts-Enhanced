@@ -1,19 +1,4 @@
-﻿# Converted from: 5m-araknet-standard.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-004/raw/5m-araknet-standard.ans
-# Source Revision: archive-sha256:c716e28d4b828a0135c19992fe2f71464879479199ebc42fd3d533b5bd3bf4d4
-# Source SHA-256: faa8815a027e4a3139054a9db61c4d15cfd3dd2880910b2023c23f357ac82da9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5m-araknet-standard.ans by 5mooth (Legacy Krew); released in lgcy-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ArakNet
-# SAUCE Author: 5mooth
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20220322
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ArakNet by 5mooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-004-5m-araknet-standard
 
 Write-Host '
                                                                             [31m▄[0m

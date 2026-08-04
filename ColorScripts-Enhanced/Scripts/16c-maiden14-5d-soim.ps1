@@ -1,13 +1,4 @@
-﻿# Converted from: 5D-SOIM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden14/raw/5D-SOIM.ANS
-# Source Revision: archive-sha256:8484fc17833e455250727f80fdc56cc19e17aec4fba2f82e3b86585a9e08cb6c
-# Source SHA-256: 09958ff76bebd98913390855a309170c33defc9b88b9305c0788477d11c1ed6e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5D-SOIM.ANS by Slayer Dreams (maiden14); released in maiden14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: 5D-SOIM.ANS by Slayer Dreams | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden14-5d-soim
 
 Write-Host '
 [1;31m ▄[0;31m▄▄▄▄▄▄▄[0m    [1;31m▀▌[0;31m█████████[0;30;41m░░[0;31;40m▓▀▀▀▀[0;1;31;40m▀[0;31m▐[0;1;31m▀[0;31m▀▀[0;1;30m [0;1;31m▀[0;31m▌[0;1;30m  [0;1;31m▀[0;1;30m  [0;1;31m▀[0;31m▀▀▀▀▀▀▀▀▀▀[0;1;31;41m▄[0;31m████[0;1;30m   [0;31m██[0;1;31;41m░░▓▓[0;1;37;40m██[0;1;31;40m█▀▀▀▌[0;1;30;40m  [0;1;31;40m░[0m

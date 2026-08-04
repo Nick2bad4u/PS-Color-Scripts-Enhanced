@@ -1,20 +1,4 @@
-﻿# Converted from: mt-ninja-alchemy.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy13/raw/mt-ninja-alchemy.ans
-# Source Revision: archive-sha256:3ed7178f860604c6b9786846d46fd13095846b81c16a5324edc4e4b9ea7e6ba8
-# Source SHA-256: 56dc92e56f88c89542ad077cc46c23e9d5ce4a880dd308a3f8d868b022eda793
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mt-ninja-alchemy.ans by misfit (apathy); released in apathy13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ninja alchemy
-# SAUCE Author: misfit
-# SAUCE Group: apathy
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x42
-# SAUCE Font: IBM VGA
-# SAUCE Comments: For the sweet 16 ansi competition.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: ninja alchemy by misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy13-mt-ninja-alchemy
 
 Write-Host '
 [1m██████[0;1;47m▄  ▀[0;1;40m█[0;1;47m▄[0m██▌ [1;30m████████████▓▀[0m  [34m▀▀▀███████████████████[0;1;36;44m░░░[0;34m█▌[0;37m [0;1;30m███████████████▀▀▀[0m

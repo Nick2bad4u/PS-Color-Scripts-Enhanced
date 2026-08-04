@@ -1,17 +1,4 @@
-﻿# Converted from: QP-SUSHI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m-9801/raw/QP-SUSHI.ANS
-# Source Revision: archive-sha256:68027b949f7edfef662f12aa514dfc21e6e156e3984f9866a81997534ce6ce87
-# Source SHA-256: 7d72df62d65828338431d5da080936c41c44bcd8d320ac2431aedf712a893ab2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QP-SUSHI.ANS by quip (mistiris); released in m-9801 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: sushi
-# SAUCE Author: quip
-# SAUCE Group: mistiris
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: sushi by quip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m-9801-qp-sushi
 
 Write-Host '
  ░[1m░░░[0m                      ▄[1m▄▄[0m  [1m"sushi" by quip    [0m

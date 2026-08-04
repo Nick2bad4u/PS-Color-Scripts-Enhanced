@@ -1,18 +1,4 @@
-﻿# Converted from: IS-HELL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/soda05/raw/IS-HELL.ANS
-# Source Revision: archive-sha256:edcd8c09880ef83cd065aedbbbd49213c8a0498be75fefb823526ab25fd48e6f
-# Source SHA-256: 5c652f1f951276834950dfced05b5215facc8d80956b17b1f537f17cacc74c92
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IS-HELL.ANS by prosthesis (sodapop); released in soda05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hellium
-# SAUCE Author: prosthesis
-# SAUCE Group: sodapop
-# SAUCE Date: 19991106
-# SAUCE Dimensions: 80x79
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: hellium by prosthesis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-soda05-is-hell-part01
 
 Write-Host '
                  [1mP   R[0m    [1;44mO[0;34m█[0;37m [0;1;37m   S  [0;34m██[0;1;37;44mTH[0m    [1mE[0m    [1mS[0m    [34m██[0;1;37;44mI[0;1;37;40mS[0m

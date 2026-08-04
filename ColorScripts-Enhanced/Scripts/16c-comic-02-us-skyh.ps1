@@ -1,13 +1,4 @@
-﻿# Converted from: US-SKYH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/comic-02/raw/US-SKYH.ANS
-# Source Revision: archive-sha256:0ba86c1906df5057d07157fa4b3b65932bb15aff46d6bcfbbbdd621804e6de9e
-# Source SHA-256: 4fbb1e0598ce2c6c1886ee98d07b34b7e8c873a0aa78d9876be70ef8903a7a4f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SKYH.ANS by Fonzie + Drax (comic-02); released in comic-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: US-SKYH.ANS by Fonzie + Drax | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-comic-02-us-skyh
 
 Write-Host '
 pi$$$iooi$$?ⁿ~°ⁿⁿⁿ°°ⁿⁿⁿ°°?$$$$$?ⁿⁿⁿⁿ?$$$?ⁿⁿ°°ⁿⁿ?$$$?ⁿⁿ°°°ⁿⁿ°°°°ⁿⁿⁿ?$$$i$$$$io..

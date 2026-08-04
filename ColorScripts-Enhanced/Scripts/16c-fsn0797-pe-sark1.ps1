@@ -1,13 +1,4 @@
-﻿# Converted from: PE!SARK1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn0797/raw/PE!SARK1.ANS
-# Source Revision: archive-sha256:fc1844bde3fb3bc448ff1373e91cb7237c6c2f8016c75eb605f0f71b6d1e80d5
-# Source SHA-256: 780e0dd1a654fb6a3f735a307916655764538d02ea92dbe99afa335fb16d864d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PE!SARK1.ANS by Phonyeye (fsn0797); released in fsn0797 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: PE!SARK1.ANS by Phonyeye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn0797-pe-sark1
 
 Write-Host '
 [31m ▄▄▄▄▄     ▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄    ▄[0;37m ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;37m▄[0m▄▄[1m▄▄[0m▄[1m▄▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US-GIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/reign-01/raw/US-GIN.ANS
-# Source Revision: archive-sha256:78f921a4d6a2d4091b1b2156f8f05c469dfd4455257cccd3643f4a8f8e584068
-# Source SHA-256: 4813bd3d8f377d6626f561d5235b5163495b30345be50413336a86b2ab1d0f9f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GIN.ANS by Lost Soul + Alla Xul (reign/itp); released in reign-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Gin
-# SAUCE Author: lost soul/alla xul
-# SAUCE Group: reign/itp
-# SAUCE Date: 19981013
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Gin by Lost Soul + Alla Xul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-reign-01-us-gin
 
 Write-Host '
 [1m░░░[0m    [33m▄▄▄▓▄[0m       [35m ▄▄▄[0;1;30;45m░░░░░░░▒▒▓▓[0;1;30;40m██▄▄▄[0;35m [0;1;30m▄▄▄█████[0;1;30;45m▓▓▓[0;1;30;40m▄▄▄▄[0;35m   [0;37m [0;1;35m [0;1;30mG[0;1;30;47mi[0;1;30;40mn : +o re[0;1;30;47mv[0;1;30;40molve[0m

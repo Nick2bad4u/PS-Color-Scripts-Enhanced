@@ -1,13 +1,4 @@
-﻿# Converted from: galm.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/xmasgalm12/raw/galm.ans
-# Source Revision: archive-sha256:2e997429552dad0349ceeaab4d167e5ceadcfff1340bda9e145416625f577d2a
-# Source SHA-256: 58d4a319d545c5d1e6192696c99893a8a019879640acc90825f9a480c0140626
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: galm.ans by Maffiosos (xmasgalm12); released in xmasgalm12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: galm.ans by Maffiosos | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-xmasgalm12-galm
 
 Write-Host '
                             [1;35m▄▄▀▀▀▀▀▀▀▀▄▄[0m

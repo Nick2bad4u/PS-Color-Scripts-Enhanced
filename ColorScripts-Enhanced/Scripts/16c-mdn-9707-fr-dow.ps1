@@ -1,18 +1,4 @@
-﻿# Converted from: FR-DOW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9707/raw/FR-DOW.ANS
-# Source Revision: archive-sha256:bfcb83c6d9eb9beac4e313e6cb4a06c0bdcb3b894eaa2b7afbdde4d6e5181bec
-# Source SHA-256: 3e4c1e062aec5419dd075176d16731dd147775e8036c1eb140b3971c26b18232
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FR-DOW.ANS by feaRprOphet (csf/mdn/aif); released in mdn-9707 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: dOw logo
-# SAUCE Author: feaRprOphet
-# SAUCE Group: csf/mdn/aif
-# SAUCE Date: 19970530
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: dOw logo by feaRprOphet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9707-fr-dow
 
 Write-Host '
               [30;46m▓▓▓[0m   [1;30;40mfr<csf/mdn/csf>[0m             [30;46m▓▓▓[0m

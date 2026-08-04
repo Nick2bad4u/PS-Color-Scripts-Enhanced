@@ -1,19 +1,4 @@
-﻿# Converted from: qp-fuel1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel29/raw/qp-fuel1.ans
-# Source Revision: archive-sha256:a7926daad48a6eaeb3fe9fe16388ddf3683cf76fdb5fb4156f51cd91fc2d12a5
-# Source SHA-256: 019a39c77f93085654b9bfbdf04520fc7312ddc976906cf00808a468c275b8f8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: qp-fuel1.ans by Quip (Fuel); released in fuel29 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fuel shatter logo
-# SAUCE Author: Quip
-# SAUCE Group: Fuel
-# SAUCE Date: 20190123
-# SAUCE Dimensions: 80x31
-# SAUCE Font: IBM VGA
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Fuel shatter logo by Quip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel29-qp-fuel1
 
 Write-Host '
 [32;40m▄█▀▀█[0;1;33;42m▄█░[0;32m█▄██▀▀▀▀[0;1;33;42m░░[0;32m▄▐███▀ [0;1;33;42m░[0;32m▄[0;1;33;42m░░░░[0;32m██▄▐██[0;1;33;42m▒▒▄[0;32m██████▄[0;1;33;42m▄▄[0;32m█▄▄ ▄[0;1;33;42m▄██▓▓░░[0;32m███▀▀▀[0;1;33;42m░██▄[0;32m█▀█[0;1;33;42m░░[0;32m▄█▌[0m

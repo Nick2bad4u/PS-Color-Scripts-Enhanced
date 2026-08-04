@@ -1,13 +1,4 @@
-﻿# Converted from: $HOEB0X.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/archive/1995/ioa-1295.zip
-# Source Revision: archive-sha256:112249b38676382e1eb016b891d4cc08a0213c8506b998c54e7f6616851d781c
-# Source SHA-256: 129f4449b6a272e7d716dca615069b8fb0bf16632197df9ecbb1ff57216b6fc5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: $HOEB0X.ANS by Frame (S!P); released in ioa-1295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: $HOEB0X.ANS by Frame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ioa-1295-hoeb0x
 
 Write-Host '
 [40m [0;36mΓ╫ε  [0;34m░[0m                                     [34m░    ▒[0m         [34m░[0m

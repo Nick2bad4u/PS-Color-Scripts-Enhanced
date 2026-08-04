@@ -1,18 +1,4 @@
-﻿# Converted from: CR-LG12.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel12/raw/CR-LG12.ANS
-# Source Revision: archive-sha256:ebe2e7b01f31e0e82aa2702a876007d4ec2dd824b98bdf40e4d59e2b113da7e4
-# Source SHA-256: e128848e21b7d58b16e7dd18ae16015d78a13925a24b21f3b1962d1d11aef8a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CR-LG12.ANS by Creator (Fuel Productions); released in fuel12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ansi logos for pack 12
-# SAUCE Author: Creator
-# SAUCE Group: Fuel Productions
-# SAUCE Date: 19970401
-# SAUCE Dimensions: 80x25
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Ansi logos for pack 12 by Creator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel12-cr-lg12
 
 Write-Host '
 [1;30m─( [0;1;37mbad[0;1;30m )────────────────────────────────────────────────────────────────────────[0m

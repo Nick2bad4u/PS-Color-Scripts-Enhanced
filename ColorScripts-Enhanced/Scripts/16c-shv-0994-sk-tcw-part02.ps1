@@ -1,18 +1,4 @@
-﻿# Converted from: SK-TCW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shv-0994/raw/SK-TCW.ANS
-# Source Revision: archive-sha256:6fef501305afa1ee8c62f4d65ae68ce468913963008b7665f76edae1cb42cd85
-# Source SHA-256: da8cbebdb6cb52cc1bf7a21eeca29d18232af2ad49682735a6d2f4be52208acd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK-TCW.ANS by Shrike + The Guardian (Shiver); released in shv-0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Crimson Waters
-# SAUCE Author: Shrike
-# SAUCE Group: Shiver
-# SAUCE Date: 19940810
-# SAUCE Dimensions: 80x25
-# Lines: 33-65
-# Columns: 1-80
+﻿# Artwork: The Crimson Waters by Shrike + The Guardian | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shv-0994-sk-tcw-part02
 
 Write-Host '
 [35m▓▓▄ [0;30;41m▄[0;1;31;41m░▒░░░   [0;1;30;41m▄[0;1;30;40m██▀▀ [0;30;41m▄▄▄           [0;1;30;41m▀▀[0;1;30;40m▀[0;30;41m▀▀  [0;1;30;41m▀[0;30;41m▀ [0;1;30;41m▄[0;1;30;40m█▀▄[0;1;30;47m█[0;1;30;40m█▀ [0;30;41m▌[0;1;30;41m░    ▀▄  [0;1;31;41m░░         [0;1;30;41m██[0;1;30;40m█▌ [0;35m▐▓▒[0m

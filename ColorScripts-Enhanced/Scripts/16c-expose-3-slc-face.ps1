@@ -1,18 +1,4 @@
-﻿# Converted from: SLC%FACE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/expose-3/raw/SLC%25FACE.ANS
-# Source Revision: archive-sha256:c524942ac8d53334a2dddf3999dcc9e9f427d4f637a4395c37c9577462457908
-# Source SHA-256: 416b66e5b4c84ea3469a4a4e929ea08a5cc4eeee3f27fa563e6f2b9056b39fed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SLC%FACE.ANS by silence (<-- (xpo) -->); released in expose-3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: first_face_try'out
-# SAUCE Author: silence
-# SAUCE Group: <-- (xpo) -->
-# SAUCE Date: 19970604
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: first_face_try'out by silence | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-expose-3-slc-face
 
 Write-Host '
                                             ▄▄▄▄[1;30m▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: RG-DEVPO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lcd-a002/raw/RG-DEVPO.ANS
-# Source Revision: archive-sha256:8b5679a927020dfb5f6f49dc17dcd2556a8c7cb139b041c7e9bec87c202d787a
-# Source SHA-256: c642231f9e69b986c2f47b297d225390fcaa14f8e4e1b82f52c49a8ed2d41b82
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RG-DEVPO.ANS by Rimgale (LUCiD); released in lcd-a002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Devils Point
-# SAUCE Author: Rimgale
-# SAUCE Group: LUCiD
-# SAUCE Date: 19941209
-# SAUCE Dimensions: 80x25
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: Devils Point by Rimgale | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lcd-a002-rg-devpo
 
 Write-Host '
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀ [0;1;34m▀▄[0;34m▀▀▀▄▄[0;1;30m▀▀▀▀[0;34m▄█▄[0;1;30m▀[0;34m▄██▀▄▀██▄[0;1;30m▀▀▀▀▀▀▀[0;1;34m▄[0;1;34;44m▓[0;1;34;40m▄[0;1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SMP-AVE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-19/raw/SMP-AVE.ANS
-# Source Revision: archive-sha256:db429aaaa9cca2e4296dcb178b9b345b980b5c7d6fe930188ea53fede20ed269
-# Source SHA-256: 056605a4ebc610a9bfadc1fc32d18139605099a8d5ba4a1af66b99c53749a9b1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-AVE.ANS by Shrimp (AWE Lettering); released in awe-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Avenge Promotional
-# SAUCE Author: Shrimp
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981114
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Avenge Promotional by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-19-smp-ave
 
 Write-Host '
 shrimp[1mawe[0m    [33m▀[0;1;31m▄[0m [1;31m▌[0m   [33m░[0;37m [0;32m░[0;30;42m▓[0m          [32;40m▐[0m                                [33;40m░[0m    [33;40m▐[0m

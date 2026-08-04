@@ -1,19 +1,4 @@
-﻿# Converted from: bw_ACiDTRIP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_acid_trip/raw/bw_ACiDTRIP.ANS
-# Source Revision: archive-sha256:c0717ff5cb7d462ed7fa9a55edd7235adbd3f09e01132486021497c9281171b6
-# Source SHA-256: 8214d7385ba901a5671d1cce164e4eb76a593870aaf8744f7c575f566a249981
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bw_ACiDTRIP.ANS by binary walker (blocktronics); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ACiD trip
-# SAUCE Author: binary walker
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x131
-# SAUCE Font: IBM VGA
-# Lines: 89-131
-# Columns: 1-80
+﻿# Artwork: ACiD trip by binary walker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-acid-trip-bw-acidtrip-part03
 
 Write-Host '
 [1;31m [0;1;32;42m▐█████[0;1;31;40m [0;1;35;40m███ [0;36m▀█▀[0;1;35m  ▀  ▐█[0;1;33m▒[0;1;35m ▀▄▄    ▄ ▀██▐▌  ▓  [0;1;33m▄▄▄█[0;1;35m [0;1;33m▄▄[0;1;35m [0;1;33m▄▄[0;1;35m ▀██▄█▀ ▀[0m▄[1;31m [0;32m▀[0;1;32;42m▓▓[0;32m▀▀▄[0;1;31m [0;32m▒[0;1;32;42m█▌[0;32m▒[0;1;31m [0;1;32;42m▒[0;32m▌[0;35m▐[0;1;35;45m▄[0m

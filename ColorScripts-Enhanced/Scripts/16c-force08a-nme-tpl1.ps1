@@ -1,18 +1,4 @@
-﻿# Converted from: NME-TPL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force08a/raw/NME-TPL1.ANS
-# Source Revision: archive-sha256:0905e3c7088720102cb865257748e92163ff43248c29c1868f516a99a6c2f5b4
-# Source SHA-256: 042a387d094a4118495fd38106ebb2857fd2a4fc7302c79721a25e78c61c23dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NME-TPL1.ANS by nme (force); released in force08a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Temple
-# SAUCE Author: nme
-# SAUCE Group: force
-# SAUCE Date: 19960511
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: The Temple by nme | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force08a-nme-tpl1
 
 Write-Host '
  [35ml ,$$ss[0;1;35m$[0;35m$s [0;1;35m·[0;35m²[0;1;35m²$²²²[0;1;37m,$²[0m²²"''[33m,  [0;1;33msS$² ,s,..`"²²sss,.   [0m,$S [1m,[0;33m`.[0;37m²s[0;1;37m, [0;1;35m²²$[0;35m²²[0;1;35m· [0;35ms$$ss$$. l[0m

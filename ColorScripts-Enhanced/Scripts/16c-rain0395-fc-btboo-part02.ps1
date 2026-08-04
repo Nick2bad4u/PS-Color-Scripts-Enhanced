@@ -1,18 +1,4 @@
-﻿# Converted from: FC-BTBOO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rain0395/raw/FC-BTBOO.ANS
-# Source Revision: archive-sha256:419c40e633f090ff237a772ca40b981e5580df475c4ebb3e63ac4a716a857123
-# Source SHA-256: aca3678343266fdbe784437e27c7d0582fbbe2458947db8d555e6645637b7d0a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FC-BTBOO.ANS by Frontal Cortex (R?iN); released in rain0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: By the red book
-# SAUCE Author: Frontal Cortex
-# SAUCE Group: R?iN
-# SAUCE Date: 19950111
-# SAUCE Dimensions: 80x73
-# Lines: 35-70
-# Columns: 1-80
+﻿# Artwork: By the red book by Frontal Cortex | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rain0395-fc-btboo-part02
 
 Write-Host '
                                         [37;40m▀▀[0;30;47m▓▓▒  [0;1;37;47m▒░  [0;30;47m░▒▓[0m

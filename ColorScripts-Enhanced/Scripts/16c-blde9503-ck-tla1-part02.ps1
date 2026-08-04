@@ -1,18 +1,4 @@
-﻿# Converted from: CK-TLA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9503/raw/CK-TLA1.ANS
-# Source Revision: archive-sha256:72185d7ca3df5653ee1a42b2eb8e244cb5d2597fdc0961f51b76f8fa01da3a75
-# Source SHA-256: 118a3592e46a3c47559edc32f28171fa857ab81384a003868445ad8e9c7f6b95
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CK-TLA1.ANS by chromatik (Blade Productions); released in blde9503 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the lethal aspect
-# SAUCE Author: chromatik
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19950226
-# SAUCE Dimensions: 80x25
-# Lines: 50-97
-# Columns: 1-80
+﻿# Artwork: the lethal aspect by chromatik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9503-ck-tla1-part02
 
 Write-Host '
 [33m▄█[0;33;42m▓[0;33;40m█▄[0;33;42m▓[0;33;40m█▀▄█▓[0;33;42m▓[0;33;40m▄▄▄[0m    [33;40m■[0m  [1;31;40m▀[0;1;31;41m▓[0;1;31;40m███▄▄ [0m  [1;31;40m▀▀█▓█[0;1;31;47m▓[0;1;31;40m████▀███[0;1;31;47m▓▓[0;1;31;40m██▓▀▀░[0m  [31m ▄▓[0m [34m▀[0m  [31m▄▓████▓███▄ [0m [34m▀[0m

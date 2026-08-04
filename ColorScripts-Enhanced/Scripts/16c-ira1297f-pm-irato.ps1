@@ -1,18 +1,4 @@
-﻿# Converted from: PM-IRATO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira1297f/raw/PM-IRATO.ANS
-# Source Revision: archive-sha256:aaf8efb3855bf52b486533186764296c0de75f15c8aab234da34f02a9e2d45f6
-# Source SHA-256: da333fe888c44df7a8dc2d0f4b5a2bdbd8fcd9431d179339fea6e3f99dc295cc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-IRATO.ANS by Phantasy Man (irato); released in ira1297f and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: %&irato
-# SAUCE Author: Phantasy Man
-# SAUCE Group: irato
-# SAUCE Date: 19800101
-# SAUCE Dimensions: 80x28
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: %&irato by Phantasy Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira1297f-pm-irato
 
 Write-Host '
 [34m    [0;31m░[0;34m  [0m    [37m▌[0m     [31m░[0m   [1;37m▌[0m   [31m [0;34m  [0;31m░[0;34m   [0;31m░[0;34m    [0;31m░[0;34m  [0;31m░░░░░░░[0;37m▐ [0;31m░░░░░░░░░░░▒▒▒▒▓▓▓▓▓▓▓▓██████[0;1;31;41m░░[0m

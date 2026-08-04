@@ -1,15 +1,4 @@
-﻿# Converted from: DIS-HD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0297/raw/DIS-HD1.ANS
-# Source Revision: archive-sha256:ecfcd3f5cd2c4412c60edbfa5c15fbea724948a8a18d0e8a8931276c9082657e
-# Source SHA-256: 21d08f72bf21d72eafca3570e44145df64de04d86cd846f549e3627f3a379d22
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DIS-HD1.ANS by Dislogic (root0297); released in root0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Hood
-# SAUCE Author: Dislogic
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: The Hood by Dislogic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0297-dis-hd1
 
 Write-Host '
 

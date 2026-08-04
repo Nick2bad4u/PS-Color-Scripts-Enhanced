@@ -1,20 +1,4 @@
-﻿# Converted from: 7k-arakdroid.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-001/raw/7k-arakdroid.ans
-# Source Revision: archive-sha256:589c804657c8d15ba617f7c0fd80723e4505d519989b80eba9584665be49eb54
-# Source SHA-256: 21c90c11aa678abdd145ede1ae8b1b2347284f8e3733509f77906b508c1f61a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 7k-arakdroid.ans by The Knight (Legacy Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Araknet Droid
-# SAUCE Author: The Knight
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20191124
-# SAUCE Dimensions: 80x106
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Droid artwork for ArakNet Scene Network.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Araknet Droid by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-001-7k-arakdroid-part01
 
 Write-Host '
 [30;40m [0;1;30;40m        [0;1;35;40m          [0;35m [0;1;30m   [0;1;35m       [0;1;30m [0;1;35m [0;1;30m         [0;35m       [0m

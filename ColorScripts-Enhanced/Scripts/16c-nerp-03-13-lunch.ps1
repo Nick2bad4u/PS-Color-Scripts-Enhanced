@@ -1,18 +1,4 @@
-﻿# Converted from: 13-LUNCH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-03/raw/13-LUNCH.ANS
-# Source Revision: archive-sha256:9ea26ff16b2d0162532c602fba75b69e539d71620a3b4e34b796de886326619c
-# Source SHA-256: c288d22b4c2756440fd37f20a3ea34d3478886b064289af82dd859fffbc2cc57
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 13-LUNCH.ANS by 13 (nerp); released in nerp-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the lunchbox
-# SAUCE Author: 13
-# SAUCE Group: nerp
-# SAUCE Date: 19971224
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: the lunchbox by 13 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-03-13-lunch
 
 Write-Host '
     [33m [0;1;33m▄▌[0m                [1;33m█[0;33m▄[0m                                                [1;33m▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: IPH-RWOP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/iph-003/raw/IPH-RWOP.ANS
-# Source Revision: archive-sha256:6a27b1d52efdc147fa15e3751ff5db2ed20c331ee5c71b978e1e747abdad0342
-# Source SHA-256: 7de43f4b79b444ed7852352f87a732e31f00231c1f9f3ccbbdc3997b1db679ac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IPH-RWOP.ANS by Interphaze (iph-003); released in iph-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: IPH-RWOP.ANS by Interphaze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-iph-003-iph-rwop
 
 Write-Host '
                                    [36m............[0m

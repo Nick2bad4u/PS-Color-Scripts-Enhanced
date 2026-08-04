@@ -1,13 +1,4 @@
-﻿# Converted from: LM-SPIT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sadist06/raw/LM-SPIT.ANS
-# Source Revision: archive-sha256:1eda2c553fc1b343de31ccaf53757c655038556d26b3d8884755f7500b3b4608
-# Source SHA-256: e36892131a1bf5094d1844af0415c4394c1ee35fef2698472ca02d04e204e99e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LM-SPIT.ANS by Lichmist (sadist06); released in sadist06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: LM-SPIT.ANS by Lichmist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sadist06-lm-spit
 
 Write-Host '
 [1;34m           [0;1;31m▄▄▄▄▄▄▄[0;1;34m                      [0m ▄▄▄▄▄▄▄▄▄▄▄ [1;34m                           [0m

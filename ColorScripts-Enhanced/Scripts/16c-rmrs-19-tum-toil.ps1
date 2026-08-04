@@ -1,18 +1,4 @@
-﻿# Converted from: TUM-TOIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-19/raw/TUM-TOIL.ANS
-# Source Revision: archive-sha256:51e7ebafde7b29c06daae7a5ae4da992f41728aec84b8b28502f57cce3cd0f9a
-# Source SHA-256: d67ad48f756994807709941f08b8339c84b343bda844305605c22f1af83aff75
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TUM-TOIL.ANS by The Upright Man (Remorse Productions); released in rmrs-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Toil
-# SAUCE Author: The Upright Man
-# SAUCE Group: Remorse Productions
-# SAUCE Date: 19980104
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Toil by The Upright Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-19-tum-toil
 
 Write-Host '
 [32m$*,.,+┘`[0;34m,g,[0m    [1;31m [0;1;37m.[0;1;31m    [0m                                           [32m :[0m   [32m`,┘''`. [0;37m  [0;32m$[0m

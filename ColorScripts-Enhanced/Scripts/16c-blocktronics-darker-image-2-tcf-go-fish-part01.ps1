@@ -1,16 +1,4 @@
-﻿# Converted from: tcf - go fish.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_darker_image_2/raw/tcf%20-%20go%20fish.ans
-# Source Revision: archive-sha256:7282b405cc52219ce7cf6cd9d097796f1b25fc898e4c29fdb9f37c375d595996
-# Source SHA-256: 799de56b445f149521d10c9c477299c4a470b02b6248a51795dac34c8f5220a5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tcf - go fish.ans by Tcf (blocktronics_darker_image_2); released in blocktronics_darker_image_2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20171013
-# SAUCE Dimensions: 80x181
-# SAUCE Font: IBM VGA
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: tcf - go fish.ans by Tcf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-darker-image-2-tcf-go-fish-part01
 
 Write-Host '
 [37;40m ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m

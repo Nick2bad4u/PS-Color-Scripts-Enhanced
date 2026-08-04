@@ -1,13 +1,4 @@
-﻿# Converted from: AVG-LUD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense23/raw/AVG-LUD1.ANS
-# Source Revision: archive-sha256:e2add926334384b687d9eba0e0409e37bedaae18d27036e0188f92e8f6312677
-# Source SHA-256: b63720c81f26366e3e56c2bf1c074a14d68af4a7eca3ceec26a0c1c5d9933735
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-LUD1.ANS by Avenging Angel (sense23); released in sense23 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 49-95
-# Columns: 1-80
+﻿# Artwork: AVG-LUD1.ANS by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense23-avg-lud1-part02
 
 Write-Host '
 [36m░▓ ███░▓▓ ░[0;37m [0;1;35;45m▄[0;1;35;47m ▄[0;1;35;45m█[0;35m▀[0;31m▄[0;1;31;41m ▒▒██ █▄[0m [35m▒[0;1;35;45m▓██▓▓[0;35m█[0;37m [0;1;35;45m▀█[0;1;35;47m░░[0;1;35;45m██[0m [1;35;45m▀[0;1;35;47m█░░░[0m [1;35;45m▄[0;1;35;47m░░[0;1;35;45m█▀[0;35m▀▄[0;1;35;45m▄[0;1;35;47m███[0;1;35;45m█▓[0;35m██[0;1;37;45m ██[0;35m▄▀[0;1;35;45m▓█[0;1;35;47m░░[0;1;35;45m▄[0m [31m▄▄[0;36m▀[0;1;36;46m▀█▒[0m

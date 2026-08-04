@@ -1,18 +1,4 @@
-﻿# Converted from: PR-CASTL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vpr0695/raw/PR-CASTL.ANS
-# Source Revision: archive-sha256:78c3ace83360714b9f57ab0b5b4ffd040155a161a665ae8c182b834426edfb2b
-# Source SHA-256: e333f4bc2501d479f589d23e96a087e3ba3234e63d359e3e70446aecb55fd099
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR-CASTL.ANS by prism (vapor); released in vpr0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: castle ravenloft
-# SAUCE Author: prism
-# SAUCE Group: vapor
-# SAUCE Date: 19950605
-# SAUCE Dimensions: 80x58
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: castle ravenloft by prism | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vpr0695-pr-castl-part01
 
 Write-Host '
  [34m▄█████████████████████████████▀▀▀[0m

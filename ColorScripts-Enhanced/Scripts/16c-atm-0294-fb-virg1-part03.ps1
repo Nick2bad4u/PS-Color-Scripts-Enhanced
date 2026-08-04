@@ -1,13 +1,4 @@
-﻿# Converted from: FB-VIRG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/atm-0294/raw/FB-VIRG1.ANS
-# Source Revision: archive-sha256:ec69de861bb9c5fa14955a518170ca9a952fbcf9fa8007e351a723feb534c81b
-# Source SHA-256: d5831141bca51ac1adcff4b20186635643cf03a59e2fb9fdce7f7667073af034
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FB-VIRG1.ANS by Frost Byte (atm-0294); released in atm-0294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 58-107
-# Columns: 1-80
+﻿# Artwork: FB-VIRG1.ANS by Frost Byte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-atm-0294-fb-virg1-part03
 
 Write-Host '
                                  [31m▄[0;1;31;41m░░▒▓[0;1;31;40m▄  ▄[0;1;31;41m▓▒░░[0;31m▄[0m

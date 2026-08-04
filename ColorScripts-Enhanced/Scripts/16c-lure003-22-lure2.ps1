@@ -1,18 +1,4 @@
-﻿# Converted from: 22-LURE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lure003/raw/22-LURE2.ANS
-# Source Revision: archive-sha256:1ff57f893971666a5780ed06387959ae5ebc9c163a5e118549c7818f33792253
-# Source SHA-256: 2892201e6f3fa99526a359ea01933749aa408d6b61172dd3c63a06625c9f718d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 22-LURE2.ANS by catch22 (lure); released in lure003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: lure ans2002
-# SAUCE Author: catch22
-# SAUCE Group: lure
-# SAUCE Date: 20020510
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: lure ans2002 by catch22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lure003-22-lure2
 
 Write-Host '
 [36m░░░░░░░[0m                     [36m▄▄[0;1;36m▄▄▄▄[0m

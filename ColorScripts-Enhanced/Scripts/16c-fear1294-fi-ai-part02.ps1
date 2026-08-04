@@ -1,18 +1,4 @@
-﻿# Converted from: FI-AI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fear1294/raw/FI-AI.ANS
-# Source Revision: archive-sha256:ce48958b81ce02cd7817b7016d49203a4a8b0d17f60c6c2aca6560a372e9e82c
-# Source SHA-256: 9b17696a23bb038d181e4efa7b097048a4a362c9e22af1bb065ea90eb7202d32
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FI-AI.ANS by Future Imperfect (Fear); released in fear1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Artists inc
-# SAUCE Author: Future Imperfect
-# SAUCE Group: Fear
-# SAUCE Date: 19941227
-# SAUCE Dimensions: 80x112
-# Lines: 40-77
-# Columns: 1-80
+﻿# Artwork: Artists inc by Future Imperfect | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fear1294-fi-ai-part02
 
 Write-Host '
                                                               [1;30;40m▄▄▄ [0m▄█ [32m██▌[0m [32m▒[0m [32m▓[0;1;30;42m░▒▒▒[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: ULT-BOOZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-014/raw/ULT-BOOZ.ANS
-# Source Revision: archive-sha256:38aae4e6b3e943656501d868e7ccbeee319f7541f5197f0cc3aeed0b83030214
-# Source SHA-256: 4f969f7588ef6fa6cdb7ada179d9ea06d309f2ca7bd5b82c5b431a2942b8d589
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ULT-BOOZ.ANS by Ultimate (rib-014); released in rib-014 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ULT-BOOZ.ANS by Ultimate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-014-ult-booz
 
 Write-Host '
              [34m-ult-[0;37m [0;35m░▄▄[0;1;35;45m▄[0;35m▄░[0;37m  [0;34m▄▄▄[0;1;34;44m▄[0;34m▓██▀▀▀ ▀[0m      [35m░▄▄▄▄▄[0;37m  [0;34m▄░░[0m

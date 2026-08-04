@@ -1,18 +1,4 @@
-﻿# Converted from: VDR-BR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0997/raw/VDR-BR.ANS
-# Source Revision: archive-sha256:d6ce507ee095ab9c7ce1d91178b57bff0c61babde42a3957415461a430e18407
-# Source SHA-256: 78e1dd61df76ee159921e75ef7c33e2554dc72106feb675d1842eeeb98d010c4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VDR-BR.ANS by Vader-Sweden + Bym (poffelipoff); released in plf-0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: black rain
-# SAUCE Author: Vader
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19970920
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: black rain by Vader-Sweden + Bym | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0997-vdr-br
 
 Write-Host '
                                                             [1;33m▀[0m

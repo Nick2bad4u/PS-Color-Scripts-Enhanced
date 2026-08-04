@@ -1,17 +1,4 @@
-﻿# Converted from: SX-BLACK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avail001/raw/SX-BLACK.ANS
-# Source Revision: archive-sha256:9cbaa787b6662030e213c61424dac56ad6a32dd1e4c1c3746be3d708384511f0
-# Source SHA-256: 6d1c635873f0955715aeeaff52656b93768fc83b2aa0a061201af2a28c2fbd37
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SX-BLACK.ANS by Sinister x (aVaiL); released in avail001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Black Thursday
-# SAUCE Author: Sinister x
-# SAUCE Group: aVaiL
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Black Thursday by Sinister x | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avail001-sx-black
 
 Write-Host '
                    ▄▄▄▄▄▄▄

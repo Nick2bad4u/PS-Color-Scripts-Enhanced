@@ -1,13 +1,4 @@
-﻿# Converted from: TW-MT8.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/atm-0294/raw/TW-MT8.ANS
-# Source Revision: archive-sha256:ec69de861bb9c5fa14955a518170ca9a952fbcf9fa8007e351a723feb534c81b
-# Source SHA-256: a90ecd88a63b512468f2ec264cff7e733f59da6f64a27b87c642f54c62f52158
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TW-MT8.ANS by The Watcher (atm-0294); released in atm-0294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: TW-MT8.ANS by The Watcher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-atm-0294-tw-mt8-part02
 
 Write-Host '
 [1;31;40m    [0;31m█[0;1;31;41m▓[0;31m██[0;1;31;41m▒▒▒[0;31m█▀   [0;31;41m [0;1;31;41m▓▓[0;31m█▄[0m       [1;31;41m▒▒[0;31m▀    [0;1;31;41m▒▒[0;31m█[0m       [1;31;41m▓▓▒[0;31m█[0m      [1;31;41m░[0m   [31m██[0;1;31;41m▓█▓ [0;31m█▄  [0;1;31;41m░[0m     [1;31;41m░[0m

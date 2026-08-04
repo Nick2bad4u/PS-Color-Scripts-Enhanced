@@ -1,13 +1,4 @@
-﻿# Converted from: MR-KOD3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rctpak02/raw/MR-KOD3.ANS
-# Source Revision: archive-sha256:c99af2bcda51b08e86d94290660fb5f051eb3352220923189f65deaddef681a7
-# Source SHA-256: 0df89e861af3542c7630d65a062c69a53fa0097dcaf1c3d864b1ccc5ed3b00a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-KOD3.ANS by Mirage (rctpak02); released in rctpak02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 35-55
-# Columns: 1-80
+﻿# Artwork: MR-KOD3.ANS by Mirage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rctpak02-mr-kod3-part02
 
 Write-Host '
              [1;30m··[0m··[1m··■··[0;1;30mK[0;1m·[0mA·S·[1mL[0m·[1mE[0;1;30m·· [0;1mO F   D A[0;1;30m·[0;1mR[0;1;30m·[0;1mK[0m·[1mN[0m·E·S[1m·[0;1;30mS[0;1m··■··[0m··[1;30m··[0m

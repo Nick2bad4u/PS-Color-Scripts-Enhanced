@@ -1,13 +1,4 @@
-﻿# Converted from: LM-DSTR1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9509a/raw/LM-DSTR1.ICE
-# Source Revision: archive-sha256:20af9d60befd4eb8ed55a3feef09d914170b95e7d33f29f72fa18081e92e2aaa
-# Source SHA-256: 33f13f76be7522b178a9b28d673aa03457e4e71fd93d12a536e7716503813c45
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LM-DSTR1.ICE by Lemonade (ice9509a); released in ice9509a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: LM-DSTR1.ICE by Lemonade | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9509a-lm-dstr1-part01
 
 Write-Host '
 [1;33m   [0;33m [0;37m [0;33m▀▀▓▄[0m    [1;37m█ [0m           [1m▄▌ [0m       [33m█[0;1;33;43m [0;33m██[0;1;33;43m░[0;33m██▓▌[0m         [33m▀▓▓█▄ ▀[0;1;33;43m▒▒░░[0;33m████[0;1;33;43m░[0;33m▄▀█ ▐██▓█[0m

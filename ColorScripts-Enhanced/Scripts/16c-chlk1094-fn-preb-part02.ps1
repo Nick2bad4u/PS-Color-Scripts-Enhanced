@@ -1,18 +1,4 @@
-﻿# Converted from: FN-PREB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/chlk1094/raw/FN-PREB.ANS
-# Source Revision: archive-sha256:fdd1cb122b9e0af3bb8ce0709423200b7f5f99c1d0915044d5bb66da78a8dde8
-# Source SHA-256: 3d25cd78a574b305c9829e78eb176c2d03004c4b2b74f438ff088beab7d7b604
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FN-PREB.ANS by Fenric & New School (CHALK); released in chlk1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Packaged Rebellion
-# SAUCE Author: Fenric & New School
-# SAUCE Group: CHALK
-# SAUCE Date: 19941016
-# SAUCE Dimensions: 80x25
-# Lines: 49-97
-# Columns: 1-80
+﻿# Artwork: Packaged Rebellion by Fenric & New School | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-chlk1094-fn-preb-part02
 
 Write-Host '
      [32m▒░▓▒▓█[0;1;32;42m░[0;32m▐▄[0m        [33m░▒  ▄▄▀▀▀▀██░░ ▒[0;33;43m [0;1;37;43m▒▒[0;33m▐██[0;1;37;43m▒▓[0;1;37;40m▄ ▄[0;1;37;43m▓░░[0;33m█▓▌[0m        [32m▀▌████[0;1;32;42m▓░▓▒[0;1;32;40m▌[0m

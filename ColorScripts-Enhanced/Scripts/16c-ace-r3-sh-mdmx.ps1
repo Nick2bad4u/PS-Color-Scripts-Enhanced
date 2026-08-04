@@ -1,13 +1,4 @@
-﻿# Converted from: SH-MDMX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ace-r3/raw/SH-MDMX.ANS
-# Source Revision: raw-sha256:f648a5581ed23fa88a8c22192d0605754111aaac596fbd1720059796eba1286d
-# Source SHA-256: f648a5581ed23fa88a8c22192d0605754111aaac596fbd1720059796eba1286d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SH-MDMX.ANS by Storm Hawk (ace-r3); released in ace-r3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: SH-MDMX.ANS by Storm Hawk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ace-r3-sh-mdmx
 
 Write-Host '
           [1;37m·[0m                                                        [1;37m·[0m

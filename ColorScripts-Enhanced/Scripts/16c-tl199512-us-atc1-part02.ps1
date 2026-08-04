@@ -1,18 +1,4 @@
-﻿# Converted from: US-ATC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl199512/raw/US-ATC1.ANS
-# Source Revision: archive-sha256:5fe53ca39169434efb75bd9b36a17fd1bcaf0eaf6e956a4066650232cbdc99ec
-# Source SHA-256: 79a82aeec3732edb7b37c5139589eba8d65af5e0aeb1660694c627d520456e49
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ATC1.ANS by Hoax-Tl + Smooth (TekLordZ); released in tl199512 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: A Touch Of Class Promo
-# SAUCE Author: Hoax & Smooth
-# SAUCE Group: TekLordZ
-# SAUCE Date: 19951203
-# SAUCE Dimensions: 80x83
-# Lines: 44-83
-# Columns: 1-80
+﻿# Artwork: A Touch Of Class Promo by Hoax-Tl + Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl199512-us-atc1-part02
 
 Write-Host '
 [36m█████████████████████████████▀[0;34m [0;1;34m█[0;34m█████ [0;1;34;44m█[0;34m████▄[0;37m [0;1;37m. :[0;1;37;47m▓▓▌[0m [1m    [0;1;30m▄[0;33m [0;37m [0;1;34;44m█▓▒░[0;34m████[0;37m [0;34m▓▓▓██████▓▓[0m

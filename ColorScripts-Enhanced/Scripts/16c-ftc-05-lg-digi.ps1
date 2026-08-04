@@ -1,18 +1,4 @@
-﻿# Converted from: LG-DIGI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ftc-05/raw/LG-DIGI.ANS
-# Source Revision: archive-sha256:5c0404cf283912e8831200a8f9dcc6d8ce0402b99e4f686fa062c4223f57d38b
-# Source SHA-256: cc2b3eeb0ae155c526b5d7956b14b13c1ebe39c6a6a9192fe0e1a5b9809d9e5a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LG-DIGI.ANS by lawn genie (ftc); released in ftc-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: digi city
-# SAUCE Author: lawn genie
-# SAUCE Group: ftc
-# SAUCE Date: 19960913
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: digi city by lawn genie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ftc-05-lg-digi
 
 Write-Host '
       [33m▄█▓▄████▓▓▄[0m         [1;37m▄▄▄▄▓▄▄▄▄▄▄[0m     [1;30;47m▓[0;1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;47m▓[0m

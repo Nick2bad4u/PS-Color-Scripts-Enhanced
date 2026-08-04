@@ -1,18 +1,4 @@
-﻿# Converted from: SM!BBS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0398/raw/SM!BBS.ANS
-# Source Revision: archive-sha256:f8b78bce0ded523528171ee9d37c603a9a96c5e8abf885d101375334b587e435
-# Source SHA-256: 42271dae813153fb902175144358b6ede21b4b026842dec2429b943ab6ae5df6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM!BBS.ANS by siMs (poffelipoff); released in plf-0398 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Bbs.
-# SAUCE Author: siMs
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19980315
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Bbs. by siMs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0398-sm-bbs
 
 Write-Host '
 [1m░ ██▄ ░░  ██████▀▀[0m▀ [34m  [0;33m           [0;37m  [0;1;30m▀[0m▀[1m▀▀[0;1;47m▀████[0;1;40m███████[0m     [1m▐█████████[0m [1m████[0;1;47m▓▓[0;1;40m██████[0m

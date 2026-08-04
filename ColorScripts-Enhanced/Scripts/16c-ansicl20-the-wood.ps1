@@ -1,13 +1,4 @@
-﻿# Converted from: THE_WOOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansicl20/raw/THE_WOOD.ANS
-# Source Revision: raw-sha256:909b1e99c4e14cd25aac7fe0352bf36911fc15fb95c1462405851fa30b413aed
-# Source SHA-256: 909b1e99c4e14cd25aac7fe0352bf36911fc15fb95c1462405851fa30b413aed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: THE_WOOD.ANS by Jan Lobianco (ansicl20); released in ansicl20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: THE_WOOD.ANS by Jan Lobianco | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansicl20-the-wood
 
 Write-Host '
  [32;42ma0                                                               [0m

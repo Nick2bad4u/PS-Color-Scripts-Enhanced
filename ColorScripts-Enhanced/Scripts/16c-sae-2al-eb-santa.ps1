@@ -1,13 +1,4 @@
-﻿# Converted from: EB-SANTA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sae-2al/raw/EB-SANTA.ANS
-# Source Revision: archive-sha256:75ca5cec7c53a5522064ee2742f27bb7393eeba7566985bdad144cc7fc9d8830
-# Source SHA-256: 9bf535a4fab5db94c5303b427ac41e9b76a03c8e90423665273a378ce1dd66a4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EB-SANTA.ANS by Eboy (sae-2al); released in sae-2al and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: EB-SANTA.ANS by Eboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sae-2al-eb-santa
 
 Write-Host '
 [34m████████████████████████████████████████████████████████████████████████████████[0m

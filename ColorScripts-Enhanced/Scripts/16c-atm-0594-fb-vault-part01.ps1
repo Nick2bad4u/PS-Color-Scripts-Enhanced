@@ -1,13 +1,4 @@
-﻿# Converted from: FB-VAULT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/atm-0594/raw/FB-VAULT.ANS
-# Source Revision: archive-sha256:a7745e0553a5b6c51bb70e798c51baa47b7f819d65244d42098c318b7e86f80b
-# Source SHA-256: 22d6a07094de8fe918444c745b367a800311421e6aacdd37c9f5fcfc3ff4d876
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FB-VAULT.ANS by Frost Byte (atm-0594); released in atm-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: FB-VAULT.ANS by Frost Byte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-atm-0594-fb-vault-part01
 
 Write-Host '
                        [34m▀████████████████████████████████▀[0m

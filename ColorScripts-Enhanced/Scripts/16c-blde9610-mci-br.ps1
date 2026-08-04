@@ -1,18 +1,4 @@
-﻿# Converted from: MCI-BR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9610/raw/MCI-BR.ANS
-# Source Revision: archive-sha256:82b9914588880433fa3d28215273cb7df08c23e4d4bcfd49e47a0d2b7c765626
-# Source SHA-256: fe61c47e3c4015d115f2e68a29d98ec95fa3f31ca03cdafdc344ba3be6cd3363
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MCI-BR.ANS by mindcrime (blade productions); released in blde9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: breath e'zine
-# SAUCE Author: mindcrime
-# SAUCE Group: blade productions
-# SAUCE Date: 19960921
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: breath e'zine by mindcrime | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9610-mci-br
 
 Write-Host '
       [35m░░ [0;1;30mbreathe...[0m                 [34m░░░░░[0m      [1;32m░░░░░[0m                [35m░░ [0;1;30mmc[0m

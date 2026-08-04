@@ -1,18 +1,4 @@
-﻿# Converted from: B!-SCAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d0pe0597/raw/B!-SCAN.ANS
-# Source Revision: archive-sha256:75f6fa147ff2756ef0ec699179a2fc535ef1a8555e78479372a7ceb7b6a80326
-# Source SHA-256: 21272ed800c17382b04faeaa8d403570f64763711f1767f78b1f442036ab76db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: B!-SCAN.ANS by bleach (dope); released in d0pe0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: dr?! file scan
-# SAUCE Author: bleach
-# SAUCE Group: dope
-# SAUCE Date: 19970509
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: dr?! file scan by bleach | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d0pe0597-b-scan
 
 Write-Host '
                   [33m▀[0m

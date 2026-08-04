@@ -1,18 +1,4 @@
-﻿# Converted from: PT-CHOCO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0297/raw/PT-CHOCO.ANS
-# Source Revision: archive-sha256:2e15cb2f2712a143323c9f3c6ecca94c5b5b12a452a019e911d205dd685c6eee
-# Source SHA-256: 1dd8e1bf16152fcbdb9ee11298910eb0a7253cabc38a95a165de179342b67d8a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PT-CHOCO.ANS by The Thrasher + Chronicc (PHAT STUDIOS '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: chocolate treat
-# SAUCE Author: phat twinz
-# SAUCE Group: PHAT STUDIOS '97
-# SAUCE Date: 19970115
-# SAUCE Dimensions: 80x200
-# Lines: 101-150
-# Columns: 1-80
+﻿# Artwork: chocolate treat by The Thrasher + Chronicc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0297-pt-choco-part03
 
 Write-Host '
 [1;31;41m▓ [0;35;41m  [0;37;40m [0;33;40m█▀▀▀███████████[0;1;30;43m ███[0;33m ██▀▀▀[0;30;43m  [0;33;40m████[0;1;30;43m▐█[0;1;30;40m▌[0;33m▐██████████▌▐█████[0;1;30;43m [0;33m█[0;1;30;43m  [0;33m▄[0;31m▀█▀▀[0;33m▄▄▄[0;1;33;43m       [0;33m▄▄▄[0;31m▀[0m

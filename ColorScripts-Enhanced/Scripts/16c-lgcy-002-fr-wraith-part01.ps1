@@ -1,19 +1,4 @@
-﻿# Converted from: fr-wraith.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-002/raw/fr-wraith.ans
-# Source Revision: archive-sha256:035806f627526bbca92fb6becafc359d23b231b3ea478b7169ed62b6d2a1cc54
-# Source SHA-256: 2c5388d7c84b93e9c5afaf9ca43af3a632b99d41575043a88694bc97f9025edd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: fr-wraith.ans by FreshRich (Legacy Krew); released in lgcy-002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Wraith - Dark Carnival
-# SAUCE Author: FreshRich
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20190820
-# SAUCE Dimensions: 80x80
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Wraith - Dark Carnival by FreshRich | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-002-fr-wraith-part01
 
 Write-Host '
 

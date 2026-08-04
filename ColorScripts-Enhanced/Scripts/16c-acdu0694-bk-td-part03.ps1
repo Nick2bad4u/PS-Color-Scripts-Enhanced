@@ -1,18 +1,4 @@
-﻿# Converted from: BK-TD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0694/raw/BK-TD.ANS
-# Source Revision: archive-sha256:f26eea3d1c8de7b926bd6f420e787345fadf7a72d1ec8422609f01c663360b65
-# Source SHA-256: cb31b90a063f325c299b962ce8634b351e8ebfa97abe04c5d8f20667cb580e9a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BK-TD.ANS by Bad Karma + Beastie (ACiD Productions); released in acdu0694 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Terminal Drift
-# SAUCE Author: Bad Karma
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940601
-# SAUCE Dimensions: 80x268
-# Lines: 83-130
-# Columns: 1-80
+﻿# Artwork: Terminal Drift by Bad Karma + Beastie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0694-bk-td-part03
 
 Write-Host '
 [34m█  ░ ▒[0;1;34;44m▓▒[0;34m░  ▓░▒ ░  ░▓▒ ▒░ ░[0m                                             [34m░ ░░▓█[0;1;34;44m▓▒[0m

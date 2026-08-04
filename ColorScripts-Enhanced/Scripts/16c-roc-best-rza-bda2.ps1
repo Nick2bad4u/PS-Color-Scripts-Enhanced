@@ -1,18 +1,4 @@
-﻿# Converted from: RZA-BDA2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roc-best/raw/RZA-BDA2.ANS
-# Source Revision: archive-sha256:ed2172be4f351fbbe490297eada190fa8af16bee5a8ce8834dea50cd318904c2
-# Source SHA-256: f5f6935f8a7dc20330eb688e54ca29ae69be7b20d8fb83e15e6c5f0ef628a3e2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RZA-BDA2.ANS by The Rza (ROC); released in roc-best and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Happy Birthday ROC!
-# SAUCE Author: The Rza
-# SAUCE Group: ROC
-# SAUCE Date: 19950815
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Happy Birthday ROC! by The Rza | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roc-best-rza-bda2
 
 Write-Host '
 [1m[0m         [1m·[0m                     [1m·[0m            ·               [34m·[0m             [1;30m·[0m

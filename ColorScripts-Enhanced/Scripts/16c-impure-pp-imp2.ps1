@@ -1,13 +1,4 @@
-﻿# Converted from: PP-IMP2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure/raw/PP-IMP2.ANS
-# Source Revision: archive-sha256:0b9a4294ce690aca32755515783e8fac4c651c445d3dd4e394f3ee189ef0478e
-# Source SHA-256: 280c6e9d6f1e5e4d0a6818ff9ee009982584acfe10143742d17a23552681bc89
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PP-IMP2.ANS by Pixel Pusher (impure); released in impure and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: PP-IMP2.ANS by Pixel Pusher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure-pp-imp2
 
 Write-Host '
 [1;35m[0m[1;35m[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: IG-DL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spe01/raw/IG-DL.ANS
-# Source Revision: raw-sha256:5148e3ec803ab9aa0372e18f741ad0db5e2d02a435f68a177db54624b4ee41eb
-# Source SHA-256: 5148e3ec803ab9aa0372e18f741ad0db5e2d02a435f68a177db54624b4ee41eb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IG-DL.ANS by Ironghost (spe01); released in spe01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: IG-DL.ANS by Ironghost | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spe01-ig-dl
 
 Write-Host '
 [1;30m               [0;34m [0;1;31m▄░[0;1;31;44m█[0;1;31;40m█████████████████████████████████████▀▀█▄▄▀▌[0;1;30;40m                 [0m

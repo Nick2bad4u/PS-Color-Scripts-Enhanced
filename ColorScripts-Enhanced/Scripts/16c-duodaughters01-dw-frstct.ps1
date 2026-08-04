@@ -1,16 +1,4 @@
-﻿# Converted from: dW-frstct.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/duodaughters01/raw/dW-frstct.ans
-# Source Revision: archive-sha256:107dcc7639647744884177ba1bc2147746cc2fe523012ebd967c4f8ee48caaef
-# Source SHA-256: 4aa42dcaa0c882fa4255d9106434fd77e4fcfc1a07ab9693e73364b54521b70f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: dW-frstct.ans by Dark Wizard (duodaughters01); released in duodaughters01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 20151207
-# SAUCE Dimensions: 80x45
-# SAUCE Font: IBM VGA
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: dW-frstct.ans by Dark Wizard | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-duodaughters01-dw-frstct
 
 Write-Host '
 

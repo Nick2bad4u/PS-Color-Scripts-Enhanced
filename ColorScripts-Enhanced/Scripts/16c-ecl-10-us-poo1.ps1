@@ -1,17 +1,4 @@
-﻿# Converted from: US-POO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-10/raw/US-POO1.ANS
-# Source Revision: archive-sha256:6734a0716f5363aecb5b8387359a704e7e1a498f17ee632abf4e9ca947f0336d
-# Source SHA-256: d22b741958e430e77b267b4b70828c6eab9f3652f7742458bb2057ce1687f938
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-POO1.ANS by Fluor + Sirdeath (ecl-10); released in ecl-10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: poo
-# SAUCE Author: sd & 09
-# SAUCE Date: 19961229
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: poo by Fluor + Sirdeath | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-10-us-poo1
 
 Write-Host '
 [1m[0m        [36m [0m

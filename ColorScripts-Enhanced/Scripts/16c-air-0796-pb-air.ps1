@@ -1,18 +1,4 @@
-﻿# Converted from: PB-AIR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/air-0796/raw/PB-AIR.ANS
-# Source Revision: archive-sha256:1deda992f1290419890b63644122132522fcf9c0db8c83ddc6f390b64c501ff8
-# Source SHA-256: 4ec28701391178bc52cfd033d4258a034cf6f8dc8dce09ce4b95555a0e1641b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PB-AIR.ANS by piratebox (air-0796); released in air-0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: guest appearance air promo
-# SAUCE Author: piratebox
-# SAUCE Group: .
-# SAUCE Date: 19960711
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: guest appearance air promo by piratebox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-air-0796-pb-air
 
 Write-Host '
 [1m         .^`^÷_,^·ⁿ`²$x"''`^÷_,^·ⁿ`²$s·^,_÷^._,^·ⁿ`²$x"''`^÷_,^·ⁿ`²$s·^,_÷^._[0m

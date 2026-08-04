@@ -1,16 +1,4 @@
-﻿# Converted from: misfit-south-side-selfie.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_darker_image_2/raw/misfit-south-side-selfie.ans
-# Source Revision: archive-sha256:7282b405cc52219ce7cf6cd9d097796f1b25fc898e4c29fdb9f37c375d595996
-# Source SHA-256: 9ae52cc300be71e092c6d116f0d6b55907d570eab2dc9f61d740a7d41ab1f2a1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: misfit-south-side-selfie.ans by Misfit (blocktronics_darker_image_2); released in blocktronics_darker_image_2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 20171206
-# SAUCE Dimensions: 80x61
-# SAUCE Font: IBM VGA
-# Lines: 32-61
-# Columns: 1-80
+﻿# Artwork: misfit-south-side-selfie.ans by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-darker-image-2-misfit-south-side-selfie-part02
 
 Write-Host '
 [1;37m██████████[0m█[1m ▄[0;1;45m▓[0;1;40m▄[0m [1;47m▓▓[0;1;40m▌[0;36m [0;1;37m▀▀[0;36m  [0;1;31m▄[0;1;31;45m▓▓▓▓[0;1;31;40m██[0;1;31;47m▓▓▓▓▓▓[0;1;31;40m▄    [0;33m▄▓▒▒▒▒▒▓▓▓▓ █[0;1;31;43m░▓▓[0;1;31;40m▄[0m         [36m▀▀▀▓▓▄[0;1;37m▀[0m▀[36m▄▓▓█[0m

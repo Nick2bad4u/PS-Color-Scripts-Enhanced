@@ -1,13 +1,4 @@
-﻿# Converted from: GM-INSOM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mind-02/raw/GM-INSOM.ANS
-# Source Revision: archive-sha256:336942d90c7d4a8a5d48a1d714dba36408dbb8fda0df26c31b6ee265f0764c7c
-# Source SHA-256: e31a8f93f513ee06d1d82ba17a25739380b315fcfbfdc1d2e5ec64b04b594552
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GM-INSOM.ANS by G-Man (mind-02); released in mind-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: GM-INSOM.ANS by G-Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mind-02-gm-insom
 
 Write-Host '
      [1;34m▄▄[0m                                                    [1;34m▄▄[0m

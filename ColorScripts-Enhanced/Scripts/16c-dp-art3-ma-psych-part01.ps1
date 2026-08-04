@@ -1,13 +1,4 @@
-﻿# Converted from: MA-PSYCH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dp-art3/raw/MA-PSYCH.ANS
-# Source Revision: raw-sha256:6276952289dce87f3d25bd61c783cf9e250577ec4bba340641fd27c9ea39524f
-# Source SHA-256: 6276952289dce87f3d25bd61c783cf9e250577ec4bba340641fd27c9ea39524f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MA-PSYCH.ANS by Malcolm (dp-art3); released in dp-art3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: MA-PSYCH.ANS by Malcolm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dp-art3-ma-psych-part01
 
 Write-Host '
 [37;40m [0;37;44m                   [0;34;44m█[0;37;44m      [0;34;44m     [0;37;44m                                               [0m

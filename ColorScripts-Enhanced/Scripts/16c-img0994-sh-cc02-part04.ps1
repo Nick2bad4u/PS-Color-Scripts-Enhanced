@@ -1,13 +1,4 @@
-﻿# Converted from: SH-CC02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/img0994/raw/SH-CC02.ANS
-# Source Revision: archive-sha256:f71d8ed85ca0ccb865692dde13b0ccd32121cde3b55a48a2d905a2c94a7df80f
-# Source SHA-256: 78ebbb646287d17a6ec8b6e1f9df2ec222ebf4ed9cdc95761dc3f9523b4382e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SH-CC02.ANS by Shred (img0994); released in img0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 129-157
-# Columns: 1-80
+﻿# Artwork: SH-CC02.ANS by Shred | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-img0994-sh-cc02-part04
 
 Write-Host '
 

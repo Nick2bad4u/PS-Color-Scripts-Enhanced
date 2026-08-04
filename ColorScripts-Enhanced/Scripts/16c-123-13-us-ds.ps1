@@ -1,16 +1,4 @@
-﻿# Converted from: US-DS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/123-13/raw/US-DS.ANS
-# Source Revision: archive-sha256:3fa5d9d91ff3d02f5bfd89b75d61274a520ae9b034e93e3f4848f5603064dd92
-# Source SHA-256: 623f084a752b521b279827317ae3e64c5e4e8eb08e7b4cac3f2bfa754300c5ed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DS.ANS by Jashiin + Absent Spinsister (123-13); released in 123-13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: Jashiin / Spinsis
-# SAUCE Date: 20021219
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: US-DS.ANS by Jashiin + Absent Spinsister | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-123-13-us-ds
 
 Write-Host '
 [1;37m [0m                     ,,. _                     [1;37m$$[0m                      m

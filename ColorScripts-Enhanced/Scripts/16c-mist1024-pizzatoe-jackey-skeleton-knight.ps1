@@ -1,19 +1,4 @@
-﻿# Converted from: PIZZATOE-JACKEY-SKELETON_KNIGHT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1024/raw/PIZZATOE-JACKEY-SKELETON_KNIGHT.ANS
-# Source Revision: archive-sha256:6949840195965f5eb9696cfb423e381432d7ccfa36b66290e336e4608b7c12f8
-# Source SHA-256: 2ad8a1f5537a749354e4ac5337093c6b6629418ca74d4c4ee6e0f926d2516810
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PIZZATOE-JACKEY-SKELETON_KNIGHT.ANS by Jackey (Pizzatoe); released in mist1024 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Skeleton knight
-# SAUCE Author: Jackey
-# SAUCE Group: Pizzatoe
-# SAUCE Date: 20241026
-# SAUCE Dimensions: 96x48
-# SAUCE Font: IBM VGA
-# Lines: 1-48
-# Columns: 1-96
+﻿# Artwork: Skeleton knight by Jackey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1024-pizzatoe-jackey-skeleton-knight
 
 Write-Host '
 

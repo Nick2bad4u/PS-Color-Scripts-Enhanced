@@ -1,13 +1,4 @@
-﻿# Converted from: BANE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hr09-94/raw/BANE.ANS
-# Source Revision: archive-sha256:19d6752273acd7579a76c32f15e06f7621728c1186bfdc8fc8606549db459301
-# Source SHA-256: 4c3a7f6f368410d7430705e602cd92c88fb3def84a1992a5db205d0262d9f991
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BANE.ANS by Armageddon (hr09-94); released in hr09-94 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: BANE.ANS by Armageddon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hr09-94-bane
 
 Write-Host '
 

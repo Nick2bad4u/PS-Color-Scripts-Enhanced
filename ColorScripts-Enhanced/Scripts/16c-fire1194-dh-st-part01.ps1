@@ -1,18 +1,4 @@
-﻿# Converted from: DH-ST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1194/raw/DH-ST.ANS
-# Source Revision: archive-sha256:6cda22fd90f2a64fc140b0cb926d07e2fbe26eb5d33dd44ac4f68bfab8971fcb
-# Source SHA-256: 30cd5f3b6ffcd13abb3a4eccc14eac485f9c164fb449a6707070d653c2253a0e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DH-ST.ANS by Donut Hole (Fire); released in fire1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Sarcastic Toaster
-# SAUCE Author: Donut Hole
-# SAUCE Group: Fire
-# SAUCE Date: 19941106
-# SAUCE Dimensions: 80x104
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: Sarcastic Toaster by Donut Hole | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1194-dh-st-part01
 
 Write-Host '
 [30;41m▓▒░░[0;31;45m██[0;30;41m░[0;31;45m██████████████████████████████████████████████████████████████████[0;30;41m░[0;31;45m██[0;30;41m░░▒▓[0m

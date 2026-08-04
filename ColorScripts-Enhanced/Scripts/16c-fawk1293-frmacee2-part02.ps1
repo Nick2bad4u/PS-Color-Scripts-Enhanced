@@ -1,13 +1,4 @@
-﻿# Converted from: FRMACEE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fawk1293/raw/FRMACEE2.ANS
-# Source Revision: archive-sha256:1f7983381a681c132f9a212254c786f19a4e6a6f943b87a20bb805566638724f
-# Source SHA-256: 6fb51414e71d82c36da0e0d821cbf68ef4930a536a6a7b5c950157edf3a98f4e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FRMACEE2.ANS by Marly Man (fawk1293); released in fawk1293 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 48-63
-# Columns: 1-80
+﻿# Artwork: FRMACEE2.ANS by Marly Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fawk1293-frmacee2-part02
 
 Write-Host '
                    [31m▄▄▄▄▄▄▄▄▄ ──────────────────────────────────[0m

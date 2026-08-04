@@ -1,18 +1,4 @@
-﻿# Converted from: BE-PR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0694/raw/BE-PR1.ANS
-# Source Revision: archive-sha256:f26eea3d1c8de7b926bd6f420e787345fadf7a72d1ec8422609f01c663360b65
-# Source SHA-256: e92fbc961a0c6320a4e2a53cd063b6b54009e68e887970ba4470c3956fa672eb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BE-PR1.ANS by Beastie (ACiD Productions); released in acdu0694 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Packaged Rebellion
-# SAUCE Author: Beastie
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940601
-# SAUCE Dimensions: 80x139
-# Lines: 49-94
-# Columns: 1-80
+﻿# Artwork: Packaged Rebellion by Beastie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0694-be-pr1-part02
 
 Write-Host '
 [1;30;42m▓▒░[0;32m██  ░    [0;31m▐▒▓██████████▓████████▓▒░[0m          [31m░[0m

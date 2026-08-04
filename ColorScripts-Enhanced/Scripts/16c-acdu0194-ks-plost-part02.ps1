@@ -1,13 +1,4 @@
-﻿# Converted from: KS-PLOST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0194/raw/KS-PLOST.ANS
-# Source Revision: archive-sha256:a43017ca40212af646d7cc19e6ecf01d326ebec184a5046d2c7f67040ece2aa4
-# Source SHA-256: e753024e29fbd97df4f470cb9646727af39d257740a24a172d8958f11833bdfa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KS-PLOST.ANS by Kronos (acdu0194); released in acdu0194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 50-97
-# Columns: 1-80
+﻿# Artwork: KS-PLOST.ANS by Kronos | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0194-ks-plost-part02
 
 Write-Host '
 [1;34;44m▒▓▓[0;1;34;40m▄[0m         [30;41m████████[0m    [33;40m▄▄▄[0;1;31;40m▄[0;1;31;43m░    [0;1;30;43m░░▒▓[0;33m▄  [0;30;41m███████████[0m          [30;41m████████████████[0m

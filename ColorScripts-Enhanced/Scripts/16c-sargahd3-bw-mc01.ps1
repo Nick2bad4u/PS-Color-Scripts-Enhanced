@@ -1,18 +1,4 @@
-﻿# Converted from: BW -MC01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sargahd3/raw/BW%C2%A0-MC01.ANS
-# Source Revision: archive-sha256:d4be65be862c17debbed01c060fb85aadbdbe00a8282836fa25f3f46073f618d
-# Source SHA-256: 8fd1c0a9fdb3a6c839b64d66e9e2405af5e3991d51e4b91dc3ca9093c272a30e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BW -MC01.ANS by bonewood (fbk.sargahd); released in sargahd3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: graveyard main menu
-# SAUCE Author: bonewood
-# SAUCE Group: fbk.sargahd
-# SAUCE Date: 19970208
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: graveyard main menu by bonewood | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sargahd3-bw-mc01
 
 Write-Host '
 [1;30m▓▓▒▒▒▒▒▒▒▒▒▒░░░░[0;32m   [0;1;30m░▒▓░[0;31m [0;1;30m░[0;31m [0;1;30m░░░▒▒▒▒▒▓▓▒▓▓█▓██▓▓▓▓▓░[0m  [1;30m░▒ ░▓▒░[0m  [1;30m░[0;31m▄■ [0;1;30m░[0;31m■▄[0;37m  [0;1;30m▒▓░[0m [1;30m░[0m [1;30m▒▒▓█[0m

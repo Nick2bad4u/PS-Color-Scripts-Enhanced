@@ -1,18 +1,4 @@
-﻿# Converted from: KI-STAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/forge_09/raw/KI-STAT.ANS
-# Source Revision: archive-sha256:d4616dfe119968c45cde426a6fd89403c94d7b3dbbcec3e05db02fd0c751bac7
-# Source SHA-256: 769782d2dcf6164eb7913b32921358295ccadd7fa30e8fa01e5734af1582ba81
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KI-STAT.ANS by Kiwi (Forge); released in forge_09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: UV stat screen
-# SAUCE Author: Kiwi
-# SAUCE Group: Forge
-# SAUCE Date: 19800102
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: UV stat screen by Kiwi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-forge-09-ki-stat
 
 Write-Host '
    [31m░░[0m                           [1;33m░ ░░░░░[0;31m▄█[0;1;33;41m░░░░[0;31m█[0;1;33m░[0;31m█[0;1;33;41m░░░░░░░[0;31m█[0;1;33m░[0;31m▐[0;1;33m░[0;31m█[0;1;33;41m░░[0;31m▌█[0;1;33;41m░░░░░[0;31m█▀▐[0;1;33;41m░░░░░░░ [0m

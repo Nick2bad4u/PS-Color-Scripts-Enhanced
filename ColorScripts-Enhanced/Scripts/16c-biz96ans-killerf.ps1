@@ -1,13 +1,4 @@
-﻿# Converted from: KILLERF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/biz96ans/raw/KILLERF.ANS
-# Source Revision: archive-sha256:f42c30659fb20a3a561a90aa1e7b5d2730bfdfd075ffb7f96fa63d36053dc7e6
-# Source SHA-256: a67aeadc623c5f146d9bca898bf38396cf98fabacd1a355983a43a9ab7aeb7e1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KILLERF.ANS by Inopia + Blup + Outlaw (biz96ans); released in biz96ans and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: KILLERF.ANS by Inopia + Blup + Outlaw | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-biz96ans-killerf
 
 Write-Host '
       [34m▄[0m                                   [34m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: JR_FSRTO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl-gong/raw/JR_FSRTO.ANS
-# Source Revision: archive-sha256:c90e04c94a395e53e928512945d220d1fff4c215b177bbe4ea888b6b9ab8350e
-# Source SHA-256: 4d789d41bf5911581891d61ad0b7000cf678925061cecbac9f440986d3600128
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_FSRTO.ANS by jerusalem (boil); released in bl-gong and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: FS ratio-screen.
-# SAUCE Author: jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19970405
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: FS ratio-screen. by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-gong-jr-fsrto
 
 Write-Host '
  [31m▐[0;1;31;41m▒▒[0;31m███░[0m   [1;30m░░[0m   ▄▄▄█[1;47m■██▀[0m▀▀▄▄▄[1;47m▄▄█[0m█▀█[1;47m████[0m▌[31m▐▓[0;1;31;41m▒░[0;31m▀▀▀▀▀[0;37m ▄▄▄▄▄[0;1;37;47m▄   [0m████▄▄▄▄▄

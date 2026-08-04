@@ -1,19 +1,4 @@
-﻿# Converted from: WZ - Zodiac Sagittarius.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_darker_image_2/raw/WZ%20-%20Zodiac%20Sagittarius.ans
-# Source Revision: archive-sha256:7282b405cc52219ce7cf6cd9d097796f1b25fc898e4c29fdb9f37c375d595996
-# Source SHA-256: bfedb77f64e22ad48353b199eabc1a4608b0415a9c3a8b8674644cf6906c9dc2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WZ - Zodiac Sagittarius.ans by Whazzit (Blocktronics); released in blocktronics_darker_image_2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Sagittarius
-# SAUCE Author: Whazzit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20170525
-# SAUCE Dimensions: 120x80
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-120
+﻿# Artwork: Sagittarius by Whazzit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-darker-image-2-wz-zodiac-sagittarius-part01
 
 Write-Host '
 [30;40m██████████████████[0;34;40m ███[0;34;44m███████████████████████████████████[0;34;40m█[0;34;44m█[0m                                  [34;40m▀▀▀▀▀██████████████████████[0m

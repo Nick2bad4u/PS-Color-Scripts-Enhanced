@@ -1,18 +1,4 @@
-﻿# Converted from: SD-ELD$.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-10/raw/SD-ELD%24.ANS
-# Source Revision: archive-sha256:6734a0716f5363aecb5b8387359a704e7e1a498f17ee632abf4e9ca947f0336d
-# Source SHA-256: afb84784d6c99d09e5ce6d660f71a7453bf026fa78d8f00cd51ef96abe61badd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-ELD$.ANS by sirdeath (eclipse); released in ecl-10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: eldorado
-# SAUCE Author: sirdeath
-# SAUCE Group: eclipse
-# SAUCE Date: 19961229
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: eldorado by sirdeath | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-10-sd-eld
 
 Write-Host '
                        [1;30;47m▌[0;1;37;47m ▀[0;1;30;47m▐[0m                                [1;30;47m▌[0m█[1;47m▀[0;1;30;47m▐[0m           [36m  [0m

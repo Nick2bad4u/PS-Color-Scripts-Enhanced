@@ -1,13 +1,4 @@
-﻿# Converted from: SZ-WZBLU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/allnc-01/raw/SZ-WZBLU.ANS
-# Source Revision: archive-sha256:4108b223b68d6a8afa5819b72ab949b76be4a349a20e7048ee062b0f9627a813
-# Source SHA-256: bccd8ac5567432607d6ac755ce32e3747514b473fd1ef885f3276adbc8d9d73c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SZ-WZBLU.ANS by Schizo (allnc-01); released in allnc-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 99-148
-# Columns: 1-80
+﻿# Artwork: SZ-WZBLU.ANS by Schizo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-allnc-01-sz-wzblu-part03
 
 Write-Host '
            [1;35;40m▄▄[0;1;35;45m▀[0;35;45m█████████████████████[0;35;40m▀ [0;1;35;40m▄ [0;35m▀▀▀▀▀▀▀ [0;35;45m█████████████[0;30;40m█[0;1;35;40m▄[0;1;35;45m▀[0;35;45m██████████████[0;30;40m█[0m

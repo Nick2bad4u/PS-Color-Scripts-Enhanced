@@ -1,20 +1,4 @@
-﻿# Converted from: 7k-dramaqueen.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-001/raw/7k-dramaqueen.ans
-# Source Revision: archive-sha256:589c804657c8d15ba617f7c0fd80723e4505d519989b80eba9584665be49eb54
-# Source SHA-256: ed07f48a17687b95de3ecc4d8382728cf95259af210df608f5bc712f78093251
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 7k-dramaqueen.ans by The Knight (Legcay Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Drama Queen
-# SAUCE Author: The Knight
-# SAUCE Group: Legcay Krew
-# SAUCE Date: 20191127
-# SAUCE Dimensions: 80x77
-# SAUCE Font: IBM VGA
-# SAUCE Comments: L'Arshole.
-# Lines: 39-77
-# Columns: 1-80
+﻿# Artwork: Drama Queen by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-001-7k-dramaqueen-part02
 
 Write-Host '
    █[1;30;47m░[0m█████[1;30;47m▐[0m                                 ▄[1;47m▄[0;1;40m [0m▄       [1;30m░[0m             ██████[1;30;47m░[0m

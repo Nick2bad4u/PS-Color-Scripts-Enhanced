@@ -1,18 +1,4 @@
-﻿# Converted from: RL-NOFX!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0296/raw/RL-NOFX!.ANS
-# Source Revision: archive-sha256:06e6dc5afce1ee45051e2bc9293c259c32e010fc92f42b6c050d6f2242a1670c
-# Source SHA-256: 55399e3d934136d8f1afcb9fdcd7ba91f3d782ba009e0113b6732a9f162d882b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL-NOFX!.ANS by Rawlock (Opium); released in opx-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Nofx
-# SAUCE Author: Rawlock
-# SAUCE Group: Opium
-# SAUCE Date: 19960110
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Nofx by Rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0296-rl-nofx
 
 Write-Host '
                                             [1;34m [0m

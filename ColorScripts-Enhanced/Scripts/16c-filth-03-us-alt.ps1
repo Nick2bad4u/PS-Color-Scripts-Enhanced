@@ -1,18 +1,4 @@
-﻿# Converted from: US-ALT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/filth-03/raw/US-ALT.ANS
-# Source Revision: archive-sha256:b6f2315cfad065f1991cb92404702b647137d4d70f2233c4b9c5e1e758c1cc15
-# Source SHA-256: 009e1ad1673750be2b77c6d49dcaba690611eebe2e52a56aa16b6097af500658
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ALT.ANS by Panaji + Anomite (fIlth?!); released in filth-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: aLTERn 8
-# SAUCE Author: p4/anOmite
-# SAUCE Group: fIlth?!
-# SAUCE Date: 19970718
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: aLTERn 8 by Panaji + Anomite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-filth-03-us-alt
 
 Write-Host '
  [34m███[0;1;34;44m░░░[0;34m▀▀[0m                                   [34m▄▄▄[0m          [34m▄▄▄███[0;1;34;44m░░░░[0;34m▄▄▄▄[0;1;34;44m░░[0;34m█▌▐[0m

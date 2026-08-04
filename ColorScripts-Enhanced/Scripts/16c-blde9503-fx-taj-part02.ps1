@@ -1,18 +1,4 @@
-﻿# Converted from: FX-TAJ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9503/raw/FX-TAJ.ANS
-# Source Revision: archive-sha256:72185d7ca3df5653ee1a42b2eb8e244cb5d2597fdc0961f51b76f8fa01da3a75
-# Source SHA-256: 044fe3e31f5131695aff71a7fbeee0073cee8df3b8d853158e80ea146b026433
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FX-TAJ.ANS by facsimile (Blade Productions); released in blde9503 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: taj mahal
-# SAUCE Author: facsimile
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19950227
-# SAUCE Dimensions: 80x25
-# Lines: 33-60
-# Columns: 1-80
+﻿# Artwork: taj mahal by facsimile | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9503-fx-taj-part02
 
 Write-Host '
 [1;30m██ [0m█[1m▌   [0m▓ ▓▓     ░ █ █▓▀█ █ [1;30m█ ▓[0m▒    ▓ ▓ ▓ █ [1;30m░   [0m░   █ █▓▄█ ██       █ [1;47m▐[0m   ▐█ [1;30m▓█[0m

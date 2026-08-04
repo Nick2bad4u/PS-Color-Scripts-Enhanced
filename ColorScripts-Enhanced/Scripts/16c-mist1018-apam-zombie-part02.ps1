@@ -1,19 +1,4 @@
-﻿# Converted from: APAM-ZOMBIE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1018/raw/APAM-ZOMBIE.ANS
-# Source Revision: archive-sha256:4640b189642741640f63d791a65624a377a6e833c336a8c97324805df6a47ba9
-# Source SHA-256: d4e3a26010503021e0f9872158b145cd31469aa15b552fbbcbf067c5e74f1999
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: APAM-ZOMBIE.ANS by Apam (Mistigris); released in mist1018 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Zombie moan
-# SAUCE Author: Apam
-# SAUCE Group: Mistigris
-# SAUCE Date: 20161128
-# SAUCE Dimensions: 80x70
-# SAUCE Font: IBM VGA
-# Lines: 36-70
-# Columns: 1-80
+﻿# Artwork: Zombie moan by Apam | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1018-apam-zombie-part02
 
 Write-Host '
 [37m [0;32m█[0;37m [0;32m█[0;37m  [0;1;31m▀██▀[0m         [31m [0;37m [0;31m▄[0;37m [0;31m▄▀▄[0m     [1;30m█████████████▄█████████████████▄[0;36m▄█[0;37m [0;36m█▄██████[0m

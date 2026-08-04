@@ -1,18 +1,4 @@
-﻿# Converted from: FD-DL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_9703/raw/FD-DL.ANS
-# Source Revision: archive-sha256:77a6a7f6432126598204aeed388eb7e1cd0dbc6097b43b2ef1dd1e89f5f350c2
-# Source SHA-256: c524ad1fea6134afe8b8e72adba7823bdf26abdabe382b679f88fc2dbed4f0ac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FD-DL.ANS by flood (dox productions); released in dox_9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: demonic lands bbs!
-# SAUCE Author: flood
-# SAUCE Group: dox productions
-# SAUCE Date: 19970215
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: demonic lands bbs! by flood | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-9703-fd-dl
 
 Write-Host '
 

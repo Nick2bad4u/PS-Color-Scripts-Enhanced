@@ -1,13 +1,4 @@
-﻿# Converted from: rev-s0n.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/unison01/raw/rev-s0n.ans
-# Source Revision: archive-sha256:7c588b07ef60b2e6f7336fb325fe9abcb3c16c20d2dbe8128204c75829b0ab7d
-# Source SHA-256: 3ae2457e6502a595c51e5658d406372dc640ffeee95be20a626c6bf400268e68
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: rev-s0n.ans by Revolution (unison01); released in unison01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: rev-s0n.ans by Revolution | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-unison01-rev-s0n
 
 Write-Host '
 [1;41m██░░[0m

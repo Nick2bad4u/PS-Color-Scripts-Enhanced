@@ -1,18 +1,4 @@
-﻿# Converted from: PR_TFTAP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak2/raw/PR_TFTAP.ANS
-# Source Revision: archive-sha256:c83fd66fd5682c2a8b3a34174fe62c7584ac006f8517d86002eef3fdd8671285
-# Source SHA-256: 891b344226ad367f03efd8f6342eb7f7f1dece9a202326058443cd3d9e6892f3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR_TFTAP.ANS by president (ecolove); released in ecl-pak2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the future team 2000 apply form
-# SAUCE Author: president
-# SAUCE Group: ecolove
-# SAUCE Date: 19971223
-# SAUCE Dimensions: 80x14
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: the future team 2000 apply form by president | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak2-pr-tftap
 
 Write-Host '
 

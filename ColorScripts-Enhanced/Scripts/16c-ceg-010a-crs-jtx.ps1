@@ -1,18 +1,4 @@
-﻿# Converted from: CRS^JTX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ceg-010a/raw/CRS%5EJTX.ANS
-# Source Revision: archive-sha256:5b3b98df164004f313dd0829d66e01a5471066e939dd03917a4e036b8d8f18b9
-# Source SHA-256: 8e7c443bd326e45bc75af7c2da14da8b047f4f60cbec94ba686a13691baa48f9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CRS^JTX.ANS by Crasher (jUSt-X); released in ceg-010a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: jUSt-X
-# SAUCE Author: Crasher
-# SAUCE Group: jUSt-X
-# SAUCE Date: 19991203
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: jUSt-X by Crasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ceg-010a-crs-jtx
 
 Write-Host '
 

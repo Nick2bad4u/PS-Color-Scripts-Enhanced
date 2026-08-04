@@ -1,13 +1,4 @@
-﻿# Converted from: SPACES2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansicl01/raw/SPACES2.ANS
-# Source Revision: raw-sha256:f3156798ec4b613190752fc61601e04f3f83f1ad18fc5bb68b6abb6aa624c347
-# Source SHA-256: f3156798ec4b613190752fc61601e04f3f83f1ad18fc5bb68b6abb6aa624c347
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPACES2.ANS by Kirby Ralston (ansicl01); released in ansicl01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: SPACES2.ANS by Kirby Ralston | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansicl01-spaces2
 
 Write-Host '
                    [1;32;42m▐[0m     [1;32;40m▄▄[0m     [1;32;42m▐[0m

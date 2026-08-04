@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-NIB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0696/raw/IZ-NIB.ANS
-# Source Revision: archive-sha256:91a5df7d6634d8d6a544eb72836639f3955b2e59017de7861042fc9fa05f7000
-# Source SHA-256: cc452c59574d5ef89a997ccc690a46213f904aa8623e2b812a10bdb37d1fd675
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-NIB.ANS by ize (fusion); released in fsn-0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: nativity in black
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19960610
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: nativity in black by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0696-iz-nib
 
 Write-Host '
                    [1;30m▄[0m        [1;30m   ▀  ▄  ▄[0;1;30;47m▓[0;1;30;40m▄▄▄ ▀[0m  [1;30m▄[0m

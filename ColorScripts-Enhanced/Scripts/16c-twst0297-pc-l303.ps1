@@ -1,18 +1,4 @@
-﻿# Converted from: PC-L303.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst0297/raw/PC-L303.ANS
-# Source Revision: archive-sha256:181061fdc6bb6e04ad0b93dd012fda7546700e84ae107e51b8df5c633aa86030
-# Source SHA-256: 723fdd04c40f72cd111aef2f69330abfcc6482edf0663180da96ec4d768d731d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-L303.ANS by pC (TWISTED); released in twst0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: LOST IN 303
-# SAUCE Author: pC
-# SAUCE Group: TWISTED
-# SAUCE Date: 19970130
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: LOST IN 303 by pC | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst0297-pc-l303
 
 Write-Host '
 [36m     [0;37m▄▄█▓███▀▀  [0;1;30m░░░░░░░▓▓▓▓▓▓████████░░░░░[0m  ▀▀██████▄[36m      [0m

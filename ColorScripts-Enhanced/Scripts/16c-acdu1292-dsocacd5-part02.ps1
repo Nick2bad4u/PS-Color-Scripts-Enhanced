@@ -1,13 +1,4 @@
-﻿# Converted from: DSOCACD5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1292/raw/DSOCACD5.ANS
-# Source Revision: archive-sha256:6c5c7ef66182056ff3f821bfb6f5ceb9b593ec0078def1a5d2bd62ceb180acde
-# Source SHA-256: f70224c5ef17bdd0eadb4e32397507ceac00613f8e828f1c7e79dc3227360ac0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DSOCACD5.ANS by Alter Ego (acdu1292); released in acdu1292 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 44-90
-# Columns: 1-80
+﻿# Artwork: DSOCACD5.ANS by Alter Ego | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1292-dsocacd5-part02
 
 Write-Host '
 [1;32;42m▒░░  [0;1;30;42m░▒ [0;1;32;42m░▒[0;32m▄ ░    ░▒▓[0;32;42m        [0;32;40m▓█[0;32;42m     [0;1;30;42m░▒▓▒▒░ [0;1;37;42m▐[0;1;30;47m░▓[0;1;30;40m▓   [0;31m█▓█▓█▓█▌[0m     [36m▐[0;1;30;47m░[0m▒[42m▌[0;1;30;42m░  ░[0;32m█▒▓[0;1;30;42m░  [0;1;32;42m▒░ [0m

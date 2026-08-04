@@ -1,18 +1,4 @@
-﻿# Converted from: MC-MAYO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9506/raw/MC-MAYO.ANS
-# Source Revision: archive-sha256:cabbe72b2b0ad314b9a293995144a1f7c8859026d4aa1c461969150c59826165
-# Source SHA-256: 2819d7337f7809b2f976ba659958bb8eec87cc9c078f2e6728c6f37620872bb0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MC-MAYO.ANS by mindcrime (blade productions); released in blde9506 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: mayo!
-# SAUCE Author: mindcrime
-# SAUCE Group: blade productions
-# SAUCE Date: 19950610
-# SAUCE Dimensions: 80x25
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: mayo! by mindcrime | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9506-mc-mayo-part01
 
 Write-Host '
                ▄                                        ▄

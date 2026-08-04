@@ -1,18 +1,4 @@
-﻿# Converted from: PYX-WTCH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0796/raw/PYX-WTCH.ANS
-# Source Revision: archive-sha256:f782dac10caec7358fb12f56ab648d6b2d754d33c969b772c25d26329ee46f63
-# Source SHA-256: fc9f31ae21dc4b3c19fc24a133d0019fb147e8b9e4a0df5c6bef0f3247c21327
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-WTCH.ANS by Pyx (Bamboosh); released in bmb-0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: "I know you're watching me"
-# SAUCE Author: Pyx
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19960726
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: "I know you're watching me" by Pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0796-pyx-wtch
 
 Write-Host '
 

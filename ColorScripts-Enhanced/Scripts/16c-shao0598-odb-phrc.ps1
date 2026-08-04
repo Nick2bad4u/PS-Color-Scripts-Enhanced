@@ -1,18 +1,4 @@
-﻿# Converted from: ODB-PHRC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shao0598/raw/ODB-PHRC.ANS
-# Source Revision: archive-sha256:fcf6a35c3d61f83e469fa7cc3dc1c97bcc2088160fe62ce4da27686dc9519d0b
-# Source SHA-256: c723d8e8b4d193a524f937f781e41ca62089af83323f7f8b60717d26cf6ef1a9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ODB-PHRC.ANS by Ol' Dirty Bastard (Shaolin's Finest); released in shao0598 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Phriction Logo
-# SAUCE Author: Ol' Dirty Bastard
-# SAUCE Group: Shaolin's Finest
-# SAUCE Date: 19980521
-# SAUCE Dimensions: 80x45
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: Phriction Logo by Ol' Dirty Bastard | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shao0598-odb-phrc
 
 Write-Host '
                        [1m░[0m                                          [1m░[0m

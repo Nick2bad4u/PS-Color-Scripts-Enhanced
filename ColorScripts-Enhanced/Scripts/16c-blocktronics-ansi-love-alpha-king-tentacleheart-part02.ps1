@@ -1,16 +1,4 @@
-﻿# Converted from: alpha_king-tentacleheart.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_ansi_love/raw/alpha_king-tentacleheart.ans
-# Source Revision: archive-sha256:6bbd631cd11e3473b019590c35c9a89f139f75a09b13e07a93395613241d63e9
-# Source SHA-256: 93c28193e9026f3952c983a5f5cf22e1fb52909b1e935faeb648bd4a46188c4b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: alpha_king-tentacleheart.ans by Alpha King (blocktronics_ansi_love); released in blocktronics_ansi_love and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20170811
-# SAUCE Dimensions: 80x140
-# SAUCE Font: IBM VGA
-# Lines: 50-96
-# Columns: 1-80
+﻿# Artwork: alpha_king-tentacleheart.ans by Alpha King | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-ansi-love-alpha-king-tentacleheart-part02
 
 Write-Host '
 [1;33;101m░▒░░░▒▒▓▓[0;1;33m▀[0;33m ▀[0;1;33m▀▀▀[0;1;33;101m▓▓▒▒░▒[0;1;31;43m▒░░▒▒▓▓[0;1;31;40m▄▄[0;33m [0;35m▀█[0;35;41m▓▓[0;35;40m▀▀▀▀[0;37;40m [0;35;40m▀■[0;37;40m  [0;1;31;40m▄▄▄▄[0;31m  ▄▄▄[0;37m [0;31m▄[0m       [35m▀■[0;37m [0;35m▐▀[0;37m   [0;35m▄[0;35;41m▒▓[0;37;40m [0;1;31;40m▐[0;1;31;43m▓▒░░░[0m

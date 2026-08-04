@@ -1,13 +1,4 @@
-﻿# Converted from: TSK-POEM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz03feb/raw/TSK-POEM.ANS
-# Source Revision: archive-sha256:d402090580beb42f827386e6ac87eabae48765a9dcac692e22ff2b8314efb7a2
-# Source SHA-256: 23e638083038002e38120b052c8070f9125d21f1e161dec2de518f28a7044e9f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-POEM.ANS by The Silent Killer (laz03feb); released in laz03feb and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: TSK-POEM.ANS by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz03feb-tsk-poem
 
 Write-Host '
 

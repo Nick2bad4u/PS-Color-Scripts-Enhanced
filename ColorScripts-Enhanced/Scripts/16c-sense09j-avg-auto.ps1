@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-AUTO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense09j/raw/AVG-AUTO.ANS
-# Source Revision: archive-sha256:9f583533fb256ec67ece3c5d38ebea61ce21b385a7859a4e786edef290584615
-# Source SHA-256: ad7fe8be1cdce706c70ea43d4b7b01f6029ba0916e6e3d01c15ce3de29169dc7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-AUTO.ANS by Avenging Angel + Avg (glue); released in sense09j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: acro automessage ansi
-# SAUCE Author: avg
-# SAUCE Group: glue
-# SAUCE Date: 20020801
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: acro automessage ansi by Avenging Angel + Avg | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense09j-avg-auto
 
 Write-Host '
                     [31m [0;37m      [0;31m▄▄▄▄[0;37m                                    [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: DD-SPID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/xpa_art_pack2/raw/DD-SPID.ANS
-# Source Revision: archive-sha256:a8c20160dedf34507979a842e444d2193f602625b058a1b68760001572982d62
-# Source SHA-256: de439b77b3292c4f670752ae7d0f9e89f9e6681bfa1a14545aa2e73db494cfcd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-SPID.ANS by DiAMOND dARRELL (X-P-A); released in xpa_art_pack2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Spider monster
-# SAUCE Author: DiAMOND dARRELL
-# SAUCE Group: X-P-A
-# SAUCE Date: 19951113
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: Spider monster by DiAMOND dARRELL | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-xpa-art-pack2-dd-spid
 
 Write-Host '
 [1m      [0m                                                                    [1m      [0m

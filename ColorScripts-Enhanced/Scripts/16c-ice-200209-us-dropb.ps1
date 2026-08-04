@@ -1,18 +1,4 @@
-﻿# Converted from: us-dropb.ice
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-200209/raw/us-dropb.ice
-# Source Revision: archive-sha256:ab3d2c5d5742a2cbcf7af4340c52028dd38e2fb14c478495e644c08d6ae6f833
-# Source SHA-256: 6b36ee94ea92723faa3ef6c4a8c3708b6adfb9736b8e047e5d8bd1ecd4e7504f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-dropb.ice by Enzo + Spear (iCE Advertisements); released in ice-200209 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Ice Logo
-# SAUCE Author: Enzo & Spear
-# SAUCE Group: iCE Advertisements
-# SAUCE Date: 20020908
-# SAUCE Dimensions: 80x46
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Ice Logo by Enzo + Spear | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-200209-us-dropb
 
 Write-Host '
 

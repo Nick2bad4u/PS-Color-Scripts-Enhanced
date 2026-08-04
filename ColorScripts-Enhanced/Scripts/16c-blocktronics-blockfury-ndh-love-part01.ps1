@@ -1,19 +1,4 @@
-﻿# Converted from: ndh - Love.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_blockfury/raw/ndh%20-%20Love.ans
-# Source Revision: archive-sha256:071260960977ea1068cec2d97ab877e753876c2d02c413111354a74175d7cd04
-# Source SHA-256: 70216b34cba6d05a7a97f1a9308e4030aaa903a2700b8c93b6a8d3d0a6e0772f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ndh - Love.ans by Andy Herbert (Blocktronics); released in blocktronics_blockfury and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Love
-# SAUCE Author: Andy Herbert
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20150805
-# SAUCE Dimensions: 80x75
-# SAUCE Font: IBM VGA
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Love by Andy Herbert | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blockfury-ndh-love-part01
 
 Write-Host '
 [31m████████████████████████████████████████████████████████████████████████████████[0m

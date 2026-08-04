@@ -1,18 +1,4 @@
-﻿# Converted from: SM-INK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl199603/raw/SM-INK.ANS
-# Source Revision: archive-sha256:0efb2f799ead394e7068a363d08b4382c71543fc86834c3fc142767771a369dc
-# Source SHA-256: c188f25cfbd012e60746cbff7ebf520d10ada668a6a0928d99015da1cfec816e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-INK.ANS by Smooth (Teklordz); released in tl199603 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: iNKage
-# SAUCE Author: Smooth
-# SAUCE Group: Teklordz
-# SAUCE Date: 19960305
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: iNKage by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl199603-sm-ink
 
 Write-Host '
 [34m█▄▄▄[0;37m [0;34m████[0;37m  [0;34m▄▄[0m         [34m░ [0m                   [34m▄[0m          [34m█ [0m          [1;31m    ██     [0m

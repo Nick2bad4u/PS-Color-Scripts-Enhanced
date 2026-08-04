@@ -1,18 +1,4 @@
-﻿# Converted from: R@NEWS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pds-007/raw/R%40NEWS.ANS
-# Source Revision: archive-sha256:01a47dd0b4c06038173aeae77d1c9fd4c0f7cfc575e77faaa8f57c9874bdece7
-# Source SHA-256: 76e4dce3794a6da32717159035b8748378e8467227a41b05318aab94d7841e9f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: R@NEWS.ANS by rumble (pds); released in pds-007 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: UGLY news-ansi..
-# SAUCE Author: rumble
-# SAUCE Group: pds
-# SAUCE Date: 19961003
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: UGLY news-ansi.. by rumble | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pds-007-r-news
 
 Write-Host '
                       [1;33m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m       [1;33m█▀▀▀█[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MK-PIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9410/raw/MK-PIC.ANS
-# Source Revision: archive-sha256:bd859dd294a62200dca01965f176566e1c6690d3dec16fdb5f06c1ef58e2dc4e
-# Source SHA-256: 84f80bc5cad24a540c5690fb8a42d34051ea75bacf1443b9876eec1ecd8303ee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MK-PIC.ANS by Modeus Khahn (Blade Productions); released in blde9410 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Matrix/Stat Screen
-# SAUCE Author: Modeus Khahn
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19941001
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Matrix/Stat Screen by Modeus Khahn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9410-mk-pic
 
 Write-Host '
                               [31m▀█████[0;31;41m [0;1;30;41m░[0;31m█[0;31;41m [0;31;40m█[0;1;30;41m░[0;31m████▀█▀[0m

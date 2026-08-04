@@ -1,18 +1,4 @@
-﻿# Converted from: PT-ANNWN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blur-01/raw/PT-ANNWN.ANS
-# Source Revision: archive-sha256:2e24e002aa423e6089e230171fb4f78c11c68510667b6cff05ce5bffed646ce1
-# Source SHA-256: 8953a25fb18eba1567803523d05c56bd2302171fe2ccd7693ffc78a8fa260daf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PT-ANNWN.ANS by Prestige (fear!blur!); released in blur-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Annwn
-# SAUCE Author: Prestige
-# SAUCE Group: fear!blur!
-# SAUCE Date: 19960207
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Annwn by Prestige | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blur-01-pt-annwn
 
 Write-Host '
                                                                         [31m▄[0;37m [0;31m▀[0m

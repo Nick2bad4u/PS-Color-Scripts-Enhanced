@@ -1,18 +1,4 @@
-﻿# Converted from: PE!D2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-15/raw/PE!D2.ANS
-# Source Revision: archive-sha256:619fab698f6baab549ec261c1b82c423f54dd7adf4325488576ce02288425f8a
-# Source SHA-256: 2c2ec039fb38e12882630dd8a315dedf6d27fb79527c73a8fa290c1e4923e39c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PE!D2.ANS by Phony Eye (AWE Lettering); released in awe-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Dust
-# SAUCE Author: Phony Eye
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19980212
-# SAUCE Dimensions: 80x25
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: Dust by Phony Eye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-15-pe-d2
 
 Write-Host '
 

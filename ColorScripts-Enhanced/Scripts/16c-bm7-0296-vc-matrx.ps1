@@ -1,18 +1,4 @@
-﻿# Converted from: VC-MATRX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bm7-0296/raw/VC-MATRX.ANS
-# Source Revision: archive-sha256:dc4cc64e955b9fcd3cc7622ea6e88698bafde8c6bb9846573f13bf599bfefae0
-# Source SHA-256: 40b945d3aeb517b0e3aeff4812d0fdef2d905348b7ef615f76d1a67c4fb984c8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VC-MATRX.ANS by VOiCE (BLACK MAiDEN); released in bm7-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Masquerade Monster Matrix
-# SAUCE Author: VOiCE
-# SAUCE Group: BLACK MAiDEN
-# SAUCE Date: 19960109
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Masquerade Monster Matrix by VOiCE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bm7-0296-vc-matrx
 
 Write-Host '
 [1;30m▄▓██▄▀▄██[0;1;30;47m▓[0;1;30;40m▓█▀█▀▓██[0;1;30;47m▓[0;1;30;40m▄█▀▀[0;30m [0;34m░[0;30m [0;1;30m▒░[0;30m  [0;34m░[0;1;30;47m▌[0;1;37;47m ░░▒▓████████████████[0;1;37;40m▌ [0;1;30;40m ▐[0;1;30;47m▓░[0;1;37;47m░[0;1;30;40m [0;30m [0;1;37m [0;1;30;47m▓[0;1;30;40m [0;1;37;40m [0;1;30;47m▓▓[0;1;37;40m [0;30m   [0;1;30m░[0;30m   [0;34m░[0;30m   [0m

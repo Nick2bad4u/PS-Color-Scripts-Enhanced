@@ -1,13 +1,4 @@
-﻿# Converted from: SPF-DGT4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/caz-01/raw/SPF-DGT4.ANS
-# Source Revision: archive-sha256:7a4c09c2b25a260b78ed0f993dd522fa8c17dd3c7e9cce15d2a01c43263430d2
-# Source SHA-256: 5a63bb64ccce8b3e9b0fd2b7a180e20f1d6b3519e5d200a9de8c5c924bca6b86
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPF-DGT4.ANS by Spitfire (caz-01); released in caz-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: SPF-DGT4.ANS by Spitfire | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-caz-01-spf-dgt4
 
 Write-Host '
                                 [30m [0;37m▄[0;1;37;47m░[0m▄▄▄▄[1m [0m■ [31m [0;1;32m [0;1;31m  ▄▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: ar-12m.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_wtf4/raw/ar-12m.ans
-# Source Revision: archive-sha256:250b5eed057a6c043b178a52a71a9f6b183e2a63591879f24e3c64051465130b
-# Source SHA-256: 5641a146c6e5c77158956e59b7427032c5c604e786d0cea131b686aad15399bb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ar-12m.ans by Argon (blocktronics_wtf4); released in blocktronics_wtf4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: daughter, age 12 months
-# SAUCE Author: Argon
-# SAUCE Date: 20140806
-# SAUCE Dimensions: 80x140
-# SAUCE Font: IBM VGA
-# Lines: 95-140
-# Columns: 1-80
+﻿# Artwork: daughter, age 12 months by Argon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-wtf4-ar-12m-part03
 
 Write-Host '
 [1m▓[0;1;47m░▒░▓[0;31m ░[0;1;37m ▒[0;1;37;47m▒ █[0;1;37;40m██[0;1;37;47m▓▓▒░░[0m█[30;47m [0;1;30;47m░░░░▒▓[0m░[1;30m▄[0;31m ▀▀▓▄[0;1;31;41m ░▒[0;1;31;40m▀▀▀[0;31m [0;1;37m▄▄▄▄▄[0;1;37;47m▓▒░  ░▒▓▒[0m▓▒█[1;47m░▒▓█[0;1;40m▒[0m▒[1;30;47m░[0m██▓[1m▀[0m [31m▄▀▄▀[0;37m [0;1;37m▄[0;1;37;47m▓▒[0m█▓

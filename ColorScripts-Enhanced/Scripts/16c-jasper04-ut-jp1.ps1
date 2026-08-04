@@ -1,18 +1,4 @@
-﻿# Converted from: UT-JP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper04/raw/UT-JP1.ANS
-# Source Revision: archive-sha256:80df5b962e79c7e1df6d776b244f2783526ab7713c133db68d5f1c8d518678b1
-# Source SHA-256: 4a491ed925a65ef03ce78dac39f27d4f4373a6912ab718c4ef4ba4f8888e27d3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UT-JP1.ANS by untamed (jasper); released in jasper04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: jasper font
-# SAUCE Author: untamed
-# SAUCE Group: jasper
-# SAUCE Date: 20020329
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: jasper font by untamed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper04-ut-jp1
 
 Write-Host '
 [30m                          [0;32m▄[0;37m [0;30m             [0m                [32m           [0;31m    [0;32m    [0m

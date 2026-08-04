@@ -1,13 +1,4 @@
-﻿# Converted from: XS-BOARD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise05/raw/XS-BOARD.ANS
-# Source Revision: archive-sha256:8a04f72dbd0084a3dd089505796d41f1fc098ce192bbfa410f8bc1039eb33f03
-# Source SHA-256: 21b5d2377e33b91f472757ac4a1731d53d82d450cd2a5b838a93128033179cb8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XS-BOARD.ANS by Xsys (uprise05); released in uprise05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: XS-BOARD.ANS by Xsys | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise05-xs-board
 
 Write-Host '
                              [32m▄[0m

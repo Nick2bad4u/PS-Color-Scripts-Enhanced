@@ -1,13 +1,4 @@
-﻿# Converted from: RMX-CASP.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9708a/raw/RMX-CASP.ICE
-# Source Revision: archive-sha256:63deb9e752fa85f6afabd8a41875343388a49c3c7ad37b2b9b29f4bfd04a346f
-# Source SHA-256: df2f20a7b1778dd95e6fd82f3298d9e4f66069c60b8d87a9b56c7dd069027863
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RMX-CASP.ICE by Apox + The Malevolent Trickster (ice9708a); released in ice9708a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: RMX-CASP.ICE by Apox + The Malevolent Trickster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9708a-rmx-casp
 
 Write-Host '
  [1;30m█[0;1;30;47m▀[0;1;30;40m▄[0m         [1m▄[0m              [1;30m [0m [1;30m  [0m  [1m       [0m                 [1m          [0;1;30m    [0m

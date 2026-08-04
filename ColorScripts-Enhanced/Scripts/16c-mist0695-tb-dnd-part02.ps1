@@ -1,18 +1,4 @@
-﻿# Converted from: TB!DND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0695/raw/TB!DND.ANS
-# Source Revision: archive-sha256:cd4d9f21f90522cc13e89b8aecd1f8fac67b693881bc0be303ed48e8c596636d
-# Source SHA-256: 8f2572680b8d789ab15ee3bfad85aa1693d31a1bbbb8f60b82e8bbe6edee1219
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TB!DND.ANS by Tribe (MiSTiGRiS); released in mist0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Drunk and Disorderly
-# SAUCE Author: Tribe
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19950515
-# SAUCE Dimensions: 80x25
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Drunk and Disorderly by Tribe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0695-tb-dnd-part02
 
 Write-Host '
                         [33m■▄ █■▄■  [0;34m▀█[0;1;30;44m░[0;34m█[0;1;30;44m░[0;34m▐█[0;1;30;44m▀ [0;34m▀   [0;33m■▄■█■▄■[0m          [1;30mand Equinox.[0m

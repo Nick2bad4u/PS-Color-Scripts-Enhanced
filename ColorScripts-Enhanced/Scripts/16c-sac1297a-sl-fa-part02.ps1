@@ -1,13 +1,4 @@
-﻿# Converted from: SL-FA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac1297a/raw/SL-FA.ANS
-# Source Revision: archive-sha256:9eedafe845c57f851495f1a604f725e7fd926899ede6a73c58f204ec7f961f3b
-# Source SHA-256: 6d0eee8f95abc1495009d6ab94810d0c9b3845029d0f7c5176bd7410c1424482
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SL-FA.ANS by strikeligt; released in sac1297a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
-# Lines: 51-84
-# Columns: 1-80
+﻿# Artwork: SL-FA.ANS by strikeligt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac1297a-sl-fa-part02
 
 Write-Host '
 ▓▓[1;30m▌[0m     [1;30m▐[0m▒ █▄▄▄▄▄███████▄▄▄▄▄▄ ▓[1;30m▀[0m     ▄██████▀             [34m▄▄[0m       [1;32m  [0;1;33m█[0;1;32m███[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PH-GAS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/goo001/raw/PH-GAS1.ANS
-# Source Revision: archive-sha256:609b75692692ccb2a91163fa5e36ca9c681f1416fea825b599b6028bd9003936
-# Source SHA-256: f463d05253370660f07f4ceb0f9de04d9593b0a815d36b49924dba9c8f578c2c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PH-GAS1.ANS by psychohOlic (gOo prOductions); released in goo001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Gas Chamber
-# SAUCE Author: psychohOlic
-# SAUCE Group: gOo prOductions
-# SAUCE Date: 19951216
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Gas Chamber by psychohOlic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-goo001-ph-gas1
 
 Write-Host '
                                       [1;34m▄▄▄▄██████▄▄▄[0m

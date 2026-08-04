@@ -1,13 +1,4 @@
-﻿# Converted from: US-TARAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn0797/raw/US-TARAN.ANS
-# Source Revision: archive-sha256:fc1844bde3fb3bc448ff1373e91cb7237c6c2f8016c75eb605f0f71b6d1e80d5
-# Source SHA-256: f3a82375493db2335340018321778f2adba611843b8ac09445c6ff454c755be9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TARAN.ANS by Ize + Menace (fsn0797); released in fsn0797 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: US-TARAN.ANS by Ize + Menace | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn0797-us-taran
 
 Write-Host '
         [1m░[0m                 [34m░[0;30;44m▓[0;34;40m░[0m                          [1;30;40m     [0m        [1m          [0m 

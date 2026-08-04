@@ -1,18 +1,4 @@
-﻿# Converted from: 09-ELD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9611/raw/09-ELD1.ANS
-# Source Revision: archive-sha256:2b73e149488dc761d99422832825743596588d59e58f9bfecfb5d0e9dbffd274
-# Source SHA-256: 7de3b1200fb7322bc555095392f05b19b94a49fb4fad62570c298c16bd85bf75
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-ELD1.ANS by Fluor (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Eldorado
-# SAUCE Author: Fluor
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961031
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Eldorado by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9611-09-eld1
 
 Write-Host '
                  [30;44m▓[0;1;34;40m░[0m [1;34m▄▄▄▄▄▄▄▌[0m    [1;30m■▄▄[0;1;34m░░[0m             [1;34m░░[0m

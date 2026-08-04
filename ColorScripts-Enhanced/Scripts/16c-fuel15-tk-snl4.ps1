@@ -1,18 +1,4 @@
-﻿# Converted from: TK-SNL4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel15/raw/TK-SNL4.ANS
-# Source Revision: archive-sha256:3b994e59b6a78be97a60517481673ca8661cd10fa275e8c56fe8095a44e5feee
-# Source SHA-256: 776d8b013f92da1b46d5c7fe6298986452fb89fc1666b21e17944cad638b5613
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TK-SNL4.ANS by the knight (fuel productions); released in fuel15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: scenial 4 logoff
-# SAUCE Author: the knight
-# SAUCE Group: fuel productions
-# SAUCE Date: 19970707
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: scenial 4 logoff by the knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel15-tk-snl4
 
 Write-Host '
  [34m░░[0;37m [0;34m██▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀██▒░░[0m

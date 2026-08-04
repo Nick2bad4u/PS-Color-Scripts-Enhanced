@@ -1,18 +1,4 @@
-﻿# Converted from: RG-RA8.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ra-pack5/raw/RG-RA8.ANS
-# Source Revision: archive-sha256:c686da67e3347a257f133229c38f0ded15c3b11846248779489ed776a4450659
-# Source SHA-256: 7cd730e9f77532f70d67deb173eb6b26434b1e88322e56c3524120e29e24f5e1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RG-RA8.ANS by rage (rebelart); released in ra-pack5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: rebelart #8
-# SAUCE Author: rage
-# SAUCE Group: rebelart
-# SAUCE Date: 19980516
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: rebelart #8 by rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ra-pack5-rg-ra8
 
 Write-Host '
                      [1;30mΓ[0mÆ[1mG[0mε [1m$$$$$$$$[0m  [1m$$$$[0m [1m$$$$[0m [1m$$$$$$$$[0m  [1m$$$$[0m [1m$[0;1;31m$[0;1;37m$$[0m [1m$$$[0;1;31m$[0m

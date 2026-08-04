@@ -1,18 +1,4 @@
-﻿# Converted from: PH-DEC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dcds0796/raw/PH-DEC.ANS
-# Source Revision: archive-sha256:3509ed83150d72e01cde39c5fe6c61d852f4f7285feb9d94b431cec18116688b
-# Source SHA-256: 7ef3c187f4f94deab5ee648f52dabf18169920e89f90b1e20c9baca25c74ab1b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PH-DEC.ANS by Phlare (Decades); released in dcds0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Decades Promotional
-# SAUCE Author: Phlare
-# SAUCE Group: Decades
-# SAUCE Date: 19960702
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Decades Promotional by Phlare | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dcds0796-ph-dec
 
 Write-Host '
 

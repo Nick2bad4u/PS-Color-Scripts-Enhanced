@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-KE01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0625/raw/ZII-KE01.ANS
-# Source Revision: archive-sha256:6ee9af28fa25e25a7c8d524c0b340107e083c251e59a271e20836a9f47bec3b2
-# Source SHA-256: 99b95c79f68af70acd839762a3bcf28cb9fbaaad91d583310fb28ffb62544bad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-KE01.ANS by Zeus II (Mistigris); released in mist0625 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Kingdom's End Login
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20250406
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Kingdom's End Login by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0625-zii-ke01
 
 Write-Host '
 [34m      ▄▄█████████████████▄▄    [0;1;31;43m█[0m [1;35;45m█▓[0m [1;35;45m▄[0;35m▓[0;37m  [0;31m▐▌▄[0;1;33;41m░[0;31m▀▀[0;37m  [0;34m▀▀[0;37m  [0;31m▄▄▄[0;37m  [0;34m▀▓▄[0;37m [0;31m▄   ▄▄▄▄▄[0;37m    [0;31m▀▄▄[0;37m [0;34m░░[0m

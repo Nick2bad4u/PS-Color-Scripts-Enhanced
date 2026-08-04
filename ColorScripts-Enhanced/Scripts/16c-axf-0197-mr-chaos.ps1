@@ -1,13 +1,4 @@
-﻿# Converted from: MR-CHAOS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-0197/raw/MR-CHAOS.ANS
-# Source Revision: archive-sha256:08e3420d6f5bf039e22601d044f43006678a0458956ba31375be1cbab8367813
-# Source SHA-256: 937a5b0be8c1448dae01dfa60fd5016ad66579ae3e60f432820c83249a6ed7bf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-CHAOS.ANS by Minotaur (axf-0197); released in axf-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: MR-CHAOS.ANS by Minotaur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-0197-mr-chaos
 
 Write-Host '
        [30;45m▓[0m                         [33;40m▀[0;1;33;43m  [0;33m▀▀▀▀[0;1;33;43m░[0;33m▀[0;1;33m▀▀▀[0;1;33;43m██[0;1;33;40m▀[0m

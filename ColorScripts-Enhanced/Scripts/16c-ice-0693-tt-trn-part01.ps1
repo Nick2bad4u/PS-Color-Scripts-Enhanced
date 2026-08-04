@@ -1,13 +1,4 @@
-﻿# Converted from: TT-TRN.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-0693/raw/TT-TRN.ICE
-# Source Revision: archive-sha256:b784bcbc98d8305f30bf1b6bca15accd20e1e43509d6c036a50e2b6ce86a3e93
-# Source SHA-256: 80db8d5238a4389c2ec77845c1f901d520248f3be63eff6bec04c3ca88fa5a85
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TT-TRN.ICE by Tempus Thales (ice-0693); released in ice-0693 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: TT-TRN.ICE by Tempus Thales | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-0693-tt-trn-part01
 
 Write-Host '
 

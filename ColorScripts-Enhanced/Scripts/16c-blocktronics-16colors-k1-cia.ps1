@@ -1,13 +1,4 @@
-﻿# Converted from: k1-cia.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_16colors/raw/k1-cia.ans
-# Source Revision: archive-sha256:906b8658ae1b298a9794b2bd98c553b56bef4b4de5008bd765b49c3ed6b68572
-# Source SHA-256: b6b525be6f543b4e4cd5138aee879e93471105a98a3214d86ebded4bd2ae8d0d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: k1-cia.ans by Knocturnal (blocktronics_16colors); released in blocktronics_16colors and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: k1-cia.ans by Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-16colors-k1-cia
 
 Write-Host '
                             [1;30;40m▄[0;1;30;47m▀[0;1;30;40m▄ ▀[0m

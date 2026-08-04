@@ -1,13 +1,4 @@
-﻿# Converted from: avg-b7.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_resvolution/raw/avg-b7.ans
-# Source Revision: archive-sha256:d0690af9ec91bf96f335196e9f9ddfb5d7ea02d97d300b53301bebaf58d83c35
-# Source SHA-256: ac8681f80e42aaca6af9c81730265496df706fef1c6f722604da443c0dc8cfa2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-b7.ans by Avenging Angel (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 118-156
-# Columns: 1-80
+﻿# Artwork: avg-b7.ans by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-resvolution-avg-b7-part04
 
 Write-Host '
        [1;30m█[0;1;30;47m▀▀[0;1;30;40m▄█[0m▀[1;30;47m▄▒[0;1;30;40m█[0m                                       [1;32m  [0m       [1;30m█[0;1;30;47m▒▄[0m▀[1;30m█▄[0;1;30;47m▀▀[0;1;30;40m█[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: JU-ANGEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m1-9612/raw/JU-ANGEL.ANS
-# Source Revision: archive-sha256:3345b8669e1e5395f00119c0204de5931cc61e1b206afc14cb4b582ca2764c50
-# Source SHA-256: 2869c4706f7fbff4a8826f37821f78d67a3bcbd843e9415a64b6055a0527ba29
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JU-ANGEL.ANS by Judas (Maiten1); released in m1-9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Angel
-# SAUCE Author: Judas
-# SAUCE Group: Maiten1
-# SAUCE Date: 19961130
-# SAUCE Dimensions: 80x25
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Angel by Judas | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m1-9612-ju-angel
 
 Write-Host '
          [1;30m   [0m              [1;30m               [0;1;33m▄[0m [1;30m [0;1;33m▄[0m     [1;33m▄▄▓░  [0m

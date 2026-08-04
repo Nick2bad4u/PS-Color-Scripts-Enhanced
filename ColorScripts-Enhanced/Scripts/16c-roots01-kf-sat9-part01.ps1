@@ -1,18 +1,4 @@
-﻿# Converted from: KF-SAT9.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roots01/raw/KF-SAT9.ANS
-# Source Revision: archive-sha256:dd8ab7f4699320ca828bf58552b53e17a1e210a9bedef1bc8bfdf4b451cdf01c
-# Source SHA-256: e24b6a589ede2e68cbb35b608780d79bacb769dfdb18834e2380a27d12d7dc2f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KF-SAT9.ANS by kid frost (roots); released in roots01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: sat9
-# SAUCE Author: kid frost
-# SAUCE Group: roots
-# SAUCE Date: 20080229
-# SAUCE Dimensions: 80x451
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: sat9 by kid frost | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roots01-kf-sat9-part01
 
 Write-Host '
 [31m██████████████████████████████████████████████████████████████████████[0;30;41mkf[[0;1;33;40mb[0;1;31;41mu[0;30;41mrn08][0m

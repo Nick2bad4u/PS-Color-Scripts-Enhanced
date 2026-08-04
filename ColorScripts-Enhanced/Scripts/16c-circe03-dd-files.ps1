@@ -1,18 +1,4 @@
-﻿# Converted from: DD-FILES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe03/raw/DD-FILES.ANS
-# Source Revision: raw-sha256:a23fba2349696cccd0636d0dcbfbd4607b8f626d24076764825cb41538bfe582
-# Source SHA-256: a23fba2349696cccd0636d0dcbfbd4607b8f626d24076764825cb41538bfe582
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-FILES.ANS by Diamond Darrel (Circe Argentina); released in circe03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: "Files Menu"
-# SAUCE Author: Diamond Darrel
-# SAUCE Group: Circe Argentina
-# SAUCE Date: 19971213
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: "Files Menu" by Diamond Darrel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe03-dd-files
 
 Write-Host '
 [34m███████████[0;34;46m▓▓▓▄▄[0;1;30;44m▀▀[0;34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0;1;33m [0;1;31m▐[0;1;31;47m▓[0;1;31;40m█[0;1;31;47m███[0;1;31;40m█[0;1;31;43m▓▓▓▓▓▓▓[0;1;31;40m▓▓▓█▄▄[0;1;33;40m░░[0;1;31;40m▀[0;1;31;43m░░[0;33m▄▄[0;1;31m     [0;1;33m▀▀▀▓▓ ▀ ░░░[0m

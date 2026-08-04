@@ -1,18 +1,4 @@
-﻿# Converted from: jn-bloom.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic57/raw/jn-bloom.ans
-# Source Revision: archive-sha256:01b4e6ffc2d9406cbdbefe8353e19854b60cc8e7985718b649dcb5401e7eafe8
-# Source SHA-256: 19d949097f4b1de9331eea7b997571976742f1218cbf43911130f81596ef5491
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: jn-bloom.ans by Jashiin (Mimic Productions); released in mimic57 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: In Bloom
-# SAUCE Author: Jashiin
-# SAUCE Group: Mimic Productions
-# SAUCE Date: 20030302
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: In Bloom by Jashiin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic57-jn-bloom
 
 Write-Host '
 

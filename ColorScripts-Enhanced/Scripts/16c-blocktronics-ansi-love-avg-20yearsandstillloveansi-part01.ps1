@@ -1,16 +1,4 @@
-﻿# Converted from: avg-20yearsandstillloveansi.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_ansi_love/raw/avg-20yearsandstillloveansi.ans
-# Source Revision: archive-sha256:6bbd631cd11e3473b019590c35c9a89f139f75a09b13e07a93395613241d63e9
-# Source SHA-256: 43e0bb506297cf45e798038c6bb619050ee925d058ed8afd0c68ed345c3e32d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-20yearsandstillloveansi.ans by Avenging Angel (blocktronics_ansi_love); released in blocktronics_ansi_love and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20170731
-# SAUCE Dimensions: 80x125
-# SAUCE Font: IBM VGA
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: avg-20yearsandstillloveansi.ans by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-ansi-love-avg-20yearsandstillloveansi-part01
 
 Write-Host '
 [31;40m▄██████████████████████████████████████████████████████████████████████████████▄[0m

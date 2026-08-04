@@ -1,13 +1,4 @@
-﻿# Converted from: SQUIDIO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/irapack4/raw/SQUIDIO.ANS
-# Source Revision: archive-sha256:ecb1d80dafdb417e5051f5ba35e0e511304e00b3a6fc7254558e7c31767db2ac
-# Source SHA-256: b4675677f2b6528a39782e8d1a862f1e2362c58ded2ce46df516afc3b16b6502
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SQUIDIO.ANS by Ghost Rider (irapack4); released in irapack4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: SQUIDIO.ANS by Ghost Rider | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-irapack4-squidio
 
 Write-Host '
                                                [1;34mGR 96[0m

@@ -13,9 +13,8 @@ const {
     getPayloadSha256,
     validateManifest,
 } = require("./Apply-ColorScriptGeometryReview.js");
-const {
-    assertSafeScriptName,
-} = require("./Prune-ColorScripts.js");
+const { assertSafeScriptName } = require("./Prune-ColorScripts.js");
+const { readArtworkProvenance } = require("./ArtworkProvenance.js");
 
 const REPOSITORY_ROOT = path.resolve(__dirname, "..");
 const DEFAULT_SCRIPTS_DIRECTORY = path.join(
@@ -23,18 +22,17 @@ const DEFAULT_SCRIPTS_DIRECTORY = path.join(
     "ColorScripts-Enhanced",
     "Scripts"
 );
+let checkedInProvenance = null;
 
 const ACTION_MAP = new Map([
     ["crop-leading-blank-rows", "crop-leading-blank-rows"],
-    [
-        "crop-orphaned-tail-after-last-substantive-row",
-        "crop-orphaned-tail",
-    ],
+    ["crop-orphaned-tail-after-last-substantive-row", "crop-orphaned-tail"],
 ]);
 
 /**
  * @param {string} targetPath
  * @param {string} content
+ *
  * @returns {void}
  */
 function writeFileAtomic(targetPath, content) {
@@ -44,24 +42,27 @@ function writeFileAtomic(targetPath, content) {
 }
 
 /**
- * Reproduce the analyzer's source-row normalization so reviewed row numbers
- * can be mapped back to the serialized payload. The analyzer removes the
+ * Reproduce the analyzer's source-row normalization so reviewed row numbers can
+ * be mapped back to the serialized payload. The analyzer removes the
  * serializer's opening presentation row only when the current payload length
  * still matches the declared source span. Earlier curation may legitimately
- * remove trailing blank rows without narrowing the archival source
- * coordinates, in which case the analyzer keeps that presentation row.
+ * remove trailing blank rows without narrowing the archival source coordinates,
+ * in which case the analyzer keeps that presentation row.
  *
  * @param {string} source
  * @param {string[]} rows
  * @param {number} presentationRows
  * @param {{ totalRows?: number }} finding
+ * @param {string | null} [externalSourceRows]
+ *
  * @returns {number}
  */
 function getAnalysisRowOffset(
     source,
     rows,
     presentationRows,
-    finding
+    finding,
+    externalSourceRows = null
 ) {
     if (presentationRows === 0) return 0;
     if (Number.isSafeInteger(finding.totalRows)) {
@@ -73,8 +74,9 @@ function getAnalysisRowOffset(
             "Reviewed total rows no longer match either analyzer row convention."
         );
     }
-    const sourceRowsMatch =
-        /^# Lines:\s*(\d+)\s*-\s*(\d+)\s*$/mu.exec(source);
+    const sourceRowsMatch = /^(?:# Lines:\s*)?(\d+)\s*-\s*(\d+)\s*$/mu.exec(
+        externalSourceRows || source
+    );
     if (!sourceRowsMatch) return 0;
     const startRow = Number(sourceRowsMatch[1]);
     const endRow = Number(sourceRowsMatch[2]);
@@ -87,12 +89,10 @@ function getAnalysisRowOffset(
 /**
  * @param {unknown} classification
  * @param {string} scriptsDirectory
+ *
  * @returns {object}
  */
-function createGeometryReviewManifest(
-    classification,
-    scriptsDirectory
-) {
+function createGeometryReviewManifest(classification, scriptsDirectory) {
     if (
         !classification ||
         typeof classification !== "object" ||
@@ -123,6 +123,16 @@ function createGeometryReviewManifest(
             throw new Error(`${script}: reviewed script is missing.`);
         }
         const source = fs.readFileSync(filePath, "utf8");
+        let externalSourceRows = null;
+        if (
+            path.resolve(scriptsDirectory).toLowerCase() ===
+            path.resolve(DEFAULT_SCRIPTS_DIRECTORY).toLowerCase()
+        ) {
+            checkedInProvenance ??= readArtworkProvenance();
+            const entry = checkedInProvenance.scripts.get(finding.script);
+            externalSourceRows =
+                typeof entry?.SourceRows === "string" ? entry.SourceRows : null;
+        }
         if (isSourceFidelityLocked(source)) {
             throw new Error(
                 `${script}: source-fidelity-locked payload cannot enter a geometry manifest.`
@@ -137,7 +147,8 @@ function createGeometryReviewManifest(
             source,
             rows,
             presentationRows,
-            finding
+            finding,
+            externalSourceRows
         );
         const action = ACTION_MAP.get(finding.recommendedAction);
         const common = {
@@ -150,18 +161,14 @@ function createGeometryReviewManifest(
         if (action === "crop-leading-blank-rows") {
             const classifiedPresentationRows =
                 analysisRowOffset === 0 ? presentationRows : 0;
-            const removableRows =
-                finding.rows - classifiedPresentationRows;
+            const removableRows = finding.rows - classifiedPresentationRows;
             if (
                 !Number.isSafeInteger(finding.rows) ||
                 !Number.isSafeInteger(removableRows) ||
                 removableRows < 1 ||
                 removableRows + presentationRows >= rows.length ||
                 blankRows
-                    .slice(
-                        presentationRows,
-                        presentationRows + removableRows
-                    )
+                    .slice(presentationRows, presentationRows + removableRows)
                     .some((isBlank) => !isBlank) ||
                 blankRows[presentationRows + removableRows]
             ) {
@@ -185,10 +192,7 @@ function createGeometryReviewManifest(
             finding.endRow < finding.startRow ||
             gapEndRow >= rows.length ||
             blankRows
-                .slice(
-                    gapStartRow - 1,
-                    gapEndRow
-                )
+                .slice(gapStartRow - 1, gapEndRow)
                 .some((isBlank) => !isBlank)
         ) {
             throw new Error(
@@ -215,13 +219,11 @@ function createGeometryReviewManifest(
             typeof classification.generatedAt === "string"
                 ? classification.generatedAt
                 : new Date().toISOString(),
-        policy:
-            "Apply only high-confidence reviewed crops that remove rendered-blank leading margins or stranded tails after a verified blank gap. Background-colored spaces and source-fidelity-locked payloads fail closed.",
+        policy: "Apply only high-confidence reviewed crops that remove rendered-blank leading margins or stranded tails after a verified blank gap. Background-colored spaces and source-fidelity-locked payloads fail closed.",
         summary: {
             actions: actions.length,
             leadingCrops: actions.filter(
-                (action) =>
-                    action.action === "crop-leading-blank-rows"
+                (action) => action.action === "crop-leading-blank-rows"
             ).length,
             orphanTailCrops: actions.filter(
                 (action) => action.action === "crop-orphaned-tail"
@@ -235,6 +237,7 @@ function createGeometryReviewManifest(
 
 /**
  * @param {string[]} arguments_
+ *
  * @returns {{
  *     classificationPath: string;
  *     outputPath: string;
@@ -246,7 +249,7 @@ function parseArguments(arguments_) {
         classificationPath: null,
         outputPath: path.join(
             REPOSITORY_ROOT,
-            "ColorScripts-Enhanced",
+            "audit",
             "AnsiGeometryReviewManifest.json"
         ),
         scriptsDirectory: DEFAULT_SCRIPTS_DIRECTORY,
@@ -292,6 +295,7 @@ Options:
 
 /**
  * @param {string[]} arguments_
+ *
  * @returns {void}
  */
 function main(arguments_ = process.argv.slice(2)) {

@@ -1,18 +1,4 @@
-﻿# Converted from: NC3-SO1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/33rules/raw/NC3-SO1.ICE
-# Source Revision: archive-sha256:6cf2aef8e3ca97e1761e1ee4a8ba395e4fdab4dec9d3b2efb91c059359b50b00
-# Source SHA-256: f619dc363fccc0ec5d3e8316df1a502c0f90d211106ad755afe34db3724e8113
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NC3-SO1.ICE by iCE 02/95 (Neurotic/Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Suboceana [j]
-# SAUCE Author: iCE 02/95
-# SAUCE Group: Neurotic/Eerie
-# SAUCE Date: 19950228
-# SAUCE Dimensions: 80x156
-# Lines: 39-77
-# Columns: 1-80
+﻿# Artwork: Suboceana [j] by iCE 02/95 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-33rules-nc3-so1-part02
 
 Write-Host '
 [1;33m▄▀▀▓▀  ▄[0;1;33;47m▓▓[0;1;33;40m█[0;1;33;47m▓▓[0m [33m▀███[0;1;33;43m░░▒▒▒▒[0;1;33;40m▄ ▀[0;1;33;43m▓▓▓[0;1;33;40m▀████▄▀███ ▀██▄ ▓[0;1;33;47m▓▓[0;1;33;40m██▄█[0;1;33;47m▓[0;1;33;40m████████▌ ▄███[0m   [36m▄[0;1;36;46m░░▒▒▓▓▓[0m

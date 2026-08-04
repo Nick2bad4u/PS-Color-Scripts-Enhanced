@@ -1,19 +1,4 @@
-﻿# Converted from: us-acidunderworld.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel30/raw/us-acidunderworld.ans
-# Source Revision: archive-sha256:e3148e82a669aa484baf0738069fbabe44ba2824856e1cb4b05875b86bdd4621
-# Source SHA-256: 9fbe3f51363eb61a3bbe501d05689cfe5ebc9787b23cc0f7489b32986e3892b0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-acidunderworld.ans by Smooth + The Knight (Fuel); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ACiD Underworld
-# SAUCE Author: tk and smooth
-# SAUCE Group: Fuel
-# SAUCE Date: 20190630
-# SAUCE Dimensions: 80x292
-# SAUCE Font: IBM VGA
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: ACiD Underworld by Smooth + The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel30-us-acidunderworld-part01
 
 Write-Host '
      [1;31;40m  [0m  [31m▄[0m                                                            [31m▄[0m

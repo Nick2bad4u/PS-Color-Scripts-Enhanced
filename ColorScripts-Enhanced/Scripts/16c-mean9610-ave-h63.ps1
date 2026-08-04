@@ -1,17 +1,4 @@
-﻿# Converted from: AVE-H63.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mean9610/raw/AVE-H63.ANS
-# Source Revision: archive-sha256:eb05f2b8207463fc94de363304abab4a1544e298daf7dc7d1efbc5b0f6afd5eb
-# Source SHA-256: 7b993e4d434fd32350fa318c2e090832b5197b8c0580e7ac068cdad314ba590e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-H63.ANS by avenger (mean9610); released in mean9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hazard/2 #63 =)
-# SAUCE Author: avenger
-# SAUCE Date: 19961031
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: hazard/2 #63 =) by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mean9610-ave-h63
 
 Write-Host '
   [36m [0;37m  [0;30;46m▓▓▓[0;37;40m  [0;30;46m▓▓[0m             [33;40m▄▄[0m   [31;40m▄▄▄[0m   [31;40m▄[0;1;31;40m▄▄▄[0;31m▄[0;1;31m░░[0m     [33m ░[0;30;43m▓░[0;33;40m▓▄▄[0m            [1;37;40m..ave[0m

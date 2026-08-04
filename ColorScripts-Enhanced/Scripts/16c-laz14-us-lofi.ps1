@@ -1,19 +1,4 @@
-﻿# Converted from: us-lofi.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz14/raw/us-lofi.ans
-# Source Revision: archive-sha256:41b4e3770fbffb058172283f3da2aa00e47c872480cf93fdef94629ebc0751bb
-# Source SHA-256: 25a6f8b5d636ecb8fc18d1763cf9126e96a2a543a96baa83d7ab223a2c0a3486
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-lofi.ans by Flewid + Warpus (LAZARUS); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Lofi
-# SAUCE Author: warpus & flewid
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20211213
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Lofi by Flewid + Warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz14-us-lofi
 
 Write-Host '
            [30m▒▒▒▒▒[0;37m   [0;1;37m▄▄▄▄▄▄▄▄▄▄▄▄ [0m▄▓▓▒▒▒▒▒▒▒▒▒▒▒[1m▄▄▄▄▄▓▓▓▓▓▄[0m

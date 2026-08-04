@@ -1,18 +1,4 @@
-﻿# Converted from: SMI-FART.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9701/raw/SMI-FART.ANS
-# Source Revision: archive-sha256:d9ee1d58a6a06d01c9f7c4f38cd8e5ab0dc2d9bdfc6b97ab0ed0cc65c400a40c
-# Source SHA-256: 34c61e3d820ff75be0700296b107babdfb5636311d1a9eba36af2126786c064a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMI-FART.ANS by Samurai (AWE Lettering); released in awe9701 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Chronic Farts
-# SAUCE Author: Samurai
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970105
-# SAUCE Dimensions: 80x19
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Chronic Farts by Samurai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9701-smi-fart
 
 Write-Host '
                             ░([1mc[0m) [1mh[0m [1m r[0m  [1mo[0m  [1mn[0m  [1mi[0m  [1mc[0m ░░

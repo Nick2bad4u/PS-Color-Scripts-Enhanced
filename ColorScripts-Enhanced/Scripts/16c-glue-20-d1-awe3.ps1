@@ -1,18 +1,4 @@
-﻿# Converted from: D1_AWE3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-20/raw/D1_AWE3.ANS
-# Source Revision: archive-sha256:393d047e2180bfd9243bab3697da037cf54274d924108dd74eafdca6bd3a4109
-# Source SHA-256: 107da4419fbd8dc3e6388b673d61d7f17db406a8ce9257ecf6e5e81982149065
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D1_AWE3.ANS by Dissonance (Glue); released in glue-20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: AWE Lettering Tribute
-# SAUCE Author: Dissonance
-# SAUCE Group: Glue
-# SAUCE Date: 19990330
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: AWE Lettering Tribute by Dissonance | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-20-d1-awe3
 
 Write-Host '
                   [1;33m  [0m

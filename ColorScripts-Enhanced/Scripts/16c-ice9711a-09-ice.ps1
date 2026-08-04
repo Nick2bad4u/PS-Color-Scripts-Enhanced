@@ -1,18 +1,4 @@
-﻿# Converted from: 09-ICE.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9711a/raw/09-ICE.ICE
-# Source Revision: archive-sha256:5232c9a52fdd089ba6a67d2d4da9d4e569d48d932be6636aa08295f6c4bb32bf
-# Source SHA-256: a86c24f8d2b7003a55397379e312e697c325cce7ca1eaed0ac46155ccd70b72e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-ICE.ICE by Fluor (Ice Advertisement); released in ice9711a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Ice Promotional
-# SAUCE Author: Fluor
-# SAUCE Group: Ice Advertisement
-# SAUCE Date: 19971128
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Ice Promotional by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9711a-09-ice
 
 Write-Host '
              [1;34m [0m  [34m▐ [0m

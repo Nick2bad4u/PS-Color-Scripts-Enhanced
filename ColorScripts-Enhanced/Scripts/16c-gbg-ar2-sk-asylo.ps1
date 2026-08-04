@@ -1,18 +1,4 @@
-﻿# Converted from: SK-ASYLO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gbg-ar2/raw/SK-ASYLO.ANS
-# Source Revision: archive-sha256:c13817cb67a4bfd2ae773671d50436cbf39ac310a923ef26548c5637c3b2646b
-# Source SHA-256: ddc1839cebe3a8ea822f121d314a2e9d9c8c0891f49edc9ee4c17bd396b59af9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK-ASYLO.ANS by Sike (tRASH - gARBAGE!); released in gbg-ar2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: aSYLUM anskii login!
-# SAUCE Author: Sike
-# SAUCE Group: tRASH - gARBAGE!
-# SAUCE Date: 19961128
-# SAUCE Dimensions: 80x48
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: aSYLUM anskii login! by Sike | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gbg-ar2-sk-asylo
 
 Write-Host '
 [1;33msS$$$$$$$$$$SSs.[0m                                            [32m$$S²""""²S$S²"$"²S$$[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: NE-FSOL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-21/raw/NE-FSOL.ANS
-# Source Revision: archive-sha256:d980c3e2187ff0ef4bb9edce960381dc01c8374df0b01b4ddb8d104484f4b936
-# Source SHA-256: b3ebcd48e0ee167f5f064ef7d0396dfb6830f9964db783bc826e543f915dd9d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NE-FSOL.ANS by Nemo (AWE Lettering); released in awe-21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: FSOL
-# SAUCE Author: Nemo
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: FSOL by Nemo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-21-ne-fsol
 
 Write-Host '
                      [32m   [0m   [32m   [0m

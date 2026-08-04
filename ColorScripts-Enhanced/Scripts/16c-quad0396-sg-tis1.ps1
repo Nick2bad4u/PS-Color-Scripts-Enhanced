@@ -1,18 +1,4 @@
-﻿# Converted from: SG-TIS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0396/raw/SG-TIS1.ANS
-# Source Revision: archive-sha256:f085ca3cf6d75985ae759e60a340bcc124fb43ad553f80bec492b8b584ca4713
-# Source SHA-256: 7ee97c535a0c8ed509fbecb4df80899a82a8f5174e68cdb338881e0ef7b4f6d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SG-TIS1.ANS by Stygian (Quad-P); released in quad0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Inmost Sanctum
-# SAUCE Author: Stygian
-# SAUCE Group: Quad-P
-# SAUCE Date: 19960129
-# SAUCE Dimensions: 80x20
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: The Inmost Sanctum by Stygian | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0396-sg-tis1
 
 Write-Host '
 [34m▄[0;1;37m▀███[0;1;37;47m▓▓[0;1;37;40m████████[0;1;37;47m█░▄[0;1;37;40m██████████████[0;1;37;47m▓▓▓▓▓▓▒▒▓▒▒░░░░ [0;1;30;47m░░[0;1;37;47m         [0;1;30;47m▀▓ [0;1;37;47m   [0;1;30;47m░▒▀▄▒░ ░   ░[0;1;37;47m [0;1;30;47m░▒[0m

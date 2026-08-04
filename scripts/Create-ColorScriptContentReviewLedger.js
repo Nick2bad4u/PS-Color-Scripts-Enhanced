@@ -9,9 +9,7 @@ const {
     getReviewEvidenceHash,
     stripAnsiControls,
 } = require("./Audit-ColorScriptContent.js");
-const {
-    assertSafeFileName,
-} = require("./Apply-ColorScriptContentReview.js");
+const { assertSafeFileName } = require("./Apply-ColorScriptContentReview.js");
 
 const REPOSITORY_ROOT = path.resolve(__dirname, "..");
 const DEFAULT_SCRIPTS_DIRECTORY = path.join(
@@ -19,11 +17,16 @@ const DEFAULT_SCRIPTS_DIRECTORY = path.join(
     "ColorScripts-Enhanced",
     "Scripts"
 );
-const ALLOWED_SEVERITIES = new Set(["critical", "high", "medium"]);
+const ALLOWED_SEVERITIES = new Set([
+    "critical",
+    "high",
+    "medium",
+]);
 
 /**
  * @param {string} targetPath
  * @param {string} content
+ *
  * @returns {void}
  */
 function writeFileAtomic(targetPath, content) {
@@ -34,6 +37,7 @@ function writeFileAtomic(targetPath, content) {
 
 /**
  * @param {unknown} value
+ *
  * @returns {string[]}
  */
 function normalizeCategories(value) {
@@ -51,6 +55,7 @@ function normalizeCategories(value) {
 
 /**
  * @param {string} value
+ *
  * @returns {{
  *     action: "blank-text" | "remove-row";
  *     categories: string[];
@@ -71,12 +76,8 @@ function parseAdditionalReview(value) {
     assertSafeFileName(match.groups.file);
     return {
         action:
-            match.groups.action === "remove-row"
-                ? "remove-row"
-                : "blank-text",
-        categories: normalizeCategories(
-            match.groups.categories.split(",")
-        ),
+            match.groups.action === "remove-row" ? "remove-row" : "blank-text",
+        categories: normalizeCategories(match.groups.categories.split(",")),
         file: match.groups.file,
         row: Number.parseInt(match.groups.row, 10),
     };
@@ -92,6 +93,7 @@ function parseAdditionalReview(value) {
  *     severity?: string;
  *     sha256: string;
  * }} evidence
+ *
  * @returns {void}
  */
 function addEvidence(candidates, evidence) {
@@ -101,21 +103,21 @@ function addEvidence(candidates, evidence) {
         candidates.set(evidence.file, rows);
     }
     const existing =
-        /** @type {{
-         *     categories?: string[];
-         *     severity?: string;
-         *     sha256?: string;
-         * } | undefined} */ (rows.get(evidence.row));
+        /**
+         * @type {{
+         *           categories?: string[];
+         *           severity?: string;
+         *           sha256?: string;
+         *       }
+         *     | undefined}
+         */ (rows.get(evidence.row));
     if (existing && existing.sha256 !== evidence.sha256) {
         throw new Error(
             `${evidence.file}: row ${evidence.row} has conflicting review evidence.`
         );
     }
     const categories = [
-        ...new Set([
-            ...(existing?.categories || []),
-            ...evidence.categories,
-        ]),
+        ...new Set([...(existing?.categories || []), ...evidence.categories]),
     ].sort();
     rows.set(evidence.row, {
         action:
@@ -143,13 +145,10 @@ function addEvidence(candidates, evidence) {
  *     row: number;
  * }[]} additional
  * @param {string} scriptsDirectory
+ *
  * @returns {object}
  */
-function createReviewLedger(
-    rawDocument,
-    additional,
-    scriptsDirectory
-) {
+function createReviewLedger(rawDocument, additional, scriptsDirectory) {
     if (
         !rawDocument ||
         typeof rawDocument !== "object" ||
@@ -158,13 +157,15 @@ function createReviewLedger(
         throw new Error("Raw review report lacks a candidates array.");
     }
     const raw =
-        /** @type {{
+        /**
+         * @type {{
          *     candidates: unknown[];
          *     explicitExceptions?: unknown[];
          *     falsePositives?: unknown[];
          *     parseFailures?: unknown[];
          *     summary?: Record<string, unknown>;
-         * }} */ (rawDocument);
+         * }}
+         */ (rawDocument);
     const candidates = new Map();
 
     for (const candidate of raw.candidates) {
@@ -246,9 +247,7 @@ function createReviewLedger(
     }
 
     const reviewedCandidates = [...candidates]
-        .sort(([left], [right]) =>
-            left.localeCompare(right, "en-US")
-        )
+        .sort(([left], [right]) => left.localeCompare(right, "en-US"))
         .map(([file, rows]) => ({
             evidence: [...rows.values()].sort(
                 (left, right) => left.row - right.row
@@ -265,16 +264,13 @@ function createReviewLedger(
         reviewedAt: "2026-07-27",
         normalization:
             "SHA-256 of UTF-8 rendered row text after ANSI-control removal and outer-whitespace trimming.",
-        policy:
-            "Rows were manually reviewed for contact details, identifying information, promotional blocks, or policy-ineligible standalone text. Hash-only evidence avoids retaining removed text.",
+        policy: "Rows were manually reviewed for contact details, identifying information, promotional blocks, or policy-ineligible standalone text. Hash-only evidence avoids retaining removed text.",
         sourceAudit: {
             candidateFiles:
                 typeof summary.candidateFiles === "number"
                     ? summary.candidateFiles
                     : raw.candidates.length,
-            explicitFunctionalExceptions: Array.isArray(
-                raw.explicitExceptions
-            )
+            explicitFunctionalExceptions: Array.isArray(raw.explicitExceptions)
                 ? raw.explicitExceptions.length
                 : 0,
             filesScanned:
@@ -284,9 +280,7 @@ function createReviewLedger(
             parseFailures: Array.isArray(raw.parseFailures)
                 ? raw.parseFailures.length
                 : 0,
-            reviewedFalsePositiveRows: Array.isArray(
-                raw.falsePositives
-            )
+            reviewedFalsePositiveRows: Array.isArray(raw.falsePositives)
                 ? raw.falsePositives.length
                 : 0,
         },
@@ -301,6 +295,7 @@ function createReviewLedger(
 
 /**
  * @param {string[]} arguments_
+ *
  * @returns {{
  *     additional: {
  *         action: "blank-text" | "remove-row";
@@ -318,7 +313,7 @@ function parseArguments(arguments_) {
         additional: [],
         outputPath: path.join(
             REPOSITORY_ROOT,
-            "ColorScripts-Enhanced",
+            "audit",
             "AnsiContentReviewLedger.json"
         ),
         reviewPath: null,
@@ -342,9 +337,7 @@ function parseArguments(arguments_) {
             );
         } else if (argument.startsWith("--additional=")) {
             options.additional.push(
-                parseAdditionalReview(
-                    argument.slice("--additional=".length)
-                )
+                parseAdditionalReview(argument.slice("--additional=".length))
             );
         } else if (argument === "--help") {
             console.log(`Usage: node scripts/Create-ColorScriptContentReviewLedger.js [options]
@@ -376,6 +369,7 @@ Options:
 
 /**
  * @param {string[]} arguments_
+ *
  * @returns {void}
  */
 function main(arguments_ = process.argv.slice(2)) {
@@ -398,10 +392,7 @@ function main(arguments_ = process.argv.slice(2)) {
         options.scriptsDirectory
     );
     fs.mkdirSync(path.dirname(options.outputPath), { recursive: true });
-    writeFileAtomic(
-        options.outputPath,
-        `${JSON.stringify(ledger, null, 2)}\n`
-    );
+    writeFileAtomic(options.outputPath, `${JSON.stringify(ledger, null, 2)}\n`);
     console.log(JSON.stringify(ledger.summary, null, 2));
     console.log(`Ledger: ${options.outputPath}`);
 }

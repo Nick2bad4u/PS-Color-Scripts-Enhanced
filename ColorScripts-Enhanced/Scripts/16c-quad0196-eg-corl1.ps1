@@ -1,18 +1,4 @@
-﻿# Converted from: EG-CORL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0196/raw/EG-CORL1.ANS
-# Source Revision: archive-sha256:61642f5831b797f313fe10336de4c5f16c13238dc27081faf3549cf8df1329cd
-# Source SHA-256: 869cc5fee22061af69f0a92b6c95d1ca408e6b9300a931936c092f797fef42cc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EG-CORL1.ANS by El Greco ([Quad-P]); released in quad0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Corleone
-# SAUCE Author: El Greco
-# SAUCE Group: [Quad-P]
-# SAUCE Date: 19960105
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Corleone by El Greco | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0196-eg-corl1
 
 Write-Host '
 [40m  [0;1m▄▄▄▄▄▄█████████████████████████████[0;1;47m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄▄▄▄▄

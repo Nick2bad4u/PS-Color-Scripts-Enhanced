@@ -1,13 +1,4 @@
-﻿# Converted from: MP-COPS1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9604a/raw/MP-COPS1.ICE
-# Source Revision: archive-sha256:a8f8a3430f1223583f5ba829d23fcb523e4712909ac7211db98ebd0249624ef2
-# Source SHA-256: 855d0901a6f9c69583914cb2acbc231762c74ebcc0da58e914439d06aea092c4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MP-COPS1.ICE by Mephitopeles (ice9604a); released in ice9604a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: MP-COPS1.ICE by Mephitopeles | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9604a-mp-cops1
 
 Write-Host '
  [34m▀▓[0;1;34;44m▀[0;1;34;40m█[0;1;34;47m▓▓█[0;1;34;40m█▄ [0;1;31;40m▄░░░▄[0;31m▄▄[0m

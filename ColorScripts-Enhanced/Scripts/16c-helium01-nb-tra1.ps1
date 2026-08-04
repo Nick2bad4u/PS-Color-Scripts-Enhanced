@@ -1,13 +1,4 @@
-﻿# Converted from: NB-TRA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/helium01/raw/NB-TRA1.ANS
-# Source Revision: archive-sha256:07d8759f10fea4e17af6dcb88e6f2f43e74915e40d49cbcecc26379922d3a782
-# Source SHA-256: 42e009b0a629f24052abaf46112606e2dbbf95323ab6f4a59b706a863acc9a40
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NB-TRA1.ANS by Nightblade (helium01); released in helium01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: NB-TRA1.ANS by Nightblade | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-helium01-nb-tra1
 
 Write-Host '
                                                                        [1m▒[0m

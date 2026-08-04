@@ -1,19 +1,4 @@
-﻿# Converted from: wa-sauna.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna03/raw/wa-sauna.ans
-# Source Revision: archive-sha256:997aaab655669129eb266c21ca0c4588b603e11c90338498bb530f8bba390fb2
-# Source SHA-256: b92ae650f770250b17c4eec3724be439d7424a7295bf7d9389007af779991736
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-sauna.ans by warpus (LAzARUS); released in thesauna03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: SAUNA
-# SAUCE Author: warpus
-# SAUCE Group: LAzARUS
-# SAUCE Date: 20220401
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: SAUNA by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna03-wa-sauna
 
 Write-Host '
 [30m────────────────────────────────────────────────────────────────────────────────[0m

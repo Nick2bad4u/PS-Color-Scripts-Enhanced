@@ -1,18 +1,4 @@
-﻿# Converted from: !-1335.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile_001/raw/!-1335.ANS
-# Source Revision: archive-sha256:f7a8644489c1d011b91477b5b1eab40d9f39b077b89f158a7a0c3d1c032c6d81
-# Source SHA-256: 824b916b080c9f7e96389c145d10d28f0f99cc472484909c199218c16f5f0aef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: !-1335.ANS by flame (RILE); released in rile_001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: : INTRO :
-# SAUCE Author: flame
-# SAUCE Group: RILE
-# SAUCE Date: 19970215
-# SAUCE Dimensions: 80x25
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: : INTRO : by flame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile-001-1335
 
 Write-Host '
 [30m[0m                                                                       [1;30m■[0m

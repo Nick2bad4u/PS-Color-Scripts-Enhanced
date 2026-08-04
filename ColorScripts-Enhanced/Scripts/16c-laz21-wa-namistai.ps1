@@ -1,19 +1,4 @@
-﻿# Converted from: wa-namistai.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz21/raw/wa-namistai.ans
-# Source Revision: archive-sha256:daa0e008ccfccc8179e0635097f8fe4a46a32781b45bbd86ff6e4505514c9e6d
-# Source SHA-256: 2feee551de06d908ed986c5f805b9b57ce4300131a1590f5519d2cbc6889825e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-namistai.ans by warpus (LAZARUS); released in laz21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: NAMISTAI BBS
-# SAUCE Author: warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20260429
-# SAUCE Dimensions: 80x15
-# SAUCE Font: IBM VGA
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: NAMISTAI BBS by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz21-wa-namistai
 
 Write-Host '
 [34m╔██████████████████████████████████████████████████████████████████████████████╗[0m

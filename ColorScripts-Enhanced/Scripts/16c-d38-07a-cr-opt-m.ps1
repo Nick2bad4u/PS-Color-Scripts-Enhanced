@@ -1,18 +1,4 @@
-﻿# Converted from: CR_OPT_M.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-07a/raw/CR_OPT_M.ANS
-# Source Revision: archive-sha256:6502b6f7b940f1799a6ba4f4b08910561aba3d74e01448e36157cb66de10c8c7
-# Source SHA-256: daa7d85fec837f872f1ec3d5034c0d6242c7a578308b4c1158922e030564c76a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CR_OPT_M.ANS by CRUCiFER (Department 38); released in d38-07a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Optical Illusion Main Menu
-# SAUCE Author: CRUCiFER
-# SAUCE Group: Department 38
-# SAUCE Date: 19970611
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Optical Illusion Main Menu by CRUCiFER | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-07a-cr-opt-m
 
 Write-Host '
    [1m■[0m [31m [0m          [31m      [0m              [1;37m─--┐[0m                   [1m■[0;1;32m▄[0;31m [0m   [1;37m■[0m       [31m [0;32m░[0;31m [0;37m [0;32m░[0m

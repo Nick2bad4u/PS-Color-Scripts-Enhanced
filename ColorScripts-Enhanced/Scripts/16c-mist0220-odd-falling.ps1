@@ -1,19 +1,4 @@
-﻿# Converted from: ODD-FALLING.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0220/raw/ODD-FALLING.ANS
-# Source Revision: archive-sha256:e3f248191f6a4c5d18400da49b246b76d2b21cd5d1846e599b74d4bfe2fab83d
-# Source SHA-256: 3b15467c0c4b9b7d348222b9c089d176e3914d3d0f92ff40cdae6a2abdacbbc1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ODD-FALLING.ANS by OddManBoi (Solo FTM); released in mist0220 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Falling
-# SAUCE Author: OddManBoi
-# SAUCE Group: Solo FTM
-# SAUCE Date: 20200213
-# SAUCE Dimensions: 80x43
-# SAUCE Font: IBM VGA
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: Falling by OddManBoi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0220-odd-falling
 
 Write-Host '
 [1;30;47m ░░▒▒▓▓[0m                [1;32;42m▒░[0;32m██[0;1;32;42m▒▓▓▒▒░[0;32m███[0;1;32;42m▒█▓▒[0;32m███[0;1;32;42m░▒▒░░[0;32m███[0;1;32;42m ░▒▓[0m                 [1;30;47m▓▓▒▒░░[0m██

@@ -1,17 +1,4 @@
-﻿# Converted from: KA-FE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/utd-0495/raw/KA-FE.ANS
-# Source Revision: archive-sha256:0d1a82ad3d13d836a92b422703d06a1d6a82ae4f50721578a08763a2338a2df8
-# Source SHA-256: e4b4ca384f80334d8794bb51fcdf336cc2fd7f73ec0f81960867868d43152746
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KA-FE.ANS by Kamui (United); released in utd-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fatal Error
-# SAUCE Author: Kamui
-# SAUCE Group: United
-# SAUCE Date: 20950325
-# Lines: 44-87
-# Columns: 1-80
+﻿# Artwork: Fatal Error by Kamui | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-utd-0495-ka-fe-part02
 
 Write-Host '
 [31m████████████████████████████████████████▄▄[0;35m▀▀██████████ [0;1;30m███████ [0;1;33m██████ [0;35m██████████[0m

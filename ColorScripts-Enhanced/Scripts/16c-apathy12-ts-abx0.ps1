@@ -1,18 +1,4 @@
-﻿# Converted from: TS-ABX0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy12/raw/TS-ABX0.ANS
-# Source Revision: archive-sha256:8a537460f8b0ab878576d3588ae2a516d4d1f431ef70564144a8ef972d7a139a
-# Source SHA-256: 89c6dff0e9f8f93f2146cddac4f2631418761a4fd5f3af152f3b85d6fd776aa1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-ABX0.ANS by Transient (apathy); released in apathy12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Abraxas
-# SAUCE Author: Transient
-# SAUCE Group: apathy
-# SAUCE Date: 19960717
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Abraxas by Transient | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy12-ts-abx0
 
 Write-Host '
 [35mt[0;1;35ms[0;1;37m![0m    [1;37m▄▄[0;1;36m▄▄[0;36m▄▄▀▀▀▀[0;1;36m▀▀[0;1;37m▄▄[0;1;36m▄▄[0m        [36m▄[0;1;36m▄[0;1;37m▄[0;1;36m▄[0;36m▄▄▀[0;1;36m▀[0;1;37m▀▀[0;1;36m▀[0;36m▀▄▄▄▄[0m    [35m  [0m  [36m▄[0;1;36m▄[0;1;37m▄▄█[0;1;36m█[0;1;36;46m░[0;1;37;46m▄▄[0;1;36;46m░[0;36m▄▄[0;1;36m▄▄[0;1;37m▄▄[0m       [35m  [0m

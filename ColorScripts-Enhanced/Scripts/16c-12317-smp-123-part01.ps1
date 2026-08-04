@@ -1,13 +1,4 @@
-﻿# Converted from: SMP-123_.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/12317/raw/SMP-123_.ANS
-# Source Revision: archive-sha256:2671c97264d75fd9041fa98ce6512a370bf527f9c7397125627811c918171aec
-# Source SHA-256: fa39d1fede50a0ba8896bfc3909302c652655316f18f53d2dc671d70a670b584
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-123_.ANS by Shrimp (12317); released in 12317 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: SMP-123_.ANS by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-12317-smp-123-part01
 
 Write-Host '
  Shrimp[1;30m([0;1;37m123[0;1;30m)[0;1;37m [0m                [32mi[0;1;32m$$$$$[0;32m$[0m             [32m.[0m            [32m  $$$$$$[0;1;32m$$$$[0;1;33m$$$[0;1;32m$[0;32m$$[0m

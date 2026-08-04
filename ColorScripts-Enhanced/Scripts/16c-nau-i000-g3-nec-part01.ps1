@@ -1,13 +1,4 @@
-﻿# Converted from: G3-NEC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nau-i000/raw/G3-NEC.ANS
-# Source Revision: archive-sha256:404835f6f04784b4a60d841d0d9c508f0b3397933a519b408abf552146bd3d63
-# Source SHA-256: a01508af000688c1e503430019c217bf491fb38ab7f6d7a2775c6b90f0ca259c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: G3-NEC.ANS by Genocyber (nau-i000); released in nau-i000 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: G3-NEC.ANS by Genocyber | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nau-i000-g3-nec-part01
 
 Write-Host '
  [1;36m▄[0;1;36;46m▓▓▀▀[0;36m█[0;1;36;46m▀[0;36m███████[0;1;36;46m░[0;36m████[0;1;36;46m▀▀[0;36m██████[0;1;36;46m▀▀▓[0;36m█[0;1;36;46m▀[0;36m██[0;1;36;46m▄[0;36m█[0;1;36;46m░[0;36m██████[0;1;36;46m▄▄▄▄[0;36m█[0;1;36;46m▀▀▀[0;36m███[0;1;36;46m▀▀▀[0;36m██[0;1;36;46m▓▀▀▀▀█[0;1;36;40m▓[0;1;36;46m██[0;30m█[0;1;30m████████▄[0m

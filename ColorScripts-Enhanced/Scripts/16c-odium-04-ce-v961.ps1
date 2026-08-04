@@ -1,18 +1,4 @@
-﻿# Converted from: CE-V961.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-04/raw/CE-V961.ANS
-# Source Revision: archive-sha256:8dc8586a37ce2081b7e99529b7087f421e6ff8d5ba2d146ef1d30bd490016720
-# Source SHA-256: d97d2863dadb62b2e62417db78378a4411b81ffcbd8bd71740c6f1d733ab263c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CE-V961.ANS by celestian (odium); released in odium-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: viper
-# SAUCE Author: celestian
-# SAUCE Group: odium
-# SAUCE Date: 19960202
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: viper by celestian | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-04-ce-v961
 
 Write-Host '
 [35m▀▀▀▀[0;1;31m▀▀▀ [0;32m▄▄▀ [0;1;31m▀[0;35m▀▀▀▀██[0;1;31;45m▄▄▄▄[0;35m███  [0;37m▄▄▄▄▄[0m                             [35m▀[0m     [35m▀▀  ▀▀▀▀▀▀[0;1;31;45m░[0m

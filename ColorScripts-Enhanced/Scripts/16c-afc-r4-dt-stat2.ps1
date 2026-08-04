@@ -1,13 +1,4 @@
-﻿# Converted from: DT-STAT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r4/raw/DT-STAT2.ANS
-# Source Revision: raw-sha256:5f12f67b84030a6ba32a826a34da84bc66849ce13899aa80a549f4854c1edb43
-# Source SHA-256: 5f12f67b84030a6ba32a826a34da84bc66849ce13899aa80a549f4854c1edb43
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-STAT2.ANS by Duster (afc-r4); released in afc-r4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: DT-STAT2.ANS by Duster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r4-dt-stat2
 
 Write-Host '
 ▄███▀▀[1m▄▄▄▄▄[0m▀██[1;47m           [0m████[1;47m      [0m██████████▄▄▄▄█████▄▄▄▄▄▄▄▄▄▄▄▄▄▄██[1;30m▄[0m▄▀[1;30m▄[0m

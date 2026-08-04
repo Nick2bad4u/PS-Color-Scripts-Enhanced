@@ -1,19 +1,4 @@
-﻿# Converted from: us-abyss.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel29/raw/us-abyss.ans
-# Source Revision: archive-sha256:a7926daad48a6eaeb3fe9fe16388ddf3683cf76fdb5fb4156f51cd91fc2d12a5
-# Source SHA-256: 43c2becc7f9b776a070670c022249e8f020a262ef9e9346798b947b051af847d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-abyss.ans by Zeus Ii + Warpus (FUEL); released in fuel29 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Bottomless Abyss
-# SAUCE Author: Zeus II and Warpus
-# SAUCE Group: FUEL
-# SAUCE Date: 20190126
-# SAUCE Dimensions: 80x289
-# SAUCE Font: IBM VGA
-# Lines: 50-97
-# Columns: 1-80
+﻿# Artwork: The Bottomless Abyss by Zeus Ii + Warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel29-us-abyss-part02
 
 Write-Host '
 [34m█[0;1;34;44m█▓[0;34m█████ [0;30m [0;34m██████▓[0;30m  [0;34m███▄[0;33m▐ ▀▀[0;1;30m▀▄[0;33m [0;34m█████[0;30m [0;34m▐██████▄[0;1;30m▀█[0;1;30;47m▓▒▒▒[0;1;30;40m▀▀[0;34m ▄████[0;30m [0;34m██[0;1;34;44m▒▒[0;34m██[0;30m  [0;34m████[0;30m  [0;34m▀█████[0;1;34;44m▄[0m

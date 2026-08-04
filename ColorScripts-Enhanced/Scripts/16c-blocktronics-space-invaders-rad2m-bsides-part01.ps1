@@ -1,18 +1,4 @@
-﻿# Converted from: rad2m-BSIDES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_space_invaders/raw/rad2m-BSIDES.ANS
-# Source Revision: archive-sha256:c8f02d48521b213dd146adf31869fd604c2af314eab4dd9a1f4528b39146b7a9
-# Source SHA-256: 84762c5b96345cd0640fc52d94a358fe3f358bbff5579150fbe2a50cdd22aaf6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: rad2m-BSIDES.ANS by Rad Man + Mattmatthew (ACiD + Blocktronics); released in blocktronics_space_invaders and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: BSides
-# SAUCE Author: RaD Man & Matt}
-# SAUCE Group: ACiD + Blocktronics
-# SAUCE Date: 20130824
-# SAUCE Dimensions: 80x67
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: BSides by Rad Man + Mattmatthew | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-space-invaders-rad2m-bsides-part01
 
 Write-Host '
 [30m[0m

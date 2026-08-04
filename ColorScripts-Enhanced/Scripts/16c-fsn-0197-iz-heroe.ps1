@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-HEROE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0197/raw/IZ-HEROE.ANS
-# Source Revision: archive-sha256:db16ecaf9a5ba2dcf16f11149d4e3768d3e19930159af1ef0ef2625ea12b3e30
-# Source SHA-256: 1b76aff0b29a6281180bbb01467ddb91f1fa3f56935909d93ec3792d10b39a58
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-HEROE.ANS by ize (fusion); released in fsn-0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: plastic heroes
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19961216
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: plastic heroes by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0197-iz-heroe
 
 Write-Host '
 

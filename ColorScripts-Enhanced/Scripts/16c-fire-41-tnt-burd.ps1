@@ -1,19 +1,4 @@
-﻿# Converted from: TNT-BURD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/TNT-BURD.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: 2cba349bf1bce16be02de555901d3faaa76ee05c1b4b5940262ec775ecbd7520
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNT-BURD.ANS by tainted (fire); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: zyber.burd
-# SAUCE Author: tainted
-# SAUCE Group: fire
-# SAUCE Date: 20241111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: zyber.burd by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-tnt-burd
 
 Write-Host '
 [35m█[0;1;35;45m█████▓░[0;35m██[0;1;35;45m▄▄[0;35m████▀[0;1;30;45m░░▒▒[0;35m  [0;34m■ [0;1;30m■[0;34m [0;1;34m▀▄▄▄▒[0;34m░▌ [0;1;34m▄[0;1;34;44m░[0;34m▄         [0;35m■[0;1;34m   [0;1;30m▀█▄ ▀[0m▀[1;30m  ▀[0m          [1;35mtnt[0;35mfire░░[0m

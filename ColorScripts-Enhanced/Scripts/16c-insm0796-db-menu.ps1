@@ -1,18 +1,4 @@
-﻿# Converted from: DB`MENU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/insm0796/raw/DB%60MENU.ANS
-# Source Revision: archive-sha256:e3aef34bb564b08d1904f6f1567e1b9514c63c703fa2cbc5b50e7bd5188984fa
-# Source SHA-256: 65929c30a9d136c90b869cd15790a3bcf3b08259eda63fa2c9ea511e1734c5f2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DB`MENU.ANS by Drunken Basterd (insomnia); released in insm0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Free Menu
-# SAUCE Author: Drunken Basterd
-# SAUCE Group: insomnia
-# SAUCE Date: 19960614
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Free Menu by Drunken Basterd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-insm0796-db-menu
 
 Write-Host '
 [1;30;44mDB![0;34m████████████████████████████████▌[0;1;33;43m▒[0;34m▀[0;30;43m▀[0;34;40m▀▀███████████████████████████████████████[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-MERL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0897/raw/OUT-MERL.ANS
-# Source Revision: archive-sha256:549bf8e96e7f7e860f0287ba7104856044d3d84459139164d9a185bf317f9174
-# Source SHA-256: df3891102cf121e010df57c95e08f5305d483825ec055857687ba12f4db2bb49
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-MERL.ANS by Sandy Chidester (out-0897); released in out-0897 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: OUT-MERL.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0897-out-merl
 
 Write-Host '
                                      [1;30m█  [0;31m│[0;1;33;41mƒ[0;31m│[0m            [34m▄[0m     [1;30m█ [0;33m▄▀▌[0m      [33m█▐[0;1;33m▌[0m

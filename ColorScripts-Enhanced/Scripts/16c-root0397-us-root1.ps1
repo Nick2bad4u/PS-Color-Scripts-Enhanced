@@ -1,15 +1,4 @@
-﻿# Converted from: US-ROOT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0397/raw/US-ROOT1.ANS
-# Source Revision: archive-sha256:147f0608c1bd711b116f3ad049b80e805dfbb40e7d23ffce5f4580a5a57bae0f
-# Source SHA-256: a8164b4b9b56c81d0eb008189596a43644411e02686594e80942f931e499bee0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ROOT1.ANS by Idrosynth + Nox (root0397); released in root0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Root Promo
-# SAUCE Author: Idrosynth/Nox
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Root Promo by Idrosynth + Nox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0397-us-root1
 
 Write-Host '
           [1;34m.■ ▀[0m

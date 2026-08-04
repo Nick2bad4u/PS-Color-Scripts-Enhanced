@@ -1,19 +1,4 @@
-﻿# Converted from: SRJ-TOMB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0497/raw/SRJ-TOMB.ANS
-# Source Revision: archive-sha256:ac23f379eb24f5f6ad8faa432723caa3c85fc7d4fc380b1d3e101e8eb50ca483
-# Source SHA-256: 8b3ad8074243ebbd858dce65248715ad6d0a3610155ce0c2ac5002a376b90e5a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SRJ-TOMB.ANS by sRj (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the tomb matrix
-# SAUCE Author: sRj
-# SAUCE Group: phat studios '97
-# SAUCE Date: 19970310
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: oh'lskool.. (' hate drawing caractaz)
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: the tomb matrix by sRj | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0497-srj-tomb
 
 Write-Host '
 [30;44m░[0;34;40m█▀████[0;1;34;44m▄ ■[0;34m█▀▀▀  [0;37m                  [0;1;30m  [0;34m▀[0;1;34;44m▀[0;34m█[0;37;44m░░[0;34;40m██████[0;1;34;40m▒[0;34m▀▀ [0;1;30;41m░[0;31m█████▀███▓█▄████████▄▄▄[0;34m▀▀█[0;1;34m▒[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: RCT-SFG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-089702/raw/RCT-SFG.ANS
-# Source Revision: archive-sha256:e48c38fcf9ad1e8bdcd70f413f385ac4fe4835bcda18b3e71092baf5cce2e35b
-# Source SHA-256: 52434d3155cee73b76a54509665446b2179fb555bf3a18a3ab7ed3f79b059542
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RCT-SFG.ANS by React (bmb-089702); released in bmb-089702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: RCT-SFG.ANS by React | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-089702-rct-sfg
 
 Write-Host '
    [34m███▓▀░[0;33m▄▓[0;1;31;43m▄▄▄░[0;33m▓▄▄▄[0;1;31m▄▄▄░[0;30m▀▀▀▀▀▀[0;34m ░▀▀▀▓███▓███▄░ ▒▀ ███░█████████▓▀▀░[0;1;30m░▄▄░[0;1;34m░▀███░▄█[0;36m [0m

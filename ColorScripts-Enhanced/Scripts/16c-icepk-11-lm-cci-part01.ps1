@@ -1,13 +1,4 @@
-﻿# Converted from: LM-CCI.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-11/raw/LM-CCI.ICE
-# Source Revision: archive-sha256:5827a3d77b92b92d3b0eabff87e8b41b8ef31a232218b0b3b44b72f050fee9b3
-# Source SHA-256: a0b9937d3ddf9a85dd1550914c5450957680d3a59ad6ace50c7dccf7986e872c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LM-CCI.ICE by Lord Mischief (icepk-11); released in icepk-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: LM-CCI.ICE by Lord Mischief | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-11-lm-cci-part01
 
 Write-Host '
 [31m▒░▒▒▓▓▓▒▒▒░░ [0;1;30m░▒▒▒▓▓[0m▓[1m▓▓▓▓▓▓████████████████████████████████████████████[0m▓▓▓▒▒▒[1;30m▓▓▓[0m

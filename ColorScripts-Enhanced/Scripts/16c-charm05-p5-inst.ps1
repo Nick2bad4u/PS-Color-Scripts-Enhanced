@@ -1,18 +1,4 @@
-﻿# Converted from: p5-inst.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/charm05/raw/p5-inst.ans
-# Source Revision: raw-sha256:c4bd5901a0c867b417747dbcc052b5270ada7754684bf2bd08e4c86f73f2d0e0
-# Source SHA-256: c4bd5901a0c867b417747dbcc052b5270ada7754684bf2bd08e4c86f73f2d0e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: p5-inst.ans by prosthesis (charm); released in charm05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 45 line ansi for my boarD!@#
-# SAUCE Author: prosthesis
-# SAUCE Group: charm
-# SAUCE Date: 19980111
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: 45 line ansi for my boarD!@# by prosthesis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-charm05-p5-inst
 
 Write-Host '
                         [1;30m▄▓▓░░[0m                   [1;30m░░[0m       [31m░[0m

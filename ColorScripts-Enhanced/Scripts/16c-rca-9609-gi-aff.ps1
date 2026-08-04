@@ -1,18 +1,4 @@
-﻿# Converted from: GI-AFF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-9609/raw/GI-AFF.ANS
-# Source Revision: archive-sha256:b8dd1220b09b83c8af4c4f2bd74968552ed3ecfc85ae31ad7bf3b2d62f23e9e2
-# Source SHA-256: 844e268f6eca9e9f663618119ec9f1bc084404555f6340ee0012c10e7903cfa9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GI-AFF.ANS by Giger (rca); released in rca-9609 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: affinity menu
-# SAUCE Author: Giger
-# SAUCE Group: rca
-# SAUCE Date: 19960812
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: affinity menu by Giger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-9609-gi-aff
 
 Write-Host '
                       ░[30;47m▓[0m

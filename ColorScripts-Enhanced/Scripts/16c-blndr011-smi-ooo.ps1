@@ -1,18 +1,4 @@
-﻿# Converted from: SMI-OOO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr011/raw/SMI-OOO.ANS
-# Source Revision: archive-sha256:4d52b678fed92cbc7bc3318e6151488c184d9e2b9588d2fa18b13c917a257829
-# Source SHA-256: 3d16cb798a1484e730caffe6d8398bfdd5816f6cfdb8f86d05d06ee8989e1b50
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMI-OOO.ANS by samurai (p301); released in blndr011 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: out of order
-# SAUCE Author: samurai
-# SAUCE Group: p301
-# SAUCE Date: 19970202
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: out of order by samurai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr011-smi-ooo
 
 Write-Host '
 [32m[0;1;32m[0;32m[0;1;32m[0m

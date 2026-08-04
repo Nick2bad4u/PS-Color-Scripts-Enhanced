@@ -1,18 +1,4 @@
-﻿# Converted from: H3-ASKII.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend06/raw/H3-ASKII.ANS
-# Source Revision: archive-sha256:bdb12df6fb66b6e7f7ab1240c15e9b23d66b94ced69828c85c717709162a24eb
-# Source SHA-256: 51fb8e7b5ccc21fc5a47263c1f507e426d673af9c48b321eac3d610a31f73aa0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: H3-ASKII.ANS by h3ck (blend); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: askii korner
-# SAUCE Author: h3ck
-# SAUCE Group: blend
-# SAUCE Date: 19970212
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: askii korner by h3ck | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend06-h3-askii
 
 Write-Host '
 

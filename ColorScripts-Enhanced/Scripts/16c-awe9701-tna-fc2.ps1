@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-FC2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9701/raw/TNA-FC2.ANS
-# Source Revision: archive-sha256:d9ee1d58a6a06d01c9f7c4f38cd8e5ab0dc2d9bdfc6b97ab0ed0cc65c400a40c
-# Source SHA-256: d52b69115b2043bf56b5e65418bb96581c91cffa734a19136db74699a42f913d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-FC2.ANS by The Night Angel (AWE Lettering); released in awe9701 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Free Coke Menu
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961216
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Free Coke Menu by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9701-tna-fc2
 
 Write-Host '
                          [1m▀▀█▄▄[0m              ▄

@@ -1,13 +1,4 @@
-﻿# Converted from: Po-nami!.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper05/raw/Po-nami!.ans
-# Source Revision: archive-sha256:33fac09b0787230492798535c47bf2642ecf35522de5af17dfe59b662d1606a6
-# Source SHA-256: 80eded8f0c2cef22f058be21984ee5e1cf64f2d143186f3dcf77bb4217bf0b6a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Po-nami!.ans by Portia (jasper05); released in jasper05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Po-nami!.ans by Portia | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper05-po-nami
 
 Write-Host '
 [30;44m                                                                             [0;34;40m███[0m

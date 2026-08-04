@@ -1,18 +1,4 @@
-﻿# Converted from: US-KP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-03/raw/US-KP.ANS
-# Source Revision: archive-sha256:8cf981d9c660d9c99945a037cc3975e95985d6099e63c9913bd07526abf36ba1
-# Source SHA-256: 1da735b061423736094e1987eb588ca5e126adbd5281b67ae66e5a310d365c16
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-KP.ANS by Internal + Phobia (Glue); released in glue-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: KP?
-# SAUCE Author: Internal + Phobia
-# SAUCE Group: Glue
-# SAUCE Date: 19970919
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: KP? by Internal + Phobia | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-03-us-kp
 
 Write-Host '
 [1;34m     ░░░ [0m      [1;34m░░░░[0m  [1;34m      [0;34m        [0m           [37m [0;1;34m░░[0m    [1;34m░░        [0;34m       [0;1;34m░[0m   [1;34m░[0m [1;34m░░░[0m

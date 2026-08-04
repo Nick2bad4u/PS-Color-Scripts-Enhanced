@@ -1,16 +1,4 @@
-﻿# Converted from: til the clouds run dry.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/crime/raw/til%20the%20clouds%20run%20dry.ans
-# Source Revision: archive-sha256:a367005eee144057c947d7208aa317fce4933acfe82550e7d3f4b62927953532
-# Source SHA-256: a5454bf32fad49acf9765df0f6c003ebb5725899cdd5f0a208ea3d4f74918e72
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: til the clouds run dry.ans by Filth (crime); released in crime and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 20160125
-# SAUCE Dimensions: 80x53
-# SAUCE Font: IBM VGA
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: til the clouds run dry.ans by Filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-crime-til-the-clouds-run-dry-part01
 
 Write-Host '
 

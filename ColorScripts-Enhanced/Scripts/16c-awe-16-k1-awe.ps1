@@ -1,18 +1,4 @@
-﻿# Converted from: K1-AWE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-16/raw/K1-AWE.ANS
-# Source Revision: archive-sha256:299c2506fc7c7048919e5ad206603713352cc67a07153aa96e981dc224539522
-# Source SHA-256: e0e2ebaa8b2c13cede3709a674a9a6db43b6f2446084140c77ae9ca34008be71
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K1-AWE.ANS by Knocturnal (Awe); released in awe-16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Awe
-# SAUCE Author: Knocturnal
-# SAUCE Group: Awe
-# SAUCE Date: 19980829
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Awe by Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-16-k1-awe
 
 Write-Host '
           [1;30m [0m   ▄[1m▄[0m▄                              [1;30;47m▀[0m

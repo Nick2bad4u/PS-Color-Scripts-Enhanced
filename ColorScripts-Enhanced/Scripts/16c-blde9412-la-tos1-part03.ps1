@@ -1,18 +1,4 @@
-﻿# Converted from: LA-TOS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9412/raw/LA-TOS1.ANS
-# Source Revision: archive-sha256:b41d15e15138a70f793bdbf1405cc315054550aa9ff9ddbf322f906870d2a6d0
-# Source SHA-256: 6a72dd43415004e44335f7879802e755fe6532d48910a3e7a7f74eed7cb08c1a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LA-TOS1.ANS by Lord Ash (Blade Productions); released in blde9412 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Temple Of Syrinx
-# SAUCE Author: Lord Ash
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19941203
-# SAUCE Dimensions: 80x25
-# Lines: 91-135
-# Columns: 1-80
+﻿# Artwork: Temple Of Syrinx by Lord Ash | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9412-la-tos1-part03
 
 Write-Host '
 [31;41m                [0;1;31;41m░░░[0m     [31m█▄[0m                     [31m█[0;31;41m [0;1;37;41m░░▒▒▓▓▓▓▓▓▓▓▒▒░░[0;31m██[0m     [31m▄█[0m

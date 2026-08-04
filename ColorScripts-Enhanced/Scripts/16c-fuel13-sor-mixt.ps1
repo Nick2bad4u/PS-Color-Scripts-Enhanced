@@ -1,18 +1,4 @@
-﻿# Converted from: SOR-MIXT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel13/raw/SOR-MIXT.ANS
-# Source Revision: archive-sha256:570310635bd377c51dda6add80730abba1fa8786bf6aaf423ae20c54dbfdb41a
-# Source SHA-256: ee8fced6de3a2a07920d5867fcf0d82c2b3293a811ae0392fca7e07896e60298
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SOR-MIXT.ANS by Spirit of Rage (Fuel Productions); released in fuel13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Mixture compo ansi
-# SAUCE Author: Spirit of Rage
-# SAUCE Group: Fuel Productions
-# SAUCE Date: 19970428
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Mixture compo ansi by Spirit of Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel13-sor-mixt
 
 Write-Host '
                                             [1;30m       [0;31m▄▄█▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▄▄▄[0;1;32msor![0m

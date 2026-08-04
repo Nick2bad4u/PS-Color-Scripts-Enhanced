@@ -1,18 +1,4 @@
-﻿# Converted from: KM-OK2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-16/raw/KM-OK2.ANS
-# Source Revision: archive-sha256:9ad935bd4cbb2615c5c684e690bc8979daa45859d0282b370bf26a8750d02425
-# Source SHA-256: 3531a347681afbe1ab57cd90848a0244605635b0e6d342f31a8a7042af66f362
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KM-OK2.ANS by kleptomaniac (force); released in force-16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ok/2
-# SAUCE Author: kleptomaniac
-# SAUCE Group: force
-# SAUCE Date: 19970308
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ok/2 by kleptomaniac | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-16-km-ok2
 
 Write-Host '
 [1;34;44m█▄▄▄[0;34m███████[0;1;34;44m▀▀████▄▄▄[0;34m█[0;1;34;44m██▀███ ░██▀▀▀▀[0;34m██████████▌[0m     [37m▄▄[0;1;30m  [0;34m    [0;1;34;44m░██▓▀▀█▄▄ [0;34m████████[0;30;44m░[0;34;40m▓▓[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: ZYA_ALL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phb-0597/raw/ZYA_ALL.ANS
-# Source Revision: archive-sha256:5e2897b5aabe339c16f5d2024824fa427f86134be322d4a86a5d7157032f23f1
-# Source SHA-256: 49238f46080ac9ce08b1a962c406d474cd545a11f420a0628be93139224e893d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZYA_ALL.ANS by pHOBIA crew (pHOBIA@!); released in phb-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: good bye =) =) =)
-# SAUCE Author: pHOBIA crew
-# SAUCE Group: pHOBIA@!
-# SAUCE Date: 19970504
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: good bye =) =) =) by pHOBIA crew | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phb-0597-zya-all
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: TSK-GUM2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-04/raw/TSK-GUM2.ANS
-# Source Revision: archive-sha256:8dc8586a37ce2081b7e99529b7087f421e6ff8d5ba2d146ef1d30bd490016720
-# Source SHA-256: 745966b397fd8b409b10a91dc5d177d099fef0f18e65d9a22c5d9885bdfce78c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-GUM2.ANS by the silent killer (odium); released in odium-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: gum
-# SAUCE Author: the silent killer
-# SAUCE Group: odium
-# SAUCE Date: 19960211
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: gum by the silent killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-04-tsk-gum2
 
 Write-Host '
 

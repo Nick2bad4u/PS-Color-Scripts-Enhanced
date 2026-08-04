@@ -1,13 +1,4 @@
-﻿# Converted from: XM-B19.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr019/raw/XM-B19.ANS
-# Source Revision: archive-sha256:ad90ded7200a58bab801f751fabe1211ce5c038aeaa3a5fcedbee3c905282a6d
-# Source SHA-256: e16d0cfa1800dd5fd96ea0f73e28ce3d1f1eecfc930700918940ceac514ea518
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XM-B19.ANS by Xypher Matryx (blndr019); released in blndr019 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: XM-B19.ANS by Xypher Matryx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr019-xm-b19
 
 Write-Host '
 ██████████████████████████████ █ [31m██▀▀[0m                                       [31m▀▀[0m

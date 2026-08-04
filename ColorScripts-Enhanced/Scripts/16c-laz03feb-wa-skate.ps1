@@ -1,18 +1,4 @@
-﻿# Converted from: WA-SKATE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz03feb/raw/WA-SKATE.ANS
-# Source Revision: archive-sha256:d402090580beb42f827386e6ac87eabae48765a9dcac692e22ff2b8314efb7a2
-# Source SHA-256: bfb7cdac10bdcf057dafefdb6a622d2c838955bad82fb024078a5409a760ebce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WA-SKATE.ANS by warpus (lazarus); released in laz03feb and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: skateshop
-# SAUCE Author: warpus
-# SAUCE Group: lazarus
-# SAUCE Date: 19970112
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: skateshop by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz03feb-wa-skate
 
 Write-Host '
 [1;30mwarpus[0;1;35m   [0;1;30m [0;1;35m     [0;34m░░░[0;30;44m▓[0;34;40m░░[0m    [1;37;40m░░░  [0m   [34m░░░░[0;30;44m▓[0m    [1;37;40m░░░░░░░░░░[0m  [34m░░[0;30;44m▓[0;34;40m░[0;30;44m▓[0m       [1;30;40m  [0m    [1;30mlazarus[0m

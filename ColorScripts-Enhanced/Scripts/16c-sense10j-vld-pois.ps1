@@ -1,13 +1,4 @@
-﻿# Converted from: VLD-POIS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense10j/raw/VLD-POIS.ANS
-# Source Revision: archive-sha256:79b287d3b8a2f4ceb916c80975416d0ea3340c57dd3b4333f96895fc037bee42
-# Source SHA-256: 61f60eb3133c131711e68b78dab45000191ca707a96e6fc94b9a71d659cd933c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VLD-POIS.ANS by Velodrome (sense10j); released in sense10j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: VLD-POIS.ANS by Velodrome | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense10j-vld-pois
 
 Write-Host '
 [33m▄[0m                                      [1;30m▄▄▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: RH-LP01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-15/raw/RH-LP01.ANS
-# Source Revision: archive-sha256:27d6625e69a5207f7e1ecdf7cdf18b62e352300eb88e02c3e1b0355793535d53
-# Source SHA-256: 93de6b872a1acd27a9589fbd3ee5e48cc3b1324a68388d0c7cc38bfb0e010812
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RH-LP01.ANS by Rash (glue-15); released in glue-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: RH-LP01.ANS by Rash | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-15-rh-lp01
 
 Write-Host '
 [31m░[0;30;41m▓[0m                   [1;37;40m [0m [1m [0m      ▄[1m▄[0;1;47m▄██▄▄[0;30;47m░[0;37;40m▓[0;1;30;47m▀[0m▄[1;30m▄[0m  [1;31m [0;1;35m░░░░░[0m  [34m█████[0;1;34;44m░░[0;1;34;46m▓▀[0;1;34;44m▐[0;34m▌██████▀▀▀▀▀▀█[0;34;47m▀[0;34;40m█[0;36;44m  [0m

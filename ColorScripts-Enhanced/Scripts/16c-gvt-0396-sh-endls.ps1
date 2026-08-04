@@ -1,18 +1,4 @@
-﻿# Converted from: SH-ENDLS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gvt-0396/raw/SH-ENDLS.ANS
-# Source Revision: archive-sha256:ad8ff614294189e80e826a6d4a8cf8ded98538ab493231140abfba480817c1ae
-# Source SHA-256: 104ee24ce33bdf21ddf96619dd97f5127db7ee8a8183c46089cab82114cd9a3d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SH-ENDLS.ANS by shatters (gravity); released in gvt-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: endless
-# SAUCE Author: shatters
-# SAUCE Group: gravity
-# SAUCE Date: 19960303
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: endless by shatters | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gvt-0396-sh-endls
 
 Write-Host '
          [1;34m       [0m                                            [1;34m▄▄▄[0m

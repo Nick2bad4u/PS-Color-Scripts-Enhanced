@@ -1,18 +1,4 @@
-﻿# Converted from: PM-WILD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wrlk-05/raw/PM-WILD.ANS
-# Source Revision: archive-sha256:d12c451912d222e9b7b3782c8ba76ded68034f3a918297dfb03e68f10733b6e1
-# Source SHA-256: 998c22ea87d95d1d1cfb4671f1b9d03821a3d43bc6d52429c80fce86ab6d0247
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-WILD.ANS by Precious Metal (warlock 619); released in wrlk-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Wild World
-# SAUCE Author: Precious Metal
-# SAUCE Group: warlock 619
-# SAUCE Date: 19980205
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: Wild World by Precious Metal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wrlk-05-pm-wild
 
 Write-Host '
                  [1;32;42m░░░░[0m      [1;32;42m░░[0m  [1;32;42m░[0;32m▄▄▄▌▄▄▄▄▄▄▄▄▄▄▄▄[0m

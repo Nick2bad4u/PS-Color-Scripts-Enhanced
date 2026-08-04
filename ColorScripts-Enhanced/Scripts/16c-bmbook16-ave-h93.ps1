@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-H93.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook16/raw/AVE-H93.ANS
-# Source Revision: archive-sha256:d1aa8631ff79ee4b09bd71933b409432473cd10141d9251920b316e16f81ad22
-# Source SHA-256: bb3611acad0394d0614307ab4b745b9412b1a96b2d70ef8944399ada37753c68
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-H93.ANS by avenger (black maiden); released in bmbook16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hazard/2
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19980215
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: hazard/2 by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook16-ave-h93
 
 Write-Host '
 [1;47m███▌ ░░[0;45m▌[0;35;40m█[0;37;45m▓  ░ [0;35;40m░[0;37;40m  [0;36;40m░[0;1;36;46m█░[0m [35m░[0;37;45m [0;1;31;45m░░░[0;35m▀▀▀[0;37m  [0;34m░░░[0;37m  [0;36m░[0;30;46m▓▓▓[0;1;34;40m░░[0m       [35m▀█▌[0;37m [0;36m▐[0;1;37;46m░[0;1;36;40m▒░[0m [31m▀▀▀▀  ▀▀▀▀▀ ▀▀▀▀▀▀▀▀█[0m

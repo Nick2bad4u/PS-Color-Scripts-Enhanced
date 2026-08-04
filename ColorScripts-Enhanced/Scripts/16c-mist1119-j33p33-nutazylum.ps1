@@ -1,19 +1,4 @@
-﻿# Converted from: J33P33-NUTAZYLUM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1119/raw/J33P33-NUTAZYLUM.ANS
-# Source Revision: archive-sha256:55e25d51e7ea67e18beea3070275d20b31facc3af69759bb904716908b0d1228
-# Source SHA-256: 741117602ad72cc60cb60ebdfe8b289356a095cbe7d7a9479c07b920626f52b3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: J33P33-NUTAZYLUM.ANS by j33p33 (Mistigris); released in mist1119 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Nut Asylum logo
-# SAUCE Author: j33p33
-# SAUCE Group: Mistigris
-# SAUCE Date: 20190912
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: The Nut Asylum logo by j33p33 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1119-j33p33-nutazylum
 
 Write-Host '
 [34;46m█[0;34;40m██████████▀▀ ▀▀ ██▀█▀▀▀██▀▀██▀█▀██▀█▀▀▀▀███[0;1;34;40m▒▀▀▀[0;1;34;44m▄[0;34m████[0;1;34;44m▄▄[0;1;34;40m▀▀▀[0;34m  [0;1;34m▀[0m

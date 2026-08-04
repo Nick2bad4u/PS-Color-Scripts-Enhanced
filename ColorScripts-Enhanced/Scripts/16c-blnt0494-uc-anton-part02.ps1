@@ -1,13 +1,4 @@
-﻿# Converted from: UC-ANTON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blnt0494/raw/UC-ANTON.ANS
-# Source Revision: archive-sha256:ecf7450f078b4c4b4041f7e568d14f4b70df9558c81c0d6825f04a7ad031cdda
-# Source SHA-256: df625e3329a343ec23cb7a4bc45408e5185e27bdbe676ca33a24fdaed1778a3b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UC-ANTON.ANS by Unknown Comic (blnt0494); released in blnt0494 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: UC-ANTON.ANS by Unknown Comic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blnt0494-uc-anton-part02
 
 Write-Host '
                             [1;36mA[0m      [1;36mN[0m      [1;36mS[0m      [1;36mI[0m

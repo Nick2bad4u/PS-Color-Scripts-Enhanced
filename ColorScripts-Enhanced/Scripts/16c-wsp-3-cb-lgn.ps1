@@ -1,18 +1,4 @@
-﻿# Converted from: CB-LGN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wsp-3/raw/CB-LGN.ANS
-# Source Revision: archive-sha256:cf2c6905b60849b007806526c4834a2b7fb7f78985ee83298f5116c4b76b246d
-# Source SHA-256: 5ee4c12776bebb48e91431a55773b8313875d875c9f1f5e573e6f1df4c46699f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CB-LGN.ANS by christbane (whisper); released in wsp-3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: madman login
-# SAUCE Author: christbane
-# SAUCE Group: whisper
-# SAUCE Date: 19960121
-# SAUCE Dimensions: 80x25
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: madman login by christbane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wsp-3-cb-lgn
 
 Write-Host '
 [1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m

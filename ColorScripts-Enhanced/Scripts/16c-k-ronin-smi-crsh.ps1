@@ -1,18 +1,4 @@
-﻿# Converted from: SMI-CRSH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-ronin/raw/SMI-CRSH.ANS
-# Source Revision: archive-sha256:1cf524db9c88845a87436294bf9ad4e7b661b688c5b065b442b074cbc8f8d22f
-# Source SHA-256: 2147de8f49dd08b4114d01a34104c9b9f1420841978532c398b5da16b78f6d60
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMI-CRSH.ANS by samurai (klexikal); released in k-ronin and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: cloudy day
-# SAUCE Author: samurai
-# SAUCE Group: klexikal
-# SAUCE Date: 19990524
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: cloudy day by samurai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-ronin-smi-crsh
 
 Write-Host '
 [33m [0;31m▄[0;1;31;41m░░[0;1;31;40m▒[0;31m▌[0;1;30;47m█░[0;1;37;47m░▒▓▓▓▀░░░[0m█[1;30;47m░░[0m░░ [1;30m ▄▄▓[0m▒▒▒▒▒▒[1;30;47m▓▓▓▒▒░░▀░░▓▓▓▓[0m▒▒▒▒░░[1;30m▄[0m▀[1;47m▀█▓▓▒▒░░[0m███████████[1m▒▒▒[0m▓▄░

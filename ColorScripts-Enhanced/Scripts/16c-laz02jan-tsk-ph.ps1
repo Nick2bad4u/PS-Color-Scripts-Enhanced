@@ -1,13 +1,4 @@
-﻿# Converted from: TSK-PH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz02jan/raw/TSK-PH.ANS
-# Source Revision: archive-sha256:132672eb521503ab979d6725a75b6f055811245f253b5353290430aa5c4983b1
-# Source SHA-256: 364591d002c4820a73b1e31b961efb8385d18c5b8c2cda48f9ea3e405ac40cd2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-PH.ANS by The Silent Killer (laz02jan); released in laz02jan and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: TSK-PH.ANS by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz02jan-tsk-ph
 
 Write-Host '
 

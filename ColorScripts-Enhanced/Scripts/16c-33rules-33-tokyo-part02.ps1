@@ -1,18 +1,4 @@
-﻿# Converted from: 33-TOKYO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/33rules/raw/33-TOKYO.ANS
-# Source Revision: archive-sha256:6cf2aef8e3ca97e1761e1ee4a8ba395e4fdab4dec9d3b2efb91c059359b50b00
-# Source SHA-256: fa9c98b06a6d0ec83835f018e02be4cc59e87e0816c0e1faf88abe05abda6e30
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-TOKYO.ANS by Spastic 05/95 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Tokyo Underground
-# SAUCE Author: Spastic 05/95
-# SAUCE Group: Eerie
-# SAUCE Date: 19950421
-# SAUCE Dimensions: 80x25
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Tokyo Underground by Spastic 05/95 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-33rules-33-tokyo-part02
 
 Write-Host '
 [1;37m [0;31m▓  [0;1;31;41m░[0;31m▐▌▐▌█ █ █▌▀■▀[0;33m▄[0;1;31;43m░[0m [31m▌[0;33m▐[0;1;31;43m░[0;33;47m▓[0;33;40m▌[0;31;40m▐█   [0;1;37;40m▄[0;1;37;47m░▄[0m■[32m▄ [0;1;31m■▀██████▄▄░[0;31m▐▄ [0;1;31;43m▓[0;1;31;40m▀ ▄██[0;1;31;47m▓▓[0;1;31;40m███▀░▀ [0;31m▀▄  ▓▓▐▌█ [0;1;37m▐██[0m

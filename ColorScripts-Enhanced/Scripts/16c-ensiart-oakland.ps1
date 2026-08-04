@@ -1,13 +1,4 @@
-﻿# Converted from: OAKLAND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ensiart/raw/OAKLAND.ANS
-# Source Revision: archive-sha256:1740ea49d8e6dbe7ec5d2c508ba38bad12fe73c43c677e55524f61db5ff5063b
-# Source SHA-256: f0c0e79670eed7409a0d641a45c33c3a630d9bef2840472e17c33b7d9bc71129
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OAKLAND.ANS by John Kwasnik (ensiart); released in ensiart and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: OAKLAND.ANS by John Kwasnik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ensiart-oakland
 
 Write-Host '
 [37;44m       [0;1;35;44m▄[0;1;35;40m█[0;1;35;44m▀[0;1;35;40m██[0;1;35;44m ▄[0;1;35;40m█[0;1;35;44m▀[0;1;35;40m██[0;1;35;44m [0;1;35;40m██[0;1;35;44m [0;1;35;40m█[0;1;35;44m▀ [0;1;35;40m██[0;1;35;44m   ▄[0;1;35;40m█[0;1;35;44m▀[0;1;35;40m██[0;1;35;44m [0;1;35;40m███[0;1;35;44m [0;1;35;40m██[0;1;35;44m [0;1;35;40m██[0;1;35;44m▀[0;1;35;40m█[0;1;35;44m▄    ▄[0;1;35;40m█[0;1;35;44m▀[0;1;35;40m██[0;1;35;44m ▄[0;1;35;40m█[0;1;35;44m▀[0;1;35;40m██[0;1;35;44m              [0m

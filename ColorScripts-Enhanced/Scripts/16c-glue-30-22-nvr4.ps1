@@ -1,18 +1,4 @@
-﻿# Converted from: 22-NVR4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-30/raw/22-NVR4.ANS
-# Source Revision: archive-sha256:962f4152a816a0536caf737c5088d0ec7bfe2e6c336907de4a27279b60da424e
-# Source SHA-256: 8f573b017934d5d0e0f38b9af776ecd4b19bd74ff515be22765bac45d68f7ad2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 22-NVR4.ANS by catch22 (glue); released in glue-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: menu for my bbs
-# SAUCE Author: catch22
-# SAUCE Group: glue
-# SAUCE Date: 20000118
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: menu for my bbs by catch22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-30-22-nvr4
 
 Write-Host '
 [1;36;46m███████████▌[0;36m▌[0;31m▐[0;1;31;41m▒█▀[0;31m████████████████████████████[0;33;41m░░░░░░[0;31;40m██[0;1;31;41m▀█▌[0;31m▀[0;1;30m▀▀[0;1;30;46m▄[0;1;36;46m░░░[0;36m██  ▐█▌ █▄▄█▀  ██[0m

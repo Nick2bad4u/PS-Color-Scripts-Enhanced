@@ -1,13 +1,4 @@
-﻿# Converted from: kf-evo1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/crisis8/raw/kf-evo1.ans
-# Source Revision: archive-sha256:196f9c3784e1cc5cbdbd9897127f0cfd86940d923500873c384e50e8b3c19f82
-# Source SHA-256: 37c5b3078b65f5e3fb8c153b08ff72f75a159121826c2759c4e1988ceabe6f12
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: kf-evo1.ans by Kid Frost (crisis8); released in crisis8 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: kf-evo1.ans by Kid Frost | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-crisis8-kf-evo1-part01
 
 Write-Host '
 ████[1;30;47m░░[0m████[30;47m▒[0;37;40m▄[0;30;47m▓▒[0;1;37;47m░▓▓██▓▓░[0;30;47m▒[0;37;40m▄█[0;1;37;47m░▓[0;1;37;40m▌[0;1;30;47m▓░[0m██[1;47m░░▓▓[0;1;40m███████[0;1;47m▓▓░░[0m██[1;30;47m░▓[0;1;37;40m▐[0;1;37;47m▓░[0m█████[30;47m░[0;37;40m▌[0;30;47m▒░[0;1;37;47m░▓██▓░[0;30;47m▒▓[0;37;40m▐[0;30;47m░[0;37;40m████[0;30;47mkf[0m

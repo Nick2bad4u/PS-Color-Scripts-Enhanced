@@ -1,18 +1,4 @@
-﻿# Converted from: HO-RSWHQ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stl-0296/raw/HO-RSWHQ.ANS
-# Source Revision: archive-sha256:2a7c2972214cdcf66c05bb3cc15c513aafb38f4486172bc95b40d735e509a060
-# Source SHA-256: d814c30c2532ce420c71f9756d572330b9cee1c2337102c8ee7d552f04b10650
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HO-RSWHQ.ANS by HOoDOo (Stile); released in stl-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: RsW Logo
-# SAUCE Author: HOoDOo
-# SAUCE Group: Stile
-# SAUCE Date: 19960213
-# SAUCE Dimensions: 80x124
-# Lines: 43-83
-# Columns: 1-80
+﻿# Artwork: RsW Logo by HOoDOo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stl-0296-ho-rswhq-part02
 
 Write-Host '
   [1;30m░░[0m   [1;30m░[0m [1;30;42m▒▒[0;1;32;40m▐[0;1;32;42m▓▒[0;32m█[0;37m [0;1;30m▐[0m [1;32;42m░ ░[0m [1;30;42m█[0m ▄[1m [0m▄[32m▀▀▀▀▀[0;37m [0;1;32m▀██▀[0m [1;30m▀▀▀▀[0m [32m▀▀▀[0;37m▄▄[0;1;37m [0m▄▄▄▐██▀▄■[1m [0;1;30m▄[0;1;30;42m▓▒[0;1;30;40m▌[0m [1;32;42m▓[0m [1;32;42m░ ░[0;32m▌[0;1;30m▐[0;1;30;42m ░▒░▒[0m  [1;30m░[0m

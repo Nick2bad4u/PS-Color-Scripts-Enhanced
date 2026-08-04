@@ -1,17 +1,4 @@
-﻿# Converted from: FU-81.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9611/raw/FU-81.ANS
-# Source Revision: archive-sha256:2b73e149488dc761d99422832825743596588d59e58f9bfecfb5d0e9dbffd274
-# Source SHA-256: 03bc96266ba54dd99e68d5dc140d1f6d0bd98b55d9a696a5fed047921bf206d2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FU-81.ANS by Fury (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Ocho
-# SAUCE Author: Fury
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Ocho by Fury | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9611-fu-81
 
 Write-Host '
                                                  [36m▄[0m

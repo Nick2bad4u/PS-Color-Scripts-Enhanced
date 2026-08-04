@@ -1,13 +1,4 @@
-﻿# Converted from: we-AWEtronics.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/we-AWEtronics.ans
-# Source Revision: archive-sha256:5d665873486ffcf559d33043557e11d7636d0c5a5b53a69dd3e7cf81117997ef
-# Source SHA-256: 7470d94de8695d3f65e24c7805a171250ad3f81e1c198d973a9c891cc0bc8227
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-AWEtronics.ans by Avenging Angel + Enzo (blocktronics_codename_chris_wirth); released in blocktronics_codename_chris_wirth and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 30-57
-# Columns: 1-80
+﻿# Artwork: we-AWEtronics.ans by Avenging Angel + Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-codename-chris-wirth-we-awetronics-part02
 
 Write-Host '
 [37;44m▄[0;1;36;40m███[0;1;34;47m▄[0;1;34;44m▀[0;34m▀█[0;1;34;44m▀▀[0;34m▀[0;37m [0;36m▄[0;1;37;46m▄██[0;1;36;40m▓[0;36m▀[0;1;37;46m▄[0;1;37;47m██▒[0;1;30;40m█[0m [1;36;41m░░[0m ░  [36m [0;1;36;46m▀[0;1;37;46m█[0m [1;46m█[0;1;33;40m███[0m [1;36;43m█[0;1;37;43m█[0m [1;33m███[0;1;37;46m█[0m [1;46m█▀[0;36m [0;37m  ░ [0;1;36;41m░░[0m [1;30m█[0;1;37;47m███[0;1;37;46m▄[0;36m▀[0;1;36m▓[0;1;37;46m██▄[0;36m▄[0;37m [0;34m▀[0;1;34;44m▀█[0;34m█▀[0;1;34;44m▀[0;1;34;47m▄[0;1;36;40m███[0;44m▄[0m

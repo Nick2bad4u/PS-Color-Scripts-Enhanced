@@ -1,13 +1,4 @@
-﻿# Converted from: BC-NT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/3nt1094/raw/BC-NT1.ANS
-# Source Revision: archive-sha256:8124bd7e15aee71ef91ef5c5b4bc08b656026010c62210f03e2051991e8eab5d
-# Source SHA-256: f4093d98e11abbcd015c99b8cd6720da16495f42c3df6c2b2547b7e345cb8b06
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BC-NT1.ANS by Beyond Cool (3nt1094); released in 3nt1094 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: BC-NT1.ANS by Beyond Cool | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-3nt1094-bc-nt1
 
 Write-Host '
 [34m███[0m                               [36m[B∙C][0;1;35m■[0;36m[3nT][0m                               [34m███[0m

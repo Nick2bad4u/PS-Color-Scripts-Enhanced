@@ -1,13 +1,4 @@
-﻿# Converted from: VD-DARKM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/astk0194/raw/VD-DARKM.ANS
-# Source Revision: archive-sha256:85386f5551c42a88135027c451bdde0caf298cc394973b954eb4073e747445c6
-# Source SHA-256: c5570b4a7910b7620ed51f935df0ed82645b476145154e2eb887feead8f720ab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VD-DARKM.ANS by Vlad Drakul (astk0194); released in astk0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: VD-DARKM.ANS by Vlad Drakul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-astk0194-vd-darkm-part01
 
 Write-Host '
 [34m▀▀[0;1;34;44m▄[0;34m▀▀ [0;1;34;44m▄[0m  [1;34;44m▄[0m [1;34;44m▄[0;34m▀▀▀[0m

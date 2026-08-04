@@ -1,13 +1,4 @@
-﻿# Converted from: tnt-9ine.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch07/raw/tnt-9ine.ans
-# Source Revision: archive-sha256:5c4b66e1867678e92d098b0a815f319c9061dad195e5c4fab9231a0e93c34c5d
-# Source SHA-256: 809df1343df52076647ac5457837d6d456bf1d3266e243e34fb233d61064af5b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tnt-9ine.ans by Tainted (27inch07); released in 27inch07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 28-54
-# Columns: 1-80
+﻿# Artwork: tnt-9ine.ans by Tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch07-tnt-9ine-part02
 
 Write-Host '
   [1;30m█[0;1;30;47m▓▓[0;1;37;47m▄██▄[0m█[1;30;47m▀[0;1;30;40m▄▒▒[0;1;30;47m▀[0m▓▓███████████[1;32;47m░░░[0m▄[1;30m▄[0m████[1;47m▄[0m█[1;47m▄▄▄[0m▄████▓▓[1;30m▄[0;31m  [0;37m ▒▒ ▓▓[0;31m  [0;37m ▐[0;1;37;47m▓▓▌[0m█[1;32;47m░░░[0m▓▓▀ [31m  [0;1;30m░▌[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: EN-EDEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-09/raw/EN-EDEN.ANS
-# Source Revision: archive-sha256:8f5fcd1678373443015d83aabdf7e9d41b4206834fe497657921c1a7c6792304
-# Source SHA-256: 62a20dd34c91e538fd178553562c8b60de3f163c542af1d8fe27ab2439286afd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EN-EDEN.ANS by Endless Nameless (ACiD Productions); released in rmrs-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Eden
-# SAUCE Author: Endless Nameless
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19970305
-# SAUCE Dimensions: 80x25
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: Eden by Endless Nameless | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-09-en-eden
 
 Write-Host '
 [1;33m[0;1;32m[0;1;33m[0;1;32m[0m[32m[0m[34m[0m[1;32m[0m[1;32m[0m        [1;33m` ` "²t[0;1;32m$$[0;1;33m$[0;30;42m$[0;1;32;40m$[0;30;42m$[0;32;40m$$[0;34;40m ▒s,._ [0;32;40m_ _[0;34;40m [0;32;40m.,s#$$P²"```[0;34;40m  [0;32;40m`[0m

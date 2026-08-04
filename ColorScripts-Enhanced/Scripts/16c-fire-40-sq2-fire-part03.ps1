@@ -1,18 +1,4 @@
-﻿# Converted from: SQ2-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-40/raw/SQ2-FIRE.ANS
-# Source Revision: archive-sha256:aff8105c0a955ac5c43ea367a02b086cd2849f6741fc41b8a5ff440b77e104a7
-# Source SHA-256: 721ded0dbab0b047ebf63727be5e621235ef55629de81ae864c7bb763096d423
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SQ2-FIRE.ANS by sq2 (fire-40); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fire #40 30th anniversary
-# SAUCE Author: sq2
-# SAUCE Date: 20240707
-# SAUCE Dimensions: 80x185
-# SAUCE Font: IBM VGA
-# Lines: 91-138
-# Columns: 1-80
+﻿# Artwork: fire #40 30th anniversary by sq2 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-40-sq2-fire-part03
 
 Write-Host '
 [33m  ▐██▓ ▄▀█ ▒▓███[0;1;30;43m▄▄▄[0;33m█[0;1;30;43m▒▒▓[0;33m█[0;1;30m▓[0;33m▀[0;1;30m▓[0;33m▀[0;1;30m▒[0;33m▀[0;1;30m▓[0;33m▒█[0;1;31;43m░[0;1;31;40m████████████[0;1;31;43m▓[0;33m█▓▓▓▒▒▒▒[0m

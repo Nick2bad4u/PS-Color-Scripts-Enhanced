@@ -1,19 +1,4 @@
-﻿# Converted from: MAXMOUSE-HYPERNODE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0221/raw/MAXMOUSE-HYPERNODE.ANS
-# Source Revision: archive-sha256:4a8c9a8001bc7db23e62733bd188b07e2f92f8b5caca34bf87f4e45dd922c1a0
-# Source SHA-256: 8061ce8d046c207ee555741f5f7fc1fdf43bf37693d441ec6ef7307a3cefc514
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MAXMOUSE-HYPERNODE.ANS by Max Mouse (Mistigris); released in mist0221 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Hypernode logo
-# SAUCE Author: Max Mouse
-# SAUCE Group: Mistigris
-# SAUCE Date: 20210129
-# SAUCE Dimensions: 80x20
-# SAUCE Font: IBM VGA
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Hypernode logo by Max Mouse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0221-maxmouse-hypernode
 
 Write-Host '
 

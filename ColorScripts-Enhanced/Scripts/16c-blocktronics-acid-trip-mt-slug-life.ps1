@@ -1,19 +1,4 @@
-﻿# Converted from: mt-slug_life.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_acid_trip/raw/mt-slug_life.ANS
-# Source Revision: archive-sha256:c0717ff5cb7d462ed7fa9a55edd7235adbd3f09e01132486021497c9281171b6
-# Source SHA-256: ec48dc411eb725bd1c7ee2234b542d31fe9854bd0d8d603bf24d1bb6e3870cb5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mt-slug_life.ANS by Misfit (ACiD Productions); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Slug Life
-# SAUCE Author: Misfit
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Slug Life by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-acid-trip-mt-slug-life
 
 Write-Host '
 [1;30m  ▄▄▒▄███▄▓▓█▓██▌[0;1;33m ▄▄■[0m  [1;30m▀▀█████▓▀[0;33m ▄▄█[0;1;31;43m░▓▓[0;1;31;47m▓▓[0;1;31;43m▓▒░[0;33m▒░░░ [0;1;30m▓▀▀[0;33m [0;1;30m▄██▀░░[0m [1;30m▄▓[0m [33m▄▒█[0;1;31;43m░▓[0;1;31;47m▓[0;1;31;43m░░[0;33m▀[0;1;33;43m░░ [0;33m▄[0;1;30m▀▓▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: M7-PITT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-03/raw/M7-PITT.ANS
-# Source Revision: archive-sha256:8478e7ed47e52d1e07bf55e17a5f105ced4b468c6f56a8b59fd6b8ef8dada5ca
-# Source SHA-256: e343fcc2cc2a2426804384b97b72d93df84f12cfbc3b3ea23d8674eb1b30904e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M7-PITT.ANS by magnaplop (eclipse); released in ecl-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the pitt?
-# SAUCE Author: magnaplop
-# SAUCE Group: eclipse
-# SAUCE Date: 19960713
-# SAUCE Dimensions: 80x14
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: the pitt? by magnaplop | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-03-m7-pitt
 
 Write-Host '
       [1;33;47m░▓█[0m    ▄[1;33m▄▄▄▄▄[0m

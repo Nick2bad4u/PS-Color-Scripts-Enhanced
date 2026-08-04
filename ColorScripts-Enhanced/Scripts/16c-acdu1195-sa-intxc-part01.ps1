@@ -1,18 +1,4 @@
-﻿# Converted from: SA-INTXC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1195/raw/SA-INTXC.ANS
-# Source Revision: archive-sha256:69e419f1d1c331fd0cc84d59b407f2f77c26d7494508f2fe4429cc4214df9d32
-# Source SHA-256: 8b1f49d670b0d1c869744d9026f4c409b8ca8e4f5d63344d25f38110bcb5bef5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SA-INTXC.ANS by Soul Assassin (ACiD Productions); released in acdu1195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Intoxica
-# SAUCE Author: Soul Assassin
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19951101
-# SAUCE Dimensions: 80x129
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Intoxica by Soul Assassin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1195-sa-intxc-part01
 
 Write-Host '
                                                          [1m  [0m  [1m░[0m  [1m     [0m

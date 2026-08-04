@@ -1,17 +1,4 @@
-﻿# Converted from: EC-TIR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-16/raw/EC-TIR.ANS
-# Source Revision: archive-sha256:9ad935bd4cbb2615c5c684e690bc8979daa45859d0282b370bf26a8750d02425
-# Source SHA-256: f6b62b1d209592469c7b87301f79380919520ea6893c0c05a6325725b26954da
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EC-TIR.ANS by eclipse (force-16); released in force-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: tir taingaire
-# SAUCE Author: eclipse
-# SAUCE Date: 19970329
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: tir taingaire by eclipse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-16-ec-tir
 
 Write-Host '
 

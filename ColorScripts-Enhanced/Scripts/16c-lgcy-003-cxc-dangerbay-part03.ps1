@@ -1,19 +1,4 @@
-﻿# Converted from: cxc-dangerbay.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-003/raw/cxc-dangerbay.ans
-# Source Revision: archive-sha256:44a26aad0e8691f16e2777283660069b61e5916234397869961a696ba22e89f6
-# Source SHA-256: 235af843c0d740fcd1cf2e9174e222dfcf1d2cea1bbe2f870b74af35d66fd20d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cxc-dangerbay.ans by CoaxCable (Legacy Krew); released in lgcy-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Danger Bay BBS
-# SAUCE Author: CoaxCable
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20210101
-# SAUCE Dimensions: 80x125
-# SAUCE Font: IBM VGA
-# Lines: 85-125
-# Columns: 1-80
+﻿# Artwork: Danger Bay BBS by CoaxCable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-003-cxc-dangerbay-part03
 
 Write-Host '
 [1;30m [0;1;31m [0;33m▒▓[0;1;30;43m▓[0;1;31;43m█[0;1;30;43m▓░[0;1;31;47m▓▒[0;1;31;43m▒[0;1;30;40m █[0;1;30;43m▓[0;1;30;40m▀▐[0;1;31;43m▒[0;33m█[0;36m:[0;33m▒ [0;1;36;46m▓[0;33m ██[0;36m▐[0;33m▐█[0;1;31;47m▓▓▓▒██[0;33m█▄[0;1;31;47m▓▒[0;1;30;43m▒▓[0;1;30;40m▌ [0;33m ▐[0;1;30;43m▒▒[0;36m▐[0;33m█[0;36mi[0;33m█[0;1;31;43m▒[0;33m▄▀▀▀▀ [0;31m▄▄▄[0;33;41m▀       [0;1;31;41m▄▄▄[0;1;37;41m▄[0;33;41m ▀[0;31;40m▓██▄▄[0m

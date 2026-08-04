@@ -1,18 +1,4 @@
-﻿# Converted from: FO-CLOWN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1097/raw/FO-CLOWN.ANS
-# Source Revision: archive-sha256:36c7150b2835995ba27c6f1c5cfc23dc5fdf9213c2fb0b333e09d1aa0d00da5f
-# Source SHA-256: cf9cc7bdd44cd6f9aa045374dafc89d21afbd9f0151d43ec76e9ce4749187701
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FO-CLOWN.ANS by flexor (poffelipoff); released in plf-1097 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: clown
-# SAUCE Author: flexor
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19971031
-# SAUCE Dimensions: 80x46
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: clown by flexor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1097-fo-clown
 
 Write-Host '
      [1m              [0m     [1;33m▐[0m                                           [1m         [0m

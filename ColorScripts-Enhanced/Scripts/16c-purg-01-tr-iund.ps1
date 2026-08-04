@@ -1,13 +1,4 @@
-﻿# Converted from: TR-IUND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-01/raw/TR-IUND.ANS
-# Source Revision: archive-sha256:52e459066bb4c242989ee5376b0bf205dd329f7ed65ae88f8a028ac37e19ed86
-# Source SHA-256: 8bf40ab87db1e5d0bee614a051e5fac70969922da835657daf3888bab00de9a1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-IUND.ANS by The Reaper (purg-01); released in purg-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: TR-IUND.ANS by The Reaper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-01-tr-iund
 
 Write-Host '
 [1;30m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

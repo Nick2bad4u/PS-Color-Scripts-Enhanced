@@ -1,18 +1,4 @@
-﻿# Converted from: HX-QUOTE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense09/raw/HX-QUOTE.ANS
-# Source Revision: archive-sha256:b3e3029d8f7c1c608f2835055baa2116210e782109ea7dc0a1af3ca3d050e5b9
-# Source SHA-256: ae0d631564e7d1e91b2c6354f29f9d528d9b677260e8eb9d081c9ae4229e8ff1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HX-QUOTE.ANS by HeXD (Sense); released in sense09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: quote
-# SAUCE Author: HeXD
-# SAUCE Group: Sense
-# SAUCE Date: 19980515
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: quote by HeXD | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense09-hx-quote
 
 Write-Host '
 [1;33;43m ░▒▓[0;1;33;40m█████████▄[0m [1;34m▀██████████████[0;1;34;44m▓▒░      ░                                        [0m

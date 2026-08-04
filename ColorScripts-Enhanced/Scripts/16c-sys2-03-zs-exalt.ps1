@@ -1,17 +1,4 @@
-﻿# Converted from: ZS-EXALT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sys2_03/raw/ZS-EXALT.ANS
-# Source Revision: archive-sha256:008fb7d825e566af77ae54caca44158087d80f399f5293cc1f9b3810d9305879
-# Source SHA-256: 941900c6bc296122b9c1f4d1de5506fad2036c9493cb8ab308178735f5c916a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZS-EXALT.ANS by zerostar (SystemII); released in sys2_03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: zerostar
-# SAUCE Group: SystemII
-# SAUCE Date: 20000427
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: ZS-EXALT.ANS by zerostar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sys2-03-zs-exalt
 
 Write-Host '
 [1;31m [0;31m▌▐[0;1;31m [0;31m▄[0;1;31;41m▄▓░[0;31m▬ ▄▀[0;1;31m [0;31m▄█[0;1;31;41m▀[0;31m▀▄█[0;1;31;41m▬[0;31m▄[0;1;31m▄[0;31m▀[0;1;37me  x  a  l  t[0;31m▄▀  [0;33m [0;1;37mzerostar[0;31m   [0;1;31m▄[0;31m▀[0;33m ▐[0;1;31;43m█[0;1;35;43m█▓▓▓[0;33m [0;1;30m [0;31m [0;1;31m▄[0;31m▄ [0;1;31m▀[0;31m▀ ▄▄▄[0;1;31;41m▄[0;31m▀█ ▄-▀[0m

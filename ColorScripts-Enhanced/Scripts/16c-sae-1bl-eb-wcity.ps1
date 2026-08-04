@@ -1,13 +1,4 @@
-﻿# Converted from: EB-WCITY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sae-1bl/raw/EB-WCITY.ANS
-# Source Revision: archive-sha256:dff5eaf17caa7b5ae3a5e3e092942b56db8fa1ddaa78fd10f10289280de03ff7
-# Source SHA-256: 5ae501151e891cabe985186236b30d824af438f79a7a3cfd6e4b318bb18c682b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EB-WCITY.ANS by Eboy (sae-1bl); released in sae-1bl and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: EB-WCITY.ANS by Eboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sae-1bl-eb-wcity
 
 Write-Host '
             [1;30m·[0m

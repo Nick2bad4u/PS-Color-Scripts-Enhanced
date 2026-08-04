@@ -1,18 +1,4 @@
-﻿# Converted from: AX-NUMB2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9602a/raw/AX-NUMB2.ICE
-# Source Revision: archive-sha256:a7cb032b47574ac80269aea88d994085abecd77228955f55ef8d0e5338bc0184
-# Source SHA-256: 0dbbad6344082bce07799d7d893e3e5303cc1fb63ecf34d792ba29d2542727b6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AX-NUMB2.ICE by Apox (iCE Advertisements); released in ice9602a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Numb
-# SAUCE Author: Apox
-# SAUCE Group: iCE Advertisements
-# SAUCE Date: 19960301
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Numb by Apox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9602a-ax-numb2
 
 Write-Host '
                                                                          [1;30ma p o x[0m

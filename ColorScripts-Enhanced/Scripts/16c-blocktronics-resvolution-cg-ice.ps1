@@ -1,13 +1,4 @@
-﻿# Converted from: cg-ice.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_resvolution/raw/cg-ice.ans
-# Source Revision: archive-sha256:d0690af9ec91bf96f335196e9f9ddfb5d7ea02d97d300b53301bebaf58d83c35
-# Source SHA-256: f6447aa5801077ffd8ba31e040823dabeae3d2efc83c3f8c1b3ff725b77d7510
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cg-ice.ans by Cryogenic (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: cg-ice.ans by Cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-resvolution-cg-ice
 
 Write-Host '
 [35m▄[0;1;35m▄[0;1;35;45m░ [0;35m▀▀[0m      [35m▀[0;1;35m▀▀▀[0;1;35;45m▀█████▓[0;35m▓░[0;37m [0;1;37m░░[0m [35m▄[0;1;35;45m▄██▀[0;1;35;40m▀▀▀[0;35m▀[0;1;35m [0;35m▀[0;37m [0;31m▄[0;1;31;41m▄█[0;1;31;47m▓[0;1;37;41m░░[0;1;31;41m█▄[0;31m▄[0;37m [0;35m▄[0;1;35m▄[0;1;35;45m▄█████▄[0;35m▄  ░▓[0;1;35;45m████████▄ ░▒▓█[0;35m▄[0m

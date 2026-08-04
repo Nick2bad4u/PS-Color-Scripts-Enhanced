@@ -1,13 +1,4 @@
-﻿# Converted from: U3-PHS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/asshol-0/raw/U3-PHS.ANS
-# Source Revision: archive-sha256:e1ef34d839551b8dbf250f2cd801253e9605ddc8d53b358d1401c5bfc5e8fdba
-# Source SHA-256: e86d0b61ca14b1cd12dc4188ccc362ba9d383d72cbd716409c9f75a453ea31dd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: U3-PHS.ANS by Unseen Fate (asshol-0); released in asshol-0 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: U3-PHS.ANS by Unseen Fate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-asshol-0-u3-phs
 
 Write-Host '
 [36m███████████████[0;1;36;46m                    [0;36m██████████████████████████[0;1;36;46m▄▄▄[0;36m█[0;1;30m▄[0m [35m█[0;1;35;45m▐██████[0;1;35;47m▓▓[0;1;35;40m█[0;1;35;45m██[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: 2m-pablo.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_blockalypse/raw/2m-pablo.ans
-# Source Revision: archive-sha256:29ba148fe5fc8b4a774ee58a56a5b6d8104f139a95cba3df944ffda7c075e06a
-# Source SHA-256: 76f9e1bfa378741ef1e8a020133659289db99d8e5f216052d63dcb140ca0114c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2m-pablo.ans by Mattmatthew (blocktronics_blockalypse); released in blocktronics_blockalypse and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: 2m-pablo.ans by Mattmatthew | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blockalypse-2m-pablo
 
 Write-Host '
                                                                            [1;31;40m▄[0m

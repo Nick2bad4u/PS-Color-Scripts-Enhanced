@@ -1,13 +1,4 @@
-﻿# Converted from: avg-sense3d.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/avg-sense3d.ans
-# Source Revision: archive-sha256:5d665873486ffcf559d33043557e11d7636d0c5a5b53a69dd3e7cf81117997ef
-# Source SHA-256: 1e19452da796fed16cc62a79cb1c6522ab61cacc4e4f3c4048fa5a09974054a3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-sense3d.ans by Avenging Angel (blocktronics_codename_chris_wirth); released in blocktronics_codename_chris_wirth and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: avg-sense3d.ans by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-codename-chris-wirth-avg-sense3d-part01
 
 Write-Host '
 

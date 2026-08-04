@@ -1,19 +1,4 @@
-﻿# Converted from: krl-jasper02.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz19/raw/krl-jasper02.ans
-# Source Revision: archive-sha256:b2207428f1b283b9c41d9ff03fce385f449fefe469c60e31e8dd7430a162f7c1
-# Source SHA-256: 3724c8bf7e1f4d43e4c56b3b00f936bccea02029a5fb91999a63eca903f137ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: krl-jasper02.ans by krl (Lazarus); released in laz19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Jasper
-# SAUCE Author: krl
-# SAUCE Group: Lazarus
-# SAUCE Date: 20240111
-# SAUCE Dimensions: 80x135
-# SAUCE Font: IBM VGA
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Jasper by krl | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz19-krl-jasper02-part02
 
 Write-Host '
 [1;30m▓▓░▀▀[0m    [33m▀██[0;1;31;43m░▓▓[0;1;31;40m██████[0;31m▄▄█▀▀ ▄▄[0;1;31;41m▄[0;1;31;40m██████▀[0m [33m▄[0;1;31;43m▓[0;1;31;40m██[0;1;31;41m▄[0m  [1;30m░░[0m   [1;30m▄[0m  [1;30m▄[0;1;30;47m▀[0m▄▄[1;30;47m▀[0m██████████████████ [1;30m▀[0;1;30;47m▄[0m█

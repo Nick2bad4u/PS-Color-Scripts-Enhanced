@@ -1,19 +1,4 @@
-﻿# Converted from: us-araknet.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-003/raw/us-araknet.ans
-# Source Revision: archive-sha256:44a26aad0e8691f16e2777283660069b61e5916234397869961a696ba22e89f6
-# Source SHA-256: ddc199e05ad358d7a73b8a019c6ecdde4054a0dc204a8dc0dca60b8027646e7e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-araknet.ans by Smooth + Filth (Legacy Krew/B7); released in lgcy-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ArakNet
-# SAUCE Author: Filth & Smooth
-# SAUCE Group: Legacy Krew/B7
-# SAUCE Date: 20201211
-# SAUCE Dimensions: 80x28
-# SAUCE Font: IBM VGA
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: ArakNet by Smooth + Filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-003-us-araknet
 
 Write-Host '
 [1;37;41m                        [0;30;41m [0;31;40m    [0;37;40m [0;30;40m  [0;1;33;40m [0;1;31;40m [0m          [31m▄[0;1;33m  [0;31m▄[0;1;33m    [0;31m▄[0;1;33m  [0;31m▄[0;1;33m [0;31m▄▄▄[0m

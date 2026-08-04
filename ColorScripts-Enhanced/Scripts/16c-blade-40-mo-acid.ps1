@@ -1,18 +1,4 @@
-﻿# Converted from: MO-ACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blade-40/raw/MO-ACID.ANS
-# Source Revision: archive-sha256:36dce442fca1d182e4b74added5979db24d6a61d5306960c3e6982e7319e3076
-# Source SHA-256: b83b3c0f4c1849abcaf22821003ec62961a274c96d16f606f730eec49f04dba4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MO-ACID.ANS by magnatOp (blade productions 97); released in blade-40 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ACiD Promotional
-# SAUCE Author: magnatOp
-# SAUCE Group: blade productions 97
-# SAUCE Date: 19970604
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: ACiD Promotional by magnatOp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blade-40-mo-acid
 
 Write-Host '
 

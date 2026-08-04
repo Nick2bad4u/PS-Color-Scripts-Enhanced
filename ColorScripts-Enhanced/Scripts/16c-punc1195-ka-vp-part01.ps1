@@ -1,18 +1,4 @@
-﻿# Converted from: KA-VP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/punc1195/raw/KA-VP.ANS
-# Source Revision: archive-sha256:780ed06453bcb4894e26eb8dd08d9465e771f3893dabc1c5615aa6f629a5d66d
-# Source SHA-256: 90f33d33f7705ed0868ba4d37881cdc5c349d957e3ee671428d37798b7ecd9d9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KA-VP.ANS by kargus (punc productions); released in punc1195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: virtual paradox
-# SAUCE Author: kargus
-# SAUCE Group: punc productions
-# SAUCE Date: 19951024
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: virtual paradox by kargus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-punc1195-ka-vp-part01
 
 Write-Host '
                              [1;30m                     [0m

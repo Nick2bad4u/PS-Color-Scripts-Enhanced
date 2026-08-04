@@ -1,18 +1,4 @@
-﻿# Converted from: CRUSADE5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/srg2vos/raw/CRUSADE5.ANS
-# Source Revision: raw-sha256:8e65ffd21d6aed415ed9d4dc110a8d5c28aaa7e7d7970d8038f9bc1839351abc
-# Source SHA-256: 8e65ffd21d6aed415ed9d4dc110a8d5c28aaa7e7d7970d8038f9bc1839351abc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CRUSADE5.ANS by crusader (fbk.sargahd^vos); released in srg2vos and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: .. to asgaard, we fly
-# SAUCE Author: crusader
-# SAUCE Group: fbk.sargahd^vos
-# SAUCE Date: 19961109
-# SAUCE Dimensions: 80x74
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: .. to asgaard, we fly by crusader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-srg2vos-crusade5-part01
 
 Write-Host '
 [1m·[0m       ·     [1;34;44m▓[0;34m [0;1;34m░[0;34m    [0m     [1;34;44m░[0;34m [0;1;33;44m▓[0;1;34;40m▄[0;34m [0;1;35m▄▄[0;1;35;45m███[0m

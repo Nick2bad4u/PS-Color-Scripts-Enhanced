@@ -1,18 +1,4 @@
-﻿# Converted from: HRC-XGJ1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph1097/raw/HRC-XGJ1.ANS
-# Source Revision: archive-sha256:b6e257eb8371584ca5ade8b8a0fc4c2ec6d13bf6072ac7a83b43c3c01e88e287
-# Source SHA-256: f0f00ea94c82e03f5f95e13fd123c9da9ab153fa900b29d2347a1ede211ceaee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HRC-XGJ1.ANS by .s$ hURRICANE $s. (.s$ nITROPHUSION $s.); released in nph1097 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: .s$ xGJ^lOGO^aNSI $s.
-# SAUCE Author: .s$ hURRICANE $s.
-# SAUCE Group: .s$ nITROPHUSION $s.
-# SAUCE Date: 19970807
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: .s$ xGJ^lOGO^aNSI $s. by .s$ hURRICANE $s. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph1097-hrc-xgj1
 
 Write-Host '
 [1;30m-------[   ^    ]-------[lOGO^xGJ^               ]----------------------------[0m

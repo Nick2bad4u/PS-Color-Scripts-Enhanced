@@ -1,18 +1,4 @@
-﻿# Converted from: MIP%FL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fld9611/raw/MIP%25FL2.ANS
-# Source Revision: archive-sha256:c3be5f7f5a1a29d13d34b467174f87c610dcf087ab12ff7b46ba81bca9a6eb51
-# Source SHA-256: 7058a1117168a92556e1ef273897f4e6f5c0c0be1ca60d3e70ac9b61aee128ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MIP%FL2.ANS by MindPhreak (fluid); released in fld9611 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fluid logo
-# SAUCE Author: MindPhreak
-# SAUCE Group: fluid
-# SAUCE Date: 19961020
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Fluid logo by MindPhreak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fld9611-mip-fl2
 
 Write-Host '
 

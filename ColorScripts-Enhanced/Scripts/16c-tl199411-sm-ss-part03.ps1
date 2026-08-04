@@ -1,13 +1,4 @@
-﻿# Converted from: SM-SS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl199411/raw/SM-SS.ANS
-# Source Revision: archive-sha256:2327064d2e76a821c0fb598daa2f23a5d0c76b4b5b5337e012c8056f0db5f107
-# Source SHA-256: 263f42aaf052e4d0e2e21027d25b54e1d33222e7a915a0a5299186d064f30eff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-SS.ANS by Smooth (tl199411); released in tl199411 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 98-143
-# Columns: 1-80
+﻿# Artwork: SM-SS.ANS by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl199411-sm-ss-part03
 
 Write-Host '
 

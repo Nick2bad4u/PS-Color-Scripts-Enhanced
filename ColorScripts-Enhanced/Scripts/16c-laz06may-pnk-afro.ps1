@@ -1,18 +1,4 @@
-﻿# Converted from: PNK-AFRO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz06may/raw/PNK-AFRO.ANS
-# Source Revision: archive-sha256:1ae2be5748106937cd6f4a9b876b344db035c3534c8d6472ca3ea1eb05f03cc5
-# Source SHA-256: b372abca936eba75d5e208cd3e54df5765f2d27fc7391044e8a13c921ee59c3f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PNK-AFRO.ANS by phanatik (lazarus); released in laz06may and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: aphro
-# SAUCE Author: phanatik
-# SAUCE Group: lazarus
-# SAUCE Date: 19970508
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: aphro by phanatik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz06may-pnk-afro
 
 Write-Host '
     [1;33m    [0;35m  [0;37m  [0;1;33m [0m                                          [35m░[0;30;45m▓[0m

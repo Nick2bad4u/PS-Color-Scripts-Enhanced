@@ -1,18 +1,4 @@
-﻿# Converted from: CG-DARKH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ane-0896/raw/CG-DARKH.ANS
-# Source Revision: archive-sha256:5e24853d550a7b67e3659447cdedc955c2a6220ebe025cc69bac3636c87a5d4e
-# Source SHA-256: 675e4d6bbd8a688a884df7f0cf1f1a981fbe4d99ed226b096fda62576849a13a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-DARKH.ANS by Coug (.;:Anemia:;.); released in ane-0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Dark Horizons
-# SAUCE Author: Coug
-# SAUCE Group: .;:Anemia:;.
-# SAUCE Date: 19960710
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Dark Horizons by Coug | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ane-0896-cg-darkh
 
 Write-Host '
 [33m██▀▀▀▀▀▀▀████[0;1;31;43m░[0;33m█[0;1;31;43m░░░▓█▓▒▒░[0;33m▄█████[0;1;31;43m░▒[0;33m█[0;30;43m░░░[0;33;40m█████[0;1;31;43m░[0;33m█████[0;30;43m░[0;33;40m██████[0;1;31;43m░[0;33m████[0;30;43m░[0;33;40m█[0;30;43m░░░░▒▒▒[0;33;40m▒[0m

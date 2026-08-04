@@ -1,18 +1,4 @@
-﻿# Converted from: SN!BOE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak3/raw/SN!BOE.ANS
-# Source Revision: archive-sha256:cde4af7e840865f437fedba26bbfb806e858a9b477c723c01bd9d080434c75bd
-# Source SHA-256: e5c6cebda2ae5916c7c79dc63c40a4b9f3d06e78d1ba21a2f655603fab4bbe75
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SN!BOE.ANS by Snowball (Ecolove); released in ecl-pak3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Little Koebeest for President
-# SAUCE Author: Snowball
-# SAUCE Group: Ecolove
-# SAUCE Date: 19980125
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Little Koebeest for President by Snowball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak3-sn-boe
 
 Write-Host '
       ▐█[1;47m▄▄[0m█▌            ▐█▀[34m░░░[0;37m  [0;34m░░░░[0;37m    ▐▄[0m            [37m ▐█[0;1;37;47m▄▄[0m█▌

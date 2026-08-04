@@ -1,18 +1,4 @@
-﻿# Converted from: BM-KWO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense12j/raw/BM-KWO.ANS
-# Source Revision: archive-sha256:e1859c229de4f4dd1e65990d325e90f1a80e1ce3863ae80925f53e6878990dc6
-# Source SHA-256: 7a0eacc9a245a55b038c44a2d57cfb76b153d215f28b63636ff93db6f21d34cc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BM-KWO.ANS by Aesthetic + Avenging Angel (SENSE); released in sense12j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: kLOCKwERKoRANGE
-# SAUCE Author: balkan madness(tm)
-# SAUCE Group: SENSE
-# SAUCE Date: 20030124
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: kLOCKwERKoRANGE by Aesthetic + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense12j-bm-kwo
 
 Write-Host '
    [1;30m███[0;1;30;47m█▓▓▓▓[0;1;30;40m█[0m       █▀[1m▀[0;1;47m█[0m     [1;30m░░░░░░░░░[0m                                  [1;30m░░░░░░[0m

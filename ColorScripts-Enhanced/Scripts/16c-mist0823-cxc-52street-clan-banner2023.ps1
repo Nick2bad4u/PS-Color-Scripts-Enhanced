@@ -1,19 +1,4 @@
-﻿# Converted from: CXC_52STREET_CLAN_BANNER2023.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0823/raw/CXC_52STREET_CLAN_BANNER2023.ANS
-# Source Revision: archive-sha256:62e93186540813ec7aaaeb24433016d426de59526762a0e3f8dda1eb133ed05c
-# Source SHA-256: ba6341341eba6298cf5e24c8b463e6102aae59545a79170eca4759e78ceada3c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CXC_52STREET_CLAN_BANNER2023.ANS by CoaXCable (mistigris); released in mist0823 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 52 Street Clan banner
-# SAUCE Author: CoaXCable
-# SAUCE Group: mistigris
-# SAUCE Date: 20230824
-# SAUCE Dimensions: 80x39
-# SAUCE Font: IBM VGA
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: 52 Street Clan banner by CoaXCable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0823-cxc-52street-clan-banner2023
 
 Write-Host '
                                             [1m▄[0m

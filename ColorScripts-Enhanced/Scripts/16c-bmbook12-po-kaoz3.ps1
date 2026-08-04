@@ -1,18 +1,4 @@
-﻿# Converted from: PO-KAOZ3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook12/raw/PO-KAOZ3.ANS
-# Source Revision: archive-sha256:ec66f5bb4ed961133c52314c375d67af30a5295789eb6bfc6eda91ebf8999fc2
-# Source SHA-256: ff578fb644f54c93d9c90cadba23bf513edb3ef5efe490263c4eef169af74f48
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PO-KAOZ3.ANS by poti (black maiden); released in bmbook12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: kaoz
-# SAUCE Author: poti
-# SAUCE Group: black maiden
-# SAUCE Date: 19970228
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: kaoz by poti | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook12-po-kaoz3
 
 Write-Host '
 [32m    [0;1;37m ▄▄▄        ▄▄▄▄▄▄   [0;32m                      [0;1;37m             [0m

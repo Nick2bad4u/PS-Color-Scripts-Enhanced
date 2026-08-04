@@ -1,13 +1,4 @@
-﻿# Converted from: NV-URBAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fi-1194/raw/NV-URBAN.ANS
-# Source Revision: archive-sha256:c5c78143754003a29c9176acbc9c5704b0def0a026c0746890b16cf468794665
-# Source SHA-256: b63321b3267539552d612af4b9f1ad4b67a3c8bd06886a794a0dd27dece06f69
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NV-URBAN.ANS by Nevermind (fi-1194); released in fi-1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 50-92
-# Columns: 1-80
+﻿# Artwork: NV-URBAN.ANS by Nevermind | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fi-1194-nv-urban-part02
 
 Write-Host '
               [1;30m░░░░░[0m            [33m░    [0;1;30m░[0;33m░    ░   ░[0m       [1;30m░░░░[0m

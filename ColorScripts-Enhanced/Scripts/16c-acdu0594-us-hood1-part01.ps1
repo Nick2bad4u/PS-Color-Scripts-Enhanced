@@ -1,18 +1,4 @@
-﻿# Converted from: US-HOOD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0594/raw/US-HOOD1.ANS
-# Source Revision: archive-sha256:c612ea4a59fec91943d878667a48e1c926e28a2e076d898f1c1ec92a14e6fce8
-# Source SHA-256: 41feec08064bf190955ccbbf95194a26acc6e1b09e832bd484b3d5e37eb169a1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-HOOD1.ANS by Genocide + Veritech (ACiD Productions); released in acdu0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Hood
-# SAUCE Author: Multiple Artists
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940430
-# SAUCE Dimensions: 80x166
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: The Hood by Genocide + Veritech | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0594-us-hood1-part01
 
 Write-Host '
       [1;30;47m▒▓▓[0;1;30m████[0;1m▐█████████████[0m      [1;30m███[0;1;30;47m▓▒[0m [1m████████████████████████████████████████[0m

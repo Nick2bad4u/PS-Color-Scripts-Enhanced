@@ -1,13 +1,4 @@
-﻿# Converted from: G1-ICE01.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9805/raw/G1-ICE01.ICE
-# Source Revision: archive-sha256:8bc8777170e345252afb417c07a58b18d07ceb3469d1e0c7023dc70fc349f4fe
-# Source SHA-256: f5cd44c5473015528fe923710ae37d376344f1e9480766d39153e0f7e3e7354c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: G1-ICE01.ICE by Gloss (ice9805); released in ice9805 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: G1-ICE01.ICE by Gloss | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9805-g1-ice01
 
 Write-Host '
                  [1;30m    [0m                       [1;34m▀[0m [1;34m▄[0;34m [0m                     [37m [0;1;34m▀[0m [1;34m▄[0;34m [0;37m [0;1;30m▀[0m [1;30mg1[0m

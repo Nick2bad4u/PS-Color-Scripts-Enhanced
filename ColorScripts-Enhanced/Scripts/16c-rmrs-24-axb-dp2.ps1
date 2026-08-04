@@ -1,13 +1,4 @@
-﻿# Converted from: AXB-DP2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-24/raw/AXB-DP2.ANS
-# Source Revision: archive-sha256:4d7ae4c66dfbaa69fb09c857c73a0265787f84c667a8f375f61ef2bb99d7b256
-# Source SHA-256: 77eedcab65c192f09b144ac2106fa584a721aec3ec3cd8df6062653df2197a0f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AXB-DP2.ANS by Axb (rmrs-24); released in rmrs-24 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: AXB-DP2.ANS by Axb | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-24-axb-dp2
 
 Write-Host '
                                                   [32m_  [0m

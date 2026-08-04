@@ -1,13 +1,4 @@
-﻿# Converted from: ESCANM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/am-gore/raw/ESCANM.ANS
-# Source Revision: archive-sha256:6297579c973f53940df96a597286947e2b432492934ed755a27a2d94f35591f7
-# Source SHA-256: 3dc1f5f2d349b876758d4c19711f571693430ea6862f76bb93b686abc93f2701
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ESCANM.ANS by Amroth (am-gore); released in am-gore and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: ESCANM.ANS by Amroth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-am-gore-escanm
 
 Write-Host '
 

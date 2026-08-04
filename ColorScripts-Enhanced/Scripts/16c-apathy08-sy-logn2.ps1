@@ -1,18 +1,4 @@
-﻿# Converted from: SY-LOGN2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy08/raw/SY-LOGN2.ANS
-# Source Revision: archive-sha256:dddbecd097515d8bc284ea8726046b80b56f2576fe024d98d7a392e98f8d9a1f
-# Source SHA-256: d22fc685a46a58df259b3b89b8993acca681e77405db588ef1d8cb75026c5acb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SY-LOGN2.ANS by shoony (like you care!); released in apathy08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: yet another kick ass ansi
-# SAUCE Author: shoony
-# SAUCE Group: like you care!
-# SAUCE Date: 19960402
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: yet another kick ass ansi by shoony | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy08-sy-logn2
 
 Write-Host '
                   [33m▄██▄▄[0m

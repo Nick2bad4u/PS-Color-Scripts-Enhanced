@@ -1,20 +1,4 @@
-﻿# Converted from: us-plague-doctor.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-globalblockdown/raw/us-plague-doctor.ans
-# Source Revision: archive-sha256:72def6914c400cf448198b2a3876b5414476d859652144a1c3db260cf8838ba8
-# Source SHA-256: 5cfd80e58cded59de3b576b3016b9f5293e4928847ad644ad986218ce9f760c6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-plague-doctor.ans by Whazzit + Alpha King + Avenging Angel + Ober + Tainted (blocktronics); released in blocktronics-globalblockdown and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: doctor doctor!
-# SAUCE Author: ak wz avg ob tnt
-# SAUCE Group: blocktronics
-# SAUCE Date: 20200702
-# SAUCE Dimensions: 80x203
-# SAUCE Font: IBM VGA
-# SAUCE Comments: whazzit ober alpha king tainted x avenging angel
-# Lines: 148-196
-# Columns: 1-80
+﻿# Artwork: doctor doctor! by Whazzit + Alpha King + Avenging Angel + Ober + Tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-globalblockdown-us-plague-doctor-part04
 
 Write-Host '
 [1;37;47m▓████████████[0;1;37;46m▀▀▄▄■ [0;30m██[0;37m  ▓[0;30m██[0;37m▐▌[0;30m██[0;1;30m▄█▀[0;1;30;47m▒[0m▓[1;30;47m ░▒▓▓[0;1;30;40m█ [0m░░[1;30;47m▓[0;1;30;40m▓▓▒▒▒░░░ ▓[0m [1;35;45m▓[0;1;37;45m▒▒▓[0m▄ [1;30m▒▒░ ░[0;1;30;46m ░░[0m [1;30m▒░[0m [31m███▀[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: IP-OD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz09aug/raw/IP-OD.ANS
-# Source Revision: archive-sha256:3e0bd3039fe877b3970f71e80b4456ee60793f2295ae127a50a6587b17c2d6a2
-# Source SHA-256: b9b0b00017233ac4bacd2a8f29ca0fbcb6c4f43f74d1c4a59e13428fb72d2b38
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IP-OD.ANS by impulse (lazarus, force); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the overdose font
-# SAUCE Author: impulse
-# SAUCE Group: lazarus, force
-# SAUCE Date: 19970718
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: the overdose font by impulse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz09aug-ip-od
 
 Write-Host '
                                                      [36m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: RP-ENDOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pst-04/raw/RP-ENDOR.ANS
-# Source Revision: archive-sha256:f6efaa91b271a597917b36d55f7ff3e2a4848f36d9f7d6bc0f43e631f99045c0
-# Source SHA-256: 866fd520be814faacba8ea580768130d1a4f96a037c7fdcd8ac66b0408b43be1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RP-ENDOR.ANS by rippa (polyester); released in pst-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: endor
-# SAUCE Author: rippa
-# SAUCE Group: polyester
-# SAUCE Date: 19980630
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: endor by rippa | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pst-04-rp-endor
 
 Write-Host '
                     [30;47m▓▓[0m            [1;30;40m▄[0;34m [0;1;30m▄▄[0;1;30;43m▓░[0;33m█▄▄▄▄[0;34m  [0m

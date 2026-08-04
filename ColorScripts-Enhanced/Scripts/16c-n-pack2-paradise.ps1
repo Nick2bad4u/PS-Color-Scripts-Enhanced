@@ -1,13 +1,4 @@
-﻿# Converted from: PARADISE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/n__pack2/raw/PARADISE.ANS
-# Source Revision: archive-sha256:a405b9b0c734afb124e3ff5f382613c04fa7aa9f89ae7d92accf44d9efdebe19
-# Source SHA-256: 84c3d743386c84eea7bc7de1217b4daa088c18d06238e294a21d10fd9cd724b8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PARADISE.ANS by Nemesulku (n__pack2); released in n__pack2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: PARADISE.ANS by Nemesulku | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-n-pack2-paradise
 
 Write-Host '
 [33m■▄░ [0;32m ░▄■▀▀▒■▄[0m   [32m░[0;37m  [0;32m ▄▓▀▀▓▀▀▀▀▀▀■▄[0;37m [0;32m▒[0;37m [0;32m▄■▒▀■▄■▀▀▀▒▀■▄ [0;37m  [0;32m▄■▓▀■▄▄[0m      [32m▄■▄[0m   [32m▄■▒■▄░[0m

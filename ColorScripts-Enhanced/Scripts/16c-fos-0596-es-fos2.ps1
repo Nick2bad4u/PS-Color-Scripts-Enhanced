@@ -1,18 +1,4 @@
-﻿# Converted from: ES-FOS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fos-0596/raw/ES-FOS2.ANS
-# Source Revision: archive-sha256:25c8e691096e6d9e002fd5aeffbfc7841075d4cd6b2943fe3db88a851c3d7020
-# Source SHA-256: e6e8245f5dd84d4dd538fdcb3f8d417ae653cfff95cce9f55849ee638c7e9ed0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ES-FOS2.ANS by estatic (cia%fos); released in fos-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fistful of steel #2
-# SAUCE Author: estatic
-# SAUCE Group: cia%fos
-# SAUCE Date: 19960524
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: fistful of steel #2 by estatic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fos-0596-es-fos2
 
 Write-Host '
 [36m            [0;1;36m░[0;36m                                   [0m            [37m [0m

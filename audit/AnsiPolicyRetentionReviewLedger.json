@@ -1,0 +1,170 @@
+{
+    "disposition": "retained-after-review",
+    "policy": "Retain works whose official archive tags require adult-policy review when manual comparison with the official preview confirms that the rendered artwork remains suitable for the general-audience gallery.",
+    "reviewBasis": "Manual comparison against the official 16colors x1 preview. The ledger records hashes and conclusions without reproducing excluded material.",
+    "reviewedAt": "2026-07-27",
+    "schemaVersion": 1,
+    "summary": {
+        "scripts": 13,
+        "works": 9
+    },
+    "works": [
+        {
+            "id": "16colors:aaa-8991/HIGHS.ANS",
+            "scripts": [
+                "16c-aaa-8991-highs"
+            ],
+            "sourceUrl": "https://16colo.rs/pack/aaa-8991/raw/HIGHS.ANS",
+            "sourceSha256": "2aa9535a57c6d7510f48c2e1cc263e519763d356e65d42ac49a2eb468cecc1b3",
+            "renderSha256": "16cf033fc13fb0b29d39883231ff700eb6e48d4d80ea19e946d54190d13bbfc4",
+            "normalizedRenderSha256": "ef3b7c093329690581ed405cf82234513249327669f4efbc414c8dea9290c820",
+            "officialTags": [
+                {
+                    "name": "bikini",
+                    "url": "https://16colo.rs/tags/content/bikini"
+                }
+            ],
+            "reviewRationale": "The reviewed preview contains stylized swimwear silhouettes and no policy-excluded imagery."
+        },
+        {
+            "id": "16colors:acdu0893/TR-SOUND.ANS",
+            "scripts": [
+                "16c-acdu0893-tr-sound"
+            ],
+            "sourceUrl": "https://16colo.rs/pack/acdu0893/raw/TR-SOUND.ANS",
+            "sourceSha256": "8fe8ba8cddaabb61a7860a980b67c84633fbb18fe3ac8b578cea545cc8db8318",
+            "renderSha256": "0dc633463236fa6c53ce0e98128da80f68ebe1c7898595bbec1b0e3f414fe2bd",
+            "normalizedRenderSha256": "4533548d16d40574a4e64ae48a99bee2cbd6f5722571399386f6dbc166514b27",
+            "officialTags": [
+                {
+                    "name": "nsfw",
+                    "url": "https://16colo.rs/tags/content/nsfw"
+                }
+            ],
+            "reviewRationale": "The reviewed preview is a sound-system BBS logo and character illustration with no policy-excluded imagery."
+        },
+        {
+            "id": "16colors:bat03/ZT-ASS.ANS",
+            "scripts": [
+                "16c-bat03-zt-ass"
+            ],
+            "sourceUrl": "https://16colo.rs/pack/bat03/raw/ZT-ASS.ANS",
+            "sourceSha256": "1760c95ff98e239635a9e65f149422d65c7d3365bfc17f52673990925d0c3515",
+            "renderSha256": "0051627311a310f0fb455497e8e7c9a17bce8a1a3603751fae7ac044a37053ce",
+            "normalizedRenderSha256": "931595164719694bca6c0202908a0a4e4f6439b0830bc13589f2338661ec6674",
+            "officialTags": [
+                {
+                    "name": "ass",
+                    "url": "https://16colo.rs/tags/content/ass"
+                }
+            ],
+            "reviewRationale": "The reviewed preview is a typography-only logo; the tag reflects the logo text rather than excluded visual content."
+        },
+        {
+            "id": "16colors:blndr008/BLENDER.ANS",
+            "scripts": [
+                "16c-blndr008-blender"
+            ],
+            "sourceUrl": "https://16colo.rs/pack/blndr008/raw/BLENDER.ANS",
+            "sourceSha256": "a8740fc639f74d0bb7038e475aa76b9c7657c0ad4e6a74af0cbe6979e528b497",
+            "renderSha256": "092a3e0039bf257062e0201ecedd23942feb6a72925fd97628f321ac80a382df",
+            "normalizedRenderSha256": "1e6400c6e65d0b37c964b50d23bd468cff49ea6dc0d5f56eb3f9efa0cd1b9023",
+            "officialTags": [
+                {
+                    "name": "titties",
+                    "url": "https://16colo.rs/tags/content/titties"
+                }
+            ],
+            "reviewRationale": "The reviewed preview is a fully clothed music-themed character illustration with no policy-excluded imagery."
+        },
+        {
+            "id": "16colors:blocktronics_blockfury/k1-sense.ans",
+            "scripts": [
+                "16c-blocktronics-blockfury-k1-sense-part01",
+                "16c-blocktronics-blockfury-k1-sense-part02",
+                "16c-blocktronics-blockfury-k1-sense-part03",
+                "16c-blocktronics-blockfury-k1-sense-part04",
+                "16c-blocktronics-blockfury-k1-sense-part05"
+            ],
+            "sourceUrl": "https://16colo.rs/pack/blocktronics_blockfury/raw/k1-sense.ans",
+            "sourceSha256": "a5eec491ccff991e4fac1f4321960c6044d6fa92ac21b79410c3f5800b1d465e",
+            "renderSha256": "33b61930814a456333a1985ef6bf3b97fd954a0cb4b7b8fc0d89a75fb9d80dc7",
+            "normalizedRenderSha256": "27935f0ee106a63ac64b47197601286ef8022e28620a2f7540b5bbf326ed5dc3",
+            "officialTags": [
+                {
+                    "name": "bikini",
+                    "url": "https://16colo.rs/tags/content/bikini"
+                }
+            ],
+            "reviewRationale": "The reviewed preview is a stylized swimwear character with no policy-excluded imagery."
+        },
+        {
+            "id": "16colors:glue-03/INT-KINK.ANS",
+            "scripts": [
+                "16c-glue-03-int-kink"
+            ],
+            "sourceUrl": "https://16colo.rs/pack/glue-03/raw/INT-KINK.ANS",
+            "sourceSha256": "80e95a1d7fb473589a1d51529600150c85a967eb928ab949d789688bd25971f5",
+            "renderSha256": "b3cb777c29918a1ad6922052fea242e8ffa0778d14296599d7420f24cbf39b1a",
+            "normalizedRenderSha256": "8a327df3c4c7d073ea0d73ad0324c82d034bd888ee5120f9ecce3de09234f694",
+            "officialTags": [
+                {
+                    "name": "kink",
+                    "url": "https://16colo.rs/tags/content/kink"
+                }
+            ],
+            "reviewRationale": "The reviewed preview is an abstract interface composition; the tag reflects BBS branding rather than excluded visual content."
+        },
+        {
+            "id": "16colors:glue-28/22-KINK9.ANS",
+            "scripts": [
+                "16c-glue-28-22-kink9"
+            ],
+            "sourceUrl": "https://16colo.rs/pack/glue-28/raw/22-KINK9.ANS",
+            "sourceSha256": "7f37ec08b2528173665f52dd1ad341c0629c4210189935d37339efbafb34092c",
+            "renderSha256": "debcf43be385ae410315273e10a70458e50682b5808a4c10fd0297f2635aa0fa",
+            "normalizedRenderSha256": "df74c1bb5837fe2850416b2fc66712443697e44201e4b5bd25d15928713aa7dd",
+            "officialTags": [
+                {
+                    "name": "kink",
+                    "url": "https://16colo.rs/tags/content/kink"
+                }
+            ],
+            "reviewRationale": "The reviewed preview is a stylized face illustration; the tag reflects artist or group branding rather than excluded visual content."
+        },
+        {
+            "id": "16colors:m-9803-a/DD-SV1.ANS",
+            "scripts": [
+                "16c-m-9803-a-dd-sv1"
+            ],
+            "sourceUrl": "https://16colo.rs/pack/m-9803-a/raw/DD-SV1.ANS",
+            "sourceSha256": "abefd04b1c13916d410a90ec8b9ea75a39a89acd6d006adc1eada5c00006908d",
+            "renderSha256": "a64a8023e1c80ab6d2fe7293d8b9bba1cb7f46b864db05d19c818817233d8d52",
+            "normalizedRenderSha256": "9f3d61a7c773277fb319461b06b64b385c2b8413b5c642e304197b92e27d71fb",
+            "officialTags": [
+                {
+                    "name": "nsfw",
+                    "url": "https://16colo.rs/tags/content/nsfw"
+                }
+            ],
+            "reviewRationale": "The reviewed preview is a compact BBS logo with no policy-excluded imagery."
+        },
+        {
+            "id": "16colors:mdn-9703/RY-UTP3.ANS",
+            "scripts": [
+                "16c-mdn-9703-ry-utp3"
+            ],
+            "sourceUrl": "https://16colo.rs/pack/mdn-9703/raw/RY-UTP3.ANS",
+            "sourceSha256": "f815792df965f45eee3161cf06cfffacda017d771c1f6944c6c0236f67af76e8",
+            "renderSha256": "0698a2e22d73c06f0a3e413cb305627498524a845aba6a887ae91f28686951be",
+            "normalizedRenderSha256": "a8bf2bdec430b1f6c0355690b784c0d2edf1df9ed83ba95e90f3fa67c8c9911b",
+            "officialTags": [
+                {
+                    "name": "nudity",
+                    "url": "https://16colo.rs/tags/content/nudity"
+                }
+            ],
+            "reviewRationale": "The reviewed preview is a clothed pin-up-style illustration with no policy-excluded imagery."
+        }
+    ]
+}

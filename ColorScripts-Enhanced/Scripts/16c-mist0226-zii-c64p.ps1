@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-C64P.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0226/raw/ZII-C64P.ANS
-# Source Revision: archive-sha256:ef03a5a095d5c0479664f99ff23399e245703c452ca9d05ea2957005177022f9
-# Source SHA-256: 75e5b3bd5438a54090b89683fa444f5c0019706347d5c73d3509988c11d513cb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-C64P.ANS by Zeus II (Mistigris); released in mist0226 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The C64 Pub
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260118
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: The C64 Pub by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0226-zii-c64p
 
 Write-Host '
    [1;30;43m░[0;33m▌[0;37m [0;33m▀[0;34m▄▄[0;1;37;44m.[0;34m█[0;37m [0;33m▄▄███[0;1;30;43m░[0m [1;30m██[0m [34m█[0;37;44m.[0;34;40m█████[0;1;37;44m·[0;34m████▄▄[0;33m■[0;34m▀▀██[0;1;34;44m░░░░░▒▒[0m [1;30m▄▄▄▄▄▄▄▄▄▄▄[0m [1;30m▄▄[0m  [1;30m▄▄[0m [1;30m▄▄▄▄▄▄▄▄▄[0m

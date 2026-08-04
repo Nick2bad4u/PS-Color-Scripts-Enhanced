@@ -1,18 +1,4 @@
-﻿# Converted from: RG-FUTUR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lcd-a001/raw/RG-FUTUR.ANS
-# Source Revision: archive-sha256:55e314de3437204a90547056ed7bd388c2225541f9bc2d93c6d567b798eee7fd
-# Source SHA-256: 4e7710740b39d139e51c5055b990928542067ae13992b34f6ff0e5090d53a90f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RG-FUTUR.ANS by Rimgale (LUCiD); released in lcd-a001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: FutureReality
-# SAUCE Author: Rimgale
-# SAUCE Group: LUCiD
-# SAUCE Date: 19941208
-# SAUCE Dimensions: 80x25
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: FutureReality by Rimgale | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lcd-a001-rg-futur-part01
 
 Write-Host '
 [1;30m▀  ▀ ▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

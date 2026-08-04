@@ -1,18 +1,4 @@
-﻿# Converted from: K1-GRA10.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus05/raw/K1-GRA10.ANS
-# Source Revision: archive-sha256:1aa3ba6c9bb069effe029f69af967419cb8dc77ae4501a5215ae43589435acd5
-# Source SHA-256: 8e7c56a032d10347297b3d5282bc60721a8d4a792fcc2722cc2ef423a5c835ee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K1-GRA10.ANS by knocturnal (Fokus); released in fokus05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Grape
-# SAUCE Author: knocturnal
-# SAUCE Group: Fokus
-# SAUCE Date: 19990610
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Grape by knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus05-k1-gra10
 
 Write-Host '
                       [35m▄▀[0m        [37m  [0;35m▄[0m           [37m   [0m        [37m [0m

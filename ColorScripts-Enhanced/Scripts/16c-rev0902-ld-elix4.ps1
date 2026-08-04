@@ -1,18 +1,4 @@
-﻿# Converted from: LD-ELIX4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0902/raw/LD-ELIX4.ANS
-# Source Revision: archive-sha256:8537b7dfc4e56bfe671cea284194fa6f621bcce1f2fa291a7ed7a56a5e107081
-# Source SHA-256: b252e415b9d2c64eb11fac706e800f0d4f0947926f405bd30644c038c6e401fa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-ELIX4.ANS by lazthaus (ld!) (Revival); released in rev0902 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Elixir 24 liner
-# SAUCE Author: lazthaus (ld!)
-# SAUCE Group: Revival
-# SAUCE Date: 20020915
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Elixir 24 liner by lazthaus (ld!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0902-ld-elix4
 
 Write-Host '
 [36m▐▀[0;37m [0;1;36m▄▄▄[0;36m [0;37m  [0;1;36;46m██[0;1;36;40m▌[0m [36m [0;1;36m▀▀▌[0m        [36m [0;1;36m▀█[0;36m [0;37m [0;36m▀[0;1;36;46m░▓░░[0;36m█▀[0;37m  [0;36m▀▌[0;37m [0;33m▄▄███[0;1;33;43m░░[0;33m████[0;1;33;43m░░░[0;33m█████████[0;1;33;43m [0;33m█▄▄[0;37m  [0;33m▄▄[0;37m [0;1;36m▀[0;1;36;46m▓[0;1;36;40m▄▀[0;1;36;46m█[0m

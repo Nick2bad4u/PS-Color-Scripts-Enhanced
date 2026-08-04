@@ -1,19 +1,4 @@
-﻿# Converted from: US-GRASSCII.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0226/raw/US-GRASSCII.ANS
-# Source Revision: archive-sha256:ef03a5a095d5c0479664f99ff23399e245703c452ca9d05ea2957005177022f9
-# Source SHA-256: 11cc00d928f7a9fd001991972ba6509441e37ef2ea4dc0ed13d0039b47c7249b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GRASSCII.ANS by LDA + Moth + Sassafras (Mistigris); released in mist0226 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ascii in the grasscii
-# SAUCE Author: lda / sass / moth
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260226
-# SAUCE Dimensions: 80x38
-# SAUCE Font: IBM VGA
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: ascii in the grasscii by LDA + Moth + Sassafras | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0226-us-grasscii
 
 Write-Host '
 [1;34m████████████████████████████████████████████████████████████████████████████████[0m

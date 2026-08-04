@@ -1,13 +1,4 @@
-﻿# Converted from: FB-INFD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/atm-0294/raw/FB-INFD1.ANS
-# Source Revision: archive-sha256:ec69de861bb9c5fa14955a518170ca9a952fbcf9fa8007e351a723feb534c81b
-# Source SHA-256: 18f50aece338df28b480e1515b9c7025c6aae76e55f54e08e2a05a038d0b2461
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FB-INFD1.ANS by Frost Byte (atm-0294); released in atm-0294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: FB-INFD1.ANS by Frost Byte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-atm-0294-fb-infd1-part01
 
 Write-Host '
   [34m▄▄█[0;1;36;44m▄▄▄[0;1;36;40m██▄▄    [0;31m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█    [0;1;36m▄▄█[0;1;36;44m█▄▄▄ [0;34m▄▄[0m

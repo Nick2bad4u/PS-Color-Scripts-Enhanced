@@ -1,19 +1,4 @@
-﻿# Converted from: tnt-vm1x.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2021d/raw/tnt-vm1x.ans
-# Source Revision: archive-sha256:c9438c0bcd954b25748b050f94a979453aa1121c38319d9e358aad6b2ccad3a3
-# Source SHA-256: baf9b6512fbddc1f523af68392544b147b6f7d9fcc2110e9265fffbed657161c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tnt-vm1x.ans by tainted (blocktronics); released in blndr2021d and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dirty, classy, bloody glassy!
-# SAUCE Author: tainted
-# SAUCE Group: blocktronics
-# SAUCE Date: 20211017
-# SAUCE Dimensions: 80x100
-# SAUCE Font: IBM VGA
-# Lines: 50-99
-# Columns: 1-80
+﻿# Artwork: dirty, classy, bloody glassy! by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2021d-tnt-vm1x-part02
 
 Write-Host '
 [1m  [0;1;47m░[0m       ▐▌[1m▐[0m▒ [1m▐▌[0m▐  ▀ [1m██ [0m█  ▒▐▌   ░

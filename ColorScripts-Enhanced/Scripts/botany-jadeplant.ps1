@@ -1,11 +1,4 @@
-# Converted from: jadeplant3.ansi
-# Source encoding: utf8
-# Source URL: https://raw.githubusercontent.com/jifunks/botany/2802121ed8268df1b69584167a14d4c690aaea35/art/jadeplant3.ansi
-# Source Revision: 2802121ed8268df1b69584167a14d4c690aaea35
-# Source SHA-256: e5488546df66a21a2be98cd6c08136fd88db44e7efe2d50407564e2928e38b96
-# Source License: ISC
-# Source Attribution: Jacob Funke (jifunks)
-# Source Conversion Mode: Passthrough
+# Artwork: jadeplant3.ansi by Jacob Funke (jifunks) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=botany-jadeplant
 
 Write-Host '
 [38;5;7m [38;5;7m [38;5;7m [38;5;7m [38;5;7m [38;5;7m [38;5;7m [38;5;2mo[38;5;7m [38;5;7m [38;5;7m [38;5;2mo[38;5;7m [38;5;7m [38;5;7m [38;5;2m%[38;5;1m*[38;5;8m [38;5;8m [38;5;8m [38;5;8m [38;5;8m [38;5;8m [38;5;8m 

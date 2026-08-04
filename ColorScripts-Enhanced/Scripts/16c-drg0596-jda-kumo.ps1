@@ -1,18 +1,4 @@
-﻿# Converted from: JDA_KUMO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg0596/raw/JDA_KUMO.ANS
-# Source Revision: archive-sha256:d670382d351e02706636ed3f42d5424159eaf3d63803a18a032bc93392d9c38d
-# Source SHA-256: 41620eec3c07d97636449ae02f21c1d28c316b5e08d98c41a308c06d1ec42e78
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JDA_KUMO.ANS by Joda (DRG^INP); released in drg0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Kumo
-# SAUCE Author: Joda
-# SAUCE Group: DRG^INP
-# SAUCE Date: 19960415
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Kumo by Joda | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg0596-jda-kumo
 
 Write-Host '
 

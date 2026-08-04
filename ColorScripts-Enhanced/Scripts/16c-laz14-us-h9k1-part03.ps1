@@ -1,19 +1,4 @@
-﻿# Converted from: us-h9k1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz14/raw/us-h9k1.ans
-# Source Revision: archive-sha256:41b4e3770fbffb058172283f3da2aa00e47c872480cf93fdef94629ebc0751bb
-# Source SHA-256: d7519c166043b2332c1261559d5e3662b55f4eacbfc55b44ee4fc6a348dc43ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-h9k1.ans by Knocturnal + Hayn9 (legacykrew & lazarus); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: hayn9 & knocturnal
-# SAUCE Group: legacykrew & lazarus
-# SAUCE Date: 20210121
-# SAUCE Dimensions: 80x116
-# SAUCE Font: IBM VGA
-# SAUCE Comments: k1 says: i was inspired by hayn9's outline on the 16c moebius se | rver and here's the result. another version was released earlier |  as us-cgach1ck.ans in legacy krew #3 by tainted.
-# Lines: 79-116
-# Columns: 1-80
+﻿# Artwork: us-h9k1.ans by Knocturnal + Hayn9 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz14-us-h9k1-part03
 
 Write-Host '
 [1;30m █[0;1;30;45m▓[0m [35m▌[0;1;30;45m▓[0;35m▓  [0;36m▌[0;34m█ ▒█▌ [0;1;30m▒[0;1;30;43m▓[0;33m▓[0;1;31;43m▓█[0;1;31;40m███[0;33m██[0;1;30m▌[0;33m [0;36m░[0;33m▒▒▓▓[0;1;31;43m░░▀[0;1;31;40m███[0;31m▐██▓░░▓[0;31;43m▀[0;1;30;43m▓▓[0;33m░[0;1;30;43m▓░[0;33m███[0;1;31;43m░░░▓▓▓[0;1;31;40m█[0;33m▒[0;31m▓██▄▄▀[0;1;31m [0;35m▒███[0;37m   [0;35m██[0m

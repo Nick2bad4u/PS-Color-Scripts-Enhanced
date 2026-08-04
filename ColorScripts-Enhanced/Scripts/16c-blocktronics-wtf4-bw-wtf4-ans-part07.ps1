@@ -1,13 +1,4 @@
-﻿# Converted from: bw_wtf4.ans.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_wtf4/raw/bw_wtf4.ans.ans
-# Source Revision: archive-sha256:250b5eed057a6c043b178a52a71a9f6b183e2a63591879f24e3c64051465130b
-# Source SHA-256: a78aa46ad3aac75ad5167b34c3b2a28339e390b1ed3a4812ad4b2f9c50def960
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bw_wtf4.ans.ans by Binary Walker (blocktronics_wtf4); released in blocktronics_wtf4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 274-318
-# Columns: 1-80
+﻿# Artwork: bw_wtf4.ans.ans by Binary Walker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-wtf4-bw-wtf4-ans-part07
 
 Write-Host '
 [1;30;40m████[0m                              [1;30;40m████████████[0;1;30;47m▓▓▓[0;1;30;40m████[0;1;30;47m▓[0m [36m██▀▀[0;37m █[0m       [32m    [0;32;47m█[0;1;32;42m▀[0;32;47m██████[0m

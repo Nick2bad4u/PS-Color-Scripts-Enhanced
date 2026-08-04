@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-CRYP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0198/raw/ZII-CRYP.ANS
-# Source Revision: archive-sha256:463d77f4b1466b54ce907e7ee760282fc69f7183ee8d9f351965b1f5ce417b30
-# Source SHA-256: 29b992c2258086e819fa0ef643561dbb3337d62029028cbe516930a57eb4f693
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-CRYP.ANS by Zeus II (Poffelipoffelipoffel); released in plf-0198 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The CRYPT
-# SAUCE Author: Zeus II
-# SAUCE Group: Poffelipoffelipoffel
-# SAUCE Date: 19980114
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: The CRYPT by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0198-zii-cryp
 
 Write-Host '
         [31m [0m

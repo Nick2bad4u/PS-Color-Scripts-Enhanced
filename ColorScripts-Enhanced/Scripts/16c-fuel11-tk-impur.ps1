@@ -1,17 +1,4 @@
-﻿# Converted from: TK-IMPUR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel11/raw/TK-IMPUR.ANS
-# Source Revision: archive-sha256:bc01376bbeb692c1fce16796b92a6fd889f89dbf4c55eb291719d5ea3fd5846c
-# Source SHA-256: 11d8374d8dc075dbfd386b847323bb8a232c69cdebb3e78b74044c71cd8f3ad0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TK-IMPUR.ANS by The Knight (Fuel); released in fuel11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Impure
-# SAUCE Author: The Knight
-# SAUCE Group: Fuel
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Impure by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel11-tk-impur
 
 Write-Host '
                [31m░[0m      [31m [0m        [31m░[0m          [36m    [0;37m  │[0m

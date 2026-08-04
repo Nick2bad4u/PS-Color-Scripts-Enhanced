@@ -1,18 +1,4 @@
-﻿# Converted from: MA-RDDWN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/void1094/raw/MA-RDDWN.ANS
-# Source Revision: archive-sha256:087b51e8e0ec398713195b1ab8b854988a46aa9f1acbab926fbc6bce0d99cb52
-# Source SHA-256: b809bbc38deb1751284084220977637bf7cc3308ac5ee48493e5273d1ae33422
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MA-RDDWN.ANS by Weazel + Grimace (VOiD); released in void1094 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: RED DAWN
-# SAUCE Author: MULTi ARTiST ANSi
-# SAUCE Group: VOiD
-# SAUCE Date: 19941013
-# SAUCE Dimensions: 80x80
-# Lines: 39-79
-# Columns: 1-80
+﻿# Artwork: RED DAWN by Weazel + Grimace | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-void1094-ma-rddwn-part02
 
 Write-Host '
     [1;30m▄██████████████████████████████████████████████████████████████████████▄[0m

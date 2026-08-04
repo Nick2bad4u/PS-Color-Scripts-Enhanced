@@ -1,18 +1,4 @@
-﻿# Converted from: US-DITCH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-21/raw/US-DITCH.ANS
-# Source Revision: archive-sha256:f82ee46d8be1d82ea17d8bdc07ad3071d4259c4331c1829c972b5ae2082ebcd2
-# Source SHA-256: 5666bcc32d7804a859c7a0f1b141a0926662fcdec565ee9cf6d88f0cae532f77
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DITCH.ANS by Psidream + Ironghost (iCE / Glue); released in glue-21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: I think it says "Gutter"
-# SAUCE Author: Ironghost / Psidream
-# SAUCE Group: iCE / Glue
-# SAUCE Date: 19990428
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: I think it says "Gutter" by Psidream + Ironghost | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-21-us-ditch
 
 Write-Host '
                            [34m      [0m                       [34m▄ ▀[0m

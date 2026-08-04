@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-GEMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0526/raw/ZII-GEMP.ANS
-# Source Revision: archive-sha256:96e9c14a0862fcfb7b203f3d94f85e28654461fdbf12521de185a12d5fb418bb
-# Source SHA-256: 3d25eccbdc5ee03719866171c05bfc1113b81389c20232821887f996367f0723
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-GEMP.ANS by Zeus II (Mistigris); released in mist0526 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Gemenon pre-login
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260516
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Gemenon pre-login by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0526-zii-gemp
 
 Write-Host '
                     [1;30m▄▄[0;1;30;47m▓▒▒░░   [0;1;30;40m█ [0;1;30;47m▒▒▒▒░░░░      ░░░░▒▒▒▓[0;1;30;40m▄▄            ▄▄▓▓▓▓█▀▀ ░░[0m

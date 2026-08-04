@@ -1,18 +1,4 @@
-﻿# Converted from: HO-RAV3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stl-005/raw/HO-RAV3.ANS
-# Source Revision: archive-sha256:1d000c975d4e4cc3e398643daab47be888da5632072e32d65c4b4cc03f987a7c
-# Source SHA-256: 14eaad13f8727fafaf9af2b1c5d3f63926a69128e9bd0d5e18558183e64addc0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HO-RAV3.ANS by hoodoo (stile); released in stl-005 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ravaged
-# SAUCE Author: hoodoo
-# SAUCE Group: stile
-# SAUCE Date: 19960421
-# SAUCE Dimensions: 80x82
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: ravaged by hoodoo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stl-005-ho-rav3-part01
 
 Write-Host '
 [1;34m████████▀▀▀▀▀▀▀▀▀▀▀▀▀███████████████████████████████████████████████████████████[0m

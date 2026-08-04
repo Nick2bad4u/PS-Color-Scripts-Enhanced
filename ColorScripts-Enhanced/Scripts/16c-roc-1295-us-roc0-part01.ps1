@@ -1,18 +1,4 @@
-﻿# Converted from: US-ROC0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roc-1295/raw/US-ROC0.ANS
-# Source Revision: archive-sha256:435b12f0b103f4945e424868578c877f7bd56818bb509ee35e6283e1bcaf0e1e
-# Source SHA-256: 8b70d1d743749751b338364e640a071f07921490d39ae5977efd7a1be7fba276
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ROC0.ANS by Blood Priest + Rza + Silver Rat (ROC); released in roc-1295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ROC!
-# SAUCE Author: Rza/Srat/BP
-# SAUCE Group: ROC
-# SAUCE Date: 19951205
-# SAUCE Dimensions: 80x25
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: ROC! by Blood Priest + Rza + Silver Rat | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roc-1295-us-roc0-part01
 
 Write-Host '
 [1;31;41mr[0;31m███▄██▀████[0;1;31;41m▄█▒██▒░▀▀▀▀[0;31m█████[0;1;31;41m ░▒░▒░  [0;31m████████▓▓░█████████████████████[0;1;31;41m░[0;31m███████ █ █[0m

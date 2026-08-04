@@ -1,13 +1,4 @@
-﻿# Converted from: AJ-POWD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r5/raw/AJ-POWD1.ANS
-# Source Revision: raw-sha256:f335ee7057a97088a89486ada2933a9bd2c66eba1f54cc82aadae7141fefe5cf
-# Source SHA-256: f335ee7057a97088a89486ada2933a9bd2c66eba1f54cc82aadae7141fefe5cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AJ-POWD1.ANS by Anajude (afc-r5); released in afc-r5 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: AJ-POWD1.ANS by Anajude | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r5-aj-powd1
 
 Write-Host '
 [34m▓▓▒▒▒░░░░ ░  ░░░▒▓▒▒░░░░░  ░    ░[0m       [34m░  ░ ░░░▒▒▒▓▓▓[0;1;37m█[0;1;37;47m▓▒░ [0;1;30;47m░▒▓█[0;1;30;40m▓▒░   ┌──┤ │  ░ │[0m

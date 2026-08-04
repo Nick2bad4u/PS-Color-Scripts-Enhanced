@@ -1,16 +1,4 @@
-﻿# Converted from: pxg-yes.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_yotb/raw/pxg-yes.ans
-# Source Revision: archive-sha256:f702f09f6116b5ac6fa523d36f54d796db6f44f880e4f1cd426d29a9fbda605e
-# Source SHA-256: b44cca286b00405d2a8719cf1f3d416e6cabc69eb78d96934bc63c077a697ac4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: pxg-yes.ans by Pixel Goth (blocktronics_yotb); released in blocktronics_yotb and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 20150131
-# SAUCE Dimensions: 80x116
-# SAUCE Font: IBM VGA
-# Lines: 83-116
-# Columns: 1-80
+﻿# Artwork: pxg-yes.ans by Pixel Goth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-yotb-pxg-yes-part03
 
 Write-Host '
        [30;40m [0;34;40m♀[0;35;40m♀[0;30;45m♀[0;1;31;45m♀[0;30;45m♀[0;35;40m♀[0;34;40m♀[0m             [33;103m♥♥[0m       [33;103m♥[0m   [33;103m♥♥♥♥[0m  [33;103m♥[0m    [33;103m♥♥[0m       [35m♀[0m

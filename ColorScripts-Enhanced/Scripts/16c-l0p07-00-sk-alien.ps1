@@ -1,18 +1,4 @@
-﻿# Converted from: SK!ALIEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p07_00/raw/SK!ALIEN.ANS
-# Source Revision: archive-sha256:a3b441ad059a99c69fdbe6c7a0af1b4d1cc643ea6b978677fc1531d85260eaf2
-# Source SHA-256: 6e42514c472aec6752facf1809c33bbe7b223e3267e9faeb6e8cc6f6ef2b8826
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!ALIEN.ANS by sIMONkING (tHElo0p); released in l0p07_00 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: aLIEN foR eSIDE
-# SAUCE Author: sIMONkING
-# SAUCE Group: tHElo0p
-# SAUCE Date: 20000703
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: aLIEN foR eSIDE by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p07-00-sk-alien
 
 Write-Host '
 [1mi belive ;)[0m                  [1;30;43m▄[0;33m███▄[0;1;30;43m▄[0;33m█[0;1;31;43m███[0;1;31;47m    [0;1;31;43m████████[0;1;31;47m██[0;1;31;43m████▄▄[0;33m█████[0;1;30;43m▄[0;33m▀[0;1;30m▀[0;33m▄[0;1;30;43m░▐[0;1;30;40m▌[0m  [1;30m▄[0m▄████

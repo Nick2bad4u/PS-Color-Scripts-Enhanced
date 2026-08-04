@@ -1,18 +1,4 @@
-﻿# Converted from: FU-ELD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9610/raw/FU-ELD1.ANS
-# Source Revision: archive-sha256:2f6e3c8c2e64cc8380afc3a639da2793e02ea87790d90b8b4bede4b760040753
-# Source SHA-256: 7ce4a9619010e42bd77d12f5c9926b58fcc4fe0a6289e32c70c7a5c954651043
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FU-ELD1.ANS by Fury (awe lettering); released in awe9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Eldorado
-# SAUCE Author: Fury
-# SAUCE Group: awe lettering
-# SAUCE Date: 19960929
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Eldorado by Fury | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9610-fu-eld1
 
 Write-Host '
 

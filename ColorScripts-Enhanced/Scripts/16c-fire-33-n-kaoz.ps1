@@ -1,18 +1,4 @@
-﻿# Converted from: N-KAOZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-33/raw/N-KAOZ.ANS
-# Source Revision: archive-sha256:b7cee44fd0827cc83a7bc73fa00064e8c1e5d7af79c8b40b6ee489ab68b999de
-# Source SHA-256: f62e40729c64f0ae5d6a620282f1f11d574d79f0c16b56acedd5e1545edd825f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-KAOZ.ANS by nail (fire); released in fire-33 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: kaoz.org
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 19980903
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: kaoz.org by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-33-n-kaoz
 
 Write-Host '
                 [1;35m ▄[0;1;35;47m▀▓▓[0;1;35;45m██▀░░[0;35m█[0;1;33;45m▄[0;35m█▌▄[0m            [1;37m░░   [0m           [31m    [0m   [1;31;41m▐[0;1;31;47m▀[0m [31m▄▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: MR-UCG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-0197/raw/MR-UCG.ANS
-# Source Revision: archive-sha256:08e3420d6f5bf039e22601d044f43006678a0458956ba31375be1cbab8367813
-# Source SHA-256: 0e7067eb3a3793bdb914f0056ad331f45802dce3c490ed262bdaa85fde59f335
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-UCG.ANS by Minotaur (axf-0197); released in axf-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: MR-UCG.ANS by Minotaur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-0197-mr-ucg
 
 Write-Host '
 

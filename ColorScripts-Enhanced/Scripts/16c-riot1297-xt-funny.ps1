@@ -1,13 +1,4 @@
-﻿# Converted from: XT-FUNNY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot1297/raw/XT-FUNNY.ANS
-# Source Revision: archive-sha256:7bd5836fa16624c33d90d7b8d157576c042e1a7f12ab842c8fb178c52f465fc3
-# Source SHA-256: 16229701d693fcfe833baf1e1216adde54cfda03410ab3c2e9fecd39049d1879
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XT-FUNNY.ANS by Exocet (riot1297); released in riot1297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: XT-FUNNY.ANS by Exocet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot1297-xt-funny
 
 Write-Host '
 [1;30m▄▓▄▄▀▀▀▀▀▀▓▄■[0m                         [1;30m■[0m               [1;30m▄▓▄█▀▀▀▀▀▀█▄[0m             [1;30m■[0m

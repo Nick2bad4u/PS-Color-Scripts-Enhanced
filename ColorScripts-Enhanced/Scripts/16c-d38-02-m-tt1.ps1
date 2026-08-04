@@ -1,18 +1,4 @@
-﻿# Converted from: M!-TT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-02/raw/M!-TT1.ANS
-# Source Revision: archive-sha256:4c203a22a273c62e868cc7246cefafb413002203c4d66bfee072b470754a2d40
-# Source SHA-256: 0ab300acf34fd232dc95782543972e0774507001414ead1fb76ac461bbfdc548
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M!-TT1.ANS by Myth (d38-02); released in d38-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Toon Town 1
-# SAUCE Author: Myth
-# SAUCE Group: ?
-# SAUCE Date: 19961118
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Toon Town 1 by Myth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-02-m-tt1
 
 Write-Host '
   [1;30m ▄[0;1;36m▄[0;36m▄[0;1;36m▄[0;36m▄[0;1;30m▄░[0m                                [1;30m▄[0m [1;30m▄[0;36m▄[0;1;36m▄[0;36m▄[0;1;30m▄[0m                          [1;32m  [0m

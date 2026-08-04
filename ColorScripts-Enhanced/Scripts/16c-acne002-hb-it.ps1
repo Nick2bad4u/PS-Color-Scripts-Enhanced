@@ -1,13 +1,4 @@
-﻿# Converted from: HB-IT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acne002/raw/HB-IT.ANS
-# Source Revision: archive-sha256:0516eab8dfdc497d78ee69558b1b3fb72f55dc40f3cd8a67a608229e59359299
-# Source SHA-256: e68360c5369afc1d74b536c17bf5d2c97e6b5da2037990ffd03d139e7e7533c2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HB-IT.ANS by Holybone (acne002); released in acne002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: HB-IT.ANS by Holybone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acne002-hb-it
 
 Write-Host '
 

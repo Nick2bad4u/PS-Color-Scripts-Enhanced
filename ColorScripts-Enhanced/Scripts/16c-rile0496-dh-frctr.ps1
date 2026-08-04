@@ -1,18 +1,4 @@
-﻿# Converted from: DH-FRCTR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile0496/raw/DH-FRCTR.ANS
-# Source Revision: archive-sha256:970ba17ca3338e96740571feaeb5cccb1e503d5151fde5fa1bc67bce49fcb3a4
-# Source SHA-256: 552f82dbdbfca87872909b40a893027dcc9002ead177bbaa86506eaabda984ef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DH-FRCTR.ANS by dark horizon (rile); released in rile0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fRACTURE sitelist header
-# SAUCE Author: dark horizon
-# SAUCE Group: rile
-# SAUCE Date: 19960326
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: fRACTURE sitelist header by dark horizon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile0496-dh-frctr
 
 Write-Host '
                                   [1mw00p [0;33m▄▄[0m         [1;30m|[0m                          [1;30m|[0m

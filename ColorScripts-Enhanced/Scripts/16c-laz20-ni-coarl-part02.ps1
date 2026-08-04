@@ -1,19 +1,4 @@
-﻿# Converted from: NI-COARL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz20/raw/NI-COARL.ANS
-# Source Revision: archive-sha256:d88c3ff3e728f60821a5682143c2fe9e054bc535483ce1618db0798990cb65e8
-# Source SHA-256: e93f95362466fdd4bb2126ebf2a864bc9934747ea1c95b6c7f6d9166b58fbb4c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-COARL.ANS by Nitron (Lazarus); released in laz20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: u/ComeOnArlene Portrait
-# SAUCE Author: Nitron
-# SAUCE Group: Lazarus
-# SAUCE Date: 20250301
-# SAUCE Dimensions: 80x57
-# SAUCE Font: IBM VGA
-# Lines: 30-57
-# Columns: 1-80
+﻿# Artwork: u/ComeOnArlene Portrait by Nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz20-ni-coarl-part02
 
 Write-Host '
 [37m [0;1;30m▓█[0;1;30;47m▐[0;1;30;40m   ▒▓██▒ █ ▐▒[0m  [33m▓[0;1;31;43m▒[0;33m▀[0;1;31;43m▄[0;1;31;40m████▄[0;33m▀[0;1;31;43m▀▀[0;1;31;40m█▌[0;33m▐[0;1;31;43m█▓▀▀▀[0;33m▀▄▀[0;1;31;43m▀▄[0;1;31;40m▄▄[0;1;31;43m▒[0;33m██ ▄▀█████[0;1;31;43m [0;33m███▓  [0;1;30;47m▓[0;1;30;40m  ▒  ██ █[0;1;30;47m█[0;1;30;40m█▒ [0;36m█▓[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: US-3457.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense17j/raw/US-3457.ANS
-# Source Revision: archive-sha256:dd9d1d0c2e9d18c52916147f75b54ea93779080fcdcf859439501b8e3996efb6
-# Source SHA-256: 504ef587d3f83d33a296e2a069811625ddb6bab00125a5ab0041569dbf0951f8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-3457.ANS by Aesthetic + Ansichrist (sense17j); released in sense17j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: US-3457.ANS by Aesthetic + Ansichrist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense17j-us-3457
 
 Write-Host '
  [31m▄[0;30;41m                           [0;31;40m███[0;1;31;41m░░▒[0;31m█▄▄  ▀▀[0;1;31;41m▄▓░[0;31m▓▓▓░  ░▒▓[0;1;31;41m░░[0;31m▀▀▀▄▄▄███▄▄███[0;1;31;41m░[0;31m█ ████[0;1;31;41m░▒▓[0m

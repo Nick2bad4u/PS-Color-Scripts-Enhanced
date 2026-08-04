@@ -1,18 +1,4 @@
-﻿# Converted from: S5-DI1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toxic-02/raw/S5-DI1.ANS
-# Source Revision: archive-sha256:7a41e32586e1dd3a5f33420e6d1fb67b20a2e05f1cdbe057f1893bebcaa0b653
-# Source SHA-256: 99ffb79479c1724818939c9a1b65f253947fc259c4f211a96a42a3eba703dd7b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S5-DI1.ANS by SuicidalSnowman (TOXiC); released in toxic-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: desert illusions
-# SAUCE Author: SuicidalSnowman
-# SAUCE Group: TOXiC
-# SAUCE Date: 19960704
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: desert illusions by SuicidalSnowman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toxic-02-s5-di1
 
 Write-Host '
                    [1;34;47m▓[0;34m▌[0m     [1;34;47m▓[0;1;34;40m█▀   [0;1;34;44m [0;34m▀[0;37m▄█[0;1;37m███████▄[0m▄   [34m▀▀▀███▄▄[0;1;34m▀█▄▄[0;34m▄ █[0;1;34;44m▓[0;1;34;40m█[0;1;34;47m▓[0;1;34;40m█ [0;34m▐█[0;1;34m█▄[0;34m██[0;1;34;44m▀█[0;1;36;44m░[0;1;34;40m▄▄[0m

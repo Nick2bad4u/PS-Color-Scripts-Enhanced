@@ -1,13 +1,4 @@
-﻿# Converted from: KRL-AV02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack01/raw/KRL-AV02.ANS
-# Source Revision: archive-sha256:8e83103ae71882fd1c41790de6f85d83d76c468a2a8cbcfa83968715777bc7e9
-# Source SHA-256: d16d42d16f9fb922c97d8f3b7e68f75c7e8cf20ce50499c71d26d01e1525609c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KRL-AV02.ANS by Mr Krinkle (avpack01); released in avpack01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: KRL-AV02.ANS by Mr Krinkle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack01-krl-av02-part01
 
 Write-Host '
 [45m                                                [0;35m▓▓▓▒▒▒░░░[0;37m__________________[0m

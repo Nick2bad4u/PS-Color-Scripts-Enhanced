@@ -1,20 +1,4 @@
-﻿# Converted from: ZII-QUES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1118/raw/ZII-QUES.ANS
-# Source Revision: archive-sha256:18668a97cce7635dd3e912e13eeb2dc6b239cc1ad417674cad21367b3edefe67
-# Source SHA-256: ae7e95c378a3bea136ea3cb342b27a4b8eeb05903d7a70448ae8f7e5dfe5845d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-QUES.ANS by Zeus II ([no group]); released in mist1118 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Quest For Meaning
-# SAUCE Author: Zeus II
-# SAUCE Group: [no group]
-# SAUCE Date: 20180802
-# SAUCE Dimensions: 80x22
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Drawn for Evoke 2018. Hi!
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: The Quest For Meaning by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1118-zii-ques
 
 Write-Host '
 [1;32;42m█[0;1;37;40m██[0;1;37;47m▓[0;1;37;40m█████████████[0;1;32;42m██▓[0;32m█[0;30m [0;36m▀▀▀[0;1;35;46m▀▀█████[0;36m█[0;1;35;46m▓[0;36m█[0;1;35;46m░[0;36m█▌[0;37m  [0;31m█[0;1;31;41m▒▒▒░░░░[0;31m███▓▓█▀▀[0;37m [0;36m▄██[0;37m [0;31m▐█[0;1;31;41m▒▒▒░[0;31m██▐█[0;1;31;41m░░▒▒▒[0;31m██▀▀[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: PIZZATOE-MOMO-HALLOWEEN_WITCH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1024/raw/PIZZATOE-MOMO-HALLOWEEN_WITCH.ANS
-# Source Revision: archive-sha256:6949840195965f5eb9696cfb423e381432d7ccfa36b66290e336e4608b7c12f8
-# Source SHA-256: 9d3d0ea118c5390f37df1069f49056922021902eb03de1fecb71bb8b5bc5fb44
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PIZZATOE-MOMO-HALLOWEEN_WITCH.ANS by Momo (Pizzatoe); released in mist1024 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Witch
-# SAUCE Author: Momo
-# SAUCE Group: Pizzatoe
-# SAUCE Date: 20241028
-# SAUCE Dimensions: 96x48
-# SAUCE Font: IBM VGA
-# Lines: 1-48
-# Columns: 1-96
+﻿# Artwork: Witch by Momo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1024-pizzatoe-momo-halloween-witch
 
 Write-Host '
 

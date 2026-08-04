@@ -1,13 +1,4 @@
-﻿# Converted from: GTIRCT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0998b/raw/GTIRCT1.ANS
-# Source Revision: archive-sha256:19c53dfc47387efbbd82613dca5be9c93436f5cc68bae78cca35e6d1a766cbaa
-# Source SHA-256: 914f2ffe8c31d8f8bf067c4860bdc770a3e85c2281f4ead4a519801581e39244
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GTIRCT1.ANS by Gti (sac0998b); released in sac0998b and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: GTIRCT1.ANS by Gti | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0998b-gtirct1
 
 Write-Host '
 

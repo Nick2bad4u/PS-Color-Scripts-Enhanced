@@ -1,13 +1,4 @@
-﻿# Converted from: SC-ACID6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1192/raw/SC-ACID6.ANS
-# Source Revision: archive-sha256:8f9edeb4f92b0693833f343328f0977cc472aa2ea98dbae0f830bf926a78711d
-# Source SHA-256: e09c7f244db8b8f5fc02dd6cc536ccb0e80378d15146cce2ee61e0eecdfd855f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-ACID6.ANS by Black Spyrit + Colorblind 802 (acdu1192); released in acdu1192 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: SC-ACID6.ANS by Black Spyrit + Colorblind 802 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1192-sc-acid6
 
 Write-Host '
                              [31m▄▄▄▄▄▄▄[0m

@@ -1,15 +1,4 @@
-﻿# Converted from: US-FUS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0996/raw/US-FUS1.ANS
-# Source Revision: archive-sha256:707c5fe12f8b115f37bf0df62a8bbf61a1e95140c1ed59c95af84379ad4a0dbe
-# Source SHA-256: 39a75ad2eea605fbd78a3cd842141c56ae2efa613368d9f25cdb28f98ac5f09b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FUS1.ANS by Ize (fsn-0996); released in fsn-0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 19960831
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: US-FUS1.ANS by Ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0996-us-fus1
 
 Write-Host '
 [1;32;42m░[0;32m▄█[0;1;32;42m▐▄███▄[0;32m▌ █[0;1;32;42m▄[0;32m▐[0;1;32;42m▐▄[0;32m█ █[0;1;32;42m░[0;32m░ ▐[0;1;32;42m▐█▄▌[0;32m▌▐[0;1;32;42m▐██▀█▄[0;32m█[0;1;32;42m░[0;32m█▀ ▄[0;1;32;42m▄█████[0;32m█ ▀  ▄[0;1;32;42m▄██▄[0;32m▄▄[0;30;42m▓[0;37;40m [0;35;40m▀[0;1;35;45m▒▒▒▓▓▓▓▓▓▓████[0;1;37;40m█[0;1;35;45m█[0;1;37;40m██[0m

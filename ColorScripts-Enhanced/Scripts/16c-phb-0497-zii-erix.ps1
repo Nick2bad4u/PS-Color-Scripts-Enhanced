@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-ERIX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phb-0497/raw/ZII-ERIX.ANS
-# Source Revision: archive-sha256:85681ee98c1ba1a2744730faa07d763080600c62bb25593bcf45c740268afee1
-# Source SHA-256: feac031713e5b8df1a1ee3340e75319a45467e22c4c4ed1fe98c9c8166ed8bb5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-ERIX.ANS by Zeus II (guest artist); released in phb-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: erix makbakon
-# SAUCE Author: Zeus II
-# SAUCE Group: guest artist
-# SAUCE Date: 19970403
-# SAUCE Dimensions: 80x49
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: erix makbakon by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phb-0497-zii-erix
 
 Write-Host '
                         [33m▄▄▄███[0;1;31;43m░░[0;33m██████▀███████▀[0;1;30;43m░▒[0;33m▄▄▄[0m

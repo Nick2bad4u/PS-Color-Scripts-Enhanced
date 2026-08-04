@@ -1,13 +1,4 @@
-﻿# Converted from: TSK-TGC8.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz05apr/raw/TSK-TGC8.ANS
-# Source Revision: archive-sha256:1015a880c3c2e42953df14381eb6ae6e6ec0326b482ac0273175f6e6e7073aa4
-# Source SHA-256: 69790d00d154b3d60ced2e5b7b0f2ecd9d989dcbdeb498b8020a4444717610c9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-TGC8.ANS by The Silent Killer (laz05apr); released in laz05apr and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: TSK-TGC8.ANS by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz05apr-tsk-tgc8
 
 Write-Host '
 

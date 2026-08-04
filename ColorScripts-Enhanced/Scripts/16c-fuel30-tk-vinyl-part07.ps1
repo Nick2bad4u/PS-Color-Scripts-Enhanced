@@ -1,19 +1,4 @@
-﻿# Converted from: tk-vinyl.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel30/raw/tk-vinyl.ans
-# Source Revision: archive-sha256:e3148e82a669aa484baf0738069fbabe44ba2824856e1cb4b05875b86bdd4621
-# Source SHA-256: 7e26a167533e278c308efbada6dc782c6b4da71991e57c4cc11f45894928be45
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tk-vinyl.ans by The Knight (Fuel); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Vinyl
-# SAUCE Author: The Knight
-# SAUCE Group: Fuel
-# SAUCE Date: 20190418
-# SAUCE Dimensions: 80x347
-# SAUCE Font: IBM VGA
-# Lines: 299-347
-# Columns: 1-80
+﻿# Artwork: Vinyl by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel30-tk-vinyl-part07
 
 Write-Host '
 [1;31;40m██████████████████████▌ [0;1;36;40m███[0;1;36;46m▒[0;36m█▀[0;1;31m  [0;33m ████[0;1;31;43m▓[0;1;31;40m████████████████████████████████████[0;1;31;43m▓▓▒▒░░[0m

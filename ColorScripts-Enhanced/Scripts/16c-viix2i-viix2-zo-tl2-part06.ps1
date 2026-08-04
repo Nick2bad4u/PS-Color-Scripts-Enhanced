@@ -1,13 +1,4 @@
-﻿# Converted from: ViiX2 - zO-tl2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/viix2i/raw/ViiX2%20-%20zO-tl2.ans
-# Source Revision: archive-sha256:4ad8832e3cb6df34930900158cb77417df54f910b7c7542137e0a9417a140f70
-# Source SHA-256: 2148104a714b8c5df53d1a5870a5665185ca21931557c3a6ab8cf0f277ff698e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ViiX2 - zO-tl2.ans by Enzo (viix2i); released in viix2i and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 213-254
-# Columns: 1-80
+﻿# Artwork: ViiX2 - zO-tl2.ans by Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-viix2i-viix2-zo-tl2-part06
 
 Write-Host '
 [33m ▒████[0;1;30;43m▄[0;33m▀▄███████████▓███[0;1;30;43m▄[0;1;30;40m▀[0;36m █[0;1;36;46m▀[0;1;36;40m▀▀[0;1;36;46m▀▒[0;36m█  [0;1;30;46m  [0;36m▒[0;1;30m▄[0;1;30;47m▀▀[0;1;30;40m▀▄[0;36m▀█[0;1;30;46m▄[0;36m   [0;1;30m▀[0;36m [0;1;30m▀[0m░░[1;30m ▒[0m [1;30m▄[0;33m█████████████████████[0m

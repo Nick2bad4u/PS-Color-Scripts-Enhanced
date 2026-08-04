@@ -1,13 +1,4 @@
-﻿# Converted from: TEC1ACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0992/raw/TEC1ACID.ANS
-# Source Revision: archive-sha256:38fe3656c7af5c5e25863e8e0613e81f27c4932fc2485b451dab47528613133b
-# Source SHA-256: f210b860197ebb9a7501108c9307642f77201d476d7091682c35d7888648e2b3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TEC1ACID.ANS by Slum Dweller (acdu0992); released in acdu0992 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 43-84
-# Columns: 1-80
+﻿# Artwork: TEC1ACID.ANS by Slum Dweller | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0992-tec1acid-part02
 
 Write-Host '
 [1;30;40m▀ ▀[0;1;30;47m▓▓▓[0;1;30;40m▀▄▄▀▀▀ [0;31m▒▓▓▓█▓▒░▓▓▒░ ░▒▒▒[0;1;30m▓[0;1;30;43m▓░▒▒▓▒[0;43m▒░░░  [0;1;30;43m░░░▒▓▓▓▓▒▒░ [0;43m░░░░ [0;1;30;43m░▒▓▓▒░[0;43m░[0;1;30;43m░ [0;43m░[0;1;30;43m░[0;31m▒▓██▓░[0;37m▐[0;1;30;47m▐[0m

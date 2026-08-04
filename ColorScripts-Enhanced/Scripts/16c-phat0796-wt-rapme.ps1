@@ -1,18 +1,4 @@
-﻿# Converted from: WT-RAPME.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0796/raw/WT-RAPME.ANS
-# Source Revision: archive-sha256:04a04fcb5d269adf0321877c3526fa9d0786e8fdf24aa57ba87f05650955d3e0
-# Source SHA-256: 7af96fb0f438884c088e177e0d16d698c78e011b7a30b598c0f25fcb5a01c25b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WT-RAPME.ANS by Wiktor (phat); released in phat0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Rapme (uiuiuiu)
-# SAUCE Author: Wiktor
-# SAUCE Group: phat
-# SAUCE Date: 19960701
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Rapme (uiuiuiu) by Wiktor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0796-wt-rapme
 
 Write-Host '
 [1;30;47m░[0;30;47m.[0;37;40m██[0;30;47m.[0;37;40m█▓▄▄▄ [0;1;30;40m▀[0m [1m ▀▀[0m [1;33m▄[0;1;37m■▀[0;1;37;47m▓[0;1;37;40m▀[0m [1;30m■[0m [1m■[0m [1;30m▀[0m [1;47m▒[0m  [1;30m▀[0m [1;30m▓[0m [32m■ ▄[0m   [1;31;41m█[0m [32m▀[0;37m [0;1;31;41m▒[0m [1;30m░[0;32m▄[0;37m [0;1;37m [0m  [1;31;41m▓[0m  [32m■[0;37m  [0;33m [0;1;30m▄[0m [1;31;41m▓[0m  [1;31;41m▓[0m [1;30m■[0m   [1;31;41m▒[0m  [32m▄[0;37m  [0;1;32m▄[0m

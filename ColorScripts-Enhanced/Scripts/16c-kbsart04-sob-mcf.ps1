@@ -1,17 +1,4 @@
-﻿# Converted from: SOB-MCF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/kbsart04/raw/SOB-MCF.ANS
-# Source Revision: archive-sha256:b56eb6daaf367cbf9682fef251319323b3d3bc4ad39e35398f3d3dd318332e76
-# Source SHA-256: 2c49090f3c15c8534449c19853bf8bf66c373a5d31addc4142b30f04f772947d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SOB-MCF.ANS by The Somberlain (Kibosh); released in kbsart04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: The Somberlain
-# SAUCE Group: Kibosh
-# SAUCE Date: 19991224
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: SOB-MCF.ANS by The Somberlain | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-kbsart04-sob-mcf
 
 Write-Host '
 [31m  [0m      [31m                                 [0;34m▀▄[0;31m    [0;36m▬[0;31m                                [0m

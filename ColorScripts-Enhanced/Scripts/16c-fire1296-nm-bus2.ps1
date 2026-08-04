@@ -1,17 +1,4 @@
-﻿# Converted from: NM-BUS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1296/raw/NM-BUS2.ANS
-# Source Revision: archive-sha256:30782fcfc860946575894eb2b18cd82015430d9b2fe92875d1416c9b2489f009
-# Source SHA-256: 828676a78fbdb812157d684741bccd783a7785f4396acc611f5896e865a40c61
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NM-BUS2.ANS by numb (fire1296); released in fire1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: let each smile cover your heart
-# SAUCE Author: numb
-# SAUCE Date: 19961211
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: let each smile cover your heart by numb | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1296-nm-bus2
 
 Write-Host '
 [1;34m░░░░░░░░░░░░[0;34m░░[0m                                                           [36m  [0;37m [0;34m░[0;1;34;41m▓[0;1;34;46m▓[0m

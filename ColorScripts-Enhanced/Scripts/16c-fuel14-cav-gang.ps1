@@ -1,18 +1,4 @@
-﻿# Converted from: CAV-GANG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel14/raw/CAV-GANG.ANS
-# Source Revision: archive-sha256:5ee61a0e94a8eed583658335c026a1a037023d44b54da693bbed2c0844c1a5d9
-# Source SHA-256: 5d23a14db86095eba7ab1f06938a49e706200761d30befb2374385e70faf691c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CAV-GANG.ANS by caviar (fuel); released in fuel14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: overdressed gangster
-# SAUCE Author: caviar
-# SAUCE Group: fuel
-# SAUCE Date: 19970521
-# SAUCE Dimensions: 80x25
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: overdressed gangster by caviar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel14-cav-gang
 
 Write-Host '
   [35m░[0;30;45m▓[0;35;40m░[0;30;45m▓▓[0m                 [34;40m [0m

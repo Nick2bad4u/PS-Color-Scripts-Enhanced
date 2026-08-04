@@ -1,13 +1,4 @@
-﻿# Converted from: IN-AREA1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9412/raw/IN-AREA1.ICE
-# Source Revision: archive-sha256:206fb790f3728acfca84972248fec43bde6e85e65881b18182d8ae9012f98785
-# Source SHA-256: f2aaec1c08c4f36ff4e4658b7f1da0b7d3199f02c718425d4b81a917aec8073e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IN-AREA1.ICE by Incubus (ice-9412); released in ice-9412 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: IN-AREA1.ICE by Incubus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9412-in-area1-part01
 
 Write-Host '
 

@@ -1,19 +1,4 @@
-﻿# Converted from: GL-MRSH2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dtd03/raw/GL-MRSH2.ANS
-# Source Revision: archive-sha256:12192704d4216d2aefe0d36b2c5bcb5e5157eafacf7ca0b06c6a5389afde918d
-# Source SHA-256: cfc373a6cf4c2011827c7db7ef8bf9bdc3958b0f9647a4660caf39b4b89a4d03
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GL-MRSH2.ANS by GLANDYTH-A-KRAE (DEVOTiON TO DARKNESS); released in dtd03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 'MiRiSHCA#2'
-# SAUCE Author: GLANDYTH-A-KRAE
-# SAUCE Group: DEVOTiON TO DARKNESS
-# SAUCE Date: 19970709
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: for my board.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: 'MiRiSHCA#2' by GLANDYTH-A-KRAE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dtd03-gl-mrsh2
 
 Write-Host '
 [1;31;41m░[0;31m█▓▓███[0;1;31;41m▄▄█▓▀▀░▄█[0;1;31;47m▓[0;1;31;41m▌[0;31m▌░     [0m          [33m▐▓██████████████████▓███▓▓▄░ [0;1;30m▀▓░ [0;33m░▀▒▄  [0;1;30m░░ [0;33m▀▓▓[0m

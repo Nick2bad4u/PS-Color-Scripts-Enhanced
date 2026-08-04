@@ -1,13 +1,4 @@
-﻿# Converted from: TT-CSC.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-0493/raw/TT-CSC.ICE
-# Source Revision: archive-sha256:1f0165f69f3f1941ca248f15661795ff1f2d94f1528ddd69ffda9e31c5ee2162
-# Source SHA-256: 5a42ebed5fb8a2b5a2570d35e16948fd91d5b369bf90bb36d4f40a10d57a1135
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TT-CSC.ICE by Tempus Thales (ice-0493); released in ice-0493 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: TT-CSC.ICE by Tempus Thales | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-0493-tt-csc-part01
 
 Write-Host '
 

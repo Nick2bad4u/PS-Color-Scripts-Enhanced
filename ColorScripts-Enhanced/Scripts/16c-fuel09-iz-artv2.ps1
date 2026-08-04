@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-ARTV2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel09/raw/IZ-ARTV2.ANS
-# Source Revision: archive-sha256:cae1fe00a9cd349fa6bb692920586d60c6acc70987b088220f071822b0b1e1ed
-# Source SHA-256: 4e504cda842a42eb18d90f0bf984c92367612c96b767b4283c5629fea4ff5abf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-ARTV2.ANS by ize (fuel); released in fuel09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: artistic vibe
-# SAUCE Author: ize
-# SAUCE Group: fuel
-# SAUCE Date: 19961031
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: artistic vibe by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel09-iz-artv2
 
 Write-Host '
 

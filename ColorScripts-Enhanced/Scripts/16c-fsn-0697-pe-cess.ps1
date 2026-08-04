@@ -1,13 +1,4 @@
-﻿# Converted from: PE!CESS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0697/raw/PE!CESS.ANS
-# Source Revision: archive-sha256:4afa384dbe1edb8568d2d9e2fda5954485e730ef7ea56b2b5212bd5bbae30f83
-# Source SHA-256: e14734632748642bf42848bc0d3430406f7fae2490b7eb08710c58857c39b20e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PE!CESS.ANS by Phonyeye (fsn-0697); released in fsn-0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: PE!CESS.ANS by Phonyeye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0697-pe-cess
 
 Write-Host '
   [36m        [0m                [36m░░[0;30;46m▓[0m                                    [35;40m  [0;1;35;40m  [0;35m  [0m

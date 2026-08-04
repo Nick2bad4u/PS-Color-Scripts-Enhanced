@@ -1,20 +1,4 @@
-﻿# Converted from: k1-laz16.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz16/raw/k1-laz16.ans
-# Source Revision: archive-sha256:b093dd3cb06bf783d59a9df3724c51f9a41f686cd4fd545c920ada008d959f7a
-# Source SHA-256: eb727cedd046f6b8c6348d01a09fd19ccba56af73a36346d18775145435eb3b3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: k1-laz16.ans by knocturnal (lazarus); released in laz16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Lazarus 16
-# SAUCE Author: knocturnal
-# SAUCE Group: lazarus
-# SAUCE Date: 20221006
-# SAUCE Dimensions: 80x69
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Luke 16:31
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Lazarus 16 by knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz16-k1-laz16-part01
 
 Write-Host '
 [37;40m▓░▀ ▀▀■▀░  [0;1;30;40m▀▀[0m▀[1;30m▀▀[0m░░[1;30m▀[0m▀▓▀[1m▀[0m▀ ▀■▀[1;30m▀[0m░[1;30m▀[0m▀▀▀▀ ▀▀▀▀▀▀▀▀■▀[1m▀[0m ▀▀▀▀░▀[1;30m▀[0m▀[1m▀▀[0m▀▀ ▀▀░▀■[1m▀[0m░▀ ▀▀▀ ▀[1m▀[0m ▀▓

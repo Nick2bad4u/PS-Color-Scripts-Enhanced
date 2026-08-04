@@ -1,18 +1,4 @@
-﻿# Converted from: PC-TREAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense09/raw/PC-TREAS.ANS
-# Source Revision: archive-sha256:b3e3029d8f7c1c608f2835055baa2116210e782109ea7dc0a1af3ca3d050e5b9
-# Source SHA-256: 87d91c43c669ae68b3c2d0e8746e7a121dddc067710d3f170302618ed5d92286
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-TREAS.ANS by Proctologist (SeNsE); released in sense09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Treason
-# SAUCE Author: Proctologist
-# SAUCE Group: SeNsE
-# SAUCE Date: 19980514
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Treason by Proctologist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense09-pc-treas
 
 Write-Host '
                                 [1;30m.  [0;35m∙''[0m                  [35m_[0m

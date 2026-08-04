@@ -1,16 +1,4 @@
-﻿# Converted from: tcf-neural-joint-01.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_block_n_roll/raw/tcf-neural-joint-01.ans
-# Source Revision: archive-sha256:7fb236dbe697aa7c8078c3dba58eee322aac93be4dc7fe416e0fcb955a29d4fb
-# Source SHA-256: 0dbfebb147ecc5b85395e8b6a46351346a8f81016007e816c9e639c860170577
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tcf-neural-joint-01.ans by Tcf (blocktronics_block_n_roll); released in blocktronics_block_n_roll and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 20160409
-# SAUCE Dimensions: 160x81
-# SAUCE Font: IBM VGA
-# Lines: 1-32
-# Columns: 81-160
+﻿# Artwork: tcf-neural-joint-01.ans by Tcf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-block-n-roll-tcf-neural-joint-01-panel02-part01
 
 Write-Host '
        [35;40m░█▄[0m               [35;40m▄▄▄[0;1;36;45m░░░[0m      [35m▄[0;1;36;45m░░[0;35m▒▒▒▀▀▀▀ ░░░░░   ░░[0;1;36m▒▒▒▒   ░░░ [0;1;31m█[0m

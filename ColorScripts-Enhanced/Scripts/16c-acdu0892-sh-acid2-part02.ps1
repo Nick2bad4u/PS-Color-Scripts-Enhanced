@@ -1,13 +1,4 @@
-﻿# Converted from: SH-ACID2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0892/raw/SH-ACID2.ANS
-# Source Revision: archive-sha256:14bcca9d3edaab7b8929bb1c3df270abeebca1720c862cdfff0859ed6d69dd7d
-# Source SHA-256: 98100c7a0c818693e09c873250c9f5f3b74d7a51e27bb1e3fa2bc1cda7321106
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SH-ACID2.ANS by Tracer (acdu0892); released in acdu0892 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 36-79
-# Columns: 1-80
+﻿# Artwork: SH-ACID2.ANS by Tracer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0892-sh-acid2-part02
 
 Write-Host '
              [31m▄ ▀[0m

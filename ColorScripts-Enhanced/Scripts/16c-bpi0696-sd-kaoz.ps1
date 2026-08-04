@@ -1,18 +1,4 @@
-﻿# Converted from: SD!KAOZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bpi0696/raw/SD!KAOZ.ANS
-# Source Revision: archive-sha256:24ba7f715feb33b38dd9d80af37fadd76c049ffae04949fb7d26267bd16ca3cf
-# Source SHA-256: f25e426275c66843b5d25981ea4e07266d77723762818fb6eadf7e4e8b0a595c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD!KAOZ.ANS by sad (black pyramid! inc.); released in bpi0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: kaoz logo
-# SAUCE Author: sad
-# SAUCE Group: black pyramid! inc.
-# SAUCE Date: 19960515
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: kaoz logo by sad | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bpi0696-sd-kaoz
 
 Write-Host '
                                        [33m░[0m

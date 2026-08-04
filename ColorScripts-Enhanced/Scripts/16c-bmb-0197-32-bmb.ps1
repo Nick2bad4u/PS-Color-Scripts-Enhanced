@@ -1,18 +1,4 @@
-﻿# Converted from: 32-BMB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0197/raw/32-BMB.ANS
-# Source Revision: archive-sha256:331ffa2c0b41c075aec836339cfb4b33b33b171a17da17bd721952cf3966c823
-# Source SHA-256: c665d7184dc05937a02178684daf26c8fccefb60589e9a384e817da9c3999dbd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 32-BMB.ANS by ezy (bamboosh); released in bmb-0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: bamboosh logo
-# SAUCE Author: ezy
-# SAUCE Group: bamboosh
-# SAUCE Date: 19961217
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: bamboosh logo by ezy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0197-32-bmb
 
 Write-Host '
  [1;30m▒[0m            [1;30m▓▓[0m        [1;30m▒░[0m                              [1;30m▒[0m    [1;30m▓▒[0m [1;30m░[0m

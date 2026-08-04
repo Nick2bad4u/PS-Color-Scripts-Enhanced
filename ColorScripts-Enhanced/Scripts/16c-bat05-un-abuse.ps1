@@ -1,18 +1,4 @@
-﻿# Converted from: UN-ABUSE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bat05/raw/UN-ABUSE.ANS
-# Source Revision: archive-sha256:c1082e0417753715d0b89831e0230f9ac3baf3aab6c8a1f382615ebce2ab409a
-# Source SHA-256: 12b522facf9d8f42292a7c062c8817656cfd2480dc99a59fef60877b6aad02d7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UN-ABUSE.ANS by [unhOly] (bad attitude); released in bat05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Abuse Logo..
-# SAUCE Author: [unhOly]
-# SAUCE Group: bad attitude
-# SAUCE Date: 19970116
-# SAUCE Dimensions: 80x13
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: Abuse Logo.. by [unhOly] | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bat05-un-abuse
 
 Write-Host '
 

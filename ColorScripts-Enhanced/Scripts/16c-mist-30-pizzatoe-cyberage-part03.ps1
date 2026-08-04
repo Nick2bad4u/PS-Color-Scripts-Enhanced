@@ -1,20 +1,4 @@
-﻿# Converted from: PIZZATOE-CYBERAGE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/PIZZATOE-CYBERAGE.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: 09a244e21132a2da23a7b19eba554f50f7c5f0a5e89442431613b13560750bba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PIZZATOE-CYBERAGE.ANS by Jackey + Amy + Momo (Pizzatoe); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: CyberAge
-# SAUCE Author: Amy Momo Jackey
-# SAUCE Group: Pizzatoe
-# SAUCE Date: 20241123
-# SAUCE Dimensions: 80x430
-# SAUCE Font: IBM VGA
-# SAUCE Comments: The Code of Time | In the depths of fractured time, | Morse taps secrets, soft, sublime. | Base64 whispers, a hidden key, | Unlocking paths through reality. | Binary pulses, 0s and 1s, | Hex codes glow as darkness runs. | Deflate the worlds, let spaces bend, | Dimensions fold and twist, transcend. | Where ANSI and Dao embrace their grace, | In digital winds, they find their place. | Through rifts they journey, hand in hand, | To heal the cracks in fractured land.
-# Lines: 101-150
-# Columns: 1-80
+﻿# Artwork: CyberAge by Jackey + Amy + Momo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-pizzatoe-cyberage-part03
 
 Write-Host '
 [1;32;42m▄[0;1;32;40m███[0;32m█[0;1;32m███[0;32m█[0;36m██[0;32m▒▒▒▒▒▒[0;37m [0;1;30m█[0;1;30;47m▓▓░░░[0;1;30;40m█[0;1;30;47m▓▓▒▒▒▒▒░░░░[0;1;37;47m▄[0;1;30;47m░░░░░░░▒▒▓▓▓▓[0;1;33;43m░░░░░[0;36m▓[0;32m░░░░░░░░▒[0;37m [0;33m░░██[0;37m [0;1;33;43m▒▒▒▒▒▒[0;33m▓▓▓[0m

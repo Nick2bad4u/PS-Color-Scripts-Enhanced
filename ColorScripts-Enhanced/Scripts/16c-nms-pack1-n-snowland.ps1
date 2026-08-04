@@ -1,20 +1,4 @@
-﻿# Converted from: n(_snowland.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nms_pack1/raw/n(_snowland.ans
-# Source Revision: archive-sha256:f99a1419a85f2107a1ef905f45d33edf79d1a955e17b541807601af9adb4edeb
-# Source SHA-256: 26fe070e1625ce294cd9031c188a488e8ddc93230f844ef94f32077136f7c32e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: n(_snowland.ans by nemesulku (acid rain); released in nms_pack1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Snow land logo
-# SAUCE Author: nemesulku
-# SAUCE Group: acid rain
-# SAUCE Date: 19980329
-# SAUCE Dimensions: 80x21
-# SAUCE Font: IBM VGA
-# SAUCE Comments: logo for a bbs called Snow Land.. probably. - bracket
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Snow land logo by nemesulku | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nms-pack1-n-snowland
 
 Write-Host '
 [37;40m    ▄[0m         [1;37;40m■[0m    [1m▀[0m  ■      [1m ▀[0m     ▀       ▄    ▄    [1m▀[0m    [1m▀[0m   ▄   [1m▀[0m        [1m■[0m

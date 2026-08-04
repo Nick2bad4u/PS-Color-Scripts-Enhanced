@@ -1,18 +1,4 @@
-﻿# Converted from: S3-RSLGM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9701/raw/S3-RSLGM.ANS
-# Source Revision: archive-sha256:45d6a082bca05ad193b510335e91b0bec312e4835ff5735e0eb40fe62d0e1180
-# Source SHA-256: 8428f95b3bcc1b1ac5f0962ac507e6f7893c20555f5e8c69bb58e5d97fd5de8b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S3-RSLGM.ANS by Suicide Solution (Maiden Brazil); released in mdn-9701 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: rush logo
-# SAUCE Author: Suicide Solution
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19961218
-# SAUCE Dimensions: 80x15
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: rush logo by Suicide Solution | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9701-s3-rslgm
 
 Write-Host '
 

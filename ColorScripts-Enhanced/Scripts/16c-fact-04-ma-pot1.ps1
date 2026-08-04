@@ -1,18 +1,4 @@
-﻿# Converted from: MA-POT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fact-04/raw/MA-POT1.ANS
-# Source Revision: archive-sha256:ede22877181bcaee0ecbada01269c2c7bf675cbd1fe3cc75db17ea24e9fac1f9
-# Source SHA-256: 6658cd1fa5bb7ade0720b887ac007f478dddc8a8529825480ce31464a1243f2d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MA-POT1.ANS by mARShMAllOw (fACt!); released in fact-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: phrehenetic outworld traderS reQ.o1
-# SAUCE Author: mARShMAllOw
-# SAUCE Group: fACt!
-# SAUCE Date: 19960612
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: phrehenetic outworld traderS reQ.o1 by mARShMAllOw | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fact-04-ma-pot1
 
 Write-Host '
 

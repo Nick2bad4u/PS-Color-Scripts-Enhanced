@@ -1,13 +1,4 @@
-﻿# Converted from: MALF-02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst-04/raw/MALF-02.ANS
-# Source Revision: archive-sha256:543ebaa9dc913db4fd846262b24c3af0e544188904d03573cc23d78e8ec876b3
-# Source SHA-256: 4ea27cc4a4cdbf298c82241b273ea43771adb8d1c56ba2cd73d2ba243b2410c5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MALF-02.ANS by Malformed Earthborn (twst-04); released in twst-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: MALF-02.ANS by Malformed Earthborn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst-04-malf-02
 
 Write-Host '
 [36m▌▄ ▄▌▄  ▄ [0;1;30m░[0;36m▄▐ [0;1;36;46m░[0;36m▄▌▄ ▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓  ▄▌[0;1;36;46m░[0;36m ▄█ ▄  ▄  ▄ ▄▌ ▄ [0;1;30m░[0;36m▐ ▄ ▐▌█ █[0m

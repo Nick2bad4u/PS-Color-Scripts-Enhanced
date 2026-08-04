@@ -1,13 +1,4 @@
-﻿# Converted from: SMI-B24.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr024/raw/SMI-B24.ANS
-# Source Revision: archive-sha256:855de8b4a9850b66f5f8d6f2bd0f31e9a54528b41af721440ea523a47537ecac
-# Source SHA-256: b5f91b5ee6c9b21ee1942dd9a7ff66899e8dda9f3c4cda6054c4620b4339e865
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMI-B24.ANS by Samurai (blndr024); released in blndr024 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: SMI-B24.ANS by Samurai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr024-smi-b24
 
 Write-Host '
                         [31m▄[0;1;31m▄[0m

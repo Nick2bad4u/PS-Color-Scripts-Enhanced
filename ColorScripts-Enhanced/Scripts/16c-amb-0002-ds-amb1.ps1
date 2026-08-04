@@ -1,17 +1,4 @@
-﻿# Converted from: DS-AMB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amb-0002/raw/DS-AMB1.ANS
-# Source Revision: archive-sha256:ddf2bfb6c349501ad0002133992d1d3c9602291731a9f4cef0d5ef9af30b761f
-# Source SHA-256: d9531fa065105c0e1800a47c199a5102f23842e24498d6519475481d86192c33
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-AMB1.ANS by DarkSide (AMBUSH Productions); released in amb-0002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: AMBUSH Logo #1
-# SAUCE Author: DarkSide
-# SAUCE Group: AMBUSH Productions
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: AMBUSH Logo #1 by DarkSide | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amb-0002-ds-amb1
 
 Write-Host '
 [33m[0m[33m[0m[1;30m[0m[33m..,ssS$$Ss.            .sS$$$$$$$$$$Ss.[0m       [33m.[0m                       [33m..[0m

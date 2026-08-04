@@ -1,13 +1,4 @@
-﻿# Converted from: Frx-hp01.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac-19/raw/Frx-hp01.ans
-# Source Revision: archive-sha256:51c7221029f07f769069d9cb2c191e605293ae2ae28f8d65983c6469a9d5376d
-# Source SHA-256: b89a32d42a12faa1f125cb1cdcce51639c039cd76b905f1810ffa9f7278c2b8c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Frx-hp01.ans by Ferrex (sac-19); released in sac-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Frx-hp01.ans by Ferrex | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac-19-frx-hp01
 
 Write-Host '
 [1m█▀▀[0;1;36m▀▀[0;34m [0;1;36m▀[0;1;34m▀▀▀▀▀[0;34m [0;1;34m▀▀▀▀▀[0;1;37m [0;34m▀[0;1;34m▀▀[0;34m▀[0;1;34m▀[0;34m▀▀▀▀▀[0;1;37m [0;34m▀▀▀▀▀▀▀▀[0;1;37m [0;34m▀▀[0;1;37m [0;34m▀[0;1;37m [0;34m▀[0;1;37m      [0;34m▀[0;1;37m               [0;34m [0;1;37m            [0m

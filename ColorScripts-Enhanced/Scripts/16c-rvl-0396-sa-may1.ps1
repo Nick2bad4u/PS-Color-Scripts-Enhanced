@@ -1,18 +1,4 @@
-﻿# Converted from: SA-MAY1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rvl-0396/raw/SA-MAY1.ANS
-# Source Revision: archive-sha256:6ba51b3d0dc168dac68fc2016875b770d4335425f90ca1ed6abc12b1946ac90a
-# Source SHA-256: 1ba11658da999b4e3099812e4c955290d1147d0bc3fd131199d4f171aa09da8d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SA-MAY1.ANS by Stone Amnesia (RiVAL); released in rvl-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Maytrickz
-# SAUCE Author: Stone Amnesia
-# SAUCE Group: RiVAL
-# SAUCE Date: 19960302
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Maytrickz by Stone Amnesia | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rvl-0396-sa-may1
 
 Write-Host '
 [34m████▀[0;37m  [0;34m▄[0;37m  [0;1;35msa[0m   [1;31m  [0;1;31;47m███[0;1;31;40m██ ▀█▀[0;1;31;43m▓[0;33m▄[0;1;31;43m▓▓[0;33m▌    [0;37m [0;1;31m ▄[0;1;31;43m▓█[0;1;31;40m█▄▄[0;34m▀▀▀▀[0;1;34;44m▓▒░▒▓[0;34m▄  ▓[0;1;34;44m░▒░[0;34m▀▒▄[0m             [34m  [0m

@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-9LD3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-36/raw/ZIR-9LD3.ANS
-# Source Revision: archive-sha256:43e7d46e56dc094cf8502b299dcd82ee875dea0a064a36248f4e6c844180fd25
-# Source SHA-256: 41e3a6eaa1dfb94feb4032928f1b715f2d90482b605835d7be350c8ae55008ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-9LD3.ANS by zir (FiRE); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: y4[0]el1d
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20230303
-# SAUCE Dimensions: 80x137
-# SAUCE Font: IBM VGA
-# SAUCE Comments: ik wiglts this muntl.
-# Lines: 101-137
-# Columns: 1-80
+﻿# Artwork: y4[0]el1d by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-36-zir-9ld3-part03
 
 Write-Host '
   [34m▀[0;1;34;44m▀[0;1;34;47m▄▒█[0;1;34;40m▄[0m         [35m▐[0;1;31;45m░░░░[0;35m▀▀▀▀▀▀ ▄ █[0;1;31;45m▒▓[0;1;31;40m█[0;1;31;47m▒▒░[0;1;31;40m█[0;1;31;45m▌▐[0;1;31;47m▒░░▒▒[0;1;31;45m▓░[0;35m▓[0;37m [0;35m▄▄▄  ▀▀▀▀▀▀[0;1;31;45m░░[0;35m▌[0m        [1;34m▄[0;1;34;47m▀▄▄[0;1;34;44m▓[0;34m▀[0m

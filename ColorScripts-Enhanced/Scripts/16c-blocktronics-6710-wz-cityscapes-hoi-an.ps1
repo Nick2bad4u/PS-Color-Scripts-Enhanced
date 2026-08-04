@@ -1,19 +1,4 @@
-﻿# Converted from: WZ - Cityscapes - Hoi An.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-6710/raw/WZ%20-%20Cityscapes%20-%20Hoi%20An.ans
-# Source Revision: archive-sha256:65fe9e2a2e2016f30e4b0141be2d1472e9b7cc814d922f9663e0d0a04142d70a
-# Source SHA-256: 1c702d8e7ebdd9c9ba039de09c1d7b055f470b70ef428fc251a0ea6dac4b3ff0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WZ - Cityscapes - Hoi An.ans by Whazzit (Blocktronics); released in blocktronics-6710 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Cityscapes - Hoi An Vietnam
-# SAUCE Author: Whazzit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20180726
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Cityscapes - Hoi An Vietnam by Whazzit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-6710-wz-cityscapes-hoi-an
 
 Write-Host '
 [1;36;46m▒▒▒▒[0;30;46m▄▄▄▄[0;1;33;40m▄▄▄▄█████[0m [1;33;43m▓[0;1;33;40m██[0;1;33;47m▄ [0;1;30;40m▄[0;1;30;47m▄[0m▄[30;46m▄[0;1;36;46m▒▀▀▀▀▀▀▒▒▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░░░     [0m

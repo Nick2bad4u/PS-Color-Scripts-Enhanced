@@ -1,18 +1,4 @@
-﻿# Converted from: FT-FOC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root05/raw/FT-FOC1.ANS
-# Source Revision: raw-sha256:400ccacedde971bbc201bda3b083bb6f645eaa9f55cfff2fceaf6a63713764c8
-# Source SHA-256: 400ccacedde971bbc201bda3b083bb6f645eaa9f55cfff2fceaf6a63713764c8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FT-FOC1.ANS by Flight (Root); released in root05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Focus Emag interface
-# SAUCE Author: Flight
-# SAUCE Group: Root
-# SAUCE Date: 19970717
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Focus Emag interface by Flight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root05-ft-foc1
 
 Write-Host '
 [45m▓▓[0;40m██████████[0;1;31;47m░▓[0;1;31;40m▀▀▀▀ [0;31m▀  ░░    [0;1;37m▀   ▄[0m     [31m▀▀▀▀████▄▄▄▄[0m      [31m▀▀▀[0;1;37;41m░░[0;31m███████▀ [0;1;31m▄■[0m     [31m▀▓[0m

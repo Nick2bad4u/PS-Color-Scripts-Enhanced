@@ -1,0 +1,434 @@
+{
+    "analyzer": {
+        "script": "scripts/Analyze-ColorScripts.mjs",
+        "blankRun": 3,
+        "maxRows": 50,
+        "tinyTailRows": 10,
+        "signals": [
+            "extreme-leading-blank-run",
+            "orphaned-tail-after-blank-run"
+        ]
+    },
+    "decisions": [
+        {
+            "script": "16c-acdu0193-dsocacd6-part01",
+            "signal": "extreme-leading-blank-run",
+            "disposition": "retain-authentic-composition",
+            "confidence": "high",
+            "scriptSha256": "e01435ab9b2a6cbfe45b54198c19a762020813bdbd80d872e351a192f03becd5",
+            "sourceUrl": "https://16colo.rs/pack/acdu0193/raw/DSOCACD6.ANS",
+            "previewUrl": "https://16colo.rs/pack/acdu0193/x1/DSOCACD6.ANS.png",
+            "sourceRows": "1-48",
+            "sourceColumns": "1-80",
+            "observedComposition": "Source-authored ansimation canvas before the full-width mountain and skier scene.",
+            "metrics": {
+                "leadingBlankRows": 17,
+                "totalRows": 48
+            },
+            "reviewRationale": "The leading space is source-authored and precedes a substantial pictorial field. The geometry signal alone is not evidence of a bad split, and trimming would alter intentional negative space."
+        },
+        {
+            "script": "16c-acdu0494-vs-fed1-part01",
+            "signal": "extreme-leading-blank-run",
+            "disposition": "retain-authentic-composition",
+            "confidence": "high",
+            "scriptSha256": "f1b08bd34b4523be3aad277037637dc05a2eea3d3c17d8e6a63d6622024b0cb0",
+            "sourceUrl": "https://16colo.rs/pack/acdu0494/raw/VS-FED1.ANS",
+            "previewUrl": "https://16colo.rs/pack/acdu0494/x1/VS-FED1.ANS.png",
+            "sourceRows": "1-47",
+            "sourceColumns": "1-80",
+            "observedComposition": "Sparse aligned highlights emerge from the upper negative space into the Federation Network composition.",
+            "metrics": {
+                "leadingBlankRows": 21,
+                "totalRows": 47
+            },
+            "reviewRationale": "The leading space is source-authored and precedes a substantial pictorial field. The geometry signal alone is not evidence of a bad split, and trimming would alter intentional negative space."
+        },
+        {
+            "script": "16c-blocktronics-1980-mr-blob",
+            "signal": "extreme-leading-blank-run",
+            "disposition": "retain-authentic-composition",
+            "confidence": "high",
+            "scriptSha256": "d5766c6b964b26466172cddee3ac7d5816edaa6d2db8c48e7e1e28121839626f",
+            "sourceUrl": "https://16colo.rs/pack/blocktronics_1980/raw/Mr-Blob.ans",
+            "previewUrl": "https://16colo.rs/pack/blocktronics_1980/x1/Mr-Blob.ans.png",
+            "sourceRows": "1-45",
+            "sourceColumns": "1-80",
+            "observedComposition": "The floating logo and eyeball illustration deliberately enter from the lower portion of the canvas.",
+            "metrics": {
+                "leadingBlankRows": 15,
+                "totalRows": 44
+            },
+            "reviewRationale": "The leading space is source-authored and precedes a substantial pictorial field. The geometry signal alone is not evidence of a bad split, and trimming would alter intentional negative space."
+        },
+        {
+            "script": "16c-blocktronics-blockfury-ar-thnkr-part01",
+            "signal": "extreme-leading-blank-run",
+            "disposition": "retain-authentic-composition",
+            "confidence": "high",
+            "scriptSha256": "2bd9977795634b04e93cbaa949625fb78a101ff7c7dd89b304881ba76e322d19",
+            "sourceUrl": "https://16colo.rs/pack/blocktronics_blockfury/raw/ar-thnkr.ans",
+            "previewUrl": "https://16colo.rs/pack/blocktronics_blockfury/x1/ar-thnkr.ans.png",
+            "sourceRows": "1-39",
+            "sourceColumns": "1-80",
+            "observedComposition": "A low blue horizon and the subsequent illustrated field use the upper canvas as intentional negative space.",
+            "metrics": {
+                "leadingBlankRows": 22,
+                "totalRows": 39
+            },
+            "reviewRationale": "The leading space is source-authored and precedes a substantial pictorial field. The geometry signal alone is not evidence of a bad split, and trimming would alter intentional negative space."
+        },
+        {
+            "script": "16c-blocktronics-blocky-horror-us-fzdlr-part02",
+            "signal": "extreme-leading-blank-run",
+            "disposition": "retain-authentic-composition",
+            "confidence": "high",
+            "scriptSha256": "00b29174400852d8d750e88df74cd8fc36a238c942ff24489326e01c4a335f5c",
+            "sourceUrl": "https://16colo.rs/pack/blocktronics-blocky-horror/raw/us-fzdlr.ans",
+            "previewUrl": "https://16colo.rs/pack/blocktronics-blocky-horror/x1/us-fzdlr.ans.png",
+            "sourceRows": "50-98",
+            "sourceColumns": "1-80",
+            "observedComposition": "The reviewed source boundary preserves the vertical placement of the green illustrated panel below the upper canvas.",
+            "metrics": {
+                "leadingBlankRows": 22,
+                "totalRows": 49
+            },
+            "reviewRationale": "The leading space is source-authored and precedes a substantial pictorial field. The geometry signal alone is not evidence of a bad split, and trimming would alter intentional negative space."
+        },
+        {
+            "script": "16c-blocktronics-miracle-on-67th-street-misfit-snowflake-part01",
+            "signal": "extreme-leading-blank-run",
+            "disposition": "retain-authentic-composition",
+            "confidence": "high",
+            "scriptSha256": "6eecbca83405e2cd9593d3e450ff42fd9a382af6c05374b338bede0961dda318",
+            "sourceUrl": "https://16colo.rs/pack/blocktronics_miracle_on_67th_street/raw/misfit-snowflake.ans",
+            "previewUrl": "https://16colo.rs/pack/blocktronics_miracle_on_67th_street/x1/misfit-snowflake.ans.png",
+            "sourceRows": "1-43",
+            "sourceColumns": "1-80",
+            "observedComposition": "The centered snowflake and surrounding blue fragments are intentionally placed near the bottom of the source canvas.",
+            "metrics": {
+                "leadingBlankRows": 26,
+                "totalRows": 43
+            },
+            "reviewRationale": "The leading space is source-authored and precedes a substantial pictorial field. The geometry signal alone is not evidence of a bad split, and trimming would alter intentional negative space."
+        },
+        {
+            "script": "16c-ilsn0993-pc-tntg-part01",
+            "signal": "extreme-leading-blank-run",
+            "disposition": "retain-authentic-composition",
+            "confidence": "high",
+            "scriptSha256": "ce7314456733babf3d1408f31dcb4270ab6dd3419566e61b3488632eb668b677",
+            "sourceUrl": "https://16colo.rs/pack/ilsn0993/raw/PC-TNTG.ANS",
+            "previewUrl": "https://16colo.rs/pack/ilsn0993/x1/PC-TNTG.ANS.png",
+            "sourceRows": "1-49",
+            "sourceColumns": "1-80",
+            "observedComposition": "The upper canvas is authored space before dense, full-width red and orange artwork.",
+            "metrics": {
+                "leadingBlankRows": 15,
+                "totalRows": 49
+            },
+            "reviewRationale": "The leading space is source-authored and precedes a substantial pictorial field. The geometry signal alone is not evidence of a bad split, and trimming would alter intentional negative space."
+        },
+        {
+            "script": "16c-lbo-r2-top-coc-part01",
+            "signal": "extreme-leading-blank-run",
+            "disposition": "retain-authentic-composition",
+            "confidence": "high",
+            "scriptSha256": "34ef592d2989576eb8c1aed2c130f60f97d36c0561d7fbcfb02ce2ba5332e5b2",
+            "sourceUrl": "https://16colo.rs/pack/lbo-r2/raw/TOP-COC.ANS",
+            "previewUrl": "https://16colo.rs/pack/lbo-r2/x1/TOP-COC.ANS.png",
+            "sourceRows": "1-50",
+            "sourceColumns": "1-80",
+            "observedComposition": "Sparse forest and moon details rise from the bottom edge of an intentionally open upper canvas.",
+            "metrics": {
+                "leadingBlankRows": 27,
+                "totalRows": 50
+            },
+            "reviewRationale": "The leading space is source-authored and precedes a substantial pictorial field. The geometry signal alone is not evidence of a bad split, and trimming would alter intentional negative space."
+        },
+        {
+            "script": "16c-lbo-r2-top-da1-part01",
+            "signal": "extreme-leading-blank-run",
+            "disposition": "retain-authentic-composition",
+            "confidence": "high",
+            "scriptSha256": "cbc7e1d660684852f019956dc793201e985e23e4e0d0fde3f0036007e9a88f71",
+            "sourceUrl": "https://16colo.rs/pack/lbo-r2/raw/TOP-DA1.ANS",
+            "previewUrl": "https://16colo.rs/pack/lbo-r2/x1/TOP-DA1.ANS.png",
+            "sourceRows": "1-48",
+            "sourceColumns": "1-80",
+            "observedComposition": "The centered figure deliberately enters from the lower half of the source canvas.",
+            "metrics": {
+                "leadingBlankRows": 18,
+                "totalRows": 48
+            },
+            "reviewRationale": "The leading space is source-authored and precedes a substantial pictorial field. The geometry signal alone is not evidence of a bad split, and trimming would alter intentional negative space."
+        },
+        {
+            "script": "16c-riot0194-cl-tu2-part01",
+            "signal": "extreme-leading-blank-run",
+            "disposition": "retain-authentic-composition",
+            "confidence": "high",
+            "scriptSha256": "c47745066d0e8f451fc93add193ee689cd0d538ccd2d70199f243bee8e31c020",
+            "sourceUrl": "https://16colo.rs/pack/riot0194/raw/CL-TU2.ANS",
+            "previewUrl": "https://16colo.rs/pack/riot0194/x1/CL-TU2.ANS.png",
+            "sourceRows": "1-47",
+            "sourceColumns": "1-80",
+            "observedComposition": "The authored upper canvas precedes a full-width white, yellow, and red pictorial continuation.",
+            "metrics": {
+                "leadingBlankRows": 18,
+                "totalRows": 47
+            },
+            "reviewRationale": "The leading space is source-authored and precedes a substantial pictorial field. The geometry signal alone is not evidence of a bad split, and trimming would alter intentional negative space."
+        },
+        {
+            "script": "16c-axf-0597-qp-a666",
+            "signal": "orphaned-tail-after-blank-run",
+            "disposition": "retain-authentic-composition",
+            "confidence": "medium",
+            "scriptSha256": "07da43c90b80beb4fa917555d5a88d48de43d9c308423bc932db963591d2069c",
+            "sourceUrl": "https://16colo.rs/pack/axf-0597/raw/QP-A666.ANS",
+            "previewUrl": "https://16colo.rs/pack/axf-0597/x1/QP-A666.ANS.png",
+            "sourceRows": "1-49",
+            "sourceColumns": "1-80",
+            "observedComposition": "The isolated tail is the thematic centered caption '6 6 6'.",
+            "metrics": {
+                "blankRunStartRow": 25,
+                "blankRunEndRow": 48,
+                "blankRunRows": 24,
+                "visibleRowsAfter": 1,
+                "remainingRows": 1
+            },
+            "reviewRationale": "The isolated tail is semantic artwork, a date, a wordmark, or a repeated motif rather than a disposable control artifact. Keep it unless an official preview proves it is a conversion defect."
+        },
+        {
+            "script": "16c-bli-0994-ht-8-94-part02",
+            "signal": "orphaned-tail-after-blank-run",
+            "disposition": "retain-authentic-composition",
+            "confidence": "medium",
+            "scriptSha256": "068223d75a71b6d975b5fa32f8c3452c844313c8cf53dc60735baa967f9aca91",
+            "sourceUrl": "https://16colo.rs/pack/bli-0994/raw/HT-8-94.ANS",
+            "previewUrl": "https://16colo.rs/pack/bli-0994/x1/HT-8-94.ANS.png",
+            "sourceRows": "31-68",
+            "sourceColumns": "1-80",
+            "observedComposition": "The isolated tail is a centered twelve-cell block-art motif.",
+            "metrics": {
+                "blankRunStartRow": 27,
+                "blankRunEndRow": 37,
+                "blankRunRows": 11,
+                "visibleRowsAfter": 1,
+                "remainingRows": 1
+            },
+            "reviewRationale": "The isolated tail is semantic artwork, a date, a wordmark, or a repeated motif rather than a disposable control artifact. Keep it unless an official preview proves it is a conversion defect."
+        },
+        {
+            "script": "16c-blndr2019-wa-empress-part03",
+            "signal": "orphaned-tail-after-blank-run",
+            "disposition": "retain-authentic-composition",
+            "confidence": "medium",
+            "scriptSha256": "62670c708af09a7393f0637f3b22220a6412ec7f1b3b2cd8197f7d064cdbfbea",
+            "sourceUrl": "https://16colo.rs/pack/blndr2019/raw/wa-empress.ans",
+            "previewUrl": "https://16colo.rs/pack/blndr2019/x1/wa-empress.ans.png",
+            "sourceRows": "86-127",
+            "sourceColumns": "1-80",
+            "observedComposition": "The isolated tail is the subject date caption '1847 - 1965'.",
+            "metrics": {
+                "blankRunStartRow": 23,
+                "blankRunEndRow": 39,
+                "blankRunRows": 17,
+                "visibleRowsAfter": 1,
+                "remainingRows": 1
+            },
+            "reviewRationale": "The isolated tail is semantic artwork, a date, a wordmark, or a repeated motif rather than a disposable control artifact. Keep it unless an official preview proves it is a conversion defect."
+        },
+        {
+            "script": "16c-blocktronics-yotb-avg-pendellgate101-part04",
+            "signal": "orphaned-tail-after-blank-run",
+            "disposition": "retain-authentic-composition",
+            "confidence": "high",
+            "scriptSha256": "0308c38560e83313f3b7b051af2e5b1f68eb1feb608788375dbf06d8ba0fbad6",
+            "sourceUrl": "https://16colo.rs/pack/blocktronics_yotb/raw/avg-pendellgate101.ans",
+            "previewUrl": "https://16colo.rs/pack/blocktronics_yotb/x1/avg-pendellgate101.ans.png",
+            "sourceRows": "110-152",
+            "sourceColumns": "1-80",
+            "observedComposition": "The retained tail repeats three evenly spaced pixel motifs from the surrounding design.",
+            "metrics": {
+                "blankRunStartRow": 29,
+                "blankRunEndRow": 38,
+                "blankRunRows": 10,
+                "visibleRowsAfter": 1,
+                "remainingRows": 1
+            },
+            "reviewRationale": "The family was rebalanced at verified contiguous source-row boundaries. The remaining gap and repeated motif are source-authored; removing either would crop or reorder the composition."
+        },
+        {
+            "script": "16c-circe01-dd-new",
+            "signal": "orphaned-tail-after-blank-run",
+            "disposition": "retain-authentic-composition",
+            "confidence": "high",
+            "scriptSha256": "a3b24d1d5a67575c24662ab5d29edb9ef20411a4658e63d99e7b42f58fe0a216",
+            "sourceUrl": "https://16colo.rs/pack/circe01/raw/DD-NEW.ANS",
+            "previewUrl": "https://16colo.rs/pack/circe01/x1/DD-NEW.ANS.png",
+            "sourceRows": "1-19",
+            "sourceColumns": "1-80",
+            "observedComposition": "The text-redacted new-user panel retains its source-authored lower frame after the intentionally empty table body.",
+            "metrics": {
+                "blankRunStartRow": 9,
+                "blankRunEndRow": 18,
+                "blankRunRows": 10,
+                "visibleRowsAfter": 1,
+                "remainingRows": 1
+            },
+            "reviewRationale": "The isolated tail is the lower border that closes the original framed table. Removing it would crop the source composition, while compacting the reviewed empty rows would reflow and squish its geometry."
+        },
+        {
+            "script": "16c-cnc-0494-htf-ugly-part02",
+            "signal": "orphaned-tail-after-blank-run",
+            "disposition": "retain-authentic-composition",
+            "confidence": "high",
+            "scriptSha256": "485af89e2bb135a246775dabc911c3d090c55d97ff624abd5a94dff4b8f85340",
+            "sourceUrl": "https://16colo.rs/pack/cnc-0494/raw/HTF-UGLY.ANS",
+            "previewUrl": "https://16colo.rs/pack/cnc-0494/x1/HTF-UGLY.ANS.png",
+            "sourceRows": "50-98",
+            "sourceColumns": "1-80",
+            "observedComposition": "The tail contains bridge pixels that continue into the next contiguous source part.",
+            "metrics": {
+                "blankRunStartRow": 40,
+                "blankRunEndRow": 48,
+                "blankRunRows": 9,
+                "visibleRowsAfter": 1,
+                "remainingRows": 1
+            },
+            "reviewRationale": "The tail is a structural border or pictorial continuation. Removing it would crop the original composition or break continuity with adjacent parts."
+        },
+        {
+            "script": "16c-fire-34-avg-fire-part04",
+            "signal": "orphaned-tail-after-blank-run",
+            "disposition": "retain-authentic-composition",
+            "confidence": "medium",
+            "scriptSha256": "1555678c1131217a2abd9b27282a7331311709fd1fda3710bc1d7ab639802aa3",
+            "sourceUrl": "https://16colo.rs/pack/fire-34/raw/AVG-FIRE.ANS",
+            "previewUrl": "https://16colo.rs/pack/fire-34/x1/AVG-FIRE.ANS.png",
+            "sourceRows": "147-195",
+            "sourceColumns": "1-80",
+            "observedComposition": "The tail repeats two pixel motifs after the artist signature; the original contact footer is no longer present.",
+            "metrics": {
+                "blankRunStartRow": 41,
+                "blankRunEndRow": 48,
+                "blankRunRows": 8,
+                "visibleRowsAfter": 1,
+                "remainingRows": 1
+            },
+            "reviewRationale": "The isolated tail is semantic artwork, a date, a wordmark, or a repeated motif rather than a disposable control artifact. Keep it unless an official preview proves it is a conversion defect."
+        },
+        {
+            "script": "16c-hrp-6-dam-ld-part04",
+            "signal": "orphaned-tail-after-blank-run",
+            "disposition": "retain-authentic-composition",
+            "confidence": "high",
+            "scriptSha256": "a80dbf55f0e9a629d3b933ef69a1e01522bc9294cba98b6474dae4038cd12463",
+            "sourceUrl": "https://16colo.rs/pack/hrp-6/raw/DAM-LD.ANS",
+            "previewUrl": "https://16colo.rs/pack/hrp-6/x1/DAM-LD.ANS.png",
+            "sourceRows": "151-199",
+            "sourceColumns": "1-80",
+            "observedComposition": "The retained tail is a full-width closing border.",
+            "metrics": {
+                "blankRunStartRow": 32,
+                "blankRunEndRow": 41,
+                "blankRunRows": 10,
+                "visibleRowsAfter": 1,
+                "remainingRows": 1
+            },
+            "reviewRationale": "The tail is a structural border or pictorial continuation. Removing it would crop the original composition or break continuity with adjacent parts."
+        },
+        {
+            "script": "16c-mdn-9701-s3-rmnu0",
+            "signal": "orphaned-tail-after-blank-run",
+            "disposition": "retain-authentic-composition",
+            "confidence": "high",
+            "scriptSha256": "e14c320bc513750fb2206ae43e1938397f625c61ba42fb0860e790ec17e268a6",
+            "sourceUrl": "https://16colo.rs/pack/mdn-9701/raw/S3-RMNU0.ANS",
+            "previewUrl": "https://16colo.rs/pack/mdn-9701/x1/S3-RMNU0.ANS.png",
+            "sourceRows": "1-20",
+            "sourceColumns": "1-80",
+            "observedComposition": "The retained tail is a full-width closing border for the interface panel.",
+            "metrics": {
+                "blankRunStartRow": 12,
+                "blankRunEndRow": 19,
+                "blankRunRows": 8,
+                "visibleRowsAfter": 1,
+                "remainingRows": 1
+            },
+            "reviewRationale": "The tail is a structural border or pictorial continuation. Removing it would crop the original composition or break continuity with adjacent parts."
+        },
+        {
+            "script": "16c-nectar01-vk-imgod",
+            "signal": "orphaned-tail-after-blank-run",
+            "disposition": "retain-authentic-composition",
+            "confidence": "high",
+            "scriptSha256": "7e37519e2a11a91f5a8c7eebe3a122656ff722c02ddf3dc55750dee9bd79e6d8",
+            "sourceUrl": "https://16colo.rs/pack/nectar01/raw/VK-IMGOD.ANS",
+            "previewUrl": "https://16colo.rs/pack/nectar01/x1/VK-IMGOD.ANS.png",
+            "sourceRows": "1-40",
+            "sourceColumns": "1-80",
+            "observedComposition": "The retained tail is a sparse two-row pictorial closing motif.",
+            "metrics": {
+                "blankRunStartRow": 27,
+                "blankRunEndRow": 38,
+                "blankRunRows": 12,
+                "visibleRowsAfter": 2,
+                "remainingRows": 2
+            },
+            "reviewRationale": "The tail is a structural border or pictorial continuation. Removing it would crop the original composition or break continuity with adjacent parts."
+        },
+        {
+            "script": "16c-rags2r2a-dd-new-part05",
+            "signal": "orphaned-tail-after-blank-run",
+            "disposition": "retain-authentic-composition",
+            "confidence": "medium",
+            "scriptSha256": "7b7ebb79f9681ef434a2868194a82b020bcb2aa9dcd7b5673f02188cd4b30af5",
+            "sourceUrl": "https://16colo.rs/pack/rags2r2a/raw/DD-NEW.ANS",
+            "previewUrl": "https://16colo.rs/pack/rags2r2a/x1/DD-NEW.ANS.png",
+            "sourceRows": "197-245",
+            "sourceColumns": "1-80",
+            "observedComposition": "The isolated tail is the centered artistic and group wordmark 'TWILIGHT', not contact information or an advertisement.",
+            "metrics": {
+                "blankRunStartRow": 28,
+                "blankRunEndRow": 48,
+                "blankRunRows": 21,
+                "visibleRowsAfter": 1,
+                "remainingRows": 1
+            },
+            "reviewRationale": "The isolated tail is semantic artwork, a date, a wordmark, or a repeated motif rather than a disposable control artifact. Keep it unless an official preview proves it is a conversion defect."
+        },
+        {
+            "script": "16c-sac0395-rs-clso-part05",
+            "signal": "orphaned-tail-after-blank-run",
+            "disposition": "retain-authentic-composition",
+            "confidence": "high",
+            "scriptSha256": "4dc390952dfab5384df92971c083e8c682ff9eac55eff1dabe7a5082c0c981d0",
+            "sourceUrl": "https://16colo.rs/pack/sac0395/raw/RS-CLSO.ANS",
+            "previewUrl": "https://16colo.rs/pack/sac0395/x1/RS-CLSO.ANS.png",
+            "sourceRows": "166-210",
+            "sourceColumns": "1-80",
+            "observedComposition": "The retained tail is a two-row closing border that completes the composition.",
+            "metrics": {
+                "blankRunStartRow": 27,
+                "blankRunEndRow": 34,
+                "blankRunRows": 8,
+                "visibleRowsAfter": 2,
+                "remainingRows": 2
+            },
+            "reviewRationale": "The tail is a structural border or pictorial continuation. Removing it would crop the original composition or break continuity with adjacent parts."
+        }
+    ],
+    "disposition": "retained-after-review",
+    "policy": "Retain source-authored negative space, structural borders, semantic tails, repeated motifs, and source-faithful empty panels created by reviewed text redaction when removing them would crop, reorder, reflow, or distort the original ANSI composition. Geometry signals are review prompts, not automatic deletion rules.",
+    "reviewBasis": "Each current severe geometry signal was reviewed against the rendered terminal-cell output, contiguous source coordinates, sibling-part context where applicable, the tracked content-review evidence, and the official 16colors preview. Full-script hashes and exact analyzer metrics fail closed on future drift.",
+    "reviewedAt": "2026-07-28",
+    "schemaVersion": 1,
+    "summary": {
+        "scripts": 22,
+        "extremeLeadingBlankRun": 10,
+        "orphanedTailAfterBlankRun": 12
+    }
+}

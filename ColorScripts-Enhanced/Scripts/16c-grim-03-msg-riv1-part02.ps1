@@ -1,13 +1,4 @@
-﻿# Converted from: MSG-RIV1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/grim-03/raw/MSG-RIV1.ANS
-# Source Revision: archive-sha256:ebc036abf9a775cca5b26ca6cd97418b4cbcbb8a88c78d39df773432429bd88a
-# Source SHA-256: 1e64367c308f089ba00903ecc20ea89b0945796d1b4e7a2c9461707f4774583a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MSG-RIV1.ANS by Manslaughter (grim-03); released in grim-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 31-61
-# Columns: 1-80
+﻿# Artwork: MSG-RIV1.ANS by Manslaughter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-grim-03-msg-riv1-part02
 
 Write-Host '
                       [1;30;40m█░▒░ ▀▄[0m     [1;30;40m▄ ▄ [0m▄  ▄ [1m▄ ▄[0m     [1;30m▄▀[0;1;30;47m░[0;1;37;47m░░[0;1;30;40m█[0m

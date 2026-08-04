@@ -1,18 +1,4 @@
-﻿# Converted from: PC-MAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy07/raw/PC-MAT.ANS
-# Source Revision: archive-sha256:cf53c4ea5c286717abe3d962fb98452e352d7d7a30a31881220e7068a7f0bb79
-# Source SHA-256: 3fe17025ac9112656bef9a66166e8725288c046c99c764ca7bd4caeca5f43e3d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-MAT.ANS by P-chan (What?); released in apathy07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Logon Matrix
-# SAUCE Author: P-chan
-# SAUCE Group: What?
-# SAUCE Date: 19960221
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Logon Matrix by P-chan | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy07-pc-mat
 
 Write-Host '
 [1;33;43m                   [0;33m▀[0;1;30m  ▀ ██▀[0m [1;33;43m [0;33m▄▄▄▄▄▄▀▀▀[0;1;33;43m░ [0;33m▄▄▀[0;1;33;43m         [0m █[1;47m░[0m█[1;47m▓▒░[0m█▄ [1;33;43m          ░      [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: CG-FORCE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-20/raw/CG-FORCE.ANS
-# Source Revision: archive-sha256:23bbf66596e3e4f3c4b9e335dc62ccc331634eba04c3d179b73e396fa3971807
-# Source SHA-256: 50dcb5e78b94de17ecd50ddbec041837b7227aaf9b945313b1eacdb5e773a332
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-FORCE.ANS by Cryogenic (AWE Lettering); released in awe-20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Force Promotional
-# SAUCE Author: Cryogenic
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981231
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Force Promotional by Cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-20-cg-force
 
 Write-Host '
        [1;30m░[0m [1;31m░░[0m [1;30m░░░░░░░[0m    [1;30m░░░░░░░░░░░░[0m         [1m░░[0m [1;30m░░░[0m    [1;30m░░░░░░░░[0m    [1;30m░░░░░░░░░░░[0m

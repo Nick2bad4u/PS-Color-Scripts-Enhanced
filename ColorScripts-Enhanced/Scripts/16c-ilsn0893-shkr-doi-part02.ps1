@@ -1,13 +1,4 @@
-﻿# Converted from: SHKR-DOI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ilsn0893/raw/SHKR-DOI.ANS
-# Source Revision: archive-sha256:5a1741aaf2f52201cad9b4df9cb8f7ba972c1f74a36fdbcfa0a7b7c7d5068ae1
-# Source SHA-256: 3b7a7899b43db16b29ced1cc9251b8b490d64304837629165ceded6c247dbfac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SHKR-DOI.ANS by Shadow Hawk + Killraven (ilsn0893); released in ilsn0893 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 50-99
-# Columns: 1-80
+﻿# Artwork: SHKR-DOI.ANS by Shadow Hawk + Killraven | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ilsn0893-shkr-doi-part02
 
 Write-Host '
            [1;30;47m▒▒▓[0;1;30;40m█[0;1;30;47m█[0;1;30;40m█  [0;1;30;47m███[0m     [35m█[0;1;37m█[0;1;37;47m░▒▓[0;1;37;40m██▌[0;1;33;40m█[0;1;33;43m▓[0;1;33;40m██▌[0;1;37;40m██[0;1;37;47m▓▒[0;1;37;40m█▐██[0;1;37;47m▓▒[0;1;37;40m█▄[0;35m█ ▒ ▒ [0;1;30;47m██[0;1;30;40m█  █[0;1;30;47m██▓▒▒[0m

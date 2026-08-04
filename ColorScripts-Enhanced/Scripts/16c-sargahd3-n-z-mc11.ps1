@@ -1,18 +1,4 @@
-﻿# Converted from: N!Z-MC11.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sargahd3/raw/N!Z-MC11.ANS
-# Source Revision: archive-sha256:d4be65be862c17debbed01c060fb85aadbdbe00a8282836fa25f3f46073f618d
-# Source SHA-256: 8c778a78c41ed9f86cf747d4b7f85bea3fd4cc44e9c1603cbc0df0b5869c31e2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N!Z-MC11.ANS by noize (fbk.sargahd); released in sargahd3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: 5-minute-eye
-# SAUCE Author: noize
-# SAUCE Group: fbk.sargahd
-# SAUCE Date: 19970208
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: 5-minute-eye by noize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sargahd3-n-z-mc11
 
 Write-Host '
 [1;30;47m▓[0;1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀██[0;1;30;47m▓▒▒▒▄▄▄n!z  [0;1;37;47m░░▀█[0;1;37;40m██▓▀▀[0;33m  [0;1;31;43m░░[0;33m▒▒▒▒░░░░ [0m    [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m

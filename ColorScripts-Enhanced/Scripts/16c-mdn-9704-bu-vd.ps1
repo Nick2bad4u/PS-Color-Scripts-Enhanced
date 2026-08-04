@@ -1,18 +1,4 @@
-﻿# Converted from: BU-VD!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9704/raw/BU-VD!.ANS
-# Source Revision: archive-sha256:f29d1a72731ce9383841840bc86b0749ff1457d1c25c6a64baa5adfdac9e6943
-# Source SHA-256: 98a8d2f8a8076cdf505441f1455dc5fd5e84c86dd3188e10fa80b3c25a4af7f6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BU-VD!.ANS by bUtTmAn (cSf/mAiden); released in mdn-9704 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: viRTUAL dEATH...
-# SAUCE Author: bUtTmAn
-# SAUCE Group: cSf/mAiden
-# SAUCE Date: 19970331
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: viRTUAL dEATH... by bUtTmAn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9704-bu-vd
 
 Write-Host '
      [1m▄▄[0;1;32m▄▄████[0;1;32;42m▀▀▀ ▀  ▀  [0;32m▄▄▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: us-fuzzz.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-31/raw/us-fuzzz.ans
-# Source Revision: archive-sha256:125b240e4f7c12edf343cce3b91cea614ad5d43fdbdf64dc76d9a06354b6a99c
-# Source SHA-256: 986d6d34dd10fba003ca56073c901a3daf3eb7fb26b7da6dc317ec7363c5ce8a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-fuzzz.ans by Klumzee (glue-31); released in glue-31 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: us-fuzzz.ans by Klumzee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-31-us-fuzzz
 
 Write-Host '
     [1;30m█[0m [1;30m [0m   [1;30m▀[0m [1;30;46m░▀[0;1;30;40m█[0m  [1;30m░▒▀▀▀▀[0;35;46m▓▓[0;37;40m  [0;1;30;40m▐[0;1;30;46m▓[0;1;30;47m█[0m  [1;30;46m▄▒[0m [1;30;46m▒[0m    [1;30m▀▀▀[0;1;30;46m▄▄[0;35;46m▒░░░[0;1;30;40m█▓▓▀▀▀[0;1;30;46m▒[0;1;30;40m▀▀[0;36m▀▀[0;1;30;46m░▓[0;1;30;40m█  [0;1;30;46m▒[0m   [1;30m█[0;1;30;46m ▒[0;1;30;40m█[0m [1;30m█[0;1;30;46m▒▓[0;1;30;40m▌[0m

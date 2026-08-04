@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-DENT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0598/raw/BYM-DENT.ANS
-# Source Revision: archive-sha256:e4eb608a76b35267c945e8d8ea0fbc9cde7f273818c342a2a37fa7f292193f2c
-# Source SHA-256: dec61dbbe63fe832e0affd69e48463187b33166650d88753d7110097269a20e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-DENT.ANS by bumblebym (poffelipoff); released in plf-0598 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: dental
-# SAUCE Author: bumblebym
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19980419
-# SAUCE Dimensions: 80x25
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: dental by bumblebym | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0598-bym-dent
 
 Write-Host '
 [31m ▀▀▄▄▄[0m                                  [31m▀▄[0m      [31m     [0m          [31m   [0m

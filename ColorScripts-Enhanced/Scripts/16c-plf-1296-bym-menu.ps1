@@ -1,18 +1,4 @@
-﻿# Converted from: BYM%MENU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf_1296/raw/BYM%25MENU.ANS
-# Source Revision: archive-sha256:902ffb47b5338e6dcb178867d2ae1bc19c0a38faa788ba01e9fb9532c108eebc
-# Source SHA-256: a20f317d30ff290a32d7474f1e7295c2c48a908eda295d44cb77d6d7bfbe9153
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM%MENU.ANS by big yellow man (gummiboll.art); released in plf_1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: a yellow man menu
-# SAUCE Author: big yellow man
-# SAUCE Group: gummiboll.art
-# SAUCE Date: 19961031
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: a yellow man menu by big yellow man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1296-bym-menu
 
 Write-Host '
 [1;30m-──--─-─────--──────────-─────────────-─-───────────────────────---────────-──-[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: DIE-INK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-zxica/raw/DIE-INK.ANS
-# Source Revision: archive-sha256:098212bcd3fc250902be7ae08340a23e99b29f8fa69fe7b4990238a6d402d1f6
-# Source SHA-256: 2e5dde8a2bc13e19769e52d74677bcf7483082d661540a39dc277fbb7235cd8d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DIE-INK.ANS by Dieznyik (k-zxica); released in k-zxica and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: DIE-INK.ANS by Dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-zxica-die-ink
 
 Write-Host '
            [31m▀▄ ░▄[0m         [34m [0m          [30;42m░[0;32;40m░[0;30;42m▓[0m

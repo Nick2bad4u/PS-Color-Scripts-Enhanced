@@ -1,19 +1,4 @@
-﻿# Converted from: !NI-VISION.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ni-2mad/raw/!NI-VISION.ANS
-# Source Revision: archive-sha256:e0727c97b825fe3767aa49eeea730bcd74e42975ab3f211722940d8993aa464e
-# Source SHA-256: de3f9bf83ee6a8c72dc8df2cb07cd1592b9bedf8672f04315400289e0e197916
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: !NI-VISION.ANS by nitron (none); released in ni-2mad and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: vision/2 logo
-# SAUCE Author: nitron
-# SAUCE Group: none
-# SAUCE Date: 20230116
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: vision/2 logo by nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ni-2mad-ni-vision
 
 Write-Host '
 [34m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

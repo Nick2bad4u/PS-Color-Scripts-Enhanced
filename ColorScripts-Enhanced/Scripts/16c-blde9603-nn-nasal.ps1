@@ -1,18 +1,4 @@
-﻿# Converted from: NN-NASAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9603/raw/NN-NASAL.ANS
-# Source Revision: archive-sha256:f6d7d8628f8fd582effd93b8e838e75d5d9c5ee94417e33eb7b84c6b3ba37ea3
-# Source SHA-256: 2ce70bc9879d7098f42e36ded18690bf8d9e673071097f4fb0f7252733cb22b8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NN-NASAL.ANS by neo negro (blade); released in blde9603 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: nasal malfunction
-# SAUCE Author: neo negro
-# SAUCE Group: blade
-# SAUCE Date: 19960213
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: nasal malfunction by neo negro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9603-nn-nasal
 
 Write-Host '
 [1;36mn[0m [35me[0;37m [0;33mg[0;37m [0;1;33mr[0m [1;33mo[0m

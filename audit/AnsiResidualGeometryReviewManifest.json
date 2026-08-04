@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-07-28T18:01:19.512Z",
+  "policy": "Apply only high-confidence reviewed crops that remove rendered-blank leading margins or stranded tails after a verified blank gap. Background-colored spaces and source-fidelity-locked payloads fail closed.",
+  "summary": {
+    "actions": 12,
+    "leadingCrops": 12,
+    "orphanTailCrops": 0
+  },
+  "actions": [
+    {
+      "action": "crop-leading-blank-rows",
+      "expectedPayloadSha256": "c8c74b16dac2f2df4edd90f29f3a7587ec3eebecb01b209d6702bf189059f869",
+      "reason": "This compact unsplit logo spends at least 40 percent of its current output on a source-authored blank top margin. Preserve one presentation row and remove only the remaining fully rendered-blank rows; no visible terminal cell is changed.",
+      "script": "16c-poly9612-pw-it.ps1",
+      "totalRows": 17,
+      "preserveLeadingRows": 1,
+      "rows": 7
+    },
+    {
+      "action": "crop-leading-blank-rows",
+      "expectedPayloadSha256": "46c710e9ca77f457c8edc0fe1876457f10f142061872e5fe7718d959e6c86ef3",
+      "reason": "This compact unsplit logo spends at least 40 percent of its current output on a source-authored blank top margin. Preserve one presentation row and remove only the remaining fully rendered-blank rows; no visible terminal cell is changed.",
+      "script": "16c-drg1096-idx-acid.ps1",
+      "totalRows": 15,
+      "preserveLeadingRows": 1,
+      "rows": 6
+    },
+    {
+      "action": "crop-leading-blank-rows",
+      "expectedPayloadSha256": "8a2dc86a4a4823dbc987b3edcd5d33a83fa53d21e6be45ceec1217690f42ccfb",
+      "reason": "This compact unsplit logo spends at least 40 percent of its current output on a source-authored blank top margin. Preserve one presentation row and remove only the remaining fully rendered-blank rows; no visible terminal cell is changed.",
+      "script": "16c-fsn-0597-pe-spwe.ps1",
+      "totalRows": 15,
+      "preserveLeadingRows": 1,
+      "rows": 6
+    },
+    {
+      "action": "crop-leading-blank-rows",
+      "expectedPayloadSha256": "06b6f57d3ec9847bdf33a56082bbc29774151a3f9503153407c30923e6f0ba1e",
+      "reason": "This compact unsplit logo spends at least 40 percent of its current output on a source-authored blank top margin. Preserve one presentation row and remove only the remaining fully rendered-blank rows; no visible terminal cell is changed.",
+      "script": "16c-ftc-05-lg-taura.ps1",
+      "totalRows": 15,
+      "preserveLeadingRows": 1,
+      "rows": 6
+    },
+    {
+      "action": "crop-leading-blank-rows",
+      "expectedPayloadSha256": "0ee1f93fb4dc1a442aedb2e71cf6a5f2bbecde508f2204e8ff27d01d8cd12aab",
+      "reason": "This compact unsplit logo spends at least 40 percent of its current output on a source-authored blank top margin. Preserve one presentation row and remove only the remaining fully rendered-blank rows; no visible terminal cell is changed.",
+      "script": "16c-nerp-02-dfuse-ne.ps1",
+      "totalRows": 15,
+      "preserveLeadingRows": 1,
+      "rows": 6
+    },
+    {
+      "action": "crop-leading-blank-rows",
+      "expectedPayloadSha256": "a77bf2c7f1857db98b00ee5658d363cd275f84989a02248b05d5499106b03dae",
+      "reason": "This compact unsplit logo spends at least 40 percent of its current output on a source-authored blank top margin. Preserve one presentation row and remove only the remaining fully rendered-blank rows; no visible terminal cell is changed.",
+      "script": "16c-rmtz-3-sf-sea.ps1",
+      "totalRows": 15,
+      "preserveLeadingRows": 1,
+      "rows": 6
+    },
+    {
+      "action": "crop-leading-blank-rows",
+      "expectedPayloadSha256": "4f710f2fc73e6f30ba0ff70593e71f8800dc6b155c41f5c1719b1bae46e728be",
+      "reason": "This compact unsplit logo spends at least 40 percent of its current output on a source-authored blank top margin. Preserve one presentation row and remove only the remaining fully rendered-blank rows; no visible terminal cell is changed.",
+      "script": "16c-drg0896-jda-inp6.ps1",
+      "totalRows": 20,
+      "preserveLeadingRows": 1,
+      "rows": 8
+    },
+    {
+      "action": "crop-leading-blank-rows",
+      "expectedPayloadSha256": "0cbba73760aca81b3cd8acc8297f24f01baf3f225a06d096330052772eecc832",
+      "reason": "This compact unsplit logo spends at least 40 percent of its current output on a source-authored blank top margin. Preserve one presentation row and remove only the remaining fully rendered-blank rows; no visible terminal cell is changed.",
+      "script": "16c-ddip0996-hp-ddi1.ps1",
+      "totalRows": 18,
+      "preserveLeadingRows": 1,
+      "rows": 7
+    },
+    {
+      "action": "crop-leading-blank-rows",
+      "expectedPayloadSha256": "01f5468c06ce5fdc2e7c015f95b4791d7d3bfbf4ef8f2d5e5dc974f34711ff80",
+      "reason": "This compact unsplit logo spends at least 40 percent of its current output on a source-authored blank top margin. Preserve one presentation row and remove only the remaining fully rendered-blank rows; no visible terminal cell is changed.",
+      "script": "16c-dox-9703-lst-lst2.ps1",
+      "totalRows": 18,
+      "preserveLeadingRows": 1,
+      "rows": 7
+    },
+    {
+      "action": "crop-leading-blank-rows",
+      "expectedPayloadSha256": "2f05b9faa495ee495fb7ebf7de59b26bb1fc4920c43173072bdbbd07d957b07a",
+      "reason": "This compact unsplit logo spends at least 40 percent of its current output on a source-authored blank top margin. Preserve one presentation row and remove only the remaining fully rendered-blank rows; no visible terminal cell is changed.",
+      "script": "16c-fire0496-gk-ddl1.ps1",
+      "totalRows": 16,
+      "preserveLeadingRows": 1,
+      "rows": 6
+    },
+    {
+      "action": "crop-leading-blank-rows",
+      "expectedPayloadSha256": "79968b670796935ebbf3ac62466ccee7f265a4aae03e116e1ff26c8af1678d9f",
+      "reason": "This compact unsplit logo spends at least 40 percent of its current output on a source-authored blank top margin. Preserve one presentation row and remove only the remaining fully rendered-blank rows; no visible terminal cell is changed.",
+      "script": "16c-force-17-mw-kakts.ps1",
+      "totalRows": 16,
+      "preserveLeadingRows": 1,
+      "rows": 6
+    },
+    {
+      "action": "crop-leading-blank-rows",
+      "expectedPayloadSha256": "180d7257ec0e3f6969e908d350636ae69e490d593e0735144380b323a690fae7",
+      "reason": "This compact unsplit logo spends at least 40 percent of its current output on a source-authored blank top margin. Preserve one presentation row and remove only the remaining fully rendered-blank rows; no visible terminal cell is changed.",
+      "script": "16c-mdn-9701-s3-rslog.ps1",
+      "totalRows": 16,
+      "preserveLeadingRows": 1,
+      "rows": 6
+    }
+  ]
+}

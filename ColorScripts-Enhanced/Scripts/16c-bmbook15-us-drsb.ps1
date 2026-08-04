@@ -1,18 +1,4 @@
-﻿# Converted from: US-DRSB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook15/raw/US-DRSB.ANS
-# Source Revision: archive-sha256:e54ebc8c52f8d9379c31843d1a642e9eaaf309656353be720cf874920f543492
-# Source SHA-256: 17820996ad034f948096e696c764133129c778168856726048a7c36a6a60d0f3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DRSB.ANS by Avenger + Pandur (black maiden); released in bmbook15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: drastic
-# SAUCE Author: pandur.ave
-# SAUCE Group: black maiden
-# SAUCE Date: 19971107
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: drastic by Avenger + Pandur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook15-us-drsb
 
 Write-Host '
                                                          [1m░░░░░░░[0m

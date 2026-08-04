@@ -1,18 +1,4 @@
-﻿# Converted from: TE-NASL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m-9803-a/raw/TE-NASL1.ANS
-# Source Revision: archive-sha256:9b291fea9c9f60fd85250a6fc2081ea1821e1ac6174d9d60ed23ee66add063ff
-# Source SHA-256: f7eece4b2e865de011303ad6590020f1438c2b2bd658f94b7fb27280c88c96c8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-NASL1.ANS by The Extremist (mistigris); released in m-9803-a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Nasal Malfunction
-# SAUCE Author: The Extremist
-# SAUCE Group: mistigris
-# SAUCE Date: 19980318
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Nasal Malfunction by The Extremist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m-9803-a-te-nasl1
 
 Write-Host '
          [31m▀▄[0m      [31m▀▄[0m         [31m    [0;37m   [0;31m▄■▀▌[0m            [31m▄▌  [0;37m   [0;31m█▀[0m

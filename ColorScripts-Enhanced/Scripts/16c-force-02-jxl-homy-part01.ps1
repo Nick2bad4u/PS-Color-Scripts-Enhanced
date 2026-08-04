@@ -1,18 +1,4 @@
-﻿# Converted from: JXL-HOMY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-02/raw/JXL-HOMY.ANS
-# Source Revision: archive-sha256:858a1e4b95c8b301fd8a167aace5874339b6be7ce2ab7716a34c2982e7cd8c00
-# Source SHA-256: bd78dbe0fd97b40ba8863408fb635f7ed33761a61cd9e4291ab9e29e56ba7cd9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JXL-HOMY.ANS by Jaraxel + Anubis (FORCe); released in force-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: FORCe PRoMo
-# SAUCE Author: JaRaXeL
-# SAUCE Group: FORCe
-# SAUCE Date: 19950521
-# SAUCE Dimensions: 80x125
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: FORCe PRoMo by Jaraxel + Anubis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-02-jxl-homy-part01
 
 Write-Host '
 

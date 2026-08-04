@@ -1,18 +1,4 @@
-﻿# Converted from: LOCOLIST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/elloco/raw/LOCOLIST.ANS
-# Source Revision: raw-sha256:e0eec63593acb795eaf0fb205b51e0fdf6ff57678db3072f3a7cea0acdd98a34
-# Source SHA-256: e0eec63593acb795eaf0fb205b51e0fdf6ff57678db3072f3a7cea0acdd98a34
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LOCOLIST.ANS by El LoCo (Neverland); released in elloco and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: LoCoList info
-# SAUCE Author: El LoCo
-# SAUCE Group: Neverland
-# SAUCE Date: 19960521
-# SAUCE Dimensions: 80x15
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: LoCoList info by El LoCo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-elloco-locolist
 
 Write-Host '
   [31m▄[0m              [34m▄▄▄▄▄▄▄▄    [0m                     [1;34m▄▄[0;34m▄[0m           [35m▄▄▄[0;1;35;45m░░░░░░░░░░[0;35m▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US-AWE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn0797/raw/US-AWE.ANS
-# Source Revision: archive-sha256:fc1844bde3fb3bc448ff1373e91cb7237c6c2f8016c75eb605f0f71b6d1e80d5
-# Source SHA-256: a88506e2d6cbb8e5bb201d80d92e56f1ca2b7a0bf3c95185e31ffd73ad117fc3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-AWE.ANS by Ize + Fire From Heaven + The Night Angel + Thrasher (fuel); released in fsn0797 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: awe logo
-# SAUCE Author: Multiple Artists
-# SAUCE Group: fuel
-# SAUCE Date: 19970630
-# SAUCE Dimensions: 80x25
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: awe logo by Ize + Fire From Heaven + The Night Angel + Thrasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn0797-us-awe
 
 Write-Host '
       [31m▄░[0m                          [1;36m▄ ▀▀▄[0m                                     ffh

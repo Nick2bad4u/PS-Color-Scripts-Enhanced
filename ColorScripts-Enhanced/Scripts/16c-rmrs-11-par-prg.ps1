@@ -1,18 +1,4 @@
-﻿# Converted from: PAR-PRG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-11/raw/PAR-PRG.ANS
-# Source Revision: archive-sha256:2530f38f9aae898cfae9dad47a02de2875f4e85a94fcd7dfaf9a3e9f96fbd615
-# Source SHA-256: 004ea2ab062c6cb61f6f930efae8de62afb1010e81832406526c2437c93b6124
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PAR-PRG.ANS by Pariah (REMORSE); released in rmrs-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Purge
-# SAUCE Author: Pariah
-# SAUCE Group: REMORSE
-# SAUCE Date: 19970502
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Purge by Pariah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-11-par-prg
 
 Write-Host '
 [1m└IISCNA - [0;1;36mpariah[0;34m ,P`[0;33m,`ⁿ75[0;1;31m8850055888[0;33mP''[0;34m,[0;1;34md[0;34m''[0;33m,d[0;1;31m$$[0;33mh,[0;34m`7[0;1;34m$$$[0;34mP''[0;33m,d[0;1;31m$[0;33mh,[0;37m [0;34mh[0;1;34m,[0;33m`7[0;1;31m$588850005888[0;33mPⁿ'',[0m

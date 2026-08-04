@@ -1,17 +1,4 @@
-﻿# Converted from: US-EPIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/epic0001/raw/US-EPIC.ANS
-# Source Revision: archive-sha256:469e19c85e17e735160f218c31263c528e0f299d68abc25979191060f709ef80
-# Source SHA-256: 29953878cd0b0a0f66de5d6f7fc0c386309025f94a2f2cc209ee24715e688151
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-EPIC.ANS by Anvilhed + Savagecow (epic); released in epic0001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: is there something in my teeth?
-# SAUCE Author: anvilhed/savageCOW
-# SAUCE Group: epic
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: is there something in my teeth? by Anvilhed + Savagecow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-epic0001-us-epic-part01
 
 Write-Host '
 [1;30m[0m[1;30m[0m[1;30m[0m

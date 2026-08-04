@@ -1,13 +1,4 @@
-﻿# Converted from: DR-HEAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis2/raw/DR-HEAD.ANS
-# Source Revision: archive-sha256:c3f91a4c7b02aab0946037b156c28ff00357cfef4c31db5863a85c63751f672b
-# Source SHA-256: e98656213e384784057ded642e7af29bf76d6e40d6d6c4324a6e7de347dcf60f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DR-HEAD.ANS by Drake (ansis2); released in ansis2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: DR-HEAD.ANS by Drake | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis2-dr-head
 
 Write-Host '
                  [32m▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌[0m

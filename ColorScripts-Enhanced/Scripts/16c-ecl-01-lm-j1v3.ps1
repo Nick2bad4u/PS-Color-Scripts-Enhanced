@@ -1,18 +1,4 @@
-﻿# Converted from: LM-J1V3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-01/raw/LM-J1V3.ANS
-# Source Revision: archive-sha256:98f7ca14920172db6145e44afa4b8ac94de6e46d94b8cf326e89a96c3e7e5c1b
-# Source SHA-256: 1f7b5128975b36a33331b4b3d56ad313e66585d8e418a6e0c2de828cc97b989e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LM-J1V3.ANS by lagomorph (3kl); released in ecl-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: jIVE s0DAH!
-# SAUCE Author: lagomorph
-# SAUCE Group: 3kl
-# SAUCE Date: 19960607
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: jIVE s0DAH! by lagomorph | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-01-lm-j1v3
 
 Write-Host '
 [1m [0;1;47m▐[0;1;40m████████████████[0;1;47m▀[0;1;40m▀[0m▀[30;47m▓[0;37;40m░[0m               [30;45m▓▓[0m     [37;40m▐[0;1;37;40m▀[0;1;37;47m▀[0;1;37;40m█████[0;1;37;47m▀[0;1;37;40m▀[0m▀░▄[1m▄[0;1;47m▄████▓▓▀█[0;1;46m▓▓[0;1;47m███[0;1;40m█████▓[0m

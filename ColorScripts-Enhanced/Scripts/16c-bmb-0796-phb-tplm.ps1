@@ -1,18 +1,4 @@
-﻿# Converted from: PHB-TPLM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0796/raw/PHB-TPLM.ANS
-# Source Revision: archive-sha256:f782dac10caec7358fb12f56ab648d6b2d754d33c969b772c25d26329ee46f63
-# Source SHA-256: 423d7bd25b685ce4748f2582f6d7ce5ca8a049114727ae09781152dccabe670b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PHB-TPLM.ANS by phobic ([-X-] bamboosh [-X-]); released in bmb-0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Tpolm [asc]-logo
-# SAUCE Author: phobic
-# SAUCE Group: [-X-] bamboosh [-X-]
-# SAUCE Date: 19960716
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Tpolm [asc]-logo by phobic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0796-phb-tplm
 
 Write-Host '
 [35m                                                                                [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: 13-TURVA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend07/raw/13-TURVA.ANS
-# Source Revision: archive-sha256:ca5dd679a175bb824bf5bf250a5bbd7f932645b5aabbf63799cb92711cab24b8
-# Source SHA-256: d776aa6ce7a4e641be5f5a2166caecbea6d562f45b55f2e51d0d3b8d52940bdb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 13-TURVA.ANS by ville (blend&fire); released in blend07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: asylum
-# SAUCE Author: ville
-# SAUCE Group: blend&fire
-# SAUCE Date: 19970303
-# SAUCE Dimensions: 80x12
-# Lines: 1-12
-# Columns: 1-80
+﻿# Artwork: asylum by ville | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend07-13-turva
 
 Write-Host '
 [34m _13  [0m

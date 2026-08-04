@@ -1,13 +1,4 @@
-﻿# Converted from: ANS-0056.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis/raw/ANS-0056.ANS
-# Source Revision: archive-sha256:cabd7c46b38b213194457f50f766681b723f86902e0b5d87c41548c28c231d67
-# Source SHA-256: 22d060dee46f832c30ceb7caa5692ca4ae7964178a20ea26e27360564d23343a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ANS-0056.ANS by Bill Gaynor (ansis); released in ansis and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ANS-0056.ANS by Bill Gaynor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-ans-0056
 
 Write-Host '
 [37;40m  [0;37;46m                                                                          [0;37;40m    [0m

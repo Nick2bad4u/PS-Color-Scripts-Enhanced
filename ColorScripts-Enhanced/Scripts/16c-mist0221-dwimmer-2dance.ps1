@@ -1,20 +1,4 @@
-﻿# Converted from: DWIMMER-2DANCE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0221/raw/DWIMMER-2DANCE.ANS
-# Source Revision: archive-sha256:4a8c9a8001bc7db23e62733bd188b07e2f92f8b5caca34bf87f4e45dd922c1a0
-# Source SHA-256: 5190447339b3da3ba8e44f2e99f8005461110a11da07a46ff608e5e01699e703
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DWIMMER-2DANCE.ANS by dwimmer (Mistigris); released in mist0221 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: dance
-# SAUCE Author: dwimmer
-# SAUCE Group: Mistigris
-# SAUCE Date: 20210209
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: font: IBM VGA 8x16 | iCE Colors On
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: dance by dwimmer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0221-dwimmer-2dance
 
 Write-Host '
  [1;33md a n c e d a n c e d a[0;1;35m▐[0;35m▌[0;37m [0;1;33mc e[0m [35m▄█████▒▒▀▓▓▓█[0;35;105m▓▓▓▓▓[0;35m▓[0;1;35m▄██[0;1;35;104m▓[0;35;105m▓[0;35m█[0;1;35;45m░[0;35m█▄▄[0;37m [0;1;33md[0;1;35m██[0;1;35;45m▓[0;35m▄[0;37m [0;1;33mc e d a n c[0m

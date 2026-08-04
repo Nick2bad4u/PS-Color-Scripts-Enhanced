@@ -1,18 +1,4 @@
-﻿# Converted from: US-TRI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9703/raw/US-TRI.ANS
-# Source Revision: archive-sha256:a9939674ffea8dfd0fb24f05e2f11874539fc93155c2d5ed5e55e91f76634858
-# Source SHA-256: d45f2b090dd846b9c061d87f594ab5851333a3149090a9d5db5dc1edf2eba96d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TRI.ANS by Phlare + Samurai (AWE Lettering); released in awe9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Roswell Incident
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970220
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: The Roswell Incident by Phlare + Samurai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9703-us-tri
 
 Write-Host '
                                                            [30;47m▓▓▓[0m              [1;30;40m   [0m

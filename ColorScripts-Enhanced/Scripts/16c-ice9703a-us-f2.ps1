@@ -1,17 +1,4 @@
-﻿# Converted from: US-F2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9703a/raw/US-F2.ICE
-# Source Revision: archive-sha256:6bff16e5edf32b4898857b0d23616134d84be36d169a4a2f3bc23f437f356dfe
-# Source SHA-256: 8e36ca736a4bb5686c4ffaf6301a672e000d156b90ed80a967adc911f931fb4b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-F2.ICE by Trip + Misfit (iCE Advertisements); released in ice9703a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fluph
-# SAUCE Author: Misfit/Trip
-# SAUCE Group: iCE Advertisements
-# SAUCE Date: 19970322
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Fluph by Trip + Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9703a-us-f2
 
 Write-Host '
 [1;33;43m░[0;33m█▀▀▄▄▒▓█[0;1;33;43m░[0;33m█▀▄█[0;1;33;43m░[0m [33m▄▌[0;1;30m▀███[0;1;33m░[0;1;30m███▄▌[0;33m▐▀[0;37m [0;33m███▀▀[0;37m [0;33m▄█▓▀█▀▄▄███[0;1;33;43m░░░░[0;33m███▄▄▄▄▀▀█▄▄▀▀██[0;1;33;43m░[0;33m▄▄▄▀▀█▄[0;37m [0;33m▓▒░[0m

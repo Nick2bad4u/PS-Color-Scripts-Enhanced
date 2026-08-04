@@ -1,19 +1,4 @@
-﻿# Converted from: MFS - Vampire Submarine - Vertical 9px.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2021d/raw/MFS%20-%20Vampire%20Submarine%20-%20Vertical%209px.ans
-# Source Revision: archive-sha256:c9438c0bcd954b25748b050f94a979453aa1121c38319d9e358aad6b2ccad3a3
-# Source SHA-256: 4880cb8bfd93c72fc89f71f5145814204cf065fd634daa30dcfed71215da53f0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MFS - Vampire Submarine - Vertical 9px.ans by Mel Farr Suppastar (Lazarus); released in blndr2021d and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Vampire Submarine {Vertical}
-# SAUCE Author: Mel Farr Suppastar
-# SAUCE Group: Lazarus
-# SAUCE Date: 20211017
-# SAUCE Dimensions: 80x56
-# SAUCE Font: IBM VGA
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Vampire Submarine {Vertical} by Mel Farr Suppastar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2021d-mfs-vampire-submarine-vertical-9px-part01
 
 Write-Host '
 

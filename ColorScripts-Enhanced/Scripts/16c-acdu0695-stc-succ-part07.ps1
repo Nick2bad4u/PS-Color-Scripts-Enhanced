@@ -1,18 +1,4 @@
-﻿# Converted from: STC-SUCC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0695/raw/STC-SUCC.ANS
-# Source Revision: archive-sha256:db24e208c464a20c2099b8d2f878e92b0cf8a2a3878fb165404bd66c2a9ff713
-# Source SHA-256: f4734afc3461bd86c2fed2faab3390890b1eb621bb33d7bbf976c5625523456f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STC-SUCC.ANS by Stone The Crow (ACiD Productions); released in acdu0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Succotash
-# SAUCE Author: Stone The Crow
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950523
-# SAUCE Dimensions: 80x305
-# Lines: 260-305
-# Columns: 1-80
+﻿# Artwork: Succotash by Stone The Crow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0695-stc-succ-part07
 
 Write-Host '
 [1;31m▀▓██████████[0;1;31;47m▓▓▓▓▓▓▓▓▓▓[0;1;31;40m██████████[0;1;31;43m▓▓▓▒▒▒░[0;33m███[0;37m [0;36m▓▌[0;1;36;46m▓[0;36m▌[0;1;36;46m▐[0;36m▓██[0;1;31m [0;1;31;47m▓▓[0;1;31;40m██▓▀▀▀[0;1;34;40m▄▄▄▄▄▄[0;1;34;43m▒▒▒░░░[0;33m███[0;1;30;43m░▒[0m [33m [0m

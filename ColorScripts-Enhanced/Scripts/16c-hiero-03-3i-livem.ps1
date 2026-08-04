@@ -1,18 +1,4 @@
-﻿# Converted from: 3I-LIVEM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-03/raw/3I-LIVEM.ANS
-# Source Revision: archive-sha256:c463d41d9ae381f389778dd35b1d3ac7d9b856c30aea0076774f44c539a72586
-# Source SHA-256: 344915400cc2c1ec8073e6169be4ee4802f30dc9f9a63f72cc08fe552b862633
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 3I-LIVEM.ANS by Nitrifik (Hieroglyphics); released in hiero-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Live Meat
-# SAUCE Author: Nitrifik
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20001011
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Live Meat by Nitrifik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-03-3i-livem
 
 Write-Host '
 

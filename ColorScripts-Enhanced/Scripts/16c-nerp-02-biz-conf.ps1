@@ -1,18 +1,4 @@
-﻿# Converted from: BIZ-CONF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-02/raw/BIZ-CONF.ANS
-# Source Revision: archive-sha256:3fd9f194d865cfc24c90bdf11a27528d8d82a8ba9c376ebed567183a2f95a9f3
-# Source SHA-256: 264761497d59428fdfb3f8654f598c9014458a5d33ad89b74d5c67444e4d89db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BIZ-CONF.ANS by bizzarro (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: conferances
-# SAUCE Author: bizzarro
-# SAUCE Group: nerp
-# SAUCE Date: 19971102
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: conferances by bizzarro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-02-biz-conf
 
 Write-Host '
       [36m░[0;30;46m▓[0m   [36;40m▌[0m    [37;40m [0;36;40m [0m

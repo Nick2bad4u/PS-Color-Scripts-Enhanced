@@ -1,18 +1,4 @@
-﻿# Converted from: GK-HAL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1096/raw/GK-HAL2.ANS
-# Source Revision: archive-sha256:0aef116e4290fa41749730625329f38610014fc9d720313823330534bc5bca90
-# Source SHA-256: 4549adba52d12d7f99d1fd09cd2f1f049e958de56a5eb32284e6af2fbb613eb5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GK-HAL2.ANS by grindking (fire); released in fire1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Halcyon
-# SAUCE Author: grindking
-# SAUCE Group: fire
-# SAUCE Date: 19961009
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: Halcyon by grindking | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1096-gk-hal2
 
 Write-Host '
 

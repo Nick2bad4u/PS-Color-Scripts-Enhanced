@@ -1,19 +1,4 @@
-﻿# Converted from: US-PHRAK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/US-PHRAK.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: e4c062912f7706cf665212e106d0d01faed280b204867b0bb865e9138c12fc9c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PHRAK.ANS by Tainted + Abstrakt (fire); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: phrack magazine
-# SAUCE Author: tainted / abstrakt
-# SAUCE Group: fire
-# SAUCE Date: 20241111
-# SAUCE Dimensions: 80x31
-# SAUCE Font: IBM VGA
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: phrack magazine by Tainted + Abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-us-phrak
 
 Write-Host '
                                               [1m·[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: BM-GLUE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper08/raw/BM-GLUE.ANS
-# Source Revision: archive-sha256:4170bc28a3d93b55b5d7813a9078fa917029de207cfcf794080d34d8f6ddd97e
-# Source SHA-256: 84c78fe2f8b8653c8ef3b03707831b8903cf257cbb4b2490c66554e80e901421
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BM-GLUE.ANS by Aesthetic + Avenging Angel (jasper); released in jasper08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: "glue"
-# SAUCE Author: 43/avg
-# SAUCE Group: jasper
-# SAUCE Date: 20020711
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: "glue" by Aesthetic + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper08-bm-glue
 
 Write-Host '
 [1m (BM[0m) [33m▀[0;1;31m█▄▄[0m [33m▄[0;1;31m▄[0;36m▄[0;1;36;46m▄[0;1;36;40m█[0;1;36;46m█▀[0;1;31;46m▄▀[0;36m▀[0;1;36m▀▓▓▒[0;36;44m▓░[0;34;40m▒[0;37;40m [0;1;34;47m▓▓[0m   ██[1;47m░░▓▓[0;1;30;47m▀[0m  [1m▄█[0m▀[1;30m▀[0m [1;30m▄▄[0m [32m▀▀[0;1;33;42m▀[0;32m█[0;1;30;42m▀[0;32m▄▄[0;1;30m▄[0m   [36m▀[0;37m [0;1;30;46m▀▀[0;1;30;40m▄▄[0m  [36m▀[0;1;36m▒▒[0;1;30;46m▀[0;33m [0;37m [0;1;30m▄[0m

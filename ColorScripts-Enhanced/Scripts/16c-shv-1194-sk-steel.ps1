@@ -1,18 +1,4 @@
-﻿# Converted from: SK-STEEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shv-1194/raw/SK-STEEL.ANS
-# Source Revision: archive-sha256:d3a40a3191a913cb36b897ad49063e6c40e8244915255128cbb96005c37748a9
-# Source SHA-256: 5459936b2124c4b7e00f22f931b3ee4a8c3535b92162108aa72cae600e808bef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK-STEEL.ANS by Shattered Link (SHiVER); released in shv-1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Steel Empire
-# SAUCE Author: Shattered Link
-# SAUCE Group: SHiVER
-# SAUCE Date: 19941009
-# SAUCE Dimensions: 80x47
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Steel Empire by Shattered Link | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shv-1194-sk-steel
 
 Write-Host '
                                                           ▄▄▄▄▄▄▄

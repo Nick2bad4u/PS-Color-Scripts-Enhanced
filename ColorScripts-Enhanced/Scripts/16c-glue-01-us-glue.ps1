@@ -1,13 +1,4 @@
-﻿# Converted from: US-GLUE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-01/raw/US-GLUE.ANS
-# Source Revision: archive-sha256:0e63c5e62ea9b66430033b1875dc38843fc6f5d45408ae01bb2abd9ed19a0d23
-# Source SHA-256: 53eae78f26e37958aa875a00e8231ec40e8df8268c0d374023daa8834dceca09
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GLUE.ANS by Catch 22 + Ark Anjel (glue-01); released in glue-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: US-GLUE.ANS by Catch 22 + Ark Anjel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-01-us-glue
 
 Write-Host '
 [1;36m░ [0;36m         [0m   [1;34m▄▄▄▄▄[0;34m▄[0m              [1;36m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: IR-MATRX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/idle-03/raw/IR-MATRX.ANS
-# Source Revision: archive-sha256:de0b9b28f255e1cb9ab562a1ef9b6f1152dc7f06e952e19862071341f6d6c4c3
-# Source SHA-256: 08a8edc6e114d7b37cc99eb24352b4d9bf8203f336379c8afd9ed9607382e308
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IR-MATRX.ANS by infrared (idle); released in idle-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: rg matrix
-# SAUCE Author: infrared
-# SAUCE Group: idle
-# SAUCE Date: 19961002
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: rg matrix by infrared | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-idle-03-ir-matrx
 
 Write-Host '
 [1;30m███▄ ███▀██████▌ ▄██▀ ▄███████▀ [0;1;31m▄[0;1;31;41m▓░[0;31m [0;37m [0;31m▀█▀[0m     [30;41m▓[0m    [31;40m▀▀█▄ [0m   [31;40m▀▀▀[0;30;41m░░░░[0;31;40m▄ [0;1;31;40m▀█▄[0;1;30;40m ▀█▌ ▄███[0m

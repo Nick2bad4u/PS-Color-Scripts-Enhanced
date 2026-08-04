@@ -1,19 +1,4 @@
-﻿# Converted from: tk-random.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel24/raw/tk-random.ans
-# Source Revision: archive-sha256:a7b306ff5b6a5f79d069961e912fc7a6bbecdcf424503ada503978ca0662baf8
-# Source SHA-256: 8bb1a097d83cec6ffffd9e958d6fdaf372c6c6824620c6696f4063dc09d99c86
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tk-random.ans by The Knight (FUEL); released in fuel24 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Random
-# SAUCE Author: The Knight
-# SAUCE Group: FUEL
-# SAUCE Date: 20171202
-# SAUCE Dimensions: 80x99
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Random by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel24-tk-random-part01
 
 Write-Host '
                           [37;40m  [0;1;30;40m                                                [0m   

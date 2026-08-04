@@ -1,17 +1,4 @@
-﻿# Converted from: N-CIZB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1296/raw/N-CIZB.ANS
-# Source Revision: archive-sha256:30782fcfc860946575894eb2b18cd82015430d9b2fe92875d1416c9b2489f009
-# Source SHA-256: ef73a54908deb91efa856a8ef311cc062fa34eea9c6f2f4ed6e3e515d4d584dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-CIZB.ANS by nail (fire1296); released in fire1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: city iz burning
-# SAUCE Author: nail
-# SAUCE Date: 19961214
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: city iz burning by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1296-n-cizb
 
 Write-Host '
  [31m▄[0;1;33;41m▓[0;1;33;40m█▀[0;31m▀[0;37m  [0;1;33m▀[0;31m▀[0m            [31m░▀[0;1;33m▀[0;31m ▀[0;1;33m▀[0;1;33;41m▓░[0;31m▄[0;37m [0;31m▄ ▀▌▄[0;1;33;41m░[0;31m▄[0;37m  [0;34m▄[0;37m [0;1;34m▄█[0;1;34;44m▓▀[0;34m▀[0;37m   [0;33m    ▄[0;1;31m▄▄[0;1;31;43m▐█▓▄██▄▄▄[0;33m█[0;1;31;43m▄[0;33m█[0;1;31;43m ░░[0;33m▌[0;34m▐[0;1;34;44m░[0;34m▌▄[0m

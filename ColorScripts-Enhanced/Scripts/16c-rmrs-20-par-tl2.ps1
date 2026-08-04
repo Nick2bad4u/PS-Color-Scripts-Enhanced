@@ -1,18 +1,4 @@
-﻿# Converted from: PAR-TL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-20/raw/PAR-TL2.ANS
-# Source Revision: archive-sha256:b5df31802126111bf40bb43bfeb00e04bc8d9d23550fbe23807eb68a5b21a3bf
-# Source SHA-256: 9a5c45dcd5e1e68d278f8614dcd6f9c0a00a3fb4757b946a6228e135835c3f1e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PAR-TL2.ANS by Pariah (REMORSE); released in rmrs-20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Toil
-# SAUCE Author: Pariah
-# SAUCE Group: REMORSE
-# SAUCE Date: 19980204
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Toil by Pariah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-20-par-tl2
 
 Write-Host '
 [1m[0m[1m[0m[1m[0;34m[0;1;37m[0m[1m[0m[1m                   [0;34m                                                       [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SG-TJ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0896/raw/SG-TJ.ANS
-# Source Revision: archive-sha256:aea0eeb92b0eab79feeb93a911e40d78834e5950cdc396c43c83fe60a2627fad
-# Source SHA-256: f1c8ae8537a3a9f498c471d9b4923388c1bfeecba5b0425246d14cd186eed522
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SG-TJ.ANS by Stygian (Quad-P); released in quad0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: tOE jAM
-# SAUCE Author: Stygian
-# SAUCE Group: Quad-P
-# SAUCE Date: 19960626
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: tOE jAM by Stygian | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0896-sg-tj
 
 Write-Host '
                                               [1;30m [0m

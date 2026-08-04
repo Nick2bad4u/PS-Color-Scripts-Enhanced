@@ -1,13 +1,4 @@
-﻿# Converted from: TSC-LOCO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hn-0596/raw/TSC-LOCO.ANS
-# Source Revision: archive-sha256:341a7655c96a6dc0a8dbd297753a4c8350c669bd3952e121f4d23870d0eda7fc
-# Source SHA-256: a5e1047ea6ad1792bb411aa03877a3fe5c90f3d6665f92de928539fe473509db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSC-LOCO.ANS by The Shadow Caster (hn-0596); released in hn-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: TSC-LOCO.ANS by The Shadow Caster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hn-0596-tsc-loco
 
 Write-Host '
 

@@ -1,19 +1,4 @@
-﻿# Converted from: MM-RIVERVEINS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0823/raw/MM-RIVERVEINS.ANS
-# Source Revision: archive-sha256:62e93186540813ec7aaaeb24433016d426de59526762a0e3f8dda1eb133ed05c
-# Source SHA-256: 2d793170e75607aa9c15c8251e62a88e9c649d9bc2cf8058715decd11e954244
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-RIVERVEINS.ANS by Mavenmob (Mistigris); released in mist0823 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: And The River Runs Through My Veins
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20230824
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: And The River Runs Through My Veins by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0823-mm-riverveins
 
 Write-Host '
 [31m..││.││││[0;1;31m███[0;31m██*******:│││││[0;1;31m│[0;31m:││││││││:[0;1;31m│[0;31m::│:[0;37m [0;31m:::│::│:│││:│:││:**│[0;1;31m│:█[0;31m│││││:::::[0;1;31m███[0m

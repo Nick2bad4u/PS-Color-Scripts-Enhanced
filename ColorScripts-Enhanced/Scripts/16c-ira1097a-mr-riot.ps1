@@ -1,18 +1,4 @@
-﻿# Converted from: MR-RIOT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira1097a/raw/MR-RIOT.ANS
-# Source Revision: archive-sha256:07d85d7b1ace3ea382bd86ac8e385803a9939676404af93c0be4c41385f607a2
-# Source SHA-256: 68aeb8c80b07b65501b2c9dce0cfc8a8e8bd63609329f2d75ab7c46419f5162f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-RIOT.ANS by Mr.Wrong (irato); released in ira1097a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Riot
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: irato
-# SAUCE Date: 19970929
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Riot by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira1097a-mr-riot
 
 Write-Host '
 [32m [0m       [37m [0m     [1;32;42m▌[0m                        [1;32m          [0;32m▄[0;1;32m▄▄▄ [0;32m  [0;1;32m  [0m

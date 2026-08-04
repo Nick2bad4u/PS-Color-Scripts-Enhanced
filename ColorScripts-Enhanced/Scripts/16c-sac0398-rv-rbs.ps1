@@ -1,13 +1,4 @@
-﻿# Converted from: RV-RBS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0398/raw/RV-RBS.ANS
-# Source Revision: archive-sha256:5deb0c572555b712853a4e44d44a0abdfad1e60e47bfcff7ce192c9fa583bdec
-# Source SHA-256: d2a3c045f41cfdae7f33aad69166b9de60310ccc01e260105f696aa5112a1ccd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RV-RBS.ANS by rave; released in sac0398 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: RV-RBS.ANS by rave | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0398-rv-rbs
 
 Write-Host '
                                     ■

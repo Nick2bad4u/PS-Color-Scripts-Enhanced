@@ -1,13 +1,4 @@
-﻿# Converted from: VOIDACD2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acid_s-z/raw/VOIDACD2.ANS
-# Source Revision: archive-sha256:1e39be543cd73bd6445def20e0af89859836bb40b21bc0476427cae93491a647
-# Source SHA-256: 39d8fdfdcab3f610e05188d4192ed0a3e520d82438c8311bfc19fff2339cec56
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VOIDACD2.ANS by Black Spyrit (acid_s-z); released in acid_s-z and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: VOIDACD2.ANS by Black Spyrit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acid-s-z-voidacd2
 
 Write-Host '
 [31m█████▓▓▒▒░░░░[0m        [1;30m▄▄▄▄▄▄▄▄▄▄[0m                                     [31m░░░▒▒▓▓████[0m

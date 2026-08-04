@@ -1,13 +1,4 @@
-﻿# Converted from: HS-INF6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stn-0694/raw/HS-INF6.ANS
-# Source Revision: archive-sha256:4c8e37c66b835baca79e74bc79185978c23ee1f7bbf4f4b44acaae103185c81d
-# Source SHA-256: 7ce58a48d2acd559ff39f10e202bafa38e855d261a7e564691eac594a5f459f7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HS-INF6.ANS by Hellspawn (stn-0694); released in stn-0694 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 43-60
-# Columns: 1-80
+﻿# Artwork: HS-INF6.ANS by Hellspawn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stn-0694-hs-inf6-part02
 
 Write-Host '
 [1;30m    [0m▀███▀ ▀███▀ ▀███▀ ▀███▀▀███ ▀███▀▀███ ▀███▀▀▀██▄  ▀███▀ ▀███▀ ▄███▀▀███▄

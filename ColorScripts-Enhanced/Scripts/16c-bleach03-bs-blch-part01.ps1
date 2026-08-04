@@ -1,18 +1,4 @@
-﻿# Converted from: BS-BLCH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bleach03/raw/BS-BLCH.ANS
-# Source Revision: archive-sha256:2471cba47980d4022f27bc73f398c09351ab77507350614fd18a7c618c726caa
-# Source SHA-256: 2900a6a29f2f82b8c00ab5995c0b0e48593e333bac85c052334fa0ab57caaa2b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-BLCH.ANS by bURPS! (Bleach); released in bleach03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Bleach Promotional
-# SAUCE Author: bURPS!
-# SAUCE Group: Bleach
-# SAUCE Date: 19950606
-# SAUCE Dimensions: 80x25
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Bleach Promotional by bURPS! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bleach03-bs-blch-part01
 
 Write-Host '
 [1m [0;1;30m■▄▄▓▀▄▄ ▄ ▓■▄  ▄■ ▓▄ ▄▄  ▄▄▓■▀▀■▄▄▓▀▄ ▄▓▄▄ ▄■▄▄ ▓▄▄▓■ ▄■ ▄  ▄▄▄▓ ▄▄░  ▄▓▄ ▄▄■[0;1;30;40m  [0m

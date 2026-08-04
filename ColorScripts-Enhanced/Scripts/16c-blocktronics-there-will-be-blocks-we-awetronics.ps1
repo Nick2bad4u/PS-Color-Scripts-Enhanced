@@ -1,16 +1,4 @@
-﻿# Converted from: we-AWEtronics.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_there_will_be_blocks/raw/we-AWEtronics.ans
-# Source Revision: archive-sha256:d99f6502677c5a3c863779944513ac7a61b8122179566cfc94d95537e904aa6b
-# Source SHA-256: 3ac88e42a1791bc8f69b682c8f1d7cb00ab3c7d5940d15701d2dbb710c9ea44e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-AWEtronics.ans by Enzo + The Night Angel (blocktronics_there_will_be_blocks); released in blocktronics_there_will_be_blocks and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 20170228
-# SAUCE Dimensions: 80x47
-# SAUCE Font: IBM VGA
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: we-AWEtronics.ans by Enzo + The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-there-will-be-blocks-we-awetronics
 
 Write-Host '
 [1;33;44m▀[0;36;44m█[0;37;44m█[0;37;40m [0;1;37;41m▀[0;1;36;41m█[0;1;36;40m [0;31m▀[0;1;33;41m▀[0;1;33;43m▄▀[0;1;37;43m▄[0;1;37;41m▀[0;31m██  [0;37;41m▀[0;37;40m  [0;36;41m▄[0;1;36;41m█[0;30m██[0;30;41m [0;1;36;41m▀ [0;1;33;41m▄ [0;1;33;40m [0;1;34;40m▄▀[0;1;34;41m [0;31m▀▀[0;30m█[0;31m▄[0;33m▄[0;31m▄[0;31;41m [0;1;37;41m██▄▄[0;1;37;44m█▀[0;36;44m▄[0;1;36;44m▀[0;36;41m█[0;36;40m▄▄▀[0;30;40m█ [0;35;40m░ [0;31;40m▄▄[0;30;43m██[0;34;40m▀▀[0;36;43m▀[0;1;33;43m██[0;36;43m█[0;36;40m [0;1;33;40m■ [0;1;33;41m▀[0;1;33;43m█[0;30;43m█[0;31;40m▀[0;1;33;41m█[0;1;33;44m█[0;1;33;40m [0;1;33;44m▀[0;1;33;40m [0;44m█▄[0m

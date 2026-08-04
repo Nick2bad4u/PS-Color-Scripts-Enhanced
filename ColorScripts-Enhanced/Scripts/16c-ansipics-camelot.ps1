@@ -1,13 +1,4 @@
-﻿# Converted from: CAMELOT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansipics/raw/CAMELOT.ANS
-# Source Revision: raw-sha256:babb7b8f76dd09a9cf17ab5211822d8431de9a1748c4f8007f45c157d14f0552
-# Source SHA-256: babb7b8f76dd09a9cf17ab5211822d8431de9a1748c4f8007f45c157d14f0552
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CAMELOT.ANS by Visa (ansipics); released in ansipics and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: CAMELOT.ANS by Visa | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansipics-camelot
 
 Write-Host '
                           [31m▄▀ █▀ [0m░░░▒▒███            [1;35mAnsi By [0;1;36mV[0;1;35m─[0;1;36mI[0;1;35m─[0;1;36mS[0;1;35m─[0;1;36mA[0m

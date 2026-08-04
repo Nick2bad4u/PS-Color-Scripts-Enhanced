@@ -1,16 +1,4 @@
-﻿# Converted from: SK!-SPAM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger10/raw/SK!-SPAM.ANS
-# Source Revision: archive-sha256:a84fd6d21030f26985899f91a956dceb5637b0b2cbc8b90ab0b918890b9e87cd
-# Source SHA-256: dc9f79ff67669a29014f1c7fcaa9f0e6259f780c2f7fa041500373988823f29c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!-SPAM.ANS by seeker (anger); released in anger10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: spam shack
-# SAUCE Author: seeker
-# SAUCE Group: anger
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: spam shack by seeker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger10-sk-spam
 
 Write-Host '
            [1;36;40m.a%$[0;36m$$$$%a.[0m [1;36m.a%$[0;36m$$$$%a.[0m [1;36m.a%$[0;36m$$$$%a.[0m [1;36m.a%$[0;36m$ $$%a..$$%a.[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: CN-REVIV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tus-06/raw/CN-REVIV.ANS
-# Source Revision: archive-sha256:51b671f2cc7e9d00368c85bede9ec7f3ff4d004664f30443ced4184b66636a6b
-# Source SHA-256: 78ce65704983db89cc9154f3fa43f4856f1f537dc518952993d36e0a1cbccdd5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CN-REVIV.ANS by Cain (tus-06); released in tus-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: CN-REVIV.ANS by Cain | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tus-06-cn-reviv
 
 Write-Host '
               [1;30m.┌[0m [1;30m$$[0m [1;30m┐.[0m              [1;30m___[0m             [1;30m [0m   [1;30m░[0m [1;30m$$[0m

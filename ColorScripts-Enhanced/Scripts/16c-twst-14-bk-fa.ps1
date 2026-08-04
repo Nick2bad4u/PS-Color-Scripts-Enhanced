@@ -1,18 +1,4 @@
-﻿# Converted from: BK-FA!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst-14/raw/BK-FA!.ANS
-# Source Revision: archive-sha256:6d5cfdb3f87d671bf575e9a701e6fe996a23d0a5263b88cba8907338986e3ad3
-# Source SHA-256: ec18aa72113598e9117e0bc1397210f2d9cc86546e0453d0f944e48da3304953
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BK-FA!.ANS by black majick (twiSted); released in twst-14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Faded Ambition
-# SAUCE Author: black majick
-# SAUCE Group: twiSted
-# SAUCE Date: 19970624
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Faded Ambition by black majick | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst-14-bk-fa
 
 Write-Host '
 [1;33;43m▀[0;1;33;46m▓[0;1;33;43m█▓░[0m [1;34;44m░[0m   [34m▄▄▄▄▀▀[0;31m    [0;34m▀▀▄▄▄▄[0;37m [0;33m▀▀▀▀▀█[0;1;33;43m▀▀█▀[0;33m███▀██[0;1;33;43m▀▀▀▀░█▀▀▀[0;33m▀ [0;32m▄[0;1;32;42m▓[0;32m▄[0;33m ▀█[0;1;33;43m▀▀▀[0;1;33;46m▓[0;1;33;43m░[0;33m█[0;1;33;43m▓[0m [1;33;43m░██[0;1;33;46m▓[0;33m█[0;37m  [0;1;33m██[0;1;33;43m░[0m

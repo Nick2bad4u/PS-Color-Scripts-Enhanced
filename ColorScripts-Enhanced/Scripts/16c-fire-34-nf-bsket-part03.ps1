@@ -1,18 +1,4 @@
-﻿# Converted from: NF-BSKET.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/NF-BSKET.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: c1eeda5c5338e114dba76df3e121a33a5ee71622d50f422b9f0a23b632914ffa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NF-BSKET.ANS by necro (fire-34); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: basketful of heads
-# SAUCE Author: necro
-# SAUCE Date: 20210105
-# SAUCE Dimensions: 80x115
-# SAUCE Font: IBM VGA
-# Lines: 78-115
-# Columns: 1-80
+﻿# Artwork: basketful of heads by necro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-nf-bsket-part03
 
 Write-Host '
 [1;30;40m███[0;1;37;40m▌[0;1;30;40m██▌▐▓[0;1;30;43m▓[0;1;33;43m░░░▒▒▓[0;1;30;40m▒[0m  [1;30m▐[0;1;30;43m▓▓▒▓▒[0;33m█[0;1;33;43m░[0;1;33;40m██[0;1;33;43m▒▒[0;1;33;40m█[0;1;37;40m█[0;1;33;40m██[0;1;33;43m▌[0;1;30;40m▌[0m [1;30m▐[0;1;30;41m▓▓▒▒░[0;31m▀[0;37m [0;31m▀[0;37m▄▄▀ [0;31m▄[0;1;31m▄▄▄[0m [1;30m▀[0m▀[1;30m▀▄▄▀▀[0m▄[1;30;47m▒▓▓▒[0;1;30;40m▀▀▀▒[0m [1;30;47m▓[0m ▀[43m▒[0;40m▌[0;43m▒[0;33;40m▌[0m

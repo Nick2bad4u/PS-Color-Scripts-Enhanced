@@ -1,18 +1,4 @@
-﻿# Converted from: M-DRONE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-03/raw/M-DRONE.ANS
-# Source Revision: archive-sha256:9ea26ff16b2d0162532c602fba75b69e539d71620a3b4e34b796de886326619c
-# Source SHA-256: af6f8b250d59db8aea62815d61e117f448a35c579a81901f699d644d5fbe454f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M-DRONE.ANS by milkmang (nerp); released in nerp-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Drone menutemplate
-# SAUCE Author: milkmang
-# SAUCE Group: nerp
-# SAUCE Date: 19971224
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Drone menutemplate by milkmang | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-03-m-drone
 
 Write-Host '
       ▐[1;30;47m░[0;1;30;40m▌[0m      [34m▐▄[0;37m [0m           [1;34m [0m   [34m░▓███▌▄▄[0m     [37m [0m                 [37m    [0;34m▌░▌[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: TK-MATRI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel09/raw/TK-MATRI.ANS
-# Source Revision: archive-sha256:cae1fe00a9cd349fa6bb692920586d60c6acc70987b088220f071822b0b1e1ed
-# Source SHA-256: 29e482c657e9f8d5676cc7bbd7fd0b15227904974cf6e29164d1c6be804bb5cb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TK-MATRI.ANS by The Knight (Fuel); released in fuel09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: random matrix
-# SAUCE Author: The Knight
-# SAUCE Group: Fuel
-# SAUCE Date: 19961118
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: random matrix by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel09-tk-matri
 
 Write-Host '
 [1;33m███████████▀ [0m [33m▐█▄[0;1;31m [0;1;33m▀██▄[0;1;31m [0;33m▀█[0;1;31m [0;33m▄[0;1;33m▀███▄ [0;1;31m  [0;33m▀▄[0;1;31m [0;1;33m▀▄█[0;1;31m [0;33m▄[0;37m [0;1;31m  [0;1;33m ▀▀█▀[0;1;31m  [0;33m▄██▀▀▀▀▀▀▀▀████▄[0;1;31m      [0;1;30m  [0;1;31m   [0m

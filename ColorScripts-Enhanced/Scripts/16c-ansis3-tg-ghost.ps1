@@ -1,13 +1,4 @@
-﻿# Converted from: TG-GHOST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis3/raw/TG-GHOST.ANS
-# Source Revision: archive-sha256:30680c48da5de46fac574d38c5a331317b3b59cde1064c9e48badd9ad9b0e5bd
-# Source SHA-256: a65a7228bfe323696951a15811953a01a308e632bf33d6d8e3308d469ddb2fcc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-GHOST.ANS by The Ghost (ansis3); released in ansis3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: TG-GHOST.ANS by The Ghost | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis3-tg-ghost
 
 Write-Host '
              [1;33m▄▀▀▀▀▀▀▄[0m                 [1;33m▄▀▀▀█▄ [0;35m▀█[0;1;35;45m▄▄▄ [0;35m▀▀▀▀▀▀▀▀▀▀▀█▄[0;1;35;45m ▄▄▄▄▄▄▄▄▄▄▄▄▄ [0;35m▄[0m

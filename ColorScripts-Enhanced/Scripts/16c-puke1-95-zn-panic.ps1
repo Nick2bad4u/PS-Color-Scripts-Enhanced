@@ -1,18 +1,4 @@
-﻿# Converted from: ZN-PANIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/puke1-95/raw/ZN-PANIC.ANS
-# Source Revision: archive-sha256:9359316ebe923960ff90d65cab6e9857aca7aa0527c1c6ee720479acf916af50
-# Source SHA-256: 2d61bcac7e02f7c52425280de987b78ac244a36874fe51cb7724b4b8d03c23be
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZN-PANIC.ANS by ZoNE (puKe); released in puke1-95 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Panic Zone
-# SAUCE Author: ZoNE
-# SAUCE Group: puKe
-# SAUCE Date: 19950507
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Panic Zone by ZoNE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-puke1-95-zn-panic
 
 Write-Host '
 

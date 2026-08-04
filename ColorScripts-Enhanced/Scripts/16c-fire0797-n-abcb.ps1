@@ -1,18 +1,4 @@
-﻿# Converted from: N-ABCB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0797/raw/N-ABCB.ANS
-# Source Revision: archive-sha256:94b9d74f23cef45b7f0e0cddc6ad7ce59eed15dd66ca41ed74c0005a3af14ca4
-# Source SHA-256: fe2dbd2897da1fc3cc2a0ef5e263bbfddeded72cba451ff9345d333f3f1d8b47
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-ABCB.ANS by nail (fire); released in fire0797 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: abcb
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 19970712
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: abcb by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0797-n-abcb
 
 Write-Host '
 [33m█████[0;1;31;43m▀▐███[0;1;31;47m▀▀▓▓[0;1;31;43m█▀▀▀▀▀▀▀▀[0;33m██▓▒░[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: DD-INBRD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rune0896/raw/DD-INBRD.ANS
-# Source Revision: archive-sha256:a41a6fd18e5a57ea19659d03cc5ff527cec9b4701f346aaff2f3d3658fc2ad09
-# Source SHA-256: 36b219cfbce4a66b1385f43e2e7960862ecaf1e7dbe2109a3039b9fed6e40d4f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-INBRD.ANS by delirious dingo (rune); released in rune0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: inbred emag
-# SAUCE Author: delirious dingo
-# SAUCE Group: rune
-# SAUCE Date: 19951101
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: inbred emag by delirious dingo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rune0896-dd-inbrd
 
 Write-Host '
                                                   [1;36m▄   ▀    ▀ ▄▄[0m

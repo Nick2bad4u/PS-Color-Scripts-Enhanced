@@ -1,13 +1,4 @@
-﻿# Converted from: SP-CWO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tus-04/raw/SP-CWO.ANS
-# Source Revision: archive-sha256:cecd03bcea0453e8e941f2420e67a6eaf0283c8555a366d61575392cb904d263
-# Source SHA-256: 00c513db880b6a643d1e2c6d32944b63cf644beae3be983019321e919c704932
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SP-CWO.ANS by Spinsane (tus-04); released in tus-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: SP-CWO.ANS by Spinsane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tus-04-sp-cwo
 
 Write-Host '
 [32m$$$$$$$$$$$[0;1;32m$$$[0;32m$$$$$\\⌂⌂***[0;1;32m⌂⌂/$$[0;32m$$$[0;1;37m $b[0;1;33m.[0;1;37m       [0;1;33mj$$P``Y.[0;1;37m                 [0;1;31mj$$$$$$[0;31mb.[0m

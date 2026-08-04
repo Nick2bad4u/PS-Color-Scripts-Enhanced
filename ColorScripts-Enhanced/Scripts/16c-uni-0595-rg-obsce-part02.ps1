@@ -1,18 +1,4 @@
-﻿# Converted from: RG-OBSCE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0595/raw/RG-OBSCE.ANS
-# Source Revision: archive-sha256:1478f8c7d5db04e992c19b5f9ae4c1c658dfc070a60d6f0748aa57a73bab460e
-# Source SHA-256: ca2c7793bfdbb45e9729a311da58366df9cc107c427546b86819bad9dcfe5787
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RG-OBSCE.ANS by Rimgale (Union); released in uni-0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Obscene phobia #1
-# SAUCE Author: Rimgale
-# SAUCE Group: Union
-# SAUCE Date: 19950501
-# SAUCE Dimensions: 80x25
-# Lines: 32-58
-# Columns: 1-80
+﻿# Artwork: Obscene phobia #1 by Rimgale | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0595-rg-obsce-part02
 
 Write-Host '
             [33m▄[0;1;31;43m░▄[0;1;31;40m█[0;1;31;43m█▓▄▄[0;1;31;40m▄▄▄▄[0;33m▄▄▄[0;31m▀▀[0;1;31m▀▀▀▀▀[0;1;31;41m░▀▀[0;1;31;40m█[0;1;31;41m▓[0;1;31;40m█[0;1;31;41m▀▀[0;1;31;40m▀▀[0;31m▀▀ [0;33m▄▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: US-MIKE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe06/raw/US-MIKE.ANS
-# Source Revision: archive-sha256:5c196d62748f8a4bdb63c997fd54d96908851bda90b736210110cebfc6625fb9
-# Source SHA-256: faa8d0bb370640ca4c4cca344242912ae6b17f749aa8565604fed50ada5267a8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-MIKE.ANS by Arlequin + Enzo (circe06); released in circe06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: US-MIKE.ANS by Arlequin + Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe06-us-mike
 
 Write-Host '
 

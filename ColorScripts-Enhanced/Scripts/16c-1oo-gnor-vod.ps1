@@ -1,13 +1,4 @@
-﻿# Converted from: VoD.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1oo_gnor/raw/VoD.ans
-# Source Revision: raw-sha256:e09f15a8cf48591c3317b53a829b899dba2963d1e47434e12b54c0c068ac9378
-# Source SHA-256: e09f15a8cf48591c3317b53a829b899dba2963d1e47434e12b54c0c068ac9378
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VoD.ans by Neurodancer (1oo_gnor); released in 1oo_gnor and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: VoD.ans by Neurodancer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1oo-gnor-vod
 
 Write-Host '
 [40m  [0;37;40m▐   ▐ ▐▄ [0;30;40m▄[0;37;40m▐ ▐▄[0;1;30;40m░[0m▐▄▄

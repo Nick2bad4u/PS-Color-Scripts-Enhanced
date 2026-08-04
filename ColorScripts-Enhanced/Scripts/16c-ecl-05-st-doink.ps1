@@ -1,18 +1,4 @@
-﻿# Converted from: ST-DOINK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-05/raw/ST-DOINK.ANS
-# Source Revision: archive-sha256:9471ca7612415a41916878584e9d9bf710a5efbc5b8d389ed1bde764e2a602ca
-# Source SHA-256: b0d3d0c5a6d1a1ad3769da4e90d8b5d4816f9d0b949df486be15dc74ae84de12
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-DOINK.ANS by splatt (eclipse); released in ecl-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: xirtam@#!
-# SAUCE Author: splatt
-# SAUCE Group: eclipse
-# SAUCE Date: 19960802
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: xirtam@#! by splatt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-05-st-doink
 
 Write-Host '
            [35m▄▄▄▄[0m   [35m■[0m           [35m▄▄[0;1;35m▐█▀▀[0m [35m [0;1;35m▀▀[0;35m [0;1;37m▄▄[0m                 [1;30m                    [0m

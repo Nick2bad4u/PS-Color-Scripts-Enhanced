@@ -1,18 +1,4 @@
-﻿# Converted from: PPE-H5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-03/raw/PPE-H5.ANS
-# Source Revision: archive-sha256:d2599b97a9288d8f82ddd62f9c4821cdc0d5105bf01763fad11be3b958d4ce10
-# Source SHA-256: 03a12e9cf77862343cd43242314e6e85eb41e10dbb78691e6cc37be52e026c75
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PPE-H5.ANS by Propane (The Used Coalition); released in used-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: H5
-# SAUCE Author: Propane
-# SAUCE Group: The Used Coalition
-# SAUCE Date: 20000126
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: H5 by Propane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-03-ppe-h5
 
 Write-Host '
 [1;34;45m ▄▀[0;35m▀[0;1;34;45m▄[0;35m█[0;1;34;45m░░[0;35m█[0;1;34;45m▒█████████[0;1;37;47m███[0;1;34;45m█████░▀▀███[0;35m█  ▀▀[0;1;34;45m▀▀▀█▄[0;35m▄[0;37m [0;1;30m█[0;1;30;47m▀▓▓▀█▀▀[0;1;30;40m█░[0;1;30;47m██▓▓▓▓███▀▀▀▀▀▀▀░▓▓█[0;1;30;40m█[0;1;30;47m▀▀█▀[0m

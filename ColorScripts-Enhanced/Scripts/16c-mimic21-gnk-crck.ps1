@@ -1,13 +1,4 @@
-﻿# Converted from: gnk-crck.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic21/raw/gnk-crck.ans
-# Source Revision: archive-sha256:02ebd5c750c15c1851ea9f5a8649201c44da40666fbc8f799133d7420620a012
-# Source SHA-256: b27e24533c95d2e5a68313829ec2f8c4bfd9df845825033dab6cb8a839eaefab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: gnk-crck.ans by Genick (mimic21); released in mimic21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: gnk-crck.ans by Genick | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic21-gnk-crck
 
 Write-Host '
 

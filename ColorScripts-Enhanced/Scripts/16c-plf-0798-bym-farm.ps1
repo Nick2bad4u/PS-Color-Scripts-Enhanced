@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-FARM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0798/raw/BYM-FARM.ANS
-# Source Revision: archive-sha256:ba14cc0f9129d345d6e8055f6819b7be294ddff8674fbcc97cd1db52d47ee088
-# Source SHA-256: c38570b81091251a51f49b3412d3b4b2c907e7a69e821dd1331b70f3440ab31d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-FARM.ANS by bymman (poffelipoff); released in plf-0798 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: a poffelipoff world
-# SAUCE Author: bymman
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19980812
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: a poffelipoff world by bymman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0798-bym-farm
 
 Write-Host '
 [1;46m░░░░░░░░░░░░░░░░░░░░░░░░[0;36m███[0;1;37;46m░░▄[0;36m████[0;1;37;46m■▄[0;36m█████[0;1;37;46m░░░░░░░[0;36m█[0;1;37;46m▄▄[0;36m██[0;1;37;46m▀[0;36m██[0;1;37;46m▀▄[0;36m███[0;1;37;46m▄▄▄█[0;1;37;40m██[0;1;37;46m▌▄[0;1;37;40m█[0;1;37;46m▄▄[0;36m█[0;1;37;46m▀▀[0;36m██[0;1;37;46m▄[0;36m██[0m

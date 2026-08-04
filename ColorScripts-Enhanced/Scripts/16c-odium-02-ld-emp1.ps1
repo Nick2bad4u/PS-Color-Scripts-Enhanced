@@ -1,18 +1,4 @@
-﻿# Converted from: LD-EMP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-02/raw/LD-EMP1.ANS
-# Source Revision: archive-sha256:47a67f112d88796e8c1419ea3c6c084684ff2719dfc540b2668a69dc0343be0d
-# Source SHA-256: 38c59254723e54c9a69712831e647d38505efa33058224d54172613f633ba3dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-EMP1.ANS by lordjazz (odium); released in odium-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the empire
-# SAUCE Author: lordjazz
-# SAUCE Group: odium
-# SAUCE Date: 19951212
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: the empire by lordjazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-02-ld-emp1
 
 Write-Host '
                                [1;35mt h e 3 m p i r e[0m

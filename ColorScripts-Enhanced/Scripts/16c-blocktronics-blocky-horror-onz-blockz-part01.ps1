@@ -1,19 +1,4 @@
-﻿# Converted from: onz-blockZ.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-blocky-horror/raw/onz-blockZ.ans
-# Source Revision: archive-sha256:9b55aad043357449b0b0f61d3eddf0a2e277e46cf0768f93c8b9bc9b99d78a77
-# Source SHA-256: 92fd6c933ce8871eb67b90780f3bd66cd3e9b758083e97f50f653c6543007412
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: onz-blockZ.ans by Onz (Blocktronics); released in blocktronics-blocky-horror and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: BlockZ
-# SAUCE Author: Onz
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20191028
-# SAUCE Dimensions: 80x74
-# SAUCE Font: IBM VGA
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: BlockZ by Onz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blocky-horror-onz-blockz-part01
 
 Write-Host '
 

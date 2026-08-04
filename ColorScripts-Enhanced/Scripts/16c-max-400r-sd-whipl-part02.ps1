@@ -1,13 +1,4 @@
-﻿# Converted from: SD-WHIPL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/max-400r/raw/SD-WHIPL.ANS
-# Source Revision: raw-sha256:473becd4fa9e2e55daa4c728be863c63a935b64a42814d5122e0debfea31d1eb
-# Source SHA-256: 473becd4fa9e2e55daa4c728be863c63a935b64a42814d5122e0debfea31d1eb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-WHIPL.ANS by Snow Dog (max-400r); released in max-400r and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 45-71
-# Columns: 1-80
+﻿# Artwork: SD-WHIPL.ANS by Snow Dog | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-max-400r-sd-whipl-part02
 
 Write-Host '
 [1;30m  [0;31m▀[0;1;31;41m▀[0;1;31;40m██████▄[0m        [31m▀[0;1;31;41m▀[0;1;31;40m██████[0;31m▀[0;1;31;41m▀[0;1;31;40m██████  [0;1;31;41m [0;1;31;40m██████▀[0;1;31;41m [0;1;31;40m██████[0;31m▀[0;1;31;41m▀[0;1;31;40m█████████████████▀[0m

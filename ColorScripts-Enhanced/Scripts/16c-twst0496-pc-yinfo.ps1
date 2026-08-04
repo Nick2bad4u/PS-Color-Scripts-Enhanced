@@ -1,18 +1,4 @@
-﻿# Converted from: PC-YINFO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst0496/raw/PC-YINFO.ANS
-# Source Revision: archive-sha256:3c7a2beca2f308f553da7e98e6442c0f3abdc286c7ddc8048ce0d5b9419ae167
-# Source SHA-256: 5b529842d8583052de853cd42a676011167805e75f8f0d24573d377d0dfd0a73
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-YINFO.ANS by putrid carcass (twisted); released in twst0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: rg stats.
-# SAUCE Author: putrid carcass
-# SAUCE Group: twisted
-# SAUCE Date: 19960401
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: rg stats. by putrid carcass | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst0496-pc-yinfo
 
 Write-Host '
                                                                           [1;30m      [0m

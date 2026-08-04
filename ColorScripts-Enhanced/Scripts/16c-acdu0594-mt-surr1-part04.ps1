@@ -1,18 +1,4 @@
-﻿# Converted from: MT-SURR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0594/raw/MT-SURR1.ANS
-# Source Revision: archive-sha256:c612ea4a59fec91943d878667a48e1c926e28a2e076d898f1c1ec92a14e6fce8
-# Source SHA-256: 281b6d2aab3e30ccb25ed1c89278790d7cb31973ea9bc4dbf58e11182307c816
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MT-SURR1.ANS by Megatron (ACiD Productions); released in acdu0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Surrealistic Underground
-# SAUCE Author: Megatron
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940501
-# SAUCE Dimensions: 80x166
-# Lines: 134-166
-# Columns: 1-80
+﻿# Artwork: Surrealistic Underground by Megatron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0594-mt-surr1-part04
 
 Write-Host '
       [1;36m▄▄[0;1;36;46m▓▓▓▒▒▒░░[0;36m▀[0m                                    [1;36m▄[0m           [1;36m▄[0m

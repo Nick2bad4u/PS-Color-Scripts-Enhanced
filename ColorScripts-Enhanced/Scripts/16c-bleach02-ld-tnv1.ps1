@@ -1,18 +1,4 @@
-﻿# Converted from: LD-TNV1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bleach02/raw/LD-TNV1.ANS
-# Source Revision: archive-sha256:8caba45145fa82c3a477d446748b2094c5bc1bf792a84bb322c71316f1a84815
-# Source SHA-256: 71699f707430fe2f42bba1d397523fdd4606d4900f9e4abcc4e4a2e812e1a158
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-TNV1.ANS by lord jazz (bleach); released in bleach02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the never matrix
-# SAUCE Author: lord jazz
-# SAUCE Group: bleach
-# SAUCE Date: 19950519
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: the never matrix by lord jazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bleach02-ld-tnv1
 
 Write-Host '
 [1;33;47m [0m▀▀▀▀▀[1;33;47m░▒▓[0m▀▀[1;33m▀[0m▀[1;33m▀▀▀[0;1;33;47m▓[0;1;33;40m█[0;1;33;47m▓[0;1;33;40m██ [0m█▀▀ [1;34m▀▀[0;1;34;47m▓▄[0;1;34;40m█▀▓▀[0m        [34m░░░░░░░░ ░ [0;1;34m▐███[0;1;34;44m▓[0;1;34;40m█[0;1;34;44m▓▓▓▒▒▒▒░ [0;34m▄ [0;37m▀████[0;1;37;47m░░[0m

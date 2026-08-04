@@ -1,18 +1,4 @@
-﻿# Converted from: BIZ-PHAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/prz-9607/raw/BIZ-PHAR.ANS
-# Source Revision: archive-sha256:c9c5cc7ecf1f26596c4d88f592166c82d585c7e5de1be5fa6d5e25ebed6d7d14
-# Source SHA-256: 9c6fa2512ccb8ae66f689f4c38e2c682047918a021cfa19647bb8db75b43d633
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BIZ-PHAR.ANS by bizzarro (pharazoone); released in prz-9607 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: pharazoone
-# SAUCE Author: bizzarro
-# SAUCE Group: pharazoone
-# SAUCE Date: 19960616
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: pharazoone by bizzarro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-prz-9607-biz-phar
 
 Write-Host '
                                    [31m▄[0;1;31;41m░[0;31m▄[0m

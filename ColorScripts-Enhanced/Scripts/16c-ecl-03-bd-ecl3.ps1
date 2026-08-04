@@ -1,18 +1,4 @@
-﻿# Converted from: BD-ECL3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-03/raw/BD-ECL3.ANS
-# Source Revision: archive-sha256:8478e7ed47e52d1e07bf55e17a5f105ced4b468c6f56a8b59fd6b8ef8dada5ca
-# Source SHA-256: 0f108e4d94a43cc215a722dd008b3965d0b6313577fd60252e78400144452c50
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BD-ECL3.ANS by old (eclipse); released in ecl-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: eclipse
-# SAUCE Author: old
-# SAUCE Group: eclipse
-# SAUCE Date: 19960701
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: eclipse by old | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-03-bd-ecl3
 
 Write-Host '
 

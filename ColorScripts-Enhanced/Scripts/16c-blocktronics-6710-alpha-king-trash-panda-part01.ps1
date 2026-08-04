@@ -1,19 +1,4 @@
-﻿# Converted from: alpha_king-trash-panda.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-6710/raw/alpha_king-trash-panda.ans
-# Source Revision: archive-sha256:65fe9e2a2e2016f30e4b0141be2d1472e9b7cc814d922f9663e0d0a04142d70a
-# Source SHA-256: fab130a1b94e41289d757f0e65e83c5b4bb3a4aa45c64eebede1e9dda65390d4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: alpha_king-trash-panda.ans by Alpha King (Blocktronics); released in blocktronics-6710 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Trash Panda
-# SAUCE Author: Alpha King
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20180608
-# SAUCE Dimensions: 80x131
-# SAUCE Font: IBM VGA
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Trash Panda by Alpha King | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-6710-alpha-king-trash-panda-part01
 
 Write-Host '
 [35;40m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██████████████████████████████████████████████████████████████[0m

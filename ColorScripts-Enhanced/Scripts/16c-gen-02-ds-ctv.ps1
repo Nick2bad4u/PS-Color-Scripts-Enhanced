@@ -1,15 +1,4 @@
-﻿# Converted from: ds-ctv.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gen-02/raw/ds-ctv.ans
-# Source Revision: archive-sha256:a8bb305fa74299fe2b84ac6a7c53e3f231aa6311f01121f9650c819a93a468d5
-# Source SHA-256: 5d7aff3c7421fc2daa24df42ba973a6e27cb2e9b35e258337533ad93674bdaee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ds-ctv.ans by Dyingsoul (gen-02); released in gen-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 19990107
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: ds-ctv.ans by Dyingsoul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gen-02-ds-ctv
 
 Write-Host '
                      [1;30m▌[0m     [1;30m▄[0;36m▄[0;1;30m▄[0m     [1;30m▄[0;36m▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: us-ima.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic18/raw/us-ima.ans
-# Source Revision: archive-sha256:8d12a522760b11897606ed8a25eb34a8b81361de801508b14142e174321fe971
-# Source SHA-256: 48538c6e805eb2c46a74274606494b16843c9c32baa6ec4ef39d595901adfd48
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-ima.ans by Aeternam (mimic18); released in mimic18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: us-ima.ans by Aeternam | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic18-us-ima
 
 Write-Host '
 [1;31m☺☺☺☺7 [0;1;37m▬▬[0;1;31m :☻☻☻☻☻$$$$$$$$[0;1;37m$$$S¬└└└$[0;1;31m│$$ $$┼[0;31m*┘""^^[0;37m""└¬│[0;1;37m$$$$$$$[0;1;34m$$$$$$$$$$$$$$$AETERNAM[0m

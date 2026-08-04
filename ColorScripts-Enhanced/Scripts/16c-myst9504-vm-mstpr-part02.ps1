@@ -1,13 +1,4 @@
-﻿# Converted from: VM-MSTPR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/myst9504/raw/VM-MSTPR.ANS
-# Source Revision: archive-sha256:a90cbdb425ce06d8710b8a57528b3d33daeeb96dcafebdfec2b142856e77525e
-# Source SHA-256: 8d6e7623b69612c063be0390f79678d57e5bdc7d674ef34eda83b0f1e0b7e244
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VM-MSTPR.ANS by Vivid Mystery (myst9504); released in myst9504 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 47-91
-# Columns: 1-80
+﻿# Artwork: VM-MSTPR.ANS by Vivid Mystery | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-myst9504-vm-mstpr-part02
 
 Write-Host '
 [1;37;47m▓▓▓▓▓▓▓▓▓▓▓█████████████▓▓▓▓▓▓██████████[0;1;37;40m█[0;1;30;45m░▒▓░▒▒░░▒▓░[0;1;37;40m█[0;1;37;47m███[0;1;37;40m█[0;1;30;45m░▒▓░▒░▒▓░▒▓[0;1;37;40m█[0;1;37;47m███[0;1;37;40m█[0;1;30;45m░▒▓░▒▓▒[0m

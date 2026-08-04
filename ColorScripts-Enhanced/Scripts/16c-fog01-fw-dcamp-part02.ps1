@@ -1,18 +1,4 @@
-﻿# Converted from: FW-DCAMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fog01/raw/FW-DCAMP.ANS
-# Source Revision: archive-sha256:ff23beaaf7c5e678ddfe7245e38bf57fb73116ac88a53b810956f932c8c2da44
-# Source SHA-256: 95e0b8dce503397d9b37d7967cad32ef475a12300bd955b97d6e2f2e363e048d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FW-DCAMP.ANS by FightWindeR (FiNiSH of GODz); released in fog01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Death Camp Board ANSi...
-# SAUCE Author: FightWindeR
-# SAUCE Group: FiNiSH of GODz
-# SAUCE Date: 19950803
-# SAUCE Dimensions: 80x89
-# Lines: 42-89
-# Columns: 1-80
+﻿# Artwork: Death Camp Board ANSi... by FightWindeR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fog01-fw-dcamp-part02
 
 Write-Host '
 [30m███████████████[0;36m▄▄▄[0;1;30;46m▄▄▄[0;1;30;44m▀▀▀[0;30;44m▓▓▓▓[0;34;40m▄[0;30;40m███[0;34;40m▀[0;30;46m▓[0;34;46m▄[0;1;30;46m▄▄▄[0;30;46m▓▓[0;1;30;46m▄▄▄[0;34;46m▄[0;30;46m▓[0;34;40m▀[0;30;40m███[0;34;40m▄[0;30;44m▓▓▓▓[0;1;30;44m▀▀▀[0;1;30;46m▄▄▄[0;36m▄▄▄[0;33m▀[0;1;33;43m░▒█[0;1;33;40m█[0;1;33;43m▓▒░[0m

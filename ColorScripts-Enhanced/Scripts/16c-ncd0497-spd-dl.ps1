@@ -1,18 +1,4 @@
-﻿# Converted from: SPD!DL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ncd0497/raw/SPD!DL.ANS
-# Source Revision: archive-sha256:eca89502cd8e1f7d1180a734517dc7783f9bfec6cc2b9c45338b917c679d8c53
-# Source SHA-256: 29142d84867c0cdf2e505e55f95766fd2ddbccc6e1d3e9f74984623a307387dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPD!DL.ANS by spud (no.code); released in ncd0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dl for jf!
-# SAUCE Author: spud
-# SAUCE Group: no.code
-# SAUCE Date: 19970331
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: dl for jf! by spud | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ncd0497-spd-dl
 
 Write-Host '
 

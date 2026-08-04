@@ -1,18 +1,4 @@
-﻿# Converted from: SK!DRIXT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p03_99/raw/SK!DRIXT.ANS
-# Source Revision: archive-sha256:c178c224bcee2a65dbc4c7dd9ad93324e20cceb3dbdfecb82089701d5d57e410
-# Source SHA-256: 0bbae79b4ddac1e64b2d73f4a494b59c2b06a5d65623c3a1dfcceadc1486a7bd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!DRIXT.ANS by sIMONkING (tHElo0p); released in l0p03_99 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: drIXTERluDZIK =)
-# SAUCE Author: sIMONkING
-# SAUCE Group: tHElo0p
-# SAUCE Date: 19990721
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: drIXTERluDZIK =) by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p03-99-sk-drixt
 
 Write-Host '
 [1;30m████▀[0m [32m▄▀▀▀▄[0;1;32;42m▄█[0;32m▀[0;37m [0;32m▄[0;1;32;42m▄▄▀[0;32m▀▀[0m   [1;30m▄▄[0;1;30;47m▓[0;1;30;40m▀[0m   [32m▄[0;1;32;42m▒▒▓▓▓▓▒▒▒░░░[0;32m███▄[0;37m [0;1;30m▀▄  ▀▐[0;1;30;47m  [0;1;30;40m▄ [0;32m██████████████████[0;1;32;42m░░[0;32m█[0m

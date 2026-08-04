@@ -45,6 +45,7 @@ All commands have detailed help documentation in `ColorScripts-Enhanced/en-US/`:
 | [ANSI-COLOR-GUIDE.md](ANSI-COLOR-GUIDE.md)           | ANSI escape codes reference and color palette guide  |
 | [ANSI-CONVERSION-GUIDE.md](ANSI-CONVERSION-GUIDE.md) | Converting ANSI art files to PowerShell colorscripts |
 | [ARTWORK\_SOURCES.md](ARTWORK_SOURCES.md)            | Collection links, licensing, and provenance rules    |
+| [Artwork details](artwork.html)                      | Per-script source, attribution, hash, and split data |
 | [POWERSHELL-VERSIONS.md](POWERSHELL-VERSIONS.md)     | PowerShell version compatibility matrix              |
 
 ## Developer Documentation
@@ -62,11 +63,11 @@ All commands have detailed help documentation in `ColorScripts-Enhanced/en-US/`:
 
 ### Release & Publishing
 
-| Document                                     | Description                                                      |
-| -------------------------------------------- | ---------------------------------------------------------------- |
-| [PUBLISHING.md](PUBLISHING.md)               | Publishing to PowerShell Gallery and optional NuGet.org          |
-| [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md) | Step-by-step release checklist with git-cliff integration        |
-| [CHANGELOG.md](../CHANGELOG.md)              | Complete project changelog                                       |
+| Document                                      | Description                                               |
+| --------------------------------------------- | --------------------------------------------------------- |
+| [PUBLISHING.md](PUBLISHING.md)                | Publishing to PowerShell Gallery and optional NuGet.org   |
+| [RELEASE\_CHECKLIST.md](RELEASE_CHECKLIST.md) | Step-by-step release checklist with git-cliff integration |
+| [CHANGELOG.md](../CHANGELOG.md)               | Complete project changelog                                |
 
 ### Project Management
 

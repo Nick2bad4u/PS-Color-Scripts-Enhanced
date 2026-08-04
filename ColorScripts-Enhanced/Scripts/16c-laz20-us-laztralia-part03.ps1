@@ -1,19 +1,4 @@
-﻿# Converted from: us-laztralia.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz20/raw/us-laztralia.ans
-# Source Revision: archive-sha256:d88c3ff3e728f60821a5682143c2fe9e054bc535483ce1618db0798990cb65e8
-# Source SHA-256: 79b8a2570a431659fea5a960c91ebce2fc53f3ee9179f80bfad563ff0500a966
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-laztralia.ans by Warpus + KRL (LAZARUS); released in laz20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Visit Sunny Laztralia
-# SAUCE Author: warpus & Krl
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20250603
-# SAUCE Dimensions: 80x148
-# SAUCE Font: IBM VGA
-# Lines: 101-148
-# Columns: 1-80
+﻿# Artwork: Visit Sunny Laztralia by Warpus + KRL | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz20-us-laztralia-part03
 
 Write-Host '
 [37m   [0;34m▀▀[0;1;34;44m▀▀[0;34m████▀[0;37m  [0;32m■▀[0;1;30m▄▒▒        ▄▄[0;31m   ▄▄▄         [0;1;37m▌[0;32m▄[0;1;32m■[0;32m▄[0;1;32;42m▄░░ ▀ [0;32m▀▀███████▓▒░  ▐[0;1;32;42m░[0;1;30;42m░[0;1;30;40m▀[0;1;32;40m  [0;34m▄█████[0m

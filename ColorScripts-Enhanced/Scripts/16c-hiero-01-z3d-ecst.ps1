@@ -1,18 +1,4 @@
-﻿# Converted from: Z3D-ECST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-01/raw/Z3D-ECST.ANS
-# Source Revision: archive-sha256:e8b205b17eac83888609630b9bd71a542fbf945c585fd366e8ff82cd7970c1c6
-# Source SHA-256: 0d1002a4462b594a5a70016d8fadce9bf53a71d2cd323df8d82d5df08be2d457
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Z3D-ECST.ANS by Zedfactor (Hieroglyphics); released in hiero-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Ecstazia
-# SAUCE Author: Zedfactor
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 19990502
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Ecstazia by Zedfactor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-01-z3d-ecst
 
 Write-Host '
 [1;30;47m░[0;1;37;47m▓▓▒░[0;1;30;47m▐[0;1;30;40m▌  ▄[0m▄[1;30;47m▀  ░░▓▓[0;1;30;40m▌[0m  [1;30m▐██▀[0m [1;30m▄▄██▓▓▓░░[0;35m  [0;1;30m▀▀▀▀▀██▄▄▄▐[0;1;30;47m░░▓▓[0;1;30;40m█▓▓░[0m   [1;30m░▓▓▓[0;1;30;47m▓▓░░[0;1;37;47m░░▓▓░░[0;1;30;47m▄▄▄▄▌[0;1;37;47m▓░[0m

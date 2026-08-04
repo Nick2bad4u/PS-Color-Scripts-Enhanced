@@ -1,18 +1,4 @@
-﻿# Converted from: HAL-SZM2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0496/raw/HAL-SZM2.ANS
-# Source Revision: archive-sha256:50df8163143d8d441a5fa61622ccb7c33b46a1217f5b4d1eaeeea3d3f2226464
-# Source SHA-256: 054d58d57b47b30743e816503dcbfcac8819966373af6a1436f4b2910a9af855
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HAL-SZM2.ANS by Halaster (fire); released in fire0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Shazam Interface
-# SAUCE Author: Halaster
-# SAUCE Group: fire
-# SAUCE Date: 19960307
-# SAUCE Dimensions: 80x25
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: Shazam Interface by Halaster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0496-hal-szm2
 
 Write-Host '
  [34m░[0;30;44m▓▓[0;34;40m░░[0;30;44m▓▓▓▒░[0;34;40m█[0;30;44m░[0;34;40m██▄   [0;1;35;40m▄▄[0;34m▀▀▀[0;30;44m░[0;34;40m██████████[0;1;36;44m■[0;34m█[0;34;44m  [0;34;40m█[0;34;44m  [0;34;40m▀▀▀[0;31;40m▄  ▄▀[0;34;40m▄██▀▀▓▄▄▄▄[0m                 [34;40m▀[0;1;34;44m░[0m

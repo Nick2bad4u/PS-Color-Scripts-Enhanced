@@ -1,18 +1,4 @@
-﻿# Converted from: S7!-PALH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge06/raw/S7!-PALH.ANS
-# Source Revision: archive-sha256:3343a7da51e4a450136a75930623f444cfdaa25bcfa6b32a1ded4c93bc4637e9
-# Source SHA-256: 9f4b613835917d520b361b8e02a171f06e67f15e7fd4f06d757199c9801c7a6e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S7!-PALH.ANS by Soulstalker (<av3nge>); released in avenge06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: brazil scene alive!
-# SAUCE Author: Soulstalker
-# SAUCE Group: <av3nge>
-# SAUCE Date: 19980628
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: brazil scene alive! by Soulstalker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge06-s7-palh
 
 Write-Host '
                             [1m    ▄▄▄▄▄▄▄▄▄▄▄▄ [0m

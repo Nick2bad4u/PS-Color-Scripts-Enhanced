@@ -1,13 +1,4 @@
-﻿# Converted from: AS-HB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wrlk004/raw/AS-HB.ANS
-# Source Revision: archive-sha256:6792b8600a47ed48488c3fe76db1aac641251ae4f8a94a9c1a54f215adbcf956
-# Source SHA-256: 861ea1fbcca7ac5f841dfbc7890c777a923063bc70f0a55decb7743d1ca66a60
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AS-HB.ANS by As-D (wrlk004); released in wrlk004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: AS-HB.ANS by As-D | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wrlk004-as-hb
 
 Write-Host '
 [1;36;40m▄[0;1;36;47m▄[0;1;37;47m▓[0;1;36;47m▀[0;1;36;40m▄[0;1;36;46m█[0;1;30;46m▄[0;1;30;40m▀▀[0;36;40m [0;37;40m >[0;1;30;40m [0;1;37;40mm[0;37;40m a    i       [0;1;37;40mn[0;37;40m             m  [0;1;37;40me[0;37;40m     [0;1;37;40mn[0;37;40m      u                 [0;1;36;40m░░[0;37;40m  [0m

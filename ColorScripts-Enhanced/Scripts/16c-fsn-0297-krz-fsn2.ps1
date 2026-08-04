@@ -1,18 +1,4 @@
-﻿# Converted from: KRZ-FSN2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0297/raw/KRZ-FSN2.ANS
-# Source Revision: archive-sha256:d5e6767ccf66425c243bc55fc2b60157e4842e0dca350575e42372c154569008
-# Source SHA-256: 0011bad3980991a824db2151208a2c5fc8a330f225702ebe814de9f615a66d2e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KRZ-FSN2.ANS by krazie (fsn97); released in fsn-0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fsn
-# SAUCE Author: krazie
-# SAUCE Group: fsn97
-# SAUCE Date: 19970202
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: fsn by krazie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0297-krz-fsn2
 
 Write-Host '
             ░░░░            [1;30m  [0m       [30;43m█[0m   [30;43m██[0m             [1;32;40m [0;1;30;40m              [0;33m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: I3-I.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden16/raw/I3-I.ANS
-# Source Revision: archive-sha256:5eec87aa8a926ff580ebebb1a03e3414c92381a206a8caa2448e563d5972636c
-# Source SHA-256: 2b3403506ba942c39521bf80d5c70c066fb83957027699b22028f893e57f97b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: I3-I.ANS by Islayer (Maiden); released in maiden16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Iron fox board!
-# SAUCE Author: Islayer
-# SAUCE Group: Maiden
-# SAUCE Date: 19980816
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Iron fox board! by Islayer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden16-i3-i
 
 Write-Host '
                          [34m   [0;1;34m▄[0m                 [36m▌[0m

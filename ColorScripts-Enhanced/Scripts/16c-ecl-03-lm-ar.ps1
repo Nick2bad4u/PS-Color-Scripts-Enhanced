@@ -1,18 +1,4 @@
-﻿# Converted from: LM-AR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-03/raw/LM-AR.ANS
-# Source Revision: archive-sha256:8478e7ed47e52d1e07bf55e17a5f105ced4b468c6f56a8b59fd6b8ef8dada5ca
-# Source SHA-256: 5ad66e3fe6e66e9220dbb6f10a85ba8d9ea4124fec37b847e1bfacad99c98ada
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LM-AR.ANS by lagomorph (3kl); released in ecl-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: acid roswell
-# SAUCE Author: lagomorph
-# SAUCE Group: 3kl
-# SAUCE Date: 19960707
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: acid roswell by lagomorph | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-03-lm-ar
 
 Write-Host '
                                                ▄▄░░

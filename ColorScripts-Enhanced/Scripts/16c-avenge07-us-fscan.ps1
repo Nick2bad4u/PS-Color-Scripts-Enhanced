@@ -1,18 +1,4 @@
-﻿# Converted from: US-FSCAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge07/raw/US-FSCAN.ANS
-# Source Revision: archive-sha256:115e0675d139221ae82af57d75adc6a5c40187386a2e1c7aedd5a13098a703d2
-# Source SHA-256: fc4d11f8594e35000ccd9552c101ef2588de2327aaf84e1b61c47d4f10d6647f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FSCAN.ANS by Imodium + Creator + Smoke (Avenge); released in avenge07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Flatscan
-# SAUCE Author: multiple
-# SAUCE Group: Avenge
-# SAUCE Date: 19980731
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Flatscan by Imodium + Creator + Smoke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge07-us-fscan
 
 Write-Host '
 [1;30m                                     [0m           ▄▄▄

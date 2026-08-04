@@ -1,18 +1,4 @@
-﻿# Converted from: QP-AMATH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m-9801/raw/QP-AMATH.ANS
-# Source Revision: archive-sha256:68027b949f7edfef662f12aa514dfc21e6e156e3984f9866a81997534ce6ce87
-# Source SHA-256: 288754f163c2afafd92632b3d26e4958f041bb69ad694cb666a95e09286a25c0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QP-AMATH.ANS by quip (mistigris); released in m-9801 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: aftermath
-# SAUCE Author: quip
-# SAUCE Group: mistigris
-# SAUCE Date: 19980111
-# SAUCE Dimensions: 80x25
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: aftermath by quip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m-9801-qp-amath
 
 Write-Host '
           [34m░░░[0m

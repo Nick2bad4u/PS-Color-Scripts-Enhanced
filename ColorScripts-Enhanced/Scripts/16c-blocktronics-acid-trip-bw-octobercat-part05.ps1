@@ -1,19 +1,4 @@
-﻿# Converted from: bw_OCTOBERCAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_acid_trip/raw/bw_OCTOBERCAT.ANS
-# Source Revision: archive-sha256:c0717ff5cb7d462ed7fa9a55edd7235adbd3f09e01132486021497c9281171b6
-# Source SHA-256: fc2fbb0c9795be797ee9f1c260323555b0ae86bf8955f8f8d35f1afd0384a803
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bw_OCTOBERCAT.ANS by binary walker (blocktronics); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: October Cat
-# SAUCE Author: binary walker
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x232
-# SAUCE Font: IBM VGA
-# Lines: 187-232
-# Columns: 1-80
+﻿# Artwork: October Cat by binary walker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-acid-trip-bw-octobercat-part05
 
 Write-Host '
   ███    [32m█[0;1;32m███[0m    [31m░▒▒▒▓████▓▒░[0;37m                            [0;31m░▒▓▒░[0;37m    [0;1;32m█████[0m     █[1;30m█[0m

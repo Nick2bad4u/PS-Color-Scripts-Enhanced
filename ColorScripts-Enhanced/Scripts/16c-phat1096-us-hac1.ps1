@@ -1,18 +1,4 @@
-﻿# Converted from: US-HAC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat1096/raw/US-HAC1.ANS
-# Source Revision: archive-sha256:df699c780a5861cb22f0e3c2213b73ec7319ac5d671d53a7a5fa1e8a0c44c9d6
-# Source SHA-256: 47851bce8062a938049405f9e680bfcb888d1e981e766708608186dcca0dde9f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-HAC1.ANS by Avenger + Vader (bm / phat); released in phat1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: haaaa c i 3 n daaaaaa
-# SAUCE Author: avenger / vader
-# SAUCE Group: bm / phat
-# SAUCE Date: 19961001
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: haaaa c i 3 n daaaaaa by Avenger + Vader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat1096-us-hac1
 
 Write-Host '
                   [30;41m▓▓[0;31;40m▄[0;30;41m▓[0;31;40m▀[0;1;31;41m▀[0;31m▀[0;37m [0;36m▄ [0;1;31;41m▄[0;31m▄[0m    [30;43m▓▓▓▓▓▓▓▓[0;33;40m▄[0;30;43m▓▓[0m

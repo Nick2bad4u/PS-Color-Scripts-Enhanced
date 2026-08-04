@@ -1,18 +1,4 @@
-﻿# Converted from: BS-ODIUM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-02/raw/BS-ODIUM.ANS
-# Source Revision: archive-sha256:47a67f112d88796e8c1419ea3c6c084684ff2719dfc540b2668a69dc0343be0d
-# Source SHA-256: 4966088ca2af34a3bfb7fedf449f29884452d5643ce3d2ffc78026d12d72fc63
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-ODIUM.ANS by burps (odium); released in odium-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: odium
-# SAUCE Author: burps
-# SAUCE Group: odium
-# SAUCE Date: 19951227
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: odium by burps | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-02-bs-odium
 
 Write-Host '
 [1;40m                                                                                [0m

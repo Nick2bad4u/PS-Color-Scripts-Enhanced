@@ -1,17 +1,4 @@
-﻿# Converted from: PE!N.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-12/raw/PE!N.ANS
-# Source Revision: archive-sha256:5c96c14e912296494a464a42e768321452d811693cf172945a9502eb4396c8bb
-# Source SHA-256: 9d02a9956d3ae72a3856f035156e8d724ae5490dcede2a8c1122d470f6fafd98
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PE!N.ANS by Phony Eye (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ninjaz
-# SAUCE Author: Phony Eye
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Ninjaz by Phony Eye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-12-pe-n
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: STT_BWS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/charm03/raw/STT_BWS.ANS
-# Source Revision: archive-sha256:8269fc9de1b1c677a1ded984d0c0b044bcff6f003794a56803e4eb2a5a520340
-# Source SHA-256: c407b51ab45bdfa9368512c01ed5ffae8d76ff966e193b7e1ba94ad4b0bed890
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STT_BWS.ANS by astute (charm); released in charm03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: brainwave stimulation
-# SAUCE Author: astute
-# SAUCE Group: charm
-# SAUCE Date: 19961224
-# SAUCE Dimensions: 80x49
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: brainwave stimulation by astute | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-charm03-stt-bws
 
 Write-Host '
 [1;30m██████████████████████[0;32m░░[0;1;30m████████████████████████████████████████████▓▓██████████[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: the textorcist - Jasmine.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_acid_trip/raw/the%20textorcist%20-%20Jasmine.ANS
-# Source Revision: archive-sha256:c0717ff5cb7d462ed7fa9a55edd7235adbd3f09e01132486021497c9281171b6
-# Source SHA-256: ccd9d11627256bd275b17d25b7f5fed81a1b1fdb021258bab73ea803528212fa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: the textorcist - Jasmine.ANS by the textorcist (blocktronics); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: jasmine
-# SAUCE Author: the textorcist
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x119
-# SAUCE Font: IBM VGA
-# Lines: 81-119
-# Columns: 1-80
+﻿# Artwork: jasmine by the textorcist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-acid-trip-the-textorcist-jasmine-part03
 
 Write-Host '
 [34m████[0;36;44m░[0;34;40m███[0;1;34;40m▒[0;34m        [0;37m▓▓   ▒▒▓▓▀▓ [0;1;30m▐[0;1;30;47m▒[0m██████[1;33;47m░░[0m█[1;47m░░░░░░▓[0;1;40m██████[0;1;47m▓▒[0m  ▓ [1m▒[0m ▀▄             [1;30m░░[0m

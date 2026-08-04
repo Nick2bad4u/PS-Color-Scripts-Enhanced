@@ -1,18 +1,4 @@
-﻿# Converted from: D5-HEYMN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gel-007/raw/D5-HEYMN.ANS
-# Source Revision: archive-sha256:9192a970cac78457607ab731e7000dbedc44aa4f5078f2ad282aff679d35f94d
-# Source SHA-256: 26a4536bf79e86d357b8eb05e47b64b33e226e79f33935cc28dad73d4a7f4311
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D5-HEYMN.ANS by dee five (gel); released in gel-007 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hey man
-# SAUCE Author: dee five
-# SAUCE Group: gel
-# SAUCE Date: 19970903
-# SAUCE Dimensions: 80x25
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: hey man by dee five | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gel-007-d5-heymn
 
 Write-Host '
 [1m     █[0m███████████████████████████████████████████████████████████[1m█▄▄▄[0m

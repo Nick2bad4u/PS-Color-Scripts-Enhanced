@@ -1,19 +1,4 @@
-﻿# Converted from: avg-EVOKE2013.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_acid_trip/raw/avg-EVOKE2013.ANS
-# Source Revision: archive-sha256:c0717ff5cb7d462ed7fa9a55edd7235adbd3f09e01132486021497c9281171b6
-# Source SHA-256: b280ca3c77e913ebf301af9e87b03991b261dcf13972d6f2e7775bec193c2d4f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-EVOKE2013.ANS by avenging angel (blocktronics); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: evoke 2013
-# SAUCE Author: avenging angel
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x55
-# SAUCE Font: IBM VGA
-# Lines: 29-55
-# Columns: 1-80
+﻿# Artwork: evoke 2013 by avenging angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-acid-trip-avg-evoke2013-part02
 
 Write-Host '
  [1;34m▀▀[0;1;32;46m ███[0;1;37;42m████[0;36m▄[0;1;34m   [0;1;32m░░░[0;34m██[0;1;32;46m█[0;1;37;40m██[0;1;32;46m█[0;36m [0;1;30m█[0;34m██[0;1;32;46m▓[0;1;37;40m░░[0;1;32;46m▓[0;1;30;46m█[0;1;30;40m█[0;1;32;46m▓[0;1;37;42m▓▓▓▓▓▓▓[0;1;32;46m▓[0;1;30;40m█[0;1;30;46m█[0;1;32;46m▓[0;1;37;40m░░[0;1;32;46m░▓▓░[0;1;30;40m▀[0;34m ▄▄[0;36m█[0;1;32;46m▒███[0;1;37;42m█[0;1;37;46m██▄[0;36m▄[0;34m  [0;1;30m▀▀[0;1;32m░░░[0;1;30m [0;1;34;46m█[0;1;34;40m▄[0m

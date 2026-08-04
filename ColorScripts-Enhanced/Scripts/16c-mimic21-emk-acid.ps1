@@ -1,18 +1,4 @@
-﻿# Converted from: emk-acid.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic21/raw/emk-acid.ans
-# Source Revision: archive-sha256:02ebd5c750c15c1851ea9f5a8649201c44da40666fbc8f799133d7420620a012
-# Source SHA-256: b8720da26d381c4987a50ac0b247a961cd2ff88dfa16ac0703f1fcfd446162af
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: emk-acid.ans by emok (mimic); released in mimic21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: i lost my skillz
-# SAUCE Author: emok
-# SAUCE Group: mimic
-# SAUCE Date: 20000224
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: i lost my skillz by emok | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic21-emk-acid
 
 Write-Host '
 [1;30m[0m[1;30m[0m

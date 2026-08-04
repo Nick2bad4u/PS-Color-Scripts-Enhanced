@@ -1,13 +1,4 @@
-﻿# Converted from: PM-ELEU.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9409a/raw/PM-ELEU.ICE
-# Source Revision: archive-sha256:a92227369d28f50cbc2bfd487ba80600635ab872d2f29d81a7af3d04a31fd498
-# Source SHA-256: 3dde9cec54ac72692293d299945b936f772d3e8a2936bb0f2bb25f1f9d710e17
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-ELEU.ICE by Psyberman + Animal (ice9409a); released in ice9409a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: PM-ELEU.ICE by Psyberman + Animal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9409a-pm-eleu-part01
 
 Write-Host '
 [1;30m█████▓██▀██████▓▀███▀▀▓██▀██████▓▀███████▓▀██████▓█▀█████████▓▀████▓███▀█████▓██[0m

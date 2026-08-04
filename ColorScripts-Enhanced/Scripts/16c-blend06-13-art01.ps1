@@ -1,18 +1,4 @@
-﻿# Converted from: 13-ART01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend06/raw/13-ART01.ANS
-# Source Revision: archive-sha256:bdb12df6fb66b6e7f7ab1240c15e9b23d66b94ced69828c85c717709162a24eb
-# Source SHA-256: 18bdfe46bb111add7e687577071b5dc91ec7b907bf2f33103b1990d82d5b575d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 13-ART01.ANS by ville (blend sexual); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Alla koivupuun...
-# SAUCE Author: ville
-# SAUCE Group: blend sexual
-# SAUCE Date: 19970208
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Alla koivupuun... by ville | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend06-13-art01
 
 Write-Host '
 [34m░▀ ▄[0;34;46m▀[0;1;36;46m▄[0;34;46m▓[0;34;40m▀█[0;34;46m▀[0;34;40m▓▄[0;34;46m▀▄[0;34;40m█[0;34;46m▓▓[0;34;40m██████[0;34;46m▓▀▄▓▀▓▄[0;34;40m█[0;34;46m▀▀▄▄▄▄█▀▀[0;34;40m█[0;34;46m▓▄▀[0m    [34;40m░[0;34;46m▌▐ [0;34;40m█[0;34;46m▓[0;34;40m███████▓▒░░[0m   [37;40m░  [0;32;40m░█[0m   [32;40m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: DF-AR2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/int-0595/raw/DF-AR2.ANS
-# Source Revision: archive-sha256:e22d3952ca70c64f879897fb904ffbbf60c66bd0e40f7e119d0e6bdf3808e773
-# Source SHA-256: 32039268d5ddcf736a32c204eeeca87115b1ecf49409ba6e1f40356a6e73c095
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DF-AR2.ANS by Darkforce (Integrity); released in int-0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Abstract Realisms
-# SAUCE Author: Darkforce
-# SAUCE Group: Integrity
-# SAUCE Date: 19950430
-# SAUCE Dimensions: 80x25
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Abstract Realisms by Darkforce | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-int-0595-df-ar2-part01
 
 Write-Host '
 [1;30m▒▓▀▀█▀[0;1;31m▄▄▀▀■[0;1;30m ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m

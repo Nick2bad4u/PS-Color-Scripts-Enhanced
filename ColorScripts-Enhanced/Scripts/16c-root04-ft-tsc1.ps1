@@ -1,18 +1,4 @@
-﻿# Converted from: FT-TSC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root04/raw/FT-TSC1.ANS
-# Source Revision: archive-sha256:8dec1aa0e303d37205499818eaff4458ebf93774cd973f016deaae45658df6b3
-# Source SHA-256: 8cedee7dd256c811be40f96400a7eccc53df40fd39adce98a60f6b737bf484cc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FT-TSC1.ANS by Flight (Root); released in root04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: wow.  something original!
-# SAUCE Author: Flight
-# SAUCE Group: Root
-# SAUCE Date: 19970518
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: wow. something original! by Flight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root04-ft-tsc1
 
 Write-Host '
 [34m░░[0m            [34m▀▀▀████▀▀[0m       [34m░░   ▀▀▀████▀▀████▄▄▄▄▄ ▄[0m            [34m▀ ▀▀▀████▀▀█[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: nf-Evoke2018.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel27/raw/nf-Evoke2018.ans
-# Source Revision: raw-sha256:289b8accbdabf1699bb54afbfefeb2290e729dd35af1d9af8266b09b7b76f6b3
-# Source SHA-256: 289b8accbdabf1699bb54afbfefeb2290e729dd35af1d9af8266b09b7b76f6b3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: nf-Evoke2018.ans by Necro + Necrofiliac (fuel); released in fuel27 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: I saw you
-# SAUCE Author: necro
-# SAUCE Group: fuel
-# SAUCE Date: 20180818
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: I saw you by Necro + Necrofiliac | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel27-nf-evoke2018
 
 Write-Host '
 [1;31;41m▓[0;1;37;40m▀[0;1;31;40m▄[0;36m▀▀[0;1;33;46m▒▓[0;1;33;40m [0;1;37;40m▄[0;1;33;43m▓[0;1;33;40m▀▄[0;1;37;40m▄▀[0m      [1;33;40m▄▄[0;1;37;40m▀[0;1;33;40m▀ [0;1;37;40m▀[0;33m▄  [0;34m▄[0;1;34m▐[0;34m▌▄    [0;33m▀[0;1;37m▀[0;1;33;43m▓[0;1;33;40m▀ ▄[0;1;37;40m▀▄[0;33m▄[0;1;37m▀[0;1;33m▀[0;1;33;43m▓[0;33m▀[0;1;33;43m▓▒[0;1;33;40m▄  [0;1;32;42m▓[0m           [1;37;40m▄   [0;1;31;40m▄[0;1;37;40m▄▀▀[0;1;31;40m▄[0;1;31;41m▒▓[0;1;31;40m▄▄[0m

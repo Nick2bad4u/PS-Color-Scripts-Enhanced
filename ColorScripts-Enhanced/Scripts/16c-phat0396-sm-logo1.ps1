@@ -1,18 +1,4 @@
-﻿# Converted from: SM-LOGO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0396/raw/SM-LOGO1.ANS
-# Source Revision: archive-sha256:4840956a784b32a4a9e617c5baaeab5274263fdb9ff2d98a840492545e3abb06
-# Source SHA-256: df4120a5b5307cf1d33b3b29e4a13a8ee1e95f7f354f6450c50a0e78017b80cc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-LOGO1.ANS by SyncMaster (WOS^PhAT^blind); released in phat0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hAPPY VALENTINE
-# SAUCE Author: SyncMaster
-# SAUCE Group: WOS^PhAT^blind
-# SAUCE Date: 19960219
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: hAPPY VALENTINE by SyncMaster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0396-sm-logo1
 
 Write-Host '
 [1m ▬■▀▀▀▀▀■▄ ▄▀▀▀■▀▀▀■▬[0m          [1;47m▀[0m▀ ▀[1;30m ■▀[0m  [1;30m■▀[0m    [1;30m■[0m     [1;30m■[0m        [1;30m■ ■[0m     [1;30m■▀[0m  ▀ ▀[1;47m▀[0m

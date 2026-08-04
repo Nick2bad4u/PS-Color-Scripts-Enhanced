@@ -1,19 +1,4 @@
-﻿# Converted from: sm-dngnun.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel28/raw/sm-dngnun.ans
-# Source Revision: archive-sha256:f19d9f1f4d98a894d9a58a43443858287108d50e702695e0859df539776cf44a
-# Source SHA-256: fcf2207e48c7784b9b5c76e2345eeb327c449ca0817a0d87ebdc5377c9b88d47
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sm-dngnun.ans by Smooth (Fuel); released in fuel28 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Dungeon BBS <nun>
-# SAUCE Author: Smooth
-# SAUCE Group: Fuel
-# SAUCE Date: 20181226
-# SAUCE Dimensions: 80x380
-# SAUCE Font: IBM VGA
-# Lines: 287-333
-# Columns: 1-80
+﻿# Artwork: Dungeon BBS <nun> by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel28-sm-dngnun-part07
 
 Write-Host '
 [38;2;130;130;130m [0;1;38;2;64;64;64m▄▄▀▀[0;1;38;2;245;50;50m [0;1;38;2;64;64;64m▀▀▄[0;1;38;2;245;50;50m  [0;1;38;2;64;64;64m██[0;1;38;2;64;64;64;48;2;245;50;50m▒[0;1;38;2;245;50;50m  [0;1;38;2;64;64;64m ▄▀▀▀▀[0m        [1;38;2;64;64;64m█[0;1;38;2;64;64;64;48;2;128;64;0m▓[0;1;38;2;64;64;64;40m█▀[0m                               [1;38;2;64;64;64m▓██[0;1;38;2;64;64;64;48;2;245;50;50m▓[0;38;2;130;130;130m   [0;1;38;2;64;64;64m█▀▄▄[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: CXC_DOORS_GENERAL_CRAZYOLDGU2021.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0221/raw/CXC_DOORS_GENERAL_CRAZYOLDGU2021.ANS
-# Source Revision: archive-sha256:4a8c9a8001bc7db23e62733bd188b07e2f92f8b5caca34bf87f4e45dd922c1a0
-# Source SHA-256: 742c8fae37ae9af15524cbb50ac8a92111d6954466e9cb3928ae3017629854d2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CXC_DOORS_GENERAL_CRAZYOLDGU2021.ANS by CoaXCable (Mistigris); released in mist0221 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Doors menu
-# SAUCE Author: CoaXCable
-# SAUCE Group: Mistigris
-# SAUCE Date: 20210224
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Doors menu by CoaXCable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0221-cxc-doors-general-crazyoldgu2021
 
 Write-Host '
 [35m■▄[0;37m [0;35m▄▄[0;1;33m▄▄[0;36m▀██████▀[0;35m▄[0;1;33m▄▄[0;36m▀███[0;1;32;46m▒▓[0;36m█▀[0;35m▄[0;1;33m▄▄[0;36m▀██[0;37m [0;35m▀▄[0;37m [0;35m▄▄[0;1;33m▄▄[0;1;37m▄[0;36m▀▓[0;37m [0;35m▀▄[0;37m [0;35m▄▄[0;1;33m▄[0;1;37m▄[0;36m ▓██████████████████████████[0m

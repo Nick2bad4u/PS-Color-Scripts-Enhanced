@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-LD03.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-25/raw/BYM-LD03.ANS
-# Source Revision: archive-sha256:2152dff354d60c80170c9d8be31827e379e6559d91f2ff68dd5573418d4c54c2
-# Source SHA-256: 63210d1ca15eb37f14ec03e1f1c8c48794e822f3357dc9211719a3c838a9447c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-LD03.ANS by Superbym (plf); released in plf-25 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Piranha's LORD - Menus part 3
-# SAUCE Author: Superbym
-# SAUCE Group: plf
-# SAUCE Date: 20020914
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Piranha's LORD - Menus part 3 by Superbym | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-25-bym-ld03
 
 Write-Host '
 [1;36m────────────────────────────────────────────────────────────────────────────────[0m

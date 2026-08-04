@@ -1,13 +1,4 @@
-﻿# Converted from: OB!-OCTA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0497/raw/OB!-OCTA.ANS
-# Source Revision: archive-sha256:6310c9227506d6d2a21aaf62decb0dd3510e5ffb455efa377e329a37d758ea8f
-# Source SHA-256: ecae715533e81fd779642913c973a83e0e26222c814115f220eaef1f0d720d7b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OB!-OCTA.ANS by Oddball (opx-0497); released in opx-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: OB!-OCTA.ANS by Oddball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0497-ob-octa
 
 Write-Host '
 

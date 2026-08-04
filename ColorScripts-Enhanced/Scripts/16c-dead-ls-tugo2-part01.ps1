@@ -1,13 +1,4 @@
-﻿# Converted from: LS-TUGO2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dead/raw/LS-TUGO2.ANS
-# Source Revision: archive-sha256:42002c7465322e6567b6ada22b7d24270f500cdc26769d5efac519e13d8ec757
-# Source SHA-256: f5605088c2f9ceb7092bb0fe83aab7bb862871be65630b522ef87fe48c16bc15
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LS-TUGO2.ANS by Longshot (dead); released in dead and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: LS-TUGO2.ANS by Longshot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dead-ls-tugo2-part01
 
 Write-Host '
                                    [1;34m▄▄▄▄▄▄[0;34m▄▄[0m

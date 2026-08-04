@@ -1,18 +1,4 @@
-﻿# Converted from: TSK-BLD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cancer01/raw/TSK-BLD1.ANS
-# Source Revision: archive-sha256:1d674e5cb6391162607aaf95710b795f9d6c8bbd06eec06cf5932f93f338c133
-# Source SHA-256: 5ddf61a42eb5e0d8df99db96ad054773778f257c64ea61cc4865c29335c047c7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-BLD1.ANS by The Silent Killer (Cancer); released in cancer01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Blind Studios
-# SAUCE Author: The Silent Killer
-# SAUCE Group: Cancer
-# SAUCE Date: 19960303
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Blind Studios by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cancer01-tsk-bld1
 
 Write-Host '
                                                      [1;30mn[0m

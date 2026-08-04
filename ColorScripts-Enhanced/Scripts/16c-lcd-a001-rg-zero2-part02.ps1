@@ -1,18 +1,4 @@
-﻿# Converted from: RG-ZERO2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lcd-a001/raw/RG-ZERO2.ANS
-# Source Revision: archive-sha256:55e314de3437204a90547056ed7bd388c2225541f9bc2d93c6d567b798eee7fd
-# Source SHA-256: 3da2221072871110afc93d90aeb7f9e8774c4fd7914c220b50817469e01c4c64
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RG-ZERO2.ANS by Rimgale (LUCiD); released in lcd-a001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ZeroGravity Logo #1
-# SAUCE Author: Rimgale
-# SAUCE Group: LUCiD
-# SAUCE Date: 19941208
-# SAUCE Dimensions: 80x25
-# Lines: 35-68
-# Columns: 1-80
+﻿# Artwork: ZeroGravity Logo #1 by Rimgale | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lcd-a001-rg-zero2-part02
 
 Write-Host '
      [1;31;43m░▓[0;1;31;40m█████████[0;1;31;43m▓[0;1;31;40m█[0;1;31;43m▓[0;1;31;40m██[0;1;31;43m▓▒▓[0;1;31;40m█████████████████████████[0;1;31;43m▓▒[0m [1;31;43m▒▓[0;1;31;40m▌[0m

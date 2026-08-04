@@ -1,13 +1,4 @@
-﻿# Converted from: SP-ICE.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-0393-logos/raw/SP-ICE.ICE
-# Source Revision: archive-sha256:92355dc5aeb2f6c3596b1ab1cee0512119f84e665989af0eb7f9b2c4986f9875
-# Source SHA-256: 74fa47bedcef5852756c8eeeaa828fc1ed1e5540bc0db610f677017c4643893c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SP-ICE.ICE by Sparr (ice-0393-logos); released in ice-0393-logos and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: SP-ICE.ICE by Sparr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-0393-logos-sp-ice
 
 Write-Host '
 [1;31m████████████████████████▀▀██████████████████████████████████████████████████████[0m

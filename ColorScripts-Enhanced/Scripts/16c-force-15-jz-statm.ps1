@@ -1,18 +1,4 @@
-﻿# Converted from: JZ-STATM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-15/raw/JZ-STATM.ANS
-# Source Revision: archive-sha256:cd2d406ee7567eb1c250b9572bb0b7fdd8b6cfa2b5014b290774725da37d8cc8
-# Source SHA-256: c00365ee4f62eb612097522aaf0ab52c389cd5164ad7a88185d4787155d72b44
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JZ-STATM.ANS by JEz (fORCE); released in force-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Static disCharge matrix
-# SAUCE Author: JEz
-# SAUCE Group: fORCE
-# SAUCE Date: 19970112
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Static disCharge matrix by JEz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-15-jz-statm
 
 Write-Host '
 [32m▐█▀ [0;1;33m▄[0;1;33;43m▓[0;1;33;40m▄█[0;1;33;43m▀▒░ [0;33m█[0;1;33;43m [0;33m▀▀▀ ▀ ▄▄▄▄██████▓▀▀█▀▀█[0;1;31;43m [0;33m▄▄[0;1;33m [0;33m▀██[0;1;33;43m░▓[0;1;33;40m█▄▄[0m [32m▀█[0;31;42m░[0;32;40m██[0;1;32;42m▄▄[0;1;32;40m██[0m [1m [0m [1m      [0m  [1m▄▄[0m

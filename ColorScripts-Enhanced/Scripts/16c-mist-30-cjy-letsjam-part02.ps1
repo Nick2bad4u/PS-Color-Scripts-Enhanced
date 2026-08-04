@@ -1,19 +1,4 @@
-﻿# Converted from: CJY-LETSJAM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/CJY-LETSJAM.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: 1cf3c0423fb124dab57cbc3371b8962fc13013b775bd875536a43f6a6a3fef30
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CJY-LETSJAM.ANS by consolejockey (Mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Let's Jam
-# SAUCE Author: consolejockey
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241230
-# SAUCE Dimensions: 80x100
-# SAUCE Font: IBM VGA
-# Lines: 51-98
-# Columns: 1-80
+﻿# Artwork: Let's Jam by consolejockey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-cjy-letsjam-part02
 
 Write-Host '
 [1;30;40m             [0;31m▐██[0;31;41m▀[0;31;40m█[0;1;31;40m                                    [0;30;44m▓▓▒▒[0;32;44m▀[0;30;44m▒▒▒░░░░[0;1;32;42m  ░▒▓[0;30;44m░[0;34;40m██[0m

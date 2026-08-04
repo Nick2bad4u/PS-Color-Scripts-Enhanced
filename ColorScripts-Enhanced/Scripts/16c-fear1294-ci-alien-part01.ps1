@@ -1,13 +1,4 @@
-﻿# Converted from: CI-ALIEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fear1294/raw/CI-ALIEN.ANS
-# Source Revision: archive-sha256:ce48958b81ce02cd7817b7016d49203a4a8b0d17f60c6c2aca6560a372e9e82c
-# Source SHA-256: cf44bc39c3338c3d819740738758f0998c26017cd0a6d32019d88aeb4c878cd6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CI-ALIEN.ANS by Criminally Insane (fear1294); released in fear1294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: CI-ALIEN.ANS by Criminally Insane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fear1294-ci-alien-part01
 
 Write-Host '
 [1;30m┌─────────────────────────────────────────────────┬────────────────────────────┐[0m

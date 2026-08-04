@@ -1,17 +1,4 @@
-﻿# Converted from: LI-NATT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel16/raw/LI-NATT2.ANS
-# Source Revision: archive-sha256:78bbfd1159c4b51678435d1ff23762559e425f3010119f2abd28bf83d67e513d
-# Source SHA-256: 19f6bdb42c630876c2f9872a2032113c61e660a8fb65914496fbc73da7e97473
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LI-NATT2.ANS by lint (fuel); released in fuel16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: natt2
-# SAUCE Author: lint
-# SAUCE Group: fuel
-# SAUCE Dimensions: 80x25
-# Lines: 26-52
-# Columns: 1-80
+﻿# Artwork: natt2 by lint | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel16-li-natt2-part02
 
 Write-Host '
 [36m█[0;1;36;46m░░[0;36m▄[0m    [33m█[0;37m [0;33m█[0;1;31;47m▒▒▓[0;1;31;43m▒[0m [1;31m▄█[0;1;31;47m▒▄▓[0;1;31;40m█[0;1;31;43m▒░[0;33m▌[0;37m  [0;33m▀[0;1;31;43m▓[0;1;31;40m████[0;1;31;43m▒[0;33m██▒░[0m           [33m▄[0;1;30;43m▓▒▒░░[0;33m████▀  ▄▄▄    [0;1;30m▐█▄[0m    [33m▐[0;1;31;43m▓▓[0;33m█[0m

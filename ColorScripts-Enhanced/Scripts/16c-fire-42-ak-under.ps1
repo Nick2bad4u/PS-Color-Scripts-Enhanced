@@ -1,19 +1,4 @@
-﻿# Converted from: AK-UNDER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-42/raw/AK-UNDER.ANS
-# Source Revision: archive-sha256:5477badab90aaaa6ee2d08aa380254b6982d860b5d0de201e348668cb1eaa063
-# Source SHA-256: 2b090eae4d63467ec2c531331e5a1e861817e84ad184eb6e916af9d6c1e20d5e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-UNDER.ANS by abstrakt (fire); released in fire-42 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the underground
-# SAUCE Author: abstrakt
-# SAUCE Group: fire
-# SAUCE Date: 20250303
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: the underground by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-42-ak-under
 
 Write-Host '
        [1;35;40m,[0m                      [1;31;40m,[0;31m┐[0;1;35m  ,┌⌐/  [0;31m,.[0m                         [1;35m,┌`[0m

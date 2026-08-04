@@ -1,19 +1,4 @@
-﻿# Converted from: N-HGREET.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-43/raw/N-HGREET.ANS
-# Source Revision: archive-sha256:d3967e67800d0c773a52f120751caeb2bc01ead5180b478fb0a0e89978edc4ec
-# Source SHA-256: 1a45eeeeab19524d230f8ddb898a88d261713f0af067663972558353f112ce47
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-HGREET.ANS by nail (fire); released in fire-43 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: halloween greetings
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 20250707
-# SAUCE Dimensions: 80x90
-# SAUCE Font: IBM VGA
-# Lines: 51-90
-# Columns: 1-80
+﻿# Artwork: halloween greetings by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-43-n-hgreet-part02
 
 Write-Host '
 [1;30m▐[0;1;30;47m▓[0;1;30;40m▌[0m [1;33;43m░░[0m   [33m▀[0;1;31m█[0;1;31;43m░[0;1;31;40m█[0;1;31;43m [0;1;31;40m█[0;1;31;43m▓[0;1;31;40m█[0;1;31;47m▓[0;1;31;40m█[0;1;31;43m▓[0;1;31;40m████[0;1;31;43m▓▓▄[0m    [1;30m ▄▄▓▓▄[0m     [1m▒▒[0;1;36;47m▄[0m▄[1;30m▄[0;36m▀[0;1;36;46m▓▓▓▓▓▓▓▓▓▓▓[0;1;36;40m [0m     [1;30m [0m▒▒[1;30;47m░░▓[0;1;30;40m▀[0;33m▄[0;1;31;43m▄[0;1;31;47m▓▓[0;1;31;40m▀[0;33m▄[0;37m [0;33m█[0m

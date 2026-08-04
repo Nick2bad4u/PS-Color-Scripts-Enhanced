@@ -1,17 +1,4 @@
-﻿# Converted from: m-EIGHTA.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-lc-artdisk/raw/m-EIGHTA.ans
-# Source Revision: archive-sha256:d99dd05882b547bcfac565e3fc99e4c20080a2bb9c34c833b810d4e465d15217
-# Source SHA-256: de0c9bc18e325ea76c91459956080494d5e8fa6d3137d0d1c28e3dc557689583
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: m-EIGHTA.ans by Muton (MiSTiGRiS); released in mist-lc-artdisk and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Eight
-# SAUCE Author: Muton
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19970930
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Eight by Muton | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-lc-artdisk-m-eighta-part01
 
 Write-Host '
 [1;30m···[0m [1;30m·[0m [1;30m·[0m                                   [1;33m·[0m     [1;33m·[0m  [1;33m·[0m [1;33m·[0m [1;33m··[0m [1;33m········∙∙∙∙::;;;;;;;;[0m

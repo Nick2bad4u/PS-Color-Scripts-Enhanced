@@ -1,18 +1,4 @@
-﻿# Converted from: PO-KAOZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat1296/raw/PO-KAOZ.ANS
-# Source Revision: archive-sha256:7d01b0bd390151991b0a903d8d987d245c20f2b06635915da8eb049974bd356a
-# Source SHA-256: c3ac96f9c75ec2481ae5db7d9db3193f519589a48526eea9f131988366c97e12
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PO-KAOZ.ANS by poti. (phat.); released in phat1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: kaoz.
-# SAUCE Author: poti.
-# SAUCE Group: phat.
-# SAUCE Date: 19961125
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: kaoz. by poti. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat1296-po-kaoz
 
 Write-Host '
                    [34m▄[0;36;44m░[0;34;40m▀[0;37;40m                                [0;34;40m■▄▄[0m

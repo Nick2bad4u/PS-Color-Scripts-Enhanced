@@ -1,18 +1,4 @@
-﻿# Converted from: DH-TFDG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1294/raw/DH-TFDG.ANS
-# Source Revision: archive-sha256:cdbcb9a1bc657d7fc43541311eb698f89b835e70e6f5a119ee201b2d814389a6
-# Source SHA-256: 6a79282927f20eb09789205b8d88b54a5fbe7d03cc3116caf1889a093b33b6dd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DH-TFDG.ANS by Donut Hole (Fire); released in fire1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Flying Donuts
-# SAUCE Author: Donut Hole
-# SAUCE Group: Fire
-# SAUCE Date: 19941212
-# SAUCE Dimensions: 80x25
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: The Flying Donuts by Donut Hole | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1294-dh-tfdg-part01
 
 Write-Host '
                                    [1;32m▌[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: SY-ND.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9410/raw/SY-ND.ICE
-# Source Revision: archive-sha256:8c9142d0352992206e7fd9f090a7f89eeb1bb8623b53334a6a4eb0e9111ecc28
-# Source SHA-256: d645b35b7f8b1bf1dae3038fbb1dd7bb717e36bea8708ab85acf55a4a9c3af40
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SY-ND.ICE by Shaggy + Toon Goon (ice-9410); released in ice-9410 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: SY-ND.ICE by Shaggy + Toon Goon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9410-sy-nd-part01
 
 Write-Host '
 [32m█████▀▀▀▀████████████████████████████████████████████████▀▀▀▀▀█████████████████[0;37m [0m

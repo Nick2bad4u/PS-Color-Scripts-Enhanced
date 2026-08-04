@@ -1,16 +1,4 @@
-﻿# Converted from: EYE-CAKE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jive0996/raw/EYE-CAKE.ANS
-# Source Revision: archive-sha256:6b7d48e396de55126b3ae9c64ca3a6e3836b2eee40f86ad76fd1706353435055
-# Source SHA-256: febc0c367ca335d1729da7a22ad74bb8ceaae639a03c1a7a77bd26202a8c407f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EYE-CAKE.ANS by Eyeball (JiVE); released in jive0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Cake + S0domy
-# SAUCE Author: Eyeball
-# SAUCE Group: JiVE
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: Cake + S0domy by Eyeball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jive0996-eye-cake
 
 Write-Host '
 [1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m [32m$$$$$$$$ⁿ''''[0;1;37m,y@y,[0;32m``ⁿ$$$$$$$$$$$$$$$$$$$$$$$$$ⁿⁿⁿ$$$$$$$$$$$$ⁿ''''[0;1;37m,y@y[0m,[32m``ⁿ$$$$$$$$[0;37m [0m

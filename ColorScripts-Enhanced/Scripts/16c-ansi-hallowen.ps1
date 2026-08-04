@@ -1,13 +1,4 @@
-﻿# Converted from: HALLOWEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansi/raw/HALLOWEN.ANS
-# Source Revision: archive-sha256:50aaa63d173fc2f34f94b8a5b526a5ee8a8b9d7908c42264ab949073e7e0edf9
-# Source SHA-256: b2e80325d6391ceb8f857f45dbb1123259b82b9bbbef6f9a0bf842369d6a38b7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HALLOWEN.ANS by Ansi Antics (ansi); released in ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: HALLOWEN.ANS by Ansi Antics | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansi-hallowen
 
 Write-Host '
 [34;40m█[0;1;37;44m.[0;34;40m█[0;1;33;44m▄▄[0;1;33;40m██████████████████████[0;1;33;44m▄▄[0;34;40m████[0;1;37;44m..[0;34;40m██████████████[0;1;37;44m.[0;34;40m███████████████[0;1;37;44m.[0;34;40m████████████ [0;1;30;40mS[0m

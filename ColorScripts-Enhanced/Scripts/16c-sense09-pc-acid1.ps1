@@ -1,18 +1,4 @@
-﻿# Converted from: PC-ACID1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense09/raw/PC-ACID1.ANS
-# Source Revision: archive-sha256:b3e3029d8f7c1c608f2835055baa2116210e782109ea7dc0a1af3ca3d050e5b9
-# Source SHA-256: 9e14ccea4904d3315938656e67a8a71f9c564fbb8823423e30c0b80697f4cf46
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-ACID1.ANS by Proctologist (SeNsE); released in sense09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: acid infection
-# SAUCE Author: Proctologist
-# SAUCE Group: SeNsE
-# SAUCE Date: 19980514
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: acid infection by Proctologist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense09-pc-acid1
 
 Write-Host '
 

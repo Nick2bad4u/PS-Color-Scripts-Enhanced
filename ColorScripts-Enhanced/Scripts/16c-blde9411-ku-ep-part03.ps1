@@ -1,18 +1,4 @@
-﻿# Converted from: KU-EP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9411/raw/KU-EP.ANS
-# Source Revision: archive-sha256:79cc4c8f449f9f4069fbe5b152a1416ccd968354ad63ab0dfce361f0f42f13a8
-# Source SHA-256: 28a93ae03434da5e43eba1c842b874518b56681d457934e8bdbfd7393959ae1b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KU-EP.ANS by Kung Lao (Blade Productions); released in blde9411 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Eternal Psychosis
-# SAUCE Author: Kung Lao
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19941023
-# SAUCE Dimensions: 80x25
-# Lines: 101-133
-# Columns: 1-80
+﻿# Artwork: Eternal Psychosis by Kung Lao | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9411-ku-ep-part03
 
 Write-Host '
        [1m▌[0m                                [1m▌[0m                     [1m▐[0m

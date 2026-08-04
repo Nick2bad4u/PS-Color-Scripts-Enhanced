@@ -1,20 +1,4 @@
-﻿# Converted from: us-0d1um.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna03/raw/us-0d1um.ans
-# Source Revision: archive-sha256:997aaab655669129eb266c21ca0c4588b603e11c90338498bb530f8bba390fb2
-# Source SHA-256: fc7c3a4c1f57ff1784c223c7e655e75fd132ceb377a7defc08759d89106f3b58
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-0d1um.ans by Alpha King + Filth (blocktronics); released in thesauna03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: odium
-# SAUCE Author: ak fil
-# SAUCE Group: blocktronics
-# SAUCE Date: 20210811
-# SAUCE Dimensions: 80x45
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Veritas odium parit.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: odium by Alpha King + Filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna03-us-0d1um
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: gj-holdup.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/crisis9/raw/gj-holdup.ans
-# Source Revision: archive-sha256:4a6dc91ed3f4b07efbca45e28bb9c5eb5d2dc5a4b9a9571d7f4b3ad9b762f736
-# Source SHA-256: 0a553db34e3279a9560dadc577479f731953cd772b4fcdacd70ee56a725de7a8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: gj-holdup.ans by Grymmjack (crisis9); released in crisis9 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: gj-holdup.ans by Grymmjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-crisis9-gj-holdup-part01
 
 Write-Host '
 [31m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: MM-23RET.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9805/raw/MM-23RET.ICE
-# Source Revision: archive-sha256:8bc8777170e345252afb417c07a58b18d07ceb3469d1e0c7023dc70fc349f4fe
-# Source SHA-256: c0a0d0c05f57faf3260e686f279427a2550581a620a91a05c828f1b04e35111a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-23RET.ICE by Magnetic M (ice9805); released in ice9805 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: MM-23RET.ICE by Magnetic M | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9805-mm-23ret
 
 Write-Host '
                                [1;30m▄▄▄▄▄▄█▀▀▀▀███▄▄▄▄▄[0m

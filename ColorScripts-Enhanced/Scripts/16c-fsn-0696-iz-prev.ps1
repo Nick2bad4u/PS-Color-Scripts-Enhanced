@@ -1,18 +1,4 @@
-﻿# Converted from: IZ%PREV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0696/raw/IZ%25PREV.ANS
-# Source Revision: archive-sha256:91a5df7d6634d8d6a544eb72836639f3955b2e59017de7861042fc9fa05f7000
-# Source SHA-256: 15aa4817823914a05b9d5679f7bd7d4f8b9f1de85932acebc4781bad6ed29179
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ%PREV.ANS by ize (fusion); released in fsn-0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: prevail
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19960602
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: prevail by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0696-iz-prev
 
 Write-Host '
 [1;34;47m▄█[0;1;34;44m▀ ░ ▄▄▄▀█[0;1;34;40m█████████[0;1;34;44m▀▄▄▄▄ ░ ▀██[0;1;34;47m █[0;1;34;44m█▀▀▄   ░ ▄▄▄▄▀[0;1;34;40m████[0;1;34;47m▓[0;1;34;40m████████[0;1;34;44m▓[0;1;34;40m██████[0;1;34;44m█▀▄▄   ░ ▀[0;1;34;47m█ █[0m

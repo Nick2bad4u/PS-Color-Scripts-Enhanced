@@ -1,13 +1,4 @@
-﻿# Converted from: SCLONG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sampkt_4/raw/SCLONG.ANS
-# Source Revision: archive-sha256:be6b7fce6ae136b16e9de0bf5934b172c2efde280c806be55d55cc5d6b51ea38
-# Source SHA-256: f0f606fb14799db47b03b430f557a55723902140bd86da16bd49ee1882b0d9af
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SCLONG.ANS by Vega (sampkt_4); released in sampkt_4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: SCLONG.ANS by Vega | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sampkt-4-sclong
 
 Write-Host '
 [1;33m░▒[0;1;30m▓▓▓▓▓▓[0;1;33m░▒[0;1;30m▓▓▓[0m                                                        [1;30m▓▓▓▓   ▓▓▓▓[0m

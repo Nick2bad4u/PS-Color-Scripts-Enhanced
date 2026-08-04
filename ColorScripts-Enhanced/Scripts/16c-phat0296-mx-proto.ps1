@@ -1,18 +1,4 @@
-﻿# Converted from: MX-PROTO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0296/raw/MX-PROTO.ANS
-# Source Revision: archive-sha256:60548f8eda23c6002c17f6d128b1790dc2c550171f4247bb3618be801dbc49f7
-# Source SHA-256: 15049472f44e2560581cf18b134738c518e039e89e54977d8710005e3dc5bf82
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MX-PROTO.ANS by Matrix (READ THE INI FILE); released in phat0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Prototype Logo
-# SAUCE Author: Matrix
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19951224
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: Prototype Logo by Matrix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0296-mx-proto
 
 Write-Host '
                                     [1;36m░░[0m

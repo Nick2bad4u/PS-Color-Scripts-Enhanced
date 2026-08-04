@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-MART.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0897/raw/OUT-MART.ANS
-# Source Revision: archive-sha256:549bf8e96e7f7e860f0287ba7104856044d3d84459139164d9a185bf317f9174
-# Source SHA-256: 8a5c6ac568976f2d8cc9214d5daefd3827eda033c83fb3be224a7f109ab548fd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-MART.ANS by Sandy Chidester (out-0897); released in out-0897 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: OUT-MART.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0897-out-mart
 
 Write-Host '
 [33m░░░░░░░░░░░░░░░░░░░░[0;1;30m▐▌[0;33m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0;1;30m▐▌[0;33m░░░░░░░░░░░░░░░░[0;37m▄■■▄[0;33m░░[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: 2S-BLENDER2025C.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2025c/raw/2S-BLENDER2025C.ANS
-# Source Revision: archive-sha256:90edfbbf45d8704001988da2fe10e16cee808b53d8cfc602f1f6ee2764a60b56
-# Source SHA-256: eef1880793423749d5b740934b79d866749754b6b5d010e7fa2a432ecb504968
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2S-BLENDER2025C.ANS by 2stoned (Mistigris); released in blndr2025c and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: BLENDER 2025C
-# SAUCE Author: 2stoned
-# SAUCE Group: Mistigris
-# SAUCE Date: 20250726
-# SAUCE Dimensions: 80x97
-# SAUCE Font: IBM VGA
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: BLENDER 2025C by 2stoned | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2025c-2s-blender2025c-part01
 
 Write-Host '
 [1;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

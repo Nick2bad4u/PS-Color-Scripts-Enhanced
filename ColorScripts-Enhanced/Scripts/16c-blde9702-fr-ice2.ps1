@@ -1,17 +1,4 @@
-﻿# Converted from: FR-ICE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9702/raw/FR-ICE2.ANS
-# Source Revision: archive-sha256:cd03f390ec36fabd758241a35ae8f920520cc0fb3bdb59ee0ae7c6dd1232d30b
-# Source SHA-256: 39a698aa6745bf3887778c62f8bb89e1420e1dc5f509d32f615329ecbd9cece6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FR-ICE2.ANS by fractal (blade productions); released in blde9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ice productions
-# SAUCE Author: fractal
-# SAUCE Group: blade productions
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ice productions by fractal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9702-fr-ice2
 
 Write-Host '
               [36m                          [0m     [36m                   [0;34m  [0m

@@ -1,17 +1,4 @@
-﻿# Converted from: US-CRYLN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mean9610/raw/US-CRYLN.ANS
-# Source Revision: archive-sha256:eb05f2b8207463fc94de363304abab4a1544e298daf7dc7d1efbc5b0f6afd5eb
-# Source SHA-256: e5702881c94ac0f521be447300dda2cfba8a3406da21f4e0867d05a2d3ee5829
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CRYLN.ANS by Nail + Kyp (mean9610); released in mean9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the crypt login
-# SAUCE Author: nail+kyp
-# SAUCE Date: 19961031
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: the crypt login by Nail + Kyp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mean9610-us-cryln
 
 Write-Host '
             [1;30m▀▀[0m       [1;30m▄▓    [0;31m [0;1;30m▄▓▀[0;31m [0;1;30m ▄▓▄█▀▀ ▀      ▀█▄  ▀[0;1;30;46m▄░[0;1;32;46m░[0;1;30;46m░▄▄░▓[0;1;37;46m░[0;1;30;46m░[0;1;36;46m░[0;1;30;46m ░[0;1;36;46m░[0;1;37;46m░[0;1;36;46m▒▓░[0;1;30;46m▀▀▓[0;1;30;40m▓▄[0;1;30;46m▓[0;1;30;40m▄ [0m

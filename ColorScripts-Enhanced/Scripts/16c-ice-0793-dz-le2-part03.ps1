@@ -1,13 +1,4 @@
-﻿# Converted from: DZ-LE2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-0793/raw/DZ-LE2.ICE
-# Source Revision: archive-sha256:4bac5d1b8f63310d533aa8f48e520e889d714255bb26baeeff86f8f0e05c5f38
-# Source SHA-256: a4f1c3c8dd1abc9e421da07f821f3df4b45d58b45b8c93128e8dab3d92e01138
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DZ-LE2.ICE by Danzig (ice-0793); released in ice-0793 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 80-121
-# Columns: 1-80
+﻿# Artwork: DZ-LE2.ICE by Danzig | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-0793-dz-le2-part03
 
 Write-Host '
 [1;34m  [0;1m▀▄[0;34m░▒▀[0;1m▄▀ [0;1;30m░░▄▀[0m        ▀[1m▀▄▄[0;34m▀▀[0;1;34;44m░▒▓[0m [1;47m▓[0m [1;30m░░░▌[0;34m░▒[0;1;34;44m▒▓[0;1;34m███▀[0;1m▄▀[0;1;30m░░░▄▀ [0;34m░▒▓[0;1;34;44m░▒▓[0;1;34m██▄[0;1;34;44m▓▓[0;1;34m█▀[0;1m▄▀[0;1;30m▒▒▒▓ [0;34m▄▄[0;1;34;44m▄[0;1;34m███[0m

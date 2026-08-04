@@ -1,18 +1,4 @@
-﻿# Converted from: SK-GOOP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bleach01/raw/SK-GOOP1.ANS
-# Source Revision: archive-sha256:b051f200d4cb4a187bf381a6b9042d79015b79b0cf19e4a4a725c252afed48ec
-# Source SHA-256: d3957a8fa5c5f3558dd42779ee436967e54bf3bf8d24f5060c022193a4803ad5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK-GOOP1.ANS by shattered link (BLEACH); released in bleach01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: gOop!
-# SAUCE Author: shattered link
-# SAUCE Group: BLEACH
-# SAUCE Date: 19950127
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: gOop! by shattered link | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bleach01-sk-goop1
 
 Write-Host '
    g[33mO[0;1;30mop!:[0m           [33m   ▄███▀▀[0m [1;37;47m▓▓▒▒░░░░[0m█████[1;47m░░▒░░[0;30;47m       [0;1;30;47m░░▒▒▓[0;1;30;40m▄▄[0m      [1;30;43m▓▓▒▒▒░░░░[0;30;43m▀[0m

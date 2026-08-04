@@ -1,18 +1,4 @@
-﻿# Converted from: LM-COLOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-02/raw/LM-COLOR.ANS
-# Source Revision: archive-sha256:815fb0802a5a645b19e4bb1a2e67405cbfe5a7d016a5808efe6ef55f809d080c
-# Source SHA-256: 693c98f9f704d7bd1e6a1e3791fe9dd53b77ab8064a484c0d033c3bd653d7c5c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LM-COLOR.ANS by lagomorph (3kl); released in ecl-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: color shock
-# SAUCE Author: lagomorph
-# SAUCE Group: 3kl
-# SAUCE Date: 19960626
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: color shock by lagomorph | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-02-lm-color
 
 Write-Host '
             [33m▄▄▄▄[0;37m [0;33m ▄▄██▀▀▀▀[0m

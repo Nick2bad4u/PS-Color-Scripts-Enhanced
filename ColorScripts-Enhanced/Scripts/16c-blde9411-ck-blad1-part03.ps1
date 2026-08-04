@@ -1,18 +1,4 @@
-﻿# Converted from: CK-BLAD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9411/raw/CK-BLAD1.ANS
-# Source Revision: archive-sha256:79cc4c8f449f9f4069fbe5b152a1416ccd968354ad63ab0dfce361f0f42f13a8
-# Source SHA-256: 16532bce0a12994d352396e2db13bb6853ebf096e03286d18c9225eaaeac217d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CK-BLAD1.ANS by Chromatik (Blade Productions); released in blde9411 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Blade Advertisement
-# SAUCE Author: Chromatik
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19941031
-# SAUCE Dimensions: 80x25
-# Lines: 93-127
-# Columns: 1-80
+﻿# Artwork: Blade Advertisement by Chromatik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9411-ck-blad1-part03
 
 Write-Host '
 

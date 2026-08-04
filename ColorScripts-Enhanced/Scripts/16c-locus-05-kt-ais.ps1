@@ -1,13 +1,4 @@
-﻿# Converted from: KT-AIS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/locus-05/raw/KT-AIS.ANS
-# Source Revision: archive-sha256:e794f4a6bc7d61ceeb91dcf253d8af6f1d242da726d5159e3be21f4afcead4b3
-# Source SHA-256: 9a508aec7048294af44eedb50303f4b6fbfc69dbea1bffb2e4d711db899d54da
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KT-AIS.ANS by Kartoon (locus-05); released in locus-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: KT-AIS.ANS by Kartoon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-locus-05-kt-ais
 
 Write-Host '
                          [36m  [0m

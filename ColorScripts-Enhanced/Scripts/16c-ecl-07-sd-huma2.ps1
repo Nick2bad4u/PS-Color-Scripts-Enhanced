@@ -1,18 +1,4 @@
-﻿# Converted from: SD-HUMA2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-07/raw/SD-HUMA2.ANS
-# Source Revision: archive-sha256:3007ab392a2ea4e107d02b3029b445696a097ac55d389caab2dbfe0944556beb
-# Source SHA-256: ae80fcb6c65008762cd447751261c599c730137840fece46b181afa9293479c0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-HUMA2.ANS by siR-DEATH (eclipse); released in ecl-07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: hUMA
-# SAUCE Author: siR-DEATH
-# SAUCE Group: eclipse
-# SAUCE Date: 19960915
-# SAUCE Dimensions: 80x15
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: hUMA by siR-DEATH | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-07-sd-huma2
 
 Write-Host '
                                         [31m▄[0;1;31m▄▄▄▄▄▄▄[0m

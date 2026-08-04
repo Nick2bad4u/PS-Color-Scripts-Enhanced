@@ -1,18 +1,4 @@
-﻿# Converted from: DV8-GARB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat1296/raw/DV8-GARB.ANS
-# Source Revision: archive-sha256:7d01b0bd390151991b0a903d8d987d245c20f2b06635915da8eb049974bd356a
-# Source SHA-256: 8308d676ff0884e50a2062a6e3536ac119ec908bb120d7c910c1b0c8c94fdaa7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DV8-GARB.ANS by dv8! (phat!); released in phat1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: garbage promo!
-# SAUCE Author: dv8!
-# SAUCE Group: phat!
-# SAUCE Date: 19961201
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: garbage promo! by dv8! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat1296-dv8-garb
 
 Write-Host '
   [30m██████████████████[0;37m▄▄▄▄▄▄▄▄▄[0;1;37m [0;30m███[0;37m▄▄▄▄▄▄[0;30m█[0;37m░▄▄▄███████[0;1;37;47m▓[0m██[1;47m▓▓░[0;1;40m▄ [0;30m████████████████     [0m

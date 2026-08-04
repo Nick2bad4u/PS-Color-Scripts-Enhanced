@@ -1,13 +1,4 @@
-﻿# Converted from: AA-DI.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-12/raw/AA-DI.ICE
-# Source Revision: archive-sha256:03ccb24bebad343fffc4daed3f054ccd0ca265066fb8b4feff7bb3f469aac14e
-# Source SHA-256: baea7122828875b02c644ea31f2a6f88f45bb60b2a046989a7a6bbdd95ecbb07
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AA-DI.ICE by Aada (icepk-12); released in icepk-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: AA-DI.ICE by Aada | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-12-aa-di
 
 Write-Host '
                      [1;34m▄[0;1;34;44m███[0;1;34;40m▀▀[0;1;34;44m██[0m                                  [1;34;40m▄[0;1;34;44m█[0;1;34;40m▀[0;1;34;44m█[0m

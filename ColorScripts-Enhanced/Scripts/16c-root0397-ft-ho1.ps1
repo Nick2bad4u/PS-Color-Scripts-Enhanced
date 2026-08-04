@@ -1,17 +1,4 @@
-﻿# Converted from: FT-HO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0397/raw/FT-HO1.ANS
-# Source Revision: archive-sha256:147f0608c1bd711b116f3ad049b80e805dfbb40e7d23ffce5f4580a5a57bae0f
-# Source SHA-256: 16f78746baa4d6dbd9cf68880142bc4ad0a0cbe3a501ef8b4de86f37be689232
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FT-HO1.ANS by Flight (root0397); released in root0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Tribute to H.O.
-# SAUCE Author: Flight
-# SAUCE Date: 19970228
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Tribute to H.O. by Flight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0397-ft-ho1
 
 Write-Host '
                     [1;33m▄ ■[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PH-ANEM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ane-1195/raw/PH-ANEM.ANS
-# Source Revision: archive-sha256:db13b95bab45be59576e9c40a0246c6356b7a8244e034c959637c25406670a85
-# Source SHA-256: ab6faa9a24030b331003d649303f1d8f96845937b5c4ec4df504d882743af810
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PH-ANEM.ANS by Phantax (.;:Anemia:;.); released in ane-1195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Anemia Productions
-# SAUCE Author: Phantax
-# SAUCE Group: .;:Anemia:;.
-# SAUCE Date: 19951027
-# SAUCE Dimensions: 80x25
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Anemia Productions by Phantax | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ane-1195-ph-anem-part01
 
 Write-Host '
 [35m [0m             [1;33m▄■   ▄▄■[0m

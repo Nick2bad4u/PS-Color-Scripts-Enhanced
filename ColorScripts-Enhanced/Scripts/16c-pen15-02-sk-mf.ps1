@@ -1,18 +1,4 @@
-﻿# Converted from: SK!-MF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pen15-02/raw/SK!-MF.ANS
-# Source Revision: archive-sha256:c45faac655b2350900a9acb8b35a0ed4568af78fa28eaab050d211446248758a
-# Source SHA-256: fd798023fd3aa56fbe1043645b782bd86807b5af282c95b9d0895a0a9ac94512
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!-MF.ANS by sIMON kING (nOMINAL^pEN15); released in pen15-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: mALICIOUS fORCE (mp3)
-# SAUCE Author: sIMON kING
-# SAUCE Group: nOMINAL^pEN15
-# SAUCE Date: 19980424
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: mALICIOUS fORCE (mp3) by sIMON kING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pen15-02-sk-mf
 
 Write-Host '
                                               [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

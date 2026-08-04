@@ -1,18 +1,4 @@
-﻿# Converted from: DD-PVMU2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe01/raw/DD-PVMU2.ANS
-# Source Revision: archive-sha256:0b64c26f533b8c11a1aca04e7dcc1e21d4b014c2d6532ba66a48148862d54cb2
-# Source SHA-256: 722b65b6ad87065b6b3fd4e391dbb8b1d578db963c46d2f641b363331d05a7ce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-PVMU2.ANS by Diamond Darrell (Pungas); released in circe01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ulby
-# SAUCE Author: Diamond Darrell
-# SAUCE Group: Pungas
-# SAUCE Date: 19970726
-# SAUCE Dimensions: 80x37
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: ulby by Diamond Darrell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe01-dd-pvmu2
 
 Write-Host '
                             [1m▄▄▄[0;1;36m▄[0m         [1m▄▄▄[0;1;36m▄[0m

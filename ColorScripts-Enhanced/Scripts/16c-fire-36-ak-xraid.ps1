@@ -1,19 +1,4 @@
-﻿# Converted from: AK-XRAID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-36/raw/AK-XRAID.ANS
-# Source Revision: archive-sha256:43e7d46e56dc094cf8502b299dcd82ee875dea0a064a36248f4e6c844180fd25
-# Source SHA-256: 89586c3a023e3ac9f5e28f5dff982b014a8e5e3496b17656f156a3bbc2bb5b35
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-XRAID.ANS by abstrakt (fire); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: made to raid
-# SAUCE Author: abstrakt
-# SAUCE Group: fire
-# SAUCE Date: 20230303
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: made to raid by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-36-ak-xraid
 
 Write-Host '
                                       [1;37;40m.,▬┌┐▬,.[0m

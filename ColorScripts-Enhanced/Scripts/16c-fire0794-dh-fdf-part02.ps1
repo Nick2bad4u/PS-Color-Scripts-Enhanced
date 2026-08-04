@@ -1,13 +1,4 @@
-﻿# Converted from: DH-FDF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0794/raw/DH-FDF.ANS
-# Source Revision: archive-sha256:2d785063f66421d16049a817b35a3d9a1af38a82c2eb0e37c315fa8b838eea07
-# Source SHA-256: a5c3c3ceca32e3fa3bf5cf83ba7d84bb22af85379ff8ca354f29626ebb247c42
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DH-FDF.ANS by Donut Hole (fire0794); released in fire0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 44-93
-# Columns: 1-80
+﻿# Artwork: DH-FDF.ANS by Donut Hole | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0794-dh-fdf-part02
 
 Write-Host '
           [1m▄▄▄▄▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: avg-carz.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_resvolution/raw/avg-carz.ans
-# Source Revision: archive-sha256:d0690af9ec91bf96f335196e9f9ddfb5d7ea02d97d300b53301bebaf58d83c35
-# Source SHA-256: 9ef010edc188d14b7dd57fc59bddf1d87baec65551f87191b47a9a8b64fc9ce5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-carz.ans by Avenging Angel (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: avg-carz.ans by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-resvolution-avg-carz
 
 Write-Host '
 [34m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;36;44m   [0;1;36;44m░░▓▓[0;1;36;40m▓▓▓▓▓▓▓[0;1;36;46m▄[0;1;36;44m▄▄[0;36;44m    ▀[0;1;36;46m ▄▄[0;36m  ▀[0;1;36m▓▓[0;1;36;46m▄[0;36;44m▄   ▀[0;36;40m██████[0m

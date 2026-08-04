@@ -1,18 +1,4 @@
-﻿# Converted from: FL-SKULL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9610/raw/FL-SKULL.ANS
-# Source Revision: archive-sha256:5789c5cb1a5ac21acfd3fa7dc4a5a88db3f4a5b9545409ca8ca34a86bd816077
-# Source SHA-256: f816c6b71afcba93bcb2ca5b7e0b507a766d14ac7b040f4fa958c12a10967993
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-SKULL.ANS by Flame (Samsara); released in sms-9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Skullfish
-# SAUCE Author: Flame
-# SAUCE Group: Samsara
-# SAUCE Date: 19960930
-# SAUCE Dimensions: 80x25
-# Lines: 28-57
-# Columns: 1-80
+﻿# Artwork: Skullfish by Flame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9610-fl-skull-part02
 
 Write-Host '
 [1;37;43m▐[0;1;37;41m▄[0;1;37;43m▄[0;1;37;40m█[0;1;37;41m██[0;1;37;40m██████████████▓[0m   [30mhi[0m               [33m  ▐[0;1;31;43m▐[0;1;31;47m▓[0;1;31;43m▄░▀▀▀░[0;33m██░[0;37m ▒[0;1;30;47m▀[0m█[1;30;47m░▄▄█[0m██[1;30;47m▀▀█████[0m▒[30;47m▒[0;37;40m▒[0;1;30;47m█████[0m

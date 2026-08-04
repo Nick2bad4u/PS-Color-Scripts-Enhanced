@@ -1,18 +1,4 @@
-﻿# Converted from: VDR-UGLY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bat04/raw/VDR-UGLY.ANS
-# Source Revision: archive-sha256:d176f3f3481cd621bff59d2bfb55aef8be05c9007ac772bba99c98c138cb9e41
-# Source SHA-256: c2499a072e0d7f618a5409de20f8fbb67ffe9ab0bf38f9ef9c4de9e263dce9eb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VDR-UGLY.ANS by Vader (Bat); released in bat04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ugly!
-# SAUCE Author: Vader
-# SAUCE Group: Bat
-# SAUCE Date: 19961228
-# SAUCE Dimensions: 80x44
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: ugly! by Vader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bat04-vdr-ugly
 
 Write-Host '
 [35m██████████[0;37m [0;31m██████████████████████████████████████████████████████████[0;37m [0;35m██████████[0m

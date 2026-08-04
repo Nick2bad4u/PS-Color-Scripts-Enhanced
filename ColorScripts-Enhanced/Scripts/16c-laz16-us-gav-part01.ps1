@@ -1,20 +1,4 @@
-﻿# Converted from: us-gav.ans
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/laz16/raw/us-gav.ans
-# Source Revision: archive-sha256:b093dd3cb06bf783d59a9df3724c51f9a41f686cd4fd545c920ada008d959f7a
-# Source SHA-256: 74b4d6db581bf8727724417d43f03abe7707134b69bd24bbb8a24e8ebbfd40b3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-gav.ans by Warpus + The Knight (Lazarus); released in laz16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Gay American Vampire
-# SAUCE Author: Warpus + The Knight
-# SAUCE Group: Lazarus
-# SAUCE Date: 20230103
-# SAUCE Dimensions: 80x69
-# SAUCE Font: IBM VGA
-# SAUCE Comments: In the vampires from around the world series
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: Gay American Vampire by Warpus + The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz16-us-gav-part01
 
 Write-Host '
 [31m████████████████████████████████████████████████████████████████████████████████[0m

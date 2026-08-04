@@ -1,19 +1,4 @@
-﻿# Converted from: ak-effect.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz15/raw/ak-effect.ans
-# Source Revision: archive-sha256:d35f5b18ac3e8cbe3d6d17eab809a7e050609a8e3cc7d160d14a87c59a191c12
-# Source SHA-256: b3fd185d49e5189b27e7592bff8c5888532a3bb25829443fa2258b0714870c69
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ak-effect.ans by abstrakt (lazarus); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: sleep effect
-# SAUCE Author: abstrakt
-# SAUCE Group: lazarus
-# SAUCE Date: 20220609
-# SAUCE Dimensions: 80x182
-# SAUCE Font: IBM VGA
-# Lines: 101-150
-# Columns: 1-80
+﻿# Artwork: sleep effect by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz15-ak-effect-part03
 
 Write-Host '
 [1;30m`''[0m                             [32m,[0;1;32m [0;32m:$[0;1;32m$$$$$$$$[0;32m.`[0;1;32m4$$$$$$ [0;32m:$.[0;37m [0;1;30mY[0m                [1;30m4┐[0m   [35m/[0m

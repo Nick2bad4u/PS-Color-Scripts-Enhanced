@@ -1,20 +1,4 @@
-﻿# Converted from: FILTH-MSGRS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1119/raw/FILTH-MSGRS.ANS
-# Source Revision: archive-sha256:55e25d51e7ea67e18beea3070275d20b31facc3af69759bb904716908b0d1228
-# Source SHA-256: 951d774f978dfde66ac5835f1e7057e08139216ec749ef80cdce39b06c075f9a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FILTH-MSGRS.ANS by filth (MiSTiGRiS); released in mist1119 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: MS-GRS
-# SAUCE Author: filth
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 20191030
-# SAUCE Dimensions: 80x63
-# SAUCE Font: IBM VGA
-# SAUCE Comments: gREETZ-2: cthulhu. EVER GET A SAUCE GREET? AHAHAHA |  S W
-# Lines: 33-63
-# Columns: 1-80
+﻿# Artwork: MS-GRS by filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1119-filth-msgrs-part02
 
 Write-Host '
  [31m  [0;37m██[0;1;37m██[0m▌ [1;31;41m▐[0;1;31;40m███████ [0m ██[1m██ [0m [1;31;41m ░░░░░[0;31m██[0;1;31m██████[0m [1;35m [0;1;37m██[0m█▀[1m    [0m [34m▀[0;1;35m▀█[0;34m██[0;1;35m██[0;34m██[0;37m  [0;1;37m▄ [0;33m▀[0;1;33;43m▐[0;1;33;40m█████▌[0m ▐[1m██[0m██

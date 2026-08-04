@@ -1,18 +1,4 @@
-﻿# Converted from: SOB-ALIE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-27/raw/SOB-ALIE.ANS
-# Source Revision: archive-sha256:e8bf58cc122c409f38ea24bc96ba28ef7e1ff6b9bf8c75a703d281ce7b281062
-# Source SHA-256: 49b1a4c34a10ebdba83f185e5d81a6f1ea8b7f56e0acaec5401cd621946727b0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SOB-ALIE.ANS by the Somberlain (Burn); released in glue-27 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Alien, for emok.
-# SAUCE Author: the Somberlain
-# SAUCE Group: Burn
-# SAUCE Date: 19991012
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: Alien, for emok. by the Somberlain | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-27-sob-alie
 
 Write-Host '
 [36malien.       [0;34m▄▄[0;36m  [0;34m▀▀[0;36m  [0;34m▄▄[0;36m  [0;30mdrain[0;1;30m [0;30m     [0;36m       [0;1;30m▄[0;36m▄   [0;30mdrain[0;1;30m [0;30m     [0;36m  [0;34m░[0;30;44m▓[0;36;40m                 [0m

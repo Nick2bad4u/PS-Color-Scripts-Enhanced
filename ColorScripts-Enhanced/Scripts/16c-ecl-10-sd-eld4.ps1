@@ -1,18 +1,4 @@
-﻿# Converted from: SD-ELD4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-10/raw/SD-ELD4.ANS
-# Source Revision: archive-sha256:6734a0716f5363aecb5b8387359a704e7e1a498f17ee632abf4e9ca947f0336d
-# Source SHA-256: 171b4c67b2db35dd3637980e31ffa424d7cc42cb6dabf72b1ac26d8d31fab6db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-ELD4.ANS by sirDEAD (awe); released in ecl-10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Eldorado!
-# SAUCE Author: sirDEAD
-# SAUCE Group: awe
-# SAUCE Date: 19961111
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Eldorado! by sirDEAD | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-10-sd-eld4
 
 Write-Host '
 

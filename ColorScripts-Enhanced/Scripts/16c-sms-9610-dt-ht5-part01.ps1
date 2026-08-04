@@ -1,18 +1,4 @@
-﻿# Converted from: DT-HT5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9610/raw/DT-HT5.ANS
-# Source Revision: archive-sha256:5789c5cb1a5ac21acfd3fa7dc4a5a88db3f4a5b9545409ca8ca34a86bd816077
-# Source SHA-256: 828a7ef5621dd271704431d88ceba7a99c947ea9adc481cfa85f9ba82e20ea64
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-HT5.ANS by Defiant (Samsara); released in sms-9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Hell Tech
-# SAUCE Author: Defiant
-# SAUCE Group: Samsara
-# SAUCE Date: 19960930
-# SAUCE Dimensions: 80x25
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Hell Tech by Defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9610-dt-ht5-part01
 
 Write-Host '
 [1;35mddee[0;35mf[0;1;35mff[0;35mii[0;1;35ma[0;35maannnttt ttt  t    [0;1;30m▄[0m         [34m▄ ░[0m                  [32m│  ▌ ███▐██████████[0m

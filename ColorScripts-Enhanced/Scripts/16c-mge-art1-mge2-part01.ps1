@@ -1,13 +1,4 @@
-﻿# Converted from: MGE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mge_art1/raw/MGE2.ANS
-# Source Revision: archive-sha256:59c72e327d12a7b55464b13c6a672012ac10743d906df1b4e27fe3ff2fd5b8c5
-# Source SHA-256: d8b317181370cf00d81dea8f655388268c8dd50886d4ec07b71449a209a70906
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MGE2.ANS by Cephyr (mge_art1); released in mge_art1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: MGE2.ANS by Cephyr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mge-art1-mge2-part01
 
 Write-Host '
      [30m███████████████[0;30;43m▓[0m  [30;43m▓▓▓▓▒▒[0;32;41m▒▒▒▒▒▒[0;30;43m▒[0;32;41m▒▒[0;32;43m░░░░░░░░░░░░░░░░░░░[0;30;43m▒[0;30;40m██████████████████████[0m

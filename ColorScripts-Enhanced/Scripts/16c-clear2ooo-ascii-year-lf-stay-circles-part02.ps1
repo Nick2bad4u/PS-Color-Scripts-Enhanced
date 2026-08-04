@@ -1,18 +1,4 @@
-﻿# Converted from: stay-circles.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/clear2ooo-ascii-year-lf/raw/stay-circles.ans
-# Source Revision: archive-sha256:dd383b5bee47a74826e2ee2d07d90cd2a401abc53b70a009479dbf2d94c53f24
-# Source SHA-256: e95a771877a228ddcd247727a90d0c10cecc33a1eeb79be35e5a9042eaacf187
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: stay-circles.ans by clear2ooo (clear2ooo-ascii-year-lf); released in clear2ooo-ascii-year-lf and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: stay-circles
-# SAUCE Author: clear2ooo
-# SAUCE Date: 20250301
-# SAUCE Dimensions: 80x200
-# SAUCE Font: IBM EGA43 437
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: stay-circles by clear2ooo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-clear2ooo-ascii-year-lf-stay-circles-part02
 
 Write-Host '
 [35m█ █[0;34m█[0;33m█[0;36m█[0;35m█[0;33m█[0;35m█[0;33m█[0;35m█[0;33m█[0;35m█[0;37m██[0;35m█[0;33m███[0;31m███[0;36m█[0;35m█[0;36m█[0;34m█[0;36m██[0;31m█[0;36m██[0;34m█[0;31m█[0;34m█[0;33m█[0;34m█[0;35m█[0;32m█[0;33m█[0;35m█[0;31m█[0;36m█[0;31m██[0;32m█[0;36m█[0;32m█[0;36m█[0;32m█[0;36m███[0;34m█[0;36m█[0;34m█[0;36m██[0;31m██[0;37m█[0;35m██[0;37m█[0;33m██[0;35m█[0;37m█[0;31m█[0;37m█[0;35m█[0;33m█[0;31m█[0;36m█[0;33m█[0;36m█[0;35m█[0;34m█[0;35m█ █[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: us-ansid.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wrlk001/raw/us-ansid.ans
-# Source Revision: archive-sha256:6765dab2b891656b1208db0232bdc64c598e0fd42d2b71975b3219d1a4b40976
-# Source SHA-256: 39a2c24c7fe54fbacff857d03f8d9b245894da41c00f4217056781831db79b1c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-ansid.ans by Avenging Angel + Grymmjack (Warlock/Glue); released in wrlk001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ANSi Detected!
-# SAUCE Author: Gj/Avg
-# SAUCE Group: Warlock/Glue
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: ANSi Detected! by Avenging Angel + Grymmjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wrlk001-us-ansid
 
 Write-Host '
 

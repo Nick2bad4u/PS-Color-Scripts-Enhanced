@@ -1,19 +1,4 @@
-﻿# Converted from: ronaldj-exprassmyself.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mistergirls-2-perling-aint-easy/raw/ronaldj-exprassmyself.ans
-# Source Revision: raw-sha256:3f1fe466218463bd604fecbee38ef280edcdd0adef69179debd9381042e0dc86
-# Source SHA-256: 3f1fe466218463bd604fecbee38ef280edcdd0adef69179debd9381042e0dc86
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ronaldj-exprassmyself.ans by Ronald J Peppercorn (mistergirls); released in mistergirls-2-perling-aint-easy and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Exprass muh sealf
-# SAUCE Author: Ronald J Peppercorn
-# SAUCE Group: mistergirls
-# SAUCE Date: 20170826
-# SAUCE Dimensions: 80x125
-# SAUCE Font: IBM VGA
-# Lines: 85-126
-# Columns: 1-80
+﻿# Artwork: Exprass muh sealf by Ronald J Peppercorn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mistergirls-2-perling-aint-easy-ronaldj-exprassmyself-part03
 
 Write-Host '
 [1;33m███████████████████████████████████[0m█[1;33m████████████████████████████████████████████[0m

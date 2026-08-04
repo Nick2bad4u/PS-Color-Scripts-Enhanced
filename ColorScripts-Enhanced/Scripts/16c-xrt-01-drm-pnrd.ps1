@@ -1,18 +1,4 @@
-﻿# Converted from: DRM-PNRD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/xrt-01/raw/DRM-PNRD.ANS
-# Source Revision: archive-sha256:a6db7b941e89d3070b1eb190eceb7430ef1b4237a4444c72d5b1a94d42cfbf53
-# Source SHA-256: ab5465de218ae0b7383c76be9d9b0b941b20f887f94446d90c670b1cfa13798f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DRM-PNRD.ANS by Dr. Dream (xRt); released in xrt-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: PPPAAAAAAIIIINNNN`
-# SAUCE Author: Dr. Dream
-# SAUCE Group: xRt
-# SAUCE Date: 19981024
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: PPPAAAAAAIIIINNNN` by Dr. Dream | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-xrt-01-drm-pnrd
 
 Write-Host '
               [36m  ▄[0;1;36;46m▄▄▄[0;36m████[0;1;36;46m▄▄▄▄▄░░[0;36m▄▄▄▄[0m      [36m▄▄▄▄[0;1;36;46m▄▄▄▄▄▄▄[0;36m████[0;1;36;46m▄▄▄[0;36m▄ [0m

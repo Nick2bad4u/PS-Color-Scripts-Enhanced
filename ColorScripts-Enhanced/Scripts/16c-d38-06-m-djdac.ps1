@@ -1,18 +1,4 @@
-﻿# Converted from: M!-DJDAC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-06/raw/M!-DJDAC.ANS
-# Source Revision: archive-sha256:4c9f598b864a923147eb394591cb120a43a087e70e3844ab4ff73e06903fa178
-# Source SHA-256: 0cf67f626cf998bcaf517dcd6b74daa4b40ce5bce326d97e1f1a11d6e53ad49a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M!-DJDAC.ANS by Myth (d38-06); released in d38-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Digital Audio Crew (DJ-DAC)
-# SAUCE Author: Myth
-# SAUCE Group: ?
-# SAUCE Date: 19961112
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Digital Audio Crew (DJ-DAC) by Myth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-06-m-djdac
 
 Write-Host '
 [1;34;46m▓▒░[0;1;30;46m [0;30;47m [0;37;46m▒[0;32;47m [0;1;30;47m░[0;30;47m   [0;32;47m [0;30;47m [0;36;47m█▒[0;30;47m     [0;36;47m▒[0;30;47m    [0;37;40m█[0;36;47m█[0;37;40m██[0;36;47m▄░░▓[0;1;34;46m▒[0;36;47m▓[0;37;46m░[0;1;34;46m░[0;46m▒▓▓▓▒[0;30;47m   [0;1;30;47m░[0;30;47m  [0;37;46m░[0;37;40m█[0;37;46m▓[0;37;40m█[0;1;30;47m░▒▄▄[0m▀[30;47m▄▄▄▄▄▄▄[0;1;30;47m▄░[0;30;47m [0;36;47m▓▒▓▓[0;1;34;46m░▒[0;36;47m█▒██▓[0;1;34;46m░[0;36;47m▓[0m

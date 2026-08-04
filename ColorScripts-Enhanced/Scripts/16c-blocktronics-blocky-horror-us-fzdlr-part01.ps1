@@ -1,19 +1,4 @@
-﻿# Converted from: us-fzdlr.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-blocky-horror/raw/us-fzdlr.ans
-# Source Revision: archive-sha256:9b55aad043357449b0b0f61d3eddf0a2e277e46cf0768f93c8b9bc9b99d78a77
-# Source SHA-256: 4d56905cae146435a7b86c37d654391b86a88c8b75967dcdc67141c8274946e6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-fzdlr.ans by Nail + Filth (blocktronics); released in blocktronics-blocky-horror and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: frazetta's dealer
-# SAUCE Author: nail + filth
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190801
-# SAUCE Dimensions: 80x98
-# SAUCE Font: IBM VGA
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: frazetta's dealer by Nail + Filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blocky-horror-us-fzdlr-part01
 
 Write-Host '
 [1;33;43m░░░[0;33m▓▓▓█░░█[0;1;33;43m▓▒░▒▒ ░░▒█▓█[0;33m▓▒▓█[0;1;33;43m░░░░[0;33m██[0;1;33;43m░░[0;33m█▀▓█[0;33;41m▓[0;33;40m▐[0;33;41m ░░░ ░[0;31;40m█▓▓▓█[0;33;41m░░░░[0;31;40m█▓▓▓▓█▓██████▀▓▒▓▒▒▒▒█░ ░[0m

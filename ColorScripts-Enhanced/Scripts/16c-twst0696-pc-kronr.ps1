@@ -1,18 +1,4 @@
-﻿# Converted from: PC-KRONR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst0696/raw/PC-KRONR.ANS
-# Source Revision: archive-sha256:347df47865230bbb26c34a4c83d3b745b5aa8a50aaa211f3da18188712bc5174
-# Source SHA-256: 801aeab6f5149c9c41add4d71d52f55a46074c5e327ec867c8d3e63faa3cc93a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-KRONR.ANS by putrid carcass (twisted); released in twst0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: a template screen for kr0nic emag
-# SAUCE Author: putrid carcass
-# SAUCE Group: twisted
-# SAUCE Date: 19960526
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: a template screen for kr0nic emag by putrid carcass | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst0696-pc-kronr
 
 Write-Host '
         [35m  [0;1;35m▄▄[0;1;35;45m▓▓█[0;1;35;47m█▓▓[0;1;35;45m█████[0;1;35;40m████▀▀▀▀[0;1;35;45m████████████████████████████[0;1;35;40m▄▄▄░░[0;35m [0;37m [0;33mkronic  ▄▄[0;30;43m░░[0;33;40m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MT-BOOYA.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9512a/raw/MT-BOOYA.ICE
-# Source Revision: archive-sha256:4030957a38a6c532250e7b5d72d2d1e2534a6871d5254eac6b842adfae93f5ac
-# Source SHA-256: d65b5470438a99905b9344b8fff6162b0901802155a757ed224203db1839c021
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MT-BOOYA.ICE by Misfit (iCE iCE baby..); released in ice9512a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Jive Soda
-# SAUCE Author: Misfit
-# SAUCE Group: iCE iCE baby..
-# SAUCE Date: 19951229
-# SAUCE Dimensions: 80x71
-# Lines: 39-70
-# Columns: 1-80
+﻿# Artwork: Jive Soda by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9512a-mt-booya-part02
 
 Write-Host '
 [1;31m█████████████[0;1;31;47m▓▒▓▓▓▓[0;1;31;40m█[0;1;31;47m▓[0;1;31;40m████████████████▌▐[0;1;31;43m█[0;1;31;40m█▌▐[0;1;31;43m▓[0;1;31;40m███████████▀▀▄▓▒░[0;1;30;40m░[0m          ■

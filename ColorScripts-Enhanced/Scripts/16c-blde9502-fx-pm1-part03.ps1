@@ -1,18 +1,4 @@
-﻿# Converted from: FX-PM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9502/raw/FX-PM1.ANS
-# Source Revision: archive-sha256:2f0f35d61b4c5c0023fdc3bef64ff913e4d59803d220dd8b6aa9559b05c6a214
-# Source SHA-256: 3b430e259a3d153ced1abaa271320510f25c69bcf59d522f675c06ba4c473269
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FX-PM1.ANS by facsimile (Blade Productions); released in blde9502 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: proprietary madness
-# SAUCE Author: facsimile
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19950131
-# SAUCE Dimensions: 80x25
-# Lines: 82-117
-# Columns: 1-80
+﻿# Artwork: proprietary madness by facsimile | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9502-fx-pm1-part03
 
 Write-Host '
 [33m▀████████▓[0;1;37;47m▒[0;33m█████████[0m [33m▀▄[0m                  [1;30m▒[0m       [1;30m░[0m   [1;30m░[0m       [33m▄█████▀███████▓[0m [33m███[0m

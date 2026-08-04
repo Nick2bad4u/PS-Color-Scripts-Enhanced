@@ -1,18 +1,4 @@
-﻿# Converted from: SHAITAN2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/srg2vos/raw/SHAITAN2.ANS
-# Source Revision: raw-sha256:fd1319911a879a277a9eb9090e585035e9e2f3394135420d6a7611171970bdb6
-# Source SHA-256: fd1319911a879a277a9eb9090e585035e9e2f3394135420d6a7611171970bdb6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SHAITAN2.ANS by shaitan (fbk.sargahd); released in srg2vos and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: session
-# SAUCE Author: shaitan
-# SAUCE Group: fbk.sargahd
-# SAUCE Date: 19961024
-# SAUCE Dimensions: 80x120
-# Lines: 80-120
-# Columns: 1-80
+﻿# Artwork: session by shaitan | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-srg2vos-shaitan2-part03
 
 Write-Host '
 

@@ -1,17 +1,4 @@
-﻿# Converted from: POS-KIT4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dtd02/raw/POS-KIT4.ANS
-# Source Revision: archive-sha256:329358061ffeda17eb81c048ab3bce474734b2a800903201ed4eb6076d0d3992
-# Source SHA-256: 44154056266ac258fdf4419151b074735808b6406f8638cbb37224cc06fa6de0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: POS-KIT4.ANS by positive pain (dtd'blz); released in dtd02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: kitchen commercial
-# SAUCE Author: positive pain
-# SAUCE Group: dtd'blz
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: kitchen commercial by positive pain | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dtd02-pos-kit4
 
 Write-Host '
 [1;34m[0;34m[0m[1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0m[1;35m[0;35m[0;34m[0;1;34m[0;34m[0;1;35m[0;35m[0;1;37m[0;1;36m[0;1;37m[0m[1m[0m[1m[0m[1m[0m[1m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;35m[0;1;35m[0m[34m[0;1;34m[0;34m[0;1;35m[0;35m[0;1;37m[0m[1m[0m[1m[0m[1m[0m[1m [0;1;34m$$[0;34m$ u ,$ⁿ[0;1;34m§$''[0;34mu uu u[0;1;34my[0;34myy[0;1;34muu [0;34m$$uu [0;1;34muy[0;34muu[0;1;34mu[0;34mu[0;1;34mu   [0;34mm [0;1;34mm[0;34mmm§§ [0;1;34m$[0;34m$   §[0;1;34m$[0;34m$$  [0;1;37m49[0m-[1m3o[0m-[1m6629822[0m\[1m28k8[0m

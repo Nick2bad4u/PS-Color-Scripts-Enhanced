@@ -1,19 +1,4 @@
-﻿# Converted from: US-FAIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-36/raw/US-FAIL.ANS
-# Source Revision: archive-sha256:43e7d46e56dc094cf8502b299dcd82ee875dea0a064a36248f4e6c844180fd25
-# Source SHA-256: c34d1c2f69070a6487f270bc6ac9d9f88c042978db1ec196f1080ea798b2275c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FAIL.ANS by Nail + Tainted (fire); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ai fail
-# SAUCE Author: tainted + nail + ai
-# SAUCE Group: fire
-# SAUCE Date: 20230303
-# SAUCE Dimensions: 80x59
-# SAUCE Font: IBM VGA
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: ai fail by Nail + Tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-36-us-fail-part01
 
 Write-Host '
 [36;40m██████████████████████▓████████████████████████████████████[0m

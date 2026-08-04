@@ -1,20 +1,4 @@
-﻿# Converted from: us-das-slazidas.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz19/raw/us-das-slazidas.ans
-# Source Revision: archive-sha256:b2207428f1b283b9c41d9ff03fce385f449fefe469c60e31e8dd7430a162f7c1
-# Source SHA-256: af8163befb8ef98bbb260a2c49e524f6711cec7f67c1150f3b6391a5a96e2756
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-das-slazidas.ans by Savage + Warpus (LAZARUS); released in laz19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: lunar squats
-# SAUCE Author: savage warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20240921
-# SAUCE Dimensions: 80x232
-# SAUCE Font: IBM VGA
-# SAUCE Comments: There are three stripes
-# Lines: 101-150
-# Columns: 1-80
+﻿# Artwork: lunar squats by Savage + Warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz19-us-das-slazidas-part03
 
 Write-Host '
 [1;30m░░[0m  [1m▀[0;1;30;47m■[0;1;30;40m▄[0m [1;30m▀▒▒ ■      ■▄▄■   ▄[0;1;30;43m▒▒[0;1;30;40m▀■  ▄█[0;1;30;47m▀▓[0;1;30;40m▀■   █   ░  ▒ ░ ▐▌   ■▀[0;1;30;43m▓▓░■[0;33m  [0;1;30m■[0;33m▐[0;1;30;43m░[0;1;31;43m░░[0;1;30;43m░[0;1;30;40m▒█[0m  [1;30m▓▓▓▓[0m

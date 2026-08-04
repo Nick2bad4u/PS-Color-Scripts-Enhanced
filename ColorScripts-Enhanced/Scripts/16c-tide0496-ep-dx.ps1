@@ -1,17 +1,4 @@
-﻿# Converted from: EP-DX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tide0496/raw/EP-DX.ANS
-# Source Revision: archive-sha256:4023e9df901d6a25fc3c2f671227c3f38c6dd702586cd17a4a704b4cf49faf4f
-# Source SHA-256: 8429a5a5f191ad99bf3655918a8b56eb84090e05e2e17db165432ae5dab4b291
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EP-DX.ANS by Epistasis (tide0496); released in tide0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Dimension X
-# SAUCE Author: Epistasis
-# SAUCE Date: 19960330
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Dimension X by Epistasis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tide0496-ep-dx
 
 Write-Host '
                     ■ ▄           ▄ ■ ▄

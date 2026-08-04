@@ -1,18 +1,4 @@
-﻿# Converted from: 53-ABS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0497/raw/53-ABS2.ANS
-# Source Revision: archive-sha256:0a24528ad1b8350dc6275ed84884990aa181682392c532082994d5872ceb5801
-# Source SHA-256: 3a4f57a4f7acdc222f29f2e06bfb09820b6ed7e368ab0beb921466cfb5b53cfa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 53-ABS2.ANS by senile (echo-o-o-o-.-.-); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: abstract
-# SAUCE Author: senile
-# SAUCE Group: echo-o-o-o-.-.-
-# SAUCE Date: 19970403
-# SAUCE Dimensions: 80x12
-# Lines: 1-12
-# Columns: 1-80
+﻿# Artwork: abstract by senile | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0497-53-abs2
 
 Write-Host '
 

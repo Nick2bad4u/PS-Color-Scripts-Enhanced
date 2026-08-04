@@ -1,18 +1,4 @@
-﻿# Converted from: KT-XPD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-09/raw/KT-XPD.ANS
-# Source Revision: archive-sha256:ce8026e794474c6e48d574a76c9366e170e87fe95fba0f1638e56cb02945c814
-# Source SHA-256: 06f44eb67a79ab97e8afe94dd4443bdcd01728db984197c6a371e335724fd32b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KT-XPD.ANS by Kurrupt (fORCE); released in force-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Xposed
-# SAUCE Author: Kurrupt
-# SAUCE Group: fORCE
-# SAUCE Date: 19960616
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Xposed by Kurrupt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-09-kt-xpd
 
 Write-Host '
 [1;34;44m ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄░[0m

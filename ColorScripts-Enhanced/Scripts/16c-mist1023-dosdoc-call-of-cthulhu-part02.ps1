@@ -1,19 +1,4 @@
-﻿# Converted from: DOSDOC-CALL_OF_CTHULHU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1023/raw/DOSDOC-CALL_OF_CTHULHU.ANS
-# Source Revision: archive-sha256:85986912ea2464623a6cb0e6c05b9b87ede10865c5aaf338ceaa9a86cac2b00a
-# Source SHA-256: 382b8b42e00db8834c6208880d854c952f4a1c6684feaa5ee151052a882484ed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DOSDOC-CALL_OF_CTHULHU.ANS by DosDoc (Mistigris); released in mist1023 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Call of Cthulhu
-# SAUCE Author: DosDoc
-# SAUCE Group: Mistigris
-# SAUCE Date: 20231026
-# SAUCE Dimensions: 80x51
-# SAUCE Font: IBM VGA
-# Lines: 27-51
-# Columns: 1-80
+﻿# Artwork: The Call of Cthulhu by DosDoc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1023-dosdoc-call-of-cthulhu-part02
 
 Write-Host '
 [37m            [0;32m▄▀▀▀█[0;37m               [0;32m█▀▄█████████▄▀▄▀[0;37m              [0;32m▄▀▀▀▄[0m

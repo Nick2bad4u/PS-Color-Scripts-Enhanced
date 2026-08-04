@@ -1,18 +1,4 @@
-﻿# Converted from: PP-FERO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger08/raw/PP-FERO1.ANS
-# Source Revision: archive-sha256:20659819b296ba2594f6e23437420c94a5e40c1f843310f8d5730efe645a2109
-# Source SHA-256: ae791fd77bd1ef174f4ee5930f685250e6f7b198c095aa6c08ad24fdefae0a80
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PP-FERO1.ANS by pixel_pusher (anger); released in anger08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ferocity add..
-# SAUCE Author: pixel_pusher
-# SAUCE Group: anger
-# SAUCE Date: 19960331
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ferocity add.. by pixel_pusher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger08-pp-fero1
 
 Write-Host '
 [33m▒░░[0;1;30m■▀▓▀▀[0;1;30;47m▓▄▄░░  [0;1;37;47m░[0m██[1;47m░░░░░[0;1;30;47m ░░  ■▄▓[0;1;30;40m▓▀▀[0;1;30;47m▓[0;1;30;40m▄    ░░▀▀▀[0;1;30;47m▓▄▄▄░░ [0;1;37;47m░░[0;1;30;47m ░▄▄[0;1;30;40m▀ ░▒▒░ ▐▓ [0;33m▓█[0;1;33;43m░░░[0;33m▓▀[0;1;33;43m░[0;33m█[0;1;33;43m░░▒[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: HAL-SLK2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0397/raw/HAL-SLK2.ANS
-# Source Revision: archive-sha256:92948d41234c0b51c2e1cbae1fc45d03877af276dfc89419c464eee360a4eed8
-# Source SHA-256: 977432dafad2c3fe6146baa2046bcf06149379a38e3ba27a655782708abad43e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HAL-SLK2.ANS by Halaster (Fire); released in fire0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Silk
-# SAUCE Author: Halaster
-# SAUCE Group: Fire
-# SAUCE Date: 19970208
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Silk by Halaster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0397-hal-slk2
 
 Write-Host '
               [35m   [0m        [37m░    ░░░░░ ░░░░░░░░░░░░  [0;34mhal [0m        [37m░░░░░░░░░░░░░[0m

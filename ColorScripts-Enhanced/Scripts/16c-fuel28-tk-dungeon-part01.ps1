@@ -1,20 +1,4 @@
-﻿# Converted from: tk-dungeon.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel28/raw/tk-dungeon.ans
-# Source Revision: archive-sha256:f19d9f1f4d98a894d9a58a43443858287108d50e702695e0859df539776cf44a
-# Source SHA-256: 7461921b940450fafcc2cf8a010897459fee1164f9205a1e730e248ea9d05df5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tk-dungeon.ans by The Knight + Smooth (Fuel); released in fuel28 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Dungeon BBS
-# SAUCE Author: Smooth & The Knight
-# SAUCE Group: Fuel
-# SAUCE Date: 20181121
-# SAUCE Dimensions: 80x130
-# SAUCE Font: IBM VGA
-# SAUCE Comments: This is a remix of an old ansi drawn by Smooth [ACiD] in 1994.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Dungeon BBS by The Knight + Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel28-tk-dungeon-part01
 
 Write-Host '
 

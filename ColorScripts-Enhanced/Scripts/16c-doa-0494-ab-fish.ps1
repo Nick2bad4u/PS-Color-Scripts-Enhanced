@@ -1,13 +1,4 @@
-﻿# Converted from: AB-FISH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/doa-0494/raw/AB-FISH.ANS
-# Source Revision: archive-sha256:9908dd5b5e7bb30f460296490cbe9e045fe85638c040fe74d770a98c459a5e3a
-# Source SHA-256: dbf1d43bcdfa2a25990e3b599322930c88f29c870f0468da1558469e6949f048
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AB-FISH.ANS by Anubis-Doa (doa-0494); released in doa-0494 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: AB-FISH.ANS by Anubis-Doa | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-doa-0494-ab-fish
 
 Write-Host '
        [33m██████▓▓▓███▓▒▒▒[0m           [33m██████▓▓▒▒░░░[0m               [1;30mα██▓▓▓▓   [0;33m█▓▓▓▒▒▒░[0m

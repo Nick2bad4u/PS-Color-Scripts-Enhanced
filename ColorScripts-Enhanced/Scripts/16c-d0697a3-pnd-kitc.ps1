@@ -1,17 +1,4 @@
-﻿# Converted from: PND-KITC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d0697a3/raw/PND-KITC.ANS
-# Source Revision: archive-sha256:4b1a5edf079ccd5aab68f5664461dac73c3f815b42e2d60b05d52946fe416fe5
-# Source SHA-256: 165d3c4ade81672ca037a041e6c7f8fd530a02c26e8fef59fea8403ed4f2d15c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PND-KITC.ANS by pandur (d0697a3); released in d0697a3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: kitchen login screen
-# SAUCE Author: pandur
-# SAUCE Date: 19970610
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: kitchen login screen by pandur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d0697a3-pnd-kitc
 
 Write-Host '
       [36m ▀[0m

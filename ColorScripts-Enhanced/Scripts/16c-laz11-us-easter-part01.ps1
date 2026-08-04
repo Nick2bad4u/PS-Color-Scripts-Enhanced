@@ -1,19 +1,4 @@
-﻿# Converted from: us-easter.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz11/raw/us-easter.ans
-# Source Revision: archive-sha256:68621cb5db58e1d89f5deb5798f3990fa932a6b4eb91cc1511f3f4c157d26f38
-# Source SHA-256: 267e1e7322e431f9f43490c1d3e86625a1feb6f98937e35f115c9b73108b9ec8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-easter.ans by Misfit + Warpus (Lazarus); released in laz11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: COVID EASTER 2020
-# SAUCE Author: Warpus & Misfit
-# SAUCE Group: Lazarus
-# SAUCE Date: 20200511
-# SAUCE Dimensions: 80x306
-# SAUCE Font: IBM VGA
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: COVID EASTER 2020 by Misfit + Warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz11-us-easter-part01
 
 Write-Host '
 [30;40m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m

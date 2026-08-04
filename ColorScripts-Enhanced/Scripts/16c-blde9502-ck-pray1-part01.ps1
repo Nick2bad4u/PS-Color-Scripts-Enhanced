@@ -1,18 +1,4 @@
-﻿# Converted from: CK-PRAY1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9502/raw/CK-PRAY1.ANS
-# Source Revision: archive-sha256:2f0f35d61b4c5c0023fdc3bef64ff913e4d59803d220dd8b6aa9559b05c6a214
-# Source SHA-256: b84e0e02e066f31191cf5d3a5f797c99e5dbd72f0ef65d26452a1cff17b91b79
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CK-PRAY1.ANS by chromatik (Blade Productions); released in blde9502 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: prayer! coming soon!
-# SAUCE Author: chromatik
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19950131
-# SAUCE Dimensions: 80x25
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: prayer! coming soon! by chromatik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9502-ck-pray1-part01
 
 Write-Host '
 

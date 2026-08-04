@@ -1,18 +1,4 @@
-﻿# Converted from: BS-SPYCN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-06/raw/BS-SPYCN.ANS
-# Source Revision: archive-sha256:4c9f598b864a923147eb394591cb120a43a087e70e3844ab4ff73e06903fa178
-# Source SHA-256: 6988796201a93081154493be7f110cc57f1b29c6bcce473df3b3df00808a8daa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-SPYCN.ANS by Blind Sniper (Department 38); released in d38-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: SprayCan for WCd
-# SAUCE Author: Blind Sniper
-# SAUCE Group: Department 38
-# SAUCE Date: 19970512
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: SprayCan for WCd by Blind Sniper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-06-bs-spycn
 
 Write-Host '
 [32m                            [0;34m [0;37m  [0;1;37;47m▓[0;1;37;40m███▄▄▄▄▄[0m▄██   [32m                              [0;34m [0m

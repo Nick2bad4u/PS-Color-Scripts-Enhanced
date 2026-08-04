@@ -1,17 +1,4 @@
-﻿# Converted from: PN-DAMN2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/trbl0596/raw/PN-DAMN2.ANS
-# Source Revision: archive-sha256:3e53e81b5f6c087e4bb9aab3c98480428ac22b061a42f96c8955086a7d1799fe
-# Source SHA-256: b7b5c6d5a08a255149879bc6e750965e6d31dc9cb3016f4511c31b2d99fbfccf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PN-DAMN2.ANS by penn (tribal); released in trbl0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the damned l0ogo
-# SAUCE Author: penn
-# SAUCE Group: tribal
-# SAUCE Dimensions: 80x25
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: the damned l0ogo by penn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-trbl0596-pn-damn2
 
 Write-Host '
 [1;30m░░ ░░[0m                [33m▄▄▄█████▌[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: JR_IRDIU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl_omann/raw/JR_IRDIU.ANS
-# Source Revision: archive-sha256:05aeb5241910df97f7b5f5e1c0f0b2ddf59063a1cb9f232ef34e44c86905e918
-# Source SHA-256: 1667366802b7f8f26de7febe62c322a16bd14d6f7f1cf32655eaa3f13097ea74
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_IRDIU.ANS by jerusalem (boil); released in bl_omann and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: erde in meinem kopf
-# SAUCE Author: jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19971108
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: erde in meinem kopf by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-omann-jr-irdiu
 
 Write-Host '
 [1;33;42m░ [0;32m  [0;1;33;42m▐[0;1;37;42m█[0;1;33;42m▌[0;32m▐  [0;1;33m▄[0;1;37m▄▄[0;1;33m▄▌▄[0m▄                        [34m▐[0;1;34m▄[0;32m▄[0;1;32m▄[0;1;37m▄▄[0;1;33m▄[0;1;34;42m▀[0;32m█[0;33m▌[0m

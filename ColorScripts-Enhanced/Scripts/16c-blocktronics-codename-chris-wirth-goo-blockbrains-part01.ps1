@@ -1,13 +1,4 @@
-﻿# Converted from: GOO-blockbrains.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/GOO-blockbrains.ans
-# Source Revision: archive-sha256:5d665873486ffcf559d33043557e11d7636d0c5a5b53a69dd3e7cf81117997ef
-# Source SHA-256: b46b81af71ef153454fd672907af4e7b05be5bce1a13f391743cd9ac4870d44b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GOO-blockbrains.ans by Mypalgoo (blocktronics_codename_chris_wirth); released in blocktronics_codename_chris_wirth and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: GOO-blockbrains.ans by Mypalgoo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-codename-chris-wirth-goo-blockbrains-part01
 
 Write-Host '
 

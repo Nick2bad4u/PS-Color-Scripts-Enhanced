@@ -1,17 +1,4 @@
-﻿# Converted from: DKY-BOOM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-05/raw/DKY-BOOM.ANS
-# Source Revision: archive-sha256:32c1f67ac6058d9066b580c3bd5854b0529a1844e2dce2e40def969bcce3e47d
-# Source SHA-256: 5290f30c90ad5c04665b21d532f7c9be3ca1eb8945f10005f5e0bf06f1dba7cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DKY-BOOM.ANS by daRkY^ (.nitrophusion.); released in nph-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: MiStah booM !%#@ aNSi foR rEMdY!
-# SAUCE Author: daRkY^
-# SAUCE Group: .nitrophusion.
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: MiStah booM !%#@ aNSi foR rEMdY! by daRkY^ | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-05-dky-boom
 
 Write-Host '
                               [33m▄  ▀[0m

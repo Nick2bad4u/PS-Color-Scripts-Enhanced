@@ -1,18 +1,4 @@
-﻿# Converted from: LOI-NIP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oasis-02/raw/LOI-NIP1.ANS
-# Source Revision: archive-sha256:6fb5f384002bcc4bb0470b1d65ec3dc93261fd8877f11db423d94fbba907c707
-# Source SHA-256: 234adcc04336f934f9882c858b55bbdc14f7a7e025f9577f708fb58ae618ec0d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LOI-NIP1.ANS by Lord Of illsiOns.. (oasis guest??); released in oasis-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: nip!?!?
-# SAUCE Author: Lord Of illsiOns..
-# SAUCE Group: oasis guest??
-# SAUCE Date: 19960511
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: nip!?!? by Lord Of illsiOns.. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oasis-02-loi-nip1
 
 Write-Host '
                 [31m  [0m

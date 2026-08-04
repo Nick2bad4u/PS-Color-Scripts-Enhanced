@@ -1,13 +1,4 @@
-﻿# Converted from: IC-BRR.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-12/raw/IC-BRR.ICE
-# Source Revision: archive-sha256:03ccb24bebad343fffc4daed3f054ccd0ca265066fb8b4feff7bb3f469aac14e
-# Source SHA-256: 3be7714810de42c118fcebd1ea1fb014ab892709c4e3c9f2d1814550e9ffb97b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IC-BRR.ICE by Icy (icepk-12); released in icepk-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 92-121
-# Columns: 1-80
+﻿# Artwork: IC-BRR.ICE by Icy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-12-ic-brr-part03
 
 Write-Host '
               [1;30;40m░[0m      [1;30;40m░[0m          [1;30;40m▄[0m     [1;30;40m▀[0;1;30;47m▌[0;1;37;47m▀[0m▄▄▄[1m▄[0m                  [1;30m░    ░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: smp-rmrs.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic36/raw/smp-rmrs.ans
-# Source Revision: archive-sha256:394ba7094da783b48563604e25be73eb1abefb09d7bb52180dadefd94b2dddd6
-# Source SHA-256: f5622deb5681b732cd36a212b85ef3345ede42dbc79a36373a6d790e9e7cc032
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: smp-rmrs.ans by emok (mimic4life); released in mimic36 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: stupid bbs screen
-# SAUCE Author: emok
-# SAUCE Group: mimic4life
-# SAUCE Date: 20010604
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: stupid bbs screen by emok | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic36-smp-rmrs
 
 Write-Host '
          [34m`.[0m        [34m.[0m

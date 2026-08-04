@@ -1,19 +1,4 @@
-﻿# Converted from: AK-CYBER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-44/raw/AK-CYBER.ANS
-# Source Revision: archive-sha256:6c51508cedeaa9140fcf08750a75edb14e0cec0eebe7b4290346e95cd3548876
-# Source SHA-256: 35ff77120f7294d03ec46ac65060f3c368b05ded540264719a2f8679e2427c3c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-CYBER.ANS by abstrakt (fire); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: cybernetica
-# SAUCE Author: abstrakt
-# SAUCE Group: fire
-# SAUCE Date: 20251111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: cybernetica by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-44-ak-cyber
 
 Write-Host '
                                        [36m.[0m

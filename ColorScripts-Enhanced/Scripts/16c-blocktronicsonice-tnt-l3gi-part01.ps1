@@ -1,19 +1,4 @@
-﻿# Converted from: tnt-l3gi.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronicsonice/raw/tnt-l3gi.ans
-# Source Revision: archive-sha256:09feb7a5adb913c88be16d43a1a4e86bf7073f13399d8bc54e5478cad35282e5
-# Source SHA-256: 453d98848ebb4847c715fbc45e370c06b00e7ec0f141d1c765ebe5dd29f6e25f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tnt-l3gi.ans by tainted (blocktronics); released in blocktronicsonice and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the legion [est 1998]
-# SAUCE Author: tainted
-# SAUCE Group: blocktronics
-# SAUCE Date: 20210818
-# SAUCE Dimensions: 80x75
-# SAUCE Font: IBM VGA
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: the legion [est 1998] by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronicsonice-tnt-l3gi-part01
 
 Write-Host '
 [1;30m  ▄▄▀██▄█████████████████████████████████████▓▓█████████████████████████████▀▀▀▄[0m

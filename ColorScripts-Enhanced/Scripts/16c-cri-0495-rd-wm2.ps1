@@ -1,18 +1,4 @@
-﻿# Converted from: RD-WM2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cri-0495/raw/RD-WM2.ANS
-# Source Revision: archive-sha256:68a525dc058e129b1830b66b54cbf91bf90c51e195457f4b9c43c4e7f818ef1e
-# Source SHA-256: dbd9933f69747d1de601daef047a666f940a1e83bb733a251aa1d5ca66a62d7b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD-WM2.ANS by Realm Dweller (CRiSiS); released in cri-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Wicked Minority
-# SAUCE Author: Realm Dweller
-# SAUCE Group: CRiSiS
-# SAUCE Date: 19950204
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Wicked Minority by Realm Dweller | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cri-0495-rd-wm2
 
 Write-Host '
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

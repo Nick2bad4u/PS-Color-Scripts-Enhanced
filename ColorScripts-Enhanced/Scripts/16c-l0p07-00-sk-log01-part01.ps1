@@ -1,18 +1,4 @@
-﻿# Converted from: SK!LOG01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p07_00/raw/SK!LOG01.ANS
-# Source Revision: archive-sha256:a3b441ad059a99c69fdbe6c7a0af1b4d1cc643ea6b978677fc1531d85260eaf2
-# Source SHA-256: 611087a32b82805cf519223281be25ac38a54b76b4c5918a0cb0189efc486d45
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!LOG01.ANS by sIMONkiNG (thelo0p); released in l0p07_00 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: paczka logoskow do 007/2000
-# SAUCE Author: sIMONkiNG
-# SAUCE Group: thelo0p
-# SAUCE Date: 20000607
-# SAUCE Dimensions: 80x141
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: paczka logoskow do 007/2000 by sIMONkiNG | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p07-00-sk-log01-part01
 
 Write-Host '
 

@@ -1,20 +1,4 @@
-﻿# Converted from: SK!MASKED_CHILDREN_IN_CIRCUS_TERRORISM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2024d/raw/SK!MASKED_CHILDREN_IN_CIRCUS_TERRORISM.ANS
-# Source Revision: archive-sha256:78f2b42b8b915cc020359380738985aeae26cb7da34f2a9b3e11f3b25578d3fe
-# Source SHA-256: 15836f218aec841051ad89ea1bc88fd7b08caefb4f5d682ace3bbd78a62b3ffd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!MASKED_CHILDREN_IN_CIRCUS_TERRORISM.ANS by sIMONkING (thelo0p^LAZARUS); released in blndr2024d and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Masked children in cirus
-# SAUCE Author: sIMONkING
-# SAUCE Group: thelo0p^LAZARUS
-# SAUCE Date: 20241020
-# SAUCE Dimensions: 80x100
-# SAUCE Font: IBM VGA
-# SAUCE Comments: for blender 20.10.2024 MASKED CHILDREN | TERRORISM | CIRCUS by s | IMONkING/thelo0p^LAZARUS
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Masked children in cirus by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2024d-sk-masked-children-in-circus-terrorism-part01
 
 Write-Host '
 [1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;5;30m▄▄▄[0;1;30m▄▄▄▄[0;30m▄▄▄[0;1;35m███████[0m [1;34m█████████▀[0;1;35m  [0;31m▄[0;1;35m ████████[0m [1;31m▀▀▀▀▀████[0m [1;33m█████████[0m

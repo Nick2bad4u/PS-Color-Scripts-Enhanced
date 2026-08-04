@@ -1,15 +1,4 @@
-﻿# Converted from: CP-ORGK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jive1196/raw/CP-ORGK.ANS
-# Source Revision: archive-sha256:74e1c77b15f9f77c425b7a6f94db1ea196521e43a60a356b13371fec7928ab41
-# Source SHA-256: fa40de1a4e3ca0de49bb931e512ab7f7eb067baa5312cf96530a972afe458a3f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CP-ORGK.ANS by Chaotic Prisoner (jive1196); released in jive1196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Organized Kaos
-# SAUCE Author: Chaotic Prisoner
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Organized Kaos by Chaotic Prisoner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jive1196-cp-orgk
 
 Write-Host '
          ░[32m [0;1;36morganized kaos[0m      [1;32m░[0;32m  [0;1;32m░░▄▄▄▓▓▄▓▄▄▄▄▄[0;32m      [0;1;32m    ░ ░░░░ ░░    ▄        [0m

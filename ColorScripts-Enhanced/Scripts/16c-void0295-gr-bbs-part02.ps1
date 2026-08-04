@@ -1,18 +1,4 @@
-﻿# Converted from: GR-BBS!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/void0295/raw/GR-BBS!.ANS
-# Source Revision: archive-sha256:4a44bb34dd7dff10b5a2dda07cb89e234fbb0d7e21e3c15a308c427064caab51
-# Source SHA-256: 0f7fdd02d27680d438924f7e088d8d32f6be7d0d848e0a7258a8beaf392d333a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GR-BBS!.ANS by Grimace (Void); released in void0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Free BBS Screens!
-# SAUCE Author: Grimace
-# SAUCE Group: Void
-# SAUCE Date: 19950205
-# SAUCE Dimensions: 80x61
-# Lines: 30-61
-# Columns: 1-80
+﻿# Artwork: Free BBS Screens! by Grimace | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-void0295-gr-bbs-part02
 
 Write-Host '
 [1;30;40m [0;1;37;40m───────────────[0m─[1m─[0m──[1m─[0m───[1m─[0m────[1;30m─[0m─[1;30m──[0m─[1;30m───[0m─[1;30m────────────────────────────────[0m [1;30m─[0m  [1;30m─[0m   [1;30m─[0m

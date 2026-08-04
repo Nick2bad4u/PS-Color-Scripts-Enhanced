@@ -1,13 +1,4 @@
-﻿# Converted from: PP-RE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ls-0394/raw/PP-RE.ANS
-# Source Revision: archive-sha256:004179d1962bc289022fb5957d7cb2069c1ca5c379ab7bf7c373702f465d5707
-# Source SHA-256: 1c58f7778e4faf22655b3281722c91a8e3ecface69e1803c8fcd9d0a5f1e0b8a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PP-RE.ANS by Phorce Phed (ls-0394); released in ls-0394 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 47-96
-# Columns: 1-80
+﻿# Artwork: PP-RE.ANS by Phorce Phed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ls-0394-pp-re-part02
 
 Write-Host '
 [1;30;40m ▌[0;1;37;40m▓▒▒▒▒▒▒[0;1;37;47m░[0;1;37;40m▒▒▒▒█▒▓[0;1;37;47m▓[0;1;30;40m▐[0m

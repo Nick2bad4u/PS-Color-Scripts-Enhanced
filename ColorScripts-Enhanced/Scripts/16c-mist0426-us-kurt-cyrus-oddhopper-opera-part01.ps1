@@ -1,19 +1,4 @@
-﻿# Converted from: US-KURT_CYRUS-ODDHOPPER_OPERA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0426/raw/US-KURT_CYRUS-ODDHOPPER_OPERA.ANS
-# Source Revision: archive-sha256:c759ba228fb42808866da1267838a1ce2371215b87bc273c64f35f4bc653e77d
-# Source SHA-256: fbdea22b0da49cd8aa8ecfce3b2ac7494710e3bc64ae9528ba18c593467d6bf5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-KURT_CYRUS-ODDHOPPER_OPERA.ANS by LDA + Moth (Mistigris); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Oddhopper Opera
-# SAUCE Author: Moth / LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260428
-# SAUCE Dimensions: 80x68
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Oddhopper Opera by LDA + Moth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0426-us-kurt-cyrus-oddhopper-opera-part01
 
 Write-Host '
 [33;42m                                  [0;1;33;42m▄▄▬[0;32m████████[0;33;42m                                   [0m

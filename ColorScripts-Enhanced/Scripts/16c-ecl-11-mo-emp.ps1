@@ -1,16 +1,4 @@
-﻿# Converted from: MO-EMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-11/raw/MO-EMP.ANS
-# Source Revision: archive-sha256:124f5de71b4943d1edf363ae27ec83def11b741938d7ad78955f12dc3ea0753e
-# Source SHA-256: bb74e63c35cfee18c06aa64f9c101f1c8e82a3e31e64f284931ce6876c30bb2b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MO-EMP.ANS by magnaPORN (elk piss); released in ecl-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: empyRyan
-# SAUCE Author: magnaPORN
-# SAUCE Group: elk piss
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: empyRyan by magnaPORN | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-11-mo-emp
 
 Write-Host '
 [34m░[0;36m [0;1;36m█[0;1;31;46m░░[0;1;36;46m▀[0;36m▌[0;34m▄▄▄[0m              [34m██[0;1;34;44m██[0m             [34m▄▄▄[0;37m [0;34m■[0m         [30;44m▓░[0;34;40m▄[0m            [36;40m█[0;1;36;40m██████ [0;32m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: FR-ENDOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9707/raw/FR-ENDOR.ANS
-# Source Revision: archive-sha256:bfcb83c6d9eb9beac4e313e6cb4a06c0bdcb3b894eaa2b7afbdde4d6e5181bec
-# Source SHA-256: 67af2b7ad82bd90cec2007e874764dd04680ccd0d109f46d86ae1816780ad71e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FR-ENDOR.ANS by feaRprOphet (csfah/mdnah/aifah); released in mdn-9707 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: menu for endoooooooooorr
-# SAUCE Author: feaRprOphet
-# SAUCE Group: csfah/mdnah/aifah
-# SAUCE Date: 19970611
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: menu for endoooooooooorr by feaRprOphet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9707-fr-endor
 
 Write-Host '
 [1;30m░[0;30;44m█▓▓[0m    [34;40m▄[0;1;34;40m▄▄▄▄▄[0;34m▄  [0;30;46m▓▓[0;36;40m█[0;1;36;46m▄▄▄▄[0;36m█▀▄[0m   [36m█[0;1;36;46m▄▄▄[0;36m█ [0;1;30m░░[0;30;46m█▓▓[0;36;40m█[0;1;36;46m▄▄▄[0;36m█ [0;1;30m░░[0m    [30;44m▓▓[0;34;40m▄▄▄▄▄[0;1;34;40m▄▄▄[0;34m [0;36m█[0;1;36;46m▄▄▄[0;36m█ [0;30;46m▓▓[0;36;40m▄▄▄▄▄▄▄ [0m

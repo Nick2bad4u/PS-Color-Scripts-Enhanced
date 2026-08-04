@@ -1,18 +1,4 @@
-﻿# Converted from: SG-HGI8.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0896/raw/SG-HGI8.ANS
-# Source Revision: archive-sha256:aea0eeb92b0eab79feeb93a911e40d78834e5950cdc396c43c83fe60a2627fad
-# Source SHA-256: 8fd22346474ba160ffcfce27ae73b61b0513d7a304a0143c58e3f8151cc87b24
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SG-HGI8.ANS by Stygian (Quad-P); released in quad0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Hangar i8
-# SAUCE Author: Stygian
-# SAUCE Group: Quad-P
-# SAUCE Date: 19960604
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Hangar i8 by Stygian | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0896-sg-hgi8
 
 Write-Host '
 

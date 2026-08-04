@@ -1,18 +1,4 @@
-﻿# Converted from: PYX-URGE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0796/raw/PYX-URGE.ANS
-# Source Revision: archive-sha256:f782dac10caec7358fb12f56ab648d6b2d754d33c969b772c25d26329ee46f63
-# Source SHA-256: 17449e209391f90f8975d84f174b68f8c24477c71ee7b6343b96724009aaffa2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-URGE.ANS by Pyx (Bam-kinda-Boosh); released in bmb-0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: feed the rush with URGE :)
-# SAUCE Author: Pyx
-# SAUCE Group: Bam-kinda-Boosh
-# SAUCE Date: 19960727
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: feed the rush with URGE :) by Pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0796-pyx-urge
 
 Write-Host '
                                                          [31m    [0m

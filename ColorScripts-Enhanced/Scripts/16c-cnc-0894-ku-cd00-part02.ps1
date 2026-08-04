@@ -1,13 +1,4 @@
-﻿# Converted from: KU-CD00.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cnc-0894/raw/KU-CD00.ANS
-# Source Revision: archive-sha256:1b41953359b4903075cddee4a19558a01788588c83e4b31f35133aa0fc5529ef
-# Source SHA-256: 7ea2cec435f30caff48840e2c3d8435a03ad592642ef2056577a919b621a782d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KU-CD00.ANS by Kung Lao (cnc-0894); released in cnc-0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: KU-CD00.ANS by Kung Lao | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cnc-0894-ku-cd00-part02
 
 Write-Host '
               [37m██▀ [0;1;30m▄▄[0;1;30;44m▓▒░[0;34m█████████████████████████████████████████████████████████[0m

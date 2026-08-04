@@ -1,13 +1,4 @@
-﻿# Converted from: AA-CW1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/id-0195/raw/AA-CW1.ANS
-# Source Revision: archive-sha256:1e102bfdfc5a7e5ea7a34581f48ef676a6c5bd53addba28566fec29d5526922b
-# Source SHA-256: ac84d7d646cfc0ce5f8fbde6de15b13a4e4a9ffd8fc6d79976188e43fde9b142
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AA-CW1.ANS by America (id-0195); released in id-0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 33-59
-# Columns: 1-80
+﻿# Artwork: AA-CW1.ANS by America | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-id-0195-aa-cw1-part02
 
 Write-Host '
 [31m█▀███[0;30;41mAA[0m   [31;40m▄  [0;1;30;40m▄▓[0m       [1;30;40m▄    [0;33m▀▒▀▀[0m             [33m▀▀▀▀[0m           [1;30m▀    ▄  ▀  [0;31m█████████[0m

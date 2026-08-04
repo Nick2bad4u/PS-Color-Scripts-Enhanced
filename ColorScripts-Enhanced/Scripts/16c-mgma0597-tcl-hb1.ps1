@@ -1,13 +1,4 @@
-﻿# Converted from: TCL-HB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mgma0597/raw/TCL-HB1.ANS
-# Source Revision: archive-sha256:4321ed96c03457476be7881d0c1ef30e9189de218dff8231543b22aa7744f58c
-# Source SHA-256: 1949db95990d3d122d0a1dfd8ad833cbaa6a37a99431526ff475bc360f53d12b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TCL-HB1.ANS by Tical (mgma0597); released in mgma0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: TCL-HB1.ANS by Tical | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mgma0597-tcl-hb1
 
 Write-Host '
 

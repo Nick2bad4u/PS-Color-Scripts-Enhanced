@@ -1,17 +1,4 @@
-﻿# Converted from: PE!HA2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9706/raw/PE!HA2.ANS
-# Source Revision: archive-sha256:867680f5fb3c86dcb017d8ed4cd79085881689d65da90056f84aba519ae4bdfe
-# Source SHA-256: e73efcd4d47c30d39287226f9e034e5f5be5c8fe601b8d7754cbed84ee4163f1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PE!HA2.ANS by Phony Eye (AWE Lettering); released in awe9706 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Hazard/2
-# SAUCE Author: Phony Eye
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Hazard/2 by Phony Eye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9706-pe-ha2
 
 Write-Host '
                                       [34m                     [0m

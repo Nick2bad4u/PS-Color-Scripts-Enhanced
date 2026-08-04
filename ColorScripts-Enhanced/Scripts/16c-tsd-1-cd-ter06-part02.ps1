@@ -1,13 +1,4 @@
-﻿# Converted from: CD-TER06.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tsd-1/raw/CD-TER06.ANS
-# Source Revision: raw-sha256:916e698d64d5879afaffa58780602855fd2137c8fc5a8f5724fa4d09e2113565
-# Source SHA-256: 916e698d64d5879afaffa58780602855fd2137c8fc5a8f5724fa4d09e2113565
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CD-TER06.ANS by Drakula (tsd-1); released in tsd-1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 41-63
-# Columns: 1-80
+﻿# Artwork: CD-TER06.ANS by Drakula | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tsd-1-cd-ter06-part02
 
 Write-Host '
 [32m▄▀▀▀▀▀▄ ▄▀▀▀▀▀▄ ▄▀▀▀▀▀▄ ▄▀▀▀▀▀▄ ▄▀▀▀▀▀▄ ▄▀▀▀▀▀▄ ▄▀▀▀▀▀▄ ▄▀▀▀▀▀▄ ▄▀▀▀▀▀▄ ▄▀▀▀▀▀▄[0m

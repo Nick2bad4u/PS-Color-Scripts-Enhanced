@@ -1,18 +1,4 @@
-﻿# Converted from: CG-LURE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-05/raw/CG-LURE1.ANS
-# Source Revision: archive-sha256:c84fdc261f7fd501a311025e55fa5ba4ffaded89b8d307d907b0105e1d45695f
-# Source SHA-256: 62e75135607878c93fc8807a3a3fd32275143030e2979a5fa6fcfbf611e2eab7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-LURE1.ANS by cryogenic (lure); released in used-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: lure
-# SAUCE Author: cryogenic
-# SAUCE Group: lure
-# SAUCE Date: 20000602
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: lure by cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-05-cg-lure1
 
 Write-Host '
  [33m▬[0m

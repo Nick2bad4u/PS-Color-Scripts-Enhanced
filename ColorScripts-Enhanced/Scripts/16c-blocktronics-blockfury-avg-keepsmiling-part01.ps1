@@ -1,16 +1,4 @@
-﻿# Converted from: avg-keepsmiling.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_blockfury/raw/avg-keepsmiling.ans
-# Source Revision: archive-sha256:071260960977ea1068cec2d97ab877e753876c2d02c413111354a74175d7cd04
-# Source SHA-256: e7ff58773fa74dc9e54bca149adde54ee437b9bf7240ce22cefa456364d75bf0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-keepsmiling.ans by Avenging Angel (blocktronics_blockfury); released in blocktronics_blockfury and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20150404
-# SAUCE Dimensions: 80x161
-# SAUCE Font: IBM VGA
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: avg-keepsmiling.ans by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blockfury-avg-keepsmiling-part01
 
 Write-Host '
 [37;40m  [0;1;34;40m▄  ▄  ▄  ▄  ▄ [0m [1;34m▄[0m  [1;34m▄[0m  [1;34m▄[0m  [1;34m▄[0m  [1;34m▄[0m  [1;34m▄[0m  [1;34m▄[0m  [1;34m▄[0m

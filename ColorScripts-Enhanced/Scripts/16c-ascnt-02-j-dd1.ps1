@@ -1,15 +1,4 @@
-﻿# Converted from: ^J-DD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ascnt-02/raw/%5EJ-DD1.ANS
-# Source Revision: archive-sha256:941ef0ca832bfffcbb0345c39567a2df1704a250fe70a6052dbdbb0076b1c12b
-# Source SHA-256: 2a341fd5484dd179f0e6e543789b5f677c3e940c45c784bc6461b1e85d6a2bc1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ^J-DD1.ANS by Fever (ascnt-02); released in ascnt-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 19961125
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: ^J-DD1.ANS by Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ascnt-02-j-dd1
 
 Write-Host '
 

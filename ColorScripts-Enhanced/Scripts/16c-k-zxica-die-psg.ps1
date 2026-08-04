@@ -1,13 +1,4 @@
-﻿# Converted from: DIE-PSG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-zxica/raw/DIE-PSG.ANS
-# Source Revision: archive-sha256:098212bcd3fc250902be7ae08340a23e99b29f8fa69fe7b4990238a6d402d1f6
-# Source SHA-256: c8a88d39098985f7beadd23b27d74a5ba58300e1632178e17898ff777d29db25
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DIE-PSG.ANS by Dieznyik (k-zxica); released in k-zxica and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: DIE-PSG.ANS by Dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-zxica-die-psg
 
 Write-Host '
    [1;33m░[0m       [34m░[0;30;44m▓[0m                     [35;40m ░[0;30;45m▓[0m          [34;40m░[0m                     [35;40m  [0m

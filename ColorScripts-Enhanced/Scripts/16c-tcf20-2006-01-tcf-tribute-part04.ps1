@@ -1,13 +1,4 @@
-﻿# Converted from: 2006 - 01 - tcf-tribute.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tcf20/raw/2006%20-%2001%20-%20tcf-tribute.ans
-# Source Revision: archive-sha256:af8609219fccc484668fb405a7f1d45efb8c574501a461c5c1b47d87a12921ce
-# Source SHA-256: 31c38df18fcc221733f641d2dfda3e6bfad5aed5d992dc54c26ccd5cd2b36162
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2006 - 01 - tcf-tribute.ans by The Creep Fever (tcf20); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 134-179
-# Columns: 1-80
+﻿# Artwork: 2006 - 01 - tcf-tribute.ans by The Creep Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tcf20-2006-01-tcf-tribute-part04
 
 Write-Host '
 [36m [0;1;37;46m█[0;1;30;46m▒[0;1;37;46m▓▒[0;36m█[0;1;30;46m░░[0;36m [0;1;30m▐[0;36m [0;1;30m░  ▄▄██████▄    █▄▀█[0m     [1;30m▄▄▒▀▀█[0m        [1;30m▒▌[0m              [36m▀[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: us-dsm.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel27/raw/us-dsm.ans
-# Source Revision: raw-sha256:dc0c080960e69f3a87698be7e555b2c0b37678d010e07abb1d6a127bb948aca9
-# Source SHA-256: dc0c080960e69f3a87698be7e555b2c0b37678d010e07abb1d6a127bb948aca9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-dsm.ans by Necrofiliac + Pinguino (fuel); released in fuel27 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: defcon secret message
-# SAUCE Author: pinguino & necro
-# SAUCE Group: fuel
-# SAUCE Date: 20180710
-# SAUCE Dimensions: 80x23
-# SAUCE Font: IBM VGA
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: defcon secret message by Necrofiliac + Pinguino | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel27-us-dsm
 
 Write-Host '
 [38;2;0;171;171;48;2;0;0;0m▓[0;38;2;0;171;171;48;2;0;171;171m██████████[0;1;38;2;87;255;255;48;2;0;171;171m░[0;38;2;0;0;0;48;2;0;171;171mO[0;38;2;0;171;171;48;2;0;0;0m▀[0;38;2;0;171;171;48;2;0;171;171m█████[0;1;38;2;87;255;255;48;2;0;171;171m▒▓██▄██████▓▓[0;38;2;0;171;171;48;2;0;0;0m▌ ▀[0;38;2;0;171;171;48;2;0;171;171m   [0;1;38;2;87;255;255;48;2;0;171;171m░▓▓████▒[0;38;2;0;171;171;48;2;0;171;171m██[0;1;38;2;87;255;255;48;2;0;171;171m██[0;38;2;0;171;171;48;2;0;171;171m█████[0;1;38;2;87;255;255;48;2;0;171;171m▓[0;38;2;0;171;171;48;2;0;171;171m████[0;38;2;0;171;171;48;2;0;0;171m▓▒[0;38;2;0;171;171;48;2;0;171;171m████████[0;1;38;2;87;255;255;48;2;0;171;171m▓[0;38;2;0;171;171;48;2;0;171;171m███[0;38;2;0;171;171;48;2;0;0;171m▓[0;1;38;2;87;255;255;48;2;0;0;171m▓[0;38;2;0;171;171;48;2;0;171;171m████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: DT-ABYS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0395/raw/DT-ABYS.ANS
-# Source Revision: archive-sha256:f2a95642991562087407da2d5718c9539e60d73ef03932f3b9b3875815fbc27c
-# Source SHA-256: 98199eece198a7b32bd8aa3c8e1fb38df6d44e33b926da548c2b1fb03e1a462d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-ABYS.ANS by Diamond Traveller (Mistigris); released in mist0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Abyssimal Dissimulation
-# SAUCE Author: Diamond Traveller
-# SAUCE Group: Mistigris
-# SAUCE Date: 19950301
-# SAUCE Dimensions: 80x103
-# Lines: 65-103
-# Columns: 1-80
+﻿# Artwork: Abyssimal Dissimulation by Diamond Traveller | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0395-dt-abys-part03
 
 Write-Host '
 [1;37;40m▒▒[0m  [1m░[0m               [36m░[0;37m        [0;1;37m░[0m    [1;36m             [0;36m        [0;1;37m░[0;36m  [0;37m    [0;36m▀▀▀[0;37m   [0;36m ▀▓▓█▀[0;37m [0;1;37m░[0m [1m▒[0m

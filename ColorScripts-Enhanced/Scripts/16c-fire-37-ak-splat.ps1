@@ -1,19 +1,4 @@
-﻿# Converted from: AK-SPLAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-37/raw/AK-SPLAT.ANS
-# Source Revision: archive-sha256:42913eb56742cc8575f96af5b8a027e63b5172fdb84271b8ac973c7820ea43ef
-# Source SHA-256: 60c36db5ca2b0c41a678db13d21e9151d312527c1a7cbd094116203816540299
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-SPLAT.ANS by abstrakt (fire); released in fire-37 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: splatterhaus
-# SAUCE Author: abstrakt
-# SAUCE Group: fire
-# SAUCE Date: 20230707
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: splatterhaus by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-37-ak-splat
 
 Write-Host '
 [38;2;171;0;171;48;2;0;0;0m┘[0;1;38;2;87;87;255;48;2;0;0;0m`[0;1;38;2;255;87;87;48;2;0;0;0m   .[0;38;2;171;0;0;48;2;0;0;0m [0;38;2;0;0;171;48;2;0;0;0m`[0;38;2;171;0;171;48;2;0;0;0m4[0;1;38;2;87;87;255;48;2;0;0;0m^[0;38;2;0;0;171;48;2;0;0;0m'' .[0;1;38;2;87;87;87;48;2;0;0;0m [0;1;38;2;255;87;87;48;2;0;0;0m.,  [0;38;2;171;0;0;48;2;0;0;0m.    [0;38;2;0;0;171;48;2;0;0;0m┘[0;1;38;2;87;87;255;48;2;0;0;0m''[0;1;38;2;255;87;87;48;2;0;0;0m   ,  [0;38;2;171;0;171;48;2;0;0;0m`4[0;1;38;2;87;87;255;48;2;0;0;0m$$[0;38;2;0;0;171;48;2;0;0;0m$┘[0;38;2;171;0;171;48;2;0;0;0m`[0;1;38;2;87;87;87;48;2;0;0;0m   [0;38;2;171;0;171;48;2;0;0;0m^''[0;38;2;0;0;171;48;2;0;0;0m`   [0;1;38;2;255;255;255;48;2;0;0;0m.,,,.[0;38;2;171;0;171;48;2;0;0;0m  [0;1;38;2;87;87;87;48;2;0;0;0m.┌,/`[0;38;2;171;171;171;48;2;0;0;0m.┌⌐s[0;1;38;2;255;255;255;48;2;0;0;0m\$$$[0;38;2;171;171;171;48;2;0;0;0m$; ;,[0;1;38;2;87;87;87;48;2;0;0;0m7` [0;38;2;171;0;171;48;2;0;0;0m,$[0;1;38;2;87;87;255;48;2;0;0;0mP┐[0;38;2;171;0;171;48;2;0;0;0m.[0m

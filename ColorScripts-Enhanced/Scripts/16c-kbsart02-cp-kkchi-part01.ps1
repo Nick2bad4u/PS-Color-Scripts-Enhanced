@@ -1,18 +1,4 @@
-﻿# Converted from: CP-KKCHI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/kbsart02/raw/CP-KKCHI.ANS
-# Source Revision: archive-sha256:db985c6cc647f5eef7416b8a6b8fee6ea9ea728844fba4bfa914fc08893c10ca
-# Source SHA-256: f3d37c2319262a4e8330a3db4f0479105d64e3fe441ea32c038b6691cfafd3c5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CP-KKCHI.ANS by cyberphreak (kibosh); released in kbsart02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: KIBOSH
-# SAUCE Author: cyberphreak
-# SAUCE Group: kibosh
-# SAUCE Date: 19990531
-# SAUCE Dimensions: 80x75
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: KIBOSH by cyberphreak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-kbsart02-cp-kkchi-part01
 
 Write-Host '
 

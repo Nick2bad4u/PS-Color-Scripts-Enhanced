@@ -1,18 +1,4 @@
-﻿# Converted from: MW-PANIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icon0595/raw/MW-PANIC.ANS
-# Source Revision: archive-sha256:0c4fed1665525dbb7d857717dd9904d141c70c3e98d7bd6cf00702ab896f0d5f
-# Source SHA-256: 302dcee531d878052061cef2d0c886209e4a8fac27e19739b8db3d21156d296a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MW-PANIC.ANS by Maeve Wolf (iCON); released in icon0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: DoN'T PaNiC!
-# SAUCE Author: Maeve Wolf
-# SAUCE Group: iCON
-# SAUCE Date: 19950418
-# SAUCE Dimensions: 80x51
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: DoN'T PaNiC! by Maeve Wolf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icon0595-mw-panic
 
 Write-Host '
     [34;44m░[0;34;47m█[0;34;40m▄[0;34m▀█▄  [0;1;36;46m▓[0;36m█    [0;1;36;46m░█[0m               [32m░[0m                [32m░[0m        [1;32m░▒   [0;1;30m▄██▓▒░▄[0m

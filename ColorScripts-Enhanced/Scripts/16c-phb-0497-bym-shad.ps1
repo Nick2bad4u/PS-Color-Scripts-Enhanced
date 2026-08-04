@@ -1,18 +1,4 @@
-﻿# Converted from: BYM%SHAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phb-0497/raw/BYM%25SHAD.ANS
-# Source Revision: archive-sha256:85681ee98c1ba1a2744730faa07d763080600c62bb25593bcf45c740268afee1
-# Source SHA-256: b36e96c177bd756acd671fe14e73fa04cff8c9e5117fd764ebde429ee09930f9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM%SHAD.ANS by big y3llow man (pHOBIA@!); released in phb-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: oddball's shad
-# SAUCE Author: big y3llow man
-# SAUCE Group: pHOBIA@!
-# SAUCE Date: 19970406
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: oddball's shad by big y3llow man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phb-0497-bym-shad
 
 Write-Host '
                                             [36m▄[0m

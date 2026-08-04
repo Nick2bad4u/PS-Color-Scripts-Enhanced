@@ -1,18 +1,4 @@
-﻿# Converted from: FS-TMPL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-12/raw/FS-TMPL2.ANS
-# Source Revision: archive-sha256:7e4f8f6a94015166f300fe788b888a1d637b190c909ddf321a766f55494b93b3
-# Source SHA-256: dd459ef104f1dc1e4c82475f3041356974628401810c6a9d3279999b242600d9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FS-TMPL2.ANS by flipside (fORCE); released in force-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the temple
-# SAUCE Author: flipside
-# SAUCE Group: fORCE
-# SAUCE Date: 19961006
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: the temple by flipside | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-12-fs-tmpl2
 
 Write-Host '
         [33m▄▄▄▄▄▄▄[0m    [33m▄[0m

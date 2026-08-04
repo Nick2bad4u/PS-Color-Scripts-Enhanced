@@ -1,18 +1,4 @@
-﻿# Converted from: TS-TT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl-0495/raw/TS-TT.ANS
-# Source Revision: archive-sha256:da48fc47aba1bdba6b1e6a892ddb2b6235082718f1e79e85e087949e87e785f8
-# Source SHA-256: bd0d17bc159eb838e8b09ef90e9dcd832af7fcc6ef2a9cef873f4d1a24162da5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-TT.ANS by Ts (TekLordZ); released in tl-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Termite Terrace
-# SAUCE Author: Ts
-# SAUCE Group: TekLordZ
-# SAUCE Date: 19950326
-# SAUCE Dimensions: 80x25
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Termite Terrace by Ts | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl-0495-ts-tt-part02
 
 Write-Host '
 [1;36;46m▒[0;36m▀▀▀   [0;1;30m▄▄▄▄[0;1;30;43m▓▓▓▒[0m [1;30;43m▓[0;1;30;40m▄ ▌ ▄[0;1;30;43m▓[0;33m▀▒▀██▄█████▓█▄██▀ ▄▀█▒[0;1;30;43m░[0;33m█ [0;1;30;43m▓[0;33m▓ ▐[0;1;30;43m▒░░[0;33m█▓███▓▓████[0;1;30;43m░░[0;33m▓▒▀[0;1;30m▐▄ ▀[0;1;30;43m▒░░[0;33m▄█[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: TT-PAN.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9403/raw/TT-PAN.ICE
-# Source Revision: archive-sha256:256add313f6fb2d9526e695b09f6039aacb3931a76c34081a80ce81f3cc3dbc4
-# Source SHA-256: 8b623bfa30b10d673cdc17ec8cf6ec6bf3e1d8017eb4b2521ae5574f5d1ac991
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TT-PAN.ICE by Tempus Thales (ice-9403); released in ice-9403 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: TT-PAN.ICE by Tempus Thales | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9403-tt-pan-part01
 
 Write-Host '
                             [1;31m▄▄█[0;1;31;41m▀▀[0;1;31m▄▄▄ ▄████▄ [0;31m▄[0;1;31m▄[0m

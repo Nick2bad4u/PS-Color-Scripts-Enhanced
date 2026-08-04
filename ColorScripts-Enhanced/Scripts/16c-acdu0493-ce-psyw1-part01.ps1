@@ -1,13 +1,4 @@
-﻿# Converted from: CE-PSYW1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0493/raw/CE-PSYW1.ANS
-# Source Revision: archive-sha256:311f11605cac1bd3a8e680abc26975bf116b1bcb1007e67cc40cc7339876c97e
-# Source SHA-256: 736265b97b235ef5d673ca703c2c5885ae5f725bcfc2cea272a9fadeccd529ae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CE-PSYW1.ANS by Cerebrus (acdu0493); released in acdu0493 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: CE-PSYW1.ANS by Cerebrus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0493-ce-psyw1-part01
 
 Write-Host '
 [1;30m░░░░░▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▀▀▀▀▀▀▀▀▀▀▀[0m       [31m░▒░[0m          [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀██▓▒▓███▓[0m

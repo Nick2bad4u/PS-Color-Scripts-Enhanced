@@ -1,18 +1,4 @@
-﻿# Converted from: ARSO-03.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira-007a/raw/ARSO-03.ANS
-# Source Revision: archive-sha256:ee5a82ac7f98955da25871045743238711285c6b7b62811e228512414e2f4a52
-# Source SHA-256: e3fdab3f61c103e98b8c6d21db2701b695c609c068b6414004e23bf16c0d2e09
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARSO-03.ANS by Arsonic&"%$ (Irato); released in ira-007a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Files Menu
-# SAUCE Author: Arsonic&"%$
-# SAUCE Group: Irato
-# SAUCE Date: 19981001
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Files Menu by Arsonic&"%$ | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira-007a-arso-03
 
 Write-Host '
 █[30;47m▄[0;37;40m███[0;30;47m▄[0;37;40m██[0;30;47m▀▄[0;37;40m██[0;30;47m▄[0;1;30;47m░[0;30m█[0;32m█[0;1;30;42m░[0;30;42m▀[0;32;40m▀[0;30;42m▀[0;1;30;40m▀[0;30;42m▀[0;32;40m▀[0;1;30;42m░[0;30;42m▀[0;32;40m█[0;1;30;42m░[0;32m▀[0;30;47m▀[0;37;40m███[0;30;47m▄[0;1;30;47m▄[0;30;47m▀[0;32;40m▀[0;1;37;40m▄[0;1;37;47m▄▀[0;30;47m▄[0;37;40m                                      [0;32;40m [0m

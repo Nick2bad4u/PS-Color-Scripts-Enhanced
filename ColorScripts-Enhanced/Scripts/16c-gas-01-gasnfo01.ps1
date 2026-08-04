@@ -1,13 +1,4 @@
-﻿# Converted from: GASNFO01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gas-01/raw/GASNFO01.ANS
-# Source Revision: archive-sha256:e94fb6f4f8de41efd9ec99ed895127f6f53e7ed82a067b31c95910591cf49d88
-# Source SHA-256: 79772eb0325a97e60964afe70ba7c9758f06d3b25ced936c7dbb1ce688113faa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GASNFO01.ANS by Juice Gas + Tribal (gas-01); released in gas-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: GASNFO01.ANS by Juice Gas + Tribal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gas-01-gasnfo01
 
 Write-Host '
 █[1;47m░▄▄[0m▌            ░                     ·

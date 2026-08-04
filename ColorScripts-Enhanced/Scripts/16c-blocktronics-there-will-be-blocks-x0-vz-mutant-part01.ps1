@@ -1,16 +1,4 @@
-﻿# Converted from: x0-vz-mutant.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_there_will_be_blocks/raw/x0-vz-mutant.ans
-# Source Revision: archive-sha256:d99f6502677c5a3c863779944513ac7a61b8122179566cfc94d95537e904aa6b
-# Source SHA-256: 5ac016ddae14a3f964ce7453c28358bdd2090f1b12a7c1a940a543ee910f8927
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: x0-vz-mutant.ans by Xer0 (blocktronics_there_will_be_blocks); released in blocktronics_there_will_be_blocks and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20170216
-# SAUCE Dimensions: 80x91
-# SAUCE Font: IBM VGA
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: x0-vz-mutant.ans by Xer0 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-there-will-be-blocks-x0-vz-mutant-part01
 
 Write-Host '
 [34;45m░░░░░░░░░░░░░░░░░░░░░░░[0;37;40m [0;35;40m▐[0;34;45m░░░[0;32;40m░[0;37;40m [0;35;40m▓▀▀▀[0;37;40m [0;32;40m░[0m        [35;40m▀▀▀▀▀▀▀[0;34;45m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

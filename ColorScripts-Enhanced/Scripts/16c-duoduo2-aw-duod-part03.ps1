@@ -1,16 +1,4 @@
-﻿# Converted from: aw-duod.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/duoduo2/raw/aw-duod.ans
-# Source Revision: raw-sha256:0666a9085e4f1f90e731fa6c42376209f7a118ad159afd4ba2769850814fcfe6
-# Source SHA-256: 0666a9085e4f1f90e731fa6c42376209f7a118ad159afd4ba2769850814fcfe6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: aw-duod.ans by Abdully Wahaa (duoduo2); released in duoduo2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 20151219
-# SAUCE Dimensions: 80x139
-# SAUCE Font: IBM VGA
-# Lines: 97-140
-# Columns: 1-80
+﻿# Artwork: aw-duod.ans by Abdully Wahaa | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-duoduo2-aw-duod-part03
 
 Write-Host '
                                   [1;30m▄    ▄[0m

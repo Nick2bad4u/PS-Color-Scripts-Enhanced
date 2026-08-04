@@ -1,13 +1,4 @@
-﻿# Converted from: NV-CRYPT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fi-0495/raw/NV-CRYPT.ANS
-# Source Revision: archive-sha256:1c2ec57ff7a9a3c778ee35cd4b6781bb97712d12f7dad789acd05a49971249c3
-# Source SHA-256: 6c400a7a224b6c082fd9ab5c9d4b6b9ed49333bc4c4ab1952df6532547d60482
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NV-CRYPT.ANS by Nevermind (fi-0495); released in fi-0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: NV-CRYPT.ANS by Nevermind | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fi-0495-nv-crypt-part01
 
 Write-Host '
                   [1;37;40m▄▄▄▄▄▄▄▄   ▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄   ▄▄▄▄▄▄▄▄[0m

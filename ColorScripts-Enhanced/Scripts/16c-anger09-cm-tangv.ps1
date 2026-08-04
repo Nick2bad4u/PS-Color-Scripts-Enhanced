@@ -1,16 +1,4 @@
-﻿# Converted from: CM-TANGV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger09/raw/CM-TANGV.ANS
-# Source Revision: archive-sha256:1d024ab1b967a873387ebae34f188b304120e208b081dccdcb5397c8adcbd2a4
-# Source SHA-256: 03f7ad9ecc7c295527f39e6c31822f0826c6362bcde8d77d81f3f746f046bc56
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CM-TANGV.ANS by cheeze monkey (anger); released in anger09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: tang view interface screen
-# SAUCE Author: cheeze monkey
-# SAUCE Group: anger
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: tang view interface screen by cheeze monkey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger09-cm-tangv
 
 Write-Host '
   [1;30;44m░▒░░░░░░[0;34m▄▄▄▄▄▄▄[0;1;31mtang![0m                [1;30;44m░▒░░░░░░[0;34m▀[0;34;42m▓▒░[0;1;30;42m░░░[0;32m▄▄[0;1;31m░[0m                  [1;30m▄[0;1;30;42m▓[0;1;30;40m██▄[0m

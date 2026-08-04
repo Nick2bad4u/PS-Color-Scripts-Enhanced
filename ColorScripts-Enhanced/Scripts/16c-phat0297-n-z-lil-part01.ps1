@@ -1,16 +1,4 @@
-﻿# Converted from: N!Z-LIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0297/raw/N!Z-LIL.ANS
-# Source Revision: archive-sha256:2e15cb2f2712a143323c9f3c6ecca94c5b5b12a452a019e911d205dd685c6eee
-# Source SHA-256: 8a3b6748b6119c51af3669a15c5dd8f968358e283a3f32fbfdbfb7885bb7b3aa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N!Z-LIL.ANS by noize (phat studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: kp-login
-# SAUCE Author: noize
-# SAUCE Group: phat studios '97
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: kp-login by noize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0297-n-z-lil-part01
 
 Write-Host '
                                                   [33m▄[0m

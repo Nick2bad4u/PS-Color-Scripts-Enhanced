@@ -1,18 +1,4 @@
-﻿# Converted from: BK-IMPUR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure/raw/BK-IMPUR.ANS
-# Source Revision: archive-sha256:0b9a4294ce690aca32755515783e8fac4c651c445d3dd4e394f3ee189ef0478e
-# Source SHA-256: 25f46e61deb5ad4ac68bad02d8d4a76558d0fb3a7f05b542e81cf92966a50ac9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BK-IMPUR.ANS by Black Knight (toxic); released in impure and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: impure
-# SAUCE Author: Black Knight
-# SAUCE Group: toxic
-# SAUCE Date: 19960607
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: impure by Black Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure-bk-impur
 
 Write-Host '
 

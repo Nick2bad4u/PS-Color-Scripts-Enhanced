@@ -1,18 +1,4 @@
-﻿# Converted from: KT-MOD#1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-11/raw/KT-MOD%231.ANS
-# Source Revision: archive-sha256:fb569ca0f426a612fae941c52b66a1bf2185c5bf71d8e011fd47447565da1174
-# Source SHA-256: 850b1f6204488a6e9d7833495c43a96bb86702b7a2e9a65151b917f1a3b3e1a9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KT-MOD#1.ANS by Kurrupt (fORCE); released in force-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Xpress Modding
-# SAUCE Author: Kurrupt
-# SAUCE Group: fORCE
-# SAUCE Date: 19960907
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Xpress Modding by Kurrupt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-11-kt-mod-1
 
 Write-Host '
                   [31m█[0m

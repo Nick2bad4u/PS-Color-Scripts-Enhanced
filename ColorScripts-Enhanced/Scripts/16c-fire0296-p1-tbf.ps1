@@ -1,18 +1,4 @@
-﻿# Converted from: P1-TBF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0296/raw/P1-TBF.ANS
-# Source Revision: archive-sha256:b878afc5fe93380d31442386cef881dac116ae12152b0839cd399054b0276cd7
-# Source SHA-256: 5355e0cc83f140d8784c8f5cfd79814520c117d0139732d9e7cb4115d3c10f07
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P1-TBF.ANS by Prisoner#1 (fire); released in fire0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Blast Furnace
-# SAUCE Author: Prisoner#1
-# SAUCE Group: fire
-# SAUCE Date: 19960202
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: The Blast Furnace by Prisoner#1 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0296-p1-tbf
 
 Write-Host '
             [35m [0m

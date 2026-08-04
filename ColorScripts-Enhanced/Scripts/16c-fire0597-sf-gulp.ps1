@@ -1,18 +1,4 @@
-﻿# Converted from: SF-GULP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0597/raw/SF-GULP.ANS
-# Source Revision: archive-sha256:d975415729673826f91e424c4e11b4c04f34184fd3a18803a91e92ec4aab5c0b
-# Source SHA-256: e11cb5e38512b85d8f4d32b5172a808808fe0ad63f1e24432162411d2656c282
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SF-GULP.ANS by shaft (fire!@); released in fire0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: gulp main menu
-# SAUCE Author: shaft
-# SAUCE Group: fire!@
-# SAUCE Date: 19970424
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: gulp main menu by shaft | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0597-sf-gulp
 
 Write-Host '
                                   [31m  sf▄[0;1;31m▄▄[0;31m█[0;1;31;41m█[0;1;31;47m▀▓[0;31m█▌[0;37m   [0m

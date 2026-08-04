@@ -1,18 +1,4 @@
-﻿# Converted from: K1-ER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-21/raw/K1-ER.ANS
-# Source Revision: archive-sha256:d980c3e2187ff0ef4bb9edce960381dc01c8374df0b01b4ddb8d104484f4b936
-# Source SHA-256: fc844ae00d6d2e7191feb17ed14dc14ac3ae36a6e146f0a33cd2cb0431ea51c4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K1-ER.ANS by Knocturnal (AWE Lettering); released in awe-21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ER
-# SAUCE Author: Knocturnal
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981222
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ER by Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-21-k1-er
 
 Write-Host '
             [34m░░░░░[0m          [37m   [0m

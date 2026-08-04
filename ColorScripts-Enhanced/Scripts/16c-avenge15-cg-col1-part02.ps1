@@ -1,18 +1,4 @@
-﻿# Converted from: CG-COL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge15/raw/CG-COL1.ANS
-# Source Revision: archive-sha256:11a79c92e9fc8c892f1f79f19699fe30da6c6fb4d0229d77725e757a82129c1a
-# Source SHA-256: 66dec1e477a64baadaf0f58c89a4c084c5f11039b5468bdc0cfce3388da9f2f5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-COL1.ANS by cryogenic (avenge); released in avenge15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Colly #1 for Avenge
-# SAUCE Author: cryogenic
-# SAUCE Group: avenge
-# SAUCE Date: 19990315
-# SAUCE Dimensions: 80x115
-# Lines: 40-77
-# Columns: 1-80
+﻿# Artwork: Colly #1 for Avenge by cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge15-cg-col1-part02
 
 Write-Host '
 [1;30m↓ genesis ↓────────────────────────────────────────────────────────────────────≡[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: us-saladcat.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-001/raw/us-saladcat.ans
-# Source Revision: archive-sha256:589c804657c8d15ba617f7c0fd80723e4505d519989b80eba9584665be49eb54
-# Source SHA-256: a260ef42211288ef1a8f7cdbd7a4cee14cae8373d20f3617165dfccc0cf3edda
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-saladcat.ans by Necrofiliac + Zeus Ii (lgcy-001); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Salad Cat
-# SAUCE Author: necro & Zeus II
-# SAUCE Date: 20191202
-# SAUCE Dimensions: 80x58
-# SAUCE Font: IBM VGA
-# SAUCE Comments: A necro & Zeus II production
-# Lines: 27-58
-# Columns: 1-80
+﻿# Artwork: Salad Cat by Necrofiliac + Zeus Ii | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-001-us-saladcat-part02
 
 Write-Host '
 [37m        [0;1;34m▒▓▓▓███ [0;33m▓▒▒▒▒ [0;1;34m██████▓▓▓▓▓▒▒▒░░ [0;33m▄[0;1;31;47m▒[0;1;31;43m▒▒▒░░[0;1;30;40m▌ [0;1;34;40m░░▒▒▓▓██▀▀ [0;1;32;40m▄▄[0;32m▄[0;1;34m▀▀███▀[0;1;32m▄▄[0;32m▄ [0;1;34m██▓▓▓▒▒░[0m

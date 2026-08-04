@@ -1,13 +1,4 @@
-﻿# Converted from: LNANS19.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-l/raw/LNANS19.ANS
-# Source Revision: archive-sha256:ee41f1dc54d4792f5985668700c84d6714567ceee0db3d26e4e9c1cd56f47cf6
-# Source SHA-256: a2715847ab66f9cf7738dff1e9f7fd5a4e51addfe80d14a6b1a99aaf6b7cb97f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LNANS19.ANS by Ebony Eyes (ansis-l); released in ansis-l and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: LNANS19.ANS by Ebony Eyes | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-l-lnans19
 
 Write-Host '
 [1;34;46m███▀▀[0;30;46m          [0;1;34;46m▀██▄▄▄▄▄▄▄[0;30;46m    [0;1;34;46m▄███▄▄[0;30;46m          [0;1;34;46m▄███▄▄[0;30;46m   [0;1;34;46m▄███▀[0;30;46m     [0;1;34;46m▄███▀▀[0;30;46m   [0;1;34;46m██▀▀[0;30;46m  [0;37;40m [0m

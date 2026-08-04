@@ -1,18 +1,4 @@
-﻿# Converted from: BB-EI4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy07/raw/BB-EI4.ANS
-# Source Revision: archive-sha256:cf53c4ea5c286717abe3d962fb98452e352d7d7a30a31881220e7068a7f0bb79
-# Source SHA-256: fde82730b8fa64a1f8c52f0722a0962ca297eea935add28551ca2cdda184a02d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BB-EI4.ANS by Scribble (apathy?); released in apathy07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: evil intent.
-# SAUCE Author: Scribble
-# SAUCE Group: apathy?
-# SAUCE Date: 19960218
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: evil intent. by Scribble | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy07-bb-ei4
 
 Write-Host '
                                  [1;33mE V i L     i N T E N T i O N S![0m

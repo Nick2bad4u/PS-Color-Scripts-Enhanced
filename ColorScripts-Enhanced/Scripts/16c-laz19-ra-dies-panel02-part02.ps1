@@ -1,19 +1,4 @@
-﻿# Converted from: RA-DIES.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz19/raw/RA-DIES.ans
-# Source Revision: archive-sha256:b2207428f1b283b9c41d9ff03fce385f449fefe469c60e31e8dd7430a162f7c1
-# Source SHA-256: bfae9655d097844efb3e3dec4a3ff537d71e71da0ffb907c2a69b563399988c7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RA-DIES.ans by Randers (LAZARUS); released in laz19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: LAZ
-# SAUCE Author: Randers
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20240927
-# SAUCE Dimensions: 160x107
-# SAUCE Font: IBM VGA
-# Lines: 37-72
-# Columns: 81-160
+﻿# Artwork: LAZ by Randers | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz19-ra-dies-panel02-part02
 
 Write-Host '
 [37;40m                      [0;33;40m▄[0;1;33;43m░░░░░▒▒░░░░▒▒▒▒▒░░▒[0;33m▌[0;37m [0;1;33;43m▒░░░░▒░[0m      [33m██[0;33;47m▓▓▒▓▓▓[0;37;43m░░░░░░░░░▒▒▒▒░░[0m

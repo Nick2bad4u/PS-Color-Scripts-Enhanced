@@ -1,18 +1,4 @@
-﻿# Converted from: K-NOSENS.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9801a/raw/K-NOSENS.ICE
-# Source Revision: archive-sha256:668d3c9117cb91cc635a09caaaafa810c6106235d8b9c5326ff97c37042fce96
-# Source SHA-256: 4aaa5204d356d257d7334bd1b54f073e9e088a7f9572fa0d8cecfb8638dfdab3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K-NOSENS.ICE by kyp (ice); released in ice9801a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: this ansi makes no sense
-# SAUCE Author: kyp
-# SAUCE Group: ice
-# SAUCE Date: 19980201
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: this ansi makes no sense by kyp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9801a-k-nosens
 
 Write-Host '
    [34m▄[0;1;34m▄▄[0;1;34;44m▄[0;1;34;47m▓▓[0;34m▌[0;33m▄▄▄▄ [0;34m    [0;31m [0;1;33m  [0;31m▀[0;1;31m▀▀[0;1;31;41m▀[0;1;31;40m█[0;1;31;47m▄[0;1;31;40m█[0;1;31;47m▀[0;1;31;40m████[0;1;31;41m▄░░[0;1;35;41m░░░[0;1;31;41m▄█▀[0;31m█[0;1;35;41m▄[0;1;33;41m [0;1;31;41m▀█▄[0;31m███▄█▌▄█[0;34m▀▓▓░░[0;1;30m ▄[0m▌[1;30m ▄[0;1;37m▄[0;1;30m   [0;31m  [0;1;30m   [0;31m ▀▀▓[0m

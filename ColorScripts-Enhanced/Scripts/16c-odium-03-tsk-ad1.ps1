@@ -1,18 +1,4 @@
-﻿# Converted from: TSK-AD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-03/raw/TSK-AD1.ANS
-# Source Revision: archive-sha256:fae30929abb2b921ba96bc7ad0b445be298bbdb28aa42921644d897c08d22f33
-# Source SHA-256: 495ab14ed75a33ec7a68b604ae8f9f7215a98199d8580cb0c8d4e02d9e1a4471
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-AD1.ANS by the silent killer (odium); released in odium-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: angeldust
-# SAUCE Author: the silent killer
-# SAUCE Group: odium
-# SAUCE Date: 19960130
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: angeldust by the silent killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-03-tsk-ad1
 
 Write-Host '
                          [1;31m( [0;33mS i l v e r b l a d e '' s [0;1;31m)[0m

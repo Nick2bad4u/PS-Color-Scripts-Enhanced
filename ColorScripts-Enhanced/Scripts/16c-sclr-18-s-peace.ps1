@@ -1,13 +1,4 @@
-﻿# Converted from: S&-PEACE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-18/raw/S%26-PEACE.ANS
-# Source Revision: archive-sha256:2e02391e66fc05a42d51d0f3ad472c9e98ae18d89effe4d7592201009566237f
-# Source SHA-256: 7a80511f4918cf540b5707966fd3899107de1c2e8a9fe09a26bc4f763acfd45d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S&-PEACE.ANS by Sandman604 (sclr-18); released in sclr-18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: S&-PEACE.ANS by Sandman604 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-18-s-peace
 
 Write-Host '
 [1;33;40m                                                                                [0m

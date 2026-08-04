@@ -1,18 +1,4 @@
-﻿# Converted from: JTE-SKULKEEP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hrmkiva2/raw/JTE-SKULKEEP.ANS
-# Source Revision: archive-sha256:abc573be699b490f9317d70002a528632e59fc3fddf316663449886fd8c21a04
-# Source SHA-256: ce99969510683d2d9f2282c06fa80720af09763bb8c68706624ff0df4fafeeb9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JTE-SKULKEEP.ANS by Jate (HiRMU); released in hrmkiva2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Skullkeep BBS
-# SAUCE Author: Jate
-# SAUCE Group: HiRMU
-# SAUCE Date: 19951206
-# SAUCE Font: IBM VGA
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Skullkeep BBS by Jate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hrmkiva2-jte-skulkeep-part01
 
 Write-Host '
  [1;30m▓▄[0m     [1;30m▓[0m    [1;30m▓[0m  [1;30m▒[0m   [1;30m▒[0m  [1;30m▄[0m  [1;30m░[0m  [1;30m▒[0m    [1;30m░[0m  [1;30m▒[0m  [1;30m▒[0m [1;30m▓▄▄[0m      [1;30m▄▓▄▄[0m  [1;30m▓██▀[0m [1;30m▄▄[0m [1;30m▄▄▓███▀▀  ▄█[0m

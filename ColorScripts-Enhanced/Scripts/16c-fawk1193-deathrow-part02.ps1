@@ -1,13 +1,4 @@
-﻿# Converted from: DEATHROW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fawk1193/raw/DEATHROW.ANS
-# Source Revision: archive-sha256:9b7a0058358bf49c33df2abe04101f21e2da1e17f0226e4c66539cead6d5a5c3
-# Source SHA-256: 8e67c774a0c6bc3f4c8e98a07a2706fd8442c8065a41de610997fb97a79377ed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DEATHROW.ANS by Marly Man (fawk1193); released in fawk1193 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 40-77
-# Columns: 1-80
+﻿# Artwork: DEATHROW.ANS by Marly Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fawk1193-deathrow-part02
 
 Write-Host '
 [1;30m   [0;1;37m█[0;1;37;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;47m▄[0m

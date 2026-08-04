@@ -1,18 +1,4 @@
-﻿# Converted from: 33-SKF7.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/33rules/raw/33-SKF7.ANS
-# Source Revision: archive-sha256:6cf2aef8e3ca97e1761e1ee4a8ba395e4fdab4dec9d3b2efb91c059359b50b00
-# Source SHA-256: f9486128c916696972650f6480033cdb9e2a72b56b23b860d30ef860479a21d4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-SKF7.ANS by Fire 11/96 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Skullfish
-# SAUCE Author: Fire 11/96
-# SAUCE Group: Eerie
-# SAUCE Date: 19961014
-# SAUCE Dimensions: 80x25
-# Lines: 32-61
-# Columns: 1-80
+﻿# Artwork: Skullfish by Fire 11/96 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-33rules-33-skf7-part02
 
 Write-Host '
 [31;40m ████▀░    ▀▀ ░[0m          [33;40m▐▀ ▐ █[0;1;31;43m▓▀[0;33m▀▄[0;1;31;43m▄[0;1;31;47m▀░░▓██▓[0;1;31;43m [0;30;46m▓[0m  [33;40m░▄[0;1;31;40m█[0;1;31;43m▓[0;33m█[0;36m▓  ▀  [0;34;46m▓[0m [31;40m██████████████▌[0m

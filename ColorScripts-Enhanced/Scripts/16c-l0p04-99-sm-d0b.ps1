@@ -1,18 +1,4 @@
-﻿# Converted from: SM!D0B.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p04_99/raw/SM!D0B.ANS
-# Source Revision: archive-sha256:cd066a8b285d053fbbb486eff8330d19131344b04ff06cb6d38dc7a1da8cad61
-# Source SHA-256: 8f62a0e176d216f400cf1aac43d73ed9ceb33d179b13639072a01dde28e3798c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM!D0B.ANS by Mentor (thelo0p); released in l0p04_99 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: d0b
-# SAUCE Author: Mentor
-# SAUCE Group: thelo0p
-# SAUCE Date: 19990727
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: d0b by Mentor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p04-99-sm-d0b
 
 Write-Host '
 [1;36m [0m  [36m.[0;37m [0;32m::..[0m    [32m..:[0;37m [0;36m.[0m

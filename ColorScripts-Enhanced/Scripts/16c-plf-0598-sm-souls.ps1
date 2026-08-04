@@ -1,18 +1,4 @@
-﻿# Converted from: SM!SOULS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0598/raw/SM!SOULS.ANS
-# Source Revision: archive-sha256:e4eb608a76b35267c945e8d8ea0fbc9cde7f273818c342a2a37fa7f292193f2c
-# Source SHA-256: 263941e6ff34123f09ff05aa501e3941119fd2c5c56196351774b0f7583d90ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM!SOULS.ANS by siMs (poffelipoff); released in plf-0598 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: souls.. .
-# SAUCE Author: siMs
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19980528
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: souls.. . by siMs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0598-sm-souls
 
 Write-Host '
                          [31m░[0;30;41m▓[0;31;40m░[0;30;41m▓░░░░[0;37;40m [0;1;31;41m░[0;1;31;40m▒▒[0;1;31;41m▓[0m [1;31;41m█[0;1;31;47m▓▓[0;1;31;41m▓▓░░[0m [30;41m░[0;31;40m▓[0;30;41m░░[0;31;40m░[0;30;41m▓▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0m

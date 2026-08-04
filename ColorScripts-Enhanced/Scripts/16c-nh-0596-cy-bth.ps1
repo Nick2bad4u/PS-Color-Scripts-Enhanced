@@ -1,17 +1,4 @@
-﻿# Converted from: CY-BTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nh-0596/raw/CY-BTH.ANS
-# Source Revision: archive-sha256:b8e611f21893c38f3eda63bcb92e8793b532d548453ca8e041e15dcc0ead70ae
-# Source SHA-256: 6a33b0ec8c4fb412dc7f17f944e2a8d0d1cfa916eabf5d92b17cc38ff51a9ce7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CY-BTH.ANS by Crayon (nh-0596); released in nh-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Acid Screens $25
-# SAUCE Author: Crayon
-# SAUCE Date: 19960315
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Acid Screens $25 by Crayon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nh-0596-cy-bth
 
 Write-Host '
  [1;32m█████████[0m                               [1;31mradperson[0m [1;31m->[0m    [1;33m▄████▄▄[0m        [1;31m     [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US-ORN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0302/raw/US-ORN.ANS
-# Source Revision: archive-sha256:7b2619e0400d7382d19d38767873337eae71942dd319abc1998c71f4a968776f
-# Source SHA-256: 4604b5481be31b804ae738ed9a9b32f4aae001d1f84cf81dfa4c57185e9897ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ORN.ANS by Zeus Ii + Ceelow (Revival 2002); released in rev0302 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Orion
-# SAUCE Author: ceelow/Zeus II
-# SAUCE Group: Revival 2002
-# SAUCE Date: 20020315
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Orion by Zeus Ii + Ceelow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0302-us-orn
 
 Write-Host '
 

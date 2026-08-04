@@ -1,18 +1,4 @@
-﻿# Converted from: DY-GOLG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shv-1194/raw/DY-GOLG.ANS
-# Source Revision: archive-sha256:d3a40a3191a913cb36b897ad49063e6c40e8244915255128cbb96005c37748a9
-# Source SHA-256: fd4c5ac3c05f226e1b64d1d8aa14c2028f409efce87eab4af6e13ba2fc5a62c1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DY-GOLG.ANS by Dynosaw (Shiver); released in shv-1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Golgotha
-# SAUCE Author: Dynosaw
-# SAUCE Group: Shiver
-# SAUCE Date: 19941101
-# SAUCE Dimensions: 80x183
-# Lines: 142-182
-# Columns: 1-80
+﻿# Artwork: Golgotha by Dynosaw | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shv-1194-dy-golg-part04
 
 Write-Host '
                   [1;30;40m▄[0;1;30;41m▒[0m   [1;30;41m▒[0;1;30;40m▄   ▄▄▀[0;1;31;41m█[0m   [1;30;41m░[0;31m█▀[0;1;31;41m░▒[0;31m▄  [0;1;30;41m░[0;31m█▀[0;1;31;41m░▒[0;31m▄ [0;1;30m▄[0;1;30;41m▒▓[0;1;30;40m▀ [0;1;31;40m▄[0;1;31;41m█[0m

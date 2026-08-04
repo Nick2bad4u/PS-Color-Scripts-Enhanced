@@ -1,18 +1,4 @@
-﻿# Converted from: SA-AVED.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wbt-0195/raw/SA-AVED.ANS
-# Source Revision: archive-sha256:796665d63839084a3e064ad6d02fdcac454fe856d0c61a26a4030285b18917b6
-# Source SHA-256: f9421f4cccf388b17ce2ebb32e77ac4df59f2878674da27c87eab12b5d57bfb9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SA-AVED.ANS by Sabotage (WBT/SHiVER); released in wbt-0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: dA cAVE
-# SAUCE Author: Sabotage
-# SAUCE Group: WBT/SHiVER
-# SAUCE Date: 19941126
-# SAUCE Dimensions: 80x81
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: dA cAVE by Sabotage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wbt-0195-sa-aved-part01
 
 Write-Host '
        [1;30m▄█ ▄▄[0m          [1;30m▄█▄[0m                    ▄[1;30;47m░[0m▀▀[1;30m█[0;1;30;47m▒[0m▀[1;30m▄▄█[0;1;30;47m▒[0m▀[1;30m▄█▀██▄[0;1;30;47m▒░[0m█▀[1;30m▄█▀█[0;1;30;47m▓[0;1;30;40m▄██[0m▀[1;30;47m▓▒░[0m▄

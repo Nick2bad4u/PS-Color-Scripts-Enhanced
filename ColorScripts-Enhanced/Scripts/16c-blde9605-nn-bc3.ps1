@@ -1,18 +1,4 @@
-﻿# Converted from: NN-BC3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9605/raw/NN-BC3.ANS
-# Source Revision: archive-sha256:644a8b90a5c5ec724e95ecee326ed183bff05e759113d75234577c85289317dc
-# Source SHA-256: 4adf3221f3dcad73cfa1039f2440a48b17b6ce3f86091d09ffa5f7e86298806f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NN-BC3.ANS by neo negro (blade productions); released in blde9605 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: body count
-# SAUCE Author: neo negro
-# SAUCE Group: blade productions
-# SAUCE Date: 19960410
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: body count by neo negro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9605-nn-bc3
 
 Write-Host '
                [31m░░[0;1;37m▄▄[0m [30m                       [0;37m  [0;1;37m▄▄[0;31m░░[0;37m                 [0;1;37m  [0m   [1;31m   [0;1;37m▄[0;1;33m▄▄[0;1;33;41m█▓[0m

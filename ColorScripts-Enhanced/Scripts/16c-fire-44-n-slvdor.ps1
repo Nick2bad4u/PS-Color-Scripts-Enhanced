@@ -1,19 +1,4 @@
-﻿# Converted from: N-SLVDOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-44/raw/N-SLVDOR.ANS
-# Source Revision: archive-sha256:6c51508cedeaa9140fcf08750a75edb14e0cec0eebe7b4290346e95cd3548876
-# Source SHA-256: 377057e8f3b467fbec053f2433f25ddfd00814bcafb79a1fdecb7c28a4af366d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-SLVDOR.ANS by nail (fire); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: el gunzerker
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 20251111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: el gunzerker by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-44-n-slvdor
 
 Write-Host '
 [37;40m [0;33;40m▄[0;1;33;43m░░[0;33m▀█▀[0;37m  [0;34m▄[0;1;34;44m▄[0;1;34;47m▀░░▀▄▄[0;1;34;44m▓▀▓▓▓░░[0;34m█[0;1;34;44m░░[0;34m██▌▐[0;37m  [0;33m▄█▀▌▀▄▀▓▓██████[0;1;33;43m░░[0;33m█▀▀█████████████████▓▓▓▓▄▄[0m

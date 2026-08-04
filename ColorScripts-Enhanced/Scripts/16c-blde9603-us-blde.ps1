@@ -1,18 +1,4 @@
-﻿# Converted from: US-BLDE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9603/raw/US-BLDE.ANS
-# Source Revision: archive-sha256:f6d7d8628f8fd582effd93b8e838e75d5d9c5ee94417e33eb7b84c6b3ba37ea3
-# Source SHA-256: 608f7aba49145211f86806d3e43d56ef572622246e0a9106d8ca633111170e68
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BLDE.ANS by Zork + Apox (blade productions); released in blde9603 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: blade productions
-# SAUCE Author: zork+apox(ice)
-# SAUCE Group: blade productions
-# SAUCE Date: 19960218
-# SAUCE Dimensions: 80x25
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: blade productions by Zork + Apox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9603-us-blde
 
 Write-Host '
 [1;30m [0m      [1;33m         [0m                          [31m▀[0m

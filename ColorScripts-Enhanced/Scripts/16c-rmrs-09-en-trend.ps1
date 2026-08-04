@@ -1,18 +1,4 @@
-﻿# Converted from: EN-TREND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-09/raw/EN-TREND.ANS
-# Source Revision: archive-sha256:8f5fcd1678373443015d83aabdf7e9d41b4206834fe497657921c1a7c6792304
-# Source SHA-256: aab29c24a4fa758c3bfa444047bef66f83db91374b1b6d789861fcb62df5594c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EN-TREND.ANS by Endless Nameless (ACiD Productions); released in rmrs-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Trends
-# SAUCE Author: Endless Nameless
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19970305
-# SAUCE Dimensions: 80x25
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: Trends by Endless Nameless | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-09-en-trend
 
 Write-Host '
 [1;36m______[0;36m_[0;1;36m_[0;36m_[0;1;36m_[0;36m__[0;1;36m_[0;36m_____[0;1;34m_[0;36m___[0;1;34m__[0;36m_[0;1;34m_[0;36m_[0;1;34m___________[0;34m    [0;1;34m__[0;34m_[0;1;34m_[0;34m__[0;1;34m_[0;34m________[0;1;34m_[0;34m_[0;1;34m__[0;34m_[0;1;34m____[0;35m_[0;1;34m_[0;35m__[0;1;34m_[0;35m__[0m

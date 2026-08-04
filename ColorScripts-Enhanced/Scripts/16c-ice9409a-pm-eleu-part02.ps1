@@ -1,13 +1,4 @@
-﻿# Converted from: PM-ELEU.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9409a/raw/PM-ELEU.ICE
-# Source Revision: archive-sha256:a92227369d28f50cbc2bfd487ba80600635ab872d2f29d81a7af3d04a31fd498
-# Source SHA-256: 3dde9cec54ac72692293d299945b936f772d3e8a2936bb0f2bb25f1f9d710e17
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-ELEU.ICE by Psyberman + Animal (ice9409a); released in ice9409a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 44-89
-# Columns: 1-80
+﻿# Artwork: PM-ELEU.ICE by Psyberman + Animal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9409a-pm-eleu-part02
 
 Write-Host '
 [31m█[0;1;31;41m░[0;31m▐█[0;1;31;41m░▒[0;31m▌▄▀█▓▀[0m▄█[1;47m▒[0m█▄▄▄ [1m▀█████████▄▄[0;31m▀▀ ▓▄   █▀▀▄   █▓ [0;1;30m▒░░  [0;1;33;43m░▒▓[0;1;33m███████████████[0;1;33;43m▓▓[0m [33m▓▓█▄[0m

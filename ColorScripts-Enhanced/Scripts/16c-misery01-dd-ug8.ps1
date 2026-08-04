@@ -1,18 +1,4 @@
-﻿# Converted from: DD-UG8.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/misery01/raw/DD-UG8.ANS
-# Source Revision: archive-sha256:e802ebf512d2eb802f079fd327fff852b8c112992e81e4f15801eeb22870d111
-# Source SHA-256: 2ab5585bfdcbb55b008bf87267537330b8fe5bd2268a546df447cafead5829bc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-UG8.ANS by Da Drug (Misery Productions.); released in misery01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Unholy Ground/2
-# SAUCE Author: Da Drug
-# SAUCE Group: Misery Productions.
-# SAUCE Date: 19970325
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Unholy Ground/2 by Da Drug | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-misery01-dd-ug8
 
 Write-Host '
 [5;30m[0m[5;30m[0m

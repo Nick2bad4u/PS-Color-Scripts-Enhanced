@@ -1,18 +1,4 @@
-﻿# Converted from: Z3DLOG!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aif-9703/raw/Z3DLOG!.ANS
-# Source Revision: archive-sha256:8ff72b77604e7ed00a0051c0fed7309a91e0edcd872999887f592889423f376c
-# Source SHA-256: b94817084465b0cd17fa2670ac2cd597d1b4c05ecb2589440dc669b4a6b70949
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Z3DLOG!.ANS by zendel (aif); released in aif-9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: lOGIN!
-# SAUCE Author: zendel
-# SAUCE Group: aif
-# SAUCE Date: 19970218
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: lOGIN! by zendel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aif-9703-z3dlog
 
 Write-Host '
 [30;44m▓▓[0;1;34;44m  ░░░░░▒▒▓[0;1;34;40m█[0m             [1;30m░[0m

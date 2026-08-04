@@ -1,18 +1,4 @@
-﻿# Converted from: IC-EYE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nst_001/raw/IC-EYE.ANS
-# Source Revision: archive-sha256:73e351b64f3e5af00925276ea27a29359884e7841f4015afd3acb29f2a370d2d
-# Source SHA-256: 9c2234066019ed59a70d936618064d68a9dcde8f5415ec2cebdf35a6abd22653
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IC-EYE.ANS by inclusive (nst); released in nst_001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: pic for nst appgen
-# SAUCE Author: inclusive
-# SAUCE Group: nst
-# SAUCE Date: 19980403
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: pic for nst appgen by inclusive | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nst-001-ic-eye
 
 Write-Host '
          [1;32m█[0m                                                              [1;32m▄[0m

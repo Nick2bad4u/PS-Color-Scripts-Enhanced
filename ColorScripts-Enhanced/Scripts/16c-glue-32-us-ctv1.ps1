@@ -1,18 +1,4 @@
-﻿# Converted from: us-ctv1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-32/raw/us-ctv1.ans
-# Source Revision: archive-sha256:97f88783a610ceefbaa66bb93bade68f56c3715ca753364673ef48e9dbd6b56d
-# Source SHA-256: abef3471930b1c684acecd215fdcede01108002bf2632692fc555e7e9d2ce07e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-ctv1.ans by Somberlain / Avg (Glue / Used); released in glue-32 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Color Tv
-# SAUCE Author: Somberlain / Avg
-# SAUCE Group: Glue / Used
-# SAUCE Date: 20000629
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Color Tv by Somberlain / Avg | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-32-us-ctv1
 
 Write-Host '
 

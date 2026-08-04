@@ -1,18 +1,4 @@
-﻿# Converted from: 22-GTR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-14/raw/22-GTR1.ANS
-# Source Revision: archive-sha256:ea095d54c8f3af6179bf8050e6c6e17f7d69e8887f555be7f0a501299ac439dc
-# Source SHA-256: a7ca8207522207b68f74b6e640de3d2574d67d567fe650f468f892d2b1bc0db8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 22-GTR1.ANS by catch22 (glue); released in glue-14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: gutter5
-# SAUCE Author: catch22
-# SAUCE Group: glue
-# SAUCE Date: 19980913
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: gutter5 by catch22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-14-22-gtr1
 
 Write-Host '
     [1;30m░▓[0;1;30;47m▓[0;1;30;40m▌[0m    [1;30m▓[0;1;30;47m▓[0;1;30;40m█[0m    [1;30m▒[0m      [35m▄▄▄▄ [0;1;35m▒[0;35m█████████████████▄   ▄[0m    [31m▓[0;1;31;41m████[0;1;31;47m▓▓▓▓▓▓[0;1;31;41m█████[0;1;31;47m█▓▓▒▒[0;1;31;41m▌[0m

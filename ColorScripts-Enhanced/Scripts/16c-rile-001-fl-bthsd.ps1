@@ -1,18 +1,4 @@
-﻿# Converted from: FL-BTHSD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile_001/raw/FL-BTHSD.ANS
-# Source Revision: archive-sha256:f7a8644489c1d011b91477b5b1eab40d9f39b077b89f158a7a0c3d1c032c6d81
-# Source SHA-256: fb3390b24468204c070c4e02850de423728d6a4656c5acf4e2cdfcf2f5367565
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-BTHSD.ANS by flame (RILE); released in rile_001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: black thursday..
-# SAUCE Author: flame
-# SAUCE Group: RILE
-# SAUCE Date: 19970215
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: black thursday.. by flame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile-001-fl-bthsd
 
 Write-Host '
 [34mflame[0m                                                             [31m▀[0;37m  [0;31m▄[0m

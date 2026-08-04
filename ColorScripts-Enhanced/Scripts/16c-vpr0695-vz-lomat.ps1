@@ -1,18 +1,4 @@
-﻿# Converted from: VZ-LOMAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vpr0695/raw/VZ-LOMAT.ANS
-# Source Revision: archive-sha256:78c3ace83360714b9f57ab0b5b4ffd040155a161a665ae8c182b834426edfb2b
-# Source SHA-256: bc20b0a7d3813465c9191d07f07508a375a4db4e08833c03363b2c6243533fc4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VZ-LOMAT.ANS by voiz (vapor); released in vpr0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: login matrix
-# SAUCE Author: voiz
-# SAUCE Group: vapor
-# SAUCE Date: 19950611
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: login matrix by voiz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vpr0695-vz-lomat
 
 Write-Host '
      [1;30m▒[0m       [1;30m▒[0m                   [1;30m░[0m     [1;30m░[0m            [1;30m▓▄▄▀▀[0;36m▄▄▀▀▀▀▀▀▀▀▀▄[0;37m [0;1;30m▀▄[0m  [1;30m▒[0m

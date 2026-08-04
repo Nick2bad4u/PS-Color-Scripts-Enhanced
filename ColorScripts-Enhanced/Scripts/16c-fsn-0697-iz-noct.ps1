@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-NOCT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0697/raw/IZ-NOCT.ANS
-# Source Revision: archive-sha256:4afa384dbe1edb8568d2d9e2fda5954485e730ef7ea56b2b5212bd5bbae30f83
-# Source SHA-256: 6d1ce46b405ca5669d272a3c5680dcfdd5b3dc556a70f50b989104e01364ed2e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-NOCT.ANS by ize (fusion); released in fsn-0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: nocturne
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19970613
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: nocturne by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0697-iz-noct
 
 Write-Host '
 

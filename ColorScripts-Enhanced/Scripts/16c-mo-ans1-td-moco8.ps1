@@ -1,13 +1,4 @@
-﻿# Converted from: TD^MOCO8.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mo-ans1/raw/TD%5EMOCO8.ANS
-# Source Revision: raw-sha256:6cdfdb8acb0e2ff4477a5fe4e6f52aaaa16a92d21d50db079c98580a1a95d6c1
-# Source SHA-256: 6cdfdb8acb0e2ff4477a5fe4e6f52aaaa16a92d21d50db079c98580a1a95d6c1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TD^MOCO8.ANS by The Dr (mo-ans1); released in mo-ans1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: TD^MOCO8.ANS by The Dr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mo-ans1-td-moco8
 
 Write-Host '
 [1;30m<Thë Dr./M.O.C.O.>[0m▄[1;47m▄▄██████▄[0m▄          ▄[1;47m▄[0m▄                █[1;47m███████[0m█▀■[1;47m▀███▌[0m▌

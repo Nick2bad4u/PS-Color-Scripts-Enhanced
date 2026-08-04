@@ -1,18 +1,4 @@
-﻿# Converted from: HO-SHAM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stl-005/raw/HO-SHAM.ANS
-# Source Revision: archive-sha256:1d000c975d4e4cc3e398643daab47be888da5632072e32d65c4b4cc03f987a7c
-# Source SHA-256: dcea9cd3695cea86035654fdf97ad4c38fc47a9abe072e03c3055bc33bdca278
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HO-SHAM.ANS by hoodoo (stile); released in stl-005 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ShAmErA kYe!
-# SAUCE Author: hoodoo
-# SAUCE Group: stile
-# SAUCE Date: 19960421
-# SAUCE Dimensions: 80x78
-# Lines: 40-78
-# Columns: 1-80
+﻿# Artwork: ShAmErA kYe! by hoodoo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stl-005-ho-sham-part02
 
 Write-Host '
 [1;37m████████████████▀▄[0;1;37;47m▓▓▒▓▓[0;31m▐[0;1;37;47m░▒▓[0;1;37;40m██████[0;1;37;47m▓▒▒▓[0;1;37;40m█████████▀▄██████[0;1;37;47m▓[0;1;37;40m███████[0;1;37;47m▓▓▒▒░[0;1;30;47m [0m [1m [0m  [1;30m█[0m [1m  [0;1;30m▒▒[0m [1;30m█[0m

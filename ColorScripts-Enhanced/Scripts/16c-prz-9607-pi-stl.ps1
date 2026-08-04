@@ -1,18 +1,4 @@
-﻿# Converted from: PI-STL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/prz-9607/raw/PI-STL.ANS
-# Source Revision: archive-sha256:c9c5cc7ecf1f26596c4d88f592166c82d585c7e5de1be5fa6d5e25ebed6d7d14
-# Source SHA-256: 45fd11f0bccbb0dbc61efaa66b0cc4446b8fc9d651b2a7cf0401590f01be4fe8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PI-STL.ANS by peltier (solo); released in prz-9607 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: stile is 2 hot 4 u!
-# SAUCE Author: peltier
-# SAUCE Group: solo
-# SAUCE Date: 19960507
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: stile is 2 hot 4 u! by peltier | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-prz-9607-pi-stl
 
 Write-Host '
                                                [34m░[0m

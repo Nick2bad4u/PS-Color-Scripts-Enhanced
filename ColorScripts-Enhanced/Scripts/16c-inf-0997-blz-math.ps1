@@ -1,18 +1,4 @@
-﻿# Converted from: BLZ-MATH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/inf-0997/raw/BLZ-MATH.ANS
-# Source Revision: archive-sha256:2fe039802e6975b254848d7f6c37d4e887c54af4d99aeda44c9611084f212b8f
-# Source SHA-256: 0dfd01cf280675d8e76a8cf16268dd0dea4ce7c5a6b2bf0d1eb4570074207353
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BLZ-MATH.ANS by blaze (infinite); released in inf-0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: aftermath
-# SAUCE Author: blaze
-# SAUCE Group: infinite
-# SAUCE Date: 19970824
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: aftermath by blaze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-inf-0997-blz-math
 
 Write-Host '
       [32m▄▄▄▄[0;1;32;42m▄▄▄▄▄▄▄▄█████████████▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;32m█[0;37m [0;32m▐[0;1;32;42m▐[0;1;33;42m██[0;1;32;42m███▄[0;32m▄▀[0;1;32;42m▀[0;1;33;42m█[0;1;32;42m▄[0;32m▄ ▀[0;1;32;42m██[0;1;33;42m█[0;32m▌ █[0;1;33;42m▓[0;1;32;42m▌[0;32m▀[0m

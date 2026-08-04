@@ -1,18 +1,4 @@
-﻿# Converted from: ST-EASE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-05/raw/ST-EASE.ANS
-# Source Revision: archive-sha256:9471ca7612415a41916878584e9d9bf710a5efbc5b8d389ed1bde764e2a602ca
-# Source SHA-256: eebeb90e1ba1136dac2e5575577d271f581f603d66aeb0b01a197c7baecb8f76
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-EASE.ANS by splatt (eclipse); released in ecl-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hARD
-# SAUCE Author: splatt
-# SAUCE Group: eclipse
-# SAUCE Date: 19960811
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: hARD by splatt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-05-st-ease
 
 Write-Host '
 

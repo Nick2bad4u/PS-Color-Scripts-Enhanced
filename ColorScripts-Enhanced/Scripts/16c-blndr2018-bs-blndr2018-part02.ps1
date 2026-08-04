@@ -1,20 +1,4 @@
-﻿# Converted from: bs-blndr2018.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2018/raw/bs-blndr2018.ans
-# Source Revision: archive-sha256:a6c0d383c960ae8fb5b1ced11230814cb83ddbad45f91f0411f5059188480ab5
-# Source SHA-256: 192e4b25ba9ddd789776186497281a6ac2e4a4e4b164fd3651f4c8287a8530b8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bs-blndr2018.ans by burps (fuel); released in blndr2018 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: blender 2018 entry
-# SAUCE Author: burps
-# SAUCE Group: fuel
-# SAUCE Date: 20180415
-# SAUCE Dimensions: 80x58
-# SAUCE Font: IBM VGA
-# SAUCE Comments: whales / doing astrophysics / crater ake
-# Lines: 30-58
-# Columns: 1-80
+﻿# Artwork: blender 2018 entry by burps | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2018-bs-blndr2018-part02
 
 Write-Host '
 [34;40m [0;33;40m░▓▀▀▄ ▓█▀▓[0;32;43m░[0;33;40m▄▄▀  ░   ▀▄[0;32;43m░[0;33;40m▄ [0;1;30;40m▀▀▄   [0;33m▀█▄ ▄▄  ▄ [0;34m▀  [0;33m▄▄ ▒[0;32;43m▒▀[0;33;40m ▐▓[0;32;43m▒░[0;33;40m▄▄ [0;34;40m▀▀▀▀▀▀ [0;1;30;40m▄  [0;34m▀ [0;33m▄▄  [0;34m▀  ▀[0m

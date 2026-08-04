@@ -1,13 +1,4 @@
-﻿# Converted from: bw-msq_logoff.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_awaken/raw/bw-msq_logoff.ans
-# Source Revision: archive-sha256:9d338d3910f6730204698339e869f7ab219513c3aa8e2f1b0bb278c633114d95
-# Source SHA-256: 7b41e0b13e345703c78c264c6d034dd372ca162370de2b13875e67dce79f1015
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bw-msq_logoff.ans by Binary Walker (blocktronics_awaken); released in blocktronics_awaken and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: bw-msq_logoff.ans by Binary Walker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-awaken-bw-msq-logoff-part01
 
 Write-Host '
                                   [31m▄[0;1;31m▄▄▄▀[0m               [36m [0;1;31m▄[0;36m [0m        [1;31m▄[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-BABY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0921/raw/ZII-BABY.ANS
-# Source Revision: archive-sha256:d0c46b43fcc75f34eccddd849ead8bb14d1cefded97053b0b2617868dbc835f6
-# Source SHA-256: fb3fe55aec5686fad1846aa84453b7ebb0a74d24f5ef38f1213686fd3719bed2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-BABY.ANS by Zeus II (Mistigris); released in mist0921 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: FlashRedemption
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20210830
-# SAUCE Dimensions: 80x180
-# SAUCE Font: IBM VGA
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: FlashRedemption by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0921-zii-baby-part01
 
 Write-Host '
 

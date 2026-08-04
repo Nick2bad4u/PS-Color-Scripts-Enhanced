@@ -1,18 +1,4 @@
-﻿# Converted from: ST-ST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-01/raw/ST-ST.ANS
-# Source Revision: archive-sha256:98f7ca14920172db6145e44afa4b8ac94de6e46d94b8cf326e89a96c3e7e5c1b
-# Source SHA-256: 68b1d3a3e2abcce51f5576c0bd9508ed74261d7a0e100196e4a9d19b4287947e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-ST.ANS by St? (eklipse); released in ecl-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: s.temple
-# SAUCE Author: St?
-# SAUCE Group: eklipse
-# SAUCE Date: 19960603
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: s.temple by St? | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-01-st-st
 
 Write-Host '
 

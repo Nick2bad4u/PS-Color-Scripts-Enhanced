@@ -1,13 +1,4 @@
-﻿# Converted from: VD!OTB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rage9605/raw/VD!OTB.ANS
-# Source Revision: archive-sha256:3671812df822b51f130614a322956159bcd414327057742bdc2725af78b8e595
-# Source SHA-256: 5f64d43e57a2bd00ffb7a1b5a8fb0c7001063ff7e0464d55f3310b5ef26ace9c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VD!OTB.ANS by Vigod (rage9605); released in rage9605 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: VD!OTB.ANS by Vigod | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rage9605-vd-otb
 
 Write-Host '
 [1;35;45m░▒▓[0;1;35;40m───────────────── [0;1;37;40mW [0;1;35;40m─[0;1;37;40m e [0;1;35;40m─[0;1;37;40m l [0;1;35;40m─[0;1;37;40m c [0;1;35;40m─[0;1;37;40m o [0;1;35;40m─[0;1;37;40m m [0;1;35;40m─[0;1;37;40m e [0;1;35;40m──────[0;1;37;40m t [0;1;35;40m─[0;1;37;40m o [0;1;35;40m─────────────────[0;1;35;45m▓▒░[0m

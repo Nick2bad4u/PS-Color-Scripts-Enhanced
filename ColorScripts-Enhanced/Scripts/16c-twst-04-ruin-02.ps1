@@ -1,13 +1,4 @@
-﻿# Converted from: RUIN-02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst-04/raw/RUIN-02.ANS
-# Source Revision: archive-sha256:543ebaa9dc913db4fd846262b24c3af0e544188904d03573cc23d78e8ec876b3
-# Source SHA-256: 83e4cbb658c2c8c62ebc505b95eb8d712a2f40070fcecc1a137c47980fa43e4c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RUIN-02.ANS by The Ruiner (twst-04); released in twst-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: RUIN-02.ANS by The Ruiner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst-04-ruin-02
 
 Write-Host '
                                                                            [1m▄[0;1;36m▄[0m

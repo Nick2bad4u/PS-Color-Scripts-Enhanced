@@ -1,18 +1,4 @@
-﻿# Converted from: PYX-DRG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-1196/raw/PYX-DRG.ANS
-# Source Revision: archive-sha256:ea255d5404a293fd28c5348aeea6d132b83dc51aad0630d7773e1cb9fa7be562
-# Source SHA-256: cd6936980ed9ef6a232c1fd3db92e2a42d53decb487580e22995fd16bf6f899a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-DRG.ANS by Pyx (bamboosh); released in bmb-1196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Deranged
-# SAUCE Author: Pyx
-# SAUCE Group: bamboosh
-# SAUCE Date: 19961012
-# SAUCE Dimensions: 80x25
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Deranged by Pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-1196-pyx-drg
 
 Write-Host '
    [35m▄▄[0;1;31;45m░▒▓▒▓[0;1;31;40m█▄▄[0;35m [0;34m▀▀▄▓[0;37m          [0;34m▄▄▀▀■▄▄[0m           [34m▄▄▄▄▄[0m   [34m  [0m        [34m▄▄▀▀▓▄[0m

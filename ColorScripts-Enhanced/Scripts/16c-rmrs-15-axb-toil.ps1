@@ -1,18 +1,4 @@
-﻿# Converted from: AXB-TOIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-15/raw/AXB-TOIL.ANS
-# Source Revision: archive-sha256:37d8769a36716113b70ba43b5758aa52d1bdcac55027798541093d77711f63e4
-# Source SHA-256: d578fefaa0e893202d97c637f2b9b194cc130cc3e58acef41d63b3814f1dd6dd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AXB-TOIL.ANS by aXB (ACiD Productions); released in rmrs-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Toil
-# SAUCE Author: aXB
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19970910
-# SAUCE Dimensions: 80x25
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: Toil by aXB | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-15-axb-toil
 
 Write-Host '
 

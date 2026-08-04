@@ -1,18 +1,4 @@
-﻿# Converted from: TM!-BS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spas0795/raw/TM!-BS.ANS
-# Source Revision: archive-sha256:0b03dbe3b76ad238c23558feaa101fce5b6c23b945c08f3870fd50977b7f9e65
-# Source SHA-256: 84c231f89946abba3cb2e9e3a2702ca32375a55840e55a67cd8a546a6d0e70e6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TM!-BS.ANS by Tyme (Spastic Productions); released in spas0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Black Sunshine
-# SAUCE Author: Tyme
-# SAUCE Group: Spastic Productions
-# SAUCE Date: 19950615
-# SAUCE Dimensions: 80x25
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: Black Sunshine by Tyme | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spas0795-tm-bs
 
 Write-Host '
 [1;43m░▓▓██▓██████[0;1;40m▌[0;34m▐███[0;34;44m [0;1;37;44m░[0;34m██████▀▀▀▀▀▀ ▀ [0;31m▄[0;31;43m▓[0;31;40m▄▄▄░ [0;34;40m▀ [0;31;40m▄[0;1;30;41m░[0m  [34m▀▀▀▀▀███████████████████████████▓[0m

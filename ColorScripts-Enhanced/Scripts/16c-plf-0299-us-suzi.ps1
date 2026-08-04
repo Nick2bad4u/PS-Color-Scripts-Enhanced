@@ -1,18 +1,4 @@
-﻿# Converted from: US-SUZI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0299/raw/US-SUZI.ANS
-# Source Revision: archive-sha256:57e7c91b1786691e95d6debf77d3c8e4fd7e77416307edfb34a7cd247bdbf1c2
-# Source SHA-256: 09c5538d699204db01c2f5a1e2dd45508280f709c22095f1a0f5542608f738b8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SUZI.ANS by Multiple Artists (plf>>bm); released in plf-0299 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: suizide suzi
-# SAUCE Author: Multiple Artists
-# SAUCE Group: plf>>bm
-# SAUCE Date: 19990301
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: suizide suzi by Multiple Artists | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0299-us-suzi
 
 Write-Host '
 [1;30;46m▀[0;36m▄[0;1;30m▄[0;36m [0;34m▀[0;34;44m█[0;30;40m█[0;34;40m█[0;30;44m  [0;30;40m█[0;34;40m▀[0;34;44m█[0;30;40m█[0;37;40m [0;34;44m███[0;34;40m██▀▄[0;30;44m [0;34;40m▓▓▀▀[0;33;40m  [0;30;40m█[0;30;44m▄[0;1;34;44m▀█[0;33m [0;1;31;43m▄[0;33m▄[0;30m███[0;33m ▀[0;30m█[0;1;31;43m▄[0;30m█[0;34;44m█[0;30;44m▀[0;37;40m [0;1;31;43m█[0;33m▀▄[0;30m█[0;34m█[0;34;44m█[0;34;40m▄▐[0;34;44m██[0;1;34;44m██▌[0;34m  ▐█[0;1;34;44m▄▄[0;34;44m█[0;34;40m▄ ▐[0;1;34;44m██▌[0;34m [0;1;34;44m▄▄[0;30;44m█[0;1;34;44m▐█[0m

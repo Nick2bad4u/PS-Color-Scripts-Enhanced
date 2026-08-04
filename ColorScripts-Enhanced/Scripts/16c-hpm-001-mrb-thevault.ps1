@@ -1,19 +1,4 @@
-﻿# Converted from: mrb - TheVault.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hpm-001/raw/mrb%20-%20TheVault.ans
-# Source Revision: archive-sha256:851f4293cfae53aeeb1a1b544afa6f2027f29ccc66626a7fe6e8803857f004c7
-# Source SHA-256: 0ceaee19ca5cad44834004a9ed6ba582bc3537e90bb4220afab4958365125979
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mrb - TheVault.ans by Mr.R0b070 (HPM); released in hpm-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Vault
-# SAUCE Author: Mr.R0b070
-# SAUCE Group: HPM
-# SAUCE Date: 20220414
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: The Vault by Mr.R0b070 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hpm-001-mrb-thevault
 
 Write-Host '
 

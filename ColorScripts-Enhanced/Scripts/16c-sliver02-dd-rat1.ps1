@@ -1,18 +1,4 @@
-﻿# Converted from: DD-RAT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sliver02/raw/DD-RAT1.ANS
-# Source Revision: archive-sha256:4e42af291937d6cfda1ffdc786ce33443c6145c7524c76570a1f8a3fbf372fef
-# Source SHA-256: 3e70cc20c226175e4fefa3960e9c0ec6afa02a1de875a2d745f3f2d5352860d9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-RAT1.ANS by daDRIP (sliver); released in sliver02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ratKING, 50th ansi! phear the rat.
-# SAUCE Author: daDRIP
-# SAUCE Group: sliver
-# SAUCE Date: 19970321
-# SAUCE Dimensions: 80x25
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: ratKING, 50th ansi! phear the rat. by daDRIP | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sliver02-dd-rat1
 
 Write-Host '
 

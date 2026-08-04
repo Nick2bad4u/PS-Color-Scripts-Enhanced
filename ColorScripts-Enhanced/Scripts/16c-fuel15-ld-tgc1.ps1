@@ -1,17 +1,4 @@
-﻿# Converted from: LD-TGC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel15/raw/LD-TGC1.ANS
-# Source Revision: archive-sha256:3b994e59b6a78be97a60517481673ca8661cd10fa275e8c56fe8095a44e5feee
-# Source SHA-256: a5f01dc787b6349ac7ffe4c9b257178c97ea3c66c69b193fa92bc1c70b1c1f9c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-TGC1.ANS by oned (fuel productions); released in fuel15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the gas chamber
-# SAUCE Author: oned
-# SAUCE Group: fuel productions
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: the gas chamber by oned | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel15-ld-tgc1
 
 Write-Host '
 ▓▀▀▀▀▀▀▀▀▀▀▀▌▀▓▀▀▀▀▀▀▀▀▀▓▓▒▒ [34m▐█[0;1;34m▓ ▓[0;1;34;44m▓░[0;34m▌[0;33m▐[0;1;31;43m░▓[0;1;31;40m█[0;1;31;47m▓[0;1;31;40m▀[0;34m▐█▄[0;33m▀[0;1;31;43m░[0;1;31;40m████[0;1;31;43m▓░ [0m [33m█▓ [0;33;43m [0;1;31;43m░[0;1;31;40m█████[0;1;31;47m▓▓▒▒[0;1;31;40m█[0;1;31;43m▓[0;1;31;40m▓  [0;31m█▓ ▌[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: ST-AIF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aif-9703/raw/ST-AIF.ANS
-# Source Revision: archive-sha256:8ff72b77604e7ed00a0051c0fed7309a91e0edcd872999887f592889423f376c
-# Source SHA-256: 5da5722f0a3457597fd57ad7441d507c733b07a352629af023fc7cba3a8c8478
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-AIF.ANS by splat ([guest artist]); released in aif-9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: aif logo
-# SAUCE Author: splat
-# SAUCE Group: [guest artist]
-# SAUCE Date: 19970313
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: aif logo by splat | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aif-9703-st-aif
 
 Write-Host '
 

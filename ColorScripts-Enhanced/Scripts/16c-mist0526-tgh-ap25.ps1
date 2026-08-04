@@ -1,20 +1,4 @@
-﻿# Converted from: TGH-AP25.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0526/raw/TGH-AP25.ANS
-# Source Revision: archive-sha256:96e9c14a0862fcfb7b203f3d94f85e28654461fdbf12521de185a12d5fb418bb
-# Source SHA-256: 53129a7d59cfda9bbf8a6fd0747e71e7dc111bf298a0b9b97f8dd6faa61eea42
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TGH-AP25.ANS by The Green Herring (Mistigris); released in mist0526 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Friend?
-# SAUCE Author: The Green Herring
-# SAUCE Group: Mistigris
-# SAUCE Date: 20250620
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Oldskool Graphics entry for @party 2025!
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Friend? by The Green Herring | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0526-tgh-ap25
 
 Write-Host '
        [1;30m▄[0m                 [30mTGH![0;32m▐▄[0;37m [0;30m2025[0;32m▐[0;1;32m▄[0m     [1;30m▄[0m [32m▐▄[0;37m  [0;1;30m▄[0m  [1;30m▄[0m  [1;30m▐▄[0m      [1;30m,[0m      [36m▄[0;1;36;46m▄[0;1;36;40m█████[0;36m█[0;1;30m▌[0m

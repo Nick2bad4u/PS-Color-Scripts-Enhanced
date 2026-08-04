@@ -1,18 +1,4 @@
-﻿# Converted from: GJ-DOPE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-36/raw/GJ-DOPE.ANS
-# Source Revision: archive-sha256:bf477dfe5f73a7addcb3cfde3273a28cc631116bf697d10a376cdba3af8b6c78
-# Source SHA-256: fe77d9bac89b720a0f9f6ca10c6729bdb6b19cc666f8ebad2962bb9d1fdcf462
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GJ-DOPE.ANS by grymmjack (gj!) (GLUE); released in glue-36 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: d0pe
-# SAUCE Author: grymmjack (gj!)
-# SAUCE Group: GLUE
-# SAUCE Date: 20010613
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: d0pe by grymmjack (gj!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-36-gj-dope
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: DI-ASH4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hn-0996/raw/DI-ASH4.ANS
-# Source Revision: archive-sha256:8ede9915f0a64fbbede49f7cbfb8456fc4106bc073503874bef856ab2c56b727
-# Source SHA-256: a19dcb9ace1362ac592f3652a272e70665e3aaac5e26aa084c4547d4fa78953b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DI-ASH4.ANS by divine intervention (aSH#6); released in hn-0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: aSH lOGo
-# SAUCE Author: divine intervention
-# SAUCE Group: aSH#6
-# SAUCE Date: 19960716
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: aSH lOGo by divine intervention | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hn-0996-di-ash4
 
 Write-Host '
 [1;30m░░░[0m [1;30m▒[0m  [1;30m▒[0m   [1;30m▒[0m [1;30m▓[0m  [1;30m▓[0m  [1;30m█[0m  [1;30m▓▓░[0m [1;30m▒[0m  [1;30m░[0m    [1;30m▓[0m   [1;30m▓▓[0m [1;30m▓[0m [1;30m█[0m  [1;30m▓▓▓ ▓▓[0m [1;30m▓[0m     [1;30m░▒░▒[0m    [1;30m▒░▒[0m   [1;30m░[0m [1;30m░[0m [1;30m░░░[0m

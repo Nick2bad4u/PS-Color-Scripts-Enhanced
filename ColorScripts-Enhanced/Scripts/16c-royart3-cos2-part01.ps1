@@ -1,13 +1,4 @@
-﻿# Converted from: COS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/royart3/raw/COS2.ANS
-# Source Revision: archive-sha256:f7a4f072c23f57a2242f85bca4ec1e141465c9e3ea4c325f888f2443004ee6bc
-# Source SHA-256: b17485e2308261cf873bbc719f733721d05f8e81960d1b8c426122b904af22af
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: COS2.ANS by Roy (royart3); released in royart3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: COS2.ANS by Roy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-royart3-cos2-part01
 
 Write-Host '
       

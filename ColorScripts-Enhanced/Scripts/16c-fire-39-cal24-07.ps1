@@ -1,19 +1,4 @@
-﻿# Converted from: CAL24-07.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-39/raw/CAL24-07.ANS
-# Source Revision: archive-sha256:5e57507ce34170a4afb707b1587800d0885fae4776f1271b7b7cee7f71264d9d
-# Source SHA-256: c9129c98b4c1af6fb5c1db895da7aab2350ff8b9a1817015794c08c1fb74d007
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CAL24-07.ANS by Nail + Toon Goon (Fire); released in fire-39 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fire 2024 Calendar: July
-# SAUCE Author: Toon Goon + nail
-# SAUCE Group: Fire
-# SAUCE Date: 20240303
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Fire 2024 Calendar: July by Nail + Toon Goon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-39-cal24-07
 
 Write-Host '
                           [1;30;40m▄[0m▄▓▒▒[1;30m▀▀   ▀▀▀ [0;1;33m▀▀[0;1;33;43m▓▓▄▄[0;1;33;40m▄▄▄[0;33m▄[0m

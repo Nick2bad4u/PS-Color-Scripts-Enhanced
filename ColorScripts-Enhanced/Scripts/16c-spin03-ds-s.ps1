@@ -1,17 +1,4 @@
-﻿# Converted from: DS-S.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spin03/raw/DS-S.ANS
-# Source Revision: archive-sha256:ded576726f5b403e4f7bf63316db54f0b3c8cdbd2a92c07d313ed1e69ff5c623
-# Source SHA-256: 1f7c884c72071368e85aa3f402f6f4ded49a8a7d0d3b1c01ac05d4b6b65d6a6b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-S.ANS by dyingsoul (spin); released in spin03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: dyingsoul
-# SAUCE Group: spin
-# SAUCE Date: 19981004
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: DS-S.ANS by dyingsoul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spin03-ds-s
 
 Write-Host '
               [1;31m▄▄▄███████▄▄[0m          [1;31m▄▄▄[0m

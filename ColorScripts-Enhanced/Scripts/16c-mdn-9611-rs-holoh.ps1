@@ -1,18 +1,4 @@
-﻿# Converted from: RS-HOLOH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9611/raw/RS-HOLOH.ANS
-# Source Revision: archive-sha256:6b41322d047de0230f1e36ca781983cdc37fcc8e5dbee77febcac0b5e066cf9e
-# Source SHA-256: da13e88585391bf51d05c6b9701862cb3b5584a71079cda00b14b347ac57e179
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-HOLOH.ANS by r0rshack (Maiden Productions); released in mdn-9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hol0caust, logon matrix!
-# SAUCE Author: r0rshack
-# SAUCE Group: Maiden Productions
-# SAUCE Date: 19961023
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: hol0caust, logon matrix! by r0rshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9611-rs-holoh
 
 Write-Host '
 [31m▀████████[0;1;31;41m░▒▒▓▓[0;1;31;40m▀▀▀▀▀█████▄[0m [33m▀█[0;1;33;43m░▒▓[0;1;33;40m█████████████▄[0m [33m▀███████▄[0;37m [0;1;33m▀█████████[0;1;33;43m▓▒░[0;33m█▄[0;37m [0;1;33m▀██▌[0;1;31m▐[0;1;31;41m▓▒[0m

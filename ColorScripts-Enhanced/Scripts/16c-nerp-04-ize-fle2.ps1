@@ -1,18 +1,4 @@
-﻿# Converted from: IZE-FLE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-04/raw/IZE-FLE2.ANS
-# Source Revision: archive-sha256:d99c3d6576b4ffe30ad10598ac465177e9b6d171d7a6c4fd056707ad27adce95
-# Source SHA-256: 33199490373253410132c5b327a7c7dc92de15495908eb619684c4279aab89f1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZE-FLE2.ANS by ize (nerp); released in nerp-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: flesh
-# SAUCE Author: ize
-# SAUCE Group: nerp
-# SAUCE Date: 19980220
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: flesh by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-04-ize-fle2
 
 Write-Host '
 

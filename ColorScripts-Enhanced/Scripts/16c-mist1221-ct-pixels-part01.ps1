@@ -1,19 +1,4 @@
-﻿# Converted from: CT-PIXELS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1221/raw/CT-PIXELS.ANS
-# Source Revision: archive-sha256:5e9313825592ee844db1dbb5f288429b09b14a6176d448c30ff1c2ee32395d09
-# Source SHA-256: 4bdfdb7150719da4b5971ee19a170e7f56d96880fc4d6dae8991d342d456a4ad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CT-PIXELS.ANS by Cthulu (Mistigris); released in mist1221 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Controversy
-# SAUCE Author: Cthulu
-# SAUCE Group: Mistigris
-# SAUCE Date: 20211220
-# SAUCE Dimensions: 80x54
-# SAUCE Font: IBM VGA
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Controversy by Cthulu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1221-ct-pixels-part01
 
 Write-Host '
 [1m████████[0;1;44m▀▀[0;1;40m██████████████████████████████████████████████████████████████████████[0m

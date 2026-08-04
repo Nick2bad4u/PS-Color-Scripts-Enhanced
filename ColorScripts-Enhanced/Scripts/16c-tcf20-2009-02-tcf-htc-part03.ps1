@@ -1,13 +1,4 @@
-﻿# Converted from: 2009 - 02 - tcf-HTC.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tcf20/raw/2009%20-%2002%20-%20tcf-HTC.ans
-# Source Revision: archive-sha256:af8609219fccc484668fb405a7f1d45efb8c574501a461c5c1b47d87a12921ce
-# Source SHA-256: 15a7232268f56bbeba49d5b132076b76e8517013ed08201f3f03a4cef0eb30cd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2009 - 02 - tcf-HTC.ans by The Creep Fever + Pook (tcf20); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 100-149
-# Columns: 1-80
+﻿# Artwork: 2009 - 02 - tcf-HTC.ans by The Creep Fever + Pook | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tcf20-2009-02-tcf-htc-part03
 
 Write-Host '
 [1;33;43m░[0;33m ▐[0;33;47m▌[0;1;37;47m░[0;33;47m▐[0;33;40m  [0;1;30;40m▓[0;33m  [0;1;31m▐[0;1;31;43m▒▒▓▓▓▓▓▓▒▒▓▓▓▓[0;1;31;40m███████████████▓▓██▀▀█▄███▄ [0;1;31;43m▒▒▓[0;1;31;40m██████████████[0;1;31;43m▓▒▒[0m▓ [1;33;43m▄█[0m [33;45m▓[0m

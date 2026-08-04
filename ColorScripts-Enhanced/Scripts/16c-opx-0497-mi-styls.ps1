@@ -1,18 +1,4 @@
-﻿# Converted from: MI-STYLS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0497/raw/MI-STYLS.ANS
-# Source Revision: archive-sha256:6310c9227506d6d2a21aaf62decb0dd3510e5ffb455efa377e329a37d758ea8f
-# Source SHA-256: 45198d29152f0c5925b561b514d8dfee03ca0349aa9f1cbbbb6025be896e67b2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MI-STYLS.ANS by Mongi (Opium Graphix); released in opx-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Stylus-someting..I dunno..
-# SAUCE Author: Mongi
-# SAUCE Group: Opium Graphix
-# SAUCE Date: 19970326
-# SAUCE Dimensions: 80x13
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: Stylus-someting..I dunno.. by Mongi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0497-mi-styls
 
 Write-Host '
 [33;41m░[0;31;40m████[0;1;31;41m▄[0;1;31;40m▀[0;31m [0;1;31;43m ▓[0;1;31;40m██▀▀[0;33m▄▄[0;1;31;43m▄▄▒[0;33m▄▄▄[0;1;31m▀▀▀██████████████████████████████▀▀▀[0;33m▄▄▄[0;1;31;43m▄▄▄▄▄[0;33m▄▄[0;1;31m▀█[0;1;31;43m▒ [0;31m  [0;1;31m█[0;1;31;41m▒[0;31m████[0m

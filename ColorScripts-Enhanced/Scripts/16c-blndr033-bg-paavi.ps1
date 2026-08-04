@@ -1,18 +1,4 @@
-﻿# Converted from: BG-PAAVI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr033/raw/BG-PAAVI.ANS
-# Source Revision: archive-sha256:ba2676c0aef2e799bbe32adcea10b184614cf9a4f7f4871b317bbd32b12b3722
-# Source SHA-256: 3dded8ed7b1c0a119800421b5b10aefb05456baa6d07195c381fc21b724a0683
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BG-PAAVI.ANS by BullGod (free); released in blndr033 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: paaviswim
-# SAUCE Author: BullGod
-# SAUCE Group: free
-# SAUCE Date: 19970710
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: paaviswim by BullGod | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr033-bg-paavi
 
 Write-Host '
        [1m▄▄[0m                                       [1m▄▄▄[0m

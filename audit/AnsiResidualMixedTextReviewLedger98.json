@@ -1,0 +1,29 @@
+{
+  "batch": 98,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch98-cp437-adjacent-profanity",
+      "file": "16c-rmrs-56-dvn-ani1.ps1",
+      "rationale": "The profanity is selected between protected CP437 smiley glyphs.",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "row": 20,
+          "columnRanges": [
+            {
+              "start": 32,
+              "end": 38
+            }
+          ],
+          "sha256": "7bdb1967292d810b13efbc51c40731fc16adaf6b9dc05488fa7db04d353fd412",
+          "expectedRawSha256": "32bd1febb0a01c813d0a618f26ef778864b1ff100d123db1aa53b45b70977567",
+          "expectedRenderedSha256": "66cbeb5419a387d53cd005ef8b27b5dbdaaea3691fe69ebe79d4e7c79d0f187e"
+        }
+      ]
+    }
+  ],
+  "summary": { "candidateFiles": 1, "evidenceRows": 1, "categoryRows": { "batch98-cp437-adjacent-profanity": 1 } },
+  "schemaVersion": 1,
+  "status": "ready"
+}

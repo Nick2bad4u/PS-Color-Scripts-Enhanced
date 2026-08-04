@@ -1,18 +1,4 @@
-﻿# Converted from: ZT-SAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bat03/raw/ZT-SAD.ANS
-# Source Revision: archive-sha256:9a4caf97eccc5f927274385b1453d4721efcc76396736574c5f097ed7f8536be
-# Source SHA-256: 5fa6519079dd25d378c55a1889e3036f4143af9c175c0f47af4b4d8570f162fd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZT-SAD.ANS by [zout] (bad attitude); released in bat03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: sad
-# SAUCE Author: [zout]
-# SAUCE Group: bad attitude
-# SAUCE Date: 19961116
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: sad by [zout] | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bat03-zt-sad
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: SG-MDCYA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stl-0296/raw/SG-MDCYA.ANS
-# Source Revision: archive-sha256:2a7c2972214cdcf66c05bb3cc15c513aafb38f4486172bc95b40d735e509a060
-# Source SHA-256: 49a3ac3bcf442fe9b1bd3cb79da0a861986c08d26554893f2dace34e3eb85041
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SG-MDCYA.ANS by Sonofagun (Stile); released in stl-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: See Ya!
-# SAUCE Author: Sonofagun
-# SAUCE Group: Stile
-# SAUCE Date: 19960127
-# SAUCE Dimensions: 80x106
-# Lines: 36-71
-# Columns: 1-80
+﻿# Artwork: See Ya! by Sonofagun | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stl-0296-sg-mdcya-part02
 
 Write-Host '
 [35m██▌[0;37m▐██████▄██[0;1;37;47m░░░░░░[0m███▄██[1;47m░░░░░░[0m███▄██[1;47m░░[0m▌[35m▐████▌[0;37m▐████[0;1;37;47m░[0m▌[1;47m░░[0m██▄██[1;47m░[0m█[1;47m░░[0m▌[35m▐▌[0;37m▐[0;1;37;47m░[0m██▌[35m▐[0;37m▐[0;1;37;47m░[0m█[1;47m░[0m▌[35m▐█[0m

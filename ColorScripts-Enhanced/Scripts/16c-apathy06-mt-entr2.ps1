@@ -1,17 +1,4 @@
-﻿# Converted from: MT-ENTR2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy06/raw/MT-ENTR2.ANS
-# Source Revision: archive-sha256:da68d928b75eacb21ef6bbd9cd632165def9238591f0378ec07f4b56faef6ea8
-# Source SHA-256: 2c4c87d47dbf51caa7f6cb933f45b1550a9634222d8aac073a8abfcd287b9201
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MT-ENTR2.ANS by Misfit (apathy06); released in apathy06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Entropy login
-# SAUCE Author: Misfit
-# SAUCE Date: 19960122
-# SAUCE Dimensions: 80x28
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Entropy login by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy06-mt-entr2
 
 Write-Host '
 [34m▒░[0;37m        [0;34m░░[0;37m         [0;35m▄[0;37m [0;35m▄[0;1;35;45m░░[0;35m▀▀▄▄█[0;1;35;45m░[0;35m█▀[0;37m [0;33m▄[0;1;31;43m░▓[0;1;31;40m███[0;1;31;47m▓▒▒▓▓▓[0;1;31;40m████[0;1;31;43m▓▓▒▒░░ [0;30;43m░░[0;33;40m▄[0;37;40m   [0;35;40m▀▀█████▀[0;1;35;45m░[0;35m██[0;1;35;45m░░[0;35m█▓▒[0m

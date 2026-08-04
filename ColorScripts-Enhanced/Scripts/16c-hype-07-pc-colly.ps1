@@ -1,17 +1,4 @@
-﻿# Converted from: PC-COLLY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-07/raw/PC-COLLY.ANS
-# Source Revision: archive-sha256:87d90bdc1c58c50ea0888b8aaf262fcc5dbe049c5db52a725ab539c33c4e5735
-# Source SHA-256: c086f1407028fab7712501200beeb09384baf986d024442ed786ffcaa1f26f6d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-COLLY.ANS by Putrid Carcass (Hypeart); released in hype-07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: " Putrid Carcass Colly 001 "
-# SAUCE Author: Putrid Carcass
-# SAUCE Group: Hypeart
-# SAUCE Dimensions: 80x25
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: " Putrid Carcass Colly 001 " by Putrid Carcass | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-07-pc-colly
 
 Write-Host '
    [1;30m███[0m

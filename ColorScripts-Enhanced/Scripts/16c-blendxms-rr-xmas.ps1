@@ -1,18 +1,4 @@
-﻿# Converted from: RR-XMAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blendxms/raw/RR-XMAS.ANS
-# Source Revision: archive-sha256:1539692350814531ceec0f95558508df1809c483c52a4b6f3f02993299b5fe16
-# Source SHA-256: 3e187d351fe34eadb8d094c953cd007ab58b21c9422abc97a983fd04757ff6f2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RR-XMAS.ANS by riddler (blend productions); released in blendxms and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: X-MASH!!#@
-# SAUCE Author: riddler
-# SAUCE Group: blend productions
-# SAUCE Date: 19961221
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: X-MASH!!#@ by riddler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blendxms-rr-xmas
 
 Write-Host '
                                          [30;41m▓▓[0;31;40m▄▄▄▄▄   [0m

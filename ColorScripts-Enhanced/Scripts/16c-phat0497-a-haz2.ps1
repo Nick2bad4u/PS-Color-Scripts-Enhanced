@@ -1,18 +1,4 @@
-﻿# Converted from: (A)HAZ2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0497/raw/(A)HAZ2.ANS
-# Source Revision: archive-sha256:ac23f379eb24f5f6ad8faa432723caa3c85fc7d4fc380b1d3e101e8eb50ca483
-# Source SHA-256: 14d93b5222b1cec9381da295db244095081b23b069288fae9a32ce875c7c6bfb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: (A)HAZ2.ANS by al3cs (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: haz! 2
-# SAUCE Author: al3cs
-# SAUCE Group: phat studios '97
-# SAUCE Date: 19970328
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: haz! 2 by al3cs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0497-a-haz2
 
 Write-Host '
 [1;31;41m░░░[0;31m█[0;30;41m..alecs[0;31;40m█████[0;1;33;41m▐▀▓▓▓█████[0;1;37;40m██[0;1;33;41m█████▀▀[0;31m█▀▀▀▀[0m     [31m▄▄▄▄▄▄████[0;1;31;41m▓▀▀▌▀▀ [0;31m█▀▀▀▀▀[0m   [31m▀[0m

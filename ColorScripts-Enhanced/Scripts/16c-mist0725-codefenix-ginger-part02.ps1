@@ -1,20 +1,4 @@
-﻿# Converted from: CODEFENIX-GINGER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0725/raw/CODEFENIX-GINGER.ANS
-# Source Revision: archive-sha256:f8228caade9b0e4810405349f1959bd68f07890aea1a0d6aaa1eef2a322b5f21
-# Source SHA-256: 909eb01b90f1a1f122f8d198dc6afbd6c67353afe5abdce1529b23b4a0013860
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CODEFENIX-GINGER.ANS by codefenix (MiSTiGRiS); released in mist0725 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Ginger
-# SAUCE Author: codefenix
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 20250721
-# SAUCE Dimensions: 80x99
-# SAUCE Font: IBM VGA
-# SAUCE Comments: We miss you, Ginny.
-# Lines: 51-98
-# Columns: 1-80
+﻿# Artwork: Ginger by codefenix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0725-codefenix-ginger-part02
 
 Write-Host '
  [1;30m░[0m                                                                            [1;30m░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: NM-GIRL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/raid-09/raw/NM-GIRL1.ANS
-# Source Revision: archive-sha256:81f68e66bab75dc4357c09aced6a4083959f7cfc0ac10f0c0eb6313fa5d2b13e
-# Source SHA-256: b76fa283b45aaa1eb155069a868dab8aecfe2412edbd16eb4771caf1891e631d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NM-GIRL1.ANS by Nightmare (raid-09); released in raid-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 35-70
-# Columns: 1-80
+﻿# Artwork: NM-GIRL1.ANS by Nightmare | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-raid-09-nm-girl1-part02
 
 Write-Host '
 [36m [0;34m█[0;36m  [0;34m▄[0;1;37;44m░[0;1;37;40m  [0;34m  ▄▄████████[0;1;37;44m░[0;32m [0;34m▄███[0;1;37;44m░[0m  [1;31m██[0;31m [0;1;33m█[0;31m█[0;1;31;41m░░▒▓[0;1;37;41m▒▒▒[0;1;31;41m▓▓[0;31m█[0;1;33m█[0m [1;31m██[0;34m  [0;1;37;44m░[0;34m██[0;37m  [0;1;37;44m░[0;34m█[0;1;37;44m ▒▒[0;34m█▄▄[0;37m [0;34m▀▀▀██▄▀[0;1;37m [0;34m▀██▄[0;1;37m   [0;35m [0m

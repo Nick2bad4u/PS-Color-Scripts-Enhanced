@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-SCN2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/2fluid2/raw/ZII-SCN2.ANS
-# Source Revision: archive-sha256:5b7b859a6b313bef27715626a2129a68a4e711fed88780f169533809010a1ae8
-# Source SHA-256: cc529b22de1b074d6f150d4c73678516ec044293a34f0658e2295a8c7c49344c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-SCN2.ANS by Zeus II (Fluid); released in 2fluid2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Scent Config Screen
-# SAUCE Author: Zeus II
-# SAUCE Group: Fluid
-# SAUCE Date: 20010605
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Scent Config Screen by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-2fluid2-zii-scn2
 
 Write-Host '
 [1;31;45m███▀▄█▀[0;35m█[0;1;31;45m▀[0;35m█[0;1;31;45m▄▄[0;35m█[0;1;31;45m▀[0;35m████████[0;1;37;45m░░[0;35m█████[0;30;45mS C E N T[0;1;37;45m [0;35m███████[0;1;31;45m▀█▄[0;35m▓█[0;1;31;45m▀▄▄[0;35m█[0;1;31;45m▀▄[0;35m█▀▀▀▀▀▀[0;33m▄▄[0;37m  [0;33m▄▄[0;37m  [0;33m▄▄[0;37m [0;33mFluid[0m

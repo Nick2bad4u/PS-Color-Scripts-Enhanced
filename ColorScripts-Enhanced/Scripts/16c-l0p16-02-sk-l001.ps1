@@ -1,18 +1,4 @@
-﻿# Converted from: SK!L001.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p16_02/raw/SK!L001.ANS
-# Source Revision: archive-sha256:f14040a9d68edb58d098453fc4b0fc3b1d73172046af4c5ef395d54b3010b7f2
-# Source SHA-256: ca2d325caf6a912aa3cb188c6c90b2ee95358e2f8b0f251e716d6ab06cdf85a1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!L001.ANS by sIMONkING (thelo0p); released in l0p16_02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: introduction #16
-# SAUCE Author: sIMONkING
-# SAUCE Group: thelo0p
-# SAUCE Date: 20020715
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: introduction #16 by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p16-02-sk-l001
 
 Write-Host '
 [1;33m░░░░░░░░░░░░░░░░░░░░░░░░░░ [0;1;37m [0;1;33m   [0;1;37m [0;1;33m    [0;1;37m [0;1;33m     [0;1;37m [0;1;33m           [0m [1;33m░░░░░░░░░░░░░░░░░░░░░░░░░[0m

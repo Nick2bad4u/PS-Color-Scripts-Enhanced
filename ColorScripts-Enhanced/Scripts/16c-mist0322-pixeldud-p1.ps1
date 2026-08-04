@@ -1,19 +1,4 @@
-﻿# Converted from: PIXELDUD-P1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0322/raw/PIXELDUD-P1.ANS
-# Source Revision: archive-sha256:d721ac329a32c7b9dccef4e8624e41c2516121b2eeceed2a1086408a7cc60358
-# Source SHA-256: 01f39df9180db64e59bfaa6064707f12ddc544c95d7e439b74bf7ba1c0d81903
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PIXELDUD-P1.ANS by PixelDud (Mistigris); released in mist0322 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: P1
-# SAUCE Author: PixelDud
-# SAUCE Group: Mistigris
-# SAUCE Date: 20220325
-# SAUCE Dimensions: 80x30
-# SAUCE Font: IBM VGA
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: P1 by PixelDud | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0322-pixeldud-p1
 
 Write-Host '
 [1;36m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

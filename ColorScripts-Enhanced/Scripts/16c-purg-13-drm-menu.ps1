@@ -1,13 +1,4 @@
-﻿# Converted from: DRM-MENU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-13/raw/DRM-MENU.ANS
-# Source Revision: archive-sha256:c96e8204cdf1a3103513e07eb0d1ba369137dfc5e9ab833b936ceec1296a9193
-# Source SHA-256: dc0ea1a22365e9a861919e719dc64f12b5dde29ef29a1253e3c65546961ef072
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DRM-MENU.ANS by Dorm (purg-13); released in purg-13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: DRM-MENU.ANS by Dorm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-13-drm-menu
 
 Write-Host '
 [1;32;42m░▒▓[0;1;32;40m██████████[0;1;32;42m▓▓[0;1;32;46m█▀▀▀▀[0;1;36;46m▄▄▄▄▄▄▄▄▄▄▓▓[0;1;32;46m▐█[0;1;32;40m█[0;1;32;42m▓▓▓[0;1;32;40m███████████████████████████████████████[0;1;32;42m▓▒░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SB-TTT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0994/raw/SB-TTT.ANS
-# Source Revision: archive-sha256:70e9e3ba45456511eb6a648215e7531dd3b7a09ca51f860ca2dd613c7dbc4d28
-# Source SHA-256: c57c6db267a05b2a72bdfef85727f3a27b72f410ec92176ca71cfa7e0508965e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SB-TTT.ANS by Soul Blazer (ACiD Productions); released in acdu0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Twisted Tower
-# SAUCE Author: Soul Blazer
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940825
-# SAUCE Dimensions: 80x49
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: The Twisted Tower by Soul Blazer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0994-sb-ttt
 
 Write-Host '
 [34m▄[0;1;34;44m [0;30;44m∙ [0;1;34;44mSoul BlaZer [0;30;44m∙ [0;1;34;44mACiD [0;30;44m∙                              [0;34m█▌   [0m▐▒▀▄░     [34m▀████████▄[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: PT-BLOB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hal0299/raw/PT-BLOB.ANS
-# Source Revision: archive-sha256:d0533de96de1d82218ba744c4b2c23a4b06ac9501a7bf425b74ab0a3ee5fa73f
-# Source SHA-256: ef547ef2063dc69dacec829377b9b767d49e32ce863e2b8306169961bb2ee049
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PT-BLOB.ANS by Produkt (hallucigenia); released in hal0299 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the blob
-# SAUCE Author: Produkt
-# SAUCE Group: hallucigenia
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: the blob by Produkt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hal0299-pt-blob
 
 Write-Host '
 

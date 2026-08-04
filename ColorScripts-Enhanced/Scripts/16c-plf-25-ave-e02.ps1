@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-E02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-25/raw/AVE-E02.ANS
-# Source Revision: archive-sha256:2152dff354d60c80170c9d8be31827e379e6559d91f2ff68dd5573418d4c54c2
-# Source SHA-256: 615aa77dca0ad87b49b3b32ea08893c28140e71e77f5d2234847f23309a1dd70
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-E02.ANS by Avenger (black maiden); released in plf-25 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Evoke 2002
-# SAUCE Author: Avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 20010925
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Evoke 2002 by Avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-25-ave-e02
 
 Write-Host '
 

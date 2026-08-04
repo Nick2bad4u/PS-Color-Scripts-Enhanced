@@ -1,17 +1,4 @@
-﻿# Converted from: FD-KNEW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_08/raw/FD-KNEW.ANS
-# Source Revision: archive-sha256:f5d36139e5f7f2e2e6d40888afe2c0fec7cd427ccc34b8a60d8fe55ece2d0c15
-# Source SHA-256: 9ec0436407fe3aab6c6148bd1d78c85d61e8f3be48ff6e8e409bbde44d7891f3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FD-KNEW.ANS by flood/chef (dox); released in dox_08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: killarmy matrix
-# SAUCE Author: flood/chef
-# SAUCE Group: dox
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: killarmy matrix by flood/chef | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-08-fd-knew
 
 Write-Host '
   [1;30m░[0m                      [1;31m▄[0m                  [1;30m░░░░░▒░[0m

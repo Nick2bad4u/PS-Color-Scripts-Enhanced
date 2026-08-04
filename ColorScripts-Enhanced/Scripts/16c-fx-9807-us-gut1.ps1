@@ -1,17 +1,4 @@
-﻿# Converted from: US-GUT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fx-9807/raw/US-GUT1.ANS
-# Source Revision: archive-sha256:c8b758c0763542c5ef1df4771c75019862ff273378cb2c5ed728f92f9b07aa14
-# Source SHA-256: 1b4c2aee01c11f888f9ad09963d92f976e09201897645649c5294d337ffe32ee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GUT1.ANS by Fever + Quip (Legion / Function); released in fx-9807 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Gutter
-# SAUCE Author: Fever / Quip
-# SAUCE Group: Legion / Function
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Gutter by Fever + Quip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fx-9807-us-gut1
 
 Write-Host '
 [1;34;44m░[0m [30;47m█[0;1;34;40m▓[0;1;34;44m▀[0;30;44m▄[0;37;40m              [0;1;30;40m [0m  [30;47m█[0;37;40m▄▄[0;1;30;40m▄[0;1;37;40m▀[0;1;34;40m▀▓▄█[0m [1;34m░▀▀▀▀▀[0;1;34;47m▓▓▓[0;1;34;40m██[0;1;34;44m▓▒░[0;30;44m▄▄▄[0;1;34;40m▄[0;1;34;47m▓▒▒[0;1;34;44m▓▒░[0;34m▌▄▄▄[0;30;44m▀[0;37;40m [0;1;34;40m▀▀▀[0;30;44m▄[0;37;40m  [0;34;40m░[0;30;44m▄▄[0;1;34;44m░ [0;30;44m░[0;37;40m [0;30;44m▌░▀[0;37;40m [0m

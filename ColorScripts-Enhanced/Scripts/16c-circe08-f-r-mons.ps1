@@ -1,17 +1,4 @@
-﻿# Converted from: F^R-MONS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe08/raw/F%5ER-MONS.ANS
-# Source Revision: archive-sha256:cfc36d5daeed2f6543814097ace687f378a50215c24a95a0de66b512e3a41b9d
-# Source SHA-256: e729809f30197cb2f7da7dbbaa30ea9f63e16e4aec792db262486617d600fe66
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: F^R-MONS.ANS by Fear + Arlequin (circe); released in circe08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: monstro malo
-# SAUCE Author: fear - arle
-# SAUCE Group: circe
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: monstro malo by Fear + Arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe08-f-r-mons
 
 Write-Host '
                                  [31m▄▄[0;32m▄▄▄▄▄▄[0;1;30m▄▄▄▄ [0m

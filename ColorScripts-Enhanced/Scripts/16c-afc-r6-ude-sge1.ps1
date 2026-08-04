@@ -1,13 +1,4 @@
-﻿# Converted from: UDE-SGE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r6/raw/UDE-SGE1.ANS
-# Source Revision: raw-sha256:a504024dd448545af82703d16f881801d75409cf251b7bbbbb9150466dcba002
-# Source SHA-256: a504024dd448545af82703d16f881801d75409cf251b7bbbbb9150466dcba002
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UDE-SGE1.ANS by Ude (afc-r6); released in afc-r6 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: UDE-SGE1.ANS by Ude | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r6-ude-sge1
 
 Write-Host '
         [36m▄▄▄[0m         [34m▄▄▄▄[0;36m▄▄[0m                        [34m▄▄▄▄▄▄▄[0;36m▄[0m          [34m▄▄▄▄[0;36m▄[0m

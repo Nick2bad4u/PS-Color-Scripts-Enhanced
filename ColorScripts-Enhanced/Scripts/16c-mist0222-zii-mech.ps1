@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-MECH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0222/raw/ZII-MECH.ANS
-# Source Revision: archive-sha256:298b44b8b7049e43debc6d372a2843121b005521ff5ef92f5442efdcf0a21843
-# Source SHA-256: 7ccd4577f2846bff50704d4b523778e5ac2ecf820fc04b01edf3c2820012fc78
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-MECH.ANS by Zeus II (Mistigris); released in mist0222 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: MechArcade
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20211003
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: MechArcade by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0222-zii-mech
 
 Write-Host '
 [1m                                                                           [0;35m▄▄▄▄▄[0m

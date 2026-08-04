@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-&.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9610/raw/TNA-%26.ANS
-# Source Revision: archive-sha256:2f6e3c8c2e64cc8380afc3a639da2793e02ea87790d90b8b4bede4b760040753
-# Source SHA-256: 91bb2e8b081f565a7f9b75c8d433622d7e1c7263e2dd76709bb0b04d7662ff3b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-&.ANS by The Night Angel (awe lettering); released in awe9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: & (ampersand)
-# SAUCE Author: The Night Angel
-# SAUCE Group: awe lettering
-# SAUCE Date: 19960926
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: & (ampersand) by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9610-tna
 
 Write-Host '
 

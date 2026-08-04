@@ -1,18 +1,4 @@
-﻿# Converted from: G-UMAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pyro01/raw/G-UMAIN.ANS
-# Source Revision: archive-sha256:31125dd5a4148d0c78638bab08ce0b4f385c968ebbdf5e860d18cf47bc1faabe
-# Source SHA-256: 3cb1a107875008d34ef0e92b2d824bed2ec5f52c36b1fc2addf0a23690d8e69f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: G-UMAIN.ANS by Genocide (Pyro); released in pyro01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: UFO MAIN
-# SAUCE Author: Genocide
-# SAUCE Group: Pyro
-# SAUCE Date: 19960217
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: UFO MAIN by Genocide | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pyro01-g-umain
 
 Write-Host '
              [1;32m▄▀▀▀[0;1;32;42m▓▒░▒▓[0;1;32;40m▀▀▀▄[0m     [1;30m·[0m         [34m▀[0m       [1;30m.[0m                     ▄▄▄▄

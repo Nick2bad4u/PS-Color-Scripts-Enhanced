@@ -1,17 +1,4 @@
-﻿# Converted from: BH-PHAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rune0696/raw/BH-PHAR.ANS
-# Source Revision: archive-sha256:1f139170931bfda825b255d0e37aea90e1c1419d401b8b6f4039b6839c030655
-# Source SHA-256: 2dd7d36d2c1149ac3d2841005058908cbbc096adacc22ebfe9c257afa7da6165
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BH-PHAR.ANS by blackehawke (rune); released in rune0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the pharcyde
-# SAUCE Author: blackehawke
-# SAUCE Group: rune
-# SAUCE Date: 19960531
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: the pharcyde by blackehawke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rune0696-bh-phar
 
 Write-Host '
 [1;30m▓▀[0m       [1;30m░[0m         [1;30m░[0m       [1;30m▀▓▀[0m        [1;30m░[0m         [1;30m░    ░[0m     [1;30m░[0m        [1;30m░[0m      [1;30m░  ▀▓[0m

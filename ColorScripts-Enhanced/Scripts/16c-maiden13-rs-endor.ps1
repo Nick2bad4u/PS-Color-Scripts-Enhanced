@@ -1,17 +1,4 @@
-﻿# Converted from: RS-ENDOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden13/raw/RS-ENDOR.ANS
-# Source Revision: archive-sha256:70e231ea8653cd02d349f122b1a39f57757322f3913b0c8f20698b54c8795e68
-# Source SHA-256: 76fdef83154b451b2fa807d06ca39747f6061cc67fe6cad15783833c3add6499
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-ENDOR.ANS by rorshack (Maiden Brazil); released in maiden13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: endor!@
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: endor!@ by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden13-rs-endor
 
 Write-Host '
                                             [1;35;45m▄[0;35m▄ [0m

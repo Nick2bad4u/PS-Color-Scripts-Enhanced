@@ -1,13 +1,4 @@
-﻿# Converted from: WI-BULL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/solo1295/raw/WI-BULL.ANS
-# Source Revision: archive-sha256:5caaffad62372d7eff4ec276f634e659aea2eb6d02670ee7c939e0e4125d45bf
-# Source SHA-256: 910e5850e4c9086ac2c5095a5690314ed08ff2b8eca744d213cc07cabe81d8a6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WI-BULL.ANS by Widowmaker (solo1295); released in solo1295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: WI-BULL.ANS by Widowmaker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-solo1295-wi-bull
 
 Write-Host '
 

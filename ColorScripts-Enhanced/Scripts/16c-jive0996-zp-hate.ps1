@@ -1,15 +1,4 @@
-﻿# Converted from: ZP-HATE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jive0996/raw/ZP-HATE.ANS
-# Source Revision: archive-sha256:6b7d48e396de55126b3ae9c64ca3a6e3836b2eee40f86ad76fd1706353435055
-# Source SHA-256: 5399c63e9f267f0cdb27fbd0fed57dbba19ca56dd3fbecb1ee77ddd75565b56c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZP-HATE.ANS by Zippy (jive0996); released in jive0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: another Sod chat screen
-# SAUCE Author: Zippy
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: another Sod chat screen by Zippy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jive0996-zp-hate
 
 Write-Host '
 [1;30m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▀▀▀▀▀▀▀▀▀▀▀[0m           [1;30m▀[0;1;30;46m▓[0;1;30;40m▀▀▀▀▀▀[0;1;30;47m▓▀[0m

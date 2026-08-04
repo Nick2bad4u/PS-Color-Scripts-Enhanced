@@ -1,18 +1,4 @@
-﻿# Converted from: CRM-IMN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fog04/raw/CRM-IMN.ANS
-# Source Revision: archive-sha256:cc4e2304e4c679ed837ccc14650a9e2c5f9a6b71d833a1a8f694423eecdbbf5b
-# Source SHA-256: ce716a4c9c01c6ed7f87766bb7319c731d529bf18c8c8c8d7efa6fb3b7922d7e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CRM-IMN.ANS by cORUm (f.O.g); released in fog04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: iMMUNe..
-# SAUCE Author: cORUm
-# SAUCE Group: f.O.g
-# SAUCE Date: 19950614
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: iMMUNe.. by cORUm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fog04-crm-imn
 
 Write-Host '
      [1;33m▄[0m  [1;33m [0m

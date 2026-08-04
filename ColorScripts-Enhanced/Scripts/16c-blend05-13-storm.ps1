@@ -1,18 +1,4 @@
-﻿# Converted from: 13-STORM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend05/raw/13-STORM.ANS
-# Source Revision: archive-sha256:3346c70671a4c24e002cb42d75f3af112f478c146f28bb98b9942b55d0894a44
-# Source SHA-256: 59b015576d911e15f676e53d5bd4b13cf51cd1c02f411338c36beca15589dbe0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 13-STORM.ANS by V1LLE (bLEND); released in blend05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fuck you!@ vitun homo
-# SAUCE Author: V1LLE
-# SAUCE Group: bLEND
-# SAUCE Date: 19961226
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: fuck you!@ vitun homo by V1LLE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend05-13-storm
 
 Write-Host '
     [30;47m▓▓░[0;37;40m█[0m

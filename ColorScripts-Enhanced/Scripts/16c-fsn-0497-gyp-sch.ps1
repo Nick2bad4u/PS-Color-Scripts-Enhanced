@@ -1,18 +1,4 @@
-﻿# Converted from: GYP-SCH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0497/raw/GYP-SCH.ANS
-# Source Revision: archive-sha256:0a24528ad1b8350dc6275ed84884990aa181682392c532082994d5872ceb5801
-# Source SHA-256: 867e7f6955a514cf96afb141113d370e3ad6703be365374d064c00d387154b5c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GYP-SCH.ANS by Gypsy (Fusion); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Schnitzel
-# SAUCE Author: Gypsy
-# SAUCE Group: Fusion
-# SAUCE Date: 19970331
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Schnitzel by Gypsy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0497-gyp-sch
 
 Write-Host '
 [31m           [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PL-STONE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fact0697/raw/PL-STONE.ANS
-# Source Revision: archive-sha256:62c3a49e5b8bb2bf0105b92d85ccfccdfcde934f112e40e0e3d18d8ebc2c7cdd
-# Source SHA-256: b257aba4ab8493b03899d2faaa927328bd25b8d5cf34477d1bb36aeb2d1d19a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PL-STONE.ANS by Pussylover (fACt!); released in fact0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Stonehenge logo!
-# SAUCE Author: Pussylover
-# SAUCE Group: fACt!
-# SAUCE Date: 19970527
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Stonehenge logo! by Pussylover | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fact0697-pl-stone
 
 Write-Host '
 [36m██████▓ [0;1;30m████ [0m▓▄[1;36;47m▒[0;1;36;40m▄▄▄▓ [0;1;30;40m▀▀▀▀▀▀▀▀▀███████████████████████████████████████ [0;1;37;40m▓████████[0m

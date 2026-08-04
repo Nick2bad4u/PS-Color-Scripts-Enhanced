@@ -1,13 +1,4 @@
-﻿# Converted from: TOP-DA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lbo-r2/raw/TOP-DA1.ANS
-# Source Revision: archive-sha256:aa6a27724d85eb8d2c1ad40e3fac891ee4d867b7f368443eca1b4275789ddd73
-# Source SHA-256: 36fcead60d4cbfb926dd61696f6e0df301fe2ca397c017d04cdfdeca0cf0153a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TOP-DA1.ANS by Torlock Pop (lbo-r2); released in lbo-r2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 49-98
-# Columns: 1-80
+﻿# Artwork: TOP-DA1.ANS by Torlock Pop | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lbo-r2-top-da1-part02
 
 Write-Host '
 [1;30m  ██▓▓▒▒▒░░░░░░  ░░░░░░░    ░░░░░░░░░  ░░░░░░░░   ░░░░░ ░░░  ░░░░░░░░░░▒▒▒▓▓██[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: MR-ANOXI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-0197/raw/MR-ANOXI.ANS
-# Source Revision: archive-sha256:08e3420d6f5bf039e22601d044f43006678a0458956ba31375be1cbab8367813
-# Source SHA-256: 97ecaa44e0edd798fd17d35c71dc041c95cbcb37b8af787707d11f425f5ec44e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-ANOXI.ANS by .,s$(minotaur)$s,. (.,s$(AXF)$s,.); released in axf-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: anoxia group logo
-# SAUCE Author: .,s$(minotaur)$s,.
-# SAUCE Group: .,s$(AXF)$s,.
-# SAUCE Date: 19961124
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: anoxia group logo by .,s$(minotaur)$s,. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-0197-mr-anoxi
 
 Write-Host '
                            [33m▀[0m            [1;33m▓[0m          [33m▄[0m

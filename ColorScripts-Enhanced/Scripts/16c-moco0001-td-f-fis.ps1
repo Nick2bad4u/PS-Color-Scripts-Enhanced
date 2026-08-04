@@ -1,13 +1,4 @@
-﻿# Converted from: TD^F&FIS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moco0001/raw/TD%5EF%26FIS.ANS
-# Source Revision: archive-sha256:dcdb582dd72f68bdff86d5417b79603e24e9c8dae1249dc376b93ef4a35dab7b
-# Source SHA-256: ce14327b74954df5f02169c0bb076fe2ed74bc2333243f36d4705b73f0af75f1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TD^F&FIS.ANS by The Dr (moco0001); released in moco0001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: TD^F&FIS.ANS by The Dr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moco0001-td-f-fis
 
 Write-Host '
                 [32m▄■▄[0m        [1;30m▄▄▄▓▀██▄▓▀█▓▀▀▀▀█▄ ▄█▀▀▀▓▄ ▄▄▄[0m               [1;30mM.O.C.O.[0m

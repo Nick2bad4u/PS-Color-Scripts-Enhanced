@@ -1,18 +1,4 @@
-﻿# Converted from: AB-JI1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0895/raw/AB-JI1.ANS
-# Source Revision: archive-sha256:d7578eae73cd5d7b840a098302ec5eecc570498f801ff39620bcdfbd3bc36d42
-# Source SHA-256: a5480eeb88f1fe7d08478c839435e03dedea605ba57bfffcc5ac57771140708e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AB-JI1.ANS by Abomination (Union); released in uni-0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: #28's Jello Insanity
-# SAUCE Author: Abomination
-# SAUCE Group: Union
-# SAUCE Date: 19950704
-# SAUCE Dimensions: 80x25
-# Lines: 36-72
-# Columns: 1-80
+﻿# Artwork: #28's Jello Insanity by Abomination | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0895-ab-ji1-part02
 
 Write-Host '
 [1;37m████▒██[0;1;33m ▀[0;32m ▄▄[0;37m [0;1;33m█[0m [32m▌[0;37m ▀[0;1;37m▀▀[0;32m▄[0;1;33m▐▌[0;32m▀▄█████████████████[0;1;32;42m▀[0;1;32;40m▄[0;32m [0;37m▀[0;1;37;47m▀[0;1;37;40m███████████▀[0;32m [0;1;32m▄[0;1;32;42m▀[0;32m████████████[0;1;32;42m░[0;32m█████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: GI-OP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ls-0396/raw/GI-OP.ANS
-# Source Revision: archive-sha256:027827aba2a8182d830f3ad2fb41dbb22eb3c3bf864eed4898dd3e30e7ae3a86
-# Source SHA-256: 9e0d0701631335782dc9f2e297ba2d2bcfbb335f4c3ff7d20633dea11f1032af
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GI-OP.ANS by giger (leper society); released in ls-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: opcenter
-# SAUCE Author: giger
-# SAUCE Group: leper society
-# SAUCE Date: 19960219
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: opcenter by giger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ls-0396-gi-op
 
 Write-Host '
               [1;30m▒░[0m  [1m■▀▀▀▀▀▀▀▀▀▀██████[0;1;30m▌[0m [1m▓█[0;1;47m█[0;1;40m████[0m [1m■▀▀▀▀▀▀▀▀▀███▄[0m             [1;30m■[0m

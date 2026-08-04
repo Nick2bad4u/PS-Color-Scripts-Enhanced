@@ -1,17 +1,4 @@
-﻿# Converted from: TR-RISE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-07/raw/TR-RISE.ANS
-# Source Revision: archive-sha256:87d90bdc1c58c50ea0888b8aaf262fcc5dbe049c5db52a725ab539c33c4e5735
-# Source SHA-256: 64f06d9e555eda3a85318f1b280ad425edc4fd2115b8640f77d952f14c3fed8e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-RISE.ANS by Trident (Hypeart); released in hype-07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: " Rise Logo, (warez) "
-# SAUCE Author: Trident
-# SAUCE Group: Hypeart
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: " Rise Logo, (warez) " by Trident | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-07-tr-rise
 
 Write-Host '
 

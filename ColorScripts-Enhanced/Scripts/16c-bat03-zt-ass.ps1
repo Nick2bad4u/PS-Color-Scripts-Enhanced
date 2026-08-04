@@ -1,18 +1,4 @@
-﻿# Converted from: ZT-ASS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bat03/raw/ZT-ASS.ANS
-# Source Revision: archive-sha256:9a4caf97eccc5f927274385b1453d4721efcc76396736574c5f097ed7f8536be
-# Source SHA-256: 1760c95ff98e239635a9e65f149422d65c7d3365bfc17f52673990925d0c3515
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZT-ASS.ANS by [zout] (bad attitude); released in bat03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ass(kicking group!)
-# SAUCE Author: [zout]
-# SAUCE Group: bad attitude
-# SAUCE Date: 19961127
-# SAUCE Dimensions: 80x15
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: ass(kicking group!) by [zout] | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bat03-zt-ass
 
 Write-Host '
                [1;31m ▄▄▄▄▄[0;1;31;41m▓▓[0;1;31;40m▄▄ [0m   [31m [0m     [1;31m▄[0;1;31;41m▓[0;1;31;40m▄▄▄[0;1;31;41m▒[0;1;31;40m▄▄▄[0m    [31m  [0m   [1;31m▄[0;1;31;41m▓[0;1;31;40m▄▄▄▄▄▄[0;1;31;41m▓[0;1;31;40m▄[0m            [1;30;42m▓[0m

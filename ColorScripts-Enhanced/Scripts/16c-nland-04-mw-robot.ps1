@@ -1,18 +1,4 @@
-﻿# Converted from: MW-ROBOT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nland-04/raw/MW-ROBOT.ANS
-# Source Revision: archive-sha256:eab686fd42219ed6c9add6a2f7726008adc5ca3e06c5f87a076203c52842513d
-# Source SHA-256: f7d1739a263e3cd0946fe0dfb07f8df789e16fee289385eb876e1d85255ed761
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MW-ROBOT.ANS by MoonWalkeR (NeveRLanD People); released in nland-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: RoboT
-# SAUCE Author: MoonWalkeR
-# SAUCE Group: NeveRLanD People
-# SAUCE Date: 19960128
-# SAUCE Dimensions: 80x47
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: RoboT by MoonWalkeR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nland-04-mw-robot
 
 Write-Host '
                                  [34m▄█[0;1;36;44m▄▄▄▄▄▄▄[0;34m█▄[0m

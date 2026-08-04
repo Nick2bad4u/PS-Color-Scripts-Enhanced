@@ -1,17 +1,4 @@
-﻿# Converted from: US-PIZZA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9609/raw/US-PIZZA.ANS
-# Source Revision: archive-sha256:96c031e04e5c479ef9ed73f1afa21a3db6bca2a2de7ad88a46888136232884ff
-# Source SHA-256: 2c305e2e22251c6cf9403975ca1e13fba77ec255d99067c233951275140ea567
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PIZZA.ANS by Eerie + Outkast (Samsara); released in sms-9609 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Neon Pizza
-# SAUCE Author: Outkast & Eerie
-# SAUCE Group: Samsara
-# SAUCE Dimensions: 80x25
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Neon Pizza by Eerie + Outkast | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9609-us-pizza-part01
 
 Write-Host '
 [31m[0m

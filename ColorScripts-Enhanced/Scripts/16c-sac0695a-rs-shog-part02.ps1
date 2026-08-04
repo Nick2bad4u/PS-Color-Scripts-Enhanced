@@ -1,13 +1,4 @@
-﻿# Converted from: RS-SHOG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0695a/raw/RS-SHOG.ANS
-# Source Revision: archive-sha256:fdb220fd949148b42f901401233ee5917f0ab0d506d9b91fc04ce4bed204f9b8
-# Source SHA-256: 8945981df9d386abe6cf4968bd18dd87f6cc84fff39ae4dd0004f084d7ba75da
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-SHOG.ANS by raiser; released in sac0695a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: RS-SHOG.ANS by raiser | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0695a-rs-shog-part02
 
 Write-Host '
 [1;37;47m░[0m▌[1m [0;35m▐▄▄[0;1;35m▀[0;1;35;45m▓▒░[0;35m▄█▄▄[0;1;37m  ▀[0;1;37;47m▓[0;1;37;40m▄ [0;35m█▄▄█[0;1;35;45m░[0;35m▀▀[0;1;37m  [0;35m▄[0;34m■[0;1;37m   [0;1;31m▀███████▄▄██████▀[0;1;37m  [0;35m▄■[0;1;37m   [0;35m▐▀[0;1;37m  [0;35m▀[0;1;37m          [0;35m▀█▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: ACNE05.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acne001/raw/ACNE05.ANS
-# Source Revision: archive-sha256:ff78f081f29dbf9348d2ba73d7de71fcb00f4abbe902d1234d35e7fb3c198d20
-# Source SHA-256: 7181981f0e4be1b072f146b6d553681ffd784aabfd00a244704e6f80c452c23d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ACNE05.ANS by HOLYBONe (aCNE); released in acne001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: RaVeNPoRT BbS - 24 HS
-# SAUCE Author: HOLYBONe
-# SAUCE Group: aCNE
-# SAUCE Date: 19951113
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: RaVeNPoRT BbS - 24 HS by HOLYBONe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acne001-acne05
 
 Write-Host '
 [34m▄▄██▀▀▀▀▀▀▀▀▀▀▄▄▄▄   [0;1;32m▀▄████▄▀▄▀[0m           [34m·  [0;1;34m▐░[0;34m▀█░▓░█▒░[0;1;34m▓[0;34m▄▓[0;1;34m░[0;34m░▒█ ▀▐▀▌[0m

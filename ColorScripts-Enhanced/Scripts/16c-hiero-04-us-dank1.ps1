@@ -1,18 +1,4 @@
-﻿# Converted from: US-DANK1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-04/raw/US-DANK1.ANS
-# Source Revision: archive-sha256:fa04f9284176600bd187f5f89edb1d3f52550711ec8063377e14a2ec045346f2
-# Source SHA-256: 6af4903c2c77c7ff00be4d6d2bf523641af9e758d66f2a4714f7c34bb01bdda8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DANK1.ANS by Teflon + Somberlain + Firehead (Hieroglyphics); released in hiero-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Dank
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20001202
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Dank by Teflon + Somberlain + Firehead | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-04-us-dank1
 
 Write-Host '
    [34m▄▄▄▄▄▄██▓▓▓▄▄▄▄▄▄▄▄▄▄▄▄█[0;1;34;44m▄▄▄[0;34m█[0;1;30m [0;34m▄▄▄[0;1;30m [0;34m▄▄▄▄▄▄█████[0;1;30m [0;34m▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30m [0;34m█▄▄▄▄[0;1;30m [0;34m████ ▄▄▄▄▄▄[0m

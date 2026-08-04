@@ -1,18 +1,4 @@
-﻿# Converted from: MR-GOT01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus02/raw/MR-GOT01.ANS
-# Source Revision: archive-sha256:dbc0fd9393f048eb4114863d8031209a44218deffed6a460f10c74db43cffb0e
-# Source SHA-256: aea707575275f5c941bee5bfbda68aea6bf828d5bba656a59eb256ab73b9d12c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-GOT01.ANS by Mr.Wrong (Fokus fonting); released in fokus02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Got
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: Fokus fonting
-# SAUCE Date: 19990308
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Got by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus02-mr-got01
 
 Write-Host '
                                                                [1;30m▄[0m

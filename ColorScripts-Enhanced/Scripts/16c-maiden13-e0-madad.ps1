@@ -1,18 +1,4 @@
-﻿# Converted from: E0-MADAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden13/raw/E0-MADAD.ANS
-# Source Revision: archive-sha256:70e231ea8653cd02d349f122b1a39f57757322f3913b0c8f20698b54c8795e68
-# Source SHA-256: a256fb931494dd16fab187ab508bb4d779f8db215a583e3f4cf143bedb6fec02
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: E0-MADAD.ANS by Enzo (Maiden Prods. 1997); released in maiden13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Hey dad, do you fear?!#?
-# SAUCE Author: Enzo
-# SAUCE Group: Maiden Prods. 1997
-# SAUCE Date: 19970919
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Hey dad, do you fear?!#? by Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden13-e0-madad
 
 Write-Host '
 [1;35m████▀▀██████[0;30;45m▌█[0;35;40m▐▀[0;36;40m   [0;37;40m [0;33;40m▄[0;1;31;40m▄▄[0;33m [0;37m  [0;36m▐[0;1;36;46m▐[0;1;36;40m█▌███[0;1;37;40m███[0;1;36;40m██▌▄██[0;1;36;46m▀[0;1;36;40m▀▀▀▀▀▀▀▀▀▀▀████████[0;1;36;46m▀[0;1;36;40m▀▀[0;36m▀[0;37m [0;33m▄[0;1;33m▄▄▄▄▄[0;1;37m▄[0m [36m█[0;1;36m███▄[0m

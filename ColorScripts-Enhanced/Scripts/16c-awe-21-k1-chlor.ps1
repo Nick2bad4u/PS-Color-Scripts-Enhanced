@@ -1,17 +1,4 @@
-﻿# Converted from: K1-CHLOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-21/raw/K1-CHLOR.ANS
-# Source Revision: archive-sha256:d980c3e2187ff0ef4bb9edce960381dc01c8374df0b01b4ddb8d104484f4b936
-# Source SHA-256: e9053cdba966bb28e489d1c44d77452fa7bc359cbc513ba1e0e71cc7e5998b20
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K1-CHLOR.ANS by Knocturnal (AWE Lettering); released in awe-21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Chlorine
-# SAUCE Author: Knocturnal
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Chlorine by Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-21-k1-chlor
 
 Write-Host '
                                                    [34m▄▄▄[0m

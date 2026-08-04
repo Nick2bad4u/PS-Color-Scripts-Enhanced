@@ -1,18 +1,4 @@
-﻿# Converted from: KRZ-DL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0697/raw/KRZ-DL.ANS
-# Source Revision: archive-sha256:5b93223117f9f186a3ba200faa8bc6690a6d7fe4653e41a69c2734c6b0e04c8b
-# Source SHA-256: 91459f58e7778988f0e28257f8de2e101d1490b03a8743c705ee013cf1d29dba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KRZ-DL.ANS by Big Yellow Man + Krazie (phobia); released in plf-0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: err.. dl
-# SAUCE Author: krazie
-# SAUCE Group: phobia
-# SAUCE Date: 19970605
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: err.. dl by Big Yellow Man + Krazie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0697-krz-dl
 
 Write-Host '
 

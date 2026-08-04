@@ -1,18 +1,4 @@
-﻿# Converted from: SPF-WOEZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rawoe-98/raw/SPF-WOEZ.ANS
-# Source Revision: archive-sha256:72c3cf0f44a476eef694d1cf3a1552a03dc3aa0478a61b3b389cc598bf59ebb8
-# Source SHA-256: 87191ae483832baea66da99ea001818914cdecdd433a3232e802bd4c154e8559
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPF-WOEZ.ANS by [sPITFIRE] (woe); released in rawoe-98 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: wOEZINE!
-# SAUCE Author: [sPITFIRE]
-# SAUCE Group: woe
-# SAUCE Date: 19980411
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: wOEZINE! by [sPITFIRE] | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rawoe-98-spf-woez
 
 Write-Host '
                            [34m░[0;30;44m▓[0;34;40m [0;1;34;40m        [0;34m [0m

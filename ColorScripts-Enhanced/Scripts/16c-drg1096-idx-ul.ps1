@@ -1,18 +1,4 @@
-﻿# Converted from: IDX-UL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg1096/raw/IDX-UL.ANS
-# Source Revision: archive-sha256:3bf67f6fa507df2825f9e0d4d9b6e32bfa3182b2c4785835b1b79416dbc87e21
-# Source SHA-256: ac341eb78d3bd866d12b2aba8730fe4e277caf95468eaae625a1abe24d34672e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IDX-UL.ANS by id x (deranged); released in drg1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Underland BBS (Awrys board)
-# SAUCE Author: id x
-# SAUCE Group: deranged
-# SAUCE Date: 19961011
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Underland BBS (Awrys board) by id x | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg1096-idx-ul
 
 Write-Host '
                           [35m  [0;1;35m     [0;1;37m    [0;1;35m               [0;35m  [0m

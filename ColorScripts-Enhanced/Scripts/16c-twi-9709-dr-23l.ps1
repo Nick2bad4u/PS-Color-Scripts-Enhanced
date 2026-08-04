@@ -1,18 +1,4 @@
-﻿# Converted from: DR-23L.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twi-9709/raw/DR-23L.ANS
-# Source Revision: archive-sha256:31f891fe7da5b972643bd3c2a553724179bec04e12585dd9a8128b4c2055e760
-# Source SHA-256: 308eba44073ef460ea846b2a10e2ad059084088d4e0db3c39522e4e42c1da0da
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DR-23L.ANS by Lord Drakul (Twilight); released in twi-9709 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Anime Matrix
-# SAUCE Author: Lord Drakul
-# SAUCE Group: Twilight
-# SAUCE Date: 19970906
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Anime Matrix by Lord Drakul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twi-9709-dr-23l
 
 Write-Host '
 [1;31m▀█▄[0m [1;34m▀[0;1;34;46m▄[0;1;34;40m▀[0;36m [0;1;34m▀▄[0;1;34;46m▀▄[0;1;34;40m▀▀[0m [1;34m▄[0;1;34;46m▀▄▀[0;1;34;40m▄ █[0;1;34;46m░▀ [0;1;37;46m▀██▀[0;1;34;46m ▄    [0;1;37;46m▀[0;36;47m▓[0;1;34;46m ▄▄▄░▀▀▄▄▄▄░▓[0;1;34;40m▄[0;1;34;46m▀▀[0;1;34;40m▄▄▀▀[0;1;34;46m▄▄ [0;1;37;46m▀[0;36;47m▓▓[0;1;34;46m ▀▓[0;1;34;40m▄▀[0;33m ▄▄[0;1;31;43m░▓[0;1;31;40m█▀▀[0;33m▀  ▄[0m

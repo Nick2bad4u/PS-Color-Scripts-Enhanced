@@ -1,18 +1,4 @@
-﻿# Converted from: US-WINTE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0198/raw/US-WINTE.ANS
-# Source Revision: archive-sha256:463d77f4b1466b54ce907e7ee760282fc69f7183ee8d9f351965b1f5ce417b30
-# Source SHA-256: 4941e0076da1d1fd35ecc9e041249be7698eb4a8624d3981a70bfb9a26246fd3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-WINTE.ANS by Big Yellow Man + Bizzarro (poffelipoff); released in plf-0198 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: swedish winter
-# SAUCE Author: bizzarro+bym
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19980118
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: swedish winter by Big Yellow Man + Bizzarro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0198-us-winte
 
 Write-Host '
 [1m[0m                                                          [36m▄██[0;37m [0;36m█▄[0;1;37;46m▄[0;36m█[0;1;37;46m▄▄[0;36m█▄▄▄▄▄ [0;37m [0;36m▀█[0m

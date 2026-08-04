@@ -1,18 +1,4 @@
-﻿# Converted from: GL-CABAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dtd02/raw/GL-CABAL.ANS
-# Source Revision: archive-sha256:329358061ffeda17eb81c048ab3bce474734b2a800903201ed4eb6076d0d3992
-# Source SHA-256: e950be03a2a06fb70ed9f5291e56d5701921b7d4d18f7405aed0288eafd9cc68
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GL-CABAL.ANS by GLANDYTH-A-KRAE (DEVOTiON TO DARKNESS); released in dtd02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: CABAL - LOGO -
-# SAUCE Author: GLANDYTH-A-KRAE
-# SAUCE Group: DEVOTiON TO DARKNESS
-# SAUCE Date: 19970706
-# SAUCE Dimensions: 80x25
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: CABAL - LOGO - by GLANDYTH-A-KRAE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dtd02-gl-cabal
 
 Write-Host '
 █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█

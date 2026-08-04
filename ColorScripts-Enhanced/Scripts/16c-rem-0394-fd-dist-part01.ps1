@@ -1,13 +1,4 @@
-﻿# Converted from: FD-DIST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rem-0394/raw/FD-DIST.ANS
-# Source Revision: archive-sha256:fceca23a02ff5caca3243124203580a02e844c9351011e02c27adf2a2f9d4dca
-# Source SHA-256: 7217c5a299d42e4fba3990774420cf73d8f2d237ec2e298a3effd6a4b52d8062
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FD-DIST.ANS by Fraud (rem-0394); released in rem-0394 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: FD-DIST.ANS by Fraud | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rem-0394-fd-dist-part01
 
 Write-Host '
 

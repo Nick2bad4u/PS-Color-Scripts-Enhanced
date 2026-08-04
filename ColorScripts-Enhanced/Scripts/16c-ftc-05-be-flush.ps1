@@ -1,18 +1,4 @@
-﻿# Converted from: BE-FLUSH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ftc-05/raw/BE-FLUSH.ANS
-# Source Revision: archive-sha256:5c0404cf283912e8831200a8f9dcc6d8ce0402b99e4f686fa062c4223f57d38b
-# Source SHA-256: ec685a037368f864ae75494ca3af9c36f638a3559610d631ae91db4205f108f2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BE-FLUSH.ANS by brain eater (ftc); released in ftc-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: flush header
-# SAUCE Author: brain eater
-# SAUCE Group: ftc
-# SAUCE Date: 19960905
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: flush header by brain eater | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ftc-05-be-flush
 
 Write-Host '
 [1;30m──────────────── ── ──────── ──  ─  ───────────────── ──────  ───── ─────── ────[0m

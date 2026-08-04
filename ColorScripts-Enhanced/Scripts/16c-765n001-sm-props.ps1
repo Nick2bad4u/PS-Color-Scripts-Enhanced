@@ -1,18 +1,4 @@
-﻿# Converted from: SM-PROPS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/765n001/raw/SM-PROPS.ANS
-# Source Revision: raw-sha256:aa1a086120dc301e951e62a2fef052222a3275ff2f6dd7070c0ea652099536fe
-# Source SHA-256: aa1a086120dc301e951e62a2fef052222a3275ff2f6dd7070c0ea652099536fe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-PROPS.ANS by sodium (the girl scouts); released in 765n001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: props e'zine
-# SAUCE Author: sodium
-# SAUCE Group: the girl scouts
-# SAUCE Date: 19960731
-# SAUCE Dimensions: 80x13
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: props e'zine by sodium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-765n001-sm-props
 
 Write-Host '
 [1;31;41m▓████▓░[0;31m▀[0;1;31;41m░████▄[0;31m▄[0m                 [31m▄[0;1;31;41m▄████▓[0;31m▀[0;1;31;41m▀████▄[0;31m▄░[0m                [31m▄[0;1;31;41m▄████▀[0;31m▀[0;1;31;41m▓████▄[0;31m▄[0m

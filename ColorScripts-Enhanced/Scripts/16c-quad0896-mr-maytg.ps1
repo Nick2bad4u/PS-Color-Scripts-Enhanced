@@ -1,18 +1,4 @@
-﻿# Converted from: MR-MAYTG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0896/raw/MR-MAYTG.ANS
-# Source Revision: archive-sha256:aea0eeb92b0eab79feeb93a911e40d78834e5950cdc396c43c83fe60a2627fad
-# Source SHA-256: f76a24026f1511ddca1c25aa856ab77aafe628256bc748ba25fb00ea1c47d766
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-MAYTG.ANS by Mithrandir (quad-p); released in quad0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: maytag(1)
-# SAUCE Author: Mithrandir
-# SAUCE Group: quad-p
-# SAUCE Date: 19960724
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: maytag(1) by Mithrandir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0896-mr-maytg
 
 Write-Host '
                                               [1;33m [0m

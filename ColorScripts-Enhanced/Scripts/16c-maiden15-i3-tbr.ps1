@@ -1,18 +1,4 @@
-﻿# Converted from: I3-TBR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden15/raw/I3-TBR.ANS
-# Source Revision: archive-sha256:9d31e45f48599318bcc19e5993ceea8ca5caccf3f774679ac18f812be66ff0b5
-# Source SHA-256: fd9de610914eaf8a07379d39f2940f056b47bccaf4b9417f4ac897250943f34c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: I3-TBR.ANS by islayer (maiden br); released in maiden15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: tribute 2 enzo!
-# SAUCE Author: islayer
-# SAUCE Group: maiden br
-# SAUCE Date: 19980514
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: tribute 2 enzo! by islayer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden15-i3-tbr
 
 Write-Host '
    [1;35m▐[0m

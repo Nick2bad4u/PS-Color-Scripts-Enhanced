@@ -1,13 +1,4 @@
-﻿# Converted from: AX_G00P.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/itpnazis/raw/AX_G00P.ANS
-# Source Revision: archive-sha256:b63f1061c14ef43c41c98429978c6d429bbae740ff287c27de867b6629e2595b
-# Source SHA-256: 9eab01d410bc0e3c79055c48e06057a8f4448a28036f20c01f4032c24a0429b7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AX_G00P.ANS by Alla Xul (itpnazis); released in itpnazis and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: AX_G00P.ANS by Alla Xul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-itpnazis-ax-g00p
 
 Write-Host '
  [34m▒[0;37m  [0;34m▐ [0m    [34m▒[0m    [34m▓[0;37m   [0;34m▌[0;37m [0;34m░[0;37m   [0;34m▀▄ [0;37m   [0;34m▐[0m           [34m▒[0m    [34m▄[0;37m   [0;34m▒[0;37m  [0;34m▒[0m      [34m▒[0m    [34m▒[0m     [34m■[0;37m   [0;34m▐[0m

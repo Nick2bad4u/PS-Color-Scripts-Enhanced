@@ -1,19 +1,4 @@
-﻿# Converted from: US-NORDL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-35/raw/US-NORDL.ANS
-# Source Revision: archive-sha256:c366a38306f48b13ede280377c5f8ef243fdab7e7890ac3e053ec3ccbc5d901a
-# Source SHA-256: 37605aeea2aa470ebef09a07a2b02bedeea928a766a4b4a90a49b824f6259b47
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-NORDL.ANS by Nail + Tainted (fire); released in fire-35 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: nordlicht
-# SAUCE Author: nail + tainted
-# SAUCE Group: fire
-# SAUCE Date: 20220907
-# SAUCE Dimensions: 80x156
-# SAUCE Font: IBM VGA
-# Lines: 78-118
-# Columns: 1-80
+﻿# Artwork: nordlicht by Nail + Tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-35-us-nordl-part03
 
 Write-Host '
 [1;34m░▓█▓█[0;1;34;47m▓▓[0;1;34;40m█▓▓[0m ░[1;34m ▀▄▄[0;1;30m■[0;1;34m [0m░░░░▒▒▒▒▒▄[1;34m [0m▄[1;34m [0m▄[1;34m [0m▄[1;34m  ▀■▀▒▒▄ ▀▓▓▓▄▀▓▓▀▀▓▓▓▄▄[0m      [1;34m░[0;1;37m░░[0;1;34m░[0m  [1;36m▐[0;31m [0;1;37m▓▒░[0m▐[1m▌[0;1;34m▓▓▓[0m

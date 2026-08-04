@@ -1,18 +1,4 @@
-﻿# Converted from: FFX-SNK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-06/raw/FFX-SNK.ANS
-# Source Revision: archive-sha256:23bf7a2dd40d2b6120f5e578427d7f6ab3055fd2a788b1f3e27f63e9880c5fa0
-# Source SHA-256: c14bafee7b5c53c01855882e7a87c4d9b8c7dc2579e8f256e515dd675ba2d3a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FFX-SNK.ANS by FireFox (Nitrophusion); released in nph-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Nitrophusion Promo
-# SAUCE Author: FireFox
-# SAUCE Group: Nitrophusion
-# SAUCE Date: 19980130
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Nitrophusion Promo by FireFox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-06-ffx-snk
 
 Write-Host '
                      [1;33m░░░░░▒▒▒▒▓▓███[0;1;37m██████[0;1;33m███▓▓▒▒▒▒░░░░░[0m

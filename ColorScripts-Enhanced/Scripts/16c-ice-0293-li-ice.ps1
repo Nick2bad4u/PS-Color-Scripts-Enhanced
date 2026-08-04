@@ -1,13 +1,4 @@
-﻿# Converted from: LI-ICE.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-0293/raw/LI-ICE.ICE
-# Source Revision: archive-sha256:3558174c2af04b8f06ccaceffca5e0890099a675e014d8cae8c02fa12138688d
-# Source SHA-256: a941792c214844c129ab29a2c5ab28402e3315a2fa0c98588cb9086b0bb5fd1f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LI-ICE.ICE by Liquid Image (ice-0293); released in ice-0293 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: LI-ICE.ICE by Liquid Image | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-0293-li-ice
 
 Write-Host '
                                                       [31m▀[0;1;31m▀▄   [0;31m▀[0m       [1;31m▀[0m

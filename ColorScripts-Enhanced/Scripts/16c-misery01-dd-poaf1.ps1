@@ -1,17 +1,4 @@
-﻿# Converted from: DD-POAF1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/misery01/raw/DD-POAF1.ANS
-# Source Revision: archive-sha256:e802ebf512d2eb802f079fd327fff852b8c112992e81e4f15801eeb22870d111
-# Source SHA-256: e2dfe5e25ba8e77bd46f26e4bf7ac171736a83ef2e4b2f04c1e7d2248af7bd2e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-POAF1.ANS by Da Drug (Misery Productions.); released in misery01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Poaf.
-# SAUCE Author: Da Drug
-# SAUCE Group: Misery Productions.
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Poaf. by Da Drug | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-misery01-dd-poaf1
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: RZ-NPH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-07/raw/RZ-NPH.ANS
-# Source Revision: archive-sha256:05b9134433837782e39338bf79fd6ada6d2fc8bfba82437f2c41c6bc37a6d75a
-# Source SHA-256: 97eb24d7ebf486694fe21512aafead3b935b617a03f2b95ca4c70d648bc6a1ef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RZ-NPH.ANS by _rzicus (avenge); released in nph-07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: nitrophusionn
-# SAUCE Author: _rzicus
-# SAUCE Group: avenge
-# SAUCE Date: 19981112
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: nitrophusionn by _rzicus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-07-rz-nph
 
 Write-Host '
 [1;36m░▒▓[0;1;36;46m▓▓██[0;1;32;46m█▄[0;36m▄[0;1;32;46m▄█[0;36m▌[0;1;36m░▒▓[0;1;36;46m▀[0;1;32;40m▀[0;1;32;46m█▀[0;36m▀[0;37m ▄[0;1;37m▒[0m [36m▄[0;1;36;46m▄[0;1;36;40m▄[0;36m█▀[0;1;36m▓▓[0;1;36;46m▄[0;1;36;40m▄[0;1;36;46m▄[0;36m▌[0;37m ▄[0m   [37m▀[0;1;33;47m▀[0m▀ [1;36;46m▀[0;36m▀[0;37m▄[0m   [1;33m█[0m▌ [36m▐[0;1;36m▒▒[0;36m▄▄[0;37m  ▀ ▄  ▄[0;1;37m▄▄[0;1;37;47m▄█[0m▌[1;36m░▒▓[0;1;36;46m▀[0;36m▀[0;37m [0;36m▀[0m

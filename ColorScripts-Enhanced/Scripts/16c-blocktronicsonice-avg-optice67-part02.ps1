@@ -1,19 +1,4 @@
-﻿# Converted from: avg-optice67.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronicsonice/raw/avg-optice67.ans
-# Source Revision: archive-sha256:09feb7a5adb913c88be16d43a1a4e86bf7073f13399d8bc54e5478cad35282e5
-# Source SHA-256: 5f1b346024e511ff05445a6c2f22fc65fcc7d26fdc776f24600e0c1f89d92b13
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-optice67.ans by avg savage (blocktronics); released in blocktronicsonice and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: blockformers
-# SAUCE Author: avg savage
-# SAUCE Group: blocktronics
-# SAUCE Date: 20220109
-# SAUCE Dimensions: 80x240
-# SAUCE Font: IBM VGA25G
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: blockformers by avg savage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronicsonice-avg-optice67-part02
 
 Write-Host '
 [1;31;41m████▄[0;31m█[0;1;30;41m  [0;31m█[0;1;31;41m█▌▐█[0;1;31;47m██▀▀[0;1;31;41m▄[0;31m▄[0;33;41m▄[0;31;40m▄[0;37;40m ▒▒▒[0;1;30;40m■[0m  [34m▀[0;1;34;44m▀■[0;34m▄▄[0;37m  [0;1;30;47m█[0;1;37;47m ■   [0m████████[1;30;47m■[0m ████████[1;47m·[0;1;30;40m▀[0;30m     [0;1;30m▄[0m░░░░[1;30m▀▄▒[0m

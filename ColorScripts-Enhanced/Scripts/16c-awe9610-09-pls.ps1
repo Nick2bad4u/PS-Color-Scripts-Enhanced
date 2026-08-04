@@ -1,18 +1,4 @@
-﻿# Converted from: 09-PLS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9610/raw/09-PLS.ANS
-# Source Revision: archive-sha256:2f6e3c8c2e64cc8380afc3a639da2793e02ea87790d90b8b4bede4b760040753
-# Source SHA-256: ec9dd7b8ff9540c68ae4419762a1570576f7bcf1ee41445e362374f3d38e906f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-PLS.ANS by Fluor (awe lettering); released in awe9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Pulse
-# SAUCE Author: Fluor
-# SAUCE Group: awe lettering
-# SAUCE Date: 19960929
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Pulse by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9610-09-pls
 
 Write-Host '
                                                   [30;41m▓[0;31;40m░ [0;30;41m▓[0;31;40m░░   [0;33;40m▄▄▄ ▄[0m

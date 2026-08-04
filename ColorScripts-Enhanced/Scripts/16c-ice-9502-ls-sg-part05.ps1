@@ -1,18 +1,4 @@
-﻿# Converted from: LS-SG.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9502/raw/LS-SG.ICE
-# Source Revision: archive-sha256:651d57ec8cfbb7a8c418d666720edd49ef86d48a0b256443452b3132c0397ce3
-# Source SHA-256: 981132214772c7f7c5d477a0fd6ecb40b4b33bf2846fd48f85543aa0671b6785
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LS-SG.ICE by Lord Soth (iCE); released in ice-9502 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Shadowgate
-# SAUCE Author: Lord Soth
-# SAUCE Group: iCE
-# SAUCE Date: 19950226
-# SAUCE Dimensions: 80x216
-# Lines: 176-216
-# Columns: 1-80
+﻿# Artwork: The Shadowgate by Lord Soth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9502-ls-sg-part05
 
 Write-Host '
 [36m███████▄[0;32m▀▌[0;36m▐▄[0;35m▀[0;36m▄▄[0;35m▀[0;1;35;45m▓▒░░[0;35m██▀[0;36m▄[0;32m░▀▀▐[0;1;32;42m▒░[0;32m█░[0;35m ▀[0;1;35;45m░▒▓[0;35m▄▄▄[0;32m▀[0;1;32;42m░▒[0;32m▓[0;1;32;42m [0;32m▀▀░▄[0;36m [0;35m▀[0;36m▄▄[0;35m▐[0;1;35;45m░▓[0;35m▓▀▀[0;36m▄▄▄▄[0;32m▀▀[0;1;32;42m░[0m [36m████▄[0;32m▀▓▄[0;36m▀███[0m

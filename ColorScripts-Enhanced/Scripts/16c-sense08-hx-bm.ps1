@@ -1,18 +1,4 @@
-﻿# Converted from: HX-BM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense08/raw/HX-BM.ANS
-# Source Revision: archive-sha256:1d55361966cfda352bce5be646cc961ad2fc811d088c34eafc09b3e17df065a4
-# Source SHA-256: ceb953cba500bd8d91bfd67af0d504a7dec171d4a80e9f38bbbd8ceb451e958d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HX-BM.ANS by HeXD (Sense); released in sense08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: "BM"
-# SAUCE Author: HeXD
-# SAUCE Group: Sense
-# SAUCE Date: 19980415
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: "BM" by HeXD | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense08-hx-bm
 
 Write-Host '
 [30;44m    ▐[0;30;41m▌      [0;37;40m [0;30;41m       ▐[0;30;44m▌    [0;37;40m [0;30;42m     ▐[0;30;47m [0m

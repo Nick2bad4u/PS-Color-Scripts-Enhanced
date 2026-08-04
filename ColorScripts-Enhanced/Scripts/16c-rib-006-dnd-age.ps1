@@ -1,18 +1,4 @@
-﻿# Converted from: DND-AGE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-006/raw/DND-AGE.ANS
-# Source Revision: archive-sha256:4d7b445ca8b643922c5230e9f5b3c442135561ba0bcfa9b1ae5cb138b563798c
-# Source SHA-256: 27d103394a7bf0fa39efe27ed69df5297fb4337483f908d33789dc98f206c317
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DND-AGE.ANS by diAMONd (RiB); released in rib-006 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: AGE STATiSTiX
-# SAUCE Author: diAMONd
-# SAUCE Group: RiB
-# SAUCE Date: 19980306
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: AGE STATiSTiX by diAMONd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-006-dnd-age
 
 Write-Host '
  [1;31m...[0m.[1;31m...[0m...[1;31m.[0m               [36m░[0;30;46m▓[0;36;40m▓[0;1;37;46mAg[0;1;36;46me Stat[0;30;46mis[0;36;40mtics[0m              [31;40m.[0;1;31;40m...[0m.     ..[1;31m..[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: ST-SICKO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-12/raw/ST-SICKO.ANS
-# Source Revision: archive-sha256:5c96c14e912296494a464a42e768321452d811693cf172945a9502eb4396c8bb
-# Source SHA-256: 939e4e4f3935cc33776c73234ec074c7170247a5bfd1c3a0ed2f0d52d5631d31
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-SICKO.ANS by Splatt (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Sicko
-# SAUCE Author: Splatt
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Sicko by Splatt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-12-st-sicko
 
 Write-Host '
 

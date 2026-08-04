@@ -1,13 +1,4 @@
-﻿# Converted from: AUTUMN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0298/raw/AUTUMN.ANS
-# Source Revision: archive-sha256:b2ed908ebe07b9abc8a1b605d9ab159a38924592b5eaadb06525f7a5e1e213a6
-# Source SHA-256: 2aafa2855b243a3a68ec6eabf4398ddaf5c278862632abbf759d5ff038bf5242
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AUTUMN.ANS by Sandy Chidester (out-0298); released in out-0298 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: AUTUMN.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0298-autumn
 
 Write-Host '
                      [33;40m   [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: UDE-MORI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r7/raw/UDE-MORI.ANS
-# Source Revision: raw-sha256:03d4e869b0400bdb26e043cfcda2bb34f20b2f3c9008e6d6208ffdd158af517c
-# Source SHA-256: 03d4e869b0400bdb26e043cfcda2bb34f20b2f3c9008e6d6208ffdd158af517c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UDE-MORI.ANS by Ude (afc-r7); released in afc-r7 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: UDE-MORI.ANS by Ude | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r7-ude-mori
 
 Write-Host '
                                 [1;30m▄▄[0;1;30;47m▀▀▀▀▀▀▀▀▀▀▀[0;1;30;40m▄▄[0m        [34m▀█▀[0m

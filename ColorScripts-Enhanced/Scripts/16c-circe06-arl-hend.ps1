@@ -1,13 +1,4 @@
-﻿# Converted from: ARL-HEND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe06/raw/ARL-HEND.ANS
-# Source Revision: archive-sha256:5c196d62748f8a4bdb63c997fd54d96908851bda90b736210110cebfc6625fb9
-# Source SHA-256: 438a2d0e6a92ae3f379af16a965513307f7c2accc6efe1da498a9b9da27a7753
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARL-HEND.ANS by Arlequin (circe06); released in circe06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: ARL-HEND.ANS by Arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe06-arl-hend
 
 Write-Host '
                   [30;41m▓▓▓▓▓[0;31;40m░[0;37;40m   [0m

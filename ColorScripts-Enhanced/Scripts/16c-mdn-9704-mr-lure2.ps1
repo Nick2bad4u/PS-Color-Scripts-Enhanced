@@ -1,18 +1,4 @@
-﻿# Converted from: MR-LURE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9704/raw/MR-LURE2.ANS
-# Source Revision: archive-sha256:f29d1a72731ce9383841840bc86b0749ff1457d1c25c6a64baa5adfdac9e6943
-# Source SHA-256: 10b0a49def7c6e8bc5f825e14245a74808e46f60f8583fc7e547d0abc18e3b9b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-LURE2.ANS by minotaur (mAidEN bRAZil); released in mdn-9704 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the lure 2 logo
-# SAUCE Author: minotaur
-# SAUCE Group: mAidEN bRAZil
-# SAUCE Date: 19970301
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: the lure 2 logo by minotaur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9704-mr-lure2
 
 Write-Host '
                                      [32m▐[0;1;32;42m░░[0;32m▀▀[0;30;46m░[0;32;40m▌  [0m

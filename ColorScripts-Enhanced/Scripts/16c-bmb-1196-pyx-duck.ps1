@@ -1,18 +1,4 @@
-﻿# Converted from: PYX-DUCK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-1196/raw/PYX-DUCK.ANS
-# Source Revision: archive-sha256:ea255d5404a293fd28c5348aeea6d132b83dc51aad0630d7773e1cb9fa7be562
-# Source SHA-256: adfdd84c6a16aae0ab5592a0ba8484201849097cdb577b8b0efd521dbefc78d3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-DUCK.ANS by Pyx (Bamboosh); released in bmb-1196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Duck
-# SAUCE Author: Pyx
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19961012
-# SAUCE Dimensions: 80x25
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: Duck by Pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-1196-pyx-duck
 
 Write-Host '
                                          [36m▄▄▄▄[0;37m                                  [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: DLT-RAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/arc-14/raw/DLT-RAT.ANS
-# Source Revision: archive-sha256:ed45d70e8d2c6a54dbf9cb117b8faceda9dce116544ae3fc808ed47a0f847615
-# Source SHA-256: 8ca868c543ef86f9bf09c40a1361f0b7f3cf1037703c2874552307f60ec60c9e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DLT-RAT.ANS by dalton (arc.plf); released in arc-14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: simpsons r?ttan
-# SAUCE Author: dalton
-# SAUCE Group: arc.plf
-# SAUCE Date: 19990801
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: simpsons r?ttan by dalton | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-arc-14-dlt-rat
 
 Write-Host '
 [1;30m██████[0;1;30;47m▄▄[0m██▄ ▄▄▄                                      [1;36;46m███████████████████[0;36m▄[0m

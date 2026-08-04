@@ -1,18 +1,4 @@
-﻿# Converted from: RAY^B2B.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/b2b-0795/raw/RAY%5EB2B.ANS
-# Source Revision: archive-sha256:8e10b7c1c977a26397c38c863229df8f735caadc9af3741f089d2a5031818bc8
-# Source SHA-256: e861899f650b6b6f3ded1807313f2704c5670fb21190af2bec32fbe500cbcb97
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RAY^B2B.ANS by rAYTRAYZa (bACK tO tHE bASiX); released in b2b-0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: BACKTOBASiXRULEZ!
-# SAUCE Author: rAYTRAYZa
-# SAUCE Group: bACK tO tHE bASiX
-# SAUCE Date: 19950626
-# SAUCE Dimensions: 80x100
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: BACKTOBASiXRULEZ! by rAYTRAYZa | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-b2b-0795-ray-b2b-part02
 
 Write-Host '
 [1;30m▓▓██████▓▓▒▒░░▀▀█▀▀▀▀▀▀▀[0m       [1;30m█[0m▒[1;30m▓█[0m     [1;30m█ [0;36m█ [0;1;30m░[0m                   [35m▀▀▀▀▀▀▀▀▀▀▀[0m

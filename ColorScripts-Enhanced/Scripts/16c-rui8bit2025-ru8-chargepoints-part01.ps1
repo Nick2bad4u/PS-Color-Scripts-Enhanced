@@ -1,19 +1,4 @@
-﻿# Converted from: ru8-chargepoints.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rui8bit2025/raw/ru8-chargepoints.ans
-# Source Revision: archive-sha256:db48a01153712164dc1f91228a0ffd1483193514d290c0b5fb4bb0491e0b213f
-# Source SHA-256: cd1770da96ceb113c414502f3dd7b5bd38adf4154ee49bf7e93883ceabbb65b0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ru8-chargepoints.ans by Rui8bit (rui8bit2025); released in rui8bit2025 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Chargepoints
-# SAUCE Author: Rui8bit
-# SAUCE Date: 20260619
-# SAUCE Dimensions: 80x70
-# SAUCE Font: Custom
-# SAUCE Comments: March 2 2025 | Battle of the Bis - Winter Chip XX | (https://battleofthebits.com/arena/Entry/Chargepoints/76040/)
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Chargepoints by Rui8bit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rui8bit2025-ru8-chargepoints-part01
 
 Write-Host '
                                              [1;34m [0m [1;34m  [0m         [34m·[0;37m [0;34m∙[0;37m [0;34m÷[0;37m [0;34m=[0;37m [0;34m≡[0;37m [0;34mz[0;37m [0;34mπ[0;37m [0;34m■[0;37m [0;34m■≡■≡■≡[0m

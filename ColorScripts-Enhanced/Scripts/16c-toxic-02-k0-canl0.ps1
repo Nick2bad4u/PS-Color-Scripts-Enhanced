@@ -1,18 +1,4 @@
-﻿# Converted from: K0-CANL0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toxic-02/raw/K0-CANL0.ANS
-# Source Revision: archive-sha256:7a41e32586e1dd3a5f33420e6d1fb67b20a2e05f1cdbe057f1893bebcaa0b653
-# Source SHA-256: 1fe2d8d47a647ef9fde0d1d65b0f0d17c2a32c58d30ed87eb20848b2eb22882b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K0-CANL0.ANS by k0rpse (TOXiC); released in toxic-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Candy Land
-# SAUCE Author: k0rpse
-# SAUCE Group: TOXiC
-# SAUCE Date: 19960706
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Candy Land by k0rpse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toxic-02-k0-canl0
 
 Write-Host '
 [30m█[0m             [1;30m▀▀▀▀██████▄▄▄▄▄▄▄▄[0m  [34m▀▀▀▀▓███████████████▀[0;1;37m▄▄██████[0;1;37;47m█▄▄[0m▄▄ [34m▀▓[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: MO-PANG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-11/raw/MO-PANG1.ANS
-# Source Revision: archive-sha256:124f5de71b4943d1edf363ae27ec83def11b741938d7ad78955f12dc3ea0753e
-# Source SHA-256: 578cff1fcb87a42c4128f40f214f8d2f85ee8ae34897fdf2d1405969aa457fa4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MO-PANG1.ANS by magnatop (eclipse); released in ecl-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: dancing pangelo's
-# SAUCE Author: magnatop
-# SAUCE Group: eclipse
-# SAUCE Date: 19970106
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: dancing pangelo's by magnatop | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-11-mo-pang1
 
 Write-Host '
                              [34m▄▄▄▄▄▄▄▄▄[0m                       [34m▄▄▄▄▄▄[0m

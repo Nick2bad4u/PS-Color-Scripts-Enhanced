@@ -1,18 +1,4 @@
-﻿# Converted from: US-KS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1015/raw/US-KS.ANS
-# Source Revision: raw-sha256:115b40c1a714ac1128fad8693b7c6072118a14951ca5fc0e3cc4c7fc90dd1b50
-# Source SHA-256: 115b40c1a714ac1128fad8693b7c6072118a14951ca5fc0e3cc4c7fc90dd1b50
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-KS.ANS by Nail + Somberlain (mist1015); released in mist1015 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: kindred spirit
-# SAUCE Author: somberlain and nail
-# SAUCE Date: 20151023
-# SAUCE Dimensions: 80x27
-# SAUCE Font: IBM VGA
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: kindred spirit by Nail + Somberlain | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1015-us-ks
 
 Write-Host '
                                         [36;40m▐▓[0m

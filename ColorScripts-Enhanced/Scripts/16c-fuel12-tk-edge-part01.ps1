@@ -1,18 +1,4 @@
-﻿# Converted from: TK-EDGE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel12/raw/TK-EDGE.ANS
-# Source Revision: archive-sha256:ebe2e7b01f31e0e82aa2702a876007d4ec2dd824b98bdf40e4d59e2b113da7e4
-# Source SHA-256: 1685136cc0c928a2c96832e0d04ead511ac1764241551211227ab6a5a957d0a1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TK-EDGE.ANS by The Knight (Fuel Productions); released in fuel12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Edge
-# SAUCE Author: The Knight
-# SAUCE Group: Fuel Productions
-# SAUCE Date: 19970401
-# SAUCE Dimensions: 80x25
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Edge by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel12-tk-edge-part01
 
 Write-Host '
             [1;30m▄▄▄▄▄[0m

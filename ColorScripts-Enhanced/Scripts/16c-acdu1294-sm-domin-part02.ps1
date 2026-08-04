@@ -1,18 +1,4 @@
-﻿# Converted from: SM-DOMIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1294/raw/SM-DOMIN.ANS
-# Source Revision: archive-sha256:f8a4b1074b7793df8f3d2e2341b035c3ebc6fa160937f8fe7508c74b4b0317e1
-# Source SHA-256: 6d930799b80d7897e5e72d0884f8e6060fae677500080bce3f753dfdfe8da347
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-DOMIN.ANS by Smooth (ACiD Productions); released in acdu1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Dominion
-# SAUCE Author: Smooth
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19941201
-# SAUCE Dimensions: 80x132
-# Lines: 46-90
-# Columns: 1-80
+﻿# Artwork: The Dominion by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1294-sm-domin-part02
 
 Write-Host '
 [1;30m████▀█░     [0m [1;30m  [0m                      [1;30m▒[0m                                [1;30m▄[0m [1;30m▀████[0m

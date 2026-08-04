@@ -1,13 +1,4 @@
-﻿# Converted from: RJ-GNEST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fos-0596/raw/RJ-GNEST.ANS
-# Source Revision: archive-sha256:25c8e691096e6d9e002fd5aeffbfc7841075d4cd6b2943fe3db88a851c3d7020
-# Source SHA-256: 168051ee503e255caf48ef2de2a9e0cf778116b909a1941a45195868c50cee0d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RJ-GNEST.ANS by Radjan (fos-0596); released in fos-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: RJ-GNEST.ANS by Radjan | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fos-0596-rj-gnest
 
 Write-Host '
 [1;36m██████████████████████████▀▀▀▀▀▀▀▀▀█▀▀▀▀▀▀▀█████████████████████████████████████[0m

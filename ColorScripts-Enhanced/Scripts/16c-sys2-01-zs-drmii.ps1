@@ -1,13 +1,4 @@
-﻿# Converted from: zs-drmii.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sys2_01/raw/zs-drmii.ans
-# Source Revision: archive-sha256:f707a7fe693d07201b6eb70e6937a345c157a5d2d28da9983b4bb47eb4421fde
-# Source SHA-256: 193bb73b42a0c4dfbf2ad3e8be19035b20a42bca413af10923921b28a79cd84d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zs-drmii.ans by Zerostar (sys2_01); released in sys2_01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: zs-drmii.ans by Zerostar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sys2-01-zs-drmii
 
 Write-Host '
 [34m                                        ┘                                       [0m

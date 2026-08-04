@@ -1,17 +1,4 @@
-﻿# Converted from: ICE-DVT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dvt-a002/raw/ICE-DVT1.ANS
-# Source Revision: archive-sha256:cebc39699ae8b25ba518b2ba5782156ca1128226a0f97880c63d4b8cd53b3a57
-# Source SHA-256: cbefd39ad3ac6a5c6ff7c468ae3b19017d59058625f55fa5614fa65710087018
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ICE-DVT1.ANS by iCEMAN (DEVOTION); released in dvt-a002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: iCEMAN
-# SAUCE Group: DEVOTION
-# SAUCE Date: 19961103
-# SAUCE Dimensions: 80x13
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: ICE-DVT1.ANS by iCEMAN | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dvt-a002-ice-dvt1
 
 Write-Host '
                      [1m[ · D · E · V · O · T · I · O · N · ][0m

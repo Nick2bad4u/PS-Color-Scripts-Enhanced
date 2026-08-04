@@ -1,13 +1,4 @@
-﻿# Converted from: TS-PAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/adfa1193/raw/TS-PAN.ANS
-# Source Revision: archive-sha256:e382a68c833e1517cfb4abdec8b91676170d486368db35317574ffefdee04cba
-# Source SHA-256: 8fb1b1e6285b0e0e878dce230cf574b66ba4fff37d1a64e81f22d66489ba92f8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-PAN.ANS by The Shadow (adfa1193); released in adfa1193 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: TS-PAN.ANS by The Shadow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-adfa1193-ts-pan-part01
 
 Write-Host '
 [34m████████████████████████████████████████████████████████████████████████████████[0m

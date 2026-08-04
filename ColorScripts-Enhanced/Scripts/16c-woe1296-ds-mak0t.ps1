@@ -1,17 +1,4 @@
-﻿# Converted from: DS!MAK0T.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/woe1296/raw/DS!MAK0T.ANS
-# Source Revision: archive-sha256:7b93d451112d1edb8b2e9719c62f056827f8a427cf61474a75f10061347e05c8
-# Source SHA-256: 15787b7b057754460ed11ed2a16c65683e6fe55078e936067184c84a4ea3c304
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS!MAK0T.ANS by dressus (wOe); released in woe1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: mak0t ansi
-# SAUCE Author: dressus
-# SAUCE Group: wOe
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: mak0t ansi by dressus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-woe1296-ds-mak0t
 
 Write-Host '
              [1;32m▄▄[0;32m▄[0;1;32m▄[0;32m▄▄▄[0;1;32m▄[0;32m▄▄▄▄▄▄▄[0m

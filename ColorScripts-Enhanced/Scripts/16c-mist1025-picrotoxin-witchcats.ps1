@@ -1,20 +1,4 @@
-﻿# Converted from: PICROTOXIN-WITCHCATS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1025/raw/PICROTOXIN-WITCHCATS.ANS
-# Source Revision: archive-sha256:c6ce2eb1560c66497e345290ad53cd5a430626bac015b2788f41b6db23db8045
-# Source SHA-256: 3560971090c16274cef681fc65155ca87b5e3a9fdbc61a187ad21a6c0b0e10b3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PICROTOXIN-WITCHCATS.ANS by picrotoxin (Mistigris); released in mist1025 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: witch cats
-# SAUCE Author: picrotoxin
-# SAUCE Group: Mistigris
-# SAUCE Date: 20251006
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# SAUCE Comments: left a rilakuma and a korilakuma for the sp00py season
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: witch cats by picrotoxin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1025-picrotoxin-witchcats
 
 Write-Host '
 [30;44m▓▓▓▓▓▓▓▓▓▓[0;34;40m▀▀[0;37;40m       [0;1;37;40m░▒██▒░[0m [34m▀▀[0;30;44m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m

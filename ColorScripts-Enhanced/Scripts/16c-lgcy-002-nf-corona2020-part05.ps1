@@ -1,19 +1,4 @@
-﻿# Converted from: nf-Corona2020.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-002/raw/nf-Corona2020.ans
-# Source Revision: archive-sha256:035806f627526bbca92fb6becafc359d23b231b3ea478b7169ed62b6d2a1cc54
-# Source SHA-256: da56e9cad88a33ee2a43cb872599469e0ef3e6ca32d2948310975b85bdc3c5cd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: nf-Corona2020.ans by necro (RBBS); released in lgcy-002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Corona
-# SAUCE Author: necro
-# SAUCE Group: RBBS
-# SAUCE Date: 20200512
-# SAUCE Dimensions: 80x201
-# SAUCE Font: IBM VGA
-# Lines: 162-201
-# Columns: 1-80
+﻿# Artwork: Corona by necro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-002-nf-corona2020-part05
 
 Write-Host '
 ███████████████▐████████████████████▌███████████████████████████████████████████

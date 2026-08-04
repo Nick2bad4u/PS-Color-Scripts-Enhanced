@@ -1,13 +1,4 @@
-﻿# Converted from: ANSI21.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansi/raw/ANSI21.ANS
-# Source Revision: archive-sha256:50aaa63d173fc2f34f94b8a5b526a5ee8a8b9d7908c42264ab949073e7e0edf9
-# Source SHA-256: 4bd8d100fceb403b6a1caa6d53b7022ee7b2595b10acaee90d46009067ce7e46
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ANSI21.ANS by George Ramos (ansi); released in ansi and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: ANSI21.ANS by George Ramos | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansi-ansi21
 
 Write-Host '
 

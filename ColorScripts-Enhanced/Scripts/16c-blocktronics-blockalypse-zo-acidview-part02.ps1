@@ -1,16 +1,4 @@
-﻿# Converted from: zO-ACiDView.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_blockalypse/raw/zO-ACiDView.ans
-# Source Revision: archive-sha256:29ba148fe5fc8b4a774ee58a56a5b6d8104f139a95cba3df944ffda7c075e06a
-# Source SHA-256: a76f00cd0c93a445451784160dd7de5e1cb0571218a52f6e0676bb76c6983e35
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zO-ACiDView.ans by Enzo (blocktronics_blockalypse); released in blocktronics_blockalypse and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20140124
-# SAUCE Dimensions: 80x58
-# SAUCE Font: IBM VGA
-# Lines: 30-58
-# Columns: 1-80
+﻿# Artwork: zO-ACiDView.ans by Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blockalypse-zo-acidview-part02
 
 Write-Host '
      [36m▀[0;1;37m▄ ▀[0;36m▄ ▀▀▀▀ ▄[0;1;37m▀ ▄ [0;1;37;46m▓▓[0;36m▒[0;1;36;46m░[0;36m▒[0;1;37;46m░░[0;1;37;40m [0;36m▄ [0;32m█[0;1;32;42m▄██[0;32m▒▄[0;1;32;42m▄▄[0;32m▄[0m       [1;36;46m▓[0;1;36;40m [0;1;37;46m▓▓[0;1;37;40m [0;1;36;46m▒[0;1;36;40m [0;1;37;46m░[0;36m▒[0;1;37;46m▓▓[0;1;37;40m [0;1;36;46m▒[0;1;36;40m [0;1;32;42m▄███▒[0;32m█▀▀▀▒ [0;36m▀ [0;1;37;46m█[0;1;37;40m░[0;1;36;46m█[0m

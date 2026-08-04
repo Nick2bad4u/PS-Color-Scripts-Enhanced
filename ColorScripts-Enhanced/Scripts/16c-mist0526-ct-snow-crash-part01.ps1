@@ -1,20 +1,4 @@
-﻿# Converted from: CT-SNOW_CRASH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0526/raw/CT-SNOW_CRASH.ANS
-# Source Revision: archive-sha256:96e9c14a0862fcfb7b203f3d94f85e28654461fdbf12521de185a12d5fb418bb
-# Source SHA-256: dd4395b2c0b3f290895626498349f832fe280e42c232774bd53c3592c446507c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CT-SNOW_CRASH.ANS by Cthulu (Mistigris); released in mist0526 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Snow Crash
-# SAUCE Author: Cthulu
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260604
-# SAUCE Dimensions: 80x66
-# SAUCE Font: IBM VGA
-# SAUCE Comments: from Bruce Jensen's cover art illustration to the 1993 mass pape | rback edition of Neal Stephenson's Snow Crash
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Snow Crash by Cthulu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0526-ct-snow-crash-part01
 
 Write-Host '
 

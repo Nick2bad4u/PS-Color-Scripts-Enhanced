@@ -1,18 +1,4 @@
-﻿# Converted from: EN-NEDR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/208-1/raw/EN-NEDR.ANS
-# Source Revision: archive-sha256:6cb34ee852f6d91586d49330a9d5bffc831f84b677b4f24f6c820c02c8f757bd
-# Source SHA-256: 3df7c34619de93ed9e7efdfdc81680182c51d556502891a815fc6bbe45b176f1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EN-NEDR.ANS by el ni$o (room 208); released in 208-1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: needle drama
-# SAUCE Author: el ni$o
-# SAUCE Group: room 208
-# SAUCE Date: 19981204
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: needle drama by el ni$o | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-208-1-en-nedr
 
 Write-Host '
     [1;30m▄▄[0;34m▄[0m

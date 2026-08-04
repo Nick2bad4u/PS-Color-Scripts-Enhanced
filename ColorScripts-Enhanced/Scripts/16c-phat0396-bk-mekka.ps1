@@ -1,18 +1,4 @@
-﻿# Converted from: BK-MEKKA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0396/raw/BK-MEKKA.ANS
-# Source Revision: archive-sha256:4840956a784b32a4a9e617c5baaeab5274263fdb9ff2d98a840492545e3abb06
-# Source SHA-256: 9b01c2801982583dabfc0d5a1689b88f02654f9dc1135210f5b1356a2bd447e1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BK-MEKKA.ANS by blackknight (READ THE INI FILE); released in phat0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: mekka'96 promotional
-# SAUCE Author: blackknight
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19960301
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: mekka'96 promotional by blackknight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0396-bk-mekka
 
 Write-Host '
  [1;30;47m▓▓▓[0;1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;47m▓▓███[0;1;30;40m▀▀▀▀▀▀▀▀▀[0;1;30;47m▓[0;1;30;40m▀▀▀▀▀▀▀▀[0;1;30;47m▓[0;1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;47m▓[0;1;30;40m▀▀▀▀▀▀▀[0;1;30;47m▓[0;1;30;40m▓▀▀▀▀▀▀▀▀▀[0;1;30;47m▓▓[0;1;30;40m▓[0m

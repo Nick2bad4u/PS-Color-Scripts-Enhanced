@@ -1,13 +1,4 @@
-﻿# Converted from: ACIDLSD2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acid_a-d/raw/ACIDLSD2.ANS
-# Source Revision: archive-sha256:0c2c2d0da26e60e3cf50a9f0ddc530332592fd090be0bbe48fac5e181dbe79b5
-# Source SHA-256: 8bdef43c58ffa74832457a1a5c9d96285bbccd6a22f561d0bf86eae928377e99
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ACIDLSD2.ANS by Grimm (acid_a-d); released in acid_a-d and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: ACIDLSD2.ANS by Grimm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acid-a-d-acidlsd2-part01
 
 Write-Host '
 [30m█[0m

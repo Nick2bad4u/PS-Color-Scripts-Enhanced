@@ -1,13 +1,4 @@
-﻿# Converted from: FISH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wxg1094/raw/FISH.ANS
-# Source Revision: archive-sha256:d2dd45491bc7b4b018f2626d314d18185601b6660844f54b5bdb7663b7b02f0d
-# Source SHA-256: 960d8d204ccf354f2fc869f6cc56ddbb8d0a897901287c3b00abfcfd58ef3199
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FISH.ANS by Adam Shiver (wxg1094); released in wxg1094 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: FISH.ANS by Adam Shiver | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wxg1094-fish
 
 Write-Host '
 

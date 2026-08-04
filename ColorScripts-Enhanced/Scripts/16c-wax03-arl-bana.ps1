@@ -1,13 +1,4 @@
-﻿# Converted from: ARL-BANA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wax03/raw/ARL-BANA.ANS
-# Source Revision: archive-sha256:8abfa43a62dd015a080596c8ad5586e96cf62a3664ebe2532297158d0dcb3a78
-# Source SHA-256: 94ea3b778173278429d2d1c74c11e13301e9bace7f86f00ca32269d250d78179
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARL-BANA.ANS by Arlequin + Enzo (wax03); released in wax03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: ARL-BANA.ANS by Arlequin + Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wax03-arl-bana
 
 Write-Host '
 [1;30m█████☻☻☻☻☻☻☻☻☻☻☻☻*┘''`  .▬a@☻☻☻☻☻☻☻☻[0m☺☺☺☺☺[1;30m☻☻[0m  [35m,a\☻☻☻☻☻☻[0;1;35m,,aa##☻☻☻☻☻☻☻☻[0m☻☻☻☻☻☻☻\[1;35m,[0;35m☻; [0m

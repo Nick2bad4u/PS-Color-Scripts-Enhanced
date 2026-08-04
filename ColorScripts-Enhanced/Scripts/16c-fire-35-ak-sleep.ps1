@@ -1,19 +1,4 @@
-﻿# Converted from: AK-SLEEP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-35/raw/AK-SLEEP.ANS
-# Source Revision: archive-sha256:c366a38306f48b13ede280377c5f8ef243fdab7e7890ac3e053ec3ccbc5d901a
-# Source SHA-256: f412ac153325a9194461c9858bd4c0ed2b58c0c84bce96201145335e49ea17c1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-SLEEP.ANS by abstrakt (fire); released in fire-35 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: sleep
-# SAUCE Author: abstrakt
-# SAUCE Group: fire
-# SAUCE Date: 20221117
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: sleep by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-35-ak-sleep
 
 Write-Host '
 [31;40m.[0;1;31;40md\%P[0;31m,[0;1;31md[0;31ml[0;37m [0;1;31m,d\%[0;31mq.[0;1;31md\q[0;31m┐.[0;1;31md/s┐[0;31m.[0;1;30m `$$$$7`4$j ┘`∙[0;33m`└4b.`$b`$P$Ss┐$└*$YQ┌\$P┘,$''d7.┌⌐ ,[0;37m .[0;1;30m┌\[0m

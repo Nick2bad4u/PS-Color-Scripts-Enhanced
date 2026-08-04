@@ -1,13 +1,4 @@
-﻿# Converted from: RP-MENU5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-ap-1/raw/RP-MENU5.ANS
-# Source Revision: archive-sha256:677d92e3c1456f7d379a6bfd6ef2a3e9f4462186ed5fa427899c9f4c329d0aa2
-# Source SHA-256: 059fec5c48d518d1777728f5c861aa657614e8fbb3fbd42de38187e6cc9c00df
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RP-MENU5.ANS by Raptor (axf-ap-1); released in axf-ap-1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: RP-MENU5.ANS by Raptor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-ap-1-rp-menu5
 
 Write-Host '
       [35m [0;37m [0;35m▄▄▄▄▄▄▄▄▄▄▄▄[0;36m [0;35m▄▄▄[0;36m [0;35m▄[0;36m  [0;35m▄[0;37m [0;1;30m [0m                [35m▄[0;36m  [0;35m▄[0;36m [0;35m▄▄▄[0;36m [0;35m▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

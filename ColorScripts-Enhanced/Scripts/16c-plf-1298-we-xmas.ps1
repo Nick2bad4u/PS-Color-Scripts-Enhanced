@@ -1,18 +1,4 @@
-﻿# Converted from: WE-XMAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1298/raw/WE-XMAS.ANS
-# Source Revision: archive-sha256:075f933f0da18fbaf6a548eb0d971a2c335f576db461f97402cdbe530ee397b2
-# Source SHA-256: e4b13bb51434a7e8e39ee67e1de9ed2004c101c7451eb5ad338bf42bd6b1c66c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WE-XMAS.ANS by Spirit Of Rage + Big Yellow Man (plf + hood); released in plf-1298 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Merry Xmas!!
-# SAUCE Author: bym >> sorzor
-# SAUCE Group: plf + hood
-# SAUCE Date: 19981223
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Merry Xmas!! by Spirit Of Rage + Big Yellow Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1298-we-xmas
 
 Write-Host '
 [1;30m[0;1;37m[0;1;30m[0;1;37m[0m[1;30m[0m[1m[0m[1m[0m[1m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m

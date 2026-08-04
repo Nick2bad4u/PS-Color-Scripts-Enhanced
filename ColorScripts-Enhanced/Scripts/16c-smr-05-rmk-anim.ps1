@@ -1,13 +1,4 @@
-﻿# Converted from: RMK-ANIM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/smr-05/raw/RMK-ANIM.ANS
-# Source Revision: archive-sha256:6c589592cb102bb3cb03efca975252b9e8b7f23e59c47e5916cb88ac2253c9a2
-# Source SHA-256: ecb281463fbb95ef285bc8bc379546ab8850e18dfa99a28972b4d816518bffd8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RMK-ANIM.ANS by Rumik (smr-05); released in smr-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: RMK-ANIM.ANS by Rumik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-smr-05-rmk-anim
 
 Write-Host '
            [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m    [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m    [1;30m▄▄▄▄▄▄▄[0m  [1;30m▄▄▄▄▄[0m

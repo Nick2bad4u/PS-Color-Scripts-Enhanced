@@ -1,18 +1,4 @@
-﻿# Converted from: TX-SALT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zenith01/raw/TX-SALT.ANS
-# Source Revision: archive-sha256:89a769066be1ade04361b16bc2aabeb1a280fe034deee0fe7ee4c75badc7461d
-# Source SHA-256: a02794c707a61f7d2b55ddd15c6e63b0f368cb53c3fadbbc7b518f58ce4a37a6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TX-SALT.ANS by ToonsXilion (Zenith); released in zenith01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Salt
-# SAUCE Author: ToonsXilion
-# SAUCE Group: Zenith
-# SAUCE Date: 19980530
-# SAUCE Dimensions: 80x25
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Salt by ToonsXilion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zenith01-tx-salt
 
 Write-Host '
                                          [36m▄[0;1;36m▄▄[0;36m░░░[0m

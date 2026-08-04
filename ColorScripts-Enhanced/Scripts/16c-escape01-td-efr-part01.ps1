@@ -1,13 +1,4 @@
-﻿# Converted from: TD-EFR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/escape01/raw/TD-EFR.ANS
-# Source Revision: archive-sha256:8fb76a84502eb67aaaf0a7272ae8f06bcf8f5fa9822bf2bbf425ce8452e1bbfc
-# Source SHA-256: da122964024570bac6d2f002ee740cde38d94dcfbe1927105131013a8a6cbcf8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TD-EFR.ANS by The Druid (escape01); released in escape01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: TD-EFR.ANS by The Druid | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-escape01-td-efr-part01
 
 Write-Host '
 [1;30m██[0m                                                   ───────────────────────────

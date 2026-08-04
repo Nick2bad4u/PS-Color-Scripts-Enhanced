@@ -1,18 +1,4 @@
-﻿# Converted from: &COVER20.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook20/raw/%26COVER20.ANS
-# Source Revision: archive-sha256:ad9acf30fa46ab5c9a458319782448b90dee64987e366c3cf1e5e495b40c4e0a
-# Source SHA-256: e8c9ac4b89d4654bd8b26924fef2bb595fcf2d754d69aa49a547e2d9170ecc24
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: &COVER20.ANS by milkmang (poffelipoff); released in bmbook20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: blackmaiden#20
-# SAUCE Author: milkmang
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19990520
-# SAUCE Dimensions: 80x23
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: blackmaiden#20 by milkmang | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook20-cover20
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: JDA_PIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg1196/raw/JDA_PIC.ANS
-# Source Revision: archive-sha256:181b168e4595979af645a73e69f713a0515ac38fe1b9395a73af1dbb64b39971
-# Source SHA-256: 80004f3575a6ab5d6d4ea7f94f5021f1d9149456b6be520816a0b251926c7a95
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JDA_PIC.ANS by Joda (Deranged); released in drg1196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: P I C
-# SAUCE Author: Joda
-# SAUCE Group: Deranged
-# SAUCE Date: 19961022
-# SAUCE Dimensions: 80x27
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: P I C by Joda | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg1196-jda-pic
 
 Write-Host '
 [1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m                                      [1;30m▄[0m

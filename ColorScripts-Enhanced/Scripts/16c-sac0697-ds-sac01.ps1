@@ -1,13 +1,4 @@
-﻿# Converted from: DS-SAC01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0697/raw/DS-SAC01.ANS
-# Source Revision: archive-sha256:0b721541cca8ac174bff16dfdb239e04c03d8d36e25a348efa54fb9152ea3678
-# Source SHA-256: fa74f53f9d00e16717c9e65c50c81211f3fda9a4d9e3777d3ce2b45aa108b6fa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-SAC01.ANS by dark star; released in sac0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: DS-SAC01.ANS by dark star | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0697-ds-sac01
 
 Write-Host '
  [34m▄▄▄[0m       [1;37m           [0m  [34m▄▄▄▄[0;37m  [0;1;37m                   [0m  [34m▄▄██▀[0;37m [0;34m▀[0;37m  [0;1;33m  [0m

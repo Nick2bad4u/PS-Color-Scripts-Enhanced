@@ -1,19 +1,4 @@
-﻿# Converted from: twm-_zkpn_fl24.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hpm-04/raw/twm-_zkpn_fl24.ans
-# Source Revision: archive-sha256:d2c0a14e6aa186cff60c36e0afbe6cc20a83d0b801e42df0e6a8c7b44be43337
-# Source SHA-256: d3aa4a6f646cb71560bfa861786d6471469fb2dc25034031ee55bc42ba82aea7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: twm-_zkpn_fl24.ans by TWM (HPM); released in hpm-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: zkpn fl24
-# SAUCE Author: TWM
-# SAUCE Group: HPM
-# SAUCE Date: 20250917
-# SAUCE Dimensions: 80x115
-# SAUCE Font: IBM VGA
-# Lines: 101-114
-# Columns: 1-80
+﻿# Artwork: zkpn fl24 by TWM | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hpm-04-twm-zkpn-fl24-part03
 
 Write-Host '
 [30;41m▀▀▀▀▀[0;1;33;40m████████[0;30;41m▀▀▀▀▀[0;1;33;40m▄███▀[0m  [1;33m████[0;1;33;41m▌[0;31m██[0;1;33;41m▐[0;1;33;40m████[0;31m█[0;1;33m█████[0;30;41m▀[0;1;33;40m████[0m  [1;33m███[0;1;33;41m▌▐[0;1;33;40m██[0;1;33;41m▌  [0;1;33;40m██[0;1;33;41m  [0;1;33;40m███[0;1;33;41m [0;1;33;40m███[0;1;33;41m [0;1;33;40m██[0;1;33;41m ▐[0;1;33;40m███[0;1;33;41m▌[0m

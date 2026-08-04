@@ -1,13 +1,4 @@
-﻿# Converted from: OA-BNITE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0896/raw/OA-BNITE.ANS
-# Source Revision: archive-sha256:bb0bebc605b8e233d6fe31cc7180aa47f63f2a5a14d07cf49a2ecbe43d7638fe
-# Source SHA-256: aa8d24747fed75b5ff594297333c61f0a6d9612c6b7dffb7c47940fd77dec70f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OA-BNITE.ANS by Sandy Chidester (out-0896); released in out-0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: OA-BNITE.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0896-oa-bnite
 
 Write-Host '
                [30;44m▀[0m [34;44m█[0;1;34;44m░░[0;30;44m▀▀[0m   [1;31m▀▄ ▀▄▄▀  [0;30;41m▀[0m   [1;31m▀█▄▄▀[0m

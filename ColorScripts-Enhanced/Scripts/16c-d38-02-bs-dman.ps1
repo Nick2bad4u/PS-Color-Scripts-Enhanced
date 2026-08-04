@@ -1,17 +1,4 @@
-﻿# Converted from: BS-DMAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-02/raw/BS-DMAN.ANS
-# Source Revision: archive-sha256:4c203a22a273c62e868cc7246cefafb413002203c4d66bfee072b470754a2d40
-# Source SHA-256: 2094d6ec2473224b1c55456c9eae3e91265dadf21e173fa9289f7ca05ff88dc9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-DMAN.ANS by Blind Sniper (Department 38); released in d38-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: DiZMAN
-# SAUCE Author: Blind Sniper
-# SAUCE Group: Department 38
-# SAUCE Dimensions: 80x25
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: DiZMAN by Blind Sniper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-02-bs-dman
 
 Write-Host '
 [1;30m[Askii Version]-----------------------------------------------------------------[0m

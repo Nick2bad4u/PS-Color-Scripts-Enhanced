@@ -1,19 +1,4 @@
-﻿# Converted from: lotus_rubi-rocola.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hpm-04/raw/lotus_rubi-rocola.ans
-# Source Revision: archive-sha256:d2c0a14e6aa186cff60c36e0afbe6cc20a83d0b801e42df0e6a8c7b44be43337
-# Source SHA-256: a7c2b7077f1d57bc45e9e039c01e80dceb5bd6dfcd8ccb303c232e8ad3a3c4b4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: lotus_rubi-rocola.ans by Lotus Rubi (HPM); released in hpm-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Rocola the vault bbs
-# SAUCE Author: Lotus Rubi
-# SAUCE Group: HPM
-# SAUCE Date: 20250917
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Rocola the vault bbs by Lotus Rubi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hpm-04-lotus-rubi-rocola
 
 Write-Host '
  [33m♦ √ ♦ √ ♦ √ ♦ √ ♦ √[0;37m [0;33m♦[0;37m [0;33m√[0;37m [0;33m♦[0;37m [0;33m√[0;37m [0;33m♦[0;37m [0;33m√[0;37m [0;33m♦[0;37m [0;33m√[0;37m [0;33m♦[0;37m [0;1;33;41m▄▄▄[0m [33m♦[0;37m [0;33m√[0;37m [0;33m♦[0;37m [0;33m√[0;37m [0;33m♦[0;37m [0;33m√[0;37m [0;33m♦[0;37m [0;33m√[0;37m [0;33m♦[0;37m [0;33m√[0;37m [0;33m♦[0;37m [0;33m√[0;37m [0;33m♦[0;37m [0;33m√[0;37m [0;33m♦[0;37m [0;33m√[0;37m [0;33m♦[0;37m [0;33m√[0;37m [0;33m♦[0m

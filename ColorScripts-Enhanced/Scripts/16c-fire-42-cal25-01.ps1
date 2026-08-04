@@ -1,19 +1,4 @@
-﻿# Converted from: CAL25-01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-42/raw/CAL25-01.ANS
-# Source Revision: archive-sha256:5477badab90aaaa6ee2d08aa380254b6982d860b5d0de201e348668cb1eaa063
-# Source SHA-256: 255a9915d29a69797f80dd6e02c6c91346fd029a3dc56cccfa6e9f7726e77fee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CAL25-01.ANS by filth (FiRE); released in fire-42 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: JANUARY
-# SAUCE Author: filth
-# SAUCE Group: FiRE
-# SAUCE Date: 20250303
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: JANUARY by filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-42-cal25-01
 
 Write-Host '
 [37;40m  [0;1;37;40m▀[0m       [1m█▀[0m  [1;30m█████[0;1;37m▀[0;1;30m████[0;1;37m▀[0;1;30m███▀██[0;1;30;47m▓▓▓[0;1;37;40m▄[0;1;30;40m████████▓▓[0;1;37;40m■[0;1;30;40m▓▓▓▓█▓▓█▓█[0;1;30;47m▀[0m██[1;30;47m░░░[0;1;37;47m∙[0m████[1m▀[0;1;30;47m▀[0;1;30;40m███████████[0m

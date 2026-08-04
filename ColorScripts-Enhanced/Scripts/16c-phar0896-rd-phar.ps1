@@ -1,18 +1,4 @@
-﻿# Converted from: RD!PHAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phar0896/raw/RD!PHAR.ANS
-# Source Revision: archive-sha256:6b5cc8d7252908bb34e044ed6dcfb42f8dbf6c65d3528deee6494d62c5743e7d
-# Source SHA-256: 480b0b0f54ca632134a40514f3b83081d3eb83b750cda8d4c437a1db4d5145b4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD!PHAR.ANS by RaBiD DoCToR (PHaR); released in phar0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: PHaR PRoMo
-# SAUCE Author: RaBiD DoCToR
-# SAUCE Group: PHaR
-# SAUCE Date: 19960727
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: PHaR PRoMo by RaBiD DoCToR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phar0896-rd-phar
 
 Write-Host '
 [31m ______________________________________________________________________________[0m

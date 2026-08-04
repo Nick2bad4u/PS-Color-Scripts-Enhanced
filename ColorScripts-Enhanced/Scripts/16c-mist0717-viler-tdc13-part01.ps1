@@ -1,16 +1,4 @@
-﻿# Converted from: VILER-TDC13.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0717/raw/VILER-TDC13.ANS
-# Source Revision: archive-sha256:ae00b08b8e9b12d2a2a76341edbdec27e66c75a3af215063e25357ff538c29df
-# Source SHA-256: 3df76f4bf68dc6a3a81f4bc96360a6686741cc05b62113c87bd44571e066f97b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VILER-TDC13.ANS by VileR (mist0717); released in mist0717 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: TDC #13
-# SAUCE Author: VileR
-# SAUCE Date: 20170213
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: TDC #13 by VileR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0717-viler-tdc13-part01
 
 Write-Host '
 [30;44m                                                                                [0m

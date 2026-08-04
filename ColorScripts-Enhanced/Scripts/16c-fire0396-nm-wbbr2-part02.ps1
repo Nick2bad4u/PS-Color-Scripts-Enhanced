@@ -1,18 +1,4 @@
-﻿# Converted from: NM-WBBR2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0396/raw/NM-WBBR2.ANS
-# Source Revision: archive-sha256:1c74698b6bb36c67ca170e4e3759a91f94a3423157bd644c80d820a8fe56fd8d
-# Source SHA-256: 46acc08cbf10beb7d3747283cf74e7a4c53c9beaaac153f9a86869a76651b372
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NM-WBBR2.ANS by Numb (fire); released in fire0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Black Rain
-# SAUCE Author: Numb
-# SAUCE Group: fire
-# SAUCE Date: 19960203
-# SAUCE Dimensions: 80x25
-# Lines: 36-60
-# Columns: 1-80
+﻿# Artwork: Black Rain by Numb | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0396-nm-wbbr2-part02
 
 Write-Host '
 [1;33m    [0m       [1;33mg    o    l    d    s    m    i    t    h    ''    s[0m

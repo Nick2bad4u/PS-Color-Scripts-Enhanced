@@ -1,19 +1,4 @@
-﻿# Converted from: MM-SOURCE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0524/raw/MM-SOURCE.ANS
-# Source Revision: archive-sha256:26af390c70c8fbd1a650cda6420771d9febb05e55fff2dce05253b3fc19147b7
-# Source SHA-256: 1afc767960ffe4d32302ec73fac8e7e4d47f902f29bd8f3fa899fe9316b49ed2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-SOURCE.ANS by Mavenmob (Mistigris); released in mist0524 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Source Code
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20240408
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Source Code by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0524-mm-source
 
 Write-Host '
                                                                                [30m┌[0m

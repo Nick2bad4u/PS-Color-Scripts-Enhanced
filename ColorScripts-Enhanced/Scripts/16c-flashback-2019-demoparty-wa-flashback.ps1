@@ -1,20 +1,4 @@
-﻿# Converted from: wa-flashback.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flashback-2019-demoparty/raw/wa-flashback.ans
-# Source Revision: archive-sha256:b738430cc4fe12cad7e057e3ab51a85dc09291bcdcb66f958a6a7bcc5184c5af
-# Source SHA-256: c8f663f93181c7f666c33d0b93287009f62055d94c9b34f341c37901439cb197
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-flashback.ans by warpus (fuel); released in flashback-2019-demoparty and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: flashback!!! bitches
-# SAUCE Author: warpus
-# SAUCE Group: fuel
-# SAUCE Date: 20190608
-# SAUCE Dimensions: 80x28
-# SAUCE Font: IBM VGA
-# SAUCE Comments: yeah!  flash bck to the flack ..   to the back
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: flashback!!! bitches by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flashback-2019-demoparty-wa-flashback
 
 Write-Host '
 [35;40m▄▄[0;37;40m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓████████████████[0;1;30;47m▄[0m▀▀▀▓[30m████[0;1;30m░░░░░▒▒▒▓▓▓▓██████[0;1;30;46m▓▓▓▓▓▓▓▓▓▓▓▓[0m

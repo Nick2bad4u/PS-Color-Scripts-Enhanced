@@ -1,18 +1,4 @@
-﻿# Converted from: FL-PYRO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m-9801/raw/FL-PYRO1.ANS
-# Source Revision: archive-sha256:68027b949f7edfef662f12aa514dfc21e6e156e3984f9866a81997534ce6ce87
-# Source SHA-256: 8297c98dfd856cb23e2b89085a01ff41068aed7d0219e539398c0cbfa569f159
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-PYRO1.ANS by flibbles (Mistigris); released in m-9801 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: pyro technica
-# SAUCE Author: flibbles
-# SAUCE Group: Mistigris
-# SAUCE Date: 19970728
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: pyro technica by flibbles | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m-9801-fl-pyro1
 
 Write-Host '
 [35m░[0;30;45m▓[0;1;35;45m░ ▄▄▄▄▄[0;35m██[0;1;35;45m░░[0;35m▄▄▄▄▄▄[0;37m [0;34m▀▀▀██[0;1;34;44m▀▀█[0;1;34;47m▄[0;1;34;44m▀█[0;1;34;47m▄ [0;1;37;47m▀█▀▀▓▓░[0;1;34;47m ▄[0;1;34;44m█▀[0;34m█[0;1;34;44m▀[0;34m███▀▀▀[0m     [34m▀[0m    [35m▄▄▄▄▄▄▄▄█[0;1;35;45m▄▄▄[0;35m█▄▄▄[0m

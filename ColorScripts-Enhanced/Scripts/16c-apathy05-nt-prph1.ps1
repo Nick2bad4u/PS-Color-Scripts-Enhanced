@@ -1,18 +1,4 @@
-﻿# Converted from: NT-PRPH1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy05/raw/NT-PRPH1.ANS
-# Source Revision: archive-sha256:2e1c7dd4c451a5d024352ee6b56eba52a2d5ba6a7d73a9cc34cff58fc603ca18
-# Source SHA-256: b65500e3154c867a2fded237f54fa10f9c68492966f078ce4c5dd0765bfb9d2d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NT-PRPH1.ANS by Nootropic (Apathy); released in apathy05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Prophecy Promo #1
-# SAUCE Author: Nootropic
-# SAUCE Group: Apathy
-# SAUCE Date: 19960104
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Prophecy Promo #1 by Nootropic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy05-nt-prph1
 
 Write-Host '
 [35m    [0;1;34m░[0;35m  [0;1;34m▒▀▀▀[0;1;34;47m▓[0;1;34;40m▌[0;34m░[0m                [34m░[0;30;44m▓[0m     [35;40m    [0;37;40m  [0;1;34;40m░▀▀▀[0;1;34;47m▓[0;1;34;40m▌[0m          [35m   [0m   [1;34m▒▀▀▀[0;1;34;47m▓[0;1;34;40m▌[0;34m [0;37m  [0;1;30mnewt[0m

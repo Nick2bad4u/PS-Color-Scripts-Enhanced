@@ -1,18 +1,4 @@
-﻿# Converted from: ODB-ADDY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shao0198/raw/ODB-ADDY.ANS
-# Source Revision: archive-sha256:9542aa7262687ca25cc0b436a8616861468c32d627d2d66ec27e377ccb8920b8
-# Source SHA-256: ddc5d082c9ade93582bf51aae5addaaf69604882074f5cfccefaeb66a8230cab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ODB-ADDY.ANS by Ol' Dirty Bastard (Shaolin's Finest); released in shao0198 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Shaolin's Finest Ad.
-# SAUCE Author: Ol' Dirty Bastard
-# SAUCE Group: Shaolin's Finest
-# SAUCE Date: 19980117
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Shaolin's Finest Ad. by Ol' Dirty Bastard | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shao0198-odb-addy
 
 Write-Host '
 [1;33;42m▄ [0;32m██████████[0;1;33;42m▄▄[0;32m█▄[0;36m▀██[0;1;36;46m░░▓▓█[0;1;37;40m██[0;1;36;46m██▓▓░░[0;36m█[0;36;47m▓▒░[0;37;40m██ [0;36;40m░[0;37;40m▐▀▐ [0;1;30;40m▀[0;1;30;41m▄[0;31m██[0;1;35;41m░▓████▓░[0;31m█[0;35;41m░[0;1;31;41m▓[0;1;31;40m▌[0;31m   ▐██[0;35;41m░[0;1;31;41m▓[0m [1;31;41m▀[0;1;31;40m▄▄▄[0m

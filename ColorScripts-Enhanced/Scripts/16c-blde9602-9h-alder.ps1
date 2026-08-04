@@ -1,18 +1,4 @@
-﻿# Converted from: 9H-ALDER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9602/raw/9H-ALDER.ANS
-# Source Revision: archive-sha256:5e4639f25c539923328bf5d3dcaf0345f7881a951b04cd174712ef6ec2433a3a
-# Source SHA-256: 59807700c739cd80b2b14fcacb76fe6a73275443ca325d8fd66d8284a23033a9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 9H-ALDER.ANS by pushead (blade); released in blde9602 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ?!alderaan!?
-# SAUCE Author: pushead
-# SAUCE Group: blade
-# SAUCE Date: 19960120
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ?!alderaan!? by pushead | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9602-9h-alder
 
 Write-Host '
   [1;30m--------:[0;32m [0;1;32;41m ▄▓▄ [0;32m [0;1;30m:--:[0;31m █[0;1;32;41m■▄ [0m [1;36mm[0;1;32mi[0;36mn[0;32mdcrimes[0;1;37malderaan[0m! [1;30m:----------------------------[0m

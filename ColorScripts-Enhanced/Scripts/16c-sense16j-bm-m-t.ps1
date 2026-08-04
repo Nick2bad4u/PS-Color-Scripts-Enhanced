@@ -1,13 +1,4 @@
-﻿# Converted from: BM_M-T.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense16j/raw/BM_M-T.ANS
-# Source Revision: archive-sha256:21e10a26e80e20f8e4295f136a75aae0f222471bb8bb339e4e731b31441ecc2b
-# Source SHA-256: 689a053ad628c9b0e5ed5aa1315b5c4dbc5cf2442f8c8b93205e3a6d0504d72f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BM_M-T.ANS by Aesthetic + Avenging Angel + Maytag (sense16j); released in sense16j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: BM_M-T.ANS by Aesthetic + Avenging Angel + Maytag | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense16j-bm-m-t
 
 Write-Host '
 [36m             [0;1;36m   [0;1;32m      [0;32m  [0m                                            [36m [0;1;30;46m██▀░[0m

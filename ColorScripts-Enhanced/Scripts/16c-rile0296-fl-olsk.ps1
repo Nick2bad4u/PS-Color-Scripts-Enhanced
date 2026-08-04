@@ -1,18 +1,4 @@
-﻿# Converted from: FL-OLSK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile0296/raw/FL-OLSK.ANS
-# Source Revision: archive-sha256:e0799bed4025fcb07c582e52908fc52eee56a172381968e99c9dbe61586559df
-# Source SHA-256: cfa26767d1cb9503cabda6b8585db8bdb7baf1bd0f9baf244b461c284d822c8e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-OLSK.ANS by flame (rile); released in rile0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: tHA nEW sKOOL!  smmooove.
-# SAUCE Author: flame
-# SAUCE Group: rile
-# SAUCE Date: 19960125
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: tHA nEW sKOOL! smmooove. by flame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile0296-fl-olsk
 
 Write-Host '
                    [36m▄▐██▄▄▄▄[0m

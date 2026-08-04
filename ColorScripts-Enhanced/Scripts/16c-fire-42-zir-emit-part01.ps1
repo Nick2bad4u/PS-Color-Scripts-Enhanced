@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-EMIT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-42/raw/ZIR-EMIT.ANS
-# Source Revision: archive-sha256:5477badab90aaaa6ee2d08aa380254b6982d860b5d0de201e348668cb1eaa063
-# Source SHA-256: 9088fd2284a6c7ff9a3341be9094d80d7e6ba8256d7d7c6d821c971ae57f7481
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-EMIT.ANS by zir (FiRE); released in fire-42 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: emitter
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20250303
-# SAUCE Dimensions: 80x59
-# SAUCE Font: IBM VGA
-# SAUCE Comments: turning and returning.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: emitter by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-42-zir-emit-part01
 
 Write-Host '
 [37;40m  [0;31;40m▐[0;1;31;41m■[0;31m▌[0;37m                                 [0;1;30m░░[0m [1;30m░▀ ▓▓[0m [1;30m▒[0m [1;30m▓▓▓░░▓▓▓▓▓▓░[0m [1;30m░░░[0m [34m░[0;37m [0;34m░░░░░░[0;37m [0;34m░░░[0m

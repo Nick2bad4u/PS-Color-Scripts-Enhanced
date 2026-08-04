@@ -1,18 +1,4 @@
-﻿# Converted from: FV-SOQ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile_001/raw/FV-SOQ.ANS
-# Source Revision: archive-sha256:f7a8644489c1d011b91477b5b1eab40d9f39b077b89f158a7a0c3d1c032c6d81
-# Source SHA-256: 02cca7b691c1d377f72e302e532b8c25ffcad524df380375405529430a943f24
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-SOQ.ANS by fe v  e   r (rile); released in rile_001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: life on europa?
-# SAUCE Author: fe v  e   r
-# SAUCE Group: rile
-# SAUCE Date: 19970213
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: life on europa? by fe v e r | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile-001-fv-soq
 
 Write-Host '
                                [30;47m█[0;30;41m▀▌   ▄ ▀▀              [0;33;41m░░▄▄▀[0;1;33;43m   [0;1;30;43m▀▓▀[0;1;30;47m▓[0;1;30;43m▀▀░[0;33m██[0;30;41m▐[0;33;41m▐█[0;30;41m   ▀ [0m

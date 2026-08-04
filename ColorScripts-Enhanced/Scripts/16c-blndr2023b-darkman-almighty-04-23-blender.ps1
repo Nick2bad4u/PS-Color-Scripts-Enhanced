@@ -1,20 +1,4 @@
-﻿# Converted from: DARKMAN_ALMIGHTY-04-23_BLENDER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2023b/raw/DARKMAN_ALMIGHTY-04-23_BLENDER.ANS
-# Source Revision: archive-sha256:d1013da0ea56e008d06d0a1e802ccadb885bc075764abe4bf35ae7001c1b7159
-# Source SHA-256: f49633e202b088551141c587fe75b7fc6569a4646583c1f3db2f5429840202a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DARKMAN_ALMIGHTY-04-23_BLENDER.ANS by Darkman Almighty (Mistigris); released in blndr2023b and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Mandalorian Graffiti
-# SAUCE Author: Darkman Almighty
-# SAUCE Group: Mistigris
-# SAUCE Date: 20230423
-# SAUCE Dimensions: 80x28
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Blender April 2023 -  THE MANDALORIAN, PAINTING GRAFFITI, IN THE | HOOD.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Mandalorian Graffiti by Darkman Almighty | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2023b-darkman-almighty-04-23-blender
 
 Write-Host '
 [31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

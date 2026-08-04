@@ -1,18 +1,4 @@
-﻿# Converted from: XO-SPY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mskp-02/raw/XO-SPY.ANS
-# Source Revision: archive-sha256:e2f26965ff1d6a3c768a3ba596182d63a257dc7f930f0715cef724467107c48d
-# Source SHA-256: d56847798b34b1a3e9ca96dec474d779419dc85c4ca5af62f022482341e01d5a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XO-SPY.ANS by Xose (MASAKRE PRODUCTiONS); released in mskp-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Spy!
-# SAUCE Author: Xose
-# SAUCE Group: MASAKRE PRODUCTiONS
-# SAUCE Date: 19960305
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Spy! by Xose | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mskp-02-xo-spy
 
 Write-Host '
                             [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

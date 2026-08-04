@@ -1,18 +1,4 @@
-﻿# Converted from: PU-WHQ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf_1296/raw/PU-WHQ.ANS
-# Source Revision: archive-sha256:902ffb47b5338e6dcb178867d2ae1bc19c0a38faa788ba01e9fb9532c108eebc
-# Source SHA-256: b08ca31845fdd81cc9c1f72b65710070b694d08dc71fd50d2acca7600023402a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PU-WHQ.ANS by puppiluppan (poffelipoff); released in plf_1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: poffelipoff whq
-# SAUCE Author: puppiluppan
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19961217
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: poffelipoff whq by puppiluppan | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1296-pu-whq
 
 Write-Host '
                                             [1;33m▒[0m

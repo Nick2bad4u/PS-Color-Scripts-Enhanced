@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-21BM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0996/raw/ZII-21BM.ANS
-# Source Revision: archive-sha256:9d2c16f2326b1b98168bc790edb6aadb0d52c5f6484964980e3ad8168b0cc77f
-# Source SHA-256: 6928a0b68f9b8d166cea36602b32da9c7f4b62a8ad0fe02c260f3337fdb3f11f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-21BM.ANS by Zeus II (Opium); released in opx-0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Bulletin menu for ITC 2.1
-# SAUCE Author: Zeus II
-# SAUCE Group: Opium
-# SAUCE Date: 19960820
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Bulletin menu for ITC 2.1 by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0996-zii-21bm
 
 Write-Host '
         [1;34;47m░[0;1;37;47m▄[0m▄▄[35m  [0;37m▄[0;1;37m▄[0;35m [0;37m▄[0;1;37m▄[0;35m [0;1;34;47m▒[0;1;37;47m▄[0;35m [0;37m█[0;1;37;47m█[0;35m  [0;37m▄▄▄[0;1;37m▄[0;35m ▄▄█[0;1;35;45m▄▄▄▓▄▄■▄▄▄▄▄▄[0;35m█▄▄[0;37m [0m

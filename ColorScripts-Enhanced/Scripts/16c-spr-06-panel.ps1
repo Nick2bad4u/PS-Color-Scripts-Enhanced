@@ -1,13 +1,4 @@
-﻿# Converted from: PANEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spr_06/raw/PANEL.ANS
-# Source Revision: archive-sha256:011b45019769fff7acdc69361784d20e61270e8922d782c0c08cbc7efb1e1aaf
-# Source SHA-256: cfc4edfeb8896cc9f0d9002725e2d5dd62a0bc2ead9112523b54ef95bf2f0df3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PANEL.ANS by Mist (spr_06); released in spr_06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: PANEL.ANS by Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spr-06-panel
 
 Write-Host '
 [31m░░░░[0;37m [0;1;37m [0m      [1m [0m                [1;36m [0m       [1;36m [0m    [31m▄▄▄▄▄[0;37m [0;31m▄▄▄▄▄[0;37m [0;31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

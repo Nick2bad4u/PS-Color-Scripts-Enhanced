@@ -1,17 +1,4 @@
-﻿# Converted from: US-CIA!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-666/raw/US-CIA!.ANS
-# Source Revision: archive-sha256:d11115b3587e62c1c707f1a564cfc3a42ffe40bb5da491c5f6813d8a56931618
-# Source SHA-256: 67a29c8fd52a67289fe03fecf9db20fd1ddcae65699ffb457aa6923a02b9478e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CIA!.ANS by Ansichrist + Tefron (The Used Coalition); released in used-666 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Cia
-# SAUCE Author: Multiple Artists
-# SAUCE Group: The Used Coalition
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Cia by Ansichrist + Tefron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-666-us-cia
 
 Write-Host '
                                                   [1;36m■[0m

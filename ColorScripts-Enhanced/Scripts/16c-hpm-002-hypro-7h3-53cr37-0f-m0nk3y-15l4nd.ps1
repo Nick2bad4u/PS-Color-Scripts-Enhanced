@@ -1,19 +1,4 @@
-﻿# Converted from: Hypro-7h3_53cr37_0f_m0nk3y_15l4nd.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hpm-002/raw/Hypro-7h3_53cr37_0f_m0nk3y_15l4nd.ans
-# Source Revision: archive-sha256:ac1c5734e02a8b9f6dc786a430b6a4555daba27767e3a09c6335e008cfa324e4
-# Source SHA-256: fead288f5b9fbe63d201d33e7e31633bff575a618e75797f56db3ca6be5316ff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Hypro-7h3_53cr37_0f_m0nk3y_15l4nd.ans by Hypr0 (HPM); released in hpm-002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Found in the jungle
-# SAUCE Author: Hypr0
-# SAUCE Group: HPM
-# SAUCE Date: 20220702
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Found in the jungle by Hypr0 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hpm-002-hypro-7h3-53cr37-0f-m0nk3y-15l4nd
 
 Write-Host '
 [1;34;43m░░░▒▒▓▓███▓▓▓▓[0;1;32;40m▀████▒░[0;1;30;40m00[0;32m░▒██[0;1;30m0000[0;36m██▓▒[0;1;30m000000[0;1;32m▄████[0;1;30m0100000000000000000000000000000000[0m

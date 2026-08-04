@@ -1,18 +1,4 @@
-﻿# Converted from: CA-ATTAK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k0tpr0be/raw/CA-ATTAK.ANS
-# Source Revision: archive-sha256:fcb0e37abcb9d171de6d5cc918649afa7e9c0f2f5173dba90a7d8c38f69cec3d
-# Source SHA-256: 2d4902f8bc46a853ac0cdeae302a4a3db9f8d9bb90857c7599adb1466a206da5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CA-ATTAK.ANS by caynan (fbk); released in k0tpr0be and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: massive attack!
-# SAUCE Author: caynan
-# SAUCE Group: fbk
-# SAUCE Date: 19960612
-# SAUCE Dimensions: 80x25
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: massive attack! by caynan | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k0tpr0be-ca-attak
 
 Write-Host '
 [1;30m░ [0m■▄▄▄██▄▄█▄[1;30;47m▓[0;1;30;40m░[0m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄██████[32;47m░[0;37;40m███████████▄▄▄▄▄▄▄[0;1;30;47m░[0m▄▄▄■▄▄▄▄▄▄▄▄▄▄▄▄▄▄[1;30;47m▓[0m▄▄▄▄

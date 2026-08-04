@@ -1,18 +1,4 @@
-﻿# Converted from: FI-MD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0794/raw/FI-MD.ANS
-# Source Revision: archive-sha256:53cd35a6f327a0c8a649f0c556ca1e17aa60e6c4040eff696f9e35efc72f4414
-# Source SHA-256: ff45ecafebec0a7a4316856fcbf5d7cb5fefbd334e8f576a0becefd5b36cbb9b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FI-MD.ANS by Forbidden Image (ACiD Productions); released in acdu0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Moral Decay
-# SAUCE Author: Forbidden Image
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940701
-# SAUCE Dimensions: 80x144
-# Lines: 46-95
-# Columns: 1-80
+﻿# Artwork: Moral Decay by Forbidden Image | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0794-fi-md-part02
 
 Write-Host '
               [32m▄ ▄▄██▄▄   [0;31m▄▄▄█▀▄▄    [0;32m█   ▀▀▄▄▄▀▀▄[0;1;30;42m░░[0;32m▀░░▒▒▒▒▒[0;42m▒[0;32m▀[0m          [36m▓[0m

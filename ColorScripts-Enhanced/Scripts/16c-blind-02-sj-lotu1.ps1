@@ -1,17 +1,4 @@
-﻿# Converted from: SJ-LOTU1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blind-02/raw/SJ-LOTU1.ANS
-# Source Revision: archive-sha256:c5e79989307dbf090a38f911b35eef6e687ee7fb3d0611abf6934cc9737046e9
-# Source SHA-256: c5195eb0e7acb55e61a0f52107a98732f5104384d13c8866b9a869c1c16bb8c5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SJ-LOTU1.ANS by tHE sAD jESTER (BliND STUdiosh); released in blind-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: tHE sAD jESTER
-# SAUCE Group: BliND STUdiosh
-# SAUCE Date: 19960106
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: SJ-LOTU1.ANS by tHE sAD jESTER | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blind-02-sj-lotu1
 
 Write-Host '
 

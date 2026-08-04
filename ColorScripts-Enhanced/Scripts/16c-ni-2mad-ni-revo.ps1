@@ -1,18 +1,4 @@
-﻿# Converted from: !NI-REVO!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ni-2mad/raw/!NI-REVO!.ANS
-# Source Revision: archive-sha256:e0727c97b825fe3767aa49eeea730bcd74e42975ab3f211722940d8993aa464e
-# Source SHA-256: 800b056d5776ecd0362993dcb63d42c08cf5f6f05c4a16b3fbeb0a85d6c3d2ec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: !NI-REVO!.ANS by nitron (ni-2mad); released in ni-2mad and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: R3V0L7
-# SAUCE Author: nitron
-# SAUCE Date: 20230116
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: R3V0L7 by nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ni-2mad-ni-revo
 
 Write-Host '
            [38;2;0;177;210m;[0;37m      [0;38;2;0;177;210m.[0;37m            [0;38;2;0;177;210m`,V§§§§§§§§§§§§§nd[0;37m                               [0m

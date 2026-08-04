@@ -1,18 +1,4 @@
-﻿# Converted from: 22-COL8.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-15/raw/22-COL8.ANS
-# Source Revision: archive-sha256:27d6625e69a5207f7e1ecdf7cdf18b62e352300eb88e02c3e1b0355793535d53
-# Source SHA-256: a847b8cfa446346ddfa1dee596e7674e74074be724e2c47ab874146deecab8c2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 22-COL8.ANS by catch22 (glue); released in glue-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: colly numero 8
-# SAUCE Author: catch22
-# SAUCE Group: glue
-# SAUCE Date: 19981017
-# SAUCE Dimensions: 80x48
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: colly numero 8 by catch22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-15-22-col8
 
 Write-Host '
 [1;30m[0m[1;30m[0m

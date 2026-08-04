@@ -1,18 +1,4 @@
-﻿# Converted from: MC!MANTS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-06/raw/MC!MANTS.ANS
-# Source Revision: archive-sha256:4c9f598b864a923147eb394591cb120a43a087e70e3844ab4ff73e06903fa178
-# Source SHA-256: fddedf322d36d3378e843fa63a76dcb83982804e3918182420228cf78deb46c1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MC!MANTS.ANS by Mad "Shaolin" cap (D38); released in d38-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Study the Mantis, oh ph345rless
-# SAUCE Author: Mad "Shaolin" cap
-# SAUCE Group: D38
-# SAUCE Date: 43250507
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Study the Mantis, oh ph345rless by Mad "Shaolin" cap | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-06-mc-mants
 
 Write-Host '
 [1;32m▌▐▌ [0;32m [0;1;32m▀▄ [0;1;30m   [0;1;32m▌[0;32m [0;1;32m▐  [0;1;32;42m▐[0;1;33;40m [0;1;32;42m▒[0;1;32;40m▌[0;32m▌[0m                                [1;35m                 [0m

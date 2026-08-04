@@ -1,18 +1,4 @@
-﻿# Converted from: SH-ESNC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shv-1194/raw/SH-ESNC1.ANS
-# Source Revision: archive-sha256:d3a40a3191a913cb36b897ad49063e6c40e8244915255128cbb96005c37748a9
-# Source SHA-256: f2c29aa04dde49eea3c8d0c5a7a37c463eb12a6b27ff2592ebb8ee93ce8c6ffc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SH-ESNC1.ANS by Shatter Shot (Shiver); released in shv-1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Essence
-# SAUCE Author: Shatter Shot
-# SAUCE Group: Shiver
-# SAUCE Date: 19941030
-# SAUCE Dimensions: 80x100
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Essence by Shatter Shot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shv-1194-sh-esnc1-part01
 
 Write-Host '
 [1;30;44m█████▀▀██▄█▀▀█▄▄▄▄▀▀▀▀▄  ▀ ▄▄ ▀▀                   ▄ ▀ ▄▄▄ ▄▀▀▀ ▀▄▄██▄█▀██▄▀ ██[0m

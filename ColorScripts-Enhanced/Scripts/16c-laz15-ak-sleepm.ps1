@@ -1,19 +1,4 @@
-﻿# Converted from: ak-sleepm.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz15/raw/ak-sleepm.ans
-# Source Revision: archive-sha256:d35f5b18ac3e8cbe3d6d17eab809a7e050609a8e3cc7d160d14a87c59a191c12
-# Source SHA-256: ca996d97292037fc625d6009ab6124021edc614643a1bddd8cc5269eb96ea655
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ak-sleepm.ans by abstrakt (lazarus); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: sleep
-# SAUCE Author: abstrakt
-# SAUCE Group: lazarus
-# SAUCE Date: 20220609
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: sleep by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz15-ak-sleepm
 
 Write-Host '
 [1;30m$$P`[0;1;31m:$[0;31m$7 [0;1;31m.d$$b[0m [31m$$[0;35m .⌐W$$7[0;31md$$[0;1;31m$└Qjj[0;31m$$b.[0;1;31m4$$$b[0;31mYb [0;35m`4Y[0;31mb.[0;37m  [0;1;30m:$$$[0m$$$$$$$$[1;30m$[0m$[1;30m$$[0m$$$[1;30m$$$$$: $$$[0m

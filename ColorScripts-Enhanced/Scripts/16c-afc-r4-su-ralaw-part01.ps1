@@ -1,13 +1,4 @@
-﻿# Converted from: SU-RALAW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r4/raw/SU-RALAW.ANS
-# Source Revision: raw-sha256:831462bf5d4bc3106dd34e0efe6c0243b261ec7265cdf0aeda81bbe3860ad600
-# Source SHA-256: 831462bf5d4bc3106dd34e0efe6c0243b261ec7265cdf0aeda81bbe3860ad600
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SU-RALAW.ANS by Suhu (afc-r4); released in afc-r4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: SU-RALAW.ANS by Suhu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r4-su-ralaw-part01
 
 Write-Host '
 [34m████████████████████████████████████████████████████████████████████████████████[0m

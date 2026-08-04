@@ -1,18 +1,4 @@
-﻿# Converted from: US-3SE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spin04/raw/US-3SE.ANS
-# Source Revision: archive-sha256:d8d0b243395a454162bf4e70cc5ed89a7700344e3544729263edb9daedb33d8c
-# Source SHA-256: 0f59a1d93111e28ed3507b40ed3e3f791817d0ba9f4b261e31244a2bb0d4de4e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-3SE.ANS by Emok + Absent Spinsister (spin/remorse); released in spin04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: emok/a_spnsis
-# SAUCE Author: multiple artist's
-# SAUCE Group: spin/remorse
-# SAUCE Date: 19981120
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: emok/a_spnsis by Emok + Absent Spinsister | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spin04-us-3se
 
 Write-Host '
 [33m[0;1;31m[0;33m[0;37m[0;33m[0m[36m[0m[33m[0;1;31m[0;33m[0m[33m[0;1;31m[0m[36m[0m[33m[0;1;31m[0m[36m[0m                                                    [33m$[0;1;31m:[0m

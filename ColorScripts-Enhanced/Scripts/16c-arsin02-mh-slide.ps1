@@ -1,13 +1,4 @@
-﻿# Converted from: MH!SLIDE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/arsin02/raw/MH!SLIDE.ANS
-# Source Revision: archive-sha256:8b3ca93f9d07119d47150f846bba6e8cd466371f5d81106c3318f874455ab21e
-# Source SHA-256: d773f615a144c3e6bc1b36a9aca259c28727b9eec1b2d402570bb7d4548ea377
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MH!SLIDE.ANS by Maddog Hoek (arsin02); released in arsin02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: MH!SLIDE.ANS by Maddog Hoek | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-arsin02-mh-slide
 
 Write-Host '
 

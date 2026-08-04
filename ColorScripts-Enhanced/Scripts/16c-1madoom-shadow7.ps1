@@ -1,19 +1,4 @@
-﻿# Converted from: SHADOW7.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1madoom/raw/SHADOW7.ANS
-# Source Revision: raw-sha256:c6d4e9fc1d11febe8b326bf196d96c17c5a7dad9dc46767f6399ba6cb69b23a8
-# Source SHA-256: c6d4e9fc1d11febe8b326bf196d96c17c5a7dad9dc46767f6399ba6cb69b23a8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SHADOW7.ANS by Doomsday (ShadowByte); released in 1madoom and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ringl Rangl wos fia Handl?
-# SAUCE Author: Doomsday
-# SAUCE Group: ShadowByte
-# SAUCE Date: 19960125
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: JOJOJOJOJJO
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: Ringl Rangl wos fia Handl? by Doomsday | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1madoom-shadow7
 
 Write-Host '
 [34m░▒▓▀▀[0;1;37;47m░  [0;1;30;47m░░▒[0m                                                       [34m░▒▓▀▀[0;1;37;47m░░░[0;1;30;47m░░▒[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: PE!MOV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-12/raw/PE!MOV.ANS
-# Source Revision: archive-sha256:5c96c14e912296494a464a42e768321452d811693cf172945a9502eb4396c8bb
-# Source SHA-256: 7efe485ec026f668f53f602e240b92b7a5594f02222ce5edbf34250e4c20b896
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PE!MOV.ANS by Phony Eye (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Movement
-# SAUCE Author: Phony Eye
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Movement by Phony Eye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-12-pe-mov
 
 Write-Host '
                                     [34m [0m

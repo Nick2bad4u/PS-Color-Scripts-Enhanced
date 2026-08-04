@@ -1,18 +1,4 @@
-﻿# Converted from: MR-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9701/raw/MR-FIRE.ANS
-# Source Revision: archive-sha256:45d6a082bca05ad193b510335e91b0bec312e4835ff5735e0eb40fe62d0e1180
-# Source SHA-256: bcee4ab6eada2710c55a2de94f61da47ef9bd0ade05f49d501325bc78c4b7325
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-FIRE.ANS by .,s$(minotaur)$s,. (MAiDEN BRAZiL!); released in mdn-9701 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fire logo...
-# SAUCE Author: .,s$(minotaur)$s,.
-# SAUCE Group: MAiDEN BRAZiL!
-# SAUCE Date: 19961219
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: fire logo... by .,s$(minotaur)$s,. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9701-mr-fire
 
 Write-Host '
                                 [1;33m ▀[0m            [1;33m▀[0m

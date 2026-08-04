@@ -1,18 +1,4 @@
-﻿# Converted from: BP-PLAN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0396/raw/BP-PLAN1.ANS
-# Source Revision: archive-sha256:1c74698b6bb36c67ca170e4e3759a91f94a3423157bd644c80d820a8fe56fd8d
-# Source SHA-256: 236d3b89a37b9a6027d0640078eeae564faf88ec77c7c7a583f90ac9f80654d5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BP-PLAN1.ANS by Bigge Pif (fire); released in fire0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Planet Soul
-# SAUCE Author: Bigge Pif
-# SAUCE Group: fire
-# SAUCE Date: 19960102
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Planet Soul by Bigge Pif | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0396-bp-plan1
 
 Write-Host '
                             ` [1mp l a n e t  s o u l [0m''

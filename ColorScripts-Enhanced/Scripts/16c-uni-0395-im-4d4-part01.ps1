@@ -1,13 +1,4 @@
-﻿# Converted from: IM-4D4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0395/raw/IM-4D4.ANS
-# Source Revision: archive-sha256:fa162651f9482427c00511e180638b307ba23babafbe50fc91872af91a55356c
-# Source SHA-256: 0da22c1f864af928606733d515a486797f5502b9ce0642dd653e2c397de4ebf9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IM-4D4.ANS by Imodium + Number 28 (uni-0395); released in uni-0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: IM-4D4.ANS by Imodium + Number 28 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0395-im-4d4-part01
 
 Write-Host '
                                                                               [30m▀[0m

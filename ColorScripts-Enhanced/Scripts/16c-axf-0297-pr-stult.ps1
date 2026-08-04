@@ -1,18 +1,4 @@
-﻿# Converted from: PR-STULT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-0297/raw/PR-STULT.ANS
-# Source Revision: archive-sha256:60e502c9a1ba0703538ea6854865054cb1103c69d11b9a8571db69144d294d40
-# Source SHA-256: 771cc52f70b183dec305f07b2bd81fb6bdefaea52f35cc3e0ebbeef437af4405
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR-STULT.ANS by Primal Rage (Axf/Xeed); released in axf-0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Stultify
-# SAUCE Author: Primal Rage
-# SAUCE Group: Axf/Xeed
-# SAUCE Date: 19961226
-# SAUCE Dimensions: 80x46
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Stultify by Primal Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-0297-pr-stult
 
 Write-Host '
 [1;30m▄▓▄   [0m                                                                       [1;30m▄▓▄[0m

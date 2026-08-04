@@ -1,13 +1,4 @@
-﻿# Converted from: RULEZ.ANS
-# Source encoding: CP437
-# Source URL: https://www.roysac.com/images/galleries/ZIP/Roy_EarlyANSI.ZIP
-# Source Revision: archive-sha256:cad71f6167590b04f85d75a819d6aded9a2f6729c741e43ea1101a43159886c1
-# Source SHA-256: 1ae319093df3b3399724c40f0fee273ade8ffa29544c4d2b1e4feb120b20aabf
-# Source License: FAL-1.3
-# Source Attribution: RULEZ.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_EarlyANSI.ZIP archive.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: RULEZ.ANS by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-rulez
 
 Write-Host '
                               [1;30m▄   ▄[0m

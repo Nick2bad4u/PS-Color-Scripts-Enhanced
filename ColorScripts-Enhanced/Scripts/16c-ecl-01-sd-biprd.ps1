@@ -1,18 +1,4 @@
-﻿# Converted from: SD-BIPRD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-01/raw/SD-BIPRD.ANS
-# Source Revision: archive-sha256:98f7ca14920172db6145e44afa4b8ac94de6e46d94b8cf326e89a96c3e7e5c1b
-# Source SHA-256: 4138edc51b17d7f44112512f926f040a0a83348e8dc829ad9744c1ce6b5c2f12
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-BIPRD.ANS by sir dee (eclipse); released in ecl-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: buy products
-# SAUCE Author: sir dee
-# SAUCE Group: eclipse
-# SAUCE Date: 19960607
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: buy products by sir dee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-01-sd-biprd
 
 Write-Host '
       [33m▄[0;1;33;43m▓▓▓[0;1;33;40m▄ [0m            [1;33m  [0;33m▀[0;1;33m▀▀[0;1;37m▀▀[0m

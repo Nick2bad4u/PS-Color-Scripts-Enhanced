@@ -1,18 +1,4 @@
-﻿# Converted from: ST-TC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_07/raw/ST-TC.ANS
-# Source Revision: archive-sha256:fdb99f4e825fce5f0239182b89b35e7a65dfd1f629b419cb099f04589247c9f8
-# Source SHA-256: 378e9891f50648511491a435c45a2fd20de96dac50a7ff10ff0b49ed8bc274af
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-TC.ANS by soul trader (dox); released in dox_07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the core!...
-# SAUCE Author: soul trader
-# SAUCE Group: dox
-# SAUCE Date: 19970322
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: the core!... by soul trader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-07-st-tc
 
 Write-Host '
 [31m[0m

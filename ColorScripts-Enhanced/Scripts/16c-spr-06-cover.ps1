@@ -1,13 +1,4 @@
-﻿# Converted from: _COVER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spr_06/raw/_COVER.ANS
-# Source Revision: archive-sha256:011b45019769fff7acdc69361784d20e61270e8922d782c0c08cbc7efb1e1aaf
-# Source SHA-256: 053fd85cfaffc20321fbbecdac36c4bbed9607d9f7f5de75844dad7f891b1a04
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _COVER.ANS by Mist (spr_06); released in spr_06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: _COVER.ANS by Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spr-06-cover
 
 Write-Host '
 [1;30;47m▄[0m  [1;31m         [0m   [1;30;47m▄[0m [1;36m [0m    [1;36m [0m   [1;36m [0m       [1;36m [0m    [1;36m [0m      [1;36m [0m        [1;36m■▀ [0m■▀[1;30m ■▀[0m [1;30m ░[0m    [33m▀▀▀▀[0;37m [0;33m [0m

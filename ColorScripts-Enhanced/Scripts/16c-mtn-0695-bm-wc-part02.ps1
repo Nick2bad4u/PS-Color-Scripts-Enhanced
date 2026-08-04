@@ -1,18 +1,4 @@
-﻿# Converted from: BM!WC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mtn-0695/raw/BM!WC.ANS
-# Source Revision: archive-sha256:01dd59399f2e8a58353f1b1f371c45734c706b251afcfee6e2cfe8849635b194
-# Source SHA-256: 7c77527450015ab85cbebe944eeb29b04874b9887b9b32a9cda55f71c6e90cb0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BM!WC.ANS by blIndman (READ THE INI FILE); released in mtn-0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Wicked City
-# SAUCE Author: blIndman
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950514
-# SAUCE Dimensions: 80x25
-# Lines: 47-96
-# Columns: 1-80
+﻿# Artwork: Wicked City by blIndman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mtn-0695-bm-wc-part02
 
 Write-Host '
 [37;40m  [0;37;43m░░  [0;33;40m▀▄[0;33;43m [0;37;43m░   [0;30;43m░     ░░[0;37;43m░ [0;30;43m░░       ░░▓[0m   [33;40m▄[0;30;43m░▒▒▒░░ ░▒░ [0;37;43m░▒░  [0;30;43m░▒▓[0;33;40m▄[0;37;40m▀[0;37;43m▓▓▒▒░    [0;30;43m░░▒▒[0;33;40m▄▄▀▀▀[0;37;43m░░[0m

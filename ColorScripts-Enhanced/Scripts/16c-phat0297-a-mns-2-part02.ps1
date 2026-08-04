@@ -1,18 +1,4 @@
-﻿# Converted from: (A)MNS#2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0297/raw/(A)MNS%232.ANS
-# Source Revision: archive-sha256:2e15cb2f2712a143323c9f3c6ecca94c5b5b12a452a019e911d205dd685c6eee
-# Source SHA-256: da475342ee14d24703c3b7063ba6ee3ce21452e7814740d3c071bd64cec74eeb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: (A)MNS#2.ANS by al3cs (PHAT STUDIOS '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: menu cluster 2^97
-# SAUCE Author: al3cs
-# SAUCE Group: PHAT STUDIOS '97
-# SAUCE Date: 19970130
-# SAUCE Dimensions: 80x63
-# Lines: 18-63
-# Columns: 1-80
+﻿# Artwork: menu cluster 2^97 by al3cs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0297-a-mns-2-part02
 
 Write-Host '
 [1;34m████▄█[0;1;34;44m▓[0;1;34;40m██████████████████▀█████████[0;1;34;44m▓[0m                             [34m▄▄[0;1;34m▄▄[0;34m [0;37m [0;34m▀[0;1;34;44m▀▀▓[0;1;34;40m███▀[0m

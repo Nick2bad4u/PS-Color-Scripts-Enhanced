@@ -1,18 +1,4 @@
-﻿# Converted from: TSK-ND1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0402/raw/TSK-ND1.ANS
-# Source Revision: archive-sha256:19898cc2febb6deadccf50832dc421b4f362a33c899e27278bafd225bbc2d4d4
-# Source SHA-256: fbb5f595ef329d111da112c6da51aa4db90810b4103c3d68c534081fb1d9991b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-ND1.ANS by The Silent Killer (Revival); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Nomad's Domain
-# SAUCE Author: The Silent Killer
-# SAUCE Group: Revival
-# SAUCE Date: 20020415
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Nomad's Domain by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0402-tsk-nd1
 
 Write-Host '
 

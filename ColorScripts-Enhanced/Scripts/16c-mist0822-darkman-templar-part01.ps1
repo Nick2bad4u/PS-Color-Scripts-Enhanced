@@ -1,20 +1,4 @@
-﻿# Converted from: DARKMAN-TEMPLAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0822/raw/DARKMAN-TEMPLAR.ANS
-# Source Revision: archive-sha256:ed72a43421208b7431337d20b0e65cf1daa85d400f3cf90754e23de5d5edd83f
-# Source SHA-256: 01012e006b9a7a07729bedb3c0849000358e624926eac5f3f7b12ef5bf3a7b7b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DARKMAN-TEMPLAR.ANS by Darkman Almighty (USS Excelsior BBS); released in mist0822 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Knight Templar
-# SAUCE Author: Darkman Almighty
-# SAUCE Group: USS Excelsior BBS
-# SAUCE Date: 20220725
-# SAUCE Dimensions: 80x67
-# SAUCE Font: IBM VGA
-# SAUCE Comments: The OG, Crusader and protector.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Knight Templar by Darkman Almighty | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0822-darkman-templar-part01
 
 Write-Host '
 [1;47m▒▓█▓█[0;34m▓▓████▓▓[0;1;37;47m▒▓░▓███▓▒[0;34m▓[0;1;37;47m▓▓░▒░[0;34m▓███▓[0;1;37;47m█▒▒▒▒▓█[0;34m▓▓▓█████████████████▓▌[0;1;37;47m▒▓▒▓▓██▒▓█▒░▒░[0;34m▓▐[0;1;37;47m█▓[0m

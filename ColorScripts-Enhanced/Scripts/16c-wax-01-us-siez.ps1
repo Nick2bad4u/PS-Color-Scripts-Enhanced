@@ -1,13 +1,4 @@
-﻿# Converted from: US-SIEZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wax-01/raw/US-SIEZ.ANS
-# Source Revision: archive-sha256:758ca54117dc909c4a3054dd40bbe31acb9fc5d53207f90efc16f95d8918dfdb
-# Source SHA-256: da5990277bde44b485dcd09341ff47beb2dea44750b522178dde18bde0dc1868
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SIEZ.ANS by Drax + Kresile (wax-01); released in wax-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: US-SIEZ.ANS by Drax + Kresile | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wax-01-us-siez
 
 Write-Host '
 [35m[0;37m[0;1;37m[0m[1m[0m[1m[0m[35m     [0;37m [0;1;37m [0m      [1m [0m       [1;35m          ┌┌┐┐   [0m

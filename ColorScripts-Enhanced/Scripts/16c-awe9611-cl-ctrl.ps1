@@ -1,18 +1,4 @@
-﻿# Converted from: CL-CTRL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9611/raw/CL-CTRL.ANS
-# Source Revision: archive-sha256:2b73e149488dc761d99422832825743596588d59e58f9bfecfb5d0e9dbffd274
-# Source SHA-256: 772f3d86d08ac99a1c159c2b72116b0948b1e50e9851afe9cb8c779339d25694
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL-CTRL.ANS by Colourless (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: No Control
-# SAUCE Author: Colourless
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961028
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: No Control by Colourless | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9611-cl-ctrl
 
 Write-Host '
 

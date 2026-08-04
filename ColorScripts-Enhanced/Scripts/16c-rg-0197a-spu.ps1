@@ -1,13 +1,4 @@
-﻿# Converted from: SPU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rg-0197a/raw/SPU.ANS
-# Source Revision: archive-sha256:4bc27325d13f712edf2110cd11717d490f6bde1cd8827262e7c1b1224b0317e9
-# Source SHA-256: fb38baf7910964773ca8ca0325104e3d15580eb9f0cd17423b64f12eef8fe304
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPU.ANS by Trasher1 (rg-0197a); released in rg-0197a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: SPU.ANS by Trasher1 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rg-0197a-spu
 
 Write-Host '
          [35m [0m

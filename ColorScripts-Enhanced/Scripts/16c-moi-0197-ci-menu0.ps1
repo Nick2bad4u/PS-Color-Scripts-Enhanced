@@ -1,13 +1,4 @@
-﻿# Converted from: CI-MENU0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moi-0197/raw/CI-MENU0.ANS
-# Source Revision: archive-sha256:fe57e3906e31d2dba15217b85af3203ddf959760df0938928ddd718198829839
-# Source SHA-256: 7ec518f8080f05bf5ad00c45695189f9b6eee14e04b9d075db3ed9a8dfe0b95b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CI-MENU0.ANS by Civid (moi-0197); released in moi-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: CI-MENU0.ANS by Civid | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moi-0197-ci-menu0
 
 Write-Host '
      [1;42m [0;1;32;42m░▒[0m

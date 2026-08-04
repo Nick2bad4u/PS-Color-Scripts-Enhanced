@@ -1,18 +1,4 @@
-﻿# Converted from: BM!CV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mtn-0695/raw/BM!CV.ANS
-# Source Revision: archive-sha256:01dd59399f2e8a58353f1b1f371c45734c706b251afcfee6e2cfe8849635b194
-# Source SHA-256: 2bc99129a4952edc4c6bac58992b87d4c9abf5a5375d6587792dfe76b7c9cfb9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BM!CV.ANS by blIndman (READ THE INI FILE); released in mtn-0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Convulsion
-# SAUCE Author: blIndman
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950514
-# SAUCE Dimensions: 80x25
-# Lines: 39-84
-# Columns: 1-80
+﻿# Artwork: Convulsion by blIndman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mtn-0695-bm-cv-part02
 
 Write-Host '
 [30;43m▓[0;33;40m▄[0m          [33;40m▄▄▄[0;1;37;40m▄▄[0m       [33m▄▄[0;30;43m▓[0;1;30;42m▒▓[0;30;43m▓[0;33;40m▀[0;33;43m [0;30;43m░░   [0;37;43m░░░░▒▒▓▓▒░░  [0;33;40m▀[0;30;43m▀░ [0;33;40m▌▌[0;1;37;40m██  ▀▌[0;1;30;46m░ [0;1;33;46m░░░░░░░▒▒▒▒▒▓▓▓▓[0m

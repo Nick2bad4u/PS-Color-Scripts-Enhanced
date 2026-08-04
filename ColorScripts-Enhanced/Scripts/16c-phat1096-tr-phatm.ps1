@@ -1,18 +1,4 @@
-﻿# Converted from: TR-PHATM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat1096/raw/TR-PHATM.ANS
-# Source Revision: archive-sha256:df699c780a5861cb22f0e3c2213b73ec7319ac5d671d53a7a5fa1e8a0c44c9d6
-# Source SHA-256: 6249c3e3988e3376769d9f868e861c84c2cadf30e2a3fa5ad018844918d80480
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-PHATM.ANS by tricycle (phat productions '96); released in phat1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: "official phat member board"screen
-# SAUCE Author: tricycle
-# SAUCE Group: phat productions '96
-# SAUCE Date: 19960919
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: "official phat member board"screen by tricycle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat1096-tr-phatm
 
 Write-Host '
                                            [34m▄[0m     [34m▄▄[0m

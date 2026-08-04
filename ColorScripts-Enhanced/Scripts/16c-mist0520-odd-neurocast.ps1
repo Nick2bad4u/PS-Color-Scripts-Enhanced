@@ -1,19 +1,4 @@
-﻿# Converted from: ODD-NEUROCAST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0520/raw/ODD-NEUROCAST.ANS
-# Source Revision: archive-sha256:5425d96be532c04bd6de3affc719b9dc22af75f1b87a434b5684676119e6bb50
-# Source SHA-256: 8119096f86108954d4f85902429edfc71caee18cdb4291d07ba9a4e0f38cc70d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ODD-NEUROCAST.ANS by Odd (Solo FTM); released in mist0520 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: NeuroCast
-# SAUCE Author: Odd
-# SAUCE Group: Solo FTM
-# SAUCE Date: 20200502
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: NeuroCast by Odd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0520-odd-neurocast
 
 Write-Host '
                     ▄▄▄        [1;30m▄▄[0m      ▄▄     ▄[1;30m▄▄[0m   ▄[1;30m▄[0m   [36m▄[0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;36m▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: MST!KOMI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spr_07/raw/MST!KOMI.ANS
-# Source Revision: archive-sha256:491a09c0e89bb57ae22cc79be83b57d04e479fcd9fe6a15bcb489d11b02aee41
-# Source SHA-256: 65eabeb76fd38dd90b6048cf1ec0cd09e96fa1fc9c7f03808f1ac5526a912735
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MST!KOMI.ANS by Mist (spr_07); released in spr_07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: MST!KOMI.ANS by Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spr-07-mst-komi
 
 Write-Host '
 [33m██████████████████████████████████████████████████████▓▓█▓▓▓▓▓▓▓▓▓▓▓▓▓▀▀ ▀ ▓▓▓▓ [0m

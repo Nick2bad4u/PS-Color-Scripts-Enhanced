@@ -1,18 +1,4 @@
-﻿# Converted from: SC-DF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl1997_1/raw/SC-DF.ANS
-# Source Revision: archive-sha256:fe5b190a3308615c8feeafc40ed35463201cf8ddf5dd1b3da33230707a5329db
-# Source SHA-256: c08a731f26788d190ed5d733306cd0da443b94715be0dcde29fed3a8127d6bcf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-DF.ANS by Scope (Teklordz); released in tl1997_1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: DataFlow
-# SAUCE Author: Scope
-# SAUCE Group: Teklordz
-# SAUCE Date: 19970323
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: DataFlow by Scope | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl1997-1-sc-df
 
 Write-Host '
                                       [32m                  [0m

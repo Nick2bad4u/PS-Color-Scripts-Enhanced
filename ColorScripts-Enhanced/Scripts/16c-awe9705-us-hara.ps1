@@ -1,18 +1,4 @@
-﻿# Converted from: US-HARA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9705/raw/US-HARA.ANS
-# Source Revision: archive-sha256:8be34660f06cc6610ed258606edc1af91e25b5675ab5e99aed29e53c07e63e17
-# Source SHA-256: 0959cea5f4e38c113a9d65e979972915e1c3490ad7868aa6fd21772e7581d7be
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-HARA.ANS by The Night Angel + Mass Murderer + Mr4tune (AWE Lettering); released in awe9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Harakiri
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970501
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Harakiri by The Night Angel + Mass Murderer + Mr4tune | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9705-us-hara
 
 Write-Host '
 [34m█ ▄ ██[0;1;34;44m░░░[0;34m█▄  [0;1;33m░▄  [0;34m▀▀███▓▒░  ▄▄▄▄ ▄▄[0;34;46m▀▓[0;34;40m▄[0;1;34;44m░░[0;34m▀ ▀▀   [0;1;37m░    [0;1;37;44m [0m   [34m█▄▄█▀  ░▓███▀████▀▀█▄ ▀▀▀[0m

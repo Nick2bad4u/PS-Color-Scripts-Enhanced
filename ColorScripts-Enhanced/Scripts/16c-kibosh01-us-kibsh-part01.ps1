@@ -1,18 +1,4 @@
-﻿# Converted from: US-KIBSH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/kibosh01/raw/US-KIBSH.ANS
-# Source Revision: archive-sha256:8d1a88fa61503d65c439ad29bf67d0608682b94cf1606253ca8fc6eb534b89d8
-# Source SHA-256: 34e6f4077cf602b53e829fc38b25cbdd9f167f9c6bac4c437eb62f6b3dac4257
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-KIBSH.ANS by Dyingsoul + Inclusive (kibosh); released in kibosh01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: kibosh promoTIONAL
-# SAUCE Author: dyingsoul/inclusive
-# SAUCE Group: kibosh
-# SAUCE Date: 19990410
-# SAUCE Dimensions: 80x95
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: kibosh promoTIONAL by Dyingsoul + Inclusive | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-kibosh01-us-kibsh-part01
 
 Write-Host '
 

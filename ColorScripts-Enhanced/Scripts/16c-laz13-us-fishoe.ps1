@@ -1,19 +1,4 @@
-﻿# Converted from: us-fishoe.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz13/raw/us-fishoe.ans
-# Source Revision: archive-sha256:0c2c63bd64664e02af0cf47cca1c746f6b942d60f66e98c86daa5feb695bcd8e
-# Source SHA-256: 2e9cbb29a5abf1fde78555731cfaaa08683b73e07f1daecfaa237c881f3da3d9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-fishoe.ans by Warpus + Pinguino (LAZARUS); released in laz13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fishoe
-# SAUCE Author: Pinguino & Warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20210618
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: Fishoe by Warpus + Pinguino | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz13-us-fishoe
 
 Write-Host '
 [36m▀█[0;1;34;46m░░[0;36m▀[0;1;34;46m░░░░░░░[0;36m███[0;1;34;46m▄▄▄▄[0;36m█[0;1;34;46m░░[0;36m██[0;37m [0;1;32;42m▐[0;1;32;40m▄[0;36m▐[0;1;34;46m░░░░[0;46m░[0;36;44m▓▓[0;36;40m███[0;1;34;46m░[0;36m█[0;1;34;46m░[0;36m███[0;1;34;46m░░░░[0;46m░[0;1;36;46m░░░▓[0;36m█[0;1;34;46m░░░░░░░░[0;36m█[0;1;36;46m░░▒▓[0;36m▓[0;36;44m▓[0;36;40m▒[0;36;44m▓[0;36;40m█[0;37;46m░[0;36;42m▌[0;37;40m [0;36;42m░[0;32;40m█[0;1;32;42m█■[0;32m█[0m

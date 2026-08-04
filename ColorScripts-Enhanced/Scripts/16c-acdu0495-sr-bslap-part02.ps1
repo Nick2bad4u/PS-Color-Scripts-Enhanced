@@ -1,18 +1,4 @@
-﻿# Converted from: SR-BSLAP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0495/raw/SR-BSLAP.ANS
-# Source Revision: archive-sha256:93425d63fbf60a9e51bd167f233b1cc6d824b1daa247d08c1db7f22759166ba0
-# Source SHA-256: a814e9a2f2c2ef95df75878a4f8719109390fa8257424a651e69e652b47bdf80
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SR-BSLAP.ANS by Silver Rat (ACiD Productions); released in acdu0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Bitchslap Magazine
-# SAUCE Author: Silver Rat
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950401
-# SAUCE Dimensions: 80x128
-# Lines: 45-89
-# Columns: 1-80
+﻿# Artwork: Bitchslap Magazine by Silver Rat | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0495-sr-bslap-part02
 
 Write-Host '
 [1;30;46m█▓▓▓▓▓▓▓▒▓▓▒▒▒▒▒░░░░░░[0;36m██▀[0;1;31m▄[0;1;31;41m██▓[0;31m▀[0;1;31m [0;36m▄▄███▄[0;37m [0;31m░[0;37m  ▄[0;1;30m▄[0m [1;31m▀[0;1;31;43m▒[0;33m▌[0m   [33m    ░[0;37m [0;33m░░[0m       [33m  [0;37m [0;33m░  [0m

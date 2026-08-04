@@ -1,18 +1,4 @@
-﻿# Converted from: GI-LOGOS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-9607/raw/GI-LOGOS.ANS
-# Source Revision: archive-sha256:96d9508bfb2082b3fe8b550d31a6f44ff6168ccdf834e916a6703fc5516f81bb
-# Source SHA-256: 6d842aec7d9ed1c0a2e9fda962fa3381c8a604c9febc88cbb3b185bf6ede7add
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GI-LOGOS.ANS by Giger (rca); released in rca-9607 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Logos
-# SAUCE Author: Giger
-# SAUCE Group: rca
-# SAUCE Date: 19960711
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: Logos by Giger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-9607-gi-logos
 
 Write-Host '
    [30m   [0m                                   [30m [0m                      [30m         [0m

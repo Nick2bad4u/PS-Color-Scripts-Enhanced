@@ -1,13 +1,4 @@
-﻿# Converted from: US-272.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch02/raw/US-272.ANS
-# Source Revision: archive-sha256:cf5edf9c96cc8253a46b06083b6d6c568d54a3ab114e7250815fc48f7f1a4c4c
-# Source SHA-256: c8582e7cb57cb288cd21a4cebd6e7993208de69f2edcb7dc6ca024c290127ca4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-272.ANS by Abstrakt + Avenging Angel (27inch02); released in 27inch02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: US-272.ANS by Abstrakt + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch02-us-272
 
 Write-Host '
 [1;30m█▄[0;1;30;42m▀[0;1;32;42m▄[0;1;32;46m▓[0;1;32;42m▒▒ [0;1;30;40m▒[0m            [1;30m░[0;1;30;42m▓▒[0;1;32;42m██▄[0;1;30;42m▀[0;32m▄[0;1;30m▄[0m [1;30m▀[0;1;30;42m▄[0;1;32;40m▒▒▒[0;1;32;42m▄[0;1;30;42m▄[0;1;32;42m▄█[0;1;32;47m▓[0;1;30;42m▄▄▓░[0;1;32;42m░██▄[0;1;30;42m [0;32m▓▒░[0m     [1;30;42m▓ [0;1;32;42m [0;1;30;42m ▄[0;1;30;40m▀[0m [1;30m▄▄[0;32m▄[0;1;30;42m▀ [0;1;32;42m▄████▒[0;1;30;42m▄[0;1;30;40m▀[0;1;30;42m▓[0m

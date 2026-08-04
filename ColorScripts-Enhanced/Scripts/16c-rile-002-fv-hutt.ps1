@@ -1,18 +1,4 @@
-﻿# Converted from: FV-HUTT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile_002/raw/FV-HUTT.ANS
-# Source Revision: archive-sha256:09fff222285c90eb6b714714b4c5e3c96cc514cdf338ccf4e30b5898f9a5a64b
-# Source SHA-256: 55fce567d1ce2591df1219145226eff2540da39e7689364910730cac44475d0b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-HUTT.ANS by fe v  e   r (rile); released in rile_002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the fuzz hut
-# SAUCE Author: fe v  e   r
-# SAUCE Group: rile
-# SAUCE Date: 19970227
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: the fuzz hut by fe v e r | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile-002-fv-hutt
 
 Write-Host '
                     [34m░[0;30;44m▓▀▄[0m

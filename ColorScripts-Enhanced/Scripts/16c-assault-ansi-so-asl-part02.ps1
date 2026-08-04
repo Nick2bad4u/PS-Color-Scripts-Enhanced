@@ -1,13 +1,4 @@
-﻿# Converted from: SO-ASL!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/assault-ansi/raw/SO-ASL!.ANS
-# Source Revision: archive-sha256:d3c1bf2eb59b13536ccd6ed946b74212f56a096e7d2933a165fa7e40035c3e0b
-# Source SHA-256: 0b8a50a4c63c43071355074a72466aa13cfad8b8b9d5fb21436e508572d25e7d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SO-ASL!.ANS by Sonny (assault-ansi); released in assault-ansi and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 46-64
-# Columns: 1-80
+﻿# Artwork: SO-ASL!.ANS by Sonny | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-assault-ansi-so-asl-part02
 
 Write-Host '
      [1;37m█[0;1;37;44m▀▀▀▀▀▀▀▀[0;1;37;40m█ █[0;1;37;44m▀▀▀▀▀▀▀▀[0;1;37;40m█ █[0;1;37;44m▀▀▀▀▀▀▀▀[0;1;37;40m█ █[0;1;37;44m▀▀▀▀▀▀▀▀[0;1;37;40m█ █[0;1;37;44m▀▀[0;1;37;40m█  █[0;1;37;44m▀▀[0;1;37;40m█ █[0;1;37;44m▀▀[0;1;37;40m█    █[0;1;37;44m▀▀▀▀▀▀▀▀[0;1;37;40m█[0m

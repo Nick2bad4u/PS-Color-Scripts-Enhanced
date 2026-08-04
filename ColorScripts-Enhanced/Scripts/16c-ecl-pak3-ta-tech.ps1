@@ -1,18 +1,4 @@
-﻿# Converted from: TA-TECH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak3/raw/TA-TECH.ANS
-# Source Revision: archive-sha256:cde4af7e840865f437fedba26bbfb806e858a9b477c723c01bd9d080434c75bd
-# Source SHA-256: 146207bad9ccfd206a4dee210b2451602938b6ce406feec3871308d6803da65c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TA-TECH.ANS by the avenger (ecolove); released in ecl-pak3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: tech login
-# SAUCE Author: the avenger
-# SAUCE Group: ecolove
-# SAUCE Date: 19980125
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: tech login by the avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak3-ta-tech
 
 Write-Host '
                                      [31m▄▄▄▄▄▄▄[0m

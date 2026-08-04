@@ -1,17 +1,4 @@
-﻿# Converted from: TNA-FLH2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-16/raw/TNA-FLH2.ANS
-# Source Revision: archive-sha256:299c2506fc7c7048919e5ad206603713352cc67a07153aa96e981dc224539522
-# Source SHA-256: 6562e8b0611e6933c36d223fe7ef1026290b32dcd865dcf3c02948faffe6dc20
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-FLH2.ANS by The Night Angel (AWE Lettering); released in awe-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fluph
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Fluph by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-16-tna-flh2
 
 Write-Host '
                [35m▄[0;1;35m▄[0m       [1;34m▄[0m          [32m░[0;30;42m▓[0;32;40m▄[0;1;32;40m▄[0;1;32;42m▄[0;32m█▀▀ ▓▓▄   ▄ ▄▄[0;30;42m░[0;32;40m▓[0;32;42m [0;1;32;42m▄[0;32m██▄[0;1;32m░[0;32m▀ ▄ [0;1;30m▄[0m     tna([1mawe[0m)

@@ -1,18 +1,4 @@
-﻿# Converted from: TH-TTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oasis-01/raw/TH-TTH.ANS
-# Source Revision: archive-sha256:c7f0081e5307a0d2341daff9b9ecf085b014300c2678e635458ef3859778b31f
-# Source SHA-256: b22c41f4020609b1ab9ae54b3409a4f00da17be2d560a44f21ed7f62b0cf73a4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH-TTH.ANS by Tempus Hellfire (Oasis); released in oasis-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Thirteenth Halo
-# SAUCE Author: Tempus Hellfire
-# SAUCE Group: Oasis
-# SAUCE Date: 19960331
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: The Thirteenth Halo by Tempus Hellfire | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oasis-01-th-tth
 
 Write-Host '
 [1;47m░▒▓▓█[0m█[1;30m▐[0m▐[1;47m▄▓▓▌[0m▌[1;30;47m▒░[0m [33m▄██[0;37m  [0;33m████[0;1;31;43m░░░░░[0;33m█▄[0;37m▀[0;1;30;47m░▒[0;33m▐[0;36;43m░░░░░░▒▒▓▒[0;36;40m█▌[0;37;40m▀[0;1;30;47m▒[0m▄[1;30;47m░░[0m▄[1;30m    ▄▀▀▀▀[0m▀▀▀[1m▀▄[0;1;30m            [0m

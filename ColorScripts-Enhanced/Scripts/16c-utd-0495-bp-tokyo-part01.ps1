@@ -1,17 +1,4 @@
-﻿# Converted from: BP-TOKYO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/utd-0495/raw/BP-TOKYO.ANS
-# Source Revision: archive-sha256:0d1a82ad3d13d836a92b422703d06a1d6a82ae4f50721578a08763a2338a2df8
-# Source SHA-256: 08d01a3ac6aa42afe7e2091eba11ca833c3a443086c89c8c2a7494647b845053
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BP-TOKYO.ANS by Bigge Pif (United); released in utd-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Tokyo Underground
-# SAUCE Author: Bigge Pif
-# SAUCE Group: United
-# SAUCE Date: 20950305
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: Tokyo Underground by Bigge Pif | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-utd-0495-bp-tokyo-part01
 
 Write-Host '
 [1m████████████████████████████████████████████████████████████████████████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: TG-HOLE1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9506/raw/TG-HOLE1.ICE
-# Source Revision: archive-sha256:54681166ad0e1930ad04020dc73021d068005fba5342f2f81e02d3344e14b83c
-# Source SHA-256: 2bfba497691bf0372edbf8654a889be1ce92c89362f5747e893b37e2b876e6b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-HOLE1.ICE by Toon Goon + Number 28 (iCE); released in ice-9506 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Hole
-# SAUCE Author: TooN GooN
-# SAUCE Group: iCE
-# SAUCE Date: 19950616
-# SAUCE Dimensions: 80x73
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Hole by Toon Goon + Number 28 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9506-tg-hole1-part01
 
 Write-Host '
 

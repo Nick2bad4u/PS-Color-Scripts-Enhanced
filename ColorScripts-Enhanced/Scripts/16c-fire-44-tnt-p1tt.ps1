@@ -1,19 +1,4 @@
-﻿# Converted from: TNT-P1TT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-44/raw/TNT-P1TT.ANS
-# Source Revision: archive-sha256:6c51508cedeaa9140fcf08750a75edb14e0cec0eebe7b4290346e95cd3548876
-# Source SHA-256: 69a68cfaec592563f0ff7def6431c09674e985fb161279f28004e673c305ee7b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNT-P1TT.ANS by tainted (fire); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: yargh!
-# SAUCE Author: tainted
-# SAUCE Group: fire
-# SAUCE Date: 20251111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: yargh! by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-44-tnt-p1tt
 
 Write-Host '
      [36;40m▄[0;37;40m  [0;36;40m▀  ░░▄██  [0;1;30;40m▄▀  ░░  ▀▀   ▀ ■[0m   ▄░▒▓[1;47m  ░ [0m ▒▓ [1;30m▓[0m █▄[1;47m▄[0;1;40m▓▓▓[0;1;47m▀[0;1;30;40m▀[0m [1;30m░░[0m ▒▒░[1;30m▐▌[0;1;37;47m░[0m▓  [1;47m▓[0m ▐[1m▓[0m

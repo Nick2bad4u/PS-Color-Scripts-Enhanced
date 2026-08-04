@@ -1,18 +1,4 @@
-﻿# Converted from: CL!-USKU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-05/raw/CL!-USKU.ANS
-# Source Revision: archive-sha256:32c1f67ac6058d9066b580c3bd5854b0529a1844e2dce2e40def969bcce3e47d
-# Source SHA-256: 918bf89ca5fd66ff9eae8b85a213eb22138d67b6515630a5e817a03b58855415
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-USKU.ANS by .:(cLEANER):. (.:(nITROPHUSION):.); released in nph-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: .:(u-sKULE^lOGO):.
-# SAUCE Author: .:(cLEANER):.
-# SAUCE Group: .:(nITROPHUSION):.
-# SAUCE Date: 19971025
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: .:(u-sKULE^lOGO):. by .:(cLEANER):. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-05-cl-usku
 
 Write-Host '
 [1;30m-[0m--[1;30m-[0;36m[[0;37m [0;1;30m [0m [36m^[0;37m [0;1;30m  [0m [36m][0;1;30m-[0m--[1;30m-[0;36m[[0;37ml[0;1;30mOG[0mO[36m^[0;37mu[0;36m-[0;37ms[0;1;30mKUL[0mE[36m^[0;37mr[0;1;30mEQUESTE[0mD[36m^[0;1;30mb[0mY[36m^[0;37me[0;1;30mLLE[0mR[36m][0;1;30m-[0m--[1;30m-[0;36m[[0;1;30m2[0m5[36m/[0;1;30m1[0m0[36m/[0;1;30m9[0m7[36m][0;1;30m-[0m--[1;30m-[0;36m[[0;1;30m0[0m1[36m:[0;1;30m1[0m9[36m][0;1;30m-[0m--[1;30m-[0m

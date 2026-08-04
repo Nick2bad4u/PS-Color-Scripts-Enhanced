@@ -1,17 +1,4 @@
-﻿# Converted from: m3-hackse2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure75/raw/m3-hackse2.ans
-# Source Revision: archive-sha256:456d9575d39a98868f0aeb653a02342fc0e4772fb2f636de50eb6a963aa538a5
-# Source SHA-256: 01e7cf9b74337953704480cb52d5daa7b9a1a0e27e564bc07a2fc57bcd6446a5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: m3-hackse2.ans by Anonymous (impure75); released in impure75 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: Anonymous
-# SAUCE Date: 20191228
-# SAUCE Dimensions: 79x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-79
+﻿# Artwork: m3-hackse2.ans by Anonymous | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure75-m3-hackse2
 
 Write-Host '
 [1;33m░[0;1;30m███████[0;1;37m░░░░░[0;1;30m████[0;1;37m░░░░░░░░░░░░[0;1;30m██████████████████[0;1;37m░░░░░░░░░░░░░░░░░░░░[0;1;30m██████████[0;1;33m░[0m

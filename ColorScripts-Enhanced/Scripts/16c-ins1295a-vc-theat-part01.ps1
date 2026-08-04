@@ -1,18 +1,4 @@
-﻿# Converted from: VC-THEAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ins1295a/raw/VC-THEAT.ANS
-# Source Revision: archive-sha256:0b68d4daa11b0e9ab0b29fa989c942e6fe09c6576ebd507a2bf77817932365c5
-# Source SHA-256: a7b56b123ff0d9b272e2c48b39b8353a02e2bd29f5443c8fc554658dd61b7571
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VC-THEAT.ANS by VOiCE (BLACK MAiDEN); released in ins1295a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: masquerade login screen
-# SAUCE Author: VOiCE
-# SAUCE Group: BLACK MAiDEN
-# SAUCE Date: 19951014
-# SAUCE Dimensions: 80x65
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: masquerade login screen by VOiCE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ins1295a-vc-theat-part01
 
 Write-Host '
                                             [36m▄[0;1;37;46m▒▓▒[0;36m▄[0;37m                               [0m

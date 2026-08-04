@@ -1,13 +1,4 @@
-﻿# Converted from: EG-PLTM!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/emerge03/raw/EG-PLTM!.ANS
-# Source Revision: archive-sha256:dd399ee6e71deadfe795b0f4683a65eced60de552ad5e9362e4756c467e8c7e4
-# Source SHA-256: 6d1744da41aaff1c582cf67ddae0f33bbb9185eddbae22975a685c5a9a15c500
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EG-PLTM!.ANS by Endrigoth (emerge03); released in emerge03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: EG-PLTM!.ANS by Endrigoth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-emerge03-eg-pltm
 
 Write-Host '
 [1;30meg.emerge! ▄▀█▄▀▄■▄▀▀▄▀■▄ ▀▄▀▄ ▀▀▄▄▄ ▄[0m     [1;30msd!''s[0;36m▀ ▀▀▀▀[0;1;36m▀[0;36m▀[0;1;36m▀▀▀▀▀▀▀▀▀▀▀▀[0;36m▀[0;1;36m▀[0;36m▀▀▀▀ ▀[0m

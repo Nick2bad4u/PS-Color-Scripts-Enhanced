@@ -1,17 +1,4 @@
-﻿# Converted from: PPE-LAND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spin04/raw/PPE-LAND.ANS
-# Source Revision: archive-sha256:d8d0b243395a454162bf4e70cc5ed89a7700344e3544729263edb9daedb33d8c
-# Source SHA-256: 9d1dc6766023119e4f3b5d4403d1712e1059cdac31476eca1671ccead77022a5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PPE-LAND.ANS by purplee (spin); released in spin04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: purplee
-# SAUCE Group: spin
-# SAUCE Date: 19981124
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: PPE-LAND.ANS by purplee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spin04-ppe-land
 
 Write-Host '
 

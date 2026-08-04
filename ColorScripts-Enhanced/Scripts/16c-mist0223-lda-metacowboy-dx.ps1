@@ -1,20 +1,4 @@
-﻿# Converted from: LDA-METACOWBOY_DX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0223/raw/LDA-METACOWBOY_DX.ANS
-# Source Revision: archive-sha256:f6abf3bbd53eb017898fa84b28d2ac43fcb70297788ba675e470ca73794cbbfd
-# Source SHA-256: 5032fc93c7380d0012f00b07059a548d7a192581d24fd3d0dfa2da9ccf331eed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LDA-METACOWBOY_DX.ANS by LDA (Mistigris); released in mist0223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: MetaCowboyDX
-# SAUCE Author: LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20230228
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# SAUCE Comments: I feel like a jerk now.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: MetaCowboyDX by LDA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0223-lda-metacowboy-dx
 
 Write-Host '
 [1;30m████████████████████████████▓██[0m [1;36m▄▄[0m [1m▐██████████[0;107m░[0;1m▓[0m [1;36m█[0;1;37;106m   ░░░░░░░[0;1;36m████████████████████[0m

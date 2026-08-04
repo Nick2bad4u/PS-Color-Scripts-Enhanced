@@ -1,18 +1,4 @@
-﻿# Converted from: WI-FRILL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/air_0597/raw/WI-FRILL.ANS
-# Source Revision: archive-sha256:6fe653cdae1d1be3a85ad8606d04a6519ed3da6d9d33e501c49ef3bdd23379d9
-# Source SHA-256: b79f7c58eab064355c1fbb4c826d02b9e511bed9bd3ad1e2144e9cae70ee98bf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WI-FRILL.ANS by \\i - White Ice (sOciety); released in air_0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: no frill logo
-# SAUCE Author: \\i - White Ice
-# SAUCE Group: sOciety
-# SAUCE Date: 19970315
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: no frill logo by \\i - White Ice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-air-0597-wi-frill
 
 Write-Host '
                           [36m▄█[0;1;36;46m▒  [0;36m▀▀████[0;1;36;46m░[0;36m▄ ▄██[0;36;46m  [0;36;40m█▀█[0;1;36;46m░[0;36m██[0;1;36;46m▒[0;36m▄[0m

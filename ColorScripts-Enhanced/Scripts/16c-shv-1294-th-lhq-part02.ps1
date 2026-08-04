@@ -1,18 +1,4 @@
-﻿# Converted from: TH-LHQ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shv-1294/raw/TH-LHQ.ANS
-# Source Revision: archive-sha256:f5a9cb72572b56ffa2e2d95e600f8c71afc6c91753a9bf8679dcd918614a3091
-# Source SHA-256: 10421eaaa605a8bb530cd35b1592d1d2a021acb2a19c17bad92f131c51961bd7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH-LHQ.ANS by Thor (Shiver); released in shv-1294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Legion Headquarters
-# SAUCE Author: Thor
-# SAUCE Group: Shiver
-# SAUCE Date: 19941115
-# SAUCE Dimensions: 80x25
-# Lines: 39-64
-# Columns: 1-80
+﻿# Artwork: Legion Headquarters by Thor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shv-1294-th-lhq-part02
 
 Write-Host '
 

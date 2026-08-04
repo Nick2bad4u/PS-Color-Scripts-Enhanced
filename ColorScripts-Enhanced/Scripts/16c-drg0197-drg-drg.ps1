@@ -1,18 +1,4 @@
-﻿# Converted from: DRG-DRG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg0197/raw/DRG-DRG.ANS
-# Source Revision: archive-sha256:d6e39a9bb1cc3ba4355876c2b38330dd07fbdcfc71c0518bb4f64dddca37b120
-# Source SHA-256: 96330f0faf3b3863c16a660f34224980b7bb256e1122abd58f8cbecd8c3fddc0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DRG-DRG.ANS by jesus christ (kirken); released in drg0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Deranged
-# SAUCE Author: jesus christ
-# SAUCE Group: kirken
-# SAUCE Date: 19970114
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Deranged by jesus christ | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg0197-drg-drg
 
 Write-Host '
 [30m[0m[33m▄[0;30m  [0;33m▄██▄[0;30m               [0;33m▄▄██▄▄▄[0;30m                           [0;33m▄▄▄▄[0;30m                    [0m

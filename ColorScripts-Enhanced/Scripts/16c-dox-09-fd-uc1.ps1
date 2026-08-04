@@ -1,17 +1,4 @@
-﻿# Converted from: FD-UC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_09/raw/FD-UC1.ANS
-# Source Revision: archive-sha256:c5cd33a328263069da0cd19f0b3fe2e4d6f041d2250819ad0b16ea4737718456
-# Source SHA-256: ca81331eea87c0ab99499d32dce6b27ce7ca21a54f3d61fc183c409df7f9a77a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FD-UC1.ANS by Flood (dox_09); released in dox_09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: urban chaos matrix
-# SAUCE Author: Flood
-# SAUCE Date: 19970505
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: urban chaos matrix by Flood | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-09-fd-uc1
 
 Write-Host '
 

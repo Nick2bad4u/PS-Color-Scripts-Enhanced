@@ -1,17 +1,4 @@
-﻿# Converted from: ZM-TJOIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1198/raw/ZM-TJOIN.ANS
-# Source Revision: archive-sha256:477c26b469dae0fde0e5c1871acc3be9de3bb3a205f1c76fb0e3a883b7bf8f93
-# Source SHA-256: 0c3b9a72ab889daf3510a18a531d4c44e8875cdc5735ffc0dbf09829b30f96fd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZM-TJOIN.ANS by Zatchmo (Poffelipoff); released in plf-1198 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Join
-# SAUCE Author: Zatchmo
-# SAUCE Group: Poffelipoff
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Join by Zatchmo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1198-zm-tjoin
 
 Write-Host '
      [1;30m░░[0m          [1;31m░[0m         [1;31m  [0;1;30m [0m            [1;30m▄[0m▄▄[1;30;47m▀[0m██████████████████████[1;30;47m░▀[0m▄[1;30m▄[0m░░

@@ -1,13 +1,4 @@
-﻿# Converted from: WANT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansi/raw/WANT.ANS
-# Source Revision: archive-sha256:50aaa63d173fc2f34f94b8a5b526a5ee8a8b9d7908c42264ab949073e7e0edf9
-# Source SHA-256: 4e43d9453cc03f0f5b16c0075c20e2cd8aaacda6bb1d89ee5a33824017bdaa68
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WANT.ANS by David Hartmann (ansi); released in ansi and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: WANT.ANS by David Hartmann | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansi-want
 
 Write-Host '
                                   [34m▐[0;1;37;44m▀█[0;1;37;40m████▌[0;31m██████[0;1;37m▐██████▌[0;31m██[0;31;44m█▀[0;34;40m▌[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MB-MTX1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amb-0001/raw/MB-MTX1.ANS
-# Source Revision: archive-sha256:50117a0363f47a3201dbded78dece5a7d943bf5ee978c9adb3f23e48040c9989
-# Source SHA-256: 8cc5932cca01c655567be614e36a6370159bb79afe3ab7827d5f9f59a4e5a029
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MB-MTX1.ANS by MADBiT (AMBUSH); released in amb-0001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Matrix Login 1
-# SAUCE Author: MADBiT
-# SAUCE Group: AMBUSH
-# SAUCE Date: 19960826
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Matrix Login 1 by MADBiT | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amb-0001-mb-mtx1
 
 Write-Host '
 [1;33;41m░[0;31m▒░ ░  ░    ░     ░░  ░  ▒   ░     [0;32m         [0;1;30m [0;34m░░ ░░░░░░  [0;1;30m [0;34m░░░░░░░[0;37m [0;34m░[0;37m   [0;34m░[0;37m [0;34m░░░[0;32m [0m

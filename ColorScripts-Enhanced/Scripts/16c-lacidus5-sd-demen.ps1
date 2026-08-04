@@ -1,13 +1,4 @@
-﻿# Converted from: SD-DEMEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lacidus5/raw/SD-DEMEN.ANS
-# Source Revision: archive-sha256:5a67a589125f15c7b8151a65ab294e82130523269ee1cebb412b1b5eaf243f0d
-# Source SHA-256: 40be0219f1568c8f175f0b57f48cc6bd8f78e1f4d58be32e1e15c2b0759e2db4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-DEMEN.ANS by Silver Dagger (lacidus5); released in lacidus5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: SD-DEMEN.ANS by Silver Dagger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lacidus5-sd-demen
 
 Write-Host '
 [31;45m  ▐[0;5;33;45m▒░▓[0;31;45m▄▌[0;5;33;45m▓[0;31;45m▄▌▀▄▌▀[0m           [31;40m9055677944[0m                      [31;45m▄▌▐▄▌[0;5;33;45m▒▒▒▒[0;31;45m▄▌▐[0m

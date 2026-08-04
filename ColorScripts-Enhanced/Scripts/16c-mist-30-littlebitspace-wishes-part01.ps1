@@ -1,19 +1,4 @@
-﻿# Converted from: LITTLEBITSPACE-WISHES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/LITTLEBITSPACE-WISHES.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: d0960257e935bc12592175d4dbc25ea32b03596bdc1111070b0454b9906594bd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LITTLEBITSPACE-WISHES.ANS by littlebitspace (mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Wishes
-# SAUCE Author: littlebitspace
-# SAUCE Group: mistigris
-# SAUCE Date: 20241229
-# SAUCE Dimensions: 80x72
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Wishes by littlebitspace | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-littlebitspace-wishes-part01
 
 Write-Host '
 [33m▀█▀[0;1;33m [0;33m▀[0;30mO[0;1;33m  [0;33m▄[0;1;33m [0;33m▄[0;1;33m   [0;33m▀█[0;1;30;43m▄[0;33m▀▀▀▀▀█▀[0;1;30;43m▄[0;33m███[0;1;30;43m▄[0;33m█[0;1;30;43m▄[0;33m▀[0;1;30;43m▄[0;33m█[0;1;30;43m▄[0;33m█[0;1;30;43m▄[0;33m█[0;1;30;43m▄▀▄[0;33m█[0;37m [0;1;30;43m▀▄[0;33m█[0;1;30;43m▄▀[0;33m▀▄[0;1;30;43m▄[0m   [1;30m▄[0;1;30;43m▀▄▀▄▀▄▀▄▀▄▀▄▀[0;33m▀[0;1;30m▄[0;1;30;43m▄[0;1;30;40m█[0;1;30;43m▄▀▄[0;1;30;40m▄[0;1;30;43m▄[0;33m▄[0;1;30m▄█[0m

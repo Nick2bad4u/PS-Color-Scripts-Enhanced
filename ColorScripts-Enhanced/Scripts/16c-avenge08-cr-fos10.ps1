@@ -1,18 +1,4 @@
-﻿# Converted from: CR-FOS10.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge08/raw/CR-FOS10.ANS
-# Source Revision: archive-sha256:1398dfee0c6d9a85e3c2c5578a653005bd6563b54ee7629087b020c63b5bdc44
-# Source SHA-256: cbe6765ac5e09c17b74a02a0ce2a50a42f28056120b5e8c32a2f274bb621b271
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CR-FOS10.ANS by creator (The AvengeCult); released in avenge08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: FoS
-# SAUCE Author: creator
-# SAUCE Group: The AvengeCult
-# SAUCE Date: 19980823
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: FoS by creator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge08-cr-fos10
 
 Write-Host '
 [1;30;47m█[0;1;30;40m████[0;1;30;46m█[0;1;30;40m█████████[0;1;30;47m███████████████████████████▓▓▓▓▓▓▓███████████████████████████████[0m

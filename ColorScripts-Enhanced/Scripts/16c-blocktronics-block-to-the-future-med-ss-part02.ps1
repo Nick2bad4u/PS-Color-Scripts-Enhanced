@@ -1,16 +1,4 @@
-﻿# Converted from: Med_SS.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_block_to_the_future/raw/Med_SS.ans
-# Source Revision: archive-sha256:e9c7655a6ba44929b9deba9a89f3fd7cff48592d5b87253057ae8455852a9d6f
-# Source SHA-256: a53bf5eb92f0c3e5440be349acf3acabfcd4cd3785bce316d0da2f284a151f6e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Med_SS.ans by Medium (blocktronics_block_to_the_future); released in blocktronics_block_to_the_future and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 20151119
-# SAUCE Dimensions: 80x79
-# SAUCE Font: IBM VGA
-# Lines: 40-79
-# Columns: 1-80
+﻿# Artwork: Med_SS.ans by Medium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-block-to-the-future-med-ss-part02
 
 Write-Host '
 [1;33;40m▐[0;1;33;43m▓[0;1;33;44m█[0;1;33;43m▓[0;1;33;44m██[0;1;33;43m▒ ▒[0;1;33;44m█[0;1;33;43m▓[0;1;33;44m███[0;1;33;43m▒░[0;1;33;40m▀  [0m▄████▄[1;30;47m▀[0m███████▀▀█[1;30;47m▓█[0;1;30;40m [0;33m█[0;1;33;43m [0;33m▌▐█ [0;33;43m [0;1;33;43m▒[0;33m▌  [0;36m▒▀    ░ █▓▒██ [0;30;43m█[0;33;46m█[0;1;33;43m░   ░[0;33;46m█[0;33;40m▌[0;36;40m░█[0;1;36;46m░[0;36m▌[0;32m░▒▓[0m

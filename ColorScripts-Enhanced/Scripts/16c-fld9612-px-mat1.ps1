@@ -1,18 +1,4 @@
-﻿# Converted from: PX~MAT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fld9612/raw/PX~MAT1.ANS
-# Source Revision: archive-sha256:398e960abe90b9818bfc3a6f74dd54965f44f4021cfa626535308061d6595a9e
-# Source SHA-256: f3d5364b9551ebe0f04f4bdeb992432e7ecc3605695445f96ce6d2c21f263c4e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PX~MAT1.ANS by perplexer (fluid); released in fld9612 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: coil matrix somewhere
-# SAUCE Author: perplexer
-# SAUCE Group: fluid
-# SAUCE Date: 19800606
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: coil matrix somewhere by perplexer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fld9612-px-mat1
 
 Write-Host '
 [1;33m [0;31m▀█[0;1;31;41m▒░░[0;31m▄ ▀█[0;1;31;41m░░[0;31m█ ▀▄███▄ ▀██▓█▓▓░ [0;1;30m░▓[0;1;37;47m▒▓▒[0;1;37;40m▀░▄▀[0;1;37;47m▓▓[0;1;37;40m██████[0;1;37;47m▓[0m▄ [31m▀[0;1;31;41m░[0;31m▀░▄▄▓[0;1;31;41m░▓▒░[0;31m▄▄▄▓▀▀ ▄▄█▀ ░▄[0;1;31;41m▓██[0;31m▀[0m

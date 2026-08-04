@@ -1,18 +1,4 @@
-﻿# Converted from: MR-DP01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-01/raw/MR-DP01.ANS
-# Source Revision: archive-sha256:8a67b8a789d291ebb3c2dac335fadb955c4c5780d922eead5382af014b63c773
-# Source SHA-256: b5dbb3115a8b496a37c1e05fdadc345565022c2af0e4325066326f7554151081
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-DP01.ANS by Mr.Wrong (The Used Coalition); released in used-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Dark and Plain
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: The Used Coalition
-# SAUCE Date: 19991012
-# SAUCE Dimensions: 80x113
-# Lines: 74-113
-# Columns: 1-80
+﻿# Artwork: Dark and Plain by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-01-mr-dp01-part03
 
 Write-Host '
 [1;31m ▄   ▀█[0m [31m  [0;1;33;41m░░[0;31m█████  ▓     ▐███████  [0;37m  [0;31m█████[0;37m  [0;31m  █[0;1;33;41m░░░[0;31m███▌    ▀ ▓  ███[0;1;33;41m░░░ [0;31m  [0;1;31m █▀   ▄[0m

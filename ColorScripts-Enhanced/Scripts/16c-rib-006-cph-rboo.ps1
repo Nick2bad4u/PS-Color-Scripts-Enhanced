@@ -1,18 +1,4 @@
-﻿# Converted from: CPH-RBOO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-006/raw/CPH-RBOO.ANS
-# Source Revision: archive-sha256:4d7b445ca8b643922c5230e9f5b3c442135561ba0bcfa9b1ae5cb138b563798c
-# Source SHA-256: 86417bacf11a167d826e49ca6aec6f1d7426e76f33c8ebfd7a5cce5912a40fea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-RBOO.ANS by {YBERPUNCh (RiB); released in rib-006 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: RiB
-# SAUCE Author: {YBERPUNCh
-# SAUCE Group: RiB
-# SAUCE Date: 19980306
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: RiB by {YBERPUNCh | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-006-cph-rboo
 
 Write-Host '
                       [34m▐[0m                                     [1;34m▌[0m

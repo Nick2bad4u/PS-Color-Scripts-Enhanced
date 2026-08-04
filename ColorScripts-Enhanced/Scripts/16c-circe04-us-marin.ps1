@@ -1,13 +1,4 @@
-﻿# Converted from: US-MARIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe04/raw/US-MARIN.ANS
-# Source Revision: archive-sha256:4f0496a9701d4903473a706c6407c52ebc6554ce22b4b35c3cd1e5bc9689ea7f
-# Source SHA-256: ea5c7f7a7225a5f77e8d35272e368de9242d202be17066fb13d80fd82d577eeb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-MARIN.ANS by Arlequin + Cleaner (circe04); released in circe04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: US-MARIN.ANS by Arlequin + Cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe04-us-marin
 
 Write-Host '
 [1;30m▓▓▓▓█████[0m▄▄[1;30m▄▄▄█████▄▄█▓▓▓▓▀▀▀▀▀[0;1;32m  [0;32m▄▄[0;1;30m▄[0;1;32m   [0;1;34m▀▀▄▄[0;1;32m [0;1;34m▀█[0;1;34;47m▓▓[0;1;34;44m▀[0;1;34;40m███[0;1;34;44m▀▀▀[0;1;34;47m▓▓▓[0;1;34;40m▀[0;1;34;47m▄[0;1;34;44m▀▀▀[0;34m█[0;1;34;44m▄[0;34m████████[0;1;34m▒▒[0;34m███[0;1;34m▒[0m

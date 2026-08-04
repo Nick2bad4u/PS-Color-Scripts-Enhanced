@@ -1,18 +1,4 @@
-﻿# Converted from: A-NUCLEA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lpl-vis1/raw/A-NUCLEA.ANS
-# Source Revision: archive-sha256:8702cbee42c0bf5018ee16bdc506dfbe34d2b2e3fdf95af42078b170f8c1ca6d
-# Source SHA-256: 50d626bdb1fe184a7c8e5d674c63e5f0ef57cc99f769f247ccccb1d21354228c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: A-NUCLEA.ANS by /]RLEQU!N (/0/ LPL .0.); released in lpl-vis1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: NUCLEAR zONE
-# SAUCE Author: /]RLEQU!N
-# SAUCE Group: /0/ LPL .0.
-# SAUCE Date: 19961004
-# SAUCE Dimensions: 80x15
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: NUCLEAR zONE by /]RLEQU!N | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lpl-vis1-a-nuclea
 
 Write-Host '
                                             [36m■[0m

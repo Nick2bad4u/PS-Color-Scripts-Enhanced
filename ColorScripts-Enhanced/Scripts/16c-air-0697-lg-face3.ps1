@@ -1,13 +1,4 @@
-﻿# Converted from: LG-FACE3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/air_0697/raw/LG-FACE3.ANS
-# Source Revision: archive-sha256:5cd3011ba297092d80d79117f4d787f8ea3f225f068d30fcf0de8461325ab083
-# Source SHA-256: 089696225a4f013eff9fc5f419996bc1bc5c46cfbff01c5b1a118dd3502e3ce8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LG-FACE3.ANS by Liquid Goblin (air_0697); released in air_0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: LG-FACE3.ANS by Liquid Goblin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-air-0697-lg-face3
 
 Write-Host '
 [35m   ▄▌▄▌██▄   ▄▓▌██  █████[0;1;35;45m░░[0;35m█[0;1;35;45m▒[0;30;45m█[0;35;40m██[0;1;35;45m▓▌[0;35m█████▄▄▓    ▄[0;1;35;45m▄▓   ▐▓[0;35m▄▄▄▄             ▄[0;1;35;45m░[0;35m▄██████[0m

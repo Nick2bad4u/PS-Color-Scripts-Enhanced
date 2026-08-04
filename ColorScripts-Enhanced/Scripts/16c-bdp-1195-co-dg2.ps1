@@ -1,18 +1,4 @@
-﻿# Converted from: CO-DG2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bdp-1195/raw/CO-DG2.ANS
-# Source Revision: archive-sha256:1b43f12a2225fa99f61f8383153046022622b294b70c9ac85ac44c0e22a26a9f
-# Source SHA-256: 8fe473abc873b1b28063a6e1335dbe2434d56d7c815ad10dc10e5466dc9c2cf8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CO-DG2.ANS by Coeffey (BdP); released in bdp-1195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: City for Digital City
-# SAUCE Author: Coeffey
-# SAUCE Group: BdP
-# SAUCE Date: 19951001
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: City for Digital City by Coeffey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bdp-1195-co-dg2
 
 Write-Host '
 [30;47m■■■[0;1;37;47m■░[0;30;47m■■[0m [1;37;47m■[0;30;47m▀▀▀▀▀▀■[0m [1;30;47m▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m█[0;1;30;47m█▓[0m  [1;30;40m▄▄[0m    [1;30;40mYups You have[0m [1;30;40m▄▄[0m       [1;30;47m▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m█[0;1;30;47m█▓[0;30;46m▌                   [0m

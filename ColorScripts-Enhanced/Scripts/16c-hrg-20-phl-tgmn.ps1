@@ -1,17 +1,4 @@
-﻿# Converted from: PHL-TGMN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hrg-20/raw/PHL-TGMN.ANS
-# Source Revision: archive-sha256:8121ac1e2a7e6371063b4bf13596c2f185d35cac4671b2d24292c979e3d6fa5f
-# Source SHA-256: d655f8d92a3b43858820cab46a11279acc3e1423b237dd7ad3086de5e37b6135
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PHL-TGMN.ANS by _pHL (HRg); released in hrg-20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: _pHL
-# SAUCE Group: HRg
-# SAUCE Date: 19980821
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: PHL-TGMN.ANS by _pHL | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hrg-20-phl-tgmn
 
 Write-Host '
                  [32m    [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: BM-06FZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira9802a/raw/BM-06FZ.ANS
-# Source Revision: archive-sha256:157ead14d43652aeef2256f394202c3af23e0a670018a92df40a323cb79405f8
-# Source SHA-256: c9b39fca3d095eabe4e4ad5ba222afc3fcf8a95f73fbb3dba6c38a9aaaaf6874
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BM-06FZ.ANS by bloodmage (irato); released in ira9802a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: freak zone
-# SAUCE Author: bloodmage
-# SAUCE Group: irato
-# SAUCE Date: 19980120
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: freak zone by bloodmage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira9802a-bm-06fz
 
 Write-Host '
                     [31m■[0;37m [0;31m [0m   [35m■▀[0;37m  [0;35m▀[0;1;35;45m░▒░[0;35m▄           [0m      [31m▄▌  [0m

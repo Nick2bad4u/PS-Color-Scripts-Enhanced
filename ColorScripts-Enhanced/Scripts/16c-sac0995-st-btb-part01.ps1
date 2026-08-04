@@ -1,13 +1,4 @@
-﻿# Converted from: ST-BTB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0995/raw/ST-BTB.ANS
-# Source Revision: archive-sha256:cc360b79185ba045775293710395ac2d0a043a893088560f3313eb0514dcb071
-# Source SHA-256: 85bb5f8da40bc5e9de0604d22af0d19237871827d1bab581a9d291f84f9b0b40
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-BTB.ANS by shot; released in sac0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: ST-BTB.ANS by shot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0995-st-btb-part01
 
 Write-Host '
    [1;30m·[0m          ·                [1m·[0m                              ·

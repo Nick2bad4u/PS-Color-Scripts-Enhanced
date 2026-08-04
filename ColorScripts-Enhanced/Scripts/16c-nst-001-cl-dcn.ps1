@@ -1,18 +1,4 @@
-﻿# Converted from: CL!-DCN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nst_001/raw/CL!-DCN.ANS
-# Source Revision: archive-sha256:73e351b64f3e5af00925276ea27a29359884e7841f4015afd3acb29f2a370d2d
-# Source SHA-256: 1dc1bda71bee0abc4c7d816e0ebd569ae14db43fcf2de4cb512b19c09edb6986
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-DCN.ANS by .:(cLEANER):. (.:(nEON^sTRIKE):.); released in nst_001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: .:(dEFCON^lOGO):.
-# SAUCE Author: .:(cLEANER):.
-# SAUCE Group: .:(nEON^sTRIKE):.
-# SAUCE Date: 19971129
-# SAUCE Dimensions: 80x25
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: .:(dEFCON^lOGO):. by .:(cLEANER):. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nst-001-cl-dcn
 
 Write-Host '
            [1;36m▄▄█▄[0m         [1;36m▄▄█▄[0m         [1;36m▄▄█▄[0m         [1;36m▄▄█▄[0m      [1;36m▄▄[0m            [1;36m▄▄█▄[0m

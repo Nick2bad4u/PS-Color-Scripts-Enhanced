@@ -1,13 +1,4 @@
-﻿# Converted from: DY-JRR2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stx0594/raw/DY-JRR2.ANS
-# Source Revision: archive-sha256:7fb52e197272b558538aeb65fc7dd9ecae07425537bb3a3e791747ece4689a7f
-# Source SHA-256: 7623ba2aa59a5a3463462bb4fc46ee1f9fe467b6bf4348eb6d2f4c9348fc3f08
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DY-JRR2.ANS by Dynosaw (stx0594); released in stx0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 48-93
-# Columns: 1-80
+﻿# Artwork: DY-JRR2.ANS by Dynosaw | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stx0594-dy-jrr2-part02
 
 Write-Host '
 [31m░░░ ▓[0;1;31;41m▒░[0;31m▒[0m            [1;37m▐[0;1;37;47m▒░[0m█[1;30m▐[0m     ▐[1;30m▐[0m     ▐[1;30m▐   ▌[0m▌     [1;30m▌[0m▌     [1;30m▌[0m█[1;47m░▒[0;1;40m▌[0m            [31m▒[0;1;31;41m░▒[0;31m▓ ░░[0m

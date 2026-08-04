@@ -1,18 +1,4 @@
-﻿# Converted from: RET-RAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roots01/raw/RET-RAIN.ANS
-# Source Revision: archive-sha256:dd8ab7f4699320ca828bf58552b53e17a1e210a9bedef1bc8bfdf4b451cdf01c
-# Source SHA-256: e93c73d1e626775d225da95c8509f4ed976b187706d1b315693b80692c15e096
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RET-RAIN.ANS by retribution (roots); released in roots01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: "rain"
-# SAUCE Author: retribution
-# SAUCE Group: roots
-# SAUCE Date: 20080229
-# SAUCE Dimensions: 80x118
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: "rain" by retribution | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roots01-ret-rain-part01
 
 Write-Host '
 [1;33m   [0;33m▐[0;1;30m▌[0;33m█[0;1;33;43m [0;33m░[0;1;33m  [0;33m█[0;1;33m▀▀[0;33m▀▄[0;1;33m▄[0;33m▄▀[0;1;33;43m▀[0;1;33;40m██[0;1;33;43m▓▓▌░[0;1;33;40m████▀▀▀[0;1;33;43m▀[0;1;33;40m  ████[0;1;37;40m█[0;1;33;40m██[0;1;37;40m██[0;1;33;40m█[0;1;33;43m▓▓ ▐▌[0;1;30;40m▌[0;1;33;40m█[0;1;30;40m▐[0;33m▌[0m

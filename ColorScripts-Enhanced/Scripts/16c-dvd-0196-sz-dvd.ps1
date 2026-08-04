@@ -1,18 +1,4 @@
-﻿# Converted from: SZ-DVD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dvd-0196/raw/SZ-DVD.ANS
-# Source Revision: archive-sha256:8a57ac99c945ff5806ca71d49eb25bcb471617bdf8f3826d8261f443fdd5021c
-# Source SHA-256: 38c1f67fa57557b5a649ed68868842885c8fe703428f6a363c9acd2414e2e2ee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SZ-DVD.ANS by Seize (Devoid); released in dvd-0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Devoid Promo
-# SAUCE Author: Seize
-# SAUCE Group: Devoid
-# SAUCE Date: 19951228
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Devoid Promo by Seize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dvd-0196-sz-dvd
 
 Write-Host '
 

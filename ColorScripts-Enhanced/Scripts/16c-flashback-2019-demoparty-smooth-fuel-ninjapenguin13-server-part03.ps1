@@ -1,19 +1,4 @@
-﻿# Converted from: smooth-fuel-ninjapenguin13-server.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flashback-2019-demoparty/raw/smooth-fuel-ninjapenguin13-server.ans
-# Source Revision: archive-sha256:b738430cc4fe12cad7e057e3ab51a85dc09291bcdcb66f958a6a7bcc5184c5af
-# Source SHA-256: 123d582a30aba85a8a423ee101beb9e8fa9e31c255d39ae4e16dbe49564a3f53
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: smooth-fuel-ninjapenguin13-server.ans by Smooth (Fuel); released in flashback-2019-demoparty and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Ninja Penguin 13
-# SAUCE Author: Smooth
-# SAUCE Group: Fuel
-# SAUCE Date: 20190602
-# SAUCE Dimensions: 80x150
-# SAUCE Font: IBM VGA
-# Lines: 101-150
-# Columns: 1-80
+﻿# Artwork: Ninja Penguin 13 by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flashback-2019-demoparty-smooth-fuel-ninjapenguin13-server-part03
 
 Write-Host '
 [1;34m    [0;32m▌[0m        [36m▌    [0;1;30m▄▀   []──[0;1;34m▐ [0;1;30m──[0;1;31m■  [0;1;30m▀▄    [0;36m▐    [0;1;30m│   [0;32m▌[0m              [1;34m▐[0m      [1;36m▐[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US-CIRCE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe07/raw/US-CIRCE.ANS
-# Source Revision: archive-sha256:2cbba3cedd8eb19a25555cbc1ca3ce5023e1f497b14e2a9d7de86e055d96afd2
-# Source SHA-256: 927e21119b9448016e63844d1841aa2f7d461af99f02b0901ef55ae6b209fc28
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CIRCE.ANS by Arlequin + Darkman-Circe (Circe); released in circe07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Circe 07
-# SAUCE Author: Darkman & Arlequin
-# SAUCE Group: Circe
-# SAUCE Date: 19990203
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Circe 07 by Arlequin + Darkman-Circe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe07-us-circe
 
 Write-Host '
          [1;34m▄▄[0m [34m   [0;37m        [0;1;34m▄▄▄▄[0m          [1;34m▄[0m [1;34m▄[0m       [1;30m [0;36m▄[0;1;34m▄[0m                            [1;30m  [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SK!YAGOO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p04_99/raw/SK!YAGOO.ANS
-# Source Revision: archive-sha256:cd066a8b285d053fbbb486eff8330d19131344b04ff06cb6d38dc7a1da8cad61
-# Source SHA-256: ece8dd5067592072a339a7a9bb87358e4bc18105b48e1ca80883d07f675b1ef1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!YAGOO.ANS by sIMONkING (thELo0p); released in l0p04_99 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: green yago0d =)
-# SAUCE Author: sIMONkING
-# SAUCE Group: thELo0p
-# SAUCE Date: 19990906
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: green yago0d =) by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p04-99-sk-yagoo
 
 Write-Host '
 [1;30m█▌[0;1;32m▐[0;1;32;42m▒░░[0;32m█[0;1;32;42msK!l0p[0;32m███[0;1;32;42m░░░▒▒░[0;32m██████████[0;1;32;42m░░░░░░░░░[0;32m█████████[0;1;32;42m░░▒▒▒░░░░░[0;32m███[0;1;33m██[0;32m█████[0;1;30;42m░░░▒[0;1;30;40m▄[0;32m [0;1;30m▀███[0m

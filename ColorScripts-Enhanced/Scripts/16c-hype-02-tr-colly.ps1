@@ -1,17 +1,4 @@
-﻿# Converted from: TR-COLLY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-02/raw/TR-COLLY.ANS
-# Source Revision: archive-sha256:85e01eadce5f9498d81aff1ce740b243afce4b217290d5d85773c523660d0b86
-# Source SHA-256: 036c7b677ee1a9a170c497f0b7b5bab60b675776958bffb602eba59e6515149c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-COLLY.ANS by Trident (Hype); released in hype-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Trident Logo Colly
-# SAUCE Author: Trident
-# SAUCE Group: Hype
-# SAUCE Dimensions: 80x25
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Trident Logo Colly by Trident | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-02-tr-colly
 
 Write-Host '
 [30m       [0m

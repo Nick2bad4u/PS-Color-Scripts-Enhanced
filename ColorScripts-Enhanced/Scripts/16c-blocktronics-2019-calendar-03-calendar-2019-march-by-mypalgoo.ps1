@@ -1,19 +1,4 @@
-﻿# Converted from: _03_Calendar_2019_March_by_mypalGoo.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-2019-calendar/raw/_03_Calendar_2019_March_by_mypalGoo.ans
-# Source Revision: archive-sha256:5dcb03d3562fc71c1bd681e0b01704387df6a6764ee8c64c58f8fc5646036621
-# Source SHA-256: 952c043b18ff392bd7328141aec59d9959a38f90aa205d77487ffaf53314839c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _03_Calendar_2019_March_by_mypalGoo.ans by GOO (blocktronics); released in blocktronics-2019-calendar and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: sistermarch
-# SAUCE Author: GOO
-# SAUCE Group: blocktronics
-# SAUCE Date: 20181006
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: sistermarch by GOO | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-2019-calendar-03-calendar-2019-march-by-mypalgoo
 
 Write-Host '
 [37;40m    [0;1;36;40m▄▌  [0m              [1;33m▄▄▄[0;1;33;43m▀▀▀▀▀▄▄[0;1;33;40m▀▀▄▄█ [0;1;34;40m  [0m [1;34m  [0m  [1;35m [0;1;34m [0;36m [0;1;34m▀▀▄[0;34m ▀[0;1;33m████[0;1;33;43m▄▄[0;33m█[0;1;33;43m▀▀[0;1;33;40m█[0;1;33;43m▄▄▀[0;1;33;40m▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: CA-BIO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/chlk1094/raw/CA-BIO.ANS
-# Source Revision: archive-sha256:fdd1cb122b9e0af3bb8ce0709423200b7f5f99c1d0915044d5bb66da78a8dde8
-# Source SHA-256: fe30b320a142c49a792f2ccd1334863279ecdd848958560fce2ee7f9713b66ff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CA-BIO.ANS by Cable (chlk1094); released in chlk1094 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 44-75
-# Columns: 1-80
+﻿# Artwork: CA-BIO.ANS by Cable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-chlk1094-ca-bio-part02
 
 Write-Host '
         [32m▄[0;1;32;42m▀ ▄ ▀ ▄ ▀ ▄ ▀ ▄ ▀ ▄ ▀ [0m          [1;37;40m▄▄[0m

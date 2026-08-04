@@ -1,13 +1,4 @@
-﻿# Converted from: TE-BEAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr005/raw/TE-BEAN.ANS
-# Source Revision: archive-sha256:0b355254f902f6b21c901be7646f3456730f6080b3e95be41f60d4bd67d42ee2
-# Source SHA-256: ad4d7d5e0d8595d70b7ecaa3185a82875fa143ba207eac7667cad307b3a0c1a4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-BEAN.ANS by The Extremist (blndr005); released in blndr005 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: TE-BEAN.ANS by The Extremist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr005-te-bean
 
 Write-Host '
 ▓▀▀▀▀▀▀[31m▄▀▀▄[0;1;30m█  [0;34m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  [0;1;30m██[0m           [1;30m██[0m

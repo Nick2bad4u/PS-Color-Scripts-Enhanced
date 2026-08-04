@@ -1,13 +1,4 @@
-﻿# Converted from: US-VILL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise08/raw/US-VILL.ANS
-# Source Revision: archive-sha256:a25eed3e25fe4aa7fc0560c1fa7de8a9e155ecb2aed26b67328b74f91962df53
-# Source SHA-256: f56def39da72eb9af04c1f639282cf2677daa1b91cd7c3f11524e4b9625ec770
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-VILL.ANS by Dyingsoul + Big Yellow Man (uprise08); released in uprise08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: US-VILL.ANS by Dyingsoul + Big Yellow Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise08-us-vill
 
 Write-Host '
 

@@ -1,19 +1,4 @@
-﻿# Converted from: C1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tk-ansi/raw/C1.ANS
-# Source Revision: archive-sha256:7a6e15a450305cb977de0a4eb06cf4ca525baa4933c9f7af1cf6080dced8bf2d
-# Source SHA-256: 9517c2dee377315396909f03b93da10766ed7c88976ec09ca81ec792a618f5e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: C1.ANS by Tank (NeXX); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Candles
-# SAUCE Author: Tank
-# SAUCE Group: NeXX
-# SAUCE Date: 19920420
-# SAUCE Dimensions: 80x23
-# SAUCE Comments: May have used this in another larger ANSI
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Candles by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tk-ansi-c1
 
 Write-Host '
                [1;34;40m▐[0m                                                [1;34;40m▌[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: JTE-CMINIUM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hrmkiva2/raw/JTE-CMINIUM.ANS
-# Source Revision: archive-sha256:abc573be699b490f9317d70002a528632e59fc3fddf316663449886fd8c21a04
-# Source SHA-256: 0a7ac0e963bc65444266c28cfafdf8d764cc9a1dcec5f00ffc9ffd520a49cf40
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JTE-CMINIUM.ANS by Jate (HiRMU); released in hrmkiva2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Condominium BBS
-# SAUCE Author: Jate
-# SAUCE Group: HiRMU
-# SAUCE Date: 19951008
-# SAUCE Font: IBM VGA
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: Condominium BBS by Jate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hrmkiva2-jte-cminium
 
 Write-Host '
 [1m [0;1;47m▒▒▒▒▒▒▓▓▓▓[0;1;40m▀▀[0;1;31;40m▄▄█████[0;1;31;41m▓▓▒▒░░░[0;31m████▀[0;37m▄[0;37;47m▄[0;30;47m▀[0;37;40m▄[0;1;30;40m▄[0;31m▀▀██[0;1;30;41m░[0;31m█[0;1;30;41m░░░[0;31m▓▓▓▓▒▒░ [0;1;37m▀▀▀▀▀▀▀▀[0;31m▄[0;1;31m▄▄[0;1;31;41m▓▓[0;1;31;40m▄████████████[0m

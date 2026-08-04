@@ -1,18 +1,4 @@
-﻿# Converted from: CL!-ECO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-17/raw/CL!-ECO.ANS
-# Source Revision: archive-sha256:8236759fde5db8ee2caeed4c8b472252ce9b47375d97816d78339cb82ea8285c
-# Source SHA-256: e0fc9fa9333ce949dd19e1f48878336d0ac93815f02def69c803ff83fad8859f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-ECO.ANS by Cleaner (Nitrophusion); released in eco-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ecolove
-# SAUCE Author: Cleaner
-# SAUCE Group: Nitrophusion
-# SAUCE Date: 19991231
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Ecolove by Cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-17-cl-eco
 
 Write-Host '
 

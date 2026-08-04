@@ -1,18 +1,4 @@
-﻿# Converted from: PYX-PYX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0596/raw/PYX-PYX.ANS
-# Source Revision: archive-sha256:2b7b1dd95a9d9508170892c43bef2c3ed5e02282eecce8d0ae15c8f279497494
-# Source SHA-256: e5aadb26ae7ed2e1dd1ea127f35f56b903a855e6da175a49f1cab27fa2a07c61
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-PYX.ANS by pyx (bamboosh); released in bmb-0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: pyxlogo :)
-# SAUCE Author: pyx
-# SAUCE Group: bamboosh
-# SAUCE Date: 19960508
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: pyxlogo :) by pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0596-pyx-pyx
 
 Write-Host '
                         [1;33m ■[0m

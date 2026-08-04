@@ -1,16 +1,4 @@
-﻿# Converted from: TZ-TBS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger06/raw/TZ-TBS1.ANS
-# Source Revision: archive-sha256:efc6b6d6892fe7f05c3b06052b1d79464b7ee8ab8c7bee2d77361e00cf941f28
-# Source SHA-256: f69727334e785b28567f580ba577f9ff38648132ef9f671655a30f72e8e35209
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TZ-TBS1.ANS by toolz (anger); released in anger06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the black sinister font.
-# SAUCE Author: toolz
-# SAUCE Group: anger
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: the black sinister font. by toolz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger06-tz-tbs1
 
 Write-Host '
 [1;30m[0;1;36m[0;36m[0;1;30m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;30m[0;1;36m[0;36m[0;1;30m[0;1;36m[0;36m[0;1;30m[0m

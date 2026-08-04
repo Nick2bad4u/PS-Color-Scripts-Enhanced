@@ -1,17 +1,4 @@
-﻿# Converted from: 90-WCT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-04/raw/90-WCT.ANS
-# Source Revision: archive-sha256:d0917030b27b9e907ef52cd30dd36996f1f4d775686af44e1bfd4859874789fb
-# Source SHA-256: bf2eb82f9da41ad22efb057c3ffb185d91890d28acc3d032bcb390e851b1e367
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 90-WCT.ANS by PleetO (Hype Inc.); released in hype-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: " WCT Logo "
-# SAUCE Author: PleetO
-# SAUCE Group: Hype Inc.
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: " WCT Logo " by PleetO | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-04-90-wct
 
 Write-Host '
 [1;36;46m▓▓▀[0;36m▀[0;37m [0;1;31m▄[0;1;31;41m▓▄[0;31m▄[0;1;31m [0;36m▀[0;1;36;46m▀▀▀▀▀[0;36m▀[0;1;31m [0;35m▄[0;1;35;45m▄▓[0;1;35;40m▄[0m [36m▀█[0;1;36;46m▓▓[0;1;36;40m███████████████████████████████████████████████[0;1;36;46m90hype[0m

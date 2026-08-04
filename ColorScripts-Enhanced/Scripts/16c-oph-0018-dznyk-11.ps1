@@ -1,17 +1,4 @@
-﻿# Converted from: DZNYK-11.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oph-0018/raw/DZNYK-11.ANS
-# Source Revision: archive-sha256:b78bc978b69dedfb9a07152cba296ecefc97611bd7bc7f5211d489ff748613dc
-# Source SHA-256: ce9bb062075881664777f9bca204594bc399fcfd9607fab1dc722cfb21c7c2f6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DZNYK-11.ANS by dieznyik (oph-0018); released in oph-0018 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: []_[\\ _      \\  ___]~\\0
-# SAUCE Author: dieznyik
-# SAUCE Date: 19960917
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: []_[\\ _ \\ ___]~\\0 by dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oph-0018-dznyk-11
 
 Write-Host '
                                   [1;30m░░[0m▄▄▄[1m▄▄░[0m

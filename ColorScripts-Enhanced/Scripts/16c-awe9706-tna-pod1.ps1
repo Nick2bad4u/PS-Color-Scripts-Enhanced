@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-POD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9706/raw/TNA-POD1.ANS
-# Source Revision: archive-sha256:867680f5fb3c86dcb017d8ed4cd79085881689d65da90056f84aba519ae4bdfe
-# Source SHA-256: 9b361c8a6c23a1e8a82afd64eb84eb331c383190b21752616aef489f0d10ac59
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-POD1.ANS by The Night Angel (AWE Lettering); released in awe9706 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Oneliners [POD]
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970521
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Oneliners [POD] by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9706-tna-pod1
 
 Write-Host '
  [1;30m─-── [0;31m░▓▄▄  [0;30;41m▓[0m [1;30;40m─ [0;31m░▓█▄▄▌[0;1;30m─-[0;31m░[0;30;41m▓[0;31;40m▄▄ [0;1;30;40m─── [0;34m░[0;30;44m▓[0m [1;34;40m▀█[0;1;34;47m▓[0;1;34;44m▄[0;1;34;40m▄▄[0;34m▄ [0;1;30m─-── [0m░ [1;30m─-─ [0;31m▀▀▀▄▄▄    ▄▄▄ ■    ▄█▄[0m

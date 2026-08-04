@@ -1,13 +1,4 @@
-﻿# Converted from: IL-SUB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0993/raw/IL-SUB.ANS
-# Source Revision: archive-sha256:446ccd0c92c26f820cb58358892955493ab8b589a0789ea252bbb676ba5a1e1f
-# Source SHA-256: 62412783ab0483e3181907fcbd63393f6c8115b81af3f89071b33d718f536a53
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IL-SUB.ANS by Illumination (acdu0993); released in acdu0993 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: IL-SUB.ANS by Illumination | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0993-il-sub-part01
 
 Write-Host '
                                                       ▄▄■·

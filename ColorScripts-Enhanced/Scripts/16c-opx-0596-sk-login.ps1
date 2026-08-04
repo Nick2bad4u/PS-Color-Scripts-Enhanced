@@ -1,18 +1,4 @@
-﻿# Converted from: SK!LOGIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0596/raw/SK!LOGIN.ANS
-# Source Revision: archive-sha256:06f164afecd2a38c1a107122cbc0c2c2d07c6484c9e867e2eecffd5f8b0065bf
-# Source SHA-256: c0d307233b1318509bb771969f71678357f470d51e4c506a8ad52f39276b6d9e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!LOGIN.ANS by Skeleton (Opium); released in opx-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Login
-# SAUCE Author: Skeleton
-# SAUCE Group: Opium
-# SAUCE Date: 19960502
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Login by Skeleton | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0596-sk-login
 
 Write-Host '
 

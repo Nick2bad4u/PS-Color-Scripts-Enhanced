@@ -1,18 +1,4 @@
-﻿# Converted from: SO-BC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0394/raw/SO-BC1.ANS
-# Source Revision: archive-sha256:7805df52925a98aad31489bafc7cabadb416309b42badbbd7aa9aecbdec2b1cf
-# Source SHA-256: 9383295b8968e6adfd9e7ec5e3aaaf26ec325ca732f4165038768a1f8d3c9316
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SO-BC1.ANS by Somms (ACiD Productions); released in acdu0394 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Black Chamber
-# SAUCE Author: Somms
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940219
-# SAUCE Dimensions: 80x220
-# Lines: 44-93
-# Columns: 1-80
+﻿# Artwork: Black Chamber by Somms | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0394-so-bc1-part02
 
 Write-Host '
 [35m█[0;1;35;45m░[0;35m███▌██████ ████    ▀▀[0;1;30;45m░░░░░░░[0;35m▄    ▄   [0;1;35m▐▓▒ █[0;1;35;47m▓[0m     [1;34m▄▄▄▄   [0;1;35m▌ [0;1;34m▐█▄   [0;1;35m▀▄  ■    [0;1;35;47m█[0;1;35m█[0;1;35;47m▓▒█[0m

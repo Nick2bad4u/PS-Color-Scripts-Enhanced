@@ -1,19 +1,4 @@
-﻿# Converted from: bs-l1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel27/raw/bs-l1.ans
-# Source Revision: raw-sha256:aca42b8ca5a3313bb50d2c71f87e007c769556dc91040c7a1fc6440babee77a0
-# Source SHA-256: aca42b8ca5a3313bb50d2c71f87e007c769556dc91040c7a1fc6440babee77a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bs-l1.ans by burps (fuel); released in fuel27 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: layer one 2018
-# SAUCE Author: burps
-# SAUCE Group: fuel
-# SAUCE Date: 20180520
-# SAUCE Dimensions: 80x23
-# SAUCE Font: IBM VGA
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: layer one 2018 by burps | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel27-bs-l1
 
 Write-Host '
 [1;33;41m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;33;40m▀▀[0;1;33;41m▓▓▓▓▓▓[0m

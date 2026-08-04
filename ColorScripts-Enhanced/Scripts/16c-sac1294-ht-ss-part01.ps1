@@ -1,18 +1,4 @@
-﻿# Converted from: HT-SS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac1294/raw/HT-SS.ANS
-# Source Revision: archive-sha256:4cf7765ee6660556cb900dacf0ec67f070b8e4df414172b5e01733a49d10031f
-# Source SHA-256: 7cd2f2a5e41445f92fd85394aa7a1a6c78364c199196b22773d991208989497e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HT-SS.ANS by hetero; released in sac1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
-# SAUCE Title: SHADOW SYSTEM
-# SAUCE Author: HETERO
-# SAUCE Group: LKCC
-# SAUCE Date: 19941224
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: SHADOW SYSTEM by hetero | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac1294-ht-ss-part01
 
 Write-Host '
 [1;36m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

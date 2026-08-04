@@ -1,18 +1,4 @@
-﻿# Converted from: PS-AOS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drd0496/raw/PS-AOS1.ANS
-# Source Revision: archive-sha256:41fc89e5f261ce75ae4e46cbe1387759715c9d02278d3d6386bad5309e639848
-# Source SHA-256: cb9ddc22b53afcecd2af4dbf78ad5ad701303d3c4e8cc74f709db258ce3a48b4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PS-AOS1.ANS by pheonstar (droid); released in drd0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: alter of sacrifice
-# SAUCE Author: pheonstar
-# SAUCE Group: droid
-# SAUCE Date: 19960331
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: alter of sacrifice by pheonstar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drd0496-ps-aos1
 
 Write-Host '
 [1;36m[0m          [1;30m [0;1;36m▄▄▄[0;1;36;42m▓▓[0;1;36;40m█▀███▄▄[0;1;30;40m     [0m                       [1;30m      [0;1;36m▄▄▄[0;1;36;42m▓▓[0;1;36;40m▀[0;1;36;42m▒▓▓[0;1;36;40m▄▄▄[0;1;32;40m        [0m

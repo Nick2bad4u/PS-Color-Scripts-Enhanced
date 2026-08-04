@@ -1,18 +1,4 @@
-﻿# Converted from: DENIZN-2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axelgear/raw/DENIZN-2.ANS
-# Source Revision: archive-sha256:b47467ff2f44fba1583ea1e079d55dd2548eadef82dd6d664541c9909c9928e2
-# Source SHA-256: 51a4a61bd9fbe4b56bf806a7942dc0fa38bf3efd1390d56f9e14e28463ca2757
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DENIZN-2.ANS by Ironghost + Akairo (Denizen Industries); released in axelgear and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Denizen Piece Number Two
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Denizen Industries
-# SAUCE Date: 19970418
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Denizen Piece Number Two by Ironghost + Akairo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axelgear-denizn-2
 
 Write-Host '
 [1;30m▄▄▄[0m▄▄▄▄▄▄   [36m▄▄▄▄▄▄▄▄[0;1;36m▄▄▄▄▄▄▄▄▄[0m  [36m▄▄[0;1;36m▄▄▄▄▄▄[0m    [36m▄[0;1;36m▄▄▄[0;36m  [0;32m ▄   [0;36m [0;37m   [0;32m▄▄▄▄▄▄▄▄[0;1;32m▄▄▄▒▄▄[0m

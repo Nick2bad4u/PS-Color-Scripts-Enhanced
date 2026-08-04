@@ -1,18 +1,4 @@
-﻿# Converted from: PC-HAVN3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense11/raw/PC-HAVN3.ANS
-# Source Revision: archive-sha256:0690b90402a70581c8f215d3ac545dcd69504e18bce536e07fefa6abfa4129ef
-# Source SHA-256: a01f7ec372b63078b30ad381b86ca95ac723d89dcd319b98f5c813c34409c4fc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-HAVN3.ANS by Proctologist (SeNSE); released in sense11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Haven again
-# SAUCE Author: Proctologist
-# SAUCE Group: SeNSE
-# SAUCE Date: 19980707
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Haven again by Proctologist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense11-pc-havn3
 
 Write-Host '
       [1;30m_.,_[0m                                                            [1;30m_,._[0m

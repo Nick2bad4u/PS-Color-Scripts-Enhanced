@@ -1,13 +1,4 @@
-﻿# Converted from: tent.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/openworld01ok/raw/tent.ans
-# Source Revision: archive-sha256:0bbffa67a24aa77245d61809e45ade0bbedb9387ba99f1f1dc6ea49d67fa7e3a
-# Source SHA-256: 5f0c665b52e9c524243b9260538bd3881bc3bc32968daf14b05dd792734e7a70
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tent.ans by Luxuse (openworld01ok); released in openworld01ok and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: tent.ans by Luxuse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-openworld01ok-tent
 
 Write-Host '
        [35m░░[0m                                              [35m█[0;35;45m▀[0;30;45m▀[0m

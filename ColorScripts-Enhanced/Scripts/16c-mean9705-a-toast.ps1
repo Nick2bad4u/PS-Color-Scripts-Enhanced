@@ -1,18 +1,4 @@
-﻿# Converted from: A-TOAST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mean9705/raw/A-TOAST.ANS
-# Source Revision: archive-sha256:96235d9849bffd6005b05e894c29f6b67b3d4c051090948bf653b689870cae3a
-# Source SHA-256: cf5d7f2e7c2393fd811631ab30b5e37e681ce589c518d73af24491b48423172e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: A-TOAST.ANS by alecs (mean scheme); released in mean9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: tOast!
-# SAUCE Author: alecs
-# SAUCE Group: mean scheme
-# SAUCE Date: 19970427
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: tOast! by alecs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mean9705-a-toast
 
 Write-Host '
 [33m▄[0;1;33m▐[0;1;33;43m▓[0;1;37;40m██[0;1;33;43m█▀[0;33m▄▌▀▀▀[0m    [32m▄▄[0;1;33m▄[0;1;37m▄███[0;1;33m▌▀[0;32m  ▐▀[0;1;33;42m░░[0m   [32m▄[0;1;33m▄[0;1;37m▄█[0;1;33;42m▓[0;1;33;40m▀[0;1;33;42m░[0;32m▐█[0;1;33;42m░░[0;32m ▐█[0;1;33;42m░░[0;32m▌░[0;30;42m▓[0;32;40m ▄▄▄██▀▀▐[0;1;33;42m░░[0;32m█ [0;31m░▓[0;1;33;41m░▓█[0;1;37;40m██[0;1;33;41m▌[0;31m▄▄   [0m

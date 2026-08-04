@@ -1,18 +1,4 @@
-﻿# Converted from: JMO-HDRS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rg_jmo_2/raw/JMO-HDRS.ANS
-# Source Revision: archive-sha256:fc19b97fecaca60547a728fc55037fbc35ea6d809277feb36fa691a34fdeb3cc
-# Source SHA-256: c715e4e2c0a2a6a0282322274b214db85ccc5db07dfe44fbafc744b7d81b3d72
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JMO-HDRS.ANS by Jam-O (ReGeneration); released in rg_jmo_2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Headers
-# SAUCE Author: Jam-O
-# SAUCE Group: ReGeneration
-# SAUCE Date: 19961224
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Headers by Jam-O | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rg-jmo-2-jmo-hdrs
 
 Write-Host '
 --------------------------------------------------------------------------------

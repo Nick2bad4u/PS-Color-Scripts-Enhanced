@@ -1,18 +1,4 @@
-﻿# Converted from: SN-SOL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-13/raw/SN-SOL.ANS
-# Source Revision: archive-sha256:ea98960ace16e4f090b4a075123e7f05c37a5a5a792753793e08aef5bcb35959
-# Source SHA-256: f6b9dab1d25a1de963f91eba0e6eb9e0d8694a2d34e02e7542a80173121c6c41
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SN-SOL.ANS by Snowball (Ecolove); released in eco-13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: " Old soldiers never die "
-# SAUCE Author: Snowball
-# SAUCE Group: Ecolove
-# SAUCE Date: 19990302
-# SAUCE Dimensions: 80x223
-# Lines: 179-223
-# Columns: 1-80
+﻿# Artwork: " Old soldiers never die " by Snowball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-13-sn-sol-part05
 
 Write-Host '
    [37m█[0;1;37;47m█[0m █[1;47m█[0m █ ▐[1;47m█[0m█[1;31m [0;33m▓[0;1;31;43m▒▒[0;1;31;40m  [0;33m▄[0;1;31m▄▄[0;1;31;43m▄[0;1;31;40m█[0;1;31;43m▄[0;1;31;40m▄[0;33m▄░░[0;1;31m▀▀▀ [0;1;37m█[0;1;31m▐[0m  [1m█[0;1;31m [0;1;30;43m░[0;1;31;43m░▒▓[0;1;31;40m█ [0m█[1;31m ▀  [0;33m▄[0;1;31m [0;33m▄[0;1;31;43m░░[0;33m█▄[0;1;31m [0;1;37;47m█[0;33m▐[0;1;31;43m [0;1;30;43m░░▒[0;33m [0;1;31m [0m█[1;47m██[0m█[1;31m [0m█[1;47m█[0m  █[1;47m█[0m

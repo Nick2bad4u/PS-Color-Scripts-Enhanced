@@ -1,18 +1,4 @@
-﻿# Converted from: bj-asc36.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bj-creep/raw/bj-asc36.ans
-# Source Revision: archive-sha256:0debf4b45d7d951a68b5333767ded34f656851230e3888db7abc1feaad98e52f
-# Source SHA-256: b4bc844ff0f9de11a99a0a99784c106a5ab0e1ba4ca4bf8558e81cd107be0442
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bj-asc36.ans by Black Jack (Plain [11/02/96]); released in bj-creep and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Main Menu (deadlock)
-# SAUCE Author: Black Jack
-# SAUCE Group: Plain [11/02/96]
-# SAUCE Date: 19961102
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Main Menu (deadlock) by Black Jack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bj-creep-bj-asc36
 
 Write-Host '
     _ .  _      . +                             ` +           ;

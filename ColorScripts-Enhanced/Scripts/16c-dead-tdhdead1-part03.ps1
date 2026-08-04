@@ -1,13 +1,4 @@
-﻿# Converted from: TDHDEAD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dead/raw/TDHDEAD1.ANS
-# Source Revision: archive-sha256:42002c7465322e6567b6ada22b7d24270f500cdc26769d5efac519e13d8ec757
-# Source SHA-256: c8fb5ec4a9919adbe25d831840451fa78ddcf4f0ce9224175dfb7343a4d02db5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TDHDEAD1.ANS by Manslaughter (dead); released in dead and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 99-135
-# Columns: 1-80
+﻿# Artwork: TDHDEAD1.ANS by Manslaughter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dead-tdhdead1-part03
 
 Write-Host '
 [1m  [0m▄▄▄▄▄▄▄▄▄▄             ▄▄▄▄▄▄▄▄        ▄▄▄▄▄▄▄▄▄▄▄▄      ▄▄▄▄▄▄▄▄          ▄

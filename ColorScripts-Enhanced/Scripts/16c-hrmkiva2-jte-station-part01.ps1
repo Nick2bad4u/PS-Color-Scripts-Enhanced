@@ -1,18 +1,4 @@
-﻿# Converted from: JTE-STATION.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hrmkiva2/raw/JTE-STATION.ANS
-# Source Revision: archive-sha256:abc573be699b490f9317d70002a528632e59fc3fddf316663449886fd8c21a04
-# Source SHA-256: a078be95789fbafcbca349f7327b02cdeab2c362e24022a5fbac999dbaac3104
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JTE-STATION.ANS by Jate (HiRMU); released in hrmkiva2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Gas station BBS
-# SAUCE Author: Jate
-# SAUCE Group: HiRMU
-# SAUCE Date: 19960304
-# SAUCE Font: IBM VGA
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Gas station BBS by Jate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hrmkiva2-jte-station-part01
 
 Write-Host '
 [1;36;46m▄▄▄▀▄▄▄ ▄▄▄▄▄▄▄▄▄▀▄▄▄▄▄▄▄▄   ▄     ▄   ▄  ▄  ▀     ▀    ▀                      [0m

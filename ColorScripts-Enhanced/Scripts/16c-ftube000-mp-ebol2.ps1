@@ -1,13 +1,4 @@
-﻿# Converted from: mp-ebol2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ftube000/raw/mp-ebol2.ans
-# Source Revision: archive-sha256:f29188f4b41daf99fc774947c2d6d1a423baf4db21494dd9d6a1f60fefebfd1f
-# Source SHA-256: 244677463a77f2e4b28ee51b350f13fb209809fee3d431d4dd2c404c8c410380
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mp-ebol2.ans by Meatpod (ftube000); released in ftube000 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: mp-ebol2.ans by Meatpod | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ftube000-mp-ebol2
 
 Write-Host '
                                                           [1;30m  [0m         _[1;30m [0m

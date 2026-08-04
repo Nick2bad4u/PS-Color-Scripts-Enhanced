@@ -1,18 +1,4 @@
-﻿# Converted from: CP-URAN4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense11/raw/CP-URAN4.ANS
-# Source Revision: archive-sha256:0690b90402a70581c8f215d3ac545dcd69504e18bce536e07fefa6abfa4129ef
-# Source SHA-256: 62a571cce1fd95315839cd48f2a28f9afad3a3e44416af3bd356cf6fefbeb67e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CP-URAN4.ANS by cyber phreak (sense); released in sense11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: uranus #4
-# SAUCE Author: cyber phreak
-# SAUCE Group: sense
-# SAUCE Date: 19980703
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: uranus #4 by cyber phreak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense11-cp-uran4
 
 Write-Host '
      [1;30m▄[0m▄▄[1;30;47m▀[0m█[1;30;47m░░[0m▀▀██▀▀                      [1;32m▄▓▓░░[0m     ░░▓▓██▀█[1;47mURANUS[0m█▄[1;30;47m░░[0m▌▄

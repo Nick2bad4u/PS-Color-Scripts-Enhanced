@@ -1,13 +1,4 @@
-﻿# Converted from: us-ft.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/labia314/raw/us-ft.ans
-# Source Revision: archive-sha256:704095869b71d0834bb8c83d90c0dddc7803f8a47b5046986cc14c14a7864134
-# Source SHA-256: 01b6fd65d16312d6d642c6b089c00172ec01e7f0f11b7a6182ac3d7860570a7a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-ft.ans by Meatpod + Shrimp (labia314); released in labia314 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: us-ft.ans by Meatpod + Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-labia314-us-ft
 
 Write-Host '
  [36m            [0;37m     [0m

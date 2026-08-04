@@ -1,18 +1,4 @@
-﻿# Converted from: TL!RR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-003/raw/TL!RR.ANS
-# Source Revision: archive-sha256:de78ce19727ea90c75e1ecc7f5b4d900676dc27b4dceb8a870f61665ee210859
-# Source SHA-256: d386480ff994c9cfe011eac2ba237a8bf2e5b81a3fe08eab10f3b2a0027cd4e9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TL!RR.ANS by timeless (rare!ascii ^ ecl); released in rare-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: rare!a
-# SAUCE Author: timeless
-# SAUCE Group: rare!ascii ^ ecl
-# SAUCE Date: 19800813
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: rare!a by timeless | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-003-tl-rr
 
 Write-Host '
 

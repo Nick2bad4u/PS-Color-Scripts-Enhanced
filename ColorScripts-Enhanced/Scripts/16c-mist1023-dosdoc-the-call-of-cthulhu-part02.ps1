@@ -1,19 +1,4 @@
-﻿# Converted from: DOSDOC-THE_CALL_OF_CTHULHU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1023/raw/DOSDOC-THE_CALL_OF_CTHULHU.ANS
-# Source Revision: archive-sha256:85986912ea2464623a6cb0e6c05b9b87ede10865c5aaf338ceaa9a86cac2b00a
-# Source SHA-256: 3fd52b188839372ccf5b697660531da601b3871975b46e86d477e484de907118
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DOSDOC-THE_CALL_OF_CTHULHU.ANS by DosDoc (Mistigris); released in mist1023 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: FlashParty: The Call of Cthulhu
-# SAUCE Author: DosDoc
-# SAUCE Group: Mistigris
-# SAUCE Date: 20231026
-# SAUCE Dimensions: 80x136
-# SAUCE Font: IBM VGA
-# Lines: 45-86
-# Columns: 1-80
+﻿# Artwork: FlashParty: The Call of Cthulhu by DosDoc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1023-dosdoc-the-call-of-cthulhu-part02
 
 Write-Host '
 [1;33m    [0;32m▒█████████[0;1;32m▒[0;1;32;42m▄[0;1;32;40m▀  [0;32m▒████▀ █▀ ▄▀ ▀[0;1;32m██████  ▄▄  ███▀  [0;32m▀▄ ▀█  ▒████████████████▒  [0;1;32m▒█[0m

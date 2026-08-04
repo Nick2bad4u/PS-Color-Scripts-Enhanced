@@ -1,19 +1,4 @@
-﻿# Converted from: gDm-Arrr.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/slackpack001/raw/gDm-Arrr.ans
-# Source Revision: archive-sha256:5cacf66a668b317d377907af22e0a4e5723c4f7fb85756d1ef888c14cabea25b
-# Source SHA-256: 37a13d572333925ead424c65f60accdff9c0d54766fb3e5ba6c13bb99cb4f859
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: gDm-Arrr.ans by GngrDr3dM4n (Slackers); released in slackpack001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ARRR
-# SAUCE Author: GngrDr3dM4n
-# SAUCE Group: Slackers
-# SAUCE Date: 20250606
-# SAUCE Dimensions: 80x20
-# SAUCE Font: IBM VGA
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: ARRR by GngrDr3dM4n | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-slackpack001-gdm-arrr
 
 Write-Host '
  [1;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

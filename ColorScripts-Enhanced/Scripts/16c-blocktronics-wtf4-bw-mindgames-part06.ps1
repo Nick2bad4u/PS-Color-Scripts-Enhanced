@@ -1,16 +1,4 @@
-﻿# Converted from: bw_mindgames.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_wtf4/raw/bw_mindgames.ans
-# Source Revision: archive-sha256:250b5eed057a6c043b178a52a71a9f6b183e2a63591879f24e3c64051465130b
-# Source SHA-256: f32d11f2fd525550c4341f36d0138d4327475e9e3b8a459411c2abbc12a2bf47
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bw_mindgames.ans by Binary Walker (blocktronics_wtf4); released in blocktronics_wtf4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 20140714
-# SAUCE Dimensions: 80x452
-# SAUCE Font: IBM VGA
-# Lines: 220-262
-# Columns: 1-80
+﻿# Artwork: bw_mindgames.ans by Binary Walker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-wtf4-bw-mindgames-part06
 
 Write-Host '
               [32m▓█▀[0m         [32m▀█▓▒░▒[0;1;31m [0;33m░[0;1;31m [0;33m █▐▌[0;37m ▐[0;1;37m█ ▀▀    [0m  ▄  [1;31m ▐[0;33m█▌[0;31m▐█[0;1;31m   [0;31m  ▀▀▄[0;1;31m [0;32m░▒▓████░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: TH-BOM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aim-0895/raw/TH-BOM.ANS
-# Source Revision: archive-sha256:204b30a10a0d728beeb2b6ef77a685417d42699bf345ab491eb081a7bbd4b870
-# Source SHA-256: fd9b612e81c0f5dfc9e90c1510d1b470ea858091b20472df0397f952175f9264
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH-BOM.ANS by Threshold (<AiM>); released in aim-0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: BurnOut Mode BBS Ansi
-# SAUCE Author: Threshold
-# SAUCE Group: <AiM>
-# SAUCE Date: 19950805
-# SAUCE Dimensions: 80x130
-# Lines: 89-130
-# Columns: 1-80
+﻿# Artwork: BurnOut Mode BBS Ansi by Threshold | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aim-0895-th-bom-part03
 
 Write-Host '
 [1;34;44m░░[0m [1;34;44m▒▒▒▒[0;1;30;40m░▒░▒▓▓▓▓▓▓▓▓▒▒[0;31m▐████████████████████████████████▓▓▓▓▓▒▒▒▒▒▒▓▓▓▓▓▓█████████[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: FD-CRYPT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/grim-03/raw/FD-CRYPT.ANS
-# Source Revision: archive-sha256:ebc036abf9a775cca5b26ca6cd97418b4cbcbb8a88c78d39df773432429bd88a
-# Source SHA-256: 3871cc0adcf6d9e703bba63a121184ab11aae1f71c7b29c7ea1012e07f319b48
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FD-CRYPT.ANS by Final Descendant (grim-03); released in grim-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 36-67
-# Columns: 1-80
+﻿# Artwork: FD-CRYPT.ANS by Final Descendant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-grim-03-fd-crypt-part02
 
 Write-Host '
 [1;30m  [0;33m▄▄▓▓▓▓▒▒▒[0;1;30m▓▓[0;33m▀▒░░▒░[0;1;30m░[0;33m▒░░▒▓▓[0;1;30m█[0m      [1;30m░ ░░  [0;1;37m▐[0m▒░▓[1m▌[0;1;30m▓▒░░[0m     [1;30m░   ░  ▓░[0m     [1;30m▓░  ▒ ░ ░▒[0m

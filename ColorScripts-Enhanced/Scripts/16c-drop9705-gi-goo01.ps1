@@ -1,18 +1,4 @@
-﻿# Converted from: GI-GOO01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drop9705/raw/GI-GOO01.ANS
-# Source Revision: archive-sha256:7fe1f56651ec06ccf40826f5781f068ca77061ce348751ee019a860090f3b0ac
-# Source SHA-256: 2664187d5ca7c961e1fb7800c6b53f0a4b4d0f534164854bfdaefae0447454e2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GI-GOO01.ANS by green ice (dr0p); released in drop9705 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: goo logo
-# SAUCE Author: green ice
-# SAUCE Group: dr0p
-# SAUCE Date: 19970516
-# SAUCE Dimensions: 80x15
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: goo logo by green ice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drop9705-gi-goo01
 
 Write-Host '
 [1m [0;34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: DZ-FILES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira-007a/raw/DZ-FILES.ANS
-# Source Revision: archive-sha256:ee5a82ac7f98955da25871045743238711285c6b7b62811e228512414e2f4a52
-# Source SHA-256: 2f28416343fabd108ec1db4f42ab53be41bfb4d56e49d699862c59a6d73eb669
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DZ-FILES.ANS by dionyzos (irato); released in ira-007a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: still - files
-# SAUCE Author: dionyzos
-# SAUCE Group: irato
-# SAUCE Date: 19980925
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: still - files by dionyzos | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira-007a-dz-files
 
 Write-Host '
    [34m       [0m   [32m■▓▄[0;34m [0;32m     [0;34m       [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: JF-PORT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ncd0397/raw/JF-PORT.ANS
-# Source Revision: archive-sha256:279b79a24916a8da9fdbbf933292cd4026cd3832fca43ab7f735b3c3ea1fd603
-# Source SHA-256: 99e9ac282493024bff07901c5b84d3f2ede28444dc23fc976580840d320cdccc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JF-PORT.ANS by jellyfish (no.code); released in ncd0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 'fun' logo for p.p., my other group
-# SAUCE Author: jellyfish
-# SAUCE Group: no.code
-# SAUCE Date: 19970226
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: 'fun' logo for p.p., my other group by jellyfish | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ncd0397-jf-port
 
 Write-Host '
 [1;32m$$$$$$$$$$$$ⁿ''''''''''$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: PL-PHAC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise01/raw/PL-PHAC.ANS
-# Source Revision: archive-sha256:e3198cb8acd7fe94465c31b62ef14e425fb9025c9ea3147bcc412cd9cd9a64c5
-# Source SHA-256: 8c3e4bf0b0085458f34fe894a1b4949789bb9206a0fc4ac2d0496a167df25a8b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PL-PHAC.ANS by Playdoe (uprise01); released in uprise01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: PL-PHAC.ANS by Playdoe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise01-pl-phac
 
 Write-Host '
               [1m██[0;1;46m░[0m

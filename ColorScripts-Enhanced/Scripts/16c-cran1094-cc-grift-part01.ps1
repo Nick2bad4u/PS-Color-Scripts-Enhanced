@@ -1,13 +1,4 @@
-﻿# Converted from: CC-GRIFT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cran1094/raw/CC-GRIFT.ANS
-# Source Revision: archive-sha256:c9381fb75e8f8a66431f7b0fe625ed381b9b49f3dba635c4d39fcdced612d967
-# Source SHA-256: eff9606ae8e014cb102912efadd677fee17862b85a8b2e1ee8f9f71a2a80f24f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CC-GRIFT.ANS by Clorox Cowboy (cran1094); released in cran1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: CC-GRIFT.ANS by Clorox Cowboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cran1094-cc-grift-part01
 
 Write-Host '
 [1m┌┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┐[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: DD-POEM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe04/raw/DD-POEM.ANS
-# Source Revision: archive-sha256:4f0496a9701d4903473a706c6407c52ebc6554ce22b4b35c3cd1e5bc9689ea7f
-# Source SHA-256: 1e096a98c2476681d298e4fbb93253db5ad1f45b49bd32c14036a5cd7681e96e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-POEM.ANS by Diamond Darrell (Circe); released in circe04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Poe's Land main menu
-# SAUCE Author: Diamond Darrell
-# SAUCE Group: Circe
-# SAUCE Date: 19980305
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Poe's Land main menu by Diamond Darrell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe04-dd-poem
 
 Write-Host '
  [1;33m░░░ ▀ ▓▓▀▀▀[0;1;31m     [0;33m▄▄[0;1;31;43m░░[0;1;31;40m▀[0;1;33;40m░░[0;1;31;40m▄▄█▓▓[0;1;31;43m▓[0;1;31;40m█▀▀[0;1;31;47m▓▓[0;1;31;40m██▀▀██▄█▀▀[0;1;31;47m▓▓[0;1;31;40m▓▓█▀▀▀▀ ██    ▀▀▀▀██[0;1;31;47m▓▓[0;1;31;40m▀▀██▄▄▄▄[0;1;31;47m▓▓[0m

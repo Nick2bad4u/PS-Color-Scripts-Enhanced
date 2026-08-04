@@ -1,18 +1,4 @@
-﻿# Converted from: GH-EFG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lap-1294/raw/GH-EFG1.ANS
-# Source Revision: archive-sha256:c678171e2755c632933da0be43c78cd29254e2fe17470b3e3473e1284f48ee89
-# Source SHA-256: c758f3358fa25d4b3b7c6ee2ccd97be5733a9738fa0d457fb2efdb4284a4ef4e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GH-EFG1.ANS by Ghent (Lapse); released in lap-1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Especially for Gamers
-# SAUCE Author: Ghent
-# SAUCE Group: Lapse
-# SAUCE Date: 19941113
-# SAUCE Dimensions: 80x25
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Especially for Gamers by Ghent | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lap-1294-gh-efg1-part01
 
 Write-Host '
 [1;30;40m· [0m                                                                            [1;30;40m·[0m

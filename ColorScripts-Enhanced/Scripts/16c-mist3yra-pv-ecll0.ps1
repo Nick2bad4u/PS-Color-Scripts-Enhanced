@@ -1,18 +1,4 @@
-﻿# Converted from: PV-ECLL0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist3yra/raw/PV-ECLL0.ANS
-# Source Revision: archive-sha256:2b1ec0b7cbe048c013d4fb5b84e23b783ff4f9f900b4e7c0cd1dcc3d31e02136
-# Source SHA-256: ee85a81a550116da045765410546b24a3b4ab3b855fc9b8d8ed5d640f5efec95
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PV-ECLL0.ANS by Pure Voltage (MiSTiGRiS); released in mist3yra and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Eclipse Couriers WHQ logo
-# SAUCE Author: Pure Voltage
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19970224
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Eclipse Couriers WHQ logo by Pure Voltage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist3yra-pv-ecll0
 
 Write-Host '
 [1;36m▄█[0;30;46m░[0;1;30;40m▄[0;1;36;40m▀[0;1;36;46m▒[0;1;36;44m▓[0;36;44m▓░[0;1;34;44m▀▓▄▄░ [0;30;44m░░▒▒[0;34;40m░[0;30;44m▓▓[0;1;36;40m▄    [0;1;30;40m▀█▀▀▀▀▓▄▄▄▓▀▀▀▀█▓  █▀▀▀▀▀▀▀▄█▀▀▀▀█    ▄▄▓▀▀▀▀▀▀▀▀▓▄▄[0m

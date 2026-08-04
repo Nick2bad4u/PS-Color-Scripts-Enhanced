@@ -1,13 +1,4 @@
-﻿# Converted from: VN-XIDE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/xide0495/raw/VN-XIDE.ANS
-# Source Revision: archive-sha256:e317471988b625a6d81c93dffa76e59b4fa1a5332df991b4e6e58355a6ccc8a7
-# Source SHA-256: 5d6847bc1b2230937b9122dfc5eeb01f82af63e2f83621712b2229be67745f53
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VN-XIDE.ANS by Venom (xide0495); released in xide0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 44-75
-# Columns: 1-80
+﻿# Artwork: VN-XIDE.ANS by Venom | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-xide0495-vn-xide-part02
 
 Write-Host '
 [1;30m██▌[0m                               [1;37m [0m [1;34m [0;34m [0;1;30m  [0m                                     [1;30m▐██[0m

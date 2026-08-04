@@ -1,18 +1,4 @@
-﻿# Converted from: Sob-gl2k.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-29/raw/Sob-gl2k.ans
-# Source Revision: archive-sha256:64287797434ba5c34f8fdee757bcedec56b8ae5a9f153947e0e8412775bc9c8e
-# Source SHA-256: d437fdfbbd7cbae5bfdfaf58d9e0c0bf134ef39c3feec43cc9875eb160b925ae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Sob-gl2k.ans by Somberlain (Glue); released in glue-29 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Glue2k
-# SAUCE Author: Somberlain
-# SAUCE Group: Glue
-# SAUCE Date: 20000105
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Glue2k by Somberlain | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-29-sob-gl2k
 
 Write-Host '
 [30m[0;1;30m[0;30m[0;1;30m[0;30m[0;1;30m[0;30m[0;1;30m[0;30m[0;1;30m[0;30m[0;1;30m[0;30m[0;37m[0m[30m                                          [0;37m        [0;36m▄[0;37m    [0;1;30m▄▄▄[0m

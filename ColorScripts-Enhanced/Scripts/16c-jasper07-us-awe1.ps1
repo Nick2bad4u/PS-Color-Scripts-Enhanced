@@ -1,18 +1,4 @@
-﻿# Converted from: US-AWE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper07/raw/US-AWE1.ANS
-# Source Revision: archive-sha256:c42bfa4438f002452f1a6bc8caf7f32e2e6bfd8fffb358dd625c49ecd6cf6820
-# Source SHA-256: 7d6d3fa15062696c8f0c1c8b2c56f1c036446ed98f97b2c38c6a8969445e7c76
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-AWE1.ANS by Aesthetic + Avenging Angel (JASPER MONTANO); released in jasper07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the gangsta limp returns
-# SAUCE Author: aesthet1c // avg
-# SAUCE Group: JASPER MONTANO
-# SAUCE Date: 20020618
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: the gangsta limp returns by Aesthetic + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper07-us-awe1
 
 Write-Host '
 [1;31m [0;1;37m [0;31m▀[0;31;45m▄ ▐[0;31;40m▄[0m   [1;30;40m░░░░[0m  [31m▀[0;31;45m▄▐[0;31;40m▄  [0;1;30;40m░░░[0;31m   [0;1;35;45m ▄[0;31;45m▀[0;31;40m▒[0;37;40m  [0;1;30;40m░[0m   [31m▄▄[0;35;41m▐▀[0;31;40m█ [0;1;30;40m▄[0;1;30;47m▀[0;1;37;47m▄ ▀[0m▀▀▀   [1;30m▄▄[0;36m▄[0;1;36m▄[0m   [1;30m░░[0m    [31m ▀▀[0;31;45m▄▐[0;31;40m▄▄▄[0;37;40m [0;31;40m▀[0;31;45m▓[0;31;40m▄[0m

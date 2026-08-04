@@ -1,13 +1,4 @@
-﻿# Converted from: W0-TRTLE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac-29/raw/W0-TRTLE.ANS
-# Source Revision: archive-sha256:4a7b5662970be48b68a4478e5f403ec3affc1f2b03d21be3f154e5f81c6d2e6e
-# Source SHA-256: f8561f47ab916202dca23635c4be5004aeea738a25dce132739e387e93ff8d1e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: W0-TRTLE.ANS by Webpige0 (sac-29); released in sac-29 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: W0-TRTLE.ANS by Webpige0 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac-29-w0-trtle-part02
 
 Write-Host '
 [32m ██████████████████[0;1;30;42m▐███▌▓▓▌[0;32m██████████████████████████████████████████████▓▀████[0m

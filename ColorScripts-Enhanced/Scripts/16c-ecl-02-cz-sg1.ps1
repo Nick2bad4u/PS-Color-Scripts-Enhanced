@@ -1,18 +1,4 @@
-﻿# Converted from: CZ-SG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-02/raw/CZ-SG1.ANS
-# Source Revision: archive-sha256:815fb0802a5a645b19e4bb1a2e67405cbfe5a7d016a5808efe6ef55f809d080c
-# Source SHA-256: 93533ad402dceb9bc649d79461f77c34c77c40774bb11e81960b170d73a948e9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CZ-SG1.ANS by pleeze? (eclipse); released in ecl-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: spinal gamma
-# SAUCE Author: pleeze?
-# SAUCE Group: eclipse
-# SAUCE Date: 19960627
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: spinal gamma by pleeze? | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-02-cz-sg1
 
 Write-Host '
 

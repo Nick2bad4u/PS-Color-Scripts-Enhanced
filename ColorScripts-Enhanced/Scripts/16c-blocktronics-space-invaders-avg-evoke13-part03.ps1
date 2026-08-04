@@ -1,13 +1,4 @@
-﻿# Converted from: avg-evoke13.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_space_invaders/raw/avg-evoke13.ans
-# Source Revision: archive-sha256:c8f02d48521b213dd146adf31869fd604c2af314eab4dd9a1f4528b39146b7a9
-# Source SHA-256: ef9024d21d450482acb1293221ba3507ebcb65123e3e30311a1516f56933c71a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-evoke13.ans by Avenging Angel (blocktronics_space_invaders); released in blocktronics_space_invaders and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 87-127
-# Columns: 1-80
+﻿# Artwork: avg-evoke13.ans by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-space-invaders-avg-evoke13-part03
 
 Write-Host '
 [34;46m▀[0m      [1;34;40m░░[0;34m███[0;35m░░[0;34m█[0;36;44m▄██▄[0m      [1;34;40m░░[0;34m███[0;35m  [0;34m█[0;36;44m▄██▄[0m      [1;34;40m░░[0;36;44m   [0;35;40m  [0;34;40m█[0;36;44m▄██▄[0m      [1;34;40m░░[0;34m███[0;35m░░[0;34m█[0;36;44m▄██▄[0m      [1;34;40m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: AN!HDR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impact06/raw/AN!HDR.ANS
-# Source Revision: archive-sha256:ef18622c9c66dd847bb2cc457197b6f4440a43602cfe6adb3f0cc31807a0f445
-# Source SHA-256: 779c57e649727e930b88d6944b0389ef2ae59a414f780a40c90595251713951f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AN!HDR.ANS by aneurysm (impact); released in impact06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: eyez
-# SAUCE Author: aneurysm
-# SAUCE Group: impact
-# SAUCE Date: 19970124
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: eyez by aneurysm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impact06-an-hdr
 
 Write-Host '
  [34m,yy[0;1;34m$$[0;34m'',s$$[0;1;34m$[0m [1;34m$''[0;34m$[0;36m$y[0;1;36m$[0;36m$$$$[0;1;36m$$[0;36m$$$$$$$$$[0;1;36m$$$$$[0;36m$$$$$$$$$$$$$$$$$$$$[0;1;36m$$''[0;1;30m [0;34m$`[0;1;34m''$^$[0;34m$Ss,`[0;1;34m$$[0;34mSs.[0m

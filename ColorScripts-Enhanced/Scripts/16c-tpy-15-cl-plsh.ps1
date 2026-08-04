@@ -1,17 +1,4 @@
-﻿# Converted from: CL!-PLSH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tpy-15/raw/CL!-PLSH.ANS
-# Source Revision: archive-sha256:f1391bc52c069132e3879274a728014c1d2d39750efc2129fcce8e498ec45b88
-# Source SHA-256: e512edf5ae54ae1056f0894a8a5c02d718ede62a3eff03ac2f00dbf765123253
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-PLSH.ANS by cleaner (telepathy); released in tpy-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Plush
-# SAUCE Author: cleaner
-# SAUCE Group: telepathy
-# SAUCE Date: 19980901
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Plush by cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tpy-15-cl-plsh
 
 Write-Host '
                    [1;32m,[0;32m._[0;37m [0m                                [37m [0;1;32m,[0;32m._[0m

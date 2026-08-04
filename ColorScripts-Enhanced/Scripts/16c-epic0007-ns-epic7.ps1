@@ -1,17 +1,4 @@
-﻿# Converted from: ns-epic7.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/epic0007/raw/ns-epic7.ans
-# Source Revision: archive-sha256:98f976816d85869210555f839be31c41a061efe657bcbc90eec6046688664f48
-# Source SHA-256: 6610f1fb93aa896388f1a6dbb18f21d1c3695fd294c888f72dd959cd48e442dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ns-epic7.ans by ansichrist (epic0007); released in epic0007 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: epic7
-# SAUCE Author: ansichrist
-# SAUCE Date: 20001004
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: epic7 by ansichrist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-epic0007-ns-epic7
 
 Write-Host '
 [1;30m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m

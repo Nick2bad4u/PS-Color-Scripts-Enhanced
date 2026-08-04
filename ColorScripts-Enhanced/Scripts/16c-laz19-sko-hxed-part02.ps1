@@ -1,19 +1,4 @@
-﻿# Converted from: SKO-HXED.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz19/raw/SKO-HXED.ANS
-# Source Revision: archive-sha256:b2207428f1b283b9c41d9ff03fce385f449fefe469c60e31e8dd7430a162f7c1
-# Source SHA-256: 87d4b752174de7f2ef25fc4ff7f5b46575e639a58c05e9f605162e4fefc3c11d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SKO-HXED.ANS by Surak Khoteth (Lazarus); released in laz19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Hexed BBS Promo
-# SAUCE Author: Surak Khoteth
-# SAUCE Group: Lazarus
-# SAUCE Date: 20240716
-# SAUCE Dimensions: 80x220
-# SAUCE Font: IBM VGA
-# Lines: 38-87
-# Columns: 1-80
+﻿# Artwork: Hexed BBS Promo by Surak Khoteth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz19-sko-hxed-part02
 
 Write-Host '
           [31m░░░░░░░░ ░[0;37m                      [0;31m░ ░░  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░  ░[0m

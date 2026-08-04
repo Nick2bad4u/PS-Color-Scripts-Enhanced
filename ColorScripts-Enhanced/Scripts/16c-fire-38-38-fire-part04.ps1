@@ -1,19 +1,4 @@
-﻿# Converted from: #38_FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-38/raw/%2338_FIRE.ANS
-# Source Revision: archive-sha256:be80154150e87c06a8a7199ad7b8d7442acd5427250f57c89a783b9de15c69d7
-# Source SHA-256: 6cbe71fbc9752750037097d322aea863c3783e1aebda9313b37bc7aa4be14841
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: #38_FIRE.ANS by abstrakt (fire); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fire #38 members
-# SAUCE Author: abstrakt
-# SAUCE Group: fire
-# SAUCE Date: 20231030
-# SAUCE Dimensions: 80x352
-# SAUCE Font: IBM VGA
-# Lines: 133-176
-# Columns: 1-80
+﻿# Artwork: fire #38 members by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-38-38-fire-part04
 
 Write-Host '
 [37m    [0;32m`$[0;1;32m$$$$[0;32m$P`d$[0;1;32m└4$$$$[0;32m$P4[0;1;32m$$$$[0;32m$P[0;36m''[0;32m`4S↕┘[0;36m`[0m      [1;31mdb.$[0;31mP,[0;37m  [0;33m`[0;37m   [0;31m`└''└[0;1;31m***┘[0;31m''`[0m     [34m.,.[0m

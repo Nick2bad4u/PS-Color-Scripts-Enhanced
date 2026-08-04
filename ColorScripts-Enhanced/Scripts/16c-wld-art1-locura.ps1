@@ -1,13 +1,4 @@
-﻿# Converted from: LOCURA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wld-art1/raw/LOCURA.ANS
-# Source Revision: archive-sha256:50ed6fae6086bd8627c6af52f6ef908060babebbb61eaf0313617feea2b46912
-# Source SHA-256: fc325339c5a69fe817dc7d72229afec9ff625bc4de8e70357aac26c517f40c3b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LOCURA.ANS by Darkman-Circe (wld-art1); released in wld-art1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: LOCURA.ANS by Darkman-Circe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wld-art1-locura
 
 Write-Host '
                        [1m          [0m     [1m          [0m

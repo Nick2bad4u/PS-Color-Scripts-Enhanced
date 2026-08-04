@@ -1,13 +1,4 @@
-﻿# Converted from: XPO-DD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg0697/raw/XPO-DD.ANS
-# Source Revision: archive-sha256:680b16d137638190eae45c3c61ec0a07880ed6f3bbd5387d78ba0c5c22b4bc71
-# Source SHA-256: 425e40c1dcd6f6b71f021249f25cf383e6a7cc68a2569f2b1a613e341f2f7557
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XPO-DD.ANS by Xpozed (drg0697); released in drg0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: XPO-DD.ANS by Xpozed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg0697-xpo-dd
 
 Write-Host '
                         [1;33m.[0m

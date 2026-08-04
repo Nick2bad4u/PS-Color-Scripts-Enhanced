@@ -1,18 +1,4 @@
-﻿# Converted from: INT-FLM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-03/raw/INT-FLM.ANS
-# Source Revision: archive-sha256:8cf981d9c660d9c99945a037cc3975e95985d6099e63c9913bd07526abf36ba1
-# Source SHA-256: 7cdff88d1e0249fd427888269bd1f0bd5797a0c9c4c23e0dd2b7d007428d4429
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: INT-FLM.ANS by internal (glue); released in glue-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: f0am?!
-# SAUCE Author: internal
-# SAUCE Group: glue
-# SAUCE Date: 19970921
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: f0am?! by internal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-03-int-flm
 
 Write-Host '
 [36m[0;1;36m[0;36m[0m    [36m▄[0m                                 [36m▄▄[0;30;46m░[0;36;40m▄[0m                      [1;33;40m░[0;36m▄[0;1;37m▄░[0m

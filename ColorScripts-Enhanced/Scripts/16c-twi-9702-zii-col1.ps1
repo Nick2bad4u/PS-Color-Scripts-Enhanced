@@ -1,13 +1,4 @@
-﻿# Converted from: ZII-COL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twi-9702/raw/ZII-COL1.ANS
-# Source Revision: archive-sha256:61ff2cf32bf44ce24fc49eed8744dec36ac76366cfa168886be9711eb39decc1
-# Source SHA-256: 0033f3ac0c5f61049fe015bf1272df2a4710c7e4f0de88cf94eb9fdcd54eb4b2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-COL1.ANS by Zeus Ii (twi-9702); released in twi-9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: ZII-COL1.ANS by Zeus Ii | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twi-9702-zii-col1
 
 Write-Host '
 

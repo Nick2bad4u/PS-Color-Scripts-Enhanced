@@ -1,13 +1,4 @@
-﻿# Converted from: DS-ED.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rage_294/raw/DS-ED.ANS
-# Source Revision: archive-sha256:90d92c037da84e214e985a7f10cdfe535b9f8da7214b5d770940b9413919f925
-# Source SHA-256: b408ad6d49e8a88db274b81ad000078dd676f8ced520ed70049159d2d1b86274
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-ED.ANS by Distortion (rage_294); released in rage_294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: DS-ED.ANS by Distortion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rage-294-ds-ed-part02
 
 Write-Host '
 [1;30m ░░░░░░░░▒  [0m▄▄▄ [1;30m░░ [0m▄▄█[1;47m░░░░[0m█▀▀▀▄  [1;30m▒▒▒░░░░░░░░[0m        [1;30mCreepy Felling , You[0m

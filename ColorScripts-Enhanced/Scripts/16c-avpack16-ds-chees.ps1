@@ -1,18 +1,4 @@
-﻿# Converted from: ds-chees.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack16/raw/ds-chees.ans
-# Source Revision: archive-sha256:c169b8434a7461a5936daf6ca0076420ba73d015e2414b7a4312b4b9d20ef74a
-# Source SHA-256: 69624ce313123d97f0e6e54d2dd7f3f74e0b845a4a142f8c09992843d8fae839
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ds-chees.ans by Deathstroke (Apocalyptic Visions); released in avpack16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Cheese Factory
-# SAUCE Author: Deathstroke
-# SAUCE Group: Apocalyptic Visions
-# SAUCE Date: 20010523
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Cheese Factory by Deathstroke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack16-ds-chees
 
 Write-Host '
 

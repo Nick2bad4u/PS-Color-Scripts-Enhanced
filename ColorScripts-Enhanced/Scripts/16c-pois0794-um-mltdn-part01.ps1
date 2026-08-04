@@ -1,13 +1,4 @@
-﻿# Converted from: UM-MLTDN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pois0794/raw/UM-MLTDN.ANS
-# Source Revision: archive-sha256:c73f6cc44f7d0666cb4f0f21afd62d9cd43ec95b2ac0c7437c4f9b4b088746b2
-# Source SHA-256: e13bf45c11eab5b256d931ee6bc2753bd6f853618bfc4b1db38cacc42afe6cda
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UM-MLTDN.ANS by Umbro (pois0794); released in pois0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: UM-MLTDN.ANS by Umbro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pois0794-um-mltdn-part01
 
 Write-Host '
                                 [1;30;47m▓▒░[0m ▌[41m [0;31;40m▌ [0;37;40m██▐▐[0m

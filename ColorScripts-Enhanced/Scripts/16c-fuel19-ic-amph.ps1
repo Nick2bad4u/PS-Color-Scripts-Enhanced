@@ -1,18 +1,4 @@
-﻿# Converted from: IC-AMPH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel19/raw/IC-AMPH.ANS
-# Source Revision: archive-sha256:7996394d1322b4d75a2eac63da1058443f8c8d07863e81821c5c4a203e798c3c
-# Source SHA-256: 60299b0454dc497a6e9df28c48cd68b0d864063f140f49f60a492f4834def20e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IC-AMPH.ANS by inclusive (fuel); released in fuel19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: amphetamine paradise
-# SAUCE Author: inclusive
-# SAUCE Group: fuel
-# SAUCE Date: 19971202
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: amphetamine paradise by inclusive | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel19-ic-amph
 
 Write-Host '
                 [1;33m▄[0;1;37m [0;1;33m [0m

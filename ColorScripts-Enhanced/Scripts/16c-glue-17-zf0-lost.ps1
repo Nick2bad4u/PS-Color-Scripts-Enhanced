@@ -1,18 +1,4 @@
-﻿# Converted from: ZF0-LOST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-17/raw/ZF0-LOST.ANS
-# Source Revision: archive-sha256:154ac874f13e20433925bb99a4f5e0a4299764bee7ed4d28bdaffd9ad392f554
-# Source SHA-256: 71bc70f62f3875c80f1aae176f9ed4e12685a53d41587f915e15f0edc98f8dbf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZF0-LOST.ANS by zfact0r (glue); released in glue-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Lost Paradize
-# SAUCE Author: zfact0r
-# SAUCE Group: glue
-# SAUCE Date: 19981229
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Lost Paradize by zfact0r | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-17-zf0-lost
 
 Write-Host '
   ▀[30;47m [0;37;40m▀▀▀[0;30;47m ░░[0;37;40m▄       ▄   ▀█[0;30;47m    ░░░  [0;37;40m▄▄ [0;30;47m▓[0;37;40m  [0;30;47m█[0;37;40m [0;30;47m▀▀[0;37;40m  [0;30;47m█▄[0;37;40m ▐ zfact0r[0;1;30;40m([0;1;37;40mglue[0;1;30;40m)[0m▐[30;47m [0;37;40m▄[0;30;47m [0;37;40m▀▀[0;30;47m [0;37;40m▄ ▐▀▀▄█▄▀ [0m

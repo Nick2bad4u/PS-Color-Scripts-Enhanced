@@ -1,13 +1,4 @@
-﻿# Converted from: OM-LICE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/galza-08/raw/OM-LICE.ANS
-# Source Revision: archive-sha256:39c0187fecda2dbddaa3a74677fa7b6da7fd36d892bc2fa514acf3a72b2b1c08
-# Source SHA-256: f8f7b144e755b3b63ec9c7e053d649520bab9517d877677aa684a8c92281505f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OM-LICE.ANS by Otium Man (galza-08); released in galza-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: OM-LICE.ANS by Otium Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-galza-08-om-lice
 
 Write-Host '
 [1m$$│[0;1;32m$$[0;36m$''.\\│││││││I[0;32m,┌───────────┐┐,[0;1;32m┘┘┘┘┘└└└└─[0;32m,┌┌┌─────┐,.[0;36m:││$$$, ┌d││b ┌d││[0;1;32m\Q$$$[0;1;37m$[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: PV-UNHO0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist3yra/raw/PV-UNHO0.ANS
-# Source Revision: archive-sha256:2b1ec0b7cbe048c013d4fb5b84e23b783ff4f9f900b4e7c0cd1dcc3d31e02136
-# Source SHA-256: 0ab7e239b105c64af66397a4f61030ef58adec553850cbb11e55e0fc6e710394
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PV-UNHO0.ANS by Pure Voltage (MiSTiGRiS); released in mist3yra and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Unholy Church logo
-# SAUCE Author: Pure Voltage
-# SAUCE Group: MiSTiGRiS
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Unholy Church logo by Pure Voltage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist3yra-pv-unho0
 
 Write-Host '
 [1;34m▄[0;1;34;46m█[0;1;34;40m▓▄[0;34m▄[0;1;30m░▀▀▓▒ [0;34m░ [0;1;30m▓▀[0;1;34m▄[0;1;34;44m██▓░ [0;30;44m░[0;34;40m▀▀[0;1;30;40m░▀▓[0;1;34;40m▄[0;1;34;46m█[0;1;34;40m▓▄[0;34m▄ [0;1;30m░░▒▓▀▀█▀░[0;1;34m▄[0;1;34;44m██▓░ [0;30;44m░[0;34;40m▀[0;1;30;40m░[0;34m░[0;1;30m░▓[0;1;34m▄[0;1;34;46m█[0;1;34;40m▓▄[0;34m▄[0;1;30m░▀▒▓▓▓▓█▀░[0;1;34m▄[0;1;34;44m██▓░ [0;30;44m░[0;34;40m▀  ░[0m

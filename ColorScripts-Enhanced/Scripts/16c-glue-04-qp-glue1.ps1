@@ -1,18 +1,4 @@
-﻿# Converted from: QP-GLUE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-04/raw/QP-GLUE1.ANS
-# Source Revision: archive-sha256:a183453b0b057b28f8e3a2d35babc61b59dbf71d40a258198f360e299e3212ab
-# Source SHA-256: 819d639414ee566539270d3f5c27b006fa7b6c7c99ebe5069fad62a7ce2e0ad5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QP-GLUE1.ANS by quip (guest: glue); released in glue-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: glue
-# SAUCE Author: quip
-# SAUCE Group: guest: glue
-# SAUCE Date: 19970826
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: glue by quip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-04-qp-glue1
 
 Write-Host '
                  [34m       [0;37m  [0;34m▄▄▄▄▄[0;1;34;44m▄▄░[0m

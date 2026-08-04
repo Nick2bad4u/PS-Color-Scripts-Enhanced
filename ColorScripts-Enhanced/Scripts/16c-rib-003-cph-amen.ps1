@@ -1,13 +1,4 @@
-﻿# Converted from: CPH-AMEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-003/raw/CPH-AMEN.ANS
-# Source Revision: archive-sha256:09817656d743388b570b7dfb39c4f133f8c40aecb92562f60d9e0c45a3f39730
-# Source SHA-256: 5b3d3bcff8d1ab80ca5923d3c1388504f160aa46a70f2ebb38add2d7d36dbb08
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-AMEN.ANS by Cyberpunch (rib-003); released in rib-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: CPH-AMEN.ANS by Cyberpunch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-003-cph-amen
 
 Write-Host '
     [34m░░░[0;37m      [0;34m ░▄▄▄▄▄▄ ▄▄▄[0m   [34m  ░░[0m         [34m▄[0;1;34;44m▄▌[0;34m▀▀[0m     [34m▄▄▄▄▄▄▄[0m     [34m░[0m     [34m▀ ▀▀▀█▓▒░[0m

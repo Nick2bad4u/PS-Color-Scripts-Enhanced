@@ -1,18 +1,4 @@
-﻿# Converted from: N!Z-MC07.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sargahd3/raw/N!Z-MC07.ANS
-# Source Revision: archive-sha256:d4be65be862c17debbed01c060fb85aadbdbe00a8282836fa25f3f46073f618d
-# Source SHA-256: f9fcbb0670808550f073f3a02d07f31c1e077d95456b50826992261de1038051
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N!Z-MC07.ANS by noize (fbk.sargahd); released in sargahd3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hoax
-# SAUCE Author: noize
-# SAUCE Group: fbk.sargahd
-# SAUCE Date: 19970211
-# SAUCE Dimensions: 80x25
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: hoax by noize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sargahd3-n-z-mc07
 
 Write-Host '
 [31m░[0;30;41m▓[0m   [31;40m▄▄▄▄▄[0;1;31;41m▄▄▓▓▓[0;1;37;40m██[0;1;31;41m██▀▀▀[0;31m▀▀▀▀▀[0;37m [0;34m▄[0m   [34m■[0m   [31m▀▀█[0;1;31;41m▀▀▀▓▓[0;31m▀▀▀▀[0;37m  [0;1;33m▄▄▄▄▄▄▄▄▐█[0;1;33;43m░░▀▀▀▀▓▓▀▀▀▀█████[0;1;37;40m███[0m

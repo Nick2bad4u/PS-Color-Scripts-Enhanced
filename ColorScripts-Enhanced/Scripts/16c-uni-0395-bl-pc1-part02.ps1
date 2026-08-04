@@ -1,18 +1,4 @@
-﻿# Converted from: BL-PC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0395/raw/BL-PC1.ANS
-# Source Revision: archive-sha256:fa162651f9482427c00511e180638b307ba23babafbe50fc91872af91a55356c
-# Source SHA-256: 4e0baa6a787fd073dabdd9065a350a36fce50de616176c685daa921f10ce48dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BL-PC1.ANS by Black Lightning (Union); released in uni-0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Psycho City
-# SAUCE Author: Black Lightning
-# SAUCE Group: Union
-# SAUCE Date: 19950217
-# SAUCE Dimensions: 80x25
-# Lines: 51-90
-# Columns: 1-80
+﻿# Artwork: Psycho City by Black Lightning | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0395-bl-pc1-part02
 
 Write-Host '
 [1;31m▄ [0;35m▀█ [0;1;35;45m░▒[0m [1;35;45m▓[0;1;35;40m██[0;1;35;45m▒[0m [35m█▄ ■  [0;37m▄▓   [0;1;31m▄    ▄  [0m▀          ▀  [1;31m▀[0m       ▓[1;31m▄ [0;35m▀ [0;1;31m▄██▄ [0;35m▀[0;1;35m█ [0;35m▐[0;1;35m▓ [0;35m███ [0;1;35m█ [0;35m▌[0;1;31m▐▓█[0m

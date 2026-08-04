@@ -1,16 +1,4 @@
-﻿# Converted from: DT-LNO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger09/raw/DT-LNO1.ANS
-# Source Revision: archive-sha256:1d024ab1b967a873387ebae34f188b304120e208b081dccdcb5397c8adcbd2a4
-# Source SHA-256: 5c82338177e44bdc4a06f2051e002b3b8ad8d7a68e05a1f7424ed63e31415f9c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-LNO1.ANS by defiant (anger); released in anger09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: like no other
-# SAUCE Author: defiant
-# SAUCE Group: anger
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: like no other by defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger09-dt-lno1
 
 Write-Host '
 [1;44m██[0;1;40m█[0;1;44m█[0;1;36;40m█[0;1;36;46m███▀ ▀[0;36m█[0;1;36;46m▀▀▓▀[0;36m█▀▀▀▀ [0;34m▄▄█[0;1;34;44m░[0;30;44m░░░░[0;34;40m▓▒░  [0;1;33;47m█▓███▀▓░   [0m████████████[47m        [0;40m███[0;1;30;47m░[0m█[1;30;47m▓▀██[0;1;30;40m███▓[0m

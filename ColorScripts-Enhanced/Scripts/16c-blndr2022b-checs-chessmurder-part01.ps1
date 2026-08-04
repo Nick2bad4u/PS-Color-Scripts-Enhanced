@@ -1,19 +1,4 @@
-﻿# Converted from: Checs - chessmurder.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2022b/raw/Checs%20-%20chessmurder.ans
-# Source Revision: archive-sha256:de7e2108b847566636570f45bc2a9f56d342e13d4ee56264634b872fe972b8a3
-# Source SHA-256: ba27082b219244b801c5a7127d5a81aa8869d80b071135c3b9a88bca574cb9db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Checs - chessmurder.ans by checs (HPM); released in blndr2022b and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: clowns / investigating / murder
-# SAUCE Author: checs
-# SAUCE Group: HPM
-# SAUCE Date: 20220501
-# SAUCE Dimensions: 80x73
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: clowns / investigating / murder by checs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2022b-checs-chessmurder-part01
 
 Write-Host '
 ░░░░░░░░░░   ▄    ░░░░▒░░▒░▒ ░▒░▓░▒▒░░ ░░▒░░ ░▒▒░░ ░░░▓▒▒▒▒░░▒▓▒░▓▓▓▒░  ▒▒▒░▒▒▒▓

@@ -1,17 +1,4 @@
-﻿# Converted from: SMP-GLUE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flg01/raw/SMP-GLUE.ANS
-# Source Revision: archive-sha256:562ebcaad20a0b2a8b7b107f134b5be6ba5f067cf297f19839a81e7c0eee3352
-# Source SHA-256: 30a886d72d66b03d2383481e047387a39c98191ab033ccf59530a98756a9700d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-GLUE.ANS by Shrimp (Foliage); released in flg01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: Shrimp
-# SAUCE Group: Foliage
-# SAUCE Date: 20010706
-# SAUCE Dimensions: 80x29
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: SMP-GLUE.ANS by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flg01-smp-glue
 
 Write-Host '
              [34m    ▀ ▄▄ [0m

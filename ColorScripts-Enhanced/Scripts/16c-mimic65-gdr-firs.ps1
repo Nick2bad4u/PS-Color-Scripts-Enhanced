@@ -1,13 +1,4 @@
-﻿# Converted from: gdr-firs.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic65/raw/gdr-firs.ans
-# Source Revision: archive-sha256:3adadec070702bb959a56cf6ea9d4deed8ddb4b5128d085f97b4760642d6d678
-# Source SHA-256: 3e703155f0fb46f4a924e833c69c0c858586d3d39ff6521a8431420cb657780f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: gdr-firs.ans by Gravedancer (mimic65); released in mimic65 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: gdr-firs.ans by Gravedancer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic65-gdr-firs
 
 Write-Host '
 [36mGDR$$ ______.....$$$$$$$$$&&aaaa,,.  [0;1;31m````*78[0;33m88$$$$$$88II;;[0;1;31m  [0;36m,d$$$$$$$$$$$$$`````[0m

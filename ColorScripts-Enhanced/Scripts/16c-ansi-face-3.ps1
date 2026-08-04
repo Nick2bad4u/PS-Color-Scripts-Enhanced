@@ -1,13 +1,4 @@
-﻿# Converted from: FACE_3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansi/raw/FACE_3.ANS
-# Source Revision: archive-sha256:50aaa63d173fc2f34f94b8a5b526a5ee8a8b9d7908c42264ab949073e7e0edf9
-# Source SHA-256: 971a1f08c4472d086ef02736ed598196a02362738d7ee4012fec5b6858ddde35
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FACE_3.ANS by Michael Arnett (ansi); released in ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: FACE_3.ANS by Michael Arnett | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansi-face-3
 
 Write-Host '
 [1;33;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;37;40m██[0;1m██[0;1;37;40m█████████[0;1m█▄[0m [1;45m   [0;1;37;45m                [0m [1;36;40m███[0;1;36;44m  [0;36m▌[0m      [1;36m██[0;1;33m▌[0;1;37;40m▌[0;34m██[0m

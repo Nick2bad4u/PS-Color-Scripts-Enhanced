@@ -1,17 +1,4 @@
-﻿# Converted from: SMP-AP4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flg01/raw/SMP-AP4.ANS
-# Source Revision: archive-sha256:562ebcaad20a0b2a8b7b107f134b5be6ba5f067cf297f19839a81e7c0eee3352
-# Source SHA-256: dd7b2ecf55b3add8752b343cd981286e191068f9fa75cfca9017caedf267ced8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-AP4.ANS by Shrimp (Foliage); released in flg01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: Shrimp
-# SAUCE Group: Foliage
-# SAUCE Date: 20010706
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: SMP-AP4.ANS by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flg01-smp-ap4
 
 Write-Host '
 [34m [0;1;34m       [0;34m       │   ┘ [0m     [32m    [0;34m  [0;32m       [0;34m    └       [0;1;34m [0;34m  [0;1;34m   [0;34m    [0;32m [0;1;37m [0m       [1m [0;32m       [0;1;37m [0m

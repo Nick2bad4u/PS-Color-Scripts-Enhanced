@@ -1,16 +1,4 @@
-﻿# Converted from: ungenannt_virus.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_darker_image_2/raw/ungenannt_virus.ans
-# Source Revision: archive-sha256:7282b405cc52219ce7cf6cd9d097796f1b25fc898e4c29fdb9f37c375d595996
-# Source SHA-256: 34af115719c00814dd29965c1f9f48cafdc3192e7646c08cf2a27a81fc1b3780
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ungenannt_virus.ans by Ungenannt (blocktronics_darker_image_2); released in blocktronics_darker_image_2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 20171203
-# SAUCE Dimensions: 80x58
-# SAUCE Font: IBM VGA
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: ungenannt_virus.ans by Ungenannt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-darker-image-2-ungenannt-virus-part01
 
 Write-Host '
                                                                       [1;31;40m         [0m

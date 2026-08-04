@@ -1,18 +1,4 @@
-﻿# Converted from: NT-DELI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy05/raw/NT-DELI.ANS
-# Source Revision: archive-sha256:2e1c7dd4c451a5d024352ee6b56eba52a2d5ba6a7d73a9cc34cff58fc603ca18
-# Source SHA-256: 61f91877463ab4454d340cd3fac509ea18eead11f76606c23603c70ec3212efe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NT-DELI.ANS by Nootropic (Apathy); released in apathy05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Smooth style Deli
-# SAUCE Author: Nootropic
-# SAUCE Group: Apathy
-# SAUCE Date: 19960104
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Smooth style Deli by Nootropic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy05-nt-deli
 
 Write-Host '
 [30m                   [0;33m              ▄  ▄                                      [0m

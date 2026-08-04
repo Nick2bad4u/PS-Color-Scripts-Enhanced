@@ -1,15 +1,4 @@
-﻿# Converted from: KRL-SHD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack10/raw/KRL-SHD1.ANS
-# Source Revision: archive-sha256:ff1a3ce06b9c97a74a1d5d06863ef0ec8a2d56e1b831cb342fdd88f4bc065a8f
-# Source SHA-256: e7eee61cfee6f308236d1da40e0788fbe269a11ae8d23819fd3c8677e6ac1219
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KRL-SHD1.ANS by Mr Krinkle (avpack10); released in avpack10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 19960405
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: KRL-SHD1.ANS by Mr Krinkle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack10-krl-shd1
 
 Write-Host '
 

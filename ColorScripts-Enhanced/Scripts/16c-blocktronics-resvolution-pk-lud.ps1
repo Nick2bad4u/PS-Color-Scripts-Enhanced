@@ -1,13 +1,4 @@
-﻿# Converted from: pk-lud.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_resvolution/raw/pk-lud.ans
-# Source Revision: archive-sha256:d0690af9ec91bf96f335196e9f9ddfb5d7ea02d97d300b53301bebaf58d83c35
-# Source SHA-256: 17432bf81a498e601656958ec93431453bc81e10f43f68c94b43b94a8faa3471
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: pk-lud.ans by Pook (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: pk-lud.ans by Pook | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-resvolution-pk-lud
 
 Write-Host '
  [1;32m [0;1;33m▄▄▄▄▄[0;31m▄▄▄▄▄▄▄[0;36m▄▄▄▄▄▄▄[0;35m▄▄[0;32m▄▄▄▄▄[0;35m▄▄[0;1;37m▄[0;1;33m▄▄▄▄▄▄▄▄▄[0;1;37m▄[0;35m▄▄[0;32m▄▄▄▄▄▄▄▄[0;35m▄▄[0;1;37m▄[0;1;33m▄[0;33m▄▄▄[0;1;33m▄[0;1;37m▄[0;35m▄▄▄[0;33m▄[0;1;33m▄▄[0;1;37m▄[0;33m▄[0;35m▄▄[0;36m▄▄▄[0;35m▄▄▄[0;1;33m▄[0;1;37m▄[0m

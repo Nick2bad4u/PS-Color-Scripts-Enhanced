@@ -1,17 +1,4 @@
-﻿# Converted from: MT-DAE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nland-05/raw/MT-DAE.ANS
-# Source Revision: archive-sha256:9ecedfce350729554c325e3fa16a28f24118d9cc4a114d7d310d9ef56e778218
-# Source SHA-256: ad26050a51c56627eeb730fe8f862d2f079763614f3e0389e2a6635ac3d55059
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MT-DAE.ANS by MaNTuS (nland-05); released in nland-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: DeMoNio PuTeaDoR
-# SAUCE Author: MaNTuS
-# SAUCE Date: 19960316
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: DeMoNio PuTeaDoR by MaNTuS | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nland-05-mt-dae
 
 Write-Host '
                                         [31m▄[0m     [37m [0;31m▄▀▄[0m    [31m▄[0m

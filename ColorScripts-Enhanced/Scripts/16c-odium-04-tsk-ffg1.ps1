@@ -1,18 +1,4 @@
-﻿# Converted from: TSK-FFG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-04/raw/TSK-FFG1.ANS
-# Source Revision: archive-sha256:8dc8586a37ce2081b7e99529b7087f421e6ff8d5ba2d146ef1d30bd490016720
-# Source SHA-256: 07cb3c57360d89184f37d13ff8d8feb4d61403876e5cef20d7f5407019babca4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-FFG1.ANS by the silent killer (odium); released in odium-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: falling from grace
-# SAUCE Author: the silent killer
-# SAUCE Group: odium
-# SAUCE Date: 19960221
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: falling from grace by the silent killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-04-tsk-ffg1
 
 Write-Host '
                     [1;34m▀█▄  ▄▄▄[0m                             [34mfall from grace[0m

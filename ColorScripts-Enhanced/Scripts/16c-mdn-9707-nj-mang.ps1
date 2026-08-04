@@ -1,18 +1,4 @@
-﻿# Converted from: NJ-MANG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9707/raw/NJ-MANG.ANS
-# Source Revision: archive-sha256:bfcb83c6d9eb9beac4e313e6cb4a06c0bdcb3b894eaa2b7afbdde4d6e5181bec
-# Source SHA-256: 811e5ff232a2b559bbe19d3ed7f0b5f20048e8ed36818d2e87cc0b9efeab49d7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NJ-MANG.ANS by Ninja (Maiden); released in mdn-9707 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Mangue Maiden
-# SAUCE Author: Ninja
-# SAUCE Group: Maiden
-# SAUCE Date: 19970608
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Mangue Maiden by Ninja | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9707-nj-mang
 
 Write-Host '
 [1;34;42m██[0;1;34;40m▀▀▀██████▀▀[0;33m▄▄[0;1;33;43m [0;33m▀ ▄[0;1;33;43m▄█[0;1;33;40m█[0;1;37;40m▄[0;33m ▀[0;1;33;43m▀[0;1;33;40m▄[0;1;37;40m▄[0;1;34;40m▀▀███[0;1;34;46m▓▓▓[0;1;34;40m█████████████████[0;1;34;46m▓▓[0;1;34;40m██████████▀▀███████████[0;1;34;46m▓▓[0m

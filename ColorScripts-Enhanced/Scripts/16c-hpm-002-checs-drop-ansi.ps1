@@ -1,19 +1,4 @@
-﻿# Converted from: Checs-Drop_Ansi.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hpm-002/raw/Checs-Drop_Ansi.ans
-# Source Revision: archive-sha256:ac1c5734e02a8b9f6dc786a430b6a4555daba27767e3a09c6335e008cfa324e4
-# Source SHA-256: f7ff833ad624760da8ec844a4942f8b46208f3cf79499ba19ccc14628ff9f16b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Checs-Drop_Ansi.ans by Checs (HPM); released in hpm-002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: dropansi
-# SAUCE Author: Checs
-# SAUCE Group: HPM
-# SAUCE Date: 20220623
-# SAUCE Dimensions: 80x44
-# SAUCE Font: IBM VGA
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: dropansi by Checs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hpm-002-checs-drop-ansi
 
 Write-Host '
                                                                 ▲     [1m\[0m  [1m/[0m

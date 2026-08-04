@@ -1,18 +1,4 @@
-﻿# Converted from: AD_CIPH1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/0196ciph/raw/AD_CIPH1.ANS
-# Source Revision: archive-sha256:a2dd81806a0eee4537df8ce0b38cf86bae0804e2b53793c7f700889458b6b68d
-# Source SHA-256: b6a0de1cf360f7804258975c12175f6b0ad1089adb4e5e42b0d8a2d4d6447e5f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AD_CIPH1.ANS by Adrenalin (CiPHER); released in 0196ciph and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: cipher promo
-# SAUCE Author: Adrenalin
-# SAUCE Group: CiPHER
-# SAUCE Date: 19960103
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: cipher promo by Adrenalin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-0196ciph-ad-ciph1
 
 Write-Host '
                                                        [34m     [0m

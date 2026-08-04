@@ -1,18 +1,4 @@
-﻿# Converted from: 33-TLS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0696/raw/33-TLS2.ANS
-# Source Revision: archive-sha256:812b4b6a142b76b92307dc090cdf58b49035a2b9097d1dc0a43da5e4fd3f4f2d
-# Source SHA-256: 5d5da8b349d9faa58025cb40627e78269c7e3b2126331ad680c4c0f88f827f04
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-TLS2.ANS by Eerie-Kun (Fire); released in fire0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Lesbian Strikeforce
-# SAUCE Author: Eerie-Kun
-# SAUCE Group: Fire
-# SAUCE Date: 19960601
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: The Lesbian Strikeforce by Eerie-Kun | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0696-33-tls2
 
 Write-Host '
 [1m          [0m     [1;31m    [0m      [1;33m▄▄▄▄██[0;1;33;47m▓▓[0;1;33;40m███▄▄▄[0m         [31m│    [0;1;31m          [0m                

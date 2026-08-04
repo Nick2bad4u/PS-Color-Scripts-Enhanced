@@ -1,18 +1,4 @@
-﻿# Converted from: JR_PLUSH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl_omann/raw/JR_PLUSH.ANS
-# Source Revision: archive-sha256:05aeb5241910df97f7b5f5e1c0f0b2ddf59063a1cb9f232ef34e44c86905e918
-# Source SHA-256: 460f1bf2b4a89ccd606a9a952f6c0bea489434679d3b92d528ae4899b7bb02cc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_PLUSH.ANS by jerusalem (boil); released in bl_omann and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: trashcan in d?nar
-# SAUCE Author: jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19971025
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: trashcan in d?nar by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-omann-jr-plush
 
 Write-Host '
 

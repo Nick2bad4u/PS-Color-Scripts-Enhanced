@@ -1,16 +1,4 @@
-﻿# Converted from: US-ETH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-19/raw/US-ETH.ANS
-# Source Revision: archive-sha256:320b7ef547a1befeeebbf4abc563d8da701bdc66e2a87710081c803548b46926
-# Source SHA-256: 2729e20f9a63412789b55ac2cc37996c4c2c4cf6e2f52cf2ff7a5154391185e5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ETH.ANS by Impulse + Icepick (lazarus, force); released in force-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Ethereal Font
-# SAUCE Author: ip + ark
-# SAUCE Group: lazarus, force
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Ethereal Font by Impulse + Icepick | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-19-us-eth
 
 Write-Host '
                                        [1;34m░░░[0m      [34m▄[0m

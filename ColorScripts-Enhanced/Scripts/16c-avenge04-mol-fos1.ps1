@@ -1,18 +1,4 @@
-﻿# Converted from: MOL-FOS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge04/raw/MOL-FOS1.ANS
-# Source Revision: archive-sha256:8f9760d0cfd90e08045f9460fb32f82324e3b8ac18766796675df3241b391536
-# Source SHA-256: 1c45fa67482b25b14604021e9497e833c5eb83aa597c4b5c9044503ef2f94bde
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MOL-FOS1.ANS by MOL (avenge); released in avenge04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fos
-# SAUCE Author: MOL
-# SAUCE Group: avenge
-# SAUCE Date: 19980418
-# SAUCE Dimensions: 80x46
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: fos by MOL | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge04-mol-fos1
 
 Write-Host '
 [1m███████████████████████████████████████████████████████████████████████████[0m

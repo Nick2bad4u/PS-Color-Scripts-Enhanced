@@ -1,18 +1,4 @@
-﻿# Converted from: GSHIP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tk-ansi/raw/GSHIP1.ANS
-# Source Revision: archive-sha256:7a6e15a450305cb977de0a4eb06cf4ca525baa4933c9f7af1cf6080dced8bf2d
-# Source SHA-256: e5c1b7689d5f54c6cbb75a1d380984e86fe9fe2ee08c94560123c0c4fa683fcb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GSHIP1.ANS by Tank (NeXX); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Ghost Ship BBS Ad
-# SAUCE Author: Tank
-# SAUCE Group: NeXX
-# SAUCE Date: 19910626
-# SAUCE Dimensions: 80x24
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: The Ghost Ship BBS Ad by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tk-ansi-gship1
 
 Write-Host '
  [1;31m∙    [0;1;5;37m·[0m             [1m∙[0m      [1m·    [0;1;36;46m▀▄[0m

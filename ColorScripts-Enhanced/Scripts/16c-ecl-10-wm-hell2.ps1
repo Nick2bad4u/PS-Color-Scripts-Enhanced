@@ -1,18 +1,4 @@
-﻿# Converted from: WM-HELL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-10/raw/WM-HELL2.ANS
-# Source Revision: archive-sha256:6734a0716f5363aecb5b8387359a704e7e1a498f17ee632abf4e9ca947f0336d
-# Source SHA-256: bce177b7361d62c13f099b52f1ce83a807cdd3b884857960e2c6ece5548827c2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WM-HELL2.ANS by widowmaker (eclipse); released in ecl-10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: hellbound
-# SAUCE Author: widowmaker
-# SAUCE Group: eclipse
-# SAUCE Date: 19970101
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: hellbound by widowmaker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-10-wm-hell2
 
 Write-Host '
                   [34m                [0m

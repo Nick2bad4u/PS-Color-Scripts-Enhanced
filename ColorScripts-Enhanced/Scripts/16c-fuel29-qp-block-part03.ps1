@@ -1,20 +1,4 @@
-﻿# Converted from: qp-block.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel29/raw/qp-block.ans
-# Source Revision: archive-sha256:a7926daad48a6eaeb3fe9fe16388ddf3683cf76fdb5fb4156f51cd91fc2d12a5
-# Source SHA-256: 06c76e1c21a189ac5ddc5e58d943a8f398531b3200eb02e9396da30efb9d916b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: qp-block.ans by Psidream (Fuel); released in fuel29 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Block Mirror
-# SAUCE Author: Psidream
-# SAUCE Group: Fuel
-# SAUCE Date: 20190108
-# SAUCE Dimensions: 80x124
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Cheeky tribute to one of my favourite shows, Black Mirror.
-# Lines: 83-124
-# Columns: 1-80
+﻿# Artwork: Block Mirror by Psidream | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel29-qp-block-part03
 
 Write-Host '
                 [1;30m░░░[0m                                   [1;30m [0m       [33m▒█[0m

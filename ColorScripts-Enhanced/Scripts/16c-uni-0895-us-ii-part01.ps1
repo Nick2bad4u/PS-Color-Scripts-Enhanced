@@ -1,18 +1,4 @@
-﻿# Converted from: US-II.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0895/raw/US-II.ANS
-# Source Revision: archive-sha256:d7578eae73cd5d7b840a098302ec5eecc570498f801ff39620bcdfbd3bc36d42
-# Source SHA-256: da6306a584a6bea2ce371d71aee7c8e65f982e5f7dcfad5e0a1ce1d55d9c2762
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-II.ANS by Bane + Black Lightning (Union); released in uni-0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Incredible Invention
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Union
-# SAUCE Date: 19950714
-# SAUCE Dimensions: 80x25
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Incredible Invention by Bane + Black Lightning | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0895-us-ii-part01
 
 Write-Host '
 

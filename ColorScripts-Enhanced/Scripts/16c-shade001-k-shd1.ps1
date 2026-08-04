@@ -1,17 +1,4 @@
-﻿# Converted from: K-SHD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shade001/raw/K-SHD1.ANS
-# Source Revision: archive-sha256:95e2f7a399e8cc9b09c40e86b6294ee0079d7c3306ea3bda2b5440b5c54f5516
-# Source SHA-256: f75cb219f8a33e95456ffc51031ccaf12d4aa19dd4d8cc37dfc59c00ac25d677
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K-SHD1.ANS by [ _2[[[[2\[[[[[2 2_~ (.%(sHADe)%.); released in shade001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: kElthAR: Shade Pic (Monster)
-# SAUCE Author: [ _2[[[[2\[[[[[2 2_~
-# SAUCE Group: .%(sHADe)%.
-# SAUCE Date: 19950331
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: kElthAR: Shade Pic (Monster) by [ _2[[[[2\[[[[[2 2_~ | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shade001-k-shd1
 
 Write-Host '
    [31m [0m          [31m▄▓[0;37m [0;1;30m                             [0m [1;30m     [0m [1;30m       [0m [31m▄[0m     [31m▒[0m

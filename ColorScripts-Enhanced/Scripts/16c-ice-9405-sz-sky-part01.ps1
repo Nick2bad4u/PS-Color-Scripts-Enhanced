@@ -1,18 +1,4 @@
-﻿# Converted from: SZ-SKY.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9405/raw/SZ-SKY.ICE
-# Source Revision: archive-sha256:a268d55ac0892ea3031043188566d3858668800e9c28eecd4de6a00493be3d6d
-# Source SHA-256: 1f944c399f22c9855ec4ed3ecca34fc1625a2cfff1eeb4d989b27498a83a2488
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SZ-SKY.ICE by Soul Blazer (iCE); released in ice-9405 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: but ACiD is the gayest
-# SAUCE Author: Soul Blazer
-# SAUCE Group: iCE
-# SAUCE Date: 19940529
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: but ACiD is the gayest by Soul Blazer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9405-sz-sky-part01
 
 Write-Host '
 [1;30m[0m[35m▄▄▄▄▄  [0;34m▀ ░▒▀▀▀[0;1;34;44m░▒[0;1;34;40m▀▀[0;34m▄▀▄ [0;1;34m▄▄▀▀ ▄[0;35m▀███████████████████████████ [0;34m▒▀▀▀▀▓ [0;1;34;44m▓[0m [34m▀▒ [0;1;34;44m▒░ [0m [35m█[0;35;45m      [0m

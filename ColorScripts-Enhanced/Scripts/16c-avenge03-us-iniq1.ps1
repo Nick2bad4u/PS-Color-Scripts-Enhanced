@@ -1,18 +1,4 @@
-﻿# Converted from: US-INIQ1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge03/raw/US-INIQ1.ANS
-# Source Revision: archive-sha256:b53dd4509a562cc71a73a559baa7e13eeefa1cf193e827eee6178c14e3bd46f3
-# Source SHA-256: 29d5b473b0b23aaac530631bcdc988d94dfe3bf2e1ed4c124ec41634947e55ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-INIQ1.ANS by Sudden Death + Ball Tongue (Avenge Cult); released in avenge03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Iniquity bbs (23 liner)
-# SAUCE Author: sudndeath & btongue
-# SAUCE Group: Avenge Cult
-# SAUCE Date: 19980305
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Iniquity bbs (23 liner) by Sudden Death + Ball Tongue | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge03-us-iniq1
 
 Write-Host '
 [30;47msd&bt(avenge)[0;1;30;47m░▒▒[0;1;30;40m▀▀▀[0;1;37;40m [0;1;31;40m▄[0;1;37;40m▀[0;1;37;47m▓[0m▀[1;47m▓[0;1;40m [0;1;47m▓[0m▄▀[1m [0;33m▄[0;1;31;43m ░▒▒░[0;33m▄[0;1;31;43m▓▓▓[0;1;31;40m█████████▄███████[0;1;31;47m▓▓▓[0;1;31;40m█████████████▄[0;33m▀█[0;1;31m [0;1;30m▀█[0m

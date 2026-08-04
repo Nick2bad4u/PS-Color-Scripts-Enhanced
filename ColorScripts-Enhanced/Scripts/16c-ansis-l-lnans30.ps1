@@ -1,13 +1,4 @@
-﻿# Converted from: LNANS30.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-l/raw/LNANS30.ANS
-# Source Revision: archive-sha256:ee41f1dc54d4792f5985668700c84d6714567ceee0db3d26e4e9c1cd56f47cf6
-# Source SHA-256: 9bb67c20f8a80f8c79ca7617c53b2ecb6343cc7c59f10e0d0828a8a9145a1bfa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LNANS30.ANS by Ebony Eyes (ansis-l); released in ansis-l and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: LNANS30.ANS by Ebony Eyes | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-l-lnans30
 
 Write-Host '
 [1;32;40m█[0;1;32;42m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;32;40m█[0m

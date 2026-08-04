@@ -1,19 +1,4 @@
-﻿# Converted from: TNT-WICH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-40/raw/TNT-WICH.ANS
-# Source Revision: archive-sha256:aff8105c0a955ac5c43ea367a02b086cd2849f6741fc41b8a5ff440b77e104a7
-# Source SHA-256: 756f04bd864efae3df7054169155ed294feb344f1691f2ae9d8035f3136014de
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNT-WICH.ANS by tainted (fire); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the fire witch
-# SAUCE Author: tainted
-# SAUCE Group: fire
-# SAUCE Date: 20240707
-# SAUCE Dimensions: 80x237
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: the fire witch by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-40-tnt-wich-part01
 
 Write-Host '
                                                                      [1;30;40m▀█▀█▀▄▀█▀[0m

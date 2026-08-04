@@ -1,13 +1,4 @@
-﻿# Converted from: AS-GN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-13/raw/AS-GN.ANS
-# Source Revision: archive-sha256:1a2968c25b051f2b7445b499fa5cc5c82fc02017f286a7353384ed280dda5c1e
-# Source SHA-256: c24ecd6ca7adea7fa50a741a7f4b8bd5f0c62e49df67685e406974b06dcc1047
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AS-GN.ANS by Asd (sclr-13); released in sclr-13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: AS-GN.ANS by Asd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-13-as-gn
 
 Write-Host '
 [1m█[0;1;33m██▄▄███▄[0;1;37m▓[0m          [31m;l§§SS%%%ggg╓╓╓,,,..___[0m

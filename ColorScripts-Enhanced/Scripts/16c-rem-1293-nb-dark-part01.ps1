@@ -1,13 +1,4 @@
-﻿# Converted from: NB-DARK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rem-1293/raw/NB-DARK.ANS
-# Source Revision: archive-sha256:484473c6acf077ce6370efe83b6fee183b0b76780b2004eb4a0e88529f774c68
-# Source SHA-256: 3b01cb4d6f3a9c9a15ca6c568c5e585de3646ed64db7a042f0d33b84ff38fa61
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NB-DARK.ANS by Night Breed (rem-1293); released in rem-1293 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: NB-DARK.ANS by Night Breed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rem-1293-nb-dark-part01
 
 Write-Host '
 

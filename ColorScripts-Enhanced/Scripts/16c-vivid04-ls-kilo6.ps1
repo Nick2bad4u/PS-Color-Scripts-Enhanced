@@ -1,13 +1,4 @@
-﻿# Converted from: LS-KILO6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vivid04/raw/LS-KILO6.ANS
-# Source Revision: archive-sha256:d2c335096285dc1cfd14c4fb457e4662dfa92f97f5fcdbee15d8b8405468c74b
-# Source SHA-256: 9657e4a5f80f44dae0d923a5505498d55a24e7a070c429a326ab0a88b59b9916
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LS-KILO6.ANS by Lord Sith (vivid04); released in vivid04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: LS-KILO6.ANS by Lord Sith | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vivid04-ls-kilo6
 
 Write-Host '
    [35m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m     [35m▄■[0m          [35m▄▄▄[0m             [1;35m░▄[0;35m█[0;1;30m░[0;35m▄█[0m

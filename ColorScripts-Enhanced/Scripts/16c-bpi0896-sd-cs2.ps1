@@ -1,18 +1,4 @@
-﻿# Converted from: SD!CS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bpi0896/raw/SD!CS2.ANS
-# Source Revision: archive-sha256:521b9df4427f9da93a66112b8a2a14c0b669272e30efda8662d4d103f6c7fd36
-# Source SHA-256: 384950d3891381c49fc204439bcdcefc8595e3df89aac41dbc71c769f06f96d0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD!CS2.ANS by sad (black pyramid!inc.); released in bpi0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: cyberdyne systems main menu
-# SAUCE Author: sad
-# SAUCE Group: black pyramid!inc.
-# SAUCE Date: 19960729
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: cyberdyne systems main menu by sad | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bpi0896-sd-cs2
 
 Write-Host '
 [1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

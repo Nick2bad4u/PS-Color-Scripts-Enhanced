@@ -1,17 +1,4 @@
-﻿# Converted from: TAE-DTN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pen15-02/raw/TAE-DTN.ANS
-# Source Revision: archive-sha256:c45faac655b2350900a9acb8b35a0ed4568af78fa28eaab050d211446248758a
-# Source SHA-256: dcf6704692e5c0d14ece63dd9da4d120e122e9f5ee78d790bc06d1b8ad8536ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TAE-DTN.ANS by taevore (pen15 art); released in pen15-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: taevore
-# SAUCE Group: pen15 art
-# SAUCE Date: 19980421
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: TAE-DTN.ANS by taevore | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pen15-02-tae-dtn
 
 Write-Host '
 [33m          ░[0;30;43m▓[0;33;40m░[0;30;43m▓▓░[0;33;40m▓[0;30;43m░[0;33;40m██████▀▀████████████[0;1;33;43m  [0;33m█████████████████████[0;30;43m░░[0;33;40m▓[0;30;43m░[0;33;40m▓░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m     [0m

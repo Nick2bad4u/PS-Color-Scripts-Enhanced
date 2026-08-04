@@ -1,18 +1,4 @@
-﻿# Converted from: SRD-FEAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rawoe-98/raw/SRD-FEAR.ANS
-# Source Revision: archive-sha256:72c3cf0f44a476eef694d1cf3a1552a03dc3aa0478a61b3b389cc598bf59ebb8
-# Source SHA-256: b5a87922977f2c8f6faa858aba6395f020a292eb91d445721c14b8a6e9a0eb87
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SRD-FEAR.ANS by sordid (woe); released in rawoe-98 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fear the Futuha;.
-# SAUCE Author: sordid
-# SAUCE Group: woe
-# SAUCE Date: 19980429
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Fear the Futuha;. by sordid | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rawoe-98-srd-fear
 
 Write-Host '
                                       [1;34m▄▄▄▄▄▄▄▄▄▄▄▄[0m

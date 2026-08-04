@@ -1,18 +1,4 @@
-﻿# Converted from: RS-BRAZI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9701/raw/RS-BRAZI.ANS
-# Source Revision: archive-sha256:45d6a082bca05ad193b510335e91b0bec312e4835ff5735e0eb40fe62d0e1180
-# Source SHA-256: 465275ad7b2a03d533f32a420d528e841654a3714820f34232d3dbfa5f995bc3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-BRAZI.ANS by rorshack (Maiden Brazil!); released in mdn-9701 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: brazil ...
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil!
-# SAUCE Date: 19961216
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: brazil ... by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9701-rs-brazi
 
 Write-Host '
                                                      [1;36m  [0;1;30m [0;36m  [0;1;37;46m [0;36m   [0;1;30m [0m

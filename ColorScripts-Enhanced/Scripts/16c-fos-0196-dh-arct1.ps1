@@ -1,13 +1,4 @@
-﻿# Converted from: DH-ARCT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fos-0196/raw/DH-ARCT1.ANS
-# Source Revision: archive-sha256:7b35e2d1b77f64a0bb3f52fe512c20b089b55cb938c04933966099eeada5d6ff
-# Source SHA-256: 3b64445037fef35236f7a7fa356cbaa1bc6bee0cec7d6f1218ef2504b40c0a6d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DH-ARCT1.ANS by Dark Horizon (fos-0196); released in fos-0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: DH-ARCT1.ANS by Dark Horizon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fos-0196-dh-arct1
 
 Write-Host '
  [1;34m▄▄▓[0;1;34;47m██▀▀  ▀▀▀  [0m█[1;34;47m▀▀▀[0m█████▓▀▀▀▀▀▀▀▀▀███████████▀▀▀▀▀▀▀▀▀▀██████████████████████▄▄

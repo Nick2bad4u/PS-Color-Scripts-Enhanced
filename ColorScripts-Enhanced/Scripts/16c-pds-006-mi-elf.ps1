@@ -1,18 +1,4 @@
-﻿# Converted from: MI-ELF!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pds-006/raw/MI-ELF!.ANS
-# Source Revision: archive-sha256:0045103f3f9fe71c2d296c9685d62daeb9e6d3ce6537438b1f64f51cc33a4a63
-# Source SHA-256: bf739ae8aae0f0ab4afaf48c632c4bba6df9934eda68f68215819b5f19a45dd5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MI-ELF!.ANS by MONGi (^STL^PDS^); released in pds-006 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: au contraire d'orc de mg...
-# SAUCE Author: MONGi
-# SAUCE Group: ^STL^PDS^
-# SAUCE Date: 19960911
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: au contraire d'orc de mg... by MONGi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pds-006-mi-elf
 
 Write-Host '
               ▄▄▄▄▄

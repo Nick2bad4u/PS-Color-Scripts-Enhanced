@@ -1,18 +1,4 @@
-﻿# Converted from: KT-SE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-09/raw/KT-SE.ANS
-# Source Revision: archive-sha256:ce8026e794474c6e48d574a76c9366e170e87fe95fba0f1638e56cb02945c814
-# Source SHA-256: 87ee3b5b868d42ee9b104c68c42ae9ea3cf2a7d019b3cf0765ae7e3e741d0a3b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KT-SE.ANS by Kurrupt (fORCE 96); released in force-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: SONiC EVOlUtiON
-# SAUCE Author: Kurrupt
-# SAUCE Group: fORCE 96
-# SAUCE Date: 19960615
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: SONiC EVOlUtiON by Kurrupt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-09-kt-se
 
 Write-Host '
 [1;30m                        [0m     [1;30m▄▄[0m▄▄▄[1m▄[0m                           [1;30m [0m [1;30;47m██[0m [1;30m▄▄▄▄██▄▄▄▄▄▄▄[0m

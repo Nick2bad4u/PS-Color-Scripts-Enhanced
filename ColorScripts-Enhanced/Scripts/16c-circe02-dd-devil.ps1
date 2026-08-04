@@ -1,17 +1,4 @@
-﻿# Converted from: DD-DEVIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe02/raw/DD-DEVIL.ANS
-# Source Revision: archive-sha256:ce5cd736ecea3fcfef2c1df40ab4bdd995f6b633f97f1788244355f98c5d174e
-# Source SHA-256: fc0579a9ce7a2de9741d84ae89cfe56d0d2c2f4ac43ae3bb3e26e0c7b834dc6a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-DEVIL.ANS by Diamond Darrell (Circe); released in circe02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: Diamond Darrell
-# SAUCE Group: Circe
-# SAUCE Date: 19971028
-# SAUCE Dimensions: 80x11
-# Lines: 1-11
-# Columns: 1-80
+﻿# Artwork: DD-DEVIL.ANS by Diamond Darrell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe02-dd-devil
 
 Write-Host '
 [1;47m█▓[0;1;36;47m▓▓[0;1;36;40m██▓▓[0;1;36;46m▀▀▀▀▀[0;36m█▓░░[0;1;31m ▄▄▄▄▄▄▄ [0;36m░░[0;1;31m [0;36m░[0m        [1;31m▄░░[0m       [1;31m [0;34m [0;1;31m [0;34m░[0;30;44m▓[0;1;31;40m ▄▄▄[0m▄▄[1;31m▄   [0;34m▀█[0;1;34;44m ▀[0;1;34;40m█████[0;1;34;47m████▓▓▒░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: BS-FUSE!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-09/raw/BS-FUSE!.ANS
-# Source Revision: archive-sha256:c41bbed96b7f715196d42c6e26c8c617329d6970d02268fc75cdfdee9e16ecb0
-# Source SHA-256: 4e7302525c32e0a1037c3826b030642067412f0658185bcc3ba24324d6ca9070
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-FUSE!.ANS by 50D4 (department 38); released in d38-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: SODA
-# SAUCE Author: 50D4
-# SAUCE Group: department 38
-# SAUCE Date: 19970725
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: SODA by 50D4 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-09-bs-fuse
 
 Write-Host '
  ▄▄▄▄▄[1m▄▄[0m▄▄[1m▄▄[0m▄[1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m [31m            [0m       [34m▌▄▄▀ [0m           [30;44m▓▓[0;34;40m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: FI-SOS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fear1194/raw/FI-SOS.ANS
-# Source Revision: archive-sha256:f054d0bb154b653e223e56e77201cae8362bfb38bbbede42a20fa8c74f2102fe
-# Source SHA-256: 4d4dc8457c1a8a675c3a135b3887a050fa6c82d79f535d2a9ebb300e991e8eda
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FI-SOS.ANS by Future Imperfect ([FEAR]); released in fear1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Synagogue of Satan
-# SAUCE Author: Future Imperfect
-# SAUCE Group: [FEAR]
-# SAUCE Date: 19941104
-# SAUCE Dimensions: 80x135
-# Lines: 95-135
-# Columns: 1-80
+﻿# Artwork: Synagogue of Satan by Future Imperfect | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fear1194-fi-sos-part03
 
 Write-Host '
  ▄[1;30;47m▄[0m▀▀▄[1;30;47m ▄[0;1;30;40m▀[0m▀██[1;30;47m▐[0;1;30;40m▀[0m▐█[1;30;47m▄[0;1;30;40m▀[0m▀██[1;30;47m▐[0m ▀█[1;30;47m▄[0;1;30;40m▀[0m   [1;30;47m▐[0m     ▄[1;30;47m▄[0m▀▀▄█[1;30m▌[0m  ▄[1;30;47m▄[0m▀[1;30;47m▀[0m▄    ▄[1;30;47m▄[0m▀▀▄█[1;30m▌[0m▀██[1;30;47m▄[0;1;30;40m▀[0m █[1;30;47m▄[0;1;30;40m▀[0m▀███[1;30;47m▄[0m▀▀██[1;30m▌[0m

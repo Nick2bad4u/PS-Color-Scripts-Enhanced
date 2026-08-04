@@ -1,20 +1,4 @@
-﻿# Converted from: misfit-fuel.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel21/raw/misfit-fuel.ans
-# Source Revision: archive-sha256:3c35978fe1aff0d9cad8b96088193a4169b923a7a460fe0bded18e44ac4f0ea9
-# Source SHA-256: cc1d6c43eef51355f90601a81c01ea39bacb3a978f3f192a213c00f1d82eb484
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: misfit-fuel.ans by misfit (ACiD/b7); released in fuel21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fuel
-# SAUCE Author: misfit
-# SAUCE Group: ACiD/b7
-# SAUCE Date: 20170421
-# SAUCE Dimensions: 80x42
-# SAUCE Font: IBM VGA
-# SAUCE Comments: guest ansi by misfit for fuelpack 21
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: fuel by misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel21-misfit-fuel
 
 Write-Host '
                     [33;40m▄█[0;1;31;43m▄▄[0;1;31;47m▓▓▓▓[0;1;31;40m██[0;1;31;43m▌[0;33m█[0;1;31m█████[0;1;31;43m▄▒▓▓[0;1;31;40m███████████████████████████████[0;1;31;43m▄▄[0;33m██▓▓▒▒[0m

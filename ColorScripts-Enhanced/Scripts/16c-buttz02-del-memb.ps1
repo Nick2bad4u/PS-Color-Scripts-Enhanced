@@ -1,18 +1,4 @@
-﻿# Converted from: DEL_MEMB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/buttz02/raw/DEL_MEMB.ANS
-# Source Revision: archive-sha256:5d0553d2910e88c3b360bbb18c024421b785e467017c28e9dcdb10c0a95e19a5
-# Source SHA-256: 0c8ac478c35984d8ca23ececa952f79aacec5bb2a5e26cdd7f360abdbfc49009
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DEL_MEMB.ANS by delicious (buttraiderz (guest)); released in buttz02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: memberlisting
-# SAUCE Author: delicious
-# SAUCE Group: buttraiderz (guest)
-# SAUCE Date: 20001019
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: memberlisting by delicious | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-buttz02-del-memb
 
 Write-Host '
 [30m[0m[30m[0m[30m[0m[30m[0m

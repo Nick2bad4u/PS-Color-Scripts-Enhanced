@@ -1,18 +1,4 @@
-﻿# Converted from: PE!DETOX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus03/raw/PE!DETOX.ANS
-# Source Revision: archive-sha256:ae240da6329918ab0bf39714e2edb95ea5883c52a5e5edf845b291bbb7142ce1
-# Source SHA-256: 2c047a935698add1be2d879ec9ba5de43e66b82c2e56f24a0f7a54b05e5b04af
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PE!DETOX.ANS by PhonyEye (Fokus fonting); released in fokus03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Detox
-# SAUCE Author: PhonyEye
-# SAUCE Group: Fokus fonting
-# SAUCE Date: 19990425
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Detox by PhonyEye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus03-pe-detox
 
 Write-Host '
 

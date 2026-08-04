@@ -1,18 +1,4 @@
-﻿# Converted from: 4O -MC01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sargahd3/raw/4O%C2%A0-MC01.ANS
-# Source Revision: archive-sha256:d4be65be862c17debbed01c060fb85aadbdbe00a8282836fa25f3f46073f618d
-# Source SHA-256: 98c46be99c8a0340c4c454f93bc29f8ec1e8f29403522b032276ce1f41c81b95
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 4O -MC01.ANS by mr4tune (fbk.sargahd); released in sargahd3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hoax $?!%
-# SAUCE Author: mr4tune
-# SAUCE Group: fbk.sargahd
-# SAUCE Date: 19970208
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: hoax $?!% by mr4tune | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sargahd3-4o-mc01
 
 Write-Host '
 [1;30;44m░░░[0;1;34;40m██████[0;1;34;44m▄▄▄▄▄[0;34m█▀[0;35m  [0;34m▀█[0;1;34;44m▄▄▄▄▄▄▄[0;34m█[0;1;30m ▄ [0;1;34;44m ▄ ▄[0;34m█▀[0;35m  [0;34m▄[0;1;34;44m▄▄▄▄▄[0;34m▄[0;35m [0;34m▀[0;1;34;44m░░░░  [0;34m▄▄▄[0;30;44m▓█[0;35;40m  [0;30;44m██[0;34;40m▄▄[0;1;34;44m▄▄[0;30;44m  [0;1;34;44m▄▓▓▓▄ ▄[0;1;34;47m▓▓[0;1;34;44m▓▓[0m

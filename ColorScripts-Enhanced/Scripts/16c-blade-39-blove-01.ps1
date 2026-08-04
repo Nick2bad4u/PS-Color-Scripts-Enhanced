@@ -1,18 +1,4 @@
-﻿# Converted from: BLOVE-01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blade-39/raw/BLOVE-01.ANS
-# Source Revision: archive-sha256:1776ceee3f0ac81d5c3bff8701dd1656a31f76fff34981bcd6970dd08b4177dd
-# Source SHA-256: c8cc2e018d3d145e2a48c66d63e61e333b3aebce626eb729e2ad3e8eebe3c4ea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BLOVE-01.ANS by blove (blade nation 05/97); released in blade-39 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: echo
-# SAUCE Author: blove
-# SAUCE Group: blade nation 05/97
-# SAUCE Date: 19970427
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: echo by blove | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blade-39-blove-01
 
 Write-Host '
    [34m▀ ▄[0;1;30m▄[0;1;30;44m▓▓▒[0;1;30;40m▀[0;34m▀▀█[0;1;32;44m     [0;34m█▀[0m        [37m▄[0;1;30;47m░░▒▓▓[0;1;30;40m▄▄▄▄▄▄▄▄▄▄[0m▄▄▄[1;30;47m░░░[0;1;33;47m▒▒░░[0m▄▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;33m▄▄▄[0;1;30;43m   [0;33m▄[0m

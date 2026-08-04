@@ -1,13 +1,4 @@
-﻿# Converted from: NE-CRYP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-n/raw/NE-CRYP.ANS
-# Source Revision: archive-sha256:c71a317bef22d5118244ba95f552871899d98097e115e94b35d9631800ce0aa2
-# Source SHA-256: 1dbb10703923d137974ce81b94a1130836be1405cf4ae4d0bbc5d4ea9ee231f4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NE-CRYP.ANS by Nemesis (ansis-n); released in ansis-n and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: NE-CRYP.ANS by Nemesis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-n-ne-cryp
 
 Write-Host '
                 [31m▄▄▄▀█▀▀▀▄[0m                        [31m▄▀▀▀█▀▄▄▄[0m

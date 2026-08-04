@@ -1,18 +1,4 @@
-﻿# Converted from: DKS-ASMN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira1297f/raw/DKS-ASMN.ANS
-# Source Revision: archive-sha256:aaf8efb3855bf52b486533186764296c0de75f15c8aab234da34f02a9e2d45f6
-# Source SHA-256: 9b20bf016ab632befacd8b122f86dabe34fad1f8df655427c2b910c0665af2eb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DKS-ASMN.ANS by derksar (irat-0); released in ira1297f and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: apocalyptic snowman
-# SAUCE Author: derksar
-# SAUCE Group: irat-0
-# SAUCE Date: 19971115
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: apocalyptic snowman by derksar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira1297f-dks-asmn
 
 Write-Host '
           [1;31m▄▄▓▄▄[0;31m▄    ░░[0m          [1;37m▄▄[0;1;37;47m▓███▓[0;1;30;47m▒▓[0;1;30;40m▄▄[0m

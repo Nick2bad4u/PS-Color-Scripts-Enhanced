@@ -1,18 +1,4 @@
-﻿# Converted from: DKY-BZL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-07/raw/DKY-BZL.ANS
-# Source Revision: archive-sha256:05b9134433837782e39338bf79fd6ada6d2fc8bfba82437f2c41c6bc37a6d75a
-# Source SHA-256: 5f81e78539bd161836c291778c1fdffb06cb18fc0c31f1051fa3cf8e5d781f88
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DKY-BZL.ANS by Darky' (Nitrophusion); released in nph-07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Bahzil Ansi
-# SAUCE Author: Darky'
-# SAUCE Group: Nitrophusion
-# SAUCE Date: 19980728
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Bahzil Ansi by Darky' | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-07-dky-bzl
 
 Write-Host '
               [1;30m╙ [0;32m       [0;1;30m╖[0m

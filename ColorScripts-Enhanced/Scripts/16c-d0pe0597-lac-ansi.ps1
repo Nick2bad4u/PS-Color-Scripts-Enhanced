@@ -1,18 +1,4 @@
-﻿# Converted from: LAC-ANSI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d0pe0597/raw/LAC-ANSI.ANS
-# Source Revision: archive-sha256:75f6fa147ff2756ef0ec699179a2fc535ef1a8555e78479372a7ceb7b6a80326
-# Source SHA-256: 80befdf5d1b935e72bfe1446df6245c163cf4a178456e4bb5d847e8454fc3834
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LAC-ANSI.ANS by lacaid (dope); released in d0pe0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ansi detected
-# SAUCE Author: lacaid
-# SAUCE Group: dope
-# SAUCE Date: 19970502
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ansi detected by lacaid | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d0pe0597-lac-ansi
 
 Write-Host '
                     [36m [0m                               [36m░[0m        [36m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SMI-HAZ2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-13/raw/SMI-HAZ2.ANS
-# Source Revision: archive-sha256:fab7f52e9d735740432e5cc1693a7c3574c7cc669fe711a2863770d2425cce92
-# Source SHA-256: 4d57174b112a96c3612d0605f99794b42ca4e07bd09abbc6440d5d8f6623b8cd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMI-HAZ2.ANS by Samurai (AWE Lettering); released in awe-13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Hazard/2
-# SAUCE Author: Samurai
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19971126
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Hazard/2 by Samurai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-13-smi-haz2
 
 Write-Host '
                         [31m▄[0;33;41m▄[0;37;40m [0;1;37;40m░░[0;1;33;40m░[0m  [31m    [0m                 [1;37m░ [0m

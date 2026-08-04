@@ -1,18 +1,4 @@
-﻿# Converted from: RC(PRIM).ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bdp-0396/raw/RC(PRIM).ANS
-# Source Revision: archive-sha256:fe5366e95d3996c23db1751d58a751cf943c2c7a9334dc99baa85e141a7a16a7
-# Source SHA-256: d92927f59b9a56580789b68a29c8b31fe9abf7a94a1adbeda7e6d659d7831a58
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RC(PRIM).ANS by 1^_ _2\~__  ^_211 (.boogiE%Woogie.); released in bdp-0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: .primus.
-# SAUCE Author: 1^_ _2\~__  ^_211
-# SAUCE Group: .boogiE%Woogie.
-# SAUCE Date: 19960302
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: .primus. by 1^_ _2\~__ ^_211 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bdp-0396-rc-prim
 
 Write-Host '
 

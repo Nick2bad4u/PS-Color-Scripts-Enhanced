@@ -1,17 +1,4 @@
-﻿# Converted from: SPD!CNF6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ncd0297/raw/SPD!CNF6.ANS
-# Source Revision: archive-sha256:92b427b7b5566f306ca2f44a558c451ab8e2fb4b2142e10704c789f0f59075cf
-# Source SHA-256: a47ce1d0bbfe129f5c1f46a238cabda10a7f5a4f09eae720fe3ecc357230e23f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPD!CNF6.ANS by spud (ncd0297); released in ncd0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: confs
-# SAUCE Author: spud
-# SAUCE Date: 19970131
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: confs by spud | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ncd0297-spd-cnf6
 
 Write-Host '
                                      [35m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: I!B-COMA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0996/raw/I!B-COMA.ANS
-# Source Revision: archive-sha256:de1a4e1b3b8504644e3a073d9996f185c42e41f64ec42e4fefdea03b2b3748fe
-# Source SHA-256: b34612d5e723d95e959ca043b65a5baa25420c064464c542a6b7214f6864dd6d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: I!B-COMA.ANS by intellius (bamboosh); released in bmb-0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: coma dreams, psychedelic colors...
-# SAUCE Author: intellius
-# SAUCE Group: bamboosh
-# SAUCE Date: 19960905
-# SAUCE Dimensions: 80x49
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: coma dreams, psychedelic colors... by intellius | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0996-i-b-coma
 
 Write-Host '
 [1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0;1;32;43m/[0;32;43m\[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: APL-ARLA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/arla0196/raw/APL-ARLA.ANS
-# Source Revision: archive-sha256:8a35d2bb39c2faca15c1fb2bebf77416e369d3cea398837e490885a2a237f536
-# Source SHA-256: 9f2bb4cc8d13ea242b9338862ba6d718117a5ba0fae4afec50aafff2e77f70a4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: APL-ARLA.ANS by apollo (arla.bitches!); released in arla0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: bitch logo saz arla!
-# SAUCE Author: apollo
-# SAUCE Group: arla.bitches!
-# SAUCE Date: 19960106
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: bitch logo saz arla! by apollo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-arla0196-apl-arla
 
 Write-Host '
   [36m [0m   [31m▄■[0m      [1;37m ▄▄▄▄       [0;31m [0m

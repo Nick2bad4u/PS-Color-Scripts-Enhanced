@@ -1,18 +1,4 @@
-﻿# Converted from: S7-WM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/arc-16/raw/S7-WM.ANS
-# Source Revision: archive-sha256:e369cb471f14ccd57254b0b30c1dc8ac4b174131115a1090d2162b1c8280c087
-# Source SHA-256: ed011d62e55ba4073d2feaca8b9d7c511e9f6400d019f9812bbf3f9d75f40274
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S7-WM.ANS by Somberlain (Kibosh); released in arc-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: WM menu
-# SAUCE Author: Somberlain
-# SAUCE Group: Kibosh
-# SAUCE Date: 20000318
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: WM menu by Somberlain | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-arc-16-s7-wm
 
 Write-Host '
 [1;32;47m▓▀[0;1;32;42m▄[0;32m▄[0;37m  [0;32m▄[0;1;32;42m▄[0;32m▄[0m     [34m▄[0;1;34m▄[0;1;34;44m▄█[0;1;34;40m▀▀[0;34m▀[0;1;34m▀[0;34m▀[0;1;34;44m [0;1;34;40m▒[0;34m▄[0;37m [0;34m▄▄[0;1;37;44m [0;36;44m [0;34;40m▀▀[0;35;44m [0;34;40m▄▄▄[0;1;34;44m░░▓[0;1;34;40m▓▀▀▀█[0;1;34;44m▄[0;1;34;40m▄[0;34m▄[0m    [32m▄[0;1;32;42m▄░[0;32m▄[0m     [35m    [0m          [35m▄[0;1;35;45m▄[0;35m▄[0m

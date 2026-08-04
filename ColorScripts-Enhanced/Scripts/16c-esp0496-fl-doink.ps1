@@ -1,17 +1,4 @@
-﻿# Converted from: FL-DOINK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/esp0496/raw/FL-DOINK.ANS
-# Source Revision: archive-sha256:dbe6c60d1047fff7d32d35a3252db30cf5150247db0d75ed0d6bb39660636de9
-# Source SHA-256: 5a2a570f0fe07c55cb0a704fd5e6e72e2ada0613e8726341f443680b30e6c6a5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-DOINK.ANS by fLeA (ESP Productions); released in esp0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: fLeA
-# SAUCE Group: ESP Productions
-# SAUCE Date: 19960323
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: FL-DOINK.ANS by fLeA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-esp0496-fl-doink
 
 Write-Host '
                                   [33m■ [0m   [33m■[0m    [33m■[0m

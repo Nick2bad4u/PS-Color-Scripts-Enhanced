@@ -1,17 +1,4 @@
-﻿# Converted from: CD!-GRM!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cd130995/raw/CD!-GRM!.ANS
-# Source Revision: archive-sha256:1a570bc9304182abab286fab5eae37b9a7f03b1c4f5f11ea15011e02358e5ca2
-# Source SHA-256: 2a83875d388e1dd83c3ea52fe732946257199e4fcbf6cd5b91221f3a64061d9b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CD!-GRM!.ANS by CREEPiNG DEATH (cd130995); released in cd130995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Grim Ripper ANSi!
-# SAUCE Author: CREEPiNG DEATH
-# SAUCE Date: 19950913
-# SAUCE Dimensions: 80x93
-# Lines: 47-93
-# Columns: 1-80
+﻿# Artwork: The Grim Ripper ANSi! by CREEPiNG DEATH | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cd130995-cd-grm-part02
 
 Write-Host '
 [1;30m███████ ████[0m             ████████████████[1;31;41m▒[0m█████[31;47m▐[0;37;40m█████[0m          [1;30;40m██████▀▄████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SOR-SCHF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel11/raw/SOR-SCHF.ANS
-# Source Revision: archive-sha256:bc01376bbeb692c1fce16796b92a6fd889f89dbf4c55eb291719d5ea3fd5846c
-# Source SHA-256: 333141ef7438346a9759004e755ea417870d985e96b882f21041af6110242c5d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SOR-SCHF.ANS by Spirit of Rage (Fuel); released in fuel11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Schizofrenia
-# SAUCE Author: Spirit of Rage
-# SAUCE Group: Fuel
-# SAUCE Date: 19970303
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Schizofrenia by Spirit of Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel11-sor-schf
 
 Write-Host '
 [1;32;43m▓[0;1;32;47m█▓▒▓[0;1;32;42m█▓[0;1;32;40m█[0;1;32;47m█[0;1;32;43m▓[0;1;32;47m▓[0;1;32;40m█[0;1;32;47m▓[0;1;32;40m██[0;1;32;42m▓▓[0;1;32;40m█[0;1;32;42m▓▓[0;1;32;40m█[0;1;32;47m▓[0;1;32;42m▓▓[0;1;32;40m█[0;1;32;42m▓[0;1;32;40m█[0;1;32;47m▓[0;1;32;42m▓▓[0;1;32;40m█[0;1;32;42m▓[0;1;32;40m█[0;1;32;47m▓[0;1;32;45m▓[0;1;32;47m▓[0;1;32;42m▓[0;1;32;40m██[0;1;32;47m▓[0;1;32;40m█[0;1;32;42m▓[0;1;32;40m██[0;1;32;47m▓[0;1;32;41m▓[0;1;32;47m▓[0;1;32;40m█[0;1;32;42m▓█[0;1;32;46m▓[0;1;32;47m▓[0;1;32;40m█[0;1;32;42m▓[0;1;32;40m██[0;1;32;47m▓[0;1;32;46m▓[0;1;32;40m█[0;1;32;42m▓[0;1;32;40m██[0;1;32;47m▓▓[0;1;32;40m███[0;1;32;45m▓▓[0;1;32;40m█[0;1;32;42m▓[0;1;32;40m█[0;1;32;47m▓▒▓[0;1;32;40m█[0;1;32;47m▓[0;1;32;40m█[0;1;32;47m▓▒[0m

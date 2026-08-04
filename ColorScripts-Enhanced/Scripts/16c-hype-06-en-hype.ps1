@@ -1,13 +1,4 @@
-﻿# Converted from: EN-HYPE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-06/raw/EN-HYPE.ANS
-# Source Revision: archive-sha256:6dc1ff1e5e2a2fbd4d8963ff27dba17dd0715e4d98ce4ed0c4cdd8e573084e6f
-# Source SHA-256: e4a398a683f4c76635df261d0ebb04ba88e541b4ebb54f6884fb89fa8ac6deb2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EN-HYPE.ANS by Envision (hype-06); released in hype-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: EN-HYPE.ANS by Envision | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-06-en-hype
 
 Write-Host '
 [1m[0m                    ▀[1;47m▒▒░░[0m▄█

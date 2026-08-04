@@ -1,18 +1,4 @@
-﻿# Converted from: NC-LIME.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root05/raw/NC-LIME.ANS
-# Source Revision: raw-sha256:f6cdd26af137719034421aaeffb8400e6aa1619c24f6de43b61607b411af8bd5
-# Source SHA-256: f6cdd26af137719034421aaeffb8400e6aa1619c24f6de43b61607b411af8bd5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NC-LIME.ANS by Necrolyte (Root); released in root05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Lime
-# SAUCE Author: Necrolyte
-# SAUCE Group: Root
-# SAUCE Date: 19970717
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Lime by Necrolyte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root05-nc-lime
 
 Write-Host '
 [34m▀ ▀█████▌[0m       [34m▐███████████████████[0;30;44m░[0;34;40m▓▀▀▀[0m           [34;40m███ ▄[0m      [34;40m▄▄▄▄▄ ▄▄▄[0m       [34;40m▀[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: LD-ELIX2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0902/raw/LD-ELIX2.ANS
-# Source Revision: archive-sha256:8537b7dfc4e56bfe671cea284194fa6f621bcce1f2fa291a7ed7a56a5e107081
-# Source SHA-256: 8db187658e88667d009f406bf035cf3f86d9fe51fe3ea182a05ef2f0dc506bd3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-ELIX2.ANS by lazthaus (ld!) (Revival); released in rev0902 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Elixir 24 liner
-# SAUCE Author: lazthaus (ld!)
-# SAUCE Group: Revival
-# SAUCE Date: 20020915
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Elixir 24 liner by lazthaus (ld!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0902-ld-elix2
 
 Write-Host '
                             [36m░▓▀[0;33m ▄▓█[0;1;33;43m░░[0;33m██████████████[0;1;33;43m░░[0;33m▄▄▄▄▐█[0;1;30;43m ░▓[0;1;30;40m▌█████[0;1;30;46m▓▓▒▒▓[0;1;30;40m█▓[0;33m [0;36m▐[0;1;36;46m░▓[0m

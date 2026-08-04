@@ -1,18 +1,4 @@
-﻿# Converted from: FEV-AH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/legion04/raw/FEV-AH.ANS
-# Source Revision: archive-sha256:0d07f7ae4323afa2f3b17624e402877744879e819036fe24f941aefc96e2fd9e
-# Source SHA-256: 0fd57541902fc546598d48fa39cbd5d2d24764fa7d0f76d2ecc84cf59bf1b511
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FEV-AH.ANS by fever (the legion); released in legion04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: gutter
-# SAUCE Author: fever
-# SAUCE Group: the legion
-# SAUCE Date: 19980701
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: gutter by fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-legion04-fev-ah
 
 Write-Host '
 [31m░░░   ▄▄    ▀[0;30;41m   ▀▀▀▀[0;37;40m    [0;30;41m▄▄▄       ▀▄   [0;1;33;41m [0;30;41m░[0;37;40m [0;36;40m█[0;30;46m          [0;36;40m▀▀█[0;30;46m             ▄▄▄        [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: NG-LOA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0596/raw/NG-LOA1.ANS
-# Source Revision: archive-sha256:36c941759d451fdd3b8fb831978bf146c114a97ebcdf99a7ed67f1f699b42790
-# Source SHA-256: ad416105de2116465d7b50829bf4a1d9a062bfa014d6c930660a6b8a1762439f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NG-LOA1.ANS by Nosegos (Fire); released in fire0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Library Of Alexandria
-# SAUCE Author: Nosegos
-# SAUCE Group: Fire
-# SAUCE Date: 19960504
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Library Of Alexandria by Nosegos | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0596-ng-loa1
 
 Write-Host '
 [36;46m                [0;36;40m▀▀▀▀▀▀▀[0;36;46m            [0;36;40m█████████████████████████████████████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SZ-TRAG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/helium01/raw/SZ-TRAG.ANS
-# Source Revision: archive-sha256:07d8759f10fea4e17af6dcb88e6f2f43e74915e40d49cbcecc26379922d3a782
-# Source SHA-256: 2551f2d4de576eb1b840c063b2bfee9ef49054ced125b66a9fc3617d9f07d99b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SZ-TRAG.ANS by Seize (rival); released in helium01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Tragic
-# SAUCE Author: Seize
-# SAUCE Group: rival
-# SAUCE Date: 19960218
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Tragic by Seize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-helium01-sz-trag
 
 Write-Host '
 

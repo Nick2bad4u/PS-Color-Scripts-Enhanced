@@ -1,19 +1,4 @@
-﻿# Converted from: MM-OPENUP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0223/raw/MM-OPENUP.ANS
-# Source Revision: archive-sha256:f6abf3bbd53eb017898fa84b28d2ac43fcb70297788ba675e470ca73794cbbfd
-# Source SHA-256: c37c6a3df45eb067c2006006943ea5f9f9a00fd3184a7ca80e0092049d23f117
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-OPENUP.ANS by Mavenmob (Mistigris); released in mist0223 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Open Up
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20230221
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Open Up by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0223-mm-openup
 
 Write-Host '
 [5;30m███████████████████[0;1;30m∙∙[0;30m█[0;1;35m▄▄[0m▄▄▄▄▄▄▄▄[30m███[0;5;30m████[0;1;30m∙∙[0;5;30m████[0;30m███[0;37m▄▄▄▄[0;1;35m▄▄▄▄[0;1;37m▄▄[0;30m█[0;1;30m∙∙[0;5;30m███████████████████[0m

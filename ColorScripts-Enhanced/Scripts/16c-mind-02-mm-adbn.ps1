@@ -1,13 +1,4 @@
-﻿# Converted from: MM-ADBN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mind-02/raw/MM-ADBN.ANS
-# Source Revision: archive-sha256:336942d90c7d4a8a5d48a1d714dba36408dbb8fda0df26c31b6ee265f0764c7c
-# Source SHA-256: 20700f92b22066e8e4d90d7d192371f85927542466cdf3957ccb750a18de6903
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-ADBN.ANS by Mr Man (mind-02); released in mind-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: MM-ADBN.ANS by Mr Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mind-02-mm-adbn
 
 Write-Host '
                                    [1m▄▄▄▄▄▄▄[0m             [31m▄▄▄[0m

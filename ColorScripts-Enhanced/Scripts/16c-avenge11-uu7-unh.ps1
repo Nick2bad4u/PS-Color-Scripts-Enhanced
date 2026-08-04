@@ -1,18 +1,4 @@
-﻿# Converted from: UU7-UNH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge11/raw/UU7-UNH.ANS
-# Source Revision: archive-sha256:e5d18ebc517ba234357fa596914e49dc0a90f1312a6a355c5ccb72e1da9a0414
-# Source SHA-256: 0d7f51c3fbc2aa5864657725cd7f32c2c5480ea9b0ad973ceed6d065d8cf816d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UU7-UNH.ANS by WhiteTrash (Avenge); released in avenge11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Unholy Salvation
-# SAUCE Author: WhiteTrash
-# SAUCE Group: Avenge
-# SAUCE Date: 19981112
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Unholy Salvation by WhiteTrash | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge11-uu7-unh
 
 Write-Host '
 [1;34;44m▒░[0;1;37;44m░[0;30;44m░[0;34;40m▓[0;37;40m  [0;1;30;40m░ ▄[0m  [1;30m▄▀[0m ▄▓[1;30;47m░▓▓[0;1;30;40mw7▓▓[0;1;30;47m▓░[0m█[1;47m░░[0;1;30;47m░[0m██[1;30;47m░[0m█[1;30;47m░▓[0;1;37;40m [0;1;30;47m▒▒▓▓[0;1;30;40m█[0m▒[1;30m█[0;1;30;47m▓▒░[0;1;37;40m▒▒[0;1;37;47m░░[0m███[1;30;47m░▓[0;1;30;40m▄[0m [1;30m▀[0;1;30;47m▓▓[0;1;30;40m█[0m ░[1;30;47m░░▒▒[0m [30;44m▓[0;34;40m▓[0;1;34;44m░[0;34m█[0;1;34;44m░░▒▒░░[0;34m▓[0m

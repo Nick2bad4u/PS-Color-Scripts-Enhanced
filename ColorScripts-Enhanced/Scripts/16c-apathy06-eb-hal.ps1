@@ -1,18 +1,4 @@
-﻿# Converted from: EB-HAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy06/raw/EB-HAL.ANS
-# Source Revision: archive-sha256:da68d928b75eacb21ef6bbd9cd632165def9238591f0378ec07f4b56faef6ea8
-# Source SHA-256: 8610ac5977d70bcb326f765f56d289840fbe13e9d9057120a21efa0c5878be06
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EB-HAL.ANS by Eiht Ball (Apathy); released in apathy06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Halcyon
-# SAUCE Author: Eiht Ball
-# SAUCE Group: Apathy
-# SAUCE Date: 19960125
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Halcyon by Eiht Ball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy06-eb-hal
 
 Write-Host '
          [1;33m■▄▄[0m [33m■▀▀█▀▀▀[0;37m [0;1;33m▄▄▄▄█████████▀▀▀▀▀▀▀▀▀▀▀█████████████▄▄▄▄[0m     [1;33m▄▄▄▀[0m

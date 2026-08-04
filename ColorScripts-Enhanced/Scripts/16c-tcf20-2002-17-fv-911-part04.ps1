@@ -1,18 +1,4 @@
-﻿# Converted from: 2002 - 17 - FV-911.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tcf20/raw/2002%20-%2017%20-%20FV-911.ANS
-# Source Revision: archive-sha256:af8609219fccc484668fb405a7f1d45efb8c574501a461c5c1b47d87a12921ce
-# Source SHA-256: d6c60ab2cb54ca762dd39182104500532870ab85db1724306d626a6f4b97291e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2002 - 17 - FV-911.ANS by fever (revival); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 9-11
-# SAUCE Author: fever
-# SAUCE Group: revival
-# SAUCE Date: 20020515
-# SAUCE Dimensions: 80x169
-# Lines: 128-169
-# Columns: 1-80
+﻿# Artwork: 9-11 by fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tcf20-2002-17-fv-911-part04
 
 Write-Host '
 [30;41m            █▄        █              ▀▀█▀▀▀▀█▀▀▀▀▀▀▀            ▀▀▀▀██▄▄▄▄▄▄▄▄▄▄[0m

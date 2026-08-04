@@ -1,18 +1,4 @@
-﻿# Converted from: S7!-MDN5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden16/raw/S7!-MDN5.ANS
-# Source Revision: archive-sha256:5eec87aa8a926ff580ebebb1a03e3414c92381a206a8caa2448e563d5972636c
-# Source SHA-256: dcedda3690c5c887993ffb72e1dc9e8d5a7d9aa2370f51b30443237552b87b87
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S7!-MDN5.ANS by Soulstalker ((maiden)); released in maiden16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: mAiden logo #5
-# SAUCE Author: Soulstalker
-# SAUCE Group: (maiden)
-# SAUCE Date: 19980702
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: mAiden logo #5 by Soulstalker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden16-s7-mdn5
 
 Write-Host '
 [1;30m   ░░░[0m           [1;30m       [0m         ▐[1;34;47m░░[0m▌[1;34;47m░[0m               [1;31m▄▄▄[0;31m▄  ▀▀██▀▀[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: TG-DJS.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9410/raw/TG-DJS.ICE
-# Source Revision: archive-sha256:8c9142d0352992206e7fd9f090a7f89eeb1bb8623b53334a6a4eb0e9111ecc28
-# Source SHA-256: 64bbb14a4f223c5d82b2371a503a904c202367bf5eb98c88db49207e8fe051fa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-DJS.ICE by Toon Goon (ice-9410); released in ice-9410 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 47-91
-# Columns: 1-80
+﻿# Artwork: TG-DJS.ICE by Toon Goon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9410-tg-djs-part02
 
 Write-Host '
 [35m███████ [0;34m███████████▌[0;31m▐██[0;1;31;41m▄█▄[0;31m████[0;31;41m [0;31;40m█████████████████ [0;1;34;40m█[0;34m██████▌[0m     [1;30m▐██▌[0;34m▐███████ [0;1;30;44m█[0;34m██ [0;35m█[0m

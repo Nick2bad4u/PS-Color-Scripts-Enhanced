@@ -1,18 +1,4 @@
-﻿# Converted from: PN-WM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/crisis1996unreleased/raw/PN-WM.ANS
-# Source Revision: archive-sha256:d42db79c3670e318c85ffe28ad5142bf995c4610d0c05cf0eae2c80b9a793fbb
-# Source SHA-256: 8197faca45229fa8d847f7a633f3030c4cc8caea990d5e2c8b4fa1bee04cd3fa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PN-WM.ANS by penn (crisis); released in crisis1996unreleased and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: wicked minority
-# SAUCE Author: penn
-# SAUCE Group: crisis
-# SAUCE Date: 19960401
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: wicked minority by penn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-crisis1996unreleased-pn-wm
 
 Write-Host '
 [1;47m░  [0m▓[47m [0;40m▄[0;1;47m░░   [0m▄[47m [0;40m▄▄[0;47m [0;40m [0;47m     [0;1;30;47m░▒[0;1;30;40m█▀ ▀▀    ▀▀▀▀▀  ▀█[0;1;30;47m▒░ [0;1;37;47m░  [0m▀▀[47m   [0;40m▄[0;47m [0;1;47m░░     [0m▄▄█▄█[47m [0;40m▀██[0;47m    [0;1;47m░░ ░[0;1;37;47m▒[0m

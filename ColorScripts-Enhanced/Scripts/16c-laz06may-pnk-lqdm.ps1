@@ -1,18 +1,4 @@
-﻿# Converted from: PNK-LQDM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz06may/raw/PNK-LQDM.ANS
-# Source Revision: archive-sha256:1ae2be5748106937cd6f4a9b876b344db035c3534c8d6472ca3ea1eb05f03cc5
-# Source SHA-256: b13e96d86421bded268dd41336d1d3743b1fcec2e83bd39e3095f7f10efa80db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PNK-LQDM.ANS by phanatik (lazarus); released in laz06may and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: liquid
-# SAUCE Author: phanatik
-# SAUCE Group: lazarus
-# SAUCE Date: 19970508
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: liquid by phanatik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz06may-pnk-lqdm
 
 Write-Host '
                  ░[30;47m▓[0m                  [36;40m [0m   [30;46m▓[0;1;35;40m [0m             ░[30;47m▓[0m       [34;40m▄[0;1;34;40m▄[0;1;34;47m▓▓[0;34m▌[0m

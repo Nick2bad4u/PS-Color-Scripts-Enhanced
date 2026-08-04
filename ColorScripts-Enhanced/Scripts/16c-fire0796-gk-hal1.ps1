@@ -1,18 +1,4 @@
-﻿# Converted from: GK-HAL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0796/raw/GK-HAL1.ANS
-# Source Revision: archive-sha256:f2392fcbe326be67243a018c170e3f1d8e22753f58b6051ec51575e3fcab8048
-# Source SHA-256: 93a494ce5184e5f8e725e7ce07676aaa80cbb4961158155f4eb20261b25d81d9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GK-HAL1.ANS by grind king (FiRE); released in fire0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: stat screen (halcyon)
-# SAUCE Author: grind king
-# SAUCE Group: FiRE
-# SAUCE Date: 19960706
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: stat screen (halcyon) by grind king | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0796-gk-hal1
 
 Write-Host '
 [1;30m█[0m [34m█▓[0;37m ▒[0;1;30m▓[0m [34m██[0;37m [0;34m▄█▀▀▀[0;1;34;44m [0;34m█[0;37m [0;34m█▓[0;37m [0;1;30m█[0;1;30;47m▓[0m [34m▄▄▄▄[0;1;34;44m▀▀▀▀[0;34m█[0;1;34;44m [0;34m████████████████████████[0;1;34;44m░[0;34m▀▀▀█████████████[0;1;34;44m░░▓[0m

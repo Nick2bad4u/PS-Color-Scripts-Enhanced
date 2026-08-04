@@ -1,13 +1,4 @@
-﻿# Converted from: RZ-SOC!!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/soc-05/raw/RZ-SOC!!.ANS
-# Source Revision: archive-sha256:46523a4b1dc7d3ea7673c682260d26883a5d9a96c30ca837d4327e8bd8747ff4
-# Source SHA-256: 25e89efad02caed4302e35cfc51cd2d17ec40ac97e11bb584bc62d3aa2eba11d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RZ-SOC!!.ANS by Rzarector (soc-05); released in soc-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: RZ-SOC!!.ANS by Rzarector | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-soc-05-rz-soc
 
 Write-Host '
 [1;30;47m░░▒▒▒▓▓[0;1;30;40m▀▀  ▄▄[0;1;30;47m█▓▒▓▓[0;1;30;40m██ ▀[0m  [1;30m ▄▄▄▐ [0m   [1;30m▄[0m             [1;30m░░░[0m  [1;30m▐[0;1;30;47m▓░░▐[0;1;30;40m▌▄[0m [1;30m▀[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: $H-BDNET.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axss-007/raw/%24H-BDNET.ANS
-# Source Revision: archive-sha256:201766ba7c307b6aa44f011a2b950021865d7260ac59298eda897a26b921d90c
-# Source SHA-256: cd7b0847a15e278ea7b7c3540f4012b452d3583790b83a353513cab74fc7cd9c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: $H-BDNET.ANS by Shinigami (.%.AXss.%. -97); released in axss-007 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Internet ppe Ansi for BD
-# SAUCE Author: Shinigami
-# SAUCE Group: .%.AXss.%. -97
-# SAUCE Date: 19970708
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Internet ppe Ansi for BD by Shinigami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axss-007-h-bdnet
 
 Write-Host '
 [30;44m    ░      [0;1;34;44m▓[0;30;44m                                     ▄▄▄     ▐[0;1;33;40m▐▌[0;30;44m▌    ▄[0;37;40m [0;1;33;43m░[0m [30;44m        ▬ [0m

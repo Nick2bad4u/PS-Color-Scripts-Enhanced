@@ -1,18 +1,4 @@
-﻿# Converted from: CY-TLC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz09aug/raw/CY-TLC1.ANS
-# Source Revision: archive-sha256:3e0bd3039fe877b3970f71e80b4456ee60793f2295ae127a50a6587b17c2d6a2
-# Source SHA-256: ea48cf1fff94206f5dc918a8b02e69e17df6b6726ec2a75fb5243edd4fc20216
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CY-TLC1.ANS by crayon (lazarus); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the lost city (logo)
-# SAUCE Author: crayon
-# SAUCE Group: lazarus
-# SAUCE Date: 19970721
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: the lost city (logo) by crayon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz09aug-cy-tlc1
 
 Write-Host '
                                                   ▄     [1m▄■[0m

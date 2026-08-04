@@ -1,18 +1,4 @@
-﻿# Converted from: goo-empty_streets.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-globalblockdown/raw/goo-empty_streets.ans
-# Source Revision: archive-sha256:72def6914c400cf448198b2a3876b5414476d859652144a1c3db260cf8838ba8
-# Source SHA-256: 2c4dab82c49243b46c32f4d8c140496e106a808a251dc9bbf9c1d127eaacb330
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: goo-empty_streets.ans by mypalGOO (Blocktronics); released in blocktronics-globalblockdown and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: mypalGOO
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20200702
-# SAUCE Dimensions: 80x130
-# SAUCE Font: IBM VGA
-# Lines: 45-87
-# Columns: 1-80
+﻿# Artwork: goo-empty_streets.ans by mypalGOO | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-globalblockdown-goo-empty-streets-part02
 
 Write-Host '
 ████████[1;30m█▄▄▄▄▄▄▄█████ [0;32m░[0;37m [0;32m█[0;37m   [0;1;36m▄[0m      [32m█[0;1;32m [0;32m▌[0;37m  [0;1;30m▐ ▌ ▐ ▌[0m [1;30m▐ ▌ █     ████[0m [1;30m█████[0m [1;30m████▌[0m██▌[1;30m▀▀▀[0m

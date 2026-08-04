@@ -1,20 +1,4 @@
-﻿# Converted from: CODEFENIX-CONSTRUCTIVE_CHAOS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0822/raw/CODEFENIX-CONSTRUCTIVE_CHAOS.ANS
-# Source Revision: archive-sha256:ed72a43421208b7431337d20b0e65cf1daa85d400f3cf90754e23de5d5edd83f
-# Source SHA-256: 5b96acc52354d16da390ef00646c5af301f50e2e40915d0d8bb1c74796e585f7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CODEFENIX-CONSTRUCTIVE_CHAOS.ANS by Codefenix (Mistigris); released in mist0822 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Constructive Chaos BBS
-# SAUCE Author: Codefenix
-# SAUCE Group: Mistigris
-# SAUCE Date: 20220722
-# SAUCE Dimensions: 80x90
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Login screen/ad for my BBS.
-# Lines: 51-89
-# Columns: 1-80
+﻿# Artwork: Constructive Chaos BBS by Codefenix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0822-codefenix-constructive-chaos-part02
 
 Write-Host '
 [1;47m░[0m█[1;30;47m│[0;1;30;42m▒░▒░[0m█[1;30;47m│  [0m█[1;30;47m▄▄▄▀▀▀[0m██[1;30;42m░[0;1;30;47m▄[0;1;30;42m░[0;1;30;40m█[0;1;30;47m▄[0m█[1;30m█[0;1;30;47m▄[0m██[1;30m█[0;1;37;47m▌[0;1;30;40m█[0m          [1;30m▀[0;1;30;47m▄[0;1;37;47m▌[0;1;30;40m█[0m██[1;30;47m▄[0;1;30;40m█[0m█[1;30;47m▄█▄▄[0;1;30;42m░░[0m██[1;30;47m▀▀▀[0;32;47m░[0;1;30;42m░░[0;32m█[0;1;30;47m│░[0m██[1;30;47m│░[0m███[1;30;47m│[0m██

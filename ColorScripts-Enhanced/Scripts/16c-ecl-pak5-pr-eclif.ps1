@@ -1,18 +1,4 @@
-﻿# Converted from: PR_ECLIF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak5/raw/PR_ECLIF.ANS
-# Source Revision: archive-sha256:81544f419a1e21b70779568e90d8c79145bb93a0a35680fb8d69b6e553e0595a
-# Source SHA-256: c16ced663813e81e3abd3442aab0b08b9312e9008c3b065f54b749dd4d3158ac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR_ECLIF.ANS by president (ecolove); released in ecl-pak5 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ecolove
-# SAUCE Author: president
-# SAUCE Group: ecolove
-# SAUCE Date: 19980331
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ecolove by president | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak5-pr-eclif
 
 Write-Host '
 [1;33m [0m                                             [1;33m ▄▄▄▄[0;33m▄▄[0;1;33m [0m

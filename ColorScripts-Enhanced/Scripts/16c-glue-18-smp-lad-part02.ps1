@@ -1,13 +1,4 @@
-﻿# Converted from: SMP-LAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-18/raw/SMP-LAD.ANS
-# Source Revision: archive-sha256:0bc0a975c4de127fd6305114a49451275a1959513e343ea7612d70fa62951816
-# Source SHA-256: 9fc035a5fa1f691584857c8fb5d1dc82f5d72f8d5c97d030f5889de262d62e80
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-LAD.ANS by Shrimp (glue-18); released in glue-18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 35-69
-# Columns: 1-80
+﻿# Artwork: SMP-LAD.ANS by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-18-smp-lad-part02
 
 Write-Host '
       [37m▐█▄[0;1;30;47m░░░░░▒▓▓[0;1;30;40m████▓▄▓▄[0m  [1;30m░▒▓█[0;1;30;44m█[0;1;30;47m▓▓▒▒░░░▒▒▓[0;1;30;40m██▓▒░[0m     █████[1;30;47m░░░░░▒▒▒▓▓▓▓[0;1;30;40m██[0;1;30;47m███[0m   [34m▄█▀[0m

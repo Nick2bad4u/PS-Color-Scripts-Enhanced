@@ -1,13 +1,4 @@
-﻿# Converted from: TI-GROX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thst0895/raw/TI-GROX.ANS
-# Source Revision: archive-sha256:93911a377da69cfcde0000e470e3a7eca787ca62b80e55b7c1e6e49b8b7b8d71
-# Source SHA-256: 9fedbb2821abe3d321f932a31371341be9a5105e552ae46d376dbe1db48e222e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TI-GROX.ANS by Trip (thst0895); released in thst0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: TI-GROX.ANS by Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thst0895-ti-grox
 
 Write-Host '
     [31m█▄  ▄▀▄  ▄█                                                  █▄  ▄▀▄  ▄█[0m

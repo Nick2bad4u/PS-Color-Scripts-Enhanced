@@ -1,18 +1,4 @@
-﻿# Converted from: C-GC2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy06/raw/C-GC2.ANS
-# Source Revision: archive-sha256:da68d928b75eacb21ef6bbd9cd632165def9238591f0378ec07f4b56faef6ea8
-# Source SHA-256: 8f8be102b7656bc9d4230d24fff30fb3f1447fce4a5a360a9d1ef4ca582f79ac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: C-GC2.ANS by Straka (Apathy); released in apathy06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Gravitational Collapse
-# SAUCE Author: Straka
-# SAUCE Group: Apathy
-# SAUCE Date: 19960122
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: Gravitational Collapse by Straka | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy06-c-gc2
 
 Write-Host '
 [35m▄▓▄▄▄▄ ▄▓▄▄▄▄  ▄▓▄▄▄▄ ▄▄[0;1;35m░  [0;35m▄▄ ▓▄▄▄▄▓▄▄▄▄▓▄▄▄▄▄▄▄▓▄▄ ▓▄ ▄▓▄▄▄  ▄▄▄▄▄▄▄▓▄▄▄▄  ▄▓[0;34mÇ-[0m

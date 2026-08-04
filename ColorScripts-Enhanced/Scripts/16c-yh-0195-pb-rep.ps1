@@ -1,13 +1,4 @@
-﻿# Converted from: PB-REP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/yh-0195/raw/PB-REP.ANS
-# Source Revision: archive-sha256:721859c5eadfa2c955f591688feef075e7b3f275040c57d8f45aa2617c640ff8
-# Source SHA-256: 43123f74dd9a4449605f4c45c88a77729543b60b92048f157039cf630278392a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PB-REP.ANS by Pb Oner (yh-0195); released in yh-0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: PB-REP.ANS by Pb Oner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-yh-0195-pb-rep
 
 Write-Host '
 

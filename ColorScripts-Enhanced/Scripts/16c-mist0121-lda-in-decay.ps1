@@ -1,20 +1,4 @@
-﻿# Converted from: LDA-IN_DECAY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0121/raw/LDA-IN_DECAY.ANS
-# Source Revision: archive-sha256:be6acc37c46308204b64f544c343f93533b3c26c7b10ead91ddc0227519a1a6a
-# Source SHA-256: a8dbdb4d1a2bfe65dbb79b8a550508592d5a16e6806725b9454a609919a608aa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LDA-IN_DECAY.ANS by LDA (Mistigris); released in mist0121 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: In Decay
-# SAUCE Author: LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20210123
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Com Truise, 2012
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: In Decay by LDA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0121-lda-in-decay
 
 Write-Host '
 [1;38;2;253;235;181;48;2;253;235;181m████████████████████████████████████████████████████████████████████████████████[0m

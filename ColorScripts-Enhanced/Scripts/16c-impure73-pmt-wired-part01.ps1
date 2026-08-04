@@ -1,16 +1,4 @@
-﻿# Converted from: pmt-wired.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure73/raw/pmt-wired.ans
-# Source Revision: archive-sha256:d7c3bc2a56daa5465195c67fa234b7485b34f263c14bb4f1bdbfa80a861ff8d0
-# Source SHA-256: 84c8fd72bbb0841a1309c0da2eeb0b320010259ea9e994d69b91e2083daae893
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: pmt-wired.ans by Prismate (impure73); released in impure73 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 20190519
-# SAUCE Dimensions: 80x121
-# SAUCE Font: IBM VGA
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: pmt-wired.ans by Prismate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure73-pmt-wired-part01
 
 Write-Host '
                 [1;30;40m   [0;1;31;40m      [0;31m       [0;1;35m      [0;1;30m      [0;1;35m    [0;1;30m    [0;35m [0;1;34m [0;1;37m [0;1;31m [0;31m [0;37m [0;36m [0;33m [0;1;30m   [0m

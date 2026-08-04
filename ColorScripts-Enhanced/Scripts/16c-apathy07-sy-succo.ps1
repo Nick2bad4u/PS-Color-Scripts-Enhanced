@@ -1,18 +1,4 @@
-﻿# Converted from: SY!SUCCO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy07/raw/SY!SUCCO.ANS
-# Source Revision: archive-sha256:cf53c4ea5c286717abe3d962fb98452e352d7d7a30a31881220e7068a7f0bb79
-# Source SHA-256: 81c8f69aab637caac8e8426590bded34f420728f58e3713f537a614564fec5d8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SY!SUCCO.ANS by shoony (apathy); released in apathy07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: succo-fuckin-tash
-# SAUCE Author: shoony
-# SAUCE Group: apathy
-# SAUCE Date: 19960227
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: succo-fuckin-tash by shoony | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy07-sy-succo
 
 Write-Host '
 

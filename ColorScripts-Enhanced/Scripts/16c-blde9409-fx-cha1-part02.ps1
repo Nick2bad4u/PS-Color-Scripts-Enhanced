@@ -1,18 +1,4 @@
-﻿# Converted from: FX-CHA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9409/raw/FX-CHA1.ANS
-# Source Revision: archive-sha256:a72f6b61ef8732921793cd342551769e167ed7d0078d9fb08d5ad3a3a9cd5a47
-# Source SHA-256: 076d06fdccb389ed4f2df420a7fc1b169deda3eb545fd15a72cbdbbcde6911a8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FX-CHA1.ANS by Facsimile (Blade Productions); released in blde9409 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Chaos A.D. Advertisement
-# SAUCE Author: Facsimile
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19940822
-# SAUCE Dimensions: 80x25
-# Lines: 42-79
-# Columns: 1-80
+﻿# Artwork: Chaos A.D. Advertisement by Facsimile | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9409-fx-cha1-part02
 
 Write-Host '
             [1;30;40m░▒▓█▌ ▀▄[0m     [1;30;40m░░░   [0;33m░[0m       [1;30;47m▓[0m [1;30;47m▒[0;1;30;40m▀▐▀▌[0m█ █ █▐▀[1m▄[0;1;30m░░[0m

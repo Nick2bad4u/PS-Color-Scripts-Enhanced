@@ -1,20 +1,4 @@
-﻿# Converted from: SP-MIST2021.09.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1121/raw/SP-MIST2021.09.ANS
-# Source Revision: archive-sha256:771587f041ac420692329794c2f3f121d493a011c96c9e3a1fa232032a960fd9
-# Source SHA-256: 2de2667abdf0e17f5d714208cefb26849836128dc48309e29bb3af8c911df481
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SP-MIST2021.09.ANS by spinsane (Mistigris); released in mist1121 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: MiSTiGRiS 2021.09
-# SAUCE Author: spinsane
-# SAUCE Group: Mistigris
-# SAUCE Date: 20231116
-# SAUCE Dimensions: 80x100
-# SAUCE Font: IBM VGA
-# SAUCE Comments: https://www.youtube.com/user/asciigod
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: MiSTiGRiS 2021.09 by spinsane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1121-sp-mist2021-09
 
 Write-Host '
                                   [33;41m [0m

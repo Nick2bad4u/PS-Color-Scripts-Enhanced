@@ -1,18 +1,4 @@
-﻿# Converted from: MM-TGSM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr008/raw/MM-TGSM1.ANS
-# Source Revision: archive-sha256:538713f6eceb08f3ae929b511bdabc41afc7e24581ca518038e52dcff7842248
-# Source SHA-256: 8dc5aa169c9c379301c45c92a199fad60b4d45894cc961eef2f94141b2cf36fe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-TGSM1.ANS by Mighty Mouse (CiA); released in blndr008 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: TGuardian Smoking in China.
-# SAUCE Author: Mighty Mouse
-# SAUCE Group: CiA
-# SAUCE Date: 19970112
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: TGuardian Smoking in China. by Mighty Mouse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr008-mm-tgsm1
 
 Write-Host '
 [1;34m██████████████████████████████████████████████[0;1;34;47m▓▓[0;1;34;40m▀ [0;1;31;40m▄[0m [30;44m▄[0;1;34;44m▀[0;1;34;40m██████[0;1;34;44m▓▓[0;1;34;40m██████████████████[0m

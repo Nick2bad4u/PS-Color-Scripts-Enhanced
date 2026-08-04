@@ -1,18 +1,4 @@
-﻿# Converted from: MD-SKULL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-09/raw/MD-SKULL.ANS
-# Source Revision: archive-sha256:8f5fcd1678373443015d83aabdf7e9d41b4206834fe497657921c1a7c6792304
-# Source SHA-256: d9f16dd0cf5a1eb0c7606bebe7a7d913336918bbfb41c29296fee241dc22c304
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MD-SKULL.ANS by Mr. Self Destruct (ACiD Productions); released in rmrs-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Atom
-# SAUCE Author: Mr. Self Destruct
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19970305
-# SAUCE Dimensions: 80x220
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Atom by Mr. Self Destruct | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-09-md-skull-part01
 
 Write-Host '
 [1;31mmixi[0;31mn[0;1;31mg[0;1;30m [0;31matoms with angles[0;37m  [0;1;31m$[0;31m$  [0;1;31m$$[0;31m$$$$  [0;1;31m$[0;31m$$$  [0;1;31m$[0;31m$$$$$$$  $$$$$gg$$$$$$$$  $$g$gg.[0m

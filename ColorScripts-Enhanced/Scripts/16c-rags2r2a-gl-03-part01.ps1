@@ -1,18 +1,4 @@
-﻿# Converted from: GL-03.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rags2r2a/raw/GL-03.ANS
-# Source Revision: archive-sha256:b6fe4ad2710b940b9fc065cc3d8845bc48a34f58dd8c5b1b55d6bd7f8162e058
-# Source SHA-256: 8bded1071315f74fb2a1f8962d905270d0f0981bda23409a80f24c2fa4c67c8d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GL-03.ANS by GL (.rAGS 2 rICHES.); released in rags2r2a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: "Grimlock ... rAG nUMBAH tHREE?"
-# SAUCE Author: GL
-# SAUCE Group: .rAGS 2 rICHES.
-# SAUCE Date: 19970624
-# SAUCE Dimensions: 80x98
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: "Grimlock ... rAG nUMBAH tHREE?" by GL | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rags2r2a-gl-03-part01
 
 Write-Host '
                         [32m▄███████████▄[0m        [32m▄▄█████▄[0m

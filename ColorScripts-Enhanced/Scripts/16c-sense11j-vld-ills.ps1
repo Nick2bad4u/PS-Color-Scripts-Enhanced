@@ -1,18 +1,4 @@
-﻿# Converted from: VLD-ILLS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense11j/raw/VLD-ILLS.ANS
-# Source Revision: archive-sha256:9c1c7edf0d14ae95ae7a9cfcfa9322814b13baa95c33699852fa04d6685f708d
-# Source SHA-256: 762cd4f83b1adaa1483a356b2eebae8193fd31d97506b45b9b7451bb77d0c8ec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VLD-ILLS.ANS by velo (sense); released in sense11j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Illegal Soda
-# SAUCE Author: velo
-# SAUCE Group: sense
-# SAUCE Date: 20021202
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Illegal Soda by velo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense11j-vld-ills
 
 Write-Host '
                [1;30m▀▄[0;32m [0m      [1;30m▄▄[0m                                                 [1;30m▄[0m

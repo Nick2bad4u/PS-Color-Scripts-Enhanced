@@ -1,18 +1,4 @@
-﻿# Converted from: MT-EE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9610/raw/MT-EE1.ANS
-# Source Revision: archive-sha256:5789c5cb1a5ac21acfd3fa7dc4a5a88db3f4a5b9545409ca8ca34a86bd816077
-# Source SHA-256: 615f70b3c840c2844140c0cbcb7dbab887a5abcbf60e14ac5eea9f3ae955cef0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MT-EE1.ANS by Misfit (Samsara); released in sms-9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Evileye
-# SAUCE Author: Misfit
-# SAUCE Group: Samsara
-# SAUCE Date: 19961006
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Evileye by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9610-mt-ee1
 
 Write-Host '
 [30;47mmt!sms[0;37;40m▀▀ [0;1;37;40m▄▄████▄▄[0m▀▀[1;30;47m░░░[0m█▌███▄▄██[1;30;47m░[0m█▀[1;30;47m▓[0;1;30;40m▄[0;1;30;47m▓▒▒░░░░[0;1;37;47m   ░░[0;1;30;47m░░[0;1;37;47m [0m▀▀▀      ▀[1;30;47m░░[0;1;37;47m [0;1;30;47m░░▒▒▓▓[0;1;30;40m█[0m [34m░[0;37m  [0;1;34m░[0m  [34m░▒[0m

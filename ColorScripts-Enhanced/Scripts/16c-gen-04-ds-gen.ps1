@@ -1,18 +1,4 @@
-﻿# Converted from: ds-gen.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gen-04/raw/ds-gen.ans
-# Source Revision: archive-sha256:e213093116f6e1ab2eaa1e638df21b95956d50ac9a8ac57c3b8a10a54175dc97
-# Source SHA-256: 7b83ca643ac83c5f8d8f056053bb4596335910c137fb09150a97627ab6c3c551
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ds-gen.ans by Dying Soul (Genuine); released in gen-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Genuine Promotion
-# SAUCE Author: Dying Soul
-# SAUCE Group: Genuine
-# SAUCE Date: 19990417
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Genuine Promotion by Dying Soul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gen-04-ds-gen
 
 Write-Host '
 [35m      [0;1;30m▄[0;1;30;47m▀▀[0;1;30;40m▄▀[0;35m                [0;1;30m▬ [0;35m [0;1;30m     [0;35m           [0;32m▄[0;1;32m▄[0;1;32;42m▄[0;1;32;40m██[0;32m▄[0;35m          [0;1;30m ▄ ▀[0;35m            [0;37m▄[0;1;30m▄[0m

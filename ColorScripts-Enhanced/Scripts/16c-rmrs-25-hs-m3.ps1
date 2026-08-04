@@ -1,13 +1,4 @@
-﻿# Converted from: hs-m3.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-25/raw/hs-m3.ans
-# Source Revision: archive-sha256:5e78ec204faaa007be55bf270d121f5df91571e389c3f2f19cc754a51b22ac8b
-# Source SHA-256: bb23622f184ea75505f7d5dc220ebb1b6dc11699fa6e8ed8100447b5c898ab86
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: hs-m3.ans by Hellspawn (rmrs-25); released in rmrs-25 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: hs-m3.ans by Hellspawn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-25-hs-m3
 
 Write-Host '
                 [1;35m  [0m

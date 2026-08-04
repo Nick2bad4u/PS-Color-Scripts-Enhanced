@@ -1,13 +1,4 @@
-﻿# Converted from: COS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/royart35/raw/COS1.ANS
-# Source Revision: archive-sha256:86d300e54d2c1a49c804ff27241477ef0faa1a7b1adfe774960d39a0e0bd5f39
-# Source SHA-256: 45ed90e39bf3fde8698132536e070863d99f809b65c3ee2c2f7df97a34b44df6
-# Source License: FAL-1.3
-# Source Attribution: COS1.ANS by Roy/SAC aka Carsten Cumbrowski; released in royart35 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: COS1.ANS by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-royart35-cos1-part01
 
 Write-Host '
 [1;30m▄█████████████▀▀▀█▀ ▄[0;32m▄ [0;1;30m▄▀▀ ▄[0;1;32m▄▄▄▄[0;1m▄ [0;1;30m▀▀████████▀ ▀▀▀ ▀  ▀   ▀[0m

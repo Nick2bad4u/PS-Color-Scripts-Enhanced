@@ -1,17 +1,4 @@
-﻿# Converted from: LT-PROJX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9707/raw/LT-PROJX.ANS
-# Source Revision: archive-sha256:718ad2b08b14a24156d1af86433f0063bd9bba178c290c317100b8e5ffb3939c
-# Source SHA-256: 710e4b713e14d8d45289f97c6d7c6b3753a34bda5a5bae93534d0ca1045e4ef4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LT-PROJX.ANS by Looney Toon (AWE Lettering); released in awe9707 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Project X
-# SAUCE Author: Looney Toon
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Project X by Looney Toon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9707-lt-projx
 
 Write-Host '
 [1;30m[0m               [34m░[0m                    [34m▐▄[0m            [34m▄▄▐███▓▓▓▄▄[0m

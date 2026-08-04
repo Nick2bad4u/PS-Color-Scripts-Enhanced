@@ -1,13 +1,4 @@
-﻿# Converted from: cxc_filth_bbs2021_final_ansi.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cph.artpack29/raw/cxc_filth_bbs2021_final_ansi.ans
-# Source Revision: archive-sha256:f5f19e710e98a0781e8dc9dfa91f6092f3ea8ff2c2c91fe451366d6603c33751
-# Source SHA-256: c7897e094e198afd0704b37a54ecc8710a7cfdc8704d20ce039b07c2d902a73a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cxc_filth_bbs2021_final_ansi.ans by Coaxcable (cph.artpack29); released in cph.artpack29 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 46-90
-# Columns: 1-80
+﻿# Artwork: cxc_filth_bbs2021_final_ansi.ans by Coaxcable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cph-artpack29-cxc-filth-bbs2021-final-ansi-part02
 
 Write-Host '
 [37m  [0;36m█[0;1;37;46m░▒▒[0;1;36;46m░[0;1;37;46m▄[0;1;36;46m█▀[0;1;30;46m▓[0;36m▒▓▓▓▀[0;1;31m▄▓[0;1;31;43m▒▒[0;1;31;40m▀[0;1;31;43m▒▒[0;1;31;40m███[0;1;31;47m░░[0;1;31;40m▀[0m [31m▄[0;1;31;43m▒▒▓█▒▓▓█[0;1;31;47m▌[0;1;37;41m░▒[0;1;37;47m▓[0;1;31;47m▒[0;1;31;40m [0;1;31;43m▓▓[0;1;31;40m▄[0m [1;31m▀[0;1;31;47m▓░[0;1;37;40m▓██[0;1;31;40m█[0;1;31;47m█[0;1;31;40m▀[0;1;31;41m▒[0;1;31;40m▓▓▄▄[0;36m▀▒▓▓[0;1;37;46m▀▒[0;1;36;46m░▀[0;36m█▓▀[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: KM!-RMRS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-46/raw/KM!-RMRS.ANS
-# Source Revision: archive-sha256:579684f5d08ba80e6f0851ef140b90f977f3d651501f1429d81654246efb3324
-# Source SHA-256: c40c8b9bbfae7d026fc068e97982433b5ab3de4039f5411167d5845db6931afa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KM!-RMRS.ANS by Kamione (rmrs-46); released in rmrs-46 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: KM!-RMRS.ANS by Kamione | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-46-km-rmrs
 
 Write-Host '
 [34m$$$$$$$$$$$$$$$$$▄▀▀▄▄ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;1;34m$$[0;36m$[0;1;37m$[0m

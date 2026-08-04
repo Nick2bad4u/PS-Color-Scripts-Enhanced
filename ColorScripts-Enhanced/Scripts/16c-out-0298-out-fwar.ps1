@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-FWAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0298/raw/OUT-FWAR.ANS
-# Source Revision: archive-sha256:b2ed908ebe07b9abc8a1b605d9ab159a38924592b5eaadb06525f7a5e1e213a6
-# Source SHA-256: 79ec8ff002089cf79386851619018694d171377f36a0d5c609a0a74ab77bddb2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-FWAR.ANS by Sandy Chidester (out-0298); released in out-0298 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: OUT-FWAR.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0298-out-fwar
 
 Write-Host '
               [31m▄▄▀[0;31;41m██[0;31m█▀ [0;1;31m▄[0;31m▀▀██[0;31;41m█[0;31m▄[0m

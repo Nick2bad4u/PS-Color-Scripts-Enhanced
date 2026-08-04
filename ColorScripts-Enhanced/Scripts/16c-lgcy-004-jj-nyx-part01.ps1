@@ -1,19 +1,4 @@
-﻿# Converted from: jj-Nyx.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-004/raw/jj-Nyx.ans
-# Source Revision: archive-sha256:c716e28d4b828a0135c19992fe2f71464879479199ebc42fd3d533b5bd3bf4d4
-# Source SHA-256: 568dd0abf3bb0bca23626f29f1fa86cb8a5720aceaff696d4a600e0ad29c8b6d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: jj-Nyx.ans by KF/jj (Legacy Krew); released in lgcy-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Quake Champion's Nyx
-# SAUCE Author: KF/jj
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20210416
-# SAUCE Dimensions: 80x51
-# SAUCE Font: IBM VGA
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Quake Champion's Nyx by KF/jj | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-004-jj-nyx-part01
 
 Write-Host '
 ███[1;47m█[0m██[30;47m█[0;37;40m██████████████ [0;1;34;40m█[0;1;34;47m░[0;1;34;40m█[0;1;37;40m█[0;1;34;40m [0;1;37;40m▀▀[0;1;37;47m▄▄▄[0;1;34;47m▀▀▀[0;1;34;40m████████████████[0;1;34;47m▄[0;1;34;40m█[0;1;34;47m▄▄[0m▄▄▄[1m▀▀▀[0;1;47m▄▄[0;1;34;47m▀▀[0;1;34;40m███████████████[0m

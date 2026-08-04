@@ -1,18 +1,4 @@
-﻿# Converted from: TAI-TOUR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twi-9708/raw/TAI-TOUR.ANS
-# Source Revision: archive-sha256:938b6bdc521ddcf0402d26161fce3427d94af463496779b296996fe588952a5f
-# Source SHA-256: f577ccd5e13037d5d8bac7d0be12f4d269d3037a8a5808ade2c75b56b000a3ab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TAI-TOUR.ANS by Tainted (Twilight); released in twi-9708 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Tourettes
-# SAUCE Author: Tainted
-# SAUCE Group: Twilight
-# SAUCE Date: 19970816
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Tourettes by Tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twi-9708-tai-tour
 
 Write-Host '
 [31m    [0m  [1;37m    [0m                   [1;30m░[0m [1;30m▓░[0m  [1;30m▀[0m▀ [1;30;47m█▓▓▒░░[0;1;37;47m░[0m▄[1;47m░░░ [0m█[1;47m░░▒▒▓▓[0;1;40m██[0;1;47m▓▓░░[0m█[30;47mtainted[twi][0;1;37;40m█[0;1;37;47m▓[0;1;37;40m▄[0m

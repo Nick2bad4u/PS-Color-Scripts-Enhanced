@@ -1,13 +1,4 @@
-﻿# Converted from: SS-POO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde0394/raw/SS-POO.ANS
-# Source Revision: archive-sha256:de6ed9ab061eb3873e65e8592983e98d7529a8bb505e6f2812dc10ac1d2b7ff0
-# Source SHA-256: 6ccdd7f476c89cf85e3525c45c526d1764ce20d8e97512d9ffa69f92af440e02
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SS-POO.ANS by Soul Seeker (blde0394); released in blde0394 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: SS-POO.ANS by Soul Seeker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde0394-ss-poo-part01
 
 Write-Host '
                       [34m▄▄▄▄▄▄[0;1;34;44m░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓[0;1;34;40m▄▄▄▄▄▄▄[0m

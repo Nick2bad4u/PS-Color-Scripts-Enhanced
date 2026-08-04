@@ -1,13 +1,4 @@
-﻿# Converted from: Os-27in.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-51/raw/Os-27in.ans
-# Source Revision: archive-sha256:ff9424ea0d61c43ca9938ec01e57b31d69411e1d785e81dcbf80607f1fcf46f7
-# Source SHA-256: 6020c9ff4b43b5bf8e7ea84e9529767674c621a951b51c90a265d37d3edbdb01
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Os-27in.ans by Offset (rmrs-51); released in rmrs-51 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: Os-27in.ans by Offset | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-51-os-27in
 
 Write-Host '
 [1;30m [0;1;37m☻[0;1;30m   [0;1;33mf[0;1;30m  ☺[0;1;35mf[0;1;30m   [0;1;31ms[0;1;30m   [0;1;36me[0;1;30m   [0;1;32mt[0;1;30m ☺ [0;1;34m([0;1;30m   [0;1;37ma[0;1;30m  [0;1;33m c[0;1;30m   [0;1;35mi[0;1;30m   [0;1;31md[0;1;30m   [0;1;34m/[0;1;30m   [0;1;37mr[0;1;30m  [0;1;33m e[0;1;30m   [0;1;35mm[0;1;30m   [0;1;31m☻[0;1;30m   [0;1;36mr[0;1;30m   [0;1;32ms[0;1;30m   [0;1;37me[0;1;30m   [0;1;34m)[0m

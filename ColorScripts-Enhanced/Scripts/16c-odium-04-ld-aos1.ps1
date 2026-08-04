@@ -1,18 +1,4 @@
-﻿# Converted from: LD-AOS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-04/raw/LD-AOS1.ANS
-# Source Revision: archive-sha256:8dc8586a37ce2081b7e99529b7087f421e6ff8d5ba2d146ef1d30bd490016720
-# Source SHA-256: 715826b8a1f23d79f435ab678702c47386c0a77c0ccc9c4d48cde821e4647a0f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-AOS1.ANS by lordjazz (odium); released in odium-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: alter of sacrifice
-# SAUCE Author: lordjazz
-# SAUCE Group: odium
-# SAUCE Date: 19960224
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: alter of sacrifice by lordjazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-04-ld-aos1
 
 Write-Host '
 [1;34m[0m                          [1;34m▄▄▄▄▄▄▄▄  [0;34m▄[0;1;34m▄▄▄▄▄   ▄▄▄▄▄▄▄▄[0m

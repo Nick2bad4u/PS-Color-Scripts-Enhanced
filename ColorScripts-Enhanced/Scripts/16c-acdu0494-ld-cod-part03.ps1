@@ -1,18 +1,4 @@
-﻿# Converted from: LD-COD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0494/raw/LD-COD.ANS
-# Source Revision: archive-sha256:cda9410890e0ae8f5b3a1e8c7fce4e1b3de00d8e334ef300576869cead7a6b53
-# Source SHA-256: 2a7d85bd7bef30c17dc6453f13f466814570e085a69e040d7064de4bd8ff8e05
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-COD.ANS by Lord Jazz (ACiD Productions); released in acdu0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Castle of Darkness
-# SAUCE Author: Lord Jazz
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940326
-# SAUCE Dimensions: 80x796
-# Lines: 101-150
-# Columns: 1-80
+﻿# Artwork: Castle of Darkness by Lord Jazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0494-ld-cod-part03
 
 Write-Host '
                       [1;30m█[0m                                                       [34m▄▄[0m

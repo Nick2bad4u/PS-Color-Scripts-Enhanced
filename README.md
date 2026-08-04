@@ -42,17 +42,27 @@ A cross-platform PowerShell module for discovering and displaying ANSI colorscri
 ## ✨ Features
 
 - 🎨 **<!-- COLOR_SCRIPT_COUNT_PLUS -->24822+<!-- /COLOR_SCRIPT_COUNT_PLUS --> Colorscripts** — Fractals, patterns, characters, nature scenes, and more
+
 - ⚡ **Selective Caching** — Reuses output for the 15 computational renderers listed in `CachePolicy.psd1`; deterministic bundled scripts render in-process
+
 - 🌐 **Cross-Platform** — Works on Windows, macOS, and Linux
+
 - ⚙️ **Configurable** — Persist cache location, startup behavior, and defaults
+
 - **Rich Metadata** — Filter the catalog by name, category, and tag or export it as structured data
+
 - 🐾 **Thousands of Pokémon ColorScripts** — Pokémon and shiny-Pokémon collections participate in normal selection
 
   To opt out, use `-ExcludeCategory Pokemon,ShinyPokemon` with `Show-ColorScript`.
+
 - 🌍 **10 Languages** — English, German, Spanish, French, Italian, Japanese, Dutch, Portuguese, Russian, Chinese
+
 - 🧩 **Easy to Use** — Simple commands with tab completion
+
 - 🗄️ **Platform-Aware Cache** — Query `(Get-ColorScriptConfiguration).Cache.EffectivePath` for the user-scoped location
+
 - 🔄 **Auto-Update** — Cache invalidates automatically when scripts change
+
 - 📚 **Localized External Help** — Markdown and generated MAML topics for all 10 public commands in 10 cultures
 
 ## 🚀 Quick Start
@@ -145,18 +155,18 @@ Set-Alias -Name cs -Value Show-ColorScript
 
 ## 🔧 Commands Reference
 
-| Command                          | Alias                                               | Description                                      |
-| -------------------------------- | --------------------------------------------------- | ------------------------------------------------ |
-| `Show-ColorScript`               | `scs`                                               | Render, list, or browse colorscripts             |
-| `Get-ColorScriptList`            | —                                                   | Query colorscript inventory records              |
-| `New-ColorScriptCache`           | `Update-ColorScriptCache`, `Build-ColorScriptCache` | Build policy-selected cache entries              |
-| `Clear-ColorScriptCache`         | —                                                   | Remove selected cache entries                    |
-| `Add-ColorScriptProfile`         | —                                                   | Add a managed module profile block               |
-| `Get-ColorScriptConfiguration`   | —                                                   | Read effective configuration                     |
-| `Set-ColorScriptConfiguration`   | —                                                   | Persist cache and startup preferences            |
-| `Reset-ColorScriptConfiguration` | —                                                   | Restore built-in configuration defaults          |
-| `Export-ColorScriptMetadata`     | —                                                   | Return metadata objects or write JSON            |
-| `New-ColorScript`                | —                                                   | Scaffold a UTF-8 colorscript file                |
+| Command                          | Alias                                               | Description                             |
+| -------------------------------- | --------------------------------------------------- | --------------------------------------- |
+| `Show-ColorScript`               | `scs`                                               | Render, list, or browse colorscripts    |
+| `Get-ColorScriptList`            | —                                                   | Query colorscript inventory records     |
+| `New-ColorScriptCache`           | `Update-ColorScriptCache`, `Build-ColorScriptCache` | Build policy-selected cache entries     |
+| `Clear-ColorScriptCache`         | —                                                   | Remove selected cache entries           |
+| `Add-ColorScriptProfile`         | —                                                   | Add a managed module profile block      |
+| `Get-ColorScriptConfiguration`   | —                                                   | Read effective configuration            |
+| `Set-ColorScriptConfiguration`   | —                                                   | Persist cache and startup preferences   |
+| `Reset-ColorScriptConfiguration` | —                                                   | Restore built-in configuration defaults |
+| `Export-ColorScriptMetadata`     | —                                                   | Return metadata objects or write JSON   |
+| `New-ColorScript`                | —                                                   | Scaffold a UTF-8 colorscript file       |
 
 **Get help for any command:**
 
@@ -175,16 +185,19 @@ Some colorscripts use special glyphs that require a [Nerd Font](https://www.nerd
 ## 🐛 Troubleshooting
 
 **Colorscript not displaying correctly?**
+
 ```powershell
 Show-ColorScript -Name "scriptname" -NoCache
 ```
 
 **Cache seems stale?**
+
 ```powershell
 New-ColorScriptCache -Force
 ```
 
 **Module not found?**
+
 ```powershell
 Get-Module ColorScripts-Enhanced -ListAvailable
 ```
@@ -250,6 +263,7 @@ Get-Module ColorScripts-Enhanced -ListAvailable
 ## 🙏 Credits
 
 Built upon the work of:
+
 - [Derek Taylor (DistroTube)](https://gitlab.com/dwt1/shell-color-scripts) — Original shell-color-scripts
 - [Scott McKendry](https://github.com/scottmckendry/ps-color-scripts) — PowerShell port
 
@@ -261,7 +275,7 @@ Project-authored code is provided under the [Unlicense](LICENSE). Third-party AN
 
 ### Artwork Sources and Provenance
 
-New curated imports are mapped in [ArtworkProvenance.psd1](ColorScripts-Enhanced/ArtworkProvenance.psd1), with preserved evidence under [ThirdPartyNotices](ColorScripts-Enhanced/ThirdPartyNotices/), compact [archive](ColorScripts-Enhanced/AnsiArchiveCurationCheckpoint.json) and [content-curation](ColorScripts-Enhanced/AnsiContentCurationCheckpoint.json) checkpoints, and browsing/licensing context in the [Artwork Sources guide](docs/ARTWORK_SOURCES.md). This includes [The Lake House](https://16colo.rs/pack/mist0624/ZII-LAHO.ANS) by Zeus II of Mistigris, preserved as six contiguous, full-width scripts, and 126 unique Roy-authored works represented by 153 scripts under FAL-1.3. The exhaustive 1990-2026 16colors review is complete: 64,929 `.ANS` or `.ICE` candidates across 5,479 enumerated packs yielded 15,073 retained works and 21,495 scripts after post-import content, adult-policy, quality, source-continuity, promotional-content, and duplicate-render curation. Historical archive-recovery entries retain exact source evidence without inventing metadata that 16colors does not provide.
+New curated imports are mapped in the repository-only [ArtworkProvenance.psd1](audit/ArtworkProvenance.psd1), with a compact [artwork-details page](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html), preserved evidence under [ThirdPartyNotices](ColorScripts-Enhanced/ThirdPartyNotices/), compact [archive](audit/AnsiArchiveCurationCheckpoint.json) and [content-curation](audit/AnsiContentCurationCheckpoint.json) checkpoints, and browsing/licensing context in the [Artwork Sources guide](docs/ARTWORK_SOURCES.md). The large development records stay outside the published module; mapped scripts retain only an offline title/artist attribution and a script-scoped details link. This includes [The Lake House](https://16colo.rs/pack/mist0624/ZII-LAHO.ANS) by Zeus II of Mistigris, preserved as six contiguous, full-width scripts, and 126 unique Roy-authored works represented by 153 scripts under FAL-1.3. The exhaustive 1990-2026 16colors review is complete: 64,929 `.ANS` or `.ICE` candidates across 5,479 enumerated packs yielded 15,073 retained works and 21,495 scripts after post-import content, adult-policy, quality, source-continuity, promotional-content, and duplicate-render curation. Historical archive-recovery entries retain exact source evidence without inventing metadata that 16colors does not provide.
 
 ---
 
@@ -270,14 +284,19 @@ New curated imports are mapped in [ArtworkProvenance.psd1](ColorScripts-Enhanced
 ## Contributors ✨
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors.](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+
 <!-- prettier-ignore-start -->
+
 <!-- markdownlint-disable -->
+
 <table>
   <tbody>
     <tr>
@@ -293,6 +312,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/all-contri
 </table>
 
 <!-- markdownlint-restore -->
+
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->

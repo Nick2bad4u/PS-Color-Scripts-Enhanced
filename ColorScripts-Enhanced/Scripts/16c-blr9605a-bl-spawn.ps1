@@ -1,18 +1,4 @@
-﻿# Converted from: BL-SPAWN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blr9605a/raw/BL-SPAWN.ANS
-# Source Revision: archive-sha256:b98ba69c35920ac149be91f14e29989aec92fbc93e996703a782c2c257d72f9a
-# Source SHA-256: 8fd0a357616c9b3b3f1a9cbdc2e71c896f899f5832693071ea6a1ba32dfa1198
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BL-SPAWN.ANS by bloodlore (blur); released in blr9605a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: spawning groundsmatrix
-# SAUCE Author: bloodlore
-# SAUCE Group: blur
-# SAUCE Date: 19960406
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: spawning groundsmatrix by bloodlore | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blr9605a-bl-spawn
 
 Write-Host '
 [1m░[0m              [1;33m▄▄▄▄█▓▄▀▀▄▀██████[0;1;33;43m▓[0;1;33;40m█▓█[0;1;33;43m▀[0;1;33;40m███▌[0m [1;33m▐▓[0m [1;33m▄▀[0m [1;33m▄▄▀[0m                       [1m░[0m

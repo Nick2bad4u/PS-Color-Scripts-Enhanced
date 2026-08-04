@@ -1,18 +1,4 @@
-﻿# Converted from: GDR-ELD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aspire01/raw/GDR-ELD.ANS
-# Source Revision: archive-sha256:f43fc1225b31ab1a04e5d79452fd45ba80fce2e2fd3402d945be695dfc4cdc66
-# Source SHA-256: 985bc2f43ecfa09b922f04095273800f0950d8d045291c5e670202544ac701cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GDR-ELD.ANS by gravedancer (aspire); released in aspire01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: eldorado
-# SAUCE Author: gravedancer
-# SAUCE Group: aspire
-# SAUCE Date: 19980628
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: eldorado by gravedancer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aspire01-gdr-eld
 
 Write-Host '
 [1;31m██[0;1;31;41m▀▀▀▀▓▓▒▒░░[0;31m███████[0;1;31;41m░░░▒▓▄[0;31m▄▄▄▄▄   [0m                 [1;33m▄▄▄▄▄▌███▌[0m       [1;33m▐█[0;1;37m█[0;1;33m██▄▄▄    [0m

@@ -1,17 +1,4 @@
-﻿# Converted from: PE!DET.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cia54/raw/PE!DET.ANS
-# Source Revision: archive-sha256:9b7b685b524341694e840bb32e23e0ecbdd87901428d1485320cda27f9079201
-# Source SHA-256: 2b644d85bb3933ff054896402381999009717d135925e7ecb22e86bb731a1ad5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PE!DET.ANS by PhonyEye (CIA Productions); released in cia54 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Death Road
-# SAUCE Author: PhonyEye
-# SAUCE Group: CIA Productions
-# SAUCE Date: 19980707
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Death Road by PhonyEye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cia54-pe-det
 
 Write-Host '
    [31m  [0m   [34m░▄[0;37m [0;34m▄[0;1;34;44m▄█[0;34m▄[0;37m [0;31m ░[0;37m [0;31m▄[0m               [31m▄[0;1;31;41m▄[0;31m▄[0;37m [0;31m ▄[0m   [34m            [0m   [34m [0m

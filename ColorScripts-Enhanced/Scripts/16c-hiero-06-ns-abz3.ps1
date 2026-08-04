@@ -1,18 +1,4 @@
-﻿# Converted from: NS-ABZ3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-06/raw/NS-ABZ3.ANS
-# Source Revision: archive-sha256:a9f2b3a98de11e16465e105efa9558fc8b7152c0f268ebdd3ef00191f04c5b89
-# Source SHA-256: 848ea14c930d71d150daa6bb454bae3dada08973094a149b7060a65400bd2e65
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NS-ABZ3.ANS by Ansichrist (Hieroglyphics); released in hiero-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Hieroglyphics
-# SAUCE Author: Ansichrist
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20010108
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Hieroglyphics by Ansichrist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-06-ns-abz3
 
 Write-Host '
 [36m██████████████████████████████▌  [0;1;37;46m▓[0;1;37;41m█[0;1;37;40m███[0;1;37;41m██████████████████████████[0;1;37;46m▓▓[0;36m█▄[0m

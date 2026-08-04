@@ -1,19 +1,4 @@
-﻿# Converted from: 2m x om - LucyLucyLucy.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_darker_image_2/raw/2m%20x%20om%20-%20LucyLucyLucy.ans
-# Source Revision: archive-sha256:7282b405cc52219ce7cf6cd9d097796f1b25fc898e4c29fdb9f37c375d595996
-# Source SHA-256: 7785d0ae8e6951a3ecea46e0a1129a8d1b72b279e77610d16caf210f1fdeaf4d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2m x om - LucyLucyLucy.ans by Mattmatthew + Otium (Blocktronics); released in blocktronics_darker_image_2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: LucyLucyLucy
-# SAUCE Author: mattmatthew x otium
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20170825
-# SAUCE Dimensions: 80x224
-# SAUCE Font: IBM VGA
-# Lines: 91-135
-# Columns: 1-80
+﻿# Artwork: LucyLucyLucy by Mattmatthew + Otium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-darker-image-2-2m-x-om-lucylucylucy-part03
 
 Write-Host '
 [1;34;44m███████▓▓▓▓▓▓▓[0;34m▀[0;37m [0;1;32m▄█[0m        ▄[1m▀ ▄▀ ▄▀ [0m▄▀[34m  [0;37m [0;34m▄▀▀[0;37m ▒▒▓▓[0;1;37m█████████▄[0m ▀█ ▒  ░[1;34;44m▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m

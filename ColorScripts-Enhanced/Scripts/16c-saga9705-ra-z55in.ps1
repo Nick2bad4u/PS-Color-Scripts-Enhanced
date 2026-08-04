@@ -1,18 +1,4 @@
-﻿# Converted from: RA-Z55IN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/saga9705/raw/RA-Z55IN.ANS
-# Source Revision: archive-sha256:9950004e76ea5c0e6c27ac92b1d4c958f7cea833041843273d527effb62ad1ee
-# Source SHA-256: afc1a5c4c2c1e722cea2c2bf33cd1b44aa79cc171b62b77f8b0a4228de2d2975
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RA-Z55IN.ANS by Reanimator (Saga); released in saga9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: z55
-# SAUCE Author: Reanimator
-# SAUCE Group: Saga
-# SAUCE Date: 19970520
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: z55 by Reanimator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-saga9705-ra-z55in
 
 Write-Host '
 [33m     [0;1;30m▄▄▄██[0;33m  [0;1;30m [0;33m [0;1;30m▄▓▓▓▓█▄[0;33m        [0;1;30m▄▄▄▄[0;33m         [0;32m [0;1;30m░[0;32m [0;1;32m▄▄▄▄[0;32m▄[0;30;42m█[0;1;36;40mz55 viewing program[0;32m  ▒▀▀▀[0;1;32m▀[0;1;37;42m▓▓[0;1;32;40m [0m

@@ -1,16 +1,4 @@
-﻿# Converted from: ST-BTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nectar03/raw/ST-BTH.ANS
-# Source Revision: archive-sha256:faec2ce79f4ec7fdedcb1c5275057d2bd3473a7b6d9bb41113e78d041db9cd35
-# Source SHA-256: 0fefe7fbd80ad6a91f1f5924764449be5cd2a44d0611e9a120502dec9c985851
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-BTH.ANS by st (nectar03); released in nectar03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: st
-# SAUCE Date: 19960302
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: ST-BTH.ANS by st | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nectar03-st-bth
 
 Write-Host '
                              [1;33m     [0m [1;33m▄▄▄▄▄▄[0m▄[1;33m  [0m     [1m      [0m

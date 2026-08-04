@@ -1,17 +1,4 @@
-﻿# Converted from: RXLOGO01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/33rules/raw/RXLOGO01.ANS
-# Source Revision: archive-sha256:6cf2aef8e3ca97e1761e1ee4a8ba395e4fdab4dec9d3b2efb91c059359b50b00
-# Source SHA-256: cc9aeb783b8b7435d641aa97f7a612b11fb4f5c027014d1cb398b2065a174631
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RXLOGO01.ANS by Early work (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Rx Promotional
-# SAUCE Author: Early work
-# SAUCE Group: Eerie
-# SAUCE Date: 20940104
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Rx Promotional by Early work | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-33rules-rxlogo01
 
 Write-Host '
 [1;34;44m███[0;1;34;40m██ [0;1;31;40m▀█▀▀▀▄ [0;1;34;40m██████████████████████████████████████████████████████████████████[0m

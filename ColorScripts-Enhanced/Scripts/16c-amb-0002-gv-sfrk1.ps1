@@ -1,17 +1,4 @@
-﻿# Converted from: GV-SFRK1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amb-0002/raw/GV-SFRK1.ANS
-# Source Revision: archive-sha256:ddf2bfb6c349501ad0002133992d1d3c9602291731a9f4cef0d5ef9af30b761f
-# Source SHA-256: b4b9ea0d0baeef0cf92c31965c2ba1bbd415cfdb40713237c22eb717a5934078
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GV-SFRK1.ANS by Groove (AMBUSH Productions); released in amb-0002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Soul Freak #1
-# SAUCE Author: Groove
-# SAUCE Group: AMBUSH Productions
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Soul Freak #1 by Groove | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amb-0002-gv-sfrk1
 
 Write-Host '
        [36m_╓s@S$$"$$$Ss, _╓s@S$$"$S@s╖_           _╓s@S$$╓s@S$$$[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: mmc15-15.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bommc01/raw/mmc15-15.ans
-# Source Revision: archive-sha256:0e202a554be4c5a61c37230b2f619caf545c069dc1c49e22f04718c59893cd7d
-# Source SHA-256: 9c6474c710348f1ac31c912c2185284362f52782bb487fc9e1e7612ab666d13e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mmc15-15.ans by m7mCafe (mimic); released in bommc01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: m7mCafe
-# SAUCE Group: mimic
-# SAUCE Date: 19990819
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: mmc15-15.ans by m7mCafe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bommc01-mmc15-15
 
 Write-Host '
 

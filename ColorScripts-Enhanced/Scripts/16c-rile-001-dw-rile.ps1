@@ -1,18 +1,4 @@
-﻿# Converted from: DW-RILE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile_001/raw/DW-RILE.ANS
-# Source Revision: archive-sha256:f7a8644489c1d011b91477b5b1eab40d9f39b077b89f158a7a0c3d1c032c6d81
-# Source SHA-256: b796bc892b61f657036682dea9fca38389e7a617236601d740f323013033b87e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DW-RILE.ANS by drynwhyl (RILE); released in rile_001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: drynwhyl as a guest!..
-# SAUCE Author: drynwhyl
-# SAUCE Group: RILE
-# SAUCE Date: 19970215
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: drynwhyl as a guest!.. by drynwhyl | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile-001-dw-rile
 
 Write-Host '
                            [1;36m░░░[0m

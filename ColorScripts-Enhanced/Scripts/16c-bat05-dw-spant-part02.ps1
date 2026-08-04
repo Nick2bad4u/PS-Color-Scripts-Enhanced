@@ -1,18 +1,4 @@
-﻿# Converted from: DW-SPANT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bat05/raw/DW-SPANT.ANS
-# Source Revision: archive-sha256:c1082e0417753715d0b89831e0230f9ac3baf3aab6c8a1f382615ebce2ab409a
-# Source SHA-256: 01d635efb93af72b2be69a21d55a6190ec842c0e70d0f4f712a4c7ed51d8fb25
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DW-SPANT.ANS by darkwing (bad attitude); released in bat05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: babe for spantobi
-# SAUCE Author: darkwing
-# SAUCE Group: bad attitude
-# SAUCE Date: 19970127
-# SAUCE Dimensions: 80x92
-# Lines: 47-92
-# Columns: 1-80
+﻿# Artwork: babe for spantobi by darkwing | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bat05-dw-spant-part02
 
 Write-Host '
 [37m   [0;1;32;42m▓▒░         ░▒▓▓▒▒▒▒░░░░[0m [34m  ▓▄▄        ▄[0;37m [0;1;31m▀▀▀▀▀▀▀ [0;34m▄[0;1;31m  [0m   [34m▀▀▀▄▄[0;37m [0;34m▒[0m       [34m▄▄ [0m   [34m▓▓[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: 2m-EMOTEevoke.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_blockfury/raw/2m-EMOTEevoke.ans
-# Source Revision: archive-sha256:071260960977ea1068cec2d97ab877e753876c2d02c413111354a74175d7cd04
-# Source SHA-256: 8875ab21af48d43dd314048c500da38727e9fe07f23e4f54a4c7d28bf106b5e8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2m-EMOTEevoke.ans by Mattmatthew (blocktronics_blockfury); released in blocktronics_blockfury and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 150-199
-# Columns: 1-80
+﻿# Artwork: 2m-EMOTEevoke.ans by Mattmatthew | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blockfury-2m-emoteevoke-part04
 
 Write-Host '
 [1;30;40m█[0;1;30;42m▒[0;1;30;40m█[0;1;30;46m▓[0;1;30;40m█[0;1;30;45m▄[0;35m█████[0;1;32m███████[0;1;32;47m▄ [0;1;33;47m▒▒▀▀[0;1;30;47m▄[0;1;30;40m█[0;1;30;43m▓▓▄▄▓▓▄▄[0;1;30;40m█[0;32m██[0;1;32;42m▒▒▒▒[0;1;33;46m▀▀▀▀[0;1;32;42m▄[0;1;33;47m [0;1;32;46m█[0;1;33;47m▒[0;1;32;46m█[0;1;37;40m█[0;1;32;46m█[0;1;37;40m█[0;1;32;46m█[0;1;37;40m█[0;1;32;46m█[0;1;37;47m▄[0;1;37;46m▀[0;1;32;47m█[0;1;33;40m█[0;1;32;47m█[0;1;33;40m█[0;1;36;47m▀[0;1;37;46m▄[0;1;37;40m██████[0;1;36;47m▒[0;1;36;41m█[0;1;36;47m▒[0;1;33;44m█[0;1;36;47m░[0;1;33;41m▀[0;1;31;41m    [0m

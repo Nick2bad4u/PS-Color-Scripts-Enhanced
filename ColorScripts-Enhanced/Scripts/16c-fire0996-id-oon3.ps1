@@ -1,18 +1,4 @@
-﻿# Converted from: ID-OON3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0996/raw/ID-OON3.ANS
-# Source Revision: archive-sha256:fd0c87547005857a37aee32ff40c82a1e8535aecda68a9edc2483cdc45b21af1
-# Source SHA-256: 0350f554e0544286b9729e442fae0d5a4329022a32be26a0cf9512025c967584
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ID-OON3.ANS by iodine (fire); released in fire0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Ooon .. something. :)
-# SAUCE Author: iodine
-# SAUCE Group: fire
-# SAUCE Date: 19960905
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Ooon .. something. :) by iodine | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0996-id-oon3
 
 Write-Host '
       [30;41m▓░[0;31;40m▓▄[0m

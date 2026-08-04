@@ -1,18 +1,4 @@
-﻿# Converted from: CL!-TRIS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tpy-15/raw/CL!-TRIS.ANS
-# Source Revision: archive-sha256:f1391bc52c069132e3879274a728014c1d2d39750efc2129fcce8e498ec45b88
-# Source SHA-256: ad183338ca82bbf4b2db268a5351333ae1a6180ce340053b38cd029e9ecb18c3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-TRIS.ANS by cleaner (telepathy); released in tpy-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Injection tetris PPE ascii
-# SAUCE Author: cleaner
-# SAUCE Group: telepathy
-# SAUCE Date: 19981005
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Injection tetris PPE ascii by cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tpy-15-cl-tris
 
 Write-Host '
 [1;36m$²²[0;36m²²[0;1;36m²²[0;36m²²[0;1;36m²$²[0;1;37m²²²[0;1;36m²²²[0;36m²²[0;1;36m²²[0;36m²$[0;1;36m$$$[0;1;37m$$[0;1;36mCl![0;1;37m$$[0;1;36m$┘''[0;1;33m.▬s#$$t*²`_.,▬s%t#t%s▬,._''²*²`_.,▬s%t#t%s▬[0m

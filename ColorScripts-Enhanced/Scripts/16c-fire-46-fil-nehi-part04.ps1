@@ -1,19 +1,4 @@
-﻿# Converted from: FIL-NEHI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-46/raw/FIL-NEHI.ANS
-# Source Revision: archive-sha256:32c189dd42ed53f66ce0b86a88ea8027caddc32faf4da7cee2e674d9223cb9f4
-# Source SHA-256: d21c67145a551926bc26777b4052487756fed3245085114caf655d57f3f16014
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FIL-NEHI.ANS by filth (FiRE); released in fire-46 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: CORRUPTiON OF THE FLAME
-# SAUCE Author: filth
-# SAUCE Group: FiRE
-# SAUCE Date: 20260707
-# SAUCE Dimensions: 80x170
-# SAUCE Font: IBM VGA
-# Lines: 129-170
-# Columns: 1-80
+﻿# Artwork: CORRUPTiON OF THE FLAME by filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-46-fil-nehi-part04
 
 Write-Host '
 [35m  [0;1;35;45m▓█[0;1;35;40m███▄███▌███[0;1;35;45m▓[0m [1;35m▐███[0;30;41m▓[0;1;35;40m▐███▄███▌[0m [1;35m███[0;1;35;45m▀▀[0;1;35;40m██▄[0;35m▄[0;30;41m▓[0;1;35;40m████████▓[0m [30;41m▓[0;1;35;40m█[0;1;35;47m▀[0;1;35;40m█[0;30;41m▓[0;37;40m [0;35;40m▐[0;1;35;40m█[0;1;35;47m▀[0;1;35;40m███████[0;35m▌[0;1;35m█[0;1;35;47m▀[0;1;35;40m███▄███▌[0m

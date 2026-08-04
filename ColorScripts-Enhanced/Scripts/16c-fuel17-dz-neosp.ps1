@@ -1,18 +1,4 @@
-﻿# Converted from: DZ-NEOSP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel17/raw/DZ-NEOSP.ANS
-# Source Revision: archive-sha256:6bb17dad2b087feff514e10d76b337034c943aff1fa5007d50b103cb34f90d66
-# Source SHA-256: 1f02b6d8c6a5588488d316dd8bb26c0a519174afbabf25be917c037285215fcd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DZ-NEOSP.ANS by Dizzy (fUEL); released in fuel17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Neosporin
-# SAUCE Author: Dizzy
-# SAUCE Group: fUEL
-# SAUCE Date: 19970929
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: Neosporin by Dizzy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel17-dz-neosp
 
 Write-Host '
  [36m░░[0;37m [0;36m░▌                                   [0;1;36m [0;36m                     [0;37m [0;36m  [0;1;37m [0;1;36m            [0m

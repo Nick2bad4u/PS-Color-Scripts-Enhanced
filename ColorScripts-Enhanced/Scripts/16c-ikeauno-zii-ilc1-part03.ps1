@@ -1,18 +1,4 @@
-﻿# Converted from: Zii-ilc1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ikeauno/raw/Zii-ilc1.ans
-# Source Revision: archive-sha256:b1d96158efc683f94dde86cd6452b4af638869393831e2c9a72b6b7e3f26eb95
-# Source SHA-256: f731f0680aa71ef4b47955829356dc85f5d7cbe98c7c980045f2dcca3cdf1921
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Zii-ilc1.ans by Zeus II (IKEA); released in ikeauno and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ikea logo colly 1
-# SAUCE Author: Zeus II
-# SAUCE Group: IKEA
-# SAUCE Date: 20001214
-# SAUCE Dimensions: 80x134
-# Lines: 89-134
-# Columns: 1-80
+﻿# Artwork: ikea logo colly 1 by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ikeauno-zii-ilc1-part03
 
 Write-Host '
    [1;30m█[0;1;30;43m▓▓[0;1;30;40m▄[0;32m [0;31m▀▌[0;32m  [0;1;32;42m▄▀[0;32m██▄█▀[0;1;32;42m▓▀[0;32m▀  [0;33m▄▄█[0;32m  ▄[0;1;32;42m▓▓▒▒▒░[0;1;30;40m▀[0;32m  [0;33m▄[0;1;30m ▀█[0;1;30;43m▓[0;1;30;40m█▄[0;32m  [0;36m▀▄[0;1;37;46m▒▒▒░░[0;36m█▀▀[0;32m [0;31m▄[0;1;31;41m▒▒░░[0;31m█[0;1;31;41m▀[0;31m███▀▀[0m

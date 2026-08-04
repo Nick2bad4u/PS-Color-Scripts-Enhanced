@@ -1,0 +1,1708 @@
+{
+  "batch": 66,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 22,
+              "start": 1
+            },
+            {
+              "end": 46,
+              "start": 36
+            }
+          ],
+          "expectedRawSha256": "1f2822280438973d16f169c61745d341d8a536367adbb32edbb67c8e13ecdcbb",
+          "expectedRenderedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "row": 3,
+          "sha256": "a1099ea89e04a8147b6671aa51f7324b69d8d7d450393384ed6f8ddea43693b1"
+        }
+      ],
+      "file": "16c-aai-demon.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 27,
+              "start": 20
+            }
+          ],
+          "expectedRawSha256": "25943469bf1e236aa79e5577e9d0f51f4bc339ced4f6ca1b2ec5a2ced3e7ad20",
+          "expectedRenderedSha256": "3d8f2a4a5a3160b5f45077449d7955763bea960a1f926abbf11eed1ab6868656",
+          "row": 7,
+          "sha256": "28fc7021ffa3bceca26664bc3db67bc79f0bc57588f40de07d8956360df292a0"
+        }
+      ],
+      "file": "16c-acdu1095-gs-bsun1-part01.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "de8d99be691252412384dc8cf667dfc538a4f94965b35683b6872871ef00c1dd",
+          "expectedRenderedSha256": "0863ce4c702af34f9a72c0f8bb1d5ec85656d7468ab8b50ed7a7afb4deab3361",
+          "row": 5,
+          "sha256": "a04ac6faa35af481cb7ea99d993751614178b7b3e58911399282438a13962cf5"
+        }
+      ],
+      "file": "16c-acdu1195-gs-evil-part01.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 58,
+              "start": 44
+            }
+          ],
+          "expectedRawSha256": "69db86323c27caceff42913bface3e335c6f635d809537218e80fa4ccb3865af",
+          "expectedRenderedSha256": "feffc9d8d69d5edc31362f1cf922691144900e5a972bb4f90f13ad942befa7a5",
+          "row": 23,
+          "sha256": "fe18c94cf0cb093c49b51b5b9f898321607c6af97f8fd371bff5e17c0e4b5d7b"
+        }
+      ],
+      "file": "16c-air-0697-lg-cess3.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 74
+            }
+          ],
+          "expectedRawSha256": "ce026e76678fbede2761ab4aede81d35d6b18fd27ea0d66e0e17787279f789d7",
+          "expectedRenderedSha256": "a1e6310417931612779dc3e0ebed9c8483a9e064d1904571aa0675ec26e0a6ea",
+          "row": 22,
+          "sha256": "de9053dc67df44a71f76742fe94e6f6fc033bce860cd09dc474f4cb8814ea169"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 69
+            }
+          ],
+          "expectedRawSha256": "ef0b1cc447ca77fe7a6162023a13bfdb23f8bcbc9a7f55a4439b94263dbce7db",
+          "expectedRenderedSha256": "ad062b6f7891da9ce3c967f927469677d69c340c8ac1bfdc084c2c5448eb1d25",
+          "row": 24,
+          "sha256": "99f3f0b10a713724d573f6daad12f68ba67fa9e5f6648f8d43e60d01fb20bdc0"
+        }
+      ],
+      "file": "16c-apathy11-pc-mtrx1.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 8,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "cb97774fde016680df0204cf7976081a35d894bcef92624759a7253fb65e14f7",
+          "expectedRenderedSha256": "5608234630a10256a637d3f94ff70cef1dc8d929a23b519de74dc9af07e34d43",
+          "row": 9,
+          "sha256": "eebdb4559b5d6ddb532e0ed275ce45d451df3491a998d9f6acec3c00d39911ff"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 12,
+              "start": 7
+            }
+          ],
+          "expectedRawSha256": "55ad11298cc441e6039d3e46a4980003d19574fcde35295935970634ecbe7918",
+          "expectedRenderedSha256": "9976db64f8a49e60a86c6202249973487fdc68a87c1e80c1e20dbb32fc377554",
+          "row": 10,
+          "sha256": "3269014b2083f4f6ebd443bda3a21ac8134822a9d47f51c29b56b6552fd9f5b4"
+        }
+      ],
+      "file": "16c-blndr005-te-bean.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 79,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "dda18eeebed94814e70ae790b3fed7cac2f8c813f36cd242a1ddd69f88196be8",
+          "expectedRenderedSha256": "f916483513a07f06d3ca123e7d268c359a575d5e4f6a3956b6d81b0b5cfaee5b",
+          "row": 27,
+          "sha256": "2ca98946c598510b65a26584a07cee3ec672914ed652f3125ea10645fb927d92"
+        }
+      ],
+      "file": "16c-bmbook22-ave-cl20-part06.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 71
+            }
+          ],
+          "expectedRawSha256": "8f7e743e544d605c2421f9d37b1247620377f8d3a78a0f51248182c2db17b358",
+          "expectedRenderedSha256": "224d42146c5e365d099d0ce05cc82d41c7dc9fe7a157087e4f55bcc00f02112f",
+          "row": 15,
+          "sha256": "946be3258703a5b9496c148a2ebe3095cbc195c92c42864d022ee68d1a16c671"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 70
+            }
+          ],
+          "expectedRawSha256": "bf4535685c9e29275389dd622a9bbfa7591186c92700f0c348dd84e587cea4a7",
+          "expectedRenderedSha256": "619b87068558d1ee7e16ef1f8f6d35dfffee01ffb947b5a3813c8c728418f95f",
+          "row": 16,
+          "sha256": "ab25dd3c556f6a6242e542aef54ba65f92c13714086b5099017ba77fe6fe4617"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 78,
+              "start": 70
+            }
+          ],
+          "expectedRawSha256": "29680cae81246024d8f522d847411a78cd880b36ad4cd9c2d3952c81b8410fc4",
+          "expectedRenderedSha256": "5ac8a0286cd31a3d35fa17ef235ceb44b0121afbbf1349c54283f9fa66e3b9a8",
+          "row": 17,
+          "sha256": "69b4c54a99462f17279bb3fb3ae7b37b72844071ff31f87af462bbf393af9bee"
+        }
+      ],
+      "file": "16c-cri-0495-rd-mem.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 51,
+              "start": 28
+            }
+          ],
+          "expectedRawSha256": "1b84af65962a3cd1799a6d84cde290214cdd50de7f46b4d1022399a498b675c9",
+          "expectedRenderedSha256": "272a7919e9758753a9fbbd757ec91e7e4186dc98394d1f9f67dc68daf70174df",
+          "row": 25,
+          "sha256": "e868245364b905c2ba8fa992689e2f7347184fe300c2f2fcf6bcb80a5fc9ad1e"
+        }
+      ],
+      "file": "16c-dma-vlfd-vl-dc-part01.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 24,
+              "start": 3
+            }
+          ],
+          "expectedRawSha256": "04d1da2dbbb0e47517f57444434c2c19cd1f24362f4052f96f1ca24a4358d120",
+          "expectedRenderedSha256": "f35c9909d4ae97c0ccbd1720d244e1e068e2298d732af553833d4a144912d33a",
+          "row": 29,
+          "sha256": "e38b30850567cc2223027b517429244b6a57f11c539c9588589922efd7700610"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 78,
+              "start": 53
+            }
+          ],
+          "expectedRawSha256": "b4b9d8e53468013faf6d6a3f6afe15041a7f3f4a79fb1eb5c17ebab286869965",
+          "expectedRenderedSha256": "d41bec5706c726bb7e24ee7609196e6da2b330c4537eb4b9038b45e950458fe9",
+          "row": 32,
+          "sha256": "b1396380d1b7d37f62f3ad553d226141ddf55068595b7839da28591781af6c47"
+        }
+      ],
+      "file": "16c-fos-0795-on-doa.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 68,
+              "start": 46
+            }
+          ],
+          "expectedRawSha256": "731cd8ccb3137124656c2337a49e4c11f095ce6eb3103150c433dc8fab3de061",
+          "expectedRenderedSha256": "9089bb6deaf01a0d6be60ece8e61e4b2bfbbcf7aff28c7f9cf2aded507893e3a",
+          "row": 10,
+          "sha256": "911654b02f423d621e99d56f8d5c1cedf21eebcad4f33ff0109e875ec7698e3d"
+        }
+      ],
+      "file": "16c-fuel20-dd-ce2.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 13,
+              "start": 6
+            }
+          ],
+          "expectedRawSha256": "d4ba97c45a43d66aedea7fc3d93323eb0abbd493701cd0a354ccc8bb3c2bb9dc",
+          "expectedRenderedSha256": "1c0774f645ac5a916a4f83cfe321aeca557e3a0fabdb586cf907b128cb5edc1c",
+          "row": 8,
+          "sha256": "46c6a5af9eb4e82427da3e20341c6be78d67ed784d6387cc20bc7b3b75043ae7"
+        }
+      ],
+      "file": "16c-fx-9810-qp-gut.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 59,
+              "start": 51
+            }
+          ],
+          "expectedRawSha256": "24446cba5ac7899471bd05f8712cf23606a7ebeb23d357b7449e363254b72f7f",
+          "expectedRenderedSha256": "f1a56dac1bc8d85c50d4aaff02d1c6826fb099e76d27e0cbe933f9f0988b2417",
+          "row": 40,
+          "sha256": "ed3860e19a876cb4acc7a8d8ef2185950d3f20ad43b561ece79d1b3846843b31"
+        }
+      ],
+      "file": "16c-glue-31-zv-col5-part04.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 74,
+              "start": 61
+            }
+          ],
+          "expectedRawSha256": "13508096c7644c0f771ce2f7890b4e3ab581d73ab21dbd698183ec56e54b6575",
+          "expectedRenderedSha256": "8d542301d1a99a4275d5d55f11775f2d54d1d224948bd0c2d10466e03d647ecd",
+          "row": 25,
+          "sha256": "cfcbd0ee30dad1e4952e062482667829417e5825489723b030342f0a693cc5ad"
+        }
+      ],
+      "file": "16c-gvt-0196-sh-gtmx1.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 21,
+              "start": 9
+            }
+          ],
+          "expectedRawSha256": "3fe6c4f403db3463e44f537cf8cfb8b300529a013de4e49a43274715f0421171",
+          "expectedRenderedSha256": "3a90002e6a5dff32af28607d710ff5f39ada444f9084bba22f03eacfde2c8d05",
+          "row": 20,
+          "sha256": "7e71122fd06d6db9c0c628470d8c129b2b998fd2356925e7606d63aa3278e231"
+        }
+      ],
+      "file": "16c-haze-002-sui-mist-part02.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 53
+            }
+          ],
+          "expectedRawSha256": "2b34c5403460f877d8eb22d5c314ee05bd0823665a0e352122ec67d8bc95a0d4",
+          "expectedRenderedSha256": "98779857a40f744eafd94353a0ecdcf6c9dc05cce68fd18fad41aa3c935433eb",
+          "row": 4,
+          "sha256": "7d8e807826b5ce8484e7f8290165a6bdba55f77205db3b287270e6c1a48cc854"
+        }
+      ],
+      "file": "16c-hrp-6-sc-shdow-part01.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 80,
+              "start": 69
+            }
+          ],
+          "expectedRawSha256": "6fc77c3eed0713efa36b765a4b778b8e59f15871862a50cad991318ae171078b",
+          "expectedRenderedSha256": "b555b0506a2856614dd4bd74dc2e872e16799429635f3a13c9e7da7971355f6f",
+          "row": 20,
+          "sha256": "3171bfe2f26e95becee88a5f9058b424be04160d3e042262e96d8572642ceae8"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 80,
+              "start": 71
+            }
+          ],
+          "expectedRawSha256": "d55b00c18722d7b776fd92255d049fa0064ced9cb8725a4b255bfa19e53979d5",
+          "expectedRenderedSha256": "b2ec3841c881319d0ab08e4102440965ca7267ad1c5777932eb704a66437ae25",
+          "row": 21,
+          "sha256": "a44d218853de58174f01b081f053ec0377fd7ddc749a3779c8e99ccb744052e2"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 80,
+              "start": 72
+            }
+          ],
+          "expectedRawSha256": "9a1a761e18ecab957c4df220dcaaf442ca544c90e0fd93575a2a9b3c89ae25cc",
+          "expectedRenderedSha256": "72c9797706d734d7160b14e98fd1402395e6fad76f1a4e26e4fb85747db24d5d",
+          "row": 22,
+          "sha256": "46039a467c43a593edb12770e9e02ecd1ba7e56f66682777c1b7dfa42d8f9c24"
+        }
+      ],
+      "file": "16c-ice-9410-gw-eleu-part03.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 78,
+              "start": 75
+            }
+          ],
+          "expectedRawSha256": "4abcc8a2df713eac0c14279f588b0e217dc8463f716a08d209111b603df51f09",
+          "expectedRenderedSha256": "15346354ffa8861ef2453609e0b03767cb47361fc7587b48415189fab85f237e",
+          "row": 19,
+          "sha256": "c277ac45defb3b229d06de682cf4938bf4000b2df8b740387e0bdca6f97a13c7"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 80,
+              "start": 73
+            }
+          ],
+          "expectedRawSha256": "fa34d8a80e5666d456bb63011e86682524c465f25d3024f1c144de3e4c36d64a",
+          "expectedRenderedSha256": "5a175fa6cda24d083b8e4b175275f2b74fb408065ae00fb6230d368a6caa5572",
+          "row": 20,
+          "sha256": "e8367347cfef055dd55b478a28250e89015f9a1753ca1a35c54ed66db994e500"
+        }
+      ],
+      "file": "16c-ice-9501-gw-tlp-part01.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 72,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "9778d4fbe42466e7b864a2ab4a1c9f27c69108defca03dc138db5407a65f0711",
+          "expectedRenderedSha256": "1525a4ae3d1ec5f0b11ddb21f6ee1ede48797676807527fd2ae5223d8645ddb6",
+          "row": 24,
+          "sha256": "5dc5b6fb20b448a0568c65203e8832945a6ac8e39f80e8bc8c2d996599451798"
+        }
+      ],
+      "file": "16c-ice9606a-pa-scum2.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 26,
+              "start": 5
+            }
+          ],
+          "expectedRawSha256": "cf5ae842ecf6a9bae07bce1d2ea8de25f6c4a893309990a814f519c3d7e44f10",
+          "expectedRenderedSha256": "056b8810a7df88d5f86390c9dff4a3d6bdda6e90f271ada5b38de2fcf5eaaaa0",
+          "row": 21,
+          "sha256": "e720ebd071733a7826a4595c944e685a50c10e7c23f04944f9aa0645c3f2fb66"
+        }
+      ],
+      "file": "16c-ice9607a-pa-prop1.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 69,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "bb1459b6a4eb3a16b2979ebaefca1281b040ffb69afb5eb852e5074cd6cc5f5e",
+          "expectedRenderedSha256": "6840f1ad0e828770c6e3fd57c036fe611321382afc0a819935e0337c4e492bc9",
+          "row": 4,
+          "sha256": "b141cf2833aa9eee2bcb2d65b66cffdea8a00874bb4b3e7b8e978f103859cf7e"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 69,
+              "start": 55
+            }
+          ],
+          "expectedRawSha256": "3cec31917a6ee4063beb3233d8ba6cb667481a6c4b24508319b02f31a78454cb",
+          "expectedRenderedSha256": "29c12698f22853580235a2b629c9aff6c0af2889d89d9f60e8118cb0354540b9",
+          "row": 6,
+          "sha256": "593f0612bcca49daa5c193b3257a56c1213746a0987529854038086ec6da142d"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 25,
+              "start": 13
+            },
+            {
+              "end": 43,
+              "start": 28
+            }
+          ],
+          "expectedRawSha256": "3487f2d444a8fcf0500938dc486732d5c4089ec16c99c9b9406a2fbaad653949",
+          "expectedRenderedSha256": "e11bf0a8f0c05198b361f442d0f1b70eb9fffc8503297849f43868c41b5702db",
+          "row": 29,
+          "sha256": "525ee1b73a946cd6d177d079c6e8ba5b5f5582b4c14cd708b64c57ee7655c437"
+        }
+      ],
+      "file": "16c-ice9703a-mm-23pho-part01.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 65
+            }
+          ],
+          "expectedRawSha256": "1c1a0fb95551954c244309e38ea5fc267283d8dccfbeb4d137771675a5151217",
+          "expectedRenderedSha256": "9c8492b5ea8a1d004173791182f93a50f88f0ccfb3e43074a56a9dcf534f0124",
+          "row": 18,
+          "sha256": "108c702589a1d482cb31e44498aa603a6eb2e9147cfed82b8bb9e6fe2b0c715d"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 65
+            }
+          ],
+          "expectedRawSha256": "8164e64652f43ab4adb8d13f78edd6ffb7f9d76feb606af730be1409bf31c059",
+          "expectedRenderedSha256": "a9fc8de00016baef4532bec01a44e73f4ada59c3ab166bb6b4af440b8a2dcacd",
+          "row": 19,
+          "sha256": "257f60e5b7375d11a65da1a29d527c270bc5b5ca9f11d27d72c2fe72b1ea1ff8"
+        }
+      ],
+      "file": "16c-ice9703a-mm-23pho-part02.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 65
+            }
+          ],
+          "expectedRawSha256": "6186ec67152bb3fc532ac657edfb11605e42abe58f597edf304da2370c6f625c",
+          "expectedRenderedSha256": "9b9b1647c846de691941aaf5d595e8e58271af558fd466d1ff008eacbaf27933",
+          "row": 20,
+          "sha256": "b08bfd32f4191c0fe3e0dc3a79329c7a60213507c531779a9687d1529d923ee6"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 65
+            }
+          ],
+          "expectedRawSha256": "79d3ccca1a8c768c0e138b7ae5ab2a12c139957a81cdf9793d11a59cacd3ed93",
+          "expectedRenderedSha256": "fab87bc6787f08ece2b325aff42594f552c5d2bb12f78b448ef4d23a92b28e01",
+          "row": 21,
+          "sha256": "49d00c71fdb5e7c8e1c4e0c91a3d118b44148bb681652ca29f8c23ce4ab05411"
+        }
+      ],
+      "file": "16c-ice9805-mm-23ret.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 64
+            }
+          ],
+          "expectedRawSha256": "b52a138211f78163b2b8611fccd5978431ea94da4277f297330f21ebbb6de503",
+          "expectedRenderedSha256": "2e24fcb367590b9caad59b251141292c7f0272c2d9d1c4f4b5656de2fa2e6626",
+          "row": 10,
+          "sha256": "b6e99291c5565570f7c76b37702d5ea7803531a591eaad60bbcaf043821deef5"
+        }
+      ],
+      "file": "16c-ice9902a-ti-hoths.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 25,
+              "start": 15
+            }
+          ],
+          "expectedRawSha256": "535edee72c099d7197afe9ea2a64ca13785e899dc65bb6802025e1db59a09e8a",
+          "expectedRenderedSha256": "bc4d06988c0eb2d263b4d85ee98cd9b5692f04e4212a722852d7c6afca7188e1",
+          "row": 45,
+          "sha256": "e2393c6f3be96b474880e0fccade1d9f115d09139a88a6f6aba3d54615b10603"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 27,
+              "start": 15
+            }
+          ],
+          "expectedRawSha256": "d4e7fc9f372f2bbd5c9b29df088b7e6734efc7aac26b2b311f7a185f32d968b3",
+          "expectedRenderedSha256": "8c861b9146f53ffc3a7cdd0f37bf98bf1386883f1483cc2dcb4f5abcc3a5ef23",
+          "row": 46,
+          "sha256": "09644560739640108c0da5c6eb51b938e126ef17169ec20ea8d026afd49842b1"
+        }
+      ],
+      "file": "16c-lgcy-003-us-cgach1ck-part03.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 13,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "02ee51185a34f46dfe36538cc98cfa8938cd3589a882b3d28585e63e112538bb",
+          "expectedRenderedSha256": "3d608bc127af878b1c2c6907df98a9e580fa8fc93aafb5823ed49c4c036fa881",
+          "row": 4,
+          "sha256": "30634ee539f0e40201bd969291db71f6479c99ab4ce8e99695a26ef5ff05be65"
+        }
+      ],
+      "file": "16c-mean9702-n-msq.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 64
+            }
+          ],
+          "expectedRawSha256": "528a7879453fc816735fd86b5591fa680b95ea51a50d64738f8e9ca5267c0e29",
+          "expectedRenderedSha256": "5740eeb1bbdc524ccd30f0a9e0fbcf25a6de9e95ba4b8ec8013e2a7ec018a4c6",
+          "row": 14,
+          "sha256": "8ebf77caa1498d4f8e2cf192cae917730fd28916640725288d1b0ce22b47fe7e"
+        }
+      ],
+      "file": "16c-mist0226-zii-gnon-part06.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 11,
+              "start": 8
+            },
+            {
+              "end": 74,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "3bda410c1bdf110765178741b1832413dc84fd35beceb178e7c2826e69d152bf",
+          "expectedRenderedSha256": "7eb34fd8d7d95d4486162115aa0f21a45839e24cd2107b3381cf06fb25ff63fc",
+          "row": 6,
+          "sha256": "af89b72ea66e541b9a52880e14782030c622ee0379e45783bc41badb620586f4"
+        }
+      ],
+      "file": "16c-mist1225-zii-nats-part05.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 79,
+              "start": 70
+            }
+          ],
+          "expectedRawSha256": "21fae6da22acfaf1f01d7537099de8850df720b1e346b847b1e0bddb614f0cfa",
+          "expectedRenderedSha256": "cc129895d8f2c187a04748d0a48a0eb454afd2972214889c9400b63db23e7c71",
+          "row": 21,
+          "sha256": "8edf98509ff216cc51e0bae8e6cc8a3b60a1bd81bda7561b55d11c9c168c954e"
+        }
+      ],
+      "file": "16c-odium-01-wo-won1-part02.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 73
+            }
+          ],
+          "expectedRawSha256": "e5a0732ef2d339f13fd15a37930666fe8043f5be7cbf0fc4962616518d17189a",
+          "expectedRenderedSha256": "b634edd17afd7fdfa05073c2947cb376e05db936b8f6f81499b1967b9df0a878",
+          "row": 7,
+          "sha256": "161050290a24a57972983224582a2cc5ddfd16b5a214bd9d732a90a4f818e671"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 79,
+              "start": 71
+            }
+          ],
+          "expectedRawSha256": "7fc2c7cdeca8e41b3d8901fbc99a1dad4bc70d795fef164b830fb5166ffba436",
+          "expectedRenderedSha256": "6454f3896358df6d8171b6677b40aa6c939b15f2431e3b0ee2a6c77b774d504c",
+          "row": 8,
+          "sha256": "145180e4e6bbd71ec0ea0ab6dfd0ecf67a4ff78a98c9f824d599978ff932a93e"
+        }
+      ],
+      "file": "16c-odium-05-ce-atc3.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 40,
+              "start": 19
+            }
+          ],
+          "expectedRawSha256": "9b943b2a44042f0bf19e0a78174b4391aaffa065c1f6e229df102853a5bf1c3b",
+          "expectedRenderedSha256": "3c7767c16091d78a25fa55bf09c73d0b84415c3a7699abf1013b45fec5e2b614",
+          "row": 15,
+          "sha256": "dbbafa58c8292b4e07709f473cb67f16c930970b7a8d976b9ab6121b525de2e5"
+        }
+      ],
+      "file": "16c-oph-0018-blion-06.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 17,
+              "start": 3
+            }
+          ],
+          "expectedRawSha256": "6fd7d0d0a76ccfa1f32d15fb578c599fbfe4d3733f64154549c184e597d42d9a",
+          "expectedRenderedSha256": "3083d0a0b7276dff816ace646ec5f0f31ec3cb6aeefdef6bd6d826ee0b728f4b",
+          "row": 43,
+          "sha256": "8290ba2d092545757ddbaebf8106588b7bbcad1fb27e17956a7885967a83cb63"
+        }
+      ],
+      "file": "16c-opx-0996-zii-dwny.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 26,
+              "start": 5
+            }
+          ],
+          "expectedRawSha256": "938db2d0ff1a0a8df0069ea00cb1cbf131fedd0076229204305139b12f9cf008",
+          "expectedRenderedSha256": "42a6d50d11705db892fd390486e1e162616f4f62f9b051a354c38d6e14a8e364",
+          "row": 31,
+          "sha256": "d44542833b78448b4b16ecbf559bd61b916e7c93217e0ac783cefc73713dfd98"
+        }
+      ],
+      "file": "16c-rib-006-dnd-age.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 26,
+              "start": 5
+            }
+          ],
+          "expectedRawSha256": "938db2d0ff1a0a8df0069ea00cb1cbf131fedd0076229204305139b12f9cf008",
+          "expectedRenderedSha256": "42a6d50d11705db892fd390486e1e162616f4f62f9b051a354c38d6e14a8e364",
+          "row": 31,
+          "sha256": "9b25279f7b9751f07a209d678bbac9c942457200752ed5c040e58e1cab304b89"
+        }
+      ],
+      "file": "16c-rib-006-dnd-rib.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 48,
+              "start": 30
+            }
+          ],
+          "expectedRawSha256": "35f89ac59680592f3b1bf892a8ddfdfdcfcfd56aececccdd625b69dfab4b25a6",
+          "expectedRenderedSha256": "5eb7096536bd876c0c65615bec18a19b49268485771e5b1be6ba28e638996678",
+          "row": 34,
+          "sha256": "733c209579f55f493fd8c91adb618b94386e263a556f79b8fa3243edab76756f"
+        }
+      ],
+      "file": "16c-roc-best-vg-pb.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 18,
+              "start": 6
+            }
+          ],
+          "expectedRawSha256": "238cbaf59a0cd9bc37aad0e2f5a2836fec26b8e7abfc7ab6fcfde2f232c7512b",
+          "expectedRenderedSha256": "a9db57aeea1af2db330d0e47a90b8b0daac652f4a924c18d9b7ed25d56fe189c",
+          "row": 13,
+          "sha256": "53939f6d2eaea460fa0d6d27a1d56d39d9a1c2c636682d6b369470ff5d6e2026"
+        }
+      ],
+      "file": "16c-root0397-dt-cf2.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 80,
+              "start": 62
+            }
+          ],
+          "expectedRawSha256": "9d7a03755c7c007e324c5cd64b7837edc79efe6ee8ee04a8f2753ad003d13009",
+          "expectedRenderedSha256": "9cc40e670b4223967c8f63cb4a690aa2bbcae6b3527e8330f1f9784e497e137d",
+          "row": 3,
+          "sha256": "b482e0420b21bb81a9e492c7b887f64df0c765aafb3b79c13fb9281a7e62f222"
+        }
+      ],
+      "file": "16c-roots01-kf-sat9-part01.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 42,
+              "start": 35
+            }
+          ],
+          "expectedRawSha256": "12a20e21ed50b20eb91049d02ad1789655e5a1a577c99e47656531d6a9d6fd25",
+          "expectedRenderedSha256": "f21acd296d0b4f77a3678cfb65ebf325979a0842c9856e53195a552e632c606e",
+          "row": 25,
+          "sha256": "a8dcd309fd63ffb67b34f3ffe77436ac9cb768792f5b77a2f5442c4b651d00a2"
+        }
+      ],
+      "file": "16c-sense-19-avg-non2.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 50,
+              "start": 37
+            }
+          ],
+          "expectedRawSha256": "f2abe1f143ab4f6733fee6e9dcf9554fbcd2c2c303bd3ecabb06d0a9218fec7a",
+          "expectedRenderedSha256": "9e449d0075cd28da88174470f77a365d6289aac7fc2f8b1bd32122423f338750",
+          "row": 12,
+          "sha256": "d5b6473d383ed9d9eebaff9a02523d3b90ae54fd272d8cba0a6749957a290402"
+        }
+      ],
+      "file": "16c-shv-0695-st-union-part03.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 39,
+              "start": 26
+            }
+          ],
+          "expectedRawSha256": "4fe8b17cab64c8d9cf003d04d56c3bfab08fb9c5bcc4e0db2231653fa9a865b8",
+          "expectedRenderedSha256": "c61433f96b8435a79ebcb1ad898a3dbb03df7566cd62d3c31115e3012be81e40",
+          "row": 8,
+          "sha256": "2d3e0ac7cd646633f0b0203509c76b7fef65ae530606ce70569b3f463578f5fc"
+        }
+      ],
+      "file": "16c-soda05-sph-crac-part02.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "56814bb7b69231f85d8abb26c6a9ac400ea32ef9228dc6279fda18b6bad341d2",
+          "expectedRenderedSha256": "daa5e3fb9312636473ea3b3f2b5a6937c32187265beb3b218bea6e9113a2a496",
+          "row": 23,
+          "sha256": "27930425f1f661f4b9afef1a5657ab48f6e3f880efde45a190a5f0e1cd52324a"
+        }
+      ],
+      "file": "16c-spas9504-0495logo-yo-brea1.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 48,
+              "start": 29
+            }
+          ],
+          "expectedRawSha256": "77a2436bf7276c51cf6cfef5337a4f520d7ae172fcc82a5ac4789814dde3fc1b",
+          "expectedRenderedSha256": "a35e4ec5f904c63bf2617b9932c2266ffc2ec2b80bd7629b86dff311b216fcb7",
+          "row": 41,
+          "sha256": "1da7b956c25b0263a8891c2e1b428a53069b6187e401f87c45d3bf6e1309920c"
+        }
+      ],
+      "file": "16c-tdd-0295-nm-md-part02.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 79,
+              "start": 67
+            }
+          ],
+          "expectedRawSha256": "b3702da3b779860eb1b3d509fd89f15d3ce6510aa58a83f26ee6a40acebba3e5",
+          "expectedRenderedSha256": "164f3f574af88ed1bc234a50c8620219a819d3d895cb270f2f45d06797e6a536",
+          "row": 30,
+          "sha256": "01975767c41f1c0c4ae1f0e976e833fbd2d4ac327e5b8066effe25985d8fdc9a"
+        }
+      ],
+      "file": "16c-tdd1295a-nm-md2.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 51
+            }
+          ],
+          "expectedRawSha256": "9e3ea310f7362b9c8eb5714b2051c130c95a5c69e409f290e17be1db48f1af4b",
+          "expectedRenderedSha256": "0b2f8fed4b176e8477851ad5863ffeb174d6864df2ca38973385619c0adab9c1",
+          "row": 16,
+          "sha256": "5613ade95fc22764a84dc9fb34b4225f672edf65b14dcc861ff7f3bf31a2828a"
+        }
+      ],
+      "file": "16c-tea-003-spn-sec7-part02.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 69
+            }
+          ],
+          "expectedRawSha256": "427869d503317663e49a70618368e78a3f69840b5cbc94c6893ee50a776e4d5e",
+          "expectedRenderedSha256": "4af7cec9b10088f27f3402e9a203cf578610ed854780fe9859fb1987936863dd",
+          "row": 20,
+          "sha256": "b5525e5a42b738af5142c827b5f1f03b4b190cad99ed9e5bc0fba09c16afb05b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "30c6b82fc2dd93abf0d062fa74c2d2d7008eb8e9de6f4fd15de25035c94ac06c",
+          "expectedRenderedSha256": "ccb5196c5a558f4d97f25647f020f97c98bd070f27c38260744c42ac440190c3",
+          "row": 21,
+          "sha256": "3af4a6ef0e36cd58433bfca05195be7b665f18012b2c11d6d7c80e331207d636"
+        }
+      ],
+      "file": "16c-toon0795-wo-eoe-part02.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 74
+            }
+          ],
+          "expectedRawSha256": "5c2817ae0e82f0350c40787d6621ef1260c8978950da99ec8bcfbd1d46c1b083",
+          "expectedRenderedSha256": "5b4dc8619ed7b7590ad76ff06c85eec615edf3b5bfa3a1423a2e6ab49a1249c6",
+          "row": 38,
+          "sha256": "ff2619edad5ebd72c671c8c33b247acaaaeed1a0173a83d9d3d4d0882fd2a8ef"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 79,
+              "start": 72
+            }
+          ],
+          "expectedRawSha256": "0c46f3fcbff5547a99cbdd010272f22cc5be3d630b10b7ea7a4d37cb2fd08aaa",
+          "expectedRenderedSha256": "668c981f4688b3e06d58ea691c2fea71eabf0dad18ae32fa691b4e4e35e75468",
+          "row": 39,
+          "sha256": "ae4c816e6459dd2ccdb8bc9a0874c8547df81fbe14ae369efec3eab0a044f0c9"
+        }
+      ],
+      "file": "16c-void0295-bt-nl-part02.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch66-originality-anti-rip-and-production-metadata",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 13,
+              "start": 1
+            }
+          ],
+          "expectedRawSha256": "d6254bd27025c15152db8b3cd8966a31df5223f20d1ed67a35e344021e60574c",
+          "expectedRenderedSha256": "3ed9b173255d942e75c0309857d3a99af7ec6ef09ec0470b59889c16f0d3774e",
+          "row": 41,
+          "sha256": "0c8b52c6d5dede13f261381945e874848774ae1c623ead1bb16267e2366372ba"
+        }
+      ],
+      "file": "16c-zenith03-sor-hc.ps1",
+      "rationale": "Complete-payload, related-family, neighboring-row, and historical-ledger review proves every selected span is a separable originality or anti-rip claim or detached creation date, completion marker, line count, release timestamp, or production note. Titles, artist and group identity, attribution, copyright, authored dialogue and captions, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch66-production-cues.json",
+        "temp/text-blanking-continuation/batch66-all-candidates.txt",
+        "temp/text-blanking-continuation/batch66-family-context-a.txt",
+        "temp/text-blanking-continuation/batch66-family-context-b.txt",
+        "temp/text-blanking-continuation/batch66-family-context-c.txt",
+        "temp/text-blanking-continuation/batch66-family-context-d.txt",
+        "temp/text-blanking-continuation/batch66-family-context-e.txt",
+        "temp/text-blanking-continuation/batch66-history-collisions.json"
+      ]
+    }
+  ],
+  "normalization": "SHA-256 of UTF-8 visible terminal-cell rows after ANSI-control removal and outer-whitespace trimming. Every accepted row pins exact raw projected and rendered hashes plus one-based inclusive blank-column ranges.",
+  "pendingInputs": [],
+  "policy": "Fail-closed review of production-status and provenance cues in every static color-script payload. Accept only exact separable originality or anti-rip claims and detached creation date, completion, line-count, release-time, or production-note spans proven by complete-panel and family context; retain titles, identity, attribution, copyright, authored dialogue or captions, functional interfaces, structural text, slogans, and ambiguity.",
+  "priorRedactionExtensions": [],
+  "priorRetentionSupersessions": [],
+  "reviewedAt": "2026-08-01",
+  "schemaVersion": 1,
+  "status": "ready",
+  "summary": {
+    "acceptedDetectorCues": 47,
+    "blankColumnRows": 63,
+    "candidateFiles": 47,
+    "candidateGroups": 47,
+    "categoryRows": {
+      "batch66-originality-anti-rip-and-production-metadata": 63
+    },
+    "changedCells": 775,
+    "detectorAcceptedRows": 47,
+    "detectorFiles": 175,
+    "detectorRows": 188,
+    "evidenceRows": 63,
+    "familyExtensions": 16,
+    "parseFailures": 21,
+    "retainedDetectorRows": 141,
+    "staticFiles": 24801
+  }
+}

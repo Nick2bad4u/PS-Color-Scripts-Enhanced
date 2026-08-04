@@ -1,13 +1,4 @@
-﻿# Converted from: HL-PHAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ali-0794/raw/HL-PHAL.ANS
-# Source Revision: archive-sha256:47494af6e4dcd4a8b8003b51b5f43bfcef376481e4128b2274a56c8f795781de
-# Source SHA-256: 44730c60a176735c88f7154eb0a1e27649d884daec45206a6f00a9767df018bc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HL-PHAL.ANS by Hellion (ali-0794); released in ali-0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 49-96
-# Columns: 1-80
+﻿# Artwork: HL-PHAL.ANS by Hellion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ali-0794-hl-phal-part02
 
 Write-Host '
                         [33;40m░[0m                           [33;47m▓[0m

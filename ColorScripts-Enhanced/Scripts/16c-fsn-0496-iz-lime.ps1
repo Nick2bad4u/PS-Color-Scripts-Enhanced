@@ -1,18 +1,4 @@
-﻿# Converted from: IZ%LIME.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0496/raw/IZ%25LIME.ANS
-# Source Revision: archive-sha256:ce06d33d533c0744d22c6fe5d3dd8583d43d922924a8ff4e1a6044170aa0ed46
-# Source SHA-256: 195bdf0416e0a17e7ef18a63a7f091b9c15dd2aeb7984bdcc729028e523c42fd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ%LIME.ANS by ize (fusion); released in fsn-0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: lime creature! :)
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19960331
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: lime creature! :) by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0496-iz-lime
 
 Write-Host '
                                                                  [34m [0m

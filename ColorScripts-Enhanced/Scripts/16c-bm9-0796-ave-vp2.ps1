@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-VP2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bm9-0796/raw/AVE-VP2.ANS
-# Source Revision: archive-sha256:d47d05b28420594f05f00658e00b1f3ab4cdbebb1e89c0fe0f1e7938e6e8f937
-# Source SHA-256: 52a8e44464dca4245256913b154e5bd1fac2914bea5c9cb1509e304cda74017a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-VP2.ANS by AVENGER (BM^UTsHG); released in bm9-0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Velvet Park
-# SAUCE Author: AVENGER
-# SAUCE Group: BM^UTsHG
-# SAUCE Date: 19960629
-# SAUCE Dimensions: 80x13
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: Velvet Park by AVENGER | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bm9-0796-ave-vp2
 
 Write-Host '
                                               [33m ▄[0;1;37;43m▄[0;33m▄   ▄   ▄[0m

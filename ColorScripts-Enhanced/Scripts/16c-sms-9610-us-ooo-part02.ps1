@@ -1,17 +1,4 @@
-﻿# Converted from: US-OOO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9610/raw/US-OOO.ANS
-# Source Revision: archive-sha256:5789c5cb1a5ac21acfd3fa7dc4a5a88db3f4a5b9545409ca8ca34a86bd816077
-# Source SHA-256: 9a4589c1e9ec3c8f3335bea65e147368dfb1a4e46ac75e1dba7a5d8678e9c0ef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-OOO.ANS by Mice + Eerie (Samsara); released in sms-9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Out Of Order
-# SAUCE Author: Mice & Eerie
-# SAUCE Group: Samsara
-# SAUCE Dimensions: 80x25
-# Lines: 38-72
-# Columns: 1-80
+﻿# Artwork: Out Of Order by Mice + Eerie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9610-us-ooo-part02
 
 Write-Host '
            [1;37;40m_ ,y$$$$$ [0m$[1m$$$$$$$ [0m$[1m$$$$$$[0;1;47m$$[0;1;40m$ [0m$[30;47m$[0;1;37;40m$$$$$$$''[0m                [1;30;40mY$$$$$$$$$[0m

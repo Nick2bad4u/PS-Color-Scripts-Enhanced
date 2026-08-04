@@ -6,6 +6,10 @@ const fs = require("node:fs");
 const path = require("node:path");
 const test = require("node:test");
 const { pathToFileURL } = require("node:url");
+const {
+    matchesArtworkHeaderMigrationHash,
+    readArtworkHeaderMigration,
+} = require("../scripts/ArtworkProvenance.js");
 
 const REPOSITORY_ROOT = path.resolve(__dirname, "..");
 const ANALYZER_PATH = path.join(
@@ -15,12 +19,12 @@ const ANALYZER_PATH = path.join(
 );
 const LEDGER_PATH = path.join(
     REPOSITORY_ROOT,
-    "ColorScripts-Enhanced",
+    "audit",
     "AnsiGeometryRetentionReviewLedger.json"
 );
 const CHECKPOINT_PATH = path.join(
     REPOSITORY_ROOT,
-    "ColorScripts-Enhanced",
+    "audit",
     "AnsiContentCurationCheckpoint.json"
 );
 const SCRIPTS_DIRECTORY = path.join(
@@ -36,6 +40,7 @@ const REVIEWED_SIGNALS = new Set([
     "orphaned-tail-after-blank-run",
 ]);
 const analyzer = import(pathToFileURL(ANALYZER_PATH).href);
+const headerMigration = readArtworkHeaderMigration();
 
 function sha256(content) {
     return crypto.createHash("sha256").update(content).digest("hex");
@@ -212,9 +217,13 @@ async function validateLedger(ledger, scriptsDirectory = SCRIPTS_DIRECTORY) {
             `Retained script is missing: ${decision.script}`
         );
         const source = fs.readFileSync(scriptPath, "utf8");
-        assert.equal(
-            sha256(source),
-            decision.scriptSha256,
+        assert.ok(
+            matchesArtworkHeaderMigrationHash(
+                headerMigration,
+                decision.script,
+                decision.scriptSha256,
+                sha256(source)
+            ),
             `${decision.script} changed after geometry review`
         );
 

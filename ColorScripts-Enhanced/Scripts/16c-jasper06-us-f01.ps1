@@ -1,18 +1,4 @@
-﻿# Converted from: US-F01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper06/raw/US-F01.ANS
-# Source Revision: archive-sha256:e9db58af17bee8935edbe50f24a227bef7a311667f4a639d4f37f775998e9055
-# Source SHA-256: 0fa0eaa5ca826af9cc8a0f766d1be21aa0711e12dfdb63a7ff1f3b25859ff85b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-F01.ANS by Tainted + Avenging Angel (jasper); released in jasper06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fubar
-# SAUCE Author: taintedx avg
-# SAUCE Group: jasper
-# SAUCE Date: 20020516
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: fubar by Tainted + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper06-us-f01
 
 Write-Host '
 [1;30mtnt░[0m      [1;30m▄[0m     [31m▄░[0;37m  [0;31m   [0m            [1;30m░[0m [1;30m▄[0m

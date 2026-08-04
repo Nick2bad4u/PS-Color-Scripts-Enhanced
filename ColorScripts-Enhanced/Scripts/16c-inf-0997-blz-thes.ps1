@@ -1,18 +1,4 @@
-﻿# Converted from: BLZ-THES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/inf-0997/raw/BLZ-THES.ANS
-# Source Revision: archive-sha256:2fe039802e6975b254848d7f6c37d4e887c54af4d99aeda44c9611084f212b8f
-# Source SHA-256: b9cffa0e8cf1ef1c3362c305a7b6bddf14f4482c613150d1690ad11e976a53c8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BLZ-THES.ANS by blaze (infinite); released in inf-0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the soup - go entry
-# SAUCE Author: blaze
-# SAUCE Group: infinite
-# SAUCE Date: 19970816
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: the soup - go entry by blaze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-inf-0997-blz-thes
 
 Write-Host '
  [30;46m▓▓█▓[0m                    [30;46m▓▓▓▓▓[0;37;40m  [0;30;46m▓[0m   [30;46m▓▓▓[0m                                       [32;40m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: LD-BLUR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0894/raw/LD-BLUR.ANS
-# Source Revision: archive-sha256:28600f23ee913202821d8c592f0de8a079254979b8f1dcaf5d782e506b6eee00
-# Source SHA-256: cb54931db7a14032edda5d999cf3a28ab7fe53e3aee4b837bc7c9715f756510e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-BLUR.ANS by Lord Jazz (ACiD Productions); released in acdu0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: blur Issue #4
-# SAUCE Author: Lord Jazz
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940801
-# SAUCE Dimensions: 80x96
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: blur Issue #4 by Lord Jazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0894-ld-blur-part01
 
 Write-Host '
 

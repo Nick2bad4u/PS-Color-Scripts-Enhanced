@@ -1,18 +1,4 @@
-﻿# Converted from: CRS-FOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/galza-10/raw/CRS-FOR.ANS
-# Source Revision: archive-sha256:0f21c77ad7c2562ee83926908181132bbab1b7d608b70aa16bbd8a336fe8085b
-# Source SHA-256: b25467ba6cd5259021e0a2c5d7580d45f89fdcf0f39218a4b9f876f22cd9fff1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CRS-FOR.ANS by Crasher (just-x/galza); released in galza-10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: forward
-# SAUCE Author: Crasher
-# SAUCE Group: just-x/galza
-# SAUCE Date: 20010214
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: forward by Crasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-galza-10-crs-for
 
 Write-Host '
 [1;30m███████████████████████████████████████████████████████████████████████████████ [0m

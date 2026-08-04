@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-MOVI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0297/raw/OUT-MOVI.ANS
-# Source Revision: archive-sha256:0f3d218282d76441c012c29969433ab198fcc6a5c3f0e35f66bec5cacdabec86
-# Source SHA-256: 5271d29a08d69a3e1044c3cc84e3cc410339dee12b04d9ead58b58499448d779
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-MOVI.ANS by Sandy Chidester (out-0297); released in out-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: OUT-MOVI.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0297-out-movi
 
 Write-Host '
  [33m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

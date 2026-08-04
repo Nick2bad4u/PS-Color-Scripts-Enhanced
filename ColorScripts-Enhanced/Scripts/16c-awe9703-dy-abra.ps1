@@ -1,18 +1,4 @@
-﻿# Converted from: DY-ABRA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9703/raw/DY-ABRA.ANS
-# Source Revision: archive-sha256:a9939674ffea8dfd0fb24f05e2f11874539fc93155c2d5ed5e55e91f76634858
-# Source SHA-256: f64c1ed147d4a99bcaa60ec8159fcf831699ade7c17bebef92b4e19b11934e55
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DY-ABRA.ANS by Discyple (AWE Lettering); released in awe9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Abraxas
-# SAUCE Author: Discyple
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970223
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Abraxas by Discyple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9703-dy-abra
 
 Write-Host '
       [1;31m■▄[0;31m▄[0m                      [30;43m█▓[0;33;40m▄▄▄▄▄▄▄▄[0;1;30;40m▄[0m            [1;31;40m░░░ ▄░[0m

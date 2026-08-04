@@ -1,19 +1,4 @@
-﻿# Converted from: us-caps.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy13/raw/us-caps.ans
-# Source Revision: archive-sha256:3ed7178f860604c6b9786846d46fd13095846b81c16a5324edc4e4b9ea7e6ba8
-# Source SHA-256: 99b17d1ce33c48a40f72cac6034300ea0c7e40f74cdbd13f24a82a2687ca0444
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-caps.ans by Enzo + Zeus Ii (blocktronics); released in apathy13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: capitol shrill
-# SAUCE Author: enzo, zeus ii
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x156
-# SAUCE Font: IBM VGA
-# Lines: 128-156
-# Columns: 1-80
+﻿# Artwork: capitol shrill by Enzo + Zeus Ii | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy13-us-caps-part04
 
 Write-Host '
 [37m       [0;31m▀[0;37m                                  [0;31m▄[0;37m             [0;31m▀▄▀▄[0;1;31;41m▄[0;31m▀▄[0m

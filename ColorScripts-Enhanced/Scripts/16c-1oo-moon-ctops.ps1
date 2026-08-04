@@ -1,13 +1,4 @@
-﻿# Converted from: CTops.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1oo-moon/raw/CTops.ans
-# Source Revision: archive-sha256:171e2925602123fe0c10a0ec4407c2834bc26a002fba2fa406825fd80132e138
-# Source SHA-256: 1777f897983262f20e3251f8c62e756ada8bb997ee8053ae1f1c1b4d831b0aa8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CTops.ans by Miracle (1oo-moon); released in 1oo-moon and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-12
-# Columns: 1-80
+﻿# Artwork: CTops.ans by Miracle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1oo-moon-ctops
 
 Write-Host '
 [1;30m░░[0;1;36m▄▄▄▄▄▄▄▄ [0;1;30m░░░▒▓▒▓▓░[0m [1;35;45m▌ [0;1;30;40m▌░[0m [1;36m▄[0m [1;30m░▒▓░▓▓▓▒░▓[0;36m░[0;1;36m▄▄▄▄▄▄▄▄[0m [1;30m░[0;1;34m■[0;1;30m▓░[0;1;36m▄▄▄▄▄▄▄▄ [0;1;30m░▒▓░[0;1;36m▄▄▄▄▄▄▄▄[0;1;30m░░░▓▒▓[0m

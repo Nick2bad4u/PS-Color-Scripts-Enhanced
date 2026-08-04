@@ -1,18 +1,4 @@
-﻿# Converted from: US-PREV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1196/raw/US-PREV.ANS
-# Source Revision: archive-sha256:cd18ecfdae0904c56df3d636c6b858a4e9c49ad095ac3f517a511bb0e7a7a68e
-# Source SHA-256: 5d187388975f0ce306db5adacd1e90de1f48f8e5c5b9847aeaee13565aef7c04
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PREV.ANS by Halaster + Zircus (fire); released in fire1196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Prevail
-# SAUCE Author: Multiple Artists
-# SAUCE Group: fire
-# SAUCE Date: 19961028
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Prevail by Halaster + Zircus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1196-us-prev
 
 Write-Host '
                                                [31m░░[0;30;41m▓[0m

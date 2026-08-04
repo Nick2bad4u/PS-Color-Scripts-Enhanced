@@ -1,18 +1,4 @@
-﻿# Converted from: SP-FM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-03/raw/SP-FM1.ANS
-# Source Revision: archive-sha256:c463d41d9ae381f389778dd35b1d3ac7d9b856c30aea0076774f44c539a72586
-# Source SHA-256: 896391f3021499bfc7ee85d934b87640ca3344e941a2b9aeba6f2e7a8d81dfe0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SP-FM1.ANS by Spearfx (Hieroglyphics); released in hiero-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Fuck Monkey
-# SAUCE Author: Spearfx
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20001008
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Fuck Monkey by Spearfx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-03-sp-fm1
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: LST-UC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_09/raw/LST-UC1.ANS
-# Source Revision: archive-sha256:c5cd33a328263069da0cd19f0b3fe2e4d6f041d2250819ad0b16ea4737718456
-# Source SHA-256: 66200a994538fb6e42e3ec5f41509c24201eab460a198c3abb69ecddc441e299
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LST-UC1.ANS by soul trader (dox); released in dox_09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: urban chaos
-# SAUCE Author: soul trader
-# SAUCE Group: dox
-# SAUCE Date: 19970519
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: urban chaos by soul trader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-09-lst-uc1
 
 Write-Host '
 

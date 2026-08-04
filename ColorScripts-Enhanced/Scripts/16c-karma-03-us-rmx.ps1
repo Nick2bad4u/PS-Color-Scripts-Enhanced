@@ -1,13 +1,4 @@
-﻿# Converted from: us-rmx.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/karma-03/raw/us-rmx.ans
-# Source Revision: archive-sha256:91bf38a37d265f766584c08474940331977133c323f72bff6bdb797423dda7af
-# Source SHA-256: b77f96eb264e7661beb1c5c040450dd9cd3cc7e9ce2ebfcbca3006df154adfaf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-rmx.ans by Mankind + Metal Militia (karma-03); released in karma-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: us-rmx.ans by Mankind + Metal Militia | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-karma-03-us-rmx
 
 Write-Host '
                                                [1;35m  [0m

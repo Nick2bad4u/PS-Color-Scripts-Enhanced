@@ -1,13 +1,4 @@
-﻿# Converted from: SF-CB4#2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dope0894/raw/SF-CB4%232.ANS
-# Source Revision: archive-sha256:e977fdb209d355bbe4dc1d9686fd5de8aacfb2e90f44da96b48f66ce4d326cda
-# Source SHA-256: 72414adb5a77481313f31befd0fde720f02735773cc55cc64bdbfde76a258b0b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SF-CB4#2.ANS by Superfly (dope0894); released in dope0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-99
-# Columns: 1-80
+﻿# Artwork: SF-CB4#2.ANS by Superfly | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dope0894-sf-cb4-2-part02
 
 Write-Host '
                               [1;30m░[0m▄███▄▄▄▄▄▄▄▄███▄[1;30m░░[0m

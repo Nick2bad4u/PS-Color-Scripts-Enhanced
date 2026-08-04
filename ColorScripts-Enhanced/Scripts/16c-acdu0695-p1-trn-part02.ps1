@@ -1,18 +1,4 @@
-﻿# Converted from: P1-TRN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0695/raw/P1-TRN.ANS
-# Source Revision: archive-sha256:db24e208c464a20c2099b8d2f878e92b0cf8a2a3878fb165404bd66c2a9ff713
-# Source SHA-256: 70b182d7e7a565d7b6c70be3f30132f4a93f5967a19c4cf0cf2b69842677bf43
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P1-TRN.ANS by prisonernumberone (ACiD Productions); released in acdu0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Ravaged Nightmare
-# SAUCE Author: prisonernumberone
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950601
-# SAUCE Dimensions: 80x166
-# Lines: 42-83
-# Columns: 1-80
+﻿# Artwork: The Ravaged Nightmare by prisonernumberone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0695-p1-trn-part02
 
 Write-Host '
 [35m▄ ▀ ▄ ▀▌ ▀  ▐▌[0m       [35m▀[0;34m▄▄[0;1;34m▄▄[0;34m▄[0;33m▀[0m      [33m▀ ▀ [0;34m▄[0;1;34m▄[0;34m▄[0;1;34;44m▄█▄[0;34m█[0;1;34;44m▒▓█▓▓█▓██▓▓▓▓▓▄▄[0;34m▄[0;1;34m▄[0m           [35m▐▌  ▄[0;37m [0m

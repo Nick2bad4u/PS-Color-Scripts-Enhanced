@@ -1,13 +1,4 @@
-﻿# Converted from: PITS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aaa-8991/raw/PITS.ANS
-# Source Revision: archive-sha256:4d061270920d521151424fd00f38227b42b87cd232386c5aa0d1e2f575f3ffe0
-# Source SHA-256: ebddfa662e0d00694f686167878fa94b62567eebc75caf039e31e1be02c1df7c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PITS.ANS by Shadow Demon (aaa-8991); released in aaa-8991 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: PITS.ANS by Shadow Demon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aaa-8991-pits
 
 Write-Host '
 

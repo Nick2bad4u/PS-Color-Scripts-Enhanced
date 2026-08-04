@@ -1,18 +1,4 @@
-﻿# Converted from: ARL-SD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe08/raw/ARL-SD.ANS
-# Source Revision: archive-sha256:cfc36d5daeed2f6543814097ace687f378a50215c24a95a0de66b512e3a41b9d
-# Source SHA-256: 194913b76d5818eb139b4ddf6f8df5d8fd313b3cbadae6388ed9013fe40cc9fb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARL-SD.ANS by arlequin (circe); released in circe08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: square dog bbs
-# SAUCE Author: arlequin
-# SAUCE Group: circe
-# SAUCE Date: 19971227
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: square dog bbs by arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe08-arl-sd
 
 Write-Host '
 

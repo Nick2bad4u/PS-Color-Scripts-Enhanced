@@ -1,13 +1,4 @@
-﻿# Converted from: RFX-JUVE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/corp0394/raw/RFX-JUVE.ANS
-# Source Revision: archive-sha256:91d50f87083e6637bc06720969ec8c07ec6313a1c98908190ceb08332429cab7
-# Source SHA-256: 5b7c1b12f2749bf7433cdf5f2ec4145bc4e5d4a40dd7bd164a0f3cc36b4f8d3e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RFX-JUVE.ANS by Reflex (corp0394); released in corp0394 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: RFX-JUVE.ANS by Reflex | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-corp0394-rfx-juve-part01
 
 Write-Host '
 [31m░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░▒░░░▒░░░░░░[0;1;30m▒▒[0;31m░░░░░░░░░░▒░▒░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░[0m

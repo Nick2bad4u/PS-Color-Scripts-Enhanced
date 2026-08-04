@@ -1,18 +1,4 @@
-﻿# Converted from: JR_STONE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl_omann/raw/JR_STONE.ANS
-# Source Revision: archive-sha256:05aeb5241910df97f7b5f5e1c0f0b2ddf59063a1cb9f232ef34e44c86905e918
-# Source SHA-256: 33c6e9356381b4a6f19ccc9527fc435d0de7028d9c79bb077bc8dd26c3944ee7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_STONE.ANS by jerusalem (boil); released in bl_omann and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: armillasph?re
-# SAUCE Author: jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19971031
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: armillasph?re by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-omann-jr-stone
 
 Write-Host '
       [31m▐[0;33m▄[0;37m▄[0;1;33m▄▄[0;31m▄[0;33m░░░░[0m

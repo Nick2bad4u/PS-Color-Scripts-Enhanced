@@ -1,18 +1,4 @@
-﻿# Converted from: NZ-TT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0495/raw/NZ-TT1.ANS
-# Source Revision: archive-sha256:5c1b487f172d9b21547c289d0c6d77076f08925ed05d67b00c73baffeedf66f4
-# Source SHA-256: 89f600ed884257c507e56fb21fcea5fa199ff0750352a27e55a07bbfffa6a81e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NZ-TT1.ANS by Nailz (READ THE INI FILE); released in uni-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Termite Terrace
-# SAUCE Author: Nailz
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950403
-# SAUCE Dimensions: 80x25
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: Termite Terrace by Nailz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0495-nz-tt1-part01
 
 Write-Host '
 [1;33;47mNailz[0;1;31;47m,[0;1;37;47m▄▄░▄▄▄[0;1;37;40m████[0;1;37;47m▄[0;1;37;40m███[0;1;37;47m▓[0;1;37;40m███████████[0;1;37;47m▀▓█[0;1;37;40m████[0;1;37;47m▀[0;1;37;40m███████████████[0;1;37;47m█▀[0;1;37;40m████████████████[0;1;37;47m▀[0;1;37;40m█[0;1;37;47m█[0;1;37;40m████[0m

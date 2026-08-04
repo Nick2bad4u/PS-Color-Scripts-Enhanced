@@ -1,13 +1,4 @@
-﻿# Converted from: MK-DW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wax-02/raw/MK-DW.ANS
-# Source Revision: archive-sha256:4668c93611bb3faf9105543bb7cc4b8e847416eacbd0dc21153ea9ba4d1d3b2b
-# Source SHA-256: f4b22d966b1e6dcfe08954e8d3388695f56bfdd6975d2f97fb45a40489936a1c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MK-DW.ANS by Mankind (wax-02); released in wax-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: MK-DW.ANS by Mankind | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wax-02-mk-dw
 
 Write-Host '
 

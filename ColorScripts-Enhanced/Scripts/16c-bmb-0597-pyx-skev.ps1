@@ -1,18 +1,4 @@
-﻿# Converted from: PYX-SKEV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0597/raw/PYX-SKEV.ANS
-# Source Revision: archive-sha256:77e5528a945f670ea04f743fe66c6a4dc19b897ad7883b4458eeee0528f25975
-# Source SHA-256: cc5f4d7f82b22ebbebbfe15f8f8991d32bb5a385aa2a5507e03ffcc8dbd95117
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-SKEV.ANS by Pyx (/BAMBOOSH\); released in bmb-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Malformed - SKEV!
-# SAUCE Author: Pyx
-# SAUCE Group: /BAMBOOSH\
-# SAUCE Date: 19970317
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Malformed - SKEV! by Pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0597-pyx-skev
 
 Write-Host '
               [1;33m▄▄▄▄▄[0m

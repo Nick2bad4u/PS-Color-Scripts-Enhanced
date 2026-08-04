@@ -1,19 +1,4 @@
-﻿# Converted from: us_lostinspace.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz12/raw/us_lostinspace.ans
-# Source Revision: archive-sha256:a144f6a13f8495aad16f3fcaf95ff5b0bc91807c93dbcb455f2b655b9f9c0dd9
-# Source SHA-256: 4a7e7f32140f1e1307537cd0c5e830a2888f9457d5c7ee46be28bec5b0d97c84
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us_lostinspace.ans by Pinguino + Oddfirefox (Lazarus); released in laz12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Lost in Space
-# SAUCE Author: Pinguino  OddFireFox
-# SAUCE Group: Lazarus
-# SAUCE Date: 20201214
-# SAUCE Dimensions: 80x46
-# SAUCE Font: IBM VGA
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Lost in Space by Pinguino + Oddfirefox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz12-us-lostinspace
 
 Write-Host '
                 [1;30m░[0m                  [1;30m░░[0m

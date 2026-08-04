@@ -1,18 +1,4 @@
-﻿# Converted from: B-IF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/unit04/raw/B-IF.ANS
-# Source Revision: archive-sha256:19d9f1ce4424287ed55941eccbdcdbba69ca068d13f62072d1264fc7c4c557f1
-# Source SHA-256: bff2f1364f7b2d220cf691625fb14003ddc5ace96253cd2f796d73deba9c8184
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: B-IF.ANS by b. Love (unit artworks); released in unit04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: inner fury
-# SAUCE Author: b. Love
-# SAUCE Group: unit artworks
-# SAUCE Date: 19961217
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: inner fury by b. Love | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-unit04-b-if
 
 Write-Host '
 

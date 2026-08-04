@@ -1,19 +1,4 @@
-﻿# Converted from: N-DMINE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-44/raw/N-DMINE.ANS
-# Source Revision: archive-sha256:6c51508cedeaa9140fcf08750a75edb14e0cec0eebe7b4290346e95cd3548876
-# Source SHA-256: 9af687e911df3ea49c474ade7bc72129031a9e31547846c5cadc5445fedf2f02
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-DMINE.ANS by nail (fire); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: diamond mine
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 20251111
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: diamond mine by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-44-n-dmine
 
 Write-Host '
 [37;40m    [0;1;34;40m [0;34m▄▄▄▄▄▄[0m      [1;34m▄▄[0m                                                    [1;34m  [0;34m▄▄[0m

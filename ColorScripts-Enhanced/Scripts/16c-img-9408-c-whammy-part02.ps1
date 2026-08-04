@@ -1,18 +1,4 @@
-﻿# Converted from: C-WHAMMY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/img-9408/raw/C-WHAMMY.ANS
-# Source Revision: archive-sha256:3b60cd0224e41b40e0e3d80c8a229cb6cc245fde84602ab9a04bbddec55d0b51
-# Source SHA-256: fee55ad513ba817ca7162dc2caf4e392d46e334f4fda5e425d80398711f70b25
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: C-WHAMMY.ANS by Captin (READ THE INI FILE); released in img-9408 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Whammy Bar
-# SAUCE Author: Captin
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19940712
-# SAUCE Dimensions: 80x25
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: The Whammy Bar by Captin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-img-9408-c-whammy-part02
 
 Write-Host '
 [1;30;40m████████████████████▓▒░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓████████████████████████████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: BB-HELLS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9702/raw/BB-HELLS.ANS
-# Source Revision: archive-sha256:2bef5839074c598bf0f92bd4e5826154389b8896239a1e15db494b520fb6d9a8
-# Source SHA-256: 25fc342471e240bdcb241c022c03bc2b83a001d3c4c3f10b0ebf427c9b432e4c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BB-HELLS.ANS by Bugs Bunny?! =) (Maiden Br?!); released in mdn-9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Hell's Gate Mnu?!
-# SAUCE Author: Bugs Bunny?! =)
-# SAUCE Group: Maiden Br?!
-# SAUCE Date: 19970119
-# SAUCE Dimensions: 80x23
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Hell's Gate Mnu?! by Bugs Bunny?! =) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9702-bb-hells
 
 Write-Host '
                              ▄▄▄[1;31m  [0m        ▄▄[1m▄[0m▄    [1;31m [0m                 ▄▄▄[1;31m  [0;36m [0m

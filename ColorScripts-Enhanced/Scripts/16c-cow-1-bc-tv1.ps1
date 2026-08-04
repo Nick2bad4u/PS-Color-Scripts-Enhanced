@@ -1,18 +1,4 @@
-﻿# Converted from: BC-TV1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cow-1/raw/BC-TV1.ANS
-# Source Revision: raw-sha256:ea1b0f3399ca5eb2f8f44b10204dede1a363e54516538c3bccff6a99bf4fcab9
-# Source SHA-256: ea1b0f3399ca5eb2f8f44b10204dede1a363e54516538c3bccff6a99bf4fcab9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BC-TV1.ANS by brilliantly clad (cow); released in cow-1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: watch this, watch that, watch me
-# SAUCE Author: brilliantly clad
-# SAUCE Group: cow
-# SAUCE Date: 19950831
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: watch this, watch that, watch me by brilliantly clad | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cow-1-bc-tv1
 
 Write-Host '
                            [1;30m   [0;34m▄░▄▄ ▄▄▄░▄▄[0m           [37m  [0m

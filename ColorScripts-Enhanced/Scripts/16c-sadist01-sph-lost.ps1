@@ -1,18 +1,4 @@
-﻿# Converted from: SPH_LOST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sadist01/raw/SPH_LOST.ANS
-# Source Revision: archive-sha256:a09604d5f43fb8785b5c5dfd9a5165e810b4d58fd16a4084e3fe605eab5c8eb7
-# Source SHA-256: 1cc9b2e99c85479d67609054afc044e6f46be0a0de8850636e5288bc0f7dfd4f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPH_LOST.ANS by seph (sadist); released in sadist01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: lost paradize
-# SAUCE Author: seph
-# SAUCE Group: sadist
-# SAUCE Date: 19981129
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: lost paradize by seph | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sadist01-sph-lost
 
 Write-Host '
       [1;30m▀▀█[0;1;30;47m▓[0;1;30;40m▄[0;1;30;47m▀▓[0;1;30;40m▀[0;30;47m█[0;34;40m▄[0;1;34;44m▄███████[0;1;34;47m▓▓▓▓[0;1;34;44m█████████████████[0;1;34;47m█[0;1;34;44m██████[0m  [1;30m █▄ █▀[0m

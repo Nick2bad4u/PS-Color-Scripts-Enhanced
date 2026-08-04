@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-EXOG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0226/raw/ZII-EXOG.ANS
-# Source Revision: archive-sha256:ef03a5a095d5c0479664f99ff23399e245703c452ca9d05ea2957005177022f9
-# Source SHA-256: dcc99849e192ba4ab346b97580c6bec68dc5c2c5bb1fba1cbd688323de2b1a6f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-EXOG.ANS by Zeus II (Mistigris); released in mist0226 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Exogenesis (BBS Door game)
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260118
-# SAUCE Dimensions: 80x165
-# SAUCE Font: IBM VGA
-# Lines: 84-122
-# Columns: 1-80
+﻿# Artwork: Exogenesis (BBS Door game) by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0226-zii-exog-part03
 
 Write-Host '
 

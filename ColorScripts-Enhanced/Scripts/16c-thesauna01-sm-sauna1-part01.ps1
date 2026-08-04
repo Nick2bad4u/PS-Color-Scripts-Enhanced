@@ -1,19 +1,4 @@
-﻿# Converted from: sm-sauna1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna01/raw/sm-sauna1.ans
-# Source Revision: archive-sha256:70f712dbf565de1ceb0f2b7020b54aa443621235a47b082b92e24e13342b0672
-# Source SHA-256: 11d3edeaa43a38d4f02c5851d179ed3134f646bde717af8939edb1aeabb7c888
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sm-sauna1.ans by Smooth (Fuel); released in thesauna01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Da Phunk (Sauna)
-# SAUCE Author: Smooth
-# SAUCE Group: Fuel
-# SAUCE Date: 20190831
-# SAUCE Dimensions: 80x90
-# SAUCE Font: IBM VGA
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Da Phunk (Sauna) by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna01-sm-sauna1-part01
 
 Write-Host '
                                   [31m░░[0;35m▄[0m

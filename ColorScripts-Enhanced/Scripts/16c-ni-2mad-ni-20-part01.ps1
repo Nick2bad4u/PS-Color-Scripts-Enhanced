@@ -1,18 +1,4 @@
-﻿# Converted from: !NI-20.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ni-2mad/raw/!NI-20.ANS
-# Source Revision: archive-sha256:e0727c97b825fe3767aa49eeea730bcd74e42975ab3f211722940d8993aa464e
-# Source SHA-256: ee191fa2e5907e726b3c580d28a118da07fd7a5e525937787fbd93e45facc998
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: !NI-20.ANS by nitron (ni-2mad); released in ni-2mad and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 20 For Beers
-# SAUCE Author: nitron
-# SAUCE Date: 20221226
-# SAUCE Dimensions: 80x61
-# SAUCE Font: IBM VGA
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: 20 For Beers by nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ni-2mad-ni-20-part01
 
 Write-Host '
                             [1;30m┌⌐.[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: WZ-HF1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/void0295/raw/WZ-HF1.ANS
-# Source Revision: archive-sha256:4a44bb34dd7dff10b5a2dda07cb89e234fbb0d7e21e3c15a308c427064caab51
-# Source SHA-256: 5ad96c34b983791621d72cc69bbc542f875553fcd821da2f3467f063bfd41d0b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WZ-HF1.ANS by Weazel (VOiD); released in void0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: High Fidelity
-# SAUCE Author: Weazel
-# SAUCE Group: VOiD
-# SAUCE Date: 19950201
-# SAUCE Dimensions: 80x100
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: High Fidelity by Weazel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-void0295-wz-hf1-part01
 
 Write-Host '
                                                       [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀█[0m

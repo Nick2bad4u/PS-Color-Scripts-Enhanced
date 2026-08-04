@@ -1,20 +1,4 @@
-﻿# Converted from: CT-MIRRORSHADES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0526/raw/CT-MIRRORSHADES.ANS
-# Source Revision: archive-sha256:96e9c14a0862fcfb7b203f3d94f85e28654461fdbf12521de185a12d5fb418bb
-# Source SHA-256: a8cf3e4061a263b33fd7a1b37036f9e1348b37c10e60449d046c6db238430d97
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CT-MIRRORSHADES.ANS by Cthulu (Mistigris); released in mist0526 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Mirroshades
-# SAUCE Author: Cthulu
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260622
-# SAUCE Dimensions: 80x65
-# SAUCE Font: IBM VGA
-# SAUCE Comments: (The cover artist for this 1988 Ace Books reprint of the 1986 an | thology is unknown.)
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Mirroshades by Cthulu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0526-ct-mirrorshades-part01
 
 Write-Host '
 [34m████████████████░▄[0;37m [0;33m█████████████████████████████████████████████████████████████[0m

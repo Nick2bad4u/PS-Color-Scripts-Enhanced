@@ -1,17 +1,4 @@
-﻿# Converted from: DS-DRIP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rune0596/raw/DS-DRIP.ANS
-# Source Revision: archive-sha256:c40af7cce2fda0097342df4e5eb7be40c9db81ab1e19f7ebbea60ac9c39a1908
-# Source SHA-256: 6607ded5791fd55723c02a402c807660a2bf312912a829b080b48c5d9d08f425
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-DRIP.ANS by dark shadow (rune); released in rune0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: drip logo
-# SAUCE Author: dark shadow
-# SAUCE Group: rune
-# SAUCE Date: 19960501
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: drip logo by dark shadow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rune0596-ds-drip
 
 Write-Host '
 

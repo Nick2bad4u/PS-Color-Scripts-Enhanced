@@ -1,13 +1,4 @@
-﻿# Converted from: CZ-SS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-10/raw/CZ-SS2.ANS
-# Source Revision: archive-sha256:6734a0716f5363aecb5b8387359a704e7e1a498f17ee632abf4e9ca947f0336d
-# Source SHA-256: cdf2faec159d8d2d53e3242d2fcd34b9ea47df6d7e4cf496526e35dcef196f09
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CZ-SS2.ANS by Cheeze (ecl-10); released in ecl-10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: CZ-SS2.ANS by Cheeze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-10-cz-ss2
 
 Write-Host '
 

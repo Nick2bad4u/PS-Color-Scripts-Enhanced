@@ -1,18 +1,4 @@
-﻿# Converted from: M&SOUND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/elloco/raw/M%26SOUND.ANS
-# Source Revision: raw-sha256:8efed667f37d5c7a8ce26d8d94f98edff2e0a61580eef8ab504bf9b8a7071025
-# Source SHA-256: 8efed667f37d5c7a8ce26d8d94f98edff2e0a61580eef8ab504bf9b8a7071025
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M&SOUND.ANS by El LoCo (NeveRLanD); released in elloco and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Music And Sound NET
-# SAUCE Author: El LoCo
-# SAUCE Group: NeveRLanD
-# SAUCE Date: 19951115
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Music And Sound NET by El LoCo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-elloco-m-sound
 
 Write-Host '
          [31m██▄[0m     [31m▄▄[0m

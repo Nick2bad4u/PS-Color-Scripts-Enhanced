@@ -1,18 +1,4 @@
-﻿# Converted from: HL-SUD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stl-003/raw/HL-SUD.ANS
-# Source Revision: archive-sha256:f05577e69788bf833b2eeb503583305cc9119acc157823c14e039d65d70a6838
-# Source SHA-256: 3c8dd3ed0477d2ff0decb545b73e01f71091ddf9176f75cc1e0ee09a83f330fe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HL-SUD.ANS by Hellraiser (Stile); released in stl-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Surfer dream!
-# SAUCE Author: Hellraiser
-# SAUCE Group: Stile
-# SAUCE Date: 19951130
-# SAUCE Dimensions: 80x46
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Surfer dream! by Hellraiser | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stl-003-hl-sud
 
 Write-Host '
 [1;30m■ ■■▀■▀▀■▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀■▀▀■▀■■ ■[0m

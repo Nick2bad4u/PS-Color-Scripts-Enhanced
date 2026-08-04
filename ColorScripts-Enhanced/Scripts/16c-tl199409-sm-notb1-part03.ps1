@@ -1,13 +1,4 @@
-﻿# Converted from: SM-NOTB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl199409/raw/SM-NOTB1.ANS
-# Source Revision: archive-sha256:0b61dfd44d63b89920e4d88fdd3cc6a735df80b58750f4d63c780f0a2c1359f3
-# Source SHA-256: 61c47630f4cebe31c36cf4e386e6fe8caae696180ce8a5633636f845017577ce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-NOTB1.ANS by Smooth (tl199409); released in tl199409 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 87-119
-# Columns: 1-80
+﻿# Artwork: SM-NOTB1.ANS by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl199409-sm-notb1-part03
 
 Write-Host '
 [31m█[0m            [35m▄[0m         [31m■    ▓[0m                  [31m▓[0m            [35m▄██▀[0m           [31m▌[0m

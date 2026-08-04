@@ -1,18 +1,4 @@
-﻿# Converted from: HP-SNKR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0896/raw/HP-SNKR.ANS
-# Source Revision: archive-sha256:aea0eeb92b0eab79feeb93a911e40d78834e5950cdc396c43c83fe60a2627fad
-# Source SHA-256: 0e83b323ae4eff5d4108688de69d239f2458458f9aa08df01e0a5275cb8c3175
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HP-SNKR.ANS by Hiro Protagonist ([Quad-P]); released in quad0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Snooker Shack
-# SAUCE Author: Hiro Protagonist
-# SAUCE Group: [Quad-P]
-# SAUCE Date: 19960728
-# SAUCE Dimensions: 80x25
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Snooker Shack by Hiro Protagonist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0896-hp-snkr
 
 Write-Host '
                [1;30mt  h  e[0m     [1;30ms  n  o  o  k  e  r[0m     [1;30ms  h  a  c  k[0m

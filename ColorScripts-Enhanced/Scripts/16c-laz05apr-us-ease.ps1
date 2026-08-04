@@ -1,18 +1,4 @@
-﻿# Converted from: US-EASE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz05apr/raw/US-EASE.ANS
-# Source Revision: archive-sha256:1015a880c3c2e42953df14381eb6ae6e6ec0326b482ac0273175f6e6e7073aa4
-# Source SHA-256: 0505b7ecf5d14fb9c48738634a5bc3413d819b483397c840564d31a0a7a65717
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-EASE.ANS by Illogic + Ironghost + Abnormal + Ize + Phonyeye (Different); released in laz05apr and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Ease.
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Different
-# SAUCE Date: 19970320
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: Ease. by Illogic + Ironghost + Abnormal + Ize + Phonyeye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz05apr-us-ease
 
 Write-Host '
                                                 [35m░[0;30;45m▓[0;35;40m░[0m             [34;40m░░[0m

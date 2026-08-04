@@ -1,18 +1,4 @@
-﻿# Converted from: fil-zarus.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz14/raw/fil-zarus.ans
-# Source Revision: archive-sha256:41b4e3770fbffb058172283f3da2aa00e47c872480cf93fdef94629ebc0751bb
-# Source SHA-256: 62fdbb3d67530c7bd062fc5d729f9132b2db44a041ff2c149779b89fe0540048
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: fil-zarus.ans by filth (bL0CKtRONiCS); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: filth
-# SAUCE Group: bL0CKtRONiCS
-# SAUCE Date: 20211212
-# SAUCE Dimensions: 80x85
-# SAUCE Font: IBM VGA
-# Lines: 43-83
-# Columns: 1-80
+﻿# Artwork: fil-zarus.ans by filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz14-fil-zarus-part02
 
 Write-Host '
 [33m█████████▀[0;37m  [0;1;31;43m▓[0;1;31;47m▓[0;1;31;40m█[0;1;30;40m [0;1;31;40m██[0;1;31;47m▄[0;1;31;40m████▄[0;1;31;43m▄[0;1;31;40m██[0;33m▀[0;1;31;43m░[0;1;31;40m███████████[0;33m███[0;1;31;43m░[0;33m█[0;1;31;43m░░░░░░░░░[0;33m    [0;31m▀▀▀▓▓▓█████████████[0;37m [0;31m██[0m

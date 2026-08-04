@@ -1,13 +1,4 @@
-﻿# Converted from: ak-mmc73.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic73/raw/ak-mmc73.ans
-# Source Revision: archive-sha256:d0a832ad4f83776b902aefe8c3c211958d672c7b26a3094f51e534eded61ce5d
-# Source SHA-256: 82db767edd30717878b77457e5805bd7234ceb54b44e591874865ce5e754a85e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ak-mmc73.ans by Abstrakt (mimic73); released in mimic73 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 31-56
-# Columns: 1-80
+﻿# Artwork: ak-mmc73.ans by Abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic73-ak-mmc73-part02
 
 Write-Host '
 [1;32m²"`[0;1;34m.┌⌐4┘` [0m   [33m²`[0;1;34m.┌s%##%a.[0;1;37m  [0;1;32m`└/┐.[0m     [1;32m   [0;36m.▬┬,[0;1;32m  [0;1;30m  [0;33m$$$$$$$b[0;1;32m `└⌂j$$$$$$$/[0m     [32m   .d[0;1;32m$[0m

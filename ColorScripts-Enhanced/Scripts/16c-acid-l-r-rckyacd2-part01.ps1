@@ -1,13 +1,4 @@
-﻿# Converted from: RCKYACD2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acid_l-r/raw/RCKYACD2.ANS
-# Source Revision: archive-sha256:499c9b46916e1ae397884d58998fd5ed4387f783522347b660512aee3acb2ec0
-# Source SHA-256: ae8ecb899bf15e2c15a2cd1ff06321c065b18e0982675766733415a60f95c0a8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RCKYACD2.ANS by Jed (acid_l-r); released in acid_l-r and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: RCKYACD2.ANS by Jed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acid-l-r-rckyacd2-part01
 
 Write-Host '
 [1;36m████████████████████████████████▀▀▀▀▀▀█████████████████████████████████████████[0m

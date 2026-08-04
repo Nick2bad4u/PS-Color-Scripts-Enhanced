@@ -1,18 +1,4 @@
-﻿# Converted from: A-FUN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0697/raw/A-FUN.ANS
-# Source Revision: archive-sha256:08e18940bca34b3567a75953ae0590b0f85d3fbc4d879deb49d9733793875e53
-# Source SHA-256: 3f35f12e766e5f5bdac614ac74568521aa2bcab9b489f18ced0816bc77bb5a55
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: A-FUN.ANS by alecs (Phat Studios '97); released in phat0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: funeral fog
-# SAUCE Author: alecs
-# SAUCE Group: Phat Studios '97
-# SAUCE Date: 19970528
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: funeral fog by alecs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0697-a-fun
 
 Write-Host '
         [1m            [0m  [1m   [0m   [1m    [0m                [34m    ▄[0m        [32m▄▄▄▄▌[0;37m  [0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░░[0;34m▄ ▄[0;1;34;44m▄[0;1;34;47m▓[0;1;34;44m█[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: CG-LURE0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-02/raw/CG-LURE0.ANS
-# Source Revision: archive-sha256:bb8ce420598b36a52d4f9cba3bdfbad44af088efeb11a778f52d121622116149
-# Source SHA-256: 7fc2da51866afedc3e012cc0cb8c703d97043c7b06eccd3648f185e4e7b1f47e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-LURE0.ANS by Cryogenic (Hieroglyphics); released in hiero-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Lure
-# SAUCE Author: Cryogenic
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20000726
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Lure by Cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-02-cg-lure0
 
 Write-Host '
                                [35m▬[0;37m [0m

@@ -1,19 +1,4 @@
-﻿# Converted from: NI-SHOCK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0525/raw/NI-SHOCK.ANS
-# Source Revision: archive-sha256:3f1c54fcce63651d0da098cd25cb8253b5a6b2c25c827a57c95e7c0e8210b5fb
-# Source SHA-256: 46d70a2a27b0d8364e5b84d3674a155efd1a5a39f6cbda1e87fe1aa1ab63f78b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-SHOCK.ANS by Nitron (Mistigris); released in mist0525 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: MIST: More Than Meets the Block
-# SAUCE Author: Nitron
-# SAUCE Group: Mistigris
-# SAUCE Date: 20250524
-# SAUCE Dimensions: 80x130
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: MIST: More Than Meets the Block by Nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0525-ni-shock-part01
 
 Write-Host '
           [30;41m▓▓▓▓▓▓▓▓[0;31;40m [0;30;41m▓[0;37;40m                      [0;30;41m▓[0;31;40m [0;30;41m▓▓[0;31;40m  [0;30;41m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;31;40m  [0;30;41m▓[0m

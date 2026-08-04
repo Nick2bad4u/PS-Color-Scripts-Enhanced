@@ -1,18 +1,4 @@
-﻿# Converted from: CL!-NEON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nst_001/raw/CL!-NEON.ANS
-# Source Revision: archive-sha256:73e351b64f3e5af00925276ea27a29359884e7841f4015afd3acb29f2a370d2d
-# Source SHA-256: 932fda915baea9165e5fda8e68506c830393f5523c6056d0caed0ae81eed164e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-NEON.ANS by .:(cLEANER):. (.:(nEON^sTRIKE):.); released in nst_001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: .:(nEON^lOGO):.
-# SAUCE Author: .:(cLEANER):.
-# SAUCE Group: .:(nEON^sTRIKE):.
-# SAUCE Date: 19971210
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: .:(nEON^lOGO):. by .:(cLEANER):. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nst-001-cl-neon
 
 Write-Host '
               [1m·[0m

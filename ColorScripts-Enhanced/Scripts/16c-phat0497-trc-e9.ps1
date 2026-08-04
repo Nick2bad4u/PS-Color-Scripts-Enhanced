@@ -1,18 +1,4 @@
-﻿# Converted from: TRC-E9.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0497/raw/TRC-E9.ANS
-# Source Revision: archive-sha256:ac23f379eb24f5f6ad8faa432723caa3c85fc7d4fc380b1d3e101e8eb50ca483
-# Source SHA-256: ec23091efad80602c1afd1b776bb0cf1e33a39d8bd22c7d85f21ccb122c91e62
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TRC-E9.ANS by tricycle (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ethOs9 logo
-# SAUCE Author: tricycle
-# SAUCE Group: phat studios '97
-# SAUCE Date: 19970306
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: ethOs9 logo by tricycle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0497-trc-e9
 
 Write-Host '
 

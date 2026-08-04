@@ -1,18 +1,4 @@
-﻿# Converted from: NMB-2FH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roc-best/raw/NMB-2FH.ANS
-# Source Revision: archive-sha256:ed2172be4f351fbbe490297eada190fa8af16bee5a8ce8834dea50cd318904c2
-# Source SHA-256: 767bcf79f2a3c132488cfdc4284f54ae75747af681b7db8778de4c98f1b61b92
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NMB-2FH.ANS by Ninja-Man Bob (Rulers Of Chaos); released in roc-best and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Too Fucking Hostile
-# SAUCE Author: Ninja-Man Bob
-# SAUCE Group: Rulers Of Chaos
-# SAUCE Date: 19950430
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Too Fucking Hostile by Ninja-Man Bob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roc-best-nmb-2fh
 
 Write-Host '
 [31m                      ░      ▒                   [0m [31m▌             [0m        [34m [0;1;31mnm[0;31mb[0m

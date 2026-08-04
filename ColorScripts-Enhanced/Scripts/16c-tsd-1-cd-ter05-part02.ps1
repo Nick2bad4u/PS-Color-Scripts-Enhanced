@@ -1,13 +1,4 @@
-﻿# Converted from: CD-TER05.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tsd-1/raw/CD-TER05.ANS
-# Source Revision: raw-sha256:f7496b4f63bbb6ce2cc1bd61dd9122c0952d309ec4372bd4fa0c71dd77a1f6b3
-# Source SHA-256: f7496b4f63bbb6ce2cc1bd61dd9122c0952d309ec4372bd4fa0c71dd77a1f6b3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CD-TER05.ANS by Drakula (tsd-1); released in tsd-1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 47-74
-# Columns: 1-80
+﻿# Artwork: CD-TER05.ANS by Drakula | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tsd-1-cd-ter05-part02
 
 Write-Host '
 [31m───[0;1;31m═ ├\[0;31m∩$│  [0;1;31mß[0;31m¥ [0;1;31m│>[0;31mτ├\│<└┘└├\ [0;1;31m═[0;31m──────────────────────────────────────────────────[0m

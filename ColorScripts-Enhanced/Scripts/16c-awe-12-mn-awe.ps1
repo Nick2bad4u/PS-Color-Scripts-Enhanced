@@ -1,18 +1,4 @@
-﻿# Converted from: MN-AWE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-12/raw/MN-AWE.ANS
-# Source Revision: archive-sha256:5c96c14e912296494a464a42e768321452d811693cf172945a9502eb4396c8bb
-# Source SHA-256: 13324c1a0cab6a5b5ef6304f6cef6a4b3dc00de08fabf7e6665a8c6c923b3d4f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MN-AWE.ANS by Menace (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: AWE Promotional
-# SAUCE Author: Menace
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19971011
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: AWE Promotional by Menace | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-12-mn-awe
 
 Write-Host '
 [1m[0m[1;33m[0m   [33m▄▄▄▄ [0;37m▄[0;1;37;47m░░░[0m▄███[47m [0;1;47m░░[0m▄▄▄▐[1;47m░░▓█[0m  [33m▀ ▀ ▀█[0;33;43m  [0;33;40m██▌▄[0;1;33;40m▄▄▄    [0;32m▐ [0;37m▀  ▀ ▀ ▄[0;1;37;47m▄[0m█▄ ▀▀▀▀▀▀[1;47m░░▓▓██[0m▄▄▐[1;47m██[0m

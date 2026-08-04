@@ -1,13 +1,4 @@
-﻿# Converted from: REP-MID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/karma-06/raw/REP-MID.ANS
-# Source Revision: archive-sha256:2afed798090a9e0451a4ed3c68825b949462a49ff2944730c37ee015f44f49d5
-# Source SHA-256: 55989b4da979df468d54e08028968e52da264ed1cc9042775d7d2c6962248b96
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: REP-MID.ANS by Reptical (karma-06); released in karma-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: REP-MID.ANS by Reptical | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-karma-06-rep-mid
 
 Write-Host '
 [1;36mREP[0m`[1;34m [0;32m_.┌[0;1;32m*[0;1;33m@S$$$$$$$$$$$$$P[0;32m`.[0;1;33md$$$$$$$$$S@[0;32m*┐._[0;1;33m  [0;32m~└[0;1;33m4$$$$$$$$P*[0;32m┘"^~[0m   [31m~[0;1;31m`"[0;31m└[0;1;31m [0;1;33m_________[0m

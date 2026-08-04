@@ -1,13 +1,4 @@
-﻿# Converted from: SB-CDX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cnc-0894/raw/SB-CDX.ANS
-# Source Revision: archive-sha256:1b41953359b4903075cddee4a19558a01788588c83e4b31f35133aa0fc5529ef
-# Source SHA-256: 5a8d5d88d5b1255cb23f0887da4ef5bcca3e294fffe0ade5c8172fe1c28f1044
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SB-CDX.ANS by Surfer Boy (cnc-0894); released in cnc-0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 198-236
-# Columns: 1-80
+﻿# Artwork: SB-CDX.ANS by Surfer Boy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cnc-0894-sb-cdx-part05
 
 Write-Host '
 

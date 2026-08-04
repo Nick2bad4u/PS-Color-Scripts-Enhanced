@@ -1,18 +1,4 @@
-﻿# Converted from: PP-SHROO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger08/raw/PP-SHROO.ANS
-# Source Revision: archive-sha256:20659819b296ba2594f6e23437420c94a5e40c1f843310f8d5730efe645a2109
-# Source SHA-256: 8a3ce1f770c1f3b9d61e838c30b38a6e8d4f7cc0a8c4a5d6a4a713396a15dc53
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PP-SHROO.ANS by pixel_pusher (anger); released in anger08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: shroom.
-# SAUCE Author: pixel_pusher
-# SAUCE Group: anger
-# SAUCE Date: 19960322
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: shroom. by pixel_pusher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger08-pp-shroo
 
 Write-Host '
                                             [31m░▄▄▄░[0m

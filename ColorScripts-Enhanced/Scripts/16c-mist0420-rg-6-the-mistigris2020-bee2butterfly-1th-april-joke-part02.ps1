@@ -1,17 +1,4 @@
-﻿# Converted from: Rg-6-The_Mistigris2020_Bee2butterfly_1th_April_Joke.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0420/raw/Rg-6-The_Mistigris2020_Bee2butterfly_1th_April_Joke.ans
-# Source Revision: archive-sha256:989a7c40e4428ad01a3b04a69260973b6984bd020273ad705e66a26cba73d3a4
-# Source SHA-256: c2591a30461dd7fbea66ce5a7d2d705ff19ce44c8f9d9a3a8a2e1e388f7bdcdf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Rg-6-The_Mistigris2020_Bee2butterfly_1th_April_Joke.ans by CoaXCable (MiSTiGRiS); released in mist0420 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Bee2Butterfly
-# SAUCE Author: CoaXCable
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 20200331
-# Lines: 27-52
-# Columns: 1-80
+﻿# Artwork: Bee2Butterfly by CoaXCable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0420-rg-6-the-mistigris2020-bee2butterfly-1th-april-joke-part02
 
 Write-Host '
 [36m█[0;30;46m▒▒[0;36;40m▄[0;34;40m▀██░█[0;34;47m░░▄[0;34;40m█▌█[0;34;47m▀░░[0;34;40m▀ [0;33;40m▓▓▌░▐[0;1;31;43m░▒▓█[0;33m█▀▄█▀█▄▐[0;1;31;43m▒░▒[0;33m▄[0;36m▀▓[0;30;46m░░[0;31;46m▐█[0;1;31;40m▓▓█[0;31;43m░[0;31;46m█[0;1;31;40m▄▄[0;31;46m█[0;31;43m░[0;1;31;40m▓▓[0;31;43m▓▒[0;31;46m▌[0;36;40m▒▓▓▄[0;32;40m▄[0;37;40m▀▀[0;33;40m▌[0;1;33;40m▄[0;1;37;40m▄[0;32m■[0;37m▀▀[0;36m▄▄███[0m

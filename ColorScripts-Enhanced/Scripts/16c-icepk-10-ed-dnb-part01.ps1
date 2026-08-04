@@ -1,13 +1,4 @@
-﻿# Converted from: ED-DNB.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-10/raw/ED-DNB.ICE
-# Source Revision: archive-sha256:bf182b3a4a3821f59456de515e0caeefdf153f2040b433c6321d39d23c909d77
-# Source SHA-256: ea107f4c13cb484ca8aee0e769ca71d71c5e0d813af2234d5fd28f716c061651
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ED-DNB.ICE by Eternal Darkness (icepk-10); released in icepk-10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: ED-DNB.ICE by Eternal Darkness | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-10-ed-dnb-part01
 
 Write-Host '
    [1;30m▄[0;1;30;47m [0m

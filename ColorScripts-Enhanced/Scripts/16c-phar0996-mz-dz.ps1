@@ -1,17 +1,4 @@
-﻿# Converted from: MZ^DZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phar0996/raw/MZ%5EDZ.ANS
-# Source Revision: archive-sha256:a110fe168ec83f56158fe99c92124ea58d0884131cba0cb1f746e5e809cd3ac5
-# Source SHA-256: e45ba84a04f4fa3f49feceb817b668eee8ea6cc14a251b583695c650eb391b75
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MZ^DZ.ANS by Menzel (phar0996); released in phar0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: dZ!
-# SAUCE Author: Menzel
-# SAUCE Date: 19960902
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: dZ! by Menzel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phar0996-mz-dz
 
 Write-Host '
                         [1;31;41m░[0m     [1;31;41m░[0m    [31m▀[0m    [1;31;41m▒[0m         [31m▄[0m

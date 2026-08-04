@@ -1,18 +1,4 @@
-﻿# Converted from: CKO-CUCK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-001/raw/CKO-CUCK.ANS
-# Source Revision: archive-sha256:7435b1c9938dec461ab33b42b3dd164ea7e98ecfff30ea4d3df5a8e59194b0a3
-# Source SHA-256: 2772bb2642e08a7649d7f53c8f875b91ada9a35b208c0129679c393d16a06ae8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CKO-CUCK.ANS by cuckoo (rARE!ASCii); released in rare-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Not Available Screen
-# SAUCE Author: cuckoo
-# SAUCE Group: rARE!ASCii
-# SAUCE Date: 19980305
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Not Available Screen by cuckoo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-001-cko-cuck
 
 Write-Host '
 [1;30m                  [0m            [1;30m    [0m                      [1;30m                       [0m

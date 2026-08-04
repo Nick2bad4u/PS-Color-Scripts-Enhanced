@@ -1,18 +1,4 @@
-﻿# Converted from: PX-RTM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/prz-9607/raw/PX-RTM.ANS
-# Source Revision: archive-sha256:c9c5cc7ecf1f26596c4d88f592166c82d585c7e5de1be5fa6d5e25ebed6d7d14
-# Source SHA-256: 5d30ae1a303949f1da7a2a211a91606244f1ae5627128104e1f78e7a869d938e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PX-RTM.ANS by perplexer (pharazoone); released in prz-9607 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: resurrected mind
-# SAUCE Author: perplexer
-# SAUCE Group: pharazoone
-# SAUCE Date: 19960107
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: resurrected mind by perplexer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-prz-9607-px-rtm
 
 Write-Host '
 

@@ -1,16 +1,4 @@
-﻿# Converted from: arl-radio_sticker.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hpm-001/raw/arl-radio_sticker.ans
-# Source Revision: archive-sha256:851f4293cfae53aeeb1a1b544afa6f2027f29ccc66626a7fe6e8803857f004c7
-# Source SHA-256: f7bf4c90b27192357f321e32381b232d890473e065d7dc86565f9dcb2eadbaff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: arl-radio_sticker.ans by Arlequin (hpm-001); released in hpm-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 20220412
-# SAUCE Dimensions: 80x60
-# SAUCE Font: IBM VGA
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: arl-radio_sticker.ans by Arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hpm-001-arl-radio-sticker
 
 Write-Host '
 [35;46m►[0;36;45m►[0;35;106m►[0;1;36;45m►[0;35;46m►[0;36;45m►[0;35;106m►[0;1;36;45m►[0;35m►[0;30;45m►[0;35;46m►[0;36;45m►[0;35;46m►[0;36;45m►[0;35;106m►[0;1;36;45m►[0;35;46m►[0;36;45m►[0;35;106m►[0;1;36;45m►[0;35;46m►[0;36;45m►[0;35;46m►[0;36;45m►[0;35;46m►[0;36;45m►[0;35;106m►[0;1;36;45m►[0;35;46m►[0;36;45m►[0;35;106m►[0;1;36;45m►[0;35;46m►[0;36;45m►[0;35;46m►[0;36;45m►[0;35;46m►[0;36;45m►[0;35;106m►[0;1;36;45m►[0;35;46m►[0;36;45m►[0;35;106m►[0;1;36;45m►[0;35m►[0;30;45m►[0;35;46m►[0;36;45m►[0;35;46m►[0;36;45m►[0;35;106m►[0;1;36;45m►[0;35;46m►[0;36;45m►[0;35;106m►[0;1;36;45m►[0;35;46m►[0;36;45m►[0;35;46m►[0;36;45m►[0;35;46m►[0;36;45m►[0;35;106m►[0;1;36;45m►[0;35;46m►[0;36;45m►[0;35;106m►[0;1;36;45m►[0;35m►[0;30;45m►[0;35;46m►[0;36;45m►[0;35;46m►[0;36;45m►[0;35;106m►[0;1;36;45m►[0;35;46m►[0;36;45m►[0;35;106m►[0;1;36;45m►[0m

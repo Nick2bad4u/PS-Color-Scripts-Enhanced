@@ -1,13 +1,4 @@
-﻿# Converted from: SP-GLUE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-01/raw/SP-GLUE1.ANS
-# Source Revision: archive-sha256:0e63c5e62ea9b66430033b1875dc38843fc6f5d45408ae01bb2abd9ed19a0d23
-# Source SHA-256: c7000f5ea6dadd2a397fadd7ec1b2eb750869e07f01aa56e8fae1b68426571bf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SP-GLUE1.ANS by Spear (glue-01); released in glue-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: SP-GLUE1.ANS by Spear | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-01-sp-glue1
 
 Write-Host '
 [1m░░[0m

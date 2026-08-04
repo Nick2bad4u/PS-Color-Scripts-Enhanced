@@ -1,18 +1,4 @@
-﻿# Converted from: DM!SPONG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-15/raw/DM!SPONG.ANS
-# Source Revision: archive-sha256:cd2d406ee7567eb1c250b9572bb0b7fdd8b6cfa2b5014b290774725da37d8cc8
-# Source SHA-256: 116393614eada0fde3c9d7d1486831e50bd2a968d38504c94416204db8cb0733
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DM!SPONG.ANS by dangermouse (fORCE Productions 97); released in force-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: sponge matrix
-# SAUCE Author: dangermouse
-# SAUCE Group: fORCE Productions 97
-# SAUCE Date: 19970114
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: sponge matrix by dangermouse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-15-dm-spong
 
 Write-Host '
                             [36m▄[0;1;33;46m▄ [0;36m▓▀▀[0;1;30m░[0m▄▄▄[1;47m▀▀█[0;1;40m██▄▄▄▄[0m [36m▀▀▓[0;1;32;46m▄[0;36m▌ [0m

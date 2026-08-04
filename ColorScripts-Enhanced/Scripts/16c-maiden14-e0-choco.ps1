@@ -1,18 +1,4 @@
-﻿# Converted from: E0-CHOCO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden14/raw/E0-CHOCO.ANS
-# Source Revision: archive-sha256:8484fc17833e455250727f80fdc56cc19e17aec4fba2f82e3b86585a9e08cb6c
-# Source SHA-256: 7a495af5e51427d42eebfe8de279e3bb1aefbeeb832392ce74060b5dfe41a6e2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: E0-CHOCO.ANS by Enzoboy (Maiden Braziliz); released in maiden14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: SENSACAO DO VERAO (peca ja o seu)
-# SAUCE Author: Enzoboy
-# SAUCE Group: Maiden Braziliz
-# SAUCE Date: 19971214
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: SENSACAO DO VERAO (peca ja o seu) by Enzoboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden14-e0-choco
 
 Write-Host '
                         [33m▄▄▄[0m              [33m [0;37m [0;33m▄[0m            [1;33m [0m   [1;33m [0;1;37m▐[0;1;33m [0m   [1;33m [0m

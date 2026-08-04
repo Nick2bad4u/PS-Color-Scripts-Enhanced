@@ -1,18 +1,4 @@
-﻿# Converted from: GK-THAIR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz08jly/raw/GK-THAIR.ANS
-# Source Revision: archive-sha256:8d8d89cdb4f6a56f2eaa26003458d08f5faec96c5dffe1f9e4f0c78141100bcb
-# Source SHA-256: 82a96023af873eef09ac9a48960b2d4131d74b59aa3c300f012f72173606dc36
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GK-THAIR.ANS by grind king (lazarus); released in laz08jly and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Thin Air
-# SAUCE Author: grind king
-# SAUCE Group: lazarus
-# SAUCE Date: 19970630
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Thin Air by grind king | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz08jly-gk-thair
 
 Write-Host '
 

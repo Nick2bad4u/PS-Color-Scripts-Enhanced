@@ -1,18 +1,4 @@
-﻿# Converted from: TL@MAINS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak1/raw/TL%40MAINS.ANS
-# Source Revision: archive-sha256:6b35b56dc24903414bd16ecb32b5990f418418f7d4290c94fd51891e14acec7b
-# Source SHA-256: d68f3beaca5c829b6e2b244a5aefc989cb28add1a40746bfb7cb728faf5b66d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TL@MAINS.ANS by timeless (ecolove); released in ecl-pak1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: main menu
-# SAUCE Author: timeless
-# SAUCE Group: ecolove
-# SAUCE Date: 19971123
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: main menu by timeless | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak1-tl-mains
 
 Write-Host '
                        [34m  [0;37m ▄▄[0m                         [34m███[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: pmt-impzone.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure74/raw/pmt-impzone.ans
-# Source Revision: archive-sha256:c342772fc008a80adc68909829f41b96cd6b121f20c023f7c9ab22e1bb482dc4
-# Source SHA-256: aba10f94f5802b185ceab7f5e69099593008463bc5423295c346a6fc8197716b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: pmt-impzone.ans by Prismate (impure74); released in impure74 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: pmt-impzone.ans by Prismate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure74-pmt-impzone-part01
 
 Write-Host '
 [31;40m    ░  ░[0m          [1;30;40m                                            [0m         [31m░ ░ ░ ░ ░[0m

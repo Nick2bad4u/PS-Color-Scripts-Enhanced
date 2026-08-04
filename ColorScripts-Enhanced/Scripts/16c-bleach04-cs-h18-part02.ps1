@@ -1,18 +1,4 @@
-﻿# Converted from: CS-H18.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bleach04/raw/CS-H18.ANS
-# Source Revision: archive-sha256:baa32e2a78fcaeb0a7d7d4af9b9beca3cca36bb322ba39b26f818f95ee969108
-# Source SHA-256: e738e7ea5e3d000141e04620544a6403d4f09541aa9b3580e13023827e95295c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CS-H18.ANS by chainsaw (bleach); released in bleach04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hangar 18 ad
-# SAUCE Author: chainsaw
-# SAUCE Group: bleach
-# SAUCE Date: 19950715
-# SAUCE Dimensions: 80x25
-# Lines: 51-91
-# Columns: 1-80
+﻿# Artwork: hangar 18 ad by chainsaw | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bleach04-cs-h18-part02
 
 Write-Host '
          [31m  [0m

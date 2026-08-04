@@ -1,13 +1,4 @@
-﻿# Converted from: SQ-BR01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/buttz03/raw/SQ-BR01.ANS
-# Source Revision: archive-sha256:c2ce80ae04a7cc270151547963184e535a628d1735fa79697954a632d59918cc
-# Source SHA-256: 456fd4f73f9a35402986c8c1cf70ad56b2e226b7390bfd385d90e809aab7304b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SQ-BR01.ANS by Sobriquet (buttz03); released in buttz03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: SQ-BR01.ANS by Sobriquet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-buttz03-sq-br01
 
 Write-Host '
 [31;43m     [0;33;40m▀ ▀▓[0;31;43m      [0;1;33;43m░[0;33m▄[0;31;43m [0;33;40m███▓▓▀▀[0;37;40m [0;1;33;40m▄▄▄[0m [1;33m▀█ █▄[0;1;33;43m▓[0;1;33;40m▄[0;1;33;43m▒[0;1;33;40m▀▄[0;1;33;43m▓[0;1;33;40m▄▄[0m  [33m▀▓██▀▀▀ ▄▄█[0;1;33;43m░░[0;33m▄█████▄▐▓██[0;1;33;43m░░░░[0;33m██████▀[0m

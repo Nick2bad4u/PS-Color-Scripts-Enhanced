@@ -1,18 +1,4 @@
-﻿# Converted from: GSL-MAT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0198/raw/GSL-MAT1.ANS
-# Source Revision: archive-sha256:463d77f4b1466b54ce907e7ee760282fc69f7183ee8d9f351965b1f5ce417b30
-# Source SHA-256: 212ef58907451850d676542cc0b5f512a70fcc03bc64c7cd65f5f95c3dc3f74a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GSL-MAT1.ANS by gasol (plf); released in plf-0198 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: revival, matrix screen
-# SAUCE Author: gasol
-# SAUCE Group: plf
-# SAUCE Date: 19980118
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: revival, matrix screen by gasol | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0198-gsl-mat1
 
 Write-Host '
 [1;30;46m▓▀▀[0;1;36;46m█▄▄▓[0;1;37;46m▄▄▄[0;1;36;46m▄▄[0;1;36;40m▀▀[0;36m▀▀[0;1;36m▀█[0;1;37m██[0;1;36;46m▌▄▄▄▄[0;36m▓[0;1;30;46m▄[0;36m▀▀▀▀[0;1;30m▀[0;33m▄▄▄▄[0;1;30m▀[0;36m▀[0;1;36;46m▒▀██▄▄ ▄▄▄▄▄[0;1;36;44m▄[0;1;36;46m▄▄▄██[0m             [1;36;46m ▄▄▄▌ ▀▀██ [0m

@@ -1,19 +1,4 @@
-﻿# Converted from: antsy-67love.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_ansi_love/raw/antsy-67love.ans
-# Source Revision: archive-sha256:6bbd631cd11e3473b019590c35c9a89f139f75a09b13e07a93395613241d63e9
-# Source SHA-256: 269c76148826b2c3ac3eb9f13682ec97bc643a550a59fc40c74dfff5b4d7ac9d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: antsy-67love.ans by Antsy atheist (guest); released in blocktronics_ansi_love and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: i love 67
-# SAUCE Author: Antsy atheist
-# SAUCE Group: guest
-# SAUCE Date: 20170227
-# SAUCE Dimensions: 80x41
-# SAUCE Font: IBM VGA
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: i love 67 by Antsy atheist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-ansi-love-antsy-67love
 
 Write-Host '
 [1;37;40m██ ▐[0;1;37;47m▓▓[0;1;37;40m██[0;1;33;46m▀ [0;1;37;47m  [0;1;37;40m░[0;1;30;40m ░░░[0;1;33;44m [0;1;30;40m░[0;1;33;44m░[0;1;31;40m▒▒▓█[0;36m▓▓▓▓[0;1;30;46m██████▓▒▓█░████████████████████▓▓██░░[0;1;33;44m▒▓[0;1;30;40m▓[0;1;30;45m▄[0m      [1;30m░░▓██[0m

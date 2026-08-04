@@ -1,13 +1,4 @@
-﻿# Converted from: u3-Ale.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bafh-pack3/raw/u3-Ale.ans
-# Source Revision: archive-sha256:b98709871d005c333953418b8ee62fc8a259bbf9d5b450208932354edc80ba77
-# Source SHA-256: 75a38ee51c1df561f7bcc7e6f50c44b4dfd55c8a0fd3da747455afa0c4e7ffd5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: u3-Ale.ans by Unseen Fate (bafh-pack3); released in bafh-pack3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: u3-Ale.ans by Unseen Fate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bafh-pack3-u3-ale
 
 Write-Host '
 [36m▓▓██████[0;1;36;46m▄▄▄▄▄▄█▀[0;36m█████[0;1;36;46m▄▄▄▄▄▄▄▄▄▄[0;36m▓▄[0;37m          [0;1;30m▄[0;36m▓[0;1;36;46m▄▄▄▄▄[0;36m███████[0;1;36;46m ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;36m▓[0m

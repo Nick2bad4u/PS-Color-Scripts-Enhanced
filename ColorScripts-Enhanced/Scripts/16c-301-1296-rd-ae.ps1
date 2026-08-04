@@ -1,18 +1,4 @@
-﻿# Converted from: RD-AE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/301-1296/raw/RD-AE.ANS
-# Source Revision: archive-sha256:6f239dcc15d58c6d9331e0bb065ccce7fcfdce2ee998eb6b4810f78fc2937b38
-# Source SHA-256: 40d11ac333a8c924073da8e451d7cd7cce831cc85118836e0d07ed11e6a469c7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD-AE.ANS by red death (project/301); released in 301-1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: alien encounters
-# SAUCE Author: red death
-# SAUCE Group: project/301
-# SAUCE Date: 19961227
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: alien encounters by red death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-301-1296-rd-ae
 
 Write-Host '
 [1;31m█▄[0;1;31;41m▀▀ [0;31m▄▄████▄▄█[0;1;31;41m░[0;31m▀▀[0;37m [0;31m▀[0m    [32m▄ ▄▄▄▄▄▄▄[0;33m▄[0m    [31m▀[0;1;31;41m░[0;31m█████████[0;1;31;41m▀[0;31m█[0;1;31;41m▀▀█[0;1;31;40m▄[0m [33m   [0;37m [0;1;34m▄[0;33m                    [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: yhl_mbecrew.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p24_08/raw/yhl_mbecrew.ans
-# Source Revision: archive-sha256:f02488c0bfe7f1ede4b0e2dbd0b22b2cbcc7128cd7fad1ecf560a7ad0ad3747c
-# Source SHA-256: 1519adf92b87e969d6382bdc9793333e56c52fd6b5b0c4cd024e7e6f0485bc2a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: yhl_mbecrew.ans by Yhl (l0p24_08); released in l0p24_08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: yhl_mbecrew.ans by Yhl | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p24-08-yhl-mbecrew-part01
 
 Write-Host '
      [34m`[0m                                                     [1;33myhl -.[0m      [32m,$.[0m

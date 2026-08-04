@@ -1,18 +1,4 @@
-﻿# Converted from: BL-ROA2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0195/raw/BL-ROA2.ANS
-# Source Revision: archive-sha256:874f19df1d2975eb4a251b4e9722be66f88a94e2778db4593e3b6fbe57329d35
-# Source SHA-256: 01a80cc63dcf7d65268a5c316bd98e7c3a7ed9dfe54d8cb8ec01b9e1eb27bacd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BL-ROA2.ANS by Black Lightning (Union); released in uni-0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Realm of Anarchy
-# SAUCE Author: Black Lightning
-# SAUCE Group: Union
-# SAUCE Date: 19950101
-# SAUCE Dimensions: 80x25
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: Realm of Anarchy by Black Lightning | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0195-bl-roa2-part01
 
 Write-Host '
    [1;30m▄█▀▀■[0m       [1;30m▄██▀▀▀▒░  [0;33m▄▄▄ [0;1;30m▀▀█[0;1;30;47m▓▓[0;1;30;40m█▄ ▐[0;1;30;47m▓▒░[0m▄[1;30m▐█[0;1;30;47m▓[0;1;30;40m▄█▓▒░░ ░  [0;33m░░░ [0;37m░▒▓████████▀▀▀▀▀█████[0m

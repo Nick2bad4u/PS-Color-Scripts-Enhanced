@@ -1,18 +1,4 @@
-﻿# Converted from: US-HAZ2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-17/raw/US-HAZ2.ANS
-# Source Revision: archive-sha256:154ac874f13e20433925bb99a4f5e0a4299764bee7ed4d28bdaffd9ad392f554
-# Source SHA-256: 656f70fc410d6e38f48dd4dbd3e2a676d6c568da2743e1a2d5012366b9d1847d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-HAZ2.ANS by Dissonance + Zfact0r (glue\awe); released in glue-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Hazard /2
-# SAUCE Author: zfact0r\dissonance
-# SAUCE Group: glue\awe
-# SAUCE Date: 19981229
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Hazard /2 by Dissonance + Zfact0r | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-17-us-haz2
 
 Write-Host '
 dee1[1;30m([0;1;37mawe[0;1;30m)[0;1;34;44m▄[0;1;34;47m▒▓[0;1;34;40m▓[0;1;34;44m▓▄[0;1;34;40m▄▄▄[0;34m▄▀[0;1;34;47m▓▓[0;1;34;40m▄▄[0;34m▌  ▀[0;37m [0;1;35m░░ [0;1;34;44m▀▀[0;1;34;47m▓[0;1;34;44m▄▄[0;34m▄▄  ▄[0;37m [0;31m▄[0;37m [0;34m  ▀[0;1;34m▀▀[0;1;34;44m▀[0;1;34;47m▓▒[0;1;34;44m▀[0;34m▀▀[0;1;34;44m▀[0;1;34;47m▓[0;1;34;40m▀▀[0;34m▀[0;37m [0;31m▄[0;37m [0;1;34;47m▓▓[0;1;34;44m█▄[0m zf0[1;30m([0;1;37mglue[0;1;30m)[0m [1;34;44m▀[0m

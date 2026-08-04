@@ -1,13 +1,4 @@
-﻿# Converted from: PL-RDA02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac-17/raw/PL-RDA02.ANS
-# Source Revision: archive-sha256:143ba0b02cb6e0c3c0ef0ef67e5dad2b30187f657127441ee41c3731c02ed4a2
-# Source SHA-256: 8538eb27ab37c4fe7f307f694eb37f8707dee60a3ffb583fa120b916dc84b792
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PL-RDA02.ANS by puschel; released in sac-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: PL-RDA02.ANS by puschel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac-17-pl-rda02
 
 Write-Host '
                                                [32m$.[0m

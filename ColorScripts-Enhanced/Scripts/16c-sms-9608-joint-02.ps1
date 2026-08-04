@@ -1,18 +1,4 @@
-﻿# Converted from: JOINT-02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9608/raw/JOINT-02.ANS
-# Source Revision: archive-sha256:28795cb401df281ef6294233e2af12663ffb83dc390b0bfbadecb49834e6c017
-# Source SHA-256: 793d2b3b1a70864440df2b0abd2dcd05694e25d203c848db1afa63e6461afe45
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JOINT-02.ANS by Eerie + Defiant (SAMSARA); released in sms-9608 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ICF
-# SAUCE Author: DEFIANT & EERIE-KUN
-# SAUCE Group: SAMSARA
-# SAUCE Date: 19960802
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: ICF by Eerie + Defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9608-joint-02
 
 Write-Host '
 [31m[0;1;31m[0;31m[0m

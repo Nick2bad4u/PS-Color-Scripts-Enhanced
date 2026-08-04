@@ -1,13 +1,4 @@
-﻿# Converted from: IMPACID2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1192/raw/IMPACID2.ANS
-# Source Revision: archive-sha256:8f9edeb4f92b0693833f343328f0977cc472aa2ea98dbae0f830bf926a78711d
-# Source SHA-256: f2e750aa39aacde65fc6d8edb312b53ad7c1845e8bc5b9a053dcbbc873ceadff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IMPACID2.ANS by Sonic (acdu1192); released in acdu1192 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 29-54
-# Columns: 1-80
+﻿# Artwork: IMPACID2.ANS by Sonic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1192-impacid2-part02
 
 Write-Host '
 [33m▄▄[0;34m▄[0;33m▄[0;34m▄[0;32m▀▀▀▀▀████▄▄▄▄▄▄ [0;37m█▐▌██▄[0;1;32m▀▀███████████[0;1;32;42m▄▄[0;32m▀███▄▀[0;1;30m▄▄ █▌ [0;33m▌▐ ▐ █  █▐ █ █ ▌▐█ ▌ ▄ █▐[0m

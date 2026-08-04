@@ -1,13 +1,4 @@
-﻿# Converted from: 43MAY-B.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense16j/raw/43MAY-B.ANS
-# Source Revision: archive-sha256:21e10a26e80e20f8e4295f136a75aae0f222471bb8bb339e4e731b31441ecc2b
-# Source SHA-256: f4c3fa4b906a377223db533ebbffa7c7cf3698bad42282a6e094038e111d55fb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 43MAY-B.ANS by Aesthetic (sense16j); released in sense16j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: 43MAY-B.ANS by Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense16j-43may-b
 
 Write-Host '
 

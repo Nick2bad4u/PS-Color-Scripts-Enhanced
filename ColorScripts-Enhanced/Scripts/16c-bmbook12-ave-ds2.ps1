@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-DS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook12/raw/AVE-DS2.ANS
-# Source Revision: archive-sha256:ec66f5bb4ed961133c52314c375d67af30a5295789eb6bfc6eda91ebf8999fc2
-# Source SHA-256: c464c2c6171320cecdf327671cc22b6cf1aecc1b1498f779cae248e20972c60b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-DS2.ANS by avenger (black maiden); released in bmbook12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: darkside
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19970228
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: darkside by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook12-ave-ds2
 
 Write-Host '
 

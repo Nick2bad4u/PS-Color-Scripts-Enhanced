@@ -1,18 +1,4 @@
-﻿# Converted from: FR-FIRE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0497/raw/FR-FIRE1.ANS
-# Source Revision: archive-sha256:73d4445ab8a07d3fe160d256052163ed66b2081a0bebb59b18ae9b36e30223e0
-# Source SHA-256: 266ab9ff0b946d8e72420d38427ef86dfdf8db4ac6c86b0dfe71806e469af83a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FR-FIRE1.ANS by Fractal (Root); released in root0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fire Promo
-# SAUCE Author: Fractal
-# SAUCE Group: Root
-# SAUCE Date: 19970403
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Fire Promo by Fractal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0497-fr-fire1
 
 Write-Host '
 [1;30m[0m[36m[0m[37m[0m[1;30m    [0m                      [36m [0;1;30m░[0;36m▄[0;1;36;46m░[0;36m▄ [0m        [34m     [0m     [1;30m [0m [1;30m [0m [36m   [0;1;30m ▄[0;36m▄[0;1;30m▐[0m

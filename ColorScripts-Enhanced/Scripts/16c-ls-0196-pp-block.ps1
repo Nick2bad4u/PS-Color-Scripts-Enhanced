@@ -1,18 +1,4 @@
-﻿# Converted from: PP-BLOCK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ls-0196/raw/PP-BLOCK.ANS
-# Source Revision: archive-sha256:e6338089906901bb9e6aca93a9ff9d6b4fd3db4c216130f5e44c067eeb119651
-# Source SHA-256: 37dda97a518094c54198f987ce6a29f74821669e2eef3882e304312f99876d75
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PP-BLOCK.ANS by phorce phed (leper society); released in ls-0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: blocked escape
-# SAUCE Author: phorce phed
-# SAUCE Group: leper society
-# SAUCE Date: 19960130
-# SAUCE Dimensions: 80x25
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: blocked escape by phorce phed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ls-0196-pp-block
 
 Write-Host '
 [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: NO!L0P.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p06_00/raw/NO!L0P.ANS
-# Source Revision: archive-sha256:3daad9bd70cd9307445d25e1dbbdc4eae498b83379a5b89ecd2ac9419e6150d3
-# Source SHA-256: 56f5f4d48a603a7b009ac9fcc0cda9928ea03557dadb8a0e7d58b74aa5f9eb16
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NO!L0P.ANS by noches (thelo0p); released in l0p06_00 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: lop
-# SAUCE Author: noches
-# SAUCE Group: thelo0p
-# SAUCE Date: 20000419
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: lop by noches | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p06-00-no-l0p
 
 Write-Host '
       [34m                 [0;37m     [0;1;34m,,,, [0m

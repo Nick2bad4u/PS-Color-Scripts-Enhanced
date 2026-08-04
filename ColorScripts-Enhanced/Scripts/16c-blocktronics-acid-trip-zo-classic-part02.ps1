@@ -1,19 +1,4 @@
-﻿# Converted from: zO-Classic.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_acid_trip/raw/zO-Classic.ANS
-# Source Revision: archive-sha256:c0717ff5cb7d462ed7fa9a55edd7235adbd3f09e01132486021497c9281171b6
-# Source SHA-256: 594c3f3e99582c9a081550180db470121b6af9d75dd7b7d14f0a0d80d68b7bf3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zO-Classic.ANS by enzo (blocktronics); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: after hours vintage
-# SAUCE Author: enzo
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x81
-# SAUCE Font: IBM VGA
-# Lines: 40-81
-# Columns: 1-80
+﻿# Artwork: after hours vintage by enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-acid-trip-zo-classic-part02
 
 Write-Host '
 [33m▒█████▀▒ ██▄ [0;1;33;43m▄[0;33m▄[0;1;33;43m▄███████████[0;1;33;47m█[0;1;33;43m███████▄[0;33m█[0;1;33;43m▀[0;33m███[0;1;33;43m▒[0;33m█[0;1;33;43m▄▀[0;33m▀▄[0;1;33;43m▄▄[0;33m▄[0;1;33m▀[0;1;33;43m▄[0m         [33m▄▄ ▀▀[0;37m      [0;33m▒█████▀[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SM-PURG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl199503/raw/SM-PURG.ANS
-# Source Revision: archive-sha256:076dc5f7e8e5935b6779aca5076679253dcd9b76950721d084bd358b3028f504
-# Source SHA-256: 1de39dfb0499915fa38c227539359dcfe73497bef48f07a5dd4b373bb4e387e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-PURG.ANS by Smooth (TekLordZ); released in tl199503 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: PurGaTorY
-# SAUCE Author: Smooth
-# SAUCE Group: TekLordZ
-# SAUCE Date: 19950301
-# SAUCE Dimensions: 80x117
-# Lines: 38-76
-# Columns: 1-80
+﻿# Artwork: PurGaTorY by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl199503-sm-purg-part02
 
 Write-Host '
 [33m [0;1;30;43m░[0m [1;30;40m▐[0m [1;30;43m▓[0;1;30;40m▄[0m [1;30;40m█▒ [0;33m [0;1;30m▄[0;1;33;43m░[0;33m▓▀[0m  [33m▀░█▀▀░ [0m       [31m       [0m     [33m▓▄[0m            [1;30m▓[0m    [1;30m  ▒█[0m [1;30;47m▓[0;1;30;43m▓[0m [1;30;40m▌[0m [1;30;43m░[0m  [34m█[0m

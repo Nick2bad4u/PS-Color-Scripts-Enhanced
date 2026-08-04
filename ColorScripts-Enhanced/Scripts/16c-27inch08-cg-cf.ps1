@@ -1,13 +1,4 @@
-﻿# Converted from: cg-cf.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch08/raw/cg-cf.ans
-# Source Revision: archive-sha256:0b48bbc7b5f5330115fa074e1d04a4fecd4f968dda50aa5ddc10be2f9cdb0f62
-# Source SHA-256: c4225f14a75c7f5a51c25a5e1e6317503f35afb0eb6aedb249fc0ac4ffa18341
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cg-cf.ans by Cryogenic (27inch08); released in 27inch08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: cg-cf.ans by Cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch08-cg-cf
 
 Write-Host '
 

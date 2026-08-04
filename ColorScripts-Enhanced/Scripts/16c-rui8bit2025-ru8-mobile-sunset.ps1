@@ -1,19 +1,4 @@
-﻿# Converted from: ru8-mobile-sunset.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rui8bit2025/raw/ru8-mobile-sunset.ans
-# Source Revision: archive-sha256:db48a01153712164dc1f91228a0ffd1483193514d290c0b5fb4bb0491e0b213f
-# Source SHA-256: 334792be885460cb331a24bb33616b853538bcdefb3cfd79cb438ea3df1fd9b2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ru8-mobile-sunset.ans by Rui8bit (rui8bit2025); released in rui8bit2025 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Mobile Sunset
-# SAUCE Author: Rui8bit
-# SAUCE Date: 20260619
-# SAUCE Dimensions: 80x25
-# SAUCE Font: Custom
-# SAUCE Comments: August 16 2025 | Evoke 2025 - One Screen ANSI Compo
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Mobile Sunset by Rui8bit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rui8bit2025-ru8-mobile-sunset
 
 Write-Host '
   [1;30m   [0m ,;|i|│┼╬╬╬╬╬[44m▓▓▓╬╬;[0;36;44m [0;33;44m.[0;30;44m [0;33;44m=[0;31;44m [0;33;44m=[0;31;44m [0;33;44m=[0;31;44m [0;33;44m≡[0;31;44m [0;33;44m≡[0;1;37;44m [0;33;44m≡[0;1;37;44m [0;33;44m≡[0;1;37;44m [0;33;44mz[0;31;44m [0;33;44mz[0;31;44m [0;33;44mz[0;31;44m [0;33;44mπ[0;31;44m [0;33;44mπ∙π∙z∙[0;30;44m [0;33;44m│║= = ≡ z[0;31;44m [0;33;44mπ │ │=▓≡║≡ ;  [0m

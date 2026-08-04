@@ -1,18 +1,4 @@
-﻿# Converted from: LRY-EGA4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ega-one/raw/LRY-EGA4.ANS
-# Source Revision: archive-sha256:6a85c974a9d93a6c5723067b661851124ae90b1e81eb1a1d35a289b0099b8ffc
-# Source SHA-256: 02d025cde44161c13b7f5c12ed2b2456a29bcf9422dcbdaea45d24c1d2789e35
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LRY-EGA4.ANS by larry (ega); released in ega-one and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: i-ji-ay
-# SAUCE Author: larry
-# SAUCE Group: ega
-# SAUCE Date: 19961014
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: i-ji-ay by larry | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ega-one-lry-ega4
 
 Write-Host '
 [1m             [0m                   [33m ▒▒▄▄▄▄▄▄▄▄[0;1;33;43m▓[0;33m▄[0;1;33;43m ▄█████████████▓█ ▀[0;33m█▀▀▀▀▒▒[0m

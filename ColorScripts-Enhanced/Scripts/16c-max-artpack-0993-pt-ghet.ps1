@@ -1,13 +1,4 @@
-﻿# Converted from: PT-GHET.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/max_artpack_0993/raw/PT-GHET.ANS
-# Source Revision: archive-sha256:250261e60916078b31b5bc328ce4a47e4cdbc4040402838450e308951f6926c9
-# Source SHA-256: 35d91b322a722b2c0ebb4a5c7099e01d83979a734aa463029d70ac8f1c7873eb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PT-GHET.ANS by Pitt (max_artpack_0993); released in max_artpack_0993 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: PT-GHET.ANS by Pitt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-max-artpack-0993-pt-ghet
 
 Write-Host '
                    [35m▄▄████████████▄[0m                       [1;30mThe...[0m

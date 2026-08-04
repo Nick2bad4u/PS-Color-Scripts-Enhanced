@@ -1,18 +1,4 @@
-﻿# Converted from: DD-CHALK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dom-9706/raw/DD-CHALK.ANS
-# Source Revision: archive-sha256:a16d91b4075cff760b5038e2a8f1aab02d1965c9e4bbc85ed187b0405326b9b6
-# Source SHA-256: bc0b84956482e9fed95b30e8e13a535baee2129d271926d58f97cd12301b1f25
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-CHALK.ANS by Deeply D (Domino); released in dom-9706 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Chalk
-# SAUCE Author: Deeply D
-# SAUCE Group: Domino
-# SAUCE Date: 19970605
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Chalk by Deeply D | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dom-9706-dd-chalk
 
 Write-Host '
 

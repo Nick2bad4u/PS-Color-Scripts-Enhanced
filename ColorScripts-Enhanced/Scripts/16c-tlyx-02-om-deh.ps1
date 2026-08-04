@@ -1,18 +1,4 @@
-﻿# Converted from: OM!DEH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tlyx-02/raw/OM!DEH.ANS
-# Source Revision: archive-sha256:5be827fd8360154e102dfb33069eaf59095f4aa613d34e99209bba2cc4af4760
-# Source SHA-256: bd74b6b14991b95c1155d3d53770f0fb73405ed4c894b47b0974b66404b78316
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OM!DEH.ANS by otium man (triloxy/x); released in tlyx-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: de haene
-# SAUCE Author: otium man
-# SAUCE Group: triloxy/x
-# SAUCE Date: 19971231
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: de haene by otium man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tlyx-02-om-deh
 
 Write-Host '
 [36m$$☻☻$$$$$$$$$$$$$$[0;1;36m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;36m$☻☻☻☻☻☻☻$$$$$$$$$$$$$$[0m

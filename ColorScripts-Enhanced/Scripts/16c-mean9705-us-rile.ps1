@@ -1,18 +1,4 @@
-﻿# Converted from: US-RILE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mean9705/raw/US-RILE.ANS
-# Source Revision: archive-sha256:96235d9849bffd6005b05e894c29f6b67b3d4c051090948bf653b689870cae3a
-# Source SHA-256: 3804d74340d05942f76b1ea5d94030d81a31416c82af57f230330ce7facffee1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-RILE.ANS by Alecs + Toot (mean scheme / bm); released in mean9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: rile promotional..
-# SAUCE Author: alecs / toot
-# SAUCE Group: mean scheme / bm
-# SAUCE Date: 19970429
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: rile promotional.. by Alecs + Toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mean9705-us-rile
 
 Write-Host '
                                              [1m  [0m              [33m▄▌░[0;30;43m▓[0m

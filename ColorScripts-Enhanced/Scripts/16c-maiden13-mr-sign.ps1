@@ -1,13 +1,4 @@
-﻿# Converted from: MR-SIGN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden13/raw/MR-SIGN.ANS
-# Source Revision: archive-sha256:70e231ea8653cd02d349f122b1a39f57757322f3913b0c8f20698b54c8795e68
-# Source SHA-256: 7eaa3c4b42f7434740f856f504f01419f641c3aa13bca32d84aa0674388d52ae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-SIGN.ANS by Minotaur (maiden13); released in maiden13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: MR-SIGN.ANS by Minotaur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden13-mr-sign
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: US-SBZ1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0595/raw/US-SBZ1.ANS
-# Source Revision: archive-sha256:1a664cdcc2084e4e5945a0d8fd0224453424a0dd62ea58b8b239525b59199682
-# Source SHA-256: 24bc3042d41dfc48d923ec44c27149e6373bd2bcfc7a3922917d1cbfd84ce459
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SBZ1.ANS by Halaster + Stone The Crow (ACiD Productions); released in acdu0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Sushi Bar Z
-# SAUCE Author: Multiple Artists
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950416
-# SAUCE Dimensions: 80x80
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Sushi Bar Z by Halaster + Stone The Crow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0595-us-sbz1-part01
 
 Write-Host '
  [1;33m▄██░▄████[0;1;33;43m▀[0;1;33m▀[0;1;33;43m▓[0;1;33m█████████████[0;1;33;43m░▀[0;1;33m████▄████████▐████[0;1;33;47m▀▓[0;1;33;43m█[0;1;33m█▌ [0;1;34m▓▀▓▌█▀▓ [0;1;33m■▀[0;1;33;43m▀░[0;1;33m████████▄████▄▓░[0m

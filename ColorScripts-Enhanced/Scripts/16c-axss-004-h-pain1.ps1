@@ -1,18 +1,4 @@
-﻿# Converted from: $H-PAIN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axss-004/raw/%24H-PAIN1.ANS
-# Source Revision: archive-sha256:cc7ca8d7dcd1abdb52246b5cbdcd77ccd4fb36bf9ad0e41c6e03ec1642d8a422
-# Source SHA-256: 62d0cc0d59baa5ae6bf276e0a21be156185b1e97aba1d9bd5a5da7231d8134f1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: $H-PAIN1.ANS by Shinigami (.%.AXss.%. -97); released in axss-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Pain Title Ansi #1
-# SAUCE Author: Shinigami
-# SAUCE Group: .%.AXss.%. -97
-# SAUCE Date: 19970617
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: Pain Title Ansi #1 by Shinigami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axss-004-h-pain1
 
 Write-Host '
 [34m█[0;30;44m■ ▬ .[0;34;40m█▀▀[0;37;40m [0;1;37;40m▄▄▄[0;1;37;47m▄[0;1;37;40m███[0;1;37;47m▓[0;1;37;40m▄▄[0m [34m▀██████[0;30;44m.[0;34;40m██████[0;30;44m■[0;34;40m█████▀▀▀▀██[0;37;40m [0;1;33;40m▄[0;1;33;43m▓[0;1;33;40m [0;34m▀▀[0;37m [0;1;33m▄[0;1;33;43m▓[0m [34m███▀▀▀█████████[0;1;30;44m░░░▒▓███[0m

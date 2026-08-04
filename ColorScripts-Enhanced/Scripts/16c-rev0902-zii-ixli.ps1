@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-IXLI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0902/raw/ZII-IXLI.ANS
-# Source Revision: archive-sha256:8537b7dfc4e56bfe671cea284194fa6f621bcce1f2fa291a7ed7a56a5e107081
-# Source SHA-256: cf81881d60f662c420bf2cd050b686309527c5025d997bc6f86dbea84408b6e1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-IXLI.ANS by Zeus II (Revival); released in rev0902 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Elixir
-# SAUCE Author: Zeus II
-# SAUCE Group: Revival
-# SAUCE Date: 20020915
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Elixir by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0902-zii-ixli
 
 Write-Host '
 [1;33m██[0;1;32;42m██▀▀[0;32m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30m▄▓▓██▀▀[0;31m▄▄█████████[0;1;37;41m  [0;31m█▓▓▓█████▄▄▄▄[0;1;33m▀▀▀▀[0;33m▀▀[0;30;43mrev[0;1;33;43m [0;33m▀▀[0;37m  [0m

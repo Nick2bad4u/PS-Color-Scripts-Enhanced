@@ -1,16 +1,4 @@
-﻿# Converted from: iluvfilth.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_block_n_roll/raw/iluvfilth.ans
-# Source Revision: archive-sha256:7fb236dbe697aa7c8078c3dba58eee322aac93be4dc7fe416e0fcb955a29d4fb
-# Source SHA-256: e23307945489478e91bfd3163b5a781074d4803f126eb76fc57111d02f398263
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: iluvfilth.ans by Tcf (blocktronics_block_n_roll); released in blocktronics_block_n_roll and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 20160421
-# SAUCE Dimensions: 80x153
-# SAUCE Font: IBM VGA
-# Lines: 115-153
-# Columns: 1-80
+﻿# Artwork: iluvfilth.ans by Tcf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-block-n-roll-iluvfilth-part04
 
 Write-Host '
 [1;30m    ▌[0m     [1;30m░░░░  ░░░[0m [1;30m█[0;1;30;47m░[0m     [1;30m█[0m█[1;30;47m░[0m   [1;31m▄█[0m      [1;30m░[0m        [1;36m░[0m [1;36m▓[0m  [1;30m▐[0;1;30;47m▒[0;1;30;40m█[0m [1;30m░[0m  [1;30m░[0m░     [1;30m  [0;1;36m    [0;1;30m░░░░░[0m

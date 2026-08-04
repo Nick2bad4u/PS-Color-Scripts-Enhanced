@@ -1,18 +1,4 @@
-﻿# Converted from: ULT-KOJC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/galza-05/raw/ULT-KOJC.ANS
-# Source Revision: archive-sha256:4c544c859fe8196719e78d388baeebca654c0bf4c268322a26aea98fba351ae5
-# Source SHA-256: d46a4a50d6b91fdfe9d5a9009fa7a40a3f40dfeace7902afc7daca12160caa1c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ULT-KOJC.ANS by Ultimate (Nope ...); released in galza-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Kojc
-# SAUCE Author: Ultimate
-# SAUCE Group: Nope ...
-# SAUCE Date: 19990717
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Kojc by Ultimate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-galza-05-ult-kojc
 
 Write-Host '
         [31m▐[0m       [31m▐[0m      [31m▐[0m     [32m▄[0;37m [0;34m▄[0;30;44m░[0;34;40m▄[0;37;40m [0;34;40m▄[0;1;34;44m▄[0;34m▄ [0;30;44m░[0;34;40m▀[0;37;40m [0;34;40m▀[0;37;40m [0;34;40m`[0m     [33;40m▄▄▀[0m         [37;40m [0m   [33;40m▄░[0;37;40m  [0;33;40m  kojc[0;37;40m [0;33;40m■■[0m

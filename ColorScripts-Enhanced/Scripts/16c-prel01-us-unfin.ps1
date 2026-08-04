@@ -1,13 +1,4 @@
-﻿# Converted from: US-UNFIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/prel01/raw/US-UNFIN.ANS
-# Source Revision: archive-sha256:b6f21d2503843910dbc0e2785e0af82e3d206154f48e594d0de2f51ac64268c2
-# Source SHA-256: 65556726d5c69a83801bc66f36f7596e791da75e8b1075151816dbc030b6359a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-UNFIN.ANS by Arlequin + Enzo (prel01); released in prel01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: US-UNFIN.ANS by Arlequin + Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-prel01-us-unfin
 
 Write-Host '
                                        [1;30m☻☻☻☻[0m

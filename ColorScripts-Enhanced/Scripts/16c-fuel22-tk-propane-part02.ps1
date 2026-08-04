@@ -1,19 +1,4 @@
-﻿# Converted from: tk-propane.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel22/raw/tk-propane.ans
-# Source Revision: archive-sha256:ba169f7927d483c43f833be895de0c289bdb93739fe60d9d716f1c3c01404206
-# Source SHA-256: 1e5f26f3a4c789415fbc86bc1274e7d98ddd088c230d74c26558b2f3d0b22545
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tk-propane.ans by the knight (fuel); released in fuel22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Propane tribute
-# SAUCE Author: the knight
-# SAUCE Group: fuel
-# SAUCE Date: 20170701
-# SAUCE Dimensions: 80x67
-# SAUCE Font: IBM VGA
-# Lines: 36-67
-# Columns: 1-80
+﻿# Artwork: Propane tribute by the knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel22-tk-propane-part02
 
 Write-Host '
 [31m █[0;31;41m [0;1;37;41m░[0;31m█ ██▌  [0;1;37m▐██[0m▌[1m███▄▄▀[0m▀  [1;30m▄▄  [0;1;34m▄   ▓▀[0;34m█ [0;1;37;44m▄[0m▀[1m▀ [0;31m▄▄ ▄  [0;37m■▄[0;1;30m▄▄[0m       [1;33m▀  ▄[0;33m▀ [0;34m▀[0;1;30m■▄  [0;1;34m▀[0;34m▄ [0;1;34m▐    [0;31m░██[0;1;31;41m░[0m

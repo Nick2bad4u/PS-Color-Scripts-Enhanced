@@ -1,13 +1,4 @@
-﻿# Converted from: GB-VECTR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ilsn0993/raw/GB-VECTR.ANS
-# Source Revision: archive-sha256:e7e7c6f73942c5463cc3a2518ebe2afadd1de8982d1fa83f99bde36882861526
-# Source SHA-256: 35443f64dc0bf77cf5fe3e8913a9f631afa847660bd84b7c9bbb66292d852dfb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GB-VECTR.ANS by Gambit (ilsn0993); released in ilsn0993 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 149-198
-# Columns: 1-80
+﻿# Artwork: GB-VECTR.ANS by Gambit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ilsn0993-gb-vectr-part04
 
 Write-Host '
 [1;30;40m█▓▒░  ░▒░░[0;1;33;43m█████▒▒▓▓▒▒██████████████▓▓▒▒░░  ░░▒▒▓▓█████████████▒▒▓▓▒▒███[0;1;30;40m░░▒▓▓▒░░▒[0m

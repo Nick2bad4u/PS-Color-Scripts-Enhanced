@@ -1,17 +1,4 @@
-﻿# Converted from: 4O-OPR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-12/raw/4O-OPR.ANS
-# Source Revision: archive-sha256:5c96c14e912296494a464a42e768321452d811693cf172945a9502eb4396c8bb
-# Source SHA-256: 85b171750f38c0b9cbc4ff7eaf51e3b283d57d5a365c8d42f00c3ca181e17621
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 4O-OPR.ANS by Mr4tune (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Oprah
-# SAUCE Author: Mr4tune
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Oprah by Mr4tune | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-12-4o-opr
 
 Write-Host '
 [1;30m▄▄▄[0m   [35m ▄▄▄[0;1;35m [0;35m▄[0;1;30m▄[0;35m [0;37m  ▀ ▄▀[0;1;37m▄[0;1;36m▄[0;36m▄[0;1;30m▄[0m     [1;30m▄▄ [0;35m▄[0;1;35m▄[0;35m▄ [0;1;30m ▄ [0;35m [0;1;30m▄[0;35m▄[0;1;30m▄[0;35m [0;1;30m▄[0;35m▄▄[0;1;30m▄[0;35m [0m    [35m     [0;37m  [0;1;30m     [0m             ░[30;47m▓[0m

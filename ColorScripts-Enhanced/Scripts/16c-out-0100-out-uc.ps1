@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-UC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0100/raw/OUT-UC.ANS
-# Source Revision: archive-sha256:b701ec7a4e12bfa9cf03c89a6a42fd0cfac46a3c6112e56141c0eb51b1d1de0e
-# Source SHA-256: 2a54133c5707aa3c62dc8a56598ec0e26d41d24ddccae0f2a771573032304a02
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-UC.ANS by Sandy Chidester (out-0100); released in out-0100 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: OUT-UC.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0100-out-uc
 
 Write-Host '
        [1;30m▄ ███████████████████████████████████████████████████████████████████████[0m

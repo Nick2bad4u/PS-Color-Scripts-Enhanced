@@ -1,18 +1,4 @@
-﻿# Converted from: NTR-NORD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/charm04/raw/NTR-NORD.ANS
-# Source Revision: archive-sha256:38d0a431ae1d547659978002dc7674e5ce3d32914d382be08425914443942edd
-# Source SHA-256: afbf825ef9de56668d548fe5e06072e5ce518b9df4af69885b46bc8fd27e2568
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NTR-NORD.ANS by Neurotrance (Charm); released in charm04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Nordic Winds
-# SAUCE Author: Neurotrance
-# SAUCE Group: Charm
-# SAUCE Date: 19971018
-# SAUCE Dimensions: 80x25
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Nordic Winds by Neurotrance | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-charm04-ntr-nord
 
 Write-Host '
                       [34m░░▄▄▄▄▄▄[0m

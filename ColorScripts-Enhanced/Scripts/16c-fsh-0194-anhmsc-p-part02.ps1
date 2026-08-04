@@ -1,13 +1,4 @@
-﻿# Converted from: ANHMSC-P.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsh-0194/raw/ANHMSC-P.ANS
-# Source Revision: archive-sha256:4f9cf4207f71c51dbed4b52f30b4743a8cb21741fbee4cc2672feaf63e827bb5
-# Source SHA-256: f10f0d682df33395c0a24c84a1e8308823e1d2332ea71e19cc798891708b4875
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ANHMSC-P.ANS by Animal + Handyman (fsh-0194); released in fsh-0194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: ANHMSC-P.ANS by Animal + Handyman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsh-0194-anhmsc-p-part02
 
 Write-Host '
         [35m▀██▄▄  [0;37m▀▀[0;37;47m [0;1;37;47m░▒▓[0;1;37;40m▌ [0;1;37;47m░▒▓[0;1;37;40m██▌ █████▌ █████████▌ ██████ ▐██[0;1;37;47m▓▒░[0m [1;37;40m▐[0;1;37;47m▓▓▒[0m█▀▀  [35m▄██▀[0m

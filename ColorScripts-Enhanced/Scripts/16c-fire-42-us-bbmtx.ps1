@@ -1,20 +1,4 @@
-﻿# Converted from: US-BBMTX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-42/raw/US-BBMTX.ANS
-# Source Revision: archive-sha256:5477badab90aaaa6ee2d08aa380254b6982d860b5d0de201e348668cb1eaa063
-# Source SHA-256: 4f5752ca1abef6a8809745af7798493dbf300084b1c63035eb38182bc43b06dd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BBMTX.ANS by Tainted + Savage (fire graphics); released in fire-42 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: bbs menu
-# SAUCE Author: tainted + savage
-# SAUCE Group: fire graphics
-# SAUCE Date: 20250303
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: anyone can use this as a bbs menu.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: bbs menu by Tainted + Savage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-42-us-bbmtx
 
 Write-Host '
 [1;30;40m▄[0;30;46m░[0;36;40m▓▓[0;30;46m░[0;1;30;46m▒▒▒▒▒▀█[0;1;30;40m▓ ░▄    [0;34m▄[0;36;44m▒[0;37;40m  [0;35;40m▒[0;37;40m  [0;35;40m▀▄[0;1;35;40m▄[0;1;30;47m▀[0m▄ [35m■▄[0;1;30m   [0;35m▐[0;37m [0;35m░[0;1;30m▄[0;1;35;47m▀[0;35m▀[0;1;30m ▄▄[0;35m▀[0;1;35;47m█[0;35m▄[0;37m [0;1;35m■▄[0;45m▄[0;35;40m▌▐▌▄▀[0;37;40m  [0;36;40m░[0;1;30;40mtnt_avg▄ ▀▀[0;1;30;46m▓▓▓▓▓▓[0m

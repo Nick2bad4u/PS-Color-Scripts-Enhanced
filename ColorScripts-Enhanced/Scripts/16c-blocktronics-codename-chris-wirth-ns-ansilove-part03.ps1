@@ -1,13 +1,4 @@
-﻿# Converted from: ns-ansilove.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/ns-ansilove.ans
-# Source Revision: archive-sha256:5d665873486ffcf559d33043557e11d7636d0c5a5b53a69dd3e7cf81117997ef
-# Source SHA-256: 24ebc08e922ab148a5d97ae791e0e50f4e08a6084f638342a87a8385e6db160a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ns-ansilove.ans by Ansichrist (blocktronics_codename_chris_wirth); released in blocktronics_codename_chris_wirth and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 79-116
-# Columns: 1-80
+﻿# Artwork: ns-ansilove.ans by Ansichrist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-codename-chris-wirth-ns-ansilove-part03
 
 Write-Host '
 [32m▄[0;1;32;42m▄▓▓░▓▓░[0;32m [0;1;36;46m▀█[0;36m▄[0;1;36;46m█[0;36m█[0;32m [0;1;32;42m▀[0;1;32;40m▌[0;32m ▓▌ [0;37m█[0;1;37;47m░[0m▀▀[1;47m▒[0;31m ▌[0;1;37m▐███▀▀█▌[0;31m▐▌[0;1;37m▄███▀[0;31m ░[0;1;37m▐███[0m [31m [0;1;37m▐████  ▐▄▄▓[0m  [1m▀▀[0;1;47m▄[0;1;40m▄[0m▄ [33m▀▀[0;1;30;43m░▓▓[0;1;30;40m▄[0;33m▀█▄[0m

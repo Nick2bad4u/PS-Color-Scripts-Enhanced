@@ -1,13 +1,4 @@
-﻿# Converted from: LM-TSL.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9401/raw/LM-TSL.ICE
-# Source Revision: archive-sha256:28c2a17c965dec6a0723040e48f9d01daba4f6802cfeb3f3aca86eb658570671
-# Source SHA-256: fd89401c3891e3551ff6fed922f32995998883553404bd3b21f78a72b3f45d49
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LM-TSL.ICE by Lord Mischief (ice-9401); released in ice-9401 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: LM-TSL.ICE by Lord Mischief | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9401-lm-tsl-part01
 
 Write-Host '
                  [31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m                                   [31m▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: SH-EDGE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ilsn0893/raw/SH-EDGE1.ANS
-# Source Revision: archive-sha256:5a1741aaf2f52201cad9b4df9cb8f7ba972c1f74a36fdbcfa0a7b7c7d5068ae1
-# Source SHA-256: adc7f653f8f2ce8c1372e8b1dcb9ed19087f11517d0774535730806906835634
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SH-EDGE1.ANS by Shadow Hawk (ilsn0893); released in ilsn0893 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: SH-EDGE1.ANS by Shadow Hawk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ilsn0893-sh-edge1-part01
 
 Write-Host '
 [31m██████████████████▓▓▒██▒███▀██▀██████▓▓▓██▒▓███████▒▓██▀▀████████▒▓▒███████▓▒███[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: TX-LOGOF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0996/raw/TX-LOGOF.ANS
-# Source Revision: archive-sha256:de1a4e1b3b8504644e3a073d9996f185c42e41f64ec42e4fefdea03b2b3748fe
-# Source SHA-256: 0d5bfa44b5c872dc04f963ad98c15f2544c6aa817924160a48dbf04d3cc59c0b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TX-LOGOF.ANS by Tektronix (bmb-0996); released in bmb-0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: TX-LOGOF.ANS by Tektronix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0996-tx-logof
 
 Write-Host '
 

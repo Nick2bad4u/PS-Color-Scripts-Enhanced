@@ -1,18 +1,4 @@
-﻿# Converted from: NT-IESUS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/legend05/raw/NT-IESUS.ANS
-# Source Revision: archive-sha256:693e0268d5578f2cd30935d50ffe8ddf259a0ccec6578a3c57e07131424b77ec
-# Source SHA-256: 7ffe0234edeaef29caa3f32f8382be46bac729638c4da50326120af4d5a66471
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NT-IESUS.ANS by nootropic (iesus); released in legend05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: iesus promotion/crucifixion
-# SAUCE Author: nootropic
-# SAUCE Group: iesus
-# SAUCE Date: 19951116
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: iesus promotion/crucifixion by nootropic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-legend05-nt-iesus
 
 Write-Host '
 [31mnootropic/i[0;33me[0;1;33ms[0;33mu[0;31ms ascii ,,ssSSSS$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$≥$$$$$$$[0m

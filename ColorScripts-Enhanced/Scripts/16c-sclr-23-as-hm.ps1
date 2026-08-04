@@ -1,13 +1,4 @@
-﻿# Converted from: AS-HM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-23/raw/AS-HM.ANS
-# Source Revision: archive-sha256:001e60eb10e2a23c2ce07529300008b1b52bfedd66745e5a81f4ef41bf459a2a
-# Source SHA-256: 64addfd08e4c8b0c757cb4ab7c5d5c5a8b43d8619487a63bac37a82556fcd300
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AS-HM.ANS by Asd (sclr-23); released in sclr-23 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: AS-HM.ANS by Asd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-23-as-hm
 
 Write-Host '
 [1;37;46m$$[0;1;36;40m$$$$$$$$$$$$$$$$$├$$$├$/*;lii%;[0;37;40m                                               [0m

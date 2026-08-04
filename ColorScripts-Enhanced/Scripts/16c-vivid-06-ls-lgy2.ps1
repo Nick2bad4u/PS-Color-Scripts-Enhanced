@@ -1,13 +1,4 @@
-﻿# Converted from: LS-LGY2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vivid-06/raw/LS-LGY2.ANS
-# Source Revision: archive-sha256:eb7158285639fda51d38bef1d92b05e49135992ee44799a2cc8fc319da551b4f
-# Source SHA-256: a489513b38b9cd65bc75220ff67c2e210d3fc89db6307286bff8e05831e1b5d4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LS-LGY2.ANS by Lord Sith (vivid-06); released in vivid-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: LS-LGY2.ANS by Lord Sith | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vivid-06-ls-lgy2
 
 Write-Host '
                               [1m█████████████[0m

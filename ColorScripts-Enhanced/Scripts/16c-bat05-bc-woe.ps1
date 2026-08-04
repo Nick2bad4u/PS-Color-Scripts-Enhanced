@@ -1,17 +1,4 @@
-﻿# Converted from: BC-WOE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bat05/raw/BC-WOE.ANS
-# Source Revision: archive-sha256:c1082e0417753715d0b89831e0230f9ac3baf3aab6c8a1f382615ebce2ab409a
-# Source SHA-256: a766ef6b3c83467fb34a4b37bfc87d8a465feb962104b1d6f4702c86cc51506c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BC-WOE.ANS by beeyacH! (bat05); released in bat05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: wasted@opfuscated%evolution%%xx
-# SAUCE Author: beeyacH!
-# SAUCE Date: 19970120
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: wasted@opfuscated%evolution%%xx by beeyacH! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bat05-bc-woe
 
 Write-Host '
                       ▌

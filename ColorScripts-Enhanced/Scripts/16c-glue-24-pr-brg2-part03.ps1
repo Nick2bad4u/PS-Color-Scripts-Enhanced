@@ -1,17 +1,4 @@
-﻿# Converted from: pr-brg2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-24/raw/pr-brg2.ans
-# Source Revision: archive-sha256:4ba1f499e1a6e81bad8d23a49c9f592b52fb39aaf053093edda57035a78ff770
-# Source SHA-256: 5d711577bfaa33e6d4a4cc1dbd3d85b9b7511a75e31e8261171951fe096c21ee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: pr-brg2.ans by propane (glue-24); released in glue-24 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: borgasm #2
-# SAUCE Author: propane
-# SAUCE Date: 19990730
-# SAUCE Dimensions: 80x167
-# Lines: 84-125
-# Columns: 1-80
+﻿# Artwork: borgasm #2 by propane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-24-pr-brg2-part03
 
 Write-Host '
 [33m░░░░ [0;36m [0;1;37m▄ [0;1;30;47m▒▒[0m██▄[1;30m █▓▒░ [0m          ▐[1;47m▓[0m▌ [1;30m▄[0m▓▓▄ ▄  ▄▓█[1;47m░[0m▒░  ▄ ▄▄▄█[1;30;47m▒▒▒░[0m█ ▀██[1;47m░░[0m█████████░▒██[1;30;47m░[0m

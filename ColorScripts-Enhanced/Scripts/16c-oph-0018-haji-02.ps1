@@ -1,17 +1,4 @@
-﻿# Converted from: HAJI-02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oph-0018/raw/HAJI-02.ANS
-# Source Revision: archive-sha256:b78bc978b69dedfb9a07152cba296ecefc97611bd7bc7f5211d489ff748613dc
-# Source SHA-256: 6cf2f1109ed5c1cd0c5fae004370e4bcd123bee1b4e9efbafe8ec5d22905f3e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HAJI-02.ANS by haji (oph-0018); released in oph-0018 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: __[[[[[[[[[\\\        _[[2_ 0
-# SAUCE Author: haji
-# SAUCE Date: 19960917
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: __[[[[[[[[[\\\ _[[2_ 0 by haji | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oph-0018-haji-02
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: US-AWE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-01/raw/US-AWE.ANS
-# Source Revision: archive-sha256:c4f943c9f8f5c49a2aabdd3612f9f26bd1b04de18aa8de6e38c69a3051111537
-# Source SHA-256: 7dfc3687684842433f7e90687594fad382887512a0ae5e67eff5063d8824c293
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-AWE.ANS by Ize + Drynwhyl (nerp); released in nerp-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: awe-promo
-# SAUCE Author: drynwhyl/ize
-# SAUCE Group: nerp
-# SAUCE Date: 19970718
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: awe-promo by Ize + Drynwhyl | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-01-us-awe
 
 Write-Host '
 

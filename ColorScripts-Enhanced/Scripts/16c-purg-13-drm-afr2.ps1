@@ -1,13 +1,4 @@
-﻿# Converted from: DRM-AFR2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-13/raw/DRM-AFR2.ANS
-# Source Revision: archive-sha256:c96e8204cdf1a3103513e07eb0d1ba369137dfc5e9ab833b936ceec1296a9193
-# Source SHA-256: b3779f1a0517c3227b836a5daaab6b6f6c1b252c8dc882712e799f52bfd15ea4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DRM-AFR2.ANS by Dorm (purg-13); released in purg-13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: DRM-AFR2.ANS by Dorm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-13-drm-afr2
 
 Write-Host '
                               [1;33m▄▄▄▄▄▄▄▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: HB-ALIEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist2yr1/raw/HB-ALIEN.ANS
-# Source Revision: archive-sha256:dfb163381a7a05007552a68525e5d3039ad18b3101b731021ee8569cee86eda1
-# Source SHA-256: f5982ea4f3144a3348420143d92dbdcf1664c37c3c50258754a6f66184af8094
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HB-ALIEN.ANS by Handiboy (MiSTiGRiS); released in mist2yr1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Mistigris - Out of this World!
-# SAUCE Author: Handiboy
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19960926
-# SAUCE Dimensions: 80x25
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: Mistigris - Out of this World! by Handiboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist2yr1-hb-alien
 
 Write-Host '
 [1mhandiboy(tm)[0m                                [1;33m▄[0m         [1;33m▄▄ ▄▀[0;1;31m▄[0;1;31;41m▒▓▓[0;1;31;40m█████▄[0m

@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-BSUN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-39/raw/ZIR-BSUN.ANS
-# Source Revision: archive-sha256:5e57507ce34170a4afb707b1587800d0885fae4776f1271b7b7cee7f71264d9d
-# Source SHA-256: 628d5d78b4121097d24ea99b0ae229c240f2beb4f9ff21b878468b788000e6ad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-BSUN.ANS by zir (Fire); released in fire-39 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Black Sun
-# SAUCE Author: zir
-# SAUCE Group: Fire
-# SAUCE Date: 20240303
-# SAUCE Dimensions: 80x58
-# SAUCE Font: IBM VGA
-# SAUCE Comments: we are a landscape of all we have seen.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Black Sun by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-39-zir-bsun-part01
 
 Write-Host '
 [37;40m [0;1;30;40m                          [0m                                       [1;30m             [0m

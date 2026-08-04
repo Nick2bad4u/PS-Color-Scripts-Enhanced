@@ -1,18 +1,4 @@
-﻿# Converted from: CP_BUTTX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense13/raw/CP_BUTTX.ANS
-# Source Revision: archive-sha256:b0563618478d6216eb6bd83ff569d789b2e87f637bf95d7f88699f5b40df3192
-# Source SHA-256: cf6313d289e8d48b0b2d4ac1d29b88aa04185f17f0da00df19a038c0f4913b7c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CP_BUTTX.ANS by cyberphreak (sense); released in sense13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: buttocks
-# SAUCE Author: cyberphreak
-# SAUCE Group: sense
-# SAUCE Date: 19980826
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: buttocks by cyberphreak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense13-cp-buttx
 
 Write-Host '
 [1;30m ░░[0m   [1;30m▐█▄█▀██▀▀ [0m         [1;30m▀█▄█▀  ▄▄▄▄██▄▄██▄▄█▀█▄▄  ▄███▄[0m  [31m░[0m      [1;30m▀▀██▀█▀▀[0m   CP!

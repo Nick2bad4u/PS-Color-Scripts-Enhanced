@@ -1,18 +1,4 @@
-﻿# Converted from: TI-3031.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9702a/raw/TI-3031.ICE
-# Source Revision: archive-sha256:540831d4e1a356189219ffbceaa28d97157e006639aca48afc56a145bd0d4c8c
-# Source SHA-256: 2d5cc621e331e628ad9d2f45b7838596f1a76d15530c951c0f7103874fdc6ac5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TI-3031.ICE by trip (iCE Advertisements); released in ice9702a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Login 303
-# SAUCE Author: trip
-# SAUCE Group: iCE Advertisements
-# SAUCE Date: 19970226
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Login 303 by trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9702a-ti-3031
 
 Write-Host '
           [34m░[0;37m [0;34m░░▒▒[0m   [1;30m▄▄[0m     [36m▄[0;1;32m▄▄[0;1;37m▄[0;1;32m▄▄[0;36m▄[0;1;32m  [0;36m ▄[0;1;32m▄▄[0;1;37m▄[0;1;32m▄[0;36m▄[0;1;32m     [0;36m▄[0;1;32m▄▄[0;1;37m▄▄[0;1;32m▄▄[0;36m▄[0m      [34m░[0;1;32m  [0;34m░░░[0m

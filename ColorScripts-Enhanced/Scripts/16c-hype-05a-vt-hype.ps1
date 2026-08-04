@@ -1,17 +1,4 @@
-﻿# Converted from: VT-HYPE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-05a/raw/VT-HYPE.ANS
-# Source Revision: archive-sha256:60e974debb2c53c16c4636763f36d313ae3236ca17347fcb32045fc9aeba992a
-# Source SHA-256: 0fbf17dd54c47d40c924189afe6520601030d44dc5cf96f18779a885dce6e270
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VT-HYPE.ANS by Venturus (Hype Inc.); released in hype-05a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: " Hype Promo Logo "
-# SAUCE Author: Venturus
-# SAUCE Group: Hype Inc.
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: " Hype Promo Logo " by Venturus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-05a-vt-hype
 
 Write-Host '
                                      [35m   [0;37m [0;1;35;45m▄[0;35m▄▄[0;1;35;45m░▄▓[0;35m▀[0m           [37m ░[0;30;47m▓[0m

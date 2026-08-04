@@ -1,18 +1,4 @@
-﻿# Converted from: NN-BPD2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9605/raw/NN-BPD2.ANS
-# Source Revision: archive-sha256:644a8b90a5c5ec724e95ecee326ed183bff05e759113d75234577c85289317dc
-# Source SHA-256: bac5943edd511ad53ace42ae06ff2402baf1b7986b4301b73900563e43b1431c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NN-BPD2.ANS by neo negro (blade productions); released in blde9605 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: biproducts!?!
-# SAUCE Author: neo negro
-# SAUCE Group: blade productions
-# SAUCE Date: 19960331
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: biproducts!?! by neo negro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9605-nn-bpd2
 
 Write-Host '
           [1;33m░[0m [1;30mi[0mi[1min[0mn[1;30mn[0;1;37m [0;1;30mt[0mt[1mthe[0me[1;30me c[0mc[1mcity[0my[1;30my[0m   [1;30m░[0m                        [36m░░▄[0;1;36m▄▄▄░░[0m

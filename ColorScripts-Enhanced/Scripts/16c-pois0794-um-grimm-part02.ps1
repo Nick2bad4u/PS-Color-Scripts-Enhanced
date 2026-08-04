@@ -1,13 +1,4 @@
-﻿# Converted from: UM-GRIMM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pois0794/raw/UM-GRIMM.ANS
-# Source Revision: archive-sha256:c73f6cc44f7d0666cb4f0f21afd62d9cd43ec95b2ac0c7437c4f9b4b088746b2
-# Source SHA-256: 666e01d8232eb51085be672813486f9e50d04ee290ae69956e6f4f9417e4f593
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UM-GRIMM.ANS by Umbro (pois0794); released in pois0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: UM-GRIMM.ANS by Umbro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pois0794-um-grimm-part02
 
 Write-Host '
 [1;37;47m░▒▓[0;1;37;40m███  [0;1;36;46m░▒▓[0;1;36;40m████▀▀ [0;1;37;47m░▒▓[0;1;37;40m███████████████▀▌[0;1;37;47m▒[0;1;37;40m█████████████████[0;1;37;47m▓▒░[0m [1;37;40m▀█████▄ [0;36m█ ███  [0;36;47m▓▒░[0m

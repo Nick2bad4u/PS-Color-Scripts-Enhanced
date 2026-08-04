@@ -1,15 +1,4 @@
-﻿# Converted from: NSP-PH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rage0896/raw/NSP-PH.ANS
-# Source Revision: archive-sha256:e67cf9c4e2c6eb15648a3739a157b7ef37dad009189f0c35f257941ec580c4a8
-# Source SHA-256: a4edb71131707321caa7c0597993f2874f422900fddc7c3beb94e398704b632f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NSP-PH.ANS by Nosperato (rage0896); released in rage0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 19960814
-# SAUCE Dimensions: 80x44
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: NSP-PH.ANS by Nosperato | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rage0896-nsp-ph
 
 Write-Host '
 [1m                              [0;32m▄[0;1;37m [0;32m▀▄▄▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SMP-NEWM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flg01/raw/SMP-NEWM.ANS
-# Source Revision: archive-sha256:562ebcaad20a0b2a8b7b107f134b5be6ba5f067cf297f19839a81e7c0eee3352
-# Source SHA-256: fd12185e2bdfafaf04e429dd7166830b550273ca0b168e8f5907d75ca7fa8477
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-NEWM.ANS by Shrimp (Foliage); released in flg01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: "NEW" (mail?)
-# SAUCE Author: Shrimp
-# SAUCE Group: Foliage
-# SAUCE Date: 20010701
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: "NEW" (mail?) by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flg01-smp-newm
 
 Write-Host '
          ▄▄[1;47m  [0m█▀▀              ▐[1;47m ▄▄[0m█                               ▄▄▄██[1;47m▀[0m██▀▀▀

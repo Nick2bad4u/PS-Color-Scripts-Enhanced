@@ -1,13 +1,4 @@
-﻿# Converted from: NT-SABO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/3c6-open/raw/NT-SABO.ANS
-# Source Revision: archive-sha256:48a057a32817733445ae90a1c66b8604c10e555e1293348fc9c323a6f73930f4
-# Source SHA-256: d4f30f7149576fcc8fcb9a1dab659c45ad688314e710c4969e9e071e500d52df
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NT-SABO.ANS by Nootropic (3c6-open); released in 3c6-open and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: NT-SABO.ANS by Nootropic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-3c6-open-nt-sabo
 
 Write-Host '
 [31mn e w t[0;37m [0;31m*[0;37m [0;31m   [0m              [31m░[0m                                 [31m▄░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: WO-NL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toon0995/raw/WO-NL.ANS
-# Source Revision: archive-sha256:02c0858ccb65f788003d1baa20212382f5d5979442b6fda9c8793eaaadf48a11
-# Source SHA-256: 1bbfd409afd2fd282b2831a21d938107ce47e30f7e4150e97f17d584a1dd151d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WO-NL.ANS by Wat0r + Narcosis (toon); released in toon0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: neverland ad
-# SAUCE Author: watOr/narcosis
-# SAUCE Group: toon
-# SAUCE Date: 19950823
-# SAUCE Dimensions: 80x106
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: neverland ad by Wat0r + Narcosis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toon0995-wo-nl-part01
 
 Write-Host '
 

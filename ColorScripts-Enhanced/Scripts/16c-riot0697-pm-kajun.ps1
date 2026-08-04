@@ -1,13 +1,4 @@
-﻿# Converted from: PM-KAJUN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot0697/raw/PM-KAJUN.ANS
-# Source Revision: archive-sha256:cd8b6827004edaee3756929e0cbb3d0ec5efd33f1ee3e0394a0ebbb56fa3c6b7
-# Source SHA-256: 6b4481ef8e191f567161b13db5058303f5283a997d3dd3dd8751b8309aae1f39
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-KAJUN.ANS by Precious Metal (riot0697); released in riot0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: PM-KAJUN.ANS by Precious Metal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot0697-pm-kajun
 
 Write-Host '
 [1;35m,[0m                                                                 [1;33m [0m

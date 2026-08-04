@@ -1,19 +1,4 @@
-﻿# Converted from: CL!-CL!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-44/raw/CL!-CL!.ANS
-# Source Revision: archive-sha256:6c51508cedeaa9140fcf08750a75edb14e0cec0eebe7b4290346e95cd3548876
-# Source SHA-256: 9d773cf4305856d900fc9cd4967e480d02663bcbf0819c0d9e9d0470d82d5e56
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-CL!.ANS by Cleaner (Fire); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Cleaner
-# SAUCE Author: Cleaner
-# SAUCE Group: Fire
-# SAUCE Date: 20251111
-# SAUCE Dimensions: 80x29
-# SAUCE Font: IBM VGA
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Cleaner by Cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-44-cl-cl
 
 Write-Host '
 

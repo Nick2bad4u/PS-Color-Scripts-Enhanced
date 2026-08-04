@@ -1,18 +1,4 @@
-﻿# Converted from: L7-TS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dkrew-06/raw/L7-TS1.ANS
-# Source Revision: archive-sha256:02960d7b88668b8887fe5cdf52da355c2d3dd37bf140c876abc30817d0d21bdb
-# Source SHA-256: c0469bc3286a39885e6abd1c74195129f5c19b936fafdc7c956b2577d8df934e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: L7-TS1.ANS by Lancelot (Dead Krew); released in dkrew-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: tha s0urce.
-# SAUCE Author: Lancelot
-# SAUCE Group: Dead Krew
-# SAUCE Date: 19970408
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: tha s0urce. by Lancelot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dkrew-06-l7-ts1
 
 Write-Host '
                        [1;30m░[0m                   [1;30m░[0m

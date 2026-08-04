@@ -1,13 +1,4 @@
-﻿# Converted from: NOH-DNA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dna0397/raw/NOH-DNA.ANS
-# Source Revision: archive-sha256:e1a4a5668c5ecdfaceffae094b291f77d84772de2eb8e1772dc5072c38cdc6bb
-# Source SHA-256: 42e9c6d95e4f96ca60d7594d4a390069a5a6ab8f77427765303e53b103271484
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-DNA.ANS by Noah (dna0397); released in dna0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: NOH-DNA.ANS by Noah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dna0397-noh-dna
 
 Write-Host '
                                   [35m   -n[0;30;45mO[0;35;40mah![0m

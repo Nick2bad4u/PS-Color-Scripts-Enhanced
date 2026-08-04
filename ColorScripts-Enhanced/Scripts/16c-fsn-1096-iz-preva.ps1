@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-PREVA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-1096/raw/IZ-PREVA.ANS
-# Source Revision: archive-sha256:56cf270ca2ee7a92e0d4d66d5887e29752c7c199e9629aac9f429015d003259b
-# Source SHA-256: 7cfad6442c0fc209eaab2a68cf922f9061f0b8c3fac2e640012a9ede6db03440
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-PREVA.ANS by ize (eclipse); released in fsn-1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: prevail
-# SAUCE Author: ize
-# SAUCE Group: eclipse
-# SAUCE Date: 19960823
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: prevail by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-1096-iz-preva
 
 Write-Host '
 

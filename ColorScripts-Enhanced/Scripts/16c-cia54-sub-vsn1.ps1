@@ -1,17 +1,4 @@
-﻿# Converted from: SUB-VSN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cia54/raw/SUB-VSN1.ANS
-# Source Revision: archive-sha256:9b7b685b524341694e840bb32e23e0ecbdd87901428d1485320cda27f9079201
-# Source SHA-256: eef28223a32e14ea10b0714552f3f771a56a68f2deecaae43a026d2880930cbc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SUB-VSN1.ANS by subsonic (cia54); released in cia54 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: vision bbsoftware
-# SAUCE Author: subsonic
-# SAUCE Date: 19980602
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: vision bbsoftware by subsonic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cia54-sub-vsn1
 
 Write-Host '
 [33m░░[0;1;31m   [0;33m▄▌[0;1;31m   [0;33m▄[0;1;31m▄▄[0;1;31;43m▒[0;33m▀[0;1;31m  [0;33m▄[0;1;31m▄[0;1;31;43m▄[0;1;31;40m█[0;1;31;43m▓░[0;1;31;40m▄[0;33m▄[0;1;31m  [0;33m▀[0;1;31;43m░[0;1;31;40m▄▄[0;33m▄[0;1;31m   [0;33m▐▄[0;1;31m [0m    [1;30m      [0m

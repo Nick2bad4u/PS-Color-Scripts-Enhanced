@@ -1,18 +1,4 @@
-﻿# Converted from: KTR-CLUS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oops_a05/raw/KTR-CLUS.ANS
-# Source Revision: archive-sha256:cff76c9dd5d3c699dbbd8fb0832eac5d62706a3d9db1909416fdb97b45ddb91f
-# Source SHA-256: dc52d8b72348e2b10de0c7d4055a87656690c89b89aa2d6483f5005ba80b5ce4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KTR-CLUS.ANS by keetar (oops!a); released in oops_a05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: cluster #1 in oOps
-# SAUCE Author: keetar
-# SAUCE Group: oops!a
-# SAUCE Date: 19970608
-# SAUCE Dimensions: 80x104
-# Lines: 27-70
-# Columns: 1-80
+﻿# Artwork: cluster #1 in oOps by keetar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oops-a05-ktr-clus-part02
 
 Write-Host '
                               [1;32;46m [0;1;36;40m  [0;1;32;40m [0;32m  [0;37m                             [0m

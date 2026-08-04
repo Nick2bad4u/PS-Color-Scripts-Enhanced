@@ -1,19 +1,4 @@
-﻿# Converted from: us-jesus.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz21/raw/us-jesus.ans
-# Source Revision: archive-sha256:daa0e008ccfccc8179e0635097f8fe4a46a32781b45bbd86ff6e4505514c9e6d
-# Source SHA-256: df99548f9d6a4516cfcce056daf21f69b2b76297bf08280dbb1e71cde212e1a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-jesus.ans by Warpus + Lucaslink (LAZARUS); released in laz21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Sanitize your balls
-# SAUCE Author: lucaslink & warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20260428
-# SAUCE Dimensions: 80x192
-# SAUCE Font: IBM VGA
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Sanitize your balls by Warpus + Lucaslink | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz21-us-jesus-part02
 
 Write-Host '
   [1;30m▄▄██▀▀▀▀▀█▀[0m  [1;30m▄▓[0m [1;30m▄▄▄▓▄▀▀▄▀[0m             [1m▀██▀[0m [1m█▌  ▐██▄[0;1;30;107m▄[0m [30m▌[0;1;37m▐███[0;1;30;107m▄[0;1m████[0;1;30;107m▄[0m  [1m██▄▄▄[0;1;30;107m▄[0m

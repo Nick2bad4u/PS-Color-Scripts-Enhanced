@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-FMSH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0499/raw/BYM-FMSH.ANS
-# Source Revision: archive-sha256:ea9f0e992f2e19fb60599694860938ab492c8ddcb42b1500d338ba65bfe40cd6
-# Source SHA-256: 11a11b0b253fe8f74cfed2b8b60c8b12f13a29bfaf10ea0e87eac0ea25d36f06
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-FMSH.ANS by superbym (poffelipoff); released in plf-0499 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fSOL - Mutated Mushrooms
-# SAUCE Author: superbym
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19990417
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: fSOL - Mutated Mushrooms by superbym | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0499-bym-fmsh
 
 Write-Host '
 [36mbym ([0;1;30m([0;1;37mplf[0;1;30m)[0;36m)[0;33m░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m▒[0;30;43m▒[0;33;40m▒[0;30;43m▒[0;33;40m▒[0;30;43m▒[0;33;40m▒▓[0;30;43m░░[0;33;40m▓[0;30;43m░[0;33;40m▓▓[0;30;43m░[0;33;40m▓[0;30;43m░[0;33;40m▓[0;30;43m░[0;33;40m▓[0;30;43m░[0;33;40m▓▒[0;30;43m▒[0;33;40m▒[0;30;43m▒[0;33;40m▒[0;30;43m▒[0;33;40m▒[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;33;40m░[0;37;40m   [0;1;30;40m░░[0m   [1;30m▄▓▀▀[0m  [1;30m▄▄▄▄▄▌[0m [1;30m▄▄[0m

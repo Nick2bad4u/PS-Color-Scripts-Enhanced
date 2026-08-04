@@ -1,15 +1,4 @@
-﻿# Converted from: GULP-04.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/joint05/raw/GULP-04.ANS
-# Source Revision: archive-sha256:7a1e0a617dfc2b504898f6fcd613c850545acc0ed676f782574405b258e76a5c
-# Source SHA-256: d819f53fdfaf067c98504b7c677d713da21c5dd3d0ea9a5ac6ca832f8c8f4d8c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GULP-04.ANS by The Joint (joint05); released in joint05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 19960814
-# SAUCE Dimensions: 80x49
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: GULP-04.ANS by The Joint | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-joint05-gulp-04
 
 Write-Host '
     [35m▄█████████████████████████████████████████████████████████▌[0m   [1;36m██████████ ███[0m

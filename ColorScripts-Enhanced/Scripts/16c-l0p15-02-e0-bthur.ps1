@@ -1,18 +1,4 @@
-﻿# Converted from: E0-BTHUR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p15_02/raw/E0-BTHUR.ANS
-# Source Revision: archive-sha256:98af459b28622f71926ec0978595c2eef1c464109b7a29af23f37cbdb732273f
-# Source SHA-256: b4bea9386970227f7f7426e7a0849be61306588fd2103996d1e5685336b95978
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: E0-BTHUR.ANS by Enzo (GLUE); released in l0p15_02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Black Thursday 25lns
-# SAUCE Author: Enzo
-# SAUCE Group: GLUE
-# SAUCE Date: 20020114
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Black Thursday 25lns by Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p15-02-e0-bthur
 
 Write-Host '
  [1;30menzo!glue[0m [34m▀██████████[0;1;30m▄[0;34m███████▓▓▓▓██████████████████████████▓▓▓███████████████▀█[0m

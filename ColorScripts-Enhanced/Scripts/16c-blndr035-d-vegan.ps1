@@ -1,13 +1,4 @@
-﻿# Converted from: D-VEGAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr035/raw/D-VEGAN.ANS
-# Source Revision: archive-sha256:4eb0a261a1b2f7406d31d19c582006671393eb313e18c4f0e541b7603902d95a
-# Source SHA-256: b380ce1a5d4a7bb10589f5e94a8211b2de56114f73b6d6a77639782407e8cc9e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D-VEGAN.ANS by Deepsome (blndr035); released in blndr035 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: D-VEGAN.ANS by Deepsome | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr035-d-vegan
 
 Write-Host '
                   ▄

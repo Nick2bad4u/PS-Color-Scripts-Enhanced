@@ -1,18 +1,4 @@
-﻿# Converted from: SMI-ROC!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roc-best/raw/SMI-ROC!.ANS
-# Source Revision: archive-sha256:ed2172be4f351fbbe490297eada190fa8af16bee5a8ce8834dea50cd318904c2
-# Source SHA-256: eef155fbf6be5d0bbb411ecc49a2ec2b18f560028746aaf7937d223bea076c49
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMI-ROC!.ANS by Samauri (ROC); released in roc-best and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ROC for thought
-# SAUCE Author: Samauri
-# SAUCE Group: ROC
-# SAUCE Date: 19951219
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: ROC for thought by Samauri | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roc-best-smi-roc
 
 Write-Host '
                           [36m▄▓▀▀▀▄[0m

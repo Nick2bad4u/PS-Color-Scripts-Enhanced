@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-FF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook15/raw/AVE-FF.ANS
-# Source Revision: archive-sha256:e54ebc8c52f8d9379c31843d1a642e9eaaf309656353be720cf874920f543492
-# Source SHA-256: fb568ee83a34b20738a99569da5105bc411f43496649d3ad8c2326b39ce32211
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-FF.ANS by avenger (black maiden); released in bmbook15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: funfair
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19971107
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: funfair by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook15-ave-ff
 
 Write-Host '
 [1;36m▀▀▀[0;36m▀[0;33m  [0;1;30m▄[0;33m▄▄▄▄▄▄▄[0;1;30;43m▀[0;33m███[0;37;43m   ▄▄▄[0;33;40m█[0;37;43m░░░░[0;33;40m███[0;37;43m  [0;1;31;43m░░▓▓███[0;1;31;47m▓▓▓[0;1;31;43m▌[0;33m [0;37m  [0;1;30m▐[0;1;30;43m▌[0;1;31;43m▐[0;1;31;47m▄[0;33m▌[0;37m  [0;33m ▀▀[0;37m  [0;34m▄[0;37m  [0;34m▀[0;37m  [0;31m▐████████████[0m

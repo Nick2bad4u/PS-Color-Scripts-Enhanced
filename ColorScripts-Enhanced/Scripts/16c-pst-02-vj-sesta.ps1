@@ -1,19 +1,4 @@
-﻿# Converted from: VJ-SESTA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pst-02/raw/VJ-SESTA.ANS
-# Source Revision: archive-sha256:c06bf63142fd5a3f0f0d963ec3d47ae1a48131ca67fbda73aeeb1c0250d9a0a8
-# Source SHA-256: 0ad8fde1c53b4cd53e205f20a812bbbd5e652fe097523440879dbc4ec6171e5a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VJ-SESTA.ANS by El V~jino! (org%nic); released in pst-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: mmm, nachos...
-# SAUCE Author: El V~jino!
-# SAUCE Group: org%nic
-# SAUCE Date: 19971125
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: deathstroke, fellow ex-sick member.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: mmm, nachos... by El V~jino! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pst-02-vj-sesta
 
 Write-Host '
                                                          [1;30m▄▄▀▀▀▀▀▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: DA-MIST2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0996/raw/DA-MIST2.ANS
-# Source Revision: archive-sha256:8abd8647133005714ffab2308276ec71c00b6785faf62f83eebc46ad2810851b
-# Source SHA-256: 3b7f29b645b10096cbe5e9441aa3bb3fc2048995e1b0604b960e293fe8988e8f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DA-MIST2.ANS by dash (MiSTiGRiS); released in mist0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: untitled
-# SAUCE Author: dash
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19960908
-# SAUCE Dimensions: 80x25
-# Lines: 31-51
-# Columns: 1-80
+﻿# Artwork: untitled by dash | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0996-da-mist2-part02
 
 Write-Host '
               [1;30m▄▄[0m [1;30m▀  ▄▄[0m   [1;30m ▀▀▀▓▄▄▄██▀▀[0m    [1;30m░▀[0m [1;30m▄▄▄▄███[0;1;30;46m▓▓[0;1;36;40m▓▄[0;1;37;40m▄[0m       [1;30m▄▄[0;1;30;46m▓[0;36m▄[0;1;30m [0m     [1;30m  [0m   [1;30m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: BK-LOGIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ega-one/raw/BK-LOGIN.ANS
-# Source Revision: archive-sha256:6a85c974a9d93a6c5723067b661851124ae90b1e81eb1a1d35a289b0099b8ffc
-# Source SHA-256: 88ba3b3027dee0a9303adf4014275f8c0bc73e4d19e05bcb2f4ca95e83cca00d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BK-LOGIN.ANS by bk (EGArtists); released in ega-one and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: prototype login matrix
-# SAUCE Author: bk
-# SAUCE Group: EGArtists
-# SAUCE Date: 19961204
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: prototype login matrix by bk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ega-one-bk-login
 
 Write-Host '
 [1m────────────────────────────────────────────────────────────────────────────────[0m

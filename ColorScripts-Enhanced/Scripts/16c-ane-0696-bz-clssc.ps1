@@ -1,18 +1,4 @@
-﻿# Converted from: BZ-CLSSC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ane-0696/raw/BZ-CLSSC.ANS
-# Source Revision: archive-sha256:d749d6dfb1aa7099bfe8de2fa9928647cd0fee95bf1e9f28d13d3a4e290eafb8
-# Source SHA-256: ecb25d0a6861ab8877a9b9469f4e607e70e0308693423f32cc6ef8378db96983
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BZ-CLSSC.ANS by Blatz (.;:Anemia:;.); released in ane-0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Classic
-# SAUCE Author: Blatz
-# SAUCE Group: .;:Anemia:;.
-# SAUCE Date: 19960602
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Classic by Blatz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ane-0696-bz-clssc
 
 Write-Host '
         [32m▄[0;37m  [0;32m▀[0;37m  [0;32m■[0m                 [32m▄[0m                                       [36m▄[0m

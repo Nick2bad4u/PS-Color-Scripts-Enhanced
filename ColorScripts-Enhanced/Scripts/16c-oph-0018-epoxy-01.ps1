@@ -1,17 +1,4 @@
-﻿# Converted from: EPOXY-01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oph-0018/raw/EPOXY-01.ANS
-# Source Revision: archive-sha256:b78bc978b69dedfb9a07152cba296ecefc97611bd7bc7f5211d489ff748613dc
-# Source SHA-256: 29a3ec94e0285c2ef0e070531f52baaffd4dd1d174f4988364f083fb46552b01
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EPOXY-01.ANS by dieznyik (oph-0018); released in oph-0018 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 0_[[\]                [
-# SAUCE Author: dieznyik
-# SAUCE Date: 19960917
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: 0_[[\] [ by dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oph-0018-epoxy-01
 
 Write-Host '
 [31m[0m[1;32m[0;32m[0m[31m    [0;37m      [0m   [1;37m   [0m   ▄  ▄[1m▄▄[0;1;47m▄▓[0;1;40m█[0;1;47m██▄[0;1;40m▄▄[0m                                         [31m   [0m

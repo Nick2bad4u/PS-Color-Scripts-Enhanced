@@ -1,17 +1,4 @@
-﻿# Converted from: CZ-DNK6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-11/raw/CZ-DNK6.ANS
-# Source Revision: archive-sha256:124f5de71b4943d1edf363ae27ec83def11b741938d7ad78955f12dc3ea0753e
-# Source SHA-256: 1df84c490e0f9ff9bd522f722d3fc3e5e66eade1b133a7966a7ef3b37a341f8f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CZ-DNK6.ANS by cheezoid (elk lips); released in ecl-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: doink menuset..
-# SAUCE Author: cheezoid
-# SAUCE Group: elk lips
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: doink menuset.. by cheezoid | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-11-cz-dnk6
 
 Write-Host '
              [1m  [0m [33m▄▄[0;1;31;43m▒▒▓[0;1;31;40m▄▄[0;33m▄[0m                                                     [36m▄▄[0m

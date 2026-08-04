@@ -1,18 +1,4 @@
-﻿# Converted from: MR-2DWND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0696/raw/MR-2DWND.ANS
-# Source Revision: archive-sha256:236a7fb0a93235d8f2e65905276d126bcc0373b294a0bdfc5818d6b91f477e07
-# Source SHA-256: 638fa8a4412a93a8b4a4ffb7758a2184bd43f0e2d06f1881c411e3e224534f18
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-2DWND.ANS by Mithrandir ([Quad-P]); released in quad0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Second Wind
-# SAUCE Author: Mithrandir
-# SAUCE Group: [Quad-P]
-# SAUCE Date: 19960508
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Second Wind by Mithrandir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0696-mr-2dwnd
 
 Write-Host '
                                                                               mr

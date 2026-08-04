@@ -1,18 +1,4 @@
-﻿# Converted from: US-TEA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-17/raw/US-TEA.ANS
-# Source Revision: archive-sha256:8236759fde5db8ee2caeed4c8b472252ce9b47375d97816d78339cb82ea8285c
-# Source SHA-256: 0f28d3def97649954453534fdd7397d70c712107e0b6e8c611f4277bc7837cde
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TEA.ANS by Spear + Lemon1zer (groep 3); released in eco-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: tea!
-# SAUCE Author: spear lemon
-# SAUCE Group: groep 3
-# SAUCE Date: 19991230
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: tea! by Spear + Lemon1zer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-17-us-tea
 
 Write-Host '
              [32m [0m           [32m [0m                    [32m▀▀▀▓[0m           [32m▄▄▀[0m     [32m▐[0m    [32m    [0m

@@ -1,17 +1,4 @@
-﻿# Converted from: US-911.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fx-9810/raw/US-911.ANS
-# Source Revision: archive-sha256:8699e9dee530b0ca1bb07b183c24516071948d01a47b624b6ce2468389bc6106
-# Source SHA-256: d3ac50f746b3f6efbb775f911e2567d781f0c75efcd8f01bb5b65741c6d66ae5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-911.ANS by Kleenex + Quip (Function); released in fx-9810 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 911
-# SAUCE Author: Kleenex / Quip
-# SAUCE Group: Function
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: 911 by Kleenex + Quip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fx-9810-us-911
 
 Write-Host '
                                          ▄[1;30;47m▀[0;1;30;40m░[0m ▄▄[1;30m [0m

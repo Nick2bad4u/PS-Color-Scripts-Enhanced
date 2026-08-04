@@ -1,18 +1,4 @@
-﻿# Converted from: HW-LOST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wbt-0195/raw/HW-LOST.ANS
-# Source Revision: archive-sha256:796665d63839084a3e064ad6d02fdcac454fe856d0c61a26a4030285b18917b6
-# Source SHA-256: a1aa0878c5f6b46bef9047d7082cf6e7dfe7305da78fb555d51aa8e285149f63
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HW-LOST.ANS by Heat Wave (WBT/SHiVER); released in wbt-0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Lost Realms
-# SAUCE Author: Heat Wave
-# SAUCE Group: WBT/SHiVER
-# SAUCE Date: 19941230
-# SAUCE Dimensions: 80x184
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: The Lost Realms by Heat Wave | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wbt-0195-hw-lost-part01
 
 Write-Host '
 [1;30m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: tsk-abth.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz14/raw/tsk-abth.ans
-# Source Revision: archive-sha256:41b4e3770fbffb058172283f3da2aa00e47c872480cf93fdef94629ebc0751bb
-# Source SHA-256: 9598f078600eff1771b57b027a704470379bf5b23c00175473e5928924f42cef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tsk-abth.ans by The Silent Killer (LAZARUS); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Absinthe
-# SAUCE Author: The Silent Killer
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20211213
-# SAUCE Dimensions: 80x33
-# SAUCE Font: IBM VGA
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Absinthe by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz14-tsk-abth
 
 Write-Host '
 

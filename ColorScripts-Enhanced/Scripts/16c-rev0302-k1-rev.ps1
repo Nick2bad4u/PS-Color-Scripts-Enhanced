@@ -1,18 +1,4 @@
-﻿# Converted from: K1-REV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0302/raw/K1-REV.ANS
-# Source Revision: archive-sha256:7b2619e0400d7382d19d38767873337eae71942dd319abc1998c71f4a968776f
-# Source SHA-256: c5d31c8ab5d0de9f6e340494a510a5212af4267f548d14cb8bced6a3177d30b0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K1-REV.ANS by knocturnal (Revival Guest); released in rev0302 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: REVival
-# SAUCE Author: knocturnal
-# SAUCE Group: Revival Guest
-# SAUCE Date: 20020303
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: REVival by knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0302-k1-rev
 
 Write-Host '
 [31m░░[0;30;41m▓[0m         [31;40m░[0;30;41m▓[0;31;40m░░[0m   [31;40m░░░[0;30;41m▓[0;31;40m░░[0;30;41m▓[0;31;40m░[0;30;41m▓▓[0;31;40m░░░[0;37;40m [0m                [31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;37;40m [0m          [31;40m ░░░░[0;30;41m▓[0;31;40m░░[0;30;41m▓[0;31;40m░[0;30;41m▓▓[0;31;40m░░░[0m

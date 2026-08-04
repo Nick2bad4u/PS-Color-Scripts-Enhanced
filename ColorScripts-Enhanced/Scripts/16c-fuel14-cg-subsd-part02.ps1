@@ -1,18 +1,4 @@
-﻿# Converted from: CG-SUBSD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel14/raw/CG-SUBSD.ANS
-# Source Revision: archive-sha256:5ee61a0e94a8eed583658335c026a1a037023d44b54da693bbed2c0844c1a5d9
-# Source SHA-256: d1c970258b7d2c2136ef12b8c7782e94196402f96ebb90a0bd8213999d9d1084
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-SUBSD.ANS by cool guy (fuel); released in fuel14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: subsonic dream
-# SAUCE Author: cool guy
-# SAUCE Group: fuel
-# SAUCE Date: 19970630
-# SAUCE Dimensions: 80x25
-# Lines: 24-73
-# Columns: 1-80
+﻿# Artwork: subsonic dream by cool guy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel14-cg-subsd-part02
 
 Write-Host '
                                   [1;30m           [0m                       [1;30m░░[0m

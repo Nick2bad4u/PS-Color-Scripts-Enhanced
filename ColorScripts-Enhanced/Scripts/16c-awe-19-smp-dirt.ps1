@@ -1,18 +1,4 @@
-﻿# Converted from: SMP-DIRT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-19/raw/SMP-DIRT.ANS
-# Source Revision: archive-sha256:db429aaaa9cca2e4296dcb178b9b345b980b5c7d6fe930188ea53fede20ed269
-# Source SHA-256: 1b7e14092272c02c3d42141a6a499fff604d72e462bd33a23b28f801246403a3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-DIRT.ANS by Shrimp (AWE Lettering); released in awe-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Dirt 1983
-# SAUCE Author: Shrimp
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981128
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Dirt 1983 by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-19-smp-dirt
 
 Write-Host '
       [1m   [0m             [35m [0;37m [0m                   [1;37m░[0m

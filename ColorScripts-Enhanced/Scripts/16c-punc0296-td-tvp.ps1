@@ -1,18 +1,4 @@
-﻿# Converted from: TD-TVP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/punc0296/raw/TD-TVP.ANS
-# Source Revision: archive-sha256:77d6380aea8b73102d5ce9e69ab9b838bbcd43d090ae7f9819e27ef3026ed31a
-# Source SHA-256: 8e1c2219615dfd20d429f5ab4b83d7db23e7fe64dde2b658297d72b580484da1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TD-TVP.ANS by totally destroyed (PUNC Productions); released in punc0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the venom pit
-# SAUCE Author: totally destroyed
-# SAUCE Group: PUNC Productions
-# SAUCE Date: 19960103
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: the venom pit by totally destroyed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-punc0296-td-tvp
 
 Write-Host '
                [31m■[0m                            [31m▄▄▒[0m                  [31m■[0m

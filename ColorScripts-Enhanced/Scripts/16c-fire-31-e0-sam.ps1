@@ -1,18 +1,4 @@
-﻿# Converted from: E0-SAM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-31/raw/E0-SAM.ANS
-# Source Revision: archive-sha256:8ec9de63ebab4839fae3766646855fbe86c549f130cb0d4a0235476e83b6fdbb
-# Source SHA-256: e9d578dfdc201962d7c6b324e16b6cfcecae71b0a4431d3d5c377755df294024
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: E0-SAM.ANS by Enzo (Fire Graphics 1998); released in fire-31 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ordeal Shivers Matrix
-# SAUCE Author: Enzo
-# SAUCE Group: Fire Graphics 1998
-# SAUCE Date: 19980109
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Ordeal Shivers Matrix by Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-31-e0-sam
 
 Write-Host '
  [1;33menzo[0;31mFIRE[0m     [1;37m▄[0m            [1m▄[0m [1m▄[0m      [1m  ▄[0m              [1m▄[0m       [1m [0m    [1m▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: SG-NUV1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9605a/raw/SG-NUV1.ICE
-# Source Revision: archive-sha256:cf7acb12a0ec01e1383bf24c3c45a68bc55fde8f0e38cd56180a1936aa9f8089
-# Source SHA-256: 833c490a87358677d4a561077879e92431ca2af94f65d3b996680259423141d9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SG-NUV1.ICE by Snake Grunger (ice9605a); released in ice9605a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: SG-NUV1.ICE by Snake Grunger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9605a-sg-nuv1
 
 Write-Host '
 [36m▀[0;37m  [0;36m▄▄[0;37m  [0;36m▀[0;37m [0;36m▄[0;37m [0;1;30m▀▄[0m    [36m▄▄[0;1;36;46m▄[0;36m▀[0;1;36m▀[0m  [36m▄▄[0;1;36;46m▄▄▀[0;1;36;40m▀[0m [36m▄▄[0;1;36m▄[0;1;36;46m▄▄▄▄[0;1;36;40m▄[0;36m▄▄[0;37m          ▀█[0;1;37;47m▄▄▄[0m█▀     ▄   New User

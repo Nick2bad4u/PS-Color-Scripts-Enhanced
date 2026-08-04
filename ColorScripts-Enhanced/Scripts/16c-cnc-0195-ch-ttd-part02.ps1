@@ -1,18 +1,4 @@
-﻿# Converted from: CH-TTD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cnc-0195/raw/CH-TTD.ANS
-# Source Revision: archive-sha256:fb5f0d8136b669bad79b7195c04259375af2a316626926955937d778427b4c81
-# Source SHA-256: 175c3363ad09ad3e9f061748be5544b2b4402cc429689cf2e623f30b2881109f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CH-TTD.ANS by Coolhand (CaNCeR Productions); released in cnc-0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Thrid Dimension
-# SAUCE Author: Coolhand
-# SAUCE Group: CaNCeR Productions
-# SAUCE Date: 19941112
-# SAUCE Dimensions: 80x25
-# Lines: 47-95
-# Columns: 1-80
+﻿# Artwork: The Thrid Dimension by Coolhand | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cnc-0195-ch-ttd-part02
 
 Write-Host '
 [31m████████████████████▀▀▀[0m [1;37m▄▄█[0m      [33m▄▄▄[0m      [1;37m█▄▄[0m [31m▀▀▀██████████████████████████████[0m

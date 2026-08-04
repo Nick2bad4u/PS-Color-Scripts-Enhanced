@@ -1,13 +1,4 @@
-﻿# Converted from: FR-SPIN.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9806a/raw/FR-SPIN.ICE
-# Source Revision: archive-sha256:524ec7f60d659858021eef8de88812e1da638f649a7b04888d3bf3401ec852f4
-# Source SHA-256: 688d7a332f182eba4a80587a77547d29a044d3779145d96fa51f81ac7f879125
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FR-SPIN.ICE by Fractal (ice9806a); released in ice9806a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: FR-SPIN.ICE by Fractal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9806a-fr-spin
 
 Write-Host '
 [1;30m             [0m

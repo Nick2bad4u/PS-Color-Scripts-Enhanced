@@ -1,13 +1,4 @@
-﻿# Converted from: GM-SANTA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mind-02/raw/GM-SANTA.ANS
-# Source Revision: archive-sha256:336942d90c7d4a8a5d48a1d714dba36408dbb8fda0df26c31b6ee265f0764c7c
-# Source SHA-256: bc3784b0807cdc4ece99890d3d267f83cafcaee781baa7a764133ce4394d75f5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GM-SANTA.ANS by G-Man (mind-02); released in mind-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: GM-SANTA.ANS by G-Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mind-02-gm-santa
 
 Write-Host '
                  [1;30m│[0m                          [1;36m∙[0m       [34m∙[0m        [34m∙    [0;1;34m∙[0m      [34m∙[0m

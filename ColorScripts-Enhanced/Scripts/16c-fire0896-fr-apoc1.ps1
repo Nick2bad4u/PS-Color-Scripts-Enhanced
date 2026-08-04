@@ -1,18 +1,4 @@
-﻿# Converted from: FR-APOC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0896/raw/FR-APOC1.ANS
-# Source Revision: archive-sha256:f9cf2b2d2bbd2b43295b2db0288f290749703458f413700d0129369379a58bf6
-# Source SHA-256: c5b8b7b0bb7daa57d0a1b55a2bcd7202756b080b8c8c782d7d6f432f2656bc9b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FR-APOC1.ANS by Fractal (fire); released in fire0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Apocalypse
-# SAUCE Author: Fractal
-# SAUCE Group: fire
-# SAUCE Date: 19960801
-# SAUCE Dimensions: 80x25
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Apocalypse by Fractal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0896-fr-apoc1
 
 Write-Host '
 [1;31;45ma[0;1;35;40mp[0;35mo[0;1;30mcalypse! [0;1;37m┐[0;1;30m   [0;34m■▄[0;33m [0;30;47m▀[0;1;30;47m░[0;30;47m▄▐█▄[0;1;30;47m▒░[0m▀[33m▄[0;30;43m░[0;1;31;43m░[0;33m▄▄[0;1;31m [0;30;47m██[0;33;40m▀▀▀[0;1;31;40m▀█[0;33m▄[0;30;47m█[0;33;40m▀▀▀[0;1;31;43m░▀████▓▓[0;1;31;40m▄▀▀[0;1;31;43m▓[0;1;31;40m████[0;1;31;45m▓▓[0;1;31;46m█[0;1;31;40m██[0;1;31;43m▓▄[0;1;31;40m▄[0;33m▄▄▄▄ -fr!#[0m

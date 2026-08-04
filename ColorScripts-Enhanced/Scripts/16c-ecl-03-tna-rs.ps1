@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-RS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-03/raw/TNA-RS.ANS
-# Source Revision: archive-sha256:8478e7ed47e52d1e07bf55e17a5f105ced4b468c6f56a8b59fd6b8ef8dada5ca
-# Source SHA-256: f85cc780f6992ca96bddd61a44accc76cc67c195c4acf506440cace3ab65d29e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-RS.ANS by TNA (eclipse); released in ecl-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: rare soma
-# SAUCE Author: TNA
-# SAUCE Group: eclipse
-# SAUCE Date: 19960708
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: rare soma by TNA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-03-tna-rs
 
 Write-Host '
 

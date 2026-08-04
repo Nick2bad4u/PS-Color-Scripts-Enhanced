@@ -1,13 +1,4 @@
-﻿# Converted from: FD-FB.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9402/raw/FD-FB.ICE
-# Source Revision: archive-sha256:542a55b371fcf2e1b6ce730207fe668cc74b9fc898d3341dc11812e6d7a4ac5c
-# Source SHA-256: 1472b967e18b801814e87c2ac7f3a74296097b5f7ae4f313b0dbce03a6a8fc89
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FD-FB.ICE by Final Descendant (ice-9402); released in ice-9402 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: FD-FB.ICE by Final Descendant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9402-fd-fb-part01
 
 Write-Host '
 [36m████████▌███████████████████████▌ ███████████████████████████████████████ ██████[0m

@@ -2,7 +2,27 @@ remote_theme: pages-themes/hacker@v0.2.0
 title: PowerShell ColorScripts Enhanced
 author: Nick2bad4u
 description: PowerShell ColorScripts Enhanced by Typpi / Nick2bad4u
-url: "https://nick2bad4u.github.io/ps-color-scripts-enhanced/" # the base hostname & protocol for your site
+url: "https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/" # the base hostname & protocol for your site
+exclude:
+    - .coverage/
+    - .github/
+    - .playwright-cli/
+    - .vscode/
+    - ColorScripts-Enhanced/
+    - Tests/
+    - assets/ansi-files/
+    - assets/oversized-colorscripts/
+    - assets/unused-ansi-files/
+    - assets/unused-colorscripts/
+    - audit/
+    - dist/
+    - node_modules/
+    - scripts/
+    - temp/
+    - types/
+    - coverage.xml
+    - package-lock.json
+    - testResults.xml
 plugins:
     - jekyll-sitemap
     - jekyll-seo-tag

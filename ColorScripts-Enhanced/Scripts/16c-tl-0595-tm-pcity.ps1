@@ -1,18 +1,4 @@
-﻿# Converted from: TM-PCITY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl-0595/raw/TM-PCITY.ANS
-# Source Revision: archive-sha256:2a9ee1147d1683e4f1f557167c86371c5059e003792efbebaea013640a85da25
-# Source SHA-256: 8d9cee49cebf28c66c6e7e7b6fc28a13e5f431f10710a97791e62d8db0cb465a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TM-PCITY.ANS by Tyme (TekLordZ); released in tl-0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Psycho City
-# SAUCE Author: Tyme
-# SAUCE Group: TekLordZ
-# SAUCE Date: 19950422
-# SAUCE Dimensions: 80x25
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Psycho City by Tyme | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl-0595-tm-pcity
 
 Write-Host '
 [1;30mtm.TL[0m

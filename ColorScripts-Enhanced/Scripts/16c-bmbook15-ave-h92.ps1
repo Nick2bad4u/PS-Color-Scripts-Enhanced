@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-H92.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook15/raw/AVE-H92.ANS
-# Source Revision: archive-sha256:e54ebc8c52f8d9379c31843d1a642e9eaaf309656353be720cf874920f543492
-# Source SHA-256: 2a57ff5829835a348dd42291b8dc1e1fac95a4e4aaddc5e450012b7a914aee82
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-H92.ANS by avenger (black maiden); released in bmbook15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: dv8:"looks like a painting :)"
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19971107
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: dv8:"looks like a painting :)" by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook15-ave-h92
 
 Write-Host '
         [33m░[0;37m  [0;31m█▀[0;35m▀▀[0m                                [31m ░▀▀▀▀▀▀[0;1;33;41m░[0m

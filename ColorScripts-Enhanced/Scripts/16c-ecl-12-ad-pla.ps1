@@ -1,13 +1,4 @@
-﻿# Converted from: AD-PLA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-12/raw/AD-PLA.ANS
-# Source Revision: archive-sha256:142ca35013108598f53c6b981a53c9f0d214dbe5d5c2b3c0b3f344634e1bb321
-# Source SHA-256: c7fbae167fb178c2f32e8dc6106e9d4e9838836b99c1703a7c585d248a162050
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AD-PLA.ANS by Armageddon Donut (ecl-12); released in ecl-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: AD-PLA.ANS by Armageddon Donut | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-12-ad-pla
 
 Write-Host '
 [34m▄[0;1;34m▄[0;34m░[0;37m [0;34m▄[0;1;34m▄[0;34m░░[0;37m [0;34m▄[0m               [34m░[0m       [34m░░[0m   [1;34m▄[0;34m░░[0;1;34m▄[0;34m▄▐[0;1;34m▄[0;34m▄▄▄[0;1;34m [0m

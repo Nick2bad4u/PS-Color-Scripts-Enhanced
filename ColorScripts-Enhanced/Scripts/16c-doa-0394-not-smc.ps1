@@ -1,13 +1,4 @@
-﻿# Converted from: NOT-SMC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/doa-0394/raw/NOT-SMC.ANS
-# Source Revision: archive-sha256:6acb1d2eee51624338f0056aad11c28c9c4b1d2c458b96e9f37f1242e05022c9
-# Source SHA-256: b995f846860764fb635e3e91dd54456b1ae496997c34f673482497ca720961a6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOT-SMC.ANS by Anubis-Doa (doa-0394); released in doa-0394 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: NOT-SMC.ANS by Anubis-Doa | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-doa-0394-not-smc
 
 Write-Host '
       [31m██████[0;1;31m███████████████[0;31m██[0m                   [31m██[0;1;31m██[0m

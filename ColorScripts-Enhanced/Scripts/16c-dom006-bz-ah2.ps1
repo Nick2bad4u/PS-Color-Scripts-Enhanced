@@ -1,18 +1,4 @@
-﻿# Converted from: BZ_AH2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dom006/raw/BZ_AH2.ANS
-# Source Revision: archive-sha256:93a6b412f9e9adf4c6092c8d46992a7a1423cd1a7b58c863faad8b32ddf2ce2e
-# Source SHA-256: f2d795e7e8c5dc3960b6ae5ffeffa9a7fa51eb028a45ee02ecd0d5934a19edde
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BZ_AH2.ANS by booze (dOminio); released in dom006 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Alien Hideout!
-# SAUCE Author: booze
-# SAUCE Group: dOminio
-# SAUCE Date: 19980731
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Alien Hideout! by booze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dom006-bz-ah2
 
 Write-Host '
                [31m▀▀▀▀█[0;1;37;41m▄[0;1;31;41m▌[0;31m▌[0m                                 [37m  [0m       [37m           [0m

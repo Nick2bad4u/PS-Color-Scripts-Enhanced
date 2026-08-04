@@ -1,18 +1,4 @@
-﻿# Converted from: ESS!VASC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-001/raw/ESS!VASC.ANS
-# Source Revision: archive-sha256:7435b1c9938dec461ab33b42b3dd164ea7e98ecfff30ea4d3df5a8e59194b0a3
-# Source SHA-256: 31a3b28842a018afdc697dff1b689edd3feb9c9b16bb82d7024e23b2dbc534f5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ESS!VASC.ANS by Essence (rARE!ASCii); released in rare-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Install Screen
-# SAUCE Author: Essence
-# SAUCE Group: rARE!ASCii
-# SAUCE Date: 19980305
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Install Screen by Essence | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-001-ess-vasc
 
 Write-Host '
 [1;30;46m  [0;30;46m                        ⌐ [0;1;32;46m                         [0;30;46m     [0;37;46m  [0;30;46m                   [0;1;32;46m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: CH-EDEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-09/raw/CH-EDEN.ANS
-# Source Revision: archive-sha256:8f5fcd1678373443015d83aabdf7e9d41b4206834fe497657921c1a7c6792304
-# Source SHA-256: 6b917c34ccd076304113040dbd8ec97cdd2b622e44fe406d2d3b29eb4803be70
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CH-EDEN.ANS by Cypher Hex (ACiD Productions); released in rmrs-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Eden
-# SAUCE Author: Cypher Hex
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19970305
-# SAUCE Dimensions: 80x14
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: Eden by Cypher Hex | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-09-ch-eden
 
 Write-Host '
 

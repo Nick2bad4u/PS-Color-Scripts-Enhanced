@@ -1,18 +1,4 @@
-﻿# Converted from: MI-BURN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/burn0996/raw/MI-BURN.ANS
-# Source Revision: archive-sha256:1d0613dc7d765beb82132eb272a2b52814aed11a76720323c6b2b8307b2d07bf
-# Source SHA-256: a2b2d99b9b72171d4b5844d0749888209ebb99d3ad16bbf5266adab13894224c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MI-BURN.ANS by racerx (burn); released in burn0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: burn distro site logo
-# SAUCE Author: racerx
-# SAUCE Group: burn
-# SAUCE Date: 19960828
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: burn distro site logo by racerx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-burn0996-mi-burn
 
 Write-Host '
        [1;30m░[0m                               [1;30m░[0m

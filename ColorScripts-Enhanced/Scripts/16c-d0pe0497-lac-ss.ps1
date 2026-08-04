@@ -1,18 +1,4 @@
-﻿# Converted from: LAC-SS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d0pe0497/raw/LAC-SS.ANS
-# Source Revision: archive-sha256:a220e98301d64a5ed6ff83d56b491a9548bfbee0f6442b6e0e312609842035d6
-# Source SHA-256: 2071cef04223ad0e48316e149e38a29d7c3864eacd600be51255c25b315ffc7c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LAC-SS.ANS by lacaid (dope); released in d0pe0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: sick society
-# SAUCE Author: lacaid
-# SAUCE Group: dope
-# SAUCE Date: 19970414
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: sick society by lacaid | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d0pe0497-lac-ss
 
 Write-Host '
 

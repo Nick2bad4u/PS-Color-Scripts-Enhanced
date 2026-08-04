@@ -1,18 +1,4 @@
-﻿# Converted from: DD-FRT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe02/raw/DD-FRT.ANS
-# Source Revision: archive-sha256:ce5cd736ecea3fcfef2c1df40ab4bdd995f6b633f97f1788244355f98c5d174e
-# Source SHA-256: 1a3bf5ce992bbbfd82a63af1c7909a39abefdb3c915f9942bcbd48e15e8491f6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-FRT.ANS by Diamond Darrell (Circe); released in circe02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Feretro
-# SAUCE Author: Diamond Darrell
-# SAUCE Group: Circe
-# SAUCE Date: 19971204
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: Feretro by Diamond Darrell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe02-dd-frt
 
 Write-Host '
                  [1;36m ▄▄[0m                               [1;36m▄▄▄▄▄▄▄ [0m

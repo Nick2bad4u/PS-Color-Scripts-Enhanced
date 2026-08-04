@@ -1,13 +1,4 @@
-﻿# Converted from: HIREZ1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hrp-6/raw/HIREZ1.ANS
-# Source Revision: raw-sha256:13f2176da192745dc333009a7b7e5b2e0749fdf423dc7739792db030884db312
-# Source SHA-256: 13f2176da192745dc333009a7b7e5b2e0749fdf423dc7739792db030884db312
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HIREZ1.ANS by Axeman (hrp-6); released in hrp-6 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: HIREZ1.ANS by Axeman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hrp-6-hirez1
 
 Write-Host '
 

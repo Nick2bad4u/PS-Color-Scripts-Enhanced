@@ -1,19 +1,4 @@
-﻿# Converted from: tk-flashpinguin.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel27/raw/tk-flashpinguin.ans
-# Source Revision: raw-sha256:1affad3dd79e77b832fd0e435fd7638357d9ce18cc80d14d3f3d1dec5bc274a5
-# Source SHA-256: 1affad3dd79e77b832fd0e435fd7638357d9ce18cc80d14d3f3d1dec5bc274a5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tk-flashpinguin.ans by The Knight (Fuel); released in fuel27 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Pinguino at Flash Party
-# SAUCE Author: The Knight
-# SAUCE Group: Fuel
-# SAUCE Date: 20180914
-# SAUCE Dimensions: 80x99
-# SAUCE Font: IBM VGA
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Pinguino at Flash Party by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel27-tk-flashpinguin-part01
 
 Write-Host '
 

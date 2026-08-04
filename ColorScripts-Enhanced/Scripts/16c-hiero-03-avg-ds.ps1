@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-DS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-03/raw/AVG-DS.ANS
-# Source Revision: archive-sha256:c463d41d9ae381f389778dd35b1d3ac7d9b856c30aea0076774f44c539a72586
-# Source SHA-256: 61bbc146c9f3d26e1cefd3385da4edb1bb8ffd041b96d52ebb5c4db0dd934651
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-DS.ANS by Avenging Angel (Hieroglyphics); released in hiero-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Dark Sorrow
-# SAUCE Author: Avenging Angel
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20001013
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Dark Sorrow by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-03-avg-ds
 
 Write-Host '
 

@@ -1,17 +1,4 @@
-﻿# Converted from: LT-FREEC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9707/raw/LT-FREEC.ANS
-# Source Revision: archive-sha256:718ad2b08b14a24156d1af86433f0063bd9bba178c290c317100b8e5ffb3939c
-# Source SHA-256: 0e3bfce6f9e06f5c8aee9d5ffb57d197a3480032a3e489ab3638adc5b3a3e019
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LT-FREEC.ANS by Looney Toon (AWE Lettering); released in awe9707 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Free Coke
-# SAUCE Author: Looney Toon
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Free Coke by Looney Toon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9707-lt-freec
 
 Write-Host '
                                                                 [36m▄[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: MM-EARTHUSER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/MM-EARTHUSER.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: bbefb02581f92a4556357658749a0191a5834e82fe38a9ea88a28054b54927a6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-EARTHUSER.ANS by Mavenmob (Mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Earth User Guide
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241228
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Earth User Guide by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-mm-earthuser
 
 Write-Host '
 [1m☻☻☻[0;1;36m☻☻[0;1;37m☻[0;36m☻☻☻[0;37m░░[0;1;30m·[0;30m%[0;1;30m··[0;30m%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%[0;1;30m··[0;30m%[0;1;30m·······[0;30m%%%%%%%%%%%%%%%%%%%%%%[0m

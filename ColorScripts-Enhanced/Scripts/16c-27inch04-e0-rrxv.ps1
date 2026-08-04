@@ -1,13 +1,4 @@
-﻿# Converted from: E0-RRXV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch04/raw/E0-RRXV.ANS
-# Source Revision: archive-sha256:1ff59d7215f327fe805e7a12f73fa812b3e44a09fac051830103bca1228d4cf1
-# Source SHA-256: 1db972abffbb8119b9d03875088f3033f61526767a442c64efc12c1a48aa9e9d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: E0-RRXV.ANS by Enzo (27inch04); released in 27inch04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: E0-RRXV.ANS by Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch04-e0-rrxv
 
 Write-Host '
      [1;30m░░░▓██[0;1;30;47m [0;1;37;47m▀[0;1;30;47m  ░░░▓[0;1;30;40m████▓▓▓[0;33m ▄[0;1;31;43m▄█[0;1;31;47m▄█▀▀[0;1;31;43m███▄[0;33m▄▀[0;1;31;43m▀[0;1;31;40m▓▓▓[0;1;31;43m███▀[0;1;31;40m▀[0;33m▀▄▄[0;1;31;43m▄███[0;1;31;47m▀▀[0;1;31;43m█▄[0;1;31;40m▄[0;33m▄[0;1;30m▀[0;33m▀█▓▓▀▄[0;1;31;43m▄██[0;1;31;47m▄▄ █[0;1;31;43m▄[0;33m▄ [0;1;30m▓[0m

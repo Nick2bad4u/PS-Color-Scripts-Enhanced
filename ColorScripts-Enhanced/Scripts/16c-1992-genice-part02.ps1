@@ -1,13 +1,4 @@
-﻿# Converted from: GENICE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1992/raw/GENICE.ANS
-# Source Revision: archive-sha256:408f6102282b4b4f582d319af7c00d0c1a49a9b89d70dc7754d4cd44f475f4fb
-# Source SHA-256: 21fdfcf9dc32c90fe926577239a469121654160e79d0ea994225995ca8cc89c5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GENICE.ANS by Genesis (1992); released in 1992 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 43-84
-# Columns: 1-80
+﻿# Artwork: GENICE.ANS by Genesis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1992-genice-part02
 
 Write-Host '
               [1;34m▐[0;1;34;44m▓[0;34m▐ [0;35m▓█████████████████████████████████▌████████████▌░[0;34m▌[0m

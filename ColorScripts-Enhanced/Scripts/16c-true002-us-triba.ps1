@@ -1,13 +1,4 @@
-﻿# Converted from: US-TRIBA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/true002/raw/US-TRIBA.ANS
-# Source Revision: archive-sha256:eae4b42a95be4666d43a7b83cb2897371a7ac35e1b51266a7c31f6bc74a68027
-# Source SHA-256: 33c7c6ff5c7f9660c05ab7f42cfe9cbbc42fd81b48c9fe2f1dbb8db33ab97dad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TRIBA.ANS by Vapor + Polygon (true002); released in true002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: US-TRIBA.ANS by Vapor + Polygon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-true002-us-triba
 
 Write-Host '
     ___________________________________________________________________________

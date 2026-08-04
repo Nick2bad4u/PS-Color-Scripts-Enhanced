@@ -1,18 +1,4 @@
-﻿# Converted from: CO-STULT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0296/raw/CO-STULT.ANS
-# Source Revision: archive-sha256:06e6dc5afce1ee45051e2bc9293c259c32e010fc92f42b6c050d6f2242a1670c
-# Source SHA-256: 11da1e4003efa83a4dafd73a1cc2f585256ef9696235f3c2fc8363b5a9739b6a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CO-STULT.ANS by cocox (opium); released in opx-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: stultify logo!.
-# SAUCE Author: cocox
-# SAUCE Group: opium
-# SAUCE Date: 19960204
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: stultify logo!. by cocox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0296-co-stult
 
 Write-Host '
 [30m••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••[0m

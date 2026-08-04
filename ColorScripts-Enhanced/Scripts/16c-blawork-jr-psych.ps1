@@ -1,18 +1,4 @@
-﻿# Converted from: JR_PSYCH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blawork/raw/JR_PSYCH.ANS
-# Source Revision: raw-sha256:102414ac028d47df37ee6485688f855ae46be2906fcbc21d68bb57f801e7b2ae
-# Source SHA-256: 102414ac028d47df37ee6485688f855ae46be2906fcbc21d68bb57f801e7b2ae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_PSYCH.ANS by jerusalem (boil); released in blawork and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: psychoaktiv
-# SAUCE Author: jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19970930
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: psychoaktiv by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blawork-jr-psych
 
 Write-Host '
 [44m [0;34;40m█[0;37;40m [0;34;40m█[0;1;34;44m▒[0;34m█[0;37m [0;34m████[0;37m [0;34m██▐[0;37m [0;34m█▓░░[0m            [35m   [0;37m [0;35m▀▀[0;1;34m▀[0;1;34;45m▀[0;1;34;47m▓▓[0;1;34;45m▄[0;1;34;40m▄▄[0;35m▄▄[0m     [35m▀▀[0;1;34;45m▀[0;1;34;47m▒[0;1;34;45m▄[0;1;34;40m▄[0;35m▄[0m        [35m▐[0;1;34;45m▀[0;35m▀▀▄▄▄[0;1;34m▄[0;1;34;45m▄▄██▀[0m

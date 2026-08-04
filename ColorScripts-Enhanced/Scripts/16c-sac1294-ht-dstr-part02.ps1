@@ -1,18 +1,4 @@
-﻿# Converted from: HT-DSTR.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/sac1294/raw/HT-DSTR.ANS
-# Source Revision: archive-sha256:4cf7765ee6660556cb900dacf0ec67f070b8e4df414172b5e01733a49d10031f
-# Source SHA-256: 6aa7eff6119615dae36a37a91610683cf8c58c290e9ad3971d06ce040acc9af2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HT-DSTR.ANS by hetero; released in sac1294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: DESERT STORM
-# SAUCE Author: HETERO
-# SAUCE Group: LKCC
-# SAUCE Date: 19941029
-# SAUCE Dimensions: 80x25
-# Lines: 49-69
-# Columns: 1-80
+﻿# Artwork: DESERT STORM by hetero | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac1294-ht-dstr-part02
 
 Write-Host '
 [32m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m        [32m▄▄▄[0m       [32m▄[0m         [32m▄▄▄[0m     [32m▄▄▄▄▄▄[0m

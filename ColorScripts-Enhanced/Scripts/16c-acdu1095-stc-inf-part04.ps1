@@ -1,18 +1,4 @@
-﻿# Converted from: STC-INF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1095/raw/STC-INF.ANS
-# Source Revision: archive-sha256:488aebab08e35324a58b5bebccf7bdfbf1e869dd6136b50cfbc4e715d6ca4745
-# Source SHA-256: 39b54476e5a05907b7665adb99a5c9a853ddb1769e7262c180ff978454493554
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STC-INF.ANS by Stone the Crow (ACiD Productions); released in acdu1095 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Infinity
-# SAUCE Author: Stone the Crow
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950919
-# SAUCE Dimensions: 80x157
-# Lines: 110-157
-# Columns: 1-80
+﻿# Artwork: Infinity by Stone the Crow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1095-stc-inf-part04
 
 Write-Host '
 [31m█▓░▒▓[0;37m [0;1;37m▌██[0m [31m▒[0;37m [0;34m░[0;37m  [0;1;37m▄▄▀[0;31m▄[0;1;31;41m▄▓[0;31m▓[0;1;31;41m▓█[0;31m█ [0;34m▒▓░[0;37m [0;31m ▀▀▀[0;37m▄▄▄▄▄▐▄▄▄▄▄▄ [0;33m [0;37m▄▄▄░▐▄ ▄▄[0;33m▀[0;37m  [0;1;33m▀[0m   [1;33m [0m    [33m▀[0m    [1;33m [0;1;37m█[0;1;33;43m▒[0m

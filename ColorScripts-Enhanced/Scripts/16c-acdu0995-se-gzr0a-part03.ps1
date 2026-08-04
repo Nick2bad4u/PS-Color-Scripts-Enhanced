@@ -1,18 +1,4 @@
-﻿# Converted from: SE-GZR0A.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0995/raw/SE-GZR0A.ANS
-# Source Revision: archive-sha256:33564e3b7dba06eac1f1e36dcc176b1f8d29f8167c2e77227197ff7bea5344f2
-# Source SHA-256: 186ed0c8466e2606f6ba21e8e6769939f67973f495bf839831a7ad794af93f1c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SE-GZR0A.ANS by Sharp Edge + Animal (ACiD Productions); released in acdu0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Ground Zero
-# SAUCE Author: Sharp Edge
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950901
-# SAUCE Dimensions: 80x107
-# Lines: 73-107
-# Columns: 1-80
+﻿# Artwork: Ground Zero by Sharp Edge + Animal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0995-se-gzr0a-part03
 
 Write-Host '
 [32m░▓ ▒ ▓▀▒▓▄▄▓▒▓▄▄▀▀▓▒  [0;37m [0;32m░ ▄▓█[0;1;32;42m░░[0;1;32;40m▌[0m                                 [32m▌[0;37m [0;32m▄▓█[0;1;32;42m░[0;32m▌▀▓▀▀ ▒ ▄[0;1;32;42m░[0m

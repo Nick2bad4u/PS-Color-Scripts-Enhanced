@@ -1,17 +1,4 @@
-﻿# Converted from: AVE-WOE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rawoe-98/raw/AVE-WOE1.ANS
-# Source Revision: archive-sha256:72c3cf0f44a476eef694d1cf3a1552a03dc3aa0478a61b3b389cc598bf59ebb8
-# Source SHA-256: 71e104a9acc64edbf1232566be90bce46a92521eeaeeac17c7367ac110c32b0c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-WOE1.ANS by avenge(force) (force); released in rawoe-98 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: WOE! (guest art)
-# SAUCE Author: avenge(force)
-# SAUCE Group: force
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: WOE! (guest art) by avenge(force) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rawoe-98-ave-woe1
 
 Write-Host '
 

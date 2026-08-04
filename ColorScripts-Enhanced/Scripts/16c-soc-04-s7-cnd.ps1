@@ -1,18 +1,4 @@
-﻿# Converted from: S7!-CND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/soc-04/raw/S7!-CND.ANS
-# Source Revision: archive-sha256:72fd15426f37bca7e28f2cf1b434b07c03280098e1e5474499ff2d23d8253e82
-# Source SHA-256: 2b97caed9d702d836921e81b7f6e505cf7f93b1b6026029c5859db5626ce6c50
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S7!-CND.ANS by Soul s7alker! (skl/soc/seven/kiss); released in soc-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Candle BBS! rocks!
-# SAUCE Author: Soul s7alker!
-# SAUCE Group: skl/soc/seven/kiss
-# SAUCE Date: 19971005
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Candle BBS! rocks! by Soul s7alker! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-soc-04-s7-cnd
 
 Write-Host '
 [1;34;47m▓▓▓[0;1;34;44m████[0;1;34;40m█[0;34m░               [0m       [33m░[0;30;43m▓[0m

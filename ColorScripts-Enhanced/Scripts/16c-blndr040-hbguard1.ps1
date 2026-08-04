@@ -1,13 +1,4 @@
-﻿# Converted from: HBGUARD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr040/raw/HBGUARD1.ANS
-# Source Revision: archive-sha256:0474d06857febff4b39fa9265e650028a080befcf16aa08673325278a812611b
-# Source SHA-256: 49118e3862a16fcb73b5cfaac93181c4760f74b4d836fb40e8d45222d5575aa1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HBGUARD1.ANS by Handiboy (blndr040); released in blndr040 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: HBGUARD1.ANS by Handiboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr040-hbguard1
 
 Write-Host '
 [36m ▄█[0;1;33;46m▄▄[0;1;37;46m▄▄[0;1;36;46m▄▄███▀▀[0;36m▀▀▀▀▀▀▀▀█[0;1;36;46m▀███████▄▄▄▄[0;36m█████████████[0;1;36;46m░░░░░[0;36m██▀▀▀▀▀▀▀███████████[0;1;36;46m░░▒▒[0;36m█▄[0m

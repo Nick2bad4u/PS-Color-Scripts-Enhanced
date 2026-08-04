@@ -1,13 +1,4 @@
-﻿# Converted from: DS-PROMO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pmt-0195/raw/DS-PROMO.ANS
-# Source Revision: archive-sha256:d6215aa308b0d4ab5fe1a9b87f61f0bf2cdd5e52aa3f7bb6750bb83ea7fd64fb
-# Source SHA-256: ff50440074eb91a3bbfdf1991c26150f2ebbca1cc52e15effa8d78cac39249aa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-PROMO.ANS by Devine Styler (pmt-0195); released in pmt-0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: DS-PROMO.ANS by Devine Styler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pmt-0195-ds-promo-part01
 
 Write-Host '
 [1;30m████████████████████████████████████████████████████████████████████████████████[0m

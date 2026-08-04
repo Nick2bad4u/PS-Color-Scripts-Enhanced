@@ -1,13 +1,4 @@
-﻿# Converted from: forest-walk.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/openworld-02/raw/forest-walk.ans
-# Source Revision: archive-sha256:e6a9b74c273d22a2d7965d3de31cdbe68ad1a8fc7c323f54e28427a4c9d376b0
-# Source SHA-256: 850d2b7b632f63a51801a14d8c0e07aa71b4fd86be06628f99ccecfe94a881c4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: forest-walk.ans by Butterfly (openworld-02); released in openworld-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: forest-walk.ans by Butterfly | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-openworld-02-forest-walk
 
 Write-Host '
 [1m█[0;32m█[0;1;37;42m▄███▀[0;1;32;48;5;231m▄[0;1;37;42m▀[0;30;42m▀[0;1;32;48;2;85;255;85m▀[0;36;42m▀███[0;1;37;42m██[0;36;42m███████[0;36;40m▒▒▓▒░▒▒███████░▓█▓░▓▓█▓█▒████████████[0;32;40m█[0;1;32;42m▄[0;1;37;48;5;231m▀▄[0;1;37;46m▄[0;36;46m███[0;1;37;40m░░██[0m███[1m████[0m

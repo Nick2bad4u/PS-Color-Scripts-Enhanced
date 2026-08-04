@@ -1,18 +1,4 @@
-﻿# Converted from: RF-DMN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/emerge03/raw/RF-DMN.ANS
-# Source Revision: archive-sha256:dd399ee6e71deadfe795b0f4683a65eced60de552ad5e9362e4756c467e8c7e4
-# Source SHA-256: da8ab76da2c4b30c2b6562fbd8c1be997ef5bb4cc552d949973d579a35db80f8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RF-DMN.ANS by reflexion (emerge); released in emerge03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: demonic
-# SAUCE Author: reflexion
-# SAUCE Group: emerge
-# SAUCE Date: 19950625
-# SAUCE Dimensions: 80x93
-# Lines: 48-93
-# Columns: 1-80
+﻿# Artwork: demonic by reflexion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-emerge03-rf-dmn-part02
 
 Write-Host '
               [1;32;42m░░[0;32m████████[0;1;30;42m░░▒[0;32m  [0;1;30;42m▒░░░[0;32m▄▀[0;1;32;42m░░[0;32m██[0;1;30;42m░[0;32m▄▐[0;1;30;42m░▒░[0;32m████[0;1;30;42m░░[0;32m▄[0;1;30;42m░░ [0;1;32;42m░░[0;32m▀▄█[0;1;30;42m░▒▒[0;32m  [0;1;30;42m▒░ [0;32m██████[0;1;32;42m░░[0m

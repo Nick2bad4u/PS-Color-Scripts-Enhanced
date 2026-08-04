@@ -1,18 +1,4 @@
-﻿# Converted from: 5D-PURG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-11/raw/5D-PURG.ANS
-# Source Revision: archive-sha256:184bfab2730f296ec77b01537ecb9982ff717133dcf7244f30669a69025f309c
-# Source SHA-256: 65034c73935ce294ea4b41149f3d5625261b39e92cbc8febb7a93f9b692ac2a4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5D-PURG.ANS by 5layerdreams (society); released in purg-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: purge logo!
-# SAUCE Author: 5layerdreams
-# SAUCE Group: society
-# SAUCE Date: 19980102
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: purge logo! by 5layerdreams | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-11-5d-purg
 
 Write-Host '
 

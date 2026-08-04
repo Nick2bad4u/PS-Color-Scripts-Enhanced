@@ -1,18 +1,4 @@
-﻿# Converted from: RL-OPIUM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0296/raw/RL-OPIUM.ANS
-# Source Revision: archive-sha256:06e6dc5afce1ee45051e2bc9293c259c32e010fc92f42b6c050d6f2242a1670c
-# Source SHA-256: a211c71518631d3be90a542cba5fbb2a7c2d1ecd79d2c28bdb82e5e47b11452e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL-OPIUM.ANS by Rawlock (Opium); released in opx-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Opx
-# SAUCE Author: Rawlock
-# SAUCE Group: Opium
-# SAUCE Date: 19960105
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Opx by Rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0296-rl-opium
 
 Write-Host '
 

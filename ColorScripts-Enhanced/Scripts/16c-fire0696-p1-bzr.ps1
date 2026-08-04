@@ -1,18 +1,4 @@
-﻿# Converted from: P1-BZR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0696/raw/P1-BZR.ANS
-# Source Revision: archive-sha256:812b4b6a142b76b92307dc090cdf58b49035a2b9097d1dc0a43da5e4fd3f4f2d
-# Source SHA-256: cf2828504b4bd4b19217b4d0b232e7c281d2b482a3588ea092ee781a66410386
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P1-BZR.ANS by Prisoner#1 (fire); released in fire0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Biazrre
-# SAUCE Author: Prisoner#1
-# SAUCE Group: fire
-# SAUCE Date: 19960605
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Biazrre by Prisoner#1 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0696-p1-bzr
 
 Write-Host '
 

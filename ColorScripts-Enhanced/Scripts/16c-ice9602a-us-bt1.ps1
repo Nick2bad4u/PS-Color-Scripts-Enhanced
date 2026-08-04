@@ -1,19 +1,4 @@
-﻿# Converted from: US-BT1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9602a/raw/US-BT1.ICE
-# Source Revision: archive-sha256:a7cb032b47574ac80269aea88d994085abecd77228955f55ef8d0e5338bc0184
-# Source SHA-256: f831a7a69c0cafd9ff8a309f87bce3b763b5986fa489b8da5492bb7cc876d595
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BT1.ICE by Unsane + Apox (iCE Advertisements); released in ice9602a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Bent
-# SAUCE Author: Unsane/Apox
-# SAUCE Group: iCE Advertisements
-# SAUCE Date: 19960227
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: Font of the month
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Bent by Unsane + Apox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9602a-us-bt1
 
 Write-Host '
 

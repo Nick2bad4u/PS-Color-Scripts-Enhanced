@@ -1,13 +1,4 @@
-﻿# Converted from: FINAL#03.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/joint03/raw/FINAL%2303.ANS
-# Source Revision: archive-sha256:852d2e02d9d5387de79e69c392a0408442629f656809c7e746cbe55c292e14cc
-# Source SHA-256: fbcdbf73b6fe40689cadeffb81c184f0a44dd70e37d930b27cabc754fdce6fbd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FINAL#03.ANS by Loi + Pzyko + Aoh + Mighty Mouse + Axiom + Fever + Misfit + Flame + Defiant (joint03); released in joint03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: FINAL#03.ANS by Loi + Pzyko + Aoh + Mighty Mouse + Axiom + Fever + Misfit + Flame + Defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-joint03-final-03
 
 Write-Host '
 [30;43m░[0;33;40m███[0;30;43m░[0;33;40m▓█[0;33;47m▓[0;33;40m█████████████████████[0;37;43m░░[0;30;43m░[0;33;40m▓█████████[0;1;33;43m░░░  [0;33m█████[0;1;33;43m░░░[0;33m█[0;37;43m░[0;33;40m█[0;37;43m░[0;33;40m██████[0;1;33;43m░░[0;33m███▀████[0;1;33;41m░░[0;33m█[0;30;43m░[0;33;40m▓[0m

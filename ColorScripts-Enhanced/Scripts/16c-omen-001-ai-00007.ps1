@@ -1,17 +1,4 @@
-﻿# Converted from: AI#00007.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/omen-001/raw/AI%2300007.ANS
-# Source Revision: archive-sha256:639d01c4976c2412f40262280b42786a4a9a8dcf0c6d28b14f10b18fb7bde312
-# Source SHA-256: 868ea4116fa9c54432ac4d356509cd67ccfde0839b0c607e16ad783a642b74cb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AI#00007.ANS by artistic implosion (omen); released in omen-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ding #3
-# SAUCE Author: artistic implosion
-# SAUCE Group: omen
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ding #3 by artistic implosion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-omen-001-ai-00007
 
 Write-Host '
 [30;44m▓[0;36;44m░░░[0;1;36;44m░░░[0;36;44m░░[0;34;40m██████████[0;1;30;44m░░▒▒▒[0;1;34;44m░ ░▒▒░░[0;34m█████[0;1;34;44m░░░░[0;30;44m▓[0m [1;34;44m░[0;1;34;46m▓[0;1;34;40m▀▀[0;34m▀ [0;33m▀██ ▀▀▀ ██▀ [0;34m▀[0;1;34m▀█ [0;33m▄▄▄ [0;34m▀[0;1;34m▀[0;1;34;44m▀[0;1;34;40m██████[0;1;34;44m▓▓░[0m

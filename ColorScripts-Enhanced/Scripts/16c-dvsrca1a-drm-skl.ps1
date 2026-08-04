@@ -1,17 +1,4 @@
-﻿# Converted from: DRM-SKL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dvsrca1a/raw/DRM-SKL.ANS
-# Source Revision: archive-sha256:3f9580d6c0b0bf383b20f6abd16722659a4bc1bb71a9db546c43d39c1c24a952
-# Source SHA-256: 25a733faa5f8c7ffc1472a3fec17b26a4b5c1fd7e1474a63084f45475fa8f4ad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DRM-SKL.ANS by dorm & shaman (dvs); released in dvsrca1a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ascii skull
-# SAUCE Author: dorm & shaman
-# SAUCE Group: dvs
-# SAUCE Date: 19980709
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: ascii skull by dorm & shaman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dvsrca1a-drm-skl
 
 Write-Host '
                   _.,,syys,,._   [31m,sS§§§Ss,[0m                [1;33m       [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-SUN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0198/raw/OUT-SUN.ANS
-# Source Revision: archive-sha256:079c2da21b6d42fe9cc2b63a96a83dc31abac739a55d4f3842517260ebb75a4a
-# Source SHA-256: 0cafce164c210483cf909b24638898472b8707394c2c45f7352c043c2738053f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-SUN.ANS by Sandy Chidester (out-0198); released in out-0198 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: OUT-SUN.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0198-out-sun
 
 Write-Host '
 [36m▄██████████████████████████████████[0;1;36;46m░░░░░▒▒▓█▒▒░░░[0;36m█[0;1;31m█████████[0;1;31;41m▓▓▓[0;1;31m█[0;1;31;41m▓▓▓▓[0;1;31m█████[0;1;31;41m█[0;1;31m█[0;1;31;41m▓▓▒▒░[0;31m▄[0m

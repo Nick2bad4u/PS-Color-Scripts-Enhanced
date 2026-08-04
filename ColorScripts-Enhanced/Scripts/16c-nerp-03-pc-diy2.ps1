@@ -1,18 +1,4 @@
-﻿# Converted from: PC-DIY2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-03/raw/PC-DIY2.ANS
-# Source Revision: archive-sha256:9ea26ff16b2d0162532c602fba75b69e539d71620a3b4e34b796de886326619c
-# Source SHA-256: f9931cf656220097fd800c4f9d9e562a400f2c53b0ef303fa3dbba075229522d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-DIY2.ANS by Putrid Carcass (Nerp); released in nerp-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Do it Yourself
-# SAUCE Author: Putrid Carcass
-# SAUCE Group: Nerp
-# SAUCE Date: 19971224
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Do it Yourself by Putrid Carcass | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-03-pc-diy2
 
 Write-Host '
                 [31m▄[0;37m [0;31m▀▀█[0;1;31;41m░[0;31m▄[0;37m [0;31m▄[0;37m [0;31m▀[0m

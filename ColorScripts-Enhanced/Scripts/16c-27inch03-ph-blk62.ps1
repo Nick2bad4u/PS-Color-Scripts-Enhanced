@@ -1,13 +1,4 @@
-﻿# Converted from: PH-BLK62.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch03/raw/PH-BLK62.ANS
-# Source Revision: archive-sha256:faad3368b55fb434ef1208473b1dc06bfce9fe1104a0d093902743c45bd0d2f8
-# Source SHA-256: 22350caeb42fbda1edbd39b68320f64299c4359af202242ce2af0fad263fba11
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PH-BLK62.ANS by Pash (27inch03); released in 27inch03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: PH-BLK62.ANS by Pash | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch03-ph-blk62
 
 Write-Host '
 [34m█[0;1;34;44m░░[0;34m█▐[0;1;34;44m░[0;1;34;47m▓░  ▀[0;1;34;44m██▄▄  [0;34m█[0;1;34;44m░▓[0;1;34;47m▓▒▓▓[0;1;34;44m▄▄▄░░[0;34m█████[0;1;34;44m░░▓[0;1;34;47m▓[0;1;34;44m█▄[0;34m█▄▄  ░▓███████████[0;1;34;44m░▓██████▄▄[0;34m██████▓▓░░[0m

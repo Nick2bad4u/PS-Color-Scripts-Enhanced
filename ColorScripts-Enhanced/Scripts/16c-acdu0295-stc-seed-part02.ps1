@@ -1,18 +1,4 @@
-﻿# Converted from: STC-SEED.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0295/raw/STC-SEED.ANS
-# Source Revision: archive-sha256:783416b41a421333c3ef8049cdade58e4e0c645dd104994cd95b81b7407d25ff
-# Source SHA-256: 441d9caaa3b0090273f3ad95dd4fc76f6bed6ace76c382fa618e93e1831dc2bc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STC-SEED.ANS by Stone The Crow (ACiD Productions); released in acdu0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Seeds of Destruction
-# SAUCE Author: Stone The Crow
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950201
-# SAUCE Dimensions: 80x112
-# Lines: 47-84
-# Columns: 1-80
+﻿# Artwork: Seeds of Destruction by Stone The Crow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0295-stc-seed-part02
 
 Write-Host '
 [32m░[0m [32m▐██▀[0m    [32m ░ ▒▒▄▄█████[0;1;33;42m   ░[0;32m█████[0;1;37;42m░[0;32m█[0;1;37;42m░░░░░░░[0;32m███▓▄  [0m [32m   ▓█▓████▓[0;1;37;42m░▒[0;32m▀▄▄▀ [0m   [32m           [0m

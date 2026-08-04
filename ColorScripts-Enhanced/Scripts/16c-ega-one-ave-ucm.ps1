@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-UCM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ega-one/raw/AVE-UCM.ANS
-# Source Revision: archive-sha256:6a85c974a9d93a6c5723067b661851124ae90b1e81eb1a1d35a289b0099b8ffc
-# Source SHA-256: 78e6363779eb78bfb9e1f1c9d366a0985d8b594b69cca291a2b144b25b812782
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-UCM.ANS by avenger (ega); released in ega-one and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: undercover menu
-# SAUCE Author: avenger
-# SAUCE Group: ega
-# SAUCE Date: 19961004
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: undercover menu by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ega-one-ave-ucm
 
 Write-Host '
 [31m▄▄ [0;37m▀▀[0;1;37m▀[0m [31m▄[0;1;31;41m▒▓[0;1;31;40m▄[0m  [31m▐▀▀[0m    [30;44m▓▓[0m

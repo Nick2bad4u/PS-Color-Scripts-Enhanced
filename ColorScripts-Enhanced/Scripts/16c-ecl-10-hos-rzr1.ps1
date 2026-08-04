@@ -1,13 +1,4 @@
-﻿# Converted from: HOS-RZR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-10/raw/HOS-RZR1.ANS
-# Source Revision: archive-sha256:6734a0716f5363aecb5b8387359a704e7e1a498f17ee632abf4e9ca947f0336d
-# Source SHA-256: c8a9976d0eff72520b9515d3401d238dfb0e048488ee82e9a5c2f2dd92f2f8ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HOS-RZR1.ANS by Hos (ecl-10); released in ecl-10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: HOS-RZR1.ANS by Hos | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-10-hos-rzr1
 
 Write-Host '
         [31m▬[0m                              [31m▬ [0m              [31m    ▬[0m            [1;37mhos[0;1;33m([0;33mawe[0;1;33m)[0m

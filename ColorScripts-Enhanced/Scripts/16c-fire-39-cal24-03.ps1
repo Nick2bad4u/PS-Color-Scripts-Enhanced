@@ -1,19 +1,4 @@
-﻿# Converted from: CAL24-03.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-39/raw/CAL24-03.ANS
-# Source Revision: archive-sha256:5e57507ce34170a4afb707b1587800d0885fae4776f1271b7b7cee7f71264d9d
-# Source SHA-256: e5cc4480a020a33d0f4ee9c48d4225ac8804bc2465d89e2184eacfe8ffeb192f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CAL24-03.ANS by Ville + Savage (Fire); released in fire-39 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fire 2024 Calendar: March
-# SAUCE Author: Savage + Ville
-# SAUCE Group: Fire
-# SAUCE Date: 20240303
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Fire 2024 Calendar: March by Ville + Savage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-39-cal24-03
 
 Write-Host '
 [37;40m [0;34;40m░[0;37;40m    [0;1;30;40m▄[0;34m▓[0;37m  [0;1;34m·[0;34m░[0;37m ░[0;34m▒[0;37m▐[0;1;34m▌[0m [34m▀█▄[0;37m [0;34m■[0;1;34m·[0m [34m▐[0;1;30m██[0m  ■ ▀ ▄    [1;34m░[0m      ▀[1;47m▀[0m█[1;33m░░[0m          [34m▒░[0;1;34m·[0;34m■[0m       [1;31m░[0;31m▓▓[0;1;31m▐[0;1;35m█[0;31m▒[0;1;35m▒▒[0m

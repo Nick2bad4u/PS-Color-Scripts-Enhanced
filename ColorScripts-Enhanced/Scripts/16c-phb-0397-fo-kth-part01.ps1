@@ -1,18 +1,4 @@
-﻿# Converted from: FO-KTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phb-0397/raw/FO-KTH.ANS
-# Source Revision: archive-sha256:d18868f8faf7726799689b37fb1a0005133cfca83163c8b652f242ae3ef3a67d
-# Source SHA-256: 9088f60b9d560a36144e37672c2fb38880d7bb217b0fc2c945deef274078f962
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FO-KTH.ANS by flexor (phobia); released in phb-0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: earthbound central
-# SAUCE Author: flexor
-# SAUCE Group: phobia
-# SAUCE Date: 19970301
-# SAUCE Dimensions: 80x59
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: earthbound central by flexor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phb-0397-fo-kth-part01
 
 Write-Host '
 [31;41m███████████████████████████████████████████████████████████████████[0;30;41m [0;31;41m████████████[0m

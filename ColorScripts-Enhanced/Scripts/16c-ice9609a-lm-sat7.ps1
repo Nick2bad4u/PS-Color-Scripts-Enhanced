@@ -1,13 +1,4 @@
-﻿# Converted from: LM-SAT7.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9609a/raw/LM-SAT7.ICE
-# Source Revision: archive-sha256:541cf0b323317a2c01aae16b97d3d5f7ccc5db8dbd14c10b2267c0eefccf97b7
-# Source SHA-256: a97fa380c587c0bd9658a4fd7563c82e2df63cd7c4880ce769923ae8ca42e9a3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LM-SAT7.ICE by Lemonade (ice9609a); released in ice9609a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: LM-SAT7.ICE by Lemonade | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9609a-lm-sat7
 
 Write-Host '
                                       [31m█[0m                                   [34m█ [0m

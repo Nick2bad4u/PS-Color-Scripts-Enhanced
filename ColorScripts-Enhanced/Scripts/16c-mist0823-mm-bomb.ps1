@@ -1,19 +1,4 @@
-﻿# Converted from: MM-BOMB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0823/raw/MM-BOMB.ANS
-# Source Revision: archive-sha256:62e93186540813ec7aaaeb24433016d426de59526762a0e3f8dda1eb133ed05c
-# Source SHA-256: 4acd79e749b6babce871fe32dca35603d182e05b104431aa0b95baa6abb903a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-BOMB.ANS by Mavenmob (Mistigris); released in mist0823 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: People Are Good
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20230824
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: People Are Good by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0823-mm-bomb
 
 Write-Host '
  [1;34;41m│││[0;1;35;41m│││[0;35;47m│[0;30;47m│[0;1;31;47m│[0;1;34;41m││[0;1;35;41m││││││││││││[0;1;31;47m││[0;1;34;41m│[0;1;35;41m│[0;1;33;41m│││││││[0;30;41m    [0;1;33;41m││[0;30;41m    [0;1;33;41m│││││││[0;1;35;41m│[0;1;34;41m│[0;1;31;47m││[0;1;35;41m││││││││││││[0;1;34;41m││[0;1;31;47m│[0;30;47m│[0;35;47m│[0;1;35;41m│││[0;1;34;41m│││[0m

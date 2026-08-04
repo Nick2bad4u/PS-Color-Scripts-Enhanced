@@ -1,18 +1,4 @@
-﻿# Converted from: OZ-TIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-02/raw/OZ-TIC.ANS
-# Source Revision: archive-sha256:4c203a22a273c62e868cc7246cefafb413002203c4d66bfee072b470754a2d40
-# Source SHA-256: 8d27c86530fc7b464e1677bd4d566a2afaff3f74a2de038982a4a1917c71a609
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OZ-TIC.ANS by ooZe (dEPARTMENT^38); released in d38-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Final Tic
-# SAUCE Author: ooZe
-# SAUCE Group: dEPARTMENT^38
-# SAUCE Date: 19970113
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: The Final Tic by ooZe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-02-oz-tic
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: IZ½HILT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0296/raw/IZ%C2%BDHILT.ANS
-# Source Revision: archive-sha256:0eb4b2482411f38ef708ec089ec5cba17c181d4a0eee6324511602aa4e53eac8
-# Source SHA-256: 46e7efcd311433a796307620164ffe7cb2ab6b915fc95e75ecf4e5a0a5cddc93
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ½HILT.ANS by ize (fusion); released in fsn-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the hilt ...
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19960208
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: the hilt ... by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0296-iz-hilt
 
 Write-Host '
                                                              [1;30m░[0m

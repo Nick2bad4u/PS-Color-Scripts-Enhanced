@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-FIRE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0696/raw/IZ-FIRE2.ANS
-# Source Revision: archive-sha256:812b4b6a142b76b92307dc090cdf58b49035a2b9097d1dc0a43da5e4fd3f4f2d
-# Source SHA-256: 7224169bfc56ee4dae149f9fb0394fc6d86140b428564c7fdb13e9b8ce17223f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-FIRE2.ANS by ize (fire?); released in fire0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fire promo no2
-# SAUCE Author: ize
-# SAUCE Group: fire?
-# SAUCE Date: 19960520
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: fire promo no2 by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0696-iz-fire2
 
 Write-Host '
 [1;31;43m█▓▓▒▒▒▒▒▒▒▒░░[0;33m██[0;1;31;43m░[0;33m▀▀▀[0;1;31;43m░[0;33m█[0;1;31;43m [0;33m███████████████[0;1;31;43m░[0;33m██████████[0;1;30;43m░[0;33m▄[0m

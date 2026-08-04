@@ -1,19 +1,4 @@
-﻿# Converted from: US-COWBOY_CREEP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1024/raw/US-COWBOY_CREEP.ANS
-# Source Revision: archive-sha256:6949840195965f5eb9696cfb423e381432d7ccfa36b66290e336e4608b7c12f8
-# Source SHA-256: bbdddd73500ed5c1f65849bbbfdda1146bde1d38acd1a69ea03b83b7a0e93e15
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-COWBOY_CREEP.ANS by Zeus Ii + LDA (Mistigris); released in mist1024 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Cowboy Creep
-# SAUCE Author: ZII & LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241027
-# SAUCE Dimensions: 80x89
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Cowboy Creep by Zeus Ii + LDA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1024-us-cowboy-creep-part01
 
 Write-Host '
 ▓▀█████[1;30;47m░░░▒▒[0;34m ██████████[0;31;44m.[0;34;40m████[0;30;44m  [0;34;40m▄▀▀█▀█▀▀▄██████████████████████[0;1;37;44m.[0;34m█████████████▄▄▄[0m

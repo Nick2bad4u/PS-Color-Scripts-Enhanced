@@ -1,13 +1,4 @@
-﻿# Converted from: TH-NTG2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/skl-1293/raw/TH-NTG2.ANS
-# Source Revision: archive-sha256:050c4947b498cd34964b3caf5400f667c1dbd39367bdcae152e782cd46024a72
-# Source SHA-256: 9a6e223a80e5762e357cf8ab1a6226be0c99710bccffedb3cf50247538ad25f9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH-NTG2.ANS by Thor (skl-1293); released in skl-1293 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: TH-NTG2.ANS by Thor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-skl-1293-th-ntg2
 
 Write-Host '
        [1;31m▄▄[0;1;31;41m█████[0;1;31;40m▄▄[0m     [1;31;40m▄▄██▄▄[0m     [1;31;40m▄▄▄▄[0;1;31;41m█████[0;1;31;40m▄▄▄▄[0m     [1;31;40m▄▄[0m        [1;31;40m▄▄▄▄[0m

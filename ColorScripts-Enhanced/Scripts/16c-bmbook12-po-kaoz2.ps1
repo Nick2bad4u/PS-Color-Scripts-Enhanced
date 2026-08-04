@@ -1,18 +1,4 @@
-﻿# Converted from: PO-KAOZ2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook12/raw/PO-KAOZ2.ANS
-# Source Revision: archive-sha256:ec66f5bb4ed961133c52314c375d67af30a5295789eb6bfc6eda91ebf8999fc2
-# Source SHA-256: 42104051cf13deaf56756453d5d040a225023537c090b0eb57b5da6f01c3203c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PO-KAOZ2.ANS by poti (black maiden); released in bmbook12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: kaoz / the progression
-# SAUCE Author: poti
-# SAUCE Group: black maiden
-# SAUCE Date: 19970224
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: kaoz / the progression by poti | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook12-po-kaoz2
 
 Write-Host '
 [1;30m███▌▐██▀▀▀▐███ █[0;1;30;43m▓▓[0;1;30;40m▌▓▀▀▀▀▀[0m        [33m [0;1;30m ▀██▓▓▀[0m

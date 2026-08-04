@@ -1,13 +1,4 @@
-﻿# Converted from: DFORCE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tst-july/raw/DFORCE2.ANS
-# Source Revision: archive-sha256:ec9982e6da05239e3805ee474008c0d518b97b249e6e9a6f37df89f18f8d558b
-# Source SHA-256: 13d1aba0af0384eee66a2b68ae115b83b3c630e79b7b0ff13a41470675401a91
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DFORCE2.ANS by Senator (tst-july); released in tst-july and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: DFORCE2.ANS by Senator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tst-july-dforce2-part01
 
 Write-Host '
                                    [1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

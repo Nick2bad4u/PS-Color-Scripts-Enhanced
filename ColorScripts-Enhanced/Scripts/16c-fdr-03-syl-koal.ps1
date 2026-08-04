@@ -1,13 +1,4 @@
-﻿# Converted from: SYL-KOAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fdr-03/raw/SYL-KOAL.ANS
-# Source Revision: archive-sha256:cac34a6b7c47c076c878193a4da01da4f38b7c8e471d7a9bf4b3a7850655fb5e
-# Source SHA-256: fbdbe4aed601c904bd39d9267b0b7938c1ac846114027889802e0ceb46d5abc1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SYL-KOAL.ANS by Sylvao (fdr-03); released in fdr-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: SYL-KOAL.ANS by Sylvao | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fdr-03-syl-koal
 
 Write-Host '
  [1;32m█[0;1;32;42m▓▒[0;1;32;40m [0;33m▒█ [0;34m▀[0;1;37;44m  [0;34m [0;37m█[0;1;37;44m██[0;1;37;47m▓[0;1;37;44m███[0;1;37;40m█[0;1;37;47m▓▒▓[0;1;37;44m█[0;1;37;40m▄[0;34m [0;1;37;44m [0;34m███▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█████▀ [0;1;37m▄[0;1;37;44m█[0;1;37;40m▓▓[0m

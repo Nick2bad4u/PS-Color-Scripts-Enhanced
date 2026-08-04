@@ -1,18 +1,4 @@
-﻿# Converted from: SUI-SOVP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drv-0595/raw/SUI-SOVP.ANS
-# Source Revision: archive-sha256:ab2903da2c95149760a6d9230201e2017a141769235eee49a007790b51e1be73
-# Source SHA-256: d7713190c82eac2f2f0723b07af1a3c109a2b200fa93579fca73c43f84fa78a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SUI-SOVP.ANS by SuiCyco (Driven); released in drv-0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Agressor
-# SAUCE Author: SuiCyco
-# SAUCE Group: Driven
-# SAUCE Date: 19950330
-# SAUCE Dimensions: 80x112
-# Lines: 65-111
-# Columns: 1-80
+﻿# Artwork: Agressor by SuiCyco | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drv-0595-sui-sovp-part03
 
 Write-Host '
      [47m█[0;36;47m░▒▓███████████████████████████████████████████████████████████▓▒░[0;37;47m█[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: 2STONED-SATAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1023/raw/2STONED-SATAN.ANS
-# Source Revision: archive-sha256:85986912ea2464623a6cb0e6c05b9b87ede10865c5aaf338ceaa9a86cac2b00a
-# Source SHA-256: 8ee8b50cab2199a32ea2d478a2d899ab43ce9e580834d1688a7fdbd3c822ab7f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2STONED-SATAN.ANS by 2Stoned (Mistigris); released in mist1023 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Receive thy new Possessor
-# SAUCE Author: 2Stoned
-# SAUCE Group: Mistigris
-# SAUCE Date: 20231026
-# SAUCE Dimensions: 80x85
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Receive thy new Possessor by 2Stoned | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1023-2stoned-satan-part01
 
 Write-Host '
  [30m███████████████████████████████████████████████████████████████████████████████[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: nf-UncleCleaver.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronicsonice/raw/nf-UncleCleaver.ans
-# Source Revision: archive-sha256:09feb7a5adb913c88be16d43a1a4e86bf7073f13399d8bc54e5478cad35282e5
-# Source SHA-256: 63bf20e9793ac24d2ad36525d551be54afc0456fdb483e51ede8fe86fc3ea588
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: nf-UncleCleaver.ans by necro (FUEL/RBS); released in blocktronicsonice and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Uncle Cleaver
-# SAUCE Author: necro
-# SAUCE Group: FUEL/RBS
-# SAUCE Date: 20210405
-# SAUCE Dimensions: 80x131
-# SAUCE Font: IBM VGA
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Uncle Cleaver by necro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronicsonice-nf-unclecleaver-part02
 
 Write-Host '
 [36;40m███████[0;33;46m▒[0;36;40m███▌███[0;33;46m▒[0;36;40m█[0;33;46m░[0;36;40m▌█[0;33;46m▒[0;36;40m██[0;33;40m▌[0;36;40m████▀▀[0;32;40m▄▄▄▀▀  ▀▓▄▀[0;1;37;40m█[0m [36m█[0;33;46m░[0;36;40m████▐[0;32;46m░[0;36;40m██[0;33;46m▒░[0;36;40m███ ▀▀▀█████▐[0;33;46m▒[0;36;40m▌████[0;33;46m▒▒[0;36;40m████[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: GRAVYARD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0992/raw/GRAVYARD.ANS
-# Source Revision: archive-sha256:38fe3656c7af5c5e25863e8e0613e81f27c4932fc2485b451dab47528613133b
-# Source SHA-256: 537076bc93fda0a3403881a892a2257a6e15123b756b0c1b19a72aab80757bcd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GRAVYARD.ANS by Blade Runner (acdu0992); released in acdu0992 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 42-79
-# Columns: 1-80
+﻿# Artwork: GRAVYARD.ANS by Blade Runner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0992-gravyard-part02
 
 Write-Host '
                            [1;30;40m██[0m

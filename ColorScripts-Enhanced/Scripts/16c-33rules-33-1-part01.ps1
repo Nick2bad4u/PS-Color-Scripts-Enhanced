@@ -1,18 +1,4 @@
-﻿# Converted from: 33-&1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/33rules/raw/33-%261.ANS
-# Source Revision: archive-sha256:6cf2aef8e3ca97e1761e1ee4a8ba395e4fdab4dec9d3b2efb91c059359b50b00
-# Source SHA-256: b87fca5e5ae68f6bbbec4ea81eee15fc1ac0a037271b7a1957ccd50e258587fc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-&1.ANS by Samsara 08/96 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: & (Ampersand)
-# SAUCE Author: Samsara 08/96
-# SAUCE Group: Eerie
-# SAUCE Date: 19960731
-# SAUCE Dimensions: 80x128
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: & (Ampersand) by Samsara 08/96 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-33rules-33-1-part01
 
 Write-Host '
                             [31m [0;33mthe[0m

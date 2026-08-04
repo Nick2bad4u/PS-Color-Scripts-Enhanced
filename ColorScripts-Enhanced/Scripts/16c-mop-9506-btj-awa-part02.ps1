@@ -1,18 +1,4 @@
-﻿# Converted from: BTJ-AWA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mop-9506/raw/BTJ-AWA.ANS
-# Source Revision: archive-sha256:21b318f5bbc852e858674aa2e0bd699a791c3c08e8da1f08d1b0fb6dd40767e8
-# Source SHA-256: d1b73fd18682df624ef2ea8f62b58b0d076b381eb73e88bad4a032dc989f3adf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BTJ-AWA.ANS by bob the Janitor (mOp); released in mop-9506 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ansi whores anonnymous
-# SAUCE Author: bob the Janitor
-# SAUCE Group: mOp
-# SAUCE Date: 19950517
-# SAUCE Dimensions: 80x25
-# Lines: 39-60
-# Columns: 1-80
+﻿# Artwork: ansi whores anonnymous by bob the Janitor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mop-9506-btj-awa-part02
 
 Write-Host '
                                [1;30m░[0m

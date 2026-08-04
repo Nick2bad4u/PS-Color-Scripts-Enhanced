@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-TRAUM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-1096/raw/IZ-TRAUM.ANS
-# Source Revision: archive-sha256:56cf270ca2ee7a92e0d4d66d5887e29752c7c199e9629aac9f429015d003259b
-# Source SHA-256: 94475cefe2a36e40e93d6da9356e12211500e86d63d4ca78fc5fd59f41fe8832
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-TRAUM.ANS by ize (fire); released in fsn-1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: trauma
-# SAUCE Author: ize
-# SAUCE Group: fire
-# SAUCE Date: 19960823
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: trauma by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-1096-iz-traum
 
 Write-Host '
        [1;30m░░  [0m     [1m          [0;1;33m                 [0m

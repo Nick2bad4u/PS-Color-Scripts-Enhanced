@@ -1,18 +1,4 @@
-﻿# Converted from: K1-EFLOW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-04/raw/K1-EFLOW.ANS
-# Source Revision: archive-sha256:1dcdf112160ec589150680778cd449e8af485dfba89bb104c44cd133db2d6fc0
-# Source SHA-256: f5370a7eade0acc4c3c2b229f5efe881d16c4574938ccf5e2fcb8a1c7b2feb3e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K1-EFLOW.ANS by knocturnal (used); released in used-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Evenflow
-# SAUCE Author: knocturnal
-# SAUCE Group: used
-# SAUCE Date: 20000317
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Evenflow by knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-04-k1-eflow
 
 Write-Host '
            [34m▄ ▀[0m    [1;30m▓▓[0m    [34m▄▓▄[0;37m  [0m   [34m▄[0;1;34;44m▄[0;1;34;40m▒[0;34m▄[0m        [34m▀▀[0;1;34m▀[0;1;34;44m▀[0;34m▀▀[0;1;34;44m▀[0;34m▀▀[0;1;34;44m▀▀[0;34m▀[0;1;34m▀[0;1;34;44m▀[0;1;34;47m▓▀▀▓[0;34m█▐[0;1;34;44m▐[0;1;34;47m▀▀▌  [0;1;34;44m█[0;34m█▌[0;1;34;44m [0;1;34;47m▓▀[0;1;34;44m▄[0;34m▄[0;1;34;44m▄[0;34m [0m

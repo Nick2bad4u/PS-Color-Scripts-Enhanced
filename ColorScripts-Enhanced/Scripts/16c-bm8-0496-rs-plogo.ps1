@@ -1,18 +1,4 @@
-﻿# Converted from: RS-PLOGO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bm8-0496/raw/RS-PLOGO.ANS
-# Source Revision: archive-sha256:6a20500f0b019daf8b74b1011f4e13acdbac779a421770d34d848962bd1ba353
-# Source SHA-256: 1a112fb77295a35b09f47682229701f4ab659d0caf23435d796a35b97dcdb6b8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-PLOGO.ANS by RaSCaL (BLACK MAiDEN); released in bm8-0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Paradise Lost Logo
-# SAUCE Author: RaSCaL
-# SAUCE Group: BLACK MAiDEN
-# SAUCE Date: 19960420
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Paradise Lost Logo by RaSCaL | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bm8-0496-rs-plogo
 
 Write-Host '
          [1m▄▀▀▀▀▀▀▀▀▀▄[0m                    [1m█▀▀▀▀▀▀▀▀▀▀▀▀▀▄[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: krl_laza.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz19/raw/krl_laza.ans
-# Source Revision: archive-sha256:b2207428f1b283b9c41d9ff03fce385f449fefe469c60e31e8dd7430a162f7c1
-# Source SHA-256: e5e9710e638cb74d1ffbe38a548f7faf4f3da7916ef2c5c124f3fb71734789a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: krl_laza.ans by Krl (Lazarus); released in laz19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Lastronaut
-# SAUCE Author: Krl
-# SAUCE Group: Lazarus
-# SAUCE Date: 20240828
-# SAUCE Dimensions: 80x90
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Lastronaut by Krl | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz19-krl-laza-part01
 
 Write-Host '
 

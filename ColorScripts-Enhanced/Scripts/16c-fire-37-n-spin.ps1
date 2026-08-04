@@ -1,19 +1,4 @@
-﻿# Converted from: N-SPIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-37/raw/N-SPIN.ANS
-# Source Revision: archive-sha256:42913eb56742cc8575f96af5b8a027e63b5172fdb84271b8ac973c7820ea43ef
-# Source SHA-256: 251843f3e768e575dc43b6919920e3d69c451e25087a6d871514dc626f3239cc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-SPIN.ANS by nail (fire); released in fire-37 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: spin
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 20230707
-# SAUCE Dimensions: 80x29
-# SAUCE Font: IBM VGA
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: spin by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-37-n-spin
 
 Write-Host '
 

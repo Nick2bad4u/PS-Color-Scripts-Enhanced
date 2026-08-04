@@ -1,18 +1,4 @@
-﻿# Converted from: SN-PIRAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-16/raw/SN-PIRAT.ANS
-# Source Revision: archive-sha256:c00416c7ddf398f58bbf4e903903b01262636f611404ac6c0f665b0399f0a726
-# Source SHA-256: f933f0cd93c7df1891bfb52c26b4ca32befe44a78fdc3d1adb92c1b0fa21b572
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SN-PIRAT.ANS by Sn0wball (Ecolove); released in eco-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Make us stop
-# SAUCE Author: Sn0wball
-# SAUCE Group: Ecolove
-# SAUCE Date: 19990906
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Make us stop by Sn0wball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-16-sn-pirat
 
 Write-Host '
 [36m    [0;37m [0;1;31m▄▄[0;1;31;41m▓▒░ [0;31m▀▄█ ▀▄█▄▀█[0;1;31;41m░░[0;31m█▀▀  ▄▄▄▀▀▀▀    ▀▀▀██▄▄[0m   [31m▄[0;1;31m▄▄[0m         [1;31m▄[0;31m [0m

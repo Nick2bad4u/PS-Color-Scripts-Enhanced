@@ -1,18 +1,4 @@
-﻿# Converted from: MC!ALINA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-05/raw/MC!ALINA.ANS
-# Source Revision: archive-sha256:eb0948671797309554c3545cf502cce8943191f153468011a76cca894133dc0a
-# Source SHA-256: 3e056d24c2176054169723a32727589eee0bdf9044244f527bef9d05eaffa2fd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MC!ALINA.ANS by Madcap (Department 38); released in d38-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Alien Nation
-# SAUCE Author: Madcap
-# SAUCE Group: Department 38
-# SAUCE Date: 19970410
-# SAUCE Dimensions: 80x25
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Alien Nation by Madcap | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-05-mc-alina
 
 Write-Host '
 [1;36m████████████████  [0;34m██████▄▄▄[0;30m•••••••••••••••••••••••••••••••••••••••••••••••••••••[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: EL-VOS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shv-0695/raw/EL-VOS.ANS
-# Source Revision: archive-sha256:bb4ff0be2845c295b33fa1a12cfa10d6f27c56c159b0d7d43aa0404a3b850a05
-# Source SHA-256: 60ee5a34503eadbf20b7b7948ba478b42a29f22e026cbf50f4a3e38eb5ccdfed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EL-VOS.ANS by Elysius (Shiver); released in shv-0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Visions of Sacrifice
-# SAUCE Author: Elysius
-# SAUCE Group: Shiver
-# SAUCE Date: 19950602
-# SAUCE Dimensions: 80x25
-# Lines: 35-70
-# Columns: 1-80
+﻿# Artwork: Visions of Sacrifice by Elysius | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shv-0695-el-vos-part02
 
 Write-Host '
 [31;40m▀▄[0;1;31;41m░[0;31m▀▄[0;37m  [0;33m▀▄▐▄▀▀[0;37m  [0;33m▐█████████[0;37;43m ░▒░[0;33;40m██████[0;37;43m [0;1;31;43m  [0;33m██▓▌[0;37m [0;33m [0;37m [0;33m [0m     [33m▐▌[0m     [33m▄███▓▄█[0;37;43m [0;1;31;43m░[0;33m██▄[0;37m [0;33m ▒[0;35m [0;37m  [0;33m▐▌[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: MOTH-BIRTHDAY_GIRL.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/mist-30/raw/MOTH-BIRTHDAY_GIRL.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: 1415db6ea15514d145dd534e9f7af1e96ab216c99f2cd5560dc63160653d4b15
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MOTH-BIRTHDAY_GIRL.ANS by Moth (Mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Birthday Girl
-# SAUCE Author: Moth
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241231
-# SAUCE Dimensions: 80x66
-# SAUCE Font: IBM VGA
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: Birthday Girl by Moth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-moth-birthday-girl-part01
 
 Write-Host '
 

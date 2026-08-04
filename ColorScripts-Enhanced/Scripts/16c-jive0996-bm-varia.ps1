@@ -1,18 +1,4 @@
-﻿# Converted from: BM-VARIA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jive0996/raw/BM-VARIA.ANS
-# Source Revision: archive-sha256:6b7d48e396de55126b3ae9c64ca3a6e3836b2eee40f86ad76fd1706353435055
-# Source SHA-256: 3fa3a491841181f07ff9a8e8cdc58501eea09155c8d796f028d5e27e542a174c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BM-VARIA.ANS by Blazemore (Jive); released in jive0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Varia!
-# SAUCE Author: Blazemore
-# SAUCE Group: Jive
-# SAUCE Date: 19960823
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: Varia! by Blazemore | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jive0996-bm-varia
 
 Write-Host '
 

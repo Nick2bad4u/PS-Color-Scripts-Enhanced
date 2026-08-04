@@ -1,18 +1,4 @@
-﻿# Converted from: MAY-OBS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/epic0001/raw/MAY-OBS.ANS
-# Source Revision: archive-sha256:469e19c85e17e735160f218c31263c528e0f299d68abc25979191060f709ef80
-# Source SHA-256: aa02d1caab0f4907b1000dadc96c77f297181202c912a14eec274e97449844d4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MAY-OBS.ANS by maytag happy bday! (epic); released in epic0001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: obsolete
-# SAUCE Author: maytag happy bday!
-# SAUCE Group: epic
-# SAUCE Date: 19990619
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: obsolete by maytag happy bday! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-epic0001-may-obs
 
 Write-Host '
 [34m███████████████████▀[0;33m▄▄[0;37;43m░[0;33;47m▓[0;33;40m███▄▄▄[0;34;40m   [0;33;40m▄▄█[0;37;43m░░[0;33;40m██▄▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SN-ALTER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jltpak2/raw/SN-ALTER.ANS
-# Source Revision: archive-sha256:cb95e72780eac3512f454b1c52ba9a182f4b9320e2f5f86ef65383793ed1fc0a
-# Source SHA-256: d2fd3156d1275e165902146a58655dad7630f81f193273febdb13e567627d922
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SN-ALTER.ANS by Spawn (JoLT!); released in jltpak2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Alterhouse
-# SAUCE Author: Spawn
-# SAUCE Group: JoLT!
-# SAUCE Date: 19941022
-# SAUCE Dimensions: 80x94
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Alterhouse by Spawn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jltpak2-sn-alter-part01
 
 Write-Host '
  [30m┌─[0;37m──[0;1;37m───────────────────────────────[0m──[1;30m─┬─[0m──[1m────────────────────────────────[0m──[1;30m─┐[0m

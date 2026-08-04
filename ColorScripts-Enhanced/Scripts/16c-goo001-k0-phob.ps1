@@ -1,18 +1,4 @@
-﻿# Converted from: K0-PHOB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/goo001/raw/K0-PHOB.ANS
-# Source Revision: archive-sha256:609b75692692ccb2a91163fa5e36ca9c681f1416fea825b599b6028bd9003936
-# Source SHA-256: c375664cade464c1e5b875c51215b07840b8624aa4b7dc4392c1af63d2fdcf1d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K0-PHOB.ANS by k0rpse (gOo!prOductionz); released in goo001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Phobia
-# SAUCE Author: k0rpse
-# SAUCE Group: gOo!prOductionz
-# SAUCE Date: 19951210
-# SAUCE Dimensions: 80x49
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Phobia by k0rpse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-goo001-k0-phob
 
 Write-Host '
 [34m█████████████████████▄[0;1;37m▀▀█[0;1;37;47m▓▓[0;1;37;40m██[0;1;37;47m▓[0;1;37;40m▀▀▀▀[0;34m▄██████████████[0;1;34;44m [0;34m████████[0;1;34;44m░░░░░░░░[0;34m█[0;1;34;44m   [0;34m█████████▓[0m

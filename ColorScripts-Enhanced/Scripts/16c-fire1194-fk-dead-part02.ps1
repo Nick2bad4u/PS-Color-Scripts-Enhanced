@@ -1,18 +1,4 @@
-﻿# Converted from: FK-DEAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1194/raw/FK-DEAD.ANS
-# Source Revision: archive-sha256:6cda22fd90f2a64fc140b0cb926d07e2fbe26eb5d33dd44ac4f68bfab8971fcb
-# Source SHA-256: a5ded2e0115c67319aa267538b6ee821f9e6584fd0f02e32d10ac84dcdad2fdf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FK-DEAD.ANS by Farbekreig (Fire); released in fire1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Deadly Ground
-# SAUCE Author: Farbekreig
-# SAUCE Group: Fire
-# SAUCE Date: 19941031
-# SAUCE Dimensions: 80x25
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Deadly Ground by Farbekreig | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1194-fk-dead-part02
 
 Write-Host '
 [1;34;44m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

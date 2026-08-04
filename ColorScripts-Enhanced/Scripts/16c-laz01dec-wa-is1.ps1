@@ -1,18 +1,4 @@
-﻿# Converted from: WA-IS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz01dec/raw/WA-IS1.ANS
-# Source Revision: archive-sha256:5b380369fa665698a380513024a32a1e90544a62665a810c6e03347900a05ac8
-# Source SHA-256: 5e10971e1e3c718e832841a751cad6a90f1ddd0f374ba1fcfeef59b677086d27
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WA-IS1.ANS by warpus (lazarus); released in laz01dec and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: inner sanctum
-# SAUCE Author: warpus
-# SAUCE Group: lazarus
-# SAUCE Date: 19961031
-# SAUCE Dimensions: 80x21
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: inner sanctum by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz01dec-wa-is1
 
 Write-Host '
                                        [31m [0m

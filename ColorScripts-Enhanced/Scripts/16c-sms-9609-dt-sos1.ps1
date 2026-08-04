@@ -1,17 +1,4 @@
-﻿# Converted from: DT-SOS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9609/raw/DT-SOS1.ANS
-# Source Revision: archive-sha256:96c031e04e5c479ef9ed73f1afa21a3db6bca2a2de7ad88a46888136232884ff
-# Source SHA-256: 439616c7e63c98e74e4cb58789d927332fc1c80ad79abbfaadf2e856a9598725
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-SOS1.ANS by Defiant (Samsara); released in sms-9609 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Shades Of A Shade
-# SAUCE Author: Defiant
-# SAUCE Group: Samsara
-# SAUCE Dimensions: 80x25
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Shades Of A Shade by Defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9609-dt-sos1
 
 Write-Host '
      [34m▄[0;37;44m░[0;34;40m▄[0m                                                            [31;40m▀  ▄[0m

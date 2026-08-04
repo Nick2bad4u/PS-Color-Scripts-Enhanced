@@ -1,18 +1,4 @@
-﻿# Converted from: PYX-OIMM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0697/raw/PYX-OIMM.ANS
-# Source Revision: archive-sha256:608fe2b98dcac70515ce221c11f606d898ec739b4fcdd1a5448c437eb640df82
-# Source SHA-256: a815a1229f337e3b8f874be2de6a63c01fb62c656c112062b09b10234fb334ef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-OIMM.ANS by Pyx (Bamboosh); released in bmb-0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Optical Illusion Main Menu
-# SAUCE Author: Pyx
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19970530
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Optical Illusion Main Menu by Pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0697-pyx-oimm
 
 Write-Host '
 [33m▄ ▄[0;1;33m▄▄▄[0;33m▄[0;1;33m░[0m  [33m▀▀█▄▄ [0;37m [0;34m   [0;33m░░▄▄[0;34m    [0;31m   ▄▄[0;1;33;41m▄▄▄░[0;31m▄    [0;34m [0;37m▀█[0;1;37;47m▀▓▀▀[0m▀▀[1;47m▀▀█▓▓▀▀███▄▄[0m▄[1m  [0;1;47m▀░███▓▓▓▒▒░░ [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: RL!-CRYS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0596/raw/RL!-CRYS.ANS
-# Source Revision: archive-sha256:06f164afecd2a38c1a107122cbc0c2c2d07c6484c9e867e2eecffd5f8b0065bf
-# Source SHA-256: 34d75fb7f345a7b92f1c7a87218a6679e811f7e065072c2aafb58c033b570520
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL!-CRYS.ANS by Rawlock (Opium); released in opx-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Crystal Tower
-# SAUCE Author: Rawlock
-# SAUCE Group: Opium
-# SAUCE Date: 19960427
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Crystal Tower by Rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0596-rl-crys
 
 Write-Host '
      [34m▄▄▄▄[0;37m   [0;33mrl![0;34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m     [34m█[0;1;34;44m▄▄░ [0m       [34m█[0;1;34;44m▄▄░[0;34m█[0m

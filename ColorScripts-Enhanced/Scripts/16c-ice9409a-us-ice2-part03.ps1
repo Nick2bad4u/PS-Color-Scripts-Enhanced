@@ -1,13 +1,4 @@
-﻿# Converted from: US-ICE2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9409a/raw/US-ICE2.ICE
-# Source Revision: archive-sha256:a92227369d28f50cbc2bfd487ba80600635ab872d2f29d81a7af3d04a31fd498
-# Source SHA-256: dce3540fa56e3d461d04d9882f22fbdd6290e9df736f76367ca7df9a8f1d2a7b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ICE2.ICE by Spirit Of Illusion + Vanquish (ice9409a); released in ice9409a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 83-131
-# Columns: 1-80
+﻿# Artwork: US-ICE2.ICE by Spirit Of Illusion + Vanquish | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9409a-us-ice2-part03
 
 Write-Host '
 [31m░[0m             [34m▓▌[0m         [34m▄[0;1;34;44m░[0;34m▄▒[0;1;34;44m▓[0m   [30mL  [0;34m░  [0;34;44m [0;34;40m▀▄▀[0m     [34;40m▐[0;1;37;44m▒[0;1;37;40m▌[0;34m▐▒▌▀[0m        [34m▐▒[0;1;34;44m░[0;1;34;40m▒[0;1;34;44m▓[0;1;34;40m▄  [0;34m░░ [0;1;37m▐ ▐[0;1;33m▄[0;31m▄[0m

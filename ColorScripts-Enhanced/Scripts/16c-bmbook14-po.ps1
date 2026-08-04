@@ -1,18 +1,4 @@
-﻿# Converted from: PO!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook14/raw/PO!.ANS
-# Source Revision: archive-sha256:f7fe2a62d3e7b3b16687ce251209098ea8d86719a4cfa33dae1489e0c9af9278
-# Source SHA-256: 2d1e9c846aff4a603965dd63b7b70c8dea45f64c7abbece12c0ed5fcd8aa2950
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PO!.ANS by -------------------- (black maiden); released in bmbook14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: poti
-# SAUCE Author: --------------------
-# SAUCE Group: black maiden
-# SAUCE Date: 19970701
-# SAUCE Dimensions: 80x12
-# Lines: 1-12
-# Columns: 1-80
+﻿# Artwork: poti by -------------------- | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook14-po
 
 Write-Host '
 

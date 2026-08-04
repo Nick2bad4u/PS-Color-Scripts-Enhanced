@@ -1,18 +1,4 @@
-﻿# Converted from: bj-asc49.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bj-creep/raw/bj-asc49.ans
-# Source Revision: archive-sha256:0debf4b45d7d951a68b5333767ded34f656851230e3888db7abc1feaad98e52f
-# Source SHA-256: 41d6d742b3445bd2c6100e0a4c02d4f262aba8c4b663ddf1621fd1115b4642cb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bj-asc49.ans by Multiple Artists (Cia/Acid); released in bj-creep and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Gloom
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Cia/Acid
-# SAUCE Date: 19961216
-# SAUCE Dimensions: 80x54
-# Lines: 29-54
-# Columns: 1-80
+﻿# Artwork: Gloom by Multiple Artists | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bj-creep-bj-asc49-part02
 
 Write-Host '
                         [1;30m  [0m           [1;30ml$[0m             .:$$ⁿ:.$$$$$i$$$$$$$$$$i$$$$

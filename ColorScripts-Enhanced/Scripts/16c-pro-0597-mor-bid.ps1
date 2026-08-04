@@ -1,13 +1,4 @@
-﻿# Converted from: MOR-BID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pro-0597/raw/MOR-BID.ANS
-# Source Revision: archive-sha256:481b5fb97b76ab3f49d96748bbc6de9355df4dac5d8032169a495e45a44b207f
-# Source SHA-256: fc0a1f8f3216b193a15a12b0d41bb62923f9d46a55f9f501c1b49289f5c34bdf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MOR-BID.ANS by Otium Man (pro-0597); released in pro-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: MOR-BID.ANS by Otium Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pro-0597-mor-bid
 
 Write-Host '
 [1;30m++[0;33m32[0;1;30m^[0;33m3[0;1;30m^[0;33m8888[0;1;30m^[0;33m203[0m         [33m                              [0m          [1;30m++[0;33m32[0;1;30m^[0;33m3[0;1;30m^[0;33m8888[0;1;30m^[0;33m203[0m

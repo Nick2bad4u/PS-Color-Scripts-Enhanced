@@ -1,13 +1,4 @@
-﻿# Converted from: ns-mimic.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic66/raw/ns-mimic.ans
-# Source Revision: archive-sha256:83257df0a372a2d3d5ffd4b8a8f7de3aeac896bea858e583dd3e9442af9cccee
-# Source SHA-256: 70da026aebf17f8811f1dbdddb0bb9c2d8e09468bef639a4d53073569688887e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ns-mimic.ans by Ansichrist (mimic66); released in mimic66 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: ns-mimic.ans by Ansichrist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic66-ns-mimic
 
 Write-Host '
 [1;37m┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬[0m

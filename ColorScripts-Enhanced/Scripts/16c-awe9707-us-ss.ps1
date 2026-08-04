@@ -1,18 +1,4 @@
-﻿# Converted from: US-SS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9707/raw/US-SS.ANS
-# Source Revision: archive-sha256:718ad2b08b14a24156d1af86433f0063bd9bba178c290c317100b8e5ffb3939c
-# Source SHA-256: cd2edecc78ae84d93757be0d8dbc3b4cc73477b551c8c59d53d2f81d3948fb2e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SS.ANS by Samurai + Sf (AWE Lettering); released in awe9707 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Special Sauce
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970622
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Special Sauce by Samurai + Sf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9707-us-ss
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: ROY-OBS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roy-stuf/raw/ROY-OBS.ANS
-# Source Revision: archive-sha256:1f203f95f339c258e43a9098f8d2e689ed73de537b1cfe6bea312dfc156f1358
-# Source SHA-256: ce60b80ec187b81380218be4395ad9c13b9ef9d8251cc6055d70a0e08ce3b6d2
-# Source License: FAL-1.3
-# Source Attribution: ROY-OBS.ANS by Roy/SAC aka Carsten Cumbrowski; released in roy-stuf and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Obession
-# SAUCE Author: ROY
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19941108
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Obession by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-obs
 
 Write-Host '
      [34m▄[0m                                                                    [34m▄[0m

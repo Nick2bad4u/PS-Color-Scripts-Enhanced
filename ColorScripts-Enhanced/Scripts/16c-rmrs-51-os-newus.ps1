@@ -1,13 +1,4 @@
-﻿# Converted from: OS-NEWUS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-51/raw/OS-NEWUS.ANS
-# Source Revision: archive-sha256:ff9424ea0d61c43ca9938ec01e57b31d69411e1d785e81dcbf80607f1fcf46f7
-# Source SHA-256: 80175656fc41838d9332c888507cf118489018c3f147c8445a34449b677a039c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OS-NEWUS.ANS by Offset (rmrs-51); released in rmrs-51 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: OS-NEWUS.ANS by Offset | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-51-os-newus
 
 Write-Host '
 [36m▀▀▀▀▀▓[0;1;36;46m░▒▓▒[0;36m▀  ▄[0;1;36;46m░░▒▓▒▒░░[0;36m▓▀▀[0;1;30m  ▄▄▄[0m [1;30m▄▄▄  [0;36m▀▀▓[0;1;36;46m░░[0;36m██[0;1;36;46m░▒░░[0;36m [0;1;30m└[0;36m-[0;1;30m──[0;36m-[0;1;30m─[0;36m──[0;1;36m-<[0;1;30m [0;1;37mNEW USER APPLICATION[0;1;30m [0m

@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-MONB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0823/raw/ZII-MONB.ANS
-# Source Revision: archive-sha256:62e93186540813ec7aaaeb24433016d426de59526762a0e3f8dda1eb133ed05c
-# Source SHA-256: 4b5ede06245a6f710f1f727ae33055a3a950917f893b965cb866aba4e78a90a3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-MONB.ANS by Zeus II (mist0823); released in mist0823 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Monero Booty
-# SAUCE Author: Zeus II
-# SAUCE Group: ???
-# SAUCE Date: 20230425
-# SAUCE Dimensions: 80x110
-# SAUCE Font: IBM VGA
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Monero Booty by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0823-zii-monb-part01
 
 Write-Host '
 [31m░░[0;37m  [0;1;30m▀█▄[0m       [1;30m▄[0m▄[1m▄▄▄[0m  [1;30m▄[0m▄[1m▄▄▄[0m  [1;30m▄[0m▄[1m▄▄▄[0m  [1;30m▄[0m▄[1m▄▄▄[0m  [1;30m▄[0m▄[1m▄▄▄[0m  [1;30m▄[0m▄[1m▄▄▄[0m  [1;30m▄[0m▄[1m▄▄▄[0m  [1;30m▄[0m▄[1m▄▄▄[0m      [1;30m▄█▀[0m [31m░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: K!TRIP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1299/raw/K!TRIP.ANS
-# Source Revision: archive-sha256:83adb8251a8dc8c325101454935a0efc46e834de99da0956bfb9a33bb74d6870
-# Source SHA-256: bf72a76b6b1bb447b70603b10604abeb056470738aed30be9632982e749923da
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K!TRIP.ANS by Keetar + Big Yellow Man (poffelipoff); released in plf-1299 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: medival times (matrix)
-# SAUCE Author: keetar
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19991213
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: medival times (matrix) by Keetar + Big Yellow Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1299-k-trip
 
 Write-Host '
 [34m░▒▓▓████████████████████████████████████████████████████████████▀██████████▓▓▓▒░[0m

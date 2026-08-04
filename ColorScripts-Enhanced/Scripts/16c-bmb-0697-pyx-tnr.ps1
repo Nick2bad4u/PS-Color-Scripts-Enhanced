@@ -1,18 +1,4 @@
-﻿# Converted from: PYX-TNR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0697/raw/PYX-TNR.ANS
-# Source Revision: archive-sha256:608fe2b98dcac70515ce221c11f606d898ec739b4fcdd1a5448c437eb640df82
-# Source SHA-256: 493ffb4dbd13ce0ec5ccc6e594842e8c1f3585935442a1ce0c32d4bb899c262f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-TNR.ANS by pyx (bamboosh); released in bmb-0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: "the new republic" - for draven
-# SAUCE Author: pyx
-# SAUCE Group: bamboosh
-# SAUCE Date: 19970215
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: "the new republic" - for draven by pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0697-pyx-tnr
 
 Write-Host '
 

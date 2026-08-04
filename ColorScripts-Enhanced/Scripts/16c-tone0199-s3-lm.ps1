@@ -1,16 +1,4 @@
-﻿# Converted from: S3-LM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tone0199/raw/S3-LM.ANS
-# Source Revision: archive-sha256:cc68ea1eb33455f4fac3ad894e9449a738582c78ce2d942c658b2e45a01a80a9
-# Source SHA-256: 72f0f5acad467a8bcbc1ce0d870d841a9376b5fe968fe677d86a973535648a0f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S3-LM.ANS by seltorn (tone); released in tone0199 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: logoff menu
-# SAUCE Author: seltorn
-# SAUCE Group: tone
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: logoff menu by seltorn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tone0199-s3-lm
 
 Write-Host '
 [1;30;43m███████▓░[0;33m████████████████[0;1;34;43m░░▓▓▓██[0;1;37;43m███▓▓▓░░[0;33m███████████[0;1;31;43m░░[0;1;33;43m [0;33m██████████▄[0;1;36m ▀█████[0;1;36;46m▓▓[0;1;36;40m██████[0m

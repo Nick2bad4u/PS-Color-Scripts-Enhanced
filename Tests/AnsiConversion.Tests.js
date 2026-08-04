@@ -36,6 +36,7 @@ const {
     writeChunkAnsi,
 } = require("../scripts/Split-AnsiFile.js");
 const conversionVerifier = import("../scripts/Verify-AnsiConversion.mjs");
+const { parseArtworkProvenance } = require("../scripts/ArtworkProvenance.js");
 
 const temporaryDirectories = [];
 
@@ -49,6 +50,45 @@ function createTemporaryDirectory() {
     const directory = fs.mkdtempSync(path.join(os.tmpdir(), "cse-converter-"));
     temporaryDirectories.push(directory);
     return directory;
+}
+
+function createGeneratedProvenanceFixture(directory) {
+    const provenancePath = path.join(directory, "ArtworkProvenance.psd1");
+    const templatePath = path.join(directory, "record.json");
+    fs.writeFileSync(
+        provenancePath,
+        `@{
+    SchemaVersion = 3
+    Collections = @{
+        'example' = @{
+            Attribution = 'Example Artist'
+            License = 'ISC'
+        }
+    }
+    Scripts = @{
+        'existing-art' = @{
+            Collection = 'example'
+            SourceFile = 'existing.ans'
+            SourceUrl = 'https://example.test/existing.ans'
+            Artist = 'Example Artist'
+        }
+    }
+}
+`
+    );
+    fs.writeFileSync(
+        templatePath,
+        JSON.stringify({
+            Collection: "example",
+            SourceFile: "pack/input.ans",
+            SourceUrl: "https://example.test/pack/raw/input.ans",
+            SourceRevision: "archive-sha256:fixture",
+            Artist: "Example Artist",
+            Attribution: "input.ans by Example Artist.",
+            SourceModification: "Decoded without reflow or trimming.",
+        })
+    );
+    return { provenancePath, templatePath };
 }
 
 function getPowerShellExecutables() {
@@ -191,10 +231,7 @@ test("passthrough preserves sequential ANSI colors, line endings, and apostrophe
     );
     const generatedSource = fs.readFileSync(outputPath, "utf8");
     assert.match(generatedSource, /  ''  `/u);
-    assert.match(
-        generatedSource,
-        /^# Source Conversion Mode: Passthrough$/mu
-    );
+    assert.match(generatedSource, /^# Source Conversion Mode: Passthrough$/mu);
 
     const expected = payload.replace(/\r\n/g, "\n");
     runPowerShell(outputPath).forEach((stdout) =>
@@ -695,16 +732,32 @@ test("SAUCE font names accept only printable ASCII before the first null termina
         getSauceFontName({
             tInfoS: Buffer.concat([
                 Buffer.from("IBM VGA\0", "ascii"),
-                Buffer.from([0x1b, 0x80, 0xff]),
+                Buffer.from([
+                    0x1b,
+                    0x80,
+                    0xff,
+                ]),
             ]),
         }),
         "IBM VGA"
     );
-    for (const invalidByte of [0x00, 0x09, 0x0d, 0x1b, 0x7f, 0x80, 0xff]) {
+    for (const invalidByte of [
+        0x00,
+        0x09,
+        0x0d,
+        0x1b,
+        0x7f,
+        0x80,
+        0xff,
+    ]) {
         const activePrefix =
             invalidByte === 0x00
                 ? Buffer.from([0x00, 0x41])
-                : Buffer.from([0x41, invalidByte, 0x00]);
+                : Buffer.from([
+                      0x41,
+                      invalidByte,
+                      0x00,
+                  ]);
         assert.equal(
             getSauceFontName({ tInfoS: activePrefix }),
             "",
@@ -767,7 +820,11 @@ test("DOS ANSI mode resolves a full-width row before CRLF like libansilove", () 
     const dos = convertAnsiToPs1(source, { columns: 80, dosAnsi: true });
 
     assert.deepEqual(modern.lines, [fullWidthRow, "B"]);
-    assert.deepEqual(dos.lines, [fullWidthRow, "", "B"]);
+    assert.deepEqual(dos.lines, [
+        fullWidthRow,
+        "",
+        "B",
+    ]);
 });
 
 test("DOS ANSI mode resolves a full-width row before bare LF", () => {
@@ -777,7 +834,11 @@ test("DOS ANSI mode resolves a full-width row before bare LF", () => {
         dosAnsi: true,
     });
 
-    assert.deepEqual(dos.lines, [fullWidthRow, "", "B"]);
+    assert.deepEqual(dos.lines, [
+        fullWidthRow,
+        "",
+        "B",
+    ]);
 });
 
 test("DOS ANSI mode ignores bare CR while modern mode returns to column zero", () => {
@@ -818,7 +879,11 @@ test("DOS ANSI cursor-forward preserves the right-margin wrap sentinel", () => {
         dosAnsi: true,
     });
 
-    assert.deepEqual(dos.lines, [fullWidthRow, "", "B"]);
+    assert.deepEqual(dos.lines, [
+        fullWidthRow,
+        "",
+        "B",
+    ]);
 });
 
 test("DOS ANSI absolute cursor positioning can target the wrap sentinel", () => {
@@ -1294,7 +1359,13 @@ test("stripSauce preserves artwork rows before newline-separated COMNT EOF marke
     sauce.writeUInt32LE(content.length, 90);
     sauce.writeUInt8(1, 104);
 
-    const result = stripSauce(Buffer.concat([content, comments, sauce]));
+    const result = stripSauce(
+        Buffer.concat([
+            content,
+            comments,
+            sauce,
+        ])
+    );
 
     assert.equal(result.buffer.toString("binary"), "ART\r\n");
     assert.deepEqual(result.sauce?.commentLines, ["reviewed"]);
@@ -1332,9 +1403,7 @@ test("stripSauce removes standalone trailing DOS EOF markers", () => {
 });
 
 test("stripSauce removes a DOS EOF marker followed only by newlines", () => {
-    const result = stripSauce(
-        Buffer.from("ART\r\n\r\n\x1a\r\n", "binary")
-    );
+    const result = stripSauce(Buffer.from("ART\r\n\r\n\x1a\r\n", "binary"));
 
     assert.equal(result.buffer.toString("binary"), "ART\r\n\r\n");
     assert.equal(result.sauce, null);
@@ -1354,9 +1423,9 @@ test("readAnsiFile stops DOS artwork at the first EOF marker", () => {
         "VISIBLE\x1a\r\nHIDDEN"
     );
     assert.equal(
-        truncateDosAnsiAtEof(Buffer.from("VISIBLE\x1aHIDDEN", "binary")).toString(
-            "binary"
-        ),
+        truncateDosAnsiAtEof(
+            Buffer.from("VISIBLE\x1aHIDDEN", "binary")
+        ).toString("binary"),
         "VISIBLE"
     );
 });
@@ -1379,6 +1448,94 @@ test("splitter CLI can convert ANSI input in dry-run mode", () => {
 
     assert.equal(result.status, 0, result.stderr || result.stdout);
     assert.match(result.stdout, /Dry run complete; no files written\./);
+});
+
+test("converter emits compact headers with complete external provenance", () => {
+    const directory = createTemporaryDirectory();
+    const inputPath = path.join(directory, "input.ans");
+    const outputPath = path.join(directory, "example-converted.ps1");
+    const { provenancePath, templatePath } =
+        createGeneratedProvenanceFixture(directory);
+    fs.writeFileSync(inputPath, "\u001b[31mART\r\nWORK", "ascii");
+
+    const result = spawnSync(
+        process.execPath,
+        [
+            path.join(__dirname, "../scripts/Convert-AnsiToColorScript.js"),
+            "--encoding=cp437",
+            "--columns=8",
+            `--provenance-record=${templatePath}`,
+            `--provenance-path=${provenancePath}`,
+            inputPath,
+            outputPath,
+        ],
+        { encoding: "utf8" }
+    );
+    assert.equal(result.status, 0, result.stderr || result.stdout);
+
+    const output = fs.readFileSync(outputPath, "utf8");
+    assert.match(
+        output,
+        /^\uFEFF?# Artwork: input\.ans by Example Artist \| Details: https:\/\//u
+    );
+    assert.doesNotMatch(output, /# Source URL:/u);
+    const provenance = parseArtworkProvenance(
+        fs.readFileSync(provenancePath, "utf8")
+    );
+    const entry = provenance.scripts.get("example-converted");
+    assert.equal(entry.HeaderFormat, "CompactV1");
+    assert.equal(entry.SourceRows, "1-2");
+    assert.equal(entry.SourceColumns, "1-8");
+    assert.match(entry.SourceSha256, /^[a-f\d]{64}$/u);
+});
+
+test("splitter emits compact part headers and source-coordinate records", () => {
+    const directory = createTemporaryDirectory();
+    const inputPath = path.join(directory, "input.ans");
+    const { provenancePath, templatePath } =
+        createGeneratedProvenanceFixture(directory);
+    fs.writeFileSync(inputPath, "1234567\r\nABCDEFG", "ascii");
+
+    const result = spawnSync(
+        process.execPath,
+        [
+            path.join(__dirname, "../scripts/Split-AnsiFile.js"),
+            "--input=ansi",
+            "--encoding=cp437",
+            "--columns=8",
+            "--column-ranges=1-4,5-8",
+            "--breaks=1",
+            `--output-dir=${directory}`,
+            "--output-base=example-split",
+            `--provenance-record=${templatePath}`,
+            `--provenance-path=${provenancePath}`,
+            inputPath,
+        ],
+        { encoding: "utf8" }
+    );
+    assert.equal(result.status, 0, result.stderr || result.stdout);
+
+    const provenance = parseArtworkProvenance(
+        fs.readFileSync(provenancePath, "utf8")
+    );
+    const expected = new Map([
+        ["example-split-panel01-part01", ["1-1", "1-4"]],
+        ["example-split-panel01-part02", ["2-2", "1-4"]],
+        ["example-split-panel02-part01", ["1-1", "5-8"]],
+        ["example-split-panel02-part02", ["2-2", "5-8"]],
+    ]);
+    for (const [name, [rows, columns]] of expected) {
+        const output = fs.readFileSync(
+            path.join(directory, `${name}.ps1`),
+            "utf8"
+        );
+        assert.match(output, /^\uFEFF?# Artwork:/u);
+        assert.doesNotMatch(output, /# (?:Lines|Columns|Source URL):/u);
+        const entry = provenance.scripts.get(name);
+        assert.equal(entry.SourceRows, rows);
+        assert.equal(entry.SourceColumns, columns);
+        assert.equal(entry.HeaderFormat, "CompactV1");
+    }
 });
 
 test("splitter emits deterministic cell-aware panel and part files", () => {

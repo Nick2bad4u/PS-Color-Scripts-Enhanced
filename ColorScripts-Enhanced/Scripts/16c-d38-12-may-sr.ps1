@@ -1,13 +1,4 @@
-﻿# Converted from: MAY^SR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-12/raw/MAY%5ESR.ANS
-# Source Revision: archive-sha256:410083659cbc6eaaec3d23ed9548f99302029f4a7b459c350ecaa6d1820b2874
-# Source SHA-256: fcdfa3b9f8fa16c62b8ed38d0c10140ba529cd4f30f8fb5ed5d82991aa45318b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MAY^SR.ANS by Mayhem (d38-12); released in d38-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: MAY^SR.ANS by Mayhem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-12-may-sr
 
 Write-Host '
 [1;31m██[0;1;31;45m▓[0;1;35;45m▒▒░▀[0;1;35;42m▀▀[0;32m▄▄[0;35m   [0;1;35;45m░▒▓█▓▒      [0;35m▀▀▀▀▀▓▓▒  [0;37m [0;35m▒[0;34m░▒▓██▀▀▀▀░░░[0;32m▄▄▄▄▄▄▄▄[0;36;42m░[0;32;40m▄▄▄▄[0;37;40m [0;1;34;40m    [0;34m░[0;1;34m     [0;34m░[0;1;34m [0;34m░▒▓█[0m

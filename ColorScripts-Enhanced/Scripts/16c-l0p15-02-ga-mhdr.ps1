@@ -1,13 +1,4 @@
-﻿# Converted from: GA-MHDR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p15_02/raw/GA-MHDR.ANS
-# Source Revision: archive-sha256:98af459b28622f71926ec0978595c2eef1c464109b7a29af23f37cbdb732273f
-# Source SHA-256: 39f304b713c11e0b2722e3b19e213dc54be7a1f56b3cd9616e5866e39866fd4d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GA-MHDR.ANS by Gossamer Axe (l0p15_02); released in l0p15_02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: GA-MHDR.ANS by Gossamer Axe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p15-02-ga-mhdr
 
 Write-Host '
      [32m      [0;37m [0;32m [0;37m▄[0;32m [0;1;32m▄[0m  [36m          ▄▄▄▄▄▄   ▄▄[0;1;36m▄[0;36m▄▄▄▄▄▄▄▄■ [0;1;36;46m░░[0;36m▄▄▄[0;37m                        [0m

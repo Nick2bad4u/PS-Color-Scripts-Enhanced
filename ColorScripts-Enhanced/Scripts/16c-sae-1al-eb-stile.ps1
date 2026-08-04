@@ -1,13 +1,4 @@
-﻿# Converted from: EB-STILE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sae-1al/raw/EB-STILE.ANS
-# Source Revision: archive-sha256:8fc50778b7abb4c7b22d8eeaf495f22d95c4684528a25d26f344c833163d3682
-# Source SHA-256: 4f798b0d147e4dd61356e223c86bd000e65f1f0103c1bc99511d42043a85bbbf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EB-STILE.ANS by Eboy (sae-1al); released in sae-1al and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: EB-STILE.ANS by Eboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sae-1al-eb-stile
 
 Write-Host '
        [31m▄[0m                                          [31m▀[0m                   [31m<Eboy>[0m

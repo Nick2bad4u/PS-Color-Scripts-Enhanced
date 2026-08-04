@@ -1,18 +1,4 @@
-﻿# Converted from: LE-MAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bm9-0796/raw/LE-MAD.ANS
-# Source Revision: archive-sha256:d47d05b28420594f05f00658e00b1f3ab4cdbebb1e89c0fe0f1e7938e6e8f937
-# Source SHA-256: 607cbfc7ca53849f651143815b73287cb6094a86ad954e93777cd61b7ac1562b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LE-MAD.ANS by Leonardo (BLACK MAiDEN); released in bm9-0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Mad Hacker
-# SAUCE Author: Leonardo
-# SAUCE Group: BLACK MAiDEN
-# SAUCE Date: 19960702
-# SAUCE Dimensions: 80x75
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: The Mad Hacker by Leonardo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bm9-0796-le-mad-part01
 
 Write-Host '
 [1;36m█▀█▀▀▀▀▀▀▀[0m [1;33m▀▀▀[0m [1;33m▓▀▀▀▀▀▀▀▀▀▓▀▀▀▌[0m      [1;34m▀█[0m  [1;34m▓ ▓[0m   [1;34m█[0m  [1;34m▄▀▀▀▀▀[0;1;34;45m▓░[0m    [33m▄▀▀██▄░[0;31m    [0;1;34m▀▀▀[0m [1;34m▀▀▀█[0m

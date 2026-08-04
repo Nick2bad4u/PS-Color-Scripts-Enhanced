@@ -1,18 +1,4 @@
-﻿# Converted from: MD-25ERS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend05/raw/MD-25ERS.ANS
-# Source Revision: archive-sha256:3346c70671a4c24e002cb42d75f3af112f478c146f28bb98b9942b55d0894a44
-# Source SHA-256: ea126fbe920265bc40f0915308030f09772bd3888c83dbe6de49158ece13190d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MD-25ERS.ANS by mendator (blend); released in blend05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 25 - liners
-# SAUCE Author: mendator
-# SAUCE Group: blend
-# SAUCE Date: 19970113
-# SAUCE Dimensions: 80x52
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: 25 - liners by mendator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend05-md-25ers-part01
 
 Write-Host '
 

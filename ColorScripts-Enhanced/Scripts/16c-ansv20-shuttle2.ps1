@@ -1,13 +1,4 @@
-﻿# Converted from: SHUTTLE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansv20/raw/SHUTTLE2.ANS
-# Source Revision: archive-sha256:139675e588ad6a6a287ee980f12612b5020cc66a9fd2441569a8541b98f599e8
-# Source SHA-256: 4b3540de14445cf26d5790fbee740febb585e561acf3c9812d06daa5332a3ccc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SHUTTLE2.ANS by Thedraw (ansv20); released in ansv20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: SHUTTLE2.ANS by Thedraw | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansv20-shuttle2
 
 Write-Host '
                                  [1;34m__─────__[0m

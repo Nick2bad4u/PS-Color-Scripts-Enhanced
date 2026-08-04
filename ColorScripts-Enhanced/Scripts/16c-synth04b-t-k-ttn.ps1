@@ -1,18 +1,4 @@
-﻿# Converted from: T&K-TTN!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/synth04b/raw/T%26K-TTN!.ANS
-# Source Revision: archive-sha256:2ef63ba95640e9a1fa00357f56c71004fe81c94bf1570f4cfe5ddd6e63466ad1
-# Source SHA-256: 38e420345802e8f4aaf161012a3dc2f2fb4be8d78663873d229f84a4db3ae1e9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T&K-TTN!.ANS by Trippah + Krinkal (Synthetic.Production); released in synth04b and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Tintin! (the sailor!)
-# SAUCE Author: Trippah & Krinkal
-# SAUCE Group: Synthetic.Production
-# SAUCE Date: 19961210
-# SAUCE Dimensions: 80x25
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Tintin! (the sailor!) by Trippah + Krinkal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-synth04b-t-k-ttn
 
 Write-Host '
 [1;47m███████████████████████████████████████████████████████████████████████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: del_plf2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/epic0007/raw/del_plf2.ans
-# Source Revision: archive-sha256:98f976816d85869210555f839be31c41a061efe657bcbc90eec6046688664f48
-# Source SHA-256: 16daa153f06eb510474ea99c14d1c0c66a24fa0e369772f685d21a8b87775c6a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: del_plf2.ans by delicious (epicart); released in epic0007 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: sodapop
-# SAUCE Author: delicious
-# SAUCE Group: epicart
-# SAUCE Date: 20001106
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: sodapop by delicious | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-epic0007-del-plf2
 
 Write-Host '
 

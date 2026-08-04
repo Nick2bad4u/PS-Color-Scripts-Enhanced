@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-SNST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0297/raw/OUT-SNST.ANS
-# Source Revision: archive-sha256:0f3d218282d76441c012c29969433ab198fcc6a5c3f0e35f66bec5cacdabec86
-# Source SHA-256: db307c49653a7ea9f744b353327f249749dc599e2eb99ee21c7bd3846a801c24
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-SNST.ANS by Sandy Chidester (out-0297); released in out-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: OUT-SNST.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0297-out-snst
 
 Write-Host '
         [1;31m▄▄▄▄██████████████████████[0;1;31;45m▓▓▓▓▒▒▒░░░                  [0;30;45m░░░▒▒▒▒▒██████[0m

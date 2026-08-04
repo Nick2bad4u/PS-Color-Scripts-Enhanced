@@ -1,18 +1,4 @@
-﻿# Converted from: NOH-DSN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-02/raw/NOH-DSN.ANS
-# Source Revision: archive-sha256:3fd9f194d865cfc24c90bdf11a27528d8d82a8ba9c376ebed567183a2f95a9f3
-# Source SHA-256: 772385820972f1a36791039f126dcd90530cb74aeef9f7cba510557766a10a6b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-DSN.ANS by /nOah? (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: dSN! ;--/
-# SAUCE Author: /nOah?
-# SAUCE Group: nerp
-# SAUCE Date: 19971102
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: dSN! ;--/ by /nOah? | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-02-noh-dsn
 
 Write-Host '
                                             [1;31m▄[0;31m▄[0m

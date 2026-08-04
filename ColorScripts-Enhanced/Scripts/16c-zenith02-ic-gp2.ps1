@@ -1,18 +1,4 @@
-﻿# Converted from: IC-GP2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zenith02/raw/IC-GP2.ANS
-# Source Revision: archive-sha256:89af45c021399cb7150be8c9dd70d9c3709facfd5b2491816aa34f9f5096ceb7
-# Source SHA-256: 6fc7034919e0c5b3feee84e5a313c58ae98c6a55b2acfcddcba6c33f8b75e2ec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IC-GP2.ANS by inclusive(guest) (no-group-please); released in zenith02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: geekstas paradise
-# SAUCE Author: inclusive(guest)
-# SAUCE Group: no-group-please
-# SAUCE Date: 19980620
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: geekstas paradise by inclusive(guest) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zenith02-ic-gp2
 
 Write-Host '
 inc[1m         [0;1;33m       [0;33m▄░[0;1;33m     [0;33m░[0;30;43m▓[0;33;40m       [0;37;40m░[0;30;47m▓[0;1;37;47m▓▒░[0m▀▀▀  ▀▀▀   ▀▀           [1;30m░░[0m   ▀▀▀ ▀[1;47m▀[0m▐[1;47m░▒▓[0;1;37;47m▓[0m

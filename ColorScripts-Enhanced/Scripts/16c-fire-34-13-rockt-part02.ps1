@@ -1,18 +1,4 @@
-﻿# Converted from: 13-ROCKT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/13-ROCKT.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: 0acb8788077f28bf8ee2f0d4fe0d5315601ad6ac7f52732c05dee0b7a83a4497
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 13-ROCKT.ANS by ville (fire); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: ville
-# SAUCE Group: fire
-# SAUCE Date: 20210227
-# SAUCE Dimensions: 80x200
-# SAUCE Font: IBM VGA
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: 13-ROCKT.ANS by ville | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-13-rockt-part02
 
 Write-Host '
                  [1;30m░ ░  ▒███[0;1;30;47m▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m██████[0;1;30;47m▓▓▓▓▓▓▒▒▒▒▓▓▓░░░▓▓▓▓▒░▒░▒[0;1;30;40m█[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US-UC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0697/raw/US-UC.ANS
-# Source Revision: archive-sha256:4afa384dbe1edb8568d2d9e2fda5954485e730ef7ea56b2b5212bd5bbae30f83
-# Source SHA-256: 2f2feb005c154635ac16d111af2c0915a5013c4bcc294c7aae80e85de6a369f7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-UC.ANS by Wave + Rile + Phobia (fusionrile); released in fsn-0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: uc joint?
-# SAUCE Author: wave&phobia
-# SAUCE Group: fusionrile
-# SAUCE Date: 19970608
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: uc joint? by Wave + Rile + Phobia | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0697-us-uc
 
 Write-Host '
                                 [36m ▄[0m               [37m   [0m

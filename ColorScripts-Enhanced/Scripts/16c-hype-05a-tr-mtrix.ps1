@@ -1,17 +1,4 @@
-﻿# Converted from: TR-MTRIX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-05a/raw/TR-MTRIX.ANS
-# Source Revision: archive-sha256:60e974debb2c53c16c4636763f36d313ae3236ca17347fcb32045fc9aeba992a
-# Source SHA-256: d22a4bfbb11f1ff257194d7cee2d87212f21750b29640829e39cf978f8735bdc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-MTRIX.ANS by Trident (Hype Inc.); released in hype-05a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: " S1ck compo 2 ansi "
-# SAUCE Author: Trident
-# SAUCE Group: Hype Inc.
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: " S1ck compo 2 ansi " by Trident | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-05a-tr-mtrix
 
 Write-Host '
 [1m                                               [0m         [33m████▀▀████████████ ██▄[0m

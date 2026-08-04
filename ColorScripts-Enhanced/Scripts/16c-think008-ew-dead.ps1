@@ -1,16 +1,4 @@
-﻿# Converted from: EW-DEAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/think008/raw/EW-DEAD.ANS
-# Source Revision: archive-sha256:5299e9efff6b1d02b6f8371005b5afb74861cb81c9f9d142ae267d9e1b37f3a5
-# Source SHA-256: 2d6e54d5cb5bc8e440d847b7a78fa4de0874cc3c20840cc42b06e5a9ec999091
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EW-DEAD.ANS by ed williams (guest); released in think008 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: guest
-# SAUCE Author: ed williams
-# SAUCE Group: guest
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: guest by ed williams | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-think008-ew-dead
 
 Write-Host '
 [32m                   [0;1;30m▓▓▓[0m

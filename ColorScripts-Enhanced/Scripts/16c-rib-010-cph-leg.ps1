@@ -1,18 +1,4 @@
-﻿# Converted from: CPH-LEG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-010/raw/CPH-LEG.ANS
-# Source Revision: archive-sha256:f0e8a1202a9ab4518ddf30655a3e3a838d00336d432c41d2fb4ced8564853688
-# Source SHA-256: 0a04deabcedc1e0494743e35ad0eab63b53931afb783f7513ec258fb56f8ab13
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-LEG.ANS by {YBERPUNCh (RiB); released in rib-010 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the legion
-# SAUCE Author: {YBERPUNCh
-# SAUCE Group: RiB
-# SAUCE Date: 19980702
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: the legion by {YBERPUNCh | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-010-cph-leg
 
 Write-Host '
   [1m [0;1;30m              [0;36m          ░░            [0;1;36m▄▄█[0;1;37m█▄[0;36m    [0m

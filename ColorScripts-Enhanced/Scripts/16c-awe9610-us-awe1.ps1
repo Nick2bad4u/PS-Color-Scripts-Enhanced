@@ -1,18 +1,4 @@
-﻿# Converted from: US-AWE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9610/raw/US-AWE1.ANS
-# Source Revision: archive-sha256:2f6e3c8c2e64cc8380afc3a639da2793e02ea87790d90b8b4bede4b760040753
-# Source SHA-256: 45281c428640242a028d737aa5e44d08d952a3165215933a1791fc7df103340d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-AWE1.ANS by Fluor + Eerie (awe lettering); released in awe9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: AWE Promo.
-# SAUCE Author: Fluor / Eerie
-# SAUCE Group: awe lettering
-# SAUCE Date: 19960929
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: AWE Promo. by Fluor + Eerie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9610-us-awe1
 
 Write-Host '
 

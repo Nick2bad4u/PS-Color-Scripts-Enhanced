@@ -1,18 +1,4 @@
-﻿# Converted from: US-SLAK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise06/raw/US-SLAK.ANS
-# Source Revision: archive-sha256:62459159460ab7090ce349ed14c61a1bc8d3aa5785e22124741220f6b82d2ab8
-# Source SHA-256: 52e9be4898219937de473c96b539ed8a8875afe04e789b86e74909ee1839191a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SLAK.ANS by Keetar + Zatchmo (Uprise); released in uprise06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Slakk
-# SAUCE Author: Zatchmo & Keetar
-# SAUCE Group: Uprise
-# SAUCE Date: 19980724
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Slakk by Keetar + Zatchmo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise06-us-slak
 
 Write-Host '
           [34m    [0;30;44m▓[0;34;40m                              ▐[0;1;34;44m▄[0;36;44m▄[0;34;40m▌[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: CL!-HB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fdr-01/raw/CL!-HB.ANS
-# Source Revision: archive-sha256:9413b8317ae532a8321557d5d3d1cb08aadb3372c739437bc2fde54e7706a363
-# Source SHA-256: dedccf6e81797cf4a8bf5e356385b09afbc53300fd1d61d491a130607f69130b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-HB.ANS by Cleaner (Fire Dream); released in fdr-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Hidden Bytes
-# SAUCE Author: Cleaner
-# SAUCE Group: Fire Dream
-# SAUCE Date: 20121225
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Hidden Bytes by Cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fdr-01-cl-hb
 
 Write-Host '
                               [32;40m■[0m

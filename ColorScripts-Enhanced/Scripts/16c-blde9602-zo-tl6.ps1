@@ -1,18 +1,4 @@
-﻿# Converted from: ZO-TL6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9602/raw/ZO-TL6.ANS
-# Source Revision: archive-sha256:5e4639f25c539923328bf5d3dcaf0345f7881a951b04cd174712ef6ec2433a3a
-# Source SHA-256: 5f71ccedd6dc4d5f6bbffc50a0f0190cd2fb329c99f938eb910eadc1d41f048c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZO-TL6.ANS by zork (blade productions); released in blde9602 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the legacy!
-# SAUCE Author: zork
-# SAUCE Group: blade productions
-# SAUCE Date: 19960202
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: the legacy! by zork | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9602-zo-tl6
 
 Write-Host '
 [36m███[0;1;36;46m■▀▀[0;36m█[0;1;36;46m▄[0;36m███[0;30;46m             [0;36;40m████████▓▀▀▀▀▀ ▄▄▄▄[0;30;46m                     [0;36;40m█[0;30;46m              [0m

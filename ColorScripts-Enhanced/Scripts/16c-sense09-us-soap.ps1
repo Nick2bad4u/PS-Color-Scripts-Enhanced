@@ -1,18 +1,4 @@
-﻿# Converted from: US-SOAP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense09/raw/US-SOAP.ANS
-# Source Revision: archive-sha256:b3e3029d8f7c1c608f2835055baa2116210e782109ea7dc0a1af3ca3d050e5b9
-# Source SHA-256: 79890bc9de28039066e46f7600c673ee8c1dfcb5014993fab1efbaca08817491
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SOAP.ANS by Scrye + Psychological Warfare (PuRg & SeNSE); released in sense09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Soap!@#!@!$
-# SAUCE Author: Psy-War & Scrye
-# SAUCE Group: PuRg & SeNSE
-# SAUCE Date: 19980508
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Soap!@#!@!$ by Scrye + Psychological Warfare | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense09-us-soap
 
 Write-Host '
                                                 [1;36m  ▄[0m    [1;36m▄▄▄[0m

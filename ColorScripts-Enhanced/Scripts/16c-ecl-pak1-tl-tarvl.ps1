@@ -1,18 +1,4 @@
-﻿# Converted from: TL!TARVL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak1/raw/TL!TARVL.ANS
-# Source Revision: archive-sha256:6b35b56dc24903414bd16ecb32b5990f418418f7d4290c94fd51891e14acec7b
-# Source SHA-256: 179a0476ee07866c8290478291fb7f95dd92bff366ca0b2e1726a32ba9cd55b2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TL!TARVL.ANS by Timeless + The Avenger (ecolove); released in ecl-pak1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: revolution
-# SAUCE Author: tl/ta
-# SAUCE Group: ecolove
-# SAUCE Date: 19971123
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: revolution by Timeless + The Avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak1-tl-tarvl
 
 Write-Host '
 

@@ -1,19 +1,4 @@
-﻿# Converted from: tnt-w1zr.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz15/raw/tnt-w1zr.ans
-# Source Revision: archive-sha256:d35f5b18ac3e8cbe3d6d17eab809a7e050609a8e3cc7d160d14a87c59a191c12
-# Source SHA-256: 0df1c11d210136e03175c2116afeb36b9ed242eb3c342383041b6c27ab396a6c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tnt-w1zr.ans by tainted (blocktronics); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: wizards rainbow bbs
-# SAUCE Author: tainted
-# SAUCE Group: blocktronics
-# SAUCE Date: 20220614
-# SAUCE Dimensions: 80x190
-# SAUCE Font: IBM VGA
-# Lines: 151-190
-# Columns: 1-80
+﻿# Artwork: wizards rainbow bbs by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz15-tnt-w1zr-part04
 
 Write-Host '
 [1;30;40m▓▓▓ █  ░ ░░     █  ░░░   [0;36m█[0;1;30m        ░░        ▒░ ▒▒░   ▐▓          ░    ▀▓▓▓▓▓▓▓▓▓[0m

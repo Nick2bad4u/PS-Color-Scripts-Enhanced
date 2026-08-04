@@ -1,17 +1,4 @@
-﻿# Converted from: CL!-BDAY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-05/raw/CL!-BDAY.ANS
-# Source Revision: archive-sha256:32c1f67ac6058d9066b580c3bd5854b0529a1844e2dce2e40def969bcce3e47d
-# Source SHA-256: 34547461352522ed78ae002fd3c413cf40d873c1da4973a06de021b5aa3678f9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-BDAY.ANS by .:(cLEANER):. (.:(nITROPHUSION):.); released in nph-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: .:(bIRTHDAY^fINAL^aNSI):.
-# SAUCE Author: .:(cLEANER):.
-# SAUCE Group: .:(nITROPHUSION):.
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: .:(bIRTHDAY^fINAL^aNSI):. by .:(cLEANER):. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-05-cl-bday
 
 Write-Host '
                     [31m▄[0;1;33;41m░[0;31m▄[0m

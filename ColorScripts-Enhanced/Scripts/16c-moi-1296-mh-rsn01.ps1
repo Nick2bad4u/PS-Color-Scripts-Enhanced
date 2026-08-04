@@ -1,13 +1,4 @@
-﻿# Converted from: MH!RSN01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moi-1296/raw/MH!RSN01.ANS
-# Source Revision: archive-sha256:43ba331c3216dae712e2fc42adda89bce3b1a616e82a7a9594fb7cc9a7f26e06
-# Source SHA-256: 7e7316a450a1d9731a5be02775c3761fbd7d58cbbf120d69e322d04673bcfd6f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MH!RSN01.ANS by Maddog Hoek (moi-1296); released in moi-1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: MH!RSN01.ANS by Maddog Hoek | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moi-1296-mh-rsn01
 
 Write-Host '
    [1;30m·[0m■[1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;35mmh[0m

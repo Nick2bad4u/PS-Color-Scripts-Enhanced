@@ -1,18 +1,4 @@
-﻿# Converted from: IW-VEIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/s0ap0000/raw/IW-VEIN.ANS
-# Source Revision: archive-sha256:1a332d1124ff7969ce5488f98dc304604521f709a74ee396411fde849dcfa824
-# Source SHA-256: 7d6c454b6ebeb0d3e250c3d4ccf1be6acae71973aab1a9102ba8907092f8db52
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IW-VEIN.ANS by illwill (sOap produkshunz); released in s0ap0000 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: vein
-# SAUCE Author: illwill
-# SAUCE Group: sOap produkshunz
-# SAUCE Date: 19961006
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: vein by illwill | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-s0ap0000-iw-vein
 
 Write-Host '
 

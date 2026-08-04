@@ -1,18 +1,4 @@
-﻿# Converted from: TRE-IOM2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/int-0995/raw/TRE-IOM2.ANS
-# Source Revision: archive-sha256:bcf48d9aa55b396f831cc9380a5ecbb5118bba42862ddf81f69c47e56ac23dad
-# Source SHA-256: f1cf61cebc2f1e20cea0c27d850ace08fd2ea9339772358f61136627d070edfa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TRE-IOM2.ANS by Treason (Integrity); released in int-0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Ides of March
-# SAUCE Author: Treason
-# SAUCE Group: Integrity
-# SAUCE Date: 19950831
-# SAUCE Dimensions: 80x25
-# Lines: 37-73
-# Columns: 1-80
+﻿# Artwork: Ides of March by Treason | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-int-0995-tre-iom2-part02
 
 Write-Host '
      [30;41m█░░[0;31;40m▀  ▄▄[0;1;31;41m▒░[0;31m█████▄▄ ■▀▄▄▄▄▄▄▄▀[0;30;41m░[0;31;40m▄[0;34;40m▀[0;30;44m▒▒[0;34;40m▀▀▄█[0;37;40m [0;34;40m ▀[0;30;44m▓▓▒▒▒▓[0;34;40m▀▀▀[0;1;30;40m [0;34m▄[0;30;44m▒░[0;1;30;40m [0m [1;30;47m▓░ [0;1;37;47m    ░░▓▒  [0;1;30;40m [0;34m [0;1;34;44m░▒░[0;30;44m░[0;34;40m [0m

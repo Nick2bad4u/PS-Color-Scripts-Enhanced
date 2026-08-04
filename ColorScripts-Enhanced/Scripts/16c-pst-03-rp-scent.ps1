@@ -1,18 +1,4 @@
-﻿# Converted from: RP-SCENT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pst-03/raw/RP-SCENT.ANS
-# Source Revision: archive-sha256:790a5943bb83e03de803042f46efc12c8bbc156ef8d2077dba71d871cf6b85dc
-# Source SHA-256: 4ed334920e3897c2b6fd221eea66782949f64dcf44c6679e04f39cf0ce6a9598
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RP-SCENT.ANS by rippa (polyester); released in pst-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: scent bbs
-# SAUCE Author: rippa
-# SAUCE Group: polyester
-# SAUCE Date: 19980422
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: scent bbs by rippa | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pst-03-rp-scent
 
 Write-Host '
 [35mtoxix''s[0m                  [1;30m        [0m       [35m   ▀ ▄■ [0m                        [1;30m░[0m

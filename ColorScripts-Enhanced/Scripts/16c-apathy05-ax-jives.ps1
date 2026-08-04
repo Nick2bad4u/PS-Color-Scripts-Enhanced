@@ -1,18 +1,4 @@
-﻿# Converted from: AX-JIVES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy05/raw/AX-JIVES.ANS
-# Source Revision: archive-sha256:2e1c7dd4c451a5d024352ee6b56eba52a2d5ba6a7d73a9cc34cff58fc603ca18
-# Source SHA-256: 685e97f2c71a365b37af492d41744cb959417fd370b48482297cc90fca358151
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AX-JIVES.ANS by Apox (READ THE INI FILE); released in apathy05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Jive Soda
-# SAUCE Author: Apox
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19951228
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Jive Soda by Apox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy05-ax-jives
 
 Write-Host '
                  [1;30m░[0;1;37;47m▀[0;1;30;47m▄[0;1;30;40m██████▓▒░[0m    [36m░░░░░░[0m      [36m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: ROY-DNSA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roy-stuf/raw/ROY-DNSA.ANS
-# Source Revision: archive-sha256:1f203f95f339c258e43a9098f8d2e689ed73de537b1cfe6bea312dfc156f1358
-# Source SHA-256: 9cc042e9e1b1114a47d83e623b469c5c5d802846fcdad5826648b421c6ae9074
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ROY-DNSA.ANS by Roy (roy-stuf); released in roy-stuf and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: ROY-DNSA.ANS by Roy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roy-stuf-roy-dnsa
 
 Write-Host '
                [1;34m▄[0;34m▄▄▄[0m

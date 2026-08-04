@@ -1,17 +1,4 @@
-﻿# Converted from: HZ-GOODR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stream02/raw/HZ-GOODR.ANS
-# Source Revision: archive-sha256:99ccdbf56a1596d90c9717159e36ad8c588225a8a303f91c5563e6289f76bfcb
-# Source SHA-256: 5371a0996548fecbe9b3e425b049d6da1a691bf47061883e818461f232a2caab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HZ-GOODR.ANS by horza (% stream %); released in stream02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: good riddance logo + comic rip
-# SAUCE Author: horza
-# SAUCE Group: % stream %
-# SAUCE Date: 19961230
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: good riddance logo + comic rip by horza | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stream02-hz-goodr
 
 Write-Host '
 [1;30m      ▒░  ▒░        ░         ▒░    ░░▒  ░                ▒▒░░                 [0m

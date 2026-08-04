@@ -1,18 +1,4 @@
-﻿# Converted from: FL-GKA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m-9801/raw/FL-GKA.ANS
-# Source Revision: archive-sha256:68027b949f7edfef662f12aa514dfc21e6e156e3984f9866a81997534ce6ce87
-# Source SHA-256: 22fc3b501f7eb46c76c4f9fd9a656cf429801f84a6d05e385a492a07e711003e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-GKA.ANS by Geekboy + The Extremist (mistigris); released in m-9801 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Girls kick ass!
-# SAUCE Author: flibbles and thext
-# SAUCE Group: mistigris
-# SAUCE Date: 19980124
-# SAUCE Dimensions: 80x25
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Girls kick ass! by Geekboy + The Extremist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m-9801-fl-gka
 
 Write-Host '
 [1;30m                                       [0m                          [1;37m░░▄▄[0m

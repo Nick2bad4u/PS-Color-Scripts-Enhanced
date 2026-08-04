@@ -1,19 +1,4 @@
-﻿# Converted from: FB-HIPPIES-ALIENS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2023a/raw/FB-HIPPIES-ALIENS.ANS
-# Source Revision: archive-sha256:7bc66b402c6ecbb0a3d7da712390840d202c88fb2fe0c40fdd417fcec6520299
-# Source SHA-256: 8124012849f54478760fcc5cf5cd1b22e45eac312d32956446105145ccbb06a5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FB-HIPPIES-ALIENS.ANS by fOnebOne (anemia); released in blndr2023a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: blender23a
-# SAUCE Author: fOnebOne
-# SAUCE Group: anemia
-# SAUCE Date: 20230121
-# SAUCE Dimensions: 80x200
-# SAUCE Font: IBM VGA
-# Lines: 101-150
-# Columns: 1-80
+﻿# Artwork: blender23a by fOnebOne | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2023a-fb-hippies-aliens-part03
 
 Write-Host '
 [1;30;45m░[0;35m██[0;37m [0;30;43m▓▓▓[0;33;40m█▄▄▄▄▄[0;37;40m         [0;33;40m▄▄▄▄[0;37;40m    [0;33;40m▀▀▀▄▄▄▄▄▄▄██████████[0;37;40m [0;35;40m▄██████[0;1;30;45m░░░░░[0;35m▀▀[0;37m  ▄[0;1;37;47m▒▒▒▒▒▒▒▒▒▒▒[0m█

@@ -1,18 +1,4 @@
-﻿# Converted from: SY-LOGN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy08/raw/SY-LOGN1.ANS
-# Source Revision: archive-sha256:dddbecd097515d8bc284ea8726046b80b56f2576fe024d98d7a392e98f8d9a1f
-# Source SHA-256: d4025656a863e31c968079028c759b6e5fd680eba2c3cd17b4b239b2ca9acb4c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SY-LOGN1.ANS by shoony (apapathy); released in apathy08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: phat ass login matrix
-# SAUCE Author: shoony
-# SAUCE Group: apapathy
-# SAUCE Date: 19960402
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: phat ass login matrix by shoony | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy08-sy-logn1
 
 Write-Host '
  [1ml[0m O g o n   [1;33m [0m [1;33m     [0m    [1;33m▄▄▄▄▄[0m    [1;33m           [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: we-enthral.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/we-enthral.ans
-# Source Revision: archive-sha256:5d665873486ffcf559d33043557e11d7636d0c5a5b53a69dd3e7cf81117997ef
-# Source SHA-256: ab08f5a08998d88c830bb187f3491783e6ced21121b775b73cab2b073be81df1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-enthral.ans by Enzo + Avenging Angel + Pook (blocktronics_codename_chris_wirth); released in blocktronics_codename_chris_wirth and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 23-62
-# Columns: 1-80
+﻿# Artwork: we-enthral.ans by Enzo + Avenging Angel + Pook | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-codename-chris-wirth-we-enthral-part02
 
 Write-Host '
                            [37m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: CY-CELT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0396/raw/CY-CELT1.ANS
-# Source Revision: archive-sha256:1c74698b6bb36c67ca170e4e3759a91f94a3423157bd644c80d820a8fe56fd8d
-# Source SHA-256: 27eb706d231d5befcc08980c492150610f8df848cce83ae226a0589f21c5358e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CY-CELT1.ANS by Cybernary (fire); released in fire0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: celtic designs #01
-# SAUCE Author: Cybernary
-# SAUCE Group: fire
-# SAUCE Date: 19960215
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: celtic designs #01 by Cybernary | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0396-cy-celt1
 
 Write-Host '
                                       [1;30m [0m

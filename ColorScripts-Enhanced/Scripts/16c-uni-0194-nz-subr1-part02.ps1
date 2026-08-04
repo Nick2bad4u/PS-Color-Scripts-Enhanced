@@ -1,13 +1,4 @@
-﻿# Converted from: NZ-SUBR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0194/raw/NZ-SUBR1.ANS
-# Source Revision: archive-sha256:1a6a171c9b24699837f95386495aeef99b53317aa180410eebab79825b385c68
-# Source SHA-256: cbc01a41f980137eec2cce9dfc5e4d4bc813cbd756ca497c7dbe9ac443ff5dbd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NZ-SUBR1.ANS by Nailz (uni-0194); released in uni-0194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 22-71
-# Columns: 1-80
+﻿# Artwork: NZ-SUBR1.ANS by Nailz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0194-nz-subr1-part02
 
 Write-Host '
                                 [1;31m▄[0;1;31;47m▓▓[0;1;31m▄[0m      [31m▄▄▄[0m

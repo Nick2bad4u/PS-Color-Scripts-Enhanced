@@ -1,19 +1,4 @@
-﻿# Converted from: us-kielbasa_and_pierogies.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz11/raw/us-kielbasa_and_pierogies.ans
-# Source Revision: archive-sha256:68621cb5db58e1d89f5deb5798f3990fa932a6b4eb91cc1511f3f4c157d26f38
-# Source SHA-256: 11cfc0eba7989cd8da154aa66cfcdfa99c1a8db8c54216ed5741117612b1dd84
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-kielbasa_and_pierogies.ans by Warpus + Shapes (LAZARUS); released in laz11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Some Kielbasa and Some Pierogies
-# SAUCE Author: shapes & warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20200613
-# SAUCE Dimensions: 80x70
-# SAUCE Font: IBM VGA
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Some Kielbasa and Some Pierogies by Warpus + Shapes | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz11-us-kielbasa-and-pierogies-part01
 
 Write-Host '
 

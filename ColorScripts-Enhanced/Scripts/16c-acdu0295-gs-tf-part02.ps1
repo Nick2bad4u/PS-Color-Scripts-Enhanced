@@ -1,18 +1,4 @@
-﻿# Converted from: GS-TF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0295/raw/GS-TF.ANS
-# Source Revision: archive-sha256:783416b41a421333c3ef8049cdade58e4e0c645dd104994cd95b81b7407d25ff
-# Source SHA-256: 7cf6a6edec9d45ecf11b8e7a22f510ab92c2cafc03756fcfed0c291a9d623d49
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GS-TF.ANS by Gangstar (ACiD Productions); released in acdu0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Terra Firma
-# SAUCE Author: Gangstar
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950127
-# SAUCE Dimensions: 80x108
-# Lines: 19-64
-# Columns: 1-80
+﻿# Artwork: Terra Firma by Gangstar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0295-gs-tf-part02
 
 Write-Host '
 [1m  [0;1;30m░[0m                                                         [1;30m░[0m                 [1;30m░[0m

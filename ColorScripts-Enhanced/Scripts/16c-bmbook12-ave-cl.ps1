@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-&CL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook12/raw/AVE-%26CL.ANS
-# Source Revision: archive-sha256:ec66f5bb4ed961133c52314c375d67af30a5295789eb6bfc6eda91ebf8999fc2
-# Source SHA-256: 6e338a66211397f57984c847346b7ba24e0afc544450e69173e594cf927dc84c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-&CL.ANS by avenger (black maiden); released in bmbook12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: double ampersand
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19970228
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: double ampersand by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook12-ave-cl
 
 Write-Host '
                             [1;32m ░▄▄[0;36m▄▄▄▬▬[0;37m [0;36m▬[0m            [1;32m  [0;31m  [0m

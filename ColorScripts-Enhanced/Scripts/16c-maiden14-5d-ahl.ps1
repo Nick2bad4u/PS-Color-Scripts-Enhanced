@@ -1,18 +1,4 @@
-﻿# Converted from: 5D-AHL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden14/raw/5D-AHL.ANS
-# Source Revision: archive-sha256:8484fc17833e455250727f80fdc56cc19e17aec4fba2f82e3b86585a9e08cb6c
-# Source SHA-256: 124d6c503b214192e20ca9f69fafed50af3844e2175ad0c230f7858453edb6bd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5D-AHL.ANS by 5layer dreams (maid ey maid ey!); released in maiden14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: alien hideout logoff!@
-# SAUCE Author: 5layer dreams
-# SAUCE Group: maid ey maid ey!
-# SAUCE Date: 19971227
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: alien hideout logoff!@ by 5layer dreams | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden14-5d-ahl
 
 Write-Host '
                   [31m▐[0;1;31m▀[0;31m▀▀▀▀▀▀▀[0;1;31;41m▄ [0;31m█▀▌[0;1;30m   [0;1;31m▀[0;1;31;41m▄[0;31m███[0;1;37m██[0;1;30m   [0;1;31;41m░░[0;31m██▀▀▀▌[0;1;30m▄[0m▄[1;30m▐▄▄▄▄▄▄▄[0m▄[1;30m▄[0m

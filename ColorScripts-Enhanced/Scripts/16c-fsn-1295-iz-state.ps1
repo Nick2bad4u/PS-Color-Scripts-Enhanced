@@ -1,18 +1,4 @@
-﻿# Converted from: IZ!STATE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-1295/raw/IZ!STATE.ANS
-# Source Revision: archive-sha256:7dd39ff51d45b4adf63268bbfaef29210de6bedf0c23fc6883b68ab1792a9761
-# Source SHA-256: 8f71c74698aa27adafca50501c49dea5f4f961af012d07e4cd5d356ebbfec7ea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ!STATE.ANS by ize (fusion); released in fsn-1295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: stateofart
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19951210
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: stateofart by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-1295-iz-state
 
 Write-Host '
      [1m▄▄▄▄▄[0m▄[1m▄[0m▄▄▄▄[1;30m▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m     [1m▄▄▄▄▄[0m▄[1m▄[0m▄▄▄[1;30m▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

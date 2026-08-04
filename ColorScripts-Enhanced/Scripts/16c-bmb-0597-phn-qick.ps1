@@ -1,17 +1,4 @@
-﻿# Converted from: PHN-QICK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0597/raw/PHN-QICK.ANS
-# Source Revision: archive-sha256:77e5528a945f670ea04f743fe66c6a4dc19b897ad7883b4458eeee0528f25975
-# Source SHA-256: 205256ac0fb4071bffeed61aefbc052e414c02da0832480c99b6bc30f11a6072
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PHN-QICK.ANS by Phanteon (Bamboosh); released in bmb-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Quick login
-# SAUCE Author: Phanteon
-# SAUCE Group: Bamboosh
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Quick login by Phanteon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0597-phn-qick
 
 Write-Host '
                                                            [36m▄▄████████[0;1;36;46m■▄[0;36m▄▄[0m

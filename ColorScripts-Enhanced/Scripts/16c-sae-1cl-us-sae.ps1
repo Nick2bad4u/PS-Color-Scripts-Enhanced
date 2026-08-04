@@ -1,13 +1,4 @@
-﻿# Converted from: US-SAE!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sae-1cl/raw/US-SAE!.ANS
-# Source Revision: archive-sha256:49489b08e47b889d43c834d8f1938caf262f1628239a4a7cfdddcca4d72e80b4
-# Source SHA-256: 2027abc54dc6dd4f68aa3dcca8c396841cb6291d98580bcb357ae4e3b5374921
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SAE!.ANS by Ellus + M0dium (sae-1cl); released in sae-1cl and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: US-SAE!.ANS by Ellus + M0dium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sae-1cl-us-sae
 
 Write-Host '
 [1m                [0m      [31m░░░░░[0m                   [37m                                  [0m

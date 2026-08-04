@@ -1,18 +1,4 @@
-﻿# Converted from: PW-NA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9609/raw/PW-NA1.ANS
-# Source Revision: archive-sha256:ebbff7e3049916d809d893ea2aa04734229c43fb86ad9d17682073c079d4ff3a
-# Source SHA-256: fbcb0ec8d95e685324e9e159208012da43db64cf626c922033217d8bfd4fa730
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PW-NA1.ANS by pennywise (blade); released in blde9609 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: nuclea? abound
-# SAUCE Author: pennywise
-# SAUCE Group: blade
-# SAUCE Date: 19960819
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: nuclea? abound by pennywise | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9609-pw-na1
 
 Write-Host '
                                                                      ███[1;47m░░▒▒[0m

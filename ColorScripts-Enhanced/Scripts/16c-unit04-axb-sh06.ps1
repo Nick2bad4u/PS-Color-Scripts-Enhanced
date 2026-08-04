@@ -1,17 +1,4 @@
-﻿# Converted from: AXB-SH06.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/unit04/raw/AXB-SH06.ANS
-# Source Revision: archive-sha256:19d9f1ce4424287ed55941eccbdcdbba69ca068d13f62072d1264fc7c4c557f1
-# Source SHA-256: d934a3a233a45b643e48bec30c37c1a93297c35b76947ee43c248254e97509d8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AXB-SH06.ANS by aXB (unit04); released in unit04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Severed Head Ansi.
-# SAUCE Author: aXB
-# SAUCE Date: 19961218
-# SAUCE Dimensions: 80x48
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: Severed Head Ansi. by aXB | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-unit04-axb-sh06
 
 Write-Host '
 [34m██▀▓▒░[0m     [34m▀█▓▒░▀▀▀ ░       [0;37m [0;34m▀▀▀███▓▒░[0;37m [0;34m░[0;37m  [0;34m [0;37munit productions(C)1997[0m   [34m▀▀[0;37m [0;34m▀[0;37m  [0;34m▀████[0m

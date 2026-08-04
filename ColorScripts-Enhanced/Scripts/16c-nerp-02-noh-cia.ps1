@@ -1,18 +1,4 @@
-﻿# Converted from: NOH-CIA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-02/raw/NOH-CIA.ANS
-# Source Revision: archive-sha256:3fd9f194d865cfc24c90bdf11a27528d8d82a8ba9c376ebed567183a2f95a9f3
-# Source SHA-256: 601fbf771e5b61d881acfd39447d77701f417a56a90e7802b2105c7f6d6a3608
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-CIA.ANS by nOah? (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: cia promo!
-# SAUCE Author: nOah?
-# SAUCE Group: nerp
-# SAUCE Date: 19971102
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: cia promo! by nOah? | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-02-noh-cia
 
 Write-Host '
       [1;30m   ▄▐ ░░▄[0;31m  [0;1;30m▄▄▐ ▄▄▄▄ [0m

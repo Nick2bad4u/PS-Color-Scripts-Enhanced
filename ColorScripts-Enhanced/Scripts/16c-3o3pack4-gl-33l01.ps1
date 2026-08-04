@@ -1,13 +1,4 @@
-﻿# Converted from: GL-33L01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/3o3pack4/raw/GL-33L01.ANS
-# Source Revision: archive-sha256:3a7324cf28c2b64b546cb6909029bbdfd9f549d1041617fe77acf1890b6f6ec6
-# Source SHA-256: eff584a08ca94f5567974fd90d0bc5f2b24cc5ea07f5569b6130d8ae786ffdb3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GL-33L01.ANS by Gasol (3o3pack4); released in 3o3pack4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: GL-33L01.ANS by Gasol | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-3o3pack4-gl-33l01
 
 Write-Host '
                             [35m░[0m                            [35m░[0m

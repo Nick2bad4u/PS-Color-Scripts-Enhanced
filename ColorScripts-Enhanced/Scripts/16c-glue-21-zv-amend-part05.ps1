@@ -1,18 +1,4 @@
-﻿# Converted from: ZV-AMEND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-21/raw/ZV-AMEND.ANS
-# Source Revision: archive-sha256:f82ee46d8be1d82ea17d8bdc07ad3071d4259c4331c1829c972b5ae2082ebcd2
-# Source SHA-256: fdc9530c8e5834a4a8f609a4e6f4d467a92f09122b89d980a12b191fe2953f55
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZV-AMEND.ANS by zeroVision (gluE!); released in glue-21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: AMEND
-# SAUCE Author: zeroVision
-# SAUCE Group: gluE!
-# SAUCE Date: 19990429
-# SAUCE Dimensions: 80x235
-# Lines: 189-235
-# Columns: 1-80
+﻿# Artwork: AMEND by zeroVision | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-21-zv-amend-part05
 
 Write-Host '
 [34m████▌[0m                   [34m▐[0;37m [0;34m░[0m                                 [34m█[0;1;30;44m░░░▒▒▒▒▒▓▓▓▓[0;1;30;40m█▌[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: K1-STATM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-02/raw/K1-STATM.ANS
-# Source Revision: archive-sha256:bb8ce420598b36a52d4f9cba3bdfbad44af088efeb11a778f52d121622116149
-# Source SHA-256: 50a44da1eba533084b896beeabf4347e123e8f332d2d1bdf67016155189bf526
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K1-STATM.ANS by Knocturnal (Hieroglyphics); released in hiero-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Statik Empire
-# SAUCE Author: Knocturnal
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20001002
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Statik Empire by Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-02-k1-statm
 
 Write-Host '
                      [1;36m▄▄[0;36m▄[0m                [36m▄▄▄▄[0m      [37m [0;36m▄[0;1;36m▄[0;36m▄[0;37m           [0m

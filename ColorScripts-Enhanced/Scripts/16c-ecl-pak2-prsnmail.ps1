@@ -1,18 +1,4 @@
-﻿# Converted from: PRSNMAIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak2/raw/PRSNMAIL.ANS
-# Source Revision: archive-sha256:c83fd66fd5682c2a8b3a34174fe62c7584ac006f8517d86002eef3fdd8671285
-# Source SHA-256: bc60c3764fc56ead849d49157fcddb6823162c5a8f0094acc138a7839ca9944f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PRSNMAIL.ANS by President + Snowball (ecolove); released in ecl-pak2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: readmsg new layout!
-# SAUCE Author: president & snowball
-# SAUCE Group: ecolove
-# SAUCE Date: 19971223
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: readmsg new layout! by President + Snowball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak2-prsnmail
 
 Write-Host '
     [1;30m▄[0;33m▄▄▄▄[0;1;30;43m▀[0;33m██[0;1;30;43m░░ [0;33m█▀▀▀[0m   [1;30m▀[0;33m▀▀▀▀[0;1;30;43m▄▒[0;33m▄▄▄▄▄▄[0m    [1;30m [0;33m▄▄[0;31m▄[0;1;32m      [0;32m▐[0;1;32m███▌ [0;33m▄[0;31m▄[0;1;32m [0;32m▄[0;1;32;42m▄[0;1;32;40m█▌ [0;32m▄[0;1;32;42m▄[0;1;32;40m▀ [0;32m▄[0;1;32m▄▄   [0m    [1;32m   [0m

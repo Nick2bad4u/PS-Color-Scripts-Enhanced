@@ -1,18 +1,4 @@
-﻿# Converted from: CG-HW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9610/raw/CG-HW.ANS
-# Source Revision: archive-sha256:5789c5cb1a5ac21acfd3fa7dc4a5a88db3f4a5b9545409ca8ca34a86bd816077
-# Source SHA-256: 3ca77f2be8429e7233dc76bb9a4f6faf4a939ca2f926f45256c75f1c405e7722
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-HW.ANS by Coug + Eerie + Crayon (Samsara); released in sms-9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Hot Worms
-# SAUCE Author: Coug
-# SAUCE Group: Samsara
-# SAUCE Date: 19961006
-# SAUCE Dimensions: 80x87
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Hot Worms by Coug + Eerie + Crayon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9610-cg-hw-part01
 
 Write-Host '
 [1m[0;34m[0;1;37m[0m[34m[0m                        [37m  [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: e0-3pcs.ice
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-200206a/raw/e0-3pcs.ice
-# Source Revision: archive-sha256:12aaa7905462d60ba25ce15636cd39a8662dcdc9ecfb76bba75b7e6c43596242
-# Source SHA-256: 1baa27add6f642227aeef38aa22bb97b37df612e1aac6a27bdbaf05a557f88a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: e0-3pcs.ice by Enzo (iCE); released in ice-200206a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Small pieces
-# SAUCE Author: Enzo
-# SAUCE Group: iCE
-# SAUCE Date: 20020622
-# SAUCE Dimensions: 80x49
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Small pieces by Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-200206a-e0-3pcs
 
 Write-Host '
  [33m [0;1;30m [0m                                                       [1;30m▄[0m▄[1;30;47m▀▀[0m████[1;47m░░░[0;1;30;47m▀[0m▄▄▄    [32m [0;1;30m▄[0;32m▄[0m

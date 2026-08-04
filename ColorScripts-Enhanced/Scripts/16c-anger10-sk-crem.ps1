@@ -1,16 +1,4 @@
-﻿# Converted from: SK!-CREM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger10/raw/SK!-CREM.ANS
-# Source Revision: archive-sha256:a84fd6d21030f26985899f91a956dceb5637b0b2cbc8b90ab0b918890b9e87cd
-# Source SHA-256: 7de0bb90d90fe184c3236792bd4e2e01995b69657f122aa760dcb7d74d626edd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!-CREM.ANS by seeker (anger); released in anger10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: cream
-# SAUCE Author: seeker
-# SAUCE Group: anger
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: cream by seeker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger10-sk-crem
 
 Write-Host '
 [1;34;40m   [0m             [1;32m$b╓,....,id$╓,[0;32m..[0;1;32m.$%$si[0;32ms%$,db[0;1;32m╓[0;32m,..,╖d[0m

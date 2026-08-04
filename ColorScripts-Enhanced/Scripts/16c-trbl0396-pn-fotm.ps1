@@ -1,18 +1,4 @@
-﻿# Converted from: PN-FOTM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/trbl0396/raw/PN-FOTM.ANS
-# Source Revision: archive-sha256:1371a93bc4fa9a6e57d72c9595f6599e24e4fb78212e18583ed9ea5e55e8ea22
-# Source SHA-256: 926eb758942e56f100f539171bcb419cf0c3469e40e3247486fadf815846a88d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PN-FOTM.ANS by Penn (Tribal); released in trbl0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fire on the Mountian
-# SAUCE Author: Penn
-# SAUCE Group: Tribal
-# SAUCE Date: 19960203
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Fire on the Mountian by Penn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-trbl0396-pn-fotm
 
 Write-Host '
                                     [1;30m░[0m

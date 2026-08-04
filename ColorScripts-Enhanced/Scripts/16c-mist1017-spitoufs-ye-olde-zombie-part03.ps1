@@ -1,18 +1,4 @@
-﻿# Converted from: SPITOUFS-YE-OLDE-ZOMBIE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1017/raw/SPITOUFS-YE-OLDE-ZOMBIE.ANS
-# Source Revision: archive-sha256:6708b2e97ec89dc60aaa56555b5a6e3e3ca4c9669a03637f61c39b343bf7700c
-# Source SHA-256: f1273160b4a105d2aa51f4978568800fdd8c7982d50e59a792bd47e5291c0651
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPITOUFS-YE-OLDE-ZOMBIE.ANS by Spitoufs (Mistigris); released in mist1017 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Ye Olde Zombie
-# SAUCE Author: Spitoufs
-# SAUCE Group: Mistigris
-# SAUCE Date: 20161013
-# SAUCE Dimensions: 80x101
-# Lines: 69-102
-# Columns: 1-80
+﻿# Artwork: Ye Olde Zombie by Spitoufs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1017-spitoufs-ye-olde-zombie-part03
 
 Write-Host '
 [30;47m█[0;1;30;40m░[0;30;47m███████████[0;1;30;40m░[0;30;47m████████████████████████████████████████████████[0;1;30;40m░[0;30;41m▒▓█▒[0;1;30;41m▓[0;30m█[0;30;41m░[0;1;30;40m▓[0;1;30;43m▓[0;1;30;40m▓[0;1;30;41m▒[0;33m██[0;1;30;41m▒[0;1;30;40m▒[0;1;30;43m▒[0m

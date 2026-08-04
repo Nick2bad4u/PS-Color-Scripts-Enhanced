@@ -1,18 +1,4 @@
-﻿# Converted from: TY-RUST1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ws-9509/raw/TY-RUST1.ANS
-# Source Revision: archive-sha256:f80be9f57a72f3731fd02149f3cc3f702afe87dd851a20e852584349c036c76a
-# Source SHA-256: ab7217bb6714e656553db1ef1c84b2cd8ddcd4654d163a10e564bf6b0be418b7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TY-RUST1.ANS by tyme warner (dot) (READ THE INI FILE); released in ws-9509 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: rust.  yuck. :)
-# SAUCE Author: tyme warner (dot)
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950905
-# SAUCE Dimensions: 80x25
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: rust. yuck. :) by tyme warner (dot) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ws-9509-ty-rust1
 
 Write-Host '
 ██[47m   [0;1;47m▄[0;1;40m██▀▀[0m       [1;36;40m▀[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MI-TFO!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pds-006/raw/MI-TFO!.ANS
-# Source Revision: archive-sha256:0045103f3f9fe71c2d296c9685d62daeb9e6d3ce6537438b1f64f51cc33a4a63
-# Source SHA-256: dbe22c162bd15aa12214fb153509e4675862d080c60d9e4976dd3f7dde2faac1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MI-TFO!.ANS by MONGi (paradise); released in pds-006 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the final outpost!
-# SAUCE Author: MONGi
-# SAUCE Group: paradise
-# SAUCE Date: 19960920
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: the final outpost! by MONGi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pds-006-mi-tfo
 
 Write-Host '
    [35m▀▀[0;37m  [0;35m▀[0;37m [0;35m▄▒▓▄▄▄▒▄▄▀[0;37m [0;35m▒▓▄[0m    [35m▄▄▄▀[0m      [35m▄[0m    [35m▄▀[0m     [35m▄▄▀[0;37m [0;35m▄ ▒░·[0;1;32mmongi[0;35m^[0;1;32mpds[0;35m·░▒██░▓███▄▀[0m

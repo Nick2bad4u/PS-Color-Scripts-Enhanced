@@ -1,18 +1,4 @@
-﻿# Converted from: KRZ-SHAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0497/raw/KRZ-SHAD.ANS
-# Source Revision: archive-sha256:0a24528ad1b8350dc6275ed84884990aa181682392c532082994d5872ceb5801
-# Source SHA-256: 881e4924f21b64834bea2074c1e55c593e889703b866d4a6818000a9fe327919
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KRZ-SHAD.ANS by krazie (fusion); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: >> shad
-# SAUCE Author: krazie
-# SAUCE Group: fusion
-# SAUCE Date: 19970329
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: >> shad by krazie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0497-krz-shad
 
 Write-Host '
     [1;35m   [0m      [30;46m██[0m       [1;35;40m    [0m          [1;35m     [0m                [36m   [0m    [30;45m▓▓[0m   [30;45m██[0m

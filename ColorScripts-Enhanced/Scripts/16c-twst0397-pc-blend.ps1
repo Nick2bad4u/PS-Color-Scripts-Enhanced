@@ -1,13 +1,4 @@
-﻿# Converted from: PC-BLEND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst0397/raw/PC-BLEND.ANS
-# Source Revision: archive-sha256:270113b0dc287d2000b7b6ec4e15ca8f25fdc0a29ca100fce3b52cae8465f5bd
-# Source SHA-256: fc17962ea83741a5fb84ea91c1501b2639ca3f126dc97c73a934cf6428be946a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-BLEND.ANS by Putrid Carcass (twst0397); released in twst0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: PC-BLEND.ANS by Putrid Carcass | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst0397-pc-blend
 
 Write-Host '
 

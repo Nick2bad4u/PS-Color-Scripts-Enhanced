@@ -1,13 +1,4 @@
-﻿# Converted from: bn-kd.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/supa01/raw/bn-kd.ans
-# Source Revision: archive-sha256:fefb1ef456aa1277865b48c9960c1a6cfebea9b542be416fed5e80476316b745
-# Source SHA-256: 4968853f886ba9f489f21d86780bf4086d4d26b61bb7f6c10dfb6744eb90fd1e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bn-kd.ans by Bern (supa01); released in supa01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: bn-kd.ans by Bern | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-supa01-bn-kd
 
 Write-Host '
 

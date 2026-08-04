@@ -1,18 +1,4 @@
-﻿# Converted from: DV8-RP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook13/raw/DV8-RP.ANS
-# Source Revision: archive-sha256:f383b37d2f0265a83b82afcdde57a4dae359d8a5127c467dcea28d0c8500d000
-# Source SHA-256: 6ee34d778973d2479505e5741f27c0bedf37bece6cb8b85828783d579bbb7888
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DV8-RP.ANS by dv8 (black maiden); released in bmbook13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: reflex point matrix
-# SAUCE Author: dv8
-# SAUCE Group: black maiden
-# SAUCE Date: 19970427
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: reflex point matrix by dv8 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook13-dv8-rp
 
 Write-Host '
 [30;47m►[0;37;40m►    [0;30;47m►[0;37;40m►                                 [0;30;47m►[0;37;40m►                                  [0m

@@ -1,19 +1,4 @@
-﻿# Converted from: AK-SYNC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-37/raw/AK-SYNC.ANS
-# Source Revision: archive-sha256:42913eb56742cc8575f96af5b8a027e63b5172fdb84271b8ac973c7820ea43ef
-# Source SHA-256: 2d3086ce4b73aa17a49d18a0bddd928912993163a92c839ba0ef0d8d01764166
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-SYNC.ANS by abstrakt (fire); released in fire-37 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: synchronet
-# SAUCE Author: abstrakt
-# SAUCE Group: fire
-# SAUCE Date: 20230707
-# SAUCE Dimensions: 80x49
-# SAUCE Font: IBM VGA
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: synchronet by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-37-ak-sync
 
 Write-Host '
 [38;2;171;171;171;48;2;0;0;0m                [0m

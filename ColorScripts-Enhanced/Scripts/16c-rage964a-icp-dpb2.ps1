@@ -1,18 +1,4 @@
-﻿# Converted from: ICP-DPB2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rage964a/raw/ICP-DPB2.ANS
-# Source Revision: archive-sha256:d0c496f91fed24b1bfed72b7c636d15c2adfb5af3e83677e65b76d3b0bb34662
-# Source SHA-256: ce9deee01d3ce2f1ebddc65185f963b0c163cb169705c8f469fa804c706b5347
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ICP-DPB2.ANS by Icepick (RAGE); released in rage964a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Disel Power 2
-# SAUCE Author: Icepick
-# SAUCE Group: RAGE
-# SAUCE Date: 19960414
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Disel Power 2 by Icepick | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rage964a-icp-dpb2
 
 Write-Host '
                    [36m▄▄[0m      [36m▄▄   [0;1;34m▄   [0;34m▄[0;1;34;44m█[0;34m▄[0m      [1;34m■▀▀ ▄ ▄▄[0m                      [34m▄[0;1;34;44m░[0;34m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PP-MI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ls-0196/raw/PP-MI.ANS
-# Source Revision: archive-sha256:e6338089906901bb9e6aca93a9ff9d6b4fd3db4c216130f5e44c067eeb119651
-# Source SHA-256: 700b6730dc6b5215c6835087c4957f99d969ebbf83c895958c27e753a079f604
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PP-MI.ANS by phorce phed (leper society); released in ls-0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: mirrored i-something
-# SAUCE Author: phorce phed
-# SAUCE Group: leper society
-# SAUCE Date: 19960120
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: mirrored i-something by phorce phed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ls-0196-pp-mi
 
 Write-Host '
 

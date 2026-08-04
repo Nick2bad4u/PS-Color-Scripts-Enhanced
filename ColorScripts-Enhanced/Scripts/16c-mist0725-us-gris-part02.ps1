@@ -1,19 +1,4 @@
-﻿# Converted from: US-GRIS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0725/raw/US-GRIS.ANS
-# Source Revision: archive-sha256:f8228caade9b0e4810405349f1959bd68f07890aea1a0d6aaa1eef2a322b5f21
-# Source SHA-256: 9b6e678f8a51796a48ac96d28114d9ab4f78fc5075fee19b0ce1fcf37537e268
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GRIS.ANS by Zeus Ii + Cthulu (Mistigris); released in mist0725 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Get down w/ the GRIS
-# SAUCE Author: Cthulu / Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20250731
-# SAUCE Dimensions: 80x57
-# SAUCE Font: IBM VGA
-# Lines: 29-57
-# Columns: 1-80
+﻿# Artwork: Get down w/ the GRIS by Zeus Ii + Cthulu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0725-us-gris-part02
 
 Write-Host '
 [1;36;42m█▄[0;32m██ █[0;1;36;42m█[0;32m██[0;35m [0;1;35;45m▄[0;35m█▄[0;32m▀[0;35m▄█[0;1;35;45m▄█[0;35m█▄█▀[0;32m  ▄[0;1;30m    [0;1;37m▀▀▀▀▀█████████████▀▀▀▀[0m [33m▄[0;37m [0;1;37m▄ █▄[0m [33m▀[0;1;30m    [0;32m▄▄▄██ █[0;1;36;42m▀[0;32m█ ▀ [0;35m▄▄▄█[0m

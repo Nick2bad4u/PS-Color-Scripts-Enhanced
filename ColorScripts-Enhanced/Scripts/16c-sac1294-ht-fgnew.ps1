@@ -1,18 +1,4 @@
-﻿# Converted from: HT-FGNEW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac1294/raw/HT-FGNEW.ANS
-# Source Revision: archive-sha256:4cf7765ee6660556cb900dacf0ec67f070b8e4df414172b5e01733a49d10031f
-# Source SHA-256: eb79b0e0b1472c01fe078a48911e623159a28831e29d9433e6b11c44d1184f78
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HT-FGNEW.ANS by hetero; released in sac1294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: THE FATE GATE
-# SAUCE Author: HETERO
-# SAUCE Group: LKCC
-# SAUCE Date: 19941209
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: THE FATE GATE by hetero | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac1294-ht-fgnew
 
 Write-Host '
 [1;30;44m▓▓▓▒▒▒▒▒░░░░[0;34m████[0;1;30;44m░░░░[0;34m████████████████████████▓▓██▓▓█[0;1;30;44m▄[0m [34m▓ [0;1;30m░▒▒░░░░░░ ░[0m

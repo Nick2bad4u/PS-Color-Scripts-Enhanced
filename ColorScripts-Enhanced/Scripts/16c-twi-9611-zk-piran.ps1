@@ -1,18 +1,4 @@
-﻿# Converted from: ZK-PIRAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twi-9611/raw/ZK-PIRAN.ANS
-# Source Revision: archive-sha256:5e1b4bf08b612b660d0d51a30f2cbb1eaef6fa6ca3fdc1b1ea5413c3a8d2f0d6
-# Source SHA-256: 4e60815b704a1c5d19fd3ff548662592ab2811ce2580778fd94530a47972f886
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZK-PIRAN.ANS by Zarkon (Twilight); released in twi-9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Piranha
-# SAUCE Author: Zarkon
-# SAUCE Group: Twilight
-# SAUCE Date: 19961030
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: Piranha by Zarkon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twi-9611-zk-piran
 
 Write-Host '
 [34mzk[0;37m [0;1;33m■[0m [1;34m [0;34m▄[0;1;34m▄▄▄▄▄▄▄▄▄ [0;1;37m▄[0m [1;34m   [0;33m [0;1;37m▄[0m [1;34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;34m▄▄▄▄▄▄▄[0;1;34m▄▄▄▄[0;34m▄▄    [0;32m▄ [0;34m   ▄▄[0;1;34;44m▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: SC-ACID7.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1292/raw/SC-ACID7.ANS
-# Source Revision: archive-sha256:6c5c7ef66182056ff3f821bfb6f5ceb9b593ec0078def1a5d2bd62ceb180acde
-# Source SHA-256: 5fa88528797cb18d1fc11e6cef3718465e74abeacaae840778533875df147c96
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-ACID7.ANS by Alter Ego (acdu1292); released in acdu1292 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: SC-ACID7.ANS by Alter Ego | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1292-sc-acid7-part01
 
 Write-Host '
                                [31m▐[0;1;30;41m▒░[0;31m▄ ▄[0m

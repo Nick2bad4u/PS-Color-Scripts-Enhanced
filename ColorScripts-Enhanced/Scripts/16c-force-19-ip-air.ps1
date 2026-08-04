@@ -1,16 +1,4 @@
-﻿# Converted from: IP-AIR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-19/raw/IP-AIR.ANS
-# Source Revision: archive-sha256:320b7ef547a1befeeebbf4abc563d8da701bdc66e2a87710081c803548b46926
-# Source SHA-256: f6b03c3bc1730bea9ed6868f80a65bc888a72a7736db614fbf7d27a792f6abda
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IP-AIR.ANS by impulse (lazarus, force); released in force-19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: thin air font
-# SAUCE Author: impulse
-# SAUCE Group: lazarus, force
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: thin air font by impulse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-19-ip-air
 
 Write-Host '
                [33m    [0;37m  [0;34m [0;37m   [0;35m   [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: TP-FREE6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tp-fr1/raw/TP-FREE6.ANS
-# Source Revision: raw-sha256:1641bee4fa5e06bfa309cf9f580f6687267d279a0ceb1b3f75287d299cf0ae35
-# Source SHA-256: 1641bee4fa5e06bfa309cf9f580f6687267d279a0ceb1b3f75287d299cf0ae35
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TP-FREE6.ANS by Tp (tp-fr1); released in tp-fr1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: TP-FREE6.ANS by Tp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tp-fr1-tp-free6
 
 Write-Host '
                                                [31m▄▄▄▄▄▀▀▀▀▀▄▀▄▀▀▀▀▄[0m

@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-P4NK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-42/raw/ZIR-P4NK.ANS
-# Source Revision: archive-sha256:5477badab90aaaa6ee2d08aa380254b6982d860b5d0de201e348668cb1eaa063
-# Source SHA-256: 0fa5d32ecc8d506da628dd41edd89ea294a9c3f9b18d85f3dfb4191d696e08d5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-P4NK.ANS by zir (FiRE); released in fire-42 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: panic attack.
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20250303
-# SAUCE Dimensions: 80x90
-# SAUCE Font: IBM VGA
-# SAUCE Comments: adventures of the all-consuming panic attack that barged into pa | radise and generally ruined everyone's good time.
-# Lines: 51-90
-# Columns: 1-80
+﻿# Artwork: panic attack. by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-42-zir-p4nk-part02
 
 Write-Host '
 [37m  [0;1;30m▄[0;1;30;46m▓[0;1;30;40m▄[0m [1;30m▐[0;1;30;46m▀[0;1;30;40m░░[0m    [36m▄░[0;37m  [0;1;30m░▀   [0;31m░▌▄▄▄██[0;30;41m·░░[0;31;40m▄▄[0;1;31;40m▌[0;31m▌░[0;1;30m░[0;31m ░▓██[0;1;31;41m  ▀▄[0;1;31;47m▓▄▓▄[0;1;31;41m▓▀  [0;31m█[0;1;31;41m ▌░░░[0;31m████▄[0;1;31;41m░  [0;31m▐  [0;1;31;41m░▀[0;1;31;47m▓[0;1;31;41m▄[0;31m▄░[0m

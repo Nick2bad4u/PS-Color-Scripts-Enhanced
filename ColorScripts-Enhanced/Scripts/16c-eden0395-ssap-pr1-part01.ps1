@@ -1,18 +1,4 @@
-﻿# Converted from: SSAP-PR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eden0395/raw/SSAP-PR1.ANS
-# Source Revision: archive-sha256:b50ec2025fefd1c1874e410a097c06c1217ac744b10fe4d46fa9c39c47156ae2
-# Source SHA-256: 27ff0b4f39fe076b98f7ea0accc83ccdcd42c61e21893e8ce0cdd4cc0c34d19c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SSAP-PR1.ANS by Saint Sinner + Acid Phix (eden!); released in eden0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: psychotic rebellion
-# SAUCE Author: ss! ap!
-# SAUCE Group: eden!
-# SAUCE Date: 19950312
-# SAUCE Dimensions: 80x131
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: psychotic rebellion by Saint Sinner + Acid Phix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eden0395-ssap-pr1-part01
 
 Write-Host '
 [1;30m[0m

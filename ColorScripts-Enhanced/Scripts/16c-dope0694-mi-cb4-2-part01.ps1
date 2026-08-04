@@ -1,13 +1,4 @@
-﻿# Converted from: MI-CB4#2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dope0694/raw/MI-CB4%232.ANS
-# Source Revision: archive-sha256:647e7fc7015e3106901446f171fa784f67ee9173d92110dd614c651aaebfadda
-# Source SHA-256: 4e6792978759ed46fc40d6186b9063fe86feebdce3e7f28a86ebd866a7fdeb05
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MI-CB4#2.ANS by Malicious Intent (dope0694); released in dope0694 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: MI-CB4#2.ANS by Malicious Intent | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dope0694-mi-cb4-2-part01
 
 Write-Host '
               [1m█[0m                                           [1m█[0m

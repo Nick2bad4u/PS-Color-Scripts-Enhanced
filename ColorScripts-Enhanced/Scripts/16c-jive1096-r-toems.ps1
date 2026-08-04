@@ -1,17 +1,4 @@
-﻿# Converted from: R!TOEMS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jive1096/raw/R!TOEMS.ANS
-# Source Revision: archive-sha256:4088bb5774f9b38859804abb70d54fee1333f0bbe32acb21357a9f799a1418d7
-# Source SHA-256: cf149f6d3b7198051679ea5cc00454109dd3901d12b19fc201f48e33ddb9b386
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: R!TOEMS.ANS by The Riddler (jive); released in jive1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: toe-jam matrix
-# SAUCE Author: The Riddler
-# SAUCE Group: jive
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: toe-jam matrix by The Riddler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jive1096-r-toems
 
 Write-Host '
 [1;30m[0m[1;30m[0m[1;30m[0m

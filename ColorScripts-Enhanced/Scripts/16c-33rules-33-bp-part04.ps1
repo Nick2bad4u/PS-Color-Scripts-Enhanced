@@ -1,18 +1,4 @@
-﻿# Converted from: 33-BP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/33rules/raw/33-BP.ANS
-# Source Revision: archive-sha256:6cf2aef8e3ca97e1761e1ee4a8ba395e4fdab4dec9d3b2efb91c059359b50b00
-# Source SHA-256: 3a4660cd928e8efc14893adcd12872304d6c7d0a4f4f8065e9f88aeaff551bde
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-BP.ANS by Fire 10/95 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Biproducts
-# SAUCE Author: Fire 10/95
-# SAUCE Group: Eerie
-# SAUCE Date: 19951007
-# SAUCE Dimensions: 80x152
-# Lines: 115-152
-# Columns: 1-80
+﻿# Artwork: Biproducts by Fire 10/95 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-33rules-33-bp-part04
 
 Write-Host '
 [1;31;41m▓▒[0;31m▌ [0;1;37m▀▀▀  [0m▄[1;47m▒▓▒▓[0;1;40m█[0;1;47m▓[0;1;40m█[0m▓[1;47m▓[0;1;40m███▀▀   ▄███████████████████████████ [0;1;30;40m░ [0;1;37;40m█████████████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: TB-LT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-04/raw/TB-LT.ANS
-# Source Revision: archive-sha256:cf9a2279a34a1d82cee07323cbb5bca77fc6620fc4bda1203010fce2dfea132d
-# Source SHA-256: 85b43f46a16e5888523c762124cbec6a93fb7aff0c46dbb7d9d6ba26abd8024e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TB-LT.ANS by Trebor (PuRG PRoDuKSHuNZ); released in purg-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Lucifer's Toilet
-# SAUCE Author: Trebor
-# SAUCE Group: PuRG PRoDuKSHuNZ
-# SAUCE Date: 19960613
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Lucifer's Toilet by Trebor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-04-tb-lt
 
 Write-Host '
 [1;30;47m░[0m███████████████████████████████[1;30;47m░▒░░[0m███████████████████████████████▓████████████

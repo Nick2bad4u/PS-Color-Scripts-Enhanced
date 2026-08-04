@@ -1,18 +1,4 @@
-﻿# Converted from: DRM-B.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nrg-art1/raw/DRM-B.ANS
-# Source Revision: archive-sha256:79dfa0b816968c81bc0f0162a4bb921d917ef228650d49a4b3990f25f5de781a
-# Source SHA-256: 57d855ea1bed60aba1f27895dcbfbc71e3a0dde8d8f6e362784e048bdfec29c2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DRM-B.ANS by Dr. Dream (NRG art dep.); released in nrg-art1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: [beep] again =\
-# SAUCE Author: Dr. Dream
-# SAUCE Group: NRG art dep.
-# SAUCE Date: 19990329
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: [beep] again =\ by Dr. Dream | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nrg-art1-drm-b
 
 Write-Host '
                                      [35m  ▐▌[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-KIDS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-1098/raw/OUT-KIDS.ANS
-# Source Revision: archive-sha256:bdb7abb87e526c06fbf70b194bc9ec3dc15d07ed529ff67dc8218e345c7b357a
-# Source SHA-256: da3889082b5a60a3079e057b627dd5ab8a5abcdafa25fbf4b321af0ddf41dd2f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-KIDS.ANS by Sandy Chidester (out-1098); released in out-1098 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: OUT-KIDS.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-1098-out-kids
 
 Write-Host '
                                       [1;47m▄█████████████[0;1m▄[0m

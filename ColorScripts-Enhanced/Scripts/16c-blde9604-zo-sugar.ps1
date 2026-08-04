@@ -1,18 +1,4 @@
-﻿# Converted from: ZO-SUGAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9604/raw/ZO-SUGAR.ANS
-# Source Revision: archive-sha256:c9d341fbab42005be8369b5b74c082e1beaf2773cdcff315b890579fc5c3d129
-# Source SHA-256: 85e71f09d2df0baa6cb62e364d4f287dee9471666842865bb98ea2fa86726338
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZO-SUGAR.ANS by zork (blade productions); released in blde9604 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: sc's sugar!
-# SAUCE Author: zork
-# SAUCE Group: blade productions
-# SAUCE Date: 19960320
-# SAUCE Dimensions: 80x25
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: sc's sugar! by zork | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9604-zo-sugar
 
 Write-Host '
  [32m       [0;1;30m                                                        ┐[0m

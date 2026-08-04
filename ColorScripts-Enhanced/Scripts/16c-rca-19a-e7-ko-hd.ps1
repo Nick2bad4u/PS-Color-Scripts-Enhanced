@@ -1,17 +1,4 @@
-﻿# Converted from: E7-KO-HD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-19a/raw/E7-KO-HD.ANS
-# Source Revision: archive-sha256:81f21b6ad591f112e54dc904e184a85b63ca9af95a156ccc7d812cfbc401b70a
-# Source SHA-256: 0a476f79c8d7294bb53db4654319ad62a13dfb94530e614ffebab2f5feba5544
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: E7-KO-HD.ANS by knot (rca-19a); released in rca-19a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: headers, can you read?
-# SAUCE Author: knot
-# SAUCE Date: 19970829
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: headers, can you read? by knot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-19a-e7-ko-hd
 
 Write-Host '
 ▄▄▄▄▄      ▄▄▄▄▄  [1;32m▄[0;1;37m▄[0;1;32m  [0m▄▄▄▄▄▄▄▄▄▄ [1;32mko ▄[0;1;37m▄[0m ▄▄▄▄▄[1;32m ▄[0;1;37m▄[0m ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄      ▄▄▄▄▄

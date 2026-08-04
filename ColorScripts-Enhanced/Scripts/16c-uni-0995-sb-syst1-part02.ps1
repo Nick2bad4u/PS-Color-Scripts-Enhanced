@@ -1,17 +1,4 @@
-﻿# Converted from: SB-SYST1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0995/raw/SB-SYST1.ANS
-# Source Revision: archive-sha256:66f11d43d10b981d3ff2235c6fadd1403a507952ad88040c9eb9cd5142a4f4b1
-# Source SHA-256: 9632e46ac9370ca0b9bee280a0f306baa6654326e3ef69de08a23ecafd4a8856
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SB-SYST1.ANS by SpellBinder (uni-0995); released in uni-0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: System One
-# SAUCE Author: SpellBinder
-# SAUCE Date: 19950808
-# SAUCE Dimensions: 80x58
-# Lines: 37-58
-# Columns: 1-80
+﻿# Artwork: System One by SpellBinder | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0995-sb-syst1-part02
 
 Write-Host '
 [1;30m    [0;31m▄[0m               [1;30m▀░▄▄[0m       [1;30m■[0m              [31m▄▄[0m

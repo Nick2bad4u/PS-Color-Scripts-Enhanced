@@ -1,19 +1,4 @@
-﻿# Converted from: nf-2cats.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel29/raw/nf-2cats.ans
-# Source Revision: archive-sha256:a7926daad48a6eaeb3fe9fe16388ddf3683cf76fdb5fb4156f51cd91fc2d12a5
-# Source SHA-256: 4745d618893d1f78595f95aa8e52762eeb5ef23842fc5245b9c3ca73afc62c1c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: nf-2cats.ans by necro (fuel); released in fuel29 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 2 cats
-# SAUCE Author: necro
-# SAUCE Group: fuel
-# SAUCE Date: 20190329
-# SAUCE Dimensions: 80x84
-# SAUCE Font: IBM VGA
-# Lines: 44-84
-# Columns: 1-80
+﻿# Artwork: 2 cats by necro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel29-nf-2cats-part02
 
 Write-Host '
                                [1;37m▐[0m▌  [1;34;44m▓[0m     [34m▓[0m

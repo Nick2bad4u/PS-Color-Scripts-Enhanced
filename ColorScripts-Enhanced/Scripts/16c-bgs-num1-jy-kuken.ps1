@@ -1,13 +1,4 @@
-﻿# Converted from: JY_KUKEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bgs_num1/raw/JY_KUKEN.ANS
-# Source Revision: archive-sha256:e0f00bf907dd5be4b375ace59bb594eecd3ca210e7121710e2a68853cfcf6d12
-# Source SHA-256: 29f37170c3cb639b766cc86566cbed85ee04466348d3b957c61ba0a83c3588d0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JY_KUKEN.ANS by Joy (bgs_num1); released in bgs_num1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: JY_KUKEN.ANS by Joy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bgs-num1-jy-kuken
 
 Write-Host '
 ▄█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀■ [1m▄▄▄▄▄[0m [1m▀[0;1;46m▓[0;1;47m▓[0;1;40m████▀[0m ■▀▀▀▀▀▀▀▀▀█▄

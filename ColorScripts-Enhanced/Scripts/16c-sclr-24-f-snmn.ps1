@@ -1,18 +1,4 @@
-﻿# Converted from: F-SNMN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-24/raw/F-SNMN.ANS
-# Source Revision: archive-sha256:941504543a070d123f982105313110e2e0cd0032e6193b222a5df6a537f3703e
-# Source SHA-256: 09b28e38d5b30cd56e6a182570b300bc43d00481f44fe37fd1582ed59fc8ec19
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: F-SNMN.ANS by fY0d'r (secular); released in sclr-24 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Don't even think of a carrot!
-# SAUCE Author: fY0d'r
-# SAUCE Group: secular
-# SAUCE Date: 19991221
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Don't even think of a carrot! by fY0d'r | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-24-f-snmn
 
 Write-Host '
 

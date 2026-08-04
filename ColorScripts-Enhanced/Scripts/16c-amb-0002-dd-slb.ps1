@@ -1,18 +1,4 @@
-﻿# Converted from: DD-SLB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amb-0002/raw/DD-SLB.ANS
-# Source Revision: archive-sha256:ddf2bfb6c349501ad0002133992d1d3c9602291731a9f4cef0d5ef9af30b761f
-# Source SHA-256: bae2b54981271dd2120d770626dba23b95036dbbb9e99b4b2b8aa1b6dda65f5f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-SLB.ANS by Diamond Darrell (AMBUSH); released in amb-0002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Shelter Base
-# SAUCE Author: Diamond Darrell
-# SAUCE Group: AMBUSH
-# SAUCE Date: 19960825
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Shelter Base by Diamond Darrell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amb-0002-dd-slb
 
 Write-Host '
           [1;30m░[0m               [36m▄▄█▀▀[0;1;36;46m░░░▄[0;36m▄▄▀ ▀[0;1;34;46m ▄▄[0;36m▄[0m               [1;30m░[0m

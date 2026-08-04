@@ -1,18 +1,4 @@
-﻿# Converted from: K-IB.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9712/raw/K-IB.ICE
-# Source Revision: archive-sha256:7689605597a3a08f68edb21384869d827c351a4b9af78dc5d0514e1194fe5adb
-# Source SHA-256: 9a45453567eb68d92a891a8beed51181d085c04e4fbd383d986240f34233c0bf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K-IB.ICE by kyp (ice + soc); released in ice9712 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: old aid
-# SAUCE Author: kyp
-# SAUCE Group: ice + soc
-# SAUCE Date: 19971228
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: old aid by kyp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9712-k-ib
 
 Write-Host '
 [1m▓▓[0;1;36m▒▒[0;36;43m░░[0;33;40m▄[0;1;31;40m▄▄[0;1;31;43m▄[0;1;31;40m█████[0;1;31;47m▓▓▓▓[0;1;31;40m██[0;1;31;43m▄[0;1;31;40m▄▄▄▄[0;33m▄[0;1;31m ▀▀▀▀▀██████[0;1;31;47m▓▓▓[0;1;31;40m███[0;1;31;43m█▄[0;1;31;40m▄▄[0;33m▄ ▀▀█░░[0;37m [0;31m███[0;34m [0;1;32m▄[0;34m░ [0;31m▀█▀▀▀▀▀▀▀▀▀▀████[0m

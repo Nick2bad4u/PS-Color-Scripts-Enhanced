@@ -1,18 +1,4 @@
-﻿# Converted from: PKAVG-FL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/std-1103/raw/PKAVG-FL.ANS
-# Source Revision: archive-sha256:fcdd7c1ae0053f52ee22d0eb16724f03a3c01af3340a96d97881f66cfaeea4af
-# Source SHA-256: 3169f1161d9714d2f337ac4116f4a1ab696f1e006a852049db44e2d7477d9cc0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PKAVG-FL.ANS by Avenging Angel + Phunk (27"/std); released in std-1103 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fuel
-# SAUCE Author: Phunk and Avg
-# SAUCE Group: 27"/std
-# SAUCE Date: 20031028
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Fuel by Avenging Angel + Phunk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-std-1103-pkavg-fl
 
 Write-Host '
 

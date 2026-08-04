@@ -1,13 +1,4 @@
-﻿# Converted from: HC-JIB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-16/raw/HC-JIB.ANS
-# Source Revision: archive-sha256:b44675c14d0a6b8706358886e9a05961468006b6ae7257eede82583c6468b7b5
-# Source SHA-256: 0e07c1b2f7b3f765e46d817604f0a81ce36a385db01f03252c3136657e81401b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HC-JIB.ANS by Hachi (glue-16); released in glue-16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: HC-JIB.ANS by Hachi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-16-hc-jib
 
 Write-Host '
 ███████████████▀▀▀▀▀▀▀▀██████████████████████████████████████[1;30;47m▄▄▄▄▄▄▄▄▄▄    hachi[0m

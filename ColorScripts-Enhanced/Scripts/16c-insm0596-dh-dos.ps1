@@ -1,18 +1,4 @@
-﻿# Converted from: DH!DOS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/insm0596/raw/DH!DOS.ANS
-# Source Revision: archive-sha256:5a107f7ed67340c1aa68eaf605f85d0018e0b4086aa8c0cad10be2a8b1ad4ed8
-# Source SHA-256: 2e8ded6d39fefc35ff01c32534475a395f23ba920f8db9687c8ed20e8714c753
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DH!DOS.ANS by DarkHeart (iNSOMNiA); released in insm0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: d0s sH3ll
-# SAUCE Author: DarkHeart
-# SAUCE Group: iNSOMNiA
-# SAUCE Date: 19960504
-# SAUCE Dimensions: 80x32
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: d0s sH3ll by DarkHeart | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-insm0596-dh-dos
 
 Write-Host '
 [1m[0m[1m[0m[1m[0m                   [1m▄▄▄[0m                               [1m▄▄▄▄[0m

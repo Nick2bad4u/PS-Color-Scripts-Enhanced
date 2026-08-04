@@ -1,18 +1,4 @@
-﻿# Converted from: AS-UIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/smr-04/raw/AS-UIC.ANS
-# Source Revision: archive-sha256:38a262911b83243b311c6be0c23fb485f6a2c1aa67c409ab1af66d03432a087e
-# Source SHA-256: 2c7548e86abceb88bbb7392ea18e5efba2d6c2b72e65f50d5ec1b6b0dc07a238
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AS-UIC.ANS by as-d (SMR); released in smr-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: User Stat
-# SAUCE Author: as-d
-# SAUCE Group: SMR
-# SAUCE Date: 20000102
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: User Stat by as-d | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-smr-04-as-uic
 
 Write-Host '
              [31m▄▄[0;1;31;41m▒▀[0;1;31;40m▀[0;31m▀[0;37m [0;1;31m▀[0;31m■[0;1;31m▄[0m  [36m░░[0;1;32m  [0m [31m▄▄[0;1;30;41m░[0;1;31;41m▄[0;1;31;40m▀[0;31m▀[0;37m [0;1;31m▀[0;31m■[0;1;31m▄[0m [31m  [0;37m   [0;1;30m ▓▓[0;31m   [0;36m [0;37m  [0;31m▄▄[0;1;31;41m▒[0;1;30;41m░▓[0;31m▀[0;37m [0;1;31m▀[0;31m■[0;1;31m▄[0m

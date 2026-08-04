@@ -1,17 +1,4 @@
-﻿# Converted from: PZ-ICEB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-08/raw/PZ-ICEB1.ANS
-# Source Revision: archive-sha256:0b90c936d49629839c01709c30be5eee3ae4012caa7a8f1570b6ae8cc1763cb4
-# Source SHA-256: 0ddc03fbef0ed5002b6638065767df9248f35ce75f6a9e45b8ddc0eb69bd7a0e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PZ-ICEB1.ANS by pzyko (eclipse); released in ecl-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: icebreaker
-# SAUCE Author: pzyko
-# SAUCE Group: eclipse
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: icebreaker by pzyko | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-08-pz-iceb1
 
 Write-Host '
                   [31m▄▄▄▄▄▄▄▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: LD-REV1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0402/raw/LD-REV1.ANS
-# Source Revision: archive-sha256:19898cc2febb6deadccf50832dc421b4f362a33c899e27278bafd225bbc2d4d4
-# Source SHA-256: 0a7f1a844ce8b7a99acbb55bacdf623e0734268d746f6d11dd91fbe81719a998
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-REV1.ANS by lazthaus (ld!) (Revival); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Revival
-# SAUCE Author: lazthaus (ld!)
-# SAUCE Group: Revival
-# SAUCE Date: 20020415
-# SAUCE Dimensions: 80x47
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: Revival by lazthaus (ld!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0402-ld-rev1
 
 Write-Host '
 [1;30;41m [0;31m██████████████████████████████████████████████▌[0;37m [0;31m▓███████████████████████████▓▓ [0m

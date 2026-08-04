@@ -1,18 +1,4 @@
-﻿# Converted from: SMI-SKEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-ronin/raw/SMI-SKEL.ANS
-# Source Revision: archive-sha256:1cf524db9c88845a87436294bf9ad4e7b661b688c5b065b442b074cbc8f8d22f
-# Source SHA-256: e6bbabec576cf8668b7cf707dc1ee1f6828093706e19436b448fb0cb63bb9d72
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMI-SKEL.ANS by samurai (klexikal); released in k-ronin and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: skeleton knight
-# SAUCE Author: samurai
-# SAUCE Group: klexikal
-# SAUCE Date: 19990524
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: skeleton knight by samurai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-ronin-smi-skel
 
 Write-Host '
 [1;33m [0;33m▄█[0;1;33;43m░░▓▓[0;1;33;40m████████▀█████████[0;1;33;43m▓░[0;33m▄[0;1;33m  [0;1;30m [0m░░▄▄▄▄▓▓▓▓▓▒▒▒▒▒[1;30m▄▄▄▄▄[0m░░░░░░░░░░▒▒▒▒▒▒[1;30m▓▓[0;34m█████▄▀   [0m

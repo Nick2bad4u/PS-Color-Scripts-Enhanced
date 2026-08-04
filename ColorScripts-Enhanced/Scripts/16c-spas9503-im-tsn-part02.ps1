@@ -1,18 +1,4 @@
-﻿# Converted from: IM-TSN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spas9503/raw/IM-TSN.ANS
-# Source Revision: archive-sha256:921a7a02fdcd7f04f18871f0002a1b20474c016ac737399d9749e44d2b5c72dd
-# Source SHA-256: ece0298e49342d3ec1693f8d4f0e4dae715f8539db1938ec1a1b98049b9aad0f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IM-TSN.ANS by The Image (READ THE INI FILE); released in spas9503 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Stellar Nights add
-# SAUCE Author: The Image
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950212
-# SAUCE Dimensions: 80x25
-# Lines: 36-73
-# Columns: 1-80
+﻿# Artwork: The Stellar Nights add by The Image | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spas9503-im-tsn-part02
 
 Write-Host '
 [1;30m[0m[1;36m░[0m  [1;30m                                                                      [0m

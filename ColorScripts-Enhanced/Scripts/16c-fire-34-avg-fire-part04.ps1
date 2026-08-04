@@ -1,19 +1,4 @@
-﻿# Converted from: AVG-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/AVG-FIRE.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: 237f10680405febd1764c28f22ae66a95f2c588b3ac25b29f0ac3d931e165ac3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-FIRE.ANS by avg_ (blocktronics); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fire
-# SAUCE Author: avg_
-# SAUCE Group: blocktronics
-# SAUCE Date: 20210302
-# SAUCE Dimensions: 80x195
-# SAUCE Font: IBM VGA
-# Lines: 147-195
-# Columns: 1-80
+﻿# Artwork: fire by avg_ | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-avg-fire-part04
 
 Write-Host '
 [1;31;41m████[0;31;45m [0;1;30;40m█[0m▓               [34m▒▒▒▒▒▒▒▒▒▒▒[0m        [31m▄[0;1;31m▄[0;1;31;41m■ ▄▄[0;1;31;47m   ▐[0;1;31;41m████▀[0;1;31;40m▀[0;31m▀[0m

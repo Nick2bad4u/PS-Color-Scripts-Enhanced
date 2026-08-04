@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-SAK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0897/raw/ZII-SAK.ANS
-# Source Revision: archive-sha256:cabceb59b7b429d8e4c18b37682b5f04003f1a57c83a21398a4e2582b732a549
-# Source SHA-256: b243c6c57120c5372ca7deac5f48fe941b463be52938322d6160476ba8f6a132
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-SAK.ANS by Zeus II (Lesbisk bastu AB); released in plf-0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Present till supergruppen plf
-# SAUCE Author: Zeus II
-# SAUCE Group: Lesbisk bastu AB
-# SAUCE Date: 19970804
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Present till supergruppen plf by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0897-zii-sak
 
 Write-Host '
 

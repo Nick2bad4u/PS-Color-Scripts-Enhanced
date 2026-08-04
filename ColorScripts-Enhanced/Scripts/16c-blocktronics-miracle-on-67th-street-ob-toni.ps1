@@ -1,19 +1,4 @@
-﻿# Converted from: ob-toni.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_miracle_on_67th_street/raw/ob-toni.ans
-# Source Revision: archive-sha256:7a78b3edd176c6d05feb481522f2c4f3e57721df62292c2b4ce537e855c41ae8
-# Source SHA-256: 888e794e2e59480cfe122d98dc0f3e71401c0f74419cb8ef00ba9f9f5a99ae16
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ob-toni.ans by Ober (Blocktronics); released in blocktronics_miracle_on_67th_street and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Toni
-# SAUCE Author: Ober
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20181203
-# SAUCE Dimensions: 80x49
-# SAUCE Font: IBM VGA
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Toni by Ober | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-miracle-on-67th-street-ob-toni
 
 Write-Host '
 

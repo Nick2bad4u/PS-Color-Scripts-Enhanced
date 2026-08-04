@@ -1,18 +1,4 @@
-﻿# Converted from: KRL-ORG2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack12/raw/KRL-ORG2.ANS
-# Source Revision: archive-sha256:55286e18e28c272f11e63b1c16158d9df2657a21ca3df761a4c27630305acaa1
-# Source SHA-256: 85042e7e707bd8f5c0a63f255250623b51acca32a23da063476be16e84d56216
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KRL-ORG2.ANS by Mr Krinkle (apocalyptic visions); released in avpack12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: organised kaos
-# SAUCE Author: Mr Krinkle
-# SAUCE Group: apocalyptic visions
-# SAUCE Date: 19800512
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: organised kaos by Mr Krinkle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack12-krl-org2
 
 Write-Host '
                                                                         [1;34m   [0m

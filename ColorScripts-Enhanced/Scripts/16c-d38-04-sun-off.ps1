@@ -1,18 +1,4 @@
-﻿# Converted from: SUN^OFF!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-04/raw/SUN%5EOFF!.ANS
-# Source Revision: archive-sha256:46dfc1c32c82269d5de42747ebd7355d3eb20f2453874c6355621a917a3f7589
-# Source SHA-256: a3bca8c66449d348625b84743a08d17ed45146b304b77e755f9d71f2e9d32183
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SUN^OFF!.ANS by Sunder San (Department 38); released in d38-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Offline (DO NOT RIP!@#$%^)
-# SAUCE Author: Sunder San
-# SAUCE Group: Department 38
-# SAUCE Date: 19970214
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Offline (DO NOT RIP!@#$%^) by Sunder San | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-04-sun-off
 
 Write-Host '
 WERE[1;30m▄▄▄■ [0m [1;30m [0;36m▄[0;1;36;46m▄ [0;36m▀██▄[0;1;30m░[0;36m▀[0;1;36;46m■▄[0;36m█▀▀█▄▌[0;1;30m░[0;36m▀[0;1;36;46m■▄ [0;36m▀▀██▌[0;1;30m░[0;1;36;46m■▄ [0m       [36m▀▀[0;32m [0;1;30m░[0;36m▄[0;1;36;46m▄[0;36m█▀██▄[0;1;30m░[0;36m▀[0;1;36;46m■▄[0;36m█▀▀▀▀▀[0;37m  [0;1;30m■▄▄▄[0m

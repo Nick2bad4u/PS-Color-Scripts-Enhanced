@@ -1,18 +1,4 @@
-﻿# Converted from: OK-SCUM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9610/raw/OK-SCUM.ANS
-# Source Revision: archive-sha256:5789c5cb1a5ac21acfd3fa7dc4a5a88db3f4a5b9545409ca8ca34a86bd816077
-# Source SHA-256: 296c11a67311dd83cfae039e6331567e003a68558e27f84c4319808f121473c8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OK-SCUM.ANS by Outkast (Samsara); released in sms-9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Scum
-# SAUCE Author: Outkast
-# SAUCE Group: Samsara
-# SAUCE Date: 19960914
-# SAUCE Dimensions: 80x25
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Scum by Outkast | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9610-ok-scum
 
 Write-Host '
 [31m·░[0;30;41m▓[0;31;40m▓▓[0;1;31;41m░[0;31m█▀░▓▄■▀[0m    [31m░░[0m        [31m·[0m           [31m░[0m              [31m▄▓▄[0m                [31m··[0;37m  [0;31m░[0m

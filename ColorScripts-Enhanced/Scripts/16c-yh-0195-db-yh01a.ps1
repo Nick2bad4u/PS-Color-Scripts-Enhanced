@@ -1,13 +1,4 @@
-﻿# Converted from: DB-YH01A.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/yh-0195/raw/DB-YH01A.ANS
-# Source Revision: archive-sha256:721859c5eadfa2c955f591688feef075e7b3f275040c57d8f45aa2617c640ff8
-# Source SHA-256: 1678413a4196b2e00b826fab9481a10601b38ee6b97064e6eb0f2ace8a184459
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DB-YH01A.ANS by Deathblow (yh-0195); released in yh-0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: DB-YH01A.ANS by Deathblow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-yh-0195-db-yh01a
 
 Write-Host '
 

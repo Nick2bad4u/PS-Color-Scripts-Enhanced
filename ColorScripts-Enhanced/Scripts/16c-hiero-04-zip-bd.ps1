@@ -1,18 +1,4 @@
-﻿# Converted from: ZIP-BD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-04/raw/ZIP-BD.ANS
-# Source Revision: archive-sha256:fa04f9284176600bd187f5f89edb1d3f52550711ec8063377e14a2ec045346f2
-# Source SHA-256: 7373ec05da95d6b20f980070dbfb9d877ad72f8d9e9cc273452d9870b3052fc0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIP-BD.ANS by Zippy (Hieroglyphics); released in hiero-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Brain Damage
-# SAUCE Author: Zippy
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20001202
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Brain Damage by Zippy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-04-zip-bd
 
 Write-Host '
 

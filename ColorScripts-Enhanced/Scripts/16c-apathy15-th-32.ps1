@@ -1,18 +1,4 @@
-﻿# Converted from: TH-32.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy15/raw/TH-32.ANS
-# Source Revision: archive-sha256:5e243b226da6b745b1398dfdadb3776bdb866b2235d51f36e0cf209d2d8d9295
-# Source SHA-256: dd4e3f46676b8f1ee3411827cba13a3c1c05e972331e681af3f2314bb908c25e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH-32.ANS by Thrasher (apathy); released in apathy15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Earth 2
-# SAUCE Author: Thrasher
-# SAUCE Group: apathy
-# SAUCE Date: 19961004
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Earth 2 by Thrasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy15-th-32
 
 Write-Host '
 [1;34m ▄[0;1;34;47m▓[0;1;34;40m██[0;1;34;44m▓▒[0;34m█[0;1;34;44m░░[0;34m███████[0;1;34;44m░░▒[0;34m░[0;1;32m▄████████▀▓█████▀████▀░▄█▀▀███▄█▀▀███████████[0;1;32;42m▓[0;1;32;40m▀▀▀[0m  [1;32m▀▀██[0;1;32;42m▓▓▒[0m

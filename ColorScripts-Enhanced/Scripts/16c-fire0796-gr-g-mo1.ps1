@@ -1,17 +1,4 @@
-﻿# Converted from: GR-G'MO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0796/raw/GR-G'MO1.ANS
-# Source Revision: archive-sha256:f2392fcbe326be67243a018c170e3f1d8e22753f58b6051ec51575e3fcab8048
-# Source SHA-256: 053b75eceae1f99ca788022c66a50b49f6d4afccced80301adb83035fdf0c1ac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GR-G'MO1.ANS by gunthar (fire); released in fire0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: geronimo
-# SAUCE Author: gunthar
-# SAUCE Group: fire
-# SAUCE Date: 19951101
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: geronimo by gunthar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0796-gr-g-mo1
 
 Write-Host '
 

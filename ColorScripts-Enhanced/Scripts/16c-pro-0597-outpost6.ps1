@@ -1,13 +1,4 @@
-﻿# Converted from: OUTPOST6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pro-0597/raw/OUTPOST6.ANS
-# Source Revision: archive-sha256:481b5fb97b76ab3f49d96748bbc6de9355df4dac5d8032169a495e45a44b207f
-# Source SHA-256: d243e94c01b10f3d9dd5ff389c9dd6d794a0ad2363f53d4cc6c9f5185c55b9e5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUTPOST6.ANS by Necrophidius (pro-0597); released in pro-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: OUTPOST6.ANS by Necrophidius | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pro-0597-outpost6
 
 Write-Host '
                                [32m░░░░░░░▒▒▒▓▓▓▓▓▓▓[0m

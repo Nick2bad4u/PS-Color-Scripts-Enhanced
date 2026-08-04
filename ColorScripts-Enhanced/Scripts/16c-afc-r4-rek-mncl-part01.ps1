@@ -1,13 +1,4 @@
-﻿# Converted from: REK-MNCL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r4/raw/REK-MNCL.ANS
-# Source Revision: raw-sha256:80b66715f1c416fce74e8d236047abfcf4c634c89e37392b115449fca1989064
-# Source SHA-256: 80b66715f1c416fce74e8d236047abfcf4c634c89e37392b115449fca1989064
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: REK-MNCL.ANS by Rekku (afc-r4); released in afc-r4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: REK-MNCL.ANS by Rekku | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r4-rek-mncl-part01
 
 Write-Host '
                                   [1;33m▄▄▄█████▄▄▄[0m

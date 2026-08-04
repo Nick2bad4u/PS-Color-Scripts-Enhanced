@@ -1,13 +1,4 @@
-﻿# Converted from: US-SACN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/asshol-0/raw/US-SACN.ANS
-# Source Revision: archive-sha256:e1ef34d839551b8dbf250f2cd801253e9605ddc8d53b358d1401c5bfc5e8fdba
-# Source SHA-256: 26c226d8dda00d0cb7a3a8e99236ab08df4158a31c04f3fd021d8f8a7789ab6f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SACN.ANS by Ansichrist + Unseen Fate (asshol-0); released in asshol-0 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: US-SACN.ANS by Ansichrist + Unseen Fate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-asshol-0-us-sacn
 
 Write-Host '
 [36m█████████████████████████████[0;37m [0;1;30m█▀▌[0m [1;30m░░[0m

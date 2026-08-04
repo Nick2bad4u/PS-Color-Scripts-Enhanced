@@ -1,13 +1,4 @@
-﻿# Converted from: w0-chau.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac-31/raw/w0-chau.ANS
-# Source Revision: archive-sha256:de408a48218978e8985780e9a7cc06a63b91a83fe65e2384c76cd8c1a68e3b21
-# Source SHA-256: 75c2ab744224e804ab6f2e18fe5f2bf0d3402862548342e609e8bf0d946a6de2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: w0-chau.ANS by Webpige0 (sac-31); released in sac-31 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: w0-chau.ANS by Webpige0 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac-31-w0-chau
 
 Write-Host '
                           [1m    [0;1;30m▄[0m▄[1m▄▄[0;1;47m▄▄[0;1;46m█████▀▀▀▀▀[0;1;40m█[0;1;47m▄▄[0;1;40m▄▄[0m▄

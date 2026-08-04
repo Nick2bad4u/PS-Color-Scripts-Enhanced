@@ -1,18 +1,4 @@
-﻿# Converted from: SD-ICE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9611/raw/SD-ICE.ANS
-# Source Revision: archive-sha256:2b73e149488dc761d99422832825743596588d59e58f9bfecfb5d0e9dbffd274
-# Source SHA-256: 67a278bf4aa860c81678e882a8cba87a86133b4b83806323e6ed3b5cfb35099a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-ICE.ANS by Skold (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: iCE Promo.
-# SAUCE Author: Skold
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961026
-# SAUCE Dimensions: 80x14
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: iCE Promo. by Skold | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9611-sd-ice
 
 Write-Host '
        [31m [0;34m▄[0;1;34m▄▄[0;34m▄[0;37m   [0m          [34m▄[0;1;34m▄▄▄▄[0;34m▄[0m                 [34m▄[0;1;34m▄▄▄▄[0;34m▄[0;31m  [0m

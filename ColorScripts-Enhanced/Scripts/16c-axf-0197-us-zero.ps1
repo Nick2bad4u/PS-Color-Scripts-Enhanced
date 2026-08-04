@@ -1,18 +1,4 @@
-﻿# Converted from: US-ZERO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-0197/raw/US-ZERO.ANS
-# Source Revision: archive-sha256:08e3420d6f5bf039e22601d044f43006678a0458956ba31375be1cbab8367813
-# Source SHA-256: 7441732ea85701af723552e65b0bc41023de7c0b805146f607d191449a549a77
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ZERO.ANS by Minotaur + Toot (AXF + Black Maiden); released in axf-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Zero Division
-# SAUCE Author: Minotaur + Toot
-# SAUCE Group: AXF + Black Maiden
-# SAUCE Date: 19961211
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Zero Division by Minotaur + Toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-0197-us-zero
 
 Write-Host '
                                    [1;34m        [0;1;35m [0;35m   [0;1;35m [0;35m [0;37m [0;35m [0;1;34m    [0;1;35m [0;35m  [0;1;35m [0m   [35m▄▄[0;37m [0;35m  [0m

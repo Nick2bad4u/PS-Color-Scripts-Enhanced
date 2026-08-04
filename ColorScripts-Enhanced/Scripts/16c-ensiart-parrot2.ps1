@@ -1,13 +1,4 @@
-﻿# Converted from: PARROT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ensiart/raw/PARROT2.ANS
-# Source Revision: archive-sha256:1740ea49d8e6dbe7ec5d2c508ba38bad12fe73c43c677e55524f61db5ff5063b
-# Source SHA-256: fd2cc4c8fe87dcd2b87535a52d62e4768775dffa69cbeb1ca920306ef076fa0a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PARROT2.ANS by Keith Arends (ensiart); released in ensiart and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: PARROT2.ANS by Keith Arends | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ensiart-parrot2
 
 Write-Host '
       [1;32;41m░[0;1;33;41m░▒[0;1;35;41m░[0;1;32;41m█[0;1;31;44m▓[0m [1;31;44m▓[0;1;33;41m█[0;1;31;44m░[0;1;32;41m▒[0;1;31;44m░▓[0m [1;31;44m▒░[0;1;35;41m█[0;1;31;44m░░[0;1;35;41m▓[0m [1;31;44m░[0;1;33;41m█[0;1;31;44m░░[0;1;32;41m░▒[0m [1;31;44m░[0;1;32;41m░[0;1;31;44m▒░[0;1;35;41m▓█[0m [1;31;44m▒[0;1;35;41m░[0;1;31;44m░[0;1;33;41m▒[0;1;35;41m▒[0;1;32;41m░[0m

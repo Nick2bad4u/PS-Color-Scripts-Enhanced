@@ -1,16 +1,4 @@
-﻿# Converted from: smk2m-nvscene.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_1980/raw/smk2m-nvscene.ans
-# Source Revision: archive-sha256:042192cf53a2f2df5da334e3c25cbe21b5d9ed2e910f503354d4bcd3dae5de0e
-# Source SHA-256: 0361ec9c9e9d959738698ddc39b4058a394bc193d723145f9937b80374414955
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: smk2m-nvscene.ans by Mattmatthew + Smoke (blocktronics_1980); released in blocktronics_1980 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 20140510
-# SAUCE Dimensions: 80x213
-# SAUCE Font: IBM VGA
-# Lines: 180-213
-# Columns: 1-80
+﻿# Artwork: smk2m-nvscene.ans by Mattmatthew + Smoke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-1980-smk2m-nvscene-part05
 
 Write-Host '
 [0m[0m[1;37;47m▀[0;1;37;40m█   [0;1;30;40m▀ [0;33m██  [0;1;30;46m▄[0;1;36;40m▒▒[0;36m▄   [0;1;37m▀▀▀▀[0;1;37;45m▀▀[0;1;37;40m█[0;1;37;47m▄▄▄[0;1;37;40m  [0;1;30;40m█[0;36m█[0;1;37;46m▓▓▓▓[0;36m█▌  ▌  [0;1;30m█[0;1;30;46m█[0;1;30;40m█    [0;1;37;40m▀████    [0;1;32;46m░▓▓▓[0;1;31;46m█[0;1;33;46m█[0;1;32;46m▓▓░▓▓[0;1;30;42m▀ [0;1;30;40m█▀[0m     [1;37;40m▄[0m

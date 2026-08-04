@@ -1,18 +1,4 @@
-﻿# Converted from: Zii-cold.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0602/raw/Zii-cold.ans
-# Source Revision: archive-sha256:eda7ced449224c105e12a5409de54d9f7839715cee6913970969dbabd435477f
-# Source SHA-256: 9d0f5d98c2a04f743ba0fd5108fd38766f5b24b0356b64d9201cf652445a66a4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Zii-cold.ans by Zeus II (Revival); released in rev0602 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Cold Fusion
-# SAUCE Author: Zeus II
-# SAUCE Group: Revival
-# SAUCE Date: 20020615
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Cold Fusion by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0602-zii-cold
 
 Write-Host '
 [31m█▀▄[0;1;31;41m▓▓█▄[0;31m▄ ▄▄▄▄▄  ▀▀▀▀▀▀▀▀▀[0;1;31;41m░░░▒▒▓▓██▄[0;1;31;40m▄[0;31m▄▀▀██[0;1;31;41m ░░░[0;31m█▌[0;37m [0;35m  ▄██▓█[0;1;31;45m▄[0;35m▓██▄ ██▓██[0;1;31;45m▀[0;35m██▓██ ▐█▓██▀ [0m

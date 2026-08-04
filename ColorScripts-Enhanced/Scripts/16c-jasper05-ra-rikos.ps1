@@ -1,13 +1,4 @@
-﻿# Converted from: RA-RIKOS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper05/raw/RA-RIKOS.ANS
-# Source Revision: archive-sha256:33fac09b0787230492798535c47bf2642ecf35522de5af17dfe59b662d1606a6
-# Source SHA-256: 6b3b37023a69fa3396070e116f5c377fabf5d6738f6f1e7513ce15c8419af809
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RA-RIKOS.ANS by Reanimator (jasper05); released in jasper05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: RA-RIKOS.ANS by Reanimator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper05-ra-rikos
 
 Write-Host '
                                    [1m [0m  [36m [0m           [1;37m▀[0m

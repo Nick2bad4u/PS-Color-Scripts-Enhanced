@@ -1,18 +1,4 @@
-﻿# Converted from: CRS-ALIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jtxa-04/raw/CRS-ALIN.ANS
-# Source Revision: archive-sha256:59dc2ecebfe81eabbafc7e13fc0387abb6f094712eada6e1e4a5380e49938506
-# Source SHA-256: d1d0b194e73583982c3c80ba4250ec0e4e7d568694a4c2820e32874fddccab17
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CRS-ALIN.ANS by Crasher (galza/just-x); released in jtxa-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: da real alien
-# SAUCE Author: Crasher
-# SAUCE Group: galza/just-x
-# SAUCE Date: 20010220
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: da real alien by Crasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jtxa-04-crs-alin
 
 Write-Host '
 [1m [0m      [36m$$$$$[0;32m$$$$$$$$$$$$$$$$$$$$[0;36m$$$[0;1;37m$[0;1;36m$$[0;36m$$$$$$$$$ [0;35m ''[0;1;35m''²²[0;35m╜[0;1;34m╜*[0;35m*SS$b [0;1;30m xxxxxxx[0m

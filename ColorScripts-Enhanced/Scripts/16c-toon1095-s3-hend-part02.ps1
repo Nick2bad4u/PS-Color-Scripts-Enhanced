@@ -1,18 +1,4 @@
-﻿# Converted from: S3-HEND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toon1095/raw/S3-HEND.ANS
-# Source Revision: archive-sha256:d4b59c6d799c8c2a02788beeec8a06d37366bb8792f6739cb4b7e0bf67ae744a
-# Source SHA-256: 404ce75e5ad40fcb93e3a439cb1813cb13e9e8dc6f70a7ae7c3f497ee96294b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S3-HEND.ANS by shamanize (tOOn); released in toon1095 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: henderix ad.
-# SAUCE Author: shamanize
-# SAUCE Group: tOOn
-# SAUCE Date: 19951002
-# SAUCE Dimensions: 80x100
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: henderix ad. by shamanize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toon1095-s3-hend-part02
 
 Write-Host '
 [34m▓▀▀▀   [0;1;30m■▄▄[0;1;30;47m▓[0;1;30;40m▄▓██[0;1;30;47m▓[0;1;30;40m████████[0;1;30;47m▀▀■[0m█▄ [33m▀█[0;1;31;43m■▀▀▓[0;1;31;40m██████[0;1;31;43m▓[0;1;31;40m█████[0;1;31;43m▓▀[0;1;31;40m▀ [0m▄█████████[1;30;47m■[0m█[1;30;47m▀▀▀[0;1;30;40m████▓▄▄▄▄▄ [0;34m▀▓[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: TG-MAIT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m1-9604/raw/TG-MAIT1.ANS
-# Source Revision: archive-sha256:ae84f916465c0ebdf01b9aa95a9e1e7b961c299453d74f815510b1681189d13e
-# Source SHA-256: a332d3a65b65a5012d438718ffee12f50dae8eca67ab5d0654426dcaa4f78592
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-MAIT1.ANS by Tang (m1-9604); released in m1-9604 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: TG-MAIT1.ANS by Tang | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m1-9604-tg-mait1
 
 Write-Host '
 [31m███████████████▀[0m [1;30m▄▀▀▀▀▄▄▌[0m [31m▀▀▓████████████▓████████████████████████████████████▓[0;37m [0m

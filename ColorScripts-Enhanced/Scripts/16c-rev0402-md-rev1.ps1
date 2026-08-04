@@ -1,18 +1,4 @@
-﻿# Converted from: MD-REV1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0402/raw/MD-REV1.ANS
-# Source Revision: archive-sha256:19898cc2febb6deadccf50832dc421b4f362a33c899e27278bafd225bbc2d4d4
-# Source SHA-256: cb9eabf04b5f54f7c25541e1b93d6005a72cd4a0cf4f64cd298dad15736d514c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MD-REV1.ANS by Mr. Self Destruct (Revival); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Revival
-# SAUCE Author: Mr. Self Destruct
-# SAUCE Group: Revival
-# SAUCE Date: 20020415
-# SAUCE Dimensions: 80x48
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: Revival by Mr. Self Destruct | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0402-md-rev1
 
 Write-Host '
                                 [31m.[0m

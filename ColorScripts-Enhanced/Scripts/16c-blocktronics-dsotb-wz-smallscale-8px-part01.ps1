@@ -1,19 +1,4 @@
-﻿# Converted from: wz-smallscale-8px.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-dsotb/raw/wz-smallscale-8px.ans
-# Source Revision: archive-sha256:31e1fdfda207a2147f2b0badf1415308dc54d4c24afa56622db8a43f68f110f1
-# Source SHA-256: 1a4f67c54f0597d1e9ac5ee3866b3aa7bb75329a5def83d8c9c35266187eb228
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wz-smallscale-8px.ans by Whazzit (Blocktronics); released in blocktronics-dsotb and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Smallscale 8px
-# SAUCE Author: Whazzit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20190602
-# SAUCE Dimensions: 80x52
-# SAUCE Font: IBM VGA
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Smallscale 8px by Whazzit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-dsotb-wz-smallscale-8px-part01
 
 Write-Host '
 [36;40m                          [0m

@@ -1,17 +1,4 @@
-﻿# Converted from: TNA-RUST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9703/raw/TNA-RUST.ANS
-# Source Revision: archive-sha256:a9939674ffea8dfd0fb24f05e2f11874539fc93155c2d5ed5e55e91f76634858
-# Source SHA-256: ed4d8a658ae06a4051d9ce11ffa8b51f0a1ea9e67113dc86cfde97533e5bf45e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-RUST.ANS by The Night Angel (AWE Lettering); released in awe9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Rust
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Rust by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9703-tna-rust
 
 Write-Host '
 [36m▄ ▀[0;1;36;46m▀█[0;1;37;40m█[0;1;36;40m█[0;1;36;46m▀[0;36m▀  ▀[0;1;36;46m▀[0;36m██  [0;31m▀ ■▄ [0;1;30m▀▀[0;36m▀[0;1;36m▀[0;1;36;46m▀████▓░[0;36m▀ [0;34m▄[0;1;34;44m▄[0;34m██▄ [0;36m▄▄▄[0;1;36;46m▄[0;36m▄█[0;30;46m░[0;36;40m▒░[0;30;46m▓[0m [1;36;40m▀[0;36m▀[0;36;44m▀[0;34;40m▄▄▄[0;1;34;40m▄[0;34m▄  ░ [0;36m▀[0;1;36m▀[0;36m▀▀ [0;34m░[0;30;44m▓[0;34;40m▄ [0;36;40m▀[0;1;36;40m▀ [0;34m▄▄▄[0m

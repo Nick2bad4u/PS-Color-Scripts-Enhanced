@@ -1,18 +1,4 @@
-﻿# Converted from: PNK-PBST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz06may/raw/PNK-PBST.ANS
-# Source Revision: archive-sha256:1ae2be5748106937cd6f4a9b876b344db035c3534c8d6472ca3ea1eb05f03cc5
-# Source SHA-256: 4bc7e3bdaa10605951072d1b612e5fc330cd8f2923d51588dc1b345b9eb95866
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PNK-PBST.ANS by phanatik (lazarus); released in laz06may and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: psycho beaver
-# SAUCE Author: phanatik
-# SAUCE Group: lazarus
-# SAUCE Date: 19970508
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: psycho beaver by phanatik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz06may-pnk-pbst
 
 Write-Host '
          [33m▄[0;1;33m▄[0;1;33;43m▄[0;1;33;40m▀▀▀[0;1;33;43m▀[0;1;33;40m▄[0;1;37;40m▄▄ [0;33m■ ▄▀ ▄[0;1;33m▄[0;1;37m▄▄[0m

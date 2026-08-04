@@ -1,13 +1,4 @@
-﻿# Converted from: 09-INFO.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice0004a/raw/09-INFO.ICE
-# Source Revision: archive-sha256:bfc06c954be7f0ef73a1cdef8dddfdf1805bb02c6810989d32481de4e3fa5e6c
-# Source SHA-256: 86e42af85d21ac9277a394cd0e6b71041e645480871aeae4f8232ffabd4ef51b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-INFO.ICE by Fluor (ice0004a); released in ice0004a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: 09-INFO.ICE by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice0004a-09-info
 
 Write-Host '
      [36m▄[0;1;36m▄[0;36m▄[0;1;30m▄[0m

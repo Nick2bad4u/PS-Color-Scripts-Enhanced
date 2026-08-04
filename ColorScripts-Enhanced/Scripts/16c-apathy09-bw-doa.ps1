@@ -1,18 +1,4 @@
-﻿# Converted from: BW-DOA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy09/raw/BW-DOA.ANS
-# Source Revision: archive-sha256:4a76e66d96462ed923b8b41dd8e01625078b4c791bda0ef6180f08638853037b
-# Source SHA-256: d5c61622219c521b307ddfaa54cdfe3f0a9d84008b5c63710fed0aa400c4752b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BW-DOA.ANS by Balls Wilson (apat); released in apathy09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Dead on Arrival
-# SAUCE Author: Balls Wilson
-# SAUCE Group: apat
-# SAUCE Date: 19960417
-# SAUCE Dimensions: 80x48
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: Dead on Arrival by Balls Wilson | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy09-bw-doa
 
 Write-Host '
 [30;47m                                                                              [0;37;40m██[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: RR-TB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend06/raw/RR-TB.ANS
-# Source Revision: archive-sha256:bdb12df6fb66b6e7f7ab1240c15e9b23d66b94ced69828c85c717709162a24eb
-# Source SHA-256: a1cce8a8f8a5c03945adcf7be549f95c52596891478e1e3510f36a35aecd97ed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RR-TB.ANS by riddler (blend productions); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: terebinth
-# SAUCE Author: riddler
-# SAUCE Group: blend productions
-# SAUCE Date: 19970118
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: terebinth by riddler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend06-rr-tb
 
 Write-Host '
 [31m█████████████████████████████████████████████████[0;30;41m  [0;31;40m█[0m

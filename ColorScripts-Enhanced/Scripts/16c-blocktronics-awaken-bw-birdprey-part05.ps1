@@ -1,13 +1,4 @@
-﻿# Converted from: bw-birdprey.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_awaken/raw/bw-birdprey.ans
-# Source Revision: archive-sha256:9d338d3910f6730204698339e869f7ab219513c3aa8e2f1b0bb278c633114d95
-# Source SHA-256: cfb6a6d41270be63aa38683cda0c84fbd1872d306ff04eefd551c2eb0cc46885
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bw-birdprey.ans by Binary Walker (blocktronics_awaken); released in blocktronics_awaken and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 200-249
-# Columns: 1-80
+﻿# Artwork: bw-birdprey.ans by Binary Walker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-awaken-bw-birdprey-part05
 
 Write-Host '
 [34m██▄[0;37m [0;1;33m▀[0m  [1;33m▄[0m     [1;33m▄[0m [1;42m░[0;1;32;42m▒▒[0;32m [0;37m [0;32m [0;1;32;42m▒[0;32m▌[0;1;30m [0;32m ▀[0;1;32;42m█▄[0m [1;33m■▄[0m   [1;33m▄▄▀[0m  [1;31m▄[0;31m▀▀▄[0;1;31m [0;1;30m▓[0m [1;35m▐█[0;32m  ▐[0;1;32;42m██▌[0;32m▌  [0;1;32;42m▐██▌[0;32m  [0;31m▄[0;32m [0;31m▄[0;1;31m▄[0;1;31;41m▄[0;31m▄[0;32m   ▀[0;1;32;42m█[0;32m▌ [0;1;35m █▓▓[0m

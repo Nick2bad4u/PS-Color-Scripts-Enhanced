@@ -1,17 +1,4 @@
-﻿# Converted from: QP-NOC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m-9801/raw/QP-NOC1.ANS
-# Source Revision: archive-sha256:68027b949f7edfef662f12aa514dfc21e6e156e3984f9866a81997534ce6ce87
-# Source SHA-256: 3bae4ec1ee0a26e0057a451c4d1b377cc54f829cc36c2fc85538e314bc2954a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QP-NOC1.ANS by quip (mistigris); released in m-9801 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: nocturnal desire
-# SAUCE Author: quip
-# SAUCE Group: mistigris
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: nocturnal desire by quip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m-9801-qp-noc1
 
 Write-Host '
 [30mq[0;35m▄█[0;1;35;45m▄[0;35m█[0;1;35;45m▄▄[0;45m░░[0;35;40m█████[0;1;35;40m▒[0;35m███▀█▄[0;1;35m░░[0;1;35;45m▓▓▒▒[0;35m████[0;1;35;45m▒▒[0;1;35;47m▓▀▀[0;1;35;45m█[0;1;37;44m▒▒▒░░[0;1;35;45m██[0;1;35;40m▓▓[0;1;35;45m▒▒[0;35m▄[0m

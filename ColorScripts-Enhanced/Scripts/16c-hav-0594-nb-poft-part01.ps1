@@ -1,13 +1,4 @@
-﻿# Converted from: NB-POFT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hav-0594/raw/NB-POFT.ANS
-# Source Revision: archive-sha256:1d2eec2ab9921d52acd53b3b0e670f7d60e818766fc731641d7032ae0ff12d14
-# Source SHA-256: 0269f304c468cc9434f6ea131b02719d4f08ebf827a31a961ffc9649248f531f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NB-POFT.ANS by Night Breed (hav-0594); released in hav-0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: NB-POFT.ANS by Night Breed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hav-0594-nb-poft-part01
 
 Write-Host '
 [1m                [0m [1;30m [0m [1;37m▄▄[0m▄▄▄ [1;30m [0m [1m               [0;1;30m││[0m    [1;37m                             [0m

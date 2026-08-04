@@ -1,19 +1,4 @@
-﻿# Converted from: tnt-tr0n.ans
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/blocktronicsonice/raw/tnt-tr0n.ans
-# Source Revision: archive-sha256:09feb7a5adb913c88be16d43a1a4e86bf7073f13399d8bc54e5478cad35282e5
-# Source SHA-256: 5909564f4e2ba0a3ab7e1a0d5d1d71084c1cb3dad439591ce3e8e4dfd6bc80bd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tnt-tr0n.ans by Tainted + Knocturnal (blocktronics); released in blocktronicsonice and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: purple tranny (absinthe bbs)
-# SAUCE Author: tainted
-# SAUCE Group: blocktronics
-# SAUCE Date: 20220316
-# SAUCE Dimensions: 80x315
-# SAUCE Font: IBM VGA
-# Lines: 46-90
-# Columns: 1-80
+﻿# Artwork: purple tranny (absinthe bbs) by Tainted + Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronicsonice-tnt-tr0n-part02
 
 Write-Host '
 [1;30;45m▓▓█[0;1;30;40m████[0;1;30;47m▄▄ [0m████████[1;30;47m▀▀[0;1;30;40m███[0;1;30;47m▄▄▀   ▀███▄[0;1;30;40m███████▀▓▓▓▀[0;1;30;47m▀▀[0m▄[1;30m▄[0m▀▀[1;30m▄▀▒ ░▒ ░░ ▐███████▒▒▒███████[0m

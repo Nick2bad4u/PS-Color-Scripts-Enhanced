@@ -1,18 +1,4 @@
-﻿# Converted from: DM-STONE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gvt-0496/raw/DM-STONE.ANS
-# Source Revision: archive-sha256:cbfe0330e9391dd33b84def04973fc8122df48dfe80ebbb080b9aafe9fb5ddcd
-# Source SHA-256: fa07051214b3ba004909fe2b33f802fcc6e595802cc1394c280d9ad02fdf6914
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DM-STONE.ANS by domino (gravity); released in gvt-0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: toonstone
-# SAUCE Author: domino
-# SAUCE Group: gravity
-# SAUCE Date: 19960329
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: toonstone by domino | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gvt-0496-dm-stone
 
 Write-Host '
       [32m▄▄▄███▄[0m

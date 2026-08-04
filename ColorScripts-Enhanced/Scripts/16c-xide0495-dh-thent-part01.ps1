@@ -1,13 +1,4 @@
-﻿# Converted from: DH-THENT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/xide0495/raw/DH-THENT.ANS
-# Source Revision: archive-sha256:e317471988b625a6d81c93dffa76e59b4fa1a5332df991b4e6e58355a6ccc8a7
-# Source SHA-256: a724921926d99c5f2972f18fbabefbc1ca649ca025863e3d51088f69b2d43fc7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DH-THENT.ANS by Dark Horizon (xide0495); released in xide0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: DH-THENT.ANS by Dark Horizon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-xide0495-dh-thent-part01
 
 Write-Host '
 [1;36m███████████████████████████████████████████████████████████████████████████████[0m

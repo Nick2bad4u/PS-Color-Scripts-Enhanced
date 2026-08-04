@@ -1,13 +1,4 @@
-﻿# Converted from: NI-DANGE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/irapack3-ira-ansi/raw/NI-DANGE.ANS
-# Source Revision: archive-sha256:6fed41f2189359ac8fc175895e43a6af0c3289bbdbde355fb090fc9339bbf7d0
-# Source SHA-256: aa90667d775e87c7db55455356401cce823e8fb8310fc11306acd370169d0b70
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-DANGE.ANS by Nitemare (irapack3-ira-ansi); released in irapack3-ira-ansi and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: NI-DANGE.ANS by Nitemare | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-irapack3-ira-ansi-ni-dange
 
 Write-Host '
                      [32m▄▄▄[0m   [32m▄▄▄[0m     [32m▄▄[0m

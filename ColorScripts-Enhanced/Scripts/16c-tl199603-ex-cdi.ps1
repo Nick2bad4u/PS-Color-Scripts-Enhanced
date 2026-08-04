@@ -1,18 +1,4 @@
-﻿# Converted from: EX-CDI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl199603/raw/EX-CDI.ANS
-# Source Revision: archive-sha256:0efb2f799ead394e7068a363d08b4382c71543fc86834c3fc142767771a369dc
-# Source SHA-256: b0bdbb9b71a7d90467321bbfc9609f24846d31cd1fb8ceeb3c512c4decc84ec2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EX-CDI.ANS by Extreme (TeklordZ); released in tl199603 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: CDI
-# SAUCE Author: Extreme
-# SAUCE Group: TeklordZ
-# SAUCE Date: 19960315
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: CDI by Extreme | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl199603-ex-cdi
 
 Write-Host '
    ▄▄[1;47m░░[0m▀                [1;30m ▄[0m       [1;30m▄[0m

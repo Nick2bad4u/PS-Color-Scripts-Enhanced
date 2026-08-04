@@ -1,15 +1,4 @@
-﻿# Converted from: DT-EAS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0397/raw/DT-EAS2.ANS
-# Source Revision: archive-sha256:147f0608c1bd711b116f3ad049b80e805dfbb40e7d23ffce5f4580a5a57bae0f
-# Source SHA-256: c660fc70eb80f3bdce06be9361f79401426e68024a43ef37c5a83a7e713a0048
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-EAS2.ANS by Defiant (root0397); released in root0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ease
-# SAUCE Author: Defiant
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: Ease by Defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0397-dt-eas2
 
 Write-Host '
 [1;30m                      [0m       [33m▄░   ▄▄   [0;1;31m▀[0;1;31;43m▒[0;33m▓▄ ▀ ▄[0;1;31;43m▒▄▄▄[0;33m██▄[0m

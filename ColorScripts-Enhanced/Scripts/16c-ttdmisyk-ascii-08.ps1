@@ -1,13 +1,4 @@
-﻿# Converted from: ASCII-08.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ttdmisyk/raw/ASCII-08.ANS
-# Source Revision: archive-sha256:691d88fad8510c75499187262885f1f653d52455952817f34e55b7599917acfc
-# Source SHA-256: 5e5011037efe68a5e9325b4c21dbd8779be651e42f70321c99e29ed66ddf41a4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ASCII-08.ANS by Konami (ttdmisyk); released in ttdmisyk and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: ASCII-08.ANS by Konami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ttdmisyk-ascii-08
 
 Write-Host '
 [35m-[0;37m [0;1;37mkONAMIkUN[0;35m-- [0;1;37makira toriyama styles[0;35m//[0;37m [0;35m------------------------------------------[0m

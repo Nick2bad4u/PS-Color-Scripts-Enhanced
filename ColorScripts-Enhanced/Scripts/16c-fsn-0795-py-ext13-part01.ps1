@@ -1,18 +1,4 @@
-﻿# Converted from: PY-EXT13.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0795/raw/PY-EXT13.ANS
-# Source Revision: archive-sha256:4618e29cb34b4ee59fd8cc3bf6bfd4daade875efc4a6539f8a712e6be6a91a14
-# Source SHA-256: afa300e0e86f5c1a91309c651ee77aeddd100c6ec390329a4844e6a27184dd46
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PY-EXT13.ANS by Pyro (FusioN); released in fsn-0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Exit Thirteen
-# SAUCE Author: Pyro
-# SAUCE Group: FusioN
-# SAUCE Date: 19950625
-# SAUCE Dimensions: 80x149
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Exit Thirteen by Pyro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0795-py-ext13-part01
 
 Write-Host '
 [1m[0;1;31m[0;31m[0;1;31m[0;1;37m[0m                        [1;30m [0;31m    [0;1;33m▄  [0;31m▒▒  ░░    ▓   ▒▓[0m   [1;30m·[0m

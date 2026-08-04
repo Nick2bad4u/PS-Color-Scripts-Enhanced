@@ -1,18 +1,4 @@
-﻿# Converted from: FJ_ABS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blawork/raw/FJ_ABS1.ANS
-# Source Revision: raw-sha256:40aa2c63435efb8b8289e8ad0dd3d6b916c6c40fc641312ffbd019ed563d50d5
-# Source SHA-256: 40aa2c63435efb8b8289e8ad0dd3d6b916c6c40fc641312ffbd019ed563d50d5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FJ_ABS1.ANS by fastjack (boil); released in blawork and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: grace kelly ist tot.
-# SAUCE Author: fastjack
-# SAUCE Group: boil
-# SAUCE Date: 19971001
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: grace kelly ist tot. by fastjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blawork-fj-abs1
 
 Write-Host '
  [45m██[0;1;30;40m [0;35m░░[0;1;30m [0;35m▄[0;1;35;45m▓▓ [0;35m█░░ [0;1;30m─────────[0m [1;30m░░[0m [1;30m─── [0;1;36;44m▀░[0;1;30;40m [0;34m░[0;1;36;44m▓█[0;1;30;40m [0;36m▐░[0;1;30m ───[0;36m [0;1;34;47m  [0;1;34;40m▄[0;1;33;40m [0;1;30;40m──────── [0m

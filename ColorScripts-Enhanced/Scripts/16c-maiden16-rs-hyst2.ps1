@@ -1,18 +1,4 @@
-﻿# Converted from: RS-HYST2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden16/raw/RS-HYST2.ANS
-# Source Revision: archive-sha256:5eec87aa8a926ff580ebebb1a03e3414c92381a206a8caa2448e563d5972636c
-# Source SHA-256: dab80ef0937a33f1e7bcb48b30a572a9b396c77d5bbe5e59a24590c7e261f4c4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-HYST2.ANS by rorshack (Maiden Brazil); released in maiden16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hysteria emag!@!#@$#
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19980628
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: hysteria emag!@!#@$# by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden16-rs-hyst2
 
 Write-Host '
   [1;30m [0m      [1;30m▄▄▄▄▄   ░[0m

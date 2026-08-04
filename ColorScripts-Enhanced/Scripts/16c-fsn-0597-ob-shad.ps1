@@ -1,18 +1,4 @@
-﻿# Converted from: OB!SHAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0597/raw/OB!SHAD.ANS
-# Source Revision: archive-sha256:100499c687593fd78c29adf06f5899e8c0d61223958e380a9c31aadb955ab06d
-# Source SHA-256: 7f1c352fb21cb954c87895286e155baf5b867c3c6e8b9f8e199031afc91c5b01
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OB!SHAD.ANS by oddball (fewsion); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: shad?!?
-# SAUCE Author: oddball
-# SAUCE Group: fewsion
-# SAUCE Date: 19970505
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: shad?!? by oddball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0597-ob-shad
 
 Write-Host '
                                                                         [1m [0m   [32m▄[0m

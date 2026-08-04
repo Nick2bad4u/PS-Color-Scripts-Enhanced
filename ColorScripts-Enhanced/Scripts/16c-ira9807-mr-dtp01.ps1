@@ -1,18 +1,4 @@
-﻿# Converted from: MR-DTP01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira9807/raw/MR-DTP01.ANS
-# Source Revision: archive-sha256:c471c4d36ee5bf845811666c0e7a6f5bfba6ac001a5bbd5053c14dd8e5728ef2
-# Source SHA-256: 39d9888f0d17e4cc0ddcd791f4993eb7e8fd08f81feee2d70d85ed44c25d92f0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-DTP01.ANS by Mr.Wrong (Mistigris); released in ira9807 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Dystopia
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: Mistigris
-# SAUCE Date: 19980701
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Dystopia by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira9807-mr-dtp01
 
 Write-Host '
           [33m▄░░[0;37m   [0m                                   [35m▄[0m    [34m         [0m

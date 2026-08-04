@@ -1,18 +1,4 @@
-﻿# Converted from: BG-WUD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mskp-03/raw/BG-WUD1.ANS
-# Source Revision: archive-sha256:369f71f9db47e6e5b0d0bdfdf19b2a22bd51dadea3798ab3bf33876f294ae21a
-# Source SHA-256: e7a590b37ffca3af24851f30e1b206ec35c5cc03ea6a5f642f02cf1ceea23dea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BG-WUD1.ANS by BeRGuS (MASAKRE PRODUCTiONS); released in mskp-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: WaKe UP DeaD BBS #1
-# SAUCE Author: BeRGuS
-# SAUCE Group: MASAKRE PRODUCTiONS
-# SAUCE Date: 19960810
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: WaKe UP DeaD BBS #1 by BeRGuS | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mskp-03-bg-wud1
 
 Write-Host '
 [33;41m██▓▓▓▒▒░░░[0;31;40m▀▀▀[0m                                                        [31;40m▀▀[0;33;41m░░░▒▒▓▓▓█[0m

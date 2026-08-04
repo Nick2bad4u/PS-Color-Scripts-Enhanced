@@ -1,18 +1,4 @@
-﻿# Converted from: SC-NHPIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9601/raw/SC-NHPIC.ANS
-# Source Revision: archive-sha256:7aa9123f877021b71fa63f38de012fc68287c00ecd76f3a2105e748660eee14f
-# Source SHA-256: b2a48e695bf3d2b6a477a25885c8554e24b9a76153bd2d309c43729b7f6567bb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-NHPIC.ANS by subconsciousness (bladeproductions); released in blde9601 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: nh! picta'
-# SAUCE Author: subconsciousness
-# SAUCE Group: bladeproductions
-# SAUCE Date: 19951207
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: nh! picta' by subconsciousness | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9601-sc-nhpic
 
 Write-Host '
                                  [32m▀███[0;1;32;42m  ░[0;32m██[0;1;32;42m░[0;32m███[0;1;32;42m▄▓[0;32m███[0;1;32;42m▄▄ [0;32m█▄██[0;1;32;42m▒[0;32m████[0;1;32;42m▒▓[0;32m▀▀▀[0;1;32m▀▓[0;1;32;42m▄[0;32m███[0;1;30;42m▀▒▀▓▓[0m

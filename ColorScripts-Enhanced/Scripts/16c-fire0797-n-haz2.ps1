@@ -1,18 +1,4 @@
-﻿# Converted from: N-HAZ2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0797/raw/N-HAZ2.ANS
-# Source Revision: archive-sha256:94b9d74f23cef45b7f0e0cddc6ad7ce59eed15dd66ca41ed74c0005a3af14ca4
-# Source SHA-256: e723a5766fdb601d062d4884a0a013fe1f0bbecf1267b2d02b74fe79ea6e99ec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-HAZ2.ANS by nail (f1R3); released in fire0797 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: hazard/2
-# SAUCE Author: nail
-# SAUCE Group: f1R3
-# SAUCE Date: 19970710
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: hazard/2 by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0797-n-haz2
 
 Write-Host '
 [1;30m▌[0;1;37m▐█[0;1;33;47m█[0;1;33;40m▄▄▄[0;1;30;40m▀[0;1;30;46m░▓▓[0;1;30;40m██▀[0m [1;33m▄[0;1;37m▄█[0;1;33;47m█▓░[0m [1m▄▄[0;1;33m▄[0m [1;30m▀[0m▒▒[1;30m█▀ [0;1;30;46m▀▓[0;1;30;40m▀▄[0;1;30;46m▓▓[0;1;30;40m█ [0;33m [0;1;30m▀▀[0;1;30;46m▄▓[0;1;30;40m▀▀▀██▄ ▀█▄▀██▀▄▄[0m▒▒[1;30m███[0;1;30;47m▓▓[0;1;30;40m▌▄▀██▄▀█[0m▒[1;30m▄▀[0m

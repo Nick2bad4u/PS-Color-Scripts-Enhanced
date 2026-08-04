@@ -1,16 +1,4 @@
-﻿# Converted from: S3-ABS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tone0199/raw/S3-ABS.ANS
-# Source Revision: archive-sha256:cc68ea1eb33455f4fac3ad894e9449a738582c78ce2d942c658b2e45a01a80a9
-# Source SHA-256: ac9645f3bd99932e8b492e247b7f3851c32481fb04c93961dc459799c206dcd7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S3-ABS.ANS by seltorn (tone); released in tone0199 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: absurdian
-# SAUCE Author: seltorn
-# SAUCE Group: tone
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: absurdian by seltorn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tone0199-s3-abs
 
 Write-Host '
  ██▌  [1;30m░░[0m                     [1;37m▄▄▄[0m                                [1;30m░░[0m     ▀███████

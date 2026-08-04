@@ -1,18 +1,4 @@
-﻿# Converted from: SD-OCHO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-08/raw/SD-OCHO1.ANS
-# Source Revision: archive-sha256:0b90c936d49629839c01709c30be5eee3ae4012caa7a8f1570b6ae8cc1763cb4
-# Source SHA-256: 3f63afafebcb2ae3b7174bc36a95f15b2e422570c37f13b2d075d550f02f8d82
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-OCHO1.ANS by sirdeath (ecl:pse); released in ecl-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ocho
-# SAUCE Author: sirdeath
-# SAUCE Group: ecl:pse
-# SAUCE Date: 19961007
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: ocho by sirdeath | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-08-sd-ocho1
 
 Write-Host '
 

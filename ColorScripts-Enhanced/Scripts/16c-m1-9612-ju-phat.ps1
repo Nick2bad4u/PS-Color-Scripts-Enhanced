@@ -1,18 +1,4 @@
-﻿# Converted from: JU-PHAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m1-9612/raw/JU-PHAT.ANS
-# Source Revision: archive-sha256:3345b8669e1e5395f00119c0204de5931cc61e1b206afc14cb4b582ca2764c50
-# Source SHA-256: 10c485913d64628c771224283ee1b441c6209b3e6b00ab70213487a307bf8f6f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JU-PHAT.ANS by Judas (Maiten1); released in m1-9612 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Phantasmagoria
-# SAUCE Author: Judas
-# SAUCE Group: Maiten1
-# SAUCE Date: 19961130
-# SAUCE Dimensions: 80x25
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: Phantasmagoria by Judas | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m1-9612-ju-phat
 
 Write-Host '
    [1m                                                                       [0m

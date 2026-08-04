@@ -1,13 +1,4 @@
-﻿# Converted from: we-09.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_16colors/raw/we-09.ans
-# Source Revision: archive-sha256:906b8658ae1b298a9794b2bd98c553b56bef4b4de5008bd765b49c3ed6b68572
-# Source SHA-256: 2d93449550a6cf0f434d7a79c5ed286119f973fde0fcfbb52bc5a7a7715df662
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-09.ans by Enzo + Bizzarro (blocktronics_16colors); released in blocktronics_16colors and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: we-09.ans by Enzo + Bizzarro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-16colors-we-09
 
 Write-Host '
 33h

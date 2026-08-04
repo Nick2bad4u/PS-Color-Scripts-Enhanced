@@ -1,13 +1,4 @@
-﻿# Converted from: TT-SA2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-t/raw/TT-SA2.ANS
-# Source Revision: archive-sha256:1bd05509d0b9d3fd95988cf79c4eba55d4c815a1c253a90ba1bc1e221ff0e0f8
-# Source SHA-256: 7a934827b68328315d88922abc9a3bf414a1b846336e46834acef894fbecd65d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TT-SA2.ANS by Tempus Thales (ansis-t); released in ansis-t and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: TT-SA2.ANS by Tempus Thales | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-t-tt-sa2
 
 Write-Host '
                                                           [1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

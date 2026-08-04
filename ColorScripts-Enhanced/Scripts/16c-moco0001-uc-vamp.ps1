@@ -1,13 +1,4 @@
-﻿# Converted from: UC^VAMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moco0001/raw/UC%5EVAMP.ANS
-# Source Revision: archive-sha256:dcdb582dd72f68bdff86d5417b79603e24e9c8dae1249dc376b93ef4a35dab7b
-# Source SHA-256: 06bcfb433932ac56f3bdba3a440814c642b8a26419494f32273f1e17567d8955
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UC^VAMP.ANS by Uctumi (moco0001); released in moco0001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: UC^VAMP.ANS by Uctumi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moco0001-uc-vamp
 
 Write-Host '
                            [1;31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

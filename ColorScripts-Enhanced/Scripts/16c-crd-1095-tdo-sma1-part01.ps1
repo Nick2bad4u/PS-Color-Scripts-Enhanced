@@ -1,18 +1,4 @@
-﻿# Converted from: TDO-SMA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/crd-1095/raw/TDO-SMA1.ANS
-# Source Revision: archive-sha256:20fe901331c8baae10f7f42978938f427fef762e25f1cf82b8a90b499601eb8f
-# Source SHA-256: fa3a63aa3eaebf6e9c91d9d5599b0f54c23df38cea070f8c59d705f468d7d01b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TDO-SMA1.ANS by teardrop (Creed); released in crd-1095 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: !sOma!
-# SAUCE Author: teardrop
-# SAUCE Group: Creed
-# SAUCE Date: 19950928
-# SAUCE Dimensions: 80x87
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: !sOma! by teardrop | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-crd-1095-tdo-sma1-part01
 
 Write-Host '
                                                                        [1;30m▄▄▄▄▄▄▄▓▄[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: goo-wendy.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-67rpm/raw/goo-wendy.ans
-# Source Revision: archive-sha256:3bbf9039f3766954a270bac124a42d38fcc9fc482243f18bf40e3eb60d3ca1ae
-# Source SHA-256: ceb4a1cd6a8325fced24371614f7da11f13268717ed1e72c7ba8652969d42160
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: goo-wendy.ans by GOO (blocktronics); released in blocktronics-67rpm and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Wendy Carlos
-# SAUCE Author: GOO
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190120
-# SAUCE Dimensions: 80x69
-# SAUCE Font: IBM VGA
-# Lines: 37-69
-# Columns: 1-80
+﻿# Artwork: Wendy Carlos by GOO | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-67rpm-goo-wendy-part02
 
 Write-Host '
              [37m▌ [0;1;30m▀[0;1;30;47m▄[0;1;37;47m░[0;1;30;47m▌[0;1;37;40m█████[0;1;37;47m▌[0;1;37;40m██[0;1;37;47m▄[0;1;37;40m██[0;1;37;47m░[0;1;30;47m■[0;1;37;47m▀[0;1;30;47m█[0;1;30;40m▀ [0m █████[1;47m▀[0m█[1;47m▀▀[0;1;40m▄▄▄[0m         [33m▀▀▀███████████████████[0m

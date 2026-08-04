@@ -1,18 +1,4 @@
-﻿# Converted from: AS-RMRS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-25/raw/AS-RMRS.ANS
-# Source Revision: archive-sha256:155c63f4ebfe557601b96fe32b39c51bbf83ff7df6b7135512d6b4d3f17d3905
-# Source SHA-256: 091c156ff159585a731ef766f646ce067848f4d7047c2504849d2f221f0b5d33
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AS-RMRS.ANS by asd (secular); released in sclr-25 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: remorse
-# SAUCE Author: asd
-# SAUCE Group: secular
-# SAUCE Date: 20020113
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: remorse by asd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-25-as-rmrs
 
 Write-Host '
 [36m☺☺☺☺[0;37m [0;36m☺☺☺☺[0;37m [0;36m☺☺☺☺[0;37m [0;36m☺☺☺☺[0;37m [0;36m☺☺☺☺[0;37m [0;36m☺☺☺☺[0;37m [0;36m☺☺☺☺[0;37m [0;36m☺☺☺☺[0;37m [0;36m☺☺☺☺☺[0;37m [0;36m☺☺☺☺[0;37m [0;36m☺☺☺☺[0;37m [0;36m☺☺☺☺[0;37m [0;36m☺☺☺☺[0;37m [0;36m☺☺☺☺[0;37m [0;36m☺☺☺☺[0;37m [0;36m☺☺☺[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: MH!PGYY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/arsin02/raw/MH!PGYY.ANS
-# Source Revision: archive-sha256:8b3ca93f9d07119d47150f846bba6e8cd466371f5d81106c3318f874455ab21e
-# Source SHA-256: 0817082eb36775cccc63fe75c6d7e7dbeaa5f5333b0000481fb082702e3d3fda
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MH!PGYY.ANS by Maddog Hoek (arsin02); released in arsin02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: MH!PGYY.ANS by Maddog Hoek | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-arsin02-mh-pgyy
 
 Write-Host '
          [1m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;47m▀[0m

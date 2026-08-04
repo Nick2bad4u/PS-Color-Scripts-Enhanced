@@ -1,19 +1,4 @@
-﻿# Converted from: us-neonlove.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel27/raw/us-neonlove.ans
-# Source Revision: raw-sha256:a19ce686a61b37fcd4ff67981e6c00a7d2cc1f326ebd75ba1ea2e7d70890a19e
-# Source SHA-256: a19ce686a61b37fcd4ff67981e6c00a7d2cc1f326ebd75ba1ea2e7d70890a19e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-neonlove.ans by The Knight + Nail (Fuel & Blocktronics); released in fuel27 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Neon Love
-# SAUCE Author: tk & nail
-# SAUCE Group: Fuel & Blocktronics
-# SAUCE Date: 20180731
-# SAUCE Dimensions: 80x77
-# SAUCE Font: IBM VGA
-# Lines: 39-77
-# Columns: 1-80
+﻿# Artwork: Neon Love by The Knight + Nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel27-us-neonlove-part02
 
 Write-Host '
 [35m  [0;34m▐▓    [0;1;31m▄[0;1;31;43m▄[0;1;31;40m▀ ▐█[0;1;31;43m▓[0;33m█    [0;1;34m█▄▄▄[0m                 [35m▒▒░░[0m                     [35m░░░░[0m

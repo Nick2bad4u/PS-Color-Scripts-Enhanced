@@ -1,18 +1,4 @@
-﻿# Converted from: GK-SATPH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0696/raw/GK-SATPH.ANS
-# Source Revision: archive-sha256:812b4b6a142b76b92307dc090cdf58b49035a2b9097d1dc0a43da5e4fd3f4f2d
-# Source SHA-256: 103392f9150fc04c7a2e6c0f352d34750b879d657bcc1dc6fee508036fa6e05f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GK-SATPH.ANS by grind king (fire); released in fire0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: saturated fat
-# SAUCE Author: grind king
-# SAUCE Group: fire
-# SAUCE Date: 19960519
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: saturated fat by grind king | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0696-gk-satph
 
 Write-Host '
 

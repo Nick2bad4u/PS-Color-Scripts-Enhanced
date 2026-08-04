@@ -1,19 +1,4 @@
-﻿# Converted from: US-LAMUR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-35/raw/US-LAMUR.ANS
-# Source Revision: archive-sha256:c366a38306f48b13ede280377c5f8ef243fdab7e7890ac3e053ec3ccbc5d901a
-# Source SHA-256: b5af104130916888d93b1eebe5b8c2166c75a1e92a9be721513a786bcb3bfc32
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-LAMUR.ANS by Necro + Tainted (fire); released in fire-35 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: la muerte
-# SAUCE Author: necro / tainted
-# SAUCE Group: fire
-# SAUCE Date: 20221208
-# SAUCE Dimensions: 80x96
-# SAUCE Font: IBM VGA
-# Lines: 51-96
-# Columns: 1-80
+﻿# Artwork: la muerte by Necro + Tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-35-us-lamur-part02
 
 Write-Host '
      [36m▐█▀[0;1;37m▄▄▄▄[0;1;30;46m░░▒▓[0;36m▀[0;37m [0;1;30m░██▌███████░█▌[0m▐░[36m▀▀[0;1;37m▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0;1;37;46m▄▄▄▀[0;46m▀▀[0;1;30;40m▄[0m ▓[1;30m░██░▐[0;1;30;46m▓▓[0;36m▀[0;1;37m▄▄[0;1;37;46m▓▓[0;1;37;40m██[0m▄

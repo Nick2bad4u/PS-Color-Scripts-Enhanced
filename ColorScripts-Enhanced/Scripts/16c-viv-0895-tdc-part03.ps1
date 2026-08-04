@@ -1,13 +1,4 @@
-﻿# Converted from: TDC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/viv-0895/raw/TDC.ANS
-# Source Revision: archive-sha256:b40da7a112dbb010009163ae7433fd68eeb31f46e88539fd06b55be00046ae5f
-# Source SHA-256: 291916c7038f44e90318e61064c2da6faa2dea2fecb63ece1531b8fbad2dd2aa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TDC.ANS by Grifter 805 (viv-0895); released in viv-0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 72-114
-# Columns: 1-80
+﻿# Artwork: TDC.ANS by Grifter 805 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-viv-0895-tdc-part03
 
 Write-Host '
 

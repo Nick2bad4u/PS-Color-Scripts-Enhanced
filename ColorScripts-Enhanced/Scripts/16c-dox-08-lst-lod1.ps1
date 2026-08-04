@@ -1,18 +1,4 @@
-﻿# Converted from: LST-LOD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_08/raw/LST-LOD1.ANS
-# Source Revision: archive-sha256:f5d36139e5f7f2e2e6d40888afe2c0fec7cd427ccc34b8a60d8fe55ece2d0c15
-# Source SHA-256: cb458383fceafbde50599e8c96adf41748b9532e3d32edaa9217b100986dd3be
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LST-LOD1.ANS by soul trader (dox); released in dox_08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: lands of defiance
-# SAUCE Author: soul trader
-# SAUCE Group: dox
-# SAUCE Date: 19970411
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: lands of defiance by soul trader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-08-lst-lod1
 
 Write-Host '
 

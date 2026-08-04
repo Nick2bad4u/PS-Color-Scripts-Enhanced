@@ -1,19 +1,4 @@
-﻿# Converted from: avg-impure.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna01/raw/avg-impure.ans
-# Source Revision: archive-sha256:70f712dbf565de1ceb0f2b7020b54aa443621235a47b082b92e24e13342b0672
-# Source SHA-256: db95909f299be922db8eaa0c4b6c6633e205cc32674fb24324a5f0e9c1094346
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-impure.ans by avenging angel (sauna); released in thesauna01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: impure
-# SAUCE Author: avenging angel
-# SAUCE Group: sauna
-# SAUCE Date: 20190926
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: impure by avenging angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna01-avg-impure
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: dy1-bed.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/labia314/raw/dy1-bed.ans
-# Source Revision: archive-sha256:704095869b71d0834bb8c83d90c0dddc7803f8a47b5046986cc14c14a7864134
-# Source SHA-256: 6173aff05aeae7908e4988a19eeb7055710af31035d69855bfe40266ed9c6bc3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: dy1-bed.ans by Discyple (labia314); released in labia314 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: dy1-bed.ans by Discyple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-labia314-dy1-bed
 
 Write-Host '
  [36mbiogen''s[0m                                                   [33m.┐[0;1;31m#$$$$$$$$$$$$$$$$[0m

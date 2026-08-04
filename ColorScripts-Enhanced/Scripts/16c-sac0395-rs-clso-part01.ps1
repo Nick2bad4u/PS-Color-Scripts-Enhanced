@@ -1,18 +1,4 @@
-﻿# Converted from: RS-CLSO.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/sac0395/raw/RS-CLSO.ANS
-# Source Revision: archive-sha256:7b30118405d4d21f05022ba0c6f9cc20d209f8b3e8684cf8db7bf6713b2b2425
-# Source SHA-256: dc30d6368ec5a119b3b69861f353f93edb165b7c113c832950a397f49267ed1e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-CLSO.ANS by raiser; released in sac0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
-# SAUCE Title: CLOSED SOCiETY 1ST.
-# SAUCE Author: RAiSER
-# SAUCE Group: SAC
-# SAUCE Date: 19950203
-# SAUCE Dimensions: 80x211
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: CLOSED SOCiETY 1ST. by raiser | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0395-rs-clso-part01
 
 Write-Host '
 [1;37;40m [0m·

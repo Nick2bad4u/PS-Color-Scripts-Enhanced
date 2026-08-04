@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-WIT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-1098/raw/OUT-WIT1.ANS
-# Source Revision: archive-sha256:bdb7abb87e526c06fbf70b194bc9ec3dc15d07ed529ff67dc8218e345c7b357a
-# Source SHA-256: 7eee09f79eaa064f39e2a4912cccfe59ed6b7c443f018d9ef6205d9944f6ee73
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-WIT1.ANS by Sandy Chidester (out-1098); released in out-1098 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: OUT-WIT1.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-1098-out-wit1
 
 Write-Host '
                                                               [1;30m▄[0;1;30;47m▀[0;1;30m█████▌[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: RH-TLED1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-lc-artdisk/raw/RH-TLED1.ans
-# Source Revision: archive-sha256:d99dd05882b547bcfac565e3fc99e4c20080a2bb9c34c833b810d4e465d15217
-# Source SHA-256: 221aa37fc99435b8e1b70fcd9b86fdb409ee9148eb799bc2d34b66089bc241b6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RH-TLED1.ans by rash (mistigris); released in mist-lc-artdisk and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the living end
-# SAUCE Author: rash
-# SAUCE Group: mistigris
-# SAUCE Date: 19980318
-# SAUCE Dimensions: 80x92
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: the living end by rash | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-lc-artdisk-rh-tled1-part01
 
 Write-Host '
 [1;30m--------------------------------------------------------------------------------[0m

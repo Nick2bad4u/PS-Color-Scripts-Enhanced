@@ -1,18 +1,4 @@
-﻿# Converted from: GSO-SPNT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0798/raw/GSO-SPNT.ANS
-# Source Revision: archive-sha256:ba14cc0f9129d345d6e8055f6819b7be294ddff8674fbcc97cd1db52d47ee088
-# Source SHA-256: 53928a49df4c5d79fa3454cfbb9d1d094edae50ecfe0dd4f94b3b1d7866b3310
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GSO-SPNT.ANS by gso (plf); released in plf-0798 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: spantobi1910
-# SAUCE Author: gso
-# SAUCE Group: plf
-# SAUCE Date: 19980725
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: spantobi1910 by gso | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0798-gso-spnt
 
 Write-Host '
                         [1;30m▄[0m

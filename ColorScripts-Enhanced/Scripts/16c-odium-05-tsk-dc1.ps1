@@ -1,13 +1,4 @@
-﻿# Converted from: TSK-DC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-05/raw/TSK-DC1.ANS
-# Source Revision: archive-sha256:00017ea77a556a0e8fa8903f908ba8848ddc89ac19675ccac8aee269ef1bbdb5
-# Source SHA-256: 2542ace42edc5f9dea8578325cf5e15b9b93cf13ca4bada6e905dbe4a7d3f14d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-DC1.ANS by The Silent Killer (odium-05); released in odium-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: TSK-DC1.ANS by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-05-tsk-dc1
 
 Write-Host '
                        [1;34m [0m     [1;34m [0m [1;34mi[0m             [1;34me[0m

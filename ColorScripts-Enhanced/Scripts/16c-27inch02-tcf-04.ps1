@@ -1,13 +1,4 @@
-﻿# Converted from: TCF-04.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch02/raw/TCF-04.ANS
-# Source Revision: archive-sha256:cf5edf9c96cc8253a46b06083b6d6c568d54a3ab114e7250815fc48f7f1a4c4c
-# Source SHA-256: 9becd8fc440b75c90adb456b7912382409f083ee5c43d8c64d1a63d64fe06c9a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TCF-04.ANS by Tcf (27inch02); released in 27inch02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: TCF-04.ANS by Tcf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch02-tcf-04
 
 Write-Host '
                  [31m██▀▀█▄▄▄▄[0m          [31m░░░░░░░[0m

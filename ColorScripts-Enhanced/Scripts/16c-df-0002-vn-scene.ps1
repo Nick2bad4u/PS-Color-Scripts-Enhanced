@@ -1,18 +1,4 @@
-﻿# Converted from: VN-SCENE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/df-0002/raw/VN-SCENE.ANS
-# Source Revision: archive-sha256:e44db76773a2405296a872965cababe7c2d393941afd0c283db330b845eeab02
-# Source SHA-256: 8fa9f881105d6db54b0573a9969f25472ddbae8d1279ead00a5ebfdbaf5bc747
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VN-SCENE.ANS by VeNoMouS (vN!) (DeViL FoRCeS); released in df-0002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: nEVER dIE!
-# SAUCE Author: VeNoMouS (vN!)
-# SAUCE Group: DeViL FoRCeS
-# SAUCE Date: 19970824
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: nEVER dIE! by VeNoMouS (vN!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-df-0002-vn-scene
 
 Write-Host '
                                                  [1;47m [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: FR-BC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cnc-0494/raw/FR-BC.ANS
-# Source Revision: archive-sha256:a2860c6058bc20deb4b9fe584adc3143209a13f75027fe0542d8e0a5a0f55c58
-# Source SHA-256: 698b192652afe8e55cd11eafc0adf4f6b463a21439b292f458ff80935e2d0b91
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FR-BC.ANS by Fracture (cnc-0494); released in cnc-0494 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: FR-BC.ANS by Fracture | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cnc-0494-fr-bc-part02
 
 Write-Host '
 [1;37;47m██▓▒░ [0;1;30;47m░▒▓█[0m                      [1;37;40m█[0;1;37;44m    [0;1;34;44m░▒▓[0;1;30;47m▀[0;1;37;40m▄▄▄▄▄▄▄▄[0m                     [1;30;47m█▓▒░ [0;1;37;47m░▒▓██[0m

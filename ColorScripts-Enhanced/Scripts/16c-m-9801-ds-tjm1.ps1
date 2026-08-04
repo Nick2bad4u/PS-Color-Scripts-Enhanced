@@ -1,17 +1,4 @@
-﻿# Converted from: DS-TJM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m-9801/raw/DS-TJM1.ANS
-# Source Revision: archive-sha256:68027b949f7edfef662f12aa514dfc21e6e156e3984f9866a81997534ce6ce87
-# Source SHA-256: 7b2d8278def779ac44dcf858c85fd5fa7cec8c28814e850633de84abb6f5a46a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-TJM1.ANS by dead soul (m-9801); released in m-9801 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the jade monkee
-# SAUCE Author: dead soul
-# SAUCE Date: 19971230
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: the jade monkee by dead soul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m-9801-ds-tjm1
 
 Write-Host '
                                     [33m   [0m

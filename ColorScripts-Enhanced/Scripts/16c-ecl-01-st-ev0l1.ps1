@@ -1,18 +1,4 @@
-﻿# Converted from: ST-EV0L1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-01/raw/ST-EV0L1.ANS
-# Source Revision: archive-sha256:98f7ca14920172db6145e44afa4b8ac94de6e46d94b8cf326e89a96c3e7e5c1b
-# Source SHA-256: ebbe76401b1f0f4a02e05d013dc030d27becf352aea36d3b225fe6c65cb0df3a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-EV0L1.ANS by splatt (eclipse); released in ecl-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: evol #1 .. <yay>
-# SAUCE Author: splatt
-# SAUCE Group: eclipse
-# SAUCE Date: 19960603
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: evol #1 .. <yay> by splatt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-01-st-ev0l1
 
 Write-Host '
 

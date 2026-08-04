@@ -1,18 +1,4 @@
-﻿# Converted from: FFH-ABRA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-lc-artdisk/raw/FFH-ABRA.ANS
-# Source Revision: archive-sha256:d99dd05882b547bcfac565e3fc99e4c20080a2bb9c34c833b810d4e465d15217
-# Source SHA-256: 09c4f916843f03cbe3d2fe4cc9009e237f6a3aa5ec4a9178c26548f7f3eaaa45
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FFH-ABRA.ANS by Fire From Heaven (mISTFUNK 1998); released in mist-lc-artdisk and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Abraxas
-# SAUCE Author: Fire From Heaven
-# SAUCE Group: mISTFUNK 1998
-# SAUCE Date: 19980115
-# SAUCE Dimensions: 80x25
-# Lines: 85-126
-# Columns: 1-80
+﻿# Artwork: Abraxas by Fire From Heaven | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-lc-artdisk-ffh-abra-part03
 
 Write-Host '
   [1;31;43m▒▓[0;1;31;40m▌▀[0;1;31;43m▓▒░[0;33m█[0;1;31;43m░[0;33m███[0;37m [0;1;31m▐[0;1;31;43m▓▓[0m  [33m▄[0;37m  [0;33m▀▀[0;1;31;43m░░[0;33m██████▀[0;37m  [0;33m▐█████▓▓[0;37m [0;35m██████▀▀▓[0;37m [0;1;30m▒[0;1;37m▓████████████████████▒[0m

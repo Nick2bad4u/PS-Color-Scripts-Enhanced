@@ -1,18 +1,4 @@
-﻿# Converted from: 13-PART7.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend07/raw/13-PART7.ANS
-# Source Revision: archive-sha256:ca5dd679a175bb824bf5bf250a5bbd7f932645b5aabbf63799cb92711cab24b8
-# Source SHA-256: 4db962be8a343b3caafaeadb85da645f6deec9c4852c6131e75106b8e75b2089
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 13-PART7.ANS by ville (blend&fire); released in blend07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 7th dimension, party!
-# SAUCE Author: ville
-# SAUCE Group: blend&fire
-# SAUCE Date: 19970227
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: 7th dimension, party! by ville | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend07-13-part7
 
 Write-Host '
 [32m                                                        [0m

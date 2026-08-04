@@ -1,18 +1,4 @@
-﻿# Converted from: GDR-SHI1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aspire01/raw/GDR-SHI1.ANS
-# Source Revision: archive-sha256:f43fc1225b31ab1a04e5d79452fd45ba80fce2e2fd3402d945be695dfc4cdc66
-# Source SHA-256: 8c001ac6e98f2fcef9420faf234ea983713e03a0b845ecf3ea5bea065140d554
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GDR-SHI1.ANS by gravedancer (aspire); released in aspire01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: aspire promo
-# SAUCE Author: gravedancer
-# SAUCE Group: aspire
-# SAUCE Date: 19980628
-# SAUCE Dimensions: 80x44
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: aspire promo by gravedancer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aspire01-gdr-shi1
 
 Write-Host '
 

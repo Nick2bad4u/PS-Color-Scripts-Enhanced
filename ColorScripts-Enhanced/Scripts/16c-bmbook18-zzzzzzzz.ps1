@@ -1,18 +1,4 @@
-﻿# Converted from: ZZZZZZZZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook18/raw/ZZZZZZZZ.ANS
-# Source Revision: archive-sha256:3923f0369728e803f9484754cab6944bd0f8349523e51216ea34f98242393a94
-# Source SHA-256: 0b9c5c755ac45159775606d919786c6b07477c6eec277c3eb8713e9c7455a1b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZZZZZZZZ.ANS by avenger (black maiden); released in bmbook18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: until book 19!@#:
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19981001
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: until book 19!@#: by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook18-zzzzzzzz
 
 Write-Host '
           [36m            [0;31m▄[0;36m                                [0;37m  [0;31m▄[0m

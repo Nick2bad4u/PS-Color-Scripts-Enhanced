@@ -1,17 +1,4 @@
-﻿# Converted from: TX#00003.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/omen-001/raw/TX%2300003.ANS
-# Source Revision: archive-sha256:639d01c4976c2412f40262280b42786a4a9a8dcf0c6d28b14f10b18fb7bde312
-# Source SHA-256: 29b2fc47b492afadf4b911604ba0e6707ee5240b94788cd2f3f201f76a3a35f9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TX#00003.ANS by toons xilion (omen); released in omen-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: opium
-# SAUCE Author: toons xilion
-# SAUCE Group: omen
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: opium by toons xilion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-omen-001-tx-00003
 
 Write-Host '
 [34m██▓▓▀▀▀▀▀▀▀[0m     [34m▀   [0;1;31m▄▄▄▄▄▄▄▄▄▄▄▄▄ [0;34m▀▀▀▀███[0;1;34;44m▀▀▓▓█▀▀[0;34m███▓▓▀▀▀ [0;1;37m▄[0m       [34m▀▀█████▀▀▀▀▀██[0;1;34;44m▀[0m

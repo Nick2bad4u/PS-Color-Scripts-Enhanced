@@ -1,18 +1,4 @@
-﻿# Converted from: JX-HLR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spin04/raw/JX-HLR1.ANS
-# Source Revision: archive-sha256:d8d0b243395a454162bf4e70cc5ed89a7700344e3544729263edb9daedb33d8c
-# Source SHA-256: bc5bc8a78c2d79dc78bc642469f8eb498ec261602b65bf3fdee83b616ae3dae6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JX-HLR1.ANS by ( jInx ) (n / a); released in spin04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hlr> hackers lair anskee
-# SAUCE Author: ( jInx )
-# SAUCE Group: n / a
-# SAUCE Date: 19981023
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: hlr> hackers lair anskee by ( jInx ) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spin04-jx-hlr1
 
 Write-Host '
 [1m [0m [1m       [0;1;36m$[0;36m$[0;34m$$$$$$[0;1;34m$[0;1;37m            [0;36m$[0;34m$$$$$$[0;1;34m$$[0;1;37m            [0;36m$[0;34m$$$$$$$$$$$$$$$$[0;1;34m$b.[0m

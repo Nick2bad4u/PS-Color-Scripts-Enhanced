@@ -1,18 +1,4 @@
-﻿# Converted from: US-FXMTX.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9702a/raw/US-FXMTX.ICE
-# Source Revision: archive-sha256:540831d4e1a356189219ffbceaa28d97157e006639aca48afc56a145bd0d4c8c
-# Source SHA-256: c21eece00873e64d087f3adce45146e77cbd1aecf58d5814b35aaa31bd90761f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FXMTX.ICE by Noodles + Fod (Multiple Arstists); released in ice9702a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fux0r lOgin matrix
-# SAUCE Author: noOdles / fOd
-# SAUCE Group: Multiple Arstists
-# SAUCE Date: 19970301
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: fux0r lOgin matrix by Noodles + Fod | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9702a-us-fxmtx
 
 Write-Host '
 [36m█▀[0;33m▄ ▀[0;36m [0;33m▄▄ ▀ ▄█▌▄███████████[0;1;33;43m        [0;33m███████▄▄▀ ▀▄[0;37m  [0;1;30m▀▀[0m [33m░▄[0;35m ▀▓███[0;35;47m▓[0;35;40m███▓▀▀[0;33;40m ░[0;35;40m ▀▀▓░[0;37;40m  [0;36;40m▄▄[0;1;36;46m░░[0m

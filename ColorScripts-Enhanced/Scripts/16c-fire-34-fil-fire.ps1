@@ -1,19 +1,4 @@
-﻿# Converted from: FIL-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/FIL-FIRE.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: fc9503f4c0894965337d27644186d6b565f97ec5e298b0e10e4f1e70ef935bc2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FIL-FIRE.ANS by filth (bLOCKtR0NiCS); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: FiREtR0NiCS!
-# SAUCE Author: filth
-# SAUCE Group: bLOCKtR0NiCS
-# SAUCE Date: 20210301
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: FiREtR0NiCS! by filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-fil-fire
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: AY-GSHFT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shv-1094/raw/AY-GSHFT.ANS
-# Source Revision: archive-sha256:f794320997ba013c7dbed4b8579b7b9d6928f35b1877b453c44229d33aeef052
-# Source SHA-256: cd7634f32049a228ae5665244925d22388b57216bb962dd80da2fd81f1d0a5da
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AY-GSHFT.ANS by Asylum (Shiver); released in shv-1094 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Graveyard Shift
-# SAUCE Author: Asylum
-# SAUCE Group: Shiver
-# SAUCE Date: 19940917
-# SAUCE Dimensions: 80x25
-# Lines: 113-151
-# Columns: 1-80
+﻿# Artwork: Graveyard Shift by Asylum | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shv-1094-ay-gshft-part04
 
 Write-Host '
                                         [31m [0m

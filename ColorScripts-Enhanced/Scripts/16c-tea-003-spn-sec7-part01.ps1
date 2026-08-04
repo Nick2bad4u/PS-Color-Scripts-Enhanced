@@ -1,18 +1,4 @@
-﻿# Converted from: SPN-SEC7.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tea-003/raw/SPN-SEC7.ANS
-# Source Revision: archive-sha256:5d25c05edcadffd3210350aa9c173492074c7987938c32f297d97328a77fc5a5
-# Source SHA-256: a8350e114eec981eadf3f285358cb9b2d6e451e5fcbe7a8cfea5b07d2a3e5bb0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPN-SEC7.ANS by Spawn (TEA); released in tea-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Sector 7
-# SAUCE Author: Spawn
-# SAUCE Group: TEA
-# SAUCE Date: 19951105
-# SAUCE Dimensions: 80x81
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: Sector 7 by Spawn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tea-003-spn-sec7-part01
 
 Write-Host '
 [36m     [0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;36m  [0;1;30m [0;36m  [0m

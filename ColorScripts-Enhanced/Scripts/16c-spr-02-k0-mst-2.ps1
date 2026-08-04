@@ -1,13 +1,4 @@
-﻿# Converted from: K0^MST_2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spr_02/raw/K0%5EMST_2.ANS
-# Source Revision: archive-sha256:de213db32bec9e7b234598875579e360fcbdfa4c59f3f92173fe1b75c68a8cff
-# Source SHA-256: 2c36934d71244006429dc55fad982e96b63d05aa35de70b33620a4a431c6856a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K0^MST_2.ANS by Mist + Zero (spr_02); released in spr_02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: K0^MST_2.ANS by Mist + Zero | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spr-02-k0-mst-2
 
 Write-Host '
 [32m███[0;33;42m░░[0;32;40m███████████████████████████████████▀▐███████████[0;33;42m▐▄[0;32;40m███████▓▓▓▒▒▒░░[0;37;40m  [0;32;40m░░░░░░░░[0m

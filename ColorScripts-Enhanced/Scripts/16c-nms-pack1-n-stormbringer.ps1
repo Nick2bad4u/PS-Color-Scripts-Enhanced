@@ -1,20 +1,4 @@
-﻿# Converted from: n(_stormbringer.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nms_pack1/raw/n(_stormbringer.ans
-# Source Revision: archive-sha256:f99a1419a85f2107a1ef905f45d33edf79d1a955e17b541807601af9adb4edeb
-# Source SHA-256: c63598056a41c29ad490a7a06f202f670ef25750d907c77cb45642cb127f6a1e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: n(_stormbringer.ans by nemesulku (acid Rain); released in nms_pack1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Storm Bringer logo
-# SAUCE Author: nemesulku
-# SAUCE Group: acid Rain
-# SAUCE Date: 19980329
-# SAUCE Dimensions: 80x16
-# SAUCE Font: IBM VGA
-# SAUCE Comments: a logo for bbs called Storm Bringer. -nemesulku
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: Storm Bringer logo by nemesulku | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nms-pack1-n-stormbringer
 
 Write-Host '
 [1;37;40m ▄■▀[0;1;34;40m▀[0;1;37;40m▀[0;1;34;40m▀▀[0;1;37;40m▀[0;1;34;40m▀▀▀▀▀▀[0;34m■▄[0;1;37m■[0;1;34m▀▀▀[0;34m▀[0;1;34m■[0;34m▄[0m

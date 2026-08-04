@@ -1,18 +1,4 @@
-﻿# Converted from: %@-ELD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1296/raw/%25%40-ELD.ANS
-# Source Revision: archive-sha256:30782fcfc860946575894eb2b18cd82015430d9b2fe92875d1416c9b2489f009
-# Source SHA-256: b951f924bb0fc81a4b989811e341e5f1d4b9f88084400053a6cc06c56aabd7ee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: %@-ELD.ANS by Circus Freak (fire); released in fire1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Eldorado
-# SAUCE Author: Circus Freak
-# SAUCE Group: fire
-# SAUCE Date: 19961211
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: Eldorado by Circus Freak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1296-eld
 
 Write-Host '
      [34m                                             [0;37m [0;1;37m▄▄▄ [0;36m [0;1;37m              [0m

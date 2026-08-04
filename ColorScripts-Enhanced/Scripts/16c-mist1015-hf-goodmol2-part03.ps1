@@ -1,19 +1,4 @@
-﻿# Converted from: HF-GOODMOL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1015/raw/HF-GOODMOL2.ANS
-# Source Revision: raw-sha256:7130688150ace10d1eed1e8e882ea75f80bd0cb932de4f759410b0ac95c95be9
-# Source SHA-256: 7130688150ace10d1eed1e8e882ea75f80bd0cb932de4f759410b0ac95c95be9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HF-GOODMOL2.ANS by Happyfish (Mistigris); released in mist1015 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: That's the conundrum
-# SAUCE Author: Happyfish
-# SAUCE Group: Mistigris
-# SAUCE Date: 20150218
-# SAUCE Dimensions: 80x203
-# SAUCE Font: IBM VGA
-# Lines: 74-116
-# Columns: 1-80
+﻿# Artwork: That's the conundrum by Happyfish | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1015-hf-goodmol2-part03
 
 Write-Host '
 [30;44m▓▓▓▀████▄▄▄ [0;34;40m████████▄▄[0;31;40m░░[0m      [31;40m░░[0;37;40m [0;1;31;40m▀▀▀▀▀▀▀▀ [0;31m░░░▒[0;34m▄▄▄▄▄▄▒[0;37m    [0;1;31m [0m   [34m [0;37m    [0;32m█[0;1;32;42m▀[0;36;44m▐[0;32;40m█[0;1;30;42m██[0;32m█[0;1;30;42m▌[0;1;32;42m░▌[0;32m█[0;1;32;42m█▓[0;32m█[0m

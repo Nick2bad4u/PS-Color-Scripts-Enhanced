@@ -1,18 +1,4 @@
-﻿# Converted from: 43-PLUG2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper04/raw/43-PLUG2.ANS
-# Source Revision: archive-sha256:80df5b962e79c7e1df6d776b244f2783526ab7713c133db68d5f1c8d518678b1
-# Source SHA-256: a1c8f11a86779e58b489f639450838c0f3084c5aafa26f9ac9bc86153677840e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 43-PLUG2.ANS by aesthetic (jasper); released in jasper04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: shameless plug
-# SAUCE Author: aesthetic
-# SAUCE Group: jasper
-# SAUCE Date: 20020304
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: shameless plug by aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper04-43-plug2
 
 Write-Host '
  [1;30m [0m

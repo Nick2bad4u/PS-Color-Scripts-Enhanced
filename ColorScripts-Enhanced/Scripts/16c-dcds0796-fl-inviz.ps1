@@ -1,18 +1,4 @@
-﻿# Converted from: FL-INVIZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dcds0796/raw/FL-INVIZ.ANS
-# Source Revision: archive-sha256:3509ed83150d72e01cde39c5fe6c61d852f4f7285feb9d94b431cec18116688b
-# Source SHA-256: 14f83e4e6d79be6bc80d219da91f42bf064fff0b849d89b63b267ff5fb346506
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-INVIZ.ANS by Flame (1010); released in dcds0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: neek.
-# SAUCE Author: Flame
-# SAUCE Group: 1010
-# SAUCE Date: 19960630
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: neek. by Flame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dcds0796-fl-inviz
 
 Write-Host '
 [1;30m  [0m              [1;30m [0m             [1;30m [0m     [36m  [0m                      [36m ▄         [0m

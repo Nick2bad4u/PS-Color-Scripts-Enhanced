@@ -1,18 +1,4 @@
-﻿# Converted from: SN!SNFU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak8/raw/SN!SNFU.ANS
-# Source Revision: archive-sha256:ced165506b655ee7f3831f87db1b8e3be54d70977e70581005d4ce6480dd88ea
-# Source SHA-256: 28c6914c18156729286dc56b7a7586527dab0f4510d088e80beb03381526c938
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SN!SNFU.ANS by S S s nowball (ecolove); released in ecl-pak8 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Don't have a cow (snfu?)
-# SAUCE Author: S S s nowball
-# SAUCE Group: ecolove
-# SAUCE Date: 19980725
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Don't have a cow (snfu?) by S S s nowball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak8-sn-snfu
 
 Write-Host '
                    [32m▀[0m   [1;31m▄[0;31m▄[0m

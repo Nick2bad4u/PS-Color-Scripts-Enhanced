@@ -1,18 +1,4 @@
-﻿# Converted from: TIF-ENT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roots01/raw/TIF-ENT.ANS
-# Source Revision: archive-sha256:dd8ab7f4699320ca828bf58552b53e17a1e210a9bedef1bc8bfdf4b451cdf01c
-# Source SHA-256: 73633ad3a5ff5b34cbe87a47e60c93fc75916024bb97bd0bfe7b7518b0ea6bac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TIF-ENT.ANS by TIFoaDAM (roots); released in roots01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: entropy
-# SAUCE Author: TIFoaDAM
-# SAUCE Group: roots
-# SAUCE Date: 20080229
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: entropy by TIFoaDAM | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roots01-tif-ent
 
 Write-Host '
 [1m███[0;1;42m▓▓[0;1;32;47m▒▓▓[0;1;32;40m████████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀████████████████████████▄▄▄▄▄[0m

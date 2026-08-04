@@ -1,13 +1,4 @@
-﻿# Converted from: IC-CITAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ali-0794/raw/IC-CITAD.ANS
-# Source Revision: archive-sha256:47494af6e4dcd4a8b8003b51b5f43bfcef376481e4128b2274a56c8f795781de
-# Source SHA-256: 7aca5020a399b0af0b80e859a066f69da5f23b86b917d4f7aa3cf9ba82937676
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IC-CITAD.ANS by Illusive Criminal (ali-0794); released in ali-0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 197-243
-# Columns: 1-80
+﻿# Artwork: IC-CITAD.ANS by Illusive Criminal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ali-0794-ic-citad-part05
 
 Write-Host '
 [1;31;40m [0;32m█▒▒▓████████▓▒[0;36m▐██▀ [0;1;31m▄[0;1;31;41m▒▒▒▒░▒░░[0;35m▐██ [0;1;31m▄███[0;1;31;41m▓▓[0;1;31;40m██████[0;1;31;42m▄▄▀▀[0;1;31;40m███[0;32m███████████[0;1;31m██[0;1;31;42m▀▀▄▄[0;1;31;40m██████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SQ2-ANEU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/venom-02/raw/SQ2-ANEU.ANS
-# Source Revision: archive-sha256:e22715f3c8b29dec1c0bcd005666976507a7359ff81b66f6caf890dd6d6038d0
-# Source SHA-256: c28174614ff7f1e5ee590c5202173a7d334eb8b8e7cca057fa5a607780d32b1f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SQ2-ANEU.ANS by Squidgalator2 (venom); released in venom-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: aneurysm
-# SAUCE Author: Squidgalator2
-# SAUCE Group: venom
-# SAUCE Date: 19980507
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: aneurysm by Squidgalator2 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-venom-02-sq2-aneu
 
 Write-Host '
         [1m░░  [0;34m░░[0m                    [34m░░░  [0;37m░░  [0;34m░░[0m             [1;37m▄[0;1;37;47m▒▓[0;1;37;40m█▌ [0;34m░░░▒▒▓▓▀▀░   [0;37m░░[0m

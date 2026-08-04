@@ -1,18 +1,4 @@
-﻿# Converted from: PT-MDN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9702/raw/PT-MDN.ANS
-# Source Revision: archive-sha256:2bef5839074c598bf0f92bd4e5826154389b8896239a1e15db494b520fb6d9a8
-# Source SHA-256: cd90a70ae790b7d2c4f6b1f7f50eaefffb628987a231f4ac1771ccd840d2a935
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PT-MDN.ANS by paratoxic (sargahd); released in mdn-9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: maiden brazil logo
-# SAUCE Author: paratoxic
-# SAUCE Group: sargahd
-# SAUCE Date: 19970113
-# SAUCE Dimensions: 80x25
-# Lines: 31-61
-# Columns: 1-80
+﻿# Artwork: maiden brazil logo by paratoxic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9702-pt-mdn-part02
 
 Write-Host '
  [1m [0m▐[1;47m░▄░[0m▄   [1m [0m▄▄[1;47m░▄▄░[0m▄▄▄[1m  [0m░▄▄▄▄             ░[1;30m▄▄▄[0m                  ▐▌      [1;47m░[0m▌

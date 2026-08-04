@@ -1,18 +1,4 @@
-﻿# Converted from: FL-FCONF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dkrew-06/raw/FL-FCONF.ANS
-# Source Revision: archive-sha256:02960d7b88668b8887fe5cdf52da355c2d3dd37bf140c876abc30817d0d21bdb
-# Source SHA-256: 86cd005331cf479d2d1a8f357beeb153125ef7379d9e8b3d4ea74f7abfc08e2e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-FCONF.ANS by Flare (DK!); released in dkrew-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: File Conf.
-# SAUCE Author: Flare
-# SAUCE Group: DK!
-# SAUCE Date: 19970417
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: File Conf. by Flare | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dkrew-06-fl-fconf
 
 Write-Host '
 [1;30m▀[0m   [1;30m▓▄▄▄[0;1;30;47m▓░[0m██████████▄▄▄▄▄▄▄▄          [1;30m░▒▓▀▀[0;1;30;47m▓░[0m▄▄▄   ▄▄▄                  [1;30m▄▄█[0;1;30;47m▓▒[0m▄

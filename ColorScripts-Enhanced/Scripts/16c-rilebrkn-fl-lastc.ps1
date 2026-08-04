@@ -1,18 +1,4 @@
-﻿# Converted from: FL-LASTC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rilebrkn/raw/FL-LASTC.ANS
-# Source Revision: archive-sha256:631709d46940d5f633b8ebca426a515d51357cee4cca25bed435a2a8fbf53a10
-# Source SHA-256: 9b4e58922ec59057a8c5b2a09ecb04a6ee3ee747ff4b392cf1cff545f85ccf9b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-LASTC.ANS by flame (RILE); released in rilebrkn and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: last callers for serial.
-# SAUCE Author: flame
-# SAUCE Group: RILE
-# SAUCE Date: 19970503
-# SAUCE Dimensions: 80x25
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: last callers for serial. by flame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rilebrkn-fl-lastc
 
 Write-Host '
 [31m░▄[0;1;31;41m▄[0;1;31;47m▓[0;31m▄░▀[0;1;31;41m▀█[0;31m▄[0;36m [0;31m░▄[0;36m [0;31m£[0;36m [0;1;33m▄░[0;36m [0;31m▄▄[0;1;31;41m▄[0;1;31;47m▀[0;1;31;41m▄[0;31m░▀[0;1;31;41m▀[0;31m░[0;36m ▄▄[0;30;44m▓[0;36;40m▐[0;1;33;46m▄█[0;36m▓▄[0;30;44m██[0m   [36;40m ▐[0;1;33;46m▐█[0;30;44m▓▓[0;36;40m░[0;30;46m▓[0;1;33;40m▄▄[0;36m▄▒ [0;31m [0;30;44m▓▓[0;34;40m░▄▄░░[0;30;44m▓[0;31;40m░▄[0;1;31;41m▄█▀[0;31m▀[0;36m [0;34m▄▐[0;1;34;44m▄[0;1;34;46m▀[0;34m▄[0;31m▀[0;1;31m▒[0;31m▄[0m

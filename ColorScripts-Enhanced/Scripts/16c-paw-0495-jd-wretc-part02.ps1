@@ -1,18 +1,4 @@
-﻿# Converted from: JD-WRETC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/paw-0495/raw/JD-WRETC.ANS
-# Source Revision: archive-sha256:b37782f0b3cbd36928669e3c3f79651eca29a9eb5d3f4a9871c6633bbb6bb1d6
-# Source SHA-256: 66fe8e9a705d0883141b6ab46c34e65b25d96b169cbdd14811cbd15c7566a5c5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JD-WRETC.ANS by Jedi (Paw); released in paw-0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Wretch
-# SAUCE Author: Jedi
-# SAUCE Group: Paw
-# SAUCE Date: 19950331
-# SAUCE Dimensions: 80x98
-# Lines: 49-98
-# Columns: 1-80
+﻿# Artwork: Wretch by Jedi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-paw-0495-jd-wretc-part02
 
 Write-Host '
            [1;30;40m███  ░[0m░ [31m▀▄▄  [0;1;30m░ [0m░    ▓▒[1;30m▀▀   [0;31m▀▀▀    [0;37m░▒▒▒▒▓▓██▓▓▒▒░░ [0;33m░░[0;1;33;43m░▒░░▒▒▒▓▓▓▓▓▓▓█▓[0m

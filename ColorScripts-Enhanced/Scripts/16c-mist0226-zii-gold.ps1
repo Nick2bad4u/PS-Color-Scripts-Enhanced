@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-GOLD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0226/raw/ZII-GOLD.ANS
-# Source Revision: archive-sha256:ef03a5a095d5c0479664f99ff23399e245703c452ca9d05ea2957005177022f9
-# Source SHA-256: f1c8e38f0b757241c44de2a68f5ad88289fd355575ae9ae2f82ec18b06b7317d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-GOLD.ANS by Zeus II (Mistigris); released in mist0226 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Golden Temple
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20251231
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: The Golden Temple by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0226-zii-gold
 
 Write-Host '
 [1;34;47m▒▒▓▓▓▓[0;1;34;40m█▌[0;1;33;40m▐[0;1;37;40m▌[0;1;34;40m▐[0;1;34;47m▓▓▓[0;1;34;40m██▀[0m ▄[1;33m█▀[0;1;37m▄[0m [1;34m▀█[0;1;34;47m▓▓[0;1;34;40m███████████████[0m ▄[1m█▄[0m [1;34m█████████████[0;1;34;47m▓▓▓▓[0;1;34;40m██[0;1;34;47m▓▓[0;1;34;40m█▌[0m▐[1m▌[0;1;34m▐█[0;1;34;47m▓▓▓▒▒[0m

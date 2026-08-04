@@ -1,13 +1,4 @@
-﻿# Converted from: US-VIT1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9509a/raw/US-VIT1.ICE
-# Source Revision: archive-sha256:20af9d60befd4eb8ed55a3feef09d914170b95e7d33f29f72fa18081e92e2aaa
-# Source SHA-256: 9f072c4f9e29bcd80e62abb3b79e7c70759a6620c15c47dfbead6fd40ff2e0ef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-VIT1.ICE by Lord Soth + Splint (ice9509a); released in ice9509a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: US-VIT1.ICE by Lord Soth + Splint | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9509a-us-vit1-part01
 
 Write-Host '
 [1;30m                       ░ ░▒▒▓▒▒░▒▒░░░ ░  [0;32m░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒░ ░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m

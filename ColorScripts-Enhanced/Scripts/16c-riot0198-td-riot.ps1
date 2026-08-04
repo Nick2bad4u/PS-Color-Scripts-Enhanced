@@ -1,18 +1,4 @@
-﻿# Converted from: TD-RIOT!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot0198/raw/TD-RIOT!.ANS
-# Source Revision: archive-sha256:7952109d83ab43458509eae0ab06692cf4f74f0e9e4252a478e28e2dff87767e
-# Source SHA-256: 7d48062834eefd80a51d0a68291f7e9c91ec5f62c7a559ad2a01ac4e7d0fa38f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TD-RIOT!.ANS by thE diRECtOR (RioT/EMi/510/Boink); released in riot0198 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: RioT!!!
-# SAUCE Author: thE diRECtOR
-# SAUCE Group: RioT/EMi/510/Boink
-# SAUCE Date: 19980125
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: RioT!!! by thE diRECtOR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot0198-td-riot
 
 Write-Host '
                                                   [34m▄▄[0;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

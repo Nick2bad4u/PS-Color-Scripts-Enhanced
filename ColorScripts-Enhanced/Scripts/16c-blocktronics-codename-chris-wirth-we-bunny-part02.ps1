@@ -1,13 +1,4 @@
-﻿# Converted from: we-bunny.ans
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/we-bunny.ans
-# Source Revision: archive-sha256:5d665873486ffcf559d33043557e11d7636d0c5a5b53a69dd3e7cf81117997ef
-# Source SHA-256: 81d7faf761691c30bb6b6cd917e67eed817003beba8e923dbeb73c826fd17517
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-bunny.ans by Ober + Enzo (blocktronics_codename_chris_wirth); released in blocktronics_codename_chris_wirth and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 34-65
-# Columns: 1-80
+﻿# Artwork: we-bunny.ans by Ober + Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-codename-chris-wirth-we-bunny-part02
 
 Write-Host '
 [1;30m▄ █ █ ██▄ █ ██ ▄▄ [0;31m▀ ▄[0;1;31;41m████▀[0;31m▀▀▄[0;32m ███[0;1;32;42m▀▀▀[0;32m████████▄▄███████[0;1;32;42m    ▒█████▀▀[0;1;32;40m▀▀▀[0;32m▀[0;1;30;42m▄[0;1;30;40m▄▄[0;33m [0;1;30m▄▄▄▄▄[0;1;30;42m▄[0;32m▀[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: AL-TF1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1194/raw/AL-TF1.ANS
-# Source Revision: archive-sha256:0cd3429c05395c5369b2d8b470975ab968626be403f511098965c1e5f3d5050c
-# Source SHA-256: 3ce8b17896cda61805538b5479dae3727264d0b0161d8fe8fbe355b2592aec90
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AL-TF1.ANS by Animal (ACiD Productions); released in acdu1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Terra Firma
-# SAUCE Author: Animal
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19941027
-# SAUCE Dimensions: 80x142
-# Lines: 95-142
-# Columns: 1-80
+﻿# Artwork: Terra Firma by Animal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1194-al-tf1-part03
 
 Write-Host '
 [40m   ░     ░ [0;33;40m▓[0;33;43m▀▀▀▀[0;33;40m▄ ▄▄ [0;1;33;40m▀  [0;33m▀[0;1;30;43m▒▒░░       [0;33;43m▀▀[0;33;40m▄[0;31;40m▀▀[0;31;41m████  [0;1;31;41m░  ░  ░░░░▒░░░        [0;31;41m█[0m [1;30;40m██████ [0;43m▒[0m

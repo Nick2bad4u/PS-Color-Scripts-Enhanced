@@ -1,19 +1,4 @@
-﻿# Converted from: fil-i.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronicsonice/raw/fil-i.ans
-# Source Revision: archive-sha256:09feb7a5adb913c88be16d43a1a4e86bf7073f13399d8bc54e5478cad35282e5
-# Source SHA-256: ec0fc35e4f31bfb8c032d087e2bd6af44b2df0a50a594121ade5afdf3004943f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: fil-i.ans by filth (bL0CKtRONiCS); released in blocktronicsonice and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: iCEtR0NiCS!
-# SAUCE Author: filth
-# SAUCE Group: bL0CKtRONiCS
-# SAUCE Date: 20220309
-# SAUCE Dimensions: 80x90
-# SAUCE Font: IBM VGA
-# Lines: 51-89
-# Columns: 1-80
+﻿# Artwork: iCEtR0NiCS! by filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronicsonice-fil-i-part02
 
 Write-Host '
 [1m█[0m░[1m█████  [0m▐[1;36;47m▓░[0m▌[35m░▀█[0;1;35;45m░░[0;35m▀[0;37m [0;35m▄[0;1;35;45m░▓▓[0;1;35;40m▀▀[0;1;35;45m▀[0;1;35;40m█[0;1;35;45m█[0;1;35;40m██[0;1;35;45m▀▀[0;35m█▓▓██▓▀[0;1;35;45m░░[0;35m█[0;1;35;45m░░[0;1;37;45m.[0;35m███[0;37m▀▓██[0;1;36;47m   ▓ [0;1;36;40m█[0;1;36;47m [0m███[1;36;47m▀▀▀▀[0;1;36;40m█[0;1;36;47m▀ ▒▒[0m█[1;36;47m ░[0m▌ [1;30m▐[0m █

@@ -1,17 +1,4 @@
-﻿# Converted from: RC(HARD).ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bdp-0496/raw/RC(HARD).ANS
-# Source Revision: archive-sha256:30dabee46b761e294ed9071b3fc786c4277669886fa158e461eec5c0eaa4b3f4
-# Source SHA-256: 55f272c8dae07c69d251d02db9faec34bf995d3bc0db3e53b5f6e6cf14ab994b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RC(HARD).ANS by 1^_ _2\~__  ^_211 (.boogiE%Woogie.); released in bdp-0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: .hardwired(logo).
-# SAUCE Author: 1^_ _2\~__  ^_211
-# SAUCE Group: .boogiE%Woogie.
-# SAUCE Date: 19960331
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: .hardwired(logo). by 1^_ _2\~__ ^_211 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bdp-0496-rc-hard
 
 Write-Host '
  [33m               [0m                                                           [36m░[0m

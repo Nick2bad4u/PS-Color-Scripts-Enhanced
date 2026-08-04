@@ -1,17 +1,4 @@
-﻿# Converted from: SPITOUFS-ALCOHOLIDAY_DANCE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1017/raw/SPITOUFS-ALCOHOLIDAY_DANCE.ANS
-# Source Revision: archive-sha256:6708b2e97ec89dc60aaa56555b5a6e3e3ca4c9669a03637f61c39b343bf7700c
-# Source SHA-256: 04fe967cee1993ec63c6ba8e68847e9881d462f44ee8d3f323694d16e152ddb5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPITOUFS-ALCOHOLIDAY_DANCE.ANS by Spitoufs (Mistigris); released in mist1017 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Jouir du Alcoholiday
-# SAUCE Author: Spitoufs
-# SAUCE Group: Mistigris
-# SAUCE Dimensions: 80x134
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: Jouir du Alcoholiday by Spitoufs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1017-spitoufs-alcoholiday-dance-part01
 
 Write-Host '
 

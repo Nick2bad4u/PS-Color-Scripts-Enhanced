@@ -1,13 +1,4 @@
-﻿# Converted from: MH!VAMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moi-1296/raw/MH!VAMP.ANS
-# Source Revision: archive-sha256:43ba331c3216dae712e2fc42adda89bce3b1a616e82a7a9594fb7cc9a7f26e06
-# Source SHA-256: b6e83987028163fba4d8a38921c0a2dd22b0d8e1cee9f2563c66b4afdc2e1d12
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MH!VAMP.ANS by Maddog Hoek (moi-1296); released in moi-1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: MH!VAMP.ANS by Maddog Hoek | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moi-1296-mh-vamp
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: D1_GLUE3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-20/raw/D1_GLUE3.ANS
-# Source Revision: archive-sha256:23bbf66596e3e4f3c4b9e335dc62ccc331634eba04c3d179b73e396fa3971807
-# Source SHA-256: 84ab8514e9a8d03c863ab97937dfae43e949c4996de5778664d34b1103cef75f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D1_GLUE3.ANS by Dissonance (AWE Lettering); released in awe-20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Glue Promotional
-# SAUCE Author: Dissonance
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981221
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Glue Promotional by Dissonance | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-20-d1-glue3
 
 Write-Host '
 [1m[0m[33m[0;1;37m[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: TO-DYS01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drl-0895/raw/TO-DYS01.ANS
-# Source Revision: archive-sha256:fde65845d924ac8b59de334a5b79b9625c3b3c69121ac72a3256ec6e98ae58ed
-# Source SHA-256: 9ee0ac914595fa44531604635f62c41b6e5f410a095d746fdef9b5d82e727d7c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TO-DYS01.ANS by Tonto (drOol prOductionz); released in drl-0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Dyslexia
-# SAUCE Author: Tonto
-# SAUCE Group: drOol prOductionz
-# SAUCE Date: 19950723
-# SAUCE Dimensions: 80x119
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Dyslexia by Tonto | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drl-0895-to-dys01-part01
 
 Write-Host '
 [1m[0m[1m[0m[1m[0;1;31m[0m    [1m [0m [1m [0m  ▄▄▄▄[41m▀▀▀▀▀▀[0;40m▄▄  [0;1;40m [0m     |[1;31m [0m

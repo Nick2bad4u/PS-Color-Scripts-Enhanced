@@ -1,18 +1,4 @@
-﻿# Converted from: HAL-SILK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0297/raw/HAL-SILK.ANS
-# Source Revision: archive-sha256:12d66e55bc50470ef328e6f9ec21c65dbe558f61a1cf46f5aac359e3cb051dfe
-# Source SHA-256: b24ee8d598a1857150f2f2d4fefeba0f8d7fb0fe3c5d9e162a7aaca9b2010816
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HAL-SILK.ANS by Halaster (fire); released in fire0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Silk
-# SAUCE Author: Halaster
-# SAUCE Group: fire
-# SAUCE Date: 19970119
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Silk by Halaster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0297-hal-silk
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: HF-PAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-17/raw/HF-PAL.ANS
-# Source Revision: archive-sha256:a388e5620de32c4145fd1d2f2e70343f674ce332483184514a867f9d5d569bc4
-# Source SHA-256: 86058d4e4017fb23e277021678049869c2085df748c264d3cdf07497bd207cb6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HF-PAL.ANS by Hellfire (Force); released in force-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Pirates At Large
-# SAUCE Author: Hellfire
-# SAUCE Group: Force
-# SAUCE Date: 19970428
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Pirates At Large by Hellfire | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-17-hf-pal
 
 Write-Host '
                      [31m▄▄▄▄▄▄▄▄▄[0m

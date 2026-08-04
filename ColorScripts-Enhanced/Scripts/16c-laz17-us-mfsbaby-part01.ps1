@@ -1,19 +1,4 @@
-﻿# Converted from: us-mfsbaby.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz17/raw/us-mfsbaby.ans
-# Source Revision: archive-sha256:2674245bad3e14fe6d4a935ba8daf9898a4426e394c56ca9710e3afa19d3d943
-# Source SHA-256: b278c3dc773eb4961cb25b4e6f813f80879ac9f0790b2d7149ea28c1a69d97a5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-mfsbaby.ans by Warpus + Tainted (LAZARUS); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: MFS baby services
-# SAUCE Author: tainted & warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20230703
-# SAUCE Dimensions: 80x101
-# SAUCE Font: IBM VGA
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: MFS baby services by Warpus + Tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz17-us-mfsbaby-part01
 
 Write-Host '
 

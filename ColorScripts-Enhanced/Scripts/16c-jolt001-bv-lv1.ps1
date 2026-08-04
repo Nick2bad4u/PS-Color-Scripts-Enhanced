@@ -1,13 +1,4 @@
-﻿# Converted from: BV-LV1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jolt001/raw/BV-LV1.ANS
-# Source Revision: archive-sha256:aed0429b02563ca42f129a213c901536cecbe076bf84a2b1ab99c1ef5c3e1976
-# Source SHA-256: d0cda810ea3d9df662b6ab4bee1d9cddc398237fb985b3255e45fd5b3b1508a8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BV-LV1.ANS by Black Viper (jolt001); released in jolt001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: BV-LV1.ANS by Black Viper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jolt001-bv-lv1
 
 Write-Host '
 [1;30;47m▓[0;1;30;40m█▓█[0;1;30;47m▓▓▒▒░░▒▒▓▓[0;1;30;40m▄[0m        ░▓▓▒[30;47m░[0;37;40m████▀▀▀██████[0;1;37;47m [0;1;30;47m [0m█[1;30;47m░░[0m███▀[1;47m░▒[0m▀ ▄▄▄[1;30;47m░░▒░░ ▒▓[0;1;30;40m▒[0m       [1;30m░[0m    [1;30m█[0;1;30;47m▓[0m

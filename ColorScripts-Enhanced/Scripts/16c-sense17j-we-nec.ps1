@@ -1,13 +1,4 @@
-﻿# Converted from: WE-NEC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense17j/raw/WE-NEC.ANS
-# Source Revision: archive-sha256:dd9d1d0c2e9d18c52916147f75b54ea93779080fcdcf859439501b8e3996efb6
-# Source SHA-256: 6932eb525729bec042543f49ae3267e031d73d11658fa237aa03be61940a4107
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WE-NEC.ANS by Maytag + Roodolph + Avenging Angel (sense17j); released in sense17j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: WE-NEC.ANS by Maytag + Roodolph + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense17j-we-nec
 
 Write-Host '
 [1;30m█[0;1;30;47m███[0;1;30;40m█▄▄▄[0m         [1;30m██████▄▄[0m            [1;30m▄▄▄▄▄▄▄████[0;1;30;47m▀▀[0;1;30;40m███▄▄▄▄▄▄[0m              [1;30m▐██████[0m

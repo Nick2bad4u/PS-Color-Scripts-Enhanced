@@ -1,13 +1,4 @@
-﻿# Converted from: ON-TMZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fos-0595/raw/ON-TMZ.ANS
-# Source Revision: archive-sha256:1752292815770b63f1b1d8ec40a734e7d4c8d494497bf3408ee46172835b476d
-# Source SHA-256: 2f62501c9bdc4da6f60f8f988749e55decb5642525f70ce7c3572ba7ab248da6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ON-TMZ.ANS by Orion (fos-0595); released in fos-0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: ON-TMZ.ANS by Orion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fos-0595-on-tmz-part01
 
 Write-Host '
 

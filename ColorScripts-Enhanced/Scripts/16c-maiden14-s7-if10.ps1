@@ -1,18 +1,4 @@
-﻿# Converted from: S7!-IF10.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden14/raw/S7!-IF10.ANS
-# Source Revision: archive-sha256:8484fc17833e455250727f80fdc56cc19e17aec4fba2f82e3b86585a9e08cb6c
-# Source SHA-256: bfd8233b7daf4ffa5a388a72c68a5e54436f2af4dc86e3ad9839a176787fa018
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S7!-IF10.ANS by Soul s7alker! (skl/mdn/kiss/soc); released in maiden14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: uhuhuhuh
-# SAUCE Author: Soul s7alker!
-# SAUCE Group: skl/mdn/kiss/soc
-# SAUCE Date: 19971026
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: uhuhuhuh by Soul s7alker! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden14-s7-if10
 
 Write-Host '
 [1;30m▄[0;1;30;44m▀[0;1;34;40m▄▄█▄[0;1;34;44m█▄[0;34m▄[0m   [1;34m▄[0;1;34;47m█▓▓[0;1;34;44m█▀[0;1;34;40m [0;34m▄[0;37m [0;1;34msoulstalker[0;34m!([0;1;34mmdn[0;34m) [0;1;34m▄[0;1;34;47m▓▓[0;34m▄[0;37m  [0;1;34m▄[0;34m░[0;37m [0;1;34m▄▄[0;34m▄[0m      [1;34m▄█[0;1;34;47m▓▓[0;1;34;44m█[0;1;34;40m▄[0m  [1;34m▄▄▄▄[0;34m▄[0;37m [0;1;34m   [0m [1;34m▄▄█[0m [34m [0m

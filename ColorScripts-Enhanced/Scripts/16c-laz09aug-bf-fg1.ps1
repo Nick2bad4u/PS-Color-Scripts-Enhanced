@@ -1,18 +1,4 @@
-﻿# Converted from: BF-FG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz09aug/raw/BF-FG1.ANS
-# Source Revision: archive-sha256:3e0bd3039fe877b3970f71e80b4456ee60793f2295ae127a50a6587b17c2d6a2
-# Source SHA-256: 044f65851d8baa1949436feb88142a4f41ce9ba7899993c069b3b6f1afb301a8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BF-FG1.ANS by Boba Fett (lAZARUS STUDIOS!); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: tHE fISH gARDEN!?
-# SAUCE Author: Boba Fett
-# SAUCE Group: lAZARUS STUDIOS!
-# SAUCE Date: 19970727
-# SAUCE Dimensions: 80x25
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: tHE fISH gARDEN!? by Boba Fett | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz09aug-bf-fg1
 
 Write-Host '
 [34m▀[0;30;44m░[0;34;40m▓█████[0;30;44m▀■·[0;34;40m█████[0;30;44m░[0;34;40m▓[0;30;44m░[0;34;40m████████[0;1;34;44m░░░░░▓▓▄▄▄▄▄▄   [0;34m███[0;1;34;44m▌[0;34m███████████▀[0;37m [0;1;32m▄[0;1;33m▄[0m [34m▀█[0;1;34;44m░░░[0;34m████████[0;30;44m·■[0;34;40m▀▓[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: BCH1ACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-b/raw/BCH1ACID.ANS
-# Source Revision: archive-sha256:85ec07cbae8447891364eff42c523db7c57ecb14ef9dd7d52bea01239ed4d3c0
-# Source SHA-256: f6ee7383d6bce59e294db5225b38371d84021be105815fe2370bf6df695e390e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BCH1ACID.ANS by Tank (ansis-b); released in ansis-b and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: BCH1ACID.ANS by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-b-bch1acid
 
 Write-Host '
 [1;30m                                                                                [0m

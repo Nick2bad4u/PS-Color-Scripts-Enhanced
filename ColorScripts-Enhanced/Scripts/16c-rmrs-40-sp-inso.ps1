@@ -1,13 +1,4 @@
-﻿# Converted from: sp-inso.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-40/raw/sp-inso.ans
-# Source Revision: archive-sha256:61fb1dcbbd1622af10b383fc2a651b4854a50bf25e3fafcc9a790ad444917390
-# Source SHA-256: fef53c11dd7e3849626e858ccbf69c0b1ccf4446e7ef2563199c1b9fbfe3b01b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sp-inso.ans by Spinsane (rmrs-40); released in rmrs-40 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: sp-inso.ans by Spinsane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-40-sp-inso
 
 Write-Host '
 [1m[0m[1m------------------------------------------------------(   )[0m

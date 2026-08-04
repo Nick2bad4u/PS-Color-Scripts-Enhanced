@@ -1,18 +1,4 @@
-﻿# Converted from: TP-EDEN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9409/raw/TP-EDEN1.ANS
-# Source Revision: archive-sha256:a72f6b61ef8732921793cd342551769e167ed7d0078d9fb08d5ad3a3a9cd5a47
-# Source SHA-256: d21328f0081ad359025c4fd3d357fac6e8cecb45f1eca8357c3735df1515487d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TP-EDEN1.ANS by TechoPhreaK (Blade Productions); released in blde9409 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Eden Logo/Ad
-# SAUCE Author: TechoPhreaK
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19940815
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Eden Logo/Ad by TechoPhreaK | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9409-tp-eden1
 
 Write-Host '
 

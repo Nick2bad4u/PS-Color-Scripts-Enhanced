@@ -1,13 +1,4 @@
-﻿# Converted from: TR-EVD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-003/raw/TR-EVD.ANS
-# Source Revision: archive-sha256:de78ce19727ea90c75e1ecc7f5b4d900676dc27b4dceb8a870f61665ee210859
-# Source SHA-256: ea5d0ff7ab071e10572f6146b24c283e4c31bb0c58605fc4b9d2877bd2512611
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-EVD.ANS by Tee_Are (rare-003); released in rare-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: TR-EVD.ANS by Tee_Are | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-003-tr-evd
 
 Write-Host '
 

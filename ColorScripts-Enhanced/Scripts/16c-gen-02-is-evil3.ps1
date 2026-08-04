@@ -1,18 +1,4 @@
-﻿# Converted from: is-evil3.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gen-02/raw/is-evil3.ans
-# Source Revision: archive-sha256:a8bb305fa74299fe2b84ac6a7c53e3f231aa6311f01121f9650c819a93a468d5
-# Source SHA-256: 82b4507ff882416c2e426bf711ba674e8e776fe740529f208ec564a0f2c3a64c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: is-evil3.ans by prosthesis (legion); released in gen-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: evil#3
-# SAUCE Author: prosthesis
-# SAUCE Group: legion
-# SAUCE Date: 19970109
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: evil#3 by prosthesis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gen-02-is-evil3
 
 Write-Host '
 [1;30m▓▓█■ ▀[0m   [1;30m▀[0m [1;30m■▓████▓▒░[0m     [1;31m■[0;31m ▄[0m                                [1;30m░[0m     [1;30m░░[0m   [1;30m         [0m

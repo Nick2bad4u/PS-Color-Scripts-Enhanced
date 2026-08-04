@@ -1,18 +1,4 @@
-﻿# Converted from: US-SP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz05apr/raw/US-SP.ANS
-# Source Revision: archive-sha256:1015a880c3c2e42953df14381eb6ae6e6ec0326b482ac0273175f6e6e7073aa4
-# Source SHA-256: 173dfcf2a3b2b19c47f4b23f391ce7a63196985606eed3bffd5e13fa75cf01fe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SP.ANS by Wat0r + Iceage (Lazarus & Echo); released in laz05apr and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Spoof
-# SAUCE Author: WatOr and Iceage
-# SAUCE Group: Lazarus & Echo
-# SAUCE Date: 19970314
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Spoof by Wat0r + Iceage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz05apr-us-sp
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: CD-ANTI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/emic0496/raw/CD-ANTI.ANS
-# Source Revision: archive-sha256:0081657214e0d3eeaf9fa72e89eaffd16455becfd5da03242b645aa6b0fa9295
-# Source SHA-256: ca31c46dae1bb35b82c947046a4e3aaf06798ca65d80099a5c2b826940747e20
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CD-ANTI.ANS by Creeping Death (EMiC); released in emic0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: anti capitol
-# SAUCE Author: Creeping Death
-# SAUCE Group: EMiC
-# SAUCE Date: 19960307
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: anti capitol by Creeping Death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-emic0496-cd-anti
 
 Write-Host '
       [34m▄[0;34;47m▒[0;34;40m█▄░▒[0;34;47m▒[0;34;40m▄[0;37;40m [0;34;40m░▒[0;34;47m▒[0;34;40m█▄░▒[0;34;47m▒[0;34;40m▄[0;37;40m  [0;34;40m▄▀░▒[0;34;47m▒[0;34;40m█▄░▒[0;34;47m▒[0;34;40m▄[0;37;40m [0;34;40m░▒[0;34;47m▒[0;34;40m▄[0;1;34;40m  [0m

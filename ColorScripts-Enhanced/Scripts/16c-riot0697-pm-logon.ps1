@@ -1,13 +1,4 @@
-﻿# Converted from: PM-LOGON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot0697/raw/PM-LOGON.ANS
-# Source Revision: archive-sha256:cd8b6827004edaee3756929e0cbb3d0ec5efd33f1ee3e0394a0ebbb56fa3c6b7
-# Source SHA-256: 2c7ed394fccf202a563b4360c14cda540bd5fa8ade47179230b76031d14397f9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-LOGON.ANS by Precious Metal (riot0697); released in riot0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: PM-LOGON.ANS by Precious Metal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot0697-pm-logon
 
 Write-Host '
   [1;30m`$$$$[0m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$

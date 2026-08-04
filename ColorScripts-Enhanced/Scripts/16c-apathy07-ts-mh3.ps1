@@ -1,18 +1,4 @@
-﻿# Converted from: TS-MH3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy07/raw/TS-MH3.ANS
-# Source Revision: archive-sha256:cf53c4ea5c286717abe3d962fb98452e352d7d7a30a31881220e7068a7f0bb79
-# Source SHA-256: 89012d892c98fc2541aa6332eda53eb8a442b1da71e79c2f8bd5832f4efcde4b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-MH3.ANS by transient (apathy); released in apathy07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: morbid hallucinations logo
-# SAUCE Author: transient
-# SAUCE Group: apathy
-# SAUCE Date: 19960227
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: morbid hallucinations logo by transient | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy07-ts-mh3
 
 Write-Host '
 [1;30mts[0;1;33m/[0;1;30mapa▄▄▄▄██[0;1;30;47m▓▓▓[0;1;30;40m▄▄[0m         [1;30;40m▀[0m               [1;30;40m▀[0m      [1;30;40m  ▀[0m        [1;30;40m▀[0m  [1;30;40m▄▄[0;1;30;47m▓▓▓[0;1;30;40m█[0;1;30;47m░[0;1;30;40m▄▄▄▄      [0m

@@ -1,17 +1,4 @@
-﻿# Converted from: NC-SRC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0497/raw/NC-SRC1.ANS
-# Source Revision: archive-sha256:73d4445ab8a07d3fe160d256052163ed66b2081a0bebb59b18ae9b36e30223e0
-# Source SHA-256: 8f8deffed83129eed1a4290fa82572f3e7389769e4931e684cab1f0244fbb411
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NC-SRC1.ANS by necrolyte (root graphix); released in root0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: that sahourcee
-# SAUCE Author: necrolyte
-# SAUCE Group: root graphix
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: that sahourcee by necrolyte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0497-nc-src1
 
 Write-Host '
 [1;30m██▀▀▀▀[0mt h a    [32m▄  [0;1;30m▐▄▄▄▄███████████████▓  ▄▄███████▀▀  ██▄▄██▀▀▀▀▀    ░░[0m     [32m▄ [0;1;30m█[0m

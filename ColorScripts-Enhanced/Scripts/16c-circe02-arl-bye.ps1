@@ -1,13 +1,4 @@
-﻿# Converted from: ARL-BYE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe02/raw/ARL-BYE.ANS
-# Source Revision: archive-sha256:ce5cd736ecea3fcfef2c1df40ab4bdd995f6b633f97f1788244355f98c5d174e
-# Source SHA-256: c58a008d3f672409a86f0987c44752b965df364b25ab211a96aa36d1084f0314
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARL-BYE.ANS by Arlequin (circe02); released in circe02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: ARL-BYE.ANS by Arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe02-arl-bye
 
 Write-Host '
 [1;30m_..,,┬──⌂⌂☻☻☻│││☻☻☻☻☻F*┴"~~``Y☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻┘`[0;31m_.,[0;37m   [0;1;30m│☻⌂⌂─┬,,.__ [0m

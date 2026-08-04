@@ -1,18 +1,4 @@
-﻿# Converted from: STC-FLAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/saga9510/raw/STC-FLAT.ANS
-# Source Revision: archive-sha256:bfe1c638d6035e3edd6d5e5ec7cf11b3ff729469ea893ab56c891ed136f06464
-# Source SHA-256: 8289468bf5021f06cf0e2f883b114c412241050dd9d7ea626e094719ca12f16f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STC-FLAT.ANS by Stone The Crow + Catbones (Saga); released in saga9510 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Flatline
-# SAUCE Author: Stone The Crow
-# SAUCE Group: Saga
-# SAUCE Date: 19950928
-# SAUCE Dimensions: 80x99
-# Lines: 50-99
-# Columns: 1-80
+﻿# Artwork: Flatline by Stone The Crow + Catbones | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-saga9510-stc-flat-part02
 
 Write-Host '
 [37m [0;35m██[0;1;35;45m ▀▀[0;35m█[0;1;35;45m▄▄▄▄▄▄█▓▀▀▀▀▀▒[0;35m█████████████   ██████████████████████████▓█▓▓▓▓█▄[0m

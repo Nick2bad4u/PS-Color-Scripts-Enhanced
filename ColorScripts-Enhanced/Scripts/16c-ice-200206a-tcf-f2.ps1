@@ -1,13 +1,4 @@
-﻿# Converted from: tcf-f2.ice
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-200206a/raw/tcf-f2.ice
-# Source Revision: archive-sha256:12aaa7905462d60ba25ce15636cd39a8662dcdc9ecfb76bba75b7e6c43596242
-# Source SHA-256: 6f45dd765466fac60aad77fa5bd4823766e4d40eff39697de5c1e278f2a2cf0f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tcf-f2.ice by The Creep Fever (ice-200206a); released in ice-200206a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: tcf-f2.ice by The Creep Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-200206a-tcf-f2
 
 Write-Host '
 [1;34;44m█[0;34m█ [0;1;34;44m░[0;1;34;47m▀[0;1;33;40m░[0;34m █[0;1;34;44m█[0;34m▐[0;1;34;44m█[0;1;34;47m [0;1;34;44m█[0;34m▌[0;1;34;44m█[0;1;34;47m▓[0;34m█[0;37m [0;34m█[0;1;34m▓▓[0;1;34;44m░[0;34m▓[0;37m [0;1;34;44m░▀[0;1;34;40m▀▀▀[0;34m▀[0;37m [0;34m▀[0;1;34m▀▀[0;1;34;44m▀[0;1;34;47m▓▓▄[0;1;34;40m█[0;1;34;44m░[0;34m▓[0;37m [0;1;34m░▀▀[0;34m▀[0;37m [0;32m▄▄[0;1;32m▄▄▄▄▄▄[0;32m▄▄[0;1;34m▀░░░[0m [34m█[0;1;34;44m░[0;1;34;47m▓[0;1;34;44m▌▓[0;34m█[0;37m [0;34m█[0;1;34;47m [0;1;34;40m▓[0;34m  █[0;1;34;44m█[0;1;34;40m░[0;34m [0;1;34m░[0m

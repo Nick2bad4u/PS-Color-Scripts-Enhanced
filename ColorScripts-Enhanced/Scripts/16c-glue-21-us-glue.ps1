@@ -1,13 +1,4 @@
-﻿# Converted from: US-GLUE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-21/raw/US-GLUE.ANS
-# Source Revision: archive-sha256:f82ee46d8be1d82ea17d8bdc07ad3071d4259c4331c1829c972b5ae2082ebcd2
-# Source SHA-256: 8ff6e5539c5854a794361df7c9a386fb288bc271d4ed756b029f18b3ed31a09d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GLUE.ANS by Kleenex + Klumzee (glue-21); released in glue-21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: US-GLUE.ANS by Kleenex + Klumzee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-21-us-glue
 
 Write-Host '
                                 [34m▀[0m

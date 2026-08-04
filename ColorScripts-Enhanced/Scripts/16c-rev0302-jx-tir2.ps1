@@ -1,18 +1,4 @@
-﻿# Converted from: jx-tir2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0302/raw/jx-tir2.ans
-# Source Revision: archive-sha256:7b2619e0400d7382d19d38767873337eae71942dd319abc1998c71f4a968776f
-# Source SHA-256: 4df0191c77c9ab669b373a252e5ff9396a2a44add51c6cbbb783b6c9186090a5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: jx-tir2.ans by jinx (revival); released in rev0302 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: tirtairngire.net
-# SAUCE Author: jinx
-# SAUCE Group: revival
-# SAUCE Date: 20020314
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: tirtairngire.net by jinx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0302-jx-tir2
 
 Write-Host '
 [1;30m[0m[1;30m[0m

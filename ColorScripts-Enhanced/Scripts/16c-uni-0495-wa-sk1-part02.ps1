@@ -1,18 +1,4 @@
-﻿# Converted from: WA-SK1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0495/raw/WA-SK1.ANS
-# Source Revision: archive-sha256:5c1b487f172d9b21547c289d0c6d77076f08925ed05d67b00c73baffeedf66f4
-# Source SHA-256: 66854ba3738420170b23500efef3f69a3c1384502a61fb5ba1f9588a8994ac4e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WA-SK1.ANS by Warpus (union); released in uni-0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Silicon Knights
-# SAUCE Author: Warpus
-# SAUCE Group: union
-# SAUCE Date: 19950403
-# SAUCE Dimensions: 80x86
-# Lines: 42-86
-# Columns: 1-80
+﻿# Artwork: Silicon Knights by Warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0495-wa-sk1-part02
 
 Write-Host '
 [1;30;40m■ [0;34m■[0;1;34;44m░[0m [1;30;44m░[0m              [31m██[0;1;30;41m▒▒▒▒[0;31m█[0;1;30;41m░░[0;31m█████▀▀▓ ▄▄[0;1;30;41m░[0;31m█[0;1;31;41m░[0;31m█▌ ▄▄██[0;1;31;41m░░▒▒[0;31m█▌ [0;1;31m▀▓■ ▀█[0;1;31;43m█▓▓▓▓▒▒▒▒▒▒▓▓▓▓▓[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: US-IDOL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-38/raw/US-IDOL.ANS
-# Source Revision: archive-sha256:be80154150e87c06a8a7199ad7b8d7442acd5427250f57c89a783b9de15c69d7
-# Source SHA-256: ccc7a8170cdd8ff0b95f53086c51f31979f79f564ca578a7f78d53ced9bb2c19
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-IDOL.ANS by Nail + Savage (fire); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: billy idol
-# SAUCE Author: nail + savage
-# SAUCE Group: fire
-# SAUCE Date: 20230713
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: billy idol by Nail + Savage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-38-us-idol
 
 Write-Host '
                              [1;30;40m▄[0m▒[1m░░░[0;33;47m▀[0;33;40m█[0;1;30;43m■▀█[0m▒▒▒[1;30;43m░░ [0m

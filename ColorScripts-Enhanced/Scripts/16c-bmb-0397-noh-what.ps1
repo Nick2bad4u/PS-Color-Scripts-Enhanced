@@ -1,17 +1,4 @@
-﻿# Converted from: NOH-WHAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0397/raw/NOH-WHAT.ANS
-# Source Revision: archive-sha256:dbc842066d628a57d7819da260b477c6ec1e4d0ba1a7d08ba504501e875a1ea3
-# Source SHA-256: 8a58d3f0ffefd5e9cec3c695d813b222aec53bb36e7496540ae61e08ff73ac3c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-WHAT.ANS by nOah! (bmb-0397); released in bmb-0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: what is this?
-# SAUCE Author: nOah!
-# SAUCE Date: 19970309
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: what is this? by nOah! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0397-noh-what
 
 Write-Host '
                    [31m         [0;35m░░[0;31m           ███████████████████████████[0;1;31;41m░░[0;31m███[0m

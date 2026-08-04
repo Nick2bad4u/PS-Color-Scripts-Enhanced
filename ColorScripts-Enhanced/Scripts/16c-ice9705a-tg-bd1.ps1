@@ -1,18 +1,4 @@
-﻿# Converted from: TG-BD1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9705a/raw/TG-BD1.ICE
-# Source Revision: archive-sha256:bd2829310a06c2b2f414da2c9f6416a34fd79bbeccf9215019785ab4bb1ae973
-# Source SHA-256: ff1b3e069af773b4ee4662fc66d923c510c9ed0050d9b569d7fbec99d0296e5e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-BD1.ICE by toon goon (ice); released in ice9705a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: boondocks 3
-# SAUCE Author: toon goon
-# SAUCE Group: ice
-# SAUCE Date: 19970530
-# SAUCE Dimensions: 80x49
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: boondocks 3 by toon goon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9705a-tg-bd1
 
 Write-Host '
 [34m▄▄▄▄▄▄▄▄                [0m

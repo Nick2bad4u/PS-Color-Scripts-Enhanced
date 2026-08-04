@@ -1,13 +1,4 @@
-﻿# Converted from: FRUIT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansi/raw/FRUIT.ANS
-# Source Revision: archive-sha256:50aaa63d173fc2f34f94b8a5b526a5ee8a8b9d7908c42264ab949073e7e0edf9
-# Source SHA-256: 307a3c80cb7135f49481409a7732bf7557c32de0c89b4fe683b5f7027433a0d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FRUIT.ANS by Michael (ansi); released in ansi and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: FRUIT.ANS by Michael | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansi-fruit
 
 Write-Host '
 [1;37;44m                    [0;30;44m██[0m [1;33;40m▄[0;30;44m█[0;1;33;40m▄▄[0m [34;40m▀▀[0;34;44m   [0m [30;43m▄▄[0;33;40m▀[0m [33;44m                                     [0m

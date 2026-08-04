@@ -1,18 +1,4 @@
-﻿# Converted from: DY-RB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blade-41/raw/DY-RB.ANS
-# Source Revision: archive-sha256:4bd79ef281b8ab7a825cdf52b83bde6cbe7c637e271a1366a909c3a71335a95c
-# Source SHA-256: 60f42c31938a0d5a138c6fe2b86c1ae523abb674b9ec30bff076862e3fe9fb84
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DY-RB.ANS by dyce (blade productions); released in blade-41 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: rebirth
-# SAUCE Author: dyce
-# SAUCE Group: blade productions
-# SAUCE Date: 19970625
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: rebirth by dyce | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blade-41-dy-rb
 
 Write-Host '
                                                                         ░  [1;30;47m█▄[0m█[1;30;47m░[0m█

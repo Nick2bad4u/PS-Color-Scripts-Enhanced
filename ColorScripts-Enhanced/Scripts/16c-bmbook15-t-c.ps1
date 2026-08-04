@@ -1,18 +1,4 @@
-﻿# Converted from: T-C.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook15/raw/T-C.ANS
-# Source Revision: archive-sha256:e54ebc8c52f8d9379c31843d1a642e9eaaf309656353be720cf874920f543492
-# Source SHA-256: 9db3738e6388dcae1533d1338aa3d130d6fc565f6a32f26c8222c3f5a4b7ec1d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T-C.ANS by toot (black maiden); released in bmbook15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: DTC!$%!&)$!
-# SAUCE Author: toot
-# SAUCE Group: black maiden
-# SAUCE Date: 19971031
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: DTC!$%!&)$! by toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook15-t-c
 
 Write-Host '
 [34m█████[0;1;34;44m░░▓▓███[0;1;34;47m▓▓░░[0;1;37;47m░░▀[0;1;34;47m ▄[0;1;34;44m▀[0;34m▀   ░░▓▓██[0;1;34;44m░░▓▓[0;1;34;47m▓▓░░▄[0;1;34;44m▀[0;34m▀░░[0;1;30m ▄[0m▄▄[1;30m▄▐[0;1;30;47m▀[0;1;37;47m▄████▓▓░░[0;1;30;47m  ░░▓▓[0;1;30;40m█▄▄ [0m [34m▐██[0;1;34;44m▄███[0m

@@ -1,16 +1,4 @@
-﻿# Converted from: D0-HA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p12_01/raw/D0-HA.ANS
-# Source Revision: archive-sha256:678c9348e291c059a717bb7990ccaffc699e8a46d4f8d71e273fe24e3b605bbc
-# Source SHA-256: 378151d0dfc9adfdf97099caee23030c042f197b922893e0141a4023e0c1cb57
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D0-HA.ANS by d0 (l0p12_01); released in l0p12_01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: d0
-# SAUCE Date: 20010814
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: D0-HA.ANS by d0 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p12-01-d0-ha
 
 Write-Host '
 [1;32;47m▓▓[0;1;37;42m▒▒▓▓[0;1;37;47m█[0;1;37;40m█[0;1;37;47m█████████████████▀▀▀  [0;1;30;47m▄▄[0m▀▀[1;30m▀▀▀[0;36m▄▄▄[0;1;36;46m▓█[0;1;37;46m██[0m [1;34;44m█▓▓▒▓[0m

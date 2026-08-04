@@ -1,18 +1,4 @@
-﻿# Converted from: TK-NEOSP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel16/raw/TK-NEOSP.ANS
-# Source Revision: archive-sha256:78bbfd1159c4b51678435d1ff23762559e425f3010119f2abd28bf83d67e513d
-# Source SHA-256: 131f42efbead355851c09e3a9b891fd97df50541240136323a58f471866cdd7d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TK-NEOSP.ANS by the knight (fuel); released in fuel16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: neosporin matrix
-# SAUCE Author: the knight
-# SAUCE Group: fuel
-# SAUCE Date: 19970901
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: neosporin matrix by the knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel16-tk-neosp
 
 Write-Host '
               [1;33m▄▄[0;1;37m▄▄▄[0;1;33m [0m▄[1;33m▄[0;1;37m [0;1;33m   [0m            [36m▄[0m

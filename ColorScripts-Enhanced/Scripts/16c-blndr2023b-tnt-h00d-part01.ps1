@@ -1,19 +1,4 @@
-﻿# Converted from: TNT-H00D.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2023b/raw/TNT-H00D.ANS
-# Source Revision: archive-sha256:d1013da0ea56e008d06d0a1e802ccadb885bc075764abe4bf35ae7001c1b7159
-# Source SHA-256: f4a8de1f0397bfe5eacd6e2123fa0d1fd336569e272bf8fc7bc5db4fae6901fb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNT-H00D.ANS by tainted (fire); released in blndr2023b and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: radmando
-# SAUCE Author: tainted
-# SAUCE Group: fire
-# SAUCE Date: 20230423
-# SAUCE Dimensions: 80x100
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: radmando by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2023b-tnt-h00d-part01
 
 Write-Host '
                                                                     [1;30m▀█▀█▀▄▀█▀[0m

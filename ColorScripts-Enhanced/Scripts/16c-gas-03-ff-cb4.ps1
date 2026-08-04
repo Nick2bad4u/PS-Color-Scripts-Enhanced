@@ -1,18 +1,4 @@
-﻿# Converted from: FF-CB4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gas-03/raw/FF-CB4.ANS
-# Source Revision: archive-sha256:9d16ec2efa84f41f04a3a0885f1a55c15cbeef8d9963890c5d07d45f34a97b3b
-# Source SHA-256: acd94b1a10f39bbc51262054890b7f1b237a230c826d2134dcb42eb2ad287df6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FF-CB4.ANS by flava flav (gas); released in gas-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: cb4
-# SAUCE Author: flava flav
-# SAUCE Group: gas
-# SAUCE Date: 19960901
-# SAUCE Dimensions: 80x4
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: cb4 by flava flav | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gas-03-ff-cb4
 
 Write-Host '
   [1;30m▄▄▄▄▄██▒ [0m▄[1;30;47m▄▄▄[0;1;30;40m████████████▓  [0;1;30;47m▓[0;1;30;40m██████▓▒▄ ▄[0;1;30;47m▓[0;1;30;40m████▓▄▄▄▄█▀ [0;31m▄▓▄ [0;1;30m██▄▄▄[0m      [1;30m▒██▄▄▄▄▄[0m

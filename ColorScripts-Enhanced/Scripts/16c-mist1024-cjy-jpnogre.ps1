@@ -1,20 +1,4 @@
-﻿# Converted from: CJY-JPNOGRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1024/raw/CJY-JPNOGRE.ANS
-# Source Revision: archive-sha256:6949840195965f5eb9696cfb423e381432d7ccfa36b66290e336e4608b7c12f8
-# Source SHA-256: fd288f0db88d1b3f83c042b5f84808af9a116b6b21ab1232f6dcc5bc1f704080
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CJY-JPNOGRE.ANS by consolejockey (Mistigris); released in mist1024 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Japanese Ogre
-# SAUCE Author: consolejockey
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241027
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Apparently the name of an emoji for an oni mask is "japanese ogr | e". Why anyone would call it that is beyond me, but I thought it | was funny, hence the title.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Japanese Ogre by consolejockey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1024-cjy-jpnogre
 
 Write-Host '
    [1;36m░[0;1;30m01000001[0m  [1;36m░[0m     [1;36m░[0;1;30m01101[0;1;36m░[0;1;30m110[0m        [1;36m░[0;36m011100[0;1;36m░[0;36m11[0;37m      [0;1;30m0110[0;1;36m░[0;1;30m1001[0;1;36m■[0m   [30m▌[0;37m     [0;1;36m░[0m

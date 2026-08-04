@@ -1,13 +1,4 @@
-﻿# Converted from: STC-SNC1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9410/raw/STC-SNC1.ICE
-# Source Revision: archive-sha256:8c9142d0352992206e7fd9f090a7f89eeb1bb8623b53334a6a4eb0e9111ecc28
-# Source SHA-256: d54cc4435a79683a9a70016bfa4c33be7715951d06ea6fd3796cd8df27804a4d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STC-SNC1.ICE by Stone The Crow (ice-9410); released in ice-9410 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: STC-SNC1.ICE by Stone The Crow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9410-stc-snc1-part01
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: BL-I!F.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/b2b-0795/raw/BL-I!F.ANS
-# Source Revision: archive-sha256:8e10b7c1c977a26397c38c863229df8f735caadc9af3741f089d2a5031818bc8
-# Source SHA-256: cdcd351738d1c3d7e44586bc8487263bf27568126874950593d55a9411c93cd9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BL-I!F.ANS by Blind Enemy (Back to Basix); released in b2b-0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: iNSANE!FARPOiNT
-# SAUCE Author: Blind Enemy
-# SAUCE Group: Back to Basix
-# SAUCE Date: 19950626
-# SAUCE Dimensions: 80x165
-# Lines: 137-165
-# Columns: 1-80
+﻿# Artwork: iNSANE!FARPOiNT by Blind Enemy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-b2b-0795-bl-i-f-part04
 
 Write-Host '
 

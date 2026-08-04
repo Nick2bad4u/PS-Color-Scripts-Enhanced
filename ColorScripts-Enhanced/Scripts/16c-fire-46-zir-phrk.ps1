@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-PHRK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-46/raw/ZIR-PHRK.ANS
-# Source Revision: archive-sha256:32c189dd42ed53f66ce0b86a88ea8027caddc32faf4da7cee2e674d9223cb9f4
-# Source SHA-256: e7e21332280969e9e662f6f4bed9c556213a69a10e837c7ee26cffd9ef148a90
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-PHRK.ANS by zir (FiRE); released in fire-46 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: PHRACK
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20260707
-# SAUCE Dimensions: 80x17
-# SAUCE Font: IBM VGA
-# SAUCE Comments: SINCE NINETEEN-EIGHTY-FIVE: PHRACK MAGAZINE
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: PHRACK by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-46-zir-phrk
 
 Write-Host '
 [37;40m [0;34;46m▀[0;1;36;46m░▄▄[0;36m█[0;1;34;46m▄▄▄[0;34m▄▄▄  [0;36m░░ ░░[0m        [36m▄[0;1;36;46m▄▄▄[0;36m█[0;1;34;46m▄[0;34;46m▄[0;34;40m▄▄▄▄[0;37;40m  [0;36;40m░▓▓▓▓▓▓▓▓[0;36;44m▄[0;34;40m▄  [0;36;40m░▓▓▓▓▓▓▓▓[0;36;44m▄[0;34;40m▄[0;37;40m   [0;36;40m░░░[0;37;40m   [0;34;40m░[0;36;40m░░░░░[0m

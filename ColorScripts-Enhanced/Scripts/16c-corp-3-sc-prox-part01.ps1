@@ -1,13 +1,4 @@
-﻿# Converted from: SC-PROX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/corp-3/raw/SC-PROX.ANS
-# Source Revision: archive-sha256:d74c30c885ad8288fe6af9c02d940ce5f4fdbd29afcafa0b00851ad7d1dfe18a
-# Source SHA-256: a18fdbe67511764be20de2b7004589379b52ca9182eb717aaf290dee20b81a4a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-PROX.ANS by Sliver Cut (corp-3); released in corp-3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: SC-PROX.ANS by Sliver Cut | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-corp-3-sc-prox-part01
 
 Write-Host '
                                    [33m▌[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: AVG-HVNS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-45/raw/AVG-HVNS.ANS
-# Source Revision: archive-sha256:0564021806e0277d72a0e235c044a0e0470226ba860a8976e1e3092326555d1d
-# Source SHA-256: 03dedc9a89e641c2271b89209529604ce24c9c0a412a2dc96f7363885a5b4807
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-HVNS.ANS by Savage (Fire Graphics); released in fire-45 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: shuratos heavenly BBS
-# SAUCE Author: Savage
-# SAUCE Group: Fire Graphics
-# SAUCE Date: 20260303
-# SAUCE Dimensions: 80x147
-# SAUCE Font: IBM VGA
-# Lines: 48-97
-# Columns: 1-80
+﻿# Artwork: shuratos heavenly BBS by Savage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-45-avg-hvns-part02
 
 Write-Host '
   [36m▒[0;1;36m▒▒[0;36m▒[0;1;30m [0;36m▒▓[0;30;46m░[0;1;30;40m■▐▌[0m  [1;30m■·[0m   [1;30m░░░▄▄[0;33m▀[0;1;31m▀[0;33m▄[0;1;31m▄▄[0;1;31;43m▄█[0;33m▄[0;1;31;43m▐▌[0m [1;30m░[0;33m▄[0;1;31;43m▄[0;1;31;40m▓[0;1;31;43m [0;33m [0;1;31;43m▄▓▓[0;33m▒▄[0;1;30m█[0;33m▀[0;37m  ▄█[0;1;30m▀■▄▄[0;1;37;47m▄█[0;1;30;40m▀[0;33m▄[0;1;30m▄[0m ██ [33m▒[0;1;30m ▐[0;1;30;46m▄[0m [33m█▌ [0;1;31;43m██[0;33m▓[0;1;30m▄[0;33m▄[0;1;31;43m·[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: EV-CC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/legend04/raw/EV-CC1.ANS
-# Source Revision: archive-sha256:8d7c89819709343239d9819160f9119efc661234c4b1d2dab5894cd096ee1758
-# Source SHA-256: 864d46d81ea9fae2d919251c8a1f6b9880b100bbb1eece3b4e87e70da3d4995c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EV-CC1.ANS by EverLast (Legend 1995); released in legend04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Chaos Continuum
-# SAUCE Author: EverLast
-# SAUCE Group: Legend 1995
-# SAUCE Date: 19951101
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Chaos Continuum by EverLast | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-legend04-ev-cc1-part01
 
 Write-Host '
 [1;30m██[0;1;30;47m▓▓▓[0;1;30;40m█[0;1;30;47m█[0;1;30;40m█▀  ██▓[0m·[1;30mA n s i  B y :  [0m·[1;30m E  v  e  r [0m·[1;30mO F[0m·[1;30m L E G E N D[0m·[1;30m▓████[0;1;30;47m▓▒▓▓[0;1;30;40m███  ███ [0m

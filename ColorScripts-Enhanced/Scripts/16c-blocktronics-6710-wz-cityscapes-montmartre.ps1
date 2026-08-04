@@ -1,19 +1,4 @@
-﻿# Converted from: WZ - Cityscapes - Montmartre.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-6710/raw/WZ%20-%20Cityscapes%20-%20Montmartre.ans
-# Source Revision: archive-sha256:65fe9e2a2e2016f30e4b0141be2d1472e9b7cc814d922f9663e0d0a04142d70a
-# Source SHA-256: 2cf19a9711bbcf70dd81c9ae86184107b894bd5f8d4390de860b0bee40c9177d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WZ - Cityscapes - Montmartre.ans by Whazzit (Blocktronics); released in blocktronics-6710 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Cityscapes - Montmartre Paris
-# SAUCE Author: Whazzit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20180709
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Cityscapes - Montmartre Paris by Whazzit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-6710-wz-cityscapes-montmartre
 
 Write-Host '
 [1;30;40m███████████████████████████████████▄[0m                      [1;30m▄[0;1;30;47m▀▀[0m█▀▀▀[1;30m [0;1;37m ███ ██▀[0m

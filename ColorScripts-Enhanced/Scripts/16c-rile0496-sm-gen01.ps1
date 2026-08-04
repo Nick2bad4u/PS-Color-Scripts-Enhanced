@@ -1,17 +1,4 @@
-﻿# Converted from: SM-GEN01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile0496/raw/SM-GEN01.ANS
-# Source Revision: archive-sha256:970ba17ca3338e96740571feaeb5cccb1e503d5151fde5fa1bc67bce49fcb3a4
-# Source SHA-256: 47adb50f5857da7130ba4427af4e1257a105138059343ebf1d329f6428d2d019
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-GEN01.ANS by sammael (RiLE); released in rile0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Black Knight's Genotia
-# SAUCE Author: sammael
-# SAUCE Group: RiLE
-# SAUCE Dimensions: 80x25
-# Lines: 1-10
-# Columns: 1-80
+﻿# Artwork: Black Knight's Genotia by sammael | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile0496-sm-gen01
 
 Write-Host '
                                                 [1;35m▓▄▀▀▀[0;1;35;47m▓[0;1;35;40m▀[0;1;35;45m█[0;1;35;40m▄[0;1;35;45m█[0;1;35;47m▓█[0;1;35;40m▀▓[0m  [1;35m▄[0m

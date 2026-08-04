@@ -1,19 +1,4 @@
-﻿# Converted from: US-PHRAK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-45/raw/US-PHRAK.ANS
-# Source Revision: archive-sha256:0564021806e0277d72a0e235c044a0e0470226ba860a8976e1e3092326555d1d
-# Source SHA-256: f981f6e52d99c938441ef9615bce082006baf0e94998647ddae806bdf4bb3b34
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PHRAK.ANS by Tainted + Nail (fire); released in fire-45 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: phrack
-# SAUCE Author: tainted + nail
-# SAUCE Group: fire
-# SAUCE Date: 20260303
-# SAUCE Dimensions: 80x31
-# SAUCE Font: IBM VGA
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: phrack by Tainted + Nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-45-us-phrak
 
 Write-Host '
                                [1;30;40m▄[0m        [1;30m▀[0m

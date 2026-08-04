@@ -1,18 +1,4 @@
-﻿# Converted from: US-LAZ2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz04mar/raw/US-LAZ2.ANS
-# Source Revision: archive-sha256:44ec2aece59b6e1070eee7535121a4d2aa26d7d69e93852fb8f63376ca44c5f2
-# Source SHA-256: 3f4f09476cf3f1b0d0bfc8ebcee37c049af98cf2daa8ef2ef16bffd9ea16daaa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-LAZ2.ANS by Hennifer + Iceage (lazarus); released in laz04mar and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: i'm so so so so sorry
-# SAUCE Author: iceage + hennifer
-# SAUCE Group: lazarus
-# SAUCE Date: 19970303
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: i'm so so so so sorry by Hennifer + Iceage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz04mar-us-laz2
 
 Write-Host '
 [1;30m[0m[1;30m[0m[1;33m[0m[1;30m      [0m  [1;30m [0m [1;36m███[0;1;36;46m▓▓▓▒▒[0m [1;30m           [0;30;46m▓[0;36;40m▄▄▄▄▄▄▄▄[0m               [1;30;40m       [0;36m▐[0;1;36;46m░░▒▒▒[0m

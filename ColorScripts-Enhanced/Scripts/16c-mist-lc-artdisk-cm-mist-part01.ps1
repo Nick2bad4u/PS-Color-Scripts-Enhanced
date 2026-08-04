@@ -1,19 +1,4 @@
-﻿# Converted from: cm-MIST.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-lc-artdisk/raw/cm-MIST.ans
-# Source Revision: archive-sha256:d99dd05882b547bcfac565e3fc99e4c20080a2bb9c34c833b810d4e465d15217
-# Source SHA-256: 13aac3e78ea54d04fa5ff046148bdb0bbf66ac353521153d8b6cbe60995bd8f4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cm-MIST.ans by Crystal Meth (Mistigris); released in mist-lc-artdisk and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Mistigris Promo
-# SAUCE Author: Crystal Meth
-# SAUCE Group: Mistigris
-# SAUCE Date: 19970605
-# SAUCE Dimensions: 79x132
-# SAUCE Font: IBM VGA
-# Lines: 1-44
-# Columns: 1-79
+﻿# Artwork: Mistigris Promo by Crystal Meth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-lc-artdisk-cm-mist-part01
 
 Write-Host '
 [34;40m!$l$l;.:.    .:.;:;l;[0;1;30;40m.,s[0ms[1m$,[0;34mⁿⁿl;.:.    .:.;:;l;l$!$l;l;l;:;.:.    .:.;:;l;l$!$l;[0m

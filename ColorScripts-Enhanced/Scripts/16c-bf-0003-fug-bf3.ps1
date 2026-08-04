@@ -1,13 +1,4 @@
-﻿# Converted from: FUG-BF3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bf-0003/raw/FUG-BF3.ANS
-# Source Revision: archive-sha256:27c4be88d67f7beb2b998f7f8b0c923c0cd0293d1e228ef5a52f4a9b7d70ba22
-# Source SHA-256: 05abe0a9941c0fa42d9204fbf7b2f906a3365d9bb55f39c3cc62ff1b95969456
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FUG-BF3.ANS by Fugitivo (bf-0003); released in bf-0003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: FUG-BF3.ANS by Fugitivo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bf-0003-fug-bf3
 
 Write-Host '
   ▌  ▄▄▀    ■  ▄▄     ▄▄▀  [36m■[0m            [37m▀▀▄▄[0m

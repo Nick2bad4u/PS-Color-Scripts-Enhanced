@@ -1,17 +1,4 @@
-﻿# Converted from: MT-COMBO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy05/raw/MT-COMBO.ANS
-# Source Revision: archive-sha256:2e1c7dd4c451a5d024352ee6b56eba52a2d5ba6a7d73a9cc34cff58fc603ca18
-# Source SHA-256: 8dfd6e2dcf0c32480abdc51a09d26e85167500e12ae0e8098a4d25f0c81a41eb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MT-COMBO.ANS by Misfit (apathy05); released in apathy05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Logos2go
-# SAUCE Author: Misfit
-# SAUCE Date: 19951227
-# SAUCE Dimensions: 80x33
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Logos2go by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy05-mt-combo
 
 Write-Host '
 [1;30m[0m

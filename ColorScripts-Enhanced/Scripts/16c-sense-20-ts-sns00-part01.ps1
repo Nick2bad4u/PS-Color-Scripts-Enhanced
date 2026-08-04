@@ -1,18 +1,4 @@
-﻿# Converted from: TS-SNS00.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense-20/raw/TS-SNS00.ANS
-# Source Revision: archive-sha256:e0054310d334f0ca2dc737536dc237c88f5ecb53579f66069eba0589af7e0b4c
-# Source SHA-256: bdc691d0abd8d81865efdf76c80b60a0ee4c1680c00433c2b6f45da14a803a67
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-SNS00.ANS by transient (sense); released in sense-20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: alien dna manipulation
-# SAUCE Author: transient
-# SAUCE Group: sense
-# SAUCE Date: 20040705
-# SAUCE Dimensions: 80x150
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: alien dna manipulation by transient | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense-20-ts-sns00-part01
 
 Write-Host '
 [36m  [0;37m   [0;1;36;46m░[0;1;36;40m▀[0m   [36m▄▄[0;1;36m▄[0;1;36;46m▓▒[0m    [36m█[0;37m   [0;36m [0;37m     [0;1;36;46m▓[0;1;36;40m█[0m  [36m▄▄▄[0;1;36;46m▓[0;36m▀▄ [0;1;36;46m░░▒[0;36m █▌[0;1;36;46m░▒[0;36m▀▀▀[0;37m  [0;36m▄▄▄███▀▀[0;37m  [0;1;37m·[0m  [1m■[0m  [1;30m·[0m   [1;30m·[0m  [1m▄[0m  ·

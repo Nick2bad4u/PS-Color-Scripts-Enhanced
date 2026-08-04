@@ -1,18 +1,4 @@
-﻿# Converted from: SD!MIND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bpi0696/raw/SD!MIND.ANS
-# Source Revision: archive-sha256:24ba7f715feb33b38dd9d80af37fadd76c049ffae04949fb7d26267bd16ca3cf
-# Source SHA-256: 408dab540e0650e027fb77f453a2e2a18fd6d94b0721de740a5f9b5460c5befa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD!MIND.ANS by sad (black pyramid!inc.); released in bpi0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: out'a my mind.
-# SAUCE Author: sad
-# SAUCE Group: black pyramid!inc.
-# SAUCE Date: 19960601
-# SAUCE Dimensions: 80x44
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: out'a my mind. by sad | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bpi0696-sd-mind
 
 Write-Host '
                                 [34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0m

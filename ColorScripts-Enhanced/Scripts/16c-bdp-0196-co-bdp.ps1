@@ -1,18 +1,4 @@
-﻿# Converted from: CO-BDP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bdp-0196/raw/CO-BDP.ANS
-# Source Revision: archive-sha256:baf6ac947cf516745e5d655c9231cc62d5c2df7a0182329027aea7ab76e3e18b
-# Source SHA-256: 5a800387ce509c158dd70633867cff68d70943458fb81ffc88e08aeece24eb50
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CO-BDP.ANS by Coeffey (BdP); released in bdp-0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Logo
-# SAUCE Author: Coeffey
-# SAUCE Group: BdP
-# SAUCE Date: 19951221
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Logo by Coeffey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bdp-0196-co-bdp
 
 Write-Host '
 [1;30m▀[0;1;30;47m▓[0;1;30;40m████████████████████████████████[0;1;30;47m▓[0;1;30;40m█████████████████████[0;1;30;47m▓[0;1;30;40m████████████████████[0;1;30;47m▓[0;1;30;40m█[0;1;30;47m▓[0m

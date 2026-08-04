@@ -1,13 +1,4 @@
-﻿# Converted from: SM-DF3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sys2_03/raw/SM-DF3.ANS
-# Source Revision: archive-sha256:008fb7d825e566af77ae54caca44158087d80f399f5293cc1f9b3810d9305879
-# Source SHA-256: 2d1f967e26b558af714195b0b2266aef9aed95efd322e1e75e784aa9e4d0d935
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-DF3.ANS by Smoke (sys2_03); released in sys2_03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: SM-DF3.ANS by Smoke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sys2-03-sm-df3
 
 Write-Host '
 [30;45m░[0;35;40m▓[0;30;45m░[0;1;30;45m▓█[0;1;30;40m▀▀[0m           [1;30m▄[0;35m▄[0m                              [31m▀▄[0m       [31m▀■[0m         [31m▄[0m     [1;31;41m░[0;31m▌[0m

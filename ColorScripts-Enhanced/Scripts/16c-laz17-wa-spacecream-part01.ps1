@@ -1,20 +1,4 @@
-﻿# Converted from: wa-spacecream.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz17/raw/wa-spacecream.ans
-# Source Revision: archive-sha256:2674245bad3e14fe6d4a935ba8daf9898a4426e394c56ca9710e3afa19d3d943
-# Source SHA-256: d339fb13aef32e2db536e91ebcbde6bb4a759f85ff0b7e1b75c5ff3407eeb630
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-spacecream.ans by warpus (LAZARUS); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: In space no one can hear cream
-# SAUCE Author: warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20230624
-# SAUCE Dimensions: 80x84
-# SAUCE Font: IBM VGA
-# SAUCE Comments: For the Blender
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: In space no one can hear cream by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz17-wa-spacecream-part01
 
 Write-Host '
                      [1;30m░░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░[0m

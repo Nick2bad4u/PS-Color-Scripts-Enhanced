@@ -1,17 +1,4 @@
-﻿# Converted from: TX-ZEN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zenith01/raw/TX-ZEN1.ANS
-# Source Revision: archive-sha256:89a769066be1ade04361b16bc2aabeb1a280fe034deee0fe7ee4c75badc7461d
-# Source SHA-256: b8763dcf49daab956366b0dc93bb3d19ede13a4152a056caa788206858ea91bf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TX-ZEN1.ANS by ToonsXilion (Zenith); released in zenith01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Zenith Logo
-# SAUCE Author: ToonsXilion
-# SAUCE Group: Zenith
-# SAUCE Dimensions: 80x25
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Zenith Logo by ToonsXilion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zenith01-tx-zen1
 
 Write-Host '
 [1;30m[0;36m[0;1;30m[0;36m[0;1;30m[0m

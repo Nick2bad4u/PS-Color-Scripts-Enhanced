@@ -1,18 +1,4 @@
-﻿# Converted from: SMP-BI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tus-01/raw/SMP-BI.ANS
-# Source Revision: archive-sha256:980574136e564d65bad34bed66955fa948f629a55ad38cd4b9370834a305c832
-# Source SHA-256: bab3f8aa93efaca67cc7a6af2aa26fd85531779ab97f50502c0cb71cf99c2d9f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-BI.ANS by Shrimp (Foliage); released in tus-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Bi
-# SAUCE Author: Shrimp
-# SAUCE Group: Foliage
-# SAUCE Date: 20010727
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Bi by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tus-01-smp-bi
 
 Write-Host '
 [36m$$[0;1;36m$$$P┘ⁿ[0;36m"^~[0m             [35m.[0m       [34m.[0m      [32m_.,▬┐g#S$[0;1;32m$$$$$$$P┘ⁿ[0;32m"^~[0m    [32m~^"ⁿ└?$[0;1;32m$$$$$$[0;32m$$[0m

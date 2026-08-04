@@ -1,13 +1,4 @@
-﻿# Converted from: CT-IDI2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9402/raw/CT-IDI2.ICE
-# Source Revision: archive-sha256:542a55b371fcf2e1b6ce730207fe668cc74b9fc898d3341dc11812e6d7a4ac5c
-# Source SHA-256: a43845a213eab9a8f2226696020351c4541339ad6e34b000c20eab8bdc201cea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CT-IDI2.ICE by Cephalon Tsurphr (ice-9402); released in ice-9402 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-97
-# Columns: 1-80
+﻿# Artwork: CT-IDI2.ICE by Cephalon Tsurphr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9402-ct-idi2-part02
 
 Write-Host '
                                   [1;37;40m█[0;1;37;47m [0;1;30;40m█[0m     [1;37;47m▄[0;1;30;47m▀[0;1;30;40m█[0m                    [34m▄[0m

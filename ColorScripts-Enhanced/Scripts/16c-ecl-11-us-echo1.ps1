@@ -1,17 +1,4 @@
-﻿# Converted from: US-ECHO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-11/raw/US-ECHO1.ANS
-# Source Revision: archive-sha256:124f5de71b4943d1edf363ae27ec83def11b741938d7ad78955f12dc3ea0753e
-# Source SHA-256: a6b3e03daea26b9a37766eb5170d7de956ef5f27e0037dc0b583a4d447fdbdc3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ECHO1.ANS by Wat0r + Spear (echo/eclipse); released in ecl-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: echo = plain? plain = echo? huh?
-# SAUCE Author: wator/spear
-# SAUCE Group: echo/eclipse
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: echo = plain? plain = echo? huh? by Wat0r + Spear | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-11-us-echo1
 
 Write-Host '
 

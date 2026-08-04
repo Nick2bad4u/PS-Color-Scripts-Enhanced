@@ -1,18 +1,4 @@
-﻿# Converted from: E0-KIB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-22/raw/E0-KIB.ANS
-# Source Revision: archive-sha256:d46ba48cfd0738c6a2c74264504a495798fea93d5b2e2ae2e6f0dd8f95d84664
-# Source SHA-256: a3322c07a291ee79c8671a4611e00287819d59a2437538d1deed02a02e9d8bf0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: E0-KIB.ANS by Enzo (Glue); released in glue-22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Kibosh Memlist
-# SAUCE Author: Enzo
-# SAUCE Group: Glue
-# SAUCE Date: 19990603
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Kibosh Memlist by Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-22-e0-kib
 
 Write-Host '
          [1;34m░░░░░░░░░░░░░░░░░░[0m      [1;34m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

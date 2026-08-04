@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-NS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lure003/raw/AVG-NS1.ANS
-# Source Revision: archive-sha256:1ff57f893971666a5780ed06387959ae5ebc9c163a5e118549c7818f33792253
-# Source SHA-256: 9c010042297ec3f30db50154939af3e60d7cb819e6e32a9ca488c91f872374d3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-NS1.ANS by avenging angel (lure); released in lure003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ansichrist(ns) dedication
-# SAUCE Author: avenging angel
-# SAUCE Group: lure
-# SAUCE Date: 20020421
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ansichrist(ns) dedication by avenging angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lure003-avg-ns1
 
 Write-Host '
 [1;30m[0m[1m[0m

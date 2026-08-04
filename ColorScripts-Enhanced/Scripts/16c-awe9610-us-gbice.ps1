@@ -1,18 +1,4 @@
-﻿# Converted from: US-GBICE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9610/raw/US-GBICE.ANS
-# Source Revision: archive-sha256:2f6e3c8c2e64cc8380afc3a639da2793e02ea87790d90b8b4bede4b760040753
-# Source SHA-256: bf696334c9ddd8918247f674a716020d253329d072153665cfb6d705d7cd46a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GBICE.ANS by Grindstone + The Night Angel (awe lettering); released in awe9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Brain Damaged
-# SAUCE Author: Gstone / TNAngel
-# SAUCE Group: awe lettering
-# SAUCE Date: 19960929
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Brain Damaged by Grindstone + The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9610-us-gbice
 
 Write-Host '
  ───-─────-─────────────-──────────────────-──────-──────────────-──────────-+

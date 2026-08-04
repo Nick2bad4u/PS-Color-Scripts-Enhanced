@@ -1,18 +1,4 @@
-﻿# Converted from: RL!-FORE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0997/raw/RL!-FORE.ANS
-# Source Revision: archive-sha256:d6ce507ee095ab9c7ce1d91178b57bff0c61babde42a3957415461a430e18407
-# Source SHA-256: 1452d0d00c5b5f67a04baa0451025293cc3a745ebc57b6e349ba1093f9aaae67
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL!-FORE.ANS by rAwlOck!    (rl!) (plf-0997); released in plf-0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: sECTAH! sEVEN!
-# SAUCE Author: rAwlOck!    (rl!)
-# SAUCE Group: -
-# SAUCE Date: 19970911
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: sECTAH! sEVEN! by rAwlOck! (rl!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0997-rl-fore
 
 Write-Host '
           [31m   [0m   [31m  [0m

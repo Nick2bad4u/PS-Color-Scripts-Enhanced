@@ -1,18 +1,4 @@
-﻿# Converted from: BOA-PHNK.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9507a/raw/BOA-PHNK.ICE
-# Source Revision: archive-sha256:a72421113d2c951ec39875f37c234c38446688f5d51179a98cd9dcc0e7568ca7
-# Source SHA-256: d722f1a2ded14d12a59b1eb130da1c23bf18482442d95b0964397d8ebc83d4b4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BOA-PHNK.ICE by BoA (ICE Advertisements); released in ice9507a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Do you have the pHUNk?
-# SAUCE Author: BoA
-# SAUCE Group: ICE Advertisements
-# SAUCE Date: 19950730
-# SAUCE Dimensions: 80x31
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Do you have the pHUNk? by BoA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9507a-boa-phnk
 
 Write-Host '
 [1;30m-[sof]-----[0m

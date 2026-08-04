@@ -1,18 +1,4 @@
-﻿# Converted from: JR_TEROR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl-dope/raw/JR_TEROR.ANS
-# Source Revision: archive-sha256:94d0a6d1a54f912bf59b65f9ab8ad2e76bf857ee4ed7295093943e200494477a
-# Source SHA-256: 74801e8add0bcb8c127d0d8a6af6f4efdcecff9aa9489153a3c128af5467efd7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_TEROR.ANS by jerusalem (boil); released in bl-dope and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: RAF dich auf!
-# SAUCE Author: jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19970412
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: RAF dich auf! by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-dope-jr-teror
 
 Write-Host '
 [33m▀▀▀▀▀█[0;33;41m▓▒[0;33;40m█[0;33;47m▓▓▒[0;1;33;47m░[0;33;47m▀[0;33;40m█▀▀[0;37;40m  [0;33;40m▀▀▀▀█[0;33;47m▓[0;33;40m▌▀██░▀[0;37;40m [0;31;40m▄▄▄▄ [0;33;40m█[0;33;41m▓▓[0;33;40m▀▀▀▀▀[0;33;41m▓[0;33;47m▓▓[0;33;40m█▒░▀█▓▓▀▀▀[0;37;40m [0;33;40m▀[0;37;40m [0;31;40m▄▄▄▄▄▄▄[0;37;40m [0;33;40m▀█▀[0;31;40m ▄▄■[0;37;40m [0;33;40m█[0;33;47m▓▓[0m

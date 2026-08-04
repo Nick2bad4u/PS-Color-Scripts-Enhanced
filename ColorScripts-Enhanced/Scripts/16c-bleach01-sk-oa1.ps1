@@ -1,18 +1,4 @@
-﻿# Converted from: SK-OA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bleach01/raw/SK-OA1.ANS
-# Source Revision: archive-sha256:b051f200d4cb4a187bf381a6b9042d79015b79b0cf19e4a4a725c252afed48ec
-# Source SHA-256: e4476e01329436fb50b46533ee3b18ecab138aa1e588939bf113b926bbce96dd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK-OA1.ANS by shattered link (READ THE INI FILE); released in bleach01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: oasis
-# SAUCE Author: shattered link
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950202
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: oasis by shattered link | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bleach01-sk-oa1
 
 Write-Host '
    [1;30m▄[0;1;30;47m▄[0;1;30;40m█▄   ▄[0;1;30;47m▄[0;1;30;40m█▄ ▄[0;1;30;47m▄[0;1;30;40m██▄[0m     [1;30;40m▄[0;1;30;47m▄[0;1;30;40m██▄[0m      [1;31;40m▀▀█▀▀[0;1;31;41m▓▒░[0;31m█████[0;31;41m  [0;31;40m▄▄▄▄▄▄▄▄[0;1;30;41m▓▒░░░ [0;31m▀[0;31;41m              [0m

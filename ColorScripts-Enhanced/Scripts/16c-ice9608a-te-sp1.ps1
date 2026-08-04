@@ -1,13 +1,4 @@
-﻿# Converted from: TE-SP1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9608a/raw/TE-SP1.ICE
-# Source Revision: archive-sha256:3cb2898237aa255407c11f4c82532bf88edc414fa849eac52074494eeda3cbfa
-# Source SHA-256: 4a8ac765b98f05135aea62906ea79ac3ec1aa88d8e2566cfc34baa52d87dc866
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-SP1.ICE by Tetanus (ice9608a); released in ice9608a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: TE-SP1.ICE by Tetanus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9608a-te-sp1
 
 Write-Host '
                                       ░

@@ -1,18 +1,4 @@
-﻿# Converted from: G-PYRO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pyro01/raw/G-PYRO.ANS
-# Source Revision: archive-sha256:31125dd5a4148d0c78638bab08ce0b4f385c968ebbdf5e860d18cf47bc1faabe
-# Source SHA-256: 8b807f039061c63bd9221bd13a9f99acfe66265ce955d1ba6a9b30cfc260fe6e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: G-PYRO.ANS by Genocide (Pyro); released in pyro01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: XMAS Pyro Promo '95
-# SAUCE Author: Genocide
-# SAUCE Group: Pyro
-# SAUCE Date: 19951220
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: XMAS Pyro Promo '95 by Genocide | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pyro01-g-pyro
 
 Write-Host '
  [32m░▒▓█[0;1;32;42m░▒[0;1;32;40m██[0;1;32;42m████[0;1;32;40m██████████[0;1;32;42m▓▒░[0;32m█▓▒░  ░▒▓█[0;1;32;42m░▒▓█[0;1;32;40m████████████████▄[0m     [1;32m▄█████████[0;1;32;42m▓▒░[0;32m█▓▒[0m

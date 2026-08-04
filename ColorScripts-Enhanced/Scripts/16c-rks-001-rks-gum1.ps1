@@ -1,13 +1,4 @@
-﻿# Converted from: RKS-GUM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rks-001/raw/RKS-GUM1.ANS
-# Source Revision: archive-sha256:705611cf766f4daf07b5db32b0a8c95a9f18fce166935f3ec3700f83898977de
-# Source SHA-256: 31d74c3ce17618bae5bfccc130d3549ee59dfebd6df13da6425e6188afb594e4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RKS-GUM1.ANS by Ruckus (rks-001); released in rks-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: RKS-GUM1.ANS by Ruckus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rks-001-rks-gum1
 
 Write-Host '
 

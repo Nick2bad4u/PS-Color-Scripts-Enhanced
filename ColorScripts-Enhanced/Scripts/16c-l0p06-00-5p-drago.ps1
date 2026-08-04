@@ -1,13 +1,4 @@
-﻿# Converted from: 5P!DRAGO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p06_00/raw/5P!DRAGO.ANS
-# Source Revision: archive-sha256:3daad9bd70cd9307445d25e1dbbdc4eae498b83379a5b89ecd2ac9419e6150d3
-# Source SHA-256: cb9cbe21f2a9108189e4efd630884a7034a3b797bab2461b1a7734fb8c160257
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5P!DRAGO.ANS by Snap (l0p06_00); released in l0p06_00 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: 5P!DRAGO.ANS by Snap | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p06-00-5p-drago
 
 Write-Host '
 [1;33;42m▓▒▒[0;32m█████████████████████████[0;1;33;42m░░▒▒▓▓▒▒░░[0;32m█████████████████████████████[0;1;33;42m░░▒▒▓▒▒░░[0;32m█[0;1;32;42m░▄[0;32m█[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: FR-CF1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9702/raw/FR-CF1.ANS
-# Source Revision: archive-sha256:cd03f390ec36fabd758241a35ae8f920520cc0fb3bdb59ee0ae7c6dd1232d30b
-# Source SHA-256: 7d588563750ddf40ee1ce4d681820f024aa45d789c35990ba9db1f19dc2b4624
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FR-CF1.ANS by fractal (blade productions); released in blde9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: chronic farts
-# SAUCE Author: fractal
-# SAUCE Group: blade productions
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: chronic farts by fractal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9702-fr-cf1
 
 Write-Host '
 [31m ▐▄░▀[0;30;47m█[0;31;40m▄■  [0;1;31;40m▄[0;31m▌[0;1;30m▄▀█▌[0;32m ░▒[0;30;42m▓[0;32;40m ░ [0;30;42m█▓[0;30;40m [0;32;40m░ [0;30;47m██[0;1;30;40m▀▀[0;1;30;47m▓▓[0;1;30;40m▓▄[0;30;47m█[0;1;30;40m▓[0m░[1;30m▀[0;31m▄▀[0;1;30m▄[0;1;30;47m▒[0m▓[1;30;47m▓▓█[0;1;30;40m▀▀▀[0;30;47m█[0;1;30;40m  [0;30;47m██[0;1;30;40m▀[0;1;30;47m█[0m░[1;30;47m▒░[0;30;47m [0;1;30;47m░[0;30;47m █[0;31;40m▀█▄[0;30;47m█[0;31;40m▀[0;1;31;41m▀░[0;31m▀▐[0;1;31;41m░[0;30;47m█[0;31;40m▀[0;1;31;41m░[0;31m▄▀[0m

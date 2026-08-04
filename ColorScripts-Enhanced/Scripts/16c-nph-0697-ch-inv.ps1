@@ -1,18 +1,4 @@
-﻿# Converted from: CH!-INV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-0697/raw/CH!-INV.ANS
-# Source Revision: archive-sha256:948d1463d97fbdd560eeb5fa12fbb3480434c2b2b3eb2660833d19ddf5647ef9
-# Source SHA-256: ef8612e04fabadab2aef58ef5d239537d76a26f12c574e1fed2d46a85cd5d8b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CH!-INV.ANS by ChaoTiC! (.:[nITROPHUSION]:.); released in nph-0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ThE iNvAdErS lOgIN Pic!
-# SAUCE Author: ChaoTiC!
-# SAUCE Group: .:[nITROPHUSION]:.
-# SAUCE Date: 19970525
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ThE iNvAdErS lOgIN Pic! by ChaoTiC! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-0697-ch-inv
 
 Write-Host '
        [32m▀▀[0m    [32m░░▄▄▓ ▄▄▄▓▄▄  ▀▀▀▀▀▀[0m      [1;30m▄[0m▄[1;30;47m▓░[0m█[1;30;47m░[0m▀▀    [1;30;47m▓[0m█[1;30;47m░▓[0m█[1;30m▄▄▄[0m         [1m▀█▀[0m

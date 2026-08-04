@@ -1,13 +1,4 @@
-﻿# Converted from: us-roots.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roots02/raw/us-roots.ans
-# Source Revision: archive-sha256:76e48703c4ae574ec2cec39d9f297f8abe09593046838247863eedaee737caa1
-# Source SHA-256: 51467b9edece7dd201ff0cabd22a5f09ebd0f31955cb9cfdf4d891001f57bf06
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-roots.ans by Tombin + Avenging Angel (roots02); released in roots02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: us-roots.ans by Tombin + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roots02-us-roots
 
 Write-Host '
                              [36m▄[0;1;36m▄▄[0;1;36;47m▄████▄[0;1;36;40m▄▄[0m▄

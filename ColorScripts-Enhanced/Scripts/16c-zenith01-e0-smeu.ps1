@@ -1,18 +1,4 @@
-﻿# Converted from: E0-SMEU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zenith01/raw/E0-SMEU.ANS
-# Source Revision: archive-sha256:89a769066be1ade04361b16bc2aabeb1a280fe034deee0fe7ee4c75badc7461d
-# Source SHA-256: d742de9fe0b0ecf6bb193e10d775a449b12a7efba326c2d408a37fdc7b06d5e7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: E0-SMEU.ANS by Enzo (Zenith); released in zenith01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Smeuch #1
-# SAUCE Author: Enzo
-# SAUCE Group: Zenith
-# SAUCE Date: 19980529
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Smeuch #1 by Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zenith01-e0-smeu
 
 Write-Host '
 [1;47m▀[0;43m█▀[0;30;43m [0;37;43m▀▀▀ ▀[0;33;40m████[0;33;47m█[0;37;43m  [0;33;40m██████[0;1;30;43m  [0;33m█[0;1;30;43m  [0;43m  [0;1;30;43m [0;43m  [0;1;30;43m▀[0;33m▄[0;37;43m [0;33;40m██[0;1;30;43m▀[0;33m▄▄▄[0;1;30;43m  [0;33m██████████████████████████████████[0;33;47m▀ [0;1;37;47m▀[0m

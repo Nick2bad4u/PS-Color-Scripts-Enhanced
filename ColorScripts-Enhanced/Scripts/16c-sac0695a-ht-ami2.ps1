@@ -1,18 +1,4 @@
-﻿# Converted from: HT-AMI2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0695a/raw/HT-AMI2.ANS
-# Source Revision: archive-sha256:fdb220fd949148b42f901401233ee5917f0ab0d506d9b91fc04ce4bed204f9b8
-# Source SHA-256: d2804ebee3a55deb48e45e4764c1cac97a98998d93a66a578c7bc0a93f74bedc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HT-AMI2.ANS by hetero; released in sac0695a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
-# SAUCE Title: AMIGA CONFERENCE
-# SAUCE Author: HETERO
-# SAUCE Group: LKCC
-# SAUCE Date: 19800101
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: AMIGA CONFERENCE by hetero | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0695a-ht-ami2
 
 Write-Host '
                                       [31m▒[0m

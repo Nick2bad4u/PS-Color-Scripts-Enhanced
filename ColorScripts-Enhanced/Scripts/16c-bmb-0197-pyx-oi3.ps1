@@ -1,18 +1,4 @@
-﻿# Converted from: PYX-OI3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0197/raw/PYX-OI3.ANS
-# Source Revision: archive-sha256:331ffa2c0b41c075aec836339cfb4b33b33b171a17da17bd721952cf3966c823
-# Source SHA-256: 436170fedd9b351f303117d90a9d9769ac4d922501a8778806772b74f22b5a29
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-OI3.ANS by Pyx (Bamboosh); released in bmb-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Optical Illusion
-# SAUCE Author: Pyx
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19961222
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Optical Illusion by Pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0197-pyx-oi3
 
 Write-Host '
                        [34m [0m                              [34m▄▄█[0;1;30;44m░░[0;34m▄▄[0m

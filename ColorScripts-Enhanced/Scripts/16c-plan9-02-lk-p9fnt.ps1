@@ -1,18 +1,4 @@
-﻿# Converted from: LK-P9FNT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plan9-02/raw/LK-P9FNT.ANS
-# Source Revision: archive-sha256:7f21295c062143151c1cc36acb96848c0373edea5f13ee079aa2333c65a66c0d
-# Source SHA-256: 6973c6b8e55629d19592cd90a5868ac24d743d6bc4220062af13eb383915733d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LK-P9FNT.ANS by L0wK3y (plAn 9); released in plan9-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Plan 9 font
-# SAUCE Author: L0wK3y
-# SAUCE Group: plAn 9
-# SAUCE Date: 19970125
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Plan 9 font by L0wK3y | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plan9-02-lk-p9fnt
 
 Write-Host '
                             [34m░[0m

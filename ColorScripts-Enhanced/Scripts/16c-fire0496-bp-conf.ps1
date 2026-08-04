@@ -1,18 +1,4 @@
-﻿# Converted from: BP-CONF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0496/raw/BP-CONF.ANS
-# Source Revision: archive-sha256:50df8163143d8d441a5fa61622ccb7c33b46a1217f5b4d1eaeeea3d3f2226464
-# Source SHA-256: cc3926c8f36568b051a3ec8692a000b36a7dbfe04de564212d1978547515fa72
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BP-CONF.ANS by Bigge Pif (fire); released in fire0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Conference Screen
-# SAUCE Author: Bigge Pif
-# SAUCE Group: fire
-# SAUCE Date: 19960402
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Conference Screen by Bigge Pif | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0496-bp-conf
 
 Write-Host '
                    [1;30m▄█▄ ▀▀  ▀▄[0;1;30;47m▓▓[0;1;30;40m▄▐█▀█ ▄▄▀▀▀█▓▄[0m

@@ -1,15 +1,4 @@
-﻿# Converted from: DT-DC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0297/raw/DT-DC1.ANS
-# Source Revision: archive-sha256:ecfcd3f5cd2c4412c60edbfa5c15fbea724948a8a18d0e8a8931276c9082657e
-# Source SHA-256: 6ac55823718cac100ca459b2c77c5c155a61bbff6eafe40085f25077170b1870
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-DC1.ANS by Defiant (root0297); released in root0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Diet Cola
-# SAUCE Author: Defiant
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: Diet Cola by Defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0297-dt-dc1
 
 Write-Host '
                [1;30m░ [0;34m▐█[0;1;34m▓▒░ ░  [0;32m▀[0;1;32m▀▀[0;32m▄[0;1;32m▄▄▄░  [0;36m░ ░▓█▄[0;1;36m▄  [0;36m▀ ▀▀▄▄   ▄[0;1;36m▄▀  ▀[0m

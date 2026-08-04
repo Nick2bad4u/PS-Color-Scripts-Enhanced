@@ -1,13 +1,4 @@
-﻿# Converted from: LM3ACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1192/raw/LM3ACID.ANS
-# Source Revision: archive-sha256:8f9edeb4f92b0693833f343328f0977cc472aa2ea98dbae0f830bf926a78711d
-# Source SHA-256: 81b531baf3d209d0d9f0b2438fb5eb6b05eafefe80551f1beb61655b15a51fd1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LM3ACID.ANS by Tank (acdu1192); released in acdu1192 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 48-89
-# Columns: 1-80
+﻿# Artwork: LM3ACID.ANS by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1192-lm3acid-part02
 
 Write-Host '
        ▄[1;30;47m░░▒▓▓[0;1;30;40m▌[0m                                                       ▄[1;30;47m░░▒▓▓[0;1;30;40m▌[0m

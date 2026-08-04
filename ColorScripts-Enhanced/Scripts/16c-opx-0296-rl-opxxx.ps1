@@ -1,18 +1,4 @@
-﻿# Converted from: RL-OPXXX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0296/raw/RL-OPXXX.ANS
-# Source Revision: archive-sha256:06e6dc5afce1ee45051e2bc9293c259c32e010fc92f42b6c050d6f2242a1670c
-# Source SHA-256: 664c357ac22807ee5db175c955594a4002b413d9246c2d5bac02d5a67be6bb00
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL-OPXXX.ANS by Rawlock (Opium); released in opx-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Opium Logo
-# SAUCE Author: Rawlock
-# SAUCE Group: Opium
-# SAUCE Date: 19960125
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Opium Logo by Rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0296-rl-opxxx
 
 Write-Host '
 

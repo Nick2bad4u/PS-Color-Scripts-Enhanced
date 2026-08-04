@@ -1,18 +1,4 @@
-﻿# Converted from: LR!-NAPS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/5th-9703/raw/LR!-NAPS.ANS
-# Source Revision: archive-sha256:fffb2c785ea5bb00b22bc525df88c9cca2a7e3ac70af213df8cc76a82e190c3a
-# Source SHA-256: 328616f14f37db2240bb3dc282c3ecf5d10c2f5bd908c09c3bcdf12646050284
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LR!-NAPS.ANS by late riser ((the 5th..)); released in 5th-9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: NAPS logo
-# SAUCE Author: late riser
-# SAUCE Group: (the 5th..)
-# SAUCE Date: 19970620
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: NAPS logo by late riser | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-5th-9703-lr-naps
 
 Write-Host '
                                      [1;32m▄▄[0;32m [0m

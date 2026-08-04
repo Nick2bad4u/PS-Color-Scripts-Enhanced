@@ -1,19 +1,4 @@
-﻿# Converted from: AES-BLND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-44/raw/AES-BLND.ANS
-# Source Revision: archive-sha256:6c51508cedeaa9140fcf08750a75edb14e0cec0eebe7b4290346e95cd3548876
-# Source SHA-256: 5a66d8c677fcd79bfe9c2f32b4c0c65c1d9999ea6f44d750a51c84baf84f0d4a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AES-BLND.ANS by aesthetic (fire); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: blondie
-# SAUCE Author: aesthetic
-# SAUCE Group: fire
-# SAUCE Date: 20251111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: blondie by aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-44-aes-blnd
 
 Write-Host '
 [37;40m  [0;33;40m▄[0;1;33;43m░[0;33m▀▄[0;1;33;43m░[0;33m▀ ▄[0;37m [0;33m░░   ▐[0;1;33;43m▒[0;33m▌[0;1;33m▐[0;33m▌█▐[0;1;33;43m▒▒[0;33m▄▄█▀▄[0;1;33m▄[0;1;33;43m▄▓▓▓[0;33m▄▄    ▄▄ ▄▓▓█▀▀[0;1;33;43m░░[0;33m▄▄[0;37m   [0;33m░░[0;1;33m░░▒▒[0;33m   ▄[0;37m [0;33m░[0;37m [0;1;33m▒[0m  [1;30m░▀[0;33m░[0;37m▀▀▀[0m

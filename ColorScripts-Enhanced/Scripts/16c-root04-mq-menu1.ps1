@@ -1,18 +1,4 @@
-﻿# Converted from: MQ-MENU1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root04/raw/MQ-MENU1.ANS
-# Source Revision: archive-sha256:8dec1aa0e303d37205499818eaff4458ebf93774cd973f016deaae45658df6b3
-# Source SHA-256: c4009a2959383778d1164d1465074a89bfc76aa7d7c0396c9cd23ace62066594
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MQ-MENU1.ANS by Moleql (Root); released in root04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: de menuset
-# SAUCE Author: Moleql
-# SAUCE Group: Root
-# SAUCE Date: 19970518
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: de menuset by Moleql | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root04-mq-menu1
 
 Write-Host '
 [1;30m▄▄▄▀▀[0m [1;30m███▓▓▓▓██████▓▓█▓█▀  [0m  [1;30m▀[0m [1;30m▀▀▀▀▀▀[0m [1;30m [0m    [1;30m▀▀[0m [1;30m▀[0m    [1;30m▓▓▒██▄▄▄[0m  [1;30m▄▓▒▀[0m    [1;30m█▓▄▓█▀▄█▓▒░[0m

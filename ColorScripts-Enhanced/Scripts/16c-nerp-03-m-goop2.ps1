@@ -1,18 +1,4 @@
-﻿# Converted from: M-GOOP2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-03/raw/M-GOOP2.ANS
-# Source Revision: archive-sha256:9ea26ff16b2d0162532c602fba75b69e539d71620a3b4e34b796de886326619c
-# Source SHA-256: 94acc840f852d144e27cacb2624601750807a1243ce487072253ee1e926b14a6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M-GOOP2.ANS by milkmang (nerp); released in nerp-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Goop deux
-# SAUCE Author: milkmang
-# SAUCE Group: nerp
-# SAUCE Date: 19971224
-# SAUCE Dimensions: 80x24
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Goop deux by milkmang | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-03-m-goop2
 
 Write-Host '
 [1m[0m[1m[0m[1m[0m                                 [31m ▓▓█▄ ███▓░[0m   [31m░▓██████▓░[0m

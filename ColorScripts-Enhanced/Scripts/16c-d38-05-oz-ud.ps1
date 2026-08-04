@@ -1,18 +1,4 @@
-﻿# Converted from: OZ#UD!#.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-05/raw/OZ%23UD!%23.ANS
-# Source Revision: archive-sha256:eb0948671797309554c3545cf502cce8943191f153468011a76cca894133dc0a
-# Source SHA-256: 122924cb838ad2d172da9e2c25b5fe4eab0d6a5df59516a6fd6547791af11029
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OZ#UD!#.ANS by oOze (Department 38); released in d38-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Underwherld Dreamhz
-# SAUCE Author: oOze
-# SAUCE Group: Department 38
-# SAUCE Date: 19970312
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Underwherld Dreamhz by oOze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-05-oz-ud
 
 Write-Host '
                           [32mU[0;1;37m  [0;32mN[0;1;37m  [0;1;32mD[0;1;37m  [0;1;32mE[0;1;37m  [0;1;32mR[0;1;37m  [0;1;32mW[0;1;37m  [0;1;32mO[0;1;37m  R  L  D[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: pg_sk8_2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2021a/raw/pg_sk8_2.ans
-# Source Revision: archive-sha256:2734d01c4060a91ea3bc9a9c95c82ba6b6cc9bc9ae9d2bb629ec4f9af0f5a67a
-# Source SHA-256: 36957b472d046a17fbcaa64f065e7e8a1560ddc059d9f8d36ce342fcc0e5b5ff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: pg_sk8_2.ans by Anonymous (blndr2021a); released in blndr2021a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: Anonymous
-# SAUCE Date: 20210121
-# SAUCE Dimensions: 80x90
-# SAUCE Font: IBM VGA
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: pg_sk8_2.ans by Anonymous | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2021a-pg-sk8-2-part01
 
 Write-Host '
 [1;30m▀▀█▀▀█░[0m [1;30m█▀▀█▀▀█▀▀█▀▀█▀▀█▀▀█▀▀█▀▀█▀▀█▀▀█▀▀█▀▀█░[0m [1;36;46m░[0m  [1;30m█▀▀█▀▀█▀▀█▀▀█▀▀█▀▀█▀▀█▀▀█▀▀█[0m [1;30m░[0m

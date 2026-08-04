@@ -1,18 +1,4 @@
-﻿# Converted from: CG-HG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-02/raw/CG-HG.ANS
-# Source Revision: archive-sha256:bb8ce420598b36a52d4f9cba3bdfbad44af088efeb11a778f52d121622116149
-# Source SHA-256: 08e07ebba7ef9fba500fdc68a2c0e78b08b1ab54fd342cbeed1b4f2689b36578
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-HG.ANS by Cryogenic (Hieroglyphics); released in hiero-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Hieroglyphics
-# SAUCE Author: Cryogenic
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20000828
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Hieroglyphics by Cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-02-cg-hg
 
 Write-Host '
                           [1m     [0m        ▄      ▄▄▄

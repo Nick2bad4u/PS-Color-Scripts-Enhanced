@@ -1,19 +1,4 @@
-﻿# Converted from: WZ - Zodiac Virgo.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_darker_image_2/raw/WZ%20-%20Zodiac%20Virgo.ans
-# Source Revision: archive-sha256:7282b405cc52219ce7cf6cd9d097796f1b25fc898e4c29fdb9f37c375d595996
-# Source SHA-256: bd9e4a74b771b5f3fb562155ea3b11cdc84c0d48a8dddb981af3ddeefb18cd96
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WZ - Zodiac Virgo.ans by Whazzit (Blocktronics); released in blocktronics_darker_image_2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Virgo
-# SAUCE Author: Whazzit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20170525
-# SAUCE Dimensions: 120x80
-# SAUCE Font: IBM VGA
-# Lines: 42-80
-# Columns: 1-120
+﻿# Artwork: Virgo by Whazzit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-darker-image-2-wz-zodiac-virgo-part02
 
 Write-Host '
              [1;33m▄[0m     [44m▄█▄ [0;1;33;44m       [0;34m██[0;34;44m█[0;1;30;44m [0;34m█[0;37;44m██[0;1;33;44m▀▄ [0;30;44m [0;35;44m [0;1;33;44m▀[0;34;44m████████[0;36;44m    [0;37;44m█[0;34;44m█[0;34;40m█[0;34;44m███[0;35;44m  [0;34;44m███[0;37;44m ▀▀ ▀▀▀▀▀[0;35;44m▀[0;35;47m▀▀[0;37;44m▄▀[0;35;44m▄[0;34;40m█[0;37;44m▀██▄▀████▀ ██████████[0;1;34;47m▄[0;1;34;44m▀[0;1;30;44m   [0;34m███▀[0m

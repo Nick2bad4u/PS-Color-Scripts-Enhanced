@@ -1,18 +1,4 @@
-﻿# Converted from: MI-LILGO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0497/raw/MI-LILGO.ANS
-# Source Revision: archive-sha256:6310c9227506d6d2a21aaf62decb0dd3510e5ffb455efa377e329a37d758ea8f
-# Source SHA-256: 9dd0c2b350f7f1a7e231bf3d7efb874c647e23514716c1cdb174bb257b3f2758
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MI-LILGO.ANS by Mongi (Opium Graphix); released in opx-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Lithium
-# SAUCE Author: Mongi
-# SAUCE Group: Opium Graphix
-# SAUCE Date: 19970326
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Lithium by Mongi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0497-mi-lilgo
 
 Write-Host '
      [31;43m████[0;31;40m▌[0;33;40m [0m                    [31;43m██[0;37;40m [0;31;43m█[0m           [31;40m▄▄▄[0m     [31;40m▄[0;31;43m██[0;31;40m▄[0m

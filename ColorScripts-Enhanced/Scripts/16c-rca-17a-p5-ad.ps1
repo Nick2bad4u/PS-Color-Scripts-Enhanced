@@ -1,18 +1,4 @@
-﻿# Converted from: P5-AD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-17a/raw/P5-AD.ANS
-# Source Revision: archive-sha256:48f4edf0151e9ab7fcc03c92751eee7c707c5fac397a0d4c55a2d7e47ad1e75a
-# Source SHA-256: 85e52dbb5b4001a63be995d7fa0d98f89f8a4f00bec6f88445d7e535149d2e65
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P5-AD.ANS by prosthesis (rca-17a); released in rca-17a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ancient dynasty
-# SAUCE Author: prosthesis
-# SAUCE Group: -
-# SAUCE Date: 19970201
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: ancient dynasty by prosthesis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-17a-p5-ad
 
 Write-Host '
 

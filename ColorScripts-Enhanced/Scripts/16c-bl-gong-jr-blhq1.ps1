@@ -1,18 +1,4 @@
-﻿# Converted from: JR_BLHQ1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl-gong/raw/JR_BLHQ1.ANS
-# Source Revision: archive-sha256:c90e04c94a395e53e928512945d220d1fff4c215b177bbe4ea888b6b9ab8350e
-# Source SHA-256: 5f52d38b35d76b63625c2437641e7dd0446bb01d8a76ed94e035739c79eb5c86
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_BLHQ1.ANS by jerusalem (boil); released in bl-gong and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: boil-whq
-# SAUCE Author: jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19970404
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: boil-whq by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-gong-jr-blhq1
 
 Write-Host '
 [34m█[0;1;34;44m▄▄▄▄▄▄▄[0;35;44m░[0;1;34;44m▄▄▄▄▄▓▓▄▄▄▄▄▄▄▄▄▄[0;34m███[0;30;44m▄■[0;1;34;44m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;34m█▓▓▓▓░░░[0m   [1;30m▄██[0;1;37;47m [0;35;47m░[0;37;40m▒▒▒▓█▓▓██[0;1;37;47m░░░░░░▓▓▓▓[0m

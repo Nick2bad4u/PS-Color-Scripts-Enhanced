@@ -1,19 +1,4 @@
-﻿# Converted from: us-Jessica911.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz15/raw/us-Jessica911.ans
-# Source Revision: archive-sha256:d35f5b18ac3e8cbe3d6d17eab809a7e050609a8e3cc7d160d14a87c59a191c12
-# Source SHA-256: 170ae92348040edb5e827a3a8eb9951b7e6bcbe1d61b290d1ca576879564ca35
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-Jessica911.ans by Tainted + The Knight (Laz & b7); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 16 sluts Jess
-# SAUCE Author: the knight & tainted
-# SAUCE Group: Laz & b7
-# SAUCE Date: 20220531
-# SAUCE Dimensions: 80x145
-# SAUCE Font: IBM VGA
-# Lines: 49-97
-# Columns: 1-80
+﻿# Artwork: 16 sluts Jess by Tainted + The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz15-us-jessica911-part02
 
 Write-Host '
 ██████████████████████████▒[34m [0m         [33m█ [0;1;30;43m▓[0;43m░[0;1;31;43m░░▒[0;1;31;47m▓▓▓████[0;1;31;43m▄▄[0;33m▄[0;1;31m▀[0;1;31;43m▒▒[0;1;31;40m▀[0;33m▄[0;1;31;43m▄█[0;1;31;47m███▓▓▓▓█[0;1;31;43m█▓▒▒[0;1;33;43m░[0;1;30;40m░[0;33m ▐▌[0m

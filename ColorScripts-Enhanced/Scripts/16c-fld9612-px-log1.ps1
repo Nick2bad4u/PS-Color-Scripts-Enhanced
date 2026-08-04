@@ -1,18 +1,4 @@
-﻿# Converted from: PX~LOG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fld9612/raw/PX~LOG1.ANS
-# Source Revision: archive-sha256:398e960abe90b9818bfc3a6f74dd54965f44f4021cfa626535308061d6595a9e
-# Source SHA-256: cfeda3bdf04465ad9b2797ab81d99f6272b6826571277aeab06b32f61c297385
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PX~LOG1.ANS by perplexer (fluid); released in fld9612 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: logoff matrix
-# SAUCE Author: perplexer
-# SAUCE Group: fluid
-# SAUCE Date: 19800606
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: logoff matrix by perplexer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fld9612-px-log1
 
 Write-Host '
                                   [33m░[0m

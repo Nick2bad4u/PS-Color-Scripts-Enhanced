@@ -1,18 +1,4 @@
-﻿# Converted from: US-ART.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-16/raw/US-ART.ANS
-# Source Revision: archive-sha256:b44675c14d0a6b8706358886e9a05961468006b6ae7257eede82583c6468b7b5
-# Source SHA-256: 9e93cbccf04dbf369094f791f8bd137fd228113743d73bcb456bcba0ac6a930b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ART.ANS by Retribution + Filth (glue!@); released in glue-16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: gutter articles
-# SAUCE Author: ret/filth
-# SAUCE Group: glue!@
-# SAUCE Date: 19981130
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: gutter articles by Retribution + Filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-16-us-art
 
 Write-Host '
 [1;32m███████[0;1;32;42m▓█▒▓▒▒░▒▒░▒▒░░[0;32m███████████[0;30;42m [0;32;40m██▓▓▓▓▓██████████[0;1;32;42m░▒[0;32m▌[0;31m▓▀▀[0;37m [0;32m▄[0;1;32m▄▄[0m [31m▓▀▀[0;1;37m ▄▄[0m▄[1m▄[0m▄[1m [0;31m▀▀████▓▓▓[0m

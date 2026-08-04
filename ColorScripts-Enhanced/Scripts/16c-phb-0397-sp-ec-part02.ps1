@@ -1,18 +1,4 @@
-﻿# Converted from: SP-EC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phb-0397/raw/SP-EC.ANS
-# Source Revision: archive-sha256:d18868f8faf7726799689b37fb1a0005133cfca83163c8b652f242ae3ef3a67d
-# Source SHA-256: a95b0669ffcde99d0ac5b098b3fb1f82909e2af4065503d3698a95749e518490
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SP-EC.ANS by splash (phobia); released in phb-0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: xmas jack
-# SAUCE Author: splash
-# SAUCE Group: phobia
-# SAUCE Date: 19970301
-# SAUCE Dimensions: 80x58
-# Lines: 31-58
-# Columns: 1-80
+﻿# Artwork: xmas jack by splash | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phb-0397-sp-ec-part02
 
 Write-Host '
 [1;30;46m▀  [0;36m▌[0;1;31m▐[0;33m█[0;1;31;43m░▒▒█[0;1;31;40m█▄[0m                            [1;31m░▒[0m [31m▒▄  ░[0;37m  [0;31m░[0;37m [0;31m░[0m    [1;31m▀▀[0;33m▀▀▀[0;1;31;43m░░▒  ░▒▒▓▓▒[0;33m▄[0;1;31;43m░ [0;33m▌[0;1;31;43m▐[0;33m [0;36m█[0m

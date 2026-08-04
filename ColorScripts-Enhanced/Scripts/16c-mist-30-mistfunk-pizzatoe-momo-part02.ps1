@@ -1,19 +1,4 @@
-﻿# Converted from: MISTFUNK-PIZZATOE-MOMO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/MISTFUNK-PIZZATOE-MOMO.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: b6a26a19b6c51e8236f94949632a2b249fb51ef173a86280ee9553fd84e87cc5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MISTFUNK-PIZZATOE-MOMO.ANS by Momo + Consolejockey (Pizzatoe); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Mistfunk logo
-# SAUCE Author: Momo / CJ
-# SAUCE Group: Pizzatoe
-# SAUCE Date: 20241229
-# SAUCE Dimensions: 80x90
-# SAUCE Font: IBM VGA
-# Lines: 51-90
-# Columns: 1-80
+﻿# Artwork: Mistfunk logo by Momo + Consolejockey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-mistfunk-pizzatoe-momo-part02
 
 Write-Host '
 [37m                            [0;1;36;44m▓▓[0;1;34;40m███[0;1;34;47m▓▓[0;33m█[0;1;33m███[0m [1;33m███████████[0m [1;33;41m▓▓▒▒[0;1;31;46m▒▒▒▒▒[0;33m█[0;37m [0;1;34;47m▓▓▒▒▒▒▒▒▒[0;1;34;40m█[0;32m█[0m

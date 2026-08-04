@@ -1,17 +1,4 @@
-﻿# Converted from: US-DT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_09/raw/US-DT.ANS
-# Source Revision: archive-sha256:c5cd33a328263069da0cd19f0b3fe2e4d6f041d2250819ad0b16ea4737718456
-# Source SHA-256: e78cc36e37ea13d50cf71073760c124f9e0bb186bdcf7224a49624d3f5ff96da
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DT.ANS by Flood + Lord Soul Trader (ACiD Productions); released in dox_09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: death!trap matrix
-# SAUCE Author: Multiple Artists
-# SAUCE Group: ACiD Productions
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: death!trap matrix by Flood + Lord Soul Trader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-09-us-dt
 
 Write-Host '
               [34m░[0;30;44m▓[0;34;40m░[0;30;44m▓[0;34;40m░[0;30;44m▓▓[0;34;40m░[0;30;44m▓▓[0;34;40m░[0;30;44m▓[0;34;40m▄▄▄▄[0;1;34;40m▄[0m  [34m▄[0;1;34m▄[0m  [34m▄[0m              [34m░[0;30;44m▓[0;34;40m░[0;30;44m▓▓[0;34;40m░[0;30;44m▓[0;34;40m ░[0;30;44m▓[0;34;40m░[0;30;44m▓▓[0m

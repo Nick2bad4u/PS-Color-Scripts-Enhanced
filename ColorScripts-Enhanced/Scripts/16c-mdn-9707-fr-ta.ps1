@@ -1,18 +1,4 @@
-﻿# Converted from: FR-TA!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9707/raw/FR-TA!.ANS
-# Source Revision: archive-sha256:bfcb83c6d9eb9beac4e313e6cb4a06c0bdcb3b894eaa2b7afbdde4d6e5181bec
-# Source SHA-256: e62ebe0bd4a1195065efa0542b6fa3f65e22debbb8e1e4870d9911de4e3594cb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FR-TA!.ANS by feaRprOphet (csf/mdn/aif); released in mdn-9707 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the asyllun Logo
-# SAUCE Author: feaRprOphet
-# SAUCE Group: csf/mdn/aif
-# SAUCE Date: 19970407
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: the asyllun Logo by feaRprOphet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9707-fr-ta
 
 Write-Host '
 

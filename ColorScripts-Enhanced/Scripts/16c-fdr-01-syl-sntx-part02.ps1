@@ -1,18 +1,4 @@
-﻿# Converted from: SYL-SNTX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fdr-01/raw/SYL-SNTX.ANS
-# Source Revision: archive-sha256:9413b8317ae532a8321557d5d3d1cb08aadb3372c739437bc2fde54e7706a363
-# Source SHA-256: 337422a2b6903c78a9ac654597c576b3374e6844ef68dd15b9549cce61b5c602
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SYL-SNTX.ANS by Sylvao (Fire Dream); released in fdr-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Syntax 2012
-# SAUCE Author: Sylvao
-# SAUCE Group: Fire Dream
-# SAUCE Date: 20121113
-# SAUCE Dimensions: 80x94
-# Lines: 49-94
-# Columns: 1-80
+﻿# Artwork: Syntax 2012 by Sylvao | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fdr-01-syl-sntx-part02
 
 Write-Host '
 [1;32;42m░░▒░    [0;32m█▀▄▄▄█▀ [0;1;33m▄█▄ [0;32m▀███[0;1;32;42m  ░▒▓▒░ [0;32m████▀▄███▄[0;37m [0;34m ▒▒▒▒▒▒▒▒▒▀[0;37m [0;31m▄▄▄[0;37m [0;34m▒[0;31m ▄▄▄[0;37m [0;34m▀▒▒▒▒▒▒▒▀▀▀[0;37m [0;32m▄▄▄[0m

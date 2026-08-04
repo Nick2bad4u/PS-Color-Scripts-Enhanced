@@ -1,13 +1,4 @@
-﻿# Converted from: DS-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tsd1/raw/DS-FIRE.ANS
-# Source Revision: archive-sha256:46fcc0cabd317411058a341a12c1c12a208f3a319890bc1d8d832fa869d914c4
-# Source SHA-256: ce93f7d0d12bd81a1e5202d3e07141a81f2e6a077d4f8da5a46f8e17b48447a5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-FIRE.ANS by Dr Suess (tsd1); released in tsd1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: DS-FIRE.ANS by Dr Suess | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tsd1-ds-fire
 
 Write-Host '
 

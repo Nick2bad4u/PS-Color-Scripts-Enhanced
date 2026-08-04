@@ -1,13 +1,4 @@
-﻿# Converted from: US-FL1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9611a/raw/US-FL1.ICE
-# Source Revision: archive-sha256:527ee850f561609baab7365c9f9f22dc966a04822d3f266d09600ed8b3eefb84
-# Source SHA-256: c97372e3be7b6ea0267c335bc94564e74eb23c519f06beb09384c03f247c0e5d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FL1.ICE by Cold And Ugly + Spear (ice9611a); released in ice9611a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: US-FL1.ICE by Cold And Ugly + Spear | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9611a-us-fl1
 
 Write-Host '
  [31m  [0;33m▓▓▀▀███████▄  [0;31m▀▄[0;37m [0;31m▀▀▄▐███████▄▀█[0m

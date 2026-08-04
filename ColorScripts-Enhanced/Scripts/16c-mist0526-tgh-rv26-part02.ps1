@@ -1,20 +1,4 @@
-﻿# Converted from: TGH-RV26.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0526/raw/TGH-RV26.ANS
-# Source Revision: archive-sha256:96e9c14a0862fcfb7b203f3d94f85e28654461fdbf12521de185a12d5fb418bb
-# Source SHA-256: c438f63acd7ad3493e1b3102bff93161a92c338c28e9040f29393609ba5cce3d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TGH-RV26.ANS by The Green Herring (Mistigris); released in mist0526 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Greetings, Earthlings!
-# SAUCE Author: The Green Herring
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260403
-# SAUCE Dimensions: 80x100
-# SAUCE Font: IBM VGA
-# SAUCE Comments: ANSI entry for ASCII/ANSI/PETSCII Compo at Revision 2026.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Greetings, Earthlings! by The Green Herring | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0526-tgh-rv26-part02
 
 Write-Host '
 [32m▓▒██▒▒▒░▒█░[0;37m [0;1;36m██[0;1;36;46m▌[0;1;36;40m▐█[0;1;36;46m▌[0m     [36m█▄[0;37m [0;31m▄[0;37m   [0;31m▄[0;37m  [0;36m▄[0;1;36m▄▄▀[0m  [32m░[0;37m [0;32m░▒░▒░█▒▒░▒▒▓▒░░░▒░▒▒▒▒▓▓▒▒▓▒██▒░░░░░░▒░[0m

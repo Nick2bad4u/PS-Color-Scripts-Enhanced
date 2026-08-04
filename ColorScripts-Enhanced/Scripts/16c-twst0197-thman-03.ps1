@@ -1,18 +1,4 @@
-﻿# Converted from: THMAN-03.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst0197/raw/THMAN-03.ANS
-# Source Revision: archive-sha256:ae2e28b8586d130270e3228e244431c192402b6d4f91b568fcc66095460d75be
-# Source SHA-256: 4b64308df1df1418d72bd405bed2e826315aeeb928d2b77e9c664ad8d4fcd4c6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: THMAN-03.ANS by The Man (Twisted); released in twst0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Majick Mushrooms
-# SAUCE Author: The Man
-# SAUCE Group: Twisted
-# SAUCE Date: 19961226
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: Majick Mushrooms by The Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst0197-thman-03
 
 Write-Host '
 [1;30m---[[0m hull0? can i help you? [1;30m]---------------------------------------------------[0m

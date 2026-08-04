@@ -1,13 +1,4 @@
-﻿# Converted from: PD-TSS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phar0796/raw/PD-TSS2.ANS
-# Source Revision: archive-sha256:0bbb57a5611ace6464dcbff61380889167ded23847139e255a2f0848c50f7473
-# Source SHA-256: 526ceddfdeb7b434db05331adca8570b85bf166c8c8e258298d122abb3388a8d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PD-TSS2.ANS by Pd (phar0796); released in phar0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: PD-TSS2.ANS by Pd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phar0796-pd-tss2
 
 Write-Host '
 

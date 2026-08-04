@@ -1,13 +1,4 @@
-﻿# Converted from: avg-aid.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_resvolution/raw/avg-aid.ans
-# Source Revision: archive-sha256:d0690af9ec91bf96f335196e9f9ddfb5d7ea02d97d300b53301bebaf58d83c35
-# Source SHA-256: fa91d87c0d13938f31dc04cb2d030682970ac75d3dcb4b3aacfe81fa3ff0887e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-aid.ans by Avenging Angel (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 77-113
-# Columns: 1-80
+﻿# Artwork: avg-aid.ans by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-resvolution-avg-aid-part03
 
 Write-Host '
 [33m    [0;37m    [0;1;31m▄[0;1;31;43m█████████ [0m      [33m▄█[0;1;31m▀▀▀▀▀[0;33m▀▄▄▄██▌ [0;1;31m▄[0;1;31;43m▄[0;33m [0;1;31;43m███[0;33m█[0;1;31;43m▄███▀[0;31m [0;33m  ▀ ▄ [0;1;34m▀██████▐███▀▀[0m

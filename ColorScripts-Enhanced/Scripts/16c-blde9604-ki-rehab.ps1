@@ -1,18 +1,4 @@
-﻿# Converted from: KI-REHAB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9604/raw/KI-REHAB.ANS
-# Source Revision: archive-sha256:c9d341fbab42005be8369b5b74c082e1beaf2773cdcff315b890579fc5c3d129
-# Source SHA-256: d6137aac23de519f3813d52afcaceeae1ca383262a6a051d76dcc3583ed0b9ee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KI-REHAB.ANS by kiwi (blade productions); released in blde9604 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: rehab!
-# SAUCE Author: kiwi
-# SAUCE Group: blade productions
-# SAUCE Date: 19960310
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: rehab! by kiwi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9604-ki-rehab
 
 Write-Host '
                                   ▄▄[1;36;47m▄▓[0;36;47m▒[0;36;40m [0m                                   [1;30;40m  [0m

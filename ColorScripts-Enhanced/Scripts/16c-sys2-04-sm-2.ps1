@@ -1,13 +1,4 @@
-﻿# Converted from: sm-2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sys2_04/raw/sm-2.ans
-# Source Revision: archive-sha256:e0a121a9a9dfa21401cfdd06cbec5a8ecc05454c68a9bb59792be80b08d37bcc
-# Source SHA-256: 37f0713ff7c2ce7b4938a9195774791a2109e74ff5a5dbe241123bdea3c6fc2f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sm-2.ans by Smoke (sys2_04); released in sys2_04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: sm-2.ans by Smoke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sys2-04-sm-2
 
 Write-Host '
                             [1;30m▄▄▄▄▄▄[0m

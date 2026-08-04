@@ -1,18 +1,4 @@
-﻿# Converted from: VC!LOGOS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bm9-0796/raw/VC!LOGOS.ANS
-# Source Revision: archive-sha256:d47d05b28420594f05f00658e00b1f3ab4cdbebb1e89c0fe0f1e7938e6e8f937
-# Source SHA-256: 5177dfd454ab43ac8cb6cf53f3de7522dc95a709a3016859b638f07500dbbd3f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VC!LOGOS.ANS by VOiCE (BLACK MAiDEN); released in bm9-0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Logo Cluster
-# SAUCE Author: VOiCE
-# SAUCE Group: BLACK MAiDEN
-# SAUCE Date: 19960707
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Logo Cluster by VOiCE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bm9-0796-vc-logos
 
 Write-Host '
                       V O i C E '' S   L O G O C L U S T E R

@@ -1,13 +1,4 @@
-﻿# Converted from: GTIDMS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0998b/raw/GTIDMS2.ANS
-# Source Revision: archive-sha256:19c53dfc47387efbbd82613dca5be9c93436f5cc68bae78cca35e6d1a766cbaa
-# Source SHA-256: d9f654af91a01a2fdbd323393e7b1aa88968935f9baab47931dd3fb64112c14e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GTIDMS2.ANS by Gti (sac0998b); released in sac0998b and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: GTIDMS2.ANS by Gti | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0998b-gtidms2
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: PT-SHELT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fi-0895/raw/PT-SHELT.ANS
-# Source Revision: archive-sha256:fe09be974663f65f909dd0f613d2ffca3ed1b27526c4ad819b16fc7ea918064a
-# Source SHA-256: 772904676b59b50160119b7fa6971243562c8088173ba71820ea007c889d15d3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PT-SHELT.ANS by Prime Time (fi-0895); released in fi-0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: PT-SHELT.ANS by Prime Time | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fi-0895-pt-shelt-part01
 
 Write-Host '
 

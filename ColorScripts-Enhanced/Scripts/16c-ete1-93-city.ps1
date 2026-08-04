@@ -1,13 +1,4 @@
-﻿# Converted from: CITY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ete1-93/raw/CITY.ANS
-# Source Revision: archive-sha256:9bd355aeb4b2f27e4ea15cae457f81df5ba19e5ff3b12a289a6946d32240a289
-# Source SHA-256: e64839fcd00d26e2b2bc5fccc02a94472a05795c45b58004928c1307226f2393
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CITY.ANS by Maestro (ete1-93); released in ete1-93 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: CITY.ANS by Maestro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ete1-93-city
 
 Write-Host '
 

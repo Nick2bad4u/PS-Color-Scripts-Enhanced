@@ -1,18 +1,4 @@
-﻿# Converted from: VD-AW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rage0896/raw/VD-AW.ANS
-# Source Revision: archive-sha256:e67cf9c4e2c6eb15648a3739a157b7ef37dad009189f0c35f257941ec580c4a8
-# Source SHA-256: ab7da2de7cf82a5ef3ab5f41302e6e64f2fd2b4fc086f562fbda167dcdacbdae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VD-AW.ANS by vIGod (RAGE ARTS); released in rage0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: my dragon/dog
-# SAUCE Author: vIGod
-# SAUCE Group: RAGE ARTS
-# SAUCE Date: 19960803
-# SAUCE Dimensions: 80x48
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: my dragon/dog by vIGod | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rage0896-vd-aw
 
 Write-Host '
 [1;30m█████▓██ ▄[0;1;30;47m▓░[0;1;37;40m▀[0m▀■ [1;30m▀████████▓████▄▄[0m [1;30m [0m [1;30m▄▄███▓███▀[0m [1;30m▄[0;1;30;47m▓[0;1;30;40m▄▄[0m [1m▀▀[0m█▄[1m [0;1;30m███████▓███████████████ [0m

@@ -1,17 +1,4 @@
-﻿# Converted from: ko-scent.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook19/raw/ko-scent.ans
-# Source Revision: archive-sha256:3dd762b50e992d041fc40857f6a08666cf879c80169b27b714b162069a52b736
-# Source SHA-256: e695200cb6203c6debbdda773d136ad9844d82d6cb0c30b9558598ce1301956a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ko-scent.ans by konami (black maiden); released in bmbook19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: scent
-# SAUCE Author: konami
-# SAUCE Group: black maiden
-# SAUCE Dimensions: 80x25
-# Lines: 36-70
-# Columns: 1-80
+﻿# Artwork: scent by konami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook19-ko-scent-part02
 
 Write-Host '
             [1;37m▓█[0;1;33m█▄█▒░[0m [33m░[0;30;43m▓[0;33;40m░[0;30;43m▓[0;34;40m▀[0;1;34;40m▀[0;1;34;44m▀[0;1;34;46m▀▀[0;1;34;40m█[0;1;34;44m▄▄▄▄[0;1;34;45m▄▄[0;1;34;46m██▓ [0;1;36;46m░░[0;1;34;46m  [0;32;46m▌[0;1;34;46m   [0;1;36;46m░▓▓▒[0;1;36;40m▓[0;1;34;46m▓[0;1;34;44m█[0;1;34;40m██[0;1;34;44m▄[0;1;34;46m▀▀▀[0;1;34;40m█[0;1;34;44m▄▄   [0;34m███▓[0m

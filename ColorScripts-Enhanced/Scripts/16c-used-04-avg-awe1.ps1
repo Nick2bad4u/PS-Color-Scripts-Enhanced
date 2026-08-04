@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-AWE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-04/raw/AVG-AWE1.ANS
-# Source Revision: archive-sha256:1dcdf112160ec589150680778cd449e8af485dfba89bb104c44cd133db2d6fc0
-# Source SHA-256: 2b83f121e4b4c15100895ec141cd6a487d4fa783c01e00b78c13d512401c2913
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-AWE1.ANS by the avenging angel (the used coalition); released in used-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: awe promo ;)
-# SAUCE Author: the avenging angel
-# SAUCE Group: the used coalition
-# SAUCE Date: 20000401
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: awe promo ;) by the avenging angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-04-avg-awe1
 
 Write-Host '
 [1m[0m[1m[0m         [34m▄[0;1;34m▄▄▄[0;34m▄[0;37m   [0m            [34m▄[0;1;34m▄▄[0;34m▄[0m        [37m   [0m                 [34m▄[0;1;34m▄▄▄[0;34m▄[0m

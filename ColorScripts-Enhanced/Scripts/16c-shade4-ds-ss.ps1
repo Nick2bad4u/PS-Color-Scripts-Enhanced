@@ -1,18 +1,4 @@
-﻿# Converted from: DS-SS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shade4/raw/DS-SS.ANS
-# Source Revision: archive-sha256:6b7a953f596b358a2cd1f5c933016195d864a171d6f90a58fdca9afcdc39eeb9
-# Source SHA-256: d8394e70050b2110d896e6a343e5f309f423f5d407a8960439d182d4e533b8e9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-SS.ANS by dfuse (shade); released in shade4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: special souce
-# SAUCE Author: dfuse
-# SAUCE Group: shade
-# SAUCE Date: 19960102
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: special souce by dfuse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shade4-ds-ss
 
 Write-Host '
   [1;30m▐[0m░░░░░[1;30;47m██████[0;1;30;40m  ▄[0;1;30;47m▀  ▀[0;1;30;40m▐▀▀█████▄█████ ▐███████ ████████[0;1;30;47m▓▓[0;1;30;40m████████▄[0;33m  [0;1;30;47m██████[0m░░░░[1;30m▌[0;1;32m [0m

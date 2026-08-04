@@ -1,13 +1,4 @@
-﻿# Converted from: TR-APOC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hav-0494/raw/TR-APOC.ANS
-# Source Revision: archive-sha256:53b5898ccae98ae1e97e126434ace9ad66f2dc2a81e8f951d3a5412002959583
-# Source SHA-256: 2e910056a441c3c7ec4f9c783a5dc584de269574c9f6e22656936dec82c9c8fc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-APOC.ANS by The Replicant (hav-0494); released in hav-0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: TR-APOC.ANS by The Replicant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hav-0494-tr-apoc-part01
 
 Write-Host '
       [34m▄▄▄▄▄▄[0m

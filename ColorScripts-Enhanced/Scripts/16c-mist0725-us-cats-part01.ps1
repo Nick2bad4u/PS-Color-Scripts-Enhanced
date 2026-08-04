@@ -1,19 +1,4 @@
-﻿# Converted from: US-CATS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0725/raw/US-CATS.ANS
-# Source Revision: archive-sha256:f8228caade9b0e4810405349f1959bd68f07890aea1a0d6aaa1eef2a322b5f21
-# Source SHA-256: bdf44d7009facf3e5591ce0453e8bbca64b70d3a5d0a647360a90684bf5cb642
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CATS.ANS by Moth + LDA + Zeus Ii (Mistigris); released in mist0725 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Cats!
-# SAUCE Author: Moth, Zeus II, LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20250731
-# SAUCE Dimensions: 80x88
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Cats! by Moth + LDA + Zeus Ii | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0725-us-cats-part01
 
 Write-Host '
        [34m▄[0m

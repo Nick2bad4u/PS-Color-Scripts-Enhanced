@@ -1,18 +1,4 @@
-﻿# Converted from: K1-NIHAO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus04/raw/K1-NIHAO.ANS
-# Source Revision: archive-sha256:4a57ed6764f9ffca39ae941548ed0ed0ba98ce6594de23a7788152f10b7f60a4
-# Source SHA-256: 746ffac5b10adf1dfbdce0e20af3b11f439309f4feb248c75fa4be3d5f801c5d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K1-NIHAO.ANS by Knocturnal (Fokus fonting); released in fokus04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Nihao
-# SAUCE Author: Knocturnal
-# SAUCE Group: Fokus fonting
-# SAUCE Date: 19990531
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Nihao by Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus04-k1-nihao
 
 Write-Host '
                                           [1m  [0m

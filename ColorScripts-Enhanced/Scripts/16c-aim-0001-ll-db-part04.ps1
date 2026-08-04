@@ -1,18 +1,4 @@
-﻿# Converted from: LL-DB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aim-0001/raw/LL-DB.ANS
-# Source Revision: archive-sha256:6558d2cfb6b6f22d37fcefc812400e835cd190461028275b61c3b8d10207124e
-# Source SHA-256: 98a13aa2528f4d835e6e382ab16679779c5d83e833fe605f4bc223d8f280fdf0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LL-DB.ANS by Lord Drakul (AiM); released in aim-0001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Dying Breed
-# SAUCE Author: Lord Drakul
-# SAUCE Group: AiM
-# SAUCE Date: 19940812
-# SAUCE Dimensions: 80x198
-# Lines: 149-197
-# Columns: 1-80
+﻿# Artwork: The Dying Breed by Lord Drakul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aim-0001-ll-db-part04
 
 Write-Host '
         [1;30;43m░[0;33m▌[0m     [1;30;43m░░[0;33m██[0m        [33;43m [0;1;30;43m░░░[0m   [1;30;43m░░░[0;33m█[0m         [1;30;43m░[0;33m▌[0m     [1;30;43m░░  [0m    [1;30;43m░[0;33m▌    ▄[0;1;30;43m░[0;33m▄[0m

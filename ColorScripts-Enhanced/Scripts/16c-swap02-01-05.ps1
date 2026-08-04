@@ -1,13 +1,4 @@
-﻿# Converted from: 01-05.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/swap02/raw/01-05.ans
-# Source Revision: archive-sha256:4d8cb393a00876207f46bb8198f121ecf1515abfe7fa8288241519cd92e6c95e
-# Source SHA-256: e78272a9756d073f6b6a663424c5c64f64d2641809c48a8d8ce4ffffec43856b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 01-05.ans by Swap (swap02); released in swap02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: 01-05.ans by Swap | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-swap02-01-05
 
 Write-Host '
 [1m[0m

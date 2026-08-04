@@ -1,18 +1,4 @@
-﻿# Converted from: STC-LGCY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0995/raw/STC-LGCY.ANS
-# Source Revision: archive-sha256:33564e3b7dba06eac1f1e36dcc176b1f8d29f8167c2e77227197ff7bea5344f2
-# Source SHA-256: 8efa7a2adc746674c0d951573300666d6bedb697f1c37087eb4c7f0404ab9ad7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STC-LGCY.ANS by Stone The Crow + Apox (ACiD Productions); released in acdu0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Legacy
-# SAUCE Author: Stone the Crow
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950901
-# SAUCE Dimensions: 80x130
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: The Legacy by Stone The Crow + Apox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0995-stc-lgcy-part01
 
 Write-Host '
                                                                  [1;30m    [0m

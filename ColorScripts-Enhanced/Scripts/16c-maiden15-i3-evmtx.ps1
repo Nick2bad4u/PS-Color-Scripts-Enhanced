@@ -1,18 +1,4 @@
-﻿# Converted from: I3-EVMTX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden15/raw/I3-EVMTX.ANS
-# Source Revision: archive-sha256:9d31e45f48599318bcc19e5993ceea8ca5caccf3f774679ac18f812be66ff0b5
-# Source SHA-256: df12ee5bb7ecc8ba55962b268579e36dffc47c9efbfa0e71cda2bd3642997756
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: I3-EVMTX.ANS by islayer (maiden); released in maiden15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: evil hole matrix
-# SAUCE Author: islayer
-# SAUCE Group: maiden
-# SAUCE Date: 19980514
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: evil hole matrix by islayer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden15-i3-evmtx
 
 Write-Host '
 [35m [0;1;35m▌[0m        [35m▐[0;1;35m▀[0;35m▀████[0;1;37;45m░░[0;1;35;45m░[0;35m▐██████▀[0;1;35;45m▀[0;1;37;40m▄[0m           ▐▄[1;30m▄▄▄[0m    [1mislayer[0mmaidenbrazil     [1;30m [0m░░

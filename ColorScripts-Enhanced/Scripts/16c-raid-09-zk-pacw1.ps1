@@ -1,13 +1,4 @@
-﻿# Converted from: ZK-PACW1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/raid-09/raw/ZK-PACW1.ANS
-# Source Revision: archive-sha256:81f68e66bab75dc4357c09aced6a4083959f7cfc0ac10f0c0eb6313fa5d2b13e
-# Source SHA-256: 9ee373541d2e19e8fd2ce4f9280ff1cbcac7cdd54fdef8a23cf208d061e76302
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZK-PACW1.ANS by Zulu King (raid-09); released in raid-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: ZK-PACW1.ANS by Zulu King | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-raid-09-zk-pacw1
 
 Write-Host '
                         [33m▄▄▄▄███▄ [0;1;30m░░[0m     [33m▄██▄[0m

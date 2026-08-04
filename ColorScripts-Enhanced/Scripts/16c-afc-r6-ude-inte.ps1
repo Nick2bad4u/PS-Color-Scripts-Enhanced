@@ -1,13 +1,4 @@
-﻿# Converted from: UDE-INTE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r6/raw/UDE-INTE.ANS
-# Source Revision: raw-sha256:07c6b7776e538c7a1207263f2b831ea42de0684a9dd14d8bd7ba8cd657c075a4
-# Source SHA-256: 07c6b7776e538c7a1207263f2b831ea42de0684a9dd14d8bd7ba8cd657c075a4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UDE-INTE.ANS by Ude (afc-r6); released in afc-r6 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: UDE-INTE.ANS by Ude | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r6-ude-inte
 
 Write-Host '
                      [1;33m▄▄▄[0m

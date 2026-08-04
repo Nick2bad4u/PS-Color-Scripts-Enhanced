@@ -1,13 +1,4 @@
-﻿# Converted from: ko-aphid.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic37/raw/ko-aphid.ans
-# Source Revision: archive-sha256:0d28aedb8d5d5b6826c950122d7b742a98e4b5cc019bb9166e510fcb07b70457
-# Source SHA-256: e54ca3bc3334c19ef06ebe4d49be6d970b1edf60bfac29f1d3bd19522e827f68
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ko-aphid.ans by Konami (mimic37); released in mimic37 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ko-aphid.ans by Konami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic37-ko-aphid
 
 Write-Host '
         [31m,--, [0m               [31m.[0;37m  [0;31m,d[0m   [31m  l;$$`"²/$$⌐,[0m

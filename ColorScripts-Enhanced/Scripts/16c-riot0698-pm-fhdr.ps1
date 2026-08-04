@@ -1,13 +1,4 @@
-﻿# Converted from: PM-FHDR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot0698/raw/PM-FHDR.ANS
-# Source Revision: archive-sha256:5791ef4f99ff6b8056f353c96cd9d7e824bf90a19b6bfc824c2ed61513d5f9ac
-# Source SHA-256: b85d63e3c4dbc1f0d21f4ae5291f493e11b46c20d7d760095270efe730c0908f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-FHDR.ANS by Precious Metal (riot0698); released in riot0698 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: PM-FHDR.ANS by Precious Metal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot0698-pm-fhdr
 
 Write-Host '
        [35m▄▄███[0;1;31;45m░░[0m▄▄[35m [0;1;35;42m▓[0;1;35;40m ▄[0;1;35;46m▀▀[0;1;35;40m▄[0;1;31;40m ▄▄▄▄[0;1;37;40m [0m           [1m-pM[0m

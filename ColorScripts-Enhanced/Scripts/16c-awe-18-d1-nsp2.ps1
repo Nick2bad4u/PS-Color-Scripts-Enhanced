@@ -1,18 +1,4 @@
-﻿# Converted from: D1_NSP2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-18/raw/D1_NSP2.ANS
-# Source Revision: archive-sha256:3ece06be07a605d790194aecaf4c2aee0d01c3085ca10c10858ed29a4fc054bb
-# Source SHA-256: e0405d10fe5d37fe8edb4de62da88666aed8772a645de135a1f31cf8359b6d62
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D1_NSP2.ANS by Dissonance (AWE Lettering); released in awe-18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Neosporin
-# SAUCE Author: Dissonance
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981004
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Neosporin by Dissonance | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-18-d1-nsp2
 
 Write-Host '
             [31m▄[0m

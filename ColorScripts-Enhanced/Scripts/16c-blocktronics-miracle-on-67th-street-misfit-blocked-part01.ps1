@@ -1,19 +1,4 @@
-﻿# Converted from: misfit-blocked.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_miracle_on_67th_street/raw/misfit-blocked.ans
-# Source Revision: archive-sha256:7a78b3edd176c6d05feb481522f2c4f3e57721df62292c2b4ce537e855c41ae8
-# Source SHA-256: 2a9d2f5b0fef7ede8cbf8683a683fe8f57dd06da93c98bff6107b4a3045c023f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: misfit-blocked.ans by Misfit (Blocktronics); released in blocktronics_miracle_on_67th_street and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Cracked
-# SAUCE Author: Misfit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20181115
-# SAUCE Dimensions: 80x103
-# SAUCE Font: IBM VGA
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: Cracked by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-miracle-on-67th-street-misfit-blocked-part01
 
 Write-Host '
 [1;37;40m████████████████████████████████████████████████████████████████████████████████[0m

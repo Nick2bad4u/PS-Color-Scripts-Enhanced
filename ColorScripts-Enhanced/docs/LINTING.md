@@ -196,7 +196,7 @@ if ($LASTEXITCODE -ne 0) {
 If you don't have PSScriptAnalyzer installed:
 
 ```powershell
-Install-Module -Name PSScriptAnalyzer -Force -SkipPublisherCheck
+Install-Module -Name PSScriptAnalyzer -RequiredVersion 1.25.0 -Force -SkipPublisherCheck
 ```
 
 ## Continuous Improvement

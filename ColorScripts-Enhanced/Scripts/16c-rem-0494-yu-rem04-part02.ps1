@@ -1,13 +1,4 @@
-﻿# Converted from: YU-REM04.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rem-0494/raw/YU-REM04.ANS
-# Source Revision: archive-sha256:697c458783f29a5966a622f5fbe0f909c4a1ea07fae9aaa78195b15807024e5f
-# Source SHA-256: fbb7b9a6cf512b19124318eeeca477e334cc59e7b4822d4335e1447bd86accc1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: YU-REM04.ANS by Yuehwougdade (rem-0494); released in rem-0494 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: YU-REM04.ANS by Yuehwougdade | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rem-0494-yu-rem04-part02
 
 Write-Host '
 ░▒▓████████ █▓▓▒░ █████[1;47m▀█▄[0m▄      [1;30m█[0m         [1;30m▀[0m       ▄[1;47m▄█▀[0m████ ▓▒░ █████████████▓▒░

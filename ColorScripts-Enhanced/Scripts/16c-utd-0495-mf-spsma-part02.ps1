@@ -1,16 +1,4 @@
-﻿# Converted from: MF-SPSMA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/utd-0495/raw/MF-SPSMA.ANS
-# Source Revision: archive-sha256:0d1a82ad3d13d836a92b422703d06a1d6a82ae4f50721578a08763a2338a2df8
-# Source SHA-256: 9b0f803b7c698c8e2f88a7e6ef92a2516b6585523b7fabc45b561b3c8c5c1b65
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MF-SPSMA.ANS by Morbid Fixation (utd-0495); released in utd-0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Its a joke!!
-# SAUCE Author: Morbid Fixation
-# SAUCE Font: views in ug. =) ?[0m?
-# Lines: 40-76
-# Columns: 1-80
+﻿# Artwork: Its a joke!! by Morbid Fixation | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-utd-0495-mf-spsma-part02
 
 Write-Host '
                                  [1;31;43m▓[0;1;31;40m▄▄    ▄[0;1;31;43m▓▒[0;1;31;40m▌[0m

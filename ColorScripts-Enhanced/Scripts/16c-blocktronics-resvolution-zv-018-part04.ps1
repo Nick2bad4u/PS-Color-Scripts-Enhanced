@@ -1,13 +1,4 @@
-﻿# Converted from: zv-018.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_resvolution/raw/zv-018.ans
-# Source Revision: archive-sha256:d0690af9ec91bf96f335196e9f9ddfb5d7ea02d97d300b53301bebaf58d83c35
-# Source SHA-256: 0c37502097393234b991fe680c2e1b9dcebcb1b3a9c3f12c920897e0f69bbacf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zv-018.ans by Zerovision (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 126-165
-# Columns: 1-80
+﻿# Artwork: zv-018.ans by Zerovision | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-resvolution-zv-018-part04
 
 Write-Host '
   [1;30m [0m   [1;30m    ▀▀[0;1;30;47m▄▄ [0m▄▄▄▄        [1m▀▀▀████▄▄▄▄▄▄▄▄[0m    [1;30m▀▀▀████[0;1;30;47m▄▄▄[0;1;30;40m█[0;1;30;47m█[0;1;30;40m█[0;1;30;47m████▓██▄▄▄▄[0;1;37;47m▀[0;1;37;40m▀▀▀[0m [1m▄▄[0;1;47m█▀▀[0m

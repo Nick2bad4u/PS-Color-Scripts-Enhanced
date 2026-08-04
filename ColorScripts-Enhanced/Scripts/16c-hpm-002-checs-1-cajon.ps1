@@ -1,19 +1,4 @@
-﻿# Converted from: Checs-1_cajon.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hpm-002/raw/Checs-1_cajon.ans
-# Source Revision: archive-sha256:ac1c5734e02a8b9f6dc786a430b6a4555daba27767e3a09c6335e008cfa324e4
-# Source SHA-256: 4c2a99fbc8911d3aa7f479cd7db38a595dac880510e322704bfc507ac7948cd3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Checs-1_cajon.ans by Checs (HPM); released in hpm-002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 1cajon
-# SAUCE Author: Checs
-# SAUCE Group: HPM
-# SAUCE Date: 20220614
-# SAUCE Dimensions: 80x38
-# SAUCE Font: IBM VGA
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: 1cajon by Checs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hpm-002-checs-1-cajon
 
 Write-Host '
 ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄

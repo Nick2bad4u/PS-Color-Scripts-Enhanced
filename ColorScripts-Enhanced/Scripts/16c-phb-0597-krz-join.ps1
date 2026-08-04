@@ -1,18 +1,4 @@
-﻿# Converted from: KRZ-JOIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phb-0597/raw/KRZ-JOIN.ANS
-# Source Revision: archive-sha256:5e2897b5aabe339c16f5d2024824fa427f86134be322d4a86a5d7157032f23f1
-# Source SHA-256: bc86f645a64c2ea13601bffc82122c0547bfe8517c02a472f2c7cf6e8db8c96e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KRZ-JOIN.ANS by krazie (pHOBIA@!); released in phb-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: join logo to oddball
-# SAUCE Author: krazie
-# SAUCE Group: pHOBIA@!
-# SAUCE Date: 19970414
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: join logo to oddball by krazie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phb-0597-krz-join
 
 Write-Host '
 [36m[0m           [34m▄▄▄[0;30;44m░░[0;1;34;44m [0;34m█[0;1;34;44m▄░[0;34m█▄▄▄▄[0m      [34m       [0;1;32m [0;30;44m▓[0m    [34;40m ▄▄[0;1;34;40m▄[0;1;34;44m▓▄[0;34m▄[0m

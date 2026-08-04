@@ -1,18 +1,4 @@
-﻿# Converted from: DKS-UEIR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira9802a/raw/DKS-UEIR.ANS
-# Source Revision: archive-sha256:157ead14d43652aeef2256f394202c3af23e0a670018a92df40a323cb79405f8
-# Source SHA-256: 408efd285549624f61f1979355c58c9ee74618c092ebdeaaea3287ab66d4dbda
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DKS-UEIR.ANS by derksar (irat0); released in ira9802a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: irato random screen
-# SAUCE Author: derksar
-# SAUCE Group: irat0
-# SAUCE Date: 19980122
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: irato random screen by derksar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira9802a-dks-ueir
 
 Write-Host '
             [1;33m╔[0;33m────────────────────────────────────────────────────[0;1;33m╗[0m

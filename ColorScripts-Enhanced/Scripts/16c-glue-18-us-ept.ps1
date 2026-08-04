@@ -1,13 +1,4 @@
-﻿# Converted from: US-EPT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-18/raw/US-EPT.ANS
-# Source Revision: archive-sha256:0bc0a975c4de127fd6305114a49451275a1959513e343ea7612d70fa62951816
-# Source SHA-256: cab44d7c5a5786e96205c1d2354ca78a9fd1d5b6df160eac26abeedd437eca01
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-EPT.ANS by Retribution (glue-18); released in glue-18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: US-EPT.ANS by Retribution | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-18-us-ept
 
 Write-Host '
 [36mdv8[0;1;37m [0;36m█▀[0;1;37m  [0;1;34m▄█▀▄███[0;1;34;44m▓▒░░  ░░░   ░[0;34m███ [0;1;34m▀█[0;1;34;44m██▄ [0;34m█▀[0;34;44m███[0;1;34;44m░░   ░▓████▒▒░[0;34m▄▀[0;34;44m█[0;1;34;44m░▓▓░[0;34;44m█[0;34;40m▀[0;34;44m██[0;1;34;44m░▓▓█[0;34m█[0;1;37m [0;36m▀█[0;1;37m [0;36mret[0m

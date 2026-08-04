@@ -1,18 +1,4 @@
-﻿# Converted from: MEE-LAST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden14/raw/MEE-LAST.ANS
-# Source Revision: archive-sha256:8484fc17833e455250727f80fdc56cc19e17aec4fba2f82e3b86585a9e08cb6c
-# Source SHA-256: 8bc50372069f1436b797e96635fdfbf130d43d02736cb3d1aa79160b14d960de
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MEE-LAST.ANS by mINO (mAIDEN!); released in maiden14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ansi for the coolest lastcaller
-# SAUCE Author: mINO
-# SAUCE Group: mAIDEN!
-# SAUCE Date: 19971210
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ansi for the coolest lastcaller by mINO | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden14-mee-last
 
 Write-Host '
 [1m▀[0m [1m▄▄[0m▄[1m▀[0m [1m▀▀▐[0m  [1m█▀[0m▀   [1m▄▄[0m▄▓    [1m▄[0m▄▌      [1m▄▄[0m▄▌  [1m█[0;1;47m▓[0m  [1m▌▄▄[0m▄     [1;32mmINO![0m     [1m▄[0m▄   [1m▄[0m▄ [1m▀[0m▀▌

@@ -1,13 +1,4 @@
-﻿# Converted from: PN!FOS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fos-0396/raw/PN!FOS1.ANS
-# Source Revision: archive-sha256:0fb35a03818408d73443becf9bac665063dbd20f02064de523f6c0c7d13b6da1
-# Source SHA-256: 0bac33ff9b799d4466f1dade66da6c490ff376f04a3525665f098ed58b3172e1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PN!FOS1.ANS by Phyn (fos-0396); released in fos-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: PN!FOS1.ANS by Phyn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fos-0396-pn-fos1
 
 Write-Host '
  [1;30;45m▓[0;1;30;40m███[0;1;30;45m▓▓[0;1;30;40m████[0;1;30;45m▓[0;1;30;40m████████[0;1;30;45m▓▓▒▒▒▒▒▒▒▓▒░░░░░▒[0;1;30;40m▐[0m               ▄▄▄   ▄▄▄   ▄▄▄

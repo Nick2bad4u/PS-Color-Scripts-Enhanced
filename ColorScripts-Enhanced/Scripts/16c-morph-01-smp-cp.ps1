@@ -1,18 +1,4 @@
-﻿# Converted from: SMP-CP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/morph-01/raw/SMP-CP.ANS
-# Source Revision: archive-sha256:bc2a545325e27203d9d1be11c4c8e367cd7a18c5f91873a9a46244823d7901fd
-# Source SHA-256: 25b8d1d5cd1bfe2cb3b1bba2d7450ffd357615e5655d560ca3a7207cba8b89d8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-CP.ANS by shrimp (morph); released in morph-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: cess pool
-# SAUCE Author: shrimp
-# SAUCE Group: morph
-# SAUCE Date: 19971011
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: cess pool by shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-morph-01-smp-cp
 
 Write-Host '
                                                                [33m+[0;1;31m+[0;33m+[0m

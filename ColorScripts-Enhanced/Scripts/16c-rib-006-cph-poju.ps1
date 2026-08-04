@@ -1,18 +1,4 @@
-﻿# Converted from: CPH-POJU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-006/raw/CPH-POJU.ANS
-# Source Revision: archive-sha256:4d7b445ca8b643922c5230e9f5b3c442135561ba0bcfa9b1ae5cb138b563798c
-# Source SHA-256: 79bfc9e8667d0b60941163072f9e4bd7c4b0ed3eff298d5d07b12e61dc9df9cb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-POJU.ANS by {YBERPUNCh (RiB); released in rib-006 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: people of jungle
-# SAUCE Author: {YBERPUNCh
-# SAUCE Group: RiB
-# SAUCE Date: 19980306
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: people of jungle by {YBERPUNCh | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-006-cph-poju
 
 Write-Host '
 [32m              [0;1;35m▌[0;32m [0;1;37m     [0;1;35m  [0;1;37m         [0;1;35m  [0;1;37m         [0;32m░▓█▀▀[0;1;32;42m░░▀▓[0;1;36;40m██[0;1;32;42m▄[0;1;32;40m▄[0;32m▄[0;1;37m           [0;35m▄[0;1;35m▄▄[0;1;35;45m▄[0;1;35;40m█[0;1;36;46m░[0;1;35;46m░[0;1;35;45m▌[0m

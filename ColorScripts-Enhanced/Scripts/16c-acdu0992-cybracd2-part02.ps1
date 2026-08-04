@@ -1,13 +1,4 @@
-﻿# Converted from: CYBRACD2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0992/raw/CYBRACD2.ANS
-# Source Revision: archive-sha256:38fe3656c7af5c5e25863e8e0613e81f27c4932fc2485b451dab47528613133b
-# Source SHA-256: 8b1772c8808d7cc9b042cc26b44902a01f0ebc76185a7012bf00149dd1dbd979
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CYBRACD2.ANS by Blade Runner (acdu0992); released in acdu0992 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 38-72
-# Columns: 1-80
+﻿# Artwork: CYBRACD2.ANS by Blade Runner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0992-cybracd2-part02
 
 Write-Host '
            [1;34m▐▓▓▒░[0m     [1;34m▀▀▀▀▀▄[0m      [1;34m█▓▒[0m        [1;34m░░▒▒▓▓█[0m      [1;30m█ █ ▒▀▀▄▄▄▒▓▌[0m

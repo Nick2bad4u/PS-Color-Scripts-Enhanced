@@ -1,18 +1,4 @@
-﻿# Converted from: SPH_CAB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense-18/raw/SPH_CAB.ANS
-# Source Revision: archive-sha256:ba71504ca3977e04b823ca2242052bfad735a42546ed55a6d6d036bcbae10c00
-# Source SHA-256: abcc3ba354f2dd9e801b513309b0cb5391805e88f7d8c947892b46a46d4ecae4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPH_CAB.ANS by sephiroth (senseimagerz); released in sense-18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: cabinbythelake
-# SAUCE Author: sephiroth
-# SAUCE Group: senseimagerz
-# SAUCE Date: 20040119
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: cabinbythelake by sephiroth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense-18-sph-cab
 
 Write-Host '
 [1;30m▀▄▄[0;1;32;42m░[0m [32m░[0;37m [0;32m▄▄▓▀[0;37m  [0;32m▄▄[0;1;32;42m░[0;32m▄▀░[0;37m [0;32m░[0;37m  [0;32m▄▄▀▄█▄▓[0;1;30;42m░▒[0;32m▄[0;1;30m▄▄▄▀[0;32m░▄▄▀░[0;37m [0;33m░▒[0;1;30m░░[0m [33m▓[0;1;30m▀▀[0m [32m▄[0;37m [0;1;30m▄[0;33m▄[0;33;42m▒[0;33;40m▀[0;1;30;40m▒[0m [33;42m▓[0;33;40m█[0;32;40m░[0;1;30;40m▀▀░▄[0;33m█[0;1;30m█▀[0m [33m█▀[0;37m   [0;1;30m▄▄[0;32m░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: EC-DUST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9607/raw/EC-DUST.ANS
-# Source Revision: archive-sha256:9e6601fb76997375dd243211c26e8c2351f2e546b672c94103f06b10c1d474c2
-# Source SHA-256: 1cf99573462ff0e823d6616082887899a07124519d38ed70153be745b91d645b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EC-DUST.ANS by Econochrist (Samsara); released in sms-9607 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Dust
-# SAUCE Author: Econochrist
-# SAUCE Group: Samsara
-# SAUCE Date: 19960704
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: Dust by Econochrist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9607-ec-dust
 
 Write-Host '
   [34m`ⁿ[0;1;34m4[0;34m$l; ;l[0;1;34mlo.[0;35m`+    [0;34m$ll;;[0m              [34m;ll$8$$l;$[0;1;34ml [0;35m;[0m       [34ml$lll;;  ;;ll    [0;35m+  [0;1;34m,[0m

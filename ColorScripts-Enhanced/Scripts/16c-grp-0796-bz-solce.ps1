@@ -1,18 +1,4 @@
-﻿# Converted from: BZ-SOLCE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/grp-0796/raw/BZ-SOLCE.ANS
-# Source Revision: archive-sha256:be098753331373d307d2771aacbecdb35b1784f2f60e9ac3c053f2df7b867fcd
-# Source SHA-256: 67156671de3749cf442b7b302d9078f5520b4a97ed098686e1e4f780e4ebd656
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BZ-SOLCE.ANS by bizzach (pX); released in grp-0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: sOlAcE
-# SAUCE Author: bizzach
-# SAUCE Group: pX
-# SAUCE Date: 19960621
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: sOlAcE by bizzach | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-grp-0796-bz-solce
 
 Write-Host '
 \[1;30m------------------------------------------------------------------------------[0;1;33m [0m

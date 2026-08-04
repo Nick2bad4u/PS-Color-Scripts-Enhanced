@@ -1,13 +1,4 @@
-﻿# Converted from: us-ink.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic58/raw/us-ink.ans
-# Source Revision: archive-sha256:4a98ca7612935105886d3a52b28e6b0b0af9427cf52bbe395a07526c0a9616a9
-# Source SHA-256: 2288aadd716a302bd08abaf77c4af737ad4b0414538152ad9d3f736b769a197d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-ink.ans by H7 (mimic58); released in mimic58 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: us-ink.ans by H7 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic58-us-ink
 
 Write-Host '
                [1;35m         [0m            [1;35m           [0m

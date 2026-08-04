@@ -1,18 +1,4 @@
-﻿# Converted from: RL!-STU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-19/raw/RL!-STU.ANS
-# Source Revision: archive-sha256:a1a349998c43bff25c02d1af200718ce6af4aab839e4b035817a369236a8260f
-# Source SHA-256: 8c878303653160ef47c710ca4f1068c85c8bdff20adf041e133fa689e53697a1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL!-STU.ANS by Rawlock (Opium); released in opx-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Stultify
-# SAUCE Author: Rawlock
-# SAUCE Group: Opium
-# SAUCE Date: 19960526
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Stultify by Rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-19-rl-stu
 
 Write-Host '
 

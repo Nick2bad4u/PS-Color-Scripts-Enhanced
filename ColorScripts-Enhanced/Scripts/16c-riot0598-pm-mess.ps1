@@ -1,13 +1,4 @@
-﻿# Converted from: PM-MESS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot0598/raw/PM-MESS.ANS
-# Source Revision: archive-sha256:0c1b4d8014854195eee82655813426874e782c44b6e7d11df4cc84dbee4a5020
-# Source SHA-256: e391b0243970d4cc4b57389059e7f21625476e86db67c695ef50d063aded8356
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-MESS.ANS by Precious Metal (riot0598); released in riot0598 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: PM-MESS.ANS by Precious Metal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot0598-pm-mess
 
 Write-Host '
 [1;30m─────────────────────────[0m      [1;30m────────────────────────────────────────────[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: CPH-FAC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-010/raw/CPH-FAC.ANS
-# Source Revision: archive-sha256:f0e8a1202a9ab4518ddf30655a3e3a838d00336d432c41d2fb4ced8564853688
-# Source SHA-256: f743e7964138cddd12915ea6991f330a5672bede3bfe7acf28118e6cb9c828a3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-FAC.ANS by cyberpunch (rib); released in rib-010 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: toony face again
-# SAUCE Author: cyberpunch
-# SAUCE Group: rib
-# SAUCE Date: 19980703
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: toony face again by cyberpunch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-010-cph-fac
 
 Write-Host '
                                           [1;30m▀[0m [1;30m▀▀[0;1;30;47m▄[0;1;30;40m█[0;1;30;47m▀[0;1;30;40m████████████████[0;1;30;47m▄[0;1;30;40m█████▌▌   ▀██[0m

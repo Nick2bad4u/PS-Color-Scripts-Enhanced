@@ -1,18 +1,4 @@
-﻿# Converted from: MR-STILL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-18/raw/MR-STILL.ANS
-# Source Revision: archive-sha256:3ece06be07a605d790194aecaf4c2aee0d01c3085ca10c10858ed29a4fc054bb
-# Source SHA-256: 7e7b7388dcf59f24967aa281afc5b08eff7e13c2c424f10b3c0376c8b11deff3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-STILL.ANS by Mr. Wrong (AWE Lettering); released in awe-18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Static Illusions
-# SAUCE Author: Mr. Wrong
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981020
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Static Illusions by Mr. Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-18-mr-still
 
 Write-Host '
   [1;30m▄[0m

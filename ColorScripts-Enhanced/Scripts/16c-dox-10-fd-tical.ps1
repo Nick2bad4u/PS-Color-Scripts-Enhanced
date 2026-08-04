@@ -1,18 +1,4 @@
-﻿# Converted from: FD-TICAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_10/raw/FD-TICAL.ANS
-# Source Revision: archive-sha256:21def41607bc8f426e6b33cadf0099935014e2da13ee2908faa3303a70532ffa
-# Source SHA-256: 9f4e425e2b2b9551f7114f852dbfa667171335a3d3ce356e4ac3ed5891be5078
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FD-TICAL.ANS by flood (dox_10); released in dox_10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: tical
-# SAUCE Author: flood
-# SAUCE Group: .
-# SAUCE Date: 19970617
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: tical by flood | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-10-fd-tical
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: zv-vmc.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tnt-004/raw/zv-vmc.ans
-# Source Revision: archive-sha256:5aef4e6c838217221fa2a589ab98341ebfa71bc0f467df6aa706b97d4e08fe3c
-# Source SHA-256: f57fa59bbb11956e45e2d2317c6852a68c21674e52b3f197bbc0d67881456f13
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zv-vmc.ans by Zerovision (tnt-004); released in tnt-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 99-146
-# Columns: 1-80
+﻿# Artwork: zv-vmc.ans by Zerovision | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tnt-004-zv-vmc-part03
 
 Write-Host '
 [31m▒▓▓██[0;37m [0;1;31m░[0;1;31;41m▓[0m         [1;30m░▓▀█▄[0m [1;30m▓[0;31m░▒░[0;37m [0;33m░▒▒░░[0;37m [0;1;30m▄▓[0m  [31m▄▄[0;1;31;41m▄▄█▓▒░[0;31m█▀▀▀▀▀▀▀▀▀[0;37m  [0;31m▄▄▄▄██▀[0m     [31m▓██░[0;1;31;41m░▒[0;31m░▀[0;1;31m▀[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: NVZ-LGFF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmtz-2/raw/NVZ-LGFF.ANS
-# Source Revision: archive-sha256:4098da1ce5096b58e9d8e2d422f1498dadae3c1a4608ab2bce3811e49527bb5d
-# Source SHA-256: 6228e64671960abf5f10031b61e3fb49dc0e89f7187d6f41d27943befb34c274
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NVZ-LGFF.ANS by N0ViCE (rmtz); released in rmtz-2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: N0ViCE
-# SAUCE Group: rmtz
-# SAUCE Date: 19960715
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: NVZ-LGFF.ANS by N0ViCE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmtz-2-nvz-lgff
 
 Write-Host '
 [36m ░▒▒▓[0;1;36;46m▀▀■[0;36m█▀███████████▀▀▀▀▀██████████████████▀▀▀██████▀▀▀▀████████████[0;1;36;46m■▀▀▄▄[0;36m▓▒▒░ [0m

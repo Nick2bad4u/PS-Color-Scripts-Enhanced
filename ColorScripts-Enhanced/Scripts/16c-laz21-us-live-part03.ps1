@@ -1,19 +1,4 @@
-﻿# Converted from: US-LIVE.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz21/raw/US-LIVE.ans
-# Source Revision: archive-sha256:daa0e008ccfccc8179e0635097f8fe4a46a32781b45bbd86ff6e4505514c9e6d
-# Source SHA-256: 87437167e3179bac583f3c94b8ebb3ebc455757b43212f856c389dec628686ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-LIVE.ans by KRL + Tainted (lazarus); released in laz21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: live wire
-# SAUCE Author: krl / tainted
-# SAUCE Group: lazarus
-# SAUCE Date: 20260427
-# SAUCE Dimensions: 80x203
-# SAUCE Font: IBM VGA
-# Lines: 83-123
-# Columns: 1-80
+﻿# Artwork: live wire by KRL + Tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz21-us-live-part03
 
 Write-Host '
 [1;30m▓▌[0;35m  [0;1;30m▐[0;1;30;47m▓[0;1;30;40m▌[0m [1;30m▒▒[0m [1;30m▐▓▒▌[0m   [33m▀█▒[0;37m  [0;33m▓[0;1;31;43m░▒░[0;33m▒░[0;1;31;43m░░░[0;33m▀[0;37m [0;33m░░[0;37m ▀▀  ░░▄▄     [0;1;37m▄[0;1;37;47m▄[0m▓▒░ [33;41m▄[0;37;40m  [0;33;40m▀[0;1;31;43m░ [0;33m▓    [0;35m▀[0;1;35;45m░░░[0;35m█▄[0;1;35;45m▄[0;35m▄[0;33m [0;1;30m▀▓[0m

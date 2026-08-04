@@ -1,13 +1,4 @@
-﻿# Converted from: DOALOGO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/doa-0394/raw/DOALOGO.ANS
-# Source Revision: archive-sha256:6acb1d2eee51624338f0056aad11c28c9c4b1d2c458b96e9f37f1242e05022c9
-# Source SHA-256: 9e5a60ddd10929d7853314aac046a09aacb1bd8d0fbb0223dd1c628ab37bfe20
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DOALOGO.ANS by Torch (doa-0394); released in doa-0394 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: DOALOGO.ANS by Torch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-doa-0394-doalogo
 
 Write-Host '
 [1;30m╔═════════════════════════╦════════════════[0;1;37m██[0;1;30m════════╦═════════[0;1;37m██[0;1;30m══════════════╗[0m

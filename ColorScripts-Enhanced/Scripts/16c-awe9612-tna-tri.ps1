@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-TRI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9612/raw/TNA-TRI.ANS
-# Source Revision: archive-sha256:7053afed6e742c75d943ea86bb6e43e9d362e1c6f64e894c811e4835a8b40e13
-# Source SHA-256: ae94fd30d822ed61b064290baead75da10eed583bbf651de4bc3f13ce92415e8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-TRI.ANS by The Night Angel (AWE Lettering); released in awe9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Trilogy Menu
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961124
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Trilogy Menu by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9612-tna-tri
 
 Write-Host '
 

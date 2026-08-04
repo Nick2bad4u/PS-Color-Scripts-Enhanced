@@ -1,18 +1,4 @@
-﻿# Converted from: AM%SPOOK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/expose-2/raw/AM%25SPOOK.ANS
-# Source Revision: archive-sha256:50501077e343f96b733b48c16d6cbc10c48e462f6f9a0c3330a1aaeb72df8eef
-# Source SHA-256: a2d96e411cbedbaa8785b8f5fc3a2467c782c500bc3d4b944f51180e8bbde728
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AM%SPOOK.ANS by Dirt Bag + Agent Mulder (xpo"97); released in expose-2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: x-connetion
-# SAUCE Author: agent mulder
-# SAUCE Group: xpo"97
-# SAUCE Date: 19970222
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: x-connetion by Dirt Bag + Agent Mulder | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-expose-2-am-spook
 
 Write-Host '
                                        [1;30m [0m

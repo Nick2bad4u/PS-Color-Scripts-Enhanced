@@ -1,18 +1,4 @@
-﻿# Converted from: IZ½PRE#.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0296/raw/IZ%C2%BDPRE%23.ANS
-# Source Revision: archive-sha256:0eb4b2482411f38ef708ec089ec5cba17c181d4a0eee6324511602aa4e53eac8
-# Source SHA-256: f75d8e16be07383abdb23c1f60738aad2248ea9a9a5e7d38fda0478ad7b6c6a4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ½PRE#.ANS by ize (fusion); released in fsn-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: prevail
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19960118
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: prevail by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0296-iz-pre
 
 Write-Host '
 

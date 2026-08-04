@@ -1,18 +1,4 @@
-﻿# Converted from: MG-GOD2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ane-1295/raw/MG-GOD2.ANS
-# Source Revision: archive-sha256:ef4a472a8b682aa692f2457b43ce5db2b6cebf0ce7932335fbdee70d59b9c04c
-# Source SHA-256: f47cabacffefb56a0df2ffb0859d5f020a0425709933da79d4758785d198cebe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MG-GOD2.ANS by Mung (.;:Anemia:;.); released in ane-1295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Grounds of Despair
-# SAUCE Author: Mung
-# SAUCE Group: .;:Anemia:;.
-# SAUCE Date: 19951123
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Grounds of Despair by Mung | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ane-1295-mg-god2-part01
 
 Write-Host '
   [1;30m____________________________________________________________________________[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: US-MDN2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden16/raw/US-MDN2.ANS
-# Source Revision: archive-sha256:5eec87aa8a926ff580ebebb1a03e3414c92381a206a8caa2448e563d5972636c
-# Source SHA-256: e7779eb4309c85d8ef549eb2e54cdc29d3e4efe612e17abe5e693a161e8be8a5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-MDN2.ANS by Rorshack + Anomite (grupos?); released in maiden16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: twsited guEST! :)
-# SAUCE Author: anomite + rorshack
-# SAUCE Group: grupos?
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: twsited guEST! :) by Rorshack + Anomite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden16-us-mdn2
 
 Write-Host '
 

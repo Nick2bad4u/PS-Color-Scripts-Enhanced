@@ -1,13 +1,4 @@
-﻿# Converted from: ko-twin.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic39/raw/ko-twin.ans
-# Source Revision: archive-sha256:1587aaa641b0346887ebecb49bf7d019b85e6dcfb801dd31680b4ccf1d4f794b
-# Source SHA-256: c94b73b5aa56c6ab2f82fd5132884112ec8eb90acf64378eb1e333ade45ca091
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ko-twin.ans by Konami (mimic39); released in mimic39 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ko-twin.ans by Konami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic39-ko-twin
 
 Write-Host '
                          [31m|[0m                           [31m|[0m                   [1;30mmmc[0;31m,☻7[0m

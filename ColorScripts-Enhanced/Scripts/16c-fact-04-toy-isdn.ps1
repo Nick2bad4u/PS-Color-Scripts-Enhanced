@@ -1,18 +1,4 @@
-﻿# Converted from: TOY-ISDN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fact-04/raw/TOY-ISDN.ANS
-# Source Revision: archive-sha256:ede22877181bcaee0ecbada01269c2c7bf675cbd1fe3cc75db17ea24e9fac1f9
-# Source SHA-256: d3a1a0345be3e8cbb059d86c7df7269c567b94f4c7602c677dda6f7287fac68f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TOY-ISDN.ANS by ToYDEALER (fACT!); released in fact-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: CoRNER NFo ABoUT iSDN
-# SAUCE Author: ToYDEALER
-# SAUCE Group: fACT!
-# SAUCE Date: 19960613
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: CoRNER NFo ABoUT iSDN by ToYDEALER | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fact-04-toy-isdn
 
 Write-Host '
                    [34m▄■[0;1;34m▀▄   ▄[0;1;34;44m▀[0;34m▀■    [0;1;34m▄■▀[0;1;34;44m▓[0;1;34;40m▄  ▄■▀[0;1;34;44m▓[0;1;34;40m▄    [0;34m▄■[0;1;34m▀▄   ▄■▀[0;1;34;44m▓[0;1;34;40m▄[0m

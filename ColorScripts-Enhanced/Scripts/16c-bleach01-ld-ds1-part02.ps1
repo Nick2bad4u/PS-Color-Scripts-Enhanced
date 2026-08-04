@@ -1,18 +1,4 @@
-﻿# Converted from: LD-DS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bleach01/raw/LD-DS1.ANS
-# Source Revision: archive-sha256:b051f200d4cb4a187bf381a6b9042d79015b79b0cf19e4a4a725c252afed48ec
-# Source SHA-256: db06c79348cfbdb15a66edf7cd28121b77f1e5b0911253340093716ef59eb63a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-DS1.ANS by lOrdJazz! (READ THE INI FILE); released in bleach01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: death star!
-# SAUCE Author: lOrdJazz!
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950205
-# SAUCE Dimensions: 80x25
-# Lines: 45-90
-# Columns: 1-80
+﻿# Artwork: death star! by lOrdJazz! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bleach01-ld-ds1-part02
 
 Write-Host '
 [34m█[0;1;34;44m░[0;34m██ [0;31m▄▓▄ ■ [0;32m█[0;1;32;42m░[0;32m▀▀  ░ [0;34m█[0;1;34;44m▓▒[0;34m░█[0;1;34;44m▄[0;34m▄█▀▓▄▄ [0;35m░  ■▀ [0;31m▄[0;1;31;41m░[0;31m▓▄ ▀  [0;32m■▀▀  [0;34m■▄▓[0;36;44m░[0;34;40m█▓[0;1;34;44m░[0;34m█ [0;33m░ [0;1;30m█[0;1;30;47m▓[0;1;30;40m██[0;1;30;47m▓[0;1;30;40m█▄ ▀ ▐▓[0;1;30;47m▒▓[0;1;30;40m█▓█[0m

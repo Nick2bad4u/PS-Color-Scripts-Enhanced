@@ -1,17 +1,4 @@
-﻿# Converted from: BIZ-AWE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-13/raw/BIZ-AWE1.ANS
-# Source Revision: archive-sha256:fab7f52e9d735740432e5cc1693a7c3574c7cc669fe711a2863770d2425cce92
-# Source SHA-256: d6d2062b98ea913199649d1676affb55f4c807e256aee9a6f7392c183de78585
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BIZ-AWE1.ANS by Bizzarro (AWE Lettering); released in awe-13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: AWE Promotional
-# SAUCE Author: Bizzarro
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: AWE Promotional by Bizzarro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-13-biz-awe1
 
 Write-Host '
 

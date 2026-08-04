@@ -1,18 +1,4 @@
-﻿# Converted from: DD-APOC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dom-9706/raw/DD-APOC.ANS
-# Source Revision: archive-sha256:a16d91b4075cff760b5038e2a8f1aab02d1965c9e4bbc85ed187b0405326b9b6
-# Source SHA-256: 02cf23e19bdc36cf5a7350559066c6c3d4d8f1ec7e85932821a6f949fe51472c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-APOC.ANS by Deeply D (Domino); released in dom-9706 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Apoc
-# SAUCE Author: Deeply D
-# SAUCE Group: Domino
-# SAUCE Date: 19970617
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Apoc by Deeply D | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dom-9706-dd-apoc
 
 Write-Host '
  [1;30m▀[0m

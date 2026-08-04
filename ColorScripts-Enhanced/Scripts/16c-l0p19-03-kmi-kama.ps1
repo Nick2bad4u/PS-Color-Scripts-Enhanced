@@ -1,13 +1,4 @@
-﻿# Converted from: KMI-KAMA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p19_03/raw/KMI-KAMA.ANS
-# Source Revision: archive-sha256:29e846aab08e0cbbff67b8bbb9c6aca86568fc7c7276ebb4f28e7de4f529ef28
-# Source SHA-256: d20d30720e6952e39a920cff8af6324e0863bf67790487dfae2360a1bf85d068
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KMI-KAMA.ANS by Kami (l0p19_03); released in l0p19_03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: KMI-KAMA.ANS by Kami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p19-03-kmi-kama
 
 Write-Host '
      [36m▒[0;1;34;44m██████████[0;36m▒[0;1;34;44m██████[0;1;34;46m▓[0;1;34;47m▀[0;1;34;40m▌[0;1;34;46m▓▓▓▓▓▓▓▓▓▓▓[0;1;34;44m██▓▓▓[0;1;34;40m▐[0;1;34;47m▀▀[0;1;34;40m█[0;1;34;46m░░▓▓▓[0;1;34;44m▓▒░░[0;34m█[0;1;34;44m░▓██[0;1;34;40m█[0;1;34;47m▀▀▀[0;1;34;40m▌[0m [1;34;44m░░▒▒▓▓██████[0m

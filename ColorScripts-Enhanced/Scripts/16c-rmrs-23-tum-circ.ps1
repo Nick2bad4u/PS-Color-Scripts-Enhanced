@@ -1,13 +1,4 @@
-﻿# Converted from: TUM-CIRC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-23/raw/TUM-CIRC.ANS
-# Source Revision: archive-sha256:7ef48dbe0a74b3c7871771b18b839998cffe1d8017bebdd056e51e33fe60cf0a
-# Source SHA-256: ffb3ef3143d1cb7ae80b911cadd8256f1f427fd6b13f80b214ff4273aabbf1df
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TUM-CIRC.ANS by The Upright Man (rmrs-23); released in rmrs-23 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: TUM-CIRC.ANS by The Upright Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-23-tum-circ
 
 Write-Host '
 [1m([0m  1,   1[1m)  [0mColor      [34mPage:1  [0;1;30mSet : 10[0;30;41m [0;1;30;41m1=[0;1;37;41m┌[0;1;30;41m 2=[0;1;37;41m┐[0;1;30;41m 3=[0;1;37;41m└[0;1;30;41m 4=[0;1;37;41m┘[0;1;30;41m 5=[0;1;37;41m─[0;1;30;41m 6=[0;1;37;41m│[0;1;30;41m 7=[0;1;37;41m├[0;1;30;41m 8=[0;1;37;41m┤[0;1;30;41m 9=[0;1;37;41m┴[0;1;30;41m 10=[0;1;37;41m┬[0m

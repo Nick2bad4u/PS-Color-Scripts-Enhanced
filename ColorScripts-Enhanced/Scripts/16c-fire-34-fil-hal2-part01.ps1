@@ -1,19 +1,4 @@
-﻿# Converted from: FIL-HAL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/FIL-HAL2.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: 86b443dd4787b89a58e1d9925e8a700ad8f4458cee51676e5aa112d56e27c3bb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FIL-HAL2.ANS by filth (BLOCKTRONiCS); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: regency '95
-# SAUCE Author: filth
-# SAUCE Group: BLOCKTRONiCS
-# SAUCE Date: 20210301
-# SAUCE Dimensions: 80x85
-# SAUCE Font: IBM VGA
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: regency '95 by filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-fil-hal2-part01
 
 Write-Host '
 [37;40m [0;33;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

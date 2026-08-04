@@ -1,13 +1,4 @@
-﻿# Converted from: LE-BOT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr024/raw/LE-BOT.ANS
-# Source Revision: archive-sha256:855de8b4a9850b66f5f8d6f2bd0f31e9a54528b41af721440ea523a47537ecac
-# Source SHA-256: bc633cb2148260f4e634cc0a7ec3c4e2871eafa6d8a4b554a42f6c3d9f9847db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LE-BOT.ANS by Leaf Eater (blndr024); released in blndr024 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: LE-BOT.ANS by Leaf Eater | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr024-le-bot
 
 Write-Host '
 [1;32m[0m[1;32m[0;32m[0;1;32m[0m[1;32m[0m[1;32m[0m                                                                  [32m [0;37m [0;32m.[0m

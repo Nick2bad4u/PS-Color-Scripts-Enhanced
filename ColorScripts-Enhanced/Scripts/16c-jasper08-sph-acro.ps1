@@ -1,18 +1,4 @@
-﻿# Converted from: SPH_ACRO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper08/raw/SPH_ACRO.ANS
-# Source Revision: archive-sha256:4170bc28a3d93b55b5d7813a9078fa917029de207cfcf794080d34d8f6ddd97e
-# Source SHA-256: bb77d121478fabb2ca045c053da78bd2e80bcc77c6791fe64c8becfbde2da5a3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPH_ACRO.ANS by Sephiroth (Jasper); released in jasper08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Acropolis
-# SAUCE Author: Sephiroth
-# SAUCE Group: Jasper
-# SAUCE Date: 20020522
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Acropolis by Sephiroth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper08-sph-acro
 
 Write-Host '
 [1;33m [0;1;30m▀[0m [1;30m▄▄▀░[0;31m  [0;1;30m▄▄[0;1;30;47m▓[0;1;30;40m▀[0m▀[1;30m ▀[0m▀▀[31m [0;1;33m▄▄▄▄▄▀▀▀[0;31m [0;1;33m▀[0;34m  [0;1;33m▄[0;34m [0;1;33m▀▄▄ █ █▄▄[0m [1;33m▄▀[0m  [1;33m▀[0m [1;33m▄▀▄▄▀▀▄▄[0;1;30m [0m [1;33m░[0m░[31m [0;37m▀▀[0;1;30m▀ [0m█▀[1;30m▀▀[0m▄[1;30m▄▄ ▀▄▄[0m [1;30m▀[0m

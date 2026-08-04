@@ -1,13 +1,4 @@
-﻿# Converted from: formula-june.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/clear2ooo-ascii-year-lf/raw/formula-june.ans
-# Source Revision: archive-sha256:dd383b5bee47a74826e2ee2d07d90cd2a401abc53b70a009479dbf2d94c53f24
-# Source SHA-256: 46484a3592feaaf59cb46bf43c01ae748e16685ac992536581a501110a697ae6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: formula-june.ans by clear2ooo (clear2ooo-ascii-year-lf); released in clear2ooo-ascii-year-lf and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: formula-june.ans by clear2ooo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-clear2ooo-ascii-year-lf-formula-june
 
 Write-Host '
 [37;40m                                    [0;36;40m██████[0;37;40m                                      [0m

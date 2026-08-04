@@ -1,13 +1,4 @@
-﻿# Converted from: MST!FNTS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spr_03/raw/MST!FNTS.ANS
-# Source Revision: archive-sha256:4e72f654dd144c3fc4922c52ed27a746ba8b094b07e719417cf6392491ac9a47
-# Source SHA-256: 6605f2eb445f80a16e035ff98a3ebf2dc4242773ddf32aecf6d580cade789d65
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MST!FNTS.ANS by Mist (spr_03); released in spr_03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: MST!FNTS.ANS by Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spr-03-mst-fnts
 
 Write-Host '
                 [33m▀[0m                         [33m▄[0m

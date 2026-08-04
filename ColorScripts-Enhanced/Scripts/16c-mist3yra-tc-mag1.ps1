@@ -1,18 +1,4 @@
-﻿# Converted from: TC-MAG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist3yra/raw/TC-MAG1.ANS
-# Source Revision: archive-sha256:2b1ec0b7cbe048c013d4fb5b84e23b783ff4f9f900b4e7c0cd1dcc3d31e02136
-# Source SHA-256: 4f617ba3b51081108ab3e82937b441bb604b42ff82a3011a4ddbe80131abc2b3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TC-MAG1.ANS by Tincat (MiSTiGRiS); released in mist3yra and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: magnum interface
-# SAUCE Author: Tincat
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19970918
-# SAUCE Dimensions: 80x25
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: magnum interface by Tincat | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist3yra-tc-mag1
 
 Write-Host '
        [33m▄[0;1;33m▄█▄▄[0m

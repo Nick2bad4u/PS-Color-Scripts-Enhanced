@@ -1,18 +1,4 @@
-﻿# Converted from: US-END0R.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/reign-02/raw/US-END0R.ANS
-# Source Revision: archive-sha256:dc3996199d28e47087a92912d34bad8e97b4ba4e4ae70fc7dadbaeac5af3f655
-# Source SHA-256: a3b8c72927e609204d5a1ae23cb7998f516844eb6c72b8f8d7bedacd21a817fb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-END0R.ANS by Sultan + Palidor + Smoke (reign/bm/legion); released in reign-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Endor Promotion
-# SAUCE Author: pali/smoke/sultan
-# SAUCE Group: reign/bm/legion
-# SAUCE Date: 19981114
-# SAUCE Dimensions: 80x44
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Endor Promotion by Sultan + Palidor + Smoke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-reign-02-us-end0r
 
 Write-Host '
 [1;30m[0m[1;30m[0;1;36m[0m[1;30m[0m────────────────────────────────────────────────────────────────────────────────

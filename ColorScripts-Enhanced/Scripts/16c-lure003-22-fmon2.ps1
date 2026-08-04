@@ -1,18 +1,4 @@
-﻿# Converted from: 22-fmon2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lure003/raw/22-fmon2.ans
-# Source Revision: archive-sha256:1ff57f893971666a5780ed06387959ae5ebc9c163a5e118549c7818f33792253
-# Source SHA-256: f9b415f7b10765b957d5891ba4a1dda892fd2e073168c78f70ae7d0afd21f417
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 22-fmon2.ans by catch22 (lure); released in lure003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: coitus monkey
-# SAUCE Author: catch22
-# SAUCE Group: lure
-# SAUCE Date: 20020423
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: coitus monkey by catch22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lure003-22-fmon2
 
 Write-Host '
   [31m▄▄▄▄[0;36m   [0m                       [31m▄▄▄[0;37m  [0;1;30mFword[0m

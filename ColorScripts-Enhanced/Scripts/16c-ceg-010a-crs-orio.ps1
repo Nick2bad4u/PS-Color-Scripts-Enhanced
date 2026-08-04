@@ -1,18 +1,4 @@
-﻿# Converted from: CRS^ORIO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ceg-010a/raw/CRS%5EORIO.ANS
-# Source Revision: archive-sha256:5b3b98df164004f313dd0829d66e01a5471066e939dd03917a4e036b8d8f18b9
-# Source SHA-256: adaa861451acd0b61813a7a2fdfbe1590fc420069e281cc9cbf70114b4f28025
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CRS^ORIO.ANS by Crasher (jUSt-X); released in ceg-010a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Orion
-# SAUCE Author: Crasher
-# SAUCE Group: jUSt-X
-# SAUCE Date: 19991203
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Orion by Crasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ceg-010a-crs-orio
 
 Write-Host '
    [1;36m [0m [1;36m                                              [0m

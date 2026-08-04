@@ -1,13 +1,4 @@
-﻿# Converted from: US-SENSE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wax03/raw/US-SENSE.ANS
-# Source Revision: archive-sha256:8abfa43a62dd015a080596c8ad5586e96cf62a3664ebe2532297158d0dcb3a78
-# Source SHA-256: eca4ea79b36c3c7915ef58ed8fef383ee77aaf911ac54cb628daa0f6a5870b96
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SENSE.ANS by Drax + Cain (wax03); released in wax03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: US-SENSE.ANS by Drax + Cain | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wax03-us-sense
 
 Write-Host '
 [1m        [0;1;33m                **┐┌**[0m                   [34m.............[0m

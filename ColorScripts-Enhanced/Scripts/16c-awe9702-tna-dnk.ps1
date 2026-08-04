@@ -1,17 +1,4 @@
-﻿# Converted from: TNA-DNK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9702/raw/TNA-DNK.ANS
-# Source Revision: archive-sha256:66fa024bb27d2c5c9da5d44e7d12f110f2c57bdedd32c6f0a850d91a30d582a8
-# Source SHA-256: bfe78d7b8b1800500a02e1786edd4a581b8f802e3d55b20439ed67faded8f3ad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-DNK.ANS by The Night Angel (AWE Lettering); released in awe9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Doink
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Doink by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9702-tna-dnk
 
 Write-Host '
                                [32m▄ ▀▀▄[0m

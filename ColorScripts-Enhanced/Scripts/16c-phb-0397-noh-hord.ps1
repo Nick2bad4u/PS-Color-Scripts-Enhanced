@@ -1,17 +1,4 @@
-﻿# Converted from: NOH-HORD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phb-0397/raw/NOH-HORD.ANS
-# Source Revision: archive-sha256:d18868f8faf7726799689b37fb1a0005133cfca83163c8b652f242ae3ef3a67d
-# Source SHA-256: e438f40a8c251331e656b585121155215d2c175d9ee012df98bfd294aeeff4ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-HORD.ANS by nOah! (phb-0397); released in phb-0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: horde..
-# SAUCE Author: nOah!
-# SAUCE Date: 19970302
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: horde.. by nOah! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phb-0397-noh-hord
 
 Write-Host '
                                             [35m                     [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PL-COT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fact-04/raw/PL-COT.ANS
-# Source Revision: archive-sha256:ede22877181bcaee0ecbada01269c2c7bf675cbd1fe3cc75db17ea24e9fac1f9
-# Source SHA-256: 1f58e6e657fd1b789e01935d9fc4bda3af9bb2a3247585a569aef3cf67baa5f3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PL-COT.ANS by pUSSYlOVEr (fACt!); released in fact-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: cEMETERy of tWiliGht
-# SAUCE Author: pUSSYlOVEr
-# SAUCE Group: fACt!
-# SAUCE Date: 19960604
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: cEMETERy of tWiliGht by pUSSYlOVEr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fact-04-pl-cot
 
 Write-Host '
                                            [1;33;42m░[0;32m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

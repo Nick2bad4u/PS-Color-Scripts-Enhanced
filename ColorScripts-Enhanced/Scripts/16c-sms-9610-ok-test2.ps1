@@ -1,17 +1,4 @@
-﻿# Converted from: OK-TEST2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9610/raw/OK-TEST2.ANS
-# Source Revision: archive-sha256:5789c5cb1a5ac21acfd3fa7dc4a5a88db3f4a5b9545409ca8ca34a86bd816077
-# Source SHA-256: b1acacec5e67dc5e09c7ea0f637c81e4c0f49b3aee263c18e0ebdf7c4e5b1bab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OK-TEST2.ANS by Outkast (Samsara); released in sms-9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Testament
-# SAUCE Author: Outkast
-# SAUCE Group: Samsara
-# SAUCE Dimensions: 80x25
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Testament by Outkast | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9610-ok-test2
 
 Write-Host '
                                    [1;30m░░[0m   [1;30m▒▓█[0;1;30;47m▓▒░[0m▀[1;30m▄▄▄[0m [1;30m░▒█[0;1;30;47m▓▓▒░[0m███████[1;30;47m░░▒▒▓[0;1;30;40m▓▓░[0m

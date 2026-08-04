@@ -1,18 +1,4 @@
-﻿# Converted from: HD_$SKL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ltm-0002/raw/HD_%24SKL.ANS
-# Source Revision: archive-sha256:781901eb93f0cb031ec3f7b4daa19680a5eef01b4b60325740b7b545db2b86c8
-# Source SHA-256: 50e835d40c04a026562c59cdaf77ebc6eecd3ae94665fe6a58d8e8551e77be21
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HD_$SKL.ANS by h0ND0 (Lithium); released in ltm-0002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Ansi Brain     "Dark way"
-# SAUCE Author: h0ND0
-# SAUCE Group: Lithium
-# SAUCE Date: 19971215
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Ansi Brain "Dark way" by h0ND0 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ltm-0002-hd-skl
 
 Write-Host '
                  [31m ,s#$$$$$$$$,[0;1;30m`s.[0;31m`²$$$$$$$$$²''[0;1;30m.s''[0;31m,$$[0;1;31m$$$$$$#s,[0;31m [0m

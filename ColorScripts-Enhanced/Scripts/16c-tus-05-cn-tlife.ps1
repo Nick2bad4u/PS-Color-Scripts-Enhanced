@@ -1,13 +1,4 @@
-﻿# Converted from: CN-TLIFE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tus-05/raw/CN-TLIFE.ANS
-# Source Revision: archive-sha256:986f1937ec6e5b109228fbbe378b228ec26f4944801472ad65a0c03345d8dc74
-# Source SHA-256: 65b1fbe4acaec3ad48ccb6f8cdca74c84eea4a8e71c7954f66999e7a7cf0016f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CN-TLIFE.ANS by Cain (tus-05); released in tus-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: CN-TLIFE.ANS by Cain | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tus-05-cn-tlife
 
 Write-Host '
 [1m      _____    __[0m$$$$$▓▒░  [34m$$[0m   [34m$[0m             [34m$$[0m

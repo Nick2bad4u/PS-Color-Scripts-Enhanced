@@ -1,18 +1,4 @@
-﻿# Converted from: D!-LCLUS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k0tpr0be/raw/D!-LCLUS.ANS
-# Source Revision: archive-sha256:fcb0e37abcb9d171de6d5cc918649afa7e9c0f2f5173dba90a7d8c38f69cec3d
-# Source SHA-256: e7cafe024b4cc3b6b6fad8f33177b213bbd2e1b2562c35c2607e501ab2fff24c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D!-LCLUS.ANS by desert (dezign); released in k0tpr0be and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: logo cluster
-# SAUCE Author: desert
-# SAUCE Group: dezign
-# SAUCE Date: 19960829
-# SAUCE Dimensions: 80x25
-# Lines: 30-54
-# Columns: 1-80
+﻿# Artwork: logo cluster by desert | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k0tpr0be-d-lclus-part02
 
 Write-Host '
 

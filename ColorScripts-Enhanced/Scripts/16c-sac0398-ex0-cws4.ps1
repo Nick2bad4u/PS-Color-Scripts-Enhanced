@@ -1,13 +1,4 @@
-﻿# Converted from: EX0-CWS4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0398/raw/EX0-CWS4.ANS
-# Source Revision: archive-sha256:5deb0c572555b712853a4e44d44a0abdfad1e60e47bfcff7ce192c9fa583bdec
-# Source SHA-256: 615f145bfd33cf3a97b7489b33e78231c8626a416daad15b87b66cefc681d265
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EX0-CWS4.ANS by exo; released in sac0398 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: EX0-CWS4.ANS by exo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0398-ex0-cws4
 
 Write-Host '
                    [1m                          [0m

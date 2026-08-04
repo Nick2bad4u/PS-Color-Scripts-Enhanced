@@ -1,18 +1,4 @@
-﻿# Converted from: MR-CALL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9706/raw/MR-CALL.ANS
-# Source Revision: archive-sha256:7778e60ae879f03132c18bc660bc1aff97b6f3b65410765bf6f0d32a4bcff865
-# Source SHA-256: 9f02ea94296263b7307744f2d59cd3895df1bea85726f1795e65b5321f92c2a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-CALL.ANS by minotaur (maiden^brazil); released in mdn-9706 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: callagain
-# SAUCE Author: minotaur
-# SAUCE Group: maiden^brazil
-# SAUCE Date: 19800101
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: callagain by minotaur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9706-mr-call
 
 Write-Host '
 

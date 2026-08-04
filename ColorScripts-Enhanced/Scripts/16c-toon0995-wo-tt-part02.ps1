@@ -1,18 +1,4 @@
-﻿# Converted from: WO-TT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toon0995/raw/WO-TT.ANS
-# Source Revision: archive-sha256:02c0858ccb65f788003d1baa20212382f5d5979442b6fda9c8793eaaadf48a11
-# Source SHA-256: 07f466674572f1d33cd793112b5f2c38a87586957cf806b57f0c264c9fbf3895
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WO-TT.ANS by watOr (toon); released in toon0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: toons town
-# SAUCE Author: watOr
-# SAUCE Group: toon
-# SAUCE Date: 19950824
-# SAUCE Dimensions: 80x84
-# Lines: 42-84
-# Columns: 1-80
+﻿# Artwork: toons town by watOr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toon0995-wo-tt-part02
 
 Write-Host '
 [1;37m████████████████████████▄▄[0m▀▀▀▀[35m▄▄[0;37m▐███[0;1;37;47m▀[0m▀▀▀▀▀▀[35m▄▄[0;1;35m▄[0;35m▄[0;1;35m▄▄██████████▄██[0;1;35;45m▀[0;35m█▀▄▄▄[0;1;37m▀▀▀[0;1;35m [0;35m▄▄▄█▌[0;34m▐██[0m

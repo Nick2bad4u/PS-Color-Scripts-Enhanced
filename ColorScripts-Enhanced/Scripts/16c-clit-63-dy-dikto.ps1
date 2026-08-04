@@ -1,13 +1,4 @@
-﻿# Converted from: dy-dikto.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/clit-63/raw/dy-dikto.ans
-# Source Revision: archive-sha256:d3b4e882f44abd294768cb9bd5670a6445d2a5e2ff15c5853a00f270e296e2a5
-# Source SHA-256: 765ca5f9f50fd347126097a5e33a5ef70f8b3ef8de1078a7b7c5b5f8382c3498
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: dy-dikto.ans by Discyple (clit-63); released in clit-63 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: dy-dikto.ans by Discyple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-clit-63-dy-dikto
 
 Write-Host '
 [1;33;44m ░░        [0;1;35;44m,d└"`       $$²^``               `└*$│b.  [0;1;33;44m░░░░                      [0m

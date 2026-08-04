@@ -1,13 +1,4 @@
-﻿# Converted from: ROY-M8.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac1297b/raw/ROY-M8.ANS
-# Source Revision: archive-sha256:e4c35a24ffc69bcc579de5fc26d58b207367560ff74b93ff41cdf43e1a9c1c22
-# Source SHA-256: 50a5229d056a2f9a9e040c75990d207ae7a46387091a14c2d4eb2ed1aa35b337
-# Source License: FAL-1.3
-# Source Attribution: ROY-M8.ANS by Roy/SAC aka Carsten Cumbrowski; released in sac1297b and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: ROY-M8.ANS by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-m8
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: N-EMS#2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mean9705/raw/N-EMS%232.ANS
-# Source Revision: archive-sha256:96235d9849bffd6005b05e894c29f6b67b3d4c051090948bf653b689870cae3a
-# Source SHA-256: 018e1266340d0c6fd8c63b815300ea341e9e7947616ab681e0ae02ef017e1640
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-EMS#2.ANS by nail (mean scheme); released in mean9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: emissions #2
-# SAUCE Author: nail
-# SAUCE Group: mean scheme
-# SAUCE Date: 19970326
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: emissions #2 by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mean9705-n-ems-2
 
 Write-Host '
                       [36m▄[0;37m [0;1;36;46m▐[0;1;37;40m█▀[0m                    [1;37m█[0;1;36;46m█[0;1;36;40m▀[0m                        [36m [0;1;36m▄▄▄[0;36m▄[0m

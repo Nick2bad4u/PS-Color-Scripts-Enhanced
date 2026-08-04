@@ -1,13 +1,4 @@
-﻿# Converted from: RKS-NEC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nectar01/raw/RKS-NEC1.ANS
-# Source Revision: archive-sha256:db3812836800ba5278d4a1a62edfe8d06c2001872f9fe3d1064cdbc02eec11ac
-# Source SHA-256: c08e54a89d9058aef6fbfa296a7ae9c59b5c1e1a9afe831d064a4ddbdde3e833
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RKS-NEC1.ANS by Ruckus (nectar01); released in nectar01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: RKS-NEC1.ANS by Ruckus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nectar01-rks-nec1
 
 Write-Host '
                                                               [1m░[0m   ░

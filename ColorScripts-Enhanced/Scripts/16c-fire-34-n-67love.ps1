@@ -1,19 +1,4 @@
-﻿# Converted from: N-67LOVE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/N-67LOVE.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: 7f8d8f539a7583a3120bd6076105730d727b1e9eaab7bd966bee445e252188eb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-67LOVE.ANS by nail (blocktronics); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: blocktronics <3 you
-# SAUCE Author: nail
-# SAUCE Group: blocktronics
-# SAUCE Date: 20201222
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: blocktronics <3 you by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-n-67love
 
 Write-Host '
 

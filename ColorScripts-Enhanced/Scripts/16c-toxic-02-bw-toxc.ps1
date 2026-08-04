@@ -1,18 +1,4 @@
-﻿# Converted from: BW-TOXC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toxic-02/raw/BW-TOXC.ANS
-# Source Revision: archive-sha256:7a41e32586e1dd3a5f33420e6d1fb67b20a2e05f1cdbe057f1893bebcaa0b653
-# Source SHA-256: 4a3a2d5033fb56c82b296f6d3a3276afa0e34f02507eb9865c6f3c06876a9eaf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BW-TOXC.ANS by balls wilson? (toxic?); released in toxic-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: i joined toxic!
-# SAUCE Author: balls wilson?
-# SAUCE Group: toxic?
-# SAUCE Date: 19960702
-# SAUCE Dimensions: 80x46
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: i joined toxic! by balls wilson? | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toxic-02-bw-toxc
 
 Write-Host '
 [1;30m▄▄[0;1;37m▄█████████▄▄▄▄▄▄▄▄▄▄▄▄▓▄▄▄▄▄▄▄▄▄▄▄█████[0m [1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█████[0m [1m█████ [0;1;30m▄▄▄▄[0m

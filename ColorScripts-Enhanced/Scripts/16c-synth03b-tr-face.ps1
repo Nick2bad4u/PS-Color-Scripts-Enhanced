@@ -1,18 +1,4 @@
-﻿# Converted from: TR-FACE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/synth03b/raw/TR-FACE.ANS
-# Source Revision: archive-sha256:94395e4c5e5c068c25613faec4d53f1f60dab1509def5efaf998f0b97c101308
-# Source SHA-256: 8301b241aa2e9b0e3d98b11b8c3364c21187dbb91687459c95acf0f7c9876094
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-FACE.ANS by d!   -- trippah (Synthetic.Production); released in synth03b and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: *WANTED* - a nice home for this doo
-# SAUCE Author: d!   -- trippah
-# SAUCE Group: Synthetic.Production
-# SAUCE Date: 19961130
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: *WANTED* - a nice home for this doo by d! -- trippah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-synth03b-tr-face
 
 Write-Host '
 

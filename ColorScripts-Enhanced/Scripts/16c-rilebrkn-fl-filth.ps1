@@ -1,18 +1,4 @@
-﻿# Converted from: FL-FILTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rilebrkn/raw/FL-FILTH.ANS
-# Source Revision: archive-sha256:631709d46940d5f633b8ebca426a515d51357cee4cca25bed435a2a8fbf53a10
-# Source SHA-256: ef39030c21ada7bbe33eaede997667e2e56d3748508659e8ecd58346e65835e1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-FILTH.ANS by flame (RILE); released in rilebrkn and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: filth
-# SAUCE Author: flame
-# SAUCE Group: RILE
-# SAUCE Date: 19970423
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: filth by flame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rilebrkn-fl-filth
 
 Write-Host '
    [31m [0;1;31m▄[0m [31m [0m                   [1;31m    [0m                                             [35mflame[0m

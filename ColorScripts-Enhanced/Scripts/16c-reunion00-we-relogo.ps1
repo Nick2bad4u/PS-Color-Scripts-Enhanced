@@ -1,13 +1,4 @@
-﻿# Converted from: we-relogo.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/reunion00/raw/we-relogo.ans
-# Source Revision: archive-sha256:37cedb6d7b7e8a08a51e592a104e7f60057b430ec8dcba2ff7aaf83ef7582aac
-# Source SHA-256: d8aa376dd4d8ee06d12d2f821bb286be64beda18b0e2f75c8e113edb045db04e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-relogo.ans by Fake (reunion00); released in reunion00 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: we-relogo.ans by Fake | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-reunion00-we-relogo
 
 Write-Host '
 

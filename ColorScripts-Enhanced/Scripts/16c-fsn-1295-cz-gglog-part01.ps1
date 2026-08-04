@@ -1,13 +1,4 @@
-﻿# Converted from: CZ-GGLOG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-1295/raw/CZ-GGLOG.ANS
-# Source Revision: archive-sha256:7dd39ff51d45b4adf63268bbfaef29210de6bedf0c23fc6883b68ab1792a9761
-# Source SHA-256: e3eeb47f4728219f6974badf6903f0da0a1d7bc39841ff8ae00c4f91d116af78
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CZ-GGLOG.ANS by Caze (fsn-1295); released in fsn-1295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: CZ-GGLOG.ANS by Caze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-1295-cz-gglog-part01
 
 Write-Host '
 

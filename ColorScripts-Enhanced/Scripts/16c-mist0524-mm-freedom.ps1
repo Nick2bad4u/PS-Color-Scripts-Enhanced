@@ -1,19 +1,4 @@
-﻿# Converted from: MM-FREEDOM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0524/raw/MM-FREEDOM.ANS
-# Source Revision: archive-sha256:26af390c70c8fbd1a650cda6420771d9febb05e55fff2dce05253b3fc19147b7
-# Source SHA-256: 309561a31fa113b15b59d9671e9992b75c268203607ead2a3a40feb4f70bfb58
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-FREEDOM.ANS by Mavenmob (Mistigris); released in mist0524 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: I don't wanna belong to any of it
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20240408
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: I don't wanna belong to any of it by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0524-mm-freedom
 
 Write-Host '
                    [1;30m@@[0;1;37m  /@@@ @@@[0;1;30m@[0m       [1;30m@[0;1;37m@@ @[0;1;30m@[0m    [1;30m@@[0;1;37m@[0;1;30m@@[0m     [1m@@[0;1;30m@[0m [1;30m@@@@@[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: 67_Calendar_2020_08_August.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktr0nics30302020/raw/67_Calendar_2020_08_August.ans
-# Source Revision: archive-sha256:9a86a13b1ff7cef4b57ed39c1aca190028df54b44bffe10202b539bef3cd3dcc
-# Source SHA-256: 65b38cf93d0b398036a7a91cc2b1904a94bb92e3db163e13f54f43854bde778d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 67_Calendar_2020_08_August.ans by Filth + Nail (blocktronics); released in blocktr0nics30302020 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: dandy lion
-# SAUCE Author: filth + nail
-# SAUCE Group: blocktronics
-# SAUCE Date: 20191223
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: dandy lion by Filth + Nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktr0nics30302020-67-calendar-2020-08-august
 
 Write-Host '
 [1;36;40m████████████████████████████████████████████████████████████████████[0;1;36;47m▓▓▓▓▓▓▓▓▓▓▀▓[0m

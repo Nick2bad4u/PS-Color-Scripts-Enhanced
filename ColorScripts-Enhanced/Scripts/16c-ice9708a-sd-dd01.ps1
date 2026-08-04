@@ -1,13 +1,4 @@
-﻿# Converted from: SD-DD01.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9708a/raw/SD-DD01.ICE
-# Source Revision: archive-sha256:63deb9e752fa85f6afabd8a41875343388a49c3c7ad37b2b9b29f4bfd04a346f
-# Source SHA-256: 7b035349b491e79cc283572df6c40c8d9abc2259a444dead47ecf09bbf3d7c91
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-DD01.ICE by Shadow (ice9708a); released in ice9708a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: SD-DD01.ICE by Shadow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9708a-sd-dd01
 
 Write-Host '
  [1;30m▒▄▄[0;1;30;47m▀▒▒[0;1;30;40m█[0;1;30;47m█[0;1;30;40m█[0;1;30;45m▓▓[0;1;30;40m█▓▓▄▄▄▄▄▄[0m  [1;30m▄[0m   [1;30m░[0m [1;30m▀[0;1;30;45m▓▓[0;1;30;40m▀▀▀[0m [1;30m▀[0m                         [1;30m▐▀▀ [0m   [1;30m▐[0m [1;30m  [0m [1;30m▒▒[0m [35m░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: OX-PSY!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gbg-ar3/raw/OX-PSY!.ANS
-# Source Revision: archive-sha256:1849aab945ef52ceb4ff8720007f9e2606616602f1538b421204561fb84c8a4f
-# Source SHA-256: 0adbfe5999a49f66e4fbaf6452e02e1df42f28cb77133046ab2565f1917f18c9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OX-PSY!.ANS by Orcx (gbg-ar3); released in gbg-ar3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: OX-PSY!.ANS by Orcx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gbg-ar3-ox-psy
 
 Write-Host '
 [34m▄██████▓▒░[0m                          [1;36m▄▄▄▄▄▄[0m             [1;36m▄▀▀▄[0m           [34m░▒▓██████▄[0m

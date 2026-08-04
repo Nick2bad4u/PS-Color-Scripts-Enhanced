@@ -1,13 +1,4 @@
-﻿# Converted from: Rd-dog.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst-15/raw/Rd-dog.ans
-# Source Revision: archive-sha256:a563be41260c82c5b2bfbf7ab7a17eae41de5be20653d94ff9e15b68bc3e5c74
-# Source SHA-256: 60e0cb766bd03abbb0c21039c91faee6b83c217b0631cd7eebd19fd30ae35be6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Rd-dog.ans by Red Death (twst-15); released in twst-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: Rd-dog.ans by Red Death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst-15-rd-dog
 
 Write-Host '
   [33m▄█████████▀[0;1;37m                                             [0;33m▀█████████████▄[0m

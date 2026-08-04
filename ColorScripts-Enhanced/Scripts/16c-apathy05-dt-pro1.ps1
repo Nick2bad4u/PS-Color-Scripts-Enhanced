@@ -1,18 +1,4 @@
-﻿# Converted from: DT-PRO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy05/raw/DT-PRO1.ANS
-# Source Revision: archive-sha256:2e1c7dd4c451a5d024352ee6b56eba52a2d5ba6a7d73a9cc34cff58fc603ca18
-# Source SHA-256: 540a4e2aaf11dc2ce888e5701ea3a39c4546d734157c4fbe560336bd5804ed35
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-PRO1.ANS by Defiant (READ THE INI FILE); released in apathy05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Prophecy login matrix
-# SAUCE Author: Defiant
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19951229
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Prophecy login matrix by Defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy05-dt-pro1
 
 Write-Host '
  [1m█[0;1;47m▓▓▓░[0;30;47m■[0;37;40m▀▄▄ ■[0m        [37;40m▀▀[0;1;30;47m░▒▓[0m  [31m▄██████  ▓█   [0;1;30;47m██▓▒░░[0m▀▀

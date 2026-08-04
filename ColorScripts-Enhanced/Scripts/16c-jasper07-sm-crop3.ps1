@@ -1,13 +1,4 @@
-﻿# Converted from: SM-CROP3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper07/raw/SM-CROP3.ANS
-# Source Revision: archive-sha256:c42bfa4438f002452f1a6bc8caf7f32e2e6bfd8fffb358dd625c49ecd6cf6820
-# Source SHA-256: 0dbe32729c1c7011f7b0f2a6784fadfc3576f593c6d9066b5fc8ec2fa9c2462e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-CROP3.ANS by Smoke (jasper07); released in jasper07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: SM-CROP3.ANS by Smoke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper07-sm-crop3
 
 Write-Host '
 [34macropolis[0m    [34m▄▄[0;30;47m█[0m        [34;40m▄▄[0;30;47m█[0;37;40m  [0;34;40m▄[0m       [37;40m  [0;34;40m▄▄▄▄[0m    [1;34;44m▒[0;34m▄[0;37m    [0;34m▄▄▄[0;37m [0;34m▐▄[0;37m   [0;34m▄▄[0m   [37m   [0;34m▄▄▄[0;37m  [0;1;30msmoke[0m

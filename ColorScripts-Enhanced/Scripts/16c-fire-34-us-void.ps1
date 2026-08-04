@@ -1,19 +1,4 @@
-﻿# Converted from: US-VOID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/US-VOID.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: 4baad76e4052b27bd86bce6941535f1c233c9834817770d138269f7723cf4f5e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-VOID.ANS by Nail + The Night Angel (fire); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the void
-# SAUCE Author: tna + nail
-# SAUCE Group: fire
-# SAUCE Date: 20210219
-# SAUCE Dimensions: 80x34
-# SAUCE Font: IBM VGA
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: the void by Nail + The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-us-void
 
 Write-Host '
 

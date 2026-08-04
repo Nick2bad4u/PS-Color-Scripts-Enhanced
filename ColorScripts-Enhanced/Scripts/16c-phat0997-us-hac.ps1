@@ -1,18 +1,4 @@
-﻿# Converted from: US-HAC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0997/raw/US-HAC.ANS
-# Source Revision: archive-sha256:7c9b6e5a1bf85f5dceb70dad3a430f8a984427653988f85df1c8489157fd2d25
-# Source SHA-256: 3881aaf4a12deb653af49059030d1cb03c03aae05cffbdb81b30cd3af593dc8e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-HAC.ANS by Black Weasel + Avenger (bm.Phat Studios '97); released in phat0997 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: hacienda@!?
-# SAUCE Author: ave_bw_
-# SAUCE Group: bm.Phat Studios '97
-# SAUCE Date: 19970730
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: hacienda@!? by Black Weasel + Avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0997-us-hac
 
 Write-Host '
 [1;30mave.bw_[0;34m [0;1;34m▄▄▄▌▄▄[0m   [1;34m▄▌[0m [34m▄▄▐▄[0;1;34;44m░░░[0;34m▄▄[0m                                       [32m [0;1;33m▄▄[0;32m [0;1;33m▄▌[0m

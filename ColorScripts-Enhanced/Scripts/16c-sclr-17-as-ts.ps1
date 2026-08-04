@@ -1,13 +1,4 @@
-﻿# Converted from: AS-TS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-17/raw/AS-TS.ANS
-# Source Revision: archive-sha256:f792ff7dc93809bbe626ea676ae09ee6fc3d5cc2c6bba4ff1a4525d60214a0e4
-# Source SHA-256: c68d7619b16f82142cbb3529ebd0a8df3ddc5f95741293b5305c2eb9722becb5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AS-TS.ANS by Asd (sclr-17); released in sclr-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: AS-TS.ANS by Asd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-17-as-ts
 
 Write-Host '
                       ☺☺☺

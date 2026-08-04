@@ -1,13 +1,4 @@
-﻿# Converted from: ox-way.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zeit_02/raw/ox-way.ans
-# Source Revision: archive-sha256:e982840417828a62e1aeff459b17fc48750278562ee46820f401f5dfd3bffd7d
-# Source SHA-256: 4c297ba47c79c2e800482c9607bcdaf54a3d578e4bca6d815958a965e0fa025f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ox-way.ans by 0xel (zeit_02); released in zeit_02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: ox-way.ans by 0xel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zeit-02-ox-way
 
 Write-Host '
 [1m  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m

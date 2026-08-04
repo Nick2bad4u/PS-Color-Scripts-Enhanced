@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-DTRN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0298/raw/OUT-DTRN.ANS
-# Source Revision: archive-sha256:b2ed908ebe07b9abc8a1b605d9ab159a38924592b5eaadb06525f7a5e1e213a6
-# Source SHA-256: 6416049012ea5f3fff5cf4368ca9ee7eefe0b4cfa060037e10731de2ecb5560b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-DTRN.ANS by Sandy Chidester (out-0298); released in out-0298 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: OUT-DTRN.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0298-out-dtrn
 
 Write-Host '
  [31m░░  ░  ░   ░░   [0;1;30m▄▄▄▄[0;31m▄▄▄▄▀▀[0;1;30m▄▄ [0;31m▀▀██▀▀ ░ ░ ░[0m     [31m░  ░   ░░   ░░░░ ░░░░[0m     [31m░░░ ░░░[0m

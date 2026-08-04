@@ -1,18 +1,4 @@
-﻿# Converted from: US-PST01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus01/raw/US-PST01.ANS
-# Source Revision: archive-sha256:c3b7d3a0d554e66d218b070e7c37bd6ecc283aab45057ad17a23cad373f11f6b
-# Source SHA-256: e8e88b9d7184c00226e3de79a58d36e1b43550f828eb91d8b9d109d3982cbef0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PST01.ANS by Mr Wrong + Trippah (Fokus fonting); released in fokus01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Polyester
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Fokus fonting
-# SAUCE Date: 19990216
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Polyester by Mr Wrong + Trippah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus01-us-pst01
 
 Write-Host '
 [1m ░[0m░                         [1m       [0;36m░░[0;37m░[0;1;36m▄▄[0m▄[1m [0m░░[1m  [0m░[1m         [0m

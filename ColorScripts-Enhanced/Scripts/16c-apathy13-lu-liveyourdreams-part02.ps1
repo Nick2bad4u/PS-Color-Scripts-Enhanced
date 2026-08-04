@@ -1,19 +1,4 @@
-﻿# Converted from: LU-LIVEYOURDREAMS.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy13/raw/LU-LIVEYOURDREAMS.ans
-# Source Revision: archive-sha256:3ed7178f860604c6b9786846d46fd13095846b81c16a5324edc4e4b9ea7e6ba8
-# Source SHA-256: b8daa3c50e94e8184264c3c6401f925bf0a8d456306bbb851b34e81d123680dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LU-LIVEYOURDREAMS.ans by luciano ayres (apathy); released in apathy13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: live your dreams
-# SAUCE Author: luciano ayres
-# SAUCE Group: apathy
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x129
-# SAUCE Font: IBM VGA
-# Lines: 51-86
-# Columns: 1-80
+﻿# Artwork: live your dreams by luciano ayres | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy13-lu-liveyourdreams-part02
 
 Write-Host '
 [37m                                  [0;31m▄[0;1;31m [0;31m▄[0;1;31m [0;31m▄[0;37m        [0;31m▄[0;1;31m [0;31m▄[0;1;31m   [0;31m▄[0m

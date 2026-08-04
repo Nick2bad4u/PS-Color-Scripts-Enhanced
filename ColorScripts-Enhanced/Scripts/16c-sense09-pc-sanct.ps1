@@ -1,18 +1,4 @@
-﻿# Converted from: PC-SANCT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense09/raw/PC-SANCT.ANS
-# Source Revision: archive-sha256:b3e3029d8f7c1c608f2835055baa2116210e782109ea7dc0a1af3ca3d050e5b9
-# Source SHA-256: 90af41b64975d6157fa652e3507adda6179423f00027218933653f1fbe526b49
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-SANCT.ANS by Proctologist (SeNsE); released in sense09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Inner Sanctum
-# SAUCE Author: Proctologist
-# SAUCE Group: SeNsE
-# SAUCE Date: 19980514
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Inner Sanctum by Proctologist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense09-pc-sanct
 
 Write-Host '
 [1m [0m

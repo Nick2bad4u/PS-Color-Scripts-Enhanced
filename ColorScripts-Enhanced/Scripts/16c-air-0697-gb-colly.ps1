@@ -1,18 +1,4 @@
-﻿# Converted from: GB-COLLY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/air_0697/raw/GB-COLLY.ANS
-# Source Revision: archive-sha256:5cd3011ba297092d80d79117f4d787f8ea3f225f068d30fcf0de8461325ab083
-# Source SHA-256: 0880d842222719dd392c1effa117d770f920922aa7e25b76f4f9b7a80568273a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GB-COLLY.ANS by geek_boy (lush); released in air_0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: colly
-# SAUCE Author: geek_boy
-# SAUCE Group: lush
-# SAUCE Date: 19970324
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: colly by geek_boy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-air-0697-gb-colly
 
 Write-Host '
      ░[30;47m▓▓[0;1;35;40m░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: ARL-SUX5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe08/raw/ARL-SUX5.ANS
-# Source Revision: archive-sha256:cfc36d5daeed2f6543814097ace687f378a50215c24a95a0de66b512e3a41b9d
-# Source SHA-256: 01ff4fa17c2c36897fc3965c24608b8a866a7ccd890d9c64df586897355cf39b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARL-SUX5.ANS by arlequin (circe); released in circe08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: I don't want
-# SAUCE Author: arlequin
-# SAUCE Group: circe
-# SAUCE Date: 19971227
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: I don't want by arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe08-arl-sux5
 
 Write-Host '
                               [1;34m▄▄▄▄▄[0m

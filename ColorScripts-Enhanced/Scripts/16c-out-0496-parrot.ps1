@@ -1,13 +1,4 @@
-﻿# Converted from: PARROT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0496/raw/PARROT.ANS
-# Source Revision: archive-sha256:cdd9cc2f1fca042f78e917daf1bb7a23c87facda51f5746b4bcfb25070cd2f45
-# Source SHA-256: 5172a74f58719857229cb2ea515bbff1870d21c7222227185f5176e010f5c9d3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PARROT.ANS by Sandy Chidester (out-0496); released in out-0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: PARROT.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0496-parrot
 
 Write-Host '
 [1;32;42m░░░▒[0;32;43m▄[0;33;42m▀▀▀▀▀▀▀▀▀▀████████████████████████████[0;33;43m     [0;1;33;43m░░░░░░░░░░▒▒▒▓▓▓▓▓▓▓▓▓▓▓▒▒▒░░░░░[0m

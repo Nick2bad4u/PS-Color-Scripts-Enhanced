@@ -1,13 +1,4 @@
-﻿# Converted from: HX-PSYCH.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9402/raw/HX-PSYCH.ICE
-# Source Revision: archive-sha256:542a55b371fcf2e1b6ce730207fe668cc74b9fc898d3341dc11812e6d7a4ac5c
-# Source SHA-256: 1789d59163fea206176a9e0b8f0d21e65d817c125d4d5d1fc872d5c229683e01
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HX-PSYCH.ICE by Hoaks (ice-9402); released in ice-9402 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 98-145
-# Columns: 1-80
+﻿# Artwork: HX-PSYCH.ICE by Hoaks | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9402-hx-psych-part03
 
 Write-Host '
 [1;30m    [0;35m██▓▒░[0;37;43m▒░▒[0m  [37;43m░▒[0;1;37;47m░[0m█[1;47m▒▓▓[0;1;40m█[0;1;47m▓▓[0;43m▒[0;1;47m▒▒[0;43m▒▒[0m [1;40m▀▄[0;1;47m░░▓█[0;1;40m█[0;1;47m▄░░[0;43m▓▒▒▓▓[0;1;30;40m█[0;1;30;47m▐[0m [1;30;43m▓[0;1;30;40m▐[0;1;30;47m▀[0m [1;30;47m▓▓▒[0;1;37;47m▒▓[0;1;37;40m▀ ▀  ▀▀█[0;1;37;43m▓▒▒░[0;1;30;40m▄▓▄[0;1;30;43m▓[0;33m▒[0m

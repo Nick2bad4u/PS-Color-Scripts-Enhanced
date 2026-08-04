@@ -1,19 +1,4 @@
-﻿# Converted from: US-DIS2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz11/raw/US-DIS2.ans
-# Source Revision: archive-sha256:68621cb5db58e1d89f5deb5798f3990fa932a6b4eb91cc1511f3f4c157d26f38
-# Source SHA-256: 1e18f0f0890a55b762f50559bfc20a933453092930bc93a83f22a4957b790992
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DIS2.ans by Warpus + Nail (blocktronics&lazarus); released in laz11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: lazarus #1 flashback
-# SAUCE Author: nail + warpus
-# SAUCE Group: blocktronics&lazarus
-# SAUCE Date: 20200526
-# SAUCE Dimensions: 80x61
-# SAUCE Font: IBM VGA
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: lazarus #1 flashback by Warpus + Nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz11-us-dis2-part01
 
 Write-Host '
                       [32;40m                                       [0m

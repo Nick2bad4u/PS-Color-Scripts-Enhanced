@@ -1,13 +1,4 @@
-﻿# Converted from: THRONE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ensiart/raw/THRONE.ANS
-# Source Revision: archive-sha256:1740ea49d8e6dbe7ec5d2c508ba38bad12fe73c43c677e55524f61db5ff5063b
-# Source SHA-256: d285eecb91d4ae4a372598415862c363591be96a8d4c2fc09106257fef4c454f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: THRONE.ANS by Tom Bradford (ensiart); released in ensiart and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: THRONE.ANS by Tom Bradford | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ensiart-throne
 
 Write-Host '
 [1;30;47m░░░░[0;1;30;40m░▒▓█[0;1;30;47m▓▒░[0m█[1;47m░▒▓█[0;1;30;47m░░░░░▒▓[0;1;33;40m█[0;1;33;41m   [0;1;30;41m░      ░     ░     ░    ░  [0;1;33;40m█[0;1;30;47m░░░░░░░░[0;1;30;40m░▒▓█[0;1;30;47m▓▒░[0m█[1;47m░▒▓█[0;1;30;47m░░░░░[0m

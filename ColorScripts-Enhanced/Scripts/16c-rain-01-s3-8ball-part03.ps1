@@ -1,13 +1,4 @@
-﻿# Converted from: S3-8BALL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rain-01/raw/S3-8BALL.ANS
-# Source Revision: archive-sha256:2f38349eb23086310231edecc8b7133f5a5e2c73e0ee552341bdc50f1dbb10ed
-# Source SHA-256: d5c295f856b671e1dcc7a97e5b0ed01cb265d2f28d76b95ce29066bbf46af1c0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S3-8BALL.ANS by Saturn 32 (rain-01); released in rain-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 74-115
-# Columns: 1-80
+﻿# Artwork: S3-8BALL.ANS by Saturn 32 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rain-01-s3-8ball-part03
 
 Write-Host '
                  [1;30;40m▐[0m       [1;30;41m [0;1;37;41m░░▓[0;1;37;40m    [0;35m▄▄██[0;35;41m▓▓[0;1;37;41m█▓▓▓▓▓▓▒░   ░▒▓[0;1;37;40m▌ [0;1;30;40m▌[0m

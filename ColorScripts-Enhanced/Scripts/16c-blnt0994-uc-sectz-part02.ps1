@@ -1,13 +1,4 @@
-﻿# Converted from: UC-SECTZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blnt0994/raw/UC-SECTZ.ANS
-# Source Revision: archive-sha256:26305db106b5b18d3756a7eb9445ee1ed99e643f39d1325d10c3335a2935484a
-# Source SHA-256: de57b5f539ac6ed925f8262ae96d89a45ce19f03748861f672296269b70ce349
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UC-SECTZ.ANS by Unknown Comic (blnt0994); released in blnt0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: UC-SECTZ.ANS by Unknown Comic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blnt0994-uc-sectz-part02
 
 Write-Host '
 [30;45m       [0m [33m█[0;30;43m▀[0;43m░░░░░░░░░░░░░[0;1;30;43m░░[0m [1;30;43m   [0;30;43m▒▐[0;30;45m▌                      ▐[0;30;43m▌ ▒ [0m [1;30;43m░░░░[0;43m░░[0;30;43m▐▌ ▒      ▒▒▒[0m

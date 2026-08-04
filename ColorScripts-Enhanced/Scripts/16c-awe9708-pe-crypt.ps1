@@ -1,17 +1,4 @@
-﻿# Converted from: PE!CRYPT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9708/raw/PE!CRYPT.ANS
-# Source Revision: archive-sha256:defa13458710db8b7c1fa20a6cd29749e80a61eef8ba8dc70e8a9a4a0b1d4f5d
-# Source SHA-256: 97616c91e5a142702351178d00704de819ed2d62341d27b8b9382620737f91d3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PE!CRYPT.ANS by Phony Eye (AWE Lettering); released in awe9708 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Crypt
-# SAUCE Author: Phony Eye
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: The Crypt by Phony Eye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9708-pe-crypt
 
 Write-Host '
 [31m [0;1;30m [0;1;30;41m [0;1;30;40m      [0m [1;30m      [0m    [31m   [0m             [1;34m [0m                               [36m    [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PR-SC01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rvl-0496/raw/PR-SC01.ANS
-# Source Revision: archive-sha256:fb85f10f863b19a0a085090f27d02dccac53bd566d5aec26206bd955b2a7fcd8
-# Source SHA-256: 57042051d54065d2c18d52a72cfa80e5c288ed36b610b7d1172287ce46d0f1fd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR-SC01.ANS by Psybrrape (RiVAL); released in rvl-0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: sUper cUnt!
-# SAUCE Author: Psybrrape
-# SAUCE Group: RiVAL
-# SAUCE Date: 19960409
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: sUper cUnt! by Psybrrape | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rvl-0496-pr-sc01
 
 Write-Host '
 

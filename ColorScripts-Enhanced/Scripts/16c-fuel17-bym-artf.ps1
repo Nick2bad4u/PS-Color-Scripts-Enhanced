@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-ARTF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel17/raw/BYM-ARTF.ANS
-# Source Revision: archive-sha256:6bb17dad2b087feff514e10d76b337034c943aff1fa5007d50b103cb34f90d66
-# Source SHA-256: db77f61030c0bf34b3c277aa44c9820a00217ebfa21c2ebfb707f98e555d0532
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-ARTF.ANS by big yellow man (fuel); released in fuel17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: artflew
-# SAUCE Author: big yellow man
-# SAUCE Group: fuel
-# SAUCE Date: 19970929
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: artflew by big yellow man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel17-bym-artf
 
 Write-Host '
                             [31m▐▌[0m                       [31m▐[0m       [1;34m░[0m

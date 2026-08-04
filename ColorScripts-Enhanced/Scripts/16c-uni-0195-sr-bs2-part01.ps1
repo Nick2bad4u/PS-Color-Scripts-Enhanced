@@ -1,18 +1,4 @@
-﻿# Converted from: SR-BS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0195/raw/SR-BS2.ANS
-# Source Revision: archive-sha256:874f19df1d2975eb4a251b4e9722be66f88a94e2778db4593e3b6fbe57329d35
-# Source SHA-256: 5afaa42aa40670cff10adfcc02a0ee148e62454703d01e2c5518d4f498b8c469
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SR-BS2.ANS by Silver Rat (Union); released in uni-0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Blood Shot 2
-# SAUCE Author: Silver Rat
-# SAUCE Group: Union
-# SAUCE Date: 19950101
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Blood Shot 2 by Silver Rat | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0195-sr-bs2-part01
 
 Write-Host '
                   [36m  [0m    [36m     ▄ ▄████████████▄▄▄   [0m

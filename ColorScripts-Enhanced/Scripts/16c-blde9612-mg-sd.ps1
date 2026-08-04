@@ -1,18 +1,4 @@
-﻿# Converted from: MG-SD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9612/raw/MG-SD.ANS
-# Source Revision: archive-sha256:634aaac85c7d9b6072d119f8ce41f9d77a163e2892fb18d233be18fe4fed4816
-# Source SHA-256: 0eed525dd6b78c2347689def5a9d8c6916de64d9d5641084d8fb284621765c3e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MG-SD.ANS by Mega (BLiSTiGRiS); released in blde9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Skull Duggery colly
-# SAUCE Author: Mega
-# SAUCE Group: BLiSTiGRiS
-# SAUCE Date: 19961016
-# SAUCE Dimensions: 80x25
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: Skull Duggery colly by Mega | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9612-mg-sd
 
 Write-Host '
 [1;34;44m█[0;1;34;47m█▓▒▒░░▒▓[0;1;34;44m███[0;1;34;40m▀[0m [1;33m▄▄[0;31m▄[0;37m [0;31m   [0;37m   [0;30m░[0;31m▄▄▄▄▄▄▄▄▄▄▄[0;1;31;41m▓██████[0;1;31;47m▓▒▒▓[0;1;31;41m██████[0;31m▄▄▄▄▄▄▄▄▄▄[0m

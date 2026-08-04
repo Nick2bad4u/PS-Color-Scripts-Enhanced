@@ -1,18 +1,4 @@
-﻿# Converted from: US-NERP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-01/raw/US-NERP.ANS
-# Source Revision: archive-sha256:c4f943c9f8f5c49a2aabdd3612f9f26bd1b04de18aa8de6e38c69a3051111537
-# Source SHA-256: 375af4717d4f2935447c6da44eb34b773e05d2c4fca3f43e5d17278ca55063a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-NERP.ANS by Toot + Blaze-Infinite (nerp & inf); released in nerp-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: nerp
-# SAUCE Author: blaze & toot
-# SAUCE Group: nerp & inf
-# SAUCE Date: 19970718
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: nerp by Toot + Blaze-Infinite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-01-us-nerp
 
 Write-Host '
   [35m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m     [35m ░░░░░░[0m          [35m ▐[0;1;35;45m█[0;1;35;47m▄▄▌[0;1;37;47m▀[0;1;35;47m▐[0;35m▌[0m    [1;30m▄[0m▄▄▄[1;30;47m▀[0;1;37;47m░▓██▌▄[0;1;30;47m▀[0m▄▄▄[1;30m▄[0m

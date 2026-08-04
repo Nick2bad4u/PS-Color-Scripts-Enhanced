@@ -1,13 +1,4 @@
-﻿# Converted from: M!-FACE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spr_07/raw/M!-FACE.ANS
-# Source Revision: archive-sha256:491a09c0e89bb57ae22cc79be83b57d04e479fcd9fe6a15bcb489d11b02aee41
-# Source SHA-256: e6831690637e7ddf014dbc9503964977a0316b8a96207fe621605221c5b03566
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M!-FACE.ANS by Mike (spr_07); released in spr_07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: M!-FACE.ANS by Mike | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spr-07-m-face
 
 Write-Host '
 [1;30m[0m[1m[0;1;33m[0m  [1;30m                 [0m         [1m    [0;1;33m    [0m                      [1;30m ▄ ▄[0m

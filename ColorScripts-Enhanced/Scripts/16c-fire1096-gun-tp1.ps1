@@ -1,18 +1,4 @@
-﻿# Converted from: GUN-TP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1096/raw/GUN-TP1.ANS
-# Source Revision: archive-sha256:0aef116e4290fa41749730625329f38610014fc9d720313823330534bc5bca90
-# Source SHA-256: 932ea8cabf0e08f824a239ed62259a760b0a70336982f9d32df97e53d49d628e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GUN-TP1.ANS by Gunthar (FiRE); released in fire1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Projectz
-# SAUCE Author: Gunthar
-# SAUCE Group: FiRE
-# SAUCE Date: 19961012
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: The Projectz by Gunthar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1096-gun-tp1
 
 Write-Host '
 [1;31;41m██▒░ ░[0;30;41m ░░[0;31;40m▀▀▀▀▀▐[0;1;31;41m▒██▓▓░▓░░░░░░░░░░░░░[0;30;41m [0;1;31;41m░░ ░[0;30;41m░░[0;31;40m▄▌[0m

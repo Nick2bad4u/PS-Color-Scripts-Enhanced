@@ -1,18 +1,4 @@
-﻿# Converted from: AB-DD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spin02/raw/AB-DD1.ANS
-# Source Revision: archive-sha256:3cde50e59a0be9713b40f87d75b8cb62168e400a52dac471babfef5aef651f7f
-# Source SHA-256: 1a410e562fe2d7858431cd0444bd57e735e030423bf12e05ba090bba33e71dff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AB-DD1.ANS by aCID^bURN (spin); released in spin02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Deep down promotion
-# SAUCE Author: aCID^bURN
-# SAUCE Group: spin
-# SAUCE Date: 19980817
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Deep down promotion by aCID^bURN | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spin02-ab-dd1
 
 Write-Host '
                ░

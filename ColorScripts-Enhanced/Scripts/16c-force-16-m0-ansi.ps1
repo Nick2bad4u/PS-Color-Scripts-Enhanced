@@ -1,18 +1,4 @@
-﻿# Converted from: M0-ANSI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-16/raw/M0-ANSI.ANS
-# Source Revision: archive-sha256:9ad935bd4cbb2615c5c684e690bc8979daa45859d0282b370bf26a8750d02425
-# Source SHA-256: be1ae3b622e4753faf3f06122ea8f6df149bfc77691fa302838d5c4d7a98f78d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M0-ANSI.ANS by m0sen (force); released in force-16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ansi collection
-# SAUCE Author: m0sen
-# SAUCE Group: force
-# SAUCE Date: 19980226
-# SAUCE Dimensions: 80x44
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: ansi collection by m0sen | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-16-m0-ansi
 
 Write-Host '
 

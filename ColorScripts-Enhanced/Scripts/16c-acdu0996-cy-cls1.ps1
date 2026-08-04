@@ -1,18 +1,4 @@
-﻿# Converted from: CY-CLS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0996/raw/CY-CLS1.ANS
-# Source Revision: archive-sha256:28df6d6ebb426351f7b23fe6f583a998e03c4447a46d1ae63d7f7aa63a80eb5d
-# Source SHA-256: 3ce3b7266471903bf687303ffad5aa09d33a97e627f0ee5c53b2cfcef6dfb1bc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CY-CLS1.ANS by Crayon (acid); released in acdu0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: cls
-# SAUCE Author: Crayon
-# SAUCE Group: acid
-# SAUCE Date: 19960918
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: cls by Crayon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0996-cy-cls1
 
 Write-Host '
                                           [32m [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: FD-CIT.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9402/raw/FD-CIT.ICE
-# Source Revision: archive-sha256:542a55b371fcf2e1b6ce730207fe668cc74b9fc898d3341dc11812e6d7a4ac5c
-# Source SHA-256: 3198b37a01374ad8968f07b4181ddd539599ee151499b3472c69c841ded2db63
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FD-CIT.ICE by Final Descendant (ice-9402); released in ice-9402 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: FD-CIT.ICE by Final Descendant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9402-fd-cit
 
 Write-Host '
 [1;30m░▒▓██████████████████████████████████████████████████████████████████████████▓▒░[0m

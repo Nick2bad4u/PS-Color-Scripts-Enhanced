@@ -1,13 +1,4 @@
-﻿# Converted from: RA-VD2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/irapack4/raw/RA-VD2.ANS
-# Source Revision: archive-sha256:ecb1d80dafdb417e5051f5ba35e0e511304e00b3a6fc7254558e7c31767db2ac
-# Source SHA-256: fdeea56dfa34fb375423b6b0a6f5f99d6b367fc03ee5133beb01088a86c11fc8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RA-VD2.ANS by Raptor 709 (irapack4); released in irapack4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: RA-VD2.ANS by Raptor 709 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-irapack4-ra-vd2
 
 Write-Host '
                                      [37m▄▄▄▄[0m

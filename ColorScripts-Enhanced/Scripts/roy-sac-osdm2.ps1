@@ -1,13 +1,4 @@
-﻿# Converted from: ROY-OSDM2.ANS
-# Source encoding: CP437
-# Source URL: https://www.roysac.com/images/galleries/ZIP/Roy_ANSI.ZIP
-# Source Revision: archive-sha256:8598a9432b4feb86c4e79552795b407b9d7c576fb6f25e9828d6143f1c7b35bc
-# Source SHA-256: 3246ebe86928dbc7bdb3cb84a775c3f093c70f6e4868a9fd630011f1da4032cd
-# Source License: FAL-1.3
-# Source Attribution: ROY-OSDM2.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: ROY-OSDM2.ANS by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-osdm2
 
 Write-Host '
                     [1;30m▄[0m▄▄[1;30m▄[0m                     ▄[1;30m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: TSK-JIZZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0996/raw/TSK-JIZZ.ANS
-# Source Revision: archive-sha256:28df6d6ebb426351f7b23fe6f583a998e03c4447a46d1ae63d7f7aa63a80eb5d
-# Source SHA-256: 156a37826be0e8fc61756b1753421c6da007a9830e49f6d4f8ef4b5fba4a3585
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-JIZZ.ANS by tsk (acid); released in acdu0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: jizz
-# SAUCE Author: tsk
-# SAUCE Group: acid
-# SAUCE Date: 19960918
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: jizz by tsk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0996-tsk-jizz
 
 Write-Host '
 

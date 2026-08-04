@@ -1,18 +1,4 @@
-﻿# Converted from: KG-ANET.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0696/raw/KG-ANET.ANS
-# Source Revision: archive-sha256:8494f3a8948f74cf3cd464c193f6f00bfbc8526a82e5d8d73cb6e14f2d331007
-# Source SHA-256: c423008da760bb81fa8e0c60715135979040130a18861022ea3cefd7fc04bb0a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KG-ANET.ANS by Kingyo! (Mistigris); released in mist0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: AuraNet Advertisement
-# SAUCE Author: Kingyo!
-# SAUCE Group: Mistigris
-# SAUCE Date: 19960318
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: AuraNet Advertisement by Kingyo! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0696-kg-anet
 
 Write-Host '
 [1;34m▄ ▀▀▀█████████▄[0;30;47m██[0;37;40m░▒[0;1;37;47m▀▒▓█▓██[0m▓[30;47m█[0;1;34;40m▀██▄[0;30;47m█[0;1;34;40m▀██[0;30;47m███[0;30;42m▀▀▀[0;1;32;42m▒[0;30;42m▀[0;30;47m▄▄[0;1;37;47m░[0;30;47m ▄[0;1;33;40m ▀█░▀▒▄██▓█[0;30;47m█[0;1;37;47m▓[0;30;47m▄▄[0;1;37;47m▓▀█▓▀▒▒[0;30;47m▄▄▄[0;1;34;40m▄▄▄███[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: SZ-GC2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-29a/raw/SZ-GC2.ANS
-# Source Revision: archive-sha256:5de89fa125eb7333a54bae49908ef76358fcc0ce9b3df66010dca2eb64b17560
-# Source SHA-256: 26d5b42c88c7a93368488788a8c6ee2ecc238c0e9d903372d880c7a01097fd3d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SZ-GC2.ANS by Slackzor (purg-29a); released in purg-29a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: SZ-GC2.ANS by Slackzor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-29a-sz-gc2
 
 Write-Host '
 [34m█████▌░▒▓█[0;1;34;46m▓░░   ▀▀[0;1;34;44m▄[0;1;34;46m████▄█▄   ▄▄▄   ▄▄█████▄   █████  ▄[0;1;34;40m▄▄[0;34m▄▄ ▀█[0;1;36;44m         [0;1;34;44m>>[0;1;36;44msz[0;1;37;44m([0;1;32;44mpurg[0;1;37;44m)[0m

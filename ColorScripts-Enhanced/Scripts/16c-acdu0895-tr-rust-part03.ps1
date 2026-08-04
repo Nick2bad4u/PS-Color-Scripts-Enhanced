@@ -1,18 +1,4 @@
-﻿# Converted from: TR-RUST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0895/raw/TR-RUST.ANS
-# Source Revision: archive-sha256:3becf3c2c00dadeb41257fa85bb842a48deb8515cdc494db0d9ff697d2e04d12
-# Source SHA-256: 4cd8533abe4fcac3315515451faf23db418b334f16943d569a970a3de344b6f8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-RUST.ANS by Tripe (ACiD Productions); released in acdu0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Rust
-# SAUCE Author: Tripe
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950730
-# SAUCE Dimensions: 80x128
-# Lines: 86-128
-# Columns: 1-80
+﻿# Artwork: Rust by Tripe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0895-tr-rust-part03
 
 Write-Host '
 [1;31;43m▓▒░[0;30;43m▄▄▀▒[0;37;40m [0;1;31;40m▄▄[0;1;31;43m▓▓▓▓███▓▒[0;30;43m█[0;1;31;43m░▒▓[0;30;43m█[0;1;30;40m█[0m░▒░[1;30m█[0m [1;47m▓▓████▓[0m [1;30m█[0m░[1;30m▌[0;1;37;47m▓███▓▓[0;1;30;40m █[0m░▒░[1;30m█▌[0;1;37m▐[0;1;37;47m▒▒▓███▓▒[0m [1;30m█[0m░░[1;30m█[0m [1;47m▒▓▓███▓▓▒[0;30;47m▄[0m

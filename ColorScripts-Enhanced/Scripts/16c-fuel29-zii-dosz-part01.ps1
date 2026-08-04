@@ -1,19 +1,4 @@
-﻿# Converted from: zII-DOSZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel29/raw/zII-DOSZ.ANS
-# Source Revision: archive-sha256:a7926daad48a6eaeb3fe9fe16388ddf3683cf76fdb5fb4156f51cd91fc2d12a5
-# Source SHA-256: 4b7a3678270a6992d2e609262fde48f89cf1d5eee1fc28cd5102b9329ecf1390
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zII-DOSZ.ANS by Zeus II (FUEL); released in fuel29 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: DOSZombie goodbye screen
-# SAUCE Author: Zeus II
-# SAUCE Group: FUEL
-# SAUCE Date: 20190302
-# SAUCE Dimensions: 80x81
-# SAUCE Font: IBM VGA
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: DOSZombie goodbye screen by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel29-zii-dosz-part01
 
 Write-Host '
 

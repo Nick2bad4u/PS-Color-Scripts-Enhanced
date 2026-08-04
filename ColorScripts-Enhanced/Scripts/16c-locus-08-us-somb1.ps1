@@ -1,15 +1,4 @@
-﻿# Converted from: US-SOMB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/locus-08/raw/US-SOMB1.ANS
-# Source Revision: archive-sha256:eb790a44f4898ec0d7ea4b8e4754397832c1823b5b2db7b7444fc80312388961
-# Source SHA-256: fcc51c4c9b8b11074ac0f6328a0ae1d15b3f9816e065e3127cdd94e06f92843d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SOMB1.ANS by Rippa + Avenging Angel (locus-08); released in locus-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 19990308
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: US-SOMB1.ANS by Rippa + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-locus-08-us-somb1
 
 Write-Host '
 [34m  [0m        [34m  [0m                         [32m▄[0;37m  [0;32m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: mmc04-03.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bommc01/raw/mmc04-03.ans
-# Source Revision: archive-sha256:0e202a554be4c5a61c37230b2f619caf545c069dc1c49e22f04718c59893cd7d
-# Source SHA-256: 8c497a91b9734936be07b7790c669507cfc404b8425c5472422f453b156b4a00
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mmc04-03.ans by prosthesis (mimic); released in bommc01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: mimic
-# SAUCE Author: prosthesis
-# SAUCE Group: mimic
-# SAUCE Date: 19970422
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: mimic by prosthesis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bommc01-mmc04-03
 
 Write-Host '
   [34m   [0;37m      [0m

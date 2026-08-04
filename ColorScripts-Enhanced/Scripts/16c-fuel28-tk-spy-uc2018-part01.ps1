@@ -1,19 +1,4 @@
-﻿# Converted from: tk-spy_uc2018.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel28/raw/tk-spy_uc2018.ans
-# Source Revision: archive-sha256:f19d9f1f4d98a894d9a58a43443858287108d50e702695e0859df539776cf44a
-# Source SHA-256: e41c479048e6ffb471831067791b3313a5182c4ba1faaf45af184da918df3068
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tk-spy_uc2018.ans by The Knight (Fuel); released in fuel28 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Spy vs Spy @ UC2018
-# SAUCE Author: The Knight
-# SAUCE Group: Fuel
-# SAUCE Date: 20181221
-# SAUCE Dimensions: 80x57
-# SAUCE Font: IBM VGA
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Spy vs Spy @ UC2018 by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel28-tk-spy-uc2018-part01
 
 Write-Host '
 

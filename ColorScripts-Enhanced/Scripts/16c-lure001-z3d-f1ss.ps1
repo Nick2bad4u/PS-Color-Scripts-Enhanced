@@ -1,18 +1,4 @@
-﻿# Converted from: Z3D-F1SS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lure001/raw/Z3D-F1SS.ANS
-# Source Revision: archive-sha256:4bd385abce2c9c5a8caaface84fa74809f8b3dae67f2f4374e4664550d5af3bf
-# Source SHA-256: 8ea7586e000b6ea9d3fdb0e4144308b9e9176b72d14dad2972d337fe7bdbf89a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Z3D-F1SS.ANS by zed3dee (fl1q.f1ss10n.2nvs); released in lure001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: f15510n baby!!
-# SAUCE Author: zed3dee
-# SAUCE Group: fl1q.f1ss10n.2nvs
-# SAUCE Date: 20010225
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: f15510n baby!! by zed3dee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lure001-z3d-f1ss
 
 Write-Host '
 [1;31;41m░[0;34m ▀ ▄ [0;31m▐█[0;1;31;41m█[0;1;31;47m▄▓[0;1;31;41m▓[0;1;31;40m▓▓[0;31m█▄█▀ ▄[0;1;31m▄[0;1;31;41m▄[0;1;31;40m▓▒[0;31m▌ [0;34m [0;1;30m [0;31m▀[0;1;30m▀[0;31m  ▄░░  [0;37m [0;31m  [0;1;37mf[0;1;30m [0;1;37m1[0;1;30m [0m5[1;30m [0m5[1;30m [0m1[1;30m 0 n[0m   [31m░░░▓▓███▀[0;1;31;41m░▓██▀[0;31m▀[0;37m  ▀[0;1;30m▀[0m [1;31;41m░▓█▄[0m

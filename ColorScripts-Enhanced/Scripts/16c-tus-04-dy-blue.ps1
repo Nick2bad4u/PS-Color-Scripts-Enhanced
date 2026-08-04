@@ -1,13 +1,4 @@
-﻿# Converted from: DY-BLUE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tus-04/raw/DY-BLUE.ANS
-# Source Revision: archive-sha256:cecd03bcea0453e8e941f2420e67a6eaf0283c8555a366d61575392cb904d263
-# Source SHA-256: 89986c5ef3e3a312c0b858f64f5ca4f9009e3918d2c5000a8f0317b25f264641
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DY-BLUE.ANS by Discyple (tus-04); released in tus-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: DY-BLUE.ANS by Discyple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tus-04-dy-blue
 
 Write-Host '
                                            [1;30m▄▄[0m▄[1;32m▄[0;1;32;42m▄▄▄▄▄▄[0;1;32;40m▄▄[0;32m▄[0;1;30m▄ [0m

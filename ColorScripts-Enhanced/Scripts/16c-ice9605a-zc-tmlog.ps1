@@ -1,13 +1,4 @@
-﻿# Converted from: ZC-TMLOG.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9605a/raw/ZC-TMLOG.ICE
-# Source Revision: archive-sha256:cf7acb12a0ec01e1383bf24c3c45a68bc55fde8f0e38cd56180a1936aa9f8089
-# Source SHA-256: 89373ab282e6b08cdec153795dd189af230c968ca40cdc5fc63bd9fa1b981cde
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZC-TMLOG.ICE by Zaico (ice9605a); released in ice9605a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: ZC-TMLOG.ICE by Zaico | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9605a-zc-tmlog
 
 Write-Host '
 [33m▓███▓▀▀ [0;1;31m    [0;33m▄[0;1;31m▄▄[0;1;31;43m░▓▄▒[0;1;31;40m██████[0;1;31;43m█[0;1;31;40m█████████[0;1;31;43m▓▓▀░ [0;1;31;40m [0;33m▀[0;1;31m▀▀[0;33m▓[0;1;31m [0;33m▄[0;1;31m█[0;1;31;43m▄[0m [34m▀▓█[0m     [34m▀▓▓ [0;37m [0;34m░░▄░ ░▒▒▓█[0;37m [0;34m░▄[0m

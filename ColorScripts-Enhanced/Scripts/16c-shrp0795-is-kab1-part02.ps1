@@ -1,18 +1,4 @@
-﻿# Converted from: IS-KAB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shrp0795/raw/IS-KAB1.ANS
-# Source Revision: archive-sha256:91f3c2e4a03a0278e83d74c36faea27756b86dbd1352f889dd583c9d3fbd46a5
-# Source SHA-256: a756f5d7a76e63af6e9ac4256a95a1aa6bc28a682e31ac0fade5c7e7c2d3d8a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IS-KAB1.ANS by Iseilice (SHARP); released in shrp0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Kabalah
-# SAUCE Author: Iseilice
-# SAUCE Group: SHARP
-# SAUCE Date: 19950706
-# SAUCE Dimensions: 80x73
-# Lines: 36-73
-# Columns: 1-80
+﻿# Artwork: The Kabalah by Iseilice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shrp0795-is-kab1-part02
 
 Write-Host '
                     [33;40m ▒▒▒▒▒[0;37;40m   [0;31;40m [0;33;40m▒[0;31;40m [0m         [37;40m   ███[0;33;40m████[0;37;40m████████████[0;33;40m██[0;37;40m███        [0m

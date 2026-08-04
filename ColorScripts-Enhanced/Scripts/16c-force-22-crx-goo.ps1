@@ -1,18 +1,4 @@
-﻿# Converted from: CRX-GOO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-22/raw/CRX-GOO.ANS
-# Source Revision: archive-sha256:e9d0326568be41d972423c1883bc8d5eea4966bab9e81326785f82909893446c
-# Source SHA-256: 3932db18d6c559f275d425c3c4d20902e7f1887ca85d9abc491fd6d82dbcfbe9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CRX-GOO.ANS by chr0nix (f0rc3); released in force-22 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: g00 emag
-# SAUCE Author: chr0nix
-# SAUCE Group: f0rc3
-# SAUCE Date: 19980715
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: g00 emag by chr0nix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-22-crx-goo
 
 Write-Host '
 [30;46m▓▓▓▓[0m [30;46m▀▀[0;1;36;46m░░[0;30;46m   ▄▀[0;1;36;46m▄█▓░[0m [30;46m▄  [0;1;36;46m░░░▒▒▒▓[0;1;36;40m▓▓[0;1;37;46m▓▓██[0;1;33;46m█[0;1;36;46m██[0;1;36;40m▓[0;1;36;46m▓▒▒░░░[0;30;46m▄[0;1;36;46m░░░▒[0;1;36;40m▓[0;1;36;46m▓█[0;1;37;40m█[0;1;36;46m█[0;1;36;40m▓[0;1;36;46m▓▓▒░[0;30;46m       [0;1;36;46m░░░▒▒▓[0;1;37;46m███[0;1;36;46m█ █[0m

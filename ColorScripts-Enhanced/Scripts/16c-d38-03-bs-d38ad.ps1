@@ -1,17 +1,4 @@
-﻿# Converted from: BS@D38AD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-03/raw/BS%40D38AD.ANS
-# Source Revision: archive-sha256:782ccbab81c9098e3c3d5b5d2d3703deba2cd08c356aa583e9b292783b136ef2
-# Source SHA-256: 39d74010b6d11d064c041831d6791bd89e07ad790e5627a396fb24de943e7724
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS@D38AD.ANS by Blind Sniper (Department 38); released in d38-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: D38 Advo, ph3333r us we're l3337!
-# SAUCE Author: Blind Sniper
-# SAUCE Group: Department 38
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: D38 Advo, ph3333r us we're l3337! by Blind Sniper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-03-bs-d38ad
 
 Write-Host '
 

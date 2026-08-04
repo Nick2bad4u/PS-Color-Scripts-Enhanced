@@ -1,18 +1,4 @@
-﻿# Converted from: FP-PROPH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flood-01/raw/FP-PROPH.ANS
-# Source Revision: archive-sha256:543c3313044baca82ad858ce1548c88cf8d5f938e94cd3141722019b3e2c36f7
-# Source SHA-256: 8d4b7024f7fa631d263b23d58c8f17430c3b74028b64e44065c656a62076ceb8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FP-PROPH.ANS by Forsaken Prophet (Flood); released in flood-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Prophecy login Matrix
-# SAUCE Author: Forsaken Prophet
-# SAUCE Group: Flood
-# SAUCE Date: 19960422
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Prophecy login Matrix by Forsaken Prophet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flood-01-fp-proph
 
 Write-Host '
 [1;30m░░▒▓██▀[0m [1;30m▄▄▀▀██▓▒▒▀▒▓█▓▀░[0m [1;30m▄▄▓█▀▀▄▄█▓[0m [1;30m░▒▀▄▄▄▓▀  ▀[0m  [34m  [0;30;44m▀[0;34;40m▄▄▄▄  ▄▄▄█████▄[0m     [34;40m▄▄▄▄[0m

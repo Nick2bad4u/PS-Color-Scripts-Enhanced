@@ -1,18 +1,4 @@
-﻿# Converted from: HLK_BMB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg0297/raw/HLK_BMB.ANS
-# Source Revision: archive-sha256:398d54ab48baf03b2a76271be28600e820cb7f3c3af599e851a71ac0924fa8fd
-# Source SHA-256: f78b27cda60af61f850c694ffc331418eba1ae64c6cc45c0742f92e111df9073
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HLK_BMB.ANS by hULLK (0297 guest) (wIMP-bOOSH?); released in drg0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: bAMBOOSH pURSENAPPERS
-# SAUCE Author: hULLK (0297 guest)
-# SAUCE Group: wIMP-bOOSH?
-# SAUCE Date: 19970220
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: bAMBOOSH pURSENAPPERS by hULLK (0297 guest) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg0297-hlk-bmb
 
 Write-Host '
 [31m┌──────────────┐┌──────────────┐┌──────────────┐┌──────────────┐┌──────────────┐[0m

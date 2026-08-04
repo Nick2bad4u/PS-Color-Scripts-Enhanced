@@ -1,18 +1,4 @@
-﻿# Converted from: PG-ND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-26/raw/PG-ND.ANS
-# Source Revision: archive-sha256:3be1c9ac829261dd03ea8cfa1cb7cadc2602bc33b1981032be1538aacd76a812
-# Source SHA-256: eade0450ea50cb252dcfcd5941580d0c5966c4cc9c0b8a8120883078e0370176
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PG-ND.ANS by polygon (glue); released in glue-26 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: night daemon
-# SAUCE Author: polygon
-# SAUCE Group: glue
-# SAUCE Date: 19991006
-# SAUCE Dimensions: 80x153
-# Lines: 78-115
-# Columns: 1-80
+﻿# Artwork: night daemon by polygon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-26-pg-nd-part03
 
 Write-Host '
                 [31m▐▐[0;1;31;41m░░[0m     [1;31;41m░[0m [1;31m▄██[0m [31m       ▐[0;1;31m▓[0m        [31m██▄[0m   [31m█▀▄▄█[0m      [1;34m [0m

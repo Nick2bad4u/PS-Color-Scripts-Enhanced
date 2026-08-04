@@ -1,18 +1,4 @@
-﻿# Converted from: SC-NEG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel12/raw/SC-NEG1.ANS
-# Source Revision: archive-sha256:ebe2e7b01f31e0e82aa2702a876007d4ec2dd824b98bdf40e4d59e2b113da7e4
-# Source SHA-256: 7e571bdfde5e6888347bcbd6c5a423d1f10bb8bfe9ff0ae112509db5cf66ebfd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-NEG1.ANS by Scoundrel (Fuel Productions); released in fuel12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Negative
-# SAUCE Author: Scoundrel
-# SAUCE Group: Fuel Productions
-# SAUCE Date: 19970401
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Negative by Scoundrel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel12-sc-neg1
 
 Write-Host '
                                                                  [31m ▄[0;1;31m▄▄[0;31m▄▄▄[0;1;31m▄▄▄▄▄[0;31m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: EB-LAZ1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz01dec/raw/EB-LAZ1.ANS
-# Source Revision: archive-sha256:5b380369fa665698a380513024a32a1e90544a62665a810c6e03347900a05ac8
-# Source SHA-256: e5da73cda14f843a3083740b296830bc73767c74eec65de886a7fae200a7e403
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EB-LAZ1.ANS by eiht ball (lazarus); released in laz01dec and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: lazarus promo
-# SAUCE Author: eiht ball
-# SAUCE Group: lazarus
-# SAUCE Date: 19961126
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: lazarus promo by eiht ball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz01dec-eb-laz1
 
 Write-Host '
 [1;30m██▀▀▀▀██▀▀█▀▀█████▀▀██████████████████████████████████████████████████████[0;1;30;47m▓░ ▀[0;1;30;40m██[0m

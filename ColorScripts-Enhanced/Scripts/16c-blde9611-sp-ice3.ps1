@@ -1,18 +1,4 @@
-﻿# Converted from: SP-ICE3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9611/raw/SP-ICE3.ANS
-# Source Revision: archive-sha256:94fa179c47731df1235911c4e255eb5f9211d7813c5796bd4c86de2d47e585b9
-# Source SHA-256: e5b70ee078dd6aac423c1a66dd727b52675f7f7176d9c10366449e6a9d0ac47f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SP-ICE3.ANS by spear (blade productions); released in blde9611 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ice.. again!?
-# SAUCE Author: spear
-# SAUCE Group: blade productions
-# SAUCE Date: 19961110
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: ice.. again!? by spear | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9611-sp-ice3
 
 Write-Host '
 

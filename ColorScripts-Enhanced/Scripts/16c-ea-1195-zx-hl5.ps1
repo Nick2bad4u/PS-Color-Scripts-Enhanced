@@ -1,18 +1,4 @@
-﻿# Converted from: ZX-HL5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ea_1195/raw/ZX-HL5.ANS
-# Source Revision: archive-sha256:dcfa3e2bf5f39fdd1967ac8a4e4bc0f9145a4165974b17d815de7afc160ca493
-# Source SHA-256: 83f3fd5ad776c74f5548614b6e78aa1219a0d3bc65e8c68cd518e4ae8fac117c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZX-HL5.ANS by zix (error art); released in ea_1195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: highland
-# SAUCE Author: zix
-# SAUCE Group: error art
-# SAUCE Date: 19951007
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: highland by zix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ea-1195-zx-hl5
 
 Write-Host '
 

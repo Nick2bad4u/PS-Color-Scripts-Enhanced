@@ -1,13 +1,4 @@
-﻿# Converted from: NK-DHZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/optk0294/raw/NK-DHZ.ANS
-# Source Revision: archive-sha256:553bebf23e65cf38a8895a7a4f69bf9a99d621e74f69922e35a000a003431ced
-# Source SHA-256: ac46a23da6ad61f366e026da28055f246739a418cb489f3e24b752c5259249b8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NK-DHZ.ANS by Nuke (optk0294); released in optk0294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: NK-DHZ.ANS by Nuke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-optk0294-nk-dhz-part01
 
 Write-Host '
                [32m░░░▒░▒▒▓▓▓███[0;1;32;42m░░░░▒▒▒▒▓▓▓▓██████████████▓▒░   [0;1;30;42mOPTiK     [0;1;32;42m░▒▓██████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MALF-03.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst-12/raw/MALF-03.ANS
-# Source Revision: archive-sha256:63a6855f68e121642df2e6e17ace70e0e335728ff27fbf72c51891b77660a0fc
-# Source SHA-256: 04388bc7a1f54708a12c6f07998ed498de4696595bea4dc24027d6572a3a66b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MALF-03.ANS by Malformed (Root/Twisted); released in twst-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: _ ] ]_  [[[22_  [[[[][_[22222
-# SAUCE Author: Malformed
-# SAUCE Group: Root/Twisted
-# SAUCE Date: 19970429
-# SAUCE Dimensions: 80x44
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: _ ] ]_ [[[22_ [[[[][_[22222 by Malformed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst-12-malf-03
 
 Write-Host '
 [1;34m██████████████▓████[0;1;34;44m▌▀▀[0;1;34;40m█████[0;1;34;44m▀[0;1;34;40m█▓█[0;1;34;44m ▀[0;1;34;40m██[0;1;34;44m▀[0;1;34;40m██[0;1;34;44m [0;1;34;40m▀▀█▀▀[0;1;34;44m▐[0;1;34;40m███████████████████████████████████[0m

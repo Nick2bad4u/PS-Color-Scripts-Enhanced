@@ -1,13 +1,4 @@
-﻿# Converted from: ns-void.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/ns-void.ans
-# Source Revision: archive-sha256:5d665873486ffcf559d33043557e11d7636d0c5a5b53a69dd3e7cf81117997ef
-# Source SHA-256: 5743d7b12f7ab83bbde1317fdfa311858687b6654dfda67766f299d22be84667
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ns-void.ans by Ansichrist (blocktronics_codename_chris_wirth); released in blocktronics_codename_chris_wirth and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: ns-void.ans by Ansichrist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-codename-chris-wirth-ns-void
 
 Write-Host '
         [1;33m   [0m           [36m■▄    [0;32m▄[0;1;32;42m▄[0;1;32;40m▒[0;36m ▄[0m                [36m▄[0m        [36m▄[0m                 [36m▄▄[0m

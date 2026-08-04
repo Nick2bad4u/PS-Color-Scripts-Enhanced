@@ -1,13 +1,4 @@
-﻿# Converted from: MTM(TRI).ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pro-0597/raw/MTM(TRI).ANS
-# Source Revision: archive-sha256:481b5fb97b76ab3f49d96748bbc6de9355df4dac5d8032169a495e45a44b207f
-# Source SHA-256: 14c8f11ddd75de7325a3241b1c0fd03b8cf4015095035561a043069fcbf9870a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MTM(TRI).ANS by Mtm (pro-0597); released in pro-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: MTM(TRI).ANS by Mtm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pro-0597-mtm-tri
 
 Write-Host '
 

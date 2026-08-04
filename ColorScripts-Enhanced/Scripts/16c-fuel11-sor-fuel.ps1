@@ -1,18 +1,4 @@
-﻿# Converted from: SOR-FUEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel11/raw/SOR-FUEL.ANS
-# Source Revision: archive-sha256:bc01376bbeb692c1fce16796b92a6fd889f89dbf4c55eb291719d5ea3fd5846c
-# Source SHA-256: 613f6437e324ed611621bb6311e7f0b1c82e86d2bb5873aace92398d7880fe17
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SOR-FUEL.ANS by Spirit of Rage (Fuel); released in fuel11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fuel logo
-# SAUCE Author: Spirit of Rage
-# SAUCE Group: Fuel
-# SAUCE Date: 19970204
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Fuel logo by Spirit of Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel11-sor-fuel
 
 Write-Host '
 [35m▐█▄ ▄▐▄█▄[0;1;30;45m░░[0;35m██[0;35;47m▓▓[0;35;40m██[0;1;35;45m▀[0;1;36;45m░[0;35m▌▀▀[0;1;36;45m░░[0;35m█▀[0;1;31;45m░░[0;35m█▄█▄▄▌   ▄ ▄▄[0;1;32;45m░░[0;35m█[0;1;35;45m▄▌▀[0;35m█[0;1;35;45m░[0;35m▀▀▐█[0;1;35;45m▀[0;1;31;45m░░[0;35m██▄ ▄▌▄█▀░[0;33;45m░░[0;1;35;45m  ░░[0;35m█[0;35;47m▓▓[0;1;33;45m░[0;35m█[0;1;30;45m░░[0;35m▌[0m

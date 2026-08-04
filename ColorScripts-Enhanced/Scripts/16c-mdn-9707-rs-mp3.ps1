@@ -1,18 +1,4 @@
-﻿# Converted from: RS-MP3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9707/raw/RS-MP3.ANS
-# Source Revision: archive-sha256:bfcb83c6d9eb9beac4e313e6cb4a06c0bdcb3b894eaa2b7afbdde4d6e5181bec
-# Source SHA-256: f94dff0000f83f2b7e1b18c47299541c6b040c74c6bd895267b5683f04da8d6e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-MP3.ANS by rorshack (Maiden Brazil); released in mdn-9707 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: You dow with MP3, yeah you know me
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19970627
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: You dow with MP3, yeah you know me by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9707-rs-mp3
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: CPH-AMD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/engine01/raw/CPH-AMD.ANS
-# Source Revision: archive-sha256:684ed7e133aab63fda6f762ca041f6afe4ccc183b91f2e66e44e1d4b55e3dcd9
-# Source SHA-256: 6e2dd875c82e12db2ff211debec8059d2f011c7542021babff2ee148993b28a4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-AMD.ANS by Cyberpunch (engine01); released in engine01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 90-136
-# Columns: 1-80
+﻿# Artwork: CPH-AMD.ANS by Cyberpunch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-engine01-cph-amd-part03
 
 Write-Host '
 [32m██▌    █[0;1;32;42m ████[0;32m███▌    ▐█▀▀▄[0;1;32;42m ░░░[0;32m▀▄█[0;1;32;42m▀░[0;32m█████████▌▐█[0;1;32;42m▓▓▓░░[0;32m████▐█████▄▄▄▄▄▄▄     ▄▄[0;1;32;42m▄█▀[0;32m▀[0m

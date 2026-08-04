@@ -1,18 +1,4 @@
-﻿# Converted from: MC-AVAM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9601/raw/MC-AVAM1.ANS
-# Source Revision: archive-sha256:7aa9123f877021b71fa63f38de012fc68287c00ecd76f3a2105e748660eee14f
-# Source SHA-256: 6d6cb2976b9a3b7ca441de025bed0f5c884abe879fafc98ae981111eaaf4e737
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MC-AVAM1.ANS by mindcrime (blade productions); released in blde9601 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: avalon menu action!
-# SAUCE Author: mindcrime
-# SAUCE Group: blade productions
-# SAUCE Date: 19951223
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: avalon menu action! by mindcrime | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9601-mc-avam1
 
 Write-Host '
 [1;30m▄▓ ▀   [0;36m▄[0m               [1;30m▄[0m              [36m▄   [0;1;30m▄[0m           [1;30m▄   [0;36m▄[0m                 [1;30m▀ ▓▄[0m

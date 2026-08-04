@@ -1,18 +1,4 @@
-﻿# Converted from: PH-FCTMN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fld9612/raw/PH-FCTMN.ANS
-# Source Revision: archive-sha256:398e960abe90b9818bfc3a6f74dd54965f44f4021cfa626535308061d6595a9e
-# Source SHA-256: ce55410c2e587fe32626598addb175108fd03da99c2c0e7c994dfba498afeae9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PH-FCTMN.ANS by pharcyde (fluid); released in fld9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fuct main menu
-# SAUCE Author: pharcyde
-# SAUCE Group: fluid
-# SAUCE Date: 19961023
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: fuct main menu by pharcyde | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fld9612-ph-fctmn
 
 Write-Host '
                                                                             [1;30m░[0m

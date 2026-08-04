@@ -1,16 +1,4 @@
-﻿# Converted from: LR!-DUDO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flux-003/raw/LR!-DUDO.ANS
-# Source Revision: archive-sha256:c8241d6e438a30e14e803d31ea9639f514382ec0df6188aa9d91ed9f1ddec867
-# Source SHA-256: 3be07f24f8bbd15758183b1e63ce4ab398065470b42d74f83982746af871c29f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LR!-DUDO.ANS by Late Riser (flux-003); released in flux-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 4 Lunatic BBS
-# SAUCE Author: Late Riser
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: 4 Lunatic BBS by Late Riser | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flux-003-lr-dudo
 
 Write-Host '
  [34m▄▄██[0;1;34;44m░[0;34m████[0;1;30;44m▒[0;34m██[0;1;34;44m░[0;34m████████████[0;1;34;44m░[0;34m█████████[0;1;34;44m░[0;34m█████[0;1;34;44m░[0;34m███[0;1;34;44m▒░[0;34m██████████████[0;1;34;44m░[0;34m████[0;1;34;44m▒[0;34m██████████▄[0;37m [0m

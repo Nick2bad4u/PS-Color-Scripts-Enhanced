@@ -1,19 +1,4 @@
-﻿# Converted from: us-ninjapenguin13.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel30/raw/us-ninjapenguin13.ans
-# Source Revision: archive-sha256:e3148e82a669aa484baf0738069fbabe44ba2824856e1cb4b05875b86bdd4621
-# Source SHA-256: 4445a9072dd3889857abab6c4bade3e57c8827b969a588e78bacccacc05fe1d0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-ninjapenguin13.ans by Smooth + The Knight + Warpus + Zeus Ii (Fuel & Blocktronics); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Vampire Alien Coffee
-# SAUCE Author: Several
-# SAUCE Group: Fuel & Blocktronics
-# SAUCE Date: 20190603
-# SAUCE Dimensions: 80x177
-# SAUCE Font: IBM VGA
-# Lines: 133-177
-# Columns: 1-80
+﻿# Artwork: Vampire Alien Coffee by Smooth + The Knight + Warpus + Zeus Ii | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel30-us-ninjapenguin13-part04
 
 Write-Host '
 [34m██████████    [0;35m█[0;32;45m█▄[0;35;40m▓▐█[0m     [35;40m▄▄[0;1;35;45m░░[0;35m▄▄██[0;35;45m [0;35;40m█[0;1;31;45m▒▒█▄▄[0;35m█[0;1;36;45m▓▓▒░[0;35m▀▀[0m

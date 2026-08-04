@@ -1,13 +1,4 @@
-﻿# Converted from: RP-MENU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-0197/raw/RP-MENU.ANS
-# Source Revision: archive-sha256:08e3420d6f5bf039e22601d044f43006678a0458956ba31375be1cbab8367813
-# Source SHA-256: dd585e8ca74d61b72f3eee704338aed12e0e252de88c4946e8ac058e8d3b3ab2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RP-MENU.ANS by Raptor (axf-0197); released in axf-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: RP-MENU.ANS by Raptor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-0197-rp-menu
 
 Write-Host '
  [1;31m                            [0m▄▄▄▓▀▓███████▀▀▓▄▄▄▄▄▓▄[36m [0;1;31m                          [0m

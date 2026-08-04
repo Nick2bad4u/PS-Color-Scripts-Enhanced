@@ -1,13 +1,4 @@
-﻿# Converted from: WDK_ROOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p12_01/raw/WDK_ROOD.ANS
-# Source Revision: archive-sha256:678c9348e291c059a717bb7990ccaffc699e8a46d4f8d71e273fe24e3b605bbc
-# Source SHA-256: a681e8f5920a95121d23b842b4e77ffd7a5746d22ff89d85b9d7d92f8c4fbed6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WDK_ROOD.ANS by Wodniak (l0p12_01); released in l0p12_01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: WDK_ROOD.ANS by Wodniak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p12-01-wdk-rood
 
 Write-Host '
 

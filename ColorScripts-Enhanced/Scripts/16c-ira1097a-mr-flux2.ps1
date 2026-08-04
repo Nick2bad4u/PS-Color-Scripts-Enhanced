@@ -1,18 +1,4 @@
-﻿# Converted from: MR-FLUX2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira1097a/raw/MR-FLUX2.ANS
-# Source Revision: archive-sha256:07d85d7b1ace3ea382bd86ac8e385803a9939676404af93c0be4c41385f607a2
-# Source SHA-256: fba4a2d8d25ff07954c834597b7fa58a98ef6c3091f82fc7915a0e05a0ffd3a9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-FLUX2.ANS by Mr.Wrong (Irato); released in ira1097a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Flux
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: Irato
-# SAUCE Date: 19970917
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Flux by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira1097a-mr-flux2
 
 Write-Host '
   [1m▄[0m [34m  [0m      [1;34m■▄░[0m    [1m■▄ [0m              [1m▄[0m                   [34m░[0;37m  [0;1;37m▀▐▄[0m      [34m▄▌[0;37m     [0;1;37m■▀▄[0m

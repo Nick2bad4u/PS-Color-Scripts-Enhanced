@@ -1,13 +1,4 @@
-﻿# Converted from: PM-MM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot1297/raw/PM-MM.ANS
-# Source Revision: archive-sha256:7bd5836fa16624c33d90d7b8d157576c042e1a7f12ab842c8fb178c52f465fc3
-# Source SHA-256: 23634fd57547b18c2c5518f570c17c3106d0081056e620157fe321b584d2ab51
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-MM.ANS by Precious Metal (riot1297); released in riot1297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: PM-MM.ANS by Precious Metal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot1297-pm-mm
 
 Write-Host '
                     [31m▄▄▄▄▄▄[0;1;31m▌[0m       [31m▄[0;1;31;41m░▒▓[0;1;31;40m▄▄[0;1;31;41m░▒▄[0;31m▌[0m

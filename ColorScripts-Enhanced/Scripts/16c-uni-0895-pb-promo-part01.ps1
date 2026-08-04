@@ -1,18 +1,4 @@
-﻿# Converted from: PB-PROMO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0895/raw/PB-PROMO.ANS
-# Source Revision: archive-sha256:d7578eae73cd5d7b840a098302ec5eecc570498f801ff39620bcdfbd3bc36d42
-# Source SHA-256: 5d4efbe17609d33c75ccbbc1aaebfe56892c4503d19306e6c826d0253a8e2d3d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PB-PROMO.ANS by Point Blank (Union); released in uni-0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Union Promotional!
-# SAUCE Author: Point Blank
-# SAUCE Group: Union
-# SAUCE Date: 19950714
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Union Promotional! by Point Blank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0895-pb-promo-part01
 
 Write-Host '
 [1;32;42m▓████████████▓▓[0;32m▀[0;1;32m▄[0;1;32;42m██▓▓▓▓▓▓▓▒▒▒▒▒░░░░░[0;32m███▀▄███████[0;1;32;42m▒▓▓▓[0;1;32;40m██[0m █[1;30;47m░░░░[0m▀▀▀█▀▀  [31m▀▓▄[0;37m ▀███[0;1;30;47m░░░░[0m

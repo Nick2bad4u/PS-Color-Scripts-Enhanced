@@ -1,13 +1,4 @@
-﻿# Converted from: DZ-AMNS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise01/raw/DZ-AMNS.ANS
-# Source Revision: archive-sha256:e3198cb8acd7fe94465c31b62ef14e425fb9025c9ea3147bcc412cd9cd9a64c5
-# Source SHA-256: 89bf71dfeb195486bff093199d213e3ea3dd1b57eaf5ed79009b55cde1da7658
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DZ-AMNS.ANS by D-Zine (uprise01); released in uprise01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: DZ-AMNS.ANS by D-Zine | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise01-dz-amns
 
 Write-Host '
                                      [36m▄[0;1;36;46m·x[0;36m█[0;1;36;46mx·x[0;36m█▄[0m       [36m▄[0m

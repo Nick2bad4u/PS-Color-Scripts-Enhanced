@@ -1,18 +1,4 @@
-﻿# Converted from: PYX-AGNY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-089702/raw/PYX-AGNY.ANS
-# Source Revision: archive-sha256:e48c38fcf9ad1e8bdcd70f413f385ac4fe4835bcda18b3e71092baf5cce2e35b
-# Source SHA-256: dc01ef6e04224becd840ee91d794e6302d4cc5cc00b4acab02159e4d6fb1b9a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-AGNY.ANS by Pyx (Bamboosh / Society); released in bmb-089702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: agony script
-# SAUCE Author: Pyx
-# SAUCE Group: Bamboosh / Society
-# SAUCE Date: 19880111
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: agony script by Pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-089702-pyx-agny
 
 Write-Host '
                   [34m ▄[0;1;34m▄[0;34m▄[0m                                 [34m░[0;30;44m▓[0;34;40m▄ [0m           [34;40m▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: HS-MON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lap-0794/raw/HS-MON.ANS
-# Source Revision: archive-sha256:a385ab6f06d1a038608115f838ad55681f691e036bb82be64e681a5ba7982c9a
-# Source SHA-256: 21085b0e4b22d624b2c0eabfc11a9afc786f3387a23e0427d6ed3567537cc916
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HS-MON.ANS by HellSpawn (Lapse); released in lap-0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Monastery of Destruction
-# SAUCE Author: HellSpawn
-# SAUCE Group: Lapse
-# SAUCE Date: 19940707
-# SAUCE Dimensions: 80x25
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Monastery of Destruction by HellSpawn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lap-0794-hs-mon-part02
 
 Write-Host '
 [1;37;40m▐▐  [0m▀[47m              [0m [1;47m█▓▒░[0m [34m██[0;1;34;44m▄[0;34m███▄  ▀███▌[0m     [34m▄ ▀█▀ ▄██▓▓    [0;1;37m▐[0m     [1;30m░▒▓[0;1;30;47m█▓▒░[0;1;37;47m░▒▓███[0m [1;37;40m▐[0m

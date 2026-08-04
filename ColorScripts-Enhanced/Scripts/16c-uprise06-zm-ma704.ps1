@@ -1,18 +1,4 @@
-﻿# Converted from: ZM-MA704.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise06/raw/ZM-MA704.ANS
-# Source Revision: archive-sha256:62459159460ab7090ce349ed14c61a1bc8d3aa5785e22124741220f6b82d2ab8
-# Source SHA-256: b9b937b04b506995086222f3a5ede07218bbc9331d0919af412890c4d6364dc8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZM-MA704.ANS by Zatchmo (Uprise); released in uprise06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Toast Matrix
-# SAUCE Author: Zatchmo
-# SAUCE Group: Uprise
-# SAUCE Date: 19980726
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Toast Matrix by Zatchmo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise06-zm-ma704
 
 Write-Host '
  [33m▄[0;1;31;43m   ▄▄▄▄▄     [0;33m████[0;1;31;43m ▓▄▄▄▄▓▄[0;33m▄[0;37m  ▄▄▄▄▄[0;30;47m▓▓[0;37;40m▄▄▄▄▄▄▄[0;30;47m░░░░░░░░░░░░░░░░░░░░░░░░░░▓[0;37;40m▄▄[0;30;47m▓▓[0;37;40m▄▄▄▄▄[0m

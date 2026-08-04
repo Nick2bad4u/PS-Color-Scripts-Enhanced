@@ -1,18 +1,4 @@
-﻿# Converted from: US-STS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe02/raw/US-STS.ANS
-# Source Revision: archive-sha256:ce5cd736ecea3fcfef2c1df40ab4bdd995f6b633f97f1788244355f98c5d174e
-# Source SHA-256: 629f7574dc7eeb4e92ac94ae4b53bcd8b4f1269671c9e3de510071bddb070cdf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-STS.ANS by Arlequin + Diamond Darrell (Circe); released in circe02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Synthesis Joint
-# SAUCE Author: Arlequin & D.Darrell
-# SAUCE Group: Circe
-# SAUCE Date: 19971201
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Synthesis Joint by Arlequin + Diamond Darrell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe02-us-sts
 
 Write-Host '
     [1m░░[0m                                                      ░░░

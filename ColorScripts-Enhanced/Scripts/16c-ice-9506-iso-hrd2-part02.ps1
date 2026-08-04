@@ -1,19 +1,4 @@
-﻿# Converted from: ISO-HRD2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9506/raw/ISO-HRD2.ICE
-# Source Revision: archive-sha256:54681166ad0e1930ad04020dc73021d068005fba5342f2f81e02d3344e14b83c
-# Source SHA-256: 1dd2e3ae391731b2bae5182caf24747b1cd1463475cb1d26b0d3c40361377396
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ISO-HRD2.ICE by isosceles. (ice); released in ice-9506 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: another hoard 'zi
-# SAUCE Author: isosceles.
-# SAUCE Group: ice
-# SAUCE Date: 20050601
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: goodluck to all the guys in legend, or twilight, or whatever | the name is this week.  have fun neurotic; you are my maxxman. | my greets go out to everyone who still doesn't get all bent | outta shape over everything.  ice rules. so do canadian ansis. | the first person to email me with the subject "can i be as | cool as everyone else?" gets a free ansi or vga or something. | isosceles.triange [ice] - kslaught@julian.uwo.ca
-# Lines: 51-99
-# Columns: 1-80
+﻿# Artwork: another hoard 'zi by isosceles. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9506-iso-hrd2-part02
 
 Write-Host '
 [30;44m█[0;34;40m [0;1;30;40m [0;34m   █[0;30;44m               [0;37;40m [0;1;37;40m█[0;1;37;47m▌[0;30;47m  [0;1;30;47m█[0;30;47m  [0;37;40m█[0;30;47m█    █[0;37;40m█[0;30;47m  [0;1;30;47m█[0;30;47m  ▄[0;1;30;40m▀[0;30;44m█        █[0;34;40m [0;1;34;40m▀[0;34m    [0;30;44m█[0;34;40m  [0;30;44m█               [0m

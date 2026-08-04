@@ -1,17 +1,4 @@
-﻿# Converted from: INC^SR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-08/raw/INC%5ESR.ANS
-# Source Revision: archive-sha256:0567468a2c5f3b6be5032c5650cb72f6233cef61565d1d349ba0b887559b2680
-# Source SHA-256: 523ac4eb4a6895c4b918fd0a7ffcceb96a897210c5e67086146001d2f7de0b8e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: INC^SR.ANS by incarnate (d38-08); released in d38-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: hmmm?
-# SAUCE Author: incarnate
-# SAUCE Date: 19970711
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: hmmm? by incarnate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-08-inc-sr
 
 Write-Host '
             [34m      ▄█▀▀▀▀[0;37m [0;36m▄▄▄▄▄▄[0;37m [0;34m▀▀▀▀█[0;1;34m███[0;1;34;44m█[0;1;34;40m█[0;34m▄▀▀▀▀[0;37m [0;36m▄▄▄▄▄▄[0;37m [0;34m▀▀▀▀██▄▄▄ [0m

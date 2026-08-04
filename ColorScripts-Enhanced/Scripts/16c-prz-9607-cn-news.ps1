@@ -1,18 +1,4 @@
-﻿# Converted from: CN-NEWS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/prz-9607/raw/CN-NEWS.ANS
-# Source Revision: archive-sha256:c9c5cc7ecf1f26596c4d88f592166c82d585c7e5de1be5fa6d5e25ebed6d7d14
-# Source SHA-256: 0e1b686b63bba2fe90060960ad06420494d9fdd3e66ff5a8a86e955564634627
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CN-NEWS.ANS by cybernide (pharazoone); released in prz-9607 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: news font
-# SAUCE Author: cybernide
-# SAUCE Group: pharazoone
-# SAUCE Date: 19960628
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: news font by cybernide | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-prz-9607-cn-news
 
 Write-Host '
                 [1;33m▀   ▄▄▄▄▄[0m

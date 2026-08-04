@@ -1,18 +1,4 @@
-﻿# Converted from: PLZ-PEC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-12/raw/PLZ-PEC.ANS
-# Source Revision: archive-sha256:5c96c14e912296494a464a42e768321452d811693cf172945a9502eb4396c8bb
-# Source SHA-256: efb5ca7561c3c744aa2a2da9012ce1b05d95952e014cae4c8668f8481ce7d0c1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PLZ-PEC.ANS by Plazz (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Pec
-# SAUCE Author: Plazz
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19971017
-# SAUCE Dimensions: 80x25
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Pec by Plazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-12-plz-pec
 
 Write-Host '
           [30m [0;34m  [0;30m [0;34m▄▄▄[0;30m [0m      [37m    [0m                                           [37mark([0;1;37mawe[0m)

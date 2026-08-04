@@ -1,18 +1,4 @@
-﻿# Converted from: WI-AD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9609/raw/WI-AD.ANS
-# Source Revision: archive-sha256:ebbff7e3049916d809d893ea2aa04734229c43fb86ad9d17682073c079d4ff3a
-# Source SHA-256: 12ab94bfa8c1972b8b115a215d698b993b6596c2677af341354f9d8d97b50cd6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WI-AD.ANS by widHOmakWHORE#$@ (bLAYDE#$@); released in blde9609 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: aCS. dEENYED@#$%!
-# SAUCE Author: widHOmakWHORE#$@
-# SAUCE Group: bLAYDE#$@
-# SAUCE Date: 19960904
-# SAUCE Dimensions: 80x64
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: aCS. dEENYED@#$%! by widHOmakWHORE#$@ | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9609-wi-ad-part01
 
 Write-Host '
 

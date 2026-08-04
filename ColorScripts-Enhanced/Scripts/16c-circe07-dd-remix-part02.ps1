@@ -1,18 +1,4 @@
-﻿# Converted from: DD-REMIX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe07/raw/DD-REMIX.ANS
-# Source Revision: archive-sha256:2cbba3cedd8eb19a25555cbc1ca3ce5023e1f497b14e2a9d7de86e055d96afd2
-# Source SHA-256: fb6ac04b17c8812562e5987f43b8be73d3311bbaf0f3fb8d5bb16dcf3fdf9601
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-REMIX.ANS by Diamond Darrell + Arlequin (Circe 97-99); released in circe07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Circe Forever
-# SAUCE Author: Diamond D & Arlequin
-# SAUCE Group: Circe 97-99
-# SAUCE Date: 19990203
-# SAUCE Dimensions: 80x77
-# Lines: 40-77
-# Columns: 1-80
+﻿# Artwork: Circe Forever by Diamond Darrell + Arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe07-dd-remix-part02
 
 Write-Host '
 [1m██[0;1;47m░[0m▐[1;47m▓▓[0;1;40m▓ [0;1;30;40m▐[0;1;37;40m██████ [0m  ██ [1m█▓▓[0;1;47m▓▓▓▒▒▒[0m███[1;47m░░░[0;1;33;45m▓█[0;1;33;40m████[0m▌▐[1m█[0;1;47m██░░[0m█▓▓▓░░░

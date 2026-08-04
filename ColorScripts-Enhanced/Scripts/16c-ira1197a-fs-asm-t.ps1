@@ -1,18 +1,4 @@
-﻿# Converted from: FS-ASM_T.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira1197a/raw/FS-ASM_T.ANS
-# Source Revision: archive-sha256:704aa0d2e26e6cf2ca2a7dd616f260398453dcd5e902b8255bad29cbf486fb81
-# Source SHA-256: 9184476378171c2728a881844eddd3d98a30e3b42635a3cc46e2ca4070663c29
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FS-ASM_T.ANS by Flying Squirrel (Irato); released in ira1197a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: TAP (asm)
-# SAUCE Author: Flying Squirrel
-# SAUCE Group: Irato
-# SAUCE Date: 19971025
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: TAP (asm) by Flying Squirrel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira1197a-fs-asm-t
 
 Write-Host '
         [31m░[0m     [35m [0m       [1;30m░█▄▀▀▓▀▀▀▄▄[0m  [1;30m▄▄▀░▀▀░▒▄▄▀▀▄[0m    [1;30m▓▀▀▄[0m   [35m░[0m       [35m░[0;37m [0;35m░[0m   [35m░[0;31m▒[0m

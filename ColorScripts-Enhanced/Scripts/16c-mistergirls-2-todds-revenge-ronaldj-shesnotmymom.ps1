@@ -1,19 +1,4 @@
-﻿# Converted from: ronaldj-shesnotmymom.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mistergirls-2-todds-revenge/raw/ronaldj-shesnotmymom.ans
-# Source Revision: archive-sha256:daef7a9d06d692a9f92b578831789dfe6317b3337ec7a90d54fe826c9c7b4e13
-# Source SHA-256: 1b66b07176dbe6a9928b2564804c11ceea70e8f2537acf95e15bfe34e5634ff9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ronaldj-shesnotmymom.ans by Ronald J Peppercorn (Mistergirls); released in mistergirls-2-todds-revenge and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Shes not my mom
-# SAUCE Author: Ronald J Peppercorn
-# SAUCE Group: Mistergirls
-# SAUCE Date: 20180218
-# SAUCE Dimensions: 80x36
-# SAUCE Font: IBM VGA
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Shes not my mom by Ronald J Peppercorn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mistergirls-2-todds-revenge-ronaldj-shesnotmymom
 
 Write-Host '
 [1;36;40m████████ [0;1;33;40m▄▄█████████[0;1;37;40m████▀▄▄█▀▄[0;1;33;40m█▄▀████▄▀██▄[0;1;36;40m▀██████████████████████▀▄█████████[0;1;32;40m████[0m

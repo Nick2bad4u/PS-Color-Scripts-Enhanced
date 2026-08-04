@@ -1,18 +1,4 @@
-﻿# Converted from: Avg-001.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper04/raw/Avg-001.ans
-# Source Revision: archive-sha256:80df5b962e79c7e1df6d776b244f2783526ab7713c133db68d5f1c8d518678b1
-# Source SHA-256: 0b5a7394994b304d54b5d3d52842d36af8c44d3776b51ae8023116e19f018591
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Avg-001.ans by avenging angel (jasper); released in jasper04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: info header
-# SAUCE Author: avenging angel
-# SAUCE Group: jasper
-# SAUCE Date: 20020321
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: info header by avenging angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper04-avg-001
 
 Write-Host '
 [1;35;47m  ▀[0;1;35;45m▄[0;1;35;40m▄[0;1;35;45m▓[0;1;35;40m▀[0;1;35;45m▀██[0;1;35;47m▀   █[0;1;35;45m█[0;35m [0;34m ░[0m                 [1;30m   [0m      [34m▄▄▀[0m     [37m   [0m

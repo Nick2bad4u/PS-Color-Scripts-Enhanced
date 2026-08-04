@@ -1,17 +1,4 @@
-﻿# Converted from: DRM-INSO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/woe0798a/raw/DRM-INSO.ANS
-# Source Revision: archive-sha256:2188d0bbaf1192d032eaa1d7cdc4402fb0f0e32dcd77bb780a11ec762d5a8a04
-# Source SHA-256: 3597f61e6c11bdcd6fb3190a53bf946027cd28e945c54706471c10b1374d40de
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DRM-INSO.ANS by dorm (wOE!); released in woe0798a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: inso2#
-# SAUCE Author: dorm
-# SAUCE Group: wOE!
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: inso2# by dorm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-woe0798a-drm-inso
 
 Write-Host '
               [32m░[0;30;42m▓[0;37;40m [0;32;40m▄▄▄▄▄▄▄██[0;1;32;42m▒▀▀▓[0;1;32;40m██▄▄▄[0m

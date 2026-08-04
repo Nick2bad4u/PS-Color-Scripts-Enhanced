@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-BIOHA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0397/raw/IZ-BIOHA.ANS
-# Source Revision: archive-sha256:0bbae31e52a4c1ad24c4bfa8a6bfcd082f750141f70c56dfd02f65c0d93bbb46
-# Source SHA-256: 02088d409ac09b09759c0eca297ff0791ada29cf8bc235b9087e309fdeb00416
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-BIOHA.ANS by izey (fusion); released in fsn-0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: bio hazard
-# SAUCE Author: izey
-# SAUCE Group: fusion
-# SAUCE Date: 19970202
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: bio hazard by izey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0397-iz-bioha
 
 Write-Host '
                                          [33m▄[0;1;37m▄░[0m

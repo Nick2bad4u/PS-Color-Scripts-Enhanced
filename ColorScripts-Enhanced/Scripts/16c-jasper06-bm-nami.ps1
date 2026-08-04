@@ -1,18 +1,4 @@
-﻿# Converted from: BM-NAMI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper06/raw/BM-NAMI.ANS
-# Source Revision: archive-sha256:e9db58af17bee8935edbe50f24a227bef7a311667f4a639d4f37f775998e9055
-# Source SHA-256: 4de81684ce1755b9abf39543743e129b2573257930e89116e44ea3c001ff3ef8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BM-NAMI.ANS by Aesthetic + Avenging Angel (jasper); released in jasper06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: namistai bbs
-# SAUCE Author: 43avg=BALKAN MADNESS
-# SAUCE Group: jasper
-# SAUCE Date: 20020523
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: namistai bbs by Aesthetic + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper06-bm-nami
 
 Write-Host '
 [1;36m [0;1;32m▀▀▀[0;32m [0;37m [0;1;37m░[0m      [32m░░▓▓█[0;1;32m████▀[0;32m ▄[0;1;37;42m▒▒[0;1;32;42m█▓▓░░[0;32m█    [0;37m    [0;32m░░▓▓██[0;1;32;42m  [0;32m█[0;1;32;42m▄█▀[0;32m██[0;1;32;42m▄████▀[0;32m██[0;1;32;42m███████▀[0;1;32;40m▀[0;32m▀▄[0;1;32;42m▄██▀[0m

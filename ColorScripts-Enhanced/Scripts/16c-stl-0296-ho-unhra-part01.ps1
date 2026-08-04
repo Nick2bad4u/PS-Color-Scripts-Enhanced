@@ -1,18 +1,4 @@
-﻿# Converted from: HO-UNHRA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stl-0296/raw/HO-UNHRA.ANS
-# Source Revision: archive-sha256:2a7c2972214cdcf66c05bb3cc15c513aafb38f4486172bc95b40d735e509a060
-# Source SHA-256: cbf3e118d364ad89ad81d9e6d3f14cca039bc8ff2072fc8a1d0013dbb63694dd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HO-UNHRA.ANS by HOoDOo (Stile); released in stl-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: UNHoLY RAGE Logo
-# SAUCE Author: HOoDOo
-# SAUCE Group: Stile
-# SAUCE Date: 19960213
-# SAUCE Dimensions: 80x108
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: UNHoLY RAGE Logo by HOoDOo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stl-0296-ho-unhra-part01
 
 Write-Host '
 [1;30m■▀▀▀▀■▀▀■▀■▀▀▀▀▀■▀■▀■▀▀▀▀▀▀▀▀▀■█▀▀▀▀▀■■▀▀▀■▀▀▀▀▀▀■■▀▀▀■▀▀▀▀■▀▀▀▀▀■▀■▀■▀▀■▀▀▀▀▀▀■[0m

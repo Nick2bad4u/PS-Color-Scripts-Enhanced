@@ -1,18 +1,4 @@
-﻿# Converted from: DS!-KINK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-04/raw/DS!-KINK.ANS
-# Source Revision: archive-sha256:a183453b0b057b28f8e3a2d35babc61b59dbf71d40a258198f360e299e3212ab
-# Source SHA-256: 2ea3bcb6a40c52a344ee86bf101027261eda47de7e0f27231069adad4f0b9f99
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS!-KINK.ANS by deeESS (Glue); released in glue-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Kinky dS! Logo
-# SAUCE Author: deeESS
-# SAUCE Group: Glue
-# SAUCE Date: 19971029
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Kinky dS! Logo by deeESS | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-04-ds-kink
 
 Write-Host '
 

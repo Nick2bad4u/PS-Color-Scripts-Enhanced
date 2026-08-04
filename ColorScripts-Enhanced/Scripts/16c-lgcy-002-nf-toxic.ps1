@@ -1,18 +1,4 @@
-﻿# Converted from: nf-Toxic.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-002/raw/nf-Toxic.ans
-# Source Revision: archive-sha256:035806f627526bbca92fb6becafc359d23b231b3ea478b7169ed62b6d2a1cc54
-# Source SHA-256: 7d00f027db55fdabb17250a26765d7569b5fd630870629e13c3c3116d633adc0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: nf-Toxic.ans by necro (lgcy-002); released in lgcy-002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: toxic
-# SAUCE Author: necro
-# SAUCE Date: 20200511
-# SAUCE Dimensions: 80x29
-# SAUCE Font: IBM VGA
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: toxic by necro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-002-nf-toxic
 
 Write-Host '
      [1;30;40m▄▌▀▓▀ ▄ ▄█▄██████▐[0;1;30;43m▓[0;1;30;40m████ ████████████████▌▄[0;1;30;43m█[0;1;30;40m▄░[0;1;30;43m██[0;1;30;40m▀ ▀▀▀░██░█[0;1;30;47m▓[0;1;30;40m█▌██████▌█[0;1;30;47m▓[0;1;30;40m██▄██[0m

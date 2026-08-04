@@ -1,18 +1,4 @@
-﻿# Converted from: 22-FIC2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-23/raw/22-FIC2.ANS
-# Source Revision: archive-sha256:ebf73214839ebeb98074956697930c862ec34a2f04c71462d23dae1a192647c2
-# Source SHA-256: 1697de5c7e7441751963dc460e5e9da9e3c774abe80c1a565f2d81837ff26c25
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 22-FIC2.ANS by catch22 (glue); released in glue-23 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fiction menu
-# SAUCE Author: catch22
-# SAUCE Group: glue
-# SAUCE Date: 19990615
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: fiction menu by catch22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-23-22-fic2
 
 Write-Host '
 [34m░█  ▄ [0;37m  [0;34m▄ ▄█▀[0;33m [0;31m▄█[0;31;43m██[0;31;40m▓▀[0;33;40m▄[0;31;43m▄███████[0;31;40m█[0;31;43m██████[0;31;40m█▓[0;33;40m ▄▀█   [0;31;40m░[0;33;40m ░[0;33;41m▓[0;31;43m███[0;33;40m   ▐[0;31;43m████[0;33;40m [0;1;31;43m▒██████▄[0;33m▄▀▀[0;1;31;43m▀[0;33m ▀[0;1;31;43m▀█[0;33m▒ ▀[0m

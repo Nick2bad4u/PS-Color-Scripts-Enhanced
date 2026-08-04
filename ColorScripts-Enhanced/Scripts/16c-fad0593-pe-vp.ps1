@@ -1,13 +1,4 @@
-﻿# Converted from: PE-VP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fad0593/raw/PE-VP.ANS
-# Source Revision: archive-sha256:1580b13184edd47a3feb36efb0983d4f1084efd53b6d3168b7c37920ec633702
-# Source SHA-256: 92042fca5940aa06b310d4fe775067e1ce6def9b1f67c53e7b202be019d48fd3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PE-VP.ANS by Public Enemy (fad0593); released in fad0593 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: PE-VP.ANS by Public Enemy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fad0593-pe-vp
 
 Write-Host '
                 [1;34m▄▄▄▄▀▀▀▀▀▀▀▀▄[0m

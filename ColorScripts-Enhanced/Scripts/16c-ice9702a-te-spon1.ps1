@@ -1,13 +1,4 @@
-﻿# Converted from: TE-SPON1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9702a/raw/TE-SPON1.ICE
-# Source Revision: archive-sha256:540831d4e1a356189219ffbceaa28d97157e006639aca48afc56a145bd0d4c8c
-# Source SHA-256: 0497e515a4c6b42ac86f6357cd1311c917bce497d36d5df2c7ea16cb277d8130
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-SPON1.ICE by Tetanus (ice9702a); released in ice9702a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: TE-SPON1.ICE by Tetanus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9702a-te-spon1
 
 Write-Host '
 [1;34;44m█████▓▓▓▒▒▒[0;34m▌[0;1;30m▒░░[0m    [1m▀▀▀▀▀▀[0;1;47m▓[0;1;40m███▀███▀[0;1;47m▓▓[0;1;40m██████████████████▄▄ [0;1;30;40m░▄█[0;1;30;47m▓[0;1;30;40m██[0;1;30;47m▓▓[0;1;30;40m██▀███[0;1;30;47m▓▓▓[0;1;30;40m▌[0;33m▐[0;1;33;43m [0;33m▓▀▀[0m

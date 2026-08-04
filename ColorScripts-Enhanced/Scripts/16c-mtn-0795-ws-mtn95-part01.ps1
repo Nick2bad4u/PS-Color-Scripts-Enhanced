@@ -1,18 +1,4 @@
-﻿# Converted from: WS-MTN95.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mtn-0795/raw/WS-MTN95.ANS
-# Source Revision: archive-sha256:1fb87db87a5bf1997fd2eee527ba7592bfed81861b31d80276ebf097c7eecd70
-# Source SHA-256: c9b17ef6df94e56ab657c512a59c7b6383ccd4d42ae99237990927c2235aa03d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WS-MTN95.ANS by Whisper (mOtion); released in mtn-0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Motion Promotional
-# SAUCE Author: Whisper
-# SAUCE Group: mOtion
-# SAUCE Date: 19950618
-# SAUCE Dimensions: 80x57
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Motion Promotional by Whisper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mtn-0795-ws-mtn95-part01
 
 Write-Host '
 [1;30m▓▄■▄▄▄▄■▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄■▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓■▄▄▄▄▄▄▄▄▓[0m

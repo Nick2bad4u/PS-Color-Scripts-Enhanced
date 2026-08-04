@@ -1,18 +1,4 @@
-﻿# Converted from: US-ELD3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9611/raw/US-ELD3.ANS
-# Source Revision: archive-sha256:2b73e149488dc761d99422832825743596588d59e58f9bfecfb5d0e9dbffd274
-# Source SHA-256: d6472eef4d88c8ffa4719ee5c075fa37bb13037c9c7a95639a38fe3cb26d570c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ELD3.ANS by Defiant + Widowmaker (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Eldorado
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961101
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Eldorado by Defiant + Widowmaker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9611-us-eld3
 
 Write-Host '
 [1m[0mwidowmaker([1mawe[0m)          [35m▄▄▄████████[0m          [35m▄▄▄███▄▄[0m                  [1;37m░[0m

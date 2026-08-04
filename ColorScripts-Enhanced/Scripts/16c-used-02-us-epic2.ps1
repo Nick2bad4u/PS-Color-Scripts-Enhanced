@@ -1,18 +1,4 @@
-﻿# Converted from: us-epic2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-02/raw/us-epic2.ans
-# Source Revision: archive-sha256:21302c91644277d9117a9a1fcab004f6fa76d5a90d6a4926e513a24dd5b73cd5
-# Source SHA-256: 61f857815fb4e96ebd2cc12b19cb20e0a25cc881b3959f894b866a8aeaec0660
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-epic2.ans by Spear + Cryogenic (Used); released in used-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Epic Arts
-# SAUCE Author: cryogenic and spear
-# SAUCE Group: Used
-# SAUCE Date: 19991216
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Epic Arts by Spear + Cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-02-us-epic2
 
 Write-Host '
 

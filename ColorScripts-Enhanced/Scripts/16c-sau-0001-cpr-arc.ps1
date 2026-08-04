@@ -1,13 +1,4 @@
-﻿# Converted from: CPR-ARC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sau-0001/raw/CPR-ARC.ANS
-# Source Revision: archive-sha256:dc71945c9caa100b3bbaf1dc04169c0cd75a1c4970a41815161c05673316d4da
-# Source SHA-256: df7f55884ccad15213d33e1a1261f1246d9862cb6fd1749553c5fe23a00cc5a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPR-ARC.ANS by Cooper (sau-0001); released in sau-0001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: CPR-ARC.ANS by Cooper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sau-0001-cpr-arc
 
 Write-Host '
 [1;34m█▐███████▐███▀▀▀[0;36m██  [0;1;34m▐▀[0;36m▀▌[0m       [1;34m▄[0m         [32m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m       [1;30m░▒▓[0;1;30;47m█▓▒░ [0;1;37;47m░▒▓█[0m

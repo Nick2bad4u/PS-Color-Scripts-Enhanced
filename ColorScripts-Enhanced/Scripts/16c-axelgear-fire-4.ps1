@@ -1,18 +1,4 @@
-﻿# Converted from: FIRE-4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axelgear/raw/FIRE-4.ANS
-# Source Revision: archive-sha256:b47467ff2f44fba1583ea1e079d55dd2548eadef82dd6d664541c9909c9928e2
-# Source SHA-256: 01ae5450b74ffdfa31466bf15fcda4f8eb5f33dca779f01b714b82e0b69c98e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FIRE-4.ANS by Sodium (Fire Productions); released in axelgear and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fire Piece Number Four
-# SAUCE Author: Sodium
-# SAUCE Group: Fire Productions
-# SAUCE Date: 19970418
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Fire Piece Number Four by Sodium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axelgear-fire-4
 
 Write-Host '
 

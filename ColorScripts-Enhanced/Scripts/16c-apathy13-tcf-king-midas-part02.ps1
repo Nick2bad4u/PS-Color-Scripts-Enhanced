@@ -1,19 +1,4 @@
-﻿# Converted from: tcf-King-Midas.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy13/raw/tcf-King-Midas.ans
-# Source Revision: archive-sha256:3ed7178f860604c6b9786846d46fd13095846b81c16a5324edc4e4b9ea7e6ba8
-# Source SHA-256: 88e34992575caf82f3383a4e8107becb6b18bc93c5caa4a2f2d1e20a30949b35
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tcf-King-Midas.ans by tcf (apathy); released in apathy13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: king midas
-# SAUCE Author: tcf
-# SAUCE Group: apathy
-# SAUCE Date: 20150307
-# SAUCE Dimensions: 80x114
-# SAUCE Font: IBM VGA
-# Lines: 39-78
-# Columns: 1-80
+﻿# Artwork: king midas by tcf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy13-tcf-king-midas-part02
 
 Write-Host '
 [33m████████████[0;1;33;43m░░░░░[0;33m██▄▄▄▄ [0;1;31m [0;33m░░[0m                         [33m█████▌[0m

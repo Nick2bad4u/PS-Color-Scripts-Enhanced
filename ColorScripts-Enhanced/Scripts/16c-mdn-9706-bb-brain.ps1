@@ -1,18 +1,4 @@
-﻿# Converted from: BB-BRAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9706/raw/BB-BRAIN.ANS
-# Source Revision: archive-sha256:7778e60ae879f03132c18bc660bc1aff97b6f3b65410765bf6f0d32a4bcff865
-# Source SHA-256: 87fdac55ffe52db36c57a64098177c8759dff38ea64fedd0132dcda9b1ffb65a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BB-BRAIN.ANS by Bugs Bunny?! 8) (Maiden Br?!); released in mdn-9706 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Brain Damage?!
-# SAUCE Author: Bugs Bunny?! 8)
-# SAUCE Group: Maiden Br?!
-# SAUCE Date: 19970509
-# SAUCE Dimensions: 80x23
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Brain Damage?! by Bugs Bunny?! 8) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9706-bb-brain
 
 Write-Host '
 

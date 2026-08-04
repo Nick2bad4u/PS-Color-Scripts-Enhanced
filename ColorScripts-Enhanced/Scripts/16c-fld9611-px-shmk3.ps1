@@ -1,18 +1,4 @@
-﻿# Converted from: PX_SHMK3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fld9611/raw/PX_SHMK3.ANS
-# Source Revision: archive-sha256:c3be5f7f5a1a29d13d34b467174f87c610dcf087ab12ff7b46ba81bca9a6eb51
-# Source SHA-256: 4b61cfd9a1b9016eb9f938d7689b7eca5560e3421fd34304603f5c4780283a1a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PX_SHMK3.ANS by perplexer (fluid (DreamWeb)); released in fld9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: shamera kye login.. .
-# SAUCE Author: perplexer
-# SAUCE Group: fluid (DreamWeb)
-# SAUCE Date: 19960608
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: shamera kye login.. . by perplexer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fld9611-px-shmk3
 
 Write-Host '
 [1;34;44m░ [0;30;44m░░▒▒▓▓▓[0;34;40m░[0;30;44m▓[0;34;40m░░░ ■▄[0m                                    [37;40m▄▄[0;1;37;40m▄▄█████████[0;1;37;47m▓░[0m█▀[1;30m▄[0m▀█[1;47m░▓[0;1;40m████[0m

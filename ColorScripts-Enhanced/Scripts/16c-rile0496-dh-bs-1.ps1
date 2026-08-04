@@ -1,18 +1,4 @@
-﻿# Converted from: DH-BS!!1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile0496/raw/DH-BS!!1.ANS
-# Source Revision: archive-sha256:970ba17ca3338e96740571feaeb5cccb1e503d5151fde5fa1bc67bce49fcb3a4
-# Source SHA-256: 4251b2e133c93b35f47106d13932b144e53fe105c23f3fad166ef2a2f04357c0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DH-BS!!1.ANS by dark horizon (rile); released in rile0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: bUULLLSHITTTTTTTT.
-# SAUCE Author: dark horizon
-# SAUCE Group: rile
-# SAUCE Date: 19960330
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: bUULLLSHITTTTTTTT. by dark horizon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile0496-dh-bs-1
 
 Write-Host '
           [1;30m·[0m

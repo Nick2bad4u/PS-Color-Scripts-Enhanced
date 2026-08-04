@@ -1,13 +1,4 @@
-﻿# Converted from: ASCII-50.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/siapwtt/raw/ASCII-50.ANS
-# Source Revision: archive-sha256:d87fe0078c0a6ecb2e59f19b0f843926bca5e3b838e0547f77eebf3191268375
-# Source SHA-256: 68260e83017d5d6054e13f9720c0b30ce71154df814ce090d8d70497e8a2139a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ASCII-50.ANS by Konami (siapwtt); released in siapwtt and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: ASCII-50.ANS by Konami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-siapwtt-ascii-50
 
 Write-Host '
    [34m.[0m            [1;30m   [0m                  [1;30m.[0m                            [1;34m,[0;34m¬/═\⌐,[0m     [1;30m_.[0m

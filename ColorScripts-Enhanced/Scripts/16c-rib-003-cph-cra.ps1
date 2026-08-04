@@ -1,13 +1,4 @@
-﻿# Converted from: CPH-CRA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-003/raw/CPH-CRA.ANS
-# Source Revision: archive-sha256:09817656d743388b570b7dfb39c4f133f8c40aecb92562f60d9e0c45a3f39730
-# Source SHA-256: d514f77cdf82097aedd350fed64e1496fe8011507d2f380b09122b6c12e4ae62
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-CRA.ANS by Cyberpunch (rib-003); released in rib-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: CPH-CRA.ANS by Cyberpunch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-003-cph-cra
 
 Write-Host '
     [36m [0m      [36m [0m              [35m░[0m

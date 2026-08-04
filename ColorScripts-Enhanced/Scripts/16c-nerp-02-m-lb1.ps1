@@ -1,18 +1,4 @@
-﻿# Converted from: M-LB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-02/raw/M-LB1.ANS
-# Source Revision: archive-sha256:3fd9f194d865cfc24c90bdf11a27528d8d82a8ba9c376ebed567183a2f95a9f3
-# Source SHA-256: c66ef095be8c2623d139fdaa6e1c5286ac73e18b1682e7eb1c276522f29a12ee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M-LB1.ANS by milkmang (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: lunchbox (1) login
-# SAUCE Author: milkmang
-# SAUCE Group: nerp
-# SAUCE Date: 19971102
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: lunchbox (1) login by milkmang | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-02-m-lb1
 
 Write-Host '
 [1;31m███████[0;1;31;46m▓[0;36m▌[0;31m▄[0;1;31m▄[0;1;31;41m▄▄[0;1;31;40m███████████[0;1;31;46m▓[0;36m▌[0;31m▄[0;1;31;41m▄[0;1;31;40m█[0;1;31;46m▓[0;36m▄[0;31m▀[0;1;31;41m▓[0;1;31;40m███████[0;1;31;47m▓▓[0;1;31;40m▌[0m   [1;30;47m▓░[0m▄▌[1;30m▀[0;1;30;47m▄[0m███████████████████████████

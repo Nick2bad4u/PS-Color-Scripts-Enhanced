@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-REV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0797/raw/BYM-REV.ANS
-# Source Revision: archive-sha256:36665a37d029524a07b3c0ade06e9ef3ded1bb8e68470bcb59063cd367dc113e
-# Source SHA-256: 894eed384232c8bd22a5ce6d9763bedd018db88ba85a03f0fc0330a7b41ffb95
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-REV.ANS by big yellow man (phobia); released in plf-0797 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: reverse
-# SAUCE Author: big yellow man
-# SAUCE Group: phobia
-# SAUCE Date: 19970624
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: reverse by big yellow man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0797-bym-rev
 
 Write-Host '
 

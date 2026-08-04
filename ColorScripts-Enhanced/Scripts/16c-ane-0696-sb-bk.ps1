@@ -1,18 +1,4 @@
-﻿# Converted from: SB-BK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ane-0696/raw/SB-BK.ANS
-# Source Revision: archive-sha256:d749d6dfb1aa7099bfe8de2fa9928647cd0fee95bf1e9f28d13d3a4e290eafb8
-# Source SHA-256: 172a14895dc05000b32982a9659710f4cbafc7791fe76e70a7b8ec969f33895f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SB-BK.ANS by Essbee (.;:Anemia:;.); released in ane-0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: BatKave
-# SAUCE Author: Essbee
-# SAUCE Group: .;:Anemia:;.
-# SAUCE Date: 19960611
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: BatKave by Essbee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ane-0696-sb-bk
 
 Write-Host '
    [36m▀▀▄▄▄[0m         [36m▄▄▓▄██▀▀▀▀▀▀▀██[0;1;36;46m░▒▒▒▓▓▒[0;36m▄▄[0;30;46m░[0;36;40m▄▄[0;1;36;46m░▒░[0;36m▄▄▄▄[0m        [36m▄[0m

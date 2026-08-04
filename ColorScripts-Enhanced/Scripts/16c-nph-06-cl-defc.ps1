@@ -1,18 +1,4 @@
-﻿# Converted from: CL!-DEFC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-06/raw/CL!-DEFC.ANS
-# Source Revision: archive-sha256:23bf7a2dd40d2b6120f5e578427d7f6ab3055fd2a788b1f3e27f63e9880c5fa0
-# Source SHA-256: 7a0436fa141f50e2a246d5140da36241939c04a53742079f2d9abe0ae62c6af6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-DEFC.ANS by cLEANEr (nITROPHUSIOn); released in nph-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dEFCOn lOGo
-# SAUCE Author: cLEANEr
-# SAUCE Group: nITROPHUSIOn
-# SAUCE Date: 19971231
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: dEFCOn lOGo by cLEANEr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-06-cl-defc
 
 Write-Host '
                [1;30m▄▄▄[0m▄

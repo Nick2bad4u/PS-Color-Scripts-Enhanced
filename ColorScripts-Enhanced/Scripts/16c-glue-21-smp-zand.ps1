@@ -1,13 +1,4 @@
-﻿# Converted from: SMP-ZAND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-21/raw/SMP-ZAND.ANS
-# Source Revision: archive-sha256:f82ee46d8be1d82ea17d8bdc07ad3071d4259c4331c1829c972b5ae2082ebcd2
-# Source SHA-256: 47f33224125200a5cee8df248dd6575772da1e37bb06e71f647a3b959bc6b33a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-ZAND.ANS by Shrimp (glue-21); released in glue-21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: SMP-ZAND.ANS by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-21-smp-zand
 
 Write-Host '
   [33m▀[0;37m [0;33m▄▄[0m        [1;30m▀▀▀▀▀█[0;1;30;47m▄▄▄[0;1;37;47m▀[0;1;30;47m ░▓[0;1;30;40m▓[0m [1;30m█[0;1;30;47m▀▀▀▀▀[0;1;30;40m█▄[0m   [33m ▀[0;37m [0;33m▄[0m          [1;30m▀██[0;1;30;47m▀▀▀▀▀▀  [0;1;37;47m▀▀▀[0;1;30;47m  ▀▀▀▀[0;1;30;40m██▀ ▄[0;1;30;47m▀[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SN!CHS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak1/raw/SN!CHS.ANS
-# Source Revision: archive-sha256:6b35b56dc24903414bd16ecb32b5990f418418f7d4290c94fd51891e14acec7b
-# Source SHA-256: ed7596dcd54c2480f62233fec9a2171bbc8d32e4dd9759c15c775bc0c9e4e976
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SN!CHS.ANS by Snowball (Ecolove); released in ecl-pak1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Login ansi for Tdz!
-# SAUCE Author: Snowball
-# SAUCE Group: Ecolove
-# SAUCE Date: 19971122
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Login ansi for Tdz! by Snowball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak1-sn-chs
 
 Write-Host '
                       [36m [0m

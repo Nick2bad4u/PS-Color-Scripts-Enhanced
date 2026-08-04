@@ -1,13 +1,4 @@
-﻿# Converted from: UC^NOBBS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moco0001/raw/UC%5ENOBBS.ANS
-# Source Revision: archive-sha256:dcdb582dd72f68bdff86d5417b79603e24e9c8dae1249dc376b93ef4a35dab7b
-# Source SHA-256: 69964011bd6e6d6a8575c31db2177e3e06dfccb8718a5134ec10622cc36a86b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UC^NOBBS.ANS by Uctumi (moco0001); released in moco0001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: UC^NOBBS.ANS by Uctumi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moco0001-uc-nobbs
 
 Write-Host '
                            [36m ░[0m      [36m░[0m   [36m░[0m     [36m░[0m          [36m░[0m      [33m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: DS-ROUTE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shade002/raw/DS-ROUTE.ANS
-# Source Revision: archive-sha256:d6630e5a2cda9c2e8ed75a0f301d30ff6bb26e6ea43307100282f67eaeb95559
-# Source SHA-256: 32a73e1d5be0c6a7958ceac0f7fdee977c5e651299e045bcca469f32e598c301
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-ROUTE.ANS by DfuSe (shade); released in shade002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: route666
-# SAUCE Author: DfuSe
-# SAUCE Group: shade
-# SAUCE Date: 19951126
-# SAUCE Dimensions: 80x52
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: route666 by DfuSe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shade002-ds-route-part01
 
 Write-Host '
 [30;41m█[0;37;40m [0;1;34;40m  [0;30;41m████[0;1;34;40m   [0;30;41m███[0;1;30;40m   ░░[0;1;36;40m [0;36m [0;1;34m  [0;1;33m [0;36m [0;1;34m      [0;1;33m    [0;30;41m█[0;1;34;40m      ░░▓▓▓[0;1;34;47m█[0;1;34;40m████▄▄▄▄▄▄▄▄▄▓[0;30;44m▓[0;34;40m░[0;1;34;40m                [0m

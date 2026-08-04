@@ -1,13 +1,4 @@
-﻿# Converted from: POS!DNNE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-31/raw/POS!DNNE.ANS
-# Source Revision: archive-sha256:bb03d6a159f24338a3412f8c68b8b46e7434c6ed248bdd824b6bd523813298d1
-# Source SHA-256: aaa4f0090a0812e6d3d4b6957e7a74c3d543aa057da79e4a18e89085b12fd15c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: POS!DNNE.ANS by Poise + Noches (sclr-31); released in sclr-31 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: POS!DNNE.ANS by Poise + Noches | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-31-pos-dnne
 
 Write-Host '
                           [1m [0m

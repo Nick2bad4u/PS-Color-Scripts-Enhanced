@@ -1,18 +1,4 @@
-﻿# Converted from: US-FUSON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0697/raw/US-FUSON.ANS
-# Source Revision: archive-sha256:4afa384dbe1edb8568d2d9e2fda5954485e730ef7ea56b2b5212bd5bbae30f83
-# Source SHA-256: 61706b89309277a83f4e14eab08232315dcc832037d7704d327c93498c5cb93a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FUSON.ANS by Zendel + Ize (fusion); released in fsn-0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fusion
-# SAUCE Author: Multiple Artists
-# SAUCE Group: fusion
-# SAUCE Date: 19970601
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Fusion by Zendel + Ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0697-us-fuson
 
 Write-Host '
 

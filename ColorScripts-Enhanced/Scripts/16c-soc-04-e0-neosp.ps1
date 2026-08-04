@@ -1,18 +1,4 @@
-﻿# Converted from: E0-NEOSP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/soc-04/raw/E0-NEOSP.ANS
-# Source Revision: archive-sha256:72fd15426f37bca7e28f2cf1b434b07c03280098e1e5474499ff2d23d8253e82
-# Source SHA-256: ad264b778a7c5cdcb8844b4db54081f1a085de1a5325224a062740723f3aaa52
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: E0-NEOSP.ANS by Enzo (Society Productions); released in soc-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Neo Sporin
-# SAUCE Author: Enzo
-# SAUCE Group: Society Productions
-# SAUCE Date: 19971025
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Neo Sporin by Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-soc-04-e0-neosp
 
 Write-Host '
                      [1;30m ▄▄[0m  [1;30m▀[0;1;30;47m█[0;1;30;40m▄[0m              [34m   [0m   [34m  [0m    [34m        [0m   [37m▄[0;1;37m▄[0;1;33m▄[0m    [36m  [0;34m   [0;30;47m██[0m

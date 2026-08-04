@@ -1,18 +1,4 @@
-﻿# Converted from: PM-GUIT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot1097/raw/PM-GUIT.ANS
-# Source Revision: archive-sha256:b84c7734842a652de72debc7fc020ad913ff8d4d923b094dd49d00ce915470c8
-# Source SHA-256: 21c6fe73d5aa32f83d0a5737185aac2c1ac0169e7840d63c1cd492987d7959ea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-GUIT.ANS by Precious Metal (RioT); released in riot1097 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Guitar God
-# SAUCE Author: Precious Metal
-# SAUCE Group: RioT
-# SAUCE Date: 19971003
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Guitar God by Precious Metal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot1097-pm-guit
 
 Write-Host '
           [1;33m▄▄▄[0m [1;33;41m▒[0m   [1;33;41m░[0;1;33;40m▄[0m [1;33;41m▒▓[0m    [1;33;41m▓[0;1;33;40m▄▄▀▀▀[0;1;33;41m▓[0;1;33;40m▄[0m [31m▄▄[0;37m  [0;1;33m▀▄[0;1;33;41m▓[0m [1;33m▄▄[0;1;33;41m▓[0;1;33;40m▄▄[0m   [1;33m▄[0m

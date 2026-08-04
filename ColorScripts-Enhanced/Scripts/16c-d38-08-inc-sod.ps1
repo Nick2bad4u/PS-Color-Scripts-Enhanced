@@ -1,17 +1,4 @@
-﻿# Converted from: INC^SOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-08/raw/INC%5ESOD.ANS
-# Source Revision: archive-sha256:0567468a2c5f3b6be5032c5650cb72f6233cef61565d1d349ba0b887559b2680
-# Source SHA-256: 8e85bf31339e289461e49e5a9f129a22cc08b18b8dc20e81190681ef74022c95
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: INC^SOD.ANS by incarnate (d38-08); released in d38-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ill(egal) soda
-# SAUCE Author: incarnate
-# SAUCE Date: 19970711
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: ill(egal) soda by incarnate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-08-inc-sod
 
 Write-Host '
 [1m[0m[1m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;37m[0;36m[0;1;36m[0;36m[0;1;36m[0;1;37m[0m

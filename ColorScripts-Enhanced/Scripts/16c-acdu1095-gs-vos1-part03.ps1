@@ -1,18 +1,4 @@
-﻿# Converted from: GS-VOS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1095/raw/GS-VOS1.ANS
-# Source Revision: archive-sha256:488aebab08e35324a58b5bebccf7bdfbf1e869dd6136b50cfbc4e715d6ca4745
-# Source SHA-256: 752c925d2874322e68df1abb16642d95b28c428b2056289d243cb28e24afd50a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GS-VOS1.ANS by Ghengis (ACiD Productions); released in acdu1095 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Visions of Sacrifice
-# SAUCE Author: Ghengis
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19951001
-# SAUCE Dimensions: 80x127
-# Lines: 86-127
-# Columns: 1-80
+﻿# Artwork: Visions of Sacrifice by Ghengis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1095-gs-vos1-part03
 
 Write-Host '
 [33m▀▓█▓[0;1;31;43m  [0;33m▒[0;1;31;43m  [0;33m [0;1;31;43m    [0;33m███[0;1;31;43m░░[0;33m▄  [0;1;31;43m░▓▓▓[0;1;31;40m██[0;1;31;43m█████[0;1;31;40m██[0;1;31;43m▓▓▓▒▓▓[0;1;31;40m███[0;1;31;43m██▓[0;33m     [0;1;31m       [0;33m▒▓██▀▀  [0;37m [0;31m▒[0;37m  [0;34m░[0m

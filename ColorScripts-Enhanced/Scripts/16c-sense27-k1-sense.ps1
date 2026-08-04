@@ -1,13 +1,4 @@
-﻿# Converted from: k1-sense.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense27/raw/k1-sense.ans
-# Source Revision: archive-sha256:a31cb27f3a699dabe8d3f53fffd048cd9b61d3635ed0be3eb33893284480a58e
-# Source SHA-256: 3a8fb7ab972e4068df9ce12a739317046ccbd81698763a0bb869468bb886676c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: k1-sense.ans by Knocturnal (sense27); released in sense27 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: k1-sense.ans by Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense27-k1-sense
 
 Write-Host '
            [1;30m▄▌[0m    [34m░░░░░░[0m                                  [34m░░░ ░░░░░[0m

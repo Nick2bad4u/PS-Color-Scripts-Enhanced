@@ -1,19 +1,4 @@
-﻿# Converted from: GJ-CGAGRIS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0221/raw/GJ-CGAGRIS.ANS
-# Source Revision: archive-sha256:4a8c9a8001bc7db23e62733bd188b07e2f92f8b5caca34bf87f4e45dd922c1a0
-# Source SHA-256: be93606b24247b991b56ceb2df1c96c62b423fda19d1a94fcd79c81940f3e622
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GJ-CGAGRIS.ANS by grymmjack (MiSTiGRiS); released in mist0221 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: CGAgris
-# SAUCE Author: grymmjack
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 20210228
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: CGAgris by grymmjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0221-gj-cgagris
 
 Write-Host '
 

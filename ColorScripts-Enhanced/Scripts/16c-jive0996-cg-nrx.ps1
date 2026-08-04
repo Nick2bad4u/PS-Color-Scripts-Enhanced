@@ -1,15 +1,4 @@
-﻿# Converted from: CG-NRX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jive0996/raw/CG-NRX.ANS
-# Source Revision: archive-sha256:6b7d48e396de55126b3ae9c64ca3a6e3836b2eee40f86ad76fd1706353435055
-# Source SHA-256: 447ec40c78e7d5942807e1ff21ee2bb3646efc3976aead214aa4a6a10814a57b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-NRX.ANS by Cool Guy (jive0996); released in jive0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: nrx matrix
-# SAUCE Author: Cool Guy
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: nrx matrix by Cool Guy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jive0996-cg-nrx
 
 Write-Host '
 ░▒▓██▄▄    [1;30m  [0m░[1;30m            [0m                           [1;30m▄▄▄▄▄▄▓[0m

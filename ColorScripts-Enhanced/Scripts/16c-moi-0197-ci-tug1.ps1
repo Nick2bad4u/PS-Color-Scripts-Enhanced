@@ -1,13 +1,4 @@
-﻿# Converted from: CI-TUG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moi-0197/raw/CI-TUG1.ANS
-# Source Revision: archive-sha256:fe57e3906e31d2dba15217b85af3203ddf959760df0938928ddd718198829839
-# Source SHA-256: b59322fc44cd4a9e55490a53a335e16999a1a1682890f265b89abdacdfb8e484
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CI-TUG1.ANS by Civid (moi-0197); released in moi-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: CI-TUG1.ANS by Civid | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moi-0197-ci-tug1
 
 Write-Host '
          [1;34mt   h   e[0m                   [34m▐[0;1;34;44m░[0;34m▄▄[0m

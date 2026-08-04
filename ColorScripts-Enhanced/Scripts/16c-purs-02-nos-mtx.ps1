@@ -1,18 +1,4 @@
-﻿# Converted from: NOS-MTX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purs-02/raw/NOS-MTX.ANS
-# Source Revision: archive-sha256:2c8e93eafa2c84fb7b1bb146c18c57282cbe9056f9cc74757bc0eeb3cca87e9f
-# Source SHA-256: f801319253a88f284fde1c24c7bfa2eaaa94b0296c65c50dd2c2967ce5b1f5f4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOS-MTX.ANS by Nosferatu (Pursuit); released in purs-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Matrix
-# SAUCE Author: Nosferatu
-# SAUCE Group: Pursuit
-# SAUCE Date: 19960501
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Matrix by Nosferatu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purs-02-nos-mtx
 
 Write-Host '
                   [1;30m▄▄[0m [1;30m▄▄▄▄▄[0m [1;30m▄▄[0m             [1;30m▄▄▄▄▄▄▄▄▄[0m   [1;30m▄▄▄▄▄▄▄▄▄[0m   [1;30m▄▄▄▄[0m

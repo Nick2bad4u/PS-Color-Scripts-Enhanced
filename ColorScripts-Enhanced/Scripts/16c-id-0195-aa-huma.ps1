@@ -1,13 +1,4 @@
-﻿# Converted from: AA-HUMA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/id-0195/raw/AA-HUMA.ANS
-# Source Revision: archive-sha256:1e102bfdfc5a7e5ea7a34581f48ef676a6c5bd53addba28566fec29d5526922b
-# Source SHA-256: 814c56b92d334846dbbd211d54530f6825d1be4185e9199cc75a489199a16eac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AA-HUMA.ANS by America (id-0195); released in id-0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: AA-HUMA.ANS by America | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-id-0195-aa-huma
 
 Write-Host '
 [33m  ▄▄▄▌[0;1;30m▓[0;33m▐█[0;1;30m █▀ [0;33m█████[0;31;43m░[0;33;40m█[0;37;43m        ░░░▒░[0;37;40m▀ [0;1;30;40m█▀[0;33m▐[0;37;43m░[0;33;40m▌[0m [33;40m▐[0;1;30;43m░[0;33m█[0m [37;43m▓▒[0;33;40m████████[0;37;43m░░▒▒▒░[0;33;40m███████[0;1;30;43m░▒[0;33m██▀▄[0;1;30;43m░[0;33m▀ [0;1;30;43m▒▓[0m

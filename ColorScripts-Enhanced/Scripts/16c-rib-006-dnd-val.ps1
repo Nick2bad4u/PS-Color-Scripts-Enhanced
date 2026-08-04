@@ -1,13 +1,4 @@
-﻿# Converted from: DND-VAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-006/raw/DND-VAL.ANS
-# Source Revision: archive-sha256:4d7b445ca8b643922c5230e9f5b3c442135561ba0bcfa9b1ae5cb138b563798c
-# Source SHA-256: ef6a0835225e8ab6f5ca029f20a6d788ea18a8c3edd9f6bb9c2df2a438a0b490
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DND-VAL.ANS by Diamond (rib-006); released in rib-006 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: DND-VAL.ANS by Diamond | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-006-dnd-val
 
 Write-Host '
 [1;33m     [0;34m▀  ▀▀[0;1;34;44m ▀▀[0;1;34;46m░▓▓[0;1;34;44m██▀▀▀█[0;1;34;46m▓░▓[0;1;34;44m▓▓▓▀▀█[0;1;34;46m▓▓[0;1;34;44m▀▌▀▀▓▓  ▀▀ ▀  [0;34m▀▀▀▀▀▀▀▀▀  ▀▀▀▀    ▀[0;34;40m             [0m

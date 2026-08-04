@@ -1,13 +1,4 @@
-﻿# Converted from: cs-capslogo.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/cs-capslogo.ans
-# Source Revision: archive-sha256:5d665873486ffcf559d33043557e11d7636d0c5a5b53a69dd3e7cf81117997ef
-# Source SHA-256: 78dc761bc0435c1008f7c354a635fd8568ad33da148fd4e7ec697e34badcb75d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cs-capslogo.ans by Capsone (blocktronics_codename_chris_wirth); released in blocktronics_codename_chris_wirth and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: cs-capslogo.ans by Capsone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-codename-chris-wirth-cs-capslogo
 
 Write-Host '
                                [1m░░[0m           [33m░[0m     [33m▄[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: _xmas_goo-christmas-bauble-2018.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_miracle_on_67th_street/raw/_xmas_goo-christmas-bauble-2018.ans
-# Source Revision: archive-sha256:7a78b3edd176c6d05feb481522f2c4f3e57721df62292c2b4ce537e855c41ae8
-# Source SHA-256: 3eb830b6b73c0f5cddd554e0e8bced20fbf1f09a445a6afcff2a6c7c528ec593
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _xmas_goo-christmas-bauble-2018.ans by myPal Goo (Blocktronics); released in blocktronics_miracle_on_67th_street and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Christmas Bauble 2018
-# SAUCE Author: myPal Goo
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20181125
-# SAUCE Dimensions: 80x75
-# SAUCE Font: IBM VGA
-# Lines: 39-75
-# Columns: 1-80
+﻿# Artwork: Christmas Bauble 2018 by myPal Goo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-miracle-on-67th-street-xmas-goo-christmas-bauble-2018-part02
 
 Write-Host '
 [1;30m▀▀▄▄▄████[0;1;30;46m▀[0;1;30;40m█[0;1;30;46m▀[0;1;30;40m███[0;1;30;46m▄[0;1;30;40m█[0;1;30;46m▄[0;1;30;40m█[0;1;30;46m▄[0;1;30;40m█[0;1;30;46m▄██[0;1;30;40m██[0;1;30;46m▀[0;1;30;40m█[0;1;30;46m▀[0;1;30;41m▀▀▀[0;1;30;46m▀[0;1;30;41m▄▄▄▄[0;1;30;40m█[0;1;30;46m▀█▀[0;1;30;40m█[0;1;30;46m▀[0;1;30;40m████[0;1;30;46m▄█▄[0;1;30;40m█[0;1;30;46m▄[0;1;30;40m██[0;1;30;46m▀[0;1;30;40m█[0;1;30;46m▀[0;1;30;47m▓░[0m█ [31m██[0;37m █ ▄▀[0;30m███[0m

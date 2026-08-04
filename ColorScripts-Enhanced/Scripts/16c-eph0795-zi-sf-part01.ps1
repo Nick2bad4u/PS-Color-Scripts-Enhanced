@@ -1,13 +1,4 @@
-﻿# Converted from: ZI-SF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eph0795/raw/ZI-SF.ANS
-# Source Revision: archive-sha256:3ae356e33ba2054cf1d98da2bbc65f1e165e24aeb22f3b590704f646bdf96398
-# Source SHA-256: 64f1708204c58621a3a661f2a26e76f59476f2c2d2c264d521ae5407ef6626ea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZI-SF.ANS by Zippo (eph0795); released in eph0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: ZI-SF.ANS by Zippo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eph0795-zi-sf-part01
 
 Write-Host '
 [30m[0;37m[0m [35;45m                                                                              [0;37;40m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: DQ-BAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bat05/raw/DQ-BAT.ANS
-# Source Revision: archive-sha256:c1082e0417753715d0b89831e0230f9ac3baf3aab6c8a1f382615ebce2ab409a
-# Source SHA-256: a7ac18a72c64b2640e0730c68f022e5bb263fb46b83eb1e58859b4f5c121c049
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DQ-BAT.ANS by Don Quijote (Bad Attitude); released in bat05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: BaT Logo
-# SAUCE Author: Don Quijote
-# SAUCE Group: Bad Attitude
-# SAUCE Date: 19970112
-# SAUCE Dimensions: 80x25
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: BaT Logo by Don Quijote | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bat05-dq-bat
 
 Write-Host '
      [1;30m░░[0m                                            [1;35m░░[0m

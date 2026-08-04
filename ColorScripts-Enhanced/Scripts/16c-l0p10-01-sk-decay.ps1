@@ -1,18 +1,4 @@
-﻿# Converted from: SK!DECAY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p10_01/raw/SK!DECAY.ANS
-# Source Revision: archive-sha256:07a7c989e195c9828a0ca382f79fb6d55a731b3471cfb9534617813c733c980c
-# Source SHA-256: b66d66394e2300a839855aeba4772f8f744ee858a9c227caa5f4bfad1a6b9ded
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!DECAY.ANS by sIMONkING (thelo0p); released in l0p10_01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dECAY BBS
-# SAUCE Author: sIMONkING
-# SAUCE Group: thelo0p
-# SAUCE Date: 20010301
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: dECAY BBS by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p10-01-sk-decay
 
 Write-Host '
           [32m░░░░░░░[0m    [1;30m▄[0;1;32m [0;32m░░░░░░░[0m      [1;37mbbs[0;1;32m [0;32m░░░░░[0;1;32m  [0;32m░░░░░░[0m      [32m░░░░[0;1;32m  [0;32m░░░[0;1;32m░░[0m

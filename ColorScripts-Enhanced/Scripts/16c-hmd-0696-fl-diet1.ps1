@@ -1,18 +1,4 @@
-﻿# Converted from: FL-DIET1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hmd-0696/raw/FL-DIET1.ANS
-# Source Revision: archive-sha256:cdb2bd6a0639a2561fe55465badfc0395ee676b7bad0a20bb4669cc251eedfd7
-# Source SHA-256: 2631c23a44515118996bf83847df22174bc9f8e5bffbb0b8419f0ed38a24d1fc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-DIET1.ANS by fLAMe (hUmid); released in hmd-0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dyet c0la matrix
-# SAUCE Author: fLAMe
-# SAUCE Group: hUmid
-# SAUCE Date: 19960512
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: dyet c0la matrix by fLAMe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hmd-0696-fl-diet1
 
 Write-Host '
 [1m█[0;1;33m█▀▓▓▄[0;35m░[0;30;45m▓[0;35;40m▒▀ [0;1;37;40m▐█[0;1;33;40m▓▀[0;31m▀██[0;30;41m░▓[0;31;40m██▄▄[0;37;40m [0;1;35;40m▀▀▀[0;1;35;45m██[0;1;35;47m▓▓[0;1;35;45m█[0;1;35;40m▓▒░[0;35m [0;37m▄[0;1;35m▄▄▄▐██[0;1;35;47m▓▓[0;1;35;40m██▄▄[0m [33m▀[0;37m [0;1;35m░▓██[0;1;35;47m▓▒▓▓[0;1;35;40m██[0;1;35;45m▓▓▒▒░░[0;34;45m  [0;35;40m█▀▌ [0;33;40m░[0;35;40m▐█[0;30;45m░[0;35;40m░[0m

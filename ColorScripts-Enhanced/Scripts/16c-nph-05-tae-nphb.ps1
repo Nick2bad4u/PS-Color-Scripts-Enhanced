@@ -1,18 +1,4 @@
-﻿# Converted from: TAE!NPHB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-05/raw/TAE!NPHB.ANS
-# Source Revision: archive-sha256:32c1f67ac6058d9066b580c3bd5854b0529a1844e2dce2e40def969bcce3e47d
-# Source SHA-256: 54ed4c6d12a82d8bc7c151cf50e20a4f75bb5a4d77cd7ec867b677c2644005e7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TAE!NPHB.ANS by taevore (nph^neonstr..); released in nph-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: nitrophusion beer!
-# SAUCE Author: taevore
-# SAUCE Group: nph^neonstr..
-# SAUCE Date: 19971125
-# SAUCE Dimensions: 65x37
-# Lines: 1-37
-# Columns: 1-65
+﻿# Artwork: nitrophusion beer! by taevore | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-05-tae-nphb
 
 Write-Host '
                          ▄▄▄

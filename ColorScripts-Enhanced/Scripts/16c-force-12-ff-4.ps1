@@ -1,18 +1,4 @@
-﻿# Converted from: FF-#4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-12/raw/FF-%234.ANS
-# Source Revision: archive-sha256:7e4f8f6a94015166f300fe788b888a1d637b190c909ddf321a766f55494b93b3
-# Source SHA-256: fc41edb09bd7b9cbbf68c74a8d21ecfa60f129f2e7ded72da8d191857cf41b9e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FF-#4.ANS by Flava Flav (fORCE); released in force-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fear Factory
-# SAUCE Author: Flava Flav
-# SAUCE Group: fORCE
-# SAUCE Date: 19961014
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Fear Factory by Flava Flav | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-12-ff-4
 
 Write-Host '
 [1;34;46m░░▒▓▓[0;1;34;40m██████[0;1;34;44m▓▄[0;34m▄░▄[0;1;34;44m▄[0;1;34;40m██[0;1;34;44m▀[0;34m▀[0;1;34;44m▀[0;1;34;46m▓[0;1;34;40m█[0;1;34;44m▀▀[0;34m▀▀[0;1;34;44m▀[0;34m▀[0;1;33m▄[0;33m▄[0;34m▀[0;1;33m▄▄▄[0;33m▄[0;34m [0;1;33m▄[0;33m▄[0;34m               [0;37m ░ fear factory  [0m

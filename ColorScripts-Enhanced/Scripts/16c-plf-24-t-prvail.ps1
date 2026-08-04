@@ -1,18 +1,4 @@
-﻿# Converted from: T-PRVAIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-24/raw/T-PRVAIL.ANS
-# Source Revision: archive-sha256:1abe9f6471c193297993f6102a7f1d53cb9b9b48e63d2981eff0aa9f03e28396
-# Source SHA-256: 534a89674d635dd3083bffac5c02571164d1780a0da12c97c03f49bae5244edf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T-PRVAIL.ANS by toot (poffelipoff); released in plf-24 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: prevail
-# SAUCE Author: toot
-# SAUCE Group: poffelipoff
-# SAUCE Date: 20000207
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: prevail by toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-24-t-prvail
 
 Write-Host '
 [36m▄[0;1;36m▄▄[0;34m        [0;33m [0;32m▀[0;1;33m▀▀▀[0;1;33;43m▀[0;1;33;40m██[0;1;37;40m██[0;1;33;40m███[0;1;33;43m▀[0;1;33;40m▀▀[0;33m▀[0;35m [0;37m [0m     [34m▄[0;1;34m▄▄▄▄[0;34m [0;37m [0;1;33m [0;1;33;42m▐[0;1;33;40m█[0;1;37;40m███[0;1;33;40m███████▀ [0m   [1;34m▐[0;1;34;46m▀[0;1;36;46m▄[0;1;34;46m ▀[0m   [32m▐[0;1;33m████[0;1;37m██████[0m

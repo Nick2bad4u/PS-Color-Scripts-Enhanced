@@ -1,18 +1,4 @@
-﻿# Converted from: FIL-CACO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/legion02/raw/FIL-CACO.ANS
-# Source Revision: raw-sha256:56c4a2a358e09f6e659ae5687d18d48a69cb4551641c2fe701635d70997b0b71
-# Source SHA-256: 56c4a2a358e09f6e659ae5687d18d48a69cb4551641c2fe701635d70997b0b71
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FIL-CACO.ANS by filth (the legion); released in legion02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: cacoa cola
-# SAUCE Author: filth
-# SAUCE Group: the legion
-# SAUCE Date: 19980501
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: cacoa cola by filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-legion02-fil-caco
 
 Write-Host '
 [31m▀[0;30mfilth filth[0;1;31m [0;33m▄▄[0;1;31m▄▄▄[0;33m▄▄[0;1;31m [0m       [31m▀ ▀▀████████▀   ▀██  ▀██▀▀▄▄████▀▄▄▀███████▀▄█████▀ [0m

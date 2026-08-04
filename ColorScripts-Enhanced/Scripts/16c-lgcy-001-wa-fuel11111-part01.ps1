@@ -1,20 +1,4 @@
-﻿# Converted from: wa-fuel11111.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-001/raw/wa-fuel11111.ans
-# Source Revision: archive-sha256:589c804657c8d15ba617f7c0fd80723e4505d519989b80eba9584665be49eb54
-# Source SHA-256: a62932db41341738504c00f8df4d44874ecfc8cc61dc11b8e9708b4b7e16a317
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-fuel11111.ans by warpus (Legacy Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: FUEL 11111
-# SAUCE Author: warpus
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20191228
-# SAUCE Dimensions: 80x56
-# SAUCE Font: IBM VGA
-# SAUCE Comments: I will always remember my time in FUEL
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: FUEL 11111 by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-001-wa-fuel11111-part01
 
 Write-Host '
 

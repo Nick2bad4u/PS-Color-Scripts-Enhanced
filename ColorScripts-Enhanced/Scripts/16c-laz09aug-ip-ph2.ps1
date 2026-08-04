@@ -1,18 +1,4 @@
-﻿# Converted from: IP-PH2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz09aug/raw/IP-PH2.ANS
-# Source Revision: archive-sha256:3e0bd3039fe877b3970f71e80b4456ee60793f2295ae127a50a6587b17c2d6a2
-# Source SHA-256: d3428086fd6c64235531832895c3144ec81e90182cfc6b6e36276d9f25eff937
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IP-PH2.ANS by impulse (lazaurs); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Pee Ache
-# SAUCE Author: impulse
-# SAUCE Group: lazaurs
-# SAUCE Date: 19970802
-# SAUCE Dimensions: 80x11
-# Lines: 1-11
-# Columns: 1-80
+﻿# Artwork: Pee Ache by impulse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz09aug-ip-ph2
 
 Write-Host '
 [1;30m%[0m [1;30m----[0m [36m▀[0;1;36m▄[0;36m▄[0;1;36m [0m  [1;34m▄[0;1;34;47m▓[0;1;34;40m [0;1;30;40m------──────────----[0;33m░[0;1;30m-%--[0;36m[[0;1;30m [0mph![1;30m [0;36m][0;1;30m:--%--------------------------%[0m

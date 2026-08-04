@@ -1,19 +1,4 @@
-﻿# Converted from: NI-LOTL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz19/raw/NI-LOTL1.ANS
-# Source Revision: archive-sha256:b2207428f1b283b9c41d9ff03fce385f449fefe469c60e31e8dd7430a162f7c1
-# Source SHA-256: 9a3f67bd8c10fc427fa01a77576ef00641a6142de454e5259617a9112a6bff9c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-LOTL1.ANS by Nitron + Warpus (Lazarus); released in laz19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Land of the Lost
-# SAUCE Author: Nitron feat. Warpus
-# SAUCE Group: Lazarus
-# SAUCE Date: 20240902
-# SAUCE Dimensions: 80x140
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: The Land of the Lost by Nitron + Warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz19-ni-lotl1-part01
 
 Write-Host '
 [30m1[0m

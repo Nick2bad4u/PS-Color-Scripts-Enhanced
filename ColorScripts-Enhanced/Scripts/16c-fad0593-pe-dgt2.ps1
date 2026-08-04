@@ -1,13 +1,4 @@
-﻿# Converted from: PE-DGT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fad0593/raw/PE-DGT2.ANS
-# Source Revision: archive-sha256:1580b13184edd47a3feb36efb0983d4f1084efd53b6d3168b7c37920ec633702
-# Source SHA-256: d5068535f551f4b8f18279e17adb57405458897cf4ef925d9b5221d89314ad42
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PE-DGT2.ANS by Public Enemy (fad0593); released in fad0593 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: PE-DGT2.ANS by Public Enemy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fad0593-pe-dgt2
 
 Write-Host '
 [1;34m[0m

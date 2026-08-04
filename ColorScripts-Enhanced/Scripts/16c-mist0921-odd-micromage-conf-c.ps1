@@ -1,19 +1,4 @@
-﻿# Converted from: ODD-MICROMAGE-CONF-C.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0921/raw/ODD-MICROMAGE-CONF-C.ANS
-# Source Revision: archive-sha256:d0c46b43fcc75f34eccddd849ead8bb14d1cefded97053b0b2617868dbc835f6
-# Source SHA-256: 8e823b460882d446edaa3e9fd18d57dfce55b5f1311fc225072ebe5887c711e2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ODD-MICROMAGE-CONF-C.ANS by Odd (LK / Mist); released in mist0921 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Micro Mages
-# SAUCE Author: Odd
-# SAUCE Group: LK / Mist
-# SAUCE Date: 20210926
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Micro Mages by Odd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0921-odd-micromage-conf-c
 
 Write-Host '
  [34m▄   [0;33m▄▄[0;37m                          [0;34m▄              ▄                  ▄[0m

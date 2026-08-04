@@ -1,13 +1,4 @@
-﻿# Converted from: CC-ELLAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ato-0294/raw/CC-ELLAD.ANS
-# Source Revision: archive-sha256:454aa1a9076f3caf80d90d68e4d574fe47b3937a6e418db9d418d1d796c31371
-# Source SHA-256: a32418cb6e6abaf4786a8df2b371728a3bae88e686e607a280b023d611e15b51
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CC-ELLAD.ANS by Cosmic Catalyst (ato-0294); released in ato-0294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: CC-ELLAD.ANS by Cosmic Catalyst | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ato-0294-cc-ellad-part01
 
 Write-Host '
       [34m▄[0;34;44m [0;34;40m██████▄   ▄[0;34;44m [0;34;40m██████▄   ▄[0;34;44m      [0;34;40m▄  [0;34;44m    [0m           [34;44m    [0m [34;44m    [0m  [34;40m▄[0;34;44m [0;34;40m██████▄[0m

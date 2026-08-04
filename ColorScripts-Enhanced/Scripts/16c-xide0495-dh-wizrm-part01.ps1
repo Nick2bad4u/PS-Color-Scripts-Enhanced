@@ -1,13 +1,4 @@
-﻿# Converted from: DH-WIZRM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/xide0495/raw/DH-WIZRM.ANS
-# Source Revision: archive-sha256:e317471988b625a6d81c93dffa76e59b4fa1a5332df991b4e6e58355a6ccc8a7
-# Source SHA-256: a85ef446f05497ecffe0c6ba45219d34c6250fca2faaa355bd18edf890f6b05b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DH-WIZRM.ANS by Dark Horizon (xide0495); released in xide0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: DH-WIZRM.ANS by Dark Horizon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-xide0495-dh-wizrm-part01
 
 Write-Host '
 [34m████████████████████████████████████████████████▀ [0;35m▄▄█████▄▄ [0;34m▀▀█████████████████[0m

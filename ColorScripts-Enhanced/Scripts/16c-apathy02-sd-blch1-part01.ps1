@@ -1,18 +1,4 @@
-﻿# Converted from: SD-BLCH1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy02/raw/SD-BLCH1.ANS
-# Source Revision: archive-sha256:4751c3f9cd685c3d43e0f25d3f72bf380d7fd38b3db164de3b3584c79b798431
-# Source SHA-256: 3a32da8506b9687ef72dd44aa97a8cd2f4503f598f13bab90116527eddc38f7d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-BLCH1.ANS by sirdeath (apathy!); released in apathy02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: bleach promo
-# SAUCE Author: sirdeath
-# SAUCE Group: apathy!
-# SAUCE Date: 19950912
-# SAUCE Dimensions: 80x85
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: bleach promo by sirdeath | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy02-sd-blch1-part01
 
 Write-Host '
 [1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

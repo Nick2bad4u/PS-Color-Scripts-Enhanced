@@ -1,18 +1,4 @@
-﻿# Converted from: N4-PRCSD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/epic0002/raw/N4-PRCSD.ANS
-# Source Revision: archive-sha256:12b3b5d9c047777cb7d75ad49e3bcf892c30668715848bf9f33bc49e9892f33e
-# Source SHA-256: f143d82b85929bc3fa4522a4b471a3baa660853fa96a0d3e3394880eadc8a9bc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N4-PRCSD.ANS by Sod (Epic); released in epic0002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Processed Corp
-# SAUCE Author: Sod
-# SAUCE Group: Epic
-# SAUCE Date: 20100817
-# SAUCE Dimensions: 80x167
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: Processed Corp by Sod | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-epic0002-n4-prcsd-part01
 
 Write-Host '
       [1;30me l e c t r i c   p i c t u r e s   : :   s o m e   l a m e   c l u b[0m

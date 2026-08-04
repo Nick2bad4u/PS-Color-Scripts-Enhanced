@@ -1,18 +1,4 @@
-﻿# Converted from: TR-USA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-08/raw/TR-USA.ANS
-# Source Revision: archive-sha256:0b90c936d49629839c01709c30be5eee3ae4012caa7a8f1570b6ae8cc1763cb4
-# Source SHA-256: 09eeec518f4e08e7621b43b50faaa862f9bb6e01998858d3a0b5992a2b29ffdb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-USA.ANS by tarot (eclipse); released in ecl-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: THAT COUNTRY OVER THE SEA.. USA%!@#
-# SAUCE Author: tarot
-# SAUCE Group: eclipse
-# SAUCE Date: 19961015
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: THAT COUNTRY OVER THE SEA.. USA%!@# by tarot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-08-tr-usa
 
 Write-Host '
 [34m▐▀[0;30;44m░[0;34;40m▓[0;30;44m░[0;34;40m▓[0;30;44m░[0;34;40m▀▀▀██▌[0;1;33;40m▐[0;1;37;40m█[0;1;33;40m▀[0;34m [0;1;34;44m░░[0;34m▄[0;1;37m▀[0;34m▄█▀██[0;30;44m░[0;34;40m▄▄█▀▀[0;37;40m [0;33;40m ▄▄▄▄[0;1;33;43m░░▄▄▄▄▄▄█[0;1;33;40m▌▄[0;1;33;43m███[0;1;37;40m█████████[0;1;33;43m█[0;1;37;40m███▄▄▄▌[0m [31m▄▄▄[0;1;31m▄[0;1;31;41m▄▓▓█[0;1;33;41m░[0;31m [0m

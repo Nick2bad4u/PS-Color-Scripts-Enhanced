@@ -1,13 +1,4 @@
-﻿# Converted from: KHQFDMQC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/biz96ans/raw/KHQFDMQC.ANS
-# Source Revision: archive-sha256:f42c30659fb20a3a561a90aa1e7b5d2730bfdfd075ffb7f96fa63d36053dc7e6
-# Source SHA-256: bd8f0b07b8ab1c9617e0e39b97bd6adbc2120a87cc42ff59b4977ddc96b3eeef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KHQFDMQC.ANS by Tk (biz96ans); released in biz96ans and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: KHQFDMQC.ANS by Tk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-biz96ans-khqfdmqc
 
 Write-Host '
                             [1;30m    [0m [1;30m  ▄▀■▄[0m             [35m [0m

@@ -1,17 +1,4 @@
-﻿# Converted from: ST-ENT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9707/raw/ST-ENT.ANS
-# Source Revision: archive-sha256:718ad2b08b14a24156d1af86433f0063bd9bba178c290c317100b8e5ffb3939c
-# Source SHA-256: e8e77f13b4e7188db15f00737b32ad1ee38daa621e37b87ea37514017b8b8be9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-ENT.ANS by Splatt (AWE Lettering); released in awe9707 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Entrophy
-# SAUCE Author: Splatt
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Entrophy by Splatt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9707-st-ent
 
 Write-Host '
       [1;30m░[0m                     [32m [0;31m▄▄[0;1;31;41m▄▄▄▄[0;31m▄▄[0;37m  [0;1;30m▀▐[0;1;37;47m▀[0m         ▄[1m▄▄[0;1;47m▄▄█[0;1;40m█[0m▌[1m▄[0m▄[1m  [0m             [1;30m░[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: FX-BULL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0697/raw/FX-BULL.ANS
-# Source Revision: archive-sha256:608fe2b98dcac70515ce221c11f606d898ec739b4fcdd1a5448c437eb640df82
-# Source SHA-256: df9a2621c382f5bea0209e33aeec8067a886897bcd42c187af8719b611b602b0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FX-BULL.ANS by Flux (Psychic Release); released in bmb-0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Bulletins (big)
-# SAUCE Author: Flux
-# SAUCE Group: Psychic Release
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Bulletins (big) by Flux | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0697-fx-bull
 
 Write-Host '
                                                                       [32m▄▄▄▄▄▄▄▄▄[0m

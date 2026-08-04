@@ -1,15 +1,4 @@
-﻿# Converted from: DS-CSLAU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0397a/raw/DS-CSLAU.ANS
-# Source Revision: archive-sha256:a5643402b7470fb900b36daeccc6ebdbb3a700bc372f618742377039777fc87e
-# Source SHA-256: 9042fa47105d327b1a729a4786908b34c20ab5b2f77e8db6ac5b788a3f59a4b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-CSLAU.ANS by dark star; released in sac0397a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
-# SAUCE Date: 19960904
-# SAUCE Dimensions: 80x115
-# Lines: 37-72
-# Columns: 1-80
+﻿# Artwork: DS-CSLAU.ANS by dark star | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0397a-ds-cslau-part02
 
 Write-Host '
 [33m██▌██████▌[0;32m▐█▀▀▀████████████[0;1;32;42m   ░░░░▒▒▓▓▓▓███▓▓▓▓▒▒░░  [0;32m███████[0;1;32;42m [0;32m███▄[0;37m [0;32m████▀[0;37m [0;33m▄▄██▌[0;1;37m▐█[0m

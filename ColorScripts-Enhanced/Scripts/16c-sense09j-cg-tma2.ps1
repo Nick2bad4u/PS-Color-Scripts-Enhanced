@@ -1,18 +1,4 @@
-﻿# Converted from: CG-TMA2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense09j/raw/CG-TMA2.ANS
-# Source Revision: archive-sha256:9f583533fb256ec67ece3c5d38ebea61ce21b385a7859a4e786edef290584615
-# Source SHA-256: 9e1c2bfd72e38ebc604ba00d8abb6ea769391ac3cd97c7470b8d20aa7adb7f81
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-TMA2.ANS by cryogenic (sense); released in sense09j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: tma matrix
-# SAUCE Author: cryogenic
-# SAUCE Group: sense
-# SAUCE Date: 19990705
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: tma matrix by cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense09j-cg-tma2
 
 Write-Host '
 [32m▓▀[0;33m▄[0;1;31;43m▄████████████████████████████████████████████▄[0;33m▄ [0;32m▀▀[0;1;32m███[0;1;32;42m█▀[0;32m▀▀  ▄▄[0;1;32m▄▄▄▄[0;32m▄▄  ▀▀[0;1;32;42m▀████[0m

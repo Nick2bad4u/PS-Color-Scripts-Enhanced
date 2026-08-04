@@ -1,18 +1,4 @@
-﻿# Converted from: $H-PAIN3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axss-004/raw/%24H-PAIN3.ANS
-# Source Revision: archive-sha256:cc7ca8d7dcd1abdb52246b5cbdcd77ccd4fb36bf9ad0e41c6e03ec1642d8a422
-# Source SHA-256: aca1a3cfb7eaa1f1e29ea8ac5d96dedd6e2f32dd0e677d3c6a12a355ccbb5f62
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: $H-PAIN3.ANS by Shinigami (.%.AXss.%. -97); released in axss-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Pain Title Ansi #3
-# SAUCE Author: Shinigami
-# SAUCE Group: .%.AXss.%. -97
-# SAUCE Date: 19970617
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Pain Title Ansi #3 by Shinigami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axss-004-h-pain3
 
 Write-Host '
  [34m▄██▀▀██▄[0;37m [0;1;30m:::::::::■▀▀█▓▒░░░░░░░░░░░░░░░▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒░░░░░░░░░[0m

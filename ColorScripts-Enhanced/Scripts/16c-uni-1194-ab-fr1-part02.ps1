@@ -1,18 +1,4 @@
-﻿# Converted from: AB-FR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-1194/raw/AB-FR1.ANS
-# Source Revision: archive-sha256:2e69cbeefab6a04ca1d6ac29f3ba8db97b41d323e43733124f355f6c875b64bc
-# Source SHA-256: f3a62f9c1ea91351d89b239469ddd9960d25b60322c7c5cbc1963dd5e1529db6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AB-FR1.ANS by Abomination (Union); released in uni-1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Flatlined Reality
-# SAUCE Author: Abomination
-# SAUCE Group: Union
-# SAUCE Date: 19941102
-# SAUCE Dimensions: 80x25
-# Lines: 42-72
-# Columns: 1-80
+﻿# Artwork: Flatlined Reality by Abomination | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-1194-ab-fr1-part02
 
 Write-Host '
  [33m▀[0;1;33;43m▒[0;33m▄▄    ░▒▓▓[0;1;33m█  [0;33m░ [0;1;33m█▐▌[0;33m▐▌ █    [0;1;30mF[0m      [1;33m▀▀    ▀▀[0m      [1;30mR    [0;33m█ ▐▌[0;1;33m▐▌█ [0;33m░  [0;1;33;43m░[0m [1;33;40m▄[0;33m▄  [0;1;33m▀[0;33m▀ ▄▄[0;1;33;43m▒[0;33m▀[0m

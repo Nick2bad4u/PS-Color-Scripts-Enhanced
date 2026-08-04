@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-PRIME.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0197/raw/IZ-PRIME.ANS
-# Source Revision: archive-sha256:db16ecaf9a5ba2dcf16f11149d4e3768d3e19930159af1ef0ef2625ea12b3e30
-# Source SHA-256: 9002091737f297012e509b9957abf1531c82005eb6c7d50f7e45ed562953b766
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-PRIME.ANS by ize (fusion); released in fsn-0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: prime
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19961217
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: prime by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0197-iz-prime
 
 Write-Host '
           [32m■[0m

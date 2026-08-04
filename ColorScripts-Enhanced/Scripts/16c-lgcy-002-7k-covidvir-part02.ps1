@@ -1,19 +1,4 @@
-﻿# Converted from: 7k-covidvir.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-002/raw/7k-covidvir.ans
-# Source Revision: archive-sha256:035806f627526bbca92fb6becafc359d23b231b3ea478b7169ed62b6d2a1cc54
-# Source SHA-256: 530ba88fad42abbc6d2999649a720ba507607f5c6c6192b47e5ce9e701745347
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 7k-covidvir.ans by the knight (Legacy Krew); released in lgcy-002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: virus covid
-# SAUCE Author: the knight
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20200426
-# SAUCE Dimensions: 80x58
-# SAUCE Font: IBM VGA
-# Lines: 35-58
-# Columns: 1-80
+﻿# Artwork: virus covid by the knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-002-7k-covidvir-part02
 
 Write-Host '
                                                     [1;31m▄▄▄[0m

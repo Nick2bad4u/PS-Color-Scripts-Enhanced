@@ -1,19 +1,4 @@
-﻿# Converted from: JDA^PCK!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg0297/raw/JDA%5EPCK!.ANS
-# Source Revision: archive-sha256:398d54ab48baf03b2a76271be28600e820cb7f3c3af599e851a71ac0924fa8fd
-# Source SHA-256: 90b2f7d1343d1a43049d37e4faa792e9f8ca8ab77c51d4ffa81769c32dc6de19
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JDA^PCK!.ANS by Joda (deranged); released in drg0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: pancake. emag.
-# SAUCE Author: Joda
-# SAUCE Group: deranged
-# SAUCE Date: 19970131
-# SAUCE Dimensions: 80x22
-# SAUCE Comments: oh, god... i really didnt like that k. | terrible ugly.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: pancake. emag. by Joda | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg0297-jda-pck
 
 Write-Host '
                                                                            [1;30m░[0m

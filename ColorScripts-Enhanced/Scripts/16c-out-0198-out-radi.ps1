@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-RADI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0198/raw/OUT-RADI.ANS
-# Source Revision: archive-sha256:079c2da21b6d42fe9cc2b63a96a83dc31abac739a55d4f3842517260ebb75a4a
-# Source SHA-256: af69abce477745e8cb7990be2bec66991487016681bd2ab7920adf89788c11a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-RADI.ANS by Sandy Chidester (out-0198); released in out-0198 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: OUT-RADI.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0198-out-radi
 
 Write-Host '
        [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

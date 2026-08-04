@@ -1,13 +1,4 @@
-﻿# Converted from: H4-WIP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-10/raw/H4-WIP.ANS
-# Source Revision: archive-sha256:6734a0716f5363aecb5b8387359a704e7e1a498f17ee632abf4e9ca947f0336d
-# Source SHA-256: 3a41d9db1bac8cbb607986f97f58eef36dbd1714a21ec6f8f42b8836bf31fdae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: H4-WIP.ANS by Haji (ecl-10); released in ecl-10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: H4-WIP.ANS by Haji | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-10-h4-wip
 
 Write-Host '
                                             [32m ▄▄[0;1;32m [0m

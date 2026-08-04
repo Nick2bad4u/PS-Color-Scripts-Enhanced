@@ -1,13 +1,4 @@
-﻿# Converted from: RO-MBII.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-09/raw/RO-MBII.ICE
-# Source Revision: archive-sha256:1fcbf4aa1710b0a53349a8ea40276f5225ba911f5e9d163ab7e96a35bbed2cd0
-# Source SHA-256: 58c861723ef4b4f96843c4c65ca1cadedb2b1b5e1c6b7f168843eea5d4001b22
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RO-MBII.ICE by Repete Ophender (icepk-09); released in icepk-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: RO-MBII.ICE by Repete Ophender | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-09-ro-mbii-part01
 
 Write-Host '
 [1;33m████████████████████████████████████████████████████████████████████████████████[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: GC-LVNDR.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9708a/raw/GC-LVNDR.ICE
-# Source Revision: archive-sha256:63deb9e752fa85f6afabd8a41875343388a49c3c7ad37b2b9b29f4bfd04a346f
-# Source SHA-256: 4d14e63105c98caa388af4ad1e4dc31fb618358a036b5f1d9991c886782f1e1c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GC-LVNDR.ICE by Gorechild (ice9708a); released in ice9708a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: GC-LVNDR.ICE by Gorechild | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9708a-gc-lvndr
 
 Write-Host '
 [1;31;41m▓▓[0;1;31;40m▀▀[0;31m▀▀▀█[0;1;31;41m▒░[0;31m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0;1;31;41m░[0;31m█████████████▀[0;1;30m▄▓▒▒░░[0m [1;30m░[0m  ▄[1;30;47m░░░░░░[0m▓▓▄[47m [0;40m▄▄[0;31;40m▀[0;1;31;41m▀[0;31m█▓▀▀[0;37m▄▄[0;31m▀[0;1;31;41m▀▄░[0;31m█▓[0m

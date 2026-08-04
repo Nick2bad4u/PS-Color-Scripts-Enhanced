@@ -1,18 +1,4 @@
-﻿# Converted from: TAE!NEWU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-05/raw/TAE!NEWU.ANS
-# Source Revision: archive-sha256:32c1f67ac6058d9066b580c3bd5854b0529a1844e2dce2e40def969bcce3e47d
-# Source SHA-256: c53641f21bc6af76733d922f297e5ee8e999c1f782d73c54f94fe2bcabe5baea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TAE!NEWU.ANS by taevore (nph..); released in nph-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: newbie..
-# SAUCE Author: taevore
-# SAUCE Group: nph..
-# SAUCE Date: 19971125
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: newbie.. by taevore | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-05-tae-newu
 
 Write-Host '
          [34m▄[0m             [34m▄.·[0m                                    [34m▄■▄ ▌[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: FV-LURE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lure003/raw/FV-LURE.ANS
-# Source Revision: archive-sha256:1ff57f893971666a5780ed06387959ae5ebc9c163a5e118549c7818f33792253
-# Source SHA-256: 84ffb2cfa21971d3cd658558c9e4f82f5315e9def887df061f5f7b4a181f884d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-LURE.ANS by fever (revival (lure guest)); released in lure003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: lure
-# SAUCE Author: fever
-# SAUCE Group: revival (lure guest)
-# SAUCE Date: 20020510
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: lure by fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lure003-fv-lure
 
 Write-Host '
 [1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[33m▀■ ▀█[0;37;43m░░[0;33;40m█▀▄██[0;37;43m  [0;33;40m [0;37;40m░[0;33;40m▐█[0;1;33;43m░░[0;30;43m [0;33;40m▓ ▄[0;37;43m▒▒▒▒▒[0;33;40m▄▀[0;30;43m [0;37;43m░░░[0;33;40m▓▀ ▄[0;37;43m░▒░░░[0;33;40m▀▀▀▓▄[0;30;43m [0;37;43m░[0;37;40m ░ [0;33;40m░▄ ▀▀▓▓▓▓▀▀▄[0;30;43m [0;33;40m▀▀▓▄[0;30;43m [0;33;40m▀  ▄▀[0;30;43m [0;33;40m▓ [0m

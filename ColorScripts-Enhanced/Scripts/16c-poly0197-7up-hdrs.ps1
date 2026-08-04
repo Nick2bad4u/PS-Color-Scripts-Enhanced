@@ -1,18 +1,4 @@
-﻿# Converted from: 7UP_HDRS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/poly0197/raw/7UP_HDRS.ANS
-# Source Revision: archive-sha256:0dc93d303fdffb2cd4f8fd08f518bca63acef8c03b9330bd99d973dfee799740
-# Source SHA-256: 5520bd5ddb1ef577e999586b01abbe8c8742cbb5cac9401131e39621a37325f5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 7UP_HDRS.ANS by unique phreak (polyester); released in poly0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: headars..
-# SAUCE Author: unique phreak
-# SAUCE Group: polyester
-# SAUCE Date: 19961231
-# SAUCE Dimensions: 80x44
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: headars.. by unique phreak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-poly0197-7up-hdrs
 
 Write-Host '
 [1;30m [0m

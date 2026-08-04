@@ -1,18 +1,4 @@
-﻿# Converted from: US-THELO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p14_02/raw/US-THELO.ANS
-# Source Revision: archive-sha256:d20654a6c01baca0c78130f8dbf627e3758aef76e81e82df43ce19f00f1e58b7
-# Source SHA-256: ca212a1bfe3aa305e1cb4d41c978d668288ae41a7f14f5ce29bdc28afa412f77
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-THELO.ANS by Simonking + Maffiosos (thelo0p); released in l0p14_02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: thelo0p logo
-# SAUCE Author: maffiosos^simonking
-# SAUCE Group: thelo0p
-# SAUCE Date: 20020103
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: thelo0p logo by Simonking + Maffiosos | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p14-02-us-thelo
 
 Write-Host '
 [1m     [0m█[1m█[0;1;47m▀▀▀[0;1;40m███[0;1;47m▀[0;1;40m▀██████████████████████████[0;1;47m [0;1;40m      ███[0;1;47m▀[0m▀[1;47m▀[0m▀[1m ▄▄██████▀▀▀███████[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: MS-TGS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dead/raw/MS-TGS.ANS
-# Source Revision: archive-sha256:42002c7465322e6567b6ada22b7d24270f500cdc26769d5efac519e13d8ec757
-# Source SHA-256: 47d76c8c12777d0e3c93f8c745bd89114719ac380c0431fe43cd52a99297fb55
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MS-TGS.ANS by Manslaughter (dead); released in dead and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 49-80
-# Columns: 1-80
+﻿# Artwork: MS-TGS.ANS by Manslaughter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dead-ms-tgs-part02
 
 Write-Host '
                                   [1;30m─── [0;1;37mThe [0;1;30m──[0m      ▄[31m▄▄▄  ▌[0m

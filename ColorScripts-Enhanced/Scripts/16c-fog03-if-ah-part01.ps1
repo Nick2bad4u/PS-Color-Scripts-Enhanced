@@ -1,18 +1,4 @@
-﻿# Converted from: IF-AH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fog03/raw/IF-AH.ANS
-# Source Revision: archive-sha256:f9beb4b752670f0f20395ea000ce199823bb5c5d99ff236dc3e0aff26ecf05a2
-# Source SHA-256: 3bdcfe3ac93c108cdeacfcaf78df66c284de1afe3749319767e890a4a07cc973
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IF-AH.ANS by infernal.flames (FiNiSH of GODz); released in fog03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ambient.hauze
-# SAUCE Author: infernal.flames
-# SAUCE Group: FiNiSH of GODz
-# SAUCE Date: 19951212
-# SAUCE Dimensions: 80x25
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: ambient.hauze by infernal.flames | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fog03-if-ah-part01
 
 Write-Host '
 [1;30m▓█▀[0m [1m         [0m [1;30m▀▀░█[0m [1;30m---->------------------------------------          ----------[0m

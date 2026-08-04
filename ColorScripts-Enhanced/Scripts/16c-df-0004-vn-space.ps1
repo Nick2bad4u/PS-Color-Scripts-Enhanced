@@ -1,18 +1,4 @@
-﻿# Converted from: VN-SPACE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/df-0004/raw/VN-SPACE.ANS
-# Source Revision: archive-sha256:67203679d779fe212820fa7b395a6dba18055e5a0d6901e90b101261609c0eb5
-# Source SHA-256: fc1e7162f70c11d3c966ccf83ed11e709aaeb973d3f6bfe247e6143d50e8ee3a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VN-SPACE.ANS by VeNoMouS (vN!) (DeViL FoRCeS); released in df-0004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: sPACE!
-# SAUCE Author: VeNoMouS (vN!)
-# SAUCE Group: DeViL FoRCeS
-# SAUCE Date: 19971108
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: sPACE! by VeNoMouS (vN!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-df-0004-vn-space
 
 Write-Host '
       [1;34m▄▄[0;1;34;44m████[0;1;34;40m▄▄▄[0m       [1;34;44m░[0m [1;34m▄█[0;1;34;44m▒[0;1;34;40m██[0;1;34;44m▓[0;1;34;40m▄[0m   [1;34;44m▒[0;1;34;40m▄▄█[0;1;34;44m▒[0;1;34;40m██▄▓[0;34m      [0;1;34m▓▄██[0;1;34;44m▒[0;1;34;40m█▄▄[0;1;34;44m▒[0m  [34m   [0;1;34m▓▄██[0;1;34;44m▒[0;1;34;40m█▄▄[0;1;34;44m▒[0m

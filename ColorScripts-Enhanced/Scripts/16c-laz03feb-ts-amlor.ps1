@@ -1,18 +1,4 @@
-﻿# Converted from: TS-AMLOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz03feb/raw/TS-AMLOR.ANS
-# Source Revision: archive-sha256:d402090580beb42f827386e6ac87eabae48765a9dcac692e22ff2b8314efb7a2
-# Source SHA-256: cbbbbbb4d30aa4a606870258fa523e13ee98527d1fc946b0e8c0e5dca5ee059d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-AMLOR.ANS by tr(ansi)ent ((laz)arus); released in laz03feb and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: (am)lor
-# SAUCE Author: tr(ansi)ent
-# SAUCE Group: (laz)arus
-# SAUCE Date: 19970107
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: (am)lor by tr(ansi)ent | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz03feb-ts-amlor
 
 Write-Host '
 [31m██▀[0;34m ██▌[0m [32m█[0;1;32;42m░░▒▓▓▒░[0;32m█▀[0;36m █[0;1;36m▀[0;36m  ▀[0;1;36;45m▓▓[0;1;36;46m░▒▓[0;36m█[0;1;36;46m░▒▓[0;36m█[0;1;36;46m░▒▓▓▒░[0;36m█[0;1;36;46m░▒▓░[0;36m████████[0;1;36;46m░░▒▓[0;1;36;40m█[0;36m███████▓▓▒░[0m [36m░░[0m  [36m░[0m  [37m░░ [0m

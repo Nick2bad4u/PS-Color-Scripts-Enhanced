@@ -1,13 +1,4 @@
-﻿# Converted from: TR-RARE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-003/raw/TR-RARE.ANS
-# Source Revision: archive-sha256:de78ce19727ea90c75e1ecc7f5b4d900676dc27b4dceb8a870f61665ee210859
-# Source SHA-256: e8b1ed9e7edc10671d29f25ee3ee331249bd99d2561f0a96ccba72451344bada
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-RARE.ANS by Tee_Are (rare-003); released in rare-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: TR-RARE.ANS by Tee_Are | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-003-tr-rare
 
 Write-Host '
                             [1m [0m

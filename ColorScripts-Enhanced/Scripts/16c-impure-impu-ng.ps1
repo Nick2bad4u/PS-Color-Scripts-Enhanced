@@ -1,13 +1,4 @@
-﻿# Converted from: IMPU-NG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure/raw/IMPU-NG.ANS
-# Source Revision: archive-sha256:0b9a4294ce690aca32755515783e8fac4c651c445d3dd4e394f3ee189ef0478e
-# Source SHA-256: 933d058ecc8bd00696631fb85445292c63cfbcd622f061f73408388ef0f2c0f6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IMPU-NG.ANS by Nyte Glo (impure); released in impure and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: IMPU-NG.ANS by Nyte Glo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure-impu-ng
 
 Write-Host '
 [47m████████████████████████████████████████████████████████████████████████████[0m

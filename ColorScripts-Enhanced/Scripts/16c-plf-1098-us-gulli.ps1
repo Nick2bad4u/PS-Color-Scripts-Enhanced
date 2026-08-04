@@ -1,18 +1,4 @@
-﻿# Converted from: US-GULLI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1098/raw/US-GULLI.ANS
-# Source Revision: archive-sha256:c4e49f581efdb23757cb4cd22ca84401fcd6ac0febdad687007b0b36de54547a
-# Source SHA-256: d1a9244f19883ddb6cbcbe0fe8522abca24a890cf62287adec57c691e70d2ea0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GULLI.ANS by Big Yellow Man + Gasol (poffelipoff); released in plf-1098 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: gullig =)
-# SAUCE Author: bym + gso
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19981017
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: gullig =) by Big Yellow Man + Gasol | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1098-us-gulli
 
 Write-Host '
        [1;34;44m ▄[0;1;34;40m██████████████████████[0;1;34;44m▀▀░▓[0;1;34;40m████████████████████████████████[0;1;34;44m▓▓▄▄▄ [0m

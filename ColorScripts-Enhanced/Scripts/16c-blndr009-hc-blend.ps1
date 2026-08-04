@@ -1,17 +1,4 @@
-﻿# Converted from: HC-BLEND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr009/raw/HC-BLEND.ANS
-# Source Revision: archive-sha256:20bd09bf582c0c371979eb7ac517fed9a498163f4905863a32ac788377863f1b
-# Source SHA-256: ea2fd4ec5d8bb6d0ff55915c3db077525754e72d740c4b2b50bf34ba913f9347
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HC-BLEND.ANS by eiht ball (dark); released in blndr009 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: eiht ball
-# SAUCE Group: dark
-# SAUCE Date: 19970119
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: HC-BLEND.ANS by eiht ball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr009-hc-blend
 
 Write-Host '
 [1;34m██████████████████████████████████████████████████████████████[0m [33m██▓[0;37m [0;1;34m█████████████[0m

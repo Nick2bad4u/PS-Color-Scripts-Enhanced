@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-DUB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-04/raw/BYM-DUB.ANS
-# Source Revision: archive-sha256:d99c3d6576b4ffe30ad10598ac465177e9b6d171d7a6c4fd056707ad27adce95
-# Source SHA-256: cffd56d5fd2f401c8eb8903b28e81b6d9338da203aeb5bbd9baaa68163846e3b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-DUB.ANS by superbym (nerp); released in nerp-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dubble
-# SAUCE Author: superbym
-# SAUCE Group: nerp
-# SAUCE Date: 19980126
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: dubble by superbym | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-04-bym-dub
 
 Write-Host '
 [32m[0m

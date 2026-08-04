@@ -1,19 +1,4 @@
-﻿# Converted from: tk-araknet.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel25/raw/tk-araknet.ans
-# Source Revision: archive-sha256:c29da20a4b03d4b9cfd5beb0ae4c26b848a9b8ba121f4b3a4bde4c0893de19b6
-# Source SHA-256: dafbb4d65cfe195dba01dbd3f64a0c99bc526d9aed7cafd0a8cca58f9b78aefb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tk-araknet.ans by the knight (FUEL); released in fuel25 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ArakNet board
-# SAUCE Author: the knight
-# SAUCE Group: FUEL
-# SAUCE Date: 20180110
-# SAUCE Dimensions: 80x62
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: ArakNet board by the knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel25-tk-araknet-part01
 
 Write-Host '
 [1;31;41m░░░[0;1;37;41m        [0;31m█[0;1;37;41m    [0;1;31;41m░[0;1;37;41m     [0;1;31;41m░[0;1;37;41m          ░    [0m  [1;30m░[0m [1;41m ░ ▒░░ [0m [1;30m░[0m  [1;41m   ■    ■ ▄[0m [1;41m               [0m

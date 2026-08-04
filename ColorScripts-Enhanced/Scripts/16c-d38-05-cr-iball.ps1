@@ -1,18 +1,4 @@
-﻿# Converted from: CR_IBALL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-05/raw/CR_IBALL.ANS
-# Source Revision: archive-sha256:eb0948671797309554c3545cf502cce8943191f153468011a76cca894133dc0a
-# Source SHA-256: c929615c198b2df8eae5e157fe2ffe3f2147ca1bc53346cf0247812f8a3a2c99
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CR_IBALL.ANS by Crucifer (Department 38); released in d38-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Eyeball with no logo fools :)
-# SAUCE Author: Crucifer
-# SAUCE Group: Department 38
-# SAUCE Date: 19970324
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Eyeball with no logo fools :) by Crucifer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-05-cr-iball
 
 Write-Host '
 [34m▓▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▓[0m

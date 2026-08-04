@@ -1,19 +1,4 @@
-﻿# Converted from: MM-WHOLEERROR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1024/raw/MM-WHOLEERROR.ANS
-# Source Revision: archive-sha256:6949840195965f5eb9696cfb423e381432d7ccfa36b66290e336e4608b7c12f8
-# Source SHA-256: 4373172b15218f67c710b48b8cf260e903cc8df8f86cafca316bb8f4183eab1d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-WHOLEERROR.ANS by Mavenmob (Mistigris); released in mist1024 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Innocent Tear
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241019
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Innocent Tear by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1024-mm-wholeerror
 
 Write-Host '
 

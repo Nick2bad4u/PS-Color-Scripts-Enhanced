@@ -1,18 +1,4 @@
-﻿# Converted from: JV-SNG0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/unit03/raw/JV-SNG0.ANS
-# Source Revision: archive-sha256:14397867310c247896cee9ae85588007c2e913800ae4fa325b0eb998bbd62f6a
-# Source SHA-256: 5f07da228ad4ba670bc05e265452ffa9fd7e3b8a344135e0d5909e6fdd304ad1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JV-SNG0.ANS by jeeves (UNiT Productions); released in unit03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: singe
-# SAUCE Author: jeeves
-# SAUCE Group: UNiT Productions
-# SAUCE Date: 19961102
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: singe by jeeves | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-unit03-jv-sng0
 
 Write-Host '
 [36m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$D¢╝²²²²²²²²²╚¢Q$$$$$$$$$$[0m

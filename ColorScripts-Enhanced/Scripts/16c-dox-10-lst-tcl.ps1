@@ -1,17 +1,4 @@
-﻿# Converted from: LST-TCL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_10/raw/LST-TCL.ANS
-# Source Revision: archive-sha256:21def41607bc8f426e6b33cadf0099935014e2da13ee2908faa3303a70532ffa
-# Source SHA-256: 0fca552dcc7add7a3ac8b215d26312f99eb490019507211c975b97e136654c64
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LST-TCL.ANS by soul trader (dox_10); released in dox_10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: tical
-# SAUCE Author: soul trader
-# SAUCE Date: 19970617
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: tical by soul trader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-10-lst-tcl
 
 Write-Host '
                           [32m▄ [0;1;32;42m░[0m

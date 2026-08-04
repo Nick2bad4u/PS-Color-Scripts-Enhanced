@@ -1,17 +1,4 @@
-﻿# Converted from: FF-MONST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-04/raw/FF-MONST.ANS
-# Source Revision: archive-sha256:d0917030b27b9e907ef52cd30dd36996f1f4d775686af44e1bfd4859874789fb
-# Source SHA-256: dcef98b177ae9299c6ccbddcd1c7f14bf7f30b59991d4382e1cc94575773d754
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FF-MONST.ANS by Free Fall (Hype Inc.); released in hype-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: " Weird Monster Pic "
-# SAUCE Author: Free Fall
-# SAUCE Group: Hype Inc.
-# SAUCE Dimensions: 80x25
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: " Weird Monster Pic " by Free Fall | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-04-ff-monst
 
 Write-Host '
 fF         [34m░[0m    [34m▄▄▓[0;37m  [0;34m░[0;1;30m░[0m                 [34m░[0m     [34m▄[0;1;34m■[0;1;30m░[0;1;34m■[0;34m▄■▀▓▄▄ [0m    [34m▄▄[0m   [37m     *4kirin*[0m

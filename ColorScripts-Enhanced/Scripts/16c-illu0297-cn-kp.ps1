@@ -1,18 +1,4 @@
-﻿# Converted from: CN-KP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/illu0297/raw/CN-KP.ANS
-# Source Revision: archive-sha256:4fc6a0019f008367ad8a97d95d80ada01dd34574d637246e807fcd899fd4fdb5
-# Source SHA-256: 27aaa44c44f6cefe54d2a033bfa3c374ebced776ac1a0e6c7d1f4c02cab3adb9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CN-KP.ANS by CarNage (iLLUSiON); released in illu0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Khaotic Plains Logoff
-# SAUCE Author: CarNage
-# SAUCE Group: iLLUSiON
-# SAUCE Date: 19970127
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Khaotic Plains Logoff by CarNage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-illu0297-cn-kp
 
 Write-Host '
 [34m░ ░░░▒▒▒▓▓█▓█[0;1;34;44m▓▓▒░[0;34;41m█[0;1;34;44m░▒▓██▓█[0;34m██▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0;1;34;44m▓[0;34m█[0;1;34;44m░▒▒[0;34;41m█[0;1;34;44m░▒░▓[0;34m██▓█▓▓▒▒▒░░░ ░[0m

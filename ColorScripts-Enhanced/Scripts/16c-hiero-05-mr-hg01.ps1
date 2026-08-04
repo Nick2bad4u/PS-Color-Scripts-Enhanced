@@ -1,18 +1,4 @@
-﻿# Converted from: MR-HG01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-05/raw/MR-HG01.ANS
-# Source Revision: archive-sha256:9a8be922d1845a782b9897ae82406f49203492d3f9366796ffa94c1b52060165
-# Source SHA-256: 1695469e45e3a70f6f87e01fef3259814325f42be6bc5c66459ac147236d3d86
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-HG01.ANS by Mr. Wrong (Hieroglyphics Guest); released in hiero-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Hieroglyphics
-# SAUCE Author: Mr. Wrong
-# SAUCE Group: Hieroglyphics Guest
-# SAUCE Date: 20001204
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Hieroglyphics by Mr. Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-05-mr-hg01
 
 Write-Host '
                                                          [34m [0m

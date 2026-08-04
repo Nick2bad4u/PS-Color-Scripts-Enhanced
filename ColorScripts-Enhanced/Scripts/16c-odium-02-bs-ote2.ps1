@@ -1,18 +1,4 @@
-﻿# Converted from: BS-OTE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-02/raw/BS-OTE2.ANS
-# Source Revision: archive-sha256:47a67f112d88796e8c1419ea3c6c084684ff2719dfc540b2668a69dc0343be0d
-# Source SHA-256: 1e840ecb674d5bd40f5a2e9b97e8156234ea59cf5bff774aaa0411e229796a54
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-OTE2.ANS by burps (odium); released in odium-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: over the edge
-# SAUCE Author: burps
-# SAUCE Group: odium
-# SAUCE Date: 19951227
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: over the edge by burps | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-02-bs-ote2
 
 Write-Host '
 [1;40m                                                                                [0m

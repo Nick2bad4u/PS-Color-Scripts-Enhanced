@@ -1,18 +1,4 @@
-﻿# Converted from: US-NEG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-02/raw/US-NEG.ANS
-# Source Revision: archive-sha256:3fd9f194d865cfc24c90bdf11a27528d8d82a8ba9c376ebed567183a2f95a9f3
-# Source SHA-256: a738724a792dc8e75c1747b50cf74f4d892e46f555fab3459c4041cbab156062
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-NEG.ANS by Big Yellow Man + Bizzarro (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: negative (23 lines)
-# SAUCE Author: bym & bizzarro
-# SAUCE Group: nerp
-# SAUCE Date: 19971102
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: negative (23 lines) by Big Yellow Man + Bizzarro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-02-us-neg
 
 Write-Host '
  [1;30m▄▌[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: IF-DD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fog03/raw/IF-DD.ANS
-# Source Revision: archive-sha256:f9beb4b752670f0f20395ea000ce199823bb5c5d99ff236dc3e0aff26ecf05a2
-# Source SHA-256: da19320052456c1bb9cfe3d3d4265c136f8d58c7e5580c457a4cfe5f0fbcd28e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IF-DD.ANS by infernal.flames (fog03); released in fog03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: DREAM DEMENSION
-# SAUCE Author: infernal.flames
-# SAUCE Date: 19951015
-# SAUCE Dimensions: 80x107
-# Lines: 38-76
-# Columns: 1-80
+﻿# Artwork: DREAM DEMENSION by infernal.flames | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fog03-if-dd-part02
 
 Write-Host '
 [1;31;41m░███[0;31m██▀█ ▄▀███▌[0;37m [0;34m████[0;1;34;44m░░[0;31m▓[0;34m▄[0;31m▒ ▐█[0;1;31;41m░[0;31m█▌[0;37m [0;34m [0;31m░[0;34m█▄[0;1;34;44m░[0;31m░[0;34m█[0;31m▒[0;1;34;44m░░░[0m [34m▀[0;37m [0;31m▐[0;37m [0;35m█[0;1;35;45m█[0;35m█[0;1;35;45m░[0;35m▌[0;37m [0;31m▐▌[0;37m [0;1;35;45m▐▌[0m [31m███▀[0;37m  [0;31m█[0m   [37m [0;31m█[0;1;31;41m▒[0;31m█[0;37m [0;34m [0;31m▀[0;37m [0;31m▄[0m

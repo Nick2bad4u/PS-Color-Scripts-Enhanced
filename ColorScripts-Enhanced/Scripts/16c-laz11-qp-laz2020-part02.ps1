@@ -1,19 +1,4 @@
-﻿# Converted from: qp-laz2020.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz11/raw/qp-laz2020.ans
-# Source Revision: archive-sha256:68621cb5db58e1d89f5deb5798f3990fa932a6b4eb91cc1511f3f4c157d26f38
-# Source SHA-256: bf40950ac3ab9f2aa5473f3812287d9c3a2085f2d35c4aea974d4da387e0d85a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: qp-laz2020.ans by Quip (Lazarus); released in laz11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Lazarus 2020
-# SAUCE Author: Quip
-# SAUCE Group: Lazarus
-# SAUCE Date: 20200608
-# SAUCE Dimensions: 80x78
-# SAUCE Font: IBM VGA
-# Lines: 39-78
-# Columns: 1-80
+﻿# Artwork: Lazarus 2020 by Quip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz11-qp-laz2020-part02
 
 Write-Host '
  [1m░  [0m             [1m▄█▀[0;1;30m▄▒[0m [33m░▒ [0;37m [0;33m▒[0;37m [0;33m░[0;37m [0;1;30m▀▒▄  [0m [1;30m░▀▀▄██▀▄[0m [33m░[0;37m [0;33m▒ ▒[0m     [1;30m▀██▄[0m [1;30m░[0m             [1;30m░[0m

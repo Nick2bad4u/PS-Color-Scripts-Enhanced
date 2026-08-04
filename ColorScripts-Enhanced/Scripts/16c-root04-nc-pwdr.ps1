@@ -1,18 +1,4 @@
-﻿# Converted from: NC-PWDR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root04/raw/NC-PWDR.ANS
-# Source Revision: archive-sha256:8dec1aa0e303d37205499818eaff4458ebf93774cd973f016deaae45658df6b3
-# Source SHA-256: 3efea377703a704dde1cc659b23c378d4e2b87cee24cbc3fdb04a477815cfeae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NC-PWDR.ANS by Necrolyte (Root); released in root04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: powder interface
-# SAUCE Author: Necrolyte
-# SAUCE Group: Root
-# SAUCE Date: 19970518
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: powder interface by Necrolyte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root04-nc-pwdr
 
 Write-Host '
                                                                               [33m▄▄[0m

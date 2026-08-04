@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-NEO3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9612/raw/TNA-NEO3.ANS
-# Source Revision: archive-sha256:7053afed6e742c75d943ea86bb6e43e9d362e1c6f64e894c811e4835a8b40e13
-# Source SHA-256: 4dfb9bbadab1fe31407e59995b91368640cc35c105896ab8d9cc3e034f024d10
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-NEO3.ANS by The Night Angel (AWE Lettering); released in awe9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Neosporin Menu
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961125
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Neosporin Menu by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9612-tna-neo3
 
 Write-Host '
                                                     [32m▄▄[0m

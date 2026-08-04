@@ -1,18 +1,4 @@
-﻿# Converted from: K-P23.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-32/raw/K-P23.ANS
-# Source Revision: archive-sha256:5c71caa398de36397b85ed6fca632db882465791a5a1f87f0e2aeaa3af7b947c
-# Source SHA-256: e802361bd243a1bc7d55af0b386fab19e90b4934d5398526613730129ba15b4c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K-P23.ANS by kyp (fire); released in fire-32 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ponr - the 23liner
-# SAUCE Author: kyp
-# SAUCE Group: fire
-# SAUCE Date: 19980308
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: ponr - the 23liner by kyp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-32-k-p23
 
 Write-Host '
 [31m░░░[0;35m▐[0;1;35;45m░░▓▓[0;1;35;40m▄▄[0m▄[1;35m██▓ [0;31m▐[0;1;31;41m   [0;31m▌[0;1;31m [0;31m▄[0;1;31m▄[0;1;31;41m▄▌▀▀[0;31m▀▀▀▀█▀ [0;35m▄▌[0;31m▐[0;1;31;41m▓▓[0;1;31;47m▓▓[0;31m [0;1;30m░░░░░░░░░░░░░░░░░[0;31m █▀[0;1;30m ░░░░░░░░░░░░░░[0m░░░

@@ -1,19 +1,4 @@
-﻿# Converted from: 0zZ-U-WhereIsMaxMouse.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/slackpack002/raw/0zZ-U-WhereIsMaxMouse.ans
-# Source Revision: archive-sha256:c9825ce8b4e923e4d1f86a6f63bce502ceaec66422c3ae1a65cba92cfc82cb17
-# Source SHA-256: 3e5c23f048e5659dc4f75597a7bcd115022ede4a0dd2249b58a5932355eafbfc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 0zZ-U-WhereIsMaxMouse.ans by 0zZ-U (Slackers BBS); released in slackpack002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Where_is_MaxMouse
-# SAUCE Author: 0zZ-U
-# SAUCE Group: Slackers BBS
-# SAUCE Date: 20251207
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Where_is_MaxMouse by 0zZ-U | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-slackpack002-0zz-u-whereismaxmouse
 
 Write-Host '
 [34m██████[0;1;34;44m▄[0;34m█████████████████████████████████████████████████████████████████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: WW-ALIEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spl9607/raw/WW-ALIEN.ANS
-# Source Revision: archive-sha256:cfcb128304238e082de7d191be273a1b4ecfa4b546d20f08c775b155194f3a99
-# Source SHA-256: 1c25f4e4050916d1761b6b3d49248e8eb0e425f423f667325fda286b794fea27
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WW-ALIEN.ANS by Wicked Wolf (SPLaSH!); released in spl9607 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Irratic Junction
-# SAUCE Author: Wicked Wolf
-# SAUCE Group: SPLaSH!
-# SAUCE Date: 19960709
-# SAUCE Dimensions: 80x104
-# Lines: 71-104
-# Columns: 1-80
+﻿# Artwork: Irratic Junction by Wicked Wolf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spl9607-ww-alien-part03
 
 Write-Host '
 [30m██████████████[0;1;37m█[0;30m█[0;37;47m████[0;37;40m▄[0;30;40m█[0;37;47m████[0;1;37;47m░[0;47m█[0;1;47m░[0;47m█[0;40m▄[0;30;40m██[0;37;40m▀[0;37;47m████[0;1;37;47m░░[0;47m█████[0;40m▀[0;30;40m██[0;37;47m███[0;1;37;47m░░░░▒░[0;30m█[0;37;47m████[0;30;40m█[0;37;47m█████[0;37;40m [0;1;37;40m█[0;30m█████████[0m

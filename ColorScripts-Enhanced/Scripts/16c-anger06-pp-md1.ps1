@@ -1,16 +1,4 @@
-﻿# Converted from: PP-MD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger06/raw/PP-MD1.ANS
-# Source Revision: archive-sha256:efc6b6d6892fe7f05c3b06052b1d79464b7ee8ab8c7bee2d77361e00cf941f28
-# Source SHA-256: 71305be2caac034dff0318426f1d3f1b306bb9cc8f9a30fd8c29ceed8a73db1f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PP-MD1.ANS by pixel_pusher (anger); released in anger06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: manifest destiny font.
-# SAUCE Author: pixel_pusher
-# SAUCE Group: anger
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: manifest destiny font. by pixel_pusher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger06-pp-md1
 
 Write-Host '
                                          [35m [0;1;35;45m░[0;35m▄[0;1;34;45m■[0;1;34;40m▄░[0m

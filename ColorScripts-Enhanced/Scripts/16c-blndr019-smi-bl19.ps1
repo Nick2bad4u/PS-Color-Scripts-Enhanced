@@ -1,13 +1,4 @@
-﻿# Converted from: SMI-BL19.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr019/raw/SMI-BL19.ANS
-# Source Revision: archive-sha256:ad90ded7200a58bab801f751fabe1211ce5c038aeaa3a5fcedbee3c905282a6d
-# Source SHA-256: b18dc2bea8551cdb3394f9a5d47d54a4a5b21f957d238b6d0e5549472ba87366
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMI-BL19.ANS by Samurai (blndr019); released in blndr019 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: SMI-BL19.ANS by Samurai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr019-smi-bl19
 
 Write-Host '
   [35m▓[0;34;45m░░[0;35;44m▓[0;34;45m░[0;35;44m▓[0;34;45m░[0;35;40m████████████████[0;1;35;45m░░[0;35m███████████[0;1;31;45m░░░[0;35m█[0;1;31;45m░░[0;35m█[0;1;31;45m░░░[0;35m█[0;1;31;45m░░░░[0;35m▌[0;37m [0;31m █[0;1;31;41m▓▓[0;1;31;40m██[0;1;33;40m█[0;1;37;40m█[0m [33m░[0;37m [0;31m [0;1;37m█[0;1;33m█[0;1;31m██[0;1;31;41m▓▓[0;31m██[0;1;35;41m▀▀[0;31m▄▄[0m

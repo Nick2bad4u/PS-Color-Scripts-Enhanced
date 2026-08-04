@@ -1,18 +1,4 @@
-﻿# Converted from: PNK-GRAV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz06may/raw/PNK-GRAV.ANS
-# Source Revision: archive-sha256:1ae2be5748106937cd6f4a9b876b344db035c3534c8d6472ca3ea1eb05f03cc5
-# Source SHA-256: 65e3ae0ea1b0fbf86c3532ec8dcb176c143b1c96fd589aa53c5d3ef85f253396
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PNK-GRAV.ANS by phanatik (lazarus); released in laz06may and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: unknown graves
-# SAUCE Author: phanatik
-# SAUCE Group: lazarus
-# SAUCE Date: 19970508
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: unknown graves by phanatik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz06may-pnk-grav
 
 Write-Host '
                      [36m ▀[0;37m [0;36m ▀▀[0;1;32;46m░░[0;36m▄ [0m                                  [36m   [0m

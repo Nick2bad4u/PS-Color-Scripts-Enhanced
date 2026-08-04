@@ -1,18 +1,4 @@
-﻿# Converted from: OR-HLB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shade5/raw/OR-HLB.ANS
-# Source Revision: archive-sha256:9eb97f9412f63f0ce4837a80894f87a3aed455c1487394481c6e40b531c2203d
-# Source SHA-256: 7d0680e576272f2d8eb8e6c369e4b7bae7b3b64c0bbb841d2d11fc7a90e633ed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OR-HLB.ANS by outraider (shade); released in shade5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hellbound
-# SAUCE Author: outraider
-# SAUCE Group: shade
-# SAUCE Date: 19970218
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: hellbound by outraider | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shade5-or-hlb
 
 Write-Host '
 [1;31;41m██▓▓[0;31m██[0;37m [0;1;30m▄[0;32m▄▌[0;37m [0;31m▀▀[0;36;41m░ [0;31;40m█▀▀░░[0;35;40m▄[0;30;45m▓█[0;31;40m▀▀█▀▀▀▀▀▀▀▀[0;36;41m░░  [0;31;40m█[0;1;31;41m░░░ ▌[0;30;45m▓[0m      [36;40m               [0;30;47m▓▓[0;37;41m▓▓░░[0;1;31;41m▐█[0;1;31;47m▓▓▓[0;1;31;41m█▄▌[0m

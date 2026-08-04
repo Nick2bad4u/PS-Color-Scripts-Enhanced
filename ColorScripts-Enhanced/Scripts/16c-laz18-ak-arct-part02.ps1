@@ -1,19 +1,4 @@
-﻿# Converted from: AK-ARCT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz18/raw/AK-ARCT.ANS
-# Source Revision: archive-sha256:32d30452c4c99022fae4fa2ce9a2923ef46629d3ff7dd35a972944a991699c1f
-# Source SHA-256: 441fb06c832ee13005fa2cf95b6d7448c5c38bccfcc507de522f8eb8e7e8d618
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-ARCT.ANS by abstrakt (fire); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: stratospheric polar vortex
-# SAUCE Author: abstrakt
-# SAUCE Group: fire
-# SAUCE Date: 20240131
-# SAUCE Dimensions: 80x86
-# SAUCE Font: IBM VGA
-# Lines: 51-86
-# Columns: 1-80
+﻿# Artwork: stratospheric polar vortex by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz18-ak-arct-part02
 
 Write-Host '
 [1;36m$$l[0m [34m$7''[0;1;36m.d[0;1;37m$P[0;1;36m`.d[0;1;37mb[0;1;36m #[0m [1;36md[0;1;37m$$''[0;1;36m┌,[0;1;37m.       `└**┘''.,[0m [1;36m┐[0;1;37m,. [0;1;36m,$[0;1;37mb[0m [1;36m.[0m  [1m_.[0m  [1;36m.[0;1;37m┌[0m [1;36m#[0m [1;36m$[0m [1;36m$[0;1;37m#s[0m┐ [1;36m`4$b.[0;34m \$[0;1;36m l[0;36m$$[0m

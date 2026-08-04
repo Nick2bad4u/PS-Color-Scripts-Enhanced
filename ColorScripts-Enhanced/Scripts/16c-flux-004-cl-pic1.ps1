@@ -1,18 +1,4 @@
-﻿# Converted from: CL!-PIC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flux-004/raw/CL!-PIC1.ANS
-# Source Revision: archive-sha256:184a3f5dd0450d61dd9a9b4da05ef76ebec147753f33bfa3706045bb53c0d7a5
-# Source SHA-256: 1978f88da879edde317f50f28d43fe6eb7461d2665182cf96d38bc9bc6df9c55
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-PIC1.ANS by .:(cLEANER):. (.:(fLUX):.); released in flux-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: .:(fLUX^pROMO^pICZ):.
-# SAUCE Author: .:(cLEANER):.
-# SAUCE Group: .:(fLUX):.
-# SAUCE Date: 19971122
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: .:(fLUX^pROMO^pICZ):. by .:(cLEANER):. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flux-004-cl-pic1
 
 Write-Host '
  [1;30m░░░░░░░░   ░░░░░░   ░░░░░    ░░░░░░▒▒░░░░░  ░░░░░▒▒░   ░░  ▓▓   ░░  ▓▓  ░░░░░░[0m

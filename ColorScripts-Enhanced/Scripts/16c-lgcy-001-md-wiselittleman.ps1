@@ -1,19 +1,4 @@
-﻿# Converted from: md-Wiselittleman.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-001/raw/md-Wiselittleman.ans
-# Source Revision: archive-sha256:589c804657c8d15ba617f7c0fd80723e4505d519989b80eba9584665be49eb54
-# Source SHA-256: 2b001c2813445761f07020d9233ecc9be66c8f5f128847400c3565c77debbf08
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: md-Wiselittleman.ans by MaDDoG (Legacy Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: LittleWiseMan
-# SAUCE Author: MaDDoG
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20191128
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: LittleWiseMan by MaDDoG | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-001-md-wiselittleman
 
 Write-Host '
 [37;40m▓▓▓░░[0;37;47m [0;37;40m▀▀▀░[0;1;30;40m▄[0;1;30;47m▀▀▀[0;47m  [0;1;30;40m█[0m [1;30m█[0m▀▀▀[1;30m▀[0m ▀[1;30;47m▄▄▓[0m [1;30;47m▄▄▄▒[0m █ [1;30;47m▓█[0;1;30;40m▄[0;1;30;47m▀▒[0;1;30;40m▀░▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m [1;30m▀▀▀▀▀▀▀▀▀▀[0m [1;30m▀▀▀▀▓[0m▀[1;30;47m▄[0;1;30;40m█▄[0m

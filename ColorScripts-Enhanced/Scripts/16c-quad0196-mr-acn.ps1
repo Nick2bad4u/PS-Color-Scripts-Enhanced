@@ -1,18 +1,4 @@
-﻿# Converted from: MR-ACN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0196/raw/MR-ACN.ANS
-# Source Revision: archive-sha256:61642f5831b797f313fe10336de4c5f16c13238dc27081faf3549cf8df1329cd
-# Source SHA-256: f8dd856f7d3ba2da94a8d58b2f4dcb7bd169c2d171b84bd2054b0620c0ddce8c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-ACN.ANS by Mithrandir ([Quad-P]); released in quad0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Anti-Conspiracy Network
-# SAUCE Author: Mithrandir
-# SAUCE Group: [Quad-P]
-# SAUCE Date: 19951219
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: The Anti-Conspiracy Network by Mithrandir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0196-mr-acn
 
 Write-Host '
    [1m·[0m                                                             [33m▄▄[0;1;31;43m░[0;33m▄▄[0m

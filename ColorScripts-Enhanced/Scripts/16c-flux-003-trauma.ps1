@@ -1,18 +1,4 @@
-﻿# Converted from: TRAUMA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flux-003/raw/TRAUMA.ANS
-# Source Revision: archive-sha256:c8241d6e438a30e14e803d31ea9639f514382ec0df6188aa9d91ed9f1ddec867
-# Source SHA-256: 5a17d4c8bb57587e443244df735e1322cf9cfb8da3147d7efafd13bbae808f55
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TRAUMA.ANS by metal defender (rap/riot/root/koi/fl); released in flux-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: trauma
-# SAUCE Author: metal defender
-# SAUCE Group: rap/riot/root/koi/fl
-# SAUCE Date: 19970819
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: trauma by metal defender | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flux-003-trauma
 
 Write-Host '
                 [31m▄▄■[0m    [31m▀▄▄[0m                           [31m▄▄[0m

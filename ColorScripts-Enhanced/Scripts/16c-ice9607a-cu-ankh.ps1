@@ -1,18 +1,4 @@
-﻿# Converted from: CU-ANKH.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9607a/raw/CU-ANKH.ICE
-# Source Revision: archive-sha256:6e317dcfbe1a18e9811dd69788e086bd6dba75308a8c6706d46c84b5eb4fd93a
-# Source SHA-256: f71081d6536240a666e571542ad2909734eb13ba057beafea61591fdfcb262af
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CU-ANKH.ICE by Cold and Ugly (iCE); released in ice9607a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ankh
-# SAUCE Author: Cold and Ugly
-# SAUCE Group: iCE
-# SAUCE Date: 19960716
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Ankh by Cold and Ugly | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9607a-cu-ankh
 
 Write-Host '
 [1;33m         [0m                     [31m▄[0m     [31m░░▓▓░░[0;37m [0;1;33m  [0m

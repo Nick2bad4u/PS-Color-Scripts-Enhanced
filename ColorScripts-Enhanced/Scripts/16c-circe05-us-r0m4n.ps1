@@ -1,17 +1,4 @@
-﻿# Converted from: US-R0M4N.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe05/raw/US-R0M4N.ANS
-# Source Revision: archive-sha256:37d89d30ef39e93d86c9ed1aa9fcfc56f21493baa03286af8b8a012f2401a98a
-# Source SHA-256: 02b64cc2ecb94066212acce2c654a642fecace1beaf9d9d55f3c4e0746fd958a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-R0M4N.ANS by Arlequin + Enzo (Circe/Zenith); released in circe05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: Arlequin & Enzo
-# SAUCE Group: Circe/Zenith
-# SAUCE Date: 19960103
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: US-R0M4N.ANS by Arlequin + Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe05-us-r0m4n
 
 Write-Host '
 [1;36;46m▀[0;36m▀▀[0;1;34m [0;36m▀[0;1;34m [0;34m▄[0;1;34m▄▄▄[0;1;34;44m▄[0;1;34;46m  [0;1;34;40m█▀▀▀[0;1;34;47m█[0;1;34;40m▄▄▄[0;1;30;40m▄[0;1;34;40m  ▄[0;1;34;47m███[0;1;34;44m▀[0;1;34;40m▀▀█▄▄▄█ [0;31m [0;1;31;41m██▀[0;31m▀▀[0;1;31;41m▀▀[0;1;31;47m█▓▓[0;1;31;40m▄▄▀█[0;1;33;43m▓▓▓[0;1;31;40m███▓ [0;1;35;40m▒▒▒▒[0;1;31;40m [0;1;31;41m▓[0;1;31;40m██[0;1;31;45m▓[0;1;31;40m▓[0;1;31;41m▓[0;1;31;40m▒[0;1;31;41m▒░░[0;31;47m▓▓[0;31;40m█[0;30;41m░▒[0m

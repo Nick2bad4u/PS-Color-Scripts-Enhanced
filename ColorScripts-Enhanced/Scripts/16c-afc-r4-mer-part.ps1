@@ -1,13 +1,4 @@
-﻿# Converted from: MER-PART.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r4/raw/MER-PART.ANS
-# Source Revision: raw-sha256:0c2d178d0582c7cdbe49cc66cd9662343b85550965c22a3d034fd79dd3573aad
-# Source SHA-256: 0c2d178d0582c7cdbe49cc66cd9662343b85550965c22a3d034fd79dd3573aad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MER-PART.ANS by Mercer (afc-r4); released in afc-r4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: MER-PART.ANS by Mercer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r4-mer-part
 
 Write-Host '
          [36m·[0m                                     [35m░░░░░░░░░░░[0m

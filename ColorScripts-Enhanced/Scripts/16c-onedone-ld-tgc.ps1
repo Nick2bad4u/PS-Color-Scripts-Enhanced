@@ -1,13 +1,4 @@
-﻿# Converted from: LD-TGC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/onedone/raw/LD-TGC.ANS
-# Source Revision: archive-sha256:1beb9bf34864e4d3dff6d9e9ef1552871b8f5ad51d67da6ed978ae29e8e44526
-# Source SHA-256: a97367a27eb1e83485c9fede7685d3a9871f530b8bda0c2fef3aa6576f1152a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-TGC.ANS by Lord Jazz (onedone); released in onedone and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: LD-TGC.ANS by Lord Jazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-onedone-ld-tgc
 
 Write-Host '
 [34m▄[0;1;34;44m░░░[0;34m▀░[0;1;34m▄▓[0;1;34;44m░[0;34m█▓░▄██▓[0;37m [0;1;30;47m█░[0m██[1;47m░[0m███[1;30;47m░░░▒▓▒░░[0m██[1;47m░░[0m████▀ [1;30m▄▄[0;1;30;47m███[0;1;30;40m▓[0m [34m▐█[0;37m [0;34m░[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: krl-UntitledSpaceBabe.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz19/raw/krl-UntitledSpaceBabe.ans
-# Source Revision: archive-sha256:b2207428f1b283b9c41d9ff03fce385f449fefe469c60e31e8dd7430a162f7c1
-# Source SHA-256: 8e35639b5f990320202790c40d6259a46ccffec6cdd7c33d1c0dd827d956c18a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: krl-UntitledSpaceBabe.ans by KRL (Lazarus); released in laz19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Untitled Space Babe - Jasp
-# SAUCE Author: KRL
-# SAUCE Group: Lazarus
-# SAUCE Date: 20240603
-# SAUCE Dimensions: 80x198
-# SAUCE Font: IBM VGA
-# Lines: 151-196
-# Columns: 1-80
+﻿# Artwork: Untitled Space Babe - Jasp by KRL | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz19-krl-untitledspacebabe-part04
 
 Write-Host '
   [1;35;45m░░[0;35m██[0;1;31;45m▒[0;1;31;40m██████████[0;1;31;47m░░[0;1;37;47m░░░[0;1;31;47m▒▓  ▓[0;1;31;40m██████[0;1;31;43m▓░[0;33m█████▌[0;37m [0;1;30m░░░[0m      [33m▐[0;1;31;43m▒██[0;1;31;40m████[0;1;31;43m▒▒▒░[0;33m████████▄▄▄[0;37m [0;35m▀[0;35;46m▓▒░░[0m

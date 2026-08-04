@@ -1,18 +1,4 @@
-﻿# Converted from: GI-CROW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ls-0596/raw/GI-CROW.ANS
-# Source Revision: archive-sha256:66356efc2c42db2c2b9e33fd619f1e9d3ad138f2dd82375810dc37ad60467936
-# Source SHA-256: d16aef58f3780b95e436b8935d85c2348b4922c0145cebbb4232b011a41e12e5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GI-CROW.ANS by giger (leper society); released in ls-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: crow chat
-# SAUCE Author: giger
-# SAUCE Group: leper society
-# SAUCE Date: 19960521
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: crow chat by giger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ls-0596-gi-crow
 
 Write-Host '
   [1;30m ▀  [0m    [1;30m▀[0m                            [1;30m▀[0m                  [1;30m▀[0m      [1;30m▀[0m

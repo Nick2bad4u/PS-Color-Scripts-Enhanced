@@ -1,19 +1,4 @@
-﻿# Converted from: QT-TUB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lght9405/raw/QT-TUB.ANS
-# Source Revision: archive-sha256:dfddf6aba49738c4e5fdb25c4002fcfc3fa59ca00e2e212028b1e724c8fe0ff9
-# Source SHA-256: 3065b416372ed85d8d82de7c7f2391857b8c884bca094b83a4d2cd4c35a06250
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QT-TUB.ANS by Q TaK (LiGHT); released in lght9405 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Timeless Universe BBS
-# SAUCE Author: Q TaK
-# SAUCE Group: LiGHT
-# SAUCE Date: 19940428
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: This is for a new BBS in 303. Right when all the BBSes drop | dead like flies.. one comes out of the darkness. And I am | glad to be a CoSysOp on it :]
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: The Timeless Universe BBS by Q TaK | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lght9405-qt-tub-part02
 
 Write-Host '
 [31m░▒▒▒▓▓▓▓▓▓▒▒▒▓▒▒▒▒▒▄[0m           [1;30m▄▄▄▄▓▓▓[0;1;30;47m▓▓▓▓▓▓▓▓▓▓[0m▄▄                [1;31;41m███▓▓▓▓▒▒▒▒░░[0m

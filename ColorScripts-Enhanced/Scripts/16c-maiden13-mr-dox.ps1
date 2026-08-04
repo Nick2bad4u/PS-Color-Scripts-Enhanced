@@ -1,18 +1,4 @@
-﻿# Converted from: MR-DOX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden13/raw/MR-DOX.ANS
-# Source Revision: archive-sha256:70e231ea8653cd02d349f122b1a39f57757322f3913b0c8f20698b54c8795e68
-# Source SHA-256: 185f2263a39896f38cc19b7ec6584fb88ccb10992f8371b02c148720233df1bf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-DOX.ANS by minotaur (csf); released in maiden13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: dOX logo
-# SAUCE Author: minotaur
-# SAUCE Group: csf
-# SAUCE Date: 19800101
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: dOX logo by minotaur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden13-mr-dox
 
 Write-Host '
              ▄▄▄                                             ▄▄▄▄

@@ -1,13 +1,4 @@
-﻿# Converted from: dy1-jen.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/clit-63/raw/dy1-jen.ans
-# Source Revision: archive-sha256:d3b4e882f44abd294768cb9bd5670a6445d2a5e2ff15c5853a00f270e296e2a5
-# Source SHA-256: 4731d88a3767fa2df04cff9f91d706cf1964c421d9060477fa123d6d89cd2f93
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: dy1-jen.ans by Discyple (clit-63); released in clit-63 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: dy1-jen.ans by Discyple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-clit-63-dy1-jen
 
 Write-Host '
 [1;35m───────────────────────────────────────────────────────────────────────────────[0m

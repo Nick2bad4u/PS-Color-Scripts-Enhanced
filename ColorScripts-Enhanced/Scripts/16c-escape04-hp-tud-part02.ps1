@@ -1,13 +1,4 @@
-﻿# Converted from: HP-TUD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/escape04/raw/HP-TUD.ANS
-# Source Revision: archive-sha256:ef965fae5bc558bf969573ca3feb125924054be073576b7e69c1f3f8997c9477
-# Source SHA-256: 70f52d3944df041f423d26b15d49be1e1bec0310017151e640edba2714a030da
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HP-TUD.ANS by Hoops (escape04); released in escape04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 45-94
-# Columns: 1-80
+﻿# Artwork: HP-TUD.ANS by Hoops | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-escape04-hp-tud-part02
 
 Write-Host '
           █[1;47m▒▓▓▒░[0m▄           ▄▄ [1;30m▀▄  ▀   █ ▌ [0m██ [1;33;47m▓▓▓[0m█▄     ▄[1;47m░▒▓███▓░[0m▌

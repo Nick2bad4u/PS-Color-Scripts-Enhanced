@@ -1,17 +1,4 @@
-﻿# Converted from: TX#00002.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/omen-001/raw/TX%2300002.ANS
-# Source Revision: archive-sha256:639d01c4976c2412f40262280b42786a4a9a8dcf0c6d28b14f10b18fb7bde312
-# Source SHA-256: 8ff1d24de69e09d4740b1946c4ae1eb27840424dff1cb96c694eb6aca89cb346
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TX#00002.ANS by toons xilion (omen); released in omen-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ding
-# SAUCE Author: toons xilion
-# SAUCE Group: omen
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ding by toons xilion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-omen-001-tx-00002
 
 Write-Host '
                       [1;32m▄▄[0m                         [1;32m▄[0m

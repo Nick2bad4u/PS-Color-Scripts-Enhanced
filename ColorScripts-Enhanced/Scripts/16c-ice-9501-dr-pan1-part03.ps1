@@ -1,13 +1,4 @@
-﻿# Converted from: DR-PAN1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9501/raw/DR-PAN1.ICE
-# Source Revision: archive-sha256:11505df9cbb4046b5d3b5eec267bf894e7e973683094a4e78d879efbf7a9364a
-# Source SHA-256: 215d102d12c6f97fec9300a46f0770b0648f2fbd26568f3860cd48baffed134e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DR-PAN1.ICE by Lord Drakul (ice-9501); released in ice-9501 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 92-137
-# Columns: 1-80
+﻿# Artwork: DR-PAN1.ICE by Lord Drakul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9501-dr-pan1-part03
 
 Write-Host '
 [32;47m [0;1;37;47m▒▓▒[0m▀[31m▄██████▄▄▀ ▐█ ▒▒▓▓██████ ▐████▀ ▄████[0;1;33;41m░[0;31m█[0;1;33;41m░░▒▓[0;1;33;40m▄ [0;31m▀ [0;1;33;41m░▒▓[0m   [31m▒░[0m

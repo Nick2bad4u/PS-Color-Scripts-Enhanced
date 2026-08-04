@@ -1,17 +1,4 @@
-﻿# Converted from: CPH-COL4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-004/raw/CPH-COL4.ANS
-# Source Revision: archive-sha256:a067efaae2c49d13d3802ef0b5eb48bb6eeae2862ad07b06fd09ee0c67c1af4f
-# Source SHA-256: 1856ef9bb1a2f575e213fa0795b117bc823015c7383ce00489727aa5f39dca9d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-COL4.ANS by {YBERPUNCh (RiB); released in rib-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: {YBERPUNCh
-# SAUCE Group: RiB
-# SAUCE Date: 19971210
-# SAUCE Dimensions: 80x420
-# Lines: 49-97
-# Columns: 1-80
+﻿# Artwork: CPH-COL4.ANS by {YBERPUNCh | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-004-cph-col4-part02
 
 Write-Host '
 [1;35;45m░▀▀▒▀▀▓██▓▓▀░▄[0;35m▀[0;1;35m▀[0;35m▀[0;1;35m▀[0;1;35;45m▀[0;1;35;40m██▄▄▄▄[0;1;35;45m▌[0;1;35;40m▄▄▄▄██[0;1;35;45m▀[0m▀▀[1m▀[0m [35m▀[0;1;35;45m░[0;35m█[0;1;35;45m▀[0;35m▄▄▄▄█[0;1;35;45m▓██▓▓▀[0;35m█████[0;1;35;45m░[0;35m█[0;1;35;45m▄[0;35m▀▀[0;1;35m▀[0;35m▄[0;1;30;45m▒░░[0;35m█[0;1;35;45m░▄▄[0;1;30;45m▀▄[0;35m█[0;1;35;45m{Ph?![0m

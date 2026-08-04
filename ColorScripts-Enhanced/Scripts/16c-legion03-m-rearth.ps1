@@ -1,18 +1,4 @@
-﻿# Converted from: M-REARTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/legion03/raw/M-REARTH.ANS
-# Source Revision: archive-sha256:3b251d9ebc35ceed23da0d58ef375496b1cad741eaa1377af904a80c9c17dc07
-# Source SHA-256: 0b61fc93617f01e136192d0b1b2d1ba48e178bb63137a1f65b9eb4bfc96b4b82
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M-REARTH.ANS by milkmang (the legion); released in legion03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ray earth
-# SAUCE Author: milkmang
-# SAUCE Group: the legion
-# SAUCE Date: 19980601
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ray earth by milkmang | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-legion03-m-rearth
 
 Write-Host '
                       [1;34m▄▄[0;1;34;44m▄[0;34m▄[0m

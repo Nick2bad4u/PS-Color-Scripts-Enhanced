@@ -1,13 +1,4 @@
-﻿# Converted from: TSK-SOM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz05apr/raw/TSK-SOM.ANS
-# Source Revision: archive-sha256:1015a880c3c2e42953df14381eb6ae6e6ec0326b482ac0273175f6e6e7073aa4
-# Source SHA-256: 093fdab7f97ab2f3ae7bf32d065fc97d0fb40287236bf2d1a5f3cd5f0cce7180
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-SOM.ANS by The Silent Killer (laz05apr); released in laz05apr and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: TSK-SOM.ANS by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz05apr-tsk-som
 
 Write-Host '
 [36m[0m[36m[0m

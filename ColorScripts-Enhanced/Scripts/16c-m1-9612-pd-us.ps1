@@ -1,17 +1,4 @@
-﻿# Converted from: PD-US.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m1-9612/raw/PD-US.ANS
-# Source Revision: archive-sha256:3345b8669e1e5395f00119c0204de5931cc61e1b206afc14cb4b582ca2764c50
-# Source SHA-256: 006685350509a79448a9ab76c3bd870e682ce04a79c32ae4f6c9623a2fc47f13
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PD-US.ANS by Paradox (Maiten1); released in m1-9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Unearthly Shadows
-# SAUCE Author: Paradox
-# SAUCE Group: Maiten1
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Unearthly Shadows by Paradox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m1-9612-pd-us
 
 Write-Host '
 [1;31;41mp[0;1;37;41md[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: US-MAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge02/raw/US-MAT.ANS
-# Source Revision: archive-sha256:0f5fb32d04f7f51c8650aa6dbc02d3736c65f118a43ed88263a3c36e1abfe576
-# Source SHA-256: 3e7ac9ac25451ba71d9067721bc0c92fd103daffc9c570901deff7ad260c460a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-MAT.ANS by Sudden Death + Creator + Corinthian (avenge02); released in avenge02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: US-MAT.ANS by Sudden Death + Creator + Corinthian | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge02-us-mat
 
 Write-Host '
                     ▀[1;30m▄▄[0m   [1;31m [0;33m▀█[0;1;31;43m░▒▒▓▓[0;1;31;40m▀█████[0;1;31;43m▓▄▄[0;1;31;40m▄[0;33m▄[0;1;31m   [0;34m░▀[0;1;31m [0;34m▓[0;1;34;44m▒[0;34m█ ▀[0;1;34;44m░[0;34m█▄[0;1;34m▒[0;34m▀▀[0;1;34m [0;34m   [0;1;34m░[0;34m            [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: 22-TEN2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-03/raw/22-TEN2.ANS
-# Source Revision: archive-sha256:8cf981d9c660d9c99945a037cc3975e95985d6099e63c9913bd07526abf36ba1
-# Source SHA-256: bf65cdda64cd6941541aefd71a726fb2f307e6f01c921ddd3de11089e1ba0db9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 22-TEN2.ANS by catch22 (glue); released in glue-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: tenuous menuset
-# SAUCE Author: catch22
-# SAUCE Group: glue
-# SAUCE Date: 19970907
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: tenuous menuset by catch22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-03-22-ten2
 
 Write-Host '
     [34m▄▄▄▄▓▓░░[0m             [34m [0m                           [34m [0;31m ▄▄▄[0m         [31m ▄▄▄▄ [0;1;34mcatch22[0m

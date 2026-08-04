@@ -1,19 +1,4 @@
-﻿# Converted from: mfs-DKTM.ans
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/fuel28/raw/mfs-DKTM.ans
-# Source Revision: archive-sha256:f19d9f1f4d98a894d9a58a43443858287108d50e702695e0859df539776cf44a
-# Source SHA-256: b61a2ba960d646891f03180ed6b14f2565f692930c39f63d34ad82bd6f764c0d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mfs-DKTM.ans by Mel Farr Suppastar (FUEL); released in fuel28 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Dynamite Kid vs Tiger Mask
-# SAUCE Author: Mel Farr Suppastar
-# SAUCE Group: FUEL
-# SAUCE Date: 20180605
-# SAUCE Dimensions: 120x61
-# SAUCE Font: IBM VGA
-# Lines: 1-44
-# Columns: 1-120
+﻿# Artwork: Dynamite Kid vs Tiger Mask by Mel Farr Suppastar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel28-mfs-dktm-part01
 
 Write-Host '
 [1;37;46m▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░░░░░[0;1;36;45m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;36;40m▀[0;35m░░[0;1;36m▀[0;1;36;45m▓▓[0;1;36;40m███[0m

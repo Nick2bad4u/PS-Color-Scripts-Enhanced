@@ -1,18 +1,4 @@
-﻿# Converted from: TP-PROMO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9412/raw/TP-PROMO.ANS
-# Source Revision: archive-sha256:b41d15e15138a70f793bdbf1405cc315054550aa9ff9ddbf322f906870d2a6d0
-# Source SHA-256: 90180a277a73e155e38712dd462c8698d45dbe24e476acae7f5ffebbf32e4a13
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TP-PROMO.ANS by TechnoPhreaK (Blade Productions); released in blde9412 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Blade Promotional
-# SAUCE Author: TechnoPhreaK
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19941127
-# SAUCE Dimensions: 80x25
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Blade Promotional by TechnoPhreaK | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9412-tp-promo-part01
 
 Write-Host '
 [1m████████████████████████████████████████████████████████████████████████████████[0m

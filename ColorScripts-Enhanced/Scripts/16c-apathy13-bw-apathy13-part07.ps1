@@ -1,19 +1,4 @@
-﻿# Converted from: bw-apathy13.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy13/raw/bw-apathy13.ans
-# Source Revision: archive-sha256:3ed7178f860604c6b9786846d46fd13095846b81c16a5324edc4e4b9ea7e6ba8
-# Source SHA-256: 35e412e69535d97112acc54a6f2e8b0dc78fc538d8d628004b140b8420024a91
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bw-apathy13.ans by binary walker (apathy); released in apathy13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: apathy 13
-# SAUCE Author: binary walker
-# SAUCE Group: apathy
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x343
-# SAUCE Font: IBM VGA
-# Lines: 295-343
-# Columns: 1-80
+﻿# Artwork: apathy 13 by binary walker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy13-bw-apathy13-part07
 
 Write-Host '
                                         [31m█[0;1;31m▌[0m                        [1;33m▀▀[0;1;36m▀███▄█▀▀[0m  [1;33m▄▄[0m

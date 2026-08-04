@@ -1,18 +1,4 @@
-﻿# Converted from: OR-G.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shade5/raw/OR-G.ANS
-# Source Revision: archive-sha256:9eb97f9412f63f0ce4837a80894f87a3aed455c1487394481c6e40b531c2203d
-# Source SHA-256: b9e2ee481beb93c369501c6eb55abf7bf5ec2218c611ca00eb1ee42e392a0854
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OR-G.ANS by outraider (shade); released in shade5 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: garbage
-# SAUCE Author: outraider
-# SAUCE Group: shade
-# SAUCE Date: 19970222
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: garbage by outraider | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shade5-or-g
 
 Write-Host '
  [34m▄[0;1;34;44m▄[0;1;34;46m▓[0;1;34;44m▀▀░░[0;34m▀▀▀▀ ▀[0;1;30m░░░     [0m     [34m▄▀ [0;1;32;42m▐█[0;32m▄[0;30;42m▓▓[0m    [35;40m▄▌[0;37;40m [0;36;40m▐[0;1;32;46m░▀█▄[0;36m▄[0;30;46m▓▓[0;36;40m▀▀█[0;1;33;46m░▓[0;1;33;40m▄▄░░[0m [36m▀▀▀[0;1;37;46m░▀[0;36m▄▄▄[0;1;30m░░[0m      [1;30m░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: FX-BMBNE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0597/raw/FX-BMBNE.ANS
-# Source Revision: archive-sha256:77e5528a945f670ea04f743fe66c6a4dc19b897ad7883b4458eeee0528f25975
-# Source SHA-256: a5c6e7caf81e8972c1004ec6009dc8cba267561b47d5af156af7e5374b0e515f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FX-BMBNE.ANS by flux (bamboiousjoh); released in bmb-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: bmbnews
-# SAUCE Author: flux
-# SAUCE Group: bamboiousjoh
-# SAUCE Date: 19970423
-# SAUCE Dimensions: 80x13
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: bmbnews by flux | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0597-fx-bmbne
 
 Write-Host '
           [1;34m░░░▄▄[0m

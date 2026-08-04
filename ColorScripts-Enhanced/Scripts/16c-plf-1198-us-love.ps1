@@ -1,18 +1,4 @@
-﻿# Converted from: US-LOVE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1198/raw/US-LOVE.ANS
-# Source Revision: archive-sha256:477c26b469dae0fde0e5c1871acc3be9de3bb3a205f1c76fb0e3a883b7bf8f93
-# Source SHA-256: 789673314e691bf2a0f31d7c573c47f1ac499d3da6786c9b24769f6be8f1054f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-LOVE.ANS by Zeus Ii + Big Yellow Man (poffelipoff); released in plf-1198 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: love canon
-# SAUCE Author: Multiple Artists
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19981114
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: love canon by Zeus Ii + Big Yellow Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1198-us-love
 
 Write-Host '
 [1;33m[0m                                                      [36m░░░░░░[0m

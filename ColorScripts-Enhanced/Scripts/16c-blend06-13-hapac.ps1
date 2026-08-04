@@ -1,18 +1,4 @@
-﻿# Converted from: 13-HAPAC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend06/raw/13-HAPAC.ANS
-# Source Revision: archive-sha256:bdb12df6fb66b6e7f7ab1240c15e9b23d66b94ced69828c85c717709162a24eb
-# Source SHA-256: 9d2b4ae867795fd6394e57ed6fb1e507f1968b06a82ee01747d949f44a1585fc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 13-HAPAC.ANS by ville (blend comics); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hazard - "artpacks archive"
-# SAUCE Author: ville
-# SAUCE Group: blend comics
-# SAUCE Date: 19970208
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: hazard - "artpacks archive" by ville | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend06-13-hapac
 
 Write-Host '
                         [31m     [0m   [1;33m■[0m

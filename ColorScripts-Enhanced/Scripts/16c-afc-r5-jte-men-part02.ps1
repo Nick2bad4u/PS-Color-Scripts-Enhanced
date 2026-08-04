@@ -1,13 +1,4 @@
-﻿# Converted from: JTE-MEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r5/raw/JTE-MEN.ANS
-# Source Revision: raw-sha256:47074bb25264384620cb25c76c6174dda2e71bedf59772754c492a5cab81c9df
-# Source SHA-256: 47074bb25264384620cb25c76c6174dda2e71bedf59772754c492a5cab81c9df
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JTE-MEN.ANS by Jate (afc-r5); released in afc-r5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 49-98
-# Columns: 1-80
+﻿# Artwork: JTE-MEN.ANS by Jate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r5-jte-men-part02
 
 Write-Host '
      [35;40m░▒▒▓▓█[0;34;40m█▓▓▒▓▓[0;34;44m [0;34;40m▓▓▒░[0;35;40m▒▓ ▒[0;34;40m░░▒░░[0;35;40m▒  ▒ [0;34;40m░░░ [0;35;40m▒  ▒[0;34;40m░░▒░░ [0;35;40m▒▒▒▒▒░[0m                 [33;40m▒█▓▒[0m

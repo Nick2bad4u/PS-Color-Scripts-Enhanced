@@ -1,18 +1,4 @@
-﻿# Converted from: ZZZZZZZZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook22/raw/ZZZZZZZZ.ANS
-# Source Revision: archive-sha256:aec74908b08ab1e6eeb2617f04dd839f89321bd6f70d460ae94d73bdd51d69b6
-# Source SHA-256: 38eeef2859d7087901a75662a9d2a58fd436e5dc840afac6bdd731ac8586fde9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZZZZZZZZ.ANS by black maiden (black maiden); released in bmbook22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: thanks for watching
-# SAUCE Author: black maiden
-# SAUCE Group: black maiden
-# SAUCE Date: 20010311
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: thanks for watching by black maiden | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook22-zzzzzzzz
 
 Write-Host '
 [33m----------------[0;37m [0;32m█[0;37m [0;33m --------------------------------------------------------[0;36m ■ [0;33m-[0m

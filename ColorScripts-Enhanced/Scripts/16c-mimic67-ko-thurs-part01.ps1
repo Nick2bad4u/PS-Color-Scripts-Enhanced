@@ -1,13 +1,4 @@
-﻿# Converted from: ko-thurs.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic67/raw/ko-thurs.ans
-# Source Revision: archive-sha256:ebd7b346158fef39c0c0b6a190b3ea154c154dafddb0e749b2c4a2fd86510493
-# Source SHA-256: 9a873a9e2614a30b6aec1e6de22795e2791ac4f5cbeb09a03ab2e36246e4a878
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ko-thurs.ans by Konami (mimic67); released in mimic67 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: ko-thurs.ans by Konami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic67-ko-thurs-part01
 
 Write-Host '
 [1m$$$$$$[0;1;33m$$$$[0;1;31mb[0m         [31m;[0;1;31mS[0;1;33m$$$$[0;1;37m$$[0;1;33m$$$ [0m         [1;33m $$$[0;1;37m$$$[0;1;33m$$$[0;1;31mS[0;31m;[0m       [1;37md$$$$[0;1;33m$$$$$$$\[0;1;31m²[0;31m`[0m

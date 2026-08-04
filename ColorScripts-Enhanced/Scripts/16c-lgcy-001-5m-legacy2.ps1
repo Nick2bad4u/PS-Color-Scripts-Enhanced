@@ -1,19 +1,4 @@
-﻿# Converted from: 5m-legacy2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-001/raw/5m-legacy2.ans
-# Source Revision: archive-sha256:589c804657c8d15ba617f7c0fd80723e4505d519989b80eba9584665be49eb54
-# Source SHA-256: b5836fd86da6b02a31cb0e9026d772b410dd32e3155a86ec22bb3309bef32f07
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5m-legacy2.ans by Smooth (Legacy Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Neon Legacy Font
-# SAUCE Author: Smooth
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20191229
-# SAUCE Dimensions: 80x45
-# SAUCE Font: IBM VGA
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Neon Legacy Font by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-001-5m-legacy2
 
 Write-Host '
                   [31m■[0;37m                               [0;31m░[0m

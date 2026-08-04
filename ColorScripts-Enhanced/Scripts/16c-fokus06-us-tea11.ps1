@@ -1,17 +1,4 @@
-﻿# Converted from: US-TEA11.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus06/raw/US-TEA11.ANS
-# Source Revision: archive-sha256:dc26abf5be8f48f280ad19d58f0c64fc91b5db6a0fab8539aa3970e4d64fad45
-# Source SHA-256: 90c37b49d20438962a985a43cc82fb9878b5b4b9fd498a1779df65686e4261b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TEA11.ANS by Spear + Toot (fokus06); released in fokus06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Tea
-# SAUCE Author: spear/toot
-# SAUCE Date: 19990801
-# SAUCE Dimensions: 80x45
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: Tea by Spear + Toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus06-us-tea11
 
 Write-Host '
                            [31m    [0m    [31m░[0m     [31m                                [0m

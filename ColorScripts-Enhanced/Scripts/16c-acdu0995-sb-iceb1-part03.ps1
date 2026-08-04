@@ -1,18 +1,4 @@
-﻿# Converted from: SB-ICEB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0995/raw/SB-ICEB1.ANS
-# Source Revision: archive-sha256:33564e3b7dba06eac1f1e36dcc176b1f8d29f8167c2e77227197ff7bea5344f2
-# Source SHA-256: 7f9dea9dc66272957b599f8e59c1bdddb8e0dccfe0c2b16fefeaa2ac98a6b907
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SB-ICEB1.ANS by Spellbinder (ACiD Productions); released in acdu0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Ice Box
-# SAUCE Author: Spellbinder
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950825
-# SAUCE Dimensions: 80x109
-# Lines: 72-109
-# Columns: 1-80
+﻿# Artwork: The Ice Box by Spellbinder | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0995-sb-iceb1-part03
 
 Write-Host '
        [31m▐█▌████[0;1;31;41m▒[0;31m███▌[0;1;31;43m▐▓[0;1;31;40m█[0;33m▌[0;37m [0;1;37m  [0;33m▄▄[0;1;31;43m▄▓▓▀[0;1;31;40m▀▀[0;33m▀▀[0;37m [0;33m▄▄▄[0;1;31;43m▄▓▓▀▓▓▄▄▄[0;33m▄▄▄▀[0;1;31m▀[0;1;31;43m▀▓[0;33m▄[0;1;31m [0;33m▐[0;1;31;43m▒[0m [31m█[0m     [31m▐█▀█[0m

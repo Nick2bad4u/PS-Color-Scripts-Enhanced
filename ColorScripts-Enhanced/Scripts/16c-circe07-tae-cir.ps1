@@ -1,18 +1,4 @@
-﻿# Converted from: TAE-CIR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe07/raw/TAE-CIR.ANS
-# Source Revision: archive-sha256:2cbba3cedd8eb19a25555cbc1ca3ce5023e1f497b14e2a9d7de86e055d96afd2
-# Source SHA-256: 02bb206115ec733cfb1a25c8f6939f2512d46b54b7455312b347b13811a8d415
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TAE-CIR.ANS by taevore (circe); released in circe07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: circe
-# SAUCE Author: taevore
-# SAUCE Group: circe
-# SAUCE Date: 19990101
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: circe by taevore | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe07-tae-cir
 
 Write-Host '
   [1;36m▄[0;1;30m ▄[0m [33m [0;36m░[0m         [33m▄[0m     [36m▄[0m     [1;34m  [0m                   [1;36m [0m       [1;32m [0m [1m [0;1;36m▒▒▒▒[0m

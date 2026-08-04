@@ -1,13 +1,4 @@
-﻿# Converted from: GX-FD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9405/raw/GX-FD.ANS
-# Source Revision: archive-sha256:1a80748d26b1608956e62981097747a5f5037b77df31445dba1dcac7e173021c
-# Source SHA-256: f01e6b300928f64e00b331243d7c51adafa7a10eb12a8d3fc2933d3fe775428e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GX-FD.ANS by Grafx (blde9405); released in blde9405 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: GX-FD.ANS by Grafx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9405-gx-fd-part01
 
 Write-Host '
 [1;30m────────────────────────────────────────────────────────────────────────────────[0m

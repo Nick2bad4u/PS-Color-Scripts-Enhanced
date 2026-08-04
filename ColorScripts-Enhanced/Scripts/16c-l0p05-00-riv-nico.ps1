@@ -1,18 +1,4 @@
-﻿# Converted from: RIV!NICO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p05_00/raw/RIV!NICO.ANS
-# Source Revision: archive-sha256:d107a99a4f6346768b79c50cf89b1ea06eaa6378fa6264f2582e9bfb2f879d7f
-# Source SHA-256: c526fffcdc35f0c45472d6d97d804ccb796352de5298ce0a6ff40b7e2a813f40
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RIV!NICO.ANS by Riven (Thelo0p); released in l0p05_00 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Nico zabojca? 8)
-# SAUCE Author: Riven
-# SAUCE Group: Thelo0p
-# SAUCE Date: 20000131
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Nico zabojca? 8) by Riven | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p05-00-riv-nico
 
 Write-Host '
 [1m      [0;1;30m▐[0m [1m                                                                  [0m▌[1;30m [0;1;37m   [0m

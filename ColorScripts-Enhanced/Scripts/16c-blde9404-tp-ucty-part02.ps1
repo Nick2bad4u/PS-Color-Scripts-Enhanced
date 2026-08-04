@@ -1,13 +1,4 @@
-﻿# Converted from: TP-UCTY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9404/raw/TP-UCTY.ANS
-# Source Revision: archive-sha256:b5a6447140be0f2d0704586db4931f253a9b769ec22a9e738e72404b4d84b4df
-# Source SHA-256: 4a5c89c7e80af93b067672432e9881583a178363799d021c7cdb7f7e928396a9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TP-UCTY.ANS by Technophreak (blde9404); released in blde9404 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 30-59
-# Columns: 1-80
+﻿# Artwork: TP-UCTY.ANS by Technophreak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9404-tp-ucty-part02
 
 Write-Host '
 [34m░░░  [0;31m░░▒░░░▒▒░▓▓▓ [0;34m░░░ ░░▒▒▒▓▓▓▒▄▄[0m          [34m▄▄▓▒▓▓▒▒▓▒▒  ░░░  [0;31m▓▓▓░▒░▒░░░  [0;34m░ ░░░ ░[0m

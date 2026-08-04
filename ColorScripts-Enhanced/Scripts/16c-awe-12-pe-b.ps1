@@ -1,18 +1,4 @@
-﻿# Converted from: PE!B.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-12/raw/PE!B.ANS
-# Source Revision: archive-sha256:5c96c14e912296494a464a42e768321452d811693cf172945a9502eb4396c8bb
-# Source SHA-256: ce2797a373686cdfa500683447e169ef0fbcc83dc4c4e1f978e908abfa46a64b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PE!B.ANS by Phony Eye (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Bitch X
-# SAUCE Author: Phony Eye
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19971025
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Bitch X by Phony Eye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-12-pe-b
 
 Write-Host '
                   [35m [0m

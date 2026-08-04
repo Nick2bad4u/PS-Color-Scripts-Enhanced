@@ -1,19 +1,4 @@
-﻿# Converted from: THE_ELK-SEA_MIST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1019/raw/THE_ELK-SEA_MIST.ANS
-# Source Revision: archive-sha256:98716931f8039155308dfebf57d5b2f42a6a675c2965d4be6a87f9b4c8fa26af
-# Source SHA-256: 57fd78bc83263676d40854ebaebcc4d4e03b6cff4503665e709481c5d9ee66ff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: THE_ELK-SEA_MIST.ANS by the elk (Mistigris); released in mist1019 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the Return of Obed Marsh
-# SAUCE Author: the elk
-# SAUCE Group: Mistigris
-# SAUCE Date: 20190927
-# SAUCE Dimensions: 80x80
-# SAUCE Font: IBM VGA
-# Lines: 36-78
-# Columns: 1-80
+﻿# Artwork: the Return of Obed Marsh by the elk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1019-the-elk-sea-mist-part02
 
 Write-Host '
 [1;32m░░░[0;31m▄▀██▄[0;37m    [0;34m░░█▄[0;37m  [0;1;30m█[0m [1;30m░▒░░░[0m [1;30m░▓░░░▄▄[0;30m [0;1;30m▄[0;30m [0;1;30m▄[0;30m [0;1;30m▄[0;30m [0;1;30m▄[0;30m [0;1;30m▄[0;30m [0;1;30m░░▓░░░░░▀░░░░▄░░[0m [1;30m▀[0m   [1;30m▀[0;31m▀██[0;1;32m░░[0m [1;32m█[0m   [1;32m█▄[0m [1;32m▓[0m

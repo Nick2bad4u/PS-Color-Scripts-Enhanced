@@ -1,13 +1,4 @@
-﻿# Converted from: US!GIRL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mfl_pck3/raw/US!GIRL.ANS
-# Source Revision: archive-sha256:f42142d9c16b6e6135cc0630a64feba2c7c0e924386b7077d738e709f4b74f43
-# Source SHA-256: 83e04a0109225c2aa5e3434cbbfcb0094a50d5b36468a41b30ef251cb33d8d14
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US!GIRL.ANS by Binar + Mist (mfl_pck3); released in mfl_pck3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: US!GIRL.ANS by Binar + Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mfl-pck3-us-girl
 
 Write-Host '
 [1;47m  [0;1;30;47mansi by :[0;1;37;47m  [0;1;30;40m░[0;1;37;40m███████████████████[0;1;37;47m▀[0;1;37;40m▀▀[0m▀[1;30m▀[0;1;33m [0;33m▄[0;1;33m▄▄▄▄▄▄[0;33m▄[0;1;33m [0;1;30m▀[0m▀[1m▀▀[0;1;47m▀[0;1;40m██████████████████████████[0;1;37;44m█[0m

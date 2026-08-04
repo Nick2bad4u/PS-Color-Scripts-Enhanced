@@ -1,18 +1,4 @@
-﻿# Converted from: PR_WINDM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak3/raw/PR_WINDM.ANS
-# Source Revision: archive-sha256:cde4af7e840865f437fedba26bbfb806e858a9b477c723c01bd9d080434c75bd
-# Source SHA-256: cf67685304347f07064ef3bec773d400c4766a34c79e8a146f1098ef2be40abf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR_WINDM.ANS by president (ecolove); released in ecl-pak3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: wind of insanity
-# SAUCE Author: president
-# SAUCE Group: ecolove
-# SAUCE Date: 19980104
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: wind of insanity by president | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak3-pr-windm
 
 Write-Host '
 

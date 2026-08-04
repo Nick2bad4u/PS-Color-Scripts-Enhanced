@@ -1,18 +1,4 @@
-﻿# Converted from: PYX-FC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-089702/raw/PYX-FC.ANS
-# Source Revision: archive-sha256:e48c38fcf9ad1e8bdcd70f413f385ac4fe4835bcda18b3e71092baf5cce2e35b
-# Source SHA-256: 2f2f0226dfcb6b0c8004e88f0002edd84ae8d072294230dda1e8f66032593341
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-FC.ANS by Pyx (Bamboosh / Society); released in bmb-089702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: 333- Eff Seeh -EEE
-# SAUCE Author: Pyx
-# SAUCE Group: Bamboosh / Society
-# SAUCE Date: 19970809
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: 333- Eff Seeh -EEE by Pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-089702-pyx-fc
 
 Write-Host '
 [31m  [0m                           [31m       ▄[0;1;33m▄▄▄▄[0;1;33;41m▀[0m

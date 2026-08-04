@@ -1,19 +1,4 @@
-﻿# Converted from: MISFIT-MISTIGRIS_SCIENCE_THEATER_3000.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1119/raw/MISFIT-MISTIGRIS_SCIENCE_THEATER_3000.ANS
-# Source Revision: archive-sha256:55e25d51e7ea67e18beea3070275d20b31facc3af69759bb904716908b0d1228
-# Source SHA-256: 2c8d38a44516b2dd8f7030fa498f7043ecc398961aa306726ab6c0a1491f8af7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MISFIT-MISTIGRIS_SCIENCE_THEATER_3000.ANS by Misfit (Blocktronics); released in mist1119 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Mistigris Science Theater 3000
-# SAUCE Author: Misfit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20190507
-# SAUCE Dimensions: 80x96
-# SAUCE Font: IBM VGA
-# Lines: 49-96
-# Columns: 1-80
+﻿# Artwork: Mistigris Science Theater 3000 by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1119-misfit-mistigris-science-theater-3000-part02
 
 Write-Host '
      [36;47m░░░░░[0;37;40m██████████████[0;36;47m░░░░░░[0;37;40m█▌[0;1;33;40m [0;1;34;45m░[0;35m▀ [0;31m    ▐███████[0;33;41m █[0;33;40m█▓▌[0;32;40m ░[0;1;32;40m▓[0m [36m▐[0;37;46m░░░[0;36;40m█████████[0;36;47m▀░░░░[0m

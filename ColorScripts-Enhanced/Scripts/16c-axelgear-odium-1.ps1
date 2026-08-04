@@ -1,18 +1,4 @@
-﻿# Converted from: ODIUM-1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axelgear/raw/ODIUM-1.ANS
-# Source Revision: archive-sha256:b47467ff2f44fba1583ea1e079d55dd2548eadef82dd6d664541c9909c9928e2
-# Source SHA-256: 0fd14b0a408d0d9f62d942f8b68a26c63441321103453703c534df32779ba750
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ODIUM-1.ANS by Shattered Link (Odium Productions); released in axelgear and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Odium Piece Number One
-# SAUCE Author: Shattered Link
-# SAUCE Group: Odium Productions
-# SAUCE Date: 19970418
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Odium Piece Number One by Shattered Link | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axelgear-odium-1
 
 Write-Host '
                       ▄■▄░▄■▄  ▄■▄     [31m▄███[0;1;31;41m░░[0;31m▄▄[0m

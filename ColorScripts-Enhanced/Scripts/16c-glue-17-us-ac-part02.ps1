@@ -1,18 +1,4 @@
-﻿# Converted from: US-AC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-17/raw/US-AC.ANS
-# Source Revision: archive-sha256:154ac874f13e20433925bb99a4f5e0a4299764bee7ed4d28bdaffd9ad392f554
-# Source SHA-256: f84aa263e5428bda7bc0c8de40dc2feb423df6772d1e49d52532ff4e10698bb8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-AC.ANS by Retribution + Enzo + Catch 22 (gluefamille.); released in glue-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: astro city
-# SAUCE Author: ret,enzo,22
-# SAUCE Group: gluefamille.
-# SAUCE Date: 19981219
-# SAUCE Dimensions: 80x89
-# Lines: 42-89
-# Columns: 1-80
+﻿# Artwork: astro city by Retribution + Enzo + Catch 22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-17-us-ac-part02
 
 Write-Host '
                         [1;47m██████████████████████████▄[0m██[30;47m██[0;1;31;43m░░[0;33m▀▀█▐[0;30;47m█[0;1;30;40m  [0;1;30;47m [0;1;30;40m [0;1;30;47m  ▀[0m▄▄

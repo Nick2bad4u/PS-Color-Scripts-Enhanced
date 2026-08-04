@@ -1,18 +1,4 @@
-﻿# Converted from: RG-INTR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lcd-a001/raw/RG-INTR1.ANS
-# Source Revision: archive-sha256:55e314de3437204a90547056ed7bd388c2225541f9bc2d93c6d567b798eee7fd
-# Source SHA-256: 63d43f9d275db845662e095703401750ca545af7d0f9e69d2595aef90f53c50b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RG-INTR1.ANS by Rimgale (LUCiD); released in lcd-a001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Intro Picture
-# SAUCE Author: Rimgale
-# SAUCE Group: LUCiD
-# SAUCE Date: 19941208
-# SAUCE Dimensions: 80x25
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Intro Picture by Rimgale | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lcd-a001-rg-intr1-part01
 
 Write-Host '
                      [34m▄▀▄    ▄▄▀▀▀▀▀▀▀▀▀▄▄▄[0m        [34m▄▄██▀▀[0;36m▄▓██▓▀▀[0;34m▄▄▄▄[0m

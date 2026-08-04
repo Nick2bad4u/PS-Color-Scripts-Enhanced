@@ -1,18 +1,4 @@
-﻿# Converted from: BF-CHR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz09aug/raw/BF-CHR1.ANS
-# Source Revision: archive-sha256:3e0bd3039fe877b3970f71e80b4456ee60793f2295ae127a50a6587b17c2d6a2
-# Source SHA-256: 7cafe03ee20b16dc356da7f37c7bc5d5aa3d182a4b3dbd953186ee7a930e0f5c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BF-CHR1.ANS by bobafett! (lAZARUS sTUDIOS!); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: "CHROME, A FUTURE..."
-# SAUCE Author: bobafett!
-# SAUCE Group: lAZARUS sTUDIOS!
-# SAUCE Date: 19970709
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: "CHROME, A FUTURE..." by bobafett! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz09aug-bf-chr1
 
 Write-Host '
 

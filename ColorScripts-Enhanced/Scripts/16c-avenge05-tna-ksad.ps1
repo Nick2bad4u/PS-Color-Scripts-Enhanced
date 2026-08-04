@@ -1,17 +1,4 @@
-﻿# Converted from: TNA-KSAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge05/raw/TNA-KSAD.ANS
-# Source Revision: archive-sha256:615f93ac3e9f6dbb8b5c0af3b04c28ece4dfc24ad41847f78024e1caa01cce6c
-# Source SHA-256: c0e3af60d7ce92a581d63f84b2e1d91791ecb4e1d1e645a4c8e0b58611107881
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-KSAD.ANS by The Night Angel (Avenge Cult); released in avenge05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: K-Sad
-# SAUCE Author: The Night Angel
-# SAUCE Group: Avenge Cult
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: K-Sad by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge05-tna-ksad
 
 Write-Host '
                              [34m▄[0m                                       [34m░[0m

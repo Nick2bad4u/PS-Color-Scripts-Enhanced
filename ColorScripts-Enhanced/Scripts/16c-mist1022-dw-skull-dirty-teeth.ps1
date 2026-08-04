@@ -1,19 +1,4 @@
-﻿# Converted from: DW-SKULL-DIRTY_TEETH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1022/raw/DW-SKULL-DIRTY_TEETH.ANS
-# Source Revision: archive-sha256:b4cfb070b10229c71b6cdba49fff141c03f4ad9e6e51a5ef68dfa1930822da97
-# Source SHA-256: ab494234c7090938e806c2e7b9e172f1717ae79612ea33c6d09abd06bc95bd86
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DW-SKULL-DIRTY_TEETH.ANS by DW (Mistigris); released in mist1022 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Dirty-teethed Pirate Skull
-# SAUCE Author: DW
-# SAUCE Group: Mistigris
-# SAUCE Date: 20221028
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Dirty-teethed Pirate Skull by DW | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1022-dw-skull-dirty-teeth
 
 Write-Host '
                                 [33m▄▄█[0;1;30;43m▄▄▄▄▄[0;33m██[0;1;30;43m▄▄▄▄[0;33m▄▄▄[0m

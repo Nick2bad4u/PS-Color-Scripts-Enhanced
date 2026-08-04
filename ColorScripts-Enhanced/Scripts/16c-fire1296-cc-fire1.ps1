@@ -1,18 +1,4 @@
-﻿# Converted from: CC-FIRE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1296/raw/CC-FIRE1.ANS
-# Source Revision: archive-sha256:30782fcfc860946575894eb2b18cd82015430d9b2fe92875d1416c9b2489f009
-# Source SHA-256: 86a409dd7956a93b21d1569e2997c0e13dad1c90c9d19a1b1edc74f8aaa65eaa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CC-FIRE1.ANS by clorox cowboy (fire); released in fire1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fire promo...
-# SAUCE Author: clorox cowboy
-# SAUCE Group: fire
-# SAUCE Date: 19961212
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: fire promo... by clorox cowboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1296-cc-fire1
 
 Write-Host '
 

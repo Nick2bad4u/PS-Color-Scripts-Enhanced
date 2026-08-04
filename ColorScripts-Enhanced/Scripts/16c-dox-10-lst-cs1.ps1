@@ -1,17 +1,4 @@
-﻿# Converted from: LST-CS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_10/raw/LST-CS1.ANS
-# Source Revision: archive-sha256:21def41607bc8f426e6b33cadf0099935014e2da13ee2908faa3303a70532ffa
-# Source SHA-256: 9dfb2762a7be33ea223d8f18e7b1c5bb76526b298f8cd9352a0955089e2ac995
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LST-CS1.ANS by soul trader (dox_10); released in dox_10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: crisis systems bbs
-# SAUCE Author: soul trader
-# SAUCE Date: 19970625
-# SAUCE Dimensions: 80x24
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: crisis systems bbs by soul trader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-10-lst-cs1
 
 Write-Host '
 

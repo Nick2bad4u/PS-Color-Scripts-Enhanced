@@ -1,19 +1,4 @@
-﻿# Converted from: bw_dead_dont_rise.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-420/raw/bw_dead_dont_rise.ans
-# Source Revision: archive-sha256:32206a6b687af3a407a7929bd0ae7f49a2a5a96e7853d9c98b3020df27e9b06d
-# Source SHA-256: db3fe803eec27f5b8f870b426503f920859e3804c29b1ece07707d8345d5384b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bw_dead_dont_rise.ans by binary walker (blocktronics); released in blocktronics-420 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: dead don't rise
-# SAUCE Author: binary walker
-# SAUCE Group: blocktronics
-# SAUCE Date: 20200416
-# SAUCE Dimensions: 80x180
-# SAUCE Font: IBM VGA
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: dead don't rise by binary walker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-420-bw-dead-dont-rise-part01
 
 Write-Host '
 [1m███████████    ████████    ████ ████▀▄██████████▀▀▀  ▄█████[0;1;47m▓▓▓▓▓▓▓▓▓▓▓[0;1;40m▀▀▀  ▄▄[0;1;47m▓▓▓[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: TNT-TWS.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/fire-43/raw/TNT-TWS.ANS
-# Source Revision: archive-sha256:d3967e67800d0c773a52f120751caeb2bc01ead5180b478fb0a0e89978edc4ec
-# Source SHA-256: ee9154519a61580427e0034eae94b045a9b4abaec7cced59dc761624e4282b2d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNT-TWS.ANS by tainted (fire); released in fire-43 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: twisted
-# SAUCE Author: tainted
-# SAUCE Group: fire
-# SAUCE Date: 20250707
-# SAUCE Dimensions: 80x67
-# SAUCE Font: IBM VGA
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: twisted by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-43-tnt-tws-part01
 
 Write-Host '
                       [1;30;40m▄▄[0;36m▄▄[0m                             [36m░░░░░[0m

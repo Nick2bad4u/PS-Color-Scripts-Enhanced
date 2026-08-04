@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-NEBU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0721/raw/ZII-NEBU.ANS
-# Source Revision: archive-sha256:9d3d54e42a99a6e7bef51cb79a023b85709051f377817bc02741bd65f1493da4
-# Source SHA-256: 2471276c9e760d1484d560286b96daf7f4f0f188cfa7a5e65920904366863d6a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-NEBU.ANS by Zeus II (Mistigris); released in mist0721 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: from an unknown nebula...
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20210711
-# SAUCE Dimensions: 79x27
-# SAUCE Font: IBM VGA
-# Lines: 1-27
-# Columns: 1-79
+﻿# Artwork: from an unknown nebula... by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0721-zii-nebu
 
 Write-Host '
 [31m█[0;1;32;41m▄▄▄▀[0;31m██[0;1;32;41m▀▀[0;31m█▓▓█[0;1;32;41m▄[0;31m██                                    [0;36m▄█[0;1;35;46m▄[0;45m█[0;1;35;46m▀[0;35m█[0;34;45m░[0;35;40m█[0;1;35;46m▄▄[0;1;35;47m▓[0;1;35;45m█[0;1;35;46m [0;36;45m▒▒[0;1;35;46m▐▌[0;1;35;47m [0;34;46m░░▒▒▒[0;35;46m▒▓[0;33;45m▄[0;35;40m█[0m

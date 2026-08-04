@@ -1,18 +1,4 @@
-﻿# Converted from: STC-ACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0395/raw/STC-ACID.ANS
-# Source Revision: archive-sha256:c61de425dfa6c17c15d8c7a3f501188ae0f41871982f3a874a318b2cadecd44e
-# Source SHA-256: 9280497bd1da3f20ed8aeb18c14e378c646b88993e8a6c1d2c804c4b3d7b4086
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STC-ACID.ANS by Stone The Crow (ACiD Productions); released in acdu0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ACiD Advo
-# SAUCE Author: Stone The Crow
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950301
-# SAUCE Dimensions: 80x123
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: ACiD Advo by Stone The Crow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0395-stc-acid-part01
 
 Write-Host '
    [36m ■ [0m      [36m▄▄▀[0m            [36m ▄█▄██   ▄█ ███████████████████████████[0;1;36;46m▀[0;36m██[0;1;36;46m▀[0;30;46m [0;1;36;46m▀▀[0;36m██[0;1;36;46m▀▀▀█[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: GTI-SHK2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0398/raw/GTI-SHK2.ANS
-# Source Revision: archive-sha256:5deb0c572555b712853a4e44d44a0abdfad1e60e47bfcff7ce192c9fa583bdec
-# Source SHA-256: 6c3cbe9e446d3170e476026c6d1039abd29fa66a68a06bdfabc79af4cb1cd6b2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GTI-SHK2.ANS by gti; released in sac0398 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: GTI-SHK2.ANS by gti | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0398-gti-shk2
 
 Write-Host '
 

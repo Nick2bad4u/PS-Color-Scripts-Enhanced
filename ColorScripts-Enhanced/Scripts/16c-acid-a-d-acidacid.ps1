@@ -1,13 +1,4 @@
-﻿# Converted from: ACIDACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acid_a-d/raw/ACIDACID.ANS
-# Source Revision: archive-sha256:0c2c2d0da26e60e3cf50a9f0ddc530332592fd090be0bbe48fac5e181dbe79b5
-# Source SHA-256: 955cba01dbcc1e2d495b0f3ecc4f11ee15cf7ec6f59c5bb4f9ad53de1d119771
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ACIDACID.ANS by Tracer (acid_a-d); released in acid_a-d and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: ACIDACID.ANS by Tracer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acid-a-d-acidacid
 
 Write-Host '
                            [1;30m▄▀▀▀▀▄▄▄▄▄▄▄█████▄[0m

@@ -1,20 +1,4 @@
-﻿# Converted from: TG-MHC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-45/raw/TG-MHC.ANS
-# Source Revision: archive-sha256:0564021806e0277d72a0e235c044a0e0470226ba860a8976e1e3092326555d1d
-# Source SHA-256: df116b852cf5706cf598a33b88d8a5c51ee6d208422578fd8bad431c7181cb73
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-MHC.ANS by Toon Goon (FiRE); released in fire-45 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Columbiana
-# SAUCE Author: Toon Goon
-# SAUCE Group: FiRE
-# SAUCE Date: 20260303
-# SAUCE Dimensions: 80x150
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Not used to doing shaded stuff but am trying to be more comforta | ble with it.
-# Lines: 101-148
-# Columns: 1-80
+﻿# Artwork: Columbiana by Toon Goon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-45-tg-mhc-part03
 
 Write-Host '
             [31m░█[0;1;31;41m░[0;1;37;41m░▒[0m [1;31;43m [0;1;31;40m█[0;1;31;47m▄▄░░░░▀[0m▄▄[1;31m▄▀▀▀[0;1;31;47m▓▒ [0;1;31;40m▄▀[0m    [1;31;43m▓[0;1;31;40m███[0;1;31;47m▓▓▓░▒░▓[0;1;31;40m▄[0;31m▀▀[0;1;31;41m▀██[0;1;31;47m▓░░[0;1;31;41m█[0;1;31;47m▓[0;1;31;41m█▓▓▓▓[0;31;47m▓[0;31;40m▀[0;1;37;47m░[0;1;31;47m [0;1;37;47m▀[0;1;31;47m▄[0;1;31;40m▀[0;31m   ▄[0m

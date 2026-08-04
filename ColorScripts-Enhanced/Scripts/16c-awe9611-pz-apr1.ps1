@@ -1,18 +1,4 @@
-﻿# Converted from: PZ-APR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9611/raw/PZ-APR1.ANS
-# Source Revision: archive-sha256:2b73e149488dc761d99422832825743596588d59e58f9bfecfb5d0e9dbffd274
-# Source SHA-256: 7dd6a6442178d956a4282ebcc8f31e84a979c30f56704d28c02675a964dac054
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PZ-APR1.ANS by Pzyko (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Astral Projekt
-# SAUCE Author: Pzyko
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961031
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Astral Projekt by Pzyko | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9611-pz-apr1
 
 Write-Host '
 [1;30mpzyko[0m>[1;30mawe[0;1;37m  [0m     [31m▄░[0m            [31m▐[0m                            [31m░[0m                 [31m▐▄[0m

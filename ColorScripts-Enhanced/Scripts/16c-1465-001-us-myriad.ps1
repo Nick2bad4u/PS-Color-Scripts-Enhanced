@@ -1,13 +1,4 @@
-﻿# Converted from: us-myriad.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1465-001/raw/us-myriad.ans
-# Source Revision: archive-sha256:0c63c049ba222ff6b20f73e49a7aa227dfdc1f2abd0fc9823b88e8d25342c3a7
-# Source SHA-256: 3a87f35d3219e99bb95d85e315ca663fcd2279e5f23d13dc7fd99ccb88e49989
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-myriad.ans by H7 + Knocturnal + Avenging Angel (1465-001); released in 1465-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: us-myriad.ans by H7 + Knocturnal + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1465-001-us-myriad
 
 Write-Host '
                                   [1;30m▄▄▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: DGA-SKUL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0497/raw/DGA-SKUL.ANS
-# Source Revision: archive-sha256:d98c99165ecd9db337962963f98d8cf3b4b4a3a08b877d642a875160724fb374
-# Source SHA-256: 03275934e453b753ea87df868aebed50ce5614036c14fcc94d9202a4acd45855
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DGA-SKUL.ANS by Sandy Chidester (out-0497); released in out-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: DGA-SKUL.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0497-dga-skul
 
 Write-Host '
 

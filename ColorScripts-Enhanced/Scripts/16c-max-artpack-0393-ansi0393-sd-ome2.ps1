@@ -1,13 +1,4 @@
-﻿# Converted from: SD-OME2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/max_artpack_0393-ansi0393/raw/SD-OME2.ANS
-# Source Revision: archive-sha256:6bd324ea4c69adaf5b40e5098ec6087935e387ea63e084e82aa1abff8e463e4f
-# Source SHA-256: b7193b7cfd24950654ab62e4e4ea4f39e3d9606ba3e8da0bb1ec5d82f3b7215f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-OME2.ANS by Snow Dog (max_artpack_0393-ansi0393); released in max_artpack_0393-ansi0393 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: SD-OME2.ANS by Snow Dog | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-max-artpack-0393-ansi0393-sd-ome2
 
 Write-Host '
                                                                       [1;30m<mAx>[0m

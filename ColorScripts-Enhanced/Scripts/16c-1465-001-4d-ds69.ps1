@@ -1,13 +1,4 @@
-﻿# Converted from: 4d-ds69.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1465-001/raw/4d-ds69.ans
-# Source Revision: archive-sha256:0c63c049ba222ff6b20f73e49a7aa227dfdc1f2abd0fc9823b88e8d25342c3a7
-# Source SHA-256: 95c81377ca3496f57575b3aeecf6f588c2a61497b3fc83d29d79aa32b7b14c68
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 4d-ds69.ans by Access Denied (1465-001); released in 1465-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: 4d-ds69.ans by Access Denied | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1465-001-4d-ds69
 
 Write-Host '
     ·       ·  .  [36m▄▄▄▄▄[0;37m  .[0m       [37m.[0m           [37m.[0m     [37m·   ·[0;33m█[0;1;33;43m██[0;1;33;40m██[0;1;33;43m████▄[0;1;33;40m▄[0;33m█▄[0;37m [0;33m▀[0;1;33;43m▀[0;33m█▄[0;37m [0;1;33;43m▒██▀[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: PN-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-07/raw/PN-FIRE.ANS
-# Source Revision: archive-sha256:87d90bdc1c58c50ea0888b8aaf262fcc5dbe049c5db52a725ab539c33c4e5735
-# Source SHA-256: c79653f1731b54b158416e953c9fea060397dc62bcfc624b6dedd96d357a534d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PN-FIRE.ANS by Paranoia (Hypeart); released in hype-07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: " Fire Logo "
-# SAUCE Author: Paranoia
-# SAUCE Group: Hypeart
-# SAUCE Dimensions: 80x25
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: " Fire Logo " by Paranoia | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-07-pn-fire
 
 Write-Host '
 [1m▄[0m                                    [1m■[0m         [1m■[0m              [1m▄■▄[0m

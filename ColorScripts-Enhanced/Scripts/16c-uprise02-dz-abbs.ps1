@@ -1,13 +1,4 @@
-﻿# Converted from: DZ-ABBS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise02/raw/DZ-ABBS.ANS
-# Source Revision: archive-sha256:3c5eae1b029b826705ce867bea68894f1a335fc23718a08e0687e597855e8cb9
-# Source SHA-256: 7a9a21b8703976b1c4eff74ae8978c4a7d9a29d6971c36e934cfc4cec0f508bb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DZ-ABBS.ANS by D-Zine (uprise02); released in uprise02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: DZ-ABBS.ANS by D-Zine | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise02-dz-abbs
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: SC-PHOBE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fact-04/raw/SC-PHOBE.ANS
-# Source Revision: archive-sha256:ede22877181bcaee0ecbada01269c2c7bf675cbd1fe3cc75db17ea24e9fac1f9
-# Source SHA-256: b7de565c5805fb8c0e15477105e12bf0b611fa7b324592cf3540cb65fd424b31
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-PHOBE.ANS by sCAPe (fACt!); released in fact-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: pHOBe inDUStRiEs!?
-# SAUCE Author: sCAPe
-# SAUCE Group: fACt!
-# SAUCE Date: 19960414
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: pHOBe inDUStRiEs!? by sCAPe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fact-04-sc-phobe
 
 Write-Host '
 

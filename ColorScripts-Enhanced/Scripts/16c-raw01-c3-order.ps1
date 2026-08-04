@@ -1,17 +1,4 @@
-﻿# Converted from: C3-ORDER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/raw01/raw/C3-ORDER.ANS
-# Source Revision: archive-sha256:68018d98da2353ea67bd0935370f9f9e7167a56c319420d702baa29dd9d82b28
-# Source SHA-256: e495dba22440b476fe1eeb1e410992600b2c65d5d58032f82561b1b055c33c92
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: C3-ORDER.ANS by criminal enigma (raw01); released in raw01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: out of order
-# SAUCE Author: criminal enigma
-# SAUCE Date: 19970405
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: out of order by criminal enigma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-raw01-c3-order
 
 Write-Host '
 

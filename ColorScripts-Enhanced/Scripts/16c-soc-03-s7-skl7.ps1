@@ -1,18 +1,4 @@
-﻿# Converted from: S7!-SKL7.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/soc-03/raw/S7!-SKL7.ANS
-# Source Revision: archive-sha256:c175c8aa82a245be223e06eb9027824f56ef8c78bd414a0bcb9ec65fd6e66549
-# Source SHA-256: 7a5560165f6f0b983f181ed7a3827686f20c239cf40208afc1ec2cdd96492835
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S7!-SKL7.ANS by Soul s7alker! (skl/kiss/soc/7/mdn); released in soc-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: skl logo
-# SAUCE Author: Soul s7alker!
-# SAUCE Group: skl/kiss/soc/7/mdn
-# SAUCE Date: 19971009
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: skl logo by Soul s7alker! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-soc-03-s7-skl7
 
 Write-Host '
  [1;30m░[0m [1m▐██[0;1;33;43m██▓░░[0;33m███[0;30;43m░[0;33;40m░[0;30;43m▓[0;37;40m [0;33;40m░[0;1;33;43m ░▓██[0;1;37;43m███[0;1;33;43m▓░[0;33m█░[0;37m  [0;1;30m░░[0m [1;30m [0;1;37m  ▄█[0;1;33;43m██[0;33m▄[0;1;37m ▄█[0;1;37;47m▄░░[0m▄[1m■▄[0;1;47m▄[0m███▄ [1m▀██[0;1;33;43m█[0;1;33;47m▓▓[0;1;33;43m██▌ ░░[0;33m██▀ [0;37m [0;1;30m░░░[0m

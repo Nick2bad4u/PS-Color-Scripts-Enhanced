@@ -1,18 +1,4 @@
-﻿# Converted from: DF-FSCAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d0pe0497/raw/DF-FSCAN.ANS
-# Source Revision: archive-sha256:a220e98301d64a5ed6ff83d56b491a9548bfbee0f6442b6e0e312609842035d6
-# Source SHA-256: ae19c6de22d5d7fb768cc5cc1ac2a48b79571b7934f0591f509100173e2c5022
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DF-FSCAN.ANS by dOpe fiend (dope); released in d0pe0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: misc filescan
-# SAUCE Author: dOpe fiend
-# SAUCE Group: dope
-# SAUCE Date: 19970402
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: misc filescan by dOpe fiend | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d0pe0497-df-fscan
 
 Write-Host '
     [1;33m ▀[0m         [1;33m▄[0m       [1;33m            [0m

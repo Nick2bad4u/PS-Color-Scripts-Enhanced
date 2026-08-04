@@ -1,18 +1,4 @@
-﻿# Converted from: DD-LT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe03/raw/DD-LT.ANS
-# Source Revision: raw-sha256:81ef5fc33b57a6f0952b7539895ad41b5a4de65bf811f3dd44b1d8a166b3a401
-# Source SHA-256: 81ef5fc33b57a6f0952b7539895ad41b5a4de65bf811f3dd44b1d8a166b3a401
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-LT.ANS by Diamond Darrel (Circe Argentina); released in circe03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: "Last Tranfers Header"
-# SAUCE Author: Diamond Darrel
-# SAUCE Group: Circe Argentina
-# SAUCE Date: 19971213
-# SAUCE Dimensions: 80x9
-# Lines: 1-9
-# Columns: 1-80
+﻿# Artwork: "Last Tranfers Header" by Diamond Darrel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe03-dd-lt
 
 Write-Host '
                 [1m▄███[0m▄[31m [0;37m ▄▄[0;1;30;47m▓[0;1;30;40m▓ ░░[0m   [1;47m t [0m [1mransfers[0m    [1m▄▄█▄▄[0m

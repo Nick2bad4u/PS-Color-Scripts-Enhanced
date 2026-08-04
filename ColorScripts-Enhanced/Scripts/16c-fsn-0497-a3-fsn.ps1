@@ -1,17 +1,4 @@
-﻿# Converted from: A3-FSN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0497/raw/A3-FSN.ANS
-# Source Revision: archive-sha256:0a24528ad1b8350dc6275ed84884990aa181682392c532082994d5872ceb5801
-# Source SHA-256: d5af7c81ea44d06496194760bca2c3a0cc2e3512bf30f608de55608844f42264
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: A3-FSN.ANS by absence (fsn-0497); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fusiOn
-# SAUCE Author: absence
-# SAUCE Date: 19970326
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: fusiOn by absence | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0497-a3-fsn
 
 Write-Host '
             ▄ ░  ▄▄▄░  [1;30m [0m     [1;30m▀[0m ▄▒▀▀░[1m▄▄[0m▄░   [1m [0m                [1;31m░ [0m     [1;31m░░[0m

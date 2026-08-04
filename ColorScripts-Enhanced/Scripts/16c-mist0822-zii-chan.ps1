@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-CHAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0822/raw/ZII-CHAN.ANS
-# Source Revision: archive-sha256:ed72a43421208b7431337d20b0e65cf1daa85d400f3cf90754e23de5d5edd83f
-# Source SHA-256: c50a75588dd70b5679e85ee01293790f67aa14ca477099266002dc571c398c47
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-CHAN.ANS by Zeus II (Mistigris); released in mist0822 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Monero-Chan @Monero.Place BBS
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20220719
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Monero-Chan @Monero.Place BBS by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0822-zii-chan
 
 Write-Host '
 [1;30m█▓▓▓██▀[0m [31m▀ ▀[0;1;30;41m▒[0;1;30;40m▀[0m [1;30;47m▌[0;1;37;47m░[0;1;30;47m ░[0;1;30;40m█[0;1;30;47m▓▒[0;1;30;40m█[0;1;30;43m▓[0;1;30;40m█▓▒▒░░[0m   [1;30;47m▀▒[0;1;30;40m█▀▀▀▀▀[0m     [1;30m▀▀[0m     [1;30m█[0;1;30;47m▓[0;1;30;40m█[0m [1;30m▒█[0;1;30;47m▓▓▓▓░ [0;1;37;47m░[0;1;30;47m ▒▓[0;1;30;40m █▓▓[0;1;30;47m▓[0;1;30;40m█▐[0;1;30;47m▓░▐[0m [1m▓[0m

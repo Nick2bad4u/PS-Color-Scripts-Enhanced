@@ -1,15 +1,4 @@
-﻿# Converted from: US-BLA71.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/123-10/raw/US-BLA71.ANS
-# Source Revision: archive-sha256:0050c9c6eaadd2b5f11cd16abd1e602b182225bd3c7956e86425fd1b2c77c043
-# Source SHA-256: 760a28c1e20953b47077301391eee4f9cd183beb7d01f0a29721479610cfe080
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BLA71.ANS by Tripulogic + Jashiin (123-10); released in 123-10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 20020304
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: US-BLA71.ANS by Tripulogic + Jashiin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-123-10-us-bla71
 
 Write-Host '
 [1m[0m[1m[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: NN-DST1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9605/raw/NN-DST1.ANS
-# Source Revision: archive-sha256:644a8b90a5c5ec724e95ecee326ed183bff05e759113d75234577c85289317dc
-# Source SHA-256: cb12970fbdd1246aeef741d485d5c1137cf1322925583c57ed7294b23622353c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NN-DST1.ANS by neo negro (blade productions); released in blde9605 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: distortion!
-# SAUCE Author: neo negro
-# SAUCE Group: blade productions
-# SAUCE Date: 19960422
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: distortion! by neo negro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9605-nn-dst1
 
 Write-Host '
         [1m▄[0;1;33m▄▄[0;35m▄[0m          [37m░[0m                                     [1;33m░░[0m

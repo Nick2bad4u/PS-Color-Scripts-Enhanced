@@ -1,18 +1,4 @@
-﻿# Converted from: A&4-NAMI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper05/raw/A%264-NAMI.ANS
-# Source Revision: archive-sha256:33fac09b0787230492798535c47bf2642ecf35522de5af17dfe59b662d1606a6
-# Source SHA-256: 777cb61cd824f3b05bf59f373d3e6b6c30d664e6249043db285f3b1bec1f38c1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: A&4-NAMI.ANS by Arrogance + Aesthetic (the jasper project); released in jasper05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: namistai bbs
-# SAUCE Author: arrogance/aesthetic
-# SAUCE Group: the jasper project
-# SAUCE Date: 20020410
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: namistai bbs by Arrogance + Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper05-a-4-nami
 
 Write-Host '
 [1m  [0;1;31m░░[0m     ░░░[31m   [0m            [1;31m░░[0m   [31m▬[0m            [36m [0;37m [0;1;31m░░[0m                            [31m░[0m

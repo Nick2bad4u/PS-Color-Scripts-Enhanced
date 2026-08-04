@@ -1,18 +1,4 @@
-﻿# Converted from: D1_LURE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-02/raw/D1_LURE1.ANS
-# Source Revision: archive-sha256:bb8ce420598b36a52d4f9cba3bdfbad44af088efeb11a778f52d121622116149
-# Source SHA-256: ea2e02eadec32102b1400973e4afe6715eaf8e20cf698f0bc4686307b14e1627
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D1_LURE1.ANS by Dissonance (Hieroglyphics); released in hiero-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Lure
-# SAUCE Author: Dissonance
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20000721
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Lure by Dissonance | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-02-d1-lure1
 
 Write-Host '
                 [1;30m▄▄[0m [1;30m▀▄▄[0m [1;33m [0m   [31;46m▄[0;1;30;40m▄[0m   [33m [0m         [33m [0m                  [1;30m▀▄███▄[0m

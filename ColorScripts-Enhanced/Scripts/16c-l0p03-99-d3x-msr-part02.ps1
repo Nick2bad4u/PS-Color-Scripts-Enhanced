@@ -1,18 +1,4 @@
-﻿# Converted from: D3X_MSR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p03_99/raw/D3X_MSR.ANS
-# Source Revision: archive-sha256:c178c224bcee2a65dbc4c7dd9ad93324e20cceb3dbdfecb82089701d5d57e410
-# Source SHA-256: 2c0a9312cb3fe08ac18a5e14830d98aa5992f3439a4576fbaf11022c5969f971
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D3X_MSR.ANS by Dexter + Simonking (bLOW#9, tHElo0p); released in l0p03_99 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: mEASURE competition
-# SAUCE Author: dEXTER, sIMONkING
-# SAUCE Group: bLOW#9, tHElo0p
-# SAUCE Date: 19990709
-# SAUCE Dimensions: 80x54
-# Lines: 28-54
-# Columns: 1-80
+﻿# Artwork: mEASURE competition by Dexter + Simonking | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p03-99-d3x-msr-part02
 
 Write-Host '
 [33m▄[0;1;33;43m▄▄[0;33m█▌ █[0;1;31;43m██████▀▀▀▀▀▀████[0;1;31;47m▓▓▓▓▓[0;1;31;43m█████[0m██[1;31;43m███▄[0;33m▄▀[0;1;33;43m▐█▄[0;33m▄ ▀█[0;1;37m█[0;1;33;43m▌[0;33m▀[0;1;30m░[0m

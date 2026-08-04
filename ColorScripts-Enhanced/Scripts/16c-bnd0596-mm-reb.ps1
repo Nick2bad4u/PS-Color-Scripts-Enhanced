@@ -1,13 +1,4 @@
-﻿# Converted from: MM-REB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bnd0596/raw/MM-REB.ANS
-# Source Revision: archive-sha256:090904c20bfa27fd240bfe521ea76cc51377ae2438ade44ded8c0dd43a7d08b5
-# Source SHA-256: 7ee9b8d51890f65d89a4a4683d761e83213213862649c2fbce99802f671d04a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-REB.ANS by Mirror Man (bnd0596); released in bnd0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: MM-REB.ANS by Mirror Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bnd0596-mm-reb
 
 Write-Host '
                [33m▄[0;1;33m▄▄[0;1;33;43m▄[0;1;33;40m████▄▄▄[0m

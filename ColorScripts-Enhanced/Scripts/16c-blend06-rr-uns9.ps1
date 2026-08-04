@@ -1,18 +1,4 @@
-﻿# Converted from: RR-UNS9.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend06/raw/RR-UNS9.ANS
-# Source Revision: archive-sha256:bdb12df6fb66b6e7f7ab1240c15e9b23d66b94ced69828c85c717709162a24eb
-# Source SHA-256: 34a658cf1a016add1626343f4c200573b1b6ddc8a9eddfc2feac9b8dbc30c2cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RR-UNS9.ANS by riddler (blend productions); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: loginscreen 4 my board
-# SAUCE Author: riddler
-# SAUCE Group: blend productions
-# SAUCE Date: 19970125
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: loginscreen 4 my board by riddler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend06-rr-uns9
 
 Write-Host '
 [34m                 [0;1;34m [0m [34m▀[0;37m  [0;34m▄[0;37m [0;34m▄[0m

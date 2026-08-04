@@ -1,18 +1,4 @@
-﻿# Converted from: ZO-TLST2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9601/raw/ZO-TLST2.ANS
-# Source Revision: archive-sha256:7aa9123f877021b71fa63f38de012fc68287c00ecd76f3a2105e748660eee14f
-# Source SHA-256: c761a8f78b1372a08329b9dfedc49d97b1183147dd954f30567bd8a95ccc1cac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZO-TLST2.ANS by zork (blade productions); released in blde9601 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the legacy stat screen
-# SAUCE Author: zork
-# SAUCE Group: blade productions
-# SAUCE Date: 19951124
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: the legacy stat screen by zork | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9601-zo-tlst2
 
 Write-Host '
 [32m■▀▀         [0m                          [32m▀▀▄[0;37m [0;1;30m▀[0;1;30;46m█[0;1;30;40m▓[0;1;30;46m▄ [0;36m▓▓▀▀[0;1;30;46m ░░    [0;36m▓▓▀░▀[0;1;30;46m      [0;36m▀[0;1;30;46m       ░░[0m

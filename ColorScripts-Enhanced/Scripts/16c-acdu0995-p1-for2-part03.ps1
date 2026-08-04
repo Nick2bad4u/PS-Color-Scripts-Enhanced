@@ -1,18 +1,4 @@
-﻿# Converted from: P1-FOR2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0995/raw/P1-FOR2.ANS
-# Source Revision: archive-sha256:33564e3b7dba06eac1f1e36dcc176b1f8d29f8167c2e77227197ff7bea5344f2
-# Source SHA-256: 5fe7ea2611b44170675e0be62d8b834a1c8d8af8b3db4e6ad38c5ab2f40d55b4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P1-FOR2.ANS by prisonernumberone (ACiD Productions); released in acdu0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Forsaken
-# SAUCE Author: prisonernumberone
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950901
-# SAUCE Dimensions: 80x188
-# Lines: 99-143
-# Columns: 1-80
+﻿# Artwork: The Forsaken by prisonernumberone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0995-p1-for2-part03
 
 Write-Host '
 [37m█▀[0m [33m▓[0;37m▄[0;33m▄[0;33;47m░[0;1;37;47m▀[0m█[1;47m▓▀▓[0m████[1;47m▒[0m▌▄■▐▓ [33m▓[0m         [1;37m▐[0m      [1;37m▐[0m            ▀   [33m▓[0;37m▀▄[0;1;37;47m [0m [1m [0m      [33m░[0m   [33m▀▄[0m [33m■▄[0m

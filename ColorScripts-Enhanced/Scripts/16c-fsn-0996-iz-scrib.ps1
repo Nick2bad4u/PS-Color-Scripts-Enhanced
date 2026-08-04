@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-SCRIB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0996/raw/IZ-SCRIB.ANS
-# Source Revision: archive-sha256:707c5fe12f8b115f37bf0df62a8bbf61a1e95140c1ed59c95af84379ad4a0dbe
-# Source SHA-256: 1e41d5f613ec3a573bbe5219a89f853972bdb1db64267612164e987a6ef07a2b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-SCRIB.ANS by ize (fusion); released in fsn-0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: scribe
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19960921
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: scribe by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0996-iz-scrib
 
 Write-Host '
 

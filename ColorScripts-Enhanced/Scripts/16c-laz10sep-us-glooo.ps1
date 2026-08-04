@@ -1,18 +1,4 @@
-﻿# Converted from: US-GLOOO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz10sep/raw/US-GLOOO.ANS
-# Source Revision: archive-sha256:4ab640a5762659d8c89d1d4c7a47f2c8ebad1c9e802d4965d8fdc943ea824060
-# Source SHA-256: 25d95a0919bc495888a4e44ff6d6f2e3b6a3bdbb1082beeb3c8ee32b1a4b772c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GLOOO.ANS by Grind King + Spear + Tricolore + Catch 22 (lazarus); released in laz10sep and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: GLUE!@#
-# SAUCE Author: multiple artists
-# SAUCE Group: lazarus
-# SAUCE Date: 19970910
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: GLUE!@# by Grind King + Spear + Tricolore + Catch 22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz10sep-us-glooo
 
 Write-Host '
 [1;47m▓███████[0;1;40m▓[0;1;47m [0;30;47m░[0;37;40m░[0;30;47m▓[0;37;40m ▀▀[0;1;37;47m▀▀[0;1;37;40m▀[0m▀▌░[30;47m▓[0m                         [37;40m▀[0;1;37;47m ▀▀▀[0;1;37;40m████[0;1;37;47m█▀▀ [0m▀█[1;47m▄▄[0m▄      [1m░[0m█[1;47m░█[0;1;40m██[0;1;47m█[0;1;37;47m▓[0m

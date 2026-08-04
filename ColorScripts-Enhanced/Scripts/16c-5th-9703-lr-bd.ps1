@@ -1,18 +1,4 @@
-﻿# Converted from: LR!-BD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/5th-9703/raw/LR!-BD.ANS
-# Source Revision: archive-sha256:fffb2c785ea5bb00b22bc525df88c9cca2a7e3ac70af213df8cc76a82e190c3a
-# Source SHA-256: 68773240ac33d3797685fb7c1adff00171a7e1fa01ab9494cc448244dfd120d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LR!-BD.ANS by late riser ((the 5th..)); released in 5th-9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: brain damage logo
-# SAUCE Author: late riser
-# SAUCE Group: (the 5th..)
-# SAUCE Date: 19970620
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: brain damage logo by late riser | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-5th-9703-lr-bd
 
 Write-Host '
 [31m   [0;35m,''"^"`.[0;31m:''[0;35m    [0m

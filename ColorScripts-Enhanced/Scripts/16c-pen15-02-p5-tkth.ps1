@@ -1,17 +1,4 @@
-﻿# Converted from: P5-TKTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pen15-02/raw/P5-TKTH.ANS
-# Source Revision: archive-sha256:c45faac655b2350900a9acb8b35a0ed4568af78fa28eaab050d211446248758a
-# Source SHA-256: 350dd7410e72e943733c8b5d5b7df084562222604e42ba89475bc14c7e4db9b3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P5-TKTH.ANS by prosthesis (pen15 art); released in pen15-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: prosthesis
-# SAUCE Group: pen15 art
-# SAUCE Date: 19970831
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: P5-TKTH.ANS by prosthesis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pen15-02-p5-tkth
 
 Write-Host '
                                            [1;30m░░[0m

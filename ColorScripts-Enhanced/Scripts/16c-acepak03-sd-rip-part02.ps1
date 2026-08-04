@@ -1,13 +1,4 @@
-﻿# Converted from: SD-RIP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acepak03/raw/SD-RIP.ANS
-# Source Revision: archive-sha256:71f78f593817a36727e411dee91071ce24dbde3a62d521b9c6d47c19e804a8d7
-# Source SHA-256: a31a69b7325f0a42233304a17300719e16718b8ea3ae71fabe7fe0694648b1af
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-RIP.ANS by Sudden Death (acepak03); released in acepak03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 49-92
-# Columns: 1-80
+﻿# Artwork: SD-RIP.ANS by Sudden Death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acepak03-sd-rip-part02
 
 Write-Host '
                  [1;30m▄▀[0;1;37m▄▄████▀▀▌ [0;31m██▄[0m       [1;30m▐ [0;1;37m▄██▄[0m            [1;37m▐▀████▄[0m

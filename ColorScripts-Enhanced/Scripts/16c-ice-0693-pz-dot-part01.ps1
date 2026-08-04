@@ -1,13 +1,4 @@
-﻿# Converted from: PZ-DOT.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-0693/raw/PZ-DOT.ICE
-# Source Revision: archive-sha256:b784bcbc98d8305f30bf1b6bca15accd20e1e43509d6c036a50e2b6ce86a3e93
-# Source SHA-256: d564df5681f772a7ad9c435d558e5450305973115ac05787f793eae32a4610f4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PZ-DOT.ICE by Pizza (ice-0693); released in ice-0693 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: PZ-DOT.ICE by Pizza | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-0693-pz-dot-part01
 
 Write-Host '
                                 [32m▄▄▄[0;1;32;42m▒▒▓▓▒▒▒ [0;1;30;42m░░░▒▒[0;32m▄[0;1;30m▄▄[0m

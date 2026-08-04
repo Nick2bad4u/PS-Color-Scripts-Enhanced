@@ -1,19 +1,4 @@
-﻿# Converted from: bw_ENZOKNIGHT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_acid_trip/raw/bw_ENZOKNIGHT.ANS
-# Source Revision: archive-sha256:c0717ff5cb7d462ed7fa9a55edd7235adbd3f09e01132486021497c9281171b6
-# Source SHA-256: b23da0dfd17ba5d165e4d45dd0c9e7bfcdba0eaa1386a092df89b7e3e085119c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bw_ENZOKNIGHT.ANS by binary walker (blocktronics); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: enzO Knight
-# SAUCE Author: binary walker
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x122
-# SAUCE Font: IBM VGA
-# Lines: 83-122
-# Columns: 1-80
+﻿# Artwork: enzO Knight by binary walker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-acid-trip-bw-enzoknight-part03
 
 Write-Host '
 [1;30m███████▓▀[0;35m [0;36m▄██[0;1;36;46m░░▒▓▓▓▓██▀[0;36m▀   ▄[0;1;36;46m██▀█▌[0;1;36;40m [0;1;30;40m░[0;1;36;40m [0;36m█[0;1;36;46m▒▒[0;36m▌ █[0;1;36;46m▓▓[0;1;36;40m [0;36m▀▀    [0;1;36;46m▄█▌[0;1;36;40m  [0;31m█[0;1;31m██[0;1;31;41m▒[0;31m▌  ▀▄[0;32m▄ ▄▄[0;37m       [0;1;30m▀▀▀█[0m

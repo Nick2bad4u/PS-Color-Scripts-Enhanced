@@ -1,18 +1,4 @@
-﻿# Converted from: TR-PST2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pst-02/raw/TR-PST2.ANS
-# Source Revision: archive-sha256:c06bf63142fd5a3f0f0d963ec3d47ae1a48131ca67fbda73aeeb1c0250d9a0a8
-# Source SHA-256: 2f92a5d9e57f2c0ad7b4a6dd5ad1a7172052d52907a391bad3e9fcc39e0f3b1f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-PST2.ANS by Trippah (polyester); released in pst-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: guest ansi #2
-# SAUCE Author: Trippah
-# SAUCE Group: polyester
-# SAUCE Date: 19971217
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: guest ansi #2 by Trippah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pst-02-tr-pst2
 
 Write-Host '
                 [1;36m▄▄[0;1;37m▄▄▄▄[0m                                           [36m▄▄[0;1;36m▄[0;1;37m▌▄▄[0;1;36m▄[0m

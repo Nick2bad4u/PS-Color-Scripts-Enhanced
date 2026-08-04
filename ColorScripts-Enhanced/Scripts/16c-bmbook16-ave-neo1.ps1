@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-NEO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook16/raw/AVE-NEO1.ANS
-# Source Revision: archive-sha256:d1aa8631ff79ee4b09bd71933b409432473cd10141d9251920b316e16f81ad22
-# Source SHA-256: 2db0024d1dba28a234bb026b962a834ef8ac2b253b0835ee64349ad77ecbaf73
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-NEO1.ANS by avenger (black maiden); released in bmbook16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: neospor1n
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19980215
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: neospor1n by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook16-ave-neo1
 
 Write-Host '
                   ░░░

@@ -1,18 +1,4 @@
-﻿# Converted from: ZS-JASP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper04/raw/ZS-JASP.ANS
-# Source Revision: archive-sha256:80df5b962e79c7e1df6d776b244f2783526ab7713c133db68d5f1c8d518678b1
-# Source SHA-256: 2cbe3ef6af623dace5a8d396f07dde2dd938d812c1a96e406510898c0f04ebf0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZS-JASP.ANS by zerostar (jasper); released in jasper04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: jasper promo
-# SAUCE Author: zerostar
-# SAUCE Group: jasper
-# SAUCE Date: 20020317
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: jasper promo by zerostar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper04-zs-jasp
 
 Write-Host '
 

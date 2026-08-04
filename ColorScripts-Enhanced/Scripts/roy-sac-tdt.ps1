@@ -1,13 +1,4 @@
-﻿# Converted from: ROY-TDT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0998b/raw/ROY-TDT.ANS
-# Source Revision: archive-sha256:19c53dfc47387efbbd82613dca5be9c93436f5cc68bae78cca35e6d1a766cbaa
-# Source SHA-256: 1439e06a8a0f3e69309e54d12f107e3bb19593bab6e0eeeead5ec8e6dda9310f
-# Source License: FAL-1.3
-# Source Attribution: ROY-TDT.ANS by Roy/SAC aka Carsten Cumbrowski; released in sac0998b and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: ROY-TDT.ANS by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-tdt
 
 Write-Host '
 

@@ -1,17 +1,4 @@
-﻿# Converted from: Cg-ais.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-02/raw/Cg-ais.ans
-# Source Revision: archive-sha256:21302c91644277d9117a9a1fcab004f6fa76d5a90d6a4926e513a24dd5b73cd5
-# Source SHA-256: a763798480e184f61e22934022840da14bee0dcc72e3c5d349f9507e2d124b1f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Cg-ais.ans by Cryogenic (used-02); released in used-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: AIS
-# SAUCE Author: Cryogenic
-# SAUCE Date: 19991216
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: AIS by Cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-02-cg-ais
 
 Write-Host '
            [34m▄[0;1;34;44m▄▄[0;1;34;40m▄▄▄[0;34m▄░[0;30;44m▓[0;34;40m░[0;30;44m▓[0;37;40m  [0;34;40m▀[0;37;40m   [0;34;40m▄▄[0;37;40m [0m    [34;40m▄[0;1;34;40m▄▄[0;1;34;44m▄█▄[0;34m▄[0m   [34m▄[0;1;34;44m▄[0;1;34;47m▀[0;1;37;44m▒░[0;1;34;44m▄[0;1;34;40m▄▄[0;34m▄[0;37m [0;34m▄█▄[0m   [34m▄[0;1;34m▄[0;34m▄[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: Smp-tn.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tus-03/raw/Smp-tn.ans
-# Source Revision: archive-sha256:54111bb04366067e49320efd843b9a0405c83ed9c15477fc6c9d7f5df65e2669
-# Source SHA-256: 1628701830bce9f3c8f5855aef1c5cb495c8c01f0c5f4d335d44edc1b51ee813
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Smp-tn.ans by Shrimp (Foliage); released in tus-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: Shrimp
-# SAUCE Group: Foliage
-# SAUCE Date: 20011002
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Smp-tn.ans by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tus-03-smp-tn
 
 Write-Host '
 [36m$│*ⁿ`[0m              [35m~"┘/$│$$[0;1;35mll$$$$$$$$$$$$$$l[0;35m$b.[0;36m   `?$$$[0;1;36ml$$$$$$$$$$$$l[0;36m$$$[0;1;36mll$$$$[0;36m$$[0m

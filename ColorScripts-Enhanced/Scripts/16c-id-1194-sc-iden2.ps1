@@ -1,18 +1,4 @@
-﻿# Converted from: SC-IDEN2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/archive/1994/id-1194.zip
-# Source Revision: archive-sha256:e4287e2f7c251cb296d97cfef2d3a7cb7be107b4159284bac2c6b0e68634a939
-# Source SHA-256: c858afd0b2bff19370e21f98770cf68541991b19a97df109c40841ae78348d70
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-IDEN2.ANS by Satan Claus (iDENTiTY); released in id-1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, scaling, or background-space stripping; split only into contiguous source-row ranges at manually reviewed composition boundaries when required.
-# SAUCE Title: iDENTiTY Logo
-# SAUCE Author: Satan Claus
-# SAUCE Group: iDENTiTY
-# SAUCE Date: 19941018
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: iDENTiTY Logo by Satan Claus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-id-1194-sc-iden2
 
 Write-Host '
 ▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄▄▄

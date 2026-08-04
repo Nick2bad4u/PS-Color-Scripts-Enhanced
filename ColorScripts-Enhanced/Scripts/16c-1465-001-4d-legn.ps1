@@ -1,13 +1,4 @@
-﻿# Converted from: 4d-legn.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1465-001/raw/4d-legn.ans
-# Source Revision: archive-sha256:0c63c049ba222ff6b20f73e49a7aa227dfdc1f2abd0fc9823b88e8d25342c3a7
-# Source SHA-256: 5a59349b748c854a1aaccea1a53d6716c1fb24733f2a9f12446b5aaac12f64fd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 4d-legn.ans by Access Denied (1465-001); released in 1465-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: 4d-legn.ans by Access Denied | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1465-001-4d-legn
 
 Write-Host '
 [1;34;44m▄▄[0;34m▄ ░░░░░ [0;1;34m [0;34m▄█████[0;1;34m [0;34m▄[0;1;34m [0;34m▄  ███[0;1;34;44m█[0;1;34;40m▓▓▓ ▒▒ ▓▓▓▓▓▓▓[0;1;34;44m██▄[0;1;34;40m [0;34m▄▄  ░░░░░░░ ▄[0;1;34;44m ▄█[0;1;34;40m ▒▒ ▓▓▓▓█[0;1;34;44m█▄    [0;1;34;40m [0;1;34;44m▄[0;1;34;40m█[0m

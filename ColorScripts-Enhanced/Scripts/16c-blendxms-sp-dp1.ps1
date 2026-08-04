@@ -1,18 +1,4 @@
-﻿# Converted from: SP-DP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blendxms/raw/SP-DP1.ANS
-# Source Revision: archive-sha256:1539692350814531ceec0f95558508df1809c483c52a4b6f3f02993299b5fe16
-# Source SHA-256: 4792fd617ceda529eb1787ce671ef070882028e2caa08bb4363bd65ba28e59a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SP-DP1.ANS by spear (blend); released in blendxms and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: deadpig
-# SAUCE Author: spear
-# SAUCE Group: blend
-# SAUCE Date: 19961223
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: deadpig by spear | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blendxms-sp-dp1
 
 Write-Host '
 

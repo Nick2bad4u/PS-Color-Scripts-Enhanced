@@ -1,18 +1,4 @@
-﻿# Converted from: PRSNALMA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak3/raw/PRSNALMA.ANS
-# Source Revision: archive-sha256:cde4af7e840865f437fedba26bbfb806e858a9b477c723c01bd9d080434c75bd
-# Source SHA-256: 9b4f188dcab70f7f7eeab43633910c296139e4abe034a2960238ba6c0fe18e33
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PRSNALMA.ANS by President + Snowball (ecolove); released in ecl-pak3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: allura main menu
-# SAUCE Author: president & snowball
-# SAUCE Group: ecolove
-# SAUCE Date: 19980104
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: allura main menu by President + Snowball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak3-prsnalma
 
 Write-Host '
                  [34m  [0;1;34m▄[0;1;34;44m░[0;34m▀[0;1;34m■[0;34m▄▄[0;1;34;44m░░[0;34m▄▄[0;1;34;44m■▄▄[0;34m█▄▄   [0m                  [31m     [0m

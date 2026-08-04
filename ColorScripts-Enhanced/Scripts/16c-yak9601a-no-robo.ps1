@@ -1,18 +1,4 @@
-﻿# Converted from: NO-ROBO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/yak9601a/raw/NO-ROBO.ANS
-# Source Revision: archive-sha256:0ef47e6c5957fc02130eec9688203a874e59abb766f403c5192fe56bd23b5e1f
-# Source SHA-256: 3d8fc4535cca2a7291291797bf452b18357904d5b9f02af4cea64c84e7871c73
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NO-ROBO.ANS by not opus (yak); released in yak9601a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: robotech #1
-# SAUCE Author: not opus
-# SAUCE Group: yak
-# SAUCE Date: 19960123
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: robotech #1 by not opus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-yak9601a-no-robo
 
 Write-Host '
  [35m█[0;1;32;45m▄▄▄▄▄▄▄▄▄▄[0;35m▄[0;37m  [0;35m ▄▄[0;1;32;45m▄▄▄▄▄▄▄▄▄[0;35m█[0;37m [0;35m [0;37m  [0;1;30m  [0m    [33m ▄[0;1;30m█[0;1;30;43m▄[0;33m▄ [0;37m    [0;1;30m [0m

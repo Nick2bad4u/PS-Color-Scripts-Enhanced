@@ -1,18 +1,4 @@
-﻿# Converted from: RP-PREV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pst-04/raw/RP-PREV.ANS
-# Source Revision: archive-sha256:f6efaa91b271a597917b36d55f7ff3e2a4848f36d9f7d6bc0f43e631f99045c0
-# Source SHA-256: b287a85f76e37640b5f17ecc58dd867a2898d68642d072f0e4b4eb7346df1dea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RP-PREV.ANS by rippa (polyester); released in pst-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: revolution
-# SAUCE Author: rippa
-# SAUCE Group: polyester
-# SAUCE Date: 19980628
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: revolution by rippa | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pst-04-rp-prev
 
 Write-Host '
 [1;30m[0;36m[0;1;36m[0;36m[0;1;30m[0m                                     [1;33m [0;1;36m  [0;1;30m [0m

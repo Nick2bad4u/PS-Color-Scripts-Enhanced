@@ -1,17 +1,4 @@
-﻿# Converted from: NOH-FMAI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0997/raw/NOH-FMAI.ANS
-# Source Revision: archive-sha256:d6ce507ee095ab9c7ce1d91178b57bff0c61babde42a3957415461a430e18407
-# Source SHA-256: f692defa4f235b5fa2840ee685253e0b913277f31aaf351d32358d968fa3f1ed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-FMAI.ANS by /nOah? (plf-0997); released in plf-0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: FREE:  main  :FREE
-# SAUCE Author: /nOah?
-# SAUCE Date: 19970922
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: FREE: main :FREE by /nOah? | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0997-noh-fmai
 
 Write-Host '
                         [35m▄▄▄▄▄▄▄▄▄[0m

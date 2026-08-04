@@ -1,19 +1,4 @@
-﻿# Converted from: PIZZATOE-JACKEY-PUMPKIN_DUKE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1024/raw/PIZZATOE-JACKEY-PUMPKIN_DUKE.ANS
-# Source Revision: archive-sha256:6949840195965f5eb9696cfb423e381432d7ccfa36b66290e336e4608b7c12f8
-# Source SHA-256: 8715b8feeb48c48251735331206461f3ef620856f2b629efc6013c1da7a6f744
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PIZZATOE-JACKEY-PUMPKIN_DUKE.ANS by Jackey (Pizzatoe); released in mist1024 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Pumpkin duke
-# SAUCE Author: Jackey
-# SAUCE Group: Pizzatoe
-# SAUCE Date: 20241026
-# SAUCE Dimensions: 96x48
-# SAUCE Font: IBM VGA
-# Lines: 1-48
-# Columns: 1-96
+﻿# Artwork: Pumpkin duke by Jackey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1024-pizzatoe-jackey-pumpkin-duke
 
 Write-Host '
 

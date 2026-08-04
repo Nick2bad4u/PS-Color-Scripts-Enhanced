@@ -1,13 +1,4 @@
-﻿# Converted from: THING.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/death07/raw/THING.ANS
-# Source Revision: archive-sha256:19606a01eb52f423b3fb4cdf11b14f678edcc8b2dac3dd1ba40f8a216dd117d5
-# Source SHA-256: 7d293341fe6b16f9f47fb134a15830d090db3649c328acbdc5d32b34d6255f73
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: THING.ANS by Master (death07); released in death07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: THING.ANS by Master | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-death07-thing
 
 Write-Host '
                   [1;30m▐▌[0m                                        [1;30m▐▌[0m

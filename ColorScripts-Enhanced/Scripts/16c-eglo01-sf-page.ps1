@@ -1,18 +1,4 @@
-﻿# Converted from: SF-PAGE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eglo01/raw/SF-PAGE.ANS
-# Source Revision: archive-sha256:946b379c1627c6c0ce524ce16bdc1636c1614ddecdaaa61a3c3a875f18d94d0a
-# Source SHA-256: 2f07d01c44965f9bb9291d4db02669e3620dddfbdf10fc441afd8c3d43b19bf0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SF-PAGE.ANS by Shaft (Everglo); released in eglo01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: pager
-# SAUCE Author: Shaft
-# SAUCE Group: Everglo
-# SAUCE Date: 19970524
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: pager by Shaft | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eglo01-sf-page
 
 Write-Host '
                    [33m    ░[0;30;43m▓[0;37;40m  [0;33;40m▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: US-FLAT.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9611a/raw/US-FLAT.ICE
-# Source Revision: archive-sha256:527ee850f561609baab7365c9f9f22dc966a04822d3f266d09600ed8b3eefb84
-# Source SHA-256: 03ee630e70e171d846a863f3f67ddab65384266e4bf5f939308634643cf73d04
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FLAT.ICE by Trip + Kadaver (ice9611a); released in ice9611a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: US-FLAT.ICE by Trip + Kadaver | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9611a-us-flat
 
 Write-Host '
   [31m░[0;37m  [0;31m░[0m   [31m░[0;37m [0;31m [0;37m [0;30;43m██▄[0;33;40m▓░▓[0;1;33;43m [0;33m▓░[0;30;43m█[0;33;40m▒▓[0;1;33;43m ░[0;30;43m▄▄█▀▀▀[0;1;33;43m░[0;30;43m [0;1;33;43m░[0;33m▀▀[0;1;33m [0;30;43m▌[0;1;33;43m▒[0;30;43m▄[0;1;33;40m  [0;30;43m▄█▄▄▄▄[0;33;40m▓[0;30;43m▀▀[0;33;40m░▓▀▀▀[0;30;43m▄[0;33;40m▓[0;1;33;43m░▒░░[0;33m▀▀▀[0;1;33;43m▒░[0;30;43m [0;1;33;43m░[0;30;43m ▄[0;33;40m▓▀ [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: GK-DDL3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1096/raw/GK-DDL3.ANS
-# Source Revision: archive-sha256:0aef116e4290fa41749730625329f38610014fc9d720313823330534bc5bca90
-# Source SHA-256: 885fc259d14df1e040c3e863f0ff51101dc1d5c53d81ae9ea1c1dddadc1a5f30
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GK-DDL3.ANS by grindking (fire); released in fire1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Doodle 4 Interface
-# SAUCE Author: grindking
-# SAUCE Group: fire
-# SAUCE Date: 19961013
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Doodle 4 Interface by grindking | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1096-gk-ddl3
 
 Write-Host '
 [36m                     [0m       [37m [0;1;34;44m█[0;1;34;40m███▓▀▀ ▄█[0;33m [0;1;33;43m░[0;33m███[0;1;30;43m░[0;33m▌[0;37m [0;31m█[0;1;31;41m▄░ [0;31m▀▀[0;37m [0;33m▄▄[0;1;31m▄▄[0;33m▄▄[0;1;31m [0;31m▀[0;1;31;41m░▒█[0;1;31;47m▓[0;1;31;41m░[0;31m▌[0;1;34m▐████████[0;1;34;47m▓[0;1;34;40m▓ [0m

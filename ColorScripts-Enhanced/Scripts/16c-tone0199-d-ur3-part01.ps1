@@ -1,17 +1,4 @@
-﻿# Converted from: D-UR3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tone0199/raw/D-UR3.ANS
-# Source Revision: archive-sha256:cc68ea1eb33455f4fac3ad894e9449a738582c78ce2d942c658b2e45a01a80a9
-# Source SHA-256: 779e19af741bcee80b59c4b36ee210409789e402cece4573f5764d94493f6a1b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D-UR3.ANS by deathrai (tone); released in tone0199 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: urinal 3
-# SAUCE Author: deathrai
-# SAUCE Group: tone
-# SAUCE Font: empathy by skaboy
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: urinal 3 by deathrai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tone0199-d-ur3-part01
 
 Write-Host '
 [37;40m▀[0;1;37;40m▀▀[0;37;40m▀▀[0;1;37;40m▀▀▀[0;37;40m▀[0;1;37;40m▀[0;37;40m▀[0;1;37;40m▀[0;37;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;37;40m▀[0;37;40m▀▀▀[0;1;37;40m▀▀▀[0;37;40m▀▀[0;1;37;40m▀▀▀▀▀▀[0;37;40m▀[0;1;37;40m▀[0;37;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;37;40m▀▀[0m

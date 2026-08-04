@@ -1,18 +1,4 @@
-﻿# Converted from: ST-AZ3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9702/raw/ST-AZ3.ANS
-# Source Revision: archive-sha256:cd03f390ec36fabd758241a35ae8f920520cc0fb3bdb59ee0ae7c6dd1232d30b
-# Source SHA-256: fa6699e3c1591c366c17f08b362fd7aea244353f3c34eba4db33fd70b60e9d4e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-AZ3.ANS by splatt (blade productions); released in blde9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: azaroth!
-# SAUCE Author: splatt
-# SAUCE Group: blade productions
-# SAUCE Date: 19970203
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: azaroth! by splatt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9702-st-az3
 
 Write-Host '
 

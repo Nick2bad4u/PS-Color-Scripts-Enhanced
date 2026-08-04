@@ -1,18 +1,4 @@
-﻿# Converted from: CARC-TV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst-19/raw/CARC-TV.ANS
-# Source Revision: archive-sha256:38480cbb01973683b6bb179e82483ce3434180444dfcf5b811296224974846eb
-# Source SHA-256: 28fd9a7aeacc2b5544c3684d8187c042b6aaf2e628256498b44b1e0cb28738ee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CARC-TV.ANS by Putrid Carcass (twisted); released in twst-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: twview template
-# SAUCE Author: Putrid Carcass
-# SAUCE Group: twisted
-# SAUCE Date: 19980201
-# SAUCE Dimensions: 80x26
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: twview template by Putrid Carcass | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst-19-carc-tv
 
 Write-Host '
                   [1;30m▄▄▄[0m▄[1m▄[0;36m██[0;1;36m [0m          [32m [0m    [1;30m▄[0m  [31m▄[0;30;41m█[0;37;40m [0;31;40m▀[0m         [30;41m█[0;1;37;40m   [0;1;30;40m▄[0m

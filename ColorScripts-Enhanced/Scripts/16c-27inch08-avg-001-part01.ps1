@@ -1,13 +1,4 @@
-﻿# Converted from: avg-001.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch08/raw/avg-001.ans
-# Source Revision: archive-sha256:0b48bbc7b5f5330115fa074e1d04a4fecd4f968dda50aa5ddc10be2f9cdb0f62
-# Source SHA-256: f88b195ca26679f5d7a9e14f57716b4cca76a51dc0c73a66e2b3725a0d37ce6c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-001.ans by Avenging Angel (27inch08); released in 27inch08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: avg-001.ans by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch08-avg-001-part01
 
 Write-Host '
 

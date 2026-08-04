@@ -1,13 +1,4 @@
-﻿# Converted from: DEV-2AA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flange02/raw/DEV-2AA1.ANS
-# Source Revision: archive-sha256:c965ac567ce0e083c6c1b28e45db05aec0e6b06081d11a7ca72102fccb529670
-# Source SHA-256: 3c204c285d3e14317e54ebe630ef55df19776505a08f5bfc7873c7bb97c1917d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DEV-2AA1.ANS by Dev (flange02); released in flange02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: DEV-2AA1.ANS by Dev | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flange02-dev-2aa1
 
 Write-Host '
                                          [1;30m [0m

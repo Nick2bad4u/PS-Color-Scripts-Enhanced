@@ -1,13 +1,4 @@
-﻿# Converted from: cl!-67.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_space_invaders/raw/cl!-67.ans
-# Source Revision: archive-sha256:c8f02d48521b213dd146adf31869fd604c2af314eab4dd9a1f4528b39146b7a9
-# Source SHA-256: d80f3fff139435a5553926f52da34d7e7f8e9d231e9f3bd473a8bf5c3d5b3c43
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cl!-67.ans by Cleaner (blocktronics_space_invaders); released in blocktronics_space_invaders and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: cl!-67.ans by Cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-space-invaders-cl-67
 
 Write-Host '
                             [31m▄▄[0m

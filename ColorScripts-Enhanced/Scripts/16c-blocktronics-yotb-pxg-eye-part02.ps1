@@ -1,16 +1,4 @@
-﻿# Converted from: pxg-eye.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_yotb/raw/pxg-eye.ans
-# Source Revision: archive-sha256:f702f09f6116b5ac6fa523d36f54d796db6f44f880e4f1cd426d29a9fbda605e
-# Source SHA-256: 2762be3f104320a188a38072335ed3726300370ecffed1658dcc9fd42ad00b29
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: pxg-eye.ans by Pixel Goth (blocktronics_yotb); released in blocktronics_yotb and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 20150130
-# SAUCE Dimensions: 80x210
-# SAUCE Font: IBM VGA
-# Lines: 44-86
-# Columns: 1-80
+﻿# Artwork: pxg-eye.ans by Pixel Goth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-yotb-pxg-eye-part02
 
 Write-Host '
        [31m↓[0;1;31m↓[0;31m↓[0m                        [1;36m███████████[0m                        [31m↓[0;1;31m↓[0;31m↓[0m

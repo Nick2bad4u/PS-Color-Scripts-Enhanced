@@ -1,13 +1,4 @@
-﻿# Converted from: DES4#RAG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/btg-r3/raw/DES4%23RAG.ANS
-# Source Revision: raw-sha256:55a62547d2bfe8d825a9e10dbe960e996e4398587142f44b31937fe82d2e2248
-# Source SHA-256: 55a62547d2bfe8d825a9e10dbe960e996e4398587142f44b31937fe82d2e2248
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DES4#RAG.ANS by Rage (btg-r3); released in btg-r3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 34-63
-# Columns: 1-80
+﻿# Artwork: DES4#RAG.ANS by Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-btg-r3-des4-rag-part02
 
 Write-Host '
 [30m█████ [0;1;34;44m░[0;30m█ [0;34m█[0;1;34;44m░░▒▒▒▓▓▒▒▓▓[0m [34m█▓▒░ ░█  ░██[0m     [1;31m███████  [0;34m██[0;1;34;44m▓▓▓▒▒▒▒▓▓▓[0;1;34;40m▄▄▄▄▄▄▄[0;34m▓▓▓[0;34;44m [0;1;34;44m█[0;30m███████[0m

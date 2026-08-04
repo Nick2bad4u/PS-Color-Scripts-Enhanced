@@ -1,20 +1,4 @@
-﻿# Converted from: wa-getamoveon.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz13/raw/wa-getamoveon.ans
-# Source Revision: archive-sha256:0c2c63bd64664e02af0cf47cca1c746f6b942d60f66e98c86daa5feb695bcd8e
-# Source SHA-256: f2159432a7613de860a14cd3f7c2e007f99997cb2e10da929004c2dd67729a7b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-getamoveon.ans by warpus (LAZARUS); released in laz13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: RAZARO NO KUTSU
-# SAUCE Author: warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20210615
-# SAUCE Dimensions: 80x104
-# SAUCE Font: IBM VGA
-# SAUCE Comments: gET a mOVE oN
-# Lines: 71-104
-# Columns: 1-80
+﻿# Artwork: RAZARO NO KUTSU by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz13-wa-getamoveon-part03
 
 Write-Host '
 [1;30;40m█████████████████[0m [31m░░░▒▒[0;1;33m▄▄████████████████[0m [31m████████▀[0;1;33m ░▒▓▓▓▓▓▒[0m [33m██████▀▀[0;1;37m▄▀[0;1;30m█████████[0m

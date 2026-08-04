@@ -1,18 +1,4 @@
-﻿# Converted from: GUEST  1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/srg2vos/raw/GUEST%C2%A0%C2%A01.ANS
-# Source Revision: raw-sha256:4e0aa3d338b6abda5fef20c7a583535927c882a91cad8cf674409de13a9713ea
-# Source SHA-256: 4e0aa3d338b6abda5fef20c7a583535927c882a91cad8cf674409de13a9713ea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GUEST  1.ANS by trinity (shc); released in srg2vos and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: guest ansee
-# SAUCE Author: trinity
-# SAUCE Group: shc
-# SAUCE Date: 19961107
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: guest ansee by trinity | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-srg2vos-guest-1
 
 Write-Host '
                            [1;30m▄▀▀▄ ▀█▓█▄▄▀ ▀▄▄▀▀▀    ▀▀ ▀[0m     [1;30m▀ ▀▀▄    █[0m      [1;30m▄▄▄▄[0m

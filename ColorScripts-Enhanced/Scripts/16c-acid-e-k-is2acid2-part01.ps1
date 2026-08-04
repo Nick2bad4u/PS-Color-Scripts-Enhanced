@@ -1,13 +1,4 @@
-﻿# Converted from: IS2ACID2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acid_e-k/raw/IS2ACID2.ANS
-# Source Revision: archive-sha256:39f65f593445c52be7979397cf597377ab7883bc6e967f4cf6ca51c15e64aa37
-# Source SHA-256: 8730cc81c84dabe4e1003dcb36fd52235d7fa680c22daf9b0256ee95b4cc231e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IS2ACID2.ANS by Jed (acid_e-k); released in acid_e-k and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: IS2ACID2.ANS by Jed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acid-e-k-is2acid2-part01
 
 Write-Host '
                              [1;33m▄▄▄████▄▄▄   ▄▄    ▀▄[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: MOTH-HARVEST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1024/raw/MOTH-HARVEST.ANS
-# Source Revision: archive-sha256:6949840195965f5eb9696cfb423e381432d7ccfa36b66290e336e4608b7c12f8
-# Source SHA-256: c26dd7fddcb50a9e38afa7ef2d59275a90bfcfa0463cdf1b847646ac09fe55a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MOTH-HARVEST.ANS by Moth (Mistigris); released in mist1024 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Lavinraca's Harvest
-# SAUCE Author: Moth
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241027
-# SAUCE Dimensions: 80x125
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Lavinraca's Harvest by Moth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1024-moth-harvest-part01
 
 Write-Host '
     [1;32m▀[0m [1;32m▄▄[0;36m▄▄▄▄▄[0m

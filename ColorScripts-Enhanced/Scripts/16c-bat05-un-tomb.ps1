@@ -1,18 +1,4 @@
-﻿# Converted from: UN-TOMB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bat05/raw/UN-TOMB.ANS
-# Source Revision: archive-sha256:c1082e0417753715d0b89831e0230f9ac3baf3aab6c8a1f382615ebce2ab409a
-# Source SHA-256: 5d0184bcb27199019c2db6ee7540a1c17b62057dfdd0ca7deb47a44ad5ae2178
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UN-TOMB.ANS by [unhOly] (Bad Attitude); released in bat05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: tomb logo!!
-# SAUCE Author: [unhOly]
-# SAUCE Group: Bad Attitude
-# SAUCE Date: 19970116
-# SAUCE Dimensions: 80x14
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: tomb logo!! by [unhOly] | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bat05-un-tomb
 
 Write-Host '
 

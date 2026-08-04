@@ -1,20 +1,4 @@
-﻿# Converted from: CT-JON_KLASSEN-I_WANT_MY_HAT_BACK-I HAVE SEEN MY HAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0426/raw/CT-JON_KLASSEN-I_WANT_MY_HAT_BACK-I%20HAVE%20SEEN%20MY%20HAT.ANS
-# Source Revision: archive-sha256:c759ba228fb42808866da1267838a1ce2371215b87bc273c64f35f4bc653e77d
-# Source SHA-256: 1a6cf5dc8a275557cb8f4dc73afcc05e0cee5e859d55d395ecc12c4f22be1ed2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CT-JON_KLASSEN-I_WANT_MY_HAT_BACK-I HAVE SEEN MY HAT.ANS by Cthulu (Mistigris); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: I Want My Hat Back
-# SAUCE Author: Cthulu
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260425
-# SAUCE Dimensions: 80x60
-# SAUCE Font: IBM VGA
-# SAUCE Comments: From Candlewick Press' 2011 first edition of Jon Klassen's first | book.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: I Want My Hat Back by Cthulu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0426-ct-jon-klassen-i-want-my-hat-back-i-have-seen-my-hat-part01
 
 Write-Host '
 [31m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

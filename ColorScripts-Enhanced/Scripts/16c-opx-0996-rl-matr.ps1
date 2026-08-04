@@ -1,18 +1,4 @@
-﻿# Converted from: RL!-MATR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0996/raw/RL!-MATR.ANS
-# Source Revision: archive-sha256:9d2c16f2326b1b98168bc790edb6aadb0d52c5f6484964980e3ad8168b0cc77f
-# Source SHA-256: e8be5b86972451dd30c3712cdc1863a59b0c3a4ecefe75a578f35308e5dc609a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL!-MATR.ANS by rawlock (rl!) (opium); released in opx-0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: darkwood matrix
-# SAUCE Author: rawlock (rl!)
-# SAUCE Group: opium
-# SAUCE Date: 19960901
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: darkwood matrix by rawlock (rl!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0996-rl-matr
 
 Write-Host '
  ▄▄▄▄███▓[1;30;47m▄▄▄▄▄[0;1;30;40m▀▀[0m▀[1;30m▀▀▀▀[0m [1;30m▀[0m  [1;30m▀[0m      [1;30m ▀[0m [1;30m▀▀▀▀▀▀[0;1;30;47m▓▄[0m███▄▄ [31m▀[0;37m ▄▄█[0;1;30;47m░▄▄▄▓[0;1;30;40m▀▀▀ ▀▀  ▀▀▀[0;1;30;47m▄▄▄▄[0m██▄▄

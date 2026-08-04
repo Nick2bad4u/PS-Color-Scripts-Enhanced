@@ -1,18 +1,4 @@
-﻿# Converted from: DW-SIH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lap-0894/raw/DW-SIH.ANS
-# Source Revision: archive-sha256:b2a03b5c78be70014345dee66d7467be30e2aa99b3841f74540df8ffbe533d1c
-# Source SHA-256: 382d6c12c16ef9b3f109f5bded3f00cdf40a79373f6c53c145519ccd3dfaa3fc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DW-SIH.ANS by DeathWish (Lapse); released in lap-0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Souls in Hell
-# SAUCE Author: DeathWish
-# SAUCE Group: Lapse
-# SAUCE Date: 19940807
-# SAUCE Dimensions: 80x67
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Souls in Hell by DeathWish | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lap-0894-dw-sih-part01
 
 Write-Host '
    [34m▄▄█▒▒░░ [0;36m▄▀▀▀▄ [0;34m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ [0;36m▄▀▀▀▄ [0;34m░░▒▒█▄▄[0m

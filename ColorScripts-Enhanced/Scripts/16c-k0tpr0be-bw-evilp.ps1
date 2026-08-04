@@ -1,19 +1,4 @@
-﻿# Converted from: BW-EVILP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k0tpr0be/raw/BW-EVILP.ANS
-# Source Revision: archive-sha256:fcb0e37abcb9d171de6d5cc918649afa7e9c0f2f5173dba90a7d8c38f69cec3d
-# Source SHA-256: 45a7a63e0399d8f6d54a9e154e3bbeaa8811c822f38aaca61f00135e8293a9e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BW-EVILP.ANS by bonewood (sargahd); released in k0tpr0be and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: evil empire promo - evil is dead
-# SAUCE Author: bonewood
-# SAUCE Group: sargahd
-# SAUCE Date: 19960829
-# SAUCE Dimensions: 80x31
-# SAUCE Comments: rip evil.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: evil empire promo - evil is dead by bonewood | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k0tpr0be-bw-evilp
 
 Write-Host '
 [1;47m▒[0;1;40m▀[0m▀[1;30m▀ ▀    e[0m     [1;30mv[0m     i     [1ml[0m     [34ma[0m     [1;35mn[0m     [34ms[0m     [1;37mi[0m     d     [1;30mi  ▒  v   ▀ ▀[0m▀[1m▀[0;1;37;47m▒[0m

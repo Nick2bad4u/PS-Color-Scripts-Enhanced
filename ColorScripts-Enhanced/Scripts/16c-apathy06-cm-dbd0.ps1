@@ -1,18 +1,4 @@
-﻿# Converted from: CM-DBD0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy06/raw/CM-DBD0.ANS
-# Source Revision: archive-sha256:da68d928b75eacb21ef6bbd9cd632165def9238591f0378ec07f4b56faef6ea8
-# Source SHA-256: 83c4c44ae33232759b29853da9ff9bc86275563caf75a4e12778fd124d4ab434
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CM-DBD0.ANS by Carpet Monkey (READ THE INI FILE); released in apathy06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Dead by Daylight
-# SAUCE Author: Carpet Monkey
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19960109
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Dead by Daylight by Carpet Monkey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy06-cm-dbd0
 
 Write-Host '
 [1;30;44m▓▒░[0;34m█[0m [1;30m█▀▀[0m [34m▄▄▄[0m [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m [34m▄▄▄[0m [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m  [34m▄▄▄[0m [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m [34m█[0;1;30;44m░▒▓[0m

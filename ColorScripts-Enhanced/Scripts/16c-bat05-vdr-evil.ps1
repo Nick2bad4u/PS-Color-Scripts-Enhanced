@@ -1,18 +1,4 @@
-﻿# Converted from: VDR-EVIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bat05/raw/VDR-EVIL.ANS
-# Source Revision: archive-sha256:c1082e0417753715d0b89831e0230f9ac3baf3aab6c8a1f382615ebce2ab409a
-# Source SHA-256: 63d6951bf756ee8b6e351d2b072e1628ec5a93b5b3380369721f478ee2f1c17a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VDR-EVIL.ANS by Vader (bad attitude); released in bat05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: some evil soldier
-# SAUCE Author: Vader
-# SAUCE Group: bad attitude
-# SAUCE Date: 19970127
-# SAUCE Dimensions: 80x48
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: some evil soldier by Vader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bat05-vdr-evil
 
 Write-Host '
 [1;30m▄███████████████████████████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█████████████████████████████▄[0m

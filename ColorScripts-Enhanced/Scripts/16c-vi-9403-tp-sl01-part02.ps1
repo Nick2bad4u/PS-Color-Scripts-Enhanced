@@ -1,13 +1,4 @@
-﻿# Converted from: TP-SL01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vi-9403/raw/TP-SL01.ANS
-# Source Revision: raw-sha256:a0f1cc90f681d9f0e8c152cfc6c632ba44c781513a2d589a4294bd43ad377144
-# Source SHA-256: a0f1cc90f681d9f0e8c152cfc6c632ba44c781513a2d589a4294bd43ad377144
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TP-SL01.ANS by Terminal Psychosis (vi-9403); released in vi-9403 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 47-78
-# Columns: 1-80
+﻿# Artwork: TP-SL01.ANS by Terminal Psychosis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vi-9403-tp-sl01-part02
 
 Write-Host '
                                                         [32m▄[0;32;42m  [0;1;32;42m░▒▓████████[0;32m▀▀  ▀▀[0;1;32;42m░  [0m

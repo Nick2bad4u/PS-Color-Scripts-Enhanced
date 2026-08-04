@@ -1,18 +1,4 @@
-﻿# Converted from: ACNE06.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acne001/raw/ACNE06.ANS
-# Source Revision: archive-sha256:ff78f081f29dbf9348d2ba73d7de71fcb00f4abbe902d1234d35e7fb3c198d20
-# Source SHA-256: 5d8a5fdd8c0598a44e347e548a38cdb50b5ab42ab60afbb19ec4b17d694c1b8d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ACNE06.ANS by HOLYBONE (aCNE); released in acne001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: FiLeS MeNu 4 YouR BoaRD
-# SAUCE Author: HOLYBONE
-# SAUCE Group: aCNE
-# SAUCE Date: 19951113
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: FiLeS MeNu 4 YouR BoaRD by HOLYBONE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acne001-acne06
 
 Write-Host '
      [32m [0;37m    [0;34m▄██▄▄[0m    [37m         [0;34m▄█████▄[0;37m [0;34m▄██▀▄[0;37m   [0;32m▄[0;1;32;42m▄▄▄▄▄[0;32m▄[0m        [32m▄[0;1;32m▄▄▄▄[0;32m▄▄[0m   [37m           [0m

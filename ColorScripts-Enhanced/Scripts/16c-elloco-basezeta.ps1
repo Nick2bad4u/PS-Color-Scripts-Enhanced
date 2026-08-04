@@ -1,18 +1,4 @@
-﻿# Converted from: BASEZETA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/elloco/raw/BASEZETA.ANS
-# Source Revision: raw-sha256:68d11709a34ceea5f43b83b1fa46772277d9c24677da57a18b75192a199066b1
-# Source SHA-256: 68d11709a34ceea5f43b83b1fa46772277d9c24677da57a18b75192a199066b1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BASEZETA.ANS by El LoCo (NeveRLanD); released in elloco and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Base Zeta BBS
-# SAUCE Author: El LoCo
-# SAUCE Group: NeveRLanD
-# SAUCE Date: 19951224
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Base Zeta BBS by El LoCo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-elloco-basezeta
 
 Write-Host '
             [1;32m▄▄▄▄▄[0m

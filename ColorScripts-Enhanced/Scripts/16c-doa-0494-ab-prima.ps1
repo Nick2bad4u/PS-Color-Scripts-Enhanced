@@ -1,13 +1,4 @@
-﻿# Converted from: AB-PRIMA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/doa-0494/raw/AB-PRIMA.ANS
-# Source Revision: archive-sha256:9908dd5b5e7bb30f460296490cbe9e045fe85638c040fe74d770a98c459a5e3a
-# Source SHA-256: b7641dca1da5a3ce83151bc86ab0b368eadb0df514da3413f491073f029714ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AB-PRIMA.ANS by Anubis-Doa (doa-0494); released in doa-0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: AB-PRIMA.ANS by Anubis-Doa | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-doa-0494-ab-prima
 
 Write-Host '
 [47m                [0;40m██▓[0;47m                                       [0;40m▓▓[0;47m        [0;40m▓▓[0;47m      [0;40m██[0;36;40m██[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: CL!-NSC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph1097/raw/CL!-NSC.ANS
-# Source Revision: archive-sha256:b6e257eb8371584ca5ade8b8a0fc4c2ec6d13bf6072ac7a83b43c3c01e88e287
-# Source SHA-256: 2fd6b46d2d1a1487f92dc48693ad65cf4957ce7a5373015a64cfd316860efbda
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-NSC.ANS by CLeaNeR! (.%[nitrophusion]%.); released in nph1097 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: NSC... aNSi LoGo
-# SAUCE Author: CLeaNeR!
-# SAUCE Group: .%[nitrophusion]%.
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: NSC... aNSi LoGo by CLeaNeR! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph1097-cl-nsc
 
 Write-Host '
     [1;30m▄▄▄▄▄▄▄▄[0m      [1;30m▄▄▄▄▄▄  [0m [1;30m [0;36m [0;37m [0;1;30m  [0m [36m [0;37m [0;1;30m       [0m [36m [0;1;30m  [0;36m [0;37m [0;1;30m  [0m [36m [0;37m [0;1;30m [0m [36m [0;37m [0;1;30m [0;36m [0;37m [0;1;30m  [0m [36m [0;1;30m [0m [1;30m [0;36m [0;37m [0;1;30m [0;36m [0;1;30m  [0;36m [0;1;30m [0m [36m [0;1;30m [0m [1;30m [0m

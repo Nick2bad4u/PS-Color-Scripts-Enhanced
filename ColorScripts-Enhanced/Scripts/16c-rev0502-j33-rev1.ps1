@@ -1,18 +1,4 @@
-﻿# Converted from: J33-REV1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0502/raw/J33-REV1.ANS
-# Source Revision: archive-sha256:98bfa3cc78c733050b0c647e7e0271e7623e3c31e4f40f218a00b89b2165c771
-# Source SHA-256: 584b5c9c178864b39aa62816dfa2d7f90743ddd4fc6a2cb82153742611c460cb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: J33-REV1.ANS by j33p33 (REViVAL); released in rev0502 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: revival egyptian logo
-# SAUCE Author: j33p33
-# SAUCE Group: REViVAL
-# SAUCE Date: 20020424
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: revival egyptian logo by j33p33 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0502-j33-rev1
 
 Write-Host '
           [1;33m▀███▄[0m          [1;33;43m▓▒▒▓[0;33m░  [0m      [1;33m▄[0;1;33;43m████[0;1;33;40m▀[0m                        [33m  [0;1;33m▄[0;33m         [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MN-CM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-12/raw/MN-CM.ANS
-# Source Revision: archive-sha256:5c96c14e912296494a464a42e768321452d811693cf172945a9502eb4396c8bb
-# Source SHA-256: 871fdf1fb5fe5a512178fc93c544a46d5a0b708c3e6fce02924184b2a0bd54e5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MN-CM.ANS by Menace (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Castle of Majesta
-# SAUCE Author: Menace
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970926
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Castle of Majesta by Menace | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-12-mn-cm
 
 Write-Host '
 [1m[0m[1;33m[0m                                                                        [1;30m░░░[0m

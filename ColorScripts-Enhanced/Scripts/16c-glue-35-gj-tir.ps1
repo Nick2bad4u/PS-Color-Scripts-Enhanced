@@ -1,18 +1,4 @@
-﻿# Converted from: GJ-TIR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-35/raw/GJ-TIR.ANS
-# Source Revision: archive-sha256:bc92204ac679e4231b1db133abb983c42252574e71b83e8773e063911f5f3ee6
-# Source SHA-256: e92dd307f4c87c576afe526bca92b13f84b73bd7af849287c23ffe2ab0736a0d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GJ-TIR.ANS by grymmjack (gj!) (GLUE); released in glue-35 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: tir tairngire BBS
-# SAUCE Author: grymmjack (gj!)
-# SAUCE Group: GLUE
-# SAUCE Date: 20010325
-# SAUCE Dimensions: 80x20
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: tir tairngire BBS by grymmjack (gj!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-35-gj-tir
 
 Write-Host '
 

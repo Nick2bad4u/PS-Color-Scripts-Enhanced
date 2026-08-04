@@ -1,13 +1,4 @@
-﻿# Converted from: JET.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1990/raw/JET.ANS
-# Source Revision: archive-sha256:08ccf16537b7ec6a49d988d666ab246efafa48facbb3ef7beef1662a9cba1cc2
-# Source SHA-256: 845d2d921c5afc4d0e6207fc5a964f4b811effb43ddeb52348e0cac26cb4d6f8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JET.ANS by Michael C. Ling (1990); released in 1990 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: JET.ANS by Michael C. Ling | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1990-jet
 
 Write-Host '
 [30;44m┌────────────┐                                                                 [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: 67_Calendar_2020_05_May.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktr0nics30302020/raw/67_Calendar_2020_05_May.ans
-# Source Revision: archive-sha256:9a86a13b1ff7cef4b57ed39c1aca190028df54b44bffe10202b539bef3cd3dcc
-# Source SHA-256: 74ed537766880074c802f653c82af4f3cb8145893cd58c82d4162d2b0c00b07e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 67_Calendar_2020_05_May.ans by flith (blocktronics); released in blocktr0nics30302020 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: flith
-# SAUCE Group: blocktronics
-# SAUCE Date: 20191217
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: 67_Calendar_2020_05_May.ans by flith | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktr0nics30302020-67-calendar-2020-05-may
 
 Write-Host '
 [1;37;46m▌[0;36m█████████████████████████████████████████████████████████████▀▀[0;1;37m▄[0;36m ██████████████[0m

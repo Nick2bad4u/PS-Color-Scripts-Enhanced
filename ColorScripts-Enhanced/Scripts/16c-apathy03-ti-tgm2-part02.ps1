@@ -1,17 +1,4 @@
-﻿# Converted from: TI-TGM2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy03/raw/TI-TGM2.ANS
-# Source Revision: archive-sha256:a3a53ea79bcbcd57bc05c6d80b9369444063e81f9dc4053225ede5f60d209f4b
-# Source SHA-256: e60d686f62f3e0bfd67b81e7335ad062de9671b7eb6704459dddd869d5222326
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TI-TGM2.ANS by Trip (apathy03); released in apathy03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Global Market
-# SAUCE Author: Trip
-# SAUCE Date: 19951106
-# SAUCE Dimensions: 80x75
-# Lines: 50-74
-# Columns: 1-80
+﻿# Artwork: The Global Market by Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy03-ti-tgm2-part02
 
 Write-Host '
 [31m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0;1;36m[0;36m[0m[1;30m▄▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄[0m       [36m▄   [0;1;30m▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄   ▄▄▄▄▄▄▄  ▄▄   [0;36m▄[0m

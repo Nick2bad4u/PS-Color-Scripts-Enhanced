@@ -1,18 +1,4 @@
-﻿# Converted from: KN!BASS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak3/raw/KN!BASS.ANS
-# Source Revision: archive-sha256:cde4af7e840865f437fedba26bbfb806e858a9b477c723c01bd9d080434c75bd
-# Source SHA-256: 5d23095192b44b882cfba16161adc2909ce3c5c750fcf5e3ab13d983b6afb201
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KN!BASS.ANS by Kenetic <KN!> (Ecolove (guest)); released in ecl-pak3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: BaSS (multicode)
-# SAUCE Author: Kenetic <KN!>
-# SAUCE Group: Ecolove (guest)
-# SAUCE Date: 19980123
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: BaSS (multicode) by Kenetic <KN!> | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak3-kn-bass
 
 Write-Host '
 [1;31m[0;31m[0;37m[0;1;30m[0m[31m[0;1;30m[0;31m[0;1;31m[0;31m[0;1;31m[0;31m[0m[31m[0m[37m  [0;1;31m$$[0;31m$╓g%%g╖▬, [0m     [1;30m$[0;31m$$╓g[0;1;30m%[0;31m%g[0;1;31m╖▬,[0;31mS[0;1;31mP[0;31mⁿ[0;1;31m°"[0;31m°[0;1;30m²[0;31m    [0m    [1;30m.[0m

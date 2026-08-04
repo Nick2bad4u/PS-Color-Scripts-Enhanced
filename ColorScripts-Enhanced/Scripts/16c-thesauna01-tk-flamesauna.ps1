@@ -1,19 +1,4 @@
-﻿# Converted from: tk-flamesauna.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna01/raw/tk-flamesauna.ans
-# Source Revision: archive-sha256:70f712dbf565de1ceb0f2b7020b54aa443621235a47b082b92e24e13342b0672
-# Source SHA-256: 10d624435479afba12582334600d332075022d3c7420d35cf778ba6254dde075
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tk-flamesauna.ans by The Knight (Fuel); released in thesauna01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Flame Sauna
-# SAUCE Author: The Knight
-# SAUCE Group: Fuel
-# SAUCE Date: 20190914
-# SAUCE Dimensions: 80x27
-# SAUCE Font: IBM VGA
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Flame Sauna by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna01-tk-flamesauna
 
 Write-Host '
              [34;40m▄[0;1;34;40m▄▄▄[0;1;30;40m▄▄▄▄[0m

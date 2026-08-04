@@ -1,18 +1,4 @@
-﻿# Converted from: SF-MANGA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0597/raw/SF-MANGA.ANS
-# Source Revision: archive-sha256:d975415729673826f91e424c4e11b4c04f34184fd3a18803a91e92ec4aab5c0b
-# Source SHA-256: ae8f3ed97567d55be5ac7f0de03ce8124b1cdd910f3ca450e845381bdaaeae24
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SF-MANGA.ANS by shaft (fire); released in fire0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: login thingie
-# SAUCE Author: shaft
-# SAUCE Group: fire
-# SAUCE Date: 19970502
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: login thingie by shaft | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0597-sf-manga
 
 Write-Host '
                                   [1;31m [0m                           [36m [0m

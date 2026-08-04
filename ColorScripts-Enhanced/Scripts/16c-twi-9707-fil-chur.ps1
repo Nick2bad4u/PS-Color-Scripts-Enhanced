@@ -1,18 +1,4 @@
-﻿# Converted from: FIL-CHUR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twi-9707/raw/FIL-CHUR.ANS
-# Source Revision: archive-sha256:45f176586f3b4789bcbef0a4c75b2f85d21418108c7ec2a4ab268a104d12eb41
-# Source SHA-256: b8c8612bdcfaa76d141e017d4119395306d7639b0ea0d58251ffc59cfbfde769
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FIL-CHUR.ANS by filth (twilight); released in twi-9707 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: I am a queen
-# SAUCE Author: filth
-# SAUCE Group: twilight
-# SAUCE Date: 19970716
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: I am a queen by filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twi-9707-fil-chur
 
 Write-Host '
 [33m  █[0;1;31m ██ [0;33m▓▌ [0;31m░▒▓█[0;1;31m [0;31m▐[0;1;31;41m▒░▒▒▒░[0;31m█[0;1;31;41m░[0;31m██████[0;1;31;41m░░░▓▓[0;1;31;40m▀▀▀▀▀▀▀▀[0;1;31;41m▓█▒▓[0;31m▄[0;1;31m [0;33m▀▄█▀██▀▀▄▀██▄▀▀ ▀ ▀▌▓▀[0;1;30m ▓▓▓▒▓▒░░[0m

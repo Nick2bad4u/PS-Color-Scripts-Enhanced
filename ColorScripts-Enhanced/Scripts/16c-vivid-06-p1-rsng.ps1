@@ -1,13 +1,4 @@
-﻿# Converted from: P1-RSNG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vivid-06/raw/P1-RSNG.ANS
-# Source Revision: archive-sha256:eb7158285639fda51d38bef1d92b05e49135992ee44799a2cc8fc319da551b4f
-# Source SHA-256: d877efd5cc92244e6ef729bad5f473fb35410929281b71786737f27b8ed08680
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P1-RSNG.ANS by Paranormal Intensity (vivid-06); released in vivid-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: P1-RSNG.ANS by Paranormal Intensity | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vivid-06-p1-rsng
 
 Write-Host '
 [34m████████████▀▀▀█▀▀▀█▀[0;33m▄[0;1;33;43m▄▄[0;1;33;40m███▄[0;34m▀███▀▀▀█▀▀████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀██████████████████████▓[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: 5m-legends.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure80/raw/5m-legends.ans
-# Source Revision: archive-sha256:6ccade3320791158c22ef03d56ecb45d9c0b8545b126c0cb47ca0f6ff3905e48
-# Source SHA-256: a8d732bd481c1b42e08a5e58223d6bf6554221550ddfed042e5667d312cf5ed9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5m-legends.ans by 5mooth (iMPURE); released in impure80 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Textmode LEGENDS
-# SAUCE Author: 5mooth
-# SAUCE Group: iMPURE
-# SAUCE Date: 20210823
-# SAUCE Dimensions: 80x145
-# SAUCE Font: IBM VGA
-# Lines: 93-138
-# Columns: 1-80
+﻿# Artwork: Textmode LEGENDS by 5mooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure80-5m-legends-part03
 
 Write-Host '
            [1;35m%[0m        ▌    ▓▓███▄ ▐ ▓█[1;47m░▒▒[0m█ ▒▒      ▐  █[1;47m░░░░[0m█▌█             [1;35mx[0m

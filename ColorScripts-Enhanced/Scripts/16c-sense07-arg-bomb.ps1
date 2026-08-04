@@ -1,13 +1,4 @@
-﻿# Converted from: ARG-BOMB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense07/raw/ARG-BOMB.ANS
-# Source Revision: archive-sha256:bee7f118bb6315a9d497ecd226e485abc5e73e41d8cf666fe91e2b03665a3b3e
-# Source SHA-256: 34c6ac6adce3f50551a207351a5689289ed5e1c66e588aa1ffd40f242806ca39
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARG-BOMB.ANS by Argyle (sense07); released in sense07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: ARG-BOMB.ANS by Argyle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense07-arg-bomb
 
 Write-Host '
 

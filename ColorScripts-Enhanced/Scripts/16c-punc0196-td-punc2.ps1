@@ -1,18 +1,4 @@
-﻿# Converted from: TD-PUNC2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/punc0196/raw/TD-PUNC2.ANS
-# Source Revision: archive-sha256:a35818fffb6c79617d0157a999a2470fea16ca34611af1fb400b031e939baf43
-# Source SHA-256: 9b8deca45b42c5c41087f736d6e59ec93f0060f0d3ca81397fd4e3c01d22b2ed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TD-PUNC2.ANS by totally destroyed (PUNC Productions); released in punc0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: punc productions
-# SAUCE Author: totally destroyed
-# SAUCE Group: PUNC Productions
-# SAUCE Date: 19951219
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: punc productions by totally destroyed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-punc0196-td-punc2
 
 Write-Host '
 

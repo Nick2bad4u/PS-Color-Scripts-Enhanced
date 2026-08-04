@@ -1,20 +1,4 @@
-﻿# Converted from: US-SEXYLINUX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0822/raw/US-SEXYLINUX.ANS
-# Source Revision: archive-sha256:ed72a43421208b7431337d20b0e65cf1daa85d400f3cf90754e23de5d5edd83f
-# Source SHA-256: ab6527301d1e5ad720243ae030af2093c8285bcc4a1a9c61edfe502cdd2bff14
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SEXYLINUX.ANS by LDA + Oddfirefox + Meatlotion (Mistigris); released in mist0822 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Linux Is Sexy
-# SAUCE Author: ML, Odd, LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20220821
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: MeatLotion, Oddfirefox, LDA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Linux Is Sexy by LDA + Oddfirefox + Meatlotion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0822-us-sexylinux
 
 Write-Host '
 [1;32mf[0m      [1;32mß[0m   [32mß7[0;37m     [0;32m#[0;37m   [0;1;32mσ[0m [32m-»[0;37m     [0;32mR[0;37m     [0;32ma   Γ[0;37m  [0;32mæ[0;37m [0;32mr[0;37m  [0;32mσΓ[0;37m [0;32mr[0;37m    [0;32m1[0;37m [0;32m2[0;1;32mh[0m   [32mφ[0;37m [0;32mΦ[0;37m    [0;32m3[0;37m [0;32ms5[0m

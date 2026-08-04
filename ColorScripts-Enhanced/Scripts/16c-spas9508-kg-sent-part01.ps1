@@ -1,18 +1,4 @@
-﻿# Converted from: KG-SENT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spas9508/raw/KG-SENT.ANS
-# Source Revision: archive-sha256:81b428a3642c66c3f2ab6c88868c3f833354437cba873bcabd0a6e6314ab5c6c
-# Source SHA-256: 178c77d96030b514f700267b9e2fdab9b10a4d008a6b82c91f99a8895ac67fe4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KG-SENT.ANS by Krieg (spastic); released in spas9508 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Sentouku
-# SAUCE Author: Krieg
-# SAUCE Group: spastic
-# SAUCE Date: 19880119
-# SAUCE Dimensions: 80x66
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Sentouku by Krieg | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spas9508-kg-sent-part01
 
 Write-Host '
 [31m███████ [0;1;31;41m▓░[0;31m█[0;1;31;41m░[0;31m█████████ [0;1;31;41m▓░░[0;31m████████████▀██████████████[0;1;31;41m░ [0;31m███[0;1;31;41m [0;31m██████████████████[0;1;31;41m░░▓[0m

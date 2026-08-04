@@ -1,13 +1,4 @@
-﻿# Converted from: SS-TOWER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/atm-0793/raw/SS-TOWER.ANS
-# Source Revision: archive-sha256:2791ea7960360c43fee92e39a37f109c33350847675dee72209056037e0dfd3e
-# Source SHA-256: f33ab48012cfa1d99bed98d9a0b722fd15ee6522101305f5a910038d2edc42b7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SS-TOWER.ANS by Sargonnas (atm-0793); released in atm-0793 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 114-154
-# Columns: 1-80
+﻿# Artwork: SS-TOWER.ANS by Sargonnas | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-atm-0793-ss-tower-part04
 
 Write-Host '
             █[1;34m██▓▓[0;1;30m█[0m     █[1;34m██▓▓[0;1;30m█  [0m▄▄▄▄                    █[34m▓▓[0m█

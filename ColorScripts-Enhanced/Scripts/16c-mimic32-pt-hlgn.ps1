@@ -1,13 +1,4 @@
-﻿# Converted from: pt-hlgn.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic32/raw/pt-hlgn.ans
-# Source Revision: archive-sha256:6ee19509eda7f7889239419194bf93a39d4168b479e1ef00f9178378e6b4514f
-# Source SHA-256: 63d42a8be8e9e7d12c4cbcfc67e06770a7d4c3bde1ae8b22607c39567cbf2f04
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: pt-hlgn.ans by Produkt (mimic32); released in mimic32 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: pt-hlgn.ans by Produkt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic32-pt-hlgn
 
 Write-Host '
 [1;36m [0;36m_ [0m                      [36m    _[0m         [36m.[0m

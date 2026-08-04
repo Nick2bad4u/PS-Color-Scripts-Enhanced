@@ -1,17 +1,4 @@
-﻿# Converted from: BC-NUV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bat05/raw/BC-NUV.ANS
-# Source Revision: archive-sha256:c1082e0417753715d0b89831e0230f9ac3baf3aab6c8a1f382615ebce2ab409a
-# Source SHA-256: 90e886da113ec2e913bc67b4d8b67843fecbda985ed5aaa6d48efa5afdd0997c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BC-NUV.ANS by beeyacH! (bat05); released in bat05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: mmmm%melack%%neWheuser%votaang.%%!
-# SAUCE Author: beeyacH!
-# SAUCE Date: 19970119
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: mmmm%melack%%neWheuser%votaang.%%! by beeyacH! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bat05-bc-nuv
 
 Write-Host '
                                                [32m▄▄▄▄▄▄▄▄▄▄████▄▄▄▄▄▄▄▄▄▄▄[0m

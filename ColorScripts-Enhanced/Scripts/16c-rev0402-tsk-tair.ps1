@@ -1,18 +1,4 @@
-﻿# Converted from: TSK-TAIR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0402/raw/TSK-TAIR.ANS
-# Source Revision: archive-sha256:19898cc2febb6deadccf50832dc421b4f362a33c899e27278bafd225bbc2d4d4
-# Source SHA-256: f6da8f9a05940723e40a5a28790e51bc377a9880512d75656050a59b7439881f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-TAIR.ANS by The Silent Killer (Revival); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Tir Tairngire
-# SAUCE Author: The Silent Killer
-# SAUCE Group: Revival
-# SAUCE Date: 20020415
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Tir Tairngire by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0402-tsk-tair
 
 Write-Host '
 

@@ -1,19 +1,4 @@
-﻿# Converted from: N-LZDOG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/N-LZDOG.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: 5a1cfe02d4aabdd52ec41233c86b7b48fb82502e2dbed5c34d4f9d57bb377b69
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-LZDOG.ANS by nail (fire); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: lazy dog lounge
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 20241111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: lazy dog lounge by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-n-lzdog
 
 Write-Host '
                                                           [1;37;40m▄[0m

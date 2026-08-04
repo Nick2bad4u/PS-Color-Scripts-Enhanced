@@ -1,13 +1,4 @@
-﻿# Converted from: NB-TOP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rem-0294/raw/NB-TOP.ANS
-# Source Revision: archive-sha256:de0e4f7fd389e9f69e4e4052e02a1677636eec21b8439f9e251f3687c0ec6af9
-# Source SHA-256: 6227692269f4f695a2adbd1f6be16403ed7f92ac1d38f81767a4e830899fe06d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NB-TOP.ANS by Night Breed (rem-0294); released in rem-0294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: NB-TOP.ANS by Night Breed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rem-0294-nb-top-part01
 
 Write-Host '
 [1;30m[0m

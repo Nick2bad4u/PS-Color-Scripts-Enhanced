@@ -1,18 +1,4 @@
-﻿# Converted from: LD-FS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0895/raw/LD-FS1.ANS
-# Source Revision: archive-sha256:3becf3c2c00dadeb41257fa85bb842a48deb8515cdc494db0d9ff697d2e04d12
-# Source SHA-256: 871209cbc9ba71618bcc0c988e0cb1c90d03a156ca5c15bdc3e546a6e13016f1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-FS1.ANS by Lord Jazz (ACiD Productions); released in acdu0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Freak Scene
-# SAUCE Author: Lord Jazz
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950801
-# SAUCE Dimensions: 80x214
-# Lines: 82-124
-# Columns: 1-80
+﻿# Artwork: Freak Scene by Lord Jazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0895-ld-fs1-part03
 
 Write-Host '
 [1;30;40m▌[0;31m ██ █  █[0;31;43m▓[0;31;40m ██[0;31;43m▓░[0;31;40m ██▀ ▄█▀ [0;33;40m▄▄[0;1;31;43m▒▓█[0;1;31;40m██████▀▄███▄▄▄ [0;31m▀■ [0;1;31m█▄▄▀ ▄▄▄ [0;31m▀▀ ■ ▀█[0;31;43m▓[0;31;40m▄░ ▀[0;31;43m░▒[0;31;40m██▀██[0;1;31;41m░[0;31m██[0m

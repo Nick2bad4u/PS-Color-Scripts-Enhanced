@@ -1,17 +1,4 @@
-﻿# Converted from: TNA-BPH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9704/raw/TNA-BPH.ANS
-# Source Revision: archive-sha256:da151757a637299fc8da8cc755ae75b6a0e1a281dd915d29497f1d00d429e5c1
-# Source SHA-256: 8273e085386651d5d8d151349b7189a9d6ee0fc0fd287b72b2d3dc8094b3cb87
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-BPH.ANS by The Night Angel (AWE Lettering); released in awe9704 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Baphomet
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: Baphomet by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9704-tna-bph
 
 Write-Host '
     [1m   [0m                      [30;46m▓[0m

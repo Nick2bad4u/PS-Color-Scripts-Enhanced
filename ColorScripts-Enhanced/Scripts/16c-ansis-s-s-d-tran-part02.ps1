@@ -1,13 +1,4 @@
-﻿# Converted from: S-D-TRAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-s/raw/S-D-TRAN.ANS
-# Source Revision: archive-sha256:f5b906b1b2f4c4b2f03b968c4046b0dbf0579b48e3c5507b7af96d4f1084fa2f
-# Source SHA-256: 1dce96cdd0e322590cee1b7fcf9c9749e85de186b1c53f15515f23c3bdc309a5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S-D-TRAN.ANS by Slum Dweller (ansis-s); released in ansis-s and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 39-74
-# Columns: 1-80
+﻿# Artwork: S-D-TRAN.ANS by Slum Dweller | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-s-s-d-tran-part02
 
 Write-Host '
                         [1;30m██████▄▄▄[0m        [1;30m▀▄[0m       [1;30m█[0;1;37m█[0m██[47m [0;1;30;47m▄[0;1;30;40m█ ▀█▀▀[0m

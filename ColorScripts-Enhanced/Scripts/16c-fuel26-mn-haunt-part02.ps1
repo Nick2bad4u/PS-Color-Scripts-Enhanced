@@ -1,19 +1,4 @@
-﻿# Converted from: mn-haunt.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel26/raw/mn-haunt.ans
-# Source Revision: archive-sha256:d10918a36531171a7bd7de77ac2a92891100e4055d3be9227ebf98ff3c0d1cc3
-# Source SHA-256: 2efbe4412bc555cafc97799514bd8615d6cdeef19e05e87146d2f6b0d4c47079
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mn-haunt.ans by mushinkei (fuel); released in fuel26 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: haunted
-# SAUCE Author: mushinkei
-# SAUCE Group: fuel
-# SAUCE Date: 20180408
-# SAUCE Dimensions: 80x115
-# SAUCE Font: IBM VGA
-# Lines: 37-75
-# Columns: 1-80
+﻿# Artwork: haunted by mushinkei | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel26-mn-haunt-part02
 
 Write-Host '
 [1;30m██████[0m       [1;30m ▓[0m  [1;30m█[0m                          [1;30m▌[0m                               [1;30m▐███[0m

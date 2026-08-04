@@ -1,18 +1,4 @@
-﻿# Converted from: v-rev1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0502/raw/v-rev1.ans
-# Source Revision: archive-sha256:98bfa3cc78c733050b0c647e7e0271e7623e3c31e4f40f218a00b89b2165c771
-# Source SHA-256: bae5c1bb648754a1821fe34d278b107fe0f56e1788a4a9936e27a303a1db5ac0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: v-rev1.ans by Visionary (Revival); released in rev0502 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Revival
-# SAUCE Author: Visionary
-# SAUCE Group: Revival
-# SAUCE Date: 20020516
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Revival by Visionary | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0502-v-rev1
 
 Write-Host '
 

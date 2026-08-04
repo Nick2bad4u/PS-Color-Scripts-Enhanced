@@ -1,17 +1,4 @@
-﻿# Converted from: ST-DIST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9707/raw/ST-DIST.ANS
-# Source Revision: archive-sha256:718ad2b08b14a24156d1af86433f0063bd9bba178c290c317100b8e5ffb3939c
-# Source SHA-256: 76c47171171f9c928b4dfb647c821719b32758473eff025b34d1185bf24b2d0f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-DIST.ANS by Splatt (AWE Lettering); released in awe9707 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Distortion
-# SAUCE Author: Splatt
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Distortion by Splatt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9707-st-dist
 
 Write-Host '
            [31m [0m      [31m    [0;37m [0;31m▄▄▄▄▄▄▄█[0;30;41m░[0;31;40m▓▌[0m         [31;40m    ▄▄▄▄   [0m

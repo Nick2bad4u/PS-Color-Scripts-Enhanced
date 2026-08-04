@@ -1,19 +1,4 @@
-﻿# Converted from: PICROTOXIN-BUNNYBLOB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0226/raw/PICROTOXIN-BUNNYBLOB.ANS
-# Source Revision: archive-sha256:ef03a5a095d5c0479664f99ff23399e245703c452ca9d05ea2957005177022f9
-# Source SHA-256: e1458f4266d3ab8904376014f7cd4c7ef33aec18f7aa3c373ee8b332e6d37be6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PICROTOXIN-BUNNYBLOB.ANS by aleyna (mist); released in mist0226 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: bunnyblob
-# SAUCE Author: aleyna
-# SAUCE Group: mist
-# SAUCE Date: 20260228
-# SAUCE Dimensions: 88x45
-# SAUCE Font: IBM VGA
-# Lines: 1-45
-# Columns: 1-88
+﻿# Artwork: bunnyblob by aleyna | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0226-picrotoxin-bunnyblob
 
 Write-Host '
 [1;36m███████████████████████████████████████████████████████████████[0m [1;36m████████████████████████[0m

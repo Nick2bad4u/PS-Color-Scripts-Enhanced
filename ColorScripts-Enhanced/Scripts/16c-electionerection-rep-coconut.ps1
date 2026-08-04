@@ -1,19 +1,4 @@
-﻿# Converted from: rep-coconut.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/electionerection/raw/rep-coconut.ans
-# Source Revision: archive-sha256:aff12aff033c4c0d581c9372c743eafea10922bf03c4ccd821e0ec515ca8c95d
-# Source SHA-256: c4bcadc11949d3b1c33911dc6e32b13ac3119fa819a19d2e4cffec1fb05b6418
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: rep-coconut.ans by republicun7 (election erection); released in electionerection and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: kamala coconuts
-# SAUCE Author: republicun7
-# SAUCE Group: election erection
-# SAUCE Date: 20240814
-# SAUCE Dimensions: 80x39
-# SAUCE Font: IBM VGA
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: kamala coconuts by republicun7 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-electionerection-rep-coconut
 
 Write-Host '
 [1;30;40m░░░░[0m                                    [1;47m▄[0;1;40m████████████████████████████████▓▓▓▓▓[0;1;47m▄ [0m

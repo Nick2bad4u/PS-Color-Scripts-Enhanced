@@ -1,18 +1,4 @@
-﻿# Converted from: PR_PNM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak3/raw/PR_PNM.ANS
-# Source Revision: archive-sha256:cde4af7e840865f437fedba26bbfb806e858a9b477c723c01bd9d080434c75bd
-# Source SHA-256: f0e4c33561af454888670ab9f228b8903d0c2008090233f4bfa26ac28355eed7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR_PNM.ANS by president (ecolove); released in ecl-pak3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: pandamonium
-# SAUCE Author: president
-# SAUCE Group: ecolove
-# SAUCE Date: 19980123
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: pandamonium by president | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak3-pr-pnm
 
 Write-Host '
     [35m      [0;37m▄▄[0;35m ▄▄[0;1;35;45m░█▀▀▀▀▓[0;1;35;40m▄▄▄▄[0;35m      [0m

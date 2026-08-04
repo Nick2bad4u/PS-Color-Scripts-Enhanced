@@ -1,18 +1,4 @@
-﻿# Converted from: NOH-BMB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-1297/raw/NOH-BMB1.ANS
-# Source Revision: archive-sha256:8fe0580f10c9c4324a8f3895b4ceff54a332010a934acdbd13d10f88a0864853
-# Source SHA-256: 8619f746eba482ffb02a8de46cba3933a512e36d7228bdd01f9c329763bb0e15
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-BMB1.ANS by nOah? (guestappearance); released in bmb-1297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: bmb ?lskar dej! ;----)
-# SAUCE Author: nOah?
-# SAUCE Group: guestappearance
-# SAUCE Date: 19980118
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: bmb ?lskar dej! ;----) by nOah? | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-1297-noh-bmb1
 
 Write-Host '
                     [31m▄[0m

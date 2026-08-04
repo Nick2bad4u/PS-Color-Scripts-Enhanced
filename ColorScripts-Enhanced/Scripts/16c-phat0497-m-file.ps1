@@ -1,18 +1,4 @@
-﻿# Converted from: (M!)FILE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0497/raw/(M!)FILE.ANS
-# Source Revision: archive-sha256:ac23f379eb24f5f6ad8faa432723caa3c85fc7d4fc380b1d3e101e8eb50ca483
-# Source SHA-256: 09b8563fa3ba9da45e8917637c83a6ecdeedd33f10a23b91c4d74bfc48349eaa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: (M!)FILE.ANS by m0! (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: my own "f"
-# SAUCE Author: m0!
-# SAUCE Group: phat studios '97
-# SAUCE Date: 19970325
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: my own "f" by m0! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0497-m-file
 
 Write-Host '
 [34m [0m            [31m [0;37m [0;1;30m░░[0m   [34m▄▄[0m            [34m▄▄▄ [0;37m  [0;34m   [0;37m  [0;34m  ▄▄█[0;1;34;44m▄[0;34m█▄▄▄ ▄[0;1;34;44m▄[0;1;34;47m▓[0;34m▄■▄▄▄▄▄▄███▄ ▄▄▄▄▄ [0;1;30m░░[0m

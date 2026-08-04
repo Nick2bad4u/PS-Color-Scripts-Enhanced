@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-READ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0197/raw/IZ-READ.ANS
-# Source Revision: archive-sha256:db16ecaf9a5ba2dcf16f11149d4e3768d3e19930159af1ef0ef2625ea12b3e30
-# Source SHA-256: 4d30eebf9e0c151af4fa2a73784ed2d36c53dddc1adbf54aee982c3a29c92de4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-READ.ANS by ize (fusion); released in fsn-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: read
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19961217
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: read by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0197-iz-read
 
 Write-Host '
 

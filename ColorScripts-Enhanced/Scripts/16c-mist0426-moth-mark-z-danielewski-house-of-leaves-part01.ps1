@@ -1,17 +1,4 @@
-﻿# Converted from: MOTH-MARK_Z_DANIELEWSKI-HOUSE_OF_LEAVES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0426/raw/MOTH-MARK_Z_DANIELEWSKI-HOUSE_OF_LEAVES.ANS
-# Source Revision: archive-sha256:c759ba228fb42808866da1267838a1ce2371215b87bc273c64f35f4bc653e77d
-# Source SHA-256: d9670b586f69806ffa1e60a7901f66bb02bfbd14adea7a3af070f84f1c0d57bf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MOTH-MARK_Z_DANIELEWSKI-HOUSE_OF_LEAVES.ANS by moth (mist0426); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: moth
-# SAUCE Date: 20260428
-# SAUCE Dimensions: 80x51
-# SAUCE Font: IBM VGA
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: MOTH-MARK_Z_DANIELEWSKI-HOUSE_OF_LEAVES.ANS by moth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0426-moth-mark-z-danielewski-house-of-leaves-part01
 
 Write-Host '
 ____________________________________________________________________________

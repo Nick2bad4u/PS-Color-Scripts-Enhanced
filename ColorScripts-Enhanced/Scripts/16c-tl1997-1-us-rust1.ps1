@@ -1,18 +1,4 @@
-﻿# Converted from: US-RUST1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl1997_1/raw/US-RUST1.ANS
-# Source Revision: archive-sha256:fe5b190a3308615c8feeafc40ed35463201cf8ddf5dd1b3da33230707a5329db
-# Source SHA-256: 7da383265f99b093aa2cf085f011d470c25956d67c2a514010ce7e91ae2a2b5e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-RUST1.ANS by Extreme + The Extremist (Teklordz/Fire); released in tl1997_1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Rust
-# SAUCE Author: Extreme/Text
-# SAUCE Group: Teklordz/Fire
-# SAUCE Date: 19970324
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Rust by Extreme + The Extremist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl1997-1-us-rust1
 
 Write-Host '
                   [34m▄▄▄▄▄▄▄[0m     [34m▄▄▄▄▄▄  █    █[0m     [34m█████████▄   ▐█████████████[0;1;34;44m▐[0;1;34;47m▓[0m

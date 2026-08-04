@@ -1,17 +1,4 @@
-﻿# Converted from: CS-RCA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-17/raw/CS-RCA.ANS
-# Source Revision: archive-sha256:154ac874f13e20433925bb99a4f5e0a4299764bee7ed4d28bdaffd9ad392f554
-# Source SHA-256: a21f288ade5c4e72a2ad48ea08fc209f8facae243dd0ef393cb22de4599d872d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CS-RCA.ANS by crimson skye (glue-17); released in glue-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: rca
-# SAUCE Author: crimson skye
-# SAUCE Date: 19981210
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: rca by crimson skye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-17-cs-rca
 
 Write-Host '
 [34mrca..    ▄▄[0;37m [0;34m■[0;37m [0;1;30m [0m [34m▐[0;1;37;44m░░[0;34m███[0;1;34;44m░▓[0;1;34;47m▓[0;1;34;46m▓[0;1;34;44m▌ [0;34m▌ [0m

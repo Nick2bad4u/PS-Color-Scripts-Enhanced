@@ -1,13 +1,4 @@
-﻿# Converted from: SC-SHDOW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hrp-6/raw/SC-SHDOW.ANS
-# Source Revision: raw-sha256:f893c92a933fdd986089ddcb7f476fa5c59e72ee3e8ac9652bb17392d55ecf6b
-# Source SHA-256: f893c92a933fdd986089ddcb7f476fa5c59e72ee3e8ac9652bb17392d55ecf6b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-SHDOW.ANS by Satan Claus (hrp-6); released in hrp-6 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 85-134
-# Columns: 1-80
+﻿# Artwork: SC-SHDOW.ANS by Satan Claus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hrp-6-sc-shdow-part03
 
 Write-Host '
                                                   [1;33m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

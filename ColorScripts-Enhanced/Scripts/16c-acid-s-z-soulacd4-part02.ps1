@@ -1,13 +1,4 @@
-﻿# Converted from: SOULACD4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acid_s-z/raw/SOULACD4.ANS
-# Source Revision: archive-sha256:1e39be543cd73bd6445def20e0af89859836bb40b21bc0476427cae93491a647
-# Source SHA-256: f52bd0402d12822add7f52eb6ac74e1371dd4a3a24c4bc84c74e603531987b2c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SOULACD4.ANS by Jed (acid_s-z); released in acid_s-z and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 34-63
-# Columns: 1-80
+﻿# Artwork: SOULACD4.ANS by Jed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acid-s-z-soulacd4-part02
 
 Write-Host '
        [34;40m▀[0;1;34;44m▀  [0;34m▀▀█▄ ▄▀▄  ▀▄▄▄▄▀▀▀▄▄▀▀█  ██  [0;33m▀  [0;34m▀▀▀▀▀▀▀▀▀▀▀▀▄▄  ▄█▀▄[0;1;34;44m▄▄[0;34m█▀ [0;33m▄▄████[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: ANS-0015.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis/raw/ANS-0015.ANS
-# Source Revision: archive-sha256:cabd7c46b38b213194457f50f766681b723f86902e0b5d87c41548c28c231d67
-# Source SHA-256: 835cf72ae3ca18ec30ab462b60401e3db8fc8f77faf4e17d8ff529b22009f3d3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ANS-0015.ANS by Worm Laser (ansis); released in ansis and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ANS-0015.ANS by Worm Laser | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-ans-0015
 
 Write-Host '
 [37;40m                                                                                [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US-TDKZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook14/raw/US-TDKZ.ANS
-# Source Revision: archive-sha256:f7fe2a62d3e7b3b16687ce251209098ea8d86719a4cfa33dae1489e0c9af9278
-# Source SHA-256: 78bf8912d62813a36f3bcd168098330c3bc10d4e86866b169d45907f5f7c27b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TDKZ.ANS by Toot + Dv8 (black maiden); released in bmbook14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: kaoz logon matrix
-# SAUCE Author: toot.dv8
-# SAUCE Group: black maiden
-# SAUCE Date: 19970601
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: kaoz logon matrix by Toot + Dv8 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook14-us-tdkz
 
 Write-Host '
 [32m▐[0;1;32;42m▀[0m [1;36;46m▐[0;1;37;46m█[0;1;36;46m▌[0m [32m▄[0;1;33;42m▄███████[0;1;37;40m██[0;1;33;42m█▀[0;32m▀[0;34m ▄[0;1;34;44m▄[0;1;34;47m▀▓▓[0;1;34;44m▓▓░░[0;34m██[0;1;34;44m░░▓▓█[0;1;34;47m▄ [0;1;37;47m▀▌[0;1;34;47m▄[0;1;34;44m█▓░[0;1;31;40m [0;33m██[0;34m [0;1;34;44m▐███▌▄▄[0;34m█████[0;1;34;44m   ░░▓█▄[0;34m█[0;1;34;44m▀▀[0;1;34;47m▄[0;1;34;44m█[0;1;34;47m▄ ░▓█[0m

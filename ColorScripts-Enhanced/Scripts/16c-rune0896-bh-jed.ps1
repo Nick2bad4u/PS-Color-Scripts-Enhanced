@@ -1,17 +1,4 @@
-﻿# Converted from: BH-JED.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rune0896/raw/BH-JED.ANS
-# Source Revision: archive-sha256:a41a6fd18e5a57ea19659d03cc5ff527cec9b4701f346aaff2f3d3658fc2ad09
-# Source SHA-256: fccf645fdcfc9fa2e328ea06f4e5af99e59ed806538012bf636940c9923652c3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BH-JED.ANS by blackehawke (rune); released in rune0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: jed of ACiD?!
-# SAUCE Author: blackehawke
-# SAUCE Group: rune
-# SAUCE Date: 19951101
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: jed of ACiD?! by blackehawke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rune0896-bh-jed
 
 Write-Host '
 [1;34;44m░▒[0;34m▀[0;1;34;44m░[0m [1;34;44m░▒[0m  [1;34;44m░▒[0m [1;34;44m░▒[0;34m▀[0;1;34;44m░[0m [1;34;44m░▒[0;34m▀▄   [0;1;34;44m░▒[0m  [1;34;40m▄  [0;1;34;44m░▒[0m [1;34;44m░▒[0;34m▀[0;1;34;44m░▒[0m [1;34;44m░▒[0;1;34;40m▄  [0;1;34;44m░▒[0m [1;34;44m░▒[0;34m▀[0;1;34;44m░[0;34m▄ [0;1;34;44m░▒[0;34m▀[0;1;34;44m░[0m [1;34;44m░▒[0;34m▀▄ [0;1;34;44m░▒[0;34m▀▓ [0;1;34;44m░▒[0;34m▀[0;1;34;44m░[0;34m▄ ▄[0;1;34;44m░[0;34m▀[0;1;34;44m░[0;34m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: LM-TREND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-07/raw/LM-TREND.ANS
-# Source Revision: archive-sha256:3007ab392a2ea4e107d02b3029b445696a097ac55d389caab2dbfe0944556beb
-# Source SHA-256: bb2d0898edf8254477674987787739ca76ab14c48fba0724463e0db9eb0ceb4d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LM-TREND.ANS by lagomorph (3kl); released in ecl-07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: trends
-# SAUCE Author: lagomorph
-# SAUCE Group: 3kl
-# SAUCE Date: 19960820
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: trends by lagomorph | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-07-lm-trend
 
 Write-Host '
 

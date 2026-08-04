@@ -1,18 +1,4 @@
-﻿# Converted from: PC-URANS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense09/raw/PC-URANS.ANS
-# Source Revision: archive-sha256:b3e3029d8f7c1c608f2835055baa2116210e782109ea7dc0a1af3ca3d050e5b9
-# Source SHA-256: b4f9f1f9506a5272c50cf475c9f994220cc7718c943bc34e2b3ec729887f2b36
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-URANS.ANS by Proctologist (Treason); released in sense09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: anal probe me
-# SAUCE Author: Proctologist
-# SAUCE Group: Treason
-# SAUCE Date: 19980501
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: anal probe me by Proctologist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense09-pc-urans
 
 Write-Host '
 $ⁿ"^`           `"?$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$

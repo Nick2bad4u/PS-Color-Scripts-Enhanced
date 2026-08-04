@@ -1,13 +1,4 @@
-﻿# Converted from: DX-SON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wax-01/raw/DX-SON.ANS
-# Source Revision: archive-sha256:758ca54117dc909c4a3054dd40bbe31acb9fc5d53207f90efc16f95d8918dfdb
-# Source SHA-256: abffba6f2d4af5f4d5c0f5d847418ceb63ea9c65d43f68ff0c8c11c1ccc5ae2b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DX-SON.ANS by Drax (wax-01); released in wax-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: DX-SON.ANS by Drax | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wax-01-dx-son
 
 Write-Host '
 ──────────────────────────────────────────────────────────────[[1mdrax[0m]────────────

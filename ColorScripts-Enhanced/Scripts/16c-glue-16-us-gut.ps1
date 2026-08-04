@@ -1,18 +1,4 @@
-﻿# Converted from: US-GUT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-16/raw/US-GUT.ANS
-# Source Revision: archive-sha256:b44675c14d0a6b8706358886e9a05961468006b6ae7257eede82583c6468b7b5
-# Source SHA-256: 68fc8070cd3c66e4b9a8767caa006ba7789a734b15d87dba89ef21a7d7040556
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GUT.ANS by Catch 22 + Retribution (glue clan); released in glue-16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: gutter7menu
-# SAUCE Author: catch22&retribution
-# SAUCE Group: glue clan
-# SAUCE Date: 19981126
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: gutter7menu by Catch 22 + Retribution | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-16-us-gut
 
 Write-Host '
 [30;44m░░[0;34;40m██████████████████[0;1;34;44m░░░░░░░░░[0;34m███[0;1;34;44m [0;34m██████████▄▄▐███[0;1;34;44m░░░▒▒▒▓▓▓▓█████▓[0;1;34;40m▓[0;34m▀▀[0;37m [0;34m   ▄[0;1;34;44m▄▄▄[0;34m▄[0;37m [0;34m▄[0m

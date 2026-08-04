@@ -1,18 +1,4 @@
-﻿# Converted from: MR-EX01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus03/raw/MR-EX01.ANS
-# Source Revision: archive-sha256:ae240da6329918ab0bf39714e2edb95ea5883c52a5e5edf845b291bbb7142ce1
-# Source SHA-256: 6ada13a404c9ae6d9c58fda26fd9db6d03d4f17d242f2acea8888aada6acab05
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-EX01.ANS by Mr.Wrong (Fokus fonting); released in fokus03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Extasy
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: Fokus fonting
-# SAUCE Date: 19990412
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Extasy by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus03-mr-ex01
 
 Write-Host '
                                 [36m░░▄ [0;34m ▄[0;37m [0;34m░[0m                    [34m▀[0;36m ▄░░[0m

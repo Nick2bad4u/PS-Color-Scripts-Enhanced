@@ -1,18 +1,4 @@
-﻿# Converted from: TS-DIGFL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl-0295/raw/TS-DIGFL.ANS
-# Source Revision: archive-sha256:eaf162c007b15a73ec8ddc40aa3b63ccc7c10a1aa835bd918a225b4fe7dc9196
-# Source SHA-256: b4f5f71e0e467b3ae8dbac0cb065bafa9eea351552408dc835dd8b6c9cb81db2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-DIGFL.ANS by Ts (TekLordZ); released in tl-0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Digital Fluid
-# SAUCE Author: Ts
-# SAUCE Group: TekLordZ
-# SAUCE Date: 19950206
-# SAUCE Dimensions: 80x25
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Digital Fluid by Ts | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl-0295-ts-digfl-part01
 
 Write-Host '
 [37;40m█▀▀[0;1;30;40m▄█▀▀▀ [0;34m▌[0;32m▐[0;32;42m [0;32;40m▀▀▀▀[0;1;32;42m▀▓▒▒ [0;34m▐ [0;34;42m [0;32;40m▄▄[0;34;40m▀▀██▓▓▒▒ [0;1;32;42m▄[0;32m▄▄[0;34m▀▀▀████▓▓▄[0;32m▀▀[0;1;32;42m▒▒░[0;32m▄▄ ▀[0;32;42m [0;32;40m▄▄[0;34;40m▀▀[0;32;40m▄[0;32;42m [0;32;40m▄▄[0;34;40m▀█▓▄[0;1;30;40m▀▀▀█▄[0m▀█ ▀

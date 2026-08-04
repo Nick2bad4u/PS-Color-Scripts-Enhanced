@@ -1,18 +1,4 @@
-﻿# Converted from: EH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rg-0197a/raw/EH.ANS
-# Source Revision: archive-sha256:4bc27325d13f712edf2110cd11717d490f6bde1cd8827262e7c1b1224b0317e9
-# Source SHA-256: 4a37a05cfdaaa640f62341225303bf780c74bf304d2fd002c36191dc6ea84d19
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EH.ANS by vIGod (RAGE ARTS 96'); released in rg-0197a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: EH main menu
-# SAUCE Author: vIGod
-# SAUCE Group: RAGE ARTS 96'
-# SAUCE Date: 19961014
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: EH main menu by vIGod | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rg-0197a-eh
 
 Write-Host '
  [1;30m [0m                      [1m■[0;1;30m     [0;1;37m   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄            ▄   [0m █[1;47m   ░▄[0;1;40m█[0;1;47m█[0;1;40m██[0;1;47m▀▒▀[0;1;40m [0m

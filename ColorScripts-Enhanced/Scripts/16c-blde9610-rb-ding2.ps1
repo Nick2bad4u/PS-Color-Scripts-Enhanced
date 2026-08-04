@@ -1,18 +1,4 @@
-﻿# Converted from: RB-DING2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9610/raw/RB-DING2.ANS
-# Source Revision: archive-sha256:82b9914588880433fa3d28215273cb7df08c23e4d4bcfd49e47a0d2b7c765626
-# Source SHA-256: 6478ecfb023b28b39db431bed041134836bd75a909971d9e116d8d60fe9ebed4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RB-DING2.ANS by rebal (bLADE); released in blde9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dING ansi?!?!
-# SAUCE Author: rebal
-# SAUCE Group: bLADE
-# SAUCE Date: 19960923
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: dING ansi?!?! by rebal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9610-rb-ding2
 
 Write-Host '
 [32m░[0;37m [0;32m░[0m         [32m░[0m       [36m▄■[0;37m [0;36m▄[0;37m [0;36m▄[0;1;36m▄▄▄▄░[0m            [32m░[0m

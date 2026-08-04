@@ -1,18 +1,4 @@
-﻿# Converted from: R&C-DARK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pst-06/raw/R%26C-DARK.ANS
-# Source Revision: archive-sha256:93eed8ee4f179db89a50bcf60e21faa155b9d3a593731162fb8a86aa8a449a20
-# Source SHA-256: 90f4620d305a9163cb0d06e6a2ed1b7e26c669f5dc7c2b82aa9572834b50083f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: R&C-DARK.ANS by Chronix + Rippa (glue/polyester); released in pst-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: dark illustrated
-# SAUCE Author: chr0nix/rippa
-# SAUCE Group: glue/polyester
-# SAUCE Date: 19981225
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: dark illustrated by Chronix + Rippa | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pst-06-r-c-dark
 
 Write-Host '
                                                                        [30;44m▓▓[0m

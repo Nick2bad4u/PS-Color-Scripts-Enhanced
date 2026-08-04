@@ -1,18 +1,4 @@
-﻿# Converted from: US-OC2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook22/raw/US-OC2.ANS
-# Source Revision: archive-sha256:aec74908b08ab1e6eeb2617f04dd839f89321bd6f70d460ae94d73bdd51d69b6
-# Source SHA-256: 365600e54bdf2843df7b6d1dc42e0586a790b568fa4cdde1365aceb53f8b783a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-OC2.ANS by Avenger + Potzkoten (black maiden); released in bmbook22 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: orange crush
-# SAUCE Author: potzkoten & ave
-# SAUCE Group: black maiden
-# SAUCE Date: 20010301
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: orange crush by Avenger + Potzkoten | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook22-us-oc2
 
 Write-Host '
                               [33m▄▄[0;37m [0;32m▄[0;1;32;42m▄█[0;1;32;40m▄[0m

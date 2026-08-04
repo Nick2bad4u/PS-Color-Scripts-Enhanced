@@ -1,18 +1,4 @@
-﻿# Converted from: IMI-DOGO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/303pack2/raw/IMI-DOGO.ANS
-# Source Revision: archive-sha256:4447fe2b8e8ce42dff70a445f43a7c14612a1a439620389cb1863f2a3b732682
-# Source SHA-256: 1d20a4a27836897d7de43a4090ede09923cf4670b55908d2fd6c5a814552f9fc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IMI-DOGO.ANS by imani (swat, 3o3, twisted); released in 303pack2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dogobert
-# SAUCE Author: imani
-# SAUCE Group: swat, 3o3, twisted
-# SAUCE Date: 19970410
-# SAUCE Dimensions: 80x49
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: dogobert by imani | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-303pack2-imi-dogo
 
 Write-Host '
                          [1m............[0m

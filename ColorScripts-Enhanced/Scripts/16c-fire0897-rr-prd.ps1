@@ -1,18 +1,4 @@
-﻿# Converted from: RR-PRD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0897/raw/RR-PRD.ANS
-# Source Revision: archive-sha256:2f847e13ac44c4a612ca9588cf01055509cccf841191e379aa1210361ce47235
-# Source SHA-256: b239ed867bd9c74f781b02f057254d50fd712be0eff6e8effe24c7e88347342e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RR-PRD.ANS by riddler (fire graphics); released in fire0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: PRD
-# SAUCE Author: riddler
-# SAUCE Group: fire graphics
-# SAUCE Date: 19970816
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: PRD by riddler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0897-rr-prd
 
 Write-Host '
                   ▄                   ▄                             ▄

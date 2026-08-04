@@ -1,18 +1,4 @@
-﻿# Converted from: FL-HBND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dcds0796/raw/FL-HBND.ANS
-# Source Revision: archive-sha256:3509ed83150d72e01cde39c5fe6c61d852f4f7285feb9d94b431cec18116688b
-# Source SHA-256: c158ccfa46ab833b68728ceeb46b78398343626bb1bb417d3d6de3297cd6d56d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-HBND.ANS by Flame (1010); released in dcds0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: * hellbound * (i won an 888.. wow)
-# SAUCE Author: Flame
-# SAUCE Group: 1010
-# SAUCE Date: 19960630
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: * hellbound * (i won an 888.. wow) by Flame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dcds0796-fl-hbnd
 
 Write-Host '
 ░[30;47m▓[0;1;30;40m█[0;1;30;47m▌▀▀[0;1;37;47m░[0m▓[1m▒[0;1;47m▄▄[0;1;40m█[0;1;47m█▄▄▄[0;1;40m█▀█[0;1;47m▄[0;1;40m██▀▀▀[0;32m  [0m    [32m▄▄[0;1;32m▄▄▄▄[0;1;32;42m▄████████[0;1;32;40m▀▀[0;1;32;42m████[0;1;32;40m▄▄▄[0;32m▄ [0;31m▀▀▀▀[0;30;41m░[0;31;40m████[0;1;31;41m░░[0;1;33;43m░[0;1;33;41m░▒[0;1;33;43m▒[0;1;33;41m▓▓▓▓[0;1;33;43m████[0m

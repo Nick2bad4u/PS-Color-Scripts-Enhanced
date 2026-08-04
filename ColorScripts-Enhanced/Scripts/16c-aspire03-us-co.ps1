@@ -1,18 +1,4 @@
-﻿# Converted from: US-CO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aspire03/raw/US-CO.ANS
-# Source Revision: archive-sha256:54282cfca353db5f7764be56aa2f2108c2e202d98c161cba1da80cf575611e3b
-# Source SHA-256: 9d23431bf90117d82e6e70a2606c87364b2c6075d7a487bfac2a616c2f698052
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CO.ANS by Gwydian + Fire From Heaven (aspire); released in aspire03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: covert ops
-# SAUCE Author: gwydian & twoxfh
-# SAUCE Group: aspire
-# SAUCE Date: 19980925
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: covert ops by Gwydian + Fire From Heaven | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aspire03-us-co
 
 Write-Host '
 [31m░ [0;1;30m▓▓██[0;1;30;41m▓[0;1;30;40m██████▀▀▀▀▀▀███████[0;1;30;41m██[0;1;30;40m████████▓  [0m▄███[31;47m ░[0;37;40m████████████████[0;1;30;47m  [0;1;37;47m░[0;1;30;47m [0;1;37;47m░░[0;1;30;47m [0;1;37;47m▒░▒▓[0;1;37;40m▓▒░[0m [31m▐[0;1;31;41m░▒[0m

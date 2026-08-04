@@ -1,19 +1,4 @@
-﻿# Converted from: avg-acid97.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna01/raw/avg-acid97.ans
-# Source Revision: archive-sha256:70f712dbf565de1ceb0f2b7020b54aa443621235a47b082b92e24e13342b0672
-# Source SHA-256: e7e60d0601abb39244c85e93c72991e1f90bc9228270eddd81c9afaca97b9213
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-acid97.ans by avenging angel (sauna); released in thesauna01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: acid
-# SAUCE Author: avenging angel
-# SAUCE Group: sauna
-# SAUCE Date: 20190926
-# SAUCE Dimensions: 80x28
-# SAUCE Font: IBM VGA
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: acid by avenging angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna01-avg-acid97
 
 Write-Host '
 

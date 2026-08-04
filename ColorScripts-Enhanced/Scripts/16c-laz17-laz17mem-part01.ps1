@@ -1,20 +1,4 @@
-﻿# Converted from: LAZ17MEM.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz17/raw/LAZ17MEM.ans
-# Source Revision: archive-sha256:2674245bad3e14fe6d4a935ba8daf9898a4426e394c56ca9710e3afa19d3d943
-# Source SHA-256: 32bf0f1b4537bd72c62772c6dd78c0716c91e6e952289fa3464a1b8fec410373
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LAZ17MEM.ans by warpus (LAZARUS); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: LAZARUS 17 MEMBERLIST
-# SAUCE Author: warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20230704
-# SAUCE Dimensions: 80x93
-# SAUCE Font: IBM VGA
-# SAUCE Comments: art by warpus, touchups by MFS
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: LAZARUS 17 MEMBERLIST by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz17-laz17mem-part01
 
 Write-Host '
 [1;30m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m

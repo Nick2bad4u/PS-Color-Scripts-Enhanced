@@ -1,13 +1,4 @@
-﻿# Converted from: DIE-UNDR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-zxica/raw/DIE-UNDR.ANS
-# Source Revision: archive-sha256:098212bcd3fc250902be7ae08340a23e99b29f8fa69fe7b4990238a6d402d1f6
-# Source SHA-256: 4fee5798bf5eedc1244cca6d2c55cb8a80288b6167745971954b6a0cf4013277
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DIE-UNDR.ANS by Dieznyik (k-zxica); released in k-zxica and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: DIE-UNDR.ANS by Dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-zxica-die-undr
 
 Write-Host '
 [32m/[0;1;33m.[0;32m\[0m                  [33m░[0;37m [0;30;43m█[0m   [36;40m░[0;30;46m▓[0m             [30;44m▓▓[0;32;40m▄▄▄[0;33;42m▄[0;32;44m▄░[0;34;40m▌[0m      [34;40m░[0m      [34;40m▄▄[0;1;30;40m░[0m

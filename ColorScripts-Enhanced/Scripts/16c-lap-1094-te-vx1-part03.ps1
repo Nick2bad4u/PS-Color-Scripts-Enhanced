@@ -1,18 +1,4 @@
-﻿# Converted from: TE-VX1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lap-1094/raw/TE-VX1.ANS
-# Source Revision: archive-sha256:6484c03234ed72f9048fe82f2e3920691bccf1180706117fc17bc3b905e602d2
-# Source SHA-256: be4fadbc4cf69f55f51d61f6fc07646b624660fe2bf713a4a92a056ad6abb24d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-VX1.ANS by Tae (Lapse Productions); released in lap-1094 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Violator X
-# SAUCE Author: Tae
-# SAUCE Group: Lapse Productions
-# SAUCE Date: 19940929
-# SAUCE Dimensions: 80x25
-# Lines: 80-125
-# Columns: 1-80
+﻿# Artwork: Violator X by Tae | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lap-1094-te-vx1-part03
 
 Write-Host '
 [1;40m [0;1;47m▓▓▒░[0;1;30;47m░[0m▀[35m▄███[0;30;45m▀[0m                                                      [35;40m▄[0;35;45m     [0;35;40m▄[0;37;40m▀[0;1;30;47m░[0;1;37;47m░▒▓▓[0m

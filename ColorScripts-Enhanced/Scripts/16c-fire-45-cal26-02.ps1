@@ -1,19 +1,4 @@
-﻿# Converted from: CAL26-02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-45/raw/CAL26-02.ANS
-# Source Revision: archive-sha256:0564021806e0277d72a0e235c044a0e0470226ba860a8976e1e3092326555d1d
-# Source SHA-256: c609384a13f220b3e6f95a05cff3e8442d04fc6f9a46d55d56ed80b883129972
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CAL26-02.ANS by tainted (fire); released in fire-45 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: palidame
-# SAUCE Author: tainted
-# SAUCE Group: fire
-# SAUCE Date: 20251224
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: palidame by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-45-cal26-02
 
 Write-Host '
 [1;30m▄[0;1;30;47m░░[0;1;30;40m▌[0m [35m░░ ▀▄▓▓▀ ░▒ [0;1;35;45m▒[0;35m  [0;1;35;45m▄▓▓[0;35m ▐[0;1;35;45m▒▒▒[0;35m█ [0;1;35;45m▄▓[0;1;35;40m█[0;35m ▄██[0;1;35;45m░░[0;35m [0;1;35;45m░░[0;35m ▒▒▒▒▒▒░▒▒ ░ [0;1;35;45m▒[0;35m█ █[0;1;35;45m░[0;35m██░██ [0;1;35;45m▒[0;35m▄▒  [0;36m█████░██[0m

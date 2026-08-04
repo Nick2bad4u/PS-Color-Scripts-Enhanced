@@ -1,20 +1,4 @@
-﻿# Converted from: ale-gaucho_mate_pack.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hpm-04/raw/ale-gaucho_mate_pack.ans
-# Source Revision: archive-sha256:d2c0a14e6aa186cff60c36e0afbe6cc20a83d0b801e42df0e6a8c7b44be43337
-# Source SHA-256: f2b0c8b37b0a828d589eb61802ea1c5eaebd26a0fb48cdfe2ab2e8d89073ceee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ale-gaucho_mate_pack.ans by Ale Perez (HPM); released in hpm-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: La esperada calma
-# SAUCE Author: Ale Perez
-# SAUCE Group: HPM
-# SAUCE Date: 20241007
-# SAUCE Dimensions: 80x66
-# SAUCE Font: IBM VGA
-# SAUCE Comments: odes tenemos en algun momento la necesidad de parar, tomar un re | spiro y por que no, un rico mate. En estos tiempos convulsos, qu | iero compartir este humilde momento ANSI esperando que todes pue | dan encontrar ese tiempo de calma y meditacion.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: La esperada calma by Ale Perez | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hpm-04-ale-gaucho-mate-pack-part01
 
 Write-Host '
 [32m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0;34m░[0m

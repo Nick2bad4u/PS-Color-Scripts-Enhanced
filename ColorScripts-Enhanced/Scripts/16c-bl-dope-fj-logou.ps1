@@ -1,18 +1,4 @@
-﻿# Converted from: FJ_LOGOU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl-dope/raw/FJ_LOGOU.ANS
-# Source Revision: archive-sha256:94d0a6d1a54f912bf59b65f9ab8ad2e76bf857ee4ed7295093943e200494477a
-# Source SHA-256: 68182e4123d4c5e5155e9e61d69e97d06b34fe899e65c8e581ff1d39725ea646
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FJ_LOGOU.ANS by Fastjack (boil); released in bl-dope and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: logout
-# SAUCE Author: Fastjack
-# SAUCE Group: boil
-# SAUCE Date: 19970416
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: logout by Fastjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-dope-fj-logou
 
 Write-Host '
      [31m▄▄[0;1;31;41m░[0;31m▀▀▀▀▀[0;37m [0;31m▀[0;1;31;41m░[0;31m▄[0m     [33m▄▄▄▄[0;37m [0;31m░▀▀▀[0;37m [0;33m▄▄▄▄[0;37m [0;31m░▀▀[0;37m  [0;33m▄▄▄▄[0;37m [0;31m░[0m    [33m▄▄▄▄[0;37m  [0;31m▀▀▀▀▀▀[0;34;41m░[0;31;40m▄▄▄▄[0;37;40m  [0;31;40m▀[0m

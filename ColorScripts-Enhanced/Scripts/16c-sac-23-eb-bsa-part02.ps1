@@ -1,13 +1,4 @@
-﻿# Converted from: EB-BSA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac-23/raw/EB-BSA.ANS
-# Source Revision: archive-sha256:1921672734c7818fcbf7050b559f246f1a2a348d80b0ea01934335bff16412b2
-# Source SHA-256: c0ccb1a98ea967ae0478599168175838b150e76d8932a7fdd143411ffa445303
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EB-BSA.ANS by eboy; released in sac-23 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
-# Lines: 51-85
-# Columns: 1-80
+﻿# Artwork: EB-BSA.ANS by eboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac-23-eb-bsa-part02
 
 Write-Host '
 [1;37;46m▓▓▓████▓███████▓[0;1;37;40m██[0;1;37;46m▓[0;1;37;40m▄▄[0;36m▀▀[0;1;34;46m░░▒░░░░░░░▒░░░░░▒░░░░░░░▒▒░░░░░░░░░░░░░░░░░░░░░░░░░░[0;36m▀▀[0;1;37m▄[0;1;37;46m▓[0m

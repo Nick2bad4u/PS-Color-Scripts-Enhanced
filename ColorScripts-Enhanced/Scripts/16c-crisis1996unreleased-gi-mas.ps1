@@ -1,18 +1,4 @@
-﻿# Converted from: GI-MAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/crisis1996unreleased/raw/GI-MAS.ANS
-# Source Revision: archive-sha256:d42db79c3670e318c85ffe28ad5142bf995c4610d0c05cf0eae2c80b9a793fbb
-# Source SHA-256: 66f7dc533111a06d0f82893d233f5851b2a3f29d04036a560eb5fe6068184e07
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GI-MAS.ANS by Giger (crisis); released in crisis1996unreleased and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: MaSoCHiSM
-# SAUCE Author: Giger
-# SAUCE Group: crisis
-# SAUCE Date: 19960402
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: MaSoCHiSM by Giger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-crisis1996unreleased-gi-mas
 
 Write-Host '
                     [32m [0m     [1;34m                          [0m

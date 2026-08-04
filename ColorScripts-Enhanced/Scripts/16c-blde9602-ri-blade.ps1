@@ -1,18 +1,4 @@
-﻿# Converted from: RI-BLADE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9602/raw/RI-BLADE.ANS
-# Source Revision: archive-sha256:5e4639f25c539923328bf5d3dcaf0345f7881a951b04cd174712ef6ec2433a3a
-# Source SHA-256: 652359317b0bbfddfd736ccb697c0ad82d470617633c891d57e0f929f76705b7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RI-BLADE.ANS by rai (blade productions); released in blde9602 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: blade productions!
-# SAUCE Author: rai
-# SAUCE Group: blade productions
-# SAUCE Date: 19960128
-# SAUCE Dimensions: 80x25
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: blade productions! by rai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9602-ri-blade
 
 Write-Host '
 [1;33;43m▓▓▓▓[0;1;33;40m█[0;1;33;43m▓[0;1;33;40m██████[0m [1;33;43m▓▓▓[0;1;33;40m████████▌▐██ █████████████[0m [1;33m█████████████████▄▄▄▄▄▄ [0;1;37m▀▀▀▀[0;1;37;47m██▄▄░░░░░[0m

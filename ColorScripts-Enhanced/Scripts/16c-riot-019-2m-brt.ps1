@@ -1,18 +1,4 @@
-﻿# Converted from: 2M-BRT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot-019/raw/2M-BRT.ANS
-# Source Revision: archive-sha256:9aa1bfedb3e77f40c8d03939fcdaf89791a58ec89409180a06683fe78363ea15
-# Source SHA-256: e9bdc477d7be1222f5f8b65de026e9ff303dbd0705f86f34c0ffb9e20fef11ad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2M-BRT.ANS by 2mStone (RioT Productions); released in riot-019 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Black Rose Tavern
-# SAUCE Author: 2mStone
-# SAUCE Group: RioT Productions
-# SAUCE Date: 19981020
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Black Rose Tavern by 2mStone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot-019-2m-brt
 
 Write-Host '
              [1;30m [0m▄▄▄▄▄▄▄▄▄▄▄ ■[1;30m [0m▀▀▀██▄▄

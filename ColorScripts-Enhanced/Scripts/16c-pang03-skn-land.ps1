@@ -1,13 +1,4 @@
-﻿# Converted from: SKN-LAND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pang03/raw/SKN-LAND.ANS
-# Source Revision: archive-sha256:9a4d3bad3e5904d1f75fb63220bec772afa6ee695697fd873d943948d0f4ac7d
-# Source SHA-256: 95de98baabc688a1057743f4dd6bc0dfb0e0a76de3a16a4bbfdc566d0110a9a9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SKN-LAND.ANS by Skin 972 (pang03); released in pang03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: SKN-LAND.ANS by Skin 972 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pang03-skn-land
 
 Write-Host '
 [1;34;47m▓▓▓▓[0;1;34;40m████████[0;1;34;44m▀[0;34m▀[0m   [1;34m   [0m  [1;31m  [0m                                               ░░

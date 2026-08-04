@@ -1,16 +1,4 @@
-﻿# Converted from: DR-25.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twi-9701/raw/DR-25.ANS
-# Source Revision: archive-sha256:26418846e3f66c7b21ef5303595f591853876ded0de00cde7eba5a3033612321
-# Source SHA-256: adb73d3137cbed3fda14e2140552507c8ccf79fb0ddea661efd97fe669decc7d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DR-25.ANS by Drakul ian (Twilight); released in twi-9701 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Madskills 23 liner
-# SAUCE Author: Drakul ian
-# SAUCE Group: Twilight
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Madskills 23 liner by Drakul ian | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twi-9701-dr-25
 
 Write-Host '
  [31m░ [0;37m [0;31m ░[0;30;41m▓[0;31;40m░░░░▒▒▒▒▒░░░░[0;37;40m  [0;30;41m▓▓[0;37;40m  [0;33;40m ░[0;37;40m [0;33;40m [0m         [33;40m░[0;37;40m [0;33;40m░░[0;37;40m         [0;33;40m░░[0;37;40m    [0;33;40m░░▓▀ [0;37;40m [0;33;40m▀▓█[0;37;40m  [0;33;40m▄▄▓▒▒░░[0m

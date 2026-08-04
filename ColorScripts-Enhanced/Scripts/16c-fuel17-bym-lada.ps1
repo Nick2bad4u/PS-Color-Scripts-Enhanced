@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-LADA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel17/raw/BYM-LADA.ANS
-# Source Revision: archive-sha256:6bb17dad2b087feff514e10d76b337034c943aff1fa5007d50b103cb34f90d66
-# Source SHA-256: 15e5bf2aa3452748b503ea44904acb7b57c71eeefbe9261f5c7ed682cee0ccdd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-LADA.ANS by big yellow man (fuel); released in fuel17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: artflow matrix
-# SAUCE Author: big yellow man
-# SAUCE Group: fuel
-# SAUCE Date: 19971001
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: artflow matrix by big yellow man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel17-bym-lada
 
 Write-Host '
        [1;30m▄[0m    [1;30m▄▄▄▌▀[0m       [1;30m▄▄▄▄▄▐▓▀         [0m   [1;30m▄▄███▀[0m     [36m▄▌[0m   [36m░[0m

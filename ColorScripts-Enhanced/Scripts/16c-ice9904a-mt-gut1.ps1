@@ -1,13 +1,4 @@
-﻿# Converted from: MT-GUT1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9904a/raw/MT-GUT1.ICE
-# Source Revision: archive-sha256:9f6bff68a40db749740d2e0fbe038a067a6703500ec4daa1d17beb547384b3bc
-# Source SHA-256: 2fd04b95dd88f4917cd9287333f3e834e7a0ee4cafbbbe2a17c7f0608241feb8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MT-GUT1.ICE by Misfit (ice9904a); released in ice9904a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: MT-GUT1.ICE by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9904a-mt-gut1
 
 Write-Host '
 [36m ▄▄█████▄  ░▄██[0;1;33;46m    [0;36m█▀▀█▄█▄▄▄   ▄▄██████▄███▄▄█▄▄▄▄  ░░ ░▄▄███▄▄▐█▄███▓▓▒▓██▄▄▄[0m

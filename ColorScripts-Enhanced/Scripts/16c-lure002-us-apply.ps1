@@ -1,15 +1,4 @@
-﻿# Converted from: US-APPLY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lure002/raw/US-APPLY.ANS
-# Source Revision: archive-sha256:f1a17285c6f66215a41b3537354833c5fccbb84d30b92c78e4ea0603dc7f8cf1
-# Source SHA-256: b920b113c9561bfd73e7bc11130a0543e5ac5a6f683643040e6c30330f02debf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-APPLY.ANS by Avenging Angel + Smoke (lure002); released in lure002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20020216
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: US-APPLY.ANS by Avenging Angel + Smoke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lure002-us-apply
 
 Write-Host '
 [1;31;47m       ▀█[0;1;31;41m█▄[0;1;31;40m▄▄▄[0;31m█▀▀[0;1;31;41m▀█[0;1;31;47m▄     ▀[0;1;31;41m█▄░░░░[0;31m█▄█[0;1;31;41m▄[0;1;31;47m▓▄[0;1;31;41m▀[0;31m▀[0;34m▄[0;37m  [0;1;31;47m ▄▓[0;1;31;41m▀[0;31m▀[0;37m  [0;34m▄[0;37m  [0;31m▄▄█[0;1;31;41m▄[0;1;31;47m▀▓[0;1;31;41m▀[0;31m▀[0;37m   [0;35m▀[0;1;35;45m▀███▄[0;35m███▀[0;1;35;45m▀███▄[0;35m▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: CH-TOTCH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/heat-04/raw/CH-TOTCH.ANS
-# Source Revision: archive-sha256:790223fc34f1e6181bfaff47a39d8ae72cceea1f08ac57acae6f612973572ec9
-# Source SHA-256: ae28de7d758eaf38ddf82feec3e6ebdc64398844d9ab94a029463a7abdbd983d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CH-TOTCH.ANS by Crazy Horse + Magnus (heat-04); released in heat-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 46-87
-# Columns: 1-80
+﻿# Artwork: CH-TOTCH.ANS by Crazy Horse + Magnus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-heat-04-ch-totch-part02
 
 Write-Host '
                               [31m▓▓▓▓▓▓█ ▓▓▒ ▓▓▒██████████ ▄▓[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: S4-EE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-18a/raw/S4-EE.ANS
-# Source Revision: archive-sha256:79b264e900b0f3c0c1e1dfcb2a371291868034bc95083657623124fe09fd8162
-# Source SHA-256: 3aa9bd2d969127ed181e8d2069cd3e429146f830e621e2c81c3f5b743d36c997
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S4-EE.ANS by Static Addiction (rca-18a); released in rca-18a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: S4-EE.ANS by Static Addiction | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-18a-s4-ee
 
 Write-Host '
 [1m[0m[1m[0m[1m[0m[1m[0m

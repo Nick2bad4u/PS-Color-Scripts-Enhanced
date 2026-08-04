@@ -1,13 +1,4 @@
-﻿# Converted from: MARAUDER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acid_l-r/raw/MARAUDER.ANS
-# Source Revision: archive-sha256:499c9b46916e1ae397884d58998fd5ed4387f783522347b660512aee3acb2ec0
-# Source SHA-256: cea7d5adfbd1ac28ec696bde02002911e67734422ad6c0f9406f6acbbd408efa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MARAUDER.ANS by The Malevolent Trickster (acid_l-r); released in acid_l-r and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 40-75
-# Columns: 1-80
+﻿# Artwork: MARAUDER.ANS by The Malevolent Trickster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acid-l-r-marauder-part02
 
 Write-Host '
          [33m▐[0;1;30;43m░▀▀▀▀▀[0;1;30;41m▀▀▌[0;33m▌[0m                               [33m▐[0;1;30;43m▒▒▒░░░░░[0;33m▓▓▓▓▓▓▓▓▓▓█▒▓▌[0;1;30m█[0m

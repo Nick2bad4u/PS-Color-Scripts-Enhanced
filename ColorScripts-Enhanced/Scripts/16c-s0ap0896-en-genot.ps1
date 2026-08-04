@@ -1,18 +1,4 @@
-﻿# Converted from: EN-GENOT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/s0ap0896/raw/EN-GENOT.ANS
-# Source Revision: archive-sha256:7d0a140f529eae19c883c8148a21e14165d8c770e39610a28ae96e53bb9f8b6b
-# Source SHA-256: 4e90d0b47c89c8c9b197d9eca9ffd8fb3ef04ace34f30443a28b5f2d771753e7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EN-GENOT.ANS by Endless Nameless (s0ap); released in s0ap0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Genotia
-# SAUCE Author: Endless Nameless
-# SAUCE Group: s0ap
-# SAUCE Date: 19960715
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: Genotia by Endless Nameless | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-s0ap0896-en-genot
 
 Write-Host '
 [32m[0m     [1;30m   [0;32m  [0;36m $[0;32m&[0;1;32m#s,.__  _  _ [0;32m [0m   [32m   [0;37m                            [0;33m [0;1;30m.[0m

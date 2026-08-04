@@ -1,18 +1,4 @@
-﻿# Converted from: AD-BEAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pyro02/raw/AD-BEAT.ANS
-# Source Revision: archive-sha256:535d22e2025d36e67624f8fb7beb22ccd3cf751884c55590454ec93afcc01bf4
-# Source SHA-256: fdb050ad40b63e683540c996b0d0bf0ffd7b0bdb96d02a09207af06c5fe11b17
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AD-BEAT.ANS by Ad0lF (Pyro); released in pyro02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Beat It
-# SAUCE Author: Ad0lF
-# SAUCE Group: Pyro
-# SAUCE Date: 19951210
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Beat It by Ad0lF | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pyro02-ad-beat
 
 Write-Host '
 [1;30m [0m                                                          [1;36m       [0m

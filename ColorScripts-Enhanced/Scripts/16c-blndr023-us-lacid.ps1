@@ -1,18 +1,4 @@
-﻿# Converted from: US-LACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr023/raw/US-LACID.ANS
-# Source Revision: archive-sha256:d04f3c4088710b2fea91ee389cc3282b48fc5d9c8b7b01f27e65f35a8dbab215
-# Source SHA-256: 2c71b80dd1eeaa90e6b153453a418103334e47987b40823b07f9d4c407a51d8f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-LACID.ANS by Nitris + Madman (lacidus); released in blndr023 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: blender 23
-# SAUCE Author: madman and nitris
-# SAUCE Group: lacidus
-# SAUCE Date: 19970427
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: blender 23 by Nitris + Madman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr023-us-lacid
 
 Write-Host '
 [34m█▄    ▄[0;30;44m   [0;34;40m█▄    ▄[0;30;44m  [0;34;40m█▄    ▄[0;30;44m    [0;34;40m█[0;30;44m       [0;34;40m█▄    ▄[0;30;44m   [0;34;40m█▄    ▄[0;30;44m   [0;34;40m█▄    ▄[0;30;44m   [0;34;40m█▄    ▄[0;30;44m     [0m

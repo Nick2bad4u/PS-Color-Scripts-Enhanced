@@ -1,16 +1,4 @@
-﻿# Converted from: Luciano-3-1-Shadow Unlimited.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_block_n_roll/raw/Luciano-3-1-Shadow%20Unlimited.ans
-# Source Revision: archive-sha256:7fb236dbe697aa7c8078c3dba58eee322aac93be4dc7fe416e0fcb955a29d4fb
-# Source SHA-256: 032a64fe56b1fb23c42c4cb0aef470607590aca4eaf0cbf3413cc207e460d0fd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Luciano-3-1-Shadow Unlimited.ans by Enzo (blocktronics_block_n_roll); released in blocktronics_block_n_roll and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20160423
-# SAUCE Dimensions: 80x152
-# SAUCE Font: IBM VGA
-# Lines: 116-152
-# Columns: 1-80
+﻿# Artwork: Luciano-3-1-Shadow Unlimited.ans by Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-block-n-roll-luciano-3-1-shadow-unlimited-part04
 
 Write-Host '
                                     [1;30m▀[0;36m▒[0;1;30m▀[0;1;37m█[0m▀   [1;30m▀[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: V9-704.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0697/raw/V9-704.ANS
-# Source Revision: archive-sha256:d190a8046767bbc429812300532b65ff0ea6e011704fc75ed31c91d378c985ff
-# Source SHA-256: 5c5506441f6207d2ef8c3527f65aa34f0abc3b0f6b80c172cc5a1333723197c0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: V9-704.ANS by Vade79 (f1RE Productions); released in fire0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Toast704
-# SAUCE Author: Vade79
-# SAUCE Group: f1RE Productions
-# SAUCE Date: 19970512
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Toast704 by Vade79 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0697-v9-704
 
 Write-Host '
 [1;35m ▄▄[0;35m▄▬[0;1;30m [0m  [31m▬ [0;1;35m░░[0;35m▄[0;1;35m▄▄▄▄[0;35m▄[0;37m  [0;31m▌[0;37m  [0;31m░░ [0;35m▐[0;1;35m▄▄▄▄▄[0;35m▄  ▄▄▄▄▄▄▄▄▄[0;1;35m▄[0;35m▄▄[0;1;35m▄▄▄▄▄▄▄▄▄▄[0;35m▄[0;1;35m▄▄▄▄▄▄▄▄▄▄[0;35m▄▄[0;37m [0;31m  ▄[0;31;47m▓[0;31;40m▀  ▄▐[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: ICE-UW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dvt-a002/raw/ICE-UW.ANS
-# Source Revision: archive-sha256:cebc39699ae8b25ba518b2ba5782156ca1128226a0f97880c63d4b8cd53b3a57
-# Source SHA-256: b751d46138e294522cf2405cf5abb11bba05b9635c04542dcb9e29c56feb7424
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ICE-UW.ANS by Iceman (dvt-a002); released in dvt-a002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: ICE-UW.ANS by Iceman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dvt-a002-ice-uw
 
 Write-Host '
 [1m80x50![0m                   [1m█▀▀▀▀▀▀█[0m

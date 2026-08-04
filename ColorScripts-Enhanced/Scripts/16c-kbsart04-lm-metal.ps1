@@ -1,17 +1,4 @@
-﻿# Converted from: Lm-metal.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/kbsart04/raw/Lm-metal.ans
-# Source Revision: archive-sha256:b56eb6daaf367cbf9682fef251319323b3d3bc4ad39e35398f3d3dd318332e76
-# Source SHA-256: 1cd0b39bea49dde937686f94ad7805b988701966d63c2be83e1850bf7ebeea14
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Lm-metal.ans by lichmistress (genuine); released in kbsart04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: lichmistress
-# SAUCE Group: genuine
-# SAUCE Date: 19991130
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Lm-metal.ans by lichmistress | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-kbsart04-lm-metal
 
 Write-Host '
 

@@ -1,15 +1,4 @@
-﻿# Converted from: RN-4SERA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-02/raw/RN-4SERA.ANS
-# Source Revision: archive-sha256:39d2334584977ac14b33f06b2f4e2bf93d1902538006b996fc8bb6135cc5d15c
-# Source SHA-256: 1bff17449b0c1bf94986c5086388ca31c169bb5aaf7cf1bd1ab9a33bd98a4324
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RN-4SERA.ANS by The Ruiner (glue-02); released in glue-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 19970830
-# SAUCE Dimensions: 80x63
-# Lines: 31-63
-# Columns: 1-80
+﻿# Artwork: RN-4SERA.ANS by The Ruiner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-02-rn-4sera-part02
 
 Write-Host '
 [1;34m   [0;34m▐[0;1;34m  [0;34m▐[0;1;34m  [0m [1;35;45m  [0;1;35;40m██████████[0;1;35;47m██████████████[0;1;35;40m███▌ [0;32m▐▄▄▄▄[0;1;33m [0;33m▀[0;1;33m▀▀[0;32m ▐█▌[0;1;34m▐███████████▌ ███████[0;1;34;44m▄[0;1;34;40m▄[0;34m▄[0;1;34m [0m

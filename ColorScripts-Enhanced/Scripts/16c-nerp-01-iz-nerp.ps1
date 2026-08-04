@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-NERP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-01/raw/IZ-NERP.ANS
-# Source Revision: archive-sha256:c4f943c9f8f5c49a2aabdd3612f9f26bd1b04de18aa8de6e38c69a3051111537
-# Source SHA-256: 255e6170adc6f465bd1845de5f5a1f2661bf78e7ef9b726c03d9c9bee9847494
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-NERP.ANS by 1ZEH (NERP@!); released in nerp-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: nERP!
-# SAUCE Author: 1ZEH
-# SAUCE Group: NERP@!
-# SAUCE Date: 19970715
-# SAUCE Dimensions: 80x18
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: nERP! by 1ZEH | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-01-iz-nerp
 
 Write-Host '
           [31m [0m

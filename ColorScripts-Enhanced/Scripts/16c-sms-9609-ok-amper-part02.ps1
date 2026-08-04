@@ -1,17 +1,4 @@
-﻿# Converted from: OK-AMPER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9609/raw/OK-AMPER.ANS
-# Source Revision: archive-sha256:96c031e04e5c479ef9ed73f1afa21a3db6bca2a2de7ad88a46888136232884ff
-# Source SHA-256: 379ca3fa0a169f378f390b82e0952a0a37d2e7ff9fada865a89eca1851da585e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OK-AMPER.ANS by Outkast (Samsara); released in sms-9609 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: & (Ampersand)
-# SAUCE Author: Outkast
-# SAUCE Group: Samsara
-# SAUCE Dimensions: 80x25
-# Lines: 37-71
-# Columns: 1-80
+﻿# Artwork: & (Ampersand) by Outkast | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9609-ok-amper-part02
 
 Write-Host '
 [35;41m░░[0;31;40m█[0;1;33;40m ▀▄[0m [1;33m▀▀▀▄[0m [31m█▓▄[0;37m [0;1;33m▀[0;1;33;41m▓▓[0;1;33;47m▓[0;1;33;40m█▓█[0m [1;30m▀▄[0;1;32m▀[0;32m▀[0;1;30m▄[0m [33m▄[0;1;30m▀[0;1;30;47m▓[0;1;30;40m██[0;1;30;47m▓[0;1;30;40m▄[0m [32m▀▀[0;37m [0;1;30m▄▄█▄▄▄[0;1;32m▀[0m [1;30m▄██[0;1;30;47m▓[0;1;30;40m▄░[0m [1;30m▀▄[0m    [31m░░[0m    [31m█[0;30;41m▓[0;37;40m [0;31;40m▄█▀▄▓▀█[0;31;43m▓[0;31;40m▓[0m

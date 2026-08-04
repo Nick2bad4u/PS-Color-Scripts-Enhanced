@@ -1,18 +1,4 @@
-﻿# Converted from: BP-SPLIT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0396/raw/BP-SPLIT.ANS
-# Source Revision: archive-sha256:1c74698b6bb36c67ca170e4e3759a91f94a3423157bd644c80d820a8fe56fd8d
-# Source SHA-256: 2b82e22a80e0eb15c2138dc0adfaa7a73ca16d8fa6643b22ed267431fec1f10f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BP-SPLIT.ANS by Bigge Pif (fire); released in fire0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Split Second
-# SAUCE Author: Bigge Pif
-# SAUCE Group: fire
-# SAUCE Date: 19960101
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Split Second by Bigge Pif | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0396-bp-split
 
 Write-Host '
                          [1;33m` [0;31ms p l i t  s e c o n d [0;1;33m''[0m

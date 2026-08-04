@@ -1,20 +1,4 @@
-﻿# Converted from: wa-flashparty-2022.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz16/raw/wa-flashparty-2022.ans
-# Source Revision: archive-sha256:b093dd3cb06bf783d59a9df3724c51f9a41f686cd4fd545c920ada008d959f7a
-# Source SHA-256: eef173edc00f89fdbec9b07c63fb17974db3daff7ae6579dedf3121c78eebb35
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-flashparty-2022.ans by warpus (LAZARUS); released in laz16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: FLASH PARTY 2022
-# SAUCE Author: warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20220929
-# SAUCE Dimensions: 80x136
-# SAUCE Font: IBM VGA
-# SAUCE Comments: THE BEST DEMOPARTY SOUTH OF MIAMI
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: FLASH PARTY 2022 by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz16-wa-flashparty-2022-part02
 
 Write-Host '
 [1;37m██▓[0;33m ▀▓▒░ ███▓█████▐▓▐███▓▐███████████▌█▓▒▐████████▓▓█▓░▐█▌████▓▓██▓███▓█▓▀▀▀[0;1;37m▄▄██[0m

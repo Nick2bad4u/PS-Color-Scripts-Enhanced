@@ -1,18 +1,4 @@
-﻿# Converted from: MS!BLUR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blur9608/raw/MS!BLUR.ANS
-# Source Revision: archive-sha256:b7e32d66c5e7d34aeada9c181e3ca4f933570a8887545f8df4f9ab36f4c2fe1a
-# Source SHA-256: ce3ae45061f984255ced567f9db71065f2ad188db7213e656847e9036cae3950
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MS!BLUR.ANS by Mrs. And Man (blur); released in blur9608 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: bLURPmemberBOARDpromo!!!
-# SAUCE Author: Mrs. And Man
-# SAUCE Group: blur
-# SAUCE Date: 19960705
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: bLURPmemberBOARDpromo!!! by Mrs. And Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blur9608-ms-blur
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: PA-SCUM2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9606a/raw/PA-SCUM2.ICE
-# Source Revision: archive-sha256:5e6dcb16553010578f6a54fc5ab7554ad5fc1d41913968e4935ca2f10c08a8a7
-# Source SHA-256: d5024df54e5400a28936a51127ae42565cd4e6a930fee4bcf62dbe7c5a17b446
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PA-SCUM2.ICE by Parasite (ice9606a); released in ice9606a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: PA-SCUM2.ICE by Parasite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9606a-pa-scum2
 
 Write-Host '
 [1;30m▀▀[0;36m [0;1;30m░░[0;36m [0;1;30m▄▄▄[0;1;30;47m▓▓[0;1;30;40m███▀▀▀▀▀[0;36m  ▄▄▄[0;1;36;46m░░[0;36m  ░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m [0m    [31;40m░[0;30;41m▓[0;31;40m░▒▒░[0;30;41m▓▓[0;31;40m░[0;30;41m▓[0;32;40m [0;30;41m▓[0m       [31;40m▀▌[0;1;30;40m    [0;31m░[0;1;30m  [0;31m░[0;30;41m▓[0;1;30;40m             [0m

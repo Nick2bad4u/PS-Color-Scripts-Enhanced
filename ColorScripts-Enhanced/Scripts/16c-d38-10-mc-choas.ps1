@@ -1,13 +1,4 @@
-﻿# Converted from: MC!CHOAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-10/raw/MC!CHOAS.ANS
-# Source Revision: archive-sha256:ba7c4a4551adb8285347fd98fdb9f0a91fe459313bdff549b9e589778adcfcfe
-# Source SHA-256: 206dd065580422985a8694a25147c255dfb2a99a188cf1d1ce495caf9673ecaf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MC!CHOAS.ANS by Madcap (d38-10); released in d38-10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: MC!CHOAS.ANS by Madcap | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-10-mc-choas
 
 Write-Host '
 [1;33m██▓▄▄▄▄ [0;36m▀▀[0;1;36m▀[0;1;36;46m▀▓[0;1;36;40m████l[0;36m▌ [0;35m▐[0;35;45m█████████████████████[0;35m▀ ▀▌[0m        [35m▀▓[0;35;45m████████████[0;35m▀─   ▀[0;35;45m█████[0m

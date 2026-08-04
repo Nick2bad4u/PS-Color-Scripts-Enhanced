@@ -1,13 +1,4 @@
-﻿# Converted from: mv-ardor.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0202/raw/mv-ardor.ans
-# Source Revision: archive-sha256:2dab715e9f2d819e9161d3954fa8210558a1b83f118c830394e2fdee6408a093
-# Source SHA-256: 9168faa4c0c2dca86733f1ba67c3ca5026eb6a846f7713653a47a9881a1e8a08
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mv-ardor.ans by Mr Violent (rev0202); released in rev0202 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: mv-ardor.ans by Mr Violent | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0202-mv-ardor
 
 Write-Host '
              [1;30m░░░[0m                                                       [1;30m░░░░ (tm)[0m

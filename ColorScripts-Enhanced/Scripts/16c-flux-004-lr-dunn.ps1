@@ -1,18 +1,4 @@
-﻿# Converted from: LR!-DUNN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flux-004/raw/LR!-DUNN.ANS
-# Source Revision: archive-sha256:184a3f5dd0450d61dd9a9b4da05ef76ebec147753f33bfa3706045bb53c0d7a5
-# Source SHA-256: c1c12e9b39e7dfcacbda0580f0fd7d567373988bb8f0e87446a8716fc4e9c09e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LR!-DUNN.ANS by LATE RISER (FLUX '97); released in flux-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: for learning purpose
-# SAUCE Author: LATE RISER
-# SAUCE Group: FLUX '97
-# SAUCE Date: 19971022
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: for learning purpose by LATE RISER | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flux-004-lr-dunn
 
 Write-Host '
 [1;36;46m ▄▌[0;36m█[0;1;36;46m░░[0;36m▀▀▀[0m   [32m▄▄▄▄[0;1;32m [0;36m█[0;1;36;46m░░[0;36m▀▀▀▀▀▀▌[0;33m▐[0;1;37;43m██▌[0m [36m▀▀[0;37m  [0;1;34m▄▄▄[0m  [36m▀██▀▀▀▀[0;37m [0;36m▀▀▀[0;37m [0;36m▀▀[0;37m [0;36m▀[0;37m  [0;36m▀[0m

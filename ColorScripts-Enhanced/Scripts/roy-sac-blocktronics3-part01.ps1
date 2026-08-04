@@ -1,13 +1,4 @@
-﻿# Converted from: BLOCKTRONICS3.ANS
-# Source encoding: CP437
-# Source URL: https://www.roysac.com/images/galleries/ZIP/Roy_ANSI.ZIP
-# Source Revision: archive-sha256:8598a9432b4feb86c4e79552795b407b9d7c576fb6f25e9828d6143f1c7b35bc
-# Source SHA-256: 095c2dc5335f7ba848fe17c11c5b0072b205f599591ca5f78422e8856471296a
-# Source License: FAL-1.3
-# Source Attribution: BLOCKTRONICS3.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: BLOCKTRONICS3.ANS by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-blocktronics3-part01
 
 Write-Host '
 [1;30;40m  [0;31m█████████████████████[0;1;31;41m░[0;31;40m██[0;1;31;41m░░▒░░[0;31;40m█[0;1;31;41m▒▒░░[0;31;40m███[0;1;31;41m░[0;31;40m██[0;1;31;41m░[0;31;40m█[0;1;31;41m░[0;31;40m██████████████████████████████[0m

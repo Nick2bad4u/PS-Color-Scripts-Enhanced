@@ -1,18 +1,4 @@
-﻿# Converted from: CP_BURN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense13/raw/CP_BURN1.ANS
-# Source Revision: archive-sha256:b0563618478d6216eb6bd83ff569d789b2e87f637bf95d7f88699f5b40df3192
-# Source SHA-256: b6d63f6522874149b69f0b43389ada93f19dae1e1dfa4b1ddcf8b7e190fe2781
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CP_BURN1.ANS by cyberphreak (burn); released in sense13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: burn
-# SAUCE Author: cyberphreak
-# SAUCE Group: burn
-# SAUCE Date: 19980901
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: burn by cyberphreak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense13-cp-burn1
 
 Write-Host '
 [1m[0m[1m[0m       [1;34m▄▄▄▄▄[0;1;34;47m▀[0m    [1;34;40m [0m                                       [1;34;40m░░[0m

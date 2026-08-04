@@ -1,18 +1,4 @@
-﻿# Converted from: tri-ft.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/homosex9/raw/tri-ft.ans
-# Source Revision: archive-sha256:c3a9c9896ba32110d2c8b2498f582083e2119797ddd9bc59c81f8d86d0c00623
-# Source SHA-256: 0a1ad8acc30ea3b78bb946a2a2ee875642479ad5883d99303a35dfedb33cd491
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tri-ft.ans by Discyple + Meatpod + Sargon (hOMO); released in homosex9 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: flash traffick
-# SAUCE Author: the tRIUMVIRATE
-# SAUCE Group: hOMO
-# SAUCE Date: 19970803
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: flash traffick by Discyple + Meatpod + Sargon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-homosex9-tri-ft
 
 Write-Host '
 [35m$P²^[0;36m_.,╥y%%%y╥,.[0;35m`└[0;1;36m [0;36m╓,._[0;35m`└$P*┴┴┴*?$P┘`[0;36m_.,╥╥[0;1;36m  [0;35m$$$[0;1;35m [0;1;36m  [0;35m`^"╚*[0;1;36m  [0;36my╥,._[0;37m  [0;35m$.[0m   [1;30m           [0m

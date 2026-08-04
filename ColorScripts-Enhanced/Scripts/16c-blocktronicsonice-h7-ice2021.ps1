@@ -1,19 +1,4 @@
-﻿# Converted from: H7-ICE2021.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronicsonice/raw/H7-ICE2021.ans
-# Source Revision: archive-sha256:09feb7a5adb913c88be16d43a1a4e86bf7073f13399d8bc54e5478cad35282e5
-# Source SHA-256: 23d6a525e2ec2031e9b8d3a90a85c8ea64df4984c72035c3ad2b36d05674236c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: H7-ICE2021.ans by h7 (blocktronics); released in blocktronicsonice and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ice
-# SAUCE Author: h7
-# SAUCE Group: blocktronics
-# SAUCE Date: 20220315
-# SAUCE Dimensions: 80x27
-# SAUCE Font: IBM VGA
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: ice by h7 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronicsonice-h7-ice2021
 
 Write-Host '
 

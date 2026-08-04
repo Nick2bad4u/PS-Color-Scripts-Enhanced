@@ -1,18 +1,4 @@
-﻿# Converted from: P-RUBLU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe02/raw/P-RUBLU.ANS
-# Source Revision: archive-sha256:ce5cd736ecea3fcfef2c1df40ab4bdd995f6b633f97f1788244355f98c5d174e
-# Source SHA-256: 6b8ee897982410589b8d3d794e0280fbc78a97a22c6454e3d9262f008f05e75f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P-RUBLU.ANS by pop-a (circe); released in circe02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: runnin' blues
-# SAUCE Author: pop-a
-# SAUCE Group: circe
-# SAUCE Date: 19971203
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: runnin' blues by pop-a | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe02-p-rublu
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: SK!IPC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p01_99/raw/SK!IPC.ANS
-# Source Revision: archive-sha256:8f60f196ab9303212b95219847d0542467217a03e8a054cd4a20b59f229d7873
-# Source SHA-256: c8895eb5829fe7a740ba5679d851ea3f5e920099004971dac2ae958fd3b5ca04
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!IPC.ANS by sIMONkING (thelo0p); released in l0p01_99 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: iPC - polska legenda
-# SAUCE Author: sIMONkING
-# SAUCE Group: thelo0p
-# SAUCE Date: 19990304
-# SAUCE Dimensions: 80x45
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: iPC - polska legenda by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p01-99-sk-ipc
 
 Write-Host '
               [36m▀▄[0m                   [33m    [0m

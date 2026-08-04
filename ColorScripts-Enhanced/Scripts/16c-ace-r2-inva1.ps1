@@ -1,13 +1,4 @@
-﻿# Converted from: INVA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ace-r2/raw/INVA1.ANS
-# Source Revision: raw-sha256:8500128d25014ab2922949ef3308e426e0f16b6e0f55c7f418e3a5a57c7c3b4b
-# Source SHA-256: 8500128d25014ab2922949ef3308e426e0f16b6e0f55c7f418e3a5a57c7c3b4b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: INVA1.ANS by Lemming (ace-r2); released in ace-r2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: INVA1.ANS by Lemming | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ace-r2-inva1
 
 Write-Host '
 [1;36;46m█▓▓▓▓▓▓█▓▓█▓▓▓▓▓█▓▓▓█▓▓█▓▓▓▓█▓▓▓▓█▓▓█▓▓█▓▓▓█▓▓▓█▓▓█▓▓█▓▓█▓█▓▓█▓▓█▓▓█▓█▓▓█▓▓█▓█▓█[0m

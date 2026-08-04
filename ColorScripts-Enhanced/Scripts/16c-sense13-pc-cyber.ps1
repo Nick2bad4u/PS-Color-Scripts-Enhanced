@@ -1,18 +1,4 @@
-﻿# Converted from: PC-CYBER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense13/raw/PC-CYBER.ANS
-# Source Revision: archive-sha256:b0563618478d6216eb6bd83ff569d789b2e87f637bf95d7f88699f5b40df3192
-# Source SHA-256: ce0c016e1a693821d5ba51125feb2597941dc0e2b8f068089e65031b6d7c4b9c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-CYBER.ANS by Proctologist (SeNSE); released in sense13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Cyber Phreak's inits
-# SAUCE Author: Proctologist
-# SAUCE Group: SeNSE
-# SAUCE Date: 19980905
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Cyber Phreak's inits by Proctologist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense13-pc-cyber
 
 Write-Host '
                         .           ,''   `,           .

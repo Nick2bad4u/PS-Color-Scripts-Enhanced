@@ -1,18 +1,4 @@
-﻿# Converted from: emk-01!r.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic31/raw/emk-01!r.ans
-# Source Revision: archive-sha256:ee450064cec26d9339c543030d303f94db3e515058fc530d084e7a4f78530e54
-# Source SHA-256: 01307f74997b9b5d21ffc2f5a3207c098d5a64ff3248e4451cb270492731f264
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: emk-01!r.ans by emok (mimic); released in mimic31 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: remorse promotion
-# SAUCE Author: emok
-# SAUCE Group: mimic
-# SAUCE Date: 20010104
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: remorse promotion by emok | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic31-emk-01-r
 
 Write-Host '
                          [1;33m.┌gg##gg┐.[0m

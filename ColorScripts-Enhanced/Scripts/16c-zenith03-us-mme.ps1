@@ -1,18 +1,4 @@
-﻿# Converted from: US-MME.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zenith03/raw/US-MME.ANS
-# Source Revision: archive-sha256:e8b012d9554c8de00edbf4ae4690e8ec101af64bf1491a5f5dd86a06158d71d2
-# Source SHA-256: 1589d29ff565c0cb00d3c03983de72712badadfc2ffa895b0085ca4b96a169bc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-MME.ANS by Massm + Taintedx (Multi); released in zenith03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Mimic
-# SAUCE Author: Multi
-# SAUCE Group: Multi
-# SAUCE Date: 19980731
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Mimic by Massm + Taintedx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zenith03-us-mme
 
 Write-Host '
    [36m▀▀▀███[0;1;37;46m░░[0;36m█████   [0;31m▒  [0;36m░█████████████████[0;36;46m  [0;36;40m██[0;36;46m▄▄▓[0;36;40m▀[0;36;46m░░[0;36;40m█  [0;31;40m▬    [0;36;40m██[0;36;46m░░[0;36;40m███████[0;36;46m [0;1;37;46m░[0;36m░[0m     [31m▄▄▄[0m

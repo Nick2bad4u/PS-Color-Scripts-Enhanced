@@ -1,13 +1,4 @@
-﻿# Converted from: GN-SCMET.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pang01/raw/GN-SCMET.ANS
-# Source Revision: archive-sha256:24a47d3a6396232434bffa2e1615955141cf762e5fd721c02b6ad40f81a7def7
-# Source SHA-256: 24dd96daa4fa9843c9d4df4684372c82652a1edc93972d11cb203669ab874f5d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GN-SCMET.ANS by Genick (pang01); released in pang01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: GN-SCMET.ANS by Genick | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pang01-gn-scmet
 
 Write-Host '
                                           [33m  [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: CK-DH1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9412/raw/CK-DH1.ANS
-# Source Revision: archive-sha256:b41d15e15138a70f793bdbf1405cc315054550aa9ff9ddbf322f906870d2a6d0
-# Source SHA-256: 5cfafacaa2b1275a1e30ab107f1d63258b13f66eab89cf6fc281774c43a906c2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CK-DH1.ANS by Chromatik (Blade Productions); released in blde9412 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Disposable Heros
-# SAUCE Author: Chromatik
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19941118
-# SAUCE Dimensions: 80x25
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: Disposable Heros by Chromatik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9412-ck-dh1-part01
 
 Write-Host '
 

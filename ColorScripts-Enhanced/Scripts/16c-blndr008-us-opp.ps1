@@ -1,18 +1,4 @@
-﻿# Converted from: US-OPP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr008/raw/US-OPP.ANS
-# Source Revision: archive-sha256:538713f6eceb08f3ae929b511bdabc41afc7e24581ca518038e52dcff7842248
-# Source SHA-256: cbd9c286bc76967eec3a3d47e6bbce2425203898993434a71d4433bf7490a586
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-OPP.ANS by Mel Farr Suppastar + Iceage (blND); released in blndr008 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: it's a secret
-# SAUCE Author: iceage + mfs
-# SAUCE Group: blND
-# SAUCE Date: 19970112
-# SAUCE Dimensions: 80x25
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: it's a secret by Mel Farr Suppastar + Iceage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr008-us-opp
 
 Write-Host '
 

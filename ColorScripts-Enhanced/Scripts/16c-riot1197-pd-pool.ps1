@@ -1,13 +1,4 @@
-﻿# Converted from: pd-pool.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot1197/raw/pd-pool.ans
-# Source Revision: archive-sha256:42a4ff2f69bb7f52710e2ec33efed1616917289c2c21517459d11ab153763ccb
-# Source SHA-256: c67f28aa35512459276e76448f102577b546fa655b94705a1aaa8b4660e2b7cb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: pd-pool.ans by The Jester (riot1197); released in riot1197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: pd-pool.ans by The Jester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot1197-pd-pool
 
 Write-Host '
 [34m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: ST-PULSE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-07/raw/ST-PULSE.ANS
-# Source Revision: archive-sha256:3007ab392a2ea4e107d02b3029b445696a097ac55d389caab2dbfe0944556beb
-# Source SHA-256: bb9b925fa93d6960a1132f491a89cbcaafdb39f9d8a9679100b6b4752df39d3d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-PULSE.ANS by splatt (eclipse); released in ecl-07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: iwannabeidbuticantbe!
-# SAUCE Author: splatt
-# SAUCE Group: eclipse
-# SAUCE Date: 19960914
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: iwannabeidbuticantbe! by splatt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-07-st-pulse
 
 Write-Host '
                                                 [30;44m▓[0;34;40m░[0;30;44m▓[0m

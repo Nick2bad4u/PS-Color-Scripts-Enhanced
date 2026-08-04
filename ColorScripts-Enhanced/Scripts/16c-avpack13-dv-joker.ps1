@@ -1,17 +1,4 @@
-﻿# Converted from: DV-JOKER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack13/raw/DV-JOKER.ANS
-# Source Revision: archive-sha256:4a26d5fa66db3ddd4cdcb2ef37b8cd0ed1462318d030e090ba0b76480554de3e
-# Source SHA-256: b68aa3a862c38076dff2ea15558bdb091badecce1538d3fbb5b47d85d2794fb9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DV-JOKER.ANS by digivamp (av / instability); released in avpack13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Apocalyptic thing
-# SAUCE Author: digivamp
-# SAUCE Group: av / instability
-# SAUCE Date: 19960723
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: Apocalyptic thing by digivamp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack13-dv-joker
 
 Write-Host '
      [35m▄▄▄▄▄▄▄▄▄▀▄▄▀▀▀▀▀▀▀▀[0m   [35m■▀[0m         [31m ▄[0m                  [35m                   [0m

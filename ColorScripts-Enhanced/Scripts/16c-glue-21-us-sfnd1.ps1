@@ -1,18 +1,4 @@
-﻿# Converted from: US-SFND1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-21/raw/US-SFND1.ANS
-# Source Revision: archive-sha256:f82ee46d8be1d82ea17d8bdc07ad3071d4259c4331c1829c972b5ae2082ebcd2
-# Source SHA-256: 3e9ec05ad0b759eae5a6ceeba6b0b4637c20b4e47e490d9288434a4089ebb3ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SFND1.ANS by Quip + Mr Wrong (Glue / Fokus); released in glue-21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Superfiend
-# SAUCE Author: Quip / Mr. Wrong
-# SAUCE Group: Glue / Fokus
-# SAUCE Date: 19990330
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Superfiend by Quip + Mr Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-21-us-sfnd1
 
 Write-Host '
 [34m [0m    [34m▄ [0m                     [34m▀[0m    [36m ░[0;37m  [0;36m [0m      [34m [0m          [34m▀[0m            [34m░[0m     [34m [0m

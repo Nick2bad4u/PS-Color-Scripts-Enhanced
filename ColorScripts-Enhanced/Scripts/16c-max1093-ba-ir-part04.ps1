@@ -1,13 +1,4 @@
-﻿# Converted from: BA-IR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/max1093/raw/BA-IR.ANS
-# Source Revision: archive-sha256:0eadf465f7f0bbeed36d224f251caefa5855eb8e01542512b98e8cde9ca3573c
-# Source SHA-256: d21dc82bacc070285b23a9e1afce62a1cb208043a8e6c3103506d4e3f29e1ddd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BA-IR.ANS by Black Aksion (max1093); released in max1093 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 127-175
-# Columns: 1-80
+﻿# Artwork: BA-IR.ANS by Black Aksion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-max1093-ba-ir-part04
 
 Write-Host '
 [31m██████    [0;1;33m█▓██ █▓▓█ ▄█▓█ █▓█ [0;31m▌ [0;1;33m████  █▓█  ██   ███  █▓█ [0;31m██  [0;1;33m██▀▀   [0;31m████████████[0m

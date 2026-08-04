@@ -1,18 +1,4 @@
-﻿# Converted from: ARL-AP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe07/raw/ARL-AP.ANS
-# Source Revision: archive-sha256:2cbba3cedd8eb19a25555cbc1ca3ce5023e1f497b14e2a9d7de86e055d96afd2
-# Source SHA-256: c3026a48307590bdff4179ec40bf57bcb202d71116c9147f937f8156d55203b4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARL-AP.ANS by Arlequin (Circe); released in circe07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Alien Pub
-# SAUCE Author: Arlequin
-# SAUCE Group: Circe
-# SAUCE Date: 19990203
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Alien Pub by Arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe07-arl-ap
 
 Write-Host '
 [1;36m██[0;36m██▀▀▀▀▀[0m       [37m▓▓▓[0;1;37m▒▒░░░[0m         [1;30m [0;1;37m░░▒▒[0m▓▓▓[1m▓[0m [36m█[0;1;36;46m████[0;1;37;40m░░░░░▒▒▒[0m▓▓▓▓[1m▓▓▓▓▓▓▓▓▓▓[0m    ▄▄

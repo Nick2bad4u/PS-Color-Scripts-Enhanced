@@ -1,18 +1,4 @@
-﻿# Converted from: DD-JAZZ1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/misery01/raw/DD-JAZZ1.ANS
-# Source Revision: archive-sha256:e802ebf512d2eb802f079fd327fff852b8c112992e81e4f15801eeb22870d111
-# Source SHA-256: e9d2a4612026c6ab51f4e158626c1b484faab4fb7ecb7414cdadafde908f7e40
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-JAZZ1.ANS by Da Drug (Misery Productions.); released in misery01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Jazz.
-# SAUCE Author: Da Drug
-# SAUCE Group: Misery Productions.
-# SAUCE Date: 19970330
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: Jazz. by Da Drug | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-misery01-dd-jazz1
 
 Write-Host '
 [1m[0m[1m[0m

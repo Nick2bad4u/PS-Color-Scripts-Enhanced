@@ -1,18 +1,4 @@
-﻿# Converted from: CM-RILE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile0496/raw/CM-RILE.ANS
-# Source Revision: archive-sha256:970ba17ca3338e96740571feaeb5cccb1e503d5151fde5fa1bc67bce49fcb3a4
-# Source SHA-256: 9e62a3d74da2b908be0bd001b58719eee79f2d069a2109a990a43fd317dcc778
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CM-RILE.ANS by meeze chonkey (rile); released in rile0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: rile promotional
-# SAUCE Author: meeze chonkey
-# SAUCE Group: rile
-# SAUCE Date: 19960330
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: rile promotional by meeze chonkey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile0496-cm-rile
 
 Write-Host '
 

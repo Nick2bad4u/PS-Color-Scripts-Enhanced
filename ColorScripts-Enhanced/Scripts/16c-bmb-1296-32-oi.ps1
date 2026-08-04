@@ -1,18 +1,4 @@
-﻿# Converted from: 32-OI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-1296/raw/32-OI.ANS
-# Source Revision: archive-sha256:f773a389f51b5e0da0cfb005fe603efcb492346271314d84a3bbd590d27c199e
-# Source SHA-256: e0c6af6769b4a875fb62e1591765712629647ea24b69d78df98e6af036419822
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 32-OI.ANS by ezy (bamboosh); released in bmb-1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: optical illusion logo
-# SAUCE Author: ezy
-# SAUCE Group: bamboosh
-# SAUCE Date: 19961129
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: optical illusion logo by ezy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-1296-32-oi
 
 Write-Host '
                                      [33m       [0m     [33m▄▄▄▄[0m

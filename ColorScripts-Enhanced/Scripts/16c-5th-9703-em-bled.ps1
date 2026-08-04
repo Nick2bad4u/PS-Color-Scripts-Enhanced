@@ -1,18 +1,4 @@
-﻿# Converted from: EM!-BLED.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/5th-9703/raw/EM!-BLED.ANS
-# Source Revision: archive-sha256:fffb2c785ea5bb00b22bc525df88c9cca2a7e3ac70af213df8cc76a82e190c3a
-# Source SHA-256: 934d71a2e4ebb10c6c8d254270e79b7952e0389b3c60a42ae29a749c37b844b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EM!-BLED.ANS by EViL MiLKMAN (5tH); released in 5th-9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: WEiRD BLEED LOG OPH
-# SAUCE Author: EViL MiLKMAN
-# SAUCE Group: 5tH
-# SAUCE Date: 19970617
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: WEiRD BLEED LOG OPH by EViL MiLKMAN | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-5th-9703-em-bled
 
 Write-Host '
 [1;33;43m░▒░[0;33m█[0;1;33;43m░[0;33m█▀■[0;37m  [0;33m▄▄▄▄█[0;1;33;43m█[0;33m██▀▀▀▀▀██▀▀▀▀█▀▀▀▀▀▀▌[0;37m [0;33m▀▒▀▀▀▀[0;1;33;43m░[0;33m▓█▄█ ███[0;1;33;43m▀▀[0;33m█[0;1;33;43m▀[0;33m█[0;1;33;43m▀▀▀[0;33m█[0;1;33;43m▀■[0;33m███▄███▄████████[0m

@@ -1,15 +1,4 @@
-﻿# Converted from: jn-surp.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic27/raw/jn-surp.ans
-# Source Revision: archive-sha256:ba598f60d2c7961ae46df68e0e535c791c8764cc13f1e483db42f7067c762e6c
-# Source SHA-256: 0b2292d4c2e0de28d3f48b520a821fba8a078b055fcf8a90b3c387e63c042bae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: jn-surp.ans by Jashiin (mimic27); released in mimic27 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 20000814
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: jn-surp.ans by Jashiin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic27-jn-surp
 
 Write-Host '
 

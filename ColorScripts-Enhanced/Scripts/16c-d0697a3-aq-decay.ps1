@@ -1,17 +1,4 @@
-﻿# Converted from: AQ-DECAY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d0697a3/raw/AQ-DECAY.ANS
-# Source Revision: archive-sha256:4b1a5edf079ccd5aab68f5664461dac73c3f815b42e2d60b05d52946fe416fe5
-# Source SHA-256: 775a0d59ade213837baecd5ba92b03ab94198cf0efad7e8625b6b495a5592e43
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AQ-DECAY.ANS by aqua (demons); released in d0697a3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: decay
-# SAUCE Author: aqua
-# SAUCE Group: demons
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: decay by aqua | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d0697a3-aq-decay
 
 Write-Host '
                 [1m  [0;1;30;45m▒[0;1;37;40m                               [0;1;30;45m░[0;1;37;40m [0m

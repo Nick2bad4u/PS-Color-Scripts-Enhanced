@@ -1,18 +1,4 @@
-﻿# Converted from: RD-JUNK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shade5/raw/RD-JUNK.ANS
-# Source Revision: archive-sha256:9eb97f9412f63f0ce4837a80894f87a3aed455c1487394481c6e40b531c2203d
-# Source SHA-256: dfea1bd9a55f7c89f2295981b670d1373ed203f44ffafcb75977a435cd5c749b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD-JUNK.ANS by raider (fisk); released in shade5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: junk
-# SAUCE Author: raider
-# SAUCE Group: fisk
-# SAUCE Date: 19970118
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: junk by raider | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shade5-rd-junk
 
 Write-Host '
                                   [30;44m▓[0m

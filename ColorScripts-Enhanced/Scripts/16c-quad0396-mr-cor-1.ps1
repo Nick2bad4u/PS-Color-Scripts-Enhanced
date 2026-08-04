@@ -1,18 +1,4 @@
-﻿# Converted from: MR-COR-1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0396/raw/MR-COR-1.ANS
-# Source Revision: archive-sha256:f085ca3cf6d75985ae759e60a340bcc124fb43ad553f80bec492b8b584ca4713
-# Source SHA-256: c7e6b16c7ff65f1771d30475b7375591f95c5978f20529a969c8d5d0c014830e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-COR-1.ANS by Mithrandir (quad-p); released in quad0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: cOrleOne(306)978-fUNK!
-# SAUCE Author: Mithrandir
-# SAUCE Group: quad-p
-# SAUCE Date: 19960121
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: cOrleOne(306)978-fUNK! by Mithrandir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0396-mr-cor-1
 
 Write-Host '
 [34m▓██████████▓██████████████▓▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀██████[0;1;34;44m░[0;34m████▓█████[0;1;34;44m░[0;34m███[0;1;34;44m░[0;34m██[0;1;34;44m░▒[0m [1;34;44m░▒▓[0;1;34;40m█▓█▀[0;1;34;44m▓[0m

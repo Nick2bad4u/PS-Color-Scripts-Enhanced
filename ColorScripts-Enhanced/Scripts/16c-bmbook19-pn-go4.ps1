@@ -1,18 +1,4 @@
-﻿# Converted from: pn-go4.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook19/raw/pn-go4.ans
-# Source Revision: archive-sha256:3dd762b50e992d041fc40857f6a08666cf879c80169b27b714b162069a52b736
-# Source SHA-256: faa363210cf2dc58e00fbab1aa18a7338cb5469be990840345205dc3cb2dd318
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: pn-go4.ans by pandur (blackmaiden); released in bmbook19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: siffe
-# SAUCE Author: pandur
-# SAUCE Group: blackmaiden
-# SAUCE Date: 19990131
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: siffe by pandur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook19-pn-go4
 
 Write-Host '
 [1;47m▄[0;1;40m█████████████[0;1;47m███[0;1;40m█[0;1;47m█▌[0;1;40m  [0;1;47m▄▓[0;1;40m██[0;1;47m▀[0;1;40m▀[0m▀      [1;30m▒▒▓▓███[0;30;47m▓▓░░[0;1;37;47m   ░░▒▒▓▓███████▓▓░░[0;1;30;47m░░▓[0;1;30;40m▄▄▄ ▄    [0m

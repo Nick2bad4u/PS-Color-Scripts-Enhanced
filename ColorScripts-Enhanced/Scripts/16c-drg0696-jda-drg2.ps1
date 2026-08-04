@@ -1,18 +1,4 @@
-﻿# Converted from: JDA_DRG2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg0696/raw/JDA_DRG2.ANS
-# Source Revision: archive-sha256:1139b4d4ced327cceee3d7ac2617f7a3517f6daf002a9f225c4cfa31b7df41b2
-# Source SHA-256: ef2a3a0efcdff5dd269db7ff2415ad1537c34be570b5350ac39f9440fa27ff70
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JDA_DRG2.ANS by Joda (Deranged.); released in drg0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: We rule!
-# SAUCE Author: Joda
-# SAUCE Group: Deranged.
-# SAUCE Date: 19960522
-# SAUCE Dimensions: 80x52
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: We rule! by Joda | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg0696-jda-drg2
 
 Write-Host '
 [1;30m[0m[1;30m[0m[1;30m          [0m        [1;36m [0;1;31m▄▄▄▄▄▄▄[0;1;36m [0m        [1;31m▄▄▄▄▄[0;1;36m [0m        [1;31m▄▄▄▄▄[0m

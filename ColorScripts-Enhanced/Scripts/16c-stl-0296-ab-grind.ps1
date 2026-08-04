@@ -1,18 +1,4 @@
-﻿# Converted from: AB-GRIND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stl-0296/raw/AB-GRIND.ANS
-# Source Revision: archive-sha256:2a7c2972214cdcf66c05bb3cc15c513aafb38f4486172bc95b40d735e509a060
-# Source SHA-256: 3794ac161f067f8de29f6c2a1d3d42e30ec27d45ab87b17638136227f3f11516
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AB-GRIND.ANS by abnormal (stile); released in stl-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: grind
-# SAUCE Author: abnormal
-# SAUCE Group: stile
-# SAUCE Date: 19960218
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: grind by abnormal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stl-0296-ab-grind
 
 Write-Host '
    [1;30;41m [0;30;41mabnormal<stile>[0;31;40m██████████████████████████████████████████████████████████[0m

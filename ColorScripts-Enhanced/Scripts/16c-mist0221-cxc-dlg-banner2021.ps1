@@ -1,17 +1,4 @@
-﻿# Converted from: CXC_DLG_BANNER2021.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0221/raw/CXC_DLG_BANNER2021.ANS
-# Source Revision: archive-sha256:4a8c9a8001bc7db23e62733bd188b07e2f92f8b5caca34bf87f4e45dd922c1a0
-# Source SHA-256: d59354059f40590c542298b627eb8d79540ddc7300b8f7e362abdfc4dc66db55
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CXC_DLG_BANNER2021.ANS by CoaXCable (Mistigris); released in mist0221 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Demoscene Logo Gallery
-# SAUCE Author: CoaXCable
-# SAUCE Group: Mistigris
-# SAUCE Date: 20210224
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Demoscene Logo Gallery by CoaXCable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0221-cxc-dlg-banner2021
 
 Write-Host '
 

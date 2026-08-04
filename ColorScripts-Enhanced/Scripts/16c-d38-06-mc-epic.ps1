@@ -1,18 +1,4 @@
-﻿# Converted from: MC!EPIC!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-06/raw/MC!EPIC!.ANS
-# Source Revision: archive-sha256:4c9f598b864a923147eb394591cb120a43a087e70e3844ab4ff73e06903fa178
-# Source SHA-256: 9e111ff4bdc251329efffc846ecc2df9368473e3c238bc1dccbfd060e9811616
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MC!EPIC!.ANS by Madcap, teehee (D38); released in d38-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Epic megagames?!?!
-# SAUCE Author: Madcap, teehee
-# SAUCE Group: D38
-# SAUCE Date: 29960507
-# SAUCE Dimensions: 80x25
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Epic megagames?!?! by Madcap, teehee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-06-mc-epic
 
 Write-Host '
 [34m██▄▄─    [0;36m▀─▄▄■  [0;33m░[0;1;30m▄[0m▄[1;33m▄[0m        ─[1;33;47m▀[0;33;41m▀▀[0;31m█[0;33;41m▀[0;1;33;41m▀▀[0;1;33;40m▄   [0;1;35;40m▄[0;1;35;45m■[0;35m▀ [0;1;30m▄[0;1;37;47m▄[0;1;37;40m██[0;1;37;47m▄[0;1;30;40m▄[0;35m░▀█▄ [0;36m▀▌ ████████[0;46m░[0;36m████▌ █[0;46m░[0;36m▌[0m

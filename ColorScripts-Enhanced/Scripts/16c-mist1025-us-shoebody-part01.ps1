@@ -1,20 +1,4 @@
-﻿# Converted from: US-SHOEBODY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1025/raw/US-SHOEBODY.ANS
-# Source Revision: archive-sha256:c6ce2eb1560c66497e345290ad53cd5a430626bac015b2788f41b6db23db8045
-# Source SHA-256: 5f62f621205856d08f8e5c2078210ccc0683bf6cb115f805d8017cfe58bda389
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SHOEBODY.ANS by Cthulu + Zeus Ii + LDA (Mistigris); released in mist1025 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Shoebody
-# SAUCE Author: ct / zii / lda
-# SAUCE Group: Mistigris
-# SAUCE Date: 20251028
-# SAUCE Dimensions: 80x100
-# SAUCE Font: IBM VGA
-# SAUCE Comments: c'thulu / zeus ii / lda
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Shoebody by Cthulu + Zeus Ii + LDA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1025-us-shoebody-part01
 
 Write-Host '
 [35m   ▌       ▌      ▐    ▄▌        ▄▌     ▌            ▄▌     ▌         ▌      ▄▌[0m

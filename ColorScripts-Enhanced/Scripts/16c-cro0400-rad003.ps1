@@ -1,13 +1,4 @@
-﻿# Converted from: RAD003.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cro0400/raw/RAD003.ANS
-# Source Revision: archive-sha256:21930074eda621a89b688d4b1d0e2f0b6844462d7f5660709d9b5b54b70a385f
-# Source SHA-256: 12244b591ca6696bf9cf3c1a7195fc5aa35f33f0279d501fdfe9cb70a2c03d87
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RAD003.ANS by Radiators (cro0400); released in cro0400 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: RAD003.ANS by Radiators | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cro0400-rad003
 
 Write-Host '
        [31m   [0m                                                             [1;30m  [0m

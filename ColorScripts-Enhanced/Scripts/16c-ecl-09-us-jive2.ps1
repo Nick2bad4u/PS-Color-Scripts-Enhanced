@@ -1,13 +1,4 @@
-﻿# Converted from: US-JIVE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-09/raw/US-JIVE2.ANS
-# Source Revision: archive-sha256:6c371ec8bbb75e88f59630021fbbd23f2fc630c10ee1cde240cc20faafea1ca9
-# Source SHA-256: b0c8eb1be8f9c8e86e592c993c74fc3431fc6c11a3e458109bbcb62a5ee7d07c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-JIVE2.ANS by Magnatop + Chaotic Prisoner + Breed (ecl-09); released in ecl-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: US-JIVE2.ANS by Magnatop + Chaotic Prisoner + Breed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-09-us-jive2
 
 Write-Host '
                                                             [30;46m▓▓[0;36;40m░[0;30;46m▓[0;36;40m░[0m

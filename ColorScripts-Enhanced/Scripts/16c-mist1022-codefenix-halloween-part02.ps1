@@ -1,20 +1,4 @@
-﻿# Converted from: CODEFENIX-HALLOWEEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1022/raw/CODEFENIX-HALLOWEEN.ANS
-# Source Revision: archive-sha256:b4cfb070b10229c71b6cdba49fff141c03f4ad9e6e51a5ef68dfa1930822da97
-# Source SHA-256: 0554e445cd6a85bc1cc2abae2d70bd6cf1adcf59d266aa4d6b21b9ba40868306
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CODEFENIX-HALLOWEEN.ANS by Codefenix (Mistigris); released in mist1022 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Happy Halloween
-# SAUCE Author: Codefenix
-# SAUCE Group: Mistigris
-# SAUCE Date: 20221027
-# SAUCE Dimensions: 80x84
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Happy Halloween from ConstructiveChaos BBS!
-# Lines: 51-84
-# Columns: 1-80
+﻿# Artwork: Happy Halloween by Codefenix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1022-codefenix-halloween-part02
 
 Write-Host '
 [31m    [0;1;31m█[0;31m████▓   [0;1;31m█[0;31m██▒  [0;1;31;41m▌[0;31m█████░[0;1;31;41m▄[0;31m███▓  [0;1;31m█[0;31m███▓          [0;1;31m█[0;31m████▓              [0;1;31m█[0;31m████▓▒[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: HX-BOINK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-17a/raw/HX-BOINK.ANS
-# Source Revision: archive-sha256:48f4edf0151e9ab7fcc03c92751eee7c707c5fac397a0d4c55a2d7e47ad1e75a
-# Source SHA-256: 16fececd8ffee4fc00b2fbf88bc46920cc5cb92f077fd45cfeab41a689e57b2d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HX-BOINK.ANS by Hexd (rca-17a); released in rca-17a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: HX-BOINK.ANS by Hexd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-17a-hx-boink
 
 Write-Host '
 [1;36;47m█░▒▓▒[0;30;47m                    [0;1;36;47m░[0;30;47m [0;1;36;47m░▒▒▒░[0;30;47m          [0;1;36;47m░▒▒[0;30;47m▄▄▄▄[0;1;36;47m░▐▒▓▓▒▓▒▄█▌▒[0;30;47m  [0;1;36;47m░[0;30;47m  [0;1;36;47m░▒[0;30;47m [0;1;36;47m▒[0;30;47m   [0;1;36;47m▄░▒▒█▓█[0m

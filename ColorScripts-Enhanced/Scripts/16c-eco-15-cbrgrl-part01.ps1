@@ -1,18 +1,4 @@
-﻿# Converted from: CBRGRL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-15/raw/CBRGRL.ANS
-# Source Revision: archive-sha256:409ec45d4d8a58bbd858f19a2194e4a9e60ce3a5a22824158eb9e0a6b60e9226
-# Source SHA-256: 29b50eb45264cd0aa6299942113786fdbf3eb447aa542d14ea92f016c75e79a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CBRGRL.ANS by GeC (GIVE=); released in eco-15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: cybergril
-# SAUCE Author: GeC
-# SAUCE Group: GIVE=
-# SAUCE Date: 19990417
-# SAUCE Dimensions: 80x78
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: cybergril by GeC | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-15-cbrgrl-part01
 
 Write-Host '
 

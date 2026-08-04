@@ -1,18 +1,4 @@
-﻿# Converted from: MB-NUV1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amb-0001/raw/MB-NUV1.ANS
-# Source Revision: archive-sha256:50117a0363f47a3201dbded78dece5a7d943bf5ee978c9adb3f23e48040c9989
-# Source SHA-256: 89b75a6792ac9d5c16012088e7b31634420eb5bdbd6caa19327a4396f641f20d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MB-NUV1.ANS by MADBiT (AMBUSH); released in amb-0001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: New User Voting 1
-# SAUCE Author: MADBiT
-# SAUCE Group: AMBUSH
-# SAUCE Date: 19960826
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: New User Voting 1 by MADBiT | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amb-0001-mb-nuv1
 
 Write-Host '
 [1;30m▓▄ ▓▄[0m [32m▄[0;37m [0;1;30m■▀[0;32m▄▌[0;37m [0;1;30m▀■▒▀[0m [32m▀[0;1;30m ▀■▀▀[0m [32m▀[0;1;32m▀[0;32m [0;1;30m▀[0m [1;30m■[0m [1;30m▒ [0;1;32;42m [0m [1;30m▀■[0m [1;30m▓[0m [1;32m▀[0m [1;30m■▀▀[0m [1;30m▀[0m [1;30m▓▀[0m [1;32m▀▀[0m [1;30m■▀[0m [1;30m▀[0;1;32m▄[0;1;30m■▓▀[0m [1;30m▀[0;1;32m▄[0m [32m▐▄[0;1;30m▀■[0m [32m▄[0;37m [0;1;30m▄▓ MB[0m

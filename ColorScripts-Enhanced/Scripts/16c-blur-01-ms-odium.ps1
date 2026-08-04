@@ -1,18 +1,4 @@
-﻿# Converted from: MS-ODIUM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blur-01/raw/MS-ODIUM.ANS
-# Source Revision: archive-sha256:2e24e002aa423e6089e230171fb4f78c11c68510667b6cff05ce5bffed646ce1
-# Source SHA-256: 52928e9e4d4196d3456c62f5467531da36dca403d6609f00abea7878451bdcac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MS-ODIUM.ANS by mR.sAndMaN (Blur...); released in blur-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Oh-dee-yummm! promo!
-# SAUCE Author: mR.sAndMaN
-# SAUCE Group: Blur...
-# SAUCE Date: 19960213
-# SAUCE Dimensions: 80x47
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: Oh-dee-yummm! promo! by mR.sAndMaN | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blur-01-ms-odium
 
 Write-Host '
 [1;31;41m▒▓▓▒▒▓▒▒▒▒░▒[0;31m▀░░ ░░ ░░░[0m    [37m ▐[0;1;37;47m▓▒░░[0;30;47m       [0;37;40m█▀▀▀████████▓██████▓█▀[0;30;47m▀[0;1;37;47m▀[0;30;47m [0;37;40m▓▓▒▒▓[0;30;47m▀[0;1;37;40m▄[0;30;47m▄ [0;37;40m██▓[0;30;47m [0;37;40m▓▓▒[0m

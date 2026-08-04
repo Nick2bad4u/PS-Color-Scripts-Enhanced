@@ -1,13 +1,4 @@
-﻿# Converted from: DT-PTSTP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r4/raw/DT-PTSTP.ANS
-# Source Revision: raw-sha256:8eff9c1da2ed02ae66d1a1661fb6520eeb857ea933b493bcaafd46e704b1b527
-# Source SHA-256: 8eff9c1da2ed02ae66d1a1661fb6520eeb857ea933b493bcaafd46e704b1b527
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-PTSTP.ANS by Duster (afc-r4); released in afc-r4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: DT-PTSTP.ANS by Duster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r4-dt-ptstp
 
 Write-Host '
  [34m▐[0;1;44m                                                      [0;34m▀[0;1m▄▄[0;1;47m▓▓▓[0;1m▄▄[0;34m▀[0;1;44m       [0;44m·   [0m

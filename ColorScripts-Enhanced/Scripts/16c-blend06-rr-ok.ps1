@@ -1,18 +1,4 @@
-﻿# Converted from: RR-OK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend06/raw/RR-OK.ANS
-# Source Revision: archive-sha256:bdb12df6fb66b6e7f7ab1240c15e9b23d66b94ced69828c85c717709162a24eb
-# Source SHA-256: 55338929ff56637d57bc4b63ff52e1c073654cfaa1ed0a390c3e99391d07b1fc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RR-OK.ANS by riddler (blend productions); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: organized kaos
-# SAUCE Author: riddler
-# SAUCE Group: blend productions
-# SAUCE Date: 19970201
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: organized kaos by riddler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend06-rr-ok
 
 Write-Host '
 [30;46m▓░[0;36;40m██████[0;1;36;46m   [0;36m██▀▀[0;37m               [0;1;37m▀▀█[0;1;36m██[0;1;36;46m▄[0;36m▄▄[0;37m [0;36m       [0m

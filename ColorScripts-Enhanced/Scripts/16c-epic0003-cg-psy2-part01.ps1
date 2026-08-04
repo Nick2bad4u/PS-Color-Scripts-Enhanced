@@ -1,18 +1,4 @@
-﻿# Converted from: CG-PSY2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/epic0003/raw/CG-PSY2.ANS
-# Source Revision: archive-sha256:d38b3556d7f351931b329acd63735eb7d347e8a1d81587b5a35bbec7e0a11d0c
-# Source SHA-256: 81f7b27e95ad284f61e67339e6efb3a915b792ddbd68239339ff0f2adb7de43b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-PSY2.ANS by Cryogenic (Epic); released in epic0003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Psychotic Rev
-# SAUCE Author: Cryogenic
-# SAUCE Group: Epic
-# SAUCE Date: 19990825
-# SAUCE Dimensions: 80x83
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: Psychotic Rev by Cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-epic0003-cg-psy2-part01
 
 Write-Host '
 [1m[0m[1m[0m

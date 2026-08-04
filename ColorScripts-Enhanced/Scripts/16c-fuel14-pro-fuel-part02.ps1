@@ -1,18 +1,4 @@
-﻿# Converted from: PRO-FUEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel14/raw/PRO-FUEL.ANS
-# Source Revision: archive-sha256:5ee61a0e94a8eed583658335c026a1a037023d44b54da693bbed2c0844c1a5d9
-# Source SHA-256: e3e5e4787bbfb91dfdb78325c90673bb00f9b1260cd561ee9a48f8c777697fea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PRO-FUEL.ANS by propane (fuel); released in fuel14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fuel promo
-# SAUCE Author: propane
-# SAUCE Group: fuel
-# SAUCE Date: 19970702
-# SAUCE Dimensions: 80x55
-# Lines: 32-55
-# Columns: 1-80
+﻿# Artwork: fuel promo by propane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel14-pro-fuel-part02
 
 Write-Host '
 [33m▄▄▄▄  [0;31m▓▓▒ ▓▀▌ [0;1;31m▌    [0;31m▓▓ ▓ ▓▀░░  [0;33m▐███[0;1;31;43m░▒▓[0;1;31;40m█████[0;1;31;43m▓▒▓[0;1;31;40m███[0;1;31;47m▓[0;1;31;40m██[0;1;31;43m▓▒░[0;33m███▌[0;31m▀  ░▒ ▀▀▄▌   ▒▒▒▒ ▒▓▓[0m

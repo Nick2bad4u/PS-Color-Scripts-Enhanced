@@ -1,17 +1,4 @@
-﻿# Converted from: m7m-dph.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic40/raw/m7m-dph.ans
-# Source Revision: archive-sha256:2bd2ba253e8729bef24751332632d7c947b494c528a335ff41ea7a3aba58b2ea
-# Source SHA-256: 510d8cb01674be70fc3e8f1621b1ab81fd914f076f19eac37dd96de66aa40f0b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: m7m-dph.ans by m7mCafe (mimic); released in mimic40 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: m7mCafe
-# SAUCE Group: mimic
-# SAUCE Date: 20011009
-# SAUCE Dimensions: 80x31
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: m7m-dph.ans by m7mCafe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic40-m7m-dph
 
 Write-Host '
 [34m$$$ÑÑÑÑÑ[0;1;34m$$$$$$[0;34m$7[0;1;34m [0;1;31m  [0;33mjQQ$$$ÑÑ[0;1;31m   [0;34m$[0;1;34m$$$$$$$[0;34m:[0;1;31m  [0;33mÑÑ[0;1;31m$$$$$[0;33m$QQ: [0;36m [0;34ml[0;1;34m$$[0;36m$$[0;1;34m$$$$$$[0;34m:[0;1;31m  [0;33mÑÑ[0;1;31m$$$$$$[0;33mQQ:[0m

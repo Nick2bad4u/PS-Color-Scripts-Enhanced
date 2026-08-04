@@ -1,18 +1,4 @@
-﻿# Converted from: Pc-bk.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst-15/raw/Pc-bk.ans
-# Source Revision: archive-sha256:a563be41260c82c5b2bfbf7ab7a17eae41de5be20653d94ff9e15b68bc3e5c74
-# Source SHA-256: d53dca664a5a6cfb94c338e312e27e4e34b041e4a848ae428803f40d7dffe06d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Pc-bk.ans by Putrid Carcass (TWISTED); released in twst-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Bad Karma
-# SAUCE Author: Putrid Carcass
-# SAUCE Group: TWISTED
-# SAUCE Date: 19970724
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Bad Karma by Putrid Carcass | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst-15-pc-bk
 
 Write-Host '
  [1;30m▄[0;1;30;47m▀░ ▒▓▓[0;1;30;40m▀▀▀▀▀▀   ▀▀▀████▀▀▀▀■    [0;31m▄▄▄▄▄ ▄▄▄ [0;1;30m▀▀  ▀  ▀▀▀▀█[0;1;30;47m▓▓▒░ [0;1;37;47m░[0;1;30;47m░░▒▒▓[0;1;30;40m▄▄[0m

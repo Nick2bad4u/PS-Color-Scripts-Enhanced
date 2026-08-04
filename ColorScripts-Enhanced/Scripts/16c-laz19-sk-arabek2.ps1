@@ -1,19 +1,4 @@
-﻿# Converted from: sk!arabek2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz19/raw/sk!arabek2.ans
-# Source Revision: archive-sha256:b2207428f1b283b9c41d9ff03fce385f449fefe469c60e31e8dd7430a162f7c1
-# Source SHA-256: c90e81af2e9a0a00df3f4d5d775184518ffe17a00cfaf6edb581a937972f4d59
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sk!arabek2.ans by sIMONkING (LAZARUS^thelo0p!); released in laz19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: arabek
-# SAUCE Author: sIMONkING
-# SAUCE Group: LAZARUS^thelo0p!
-# SAUCE Date: 20240714
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: arabek by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz19-sk-arabek2
 
 Write-Host '
                   [1;33m▄▄[0;1;37m▄▄[0m        [1;33m▄██[0;1;37m██▄[0m [1;33m███[0;1;37m▄█[0;1;33m█[0;1;37m█[0m [1;33m▄▄[0;1;37m▄[0m        [1;33m▄▄▄▄[0;1;37m▄▄[0m  [1;33m█[0;1;37m██[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PAR-BT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/301-1296/raw/PAR-BT.ANS
-# Source Revision: archive-sha256:6f239dcc15d58c6d9331e0bb065ccce7fcfdce2ee998eb6b4810f78fc2937b38
-# Source SHA-256: 9059cde21ad3f9ba2fe81ed17658f4798184e32538984d9cbcbe70612f2564fd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PAR-BT.ANS by pariah (project/301); released in 301-1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: black thursday
-# SAUCE Author: pariah
-# SAUCE Group: project/301
-# SAUCE Date: 19961227
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: black thursday by pariah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-301-1296-par-bt
 
 Write-Host '
                     [1m [0m

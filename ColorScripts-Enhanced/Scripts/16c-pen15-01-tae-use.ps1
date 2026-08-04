@@ -1,17 +1,4 @@
-﻿# Converted from: TAE-USE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pen15-01/raw/TAE-USE.ANS
-# Source Revision: archive-sha256:9e28ab2113f1bcb81ed1730a86e0355147cb3acede958780e6bfef3630941a51
-# Source SHA-256: 8cf22c27bf005451145d43be9df75563c8322aae43f1f72d01c0a802e4852f04
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TAE-USE.ANS by taevore (pen15 art); released in pen15-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: taevore
-# SAUCE Group: pen15 art
-# SAUCE Date: 19980413
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: TAE-USE.ANS by taevore | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pen15-01-tae-use
 
 Write-Host '
                        [32m               [0m

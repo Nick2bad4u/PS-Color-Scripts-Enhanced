@@ -1,13 +1,4 @@
-﻿# Converted from: SK!PIESE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p05_00/raw/SK!PIESE.ANS
-# Source Revision: archive-sha256:d107a99a4f6346768b79c50cf89b1ea06eaa6378fa6264f2582e9bfb2f879d7f
-# Source SHA-256: 85c482918a443b97506e85644c8a45a817e02bf855db05807e4bb3c079bc0f7b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!PIESE.ANS by Simonking (l0p05_00); released in l0p05_00 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: SK!PIESE.ANS by Simonking | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p05-00-sk-piese
 
 Write-Host '
 [34m▓▒▒▒░░░▒▒▒▒░░░░░░[0;37m  [0;34m▒▒▒▒▒▒▒▒░░░░░░[0;37m               ▄▄[0;1;37;47m  [0;1;30;47m▀[0;1;30;40m▄[0m                [34m░░░▒▒▒▒▒▓[0;37m [0m

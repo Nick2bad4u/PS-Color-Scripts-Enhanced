@@ -1,19 +1,4 @@
-﻿# Converted from: wa-fuel.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz19/raw/wa-fuel.ans
-# Source Revision: archive-sha256:b2207428f1b283b9c41d9ff03fce385f449fefe469c60e31e8dd7430a162f7c1
-# Source SHA-256: 22d1f33498bfac1bfba4bc605fc7692d1b5782a6c680cf194e2764757a0187db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-fuel.ans by warpus (LAZARUS); released in laz19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: FUEL DREAMS
-# SAUCE Author: warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20240927
-# SAUCE Dimensions: 80x98
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: FUEL DREAMS by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz19-wa-fuel-part01
 
 Write-Host '
 [1;31m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒[0m

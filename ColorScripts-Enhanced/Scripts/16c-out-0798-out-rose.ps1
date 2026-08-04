@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-ROSE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0798/raw/OUT-ROSE.ANS
-# Source Revision: archive-sha256:b215d3240d3083092dab9e9009a7d58a7b99be995bdaa1d94e30d76465380c96
-# Source SHA-256: 6945906f682ebf41593a9e98dc2a778322cb812192ce35396c89eb149cb71993
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-ROSE.ANS by Sandy Chidester (out-0798); released in out-0798 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: OUT-ROSE.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0798-out-rose
 
 Write-Host '
                 [1m███████████████████████████████████████████[0m

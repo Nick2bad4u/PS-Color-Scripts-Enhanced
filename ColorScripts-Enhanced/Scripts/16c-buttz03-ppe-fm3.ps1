@@ -1,13 +1,4 @@
-﻿# Converted from: PPE-FM3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/buttz03/raw/PPE-FM3.ANS
-# Source Revision: archive-sha256:c2ce80ae04a7cc270151547963184e535a628d1735fa79697954a632d59918cc
-# Source SHA-256: 871e7497ce67a46d87085502a579782082a119bd13d747274c0a0187decf9af8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PPE-FM3.ANS by Propane (buttz03); released in buttz03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: PPE-FM3.ANS by Propane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-buttz03-ppe-fm3
 
 Write-Host '
 [31m░░░░░░░░░░[0;37m [0;31m░░[0m                                                        [31m░░░░░░[0;37m [0;31m▒▒[0;37m [0;31m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: CRS^MAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ceg-010a/raw/CRS%5EMAD.ANS
-# Source Revision: archive-sha256:5b3b98df164004f313dd0829d66e01a5471066e939dd03917a4e036b8d8f18b9
-# Source SHA-256: 8b4c022a8ada223fcb01d452253421bdcb42237f665422cc6431678f94185d49
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CRS^MAD.ANS by Crasher (jUSt-X); released in ceg-010a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: mad
-# SAUCE Author: Crasher
-# SAUCE Group: jUSt-X
-# SAUCE Date: 19991202
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: mad by Crasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ceg-010a-crs-mad
 
 Write-Host '
 [32m▒▓██████▓▓▓▓▓▓▓▒▒▒▒▒▒░░░[0;37m  [0;32m░[0m      [32m░▒▓█[0;1;30;42m░▒▓▓▓▓▓▒▒▒▒░░░[0;32m██▓▒▒░░░░[0;37m  [0;32m░[0m        [1;30m    [0m [1;30mcrs[0m

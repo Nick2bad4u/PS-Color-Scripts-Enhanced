@@ -1,17 +1,4 @@
-﻿# Converted from: DKY-BSCM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-0697/raw/DKY-BSCM.ANS
-# Source Revision: archive-sha256:948d1463d97fbdd560eeb5fa12fbb3480434c2b2b3eb2660833d19ddf5647ef9
-# Source SHA-256: c2b27f2db747f31ff48a81be7351b06e094d7cc2e675046ba6a81253cffc79e5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DKY-BSCM.ANS by .:(darky'):. (.:(nitrophusion):.); released in nph-0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: .:(brainscan logo):.
-# SAUCE Author: .:(darky'):.
-# SAUCE Group: .:(nitrophusion):.
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: .:(brainscan logo):. by .:(darky'):. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-0697-dky-bscm
 
 Write-Host '
 [1;30m ──          ─        ─                                    ─── ─ ──    ──      [0m

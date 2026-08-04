@@ -1,17 +1,4 @@
-﻿# Converted from: SC-BP97.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blade-41/raw/SC-BP97.ANS
-# Source Revision: archive-sha256:4bd79ef281b8ab7a825cdf52b83bde6cbe7c637e271a1366a909c3a71335a95c
-# Source SHA-256: e823d5015bff671c762f8691a2ce37ef9f3f1d2e54c9504db04ea2ad3f1a9df8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-BP97.ANS by subconsciousness (blade productions); released in blade-41 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: blade productions, baby!
-# SAUCE Author: subconsciousness
-# SAUCE Group: blade productions
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: blade productions, baby! by subconsciousness | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blade-41-sc-bp97
 
 Write-Host '
   [1;30mb[0m               [32m░░░░[0;1;32m▄▄▄▄   [0m     [32m▄[0;1;32m▄▄▄▄▄░░░░ [0m     [1;32m   [0;32m▄[0;1;32m▄▄▄    [0m               [1;30mb[0m

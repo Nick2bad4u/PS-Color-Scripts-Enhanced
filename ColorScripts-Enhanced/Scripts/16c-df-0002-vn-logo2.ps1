@@ -1,18 +1,4 @@
-﻿# Converted from: VN-LOGO2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/df-0002/raw/VN-LOGO2.ANS
-# Source Revision: archive-sha256:e44db76773a2405296a872965cababe7c2d393941afd0c283db330b845eeab02
-# Source SHA-256: 395f061b30d3058a3ed690525b42c679ab37bd0c21261ebae62f2b52005c59f9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VN-LOGO2.ANS by vENOMOUS (dEVIL fORCES); released in df-0002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: oTHER aSKEE fOR lOGON
-# SAUCE Author: vENOMOUS
-# SAUCE Group: dEVIL fORCES
-# SAUCE Date: 19970407
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: oTHER aSKEE fOR lOGON by vENOMOUS | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-df-0002-vn-logo2
 
 Write-Host '
 [32m$$$[0;1;32m$$$$[0;32m$$$[0;1;30m$$$$$$$$$$$$$$$$$$$[0;32m$[0;1;32m$[0;32m$[0;1;30m$[0;1;32m$[0;1;30m$$[0;32m$$$[0;1;32m$$$$[0;32m$$$[0;1;30m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m

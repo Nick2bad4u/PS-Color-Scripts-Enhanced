@@ -1,17 +1,4 @@
-﻿# Converted from: VL!DC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dma-vlfd/raw/VL!DC.ANS
-# Source Revision: archive-sha256:79d5f5b547644cdd55c60db7ccd39ade99abdbe0c2e765d923d336ac4b412f22
-# Source SHA-256: 104a878165ed0a6ada3ae1fe9b328097bbbb0adf4082e28e1468e21e2901046f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VL!DC.ANS by VaLoCiTy (dma-vlfd); released in dma-vlfd and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: DRaCuLa'S CoFFiN LoGo
-# SAUCE Author: VaLoCiTy
-# SAUCE Date: 19950516
-# SAUCE Dimensions: 80x92
-# Lines: 46-92
-# Columns: 1-80
+﻿# Artwork: DRaCuLa'S CoFFiN LoGo by VaLoCiTy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dma-vlfd-vl-dc-part02
 
 Write-Host '
        [1;30m▒▓[0;1;30;43m▓▒░ [0;33m▓▄  ▒   [0;34m▀▀░▓[0;1;30;43m▓[0;1;30;40m▓░[0;31m▓▄ [0;1;33m▐    [0;31m▓▒[0;1;30m░▓░[0;31m▒▓    [0;1;33m▌ [0;31m▄▓[0;1;30m░▓[0;1;30;43m▓[0;34m▓░▀▀   [0;33m▒  ▄▓[0;33;43m [0;1;30;43m░▒▓[0;1;30;40m▓▒[0m

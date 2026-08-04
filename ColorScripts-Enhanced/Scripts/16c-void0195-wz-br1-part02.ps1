@@ -1,18 +1,4 @@
-﻿# Converted from: WZ-BR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/void0195/raw/WZ-BR1.ANS
-# Source Revision: archive-sha256:2def6f7c6cf34a9c00221d80c700ffa50680a5a32ff06bff65e77da64d339a70
-# Source SHA-256: 3aea92e7ee22259a4e017588e5d0077f8aa4e57ceef0ce5371a95cba5d5f36cc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WZ-BR1.ANS by Weazel (VOiD); released in void0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Black Rain
-# SAUCE Author: Weazel
-# SAUCE Group: VOiD
-# SAUCE Date: 19950101
-# SAUCE Dimensions: 80x100
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Black Rain by Weazel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-void0195-wz-br1-part02
 
 Write-Host '
  █[1;30;47m░[0m▄▀[1;30;47m░[0m▄[1;30m▀▀[0;1;30;47m▒░[0m██████████████████████████████▄[47m [0;1;30;47m░[0m█████             [31m▌[0m          ██████

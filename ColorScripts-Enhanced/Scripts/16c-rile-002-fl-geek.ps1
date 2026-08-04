@@ -1,18 +1,4 @@
-﻿# Converted from: FL-GEEK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile_002/raw/FL-GEEK.ANS
-# Source Revision: archive-sha256:09fff222285c90eb6b714714b4c5e3c96cc514cdf338ccf4e30b5898f9a5a64b
-# Source SHA-256: 336cb2680126f6a28337d28d0ee27ec66b5b1cb327d6faa69be022baf2bdcd75
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-GEEK.ANS by flame (RILE); released in rile_002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: geek, for drynwhyl
-# SAUCE Author: flame
-# SAUCE Group: RILE
-# SAUCE Date: 19970315
-# SAUCE Dimensions: 80x25
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: geek, for drynwhyl by flame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile-002-fl-geek
 
 Write-Host '
 [35m[0m[1;35mfl[0;35mame[0m                                       [31m■[0m       [31m [0;37m  [0;31m [0m

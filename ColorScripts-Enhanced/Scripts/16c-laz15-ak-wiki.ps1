@@ -1,20 +1,4 @@
-﻿# Converted from: ak-wiki.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz15/raw/ak-wiki.ans
-# Source Revision: archive-sha256:d35f5b18ac3e8cbe3d6d17eab809a7e050609a8e3cc7d160d14a87c59a191c12
-# Source SHA-256: 3ed8cf75afb9b7e2b33ef6d892b4e550efecf455e6c465043199862d24ba533b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ak-wiki.ans by abstrakt (lazarus); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: wiki
-# SAUCE Author: abstrakt
-# SAUCE Group: lazarus
-# SAUCE Date: 20220625
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# SAUCE Comments: it was on fire when i got here
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: wiki by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz15-ak-wiki
 
 Write-Host '
    [33mj $[0;1;31m$[0;33m$''[0;1;31m    [0;33m`^''└/j$[0;1;31m$$$$$$$$[0;33mP[0;1;31m [0;33m$[0;1;31m$$$$$$$[0;33mjP┘''        `$[0;1;31mb[0m [1;30m:;[0m   .            [1m.[0m

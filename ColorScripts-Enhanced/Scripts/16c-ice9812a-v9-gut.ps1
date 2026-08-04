@@ -1,18 +1,4 @@
-﻿# Converted from: V9-GUT.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9812a/raw/V9-GUT.ICE
-# Source Revision: archive-sha256:397c8567417cfeea4664a28967705433b5deac25a80f14bd6f996962777a7236
-# Source SHA-256: 0b1576037804a2bde83fae289c2e83dd84e0d81a0f7828a740489754c28485cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: V9-GUT.ICE by Vade79 (iCE); released in ice9812a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Gutter #8
-# SAUCE Author: Vade79
-# SAUCE Group: iCE
-# SAUCE Date: 19981227
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Gutter #8 by Vade79 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9812a-v9-gut
 
 Write-Host '
 [30;44m■[0;1;34;44m▄ ▄▄▌░░[0;34m▀▀ ▀[0;1;34;44m░▐▄[0;1;34;47m▄▓[0;1;34;44m▀▀▓░░[0;34m▀▀█▓░░[0;37m [0;1;30m■[0m [34m▀[0;1;34m▀[0;34m▀▐[0;1;34m▒▓[0;1;34;44m▓[0;1;34;47m▄[0;1;34;44m▀░░[0;34m▌▀[0;1;34m▀[0;34m▀▀[0;37m [0;34m▀[0;37m [0;1;30m▄[0m ░ [34m■▄[0;37m [0;1;30m▀■[0;32m ▄[0;1;36;42m▄[0;32m▄▌ [0;1;30m■[0m [34m▀▀▀▐[0;34;47m▓[0;37;44m░[0;1;34;44m ▀▀[0;1;34;47m▄█[0;1;34;46m▓▓[0m

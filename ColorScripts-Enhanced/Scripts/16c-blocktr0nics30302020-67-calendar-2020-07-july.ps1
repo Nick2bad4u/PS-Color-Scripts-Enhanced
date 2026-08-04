@@ -1,19 +1,4 @@
-﻿# Converted from: 67_Calendar_2020_07_July.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktr0nics30302020/raw/67_Calendar_2020_07_July.ans
-# Source Revision: archive-sha256:9a86a13b1ff7cef4b57ed39c1aca190028df54b44bffe10202b539bef3cd3dcc
-# Source SHA-256: 89c56f1ab7828e950dc44be5e23835c8276b5471f1335b30666c86ba754c30d4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 67_Calendar_2020_07_July.ans by avg (blocktronics); released in blocktr0nics30302020 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: july - blocktronics 2020 calendar
-# SAUCE Author: avg
-# SAUCE Group: blocktronics
-# SAUCE Date: 20191222
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: july - blocktronics 2020 calendar by avg | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktr0nics30302020-67-calendar-2020-07-july
 
 Write-Host '
 [1;31;41m               ▄▄[0;1;31;40m██████████████████████████████████████████[0;1;31;41m█[0;1;31;40m░░░░░█████[0;1;31;45m▄ ░  [0;35m▌▐█[0m

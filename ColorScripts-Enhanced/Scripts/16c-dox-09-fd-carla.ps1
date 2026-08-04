@@ -1,17 +1,4 @@
-﻿# Converted from: FD-CARLA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_09/raw/FD-CARLA.ANS
-# Source Revision: archive-sha256:c5cd33a328263069da0cd19f0b3fe2e4d6f041d2250819ad0b16ea4737718456
-# Source SHA-256: 40f8ab207d430ab3f9af159ead37c47a1db37af385e4cc90713d26e51a8430a8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FD-CARLA.ANS by Flood (dox_09); released in dox_09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Carla
-# SAUCE Author: Flood
-# SAUCE Date: 19970515
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Carla by Flood | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-09-fd-carla
 
 Write-Host '
 

@@ -1,19 +1,4 @@
-﻿# Converted from: US-AREA67.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-6710/raw/US-AREA67.ANS
-# Source Revision: archive-sha256:65fe9e2a2e2016f30e4b0141be2d1472e9b7cc814d922f9663e0d0a04142d70a
-# Source SHA-256: 576662a2b7aea208dd94389b161b260ede57ee9d49c12fbe07c071dcbe743201
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-AREA67.ANS by Avenging Angel + Whazzit (Blocktronics); released in blocktronics-6710 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: area 67
-# SAUCE Author: wz avg
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20180409
-# SAUCE Dimensions: 80x79
-# SAUCE Font: IBM VGA
-# Lines: 36-80
-# Columns: 1-80
+﻿# Artwork: area 67 by Avenging Angel + Whazzit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-6710-us-area67-part02
 
 Write-Host '
 [1;34;40m██[0;1;34;47m█████▀  █[0;1;34;40m█████[0;1;34;44m▀[0;1;34;40m  [0;1;34;47m████[0;1;34;40m█████[0;1;34;47m▄▄[0;1;37;47m [0;1;34;47m [0;34m█▄[0;1;34m [0;34m▄▄[0;1;34m    [0;34m [0;1;34;44m▀[0;34m▀[0m         [1;34m▄██▄▄[0;34m▄[0;1;34m   [0;34m▄[0;1;34m▄ ▄[0;1;34;44m ▀[0;1;34;47m▄▄█[0;1;34;40m█████████[0m

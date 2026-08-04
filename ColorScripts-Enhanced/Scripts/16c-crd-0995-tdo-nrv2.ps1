@@ -1,18 +1,4 @@
-﻿# Converted from: TDO-NRV2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/crd-0995/raw/TDO-NRV2.ANS
-# Source Revision: archive-sha256:92e8243206a19eb111052c953993f4e53dd9f67761e23e3ae8ade483112a7fd4
-# Source SHA-256: 5de7bb0c6241d5f735be1c8a7b5192138b75cd720e4c744912ed6e049e607821
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TDO-NRV2.ANS by teardrOp (Creed); released in crd-0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Nerve Matrix
-# SAUCE Author: teardrOp
-# SAUCE Group: Creed
-# SAUCE Date: 19950825
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Nerve Matrix by teardrOp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-crd-0995-tdo-nrv2
 
 Write-Host '
 [34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀██▄ [0;37m▀[0;1;37;47m░▓▄▓ [0m▀  ▄  ▄[1;47m ▓░▒░       ░▓▄▄▄▄▄▄▄▄▄▄▄▄░▄░[0m▓▄

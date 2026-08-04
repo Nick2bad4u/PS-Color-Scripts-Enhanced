@@ -1,18 +1,4 @@
-﻿# Converted from: KR-MENU!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k0tpr0be/raw/KR-MENU!.ANS
-# Source Revision: archive-sha256:fcb0e37abcb9d171de6d5cc918649afa7e9c0f2f5173dba90a7d8c38f69cec3d
-# Source SHA-256: 15a391bf514d31521b3293dda714362f273ad69b821c545d1940667a11e6ae45
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KR-MENU!.ANS by krash (fbk); released in k0tpr0be and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: obv/twoo main menu
-# SAUCE Author: krash
-# SAUCE Group: fbk
-# SAUCE Date: 19960222
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: obv/twoo main menu by krash | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k0tpr0be-kr-menu
 
 Write-Host '
                                             [32m■[0;37m [0;32m ▄[0;37m   [0;31m▒[0m      [31m■▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: INT-RS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/765n001/raw/INT-RS2.ANS
-# Source Revision: raw-sha256:5235ae5b3cc554d0651d87b10a5c28c16a9e1bd01bb63cc19a5ccec160c9f4ce
-# Source SHA-256: 5235ae5b3cc554d0651d87b10a5c28c16a9e1bd01bb63cc19a5ccec160c9f4ce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: INT-RS2.ANS by Intrepid (the girl scouts); released in 765n001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Rust
-# SAUCE Author: Intrepid
-# SAUCE Group: the girl scouts
-# SAUCE Date: 19960730
-# SAUCE Dimensions: 80x64
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Rust by Intrepid | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-765n001-int-rs2-part01
 
 Write-Host '
 [30min[0;32m▄▄█[0;1;32;42m░░░░[0;32m█[0;1;32;42m▒▒▒[0;32m█[0;1;32;42m░▒▓▓[0;32m████████[0;1;32;42m░░░░▒▒▒[0;32m▄▄ [0;1;31m  [0m           [1;31m   [0m ▄▀▄

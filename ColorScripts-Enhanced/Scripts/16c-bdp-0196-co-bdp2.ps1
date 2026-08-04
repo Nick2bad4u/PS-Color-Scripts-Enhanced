@@ -1,18 +1,4 @@
-﻿# Converted from: CO-BDP2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bdp-0196/raw/CO-BDP2.ANS
-# Source Revision: archive-sha256:baf6ac947cf516745e5d655c9231cc62d5c2df7a0182329027aea7ab76e3e18b
-# Source SHA-256: 636c9d7e61b7eaba9e170b877d0535e4559f726f4c7c62dcb0fc0ae25a09b728
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CO-BDP2.ANS by Coeffey (BdP); released in bdp-0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: bdp
-# SAUCE Author: Coeffey
-# SAUCE Group: BdP
-# SAUCE Date: 19951223
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: bdp by Coeffey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bdp-0196-co-bdp2
 
 Write-Host '
                 [30;42m▄▄▄▄▄▄▄[0;37;42m░▒▓▓[0;30;42m        [0;37;42m▓▒░[0;30;42m▄[0;37;40m [0;30;43m▀[0;1;31;43m░[0;30;43m▄▄[0;1;31;40m [0m  [30;43m▀▀▀[0;1;31;43m░▒░▒▓▒▒░░▒▓▒▓░▒[0;30;43m▀▀▄[0;1;31;43m░[0;30;43m▄▄▄▄[0m   [30;43m▄▄[0;1;31;43m░[0m

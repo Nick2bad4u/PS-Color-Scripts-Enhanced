@@ -1,19 +1,4 @@
-﻿# Converted from: DS-PTF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cnc-0395/raw/DS-PTF.ANS
-# Source Revision: archive-sha256:65c9b4b76cd545d5804f47ea52466c6bb38d18dbd927daf92eedc6f2f9d62387
-# Source SHA-256: ca235d25e04b65b34e2ec10c9a58110aa3a470b70d6a0f2ed4c8fb793f54303c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-PTF.ANS by Dominicus (CaNCeR); released in cnc-0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Prelude to Fear
-# SAUCE Author: Dominicus
-# SAUCE Group: CaNCeR
-# SAUCE Date: 19950203
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: Hey all! Well...what you all think? Hey...Bash! Better like this | or ya gonna get it <g>! Hehe.. well, umm...look at this ansi | through acidview at XGA or better grafx to see it... looks kinda | cool with that setting.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Prelude to Fear by Dominicus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cnc-0395-ds-ptf-part02
 
 Write-Host '
            [1m░ [0m

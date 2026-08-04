@@ -1,19 +1,4 @@
-﻿# Converted from: WZ-BURMA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/WZ-BURMA.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: 807a73f9d82d0f6ce978a430571b1b2cda928603ccb79394ced8cd4824cd6428
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WZ-BURMA.ANS by Whazzit (Blocktronics); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: All the King's Horses
-# SAUCE Author: Whazzit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20210217
-# SAUCE Dimensions: 120x135
-# SAUCE Font: IBM VGA
-# Lines: 90-135
-# Columns: 1-120
+﻿# Artwork: All the King's Horses by Whazzit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-wz-burma-part03
 
 Write-Host '
            [31m█████████████████████████ ██▌[0;1;38;2;85;85;85m [0;31m▐███████████████████████░░██[0;1;38;2;85;85;85m █████▓▓░░[0;5;30;48;2;85;85;85m██▄[0;1;38;2;85;85;85m█████[0;1;38;2;85;85;85;47m▓▓▓[0;1;38;2;85;85;85;40m▓▓▓▓▓[0;1;38;2;85;85;85;47m█[0;1;38;2;85;85;85;40m████[0;1;38;2;85;85;85;47m▓▓▒▌  [0m

@@ -1,17 +1,4 @@
-﻿# Converted from: AI#00010.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/omen-001/raw/AI%2300010.ANS
-# Source Revision: archive-sha256:639d01c4976c2412f40262280b42786a4a9a8dcf0c6d28b14f10b18fb7bde312
-# Source SHA-256: e447cf8c2e3b2a74865629cca26fd53ba49e604f01a1f948482692057c0932b2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AI#00010.ANS by artistic implosion (omen); released in omen-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: huh?!
-# SAUCE Author: artistic implosion
-# SAUCE Group: omen
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: huh?! by artistic implosion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-omen-001-ai-00010
 
 Write-Host '
                ▄▄▄                     ▄▄▄                   [1;30m▄[0m▄▄[1;30m▄[0m

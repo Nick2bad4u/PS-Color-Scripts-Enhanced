@@ -1,13 +1,4 @@
-﻿# Converted from: GAVEL79.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1992/raw/GAVEL79.ANS
-# Source Revision: archive-sha256:408f6102282b4b4f582d319af7c00d0c1a49a9b89d70dc7754d4cd44f475f4fb
-# Source SHA-256: b37f8beff68d97ffb83bdcfdc1ebae6f065da04fe5099abb08cf9c78a63bc10e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GAVEL79.ANS by Michael Arnett (1992); released in 1992 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: GAVEL79.ANS by Michael Arnett | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1992-gavel79
 
 Write-Host '
 [1;34m.   [0;1;36m▄  ▄ [0;30;46m▄   ▐[0;30;44m        [0;1;34;40m█[0;1;34;44m [0;1;34;40m██[0;1;34;44m [0;1;34;40m██[0;1;34;44m   [0;1;34;40m████[0;1;35;40m█[0;1;34;40m██[0;1;35;40m██[0;1;34;40m██[0;1;34;44m  [0;1;34;40m█[0;1;34;44m           [0;30;46m▌   [0m [30;46m▄[0m [1;36;40m▄  ▄ [0;1;33;40m.   [0;1;36;40m.[0;1;33;40m.[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: aa-fldontcare.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel29/raw/aa-fldontcare.ans
-# Source Revision: archive-sha256:a7926daad48a6eaeb3fe9fe16388ddf3683cf76fdb5fb4156f51cd91fc2d12a5
-# Source SHA-256: a89ebe3beb19b86659b3ede226837538752b901836e1b3a6439864a6764fbc2d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: aa-fldontcare.ans by Antsy Atheist (Fuel); released in fuel29 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: don't care
-# SAUCE Author: Antsy Atheist
-# SAUCE Group: Fuel
-# SAUCE Date: 20180404
-# SAUCE Dimensions: 80x77
-# SAUCE Font: IBM VGA
-# Lines: 40-77
-# Columns: 1-80
+﻿# Artwork: don't care by Antsy Atheist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel29-aa-fldontcare-part02
 
 Write-Host '
 [37m   [0;31m▄▄[0m          [1;30m░█▀▄▐[0;1;30;46m▓█[0;1;30;40m█[0;1;30;47m█▄[0;1;30;40m▀███████[0;1;30;47m▓▓▓▒▒▒░░[0m█████[1;30;47m░░░▒▓▓▓[0;1;30;40m██ ▓ ▐[0m [1;30;41m▓[0;31m▀[0;1;30m▄[0;31m  [0;1;30m█[0;31m    ▄▄▀▀[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: sm-pisel.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-200209/raw/sm-pisel.ans
-# Source Revision: archive-sha256:ab3d2c5d5742a2cbcf7af4340c52028dd38e2fb14c478495e644c08d6ae6f833
-# Source SHA-256: 99a1d0405bcd38b359e9b56dd0ea4ff95d7e8231d4dd69ca365084171da8ab67
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sm-pisel.ans by Smooth (iCE Advertisements); released in ice-200209 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Pirahna Select Menu
-# SAUCE Author: Smooth
-# SAUCE Group: iCE Advertisements
-# SAUCE Date: 20020908
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Pirahna Select Menu by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-200209-sm-pisel
 
 Write-Host '
 [1;30m▀[0m [1;41m           [0m [1;30m▀[0m [1;41m          [0m [1;30m▀[0m [1;41m          [0m [1;30m▀[0m [1;41m          [0m [1;30m▀[0m [1;41m          [0m [1;30m▀[0m [1;41m          [0m

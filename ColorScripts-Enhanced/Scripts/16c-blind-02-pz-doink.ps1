@@ -1,13 +1,4 @@
-﻿# Converted from: PZ-DOINK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blind-02/raw/PZ-DOINK.ANS
-# Source Revision: archive-sha256:c5e79989307dbf090a38f911b35eef6e687ee7fb3d0611abf6934cc9737046e9
-# Source SHA-256: 967177b76805367a77ce9754309bcfdc7f70ad2563268a948ae96e3e6974dc4a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PZ-DOINK.ANS by Puzant (blind-02); released in blind-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: PZ-DOINK.ANS by Puzant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blind-02-pz-doink
 
 Write-Host '
 [1;30m--------------------------------------------------------------------------------[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: IK-UF02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drl-0895/raw/IK-UF02.ANS
-# Source Revision: archive-sha256:fde65845d924ac8b59de334a5b79b9625c3b3c69121ac72a3256ec6e98ae58ed
-# Source SHA-256: 0e74de9bd0c255515161468cc94a9809641375ae69fe07dbf87862cc7fb47888
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IK-UF02.ANS by Ill Communikation (CiA Productionz); released in drl-0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Unseen Fate
-# SAUCE Author: Ill Communikation
-# SAUCE Group: CiA Productionz
-# SAUCE Date: 19950722
-# SAUCE Dimensions: 80x107
-# Lines: 72-107
-# Columns: 1-80
+﻿# Artwork: Unseen Fate by Ill Communikation | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drl-0895-ik-uf02-part03
 
 Write-Host '
                                                                    [1;34m░[0m     [1;34m░[0;1;30melito[0m

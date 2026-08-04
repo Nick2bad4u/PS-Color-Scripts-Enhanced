@@ -1,18 +1,4 @@
-﻿# Converted from: 22-TWST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-01/raw/22-TWST.ANS
-# Source Revision: archive-sha256:0e63c5e62ea9b66430033b1875dc38843fc6f5d45408ae01bb2abd9ed19a0d23
-# Source SHA-256: 6eb4da3167b8958997cafd003983459609c1ce9930fcebeb1d7c669b685f426e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 22-TWST.ANS by catch22 (gLUE); released in glue-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: twisted promotional
-# SAUCE Author: catch22
-# SAUCE Group: gLUE
-# SAUCE Date: 19970731
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: twisted promotional by catch22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-01-22-twst
 
 Write-Host '
                                                 [35m▄▄[0m   [35m  [0m

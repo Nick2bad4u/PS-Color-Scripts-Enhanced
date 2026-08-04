@@ -1,19 +1,4 @@
-﻿# Converted from: fs-fool.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fool27/raw/fs-fool.ans
-# Source Revision: archive-sha256:2f2b93f8f0e4fec62b30a599f5faab168be4584610a3b26b5849676a1be20365
-# Source SHA-256: ffb24b81e15f68f79dad931fc9d002a645616c2ee7f191ebf841f83de02c572b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: fs-fool.ans by farts (fool); released in fool27 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fool
-# SAUCE Author: farts
-# SAUCE Group: fool
-# SAUCE Date: 20171102
-# SAUCE Dimensions: 80x37
-# SAUCE Font: IBM VGA
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: fool by farts | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fool27-fs-fool
 
 Write-Host '
                                                   [33;40m   [0m     [33;40m▄▄▄■[0m

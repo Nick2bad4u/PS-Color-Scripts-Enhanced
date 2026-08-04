@@ -1,15 +1,4 @@
-﻿# Converted from: CC-SG4.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9604a/raw/CC-SG4.ICE
-# Source Revision: archive-sha256:a8f8a3430f1223583f5ba829d23fcb523e4712909ac7211db98ebd0249624ef2
-# Source SHA-256: f0cbc7e260e15421f2ce39e422be2b6961d95af1b90ecf57d1eefe8f1d1a6181
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CC-SG4.ICE by Corpulent Cow + The Night Angel (ice9604a); released in ice9604a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 19960405
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: CC-SG4.ICE by Corpulent Cow + The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9604a-cc-sg4
 
 Write-Host '
 [34m█[0;30;44m [0;34;40m██████████████████████████████████████████████████████████▀▀[0;35;40m▄▄▄[0;1;35;40m▄[0;35m▄▄[0;34m▀▀▀████████[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: iph-hype.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/arc-12/raw/iph-hype.ans
-# Source Revision: archive-sha256:7e32192194be6b7c1e69ce8969fca543780476f0eecbbd85d88967f23bac7be9
-# Source SHA-256: e08dc14897ca41241c017c212a6219c13513d06fbb12086047ebb7e689f3d85e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: iph-hype.ans by Inphamiliar (arc-12); released in arc-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: iph-hype.ans by Inphamiliar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-arc-12-iph-hype
 
 Write-Host '
         :                 .                                                 [1;30m░░[0m

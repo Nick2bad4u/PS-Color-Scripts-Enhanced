@@ -1,17 +1,4 @@
-﻿# Converted from: krl-ref3.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack16/raw/krl-ref3.ans
-# Source Revision: archive-sha256:c169b8434a7461a5936daf6ca0076420ba73d015e2414b7a4312b4b9d20ef74a
-# Source SHA-256: 3df8d551ccd59f7680795968bab9bceb4f2128da1629cf960730b18f76adc2c9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: krl-ref3.ans by Krinkle (Apocalyptic Visions); released in avpack16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Refraction Logo
-# SAUCE Author: Krinkle
-# SAUCE Group: Apocalyptic Visions
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Refraction Logo by Krinkle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack16-krl-ref3
 
 Write-Host '
          [34m       [0m                                                   [34m░[0;37m  [0;34m░[0;30;44m▓[0m

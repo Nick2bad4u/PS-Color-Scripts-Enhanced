@@ -1,18 +1,4 @@
-﻿# Converted from: ST-UC6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_07/raw/ST-UC6.ANS
-# Source Revision: archive-sha256:fdb99f4e825fce5f0239182b89b35e7a65dfd1f629b419cb099f04589247c9f8
-# Source SHA-256: 8454f9b661f39a917462608bc48554a31f6dc20646ab91a0de8560ef32eff34c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-UC6.ANS by soul trader (dox); released in dox_07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: urban chaos! its a kaos!
-# SAUCE Author: soul trader
-# SAUCE Group: dox
-# SAUCE Date: 19970326
-# SAUCE Dimensions: 80x25
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: urban chaos! its a kaos! by soul trader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-07-st-uc6
 
 Write-Host '
 

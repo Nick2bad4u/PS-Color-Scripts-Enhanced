@@ -1,18 +1,4 @@
-﻿# Converted from: TN-MOMMY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/illu0297/raw/TN-MOMMY.ANS
-# Source Revision: archive-sha256:4fc6a0019f008367ad8a97d95d80ada01dd34574d637246e807fcd899fd4fdb5
-# Source SHA-256: a89896f4b5338eaa872dca877d3877a99202949bd7a4ea8b7fb94bfab8166084
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TN-MOMMY.ANS by TriN (iLLUSiON); released in illu0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Mommy?!
-# SAUCE Author: TriN
-# SAUCE Group: iLLUSiON
-# SAUCE Date: 19970127
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Mommy?! by TriN | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-illu0297-tn-mommy
 
 Write-Host '
 [31m[0;1;37m[0;31m[0m[31m[0m[31m[0m[31m[0m[31m[0;1;31m[0;31m[0m[31m[0;1;31m[0;31m[0m[31m[0;1;31m[0;31m[0m[31m [0;1;33m;$$$ⁿ~~~~"ⁿ"~~~~~"ⁿⁿⁿ""""""~~~~   [0;1;31m"S$$$$$$S"   [0;1;33m~~~""""""ⁿⁿⁿ"~~~~~"ⁿ"~~~~ⁿ$$$;[0m

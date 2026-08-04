@@ -1,19 +1,4 @@
-﻿# Converted from: H7-SGULL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-46/raw/H7-SGULL.ANS
-# Source Revision: archive-sha256:32c189dd42ed53f66ce0b86a88ea8027caddc32faf4da7cee2e674d9223cb9f4
-# Source SHA-256: 7f68f98c7d567a2529c2e8e2822c4b74d8f59179660f42e8dedbd81c7dd7c5b8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: H7-SGULL.ANS by H7 (Fire); released in fire-46 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Seagull
-# SAUCE Author: H7
-# SAUCE Group: Fire
-# SAUCE Date: 20260707
-# SAUCE Dimensions: 80x28
-# SAUCE Font: IBM VGA
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Seagull by H7 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-46-h7-sgull
 
 Write-Host '
 

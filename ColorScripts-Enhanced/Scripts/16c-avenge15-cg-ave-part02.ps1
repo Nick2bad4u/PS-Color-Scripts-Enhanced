@@ -1,18 +1,4 @@
-﻿# Converted from: CG-AVE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge15/raw/CG-AVE.ANS
-# Source Revision: archive-sha256:11a79c92e9fc8c892f1f79f19699fe30da6c6fb4d0229d77725e757a82129c1a
-# Source SHA-256: 6ffb8d4b0b2e6678f971c502e5e859a4c8594445435806b60d648f6dc779448d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-AVE.ANS by cryogenic (avenge); released in avenge15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: avenge pix0r!@
-# SAUCE Author: cryogenic
-# SAUCE Group: avenge
-# SAUCE Date: 19990323
-# SAUCE Dimensions: 80x63
-# Lines: 32-63
-# Columns: 1-80
+﻿# Artwork: avenge pix0r!@ by cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge15-cg-ave-part02
 
 Write-Host '
 [32m█▌[0;37m [0;35m█▀[0m    [1;30m▄[0;32m [0;1;30m▀[0;32m▀ [0;37m [0;1;30m▀[0;32m▀█[0;37m  [0;36m▓▓[0;37m  [0;32m▄[0;37m [0;1;30m▀[0m    [32m░▄▄[0;37m [0;35m  [0;37m [0;32m▀[0;1;32;42m▀█▄[0;32m▄[0;37m [0;32m▄[0;1;32;42m▄[0;32m▄[0m   [32m ▀[0;1;32;42m▄[0;32m▄[0;37m [0;1;30m▀[0m   [32m▄[0;1;32;42m▄█▄[0m  [36m██▀[0;37m [0;36m░[0;37m [0;32m ▄[0;37m [0;32m▄█████[0m

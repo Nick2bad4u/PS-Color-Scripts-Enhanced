@@ -1,18 +1,4 @@
-﻿# Converted from: P5-WH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-1297/raw/P5-WH.ANS
-# Source Revision: archive-sha256:8fe0580f10c9c4324a8f3895b4ceff54a332010a934acdbd13d10f88a0864853
-# Source SHA-256: ab54a1c2bd04ba20dcc6ee1b62ea02ac0577704ae54cbcb2759e1636395a5a73
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P5-WH.ANS by prosthesis (society); released in bmb-1297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: wormhole
-# SAUCE Author: prosthesis
-# SAUCE Group: society
-# SAUCE Date: 19971222
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: wormhole by prosthesis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-1297-p5-wh
 
 Write-Host '
    [34m▄▄[0;1;34;44m▄▌[0;34m▀▀▀▀[0;1;34;44m▄▄[0;34m▄[0m              [34m▄▄▄██████▀▀▀▀[0m   [36m▄▄[0;1;36;46m▄[0;36m▄▄[0m     [34m▄[0m

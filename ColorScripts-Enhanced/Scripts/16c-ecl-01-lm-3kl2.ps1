@@ -1,13 +1,4 @@
-﻿# Converted from: LM-3KL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-01/raw/LM-3KL2.ANS
-# Source Revision: archive-sha256:98f7ca14920172db6145e44afa4b8ac94de6e46d94b8cf326e89a96c3e7e5c1b
-# Source SHA-256: d3af91244cda6ff4c3d671abd193eb48f0f99016d20b77760f513d4567c73c46
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LM-3KL2.ANS by Lagomorph (ecl-01); released in ecl-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: LM-3KL2.ANS by Lagomorph | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-01-lm-3kl2
 
 Write-Host '
          ▄[1m▄▄[0;1;47m▄█▓▓▀▀[0;1;40m▀▀▀▀▀▀[0;1;47m▀[0;1;40m███[0;1;47m▄[0;1;40m▄▄[0m▄

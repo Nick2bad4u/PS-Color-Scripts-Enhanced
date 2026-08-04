@@ -1,18 +1,4 @@
-﻿# Converted from: US-ARC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/arc-17/raw/US-ARC.ANS
-# Source Revision: archive-sha256:31f26da3cf2bf64aa491737e7b6c80b0b88a8949776f7dd7596da36ff613ee0f
-# Source SHA-256: 72c0f407ffd5d13a7b634950dae01ef095fbfc477426dfedb18bea57d62229f4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ARC.ANS by Dalton + Woffel (Alphaforce); released in arc-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Alphaforce
-# SAUCE Author: Dalton / Woffel
-# SAUCE Group: Alphaforce
-# SAUCE Date: 20000808
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Alphaforce by Dalton + Woffel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-arc-17-us-arc
 
 Write-Host '
 [1;30m████████[0;1;30;44m██[0;1;30;40m███[0;1;30;44m█[0;1;30;40m███████▀▀▀▀▀▀▀▀▀▀████[0;1;30;44m██[0;1;30;40m█████████████▀▀▀▀▀▀▀██████████████▓▓███████[0m

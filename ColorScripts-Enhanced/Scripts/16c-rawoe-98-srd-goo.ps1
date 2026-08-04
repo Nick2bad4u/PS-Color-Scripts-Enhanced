@@ -1,18 +1,4 @@
-﻿# Converted from: SRD-GOO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rawoe-98/raw/SRD-GOO.ANS
-# Source Revision: archive-sha256:72c3cf0f44a476eef694d1cf3a1552a03dc3aa0478a61b3b389cc598bf59ebb8
-# Source SHA-256: f065088dac8b12a38e5054c1a7625254011cd056a36a205dba2f2220f1afac1b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SRD-GOO.ANS by sordid (woe); released in rawoe-98 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: gOO!!
-# SAUCE Author: sordid
-# SAUCE Group: woe
-# SAUCE Date: 19980429
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: gOO!! by sordid | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rawoe-98-srd-goo
 
 Write-Host '
      [34m▄▄▄▄▄▄[0;1;32m    [0;1;30m [0;1;32m [0m [1;32m  [0;1;30m▄▄[0m  [1;32m      [0;32m [0m              [1;33m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

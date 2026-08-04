@@ -1,18 +1,4 @@
-﻿# Converted from: GJ-CTV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus04/raw/GJ-CTV.ANS
-# Source Revision: archive-sha256:4a57ed6764f9ffca39ae941548ed0ed0ba98ce6594de23a7788152f10b7f60a4
-# Source SHA-256: 64e8d0c9f594e4d82d6e6ab443ae55e0e87a9a2f5406d8d18e92b159f54ab373
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GJ-CTV.ANS by grymmjack(gj!) (fokus fonting); released in fokus04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: color television
-# SAUCE Author: grymmjack(gj!)
-# SAUCE Group: fokus fonting
-# SAUCE Date: 19990528
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: color television by grymmjack(gj!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus04-gj-ctv
 
 Write-Host '
 [1;30m[0m[1;37m[0;1;30m[0;1;37m[0;1;30m[0;1;37m[0;1;30m[0;1;37m[0m[1;37m[0m[1;37m[0;1;30m[0;1;37m[0m[1;30m[0m                              [32m░[0;30;42m▓[0;37;40m [0;32;40m░[0m                                     [30;42m▓[0m

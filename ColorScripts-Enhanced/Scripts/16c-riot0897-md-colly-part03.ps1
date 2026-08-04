@@ -1,18 +1,4 @@
-﻿# Converted from: md-colly.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot0897/raw/md-colly.ans
-# Source Revision: archive-sha256:2b8eaa17eb064959808a437b20477b0414e345f3edaa54962280cdc315093a9d
-# Source SHA-256: 03cf36b23ee2c6c231f961866de2fe7bfb057bb40e04df5b4d5f4baa77a82477
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: md-colly.ans by metal defender (rap); released in riot0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ansi colly for august pack
-# SAUCE Author: metal defender
-# SAUCE Group: rap
-# SAUCE Date: 19970801
-# SAUCE Dimensions: 80x160
-# Lines: 80-123
-# Columns: 1-80
+﻿# Artwork: ansi colly for august pack by metal defender | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot0897-md-colly-part03
 
 Write-Host '
                                                   [1;34;40m▄[0m  [1;34;40m▄[0m  [1;34;40m▀▄[0m    [1;34;40m▀[0m     [1;34;40m▄[0m   [1;34;40m▀[0m  [1;34;40m▄[0m

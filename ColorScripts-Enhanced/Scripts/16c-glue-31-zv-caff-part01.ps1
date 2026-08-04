@@ -1,18 +1,4 @@
-﻿# Converted from: Zv-caff.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-31/raw/Zv-caff.ans
-# Source Revision: archive-sha256:125b240e4f7c12edf343cce3b91cea614ad5d43fdbdf64dc76d9a06354b6a99c
-# Source SHA-256: 839f3a3e3b250ca839d17c91adadce49c18aef7850bbb7bc8262df3b391f7fc5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Zv-caff.ans by zeroVision (GLUE); released in glue-31 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: caffeine
-# SAUCE Author: zeroVision
-# SAUCE Group: GLUE
-# SAUCE Date: 20000516
-# SAUCE Dimensions: 80x75
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: caffeine by zeroVision | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-31-zv-caff-part01
 
 Write-Host '
 [1;30m [0m                                [1;30m▄[0m         [1;30m░[0m

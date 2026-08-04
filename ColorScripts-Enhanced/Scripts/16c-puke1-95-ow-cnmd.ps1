@@ -1,18 +1,4 @@
-﻿# Converted from: OW-CNMD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/puke1-95/raw/OW-CNMD.ANS
-# Source Revision: archive-sha256:9359316ebe923960ff90d65cab6e9857aca7aa0527c1c6ee720479acf916af50
-# Source SHA-256: da1b9c938ac02f7d007291623d3fbd47ec0eae358647630eab008f4f718c6b48
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OW-CNMD.ANS by oWyn (puKe); released in puke1-95 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Condemned
-# SAUCE Author: oWyn
-# SAUCE Group: puKe
-# SAUCE Date: 19950420
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Condemned by oWyn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-puke1-95-ow-cnmd
 
 Write-Host '
 [34m [0;1;30m██████████████████████████████████████████████████████████████████████████████[0m

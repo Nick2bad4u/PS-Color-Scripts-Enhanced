@@ -1,17 +1,4 @@
-﻿# Converted from: RA-AMB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vpr0795/raw/RA-AMB.ANS
-# Source Revision: archive-sha256:4a59d47b7694f8e39e774460d65dc196d91b5d4e90f4e35cac8b62cdf4456f27
-# Source SHA-256: bfe690ff7202785c8ca842b1328ba9c5ef12191341d0dd97853d31ba780d9648
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RA-AMB.ANS by Rage (Vapor); released in vpr0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Amber
-# SAUCE Author: Rage
-# SAUCE Group: Vapor
-# SAUCE Date: 20950709
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Amber by Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vpr0795-ra-amb-part01
 
 Write-Host '
 [1;30mrage(vapOr)[0m      ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄

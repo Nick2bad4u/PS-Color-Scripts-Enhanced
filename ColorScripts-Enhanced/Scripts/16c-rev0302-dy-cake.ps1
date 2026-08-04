@@ -1,18 +1,4 @@
-﻿# Converted from: DY-CAKE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0302/raw/DY-CAKE.ANS
-# Source Revision: archive-sha256:7b2619e0400d7382d19d38767873337eae71942dd319abc1998c71f4a968776f
-# Source SHA-256: ea592c2a8ad3200db666824e89b4872e16d34c79b1a8f0cd06ebc6db1ec16d5a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DY-CAKE.ANS by discyple (Revival 2002); released in rev0302 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Happy Birthday bL
-# SAUCE Author: discyple
-# SAUCE Group: Revival 2002
-# SAUCE Date: 20020314
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Happy Birthday bL by discyple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0302-dy-cake
 
 Write-Host '
 

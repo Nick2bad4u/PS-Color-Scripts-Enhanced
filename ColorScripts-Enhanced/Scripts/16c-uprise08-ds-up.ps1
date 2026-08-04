@@ -1,18 +1,4 @@
-﻿# Converted from: DS-UP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise08/raw/DS-UP.ANS
-# Source Revision: archive-sha256:a25eed3e25fe4aa7fc0560c1fa7de8a9e155ecb2aed26b67328b74f91962df53
-# Source SHA-256: 746036ffa2bb81cca8d88631ba5bd3875c6f3423a02b73c67021007dd1bdb238
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-UP.ANS by Dying Soul (Uprise); released in uprise08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Uprise promo
-# SAUCE Author: Dying Soul
-# SAUCE Group: Uprise
-# SAUCE Date: 19980913
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Uprise promo by Dying Soul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise08-ds-up
 
 Write-Host '
     [1;35m▄▄▄▄[0m   [1;30m [0;33m [0m                     [31m▄▄▄▄▄[0;37m [0;31m▄[0;33;41m░░░[0;31;40m▄[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: FIL-RELC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-36/raw/FIL-RELC.ANS
-# Source Revision: archive-sha256:43e7d46e56dc094cf8502b299dcd82ee875dea0a064a36248f4e6c844180fd25
-# Source SHA-256: 06cb9486e8bd38736a8dd936dc6d3b37d5d9f46db281a56a5f1dc0f8f3a3d874
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FIL-RELC.ANS by filth (F i R E); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: RELiC TRiBUTE
-# SAUCE Author: filth
-# SAUCE Group: F i R E
-# SAUCE Date: 20230303
-# SAUCE Dimensions: 80x113
-# SAUCE Font: IBM VGA
-# Lines: 77-113
-# Columns: 1-80
+﻿# Artwork: RELiC TRiBUTE by filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-36-fil-relc-part03
 
 Write-Host '
 [34m█[0;1;31;43m▓▓[0;1;31;40m█[0;1;31;43m▓[0;1;31;40m█[0;1;31;43m▓[0;1;31;40m█████[0m [1;31m▐[0;1;31;47m▓[0;1;31;40m██████[0;1;31;47m▓[0;1;31;40m█[0;1;31;43m░[0;33m▓▓█▄▄[0m     [37m▄[0;1;37m▄▄[0;33m   [0;37m■[0;1;37m▄▄▄[0m▄[1m ▀▀[0;1;31m▄▄[0;1;31;43m▓▓▓▓▓▓▓▓▓▀▀▀▀▀░░░[0;33m██████████▓▓[0;34m█[0m

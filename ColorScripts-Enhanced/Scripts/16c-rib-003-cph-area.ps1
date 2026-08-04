@@ -1,13 +1,4 @@
-﻿# Converted from: CPH-AREA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-003/raw/CPH-AREA.ANS
-# Source Revision: archive-sha256:09817656d743388b570b7dfb39c4f133f8c40aecb92562f60d9e0c45a3f39730
-# Source SHA-256: 28bedb248c8660e887d5cf043c34a3ae2a898306d4646b06b3d0d72d67d9be42
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-AREA.ANS by Cyberpunch (rib-003); released in rib-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: CPH-AREA.ANS by Cyberpunch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-003-cph-area
 
 Write-Host '
 [32m░░[0m   [32m..................:[0m    [32m.......[0m                [32m▄▄▄[0;1;30;42m░[0;42m░[0;32;40m█▀▀▀▀[0;37;40m [0;32;40m▀[0m    [32;40m▀[0m       [32;40m▄[0m

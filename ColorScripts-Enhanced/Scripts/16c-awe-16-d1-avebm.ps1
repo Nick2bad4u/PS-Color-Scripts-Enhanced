@@ -1,17 +1,4 @@
-﻿# Converted from: D1_AVEBM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-16/raw/D1_AVEBM.ANS
-# Source Revision: archive-sha256:299c2506fc7c7048919e5ad206603713352cc67a07153aa96e981dc224539522
-# Source SHA-256: e91f43f0432c2f0f7b720e6781dbb56b3bbe9fd1b3b5674a187549e353ec258e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D1_AVEBM.ANS by Dissonance (awe-16); released in awe-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Avenger Tribute
-# SAUCE Author: Dissonance
-# SAUCE Date: 19980827
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Avenger Tribute by Dissonance | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-16-d1-avebm
 
 Write-Host '
 [1;36m [0m           [1;33m░[0;1;37m▄[0;1;33m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: BS-WORX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-05/raw/BS-WORX.ANS
-# Source Revision: archive-sha256:eb0948671797309554c3545cf502cce8943191f153468011a76cca894133dc0a
-# Source SHA-256: 259ea10793054f0ef5b40a483fe5cca3de8a44125ef3d90053914a9c251ed4ed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-WORX.ANS by Blind Snipah (Department 38); released in d38-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Water Worx, whoosh whoosh
-# SAUCE Author: Blind Snipah
-# SAUCE Group: Department 38
-# SAUCE Date: 19970326
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Water Worx, whoosh whoosh by Blind Snipah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-05-bs-worx
 
 Write-Host '
          [1;30m▄[0m                  ▀

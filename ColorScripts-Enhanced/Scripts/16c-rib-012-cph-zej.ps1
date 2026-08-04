@@ -1,18 +1,4 @@
-﻿# Converted from: CPH-ZEJ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-012/raw/CPH-ZEJ.ANS
-# Source Revision: archive-sha256:4b822377f08e44404edc6b006616be9a58b9ffc0848d36336fc9de37f7065343
-# Source SHA-256: 4c268cbe1470aa4e99c3f5fce0893583926d02e2f6007e2a07885bd0058030f1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-ZEJ.ANS by _cph (rib); released in rib-012 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 3EJ logo
-# SAUCE Author: _cph
-# SAUCE Group: rib
-# SAUCE Date: 19980901
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: 3EJ logo by _cph | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-012-cph-zej
 
 Write-Host '
                      [1;34m░░[0m

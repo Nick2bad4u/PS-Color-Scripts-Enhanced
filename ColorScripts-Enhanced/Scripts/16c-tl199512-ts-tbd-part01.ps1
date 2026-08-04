@@ -1,18 +1,4 @@
-﻿# Converted from: TS-TBD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl199512/raw/TS-TBD.ANS
-# Source Revision: archive-sha256:5fe53ca39169434efb75bd9b36a17fd1bcaf0eaf6e956a4066650232cbdc99ec
-# Source SHA-256: 5da81e8dbeab7dfcd378f56c3bb246e7aa86fbda12c48f3529e2434387e7d034
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-TBD.ANS by ts (Teklordz); released in tl199512 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Black Devil of the Ukraine
-# SAUCE Author: ts
-# SAUCE Group: Teklordz
-# SAUCE Date: 19951219
-# SAUCE Dimensions: 80x56
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Black Devil of the Ukraine by ts | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl199512-ts-tbd-part01
 
 Write-Host '
       [1m█[0;1;47m▀▀[0m█[1;47m▀[0m█████████ [1;30m▐▌[0m▀█ ▀██████████████████████████████████████████████[1;47m░[0m

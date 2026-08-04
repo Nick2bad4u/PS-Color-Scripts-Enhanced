@@ -1,18 +1,4 @@
-﻿# Converted from: M-XMAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-03/raw/M-XMAS.ANS
-# Source Revision: archive-sha256:9ea26ff16b2d0162532c602fba75b69e539d71620a3b4e34b796de886326619c
-# Source SHA-256: 9528d5659aaf6b7cdaa54a9ecf2260c54c345fc71a2ac3be4995c9c91de5943b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M-XMAS.ANS by milkmang (nerp as usuall); released in nerp-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ..
-# SAUCE Author: milkmang
-# SAUCE Group: nerp as usuall
-# SAUCE Date: 19971224
-# SAUCE Dimensions: 80x31
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: .. by milkmang | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-03-m-xmas
 
 Write-Host '
 [33m·[0;37m [0;33m▀██[0;1;33;43m░░[0;33m█▓░[0m      [36m [0;37m [0;33m▀█[0;1;33;43m░[0;33m▀[0;37m [0;33m  [0m                 [1;30m    [0;33m    ▄▄▄▄[0;1;31;43m░░▓▓[0;1;31;40m███████████[0;1;31;43m▓▓░[0;33m▄▄▄[0;1;30m▄[0;1;31m [0;1;30m▀▀[0m

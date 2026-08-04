@@ -1,18 +1,4 @@
-﻿# Converted from: TH-FACE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fl-pack5/raw/TH-FACE.ANS
-# Source Revision: archive-sha256:4e5aacbf0fe01d1356d37c9335e2c04559cc2a8c3129e360869509c882113658
-# Source SHA-256: 8c8145e9d8ae17d9af78046267b87a204bf34436f5ad2fc6893054c1d49d8ce6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH-FACE.ANS by Thrasher (FUEL! Ansi Div.); released in fl-pack5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fucked up dumb smiley face ;)
-# SAUCE Author: Thrasher
-# SAUCE Group: FUEL! Ansi Div.
-# SAUCE Date: 19950627
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: Fucked up dumb smiley face ;) by Thrasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fl-pack5-th-face
 
 Write-Host '
              [1;30m▄[0m

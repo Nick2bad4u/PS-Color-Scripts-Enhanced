@@ -1,18 +1,4 @@
-﻿# Converted from: LM-UF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-08/raw/LM-UF.ANS
-# Source Revision: archive-sha256:0b90c936d49629839c01709c30be5eee3ae4012caa7a8f1570b6ae8cc1763cb4
-# Source SHA-256: f0a9e3113b7d6d4b488690137df1b93f7ea54b04542f1efae9c200586d74f6d0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LM-UF.ANS by lago (eclipse, yo! =)); released in ecl-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: underfall
-# SAUCE Author: lago
-# SAUCE Group: eclipse, yo! =)
-# SAUCE Date: 19800102
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: underfall by lago | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-08-lm-uf
 
 Write-Host '
                    [34m■[0m           [34m■[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SN!RVL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak1/raw/SN!RVL.ANS
-# Source Revision: archive-sha256:6b35b56dc24903414bd16ecb32b5990f418418f7d4290c94fd51891e14acec7b
-# Source SHA-256: 6516c563a1cc8cd28c93d55f207f71a32828ba75597fb4890fb8aa718502a1ce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SN!RVL.ANS by Snowball (Ecolove); released in ecl-pak1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: For Revolution... !
-# SAUCE Author: Snowball
-# SAUCE Group: Ecolove
-# SAUCE Date: 19971123
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: For Revolution... ! by Snowball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak1-sn-rvl
 
 Write-Host '
 

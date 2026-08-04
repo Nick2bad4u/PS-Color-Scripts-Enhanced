@@ -1,18 +1,4 @@
-﻿# Converted from: E0-DSGT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9708/raw/E0-DSGT.ANS
-# Source Revision: archive-sha256:3376fc365de5181233b813e877de1cd710dc83f3caddf0e27d10d8d02107f39f
-# Source SHA-256: b96c10b8c2f4f7b236d23aa1313fe9b15924b4339ca024ba3122c50c6ca7da87
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: E0-DSGT.ANS by enzo (Maiden Brazil); released in mdn-9708 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Disgust
-# SAUCE Author: enzo
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19970716
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Disgust by enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9708-e0-dsgt
 
 Write-Host '
 [1;34;46m█▓▓[0;1;34;40m██[0;1;34;44m▀[0;34m▀[0m                              [34m     ▀[0;1;34;44m▀███████████████████[0;1;34;40m████████[0;1;34;46m▓██▓▓[0;1;34;40m███▀[0m

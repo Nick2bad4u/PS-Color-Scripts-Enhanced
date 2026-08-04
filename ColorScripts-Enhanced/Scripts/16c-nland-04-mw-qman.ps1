@@ -1,18 +1,4 @@
-﻿# Converted from: MW-QMAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nland-04/raw/MW-QMAN.ANS
-# Source Revision: archive-sha256:eab686fd42219ed6c9add6a2f7726008adc5ca3e06c5f87a076203c52842513d
-# Source SHA-256: ff94e0266261b70a4fe9b76f7fdfe5f384449d21198851835ea1934d5f560a1a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MW-QMAN.ANS by MoonWalkeR (NeveRLanD); released in nland-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: QUINO'S MaN
-# SAUCE Author: MoonWalkeR
-# SAUCE Group: NeveRLanD
-# SAUCE Date: 19960122
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: QUINO'S MaN by MoonWalkeR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nland-04-mw-qman
 
 Write-Host '
 [34m[0;1;34m[0;1;37m[0;34m[0;1;37m[0;1;34m[0;34m[0m[34m[0;37m[0;34m[0;1;34m[0;1;37m[0;1;34m[0;34m[0m                 [37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  [0;34m [0m

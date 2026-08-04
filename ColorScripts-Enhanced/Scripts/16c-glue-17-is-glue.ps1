@@ -1,18 +1,4 @@
-﻿# Converted from: IS-GLUE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-17/raw/IS-GLUE.ANS
-# Source Revision: archive-sha256:154ac874f13e20433925bb99a4f5e0a4299764bee7ed4d28bdaffd9ad392f554
-# Source SHA-256: 2a6978efa4171257535d279489fb8e5eefca0e077672fcc048400b94e86318c9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IS-GLUE.ANS by prosthesis (glue); released in glue-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: glue, f*** the millenium
-# SAUCE Author: prosthesis
-# SAUCE Group: glue
-# SAUCE Date: 19981217
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: glue, f*** the millenium by prosthesis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-17-is-glue
 
 Write-Host '
 [34m░░░[0;36m  [0;1;36;46m▀█▄[0;36m  [0;34m░░[0;36m [0;1;36;46m▄█[0;36m■▀ ▀[0m    [1;30m▓▓▓ [0m      [36m▄▄█[0;1;36;46m▄▄████▀▀[0;36m▀▀[0;1;36;46m▀█[0;36m ▄▄   [0;1;36;46m▄█[0;36m  ▄[0;1;36;46m▄█[0m    [1;36;46m▄█[0;36m [0;1;30m▄█[0m      [1;30m░[0m

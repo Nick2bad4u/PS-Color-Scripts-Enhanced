@@ -1,18 +1,4 @@
-﻿# Converted from: EC-REV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force18a/raw/EC-REV.ANS
-# Source Revision: archive-sha256:6a0f397e3657e6d033b73af64211a87e0404e38c6a0f4de7a8637861ae197039
-# Source SHA-256: d3c42498a26f8fe2bfa2a4720d4257d1902701c746c77c41d85244880977100a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EC-REV.ANS by eclipse (force); released in force18a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: relativity emag
-# SAUCE Author: eclipse
-# SAUCE Group: force
-# SAUCE Date: 19970614
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: relativity emag by eclipse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force18a-ec-rev
 
 Write-Host '
     [1;36m▄▄▄▀[0m                   [36m░[0;30;46m▓[0m                  [37;40m  [0m             [1;36;40m [0m        [1;36m▄[0m

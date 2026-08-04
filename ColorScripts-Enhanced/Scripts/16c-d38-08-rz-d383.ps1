@@ -1,18 +1,4 @@
-﻿# Converted from: RZ-D383.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-08/raw/RZ-D383.ANS
-# Source Revision: archive-sha256:0567468a2c5f3b6be5032c5650cb72f6233cef61565d1d349ba0b887559b2680
-# Source SHA-256: 172e621bdf8a7f850ffad2373998aeb960eefe8a3e7947fcb33b27d61b012087
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RZ-D383.ANS by Rzarector [GUEST] (fOrce prOductiOnz); released in d38-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: department 38
-# SAUCE Author: Rzarector [GUEST]
-# SAUCE Group: fOrce prOductiOnz
-# SAUCE Date: 19970613
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: department 38 by Rzarector [GUEST] | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-08-rz-d383
 
 Write-Host '
 [31m                 [0m     [31m▀                         [0m

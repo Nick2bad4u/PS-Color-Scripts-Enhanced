@@ -1,18 +1,4 @@
-﻿# Converted from: US-XTC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-31/raw/US-XTC1.ANS
-# Source Revision: archive-sha256:125b240e4f7c12edf343cce3b91cea614ad5d43fdbdf64dc76d9a06354b6a99c
-# Source SHA-256: 6b350b6713ca2b5da932975c7e7d26cc8915ca13866dfb500e5abbc64614fac5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-XTC1.ANS by Catch 22 + Somberlain (Glue); released in glue-31 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ecstacy menu
-# SAUCE Author: catch22/somberlain
-# SAUCE Group: Glue
-# SAUCE Date: 20000517
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: ecstacy menu by Catch 22 + Somberlain | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-31-us-xtc1
 
 Write-Host '
 [1;34;47m▄▓[0;1;34;44m▀[0;34m▀[0;37m [0;1;30m░▓█▀[0m [1;30m▄▄[0m▒▒[1;30m▀▄[0m▒[1;30m█▓▒[0;36m [0;37m  [0;36m▓[0;1;36;46m██▒[0;36m▀[0;37m [0;1;36;46m██▓░[0;36m▌[0;37m [0;1;30;47m█[0m   [36m▐[0;1;36;46m░[0;36m▌[0;37m [0;1;36;46m█▓[0;36m▄▀[0;1;36;46m▀██▓▓[0;36m▓[0;37m [0;36m▓[0;1;36;46m██▓▓[0;36m▓[0;37m  [0;36m▀▀▄▀[0;1;36;46m██▓▒[0;36m▄[0;37m [0;1;30ms722[0m  [1;30m▓▓[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: 09-SALT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus02/raw/09-SALT1.ANS
-# Source Revision: archive-sha256:dbc0fd9393f048eb4114863d8031209a44218deffed6a460f10c74db43cffb0e
-# Source SHA-256: 920c59322d78caa2ed11d307cb58e342765f052f09381af7eb734a710010c4d5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-SALT1.ANS by Fluor (Fokus fonting); released in fokus02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Salt
-# SAUCE Author: Fluor
-# SAUCE Group: Fokus fonting
-# SAUCE Date: 19990401
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Salt by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus02-09-salt1
 
 Write-Host '
      [36m▄█▄▄[0;1;30m▄[0m        [36m▄[0m                         [34m▄[0;1;34m▄[0m      [36m▄[0m

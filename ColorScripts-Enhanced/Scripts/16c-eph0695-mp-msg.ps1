@@ -1,13 +1,4 @@
-﻿# Converted from: MP-MSG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eph0695/raw/MP-MSG.ANS
-# Source Revision: archive-sha256:61ec4551dc794352375c44fe76ae319c35cb8fdacc91cb701b40cfccfff3e01c
-# Source SHA-256: 374af9559b2573838d330d9dd812cbfd3b70cbc21a342012101a53e10bff1ec7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MP-MSG.ANS by Mystic Plague (eph0695); released in eph0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: MP-MSG.ANS by Mystic Plague | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eph0695-mp-msg
 
 Write-Host '
       [1;31m▄[0;1;30m▄[0;1;31m▄▄[0;1;31;47m▒▒▓▓▓▓▓▓[0;1;31;40m█▄▄[0;1;30;40m▄[0;1;31;40m▄[0m  [1;30;40m░▄[0m [1;30;40m▄▄''▄▄▄▄▄.▄▄▄▓▄▄▄▄[0m▄[1;30m▄▄▄▄▄▄[0m▄[1;30m▄▄▄[0m▄[1;30m▄[0m▄▓[1;30m▄[0m▄▄▄▄▄▄▄[1m▄[0m▄▓▄[1m▄[0m▄▄[1;30m''[0m ░

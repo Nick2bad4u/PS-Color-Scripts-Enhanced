@@ -1,18 +1,4 @@
-﻿# Converted from: PL-DOH2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/coa1096/raw/PL-DOH2.ANS
-# Source Revision: archive-sha256:128b6c2a8f568cf6bad059228a21cd32425d44608f32b5cbcfef7f04ec4e1f32
-# Source SHA-256: 1c6a4b24c97f51e232551936cb94b26b040f7dc7d8712abccbf0b02ea7586d6a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PL-DOH2.ANS by phlux (coa); released in coa1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: doh
-# SAUCE Author: phlux
-# SAUCE Group: coa
-# SAUCE Date: 19961008
-# SAUCE Dimensions: 80x14
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: doh by phlux | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-coa1096-pl-doh2
 
 Write-Host '
                                                                    [1;30m░  ░░ [0mphlux

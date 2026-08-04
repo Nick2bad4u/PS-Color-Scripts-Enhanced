@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-NEKD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel17/raw/ZII-NEKD.ANS
-# Source Revision: archive-sha256:6bb17dad2b087feff514e10d76b337034c943aff1fa5007d50b103cb34f90d66
-# Source SHA-256: 756fc8b61c0cc5141feb0b988214d326602b216c4f602528cbdb433b5718a3f8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-NEKD.ANS by Zeus II (fuel); released in fuel17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: negative ..main
-# SAUCE Author: Zeus II
-# SAUCE Group: fuel
-# SAUCE Date: 19970919
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: negative ..main by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel17-zii-nekd
 
 Write-Host '
 [1;30m░░[0m [34m ▄[0;1;34;44m▄[0;1;34;47m▓▓[0;1;34;44m█[0;34m▐[0;1;34;44m█[0;1;34;40m▓[0;1;34;44m▀[0;34m▐[0;1;34;44m█[0;1;34;40m▀[0;34m▐[0;1;34;47m▓▓[0;1;34;44m█[0;34m▌[0;1;34;44m▐[0;1;34;47m▓▀[0;1;34;40m▀[0;34m [0;1;34;44m▐[0;1;34;47m▓[0;1;34;44m▄[0;1;34;40m▄[0;34m▄[0;37m [0;1;30mZeusII/[0mFUEL[1;30m [0m

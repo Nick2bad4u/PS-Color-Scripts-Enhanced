@@ -1,18 +1,4 @@
-﻿# Converted from: CG-DS#1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-16/raw/CG-DS%231.ANS
-# Source Revision: archive-sha256:9ad935bd4cbb2615c5c684e690bc8979daa45859d0282b370bf26a8750d02425
-# Source SHA-256: 4bde52c87441d32f08f7f71ef373605f59780f3d4f07b5df9ffbbab2a983fb56
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-DS#1.ANS by cryogenic (fORCE); released in force-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: DS
-# SAUCE Author: cryogenic
-# SAUCE Group: fORCE
-# SAUCE Date: 19980225
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: DS by cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-16-cg-ds-1
 
 Write-Host '
                                               [34m [0m    [1;34m [0m      [1;34m [0m   [34m▄[0m

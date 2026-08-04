@@ -1,18 +1,4 @@
-﻿# Converted from: CARC-TW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst-19/raw/CARC-TW.ANS
-# Source Revision: archive-sha256:38480cbb01973683b6bb179e82483ce3434180444dfcf5b811296224974846eb
-# Source SHA-256: 8331e91d13a45a4ec23f30bd4e1a22a16d31a8e79ae07d727b0493ec01f5f87d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CARC-TW.ANS by pc (twisted); released in twst-19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Twisted
-# SAUCE Author: pc
-# SAUCE Group: twisted
-# SAUCE Date: 19971230
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Twisted by pc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst-19-carc-tw
 
 Write-Host '
   [36m▄▄▄▄[0;1;36;46m▄▄[0;36m▄█[0;1;36;46m▄█▀[0;36m▀▀[0;37m [0;32m▄▄▄▄▄[0;37m  [0;32m▀▀▀[0m               [37m░▓▄▄[0m

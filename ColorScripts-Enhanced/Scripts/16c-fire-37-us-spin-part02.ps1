@@ -1,19 +1,4 @@
-﻿# Converted from: US-SPIN.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/fire-37/raw/US-SPIN.ANS
-# Source Revision: archive-sha256:42913eb56742cc8575f96af5b8a027e63b5172fdb84271b8ac973c7820ea43ef
-# Source SHA-256: 3495c86dd77210eabba8db0e6179f1bf307cf73734d83a88bd6f9ff5ce3e84ae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SPIN.ANS by ZIR + Abstrakt (fire); released in fire-37 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: spinach
-# SAUCE Author: zir + abstrakt
-# SAUCE Group: fire
-# SAUCE Date: 20230707
-# SAUCE Dimensions: 80x61
-# SAUCE Font: IBM VGA
-# Lines: 42-61
-# Columns: 1-80
+﻿# Artwork: spinach by ZIR + Abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-37-us-spin-part02
 
 Write-Host '
 [38;2;0;171;0;48;2;0;0;0m▐[0;38;2;171;0;0;48;2;0;0;0m [0;1;38;2;255;87;87;48;2;0;0;0m░[0;1;38;2;255;87;87;48;2;0;171;171m▒[0;1;38;2;255;255;87;48;2;0;171;171m▓[0;1;38;2;255;255;87;48;2;171;0;0m███[0;1;38;2;255;255;87;48;2;171;0;171m▓▄[0;38;2;171;0;0;48;2;0;0;0m▄[0;1;38;2;255;87;87;48;2;0;0;0m  [0;1;38;2;255;255;87;48;2;0;0;0m░[0;38;2;0;171;0;48;2;0;0;0m▀[0;38;2;171;0;171;48;2;0;0;0m ░[0;1;38;2;255;87;255;48;2;171;171;171m▒[0;1;38;2;255;255;87;48;2;171;171;171m▒▒[0;1;38;2;255;87;255;48;2;171;171;171m▒▓[0;1;38;2;255;87;255;48;2;171;0;171m▀[0;1;38;2;255;87;255;48;2;171;171;171m▒▓[0;1;38;2;255;87;87;48;2;171;0;171m▒▀[0;1;38;2;255;87;87;48;2;0;0;0m▄  [0;38;2;0;171;0;48;2;0;0;0m▄▀[0;1;38;2;255;255;87;48;2;0;171;0m▀▒[0;38;2;0;171;0;48;2;0;0;0m▀▄▓[0;38;2;171;0;171;48;2;0;0;0m [0;1;38;2;255;87;255;48;2;171;0;0m░░[0;1;38;2;255;255;87;48;2;171;0;171m▓█[0;1;38;2;255;255;87;48;2;171;171;171m▓[0;1;38;2;255;87;255;48;2;171;171;171m▒[0;1;38;2;255;87;87;48;2;171;0;0m▌[0;38;2;171;0;0;48;2;0;0;0m▄[0;38;2;171;0;171;48;2;0;0;0m [0;1;38;2;255;87;255;48;2;171;0;171m▐[0;1;38;2;255;87;255;48;2;171;171;171m░░[0;1;38;2;255;87;255;48;2;171;0;171m▓[0;1;38;2;255;87;255;48;2;171;0;0m▀[0;38;2;171;0;171;48;2;171;0;0m▄[0;1;38;2;255;87;255;48;2;171;0;171m▄▀[0;1;38;2;255;87;87;48;2;171;0;171m▒░[0;38;2;171;0;0;48;2;0;0;0m▄[0;1;38;2;87;255;87;48;2;0;0;0m [0;38;2;0;171;0;48;2;0;0;0m░[0;1;38;2;87;255;87;48;2;0;0;0m▀[0;38;2;171;0;0;48;2;0;0;0m ▄[0;1;38;2;255;87;87;48;2;171;0;171m▓[0;1;38;2;255;255;87;48;2;171;0;0m▄▄[0;1;38;2;255;87;255;48;2;171;0;0m░[0;1;38;2;255;87;87;48;2;171;0;0m░[0;38;2;171;0;171;48;2;0;0;0m▓[0;1;38;2;87;87;87;48;2;0;0;0m [0;1;38;2;87;87;255;48;2;0;0;0m░[0;1;38;2;255;87;87;48;2;171;0;171m░[0;1;38;2;255;255;87;48;2;171;0;0m▐██▓[0;1;38;2;255;255;87;48;2;171;0;171m░[0;38;2;171;0;171;48;2;0;0;0m▓[0;1;38;2;255;87;87;48;2;0;0;171m░[0m

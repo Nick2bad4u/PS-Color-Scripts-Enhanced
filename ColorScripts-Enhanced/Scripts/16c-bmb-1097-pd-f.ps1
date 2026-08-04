@@ -1,18 +1,4 @@
-﻿# Converted from: PD-F.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-1097/raw/PD-F.ANS
-# Source Revision: archive-sha256:e00f8ccd747d6f713ee8049d7689cafe483a4db84fe36db34569c4f513f6fe6d
-# Source SHA-256: c10f63dd27a11a9d23e304c722a31ff5470f6831898323638324d6ddaaa706ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PD-F.ANS by poldi (bamboosh); released in bmb-1097 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the factory main menu
-# SAUCE Author: poldi
-# SAUCE Group: bamboosh
-# SAUCE Date: 19971015
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: the factory main menu by poldi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-1097-pd-f
 
 Write-Host '
 [1m██[0;1;36;46m██▓▓░░[0;36m████[0;1;36;46m [0;36m████████████[0;1;36;46m░░░▓▓▓▓[0;1;36;40m███████[0;1;36;46m█▓▓▓▓░░░[0;36m██████████████████████████[0;1;36;46m░░▓▓█[0;1;37;40m██[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: INTERACT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/elloco/raw/INTERACT.ANS
-# Source Revision: raw-sha256:6fb840f6cd422ffb432f5bbd0cd88ac37c4eef8bc6e2e40a8a1bbd00555c9670
-# Source SHA-256: 6fb840f6cd422ffb432f5bbd0cd88ac37c4eef8bc6e2e40a8a1bbd00555c9670
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: INTERACT.ANS by El LoCo (NeveRLanD People); released in elloco and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: iNTERACTiVO On-LiNE BBS
-# SAUCE Author: El LoCo
-# SAUCE Group: NeveRLanD People
-# SAUCE Date: 19960201
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: iNTERACTiVO On-LiNE BBS by El LoCo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-elloco-interact
 
 Write-Host '
 

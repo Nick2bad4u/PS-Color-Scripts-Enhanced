@@ -1,18 +1,4 @@
-﻿# Converted from: SC-ALD3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9603/raw/SC-ALD3.ANS
-# Source Revision: archive-sha256:f6d7d8628f8fd582effd93b8e838e75d5d9c5ee94417e33eb7b84c6b3ba37ea3
-# Source SHA-256: 3a5571dd98572686ab9618bbd1dfdc009527de4f093a184cd565cb41a93249f7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-ALD3.ANS by subconsciousness (bladeproductions); released in blde9603 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ".. who is yer' favorite mc?!?"
-# SAUCE Author: subconsciousness
-# SAUCE Group: bladeproductions
-# SAUCE Date: 19960218
-# SAUCE Dimensions: 80x33
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: ".. who is yer' favorite mc?!?" by subconsciousness | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9603-sc-ald3
 
 Write-Host '
                                [34m░[0m

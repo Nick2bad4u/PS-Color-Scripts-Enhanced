@@ -1,18 +1,4 @@
-﻿# Converted from: V9-AWARD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0797/raw/V9-AWARD.ANS
-# Source Revision: archive-sha256:94b9d74f23cef45b7f0e0cddc6ad7ce59eed15dd66ca41ed74c0005a3af14ca4
-# Source SHA-256: dcd08152902a34decc8cdcc5f89121281bb0da80776356e6ca0481062c1b8e2d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: V9-AWARD.ANS by Vade79 (f1RE); released in fire0797 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Awards97
-# SAUCE Author: Vade79
-# SAUCE Group: f1RE
-# SAUCE Date: 19970629
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Awards97 by Vade79 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0797-v9-award
 
 Write-Host '
 ▄[1;47m░░░[0;1;30;47m ░[0;35m [0;37m░   [0;1;30m▐[0m [1;30m ▀█[0;1;30;47m▀▀▓▓▓█▓[0m░[1;30m  ▐▀██▀████[0;1;30;46m▀▀█▀▓▓[0;1;30;40m█▐█▀▀▀▀▀▀▀▀▀██▀▀██[0;1;30;46m▓▓█▓[0;1;30;40m█[0;1;30;47m███▀▀[0m▒[1;30m█[0;1;30;47m▀▀[0;43m▓[0;1;47m░░▓█▄[0m▄

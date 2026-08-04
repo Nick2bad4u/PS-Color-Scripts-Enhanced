@@ -1,18 +1,4 @@
-﻿# Converted from: SK!BLUE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p11_01/raw/SK!BLUE.ANS
-# Source Revision: archive-sha256:955421fc8dc0a32cbb14e70f7f41a091061719b2f842832204ce117895f09002
-# Source SHA-256: 843584e55d3bf16ce78591d2ec7d1b8395adc2b9893a728c5e53cdfe5a846afc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!BLUE.ANS by sIMONkING (thelo0p); released in l0p11_01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: bLUE-panel
-# SAUCE Author: sIMONkING
-# SAUCE Group: thelo0p
-# SAUCE Date: 20010616
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: bLUE-panel by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p11-01-sk-blue
 
 Write-Host '
 [1;30m    [0m                                   [34m░▀▄▄[0m         [1;36m [0;1;34m [0;34m   [0;1;36m [0;1;34m [0;34m  [0m        [1;30m▄[0;34m▄▄▄▄▄[0;1;34m▄[0m

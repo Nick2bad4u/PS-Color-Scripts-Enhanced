@@ -1,13 +1,4 @@
-﻿# Converted from: DNA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aaa-8991/raw/DNA.ANS
-# Source Revision: archive-sha256:4d061270920d521151424fd00f38227b42b87cd232386c5aa0d1e2f575f3ffe0
-# Source SHA-256: 325a172048634817b824d681fe975de98bb709e8b6b88b222a76f4f627500f84
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DNA.ANS by Opus Outland (aaa-8991); released in aaa-8991 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: DNA.ANS by Opus Outland | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aaa-8991-dna
 
 Write-Host '
                 [31m▄▄▄▄▄▄▄▄▄▄[0m    [31m▄▄▄▄▄▄[0m        [31m▄▄▄▄▄▄▄[0m   [31m▄▄▄▄▄▄▄▄▄▄[0m

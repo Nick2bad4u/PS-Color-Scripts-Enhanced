@@ -1,18 +1,4 @@
-﻿# Converted from: JZ-PF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad1296/raw/JZ-PF.ANS
-# Source Revision: archive-sha256:39733ed0864fbad557d48d5b0be7bcb3c03788a44b9cfbbe71a5cb00f202249d
-# Source SHA-256: fda1c89e30b371bf789ba10501edc966e672356c89049b76d427b7bb3682da3d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JZ-PF.ANS by Jaz (quad-p); released in quad1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: pink floyd
-# SAUCE Author: Jaz
-# SAUCE Group: quad-p
-# SAUCE Date: 19961013
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: pink floyd by Jaz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad1296-jz-pf
 
 Write-Host '
                                             [36m▄[0;1;30;46m░[0;36m▄▄[0m

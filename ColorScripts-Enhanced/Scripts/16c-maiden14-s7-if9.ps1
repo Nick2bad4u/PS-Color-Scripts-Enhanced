@@ -1,18 +1,4 @@
-﻿# Converted from: S7!-IF9.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden14/raw/S7!-IF9.ANS
-# Source Revision: archive-sha256:8484fc17833e455250727f80fdc56cc19e17aec4fba2f82e3b86585a9e08cb6c
-# Source SHA-256: 4740ac8f61452dfdc1b97915677ca95a5eeba55c186a1e2a6c50d914e48e6239
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S7!-IF9.ANS by Soul s7alker! (skl/.mdn/kiss); released in maiden14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: more one fucking menu
-# SAUCE Author: Soul s7alker!
-# SAUCE Group: skl/.mdn/kiss
-# SAUCE Date: 19971023
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: more one fucking menu by Soul s7alker! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden14-s7-if9
 
 Write-Host '
 [1m   ░░░    [0;31m    ▄[0;1;31m▄▄▄▄▄▄▄▄[0;31m▄                                 ▄▄▄▄[0;1;31;41m░░[0;31m▀▀▀▀▀ [0m

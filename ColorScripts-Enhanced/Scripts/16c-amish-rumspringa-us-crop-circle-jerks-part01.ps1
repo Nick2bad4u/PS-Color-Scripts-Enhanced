@@ -1,19 +1,4 @@
-﻿# Converted from: us-crop-circle-jerks.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amish-rumspringa/raw/us-crop-circle-jerks.ans
-# Source Revision: archive-sha256:710f00c8e218c58e7f7c9fe172cb22279b1ebbb4b713832762c12e983eb7ac2d
-# Source SHA-256: ffb69fdf3b0006f5c09db987b6090fc9ec5fecd31956ff15e637b99a446b3f5f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-crop-circle-jerks.ans by Filth + Misfit (amish); released in amish-rumspringa and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: crop circle jerks
-# SAUCE Author: filth & misfit
-# SAUCE Group: amish
-# SAUCE Date: 20180714
-# SAUCE Dimensions: 80x88
-# SAUCE Font: IBM VGA
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: crop circle jerks by Filth + Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amish-rumspringa-us-crop-circle-jerks-part01
 
 Write-Host '
           [33;40m                                                        [0;37;40m [0;33;40m  [0m

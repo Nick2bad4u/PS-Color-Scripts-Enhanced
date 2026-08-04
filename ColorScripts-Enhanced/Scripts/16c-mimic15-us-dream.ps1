@@ -1,13 +1,4 @@
-﻿# Converted from: us-dream.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic15/raw/us-dream.ans
-# Source Revision: archive-sha256:b2a15ba740dfff25a7d78e41d79c57a71249121607b593efbce77bb6f1c95d97
-# Source SHA-256: cc083a3e37ed44468f57d380b7992d5f0e4b9b771374b8782edb4a8dbdac7966
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-dream.ans by Black Jack + Produkt (mimic15); released in mimic15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: us-dream.ans by Black Jack + Produkt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic15-us-dream
 
 Write-Host '
 [1;30m☺[0;35mpt [0m            [1;30m\* ┘  '' `[0m        [1;30m`  ┘  *┐┐- ''              `  '' /[0m  [1;30m☻[0;35mbj[0m

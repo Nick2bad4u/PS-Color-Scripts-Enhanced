@@ -1,13 +1,4 @@
-﻿# Converted from: MA-WURM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dp-art2/raw/MA-WURM.ANS
-# Source Revision: raw-sha256:05341b8e70381a41ea4cc16ae91db949caa1ed4aa7e2ee2613fc43abf0749933
-# Source SHA-256: 05341b8e70381a41ea4cc16ae91db949caa1ed4aa7e2ee2613fc43abf0749933
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MA-WURM.ANS by Malcolm (dp-art2); released in dp-art2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: MA-WURM.ANS by Malcolm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dp-art2-ma-wurm-part01
 
 Write-Host '
   [1;37;40m▄▄▄▄▄[0m [1;37;40m▄▄▄▄▄[0m [1;37;40m▄▄▄[0m

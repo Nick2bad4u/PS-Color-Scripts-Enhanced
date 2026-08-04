@@ -1,18 +1,4 @@
-﻿# Converted from: COW-OSB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ane-0296/raw/COW-OSB1.ANS
-# Source Revision: archive-sha256:3968cc056bf297febf6892374e4caf7ab79dd8410790f6f7be0cb58cc17cd856
-# Source SHA-256: 6dd4f02939a750beea26a1bb00490bf459c5d983c553443ccfd8465080429bf4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: COW-OSB1.ANS by Corpulent Cow (.;:Anemia:;.); released in ane-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: One Step Beyond
-# SAUCE Author: Corpulent Cow
-# SAUCE Group: .;:Anemia:;.
-# SAUCE Date: 19960109
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: One Step Beyond by Corpulent Cow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ane-0296-cow-osb1
 
 Write-Host '
 [1;30m██████▀▀[0;32m▄■▓▄[0;1;30m▀████████████████████████▀▀▀▀▀▀▀███████████████████████████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PH-PI2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl199503/raw/PH-PI2.ANS
-# Source Revision: archive-sha256:076dc5f7e8e5935b6779aca5076679253dcd9b76950721d084bd358b3028f504
-# Source SHA-256: 3ae49a8720ef8854425cacecba0edb97789c28a34e652f32a8ae20fefd4fde56
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PH-PI2.ANS by Phatal (TekLordZ); released in tl199503 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Projekt iNsaNiTY
-# SAUCE Author: Phatal
-# SAUCE Group: TekLordZ
-# SAUCE Date: 19950307
-# SAUCE Dimensions: 80x128
-# Lines: 88-128
-# Columns: 1-80
+﻿# Artwork: Projekt iNsaNiTY by Phatal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl199503-ph-pi2-part03
 
 Write-Host '
 [36;40m█[0;36;46m                 ▐░▒▒▓▓[0;36;40m██[0;36;44m█[0;36;40m█[0;36;46m██████████████████                                 [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: OUT-FSHR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-1097/raw/OUT-FSHR.ANS
-# Source Revision: archive-sha256:14c9b212dc0ab3e6fc3f4d8d20f131e192fefa17c331d073e47fc82950a832e5
-# Source SHA-256: c61fbc3a149ec7ede7ddc38322d141d55c9b2c5e113831f505ea248b85fa04dd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-FSHR.ANS by OutWorld Arts (OutWorld Arts); released in out-1097 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Female Super Hero
-# SAUCE Author: OutWorld Arts
-# SAUCE Group: OutWorld Arts
-# SAUCE Date: 19971021
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Female Super Hero by OutWorld Arts | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-1097-out-fshr
 
 Write-Host '
  [33m▄█████[0;1;33;43m▒▓[0;33m██████▒░  ░▓█[0;1;33;43m▒[0;33m█[0;1;33;43m░[0;33m█▓▒░  ▄█[0;1;33;43m░▓▒░[0;33m█▀▀▀▀  [0;34m▄▄▄▄[0m      [33m██[0;1;33;43m░▒░[0;33m█  [0;31m░▒▓█[0;1;31;41m░▓▒[0;31m█▓▒░ ▀▀▓█[0;1;31;41m▓[0;31m█[0m

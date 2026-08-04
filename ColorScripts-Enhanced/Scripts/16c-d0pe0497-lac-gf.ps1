@@ -1,18 +1,4 @@
-﻿# Converted from: LAC-GF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d0pe0497/raw/LAC-GF.ANS
-# Source Revision: archive-sha256:a220e98301d64a5ed6ff83d56b491a9548bfbee0f6442b6e0e312609842035d6
-# Source SHA-256: e2e1967873744493ad07a7a4d305d1d83633c6c02e7f625a8874e7c00e015b1c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LAC-GF.ANS by lacaid (dope); released in d0pe0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: gastric fluids?!
-# SAUCE Author: lacaid
-# SAUCE Group: dope
-# SAUCE Date: 19970408
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: gastric fluids?! by lacaid | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d0pe0497-lac-gf
 
 Write-Host '
              [1;30m       ▄▄▄▄▄▄▄████████▄▄▄▄[0m

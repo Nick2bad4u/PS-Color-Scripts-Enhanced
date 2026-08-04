@@ -1,18 +1,4 @@
-﻿# Converted from: PYX-CNF2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-089702/raw/PYX-CNF2.ANS
-# Source Revision: archive-sha256:e48c38fcf9ad1e8bdcd70f413f385ac4fe4835bcda18b3e71092baf5cce2e35b
-# Source SHA-256: 68eb116cb9f35de986507d3498ec94ed2200b792db0b83aee95e62c067e1b93e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-CNF2.ANS by pyx (bamboosh); released in bmb-089702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: o.i. conf menu, modified
-# SAUCE Author: pyx
-# SAUCE Group: bamboosh
-# SAUCE Date: 19880110
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: o.i. conf menu, modified by pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-089702-pyx-cnf2
 
 Write-Host '
                                                                [34m▄[0;1;34m▄▄[0;34m▄[0m

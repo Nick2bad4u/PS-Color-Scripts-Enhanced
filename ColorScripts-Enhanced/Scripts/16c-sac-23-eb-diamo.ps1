@@ -1,13 +1,4 @@
-﻿# Converted from: EB-DIAMO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac-23/raw/EB-DIAMO.ANS
-# Source Revision: archive-sha256:1921672734c7818fcbf7050b559f246f1a2a348d80b0ea01934335bff16412b2
-# Source SHA-256: 63ae02ab57cac7997fd2a7f41cf8ddc59d48d7bf0c56d1ac7b9d4f9c7bb89c18
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EB-DIAMO.ANS by eboy; released in sac-23 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: EB-DIAMO.ANS by eboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac-23-eb-diamo
 
 Write-Host '
 [36;44m█▓▓▒▒░░░[0;34;40m███[0;36;44m░[0;34;40m█[0;34;44m [0;37;40m [0;1;34;40m<Eboy>[0m

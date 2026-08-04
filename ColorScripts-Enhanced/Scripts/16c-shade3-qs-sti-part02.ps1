@@ -1,18 +1,4 @@
-﻿# Converted from: QS-STI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shade3/raw/QS-STI.ANS
-# Source Revision: archive-sha256:35522a6f68aa2397662c2b623a174bba973989f9199c19dd49bd4f12d01513cc
-# Source SHA-256: 1ad6022c1349def05d82b24799c8fd60966d9e784f41e414cae4a7d82575da8c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QS-STI.ANS by quasar (shade(tm)); released in shade3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: spantobi multinode art&designsystem
-# SAUCE Author: quasar
-# SAUCE Group: shade(tm)
-# SAUCE Date: 19961117
-# SAUCE Dimensions: 80x61
-# Lines: 35-61
-# Columns: 1-80
+﻿# Artwork: spantobi multinode art&designsystem by quasar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shade3-qs-sti-part02
 
 Write-Host '
                      [37m▓▀ ▓ [0m   [37m [0;33m       [0;37m    ░░ ░     [0m    [37m▓ [0m

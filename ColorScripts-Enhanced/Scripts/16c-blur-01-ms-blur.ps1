@@ -1,18 +1,4 @@
-﻿# Converted from: MS-BLUR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blur-01/raw/MS-BLUR.ANS
-# Source Revision: archive-sha256:2e24e002aa423e6089e230171fb4f78c11c68510667b6cff05ce5bffed646ce1
-# Source SHA-256: 17d7fa2675980809f4833b61ef4161dd90c777921cc5f1219d4b5ed52f6306a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MS-BLUR.ANS by mr. boogie man!? (BLURrrrr); released in blur-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Blur app gen font....
-# SAUCE Author: mr. boogie man!?
-# SAUCE Group: BLURrrrr
-# SAUCE Date: 19960213
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Blur app gen font.... by mr. boogie man!? | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blur-01-ms-blur
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: DY-BREAK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tus-05/raw/DY-BREAK.ANS
-# Source Revision: archive-sha256:986f1937ec6e5b109228fbbe378b228ec26f4944801472ad65a0c03345d8dc74
-# Source SHA-256: 021e074dff530f187bc14e153317dee47cad7ac733d09112edadc10b3142ce35
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DY-BREAK.ANS by Discyple (tus-05); released in tus-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: DY-BREAK.ANS by Discyple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tus-05-dy-break
 
 Write-Host '
 $$$$$$$$$$$$ [1m`└*⌂S$$$$$$S⌂*┘²` .d⌂Sj$j$$#s┐[0m.`└4j$$$$$$$$$$$$$''  .[1m,,[0m.    `$$$$$$

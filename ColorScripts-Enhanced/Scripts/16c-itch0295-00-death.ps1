@@ -1,13 +1,4 @@
-﻿# Converted from: 00-DEATH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/itch0295/raw/00-DEATH.ANS
-# Source Revision: archive-sha256:8187f7c17b0df52408a39ac43346a3f43c83bd964c3cb164416ad69cd76af9e2
-# Source SHA-256: 861819ee86a1e21aeb87c2b528f35587b7b1ef5a7222da2485a346524e899df3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 00-DEATH.ANS by Hooter (itch0295); released in itch0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: 00-DEATH.ANS by Hooter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-itch0295-00-death
 
 Write-Host '
 [34m┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌┌[0m

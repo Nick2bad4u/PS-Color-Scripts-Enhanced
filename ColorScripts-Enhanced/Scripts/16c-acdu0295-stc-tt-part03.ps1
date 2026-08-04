@@ -1,18 +1,4 @@
-﻿# Converted from: STC-TT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0295/raw/STC-TT.ANS
-# Source Revision: archive-sha256:783416b41a421333c3ef8049cdade58e4e0c645dd104994cd95b81b7407d25ff
-# Source SHA-256: 7be74a0b04de3196c2093b650a1853b27f3d1735595b06eb1cc4fdb4ca5670ed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STC-TT.ANS by Stone The Crow (ACiD Productions); released in acdu0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Termite Terrace
-# SAUCE Author: Stone The Crow
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950201
-# SAUCE Dimensions: 80x127
-# Lines: 88-127
-# Columns: 1-80
+﻿# Artwork: Termite Terrace by Stone The Crow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0295-stc-tt-part03
 
 Write-Host '
 [31m [0;37m [0m [37m█[0;1;37;47m▀▓▒[0m█[1;47m▀ ▀▀[0m  █▄█[1;47m▀[0m█[1;47m▀▀█[0m  █ █[1;47m▀[0m█[1;47m▀▀█[0m  █▀█ [31m█▄[0m [31m▀[0m [31m▄[0m [1;37;47m▀▀█[0m  [31m▀▄[0;37m [0;1;37;47m▄▒[0m▄  █[1;47m▀▓▒[0m█[1;47m▀ ▀▀[0m  █▄█[1;47m▀[0m█[1;47m▀▀█[0m

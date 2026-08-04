@@ -1,13 +1,4 @@
-﻿# Converted from: PC&TT-HY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tdd-0296/raw/PC%26TT-HY.ANS
-# Source Revision: archive-sha256:56140cf576d73e2da24941d94c481d5e2c240ed984cb1a73b7ff63806fa622c7
-# Source SHA-256: 52a71e1a25402430aaa94e147f4f5dc80879415a95f0e662a85b3bac083ace3b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC&TT-HY.ANS by P-Chan + Trust (tdd-0296); released in tdd-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: PC&TT-HY.ANS by P-Chan + Trust | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tdd-0296-pc-tt-hy
 
 Write-Host '
 [31m█[0;1;31;41m▄▄▄▄▄▄▄▄▀▀▀▄▄▄▄▄▄▄▄[0;31m█▀ [0;32m▄[0;1;32;42m▄▄▄▀░▀█[0;1;32;40m▄▄▓[0;1;32;42m█▀▀▀▀▀▀▓▀▀██[0;1;32;40m▀▀▓[0;1;32;42m█▀██▄[0;32m▄[0;31m▀█[0;1;31;41m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;31m█[0m

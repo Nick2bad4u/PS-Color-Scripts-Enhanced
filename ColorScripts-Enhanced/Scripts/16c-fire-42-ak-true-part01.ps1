@@ -1,19 +1,4 @@
-﻿# Converted from: AK-TRUE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-42/raw/AK-TRUE.ANS
-# Source Revision: archive-sha256:5477badab90aaaa6ee2d08aa380254b6982d860b5d0de201e348668cb1eaa063
-# Source SHA-256: e035344c203ded0a559640873ccd04fc0a68db437c70002c48f80cdf09bd2dd9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-TRUE.ANS by abstrakt (fire); released in fire-42 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: till death
-# SAUCE Author: abstrakt
-# SAUCE Group: fire
-# SAUCE Date: 20250303
-# SAUCE Dimensions: 80x215
-# SAUCE Font: IBM VGA
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: till death by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-42-ak-true-part01
 
 Write-Host '
                      [1;37;40mj[0mb┐,.           [35m:$$$[0;1;35m$$$$[0;35m$$$$[0;36m$[0;35m$$[0;31mW [0;35m:$$[0;1;35m$$$[0;35m$$$$$$[0;36m$[0;35m$W[0m       [35m_.,,[0m

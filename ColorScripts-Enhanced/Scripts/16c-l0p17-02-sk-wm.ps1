@@ -1,18 +1,4 @@
-﻿# Converted from: SK!WM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p17_02/raw/SK!WM.ANS
-# Source Revision: archive-sha256:35450330febdb2d142f3176c2d3c105d1528c0f63626f757e43b302b4869a22a
-# Source SHA-256: 2553da604ecb3dcc79b0b70c1990c9711aba9251f78988e3e33b7f4a6fcdca60
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!WM.ANS by sIMONkING (thelo0p); released in l0p17_02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: wicked minority
-# SAUCE Author: sIMONkING
-# SAUCE Group: thelo0p
-# SAUCE Date: 20021020
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: wicked minority by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p17-02-sk-wm
 
 Write-Host '
                                    [1;30m░░░░░░░░[0m

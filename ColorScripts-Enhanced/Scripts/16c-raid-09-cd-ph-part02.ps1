@@ -1,13 +1,4 @@
-﻿# Converted from: CD-PH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/raid-09/raw/CD-PH.ANS
-# Source Revision: archive-sha256:81f68e66bab75dc4357c09aced6a4083959f7cfc0ac10f0c0eb6313fa5d2b13e
-# Source SHA-256: e6554ad832b50bd0fccc5c999391d2d201fecd28194dd27bf448540518759036
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CD-PH.ANS by Code (raid-09); released in raid-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 31-57
-# Columns: 1-80
+﻿# Artwork: CD-PH.ANS by Code | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-raid-09-cd-ph-part02
 
 Write-Host '
                      [1;30;47m▓[0;31m  [0m   [37m▄[0;1;37;47m░▒▒▒▓▓[0;1;37;40m██[0m        [1m▄[0;1;47m▓▒▒░░[0m███[1;30;47m▒▒▓▓[0;1;30;40m█[0m

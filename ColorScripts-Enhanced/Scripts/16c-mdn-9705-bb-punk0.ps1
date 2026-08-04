@@ -1,18 +1,4 @@
-﻿# Converted from: BB-PUNK0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9705/raw/BB-PUNK0.ANS
-# Source Revision: archive-sha256:42f41174635a4b9e44304d5d0f48b9b5aa0b6be93e48c5ea196226a31ced9fa8
-# Source SHA-256: b0a43fafec5e133cadaff085cff184c9702b9f16e907376a01ad709167f18992
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BB-PUNK0.ANS by Bugs Bunny (Maiden Brazil); released in mdn-9705 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Ugly compo #2: Punk
-# SAUCE Author: Bugs Bunny
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19970417
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Ugly compo #2: Punk by Bugs Bunny | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9705-bb-punk0
 
 Write-Host '
                                           [1;32m▄█[0;32m  [0m

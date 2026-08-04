@@ -1,18 +1,4 @@
-﻿# Converted from: CG-DISS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-20/raw/CG-DISS.ANS
-# Source Revision: archive-sha256:23bbf66596e3e4f3c4b9e335dc62ccc331634eba04c3d179b73e396fa3971807
-# Source SHA-256: 76e3b6dca3fdbc6b91e32dce93b58deda17d9024c1f3f34f55ba4b68a5125271
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-DISS.ANS by Cryogenic (AWE Lettering); released in awe-20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Dissent
-# SAUCE Author: Cryogenic
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981231
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Dissent by Cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-20-cg-diss
 
 Write-Host '
                [1;35m░░[0m          [1;35m░░[0m              [35m  [0m      [1;35m░[0m            [1;35m░░[0m

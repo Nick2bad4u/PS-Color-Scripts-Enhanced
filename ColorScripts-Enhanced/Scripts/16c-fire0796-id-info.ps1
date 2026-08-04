@@ -1,17 +1,4 @@
-﻿# Converted from: ID-INFO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0796/raw/ID-INFO.ANS
-# Source Revision: archive-sha256:f2392fcbe326be67243a018c170e3f1d8e22753f58b6051ec51575e3fcab8048
-# Source SHA-256: c4eb20a7c423b27de00f65fb0f05a4483cb34b5aec0dfad8e467fc0828b2efc3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ID-INFO.ANS by iodine (fire0796); released in fire0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Nativity in B&W
-# SAUCE Author: iodine
-# SAUCE Date: 19960703
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: Nativity in B&W by iodine | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0796-id-info
 
 Write-Host '
                  [33m [0;37m  [0;31m▄ [0m   [1;37m▐▌[0m      [1m▄▄▄[0m        [1m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PLZ-CRO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-20/raw/PLZ-CRO1.ANS
-# Source Revision: archive-sha256:23bbf66596e3e4f3c4b9e335dc62ccc331634eba04c3d179b73e396fa3971807
-# Source SHA-256: 7ef40a117a0b71a3983b74278cabfc73542722ae35e87752a381fa9db03b48b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PLZ-CRO1.ANS by Plazz (AWE Lettering); released in awe-20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Acropolis
-# SAUCE Author: Plazz
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981220
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Acropolis by Plazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-20-plz-cro1
 
 Write-Host '
 [1m[0m[1m[0m[1m[0m[1m[0m[1m[0m

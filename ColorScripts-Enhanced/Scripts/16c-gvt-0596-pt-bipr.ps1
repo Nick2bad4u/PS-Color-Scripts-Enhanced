@@ -1,16 +1,4 @@
-﻿# Converted from: PT-BIPR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gvt-0596/raw/PT-BIPR.ANS
-# Source Revision: archive-sha256:f2fd877c7a0bae39c5f44298c1713c8be39cba6ec4746c1081cbff581fa31626
-# Source SHA-256: 1f01a20c0443138df326e4279a2aa9f7343a01ef13c32b3e24a01cdb95301bd1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PT-BIPR.ANS by pitt (gravity); released in gvt-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: bi products
-# SAUCE Author: pitt
-# SAUCE Group: gravity
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: bi products by pitt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gvt-0596-pt-bipr
 
 Write-Host '
  [33m▀▀[0;33;43m [0;1;33;43m▀[0;33m▄[0;1;33m▄ [0;1;32m▀█████▀▀ [0;1;37m▄▄▄▄[0m▄  [1;32m▀███▀ [0;33m▄▄[0;33;43m [0;1;33;43m░[0;33m▀[0;1;33m▀ [0;1;32m█████████████████████████████████[0;1;32;42m▒▒[0;1;32;40m████████[0m

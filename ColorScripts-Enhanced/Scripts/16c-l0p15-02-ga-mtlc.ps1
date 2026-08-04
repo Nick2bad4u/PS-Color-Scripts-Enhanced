@@ -1,13 +1,4 @@
-﻿# Converted from: GA-MTLC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p15_02/raw/GA-MTLC.ANS
-# Source Revision: archive-sha256:98af459b28622f71926ec0978595c2eef1c464109b7a29af23f37cbdb732273f
-# Source SHA-256: 54735ba90d6ae406ea313e824182868d338cebaac04b332fd7186146e2c320a4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GA-MTLC.ANS by Gossamer Axe (l0p15_02); released in l0p15_02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: GA-MTLC.ANS by Gossamer Axe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p15-02-ga-mtlc
 
 Write-Host '
 [36m▄[0;37m  ░▓[0;1;37m██▄▄██████████[0m▓[1m▄[0m▄[1;30m▀[0;1;31m   [0;35m▄▄██[0;1;31;45m░░▒▄▄▄[0;35m▄[0;1;31m [0;34m▀██████[0;1;34;44m░░░░░[0;34;41m▓▓[0;34;40m█▄▄▄▄▄ ▀▀▀[0;36;40m▀[0;34;40m [0;1;31;40m       [0m

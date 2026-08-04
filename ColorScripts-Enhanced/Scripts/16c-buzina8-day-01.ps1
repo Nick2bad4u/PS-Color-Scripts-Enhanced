@@ -1,18 +1,4 @@
-﻿# Converted from: DAY_01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/buzina8/raw/DAY_01.ANS
-# Source Revision: archive-sha256:3a5fdcc9a3e001774cab7eb24f5e57b5e37300390cd1efc29fa3dfc1e3e435fb
-# Source SHA-256: 6aeba3ee2ab53190fc9cb0ef9a983d201ca656c9ba21ae81e5ffc7d376c814d8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DAY_01.ANS by Crasher + Shanti (buzina); released in buzina8 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: korabel pustiyni
-# SAUCE Author: Crasher
-# SAUCE Group: buzina
-# SAUCE Date: 20030524
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: korabel pustiyni by Crasher + Shanti | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-buzina8-day-01
 
 Write-Host '
 

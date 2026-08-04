@@ -1,13 +1,4 @@
-﻿# Converted from: SK-REV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0202/raw/SK-REV.ANS
-# Source Revision: archive-sha256:2dab715e9f2d819e9161d3954fa8210558a1b83f118c830394e2fdee6408a093
-# Source SHA-256: 9ca1ed208a90e05aff79b487df7298225899ea806e0cc039b6a2f0d532ebb99d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK-REV.ANS by Skatter (rev0202); released in rev0202 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: SK-REV.ANS by Skatter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0202-sk-rev
 
 Write-Host '
                        [1m    T h e  A N S I  R e v i v a l[0m

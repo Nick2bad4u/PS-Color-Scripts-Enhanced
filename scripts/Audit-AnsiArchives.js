@@ -18,6 +18,7 @@ const {
     MAX_TERMINAL_COLUMNS,
 } = require("./Convert-AnsiToColorScript.js");
 const { extractLinesFromPs1 } = require("./Split-AnsiFile.js");
+const { readArtworkProvenance } = require("./ArtworkProvenance.js");
 
 const SIXTEEN_COLORS_API = "https://api.16colo.rs/v1";
 const SIXTEEN_COLORS_SITE = "https://16colo.rs";
@@ -2017,55 +2018,22 @@ function readExistingHashes(provenancePath, exclusions = null) {
         }
         return { source, render };
     }
-    const text = fs.readFileSync(provenancePath, "utf8");
     exclusions?.matchedScriptNames.clear();
-    const entries = new Map();
-    for (const match of text.matchAll(
-        /^ {8}'((?:[^']|'')+)' = @\{\r?\n([\s\S]*?)^ {8}\}\r?$/gmu
-    )) {
-        const scriptName = match[1].replaceAll("''", "'");
-        const block = match[2];
-        const sourceMatch = /SourceSha256\s*=\s*'([a-f\d]{64})'/iu.exec(block);
-        const renderMatch = /RenderSha256\s*=\s*'([a-f\d]{64})'/iu.exec(block);
-        if (!sourceMatch && !renderMatch) {
-            continue;
-        }
-        if (entries.has(scriptName)) {
-            throw new Error(`Duplicate provenance entry: ${scriptName}`);
-        }
-        entries.set(scriptName, {
-            sourceSha256: sourceMatch?.[1].toLowerCase() ?? null,
-            renderSha256: renderMatch?.[1].toLowerCase() ?? null,
-        });
-    }
-
-    const sourceHashCount = [
-        ...text.matchAll(/SourceSha256\s*=\s*'([a-f\d]{64})'/giu),
-    ].length;
-    const renderHashCount = [
-        ...text.matchAll(/RenderSha256\s*=\s*'([a-f\d]{64})'/giu),
-    ].length;
-    const mappedSourceHashCount = [...entries.values()].filter(
-        (entry) => entry.sourceSha256
-    ).length;
-    const mappedRenderHashCount = [...entries.values()].filter(
-        (entry) => entry.renderSha256
-    ).length;
-    if (
-        mappedSourceHashCount !== sourceHashCount ||
-        mappedRenderHashCount !== renderHashCount
-    ) {
-        throw new Error(
-            "Unable to map every provenance source/render hash to one script entry."
-        );
-    }
-
-    for (const [scriptName, entry] of entries) {
+    const { scripts } = readArtworkProvenance(provenancePath);
+    for (const [scriptName, entry] of scripts) {
+        const sourceSha256 =
+            typeof entry.SourceSha256 === "string"
+                ? entry.SourceSha256.toLowerCase()
+                : null;
+        const renderSha256 =
+            typeof entry.RenderSha256 === "string"
+                ? entry.RenderSha256.toLowerCase()
+                : null;
         const excluded = exclusions?.scriptsByName.get(scriptName);
         if (excluded) {
             if (
-                excluded.sourceSha256 !== entry.sourceSha256 ||
-                excluded.renderSha256 !== entry.renderSha256
+                excluded.sourceSha256 !== sourceSha256 ||
+                excluded.renderSha256 !== renderSha256
             ) {
                 throw new Error(
                     `${scriptName}: exclusion manifest hashes do not match checked-in provenance.`
@@ -2074,11 +2042,11 @@ function readExistingHashes(provenancePath, exclusions = null) {
             exclusions.matchedScriptNames.add(scriptName);
             continue;
         }
-        if (entry.sourceSha256) {
-            source.add(entry.sourceSha256);
+        if (sourceSha256) {
+            source.add(sourceSha256);
         }
-        if (entry.renderSha256) {
-            render.add(entry.renderSha256);
+        if (renderSha256) {
+            render.add(renderSha256);
         }
     }
     if (
@@ -3049,7 +3017,7 @@ async function runAudit(options) {
     const provenancePath = path.resolve(
         __dirname,
         "..",
-        "ColorScripts-Enhanced",
+        "audit",
         "ArtworkProvenance.psd1"
     );
     const exclusions = readExistingManifestExclusions(

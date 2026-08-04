@@ -1,18 +1,4 @@
-﻿# Converted from: BS-TP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bleach04/raw/BS-TP1.ANS
-# Source Revision: archive-sha256:baa32e2a78fcaeb0a7d7d4af9b9beca3cca36bb322ba39b26f818f95ee969108
-# Source SHA-256: bc68c182278e6556ff026d40f69878e9f8c4667a7278cf3ec368f2a3b9f9c482
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-TP1.ANS by burps (Bleach); released in bleach04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Territorial Pissings
-# SAUCE Author: burps
-# SAUCE Group: Bleach
-# SAUCE Date: 19950728
-# SAUCE Dimensions: 80x25
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: Territorial Pissings by burps | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bleach04-bs-tp1-part01
 
 Write-Host '
 [1m [0;1;30m■▄▓■▀▓▄ ▄■▄▓▄ ░▄▓▀■▄ ▓▄■▀▄▓▄ ▓▄■▄▓ ▄■▓▄▀▄▓ ▄■ ▄ ▓▄▄▓■▓▄■ ▄▓ ▄▓ ▓ ▄▄░  ▄▓▄ ▓▄■[0;1;30;40m  [0m

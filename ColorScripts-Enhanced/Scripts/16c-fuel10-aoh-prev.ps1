@@ -1,17 +1,4 @@
-﻿# Converted from: AOH-PREV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel10/raw/AOH-PREV.ANS
-# Source Revision: archive-sha256:cf40594777c22d11e0e68ffce1787c226a780219ccff2425f211f05671148899
-# Source SHA-256: ee4837cf5b6093925042d84d8f898682378d3e351416ed15d7c22a345a3afead
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AOH-PREV.ANS by angel of hell (Fuel); released in fuel10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: prevail matrix
-# SAUCE Author: angel of hell
-# SAUCE Group: Fuel
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: prevail matrix by angel of hell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel10-aoh-prev
 
 Write-Host '
  ▐▌                              ■▄                    ▄▄▄▄██[47m  [0;40m█[0;1;30;47m░░[0m▄▄▄

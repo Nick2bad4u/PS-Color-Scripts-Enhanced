@@ -1,13 +1,4 @@
-﻿# Converted from: zv-colly.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense24/raw/zv-colly.ans
-# Source Revision: archive-sha256:8873cbedb30712f2bc9e4c92a60cdb9c72153cb3946af0473f1522d370964606
-# Source SHA-256: 43270609a70b48ae790d7f67b0bf1a3ca3bd5f4700effe313a2423c33a500647
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zv-colly.ans by Zerovision (sense24); released in sense24 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 239-287
-# Columns: 1-80
+﻿# Artwork: zv-colly.ans by Zerovision | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense24-zv-colly-part06
 
 Write-Host '
 ██████████████████████████████▌ [1;33m█ ▐[0;1;33;43m▓[0m █   [1;33m█[0;1;33;43m▓▓[0m [1;33m▀█▄░[0m  [33m    ▀██[0;1;31;43m ▄ ▄▄███▀▀[0;33m█▀[0m     [1;33m▀[0m [1;33m▄█[0m

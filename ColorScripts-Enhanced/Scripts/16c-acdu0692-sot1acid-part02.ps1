@@ -1,13 +1,4 @@
-﻿# Converted from: SOT1ACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0692/raw/SOT1ACID.ANS
-# Source Revision: archive-sha256:57672df06e5ecb0b0b4e05fcd7d03f2b4014d9b65c523f558d00ba64dcb9e559
-# Source SHA-256: d8081bc602b67b3359d3d5e6cb87593f2a21dfd0ac0da7fefe6e15266f8da24c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SOT1ACID.ANS by Spectral Illusion (acdu0692); released in acdu0692 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 39-76
-# Columns: 1-80
+﻿# Artwork: SOT1ACID.ANS by Spectral Illusion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0692-sot1acid-part02
 
 Write-Host '
 [1;37m █[0;35m▐[0;1;30;45m░      [0;1;35;45m░▒[0m [1;35;45m░[0;35m█[0;35;45m     [0;1;35;45m░░ [0;1;30;45m░[0;35m▌▐[0;1;35;45m▒▒░░░  [0;35m█████████[0;35;45m [0;1;35;45m░[0;35m█ █████[0;1;35;45m░[0;35m▌▐[0;1;35;45m▓▓░       ░[0m [35m█[0;1;35;45m░░[0;1;30;45m░░  ░░▓▒[0;35m▌[0;1;37m█[0m

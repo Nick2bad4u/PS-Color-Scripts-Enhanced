@@ -1,13 +1,4 @@
-﻿# Converted from: gj-sn3.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wrlk003/raw/gj-sn3.ans
-# Source Revision: archive-sha256:f8a5978b1dd382d13a0cee4c0d6755b77dc879551ad11886884e396cd50f6e93
-# Source SHA-256: e0eee7c5537528d05e6897d62a9f0eb162b591066036591649d100eb9a1afd28
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: gj-sn3.ans by Grymmjack (wrlk003); released in wrlk003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: gj-sn3.ans by Grymmjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wrlk003-gj-sn3
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: HX-NS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-18a/raw/HX-NS.ANS
-# Source Revision: archive-sha256:79b264e900b0f3c0c1e1dfcb2a371291868034bc95083657623124fe09fd8162
-# Source SHA-256: 816bf29107c2f4be2be4892ad48b44b2bc1d2accfb61d4f9a27dac21f68fdfeb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HX-NS.ANS by Hexd (rca-18a); released in rca-18a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: HX-NS.ANS by Hexd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-18a-hx-ns
 
 Write-Host '
                   [1;33m▄▄[0m                  [1;33m▄▄[0m        [1;33m▄▄[0m

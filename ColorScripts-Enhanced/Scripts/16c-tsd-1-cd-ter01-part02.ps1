@@ -1,13 +1,4 @@
-﻿# Converted from: CD-TER01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tsd-1/raw/CD-TER01.ANS
-# Source Revision: raw-sha256:2f285b6244b23c480a48c0872c3001cfc940ac063823a69abac68b8b024aa3cd
-# Source SHA-256: 2f285b6244b23c480a48c0872c3001cfc940ac063823a69abac68b8b024aa3cd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CD-TER01.ANS by Drakula (tsd-1); released in tsd-1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 40-83
-# Columns: 1-80
+﻿# Artwork: CD-TER01.ANS by Drakula | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tsd-1-cd-ter01-part02
 
 Write-Host '
           [32m·[0m       [31m░░░▒▒▒▓▓▓░ [0;1;30m░  ░  ░  [0;32m░ ░[0;1;30m░[0;32m░ [0;1;30m░░ ░  [0;31m░█████▓▓▒▒░[0m     [32m·[0m

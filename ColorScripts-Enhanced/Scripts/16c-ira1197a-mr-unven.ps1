@@ -1,18 +1,4 @@
-﻿# Converted from: MR-UNVEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira1197a/raw/MR-UNVEN.ANS
-# Source Revision: archive-sha256:704aa0d2e26e6cf2ca2a7dd616f260398453dcd5e902b8255bad29cbf486fb81
-# Source SHA-256: ae34de6298335fb65d7a5222d72a4c469e4f22783a328f66f1f03eba77e8c8ea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-UNVEN.ANS by Mr.Wrong (irato); released in ira1197a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Uneven
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: irato
-# SAUCE Date: 19971027
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Uneven by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira1197a-mr-unven
 
 Write-Host '
 

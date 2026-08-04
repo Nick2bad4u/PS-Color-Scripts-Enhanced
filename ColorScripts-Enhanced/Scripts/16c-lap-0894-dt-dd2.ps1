@@ -1,18 +1,4 @@
-﻿# Converted from: DT-DD2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lap-0894/raw/DT-DD2.ANS
-# Source Revision: archive-sha256:b2a03b5c78be70014345dee66d7467be30e2aa99b3841f74540df8ffbe533d1c
-# Source SHA-256: 691738ff0875a95355ad72826a07d746c0dacfdd3c926ced5eae20c7480ff939
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-DD2.ANS by Delirium Tremens (Lapse); released in lap-0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Renegade Stat Screen
-# SAUCE Author: Delirium Tremens
-# SAUCE Group: Lapse
-# SAUCE Date: 19940807
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Renegade Stat Screen by Delirium Tremens | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lap-0894-dt-dd2
 
 Write-Host '
  [1;30;47m██[0;1;30;40m██[0;1;30;47m██▓▓▓[0;1;30;40m███████▓▓▓▓▓▓▒▒░░░[0;1;37;40m▄▄[0;1;37;47m▒░░    [0;1;30;47m░░░░▒▒▓▓▓▒▒▒▒░▒▒▓▓▓[0;1;30;40m▓▓▓▓▓▓▓▓[0;1;30;47m█▓▒▒▒▒▒▓█[0;31m░░[0;30;41m▓▓▓[0;31;40m░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: KRL-DRM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack01/raw/KRL-DRM1.ANS
-# Source Revision: archive-sha256:8e83103ae71882fd1c41790de6f85d83d76c468a2a8cbcfa83968715777bc7e9
-# Source SHA-256: dd006cdf5d9e3d0de56982822d398eabad755108d6724f13a0ab2d4cfbc9a336
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KRL-DRM1.ANS by Mr Krinkle (avpack01); released in avpack01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 47-89
-# Columns: 1-80
+﻿# Artwork: KRL-DRM1.ANS by Mr Krinkle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack01-krl-drm1-part02
 
 Write-Host '
 [1;30;40m░[0;1;31;40m█ ▀▀█ ▀ █ [0;34m░▒[0;1;37m▐[0;1;37;47m [0m [30;41m▒▓▓[0;30;47m█▄▀[0;34;40m░[0;34;47m [0m [30;41m▓▓▒▓[0;30;47m [0m   [31;40m░[0m     [31;47m [0;1;37;40m▐[0;1;37;47m▀[0m     [30;47m▀▀[0m   [30;47m [0m [31;40m░[0m     [30;47m█[0m   [30;47m [0m [30;41m▓[0m  [30;47m█[0m   [30;47m█[0m [30;47m▄▀[0;34;40m▒░▒[0m

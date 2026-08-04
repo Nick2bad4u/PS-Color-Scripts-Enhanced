@@ -1,13 +1,4 @@
-﻿# Converted from: PC-LOGO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-18/raw/PC-LOGO1.ANS
-# Source Revision: archive-sha256:0bc0a975c4de127fd6305114a49451275a1959513e343ea7612d70fa62951816
-# Source SHA-256: d94eea1d674e0aa502136f24a17f2360fe050ab300b8d2a5090a3dc9d17676ac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-LOGO1.ANS by Putrid Carcass (glue-18); released in glue-18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: PC-LOGO1.ANS by Putrid Carcass | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-18-pc-logo1-part01
 
 Write-Host '
 [1;30m[0;1;37m[0m[1;30m[0m[31m[0;1;31m[0m[1;30m--------------------------------------------------------------------------------[0m

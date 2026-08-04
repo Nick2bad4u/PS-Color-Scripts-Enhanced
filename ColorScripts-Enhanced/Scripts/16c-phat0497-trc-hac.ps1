@@ -1,18 +1,4 @@
-﻿# Converted from: TRC-HAC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0497/raw/TRC-HAC.ANS
-# Source Revision: archive-sha256:ac23f379eb24f5f6ad8faa432723caa3c85fc7d4fc380b1d3e101e8eb50ca483
-# Source SHA-256: 69b98d7ea4bf6a2cb1ae7611deb9af3133802a3161d4c63378d2b079f06c466b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TRC-HAC.ANS by tricycle (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hacienda
-# SAUCE Author: tricycle
-# SAUCE Group: phat studios '97
-# SAUCE Date: 19970307
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: hacienda by tricycle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0497-trc-hac
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: BLENDER2025B-2STONED.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2025b/raw/BLENDER2025B-2STONED.ANS
-# Source Revision: archive-sha256:7aaf9145b26354047f68a3f17f820be09b0a252635901ce885f0b6964c933e5e
-# Source SHA-256: 29d12221dad9b76efcc8271ba44c8c929355470c2326bd4d71075eb364fec138
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BLENDER2025B-2STONED.ANS by 2Stoned (Mistigris); released in blndr2025b and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: 2Stoned
-# SAUCE Group: Mistigris
-# SAUCE Date: 20250420
-# SAUCE Dimensions: 80x420
-# SAUCE Font: IBM VGA
-# Lines: 251-300
-# Columns: 1-80
+﻿# Artwork: BLENDER2025B-2STONED.ANS by 2Stoned | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2025b-blender2025b-2stoned-part06
 
 Write-Host '
 [1;30;40m▓▓▓[0;1;30;42m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;30;40m▓▓▓▓██▓▓▓[0;1;30;42m▓[0;1;30;40m▓▓▓███▓▓▓[0;1;30;42m▓▓▓▓▓[0;1;30;40m▓▓██▓▓▓[0;1;30;42m▓▓[0;1;30;40m▓▓▓█▓▓▓▓▓[0;1;30;42m▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;30;40m▓▓▓▓▓[0m

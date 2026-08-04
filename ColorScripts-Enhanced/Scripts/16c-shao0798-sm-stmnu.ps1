@@ -1,17 +1,4 @@
-﻿# Converted from: SM-STMNU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shao0798/raw/SM-STMNU.ANS
-# Source Revision: archive-sha256:a305297ecf3ccbbac0d7a6bb9b330bd14712e9e5ab5b2c38800bf3289c458ebd
-# Source SHA-256: 85952a6136e552fadd09005f39eeea9ea30cdbe6e729afc5364fe616cd1059c1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-STMNU.ANS by Smokey (Shaolin's Finest); released in shao0798 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Staesis Menu
-# SAUCE Author: Smokey
-# SAUCE Group: Shaolin's Finest
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Staesis Menu by Smokey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shao0798-sm-stmnu
 
 Write-Host '
                                                      ▄[1;47m░[0m▄                ▄[1;47m░[0m▄

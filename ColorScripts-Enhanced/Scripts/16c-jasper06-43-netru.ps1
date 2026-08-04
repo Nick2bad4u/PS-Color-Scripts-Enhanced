@@ -1,18 +1,4 @@
-﻿# Converted from: 43-NETRU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper06/raw/43-NETRU.ANS
-# Source Revision: archive-sha256:e9db58af17bee8935edbe50f24a227bef7a311667f4a639d4f37f775998e9055
-# Source SHA-256: 9d17cdffa9e1007626a6a5a189f57a57b9911f94796669da9b81d7a37c142aef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 43-NETRU.ANS by aesthetic (jasper); released in jasper06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: net runner
-# SAUCE Author: aesthetic
-# SAUCE Group: jasper
-# SAUCE Date: 20020508
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: net runner by aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper06-43-netru
 
 Write-Host '
              [31m▀[0m

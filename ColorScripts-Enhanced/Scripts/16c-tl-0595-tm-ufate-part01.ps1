@@ -1,18 +1,4 @@
-﻿# Converted from: TM-UFATE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl-0595/raw/TM-UFATE.ANS
-# Source Revision: archive-sha256:2a9ee1147d1683e4f1f557167c86371c5059e003792efbebaea013640a85da25
-# Source SHA-256: bcfe370a1c44cce1e25dd96890c1acfc5fb62fcd35bae1417320b632f5332a77
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TM-UFATE.ANS by Tyme (TekLordZ); released in tl-0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Unseen Fate
-# SAUCE Author: Tyme
-# SAUCE Group: TekLordZ
-# SAUCE Date: 19950422
-# SAUCE Dimensions: 80x25
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Unseen Fate by Tyme | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl-0595-tm-ufate-part01
 
 Write-Host '
      [1;30m░[0m                    [1;30m░[0m                                          [1;30m░[0m        [1;30mtm[0m

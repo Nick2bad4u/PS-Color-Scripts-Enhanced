@@ -1,18 +1,4 @@
-﻿# Converted from: S7!-HS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/soc-04/raw/S7!-HS1.ANS
-# Source Revision: archive-sha256:72fd15426f37bca7e28f2cf1b434b07c03280098e1e5474499ff2d23d8253e82
-# Source SHA-256: fb3fba154fc8bb4ce5e2bb4ec3af73c1e8aca4f2a34c8ed487a9b0221fe0a156
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S7!-HS1.ANS by Soul s7alker! (skl/mdn/kiss/soc/7); released in soc-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hysteria$!#@$
-# SAUCE Author: Soul s7alker!
-# SAUCE Group: skl/mdn/kiss/soc/7
-# SAUCE Date: 19971115
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: hysteria$!#@$ by Soul s7alker! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-soc-04-s7-hs1
 
 Write-Host '
  [1;30m░[0m  [1;30m█[0;1;30;47m▓▓[0;1;30;40m██▓▄███ ▄▄▄[0m  [1;30m░░[0m [31m▄[0;37m  [0;1;31m ▄[0m [31m▄[0;1;31;41m▄▓█[0;1;31;40m▄[0m ▄[1m▄▄[0;1;47m▄[0;1;40m█▀[0m                [1;30m ▀[0m [1;30m▄▄█[0m [1;30m▄[0m [1;30m ▄▓▓█▄ ▄█[0;1;30;47m▓▓[0;1;30;40m▄[0m

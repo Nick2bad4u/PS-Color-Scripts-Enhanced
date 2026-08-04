@@ -1,19 +1,4 @@
-﻿# Converted from: wa-babcia.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zal/raw/wa-babcia.ans
-# Source Revision: archive-sha256:27105a9153e1ab4f3cc531b07ab6db3370ec6ee44f65a8fce04e836afc280bb7
-# Source SHA-256: 8ee7dd6da53273d33ced94dddf4ab37ff644f8d6b76a4fe640e069beabb11ffa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-babcia.ans by warpus (LAZARUS); released in zal and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: babcia
-# SAUCE Author: warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20260119
-# SAUCE Dimensions: 80x51
-# SAUCE Font: IBM VGA
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: babcia by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zal-wa-babcia-part01
 
 Write-Host '
 [1;30m░░░▒▒▒▓▓[0m                                                              [1;30m▓▓▓▒▒▒░░░░[0m

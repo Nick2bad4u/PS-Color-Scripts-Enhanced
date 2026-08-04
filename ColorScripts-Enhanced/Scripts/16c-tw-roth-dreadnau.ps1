@@ -1,13 +1,4 @@
-﻿# Converted from: DREADNAU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tw-roth/raw/DREADNAU.ANS
-# Source Revision: archive-sha256:190885942cec88a16c8a5d2e7952970dfc3a8a8e6b1ddb12dad31a590f611129
-# Source SHA-256: d877c288ed7ca97bcfc8c863f55a37e09e871c7d4f6be62900781409cd47f7ed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DREADNAU.ANS by Warpus (tw-roth); released in tw-roth and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: DREADNAU.ANS by Warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tw-roth-dreadnau
 
 Write-Host '
                [31m░░▒[0;1;30m▐[0;1;30;42m▓▒▒░░[0;32m██[0;1;32;42m░░░▒▓▓▓▓▓▓░[0;32m▒░   [0;1;30m▀[0;1;30;42m▓▓░[0;32m▀▀▀████[0;1;32;42m▀[0;42m ▄[0;40m■[0;41m▀▀[0;40m■[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: RO-GRIM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/grim-03/raw/RO-GRIM.ANS
-# Source Revision: archive-sha256:ebc036abf9a775cca5b26ca6cd97418b4cbcbb8a88c78d39df773432429bd88a
-# Source SHA-256: 263e436a232c9a11e8f1da10aae27caae2fabe3a27d5d4439f040e8b6bcc7ad4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RO-GRIM.ANS by Repete Ophender (grim-03); released in grim-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 123-165
-# Columns: 1-80
+﻿# Artwork: RO-GRIM.ANS by Repete Ophender | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-grim-03-ro-grim-part04
 
 Write-Host '
                                           [1;30;40m▀█[0;1;30;41m▄[0;1;30;40m█[0m

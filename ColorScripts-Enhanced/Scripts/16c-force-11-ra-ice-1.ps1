@@ -1,18 +1,4 @@
-﻿# Converted from: RA-ICE#1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-11/raw/RA-ICE%231.ANS
-# Source Revision: archive-sha256:fb569ca0f426a612fae941c52b66a1bf2185c5bf71d8e011fd47447565da1174
-# Source SHA-256: 371c6f20417b54e0f5c8689f91b416c3ce7e4603dc816700808cc53dff4cd0b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RA-ICE#1.ANS by Rage (fORCE); released in force-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: iCE
-# SAUCE Author: Rage
-# SAUCE Group: fORCE
-# SAUCE Date: 19960907
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: iCE by Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-11-ra-ice-1
 
 Write-Host '
      [31m   [0m   [1;33m ▄▄[0;1;33;47m█[0;1;33;40m▀[0;1;33;43m▓[0;1;33;40m▄[0;33m▄[0;37m [0;1;30m                           [0m                           [31m▄[0;1;31;41m▄[0;31m [0m

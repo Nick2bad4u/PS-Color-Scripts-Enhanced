@@ -1,17 +1,4 @@
-﻿# Converted from: NEWS0396.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flvr0396/raw/NEWS0396.ANS
-# Source Revision: archive-sha256:13e040cce687d81731bcd3978b1873431410655b513cbb6e2e0003a9016ce440
-# Source SHA-256: db7a6484d86f2ba7a743202f53d707eb553c68f9e7fa6ad28ed9b4f8c115e419
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NEWS0396.ANS by Tarot (flavor); released in flvr0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the march newsfile
-# SAUCE Group: flavor
-# SAUCE Date: 19960314
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: the march newsfile by Tarot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flvr0396-news0396
 
 Write-Host '
 [1;32m [0m                                   [1;32m■[0m

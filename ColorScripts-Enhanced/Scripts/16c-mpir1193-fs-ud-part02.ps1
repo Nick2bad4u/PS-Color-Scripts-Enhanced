@@ -1,13 +1,4 @@
-﻿# Converted from: FS-UD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mpir1193/raw/FS-UD.ANS
-# Source Revision: archive-sha256:90fb072ccc60842ed735461805d8d55d26f83d65d3019c344c9e395264072c49
-# Source SHA-256: 985c9d95e0d14fad80032c82465b4280fce9defb2ed3c4141d11f936d0ead483
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FS-UD.ANS by Flick Of The Switch (mpir1193); released in mpir1193 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 43-85
-# Columns: 1-80
+﻿# Artwork: FS-UD.ANS by Flick Of The Switch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mpir1193-fs-ud-part02
 
 Write-Host '
 [1;30m█████████████████████▀█ [0;31m■▄▄▀▀▀▀▀ [0;37m▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0;31m▀▀▀▀███████████ [0;1;30m▄██████████████[0m

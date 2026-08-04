@@ -1,13 +1,4 @@
-﻿# Converted from: AB-SACRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/doa-0394/raw/AB-SACRE.ANS
-# Source Revision: archive-sha256:6acb1d2eee51624338f0056aad11c28c9c4b1d2c458b96e9f37f1242e05022c9
-# Source SHA-256: 9f7a70ce2f37303fa81b354038c25e93d601db96f800a81b78bdda5accb917c9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AB-SACRE.ANS by Anubis-Doa (doa-0394); released in doa-0394 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: AB-SACRE.ANS by Anubis-Doa | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-doa-0394-ab-sacre-part01
 
 Write-Host '
 [31m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒[0;1;37m▌[0;31m▒▒[0;33m▓[0;31m▒▒[0;1;37m▐[0;31m▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m

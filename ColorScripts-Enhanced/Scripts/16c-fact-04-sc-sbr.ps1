@@ -1,18 +1,4 @@
-﻿# Converted from: SC-SBR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fact-04/raw/SC-SBR.ANS
-# Source Revision: archive-sha256:ede22877181bcaee0ecbada01269c2c7bf675cbd1fe3cc75db17ea24e9fac1f9
-# Source SHA-256: f0fbd2aea6e7eab90cd4a7d18e3bccfcd81c64b52e8d8cbdc4e9a7798de4ffd1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-SBR.ANS by sCAPe (SBR); released in fact-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: SBR-LoGO
-# SAUCE Author: sCAPe
-# SAUCE Group: SBR
-# SAUCE Date: 19960527
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: SBR-LoGO by sCAPe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fact-04-sc-sbr
 
 Write-Host '
 

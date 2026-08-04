@@ -1,13 +1,4 @@
-﻿# Converted from: ON-TFRST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fos-0795/raw/ON-TFRST.ANS
-# Source Revision: archive-sha256:5226b44039030629fecc0b7a4fdb1a3ab04a8e6269b898ffe3a08db773e345c7
-# Source SHA-256: eaf6ccab5e99e55f0c1033fdedbc66a51a608e58f58f512fe5276e575670c28d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ON-TFRST.ANS by Orion (fos-0795); released in fos-0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: ON-TFRST.ANS by Orion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fos-0795-on-tfrst-part01
 
 Write-Host '
                            [1;34m [0m                 [34m▄[0m

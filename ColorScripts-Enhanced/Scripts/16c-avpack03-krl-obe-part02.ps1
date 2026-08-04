@@ -1,13 +1,4 @@
-﻿# Converted from: KRL-OBE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack03/raw/KRL-OBE.ANS
-# Source Revision: archive-sha256:c5d60b56a09bec72cbe2b2af3e29c924f185f70cd3040fe03a60b1b9071e731a
-# Source SHA-256: 2a0d8c9589c1da4bd67f676b3f5618c5c88a25252fe3c6d529802e017d074ef6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KRL-OBE.ANS by Mr Krinkle (avpack03); released in avpack03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 31-60
-# Columns: 1-80
+﻿# Artwork: KRL-OBE.ANS by Mr Krinkle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack03-krl-obe-part02
 
 Write-Host '
 [33m█▀[0;34m▄[0;34;44m [0;1;34;44m░░▒░  ░░░     ░▒▓░ [0m [1;34;44m ░▒▓▒▒▒░░░░  [0;34m▌[0;30;43m▒[0;34;40m▐[0;34;44m            [0;1;34;44m░░░░[0;34m▀▀▀▀[0;33m▄███▌[0;31m▒[0;33m▐███████ [0;1;37m█[0;1;37;47m▓▓[0m [33m█[0m

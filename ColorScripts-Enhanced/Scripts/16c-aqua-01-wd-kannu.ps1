@@ -1,18 +1,4 @@
-﻿# Converted from: WD-KANNU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aqua-01/raw/WD-KANNU.ANS
-# Source Revision: archive-sha256:2960875f1becf44ae53fc9e16caf3720a5b96a590a7690922990cbf35ab68625
-# Source SHA-256: 31c61e21fdf1184a42c570d9347fec1c5a031481c9e7ae938e6181a93490a839
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WD-KANNU.ANS by woodoo!!1 (aqua); released in aqua-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: wammalapsi
-# SAUCE Author: woodoo!!1
-# SAUCE Group: aqua
-# SAUCE Date: 19971008
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: wammalapsi by woodoo!!1 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aqua-01-wd-kannu
 
 Write-Host '
 [1m   [0m                  l╙$[1;30m:[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US-IONE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shade5/raw/US-IONE.ANS
-# Source Revision: archive-sha256:9eb97f9412f63f0ce4837a80894f87a3aed455c1487394481c6e40b531c2203d
-# Source SHA-256: 23f9fc3aebf6070bfc0c1ec9a65c19ffbc5fa5e22d44c791a0c7d77fab1a29c3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-IONE.ANS by Raider + Phlare (shade); released in shade5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: raider/phlare
-# SAUCE Author: IONE.
-# SAUCE Group: shade
-# SAUCE Date: 19960219
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: raider/phlare by Raider + Phlare | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shade5-us-ione
 
 Write-Host '
        [35m [0m   [1;30m.[0m                 [1;30m░░░[0m [1;30m░[0m                   [1;30m.[0m [1;30m.[0m         [30;45m▀[0;37;40m [0;30;45m█▓▓▓▓[0m

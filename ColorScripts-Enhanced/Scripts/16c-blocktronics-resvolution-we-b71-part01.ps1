@@ -1,13 +1,4 @@
-﻿# Converted from: we-b71.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_resvolution/raw/we-b71.ans
-# Source Revision: archive-sha256:d0690af9ec91bf96f335196e9f9ddfb5d7ea02d97d300b53301bebaf58d83c35
-# Source SHA-256: ddd945ecb6816e11172fae832310b9ecbcbc572f69fe7c875bb3d980f4fd6bd2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-b71.ans by Pook + Cardiac Arrest (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: we-b71.ans by Pook + Cardiac Arrest | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-resvolution-we-b71-part01
 
 Write-Host '
 

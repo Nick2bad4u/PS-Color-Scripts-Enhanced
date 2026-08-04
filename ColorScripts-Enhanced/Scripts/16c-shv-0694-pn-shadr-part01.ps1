@@ -1,13 +1,4 @@
-﻿# Converted from: PN-SHADR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shv-0694/raw/PN-SHADR.ANS
-# Source Revision: archive-sha256:d334f0a2d565ef997b3584d32e42b2d503f1adda8a389009454d938b0ea9468e
-# Source SHA-256: 7e3b8849f3a06b31577f64caa66605253dceae5dd877129fb6c8c7b39c97720e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PN-SHADR.ANS by Piston (shv-0694); released in shv-0694 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: PN-SHADR.ANS by Piston | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shv-0694-pn-shadr-part01
 
 Write-Host '
 [1;30m██████████ [0;1;32m█▄[0;1;30m▀████████████████████████████████ [0;1;32m█ [0;1;30m███████████████████████████████[0m

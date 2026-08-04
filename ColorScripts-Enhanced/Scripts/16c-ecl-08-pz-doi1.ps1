@@ -1,18 +1,4 @@
-﻿# Converted from: PZ-DOI1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-08/raw/PZ-DOI1.ANS
-# Source Revision: archive-sha256:0b90c936d49629839c01709c30be5eee3ae4012caa7a8f1570b6ae8cc1763cb4
-# Source SHA-256: dc29ecb8ffb60319ef36a6d3e9f19587255cb2fcfe544fe972ddffe7564ad23b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PZ-DOI1.ANS by pzzzyko. (eclipse); released in ecl-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: doink!!11
-# SAUCE Author: pzzzyko.
-# SAUCE Group: eclipse
-# SAUCE Date: 19960806
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: doink!!11 by pzzzyko. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-08-pz-doi1
 
 Write-Host '
 [1;34;44m▓▄██████████████████████████████████████████████████████████████████████████▓▓▄▒[0m

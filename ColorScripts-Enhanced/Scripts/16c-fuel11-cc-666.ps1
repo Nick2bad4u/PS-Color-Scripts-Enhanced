@@ -1,17 +1,4 @@
-﻿# Converted from: CC-666.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel11/raw/CC-666.ANS
-# Source Revision: archive-sha256:bc01376bbeb692c1fce16796b92a6fd889f89dbf4c55eb291719d5ea3fd5846c
-# Source SHA-256: b9d6a521b201cd3a7b8a198ffdada3b2e7bb06c97d56fea8370b2255efe70113
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CC-666.ANS by ChronicC (Fuel); released in fuel11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Route 666
-# SAUCE Author: ChronicC
-# SAUCE Group: Fuel
-# SAUCE Dimensions: 80x25
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Route 666 by ChronicC | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel11-cc-666
 
 Write-Host '
             ▄█[1;47m░░[0m█[1;47m░[0m▄████▄▄▄▄▄▄▄████         ████▄▄▄▄▄████▄▄██▀▀[1;47m░░[0m█[1;47m░[0m▄

@@ -1,18 +1,4 @@
-﻿# Converted from: RRR3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hrg-02/raw/RRR3.ANS
-# Source Revision: archive-sha256:456d0343426d6d5ae0a535110161daafbf571090dbc0554820d9daac63daac55
-# Source SHA-256: dcdf568102ccbbad19685a681fed0e6954314c3d87ee6e7ffdf7eb4ee6527ad6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RRR3.ANS by Death Lord (HRg); released in hrg-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: RRR logo
-# SAUCE Author: Death Lord
-# SAUCE Group: HRg
-# SAUCE Date: 19970111
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: RRR logo by Death Lord | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hrg-02-rrr3
 
 Write-Host '
     [1;30m ░▓ [0m  [1;30m▄[0m [1;35m [0m [1;35m [0m [1;35m [0m [1;35m [0m [1;35m [0m [1;35m [0m [1;30m▓[0m      [1;30m▄▒[0m [1;35m [0m [1;35m [0m [1;35m [0m [1;35m [0m [1;35m [0m [1;35m [0m   [1;30m▓▒[0m      [1;35m [0m [1;35m [0m [1;35m [0m [1;35m [0m [1;35m [0m [1;30m ▓▄    ▓  ▒   [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: A-MINAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lpl-vis1/raw/A-MINAS.ANS
-# Source Revision: archive-sha256:8702cbee42c0bf5018ee16bdc506dfbe34d2b2e3fdf95af42078b170f8c1ca6d
-# Source SHA-256: a5b8293a10a1c7cf9033887ab686928ef8d84cbd6b3f86ad48b57981dbf5c827
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: A-MINAS.ANS by /]RLEQU!N (/0/ LPL .0.); released in lpl-vis1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: MiNAS TiRiTH
-# SAUCE Author: /]RLEQU!N
-# SAUCE Group: /0/ LPL .0.
-# SAUCE Date: 19961004
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: MiNAS TiRiTH by /]RLEQU!N | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lpl-vis1-a-minas
 
 Write-Host '
                           [36m▓[0m

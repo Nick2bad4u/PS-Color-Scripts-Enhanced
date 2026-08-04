@@ -1,17 +1,4 @@
-﻿# Converted from: MR-HELL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9703/raw/MR-HELL.ANS
-# Source Revision: archive-sha256:9e514042cc5e389aeb3f9323e41f842849e88d4294fdd727215463cf9566281b
-# Source SHA-256: 655af232e0d6d93a333034fb55f8fe8a883f9c6767a0166a0eae23e4b5f76bf7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-HELL.ANS by minotaur (MAiDEN bRAZiL); released in mdn-9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: logo for hell's gate
-# SAUCE Author: minotaur
-# SAUCE Group: MAiDEN bRAZiL
-# SAUCE Date: 19970205
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: logo for hell's gate by minotaur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9703-mr-hell
 
 Write-Host '
 

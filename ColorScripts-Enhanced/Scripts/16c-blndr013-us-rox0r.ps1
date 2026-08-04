@@ -1,18 +1,4 @@
-﻿# Converted from: US-ROX0R.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr013/raw/US-ROX0R.ANS
-# Source Revision: archive-sha256:72a5324fd4f22974c15c9ed8e8c6b4bec5368bc68ac7eac23784fe3c37a38257
-# Source SHA-256: 747fd486b7f23f3f62464b3412d898057f558018c4029b128e3519f2920ed53b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ROX0R.ANS by henwarpnit (lacidus); released in blndr013 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: blender13
-# SAUCE Author: henwarpnit
-# SAUCE Group: lacidus
-# SAUCE Date: 19970216
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: blender13 by henwarpnit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr013-us-rox0r
 
 Write-Host '
 [1;41m▓▓▓[0;1;40m▀▀██████████▀▀▀▀█████████▀▀████[0;1;47m▓▓▓[0m██[1;42m▒[0;30;42m░[0;32;40m░░[0m             [1;33;46m                        [0m

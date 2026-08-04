@@ -1,17 +1,4 @@
-﻿# Converted from: SI-PA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ws-9509/raw/SI-PA1.ANS
-# Source Revision: archive-sha256:f80be9f57a72f3731fd02149f3cc3f702afe87dd851a20e852584349c036c76a
-# Source SHA-256: 717fc8a50c6aa1b6fbffbba829706d84ff31165c2de2464d962d5ef8d83540e6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SI-PA1.ANS by soul survivor (ws-9509); released in ws-9509 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: paradise addiction
-# SAUCE Author: soul survivor
-# SAUCE Date: 19950904
-# SAUCE Dimensions: 80x65
-# Lines: 34-64
-# Columns: 1-80
+﻿# Artwork: paradise addiction by soul survivor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ws-9509-si-pa1-part02
 
 Write-Host '
 [1;35;40m██[0;1;35;45m▌[0;35m▌[0;1;36m [0;33m█[0;1;31m███████████[0;1;31;43m▄[0;33m▄▄[0;1;31m  [0;33m▄▄[0;1;31;43m▄[0;1;31;40m████████████████████████████████[0;1;31;43m█[0;1;31;40m████[0;33m█[0;1;31m [0;32m█[0;1;32m█[0;1;32;42m▀▀[0;32m▀[0;34m [0;35m▄[0;1;35;45m▄[0;1;35;40m████████[0m

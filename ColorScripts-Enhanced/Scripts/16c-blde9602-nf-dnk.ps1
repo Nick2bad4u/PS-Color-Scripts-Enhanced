@@ -1,18 +1,4 @@
-﻿# Converted from: NF-DNK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9602/raw/NF-DNK.ANS
-# Source Revision: archive-sha256:5e4639f25c539923328bf5d3dcaf0345f7881a951b04cd174712ef6ec2433a3a
-# Source SHA-256: ebce15ed461178474cc00b09e6cd6f1aa074a74a0fe85b99c011ce1573214ba8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NF-DNK.ANS by infinity (blade productions); released in blde9602 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: doink!
-# SAUCE Author: infinity
-# SAUCE Group: blade productions
-# SAUCE Date: 19960123
-# SAUCE Dimensions: 80x25
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: doink! by infinity | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9602-nf-dnk
 
 Write-Host '
      [1;35m▄[0m

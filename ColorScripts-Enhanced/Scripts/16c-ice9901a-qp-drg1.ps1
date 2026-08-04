@@ -1,17 +1,4 @@
-﻿# Converted from: QP-DRG1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9901a/raw/QP-DRG1.ICE
-# Source Revision: archive-sha256:645106ec19d8688d7e4f8af6fd647e261792695fc36840f6bfd4ec3c130bbe2e
-# Source SHA-256: 675bad8c4dbfe41cbff5ca17f3a065a519a5d1c17207bb6a2105a5f06311998a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QP-DRG1.ICE by Quip (Ice Advertisements); released in ice9901a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Dr. Ganja
-# SAUCE Author: Quip
-# SAUCE Group: Ice Advertisements
-# SAUCE Date: 19990110
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Dr. Ganja by Quip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9901a-qp-drg1
 
 Write-Host '
 [1;30;47m▓▀█[0;1;30;40m███     ▄▄[0;1;30;47m▀▓[0;1;30;40m█ ▀▄  ▀▒  ▀▀  ▀▄  ▀░ [0;33m░████[0;37;43m░[0;33;40m█[0;1;31;43m▄[0;33;43m▄[0;33;40m▄░[0m   [37;40m  ▒▄█[0;1;37;47mdr. ganja[0m▄░█████▄▄    ▄▄

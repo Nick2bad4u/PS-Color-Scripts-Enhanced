@@ -1,17 +1,4 @@
-﻿# Converted from: 32-MISS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fld9611/raw/32-MISS.ANS
-# Source Revision: archive-sha256:c3be5f7f5a1a29d13d34b467174f87c610dcf087ab12ff7b46ba81bca9a6eb51
-# Source SHA-256: 65e5254a1cb3a998d1ff69a90a70c68d52fee988397fe29652a6bf157b6b1067
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 32-MISS.ANS by Ezy (Fluid); released in fld9611 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Missing Link
-# SAUCE Author: Ezy
-# SAUCE Group: Fluid
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: The Missing Link by Ezy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fld9611-32-miss
 
 Write-Host '
 [1;47m▀████████▄█████████████████████████▀███▀██████████████████████▄▀██████[0;1;40m▓[0;1;47m████████[0;1;37;47m█[0m

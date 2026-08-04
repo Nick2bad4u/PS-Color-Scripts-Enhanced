@@ -1,17 +1,4 @@
-﻿# Converted from: SH-FCE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eglo01/raw/SH-FCE.ANS
-# Source Revision: archive-sha256:946b379c1627c6c0ce524ce16bdc1636c1614ddecdaaa61a3c3a875f18d94d0a
-# Source SHA-256: dba2fa01027c951b5f1a4f26eba7c0af8a6fa9152e2b9945e07007d80c2b3594
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SH-FCE.ANS by sophisto (Everglo); released in eglo01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: sophisto
-# SAUCE Group: Everglo
-# SAUCE Date: 19970208
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: SH-FCE.ANS by sophisto | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eglo01-sh-fce
 
 Write-Host '
 [1;30m░░░             [0m                                                           [1;30m     [0m

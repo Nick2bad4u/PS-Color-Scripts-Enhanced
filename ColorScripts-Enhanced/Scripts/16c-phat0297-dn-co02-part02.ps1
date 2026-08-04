@@ -1,18 +1,4 @@
-﻿# Converted from: DN!-CO02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0297/raw/DN!-CO02.ANS
-# Source Revision: archive-sha256:2e15cb2f2712a143323c9f3c6ecca94c5b5b12a452a019e911d205dd685c6eee
-# Source SHA-256: 1da1149fed649589bc6a3a17891d6290f67e68060c5e7f544cd113fa15b2cc27
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DN!-CO02.ANS by dreadnought (pHaT studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Logo Colly II - 2/97 -
-# SAUCE Author: dreadnought
-# SAUCE Group: pHaT studios '97
-# SAUCE Date: 19970110
-# SAUCE Dimensions: 80x109
-# Lines: 32-66
-# Columns: 1-80
+﻿# Artwork: Logo Colly II - 2/97 - by dreadnought | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0297-dn-co02-part02
 
 Write-Host '
           [36m  [0;1;35m [0;34m▄▄▄▄▄▄▄▄▄▓[0;37m [0;36m  [0;37m [0;34m▄▄▄▒[0;37m [0;36m [0;1;35m  [0;36m     [0;37m [0;34m▄▄▄▄[0;37m [0;36m  [0;37m [0;34m▄▄▄▄▄▄▄▄▄▄▒[0;37m [0;36m        [0m

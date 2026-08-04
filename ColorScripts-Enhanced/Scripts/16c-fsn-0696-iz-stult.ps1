@@ -1,18 +1,4 @@
-﻿# Converted from: IZ%STULT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0696/raw/IZ%25STULT.ANS
-# Source Revision: archive-sha256:91a5df7d6634d8d6a544eb72836639f3955b2e59017de7861042fc9fa05f7000
-# Source SHA-256: ef5ac75ed718856c4b5484167705cbab7d845c82f13be1acbadc66c272d70fc6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ%STULT.ANS by ize (fusion); released in fsn-0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: stultify
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19960426
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: stultify by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0696-iz-stult
 
 Write-Host '
 [1m▀[0m▀▀[1;30m▀[0m▀[1;30m▀▀▀[0m▀[1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀[1;30m▀▀▀[0m▀[1;30m▀▀[0m▀▀[1m▀[0m

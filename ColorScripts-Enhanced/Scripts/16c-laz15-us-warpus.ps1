@@ -1,20 +1,4 @@
-﻿# Converted from: us-warpus.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz15/raw/us-warpus.ans
-# Source Revision: archive-sha256:d35f5b18ac3e8cbe3d6d17eab809a7e050609a8e3cc7d160d14a87c59a191c12
-# Source SHA-256: 593377c25ec7cce59fca0a4150cbda162a019165ed73417a003b730602a86457
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-warpus.ans by Spinsane + Warpus (LAZARUS); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: WARPUS
-# SAUCE Author: spinsane & warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20220624
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Coming soon, WARPUS: THE MOTION PICTURE but mainly just really W | ARPUS: THE STATIONARY PICTURE and SPINSANE: THE EVERYTHING
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: WARPUS by Spinsane + Warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz15-us-warpus
 
 Write-Host '
 

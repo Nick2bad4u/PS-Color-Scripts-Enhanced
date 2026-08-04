@@ -1,13 +1,4 @@
-﻿# Converted from: US-WM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-30a/raw/US-WM.ANS
-# Source Revision: archive-sha256:6639c51cd84d0739e4c497f5c5df7097f55575c94239859af87a8579ae4fa114
-# Source SHA-256: ae3d4d9bfea235f39954c18662bae86dce79a7d37984e220b6c9eb8f4fa21168
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-WM.ANS by Produkt + Mrd (purg-30a); released in purg-30a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 28-63
-# Columns: 1-80
+﻿# Artwork: US-WM.ANS by Produkt + Mrd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-30a-us-wm-part02
 
 Write-Host '
 [33m  ▀▄█▓▓▀▄▄▄██ [0;37m [0;1;31;43m▒[0;33m▌[0m             [1;37mm i n o r i t y[0m          [33m▐[0;1;31;43m▒[0;33m▌▐▌[0;1;37;43m░▓█[0;1;33;43m█████████[0;33m█[0;1;37;43m▀[0;33m▄[0;1;37m▄[0;1;37;43m▄[0;33m▀▄[0m

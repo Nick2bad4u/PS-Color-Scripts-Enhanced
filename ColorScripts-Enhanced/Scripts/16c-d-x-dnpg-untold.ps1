@@ -1,13 +1,4 @@
-﻿# Converted from: UNTOLD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d-x-dnpg/raw/UNTOLD.ANS
-# Source Revision: archive-sha256:df7ee677699ff361295765a60f2e509b4b22bfe1129f7f33609abde4fd40c285
-# Source SHA-256: 2dbbc39a993bc848c855b42c48c4b40546379e8cc47cdd58035f2c14a42a94b4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UNTOLD.ANS by Npg (d-x-dnpg); released in d-x-dnpg and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: UNTOLD.ANS by Npg | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d-x-dnpg-untold
 
 Write-Host '
 [47m  [0;1;32;42m▒[0;1;32;47m            [0;1;32;42m░▒░[0;1;32;47m                                                 [0;1;32;42m▒[0;1;32;47m            [0m

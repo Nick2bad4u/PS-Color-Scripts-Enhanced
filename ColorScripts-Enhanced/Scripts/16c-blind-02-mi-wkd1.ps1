@@ -1,18 +1,4 @@
-﻿# Converted from: MI-WKD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blind-02/raw/MI-WKD1.ANS
-# Source Revision: archive-sha256:c5e79989307dbf090a38f911b35eef6e687ee7fb3d0611abf6934cc9737046e9
-# Source SHA-256: 56863a61756439e4f2754b8522ae19cf9fc0e1d18517b2cbd49f34f2bad1f5a8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MI-WKD1.ANS by Mighty Mouse (WiCKED); released in blind-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: WiCKED 1996
-# SAUCE Author: Mighty Mouse
-# SAUCE Group: WiCKED
-# SAUCE Date: 19960105
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: WiCKED 1996 by Mighty Mouse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blind-02-mi-wkd1
 
 Write-Host '
 

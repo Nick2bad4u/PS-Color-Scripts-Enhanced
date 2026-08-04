@@ -1,18 +1,4 @@
-﻿# Converted from: RD-MOP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-1096/raw/RD-MOP1.ANS
-# Source Revision: archive-sha256:73b0e2918c9e3daef978e4ff1f97345c8d9080edab06ce99d8d8ee6a5fb0b3de
-# Source SHA-256: d1ad7897fbdbd1165788d83c41875b506632c6f3188b994ea678e50d550ac759
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD-MOP1.ANS by raider (mOp); released in opx-1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: mOp lOgO
-# SAUCE Author: raider
-# SAUCE Group: mOp
-# SAUCE Date: 19960820
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: mOp lOgO by raider | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-1096-rd-mop1
 
 Write-Host '
 [1;33m[0m[1;33m[0m[1;33m[0m[1;33m[0m

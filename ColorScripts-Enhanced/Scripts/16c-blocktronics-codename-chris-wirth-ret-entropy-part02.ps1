@@ -1,13 +1,4 @@
-﻿# Converted from: ret-entropy.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_codename_chris_wirth/raw/ret-entropy.ans
-# Source Revision: archive-sha256:5d665873486ffcf559d33043557e11d7636d0c5a5b53a69dd3e7cf81117997ef
-# Source SHA-256: 48080e0836611186c11fe5bc22006ce6abc472fd79e2e7f83b618d8e5d9b0d4e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ret-entropy.ans by Retribution (blocktronics_codename_chris_wirth); released in blocktronics_codename_chris_wirth and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 45-88
-# Columns: 1-80
+﻿# Artwork: ret-entropy.ans by Retribution | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-codename-chris-wirth-ret-entropy-part02
 
 Write-Host '
 [36;40m████████████████████████████████████████[0;1;36;46m░[0;36m███[0;30;46m██[0;36;40m█[0;1;36;46m▐█▌[0;36m█[0;34;46m███[0;34;40m███████████████████████[0;30;44mret[0m

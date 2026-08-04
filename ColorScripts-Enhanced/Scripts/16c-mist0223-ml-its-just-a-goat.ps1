@@ -1,20 +1,4 @@
-﻿# Converted from: ML-ITS_JUST_A_GOAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0223/raw/ML-ITS_JUST_A_GOAT.ANS
-# Source Revision: archive-sha256:f6abf3bbd53eb017898fa84b28d2ac43fcb70297788ba675e470ca73794cbbfd
-# Source SHA-256: a63b846564c2d0cf15b488c390c983c7309bf31de9f1246b2b512e292f61adeb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ML-ITS_JUST_A_GOAT.ANS by MeaTLoTioN (grAvy); released in mist0223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: It's just a goat!
-# SAUCE Author: MeaTLoTioN
-# SAUCE Group: grAvy
-# SAUCE Date: 20230130
-# SAUCE Dimensions: 80x35
-# SAUCE Font: IBM VGA
-# SAUCE Comments: https://www.youtube.com/watch?v=JLLFeZGeXbA
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: It's just a goat! by MeaTLoTioN | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0223-ml-its-just-a-goat
 
 Write-Host '
 [1;36m████████████████████████████████████████████████████████████████████████████████[0m

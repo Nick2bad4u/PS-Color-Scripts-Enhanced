@@ -1,19 +1,4 @@
-﻿# Converted from: us-spidygirl.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronicsonice/raw/us-spidygirl.ans
-# Source Revision: archive-sha256:09feb7a5adb913c88be16d43a1a4e86bf7073f13399d8bc54e5478cad35282e5
-# Source SHA-256: 3f0b7d806664251ccb66cda5f9467a9c746847b885688a72861dd4b59f33a5c5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-spidygirl.ans by Smooth + Tainted (blocktronics); released in blocktronicsonice and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ink 2 [remix]
-# SAUCE Author: tainted / smooth
-# SAUCE Group: blocktronics
-# SAUCE Date: 20211231
-# SAUCE Dimensions: 80x365
-# SAUCE Font: IBM VGA
-# Lines: 151-200
-# Columns: 1-80
+﻿# Artwork: ink 2 [remix] by Smooth + Tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronicsonice-us-spidygirl-part04
 
 Write-Host '
  [34m▒[0;1;34;44m▓▌[0;1;30;40m▐▌[0;34m█[0;1;34;44m▀[0;34m▀[0;1;30m ░▄▄█[0;1;30;44m█[0;1;30;40m▀████▄▄▀[0;1;30;47m▓▓▓[0;1;30;40m███▀▀▀[0m [1;30m░▀▀▀▒█▒[0m▒▒[1;30m▒[0m [1;30m░[0;1;30;47m▓[0;1;30;40m█▀[0m  [1;30m▄▄[0;1;30;47m▒░[0;1;37;47m░░[0;1;30;47m▄░░▒▒[0;1;34;47m▒▒▒[0;1;30;47m▒▒▓▓▓▓▓▓[0;1;30;40m▓▓▒░░[0m

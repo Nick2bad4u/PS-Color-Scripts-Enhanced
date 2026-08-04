@@ -1,18 +1,4 @@
-﻿# Converted from: TXT-PH1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/std-1203/raw/TXT-PH1.ANS
-# Source Revision: archive-sha256:cc519a96541ab87c3ccfb6e8a3b506c4dc60ee9fa6ce9aefd475f4a8ca3ef70d
-# Source SHA-256: 94b4a1eeb44e36c26d77e137045f1f1c98f9dcb50ee13aa4184784606c51a213
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TXT-PH1.ANS by The Textorcist (std); released in std-1203 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Pharcyde
-# SAUCE Author: The Textorcist
-# SAUCE Group: std
-# SAUCE Date: 20031130
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: The Pharcyde by The Textorcist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-std-1203-txt-ph1
 
 Write-Host '
 

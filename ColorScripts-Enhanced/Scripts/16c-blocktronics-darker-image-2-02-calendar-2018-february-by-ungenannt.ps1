@@ -1,18 +1,4 @@
-﻿# Converted from: _02_Calendar_2018_February_by_ungenannt.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_darker_image_2/raw/_02_Calendar_2018_February_by_ungenannt.ans
-# Source Revision: archive-sha256:7282b405cc52219ce7cf6cd9d097796f1b25fc898e4c29fdb9f37c375d595996
-# Source SHA-256: 67d811a80562e1034c38feeb84178f181fa9acc5dd34d48d1235487a0180b564
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _02_Calendar_2018_February_by_ungenannt.ans by ungenannt (blocktronics); released in blocktronics_darker_image_2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: ungenannt
-# SAUCE Group: blocktronics
-# SAUCE Date: 20171019
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: _02_Calendar_2018_February_by_ungenannt.ans by ungenannt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-darker-image-2-02-calendar-2018-february-by-ungenannt
 
 Write-Host '
 [1;33;41m██████████████████████████[0;1;37;41m██████[0;1;37;40m███[0;1;36;40m█[0;1;37;40m████[0;1;36;40m█[0;1;37;40m████[0;1;36;40m█[0;1;37;40m██[0;31m▒▓▓▓[0;1;37;41m  ▄▄▌[0;31m██[0;1;37;41m▄████▄▄▄▀▀[0;1;33;41m███████████[0m

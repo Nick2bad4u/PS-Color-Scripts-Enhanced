@@ -1,18 +1,4 @@
-﻿# Converted from: GO-SUP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/kbsart03/raw/GO-SUP.ANS
-# Source Revision: archive-sha256:3bc41b0cbaed5cc33563c576ee20fcd7a1c532d4df2df0fbf9fb63f79506bdf8
-# Source SHA-256: cb8ff575abc9bc9ae85af4e78e92b5c5c8a0ea11742aaf56da9ce486825b6732
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GO-SUP.ANS by Goatboy (Kibosh); released in kbsart03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: super sysop!
-# SAUCE Author: Goatboy
-# SAUCE Group: Kibosh
-# SAUCE Date: 19990828
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: super sysop! by Goatboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-kbsart03-go-sup
 
 Write-Host '
 [1;33m█████████▀ ▄▄▄▄ [0;36m▀▀██████████████████████████████████████████████████████████████[0m

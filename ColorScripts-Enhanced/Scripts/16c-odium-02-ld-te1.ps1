@@ -1,18 +1,4 @@
-﻿# Converted from: LD-TE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-02/raw/LD-TE1.ANS
-# Source Revision: archive-sha256:47a67f112d88796e8c1419ea3c6c084684ff2719dfc540b2668a69dc0343be0d
-# Source SHA-256: c40497557d79ef406569f4915f5b2d86e868c2011363d5441c315ad131a045de
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-TE1.ANS by lordjazz (odium); released in odium-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: tokyo eye
-# SAUCE Author: lordjazz
-# SAUCE Group: odium
-# SAUCE Date: 19951210
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: tokyo eye by lordjazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-02-ld-te1
 
 Write-Host '
     [1mt[0m        [1mo[0m        [1mk[0m        [1my[0m        [1mo[0m       [1m···[0m       [1me[0m        [1my[0m        [1me[0m

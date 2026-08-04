@@ -1,19 +1,4 @@
-﻿# Converted from: ronaldj-toddshouse.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mistergirls-2-perling-aint-easy/raw/ronaldj-toddshouse.ans
-# Source Revision: raw-sha256:6306529e4fe535b575070bee2c2b3f968e4345eba3bb8c429d621df7073550aa
-# Source SHA-256: 6306529e4fe535b575070bee2c2b3f968e4345eba3bb8c429d621df7073550aa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ronaldj-toddshouse.ans by Ronald J Peppercorn (mistergirls); released in mistergirls-2-perling-aint-easy and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Todd's House!
-# SAUCE Author: Ronald J Peppercorn
-# SAUCE Group: mistergirls
-# SAUCE Date: 20180217
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Todd's House! by Ronald J Peppercorn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mistergirls-2-perling-aint-easy-ronaldj-toddshouse-part01
 
 Write-Host '
 [37;40m   [0;1;35;40m▀█▀[0m [1;35m█▀█[0m [1;35m█▀▄[0m [1;35m█▀▄[0m [1;35m█▀[0m                                      [1;35m█▄█[0m [1;35m▄▀▄[0m [1;35m█[0m [1;35m█[0m [1;35m█▀[0m  [1;35m█▀▀[0m

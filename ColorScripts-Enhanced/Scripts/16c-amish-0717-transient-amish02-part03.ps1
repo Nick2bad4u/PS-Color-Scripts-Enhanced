@@ -1,16 +1,4 @@
-﻿# Converted from: transient - amish02.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amish-0717/raw/transient%20-%20amish02.ans
-# Source Revision: archive-sha256:7f45778e662171d152f6f11bf2e575ecaf2d1e212601bd1e4d7ab16a02785316
-# Source SHA-256: 22ecf9052ac143ecf71a615134c247f1ac91749569d555590902e47a27588eaf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: transient - amish02.ans by Transient (amish-0717); released in amish-0717 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20170717
-# SAUCE Dimensions: 80x135
-# SAUCE Font: IBM VGA
-# Lines: 91-135
-# Columns: 1-80
+﻿# Artwork: transient - amish02.ans by Transient | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amish-0717-transient-amish02-part03
 
 Write-Host '
 [1;33;46m░[0;35;104m ▓▓[0;1;32;46m██▓    [0;1;36;46m ░█[0;35;104m▓▓▒▒▒▓[0;1;33;46m█   [0;1;32;46m  █[0;1;36;46m██[0;1;33;46m█  [0;1;36;46m  [0;1;33;46m  ░[0;1;32;46m▓██[0;35;104m▓▓▓[0;1;36;46m██[0;1;33;46m▒███[0;1;35;42m  [0;1;33;46m   [0;1;35;42m  ░▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓██[0;1;32;42m█[0;1;35;42m█████[0m

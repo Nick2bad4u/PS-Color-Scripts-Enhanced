@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-FUTR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0999/raw/BYM-FUTR.ANS
-# Source Revision: archive-sha256:a2e683452933f0cc0c7c5f8185be51af4846ace8a1753ba20cf7f9ba82c1dcf4
-# Source SHA-256: b328db472e725b16c6d0d5410f2ce4e6167ae493e090b4abc391fb0c776e3246
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-FUTR.ANS by NightBYM (poffelipoff); released in plf-0999 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Borgasm Emag
-# SAUCE Author: NightBYM
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19990918
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Borgasm Emag by NightBYM | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0999-bym-futr
 
 Write-Host '
 [34m██▓[0;1;34m▒▒[0;34m█[0;35;44m▀[0;35;40m██[0;1;35;40m▒▒[0;35;44m▄[0;35;40m▄▄[0;34;40m▄[0m    [35;40m▀▀█▓▓[0;1;35;40m▒▒[0;35m████[0;1;34;45m▄▄█▀[0;35;44m▓▓[0;35;40m██[0;35;46m▓▓▀[0;35;44m▀▀▀[0;34;40m▀▀[0m                     [35;40mseptember[0;34;40m1999[0m

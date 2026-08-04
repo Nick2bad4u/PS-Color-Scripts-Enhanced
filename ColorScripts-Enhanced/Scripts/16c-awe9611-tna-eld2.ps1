@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-ELD2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9611/raw/TNA-ELD2.ANS
-# Source Revision: archive-sha256:2b73e149488dc761d99422832825743596588d59e58f9bfecfb5d0e9dbffd274
-# Source SHA-256: 11107fef8aea3f0e855823cf7b3e6f5073f0e509d17a0c7064f507ec2b55d558
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-ELD2.ANS by The Night Angel (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Eldorado Menu
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961031
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Eldorado Menu by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9611-tna-eld2
 
 Write-Host '
   [32m▬[0m        [30;42m▓[0;32;40m▌[0;30;40m  [0;37;40m [0;30;40m    [0;37;40m [0;30;40m   [0;37;40m [0;30;40m     [0;37;40m   [0;32;40m▀▄[0;37;40m [0;32;40m ▀▄▄▄ [0;30;40m              [0;32;40m░░[0;30;42m▓▓▓[0;32;40m░░[0;30;42m▓[0;32;40m░[0;30;42m▓[0;37;40m  [0;32;40m░[0;30;42m▓[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: MM-MYLOVEGOODBYE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/MM-MYLOVEGOODBYE.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: a8adbf3b5171f7285668777a5ebd4b4783235d3510774f3c7511ddff1c2daaee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-MYLOVEGOODBYE.ANS by Mavenmob (Mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Hello My Love
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241228
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Hello My Love by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-mm-mylovegoodbye
 
 Write-Host '
 [30;47m██[0;1;32;40m    [0;1;37;40m      [0m      [1;31m     [0;33m [0;1;35m   [0;30;47m█[0;37;40m                                    [0;30;47m████████████████[0m

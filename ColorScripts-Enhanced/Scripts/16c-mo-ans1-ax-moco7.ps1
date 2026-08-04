@@ -1,13 +1,4 @@
-﻿# Converted from: AX^MOCO7.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mo-ans1/raw/AX%5EMOCO7.ANS
-# Source Revision: raw-sha256:a81abfc2719a92ae14e7d5a9785204d34c26a948087dcf0227ef1722ac259628
-# Source SHA-256: a81abfc2719a92ae14e7d5a9785204d34c26a948087dcf0227ef1722ac259628
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AX^MOCO7.ANS by Asterix-Moco (mo-ans1); released in mo-ans1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: AX^MOCO7.ANS by Asterix-Moco | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mo-ans1-ax-moco7
 
 Write-Host '
 

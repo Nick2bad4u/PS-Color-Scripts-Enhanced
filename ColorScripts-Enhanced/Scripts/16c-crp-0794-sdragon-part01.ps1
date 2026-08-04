@@ -1,13 +1,4 @@
-﻿# Converted from: SDRAGON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/crp-0794/raw/SDRAGON.ANS
-# Source Revision: archive-sha256:7ddbfb316c11970dc9e9ac95c4d4e81fd0fb7d7c5649de340d1d719e880ea882
-# Source SHA-256: 4f0078800af010ca5e9c629b8949456b9c130ff82b76bf2d35552e8e6dc07db0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SDRAGON.ANS by Realm Dweller (crp-0794); released in crp-0794 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: SDRAGON.ANS by Realm Dweller | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-crp-0794-sdragon-part01
 
 Write-Host '
 

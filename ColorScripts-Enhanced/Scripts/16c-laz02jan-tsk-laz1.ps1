@@ -1,13 +1,4 @@
-﻿# Converted from: TSK-LAZ1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz02jan/raw/TSK-LAZ1.ANS
-# Source Revision: archive-sha256:132672eb521503ab979d6725a75b6f055811245f253b5353290430aa5c4983b1
-# Source SHA-256: d0000732b24c66d3ea453caaf70375c8bac1a53683216636e83d9e16858e2d38
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-LAZ1.ANS by The Silent Killer (laz02jan); released in laz02jan and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: TSK-LAZ1.ANS by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz02jan-tsk-laz1
 
 Write-Host '
                 [1m     [0m   [1m [0m  [1ml[0m   [1ma[0m   [1mz[0m   [1ma[0m  [1m r[0m   [1mu[0m   [1ms[0m

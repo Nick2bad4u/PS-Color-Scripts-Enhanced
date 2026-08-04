@@ -1,18 +1,4 @@
-﻿# Converted from: LD-DRON3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel15/raw/LD-DRON3.ANS
-# Source Revision: archive-sha256:3b994e59b6a78be97a60517481673ca8661cd10fa275e8c56fe8095a44e5feee
-# Source SHA-256: f626434ef9ca61734a722ddaaa3ce88268f0d4a264b251479b98552abbe3f63f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-DRON3.ANS by oned (fuel productions); released in fuel15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: drone
-# SAUCE Author: oned
-# SAUCE Group: fuel productions
-# SAUCE Date: 19970727
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: drone by oned | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel15-ld-dron3
 
 Write-Host '
 [33m███▀██▓▓▓▓██[0;33;43m    [0;1;33;43m▀▀▓▓[0;33m▌▀█ ▄[0;37m▐█[0;1;30;47m░[0;1;30;40m▌[0;33m▐▓  ▄▌   [0;1;32m▐[0;1;32;47m ▓[0;1;32;40m█ [0m█[1m██▀█▀▄█████▓▓▒  ▓ ▐███████▓[0m▌[32m▐[0;1;32m█[0;1;32;47m▓▒  [0;1;32;40m█[0m

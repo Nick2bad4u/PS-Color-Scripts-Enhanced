@@ -1,18 +1,4 @@
-﻿# Converted from: KS-MND!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nland-05/raw/KS-MND!.ANS
-# Source Revision: archive-sha256:9ecedfce350729554c325e3fa16a28f24118d9cc4a114d7d310d9ef56e778218
-# Source SHA-256: c6514b93cf15cbfe78408bf652a3226f4222fdc7b098561130c1d27e6c61c158
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KS-MND!.ANS by Kasha (NeveRLanD People); released in nland-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: M'n'd
-# SAUCE Author: Kasha
-# SAUCE Group: NeveRLanD People
-# SAUCE Date: 19960319
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: M'n'd by Kasha | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nland-05-ks-mnd
 
 Write-Host '
              [1;30m█[0m                                   [1;30m▄ ▀▄ █▀██[0m              [1;36m▀ [0;36m█▀▀[0m

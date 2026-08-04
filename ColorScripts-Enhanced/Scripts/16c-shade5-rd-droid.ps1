@@ -1,18 +1,4 @@
-﻿# Converted from: RD-DROID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shade5/raw/RD-DROID.ANS
-# Source Revision: archive-sha256:9eb97f9412f63f0ce4837a80894f87a3aed455c1487394481c6e40b531c2203d
-# Source SHA-256: 81ee35eea9f0cfd4deecd71baaefe374ecb4ceb960154f3f05e423aedcb38ebe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD-DROID.ANS by raider (shade); released in shade5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: elite-robot
-# SAUCE Author: raider
-# SAUCE Group: shade
-# SAUCE Date: 19960221
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: elite-robot by raider | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shade5-rd-droid
 
 Write-Host '
                 [1;30m [0;30;47m█▓▓[0m

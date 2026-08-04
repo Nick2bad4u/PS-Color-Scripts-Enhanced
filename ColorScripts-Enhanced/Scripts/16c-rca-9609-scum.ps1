@@ -1,13 +1,4 @@
-﻿# Converted from: SCUM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-9609/raw/SCUM.ANS
-# Source Revision: archive-sha256:b8dd1220b09b83c8af4c4f2bd74968552ed3ecfc85ae31ad7bf3b2d62f23e9e2
-# Source SHA-256: 8cdbe87f54d5ba6599e95f850420a362e76f8075e00d1b8b023e65a8f3329b01
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SCUM.ANS by Tek (rca-9609); released in rca-9609 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: SCUM.ANS by Tek | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-9609-scum
 
 Write-Host '
 

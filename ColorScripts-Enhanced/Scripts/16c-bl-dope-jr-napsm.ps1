@@ -1,18 +1,4 @@
-﻿# Converted from: JR_NAPSM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl-dope/raw/JR_NAPSM.ANS
-# Source Revision: archive-sha256:94d0a6d1a54f912bf59b65f9ab8ad2e76bf857ee4ed7295093943e200494477a
-# Source SHA-256: 62e69e094dcd91f733e63de851870346398eea4d87bd6554005baa0c76603fa9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_NAPSM.ANS by Jerusalem (boil); released in bl-dope and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: naps state mainmenu
-# SAUCE Author: Jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19970428
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: naps state mainmenu by Jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-dope-jr-napsm
 
 Write-Host '
 [1;34;44m▄████░[0m [1;30m████▒[0m [34m▀[0;37;44m░[0;1;34;44m█[0;1;34;47m██▓[0;1;34;44m█░[0;34m▀[0;37m [0;1;30m▄▓█▄[0m ▐[35m░[0;1;30m▒░░[0m

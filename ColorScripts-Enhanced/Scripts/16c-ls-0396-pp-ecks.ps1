@@ -1,16 +1,4 @@
-﻿# Converted from: PP-ECKS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ls-0396/raw/PP-ECKS.ANS
-# Source Revision: archive-sha256:027827aba2a8182d830f3ad2fb41dbb22eb3c3bf864eed4898dd3e30e7ae3a86
-# Source SHA-256: b5d4baa72edfbaf160007e9ba68e188e0e88c695c72e8e4bd116a3b1b53a4075
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PP-ECKS.ANS by phorce phed (leper society); released in ls-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ecks
-# SAUCE Author: phorce phed
-# SAUCE Group: leper society
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ecks by phorce phed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ls-0396-pp-ecks
 
 Write-Host '
 [30m [0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

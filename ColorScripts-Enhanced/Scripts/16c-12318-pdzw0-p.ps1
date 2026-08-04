@@ -1,13 +1,4 @@
-﻿# Converted from: pdzw0-p.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/12318/raw/pdzw0-p.ans
-# Source Revision: archive-sha256:8359e16f49f42e2c460172ce01977fb5fbee410f8f2dd001d4cfcdb4bcff56f5
-# Source SHA-256: 592b6a709a9d056b1ba7069a92fc803211d40d3d4e5779113ce8380ee7300fc5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: pdzw0-p.ans by Podsi (12318); released in 12318 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: pdzw0-p.ans by Podsi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-12318-pdzw0-p
 
 Write-Host '
 

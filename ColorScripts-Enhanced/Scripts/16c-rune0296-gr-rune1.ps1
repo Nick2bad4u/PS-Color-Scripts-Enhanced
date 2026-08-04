@@ -1,17 +1,4 @@
-﻿# Converted from: GR-RUNE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rune0296/raw/GR-RUNE1.ANS
-# Source Revision: archive-sha256:1cc279748badd7f61a5f083ba1c8b526b1d5d143bea36336d1817d4778ed4d79
-# Source SHA-256: 0d35a6a847e89b5e2a4bb3a22de8a752d1ac45f22a63bfa02b690c131450122c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GR-RUNE1.ANS by gunthar (rune); released in rune0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: rune logo
-# SAUCE Author: gunthar
-# SAUCE Group: rune
-# SAUCE Date: 19960201
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: rune logo by gunthar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rune0296-gr-rune1
 
 Write-Host '
                  [37;40m░   [0;1;37;40m░[0m                [30;47m▓[0m      [30;47m▓[0m [37;40m▄[0m  [30;47m▓[0m        [30;47m▓[0m

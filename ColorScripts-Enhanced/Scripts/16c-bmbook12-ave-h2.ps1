@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-H2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook12/raw/AVE-H2.ANS
-# Source Revision: archive-sha256:ec66f5bb4ed961133c52314c375d67af30a5295789eb6bfc6eda91ebf8999fc2
-# Source SHA-256: e033fe2417fd4a4c8decbac8b53c59449ab79362a1a5b93469af726c0be6f623
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-H2.ANS by avenger (black maiden); released in bmbook12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: hazard/2 messages
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19970228
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: hazard/2 messages by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook12-ave-h2
 
 Write-Host '
 [31m░[0;30;41m▓[0;37;40m [0;31;40m░ [0m             [30;41m▓[0;31;40m░░[0;37;40m  [0;31;40m░[0m     [31;40m              [0m       [31;40m░░[0m      [31;40m░[0m      [30;41m▓▓[0;31;40m░[0m   [31;40m░[0m     [1;31;40m [0m

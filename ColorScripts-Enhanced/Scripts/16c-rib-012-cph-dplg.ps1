@@ -1,18 +1,4 @@
-﻿# Converted from: CPH-DPLG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-012/raw/CPH-DPLG.ANS
-# Source Revision: archive-sha256:4b822377f08e44404edc6b006616be9a58b9ffc0848d36336fc9de37f7065343
-# Source SHA-256: c139bd3ec299b30b526e24a3ce7609cec3c22be6c9cc965ac4ad6d5c642e048f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-DPLG.ANS by {YBERPUNCh (RiB); released in rib-012 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: deep login
-# SAUCE Author: {YBERPUNCh
-# SAUCE Group: RiB
-# SAUCE Date: 19980901
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: deep login by {YBERPUNCh | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-012-cph-dplg
 
 Write-Host '
 

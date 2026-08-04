@@ -1,18 +1,4 @@
-﻿# Converted from: US-AGILE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-15/raw/US-AGILE.ANS
-# Source Revision: archive-sha256:27d6625e69a5207f7e1ecdf7cdf18b62e352300eb88e02c3e1b0355793535d53
-# Source SHA-256: bfd80044dc3173588254ebc437fef88ef1dde3b5b0ce3d8ecf72ea7e50bc37b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-AGILE.ANS by Prosthesis + Reanimator (glue/legion); released in glue-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: agile
-# SAUCE Author: prst/reanimator
-# SAUCE Group: glue/legion
-# SAUCE Date: 19970429
-# SAUCE Dimensions: 80x26
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: agile by Prosthesis + Reanimator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-15-us-agile
 
 Write-Host '
      [1;30m [0m     [1;30m▄[0m     [31m▄[0m       [31m▄[0;37m    [0;31m▄[0;1;35m [0;1;30m▀[0m         [31m■▄ [0m     [31m  [0;37m   [0;31m░░░          [0m

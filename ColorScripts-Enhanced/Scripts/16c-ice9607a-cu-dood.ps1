@@ -1,18 +1,4 @@
-﻿# Converted from: CU-DOOD.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9607a/raw/CU-DOOD.ICE
-# Source Revision: archive-sha256:6e317dcfbe1a18e9811dd69788e086bd6dba75308a8c6706d46c84b5eb4fd93a
-# Source SHA-256: ddbafd84556fad0ca8f43310c1d03f4537093cbe83e4ad6c34c1d060e20a2ffe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CU-DOOD.ICE by Cold and Ugly (iCE); released in ice9607a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Doodle Emag, Issue 3
-# SAUCE Author: Cold and Ugly
-# SAUCE Group: iCE
-# SAUCE Date: 19960726
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Doodle Emag, Issue 3 by Cold and Ugly | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9607a-cu-dood
 
 Write-Host '
  [1m░░▒▒▒▓▓▓▓███████████████████████████████████████████████████████████▓▓▓▓▒▒▒░░ [0m

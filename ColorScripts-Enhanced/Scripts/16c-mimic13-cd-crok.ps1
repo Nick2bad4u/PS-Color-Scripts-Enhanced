@@ -1,13 +1,4 @@
-﻿# Converted from: cd!crok.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic13/raw/cd!crok.ans
-# Source Revision: archive-sha256:b89761bf015402998f9d650a98f03d2e2b0bb5c6784fc4e3199726c9428917de
-# Source SHA-256: b9669ce5504e7e2413a7ca9ed17dd8ec388f3c551515dbe80b814a8844fac573
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cd!crok.ans by Cat-Dog (mimic13); released in mimic13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: cd!crok.ans by Cat-Dog | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic13-cd-crok
 
 Write-Host '
           .┌y%%y┐. yy$$$$$$S%┐   $$$$%%%y┐.     .┌y%%y┐. $$$$

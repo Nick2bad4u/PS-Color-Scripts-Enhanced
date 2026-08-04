@@ -1,18 +1,4 @@
-﻿# Converted from: WT-OHNO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bdp-0296/raw/WT-OHNO.ANS
-# Source Revision: archive-sha256:291145d8d8f3eab37f55de992303285e39bcc9a64c52259e0a1f0ff8ffd94693
-# Source SHA-256: 659e8fecdb53b6de26dcf1cd7aa572e884cb1c0fbb379320b25c34aa74af0bce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WT-OHNO.ANS by Wild Thing (.boogiE%Woogie.); released in bdp-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Oh No! I'm the only bdpwoman!
-# SAUCE Author: Wild Thing
-# SAUCE Group: .boogiE%Woogie.
-# SAUCE Date: 19960203
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Oh No! I'm the only bdpwoman! by Wild Thing | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bdp-0296-wt-ohno
 
 Write-Host '
                       [33m▄▄[0;33;41m▀[0;31;40m▄▄▄▄[0m

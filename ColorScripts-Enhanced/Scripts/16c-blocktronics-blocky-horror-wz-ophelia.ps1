@@ -1,20 +1,4 @@
-﻿# Converted from: wz-ophelia.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-blocky-horror/raw/wz-ophelia.ans
-# Source Revision: archive-sha256:9b55aad043357449b0b0f61d3eddf0a2e277e46cf0768f93c8b9bc9b99d78a77
-# Source SHA-256: 7bd28c1b48ec6d841a7aea73eab726c18f7acafb5dd14816cfc30ec33d1c0847
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wz-ophelia.ans by Whazzit (Blocktronics); released in blocktronics-blocky-horror and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Ophelia
-# SAUCE Author: Whazzit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20190726
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: for Evoke 2019
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Ophelia by Whazzit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blocky-horror-wz-ophelia
 
 Write-Host '
 [1;37;46m▓[0;36m  [0;1;37m▀▀▀▀▀[0;36m  [0;1;37m▀▀▀[0m      [1m▀▀██▄▄▄[0;33m   [0;1;31m▄▄█[0;1;31;43m▀▀▀[0;1;37;43m▀[0;33;46m█[0;1;31;43m ▀▀▀▀▀▀[0;1;37;43m▀[0;1;31;43m ▄▄▄[0;1;37;43m▄[0;33;46m██[0;1;37;43m▄▄▄▄▄▄[0;1;37;46m█[0;1;37;43m▀[0;1;37;46m███████▀▀▀▀███▓▓▓▒▒▒[0m

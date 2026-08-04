@@ -1,18 +1,4 @@
-﻿# Converted from: ^J-DD23.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ascnt-02/raw/%5EJ-DD23.ANS
-# Source Revision: archive-sha256:941ef0ca832bfffcbb0345c39567a2df1704a250fe70a6052dbdbb0076b1c12b
-# Source SHA-256: e2f8bcbfd1aa13259e06489f0dbd9b750b78212e07c6484c4f219514bb678023
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ^J-DD23.ANS by fever (ascent); released in ascnt-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dd23
-# SAUCE Author: fever
-# SAUCE Group: ascent
-# SAUCE Date: 19961125
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: dd23 by fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ascnt-02-j-dd23
 
 Write-Host '
 [1;30m[0m

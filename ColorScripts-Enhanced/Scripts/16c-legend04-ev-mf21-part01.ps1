@@ -1,18 +1,4 @@
-﻿# Converted from: EV-MF21.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/legend04/raw/EV-MF21.ANS
-# Source Revision: archive-sha256:8d7c89819709343239d9819160f9119efc661234c4b1d2dab5894cd096ee1758
-# Source SHA-256: 2cd5e1a60e3ddb6228254393f283387f60324755644f4f01f8c722a80eb59fd2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EV-MF21.ANS by EverLast (Legend 1995); released in legend04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Monkey Factory II
-# SAUCE Author: EverLast
-# SAUCE Group: Legend 1995
-# SAUCE Date: 19951015
-# SAUCE Dimensions: 80x25
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Monkey Factory II by EverLast | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-legend04-ev-mf21-part01
 
 Write-Host '
 [1m  [0m       [1;30m                                                         [0m [36m▄[0;37m [0;1;37m    [0m

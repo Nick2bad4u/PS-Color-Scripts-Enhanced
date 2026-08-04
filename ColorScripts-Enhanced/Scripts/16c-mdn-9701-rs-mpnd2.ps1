@@ -1,18 +1,4 @@
-﻿# Converted from: RS-MPND2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9701/raw/RS-MPND2.ANS
-# Source Revision: archive-sha256:45d6a082bca05ad193b510335e91b0bec312e4835ff5735e0eb40fe62d0e1180
-# Source SHA-256: e489fd90eed9228bc54a4f37dea358d298830ee73bd7b05c2348909a6ea36c40
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-MPND2.ANS by rorshack (Maiden Brazil!); released in mdn-9701 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: mater pound
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil!
-# SAUCE Date: 19961219
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: mater pound by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9701-rs-mpnd2
 
 Write-Host '
             [36m▄▄▄▄▄▄▄▄▄▄ [0;1;30m   [0m [36m▄ ▄▄▄▄▄[0;37m [0;36m▄▄▄[0;37m [0;1;36mrs[0;1;30m<[0;36mma[0;1;37;46mi[0;36mden[0;1;30m>[0;36m ▄▄ [0;1;30m   [0m [36m▄▄▄▄▄▄ [0m

@@ -1,17 +1,4 @@
-﻿# Converted from: NOH-NEO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1097/raw/NOH-NEO.ANS
-# Source Revision: archive-sha256:36c7150b2835995ba27c6f1c5cfc23dc5fdf9213c2fb0b333e09d1aa0d00da5f
-# Source SHA-256: 35a1be5bbb42e19ef7e84c3025e68671034d37552797a39c32f4b9463029dd35
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOH-NEO.ANS by nOah? (plf-1097); released in plf-1097 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: neospirin
-# SAUCE Author: nOah?
-# SAUCE Date: 19971111
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: neospirin by nOah? | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1097-noh-neo
 
 Write-Host '
 

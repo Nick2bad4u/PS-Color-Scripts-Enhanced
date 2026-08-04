@@ -1,18 +1,4 @@
-﻿# Converted from: RD-RECL3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-1296/raw/RD-RECL3.ANS
-# Source Revision: archive-sha256:506b105b4c26ae1c852aab6820467319ddc2b45f940a9c1fc20d63a6338d499e
-# Source SHA-256: 4a5ad504217ce72e73dc8713a2e9a0c710ecee522b2a375f9e1304f8b681bf99
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD-RECL3.ANS by raider (Opx); released in opx-1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: recoil login pic
-# SAUCE Author: raider
-# SAUCE Group: Opx
-# SAUCE Date: 19961130
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: recoil login pic by raider | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-1296-rd-recl3
 
 Write-Host '
 [1;34;44m░░[0;1;35;44m░[0;30;44m [0;1;34;44m░▒░[0;30;44m   [0;1;34;44m░░[0;30;44m  [0;36;40m░[0;30;44m▄▄▄▄[0;30;41m▀▀▀[0;1;31;40m░[0;1;31;41m▄▄░░[0;30;41m▀ [0;1;35;41m░[0;1;31;41m▒▒░[0;30;41m▀▀[0;30;44m▄▄▄ [0;1;34;44m░[0;36m░[0;30;44m [0;1;34;44m░░▄[0;1;34;40m█[0;1;34;46m▓[0;1;34;40m█[0;1;34;44m▄▄ [0;30;44m [0;1;34;44m ▄▄[0;1;34;40m██[0;1;34;44m▄░[0;30;44m [0;1;34;44m ▄▄[0;1;34;40m█[0;1;34;44m▄ ░▄▄[0;1;34;40m██[0;1;34;44m▄ [0;1;34;40m██[0;1;34;44m▀[0;1;34;40m███[0;1;34;44m░[0m

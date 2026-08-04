@@ -1,13 +1,4 @@
-﻿# Converted from: FL-DOX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/optk0294/raw/FL-DOX.ANS
-# Source Revision: archive-sha256:553bebf23e65cf38a8895a7a4f69bf9a99d621e74f69922e35a000a003431ced
-# Source SHA-256: 2521b2fd7f29483be9bfa489541474afdf6fbc6bc9645bf57b66bb9efbefb589
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-DOX.ANS by Flave (optk0294); released in optk0294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 39-87
-# Columns: 1-80
+﻿# Artwork: FL-DOX.ANS by Flave | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-optk0294-fl-dox-part02
 
 Write-Host '
                [1;32m▄[0;1;32;42m▓█[0;1;32m▄[0m                [1;32m▄[0;1;32;42m▓█[0;1;32m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: HT-WCRY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bli-0994/raw/HT-WCRY.ANS
-# Source Revision: archive-sha256:e8a8a0a380e95ad8e079e29454639fb3744fea62262aae646675cdc56210b17e
-# Source SHA-256: 15838a5c790e00b7080a46731a3d2be9c796d46df4a7652d758369d7d4c10c64
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HT-WCRY.ANS by Hunter (BLitZ); released in bli-0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: War Cry
-# SAUCE Author: Hunter
-# SAUCE Group: BLitZ
-# SAUCE Date: 19940813
-# SAUCE Dimensions: 80x123
-# Lines: 42-81
-# Columns: 1-80
+﻿# Artwork: War Cry by Hunter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bli-0994-ht-wcry-part02
 
 Write-Host '
 [1;34;44m▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░[0;1;37;40m██████ ████████[0;1;34;44m░░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m

@@ -1,16 +1,4 @@
-﻿# Converted from: Zaal.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zaal01/raw/Zaal.ANS
-# Source Revision: archive-sha256:0f9fad95be99ccdc16490741412db1096a9afeb8f5d81759a892dc543004c13c
-# Source SHA-256: c0158ebd6d0b7dc845254f5e34ac11f1bbe086da3d91d36a3aa6def420d70b98
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Zaal.ANS by Zaal (zaal01); released in zaal01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20210929
-# SAUCE Dimensions: 80x30
-# SAUCE Font: IBM VGA
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Zaal.ANS by Zaal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zaal01-zaal
 
 Write-Host '
 [32;40m [0m                                   [30;43m█[0;1;37;40m▄▄▄▄▄▄[0;1;35;40m▄▄▄[0m [32m■[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: OZ-ZNTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-01/raw/OZ-ZNTH.ANS
-# Source Revision: archive-sha256:839932970b12d0c8f9bed0d87f002a63e0f2cc60ac78a12ea0891a4123fc4507
-# Source SHA-256: d33d7f6e593117a8949b27534e8a4f960032a291b8643ab1ee14ae830e4f8d62
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OZ-ZNTH.ANS by ooze (dEPARTMENT^38); released in d38-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: zenith zine
-# SAUCE Author: ooze
-# SAUCE Group: dEPARTMENT^38
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: zenith zine by ooze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-01-oz-znth
 
 Write-Host '
 

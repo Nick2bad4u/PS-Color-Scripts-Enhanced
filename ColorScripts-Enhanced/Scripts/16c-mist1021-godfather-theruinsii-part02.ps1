@@ -1,19 +1,4 @@
-﻿# Converted from: GODFATHER-THERUINSII.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1021/raw/GODFATHER-THERUINSII.ANS
-# Source Revision: archive-sha256:64634d001e2a6c18446bf552376701feb95a4ac9dffd53692196da98b42e43bd
-# Source SHA-256: 6433b35df0e14e7c3977c31ee89918ff10a3731b970bfc60dac1fff9d30a9506
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GODFATHER-THERUINSII.ANS by Godfather (Mistigris); released in mist1021 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Ruins
-# SAUCE Author: Godfather
-# SAUCE Group: Mistigris
-# SAUCE Date: 20211023
-# SAUCE Dimensions: 80x75
-# SAUCE Font: IBM VGA
-# Lines: 38-74
-# Columns: 1-80
+﻿# Artwork: The Ruins by Godfather | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1021-godfather-theruinsii-part02
 
 Write-Host '
 [31m▀[0;1;36m▀[0m  [33m▄▀[0;37m     [0;1;31;41m▀[0;1;31;40m▄[0;31;47m▄[0;37;40m█[0;1;37;47m▀▌[0;30;47m▀[0;30;40m   [0;30;47m▀[0;1;37;40m▄[0;1;37;47m▄[0;5;47m▀[0;1;47m▄▀▄[0;1;30;47m▄[0;1;30;40m▀[0;1;37;47m▀[0;1;30;47m▄[0;1;37;47m▐[0;1;37;40m█[0m▀[30m  [0;37m▐▄[0;30m  [0;37m▀[0;1;37;47m▀[0;1;30;47m▄[0;1;37;47m▄▀▄▄[0;1;30;47m▀[0;1;30;40m█[0;1;37;47m▄[0;1;37;40m█[0;1;30;47m▀[0;1;30;40m▄[0m     [1;30m▄[0;1;30;47m▄[0;1;37;40m█[0m [1;31;41m▀[0;1;31;40m▄[0m      [33m▀▄[0;37m  [0;1;36m▀[0;31m▀[0m

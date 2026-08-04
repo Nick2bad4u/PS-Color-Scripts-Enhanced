@@ -1,18 +1,4 @@
-﻿# Converted from: CW-RMTZL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmtz-2/raw/CW-RMTZL.ANS
-# Source Revision: archive-sha256:4098da1ce5096b58e9d8e2d422f1498dadae3c1a4608ab2bce3811e49527bb5d
-# Source SHA-256: 862ca69cbf11e76ad676d5ca72f69c002a6c48e545e8ee7e7255962819ec10fd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CW-RMTZL.ANS by chainwallet (Rigamortiz); released in rmtz-2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: kleines grp-logo!
-# SAUCE Author: chainwallet
-# SAUCE Group: Rigamortiz
-# SAUCE Date: 19960731
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: kleines grp-logo! by chainwallet | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmtz-2-cw-rmtzl
 
 Write-Host '
 

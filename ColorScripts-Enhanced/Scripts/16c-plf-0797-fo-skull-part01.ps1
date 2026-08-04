@@ -1,18 +1,4 @@
-﻿# Converted from: FO-SKULL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0797/raw/FO-SKULL.ANS
-# Source Revision: archive-sha256:36665a37d029524a07b3c0ade06e9ef3ded1bb8e68470bcb59063cd367dc113e
-# Source SHA-256: 8d4d8db7b90dae418600549d4ac3476927c59e9a8881e867b911b4a0c6226ec9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FO-SKULL.ANS by flexor (phobia); released in plf-0797 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: escape - skull with fire
-# SAUCE Author: flexor
-# SAUCE Group: phobia
-# SAUCE Date: 19970708
-# SAUCE Dimensions: 80x85
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: escape - skull with fire by flexor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0797-fo-skull-part01
 
 Write-Host '
                                   [1;30m             [0m

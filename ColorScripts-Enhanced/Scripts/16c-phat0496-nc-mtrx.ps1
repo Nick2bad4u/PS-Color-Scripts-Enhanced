@@ -1,18 +1,4 @@
-﻿# Converted from: NC-MTRX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0496/raw/NC-MTRX.ANS
-# Source Revision: archive-sha256:5ae4d6e28137ce2dc98f037245eb1ab03ad078074d85d6b6a5b431dff5abf402
-# Source SHA-256: b8fd6282213da0ef63a1d76f5a7ac0c1efcbbfcb30370d895258fd9777990c3c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NC-MTRX.ANS by nightcrawler (phat); released in phat0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: matrix
-# SAUCE Author: nightcrawler
-# SAUCE Group: phat
-# SAUCE Date: 19960327
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: matrix by nightcrawler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0496-nc-mtrx
 
 Write-Host '
 [1;30m███████████████████████████▀▀▀█████████████████████████████████████████████▀▀▀██[0m

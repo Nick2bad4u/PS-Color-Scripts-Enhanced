@@ -1,18 +1,4 @@
-﻿# Converted from: BE-UNIT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ftc-05/raw/BE-UNIT.ANS
-# Source Revision: archive-sha256:5c0404cf283912e8831200a8f9dcc6d8ce0402b99e4f686fa062c4223f57d38b
-# Source SHA-256: 8036e76bf9d297fa932ba4f1e70ec0c503b5c85c3f3060520e450e5f63b5081c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BE-UNIT.ANS by bRANE eTOR (ftc); released in ftc-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: unity net
-# SAUCE Author: bRANE eTOR
-# SAUCE Group: ftc
-# SAUCE Date: 19960918
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: unity net by bRANE eTOR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ftc-05-be-unit
 
 Write-Host '
 

@@ -1,17 +1,4 @@
-﻿# Converted from: US-PHISH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9609/raw/US-PHISH.ANS
-# Source Revision: archive-sha256:96c031e04e5c479ef9ed73f1afa21a3db6bca2a2de7ad88a46888136232884ff
-# Source SHA-256: 197e0f5b02e766ba4255424a311d31064df704ecc89c76279855aacde61b84a4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PHISH.ANS by Elliz + Eerie + Spirit Of Illusion (Samsara & Legend); released in sms-9609 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Phish
-# SAUCE Author: Elliz & SOI
-# SAUCE Group: Samsara & Legend
-# SAUCE Dimensions: 80x25
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Phish by Elliz + Eerie + Spirit Of Illusion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9609-us-phish-part01
 
 Write-Host '
      [1;30m░█[0;1;30;47m▄   ░░ [0m███[1;47m▄[0;1;40m▄▄▄ [0;1;30;40m▀▀[0m▀[1;47m░▀[0;1;40m█[0;1;47m▓▓▓[0;1;40m█████████[0;1;47m▀[0;1;40m▀[0m▀▀▄▄▄[1;47m░[0m▄[1;47m▄[0;1;40m█▌  [0m░[1;47m░▄[0;1;40m███[0;1;47m▓▄▄[0;1;40m███[0;1;47m▄[0;1;30;47m▀▓[0;1;30;40m█ █[0;1;30;47m▄[0;1;30;40m▌▀█[0;1;30;47m▓[0;1;30;40m▄[0m

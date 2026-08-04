@@ -1,18 +1,4 @@
-﻿# Converted from: BEYONDI1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tk-ansi/raw/BEYONDI1.ANS
-# Source Revision: archive-sha256:7a6e15a450305cb977de0a4eb06cf4ca525baa4933c9f7af1cf6080dced8bf2d
-# Source SHA-256: 727ecb11005ddbc929bc58d6eb0db6fafa3676ca2b5f866771afdb386eeb1a45
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BEYONDI1.ANS by Tank (NeXX); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Beyond Imagination BBS Ad
-# SAUCE Author: Tank
-# SAUCE Group: NeXX
-# SAUCE Date: 19910725
-# SAUCE Dimensions: 80x24
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Beyond Imagination BBS Ad by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tk-ansi-beyondi1
 
 Write-Host '
      ▄▄▄██[1;47m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;40m▄▄▄▄   ▄▄▄▄████████▄▄[0m

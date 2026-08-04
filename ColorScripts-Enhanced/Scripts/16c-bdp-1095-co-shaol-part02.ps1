@@ -1,18 +1,4 @@
-﻿# Converted from: CO-SHAOL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bdp-1095/raw/CO-SHAOL.ANS
-# Source Revision: archive-sha256:feca90fbda9a493f724051c182ee8aa6f2f59439eb2bccc041124e296fb1d619
-# Source SHA-256: 05b090efad038eaad588b00a03e85ec3e59b5344862e024e5636c91b0610d359
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CO-SHAOL.ANS by Coeffey (BdP); released in bdp-1095 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: SHaoLiN MaG
-# SAUCE Author: Coeffey
-# SAUCE Group: BdP
-# SAUCE Date: 19950831
-# SAUCE Dimensions: 80x62
-# Lines: 31-62
-# Columns: 1-80
+﻿# Artwork: SHaoLiN MaG by Coeffey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bdp-1095-co-shaol-part02
 
 Write-Host '
      [1;30;40m▐█████████████████████▓[0m   [1;30;40m ███████▓▌█████████▓▄[0;30;41m▄                         ░[0;37;40m [0m

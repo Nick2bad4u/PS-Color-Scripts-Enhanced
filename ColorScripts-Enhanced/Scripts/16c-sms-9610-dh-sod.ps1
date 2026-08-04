@@ -1,18 +1,4 @@
-﻿# Converted from: DH-SOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9610/raw/DH-SOD.ANS
-# Source Revision: archive-sha256:5789c5cb1a5ac21acfd3fa7dc4a5a88db3f4a5b9545409ca8ca34a86bd816077
-# Source SHA-256: 9fe80f3c5b33115158c1db07ff6c125e9cf5fecc4f70d5472bc8356170d79da7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DH-SOD.ANS by Diehard (Samsara); released in sms-9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: SOD
-# SAUCE Author: Diehard
-# SAUCE Group: Samsara
-# SAUCE Date: 19960903
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: SOD by Diehard | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9610-dh-sod
 
 Write-Host '
 [1;31;43m▓▒[0;33m▀▌[0;31m▐█[0;1;31;41m░[0;31m▄[0;37m [0;31m▀[0;37m [0;1;31m▄[0m [1;33m [0m [33m▀▓[0;1;31;43m░[0;33m▄▄▌[0;31m  ▄█[0;1;33;41m▀▓▄[0;1;31;41m░[0;1;33;41m▀[0;31m█[0;1;33;41m▒░[0;31m▄[0;37m [0;31m▀█[0;37m [0;31m▓▓[0;37m [0;31m▐█▓▀█[0;1;31;41m░[0;35;41m [0;31;40m▀▓▓▀▄[0;1;31;41m░[0m [35m■[0;37m [0;31m▓▓▀[0;37m [0;35m█[0;1;35;45m░ [0;35m▌[0;37m [0;35m■[0;31m░▀[0;37m [0;35m▄[0;37m [0;31m▄[0;1;31;41m▒[0m [1;31;43m▒[0;1;31;40m▄[0;1;31;43m▓[0m

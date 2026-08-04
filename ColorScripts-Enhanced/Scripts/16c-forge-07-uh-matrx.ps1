@@ -1,18 +1,4 @@
-﻿# Converted from: UH-MATRX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/forge_07/raw/UH-MATRX.ANS
-# Source Revision: archive-sha256:31988dbb0f8ac354fe2aab07b60dc99ad539514c181e9e9b1d3e0cda8369a182
-# Source SHA-256: bb06fe4a4d58059d8bd5f1d5498395ed4362760067c845537dbe3e3a348b8321
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UH-MATRX.ANS by Untamed Heart (Forge Productions); released in forge_07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Matrix ansi
-# SAUCE Author: Untamed Heart
-# SAUCE Group: Forge Productions
-# SAUCE Date: 19960701
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Matrix ansi by Untamed Heart | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-forge-07-uh-matrx
 
 Write-Host '
                               [1;34m▄▄▄▄[0;1;34;44m▀▀▀▀▀▀▀▀▀▀[0;1;34;40m▄▄▄▄▄[0m

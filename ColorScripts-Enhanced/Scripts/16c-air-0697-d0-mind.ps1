@@ -1,18 +1,4 @@
-﻿# Converted from: D0-MIND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/air_0697/raw/D0-MIND.ANS
-# Source Revision: archive-sha256:5cd3011ba297092d80d79117f4d787f8ea3f225f068d30fcf0de8461325ab083
-# Source SHA-256: a9d65c7f8e4c7a4d8b709676193aa606294ba50f2477c2fb6d47ed46e39b89b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D0-MIND.ANS by dogma (air); released in air_0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: mind_ansi
-# SAUCE Author: dogma
-# SAUCE Group: air
-# SAUCE Date: 19970605
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: mind_ansi by dogma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-air-0697-d0-mind
 
 Write-Host '
 [32m▄▄[0;32;46m▄[0;36;40m██[0;32;40m█[0;36;42m▄[0;36;40m███[0;36;42m▄[0;1;37;40m   [0;32m█[0;36m███[0;36;44m▄[0;36;42m▄[0;36;40m█[0;1;36;46m▄[0;36;44m▄[0;36;42m▄[0;34;46m▄[0;32;40m▄[0;30;42m▄[0;36;40m██████[0;36;44m▄[0;36;40m████[0;32;40m█[0;36;40m███[0;1;36;46m▄[0;1;36;44m▄[0;36m██[0;1;36;46m▄▄[0;36m█▄[0;30;46m▄▄▄[0;30;42m▄[0;1;37;40m [0;30;46m▄▄[0;1;37;40m [0;36m▄▄[0;36;42m▄[0;36;40m███[0;32;40m█[0;1;37;40m    [0;36m████[0;32m█[0;1;37m  [0;32m█[0;36m█[0m

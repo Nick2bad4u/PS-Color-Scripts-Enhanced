@@ -1,16 +1,4 @@
-﻿# Converted from: Luciano-0-Neural Robot.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_block_n_roll/raw/Luciano-0-Neural%20Robot.ans
-# Source Revision: archive-sha256:7fb236dbe697aa7c8078c3dba58eee322aac93be4dc7fe416e0fcb955a29d4fb
-# Source SHA-256: 0e16d6d8976224e41da6b4908733f1cc49088d0d68c0d38b84610ae1501652a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Luciano-0-Neural Robot.ans by Enzo (blocktronics_block_n_roll); released in blocktronics_block_n_roll and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20160402
-# SAUCE Dimensions: 200x103
-# SAUCE Font: IBM VGA
-# Lines: 36-69
-# Columns: 101-200
+﻿# Artwork: Luciano-0-Neural Robot.ans by Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-block-n-roll-luciano-0-neural-robot-panel02-part02
 
 Write-Host '
            [1;35m ░▒[0;1;35;45m [0;1;35;40m▓██████████████▀▄█▀▄ ████▀████ █████████▀█▄▀▄▀▄▀▀▄█████▀██████▀▄▀[0m [35m▄ ▄[0;1;31;45m▄█[0m

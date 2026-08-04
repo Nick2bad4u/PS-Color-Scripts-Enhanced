@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-FUSN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0697/raw/ZII-FUSN.ANS
-# Source Revision: archive-sha256:4afa384dbe1edb8568d2d9e2fda5954485e730ef7ea56b2b5212bd5bbae30f83
-# Source SHA-256: cbeb9166487fe4220f4569ace68a59dd6da7b48cc555f9ce5d350813a7261d2b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-FUSN.ANS by Zeus II (twilight); released in fsn-0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fusion logo
-# SAUCE Author: Zeus II
-# SAUCE Group: twilight
-# SAUCE Date: 19970605
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: fusion logo by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0697-zii-fusn
 
 Write-Host '
 

@@ -1,17 +1,4 @@
-﻿# Converted from: PR-CG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst-17/raw/PR-CG.ANS
-# Source Revision: archive-sha256:35f03b7d00dfd2b7741376c75f7e7f045a734adb19013498a9c6493657505f94
-# Source SHA-256: c861aaaff595f61a6be89d00f93b3f2bc4280b5c51bc0e53abcec27e8963894c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR-CG.ANS by propane (twst-17); released in twst-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Code Garden
-# SAUCE Author: propane
-# SAUCE Date: 19971007
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Code Garden by propane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst-17-pr-cg
 
 Write-Host '
 [1;31;41m░░░[0m         [31m▒[0;37m [0;33m▒▒ ▒ ▌▐▒▓▒pr[0;37m [0;1;30m▓▒▓▌[0m  [32m▄▄▄[0;1;33;42m [0;32m▄▄[0;37m [0;32m      [0;37m  [0;33m  [0;1;30m░░░▒▒▓▓██▄▀▌█[0m  [1;30m▌[0m [1;31;41m░[0;1;31;40m█[0;1;31;41m░▀▀▀▒[0;1;31;40m████[0;1;31;41m▒░[0m

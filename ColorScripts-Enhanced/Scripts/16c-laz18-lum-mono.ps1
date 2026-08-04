@@ -1,19 +1,4 @@
-﻿# Converted from: lum-mono.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz18/raw/lum-mono.ans
-# Source Revision: archive-sha256:32d30452c4c99022fae4fa2ce9a2923ef46629d3ff7dd35a972944a991699c1f
-# Source SHA-256: f53c6b33c38d83d59f344ce3ad8f04731a4304b4da407a174db7a7ed5495924e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: lum-mono.ans by lum (LAZARUS); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: thinglings.net
-# SAUCE Author: lum
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20240209
-# SAUCE Dimensions: 80x35
-# SAUCE Font: IBM VGA
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: thinglings.net by lum | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz18-lum-mono
 
 Write-Host '
        [1;35;45m▄▀[0m          [1;36m██[0;36m▄[0;37m        [0;1;32m▄[0;32m▄[0;37m           [0;1;33;43m▄▄[0;33m▄[0;37m            [0;1;30;43m▀[0;1;30;40m░░[0m        [31m▄[0;1;31m▄▄▄▄▄[0;31m▄[0m

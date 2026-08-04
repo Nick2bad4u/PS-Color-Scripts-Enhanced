@@ -1,18 +1,4 @@
-﻿# Converted from: TAE-NPH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-07/raw/TAE-NPH.ANS
-# Source Revision: archive-sha256:05b9134433837782e39338bf79fd6ada6d2fc8bfba82437f2c41c6bc37a6d75a
-# Source SHA-256: f8a6de44f1c0ffd9cfd8fbb036fffbebadfcaa6d763c040b7c936fad674e4cb0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TAE-NPH.ANS by Taevore (Nitrophusion); released in nph-07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Nitrophusion
-# SAUCE Author: Taevore
-# SAUCE Group: Nitrophusion
-# SAUCE Date: 19981129
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Nitrophusion by Taevore | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-07-tae-nph
 
 Write-Host '
              [1;32m  [0m  [32m▄░░[0m             [32m▐▌░░░[0m      [32m▄▓[0m

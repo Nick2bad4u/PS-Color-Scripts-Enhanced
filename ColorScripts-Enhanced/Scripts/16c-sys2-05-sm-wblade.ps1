@@ -1,13 +1,4 @@
-﻿# Converted from: sm-wblade.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sys2_05/raw/sm-wblade.ans
-# Source Revision: archive-sha256:6dcbe70b49bee617620145cb83c812c2901642bcaa6000c04117e3ae07892cb6
-# Source SHA-256: ae2ef8b9aaff24a758da8786b24b7fa1ef84b81473b83354c6faaba192827e49
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sm-wblade.ans by Smoke (sys2_05); released in sys2_05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: sm-wblade.ans by Smoke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sys2-05-sm-wblade
 
 Write-Host '
                                                               [36m▄[0;1;30m▄[0m

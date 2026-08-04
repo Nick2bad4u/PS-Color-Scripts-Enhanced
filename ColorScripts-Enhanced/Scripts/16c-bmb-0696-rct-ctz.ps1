@@ -1,18 +1,4 @@
-﻿# Converted from: RCT-CTZ!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0696/raw/RCT-CTZ!.ANS
-# Source Revision: archive-sha256:fea269136894850bbc3733a7e378f47769430ca8b14c0592a0c25c525a6a95a4
-# Source SHA-256: 578cba935349827f42d20954cbb774dbb5e19ade32f722d8839a6433dc9a2275
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RCT-CTZ!.ANS by React (Bamboosh); released in bmb-0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Contraz logo [ans]
-# SAUCE Author: React
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19960531
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Contraz logo [ans] by React | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0696-rct-ctz
 
 Write-Host '
 [1;32m███████████████████████▀ [0;1;30m▄[0;1;30;47m▀[0m█████████████[1;30m█ [0;1;36;46m▌[0;36m█████▀ [0;1;30m▄▄ [0;1;36m▀[0;1;36;46m▄[0;36m█████████████████████▌ [0;37m█[0;37;47m [0m

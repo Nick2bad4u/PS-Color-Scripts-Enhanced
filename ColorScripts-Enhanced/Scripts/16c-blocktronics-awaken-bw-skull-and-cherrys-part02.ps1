@@ -1,13 +1,4 @@
-﻿# Converted from: bw-skull_and_cherrys.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_awaken/raw/bw-skull_and_cherrys.ans
-# Source Revision: archive-sha256:9d338d3910f6730204698339e869f7ab219513c3aa8e2f1b0bb278c633114d95
-# Source SHA-256: 772bc87048aabf300d3c00db3fe91016b22c5e963a9109d660c0f41954e7467a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bw-skull_and_cherrys.ans by Binary Walker (blocktronics_awaken); released in blocktronics_awaken and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 49-97
-# Columns: 1-80
+﻿# Artwork: bw-skull_and_cherrys.ans by Binary Walker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-awaken-bw-skull-and-cherrys-part02
 
 Write-Host '
 [1;31;41m█[0;31m▀ ▄[0;37m [0;31m▀[0;1;31;41m▄[0;31m▄▄[0;37m [0;31m▀[0;1;31;41m▄[0;31m▄[0;37m ▐▌▐ [0;31;47m▓[0;1;37;40m▓▄[0m        [1m▌ ▄█▀[0m          [1m▀█▄ ▐[0m        [31m▄▓▌[0;37m █░▌ [0;31m▀▄▄[0;37m  [0;31m▀[0;37m [0;31m▐[0;1;31;41m▓▓▓▌[0;31m▌[0m

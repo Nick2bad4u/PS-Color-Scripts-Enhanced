@@ -1,18 +1,4 @@
-﻿# Converted from: CS-LOST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tdd-0296/raw/CS-LOST.ANS
-# Source Revision: archive-sha256:56140cf576d73e2da24941d94c481d5e2c240ed984cb1a73b7ff63806fa622c7
-# Source SHA-256: 64070a0c44bd8171a2270f8db1f9af316ea202f74e53fd5fd2949ef22c73cff6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CS-LOST.ANS by casper (the dirty dozen); released in tdd-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the lost colony
-# SAUCE Author: casper
-# SAUCE Group: the dirty dozen
-# SAUCE Date: 19960121
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: the lost colony by casper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tdd-0296-cs-lost
 
 Write-Host '
 [36m▒[0;1;30;46mcstdd[0;36m▓████████████████████████████▀▀[0m                                      [36m▄▀▀█▓[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: GTI-AR3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0998b/raw/GTI-AR3.ANS
-# Source Revision: archive-sha256:19c53dfc47387efbbd82613dca5be9c93436f5cc68bae78cca35e6d1a766cbaa
-# Source SHA-256: 8ba55aa7d51a0b717ed13a2e4c30511f45942d8e36a99ad0201d15fe8389bdcb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GTI-AR3.ANS by Gti (sac0998b); released in sac0998b and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: GTI-AR3.ANS by Gti | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0998b-gti-ar3
 
 Write-Host '
                    [35m ░▒▓[0;1;35;45m░░▒▓███▀████▓▒░░░[0;35m▄▄█[0;1;35;45m░[0;35m▀[0;37m [0;1;34;44m███▄███▀███▓▒░░[0;34m█[0;1;34m ▐▓  [0;1;37m   [0;36m [0;1;36m   [0;36m [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: US-SG.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9604a/raw/US-SG.ICE
-# Source Revision: archive-sha256:a8f8a3430f1223583f5ba829d23fcb523e4712909ac7211db98ebd0249624ef2
-# Source SHA-256: a3b26eb82bed9bdbd3a54588a6af9ca5023a8acf371cad3489a51affe2c606ef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SG.ICE by Fluor + Rza (ice9604a); released in ice9604a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: US-SG.ICE by Fluor + Rza | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9604a-us-sg
 
 Write-Host '
 [1m[0;1;33m[0m[1;33m[0m[1;33m[0;1;37m[0m

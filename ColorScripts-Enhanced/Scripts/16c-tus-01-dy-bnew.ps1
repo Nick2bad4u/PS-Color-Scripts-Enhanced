@@ -1,13 +1,4 @@
-﻿# Converted from: DY-BNEW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tus-01/raw/DY-BNEW.ANS
-# Source Revision: archive-sha256:980574136e564d65bad34bed66955fa948f629a55ad38cd4b9370834a305c832
-# Source SHA-256: bf2d1da7f7879f1182a3b3f1548abaccabbc77984b73500c438e44804c26e6c5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DY-BNEW.ANS by Discyple (tus-01); released in tus-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: DY-BNEW.ANS by Discyple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tus-01-dy-bnew
 
 Write-Host '
 [34m$$$$$$$$$$$[0;1;34m$$$$$$$$$$$$$$$$$$$$$$$$$b[0;34m.[0;33m`┘j$$$$$$$$$$$$$$$$$$$$$$$$S%┐[0;1;33m.[0;1;34m [0;1;33m `┘j$[0;1;37m$$$[0;1;33m$[0m

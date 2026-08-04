@@ -1,19 +1,4 @@
-﻿# Converted from: US-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-40/raw/US-FIRE.ANS
-# Source Revision: archive-sha256:aff8105c0a955ac5c43ea367a02b086cd2849f6741fc41b8a5ff440b77e104a7
-# Source SHA-256: ff69872741d741597d1b7874602a5e10c3100bfc2f4cd033ece8f7167195e16f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FIRE.ANS by Savage + Cleaner (Fire); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fire 30th Anniversary
-# SAUCE Author: Savage + Cleaner
-# SAUCE Group: Fire
-# SAUCE Date: 20240702
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Fire 30th Anniversary by Savage + Cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-40-us-fire
 
 Write-Host '
        [1;33;40m▄[0;1;31;40m▄[0;33m▄[0m                [1;30m▄[0m

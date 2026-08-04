@@ -1,18 +1,4 @@
-﻿# Converted from: HO-BLADE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy07/raw/HO-BLADE.ANS
-# Source Revision: archive-sha256:cf53c4ea5c286717abe3d962fb98452e352d7d7a30a31881220e7068a7f0bb79
-# Source SHA-256: e897c80569736b45145c9b6e8f1f2cde3b009befb95119183363d0a96ceb6f16
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HO-BLADE.ANS by HOOPTiE (Apathy); released in apathy07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: BladeStorm
-# SAUCE Author: HOOPTiE
-# SAUCE Group: Apathy
-# SAUCE Date: 19960228
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: BladeStorm by HOOPTiE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy07-ho-blade
 
 Write-Host '
     [1;30m█[0m█ [1;33m▀█▄ [0m▄[1;33m  ▀▄[0m ▀▄[1;30m▄[0m    [1;30m▄▄[0m▄▄▀ [1;33m▄█▄[0m █[1;30m█[0m [1;30;47m▀▀▀▀▀[0;1;30;40m▄[0m      [1;30m ▄▄[0;1;30;47m▀▀[0m▀▀ [1;33m▄▄▄▀▀▀▀▀▀▄▄[0m ▀[1;30;47m▀[0;1;30;40m▄[0m

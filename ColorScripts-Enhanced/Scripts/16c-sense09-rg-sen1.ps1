@@ -1,18 +1,4 @@
-﻿# Converted from: RG-SEN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense09/raw/RG-SEN1.ANS
-# Source Revision: archive-sha256:b3e3029d8f7c1c608f2835055baa2116210e782109ea7dc0a1af3ca3d050e5b9
-# Source SHA-256: c2a2391a1e6796c67322c74a4959a1aa7dc7d94d378913b25aea4570279b883a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RG-SEN1.ANS by rage (sense); released in sense09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: thats right, i killed kenny!
-# SAUCE Author: rage
-# SAUCE Group: sense
-# SAUCE Date: 19980419
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: thats right, i killed kenny! by rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense09-rg-sen1
 
 Write-Host '
 

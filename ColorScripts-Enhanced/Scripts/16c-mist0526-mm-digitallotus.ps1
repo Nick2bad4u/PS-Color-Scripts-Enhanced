@@ -1,19 +1,4 @@
-﻿# Converted from: MM-DIGITALLOTUS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0526/raw/MM-DIGITALLOTUS.ANS
-# Source Revision: archive-sha256:96e9c14a0862fcfb7b203f3d94f85e28654461fdbf12521de185a12d5fb418bb
-# Source SHA-256: bb5834dc72663e25bc3475f4367c76ec16adec8be854d98cea2d5fb585e7fadd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-DIGITALLOTUS.ANS by grymmjack (MiSTiGRiS); released in mist0526 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: C:\Users\jaiya\Desktop\Image Sequen
-# SAUCE Author: grymmjack
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 20251022
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: C:\Users\jaiya\Desktop\Image Sequen by grymmjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0526-mm-digitallotus
 
 Write-Host '
  [30m███████████████████████████████████████████████████████████████████████████████[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: CH!-AURO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-0697/raw/CH!-AURO.ANS
-# Source Revision: archive-sha256:948d1463d97fbdd560eeb5fa12fbb3480434c2b2b3eb2660833d19ddf5647ef9
-# Source SHA-256: 5d7efa4090598bfcd9366b7b1da0d6c18b49791a664f6e5504a58e08c444e950
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CH!-AURO.ANS by ChaoTiC! (.:[nITROPHUSION]:.); released in nph-0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: AuRoRA lOgIn AnSi!
-# SAUCE Author: ChaoTiC!
-# SAUCE Group: .:[nITROPHUSION]:.
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: AuRoRA lOgIn AnSi! by ChaoTiC! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-0697-ch-auro
 
 Write-Host '
      [1;30m [0m              [1;30ma u r o r a▀  ▄█▄[0m

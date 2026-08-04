@@ -1,18 +1,4 @@
-﻿# Converted from: XBE-HOI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-1196/raw/XBE-HOI.ANS
-# Source Revision: archive-sha256:ea255d5404a293fd28c5348aeea6d132b83dc51aad0630d7773e1cb9fa7be562
-# Source SHA-256: a08ced545a2b26f58640cfda6e622cb095eaaa5aed930c743d697b79f92fc159
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XBE-HOI.ANS by Xerobe (Bamboosh); released in bmb-1196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: House of Information
-# SAUCE Author: Xerobe
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19960928
-# SAUCE Dimensions: 80x25
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: House of Information by Xerobe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-1196-xbe-hoi
 
 Write-Host '
 

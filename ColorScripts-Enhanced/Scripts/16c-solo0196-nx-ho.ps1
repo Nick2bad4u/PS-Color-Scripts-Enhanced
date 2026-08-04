@@ -1,13 +1,4 @@
-﻿# Converted from: NX-HO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/solo0196/raw/NX-HO.ANS
-# Source Revision: archive-sha256:736380eab175126755d1df68c8a8284163772709367ce385b00755f5ccbd9c98
-# Source SHA-256: df285dd7a6befbfbee6a7d91df0e3b1155eb0b410b1e4b4ac16f0b62c5c90371
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NX-HO.ANS by Noxious (solo0196); released in solo0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: NX-HO.ANS by Noxious | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-solo0196-nx-ho
 
 Write-Host '
  [1;31;40m  [0m [1;31;40m▄▄▄██████[0;1;31;43m▓▒░ ░▒▓[0;1;31;40m███████▄▄[0m            ▄[33m■[0;1;31;43m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SIGN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0496/raw/SIGN.ANS
-# Source Revision: archive-sha256:be1a395f385261920c9bce8fb9a4a50e5287b1be7689ad97116617524efc6b52
-# Source SHA-256: d2d2a400ecb25847a932352b43275024cd5e87754a57c8f04d9bd2a5bac25ba0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SIGN.ANS by mAGE (MiSTiGRiS); released in mist0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: eVIL lOOKING SiGN
-# SAUCE Author: mAGE
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19940910
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: eVIL lOOKING SiGN by mAGE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0496-sign
 
 Write-Host '
 [1;30m[0;32m[0;1;30m[0m

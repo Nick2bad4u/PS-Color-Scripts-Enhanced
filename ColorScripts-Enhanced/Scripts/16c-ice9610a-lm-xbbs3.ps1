@@ -1,13 +1,4 @@
-﻿# Converted from: LM-XBBS3.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9610a/raw/LM-XBBS3.ICE
-# Source Revision: archive-sha256:3aef1988415e24a939c7dd0fecdb5aa015782c3896d1737bc5f94ab6a14b05cd
-# Source SHA-256: 0a12917f973f57d35232f483f1af52e1f6891bab4d85b11309529c7c893bca04
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LM-XBBS3.ICE by Lemonade (ice9610a); released in ice9610a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: LM-XBBS3.ICE by Lemonade | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9610a-lm-xbbs3
 
 Write-Host '
 [31m░░░░ [0;37m  [0;1;34m▄▄[0;1;34;47m▓[0;1;34;44m▓▒▒░░[0;34m▄▄▄▄[0m   [31m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

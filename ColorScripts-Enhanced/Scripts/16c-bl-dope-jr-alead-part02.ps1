@@ -1,18 +1,4 @@
-﻿# Converted from: JR_ALEAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl-dope/raw/JR_ALEAD.ANS
-# Source Revision: archive-sha256:94d0a6d1a54f912bf59b65f9ab8ad2e76bf857ee4ed7295093943e200494477a
-# Source SHA-256: 0c234e6a5f1bdd9719b2aa34b7aba03dd7cfd56f2619a665ce3414d453cf30e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_ALEAD.ANS by jerusalem (boil); released in bl-dope and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fremdenf?hrer.
-# SAUCE Author: jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19970408
-# SAUCE Dimensions: 80x54
-# Lines: 36-54
-# Columns: 1-80
+﻿# Artwork: fremdenf?hrer. by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-dope-jr-alead-part02
 
 Write-Host '
                    [1;31m  ▀[0;1;31;41m▓[0;1;31;47m▒▒▓▓[0;1;31;40m███[0;1;31;41m▓[0;1;31;40m▄ [0;1;31;41m▓[0;1;31;47m▓[0;1;31;40m█[0;1;31;41m▓[0;1;31;40m▄[0m       [1;31;41m▓[0;1;31;47m▓▓[0;1;31;41m▓[0;1;31;40m▄▐[0;1;31;41m▓[0;1;31;47m▓▓[0;1;31;41m▓[0;1;31;40m▀▀[0;1;31;47m▓[0;1;31;40m█▄▄ [0;1;31;41m▓[0;1;31;47m▒▒[0;1;31;40m█[0;1;31;41m▓[0;1;31;40m▀▀[0;1;31;41m▓[0;1;31;40m█[0;1;31;47m▓[0;1;31;41m▓[0;1;31;40m▄[0m

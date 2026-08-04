@@ -1,18 +1,4 @@
-﻿# Converted from: aa-neurodancer.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel27/raw/aa-neurodancer.ans
-# Source Revision: raw-sha256:e830bd5da3fa049e19ec66422d459eaabfe316c5b0691d4645d6a879ccc07d3d
-# Source SHA-256: e830bd5da3fa049e19ec66422d459eaabfe316c5b0691d4645d6a879ccc07d3d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: aa-neurodancer.ans by Antsy Atheist (fuel27); released in fuel27 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Neurodancer
-# SAUCE Author: Antsy Atheist
-# SAUCE Date: 20180813
-# SAUCE Dimensions: 80x23
-# SAUCE Font: IBM VGA
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Neurodancer by Antsy Atheist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel27-aa-neurodancer
 
 Write-Host '
 [1;30;40m█[0;1;32;40m▐[0m [1;30m█▌[0;1;32m▌[0;1;30m██[0m    [1;30m▄[0m▄[1m▄█▄[0;1;30m▄[0m▄ [1;30m▄ [0m■[33m ▄▄[0;1;30;43m▀▀▒▒▓▓▒░[0;33m██▄[0;37m▀[0;1;30m▀▀▀▀▀▀▀█▀█ █[0m [1;30m█[0m [1;30m█[0m [1;30m█[0m [1;30m█[0m [1;30m█[0m [1;30m▌ [0;1;31m▀[0;31m█[0;1;31m▄[0m [36m▀▀█[0;1;36;46m▄▄▄▄▄[0;36m▀▀[0;1;30m  ▄[0m

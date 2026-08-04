@@ -1,18 +1,4 @@
-﻿# Converted from: SH-GSMTX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gvt-0396/raw/SH-GSMTX.ANS
-# Source Revision: archive-sha256:ad8ff614294189e80e826a6d4a8cf8ded98538ab493231140abfba480817c1ae
-# Source SHA-256: 9e9bdd9ef53df406d81dd99b9db1c1ab7057e9defbbca34b73d7a7f13b07ba55
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SH-GSMTX.ANS by shatters (gravity); released in gvt-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: glass matrix
-# SAUCE Author: shatters
-# SAUCE Group: gravity
-# SAUCE Date: 19960211
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: glass matrix by shatters | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gvt-0396-sh-gsmtx
 
 Write-Host '
       [1m [0;35m░░[0;1;37m   [0;1;31m░[0;1;31;43m▒▒▓▓▓▓▒▒▒▒▓▓[0;1;31;40m█████████████████████[0;1;31;43m▓▓▒░ [0;30;47m█[0;35;40m    ░[0;1;35;45m▒░[0;35m ░▓[0;1;35;45m░▒[0;35m░[0m   [1;30m  ████████▓░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-HMAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0797/raw/OUT-HMAN.ANS
-# Source Revision: archive-sha256:af70b2c28dc748985578fd15ae91b8dc2d32044417062561a9ac5fc0b0871316
-# Source SHA-256: e11a4b1f672a907ffc2582aed189f1163c78e358c924a3f6e4c75027862136b6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-HMAN.ANS by Sandy Chidester (out-0797); released in out-0797 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: OUT-HMAN.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0797-out-hman
 
 Write-Host '
 [1;30m▄▄▄▄▄▄▄█  ▄ ▄ ▀▀  [0m▀▀  ▀▀▀▀█[1m██▄▄███▄[0m       ██[1;47m▓▒░▒[0;1;30;47m▒▒[0;1;37;47m▓▒[0m█[1;30;47m░▒[0m███[1;30m▒▓██▓▀▓▒░ ▀██▓▒ ░░▀▒▓█[0m

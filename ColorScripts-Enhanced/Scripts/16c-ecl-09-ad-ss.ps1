@@ -1,13 +1,4 @@
-﻿# Converted from: AD-SS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-09/raw/AD-SS.ANS
-# Source Revision: archive-sha256:6c371ec8bbb75e88f59630021fbbd23f2fc630c10ee1cde240cc20faafea1ca9
-# Source SHA-256: a8c6a23e9db0008dc052b20538a4ce3f1e757296b68b5d695a4fa2964493fd30
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AD-SS.ANS by Armageddon Donut (ecl-09); released in ecl-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: AD-SS.ANS by Armageddon Donut | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-09-ad-ss
 
 Write-Host '
 [1;34m████████▀▀▀▀▀▀▀▀▀▀█████████████████████████████████████████████████████████████[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: FL-RF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rgr-1195/raw/FL-RF.ANS
-# Source Revision: archive-sha256:dbdab5c77136f07d997209c6b062f104eceb3ed0ce5bdb83742781ddf735d7ae
-# Source SHA-256: 56a059ac55ad2dbbd3257bd9eefb8f8ea87585a8a8e22d3d5e2b0d627d73962b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-RF.ANS by Flame (RiGOR); released in rgr-1195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Raging Fluids Logo
-# SAUCE Author: Flame
-# SAUCE Group: RiGOR
-# SAUCE Dimensions: 80x25
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: Raging Fluids Logo by Flame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rgr-1195-fl-rf
 
 Write-Host '
 [1;34m████████████████████████████████████████████████████████████████████████████████[0m

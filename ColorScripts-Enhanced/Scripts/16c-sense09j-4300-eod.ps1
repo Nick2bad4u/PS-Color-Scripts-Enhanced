@@ -1,18 +1,4 @@
-﻿# Converted from: 4300-EOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense09j/raw/4300-EOD.ANS
-# Source Revision: archive-sha256:9f583533fb256ec67ece3c5d38ebea61ce21b385a7859a4e786edef290584615
-# Source SHA-256: 89a83ae48d17c74de6bad9782d40fa1c7cf286567c5b682ff7054da6f2699cf2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 4300-EOD.ANS by 43 + 00 - 31337 (The Jasper Disaster); released in sense09j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Epitome Of Darkness
-# SAUCE Author: 43 + 00 - 31337
-# SAUCE Group: The Jasper Disaster
-# SAUCE Date: 20020812
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Epitome Of Darkness by 43 + 00 - 31337 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense09j-4300-eod
 
 Write-Host '
 [1;30;42m█▓▓▒░░[0;32m█[0;1;32;42m░▒▓[0;1;32;40m███[0;1;32;42m▄[0;1;32;40m▄▄▄▄▄▄[0;32m▀▀[0;1;32m▀▀██▀[0;32m▀[0;1;32m▄▄▄█[0;1;32;42m█▓░[0;32m▀▀▄▄▄▄█[0;1;32;42m░░[0;32m▓▓▒ [0;37m░░▓▓▓▄▐[0;1;37;47m░░░ ░░[0m ▓[1;37;47m░░[0m███▄▄▄▄▄▄[1;37;47m░░[0;1;37;40m█[0m [1;37;47m░░[0m

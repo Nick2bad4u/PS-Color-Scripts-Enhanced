@@ -1,17 +1,4 @@
-﻿# Converted from: VDR-REV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-19/raw/VDR-REV.ANS
-# Source Revision: archive-sha256:a1a349998c43bff25c02d1af200718ce6af4aab839e4b035817a369236a8260f
-# Source SHA-256: 4ffbc6636010f2f5c30a44bdad86372d7e3617cf871ac9efe16766f79271e90b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VDR-REV.ANS by Vader (opx-19); released in opx-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: revival
-# SAUCE Author: Vader
-# SAUCE Date: 19971207
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: revival by Vader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-19-vdr-rev
 
 Write-Host '
 

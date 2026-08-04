@@ -1,17 +1,4 @@
-﻿# Converted from: PND-GOLG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d0697a3/raw/PND-GOLG.ANS
-# Source Revision: archive-sha256:4b1a5edf079ccd5aab68f5664461dac73c3f815b42e2d60b05d52946fe416fe5
-# Source SHA-256: 6adfbfac4c24a7000ebcbda1fb351ee8c64fff3117a489bce07025e3fa07afab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PND-GOLG.ANS by pandur (xxxxxx); released in d0697a3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: golgotha
-# SAUCE Author: pandur
-# SAUCE Group: xxxxxx
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: golgotha by pandur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d0697a3-pnd-golg
 
 Write-Host '
                                            [35m▄▄▓▓▄▄[0;37m      [0m

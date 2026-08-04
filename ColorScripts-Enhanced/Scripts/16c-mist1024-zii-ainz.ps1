@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-AINZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1024/raw/ZII-AINZ.ANS
-# Source Revision: archive-sha256:6949840195965f5eb9696cfb423e381432d7ccfa36b66290e336e4608b7c12f8
-# Source SHA-256: 39a8e9dca6754ec87d152c09f068911e6bd1e1878b41df3ebeb80f6db271bcc1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-AINZ.ANS by Zeus Boo (Mistigris); released in mist1024 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Ainz Ooal Gown
-# SAUCE Author: Zeus Boo
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241026
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Ainz Ooal Gown by Zeus Boo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1024-zii-ainz
 
 Write-Host '
 [1;30;42m  ▀▀▀ ▄▄▄[0;1;30;40m█[0;1;30;42m▄▄[0;1;30;40m██▀[0m [1;30m▄█[0m         ▄[1;47m▒[0;1;30;47m▄██[0;1;30;40m██████████▓██▄[0m [1;33m▀[0;1;37m█▄[0m      [1;30m░░░[0;1;33m ▀▄[0m [1;30m▀█[0;1;30;42m▀[0;1;30;40m██[0;1;30;42m▒[0;1;30;40m██[0;1;30;42m▓[0;1;30;40m█[0;1;30;44m█[0;1;30;40m█▀▀[0m

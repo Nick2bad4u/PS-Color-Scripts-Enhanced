@@ -1,18 +1,4 @@
-﻿# Converted from: SD-ECL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-07/raw/SD-ECL2.ANS
-# Source Revision: archive-sha256:3007ab392a2ea4e107d02b3029b445696a097ac55d389caab2dbfe0944556beb
-# Source SHA-256: abf93988f15961c4a1f1dacded5b06527a0e3f73d391867cd1244156cfe10e45
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-ECL2.ANS by sir death (elk lipz); released in ecl-07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: elk lipz
-# SAUCE Author: sir death
-# SAUCE Group: elk lipz
-# SAUCE Date: 19960909
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: elk lipz by sir death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-07-sd-ecl2
 
 Write-Host '
                                           [32m▄[0;1;32m▄[0;1;37m▄[0m

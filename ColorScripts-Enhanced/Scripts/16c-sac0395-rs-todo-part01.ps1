@@ -1,18 +1,4 @@
-﻿# Converted from: RS-TODO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0395/raw/RS-TODO.ANS
-# Source Revision: archive-sha256:7b30118405d4d21f05022ba0c6f9cc20d209f8b3e8684cf8db7bf6713b2b2425
-# Source SHA-256: 1768f640856ca7ccb36abcd67347cf769967c9542d1b888235da68177379b4f8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-TODO.ANS by raiser; released in sac0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: TOUCHDOWN BBS
-# SAUCE Author: RAiSER
-# SAUCE Group: SAC
-# SAUCE Date: 19950217
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: TOUCHDOWN BBS by raiser | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0395-rs-todo-part01
 
 Write-Host '
 [1;31;40m▄[0;1;30;40m [0;1;31;40m▄▄▄▄▄▄[0;31m▄[0;1;31m▄[0;31m▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30m▄[0;31m▄[0;1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;31m▄[0;1;30m▄[0;31m▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;31m▄[0;31m▄[0;1;31m▄▄▄▄▄▄[0;1;37m [0;1;31m▄[0m

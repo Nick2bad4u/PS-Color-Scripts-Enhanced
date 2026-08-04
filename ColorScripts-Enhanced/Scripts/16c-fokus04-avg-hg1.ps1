@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-HG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus04/raw/AVG-HG1.ANS
-# Source Revision: archive-sha256:4a57ed6764f9ffca39ae941548ed0ed0ba98ce6594de23a7788152f10b7f60a4
-# Source SHA-256: 89ed3a4867ac7d63d935d67e6625b6f0994a22b6b29551084a9783381a2cf894
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-HG1.ANS by Avenging Angel (Fokus fonting); released in fokus04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Hierogliphycs
-# SAUCE Author: Avenging Angel
-# SAUCE Group: Fokus fonting
-# SAUCE Date: 19990524
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Hierogliphycs by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus04-avg-hg1
 
 Write-Host '
 [1m[0m                [32m  [0;1;30m▄[0;32m▄[0m                                                  [32m [0m

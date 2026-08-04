@@ -1,19 +1,4 @@
-﻿# Converted from: PICROTOXIN-CALAVERA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1020/raw/PICROTOXIN-CALAVERA.ANS
-# Source Revision: archive-sha256:002d1e6a310e7d44ac0c83b76a32cb8484c5350a51887c3a545a324c921a8091
-# Source SHA-256: 76177cf7bc6cbdda7f063de83792436c89f84644e27c37114145532394ac7b84
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PICROTOXIN-CALAVERA.ANS by Picrotoxin (Mistigris); released in mist1020 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Calavera
-# SAUCE Author: Picrotoxin
-# SAUCE Group: Mistigris
-# SAUCE Date: 20201019
-# SAUCE Dimensions: 80x60
-# SAUCE Font: IBM VGA
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Calavera by Picrotoxin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1020-picrotoxin-calavera-part01
 
 Write-Host '
 [1;30m███████████████████████████████████▀▀▀▀▀▀▀▀▀▀███████████████████████████████████[0m

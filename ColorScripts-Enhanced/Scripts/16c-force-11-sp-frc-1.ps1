@@ -1,18 +1,4 @@
-﻿# Converted from: SP-FRC#1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-11/raw/SP-FRC%231.ANS
-# Source Revision: archive-sha256:fb569ca0f426a612fae941c52b66a1bf2185c5bf71d8e011fd47447565da1174
-# Source SHA-256: e119e92f9c29c5b2bf24aa34502f82650a60589110b3fa5db4331ccd79b2a90c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SP-FRC#1.ANS by Spear (fORCE); released in force-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fORCE Promo
-# SAUCE Author: Spear
-# SAUCE Group: fORCE
-# SAUCE Date: 19960901
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: fORCE Promo by Spear | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-11-sp-frc-1
 
 Write-Host '
         [1m▀▄[0m         [1m█[0m         [1;33m▄▀[0m

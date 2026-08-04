@@ -1,18 +1,4 @@
-﻿# Converted from: CPH-DB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-011/raw/CPH-DB.ANS
-# Source Revision: archive-sha256:ad392e5cfa0b76b10ae16f4d639473779105b78453dac46868057f0aeaadd814
-# Source SHA-256: c56a16d4a8e85abf596b645852a32edb2dc3ed365a859d327ffe31d2c041b805
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-DB.ANS by cyberpunch (rIb); released in rib-011 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: daft board logo
-# SAUCE Author: cyberpunch
-# SAUCE Group: rIb
-# SAUCE Date: 19980730
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: daft board logo by cyberpunch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-011-cph-db
 
 Write-Host '
 

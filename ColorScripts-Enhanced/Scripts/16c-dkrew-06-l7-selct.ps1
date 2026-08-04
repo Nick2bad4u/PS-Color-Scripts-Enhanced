@@ -1,18 +1,4 @@
-﻿# Converted from: L7-SELCT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dkrew-06/raw/L7-SELCT.ANS
-# Source Revision: archive-sha256:02960d7b88668b8887fe5cdf52da355c2d3dd37bf140c876abc30817d0d21bdb
-# Source SHA-256: 257588959adf8b1d0dc13d32b038438e8305171715dd9b08a77fa0fce791e8d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: L7-SELCT.ANS by Lancelot (dead krew); released in dkrew-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Logon pic select
-# SAUCE Author: Lancelot
-# SAUCE Group: dead krew
-# SAUCE Date: 19970227
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Logon pic select by Lancelot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dkrew-06-l7-selct
 
 Write-Host '
 [34m   █▀█▌ [0;33m▄[0;1;31;43m ▒[0;1;31;40m████████████████████████████[0;30;47m█[0;1;31;40m██[0;30;47m█[0;34;40m               [0;37;40m [0;1;30;40m▄▄▄▄▄[0;34m   [0;1;30m▄▄▄▄▄▄▄▄▄[0;34m    [0m

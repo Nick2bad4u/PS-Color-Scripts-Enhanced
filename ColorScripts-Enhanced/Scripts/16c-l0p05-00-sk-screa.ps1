@@ -1,18 +1,4 @@
-﻿# Converted from: SK!SCREA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p05_00/raw/SK!SCREA.ANS
-# Source Revision: archive-sha256:d107a99a4f6346768b79c50cf89b1ea06eaa6378fa6264f2582e9bfb2f879d7f
-# Source SHA-256: ebd49c5149871c6e691a0356aa6eb7070bc6b9e69ece474df07a9f59f44f37c4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!SCREA.ANS by sIMONkING (tHElo0p^mYSTICbYTES); released in l0p05_00 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: sCREAM pelen KOBIET ;)
-# SAUCE Author: sIMONkING
-# SAUCE Group: tHElo0p^mYSTICbYTES
-# SAUCE Date: 20000222
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: sCREAM pelen KOBIET ;) by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p05-00-sk-screa
 
 Write-Host '
     [31m██[0;37m            [0;31m██[0;37m    [0;31m██[0;37m  [0;1;31;41m░[0;31m█[0;37m     [0;33m▄[0;1;31m▐[0;33m▌[0;1;31;43m▌[0;33m▄[0m     [31m██[0m    [31m██[0m     [1;31;41m░[0;31m█[0;37m  [0;31m██[0;37m  [0;1;31;41m░[0;31m█[0;37m  [0;31m███[0;1;31;41m░░▒▒▓▓[0;31m [0m

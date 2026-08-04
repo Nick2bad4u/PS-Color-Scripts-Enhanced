@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-KMS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0597/raw/OUT-KMS.ANS
-# Source Revision: archive-sha256:3de32686811f55d4f9292a8cd6f2301bd8ca3b20d8fe15c3e36372269dc00d36
-# Source SHA-256: 48056eed0c1462c10b9165af0f44f6e958bc64321cbd411876e3e13592a42ca0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-KMS.ANS by Sandy Chidester (out-0597); released in out-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: OUT-KMS.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0597-out-kms
 
 Write-Host '
                ▄█[1;31;47m▄[0;1;31m▀[0m          [1;33m▄▄█[0;31m▄▄▄▄[0;1;33m█▄  [0;31m███▄▄▄▀▀▄██▄▄   [0;1;31m█▀[0;31m▀▀[0;1;31m▀▀▀[0;31m▀[0;1;33m▀[0;1;31m▀[0;31m▀[0;1;33m▀▀[0;33m▀▀[0;31m▀▀▀▀▀▀▀▀█[0m

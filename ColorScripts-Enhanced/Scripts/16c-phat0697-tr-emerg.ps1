@@ -1,18 +1,4 @@
-﻿# Converted from: TR!EMERG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0697/raw/TR!EMERG.ANS
-# Source Revision: archive-sha256:08e18940bca34b3567a75953ae0590b0f85d3fbc4d879deb49d9733793875e53
-# Source SHA-256: 902904ca4c2c2206912fdc368e307c92125ef63dcd6303a9b9eacec7a726c0c3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR!EMERG.ANS by trinity (Phat Studios '97); released in phat0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: emergency page
-# SAUCE Author: trinity
-# SAUCE Group: Phat Studios '97
-# SAUCE Date: 19970527
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: emergency page by trinity | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0697-tr-emerg
 
 Write-Host '
 [1;30m▀████▄▄▄▄▄▄▓▓[0m                  [1;34m  [0;32m▄▄▄[0m     [1;32m▄▄[0m [1;32m▀[0m

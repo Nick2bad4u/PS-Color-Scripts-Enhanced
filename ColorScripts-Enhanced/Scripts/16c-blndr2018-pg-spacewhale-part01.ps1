@@ -1,19 +1,4 @@
-﻿# Converted from: pg_spacewhale.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2018/raw/pg_spacewhale.ans
-# Source Revision: archive-sha256:a6c0d383c960ae8fb5b1ced11230814cb83ddbad45f91f0411f5059188480ab5
-# Source SHA-256: a3fc4dc9af75929b4de5f60ade83d06b8c209594e90dbbf487bf052f014ff6e6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: pg_spacewhale.ans by Pinguino (Fuel); released in blndr2018 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Spacewhale Science
-# SAUCE Author: Pinguino
-# SAUCE Group: Fuel
-# SAUCE Date: 20180415
-# SAUCE Dimensions: 80x71
-# SAUCE Font: IBM VGA
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: Spacewhale Science by Pinguino | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2018-pg-spacewhale-part01
 
 Write-Host '
                         [34;40m█[0;37;40m  [0;34;40m▀█[0;1;36;40m▀[0m

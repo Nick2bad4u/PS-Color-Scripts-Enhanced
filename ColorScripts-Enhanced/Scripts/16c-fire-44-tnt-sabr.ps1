@@ -1,19 +1,4 @@
-﻿# Converted from: TNT-SABR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-44/raw/TNT-SABR.ANS
-# Source Revision: archive-sha256:6c51508cedeaa9140fcf08750a75edb14e0cec0eebe7b4290346e95cd3548876
-# Source SHA-256: 16dc20fc4aab33c8ec9a1e2ad3ab45f29cfc959bb1a23f1a6fb32368b6850940
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNT-SABR.ANS by tainted (fire); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: sabret00f
-# SAUCE Author: tainted
-# SAUCE Group: fire
-# SAUCE Date: 20251111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: sabret00f by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-44-tnt-sabr
 
 Write-Host '
 [37;40m■[0;33;40m    [0;1;33;40m▄[0;33m▓▐█  ▓[0;37;43m▀[0;33;40m▀[0;1;33;40m▄▀▓█[0;1;37;40m▓▓░[0;33m [0;1;33m▄▓░[0;33m    ▄[0;1;37;43m▄█▀▄▀[0;33m▀ ▄░░ ░ [0;1;33m▓▒░[0;33m [0;1;37m▐[0;1;33;43m▓▓[0;33m [0;1;33;43m░[0;33m▓▀  ░░ ▀[0;1;33;43m▀▓[0;33m [0;1;30m█[0m [1;30m▓[0m

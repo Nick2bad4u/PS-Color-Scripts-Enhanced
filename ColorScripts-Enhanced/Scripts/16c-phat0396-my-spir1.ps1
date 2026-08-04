@@ -1,18 +1,4 @@
-﻿# Converted from: MY-SPIR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0396/raw/MY-SPIR1.ANS
-# Source Revision: archive-sha256:4840956a784b32a4a9e617c5baaeab5274263fdb9ff2d98a840492545e3abb06
-# Source SHA-256: ab4064b6a5b49ad29c8f53cd3963f8478cefde804c3dbcccecd955c330da6d66
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MY-SPIR1.ANS by Marky (READ THE INI FILE); released in phat0396 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Spiritual Reality Ansi
-# SAUCE Author: Marky
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19960301
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Spiritual Reality Ansi by Marky | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0396-my-spir1
 
 Write-Host '
                                        [34m.[0m                   [34m.[0m

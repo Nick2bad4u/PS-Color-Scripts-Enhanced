@@ -1,20 +1,4 @@
-﻿# Converted from: mfs-david-michelle.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz11/raw/mfs-david-michelle.ans
-# Source Revision: archive-sha256:68621cb5db58e1d89f5deb5798f3990fa932a6b4eb91cc1511f3f4c157d26f38
-# Source SHA-256: 5ed76c16ca1c4de48dde0dd1adfd92994f3a04039c330dd5e1a1ed953553df2a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mfs-david-michelle.ans by Mel Farr Suppastar (Lazarus); released in laz11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: David & Michelle
-# SAUCE Author: Mel Farr Suppastar
-# SAUCE Group: Lazarus
-# SAUCE Date: 20190417
-# SAUCE Dimensions: 80x105
-# SAUCE Font: IBM EGA
-# SAUCE Comments: Portrait of David & Michelle commemorating their wedding
-# Lines: 36-70
-# Columns: 1-80
+﻿# Artwork: David & Michelle by Mel Farr Suppastar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz11-mfs-david-michelle-part02
 
 Write-Host '
 [1;37m█████▓ [0;1;30m█[0m [1;33;42m█[0;1;37;40m▄[0m [1;32;42m▒[0;36;42m░[0;32;43m▓[0;37;40m [0;32;40m▀▄[0;37;40m [0;36;42m▓▓[0;34;40m [0;1;31;43m▒░[0;33m▀▄▀  ░[0;1;33;43m░▒[0;33m░  [0;1;32;42m░░░[0;32m███[0;1;33;42m ▀░[0;32m░██[0;1;34;42m▀▄[0;32m█ [0;32;43m▀[0;37;40m  [0;32;43m▒[0;37;40m  [0;32;43m▀▒▒▒[0;32;40m██[0;1;33;42m░[0;1;33;40m▄▀[0;1;32;41m▓[0;32m▀ ▓[0;1;30m▌ █ [0;1;37m▓█████[0m

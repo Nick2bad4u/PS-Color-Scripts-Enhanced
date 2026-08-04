@@ -1,18 +1,4 @@
-﻿# Converted from: BS-TSP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel13/raw/BS-TSP.ANS
-# Source Revision: archive-sha256:570310635bd377c51dda6add80730abba1fa8786bf6aaf423ae20c54dbfdb41a
-# Source SHA-256: ccbb179448b35774ff6f47bc688f8ecc9672f041330a6d3341ba8ca149e0df09
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-TSP.ANS by burps (Fuel Productions); released in fuel13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Shroom Palace
-# SAUCE Author: burps
-# SAUCE Group: Fuel Productions
-# SAUCE Date: 19970531
-# SAUCE Dimensions: 80x25
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: The Shroom Palace by burps | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel13-bs-tsp
 
 Write-Host '
 [1;33m▄[0;1;33;43m▓[0;1;33;40m▄█[0;1;33;43m▓[0;1;33;40m▄  [0;33m▄▄ ▄     ░▄▄  ▄▄   ▄▄      ▄▄░▄  [0;1;33m▄▄   [0;33m▄▄ ░▄ ▄▄  [0;1;33m▄▄ ▄ [0;33m▄   ▄▄▄    ▄  [0;1;33m▄▄▄ [0m

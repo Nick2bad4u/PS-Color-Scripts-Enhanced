@@ -1,16 +1,4 @@
-﻿# Converted from: PP-SENSE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ls-0396/raw/PP-SENSE.ANS
-# Source Revision: archive-sha256:027827aba2a8182d830f3ad2fb41dbb22eb3c3bf864eed4898dd3e30e7ae3a86
-# Source SHA-256: 025027270c2e5344f40a21cb57b3990a56ee0593123c55f51c80b77dc8ae7dc4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PP-SENSE.ANS by phorce phed (leper society); released in ls-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: sensory ? - use this if you can
-# SAUCE Author: phorce phed
-# SAUCE Group: leper society
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: sensory ? - use this if you can by phorce phed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ls-0396-pp-sense
 
 Write-Host '
 

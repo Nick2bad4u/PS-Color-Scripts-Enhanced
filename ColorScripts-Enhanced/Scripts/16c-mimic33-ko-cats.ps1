@@ -1,13 +1,4 @@
-﻿# Converted from: ko-cats.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic33/raw/ko-cats.ans
-# Source Revision: archive-sha256:5fdf09d291219692f770c94bedc0fcc7697a611c572ffe04f02e50b16c11b41e
-# Source SHA-256: 31ad0a69f287be9293290dc68885a7003fd72e63147d129b33638a14bc20955f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ko-cats.ans by Konami (mimic33); released in mimic33 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ko-cats.ans by Konami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic33-ko-cats
 
 Write-Host '
  [1;30m  [0m   [32m,[0;36m [0m   [32ml[0m    [32m`[0;36m☺[0;37m [0;1;36m,¬⌂[0m\ ., [33m.☻b..d,[0m    [1;30m`[0;36m☺[0;1;30m☺[0;36m ☺[0;32m7`[0m   [1;31m.,¬⌂⌂¬,[0m       [1;30m\`[0m  [36m,7[0;32m`[0;37m [0;1;30m [0m [1;30m\[0;1;33m [0;1;30mKONAMI[0m

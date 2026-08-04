@@ -1,13 +1,4 @@
-﻿# Converted from: RFFWKS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ensiart/raw/RFFWKS.ANS
-# Source Revision: archive-sha256:1740ea49d8e6dbe7ec5d2c508ba38bad12fe73c43c677e55524f61db5ff5063b
-# Source SHA-256: d0c105836ec7571b25df4fd5a086b56e13161b22329d92d810fc4280ea26fbb9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RFFWKS.ANS by Alex Albrinck (ensiart); released in ensiart and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: RFFWKS.ANS by Alex Albrinck | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ensiart-rffwks
 
 Write-Host '
         [1;32m\  │  /   [0;1;33m·[0m               [1;33m·[0m        [1;33m\  │  / ·    ·[0m     [1;33m·    █████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: 09-SKULL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9611/raw/09-SKULL.ANS
-# Source Revision: archive-sha256:2b73e149488dc761d99422832825743596588d59e58f9bfecfb5d0e9dbffd274
-# Source SHA-256: 72cef596234909b629b9dbcc2b38e7ae760f5984da280e5fd83942ea943096c4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-SKULL.ANS by Fluor (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: SkullFish
-# SAUCE Author: Fluor
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961101
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: SkullFish by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9611-09-skull
 
 Write-Host '
 

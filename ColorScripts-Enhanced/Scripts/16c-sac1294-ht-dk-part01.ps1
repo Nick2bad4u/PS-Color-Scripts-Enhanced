@@ -1,18 +1,4 @@
-﻿# Converted from: HT-DK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac1294/raw/HT-DK.ANS
-# Source Revision: archive-sha256:4cf7765ee6660556cb900dacf0ec67f070b8e4df414172b5e01733a49d10031f
-# Source SHA-256: 1064771e8b1bad7f68474ec873b31a32a85f0cff174e985ee3689c8e75baff06
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HT-DK.ANS by hetero; released in sac1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
-# SAUCE Title: DRUIDS KEEP
-# SAUCE Author: HETERO
-# SAUCE Group: LKCC
-# SAUCE Date: 19941029
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: DRUIDS KEEP by hetero | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac1294-ht-dk-part01
 
 Write-Host '
                                                [1m·[0m

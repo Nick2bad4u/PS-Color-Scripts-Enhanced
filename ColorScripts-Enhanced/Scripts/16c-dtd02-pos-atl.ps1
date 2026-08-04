@@ -1,17 +1,4 @@
-﻿# Converted from: POS-ATL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dtd02/raw/POS-ATL.ANS
-# Source Revision: archive-sha256:329358061ffeda17eb81c048ab3bce474734b2a800903201ed4eb6076d0d3992
-# Source SHA-256: 73cb7f1ee5b68e21b599361783fd8a967ed725a279e8bddc0a17c2b3532e6cf5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: POS-ATL.ANS by positive pain (dtd'blz); released in dtd02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: go#4 compo-entry
-# SAUCE Author: positive pain
-# SAUCE Group: dtd'blz
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: go#4 compo-entry by positive pain | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dtd02-pos-atl
 
 Write-Host '
              [1;34m` +[0;34m.[0m                             [34m:[0m

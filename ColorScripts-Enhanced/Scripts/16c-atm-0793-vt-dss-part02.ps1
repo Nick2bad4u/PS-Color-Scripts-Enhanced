@@ -1,13 +1,4 @@
-﻿# Converted from: VT-DSS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/atm-0793/raw/VT-DSS.ANS
-# Source Revision: archive-sha256:2791ea7960360c43fee92e39a37f109c33350847675dee72209056037e0dfd3e
-# Source SHA-256: 58a461352cbb4ef632023c01744e59968ebedff52b60d95ffbb3d0ca84332631
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VT-DSS.ANS by Void Traveller (atm-0793); released in atm-0793 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 27-57
-# Columns: 1-80
+﻿# Artwork: VT-DSS.ANS by Void Traveller | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-atm-0793-vt-dss-part02
 
 Write-Host '
 [37m ▒░▒  [0;31m█ [0;37m░░ [0;31m█ [0;37m░░   [0;31m█▓▌  ██▄  █▓▓▌ █▓█▄  [0;37m░░ [0;31m▓▓▒▒▓   ▓▓█ ▓█▒▓▌ ▓█▌▐█▓█▒▓█▄▀▓ [0;37m░[0;31m██ [0;37m░[0m

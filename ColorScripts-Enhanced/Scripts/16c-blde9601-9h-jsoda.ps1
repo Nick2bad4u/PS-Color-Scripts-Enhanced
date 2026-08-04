@@ -1,18 +1,4 @@
-﻿# Converted from: 9H-JSODA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9601/raw/9H-JSODA.ANS
-# Source Revision: archive-sha256:7aa9123f877021b71fa63f38de012fc68287c00ecd76f3a2105e748660eee14f
-# Source SHA-256: 88e234a695a44e3f4d45f83dac0f7f03e0f122b7b2cfaf7b6665efa1c4cfb20a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 9H-JSODA.ANS by pushead (blade); released in blde9601 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Nootropic's Jive Soda
-# SAUCE Author: pushead
-# SAUCE Group: blade
-# SAUCE Date: 19951214
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Nootropic's Jive Soda by pushead | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9601-9h-jsoda
 
 Write-Host '
                  [1;33m     ▄    ▀     ▀    ▄       [0m

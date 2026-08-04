@@ -1,18 +1,4 @@
-﻿# Converted from: TRIO-EOE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toon0795/raw/TRIO-EOE.ANS
-# Source Revision: archive-sha256:bbccc4a82016f54ecf3d0de5a108241c8f74bda668aff69f0bedbbe0a900b9a1
-# Source SHA-256: 5fa5d1a18a658d1e0131ec6efda6b68e4a6f6772dd8789a4ec11bc0bb3ab5659
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TRIO-EOE.ANS by Calamity + Xeryrus + Wat0r (Toon); released in toon0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: EOE
-# SAUCE Author: Calamity/Xeryrus/Wat
-# SAUCE Group: Toon
-# SAUCE Date: 19950628
-# SAUCE Dimensions: 80x81
-# Lines: 41-81
-# Columns: 1-80
+﻿# Artwork: EOE by Calamity + Xeryrus + Wat0r | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toon0795-trio-eoe-part02
 
 Write-Host '
 [1;37m██[0;1;37;47m▀[0m▀▄▄[36m▀▀██████████████████▄▄▄▄[0;37m▐[0;1;37;47m   ▀▀[0;1;37;40m██████████████[0;1;37;47m█[0;1;37;40m███[0;1;37;47m▌ [0;36m [0;37m▐▀[0;35m▄████[0;1;37m [0;1;37;47m▀[0;1;37;40m███████▀▄[0;36m▀████[0m

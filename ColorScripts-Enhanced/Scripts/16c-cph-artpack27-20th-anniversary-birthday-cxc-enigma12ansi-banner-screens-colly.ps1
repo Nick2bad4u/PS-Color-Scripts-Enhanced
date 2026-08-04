@@ -1,13 +1,4 @@
-﻿# Converted from: cxc_enigma12Ansi_banner_screens_colly.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cph.artpack27.20th.anniversary.birthday/raw/cxc_enigma12Ansi_banner_screens_colly.ans
-# Source Revision: archive-sha256:51166890bfbd92451d1ff0e6aa8e137836492c0564ec155f70608f56ac864427
-# Source SHA-256: 1fa6fc49825d416266be6e8fd5a53a44616e9325749477be30cad4484f5ef27b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cxc_enigma12Ansi_banner_screens_colly.ans by Coaxcable (cph.artpack27.20th.anniversary.birthday); released in cph.artpack27.20th.anniversary.birthday and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: cxc_enigma12Ansi_banner_screens_colly.ans by Coaxcable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cph-artpack27-20th-anniversary-birthday-cxc-enigma12ansi-banner-screens-colly
 
 Write-Host '
 

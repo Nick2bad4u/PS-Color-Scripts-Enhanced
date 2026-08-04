@@ -1,20 +1,4 @@
-﻿# Converted from: NI-GJET.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0224/raw/NI-GJET.ANS
-# Source Revision: archive-sha256:1a4cb7c29a353c2afa0810057f800e5309b23e585d4ef3b711249cd25433ea84
-# Source SHA-256: 2afbd07b1113abb7543856328bfb7b135d5ab6439b21fee90c3d5f332c639d93
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-GJET.ANS by nitron (mistigris); released in mist0224 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: groovejet
-# SAUCE Author: nitron
-# SAUCE Group: mistigris
-# SAUCE Date: 20230504
-# SAUCE Dimensions: 80x42
-# SAUCE Font: IBM VGA
-# SAUCE Comments: spiller - groovejet - feat. Sophie Ellis Bextor
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: groovejet by nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0224-ni-gjet
 
 Write-Host '
 [1m███████▓▌[0m              ▄[1m▒▒[0;1;47m▓▓▓▓[0;1;40m█[0;1;47m▓[0;1;40m█████▄[0;1;47m▓▓▓[0;1;40m▄▄▄■■          ▀▓████████████████████▓[0m

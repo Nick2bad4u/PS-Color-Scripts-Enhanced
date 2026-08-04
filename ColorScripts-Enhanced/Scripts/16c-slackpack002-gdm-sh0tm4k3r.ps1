@@ -1,19 +1,4 @@
-﻿# Converted from: gDm-Sh0tM4k3r.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/slackpack002/raw/gDm-Sh0tM4k3r.ans
-# Source Revision: archive-sha256:c9825ce8b4e923e4d1f86a6f63bce502ceaec66422c3ae1a65cba92cfc82cb17
-# Source SHA-256: 96541bd721bb7f7ae295774bcc4fa005c39fa046d0215784f9eb4cb70e9efa68
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: gDm-Sh0tM4k3r.ans by GngrDr3dM4n (Slackers BBS); released in slackpack002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Sh0tM4k3r
-# SAUCE Author: GngrDr3dM4n
-# SAUCE Group: Slackers BBS
-# SAUCE Date: 20251207
-# SAUCE Dimensions: 80x38
-# SAUCE Font: IBM VGA
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Sh0tM4k3r by GngrDr3dM4n | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-slackpack002-gdm-sh0tm4k3r
 
 Write-Host '
 [1;30m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m  ▄▄▄▄▄▄▄▄  [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m

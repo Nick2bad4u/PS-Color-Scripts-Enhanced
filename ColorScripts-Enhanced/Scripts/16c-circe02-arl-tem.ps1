@@ -1,13 +1,4 @@
-﻿# Converted from: ARL-TEM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe02/raw/ARL-TEM.ANS
-# Source Revision: archive-sha256:ce5cd736ecea3fcfef2c1df40ab4bdd995f6b633f97f1788244355f98c5d174e
-# Source SHA-256: 1912b023aa9610b10c0c16f5d618e151fd7a98cf9167a8d55bf3bc90b1e6ab3c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARL-TEM.ANS by Arlequin (circe02); released in circe02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: ARL-TEM.ANS by Arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe02-arl-tem
 
 Write-Host '
       [1;33m▄▄                           [0m              [31m▄▄▄[0m

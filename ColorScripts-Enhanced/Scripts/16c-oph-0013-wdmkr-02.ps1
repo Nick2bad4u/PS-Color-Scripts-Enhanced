@@ -1,18 +1,4 @@
-﻿# Converted from: WDMKR-02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oph-0013/raw/WDMKR-02.ANS
-# Source Revision: archive-sha256:5e625c36cc911c4dcde4a3790624d86c03458fb68ba127d178ce0ea486babf74
-# Source SHA-256: 51b184272b57b920488cbb1748c5a2d887a7a1ba05d7b63056d6b8196bbe65d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WDMKR-02.ANS by widowmaker (ophidiac); released in oph-0013 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: oPHIDIAC pACK oNE.. (#13) _
-# SAUCE Author: widowmaker
-# SAUCE Group: ophidiac
-# SAUCE Date: 19960816
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: oPHIDIAC pACK oNE.. (#13) _ by widowmaker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oph-0013-wdmkr-02
 
 Write-Host '
                    # 7     o n      g  e n  e   r a  t   o r

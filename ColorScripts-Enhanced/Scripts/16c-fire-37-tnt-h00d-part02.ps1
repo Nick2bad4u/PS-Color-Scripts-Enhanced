@@ -1,19 +1,4 @@
-﻿# Converted from: TNT-H00D.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-37/raw/TNT-H00D.ANS
-# Source Revision: archive-sha256:42913eb56742cc8575f96af5b8a027e63b5172fdb84271b8ac973c7820ea43ef
-# Source SHA-256: 17c7344bf4eee383c95c946f4e5016321777d0b8015149d77c3b1e26efc41fcb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNT-H00D.ANS by tainted (fire); released in fire-37 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: radmando
-# SAUCE Author: tainted
-# SAUCE Group: fire
-# SAUCE Date: 20230707
-# SAUCE Dimensions: 80x100
-# SAUCE Font: IBM VGA
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: radmando by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-37-tnt-h00d-part02
 
 Write-Host '
                  [1;38;2;255;255;255;48;2;0;0;0m▀[0;38;2;171;171;171;48;2;0;0;0m■[0;1;38;2;255;255;255;48;2;0;0;0m▒[0;1;38;2;255;255;255;48;2;171;171;171m▓[0;38;2;171;171;171;48;2;0;0;0m▌░ ▓[0;1;38;2;87;87;87;48;2;171;171;171m■▄▄▄▄[0;38;2;171;171;171;48;2;0;0;0m▒▀ [0;1;38;2;255;255;255;48;2;0;0;0m▀▄▀[0;38;2;171;171;171;48;2;0;0;0m ▄[0;1;38;2;255;255;255;48;2;0;0;0m▄▄▄▄▄■[0;38;2;171;171;171;48;2;0;0;0m [0;38;2;171;87;0;48;2;0;0;0m▓[0;38;2;171;171;171;48;2;0;0;0m [0;38;2;171;87;0;48;2;0;0;0m▄[0;38;2;171;171;171;48;2;171;87;0m▒[0;38;2;171;171;171;48;2;0;0;0m [0;1;38;2;255;255;255;48;2;171;171;171m░[0;38;2;171;171;171;48;2;0;0;0m▌[0;1;38;2;255;255;255;48;2;0;0;0m■[0m         [1;38;2;255;255;255;48;2;0;0;0m▄██[0;38;2;171;171;171;48;2;0;0;0m▄[0;1;38;2;255;255;255;48;2;0;0;0m▀▄[0m

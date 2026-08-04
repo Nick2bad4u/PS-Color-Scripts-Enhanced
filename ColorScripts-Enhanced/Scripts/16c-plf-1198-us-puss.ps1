@@ -1,18 +1,4 @@
-﻿# Converted from: US-PUSS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1198/raw/US-PUSS.ANS
-# Source Revision: archive-sha256:477c26b469dae0fde0e5c1871acc3be9de3bb3a205f1c76fb0e3a883b7bf8f93
-# Source SHA-256: 35989f624585a972cdf9cef6de38bc6202d358ec2e4b9858634661b66039dc7b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PUSS.ANS by Big Yellow Man + Bizzarro (poffelipoff); released in plf-1198 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: *poffeliPUSS!*
-# SAUCE Author: Multiple Artists
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19981114
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: *poffeliPUSS!* by Big Yellow Man + Bizzarro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1198-us-puss
 
 Write-Host '
         ██[30;47m█▀[0;37;40m█[0;30;47m██[0;1;30;40m▄[0;30;47m▀▄[0;37;40m█[0;1;37;47m▄▄▄▄▄▄[0;1;37;40m█▓▓▒[0m███████[1;30m▄ [0;30;47m▄[0;37;40m█[0;1;37;47m▄▄[0;30;47m▀▀▀[0;1;33;40m ▀▀▓▓██[0;1;33;43m▄[0;1;33;40m█[0;1;33;43m▄[0;1;33;40m▄ ▀[0;1;33;43m▀[0;1;33;40m███[0;1;33;43m▓▓░▓[0;33m█[0;1;31m▒[0;33m░[0;30;43m▓[0;33;40m███[0;1;33;43m░░[0m

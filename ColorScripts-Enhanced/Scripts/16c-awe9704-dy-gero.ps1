@@ -1,18 +1,4 @@
-﻿# Converted from: DY-GERO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9704/raw/DY-GERO.ANS
-# Source Revision: archive-sha256:da151757a637299fc8da8cc755ae75b6a0e1a281dd915d29497f1d00d429e5c1
-# Source SHA-256: 5995ce483946a6751241fbeffb72bfcf63cdd8318f075a0abab8cf4f66bf0296
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DY-GERO.ANS by Discyple (AWE Lettering); released in awe9704 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Geronimo
-# SAUCE Author: Discyple
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970322
-# SAUCE Dimensions: 80x25
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Geronimo by Discyple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9704-dy-gero
 
 Write-Host '
                                                           [1;34m▀[0m

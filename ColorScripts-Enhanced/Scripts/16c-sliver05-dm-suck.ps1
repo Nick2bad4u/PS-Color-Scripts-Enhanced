@@ -1,18 +1,4 @@
-﻿# Converted from: DM_SUCK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sliver05/raw/DM_SUCK.ANS
-# Source Revision: archive-sha256:6e2cc64d3369490e79ab97d6818428e76b42d77e8d26ea9913e9d21a1c34ddf3
-# Source SHA-256: 8d173184d443affb33b3dd0cc55fc60e89890fa769fbd1bbc4054b4a719ba639
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DM_SUCK.ANS by d3m0 (sliver); released in sliver05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: umbilica
-# SAUCE Author: d3m0
-# SAUCE Group: sliver
-# SAUCE Date: 19970801
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: umbilica by d3m0 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sliver05-dm-suck
 
 Write-Host '
                    [35;47m░░                ▓▓[0m            [35;47m██    [0m

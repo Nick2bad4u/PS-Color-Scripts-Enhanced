@@ -1,18 +1,4 @@
-﻿# Converted from: HEN-INT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz07jun/raw/HEN-INT.ANS
-# Source Revision: archive-sha256:6a4341d9d0364566769256e4356d86035ad4ee53c0aa654acf41be18e58ca462
-# Source SHA-256: 2cdf5c9ca8bcf2d0786abe7d789e4e4e0c0ab2ba9e3e3458d8bd3576efe4c425
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HEN-INT.ANS by hennifer (LAZARUS); released in laz07jun and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: laz(y)view 1.00 interface
-# SAUCE Author: hennifer
-# SAUCE Group: LAZARUS
-# SAUCE Date: 19970601
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: laz(y)view 1.00 interface by hennifer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz07jun-hen-int
 
 Write-Host '
 [1;30m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m

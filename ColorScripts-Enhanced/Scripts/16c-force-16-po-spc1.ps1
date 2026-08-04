@@ -1,18 +1,4 @@
-﻿# Converted from: PO-SPC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-16/raw/PO-SPC1.ANS
-# Source Revision: archive-sha256:9ad935bd4cbb2615c5c684e690bc8979daa45859d0282b370bf26a8750d02425
-# Source SHA-256: f66925245abf70a9852308d8d85a2ac61660f664986241c4afe47ecf7c021947
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PO-SPC1.ANS by pOrtia (fORCE); released in force-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Space Cowboys creed
-# SAUCE Author: pOrtia
-# SAUCE Group: fORCE
-# SAUCE Date: 19970328
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Space Cowboys creed by pOrtia | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-16-po-spc1
 
 Write-Host '
                           [31m [0m

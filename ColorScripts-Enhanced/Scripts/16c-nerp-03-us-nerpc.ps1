@@ -1,18 +1,4 @@
-﻿# Converted from: US-NERPC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-03/raw/US-NERPC.ANS
-# Source Revision: archive-sha256:9ea26ff16b2d0162532c602fba75b69e539d71620a3b4e34b796de886326619c
-# Source SHA-256: bb5e4d729afaf59cca440801e3cf764c86f1ffb396a86f90e136a5a9718e4462
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-NERPC.ANS by Bizzarro + Subsonic (nerp); released in nerp-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: nerp promo
-# SAUCE Author: multiple artists
-# SAUCE Group: nerp
-# SAUCE Date: 19971224
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: nerp promo by Bizzarro + Subsonic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-03-us-nerpc
 
 Write-Host '
 [32m░[0;30;42m▓[0;32;40m░[0;30;42m▓[0;35;40m         [0;37;40m  [0;35;40m                                     ■[0m

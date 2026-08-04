@@ -1,18 +1,4 @@
-﻿# Converted from: KO-EXT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst0896/raw/KO-EXT.ANS
-# Source Revision: archive-sha256:e4d7808a3aee56a0f088b81af2c166d34ffb9daae39e27d0b2d33816c6c524c2
-# Source SHA-256: 8d381a0a5aecbaf7fa66aafcf1d3a9886e507100a18129d3a79d51b9d7931a53
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KO-EXT.ANS by koden (twisted); released in twst0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: extreme
-# SAUCE Author: koden
-# SAUCE Group: twisted
-# SAUCE Date: 19960612
-# SAUCE Dimensions: 80x25
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: extreme by koden | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst0896-ko-ext
 
 Write-Host '
      [34m$$$$P[0;37m [0;1;30m,$$ [0m                    [1;30m`"$$a,[0m [34m$$$b d$$$[0;37m [0;1;30mdbs.[0;34m`²$$$$b,.$$$b,.$$$$$$$b.[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: MM-9907.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9907a/raw/MM-9907.ICE
-# Source Revision: archive-sha256:457aa2055e4c11f01f33421abc4035c5f757f286e45ac15ecb03a614d54549da
-# Source SHA-256: 8cdaf0eddc121ec68a38a1dad0a15072662420f09e755fb9b5cbf03f0a5f3a16
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-9907.ICE by Magnetic M (ice9907a); released in ice9907a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: MM-9907.ICE by Magnetic M | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9907a-mm-9907
 
 Write-Host '
             ░

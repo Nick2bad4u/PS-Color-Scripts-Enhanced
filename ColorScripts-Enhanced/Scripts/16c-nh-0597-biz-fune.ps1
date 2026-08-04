@@ -1,18 +1,4 @@
-﻿# Converted from: BIZ-FUNE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nh-0597/raw/BIZ-FUNE.ANS
-# Source Revision: archive-sha256:87cec95111e4a1ac9fd985bbb75e4ede9867484f10b0355a7e43919af699000f
-# Source SHA-256: 9552f80ae19776fed38bfca3e12fe58761cfc594c3bba1afdd44639f64796e34
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BIZ-FUNE.ANS by bizzarro (nH!); released in nh-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: funeral fog matrix
-# SAUCE Author: bizzarro
-# SAUCE Group: nH!
-# SAUCE Date: 19970511
-# SAUCE Dimensions: 80x45
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: funeral fog matrix by bizzarro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nh-0597-biz-fune
 
 Write-Host '
       [1;30m▄▄▄▄▄▄▄▄▄[0m    [1m░░[0m      [1;30m▄[0;1;30;47m▒▒[0;1;30;40m▄▄▄▄▄▄▄▄▄▄▄ [0m

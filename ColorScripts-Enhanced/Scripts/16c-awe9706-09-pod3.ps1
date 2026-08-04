@@ -1,18 +1,4 @@
-﻿# Converted from: 09-POD3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9706/raw/09-POD3.ANS
-# Source Revision: archive-sha256:867680f5fb3c86dcb017d8ed4cd79085881689d65da90056f84aba519ae4bdfe
-# Source SHA-256: d24ffa8b39cf1482051e776ab9fe212685b7c62c325ea45b0efb4bcff8d85afc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-POD3.ANS by Fluor (AWE Lettering); released in awe9706 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Power of Darkside
-# SAUCE Author: Fluor
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970603
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Power of Darkside by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9706-09-pod3
 
 Write-Host '
 

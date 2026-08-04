@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-MEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus06/raw/AVG-MEL.ANS
-# Source Revision: archive-sha256:dc26abf5be8f48f280ad19d58f0c64fc91b5db6a0fab8539aa3970e4d64fad45
-# Source SHA-256: 164e9f29a24e5ea3d328c28cf556efad3c474b5e05192512242a0017cdf4b1d3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-MEL.ANS by Avenging Angel (Fokus fonting); released in fokus06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Mellow
-# SAUCE Author: Avenging Angel
-# SAUCE Group: Fokus fonting
-# SAUCE Date: 19990707
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Mellow by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus06-avg-mel
 
 Write-Host '
 [1m[0m

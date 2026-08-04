@@ -1,18 +1,4 @@
-﻿# Converted from: SU-#ONE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-1096/raw/SU-%23ONE.ANS
-# Source Revision: archive-sha256:73b0e2918c9e3daef978e4ff1f97345c8d9080edab06ce99d8d8ee6a5fb0b3de
-# Source SHA-256: 681beb76226ad79e3f48d613ad2a44e59835ff3445167e352bd61f8d8af07f50
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SU-#ONE.ANS by SuperUnknown (Opium); released in opx-1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Number 1ne
-# SAUCE Author: SuperUnknown
-# SAUCE Group: Opium
-# SAUCE Date: 19960825
-# SAUCE Dimensions: 80x44
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Number 1ne by SuperUnknown | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-1096-su-one
 
 Write-Host '
 [1;30m█████[0;1;30;45m████[0;1;30;40m█████▓[0;1;30;45m█[0;1;30;40m█████[0;1;30;45m██[0;1;30;40m█████[0;1;30;45m██[0;1;30;40m█████▓[0;1;30;45m█[0;1;30;40m███████████████[0;1;30;45m███[0;1;30;40m▓[0;1;30;45m█████[0;1;30;40m▀▀▀[0;1;30;45m█[0;1;30;40m▓[0;1;30;45m████[0;1;30;40m█████▓████[0m

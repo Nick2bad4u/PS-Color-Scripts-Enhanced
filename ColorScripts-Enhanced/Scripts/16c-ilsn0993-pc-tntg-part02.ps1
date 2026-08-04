@@ -1,13 +1,4 @@
-﻿# Converted from: PC-TNTG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ilsn0993/raw/PC-TNTG.ANS
-# Source Revision: archive-sha256:e7e7c6f73942c5463cc3a2518ebe2afadd1de8982d1fa83f99bde36882861526
-# Source SHA-256: cdb5ddae8a5fd7b4d9b44ba55fe8f8d21d50d2ceabf23e8ebbcde5b7df6cb698
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-TNTG.ANS by Primordial Chowder + Brain Dead (ilsn0993); released in ilsn0993 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 50-98
-# Columns: 1-80
+﻿# Artwork: PC-TNTG.ANS by Primordial Chowder + Brain Dead | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ilsn0993-pc-tntg-part02
 
 Write-Host '
 [31;41m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;1;31;41m░░░░░▒▒[0;1;31;43m▒▒░░[0;1;33;41m░▒▒[0;1;33;43m▒▓[0;1;33;40m██[0;1;37;41m█[0;30;41m▓[0;31;40m▒█[0;1;37;47m█[0;1;33;43m█[0;1;33;40m█[0;1;33;43m▓▒[0;1;33;41m▒▒░[0;1;31;43m░░▒▒[0;1;31;41m▒▒░░░░░[0;31;41m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m

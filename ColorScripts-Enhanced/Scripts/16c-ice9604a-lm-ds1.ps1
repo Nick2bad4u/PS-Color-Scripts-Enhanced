@@ -1,13 +1,4 @@
-﻿# Converted from: LM-DS1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9604a/raw/LM-DS1.ICE
-# Source Revision: archive-sha256:a8f8a3430f1223583f5ba829d23fcb523e4712909ac7211db98ebd0249624ef2
-# Source SHA-256: a02d4f69d966933946657851348f1078004c463ef2105744bc6702903ca0d131
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LM-DS1.ICE by Lemonade (ice9604a); released in ice9604a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: LM-DS1.ICE by Lemonade | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9604a-lm-ds1
 
 Write-Host '
 

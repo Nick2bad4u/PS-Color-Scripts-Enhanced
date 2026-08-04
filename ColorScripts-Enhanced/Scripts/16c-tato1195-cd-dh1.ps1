@@ -1,17 +1,4 @@
-﻿# Converted from: CD!-DH1!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tato1195/raw/CD!-DH1!.ANS
-# Source Revision: archive-sha256:f333614a4cb8ea014d89f3f61d43ca62d476aeb093fb4271fc5458c44493defa
-# Source SHA-256: b24aeb917b0dc30ebee6e1e9bdfc8786f9d611c40885ab2b4a62d6d69d23653a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CD!-DH1!.ANS by cREEPiNG dEATH (tato1195); released in tato1195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dIgitize hOrror #1
-# SAUCE Author: cREEPiNG dEATH
-# SAUCE Date: 19951027
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: dIgitize hOrror #1 by cREEPiNG dEATH | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tato1195-cd-dh1
 
 Write-Host '
 [1;30m                                   ▄▄▄██▓▓████▄▄▄▄▄▄[0m

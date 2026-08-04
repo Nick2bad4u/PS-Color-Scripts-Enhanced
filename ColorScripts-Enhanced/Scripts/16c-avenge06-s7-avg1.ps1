@@ -1,18 +1,4 @@
-﻿# Converted from: S7!-AVG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge06/raw/S7!-AVG1.ANS
-# Source Revision: archive-sha256:3343a7da51e4a450136a75930623f444cfdaa25bcfa6b32a1ded4c93bc4637e9
-# Source SHA-256: 5c0a2a4e46f54548bbba0c47863b395d136da15184e07f3e2e0ba3b00501920e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S7!-AVG1.ANS by Soulstalker (<av3nge>); released in avenge06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: avenge logo #1
-# SAUCE Author: Soulstalker
-# SAUCE Group: <av3nge>
-# SAUCE Date: 19980628
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: avenge logo #1 by Soulstalker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge06-s7-avg1
 
 Write-Host '
                                              [1;31m▄▄▄████[0;1;31;41m▄[0;1;31;40m▄▄[0;31m▄[0m

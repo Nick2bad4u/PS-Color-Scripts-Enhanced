@@ -1,18 +1,4 @@
-﻿# Converted from: LAC-UKMA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d0pe0597/raw/LAC-UKMA.ANS
-# Source Revision: archive-sha256:75f6fa147ff2756ef0ec699179a2fc535ef1a8555e78479372a7ceb7b6a80326
-# Source SHA-256: 2266eef001765afaa69b077ab154b6d3466284a79c32f0ada37ee56a4ced51bc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LAC-UKMA.ANS by lacaid (dope); released in d0pe0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: uk?! matrix
-# SAUCE Author: lacaid
-# SAUCE Group: dope
-# SAUCE Date: 19970502
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: uk?! matrix by lacaid | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d0pe0597-lac-ukma
 
 Write-Host '
 [1;30m                       [0;33m░ [0;34m [0;33m░[0;37m  [0;1;30m             [0;34m▄[0;1;30m                         [0m [35m░[0;1;30m    [0;34m▒[0;1;30m     [0m

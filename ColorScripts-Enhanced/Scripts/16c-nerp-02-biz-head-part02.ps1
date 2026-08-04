@@ -1,18 +1,4 @@
-﻿# Converted from: BIZ-HEAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-02/raw/BIZ-HEAD.ANS
-# Source Revision: archive-sha256:3fd9f194d865cfc24c90bdf11a27528d8d82a8ba9c376ebed567183a2f95a9f3
-# Source SHA-256: 64fe40e25689fed4165c5197adfefbfd27a57254ca3f9e1b17caf4ee359634ed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BIZ-HEAD.ANS by bizzarro (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: headers
-# SAUCE Author: bizzarro
-# SAUCE Group: nerp
-# SAUCE Date: 19971102
-# SAUCE Dimensions: 80x54
-# Lines: 28-54
-# Columns: 1-80
+﻿# Artwork: headers by bizzarro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-02-biz-head-part02
 
 Write-Host '
 [37m──+#+───  ─-─  ─── ── ─[0m   [37m─[0m    [37m───--  +- +─────[0m   [37m── ─ ─ ──#─ ──── ─ ─-+─ ─ ─+──[0m

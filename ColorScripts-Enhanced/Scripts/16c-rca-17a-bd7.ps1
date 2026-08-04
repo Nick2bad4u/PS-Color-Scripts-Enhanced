@@ -1,13 +1,4 @@
-﻿# Converted from: BD7.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-17a/raw/BD7.ANS
-# Source Revision: archive-sha256:48f4edf0151e9ab7fcc03c92751eee7c707c5fac397a0d4c55a2d7e47ad1e75a
-# Source SHA-256: bb2c62d0c8e5c6e6fe833df5951150db7d78a99c6e0fd08f6b6151500b700f9b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BD7.ANS by Blue Devil + Green Demon (rca-17a); released in rca-17a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: BD7.ANS by Blue Devil + Green Demon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-17a-bd7
 
 Write-Host '
 [34m[0m[34m                          [0;1;32m  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;34m                               [0m

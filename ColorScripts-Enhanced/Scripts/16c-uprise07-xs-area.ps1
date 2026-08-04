@@ -1,15 +1,4 @@
-﻿# Converted from: XS-AREA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise07/raw/XS-AREA.ANS
-# Source Revision: archive-sha256:e9fb6933d41a936134d4f2611eadee07355a10c1a02cff6221e1c572c3d24d6d
-# Source SHA-256: a0e527e31afe0a75fa6d7ee3bbb1d27dd73a7347ff7fb1e8e5121ff677dfdab9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XS-AREA.ANS by Xsys (uprise07); released in uprise07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 19980803
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: XS-AREA.ANS by Xsys | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise07-xs-area
 
 Write-Host '
                 [31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m    [1;34m▄██▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30m░░       [0;31mxsys@efnet #sweart[0m

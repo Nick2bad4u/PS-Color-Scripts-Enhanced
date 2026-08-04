@@ -1,13 +1,4 @@
-﻿# Converted from: JY_BONE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bgs_num1/raw/JY_BONE.ANS
-# Source Revision: archive-sha256:e0f00bf907dd5be4b375ace59bb594eecd3ca210e7121710e2a68853cfcf6d12
-# Source SHA-256: 49c217538877629324b5a62136068e13e7090e3906718cb92324616009d61c17
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JY_BONE.ANS by Joy (bgs_num1); released in bgs_num1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: JY_BONE.ANS by Joy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bgs-num1-jy-bone
 
 Write-Host '
                    [1;30m▄[0;1;33m▄▄▄▄[0m           [1;30m▄█▀[0m [31m▄▄▀▀▀▄▄▄██████████████████████████████[0;33;41m⌡º¥[0m

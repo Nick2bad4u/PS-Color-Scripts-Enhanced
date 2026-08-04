@@ -1,18 +1,4 @@
-﻿# Converted from: RL-STUL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0296/raw/RL-STUL1.ANS
-# Source Revision: archive-sha256:06e6dc5afce1ee45051e2bc9293c259c32e010fc92f42b6c050d6f2242a1670c
-# Source SHA-256: d01ddc2f1f17ea2fad98026d49915aa9ced970df21aa04e4deb636e9e2e4f5de
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL-STUL1.ANS by Rawlock (Opium); released in opx-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Another Different Style
-# SAUCE Author: Rawlock
-# SAUCE Group: Opium
-# SAUCE Date: 19960116
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Another Different Style by Rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0296-rl-stul1
 
 Write-Host '
 

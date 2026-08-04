@@ -1,18 +1,4 @@
-﻿# Converted from: DM-SKA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gvt-0496/raw/DM-SKA.ANS
-# Source Revision: archive-sha256:cbfe0330e9391dd33b84def04973fc8122df48dfe80ebbb080b9aafe9fb5ddcd
-# Source SHA-256: ce2be818fd104c5206023c6a799dd4f42adb79beab68ad56fca0b412acc72c1d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DM-SKA.ANS by domino (gravity); released in gvt-0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ska
-# SAUCE Author: domino
-# SAUCE Group: gravity
-# SAUCE Date: 19960329
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ska by domino | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gvt-0496-dm-ska
 
 Write-Host '
                                                                    [1;34;44m░▓▒▒▒▒▓▓▓▒▒░▒[0m

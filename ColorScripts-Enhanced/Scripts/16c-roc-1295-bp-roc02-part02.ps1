@@ -1,18 +1,4 @@
-﻿# Converted from: BP-ROC02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roc-1295/raw/BP-ROC02.ANS
-# Source Revision: archive-sha256:435b12f0b103f4945e424868578c877f7bd56818bb509ee35e6283e1bcaf0e1e
-# Source SHA-256: 9c26093bf0df91a716f604bfbcceb1680a9af5d95686e58242ac05cbc18ff993
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BP-ROC02.ANS by Blood Priest (ROC); released in roc-1295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ROC!
-# SAUCE Author: Blood Priest
-# SAUCE Group: ROC
-# SAUCE Date: 19951129
-# SAUCE Dimensions: 80x72
-# Lines: 37-72
-# Columns: 1-80
+﻿# Artwork: ROC! by Blood Priest | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roc-1295-bp-roc02-part02
 
 Write-Host '
 [1;31m███▀ [0m [35m▄▓█[0;1;35;45m░░░[0;35m██[0;37m [0;1;34;44m▓[0;1;34;40m██[0;1;34;47m████[0;1;34;40m█[0;1;34;47m▓▄░[0;1;37;47m▀▀▀▀[0;1;34;47m▄▓▓▓[0;1;34;40m█[0;1;34;47m▀[0;1;34;40m██[0m  [1;34m█[0;1;34;47m█[0m█[1;47m▄▓▄[0;1;34;47m ▓▀[0;35m▐█[0;1;35;45m░░░░░░░░░[0;35m█████[0;1;35;45m░░░[0;35m██▐[0;1;35;45m░░░░░  [0;35m▌[0m

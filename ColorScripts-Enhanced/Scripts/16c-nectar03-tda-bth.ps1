@@ -1,16 +1,4 @@
-﻿# Converted from: TDA-BTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nectar03/raw/TDA-BTH.ANS
-# Source Revision: archive-sha256:faec2ce79f4ec7fdedcb1c5275057d2bd3473a7b6d9bb41113e78d041db9cd35
-# Source SHA-256: bd46a0f07b46d754192813fac905d3f7b999957bd26318fc8382c98d06fa0e6e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TDA-BTH.ANS by the dark agressor (nectar03); released in nectar03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: the dark agressor
-# SAUCE Date: 19960302
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: TDA-BTH.ANS by the dark agressor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nectar03-tda-bth
 
 Write-Host '
                            [1;31m [0m [1;31m ▄ ▀[0m [1;31m▀ [0m [1;31m▄   [0m           [1;31m     [0m

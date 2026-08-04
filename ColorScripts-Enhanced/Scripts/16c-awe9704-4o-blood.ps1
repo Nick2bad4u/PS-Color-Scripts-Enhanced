@@ -1,18 +1,4 @@
-﻿# Converted from: 4O!BLOOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9704/raw/4O!BLOOD.ANS
-# Source Revision: archive-sha256:da151757a637299fc8da8cc755ae75b6a0e1a281dd915d29497f1d00d429e5c1
-# Source SHA-256: 09d8ed61c005738a8d8f8d440b2901be85cb2a786520dd35c97042dbd42378f1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 4O!BLOOD.ANS by Mr4tune (AWE Lettering); released in awe9704 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Bloodline
-# SAUCE Author: Mr4tune
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970322
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Bloodline by Mr4tune | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9704-4o-blood
 
 Write-Host '
 [30;43m▓[0;33;40m▄[0;1;33;40m▄[0;1;33;43m▄[0;1;37;40m█[0;1;33;43m▄▌[0;33m▀[0;1;33;43m▀[0;1;37;40m██[0;1;33;43m▀[0;33m▀[0;1;34m [0;33m▀[0;1;33;43m░▓▀[0;33m▀[0;30;43m▓[0;33;40m▀[0;1;33;43m▀█▓░[0;33m▀▀▀[0;30;43m▓▓[0;37;40m  [0;33;40m▀▓░[0;37;40m   [0;33;40m▐▄[0;1;33;40m▄[0;1;33;43m▄█▄[0;33m▄▄[0;30;43m▓[0;33;40m▄[0;1;34;40m [0;33m▄[0;30;43m▓[0;37;40m [0;33;40m▐▄[0;37;40m [0;33;40m▐[0;1;33;43m▄█▄[0;33m▄[0;30;43m▓[0;33;40m   ▀[0;1;33;40m▀[0;1;33;43m▓▀[0;33m▓░░[0;32m  [0;33m░[0;30;43m▓▒░[0;33;40m█[0;1;33;40m▓[0;1;33;43m▄[0m

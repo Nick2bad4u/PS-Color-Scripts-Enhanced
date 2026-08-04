@@ -1,20 +1,4 @@
-﻿# Converted from: ctx-fae-forest.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-001/raw/ctx-fae-forest.ans
-# Source Revision: archive-sha256:589c804657c8d15ba617f7c0fd80723e4505d519989b80eba9584665be49eb54
-# Source SHA-256: 6ecfa60774f8ece28251bcdbca433c8cfc92d7322045d2826142a8df49467f7c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ctx-fae-forest.ans by CatX (Legacy Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fae Forest
-# SAUCE Author: CatX
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20191124
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Drawn mainly as a way to introduce a change in artstyle and them | e, it was also meant to be a challenge for myself. Experimentin | g with colour was a huge part of this drawing, as I was mixing c | olours much more than what I usually did at the time.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Fae Forest by CatX | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-001-ctx-fae-forest
 
 Write-Host '
                             [1m·[0m            ▄[1m▄▄[0;1;47m▒▀[0m▄[1;30m■[0m

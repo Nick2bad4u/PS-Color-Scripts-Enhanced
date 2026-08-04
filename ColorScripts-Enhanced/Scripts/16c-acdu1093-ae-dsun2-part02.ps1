@@ -1,13 +1,4 @@
-﻿# Converted from: AE-DSUN2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1093/raw/AE-DSUN2.ANS
-# Source Revision: archive-sha256:ecd886ee40c974ac899d61ac438c6b0275189d654cafe889a26e6e3da22d4d1a
-# Source SHA-256: 699c574331fd11ff9a616268a4d0738c4c3ccb019b0125d47f2de39ef8611f6e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AE-DSUN2.ANS by Alter Ego (acdu1093); released in acdu1093 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 45-87
-# Columns: 1-80
+﻿# Artwork: AE-DSUN2.ANS by Alter Ego | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1093-ae-dsun2-part02
 
 Write-Host '
                 [1;30;40m▀▒▓▓▒▓▓█████[0m░[1;30m█[0m░[1;30m███▓▀▒▓█▓██▓█▀ ▄[0;1;30;47m█[0m░▒▒▒░ [1;30m▐[0m░▐[47m  [0;1;47m▄██▀[0;1;40m█[0;1;47m       [0;1;40m██[0;1;47m▀  ▀▀  [0m

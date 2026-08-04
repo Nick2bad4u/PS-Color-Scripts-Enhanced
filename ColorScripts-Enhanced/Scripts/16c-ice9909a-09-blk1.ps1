@@ -1,18 +1,4 @@
-﻿# Converted from: 09-blk1.ice
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9909a/raw/09-blk1.ice
-# Source Revision: archive-sha256:f2f69d52a16c9cecc283eba982ba5e9bc12c57dd003b0f436a792872958414c3
-# Source SHA-256: 1e37a5f879c1da2715f644004bcfdc1ef9872d68e2a2052b6ba6752e8008bc4a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-blk1.ice by Fluor (Ice Advertisements); released in ice9909a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Blocke promotional
-# SAUCE Author: Fluor
-# SAUCE Group: Ice Advertisements
-# SAUCE Date: 19991005
-# SAUCE Dimensions: 80x46
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Blocke promotional by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9909a-09-blk1
 
 Write-Host '
 [1m [0m

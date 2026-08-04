@@ -1,18 +1,4 @@
-﻿# Converted from: LRY-SW02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ins1295a/raw/LRY-SW02.ANS
-# Source Revision: archive-sha256:0b68d4daa11b0e9ab0b29fa989c942e6fe09c6576ebd507a2bf77817932365c5
-# Source SHA-256: 75eb9c536f4c055234b1a6209e62ac063be06b99fa5189850815eb41cd8b9c64
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LRY-SW02.ANS by lArrY (PHaT); released in ins1295a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: SPiRiT WoRLD 8oLiNeS
-# SAUCE Author: lArrY
-# SAUCE Group: PHaT
-# SAUCE Date: 19951217
-# SAUCE Dimensions: 80x74
-# Lines: 40-74
-# Columns: 1-80
+﻿# Artwork: SPiRiT WoRLD 8oLiNeS by lArrY | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ins1295a-lry-sw02-part02
 
 Write-Host '
     [1;30m▒[0m                 [1;30m▒[0m                              [1;30m░░[0m

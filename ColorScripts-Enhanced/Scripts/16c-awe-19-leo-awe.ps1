@@ -1,18 +1,4 @@
-﻿# Converted from: LEO-AWE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-19/raw/LEO-AWE.ANS
-# Source Revision: archive-sha256:db429aaaa9cca2e4296dcb178b9b345b980b5c7d6fe930188ea53fede20ed269
-# Source SHA-256: 4b88819a53bd7206c7543594bf2bdd34e05ee9a54f1e7b8544665a3357efbd40
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LEO-AWE.ANS by Leonardo (AWE Lettering); released in awe-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: AWE Lettering
-# SAUCE Author: Leonardo
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981125
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: AWE Lettering by Leonardo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-19-leo-awe
 
 Write-Host '
    [34m░░[0;30;44m▓▓▓[0m               [34;40m░░ ▄[0;1;34;40m▄[0;1;36;40m▄[0;1;37;40m▄[0m [1;30m▀▀[0m       [34m    [0m      [30;44m▓▓[0m                  [35;40m░░[0m    [35;40m   [0m

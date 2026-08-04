@@ -1,13 +1,4 @@
-﻿# Converted from: ON-PROJX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fos-0595/raw/ON-PROJX.ANS
-# Source Revision: archive-sha256:1752292815770b63f1b1d8ec40a734e7d4c8d494497bf3408ee46172835b476d
-# Source SHA-256: fc057d08182daa383dabcabd8003a7d41c54e96c2ca60357bf32ebcc4a0bf6b2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ON-PROJX.ANS by Orion (fos-0595); released in fos-0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 51-99
-# Columns: 1-80
+﻿# Artwork: ON-PROJX.ANS by Orion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fos-0595-on-projx-part02
 
 Write-Host '
   [32m██[0m   [1;31;43m░▒▒▓▓▒███████████████▓██▓[0;1;31;40m███████[0m ▀■ ■▀▄ [32m▀█████████████████████████[0;1;30;42m░▒▓[0m

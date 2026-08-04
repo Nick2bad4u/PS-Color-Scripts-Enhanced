@@ -1,18 +1,4 @@
-﻿# Converted from: PAR-TYR2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-11/raw/PAR-TYR2.ANS
-# Source Revision: archive-sha256:2530f38f9aae898cfae9dad47a02de2875f4e85a94fcd7dfaf9a3e9f96fbd615
-# Source SHA-256: 53d55855ff7b9e5fb03da1cef144d541b7e8fd7952f21b9db6227dffae87f2ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PAR-TYR2.ANS by Pariah (REMORSE); released in rmrs-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Tyrone Emag
-# SAUCE Author: Pariah
-# SAUCE Group: REMORSE
-# SAUCE Date: 19970502
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Tyrone Emag by Pariah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-11-par-tyr2
 
 Write-Host '
 [1m╘       [0m  [1;36m      [0m           [1;33m   [0;33m [0;1;30m [0m             [1m      [0m     [1;36m           [0m [1m            [0m

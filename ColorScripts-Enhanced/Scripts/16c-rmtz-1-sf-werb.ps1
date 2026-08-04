@@ -1,18 +1,4 @@
-﻿# Converted from: SF-WERB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmtz-1/raw/SF-WERB.ANS
-# Source Revision: archive-sha256:e96ee325d754c1e5b063aafdda446247803f028109cb9f0ea526dc0edc4ca3c5
-# Source SHA-256: 9debb50b30b010b229ee61566b011e94d6428c056f0eaebf7dff78bcacc4128c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SF-WERB.ANS by Spitfire (Rigamortiz); released in rmtz-1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: silly littly screen
-# SAUCE Author: Spitfire
-# SAUCE Group: Rigamortiz
-# SAUCE Date: 19960520
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: silly littly screen by Spitfire | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmtz-1-sf-werb
 
 Write-Host '
 [34m█[0;34;47m██████████████████████[0;34;40m█████████████████████████████████████▀[0;37;40m [0;33;40m▄[0;37;40m [0;34;40m▀ [0;33;40m▄[0;1;33;43m▄[0;33m▄[0;37m [0;34m▀█▀▀▀▀████[0m

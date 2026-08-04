@@ -1,18 +1,4 @@
-﻿# Converted from: 01-ICE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0297/raw/01-ICE.ANS
-# Source Revision: archive-sha256:d5e6767ccf66425c243bc55fc2b60157e4842e0dca350575e42372c154569008
-# Source SHA-256: 219bf434c09e67c13a4fbf29b3d550c759b0cfbda4aad2812db47a1620f215e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 01-ICE.ANS by oolite (fusion); released in fsn-0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ice
-# SAUCE Author: oolite
-# SAUCE Group: fusion
-# SAUCE Date: 19970128
-# SAUCE Dimensions: 80x25
-# Lines: 1-12
-# Columns: 1-80
+﻿# Artwork: ice by oolite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0297-01-ice
 
 Write-Host '
 [32m         [0;37m [0;31m      [0m   [32m      [0;31m              [0;32m [0m                       [1;37m   [0;1;33m  [0;31m   [0;1;33m         [0m

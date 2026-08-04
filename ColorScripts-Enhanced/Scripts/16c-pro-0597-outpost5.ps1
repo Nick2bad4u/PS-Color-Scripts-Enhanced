@@ -1,13 +1,4 @@
-﻿# Converted from: OUTPOST5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pro-0597/raw/OUTPOST5.ANS
-# Source Revision: archive-sha256:481b5fb97b76ab3f49d96748bbc6de9355df4dac5d8032169a495e45a44b207f
-# Source SHA-256: afe5cef435abd7e178743c8c541229c083296b790cc07ce71be968c3358d5210
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUTPOST5.ANS by Necrophidius (pro-0597); released in pro-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: OUTPOST5.ANS by Necrophidius | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pro-0597-outpost5
 
 Write-Host '
 [1;47m█▓▒░ [0;1;35;47m░▒▓[0;1;35;40m██████████████[0;1;35;47m▓▓▒▒░░  [0;1;37;47m░░▒▒▓▓█████████▓▓▒▒░░  [0;1;35;47m░░▒▒▓▓[0;1;35;40m█████████████[0;1;35;47m▓▒░ [0;1;37;47m░▒▓█[0m

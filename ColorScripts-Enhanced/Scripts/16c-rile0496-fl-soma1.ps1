@@ -1,18 +1,4 @@
-﻿# Converted from: FL-SOMA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile0496/raw/FL-SOMA1.ANS
-# Source Revision: archive-sha256:970ba17ca3338e96740571feaeb5cccb1e503d5151fde5fa1bc67bce49fcb3a4
-# Source SHA-256: 573cbea4e7c7531f535ff390f893dddfb00c4dc9130f411ee4830f2340ed46a5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-SOMA1.ANS by flame (rile); released in rile0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: rare sOma
-# SAUCE Author: flame
-# SAUCE Group: rile
-# SAUCE Date: 19960311
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: rare sOma by flame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile0496-fl-soma1
 
 Write-Host '
 [31m[0m

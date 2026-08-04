@@ -1,13 +1,4 @@
-﻿# Converted from: TSC-X2C.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hn-0596/raw/TSC-X2C.ANS
-# Source Revision: archive-sha256:341a7655c96a6dc0a8dbd297753a4c8350c669bd3952e121f4d23870d0eda7fc
-# Source SHA-256: 37541d6200b8f0e9167de5ec1f7fc205d05e873b631ccf8e80c039daf7f6f474
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSC-X2C.ANS by The Shadow Caster (hn-0596); released in hn-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: TSC-X2C.ANS by The Shadow Caster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hn-0596-tsc-x2c
 
 Write-Host '
 [1;30m░  ░  ░[0m

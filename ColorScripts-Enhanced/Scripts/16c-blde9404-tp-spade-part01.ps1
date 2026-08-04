@@ -1,13 +1,4 @@
-﻿# Converted from: TP-SPADE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9404/raw/TP-SPADE.ANS
-# Source Revision: archive-sha256:b5a6447140be0f2d0704586db4931f253a9b769ec22a9e738e72404b4d84b4df
-# Source SHA-256: f29d3da790a0f56efc79b29087f1aa6cff40317cb45c2861920b4108faa1bb6e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TP-SPADE.ANS by Technophreak (blde9404); released in blde9404 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: TP-SPADE.ANS by Technophreak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9404-tp-spade-part01
 
 Write-Host '
 [1;34m█████████[0;1;37m█[0;1;34m████████████[0;1;37m█[0;1;34m█████████████[0;1;37m█[0;1;34m████████████[0;1;37m█[0;1;34m███████████[0;1;37m█[0;1;34m████████████[0;1;37m█[0;1;34m█████[0m

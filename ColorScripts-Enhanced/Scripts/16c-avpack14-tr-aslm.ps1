@@ -1,18 +1,4 @@
-﻿# Converted from: TR-ASLM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack14/raw/TR-ASLM.ANS
-# Source Revision: archive-sha256:cc504a5dba52c5f998daf5493fac68a658e6668bcf22da76e3af7c67337c8c9c
-# Source SHA-256: d6b345b7febd20ff16245db4cfff781a7d38f2fb6ede0791216dcb9800cfdcd9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-ASLM.ANS by Trippah (Apoc.Vis!); released in avpack14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the.asylum!
-# SAUCE Author: Trippah
-# SAUCE Group: Apoc.Vis!
-# SAUCE Date: 19961010
-# SAUCE Dimensions: 80x25
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: the.asylum! by Trippah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack14-tr-aslm
 
 Write-Host '
 [30m[0m                  [1;34m▄▓▄▄▄[0m [1;34m▄▄[0m [1;34m▄[0m     [1;30m [0;36m▄[0;1;34m▄▄▓▄[0m [1;34m▄[0m    [30;47m██[0;36;40m▄[0;1;34;40m▄▄▄▓▄[0m

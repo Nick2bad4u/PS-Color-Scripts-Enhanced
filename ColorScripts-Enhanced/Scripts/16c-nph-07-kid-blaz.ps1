@@ -1,18 +1,4 @@
-﻿# Converted from: KID-BLAZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-07/raw/KID-BLAZ.ANS
-# Source Revision: archive-sha256:05b9134433837782e39338bf79fd6ada6d2fc8bfba82437f2c41c6bc37a6d75a
-# Source SHA-256: 80e9da6fddeb7725f93763b3d2ff3a9def962e51fe0720f3e8c38201cb0614dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KID-BLAZ.ANS by Alex Kidd (Nitrophusion); released in nph-07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Blazam!
-# SAUCE Author: Alex Kidd
-# SAUCE Group: Nitrophusion
-# SAUCE Date: 19980826
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Blazam! by Alex Kidd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-07-kid-blaz
 
 Write-Host '
   [1;35m,sS[0;35m$$$Ss,[0;1;35m`[0;35ms s[0;1;35mS²[0;35m"²''[0m                      [31m$$$[0m                                [1;30m>╨k[0m

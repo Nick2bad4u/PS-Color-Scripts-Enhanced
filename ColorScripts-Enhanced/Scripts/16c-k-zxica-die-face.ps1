@@ -1,13 +1,4 @@
-﻿# Converted from: DIE-FACE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-zxica/raw/DIE-FACE.ANS
-# Source Revision: archive-sha256:098212bcd3fc250902be7ae08340a23e99b29f8fa69fe7b4990238a6d402d1f6
-# Source SHA-256: 757f04221ccd63fa283afcf0661ce19727424c2fd04bf0483cd9b5796d125f79
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DIE-FACE.ANS by Dieznyik (k-zxica); released in k-zxica and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: DIE-FACE.ANS by Dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-zxica-die-face
 
 Write-Host '
 [31m█████████████████████[0;1;31m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;31m██████████████████████████████████████[0;1;31;41m░░[0;31m██[0m

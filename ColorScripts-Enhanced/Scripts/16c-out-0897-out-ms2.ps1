@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-MS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0897/raw/OUT-MS2.ANS
-# Source Revision: archive-sha256:549bf8e96e7f7e860f0287ba7104856044d3d84459139164d9a185bf317f9174
-# Source SHA-256: bc126ae854dda3489823d6eefa576fbc0276d7c9fce64bcc6e8878d939379130
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-MS2.ANS by Sandy Chidester (out-0897); released in out-0897 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: OUT-MS2.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0897-out-ms2
 
 Write-Host '
  ▒▒▓ ░▒                  ░░▒▒▓ ▓ ░

@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-PLF1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0997/raw/ZII-PLF1.ANS
-# Source Revision: archive-sha256:d6ce507ee095ab9c7ce1d91178b57bff0c61babde42a3957415461a430e18407
-# Source SHA-256: 1aff19119bcf4bb545bfc212ceab4cc27dd188f2b717096eecc3dd4dbeaa9c56
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-PLF1.ANS by Zeus II (poffelipoff); released in plf-0997 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: poffelipoff poffelipoff poffelipoff
-# SAUCE Author: Zeus II
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19970914
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: poffelipoff poffelipoff poffelipoff by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0997-zii-plf1
 
 Write-Host '
                    [33m▄[0m

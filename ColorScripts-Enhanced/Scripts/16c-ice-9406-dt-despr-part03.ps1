@@ -1,13 +1,4 @@
-﻿# Converted from: DT-DESPR.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9406/raw/DT-DESPR.ICE
-# Source Revision: archive-sha256:194d4a4a0903a2cc8722a81bc3639c830c7f3bfe7013fc97a315f42a94ec7013
-# Source SHA-256: 72df80b008908c398c161d451910a617005796c9f8cf3b25b6b1525d2adea434
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-DESPR.ICE by Tung Lo (ice-9406); released in ice-9406 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 74-116
-# Columns: 1-80
+﻿# Artwork: DT-DESPR.ICE by Tung Lo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9406-dt-despr-part03
 
 Write-Host '
                                    [32m▒[0m         [32m▀[0;1;32;42m▒░[0;33m░███▓[0;30m█[0m       [32m▀███▄[0m        [32m░[0m

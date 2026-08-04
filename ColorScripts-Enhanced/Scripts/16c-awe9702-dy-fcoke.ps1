@@ -1,18 +1,4 @@
-﻿# Converted from: DY-FCOKE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9702/raw/DY-FCOKE.ANS
-# Source Revision: archive-sha256:66fa024bb27d2c5c9da5d44e7d12f110f2c57bdedd32c6f0a850d91a30d582a8
-# Source SHA-256: e3fd66969d4c3946abae1705d95fe28639f7f3e9402f71a8cd050254cf924f3c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DY-FCOKE.ANS by Discyple (AWE Lettering); released in awe9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Free Coke
-# SAUCE Author: Discyple
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970119
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Free Coke by Discyple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9702-dy-fcoke
 
 Write-Host '
                                 [33m▄[0m                   [33m▄▄[0m

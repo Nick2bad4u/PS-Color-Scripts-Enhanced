@@ -1,18 +1,4 @@
-﻿# Converted from: DN!-MN01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0297/raw/DN!-MN01.ANS
-# Source Revision: archive-sha256:2e15cb2f2712a143323c9f3c6ecca94c5b5b12a452a019e911d205dd685c6eee
-# Source SHA-256: 430f26e5ac72e7c79df408e4c7f610022cebcad819c5f71702620ba6e4808be8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DN!-MN01.ANS by dreadnought (pHaT studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Menu Colly I - 2/97 -
-# SAUCE Author: dreadnought
-# SAUCE Group: pHaT studios '97
-# SAUCE Date: 19961227
-# SAUCE Dimensions: 80x115
-# Lines: 41-71
-# Columns: 1-80
+﻿# Artwork: Menu Colly I - 2/97 - by dreadnought | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0297-dn-mn01-part02
 
 Write-Host '
 [1;30m-[0;36m┬[0;1;36m»[0;1;37mAFT Submenu[0;1;36m«[0;36m─[0;1;30m─────────────────────────────────────────────────────────────-[0m-

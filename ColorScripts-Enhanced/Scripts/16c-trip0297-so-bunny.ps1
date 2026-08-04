@@ -1,19 +1,4 @@
-﻿# Converted from: SO-BUNNY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/trip0297/raw/SO-BUNNY.ANS
-# Source Revision: archive-sha256:3315e4ec7736887989951e067242a6db29d5b6a5bb4ab8f07eec71fbf5276280
-# Source SHA-256: 98f3520fe7d8946df736caf3c33901975b89f3eafb2401fe1b276864bd282dcc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SO-BUNNY.ANS by Soopaphunky (Trippin productions); released in trip0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Psycodelic Bunny?
-# SAUCE Author: Soopaphunky
-# SAUCE Group: Trippin productions
-# SAUCE Date: 19970111
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: Hell yea....  this sucks, but thats i-ight...
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Psycodelic Bunny? by Soopaphunky | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-trip0297-so-bunny
 
 Write-Host '
     [1;32m▄████▄ [0m          [1;32m┌──▒▀▄────┐[0;32m ▄████▄  [0;1;32m▄▄▄▄▄▄▄▄▄[0m  [1;34m█▐▐▐▐▐▄▀▐▐▐▐▐▐▐░▐▐▐█[0m   [1;34m│[0;34m███[0m

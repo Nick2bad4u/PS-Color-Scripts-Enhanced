@@ -1,18 +1,4 @@
-﻿# Converted from: VDR-CRTN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bat05/raw/VDR-CRTN.ANS
-# Source Revision: archive-sha256:c1082e0417753715d0b89831e0230f9ac3baf3aab6c8a1f382615ebce2ab409a
-# Source SHA-256: c54653f481030a85b68e8731204d39f705bb209ea7578e4aaea2ecd9c6db44c1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VDR-CRTN.ANS by Vader (Bat); released in bat05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: cartoon
-# SAUCE Author: Vader
-# SAUCE Group: Bat
-# SAUCE Date: 19970105
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: cartoon by Vader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bat05-vdr-crtn
 
 Write-Host '
 [31m[0m

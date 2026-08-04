@@ -1,18 +1,4 @@
-﻿# Converted from: MR-BX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cri-0495/raw/MR-BX.ANS
-# Source Revision: archive-sha256:68a525dc058e129b1830b66b54cbf91bf90c51e195457f4b9c43c4e7f818ef1e
-# Source SHA-256: 0e43856c94644f2929570708d8746b6c354a7cc1dfe6348e8105a326cb07ccdf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-BX.ANS by Mr. Omerta (CRiSiS); released in cri-0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: BoardX ad 'gain.. unreleased.
-# SAUCE Author: Mr. Omerta
-# SAUCE Group: CRiSiS
-# SAUCE Date: 19940505
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: BoardX ad 'gain.. unreleased. by Mr. Omerta | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cri-0495-mr-bx
 
 Write-Host '
 [1;30;47m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▓▓[0m

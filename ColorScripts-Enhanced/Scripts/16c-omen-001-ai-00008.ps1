@@ -1,17 +1,4 @@
-﻿# Converted from: AI#00008.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/omen-001/raw/AI%2300008.ANS
-# Source Revision: archive-sha256:639d01c4976c2412f40262280b42786a4a9a8dcf0c6d28b14f10b18fb7bde312
-# Source SHA-256: cf9a8f8c70bf159fd408b099987df53681bc227329c299dfe53a5df870396c5d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AI#00008.ANS by artistic implosion (omen); released in omen-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: solace #2
-# SAUCE Author: artistic implosion
-# SAUCE Group: omen
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: solace #2 by artistic implosion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-omen-001-ai-00008
 
 Write-Host '
 [35m█▀[0;36m▄[0;1;36m▄▄[0;1;36;46m██▌[0;1;30;40m▀[0;1;36;40m▄[0;1;36;46m▄██████[0;1;36;42m▀[0;36m▀[0;1;30;45m▀[0;35m▀[0;36m▄[0;1;36;46m▒[0;36m▀[0;35m▄▀[0;36m▄[0;1;30;46m▀[0;1;36;46m░[0;1;30;46m░▒[0;1;30;40m▌ [0;1;30;45m█▒[0;1;30;40m▌[0;30;45m██▓▓[0m                     [34;40m░░[0;30;44m▓[0m

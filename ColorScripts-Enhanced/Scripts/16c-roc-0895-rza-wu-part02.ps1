@@ -1,18 +1,4 @@
-﻿# Converted from: RZA-WU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roc-0895/raw/RZA-WU.ANS
-# Source Revision: archive-sha256:ac9d7e0591648d98cdf39e060d2cd0499e78185e449581363392faf1897b43a0
-# Source SHA-256: 7c9f518945c6b31da6741bd5ab091e0559ef2977a2b9513f544f1f034503f363
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RZA-WU.ANS by The RZA (Rulers Of Chaos); released in roc-0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Wu Tang
-# SAUCE Author: The RZA
-# SAUCE Group: Rulers Of Chaos
-# SAUCE Date: 19950802
-# SAUCE Dimensions: 80x25
-# Lines: 23-68
-# Columns: 1-80
+﻿# Artwork: Wu Tang by The RZA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roc-0895-rza-wu-part02
 
 Write-Host '
      [31m▄[0m        [31m [0m [1;30m [0m  [31m  [0m

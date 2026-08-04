@@ -1,13 +1,4 @@
-﻿# Converted from: ROY-DNXA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roy-stuf/raw/ROY-DNXA.ANS
-# Source Revision: archive-sha256:1f203f95f339c258e43a9098f8d2e689ed73de537b1cfe6bea312dfc156f1358
-# Source SHA-256: d6462994d24ce3da44c11c6189a8d5ad94cf5b32847eadd428a363988bb77a48
-# Source License: FAL-1.3
-# Source Attribution: ROY-DNXA.ANS by Roy/SAC aka Carsten Cumbrowski; released in roy-stuf and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: ROY-DNXA.ANS by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-dnxa
 
 Write-Host '
 

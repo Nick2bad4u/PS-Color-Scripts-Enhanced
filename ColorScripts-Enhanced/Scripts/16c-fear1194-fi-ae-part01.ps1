@@ -1,18 +1,4 @@
-﻿# Converted from: FI-AE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fear1194/raw/FI-AE.ANS
-# Source Revision: archive-sha256:f054d0bb154b653e223e56e77201cae8362bfb38bbbede42a20fa8c74f2102fe
-# Source SHA-256: 6b2b84496305161ab4bbcbafb12592528c0e8d9eae750729b8fe19f46c6e1ed5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FI-AE.ANS by Future Imperfect ([FEAR]); released in fear1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Alien Encounters
-# SAUCE Author: Future Imperfect
-# SAUCE Group: [FEAR]
-# SAUCE Date: 19941104
-# SAUCE Dimensions: 80x166
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: Alien Encounters by Future Imperfect | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fear1194-fi-ae-part01
 
 Write-Host '
                · ░                             [1;30m·[0m                  [1;37m·[0m

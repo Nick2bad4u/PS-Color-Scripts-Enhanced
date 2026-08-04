@@ -1,18 +1,4 @@
-﻿# Converted from: KZ-IOT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0994/raw/KZ-IOT.ANS
-# Source Revision: archive-sha256:70e9e3ba45456511eb6a648215e7531dd3b7a09ca51f860ca2dd613c7dbc4d28
-# Source SHA-256: 333f51a26535894930aa1ffd9b1cfc0fa3e6f22e39395c78055f994bfbe397e2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KZ-IOT.ANS by Kamikazee (ACiD Productions); released in acdu0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Illusion of Tranquility
-# SAUCE Author: Kamikazee
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940901
-# SAUCE Dimensions: 80x197
-# Lines: 51-99
-# Columns: 1-80
+﻿# Artwork: Illusion of Tranquility by Kamikazee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0994-kz-iot-part02
 
 Write-Host '
 [1;30;46m▓▒[0;36m▀▀▀▀[0m     [36m▀   ▀▀▓▓▒▀[0;1;36;46m░░[0;36m█▓▓  █[0;1;36;46m░[0;36m█[0;36;46m [0;36;40m██████[0;36;47m█████[0;36;40m██[0;36;47m██████████████[0;36;40m█[0;36;47m████[0;36;40m▄[0;36;47m███████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: HT-SKYL.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/sac1294/raw/HT-SKYL.ANS
-# Source Revision: archive-sha256:4cf7765ee6660556cb900dacf0ec67f070b8e4df414172b5e01733a49d10031f
-# Source SHA-256: 8637456e61704a3c4968d02dd1966b010c2a23034462eef676d4a5930f727720
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HT-SKYL.ANS by hetero; released in sac1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and flattened to the rendered terminal cell matrix without palette substitution, trimming, reflow, or scaling; split only into contiguous row ranges at verified blank or terminal-safe boundaries when required.
-# SAUCE Title: SKYLIGHT
-# SAUCE Author: HETERO
-# SAUCE Group: LKCC
-# SAUCE Date: 19941114
-# SAUCE Dimensions: 80x25
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: SKYLIGHT by hetero | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac1294-ht-skyl-part01
 
 Write-Host '
 

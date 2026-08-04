@@ -1,18 +1,4 @@
-﻿# Converted from: PPE-WM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-04/raw/PPE-WM.ANS
-# Source Revision: archive-sha256:1dcdf112160ec589150680778cd449e8af485dfba89bb104c44cd133db2d6fc0
-# Source SHA-256: bfe5e557910115b022330edfeb579300bf7eb6f6e8911cc2e7b4c866d48b1d56
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PPE-WM.ANS by propane (The Used Coalition); released in used-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: wicked minority
-# SAUCE Author: propane
-# SAUCE Group: The Used Coalition
-# SAUCE Date: 20000216
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: wicked minority by propane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-04-ppe-wm
 
 Write-Host '
 [1;34;44m [0;34m███[0;1;34;44m░░[0;34m█[0m     [34m█[0;1;34;44m░░░░[0;34m█▓ ▀▀█[0;1;34;44m▒▒▒▒▒▒▒▒▒▒▒[0;34m█▓▓▓▓████▀▀[0;37m  [0;34m [0;37m  [0;34m▄[0;1;34;44m▒▒▒▒▒▒▒▒░[0;34m▌██[0;1;34;44m▒[0;34m▀▀▀▀▀█[0;1;34;44m▒▒▒ [0;34m [0;1;34;44m░░░░ [0m

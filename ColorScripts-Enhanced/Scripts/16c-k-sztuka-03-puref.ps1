@@ -1,15 +1,4 @@
-﻿# Converted from: 03_PUREF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-sztuka/raw/03_PUREF.ANS
-# Source Revision: archive-sha256:0ffb741cd09291626fd3edf310ba81b97a9ab070084b42833e9f92283ec8eb39
-# Source SHA-256: 4962c6d9e8b1b8206abb79f5792bf83078912e89cf036057cf6962fd09fa8368
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 03_PUREF.ANS by Dieznyik (k-sztuka); released in k-sztuka and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 19990409
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: 03_PUREF.ANS by Dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-sztuka-03-puref
 
 Write-Host '
 [1;36m▒[0;36m█[0;32;46m░[0;36;42m▓[0;32;46m▒[0;36;42m▒░[0;32;46m▓[0;32;40m█▄[0;35;40m░[0;30;45m▓[0;36;42m░[0;32;46m▓[0;34;40m░[0;37;40m  [0;35;40m░░[0;31;40m [0;1;31;40m▒▒[0;31m  █[0;35;41m ░[0;31;45m▓[0;35;41m▒[0;31;45m▒░[0;35;41m▓[0;35;40m█▄[0;31;40m  [0;1;36;40m▒▒[0;32;46m░[0;36;42m▓[0;32;46m▒[0;36;42m▒░[0;32;46m▓[0;1;32;40m▒[0;32m▄[0m       [34m▄[0;1;34m▄[0;1;36m▄[0;36m▄[0;1;31;46m▀[0;1;31;47m▓▓[0;1;35;45m▒[0;35m▄[0m         [1;31m▄[0;36m▄[0m   [36m/[0;1;36m.[0;36m\[0m

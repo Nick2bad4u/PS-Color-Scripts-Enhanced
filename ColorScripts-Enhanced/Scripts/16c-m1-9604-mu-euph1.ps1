@@ -1,13 +1,4 @@
-﻿# Converted from: MU-EUPH1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m1-9604/raw/MU-EUPH1.ANS
-# Source Revision: archive-sha256:ae84f916465c0ebdf01b9aa95a9e1e7b961c299453d74f815510b1681189d13e
-# Source SHA-256: 4d9ebcfb3ad39b2d14fa8fa12c9a9a1fa5f152d8c17e45b733248b9cefdc87bb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MU-EUPH1.ANS by Murcurochrome (m1-9604); released in m1-9604 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: MU-EUPH1.ANS by Murcurochrome | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m1-9604-mu-euph1
 
 Write-Host '
                      [1;34m■[0m   [1;34m▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: SHQACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acid_s-z/raw/SHQACID.ANS
-# Source Revision: archive-sha256:1e39be543cd73bd6445def20e0af89859836bb40b21bc0476427cae93491a647
-# Source SHA-256: 808d60407749729224ac9ae2286522f0fee69dce7f896518d066b508dd2e6a32
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SHQACID.ANS by The Malevolent Trickster (acid_s-z); released in acid_s-z and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: SHQACID.ANS by The Malevolent Trickster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acid-s-z-shqacid-part01
 
 Write-Host '
                                   [31m▄▄▄▄▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: 33-SBZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/33rules/raw/33-SBZ.ANS
-# Source Revision: archive-sha256:6cf2aef8e3ca97e1761e1ee4a8ba395e4fdab4dec9d3b2efb91c059359b50b00
-# Source SHA-256: 821e7118d7274258bd21aa7c1adb230ecf69af3677ff935cbe7f26cc408842d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-SBZ.ANS by Mistigris 10/94 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Sushi Bar Z
-# SAUCE Author: Mistigris 10/94
-# SAUCE Group: Eerie
-# SAUCE Date: 19960924
-# SAUCE Dimensions: 80x25
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: Sushi Bar Z by Mistigris 10/94 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-33rules-33-sbz-part01
 
 Write-Host '
 ██▓██▓██▓██▒████▓█░██░ ▄░■▄▄▄▀▀▀▌▄▄▀■▓▓▄▓▄■▀▄▀     [31m▄▓▓▄█▓█▄█▀█ ▀░█▓█▓▄[0;1;31;41m░[0;31m█▄▀▀▓█▓▓[0m

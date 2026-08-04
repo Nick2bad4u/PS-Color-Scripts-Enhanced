@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-ZAAC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0526/raw/ZII-ZAAC.ANS
-# Source Revision: archive-sha256:96e9c14a0862fcfb7b203f3d94f85e28654461fdbf12521de185a12d5fb418bb
-# Source SHA-256: 27209847a26b744ed982755370e5c7896603f27b33bdd5f2a8bfe98e35ceb2cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-ZAAC.ANS by Zeus II (Mistigris); released in mist0526 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ANSI for sale!
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260625
-# SAUCE Dimensions: 80x107
-# SAUCE Font: IBM VGA
-# Lines: 37-72
-# Columns: 1-80
+﻿# Artwork: ANSI for sale! by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0526-zii-zaac-part02
 
 Write-Host '
 [31m██████████▀[0;37m [0;1;33m▄▄[0;33m [0;1;33m▀[0;1;37m█[0;1;33m▄[0;33m [0;1;33m▄[0m  █▀▀[1;31m ▄▄███████████▄▄████▄▄█████████████▀█████[0;1;31;43m▓ [0;33m███████████[0;1;31;43m░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: TS-VR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/orbit01/raw/TS-VR.ANS
-# Source Revision: archive-sha256:45e7ee6ca4092d8688f02c906ea29837a94566f7544687f1a5895261397fc2fe
-# Source SHA-256: 932219177e735a60f8cd1231b8a66029be4cea0245927e3a92f2086719e299d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-VR.ANS by Tsunami Surge (orbit01); released in orbit01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 47-62
-# Columns: 1-80
+﻿# Artwork: TS-VR.ANS by Tsunami Surge | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-orbit01-ts-vr-part02
 
 Write-Host '
      [1;31;41m████████[0;1;31;40m▄  ▐[0;1;31;41m█████████████████[0;1;31;40m▀▄[0;1;31;41m█[0m    [1;31;40m▄[0;1;31;41m█[0m    [1;31;41m█████[0;1;31;40m▐[0;1;31;41m███████████[0m   [1;31;40m▄[0;1;31;41m████[0;1;31;40m▀[0m

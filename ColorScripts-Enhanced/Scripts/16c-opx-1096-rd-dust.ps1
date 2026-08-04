@@ -1,18 +1,4 @@
-﻿# Converted from: RD-DUST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-1096/raw/RD-DUST.ANS
-# Source Revision: archive-sha256:73b0e2918c9e3daef978e4ff1f97345c8d9080edab06ce99d8d8ee6a5fb0b3de
-# Source SHA-256: 0532a745ca5b839568cbc109df61d0bda4deb55813c892be1a12fa141c67ee37
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD-DUST.ANS by raider (aCid); released in opx-1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: dUSt (dammig?)
-# SAUCE Author: raider
-# SAUCE Group: aCid
-# SAUCE Date: 19960921
-# SAUCE Dimensions: 80x23
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: dUSt (dammig?) by raider | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-1096-rd-dust
 
 Write-Host '
                      [1;31m▄ ▀[0m            [1;31mraider[0;31m([0;1;31macid[0;31m)[0;1;31m  [0;30;41m▓[0m    [1;31;40m  ▀ ▄[0m

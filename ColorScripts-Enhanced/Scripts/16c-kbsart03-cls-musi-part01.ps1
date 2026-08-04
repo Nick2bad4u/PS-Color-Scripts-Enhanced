@@ -1,18 +1,4 @@
-﻿# Converted from: CLS-MUSI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/kbsart03/raw/CLS-MUSI.ANS
-# Source Revision: archive-sha256:3bc41b0cbaed5cc33563c576ee20fcd7a1c532d4df2df0fbf9fb63f79506bdf8
-# Source SHA-256: 4fa1f91c59944dc5b5aef4c62897ddc2b3a76ab15befe86ee318092802b451d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CLS-MUSI.ANS by cLs (kibosh); released in kbsart03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: NoizePlayer
-# SAUCE Author: cLs
-# SAUCE Group: kibosh
-# SAUCE Date: 19980223
-# SAUCE Dimensions: 80x52
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: NoizePlayer by cLs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-kbsart03-cls-musi-part01
 
 Write-Host '
 [1;34m█[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: IN-GAS#1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gas-02/raw/IN-GAS%231.ANS
-# Source Revision: archive-sha256:3f4a8ec10117a9d2d588cb5b9c03441f35378297d885b1fb90bac8e105c89d94
-# Source SHA-256: 94cd6a82d6253626dbc208d1855ecfacab748c82496d18cd97b9f9e4a52e8dd9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IN-GAS#1.ANS by insane (gas); released in gas-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: gas promo
-# SAUCE Author: insane
-# SAUCE Group: gas
-# SAUCE Date: 19960801
-# SAUCE Dimensions: 80x24
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: gas promo by insane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gas-02-in-gas-1
 
 Write-Host '
                               [1;35m   [0;31m▄▄▄▀▀▀▀▀▀▀▀▄▄▄[0;1;35m   [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US-ATL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0497/raw/US-ATL.ANS
-# Source Revision: archive-sha256:42e18118a4fe23187162d4202e0e64c79c23017db87b8967f1816ba2b79540c6
-# Source SHA-256: abe713381334660a458e71d20c22176c653a83cd7f136c2091cad81c2d552440
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ATL.ANS by Nail + The Knight (fire / fuel); released in fire0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: atlantis
-# SAUCE Author: nail / teakay
-# SAUCE Group: fire / fuel
-# SAUCE Date: 19970323
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: atlantis by Nail + The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0497-us-atl
 
 Write-Host '
 nail[1;30mfire[0m                                [34m  [0;37m [0;34m  ▀█[0;1;34;44m▀█[0;1;34;47m▄▓▓░▀[0m▄[1;34m▄ [0m▄▄[1;34m▐[0;1;34;47m▀▐▀[0m▄[1;33m▄▄[0m▄▄[1;34;47m▐[0;1;34;40m██▀       [0m

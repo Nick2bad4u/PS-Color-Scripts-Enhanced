@@ -1,18 +1,4 @@
-﻿# Converted from: MD-L.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flux-003/raw/MD-L.ANS
-# Source Revision: archive-sha256:c8241d6e438a30e14e803d31ea9639f514382ec0df6188aa9d91ed9f1ddec867
-# Source SHA-256: 8983f2ca67d554a404a5b364fa7b9c10d6523374f804c6d838bcf7c089b90ece
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MD-L.ANS by metal defender (koi/rap/flux/riot/ro); released in flux-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: lunatic logo
-# SAUCE Author: metal defender
-# SAUCE Group: koi/rap/flux/riot/ro
-# SAUCE Date: 19970820
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: lunatic logo by metal defender | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flux-003-md-l
 
 Write-Host '
                         [1;30;40m█[0;1;30;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;40m█[0m

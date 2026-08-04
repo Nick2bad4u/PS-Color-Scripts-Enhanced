@@ -1,18 +1,4 @@
-﻿# Converted from: XBE-DU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-1196/raw/XBE-DU.ANS
-# Source Revision: archive-sha256:ea255d5404a293fd28c5348aeea6d132b83dc51aad0630d7773e1cb9fa7be562
-# Source SHA-256: 6fd661e159f277644e9ef1b4e0d36390876c35de93040fb98a6ab8e4b9ae4345
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XBE-DU.ANS by xerobe (bamboosh); released in bmb-1196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Dark Underground
-# SAUCE Author: xerobe
-# SAUCE Group: bamboosh
-# SAUCE Date: 19961008
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Dark Underground by xerobe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-1196-xbe-du
 
 Write-Host '
                                [1;30m [0m                [1;32m [0m       [1;32m [0m    [32m  [0;37m  [0;1;32m       [0m

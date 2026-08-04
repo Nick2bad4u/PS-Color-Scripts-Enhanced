@@ -1,15 +1,4 @@
-﻿# Converted from: SJ-FH2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blind-02/raw/SJ-FH2.ANS
-# Source Revision: archive-sha256:c5e79989307dbf090a38f911b35eef6e687ee7fb3d0611abf6934cc9737046e9
-# Source SHA-256: 0cddf60b13101221aff43470a48c5fb13a74f7d00548d68eee9125911c47c7a4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SJ-FH2.ANS by The Sad Jester (blind-02); released in blind-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 19951221
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: SJ-FH2.ANS by The Sad Jester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blind-02-sj-fh2
 
 Write-Host '
           [1;33;47m [0m [31m ▄▓[0;37m  [0;31m                                  [0m

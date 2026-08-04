@@ -1,18 +1,4 @@
-﻿# Converted from: FR-ES1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0497/raw/FR-ES1.ANS
-# Source Revision: archive-sha256:73d4445ab8a07d3fe160d256052163ed66b2081a0bebb59b18ae9b36e30223e0
-# Source SHA-256: e1ec11025d30b4edf96071db7e21cf89162dd037ab1cd66de72f7678837e15a4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FR-ES1.ANS by Fractal (Root); released in root0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ES Couriers
-# SAUCE Author: Fractal
-# SAUCE Group: Root
-# SAUCE Date: 19970403
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ES Couriers by Fractal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0497-fr-es1
 
 Write-Host '
                                               [1;30m░▓▄▄▄▄▄[0m

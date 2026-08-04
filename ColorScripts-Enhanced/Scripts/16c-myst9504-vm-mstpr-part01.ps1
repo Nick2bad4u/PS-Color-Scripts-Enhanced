@@ -1,13 +1,4 @@
-﻿# Converted from: VM-MSTPR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/myst9504/raw/VM-MSTPR.ANS
-# Source Revision: archive-sha256:a90cbdb425ce06d8710b8a57528b3d33daeeb96dcafebdfec2b142856e77525e
-# Source SHA-256: 8d6e7623b69612c063be0390f79678d57e5bdc7d674ef34eda83b0f1e0b7e244
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VM-MSTPR.ANS by Vivid Mystery (myst9504); released in myst9504 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: VM-MSTPR.ANS by Vivid Mystery | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-myst9504-vm-mstpr-part01
 
 Write-Host '
  [1;30m───────────────────── ────────────────────────────────────────────────────────[0m

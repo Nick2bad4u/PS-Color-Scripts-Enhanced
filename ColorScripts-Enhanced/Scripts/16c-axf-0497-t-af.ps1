@@ -1,18 +1,4 @@
-﻿# Converted from: T-AF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-0497/raw/T-AF.ANS
-# Source Revision: archive-sha256:73d8a01f9afdfcfb9625d7e653d0ae9eab6f0ddbfd432b7a5d1a572be238e8b2
-# Source SHA-256: 5a5e17bbb3b398c0a6b32809a926a3104e4829d0344f0d4bbe1e9d1ac90900ff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T-AF.ANS by Toot (Black Maiden); released in axf-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Axial Force Logo!#
-# SAUCE Author: Toot
-# SAUCE Group: Black Maiden
-# SAUCE Date: 19970327
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Axial Force Logo!# by Toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-0497-t-af
 
 Write-Host '
                       [34m░░░[0;30;44m▓[0;34;40m░[0;30;44m▓▓[0;34;40m░░░[0;30;44m▓▓▓▓▓▓▓▓▓▓[0m                        [30;44m▓[0;34;40m░░░[0;30;44m▓[0m

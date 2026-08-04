@@ -1,17 +1,4 @@
-﻿# Converted from: us-bl.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/labia314/raw/us-bl.ans
-# Source Revision: archive-sha256:704095869b71d0834bb8c83d90c0dddc7803f8a47b5046986cc14c14a7864134
-# Source SHA-256: a55f59859d8878b9cd1eb42934c913a2bcdf6292965f99f469a1317fd61bfc81
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-bl.ans by Meatpod + Shrimp (AWE Lettering); released in labia314 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Blue Lines
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970831
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Blue Lines by Meatpod + Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-labia314-us-bl
 
 Write-Host '
  [32m__________[0m           [32m__________________________░░░░░░___ _ ___ _ _[0;1;32m_[0;32m..[0;1;32m,,[0;32m,┌[0;1;32m┌┌yy[0;1;33m2[0;34m [0m

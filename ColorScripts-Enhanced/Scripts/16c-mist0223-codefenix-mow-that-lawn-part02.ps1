@@ -1,19 +1,4 @@
-﻿# Converted from: CODEFENIX-MOW_THAT_LAWN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0223/raw/CODEFENIX-MOW_THAT_LAWN.ANS
-# Source Revision: archive-sha256:f6abf3bbd53eb017898fa84b28d2ac43fcb70297788ba675e470ca73794cbbfd
-# Source SHA-256: f631802ff5c21d2297a2c950bb614f0f2b43586c3210f04c800e96af2866eb3f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CODEFENIX-MOW_THAT_LAWN.ANS by Codefenix (mist0223); released in mist0223 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Mow That Lawn!
-# SAUCE Author: Codefenix
-# SAUCE Date: 20220909
-# SAUCE Dimensions: 80x74
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Part of a series on celebrating the mundane and ordinary.
-# Lines: 51-74
-# Columns: 1-80
+﻿# Artwork: Mow That Lawn! by Codefenix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0223-codefenix-mow-that-lawn-part02
 
 Write-Host '
 [32m░░[0m                    [1;37;47m▒[0;1;37;40m   ▐▌   [0;1;37;47m▒[0m [1;33m◄[0m [33m██[0;30;43m▄▄▄▄▄[0;33;40m██[0;37;40m [0;1;33;40m►[0;1;37;40m █▄██▄█[0m                   [32m░░▓████[0m

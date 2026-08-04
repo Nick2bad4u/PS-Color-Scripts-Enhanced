@@ -1,13 +1,4 @@
-﻿# Converted from: MH!RSN01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/arsin01/raw/MH!RSN01.ANS
-# Source Revision: archive-sha256:ac726b3b759f52db7958b87ccb214124dc554ff92b6fc771347c1dea99d7fc9d
-# Source SHA-256: 7dfca55f16854bf39ad9b0ea76f434c55b89dee85626a364271f4275bd80b829
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MH!RSN01.ANS by Maddog Hoek (arsin01); released in arsin01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: MH!RSN01.ANS by Maddog Hoek | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-arsin01-mh-rsn01
 
 Write-Host '
    [1;30m·[0m■[1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;35mmh[0m

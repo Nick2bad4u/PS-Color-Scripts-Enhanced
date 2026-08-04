@@ -1,13 +1,4 @@
-﻿# Converted from: GENDP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1992/raw/GENDP1.ANS
-# Source Revision: archive-sha256:408f6102282b4b4f582d319af7c00d0c1a49a9b89d70dc7754d4cd44f475f4fb
-# Source SHA-256: 05f100aa17a1fab80c2d9e0d87b5c597308dcf60080a8dea49de1293e9acf7fb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GENDP1.ANS by Genesis (1992); released in 1992 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 92-135
-# Columns: 1-80
+﻿# Artwork: GENDP1.ANS by Genesis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1992-gendp1-part03
 
 Write-Host '
              [1;37m▌[0m█ [1;30m░ ░[0m             [1;30m▄▄[0m▄▄                  [1m▄████[0;1;47m▓[0;1;40m███▄▄[0m            [1;40m▄▄▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: IN-1ST.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9807a/raw/IN-1ST.ICE
-# Source Revision: archive-sha256:e3d9daf25d2dc92c2643dac31e7c47c6a8ddbc47befd1cdd5451231cba5845ba
-# Source SHA-256: 8f061501bb0cd397a4df77663b7e967c3d466add1683f4cc5d82375b335b2140
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IN-1ST.ICE by Inazone (ice9807a); released in ice9807a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: IN-1ST.ICE by Inazone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9807a-in-1st
 
 Write-Host '
 

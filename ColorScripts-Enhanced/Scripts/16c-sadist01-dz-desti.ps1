@@ -1,18 +1,4 @@
-﻿# Converted from: DZ-DESTI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sadist01/raw/DZ-DESTI.ANS
-# Source Revision: archive-sha256:a09604d5f43fb8785b5c5dfd9a5165e810b4d58fd16a4084e3fe605eab5c8eb7
-# Source SHA-256: 55f6861770c39b27cc21e450b427e8569840fb02e0a823cc9703c04dcd978675
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DZ-DESTI.ANS by dizzy (sadist); released in sadist01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: destiny
-# SAUCE Author: dizzy
-# SAUCE Group: sadist
-# SAUCE Date: 19981028
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: destiny by dizzy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sadist01-dz-desti
 
 Write-Host '
       [32m▄▄▄[0m    [32m▄▄▄▓▓░░[0m      [32m▀▄▄[0m    [32m░░█▌[0m   [32m░[0;37m [0;32m▐[0;1;32;42m▄[0;32m▄▄[0;1;32;42m▄██▄[0;32m▄▄[0;1;32;42m▄███▄[0;32m▄[0;37m [0;32m░▓[0;1;32;42m▄██[0;1;32;40m▀[0;1;32;42m██▄[0;32m▄[0;37m [0;32m▄[0;1;32;42m▄█[0;1;32;40m▀[0m▄▄ [1;32m▀[0;1;32;42m█▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: DS-OCT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/getready/raw/DS-OCT.ANS
-# Source Revision: archive-sha256:5db6d53d82b489d8a6958b6e8a82943ca364d5f20f6d984147db6a151b543c0a
-# Source SHA-256: f51d01e8a49fede770711fa40881221a1c76de72d173cc84d39acb1b83a43eca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-OCT.ANS by Dead Soul and Cthulu (mISTFUNK 1998); released in getready and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Octopus
-# SAUCE Author: Dead Soul and Cthulu
-# SAUCE Group: mISTFUNK 1998
-# SAUCE Date: 19980704
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Octopus by Dead Soul and Cthulu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-getready-ds-oct
 
 Write-Host '
 [31m████[0;1;31;41m▒▒[0;31m██████▀[0;37m [0;31m▐[0;1;31;41m░[0;31m█[0;1;31;41m▒▓[0;31m██[0;1;31;41m▒▒[0;31m████[0;1;31;41m░░▒▓▓▒░[0;31m█▐▓██[0;1;31;41m░▒▒░[0;31m██[0;1;31;41m▒[0;31m██[0;1;31;41m░[0;31m██▀[0;1;31;41m▒[0;31m█[0;1;31;41m░[0;31m█[0;1;31;41m░░[0;31m█▌▌▐[0;37m  [0;1;31;41moctopus[0m    [31m▐▀[0;1;31;41m▀█[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: 70-haciend.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_resvolution/raw/70-haciend.ans
-# Source Revision: archive-sha256:d0690af9ec91bf96f335196e9f9ddfb5d7ea02d97d300b53301bebaf58d83c35
-# Source SHA-256: 43601ad7bb22630f3ea0ec9b48425832c2e74cfc1571ed9d1c4efc3f8b5034bc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 70-haciend.ans by Tombin (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: 70-haciend.ans by Tombin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-resvolution-70-haciend
 
 Write-Host '
                                                         [35m   ■[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: XE-FLUX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toon0795/raw/XE-FLUX.ANS
-# Source Revision: archive-sha256:bbccc4a82016f54ecf3d0de5a108241c8f74bda668aff69f0bedbbe0a900b9a1
-# Source SHA-256: 53530c5d0fa0e7145608211d8a54fceb482c27bbb8369991db7e5516a2a0874b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XE-FLUX.ANS by Xeryrus (Toon); released in toon0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fluxland
-# SAUCE Author: Xeryrus
-# SAUCE Group: Toon
-# SAUCE Date: 19950628
-# SAUCE Dimensions: 80x92
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Fluxland by Xeryrus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toon0795-xe-flux-part01
 
 Write-Host '
 

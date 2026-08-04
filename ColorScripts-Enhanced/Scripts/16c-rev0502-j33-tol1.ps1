@@ -1,18 +1,4 @@
-﻿# Converted from: J33-TOL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0502/raw/J33-TOL1.ANS
-# Source Revision: archive-sha256:98bfa3cc78c733050b0c647e7e0271e7623e3c31e4f40f218a00b89b2165c771
-# Source SHA-256: b9ade1646f0e5bc1d1c4ad7cdf198a45b55d3da64618ad945d2bcf6099078a68
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: J33-TOL1.ANS by j33p33 (REViVAL); released in rev0502 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: T.O.L. Blue Logo
-# SAUCE Author: j33p33
-# SAUCE Group: REViVAL
-# SAUCE Date: 20020424
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: T.O.L. Blue Logo by j33p33 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0502-j33-tol1
 
 Write-Host '
 [1;30;47m███▄▄  ▄▄▄[0;1;30;40m█▀▄█[0;1;30;47m███[0;1;30;40m███[0;1;30;47m▄▄the ░░▄▄[0;1;30;40m█[0;1;30;47m██[0;1;30;40m██[0;1;30;47m▄▄[0;1;30;40m███▀▀▀▀[0;1;30;47m▓▓ ▄█[0;1;30;40m█▀▀▀▀▀[0;30;47m▓▓[0;1;30;47m▄▄▄▄  ▄▄█▀▀  [0;1;37;47m░▒▓█▀ [0;1;30;47m ▄██[0m

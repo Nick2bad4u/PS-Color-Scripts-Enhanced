@@ -1,13 +1,4 @@
-﻿# Converted from: OX-GALZA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zeit_03/raw/OX-GALZA.ANS
-# Source Revision: archive-sha256:0f9aa90d271cb9f5663c4d5256433330359ce733d79970bb273efd1a8913f551
-# Source SHA-256: 087443240f86da7f91ab97c31ed0c320aa7094bd2a0b647ca78197c0663fd240
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OX-GALZA.ANS by 0xel (zeit_03); released in zeit_03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: OX-GALZA.ANS by 0xel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zeit-03-ox-galza
 
 Write-Host '
 [1m                        [0;1;34;41m        .`[0;41m     [0m

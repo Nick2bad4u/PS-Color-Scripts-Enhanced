@@ -1,18 +1,4 @@
-﻿# Converted from: A-CIADRA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mean9705/raw/A-CIADRA.ANS
-# Source Revision: archive-sha256:96235d9849bffd6005b05e894c29f6b67b3d4c051090948bf653b689870cae3a
-# Source SHA-256: 5b0a35b0323a46b1caa308558fc77532fa31624728a78d2fa5f6a18cb7ff0d5a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: A-CIADRA.ANS by alecs (mean scheme); released in mean9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ciadraw - lite
-# SAUCE Author: alecs
-# SAUCE Group: mean scheme
-# SAUCE Date: 19970427
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ciadraw - lite by alecs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mean9705-a-ciadra
 
 Write-Host '
 

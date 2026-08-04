@@ -1,20 +1,4 @@
-﻿# Converted from: CT-JOSEPH_HELLER-CATCH-22.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0426/raw/CT-JOSEPH_HELLER-CATCH-22.ANS
-# Source Revision: archive-sha256:c759ba228fb42808866da1267838a1ce2371215b87bc273c64f35f4bc653e77d
-# Source SHA-256: 209e537da94cdf0eb192fd38fa51c79311d0267955bcf75acb450d2091928d3e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CT-JOSEPH_HELLER-CATCH-22.ANS by Cthulu (Mistigris); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Catch-22
-# SAUCE Author: Cthulu
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260425
-# SAUCE Dimensions: 80x59
-# SAUCE Font: IBM VGA
-# SAUCE Comments: 1961 first edition, Simon & Schuster. Cover art design by Paul B | acon.
-# Lines: 31-59
-# Columns: 1-80
+﻿# Artwork: Catch-22 by Cthulu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0426-ct-joseph-heller-catch-22-part02
 
 Write-Host '
 [1;37;40m██[0;1;37;44m▌[0;34m██████[0;1;37;44m▐[0;1;37;41m▌[0;31m████[0;1;37;41m▀[0;1;37;44m▄[0;34m████[0;1;37;44m▄[0;34m█████████████████████████████████████████████████████[0;1;37;44m▐[0;1;37;40m████[0m

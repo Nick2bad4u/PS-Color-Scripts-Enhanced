@@ -1,17 +1,4 @@
-﻿# Converted from: STI-SF12.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sf-pak12/raw/STI-SF12.ANS
-# Source Revision: archive-sha256:670b4d0899955b27a97f2ff3c1b8b1a03cafdd9f0df62f9dfb2a28ce3d4f40e7
-# Source SHA-256: 0d0e63648eb3d715ba42873c80cdc9729f8ab8cfe53a2917d8d94b096d788dc7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STI-SF12.ANS by Stimpy (Shaolin's Finest); released in sf-pak12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: SF 12
-# SAUCE Author: Stimpy
-# SAUCE Group: Shaolin's Finest
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: SF 12 by Stimpy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sf-pak12-sti-sf12
 
 Write-Host '
                [1;36m▄▄▄▄▄▄████▓█▄▄▄▄▄▄▄[0m             [1;36m▄▄▄▄▄▄▄█████▄▄▄▄▄▄▄▄[0m

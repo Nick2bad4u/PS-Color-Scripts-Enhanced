@@ -1,18 +1,4 @@
-﻿# Converted from: TG-F1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9703a/raw/TG-F1.ICE
-# Source Revision: archive-sha256:6bff16e5edf32b4898857b0d23616134d84be36d169a4a2f3bc23f437f356dfe
-# Source SHA-256: e5c7ba5934407743256bb027e259c723f920dee7ea78e0863cf76d789d6570c2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-F1.ICE by toon goon (ice); released in ice9703a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fluph
-# SAUCE Author: toon goon
-# SAUCE Group: ice
-# SAUCE Date: 19970322
-# SAUCE Dimensions: 80x60
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: fluph by toon goon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9703a-tg-f1-part01
 
 Write-Host '
        [1m                [0m            [36m ▄[0;1;36m▄[0;36m▌[0m                            [34m░[0;30;44m▓[0;37;40m [0;36;40mtg · ice [0m

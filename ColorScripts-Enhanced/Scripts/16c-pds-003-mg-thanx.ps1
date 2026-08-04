@@ -1,18 +1,4 @@
-﻿# Converted from: MG-THANX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pds-003/raw/MG-THANX.ANS
-# Source Revision: archive-sha256:a5e16e3dfa74397227460ffa3672d3754312817219d0c293cf2236e24ef7a3f6
-# Source SHA-256: 7ce239fbe47c01d89d759c0b9e0c2ea287164fd3a31ed08f30a239232ab99202
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MG-THANX.ANS by Magician (Paradise); released in pds-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Thanx
-# SAUCE Author: Magician
-# SAUCE Group: Paradise
-# SAUCE Date: 19960506
-# SAUCE Dimensions: 80x15
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: Thanx by Magician | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pds-003-mg-thanx
 
 Write-Host '
 [1;30m                                                                                [0m

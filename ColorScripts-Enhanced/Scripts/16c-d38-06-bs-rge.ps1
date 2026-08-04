@@ -1,18 +1,4 @@
-﻿# Converted from: BS-RGE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-06/raw/BS-RGE.ANS
-# Source Revision: archive-sha256:4c9f598b864a923147eb394591cb120a43a087e70e3844ab4ff73e06903fa178
-# Source SHA-256: 7376c3c3e0cdcec045588869609ff9587eb7254e028723e20bcf37dab4f6a398
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-RGE.ANS by Blind Sniper (Department 38); released in d38-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Rage thangx0rz
-# SAUCE Author: Blind Sniper
-# SAUCE Group: Department 38
-# SAUCE Date: 19970426
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Rage thangx0rz by Blind Sniper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-06-bs-rge
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: MR-SALT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira-007a/raw/MR-SALT1.ANS
-# Source Revision: archive-sha256:ee5a82ac7f98955da25871045743238711285c6b7b62811e228512414e2f4a52
-# Source SHA-256: 3382ec40a7b886a24c3c0a874c70eece3d606fb3f41eeb2fecf7856db1911bed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-SALT1.ANS by Mr.Wrong (irato); released in ira-007a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Salt
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: irato
-# SAUCE Date: 19981001
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Salt by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira-007a-mr-salt1
 
 Write-Host '
 [1;33m [0m  [1;30m [0m                       [1;30m▄[0m

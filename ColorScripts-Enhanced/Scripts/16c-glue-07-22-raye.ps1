@@ -1,18 +1,4 @@
-﻿# Converted from: 22-RAYE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-07/raw/22-RAYE.ANS
-# Source Revision: archive-sha256:a59cdeeb5bd11955b787367e64dc4e1290c4bb1080f4d397caa08c4921d24732
-# Source SHA-256: e6d59fe4059df92a5116f87282af75fd83cbcf264e38581f38cb21455c67e27c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 22-RAYE.ANS by catch22 (glue 1998); released in glue-07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ray earth matrix
-# SAUCE Author: catch22
-# SAUCE Group: glue 1998
-# SAUCE Date: 19980218
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ray earth matrix by catch22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-07-22-raye
 
 Write-Host '
 [1;30m22[0;34m▄▄▄[0;37m  [0;34m▄▄ [0;36m▄[0;36;44m██[0;34;46m░[0;36;44m▓░[0;34;46m▓[0;36;44m░[0;34;46m▓[0;34;40m██[0;36;44m░[0;34;46m▓[0;36;44m░[0;34;46m▓[0;34;40m██████[0;1;34;44m░░▒▒▓▓[0;1;34;47m▓▓[0;1;34;40m▀[0;34m [0;37m ▄█████[0;1;30;47m░░▒▒▓▓[0;1;30;40m███[0m [33m▀[0;1;31;43m▀[0;1;31;47m▓▓▒▒▓▓▓[0;1;31;43m█████████████[0m

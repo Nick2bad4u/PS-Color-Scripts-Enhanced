@@ -1,19 +1,4 @@
-﻿# Converted from: MM-H311.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0223/raw/MM-H311.ANS
-# Source Revision: archive-sha256:f6abf3bbd53eb017898fa84b28d2ac43fcb70297788ba675e470ca73794cbbfd
-# Source SHA-256: cbbdb6db2be4ff7a3beb3c547256503f5304857fbe0bbd6a4e6d50752601e561
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-H311.ANS by Mavenmob (Mistigris); released in mist0223 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Sometimes H311
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20230221
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Sometimes H311 by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0223-mm-h311
 
 Write-Host '
 [1;30m111[0;36m0[0;32m1000[0;36m0[0;30m00000[0;1;32m11       1[0;32m000[0;30m00[0;32m11[0;36m0[0;1;30m11[0;1;36m0[0;36m000[0;1;36m0000[0;36m000[0;1;36m0[0;1;30m11[0;36m0[0;32m11[0;30m00[0;32m000[0;1;32m1       11[0;30m00000[0;36m0[0;32m0001[0;36m0[0;1;30m111[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: YA-BDRX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nland-03/raw/YA-BDRX.ANS
-# Source Revision: archive-sha256:7ddb21e455f18ac13bd1d0242ad29db8419e3ff5847d9aa5ea635b533172de76
-# Source SHA-256: df849990f6f8bc0ba821c26b52831b7dc5d4413842f55c04f2d9af72ed522746
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: YA-BDRX.ANS by Yasop (NeveRLanD); released in nland-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Brain Door x
-# SAUCE Author: Yasop
-# SAUCE Group: NeveRLanD
-# SAUCE Date: 19960111
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Brain Door x by Yasop | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nland-03-ya-bdrx
 
 Write-Host '
                [36m,½½½,[0m      [36m,½½½,[0m       [36m,½½½,[0m     [36m,[0m     [36m, ,,½½½½,[0m

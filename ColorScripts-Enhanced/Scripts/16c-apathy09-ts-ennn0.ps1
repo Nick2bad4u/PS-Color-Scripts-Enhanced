@@ -1,18 +1,4 @@
-﻿# Converted from: TS-ENNN0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy09/raw/TS-ENNN0.ANS
-# Source Revision: archive-sha256:4a76e66d96462ed923b8b41dd8e01625078b4c791bda0ef6180f08638853037b
-# Source SHA-256: fd588afbed14483e5e9668141198ef9776957186811cf8685047b497d40b46f8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-ENNN0.ANS by Transient (READ THE INI FILE); released in apathy09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: East 1999
-# SAUCE Author: Transient
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19960428
-# SAUCE Dimensions: 80x25
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: East 1999 by Transient | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy09-ts-ennn0
 
 Write-Host '
 ██████████▀▀           [31m▄█[0;31;43m▓▓░[0;31;40m▄██▄▄░[0m   [37;40m▀███████████████▀[0m  [33;40m▄▄▄▄▄▄▄▄▄▄[0m       [1;30;40m▄▄▄[0m

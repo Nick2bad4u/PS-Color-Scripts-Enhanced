@@ -1,18 +1,4 @@
-﻿# Converted from: TSK-DM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0696/raw/TSK-DM1.ANS
-# Source Revision: archive-sha256:812b4b6a142b76b92307dc090cdf58b49035a2b9097d1dc0a43da5e4fd3f4f2d
-# Source SHA-256: e4a564629571f8eb6a5483355008d912be7f0159500c94812e9377634aa39e23
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-DM1.ANS by The Silent Killer (fire); released in fire0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Devine Madness
-# SAUCE Author: The Silent Killer
-# SAUCE Group: fire
-# SAUCE Date: 19960601
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Devine Madness by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0696-tsk-dm1
 
 Write-Host '
 

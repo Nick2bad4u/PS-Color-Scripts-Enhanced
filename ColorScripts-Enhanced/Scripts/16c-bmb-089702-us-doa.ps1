@@ -1,18 +1,4 @@
-﻿# Converted from: US-DOA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-089702/raw/US-DOA.ANS
-# Source Revision: archive-sha256:e48c38fcf9ad1e8bdcd70f413f385ac4fe4835bcda18b3e71092baf5cce2e35b
-# Source SHA-256: d489a2bed7876e66f68c1d9362a7262d1d330caf66e40bf8dbb9bf1c93f9ed58
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DOA.ANS by pyx + fluxx (bamboosh); released in bmb-089702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: dead on arrival joint
-# SAUCE Author: pyx + fluxx
-# SAUCE Group: bamboosh
-# SAUCE Date: 19880110
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: dead on arrival joint by pyx + fluxx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-089702-us-doa
 
 Write-Host '
 

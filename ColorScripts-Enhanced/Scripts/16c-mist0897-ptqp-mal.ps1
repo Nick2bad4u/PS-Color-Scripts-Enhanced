@@ -1,18 +1,4 @@
-﻿# Converted from: PTQP-MAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0897/raw/PTQP-MAL.ANS
-# Source Revision: archive-sha256:e809b9f8b188286d36406dafe0847bbd16221683918da377bfda26da9187f000
-# Source SHA-256: d0fdfdcc63c1a673c9a1dcd1605a54aef7795e16b5541893a8154bf8298cb54f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PTQP-MAL.ANS by Quip + Platinum (Mistigris); released in mist0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Malpractice
-# SAUCE Author: Platinum / Quip
-# SAUCE Group: Mistigris
-# SAUCE Date: 19970728
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Malpractice by Quip + Platinum | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0897-ptqp-mal
 
 Write-Host '
 [1;35m[0;1;33m[0m  [34m [0m                [32m░ [0m      [35m░░[0m          [35m░▄[0m        [35m░[0m       [35m▄ [0;1;33m [0m

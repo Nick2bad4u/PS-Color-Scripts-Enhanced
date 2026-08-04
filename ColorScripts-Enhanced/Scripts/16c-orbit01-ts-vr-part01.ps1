@@ -1,13 +1,4 @@
-﻿# Converted from: TS-VR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/orbit01/raw/TS-VR.ANS
-# Source Revision: archive-sha256:45e7ee6ca4092d8688f02c906ea29837a94566f7544687f1a5895261397fc2fe
-# Source SHA-256: 932219177e735a60f8cd1231b8a66029be4cea0245927e3a92f2086719e299d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-VR.ANS by Tsunami Surge (orbit01); released in orbit01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: TS-VR.ANS by Tsunami Surge | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-orbit01-ts-vr-part01
 
 Write-Host '
                   [1;34m▀▀▀▀▄▄▄▄[0;34m▒▒▒▒▒[0m         [34m▒    [0;1;34m▄▄▄▄▀▀▀▀[0m

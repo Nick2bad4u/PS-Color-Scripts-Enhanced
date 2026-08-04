@@ -1,18 +1,4 @@
-﻿# Converted from: SK!GRYF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p03_99/raw/SK!GRYF.ANS
-# Source Revision: archive-sha256:c178c224bcee2a65dbc4c7dd9ad93324e20cceb3dbdfecb82089701d5d57e410
-# Source SHA-256: 2e55009483e4de96e8653f8f78f0ed201b535f94fc3fb171fda6b355b77c5662
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!GRYF.ANS by sIMONkING (tHELo0p); released in l0p03_99 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: gRYF dla dRAGONA#5
-# SAUCE Author: sIMONkING
-# SAUCE Group: tHELo0p
-# SAUCE Date: 19990728
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: gRYF dla dRAGONA#5 by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p03-99-sk-gryf
 
 Write-Host '
 [1;30m███████████████████████████████████████████████[0m [33m▀[0;1;33m█[0;1;33;43m▄[0;33m▄█[0;1;33;43m▀▄▄▀[0m [1;30m██[0;33m ▀█[0;1;33m██[0;1;33;43m▀[0m█[1m█[0;33m██[0;1;33m█[0;33m█▀▀ [0;1;30m▄[0;33m [0;1;33;43m ▀▄[0m

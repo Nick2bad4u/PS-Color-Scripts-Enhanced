@@ -1,17 +1,4 @@
-﻿# Converted from: TS-HOTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nectar01/raw/TS-HOTH.ANS
-# Source Revision: archive-sha256:db3812836800ba5278d4a1a62edfe8d06c2001872f9fe3d1064cdbc02eec11ac
-# Source SHA-256: 749eaf56d677167b913b12235f33d70799476480aaca68dcd1e3285112c27d4a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-HOTH.ANS by ts (Teklordz); released in nectar01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: ts
-# SAUCE Group: Teklordz
-# SAUCE Date: 19960211
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: TS-HOTH.ANS by ts | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nectar01-ts-hoth
 
 Write-Host '
                                               ▄▄▄▄▄▄▄▄▄

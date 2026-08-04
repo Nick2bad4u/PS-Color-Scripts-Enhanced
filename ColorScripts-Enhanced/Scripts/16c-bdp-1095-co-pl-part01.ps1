@@ -1,18 +1,4 @@
-﻿# Converted from: CO-PL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bdp-1095/raw/CO-PL.ANS
-# Source Revision: archive-sha256:feca90fbda9a493f724051c182ee8aa6f2f59439eb2bccc041124e296fb1d619
-# Source SHA-256: 77edd75d38d3fbb5052b3a1c0d29ffffb7da42fb23597b0a94d89aa88be4cdda
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CO-PL.ANS by Coeffey (BdP); released in bdp-1095 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Promised Lands
-# SAUCE Author: Coeffey
-# SAUCE Group: BdP
-# SAUCE Date: 19950902
-# SAUCE Dimensions: 80x81
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Promised Lands by Coeffey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bdp-1095-co-pl-part01
 
 Write-Host '
                    [1;30m [0m               ░                                          [1;30m [0m

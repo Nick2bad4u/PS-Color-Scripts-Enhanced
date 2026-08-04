@@ -1,18 +1,4 @@
-﻿# Converted from: CO-HARM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hn-0396/raw/CO-HARM.ANS
-# Source Revision: archive-sha256:f827dbe1087ca28a577825a1c8869a2e99c861bc91c30f2cba6b4b6d664cc2c3
-# Source SHA-256: 13bc79d45e8fdbf26fdd588e40fc7c45691ab73e98eecb0de9071054cf7f2a12
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CO-HARM.ANS by comrade (halluci-nation); released in hn-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: harm logo 9/95
-# SAUCE Author: comrade
-# SAUCE Group: halluci-nation
-# SAUCE Date: 19960229
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: harm logo 9/95 by comrade | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hn-0396-co-harm
 
 Write-Host '
 [36m█████▓███[0;1;30;46m▄[0;1;30;40m▀[0;1;30;46m▄[0;36m█████[0;1;30m▓[0;36m█████████▓██████████[0;1;30;46m▄▀▄[0;36m██████[0;1;30m▓[0;36m███[0;1;37;46m▄▀▄[0;36m██▓████[0;1;30;46m▄[0;1;30;40m▀[0;1;30;46m▄[0;36m██▓███████[0;1;30m▓[0;36m███[0;1;37;46m▀[0;1;37;40m▄[0m

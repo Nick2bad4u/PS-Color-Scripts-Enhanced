@@ -1,18 +1,4 @@
-﻿# Converted from: EN-LP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/208-1/raw/EN-LP.ANS
-# Source Revision: archive-sha256:6cb34ee852f6d91586d49330a9d5bffc831f84b677b4f24f6c820c02c8f757bd
-# Source SHA-256: b1edc89d175a4f76fb258afd7cc859d3c17f0253a35b399646e57a1575216fc7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EN-LP.ANS by el ni$o (room208/plf); released in 208-1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: lost paradise
-# SAUCE Author: el ni$o
-# SAUCE Group: room208/plf
-# SAUCE Date: 19990115
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: lost paradise by el ni$o | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-208-1-en-lp
 
 Write-Host '
           [1;30m▄▄[0m▄[1;30m▄▄[0m      [31m  [0m

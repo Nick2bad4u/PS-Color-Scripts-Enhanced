@@ -1,13 +1,4 @@
-﻿# Converted from: PA-HOTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nectar01/raw/PA-HOTH.ANS
-# Source Revision: archive-sha256:db3812836800ba5278d4a1a62edfe8d06c2001872f9fe3d1064cdbc02eec11ac
-# Source SHA-256: e71a33c11fd25aa2cc2b362de04baf64f40f8c0cc447f74b21ab6aaad87dd757
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PA-HOTH.ANS by Parasite (nectar01); released in nectar01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: PA-HOTH.ANS by Parasite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nectar01-pa-hoth
 
 Write-Host '
                                          [37m [0m    [32m░░[0m

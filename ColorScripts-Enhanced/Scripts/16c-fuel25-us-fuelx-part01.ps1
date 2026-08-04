@@ -1,19 +1,4 @@
-﻿# Converted from: us-fuelx.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel25/raw/us-fuelx.ans
-# Source Revision: archive-sha256:c29da20a4b03d4b9cfd5beb0ae4c26b848a9b8ba121f4b3a4bde4c0893de19b6
-# Source SHA-256: a4bcb532937b242f96cb8acd77bb34982cf0828e6c2330cbceca87bdfac2ade1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-fuelx.ans by Knocturnal + Somnambulist (FUEL); released in fuel25 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fuel logo
-# SAUCE Author: k1 & Somnambulist
-# SAUCE Group: FUEL
-# SAUCE Date: 20180128
-# SAUCE Dimensions: 80x88
-# SAUCE Font: IBM VGA
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Fuel logo by Knocturnal + Somnambulist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel25-us-fuelx-part01
 
 Write-Host '
           [1;33;40m·[0m

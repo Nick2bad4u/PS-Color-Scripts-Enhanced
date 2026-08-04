@@ -1,18 +1,4 @@
-﻿# Converted from: P1-BKNET.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0296/raw/P1-BKNET.ANS
-# Source Revision: archive-sha256:b878afc5fe93380d31442386cef881dac116ae12152b0839cd399054b0276cd7
-# Source SHA-256: 34493ded632ddd3bb74e0695cc718e636893b101f4e1a6d1a6be79ba3d6ba930
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P1-BKNET.ANS by Prisoner#1 (fire); released in fire0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Blacknet
-# SAUCE Author: Prisoner#1
-# SAUCE Group: fire
-# SAUCE Date: 19960202
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Blacknet by Prisoner#1 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0296-p1-bknet
 
 Write-Host '
 

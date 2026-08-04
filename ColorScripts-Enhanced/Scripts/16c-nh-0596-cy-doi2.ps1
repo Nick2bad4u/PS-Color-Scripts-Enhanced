@@ -1,16 +1,4 @@
-﻿# Converted from: CY-DOI2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nh-0596/raw/CY-DOI2.ANS
-# Source Revision: archive-sha256:b8e611f21893c38f3eda63bcb92e8793b532d548453ca8e041e15dcc0ead70ae
-# Source SHA-256: c2341b66759d6b1ef33816ca9c9e279bb0f650947d3bdd6d91efd07cd5cca99b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CY-DOI2.ANS by Crayon (nh-0596); released in nh-0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: Crayon
-# SAUCE Date: 19960405
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: CY-DOI2.ANS by Crayon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nh-0596-cy-doi2
 
 Write-Host '
 

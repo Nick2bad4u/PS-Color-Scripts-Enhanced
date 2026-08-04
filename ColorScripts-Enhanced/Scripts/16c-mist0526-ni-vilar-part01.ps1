@@ -1,20 +1,4 @@
-﻿# Converted from: NI-VILAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0526/raw/NI-VILAR.ANS
-# Source Revision: archive-sha256:96e9c14a0862fcfb7b203f3d94f85e28654461fdbf12521de185a12d5fb418bb
-# Source SHA-256: d90378102176be58d26984d50d439294a94e2a5471c672395642cafcab77c389
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-VILAR.ANS by Nitron (Mistigris); released in mist0526 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Michael Keating Portrait
-# SAUCE Author: Nitron
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260530
-# SAUCE Dimensions: 80x67
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Beloved british actor, well known for roles in Blake's 7 and Eas | tenders
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Michael Keating Portrait by Nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0526-ni-vilar-part01
 
 Write-Host '
                             [1;30m▄▄[0;33m▄▄[0;30;43m▄▄▄▄░[0;33;40m▓▓▓[0;33;47m█████[0;33;40m▓▄▄▄[0m

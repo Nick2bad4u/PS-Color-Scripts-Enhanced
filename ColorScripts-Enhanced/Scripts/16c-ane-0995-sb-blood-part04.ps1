@@ -1,18 +1,4 @@
-﻿# Converted from: SB-BLOOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ane-0995/raw/SB-BLOOD.ANS
-# Source Revision: archive-sha256:127b3be1c11c6b0e7f720c1330d54fac11141b77fd8080ace6fc4e9d7b911bb5
-# Source SHA-256: e5baa53a6870a4e3e821120160b4ba7e2eb149d936d19d730e30828247515223
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SB-BLOOD.ANS by Silver Blade (.:; Anemia ;:.); released in ane-0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Bloodlet fullscreen pic
-# SAUCE Author: Silver Blade
-# SAUCE Group: .:; Anemia ;:.
-# SAUCE Date: 19950823
-# SAUCE Dimensions: 80x199
-# Lines: 150-199
-# Columns: 1-80
+﻿# Artwork: Bloodlet fullscreen pic by Silver Blade | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ane-0995-sb-blood-part04
 
 Write-Host '
 [1;31;45m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m [1;33;43m▒░░░ [0;33m▓▓[0;36m [0;33m▓▄▄▀▀▀▀  ░[0m     [36m■▄▓▒[0;1;36;46m░░▓█[0;36m [0;1;30m▓████[0;1;30;47m▓[0;1;30;40m█████▓█████▀▀▀▄▓[0m

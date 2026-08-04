@@ -1,18 +1,4 @@
-﻿# Converted from: US-SOI!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9707/raw/US-SOI!.ANS
-# Source Revision: archive-sha256:bfcb83c6d9eb9beac4e313e6cb4a06c0bdcb3b894eaa2b7afbdde4d6e5181bec
-# Source SHA-256: 09c25326e956452e0940a75cc5398242091c06338bb193fbadfbce5d62eebff8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SOI!.ANS by Minotaur + Blaze-Infinite (maiden^brazil); released in mdn-9707 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: smell of incense logo
-# SAUCE Author: blaze + minotaur
-# SAUCE Group: maiden^brazil
-# SAUCE Date: 19800101
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: smell of incense logo by Minotaur + Blaze-Infinite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9707-us-soi
 
 Write-Host '
 [33m░  [0;31m [0;33m             [0m

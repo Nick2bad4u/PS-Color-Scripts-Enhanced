@@ -1,18 +1,4 @@
-﻿# Converted from: FS-IMAGE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira1097a/raw/FS-IMAGE.ANS
-# Source Revision: archive-sha256:07d85d7b1ace3ea382bd86ac8e385803a9939676404af93c0be4c41385f607a2
-# Source SHA-256: 5b6b3499b455e6e10abf41c5d153fbb73b239e35e0dbba22458dd0e77b93e871
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FS-IMAGE.ANS by Flying Squirrel (Irato); released in ira1097a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Images...
-# SAUCE Author: Flying Squirrel
-# SAUCE Group: Irato
-# SAUCE Date: 19970929
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Images... by Flying Squirrel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira1097a-fs-image
 
 Write-Host '
      [31m    [0m   [35m▀▄▄[0m    [31m [0m                       [31m                  [0m

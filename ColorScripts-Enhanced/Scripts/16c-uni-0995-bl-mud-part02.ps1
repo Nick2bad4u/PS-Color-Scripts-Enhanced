@@ -1,18 +1,4 @@
-﻿# Converted from: BL-MUD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0995/raw/BL-MUD.ANS
-# Source Revision: archive-sha256:66f11d43d10b981d3ff2235c6fadd1403a507952ad88040c9eb9cd5142a4f4b1
-# Source SHA-256: a8d3df208d0b1810be5f4d3bdcee653972af23fa012a2d0df9e6d3faadcaa6b2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BL-MUD.ANS by Black Lightning (Union); released in uni-0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: M.U.D.
-# SAUCE Author: Black Lightning
-# SAUCE Group: Union
-# SAUCE Date: 19950730
-# SAUCE Dimensions: 80x25
-# Lines: 42-79
-# Columns: 1-80
+﻿# Artwork: M.U.D. by Black Lightning | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0995-bl-mud-part02
 
 Write-Host '
 [1;34;40m  ▐▌  ▓  ▄■▒   [0;33m▄▄▄[0;1;31;43m░░░▒▒[0;33m▄[0;1;31m▄  [0;1;34m▀▒░░    [0;1;31m▄[0m              [1;34m▐[0;1;34;46m▓[0m [1;34;40m▀[0;1;34;46m▓[0;1;34;40m▓▄[0m        [1;34;40m▀■   ▒░[0m

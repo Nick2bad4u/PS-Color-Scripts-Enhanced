@@ -1,13 +1,4 @@
-﻿# Converted from: UC-LIQ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blnt0994/raw/UC-LIQ.ANS
-# Source Revision: archive-sha256:26305db106b5b18d3756a7eb9445ee1ed99e643f39d1325d10c3335a2935484a
-# Source SHA-256: a94b732e31e9580ce162b59a2d670d0f856be4923db8b8bc38a75b60b724581f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UC-LIQ.ANS by Unknown Comic (blnt0994); released in blnt0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 24-69
-# Columns: 1-80
+﻿# Artwork: UC-LIQ.ANS by Unknown Comic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blnt0994-uc-liq-part02
 
 Write-Host '
      [1;30m▄▄ [0m▄▄▄▄▄▄▄▄▄▄▐     [1;30m▄▄ [0m▄▄▄▄▄▄▄▄▄▄▐     [1;30m▄▄ [0m▄▄▄▄▄▄▄▄▄▄▐     [1;30m▄▄ [0m▄▄▄▄▄▄▄▄▄▄▐

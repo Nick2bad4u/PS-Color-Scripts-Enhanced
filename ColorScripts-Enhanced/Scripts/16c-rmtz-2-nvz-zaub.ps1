@@ -1,18 +1,4 @@
-﻿# Converted from: NVZ-ZAUB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmtz-2/raw/NVZ-ZAUB.ANS
-# Source Revision: archive-sha256:4098da1ce5096b58e9d8e2d422f1498dadae3c1a4608ab2bce3811e49527bb5d
-# Source SHA-256: 1617c2553e5ea67ea6941c97f89bc37041623eb5af7f10b974db04504fbd488e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NVZ-ZAUB.ANS by N0ViCE (rmtz); released in rmtz-2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ZT BBS Logo- many RPG related files
-# SAUCE Author: N0ViCE
-# SAUCE Group: rmtz
-# SAUCE Date: 19960714
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: ZT BBS Logo- many RPG related files by N0ViCE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmtz-2-nvz-zaub
 
 Write-Host '
  [1;30m█[0;34m▐███[0;1;34;44mO[0;34m█████████[0;32;44m.[0;34;40m██[0;1;34;44mO[0;34m██████[0;1;34;44m.[0;34m███[0;1;34;44mO[0;34m███[0;32;44m:[0;34;40m████[0;32;44mo[0;34;40m███[0;32;44m.[0;34;40m██[0;1;34;44mO[0;34m█████[0;1;34;44m.[0;34m█████[0;32;44m.[0;34;40m█████[0;1;34;44mo[0;34m██████[0;1;34;44mo[0;34m███▌[0;1;30m█[0m

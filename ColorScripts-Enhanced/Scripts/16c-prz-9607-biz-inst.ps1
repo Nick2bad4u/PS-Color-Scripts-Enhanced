@@ -1,18 +1,4 @@
-﻿# Converted from: BIZ-INST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/prz-9607/raw/BIZ-INST.ANS
-# Source Revision: archive-sha256:c9c5cc7ecf1f26596c4d88f592166c82d585c7e5de1be5fa6d5e25ebed6d7d14
-# Source SHA-256: 1841b5947e186609d11ceb1304c27642089a7c28d8deb980892913563e16f03b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BIZ-INST.ANS by bizzarro (pharazoone); released in prz-9607 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: instinct
-# SAUCE Author: bizzarro
-# SAUCE Group: pharazoone
-# SAUCE Date: 19960616
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: instinct by bizzarro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-prz-9607-biz-inst
 
 Write-Host '
            [35m▄[0;1;30;45m░[0;35m▄[0;37m [0;35m                                       [0m       [35m▄[0;1;31;45m░[0;35m▄[0m

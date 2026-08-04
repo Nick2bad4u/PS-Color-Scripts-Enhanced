@@ -1,13 +1,4 @@
-﻿# Converted from: S4-SE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-17a/raw/S4-SE.ANS
-# Source Revision: archive-sha256:48f4edf0151e9ab7fcc03c92751eee7c707c5fac397a0d4c55a2d7e47ad1e75a
-# Source SHA-256: 277588156bd502b32cee31f71e4fd436520de1de79b8c4f5ef8bc2ece68380c2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S4-SE.ANS by Static Addiction (rca-17a), with an in-source letterform credit to PhonyEye; released in rca-17a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: S4-SE.ANS by Static Addiction | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-17a-s4-se
 
 Write-Host '
 [1;30m[0m

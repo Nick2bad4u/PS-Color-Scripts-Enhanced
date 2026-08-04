@@ -1,18 +1,4 @@
-﻿# Converted from: RD-FORM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-1196/raw/RD-FORM1.ANS
-# Source Revision: archive-sha256:6ef6d0fc5e98023ae397158b861ea8c1f97c8bf9ea116a4660fdbca6650c96ff
-# Source SHA-256: d902c551af96d5de7b2ed827893868c432f3744b6786588283552512af58dd30
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD-FORM1.ANS by raider (mop); released in opx-1196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: infoformus nukus
-# SAUCE Author: raider
-# SAUCE Group: mop
-# SAUCE Date: 19960822
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: infoformus nukus by raider | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-1196-rd-form1
 
 Write-Host '
 [1;30;47m▄▒▓▒▀▓█[0;1;30;40m▒[0;1;30;47m▓[0;1;30;40m▀▒[0;1;30;47m▓▓▀[0;1;30;40m▄▄▒■[0m [1;30m░[0m [33m░[0;1;30m ▒▄█▒[0;1;30;47m▓[0;1;30;40m▄▓█[0;1;30;47m▓█▓█[0;1;30;40m▄▒▄■ [0m [33m▒▄[0;37m  [0;33m                                 [0;37m [0;33m▓[0m

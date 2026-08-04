@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-PLST2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0597/raw/IZ-PLST2.ANS
-# Source Revision: archive-sha256:100499c687593fd78c29adf06f5899e8c0d61223958e380a9c31aadb955ab06d
-# Source SHA-256: c58a4ff13352d99d69ea48cb252d7d5782ef24c1dbfef1eafe07981840c5e0d2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-PLST2.ANS by ize (fusion); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: plastic emag interface
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19970427
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: plastic emag interface by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0597-iz-plst2
 
 Write-Host '
     [30;44m▓[0;34;40m░[0m                             [34;40m░[0;30;44m▓[0m                  [30;44m▓[0;34;40m░[0m            [1;36;40m  [0;36m▄[0;1;36m▄▄▄[0;1;37m▄▄▄[0;1;36m [0m

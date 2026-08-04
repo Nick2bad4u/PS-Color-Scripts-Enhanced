@@ -1,13 +1,4 @@
-﻿# Converted from: HOT-BBS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-h/raw/HOT-BBS.ANS
-# Source Revision: archive-sha256:7068b357ce9157c2fc528e061d3e596c42eeb1c0dd94aec3ec2b0881323e8e5b
-# Source SHA-256: c4e6e3daba57e8a47b1bb309be44802a7937f0cf127844b073e9430ebedf581e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HOT-BBS.ANS by Smooth (ansis-h); released in ansis-h and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: HOT-BBS.ANS by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-h-hot-bbs
 
 Write-Host '
             [1;33m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m        [1;33m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

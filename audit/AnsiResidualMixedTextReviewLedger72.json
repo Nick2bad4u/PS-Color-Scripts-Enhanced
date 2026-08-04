@@ -1,0 +1,984 @@
+{
+  "batch": 72,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch72-reactions-interjections-and-usage-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 74,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "f1153d06bae8c512da4d33c6b1db3ad3c4f8afd6a3f47fb39e2b1920154e27d7",
+          "expectedRenderedSha256": "2115c8b2d8031330567e0e4d6c25b7853d7fba266f42c028d36d81a29aab214a",
+          "row": 39,
+          "sha256": "ed73467f7eb80c208f6f11298dc63326783fbb79aafa997a0d7baf349fd515f0"
+        }
+      ],
+      "file": "16c-13-solo1-13-time.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable reaction, interjection, audience signoff, placeholder instruction, usage note, or production aside. Titles, identity, attribution, dedications, authored dialogue, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch71-reactions-current.json",
+        "temp/text-blanking-continuation/batch72-reactions-context.txt",
+        "temp/text-blanking-continuation/batch72-reactions-full-context.txt",
+        "temp/text-blanking-continuation/batch72-curation-review.json",
+        "temp/text-blanking-continuation/batch72-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch72-reactions-interjections-and-usage-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "45b8c85e3c786fed559c3d25909f47177025255ffb06e7db3340984db543bcde",
+          "expectedRenderedSha256": "26ba19fc29fcf03a78f6a097cb719a6be2e20cb0df47c77e73e0335ca7746e97",
+          "row": 19,
+          "sha256": "4a5f1bf44c27f622376621e51d3b4f05f795076ce050fd6886f4f9c754823584"
+        }
+      ],
+      "file": "16c-acdu0996-cz-kc3.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable reaction, interjection, audience signoff, placeholder instruction, usage note, or production aside. Titles, identity, attribution, dedications, authored dialogue, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch71-reactions-current.json",
+        "temp/text-blanking-continuation/batch72-reactions-context.txt",
+        "temp/text-blanking-continuation/batch72-reactions-full-context.txt",
+        "temp/text-blanking-continuation/batch72-curation-review.json",
+        "temp/text-blanking-continuation/batch72-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch72-reactions-interjections-and-usage-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 74,
+              "start": 57
+            }
+          ],
+          "expectedRawSha256": "3f8215aed45f1e60d00863121dafc4af8bc0cef3cab38caf1d2bb02bc2db241c",
+          "expectedRenderedSha256": "13e42b41431738f97d4dac41b66799f998e90bc9d90bb175154dcbdea4da1d8c",
+          "row": 25,
+          "sha256": "a327f685ad1dadff8a2bc4f429e526ae40988d79b2ceeaeddfc5f8bfadee658d"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 57
+            }
+          ],
+          "expectedRawSha256": "d7d1d5b67360203387f358f7b6ecad2033325264f83f87e8a398df2494280777",
+          "expectedRenderedSha256": "26c79f6073c144717e7bfa9e995f54702939384a81652b9b4be124bf9b97c71f",
+          "row": 26,
+          "sha256": "fb408680b312ca362f4e0331214e8ee20be6a88a037a27a9641ad1a2c37a76aa"
+        }
+      ],
+      "file": "16c-allnc-01-la-colbx-part01.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable reaction, interjection, audience signoff, placeholder instruction, usage note, or production aside. Titles, identity, attribution, dedications, authored dialogue, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch71-reactions-current.json",
+        "temp/text-blanking-continuation/batch72-reactions-context.txt",
+        "temp/text-blanking-continuation/batch72-reactions-full-context.txt",
+        "temp/text-blanking-continuation/batch72-curation-review.json",
+        "temp/text-blanking-continuation/batch72-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch72-reactions-interjections-and-usage-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 45,
+              "start": 31
+            }
+          ],
+          "expectedRawSha256": "5f3f0e8076ce323604f5364eafd0dabb65b9bc95ce357fdbbf64c0e07d6160fb",
+          "expectedRenderedSha256": "5a5d51f9043518f7a2c935199c23aaf78ad627e8eec47a6c3cd70aaf1286f6b2",
+          "row": 18,
+          "sha256": "c01ffb324f3dd0fda5383ed3a3d12d6b27624c1db2862f4d9b846f7ed20d6adb"
+        }
+      ],
+      "file": "16c-arc-16-tii-sae.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable reaction, interjection, audience signoff, placeholder instruction, usage note, or production aside. Titles, identity, attribution, dedications, authored dialogue, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch71-reactions-current.json",
+        "temp/text-blanking-continuation/batch72-reactions-context.txt",
+        "temp/text-blanking-continuation/batch72-reactions-full-context.txt",
+        "temp/text-blanking-continuation/batch72-curation-review.json",
+        "temp/text-blanking-continuation/batch72-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch72-reactions-interjections-and-usage-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 65
+            }
+          ],
+          "expectedRawSha256": "f294a7f0b86066f50d4e44c1db3935bbfa8820546ebe0cf5f56244abba195704",
+          "expectedRenderedSha256": "aa102254175bbb4d735817ae2dacba614bf148b46a6f4b6dddbab0b63b4cad9c",
+          "row": 22,
+          "sha256": "d5eeccea6fbe4ea393d1f07bdba68632a519c4a5ff7f0a1b35fad7dafb17333e"
+        }
+      ],
+      "file": "16c-blde9602-nf-dnk2.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable reaction, interjection, audience signoff, placeholder instruction, usage note, or production aside. Titles, identity, attribution, dedications, authored dialogue, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch71-reactions-current.json",
+        "temp/text-blanking-continuation/batch72-reactions-context.txt",
+        "temp/text-blanking-continuation/batch72-reactions-full-context.txt",
+        "temp/text-blanking-continuation/batch72-curation-review.json",
+        "temp/text-blanking-continuation/batch72-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch72-reactions-interjections-and-usage-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 54,
+              "start": 38
+            }
+          ],
+          "expectedRawSha256": "9fb4d29eb9b3e6a77fb5926376133f601576e01f4a473d761b7c2fe60a5c0372",
+          "expectedRenderedSha256": "7e5795918f424a3491f36e66a88ac5b22c5cb1e878e6f760230777ba90445f71",
+          "row": 7,
+          "sha256": "34d085c1246b464ab1cd13562ce438b543e5538146e9e44c921a6c013c726ed5"
+        }
+      ],
+      "file": "16c-bleach05-bs-pi1-part01.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable reaction, interjection, audience signoff, placeholder instruction, usage note, or production aside. Titles, identity, attribution, dedications, authored dialogue, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch71-reactions-current.json",
+        "temp/text-blanking-continuation/batch72-reactions-context.txt",
+        "temp/text-blanking-continuation/batch72-reactions-full-context.txt",
+        "temp/text-blanking-continuation/batch72-curation-review.json",
+        "temp/text-blanking-continuation/batch72-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch72-reactions-interjections-and-usage-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 62,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "67855f700699526bcfca524415893d436891511d8f4fa3d45aa25b8b27994de2",
+          "expectedRenderedSha256": "db78cc59f1b0cd599844545b653bccd96418cb57a65a4cb5f32028c7fe057ad8",
+          "row": 4,
+          "sha256": "5fef0c840ebcefad74e5dcf68cb8e3ee4debe0f598bb9754f0b0425f681325bf"
+        }
+      ],
+      "file": "16c-bmbook14-us-gulp.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable reaction, interjection, audience signoff, placeholder instruction, usage note, or production aside. Titles, identity, attribution, dedications, authored dialogue, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch71-reactions-current.json",
+        "temp/text-blanking-continuation/batch72-reactions-context.txt",
+        "temp/text-blanking-continuation/batch72-reactions-full-context.txt",
+        "temp/text-blanking-continuation/batch72-curation-review.json",
+        "temp/text-blanking-continuation/batch72-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch72-reactions-interjections-and-usage-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 7,
+              "start": 4
+            }
+          ],
+          "expectedRawSha256": "144a8b08f012cc31a85557a5dd17a1c9a491211cb4e1f0249be3f9f4be050486",
+          "expectedRenderedSha256": "163e333b895a1ff038ce9c87883c3d2942e95a8aebb42309c5823a4747e76172",
+          "row": 25,
+          "sha256": "34c294c2795718aff7a99521d0338660b971c510d6a9943581b1e3b700711baf"
+        }
+      ],
+      "file": "16c-d38-03-mc-insp5.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable reaction, interjection, audience signoff, placeholder instruction, usage note, or production aside. Titles, identity, attribution, dedications, authored dialogue, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch71-reactions-current.json",
+        "temp/text-blanking-continuation/batch72-reactions-context.txt",
+        "temp/text-blanking-continuation/batch72-reactions-full-context.txt",
+        "temp/text-blanking-continuation/batch72-curation-review.json",
+        "temp/text-blanking-continuation/batch72-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch72-reactions-interjections-and-usage-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 7,
+              "start": 4
+            }
+          ],
+          "expectedRawSha256": "144a8b08f012cc31a85557a5dd17a1c9a491211cb4e1f0249be3f9f4be050486",
+          "expectedRenderedSha256": "163e333b895a1ff038ce9c87883c3d2942e95a8aebb42309c5823a4747e76172",
+          "row": 25,
+          "sha256": "34c294c2795718aff7a99521d0338660b971c510d6a9943581b1e3b700711baf"
+        }
+      ],
+      "file": "16c-d38-05-mc-fade2.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable reaction, interjection, audience signoff, placeholder instruction, usage note, or production aside. Titles, identity, attribution, dedications, authored dialogue, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch71-reactions-current.json",
+        "temp/text-blanking-continuation/batch72-reactions-context.txt",
+        "temp/text-blanking-continuation/batch72-reactions-full-context.txt",
+        "temp/text-blanking-continuation/batch72-curation-review.json",
+        "temp/text-blanking-continuation/batch72-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch72-reactions-interjections-and-usage-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 75,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "e285ba3a3c71d9bc05d9a26bce2cac78ae9da6af35b4eaa8cb2d6143455eb45b",
+          "expectedRenderedSha256": "031b7bba8dd44fa10689f87eada33434ed080d4d45a2af553c3816ce27d388e7",
+          "row": 17,
+          "sha256": "0ffa2a76de1c63715245066390a86be868a5270805c7e7bdc87dcb928b3a68c0"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 74,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "2a371763cd35810e2242c1c2adbe480d44aa982031df77a9b520a6b9c7b7a458",
+          "expectedRenderedSha256": "0273e15c15ed1440b34b4d9e4b0ef7b8a0cb1df7249c12f5a7c86344e2dc0f64",
+          "row": 19,
+          "sha256": "8e62815c1e35f4b40e99fbd2f72166692349e790efd4a4fa362398663b284d66"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 66,
+              "start": 59
+            }
+          ],
+          "expectedRawSha256": "c5b742269f6c4fa37a1fb693a5d3dc3a218c04e0b6daaf9ba98a5bcefc3da134",
+          "expectedRenderedSha256": "7332e4f5c8951f628ef2c6a5b8fff59543a382ce4fec30cfc7514773b0ddfcd8",
+          "row": 20,
+          "sha256": "1349b6ff66febd4fc55fce89392f4645c0c95a14baf711193b12de1492735ddc"
+        }
+      ],
+      "file": "16c-d38-05-mc-holdn.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable reaction, interjection, audience signoff, placeholder instruction, usage note, or production aside. Titles, identity, attribution, dedications, authored dialogue, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch71-reactions-current.json",
+        "temp/text-blanking-continuation/batch72-reactions-context.txt",
+        "temp/text-blanking-continuation/batch72-reactions-full-context.txt",
+        "temp/text-blanking-continuation/batch72-curation-review.json",
+        "temp/text-blanking-continuation/batch72-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch72-reactions-interjections-and-usage-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 67,
+              "start": 63
+            }
+          ],
+          "expectedRawSha256": "27229de5126b2f0576ff71327131dd16ffe69ee566efca3b712f7d57ef968f50",
+          "expectedRenderedSha256": "d03efbf15c775e01bd7fdc4cedcc8c229eb97bb792ae13c0445d4bd1ed59979f",
+          "row": 28,
+          "sha256": "cfc8177e5c895de028b365bac7a75daa0c009cecbf0e6abce85b7d3704869bd9"
+        }
+      ],
+      "file": "16c-fog03-if-ah-part03.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable reaction, interjection, audience signoff, placeholder instruction, usage note, or production aside. Titles, identity, attribution, dedications, authored dialogue, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch71-reactions-current.json",
+        "temp/text-blanking-continuation/batch72-reactions-context.txt",
+        "temp/text-blanking-continuation/batch72-reactions-full-context.txt",
+        "temp/text-blanking-continuation/batch72-curation-review.json",
+        "temp/text-blanking-continuation/batch72-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch72-reactions-interjections-and-usage-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 17,
+              "start": 6
+            }
+          ],
+          "expectedRawSha256": "f45fba9329c31dd9ba0507f2e6825115a7af7fd033291d9cc9570842a79f9cc2",
+          "expectedRenderedSha256": "8810ff7aeeddbf211152610d160ad8ad7db2326634aa3f2133a2ca08e45712bb",
+          "row": 17,
+          "sha256": "392c98e6107f3fa7312c810c52ed6c9988941fcc2abe59a2cab971a3910db282"
+        }
+      ],
+      "file": "16c-force-16-ec-tir.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable reaction, interjection, audience signoff, placeholder instruction, usage note, or production aside. Titles, identity, attribution, dedications, authored dialogue, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch71-reactions-current.json",
+        "temp/text-blanking-continuation/batch72-reactions-context.txt",
+        "temp/text-blanking-continuation/batch72-reactions-full-context.txt",
+        "temp/text-blanking-continuation/batch72-curation-review.json",
+        "temp/text-blanking-continuation/batch72-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch72-reactions-interjections-and-usage-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 40,
+              "start": 32
+            }
+          ],
+          "expectedRawSha256": "ed71932b82687dbd6f579eb1650bb752615523c695a386eb9504bc45fdc7f679",
+          "expectedRenderedSha256": "99a3245ada398508e4268ef945a0b16073f4c387fb2a37727c4606add5edc47b",
+          "row": 13,
+          "sha256": "4e8de1aae0758402ae4a17e85003d9ce9a6821f439dba398ec2fbacbef9c21df"
+        }
+      ],
+      "file": "16c-fuel12-tk-edge-part01.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable reaction, interjection, audience signoff, placeholder instruction, usage note, or production aside. Titles, identity, attribution, dedications, authored dialogue, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch71-reactions-current.json",
+        "temp/text-blanking-continuation/batch72-reactions-context.txt",
+        "temp/text-blanking-continuation/batch72-reactions-full-context.txt",
+        "temp/text-blanking-continuation/batch72-curation-review.json",
+        "temp/text-blanking-continuation/batch72-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch72-reactions-interjections-and-usage-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 17,
+              "start": 11
+            }
+          ],
+          "expectedRawSha256": "86768450666d0dbb90a78bb6757713293a5de43edf5776dd89fcb0a7d5cef6a9",
+          "expectedRenderedSha256": "7e992b0c0055aa0cce77cc2c380e66fb043f36bde3c47529890809ed2c664fd7",
+          "row": 18,
+          "sha256": "65d76696657cd4d6005ff6db5a9efc227681575f6ce503ceb03283c163608577"
+        }
+      ],
+      "file": "16c-hmd-0696-fl-diet1.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable reaction, interjection, audience signoff, placeholder instruction, usage note, or production aside. Titles, identity, attribution, dedications, authored dialogue, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch71-reactions-current.json",
+        "temp/text-blanking-continuation/batch72-reactions-context.txt",
+        "temp/text-blanking-continuation/batch72-reactions-full-context.txt",
+        "temp/text-blanking-continuation/batch72-curation-review.json",
+        "temp/text-blanking-continuation/batch72-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch72-reactions-interjections-and-usage-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 34,
+              "start": 27
+            }
+          ],
+          "expectedRawSha256": "0afee34d066f21dc6f420c9fea30337d65a57ba13bd3dc5c6c2ab6080c921356",
+          "expectedRenderedSha256": "a72e2c1f83718673899e16ccd85a3a670033276be3a85e1a9e4262cb84ae7f61",
+          "row": 4,
+          "sha256": "b19379e6c573784b9cec608bda454896d3eb8799ae06d6fa2ca4fae6236b7827"
+        }
+      ],
+      "file": "16c-hype-07-pc-colly.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable reaction, interjection, audience signoff, placeholder instruction, usage note, or production aside. Titles, identity, attribution, dedications, authored dialogue, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch71-reactions-current.json",
+        "temp/text-blanking-continuation/batch72-reactions-context.txt",
+        "temp/text-blanking-continuation/batch72-reactions-full-context.txt",
+        "temp/text-blanking-continuation/batch72-curation-review.json",
+        "temp/text-blanking-continuation/batch72-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch72-reactions-interjections-and-usage-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 79,
+              "start": 72
+            }
+          ],
+          "expectedRawSha256": "f8600d3038f262e71c8942177b5f9fdb94c4d662244100c1440e2a112962dd39",
+          "expectedRenderedSha256": "d4b9dbfc8998fdd5f74f17d1bc64de7f85d1eef4b150f9163d5faa86b8c7af76",
+          "row": 17,
+          "sha256": "2131da41add4f510a80249a8e49cdc0a020593be59555ba0e93331ef4e368572"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 79,
+              "start": 71
+            }
+          ],
+          "expectedRawSha256": "6df0f80dacfba4c3969ac942a433f76a3a84c60c31fe94951009fdcd06f8199a",
+          "expectedRenderedSha256": "8a73ab0e728cac04fd1e56b850996f49a06c283b8be445aed317d02c168a9fcd",
+          "row": 19,
+          "sha256": "9fb073beab8c42648d20bb16702b8d0ff1c7ab91d47d239f6b779eb3f499551d"
+        }
+      ],
+      "file": "16c-jive1196-cp-jvpro.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable reaction, interjection, audience signoff, placeholder instruction, usage note, or production aside. Titles, identity, attribution, dedications, authored dialogue, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch71-reactions-current.json",
+        "temp/text-blanking-continuation/batch72-reactions-context.txt",
+        "temp/text-blanking-continuation/batch72-reactions-full-context.txt",
+        "temp/text-blanking-continuation/batch72-curation-review.json",
+        "temp/text-blanking-continuation/batch72-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch72-reactions-interjections-and-usage-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 30,
+              "start": 20
+            }
+          ],
+          "expectedRawSha256": "ac5e93d0d22924d6df6310807f291c6f26b90f84bae5feb43d57b290c7db5b14",
+          "expectedRenderedSha256": "ff0fd8563bf837c438f5057a5610213f1b3a757a8730cfb8082ef8b0aac1f57b",
+          "row": 17,
+          "sha256": "3bcfd496aded73dc795eddf6e581034709553461c39e44966ab89aee31160bc7"
+        }
+      ],
+      "file": "16c-mdn-9705-rs-pc.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable reaction, interjection, audience signoff, placeholder instruction, usage note, or production aside. Titles, identity, attribution, dedications, authored dialogue, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch71-reactions-current.json",
+        "temp/text-blanking-continuation/batch72-reactions-context.txt",
+        "temp/text-blanking-continuation/batch72-reactions-full-context.txt",
+        "temp/text-blanking-continuation/batch72-curation-review.json",
+        "temp/text-blanking-continuation/batch72-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch72-reactions-interjections-and-usage-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 78,
+              "start": 75
+            }
+          ],
+          "expectedRawSha256": "40f5116f555a660f56ca1f20262f9d8a8825185e08461f8cdf1b9da36479daae",
+          "expectedRenderedSha256": "775833c3d28cd7334fdb0519a17fd19ac6818cc6c11e79c1bf43184e434b4153",
+          "row": 20,
+          "sha256": "2f00c1bd9515624a7c86771f283bbb121a13b41f81b6d5056501eeda541cd7d6"
+        }
+      ],
+      "file": "16c-mist1015-hf-goodmol2-part05.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable reaction, interjection, audience signoff, placeholder instruction, usage note, or production aside. Titles, identity, attribution, dedications, authored dialogue, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch71-reactions-current.json",
+        "temp/text-blanking-continuation/batch72-reactions-context.txt",
+        "temp/text-blanking-continuation/batch72-reactions-full-context.txt",
+        "temp/text-blanking-continuation/batch72-curation-review.json",
+        "temp/text-blanking-continuation/batch72-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch72-reactions-interjections-and-usage-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 46,
+              "start": 35
+            }
+          ],
+          "expectedRawSha256": "8a053bc071f308ffb4b0aaa81325ddd1f3e508b2ce1ae30e50908259f2048196",
+          "expectedRenderedSha256": "9933e23de11a0ab3cdf6436b88f3d95f841c480fa9e6601f8448ed6beb543a63",
+          "row": 30,
+          "sha256": "8b4474718ce0c2c987e597ada12ad0ab188d17addff2479ac6b418c95a68aa4e"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 48,
+              "start": 34
+            }
+          ],
+          "expectedRawSha256": "4979b7dc458b4696b65dfe1e255d21eaf77f516083553214ca8764028eb057d5",
+          "expectedRenderedSha256": "a3c0d2ff5ec8cabce17fa20d72eb0f6d2a7b9a48366593c480ea420b3f063956",
+          "row": 33,
+          "sha256": "8bf6250927085d73d5a8e20a32d5696320a49e9c28435a3f060dc37cd747f119"
+        }
+      ],
+      "file": "16c-mist1294-dt-euph1-part04.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable reaction, interjection, audience signoff, placeholder instruction, usage note, or production aside. Titles, identity, attribution, dedications, authored dialogue, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch71-reactions-current.json",
+        "temp/text-blanking-continuation/batch72-reactions-context.txt",
+        "temp/text-blanking-continuation/batch72-reactions-full-context.txt",
+        "temp/text-blanking-continuation/batch72-curation-review.json",
+        "temp/text-blanking-continuation/batch72-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch72-reactions-interjections-and-usage-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 69,
+              "start": 57
+            }
+          ],
+          "expectedRawSha256": "305a94f46c539cd356fd6e105e636d44f960a8cad46b868e4cc6124da477b324",
+          "expectedRenderedSha256": "5c529a52f464a1654278f5234b6450a409765581b709284a7efb4c13d5b159ef",
+          "row": 15,
+          "sha256": "e275f972674811538af09baf173146af7ec33c9456ed8cfda0147e9d8cbdba24"
+        }
+      ],
+      "file": "16c-plf-0198-gsl-afte.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable reaction, interjection, audience signoff, placeholder instruction, usage note, or production aside. Titles, identity, attribution, dedications, authored dialogue, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch71-reactions-current.json",
+        "temp/text-blanking-continuation/batch72-reactions-context.txt",
+        "temp/text-blanking-continuation/batch72-reactions-full-context.txt",
+        "temp/text-blanking-continuation/batch72-curation-review.json",
+        "temp/text-blanking-continuation/batch72-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch72-reactions-interjections-and-usage-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 38,
+              "start": 36
+            }
+          ],
+          "expectedRawSha256": "1666dc0c141694db16b109a6945d0ff1599b4f0646489ecd9a827f6d41b9be3f",
+          "expectedRenderedSha256": "bb8eacd2f680e697b173acb46e6d5a84983f2ee0a0bdac45726aa7329d319989",
+          "row": 28,
+          "sha256": "c103fd424100d1fad2ecac2d232be5c21dafa30cfcae599cd8d3312fc5aff63e"
+        }
+      ],
+      "file": "16c-purg-30a-zb-col30-part03.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable reaction, interjection, audience signoff, placeholder instruction, usage note, or production aside. Titles, identity, attribution, dedications, authored dialogue, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch71-reactions-current.json",
+        "temp/text-blanking-continuation/batch72-reactions-context.txt",
+        "temp/text-blanking-continuation/batch72-reactions-full-context.txt",
+        "temp/text-blanking-continuation/batch72-curation-review.json",
+        "temp/text-blanking-continuation/batch72-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch72-reactions-interjections-and-usage-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 71,
+              "start": 65
+            }
+          ],
+          "expectedRawSha256": "dbfd9c67f7688d8eabdb96c71e23bcbb81da1cc6f8c46f52718d40f57e3776c9",
+          "expectedRenderedSha256": "eb988a3bfb083bf63343762199dc19e0a2914c963cffbb9462efeac813f49e2d",
+          "row": 33,
+          "sha256": "5b1c48501d3587c9402adf390aaa6cccbdf40ad76c770493b5c5200d47e31834"
+        }
+      ],
+      "file": "16c-rags2r2a-sg-03-part02.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable reaction, interjection, audience signoff, placeholder instruction, usage note, or production aside. Titles, identity, attribution, dedications, authored dialogue, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch71-reactions-current.json",
+        "temp/text-blanking-continuation/batch72-reactions-context.txt",
+        "temp/text-blanking-continuation/batch72-reactions-full-context.txt",
+        "temp/text-blanking-continuation/batch72-curation-review.json",
+        "temp/text-blanking-continuation/batch72-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch72-reactions-interjections-and-usage-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 62,
+              "start": 50
+            }
+          ],
+          "expectedRawSha256": "362e45e82c0e7995115dfb7d678dab9773c4e918a94a790a303955af1baac2ec",
+          "expectedRenderedSha256": "0a4a4d1fa6c7a3dc55b5cdd62fefb14d65eac1a8fc02fdcdea8a5be4279bcaba",
+          "row": 18,
+          "sha256": "7bf5574cc838f90762d1d07695526341603d1347946fd7e7e37cc306955a10bc"
+        }
+      ],
+      "file": "16c-rev0302-ize-naoc.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable reaction, interjection, audience signoff, placeholder instruction, usage note, or production aside. Titles, identity, attribution, dedications, authored dialogue, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch71-reactions-current.json",
+        "temp/text-blanking-continuation/batch72-reactions-context.txt",
+        "temp/text-blanking-continuation/batch72-reactions-full-context.txt",
+        "temp/text-blanking-continuation/batch72-curation-review.json",
+        "temp/text-blanking-continuation/batch72-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch72-reactions-interjections-and-usage-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 74,
+              "start": 66
+            }
+          ],
+          "expectedRawSha256": "9d35f54446caec12317f9bb355400bdda166fdac9d48cda5b285f1874631dec6",
+          "expectedRenderedSha256": "7f92140ab1c95c54cf24d5621862fd06d7ddf954ffa3bba8f28d006345b60e13",
+          "row": 12,
+          "sha256": "7c01d619c87da1ebb6fbe183da947f66497bc74c3f99c13bc19e8f77dbdbde8b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 47,
+              "start": 23
+            }
+          ],
+          "expectedRawSha256": "d20632d8ff9a589c91e10b3f9fc84d06e645cb715b0cc1d8338ffcfdc5b0cd68",
+          "expectedRenderedSha256": "2478c7aff628c0914da167a3220a01dea58bde02eb6dd6902782ef722d059592",
+          "row": 13,
+          "sha256": "b42442bb8e9850bea6e3f450397a7c230dcba50b4c80066284a74ad52fdb945b"
+        }
+      ],
+      "file": "16c-riot0897-md-colly-part04.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable reaction, interjection, audience signoff, placeholder instruction, usage note, or production aside. Titles, identity, attribution, dedications, authored dialogue, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch71-reactions-current.json",
+        "temp/text-blanking-continuation/batch72-reactions-context.txt",
+        "temp/text-blanking-continuation/batch72-reactions-full-context.txt",
+        "temp/text-blanking-continuation/batch72-curation-review.json",
+        "temp/text-blanking-continuation/batch72-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch72-reactions-interjections-and-usage-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 70
+            }
+          ],
+          "expectedRawSha256": "5eec26a8a34888aecff36438ab4158ae3c5a6ad20a4d427b647e1197f5c58580",
+          "expectedRenderedSha256": "be8c9da342c6a29b619b251d3c912a487862eb93927c63859a55abba4db120c9",
+          "row": 10,
+          "sha256": "68e1585eca1a91ac0067e1761e04d2dfa161f6da11929fd32d99f34755e99ac7"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 66
+            }
+          ],
+          "expectedRawSha256": "a5b4c04b87d13d830e09fadcf6f4d2de7fc4e46254be8f924f4cd005c82ec073",
+          "expectedRenderedSha256": "5a33a71f2f799b992aac01819c5de2a8304a74f66abd7186892c45dab3da7b99",
+          "row": 11,
+          "sha256": "44ce67ac0db350681abe726af0693741df1055aa35e4d79395e57766e6ffe09b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 65
+            }
+          ],
+          "expectedRawSha256": "8337819e11207f87b5bc49f6dd74761b92940c4b650aae2702976fe2a498a159",
+          "expectedRenderedSha256": "2bfe89a9f24ffd825f81658a1b27a07696bb9d1e3bb17539a59084bd84fe0ce3",
+          "row": 12,
+          "sha256": "3995ce9f8a2f39938bf4148d6dafb6408964b278c43616aad941a059ababfa48"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 64
+            }
+          ],
+          "expectedRawSha256": "7531749f136e5367bd88af0c4ec3008c670fd6593296b27e2ed7b27dc7f6ce54",
+          "expectedRenderedSha256": "0b83e0808124c69081571c03c24855a9b10cfaf2cbd974c991853e38d9da1100",
+          "row": 13,
+          "sha256": "73e30bdb81844fe2295a2c993415db4418f86cde70942f44908ed0a1bc48c1ca"
+        }
+      ],
+      "file": "16c-rvl-0496-pr-sc01.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable reaction, interjection, audience signoff, placeholder instruction, usage note, or production aside. Titles, identity, attribution, dedications, authored dialogue, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch71-reactions-current.json",
+        "temp/text-blanking-continuation/batch72-reactions-context.txt",
+        "temp/text-blanking-continuation/batch72-reactions-full-context.txt",
+        "temp/text-blanking-continuation/batch72-curation-review.json",
+        "temp/text-blanking-continuation/batch72-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch72-reactions-interjections-and-usage-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 20,
+              "start": 6
+            }
+          ],
+          "expectedRawSha256": "43ca951ccbbd63da9d494d3327d83d17615a2dd2a4eb0bf6a8e924c8982b82e3",
+          "expectedRenderedSha256": "bc04c9cde4571e39d708d8179804853653e9a01b44631059712b8befd4ec5068",
+          "row": 32,
+          "sha256": "77b20f97ccc44e8ba664644ea42a6b755cbbcdfd011b01ada88ed17b817a5659"
+        }
+      ],
+      "file": "16c-sae-1al-dlt-sae.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable reaction, interjection, audience signoff, placeholder instruction, usage note, or production aside. Titles, identity, attribution, dedications, authored dialogue, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch71-reactions-current.json",
+        "temp/text-blanking-continuation/batch72-reactions-context.txt",
+        "temp/text-blanking-continuation/batch72-reactions-full-context.txt",
+        "temp/text-blanking-continuation/batch72-curation-review.json",
+        "temp/text-blanking-continuation/batch72-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch72-reactions-interjections-and-usage-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 79,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "becd16a4e4fa1937cc2f035d2d584092fb192a81aa41212f6ad19ef428f2e5cb",
+          "expectedRenderedSha256": "b3ea0e1557ab4da1ea375006284f8aebb717004fa0ba0b422af04c346eac0820",
+          "row": 9,
+          "sha256": "08545fb0f3d1bdc96c65e60297d90715b6f905c2aaa05cfd02859261c6270283"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 76,
+              "start": 68
+            }
+          ],
+          "expectedRawSha256": "be8e8bee39fa0bba155b0fe213306be14f282d68615e345182ad02dd98ba2179",
+          "expectedRenderedSha256": "1b49424e24cd76a21e9074a8bdaeef4378df55ccdf221e61f11c9b6257098758",
+          "row": 10,
+          "sha256": "95357f1d1afa2edfeeec75797ff562a4b0a692b484d390a361da1a1a12391b78"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 79,
+              "start": 75
+            }
+          ],
+          "expectedRawSha256": "24ab8db6e36137a383bd3a4b5e52dd098bf005b3a1619bca670ef9189a9779a5",
+          "expectedRenderedSha256": "99f50a971a2674cd8fe6f2ae3aeb8a2aec75aef497bb654461412afaf9d0598b",
+          "row": 11,
+          "sha256": "daa82f9de6c75a9bbadddcc8e8a7bcabe40a2fd3a2bdbf344cb10ecd12b4e29b"
+        }
+      ],
+      "file": "16c-shade5-sf-gulp2.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable reaction, interjection, audience signoff, placeholder instruction, usage note, or production aside. Titles, identity, attribution, dedications, authored dialogue, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch71-reactions-current.json",
+        "temp/text-blanking-continuation/batch72-reactions-context.txt",
+        "temp/text-blanking-continuation/batch72-reactions-full-context.txt",
+        "temp/text-blanking-continuation/batch72-curation-review.json",
+        "temp/text-blanking-continuation/batch72-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch72-reactions-interjections-and-usage-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 17,
+              "start": 2
+            }
+          ],
+          "expectedRawSha256": "f034e90e2a93fcf8d3cbde5f12c3de1f492ee79d98014e5835332cd78f812543",
+          "expectedRenderedSha256": "00790d8d0e0a508f281d6fc3ac4818766dd2a15fc06ccd2bc1da70d4975d8b2f",
+          "row": 27,
+          "sha256": "c1011c4a852d6675eddade9c7121ee37f9f29967ae37a15dadc6a3b2f551c32e"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 18,
+              "start": 3
+            }
+          ],
+          "expectedRawSha256": "41c137ff614891a4c338e5c87219d5c06a5b863d2b4aa2369cf5995c9eafe507",
+          "expectedRenderedSha256": "e7c31728230763a44f1226fc09431bd881b1cb05257f49703e6e97a629f0736d",
+          "row": 29,
+          "sha256": "46d189ebaa6988b476dcd31c688b65b7b24c48d88058736f12091eab1c94ef39"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 78,
+              "start": 64
+            }
+          ],
+          "expectedRawSha256": "d1d9c3dde704798bbfd9cd1d1cb3389ef80e01d6b89240c4f4a8a39bef7a935a",
+          "expectedRenderedSha256": "65fe3ddae6850ef7eee73b11658af6120cd993de88b2a1dc0780b29f4381cb75",
+          "row": 31,
+          "sha256": "bc7c3b67ffbdc3d37bb9b85a368a5d89518ffff8f8ecc6edc0a175e744a19ab2"
+        }
+      ],
+      "file": "16c-uni-0195-mm-tec1-part02.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable reaction, interjection, audience signoff, placeholder instruction, usage note, or production aside. Titles, identity, attribution, dedications, authored dialogue, functional interfaces, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch71-reactions-current.json",
+        "temp/text-blanking-continuation/batch72-reactions-context.txt",
+        "temp/text-blanking-continuation/batch72-reactions-full-context.txt",
+        "temp/text-blanking-continuation/batch72-curation-review.json",
+        "temp/text-blanking-continuation/batch72-history-collisions.json"
+      ]
+    }
+  ],
+  "normalization": "SHA-256 of UTF-8 visible terminal-cell rows after ANSI-control removal and outer-whitespace trimming. Every accepted row pins exact raw projected and rendered hashes plus one-based inclusive blank-column ranges.",
+  "pendingInputs": [],
+  "policy": "Fail-closed review of enjoyment phrases, dismissive interjections, laughter reactions, and closing/completion chatter in every static color-script payload. Accept only exact separable reactions, interjections, audience signoffs, placeholder instructions, usage notes, and production asides proven by complete-panel context; retain titles, identity, attribution, dedications, authored dialogue, functional interfaces, structural text, foreign-language ambiguity, and encoded ambiguity.",
+  "priorRedactionExtensions": [],
+  "priorRetentionSupersessions": [],
+  "reviewedAt": "2026-08-02",
+  "schemaVersion": 1,
+  "status": "ready",
+  "summary": {
+    "acceptedDetectorCues": 28,
+    "blankColumnRows": 41,
+    "candidateFiles": 28,
+    "candidateGroups": 28,
+    "categoryRows": {
+      "batch72-reactions-interjections-and-usage-asides": 41
+    },
+    "changedCells": 403,
+    "detectorAcceptedRows": 28,
+    "detectorFiles": 53,
+    "detectorRows": 58,
+    "evidenceRows": 41,
+    "familyExtensions": 13,
+    "parseFailures": 21,
+    "retainedDetectorRows": 30,
+    "staticFiles": 24801
+  }
+}

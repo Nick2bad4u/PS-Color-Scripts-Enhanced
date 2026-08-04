@@ -1,17 +1,4 @@
-﻿# Converted from: LR!-BD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flux-003/raw/LR!-BD.ANS
-# Source Revision: archive-sha256:c8241d6e438a30e14e803d31ea9639f514382ec0df6188aa9d91ed9f1ddec867
-# Source SHA-256: dba1a54a9327728f4109cf8b46cc5ed13a26d4ba15a8b86172ccc090d9c2fd01
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LR!-BD.ANS by Late Riser (flux-003); released in flux-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Brain Damage
-# SAUCE Author: Late Riser
-# SAUCE Date: 19970619
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Brain Damage by Late Riser | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flux-003-lr-bd
 
 Write-Host '
 [31m   [0;35m,''"^"`.[0;31m:''[0;35m    [0m

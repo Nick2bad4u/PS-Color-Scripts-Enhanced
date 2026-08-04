@@ -1,19 +1,4 @@
-﻿# Converted from: CREONIX_-_TWO_WEEKS_TRIP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-lc-artdisk-2/raw/CREONIX_-_TWO_WEEKS_TRIP.ANS
-# Source Revision: archive-sha256:658acfd186c1e15106af9d9341fd3097fd3c468098cec2d1241e8927d57e144b
-# Source SHA-256: 652dab0037f3f84737dffe31018ee3a70014eb525b297a6ea253776c36261faf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CREONIX_-_TWO_WEEKS_TRIP.ANS by Creonix (MiSTFUNK 2016!@#$%); released in mist-lc-artdisk-2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 2 weeks trippin'
-# SAUCE Author: Creonix
-# SAUCE Group: MiSTFUNK 2016!@#$%
-# SAUCE Date: 20160304
-# SAUCE Dimensions: 80x444
-# SAUCE Font: IBM VGA
-# Lines: 295-344
-# Columns: 1-80
+﻿# Artwork: 2 weeks trippin' by Creonix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-lc-artdisk-2-creonix-two-weeks-trip-part07
 
 Write-Host '
 

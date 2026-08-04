@@ -1,18 +1,4 @@
-﻿# Converted from: SOULM-02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oph-0013/raw/SOULM-02.ANS
-# Source Revision: archive-sha256:5e625c36cc911c4dcde4a3790624d86c03458fb68ba127d178ce0ea486babf74
-# Source SHA-256: adf6dff83af23594ca7196538a607653755fb268298c078156126d9248e76ff7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SOULM-02.ANS by Soul Manager + Aoh (ophidiac); released in oph-0013 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: 0  _1^\\          ]
-# SAUCE Author: soul manager / aoh
-# SAUCE Group: ophidiac
-# SAUCE Date: 19960816
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: 0 _1^\\ ] by Soul Manager + Aoh | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oph-0013-soulm-02
 
 Write-Host '
                                      [34m▄▄▄▄▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: OM-COMB2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/void0295/raw/OM-COMB2.ANS
-# Source Revision: archive-sha256:4a44bb34dd7dff10b5a2dda07cb89e234fbb0d7e21e3c15a308c427064caab51
-# Source SHA-256: 791b301164dd322b7a47c703c2bec01e2bfc7a2eda4c59738b64425a026d0e0e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OM-COMB2.ANS by Omega Red (Void); released in void0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Playaz Club Combo
-# SAUCE Author: Omega Red
-# SAUCE Group: Void
-# SAUCE Date: 19950205
-# SAUCE Dimensions: 80x55
-# Lines: 26-55
-# Columns: 1-80
+﻿# Artwork: The Playaz Club Combo by Omega Red | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-void0295-om-comb2-part02
 
 Write-Host '
       ▄

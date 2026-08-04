@@ -1,13 +1,4 @@
-﻿# Converted from: TS-DKLIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl199409/raw/TS-DKLIN.ANS
-# Source Revision: archive-sha256:0b61dfd44d63b89920e4d88fdd3cc6a735df80b58750f4d63c780f0a2c1359f3
-# Source SHA-256: adced20b17e3a9c86f931f88b7f6a8010dfc4a07b9988db9f6e786de8f3adf53
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-DKLIN.ANS by Ts (tl199409); released in tl199409 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 82-122
-# Columns: 1-80
+﻿# Artwork: TS-DKLIN.ANS by Ts | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl199409-ts-dklin-part03
 
 Write-Host '
                         [1;37m▀▄[0m              [33m░░▒▒▒░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: GI-LS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ls-0396/raw/GI-LS.ANS
-# Source Revision: archive-sha256:027827aba2a8182d830f3ad2fb41dbb22eb3c3bf864eed4898dd3e30e7ae3a86
-# Source SHA-256: 1ac7e461692f88a773ad9db3f86f7688751446fcc5fd749a62da992e4eb02029
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GI-LS.ANS by giger (leper society); released in ls-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: leper society
-# SAUCE Author: giger
-# SAUCE Group: leper society
-# SAUCE Date: 19960310
-# SAUCE Dimensions: 80x44
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: leper society by giger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ls-0396-gi-ls
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: MC-MAX1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/max-400r/raw/MC-MAX1.ANS
-# Source Revision: raw-sha256:5b4322dfa0ce94dea37b3fb40c373f196a241fb0675ad132e278f0ac6a787f52
-# Source SHA-256: 5b4322dfa0ce94dea37b3fb40c373f196a241fb0675ad132e278f0ac6a787f52
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MC-MAX1.ANS by Macho Conceptor (max-400r); released in max-400r and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: MC-MAX1.ANS by Macho Conceptor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-max-400r-mc-max1-part01
 
 Write-Host '
 

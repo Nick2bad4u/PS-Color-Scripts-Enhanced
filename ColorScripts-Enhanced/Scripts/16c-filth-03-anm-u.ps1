@@ -1,18 +1,4 @@
-﻿# Converted from: ANM-U.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/filth-03/raw/ANM-U.ANS
-# Source Revision: archive-sha256:b6f2315cfad065f1991cb92404702b647137d4d70f2233c4b9c5e1e758c1cc15
-# Source SHA-256: 33264a091d2bc763fba2975e9e700c0c086cc3eb62666c1ad94facb255ec95b6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ANM-U.ANS by anOmite (filth); released in filth-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Unilynx.
-# SAUCE Author: anOmite
-# SAUCE Group: filth
-# SAUCE Date: 19970727
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Unilynx. by anOmite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-filth-03-anm-u
 
 Write-Host '
        [34m▄▀▀[0;1;34;44m▄[0;34m▄[0;37m [0;32m [0;34m▄[0;1;34;44m▄[0;34m▀▀▀▀▐[0;32m▐ ░[0;30;42m▓[0;32;40m [0;34;40m▀▌▀[0;1;34;44m▀▌[0;34m▀▀▌▀▌▀▀▀▀▌▀▀▀[0;1;34;44m▀▌[0;34m▄ [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: NME-XP#3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-07/raw/NME-XP%233.ANS
-# Source Revision: archive-sha256:f0498e40c7ce9f5718652374b5ec8d4837bb6e6a2bfea8c457a1793267178c86
-# Source SHA-256: 774ce5d88115fd754204e4860c1511017cc84bc9952be3facf4d683b575d20b0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NME-XP#3.ANS by NMe (force); released in force-07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: xposed matrix
-# SAUCE Author: NMe
-# SAUCE Group: force
-# SAUCE Date: 19960330
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: xposed matrix by NMe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-07-nme-xp-3
 
 Write-Host '
 [1;30m   [0;33m  [0;1;30m [0;1;31m  ▄[0;1;31;43m▓▓▓██████[0;1;31;47m▓▒[0m▄         ▄▀   ▐▌   ▀                       [1;30m░[0m     [1;30m▌[0m

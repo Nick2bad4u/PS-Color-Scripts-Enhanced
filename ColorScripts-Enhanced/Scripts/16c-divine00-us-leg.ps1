@@ -1,17 +1,4 @@
-﻿# Converted from: US-LEG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/divine00/raw/US-LEG.ANS
-# Source Revision: archive-sha256:48dcb2c2c9b0f121dd4bc02a112881968de34f293fe908ba8b5acd6b37fd9c9e
-# Source SHA-256: 445b394188770761ce8b140aa205802e4c5902182f012081e593ad24f7961264
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-LEG.ANS by Knocturnal + Blue Devil (Divine Legacy); released in divine00 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Divine Legacy - Literature + Ansi
-# SAUCE Author: BlueDevil/Knocturnal
-# SAUCE Group: Divine Legacy
-# SAUCE Dimensions: 80x25
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Divine Legacy - Literature + Ansi by Knocturnal + Blue Devil | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-divine00-us-leg
 
 Write-Host '
 [1m   [0;1;30m▄[0;1;30;47m▀[0;1;37;47m▄▄[0m▓▄[1m [0m▄[1m [0;1;30m░░[0;1;37m [0;1;30m▄█▄[0m [1;30m▀[0m   [36m▄[0;1;30m▀[0m [35m▀[0;1;30m [0;35m▄[0;1;35;45m▄[0;35m▄[0;37m [0;1;30m [0;35m▄[0;1;35m▄[0m  [35m▄[0;1;35m▄▄[0m [1;30m [0;1;35m▀[0;35m▄[0;37m [0;35m▀[0;37m [0;35m▄[0;1;35;45m▄[0;35m▄[0;37m [0;35m▀[0;1;30m▀[0m [1;30m▄[0m▄[1;47m▄[0m▓▄[1;47m░[0m▄ ▄▓▄[1;30m▄[0m [1mfor bluedevil[0m

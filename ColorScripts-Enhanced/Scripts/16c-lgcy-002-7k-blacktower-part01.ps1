@@ -1,19 +1,4 @@
-﻿# Converted from: 7k-blacktower.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-002/raw/7k-blacktower.ans
-# Source Revision: archive-sha256:035806f627526bbca92fb6becafc359d23b231b3ea478b7169ed62b6d2a1cc54
-# Source SHA-256: 6f0005061362c7dc2657d8e18516ddd2ab777318f52cdc75e47ec817743d798f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 7k-blacktower.ans by The Knight (Legacy Krew); released in lgcy-002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Black Tower
-# SAUCE Author: The Knight
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20200503
-# SAUCE Dimensions: 80x91
-# SAUCE Font: IBM VGA
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: The Black Tower by The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-002-7k-blacktower-part01
 
 Write-Host '
 [31;40m████████ ▓████████████████ ▓████████████████ ▓████████████████ ▓▓██████████████[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: SEASONS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansi/raw/SEASONS.ANS
-# Source Revision: archive-sha256:50aaa63d173fc2f34f94b8a5b526a5ee8a8b9d7908c42264ab949073e7e0edf9
-# Source SHA-256: 3f051bc58000e9747546e3bef86f3e97f64547c704ca30a18429168f01b884fe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SEASONS.ANS by Ansi Antics (ansi); released in ansi and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: SEASONS.ANS by Ansi Antics | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansi-seasons
 
 Write-Host '
 [1;37;44m. [0;1;30;44m░▒▓▒▓▒░▒▓▒░░[0;1;37;44m.          .   .      .     . .     .     .  .·            .    [0;1;37;40m [0;1;30;40mS[0m

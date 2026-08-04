@@ -1,18 +1,4 @@
-﻿# Converted from: US-SV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook12/raw/US-SV.ANS
-# Source Revision: archive-sha256:ec66f5bb4ed961133c52314c375d67af30a5295789eb6bfc6eda91ebf8999fc2
-# Source SHA-256: 3c6b707105d801c279394b7e439dd8fbc875a2522239025f0cf2960a3cd73656
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SV.ANS by Avenger + Poti (black maiden); released in bmbook12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: synthetic visions
-# SAUCE Author: ave + poti
-# SAUCE Group: black maiden
-# SAUCE Date: 19970228
-# SAUCE Dimensions: 80x33
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: synthetic visions by Avenger + Poti | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook12-us-sv
 
 Write-Host '
      [31m▄▄▌[0m                  [31m░░▓[0;1;31m▄▄▄▄[0m

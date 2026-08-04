@@ -1,18 +1,4 @@
-﻿# Converted from: DZ-STAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/air_0597/raw/DZ-STAT.ANS
-# Source Revision: archive-sha256:6fe653cdae1d1be3a85ad8606d04a6519ed3da6d9d33e501c49ef3bdd23379d9
-# Source SHA-256: b6dd77c0cc22297d1f846954168b791e920c6a20f21f20b8814bfab0e58f8d70
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DZ-STAT.ANS by daz (air); released in air_0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: stat screen
-# SAUCE Author: daz
-# SAUCE Group: air
-# SAUCE Date: 19970501
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: stat screen by daz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-air-0597-dz-stat
 
 Write-Host '
 [32m[0;34m[0;35m[0m[35m[0m[31m[0m[36m[0;32m[0m[32m[0m[35m[0m[31m[0m[32m[0m[32mQ[0;37m [0;1;30m.[0m    [35m.s$$$$$$$S.[0;37m   [0;36m [0m                  [34m.,s[0;37m   [0m                  [34m.,s[0;37m [0m

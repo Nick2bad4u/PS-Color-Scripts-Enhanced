@@ -1,18 +1,4 @@
-﻿# Converted from: DS-COLLY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/kbsart02/raw/DS-COLLY.ANS
-# Source Revision: archive-sha256:db985c6cc647f5eef7416b8a6b8fee6ea9ea728844fba4bfa914fc08893c10ca
-# Source SHA-256: 9052ea1e37f6c639c73c160b36f6f398afe9208336a7313295ddbf684e4eb12b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-COLLY.ANS by Dying Soul (kIBOSH); released in kbsart02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: colly
-# SAUCE Author: Dying Soul
-# SAUCE Group: kIBOSH
-# SAUCE Date: 19990615
-# SAUCE Dimensions: 80x48
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: colly by Dying Soul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-kbsart02-ds-colly
 
 Write-Host '
                                  [36m▄[0;1;36m▄▄▄[0m          [36m▄[0;1;36m▄▄▄▄[0;1;36;46m [0m                     [36m▄[0;1;36;46m▄[0;1;36;40m█[0;36m▄[0;37m  [0m

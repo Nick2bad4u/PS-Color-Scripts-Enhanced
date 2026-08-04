@@ -1,13 +1,4 @@
-﻿# Converted from: PM-FIL00.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot-019/raw/PM-FIL00.ANS
-# Source Revision: archive-sha256:9aa1bfedb3e77f40c8d03939fcdaf89791a58ec89409180a06683fe78363ea15
-# Source SHA-256: 4011ea31e5f8c65c788ce8c8c54291d3a6f9fb339281330c4e4244929c4daeb8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-FIL00.ANS by Precious Metal (riot-019); released in riot-019 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: PM-FIL00.ANS by Precious Metal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot-019-pm-fil00
 
 Write-Host '
             [1;30m-pM[0m  [36m▄▄[0;1;35;46m░▄▄[0;1;35;40m▄▄▄▄▄[0;35m▄[0;37m  [0;35m▄▄▄[0;1;32m▄▌[0m [1;32m▄[0m   ▄ [1;31m  ▄▄[0;33m▄[0;37m▄▄[0;36m▄▄▄▄▄[0m   [37m▄[0;1;37m▄[0m▄▌

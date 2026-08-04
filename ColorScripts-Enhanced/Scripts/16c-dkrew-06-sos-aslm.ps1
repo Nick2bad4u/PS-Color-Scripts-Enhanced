@@ -1,18 +1,4 @@
-﻿# Converted from: SOS-ASLM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dkrew-06/raw/SOS-ASLM.ANS
-# Source Revision: archive-sha256:02960d7b88668b8887fe5cdf52da355c2d3dd37bf140c876abc30817d0d21bdb
-# Source SHA-256: 05f58e070ad709e60cd9ed46cdd0e9d94c047bb6271cbe5b831c512fbf010586
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SOS-ASLM.ANS by Son of Sam (dead krew); released in dkrew-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Asylum
-# SAUCE Author: Son of Sam
-# SAUCE Group: dead krew
-# SAUCE Date: 19970322
-# SAUCE Dimensions: 80x25
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: Asylum by Son of Sam | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dkrew-06-sos-aslm
 
 Write-Host '
 [1;33mTHE[0m

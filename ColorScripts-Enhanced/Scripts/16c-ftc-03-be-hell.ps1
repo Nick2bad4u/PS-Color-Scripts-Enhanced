@@ -1,18 +1,4 @@
-﻿# Converted from: BE-HELL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ftc-03/raw/BE-HELL.ANS
-# Source Revision: archive-sha256:1226dcacf4b055c72a07590d3a55db00d6617398cb0c9cab468627eb45b001d6
-# Source SHA-256: eebdeeef9e057384bc30d9ba90e72939219a3893e4a23056697186676e913e69
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BE-HELL.ANS by brain eater (ftc); released in ftc-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: helltech enterprises
-# SAUCE Author: brain eater
-# SAUCE Group: ftc
-# SAUCE Date: 19960709
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: helltech enterprises by brain eater | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ftc-03-be-hell
 
 Write-Host '
  [32m┌-─[0;1;32m─[0;32m───[0;1;32m-[0;32m──[0;1;32m-[0;32m─[0;1;32m-[0;32m───[0;1;32m-[0;32m──[0;1;32m-[0;32m────[0;1;32m-[0;32m──[0;1;32m-[0;32m──[0;1;32m--[0;32m───[0;1;32m-[0;32m─[0;1;32m─[0;32m──[0;1;32m-[0;32m───[0;1;32m-[0;32m──[0;1;32m─[0;32m──[0;1;32m-[0;32m───[0;1;32m-[0;32m──[0;1;32m-─[0;32m──[0;1;32m-[0;32m───[0;1;32m-[0;32m─[0;1;32m─[0;32m──[0;1;32m-[0;32m───[0;1;32m-[0;32m──[0;1;32m-┐[0m

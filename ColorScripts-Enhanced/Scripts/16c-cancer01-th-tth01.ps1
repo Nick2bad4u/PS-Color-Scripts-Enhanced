@@ -1,18 +1,4 @@
-﻿# Converted from: TH-TTH01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cancer01/raw/TH-TTH01.ANS
-# Source Revision: archive-sha256:1d674e5cb6391162607aaf95710b795f9d6c8bbd06eec06cf5932f93f338c133
-# Source SHA-256: 3eb931abcf364d2ef0e475d61db0944af332e82846b97f18feaca7381770ce57
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH-TTH01.ANS by Tempus Hellfire (Cancer); released in cancer01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Thirteenth Halo
-# SAUCE Author: Tempus Hellfire
-# SAUCE Group: Cancer
-# SAUCE Date: 19960325
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: The Thirteenth Halo by Tempus Hellfire | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cancer01-th-tth01
 
 Write-Host '
 [1;47m░▒▓▓█[0m█[1;30m▐[0m▐[1;47m▄▓▓▌[0m▌[1;30;47m▒░[0m [33m▄██[0;37m  [0;33m████[0;1;31;43m░░░░░[0;33m█▄[0;37m▀[0;1;30;47m░▒[0;33m▐[0;36;43m░░░░░░▒▒▓▒[0;36;40m█▌[0;37;40m▀[0;1;30;47m▒[0m▄[1;30;47m░░[0m▄[1;30m    ▄▀▀▀▀▀▀▀▀▄            [0m

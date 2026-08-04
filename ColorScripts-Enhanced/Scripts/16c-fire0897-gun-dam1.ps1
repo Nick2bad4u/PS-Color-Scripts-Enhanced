@@ -1,18 +1,4 @@
-﻿# Converted from: GUN-DAM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0897/raw/GUN-DAM1.ANS
-# Source Revision: archive-sha256:2f847e13ac44c4a612ca9588cf01055509cccf841191e379aa1210361ce47235
-# Source SHA-256: bd0c0d3f13e9644bf846655cf44231da8b57185ec6816bf57b35c8bcc1a85e7d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GUN-DAM1.ANS by Gunthar (FiRE); released in fire0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Damned
-# SAUCE Author: Gunthar
-# SAUCE Group: FiRE
-# SAUCE Date: 19970805
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: The Damned by Gunthar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0897-gun-dam1
 
 Write-Host '
 [1;31;41m▓[0;1;31;47m██[0;1;31;40m▄▄▄▄   [0;32m▀[0;1;31m [0;34m▓░▐[0;1;34;44m░[0;34m▓░ [0;31m▀▄▄[0;1;31m [0;31m■▀[0;30;41m░[0;31;40m░▄▀[0;1;31;41m░▒▒░[0;31m▄░[0;1;31m [0;34m░[0;31m▐██[0;1;31m  [0;31m█[0;1;31;41m░░[0;1;31;40m  [0;31m█[0;1;31;41m░[0;34m  [0;1;31m [0;1;31;41m▒[0;30;41m░[0;31;40m▄[0;30;41m▒[0;31;40m■[0;34;40m  ░░▓▓▌ [0;1;31;41m██[0;1;31;40m███████████[0;1;31;41m█[0m

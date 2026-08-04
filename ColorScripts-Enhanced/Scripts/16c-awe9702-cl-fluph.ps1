@@ -1,17 +1,4 @@
-﻿# Converted from: CL-FLUPH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9702/raw/CL-FLUPH.ANS
-# Source Revision: archive-sha256:66fa024bb27d2c5c9da5d44e7d12f110f2c57bdedd32c6f0a850d91a30d582a8
-# Source SHA-256: 60fb8fbd34cf9e064aaec00542467d9199070ec9f8a274391aa226932dd0b695
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL-FLUPH.ANS by Colourless (AWE Lettering); released in awe9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fluph
-# SAUCE Author: Colourless
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Fluph by Colourless | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9702-cl-fluph
 
 Write-Host '
           [1;31m▄▄▄[0m

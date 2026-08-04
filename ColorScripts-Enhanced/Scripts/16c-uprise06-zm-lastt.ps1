@@ -1,18 +1,4 @@
-﻿# Converted from: ZM-LASTT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise06/raw/ZM-LASTT.ANS
-# Source Revision: archive-sha256:62459159460ab7090ce349ed14c61a1bc8d3aa5785e22124741220f6b82d2ab8
-# Source SHA-256: 0cebc9853c000dc366aaabc525322241d1b28ec83e78cb6051fac8b937441c45
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZM-LASTT.ANS by zatchmo (uprise); released in uprise06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: toast last
-# SAUCE Author: zatchmo
-# SAUCE Group: uprise
-# SAUCE Date: 19980722
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: toast last by zatchmo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise06-zm-lastt
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: n4-wendy.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_resvolution/raw/n4-wendy.ans
-# Source Revision: archive-sha256:d0690af9ec91bf96f335196e9f9ddfb5d7ea02d97d300b53301bebaf58d83c35
-# Source SHA-256: e8be5273927507f3e3e04d274601fd84bee7f7679fc140c39a7a2e216326a190
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: n4-wendy.ans by Sodium (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 35-60
-# Columns: 1-80
+﻿# Artwork: n4-wendy.ans by Sodium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-resvolution-n4-wendy-part02
 
 Write-Host '
 [1;30;40m██████████████████████[0m           [34m▄██▄[0;37m [0;34m▀[0m            [31m▄█▀[0;37m   [0;1;37m▓▓[0;1;37;47m▓▓░[0m▌  [35m▐█▌[0;37m [0;35m██▌[0;30;47m█[0;35;40m███████[0m

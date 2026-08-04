@@ -1,18 +1,4 @@
-﻿# Converted from: ASS-01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rags2r2a/raw/ASS-01.ANS
-# Source Revision: archive-sha256:b6fe4ad2710b940b9fc065cc3d8845bc48a34f58dd8c5b1b55d6bd7f8162e058
-# Source SHA-256: 7b565cdef31e4043c3c12f7f33c00f1a6cdcf31bb2bc59a2dead4b1d1d0f90c2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ASS-01.ANS by ASS (.rAGS 2 rICHES.); released in rags2r2a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: "Soul Assassin ... rAG nUMBAH 0NE?"
-# SAUCE Author: ASS
-# SAUCE Group: .rAGS 2 rICHES.
-# SAUCE Date: 19970619
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: "Soul Assassin ... rAG nUMBAH 0NE?" by ASS | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rags2r2a-ass-01
 
 Write-Host '
                                                                       [1;30m▐[0m      [1;30m▐[0m

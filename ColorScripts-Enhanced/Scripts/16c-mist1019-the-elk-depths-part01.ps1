@@ -1,18 +1,4 @@
-﻿# Converted from: THE_ELK-DEPTHS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1019/raw/THE_ELK-DEPTHS.ANS
-# Source Revision: archive-sha256:98716931f8039155308dfebf57d5b2f42a6a675c2965d4be6a87f9b4c8fa26af
-# Source SHA-256: 6d644a493c13178deec995ce679ba3596168ffa192eed8e7d35e9662eaa439f5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: THE_ELK-DEPTHS.ANS by the elk (mist1019); released in mist1019 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the psychedelic depths
-# SAUCE Author: the elk
-# SAUCE Date: 20190920
-# SAUCE Dimensions: 80x93
-# SAUCE Font: IBM VGA
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: the psychedelic depths by the elk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1019-the-elk-depths-part01
 
 Write-Host '
 [38;2;0;171;0;48;2;0;0;0m████████████████████████████████████████████████████████████████████████████████[0m

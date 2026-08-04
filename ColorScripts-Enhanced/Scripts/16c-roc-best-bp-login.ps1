@@ -1,18 +1,4 @@
-﻿# Converted from: BP-LOGIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roc-best/raw/BP-LOGIN.ANS
-# Source Revision: archive-sha256:ed2172be4f351fbbe490297eada190fa8af16bee5a8ce8834dea50cd318904c2
-# Source SHA-256: 3cbe166a6c7e553d32b7a00c9eb7741d944f4e3d0d06fae90fe8a96de3d55106
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BP-LOGIN.ANS by Blood Priest (ROC); released in roc-best and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Bottled Violence
-# SAUCE Author: Blood Priest
-# SAUCE Group: ROC
-# SAUCE Date: 19950816
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Bottled Violence by Blood Priest | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roc-best-bp-login
 
 Write-Host '
 [1;30m███▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀██████████████████████████████████████████████[0m

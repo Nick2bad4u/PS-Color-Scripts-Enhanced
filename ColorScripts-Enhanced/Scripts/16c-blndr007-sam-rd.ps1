@@ -1,13 +1,4 @@
-﻿# Converted from: SAM&RD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr007/raw/SAM%26RD.ANS
-# Source Revision: archive-sha256:2c7b61f07a9bf49ec515ce590b94173cd3afac336932bc105d7dc19c5bd181ab
-# Source SHA-256: 0023bacb7f30fe969c52476eb23d9ee06f7aa829f2f2dc701bbac15a698646b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SAM&RD.ANS by Samurai + Red Death (blndr007); released in blndr007 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: SAM&RD.ANS by Samurai + Red Death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr007-sam-rd
 
 Write-Host '
                                     [31m■[0m    [31m▀[0m         [1;33m▄█▀▀█▄[0m [1;33m▄█▀▀█▄[0m

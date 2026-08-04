@@ -1,18 +1,4 @@
-﻿# Converted from: CG-GLUE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense09j/raw/CG-GLUE2.ANS
-# Source Revision: archive-sha256:9f583533fb256ec67ece3c5d38ebea61ce21b385a7859a4e786edef290584615
-# Source SHA-256: a69a1b53152e8a0e17f332b0f148c39d05e71433c046f9713879e55cd8a2758c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-GLUE2.ANS by cryogenic (sense); released in sense09j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: glue font
-# SAUCE Author: cryogenic
-# SAUCE Group: sense
-# SAUCE Date: 19990705
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: glue font by cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense09j-cg-glue2
 
 Write-Host '
 [34m▄[0m   [30;44m▓[0;34;40m░[0;37;40m  [0;34;40m▀[0;1;34;44m░▄▄[0;1;34;40m▄▄[0;34m▄[0m   [1;30m░░░░░░░░[0m  [34m ▄▄▄[0;1;34;44m▄▄▄[0;1;34;47m▀[0;1;37;44m░[0;1;34;47m▓[0;1;34;44m█[0;1;34;40m██▓▓▓[0;34m▄▄▄▄[0;37m  [0;1;30m▀▀█████████████▄▄  ▀▀██▄▄▄▀██▄[0m

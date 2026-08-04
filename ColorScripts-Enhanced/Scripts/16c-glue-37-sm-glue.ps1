@@ -1,18 +1,4 @@
-﻿# Converted from: sm-glue.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-37/raw/sm-glue.ans
-# Source Revision: archive-sha256:80363f10709d17331c287999d9ad4e4cac34260721fa508975384b4507a00819
-# Source SHA-256: 2610830075777cd0ad3c48b99c0ff39ccfeb4f32d78c480cf2d9c96ea5ee8d01
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sm-glue.ans by smoke (glue); released in glue-37 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: glue
-# SAUCE Author: smoke
-# SAUCE Group: glue
-# SAUCE Date: 20020720
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: glue by smoke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-37-sm-glue
 
 Write-Host '
                                                     [34m▄[0m   [34m▄[0m

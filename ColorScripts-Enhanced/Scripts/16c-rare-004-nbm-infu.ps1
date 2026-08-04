@@ -1,13 +1,4 @@
-﻿# Converted from: NBM-INFU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-004/raw/NBM-INFU.ANS
-# Source Revision: archive-sha256:5ce1afeba54a8765806ce1e4a8801b82f166c08a75660614a76be1395b4631da
-# Source SHA-256: 0f4af760a6c60f33fbc36606cadd966a0a0656343d25fda9598e435a3e3a0f18
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NBM-INFU.ANS by Niobium (rare-004); released in rare-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: NBM-INFU.ANS by Niobium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-004-nbm-infu
 
 Write-Host '
 

@@ -1,17 +1,4 @@
-﻿# Converted from: US-LEGN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-17/raw/US-LEGN.ANS
-# Source Revision: archive-sha256:154ac874f13e20433925bb99a4f5e0a4299764bee7ed4d28bdaffd9ad392f554
-# Source SHA-256: 73cb918d98a737eeb9f8d8d064aac8e93fa56b03146e0f33942cd3c13d222f85
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-LEGN.ANS by Internal + Phoman + Sq2 (glue-17); released in glue-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Legion
-# SAUCE Author: Internal/Phoman/Sq2
-# SAUCE Date: 19981212
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Legion by Internal + Phoman + Sq2 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-17-us-legn
 
 Write-Host '
                         [35m░  ■[0m

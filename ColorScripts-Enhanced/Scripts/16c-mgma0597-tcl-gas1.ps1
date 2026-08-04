@@ -1,13 +1,4 @@
-﻿# Converted from: TCL-GAS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mgma0597/raw/TCL-GAS1.ANS
-# Source Revision: archive-sha256:4321ed96c03457476be7881d0c1ef30e9189de218dff8231543b22aa7744f58c
-# Source SHA-256: 65c3466ed003fb95a012aff8de960f109406a749d5f0c826a9242bb94a01c7dd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TCL-GAS1.ANS by Tical (mgma0597); released in mgma0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: TCL-GAS1.ANS by Tical | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mgma0597-tcl-gas1
 
 Write-Host '
 

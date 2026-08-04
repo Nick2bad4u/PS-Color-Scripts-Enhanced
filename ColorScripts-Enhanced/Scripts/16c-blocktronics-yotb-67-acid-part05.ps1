@@ -1,16 +1,4 @@
-﻿# Converted from: 67-acid.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_yotb/raw/67-acid.ans
-# Source Revision: archive-sha256:f702f09f6116b5ac6fa523d36f54d796db6f44f880e4f1cd426d29a9fbda605e
-# Source SHA-256: bb6c3fb02ec0887e1d8022d353858fc9cd33b91db72a8fac09691a8a1b87ba53
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 67-acid.ans by Tcf + Filth + Catbones (blocktronics_yotb); released in blocktronics_yotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20141013
-# SAUCE Dimensions: 80x353
-# SAUCE Font: IBM VGA
-# Lines: 175-219
-# Columns: 1-80
+﻿# Artwork: 67-acid.ans by Tcf + Filth + Catbones | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-yotb-67-acid-part05
 
 Write-Host '
 [1;30m▒▓▓░░▒▒░░▓▒░[0m    [32m░▒[0;1;33;42m██[0;32m█[0;37m [0;32m██░[0;37m   [0;1;33m  [0;1;30m▄█[0m█[1;30m▄██▒░[0;1;33m   [0;1;37m█░[0m        [32m░ [0;1;30m░[0m  [1;30m░░▒▒░[0m  [32m▓█ ▓[0;1;33;42m█[0;32m██[0;37m  [0;1;30m░░░░▓▒░[0m

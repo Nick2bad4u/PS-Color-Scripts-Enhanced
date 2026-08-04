@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-21US.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0996/raw/ZII-21US.ANS
-# Source Revision: archive-sha256:9d2c16f2326b1b98168bc790edb6aadb0d52c5f6484964980e3ad8168b0cc77f
-# Source SHA-256: 659d990f59119ccef7eee41f0edd6ddcf24d7978e5424daacc207a9b450e0bc8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-21US.ANS by Zeus II (Opium); released in opx-0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: user stats for itc 2.1
-# SAUCE Author: Zeus II
-# SAUCE Group: Opium
-# SAUCE Date: 19960819
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: user stats for itc 2.1 by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0996-zii-21us
 
 Write-Host '
          [36m▐[0;1;36;46m▒[0m                                         ▄▄    ▄[1;47m▄[0m▄[1;30m▄[0m  ▄▄[1m [0m▄▄ ▄▄  [1;30m▄[0m

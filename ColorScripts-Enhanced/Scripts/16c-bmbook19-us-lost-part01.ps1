@@ -1,18 +1,4 @@
-﻿# Converted from: us-lost.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook19/raw/us-lost.ans
-# Source Revision: archive-sha256:3dd762b50e992d041fc40857f6a08666cf879c80169b27b714b162069a52b736
-# Source SHA-256: f94d51f0b7f4b3e2427ad7d4bfdec20207292d1103b7a767848586d0990c4c0d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-lost.ans by Shine + Kyp + Prosthesis (black maiden.glue); released in bmbook19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: lost paradize
-# SAUCE Author: shine.kyp.prst
-# SAUCE Group: black maiden.glue
-# SAUCE Date: 19981207
-# SAUCE Dimensions: 80x66
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: lost paradize by Shine + Kyp + Prosthesis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook19-us-lost-part01
 
 Write-Host '
              [1;33;46m░[0;1;34;46m▄[0;1;34;42m▀[0;1;34;40m▀▀[0;1;30;40m▀[0m [1;34m▀[0;1;30m▀[0m      [1;33;42m▒▓[0;1;33;40m▄[0m                               [1;30m                 [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: V9-BX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-13/raw/V9-BX.ANS
-# Source Revision: archive-sha256:fab7f52e9d735740432e5cc1693a7c3574c7cc669fe711a2863770d2425cce92
-# Source SHA-256: 61421527369d17c933f907bad6ea1c3ba0b290735eb8a1daa04ceb1965ec5d27
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: V9-BX.ANS by Vade79 (AWE Lettering); released in awe-13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Bitch X
-# SAUCE Author: Vade79
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19971130
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Bitch X by Vade79 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-13-v9-bx
 
 Write-Host '
  [34m■[0;30;46m▓[0;36;40m░[0;37;40m [0;30;44m▓[0;34;40m░ ▄▄▄  [0;37;40m [0;34;40m▄██[0;1;34;44m ▄[0;34m▄[0m        [34m▄▄▄▄▄[0;1;34;44m [0;34m█[0;1;34;44m░[0;34m██████[0;1;34;44m░░░[0;34m▄▄[0;37m [0;1;36m░[0;1;36;46m░[0;1;36;40m▓[0;1;36;46m▓[0;1;36;40m█[0;1;36;46m█▄[0;36m▄  [0m

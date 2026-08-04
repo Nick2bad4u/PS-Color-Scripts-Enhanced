@@ -1,13 +1,4 @@
-﻿# Converted from: EC-TFOS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cnc-0494/raw/EC-TFOS.ANS
-# Source Revision: archive-sha256:a2860c6058bc20deb4b9fe584adc3143209a13f75027fe0542d8e0a5a0f55c58
-# Source SHA-256: a30f15460b53b539c1780208a7d557d1534caae51ebc8164e3318b40543f9f7d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EC-TFOS.ANS by Eclipse (cnc-0494); released in cnc-0494 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 201-250
-# Columns: 1-80
+﻿# Artwork: EC-TFOS.ANS by Eclipse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cnc-0494-ec-tfos-part05
 
 Write-Host '
       [34m██[0m           [34m███[0m       [34m▐██  ████[0m           [34m▌  ▐██▌[0m      [1;32m·[0m      [1;32;42m▓▓[0m [34m▄[0m

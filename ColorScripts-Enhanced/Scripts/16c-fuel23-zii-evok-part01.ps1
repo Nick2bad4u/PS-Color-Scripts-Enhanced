@@ -1,19 +1,4 @@
-﻿# Converted from: zII-evok.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel23/raw/zII-evok.ans
-# Source Revision: archive-sha256:cfe32eb98354b0830492d9be5038af88cfccfa9d08c77fbfa69a5660d9e29c20
-# Source SHA-256: 74b4c3d81b94f3c62fdb94b184c03385b95051c10bd1d263bba4326a1fa2c309
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zII-evok.ans by ZeusII (FUEL); released in fuel23 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Evoke '17
-# SAUCE Author: ZeusII
-# SAUCE Group: FUEL
-# SAUCE Date: 20170813
-# SAUCE Dimensions: 80x271
-# SAUCE Font: IBM VGA
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Evoke '17 by ZeusII | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel23-zii-evok-part01
 
 Write-Host '
 

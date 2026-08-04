@@ -1,18 +1,4 @@
-﻿# Converted from: PHL-MIKE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hrg-11/raw/PHL-MIKE.ANS
-# Source Revision: archive-sha256:ef08c112898647014dd31be3bf458013394521b5b45a1d738af8228f1797c551
-# Source SHA-256: 436373b13eebd7243247c32918cd57377e7f430dac7b7d58a51f9bfdddd3e1e5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PHL-MIKE.ANS by _pHL (HRg); released in hrg-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: farewell my friend. I miss you.
-# SAUCE Author: _pHL
-# SAUCE Group: HRg
-# SAUCE Date: 19970731
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: farewell my friend. I miss you. by _pHL | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hrg-11-phl-mike
 
 Write-Host '
                      [36m▄▄▄[0m            [33m▄▄▄▄ [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: TH-CRYPT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel11/raw/TH-CRYPT.ANS
-# Source Revision: archive-sha256:bc01376bbeb692c1fce16796b92a6fd889f89dbf4c55eb291719d5ea3fd5846c
-# Source SHA-256: 9f3460478ce0ca5db123de36416a5c26f1270f1e41972361944d1f53bb6256ab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH-CRYPT.ANS by thrasher (fuel); released in fuel11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the crypt matrix
-# SAUCE Author: thrasher
-# SAUCE Group: fuel
-# SAUCE Date: 19970309
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: the crypt matrix by thrasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel11-th-crypt
 
 Write-Host '
 [34m  ▄[0;1;34;44m▒░thr▄▓▌▀▒░[0;34m█▀▄[0;37m [0;34m▄█[0;1;34;44m▀█[0;1;34;46m▓▓[0;1;34;44m▀[0;34m▀[0;1;34;44m▐█▓░[0;34m▀▀[0;1;31m [0;33m▄[0;1;31;43m▄▓[0;1;31;40m▌[0;34m▐[0;1;34;44m▄▌[0;34m▄▌▄▌▐█▓▀█▄▀██[0;1;34;44m▀██▀[0;34m█▌░▐█[0;1;34;44m▄[0;34m███▄▐[0;1;34;44m░▒▓█[0;1;34;40m▄ [0;1;30;40m▀[0;1;30;47m▓[0;1;30;40m█▄ [0m

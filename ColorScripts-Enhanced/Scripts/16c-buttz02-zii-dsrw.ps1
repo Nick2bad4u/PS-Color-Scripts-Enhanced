@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-DSRW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/buttz02/raw/ZII-DSRW.ANS
-# Source Revision: archive-sha256:5d0553d2910e88c3b360bbb18c024421b785e467017c28e9dcdb10c0a95e19a5
-# Source SHA-256: e81c329ed3721383a0627a9bb96e1e4cddfd90ec16631ed40d6c439ebef03e87
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-DSRW.ANS by Funky Punx (B00tRaiduz); released in buttz02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: your ass is on fire!
-# SAUCE Author: Funky Punx
-# SAUCE Group: B00tRaiduz
-# SAUCE Date: 20001018
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: your ass is on fire! by Funky Punx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-buttz02-zii-dsrw
 
 Write-Host '
                                         [1;30m▄▄▄▄▄   ▄▄▄[0m

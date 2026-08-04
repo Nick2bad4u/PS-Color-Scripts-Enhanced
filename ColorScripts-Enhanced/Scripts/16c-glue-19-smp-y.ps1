@@ -1,13 +1,4 @@
-﻿# Converted from: SMP-Y.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-19/raw/SMP-Y.ANS
-# Source Revision: archive-sha256:b473660f00ca745b2388645e3daf73e6bc00a051deac122753312589762b7c0e
-# Source SHA-256: f3a738980395ff0fbbd30c0c86f519d3ca1bf8db00ee3acc8eee952e7a73bdfc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-Y.ANS by Shrimp (glue-19); released in glue-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: SMP-Y.ANS by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-19-smp-y
 
 Write-Host '
                 [1;30mShrimp[0;36m([0;37mglue[0;36m)[0m                       [34m░[0;37m [0;34m  [0;37m  [0;33m░[0m      [33m▄▄▄[0;1;31m▄▄▄▄▄[0m [33m▄[0;1;31m▄[0m

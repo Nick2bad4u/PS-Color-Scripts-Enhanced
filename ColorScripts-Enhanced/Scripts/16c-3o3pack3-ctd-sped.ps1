@@ -1,17 +1,4 @@
-﻿# Converted from: CTD-SPED.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/3o3pack3/raw/CTD-SPED.ANS
-# Source Revision: archive-sha256:b5dfdf16317093e021e01dd0d7e36a564e7f39c51c5104c8f9a26a69d8d72653
-# Source SHA-256: 4e57dfc17a2b1b24e0001320436a811f3779f4b1963ab9f95aa1bfa5172aa814
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CTD-SPED.ANS by crash test dummy (3o3pack3); released in 3o3pack3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: speed haste
-# SAUCE Author: crash test dummy
-# SAUCE Date: 19970519
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: speed haste by crash test dummy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-3o3pack3-ctd-sped
 
 Write-Host '
 

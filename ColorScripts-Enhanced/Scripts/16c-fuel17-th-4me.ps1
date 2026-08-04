@@ -1,18 +1,4 @@
-﻿# Converted from: TH-4ME.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel17/raw/TH-4ME.ANS
-# Source Revision: archive-sha256:6bb17dad2b087feff514e10d76b337034c943aff1fa5007d50b103cb34f90d66
-# Source SHA-256: 8daa1e138d5fa16efbe20f65c6a788d54b818db72b317a7a3772c126d4df3971
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH-4ME.ANS by thrasher (fuel); released in fuel17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: trauma matrix
-# SAUCE Author: thrasher
-# SAUCE Group: fuel
-# SAUCE Date: 19970929
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: trauma matrix by thrasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel17-th-4me
 
 Write-Host '
 [1;32;42m██▌▀[0;32m▀▐█[0;1;32;42m▒▄▄[0;32m█▀[0;1;32;42m▀[0;32m█▀[0;1;32;42m░███▄▀░████▌▀██▀[0;32m█▀ [0;37m▄[0;1;30;47m▀[0;1;31;47m▄▓[0;1;31;40m█░[0;32m▐▀ █[0;1;32;42m███▀[0;32m█▐█[0;1;32;42m▀▀▀█▀░[0;32m█▄▀█[0;1;32;42m▀▀███████████▄▄░[0;32m▄  [0m

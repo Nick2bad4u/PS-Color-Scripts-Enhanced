@@ -1,18 +1,4 @@
-﻿# Converted from: 33-RIOT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0396/raw/33-RIOT.ANS
-# Source Revision: archive-sha256:1c74698b6bb36c67ca170e4e3759a91f94a3423157bd644c80d820a8fe56fd8d
-# Source SHA-256: ba7b42d952e9049e1b7f130861ee71e8815f659a1a3e5d30309c7fa643833aa2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-RIOT.ANS by Eerie-Kun (Fire); released in fire0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Riot
-# SAUCE Author: Eerie-Kun
-# SAUCE Group: Fire
-# SAUCE Date: 19960117
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Riot by Eerie-Kun | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0396-33-riot
 
 Write-Host '
 [1m[0m[1;31m[0m[1;30m[0;1;34m[0;1;30m[0m

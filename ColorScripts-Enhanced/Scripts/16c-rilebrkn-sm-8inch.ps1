@@ -1,18 +1,4 @@
-﻿# Converted from: SM-8INCH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rilebrkn/raw/SM-8INCH.ANS
-# Source Revision: archive-sha256:631709d46940d5f633b8ebca426a515d51357cee4cca25bed435a2a8fbf53a10
-# Source SHA-256: 536fa04081dde8894bebe2a0a3b588b9c78858ecf3ad0ea2cafb24b7cebe1aca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-8INCH.ANS by sammael (art); released in rilebrkn and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 8 inch.
-# SAUCE Author: sammael
-# SAUCE Group: art
-# SAUCE Date: 19970421
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: 8 inch. by sammael | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rilebrkn-sm-8inch
 
 Write-Host '
 [1m██[0;1;32;42m▌[0;32m▌  [0;30;44m▓[0;32;40m█[0;1;32;40m█[0;1;37;40m██████████████████[0;1;37;47m▓▓[0;1;37;40m████[0;1;32;42m▀[0;32m▀ [0m          [32m▄[0;1;32;42m▄[0;1;32;40m█[0;1;37;40m███████████████[0;1;32;40m██[0;1;32;42m▌[0;32m▌[0m          [30;44m▓▓[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: LO-NDN.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-0193/raw/LO-NDN.ICE
-# Source Revision: archive-sha256:ca05bf2de359182562a4e7329ee29306910e366566e70161c1e1498b079ccf5f
-# Source SHA-256: f4f9852e22acd79b845502da8b5f1a3a8ccc9131c1d61ae1568e47e71d7c172d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LO-NDN.ICE by Logan (ice-0193); released in ice-0193 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: LO-NDN.ICE by Logan | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-0193-lo-ndn
 
 Write-Host '
 ███████████████████████████████████████████████████████████████████████████████

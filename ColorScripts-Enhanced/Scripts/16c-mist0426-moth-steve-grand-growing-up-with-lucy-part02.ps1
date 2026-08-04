@@ -1,19 +1,4 @@
-﻿# Converted from: MOTH-STEVE_GRAND-GROWING_UP_WITH_LUCY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0426/raw/MOTH-STEVE_GRAND-GROWING_UP_WITH_LUCY.ANS
-# Source Revision: archive-sha256:c759ba228fb42808866da1267838a1ce2371215b87bc273c64f35f4bc653e77d
-# Source SHA-256: 6b0fc32a608379b2e9f2c5b5e6c2a07a67ddf24d181a32aa5d423cedb11ed0de
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MOTH-STEVE_GRAND-GROWING_UP_WITH_LUCY.ANS by Moth (Mistigris); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Growing Up With Lucy
-# SAUCE Author: Moth
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260428
-# SAUCE Dimensions: 80x65
-# SAUCE Font: IBM VGA
-# Lines: 51-65
-# Columns: 1-80
+﻿# Artwork: Growing Up With Lucy by Moth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0426-moth-steve-grand-growing-up-with-lucy-part02
 
 Write-Host '
 [37m          [0;1;30m▀[0;31m▀[0;1;30;41m▀[0;1;30;40m██[0m███████████████████████[1m▀[0;31m▄[0;37m ▐   ▄▄▄     [0;1;30m.[0m [1;30m░░░▒▒▒░[0m    [33m░[0;37m  [0;33m▒▒▓▒░[0;37m   [0;33m░░[0m

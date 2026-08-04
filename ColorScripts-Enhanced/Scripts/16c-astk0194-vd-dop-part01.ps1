@@ -1,13 +1,4 @@
-﻿# Converted from: VD-DOP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/astk0194/raw/VD-DOP.ANS
-# Source Revision: archive-sha256:85386f5551c42a88135027c451bdde0caf298cc394973b954eb4073e747445c6
-# Source SHA-256: 0cab42a44c968a1c4e63584870c56da7eb28c3cbad12d7a6a266a1c28d512c64
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VD-DOP.ANS by Vlad Drakul (astk0194); released in astk0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: VD-DOP.ANS by Vlad Drakul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-astk0194-vd-dop-part01
 
 Write-Host '
                        [1;30m█  ▄  ▄▀▀▄  █   █    █   █▀▀▄  ▄▀▀[0m

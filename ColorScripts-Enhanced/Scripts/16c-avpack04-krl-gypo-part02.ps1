@@ -1,18 +1,4 @@
-﻿# Converted from: KRL-GYPO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack04/raw/KRL-GYPO.ANS
-# Source Revision: archive-sha256:9fda3e62ea6f03ff3783df801cb7755dc6fc72a5a51e49bae41a28850a4d5c40
-# Source SHA-256: c9b5fb1c4235b91ccaf551feb1164ab133788fed8cbab8897d9acb2ecd89058b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KRL-GYPO.ANS by Mr Krinkle (Apocalyptic Visions); released in avpack04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: King Tut
-# SAUCE Author: Mr Krinkle
-# SAUCE Group: Apocalyptic Visions
-# SAUCE Date: 19950320
-# SAUCE Dimensions: 80x89
-# Lines: 44-89
-# Columns: 1-80
+﻿# Artwork: King Tut by Mr Krinkle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack04-krl-gypo-part02
 
 Write-Host '
 [1;34;44m▓▒▒░[0;34m▀▀▀▀▀▀▀[0;1;33m▄▄▄▄▄▄▄ [0;1;31;43m▓▓▓[0;1;31;40m████[0m [1;37;40m█[0m [1;31;40m███████████████████████[0;1;31;43m▓▓▓▒▒▒░░░[0m [1;37;40m▄▄[0;1;33;40m▄▄▄▄▄[0;34m▀▀▀▀▀▀▀▒░░[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: MR-SPITZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9701/raw/MR-SPITZ.ANS
-# Source Revision: archive-sha256:45d6a082bca05ad193b510335e91b0bec312e4835ff5735e0eb40fe62d0e1180
-# Source SHA-256: 2a0cd69aa55e1f5fc1f88ab1f01d1f6f0ff30e5f774c013314be6e8d5e6c09c3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-SPITZ.ANS by .,s$(minotaur)$s,. (.,s$(MDN)$s,.); released in mdn-9701 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: logo for spitz
-# SAUCE Author: .,s$(minotaur)$s,.
-# SAUCE Group: .,s$(MDN)$s,.
-# SAUCE Date: 19961228
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: logo for spitz by .,s$(minotaur)$s,. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9701-mr-spitz
 
 Write-Host '
                                  [32m▄[0;1;32m▄[0;32m▄■[0m                         [1;32m                  [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: $H-ARGH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axss-001/raw/%24H-ARGH.ANS
-# Source Revision: archive-sha256:176d32795f2951cddf3670ed00cc6480fb77c7876a0a6bdca896b1d8ec0d4ac2
-# Source SHA-256: 5a0b27a2b04dabb17db27ebeb9c4418062a3e118e35a5beb39d200fe2a8ebeca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: $H-ARGH.ANS by Shinigami (.%.AXss.%. -97); released in axss-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Bye Ansi and Logo for TNT !
-# SAUCE Author: Shinigami
-# SAUCE Group: .%.AXss.%. -97
-# SAUCE Date: 19970529
-# SAUCE Dimensions: 80x65
-# Lines: 31-65
-# Columns: 1-80
+﻿# Artwork: Bye Ansi and Logo for TNT ! by Shinigami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axss-001-h-argh-part02
 
 Write-Host '
                       [1;30;40m░[0m                                [31m▀[0m

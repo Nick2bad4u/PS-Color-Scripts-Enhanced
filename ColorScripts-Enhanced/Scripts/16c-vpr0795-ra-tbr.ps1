@@ -1,17 +1,4 @@
-﻿# Converted from: RA-TBR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vpr0795/raw/RA-TBR.ANS
-# Source Revision: archive-sha256:4a59d47b7694f8e39e774460d65dc196d91b5d4e90f4e35cac8b62cdf4456f27
-# Source SHA-256: d69a725f483914c78c848f4bfc9b1a13fcbbf902583f22c816cf6ba698706716
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RA-TBR.ANS by Rage (Vapor); released in vpr0795 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Boxer's Rebellion
-# SAUCE Author: Rage
-# SAUCE Group: Vapor
-# SAUCE Date: 20950705
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: Boxer's Rebellion by Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vpr0795-ra-tbr
 
 Write-Host '
         [1;30m▄[0m       [33m▄▄▄▄▓ ▄[0m            [33m▄▄▄▄▄▄▄▄▄▄[0m      [33m░[0m                          [1;30m░[0m

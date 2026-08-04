@@ -1,18 +1,4 @@
-﻿# Converted from: GK-EUM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1096/raw/GK-EUM.ANS
-# Source Revision: archive-sha256:0aef116e4290fa41749730625329f38610014fc9d720313823330534bc5bca90
-# Source SHA-256: fbcc6358608eafebb417f829737f8f641be7236e2f47c3fb38a4339f7589b2a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GK-EUM.ANS by grindking (fire); released in fire1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Eternity Underground Menu
-# SAUCE Author: grindking
-# SAUCE Group: fire
-# SAUCE Date: 19961007
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Eternity Underground Menu by grindking | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1096-gk-eum
 
 Write-Host '
                                                                           [1;30m [0m

@@ -1,17 +1,4 @@
-﻿# Converted from: PZ-E2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9701/raw/PZ-E2.ANS
-# Source Revision: archive-sha256:d9ee1d58a6a06d01c9f7c4f38cd8e5ab0dc2d9bdfc6b97ab0ed0cc65c400a40c
-# Source SHA-256: 125f474bdfc2afac370b27e5c5afe912d1368d8c4abd7567746da8edd9c225a3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PZ-E2.ANS by Pzyko (AWE Lettering); released in awe9701 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Earth/2
-# SAUCE Author: Pzyko
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Earth/2 by Pzyko | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9701-pz-e2
 
 Write-Host '
 

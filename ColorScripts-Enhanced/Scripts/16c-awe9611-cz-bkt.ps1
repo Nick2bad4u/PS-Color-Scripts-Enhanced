@@ -1,18 +1,4 @@
-﻿# Converted from: CZ-BKT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9611/raw/CZ-BKT.ANS
-# Source Revision: archive-sha256:2b73e149488dc761d99422832825743596588d59e58f9bfecfb5d0e9dbffd274
-# Source SHA-256: a5639be6de6f98b54294483b630e2235359c39263a5c574b0bf4dc122ddee9ef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CZ-BKT.ANS by Cheeze (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Bucket
-# SAUCE Author: Cheeze
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961027
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: The Bucket by Cheeze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9611-cz-bkt
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: LC-SYARD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aim-0895/raw/LC-SYARD.ANS
-# Source Revision: archive-sha256:204b30a10a0d728beeb2b6ef77a685417d42699bf345ab491eb081a7bbd4b870
-# Source SHA-256: e8c42e813487d5ba89cade300d14e1e8a3362f4bca3d78a684ebfa1277e64c77
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LC-SYARD.ANS by Luc (<AiM>); released in aim-0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Scotland Yard Ansi
-# SAUCE Author: Luc
-# SAUCE Group: <AiM>
-# SAUCE Date: 19950805
-# SAUCE Dimensions: 80x95
-# Lines: 49-95
-# Columns: 1-80
+﻿# Artwork: Scotland Yard Ansi by Luc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aim-0895-lc-syard-part02
 
 Write-Host '
 [1;33m██████████▌[0;30m██[0;1;37m███████▀[0;30m█ [0;1;37m▄██████████████  █████[0;30m██[0;1;37m▓▌[0;30m██████████████ ███[0;1;33m██████████▄██[0m

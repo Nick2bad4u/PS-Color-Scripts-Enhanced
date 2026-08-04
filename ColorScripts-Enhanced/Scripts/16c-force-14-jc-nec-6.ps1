@@ -1,18 +1,4 @@
-﻿# Converted from: JC-NEC#6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-14/raw/JC-NEC%236.ANS
-# Source Revision: archive-sha256:92f7a11e9d63bbc4309a79352ecdc986660896bb6b7d6c4276c2371f769e4763
-# Source SHA-256: dbc67e6cc820ad777457ee6b1f9d95f25cfa5a7ef3963dc8010a71ea7025b825
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JC-NEC#6.ANS by Juice (force); released in force-14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Necrospire Logo
-# SAUCE Author: Juice
-# SAUCE Group: force
-# SAUCE Date: 19961106
-# SAUCE Dimensions: 80x41
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Necrospire Logo by Juice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-14-jc-nec-6
 
 Write-Host '
   [34m░ ░░▒ ▒░░·▒░░ ░[0m                                                       [34m░[0m

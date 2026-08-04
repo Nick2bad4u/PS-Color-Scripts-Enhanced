@@ -1,13 +1,4 @@
-﻿# Converted from: AM-TDC.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-11/raw/AM-TDC.ICE
-# Source Revision: archive-sha256:5827a3d77b92b92d3b0eabff87e8b41b8ef31a232218b0b3b44b72f050fee9b3
-# Source SHA-256: 8fea3f9a18e096f35a15e4e0d60552061d32313589c8d5c0855612614461c4d8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AM-TDC.ICE by Amroth (icepk-11); released in icepk-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: AM-TDC.ICE by Amroth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-11-am-tdc-part01
 
 Write-Host '
 

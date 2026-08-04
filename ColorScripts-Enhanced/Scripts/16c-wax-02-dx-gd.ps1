@@ -1,13 +1,4 @@
-﻿# Converted from: DX-GD!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wax-02/raw/DX-GD!.ANS
-# Source Revision: archive-sha256:4668c93611bb3faf9105543bb7cc4b8e847416eacbd0dc21153ea9ba4d1d3b2b
-# Source SHA-256: 0946f0fe8e6e3828e6d59151c3447e23a3bec831ef0a2af1e0756a6e5e556c54
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DX-GD!.ANS by Drax (wax-02); released in wax-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: DX-GD!.ANS by Drax | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wax-02-dx-gd
 
 Write-Host '
 ::drax::

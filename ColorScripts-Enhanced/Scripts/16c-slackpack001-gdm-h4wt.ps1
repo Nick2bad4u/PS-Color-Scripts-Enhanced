@@ -1,19 +1,4 @@
-﻿# Converted from: gDm-h4wt.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/slackpack001/raw/gDm-h4wt.ans
-# Source Revision: archive-sha256:5cacf66a668b317d377907af22e0a4e5723c4f7fb85756d1ef888c14cabea25b
-# Source SHA-256: 65b55982dc0d7cc9197c302c5839cb274204dc616e18613712b43a583bd8de82
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: gDm-h4wt.ans by GngrDr3dM4n (Slackers); released in slackpack001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: h4wt
-# SAUCE Author: GngrDr3dM4n
-# SAUCE Group: Slackers
-# SAUCE Date: 20250606
-# SAUCE Dimensions: 80x44
-# SAUCE Font: IBM VGA
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: h4wt by GngrDr3dM4n | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-slackpack001-gdm-h4wt
 
 Write-Host '
 [1;33m▒[0;1;31m▒[0;31m▓[0;32m░[0;1;31m▓▒[0;1;33m░[0;31m▓[0;1;31m▓[0;31m█[0;1;33m▓[0;31m▓[0;1;32m▒[0m [1;30m▄████████████████████████████████████████████████████████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: EV-HOLE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0695/raw/EV-HOLE1.ANS
-# Source Revision: archive-sha256:db24e208c464a20c2099b8d2f878e92b0cf8a2a3878fb165404bd66c2a9ff713
-# Source SHA-256: 079818c2c9cf9cdf874420b8b7b92a402bc20d794f295246d2440333d573220f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EV-HOLE1.ANS by Everlast (ACiD Productions); released in acdu0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Hole
-# SAUCE Author: Everlast
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950601
-# SAUCE Dimensions: 80x71
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: Hole by Everlast | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0695-ev-hole1-part01
 
 Write-Host '
 [1;34;44m▓▒░░[0;34m██[0;1;34;44m░[0;33m░▀[0;34m▄▄▀▀▀▀▀▀▀▀▀[0;1;34;44m░░▒▒▓[0;33m▓░ [0;1;34m█[0;1;34;47m▓▓▓▓▒░[0m▄[33m▓ [0;37m▄▄▄[0;33m▀▀▓▀▀▀▄▄▓██▀▓▀█▓▄▄[0;37m [0;33m▀▀▄[0;37m  [0;33m▀▄[0;37m▀███████████ [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: WA-BLND1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz06may/raw/WA-BLND1.ANS
-# Source Revision: archive-sha256:1ae2be5748106937cd6f4a9b876b344db035c3534c8d6472ca3ea1eb05f03cc5
-# Source SHA-256: 2c949dede7c3f9f83be4547a81976f907ed048b2f1b2f4eac3872fb146ba6b32
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WA-BLND1.ANS by warpus (lazarus); released in laz06may and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: blender
-# SAUCE Author: warpus
-# SAUCE Group: lazarus
-# SAUCE Date: 19970429
-# SAUCE Dimensions: 80x24
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: blender by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz06may-wa-blnd1
 
 Write-Host '
 

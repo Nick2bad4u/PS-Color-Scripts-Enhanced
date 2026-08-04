@@ -1,18 +1,4 @@
-﻿# Converted from: TSK-TSK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz06may/raw/TSK-TSK.ANS
-# Source Revision: archive-sha256:1ae2be5748106937cd6f4a9b876b344db035c3534c8d6472ca3ea1eb05f03cc5
-# Source SHA-256: 1c3e210ad90d27a46934a3a3e5eb5674b4390120b67f7b288b23f34f7084caa8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-TSK.ANS by the silent killer (lazarus); released in laz06may and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the silent killer =)
-# SAUCE Author: the silent killer
-# SAUCE Group: lazarus
-# SAUCE Date: 19970508
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: the silent killer =) by the silent killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz06may-tsk-tsk
 
 Write-Host '
 

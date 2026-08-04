@@ -1,13 +1,4 @@
-﻿# Converted from: RO-SNDB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/grim-03/raw/RO-SNDB1.ANS
-# Source Revision: archive-sha256:ebc036abf9a775cca5b26ca6cd97418b4cbcbb8a88c78d39df773432429bd88a
-# Source SHA-256: 1723ea6e62638e4dc62618e334933871242cf3d525af63a630581c2ed6907a54
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RO-SNDB1.ANS by Finn Maccool (grim-03); released in grim-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: RO-SNDB1.ANS by Finn Maccool | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-grim-03-ro-sndb1
 
 Write-Host '
 [42m [0;30;42m80x50 [0;1;32;40m██████████████████▀ [0;1;37;40m▄█▀ [0;1;32;42m▀[0;1;32;40m██████████████████████████▀▀▀▀▀███[0;1;32;42m [0;30;42mFinn MacCool [0m

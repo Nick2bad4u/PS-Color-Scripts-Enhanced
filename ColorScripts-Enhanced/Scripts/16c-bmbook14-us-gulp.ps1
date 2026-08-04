@@ -1,18 +1,4 @@
-﻿# Converted from: US-GULP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook14/raw/US-GULP.ANS
-# Source Revision: archive-sha256:f7fe2a62d3e7b3b16687ce251209098ea8d86719a4cfa33dae1489e0c9af9278
-# Source SHA-256: 3fad7350642ad51d04652aa8ad60f2d25e473b1609722276abb480221fb44715
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GULP.ANS by Shaft + Toot (black maiden/fire); released in bmbook14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: GULP!"&?$(^%"!$?
-# SAUCE Author: shaft.toot
-# SAUCE Group: black maiden/fire
-# SAUCE Date: 19970520
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: GULP!"&?$(^%"!$? by Shaft + Toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook14-us-gulp
 
 Write-Host '
  [1;30m█[0;1;30;47m▓░  [0;1;37;47m░▓████▀[0;1;30;47m▄[0;1;30;40m▌▀▀[0;34m ▄▄[0;1;34m▄[0;1;34;44m▄[0;36;44m▄▄[0;34;40m█[0;1;34;44m█[0;36;44m█[0;1;36;44m██[0;1;37;40m███[0;34m█▄▄[0;35m  [0;37m [0;1;30m▀▀[0;1;30;47m██▄▌[0;1;37;47m▀██▄[0;1;30;47m░▓[0;1;30;40m▄▄▄ [0m   sfFIRE   [35m▄[0;1;35m▄[0;35m▄▄▄[0;37m [0;35m g[0;1;31mul[0;31mp[0m

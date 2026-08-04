@@ -1,18 +1,4 @@
-﻿# Converted from: SKY!TIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fld9701/raw/SKY!TIC.ANS
-# Source Revision: archive-sha256:48906ecb2b70839b4646d99f5fe92b4c8c8c55574804ed58eeb7ca2699a6e59d
-# Source SHA-256: 98580631d8407567f2f1e94fdee2f02a6b215064a3f98d588ca8ff851ddacc57
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SKY!TIC.ANS by skylord (fluid); released in fld9701 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: elastic (main)
-# SAUCE Author: skylord
-# SAUCE Group: fluid
-# SAUCE Date: 19970111
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: elastic (main) by skylord | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fld9701-sky-tic
 
 Write-Host '
 [1m    [0;31m▄█▀█▄▄[0m

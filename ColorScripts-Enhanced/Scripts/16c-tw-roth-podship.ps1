@@ -1,13 +1,4 @@
-﻿# Converted from: PODSHIP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tw-roth/raw/PODSHIP.ANS
-# Source Revision: archive-sha256:190885942cec88a16c8a5d2e7952970dfc3a8a8e6b1ddb12dad31a590f611129
-# Source SHA-256: 79b33eb829113d43b518d43e10014b807fa1f58346799ebb92074c6f56ec39cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PODSHIP.ANS by Nitron (tw-roth); released in tw-roth and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: PODSHIP.ANS by Nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tw-roth-podship
 
 Write-Host '
 [34m▒▒[0;37m            [0;36m·[0;37m              [0;34m░░░░░░░░░░[0;37m       [0;1;37m.[0m    [1;30m▄▄▄▄███[0;1;30;41m▄[0;31m▀▀▀[0;1;30m▄▄[0;31m▄[0;37m         [0;34m░░░░░[0m

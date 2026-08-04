@@ -1,18 +1,4 @@
-﻿# Converted from: OR-LOREZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile_002/raw/OR-LOREZ.ANS
-# Source Revision: archive-sha256:09fff222285c90eb6b714714b4c5e3c96cc514cdf338ccf4e30b5898f9a5a64b
-# Source SHA-256: 20abe900c7263c73a760f38398c3463bdd56f2d13e625afca22bd57fdcc627b2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OR-LOREZ.ANS by outraider (rile); released in rile_002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: lo-rez!@d#3? e-zine
-# SAUCE Author: outraider
-# SAUCE Group: rile
-# SAUCE Date: 19970227
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: lo-rez!@d#3? e-zine by outraider | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile-002-or-lorez
 
 Write-Host '
                 [30m          [0m                 [1;33m▀█[0;33m▄░[0m    [33m▐[0m

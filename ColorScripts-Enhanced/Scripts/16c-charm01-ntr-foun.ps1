@@ -1,18 +1,4 @@
-﻿# Converted from: NTR-FOUN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/charm01/raw/NTR-FOUN.ANS
-# Source Revision: archive-sha256:5434637c122394cafcc8fdf1732c0c27b359a8bdbc0d0f131dc89fe5382535e7
-# Source SHA-256: 8e8c9f7fc64da0a2b1bbf87cb5d3513fec22679393cbc1631e6c4c5a263f37a6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NTR-FOUN.ANS by Neurotrance (Charm); released in charm01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the Foundation
-# SAUCE Author: Neurotrance
-# SAUCE Group: Charm
-# SAUCE Date: 19960111
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: the Foundation by Neurotrance | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-charm01-ntr-foun
 
 Write-Host '
         [1;30m  [0m                [1;30m░▄▄▄[0m    [1;30m░▄▄▄[0m     [1;30m ▄▄▄▄▄░[0m

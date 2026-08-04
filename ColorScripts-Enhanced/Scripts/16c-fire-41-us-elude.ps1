@@ -1,19 +1,4 @@
-﻿# Converted from: US-ELUDE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/US-ELUDE.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: ce49a0a1e13277df82511e626a28b7f9f001b03396254091401869356330b44f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ELUDE.ANS by Savage + Cleaner (fire graphics); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: elude
-# SAUCE Author: cleaner + savage
-# SAUCE Group: fire graphics
-# SAUCE Date: 20241111
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: elude by Savage + Cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-us-elude
 
 Write-Host '
 [1;30m[0m[1;30m[0m

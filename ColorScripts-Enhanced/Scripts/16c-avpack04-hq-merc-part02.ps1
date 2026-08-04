@@ -1,18 +1,4 @@
-﻿# Converted from: HQ-MERC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack04/raw/HQ-MERC.ANS
-# Source Revision: archive-sha256:9fda3e62ea6f03ff3783df801cb7755dc6fc72a5a51e49bae41a28850a4d5c40
-# Source SHA-256: bca70181a4f38c289dcfecd89adad23f94dc0ed4969c4398e9dd18dc53be74a4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HQ-MERC.ANS by Harlequin (AV); released in avpack04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Merc
-# SAUCE Author: Harlequin
-# SAUCE Group: AV
-# SAUCE Date: 19950401
-# SAUCE Dimensions: 80x58
-# Lines: 31-58
-# Columns: 1-80
+﻿# Artwork: Merc by Harlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack04-hq-merc-part02
 
 Write-Host '
             [1;30m▐[0;1;30;47m█▓░░[0m▄                                      [1;30m█▄▄▄▄▄▄   [0m

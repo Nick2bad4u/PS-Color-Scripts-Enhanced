@@ -1,18 +1,4 @@
-﻿# Converted from: CZ-CDI2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-04/raw/CZ-CDI2.ANS
-# Source Revision: archive-sha256:9de244bc5206a1545721e4db8ef84c4a2cb5d7f6090c2c3eac0f88fbff822794
-# Source SHA-256: 2bd96e72d70abaa351deb94c89f8cb8ba05efe6be78f5ec5e7ef8402ba2cc1ea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CZ-CDI2.ANS by chez monkey (eak-lisp); released in ecl-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: cars driven indoors
-# SAUCE Author: chez monkey
-# SAUCE Group: eak-lisp
-# SAUCE Date: 19960726
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: cars driven indoors by chez monkey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-04-cz-cdi2
 
 Write-Host '
 

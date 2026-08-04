@@ -1,18 +1,4 @@
-﻿# Converted from: FC-OK#1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force10a/raw/FC-OK%231.ANS
-# Source Revision: archive-sha256:f2af75efab7b036cdbeddf266674e60423caa5c7ddcc4b43d8307cb5d3c84b64
-# Source SHA-256: df4b16e1d412a6730101c6d8dc0dc5124441ae52df3af1ce1cf0ca18bcb85bed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FC-OK#1.ANS by Fruitcake (fORCE); released in force10a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Organized Kaos
-# SAUCE Author: Fruitcake
-# SAUCE Group: fORCE
-# SAUCE Date: 19960730
-# SAUCE Dimensions: 80x67
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: Organized Kaos by Fruitcake | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force10a-fc-ok-1-part01
 
 Write-Host '
 [30m[0m[37m[0;30m[0m

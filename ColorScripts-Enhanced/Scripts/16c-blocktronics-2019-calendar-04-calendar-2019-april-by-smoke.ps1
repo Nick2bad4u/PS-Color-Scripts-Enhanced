@@ -1,16 +1,4 @@
-﻿# Converted from: _04_Calendar_2019_April_by_Smoke.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-2019-calendar/raw/_04_Calendar_2019_April_by_Smoke.ans
-# Source Revision: archive-sha256:5dcb03d3562fc71c1bd681e0b01704387df6a6764ee8c64c58f8fc5646036621
-# Source SHA-256: b270c846d6035a1df225611997f4e36d868aeb0894144d2d38f403c074ab1acb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _04_Calendar_2019_April_by_Smoke.ans by Smoke (blocktronics-2019-calendar); released in blocktronics-2019-calendar and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20181016
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: _04_Calendar_2019_April_by_Smoke.ans by Smoke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-2019-calendar-04-calendar-2019-april-by-smoke
 
 Write-Host '
 [37;40m█████████████████████████████[0;1;30;47m▄[0m▀▀[1;30;47m▀▀[0;1;37;47m ▄██▄[0;1;37;40m████[0;1;37;47m█[0;1;37;40m██████████████████[0;1;37;44m██[0;1;37;40m▄[0m▀██████████████

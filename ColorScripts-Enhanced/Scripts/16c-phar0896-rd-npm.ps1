@@ -1,18 +1,4 @@
-﻿# Converted from: RD!NPM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phar0896/raw/RD!NPM.ANS
-# Source Revision: archive-sha256:6b5cc8d7252908bb34e044ed6dcfb42f8dbf6c65d3528deee6494d62c5743e7d
-# Source SHA-256: 7b7eadb6efb0b10139f68e4093901e29ed21dc8a54cbb133f07ec91953dced8d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD!NPM.ANS by RaBiD DoCToR (PHaR); released in phar0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: NaPaLM
-# SAUCE Author: RaBiD DoCToR
-# SAUCE Group: PHaR
-# SAUCE Date: 19960727
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: NaPaLM by RaBiD DoCToR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phar0896-rd-npm
 
 Write-Host '
  [31m░░[0;37m        [0m   [37m           [0m   [37m        [0;31m░░[0;37m                           [0m   [37m        [0;31m░░[0;37m [0m

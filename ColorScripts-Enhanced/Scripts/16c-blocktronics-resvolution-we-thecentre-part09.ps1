@@ -1,13 +1,4 @@
-﻿# Converted from: we-theCentre.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_resvolution/raw/we-theCentre.ans
-# Source Revision: archive-sha256:d0690af9ec91bf96f335196e9f9ddfb5d7ea02d97d300b53301bebaf58d83c35
-# Source SHA-256: 75af12c428d7d2a464793a0bfbb9b1186b9e3b9ff3f4b1e0dc19b241dcf4563c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-theCentre.ans by Enzo + Avenging Angel + Jeepee (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 367-411
-# Columns: 1-80
+﻿# Artwork: we-theCentre.ans by Enzo + Avenging Angel + Jeepee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-resvolution-we-thecentre-part09
 
 Write-Host '
 [34m██[0;1;34;44m▀▀[0;1;34;47m████[0;1;34;44m██▄▀▀[0;36;44m  ▒█[0;1;36;46m▀[0;36;44m▀[0;34;40m▀  [0;37;40m [0;1;30;40m█▀[0;33m▒▄█▀[0;1;31m▄▄[0;1;30m▀▀[0;1;30;43m▄   [0;1;30;40m▒ [0m [1;30m  [0;1;30;46m▒[0;1;30;40m█[0m         [1;30m▒▒▄▒[0m

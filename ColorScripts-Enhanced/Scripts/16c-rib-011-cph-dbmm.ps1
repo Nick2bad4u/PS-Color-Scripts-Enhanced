@@ -1,18 +1,4 @@
-﻿# Converted from: CPH-DBMM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-011/raw/CPH-DBMM.ANS
-# Source Revision: archive-sha256:ad392e5cfa0b76b10ae16f4d639473779105b78453dac46868057f0aeaadd814
-# Source SHA-256: 499d95cfe3b0e1a768ae4ab54d8a83a3f13023038950c8e1e2f77f2ab12aed78
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-DBMM.ANS by cyberpunch (rib); released in rib-011 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: daft board main
-# SAUCE Author: cyberpunch
-# SAUCE Group: rib
-# SAUCE Date: 19980730
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: daft board main by cyberpunch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-011-cph-dbmm
 
 Write-Host '
 [36m▓ █[0;1;36;46m░[0;1;36;40m▒[0;36m██▐███████▀▀▀   [0;1;30m▀[0;36m▀▀[0;1;30;46m▄[0;36m███[0;1;36m▒[0;1;36;46m▒▓░[0;36m████████████▓▒░░ ░       [0;1;30m▓[0;36m█[0;1;36;46m▒▒░[0;36m██████████████[0;1;36;46m░░[0;36m█░[0m

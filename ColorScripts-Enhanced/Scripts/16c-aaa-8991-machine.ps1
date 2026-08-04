@@ -1,13 +1,4 @@
-﻿# Converted from: MACHINE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aaa-8991/raw/MACHINE.ANS
-# Source Revision: archive-sha256:4d061270920d521151424fd00f38227b42b87cd232386c5aa0d1e2f575f3ffe0
-# Source SHA-256: 948a7699e343475f4696804747de99c80edcba0574e3faacda199fd1c760ccf7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MACHINE.ANS by Shadow Demon (aaa-8991); released in aaa-8991 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: MACHINE.ANS by Shadow Demon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aaa-8991-machine
 
 Write-Host '
 [1;33m███████    [0;1;35m▐[0;1;35;45m [0;1;35;40m▌  [0;5;30;47m███[0;1;30m██████[0;5;30;47m███[0m       [1;31m▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;33m─┤[0m                 [1;33m│[0m

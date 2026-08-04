@@ -1,13 +1,4 @@
-﻿# Converted from: NX-WILD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/myst9504/raw/NX-WILD.ANS
-# Source Revision: archive-sha256:a90cbdb425ce06d8710b8a57528b3d33daeeb96dcafebdfec2b142856e77525e
-# Source SHA-256: 324c7f1fddafe17066b79745f878b32a8ee05b4cd114b2c47aa072d5799b95c3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NX-WILD.ANS by Nexus (myst9504); released in myst9504 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: NX-WILD.ANS by Nexus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-myst9504-nx-wild
 
 Write-Host '
   [1;30m░▒▓░▒▓░▒░▒░░░░▓  ▓░▓  ░ ▓▒▓░▓░  █▒░  ▓ ░ ▒▒ [0;1;30;43m▓[0;1;30;40m░▒   ░▒  ░░░ ░▓░ ▓ ░ ░ █    ▒▓░ ░[0m

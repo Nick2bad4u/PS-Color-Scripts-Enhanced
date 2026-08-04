@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-FOSM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0721/raw/ZII-FOSM.ANS
-# Source Revision: archive-sha256:9d3d54e42a99a6e7bef51cb79a023b85709051f377817bc02741bd65f1493da4
-# Source SHA-256: 56eb4679211a9bf61b764d8d21f0fcae5bcccb62b11e5b94e9b9b9c53e286641
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-FOSM.ANS by Zeus II (Mistigris); released in mist0721 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: FOS BBS Menuset
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20210621
-# SAUCE Dimensions: 80x208
-# SAUCE Font: IBM VGA
-# Lines: 66-110
-# Columns: 1-80
+﻿# Artwork: FOS BBS Menuset by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0721-zii-fosm-part03
 
 Write-Host '
 [32m[0m

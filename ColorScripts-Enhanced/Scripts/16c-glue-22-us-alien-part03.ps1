@@ -1,18 +1,4 @@
-﻿# Converted from: US-ALIEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-22/raw/US-ALIEN.ANS
-# Source Revision: archive-sha256:d46ba48cfd0738c6a2c74264504a495798fea93d5b2e2ae2e6f0dd8f95d84664
-# Source SHA-256: 2d58ff63b6375c9164873bdf038f20b802c49562f6e8adbb43114fb6b761e0ee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ALIEN.ANS by Big Yellow Man + Enzo (PFL & GLUE); released in glue-22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Alien Funky House
-# SAUCE Author: Multiple Artists
-# SAUCE Group: PFL & GLUE
-# SAUCE Date: 19990507
-# SAUCE Dimensions: 80x105
-# Lines: 72-105
-# Columns: 1-80
+﻿# Artwork: Alien Funky House by Big Yellow Man + Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-22-us-alien-part03
 
 Write-Host '
 [33m▓▓██[0;1;33;43m  [0;33m███████▌█▒█▌█████[0;33;47m█[0;1;33;43m░[0;33m███▀▀[0;37m [0;33m [0;1;30;43m▀[0;33m███[0;1;33;43m░[0;33;47m█[0;33;40m████[0;1;30;43m▀[0;33m█████████▓█▀▀[0;30;47m██[0;37;40m  [0;1;30;40m▄[0;1;30;43m▀▀[0;33m▄▄▀▀[0;1;30;43m▄[0;33m██▄▄[0;30;47m█[0;1;30;40m▄[0;1;30;43m▀▀[0;33m▄[0;1;30m▐[0;33m▓▓[0m

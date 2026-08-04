@@ -1,17 +1,4 @@
-﻿# Converted from: PZ-BMS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9611/raw/PZ-BMS.ANS
-# Source Revision: archive-sha256:2b73e149488dc761d99422832825743596588d59e58f9bfecfb5d0e9dbffd274
-# Source SHA-256: 9152f22ddaad8a8b0e8759b2694bf2064e0cdc92f57b5a6795270bb8b2d90e88
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PZ-BMS.ANS by Pzyko (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Blood Milk Sky
-# SAUCE Author: Pzyko
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Blood Milk Sky by Pzyko | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9611-pz-bms
 
 Write-Host '
 

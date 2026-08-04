@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-C3O3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook13/raw/AVE-C3O3.ANS
-# Source Revision: archive-sha256:f383b37d2f0265a83b82afcdde57a4dae359d8a5127c467dcea28d0c8500d000
-# Source SHA-256: 43a755b1944cdc51ccab0aa25c5849d1b420fdaf605b1844f1bf5672958bb430
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-C3O3.ANS by avenger (black maiden); released in bmbook13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: lost in 3o3 chatter
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19970427
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: lost in 3o3 chatter by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook13-ave-c3o3
 
 Write-Host '
 [31m▄[0;31;42m▀[0;1;32;40m▓▒[0;32m▀▀[0m             [34m ▀[0;32m▀▀[0;1;32;42m▀█▀▀░[0;1;36;42m [0;32m█[0;37;42m░[0;1;36;42m▄░[0;1;32;40m▒[0;32m▀▀▀[0;37m  [0;31m▄▄▄░▄▄▄▄░▀▀[0;1;31;41m▀░░[0;31m█▀▀█▄[0;37m  [0;32m▀░[0;37m  [0;31m▄▄▀▀▀▀▀[0m    [31m▀▀▀▄▄[0m

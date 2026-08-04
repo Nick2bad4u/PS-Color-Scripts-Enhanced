@@ -1,18 +1,4 @@
-﻿# Converted from: KS!-COL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0396/raw/KS!-COL1.ANS
-# Source Revision: archive-sha256:ca76fc280b2a4bc027c52e1f5a3fd444bfc4dc199573d0f93ae0c0df3b3abb90
-# Source SHA-256: 9baf1efd2a7f4a97ee5a29822db63aa672f5a6f92c01870c3f24d953c0c2d76a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KS!-COL1.ANS by KesTrel (MiSTiGRiS); released in mist0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: KesTrel Colly #1
-# SAUCE Author: KesTrel
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19960330
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: KesTrel Colly #1 by KesTrel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0396-ks-col1
 
 Write-Host '
 

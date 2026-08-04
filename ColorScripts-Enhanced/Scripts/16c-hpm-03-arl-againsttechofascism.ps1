@@ -1,19 +1,4 @@
-﻿# Converted from: arl-againsttechofascism.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hpm-03/raw/arl-againsttechofascism.ans
-# Source Revision: archive-sha256:f306b491a21cb141b48eee782e0899699764f418773c4914057147ff246d8ce4
-# Source SHA-256: a09faa690886b6452705b904905f0f5dfe542c6ba7dffa37398a0b24f1de1dfb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: arl-againsttechofascism.ans by Arlequin (HPM^Impure); released in hpm-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: IAs against techno fascism
-# SAUCE Author: Arlequin
-# SAUCE Group: HPM^Impure
-# SAUCE Date: 20230408
-# SAUCE Dimensions: 80x42
-# SAUCE Font: IBM VGA
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: IAs against techno fascism by Arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hpm-03-arl-againsttechofascism
 
 Write-Host '
 ▌[30;47m►[0;37;40m▄▌[0;30;47m►[0;37;40m■[0;30;47m■[0;37;40m■   ■[0;30;47m■[0;37;40m■[0;30;47m■[0;37;40m■[0;30;47m■[0;37;40m■[0;30;47m■[0;37;40m■[0;30;47m■[0;37;40m■[0;30;47m■[0;37;40m■[0;30;47m■[0;37;40m■[0;30;47m■[0;37;40m■[0;30;47m■[0;37;40m■[0;30;47m■[0;37;40m■[0;30;47m■[0;37;40m■[0;30;47m■[0;37;40m■[0;30;47m■[0;37;40m  ■[0;30;47m■[0;37;40m■[0;30;47m■[0;37;40m■[0;30;47m■[0;37;40m■[0;30;47m■[0;37;40m■[0;30;47m■[0;37;40m■[0;30;47m■[0;37;40m■[0;30;47m■[0;37;40m■[0;30;47m■[0;37;40m■[0;30;47m■[0;37;40m■[0;30;47m■[0;37;40m■ ■[0;30;47m■[0;37;40m■[0;30;47m■[0;37;40m■[0;30;47m■[0;37;40m■[0;30;47m■[0;37;40m■[0;30;47m■[0;37;40m■[0;30;47m■[0;37;40m■[0;30;47m■[0;37;40m■[0m

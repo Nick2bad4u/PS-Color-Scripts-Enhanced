@@ -1,13 +1,4 @@
-﻿# Converted from: SYL-EV13.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fdr-02/raw/SYL-EV13.ANS
-# Source Revision: archive-sha256:15396cd727e081bbaaee85447e61d10d48ae0bd147bff6fe38ceb25299afa7ea
-# Source SHA-256: b196bfb12c3fbbb8a9390e7c430df794cfde77ceab838faf01a7372134ac8063
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SYL-EV13.ANS by Sylvao (fdr-02); released in fdr-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: SYL-EV13.ANS by Sylvao | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fdr-02-syl-ev13-part02
 
 Write-Host '
 [1;33;40m████████████████████████████▓▓▓▓▓▓▓▓▓▓▓█████████▀ [0;1;37;40m▄█[0;1;37;47m [0;1;37;40m█[0;1;37;47m█▐▌[0;1;37;40m██[0;1;37;47m [0;1;37;40m█[0;1;36;40m▄ [0;1;33;40m▀██████▓▓▓▓▓▓▓███[0m

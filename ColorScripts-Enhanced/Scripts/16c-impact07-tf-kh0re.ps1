@@ -1,18 +1,4 @@
-﻿# Converted from: TF-KH0RE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impact07/raw/TF-KH0RE.ANS
-# Source Revision: archive-sha256:07b2349bb1ba93a9281e6fa758ea73e28867b3746ecdb88c10b3557ff427fd39
-# Source SHA-256: 3e6e716fd2da3df5d30b742d9668d148dc56de61a7ce7bdf3673bd32cb192054
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TF-KH0RE.ANS by twisted foo (impact); released in impact07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fuzion kore font
-# SAUCE Author: twisted foo
-# SAUCE Group: impact
-# SAUCE Date: 19970421
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: fuzion kore font by twisted foo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impact07-tf-kh0re
 
 Write-Host '
                                    ░░▄▄█▄██[1;30;47m [0;1;37;47m         [0;1;30;47m [0;30;47m [0;37;40m►              [0m

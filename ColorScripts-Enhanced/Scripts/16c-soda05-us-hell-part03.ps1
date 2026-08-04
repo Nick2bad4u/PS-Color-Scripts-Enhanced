@@ -1,18 +1,4 @@
-﻿# Converted from: US-HELL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/soda05/raw/US-HELL.ANS
-# Source Revision: archive-sha256:edcd8c09880ef83cd065aedbbbd49213c8a0498be75fefb823526ab25fd48e6f
-# Source SHA-256: b4d09af070295b53f9bf0d8217cd15c1d4621779ad9aa0349d01ee333dded040
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-HELL.ANS by Sephiroth + Colloss (sadist); released in soda05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hail satan
-# SAUCE Author: sephiroth&colloss
-# SAUCE Group: sadist
-# SAUCE Date: 19991026
-# SAUCE Dimensions: 80x122
-# Lines: 91-122
-# Columns: 1-80
+﻿# Artwork: hail satan by Sephiroth + Colloss | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-soda05-us-hell-part03
 
 Write-Host '
                    [34m░[0m       [30;41m▓[0m        [30;41m▓[0m                             [30;41m▓[0m    [30;41m▓[0m

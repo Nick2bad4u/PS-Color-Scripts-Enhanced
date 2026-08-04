@@ -1,18 +1,4 @@
-﻿# Converted from: CO-SOTA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0296/raw/CO-SOTA.ANS
-# Source Revision: archive-sha256:06e6dc5afce1ee45051e2bc9293c259c32e010fc92f42b6c050d6f2242a1670c
-# Source SHA-256: 93f8a65b05bc9838e551d713b444d89065dd440345ae8d31558e0f3c3d3d74b6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CO-SOTA.ANS by cocox (opium); released in opx-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: state of the art menu...
-# SAUCE Author: cocox
-# SAUCE Group: opium
-# SAUCE Date: 19960204
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: state of the art menu... by cocox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0296-co-sota
 
 Write-Host '
 [1;33m                [0;35m▄        [0;1;35m▄  [0m▄▄▄▄                            [1;36m▄       [0;36m▄▓▄[0;30m         [0m

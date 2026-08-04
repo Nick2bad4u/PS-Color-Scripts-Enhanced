@@ -1,16 +1,4 @@
-﻿# Converted from: misfit - chameleon.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amish-0717/raw/misfit%20-%20chameleon.ans
-# Source Revision: archive-sha256:7f45778e662171d152f6f11bf2e575ecaf2d1e212601bd1e4d7ab16a02785316
-# Source SHA-256: 4a6228b8bad287dd2e48547ab9810c4346a8e6ba14c334e4e88e0c21b03a2a1d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: misfit - chameleon.ans by Misfit (amish-0717); released in amish-0717 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20170801
-# SAUCE Dimensions: 80x51
-# SAUCE Font: IBM VGA
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: misfit - chameleon.ans by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amish-0717-misfit-chameleon-part01
 
 Write-Host '
         [35;40m▓  [0m                                                   [1;36;40m░░[0m      [35m   [0;1;31;45m░[0m

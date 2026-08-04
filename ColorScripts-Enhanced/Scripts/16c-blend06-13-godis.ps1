@@ -1,17 +1,4 @@
-﻿# Converted from: 13-GODIS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend06/raw/13-GODIS.ANS
-# Source Revision: archive-sha256:bdb12df6fb66b6e7f7ab1240c15e9b23d66b94ced69828c85c717709162a24eb
-# Source SHA-256: 6fef6611e77c89d17589e78f5030ced6733408b2717ad6156c582cb223f2f0e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 13-GODIS.ANS by ville (blend multimedia); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: true angels don't smoke.
-# SAUCE Author: ville
-# SAUCE Group: blend multimedia
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: true angels don't smoke. by ville | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend06-13-godis
 
 Write-Host '
 [31m[0m[37m[0m          [1;33m▄[0m     [1;33m▄[0m  [1;33m■[0m     [1;33m▀[0m [1m▐▄[0m    [1;33m■[0m [1;33m▄[0m    [31m▀▄[0;37m [0;31m░ [0m

@@ -1,19 +1,4 @@
-﻿# Converted from: N-KNOC.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna01/raw/N-KNOC.ans
-# Source Revision: archive-sha256:70f712dbf565de1ceb0f2b7020b54aa443621235a47b082b92e24e13342b0672
-# Source SHA-256: c3668e61c3cd6fe5a9373e098e1416a3353d6fab2370a5db27e85f975c013d93
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-KNOC.ans by nail (blocktronics); released in thesauna01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: knoc knoc - who's there?
-# SAUCE Author: nail
-# SAUCE Group: blocktronics
-# SAUCE Date: 20170915
-# SAUCE Dimensions: 80x37
-# SAUCE Font: IBM VGA
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: knoc knoc - who's there? by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna01-n-knoc
 
 Write-Host '
                   [1;30;40m  ▄[0m▄[1;30;47m▀[0;1;33;47m▄▄[0;1;30;47m▀[0;1;30;40m▄ [0m [1;30m [0;32m [0;1;30m ░[0m              [1;30m▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: TOX-REM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/divine01/raw/TOX-REM1.ANS
-# Source Revision: archive-sha256:11fa9bc5007e937e6557200c9a6996087cdff7d49a741cfe192f769742cda34a
-# Source SHA-256: b834293f0f7ea731929252899d25b30f46ba673035b665144c070195b38da7a3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TOX-REM1.ANS by toxix (divine legacy); released in divine01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: remixed from summer 1997
-# SAUCE Author: toxix
-# SAUCE Group: divine legacy
-# SAUCE Date: 19980509
-# SAUCE Dimensions: 80x47
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: remixed from summer 1997 by toxix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-divine01-tox-rem1
 
 Write-Host '
   ▄▄▄[1;30;47m▓[0;1;30;40m████▄▄[0m   █[1;30;47m░[0m▄▄[1;30m▄▄▄[0m scent! [1;30m▄▄[0m   ▄▄▄        [1;30m▄▄▄▄▄▄▄▄[0m            toxix[1;30m([0msociety[1;30m)[0m

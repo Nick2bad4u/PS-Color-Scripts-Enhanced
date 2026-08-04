@@ -1,17 +1,4 @@
-﻿# Converted from: SJ-AS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blind-02/raw/SJ-AS1.ANS
-# Source Revision: archive-sha256:c5e79989307dbf090a38f911b35eef6e687ee7fb3d0611abf6934cc9737046e9
-# Source SHA-256: 8975b7e9fb6f9c7f47cba911af6078a00c26486656a00042751e93a9c962f832
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SJ-AS1.ANS by tHE sAD jESTER (BliND STUdiosh); released in blind-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: tHE sAD jESTER
-# SAUCE Group: BliND STUdiosh
-# SAUCE Date: 19960104
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: SJ-AS1.ANS by tHE sAD jESTER | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blind-02-sj-as1
 
 Write-Host '
 [1;31m   [0m         [1;33m [0m      [1m  [0m  [33m [0m

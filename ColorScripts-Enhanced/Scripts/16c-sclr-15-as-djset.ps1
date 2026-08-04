@@ -1,17 +1,4 @@
-﻿# Converted from: AS-DJSET.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-15/raw/AS-DJSET.ANS
-# Source Revision: archive-sha256:f6ccb119b90e23b73476c157789c2c2d64131cecbb4bd94dbb754be736b41269
-# Source SHA-256: 790b81522c359cf0e67378266eaa4fb0200fb90d10489a242154c001d11633f9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AS-DJSET.ANS by asd (secular); released in sclr-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: dj set
-# SAUCE Author: asd
-# SAUCE Group: secular
-# SAUCE Font: empathy by skaboy
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: dj set by asd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-15-as-djset
 
 Write-Host '
 [37;40m                                                                                [0m

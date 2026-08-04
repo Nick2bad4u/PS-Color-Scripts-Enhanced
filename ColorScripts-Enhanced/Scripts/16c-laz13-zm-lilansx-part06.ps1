@@ -1,19 +1,4 @@
-﻿# Converted from: ZM_LilAnsX.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz13/raw/ZM_LilAnsX.ans
-# Source Revision: archive-sha256:0c2c63bd64664e02af0cf47cca1c746f6b942d60f66e98c86daa5feb695bcd8e
-# Source SHA-256: e9ae98b51b421a1c7a40bc1534746b3fae7bf9fda665e8bda03a46cc95a8986b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZM_LilAnsX.ans by Zeromous (LAZARUS); released in laz13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Lil Ans X
-# SAUCE Author: Zeromous
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20210615
-# SAUCE Dimensions: 80x275
-# SAUCE Font: IBM VGA
-# Lines: 229-275
-# Columns: 1-80
+﻿# Artwork: Lil Ans X by Zeromous | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz13-zm-lilansx-part06
 
 Write-Host '
  [31m██▀[0;37m        [0;31m▀█▀█▄▄▄[0;37m  [0;31m▄[0;31;47m▄[0;1;37;47m▀▄[0m▄[31m▀▄▀▄▀▄[0;37m [0;31m▄█████████████▀▄▀[0;37m     [0;31m▀[0;1;30;41m▀[0m█[31m▄[0;37m       [0;31m▄▄█▀██[0;1;31;41m▀▄[0;31m█[0;1;31m▄[0;31m▄▄[0m

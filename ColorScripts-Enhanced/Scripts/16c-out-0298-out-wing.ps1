@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-WING.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0298/raw/OUT-WING.ANS
-# Source Revision: archive-sha256:b2ed908ebe07b9abc8a1b605d9ab159a38924592b5eaadb06525f7a5e1e213a6
-# Source SHA-256: 6b7c8de9e6b0552cc4c665d63e7f71f13acada248f1398c7ef9eee8f21a990cd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-WING.ANS by Sandy Chidester (out-0298); released in out-0298 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: OUT-WING.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0298-out-wing
 
 Write-Host '
                [30;43m▀[0;1;33m▄[0;1;33;43m▄▄▄▄[0;33;43m███[0m [33m▀███████[0;1;33;43m▄▄[0;30;43m▀▀[0m                       [31m▄▄▀▀▀ [0;31;43m████[0;31m██████████[0m

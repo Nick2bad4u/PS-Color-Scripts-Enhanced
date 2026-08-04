@@ -1,18 +1,4 @@
-﻿# Converted from: ST-UAIOE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-03/raw/ST-UAIOE.ANS
-# Source Revision: archive-sha256:8478e7ed47e52d1e07bf55e17a5f105ced4b468c6f56a8b59fd6b8ef8dada5ca
-# Source SHA-256: fbd79ce7b633749cf05b835d5f0d4e804ea1bb0cad096386cf9125c5de39c60b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-UAIOE.ANS by andy (eclipse); released in ecl-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: a bunch of sorted vowels
-# SAUCE Author: andy
-# SAUCE Group: eclipse
-# SAUCE Date: 19960708
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: a bunch of sorted vowels by andy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-03-st-uaioe
 
 Write-Host '
 

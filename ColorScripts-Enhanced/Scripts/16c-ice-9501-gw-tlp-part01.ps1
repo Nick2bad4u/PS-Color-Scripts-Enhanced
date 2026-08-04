@@ -1,18 +1,4 @@
-﻿# Converted from: GW-TLP.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9501/raw/GW-TLP.ICE
-# Source Revision: archive-sha256:11505df9cbb4046b5d3b5eec267bf894e7e973683094a4e78d879efbf7a9364a
-# Source SHA-256: 6aa02f1fe6caaafd7e8d33aa46fb0cf56d35940db6ee47b7aa5b81edbb84fd87
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GW-TLP.ICE by GwaH (iCE); released in ice-9501 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Sadness
-# SAUCE Author: GwaH
-# SAUCE Group: iCE
-# SAUCE Date: 19950127
-# SAUCE Dimensions: 80x200
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Sadness by GwaH | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9501-gw-tlp-part01
 
 Write-Host '
     [32m ▄▄[0m [32m▀▓▀▒[0m  [34m▓[0;1;34;44m ░[0;34m█░▄██[0;1;34;44m░[0;34m▓[0;1;34;44m▒[0;34m░[0;1;34;44m▒[0;34m▓ ░ ▓[0;1;34m░[0;34m [0;32m░[0m [34m░[0m                           [32m      ▀▓▀▓ ▄ [0m

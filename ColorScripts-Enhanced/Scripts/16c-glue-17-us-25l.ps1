@@ -1,13 +1,4 @@
-﻿# Converted from: US-25L.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-17/raw/US-25L.ANS
-# Source Revision: archive-sha256:154ac874f13e20433925bb99a4f5e0a4299764bee7ed4d28bdaffd9ad392f554
-# Source SHA-256: 2a9a909df082723516c33c6c2f142f2bdc5d97343f21767685ff4a5c1ccb3202
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-25L.ANS by Zerovision + Retribution (glue-17); released in glue-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: US-25L.ANS by Zerovision + Retribution | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-17-us-25l
 
 Write-Host '
        [33m   [0;37m▄[0;37;43m▓[0;1;37;47m▒▒[0;43m██▓[0;40m▌[0;1;30;40m░[0;33m ▐▌ █[0;37;43m▓▓▒▒░░[0;33;40m███[0;37;43m░░░[0;33;40m███▓▓▓██▄[0;37;40m [0;33;40m▀[0;37;43m░▓░[0;33;40m█▀ ▄▓▓█████▓▓▓▒░   [0;37;40m [0;33;40m░░▒▒▓██[0m

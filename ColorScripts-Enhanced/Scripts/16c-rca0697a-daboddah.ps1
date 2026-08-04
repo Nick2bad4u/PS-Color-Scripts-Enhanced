@@ -1,13 +1,4 @@
-﻿# Converted from: DABODDAH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca0697a/raw/DABODDAH.ANS
-# Source Revision: archive-sha256:219d133ecf72b96965c657c6f7f9e42e2a841e97a0c782cfb72e191e0cc641b9
-# Source SHA-256: d558d6fa7dfac47220f0c3e36f2d12bfdd77aecf5ec2ab9d25304a8ba98addb7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DABODDAH.ANS by Dracula (rca0697a); released in rca0697a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: DABODDAH.ANS by Dracula | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca0697a-daboddah
 
 Write-Host '
          [36m██[0;1;36;46m▀[0;36m▀▀▀[0;1;36;46m▒░▀▄▄[0;36m▄▄▄▄[0m

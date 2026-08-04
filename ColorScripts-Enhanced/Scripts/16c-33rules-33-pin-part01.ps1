@@ -1,18 +1,4 @@
-﻿# Converted from: 33-PIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/33rules/raw/33-PIN.ANS
-# Source Revision: archive-sha256:6cf2aef8e3ca97e1761e1ee4a8ba395e4fdab4dec9d3b2efb91c059359b50b00
-# Source SHA-256: 6627f748f137ab2a24510f0c42ec666eeae91635c2c83826d0b09194dce6c497
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-PIN.ANS by Integrity 06/95 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Pinion
-# SAUCE Author: Integrity 06/95
-# SAUCE Group: Eerie
-# SAUCE Date: 19950531
-# SAUCE Dimensions: 80x25
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: Pinion by Integrity 06/95 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-33rules-33-pin-part01
 
 Write-Host '
 [1m[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: zII-FRON.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel30/raw/zII-FRON.ans
-# Source Revision: archive-sha256:e3148e82a669aa484baf0738069fbabe44ba2824856e1cb4b05875b86bdd4621
-# Source SHA-256: 7a74886205b2f34915b5a21786707b784ff9f70d243911e9981be50025fb0f21
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zII-FRON.ans by Zeus II (FUEL); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The New Frontier
-# SAUCE Author: Zeus II
-# SAUCE Group: FUEL
-# SAUCE Date: 20190515
-# SAUCE Dimensions: 80x41
-# SAUCE Font: IBM VGA
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: The New Frontier by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel30-zii-fron
 
 Write-Host '
 [30;40m  [0;37;40m [0;30;40m [0;34;40m▄[0;30;40m   [0;34;40m▄▄[0;30;40m [0m     [30;40m  [0;31;40m [0;34;40m▄[0m

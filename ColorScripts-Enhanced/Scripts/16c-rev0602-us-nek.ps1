@@ -1,18 +1,4 @@
-﻿# Converted from: Us-nek.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0602/raw/Us-nek.ans
-# Source Revision: archive-sha256:eda7ced449224c105e12a5409de54d9f7839715cee6913970969dbabd435477f
-# Source SHA-256: 9feda725ef03ce61c0baa1171112b390bfc8a47571799a83788c8d7c3b1e321a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Us-nek.ans by Avenging Angel + Zeus Ii (Lure/Revival); released in rev0602 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: "nek"
-# SAUCE Author: avg an zII
-# SAUCE Group: Lure/Revival
-# SAUCE Date: 20020517
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: "nek" by Avenging Angel + Zeus Ii | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0602-us-nek
 
 Write-Host '
 

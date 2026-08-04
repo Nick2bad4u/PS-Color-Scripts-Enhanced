@@ -1,13 +1,4 @@
-﻿# Converted from: CL!-LURE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lure001/raw/CL!-LURE.ANS
-# Source Revision: archive-sha256:4bd385abce2c9c5a8caaface84fa74809f8b3dae67f2f4374e4664550d5af3bf
-# Source SHA-256: 53f4f253a9533437c1966b2be7d4272c21cf2005acde483579ed7f4f08274380
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-LURE.ANS by Cleaner (lure001); released in lure001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: CL!-LURE.ANS by Cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lure001-cl-lure
 
 Write-Host '
 [1;30m      ..[0;1;37m [0m.[1m  ∙       ` [0m.[1m  ∙           ∙ .[0m

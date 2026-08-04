@@ -1,13 +1,4 @@
-﻿# Converted from: XX-WIZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dft-0495/raw/XX-WIZ.ANS
-# Source Revision: archive-sha256:8274b6d4bff4859a2ac499140cc76b68ed68c005ff0e74847422f6a40fc9d437
-# Source SHA-256: fef26de08d9cc488d905c92f3f446cfe31e3cc358330948ec5ea4e479681d342
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XX-WIZ.ANS by Xanax (dft-0495); released in dft-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: XX-WIZ.ANS by Xanax | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dft-0495-xx-wiz-part01
 
 Write-Host '
 [1;47m▄[0m█▄▄■                            [31m▄██▓▄████▓██▀██▄[0m

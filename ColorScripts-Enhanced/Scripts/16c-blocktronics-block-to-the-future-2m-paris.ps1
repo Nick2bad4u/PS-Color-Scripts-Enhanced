@@ -1,19 +1,4 @@
-﻿# Converted from: 2m-paris.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_block_to_the_future/raw/2m-paris.ans
-# Source Revision: archive-sha256:e9c7655a6ba44929b9deba9a89f3fd7cff48592d5b87253057ae8455852a9d6f
-# Source SHA-256: e33a60a6cf3ee7c99508332dd1f37d9b2f38b09c9610e5849bc0b85fbc5a705e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2m-paris.ans by mattmatthew (Blocktronics); released in blocktronics_block_to_the_future and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: #prayforparis
-# SAUCE Author: mattmatthew
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20151113
-# SAUCE Dimensions: 80x41
-# SAUCE Font: IBM VGA
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: #prayforparis by mattmatthew | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-block-to-the-future-2m-paris
 
 Write-Host '
 [37;41m░░░░░░░░░░░[0;31;40m███████████████████████████████[0;1;35;41m█[0;31m█[0;1;31;41m▓[0;35m█[0;1;31;41m█[0;1;35;46m▒[0;1;31;41m▓[0;35m█[0;1;35;44m█[0;31m█████████████████████████████[0m

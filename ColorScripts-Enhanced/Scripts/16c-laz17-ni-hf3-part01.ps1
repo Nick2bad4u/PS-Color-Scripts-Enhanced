@@ -1,19 +1,4 @@
-﻿# Converted from: NI-HF3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz17/raw/NI-HF3.ANS
-# Source Revision: archive-sha256:2674245bad3e14fe6d4a935ba8daf9898a4426e394c56ca9710e3afa19d3d943
-# Source SHA-256: 6bf3e4af2abf82e6745bc2968b8cfd2a7b4dbcbf5e386f3bf7665a98fa278009
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-HF3.ANS by Nitron (Lazarus); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Hold Fast! #3
-# SAUCE Author: Nitron
-# SAUCE Group: Lazarus
-# SAUCE Date: 20230612
-# SAUCE Dimensions: 80x92
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Hold Fast! #3 by Nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz17-ni-hf3-part01
 
 Write-Host '
           [34m▀[0;37m     [0;34m▄▄▄▄▀▀▀▀▀[0;37m [0;34m▄▄▄▄[0;37m    [0;34m▄▄▄▄▀▀▀[0;37m         [0;34m▀▄▄▄▄[0;37m      [0;34m▀▀▀▄▄▄▄▄▄▄▄[0m

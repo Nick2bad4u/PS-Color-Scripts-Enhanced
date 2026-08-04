@@ -1,13 +1,4 @@
-﻿# Converted from: US-123.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense16j/raw/US-123.ANS
-# Source Revision: archive-sha256:21e10a26e80e20f8e4295f136a75aae0f222471bb8bb339e4e731b31441ecc2b
-# Source SHA-256: 06f162ed69920975053d7f87846b8d48af3b493ca1b8a6d57126eb6e63d7828d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-123.ANS by Abstrakt + Aesthetic (sense16j); released in sense16j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: US-123.ANS by Abstrakt + Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense16j-us-123
 
 Write-Host '
 [32mONE[0;1;32m23[0;36m.[0m                      [32m__[0;33m_[0m          [32m`"└Y$$[0;1;32m$j$SS$$│$$$$$[0;1;37m$$$[0;1;32m$$$$$$    [0;32m$[0;1;32m$[0m

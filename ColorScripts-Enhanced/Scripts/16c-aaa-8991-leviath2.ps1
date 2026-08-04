@@ -1,13 +1,4 @@
-﻿# Converted from: LEVIATH2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aaa-8991/raw/LEVIATH2.ANS
-# Source Revision: archive-sha256:4d061270920d521151424fd00f38227b42b87cd232386c5aa0d1e2f575f3ffe0
-# Source SHA-256: b87c9aef4ef1c00a88f8d40d9644f66b99af1e1cbada0f8b47d92072ddf1ea8a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LEVIATH2.ANS by Aaa (aaa-8991); released in aaa-8991 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: LEVIATH2.ANS by Aaa | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aaa-8991-leviath2
 
 Write-Host '
  [1;30m│[0m                               [1;30m┌──────────────────┐[0m

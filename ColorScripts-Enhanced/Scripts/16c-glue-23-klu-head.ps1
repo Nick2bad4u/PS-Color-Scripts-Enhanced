@@ -1,13 +1,4 @@
-﻿# Converted from: KLU-HEAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-23/raw/KLU-HEAD.ANS
-# Source Revision: archive-sha256:ebf73214839ebeb98074956697930c862ec34a2f04c71462d23dae1a192647c2
-# Source SHA-256: d9b440da53bd5c5457375427457c283281708e0cc49444f5bc3225c6fd24f650
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KLU-HEAD.ANS by Klumzee (glue-23); released in glue-23 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: KLU-HEAD.ANS by Klumzee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-23-klu-head
 
 Write-Host '
 [1;35m▄▄▄▄[0m [1m▓▀▀[0;34;47m░░░[0;1;35;40m ▄▄▄▄▄▄▄▄▄[0m [1m▓▓▀▀[0;1;47m▓[0m [1;35m▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: SEL-ALRG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook22/raw/SEL-ALRG.ANS
-# Source Revision: archive-sha256:aec74908b08ab1e6eeb2617f04dd839f89321bd6f70d460ae94d73bdd51d69b6
-# Source SHA-256: ae8f73b960c3a616d3b592fc58e67be935b9dc7567d2a82e2e01b6cbc4288876
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SEL-ALRG.ANS by seltorn (black maiden); released in bmbook22 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: allergy
-# SAUCE Author: seltorn
-# SAUCE Group: black maiden
-# SAUCE Dimensions: 80x25
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: allergy by seltorn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook22-sel-alrg
 
 Write-Host '
                   [1;31msel_[0m         [32m▄▄▄▄▄[0m             [32m▄▄▄▄[0m

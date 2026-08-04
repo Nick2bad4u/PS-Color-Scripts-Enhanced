@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-CF2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9611/raw/TNA-CF2.ANS
-# Source Revision: archive-sha256:2b73e149488dc761d99422832825743596588d59e58f9bfecfb5d0e9dbffd274
-# Source SHA-256: 09bc92ce7c8e3504965a454c425928a3310548026d0fedfd33390fbbd12f55a9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-CF2.ANS by The Night Angel (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Chronic Farts
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961025
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Chronic Farts by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9611-tna-cf2
 
 Write-Host '
 tna([1mawe[0m)                           [34m▄    [0;1;37m▬  [0;34m▀▄▄[0m                      [1;37m▐[0m         [34m▄[0m

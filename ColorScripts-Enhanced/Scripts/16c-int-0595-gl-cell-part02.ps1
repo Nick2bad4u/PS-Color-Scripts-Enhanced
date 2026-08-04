@@ -1,18 +1,4 @@
-﻿# Converted from: GL-CELL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/int-0595/raw/GL-CELL.ANS
-# Source Revision: archive-sha256:e22d3952ca70c64f879897fb904ffbbf60c66bd0e40f7e119d0e6bdf3808e773
-# Source SHA-256: 030b5521e46a7e37e98af8e75ebacb5162aaff39d0e47ad7793bfad124642441
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GL-CELL.ANS by Grimlock (Integrity); released in int-0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Cell Block 4
-# SAUCE Author: Grimlock
-# SAUCE Group: Integrity
-# SAUCE Date: 19950430
-# SAUCE Dimensions: 80x25
-# Lines: 44-88
-# Columns: 1-80
+﻿# Artwork: Cell Block 4 by Grimlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-int-0595-gl-cell-part02
 
 Write-Host '
 [37m [0;34m▓▓░▄▓▒[0;37m [0;34m█▓▌▐▓▌▓▓▌[0;37m [0;34m▓░[0;37m  [0;1;30m▀▓▓▄░[0;33m  [0;1;30m░▓█[0;1;30;43m▓▓▓▓▓▓▓▒▒░░[0;33m██[0;31;43m   [0;33;40m▀██▓ [0;1;30;43m▓▒[0;33m  [0;37m  [0;1;30m░[0m [1;30m ▄▄[0m [1;34m▐[0;1;34;44m▒▓▓▒▓▓▒▓▒▒[0m

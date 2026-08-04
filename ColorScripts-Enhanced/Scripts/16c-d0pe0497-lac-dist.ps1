@@ -1,18 +1,4 @@
-﻿# Converted from: LAC-DIST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d0pe0497/raw/LAC-DIST.ANS
-# Source Revision: archive-sha256:a220e98301d64a5ed6ff83d56b491a9548bfbee0f6442b6e0e312609842035d6
-# Source SHA-256: b4df5d955a88d0c5461c0ab0b692ffdaa969cde279f44697dc560ebced5d736f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LAC-DIST.ANS by lacaid (dope); released in d0pe0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: distros
-# SAUCE Author: lacaid
-# SAUCE Group: dope
-# SAUCE Date: 19970414
-# SAUCE Dimensions: 80x25
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: distros by lacaid | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d0pe0497-lac-dist
 
 Write-Host '
                        [1;34m [0;36m.[0m

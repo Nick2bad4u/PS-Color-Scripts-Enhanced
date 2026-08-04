@@ -1,18 +1,4 @@
-﻿# Converted from: VG-MIST2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/haze_002/raw/VG-MIST2.ANS
-# Source Revision: archive-sha256:38330e2f246542d7e8592e16d69ba19463233f347fc04dc4d56a7647ea25c49d
-# Source SHA-256: de7ce7727603f9629c76939e2f222a9fbd8309ab0c47f304abb995b97365bea9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VG-MIST2.ANS by vertigo (haze); released in haze_002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: mist 2
-# SAUCE Author: vertigo
-# SAUCE Group: haze
-# SAUCE Date: 19950531
-# SAUCE Dimensions: 80x100
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: mist 2 by vertigo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-haze-002-vg-mist2-part02
 
 Write-Host '
 [30;46m                [0;1;30;40m [0;1;37;40m▐[0;1;37;47m██▓▒░         [0m▄▄▄▄[1;31m [0m▀[1m▀ [0m▄▄[1;31m [0;1;37m▀▀[0m▀ ▄▄▄▄▄▄[1;30;47m░░▒▒▓▓[0;1;30;40m████████████████████[0m

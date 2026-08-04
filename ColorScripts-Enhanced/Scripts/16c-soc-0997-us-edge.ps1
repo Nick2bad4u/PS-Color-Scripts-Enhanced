@@ -1,18 +1,4 @@
-﻿# Converted from: US-EDGE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/soc-0997/raw/US-EDGE.ANS
-# Source Revision: archive-sha256:9f75ecf0c54898b416dd9a92ccde7addf7c89b0fd725610fbbbb036936c3287b
-# Source SHA-256: 454eca1b3b0f826afd08b916b53a555092008eaadf904a48b8dc7274535dc155
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-EDGE.ANS by Maytag + Cool Guy (Society); released in soc-0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Edge (may+cg)
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Society
-# SAUCE Date: 19970905
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: The Edge (may+cg) by Maytag + Cool Guy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-soc-0997-us-edge
 
 Write-Host '
       [33m▀▓▓▓██[0;1;31;43m ░░░▒▒▓▓[0;1;31;40m█ [0;31;43m▓[0;31;40m██[0;1;31;40m ▒██████████████[0;1;31;45m▓▓[0;1;31;40m█▌      [0m   [1;31m   [0m

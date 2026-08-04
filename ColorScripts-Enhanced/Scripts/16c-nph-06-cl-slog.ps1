@@ -1,18 +1,4 @@
-﻿# Converted from: CL!-SLOG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-06/raw/CL!-SLOG.ANS
-# Source Revision: archive-sha256:23bf7a2dd40d2b6120f5e578427d7f6ab3055fd2a788b1f3e27f63e9880c5fa0
-# Source SHA-256: cf866232116f289d213507e9710658559df2f8970a035ce186798e4aa91e40ce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-SLOG.ANS by cLEANEr (nITROPHUSIOn); released in nph-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: sLISERs lOGIn
-# SAUCE Author: cLEANEr
-# SAUCE Group: nITROPHUSIOn
-# SAUCE Date: 19971227
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: sLISERs lOGIn by cLEANEr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-06-cl-slog
 
 Write-Host '
    [1;31m▐▄   [0;1;37m▄■[0;1;31m▀▀■▄ ▐▄■▀▀▀[0;1;31;41m▓[0;1;31;40m▄  [0;1;37;40m▀  [0;1;30;40m░░[0;1;31;40m▐▄[0;31m■▀▀▀[0;1;31;41m░[0;31m▄  [0;1;30m░░    [0m▄▄▄[1;47m▄▄▄██▓▓██▀▀▀[0m▀▀▀        █[1;47m░  ░░[0m

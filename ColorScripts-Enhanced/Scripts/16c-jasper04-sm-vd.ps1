@@ -1,18 +1,4 @@
-﻿# Converted from: SM-VD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper04/raw/SM-VD.ANS
-# Source Revision: archive-sha256:80df5b962e79c7e1df6d776b244f2783526ab7713c133db68d5f1c8d518678b1
-# Source SHA-256: 9ada4927e45ae897b79e14362354435f9b1598f09258b14650c472848508bf66
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-VD.ANS by smoke (jasper); released in jasper04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: vivid bbs call wait scrn
-# SAUCE Author: smoke
-# SAUCE Group: jasper
-# SAUCE Date: 20020327
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: vivid bbs call wait scrn by smoke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper04-sm-vd
 
 Write-Host '
          [31m▀▄▄▄[0m                                                              [1;30msmoke[0m

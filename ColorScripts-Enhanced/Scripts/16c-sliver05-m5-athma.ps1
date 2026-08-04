@@ -1,18 +1,4 @@
-﻿# Converted from: M5-ATHMA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sliver05/raw/M5-ATHMA.ANS
-# Source Revision: archive-sha256:6e2cc64d3369490e79ab97d6818428e76b42d77e8d26ea9913e9d21a1c34ddf3
-# Source SHA-256: aea0ba151b96e7b67dff2740aa9480f4086bf493e467ba3d58299265da2326a2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M5-ATHMA.ANS by umkilla (sliver); released in sliver05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the aftermath
-# SAUCE Author: umkilla
-# SAUCE Group: sliver
-# SAUCE Date: 19970801
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: the aftermath by umkilla | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sliver05-m5-athma
 
 Write-Host '
 [1m  [0;1;32m─[0;1;33m│─  [0;1;30m [0m                              [1;31m                        [0m

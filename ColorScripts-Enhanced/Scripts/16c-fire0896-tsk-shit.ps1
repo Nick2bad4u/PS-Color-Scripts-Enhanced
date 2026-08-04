@@ -1,18 +1,4 @@
-﻿# Converted from: TSK-SHIT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0896/raw/TSK-SHIT.ANS
-# Source Revision: archive-sha256:f9cf2b2d2bbd2b43295b2db0288f290749703458f413700d0129369379a58bf6
-# Source SHA-256: 27310117fa3958f6a68b0ce6c37d9dfea3d8bdf4fd575349664567505c33db80
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-SHIT.ANS by The Silent Killer (fire); released in fire0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Shit
-# SAUCE Author: The Silent Killer
-# SAUCE Group: fire
-# SAUCE Date: 19960805
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Shit by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0896-tsk-shit
 
 Write-Host '
 

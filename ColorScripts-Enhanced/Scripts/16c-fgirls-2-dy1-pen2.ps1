@@ -1,13 +1,4 @@
-﻿# Converted from: dy1-pen2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fgirls-2/raw/dy1-pen2.ans
-# Source Revision: raw-sha256:3a125200e60958def2e5bd87c9702668a7173dd3983883bed24be05b829829d6
-# Source SHA-256: 3a125200e60958def2e5bd87c9702668a7173dd3983883bed24be05b829829d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: dy1-pen2.ans by Discyple (fgirls-2); released in fgirls-2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: dy1-pen2.ans by Discyple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fgirls-2-dy1-pen2
 
 Write-Host '
                          [1m      [0m           [1;35m┌        ┌      ┐         [0m           

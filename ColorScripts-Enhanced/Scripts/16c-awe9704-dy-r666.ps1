@@ -1,18 +1,4 @@
-﻿# Converted from: DY-R666.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9704/raw/DY-R666.ANS
-# Source Revision: archive-sha256:da151757a637299fc8da8cc755ae75b6a0e1a281dd915d29497f1d00d429e5c1
-# Source SHA-256: afd372dcc2259ccfbb34f2770567196862dcdb8e30bed26425062ff7c4dd4611
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DY-R666.ANS by Discyple (AWE Lettering); released in awe9704 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Route 666
-# SAUCE Author: Discyple
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970328
-# SAUCE Dimensions: 80x25
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Route 666 by Discyple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9704-dy-r666
 
 Write-Host '
                                    [30;44m▓[0m  [34;40m■[0m

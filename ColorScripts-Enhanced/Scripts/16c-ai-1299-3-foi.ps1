@@ -1,13 +1,4 @@
-﻿# Converted from: 3_FOI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ai-1299/raw/3_FOI.ANS
-# Source Revision: archive-sha256:f4c9c5ee8fa32dffa863044f16a58d3c1ce2d0c1fe58aad2e67f1ebc5477c5e4
-# Source SHA-256: 82cd38dea9eab3e5ce6b6148e92b539f0fa8a91525f79ca2b0e200172d496595
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 3_FOI.ANS by Seltorn (ai-1299); released in ai-1299 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: 3_FOI.ANS by Seltorn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ai-1299-3-foi
 
 Write-Host '
 

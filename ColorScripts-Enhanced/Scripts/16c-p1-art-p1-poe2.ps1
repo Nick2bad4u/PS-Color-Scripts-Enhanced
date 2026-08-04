@@ -1,18 +1,4 @@
-﻿# Converted from: P1-POE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/p1-art/raw/P1-POE2.ANS
-# Source Revision: archive-sha256:06a57bb72e7d6a342c8ad4a89ac939a68c70ab4dea937d4260a80c29e28862d6
-# Source SHA-256: c62369a1d99e65edf09b92c80c7ab87d2ff8ade4a9e9141e5452413e4f23fa50
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P1-POE2.ANS by Prisoner#1 (Fire); released in p1-art and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Point Of Entry Logo 2
-# SAUCE Author: Prisoner#1
-# SAUCE Group: Fire
-# SAUCE Date: 19941108
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Point Of Entry Logo 2 by Prisoner#1 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-p1-art-p1-poe2
 
 Write-Host '
   [1;30m▓████████████████████████████████████████████████▀▀▀████████▓ ENTRY  POINT[0m

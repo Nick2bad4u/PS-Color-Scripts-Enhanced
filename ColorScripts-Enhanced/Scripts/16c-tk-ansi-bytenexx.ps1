@@ -1,19 +1,4 @@
-﻿# Converted from: BYTENEXX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tk-ansi/raw/BYTENEXX.ANS
-# Source Revision: archive-sha256:7a6e15a450305cb977de0a4eb06cf4ca525baa4933c9f7af1cf6080dced8bf2d
-# Source SHA-256: 360ac539ad1caa347fd686a278f0ab4e814ea8e1e8124f1e5aaea4863413a542
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYTENEXX.ANS by Tank (NeXX); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Last Byte BBS Ad
-# SAUCE Author: Tank
-# SAUCE Group: NeXX
-# SAUCE Date: 19910611
-# SAUCE Dimensions: 80x24
-# SAUCE Comments: BBS ran at night by Barry and Dave in Houston, we all worked at | Aircraft Online Network (AON) and later became USIS Internet Pro | vider.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: The Last Byte BBS Ad by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tk-ansi-bytenexx
 
 Write-Host '
   [1;34m▄[0;1;34;44m▀[0;34m████████████[0;1;34;44m▀[0;1;34;40m▄[0m             [35m▄██▄[0m                                      [35m▐[0m

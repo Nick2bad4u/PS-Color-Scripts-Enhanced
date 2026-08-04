@@ -1,13 +1,4 @@
-﻿# Converted from: SD-MENU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acepak03/raw/SD-MENU.ANS
-# Source Revision: archive-sha256:71f78f593817a36727e411dee91071ce24dbde3a62d521b9c6d47c19e804a8d7
-# Source SHA-256: 669dfa8095d97f73d844fa8b54f9bce8007117d497c3721c0a4a4fe1cb47ed76
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-MENU.ANS by Sudden Death (acepak03); released in acepak03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: SD-MENU.ANS by Sudden Death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acepak03-sd-menu
 
 Write-Host '
                  [30;47m▀▀▀[0;1m▄▄▄▄  [0m▄[1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

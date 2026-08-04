@@ -1,19 +1,4 @@
-﻿# Converted from: BLZ-BLND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr018/raw/BLZ-BLND.ANS
-# Source Revision: archive-sha256:e230175b2115976a01ea7e69ead3de020d0675eec77936207f1dcdcce0235524
-# Source SHA-256: a80c4d1722886c9966c17a02795ee8ca368d9c9ca5f9afefdafd1d825cb39397
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BLZ-BLND.ANS by blaze (raw^infinite); released in blndr018 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: blender #18 - blaze`s stuff!
-# SAUCE Author: blaze
-# SAUCE Group: raw^infinite
-# SAUCE Date: 19970324
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: done in 20 mins ..
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: blender #18 - blaze`s stuff! by blaze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr018-blz-blnd
 
 Write-Host '
                      [1;30m.[0m            [1m·[0m                      [31m [0;1;31m░▄▄[0;31m▄██▀■[0m

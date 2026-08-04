@@ -1,13 +1,4 @@
-﻿# Converted from: SR-GH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-003/raw/SR-GH.ANS
-# Source Revision: archive-sha256:09817656d743388b570b7dfb39c4f133f8c40aecb92562f60d9e0c45a3f39730
-# Source SHA-256: 37889be5e5d7f06a48d57846648b4638aad9eecad6fed2de1d3e3f8d0010a385
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SR-GH.ANS by Scroller (rib-003); released in rib-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: SR-GH.ANS by Scroller | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-003-sr-gh
 
 Write-Host '
                   [1;33m░[0m

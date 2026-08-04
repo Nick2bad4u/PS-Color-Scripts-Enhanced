@@ -1,13 +1,4 @@
-﻿# Converted from: MC!KNYHT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-10/raw/MC!KNYHT.ANS
-# Source Revision: archive-sha256:ba7c4a4551adb8285347fd98fdb9f0a91fe459313bdff549b9e589778adcfcfe
-# Source SHA-256: 503e18fc34e0db65b5a57f804aa6963c9d4a1bd1cc83186e346c129dff500caa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MC!KNYHT.ANS by Madcap (d38-10); released in d38-10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: MC!KNYHT.ANS by Madcap | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-10-mc-knyht
 
 Write-Host '
 [1;37m█[0m▀[1;30m▀[0;1;37m▐██▀[0;1;30m░   ░[0m▄[1m█[0;1;47m▀[0;1;40m▀▀─  [0;1;30;40m▀[0;1;37;47m▀[0;1;37;40m██▄[0m▄ [1m▀▀[0;1;30m▀[0m▄[1m▄█▀▀█[0m▄[1;30m▄ [0;1;37m▄   [0m│ [1;30m▄▄[0m─ [1;30m▐▌ [0m▄■ ▄▄[1;30m─ [0;1;33;43m░▒▓[0;1;33;40m▌[0;35;47m▓[0;35m█▌    [0;1;32;43m▓[0;1;32;41m▒[0;1;32;42m░[0;35;47m▒[0;1;30;45m░[0;35m▌[0m

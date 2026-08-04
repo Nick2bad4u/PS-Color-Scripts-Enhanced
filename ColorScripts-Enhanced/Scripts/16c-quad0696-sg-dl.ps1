@@ -1,18 +1,4 @@
-﻿# Converted from: SG-DL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0696/raw/SG-DL.ANS
-# Source Revision: archive-sha256:236a7fb0a93235d8f2e65905276d126bcc0373b294a0bdfc5818d6b91f477e07
-# Source SHA-256: 45320b62399e8d55f8faf7d8b66b3aabe9eafb65be94ece167c51dd9cb190509
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SG-DL.ANS by Stygian ([Quad-P]); released in quad0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: dOWNLOAD!
-# SAUCE Author: Stygian
-# SAUCE Group: [Quad-P]
-# SAUCE Date: 19960525
-# SAUCE Dimensions: 80x25
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: dOWNLOAD! by Stygian | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0696-sg-dl
 
 Write-Host '
     [31m      [0;1;37m███[0;31m        [0m         [31m           [0m        [31m [0m                [31m   [0;1;37m ███ [0;31m [0m

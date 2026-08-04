@@ -1,18 +1,4 @@
-﻿# Converted from: CO-STX#2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0196/raw/CO-STX%232.ANS
-# Source Revision: archive-sha256:b488878884154420cd3d4f315b5d1218512f30bbd731fa31bcae353756902b21
-# Source SHA-256: 5bc08369e393e8cc0474e08af8b6ef1bef4ec0337ebd0fc2a0abaece76c575dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CO-STX#2.ANS by cocox (opium); released in opx-0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: satronix logo.. again :/
-# SAUCE Author: cocox
-# SAUCE Group: opium
-# SAUCE Date: 19951231
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: satronix logo.. again :/ by cocox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0196-co-stx-2
 
 Write-Host '
 

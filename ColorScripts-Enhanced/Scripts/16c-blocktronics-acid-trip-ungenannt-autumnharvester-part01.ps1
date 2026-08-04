@@ -1,19 +1,4 @@
-﻿# Converted from: ungenannt_autumnharvester.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_acid_trip/raw/ungenannt_autumnharvester.ANS
-# Source Revision: archive-sha256:c0717ff5cb7d462ed7fa9a55edd7235adbd3f09e01132486021497c9281171b6
-# Source SHA-256: fc33cc891786b90bf3ed5057701a6eabb4b6a94e64c656335dca382d03c29acd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ungenannt_autumnharvester.ANS by ungenannt (blocktronics); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: autumn harvester
-# SAUCE Author: ungenannt
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x197
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: autumn harvester by ungenannt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-acid-trip-ungenannt-autumnharvester-part01
 
 Write-Host '
 [33m▓▓▓▓▓▓▓█▓█[0;33;43m██████████████████████████[0;33;45m████[0;33;43m███████████████████████████████████[0;33;40m▓▓▓▓[0m

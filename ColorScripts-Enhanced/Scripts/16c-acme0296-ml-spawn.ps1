@@ -1,18 +1,4 @@
-﻿# Converted from: ML-SPAWN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acme0296/raw/ML-SPAWN.ANS
-# Source Revision: archive-sha256:5cbb7c836a329833b657f6859c4a30abc419f56c33ad0e58fa1fef60983b6379
-# Source SHA-256: e26ff1ebbf1dfb5d8cd2ba5223b4e9850a66c39d9014baa83fe28dc8a22a3a02
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ML-SPAWN.ANS by Mortal (Acme); released in acme0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Spawn 24 liner for merc mod
-# SAUCE Author: Mortal
-# SAUCE Group: Acme
-# SAUCE Date: 19960204
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Spawn 24 liner for merc mod by Mortal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acme0296-ml-spawn
 
 Write-Host '
 [31m▓▀   [0m                         [31m░░░▒▓████▓▒[0m [1;30m░          ░         ░         ░[0m    [1;30m░[0m

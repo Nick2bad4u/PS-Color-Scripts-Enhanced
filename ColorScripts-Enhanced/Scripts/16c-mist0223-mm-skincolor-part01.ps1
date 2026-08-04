@@ -1,19 +1,4 @@
-﻿# Converted from: MM-SKINCOLOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0223/raw/MM-SKINCOLOR.ANS
-# Source Revision: archive-sha256:f6abf3bbd53eb017898fa84b28d2ac43fcb70297788ba675e470ca73794cbbfd
-# Source SHA-256: 7f0238d97909366b2d89ce586ba392161b1e4e3f43e3e96ffc3ebfb00c1a5d96
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-SKINCOLOR.ANS by Mavenmob (Mistigris); released in mist0223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Skin In The Color
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20230221
-# SAUCE Dimensions: 80x56
-# SAUCE Font: IBM VGA
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Skin In The Color by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0223-mm-skincolor-part01
 
 Write-Host '
 [31m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

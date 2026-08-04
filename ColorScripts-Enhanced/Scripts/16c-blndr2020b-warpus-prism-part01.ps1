@@ -1,19 +1,4 @@
-﻿# Converted from: warpus-prism.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2020b/raw/warpus-prism.ans
-# Source Revision: archive-sha256:1063ecc4b81049c3978f201788a20b16574096cc731a1dcb10b9648631070d9b
-# Source SHA-256: 13d0c75ede787c0a284874615f061f092716457206030db644343bea3ec35ad0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: warpus-prism.ans by warpus (LAZARUS); released in blndr2020b and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Scott's Prism Thang
-# SAUCE Author: warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20201028
-# SAUCE Dimensions: 105x114
-# SAUCE Font: IBM VGA
-# Lines: 1-38
-# Columns: 1-105
+﻿# Artwork: Scott's Prism Thang by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2020b-warpus-prism-part01
 
 Write-Host '
 [1;32m█████████████████████████████████████████████████████████████████████████████████████████████████████████[0m

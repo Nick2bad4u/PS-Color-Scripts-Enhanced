@@ -1,13 +1,4 @@
-﻿# Converted from: us-htfp.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-44/raw/us-htfp.ans
-# Source Revision: archive-sha256:1301847088c4043837d3d03206737213e66e1c5374455e07700252e3c8438a2b
-# Source SHA-256: bc94ed28380f6414ed021519b31a1ff4e9fb3276480082534c033d74cc5998b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-htfp.ans by Nightrain + Cd_ (rmrs-44); released in rmrs-44 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: us-htfp.ans by Nightrain + Cd_ | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-44-us-htfp
 
 Write-Host '
 [1;30m[0m[1m[0m[1;30m----------------------------------------[0;1;37m√[0;1;30m---------------------------------------[0m

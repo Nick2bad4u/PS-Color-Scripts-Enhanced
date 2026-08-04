@@ -1,19 +1,4 @@
-﻿# Converted from: N-5ZOID.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna01/raw/N-5ZOID.ans
-# Source Revision: archive-sha256:70f712dbf565de1ceb0f2b7020b54aa443621235a47b082b92e24e13342b0672
-# Source SHA-256: 3a5776ff15b3511f5786cf5a11458f78dd99d48c57ae3c1dca55e09b16214c4c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-5ZOID.ans by nail (blocktronics); released in thesauna01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: pentazoid
-# SAUCE Author: nail
-# SAUCE Group: blocktronics
-# SAUCE Date: 20180921
-# SAUCE Dimensions: 80x22
-# SAUCE Font: IBM VGA
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: pentazoid by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna01-n-5zoid
 
 Write-Host '
 [37;40m [0;35;40m  ▓ [0m                  [31;40m  [0;37;40m [0;35;40m▓[0;1;35;40m▒▓[0m [1;35m▒▒[0m [35m▓[0;30;45m░[0;37;40m [0;35;40m▓[0;30;45m░[0;35;40m░[0;30;45m▓[0;37;40m  [0;35;40m░[0;30;45m▓[0m

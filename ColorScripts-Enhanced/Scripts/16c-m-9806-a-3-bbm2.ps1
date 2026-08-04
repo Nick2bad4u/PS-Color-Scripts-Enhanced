@@ -1,17 +1,4 @@
-﻿# Converted from: 3_BBM2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m-9806-a/raw/3_BBM2.ANS
-# Source Revision: archive-sha256:eb10640e3f8107bdd0ebee65a225456c83101a551583eb5db847aaf454501a55
-# Source SHA-256: 3389534ae33655fd057b453b215aa9f55ec13ce4a80f91102adf5f6401b86764
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 3_BBM2.ANS by Tricolore + Cthulu (mISTFUNK 1998); released in m-9806-a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: BreakBeat Mafia
-# SAUCE Author: Tricolore and Cthulu
-# SAUCE Group: mISTFUNK 1998
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: BreakBeat Mafia by Tricolore + Cthulu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m-9806-a-3-bbm2
 
 Write-Host '
            [35m [0;30;45m█▓▓[0;35;40m▄▄▄▄▄[0m

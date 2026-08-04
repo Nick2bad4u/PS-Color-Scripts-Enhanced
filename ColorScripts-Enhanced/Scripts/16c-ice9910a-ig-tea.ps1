@@ -1,13 +1,4 @@
-﻿# Converted from: IG-TEA.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9910a/raw/IG-TEA.ICE
-# Source Revision: archive-sha256:36ca1dd5644cdb517c6a5e44c0a2d3c37d506cd6aee1ccafcb9df2faef581c91
-# Source SHA-256: 45136726cad09edc94065e92b37568462320393135aaa2f7322e9d02959908a3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IG-TEA.ICE by Ironghost (ice9910a); released in ice9910a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: IG-TEA.ICE by Ironghost | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9910a-ig-tea
 
 Write-Host '
 [32m█▓▀ [0;37m  [0;1;30m▄[0;36;42m███[0;1;36;46m░░▒▒▒▒▓▓▓▓▒▒▒░░[0;36m▄[0;37m [0;32m▄▀██▓░[0m           [1;30m▄▄[0;1;30;43m▓▓[0;33m▄[0;1;30m▄[0m

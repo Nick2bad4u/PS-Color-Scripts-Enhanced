@@ -1,13 +1,4 @@
-﻿# Converted from: asciiman.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic39/raw/asciiman.ans
-# Source Revision: archive-sha256:1587aaa641b0346887ebecb49bf7d019b85e6dcfb801dd31680b4ccf1d4f794b
-# Source SHA-256: f86218d2c30675cc4b22d54ce299a5be66afac4753713d86d77fe6d045d2de86
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: asciiman.ans by Aeternam (mimic39); released in mimic39 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: asciiman.ans by Aeternam | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic39-asciiman
 
 Write-Host '
 [1;31m /\ [0;1;33m l$│Sb,  $$$$$$$$$[0;1;31m$$$$$$└└└/,$L  $$  jL  $L  d7$ [0;1;33m$b  d$ $$ $b  d$ $$  _┐\││[0m

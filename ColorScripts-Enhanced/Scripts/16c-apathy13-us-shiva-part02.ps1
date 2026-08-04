@@ -1,19 +1,4 @@
-﻿# Converted from: us-shiva.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy13/raw/us-shiva.ans
-# Source Revision: archive-sha256:3ed7178f860604c6b9786846d46fd13095846b81c16a5324edc4e4b9ea7e6ba8
-# Source SHA-256: 40e4b5d03a2b63eaec81c56ffc14d6b77ace8b26d0a06c4621578809258332c9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-shiva.ans by Mypalgoo + Zeus Ii (blocktronics); released in apathy13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: shiva
-# SAUCE Author: zeus ii, mypalgoo
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x150
-# SAUCE Font: IBM VGA
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: shiva by Mypalgoo + Zeus Ii | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy13-us-shiva-part02
 
 Write-Host '
  [1;31m▀▄[0;1;33m█   [0;1;31m▐▌[0;1;33m▐▌[0m   [31m▓[0;37m [0;1;33m▐▌[0;33m▐█[0;1;33;43m▄▄[0;33m█▄▄       [0;1;30m░░░░       ▒▒▒░░░  [0;33m▐[0;1;33;43m█▀[0;33m█▌[0;31m▄[0;1;33m█[0m     [1;33m▐▌[0;1;31m▐▌[0m  [1;31m▄▀[0;1;33m█[0m       [1;31m▐[0m

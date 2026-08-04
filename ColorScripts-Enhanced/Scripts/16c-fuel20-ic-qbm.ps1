@@ -1,18 +1,4 @@
-﻿# Converted from: IC-QBM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel20/raw/IC-QBM.ANS
-# Source Revision: archive-sha256:76cc71407da52d22474028b5badac0ae5ae0b321b8be74ac60820db9d7a1dc71
-# Source SHA-256: bf9d4403049397de87f346ce8a2502d0b466741e2a5c1abdc79f6610f806a0c0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IC-QBM.ANS by inclusive (fuel productions); released in fuel20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: quendi board menu
-# SAUCE Author: inclusive
-# SAUCE Group: fuel productions
-# SAUCE Date: 19971225
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: quendi board menu by inclusive | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel20-ic-qbm
 
 Write-Host '
    ▌  ▄      [1;30m░[0m▐   ▄▄                     [32m [0;1;32m  [0;32m▄▄▄▄░[0;37m [0;1;32m [0m             [32m ░░▄▄▄▄[0;1;32m  [0m

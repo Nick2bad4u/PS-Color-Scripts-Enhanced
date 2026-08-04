@@ -1,19 +1,4 @@
-﻿# Converted from: avg-fuelthefat.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel22/raw/avg-fuelthefat.ans
-# Source Revision: archive-sha256:ba169f7927d483c43f833be895de0c289bdb93739fe60d9d716f1c3c01404206
-# Source SHA-256: db20944b448f63bcd9cf7b092de5f513ff524647c359439a93a042c0e3d652c9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-fuelthefat.ans by avg (fuel); released in fuel22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fuel the fat machine
-# SAUCE Author: avg
-# SAUCE Group: fuel
-# SAUCE Date: 20170307
-# SAUCE Dimensions: 80x175
-# SAUCE Font: IBM VGA
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: fuel the fat machine by avg | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel22-avg-fuelthefat-part01
 
 Write-Host '
 

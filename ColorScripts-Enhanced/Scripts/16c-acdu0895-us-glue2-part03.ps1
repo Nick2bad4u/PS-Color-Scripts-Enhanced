@@ -1,18 +1,4 @@
-﻿# Converted from: US-GLUE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0895/raw/US-GLUE2.ANS
-# Source Revision: archive-sha256:3becf3c2c00dadeb41257fa85bb842a48deb8515cdc494db0d9ff697d2e04d12
-# Source SHA-256: 1d2cbfde66e376300ba088cc6395ec7b221563f05cdaa3024a96d1d37c10d90e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GLUE2.ANS by Lord Jazz + Black Lightning (ACiD/Integrity); released in acdu0895 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Glue
-# SAUCE Author: Multiple Artists
-# SAUCE Group: ACiD/Integrity
-# SAUCE Date: 19950730
-# SAUCE Dimensions: 80x171
-# Lines: 90-130
-# Columns: 1-80
+﻿# Artwork: Glue by Lord Jazz + Black Lightning | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0895-us-glue2-part03
 
 Write-Host '
 [31m▀[0m    [33m░[0;37m [0;1;30m░ [0m       [1;30;47m░░[0m█[1;30;47m▀[0;1;30;40m▄ [0m▀▄[1;30m▀██[0;1;30;47m▓[0;1;30;40m▄[0;1;31;40m▀[0;1;31;41m▒░[0;31m▄ ▀[0;30;41m░▒[0m                [31;40m░[0m          [33;40m░[0;30;43m▒▒[0;33;40m██▓[0;1;33;43m░▒▒▓[0;1;33;40m▀  [0;33m░░[0m

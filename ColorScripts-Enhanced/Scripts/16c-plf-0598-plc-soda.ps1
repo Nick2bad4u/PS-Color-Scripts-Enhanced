@@ -1,18 +1,4 @@
-﻿# Converted from: PLC!SODA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0598/raw/PLC!SODA.ANS
-# Source Revision: archive-sha256:e4eb608a76b35267c945e8d8ea0fbc9cde7f273818c342a2a37fa7f292193f2c
-# Source SHA-256: f3c5f300c5b39f312d52bfd9faf2af70f1d9fec24c000d0a46d7aa98e13e2f23
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PLC!SODA.ANS by plc (poffelipoff); released in plf-0598 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: cream soda
-# SAUCE Author: plc
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19980524
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: cream soda by plc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0598-plc-soda
 
 Write-Host '
 [1;30m▒▒▒░░░[0m [1;30m░░[0m                       [33m░░[0m       [1;30m      [0m

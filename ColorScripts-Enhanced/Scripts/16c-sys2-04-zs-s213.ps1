@@ -1,13 +1,4 @@
-﻿# Converted from: ZS-S213.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sys2_04/raw/ZS-S213.ANS
-# Source Revision: archive-sha256:e0a121a9a9dfa21401cfdd06cbec5a8ecc05454c68a9bb59792be80b08d37bcc
-# Source SHA-256: 8bbe14b408ccf6c75f97afea1113992a797bb8c5b12c017b2a29b811f73ceda9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZS-S213.ANS by Zerostar (sys2_04); released in sys2_04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: ZS-S213.ANS by Zerostar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sys2-04-zs-s213
 
 Write-Host '
 [1;31mÑÑ[0;33mÑÑÑ[0;31mÑ*┘²''^\[0;33mÑÑ[0;31m*┘²''\[0;33mÑ*[0;31m┘²''^\[0;33mÑÑ[0;1;31mÑÑÑÑ[0;33mÑÑÑ[0;31mP`[0;32m .┐q%@[0;1;32mSS@%[0;32mp┌▬.[0;31m`''²┘[0;33m****└[0;31m²''^``^''²└*[0;33mÑÑÑ[0;1;31mÑÑÑÑ[0;33mÑ[0;31mll[0m

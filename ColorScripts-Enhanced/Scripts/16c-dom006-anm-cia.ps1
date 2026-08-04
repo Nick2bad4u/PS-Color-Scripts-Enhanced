@@ -1,18 +1,4 @@
-﻿# Converted from: ANM-CIA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dom006/raw/ANM-CIA.ANS
-# Source Revision: archive-sha256:93a6b412f9e9adf4c6092c8d46992a7a1423cd1a7b58c863faad8b32ddf2ce2e
-# Source SHA-256: a1ec8ad54b01576416c4dcd0207d7f7e20cde13188b245894ab43ca5a444143b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ANM-CIA.ANS by anomite (dominio); released in dom006 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: cia!
-# SAUCE Author: anomite
-# SAUCE Group: dominio
-# SAUCE Date: 19980727
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: cia! by anomite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dom006-anm-cia
 
 Write-Host '
 

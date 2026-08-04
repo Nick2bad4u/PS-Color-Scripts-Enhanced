@@ -1,13 +1,4 @@
-﻿# Converted from: mt-back.ice
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice0010a/raw/mt-back.ice
-# Source Revision: archive-sha256:9197c79fd943067c8127bf101c6d43e266edf2979a70ff7cea84ebc7325e914e
-# Source SHA-256: 98f9c5fca5d912ece379fb7be5b9a0537ff421f05ac7d284f55168447a3fe43d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mt-back.ice by Misfit (ice0010a); released in ice0010a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: mt-back.ice by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice0010a-mt-back
 
 Write-Host '
 [1;30m─-─-─[0;36m ▄▓[0;37m [0;1;30m─ -─[0;36m ▓▄[0;37m [0;1;30m-─ [0;36mmisfit[0;1;30m*[0;1;33mice''00 [0;1;30m─ [0m▀[1;31m▀[0;1;31;43m▓▓▓[0;1;31;40m██[0;1;31;47m▓▓▓▓▓[0;1;31;43m█[0;1;31;47m▓[0;1;31;43m█▓▓█▓▓▓▒░[0;33m▓▓▒▀[0;1;31;43m▒▓[0;1;31;40m█[0;1;31;43m▓▒[0;33m▄▓░[0;1;33m▀[0;1;33;41m░[0;31m▀▓▀▀▀▓▄[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: AVE-MS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mean9610/raw/AVE-MS.ANS
-# Source Revision: archive-sha256:eb05f2b8207463fc94de363304abab4a1544e298daf7dc7d1efbc5b0f6afd5eb
-# Source SHA-256: 903e04e4e835766939b16aa08940945d53ace970de242b3a3679e2004b1425d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-MS.ANS by avenger (mean9610); released in mean9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: mean scheme
-# SAUCE Author: avenger
-# SAUCE Date: 19961031
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: mean scheme by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mean9610-ave-ms
 
 Write-Host '
 [1;33m█████▀▀▀▀▀▀▀██████████████████████████████████████████████████████████████[0;1;33;46m██[0;1;33;40m███[0m

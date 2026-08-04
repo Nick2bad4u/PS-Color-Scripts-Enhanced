@@ -1,18 +1,4 @@
-﻿# Converted from: WHZ-NARF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-09/raw/WHZ-NARF.ANS
-# Source Revision: archive-sha256:ce8026e794474c6e48d574a76c9366e170e87fe95fba0f1638e56cb02945c814
-# Source SHA-256: b145220c5479397a4e2bb637edd071962e20cdf2384fae5da677f3369089face
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WHZ-NARF.ANS by Whozie (fORCE); released in force-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Narf
-# SAUCE Author: Whozie
-# SAUCE Group: fORCE
-# SAUCE Date: 19960615
-# SAUCE Dimensions: 80x31
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Narf by Whozie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-09-whz-narf
 
 Write-Host '
 [1;30mWhz[0m          [1;31m░[0m

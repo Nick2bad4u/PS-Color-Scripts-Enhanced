@@ -1,13 +1,4 @@
-﻿# Converted from: DIE-NP3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-zxica/raw/DIE-NP3.ANS
-# Source Revision: archive-sha256:098212bcd3fc250902be7ae08340a23e99b29f8fa69fe7b4990238a6d402d1f6
-# Source SHA-256: d1c78ae7e76b22512ef34d5cfacfc8df88fa308d173a60a11800b6b8f42eec6d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DIE-NP3.ANS by Dieznyik (k-zxica); released in k-zxica and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: DIE-NP3.ANS by Dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-zxica-die-np3
 
 Write-Host '
 [36m/[0;1;34m.[0;36m\[0m

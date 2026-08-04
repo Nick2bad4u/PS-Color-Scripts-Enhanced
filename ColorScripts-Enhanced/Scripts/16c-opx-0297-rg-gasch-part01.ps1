@@ -1,18 +1,4 @@
-﻿# Converted from: RG!GASCH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0297/raw/RG!GASCH.ANS
-# Source Revision: archive-sha256:ebdb3432145de923aa3db5c356b5298a48e2bd3cd353301b704b88c85b6a63cb
-# Source SHA-256: f12b2c9305b33fa912d0574694b5c015aafb280b638c59226be37698ff7daf57
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RG!GASCH.ANS by rage (opium); released in opx-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: gas chamber
-# SAUCE Author: rage
-# SAUCE Group: opium
-# SAUCE Date: 19970108
-# SAUCE Dimensions: 80x75
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: gas chamber by rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0297-rg-gasch-part01
 
 Write-Host '
 [1;35;45m▒▒░░░[0;35m██████[0;1;36;45m▐[0;1;36;40m█[0;1;36;47m▓▒[0m▀          [34m░[0;37m  [0;1;34m░[0m  [32m░[0m    [1;34m░[0m   [1;34m      [0;1;36m  [0;1;34m ░░[0;34m░[0m       [37m▀[0;1;36;47m░▒▓▓[0;1;36;45m█▌[0;35m██[0;1;35;45m░░░░▒▒▒▓▓▓█[0m

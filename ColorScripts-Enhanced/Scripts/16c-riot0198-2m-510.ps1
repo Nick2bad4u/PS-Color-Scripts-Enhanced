@@ -1,17 +1,4 @@
-﻿# Converted from: 2M-510.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot0198/raw/2M-510.ANS
-# Source Revision: archive-sha256:7952109d83ab43458509eae0ab06692cf4f74f0e9e4252a478e28e2dff87767e
-# Source SHA-256: df71757bfdf3f3fa809f8ce27511cfd92bbede6069a4ee356a77730cf9aeaf06
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2M-510.ANS by 2much4u (RioT Productions); released in riot0198 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: 2much4u
-# SAUCE Group: RioT Productions
-# SAUCE Date: 19980131
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: 2M-510.ANS by 2much4u | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot0198-2m-510
 
 Write-Host '
 [1;30m[0m               [32m▄▄▄▄[0m        [1;32;42m░[0;32m▄▄▄[0m             [32m▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: 22-ENVY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-20/raw/22-ENVY.ANS
-# Source Revision: archive-sha256:393d047e2180bfd9243bab3697da037cf54274d924108dd74eafdca6bd3a4109
-# Source SHA-256: d9eb402b2d023688ad6901133550915833948255f737d61bd231143d3a6bafb0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 22-ENVY.ANS by catch22 (glue); released in glue-20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: envy.
-# SAUCE Author: catch22
-# SAUCE Group: glue
-# SAUCE Date: 19990331
-# SAUCE Dimensions: 80x72
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: envy. by catch22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-20-22-envy-part01
 
 Write-Host '
   [1;45m▓█[0;1;40m▀[0;35m [0;31m ▄[0;1;31m▄[0;1;31;41m▄██[0;31m▄  ▄[0;1;31;41m▄[0;1;31;40m██[0;1;31;41m▄[0;31m▄[0m

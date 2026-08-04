@@ -1,18 +1,4 @@
-﻿# Converted from: Smp-rev1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0402/raw/Smp-rev1.ans
-# Source Revision: archive-sha256:19898cc2febb6deadccf50832dc421b4f362a33c899e27278bafd225bbc2d4d4
-# Source SHA-256: 79a3bc1443798f2481940ce9f0e8f2a8072d8eae61d6dcf7942b712bca6dd156
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Smp-rev1.ans by ceelow/Zeus II (Revival 2002); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Orion
-# SAUCE Author: ceelow/Zeus II
-# SAUCE Group: Revival 2002
-# SAUCE Date: 20020320
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Orion by ceelow/Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0402-smp-rev1
 
 Write-Host '
                   [32m▄▄▄ ▀[0m

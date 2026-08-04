@@ -1,18 +1,4 @@
-﻿# Converted from: US-APPF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eglo02/raw/US-APPF.ANS
-# Source Revision: archive-sha256:d862af4560c46a8b2f9b7734dc1d7a739f807ae1a774cef5e941153df9ee1fb2
-# Source SHA-256: 77327a488ee3e6d4cf12edaa2294b29f3ec96620b0fa3a0180e3569fa605c3f0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-APPF.ANS by Samurai + Shaft (Everglo Empire); released in eglo02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Apply for Everglo now!
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Everglo Empire
-# SAUCE Date: 19970313
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Apply for Everglo now! by Samurai + Shaft | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eglo02-us-appf
 
 Write-Host '
 [1;30m▄[0m▄█[1;47m█▓░[0m▀[1;30m▀▀[0;33m ▄[0;1;30m▄[0m▒▒[1;30m▀▀[0;33m [0m   [1;30m ▐▄[0m [1;30m▄▄[0;1;30;47m▀[0;1;30;40m▀▀       [0;34m [0;1;30m▄░[0;34m  █[0;34;43m█████████████████[0;34;40m██████▀▀█[0;34;43m██████[0;34;40m▄▄ ░░ [0m

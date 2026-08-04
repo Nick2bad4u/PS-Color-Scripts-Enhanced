@@ -1,18 +1,4 @@
-﻿# Converted from: OG-TBR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-1194/raw/OG-TBR.ANS
-# Source Revision: archive-sha256:2e69cbeefab6a04ca1d6ac29f3ba8db97b41d323e43733124f355f6c875b64bc
-# Source SHA-256: ea5f1944112a5037433cb030e51aabd8ece70838057b610c53322801d5bff146
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OG-TBR.ANS by Ogre (Union); released in uni-1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Black River
-# SAUCE Author: Ogre
-# SAUCE Group: Union
-# SAUCE Date: 19941102
-# SAUCE Dimensions: 80x25
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: The Black River by Ogre | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-1194-og-tbr-part01
 
 Write-Host '
 [1;30mog!                                 [0m                    [32m▄▄▄[0m                 [1;31;41m█▓▒[0m

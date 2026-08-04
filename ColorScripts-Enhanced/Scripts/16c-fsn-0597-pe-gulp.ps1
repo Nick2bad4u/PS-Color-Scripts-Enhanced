@@ -1,13 +1,4 @@
-﻿# Converted from: PE!GULP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0597/raw/PE!GULP.ANS
-# Source Revision: archive-sha256:100499c687593fd78c29adf06f5899e8c0d61223958e380a9c31aadb955ab06d
-# Source SHA-256: f0ee7ca4ce456573ef65d455159951ad6db15b512230d91ee04fa760bc2d57be
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PE!GULP.ANS by Phonyeye (fsn-0597); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: PE!GULP.ANS by Phonyeye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0597-pe-gulp
 
 Write-Host '
                             [35m░░░░[0;37m [0;1;30m [0;1;30;41m [0;1;30;40m      [0m     

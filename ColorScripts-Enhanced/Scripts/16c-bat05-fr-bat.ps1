@@ -1,18 +1,4 @@
-﻿# Converted from: FR-BAT!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bat05/raw/FR-BAT!.ANS
-# Source Revision: archive-sha256:c1082e0417753715d0b89831e0230f9ac3baf3aab6c8a1f382615ebce2ab409a
-# Source SHA-256: fff8edaa7ae9335b219e21c86f499cfd4c4e934121c667b091762a7303b8cf60
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FR-BAT!.ANS by [freezer] (BaT!); released in bat05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: bat logo...
-# SAUCE Author: [freezer]
-# SAUCE Group: BaT!
-# SAUCE Date: 19970129
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: bat logo... by [freezer] | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bat05-fr-bat
 
 Write-Host '
              [1;34m [0m▄▄▄▄▄██████████████[1;30;47m▒▀▀[0;1;30;40m████[0;1;30;47m▓▓[0;1;30;40m██████████████████[0;1;30;47m▓▓[0;1;30;40m▄▄▄▄ [0m

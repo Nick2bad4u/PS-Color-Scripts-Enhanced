@@ -1,19 +1,4 @@
-﻿# Converted from: ru8-stackflag.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rui8bit2025/raw/ru8-stackflag.ans
-# Source Revision: archive-sha256:db48a01153712164dc1f91228a0ffd1483193514d290c0b5fb4bb0491e0b213f
-# Source SHA-256: 0a1d3323268871d980fa21ae42d92fea9ab4b9224c2c6fd10349463af8c9ec4d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ru8-stackflag.ans by Rui8bit (rui8bit2025); released in rui8bit2025 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Stackflag
-# SAUCE Author: Rui8bit
-# SAUCE Date: 20260619
-# SAUCE Dimensions: 80x70
-# SAUCE Font: Custom
-# SAUCE Comments: February 24 2025
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Stackflag by Rui8bit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rui8bit2025-ru8-stackflag-part01
 
 Write-Host '
                                             [34m·[0;37m                                   [0m

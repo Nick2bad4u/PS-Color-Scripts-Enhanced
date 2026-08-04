@@ -1,18 +1,4 @@
-﻿# Converted from: NS-C9B.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-03/raw/NS-C9B.ANS
-# Source Revision: archive-sha256:c463d41d9ae381f389778dd35b1d3ac7d9b856c30aea0076774f44c539a72586
-# Source SHA-256: e6481ef31f47bf5813527cfa1c0cbe6d09388b29caf21da2ac181be393497442
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NS-C9B.ANS by Ansichrist (Hieroglyphics); released in hiero-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Cloud 9
-# SAUCE Author: Ansichrist
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20001023
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Cloud 9 by Ansichrist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-03-ns-c9b
 
 Write-Host '
 

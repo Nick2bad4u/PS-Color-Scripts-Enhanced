@@ -1,13 +1,4 @@
-﻿# Converted from: LS-LSMAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ra-pack5/raw/LS-LSMAT.ANS
-# Source Revision: archive-sha256:c686da67e3347a257f133229c38f0ded15c3b11846248779489ed776a4450659
-# Source SHA-256: 02ffc2880fd143b148163620b6c76d39b561b9841dc41b152e307f69a187b516
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LS-LSMAT.ANS by Lost Soul (ra-pack5); released in ra-pack5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: LS-LSMAT.ANS by Lost Soul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ra-pack5-ls-lsmat
 
 Write-Host '
               [1;31m▄▄▄▄▄[0m  [34m▓▓▓▓▒▓▓▓[0m               [34m▓▓[0m

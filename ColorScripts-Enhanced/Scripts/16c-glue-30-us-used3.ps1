@@ -1,18 +1,4 @@
-﻿# Converted from: US-USED3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-30/raw/US-USED3.ANS
-# Source Revision: archive-sha256:962f4152a816a0536caf737c5088d0ec7bfe2e6c336907de4a27279b60da424e
-# Source SHA-256: 0e25d579dd3c056a515aceb593fad76655f9e18da511ae8e5f5775533884ff1f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-USED3.ANS by Somberlain + Avenging Angel (The Used Coalition); released in glue-30 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Used
-# SAUCE Author: Multiple Artists
-# SAUCE Group: The Used Coalition
-# SAUCE Date: 19800126
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Used by Somberlain + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-30-us-used3
 
 Write-Host '
 [36m  [0;37m▄▄[0m     [36m [0;1;37m▄[0m▄[36m  [0;1;37m▀[0m▀       [1;30m [0m▀[1m▀[0;36m [0;37m ▄[0;1;37m▄[0m     [36m  [0m     [36m   [0m    [1;37m▄[0m▄[36m [0;1;37m▀[0m▀ [1;30m         [0m▀[1m▀[0;36m  [0;37m▄[0;1;37m▄[0;36m [0m     [37m▄▄[0m

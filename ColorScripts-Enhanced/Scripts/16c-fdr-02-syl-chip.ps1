@@ -1,13 +1,4 @@
-﻿# Converted from: SYL-CHIP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fdr-02/raw/SYL-CHIP.ANS
-# Source Revision: archive-sha256:15396cd727e081bbaaee85447e61d10d48ae0bd147bff6fe38ceb25299afa7ea
-# Source SHA-256: 6e1095d2d1b5ba9f9088eccfb4a2057c4608f78def82abf521b9ec7bb0519293
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SYL-CHIP.ANS by Sylvao (fdr-02); released in fdr-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: SYL-CHIP.ANS by Sylvao | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fdr-02-syl-chip
 
 Write-Host '
 [31;40m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m

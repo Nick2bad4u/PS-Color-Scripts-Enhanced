@@ -1,18 +1,4 @@
-﻿# Converted from: LD-DOG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1094/raw/LD-DOG.ANS
-# Source Revision: archive-sha256:d3bff25180c9d41e42ce231a1946b0f69919e5a64c552b5582fe7482825c4fec
-# Source SHA-256: 2e1e53ca21eb386b7d3f8f0171edf6e6c30ee2887630228a000252401bafb22e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-DOG.ANS by Lord Jazz (ACiD Productions); released in acdu1094 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Delusions of Grandeur
-# SAUCE Author: Lord Jazz
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940905
-# SAUCE Dimensions: 80x143
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Delusions of Grandeur by Lord Jazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1094-ld-dog-part02
 
 Write-Host '
 [35m▐[0;1;35m░  ░[0;35m▌   █▄ ▐▌ [0;1;37m▐██▀[0;1;37;47m▓▓[0;1;37;40m██████████ █ [0;1;37;47m▓▓[0;1;37;40m██████[0;1;37;47m▓▓█[0;1;37;40m██████[0;1;37;47m▓▒[0m▌[1m▐ █[0;1;47m▓[0;1;40m████[0;1;47m▓▓[0;1;40m▓ [0;35m▐█▀█  [0;1;35;47m▓[0;1;35;45m░[0m [35m▐[0;1;35;45m░[0;35m▌[0;1;30m░[0m

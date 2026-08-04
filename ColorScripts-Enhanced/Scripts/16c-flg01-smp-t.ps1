@@ -1,18 +1,4 @@
-﻿# Converted from: SMP-T.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flg01/raw/SMP-T.ANS
-# Source Revision: archive-sha256:562ebcaad20a0b2a8b7b107f134b5be6ba5f067cf297f19839a81e7c0eee3352
-# Source SHA-256: f82bb3dcafb6b8c0e60bfb16dda766ea8a27c2b6239de7a5eb1f67939af72e07
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-T.ANS by Shrimp (Foliage); released in flg01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: T.
-# SAUCE Author: Shrimp
-# SAUCE Group: Foliage
-# SAUCE Date: 20010701
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: T. by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flg01-smp-t
 
 Write-Host '
 [44m▓░[0;34;40m▀▀[0m     [35;40m▀[0m    [34;40m ▀███[0;37;44m▄▄▄▄[0;34;40m█▄▄▄[0;37;40m  [0;36;40m  ▀▀█[0;37;46m▀█[0;1;36;47m░▒▒░[0;46m██[0;36;47m░░[0;37;46m▒░[0;36;40m███▀▀▀▀[0m    [34;40m▄▄▄███▀[0m   [36;40m▐[0;37;46m░▓█[0;1;36;47m░░[0;46m█▓▓▒░[0;36;40m██[0m

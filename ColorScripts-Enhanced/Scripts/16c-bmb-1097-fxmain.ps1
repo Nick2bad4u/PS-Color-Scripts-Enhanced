@@ -1,18 +1,4 @@
-﻿# Converted from: FXMAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-1097/raw/FXMAIN.ANS
-# Source Revision: archive-sha256:e00f8ccd747d6f713ee8049d7689cafe483a4db84fe36db34569c4f513f6fe6d
-# Source SHA-256: b54d1a95f31d7812ea15ecb121eb304654f804adf46f9bd7aca757940018ca5e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FXMAIN.ANS by Flux (prbmb); released in bmb-1097 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: main menu
-# SAUCE Author: Flux
-# SAUCE Group: prbmb
-# SAUCE Date: 19971021
-# SAUCE Dimensions: 80x25
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: main menu by Flux | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-1097-fxmain
 
 Write-Host '
          [33m▄▄[0m

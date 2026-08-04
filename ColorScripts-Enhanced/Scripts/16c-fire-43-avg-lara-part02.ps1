@@ -1,19 +1,4 @@
-﻿# Converted from: AVG-LARA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-43/raw/AVG-LARA.ANS
-# Source Revision: archive-sha256:d3967e67800d0c773a52f120751caeb2bc01ead5180b478fb0a0e89978edc4ec
-# Source SHA-256: a8cb404950dd9ad0dfe25428aa9d6cf39b8ea62519fee72f566ce4eb788aa58d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-LARA.ANS by Savage (Fire Graphics); released in fire-43 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: bbs name
-# SAUCE Author: Savage
-# SAUCE Group: Fire Graphics
-# SAUCE Date: 20250707
-# SAUCE Dimensions: 80x214
-# SAUCE Font: IBM VGA
-# Lines: 44-87
-# Columns: 1-80
+﻿# Artwork: bbs name by Savage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-43-avg-lara-part02
 
 Write-Host '
 [1;30;46m [0;36m█[0;1;30;46m [0;36m█[0;1;30;46m [0;36m█[0;1;30;46m█[0m [33m█[0;1;33m▓[0;33m█▒[0;1;33;43m ▓■  [0;33m █[0;37m [0;1;30;43m▀[0;1;33;43m▓ [0m [33m█[0;37m [0;33m░[0;37m  [0;1;31;43m [0m [1;31m▒▓▓[0;33m▌▒▐[0;1;31m▓████[0;1;31;43m██[0;1;31;47m▄▄▄[0;1;37;41m▓▓[0;1;31;47m█[0;1;31;43m▓[0;1;31;40m▒[0m [1;31m▒[0;33m█[0;37m [0;33m█[0;37m  [0;33m▀[0;1;33m░░[0;33m▄▀█▄ [0;1;30m▄▄[0m [1;30m·▐[0;1;30;46m·[0;36m█████▓▓[0m

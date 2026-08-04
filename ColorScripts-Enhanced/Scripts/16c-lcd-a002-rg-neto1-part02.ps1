@@ -1,18 +1,4 @@
-﻿# Converted from: RG-NETO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lcd-a002/raw/RG-NETO1.ANS
-# Source Revision: archive-sha256:8b5679a927020dfb5f6f49dc17dcd2556a8c7cb139b041c7e9bec87c202d787a
-# Source SHA-256: fa18257b2b6a259f18412a15c50b3346238420de526cc94488711f7b720a96af
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RG-NETO1.ANS by Rimgale (LUCiD); released in lcd-a002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Neo Tokyo #1
-# SAUCE Author: Rimgale
-# SAUCE Group: LUCiD
-# SAUCE Date: 19941213
-# SAUCE Dimensions: 80x25
-# Lines: 31-57
-# Columns: 1-80
+﻿# Artwork: Neo Tokyo #1 by Rimgale | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lcd-a002-rg-neto1-part02
 
 Write-Host '
              [32m▐██████▌[0;34m▐███████▄[0;31m▀[0;1;31;43m▒▒▓▓[0;1;31;40m██████▀▀▀[0;34m▄▄  [0;32m▒▓██▄▄▄ ▀▀[0m        [32m████▌[0m

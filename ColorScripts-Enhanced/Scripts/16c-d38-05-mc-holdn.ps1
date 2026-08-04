@@ -1,18 +1,4 @@
-﻿# Converted from: MC!HOLDN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-05/raw/MC!HOLDN.ANS
-# Source Revision: archive-sha256:eb0948671797309554c3545cf502cce8943191f153468011a76cca894133dc0a
-# Source SHA-256: 39bd738b4312e6395c04a88234603035fc551a6d11e08b250bd1e31d70971999
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MC!HOLDN.ANS by Madcap (Dep.38); released in d38-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Holdens lair 4
-# SAUCE Author: Madcap
-# SAUCE Group: Dep.38
-# SAUCE Date: 20820405
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Holdens lair 4 by Madcap | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-05-mc-holdn
 
 Write-Host '
       [31m─▀█▄█▓▒▀▀─  [0m░▄▄▄▄                                 [34m▄▄▄▄[0m      [34m▄▄▄▄▄▒[0m

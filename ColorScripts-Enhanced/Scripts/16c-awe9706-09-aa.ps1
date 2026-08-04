@@ -1,18 +1,4 @@
-﻿# Converted from: 09-AA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9706/raw/09-AA.ANS
-# Source Revision: archive-sha256:867680f5fb3c86dcb017d8ed4cd79085881689d65da90056f84aba519ae4bdfe
-# Source SHA-256: d4a820c5aa0ad8d370a547f7a3fccfa158ec6a969768be8e6a2b5b28b1808726
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-AA.ANS by Fluor (AWE Lettering); released in awe9706 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Angry Alice
-# SAUCE Author: Fluor
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970524
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Angry Alice by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9706-09-aa
 
 Write-Host '
                      [1m░ [0m  ▄▄▄█[1;30;47m▄▌░░░[0m█▄▄▄ ▀▀▀▀██[1;30;47m▄▌░░[0m██▄▄▄      [31m░░[0;37m [0;31m░[0m

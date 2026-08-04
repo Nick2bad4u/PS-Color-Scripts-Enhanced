@@ -1,17 +1,4 @@
-﻿# Converted from: VC-EMPIR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rune0296/raw/VC-EMPIR.ANS
-# Source Revision: archive-sha256:1cc279748badd7f61a5f083ba1c8b526b1d5d143bea36336d1817d4778ed4d79
-# Source SHA-256: cde6df4cd5a70a08254277706701881f883a904473f11fe1a37b6dc6dc49d71d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VC-EMPIR.ANS by valacar (rune); released in rune0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: empire menu
-# SAUCE Author: valacar
-# SAUCE Group: rune
-# SAUCE Date: 19960201
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: empire menu by valacar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rune0296-vc-empir
 
 Write-Host '
 [1;30m█▀▀▓▀▌▀[0;36m^ [0;37m▄▄▄▄[0;1;37;47m░[0m▄▄  ▄█[47m  [0;40m█▄▄▄▄▄[0m      [40m▄[0;47m    [0;40m▄▄▄▄  ▐[0;1;30;47m░  [0m▌ ▄█[47m  [0;40m█▄[0;1;47m░[0m▄▄   ▄▄▄▄[1;47m░[0m▄▄ [36m^[0;1;30m▀▌▀▓▀▀█▄[0m

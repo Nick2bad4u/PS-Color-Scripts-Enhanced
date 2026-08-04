@@ -1,16 +1,4 @@
-﻿# Converted from: N!Z-PHA2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0297/raw/N!Z-PHA2.ANS
-# Source Revision: archive-sha256:2e15cb2f2712a143323c9f3c6ecca94c5b5b12a452a019e911d205dd685c6eee
-# Source SHA-256: 8fc7429002c59f528dae015c43c7331349a55a572b47f2214a41f8b744f275f9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N!Z-PHA2.ANS by noize (phat studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: phat-logo ii
-# SAUCE Author: noize
-# SAUCE Group: phat studios '97
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: phat-logo ii by noize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0297-n-z-pha2
 
 Write-Host '
 [30;46m░[0;36;40m▓[0;30;46m░[0;36;40m▓[0;30;46m░[0;36;40m▓[0m     [30;46m▓[0;36;40m░[0m       [30;46m░[0;36;40m▓[0;30;46m░[0;36;40m▓[0m   [30;46m▓[0;36;40m░[0m      [30;46m░[0;36;40m▓[0;30;46m░[0;36;40m▓[0;30;46m░[0;36;40m▓[0;30;46m░[0;36;40m▓[0m   [30;46m░[0;36;40m▓[0;30;46m░[0;36;40m▓[0;30;46m░[0;36;40m▓██▌[0m       [36;40m██████[0;30;46m░[0;36;40m▓▌[0;37;40m  [0;36;40m▐███▄▄[0m

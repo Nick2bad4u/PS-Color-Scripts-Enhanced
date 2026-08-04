@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-AVE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge16/raw/ZII-AVE1.ANS
-# Source Revision: archive-sha256:41b95bc60f7563fc793aa38badcbd774150d7a4047808139dd61df92b8192e56
-# Source SHA-256: b9e2f260a42896a3c8a2c939268a809cf4b3c869b3820b6b46065a71e759013d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-AVE1.ANS by Zeus II (Avenge); released in avenge16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Avenge 16
-# SAUCE Author: Zeus II
-# SAUCE Group: Avenge
-# SAUCE Date: 19990424
-# SAUCE Dimensions: 80x51
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Avenge 16 by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge16-zii-ave1-part01
 
 Write-Host '
 

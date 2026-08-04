@@ -1,18 +1,4 @@
-﻿# Converted from: US-HELL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p12_01/raw/US-HELL.ANS
-# Source Revision: archive-sha256:678c9348e291c059a717bb7990ccaffc699e8a46d4f8d71e273fe24e3b605bbc
-# Source SHA-256: d3a7456b315a2502a892f91cf77492b6dd44f3ab66ed5c544972f8e449658648
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-HELL.ANS by Slackzor + Simonking (thelo0p); released in l0p12_01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: bastard artists from hell
-# SAUCE Author: slackzor^simonking
-# SAUCE Group: thelo0p
-# SAUCE Date: 20010820
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: bastard artists from hell by Slackzor + Simonking | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p12-01-us-hell
 
 Write-Host '
 [33;41m [0;1;34;40m░[0;33m    [0;31m▀▀███[0;33;41m░░[0;31;40m██████[0;1;33;41m░░░░[0;31m▀▀[0;33m   [0;31m█[0;1;33;41m░░░[0;31m█[0;33;41m░░░░░░░░[0;31;40m▀▀[0;37;40m     [0;1;30;40m■[0m  [1;30m  ▄ ▀▀    [0m   [1;30m▄[0m       [1;30m▀[0;31m▀[0;1;30;41m▄▄[0;33;41m░░░░[0m

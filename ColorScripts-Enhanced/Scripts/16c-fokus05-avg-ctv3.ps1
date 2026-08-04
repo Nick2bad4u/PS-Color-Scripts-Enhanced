@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-CTV3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus05/raw/AVG-CTV3.ANS
-# Source Revision: archive-sha256:1aa3ba6c9bb069effe029f69af967419cb8dc77ae4501a5215ae43589435acd5
-# Source SHA-256: c10e3d6c4fae5452f454237a7f9892e5654f8a7ee84c478f89e491b70155673a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-CTV3.ANS by avenging angel (fokus); released in fokus05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: color tv..
-# SAUCE Author: avenging angel
-# SAUCE Group: fokus
-# SAUCE Date: 19990630
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: color tv.. by avenging angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus05-avg-ctv3
 
 Write-Host '
 [1mavg[0mfks                     ▄[1m▄[0m      [1;32m░░[0m                     ▄

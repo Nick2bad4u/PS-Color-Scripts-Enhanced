@@ -1,19 +1,4 @@
-﻿# Converted from: N-TYTINA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-44/raw/N-TYTINA.ANS
-# Source Revision: archive-sha256:6c51508cedeaa9140fcf08750a75edb14e0cec0eebe7b4290346e95cd3548876
-# Source SHA-256: e6f3eb10bd923de9661c64c2ab31a93ea427c8be2d03d94e20b461a24cc579ef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-TYTINA.ANS by nail (fire); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: make it raaaaain!
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 20251111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: make it raaaaain! by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-44-n-tytina
 
 Write-Host '
                   [35;40m▄▄[0m                         [35;40m░▓▓▀[0;37;40m   [0;1;34;40m▄[0;1;34;47m▀[0m▄[1;34m▄  ▀▀▀▄▄[0;1;30m▀▀▄▄[0;33m▀ [0;35m▐[0;1;35;45m░░░[0;35m█[0;37m [0;1;35;45m▓▓▓[0;35m█▌[0m

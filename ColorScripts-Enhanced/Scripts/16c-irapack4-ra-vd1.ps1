@@ -1,13 +1,4 @@
-﻿# Converted from: RA-VD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/irapack4/raw/RA-VD1.ANS
-# Source Revision: archive-sha256:ecb1d80dafdb417e5051f5ba35e0e511304e00b3a6fc7254558e7c31767db2ac
-# Source SHA-256: 207bd8d81f79f89862fd4d4b3afda6d7fa854840c8357f1229281a8cf3a803ab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RA-VD1.ANS by Raptor 709 (irapack4); released in irapack4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: RA-VD1.ANS by Raptor 709 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-irapack4-ra-vd1
 
 Write-Host '
 

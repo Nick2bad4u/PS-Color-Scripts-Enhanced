@@ -1,18 +1,4 @@
-﻿# Converted from: NN-NH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9603/raw/NN-NH.ANS
-# Source Revision: archive-sha256:f6d7d8628f8fd582effd93b8e838e75d5d9c5ee94417e33eb7b84c6b3ba37ea3
-# Source SHA-256: ba9ed2f370a0f69537fb476d27ca58a12d10ddb2bb0ba8e6dccea2496765cbd0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NN-NH.ANS by neo negro (blade); released in blde9603 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: net hackers
-# SAUCE Author: neo negro
-# SAUCE Group: blade
-# SAUCE Date: 19960219
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: net hackers by neo negro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9603-nn-nh
 
 Write-Host '
                                     [1;33m▐[0;1;33;43m▓██▓[0m

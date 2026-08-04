@@ -1,19 +1,4 @@
-﻿# Converted from: us-wolf.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz16/raw/us-wolf.ans
-# Source Revision: archive-sha256:b093dd3cb06bf783d59a9df3724c51f9a41f686cd4fd545c920ada008d959f7a
-# Source SHA-256: f46db2a836563ca6543254d7e6ccd4f8457b95fa0fd2a098db062614ab45ff4e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-wolf.ans by Warpus + Grymmjack (LAZARUS); released in laz16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Werewolves Within
-# SAUCE Author: grymmjack & warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20221217
-# SAUCE Dimensions: 80x251
-# SAUCE Font: IBM VGA25G
-# Lines: 136-185
-# Columns: 1-80
+﻿# Artwork: Werewolves Within by Warpus + Grymmjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz16-us-wolf-part04
 
 Write-Host '
 [37m                                  [0;36m▄[0;1;36;46m▄▀[0;36m▀[0;37m      [0;36m▄▄▄[0;1;33m▄■■▀▀▀▀█▄[0m

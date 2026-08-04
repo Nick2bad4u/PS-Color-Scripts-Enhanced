@@ -1,13 +1,4 @@
-﻿# Converted from: OA-ASY2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gbg-ar1/raw/OA-ASY2.ANS
-# Source Revision: archive-sha256:7f38983a93f79a0b470e3fbcba330a361404fee9cb0e1ae6b4e7a8435718b1eb
-# Source SHA-256: b32e069ed47b4551dd0d8cdde66eaf659080380859cc825015a8aadc19fb50b1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OA-ASY2.ANS by Ortega (gbg-ar1); released in gbg-ar1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: OA-ASY2.ANS by Ortega | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gbg-ar1-oa-asy2
 
 Write-Host '
                  [1;30m▓▀▀▀▀▀▀▀▀▀▀ ▀[0m

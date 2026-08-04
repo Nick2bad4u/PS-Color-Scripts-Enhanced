@@ -1,18 +1,4 @@
-﻿# Converted from: CM-NUMB3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moonlgt1/raw/CM-NUMB3.ANS
-# Source Revision: archive-sha256:9c3296d479bffdc90be8aa4a3f3118a85ae9456683674c3e67716221b3c262b5
-# Source SHA-256: 66b8903afc1f0274e840be0b4b856fa45a95d5bed4d4dd47b811a5499b4de7d9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CM-NUMB3.ANS by cheezey munkey (moOnlight); released in moonlgt1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: comfterably number (#3)
-# SAUCE Author: cheezey munkey
-# SAUCE Group: moOnlight
-# SAUCE Date: 19960820
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: comfterably number (#3) by cheezey munkey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moonlgt1-cm-numb3
 
 Write-Host '
 

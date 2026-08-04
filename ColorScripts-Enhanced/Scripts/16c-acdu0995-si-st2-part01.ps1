@@ -1,18 +1,4 @@
-﻿# Converted from: SI-ST2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0995/raw/SI-ST2.ANS
-# Source Revision: archive-sha256:33564e3b7dba06eac1f1e36dcc176b1f8d29f8167c2e77227197ff7bea5344f2
-# Source SHA-256: 6fdad6f2e886ef3d3f68fb55b90cded6e3d36aca087e0595f5cbe1390e7bdf9b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SI-ST2.ANS by Sinister X (ACiD Productions); released in acdu0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Sadistic Temptations
-# SAUCE Author: Sinister X
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950901
-# SAUCE Dimensions: 80x230
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Sadistic Temptations by Sinister X | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0995-si-st2-part01
 
 Write-Host '
 [36m█[0;1;36;46m░[0;36m█████████████▀[0;37m [0;1;30m                                                 [0m [1;33m▐███████████▓[0m

@@ -1,15 +1,4 @@
-﻿# Converted from: TH-TFH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aim-0995/raw/TH-TFH.ANS
-# Source Revision: archive-sha256:a220548952a3ea8671cfb175f3376108351fef207e818016742117ad21a093c0
-# Source SHA-256: 27f30c38b0264a2dc11b9b7fd7e1bcccf522bf513597f0c7b55186ef80a0fe61
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH-TFH.ANS by Threshold (aim-0995); released in aim-0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 19950911
-# SAUCE Dimensions: 80x272
-# Lines: 138-186
-# Columns: 1-80
+﻿# Artwork: TH-TFH.ANS by Threshold | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aim-0995-th-tfh-part04
 
 Write-Host '
                          [30m████████████████[0;30;42m▀▀[0;1;30;42m░░░░░░░▒▒▒▒▒[0;32m▀▀[0;30m████[0;30;42m▀[0;30;40m█[0;1;30;42m▓▓[0;30m███████████████[0m

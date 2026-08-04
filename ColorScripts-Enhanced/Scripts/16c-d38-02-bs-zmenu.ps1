@@ -1,17 +1,4 @@
-﻿# Converted from: BS-ZMENU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-02/raw/BS-ZMENU.ANS
-# Source Revision: archive-sha256:4c203a22a273c62e868cc7246cefafb413002203c4d66bfee072b470754a2d40
-# Source SHA-256: 1dea9a0e2a2dd4b8f33fe4cece3d21a39df39984fb99d64fbdcadcd45f86c4fb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-ZMENU.ANS by Blind Sniper (Department 38); released in d38-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Zenith Zine Menu #1
-# SAUCE Author: Blind Sniper
-# SAUCE Group: Department 38
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Zenith Zine Menu #1 by Blind Sniper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-02-bs-zmenu
 
 Write-Host '
 [1;30m  [0;35m▄[0;1;30m      [0;1;32m ▄▄▄[0m   [1;30m [0;1;32m▄▄▄▄▄ [0m   [1;30m   [0;32m [0;1;30m [0;1;32m▄▄▄[0;32m [0;37m [0;32m▄▄[0;1;32m▄▄▄[0m        [1;32m▄▄[0;1;30m [0m                   [32m▄▄[0;1;32m▄▄▄▄[0;1;30m   [0m

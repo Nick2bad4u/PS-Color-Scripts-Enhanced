@@ -1,13 +1,4 @@
-﻿# Converted from: PM-MTRX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot0698/raw/PM-MTRX.ANS
-# Source Revision: archive-sha256:5791ef4f99ff6b8056f353c96cd9d7e824bf90a19b6bfc824c2ed61513d5f9ac
-# Source SHA-256: 7bcc2340f790e9db90a08495717bb55a4c6e1f30491c3ba96e0a025c9c33e4bd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-MTRX.ANS by Precious Metal (riot0698); released in riot0698 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: PM-MTRX.ANS by Precious Metal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot0698-pm-mtrx
 
 Write-Host '
 [1;30m▄[0;1;30;47m▓[0;1;30;40m▄[0m▌[1;33;47m▌[0m█[1;33;47m▄▀[0;1;30;47m▓▄[0m▄[1;47m░[0;1;33;47m░[0;1;30;47m▄▓▒▄[0m▀[1;31m▄[0;1;31;47m▀░▓▀[0;1;37;47m▓[0;1;31;47m▀[0;1;37;47m░[0;1;31;47m▐░▌▓ ▓[0;1;33;47m░[0;1;37;47m▓[0;1;31;40m█[0;1;31;43m█[0;1;30;47m░▒▄[0;33m▄[0;1;30m▀[0m▀▀[1;30;47m░▒▓[0;1;33;47m▐[0m▐▀[1;47m▓[0;1;30;47m▓[0;1;30;40m▄[0m▄▀  [1;34;44m░░[0;34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

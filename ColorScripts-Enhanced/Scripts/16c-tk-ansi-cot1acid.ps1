@@ -1,19 +1,4 @@
-﻿# Converted from: COT1ACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tk-ansi/raw/COT1ACID.ANS
-# Source Revision: archive-sha256:7a6e15a450305cb977de0a4eb06cf4ca525baa4933c9f7af1cf6080dced8bf2d
-# Source SHA-256: 8a60edc22ae1fa6514243332dc39e79a4c1f2996103d861b159724d8303c1654
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: COT1ACID.ANS by Tank (ACiD Productions); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Chamber of Torture BBS Ad
-# SAUCE Author: Tank
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19920511
-# SAUCE Dimensions: 80x23
-# SAUCE Comments: This may not have made the cut for pack release
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Chamber of Torture BBS Ad by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tk-ansi-cot1acid
 
 Write-Host '
            [1m▄▄▄[0;1;47m▓▓▓▓[0;1;40m▄▄▄[0m     [1;40m▀[0;1;47m▄[0;1;30;47m▀▄▀[0;1;30;40m▄▀▄▀▓▓▒▒░░ ░  ░    ░    ░  ░ ░░▒▒▓▓▀▄▀▄[0;1;30;47m▀▄▀[0;1;37;47m▄[0;1;37;40m▀[0m

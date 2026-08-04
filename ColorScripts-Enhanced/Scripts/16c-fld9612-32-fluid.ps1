@@ -1,17 +1,4 @@
-﻿# Converted from: 32-FLUID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fld9612/raw/32-FLUID.ANS
-# Source Revision: archive-sha256:398e960abe90b9818bfc3a6f74dd54965f44f4021cfa626535308061d6595a9e
-# Source SHA-256: 9c30a530ac511fe05acaf50bce10694b55e3b2711cda952625d00de85fe9d53f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 32-FLUID.ANS by ezy (fluid); released in fld9612 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fluid promotion
-# SAUCE Author: ezy
-# SAUCE Group: fluid
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: fluid promotion by ezy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fld9612-32-fluid
 
 Write-Host '
 [1;30m■[0m [1;30m.[0m [1;30;41m▀▀▓▀▀[0;1;31;41m▄▄[0;1;30;41m▀[0;1;31;41m▓[0;1;35;40m░[0;1;31;41m░▄[0;1;33;41m░[0;1;30;41m▀[0;1;31;41m▓[0;1;30;41m▀[0;36m [0;1;35m░[0;1;30;41m▓▀▀░[0;1;31;41m▄[0;36m   [0;1;30m▄[0;31m▄[0;1;31m▄[0m [36m  [0;1;34m░[0;1;30m▄[0;36m  [0;1;30m▄▄▄▄[0;1;31m▄[0;1;30m█[0;1;30;41m▀[0;1;33;41m░[0;1;30;41m▓[0;1;30;46m█[0;1;30;41m▀▓▀[0;1;31;40m▄[0;1;30;40m▄▄▄[0;1;30;41m░[0;36m  [0;1;30m.[0;36m   [0;1;33m░[0;36m    [0;1;30m▄▄▄▄▄▄▄▄[0;36m  [0;1;30m■[0m

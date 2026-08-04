@@ -1,18 +1,4 @@
-﻿# Converted from: OG-GOO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drop9707/raw/OG-GOO1.ANS
-# Source Revision: archive-sha256:32b4b2cc155cdad909effdfba21862a9be79226a226c0a804b96a9ff5b976024
-# Source SHA-256: 8d7927a02af4e2452b216f2454b94f905a59256f89522a0dfa1443a496a4f12d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OG-GOO1.ANS by organ grinder (drop); released in drop9707 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: gates of orion logo!
-# SAUCE Author: organ grinder
-# SAUCE Group: drop
-# SAUCE Date: 19970608
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: gates of orion logo! by organ grinder | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drop9707-og-goo1
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: PNK-PBCS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz06may/raw/PNK-PBCS.ANS
-# Source Revision: archive-sha256:1ae2be5748106937cd6f4a9b876b344db035c3534c8d6472ca3ea1eb05f03cc5
-# Source SHA-256: fc5478d5cec85f1555df712ffd5484174aa4545ece7a9a454b1af3efea907ceb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PNK-PBCS.ANS by phanatik (lazarus); released in laz06may and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: psycho beaver
-# SAUCE Author: phanatik
-# SAUCE Group: lazarus
-# SAUCE Date: 19970508
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: psycho beaver by phanatik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz06may-pnk-pbcs
 
 Write-Host '
 [1m┌[0m─ [1mcomment staff ◄[0m─[1m∙∙[0m─[1m∙[0m-─-──-───-──────────────────────────────────────-─ ─  ─

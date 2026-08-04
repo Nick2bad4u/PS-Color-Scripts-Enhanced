@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-16C0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-44/raw/ZIR-16C0.ANS
-# Source Revision: archive-sha256:6c51508cedeaa9140fcf08750a75edb14e0cec0eebe7b4290346e95cd3548876
-# Source SHA-256: 096fe06f7881feea29b1ccd12bbb19830e59aaef44597667e5f7269e47d97bfe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-16C0.ANS by zir (FiRE); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 16 colors
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20251111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: THERE IS NO SEVENTEENTH COLOR
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: 16 colors by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-44-zir-16c0
 
 Write-Host '
 [37;40m [0;1;30;40m░░░░░░░░  ▄▄▄▄▄░░ ░░░░  ░░░░░ ░░░░░░░░░ [0;35m░░░[0;37m [0;1;30m░░[0m [35m░░ ░░ [0;1;30m░░░░░░░ [0;35m░░░[0;37m [0;1;30m░░ [0;35m░░░[0;37m [0;1;30m░░[0m [35m░░░[0m

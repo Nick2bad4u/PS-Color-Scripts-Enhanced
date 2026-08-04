@@ -1,13 +1,4 @@
-﻿# Converted from: JY_PIGGY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bgs_num1/raw/JY_PIGGY.ANS
-# Source Revision: archive-sha256:e0f00bf907dd5be4b375ace59bb594eecd3ca210e7121710e2a68853cfcf6d12
-# Source SHA-256: 67e550198e4e84d532f9be9fc86ee0adb2cd135fb185bd72013cc1f7278f8cca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JY_PIGGY.ANS by Joy (bgs_num1); released in bgs_num1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: JY_PIGGY.ANS by Joy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bgs-num1-jy-piggy
 
 Write-Host '
     [33m                    [0;1;37m     [0m        [35m▄▄[0;1;35;45m░[0;35m▄▀▀■[0;37m [0;1;30m -=*=-  Take a Pick[0m  [1;30m-=*=-[0m  [35m■▀▄[0;1;35;45m░[0;35m▄▄[0m

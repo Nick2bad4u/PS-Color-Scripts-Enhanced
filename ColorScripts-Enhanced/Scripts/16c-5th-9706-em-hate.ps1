@@ -1,18 +1,4 @@
-﻿# Converted from: EM-HATE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/5th-9706/raw/EM-HATE.ANS
-# Source Revision: archive-sha256:85921ee1820ec1a40b04cf68d8975e5348a79e29e438d8146255e01b4afbee6a
-# Source SHA-256: e8ff815e4159c05d9ace784f2591e39c44ec3107e53eda92f1f8ae049597214b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EM-HATE.ANS by eviL milkmAn (5thzwrtHzflx); released in 5th-9706 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: they are what they are...
-# SAUCE Author: eviL milkmAn
-# SAUCE Group: 5thzwrtHzflx
-# SAUCE Date: 19970929
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: they are what they are... by eviL milkmAn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-5th-9706-em-hate
 
 Write-Host '
      [1;30;40m▄■[0m        [1;30;40m■▄[0m                         [1;30;40m▄▄▄██▄████▄▄█▓█▄██[0;37;40m [0;1;30;40m▄[0m  [1;30;40m▄▄█▀█▄█▄██▓▄▄[0m

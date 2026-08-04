@@ -1,19 +1,4 @@
-﻿# Converted from: jj-ganya.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-004/raw/jj-ganya.ans
-# Source Revision: archive-sha256:c716e28d4b828a0135c19992fe2f71464879479199ebc42fd3d533b5bd3bf4d4
-# Source SHA-256: 2b980a535a53a24142e6b540549e810bb023a50787ad1b79ed6a8877ee85bb2f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: jj-ganya.ans by KF/jj (Legacy Krew); released in lgcy-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Gears of War 3's Anya
-# SAUCE Author: KF/jj
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20210412
-# SAUCE Dimensions: 80x156
-# SAUCE Font: IBM VGA
-# Lines: 125-156
-# Columns: 1-80
+﻿# Artwork: Gears of War 3's Anya by KF/jj | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-004-jj-ganya-part04
 
 Write-Host '
 [37m         [0;31m..%.[0m

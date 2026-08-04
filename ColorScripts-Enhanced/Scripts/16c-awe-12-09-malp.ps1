@@ -1,18 +1,4 @@
-﻿# Converted from: 09-MALP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-12/raw/09-MALP.ANS
-# Source Revision: archive-sha256:5c96c14e912296494a464a42e768321452d811693cf172945a9502eb4396c8bb
-# Source SHA-256: 7d51cb1266cd4db99fbc1b755779a4f7c4d627a242adece20d172268976f0c30
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-MALP.ANS by Fluor (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Malpractice
-# SAUCE Author: Fluor
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19971022
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Malpractice by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-12-09-malp
 
 Write-Host '
 

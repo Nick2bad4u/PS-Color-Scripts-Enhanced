@@ -1,18 +1,4 @@
-﻿# Converted from: no-style.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-50/raw/no-style.ans
-# Source Revision: archive-sha256:d8331eae576e5ab26fff5891b5f3cf24463edd0a8c7b0fa2c1de21560b99f205
-# Source SHA-256: ff09f7764faff11f052e801c1390ffff973fd629ba0b8c8cfd896a78ccb73296
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: no-style.ans by Noches (ACiD Productions); released in rmrs-50 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Brown Sugar Fun
-# SAUCE Author: Noches
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 20030907
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Brown Sugar Fun by Noches | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-50-no-style
 
 Write-Host '
                                    [1;30m/$$$[0m

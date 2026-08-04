@@ -1,13 +1,4 @@
-﻿# Converted from: pn-bowl.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_space_invaders/raw/pn-bowl.ans
-# Source Revision: archive-sha256:c8f02d48521b213dd146adf31869fd604c2af314eab4dd9a1f4528b39146b7a9
-# Source SHA-256: 61778700ff3c56b100461efa4e39bc6e2f662c001bb8bd97ab675146de0e0f8d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: pn-bowl.ans by Pandur (blocktronics_space_invaders); released in blocktronics_space_invaders and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: pn-bowl.ans by Pandur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-space-invaders-pn-bowl-part01
 
 Write-Host '
 

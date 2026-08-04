@@ -1,13 +1,4 @@
-﻿# Converted from: BL-SOD3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/max_artpack_0393-ansi0393/raw/BL-SOD3.ANS
-# Source Revision: archive-sha256:6bd324ea4c69adaf5b40e5098ec6087935e387ea63e084e82aa1abff8e463e4f
-# Source SHA-256: b375aaaf018ae7b2c1592c4c59124c609978bc3a578f30feed322cb3bedc95bc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BL-SOD3.ANS by Blades (max_artpack_0393-ansi0393); released in max_artpack_0393-ansi0393 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: BL-SOD3.ANS by Blades | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-max-artpack-0393-ansi0393-bl-sod3
 
 Write-Host '
 [47m   [0m [1;30m▀▄▄▄▄▄ [0;30;47m▄▄[0m [1;30;40m▄▄▄[0;1;30;47m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m▄▄▄▄ [30;47m▄                                [0m

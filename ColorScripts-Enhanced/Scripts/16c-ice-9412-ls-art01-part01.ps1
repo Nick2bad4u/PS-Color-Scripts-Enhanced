@@ -1,13 +1,4 @@
-﻿# Converted from: LS-ART01.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9412/raw/LS-ART01.ICE
-# Source Revision: archive-sha256:206fb790f3728acfca84972248fec43bde6e85e65881b18182d8ae9012f98785
-# Source SHA-256: 14887e1273e2abf655e4637bcf7e4cfa01d36d529a3f548fc1675ee37afb03f8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LS-ART01.ICE by Lord Soth (ice-9412); released in ice-9412 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: LS-ART01.ICE by Lord Soth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9412-ls-art01-part01
 
 Write-Host '
 [1;36;46m███████████████████████████████████████████████████████████████████████████████[0m

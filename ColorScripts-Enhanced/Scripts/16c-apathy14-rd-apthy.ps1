@@ -1,18 +1,4 @@
-﻿# Converted from: RD-APTHY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy14/raw/RD-APTHY.ANS
-# Source Revision: archive-sha256:c5547b07ff3d1430b4844962a9bc7b618137779daf38eea1b387904b434fbbab
-# Source SHA-256: 6908ce58bccdc398cb0b65d3b7d89d67c0d6ac42ec3c487b890757f79668450a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD-APTHY.ANS by Realm Dweller (Apathy Studios); released in apathy14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Apathy (again)
-# SAUCE Author: Realm Dweller
-# SAUCE Group: Apathy Studios
-# SAUCE Date: 19960811
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Apathy (again) by Realm Dweller | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy14-rd-apthy
 
 Write-Host '
 

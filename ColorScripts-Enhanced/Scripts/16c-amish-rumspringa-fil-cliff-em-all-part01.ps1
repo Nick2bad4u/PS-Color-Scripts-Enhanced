@@ -1,19 +1,4 @@
-﻿# Converted from: fil-cliff_em_all.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amish-rumspringa/raw/fil-cliff_em_all.ans
-# Source Revision: archive-sha256:710f00c8e218c58e7f7c9fe172cb22279b1ebbb4b713832762c12e983eb7ac2d
-# Source SHA-256: d17fe25291851d9330bb2f45f538359a41d31aa6cd378ac35302b410a9d2835c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: fil-cliff_em_all.ans by FiLTH (AMiSH); released in amish-rumspringa and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: CLiFF 'EM ALL
-# SAUCE Author: FiLTH
-# SAUCE Group: AMiSH
-# SAUCE Date: 20180516
-# SAUCE Dimensions: 80x54
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: CLiFF 'EM ALL by FiLTH | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amish-rumspringa-fil-cliff-em-all-part01
 
 Write-Host '
        [31;40m░[0m

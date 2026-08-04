@@ -1,18 +1,4 @@
-﻿# Converted from: U7%NOCT_.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0597/raw/U7%25NOCT_.ANS
-# Source Revision: archive-sha256:100499c687593fd78c29adf06f5899e8c0d61223958e380a9c31aadb955ab06d
-# Source SHA-256: 8376e8a3d4a236407d78cb23976e3c98693ab220b860e56e234462f191ae4e17
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: U7%NOCT_.ANS by _undertaker (fusion); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: nocturnal desire
-# SAUCE Author: _undertaker
-# SAUCE Group: fusion
-# SAUCE Date: 19970430
-# SAUCE Dimensions: 80x48
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: nocturnal desire by _undertaker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0597-u7-noct
 
 Write-Host '
                                 [36m▄▄▀[0m   [37m                  [0m

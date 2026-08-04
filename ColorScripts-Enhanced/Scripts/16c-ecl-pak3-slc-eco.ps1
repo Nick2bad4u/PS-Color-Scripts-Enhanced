@@ -1,13 +1,4 @@
-﻿# Converted from: SLC_ECO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak3/raw/SLC_ECO.ANS
-# Source Revision: archive-sha256:cde4af7e840865f437fedba26bbfb806e858a9b477c723c01bd9d080434c75bd
-# Source SHA-256: 0ee8e24aa98df03605a380c5a1578219491241dd2281ae71a2429f430747dc39
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SLC_ECO.ANS by Silence (ecl-pak3); released in ecl-pak3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: SLC_ECO.ANS by Silence | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak3-slc-eco
 
 Write-Host '
 

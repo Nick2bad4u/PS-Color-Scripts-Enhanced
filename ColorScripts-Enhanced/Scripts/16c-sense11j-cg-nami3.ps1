@@ -1,13 +1,4 @@
-﻿# Converted from: CG-NAMI3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense11j/raw/CG-NAMI3.ANS
-# Source Revision: archive-sha256:9c1c7edf0d14ae95ae7a9cfcfa9322814b13baa95c33699852fa04d6685f708d
-# Source SHA-256: 9e297e8ad27697e1d182ff154761e78deffacdd903b5e0e892a51091026b1144
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-NAMI3.ANS by Cryogenic (sense11j); released in sense11j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: CG-NAMI3.ANS by Cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense11j-cg-nami3
 
 Write-Host '
 [1;34m▄[0;1;34;44m▄▄ ░▄▄▄▀█[0;1;34;40m▄[0;1;34;44m▄██████[0;1;34;40m▓[0;1;34;44m  [0;1;34;40m▒[0;34m▀▀▀▀██▄▄ ▀▀██[0;1;34m▒▒▒[0;34m█▀▀▄▄[0;1;34;44m   [0;34m▓ [0;1;35m▓[0;1;35;45m██▀[0;35m▀[0;1;36m [0;35m▀▀[0;1;34m [0;34m▄▄▄▄▄[0;1;34;44m▄█████▄[0;34m▀▄[0;1;34;44m▄███▄[0;34m▄[0;35m▀[0;1;35m▓▓[0m

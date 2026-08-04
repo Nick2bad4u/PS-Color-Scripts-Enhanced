@@ -1,13 +1,4 @@
-﻿# Converted from: ZS43-RHN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense14j/raw/ZS43-RHN.ANS
-# Source Revision: archive-sha256:09ec71553d0e99093e00659fd39efd917ea23ae8b70a1c6de1aece96dc2e61a3
-# Source SHA-256: 0734e61540b97a5f134eb9931613c80649dcf0cbf5afb4f64bc26ebe473269bf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZS43-RHN.ANS by Zerostar + Aesthetic (sense14j); released in sense14j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: ZS43-RHN.ANS by Zerostar + Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense14j-zs43-rhn
 
 Write-Host '
      [1;30m▄[0;31m▄▄▄▀[0;1;37m░[0m [31m▄▄[0;1;30m▄[0;31m▀[0;37m [0;31m▀▀[0m      [31m▄▄▀[0;37m   [0;31m▄▄[0;1;30m▄[0;31m▀▀▀▀[0;1;31;41m░░▒▒[0;31m▀[0;37m   [0;31m▀▀[0;1;31;41m░▓[0;31m█[0;37m [0;1;30m▄[0;31m▀[0;37m [0;31m ░▓[0;31;43m██[0;31;40m▄[0;1;30;40m▄[0m    [31m█[0;33m▓[0;31m█▀▀▀[0;37m  [0;31m▄▄▀▀[0m

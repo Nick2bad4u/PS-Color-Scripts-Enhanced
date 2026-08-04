@@ -1,19 +1,4 @@
-﻿# Converted from: US-ER404.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-420/raw/US-ER404.ans
-# Source Revision: archive-sha256:32206a6b687af3a407a7929bd0ae7f49a2a5a96e7853d9c98b3020df27e9b06d
-# Source SHA-256: 87c0a3c566b67a59af97e7e2ab05d391b30722c6c8715a4186dcbe99400c8cc5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ER404.ans by Horsenburger + Nail (blocktronics); released in blocktronics-420 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: error 404
-# SAUCE Author: horsenburger + nail
-# SAUCE Group: blocktronics
-# SAUCE Date: 20171206
-# SAUCE Dimensions: 80x135
-# SAUCE Font: IBM VGA
-# Lines: 46-90
-# Columns: 1-80
+﻿# Artwork: error 404 by Horsenburger + Nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-420-us-er404-part02
 
 Write-Host '
 [37m   [0;1;30m▄█[0m   [1;30m▓[0m     [1;47m▓░[0;1;31;47m█[0;1;31;41m█▌░░[0;31m███[0;1;31;41m░░▀▀░░[0;31m█ █[0;1;31;41m█[0;1;31;47m [0;1;31;41m█[0;31m▌  █[0;1;31;41m▀█[0;1;31;47m▓▓▓▓[0;1;31;41m█[0;1;31;47m▓▓[0;1;31;41m█▄[0;31m▄[0m

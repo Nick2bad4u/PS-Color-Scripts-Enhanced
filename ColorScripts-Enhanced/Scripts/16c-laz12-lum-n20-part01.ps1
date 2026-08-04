@@ -1,19 +1,4 @@
-﻿# Converted from: lum-N20.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz12/raw/lum-N20.ans
-# Source Revision: archive-sha256:a144f6a13f8495aad16f3fcaf95ff5b0bc91807c93dbcb455f2b655b9f9c0dd9
-# Source SHA-256: c0d668110ea1cda0ecaf9bba61ec280a2b0026a38c1fccc3865a4548757e6fe8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: lum-N20.ans by luminator (lazarus); released in laz12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 2020
-# SAUCE Author: luminator
-# SAUCE Group: lazarus
-# SAUCE Date: 20201220
-# SAUCE Dimensions: 80x134
-# SAUCE Font: IBM VGA
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: 2020 by luminator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz12-lum-n20-part01
 
 Write-Host '
 

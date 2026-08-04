@@ -1,13 +1,4 @@
-﻿# Converted from: NSP!GIVE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rage1096/raw/NSP!GIVE.ANS
-# Source Revision: archive-sha256:57a909c1d4f1d03e381721074bffd5b3cc00842210a7fd9c8334803eac909df4
-# Source SHA-256: a4fd94a1689255e21e5454c8c9848d00d45232e0b83944d5b5051a36bf69e2b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NSP!GIVE.ANS by Nosperato (rage1096); released in rage1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: NSP!GIVE.ANS by Nosperato | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rage1096-nsp-give
 
 Write-Host '
 [1;34;44m▓█▓▓██████▀▀[0;34m█[0;1;34;44m▄[0;34m██████████████████▀▀▀▀▀▀▀▀▀█████████████████████[0;1;34;44m▄[0;34m████████████████[0m

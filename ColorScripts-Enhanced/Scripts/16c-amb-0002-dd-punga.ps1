@@ -1,18 +1,4 @@
-﻿# Converted from: DD-PUNGA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amb-0002/raw/DD-PUNGA.ANS
-# Source Revision: archive-sha256:ddf2bfb6c349501ad0002133992d1d3c9602291731a9f4cef0d5ef9af30b761f
-# Source SHA-256: bdb943333539857633135756279d18f58c96f301bc06f498a1fa9e6d9c3f081e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-PUNGA.ANS by Diamond Darrell (AMBUSH Productions); released in amb-0002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Pungas de Villa Martelli
-# SAUCE Author: Diamond Darrell
-# SAUCE Group: AMBUSH Productions
-# SAUCE Date: 19961120
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Pungas de Villa Martelli by Diamond Darrell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amb-0002-dd-punga
 
 Write-Host '
 [1;31m  ▄▄▄▄▄▄▄▄▄▄▄[0m

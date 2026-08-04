@@ -1,13 +1,4 @@
-﻿# Converted from: RL-TPP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mpir0494/raw/RL-TPP1.ANS
-# Source Revision: archive-sha256:5862390f6edcd9b66524f20968e4cd36fc2945a2b2dd3a46c0a7e7a65b56a72f
-# Source SHA-256: 7b1521da013dccdea888a8f5856e3cafc1beffe31812342dbeca75638916d621
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL-TPP1.ANS by Replay (mpir0494); released in mpir0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 49-91
-# Columns: 1-80
+﻿# Artwork: RL-TPP1.ANS by Replay | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mpir0494-rl-tpp1-part02
 
 Write-Host '
 [31m█▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░░[0m

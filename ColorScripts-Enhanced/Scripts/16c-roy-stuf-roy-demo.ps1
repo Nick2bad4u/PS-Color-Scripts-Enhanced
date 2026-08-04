@@ -1,13 +1,4 @@
-﻿# Converted from: ROY-DEMO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roy-stuf/raw/ROY-DEMO.ANS
-# Source Revision: archive-sha256:1f203f95f339c258e43a9098f8d2e689ed73de537b1cfe6bea312dfc156f1358
-# Source SHA-256: 95a73562f155b978dcc5d4d6589cd9eae84a11d51b56389cf0bc7da0fbdfb36e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ROY-DEMO.ANS by Roy (roy-stuf); released in roy-stuf and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: ROY-DEMO.ANS by Roy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roy-stuf-roy-demo
 
 Write-Host '
        [1;33m                 [0;1;31m▄█ [0;1;33m            [0;1;31m▄█[0m                [1;37m▄[0m

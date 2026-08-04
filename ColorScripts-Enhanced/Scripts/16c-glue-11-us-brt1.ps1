@@ -1,18 +1,4 @@
-﻿# Converted from: US-BRT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-11/raw/US-BRT1.ANS
-# Source Revision: archive-sha256:72e53ef6085b74f7ad1018be1993344eb17bea15f35525a0857b61ca5067bc5a
-# Source SHA-256: eb7efa487d1188aca466f54de4f5f64a7eaa3555f8bfc51e71266b5567bbc490
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BRT1.ANS by Dissonance + Knocturnal (Glue/Avenge); released in glue-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Black Rose Tavern
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Glue/Avenge
-# SAUCE Date: 19980627
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Black Rose Tavern by Dissonance + Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-11-us-brt1
 
 Write-Host '
 

@@ -1,16 +1,4 @@
-﻿# Converted from: RV-H18.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger08/raw/RV-H18.ANS
-# Source Revision: archive-sha256:20659819b296ba2594f6e23437420c94a5e40c1f843310f8d5730efe645a2109
-# Source SHA-256: d12e60fe33902aa0437af47de72813b73e74dd4dbd7fb6f88fefe6a8470fd072
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RV-H18.ANS by riv (anger); released in anger08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hanger 18
-# SAUCE Author: riv
-# SAUCE Group: anger
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: hanger 18 by riv | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger08-rv-h18
 
 Write-Host '
  [1;31;41m▓[0;31m█[0;37m [0;1;31;41m▒ [0;31m█▄█[0;1;31;41m▓[0;31m█▀▀▐[0;1;31;41m▒░[0;33m █[0;31m▐█▀[0;1;31;41m▓░[0;31m▀█▌[0;1;31;41m░[0;31m█▄▐▌[0;33m▄[0;31m▀[0;33m▄▌[0;31m▐[0;1;31;41m░[0;31m▌[0;33m▓▒ [0;31m▀[0;1;31;41m░[0;31m█▄▀[0;1;31;41m░ [0;31m▄[0;32m▀[0;1;32;42m  ░▒▓[0;1;32;40m██[0;1;32;42m█[0;1;32;40m▀█[0;1;32;42m▓[0;1;32;40m▀▀[0m▄▀[1;32m▄▀[0m▄[1;32m▐▀▀▀█[0;1;32;42m▓▓▓▒[0;32m▄█[0;1;30m┬[0m

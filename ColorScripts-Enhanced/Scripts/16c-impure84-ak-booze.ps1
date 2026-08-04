@@ -1,19 +1,4 @@
-﻿# Converted from: ak-booze.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure84/raw/ak-booze.ans
-# Source Revision: archive-sha256:d8a09ea8caa6a7527c42f29f38b4d95854161d144db19311f361c7c38d2a14cf
-# Source SHA-256: 60b0b1de2a4c90e191753ca89c91306a8affb59672c049fd0d8d6b79d42978b2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ak-booze.ans by abstrakt (fire); released in impure84 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: booze
-# SAUCE Author: abstrakt
-# SAUCE Group: fire
-# SAUCE Date: 20230226
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: booze by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure84-ak-booze
 
 Write-Host '
 [36mdb.                                        `┘[0;37m     [0;36m.┌[0;1;36m┘[0;36m''`[0;37m            [0;32md[0;1;32m$$$$Sa[0;32m.  [0;1;30mabs[0m

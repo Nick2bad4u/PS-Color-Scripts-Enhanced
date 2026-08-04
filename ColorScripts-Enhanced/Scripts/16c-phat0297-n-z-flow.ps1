@@ -1,16 +1,4 @@
-﻿# Converted from: N!Z-FLOW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0297/raw/N!Z-FLOW.ANS
-# Source Revision: archive-sha256:2e15cb2f2712a143323c9f3c6ecca94c5b5b12a452a019e911d205dd685c6eee
-# Source SHA-256: 1fba4e1e3a1866420e23af2655c89114f9809280deeaf6cacbb47708af4b9933
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N!Z-FLOW.ANS by noize (phat studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: flowercreen
-# SAUCE Author: noize
-# SAUCE Group: phat studios '97
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: flowercreen by noize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0297-n-z-flow
 
 Write-Host '
 [1;30;47m▄▓▓[0;1;30;40m██▀▀▀[0m  [32m░░░▄▄▄▄▄[0;37m [0;31m▄▄▄▄▄▐██████████▄▄[0;1;31m▄[0m  [1;30m▀▀▀▀███[0;1;30;47m▄▄▄▄   [0;1;37;40m██[0m [31m███████████████████████[0m

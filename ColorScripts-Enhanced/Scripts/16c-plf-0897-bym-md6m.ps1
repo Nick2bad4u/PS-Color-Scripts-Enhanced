@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-MD6M.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0897/raw/BYM-MD6M.ANS
-# Source Revision: archive-sha256:cabceb59b7b429d8e4c18b37682b5f04003f1a57c83a21398a4e2582b732a549
-# Source SHA-256: 36772ba6c638c9e5894bcac400847b324d2cf8d0338a3989cf560e29904def49
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-MD6M.ANS by big yellow man (poffelipoff); released in plf-0897 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: plf music disk 6
-# SAUCE Author: big yellow man
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19970721
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: plf music disk 6 by big yellow man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0897-bym-md6m
 
 Write-Host '
 [1;30m───────────────────────────────────────────────────────────────────────────────[0m

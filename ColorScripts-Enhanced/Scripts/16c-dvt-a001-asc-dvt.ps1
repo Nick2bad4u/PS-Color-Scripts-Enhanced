@@ -1,13 +1,4 @@
-﻿# Converted from: ASC-DVT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dvt-a001/raw/ASC-DVT.ANS
-# Source Revision: archive-sha256:29592a0326970604411bfe9bc65b56585a8bfba97280105ebf1982d1f8f2368d
-# Source SHA-256: c8a3b3f89bb6c3131f9808a2124d68d02f6b7ecf5e8966b7c1ea237f8c4e7378
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ASC-DVT.ANS by Asc (dvt-a001); released in dvt-a001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: ASC-DVT.ANS by Asc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dvt-a001-asc-dvt
 
 Write-Host '
                          [32m▄▄▄▄▀▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▄▄▄▄[0m

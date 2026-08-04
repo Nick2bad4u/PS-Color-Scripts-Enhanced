@@ -1,18 +1,4 @@
-﻿# Converted from: DFUSE-MR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1097/raw/DFUSE-MR.ANS
-# Source Revision: archive-sha256:36c7150b2835995ba27c6f1c5cfc23dc5fdf9213c2fb0b333e09d1aa0d00da5f
-# Source SHA-256: 757a4ef20c942818e27ef45cbe006a8d6d685fa8beea7f682a4ba76e54e1c45a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DFUSE-MR.ANS by dfuse (guest); released in plf-1097 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: mitt rum
-# SAUCE Author: dfuse
-# SAUCE Group: guest
-# SAUCE Date: 19971031
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: mitt rum by dfuse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1097-dfuse-mr
 
 Write-Host '
 [1m▓▓▓▓████████████████████████████▌██████████████▓▓▓▓▓▒▒▒[0;1;30m██[0m▀██[1m▒▒▓█████████████████[0m

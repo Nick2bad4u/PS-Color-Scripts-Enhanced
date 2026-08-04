@@ -1,18 +1,4 @@
-﻿# Converted from: SU^CYBRG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/air_0697/raw/SU%5ECYBRG.ANS
-# Source Revision: archive-sha256:5cd3011ba297092d80d79117f4d787f8ea3f225f068d30fcf0de8461325ab083
-# Source SHA-256: 6696491888eb41537aa13756ce3c7001f0033af2bd9589cca3c2775aad15cf1d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SU^CYBRG.ANS by sunday (air); released in air_0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: skateshop_thing
-# SAUCE Author: sunday
-# SAUCE Group: air
-# SAUCE Date: 19970601
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: skateshop_thing by sunday | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-air-0697-su-cybrg
 
 Write-Host '
        [30m∙∙::,.[0m                ÷^"Sq.

@@ -1,13 +1,4 @@
-﻿# Converted from: SNAKNOSE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fawk1193/raw/SNAKNOSE.ANS
-# Source Revision: archive-sha256:9b7a0058358bf49c33df2abe04101f21e2da1e17f0226e4c66539cead6d5a5c3
-# Source SHA-256: acb9724496c12e4b4aad31a99929de0340f2296744908d99096ab231bf0a720c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SNAKNOSE.ANS by Marly Man (fawk1193); released in fawk1193 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: SNAKNOSE.ANS by Marly Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fawk1193-snaknose
 
 Write-Host '
                                               [33m▄▄▄▄▄[0m

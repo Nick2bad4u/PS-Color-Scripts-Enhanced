@@ -1,18 +1,4 @@
-﻿# Converted from: EC-LGHMT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wind0195/raw/EC-LGHMT.ANS
-# Source Revision: archive-sha256:5b43f6b448165807ca10541f72295732684c4ffaba57fa200380cfc1d53164e9
-# Source SHA-256: fbac6c8eebd646f4937279a02fecc28a0a5c1f314ff9c81a0923fbd74612be50
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EC-LGHMT.ANS by Eternal Chaos (WiND `95); released in wind0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Laughter Meditation
-# SAUCE Author: Eternal Chaos
-# SAUCE Group: WiND `95
-# SAUCE Date: 19950101
-# SAUCE Dimensions: 80x25
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Laughter Meditation by Eternal Chaos | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wind0195-ec-lghmt-part01
 
 Write-Host '
    [30m·[0m         [30m·  ·[0m      [30m∙[0m     [30m·[0m          [30m   [0;37m [0m [1;30m [0m

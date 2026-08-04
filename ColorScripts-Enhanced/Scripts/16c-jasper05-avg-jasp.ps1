@@ -1,18 +1,4 @@
-﻿# Converted from: Avg-jasp.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper05/raw/Avg-jasp.ans
-# Source Revision: archive-sha256:33fac09b0787230492798535c47bf2642ecf35522de5af17dfe59b662d1606a6
-# Source SHA-256: f56f63107d663b66b15de5f0177b5b5b9d02923fca14948af0f0fe81c770aeb8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Avg-jasp.ans by avenging angel (jasper); released in jasper05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: jasper5 promo
-# SAUCE Author: avenging angel
-# SAUCE Group: jasper
-# SAUCE Date: 20020416
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: jasper5 promo by avenging angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper05-avg-jasp
 
 Write-Host '
 [1;30m[0m                               [1;30mj a s p e r  5[0m                    [1;30m▄▄▄[0m

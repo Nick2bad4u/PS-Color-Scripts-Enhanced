@@ -1,18 +1,4 @@
-﻿# Converted from: SM!TOAST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0398/raw/SM!TOAST.ANS
-# Source Revision: archive-sha256:f8b78bce0ded523528171ee9d37c603a9a96c5e8abf885d101375334b587e435
-# Source SHA-256: 3cd1310d07c4ee129791da60f7cf0bee118bd612370fcaf3046202ba62d16185
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM!TOAST.ANS by siMs (poffelipoff); released in plf-0398 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Toast704.
-# SAUCE Author: siMs
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19980315
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Toast704. by siMs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0398-sm-toast
 
 Write-Host '
 [35m░▓[0;30;45m░[0;35;40m▓[0;30;45m░[0;1;35;40m░[0m  [1;30m▐▀▀▀▀▀ ▀[0m                      [35m░[0;30;45m▓[0;35;40m░[0;30;45m▓[0;1;35;40m░[0m    [1;35;45m░░[0;1;35;40m░[0m   [35m▐[0;1;35;45m░░[0;30;45m░[0;1;35;40m░[0;30;45m▓[0m        [30;45m▓▒░[0;37;40m [0;35;40m▓▓[0;37;40m [0;30;45m▓[0;37;40m [0;35;40m  ▄[0;1;35;40m▄[0m

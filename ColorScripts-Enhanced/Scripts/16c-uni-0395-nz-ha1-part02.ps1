@@ -1,13 +1,4 @@
-﻿# Converted from: NZ-HA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0395/raw/NZ-HA1.ANS
-# Source Revision: archive-sha256:fa162651f9482427c00511e180638b307ba23babafbe50fc91872af91a55356c
-# Source SHA-256: 9d007aca9df89bc362992271a5212ced239cafcbcf708b3842adede6569a1d2a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NZ-HA1.ANS by Nailz (uni-0395); released in uni-0395 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 40-77
-# Columns: 1-80
+﻿# Artwork: NZ-HA1.ANS by Nailz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0395-nz-ha1-part02
 
 Write-Host '
 [1;31;45m█[0;1;31;41m▓[0;1;31;45m█[0;1;31;41m▀[0;1;31;40m██▌[0m▐▌ █ [1;35m▄[0m▀█▄[1m▀[0;1;47m█[0m [1;47m█▒[0;1;40m▌[0m▐████████▀ [33m▄▀░▄ [0;1;30;47m░[0m [1;33;43m░▓▒[0;33m▄[0;37m▀▀▓[0;1;30;47m░[0m██[1;47m░▒[0m ██[1;30;47m░░░░▒[0m ██▀▄[1;47m░[0m [33m██[0;1;30;43m░[0;33m▀▄▀[0;36m▄█████[0;1;34;46m░[0m

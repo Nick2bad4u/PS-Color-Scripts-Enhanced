@@ -1,13 +1,4 @@
-﻿# Converted from: we-fish.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch06/raw/we-fish.ans
-# Source Revision: archive-sha256:6a5728d508714e5a8a52bf9fe4786f449331afd350af648df7e54e6c0432bbed
-# Source SHA-256: d5e4960152a1c2891bd632352808c617dcbe358ffb720721fd829ce10f178e22
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-fish.ans by Knocturnal + Avenging Angel + Spear + Enzo (27inch06); released in 27inch06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 98-145
-# Columns: 1-80
+﻿# Artwork: we-fish.ans by Knocturnal + Avenging Angel + Spear + Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch06-we-fish-part03
 
 Write-Host '
  [32m▀█████▀[0;37m  [0;32m▄[0;1;32;42m▄███▄[0;1;32;40m▄[0;32m▄[0m       [1;30m▀█▄▄[0m        [36m▀[0;37m [0;1;30;46m▓▒[0;36m▄[0m      [36m▄▄[0;1;36;46m▄▄[0;36m█▄[0;37m    [0;33m██[0;37m   [0;1;32;42m▒[0m  [1;32m▐▌[0m        [1;30m▄█[0m

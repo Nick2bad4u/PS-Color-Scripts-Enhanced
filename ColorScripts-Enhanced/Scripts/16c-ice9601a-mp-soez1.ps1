@@ -1,18 +1,4 @@
-﻿# Converted from: MP-SOEZ1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9601a/raw/MP-SOEZ1.ICE
-# Source Revision: archive-sha256:e4c089e3103bdc63762348bbcc2c54a05a351461817f667c54ad471098c66860
-# Source SHA-256: fdb604315ecd2abde1769667be1d0b77387e692883c9468735c561e386312035
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MP-SOEZ1.ICE by Mephistopheles (iCE Advertisements); released in ice9601a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: SoE-Z
-# SAUCE Author: Mephistopheles
-# SAUCE Group: iCE Advertisements
-# SAUCE Date: 19960131
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: SoE-Z by Mephistopheles | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9601a-mp-soez1
 
 Write-Host '
 

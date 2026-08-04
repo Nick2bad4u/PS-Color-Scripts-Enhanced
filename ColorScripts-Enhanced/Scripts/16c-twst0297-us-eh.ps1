@@ -1,17 +1,4 @@
-﻿# Converted from: US-EH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst0297/raw/US-EH.ANS
-# Source Revision: archive-sha256:181061fdc6bb6e04ad0b93dd012fda7546700e84ae107e51b8df5c633aa86030
-# Source SHA-256: 000f135c6eced35e99fe7e1d64e167f3e7cf85914d409d3bdeb07798e1c82b1f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-EH.ANS by Red Death + Putrid Carcass (TWISTED); released in twst0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: eH?!
-# SAUCE Author: Multiple Artists
-# SAUCE Group: TWISTED
-# SAUCE Dimensions: 80x25
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: eH?! by Red Death + Putrid Carcass | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst0297-us-eh
 
 Write-Host '
 [1;30m░[0;1;37m [0m [1;31m░[0;1;31;47m▓[0;1;31;40m░[0m  [1m░▓██[0;1;47m▀[0;1;40m▀▀[0;1;47m▀[0;1;40m████████[0;31m░[0;1;37m█[0;1;37;47m▀[0;1;37;40m▀▀▀▀▀[0m▀[1;30m▀[0m      [1;30m▀[0m▀[1m▀▀[0;1;47m▀[0;1;40m██████████████[0;1;47m░[0;1;40m▀[0m▀ [31m▄░░[0;1;37m [0m▀[1;47m▀[0;1;40m███████████[0m

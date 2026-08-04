@@ -1,13 +1,4 @@
-﻿# Converted from: LST-PUB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dox_9612/raw/LST-PUB.ANS
-# Source Revision: archive-sha256:535386efaf0832a92df8cd43b1e1ec9e549c82ba4ee576a67c0fa93e7a363fe1
-# Source SHA-256: e085651270d20778587367f73b6c1eca2f4d04affcfbaae9a7301faa1da8ce2c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LST-PUB.ANS by Soul Trader (dox_9612); released in dox_9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: LST-PUB.ANS by Soul Trader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dox-9612-lst-pub
 
 Write-Host '
 

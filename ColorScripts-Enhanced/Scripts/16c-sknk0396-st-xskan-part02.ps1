@@ -1,18 +1,4 @@
-﻿# Converted from: ST-XSKAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sknk0396/raw/ST-XSKAN.ANS
-# Source Revision: archive-sha256:d1146eaff9d8fcb32b026bdf30ae2359ce9489533a289ac360d48a81ee46fca9
-# Source SHA-256: f0e5c023ccd98f184b9ec6f6277ecbc9aa718912f617e418a07f003524b8353b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-XSKAN.ANS by strahd (SKANK); released in sknk0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: kill0h kl0wn
-# SAUCE Author: strahd
-# SAUCE Group: SKANK
-# SAUCE Date: 19960225
-# SAUCE Dimensions: 80x70
-# Lines: 30-70
-# Columns: 1-80
+﻿# Artwork: kill0h kl0wn by strahd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sknk0396-st-xskan-part02
 
 Write-Host '
 [1;34m [0m        [31m██[0;1;31;41m░[0m      [1m▄[0m   [1;47m [0m     [1;47m░[0m               [31m█[0;1;31;41m░[0m [1;34m   [0m

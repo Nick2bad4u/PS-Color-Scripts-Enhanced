@@ -1,18 +1,4 @@
-﻿# Converted from: EE-COSH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blur9607/raw/EE-COSH.ANS
-# Source Revision: archive-sha256:b26c8b94015ee6d1b8810f7d19551196eb13cdc7b545981a4755cd2ae5715624
-# Source SHA-256: 2a77a52b8f643984c2e5eec21fc300bdee5a9dceb6a192f02f2815b16ae51bd7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EE-COSH.ANS by Evil Empire (blur); released in blur9607 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Color Shock
-# SAUCE Author: Evil Empire
-# SAUCE Group: blur
-# SAUCE Date: 19960627
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Color Shock by Evil Empire | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blur9607-ee-cosh
 
 Write-Host '
 [1;35;45m▀██▀[0;35m███▀▀▀▀▀▀▀▀▀█[0;1;35;45m▀██▀███▀▄▀██[0;35m█[0;37m [0;35m▀▀█[0;1;35;45m▀ ▀▀▀▀[0;1;35;40m█[0;1;35;45m█████▄▀▄▀ ▀█▀████▀▀  [0;35m█▀[0;37m [0;35m▄█[0;1;35;45m  [0;1;35;40m███████[0;1;35;45m▀[0;1;35;40m██[0;1;35;45m▀[0m

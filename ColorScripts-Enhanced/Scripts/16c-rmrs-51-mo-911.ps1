@@ -1,13 +1,4 @@
-﻿# Converted from: mo-911.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-51/raw/mo-911.ans
-# Source Revision: archive-sha256:ff9424ea0d61c43ca9938ec01e57b31d69411e1d785e81dcbf80607f1fcf46f7
-# Source SHA-256: 39e6d5fed4e82e67f044830f9fa22d2344b965593d17c546891037c665ff0548
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mo-911.ans by Magnatop (rmrs-51); released in rmrs-51 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: mo-911.ans by Magnatop | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-51-mo-911
 
 Write-Host '
 

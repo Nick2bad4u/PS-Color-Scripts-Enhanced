@@ -1,18 +1,4 @@
-﻿# Converted from: FV-ASC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ascnt-01/raw/FV-ASC1.ANS
-# Source Revision: archive-sha256:3bdf8229aa519ad1025b75a48c0784037de8a99980400cee57d5562e91942b95
-# Source SHA-256: d8860cb67e50f931f0db8183d7a20792aac34d30820e2a48496adb8823011f19
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-ASC1.ANS by fever (ascent); released in ascnt-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ascent
-# SAUCE Author: fever
-# SAUCE Group: ascent
-# SAUCE Date: 19961018
-# SAUCE Dimensions: 80x25
-# Lines: 1-12
-# Columns: 1-80
+﻿# Artwork: ascent by fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ascnt-01-fv-asc1
 
 Write-Host '
                                [31m░░░░[0m

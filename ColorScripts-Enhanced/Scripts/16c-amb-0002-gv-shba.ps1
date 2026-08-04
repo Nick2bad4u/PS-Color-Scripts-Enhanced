@@ -1,18 +1,4 @@
-﻿# Converted from: GV-SHBA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amb-0002/raw/GV-SHBA.ANS
-# Source Revision: archive-sha256:ddf2bfb6c349501ad0002133992d1d3c9602291731a9f4cef0d5ef9af30b761f
-# Source SHA-256: e0ae9582f561737a20a831e23e453d3b6217d561a31bb586277fb8dcf479d4a4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GV-SHBA.ANS by Groove (AMBUSH Productions); released in amb-0002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Shelter Base
-# SAUCE Author: Groove
-# SAUCE Group: AMBUSH Productions
-# SAUCE Date: 19961022
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Shelter Base by Groove | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amb-0002-gv-shba
 
 Write-Host '
 

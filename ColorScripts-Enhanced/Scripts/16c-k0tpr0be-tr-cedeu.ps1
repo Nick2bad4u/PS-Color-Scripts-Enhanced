@@ -1,18 +1,4 @@
-﻿# Converted from: TR-CEDEU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k0tpr0be/raw/TR-CEDEU.ANS
-# Source Revision: archive-sha256:fcb0e37abcb9d171de6d5cc918649afa7e9c0f2f5173dba90a7d8c38f69cec3d
-# Source SHA-256: 1cd4d85445937846a8919faf8f3a0e2496d8b1489f7380fffbb06fd42b856a6d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-CEDEU.ANS by trate (fbk); released in k0tpr0be and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: drink the light in colors
-# SAUCE Author: trate
-# SAUCE Group: fbk
-# SAUCE Date: 19960725
-# SAUCE Dimensions: 80x25
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: drink the light in colors by trate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k0tpr0be-tr-cedeu
 
 Write-Host '
                            [33m                 [0m

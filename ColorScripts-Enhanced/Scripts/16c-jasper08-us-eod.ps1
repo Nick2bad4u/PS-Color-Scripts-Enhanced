@@ -1,18 +1,4 @@
-﻿# Converted from: US-EOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper08/raw/US-EOD.ANS
-# Source Revision: archive-sha256:4170bc28a3d93b55b5d7813a9078fa917029de207cfcf794080d34d8f6ddd97e
-# Source SHA-256: cdf20499cc3c08bec3ed6af7e15208a270c38856c6287090443ac5ed7687d669
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-EOD.ANS by Taintedx + Aesthetic (jasper); released in jasper08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: epitome of darkness
-# SAUCE Author: tainted/aesthetic
-# SAUCE Group: jasper
-# SAUCE Date: 20020709
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: epitome of darkness by Taintedx + Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper08-us-eod
 
 Write-Host '
                                                             [1;30m■[0m    [1;30m░[0m [1;30m■[0m

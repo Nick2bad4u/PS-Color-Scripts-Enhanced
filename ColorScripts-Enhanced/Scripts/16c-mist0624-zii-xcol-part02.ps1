@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-XCOL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0624/raw/ZII-XCOL.ANS
-# Source Revision: archive-sha256:7e2642f67629daefe8d04ebedd2e233be2e8a74b2dea50eb02da49be24298927
-# Source SHA-256: 402894964c53be7ba49726643d9277c899b2528e2f573dac97aa26661f9bfc23
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-XCOL.ANS by Zeus II (Mistigris); released in mist0624 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Xibalba - Last Callers
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20240625
-# SAUCE Dimensions: 80x54
-# SAUCE Font: IBM VGA
-# Lines: 31-53
-# Columns: 1-80
+﻿# Artwork: Xibalba - Last Callers by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0624-zii-xcol-part02
 
 Write-Host '
 [1;30m▓▓█████████████[0;1;30;47m▓[0;1;30;40m█[0;1;30;47m▓▓▓▒▒▒[0;1;30;40m█[0m [33m▄▄[0;37;43m▄[0;1;33;43m▄[0;43m▄[0;33;40m▓▓[0;37;40m [0;33;40m▄[0;1;37;40m▄[0m  [1;30m█[0;1;30;47m▓[0;1;30;40m█[0;1;30;47m▓▓▒▒░░[0;1;37;47m░▒▒▓▓[0;1;37;40m██████ █[0;1;37;47m▓▒░[0;1;30;47m░▒▒▒▓▓▓[0;1;30;40m██▀▀▀[0;34m▄▄[0;1;30m▀▓▒[0m

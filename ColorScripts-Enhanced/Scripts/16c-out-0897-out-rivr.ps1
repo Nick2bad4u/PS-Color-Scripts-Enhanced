@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-RIVR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0897/raw/OUT-RIVR.ANS
-# Source Revision: archive-sha256:549bf8e96e7f7e860f0287ba7104856044d3d84459139164d9a185bf317f9174
-# Source SHA-256: 21bceb72ff98cdfc003dcac72756c03c46b1cc46e19efc32d41799a14fac7d4e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-RIVR.ANS by Sandy Chidester (out-0897); released in out-0897 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: OUT-RIVR.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0897-out-rivr
 
 Write-Host '
   [34m·  [0;1;36m·  [0;34m·[0m     [34m·[0m           [34m·[0m         [1;37m·[0m                                   [1;34m·[0m

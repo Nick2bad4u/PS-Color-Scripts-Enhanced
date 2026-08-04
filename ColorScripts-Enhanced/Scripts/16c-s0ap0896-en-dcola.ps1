@@ -1,18 +1,4 @@
-﻿# Converted from: EN-DCOLA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/s0ap0896/raw/EN-DCOLA.ANS
-# Source Revision: archive-sha256:7d0a140f529eae19c883c8148a21e14165d8c770e39610a28ae96e53bb9f8b6b
-# Source SHA-256: 668f275a9c4334f568836d428967a5347223f0778e52e447bcac9528fbfea960
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EN-DCOLA.ANS by Endless Nameless (s0ap); released in s0ap0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: diet coke..
-# SAUCE Author: Endless Nameless
-# SAUCE Group: s0ap
-# SAUCE Date: 19960715
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: diet coke.. by Endless Nameless | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-s0ap0896-en-dcola
 
 Write-Host '
                                                              ²"''÷

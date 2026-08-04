@@ -1,17 +1,4 @@
-﻿# Converted from: SEL-ELH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ceg-012a/raw/SEL-ELH.ANS
-# Source Revision: archive-sha256:de757e81fef066f837d4c526e6885103684c4d8a8d216c507a8f09c5206b8c26
-# Source SHA-256: d54928ac8b0e7914429f2b15ffd607f7715b5f9e05c1bfadf355767ce152001e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SEL-ELH.ANS by seltorn (black maiden); released in ceg-012a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: seltorn
-# SAUCE Group: black maiden
-# SAUCE Date: 20000811
-# SAUCE Dimensions: 80x27
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: SEL-ELH.ANS by seltorn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ceg-012a-sel-elh
 
 Write-Host '
                                                                    [1;31m░░░[0m

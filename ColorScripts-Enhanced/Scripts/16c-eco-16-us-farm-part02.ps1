@@ -1,18 +1,4 @@
-﻿# Converted from: US-FARM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-16/raw/US-FARM.ANS
-# Source Revision: archive-sha256:c00416c7ddf398f58bbf4e903903b01262636f611404ac6c0f665b0399f0a726
-# Source SHA-256: e2f4f7448f9ba585d4e2a1e64eeaf71a66474378c4d7866299fd8430a990212e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FARM.ANS by President + Commissaris Plons (ecolove); released in eco-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: on the farm
-# SAUCE Author: plons & president
-# SAUCE Group: ecolove
-# SAUCE Date: 19990907
-# SAUCE Dimensions: 80x82
-# Lines: 45-82
-# Columns: 1-80
+﻿# Artwork: on the farm by President + Commissaris Plons | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-16-us-farm-part02
 
 Write-Host '
 [33m█[0;32m [0;1;30m▐[0;1;30;43m▄[0;33m▄[0;37m [0;1;30m▀[0;1;30;43m▄[0;1;31;43m  [0;33m▀▀▄[0;37m [0;33m▐[0;1;31;43m █[0;1;31;40m█████[0;1;31;47m██████[0;1;31;40m███████████▄▄▄[0m    [1;31m ▄▄▄██[0;1;31;43m▄▄ [0;33m▄[0;1;31m [0;33m▀[0;37;43m▄[0;33;47m▀[0;1;37;43m▄[0;33;47m▀[0;37;43m ▄[0;33;40m██[0;1;30;43m▄▄█[0;1;30;47m▀[0;33m [0;37;43m▄[0;33;40m█[0;32;40m [0;1;30;40m▐[0;1;30;43m▄▄[0;43m ▀[0;1;37;43m▀[0m

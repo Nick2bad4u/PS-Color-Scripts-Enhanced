@@ -1,19 +1,4 @@
-﻿# Converted from: ctx-rose-oni.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-003/raw/ctx-rose-oni.ans
-# Source Revision: archive-sha256:44a26aad0e8691f16e2777283660069b61e5916234397869961a696ba22e89f6
-# Source SHA-256: a81267f5ff88b922afe241a1bcf56683ddb42e48a268ae65bc078f3bfb8f62c4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ctx-rose-oni.ans by CatX (Legacy Krew); released in lgcy-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Rose Oni
-# SAUCE Author: CatX
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20200816
-# SAUCE Dimensions: 80x68
-# SAUCE Font: IBM VGA
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: Rose Oni by CatX | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-003-ctx-rose-oni-part01
 
 Write-Host '
 

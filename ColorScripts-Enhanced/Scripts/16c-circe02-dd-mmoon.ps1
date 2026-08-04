@@ -1,18 +1,4 @@
-﻿# Converted from: DD-MMOON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe02/raw/DD-MMOON.ANS
-# Source Revision: archive-sha256:ce5cd736ecea3fcfef2c1df40ab4bdd995f6b633f97f1788244355f98c5d174e
-# Source SHA-256: 390d37484c4bb717964957b4a36cc3936e2dd0580b3e6473638085e769abf945
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-MMOON.ANS by Diamond Darrell (Circe); released in circe02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Midmoon Welcome
-# SAUCE Author: Diamond Darrell
-# SAUCE Group: Circe
-# SAUCE Date: 19971127
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Midmoon Welcome by Diamond Darrell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe02-dd-mmoon
 
 Write-Host '
 [1;34;44m [0;34m░░[0;1;34m [0;1;37m                                                  [0m  [34m▀▀█[0;1;34;44m██[0;1;34;40m█[0;1;34;44m█[0;34m█▓▓░░[0;37m [0;1;33m▄▄▄▄[0m  [34m▀░░▓▓[0m

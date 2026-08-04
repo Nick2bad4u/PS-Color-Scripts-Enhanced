@@ -1,19 +1,4 @@
-﻿# Converted from: MOTH-MOTH_OR_MAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1024/raw/MOTH-MOTH_OR_MAN.ANS
-# Source Revision: archive-sha256:6949840195965f5eb9696cfb423e381432d7ccfa36b66290e336e4608b7c12f8
-# Source SHA-256: 6810acadf541f2c5d761e34a70fd460ad8e3d2491a191efedf1174f9a2a18651
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MOTH-MOTH_OR_MAN.ANS by Moth (Mistigris); released in mist1024 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Moth or Man?
-# SAUCE Author: Moth
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241026
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Moth or Man? by Moth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1024-moth-moth-or-man
 
 Write-Host '
 [34m████████████████████▀███████████████████████████████████████████▀███████████████[0m

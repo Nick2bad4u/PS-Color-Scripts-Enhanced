@@ -1,18 +1,4 @@
-﻿# Converted from: BS-OTE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bleach04/raw/BS-OTE1.ANS
-# Source Revision: archive-sha256:baa32e2a78fcaeb0a7d7d4af9b9beca3cca36bb322ba39b26f818f95ee969108
-# Source SHA-256: 09a3c3648bae9dd305dd6b68b7f594cdd1582f3e9b0e4b5140174bbd719ecc26
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-OTE1.ANS by burps (bleach); released in bleach04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: over the edge
-# SAUCE Author: burps
-# SAUCE Group: bleach
-# SAUCE Date: 19950707
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: over the edge by burps | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bleach04-bs-ote1
 
 Write-Host '
 [1m      [0;1;30m▓▄      ▄▄▓      ▓▄▄    ▄▄      ▄▄                      ▄▄▓     ■▄▄[0;1;30;40m       [0m

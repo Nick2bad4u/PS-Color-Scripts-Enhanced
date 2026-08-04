@@ -1,18 +1,4 @@
-﻿# Converted from: TS-CS0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy10/raw/TS-CS0.ANS
-# Source Revision: archive-sha256:75431876417bf4bfaa2e247245b077f3c9a30507897439fd887fb6ea72c947ca
-# Source SHA-256: 6357869ea9258fe663b3d86b9b572027e7d8c190c572bb48fcda779c435a93d0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-CS0.ANS by Transient (apathy); released in apathy10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Color Shock
-# SAUCE Author: Transient
-# SAUCE Group: apathy
-# SAUCE Date: 19960507
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Color Shock by Transient | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy10-ts-cs0
 
 Write-Host '
 [1;30m      [0m        ░[1m [0m    [1m [0;1;33m [0m [1;33m [0;1;34m [0;1;37m [0;1;33m [0m [1;33m [0m [1;33m [0;1;37m [0;1;34m [0;1;33m [0;1;37m [0;1;33m [0m [1;34m [0;1;33m [0;1;37m [0;1;33m [0m [1;33m [0m [1;33m [0m [1;33m [0m [1;33m [0m [1;33m [0m [1;33m [0m [1;33m [0;1;37m [0;1;34m [0;1;33m [0m      ░         [1;30m      [0m

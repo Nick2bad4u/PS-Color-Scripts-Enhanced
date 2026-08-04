@@ -1,18 +1,4 @@
-﻿# Converted from: BYM%MLD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0397/raw/BYM%25MLD1.ANS
-# Source Revision: archive-sha256:595cd536c89a3ddf9c15202ea96fa0a030ff8d2edd4f06062add94708fe8499b
-# Source SHA-256: a49a3ef86e2e8799b6f07a4fdd27a01905cb052655a160c241c845b5d96ddfd2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM%MLD1.ANS by big y3llow man (GUMMiBOLL.art); released in plf-0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: mortal dreams header
-# SAUCE Author: big y3llow man
-# SAUCE Group: GUMMiBOLL.art
-# SAUCE Date: 19970223
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: mortal dreams header by big y3llow man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0397-bym-mld1
 
 Write-Host '
 

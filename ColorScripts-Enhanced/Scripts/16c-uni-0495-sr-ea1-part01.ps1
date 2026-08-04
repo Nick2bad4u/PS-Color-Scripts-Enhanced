@@ -1,18 +1,4 @@
-﻿# Converted from: SR-EA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0495/raw/SR-EA1.ANS
-# Source Revision: archive-sha256:5c1b487f172d9b21547c289d0c6d77076f08925ed05d67b00c73baffeedf66f4
-# Source SHA-256: 7b8740b36432ea27d5fffbc85105bf4a49d0dfc7a4f528500439f457b2f4ee92
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SR-EA1.ANS by Streaker (READ THE INI FILE); released in uni-0495 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Electric Acid
-# SAUCE Author: Streaker
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19950403
-# SAUCE Dimensions: 80x25
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Electric Acid by Streaker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0495-sr-ea1-part01
 
 Write-Host '
                              [1;37m▄▄[0m▄[1m▄[0m▄▄▄[1m▄[0m▄▄▄[1m▄[0m▄[1m▄[0m▄▄▄▄

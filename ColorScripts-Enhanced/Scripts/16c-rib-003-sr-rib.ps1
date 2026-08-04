@@ -1,18 +1,4 @@
-﻿# Converted from: SR-RIB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-003/raw/SR-RIB.ANS
-# Source Revision: archive-sha256:09817656d743388b570b7dfb39c4f133f8c40aecb92562f60d9e0c45a3f39730
-# Source SHA-256: d5fe4b95da6ddf28f1fb55d876ff86e58e66928988dbb14d046a24dc6e9b42f9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SR-RIB.ANS by Sasha ScroLLer (RiB); released in rib-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: member logo
-# SAUCE Author: Sasha ScroLLer
-# SAUCE Group: RiB
-# SAUCE Date: 19971007
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: member logo by Sasha ScroLLer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-003-sr-rib
 
 Write-Host '
 

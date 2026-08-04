@@ -1,18 +1,4 @@
-﻿# Converted from: US-WAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0997/raw/US-WAR.ANS
-# Source Revision: archive-sha256:d6ce507ee095ab9c7ce1d91178b57bff0c61babde42a3957415461a430e18407
-# Source SHA-256: 941b4e149db3e2e2b7fcd4aabab45c7b03a3d6466aa05c63f9406f78e7516826
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-WAR.ANS by Big Yellow Man + Gloone (plf/echo); released in plf-0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: war stories
-# SAUCE Author: bym//gloone
-# SAUCE Group: plf/echo
-# SAUCE Date: 19970902
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: war stories by Big Yellow Man + Gloone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0997-us-war
 
 Write-Host '
 [30;46m▐ War Stories▐▐[0;37;40m  [0;30;46m▐[0m   [30;46m▄[0;37;40m [0;30;46m█[0m       [36;40m   [0m                         [36;40m▄▄[0;1;36;46m▄▄▌[0;36m▄ ▄    [0m

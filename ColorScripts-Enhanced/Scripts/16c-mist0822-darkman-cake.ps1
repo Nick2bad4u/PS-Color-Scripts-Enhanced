@@ -1,20 +1,4 @@
-﻿# Converted from: DARKMAN-CAKE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0822/raw/DARKMAN-CAKE.ANS
-# Source Revision: archive-sha256:ed72a43421208b7431337d20b0e65cf1daa85d400f3cf90754e23de5d5edd83f
-# Source SHA-256: 9b109e266ff88aa10447f0ea8b3a2527f0007ba38ce00c704e340030fbde35ff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DARKMAN-CAKE.ANS by Darkman Almighty (Mistigris); released in mist0822 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Troi Cake Anyone?
-# SAUCE Author: Darkman Almighty
-# SAUCE Group: Mistigris
-# SAUCE Date: 20220815
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Celebration screen for USS Excelsior BBS to commemorate 1 year o | f service.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Troi Cake Anyone? by Darkman Almighty | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0822-darkman-cake
 
 Write-Host '
 █▀▀▀▀▀▀▀██▀▀▀▀▀▀▀▀█▀▀▀▀▀▀▀██▀▀▀▀▀▀██▀▀▀▀▀█████▀▀▀▀▀▀▀▀█▀▀▀▀▀█▀▀▀▀▀▀▀▀█▀▀▀▀▀▀▀▀▀█

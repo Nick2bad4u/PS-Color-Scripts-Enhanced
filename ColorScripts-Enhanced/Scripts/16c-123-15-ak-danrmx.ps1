@@ -1,13 +1,4 @@
-﻿# Converted from: AK-DANRMX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/123-15/raw/AK-DANRMX.ANS
-# Source Revision: archive-sha256:39cd46aa66b81888c9d6e1f67d00b1ce1214c30f0218c42ae55e96cdc4550c9e
-# Source SHA-256: 3f7ed4afa3daa548444b98ad77b3b758117a6d869a6040cb204270f7f1acf385
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-DANRMX.ANS by Abstrakt (123-15); released in 123-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: AK-DANRMX.ANS by Abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-123-15-ak-danrmx
 
 Write-Host '
 [1;30m[0m

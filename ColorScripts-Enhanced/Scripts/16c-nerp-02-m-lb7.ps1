@@ -1,18 +1,4 @@
-﻿# Converted from: M-LB7.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-02/raw/M-LB7.ANS
-# Source Revision: archive-sha256:3fd9f194d865cfc24c90bdf11a27528d8d82a8ba9c376ebed567183a2f95a9f3
-# Source SHA-256: 462663dcf9cc1b0c04f6000ae663ed8408c89c2fe542dc182827316a29be2a5b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M-LB7.ANS by milkmang (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: lunchbox (7) screen
-# SAUCE Author: milkmang
-# SAUCE Group: nerp
-# SAUCE Date: 19971102
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: lunchbox (7) screen by milkmang | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-02-m-lb7
 
 Write-Host '
    [31m▀▐[0;1;31;41m▄[0;31m▀█▀[0;37m [0m    [31m▀█▌[0;37m [0m        [31m [0;37m [0;31m▀█▄▀█▌[0;37m  [0m

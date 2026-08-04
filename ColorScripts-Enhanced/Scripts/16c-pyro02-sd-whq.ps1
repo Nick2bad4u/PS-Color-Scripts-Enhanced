@@ -1,18 +1,4 @@
-﻿# Converted from: SD-WHQ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pyro02/raw/SD-WHQ.ANS
-# Source Revision: archive-sha256:535d22e2025d36e67624f8fb7beb22ccd3cf751884c55590454ec93afcc01bf4
-# Source SHA-256: 1aed01455eb4636d6d514c61ebc64d5e2e2e8e57719c78d56e91d0941f2adf20
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-WHQ.ANS by SHADDOW DWELLER (PYRO); released in pyro02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ACHERON BBS
-# SAUCE Author: SHADDOW DWELLER
-# SAUCE Group: PYRO
-# SAUCE Date: 19960428
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: ACHERON BBS by SHADDOW DWELLER | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pyro02-sd-whq
 
 Write-Host '
 [32mSD[0m   [1;32m▄[0;1;32;42m▓▒▒▒▒▒░[0m     [1;32m▄[0;1;32;42m▓▒▒░[0;32m▄[0;37m  [0;1;32;42m▓[0m           [1;32m▄[0;1;32;42m▓▒▒░[0m  [1;32m▄[0;1;32;42m▓▒[0;1;32;40m▄[0m [1;32m▄[0;1;32;42m▓▒▒▒░[0m   [32m [0;1;32m▄[0;1;32;42m▓▒▒░[0;32m▄[0m     [1;32m▄[0;1;32;42m▓▒▒░[0;32m▄[0m

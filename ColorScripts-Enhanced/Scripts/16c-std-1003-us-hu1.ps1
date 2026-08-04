@@ -1,18 +1,4 @@
-﻿# Converted from: US-HU1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/std-1003/raw/US-HU1.ANS
-# Source Revision: archive-sha256:582b3f82f4a3d47b1c26833c77407896da01487b1f93d28a71b2ea8de6ba3624
-# Source SHA-256: 14fc62bc803255f483ad212df0b976bf12fa0cdc045c6f98ff7d20f5f57803cc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-HU1.ANS by Aesthetic + Imodium (STD/Sense); released in std-1003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Hook-Ups #???
-# SAUCE Author: PEOPLE!
-# SAUCE Group: STD/Sense
-# SAUCE Date: 20031001
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Hook-Ups #??? by Aesthetic + Imodium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-std-1003-us-hu1
 
 Write-Host '
 [1;36m██[0;1;36;46m░░[0;36m█████[0;1;36;46m░▒▒░░[0;36m█[0;1;36;46m░░░[0;36m██[0;1;36;46m░░▒▒░░[0;36m█[0;1;36;46m░[0;36m█▀[0;31m▄█▀▄[0;1;31;41m░░[0;31m▀▀▄▄▄[0;1;31;41m░░[0;31m█▄[0;1;31m▄[0m▄[31m▄▄▀▀▀[0;1;31;41m░░[0;31m██▀▄▄▀▀▄[0;1;31m▄▄[0;31m█[0;1;31m▀[0;31m▀█▄▄▀▀█[0;1;31;41m▄▄[0;31m▄▀██[0m

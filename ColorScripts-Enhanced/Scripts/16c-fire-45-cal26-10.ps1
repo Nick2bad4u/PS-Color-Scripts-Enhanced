@@ -1,19 +1,4 @@
-﻿# Converted from: CAL26-10.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-45/raw/CAL26-10.ANS
-# Source Revision: archive-sha256:0564021806e0277d72a0e235c044a0e0470226ba860a8976e1e3092326555d1d
-# Source SHA-256: 36f58b8bea8fe56bb24610a0f98099c87fd776389f0c0608ad596df2130b8cc0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CAL26-10.ANS by nail (fire); released in fire-45 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Daniel Robitaille
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 20251224
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Daniel Robitaille by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-45-cal26-10
 
 Write-Host '
               [1;30;40m▀▄█▀░▀██▀▄▀▄▓▓▓▓▄▀█▀▄▀[0m [1;30m▀[0m  [1;30m▄▄▀▄[0m▒▒[1;30m▓░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MR-GLUE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira-007a/raw/MR-GLUE1.ANS
-# Source Revision: archive-sha256:ee5a82ac7f98955da25871045743238711285c6b7b62811e228512414e2f4a52
-# Source SHA-256: 18764cea03701935938ff23406fdea7695c1b5acb2c354a3dc89052b0bfd4443
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-GLUE1.ANS by Mr.Wrong (irato); released in ira-007a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Glue#!@
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: irato
-# SAUCE Date: 19981001
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Glue#!@ by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira-007a-mr-glue1
 
 Write-Host '
              [31m [0;37m [0;31m [0m               [31m▄[0;37m  [0;31m▀[0;37m [0;31m▄[0m         [31m▀ ▄[0;37m  [0;1;31m░[0;31m▄[0;37m [0;31m▀[0;37m  [0;31m  [0m   [31m [0;37m [0;31m▀[0m

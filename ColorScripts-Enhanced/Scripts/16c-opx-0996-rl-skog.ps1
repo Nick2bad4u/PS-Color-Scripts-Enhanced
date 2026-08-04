@@ -1,18 +1,4 @@
-﻿# Converted from: RL!-SKOG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0996/raw/RL!-SKOG.ANS
-# Source Revision: archive-sha256:9d2c16f2326b1b98168bc790edb6aadb0d52c5f6484964980e3ad8168b0cc77f
-# Source SHA-256: df51e3fa9666a4fe004531aadd27dfec33221c6d0ac53c9a4b116180c62772e5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL!-SKOG.ANS by rawlock (rl!) (opium); released in opx-0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: darkwood
-# SAUCE Author: rawlock (rl!)
-# SAUCE Group: opium
-# SAUCE Date: 19960831
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: darkwood by rawlock (rl!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0996-rl-skog
 
 Write-Host '
 [1;30m[0;1;37m[0m[1m[0;1;30m[0m[1m[0m[1m[0m[1;30m[0m[1;30;47m█[0;1;30;40m███[0;1;30;47m▀[0;1;30;40m█[0;1;30;47m▀[0;1;30;40m▀▀▓▀▀▀▀▀[0;1;30;47m▓[0;1;30;40m▀▀▀▀▓▀▀ ▓▀▀ ▓▀  ▀ ▀[0;1;31;40m [0;33m▄[0;1;31;43m░[0;1;31;40m███[0;1;31;43m▓[0;1;31;40m██[0;1;31;43m▓▄[0;1;31;40m▄[0;33m▄[0;1;31m [0;33m▀[0;1;31;43m▀▓[0;1;31;40m███████[0;1;31;43m▓▀[0;33m▀[0;1;31m [0;33m▄▄▄[0;1;31;43m░▄▓[0;1;31;40m███▀░░ ▀█[0;1;31;43m▓[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: VG-M00!!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roc-best/raw/VG-M00!!.ANS
-# Source Revision: archive-sha256:ed2172be4f351fbbe490297eada190fa8af16bee5a8ce8834dea50cd318904c2
-# Source SHA-256: 3ae70ca8b7d4309ebc293eba7b9da7bdce59323210a6dd331f434402ff9459eb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VG-M00!!.ANS by Voltage (ROC); released in roc-best and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: mOo!
-# SAUCE Author: Voltage
-# SAUCE Group: ROC
-# SAUCE Date: 19951002
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: mOo! by Voltage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roc-best-vg-m00
 
 Write-Host '
 [1m████████████▀[0m▄▄▀[1m▄█▄[0m▀█▄▄[1m▀███████████████████████████████[0;1;47m▓[0;1;40m████████████████████████[0m

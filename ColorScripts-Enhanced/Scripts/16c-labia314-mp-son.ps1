@@ -1,13 +1,4 @@
-﻿# Converted from: mp-son.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/labia314/raw/mp-son.ans
-# Source Revision: archive-sha256:704095869b71d0834bb8c83d90c0dddc7803f8a47b5046986cc14c14a7864134
-# Source SHA-256: 65b9c83d33ea9997f216670d0427c4ba9179346ca6f41c9fc6dfc10548bf407a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mp-son.ans by Meatpod (labia314); released in labia314 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: mp-son.ans by Meatpod | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-labia314-mp-son
 
 Write-Host '
 [31m$$[0;33m┘`[0;1;31m [0;33m,\[0;31m$$$b[0;33m.[0;1;31m [0m   ________[1m [0;1;31m        [0;31m  [0;33m.[0;31m┌%y┐[0;33m.[0;1;31m [0;33m`[0;31m$$$$$$$$$$$$$$$$$$$$P[0;33m`[0;1;37m [0m________ [31m$$$$$[0m

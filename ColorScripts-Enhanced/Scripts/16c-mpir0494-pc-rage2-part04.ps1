@@ -1,13 +1,4 @@
-﻿# Converted from: PC-RAGE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mpir0494/raw/PC-RAGE2.ANS
-# Source Revision: archive-sha256:5862390f6edcd9b66524f20968e4cd36fc2945a2b2dd3a46c0a7e7a65b56a72f
-# Source SHA-256: 97a04403378fad997cccd76821179fbb7a1c100ec623c6cc183dc0fd0fc6078a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-RAGE2.ANS by Primordial Chowder (mpir0494); released in mpir0494 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 131-171
-# Columns: 1-80
+﻿# Artwork: PC-RAGE2.ANS by Primordial Chowder | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mpir0494-pc-rage2-part04
 
 Write-Host '
 [37m█▀ ▄▀▀[0m     [37m▀[0m                       [1;32;42m░░[0;32m▌ [0;1;32;42m░░[0;32m▌[0m

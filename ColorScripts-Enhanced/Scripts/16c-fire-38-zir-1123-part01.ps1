@@ -1,19 +1,4 @@
-﻿# Converted from: ZIR-1123.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-38/raw/ZIR-1123.ANS
-# Source Revision: archive-sha256:be80154150e87c06a8a7199ad7b8d7442acd5427250f57c89a783b9de15c69d7
-# Source SHA-256: d425c79595a9a96280bb4ac43b5966b5048d713f75c77630e5718978251057f8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-1123.ANS by zir (FiRE); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: october 23 font collage
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20231031
-# SAUCE Dimensions: 80x130
-# SAUCE Font: IBM VGA
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: october 23 font collage by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-38-zir-1123-part01
 
 Write-Host '
 [37;40m  [0;31;40m░░░░░░░░░░░[0m

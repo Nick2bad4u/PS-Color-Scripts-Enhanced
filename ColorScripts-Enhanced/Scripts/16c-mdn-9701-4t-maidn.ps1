@@ -1,18 +1,4 @@
-﻿# Converted from: 4T-MAIDN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9701/raw/4T-MAIDN.ANS
-# Source Revision: archive-sha256:45d6a082bca05ad193b510335e91b0bec312e4835ff5735e0eb40fe62d0e1180
-# Source SHA-256: 7992de3050280cc2892d145fb99c2ffb4e1c15e6b4b3dd81d66980dcc2375606
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 4T-MAIDN.ANS by mr.4tune (phat/sargahd/bpr); released in mdn-9701 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: maiden logo
-# SAUCE Author: mr.4tune
-# SAUCE Group: phat/sargahd/bpr
-# SAUCE Date: 19961223
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: maiden logo by mr.4tune | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9701-4t-maidn
 
 Write-Host '
                                 [1;30m▄ █[0m

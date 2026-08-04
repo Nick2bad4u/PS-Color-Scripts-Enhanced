@@ -1,15 +1,4 @@
-﻿# Converted from: US-TI3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0297/raw/US-TI3.ANS
-# Source Revision: archive-sha256:ecfcd3f5cd2c4412c60edbfa5c15fbea724948a8a18d0e8a8931276c9082657e
-# Source SHA-256: 7c02c457bd4f7095c76a9920f8de1a1da4326230767dde0fed673489f3871b34
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TI3.ANS by Fusion + Defiant (root0297); released in root0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Twisted Images
-# SAUCE Author: Fusion & Defiant
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Twisted Images by Fusion + Defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0297-us-ti3
 
 Write-Host '
                    [33m▐[0;1;33m▓[0;1;33;43m█████▓█▓▓▒▒▒░░░ ░         [0;1;31;43m▄▄▄▄▄▄[0;1;31;44m████████████████████[0;1;31;47m▓▓[0m▄ [1;30m▀▓[0m

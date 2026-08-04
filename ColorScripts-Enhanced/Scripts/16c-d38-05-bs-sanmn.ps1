@@ -1,18 +1,4 @@
-﻿# Converted from: BS-SANMN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-05/raw/BS-SANMN.ANS
-# Source Revision: archive-sha256:eb0948671797309554c3545cf502cce8943191f153468011a76cca894133dc0a
-# Source SHA-256: 5f2a4e7013a4ec09ac94cac9bfc32734dc782122d00a79b569cc6664aa71263b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-SANMN.ANS by Blind Sniper (Department 38); released in d38-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: It helps pays the bills :)
-# SAUCE Author: Blind Sniper
-# SAUCE Group: Department 38
-# SAUCE Date: 19970319
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: It helps pays the bills :) by Blind Sniper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-05-bs-sanmn
 
 Write-Host '
 [31m▄█[0m   [1;37m  [0;1;31m▄[0;1;31;41m▄■[0;31m▀▀■[0;1;37m    [0m     [1m [0m    [31m   [0;1;37m [0m [31m██[0;37m  [0;31m▄▄▄▄[0m          [37m    [0;32m [0;1;32m▄■[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: cs-colly.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_resvolution/raw/cs-colly.ans
-# Source Revision: archive-sha256:d0690af9ec91bf96f335196e9f9ddfb5d7ea02d97d300b53301bebaf58d83c35
-# Source SHA-256: f54fc06b9f43ed79a39c338c01de810b03f925e59a52d55b3b6d2fc0a8e582f8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cs-colly.ans by Capsone (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 23-57
-# Columns: 1-80
+﻿# Artwork: cs-colly.ans by Capsone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-resvolution-cs-colly-part02
 
 Write-Host '
     [1;30m░ ▓ [0;36m    [0;1;30m░[0m         [1;30m░[0m     [1;30m░[0m      [36m▄[0;1;36;46m░▓▓[0;36m█▄ ▐[0;1;36;46m▒▓[0;36m▄ [0;1;30m░[0m        [1;30m░[0m      [1;30m░[0;36m   [0;1;30m [0;36m [0;1;30m░[0m     [32mcS.[0m

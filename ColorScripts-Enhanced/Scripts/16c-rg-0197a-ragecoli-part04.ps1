@@ -1,13 +1,4 @@
-﻿# Converted from: RAGECOLI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rg-0197a/raw/RAGECOLI.ANS
-# Source Revision: archive-sha256:4bc27325d13f712edf2110cd11717d490f6bde1cd8827262e7c1b1224b0317e9
-# Source SHA-256: c5a94af6bc62a95eb3145ad84ce5b34df09aa564335566e795cc2c4c8d854fd1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RAGECOLI.ANS by Blizzard (rg-0197a); released in rg-0197a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 125-164
-# Columns: 1-80
+﻿# Artwork: RAGECOLI.ANS by Blizzard | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rg-0197a-ragecoli-part04
 
 Write-Host '
   ▄█[1;47m░[0m▄[1;47m▒[0;1;40m [0;1;47m▓[0;1;40m▌ [0m▀█[1;47m░░░[0m▄[1m▀[0;1;47m▓▓▓[0;1;40m ▄▄▄[0;1;47m▓▓[0;1;40m█[0;1;47m▓▓[0;1;40m▌ [0;1;47m▒░▒[0;1;40m▌ ▀▀███▓▓▓▓████▀▄▄█▓▓▓▓ [0;1;31;40m███████▄▄▀[0;1;31;43m▓[0;1;31;40m███[0;1;31;43m▓▒░░[0m

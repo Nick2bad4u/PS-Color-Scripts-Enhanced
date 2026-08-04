@@ -1,18 +1,4 @@
-﻿# Converted from: BL-STATS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hmd-0596/raw/BL-STATS.ANS
-# Source Revision: archive-sha256:007cf20a9aa57d5d99dfb8c9358a1ee2655dec0d44a24783ba170b5b1d6d4cba
-# Source SHA-256: 54ef45e0fd087e05e1d893d2a92dbca57ccc9cabcaa0ab952003d35bb3db7561
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BL-STATS.ANS by bloodlore (humid); released in hmd-0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: user stats
-# SAUCE Author: bloodlore
-# SAUCE Group: humid
-# SAUCE Date: 19960508
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: user stats by bloodlore | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hmd-0596-bl-stats
 
 Write-Host '
                     [1m▄▄▓████[0;1;47m▓▒░[0m█  [1;33m [0;1;31m███████▀█████████████████▀▀▄▄▓▄██████████▄ ▓██[0m

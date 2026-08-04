@@ -1,15 +1,4 @@
-﻿# Converted from: ZP-PROMO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jive0996/raw/ZP-PROMO.ANS
-# Source Revision: archive-sha256:6b7d48e396de55126b3ae9c64ca3a6e3836b2eee40f86ad76fd1706353435055
-# Source SHA-256: 537d339704deabf72a2e77b7882c725e2a0fbe04cc5f9721c90c0e31f110d59e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZP-PROMO.ANS by Zippy (jive0996); released in jive0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Sod JiVE whq
-# SAUCE Author: Zippy
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Sod JiVE whq by Zippy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jive0996-zp-promo
 
 Write-Host '
                                         [35m  [0m

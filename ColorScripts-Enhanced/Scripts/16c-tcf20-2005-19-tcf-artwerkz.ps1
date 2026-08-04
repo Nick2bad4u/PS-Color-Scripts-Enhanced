@@ -1,13 +1,4 @@
-﻿# Converted from: 2005 - 19 - TCF - ArtWerkz.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tcf20/raw/2005%20-%2019%20-%20TCF%20-%20ArtWerkz.ans
-# Source Revision: archive-sha256:af8609219fccc484668fb405a7f1d45efb8c574501a461c5c1b47d87a12921ce
-# Source SHA-256: 40ede0703b40716f84e386d01d8825907b98af75f7b1da8812f83ac0a032876c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2005 - 19 - TCF - ArtWerkz.ans by The Creep Fever (tcf20); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: 2005 - 19 - TCF - ArtWerkz.ans by The Creep Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tcf20-2005-19-tcf-artwerkz
 
 Write-Host '
            [1;36m-[0m [34m ░░░░  ░░░  ░░   ░░░░ [0;1;36m-[0;34m ░░ [0;37m [0;1;36m-[0m [1;36m-(:Vii[0;1;37;46mX2[0;1;36;40m [0;1;37;40mArtw3rkz[0;1;36;40m:)-[0m [1;36m-[0m   [34m░░[0;1;36m-[0;34m░░░░░[0;37m  [0;1;36m-[0m

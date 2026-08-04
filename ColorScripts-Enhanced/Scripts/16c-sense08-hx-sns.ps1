@@ -1,18 +1,4 @@
-﻿# Converted from: HX-SNS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense08/raw/HX-SNS.ANS
-# Source Revision: archive-sha256:1d55361966cfda352bce5be646cc961ad2fc811d088c34eafc09b3e17df065a4
-# Source SHA-256: 6ad7843fed20273853800ab9a7f6789d2d0853cc935e7c03d5b987865609f9a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HX-SNS.ANS by HeXD (Sense); released in sense08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Da Beeg Ess...
-# SAUCE Author: HeXD
-# SAUCE Group: Sense
-# SAUCE Date: 19980415
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Da Beeg Ess... by HeXD | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense08-hx-sns
 
 Write-Host '
 [1m█▀▀▀▀[0;1;36m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;37m▀▀▀▀▀▀▀▀▀▀▀[0;32m▀▀▀▀█[0m

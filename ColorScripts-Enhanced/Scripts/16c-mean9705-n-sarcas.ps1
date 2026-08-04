@@ -1,18 +1,4 @@
-﻿# Converted from: N-SARCAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mean9705/raw/N-SARCAS.ANS
-# Source Revision: archive-sha256:96235d9849bffd6005b05e894c29f6b67b3d4c051090948bf653b689870cae3a
-# Source SHA-256: c26ab52450d324bf8d6faa3db90f50efdfc0fd72d2b0606058bf87388d5864ae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-SARCAS.ANS by nail (mean scheme); released in mean9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: sarcasm
-# SAUCE Author: nail
-# SAUCE Group: mean scheme
-# SAUCE Date: 19970419
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: sarcasm by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mean9705-n-sarcas
 
 Write-Host '
 [31m             [0;37m [0;31m▄░░[0;37m  [0;31m [0;37m░░▄[0;31m [0;34m [0;31m  [0;1;34m▄▄[0;34m  ▄[0;1;34m▄[0;34m▄[0;37m  [0;34m▄[0;1;34m▄[0;34m▄[0;37m [0;34m                                     ▀▌[0m

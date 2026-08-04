@@ -1,13 +1,4 @@
-﻿# Converted from: NV-CIRCL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fi-1194/raw/NV-CIRCL.ANS
-# Source Revision: archive-sha256:c5c78143754003a29c9176acbc9c5704b0def0a026c0746890b16cf468794665
-# Source SHA-256: a5633f6582dca0bf0976fdbcbd2cd14287750abc515a164bd2077efb06331f15
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NV-CIRCL.ANS by Nevermind (fi-1194); released in fi-1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 48-93
-# Columns: 1-80
+﻿# Artwork: NV-CIRCL.ANS by Nevermind | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fi-1194-nv-circl-part02
 
 Write-Host '
 [1;30;47m▒▒▒▓▓[0;1;30;40m▀▀▄[0;1;30;47m▓▓▓[0;1;30;40m▓▒[0;33m█[0;33;41m██▓▓▓▒▒▒▒▒▒▒▒▒▒▒░░░░░    [0m [31;40m▐██████████ [0;33;40m██ ██████ ██████▓▓▓▓▓▓▓▓[0m

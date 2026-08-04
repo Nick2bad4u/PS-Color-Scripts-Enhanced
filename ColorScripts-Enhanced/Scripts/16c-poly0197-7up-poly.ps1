@@ -1,18 +1,4 @@
-﻿# Converted from: 7UP_POLY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/poly0197/raw/7UP_POLY.ANS
-# Source Revision: archive-sha256:0dc93d303fdffb2cd4f8fd08f518bca63acef8c03b9330bd99d973dfee799740
-# Source SHA-256: 4f82ee6c223771691b17fe4e2ef063d9409b0a9606fa529bdd7483b7f06ed9f9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 7UP_POLY.ANS by uniquePHREAK (polyester); released in poly0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: poly wanted a cracker
-# SAUCE Author: uniquePHREAK
-# SAUCE Group: polyester
-# SAUCE Date: 19961231
-# SAUCE Dimensions: 80x23
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: poly wanted a cracker by uniquePHREAK | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-poly0197-7up-poly
 
 Write-Host '
 

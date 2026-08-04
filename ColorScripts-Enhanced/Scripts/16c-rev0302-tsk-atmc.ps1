@@ -1,18 +1,4 @@
-﻿# Converted from: TSK-ATMC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0302/raw/TSK-ATMC.ANS
-# Source Revision: archive-sha256:7b2619e0400d7382d19d38767873337eae71942dd319abc1998c71f4a968776f
-# Source SHA-256: e8f151087738d82f4dc1a139dfbaf9a48f4155b3b279d18533ba1fbc300d7e4a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-ATMC.ANS by The Silent Killer (Revival 2002); released in rev0302 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Atomic
-# SAUCE Author: The Silent Killer
-# SAUCE Group: Revival 2002
-# SAUCE Date: 20020314
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Atomic by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0302-tsk-atmc
 
 Write-Host '
 

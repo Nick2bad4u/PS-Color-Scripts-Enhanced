@@ -1,18 +1,4 @@
-﻿# Converted from: DS-MTX02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mtx-05a/raw/DS-MTX02.ANS
-# Source Revision: archive-sha256:6817231a1a44144352ea5d83b821e68df522e7d25303f99959f877f5bbbaf996
-# Source SHA-256: 21b210e1d59ff68d45dabfa67b4b63cc12efe09e89c2c52879495cd289e91ec8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-MTX02.ANS by Darkside (MATRiX); released in mtx-05a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Matrix Logo #02
-# SAUCE Author: Darkside
-# SAUCE Group: MATRiX
-# SAUCE Date: 19951017
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Matrix Logo #02 by Darkside | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mtx-05a-ds-mtx02
 
 Write-Host '
                      ▄▄▄        ▄▄▄▄▀▀▀▀▀▀[1;30m▄▄[0m▄▄                   [1;32m   [0m

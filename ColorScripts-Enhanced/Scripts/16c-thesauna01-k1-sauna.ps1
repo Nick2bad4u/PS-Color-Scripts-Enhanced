@@ -1,19 +1,4 @@
-﻿# Converted from: k1-sauna.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna01/raw/k1-sauna.ans
-# Source Revision: archive-sha256:70f712dbf565de1ceb0f2b7020b54aa443621235a47b082b92e24e13342b0672
-# Source SHA-256: 8b04e2be166a5ca60674ee87c1d863212fc2bb8ed3363b00f87066da8e2b0fb8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: k1-sauna.ans by knocturnal (SAUNA); released in thesauna01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: So Anyway, Ung's Not Allowed!
-# SAUCE Author: knocturnal
-# SAUCE Group: SAUNA
-# SAUCE Date: 20190831
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: So Anyway, Ung's Not Allowed! by knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna01-k1-sauna
 
 Write-Host '
 [37;40m .■▀▀▀[0;1;37;40m▀[0m▀[1m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▀[1m▀[0m▀▀▀■.

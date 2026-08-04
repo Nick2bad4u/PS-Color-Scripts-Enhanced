@@ -1,17 +1,4 @@
-﻿# Converted from: SPD!NCD2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ncd0397/raw/SPD!NCD2.ANS
-# Source Revision: archive-sha256:279b79a24916a8da9fdbbf933292cd4026cd3832fca43ab7f735b3c3ea1fd603
-# Source SHA-256: 557f12528903dc9e7c644b13113066f91a7a0ea2d46df350528bf7fe6ba4412f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPD!NCD2.ANS by spud (ncd0397); released in ncd0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: like a fucking plant
-# SAUCE Author: spud
-# SAUCE Date: 19970218
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: like a fucking plant by spud | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ncd0397-spd-ncd2
 
 Write-Host '
    [33m ▄▄▄▄▄█▀▀▀▀▀█[0;37;43m░[0;31;43m░[0;33;40m▓███▀▀██[0;37;43m░[0;31;43m░[0;33;40m█▀▀▀▀▀▀▀▀▓▀█[0;37;43m░[0;33;40m██[0;31;43m░░[0;33;40m█▓[0;31;43m░░[0;1;33;43m░░[0;43m░[0;33;40m▓█[0;31;43m░[0;33;40m▓▀▀▀▀▀▀▀▀▀█[0;31;43m░[0;37;43m░[0;1;33;43m░░[0;43m░[0;33;40m█▀▀▀▀█[0;31;43m░[0;33;40m█▄[0m

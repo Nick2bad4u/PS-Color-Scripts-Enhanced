@@ -1,18 +1,4 @@
-﻿# Converted from: J-TEC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/5th-9701/raw/J-TEC.ANS
-# Source Revision: archive-sha256:4f91e0f396f05128ca3a4b19191b45ca21644658a04c7337a8b354546e2c1a2a
-# Source SHA-256: e56115ab22fa75069d429ada3793e1c65cad868e3250ac4b1415556a4e83bf61
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: J-TEC.ANS by Harddisk + Lightning Knight ((the 5th..)); released in 5th-9701 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the electric cube
-# SAUCE Author: joint
-# SAUCE Group: (the 5th..)
-# SAUCE Date: 19970519
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: the electric cube by Harddisk + Lightning Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-5th-9701-j-tec
 
 Write-Host '
 [1;30m   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

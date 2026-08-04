@@ -1,18 +1,4 @@
-﻿# Converted from: YA-NL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nland-05/raw/YA-NL2.ANS
-# Source Revision: archive-sha256:9ecedfce350729554c325e3fa16a28f24118d9cc4a114d7d310d9ef56e778218
-# Source SHA-256: 428be206b6c909e90f500c9b0744aed0e8c3ff609498cf477f613547b402175c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: YA-NL2.ANS by Yasop (NeveRLanD People); released in nland-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Nland logo
-# SAUCE Author: Yasop
-# SAUCE Group: NeveRLanD People
-# SAUCE Date: 19960317
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Nland logo by Yasop | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nland-05-ya-nl2
 
 Write-Host '
                                                                [35m▄█▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: GHOST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansi/raw/GHOST.ANS
-# Source Revision: archive-sha256:50aaa63d173fc2f34f94b8a5b526a5ee8a8b9d7908c42264ab949073e7e0edf9
-# Source SHA-256: cf013365084066de5ab7688408719a63beea06f7bcad7d673c09b5dfd61b69d3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GHOST.ANS by Ghostcomm (ansi); released in ansi and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: GHOST.ANS by Ghostcomm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansi-ghost
 
 Write-Host '
                                       [1;33;40m██▄[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: wa-taco-pronto.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz18/raw/wa-taco-pronto.ans
-# Source Revision: archive-sha256:32d30452c4c99022fae4fa2ce9a2923ef46629d3ff7dd35a972944a991699c1f
-# Source SHA-256: 218df79be869d2cb80096d406f2d691fd371469e6a89668814be286446eb3c60
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-taco-pronto.ans by warpus (LAZARUS); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: TACO PRONTO
-# SAUCE Author: warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20231127
-# SAUCE Dimensions: 80x30
-# SAUCE Font: IBM VGA
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: TACO PRONTO by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz18-wa-taco-pronto
 
 Write-Host '
 

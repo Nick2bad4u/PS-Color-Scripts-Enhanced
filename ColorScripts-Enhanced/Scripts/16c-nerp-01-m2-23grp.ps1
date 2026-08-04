@@ -1,18 +1,4 @@
-﻿# Converted from: M2-23GRP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-01/raw/M2-23GRP.ANS
-# Source Revision: archive-sha256:c4f943c9f8f5c49a2aabdd3612f9f26bd1b04de18aa8de6e38c69a3051111537
-# Source SHA-256: 1f7b9f1c1a84792da0b49044c306b9dc869649fed2b0e51e7673c98aefc5f099
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M2-23GRP.ANS by milkman (nerp); released in nerp-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: grape 23line stat screen
-# SAUCE Author: milkman
-# SAUCE Group: nerp
-# SAUCE Date: 19970714
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: grape 23line stat screen by milkman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-01-m2-23grp
 
 Write-Host '
 [31m░[0;30;41m▓[0;37;40m  [0;30;41m░[0;37;41m [0;31;47m▓░[0;37;41m█[0;31;40m▌▐[0;37;41m██[0;31;47m░[0;37;41m░[0;31;47m▓[0;37;41m  ░[0;31;47m▓[0;37;41m  [0;31;40m██████████████▀▀▀▀[0m

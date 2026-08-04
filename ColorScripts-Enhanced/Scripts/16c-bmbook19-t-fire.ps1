@@ -1,18 +1,4 @@
-﻿# Converted from: t-fire.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook19/raw/t-fire.ans
-# Source Revision: archive-sha256:3dd762b50e992d041fc40857f6a08666cf879c80169b27b714b162069a52b736
-# Source SHA-256: ac2069771158bc121bd99dc9da3acb5be4d1f1d7c41ffc57a9c39745f91b3dac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: t-fire.ans by toot (black maiden); released in bmbook19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fire
-# SAUCE Author: toot
-# SAUCE Group: black maiden
-# SAUCE Date: 19981003
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: fire by toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook19-t-fire
 
 Write-Host '
            [31m▄[0;1;31m▄[0m▄▄[1m▄[0m▄▄[1;31m▄[0;31m▄[0m      [31m░░░[0m   [31m░░▓▓[0;1;31;41m██▄[0;31m▄ [0m     [31m ░░░░ [0m

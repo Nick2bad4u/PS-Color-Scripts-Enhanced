@@ -1,18 +1,4 @@
-﻿# Converted from: WA-J.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz09aug/raw/WA-J.ANS
-# Source Revision: archive-sha256:3e0bd3039fe877b3970f71e80b4456ee60793f2295ae127a50a6587b17c2d6a2
-# Source SHA-256: 264cc828c6ea4831b2e5a4151dc21f5454de4ffd809965c704fd5f8586b4f302
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WA-J.ANS by warpus (lazarus); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: j
-# SAUCE Author: warpus
-# SAUCE Group: lazarus
-# SAUCE Date: 19970709
-# SAUCE Dimensions: 80x32
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: j by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz09aug-wa-j
 
 Write-Host '
 [34m[0m[34m[0;37m[0;34m[0;37m[0;34m[0m                                           [34m  [0m

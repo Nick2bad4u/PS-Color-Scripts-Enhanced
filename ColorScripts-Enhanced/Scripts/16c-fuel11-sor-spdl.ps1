@@ -1,18 +1,4 @@
-﻿# Converted from: SOR-SPDL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel11/raw/SOR-SPDL.ANS
-# Source Revision: archive-sha256:bc01376bbeb692c1fce16796b92a6fd889f89dbf4c55eb291719d5ea3fd5846c
-# Source SHA-256: b5eca5be7c86d092b7d330879ee46cb299949fa229fad9be806d608b77262c2a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SOR-SPDL.ANS by Spirit of Rage (Fuel); released in fuel11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Speedloader
-# SAUCE Author: Spirit of Rage
-# SAUCE Group: Fuel
-# SAUCE Date: 19970213
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Speedloader by Spirit of Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel11-sor-spdl
 
 Write-Host '
 [1m■[0m loading[1;30m... [0m      [30;43m▓▓[0;37;40m   [0m      [1;30;40m▄[0m          [35m░[0;30;45m▓[0;37;40m [0;1;30;40m [0m [1;30m          [0m  [30;44m▓▓[0m   [37;40m [0m          [35;40m░[0;30;45m▓[0;37;40m   [0m

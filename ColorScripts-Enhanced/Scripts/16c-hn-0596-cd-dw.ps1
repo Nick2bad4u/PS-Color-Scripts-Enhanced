@@ -1,15 +1,4 @@
-﻿# Converted from: CD-DW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hn-0596/raw/CD-DW.ANS
-# Source Revision: archive-sha256:341a7655c96a6dc0a8dbd297753a4c8350c669bd3952e121f4d23870d0eda7fc
-# Source SHA-256: f4f036e1a28462ebdb1b59e3788082be4e5f411a031f704a32e48f77fc1104c3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CD-DW.ANS by Comrade (hn-0596); released in hn-0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 19960317
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: CD-DW.ANS by Comrade | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hn-0596-cd-dw
 
 Write-Host '
 [1;30;43m▀[0;33m██▀[0;1;30m ▄▄▄▄▄▄▄  ▄▄▄▄▄ ▄▄▄▄▄  ▄▄▄[0m         [1;30m▄▄▄[0;1;30;43m▀▀▀▀[0;1;30;40m▄▄[0m [33m▀█████[0;1;33;43m▀██[0;33m███[0;1;30m█ [0;1;33;43m     ░░   ██  [0;1;30;40m█[0m [33m█[0m

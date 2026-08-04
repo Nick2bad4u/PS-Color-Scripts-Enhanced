@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-DWPN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-38/raw/ZIR-DWPN.ANS
-# Source Revision: archive-sha256:be80154150e87c06a8a7199ad7b8d7442acd5427250f57c89a783b9de15c69d7
-# Source SHA-256: 0a2484d5f1647092457fec7b5f0ca105abb6ae20fe61b4710c5c25c005063f58
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-DWPN.ANS by zir (FiRE); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: dream weapon engage
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20231027
-# SAUCE Dimensions: 80x248
-# SAUCE Font: IBM VGA
-# SAUCE Comments: "now is the time to relaunch the dream weapon" | -- jhonn balance
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: dream weapon engage by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-38-zir-dwpn-part02
 
 Write-Host '
  [30;41m       [0;1;31;41m▌[0;31;44m▌▐[0;30;41m [0;1;34;41m░░░░[0;30;41m [0;1;34;41m░[0;1;31;41m▄■▀·[0;31;44m▀▀▀[0;34;40m▀▀[0;37;40m    [0;34;40m░█[0;31;44m▀▄▓███  [0;30;41m▀[0;31;44m▓▀[0;30;41m█[0;31;44m▓[0;30;41m██[0;31;44m░▓[0;30;41m [0;31;40m██[0;31;44m▄▀▀▄■[0;34;40m▀[0;30;41m███[0;1;34;41m░[0;30;41m███[0;37;40m [0;34;40m░[0;1;34;44m░[0;1;34;46m▓[0;1;32;46m░▓[0;1;36;46m█▓▓▓[0;1;32;46m■░[0;36m█[0m

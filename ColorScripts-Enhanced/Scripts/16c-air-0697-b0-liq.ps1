@@ -1,18 +1,4 @@
-﻿# Converted from: B0-LIQ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/air_0697/raw/B0-LIQ.ANS
-# Source Revision: archive-sha256:5cd3011ba297092d80d79117f4d787f8ea3f225f068d30fcf0de8461325ab083
-# Source SHA-256: 58c3bcb3c9b3aea1f87e875ebf2cd30e2ef33d9431de37d77cb19c53efc7aa51
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: B0-LIQ.ANS by bOmb (air); released in air_0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: liQuid_logo
-# SAUCE Author: bOmb
-# SAUCE Group: air
-# SAUCE Date: 19970531
-# SAUCE Dimensions: 80x22
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: liQuid_logo by bOmb | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-air-0697-b0-liq
 
 Write-Host '
                           [1;35m°[0m                                 [1;35m°[0m

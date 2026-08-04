@@ -1,18 +1,4 @@
-﻿# Converted from: XK!BGG!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-27/raw/XK!BGG!.ANS
-# Source Revision: archive-sha256:268d6733492cd762a602dad2d82b4950aab62a1c27ccd388f9e4fd4220a519e2
-# Source SHA-256: 023a17946b36ba4f900be58216a3a095d43db2a729a135512ad17061dda40151
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XK!BGG!.ANS by xk (secular); released in sclr-27 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: "boo-ga-ga! ;))))"
-# SAUCE Author: xk
-# SAUCE Group: secular
-# SAUCE Date: 20020514
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: "boo-ga-ga! ;))))" by xk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-27-xk-bgg
 
 Write-Host '
 ------------------------[1;30m▼[0m-----------------------------[1;30m▲[0m----------- [32m ┴┴┴┴[0;37m  [0;1;30m┴┴┴┴┴┴[0m

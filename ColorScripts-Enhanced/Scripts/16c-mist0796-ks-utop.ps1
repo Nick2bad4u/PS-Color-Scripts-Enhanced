@@ -1,17 +1,4 @@
-﻿# Converted from: KS!-UTOP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0796/raw/KS!-UTOP.ANS
-# Source Revision: archive-sha256:c6091a02ddb09590f7622dd7eb72ef185587f7a5bb6fa4e0b101ceb8692a7479
-# Source SHA-256: a1ed2e43c7dccb26a91d14b616902acb651a531c415375d06aa96b0d15d09d5d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KS!-UTOP.ANS by KesTrel (mist0796); released in mist0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Utopia Banished
-# SAUCE Author: KesTrel
-# SAUCE Date: 19960714
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Utopia Banished by KesTrel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0796-ks-utop
 
 Write-Host '
 [33m▄[0;1;33;43m [0;33m█▀▄[0;1;33;43m░[0;33m▀▀▀ ▀▀▀▀▀[0;37m [0;1;31m▄[0;1;31;43m▓▓[0m  [33m▀[0;1;33;43m▀[0;1;33;40m███[0;1;33;47m▓▓[0;1;33;40m█████████ [0;33m▀██[0;1;33;47m▓[0;1;33;40m▌[0;34m▐[0;1;33;44m [0;34m█[0m

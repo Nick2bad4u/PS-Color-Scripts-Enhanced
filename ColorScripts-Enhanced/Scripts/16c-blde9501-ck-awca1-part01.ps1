@@ -1,18 +1,4 @@
-﻿# Converted from: CK-AWCA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9501/raw/CK-AWCA1.ANS
-# Source Revision: archive-sha256:b1772fca22e891c01e8e9e257aaf3c83adfc1e91301c701659f30e77d41f63a6
-# Source SHA-256: e7bc82a912f99f7486b2a0a73fc6c09bf8fe4bafeb88ba61d8ea69abc65aa409
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CK-AWCA1.ANS by Chromatik (Blade Productions); released in blde9501 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: A Wind Called Amnesia
-# SAUCE Author: Chromatik
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19950106
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: A Wind Called Amnesia by Chromatik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9501-ck-awca1-part01
 
 Write-Host '
                                                       [1;30;40m░[0m

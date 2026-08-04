@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-NOCT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-12/raw/TNA-NOCT.ANS
-# Source Revision: archive-sha256:5c96c14e912296494a464a42e768321452d811693cf172945a9502eb4396c8bb
-# Source SHA-256: 27d63a54228947cdb06ab52860cae768f17ad5fabaca1944ccf9230d7a1498b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-NOCT.ANS by The Night Angel (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Nocturne
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970914
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Nocturne by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-12-tna-noct
 
 Write-Host '
                              [1;30m▄▄[0m

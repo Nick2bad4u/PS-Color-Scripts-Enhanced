@@ -1,13 +1,4 @@
-﻿# Converted from: BZ-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot597a/raw/BZ-FIRE.ANS
-# Source Revision: archive-sha256:f07656877106ee0a7da9f62e6293f74b4fe05cabd2e4ce82e7596d9ee3038c18
-# Source SHA-256: 23bde1979a3002a8180ec3dcdb3e196070c71529fa37ebcb22c6616751ae5210
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BZ-FIRE.ANS by Blaze-Riot (riot597a); released in riot597a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: BZ-FIRE.ANS by Blaze-Riot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot597a-bz-fire
 
 Write-Host '
 [1;30m░▒▓░▓░▒▓██░▒▓░▒░░▓▒░▒░▒▓▓░█▒░░▒░█▄  [0;31mSYs0p-CHat [0;1;30m▄░▒▓██▒░▒▓█░██░░▒▓█▓█░▒░▒█░███▓▒░[0m

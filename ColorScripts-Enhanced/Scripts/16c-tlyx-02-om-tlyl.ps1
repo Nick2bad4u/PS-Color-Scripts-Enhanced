@@ -1,18 +1,4 @@
-﻿# Converted from: OM!TLYL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tlyx-02/raw/OM!TLYL.ANS
-# Source Revision: archive-sha256:5be827fd8360154e102dfb33069eaf59095f4aa613d34e99209bba2cc4af4760
-# Source SHA-256: 53a2a256791b889b2ab612d2abb67dad45cccd66faec4b067278b1b88ee3b4bf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OM!TLYL.ANS by otium man (triloxy); released in tlyx-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: triloxy logo (gamma on)
-# SAUCE Author: otium man
-# SAUCE Group: triloxy
-# SAUCE Date: 19971129
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: triloxy logo (gamma on) by otium man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tlyx-02-om-tlyl
 
 Write-Host '
 

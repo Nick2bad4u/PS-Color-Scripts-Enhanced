@@ -1,13 +1,4 @@
-﻿# Converted from: HYDROGEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acid_e-k/raw/HYDROGEN.ANS
-# Source Revision: archive-sha256:39f65f593445c52be7979397cf597377ab7883bc6e967f4cf6ca51c15e64aa37
-# Source SHA-256: 168679eaab259eed266762e95c6ba8ac4b5e2bbd5b6587dc89c382ea4ed1d520
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HYDROGEN.ANS by The Malevolent Trickster (acid_e-k); released in acid_e-k and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: HYDROGEN.ANS by The Malevolent Trickster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acid-e-k-hydrogen-part01
 
 Write-Host '
 [1;30m▐▓▓▒[0m        [1;30m░░░▒▒▒▒▒▒▒▒▒░░▄▄░░░░░[0m                   [1;30m░░░░ ░░ ░  ░░░░░░▒▒▒▒▒░▓▒▓▄[0m

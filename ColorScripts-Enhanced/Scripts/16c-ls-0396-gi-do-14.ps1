@@ -1,18 +1,4 @@
-﻿# Converted from: GI-DO_14.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ls-0396/raw/GI-DO_14.ANS
-# Source Revision: archive-sha256:027827aba2a8182d830f3ad2fb41dbb22eb3c3bf864eed4898dd3e30e7ae3a86
-# Source SHA-256: f414955db148b0acc7e71be2d49be6808d92e6840eb7a1a105b2bf2a5312c772
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GI-DO_14.ANS by giger (leper society); released in ls-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: dominion ad xiv
-# SAUCE Author: giger
-# SAUCE Group: leper society
-# SAUCE Date: 19960219
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: dominion ad xiv by giger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ls-0396-gi-do-14
 
 Write-Host '
  [32m  [0;37m [0;32m          [0m         [32m      [0m    [32m▄▄█▓▄▄▀[0m        [32m░▀[0;37m [0;32m▄▄ ▄▄▀[0;37m  [0;32m■▄[0m    [32m▄[0m   [32m░[0;37m [0;32m▀▀▄[0m   [32m▓█[0m

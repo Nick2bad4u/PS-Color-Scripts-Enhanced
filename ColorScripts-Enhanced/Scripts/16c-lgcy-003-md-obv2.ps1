@@ -1,20 +1,4 @@
-﻿# Converted from: md-obv2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-003/raw/md-obv2.ans
-# Source Revision: archive-sha256:44a26aad0e8691f16e2777283660069b61e5916234397869961a696ba22e89f6
-# Source SHA-256: 2298697ff8749e51b39d0d0c6df75dba3551d36aa78bae0d0773b19e7fd01cdd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: md-obv2.ans by MadDog (Legacy Krew); released in lgcy-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: OBV/2 logo
-# SAUCE Author: MadDog
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20201214
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: OBV/2 never dies
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: OBV/2 logo by MadDog | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-003-md-obv2
 
 Write-Host '
 [1;30;40m██▌██████████████████████████▀████▌███████▀███████▀[0m [1m▄█▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▄▄[0m [1;30m███▀████[0m

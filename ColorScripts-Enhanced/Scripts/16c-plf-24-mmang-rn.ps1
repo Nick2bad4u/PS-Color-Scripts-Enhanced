@@ -1,17 +1,4 @@
-﻿# Converted from: MMANG-RN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-24/raw/MMANG-RN.ANS
-# Source Revision: archive-sha256:1abe9f6471c193297993f6102a7f1d53cb9b9b48e63d2981eff0aa9f03e28396
-# Source SHA-256: b4e1f88f155244ff8b733b9145ba4218b76ef610067a5e703014a855ab764920
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MMANG-RN.ANS by milkmang 1979 (plf-24); released in plf-24 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ronin, fuckeveryonewhodidn'tcare
-# SAUCE Author: milkmang 1979
-# SAUCE Date: 20000720
-# SAUCE Dimensions: 80x23
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: ronin, fuckeveryonewhodidn'tcare by milkmang 1979 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-24-mmang-rn
 
 Write-Host '
                              [1;30;45m█▀[0;35m▄▄▄  [0m

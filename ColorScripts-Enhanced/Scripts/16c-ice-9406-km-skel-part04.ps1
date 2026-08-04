@@ -1,13 +1,4 @@
-﻿# Converted from: KM-SKEL.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9406/raw/KM-SKEL.ICE
-# Source Revision: archive-sha256:194d4a4a0903a2cc8722a81bc3639c830c7f3bfe7013fc97a315f42a94ec7013
-# Source SHA-256: a50303f37f23b74ae079eb99dfea6a5afe7a2a638d307127bf5db942b3da2d44
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KM-SKEL.ICE by King Midas (ice-9406); released in ice-9406 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 140-184
-# Columns: 1-80
+﻿# Artwork: KM-SKEL.ICE by King Midas | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9406-km-skel-part04
 
 Write-Host '
 [1;34m███████▓███▓█████████████▓█████▓████████████ [0;31m▀ [0;1;34m▓█▄ [0;31m▀[0;1;31;41m░░[0;31m▀  [0;1;31m▀[0;31m█▀ [0;1;34m██████▓███▓██████▌[0m

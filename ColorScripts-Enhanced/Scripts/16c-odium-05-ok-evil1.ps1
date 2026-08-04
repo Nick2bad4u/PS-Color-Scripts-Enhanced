@@ -1,18 +1,4 @@
-﻿# Converted from: OK-EVIL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-05/raw/OK-EVIL1.ANS
-# Source Revision: archive-sha256:00017ea77a556a0e8fa8903f908ba8848ddc89ac19675ccac8aee269ef1bbdb5
-# Source SHA-256: 3f5e3dec42de2dabc42d011a21a0bb4821cae0578d4c9a8edc287884324c5928
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OK-EVIL1.ANS by oUTkAST (READ THE INI FILE); released in odium-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Evil Intentions
-# SAUCE Author: oUTkAST
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19960308
-# SAUCE Dimensions: 80x25
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: Evil Intentions by oUTkAST | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-05-ok-evil1
 
 Write-Host '
 [33m░░░▒▒▒▒▒▒▒▓▓▓▓████████[0;1;33;43m▓▄[0;33m██████████████████[0;1;30m▐[0;1;30;41m▓▄[0;31m███▄▀   [0;33m▐████████████▀ [0;31m▄[0m      [33m▄▓▓▒▒[0m

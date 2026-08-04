@@ -1,15 +1,4 @@
-﻿# Converted from: TI-ILL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thst995a/raw/TI-ILL.ANS
-# Source Revision: archive-sha256:99fdeaae8a530fd5d02841ab58ea673bd295ce46b88d323c93f266729bea4197
-# Source SHA-256: c985d691e935c9bc4a3d74a1809c4e555efc98eaecfecac2404828f42380c6aa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TI-ILL.ANS by Trip (thst995a); released in thst995a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 19950831
-# SAUCE Dimensions: 80x76
-# Lines: 34-76
-# Columns: 1-80
+﻿# Artwork: TI-ILL.ANS by Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thst995a-ti-ill-part02
 
 Write-Host '
 [30;43m▒[0;33;40m▒[0m                     [33;40m▒[0;30;43m▒[0;33;40m▒[0;1;31;43m▒▒▓▒▒░▒▓▒[0;30;43m▒[0m     [33;40m▄▒  ▄▄▒  ▄[0;1;31;43m░░[0m

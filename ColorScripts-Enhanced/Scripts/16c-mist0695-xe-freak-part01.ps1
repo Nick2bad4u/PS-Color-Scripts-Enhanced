@@ -1,18 +1,4 @@
-﻿# Converted from: XE-FREAK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0695/raw/XE-FREAK.ANS
-# Source Revision: archive-sha256:cd4d9f21f90522cc13e89b8aecd1f8fac67b693881bc0be303ed48e8c596636d
-# Source SHA-256: abdd52a844247c6a0f95124261505874c73c5b56bf357cca4d6ccdfe2837131b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XE-FREAK.ANS by Xeryrus (MiSTiGRiS); released in mist0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Freak Show
-# SAUCE Author: Xeryrus
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19950614
-# SAUCE Dimensions: 80x25
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Freak Show by Xeryrus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0695-xe-freak-part01
 
 Write-Host '
 

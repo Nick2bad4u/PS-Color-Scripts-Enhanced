@@ -1,13 +1,4 @@
-﻿# Converted from: avg-tenten1010.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_1010/raw/avg-tenten1010.ans
-# Source Revision: archive-sha256:a99bb1826c554acf497ca2f3d3a318938bda45de706ac9decf9ca308162d3ee1
-# Source SHA-256: e190eb7deaca4982690f45b9f8f0c4410de1ca8758e789fa57b1c7549175f646
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-tenten1010.ans by Avenging Angel (blocktronics_1010); released in blocktronics_1010 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: avg-tenten1010.ans by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-1010-avg-tenten1010
 
 Write-Host '
 

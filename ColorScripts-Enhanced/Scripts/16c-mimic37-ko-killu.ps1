@@ -1,13 +1,4 @@
-﻿# Converted from: ko-killu.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic37/raw/ko-killu.ans
-# Source Revision: archive-sha256:0d28aedb8d5d5b6826c950122d7b742a98e4b5cc019bb9166e510fcb07b70457
-# Source SHA-256: 5126dff89ee5c382e3d3996cf1734c9d657361730a05d676cfa0a7c787e26fe1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ko-killu.ans by Konami (mimic37); released in mimic37 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: ko-killu.ans by Konami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic37-ko-killu
 
 Write-Host '
 [33m[0m[1;37m[0m[1;32m[0;31m[0;1;31m[0;1;35m[0m[33m[0;1;33m[0m[1;30m[0m[34m[0;37m[0;1;34m[0m[1;30m[0m[1m[0m[1m[0m[1m[0m[1;30m[0m   [1;33m`[0;33m [0;1;33m.[0m    [1m`[0m.   [32m`[0;1;32m$$.[0m [1;31m;l; [0;1;35m;[0;35m;[0m   [33m;[0;1;33m$$$l[0m  [1;30m [0m [34m;[0;37m [0;1;34ml²"``[0m    [1;30m...l.[0m  .[1m$l7   [0m  .`    [1m [0m [1;31m([0;31mmimic[0;1;31m)[0m

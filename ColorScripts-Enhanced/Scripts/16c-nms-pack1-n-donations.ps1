@@ -1,20 +1,4 @@
-﻿# Converted from: n(_donations.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nms_pack1/raw/n(_donations.ans
-# Source Revision: archive-sha256:f99a1419a85f2107a1ef905f45d33edf79d1a955e17b541807601af9adb4edeb
-# Source SHA-256: 5713a4894eed539259c78bc33b8ae1eee2ae7cd8dbb25328cb94d70351cda85a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: n(_donations.ans by nemesulku (acid rain); released in nms_pack1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Donations
-# SAUCE Author: nemesulku
-# SAUCE Group: acid rain
-# SAUCE Date: 19980329
-# SAUCE Dimensions: 80x8
-# SAUCE Font: IBM VGA
-# SAUCE Comments: This was for Melwyn's BBS - bracket
-# Lines: 1-8
-# Columns: 1-80
+﻿# Artwork: Donations by nemesulku | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nms-pack1-n-donations
 
 Write-Host '
 [1;30;40m [0;1;37;40m█[0m              [1m▄■▀[0m▀[1m▀[0m▀▀▀[1;30m▀[0m▀[1;30m▀▀■▄[0m            [1m▄■[0m▀[1m▀[0m▀■▄[1m■▀[0m▀[1m▀[0m▀▀[1m▀[0m▀▀▀■[1;30m▄[0m            [1m▄■▀[0m■[1;30m.[0m

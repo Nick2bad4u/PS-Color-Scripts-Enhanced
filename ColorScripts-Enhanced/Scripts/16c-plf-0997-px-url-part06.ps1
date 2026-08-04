@@ -1,18 +1,4 @@
-﻿# Converted from: PX-URL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0997/raw/PX-URL.ANS
-# Source Revision: archive-sha256:d6ce507ee095ab9c7ce1d91178b57bff0c61babde42a3957415461a430e18407
-# Source SHA-256: 587a273b849b9860a78e8353d2b2747c5e4d0fd557703242006822ade9d01901
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PX-URL.ANS by perplexer (poffelipoff); released in plf-0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: free weed
-# SAUCE Author: perplexer
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19970913
-# SAUCE Dimensions: 80x255
-# Lines: 214-255
-# Columns: 1-80
+﻿# Artwork: free weed by perplexer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0997-px-url-part06
 
 Write-Host '
 [1;36m                                              [0;36m░▄▄[0;1;36;46m▄▓[0;1;36;40m████▄ [0;34m▀▀▓▓█▄   [0;1;36m▀ ░░[0;30m••••••••••[0m

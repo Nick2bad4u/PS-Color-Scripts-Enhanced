@@ -1,19 +1,4 @@
-﻿# Converted from: 5m-numero4.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-004/raw/5m-numero4.ans
-# Source Revision: archive-sha256:c716e28d4b828a0135c19992fe2f71464879479199ebc42fd3d533b5bd3bf4d4
-# Source SHA-256: 6ad1de59eee2797472fc08f91e3739f5e8d657ea01cf8b1faa5d3dbc88320b72
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5m-numero4.ans by Smooth (Legacy Krew); released in lgcy-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Pack Numero 4
-# SAUCE Author: Smooth
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20220124
-# SAUCE Dimensions: 80x140
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Pack Numero 4 by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-004-5m-numero4-part01
 
 Write-Host '
 [1m████████████████████████████████████████████████████████████████████████████████[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: SYL-EV20.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fdr-03/raw/SYL-EV20.ANS
-# Source Revision: archive-sha256:cac34a6b7c47c076c878193a4da01da4f38b7c8e471d7a9bf4b3a7850655fb5e
-# Source SHA-256: 7c5d5159a54d4eae37554032c5d3a0daf3d6818fe9ab141005fd3016f18697da
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SYL-EV20.ANS by Sylvao (fdr-03); released in fdr-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 43-77
-# Columns: 1-80
+﻿# Artwork: SYL-EV20.ANS by Sylvao | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fdr-03-syl-ev20-part02
 
 Write-Host '
                        [1m▓██████ [0m▀[1;30;47m▀[0;1;30;40m█[0m      [1m▌████▀█[0m ▄[1;30;47m▄[0;1;30;40m█[0m

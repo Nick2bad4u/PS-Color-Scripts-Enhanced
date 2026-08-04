@@ -1,13 +1,4 @@
-﻿# Converted from: DOINK3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/joint01/raw/DOINK3.ANS
-# Source Revision: archive-sha256:e6fb9dd8e4d92014a2b1eaaad9b3917187f1a11e796475ee34a2619f8644e876
-# Source SHA-256: b5a9a0ca5764024bd212e8642b614feb4ce97923cfc79ee09883fb2f5a43dc89
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DOINK3.ANS by The Joint (joint01); released in joint01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: DOINK3.ANS by The Joint | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-joint01-doink3
 
 Write-Host '
                          [1;31m▄▄███▄[0m   [1;31m▄████▄[0m

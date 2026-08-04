@@ -1,13 +1,4 @@
-﻿# Converted from: dy-tus3.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tus-06/raw/dy-tus3.ans
-# Source Revision: archive-sha256:51b671f2cc7e9d00368c85bede9ec7f3ff4d004664f30443ced4184b66636a6b
-# Source SHA-256: c9a55bc32059d0434c378450b2466d2676c0151f2070655ba7e28c3af2c363e7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: dy-tus3.ans by Discyple (tus-06); released in tus-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: dy-tus3.ans by Discyple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tus-06-dy-tus3
 
 Write-Host '
  [1m$$$$$$$  [0m`4j[1m$$$$$$$$$$  [0m`4[1mj$$$$$$$$$$  `4j$$$$$$$$$$  [0m`[1m4j$$$$$$$$$$  [0m`4[1mj$$$$$$[0m

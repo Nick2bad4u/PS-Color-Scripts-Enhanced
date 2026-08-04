@@ -1,18 +1,4 @@
-﻿# Converted from: N!Z-LG10.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sargahd3/raw/N!Z-LG10.ANS
-# Source Revision: archive-sha256:d4be65be862c17debbed01c060fb85aadbdbe00a8282836fa25f3f46073f618d
-# Source SHA-256: b77cf30d19247c12fc44835ac2844b6aa855e4dea08a9b752d9b01aff0b02c3a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N!Z-LG10.ANS by noize (fbk.sargahd); released in sargahd3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: unleashed! again
-# SAUCE Author: noize
-# SAUCE Group: fbk.sargahd
-# SAUCE Date: 19970210
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: unleashed! again by noize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sargahd3-n-z-lg10
 
 Write-Host '
                  [1m████▀▀▀▀▀[0;1;33m▌[0m  [1;33m▀▀▀░[0m [35m░░▄[0m   [35m▄▄▄[0;1;35;45m▄▄▄[0;35m▌[0;37m [0;35m▄ [0;1;37m▀▀▀████[0;1;33m▌[0m    [1;30mnoize / sargahd[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: TNA-HYS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9708/raw/TNA-HYS1.ANS
-# Source Revision: archive-sha256:defa13458710db8b7c1fa20a6cd29749e80a61eef8ba8dc70e8a9a4a0b1d4f5d
-# Source SHA-256: 9993e397c5751509d86ba82ec45bb2a093fc7f0b27f5fe0be66cac3a35882001
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-HYS1.ANS by The Night Angel (AWE Lettering); released in awe9708 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Hysteria
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Hysteria by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9708-tna-hys1
 
 Write-Host '
        [32m▄▄░[0m             [33m▄ ▀▀▄[0m              [1;30m▄█▄[0m         ░                 tna([1mawe[0m)

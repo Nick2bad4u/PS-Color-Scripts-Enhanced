@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-DEST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0398/raw/BYM-DEST.ANS
-# Source Revision: archive-sha256:f8b78bce0ded523528171ee9d37c603a9a96c5e8abf885d101375334b587e435
-# Source SHA-256: 7466d68d8555934776be7a152bf64ba869abbf07785499b76a0f6467ed595184
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-DEST.ANS by superbym (poffelipoff); released in plf-0398 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: destiny
-# SAUCE Author: superbym
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19980322
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: destiny by superbym | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0398-bym-dest
 
 Write-Host '
                                              [34m▄[0;1;34;44m▄▄[0;34m▀[0m                       [31m░▌[0m   [31m▐ [0m

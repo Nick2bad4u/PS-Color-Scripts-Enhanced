@@ -1,18 +1,4 @@
-﻿# Converted from: CK-FTR1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9504a/raw/CK-FTR1.ICE
-# Source Revision: archive-sha256:7e06a69e8d7baf8133687f2e7b917774996272e1a0f23faaff663b1fe4e44657
-# Source SHA-256: 7ccb12e9e4ea330a111f024a2ddd9f2dfaefc4e9fb62e6ed65752fb8dd1cc563
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CK-FTR1.ICE by chromatik (.ice%prod!1995.); released in ice9504a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: forgotten things remembered.
-# SAUCE Author: chromatik
-# SAUCE Group: .ice%prod!1995.
-# SAUCE Date: 19950421
-# SAUCE Dimensions: 80x25
-# Lines: 39-80
-# Columns: 1-80
+﻿# Artwork: forgotten things remembered. by chromatik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9504a-ck-ftr1-part02
 
 Write-Host '
 [32m█▄▓▀▀ ██▀ [0;34m░░  [0;1;31m▄▄▄██▄▄▄▄▄[0m      [1;31m░░[0m     [1;37m▀▀▀▀▀ ■  ▀ ■  ▄▄██▓▀▀▀▀[0m               [32m░  ▐[0m

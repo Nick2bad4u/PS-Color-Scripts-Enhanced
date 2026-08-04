@@ -1,13 +1,4 @@
-﻿# Converted from: we-sword.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch06/raw/we-sword.ans
-# Source Revision: archive-sha256:6a5728d508714e5a8a52bf9fe4786f449331afd350af648df7e54e6c0432bbed
-# Source SHA-256: dbf11706a880927b4eabf33d269aeb855c8178ace8794e070ba02a1473841b7c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-sword.ans by Knocturnal + Avenging Angel + Enzo + Mr Wrong (27inch06); released in 27inch06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 49-94
-# Columns: 1-80
+﻿# Artwork: we-sword.ans by Knocturnal + Avenging Angel + Enzo + Mr Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch06-we-sword-part02
 
 Write-Host '
      [34m   [0m        [34m [0m     [34m  [0m            [34m░[0m

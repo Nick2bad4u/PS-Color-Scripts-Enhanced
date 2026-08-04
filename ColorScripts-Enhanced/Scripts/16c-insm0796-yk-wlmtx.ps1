@@ -1,18 +1,4 @@
-﻿# Converted from: YK`WLMTX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/insm0796/raw/YK%60WLMTX.ANS
-# Source Revision: archive-sha256:e3aef34bb564b08d1904f6f1567e1b9514c63c703fa2cbc5b50e7bd5188984fa
-# Source SHA-256: 039832f480c17b7fd5b401a52a5c5d0c15701f805ca395687a3bb493da5182ea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: YK`WLMTX.ANS by YaNKeE (iNSoMNia); released in insm0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Wave Length [MaTRiX]
-# SAUCE Author: YaNKeE
-# SAUCE Group: iNSoMNia
-# SAUCE Date: 19960621
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Wave Length [MaTRiX] by YaNKeE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-insm0796-yk-wlmtx
 
 Write-Host '
        [1m▄[0m [1m■▄[0m [1m▄▄▄▄▄▄▄▄[0m [1m▄▄▄▄▀[0m [1m▄[0m [1m▄▄▄▄▄▄[0m  [1m▄▄▄▄[0m [1m■▄▄▄▄▄▄▄▄▀▄▄█▄▄[0m [1m▄▄▄▄▄■▄[0m [1m ▄▄[0m  [1m▄[0m [1m■[0m

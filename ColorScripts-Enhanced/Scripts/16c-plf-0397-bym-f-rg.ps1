@@ -1,18 +1,4 @@
-﻿# Converted from: BYM%FÄRG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0397/raw/BYM%25F%C3%84RG.ANS
-# Source Revision: archive-sha256:595cd536c89a3ddf9c15202ea96fa0a030ff8d2edd4f06062add94708fe8499b
-# Source SHA-256: 94ddadd2710e404a218c0afa940573e555ebc4362b56c8f670a23d2827b3189d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM%FÄRG.ANS by big y3llow man (GUMMiBOLL.art); released in plf-0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: s?tter f?rg p? tillvaron
-# SAUCE Author: big y3llow man
-# SAUCE Group: GUMMiBOLL.art
-# SAUCE Date: 19970303
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: s?tter f?rg p? tillvaron by big y3llow man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0397-bym-f-rg
 
 Write-Host '
 

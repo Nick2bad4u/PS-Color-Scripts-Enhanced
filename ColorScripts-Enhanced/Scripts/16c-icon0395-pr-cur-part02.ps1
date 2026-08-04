@@ -1,18 +1,4 @@
-﻿# Converted from: PR-CUR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icon0395/raw/PR-CUR.ANS
-# Source Revision: archive-sha256:3fb39d674dc987e27647cf5bcb61e28e263ef492756fb8c6153b27c4382a2b98
-# Source SHA-256: db802164e1b2d8fb7aaea5463a9929d22f502f0a98a2adaad14978affd5305ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR-CUR.ANS by Prism (Icon); released in icon0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: White Insanity's Board
-# SAUCE Author: Prism
-# SAUCE Group: Icon
-# SAUCE Date: 19950206
-# SAUCE Dimensions: 80x60
-# Lines: 32-59
-# Columns: 1-80
+﻿# Artwork: White Insanity's Board by Prism | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icon0395-pr-cur-part02
 
 Write-Host '
 [1;31;41m▓▓░░░[0;31m███████████[0;1;37;41m ▄█[0;1;37;40m██▄[0;31m   [0;1;37m ▄▄ [0;31m       [0;1;37m▄▄▄ [0;31m       [0;1;37m ▄█▄[0;31m  ▄▄███[0;1;30;41m      [0;31m▌[0;33m▐▒▓▓█▓[0;1;30;43m      [0;33m███[0m

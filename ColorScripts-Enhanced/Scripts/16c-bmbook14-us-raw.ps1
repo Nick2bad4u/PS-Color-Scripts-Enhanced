@@ -1,18 +1,4 @@
-﻿# Converted from: US-RAW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook14/raw/US-RAW.ANS
-# Source Revision: archive-sha256:f7fe2a62d3e7b3b16687ce251209098ea8d86719a4cfa33dae1489e0c9af9278
-# Source SHA-256: f446b5d8e6e8e65d9a1c05b8eb6173a515f14636704fe1169d2d8952f947a7eb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-RAW.ANS by Avenger + Poti (black maiden); released in bmbook14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: raw
-# SAUCE Author: ave.poti
-# SAUCE Group: black maiden
-# SAUCE Date: 19970629
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: raw by Avenger + Poti | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook14-us-raw
 
 Write-Host '
                         [36m░[0m

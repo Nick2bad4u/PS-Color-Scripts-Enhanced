@@ -1,17 +1,4 @@
-﻿# Converted from: SD-DOH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vpr0695/raw/SD-DOH.ANS
-# Source Revision: archive-sha256:78c3ace83360714b9f57ab0b5b4ffd040155a161a665ae8c182b834426edfb2b
-# Source SHA-256: a36a659fe9cf8e91d5697db27fceece8bae00896e9bcd2a12b6aa8bc79ecb3ec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-DOH.ANS by sirdeath (vapor); released in vpr0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: sirdeath
-# SAUCE Group: vapor
-# SAUCE Date: 19950507
-# SAUCE Dimensions: 80x25
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: SD-DOH.ANS by sirdeath | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vpr0695-sd-doh
 
 Write-Host '
 ░ ▀▓▄▌▀▓■[1;30m▄▀▀▓▄ [0m▀ [1;30m■▄ [0m▀▀▓▄▄▓▀▀■ ▀▀▓■▀▀▀■▀▀ [31m▄ ▄ [0;37m▓▀▀■▀ [0;1;30msd;Sir Death [0m▀▓ [31m▄ ▀ ▀ ▄ [0;37m▓▀▀■▀[0m

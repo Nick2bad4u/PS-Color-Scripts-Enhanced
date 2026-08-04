@@ -1,18 +1,4 @@
-﻿# Converted from: TRI-SALT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz10sep/raw/TRI-SALT.ANS
-# Source Revision: archive-sha256:4ab640a5762659d8c89d1d4c7a47f2c8ebad1c9e802d4965d8fdc943ea824060
-# Source SHA-256: 30632aa6d458211769890cbe96e6aa25fc6f897ff9d36f42c726242684c2fdde
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TRI-SALT.ANS by tricolore (lazarus); released in laz10sep and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: salty stuff
-# SAUCE Author: tricolore
-# SAUCE Group: lazarus
-# SAUCE Date: 19970824
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: salty stuff by tricolore | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz10sep-tri-salt
 
 Write-Host '
 

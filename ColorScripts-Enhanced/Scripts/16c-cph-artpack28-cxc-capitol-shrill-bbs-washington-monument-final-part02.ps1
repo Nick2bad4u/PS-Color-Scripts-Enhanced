@@ -1,13 +1,4 @@
-﻿# Converted from: cxc-capitol_shrill-bbs_washington_monument_final.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cph.artpack28/raw/cxc-capitol_shrill-bbs_washington_monument_final.ans
-# Source Revision: archive-sha256:c3d8d299aac3650a51574757712fd9f0940b06f7c2d1f7c898188c562f0549bd
-# Source SHA-256: 764bb00f99d9274fb922c64a883f538cef3ffd4cd98380a894cbec0fc95c8950
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cxc-capitol_shrill-bbs_washington_monument_final.ans by Coaxcable (cph.artpack28); released in cph.artpack28 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 28-54
-# Columns: 1-80
+﻿# Artwork: cxc-capitol_shrill-bbs_washington_monument_final.ans by Coaxcable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cph-artpack28-cxc-capitol-shrill-bbs-washington-monument-final-part02
 
 Write-Host '
 [37m [0;34m▀▀█████████████████████████████████[0;37m [0;1;30;47m▌░░[0;1;33;47m░[0;1;33;40m█[0m [34m████████▓█▀░[0;1;30m▄▄[0m▄▄▄▄▄ [34m▀████████████▓▀░[0m

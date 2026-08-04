@@ -1,18 +1,4 @@
-﻿# Converted from: N-PYRO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0497/raw/N-PYRO1.ANS
-# Source Revision: archive-sha256:42e18118a4fe23187162d4202e0e64c79c23017db87b8967f1816ba2b79540c6
-# Source SHA-256: 848f846786587d85072628a1b1c8ce8851379103aa6c6900645b3166e8365d6b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-PYRO1.ANS by nail (fire); released in fire0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: pyrodraw alt-a
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 19970304
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: pyrodraw alt-a by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0497-n-pyro1
 
 Write-Host '
 [1;47m█▀[0m▀             [1m▀▓▓[0;31m [0;1;30m▓▓ [0;31m▐[0;1;33m▄[0m [1;30m▄▐█████████████▀▓▓░░[0m         [1;30m▀▄[0m      [1;30m▄▄[0m       [1;30m▀██▄[0m

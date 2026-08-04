@@ -1,13 +1,4 @@
-﻿# Converted from: ED-TLD.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-08/raw/ED-TLD.ICE
-# Source Revision: archive-sha256:76472331bcb8543f1e44f2a59ee8f7524c6af6373e89562b7fabb9e022104140
-# Source SHA-256: 33c97837338c473304f7ef7f89e05ed6522061acdbab3eb2f1f0289b510d89b9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ED-TLD.ICE by Eternal Darkness (icepk-08); released in icepk-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: ED-TLD.ICE by Eternal Darkness | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-08-ed-tld-part02
 
 Write-Host '
  [1;30m████████▓▓▒░▒▒▓▓█▓▓▓▓▓▓▒▒░    [0;33m░░░░  [0;1;30m░░░▒▓▓▒▒░ ░ [0;31m░░▒▒▓▓▓███[0;1;31;41m░░[0;31m█████[0;1;31;41m░[0;31m███████[0;1;31;41m░▒░[0;31m█[0m

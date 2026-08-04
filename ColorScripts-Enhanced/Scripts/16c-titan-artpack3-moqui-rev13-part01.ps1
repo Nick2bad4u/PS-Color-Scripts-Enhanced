@@ -1,13 +1,4 @@
-﻿# Converted from: moqui-rev13.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/titan-artpack3/raw/moqui-rev13.ans
-# Source Revision: archive-sha256:7a38999f8e9fb11d8eb7f21866278677e39c97072413abd68c6b28c2088a7208
-# Source SHA-256: 6a248c498891fefb5359e5375622d74a1c0449ed5960180bc886da839baddd62
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: moqui-rev13.ans by Moqui (titan-artpack3); released in titan-artpack3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: moqui-rev13.ans by Moqui | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-titan-artpack3-moqui-rev13-part01
 
 Write-Host '
 

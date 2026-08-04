@@ -1,18 +1,4 @@
-﻿# Converted from: EL-AXF2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-0597/raw/EL-AXF2.ANS
-# Source Revision: archive-sha256:6068514913baa1ec916369db865939b991470ac5490f350bfb80359a0a337dc6
-# Source SHA-256: 3f648a2a02cb1121144c856253435a46b0681257f79b2cd58de5e69b512d507c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EL-AXF2.ANS by Elrond (AXF); released in axf-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Axial Force
-# SAUCE Author: Elrond
-# SAUCE Group: AXF
-# SAUCE Date: 19970401
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Axial Force by Elrond | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-0597-el-axf2
 
 Write-Host '
 [1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

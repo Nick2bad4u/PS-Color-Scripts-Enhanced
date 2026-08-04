@@ -1,18 +1,4 @@
-﻿# Converted from: DT-TWI1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twi-9612/raw/DT-TWI1.ANS
-# Source Revision: archive-sha256:e035b332aab22898e5ef858355528eb29dc434fb8c9b49666727901d70ad869a
-# Source SHA-256: 86e60db78155712e67d5519df55a2814b0bca81f4ce3728c8e1b9a4341044e8e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-TWI1.ANS by Defiant (Twilight); released in twi-9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Twilight spaced out ad
-# SAUCE Author: Defiant
-# SAUCE Group: Twilight
-# SAUCE Date: 19971211
-# SAUCE Dimensions: 80x25
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Twilight spaced out ad by Defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twi-9612-dt-twi1
 
 Write-Host '
                          [1;30m▄[0m

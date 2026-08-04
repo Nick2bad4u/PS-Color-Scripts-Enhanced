@@ -1,18 +1,4 @@
-﻿# Converted from: DH-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1195/raw/DH-FIRE.ANS
-# Source Revision: archive-sha256:a25cb66c6e3081d7fd8b1e8a479ad0bbfad34588e24bbc41d27d6181b8573097
-# Source SHA-256: 368e387e90089629236606646f7b0cc7d797074d0bef559c4f92106b232e0588
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DH-FIRE.ANS by Donut Hole (Fire); released in fire1195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fire Promotional
-# SAUCE Author: Donut Hole
-# SAUCE Group: Fire
-# SAUCE Date: 19951101
-# SAUCE Dimensions: 80x25
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Fire Promotional by Donut Hole | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1195-dh-fire-part01
 
 Write-Host '
                                                       ▄▄[1;47m▄▄▄   [0m▄▄

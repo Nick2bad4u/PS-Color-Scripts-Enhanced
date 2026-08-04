@@ -1,19 +1,4 @@
-﻿# Converted from: US-F36.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-36/raw/US-F36.ANS
-# Source Revision: archive-sha256:43e7d46e56dc094cf8502b299dcd82ee875dea0a064a36248f4e6c844180fd25
-# Source SHA-256: 42c5070e0991026b6971f06b1432c70b148f338c70d0d385d3a5b3df8969918d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-F36.ANS by Tainted + Warpus + Knocturnal + Tetanus (fire); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fire - server collab
-# SAUCE Author: various
-# SAUCE Group: fire
-# SAUCE Date: 20230303
-# SAUCE Dimensions: 80x39
-# SAUCE Font: IBM VGA
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: fire - server collab by Tainted + Warpus + Knocturnal + Tetanus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-36-us-f36
 
 Write-Host '
                                        [31;40m░[0m

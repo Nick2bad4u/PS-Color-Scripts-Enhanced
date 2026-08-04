@@ -1,19 +1,4 @@
-﻿# Converted from: LU-Happy_Birthday_TCF.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy13/raw/LU-Happy_Birthday_TCF.ans
-# Source Revision: archive-sha256:3ed7178f860604c6b9786846d46fd13095846b81c16a5324edc4e4b9ea7e6ba8
-# Source SHA-256: 48aa1c3d958792f47f7a70649b823e7b70b4d8f7670e2633bc2bd9d858bd486f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LU-Happy_Birthday_TCF.ans by luciano ayres (apathy); released in apathy13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: happy birthday tcf
-# SAUCE Author: luciano ayres
-# SAUCE Group: apathy
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x46
-# SAUCE Font: IBM VGA
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: happy birthday tcf by luciano ayres | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy13-lu-happy-birthday-tcf
 
 Write-Host '
 

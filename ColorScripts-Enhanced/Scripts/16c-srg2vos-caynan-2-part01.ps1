@@ -1,18 +1,4 @@
-﻿# Converted from: CAYNAN 2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/srg2vos/raw/CAYNAN%C2%A02.ANS
-# Source Revision: raw-sha256:4254e14c66f6a443047e95e4292dc1928a6c483b1d66d20bc367a4627f956917
-# Source SHA-256: 4254e14c66f6a443047e95e4292dc1928a6c483b1d66d20bc367a4627f956917
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CAYNAN 2.ANS by caynan (fbk.sargahd); released in srg2vos and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fishbowl
-# SAUCE Author: caynan
-# SAUCE Group: fbk.sargahd
-# SAUCE Date: 19961104
-# SAUCE Dimensions: 80x62
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: fishbowl by caynan | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-srg2vos-caynan-2-part01
 
 Write-Host '
        [1mF  [0mi  s  c  h  b  r  a  t  k  u  e  c  h  e  -  [1mS  [0ma  r  g  a  h  d

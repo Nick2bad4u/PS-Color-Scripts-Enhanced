@@ -1,13 +1,4 @@
-﻿# Converted from: TG-EI.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9410/raw/TG-EI.ICE
-# Source Revision: archive-sha256:8c9142d0352992206e7fd9f090a7f89eeb1bb8623b53334a6a4eb0e9111ecc28
-# Source SHA-256: 57155647f6d923388bbd0713f6e6c2b8e44c386304a1024ed8030d60e0ddf880
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-EI.ICE by Toon Goon (ice-9410); released in ice-9410 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 86-117
-# Columns: 1-80
+﻿# Artwork: TG-EI.ICE by Toon Goon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9410-tg-ei-part03
 
 Write-Host '
 [34m    [0;37m░[0m                                           [34m░  ▌[0m             [1;37m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US-MARZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-03/raw/US-MARZ.ANS
-# Source Revision: archive-sha256:9ea26ff16b2d0162532c602fba75b69e539d71620a3b4e34b796de886326619c
-# Source SHA-256: 0c23c9be28d6af1d419a2dd02769dd539af00fb0f4c431ceeba0ba902956d33f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-MARZ.ANS by multiple artists (nerp); released in nerp-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: marz
-# SAUCE Author: multiple artists
-# SAUCE Group: nerp
-# SAUCE Date: 19971224
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: marz by multiple artists | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-03-us-marz
 
 Write-Host '
  [1;30m▄[0;1;31m▄[0;31m▐[0;1;31;41m▄[0;1;31;47m▓▒░[0m█[1;31;47m▓[0;1;31;41m█[0;1;31;47m▓[0;1;31;41m▀[0;31m▌[0;1;31;41m▐██▓▓░░[0;31m▀▀[0;1;30m▀▄[0;31m▄▄▐[0;1;31;41m░▒▓█▄[0;1;31;40m▄[0;1;30;40m▄[0m   [1;30m▐[0;1;34;44m▐█████████▀▀▀█[0;44m█[0;1;47m▀[0;1;34;47m▄▓[0;1;34;44m█▓▓▓▒▒▒░░░[0;34m███[0;1;34;44m░░▒▓█▌[0;34m▓▓░[0m

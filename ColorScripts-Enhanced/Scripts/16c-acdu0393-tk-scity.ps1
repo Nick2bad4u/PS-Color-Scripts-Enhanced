@@ -1,13 +1,4 @@
-﻿# Converted from: TK-SCITY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0393/raw/TK-SCITY.ANS
-# Source Revision: archive-sha256:2e2cc798858cb159e11c76777991b7638097c4467315aee8c6d051749e2ca63f
-# Source SHA-256: 2ada1ce78ba82cfae09a336080a9dd3affbd7669ae9432eb278100a042a888da
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TK-SCITY.ANS by Tank (acdu0393); released in acdu0393 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: TK-SCITY.ANS by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0393-tk-scity
 
 Write-Host '
                                    ▄[1m▄▄▄▄▄▄▄[0m▄

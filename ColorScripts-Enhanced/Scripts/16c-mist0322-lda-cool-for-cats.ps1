@@ -1,19 +1,4 @@
-﻿# Converted from: LDA-COOL_FOR_CATS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0322/raw/LDA-COOL_FOR_CATS.ANS
-# Source Revision: archive-sha256:d721ac329a32c7b9dccef4e8624e41c2516121b2eeceed2a1086408a7cc60358
-# Source SHA-256: 4e28ebb9c609532da194c12c24c0ebc6f409982da21fcc20784885e6d999cb0a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LDA-COOL_FOR_CATS.ANS by LDA (Mistigris); released in mist0322 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Squeeze - Cool for Cats
-# SAUCE Author: LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20220328
-# SAUCE Dimensions: 80x39
-# SAUCE Font: IBM VGA
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Squeeze - Cool for Cats by LDA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0322-lda-cool-for-cats
 
 Write-Host '
 [35m█[0;37m     [0;35m▀▀▀██████████████[0;1;31;45m [0;35;41m▀[0;1;31;45m██▀  ▄▄[0;35m█[0;1;31;45m▄▄ ▄▄▐█▌▀ ▄▄▄ [0;1;31;41m▀▀[0;1;31;45m██ ▐[0;1;31;41m██▀[0;1;31;45m  [0;35m█████████████▀▀▀[0;37m     [0;35m█[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: CY-SHIT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile_001/raw/CY-SHIT.ANS
-# Source Revision: archive-sha256:f7a8644489c1d011b91477b5b1eab40d9f39b077b89f158a7a0c3d1c032c6d81
-# Source SHA-256: 4d3bf0b4310c4812677bb0e0a4f0174583b129cecef4a7adee266b85d8c5c25c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CY-SHIT.ANS by REVcrayon (RilE); released in rile_001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: FUCK
-# SAUCE Author: REVcrayon
-# SAUCE Group: RilE
-# SAUCE Date: 19970216
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: FUCK by REVcrayon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile-001-cy-shit
 
 Write-Host '
                                                   [1;33m [0m       [1;33m  [0m

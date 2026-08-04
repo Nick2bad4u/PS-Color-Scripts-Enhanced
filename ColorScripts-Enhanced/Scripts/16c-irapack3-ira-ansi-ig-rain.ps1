@@ -1,13 +1,4 @@
-﻿# Converted from: IG-RAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/irapack3-ira-ansi/raw/IG-RAIN.ANS
-# Source Revision: archive-sha256:6fed41f2189359ac8fc175895e43a6af0c3289bbdbde355fb090fc9339bbf7d0
-# Source SHA-256: 0a879939c9162cff7886bfb36798b6164f910890f594b15315c22951e2f97702
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IG-RAIN.ANS by Iguana (irapack3-ira-ansi); released in irapack3-ira-ansi and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: IG-RAIN.ANS by Iguana | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-irapack3-ira-ansi-ig-rain
 
 Write-Host '
 

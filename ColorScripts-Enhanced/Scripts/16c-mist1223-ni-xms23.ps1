@@ -1,19 +1,4 @@
-﻿# Converted from: NI-XMS23.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1223/raw/NI-XMS23.ANS
-# Source Revision: archive-sha256:86d02e5103ccb7950792473f0c3e4ca18e595c9011c06df5ce1fe1692dbd9f5a
-# Source SHA-256: 911a8e75d2314ae409deca85e5ba60e142b04082b7db68995af221d93e93626f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-XMS23.ANS by Nitron (Mistigris); released in mist1223 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Happy Holidays 2023
-# SAUCE Author: Nitron
-# SAUCE Group: Mistigris
-# SAUCE Date: 20231225
-# SAUCE Dimensions: 80x30
-# SAUCE Font: IBM VGA
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Happy Holidays 2023 by Nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1223-ni-xms23
 
 Write-Host '
 [1;34;44m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0;1;34;40m▀[0m ▄[1;47m▄▓▓▓▓███▓▓▄░[0m▄ [1;34m▀▀▀[0;1;34;44m░░░░░░░░░░░░░░░░[0m

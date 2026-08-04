@@ -1,18 +1,4 @@
-﻿# Converted from: DD!-BONC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/xpa1-b/raw/DD!-BONC.ANS
-# Source Revision: raw-sha256:081164d29b260925dbbef89492d1e67b5c38437c583034998e1e9c4c09be3e22
-# Source SHA-256: 081164d29b260925dbbef89492d1e67b5c38437c583034998e1e9c4c09be3e22
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD!-BONC.ANS by DiAMOND dARRELL (XPA); released in xpa1-b and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: SHiT!
-# SAUCE Author: DiAMOND dARRELL
-# SAUCE Group: XPA
-# SAUCE Date: 19951009
-# SAUCE Dimensions: 80x48
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: SHiT! by DiAMOND dARRELL | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-xpa1-b-dd-bonc
 
 Write-Host '
              [34m ▄▄██████████████████████████████████████████████▀▀████▄▄[0m

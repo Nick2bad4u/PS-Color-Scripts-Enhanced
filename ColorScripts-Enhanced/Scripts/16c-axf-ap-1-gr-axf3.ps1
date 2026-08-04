@@ -1,18 +1,4 @@
-﻿# Converted from: GR-AXF3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-ap-1/raw/GR-AXF3.ANS
-# Source Revision: archive-sha256:677d92e3c1456f7d379a6bfd6ef2a3e9f4462186ed5fa427899c9f4c329d0aa2
-# Source SHA-256: ba3f159ba576536a87e98d97793414d7d0e5e59c2b64ec5252cb7cdb6d185ed5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GR-AXF3.ANS by GRiLo (Axial Force); released in axf-ap-1 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ...
-# SAUCE Author: GRiLo
-# SAUCE Group: Axial Force
-# SAUCE Date: 19960605
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: ... by GRiLo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-ap-1-gr-axf3
 
 Write-Host '
 [1;34m<AXiAl.FoRCe>[0;1;30m------------------------------------------------------------------[0m

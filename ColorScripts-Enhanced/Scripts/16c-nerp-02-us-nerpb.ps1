@@ -1,18 +1,4 @@
-﻿# Converted from: US-NERPB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-02/raw/US-NERPB.ANS
-# Source Revision: archive-sha256:3fd9f194d865cfc24c90bdf11a27528d8d82a8ba9c376ebed567183a2f95a9f3
-# Source SHA-256: e4dfd40dd7b51e045d44ce242b62e783a189be70ca26f0c9e72fccffed05439e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-NERPB.ANS by Bizzarro + Discofunk 1974 (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: nerp! ?
-# SAUCE Author: 74 & biz
-# SAUCE Group: nerp
-# SAUCE Date: 19971104
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: nerp! ? by Bizzarro + Discofunk 1974 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-02-us-nerpb
 
 Write-Host '
 

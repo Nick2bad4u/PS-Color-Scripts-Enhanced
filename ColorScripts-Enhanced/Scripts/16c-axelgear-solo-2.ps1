@@ -1,18 +1,4 @@
-﻿# Converted from: SOLO-2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axelgear/raw/SOLO-2.ANS
-# Source Revision: archive-sha256:b47467ff2f44fba1583ea1e079d55dd2548eadef82dd6d664541c9909c9928e2
-# Source SHA-256: 58d5c4a4eea5e5318d0219e2fbe3908568743a5bc065823f8dc22f484df374ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SOLO-2.ANS by Shattered Link (Groupless); released in axelgear and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Solo Piece Number Two
-# SAUCE Author: Shattered Link
-# SAUCE Group: Groupless
-# SAUCE Date: 19970418
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Solo Piece Number Two by Shattered Link | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axelgear-solo-2
 
 Write-Host '
 [1;30m▓[0m    [1m          [0m  [1m          [0m                                 [1m             [0m [1m [0m    [1;30m▓[0m

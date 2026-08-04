@@ -1,18 +1,4 @@
-﻿# Converted from: NVZ-RMTZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmtz-3/raw/NVZ-RMTZ.ANS
-# Source Revision: archive-sha256:9049eb84d35299820d945f342b3906500ed394a8e74f37bd2f023c428d1b0765
-# Source SHA-256: 14d74c2d0c546c58e305c07a5e13c2234b1f996de878dc380e9e10e6dc9be203
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NVZ-RMTZ.ANS by nvz (rmtz); released in rmtz-3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: rmtz-logo
-# SAUCE Author: nvz
-# SAUCE Group: rmtz
-# SAUCE Date: 19960922
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: rmtz-logo by nvz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmtz-3-nvz-rmtz
 
 Write-Host '
 [34m█████████▀▀▀▀▀▀▀▀█▀████████▀▀▀▀▀▀▀▀█▀█████▀▀▀▀▀▀▀▀█▀█████▀▀▀▀▀▀▀▀█▀█████████████[0m

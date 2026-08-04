@@ -1,18 +1,4 @@
-﻿# Converted from: FV-REZ1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dom-9706/raw/FV-REZ1.ANS
-# Source Revision: archive-sha256:a16d91b4075cff760b5038e2a8f1aab02d1965c9e4bbc85ed187b0405326b9b6
-# Source SHA-256: d6169cc6f9301681b23a49c3a540c43598f84c48a53eb5c45670aef9c3926855
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-REZ1.ANS by Fever (Domino); released in dom-9706 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Rez
-# SAUCE Author: Fever
-# SAUCE Group: Domino
-# SAUCE Date: 19970605
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Rez by Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dom-9706-fv-rez1
 
 Write-Host '
 [1;30;47m▓▀[0;30;47m [0;1;30;47m▀░█[0;1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;47m█[0;30;47m   [0;1;30;47m▄▄░[0;1;30;40m██▀▀▀[0m [1;30m▀▀[0m [1;30m▀[0m                     [1;30m▀[0m  [1;30m▀▀[0m [1;30m  ▀▀▀▀[0;1;30;47m▄ [0;30;47m [0;1;30;47m▄░░[0;30;47m [0;1;37;47m░░▀[0m

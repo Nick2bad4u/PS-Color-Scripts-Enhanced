@@ -1,18 +1,4 @@
-﻿# Converted from: lmn-jilistina.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure80/raw/lmn-jilistina.ans
-# Source Revision: archive-sha256:6ccade3320791158c22ef03d56ecb45d9c0b8545b126c0cb47ca0f6ff3905e48
-# Source SHA-256: 5cdb620ac94bdff27f5376b858a7b9be9e998ba06608372fcba0ac7c065f4078
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: lmn-jilistina.ans by lmn (brx); released in impure80 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: lmn
-# SAUCE Group: brx
-# SAUCE Date: 20210822
-# SAUCE Dimensions: 80x49
-# SAUCE Font: IBM VGA
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: lmn-jilistina.ans by lmn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure80-lmn-jilistina
 
 Write-Host '
 [47m [0;30;47m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;37;47m [0m

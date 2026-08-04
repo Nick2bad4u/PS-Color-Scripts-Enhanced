@@ -1,18 +1,4 @@
-﻿# Converted from: PC-INSIT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense11/raw/PC-INSIT.ANS
-# Source Revision: archive-sha256:0690b90402a70581c8f215d3ac545dcd69504e18bce536e07fefa6abfa4129ef
-# Source SHA-256: 27fe4b4f25cd421e363de0956652521333d0815a11ee4332a1268c3879ba3015
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-INSIT.ANS by Proctoman (SeNSE); released in sense11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Insitol
-# SAUCE Author: Proctoman
-# SAUCE Group: SeNSE
-# SAUCE Date: 19980629
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Insitol by Proctoman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense11-pc-insit
 
 Write-Host '
                            [1;34m.[0m

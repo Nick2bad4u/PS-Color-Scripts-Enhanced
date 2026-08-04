@@ -1,18 +1,4 @@
-﻿# Converted from: RC(NEOT).ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lc-0296/raw/RC(NEOT).ANS
-# Source Revision: archive-sha256:3f7b223bd8c0e8475528d5064e009722f346681e36989df863da8447e129b00b
-# Source SHA-256: 6ea2e4dbdda84ea18d348842453083274302f42d9f3d12e588f0d9abd6e732c5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RC(NEOT).ANS by 2_ \~paradise\ ^2 (.logO%Creators.); released in lc-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: .neO%Tokyo.
-# SAUCE Author: 2_ \~paradise\ ^2
-# SAUCE Group: .logO%Creators.
-# SAUCE Date: 19960123
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: .neO%Tokyo. by 2_ \~paradise\ ^2 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lc-0296-rc-neot
 
 Write-Host '
                           [36m░[0m             [36m▄[0m   [36m▄[0;1;36;46m▒[0;36m▄[0m

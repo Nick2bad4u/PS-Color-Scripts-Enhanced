@@ -1,13 +1,4 @@
-﻿# Converted from: SG-POD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twi-9704/raw/SG-POD1.ANS
-# Source Revision: archive-sha256:68d9184802f1c3d939ca7a7ac7413b5c5be4b3d7535d7a26b6421026572c0c2f
-# Source SHA-256: 3a107c53a05bd1f3105891b4796ba5e459b4458aff1bbce064633ce6840914db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SG-POD1.ANS by Snake Grunger (twi-9704); released in twi-9704 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: SG-POD1.ANS by Snake Grunger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twi-9704-sg-pod1
 
 Write-Host '
   [1;30m░▒▓▓███▓▓░[0m [34m▀[0;1;34;44m▀[0;1;34;47m█▓[0;1;34;40m█▀▀▀[0;1;34;44m▀[0;1;34;47m▓▒█[0;1;34;40m▀[0;34m [0;37m [0;1;34m▄[0;1;34;44m▄█[0;1;34;40m▀█[0;1;34;44m▄[0;34m▄[0;37m  [0;34m▀[0;1;34;44m█[0;1;34;47m▓▓[0;1;34;40m▀▀[0;34m█[0;1;34m▄▄[0;34m▄[0m

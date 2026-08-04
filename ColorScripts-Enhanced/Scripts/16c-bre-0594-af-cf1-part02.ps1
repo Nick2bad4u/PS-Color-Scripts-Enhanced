@@ -1,13 +1,4 @@
-﻿# Converted from: AF-CF1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bre-0594/raw/AF-CF1.ANS
-# Source Revision: archive-sha256:11a071106b04a23c6b0c17a636ca742d7c7bbe6aabdc48618080c5d4dd3f1ec6
-# Source SHA-256: a7ea6acb1ad7bc048b7827f096c32bd22c0a29ae46d23994d1dd7fb7597971d9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AF-CF1.ANS by Acidflash (bre-0594); released in bre-0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 38-80
-# Columns: 1-80
+﻿# Artwork: AF-CF1.ANS by Acidflash | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bre-0594-af-cf1-part02
 
 Write-Host '
          [1;34m█[0;34m█▓▀[0;31m▄▄▀  ▄█████ █████▄█▄[0m             [31m█████  █▄██▀▄[0;34m▓▓ [0;1;34m█▀[0;34m▄░░▐░░░░░░░░░░░▄[0m

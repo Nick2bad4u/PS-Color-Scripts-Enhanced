@@ -1,18 +1,4 @@
-﻿# Converted from: MS-MYTG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0896/raw/MS-MYTG1.ANS
-# Source Revision: archive-sha256:aea0eeb92b0eab79feeb93a911e40d78834e5950cdc396c43c83fe60a2627fad
-# Source SHA-256: d53fe7b123166b05793ead137347371bef5ce38f121cffcbb8239e38b181cc4a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MS-MYTG1.ANS by Morphius ([Quad-P]); released in quad0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Maytag
-# SAUCE Author: Morphius
-# SAUCE Group: [Quad-P]
-# SAUCE Date: 19960605
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Maytag by Morphius | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0896-ms-mytg1
 
 Write-Host '
                        [1;30m________[0;1;33m [0m            [32m   [0;1;30m________[0m

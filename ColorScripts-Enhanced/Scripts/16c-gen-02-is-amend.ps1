@@ -1,18 +1,4 @@
-﻿# Converted from: is-amend.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gen-02/raw/is-amend.ans
-# Source Revision: archive-sha256:a8bb305fa74299fe2b84ac6a7c53e3f231aa6311f01121f9650c819a93a468d5
-# Source SHA-256: c96b2fb877dfc199b262d2ddb721e2c2d1ccb18d5b5d4e2035e8d00724e1bbe9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: is-amend.ans by prosthesis (legion); released in gen-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: amend menu
-# SAUCE Author: prosthesis
-# SAUCE Group: legion
-# SAUCE Date: 19970101
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: amend menu by prosthesis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gen-02-is-amend
 
 Write-Host '
 [36m                               [0;37m [0;1;32;42m░░░▓▓▓█▀▀▀██▓▓▓▓░░░[0;32m█████▌[0;37m                       [0m

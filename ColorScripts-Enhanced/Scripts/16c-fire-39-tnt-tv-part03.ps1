@@ -1,19 +1,4 @@
-﻿# Converted from: TNT-TV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-39/raw/TNT-TV.ANS
-# Source Revision: archive-sha256:5e57507ce34170a4afb707b1587800d0885fae4776f1271b7b7cee7f71264d9d
-# Source SHA-256: 1d8095aa76b47cb6b21059ddfb6374a052f368fa613a763d936e0374209e4ed6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNT-TV.ANS by tainted (Fire); released in fire-39 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Vault BBS
-# SAUCE Author: tainted
-# SAUCE Group: Fire
-# SAUCE Date: 20240303
-# SAUCE Dimensions: 80x158
-# SAUCE Font: IBM VGA
-# Lines: 81-119
-# Columns: 1-80
+﻿# Artwork: The Vault BBS by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-39-tnt-tv-part03
 
 Write-Host '
 [31m▄[0m            [31m▄▄[0;1;31;41m▀[0;31m▀▀[0;1;31m▄▄[0;31m▀[0;37m [0;1;30m█[0m [1;30m░░[0m             [1;30m░  ▓[0m      [31m▄░▓▀▀▀[0m        [31m▀[0;37m  [0;1;30m▀[0m  [1;30m▄[0m▄ [1;30;47m▓[0;1;30;40m▌[0;1;30;47m▌▐[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: GR-FFG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9603/raw/GR-FFG.ANS
-# Source Revision: archive-sha256:f6d7d8628f8fd582effd93b8e838e75d5d9c5ee94417e33eb7b84c6b3ba37ea3
-# Source SHA-256: ff2d0fd2d9f8464b300569c77a19c8b8e53e4cdb4123d987ca8642f94e42cfbe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GR-FFG.ANS by grendel (blade productions); released in blde9603 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fall from grace
-# SAUCE Author: grendel
-# SAUCE Group: blade productions
-# SAUCE Date: 19960311
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: fall from grace by grendel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9603-gr-ffg
 
 Write-Host '
    [33;43m▓▒▒▒▒▒▓[0;33;40m▀[0m [33;40m▄▀[0m [33;40m▄[0;33;43m░▒[0m [33;40m█[0m  [33;40m▄[0;33;43m▓▓▓[0;33;40m▀▀▀▀[0m     [30;41m░░░░[0;31;40m████▀░[0;34;40m▄[0;1;34;44m░▒▓▓▓▒▒▒░[0;30;44m░[0;34;40m▓▒░░[0m     [30;44m▀▀▀[0;1;34;44m░░[0;34m▀▀░[0;30;44m▀[0;1;34;44m░[0;34m▒░[0m [31m▀█[0m

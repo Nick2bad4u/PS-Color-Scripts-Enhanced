@@ -1,18 +1,4 @@
-﻿# Converted from: BZ-AMB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amb-0002/raw/BZ-AMB1.ANS
-# Source Revision: archive-sha256:ddf2bfb6c349501ad0002133992d1d3c9602291731a9f4cef0d5ef9af30b761f
-# Source SHA-256: 284d60bbf7cf381ef7182000a824fc73befe2ba6a4a7062b252e37f3b3673b57
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BZ-AMB1.ANS by Biozard (Ambush); released in amb-0002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: AMBUSH Logo #1
-# SAUCE Author: Biozard
-# SAUCE Group: Ambush
-# SAUCE Date: 19961103
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: AMBUSH Logo #1 by Biozard | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amb-0002-bz-amb1
 
 Write-Host '
 [31m   [0m                        [36m  [0;1;30m [0;1;34m░[0m                                    [1;34m░[0m

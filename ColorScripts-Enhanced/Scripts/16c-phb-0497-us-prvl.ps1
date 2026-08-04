@@ -1,18 +1,4 @@
-﻿# Converted from: US-PRVL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phb-0497/raw/US-PRVL.ANS
-# Source Revision: archive-sha256:85681ee98c1ba1a2744730faa07d763080600c62bb25593bcf45c740268afee1
-# Source SHA-256: c35c0395ca51e29221a4b91cd68028be7087b4c60ddeecdfcb39b465c75a2f92
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PRVL.ANS by Bym + Krazie (pHOBIA/fUSION); released in phb-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: prevail (joint)
-# SAUCE Author: krazie and bym
-# SAUCE Group: pHOBIA/fUSION
-# SAUCE Date: 19970325
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: prevail (joint) by Bym + Krazie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phb-0497-us-prvl
 
 Write-Host '
 

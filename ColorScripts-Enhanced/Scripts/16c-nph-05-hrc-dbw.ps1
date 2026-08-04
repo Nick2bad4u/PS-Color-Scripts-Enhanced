@@ -1,18 +1,4 @@
-﻿# Converted from: HRC-DBW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-05/raw/HRC-DBW.ANS
-# Source Revision: archive-sha256:32c1f67ac6058d9066b580c3bd5854b0529a1844e2dce2e40def969bcce3e47d
-# Source SHA-256: a038af9955253be9361d38dfe5d63185f30ae70f5a413fee8eaf956ae830655f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HRC-DBW.ANS by .s$ hURRICANE $s. (.s$ nITROPHUSION $s.); released in nph-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: .s$ dA^bEAT'LL^aNSI $s.
-# SAUCE Author: .s$ hURRICANE $s.
-# SAUCE Group: .s$ nITROPHUSION $s.
-# SAUCE Date: 19971203
-# SAUCE Dimensions: 80x50
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: .s$ dA^bEAT'LL^aNSI $s. by .s$ hURRICANE $s. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-05-hrc-dbw
 
 Write-Host '
 [1;30m[0;1;37m[0m

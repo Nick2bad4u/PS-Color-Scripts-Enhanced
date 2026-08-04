@@ -1,13 +1,4 @@
-﻿# Converted from: Us-pir8.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-28/raw/Us-pir8.ans
-# Source Revision: archive-sha256:5075ba49005d03d914b445336fa73ec4c758aeac80fb08567f1bf5da4e7e8bad
-# Source SHA-256: 765ee90a2d4170ecf67731f9552cd83ea4d8c9fc9c88029a41d057e00cbf2d3c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Us-pir8.ans by Enzo + Zerovision (glue-28); released in glue-28 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Us-pir8.ans by Enzo + Zerovision | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-28-us-pir8-part01
 
 Write-Host '
 [34m████████████████████████████████████████████████████████████████████████████████[0m

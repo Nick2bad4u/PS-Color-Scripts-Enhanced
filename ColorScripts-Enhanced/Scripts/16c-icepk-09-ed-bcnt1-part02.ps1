@@ -1,13 +1,4 @@
-﻿# Converted from: ED-BCNT1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-09/raw/ED-BCNT1.ICE
-# Source Revision: archive-sha256:1fcbf4aa1710b0a53349a8ea40276f5225ba911f5e9d163ab7e96a35bbed2cd0
-# Source SHA-256: e2d5097df87f171714ff267516eeb57e3e8c7815fc6ac0e239c265750f33141a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ED-BCNT1.ICE by Eternal Darkness (icepk-09); released in icepk-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-94
-# Columns: 1-80
+﻿# Artwork: ED-BCNT1.ICE by Eternal Darkness | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-09-ed-bcnt1-part02
 
 Write-Host '
 [33m   ░[0m                                  [32m░ [0;31m▄[0;33m▀▀▀▀▀ ▀▀▀███▓▓▓▓▓▓▓▓▓▓▓▒▒░░░░[0m

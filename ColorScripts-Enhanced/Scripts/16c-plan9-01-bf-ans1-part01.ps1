@@ -1,18 +1,4 @@
-﻿# Converted from: BF-ANS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plan9-01/raw/BF-ANS1.ANS
-# Source Revision: archive-sha256:11ed751a7ac4ac5dbbee82cc6719090d6140296a76820d53a19d7fb1c34aeb70
-# Source SHA-256: 12c70c32c4ff52d3fdae4995db4d40f0fcb52822133f1774b08662dbdcc66544
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BF-ANS1.ANS by Boba Fett (READ THE INI FILE); released in plan9-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 4ns1 c0ll3
-# SAUCE Author: Boba Fett
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19961229
-# SAUCE Dimensions: 80x25
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: 4ns1 c0ll3 by Boba Fett | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plan9-01-bf-ans1-part01
 
 Write-Host '
               t h e   p o w e r   o f   t h e   d a r k s i d e

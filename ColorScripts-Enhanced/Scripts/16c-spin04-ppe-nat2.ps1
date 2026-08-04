@@ -1,17 +1,4 @@
-﻿# Converted from: PPE-NAT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spin04/raw/PPE-NAT2.ANS
-# Source Revision: archive-sha256:d8d0b243395a454162bf4e70cc5ed89a7700344e3544729263edb9daedb33d8c
-# Source SHA-256: 2e445e549f294c57b460b98079ca2ad6f0679a0c857f626705cc8093ee576c2d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PPE-NAT2.ANS by purplee (spin); released in spin04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: purplee
-# SAUCE Group: spin
-# SAUCE Date: 19981201
-# SAUCE Dimensions: 80x34
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: PPE-NAT2.ANS by purplee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spin04-ppe-nat2
 
 Write-Host '
  [1m.,sMs,,..[0m                     [1;30m_..,,,,,,,,,,,,...________[0m

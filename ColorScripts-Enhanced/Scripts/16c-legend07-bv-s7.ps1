@@ -1,18 +1,4 @@
-﻿# Converted from: BV-S7.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/legend07/raw/BV-S7.ANS
-# Source Revision: archive-sha256:3712cd566b8bed7b1760317a3fccc3f73308ec1824fc5f6c1df906c5288bfa19
-# Source SHA-256: ab3fabacfcc7501c15089cb4febd473ded8bba83468315a425bfba5283a7ac47
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BV-S7.ANS by Black Viper (Legend); released in legend07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Saturn 7
-# SAUCE Author: Black Viper
-# SAUCE Group: Legend
-# SAUCE Date: 19960818
-# SAUCE Dimensions: 80x25
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Saturn 7 by Black Viper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-legend07-bv-s7
 
 Write-Host '
       ▄█[1;47m [0m█[1;47m  [0;1;30;47m░░▌[0m█[1;47m      [0m█████████████████[1;47m░░[0m███[1;47m  [0m███████[1;30;47m░[0m▓░            [34m▀[0;30;44m■[0;37;44m░[0;34;47m░[0;37;44m█[0;1;37;47m░░[0;1;34;47m [0m▄▄[34m▄▄[0m

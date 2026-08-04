@@ -1,18 +1,4 @@
-﻿# Converted from: SHAD-01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst-04/raw/SHAD-01.ANS
-# Source Revision: archive-sha256:543ebaa9dc913db4fd846262b24c3af0e544188904d03573cc23d78e8ec876b3
-# Source SHA-256: ce8c16aa3246fb43b7a2aa73b417ae5ea1b17d520db46ad718dd5d0fb53cf90d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SHAD-01.ANS by Shadow Runner (Twisted Ansi); released in twst-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: turmoil request for r3ptile, yay.
-# SAUCE Author: Shadow Runner
-# SAUCE Group: Twisted Ansi
-# SAUCE Date: 19970323
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: turmoil request for r3ptile, yay. by Shadow Runner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst-04-shad-01
 
 Write-Host '
 [1;36;46m              [0m  [35m▄▄██▄▀█▄████▀▀▀████▄▄▄█▄█▄███████▄▄▀▄███▀▄▀█▄▀▄ ▀ ▄[0m

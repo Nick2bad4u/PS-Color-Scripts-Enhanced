@@ -1,18 +1,4 @@
-﻿# Converted from: RG-AH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ddt-t-lp/raw/RG-AH.ANS
-# Source Revision: archive-sha256:4020c8e659b4f8541f44dab07bc3db79a2d065026589a7126dc7ff79c1f63de6
-# Source SHA-256: 5da08814cd2f622f2284cc2352216c5765978a58d9f85332e17780bdd2091a1f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RG-AH.ANS by Royal Ghost (DDT Ent. Production); released in ddt-t-lp and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Ambient Hause
-# SAUCE Author: Royal Ghost
-# SAUCE Group: DDT Ent. Production
-# SAUCE Date: 19950825
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Ambient Hause by Royal Ghost | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ddt-t-lp-rg-ah
 
 Write-Host '
      [31m▄[0;1;31;41m▒░[0;31;47m▀▀▀▀▀[0m▄▄▄[1;30m▄▄  ▄▄[0m▄▄▄    [1;31;41m▒[0;41m▄▄▄[0;1;41m▄[0;1;40m▄[0m                         [1;30;40m██[0;1;30;47m▓[0;1;30;40m█[0m

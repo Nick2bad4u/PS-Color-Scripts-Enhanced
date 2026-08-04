@@ -1,18 +1,4 @@
-﻿# Converted from: 3_ATOMIQ.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-lc-artdisk/raw/3_ATOMIQ.ans
-# Source Revision: archive-sha256:d99dd05882b547bcfac565e3fc99e4c20080a2bb9c34c833b810d4e465d15217
-# Source SHA-256: e8fe97ffc0b96ca00309523686e9af265ae3947824b141433beb0363ff77cb9b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 3_ATOMIQ.ans by tricolore (lazarus); released in mist-lc-artdisk and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: atom i q  u    e
-# SAUCE Author: tricolore
-# SAUCE Group: lazarus
-# SAUCE Date: 19971011
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: atom i q u e by tricolore | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-lc-artdisk-3-atomiq
 
 Write-Host '
                                             [1m▄▄▄▄▄[0m

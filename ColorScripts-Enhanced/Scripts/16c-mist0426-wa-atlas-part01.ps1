@@ -1,20 +1,4 @@
-﻿# Converted from: WA-ATLAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0426/raw/WA-ATLAS.ANS
-# Source Revision: archive-sha256:c759ba228fb42808866da1267838a1ce2371215b87bc273c64f35f4bc653e77d
-# Source SHA-256: 7845e9470586c51c5e9f9c5c480ad744bea195f082eb59b49c4390e70f41268e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WA-ATLAS.ANS by warpus (LAZARUS); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ATLAS HISTORYCZNY SWIATA
-# SAUCE Author: warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20260427
-# SAUCE Dimensions: 80x56
-# SAUCE Font: IBM VGA
-# SAUCE Comments: i have read this book so many times
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: ATLAS HISTORYCZNY SWIATA by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0426-wa-atlas-part01
 
 Write-Host '
 [33m▓▓█████████████████████████████████████████████████[0;1;37;43m▓▓▓▓[0;1;37;40m▒▒[0;1;37;43m░[0;33m██████[0;1;37;43m▀[0;33m███████████████[0m

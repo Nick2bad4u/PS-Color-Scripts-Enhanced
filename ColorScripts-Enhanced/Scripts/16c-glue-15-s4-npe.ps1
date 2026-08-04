@@ -1,13 +1,4 @@
-﻿# Converted from: S4-NPE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-15/raw/S4-NPE.ANS
-# Source Revision: archive-sha256:27d6625e69a5207f7e1ecdf7cdf18b62e352300eb88e02c3e1b0355793535d53
-# Source SHA-256: b11afcfe4da28725810fa3b654c56ae1b6e9bd029fdccdfd9b2102b8d2382772
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S4-NPE.ANS by Static4 (glue-15); released in glue-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: S4-NPE.ANS by Static4 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-15-s4-npe
 
 Write-Host '
 [1;30m                         [0;36m [0;1;37m▄[0m   [1;30m             [0;36m  [0;35m▄[0;36m  [0;1;30m                                [0m

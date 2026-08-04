@@ -1,18 +1,4 @@
-﻿# Converted from: PPA!D0N.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p09_00/raw/PPA!D0N.ANS
-# Source Revision: archive-sha256:2d55e0471b241c84b2000d7f1ba05c65c9f1c93ead6af87d8d0b58764c2b8dba
-# Source SHA-256: ed76da882a2f4d5a0b2e9b48c2a3d60cd5d5d6c03903becc34c74011192faa85
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PPA!D0N.ANS by protoplasta (kwadrat); released in l0p09_00 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: d0n w stylu anomite
-# SAUCE Author: protoplasta
-# SAUCE Group: kwadrat
-# SAUCE Date: 20001128
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: d0n w stylu anomite by protoplasta | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p09-00-ppa-d0n
 
 Write-Host '
         [1;30;47m█[0;1;30;40m▄▄▄▄▄▄▄▄▄[0;1;30;47m▀▀[0;1;30;40m▄▄[0m      [1;30m▄▄▄▄▄▄▄[0m

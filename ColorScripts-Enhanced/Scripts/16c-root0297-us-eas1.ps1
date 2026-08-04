@@ -1,15 +1,4 @@
-﻿# Converted from: US-EAS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0297/raw/US-EAS1.ANS
-# Source Revision: archive-sha256:ecfcd3f5cd2c4412c60edbfa5c15fbea724948a8a18d0e8a8931276c9082657e
-# Source SHA-256: 1e580d744b57065dd865a45a1705c3d96c563b65d8116739c1b630364a385af4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-EAS1.ANS by Dislogic + Necrolyte (root0297); released in root0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ease (2 versions)
-# SAUCE Author: Dislogic & Necrolyte
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Ease (2 versions) by Dislogic + Necrolyte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0297-us-eas1
 
 Write-Host '
 [1;30m[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: AN-CBY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-02/raw/AN-CBY.ANS
-# Source Revision: archive-sha256:858a1e4b95c8b301fd8a167aace5874339b6be7ce2ab7716a34c2982e7cd8c00
-# Source SHA-256: a8fdfbede96cf90806f965fba41134e6ae19fcacdd03a774118653240178a5e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AN-CBY.ANS by ANuBiS (FORCe); released in force-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: MiNDFLuX - Da CiTY
-# SAUCE Author: ANuBiS
-# SAUCE Group: FORCe
-# SAUCE Date: 19950521
-# SAUCE Dimensions: 80x144
-# Lines: 50-96
-# Columns: 1-80
+﻿# Artwork: MiNDFLuX - Da CiTY by ANuBiS | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-02-an-cby-part02
 
 Write-Host '
 [36m███[0;1;36;46m░▒░[0;36m████[0;1;36;46m░[0;36m███[0;1;36;46m ░[0;36m██████[0;1;36;46m░[0;36m███[0;1;36;46m░[0;36m█████[0;1;36;46m░░[0;36m  ███[0;1;36;46m ▒░░░▒[0;36m███[0;1;36;46m ▒░░░[0m      [1;36;46m▓░▒▓▒░░░▒▒[0;36m█ ███[0;1;36;46m░[0;36m████[0;1;36;46m░[0m

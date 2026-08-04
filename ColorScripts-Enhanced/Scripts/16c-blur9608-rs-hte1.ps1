@@ -1,18 +1,4 @@
-﻿# Converted from: RS-HTE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blur9608/raw/RS-HTE1.ANS
-# Source Revision: archive-sha256:b7e32d66c5e7d34aeada9c181e3ca4f933570a8887545f8df4f9ab36f4c2fe1a
-# Source SHA-256: bcf74bd61ea19f019beac0652ef50da038600d0cc8d8b52834deb611e8e5435b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-HTE1.ANS by rip-saw (blur); released in blur9608 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Hell TeCH Enterprises
-# SAUCE Author: rip-saw
-# SAUCE Group: blur
-# SAUCE Date: 19960725
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Hell TeCH Enterprises by rip-saw | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blur9608-rs-hte1
 
 Write-Host '
                                      [1;31m░[0m

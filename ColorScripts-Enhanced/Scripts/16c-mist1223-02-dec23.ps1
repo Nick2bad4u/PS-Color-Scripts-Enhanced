@@ -1,20 +1,4 @@
-﻿# Converted from: 02_DEC23.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1223/raw/02_DEC23.ANS
-# Source Revision: archive-sha256:86d02e5103ccb7950792473f0c3e4ca18e595c9011c06df5ce1fe1692dbd9f5a
-# Source SHA-256: dc8bd0257dbae70a06ca73f376c96329ee84d629580637448a76650caaa42331
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 02_DEC23.ANS by darokin (Mistigris); released in mist1223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 02DEC
-# SAUCE Author: darokin
-# SAUCE Group: Mistigris
-# SAUCE Date: 20231123
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: For Andyh advent calendar 2023
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: 02DEC by darokin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1223-02-dec23
 
 Write-Host '
 [1;41m▀▀█▀▀▀▀▀█[0;1;30;40m▒▒[0;1;36;40m█████████████[0;1;30;40m▒[0;1;37;41m▀▄░▀▀▀▀▀[0;1;37;43m▓[0;1;37;41m▀▀▀▀[0;1;37;43m▓[0;1;37;41m▀▀[0;1;37;47m▓[0;1;36;46m░▒[0;1;36;40m████████████████████████[0;1;37;41m██[0;1;37;47m▐[0;1;31;40m█████[0;1;31;41m▓[0;1;35;45m▓[0;1;35;47m██[0m

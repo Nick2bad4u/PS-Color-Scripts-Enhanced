@@ -1,18 +1,4 @@
-﻿# Converted from: VG-TOFH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roc-0895/raw/VG-TOFH.ANS
-# Source Revision: archive-sha256:ac9d7e0591648d98cdf39e060d2cd0499e78185e449581363392faf1897b43a0
-# Source SHA-256: ecd8ea84cf2f02fe04c5f49e06a8240b91f751a852808b2e344420e56586ab04
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VG-TOFH.ANS by Voltage (Rulers Of Chaos); released in roc-0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ToFH
-# SAUCE Author: Voltage
-# SAUCE Group: Rulers Of Chaos
-# SAUCE Date: 19950726
-# SAUCE Dimensions: 80x112
-# Lines: 38-75
-# Columns: 1-80
+﻿# Artwork: ToFH by Voltage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roc-0895-vg-tofh-part02
 
 Write-Host '
 [34m███▀▓ [0;36m▄████████▄[0;31m▀██[0;1;31;41m ▀[0;1;31;40m███████████████▄[0;1;30;40m▀▀█████▀[0;1;31;40m ▄▄█▀[0;36m▄█████████████████████████████[0m

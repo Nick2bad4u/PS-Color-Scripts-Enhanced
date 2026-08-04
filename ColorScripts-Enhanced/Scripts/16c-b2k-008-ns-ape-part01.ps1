@@ -1,13 +1,4 @@
-﻿# Converted from: NS-APE.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/b2k-008/raw/NS-APE.ANS
-# Source Revision: archive-sha256:3e9b4d7ccfde9a1c352ae7ce24e0af4f59bdd242e0d3360fde6cc827e611aabf
-# Source SHA-256: a1d444ea612c329af12959b3d4333d375d920e67a5051e601df63617273ad775
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NS-APE.ANS by Ansichrist (b2k-008); released in b2k-008 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: NS-APE.ANS by Ansichrist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-b2k-008-ns-ape-part01
 
 Write-Host '
 [31m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: V9-FUZZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0297/raw/V9-FUZZ.ANS
-# Source Revision: archive-sha256:12d66e55bc50470ef328e6f9ec21c65dbe558f61a1cf46f5aac359e3cb051dfe
-# Source SHA-256: d9d6c2f0f903e5d124a5cdcdf7188671c81d492f3b0817f3d05258d280555dcc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: V9-FUZZ.ANS by Vade79 (f1RE); released in fire0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Fuzz Hut
-# SAUCE Author: Vade79
-# SAUCE Group: f1RE
-# SAUCE Date: 19970204
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: The Fuzz Hut by Vade79 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0297-v9-fuzz
 
 Write-Host '
                                ▄[1m▄▄▄▌[0;36m [0;37m  [0;1;30m   [0m    [1;30m      [0m                ▄[1m▄▄▄▌[0m

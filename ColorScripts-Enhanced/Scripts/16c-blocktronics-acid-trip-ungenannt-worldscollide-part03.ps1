@@ -1,19 +1,4 @@
-﻿# Converted from: ungenannt_worldscollide.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_acid_trip/raw/ungenannt_worldscollide.ANS
-# Source Revision: archive-sha256:c0717ff5cb7d462ed7fa9a55edd7235adbd3f09e01132486021497c9281171b6
-# Source SHA-256: 511b6b63cfc27c378e856508c5bba78e17a76bc0d6a79df5a56822e8e25f7f41
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ungenannt_worldscollide.ANS by ungenannt (blocktronics); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: worlds collide
-# SAUCE Author: ungenannt
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x164
-# SAUCE Font: IBM VGA
-# Lines: 83-123
-# Columns: 1-80
+﻿# Artwork: worlds collide by ungenannt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-acid-trip-ungenannt-worldscollide-part03
 
 Write-Host '
 [31m▌ ▓[0;1;31;41m░░[0;31m█ [0;33m▐▓▓▓▄▄  ▀██[0;1;33;43m░░[0;33m▓▓▓[0;30m██[0;37m████▀▀▀▀░ ▀▌▀▌ ▀ [0;33m▀▀[0;1;37m▄▄█[0;1;37;47m████▓▓▓▓▓▓░[0m▄▄[1;30m░░░[0m     [30m███[0;1;30m▐█[0;1;30;47m▓▀▀▐[0;1;30;40m██[0m

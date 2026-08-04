@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-CSDA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0797/raw/BYM-CSDA.ANS
-# Source Revision: archive-sha256:36665a37d029524a07b3c0ade06e9ef3ded1bb8e68470bcb59063cd367dc113e
-# Source SHA-256: 2e2037c9c3d79af75648ca1d04b42e41bbefc12d40e96b1d6e4437568256291d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-CSDA.ANS by big yellow man (phobia); released in plf-0797 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: cream soda
-# SAUCE Author: big yellow man
-# SAUCE Group: phobia
-# SAUCE Date: 19970709
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: cream soda by big yellow man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0797-bym-csda
 
 Write-Host '
 

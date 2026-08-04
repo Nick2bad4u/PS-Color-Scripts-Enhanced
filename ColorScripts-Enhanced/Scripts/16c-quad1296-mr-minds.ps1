@@ -1,18 +1,4 @@
-﻿# Converted from: MR-MINDS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad1296/raw/MR-MINDS.ANS
-# Source Revision: archive-sha256:39733ed0864fbad557d48d5b0be7bcb3c03788a44b9cfbbe71a5cb00f202249d
-# Source SHA-256: ad6e58d0407f07ecbd12993ad4bfa1e61ccc68ab87cf8bd6bf2579ccefdade3c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-MINDS.ANS by Mithrandir (quad-p); released in quad1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: mind safari <for shamen>
-# SAUCE Author: Mithrandir
-# SAUCE Group: quad-p
-# SAUCE Date: 19961124
-# SAUCE Dimensions: 80x25
-# Lines: 1-12
-# Columns: 1-80
+﻿# Artwork: mind safari <for shamen> by Mithrandir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad1296-mr-minds
 
 Write-Host '
                                                                   [31m▄▄▓▄▄▄▄▄[0m

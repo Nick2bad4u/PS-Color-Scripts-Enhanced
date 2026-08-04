@@ -1,18 +1,4 @@
-﻿# Converted from: BW_BD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blawork/raw/BW_BD.ANS
-# Source Revision: raw-sha256:c29ad13466cd59383ddc36394b024bf9af185a4577335667939eede442da9bb0
-# Source SHA-256: c29ad13466cd59383ddc36394b024bf9af185a4577335667939eede442da9bb0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BW_BD.ANS by black weasel (boil); released in blawork and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: BD: "make your brain feels damaged"
-# SAUCE Author: black weasel
-# SAUCE Group: boil
-# SAUCE Date: 19970929
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: BD: "make your brain feels damaged" by black weasel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blawork-bw-bd
 
 Write-Host '
             [34m▐[0m     [31m█[0;1;31;41m▐[0;1;31;47m▄▀[0;1;31;41m▄[0;1;31;40m▄▄[0;31m▄    [0m              [31m█[0;1;31;41m  [0m

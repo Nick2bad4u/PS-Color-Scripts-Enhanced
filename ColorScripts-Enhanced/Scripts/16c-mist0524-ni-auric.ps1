@@ -1,20 +1,4 @@
-﻿# Converted from: NI-AURIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0524/raw/NI-AURIC.ANS
-# Source Revision: archive-sha256:26af390c70c8fbd1a650cda6420771d9febb05e55fff2dce05253b3fc19147b7
-# Source SHA-256: ee585e45d2ec88d3e186969f493dff90bb2b145069a7dd303b2deca46df27bda
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-AURIC.ANS by Nitron (Mistigris); released in mist0524 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: auricom
-# SAUCE Author: Nitron
-# SAUCE Group: Mistigris
-# SAUCE Date: 20240520
-# SAUCE Dimensions: 80x23
-# SAUCE Font: IBM VGA
-# SAUCE Comments: BY ANY OTHER NAME - THE FUTURE IS NOW
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: auricom by Nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0524-ni-auric
 
 Write-Host '
 [34m█████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█████████████████████▓▓▓[0;37;44m░[0;34;40m▓[0;37;44m░[0;34;47m▓[0;37;44m░░░░░░░░░░░░[0;1;37;44m░[0;44m░[0;1;44m░░░░░░░░░[0m

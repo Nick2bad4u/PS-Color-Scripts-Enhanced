@@ -1,18 +1,4 @@
-﻿# Converted from: CB-STR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat1296/raw/CB-STR.ANS
-# Source Revision: archive-sha256:7d01b0bd390151991b0a903d8d987d245c20f2b06635915da8eb049974bd356a
-# Source SHA-256: 5c8cf150a2db86604e182750724402fa6dcafc6f6ae716cd1b1d486aa417510d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CB-STR.ANS by christbane (phat); released in phat1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: str remake
-# SAUCE Author: christbane
-# SAUCE Group: phat
-# SAUCE Date: 19960412
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: str remake by christbane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat1296-cb-str
 
 Write-Host '
 [1;30m▄▓▀[0;1;34m ▄▄▄                        [0;1;37;47m▓[0m█[1;30;47m░▒▓[0;1;33;40m [0;1;34;40m▓▀[0;1;33;40m▓▄█▀▀▄▄█[0;1;33;43m▓[0;1;33;40m▀▀▄▄[0;1;33;43m█[0;1;33;40m█████████[0;1;33;47m██▓▓▓██[0;1;33;40m██[0;1;33;43m█▓█[0;1;33;40m▄▀[0;1;33;47m▓[0;1;33;40m▄ ▄[0m

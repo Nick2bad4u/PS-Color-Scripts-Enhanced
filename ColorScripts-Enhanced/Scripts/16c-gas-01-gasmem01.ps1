@@ -1,13 +1,4 @@
-﻿# Converted from: GASMEM01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gas-01/raw/GASMEM01.ANS
-# Source Revision: archive-sha256:e94fb6f4f8de41efd9ec99ed895127f6f53e7ed82a067b31c95910591cf49d88
-# Source SHA-256: 33024b635585d25a594c80f01f9c5a89030f6bedba7eb5503070c6e2716cbe5b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GASMEM01.ANS by Juice Gas (gas-01); released in gas-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: GASMEM01.ANS by Juice Gas | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gas-01-gasmem01
 
 Write-Host '
   [32m░   [0;1;37m▄[0m▄   [32m░[0m        [32m░   ░ ░[0;1;32m░[0;32m░  ░░ ░ ░  ░▒░  ░░   ░ ░[0m           [32m░ ░[0m             [32m░[0m

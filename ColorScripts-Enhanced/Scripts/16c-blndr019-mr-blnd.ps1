@@ -1,17 +1,4 @@
-﻿# Converted from: MR-BLND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr019/raw/MR-BLND.ANS
-# Source Revision: archive-sha256:ad90ded7200a58bab801f751fabe1211ce5c038aeaa3a5fcedbee3c905282a6d
-# Source SHA-256: e7cc4ef391d13cb0c3ab07bd2114d47cb9a72c6e71abe230c424052a5538acfa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-BLND.ANS by minotaur (maiden^brazil); released in blndr019 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: being scared/e.t./stonehenge!
-# SAUCE Author: minotaur
-# SAUCE Group: maiden^brazil
-# SAUCE Date: 19970315
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: being scared/e.t./stonehenge! by minotaur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr019-mr-blnd
 
 Write-Host '
 [34m▄▐[0;34;44m [0;1;34;44m▄[0;34m█[0;1;34;44m▄▄[0;34m█[0;1;34;44m▄▄[0;34m▓▓[0;1;34;44m▄▄[0;34m██[0;1;34;44m▄▄▄▄▄[0;34m█[0;1;34;44m▄▄▄[0;34m███████████▌██[0;1;34;44m░░[0;1;37;44m███[0m   [36m▓[0;1;36;46m▄▄▄▄▄▄▌[0;1;36;47m [0;1;37;47m███[0;1;33;40m██[0;1;37;47m█████▀[0m▀▀▀ [36m░░░   [0;35m▄▄▄[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: US-SPIDER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-40/raw/US-SPIDER.ANS
-# Source Revision: archive-sha256:aff8105c0a955ac5c43ea367a02b086cd2849f6741fc41b8a5ff440b77e104a7
-# Source SHA-256: 424b39dbc42d4fa3d3ffd0994d2a8f3a37ce1a6f20052f487fb9a713b8ec797c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SPIDER.ANS by Savage + Tainted (fire); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: avenge
-# SAUCE Author: savage + tainted
-# SAUCE Group: fire
-# SAUCE Date: 20240707
-# SAUCE Dimensions: 80x123
-# SAUCE Font: IBM VGA
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: avenge by Savage + Tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-40-us-spider-part01
 
 Write-Host '
 

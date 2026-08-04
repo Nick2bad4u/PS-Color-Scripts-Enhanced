@@ -1,18 +1,4 @@
-﻿# Converted from: SN!HLM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak6/raw/SN!HLM.ANS
-# Source Revision: archive-sha256:b4f7c93716eee392b3e6c14cf967ef8fe1e7f7b1161a577fdbf227e863cb53fa
-# Source SHA-256: fab7945100eace619783726f2fae9871f47238263c7d3956a6d4ceb9498d8fcd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SN!HLM.ANS by Snowball (Ecolove); released in ecl-pak6 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Harlem World, A place to be
-# SAUCE Author: Snowball
-# SAUCE Group: Ecolove
-# SAUCE Date: 19980515
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Harlem World, A place to be by Snowball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak6-sn-hlm
 
 Write-Host '
 [1;30m▄▄▄▄▄▄ ▄ ▄[0m [1;30m [0m    [1m▄[0m▄▄▄▄▄▄[1;47m▀▄▄▄▄▄▄[0m▄▄▄▄▄▄▄▄[1m▄[0m   [1;30m ▄▄▄▄      ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

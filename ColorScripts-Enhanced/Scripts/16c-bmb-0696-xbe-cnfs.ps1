@@ -1,18 +1,4 @@
-﻿# Converted from: XBE-CNFS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0696/raw/XBE-CNFS.ANS
-# Source Revision: archive-sha256:fea269136894850bbc3733a7e378f47769430ca8b14c0592a0c25c525a6a95a4
-# Source SHA-256: 93ae9830e217fbd045c498d731490421bb78a3820e7232ad4830b3f935faf9f8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XBE-CNFS.ANS by Xerobe (Bamboosh); released in bmb-0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Conferences [ans]
-# SAUCE Author: Xerobe
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19960602
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Conferences [ans] by Xerobe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0696-xbe-cnfs
 
 Write-Host '
               [31m▄▄[0m

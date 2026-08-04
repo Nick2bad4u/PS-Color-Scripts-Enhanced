@@ -1,20 +1,4 @@
-﻿# Converted from: FIL-G0NK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-45/raw/FIL-G0NK.ANS
-# Source Revision: archive-sha256:0564021806e0277d72a0e235c044a0e0470226ba860a8976e1e3092326555d1d
-# Source SHA-256: 21a8f9228e1613f3d7f176f267e862ff134bb295c20baa47550ddcbac5a309a5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FIL-G0NK.ANS by filth (FiRE); released in fire-45 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: BLADE
-# SAUCE Author: filth
-# SAUCE Group: FiRE
-# SAUCE Date: 20260303
-# SAUCE Dimensions: 80x290
-# SAUCE Font: IBM VGA
-# SAUCE Comments: How to make a Jackie Welles: | Shot of vodka, lime juice, ginger beer, and most importantly, a | splash of love. | 1. Fill a copper mug (or highball glass) with ice. | 2. Pour in the vodka and lime juice. | 3. Add the "splash of love" (e.g., grenadine). | 4. Top with ginger beer and stir gently. | 5. Garnish with a lime wedge. | 6. Enjoy, choom!
-# Lines: 146-193
-# Columns: 1-80
+﻿# Artwork: BLADE by filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-45-fil-g0nk-part04
 
 Write-Host '
 [33m▌[0;37m [0;33m▄▄[0;1;33;43m▄▄▄▄[0;33m█▄▄▄▄[0;37m   [0;1;30m▀▀[0m▀  [1;30m▄[0m    [31m▀▀[0;37m  [0;1;30m▀[0;31m▀▀▓▓█[0;1;30m▓▓[0;1;30;41m░[0;31m▓░▓[0m       [1;33m▄▄[0m [1;33m▐█[0m [34;43m X[0;1;31;43m░[0m [33m▀▄[0;1;33m▄[0;1;33;43m░[0;33m▌▓█▓[0;1;31;43m░[0m  ▀[33m▄▌[0;1;30m▓▓▀  [0;31m▄▄[0m

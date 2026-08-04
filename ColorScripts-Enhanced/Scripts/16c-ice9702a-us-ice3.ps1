@@ -1,13 +1,4 @@
-﻿# Converted from: US-ICE3.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9702a/raw/US-ICE3.ICE
-# Source Revision: archive-sha256:540831d4e1a356189219ffbceaa28d97157e006639aca48afc56a145bd0d4c8c
-# Source SHA-256: 64d9ecfb1c379ad2c004f3176299c67e20479fdf7dc108992fa5bd081c9c67fb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ICE3.ICE by Mass Murderer + Lord Soth (ice9702a); released in ice9702a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: US-ICE3.ICE by Mass Murderer + Lord Soth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9702a-us-ice3
 
 Write-Host '
          [31m   [0;37m [0;1;30m▄▄▄▄▄[0;1;37m [0m               [1;30m▄▄▄[0m        [1;34m▄[0;1;34;44m▓[0;34m▄[0m          [1;37m [0;1;30m▄▄░░░[0m           [1;34m▄[0;1;37m [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: DP!PSATC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/arsin-03/raw/DP!PSATC.ANS
-# Source Revision: archive-sha256:b1952eacd030af80ddc4b152453f55cce98d4a4de878359497f1bfaf1d3ab816
-# Source SHA-256: 987a3fefb845e15c4988dac2cc2506db94b8ef4fd4783b4fcb120beac051825d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DP!PSATC.ANS by Dead Piranha (arsin-03); released in arsin-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: DP!PSATC.ANS by Dead Piranha | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-arsin-03-dp-psatc
 
 Write-Host '
        [36m░[0m              [36m░    ░ [0;1;34mA [0;34mw [0;1;34ma [0;34mr d [0;1;34me [0;34md   t h [0;1;34me[0m                  [36m░[0m

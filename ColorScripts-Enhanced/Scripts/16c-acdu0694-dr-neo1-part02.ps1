@@ -1,18 +1,4 @@
-﻿# Converted from: DR-NEO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0694/raw/DR-NEO1.ANS
-# Source Revision: archive-sha256:f26eea3d1c8de7b926bd6f420e787345fadf7a72d1ec8422609f01c663360b65
-# Source SHA-256: 1fb2b13efd651e4e83593e871733f55e33155424aa0d3273feff6266b83f2a1a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DR-NEO1.ANS by Duster (ACiD Productions); released in acdu0694 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Neo Tokyo
-# SAUCE Author: Duster
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940601
-# SAUCE Dimensions: 80x131
-# Lines: 42-87
-# Columns: 1-80
+﻿# Artwork: Neo Tokyo by Duster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0694-dr-neo1-part02
 
 Write-Host '
 [1;37;47m         [0m [1;37;40m████[0;33m▐[0;1;31;43m░[0m [1;37;40m██▐▐[0;33m▐▀  [0;1;37m▀    [0;1;34;44m▒[0;1;34;40m▌[0;1;37;47m▓▒░[0m [1;31;40m▄█████████████▌[0;1;37;40m▐▌    [0;1;34;44m▒[0;34m▌[0;1;37;47m▓[0m [33m▄[0;1;31;43m▒░[0m [1;37;40m██████▀[0m▄[47m      [0m

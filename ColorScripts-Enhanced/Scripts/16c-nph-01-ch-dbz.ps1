@@ -1,18 +1,4 @@
-﻿# Converted from: CH!-DBZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-01/raw/CH!-DBZ.ANS
-# Source Revision: archive-sha256:599cc5d270a4d0147da5f37eff9386c7f67f74a074eb88659d141b05218146e0
-# Source SHA-256: 9a13bc20a986c88bba25121ff6a498c4b08311714bc55e39b51601ba5d200932
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CH!-DBZ.ANS by ChaoTiC! (.:[nITROPHUSION]:.); released in nph-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: DiVidE By ZerO AnSi!
-# SAUCE Author: ChaoTiC!
-# SAUCE Group: .:[nITROPHUSION]:.
-# SAUCE Date: 19970314
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: DiVidE By ZerO AnSi! by ChaoTiC! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-01-ch-dbz
 
 Write-Host '
 [1;30m[0m

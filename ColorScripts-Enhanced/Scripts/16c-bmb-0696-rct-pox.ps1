@@ -1,18 +1,4 @@
-﻿# Converted from: RCT-POX!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0696/raw/RCT-POX!.ANS
-# Source Revision: archive-sha256:fea269136894850bbc3733a7e378f47769430ca8b14c0592a0c25c525a6a95a4
-# Source SHA-256: 915520c45a330395587a82b31263028cb5090e629334e8e590f72b17810b1bde
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RCT-POX!.ANS by React (Bamboosh); released in bmb-0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: PointX logo [ans]
-# SAUCE Author: React
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19960531
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: PointX logo [ans] by React | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0696-rct-pox
 
 Write-Host '
  [1;34m▄   ▀[0m         [1;34m■[0m                                  [1;34m▄■  ▄  ▄  ■[0m

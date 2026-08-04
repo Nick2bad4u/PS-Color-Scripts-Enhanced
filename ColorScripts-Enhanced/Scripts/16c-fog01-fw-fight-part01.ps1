@@ -1,18 +1,4 @@
-﻿# Converted from: FW-FIGHT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fog01/raw/FW-FIGHT.ANS
-# Source Revision: archive-sha256:ff23beaaf7c5e678ddfe7245e38bf57fb73116ac88a53b810956f932c8c2da44
-# Source SHA-256: 120e7f1d252723a4fb1911fcbfe4d1470db98e3a6fc55f6b481d481677cca3a9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FW-FIGHT.ANS by FightWindeR (FiNiSH of GODz); released in fog01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fight 'Em All...
-# SAUCE Author: FightWindeR
-# SAUCE Group: FiNiSH of GODz
-# SAUCE Date: 19950803
-# SAUCE Dimensions: 80x121
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Fight 'Em All... by FightWindeR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fog01-fw-fight-part01
 
 Write-Host '
                                    [34m▐[0m

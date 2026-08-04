@@ -1,19 +1,4 @@
-﻿# Converted from: alpha_king-acid-underworld01.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_darker_image_2/raw/alpha_king-acid-underworld01.ans
-# Source Revision: archive-sha256:7282b405cc52219ce7cf6cd9d097796f1b25fc898e4c29fdb9f37c375d595996
-# Source SHA-256: aff594644a67fa9569f7e9ebe9e8e5046c110f26358cd528fc2d9197e0ecd617
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: alpha_king-acid-underworld01.ans by Alpha King (Blocktronics); released in blocktronics_darker_image_2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Violate
-# SAUCE Author: Alpha King
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20171205
-# SAUCE Dimensions: 80x97
-# SAUCE Font: IBM VGA
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: Violate by Alpha King | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-darker-image-2-alpha-king-acid-underworld01-part01
 
 Write-Host '
 [1;30;47m░[0m▀█▄░▓▄[1;30;47m░░[0m█[1;30;47m░░[0m█▄░░▓[1;30;47m░░░[0m█▓[1;34;47m░░░[0m▓▄░▄▄▓[1;34;47m░░[0;1;30;47m░[0m░▄[1;30m▄[0m░[1;30m ▄▄▌░[0m [1;30m▄▄▓█▄▄[0m

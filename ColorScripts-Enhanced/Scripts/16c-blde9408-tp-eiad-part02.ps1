@@ -1,13 +1,4 @@
-﻿# Converted from: TP-EIAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9408/raw/TP-EIAD.ANS
-# Source Revision: archive-sha256:802b0e00f1d7521280ab279c4507115014273c696f6db48a1d2c229cb379eb8a
-# Source SHA-256: 6f7781fdc3ef28f1ed246d2af5131818f114ccf3855f51ae81caf154a0fd1c2b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TP-EIAD.ANS by Technophreak (blde9408); released in blde9408 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 40-78
-# Columns: 1-80
+﻿# Artwork: TP-EIAD.ANS by Technophreak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9408-tp-eiad-part02
 
 Write-Host '
                                  [1;30;40m▐[0;1;30;42m▓▓▒░░░[0;32m██████████████ [0;1;35;45m░[0m [32m██ [0;1;35;45m▓[0;32m▐[0;36;42m░[0;32;40m█▌[0;1;35;40m▄[0;32m▀█[0m

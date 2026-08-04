@@ -1,18 +1,4 @@
-﻿# Converted from: AT-AWARD.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9505a/raw/AT-AWARD.ICE
-# Source Revision: archive-sha256:7861518dfd83d60b94b81bdb02a8d68bbd05655ea908dea3b656c859ebf9150f
-# Source SHA-256: 9ed34036e1ed13efa061cd7cc6b275803347d9117a3aac3f2ec948633ecc9451
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AT-AWARD.ICE by Aphex Twin (iCE); released in ice9505a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Awards '95
-# SAUCE Author: Aphex Twin
-# SAUCE Group: iCE
-# SAUCE Date: 19950603
-# SAUCE Dimensions: 80x25
-# Lines: 26-61
-# Columns: 1-80
+﻿# Artwork: Awards '95 by Aphex Twin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9505a-at-award-part02
 
 Write-Host '
                               [34m▀▀▀▀▀▀[0m          [36m▀▀████████████████████▓██████████[0m

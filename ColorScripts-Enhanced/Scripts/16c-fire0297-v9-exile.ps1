@@ -1,18 +1,4 @@
-﻿# Converted from: V9-EXILE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0297/raw/V9-EXILE.ANS
-# Source Revision: archive-sha256:12d66e55bc50470ef328e6f9ec21c65dbe558f61a1cf46f5aac359e3cb051dfe
-# Source SHA-256: 99840e017cae2c5e99d45388640505e5e9b0751a05e37403e8939e79b321c1bc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: V9-EXILE.ANS by Vade79 (f1RE); released in fire0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: EXiLE
-# SAUCE Author: Vade79
-# SAUCE Group: f1RE
-# SAUCE Date: 19970204
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: EXiLE by Vade79 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0297-v9-exile
 
 Write-Host '
  ▄[1;30m▄▄▄[0;1;34m ░[0;34m▌[0;37m░░░[0;30;47m▓[0;37;40m [0;1;34;40m░░▓█▄▄[0;1;34;44m▄[0;1;34;40m▀▀[0;1;34;44m▀[0;1;34;47m▓▄[0;34m▌[0;37m [0;1;37m▓[0;1;37;47m█▌[0m [1;30;47m▐[0;1;30;40m█[0m [1;34m░▀▀[0;1;34;47m▀[0;1;34;40m▄[0;1;34;47m▓▄[0;1;34;44m▀[0;1;34;40m▀▀[0;1;34;47m▓[0;1;34;44m▄[0;1;34;40m▄▄[0;1;34;47m▓▓▄[0;1;34;44m█▀[0;1;34;40m▀▒[0;34m▌▀▀[0;1;34m    [0;34m ▀[0;1;34m▀[0;1;34;44m▀[0;1;34;40m▌[0;34m▀[0;1;34m▀▀▀[0;1;34;44m▓▓▓░▀[0;1;34;40m█[0;1;37;44m░░▒[0m

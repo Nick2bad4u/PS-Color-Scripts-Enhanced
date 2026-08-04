@@ -1,13 +1,4 @@
-﻿# Converted from: US-IB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-04/raw/US-IB.ANS
-# Source Revision: archive-sha256:d99c3d6576b4ffe30ad10598ac465177e9b6d171d7a6c4fd056707ad27adce95
-# Source SHA-256: 0edfe9d3e1e1b67561f28cfb7956dd5c71cb2e812dc7c92b2d05ba5e2125e34c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-IB.ANS by Tarot + Ville (nerp-04); released in nerp-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: US-IB.ANS by Tarot + Ville | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-04-us-ib
 
 Write-Host '
 [1;31m  [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: T-HYPE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook12/raw/T-HYPE.ANS
-# Source Revision: archive-sha256:ec66f5bb4ed961133c52314c375d67af30a5295789eb6bfc6eda91ebf8999fc2
-# Source SHA-256: 408145c721f6e5a386432f97ef270c5fdb5d527282128f45417bf50bdeaefedb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T-HYPE.ANS by toot (black maiden); released in bmbook12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: hype promo
-# SAUCE Author: toot
-# SAUCE Group: black maiden
-# SAUCE Date: 19961221
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: hype promo by toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook12-t-hype
 
 Write-Host '
                    [1;36mToot[0;36mbm[0m          [35m░[0;30;45m▓[0m           [36;40m░[0;30;46m▓[0m

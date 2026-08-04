@@ -1,18 +1,4 @@
-﻿# Converted from: rep-dogsinohio.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/electionerection/raw/rep-dogsinohio.ans
-# Source Revision: archive-sha256:aff12aff033c4c0d581c9372c743eafea10922bf03c4ccd821e0ec515ca8c95d
-# Source SHA-256: 63c4fe390230edd3cb3aaf7a3a164b201f0a6953fe3b0f7b374dae3fc6d71089
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: rep-dogsinohio.ans by QANON (THEDRAWFACTORY); released in electionerection and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: QANON
-# SAUCE Group: THEDRAWFACTORY
-# SAUCE Date: 20240925
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: rep-dogsinohio.ans by QANON | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-electionerection-rep-dogsinohio
 
 Write-Host '
 [1;36m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█████████████████████████████████[0;1;36;47m█████[0;1;36;40m███████████████████████[0m

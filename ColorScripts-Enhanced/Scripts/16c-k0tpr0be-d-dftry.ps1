@@ -1,18 +1,4 @@
-﻿# Converted from: D!-DFTRY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k0tpr0be/raw/D!-DFTRY.ANS
-# Source Revision: archive-sha256:fcb0e37abcb9d171de6d5cc918649afa7e9c0f2f5173dba90a7d8c38f69cec3d
-# Source SHA-256: 0ec12219b6390338577aa727eb588abbce66cee0f0bb4981fada49295647abcb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D!-DFTRY.ANS by desert (dezign); released in k0tpr0be and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: damn first try
-# SAUCE Author: desert
-# SAUCE Group: dezign
-# SAUCE Date: 19960725
-# SAUCE Dimensions: 80x25
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: damn first try by desert | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k0tpr0be-d-dftry
 
 Write-Host '
         [34m████[0;1;34;44m░░░░░▒▒▒▓▒▓▓█▓▓▒▒▒▓▓█▓▓▒▒▓▓███▓▓████████████████████████████████████[0m

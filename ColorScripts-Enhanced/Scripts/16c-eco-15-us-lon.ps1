@@ -1,18 +1,4 @@
-﻿# Converted from: US-LON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-15/raw/US-LON.ANS
-# Source Revision: archive-sha256:409ec45d4d8a58bbd858f19a2194e4a9e60ce3a5a22824158eb9e0a6b60e9226
-# Source SHA-256: c053d63efa85785245583eec92ff9525277791f9a273635093693aff6676ffa0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-LON.ANS by President + Plons (ecolove); released in eco-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: little faget
-# SAUCE Author: president & plons
-# SAUCE Group: ecolove
-# SAUCE Date: 19990602
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: little faget by President + Plons | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-15-us-lon
 
 Write-Host '
 [1;31;47m▓█[0;1;31;43m▀▀[0;33m█[0;1;31;43mcpl+pr[0;33m██[0;1;31;43m▄▄▀▀▀▀[0;33m███[0;1;31;43m▄▄[0;33m█[0;1;31;43m ▀▀[0;1;31;40m█[0;1;31;47m█[0;1;31;43m▀[0;1;31;40m█▀▀▀▀[0m [1;30m [0;33m▀[0;1;33;43m▀[0;1;33;40m█[0;1;30;40m ▐[0;1;30;47m▌ [0;1;30;40m█ [0;33m▐[0;1;33m█████[0;1;33;47m█ [0m▌[1;34m [0;33m [0;1;34;47m [0;1;34;40m█████████████████████[0m

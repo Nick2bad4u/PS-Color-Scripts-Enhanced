@@ -1,18 +1,4 @@
-﻿# Converted from: TX-GEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gel-006/raw/TX-GEL.ANS
-# Source Revision: archive-sha256:6eb6a7ab7f678ffa2a5021a0a0e6e3bd937cc657eb05188e435685b0f506a10d
-# Source SHA-256: 16a9d0aa3380d1cf8a22a76df254948cb7b5f4e685751b603d444efdb7bca00b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TX-GEL.ANS by dominatrix (gel); released in gel-006 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: gel promo 1
-# SAUCE Author: dominatrix
-# SAUCE Group: gel
-# SAUCE Date: 19970817
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: gel promo 1 by dominatrix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gel-006-tx-gel
 
 Write-Host '
      [1m█▓[0;1;30m▓[0;1;37m [0m [1;30m▓[0;1;37m██[0;1;30m█[0;1;37m▄█▀[0m [1;30m░▒▓[0;1;37m▓█[0;1;30m▓▒░▒▓[0;1;37m█▓[0;1;30m█[0;1;37m▓█[0;1;30m░[0m [1;30m░░[0m [1;30m░▒[0;1;37m█[0;1;30m░[0;1;37m▓█[0;1;30m▓▒░[0;1;37m█▓█[0;1;30m░[0m [1;30m░░[0;1;37m▓▄[0;1;30m░[0m   [1m [0m  [1m▓▄▒[0m [1m▀▓█[0m

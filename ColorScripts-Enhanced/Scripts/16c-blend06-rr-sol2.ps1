@@ -1,18 +1,4 @@
-﻿# Converted from: RR-SOL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend06/raw/RR-SOL2.ANS
-# Source Revision: archive-sha256:bdb12df6fb66b6e7f7ab1240c15e9b23d66b94ced69828c85c717709162a24eb
-# Source SHA-256: b6cd3a8772b3216bae64f39e938989ddf61b676ef37c6c106792e62e6c5726e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RR-SOL2.ANS by riddler (blend productions); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: speed of light
-# SAUCE Author: riddler
-# SAUCE Group: blend productions
-# SAUCE Date: 19970114
-# SAUCE Dimensions: 80x15
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: speed of light by riddler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend06-rr-sol2
 
 Write-Host '
                                                 [30;44m█▀▀[0;34;40m▄▌ [0m

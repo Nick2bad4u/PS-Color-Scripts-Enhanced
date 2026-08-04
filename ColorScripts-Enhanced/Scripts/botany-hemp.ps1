@@ -1,11 +1,4 @@
-# Converted from: hemp3.ansi
-# Source encoding: utf8
-# Source URL: https://raw.githubusercontent.com/jifunks/botany/2802121ed8268df1b69584167a14d4c690aaea35/art/hemp3.ansi
-# Source Revision: 2802121ed8268df1b69584167a14d4c690aaea35
-# Source SHA-256: a2919289a3c14b6b8c6e3c2b9a08c4d7fc9bfdb652fa7a3c07ff270c5a719084
-# Source License: ISC
-# Source Attribution: Jacob Funke (jifunks)
-# Source Conversion Mode: Passthrough
+# Artwork: hemp3.ansi by Jacob Funke (jifunks) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=botany-hemp
 
 Write-Host '
 [38;5;7m [38;5;7m [38;5;7m [38;5;7m [38;5;7m [38;5;7m [38;5;7m [38;5;7m [38;5;7m [38;5;7m [38;5;7m [38;5;7m [38;5;7m%[38;5;8m [38;5;8m [38;5;8m [38;5;8m [38;5;8m [38;5;8m [38;5;8m [38;5;8m [38;5;8m [38;5;8m [38;5;8m 

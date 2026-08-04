@@ -1,18 +1,4 @@
-﻿# Converted from: US-HAZ2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9703/raw/US-HAZ2.ANS
-# Source Revision: archive-sha256:a9939674ffea8dfd0fb24f05e2f11874539fc93155c2d5ed5e55e91f76634858
-# Source SHA-256: 56568d036cc6fcb8605891d6986f2b20165223d393109fefda939aac0ca820a9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-HAZ2.ANS by Fluor + Massm (AWE Lettering); released in awe9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Hazard/2
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970304
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Hazard/2 by Fluor + Massm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9703-us-haz2
 
 Write-Host '
                                                                [36m■[0m

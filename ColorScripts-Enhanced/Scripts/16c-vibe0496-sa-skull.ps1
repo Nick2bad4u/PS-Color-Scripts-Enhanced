@@ -1,18 +1,4 @@
-﻿# Converted from: SA-SKULL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vibe0496/raw/SA-SKULL.ANS
-# Source Revision: archive-sha256:0ed539d3927d37805b592eb50ccf5ded7d0ff2544c2a1513d90568dad42847e7
-# Source SHA-256: 0719e79d04d5e527f3027b49b08cee6a376e20baf55525f2828b0509cc5e5cef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SA-SKULL.ANS by Sarcasm (ViBE); released in vibe0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Skull
-# SAUCE Author: Sarcasm
-# SAUCE Group: ViBE
-# SAUCE Date: 19960414
-# SAUCE Dimensions: 80x44
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Skull by Sarcasm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vibe0496-sa-skull
 
 Write-Host '
                           [1;30m░[0m

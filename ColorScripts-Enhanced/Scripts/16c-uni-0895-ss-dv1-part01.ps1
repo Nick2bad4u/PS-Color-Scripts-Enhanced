@@ -1,18 +1,4 @@
-﻿# Converted from: SS-DV1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0895/raw/SS-DV1.ANS
-# Source Revision: archive-sha256:d7578eae73cd5d7b840a098302ec5eecc570498f801ff39620bcdfbd3bc36d42
-# Source SHA-256: 32c2f76b29c5ef0e442737235d4b33d953dd77189d60ece33b267a2e5d38b9b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SS-DV1.ANS by saint sinner (uni0n); released in uni-0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: disembodied voices!
-# SAUCE Author: saint sinner
-# SAUCE Group: uni0n
-# SAUCE Date: 19950705
-# SAUCE Dimensions: 80x103
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: disembodied voices! by saint sinner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0895-ss-dv1-part01
 
 Write-Host '
 [30m[0;1;30m[0m[34m▄[0;37m [0;34m■[0;37m [0;1;30m [0m  [30m          [0;37m [0;34m■[0;37m [0;30m                                                          [0m

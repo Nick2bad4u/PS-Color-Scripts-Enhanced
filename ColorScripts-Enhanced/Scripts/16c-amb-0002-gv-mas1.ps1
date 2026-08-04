@@ -1,18 +1,4 @@
-﻿# Converted from: GV-MAS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amb-0002/raw/GV-MAS1.ANS
-# Source Revision: archive-sha256:ddf2bfb6c349501ad0002133992d1d3c9602291731a9f4cef0d5ef9af30b761f
-# Source SHA-256: 8ee40f9d342c01db814e16bd4ca9fd9430e6ee244b7e754e9847073313069d99
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GV-MAS1.ANS by Groove (AMBUSH Productions); released in amb-0002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Masacre Brutal #1
-# SAUCE Author: Groove
-# SAUCE Group: AMBUSH Productions
-# SAUCE Date: 19961027
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Masacre Brutal #1 by Groove | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amb-0002-gv-mas1
 
 Write-Host '
  [1m·[0m   [1;47m░[0m  [1m·[0m ª          [1m·[0m       [1m·[0m  ª  [1m·[0m           [1m·[0m    [1m·[0m    [1m·[0m        [1m·[0m          [1m·[0m

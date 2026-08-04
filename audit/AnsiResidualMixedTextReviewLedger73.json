@@ -1,0 +1,342 @@
+{
+  "batch": 73,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch73-social-chatter-and-production-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 77,
+              "start": 66
+            }
+          ],
+          "expectedRawSha256": "83dded2fbdfabf7728151402d72c4f5c08996e6e8e3db7527aceab4c77f7bd37",
+          "expectedRenderedSha256": "11b9d59ca7b3784c16080aa43d9d3660e87fbcd3838fd00c2a310a5cd8d3fb96",
+          "row": 3,
+          "sha256": "949bd49683c24dc406ac3530025f65aa5e711e6a1ff947ec483a3de4cef53385"
+        }
+      ],
+      "file": "16c-axf-ap-1-bx-bre.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable feedback prompt, advertisement fragment, reader signoff, literal production caption, or production apology. Functional BBS commands, titles, identity, attribution, dedications, authored narrative, structural lettering, and ambiguous interleaved text remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch73-social-chatter-current.json",
+        "temp/text-blanking-continuation/batch73-social-chatter-context.txt",
+        "temp/text-blanking-continuation/batch73-social-chatter-full-context.txt",
+        "temp/text-blanking-continuation/batch73-curation-review.json",
+        "temp/text-blanking-continuation/batch73-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch73-social-chatter-and-production-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 13,
+              "start": 4
+            }
+          ],
+          "expectedRawSha256": "48b470624ba3b1b4969bdd2e279c338b61deac4c06bec80988c9bff611a9a51f",
+          "expectedRenderedSha256": "29b849cf74c680577a584d5ea24863b0874333ccb475a8ad6c970f9e0cd6ee26",
+          "row": 17,
+          "sha256": "21b3c3d669f23dd9fd50648d6e4b19e715e7771e3216337ad55e56ac5250ed2a"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 12,
+              "start": 4
+            }
+          ],
+          "expectedRawSha256": "ad296f2a5d7e1132c4d2ba51b2f23f59cd3dabed58e79b125dd670727ec5048a",
+          "expectedRenderedSha256": "25a1cf6460418dd27b11479b9ea5400da8b2c2d237f40fbc4de8d862f343b15c",
+          "row": 18,
+          "sha256": "0c16a3a8fc65eccbe756df4447a6fcfdc2d6ecd2f11779207c2b567823d429c3"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 12,
+              "start": 4
+            }
+          ],
+          "expectedRawSha256": "ae9cef9e063f2e184c07ee4e9ba881bd2c9d758184a20474c7f7012aba33d266",
+          "expectedRenderedSha256": "106514174f135a2eec4d74c6a2d7e15a59f6aa79547c6ca65775dbf466687a90",
+          "row": 20,
+          "sha256": "1f415b373fbc91bae99f96a34cc753b2600ed57612cf885309b7eb1d54c8f69a"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 16,
+              "start": 4
+            }
+          ],
+          "expectedRawSha256": "65b143bdc276af10d071a4dec4111fd3694f6dc810479e3a1c45434395f9fd24",
+          "expectedRenderedSha256": "ac8681e94ab5655988e10498785a24f047767e611f403ff3664a12f05a4ce513",
+          "row": 21,
+          "sha256": "a6ce331c6b572f2aecc4b6a08f711da390d4ce64a9f0f9cb51d51d0f351fbf0f"
+        }
+      ],
+      "file": "16c-bmb-0197-tx-hh1.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable feedback prompt, advertisement fragment, reader signoff, literal production caption, or production apology. Functional BBS commands, titles, identity, attribution, dedications, authored narrative, structural lettering, and ambiguous interleaved text remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch73-social-chatter-current.json",
+        "temp/text-blanking-continuation/batch73-social-chatter-context.txt",
+        "temp/text-blanking-continuation/batch73-social-chatter-full-context.txt",
+        "temp/text-blanking-continuation/batch73-curation-review.json",
+        "temp/text-blanking-continuation/batch73-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch73-social-chatter-and-production-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 61,
+              "start": 44
+            }
+          ],
+          "expectedRawSha256": "4068a2cf124b485abcb814d7c4ba89166c36d4a710b2d44db6fb573a2f3bf09d",
+          "expectedRenderedSha256": "b20e9503356f19b86e8e83b040a92a4c056869e7145a524d0d80b6189adf8283",
+          "row": 8,
+          "sha256": "42ff07ff23bfd07c7bb916c18beb793cf5d7157551003458cc4e65b0891bf83e"
+        }
+      ],
+      "file": "16c-ega-one-ave-ucm.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable feedback prompt, advertisement fragment, reader signoff, literal production caption, or production apology. Functional BBS commands, titles, identity, attribution, dedications, authored narrative, structural lettering, and ambiguous interleaved text remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch73-social-chatter-current.json",
+        "temp/text-blanking-continuation/batch73-social-chatter-context.txt",
+        "temp/text-blanking-continuation/batch73-social-chatter-full-context.txt",
+        "temp/text-blanking-continuation/batch73-curation-review.json",
+        "temp/text-blanking-continuation/batch73-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch73-social-chatter-and-production-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 10,
+              "start": 4
+            }
+          ],
+          "expectedRawSha256": "06a09bf2f8acc9714bda3f5c5654d025b423b13fa65f8315ff97840bf0ac6401",
+          "expectedRenderedSha256": "88c9ffa682dc85213ac68b5ad4cbe850a21437f4646d0e16da71a90dc255e62a",
+          "row": 27,
+          "sha256": "d087efde9a5714703825671711eb6771f7a2a564f4e404df22ac8c2d23c28618"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 12,
+              "start": 4
+            }
+          ],
+          "expectedRawSha256": "ec067d7bc0f1500609cbba009e0a2ea5342caac3a864128eb2817c32039d1c03",
+          "expectedRenderedSha256": "16a6970e5720474aa7ca0fc7bfe4d3d11a2b0a02d03cc1d1fab00f93e9e6eb13",
+          "row": 28,
+          "sha256": "1f853c5a35e9ad15e24f2bd3ee93e4d1312635ff20e80c0ea753c476f905ffce"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 9,
+              "start": 4
+            }
+          ],
+          "expectedRawSha256": "7083f46e86a55cf94b70d2fccda24943b0e04cef36b6ae07293a4ee7f788d154",
+          "expectedRenderedSha256": "4f0fcee0967bf0babe374f9e0d7f012258464a3e5e349a4ddfab4535b82ba225",
+          "row": 29,
+          "sha256": "9b704282daa7302cdc783a874a33e0f014bedecf8966b908ac3d9824ebfd0f9e"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 12,
+              "start": 4
+            }
+          ],
+          "expectedRawSha256": "65ac705258ba212e389fdf35092e5046f71a75954e6df51636689038af5c17c4",
+          "expectedRenderedSha256": "29721d772fcd17319b268d083fcb1accdac2a0356b98f53aaf16296d4f14e7ce",
+          "row": 30,
+          "sha256": "82d260c8505e46dcb9c2fbce51e7beb26dac0376bdd12af49ac3218c6105250f"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 8,
+              "start": 4
+            }
+          ],
+          "expectedRawSha256": "d3214322fc81c5646c7c915074cbf3e63fd200d38792d6b1098684235c3b508a",
+          "expectedRenderedSha256": "60b53681bd9a4a3614e1842ab54b79c11f1074979bf236fec82bea83c9655db7",
+          "row": 32,
+          "sha256": "60a1ea6fab8cd695dada5a165132e8ae61d03de0ee7b564835342a23c84ce68d"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 12,
+              "start": 4
+            }
+          ],
+          "expectedRawSha256": "47e493e2a207adaf034c90a5704733a112b008045d72011b5659f3cca4041b82",
+          "expectedRenderedSha256": "a09dee684030a13993a638bb2e584a74da0aea995d4f5879167e1e77e0b7b9a9",
+          "row": 33,
+          "sha256": "dc49619394d7e6280bd2eb83c706c6e5de2a72f17e355ffb11d384adc6542428"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 8,
+              "start": 4
+            }
+          ],
+          "expectedRawSha256": "02013a855138d7f57298a882aea4b2be8b0f6731e466053e04ab43ef92fb3786",
+          "expectedRenderedSha256": "b2ccb8716808b2d7e55b9bfdf7505d242845ed813b6dba91283eac4ecb08cf1a",
+          "row": 34,
+          "sha256": "ea4f65a1648a016c999c733f59ae525cc9fdc3b0eca34852a08a13d4cd4da4b8"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 8,
+              "start": 4
+            }
+          ],
+          "expectedRawSha256": "5ea40491591fe17dbb440e651b9c468799d29812d6e21b37b73d15b644a5b29f",
+          "expectedRenderedSha256": "55da37914725cbf670199d3831adac38eb68b237301b7459a12aca2517e76644",
+          "row": 35,
+          "sha256": "d8af0367d2a839f1a892490e04d00cb62cc32d7890e8e95bbce96f546161f91b"
+        }
+      ],
+      "file": "16c-ice9706a-ti-lomt0.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable feedback prompt, advertisement fragment, reader signoff, literal production caption, or production apology. Functional BBS commands, titles, identity, attribution, dedications, authored narrative, structural lettering, and ambiguous interleaved text remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch73-social-chatter-current.json",
+        "temp/text-blanking-continuation/batch73-social-chatter-context.txt",
+        "temp/text-blanking-continuation/batch73-social-chatter-full-context.txt",
+        "temp/text-blanking-continuation/batch73-curation-review.json",
+        "temp/text-blanking-continuation/batch73-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch73-social-chatter-and-production-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 79,
+              "start": 71
+            }
+          ],
+          "expectedRawSha256": "e61788b7ace2fc2ca57541a85e7f4b413be434323338e0121d966f00bca15d1b",
+          "expectedRenderedSha256": "0570f06030ba0ac569976930c57c0f91fc560a4a0e58518ce70c7821ed26400f",
+          "row": 5,
+          "sha256": "fdc420a87df09b7638d358b834eb2f45447e7861a99fb9d63322949f917b022b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 79,
+              "start": 73
+            }
+          ],
+          "expectedRawSha256": "d5effd4d07b2fddf33c6dbd4c44e1686b92a73a92c343afd929015e31abb138e",
+          "expectedRenderedSha256": "c1ffa99078fddf2faf04b05d19236030bfc2254e0eb2254a7aff9641fea03113",
+          "row": 6,
+          "sha256": "6a52a3b0d091c036659de4d853db1bfe2b3297a75d82a401d3debc0bd245d162"
+        }
+      ],
+      "file": "16c-lore01-gs-defj1.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable feedback prompt, advertisement fragment, reader signoff, literal production caption, or production apology. Functional BBS commands, titles, identity, attribution, dedications, authored narrative, structural lettering, and ambiguous interleaved text remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch73-social-chatter-current.json",
+        "temp/text-blanking-continuation/batch73-social-chatter-context.txt",
+        "temp/text-blanking-continuation/batch73-social-chatter-full-context.txt",
+        "temp/text-blanking-continuation/batch73-curation-review.json",
+        "temp/text-blanking-continuation/batch73-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch73-social-chatter-and-production-asides",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 73,
+              "start": 60
+            }
+          ],
+          "expectedRawSha256": "090c0db6ec990c377fc6593414fc662b8e5bde1e9ae7fd409591c33b43d8e0ce",
+          "expectedRenderedSha256": "18c9e9b516f075df71259e963cfd77c8779cd6722e4a88a1e7bc01c4804796c8",
+          "row": 30,
+          "sha256": "edccc1103a5d8fff2dfa70c5836b884c4a49a20609ae75c14bd2bd811d2a76fc"
+        }
+      ],
+      "file": "16c-sknk0396-lp-hitle.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is a separable feedback prompt, advertisement fragment, reader signoff, literal production caption, or production apology. Functional BBS commands, titles, identity, attribution, dedications, authored narrative, structural lettering, and ambiguous interleaved text remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch73-social-chatter-current.json",
+        "temp/text-blanking-continuation/batch73-social-chatter-context.txt",
+        "temp/text-blanking-continuation/batch73-social-chatter-full-context.txt",
+        "temp/text-blanking-continuation/batch73-curation-review.json",
+        "temp/text-blanking-continuation/batch73-history-collisions.json"
+      ]
+    }
+  ],
+  "normalization": "SHA-256 of UTF-8 visible terminal-cell rows after ANSI-control removal and outer-whitespace trimming. Every accepted row pins exact raw projected and rendered hashes plus one-based inclusive blank-column ranges.",
+  "pendingInputs": [],
+  "policy": "Fail-closed review of gratitude, apology, audience-hope, feedback-request, audience-invitation, and casual-farewell cues in every static color-script payload. Accept only exact separable feedback prompts, advertisement fragments, reader signoffs, literal production captions, and production apologies proven by complete-panel context; retain functional BBS commands, titles, identity, attribution, dedications, authored narrative, structural lettering, and ambiguous interleaved text.",
+  "priorRedactionExtensions": [],
+  "priorRetentionSupersessions": [],
+  "reviewedAt": "2026-08-02",
+  "schemaVersion": 1,
+  "status": "ready",
+  "summary": {
+    "acceptedDetectorCues": 6,
+    "blankColumnRows": 17,
+    "candidateFiles": 6,
+    "candidateGroups": 6,
+    "categoryRows": {
+      "batch73-social-chatter-and-production-asides": 17
+    },
+    "changedCells": 139,
+    "detectorAcceptedRows": 6,
+    "detectorFiles": 50,
+    "detectorRows": 52,
+    "evidenceRows": 17,
+    "familyExtensions": 11,
+    "parseFailures": 21,
+    "retainedDetectorRows": 46,
+    "staticFiles": 24801
+  }
+}

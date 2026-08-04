@@ -1,18 +1,4 @@
-﻿# Converted from: US-FLUPH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9705/raw/US-FLUPH.ANS
-# Source Revision: archive-sha256:8be34660f06cc6610ed258606edc1af91e25b5675ab5e99aed29e53c07e63e17
-# Source SHA-256: ce4b6ca9a96e404a8ad9263350fb1809ca30a71c2f6b6f184f50c090cdd8809c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FLUPH.ANS by Grindstoned + Apox (AWE Lettering); released in awe9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fluph
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970429
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Fluph by Grindstoned + Apox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9705-us-fluph
 
 Write-Host '
                  [1;30m [0m    [1;30m▄ [0m [1;30m [0m [1;30m   [0m                    [1;30m▄[0m   [1m                       [0m

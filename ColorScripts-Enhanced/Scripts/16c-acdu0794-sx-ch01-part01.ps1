@@ -1,18 +1,4 @@
-﻿# Converted from: SX-CH01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0794/raw/SX-CH01.ANS
-# Source Revision: archive-sha256:53cd35a6f327a0c8a649f0c556ca1e17aa60e6c4040eff696f9e35efc72f4414
-# Source SHA-256: 23bd28f92ba97345b25a8be80a3f12fcf621dfc829b5c553211efac7a7c645ec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SX-CH01.ANS by Sushi X (ACiD Productions); released in acdu0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Channel Zer0
-# SAUCE Author: Sushi X
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940629
-# SAUCE Dimensions: 80x100
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Channel Zer0 by Sushi X | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0794-sx-ch01-part01
 
 Write-Host '
 [1;30;47m▄▓[0;1;30;40m▀▀▀▀█▀[0m                                                                [1;30;40m▓▀▀▀▀[0;1;30;47m▓▄[0m

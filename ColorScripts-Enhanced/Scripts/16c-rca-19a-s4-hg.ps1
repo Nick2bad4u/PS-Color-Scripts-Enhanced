@@ -1,17 +1,4 @@
-﻿# Converted from: S4-HG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-19a/raw/S4-HG.ANS
-# Source Revision: archive-sha256:81f21b6ad591f112e54dc904e184a85b63ca9af95a156ccc7d812cfbc401b70a
-# Source SHA-256: 733b03333a50fbd363dfb73a478f2b0705a35c6f5faae5a756a0774300f23bcc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S4-HG.ANS by Static4 (RCA); released in rca-19a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: Static4
-# SAUCE Group: RCA
-# SAUCE Date: 19980518
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: S4-HG.ANS by Static4 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-19a-s4-hg
 
 Write-Host '
           [31m▄[0;1;31m▄[0;31m  [0m

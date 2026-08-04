@@ -1,13 +1,4 @@
-﻿# Converted from: ABS-08.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/joint03/raw/ABS-08.ANS
-# Source Revision: archive-sha256:852d2e02d9d5387de79e69c392a0408442629f656809c7e746cbe55c292e14cc
-# Source SHA-256: eb4265d14cf7712bed608951c1981e3addd4bf93401805d80346baf64fa1636e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ABS-08.ANS by Loi + Pzyko + Aoh + Mighty Mouse + Axiom + Fever + Misfit (joint03); released in joint03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: ABS-08.ANS by Loi + Pzyko + Aoh + Mighty Mouse + Axiom + Fever + Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-joint03-abs-08
 
 Write-Host '
 [33m▓████▓█[0;33;47m▓[0;33;40m█████████████████████[0;37;43m░░[0;33;40m█▓█████████████[0;1;33;43m░[0;33m█████[0;1;33;43m░[0;33m███[0;37;43m░[0;33;40m█[0;37;43m░[0;33;40m██████[0;1;33;43m░░[0;33m███▀█████▓█[0;30;43m░[0;33;40m▓[0m

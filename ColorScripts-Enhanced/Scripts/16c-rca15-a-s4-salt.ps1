@@ -1,13 +1,4 @@
-﻿# Converted from: S4-SALT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca15-a/raw/S4-SALT.ANS
-# Source Revision: archive-sha256:9b3ffc1306b5fd493eeab3ea63762e0c761f90e1b26cf8dffddf39a511fbd0e2
-# Source SHA-256: 7f8b087ba029506d800c37693a58f1041df3b319933c403291107b346a843144
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S4-SALT.ANS by Static Addiction (rca15-a); released in rca15-a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: S4-SALT.ANS by Static Addiction | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca15-a-s4-salt
 
 Write-Host '
 [1;31;41m▀ [0;31m▀[0;34m   ▄▄▄   ▀█▄ ▄▀ [0;37m▄ [0;1;30m▀[0m▀▄ [34m▀▄ [0;1;37m░[0m [34m▄[0;30;44m░░[0;34;40m███[0;1;34;44m▀▀[0;34m██▀▀▀     ▄▄▄▄    ▄▄▄[0;30;44m░░[0;34;40m▀ ▄[0;1;34;44m▄▄[0;34m▀ ▄▄▄▄▄ [0;31m▀▀▀[0;30;41m░░[0;31;40m▄[0m

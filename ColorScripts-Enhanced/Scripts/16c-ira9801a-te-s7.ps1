@@ -1,17 +1,4 @@
-﻿# Converted from: TE-S7.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira9801a/raw/TE-S7.ANS
-# Source Revision: archive-sha256:e078b6410509abad43422f2b2341d3c9069c369cc769e7c4238a292c9d0a2694
-# Source SHA-256: 0ca87fc3677a890318529de725e6d0ce8949690b05f3ec4dab3f3144498228f2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-S7.ANS by The ExtremisT (kereva); released in ira9801a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: The ExtremisT
-# SAUCE Group: kereva
-# SAUCE Date: 19960828
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: TE-S7.ANS by The ExtremisT | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira9801a-te-s7
 
 Write-Host '
 [1m [0;1;33m [0;1;31m [0;31m  [0;31;41m [0;1;37;41m                        [0;31m▀▀▀[0;31;41m [0;1;37;41m                               [0m [31m          [0;1;31m [0;1;33m [0;1;37m [0m

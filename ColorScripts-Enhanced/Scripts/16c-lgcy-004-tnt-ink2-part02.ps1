@@ -1,19 +1,4 @@
-﻿# Converted from: tnt-ink2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-004/raw/tnt-ink2.ans
-# Source Revision: archive-sha256:c716e28d4b828a0135c19992fe2f71464879479199ebc42fd3d533b5bd3bf4d4
-# Source SHA-256: 2ec92e0a000866484b1d670fb325f70f584035edcb318127ee446f7a8e1b46f5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tnt-ink2.ans by tainted (blocktronics); released in lgcy-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ink2 promotional
-# SAUCE Author: tainted
-# SAUCE Group: blocktronics
-# SAUCE Date: 20220323
-# SAUCE Dimensions: 80x90
-# SAUCE Font: IBM VGA
-# Lines: 51-90
-# Columns: 1-80
+﻿# Artwork: ink2 promotional by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-004-tnt-ink2-part02
 
 Write-Host '
    [1m░█████▄█▀████████▀█████▌[0;35m▐[0;1;35m██[0;35m█[0;1;35m [0;1;35;41m [0;1;35;40m██ [0;1;35;45m███▓▓▓[0;1;35;40m██[0;1;35;45m [0;1;35;40m [0;31m▀[0;1;35m▀ ▀[0;1;35;45m▀[0;1;35;40m▀[0;1;35;45m▀▓▓▓▓▓▓▀▀█[0;1;35;40m▄  [0;35m▀▀[0;1;35m [0;35m■[0;1;30m [0;1;37m░▓▓███[0m

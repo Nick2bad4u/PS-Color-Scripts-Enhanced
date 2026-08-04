@@ -1,13 +1,4 @@
-﻿# Converted from: TT-ICE3.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-08/raw/TT-ICE3.ICE
-# Source Revision: archive-sha256:76472331bcb8543f1e44f2a59ee8f7524c6af6373e89562b7fabb9e022104140
-# Source SHA-256: 1c4e878c555f039ef166716d198866b4514ef41ed51aeb8bb8b4309ecc86c20d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TT-ICE3.ICE by Tempus Thales (icepk-08); released in icepk-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 38-74
-# Columns: 1-80
+﻿# Artwork: TT-ICE3.ICE by Tempus Thales | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-08-tt-ice3-part02
 
 Write-Host '
            [1;30;40m█[0;35m███████████████▓▒░ [0;1;37m▄▄[0;1;37;45m▀▀▀   [0;35m▓▒░ [0;1;37m▄▄▄ [0;35m░▒▓[0;1;35;45m▒▓█[0;1;37;40m█ [0;35m░▒▓██[0;1;35;45m░▒[0;1;37;45m█[0;1;30;40m▒▓█[0m

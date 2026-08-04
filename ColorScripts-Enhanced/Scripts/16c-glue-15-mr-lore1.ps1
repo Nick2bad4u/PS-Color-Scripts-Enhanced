@@ -1,18 +1,4 @@
-﻿# Converted from: MR-LORE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-15/raw/MR-LORE1.ANS
-# Source Revision: archive-sha256:27d6625e69a5207f7e1ecdf7cdf18b62e352300eb88e02c3e1b0355793535d53
-# Source SHA-256: a8b670f470da9566de2a53e379aa442a88900773459a4c0e538c8b93380a9134
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-LORE1.ANS by Mr.Wrong (Glue/Awe); released in glue-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Lore
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: Glue/Awe
-# SAUCE Date: 19981025
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Lore by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-15-mr-lore1
 
 Write-Host '
            [33m░▄[0;1;33m [0;31m▄░▀[0m           [31m▄[0m      [31m▄[0;1;33m [0m

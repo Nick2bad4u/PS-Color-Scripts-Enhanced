@@ -1,18 +1,4 @@
-﻿# Converted from: US-FUEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel13/raw/US-FUEL.ANS
-# Source Revision: archive-sha256:570310635bd377c51dda6add80730abba1fa8786bf6aaf423ae20c54dbfdb41a
-# Source SHA-256: e2fef5a51f248a53469a29cfe1e8f025f66c4aeea11b4636adc9dabc01688454
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FUEL.ANS by Drynwhyl + Thrasher (Fuel Productions); released in fuel13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Fuel Promotional
-# SAUCE Author: Drynwhyl & Thrash<r
-# SAUCE Group: Fuel Productions
-# SAUCE Date: 19970531
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Fuel Promotional by Drynwhyl + Thrasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel13-us-fuel
 
 Write-Host '
 [32m██[0;1;32;42m░░▄▄[0;32m██[0;1;32;42m▄[0;32m▌▀[0;1;32;42m▀█[0;1;32;40m▄[0;32m▄[0;1;32;42m▀[0;32m▄▄[0;1;32m▄[0;32m ▄█[0;1;32;42m▀[0;32m▄[0;1;32m▄░░[0m [32m▄[0m                                         [31m▄▄[0;37m  [0;31m░[0;1;31m░[0;31m▄[0m

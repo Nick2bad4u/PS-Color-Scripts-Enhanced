@@ -1,18 +1,4 @@
-﻿# Converted from: SK!HEIDI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p10_01/raw/SK!HEIDI.ANS
-# Source Revision: archive-sha256:07a7c989e195c9828a0ca382f79fb6d55a731b3471cfb9534617813c733c980c
-# Source SHA-256: 51137dc2d4be1a93bdecce8b79a9cfc1ea1d0a1fcb65784886d27af736b203f0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!HEIDI.ANS by sIMONkING (thelo0p); released in l0p10_01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: she is heidi =)
-# SAUCE Author: sIMONkING
-# SAUCE Group: thelo0p
-# SAUCE Date: 20010222
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: she is heidi =) by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p10-01-sk-heidi
 
 Write-Host '
                       [33m░▄▄[0;1;33;43m░[0;33m▀[0;1;31m▄[0;1;31;47m▒▒░░░░░░░░░░[0;1;37;47m░░[0;1;31;47m      [0;1;37;47m░░░░░[0;1;31;47m      ░░░░░░░░[0m▄[33m▀[0;37m [0;33m▄▀[0;37m [0;1;33;43m░░[0m [33m▄░▀[0;1;33m▄[0m

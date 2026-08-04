@@ -1,18 +1,4 @@
-﻿# Converted from: K-FLUPH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mean9705/raw/K-FLUPH.ANS
-# Source Revision: archive-sha256:96235d9849bffd6005b05e894c29f6b67b3d4c051090948bf653b689870cae3a
-# Source SHA-256: 0071fafe254cf09878682e621aee8ea00bcfa077cb2c4f14fd642f57cc77a2ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K-FLUPH.ANS by kyp (mean scheme); released in mean9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fluph
-# SAUCE Author: kyp
-# SAUCE Group: mean scheme
-# SAUCE Date: 19970429
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: fluph by kyp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mean9705-k-fluph
 
 Write-Host '
 [1;31;41m▄▓▓░░[0;31m▌▀▀[0;1;31m▀░    [0;31m▄[0;1;31;41m░[0;1;31;40m [0;1;31;43m▓[0;1;31;40m▄[0;33m▄▄░░[0;31m░▓▓▌[0;1;31m  [0;33m░░[0;1;31m   [0;33m▓▓▒░░[0;1;31m [0;31m▀▀▀▓▓▓█[0;1;31;41m░░[0;31m▀[0;1;31m▀▀[0;1;31;41m▀[0;1;31;47m▓▓[0;1;31;41m▓▓▓▒▒░[0;31m▄▄▄ ▀▀▀▓▓[0;1;31;41m▀▀[0;1;31;40m█▓▓▄  [0m

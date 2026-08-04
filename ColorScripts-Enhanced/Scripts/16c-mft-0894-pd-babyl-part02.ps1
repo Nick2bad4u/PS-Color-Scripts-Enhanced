@@ -1,18 +1,4 @@
-﻿# Converted from: PD-BABYL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mft-0894/raw/PD-BABYL.ANS
-# Source Revision: archive-sha256:84936ca22907dd2158fcda20ba8cf7acdb7c3040b4339f290cc5fc317af0b82b
-# Source SHA-256: 91c6b86972434186d226949b0f8390e63eb6984c5a29fde2f932ebff60f5ee49
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PD-BABYL.ANS by Paradox (Manifest Innovations); released in mft-0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Babylon A.D.
-# SAUCE Author: Paradox
-# SAUCE Group: Manifest Innovations
-# SAUCE Date: 19940704
-# SAUCE Dimensions: 80x25
-# Lines: 48-96
-# Columns: 1-80
+﻿# Artwork: Babylon A.D. by Paradox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mft-0894-pd-babyl-part02
 
 Write-Host '
 [37m▀[0;37;47m  [0;1;37;47m░▒░ [0;1;37;40m [0;1;30;47m▒▓[0;1;30;40m [0m▀▀[47m     [0;40m [0;1;30;47m░▒▓[0;1;30;40m    [0m▄▄▀▀[47m [0;40m▄[0;33;40m▀[0;33;43m   [0;33;40m▀▄▄[0;33;43m [0;1;30;43m░░▒▒░░  ░[0;33m▌[0;31m▐█████▓▓▒▒░░[0m

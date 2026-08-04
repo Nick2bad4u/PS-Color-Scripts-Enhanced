@@ -1,13 +1,4 @@
-﻿# Converted from: S&-HUFF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-18/raw/S%26-HUFF.ANS
-# Source Revision: archive-sha256:2e02391e66fc05a42d51d0f3ad472c9e98ae18d89effe4d7592201009566237f
-# Source SHA-256: b94e78713612f3baebb27b7517cb834658faa5782069c1845f964c28162c4432
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S&-HUFF.ANS by Sandman604 (sclr-18); released in sclr-18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: S&-HUFF.ANS by Sandman604 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-18-s-huff
 
 Write-Host '
 [1;37m█▀[0;1;33;43m▀[0;33m▀▀ [0;1;31m▄▄ [0;33m▀▀  [0;1;31m▄  [0;33m▀[0;1;33;43m▀[0;1;37;40m████[0;1;33;43m▀░▀▓▀▀[0;33m▀▀[0;1;33m▄[0;1;33;43m▀[0;1;33;40m▄[0;1;33;43m▀[0;33m▀▀ [0;1;31m▄  [0;33m▀▀[0;1;33;43m░[0;1;37;40m▐██[0;1;33;40m▐[0;33m█[0m

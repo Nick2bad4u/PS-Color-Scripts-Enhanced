@@ -1,18 +1,4 @@
-﻿# Converted from: CPH-DEEP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-011/raw/CPH-DEEP.ANS
-# Source Revision: archive-sha256:ad392e5cfa0b76b10ae16f4d639473779105b78453dac46868057f0aeaadd814
-# Source SHA-256: 289cb332b31019ed1d851503ae450997bbc34a4b95e796c1b13b4b5894c33b6e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-DEEP.ANS by cyberpunch (rib); released in rib-011 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: deep loggo
-# SAUCE Author: cyberpunch
-# SAUCE Group: rib
-# SAUCE Date: 19980730
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: deep loggo by cyberpunch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-011-cph-deep
 
 Write-Host '
    [34m▄[0;1;34m▄[0;1;34;44m▄█[0;34m█[0m        [1;32;42m▓▓█[0;1;33;40m▌[0;1;32;42m▓[0;1;33;40m█[0m            [31m       [0m   [34m▄[0;1;34m▄▄▄[0;1;34;44m▄██▀▀▀[0;34m█[0;31m        [0;32m [0;1;32m▄▄[0;1;33m██[0;31m    [0m

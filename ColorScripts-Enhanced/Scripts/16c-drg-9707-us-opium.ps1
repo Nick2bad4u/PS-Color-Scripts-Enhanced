@@ -1,18 +1,4 @@
-﻿# Converted from: US-OPIUM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg-9707/raw/US-OPIUM.ANS
-# Source Revision: archive-sha256:b65590bddff9617f17d3b4025c35c3e5faf3352cc09c0ee1a348f46ee7e889fc
-# Source SHA-256: 354a802fb1ec61ceab9141653b1b69194c6c7105056cc2e6936c5eb7d1d59dc4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-OPIUM.ANS by Pyx + Joda (Bamboosh & Deranged); released in drg-9707 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Opium-joint. Uh-huh.
-# SAUCE Author: Pyx & Joda
-# SAUCE Group: Bamboosh & Deranged
-# SAUCE Date: 19970720
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Opium-joint. Uh-huh. by Pyx + Joda | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg-9707-us-opium
 
 Write-Host '
                                                           [1;33m▀[0;1;33;43m▓[0;1;33;40m▄[0m [1;33m░▐▌▐▌▐▌▐▌[0;33m░[0m

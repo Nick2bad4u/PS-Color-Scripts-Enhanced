@@ -1,19 +1,4 @@
-﻿# Converted from: tnt-dope.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz18/raw/tnt-dope.ans
-# Source Revision: archive-sha256:32d30452c4c99022fae4fa2ce9a2923ef46629d3ff7dd35a972944a991699c1f
-# Source SHA-256: df0d9ebf47b70744c87c6b4b93c52b74f26979552b508a4bca10750668704fe0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tnt-dope.ans by tainted (fire); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: lazarus farms
-# SAUCE Author: tainted
-# SAUCE Group: fire
-# SAUCE Date: 20240205
-# SAUCE Dimensions: 80x100
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: lazarus farms by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz18-tnt-dope-part01
 
 Write-Host '
 [1m[0m

@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-0000.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-46/raw/ZIR-0000.ANS
-# Source Revision: archive-sha256:32c189dd42ed53f66ce0b86a88ea8027caddc32faf4da7cee2e674d9223cb9f4
-# Source SHA-256: 6473996177e1967e96039543d231de8b8fa9b091114c9bb8eb0a426d4f15504b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-0000.ANS by zir (FiRE); released in fire-46 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: f0UR zER03S
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20260707
-# SAUCE Dimensions: 80x120
-# SAUCE Font: IBM VGA
-# SAUCE Comments: zER0! z3RO! zER0! z3RO!
-# Lines: 101-120
-# Columns: 1-80
+﻿# Artwork: f0UR zER03S by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-46-zir-0000-part03
 
 Write-Host '
  [1;33;47m [0;1;37;40m██████████[0;1;37;47m█▓░[0m█  ░                 [1;30m▓▓▓[0m [1;47m░[0;1;40m████████████████████[0;1;47m▓░[0m█  ░          [1;30m░░[0m

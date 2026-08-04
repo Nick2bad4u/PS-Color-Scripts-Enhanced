@@ -1,18 +1,4 @@
-﻿# Converted from: MS-STYG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0896/raw/MS-STYG.ANS
-# Source Revision: archive-sha256:aea0eeb92b0eab79feeb93a911e40d78834e5950cdc396c43c83fe60a2627fad
-# Source SHA-256: 78cfcd1f47189081174eb89973cf280d1607a89f4210dbd96f9e109613a26eef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MS-STYG.ANS by Morphius (Quad-P); released in quad0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ansi sig for stygian
-# SAUCE Author: Morphius
-# SAUCE Group: Quad-P
-# SAUCE Date: 19960728
-# SAUCE Dimensions: 80x24
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: ansi sig for stygian by Morphius | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0896-ms-styg
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: 5O-BLEAC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-12/raw/5O-BLEAC.ANS
-# Source Revision: archive-sha256:410083659cbc6eaaec3d23ed9548f99302029f4a7b459c350ecaa6d1820b2874
-# Source SHA-256: 012e002e50bf7e2c6368c7df780efdea50f110f310b6f5d8642f35e9fee585a1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5O-BLEAC.ANS by Ooze (d38-12); released in d38-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: 5O-BLEAC.ANS by Ooze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-12-5o-bleac
 
 Write-Host '
                                   [1;32m▄▄[0m

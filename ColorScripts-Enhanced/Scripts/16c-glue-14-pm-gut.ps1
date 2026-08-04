@@ -1,13 +1,4 @@
-﻿# Converted from: PM-GUT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-14/raw/PM-GUT.ANS
-# Source Revision: archive-sha256:ea095d54c8f3af6179bf8050e6c6e17f7d69e8887f555be7f0a501299ac439dc
-# Source SHA-256: 85f267672c2e3956768b632f9bed991f08ec83afac114cdd5befee9bdd3918bc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-GUT.ANS by Phoman (glue-14); released in glue-14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: PM-GUT.ANS by Phoman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-14-pm-gut
 
 Write-Host '
 [1;30m▄▄[0;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;36m▄▄▄▄▄▄▄▄▄[0;1;37m▄[0m ▄[1;30;47m▒▓[0;1;30;40m███▓▓▓▓▓▓▒▒▒░░[0m [1;31m░░░▒▒▓████[0;1;31;47m▓▒▒▓▓▓[0;1;31;40m█[0;1;31;47m▓[0;1;31;40m███▓▒▒░░░[0m [1;30m░▓[0m

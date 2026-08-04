@@ -1,18 +1,4 @@
-﻿# Converted from: IP-DIS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-17/raw/IP-DIS.ANS
-# Source Revision: archive-sha256:a388e5620de32c4145fd1d2f2e70343f674ce332483184514a867f9d5d569bc4
-# Source SHA-256: 26306f91d16e8047cbccd25637885a7c0ca0b957afa4648e95564f517ae7ace2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IP-DIS.ANS by Impulse (Force); released in force-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Distortion
-# SAUCE Author: Impulse
-# SAUCE Group: Force
-# SAUCE Date: 19970428
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Distortion by Impulse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-17-ip-dis
 
 Write-Host '
                                                          [1;34m [0m

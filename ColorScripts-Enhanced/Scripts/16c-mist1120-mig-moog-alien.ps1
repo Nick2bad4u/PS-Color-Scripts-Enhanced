@@ -1,19 +1,4 @@
-﻿# Converted from: MIG_MOOG-ALIEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1120/raw/MIG_MOOG-ALIEN.ANS
-# Source Revision: archive-sha256:1aea60fe15e22f1a93a6bf5d2d7a91f468dbfe0f5023717734ce9e5a750497b0
-# Source SHA-256: 483bd514ed347ba460f0d9eb7f99facc933117139dff03acbd2cd0bd9f8da86c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MIG_MOOG-ALIEN.ANS by Mig Moog (Mistigris); released in mist1120 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Call mom
-# SAUCE Author: Mig Moog
-# SAUCE Group: Mistigris
-# SAUCE Date: 20201111
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Call mom by Mig Moog | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1120-mig-moog-alien
 
 Write-Host '
 

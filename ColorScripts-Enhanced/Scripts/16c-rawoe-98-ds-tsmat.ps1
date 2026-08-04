@@ -1,18 +1,4 @@
-﻿# Converted from: DS-TSMAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rawoe-98/raw/DS-TSMAT.ANS
-# Source Revision: archive-sha256:72c3cf0f44a476eef694d1cf3a1552a03dc3aa0478a61b3b389cc598bf59ebb8
-# Source SHA-256: 5a863cc4bd51655685967f92ceb6145f368b7acec3061378e3b381733550314f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-TSMAT.ANS by drseuss(woe) (woe); released in rawoe-98 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: twisted society matrix
-# SAUCE Author: drseuss(woe)
-# SAUCE Group: woe
-# SAUCE Date: 19980429
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: twisted society matrix by drseuss(woe) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rawoe-98-ds-tsmat
 
 Write-Host '
            [34m                    [0m

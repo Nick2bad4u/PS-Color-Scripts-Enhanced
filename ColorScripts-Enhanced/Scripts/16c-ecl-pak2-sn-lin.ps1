@@ -1,18 +1,4 @@
-﻿# Converted from: SN!LIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak2/raw/SN!LIN.ANS
-# Source Revision: archive-sha256:c83fd66fd5682c2a8b3a34174fe62c7584ac006f8517d86002eef3fdd8671285
-# Source SHA-256: a2e6c6975c9233524fbad4f61b407957b3132d36729a82b3e4f5abd7a4072adb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SN!LIN.ANS by Snowball (Ecolove); released in ecl-pak2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Linerz for The Dream Zone
-# SAUCE Author: Snowball
-# SAUCE Group: Ecolove
-# SAUCE Date: 19971224
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Linerz for The Dream Zone by Snowball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak2-sn-lin
 
 Write-Host '
    [31m▄[0;1;31m▄▄▄[0;31m▄▄[0;37m  ▄▄[0;1;30m▄▄▄▄▄[0m▄ [1;34m▐█[0;32m███[0;37m ▄[0;1;30m▄▄▄[0m [1;32m▄▄[0m▄▄▄▄ ▄▄▄[1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

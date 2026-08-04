@@ -1,13 +1,4 @@
-﻿# Converted from: 03-03s2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/swap02/raw/03-03s2.ans
-# Source Revision: archive-sha256:4d8cb393a00876207f46bb8198f121ecf1515abfe7fa8288241519cd92e6c95e
-# Source SHA-256: 3a278b8f0746d68e858673b56d7e4c8fac17ced1b242fc37296e1883797fd9c8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 03-03s2.ans by Swap (swap02); released in swap02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: 03-03s2.ans by Swap | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-swap02-03-03s2
 
 Write-Host '
 [1;30m████████████▀[0m                                         [30;44m▓█[0;37;40m     [0;1;30;40m▀██████████████████[0m

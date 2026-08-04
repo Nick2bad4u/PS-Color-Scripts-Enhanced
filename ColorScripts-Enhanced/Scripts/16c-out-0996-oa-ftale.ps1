@@ -1,18 +1,4 @@
-﻿# Converted from: OA-FTALE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0996/raw/OA-FTALE.ANS
-# Source Revision: archive-sha256:a14d9e4e35c810bc29e3ed837852f8189686eba97eda91035817e44643cb90fd
-# Source SHA-256: a9403495230775b470ec12fdb4b0349c5b9d09571a1b4eb3704293e476e4db8e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OA-FTALE.ANS by sc (OutWorldArts); released in out-0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fairytales BBs
-# SAUCE Author: sc
-# SAUCE Group: OutWorldArts
-# SAUCE Date: 19960918
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Fairytales BBs by sc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0996-oa-ftale
 
 Write-Host '
    [34m▄[0m              [1;30;40m▓▒░░░[0m      [1;34;44m░[0;34;40m▀▄[0m  [34;40m█▀▄[0m     [1;37;40m [0;1;34;40m          [0;1;37;40m [0;1;34;40m  [0;37;40m [0;34;40m▀▄█[0;1;34;44m▒[0;34;40m██▄▄▄▄▄▀▀▀[0;37;40m [0;34;40m░▒[0;37;40m [0;1;30;40m░▒[0;1;30;47m▓▒[0;1;30;40m▒[0m

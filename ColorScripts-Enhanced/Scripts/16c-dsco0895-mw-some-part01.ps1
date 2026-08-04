@@ -1,18 +1,4 @@
-﻿# Converted from: MW-SOME.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dsco0895/raw/MW-SOME.ANS
-# Source Revision: archive-sha256:c5eafe9a144b7f2a60871b789ee8823ca79eafbd0e867cafcaf16646225c9998
-# Source SHA-256: db112f2bbe35a49cf1419c00a85feeb6bebabc2220c21a95ed3ce15b1657f3cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MW-SOME.ANS by Maeve Wolf (REV.SM!); released in dsco0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Somewhere Else
-# SAUCE Author: Maeve Wolf
-# SAUCE Group: REV.SM!
-# SAUCE Date: 19950520
-# SAUCE Dimensions: 80x143
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: Somewhere Else by Maeve Wolf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dsco0895-mw-some-part01
 
 Write-Host '
         [1;34m▄[0m             [1;30m▄   [0;1;34m▄ [0;1;30m                  [0;1;33m▄█[0;1;33;41m▓▓▓[0;1;32;40m▀[0;1;32;42m░[0;1;32;40m▀[0;1;33;40m▄[0;1;33;41m▒[0;1;33;40m▄[0;1;32;40m▀▄▀[0;1;32;42m░[0m [1;33;41m░▒▒▓▒▒▓▓▓[0;1;33;40m█▄[0m

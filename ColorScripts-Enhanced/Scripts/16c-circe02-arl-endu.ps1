@@ -1,13 +1,4 @@
-﻿# Converted from: ARL-ENDU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe02/raw/ARL-ENDU.ANS
-# Source Revision: archive-sha256:ce5cd736ecea3fcfef2c1df40ab4bdd995f6b633f97f1788244355f98c5d174e
-# Source SHA-256: 14921364a8afb6da3df50056584e58384495db808cbfdbb71b6a2d5e104a7ce7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARL-ENDU.ANS by Arlequin (circe02); released in circe02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-12
-# Columns: 1-80
+﻿# Artwork: ARL-ENDU.ANS by Arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe02-arl-endu
 
 Write-Host '
 [1m   ▬┌┌⌐⌐   [0m                              [1m     [0m         [1m ▬┌┌⌐[0m                   

@@ -1,19 +1,4 @@
-﻿# Converted from: 5m-iceblaze.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronicsonice/raw/5m-iceblaze.ans
-# Source Revision: archive-sha256:09feb7a5adb913c88be16d43a1a4e86bf7073f13399d8bc54e5478cad35282e5
-# Source SHA-256: b0f2961c419722366bf5361c84bf5b28efe70887851989fb027646546bfe809d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5m-iceblaze.ans by Smooth (Blocktronics); released in blocktronicsonice and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: iCE aBlaze
-# SAUCE Author: Smooth
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20220118
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: iCE aBlaze by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronicsonice-5m-iceblaze
 
 Write-Host '
 

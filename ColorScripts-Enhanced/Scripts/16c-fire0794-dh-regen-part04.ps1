@@ -1,13 +1,4 @@
-﻿# Converted from: DH-REGEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0794/raw/DH-REGEN.ANS
-# Source Revision: archive-sha256:2d785063f66421d16049a817b35a3d9a1af38a82c2eb0e37c315fa8b838eea07
-# Source SHA-256: 4d6a35c192b63be05a5b0d8f70660b677219cede6a690163a0f7c711f9a2bce1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DH-REGEN.ANS by Donut Hole (fire0794); released in fire0794 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 150-199
-# Columns: 1-80
+﻿# Artwork: DH-REGEN.ANS by Donut Hole | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0794-dh-regen-part04
 
 Write-Host '
 [32m█████▌[0;1;33m▐[0;1;33;43m▓▓▒░░[0;33m██▀[0m▄▄▀▀[33m▄▄[0;1;30m▀▀▄[0m        [1;30m▐▌ [0;32m████████ [0;1;33m▐[0;1;33;43m▓▓▒░░[0;33m██▀[0m▄▄[1;30m▀▀ [0;1;43m▒░  [0;33m▓▒░ █   [0;1;30m▐▌ [0;32m█[0;33;42m([0;1;31;42mo[0;33;42m)[0;32m███[0m

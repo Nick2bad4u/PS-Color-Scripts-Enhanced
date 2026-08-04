@@ -1,13 +1,4 @@
-﻿# Converted from: DIE-SKF2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-zxica/raw/DIE-SKF2.ANS
-# Source Revision: archive-sha256:098212bcd3fc250902be7ae08340a23e99b29f8fa69fe7b4990238a6d402d1f6
-# Source SHA-256: 2b4a7f5bffaf5d3e7e3671cbd404b70b5ffeb0082249f57dcf0d33599ba67fa0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DIE-SKF2.ANS by Dieznyik (k-zxica); released in k-zxica and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: DIE-SKF2.ANS by Dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-zxica-die-skf2
 
 Write-Host '
 [36m/[0;1;36m.[0;36m\ [0m

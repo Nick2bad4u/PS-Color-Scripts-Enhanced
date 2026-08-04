@@ -1,13 +1,4 @@
-﻿# Converted from: zs-mmc5.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sys2_02/raw/zs-mmc5.ans
-# Source Revision: archive-sha256:4be7ec805fb2a4a39fee328474e69db4f25855ccd9f3e08bd6de462c5c223bd8
-# Source SHA-256: 04d193d01a602cde2d4d71394d68641ca1d6e05b81a0363fe9e57c9820553e34
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zs-mmc5.ans by Zerostar (sys2_02); released in sys2_02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: zs-mmc5.ans by Zerostar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sys2-02-zs-mmc5
 
 Write-Host '
                                  [36m.*S[0;1;36m$S[0;36m*.[0;37m  [0;36m  [0;32m.┐q%p┌.[0m

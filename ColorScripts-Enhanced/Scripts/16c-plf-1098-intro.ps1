@@ -1,18 +1,4 @@
-﻿# Converted from: %#!INTRO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-1098/raw/%25%23!INTRO.ANS
-# Source Revision: archive-sha256:c4e49f581efdb23757cb4cd22ca84401fcd6ac0febdad687007b0b36de54547a
-# Source SHA-256: 2ef3a90585d5e22be98ff5fe9c8f7ca96bd021eb41cd113fea590d0ed0f9fbe4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: %#!INTRO.ANS by plf CREW (poffelipoff); released in plf-1098 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: pack15 - contributors
-# SAUCE Author: plf CREW
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19981011
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: pack15 - contributors by plf CREW | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-1098-intro
 
 Write-Host '
   [1m▀██▄[0m▀██[1m█▄[0m  [1m░░[0m   [1m▄██▄       [0m       [1m▄█[0m [1;33m▄[0;1;37m█▀[0;1;36m▀[0m

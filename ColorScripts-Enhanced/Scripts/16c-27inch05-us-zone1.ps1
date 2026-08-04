@@ -1,13 +1,4 @@
-﻿# Converted from: US-ZONE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch05/raw/US-ZONE1.ANS
-# Source Revision: archive-sha256:db9b1206c71a7c1f69d77bcc2ffae6377c5089e3db6c19d34216df53e4012ff2
-# Source SHA-256: 569b010837f6ac3f7832c3a661ed191c595415c378ff72ac59a688220291b7ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ZONE1.ANS by Avenging Angel + Spear (27inch05); released in 27inch05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: US-ZONE1.ANS by Avenging Angel + Spear | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch05-us-zone1
 
 Write-Host '
 

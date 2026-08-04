@@ -1,13 +1,4 @@
-﻿# Converted from: GW-ELEU.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9410/raw/GW-ELEU.ICE
-# Source Revision: archive-sha256:8c9142d0352992206e7fd9f090a7f89eeb1bb8623b53334a6a4eb0e9111ecc28
-# Source SHA-256: 64dc04336071f365e5035af8cc6893cba3da6aad2f86186e85483f8ded420392
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GW-ELEU.ICE by Gwar (ice-9410); released in ice-9410 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 49-96
-# Columns: 1-80
+﻿# Artwork: GW-ELEU.ICE by Gwar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9410-gw-eleu-part02
 
 Write-Host '
             [34m▓░░░ ▒░ ░ ░ █ ▐[0;1;34;44m■[0m [34m▒█ ░[0m                [1;30m▀▀▀██▄▄▄▀█[0;1;30;47m█▀  ▀▀[0;1;30;40m██▄▄[0;1;37;40m▀▀█████████[0m

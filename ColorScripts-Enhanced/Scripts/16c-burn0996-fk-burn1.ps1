@@ -1,16 +1,4 @@
-﻿# Converted from: FK-BURN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/burn0996/raw/FK-BURN1.ANS
-# Source Revision: archive-sha256:1d0613dc7d765beb82132eb272a2b52814aed11a76720323c6b2b8307b2d07bf
-# Source SHA-256: 09e753a07df81f45d38d39ba055391bb8d089dec882e2e60ade392179dbd0eee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FK-BURN1.ANS by Freak (burn); released in burn0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: Freak
-# SAUCE Group: burn
-# SAUCE Date: 19960825
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: FK-BURN1.ANS by Freak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-burn0996-fk-burn1
 
 Write-Host '
                                                  [1;31m▄[0;1;31;41m█[0;1;31;46m▓▓[0;1;31;41m██[0;1;31;40m▄[0m

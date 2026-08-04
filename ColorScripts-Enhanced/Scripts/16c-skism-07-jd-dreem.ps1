@@ -1,18 +1,4 @@
-﻿# Converted from: JD-DREEM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/skism-07/raw/JD-DREEM.ANS
-# Source Revision: archive-sha256:456c96208f0e5c9ba2bf121160920c852c896eb39b96998a49886f37fccee63b
-# Source SHA-256: 40762e9627352dad1d81e616c9c1d7ee9122d52c8c1deb841ec1147c0c928bcf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JD-DREEM.ANS by dOUGH.. yum (SKiSM); released in skism-07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dreems matrix menu?!
-# SAUCE Author: dOUGH.. yum
-# SAUCE Group: SKiSM
-# SAUCE Date: 19970623
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: dreems matrix menu?! by dOUGH.. yum | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-skism-07-jd-dreem
 
 Write-Host '
 [1;33m▄▄▄▄▄▄▄[0m              [1m██ [0;36m█████████[0;36;46m                            [0;1;36;46m▀[0;36m▄▄▄▄[0;36;46m      [0;36;40m▄▄▄▄▄[0;1;36;40m▄[0m

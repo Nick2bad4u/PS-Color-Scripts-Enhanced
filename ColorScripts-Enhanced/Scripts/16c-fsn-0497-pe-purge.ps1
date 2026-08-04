@@ -1,15 +1,4 @@
-﻿# Converted from: PE!PURGE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0497/raw/PE!PURGE.ANS
-# Source Revision: archive-sha256:0a24528ad1b8350dc6275ed84884990aa181682392c532082994d5872ceb5801
-# Source SHA-256: 758f10e7102ab182f9693bca31258ad16395280e71fa5a2e435c4ebd2d1a167f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PE!PURGE.ANS by Phonyeye (fsn-0497); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 19970403
-# SAUCE Dimensions: 80x24
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: PE!PURGE.ANS by Phonyeye | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0497-pe-purge
 
 Write-Host '
     [34m      [0m                                                       [35m [0m

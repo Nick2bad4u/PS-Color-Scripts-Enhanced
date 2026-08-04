@@ -1,18 +1,4 @@
-﻿# Converted from: CK-ALM.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9509a/raw/CK-ALM.ICE
-# Source Revision: archive-sha256:20af9d60befd4eb8ed55a3feef09d914170b95e7d33f29f72fa18081e92e2aaa
-# Source SHA-256: 6a8129c62e6336013269f1e8b82643d004054d58a5b4f17f54a4beb30d0f7795
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CK-ALM.ICE by chromatik (ice%prod!1995.); released in ice9509a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: alderAAn!
-# SAUCE Author: chromatik
-# SAUCE Group: ice%prod!1995.
-# SAUCE Date: 19950925
-# SAUCE Dimensions: 80x25
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: alderAAn! by chromatik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9509a-ck-alm-part01
 
 Write-Host '
 

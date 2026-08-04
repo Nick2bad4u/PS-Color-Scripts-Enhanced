@@ -1,13 +1,4 @@
-﻿# Converted from: dy1-pen.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/clit-63/raw/dy1-pen.ans
-# Source Revision: archive-sha256:d3b4e882f44abd294768cb9bd5670a6445d2a5e2ff15c5853a00f270e296e2a5
-# Source SHA-256: 1445d6b5000e9350a487bc50e1df34cae26bbc877173ddf8b6e6aae77a2c1b4c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: dy1-pen.ans by Discyple (clit-63); released in clit-63 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: dy1-pen.ans by Discyple | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-clit-63-dy1-pen
 
 Write-Host '
                            [33m______[0m

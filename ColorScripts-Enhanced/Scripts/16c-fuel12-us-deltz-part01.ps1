@@ -1,18 +1,4 @@
-﻿# Converted from: US-DELTZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel12/raw/US-DELTZ.ANS
-# Source Revision: archive-sha256:ebe2e7b01f31e0e82aa2702a876007d4ec2dd824b98bdf40e4d59e2b113da7e4
-# Source SHA-256: a82de06286bc0a6800b7d5868888bfb06404dc4eb1ee459090b5f260ae5fd0e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DELTZ.ANS by The Knight + Pinky + Napalm Death (Fuel Productions); released in fuel12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Delta z
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Fuel Productions
-# SAUCE Date: 19970401
-# SAUCE Dimensions: 80x25
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Delta z by The Knight + Pinky + Napalm Death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel12-us-deltz-part01
 
 Write-Host '
 [1;31;41m▒▓▓██▓███[0;1;31;40m█▓▄▄▄▄▄[0;30;46m▄▄ ▄[0;1;37;40m▄▄██[0;1;37;47m▓▓▒░[0m▌▐[1;47m░▒▓████████████[0;1;40m██[0;1;47m███████▓█▓▒▓░[0;30;47m  [0;1;37;47m░[0m▀▄[1;47m▒▓[0;1;40m█████████[0;1;47m▓█[0;1;40m█[0;1;37;47m▓[0m

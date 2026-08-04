@@ -1,18 +1,4 @@
-﻿# Converted from: SHADOWS4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tk-ansi/raw/SHADOWS4.ANS
-# Source Revision: archive-sha256:7a6e15a450305cb977de0a4eb06cf4ca525baa4933c9f7af1cf6080dced8bf2d
-# Source SHA-256: 39d858c6a7d7ca76e5cf73b7bc056b7d91ec5ec3aba43bdebf68d7ee1f25986c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SHADOWS4.ANS by Tank (NeXX); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Shadows BBS Ad
-# SAUCE Author: Tank
-# SAUCE Group: NeXX
-# SAUCE Date: 19910420
-# SAUCE Dimensions: 80x24
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: The Shadows BBS Ad by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tk-ansi-shadows4
 
 Write-Host '
  [1;32m┌───[0;1;33m──[0;1;31m──[0;1;35m──[0;1;36m──[0;1;34m──[0;1;32m──[0;1;33m──[0;1;31m──[0;1;35m─┐[0m

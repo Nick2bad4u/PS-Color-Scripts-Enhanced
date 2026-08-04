@@ -1,18 +1,4 @@
-﻿# Converted from: ANM-ARG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/scum-01/raw/ANM-ARG.ANS
-# Source Revision: archive-sha256:f61df56833f319ce1eda97ac7b98e2dbe1b3360e66311e75841bc42b3bb0d418
-# Source SHA-256: cfff8e8e9dd8dbdd97be0225f54c6f7c7fc67dc443df6f402d6bb0b83a88a7d9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ANM-ARG.ANS by anomite (scum (tm)); released in scum-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: .. yeah..
-# SAUCE Author: anomite
-# SAUCE Group: scum (tm)
-# SAUCE Date: 19970522
-# SAUCE Dimensions: 80x46
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: .. yeah.. by anomite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-scum-01-anm-arg
 
 Write-Host '
               [34m▄▄▄▄▄▄▄▄▄▄[0m    [34m▄▄▄▄▄▄▄▄▄▄[0m

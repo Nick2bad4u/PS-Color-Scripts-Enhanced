@@ -1,13 +1,4 @@
-﻿# Converted from: PZ-SED1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-09/raw/PZ-SED1.ANS
-# Source Revision: archive-sha256:6c371ec8bbb75e88f59630021fbbd23f2fc630c10ee1cde240cc20faafea1ca9
-# Source SHA-256: 698e4247d1f345fe1d794f83ded7e136b934c5aadb27f69843173f8059fa9cb2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PZ-SED1.ANS by Pzyko (ecl-09); released in ecl-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: PZ-SED1.ANS by Pzyko | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-09-pz-sed1
 
 Write-Host '
 

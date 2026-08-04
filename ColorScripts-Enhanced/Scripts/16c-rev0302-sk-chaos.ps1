@@ -1,18 +1,4 @@
-﻿# Converted from: SK-CHAOS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0302/raw/SK-CHAOS.ANS
-# Source Revision: archive-sha256:7b2619e0400d7382d19d38767873337eae71942dd319abc1998c71f4a968776f
-# Source SHA-256: d7b6abde79e7477d2f578672c4eff4263d4e8e1c3fb13518d2821538670f140d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK-CHAOS.ANS by skatter (Revival2002); released in rev0302 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Chaos A.D.
-# SAUCE Author: skatter
-# SAUCE Group: Revival2002
-# SAUCE Date: 20020228
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Chaos A.D. by skatter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0302-sk-chaos
 
 Write-Host '
     [1;34m   [0;1;35m.[0;1;34m [0m          [1;34m [0;35m.[0m                               [1;37m [0m [1m     [0m

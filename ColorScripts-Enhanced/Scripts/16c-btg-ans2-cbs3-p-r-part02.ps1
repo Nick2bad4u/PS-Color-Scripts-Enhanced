@@ -1,13 +1,4 @@
-﻿# Converted from: CBS3#P&R.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/btg_ans2/raw/CBS3%23P%26R.ANS
-# Source Revision: archive-sha256:ef1d7f5aa7f6ddd3a18962651dfef7920d45568f5c91446255731618604ffcb4
-# Source SHA-256: baf2a3e2dba85ffa6c8d2d503f2a43fea1ed4e3970a709f2d3e363ef097d3439
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CBS3#P&R.ANS by Rage + Paz (btg_ans2); released in btg_ans2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 37-69
-# Columns: 1-80
+﻿# Artwork: CBS3#P&R.ANS by Rage + Paz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-btg-ans2-cbs3-p-r-part02
 
 Write-Host '
 [1;34m██████████████▀ [0;1;30m▄  [0;1;30;47m█▓▓████[0;1;36;40m▀▀▀▀▀[0;1;30;47m███▓▓▒▒[0;1;30;40m▄█[0;1;30;47m▓▓▓▓▓▓▓[0m▄▄[1;30;47m░░░░░░███▓▓▓▓▒▒█[0;1;34;40m▐█[0;1;33;41m█▓▒[0;1;34;40m██████████[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: HYPSK-02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oph-0018/raw/HYPSK-02.ANS
-# Source Revision: archive-sha256:b78bc978b69dedfb9a07152cba296ecefc97611bd7bc7f5211d489ff748613dc
-# Source SHA-256: 839c74aad94bbf63510fa45ac3c2d5d3a68a1bbaf1f6f3ef3d57129bc7d270fe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HYPSK-02.ANS by hypocrite sickness (oph-0018); released in oph-0018 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 00                _[       \[]
-# SAUCE Author: hypocrite sickness
-# SAUCE Date: 19960917
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: 00 _[ \[] by hypocrite sickness | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oph-0018-hypsk-02
 
 Write-Host '
 [1;34;44m     ▐[0;1;34;40m███[0;1;34;44m▓[0;1;34;40m██[0;1;34;47m▓[0;1;34;40m▀▀▀▀[0m                        [1;30m▄▄▄▄▄▄▄[0m

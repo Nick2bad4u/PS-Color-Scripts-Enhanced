@@ -1,18 +1,4 @@
-﻿# Converted from: US-SKULL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9612/raw/US-SKULL.ANS
-# Source Revision: archive-sha256:7053afed6e742c75d943ea86bb6e43e9d362e1c6f64e894c811e4835a8b40e13
-# Source SHA-256: 657afd25d0021e74d112275b3ca946daa3de96266c739a6c4e946dc3359f2ff9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SKULL.ANS by The Silent Killer + Widowmaker (AWE Lettering); released in awe9612 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: SkullFish
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961202
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: SkullFish by The Silent Killer + Widowmaker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9612-us-skull
 
 Write-Host '
 [1;34;44m██████████████████████████▀▀▀▀▀▀[0;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;34;44m▀▀▀▀▀▀▀▀████████████████████████[0m

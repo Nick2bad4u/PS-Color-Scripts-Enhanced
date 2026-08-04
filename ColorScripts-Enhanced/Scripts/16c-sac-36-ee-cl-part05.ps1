@@ -1,13 +1,4 @@
-﻿# Converted from: ee-cl.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac-36/raw/ee-cl.ans
-# Source Revision: archive-sha256:186b6f5b7b0cc7322ba4049b2214e93524c919c262dbd13416a71d1fa532dd06
-# Source SHA-256: d3e3c35909df829701de0be70d5d44752ff33b872394fb86f6a71af832f63a45
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ee-cl.ans by Elle (sac-36); released in sac-36 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 162-201
-# Columns: 1-80
+﻿# Artwork: ee-cl.ans by Elle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac-36-ee-cl-part05
 
 Write-Host '
 [1m█▓▓[0m [1;31m▐▓███▀  ▓█████▌[0;1;37m ▓█[0m [1;31m▓████▐███▌[0;1;30m  [0;31m▓[0;1;31m██▓█▌▐▓▓██[0;31m░[0;1;31m [0;1;37m▓▓██▓ [0;1;31m▓█████░ [0;1;37m▐▀ [0;1;31m█████▓▓██▌ [0m█[1m▓[0m▓

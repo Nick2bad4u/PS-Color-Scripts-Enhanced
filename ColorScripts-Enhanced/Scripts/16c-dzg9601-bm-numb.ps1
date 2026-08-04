@@ -1,18 +1,4 @@
-﻿# Converted from: BM!NUMB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dzg9601/raw/BM!NUMB.ANS
-# Source Revision: raw-sha256:5a72629e2ba2be1eaf05e5bc8f8a524580e04a6309fe84287853a32ba720f1c4
-# Source SHA-256: 5a72629e2ba2be1eaf05e5bc8f8a524580e04a6309fe84287853a32ba720f1c4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BM!NUMB.ANS by BlindmAn (DEZiGN); released in dzg9601 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: nUMB pROMO!
-# SAUCE Author: BlindmAn
-# SAUCE Group: DEZiGN
-# SAUCE Date: 19960102
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: nUMB pROMO! by BlindmAn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dzg9601-bm-numb
 
 Write-Host '
                           [1m ▄▄▄[0m▄                ▄

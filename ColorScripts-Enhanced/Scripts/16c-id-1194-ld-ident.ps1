@@ -1,18 +1,4 @@
-﻿# Converted from: LD-IDENT.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/archive/1994/id-1194.zip
-# Source Revision: archive-sha256:e4287e2f7c251cb296d97cfef2d3a7cb7be107b4159284bac2c6b0e68634a939
-# Source SHA-256: b225714f8d081c5a0b428185010025b8c52837925e646a8a67864447337df01d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-IDENT.ANS by Living Death (iDENTiTY); released in id-1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: iDENTiTY LOGO
-# SAUCE Author: Living Death
-# SAUCE Group: iDENTiTY
-# SAUCE Date: 19940930
-# SAUCE Dimensions: 80x25
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: iDENTiTY LOGO by Living Death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-id-1194-ld-ident
 
 Write-Host '
 [1;34;44m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

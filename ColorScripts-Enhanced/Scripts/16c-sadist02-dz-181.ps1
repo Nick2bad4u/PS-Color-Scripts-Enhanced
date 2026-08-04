@@ -1,18 +1,4 @@
-﻿# Converted from: DZ-181.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sadist02/raw/DZ-181.ANS
-# Source Revision: archive-sha256:3b487d46b8d6196e38a23b461a8a31a0bcfeed849c805b149ff5c967f2ad35e5
-# Source SHA-256: c37c620cae71b24f39f0f513c9d58ef56af4aaad5e2d9de33e2f7091e3bb3e94
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DZ-181.ANS by Dizzy (sadist); released in sadist02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: sw33t suburb skarpnack,...
-# SAUCE Author: Dizzy
-# SAUCE Group: sadist
-# SAUCE Date: 19981130
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: sw33t suburb skarpnack,... by Dizzy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sadist02-dz-181
 
 Write-Host '
 ▄              [1m▐█[0;1;33m█▓░[0m

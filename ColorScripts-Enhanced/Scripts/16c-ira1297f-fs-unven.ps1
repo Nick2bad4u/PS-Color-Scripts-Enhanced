@@ -1,18 +1,4 @@
-﻿# Converted from: FS-UNVEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira1297f/raw/FS-UNVEN.ANS
-# Source Revision: archive-sha256:aaf8efb3855bf52b486533186764296c0de75f15c8aab234da34f02a9e2d45f6
-# Source SHA-256: f3a6f0399fa74e8e3975530fb366bcbeda2fc033c1e85a420a2e97ec16040c7e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FS-UNVEN.ANS by flying squirrel (irato); released in ira1297f and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: uneven
-# SAUCE Author: flying squirrel
-# SAUCE Group: irato
-# SAUCE Date: 19971112
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: uneven by flying squirrel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira1297f-fs-unven
 
 Write-Host '
 [30m[0m[30m                      [0;37m           [0;30m                   [0;37m [0;35m [0;1;35m▄[0;1;35;45m▓███▓▓[0;35m▄[0m

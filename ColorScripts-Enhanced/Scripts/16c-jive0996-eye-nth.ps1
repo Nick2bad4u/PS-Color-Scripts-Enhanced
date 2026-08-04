@@ -1,15 +1,4 @@
-﻿# Converted from: EYE-NTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jive0996/raw/EYE-NTH.ANS
-# Source Revision: archive-sha256:6b7d48e396de55126b3ae9c64ca3a6e3836b2eee40f86ad76fd1706353435055
-# Source SHA-256: 9d422b5d95cdab70ff17cd231a9564ecbb73e4a74100327f29c34b570607b937
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EYE-NTH.ANS by Eyeball (jive0996); released in jive0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Night
-# SAUCE Author: Eyeball
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Night by Eyeball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jive0996-eye-nth
 
 Write-Host '
 [30m[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: NN-LGCY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9604/raw/NN-LGCY.ANS
-# Source Revision: archive-sha256:c9d341fbab42005be8369b5b74c082e1beaf2773cdcff315b890579fc5c3d129
-# Source SHA-256: 0926bd20f72e023f11d9e6a46a69778885f3eb083660d0c243364385f20461dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NN-LGCY.ANS by neo negro (blade); released in blde9604 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the legacy
-# SAUCE Author: neo negro
-# SAUCE Group: blade
-# SAUCE Date: 19960323
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: the legacy by neo negro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9604-nn-lgcy
 
 Write-Host '
              [1m░[0m          [1m░▄[0m                           [33m░  ░[0m     [33m░[0m

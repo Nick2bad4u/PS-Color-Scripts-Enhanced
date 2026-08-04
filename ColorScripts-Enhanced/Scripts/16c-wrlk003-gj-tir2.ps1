@@ -1,13 +1,4 @@
-﻿# Converted from: gj-tir2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wrlk003/raw/gj-tir2.ans
-# Source Revision: archive-sha256:f8a5978b1dd382d13a0cee4c0d6755b77dc879551ad11886884e396cd50f6e93
-# Source SHA-256: fa9d92508cf7cd1bd3de18cce4980f5462aa2e1165567bfc8aa56c32afd7cfcb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: gj-tir2.ans by Grymmjack (wrlk003); released in wrlk003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: gj-tir2.ans by Grymmjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wrlk003-gj-tir2
 
 Write-Host '
 [1;37;43m███[0;1;33;40m█▄[0;1;37;40m░▓[0;1;37;47m██▓[0;1;33;40m█[0;1;37;40m▌[0m▐[1;37m██[0m▌[1;33m████[0;1;33;43m▒[0;33m▀[0;1;33m▀[0;33m▀[0;1;30m▄[0m▄[1;37m▄[0;1;37;47m▄[0;1;37;40m██▄[0m▄[1;30m▄[0;33m▀[0;1;33;41m░▓[0;1;33;40m█████[0;1;33;43m▀[0;33m▀[0;37m▄[0;1;37m██[0m▄▀[1;37m██[0m█▀▄[1;37;47m▒[0;1;37;40m██[0m▄[1;30m▄[0;33m▀[0;1;33;41m░▒▒▓█▓[0;1;33;40m▄▄▄▄▄▄[0;31m [0;33m▄[0m

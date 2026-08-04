@@ -1,18 +1,4 @@
-﻿# Converted from: US-BLDE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9609/raw/US-BLDE1.ANS
-# Source Revision: archive-sha256:ebbff7e3049916d809d893ea2aa04734229c43fb86ad9d17682073c079d4ff3a
-# Source SHA-256: b13548074a867cdd903acb59aeba2e74a509d1c17d4e08f4c5b47bb39e8c6cf0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BLDE1.ANS by Mindcrime + Grey Hawk (blade productions); released in blde9609 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: blade productions
-# SAUCE Author: grey hawk + mci
-# SAUCE Group: blade productions
-# SAUCE Date: 19960811
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: blade productions by Mindcrime + Grey Hawk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9609-us-blde1
 
 Write-Host '
                                                               [1m:[0m

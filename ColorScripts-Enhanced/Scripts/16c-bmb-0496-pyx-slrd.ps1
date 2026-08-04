@@ -1,13 +1,4 @@
-﻿# Converted from: PYX-SLRD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0496/raw/PYX-SLRD.ANS
-# Source Revision: archive-sha256:9fb4b1757bdb5b2d8b6612a644ec54aa19d509c5d6be8e96f657255031b4504b
-# Source SHA-256: af69a5f375e72770f066b531385beef7401e90ebc2f5c5e25fbc854e5221c806
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-SLRD.ANS by Pyx (bmb-0496); released in bmb-0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: PYX-SLRD.ANS by Pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0496-pyx-slrd
 
 Write-Host '
 [1m                                       [0;35m▄▄████▄▄[0;37m                                [0m

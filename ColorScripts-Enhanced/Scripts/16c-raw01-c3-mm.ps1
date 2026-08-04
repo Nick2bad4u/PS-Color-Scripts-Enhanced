@@ -1,17 +1,4 @@
-﻿# Converted from: C3-MM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/raw01/raw/C3-MM.ANS
-# Source Revision: archive-sha256:68018d98da2353ea67bd0935370f9f9e7167a56c319420d702baa29dd9d82b28
-# Source SHA-256: ed14976c26a456f09f4a2946a52047544f61d7c816594fbc75a416d3ee37718e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: C3-MM.ANS by criminal enigma (raw01); released in raw01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: magik mushrooms
-# SAUCE Author: criminal enigma
-# SAUCE Date: 19970327
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: magik mushrooms by criminal enigma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-raw01-c3-mm
 
 Write-Host '
 

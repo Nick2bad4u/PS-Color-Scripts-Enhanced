@@ -1,18 +1,4 @@
-﻿# Converted from: RA-RISE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-15/raw/RA-RISE.ANS
-# Source Revision: archive-sha256:cd2d406ee7567eb1c250b9572bb0b7fdd8b6cfa2b5014b290774725da37d8cc8
-# Source SHA-256: 9e49f850584dfabe95d3e10df9667b0fca83b1fe6b9468364db121f9f8adb507
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RA-RISE.ANS by Rage (READ THE INI FILE); released in force-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Rise
-# SAUCE Author: Rage
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19970118
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Rise by Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-15-ra-rise
 
 Write-Host '
 [32m[0m[32m[0m[1;30m[0m[1m[0m[1;30m[0m      ▀▄▄▄▓   [34m [0;37m [0;34m [0;37m [0;32m [0;37m░[0;32m [0;37m [0m     [1;33;43m░░[0m     ▀▄▄▄▓   [34m [0;37m [0m          [37m▀▄▄▄▓   [0m

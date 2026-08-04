@@ -1,13 +1,4 @@
-﻿# Converted from: cxc_ogim_ansi_colly_final.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cph.artpack27.20th.anniversary.birthday/raw/cxc_ogim_ansi_colly_final.ans
-# Source Revision: archive-sha256:51166890bfbd92451d1ff0e6aa8e137836492c0564ec155f70608f56ac864427
-# Source SHA-256: 7aa0341626aed99d9040806204752431eb6e6bc576b414481791230b5e0afb4c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cxc_ogim_ansi_colly_final.ans by Coaxcable (cph.artpack27.20th.anniversary.birthday); released in cph.artpack27.20th.anniversary.birthday and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: cxc_ogim_ansi_colly_final.ans by Coaxcable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cph-artpack27-20th-anniversary-birthday-cxc-ogim-ansi-colly-final-part01
 
 Write-Host '
    [1;36m▄▀[0m

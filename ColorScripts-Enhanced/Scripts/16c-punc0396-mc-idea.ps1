@@ -1,18 +1,4 @@
-﻿# Converted from: MC-IDEA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/punc0396/raw/MC-IDEA.ANS
-# Source Revision: archive-sha256:a55ffe196038470017abdbc0c565585063d9213ab2534336071cea64c7ae59c9
-# Source SHA-256: 4e66bcc7efcf70c1be8715e8292426b96efec305aed9e17a751ada4f9afc6114
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MC-IDEA.ANS by mea culpa (punc); released in punc0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: idea
-# SAUCE Author: mea culpa
-# SAUCE Group: punc
-# SAUCE Date: 19960229
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: idea by mea culpa | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-punc0396-mc-idea
 
 Write-Host '
 [1;30m[0m[1;30m[0m                 [1;30m$$[0m![1;30m$$[0m     [36m,÷.[0m    [36m,÷.[0m    [36m,÷.[0m    [36m,÷.[0m    [36m,÷. [0;37m [0;1;30m$$$$$[0m

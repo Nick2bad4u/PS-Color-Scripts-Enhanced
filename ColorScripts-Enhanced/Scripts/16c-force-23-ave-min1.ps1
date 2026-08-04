@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-MIN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-23/raw/AVE-MIN1.ANS
-# Source Revision: archive-sha256:f54958574841312d2cfb8b706a10ab98a217653ef5b490a16e29de1d333d41f9
-# Source SHA-256: 3861581c9070c2621b5bafe0a7235f6e59cdd09eac8e4dc4b75c7ad09dfcb827
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-MIN1.ANS by The Avenging Angel (force); released in force-23 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Ministry
-# SAUCE Author: The Avenging Angel
-# SAUCE Group: force
-# SAUCE Date: 19980924
-# SAUCE Dimensions: 80x25
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Ministry by The Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-23-ave-min1
 
 Write-Host '
 [36m [0;34m [0;1;34m░░[0;34m      ▐[0m   [35m [0;37m [0;35m ▀[0;1;35m▀▀[0;1;35;45m▀███[0;1;35;47m▓▓[0;1;37;47m░[0;1;35;47m░▓[0;1;35;45m▓▓░░░   [0;35m▀[0;1;35;45m   ░░░▓▓▓[0;1;35;47m▓▓▓[0;1;35;45m▀▀▀▀███[0;1;35;47m▓▓▓░[0;1;37;47m░[0;1;35;47m░▓▓▓▓[0;1;35;45m▓▓▓░░░[0;35m▌      [0m

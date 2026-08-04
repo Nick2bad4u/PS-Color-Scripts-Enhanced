@@ -1,17 +1,4 @@
-﻿# Converted from: cd!tus.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic43/raw/cd!tus.ans
-# Source Revision: archive-sha256:0a74791278cf4c5cbc23554e60025849b7049d64f093ed7e5342fcd51fe1292a
-# Source SHA-256: 34c049af03213d7a8d127de52e08cdee089bb2778e282b2727c6e3f6c6cbc46d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cd!tus.ans by cat-dog (mimic); released in mimic43 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: cat-dog
-# SAUCE Group: mimic
-# SAUCE Date: 20020103
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: cd!tus.ans by cat-dog | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic43-cd-tus
 
 Write-Host '
 k,.[1m  `└[0;1;33m**┘^[0;1;31m``^[0;1;35m└.[0m  ``''└[1m$$$$$$$$$[0m7`.4$$$$$P┘"^^"└4$$$7 $S*┘"^`\

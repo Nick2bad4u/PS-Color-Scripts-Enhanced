@@ -1,13 +1,4 @@
-﻿# Converted from: GDR-ICB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/basic-05/raw/GDR-ICB.ANS
-# Source Revision: archive-sha256:a2f68eccc2948d19a9df8c4fd26441b93a19bdc137d65564784937cd2559a252
-# Source SHA-256: ee9087cee2c119e53572b2ec052b4487fbb98a85842a6775cd396dfb66ee61f7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GDR-ICB.ANS by Gravedancer (basic-05); released in basic-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: GDR-ICB.ANS by Gravedancer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-basic-05-gdr-icb
 
 Write-Host '
 [1m    GDR       $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ba,._     _.,ad$[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SF-ONE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0697/raw/SF-ONE.ANS
-# Source Revision: archive-sha256:d190a8046767bbc429812300532b65ff0ea6e011704fc75ed31c91d378c985ff
-# Source SHA-256: f264fa3cf5d3087c19af892894c1ea3489eebdca33ef314036ea512197d8f695
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SF-ONE.ANS by shaft (fire); released in fire0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: oneliner
-# SAUCE Author: shaft
-# SAUCE Group: fire
-# SAUCE Date: 19970604
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: oneliner by shaft | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0697-sf-one
 
 Write-Host '
 [1m█[0;1;46m▀▄▄[0;1;36;46m [0;1;37;46m▄▌[0;36m▀  [0m      [36m [0;37m        [0;33m  [0;37m  [0;33m ░[0;30;43m▓░[0;33;40m▓▓[0;37;40m [0;1;30;40m ░░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MR-NEWS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9704/raw/MR-NEWS.ANS
-# Source Revision: archive-sha256:f29d1a72731ce9383841840bc86b0749ff1457d1c25c6a64baa5adfdac9e6943
-# Source SHA-256: 6bf196046a5ec8d1a0b8c8a512136010dfbc7d054e0c3df3fbab575ce0439033
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-NEWS.ANS by minotaur (mAidEN bRAZil); released in mdn-9704 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: news header for insert(phat)
-# SAUCE Author: minotaur
-# SAUCE Group: mAidEN bRAZil
-# SAUCE Date: 19970310
-# SAUCE Dimensions: 80x12
-# Lines: 1-12
-# Columns: 1-80
+﻿# Artwork: news header for insert(phat) by minotaur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9704-mr-news
 
 Write-Host '
         [1;31m▄[0;31m▄[0m                                                          [1;31m   [0m

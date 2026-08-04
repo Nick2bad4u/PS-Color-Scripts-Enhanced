@@ -1,18 +1,4 @@
-﻿# Converted from: US-C02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-02/raw/US-C02.ANS
-# Source Revision: archive-sha256:3fd9f194d865cfc24c90bdf11a27528d8d82a8ba9c376ebed567183a2f95a9f3
-# Source SHA-256: 8119d26e5e507c16c66fd7b521ab29a8f674683a4458f2be940eb763c3021b5d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-C02.ANS by Toot + Archangel (nerp & society); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: c02
-# SAUCE Author: toot & archangel
-# SAUCE Group: nerp & society
-# SAUCE Date: 19971102
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: c02 by Toot + Archangel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-02-us-c02
 
 Write-Host '
 [1;32;42m██▀██[0;1;33;40m██[0;1;32;42m██▓▓░░[0;32m▓░ ▐[0;1;32;42m▀▐█[0;32m▓░   ▀▐[0;1;32;42m▀██[0;1;33;40m█[0;1;32;42m██░[0;32m▌▀[0;1;32m▀▀▀[0;32m▀[0;1;32;42m▀██▌▀[0;32m█[0;1;32;42m  ░░▓▓███████████[0;1;33;40m███[0;1;32;42m███▀[0;32m▀[0;1;32;42m░░[0;32m▌▄█[0m

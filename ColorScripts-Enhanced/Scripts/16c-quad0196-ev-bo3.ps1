@@ -1,18 +1,4 @@
-﻿# Converted from: EV-BO3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0196/raw/EV-BO3.ANS
-# Source Revision: archive-sha256:61642f5831b797f313fe10336de4c5f16c13238dc27081faf3549cf8df1329cd
-# Source SHA-256: 65b9544b1e9ed4b0d01104aaf1d86b7036feb45cb49a0b5308c9ae687f311ada
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EV-BO3.ANS by Evilive ([Quad-P]); released in quad0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Black Opium
-# SAUCE Author: Evilive
-# SAUCE Group: [Quad-P]
-# SAUCE Date: 19951202
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: Black Opium by Evilive | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0196-ev-bo3
 
 Write-Host '
 

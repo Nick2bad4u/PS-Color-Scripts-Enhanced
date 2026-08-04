@@ -1,18 +1,4 @@
-﻿# Converted from: XS-SOULS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sadist01/raw/XS-SOULS.ANS
-# Source Revision: archive-sha256:a09604d5f43fb8785b5c5dfd9a5165e810b4d58fd16a4084e3fe605eab5c8eb7
-# Source SHA-256: e27729127f6a91f0ea535c12182c0d2f65dac246dba54f986a813ad3b9ab0cde
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XS-SOULS.ANS by xsys (souls); released in sadist01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: souls #3 info file
-# SAUCE Author: xsys
-# SAUCE Group: souls
-# SAUCE Date: 19981130
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: souls #3 info file by xsys | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sadist01-xs-souls
 
 Write-Host '
       [30;44m▓▓[0;34;40m▄[0;1;34;44m░[0;34m█▄[0;37m               [0;1;33m [0;34m▄▄[0;30;44m▓▓[0;34;40m▄▄▄[0m      [37;40m▄[0;1;37;40m▄[0m          [1m   [0;34m▄[0;1;37m  [0;34m [0;1;34m▄▄▄[0;34m▄▄▄ [0;30;44m██[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: SP-BM2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook21/raw/SP-BM2.ANS
-# Source Revision: archive-sha256:a9340bf45277705f38b7b2e8dfe7bc518716b8c419a47ac48708bc33bd40ec01
-# Source SHA-256: 62027da04947a2f275fbb60828620c5d4cbac78673cdd2b6ef2aae45e33efbd8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SP-BM2.ANS by Spear (bmbook21); released in bmbook21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: SP-BM2.ANS by Spear | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook21-sp-bm2
 
 Write-Host '
 

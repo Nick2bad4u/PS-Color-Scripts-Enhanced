@@ -1,18 +1,4 @@
-﻿# Converted from: TR-STIMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/void0195/raw/TR-STIMP.ANS
-# Source Revision: archive-sha256:2def6f7c6cf34a9c00221d80c700ffa50680a5a32ff06bff65e77da64d339a70
-# Source SHA-256: 33a1a55c2c0377f8bb188a79320ffa973e64deec32b0d51ab5147af8b1182bb1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-STIMP.ANS by Turtle (Void); released in void0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Meltdown
-# SAUCE Author: Turtle
-# SAUCE Group: Void
-# SAUCE Date: 19941229
-# SAUCE Dimensions: 80x105
-# Lines: 40-76
-# Columns: 1-80
+﻿# Artwork: Meltdown by Turtle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-void0195-tr-stimp-part02
 
 Write-Host '
 [36m █████████████ [0;31m▀ [0;1;37m▀▀[0;31m▄██████▌[0;1;33m▐█▐▄[0;1;37m▀███▄██[0;1;37;47m▀[0m▀[1m▄███▄[0;1;47m██▀[0m▀[1;33m▄██▌[0;31m▐████▀▀▀[0;1;37m▄▄▄▄▄[0;36m▀▀▀██████████[0m

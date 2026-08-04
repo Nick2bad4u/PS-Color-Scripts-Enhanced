@@ -1,19 +1,4 @@
-﻿# Converted from: MM-DRUGS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0223/raw/MM-DRUGS.ANS
-# Source Revision: archive-sha256:f6abf3bbd53eb017898fa84b28d2ac43fcb70297788ba675e470ca73794cbbfd
-# Source SHA-256: fa18d3d3bf8a8c0e870666b13061dc055f537109670e3acb79e4519067fa59e5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-DRUGS.ANS by Mavenmob (Mistigris); released in mist0223 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: TV is Drug
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20230221
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: TV is Drug by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0223-mm-drugs
 
 Write-Host '
                [30m▄[0;37m                [0;30m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: TR-POLY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pst-01/raw/TR-POLY.ANS
-# Source Revision: archive-sha256:c04e914d8cf8cbaf55a4930441deb2276e238126ba1c3d22c30384b0f1c2f671
-# Source SHA-256: c4ae605454c0db255c1f23f3faf8c4841b7fe6d420749e50e2e3f979d301b441
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-POLY.ANS by Trippah (Polyester); released in pst-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: guest release poly ansi
-# SAUCE Author: Trippah
-# SAUCE Group: Polyester
-# SAUCE Date: 19970801
-# SAUCE Dimensions: 80x14
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: guest release poly ansi by Trippah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pst-01-tr-poly
 
 Write-Host '
      [30;45m▓▓[0m             [1;37;40mP  [0m  o    l    y    e    s    t    a    h

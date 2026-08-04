@@ -1,16 +1,4 @@
-﻿# Converted from: GRPP-03.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst-12/raw/GRPP-03.ANS
-# Source Revision: archive-sha256:63a6855f68e121642df2e6e17ace70e0e335728ff27fbf72c51891b77660a0fc
-# Source SHA-256: 6a4eab42a4fc338ac422e6f8b838696585f595d69835666211f0bcb79c5d5419
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GRPP-03.ANS by Putrid Carcass + The Ruiner + Napalm Death (Twisted); released in twst-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: \     \\\[_   ^_2\2211000
-# SAUCE Author: pc/rn/nd
-# SAUCE Group: Twisted
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: \ \\\[_ ^_2\2211000 by Putrid Carcass + The Ruiner + Napalm Death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst-12-grpp-03
 
 Write-Host '
 [1m█[0;1;33m██[0;1;32;42m██▀[0;32m▀▀▀▀▀▀▀▀[0m

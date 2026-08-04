@@ -1,18 +1,4 @@
-﻿# Converted from: US-CSC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat1296/raw/US-CSC.ANS
-# Source Revision: archive-sha256:7d01b0bd390151991b0a903d8d987d245c20f2b06635915da8eb049974bd356a
-# Source SHA-256: 70c16d600ff17d4c6f768a1c9306e1f78057b3721ae14caa2e0a8b7ca4de48c9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CSC.ANS by Poti + Shaitan (phat. fbk.); released in phat1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: crescent.
-# SAUCE Author: poti. shaitan.
-# SAUCE Group: phat. fbk.
-# SAUCE Date: 19961128
-# SAUCE Dimensions: 80x27
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: crescent. by Poti + Shaitan | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat1296-us-csc
 
 Write-Host '
 

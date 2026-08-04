@@ -1,20 +1,4 @@
-﻿# Converted from: DARKMAN_ALMIGHTY-TRIP_TUCKER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0526/raw/DARKMAN_ALMIGHTY-TRIP_TUCKER.ANS
-# Source Revision: archive-sha256:96e9c14a0862fcfb7b203f3d94f85e28654461fdbf12521de185a12d5fb418bb
-# Source SHA-256: 91493b56104daf5f49c6019276cca4a815fc587a178fb3a016a05d53b8cf255c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DARKMAN_ALMIGHTY-TRIP_TUCKER.ANS by Darkman Almighty (Misti); released in mist0526 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Trip Tucker
-# SAUCE Author: Darkman Almighty
-# SAUCE Group: Misti
-# SAUCE Date: 20260625
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Trip Tucker from Star Trek Enterprise
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Trip Tucker by Darkman Almighty | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0526-darkman-almighty-trip-tucker
 
 Write-Host '
 ▒▒▓▓▓▓▓▓█████████████████████████▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀███████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒

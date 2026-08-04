@@ -1,17 +1,4 @@
-﻿# Converted from: IZ-FUEL!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel09/raw/IZ-FUEL!.ANS
-# Source Revision: archive-sha256:cae1fe00a9cd349fa6bb692920586d60c6acc70987b088220f071822b0b1e1ed
-# Source SHA-256: 463ca2d15cea65fe819c11f17d30c991eeace30fc23bff5933eca5114632bca4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-FUEL!.ANS by iZE (Fuel); released in fuel09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fuel promotional
-# SAUCE Author: iZE
-# SAUCE Group: Fuel
-# SAUCE Dimensions: 80x25
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: fuel promotional by iZE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel09-iz-fuel-bang
 
 Write-Host '
 

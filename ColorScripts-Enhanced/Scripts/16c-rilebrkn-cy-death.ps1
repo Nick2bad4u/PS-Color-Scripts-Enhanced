@@ -1,17 +1,4 @@
-﻿# Converted from: CY-DEATH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rilebrkn/raw/CY-DEATH.ANS
-# Source Revision: archive-sha256:631709d46940d5f633b8ebca426a515d51357cee4cca25bed435a2a8fbf53a10
-# Source SHA-256: 8c21f239b5ebcd76c16c3481f1dac7f546ee25250178bcf1596ce40b06b2410b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CY-DEATH.ANS by Rev Crayon (rilebrkn); released in rilebrkn and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Death is only the beginning.
-# SAUCE Author: Rev Crayon
-# SAUCE Date: 19970427
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Death is only the beginning. by Rev Crayon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rilebrkn-cy-death
 
 Write-Host '
                                  [34m  [0m

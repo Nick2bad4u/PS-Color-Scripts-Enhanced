@@ -1,18 +1,4 @@
-﻿# Converted from: ASS-04.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rags2r2a/raw/ASS-04.ANS
-# Source Revision: archive-sha256:b6fe4ad2710b940b9fc065cc3d8845bc48a34f58dd8c5b1b55d6bd7f8162e058
-# Source SHA-256: b71ecad27b29a5302dc09ea68c3fd5a5410386f03ec7759900bee0f8fe307cbe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ASS-04.ANS by ASS (.rAGS 2 rICHES.); released in rags2r2a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: "Soul Assassin .. rAG nUMBAH fOUR?"
-# SAUCE Author: ASS
-# SAUCE Group: .rAGS 2 rICHES.
-# SAUCE Date: 19950610
-# SAUCE Dimensions: 80x195
-# Lines: 148-195
-# Columns: 1-80
+﻿# Artwork: "Soul Assassin .. rAG nUMBAH fOUR?" by ASS | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rags2r2a-ass-04-part04
 
 Write-Host '
 [1;33m████████▄ [0m [1;33m█████████ ██   [0m    [1;33m ██[0m [1;33m ▄█████▄ [0m [1;33m██ [0m     [1;33m██[0m [1;33m██  ▄██████▄   ▄████████[0m

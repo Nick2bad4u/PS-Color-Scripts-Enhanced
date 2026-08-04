@@ -1,13 +1,4 @@
-﻿# Converted from: PR-HELL4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bleu001/raw/PR-HELL4.ANS
-# Source Revision: archive-sha256:21f9d9b3886f8960e13a100982fe05e4a4561042d24e98c93f66986975b8e90c
-# Source SHA-256: bb5f46ee8208487e5ab240d59b1929d636cfecc90008f8b9046e62335ca9ed2a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR-HELL4.ANS by Propane (bleu001); released in bleu001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: PR-HELL4.ANS by Propane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bleu001-pr-hell4
 
 Write-Host '
  [34m▄[0;36;44m░[0;37;40m        [0;36;40m [0;37;40m   [0;34;40m░[0;37;40m [0;34;40m  ▄[0;36;44m▄[0;34;40m█▀[0;37;40m [0;1;30;40m ▄▄▄[0m  [34m▀[0;37m   [0;34m▄[0;37m  [0;34m░░  ▄[0;36;44m▄▄[0;34;40m▄    ░[0;37;40m     [0;1;36;40m                       [0m

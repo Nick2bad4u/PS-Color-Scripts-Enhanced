@@ -1,13 +1,4 @@
-﻿# Converted from: MK-DVTR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dvt-a002/raw/MK-DVTR.ANS
-# Source Revision: archive-sha256:cebc39699ae8b25ba518b2ba5782156ca1128226a0f97880c63d4b8cd53b3a57
-# Source SHA-256: 99c4a248ab36985916238141470966e068e82fec60aa70550bfb2a26e7f72544
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MK-DVTR.ANS by Maniak (dvt-a002); released in dvt-a002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: MK-DVTR.ANS by Maniak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dvt-a002-mk-dvtr
 
 Write-Host '
 [34m²""''[0;1;37m.,affa,.[0m [34m²"`"²""""²$$$$²""""²$$²""²$$²""""²$²""""²''  `"²$Ii;:::[0;1;34mIi:[0;34m:"[0m

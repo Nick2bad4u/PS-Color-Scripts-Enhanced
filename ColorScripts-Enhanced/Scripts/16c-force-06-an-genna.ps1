@@ -1,18 +1,4 @@
-﻿# Converted from: AN-GENNA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-06/raw/AN-GENNA.ANS
-# Source Revision: archive-sha256:f7d728136aaa2560b33557909d3ebe5033c5153ef2368afde643150908f5ae9a
-# Source SHA-256: 1a0ae61df184af7c5d6bb03b14252f7d78180e6e16036027e8d9a76dc507508f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AN-GENNA.ANS by Anubis (fORCE); released in force-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Gehenna
-# SAUCE Author: Anubis
-# SAUCE Group: fORCE
-# SAUCE Date: 19960127
-# SAUCE Dimensions: 80x18
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: Gehenna by Anubis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-06-an-genna
 
 Write-Host '
       [32m   [0m [1;31m [0m                          [33m [0m

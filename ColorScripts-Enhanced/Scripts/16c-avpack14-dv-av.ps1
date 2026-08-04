@@ -1,17 +1,4 @@
-﻿# Converted from: DV-AV!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack14/raw/DV-AV!.ANS
-# Source Revision: archive-sha256:cc504a5dba52c5f998daf5493fac68a658e6668bcf22da76e3af7c67337c8c9c
-# Source SHA-256: 015419723951a1be99b62adba00bac4d1a9fc959bf2a9c8636211dbb4d7b2561
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DV-AV!.ANS by digital vampire (Apocalyptic Visions); released in avpack14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: heart
-# SAUCE Author: digital vampire
-# SAUCE Group: Apocalyptic Visions
-# SAUCE Dimensions: 80x25
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: heart by digital vampire | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack14-dv-av
 
 Write-Host '
              [34m▄█▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-AWE5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-35/raw/AVG-AWE5.ANS
-# Source Revision: archive-sha256:bc92204ac679e4231b1db133abb983c42252574e71b83e8773e063911f5f3ee6
-# Source SHA-256: 48e6ea888a8f569373c497d954f742a22346b573b50b1148cece0114fa62e0a6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-AWE5.ANS by avenging angel (glue); released in glue-35 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: awe
-# SAUCE Author: avenging angel
-# SAUCE Group: glue
-# SAUCE Date: 20010326
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: awe by avenging angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-35-avg-awe5
 
 Write-Host '
 

@@ -1,19 +1,4 @@
-﻿# Converted from: mx-f2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel30/raw/mx-f2.ans
-# Source Revision: archive-sha256:e3148e82a669aa484baf0738069fbabe44ba2824856e1cb4b05875b86bdd4621
-# Source SHA-256: 46be30c7af4d5eb803562395d5167e23c3e8ef192153695bbd7ad64c18085f89
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mx-f2.ans by mx (fuel30); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: FUEL Bubble
-# SAUCE Author: mx
-# SAUCE Date: 20190714
-# SAUCE Dimensions: 80x31
-# SAUCE Font: IBM VGA
-# SAUCE Comments: PEACE TO THA TEXTMODE OGs <3
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: FUEL Bubble by mx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel30-mx-f2
 
 Write-Host '
 

@@ -1,17 +1,4 @@
-﻿# Converted from: KH-SFISH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-07/raw/KH-SFISH.ANS
-# Source Revision: archive-sha256:61889e25f9aabca379d04e2b2d3feb488a6dd66438cbe11c86e0ef7c4ce83215
-# Source SHA-256: e64b15311c03b58c78ff74bc796740bff1cd0c34b635127efc771d95c00d6baf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KH-SFISH.ANS by Killa Hertz (ACiD Productions); released in rmrs-07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Skull Fish
-# SAUCE Author: Killa Hertz
-# SAUCE Group: ACiD Productions
-# SAUCE Dimensions: 80x25
-# Lines: 48-94
-# Columns: 1-80
+﻿# Artwork: Skull Fish by Killa Hertz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-07-kh-sfish-part02
 
 Write-Host '
 [35m.[0m                   [1;30m²[0m$$² ,     ''[1;31m`²SS[0;1;37ma[0;1;31m$$$$Si: `[0m       [1m,[0m   a,        [1m,a²[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: MD-DYST1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0995/raw/MD-DYST1.ANS
-# Source Revision: archive-sha256:66f11d43d10b981d3ff2235c6fadd1403a507952ad88040c9eb9cd5142a4f4b1
-# Source SHA-256: 01b0b33b16c641fdeeb287220004430547efcbdd0ea94af6b48094265c7f5737
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MD-DYST1.ANS by Mass Delusion (Union); released in uni-0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Terminally Nothing's DYSTOPIA!
-# SAUCE Author: Mass Delusion
-# SAUCE Group: Union
-# SAUCE Date: 19950731
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: "...wherever the k0w roams!"
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: Terminally Nothing's DYSTOPIA! by Mass Delusion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0995-md-dyst1-part01
 
 Write-Host '
 [30m[0m[1;30m▄  ▄  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m▄[1;30m▄▄[0m▄[1;30m▄[0m▄▄[1m▄  m[0mass [1md[0melusion . [1mu[0mnion

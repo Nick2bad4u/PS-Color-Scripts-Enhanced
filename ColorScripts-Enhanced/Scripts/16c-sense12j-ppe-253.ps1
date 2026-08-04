@@ -1,17 +1,4 @@
-﻿# Converted from: PPE-253.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense12j/raw/PPE-253.ANS
-# Source Revision: archive-sha256:e1859c229de4f4dd1e65990d325e90f1a80e1ce3863ae80925f53e6878990dc6
-# Source SHA-256: a4aef6e3c480e5b934911d8dbd307af71499699f0660f81aff7b1ffc3044d639
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PPE-253.ANS by propane (sense12j); released in sense12j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: propane 25liner
-# SAUCE Author: propane
-# SAUCE Date: 20030130
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: propane 25liner by propane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense12j-ppe-253
 
 Write-Host '
 [1;30m██████████████████████████▄[0m▀[1;47m ▀██▄[0;1;40m█[0;1;47m▀▀[0m▀[1;30m▄███████████████████████████████████[0;1;30;46m▓▓▓▓[0;1;30;40m███[0m

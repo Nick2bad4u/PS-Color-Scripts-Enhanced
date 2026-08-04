@@ -1,19 +1,4 @@
-﻿# Converted from: TNT-FIER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-39/raw/TNT-FIER.ANS
-# Source Revision: archive-sha256:5e57507ce34170a4afb707b1587800d0885fae4776f1271b7b7cee7f71264d9d
-# Source SHA-256: d72e1a0b0191b7d60adddc023c240c16e0eea317d3ad5ccd036ae3dfe0058850
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNT-FIER.ANS by tainted (Fire); released in fire-39 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fire Promo
-# SAUCE Author: tainted
-# SAUCE Group: Fire
-# SAUCE Date: 20240303
-# SAUCE Dimensions: 80x122
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Fire Promo by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-39-tnt-fier-part01
 
 Write-Host '
 [37;40m▄▄▄▄▄▄▄▄▄ ▄[0;1;37;40m▄▄▄▄▄▄▄▄▄▄▄[0m▄▄  ▄[1m▄▄▄▄░   [0m▄[1m▄▄▄▄▄[0m▄[35m ▄▄[0m

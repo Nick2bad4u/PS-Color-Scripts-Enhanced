@@ -1,18 +1,4 @@
-﻿# Converted from: CG-AVG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lure002/raw/CG-AVG.ANS
-# Source Revision: archive-sha256:f1a17285c6f66215a41b3537354833c5fccbb84d30b92c78e4ea0603dc7f8cf1
-# Source SHA-256: ab46ce23f8c888f22a079dfdc197b6b565e66f7f2436cfc0f793f43dc5834d44
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-AVG.ANS by cryogenic (lure); released in lure002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: for ivan
-# SAUCE Author: cryogenic
-# SAUCE Group: lure
-# SAUCE Date: 20020318
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: for ivan by cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lure002-cg-avg
 
 Write-Host '
                                                         [35m▬ [0m

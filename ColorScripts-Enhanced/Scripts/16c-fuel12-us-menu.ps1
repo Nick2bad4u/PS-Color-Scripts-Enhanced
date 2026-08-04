@@ -1,18 +1,4 @@
-﻿# Converted from: US-MENU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel12/raw/US-MENU.ANS
-# Source Revision: archive-sha256:ebe2e7b01f31e0e82aa2702a876007d4ec2dd824b98bdf40e4d59e2b113da7e4
-# Source SHA-256: ece00eedfe7cbdf4f32d888202d43b1d6855277be5136f30835a1726977358f1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-MENU.ANS by The Knight + Thrasher + Creator (Fuel Productions); released in fuel12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Quick
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Fuel Productions
-# SAUCE Date: 19970401
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Quick by The Knight + Thrasher + Creator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel12-us-menu
 
 Write-Host '
           [1m [0m         [36m▄▄[0m       [31m ▄▄ [0m      [31m░░[0m           [37m      [0;31m▄[0;1;37m         [0m

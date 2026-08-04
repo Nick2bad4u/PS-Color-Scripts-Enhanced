@@ -1,18 +1,4 @@
-﻿# Converted from: PRM-APA2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy14/raw/PRM-APA2.ANS
-# Source Revision: archive-sha256:c5547b07ff3d1430b4844962a9bc7b618137779daf38eea1b387904b434fbbab
-# Source SHA-256: 9966e5a4c711b2a6c4423ace297ededd03e48740026b918b076935fb3e8193a8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PRM-APA2.ANS by Prizm (Apathy Studios); released in apathy14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Apathy promo
-# SAUCE Author: Prizm
-# SAUCE Group: Apathy Studios
-# SAUCE Date: 19960902
-# SAUCE Dimensions: 80x21
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Apathy promo by Prizm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy14-prm-apa2
 
 Write-Host '
 

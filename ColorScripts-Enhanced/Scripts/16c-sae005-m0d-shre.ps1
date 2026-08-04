@@ -1,13 +1,4 @@
-﻿# Converted from: M0D-SHRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sae005/raw/M0D-SHRE.ANS
-# Source Revision: archive-sha256:3bc08ec76a8d3749ea90597743f9afbd0dfaa22f08c42fc452b6ab17aa3cd5e6
-# Source SHA-256: 38f8158106aeb2d562dd2f352ae32f670b325e5e185d51c3c28387bfcc5b1501
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M0D-SHRE.ANS by M0dium (sae005); released in sae005 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: M0D-SHRE.ANS by M0dium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sae005-m0d-shre
 
 Write-Host '
 

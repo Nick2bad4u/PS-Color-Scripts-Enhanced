@@ -1,19 +1,4 @@
-﻿# Converted from: MOTH-MISSINGNO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0725/raw/MOTH-MISSINGNO.ANS
-# Source Revision: archive-sha256:f8228caade9b0e4810405349f1959bd68f07890aea1a0d6aaa1eef2a322b5f21
-# Source SHA-256: 98179b2570f89ee17de9489b7a26840fc5d05cb92c27b6136cb792d45cf9977b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MOTH-MISSINGNO.ANS by Moth (Mistigris); released in mist0725 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the Secret of Missingno.
-# SAUCE Author: Moth
-# SAUCE Group: Mistigris
-# SAUCE Date: 20250731
-# SAUCE Dimensions: 80x65
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: the Secret of Missingno. by Moth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0725-moth-missingno-part01
 
 Write-Host '
 [31;46m             [0;36;40m███████████████████████████████████████████████████████████████████[0m

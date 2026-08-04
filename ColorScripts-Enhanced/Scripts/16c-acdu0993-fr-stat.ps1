@@ -1,13 +1,4 @@
-﻿# Converted from: FR-STAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0993/raw/FR-STAT.ANS
-# Source Revision: archive-sha256:446ccd0c92c26f820cb58358892955493ab8b589a0789ea252bbb676ba5a1e1f
-# Source SHA-256: 7fb6195acc7de356b80c3d60135e93b3f8a2e38420052fdf92c0176ed00ce604
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FR-STAT.ANS by Feyd Rautha (acdu0993); released in acdu0993 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: FR-STAT.ANS by Feyd Rautha | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0993-fr-stat
 
 Write-Host '
                         [1;30m· ▄[0;1;30;47m▓[0;1;30m▀[0m     [33m▄██▌[0;1;30;47m▓[0;33m▐█[0;1;30;43m ░[0;33m███▌[0;1;30;47m▓[0;33m▐█[0;1;30m▌[0;33m████▌[0;1;30;47m▒[0;33m▐▌[0;1;30;47m▓[0;33m▐[0;1;30;43m░[0;33m▄[0;1;30m▀[0;33m▄[0;1;30;43m░░[0;33m█▄[0m▀[1;30;47m▒▒[0;33m▐[0;1;30;43m  ░[0m [33m░ ░[0m

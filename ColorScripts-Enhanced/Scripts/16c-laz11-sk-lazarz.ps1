@@ -1,19 +1,4 @@
-﻿# Converted from: sk-lazarz.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz11/raw/sk-lazarz.ans
-# Source Revision: archive-sha256:68621cb5db58e1d89f5deb5798f3990fa932a6b4eb91cc1511f3f4c157d26f38
-# Source SHA-256: 56355be77b7d97af196f1eb6d7fd2237d7f9703b5780c52eef4cb2575b34a56c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sk-lazarz.ans by sIMONkING (thelo0p!); released in laz11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: E?AZARZ(LAZARUS)
-# SAUCE Author: sIMONkING
-# SAUCE Group: thelo0p!
-# SAUCE Date: 20200611
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: E?AZARZ(LAZARUS) by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz11-sk-lazarz
 
 Write-Host '
 [31m██[0;1;32;47m▄[0;1;33;47m▄▄[0m█           [31m██[0;1;32m█[0;1;33m█[0m█   [1;35m██[0;1;36m██[0;1;37m██[0;1;37;47m▄[0m▄▄      ▄[31m██[0;1;32m██[0;1;33m█[0;1;33;47m▄▄▄[0m█▄   [31m██[0;1;32m██[0;1;33;47m▄▄▄▄▄▄[0m▄██[1;33;47m▄[0;31m██[0;1;32m██[0;1;33m█[0;1;33;47m▄[0m▄▄

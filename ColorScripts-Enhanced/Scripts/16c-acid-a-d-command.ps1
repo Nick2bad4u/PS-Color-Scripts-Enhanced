@@ -1,13 +1,4 @@
-﻿# Converted from: COMMAND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acid_a-d/raw/COMMAND.ANS
-# Source Revision: archive-sha256:0c2c2d0da26e60e3cf50a9f0ddc530332592fd090be0bbe48fac5e181dbe79b5
-# Source SHA-256: 50c6b5a4bb0eedd51c271bf67ba2c84dad7805f5a919cab4307875da34d22fb2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: COMMAND.ANS by Kingpin (acid_a-d); released in acid_a-d and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: COMMAND.ANS by Kingpin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acid-a-d-command
 
 Write-Host '
             [1;30m▄[0;32m▒▓▓[0;1;30;42m▀▀[0;32m▓▓▒[0;1;30m▄[0m     [1;30m▓▓[0m                           [31m▄[0m

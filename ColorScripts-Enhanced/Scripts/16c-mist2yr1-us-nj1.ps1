@@ -1,18 +1,4 @@
-﻿# Converted from: US-NJ1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist2yr1/raw/US-NJ1.ANS
-# Source Revision: archive-sha256:dfb163381a7a05007552a68525e5d3039ad18b3101b731021ee8569cee86eda1
-# Source SHA-256: 6de375d33d2bd7540d6c1d32a833dd0d46b9a548c0aad0b8b0d7e14b4defda5e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-NJ1.ANS by Neophyte + Rage (plain / mistigris); released in mist2yr1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: neon jesus
-# SAUCE Author: neophyte / rage
-# SAUCE Group: plain / mistigris
-# SAUCE Date: 19960828
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: neon jesus by Neophyte + Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist2yr1-us-nj1
 
 Write-Host '
    ▄▄▄▄▄▄▄▄▄▄▄▄▄       ▄▄▄▄▄▄▄▄▄▄▄▄▄       ▄▄▄▄▄▄▄▄▄▄▄▄▄       ▄▄▄▄▄▄▄▄▄▄▄▄▄▄

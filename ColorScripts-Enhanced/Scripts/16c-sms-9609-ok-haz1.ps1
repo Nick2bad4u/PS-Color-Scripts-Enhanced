@@ -1,18 +1,4 @@
-﻿# Converted from: OK-HAZ1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9609/raw/OK-HAZ1.ANS
-# Source Revision: archive-sha256:96c031e04e5c479ef9ed73f1afa21a3db6bca2a2de7ad88a46888136232884ff
-# Source SHA-256: 19300a7ab2a74f73fe151637874dc567b71f42a133ea0ac835e9811dbe126c54
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OK-HAZ1.ANS by Outkast (Samsara); released in sms-9609 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Hazard
-# SAUCE Author: Outkast
-# SAUCE Group: Samsara
-# SAUCE Date: 19960831
-# SAUCE Dimensions: 80x25
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Hazard by Outkast | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9609-ok-haz1
 
 Write-Host '
 [33;41m░░[0;30;41m░░░▒▒▓[0;31;40m░[0;30;41m▓[0m          [33;40m ░░░▒▒▒▓▓▓[0;33;41m██[0;1;33;43m░[0;33;41m▓▓▒▒▒▒░░░  [0;31;40m▓▓▓▓▓▒▒▒▒░░░[0;30;41m▓[0m              [31;40m░[0;30;41m▓[0;31;40m░▒▒▒▓█[0;1;33;41m░[0m

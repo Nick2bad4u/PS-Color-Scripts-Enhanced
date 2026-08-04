@@ -1,17 +1,4 @@
-﻿# Converted from: HOS-BL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9703/raw/HOS-BL2.ANS
-# Source Revision: archive-sha256:a9939674ffea8dfd0fb24f05e2f11874539fc93155c2d5ed5e55e91f76634858
-# Source SHA-256: d31ee2585fcb9fe5ad839589ee77ec01ca73fe2c6054cfb10bb1883f8ca91cef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HOS-BL2.ANS by Hos (AWE Lettering); released in awe9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Bloodline
-# SAUCE Author: Hos
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Bloodline by Hos | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9703-hos-bl2
 
 Write-Host '
 

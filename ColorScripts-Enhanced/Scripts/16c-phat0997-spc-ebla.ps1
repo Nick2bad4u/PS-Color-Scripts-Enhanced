@@ -1,18 +1,4 @@
-﻿# Converted from: SPC!EBLA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0997/raw/SPC!EBLA.ANS
-# Source Revision: archive-sha256:7c9b6e5a1bf85f5dceb70dad3a430f8a984427653988f85df1c8489157fd2d25
-# Source SHA-256: eaea97815cca50634c35dcce742f910c3866c32e98db9eff24faa9658a91ae91
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPC!EBLA.ANS by spice (Phat Studios '97); released in phat0997 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ebola for melle
-# SAUCE Author: spice
-# SAUCE Group: Phat Studios '97
-# SAUCE Date: 19970814
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ebola for melle by spice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0997-spc-ebla
 
 Write-Host '
 [30;42m▓▓█▀[0;1;32;42m▄█▓▓▓▒░[0;30;42m [0;1;32;42m░[0;30;42m [0;1;32;40m▒▒[0;30;42m [0;1;32;42m▀░▒▓▓█▄█▄▄[0;30;42m ▀[0;32;40m▓[0;30;42m░ [0;1;32;42m▌▄████▓░[0;30;42m  ░[0;32;40m░[0;30;41m█[0;1;33;41m░░[0;30;41m  ░[0;31;40m▓░[0;30;41m▓[0m                  [30;41m▄▄▄▄░[0;31;40m▓[0;1;33;41m [0;1;31;41m░░[0m

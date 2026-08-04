@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-MOME.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0822/raw/ZII-MOME.ANS
-# Source Revision: archive-sha256:ed72a43421208b7431337d20b0e65cf1daa85d400f3cf90754e23de5d5edd83f
-# Source SHA-256: e028d40ec30fddc24ef000a801a763e52d524bc4738346138f51de78e630ceed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-MOME.ANS by Zeus II (Mistigris); released in mist0822 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Monero main menu
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20220731
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Monero main menu by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0822-zii-mome
 
 Write-Host '
 [1;30m░░░░░░░▒▒▓▓▓▓▓▓█▓[0;1;30;43m▓[0;1;30;40m▀▀▀[0m [1;30m▄[0m▄[1;30m▀▀[0m                             [1;30m▀▀▀▀▄▄▄[0m [1;30m▀▓▒▄▄▄▄▓▓▓▓▓░░░[0m

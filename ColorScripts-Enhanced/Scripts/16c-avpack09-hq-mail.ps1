@@ -1,18 +1,4 @@
-﻿# Converted from: HQ-MAIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack09/raw/HQ-MAIL.ANS
-# Source Revision: archive-sha256:3f219db3cc4582f9b9dc0d49acbeee50e3e74b4183f03c5668762afed184f532
-# Source SHA-256: 7ab9a64d6f7621ea5dc19e2c2da5e9a050ca7d141030e3f576c83d13507e036a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HQ-MAIL.ANS by Harlequin (AV); released in avpack09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Mail Menu
-# SAUCE Author: Harlequin
-# SAUCE Group: AV
-# SAUCE Date: 19960217
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Mail Menu by Harlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack09-hq-mail
 
 Write-Host '
                        [33m       [0;37m   [0;1;32;42m░[0;32m▄[0;37m [0;32m▀[0;1;32;42m░[0;32m▀[0;37m [0;1;32m▄▄▄■[0m [32m▀▀▀[0;37m  [0;1;32m▄▄[0;1;32;42m▓▒░[0;32m▄[0;37m [0;32m▀▀[0;1;32m▀[0;1;32;42m▓▒░[0;32m█▄[0;37m [0;32m [0;1;32m▄■[0m [32m▀[0;37m [0;1;32m▄■[0m [32m▄▄▐[0m

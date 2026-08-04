@@ -1,18 +1,4 @@
-﻿# Converted from: OK-PSD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blur9606/raw/OK-PSD.ANS
-# Source Revision: archive-sha256:ffa9787881efe63b0b277d2660710693ab8c4162df884fbd2e37bd095d9f386e
-# Source SHA-256: d0d785789bb802afa85a6d4210a9d97bfb88af32b9549cde550391a7842efa48
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OK-PSD.ANS by oUTkAST (Blur); released in blur9606 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Hate emag (workin' title) subdiv.
-# SAUCE Author: oUTkAST
-# SAUCE Group: Blur
-# SAUCE Date: 19960513
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Hate emag (workin' title) subdiv. by oUTkAST | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blur9606-ok-psd
 
 Write-Host '
 [1;30m▄▀▀▀▀▀▄[0;32m▀▀[0;1;32m▀[0;1;30m▄[0;1;30;43m▓[0;1;30;40m▓▀▀▀▀▀▀▀▀[0m [1;34m▄▄▄▄▄▄▄▄▄▄▄[0m [1;30m▀▀▀▀[0;1;32m▄[0;32m▄▀▀▀[0;1;32m▀▓▄[0m [1;34m▀█[0;1;34;47m▓[0;1;34;40m██[0;1;34;44m▓▒[0;34m▀▀▀▀▀▀▀▀▀▓▀▀▀▀▀█▀▀▀▀▀███▓[0m

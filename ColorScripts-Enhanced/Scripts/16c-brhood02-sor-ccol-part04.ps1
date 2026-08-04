@@ -1,18 +1,4 @@
-﻿# Converted from: SOR-CCOL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/brhood02/raw/SOR-CCOL.ANS
-# Source Revision: archive-sha256:3116c5502285672e08ebd3993834dcfa2070529c71dc4b0a25ebc4b675dbf891
-# Source SHA-256: 1e0aa16325d47bd429e67208581f5cb58eb951bcd73d4ed38dd06222a7d8d60c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SOR-CCOL.ANS by spirit of rage (Brotherhood); released in brhood02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: compo colly #1
-# SAUCE Author: spirit of rage
-# SAUCE Group: Brotherhood
-# SAUCE Date: 19981223
-# SAUCE Dimensions: 80x199
-# Lines: 150-199
-# Columns: 1-80
+﻿# Artwork: compo colly #1 by spirit of rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-brhood02-sor-ccol-part04
 
 Write-Host '
 

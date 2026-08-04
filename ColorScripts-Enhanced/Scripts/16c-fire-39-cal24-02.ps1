@@ -1,19 +1,4 @@
-﻿# Converted from: CAL24-02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-39/raw/CAL24-02.ANS
-# Source Revision: archive-sha256:5e57507ce34170a4afb707b1587800d0885fae4776f1271b7b7cee7f71264d9d
-# Source SHA-256: 6b3ce079798e3d24d257f3160ad5c557dab626cba0784109249b69dae28a2e1e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CAL24-02.ANS by Toon Goon (Fire); released in fire-39 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fire 2024 Calendar: February
-# SAUCE Author: Toon Goon
-# SAUCE Group: Fire
-# SAUCE Date: 20240303
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Fire 2024 Calendar: February by Toon Goon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-39-cal24-02
 
 Write-Host '
 [31;40m██▀▀▀█████████████████████████▀ ▄▄  ▀█▓░[0;34;40m▄[0;31;40m░▓█▀  ▄▄ ▀████▀▀▀[0;37;40m ▄▄[0;1;37;40m▄▄▄▄[0m▄▄ [31m▀▀█████▀▀▀██[0m

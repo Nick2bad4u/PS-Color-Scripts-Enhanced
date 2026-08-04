@@ -1,18 +1,4 @@
-﻿# Converted from: TI-ERE3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy05/raw/TI-ERE3.ANS
-# Source Revision: archive-sha256:2e1c7dd4c451a5d024352ee6b56eba52a2d5ba6a7d73a9cc34cff58fc603ca18
-# Source SHA-256: 513776342aeac08a435f15df646c8b718540de2763dee4a311684ff44c5607aa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TI-ERE3.ANS by Trip (Apathy); released in apathy05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Erebus
-# SAUCE Author: Trip
-# SAUCE Group: Apathy
-# SAUCE Date: 19951216
-# SAUCE Dimensions: 80x44
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Erebus by Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy05-ti-ere3
 
 Write-Host '
 [33m▀██▀▀▀▀▀▀▀▀[0;33;43mt[0;1;30;43mti![0;33m██▀▀▀▀▀▀██▀ ▀██▀▀▀▀▀▀▀▀██████▀▀▀▀▀▀██▀ ▀██▀▀▀▀▀▀▀▀██████▀▀▀▀▀▀██▀[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: TOM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0196/raw/TOM.ANS
-# Source Revision: archive-sha256:41103238687664686d9e07f96e72b5487be82fbd8791178c3c1cfb2e24f00d8f
-# Source SHA-256: 3075ae7d785f0e1b8f3ae444d2077d30813fe79a339d10aa1c8004c7b6f0727b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TOM.ANS by Cthulu (MiSTiGRiS); released in mist0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: old sk3wl!
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19950522
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: old sk3wl! by Cthulu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0196-tom
 
 Write-Host '
     [34m┌───────────────────────────────┬─────────────────────────────────────┐[0m

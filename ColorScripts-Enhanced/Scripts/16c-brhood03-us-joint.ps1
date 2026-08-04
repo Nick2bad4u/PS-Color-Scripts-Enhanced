@@ -1,18 +1,4 @@
-﻿# Converted from: US-JOINT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/brhood03/raw/US-JOINT.ANS
-# Source Revision: archive-sha256:4cd213cf952550d2b2cce157593e130bdc5b8fbd3808fe4a09f963be04adb8ee
-# Source SHA-256: d47b6799d859923aefdc2ecab0c2bbefe179dcda9c3e61de97b8fa5e4e60116b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-JOINT.ANS by Retribution + Tung Lo (brotherhood); released in brhood03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: matrix
-# SAUCE Author: tl + ret
-# SAUCE Group: brotherhood
-# SAUCE Date: 19990303
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: matrix by Retribution + Tung Lo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-brhood03-us-joint
 
 Write-Host '
 [31m▓[0;1;31;41m░▒▒▓[0;1;31;40m▄▄[0;31m [0;30;47m█[0;1;31;40m▀[0;1;31;41m▒▒░[0;31m▀████████████████████████████████████▀▀▀[0;30;47m███[0m

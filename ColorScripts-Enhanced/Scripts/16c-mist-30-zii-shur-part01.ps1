@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-SHUR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/ZII-SHUR.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: 1c02d99a260ef92d5c27835af6bd2b8256e47509cf9f3721721d735aa82f8fcd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-SHUR.ANS by Zeus II (Mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: SHS BBS ansis
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241230
-# SAUCE Dimensions: 80x111
-# SAUCE Font: IBM VGA
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: SHS BBS ansis by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-zii-shur-part01
 
 Write-Host '
 [34m███▀▀▀███[0;1;35;44m██[0;34m██[0;1;34;44m█[0;1;34;40m███[0;1;34;44m█[0;34m█████ ████████▀▀▀[0;37m    ▄▄[0;1;37m▄▄▄▄▄▄▄▄▄▄[0m  [1;34m▀▀▀[0m     [34m▄████▄ █[0;1;34;44m █[0;1;34;47m▌▐[0;1;34;40m█[0;1;34;47m▌  [0;1;34;40m█[0;1;34;47m▀[0;1;34;40m█[0m

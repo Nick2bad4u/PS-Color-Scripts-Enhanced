@@ -1,18 +1,4 @@
-﻿# Converted from: P1-UG3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/p1-art/raw/P1-UG3.ANS
-# Source Revision: archive-sha256:06a57bb72e7d6a342c8ad4a89ac939a68c70ab4dea937d4260a80c29e28862d6
-# Source SHA-256: 4a4525961ee78cb8ccaa9707d5e708eddf84e0aba1b776b5e2a30ec7e2651502
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P1-UG3.ANS by Prisoner#1 (Fire); released in p1-art and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Undergrown Logo
-# SAUCE Author: Prisoner#1
-# SAUCE Group: Fire
-# SAUCE Date: 19950201
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Undergrown Logo by Prisoner#1 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-p1-art-p1-ug3
 
 Write-Host '
                           [34m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m

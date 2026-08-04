@@ -1,18 +1,4 @@
-﻿# Converted from: DA-CRI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cri-0495/raw/DA-CRI.ANS
-# Source Revision: archive-sha256:68a525dc058e129b1830b66b54cbf91bf90c51e195457f4b9c43c4e7f818ef1e
-# Source SHA-256: bc547123aa6e38aa1f59c4ac1b46eeab76673ec3732284a10f0c21f9b996c4a5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DA-CRI.ANS by Death Adder (CRiSiS); released in cri-0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: CRiSiS pic/logo
-# SAUCE Author: Death Adder
-# SAUCE Group: CRiSiS
-# SAUCE Date: 19950326
-# SAUCE Dimensions: 80x25
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: CRiSiS pic/logo by Death Adder | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cri-0495-da-cri
 
 Write-Host '
 [1;30m▄[0m       [1;30m▄[0m        [1;30m▄[0m

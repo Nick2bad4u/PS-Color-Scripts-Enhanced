@@ -1,18 +1,4 @@
-﻿# Converted from: PH-PULSE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dcds0796/raw/PH-PULSE.ANS
-# Source Revision: archive-sha256:3509ed83150d72e01cde39c5fe6c61d852f4f7285feb9d94b431cec18116688b
-# Source SHA-256: 13c097f0fcd4c1bb998da2e8551b88d52ffb4f95531cb0bf8870e4d2516c6da3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PH-PULSE.ANS by Phlare (Decades); released in dcds0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Pulse
-# SAUCE Author: Phlare
-# SAUCE Group: Decades
-# SAUCE Date: 19960702
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Pulse by Phlare | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dcds0796-ph-pulse
 
 Write-Host '
 

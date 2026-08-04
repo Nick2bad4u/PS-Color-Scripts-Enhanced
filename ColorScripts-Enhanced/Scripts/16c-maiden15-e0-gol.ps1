@@ -1,18 +1,4 @@
-﻿# Converted from: E0-GOL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden15/raw/E0-GOL.ANS
-# Source Revision: archive-sha256:9d31e45f48599318bcc19e5993ceea8ca5caccf3f774679ac18f812be66ff0b5
-# Source SHA-256: 36ff5530334d3f191fa33326d57a6acee06605cb8d83af9321659259d4bca6e8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: E0-GOL.ANS by Enzo (Sempre Maiden Brazil); released in maiden15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Gol de Placa
-# SAUCE Author: Enzo
-# SAUCE Group: Sempre Maiden Brazil
-# SAUCE Date: 19980416
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Gol de Placa by Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden15-e0-gol
 
 Write-Host '
 [1;44m▀▀[0;1;47m▀[0;1;44m██▄▄▄[0;34m█████[0;1;37;44m▀ [0;34m████▄[0;37m [0;33m▀[0;1;33;43m▀[0;1;33;40m███[0;1;33;43m▓▒░░ [0;33m▀[0;37m [0;32m▄[0;1;32;42m▄▄█[0;1;32;40m███[0;1;32;47m▄█[0;1;32;42m█[0;1;32;47m▀ ▀[0;1;32;42m███████████████████████[0;1;32;47m█▀▀██▀ ▀[0;1;32;42m█[0;1;32;47m██[0m

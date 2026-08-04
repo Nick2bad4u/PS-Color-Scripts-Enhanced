@@ -1,18 +1,4 @@
-﻿# Converted from: CU-ZG.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9602a/raw/CU-ZG.ICE
-# Source Revision: archive-sha256:a7cb032b47574ac80269aea88d994085abecd77228955f55ef8d0e5338bc0184
-# Source SHA-256: 546d2ce362120c565fa784381b3ea816ee87265e5cd0bf7adcffaee8c14e8d39
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CU-ZG.ICE by Cold and Ugly (iCE); released in ice9602a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Zero Gravity
-# SAUCE Author: Cold and Ugly
-# SAUCE Group: iCE
-# SAUCE Date: 19960211
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Zero Gravity by Cold and Ugly | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9602a-cu-zg
 
 Write-Host '
 [31m███████▀▀▀ ▀█████████████▀▀▀███████▀██████████████████████████▀▀ ██████████████[0m

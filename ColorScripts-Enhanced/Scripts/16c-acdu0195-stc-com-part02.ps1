@@ -1,18 +1,4 @@
-﻿# Converted from: STC-COM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0195/raw/STC-COM.ANS
-# Source Revision: archive-sha256:bba094e7325779ca430921c43e89d6d5eeb3533a54f085963b521f20303604f4
-# Source SHA-256: 3f62a55f62d2ae6f66b24c664f678a575d1293792d26b9b2683a0d59120227cd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STC-COM.ANS by Stone The Crow (ACiD Productions); released in acdu0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Ill Communication
-# SAUCE Author: Stone The Crow
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19941230
-# SAUCE Dimensions: 80x167
-# Lines: 35-77
-# Columns: 1-80
+﻿# Artwork: Ill Communication by Stone The Crow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0195-stc-com-part02
 
 Write-Host '
 [33m▄▀████▀███▄▄▄▐▄▄ ▄▄▄[0m                [37m▀▌▀[0m               [37m▀▀[0m

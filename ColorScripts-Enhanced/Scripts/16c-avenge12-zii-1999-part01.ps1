@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-1999.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge12/raw/ZII-1999.ANS
-# Source Revision: archive-sha256:f58363683b971661fc249a331f373b1cfc2b77790ce49343a28c838f36c33b64
-# Source SHA-256: 8b5cc81afc3841fd0dfd78d9d0cab6967d8f0afad1ecd9ceca16cac2fea9c064
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-1999.ANS by Zeus Ii + Chronix (Avenge); released in avenge12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Avenge 1999
-# SAUCE Author: Zeus II
-# SAUCE Group: Avenge
-# SAUCE Date: 19981231
-# SAUCE Dimensions: 80x97
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Avenge 1999 by Zeus Ii + Chronix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge12-zii-1999-part01
 
 Write-Host '
 [31m[0m[31m[0m[31m[0;37m[0;31m[0m

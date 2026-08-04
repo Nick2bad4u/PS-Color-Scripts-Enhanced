@@ -1,18 +1,4 @@
-﻿# Converted from: JR_SDCNF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl-gong/raw/JR_SDCNF.ANS
-# Source Revision: archive-sha256:c90e04c94a395e53e928512945d220d1fff4c215b177bbe4ea888b6b9ab8350e
-# Source SHA-256: 342b0e10d47995f32508900ab294bfa8e38bd3248df3c121d1db32edf4b3b87f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_SDCNF.ANS by jerusalem (boil); released in bl-gong and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: SD conference-screen.
-# SAUCE Author: jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19970405
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: SD conference-screen. by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-gong-jr-sdcnf
 
 Write-Host '
 [34m░░░░[0m                 [36m▄▄▄▄▄ [0;33m  ▄[0;1;33;43m▄▄▄▄▄[0;33m▄▄[0m   [36m▄▄▄▄   [0;34m░░░░░░[0m

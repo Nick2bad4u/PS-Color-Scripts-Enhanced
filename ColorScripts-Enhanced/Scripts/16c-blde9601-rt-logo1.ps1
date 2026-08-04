@@ -1,18 +1,4 @@
-﻿# Converted from: RT-LOGO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9601/raw/RT-LOGO1.ANS
-# Source Revision: archive-sha256:7aa9123f877021b71fa63f38de012fc68287c00ecd76f3a2105e748660eee14f
-# Source SHA-256: b510d3e27656c57af7b515c31be3436919cd0bca69883747c81279bf206da607
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RT-LOGO1.ANS by riptide (blade productions); released in blde9601 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: logo collection 1
-# SAUCE Author: riptide
-# SAUCE Group: blade productions
-# SAUCE Date: 19960102
-# SAUCE Dimensions: 80x25
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: logo collection 1 by riptide | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9601-rt-logo1
 
 Write-Host '
                     [32m [0m

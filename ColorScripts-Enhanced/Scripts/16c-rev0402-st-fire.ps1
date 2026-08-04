@@ -1,18 +1,4 @@
-﻿# Converted from: ST-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0402/raw/ST-FIRE.ANS
-# Source Revision: archive-sha256:19898cc2febb6deadccf50832dc421b4f362a33c899e27278bafd225bbc2d4d4
-# Source SHA-256: f18d5c1534010be636b68f0c44d5bb00f1755ee1c84d50e34cc49cf812358bf4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-FIRE.ANS by splatt (Revival); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fire
-# SAUCE Author: splatt
-# SAUCE Group: Revival
-# SAUCE Date: 20020415
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Fire by splatt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0402-st-fire
 
 Write-Host '
 [1;35m███████[0;1;35;47m▓▓[0;1;35;45m▓▓▒▒▒▓▓[0;1;35;47m▓[0;1;35;45m▓▓[0;1;35;40m████[0;1;35;45m▀▀[0;1;35;40m▀[0;35m▀▀[0;1;35m [0;35m▀[0;1;35m▀   [0m▀[1m▀▀[0;1;47m█▓▒[0;1;35;47m▒▓▓[0;1;35;40m█████████[0;1;35;45m▓▓▒▒▒▓▓▓▓[0;1;35;47m▓▓▓[0;1;35;45m▀[0;1;35;40m█[0;1;35;47m▓▓▓▓[0;1;35;40m███[0;1;35;45m███████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: 22-TEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-03/raw/22-TEN.ANS
-# Source Revision: archive-sha256:8cf981d9c660d9c99945a037cc3975e95985d6099e63c9913bd07526abf36ba1
-# Source SHA-256: b556027fb80e436ea27e66524825983fcf79aa70a66f12488cd31987e820b2bb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 22-TEN.ANS by catch22 (glue); released in glue-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: tenuous
-# SAUCE Author: catch22
-# SAUCE Group: glue
-# SAUCE Date: 19970907
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: tenuous by catch22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-03-22-ten
 
 Write-Host '
 [1;34m ▄[0;1;34;46m▓▓▓[0;1;34;44m▀▀▀▀▀▀████[0;1;34;40m██[0;1;34;44m█[0;1;34;47m▓▓[0;1;34;44m████[0;1;34;47m▓▓▒▒░░░░▒▒▓▓[0;1;34;44m█[0;1;34;47m█▓▓[0;1;34;44m██████[0;1;34;47m▓▓[0;1;34;44m████[0;1;34;40m████████████[0;1;34;44m███[0;1;34;47m▓▓▒▒░░ [0;1;37;47m░░▓[0;1;37;40m▄▄[0;1;34;40m [0m

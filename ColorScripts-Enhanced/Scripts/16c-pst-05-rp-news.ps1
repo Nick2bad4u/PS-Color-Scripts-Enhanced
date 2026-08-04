@@ -1,18 +1,4 @@
-﻿# Converted from: RP-NEWS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pst-05/raw/RP-NEWS.ANS
-# Source Revision: archive-sha256:14f481f943dbbb8808fa1b68b61aa9c5922fc2a7890c1906e8128525fa42d14c
-# Source SHA-256: 5e10736b02b78f753f21768886b4738ba8271ce552b85018ea1fe3d53b2adb58
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RP-NEWS.ANS by rippa (polyester); released in pst-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: news file header
-# SAUCE Author: rippa
-# SAUCE Group: polyester
-# SAUCE Date: 19980821
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: news file header by rippa | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pst-05-rp-news
 
 Write-Host '
                                            [1;30m▄■ ▀ [0;36m  [0;30;46m▓[0m

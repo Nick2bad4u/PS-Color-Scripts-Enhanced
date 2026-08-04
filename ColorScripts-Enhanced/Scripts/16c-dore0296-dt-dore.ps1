@@ -1,13 +1,4 @@
-﻿# Converted from: DT-DORE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dore0296/raw/DT-DORE.ANS
-# Source Revision: archive-sha256:3a5a7d7e4991333d6d0d5fb59aadc8c1a7f450e572e4ecd3fdb10314aa62b0d6
-# Source SHA-256: 9f6bf63a4e6d14804a0abf188318b0ed018fa2e32c2e9e70ee04bf43d2a14a85
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-DORE.ANS by Dt (dore0296); released in dore0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: DT-DORE.ANS by Dt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dore0296-dt-dore
 
 Write-Host '
 

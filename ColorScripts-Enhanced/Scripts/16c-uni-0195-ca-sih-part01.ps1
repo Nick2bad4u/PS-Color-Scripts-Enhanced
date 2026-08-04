@@ -1,18 +1,4 @@
-﻿# Converted from: CA-SIH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0195/raw/CA-SIH.ANS
-# Source Revision: archive-sha256:874f19df1d2975eb4a251b4e9722be66f88a94e2778db4593e3b6fbe57329d35
-# Source SHA-256: 1de1740ff1a63df783153faa26e0ba5344b4c8d060690536fcdd411b285d4aca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CA-SIH.ANS by Cardiac Arrest (Union); released in uni-0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Souls in Hell
-# SAUCE Author: Cardiac Arrest
-# SAUCE Group: Union
-# SAUCE Date: 19950101
-# SAUCE Dimensions: 80x25
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Souls in Hell by Cardiac Arrest | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0195-ca-sih-part01
 
 Write-Host '
       [1;30m▀▄▄[0m

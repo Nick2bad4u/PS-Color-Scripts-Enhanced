@@ -1,18 +1,4 @@
-﻿# Converted from: US-PRGE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-03/raw/US-PRGE.ANS
-# Source Revision: archive-sha256:9ea26ff16b2d0162532c602fba75b69e539d71620a3b4e34b796de886326619c
-# Source SHA-256: 94e6922621a1760fc2cfffc2dcee5fefeb6bcf1911b891a9a4879cedd7b7a0b6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PRGE.ANS by Ize + Drynwhyl (nerp); released in nerp-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: purge
-# SAUCE Author: multiple artists
-# SAUCE Group: nerp
-# SAUCE Date: 19971224
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: purge by Ize + Drynwhyl | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-03-us-prge
 
 Write-Host '
 

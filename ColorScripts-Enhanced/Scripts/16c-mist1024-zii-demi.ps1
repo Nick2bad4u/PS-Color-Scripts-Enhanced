@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-DEMI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1024/raw/ZII-DEMI.ANS
-# Source Revision: archive-sha256:6949840195965f5eb9696cfb423e381432d7ccfa36b66290e336e4608b7c12f8
-# Source SHA-256: 62b62f53adcfb814178299700c10cb7890b592f69aadec23a4a71d46b7f1defe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-DEMI.ANS by Zeus Boo (Mistigris); released in mist1024 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Demiurge
-# SAUCE Author: Zeus Boo
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241026
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Demiurge by Zeus Boo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1024-zii-demi
 
 Write-Host '
 

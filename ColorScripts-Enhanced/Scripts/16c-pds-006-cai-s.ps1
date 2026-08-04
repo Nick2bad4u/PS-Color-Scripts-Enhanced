@@ -1,17 +1,4 @@
-﻿# Converted from: CAI-S.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pds-006/raw/CAI-S.ANS
-# Source Revision: archive-sha256:0045103f3f9fe71c2d296c9685d62daeb9e6d3ce6537438b1f64f51cc33a4a63
-# Source SHA-256: 711da83a1e88cfa87d35e2a324338dfc34a92ba71a31821961510050c0752f40
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CAI-S.ANS by caithor (pds-006); released in pds-006 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: S ummon
-# SAUCE Author: caithor
-# SAUCE Date: 19960930
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: S ummon by caithor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pds-006-cai-s
 
 Write-Host '
 [1m [0m        [1m ∙+[0m       [1m.[0m    [1m∙.[0m   [1m.[0m        [1m∙[0m [1m.[0m        [1m+[0m     [1m.∙[0m         [1m∙[0m       [1m.[0m

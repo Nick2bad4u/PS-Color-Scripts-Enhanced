@@ -1,18 +1,4 @@
-﻿# Converted from: PC-MOONY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/trans04/raw/PC-MOONY.ANS
-# Source Revision: archive-sha256:6dbf4a8af5f5d8dd35a729393418a99b5601c6f0cc493ed8ff44ff0e1ad25cde
-# Source SHA-256: bed454fe211f27969b58b043aef208de05291f33b662743fb31759d29049023a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-MOONY.ANS by Proctologist (Transmission); released in trans04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: moon ya again
-# SAUCE Author: Proctologist
-# SAUCE Group: Transmission
-# SAUCE Date: 19971115
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: moon ya again by Proctologist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-trans04-pc-moony
 
 Write-Host '
                                             [1m,d[0m      [1m,s[0m               [1m+g[0m

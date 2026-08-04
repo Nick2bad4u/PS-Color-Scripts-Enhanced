@@ -1,19 +1,4 @@
-﻿# Converted from: NI-GUILD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0624/raw/NI-GUILD.ANS
-# Source Revision: archive-sha256:7e2642f67629daefe8d04ebedd2e233be2e8a74b2dea50eb02da49be24298927
-# Source SHA-256: 6c953374d8ce0caf41f7aa3d412ea193858da6df0442e2c68865557d862a3e0a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-GUILD.ANS by Nitron (Mistigris); released in mist0624 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Guild BBS [PHAT]
-# SAUCE Author: Nitron
-# SAUCE Group: Mistigris
-# SAUCE Date: 20240402
-# SAUCE Dimensions: 80x127
-# SAUCE Font: Default
-# Lines: 44-85
-# Columns: 1-80
+﻿# Artwork: The Guild BBS [PHAT] by Nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0624-ni-guild-part02
 
 Write-Host '
 ▓▓▄  [1;30;47m▓[0;33m▐[0;1;33m▓▓█████[0m▐[1;30m▌[0;1;33m▐██▓▄[0;1;30m▀▌[0m ▄▄   [1;30m▄▄▄▄[0m       ▓▒▒▒[1;30m▀[0m  [33m▄▄▄▄[0;37m   [0;33m▄▄[0;37m   [0;1;30m▀▓▓▓▒▒▒▄ [0m [1;30m▓▓▓▒[0m [1;30m▓▒▒▒░[0m

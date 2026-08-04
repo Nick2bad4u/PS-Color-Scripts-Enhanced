@@ -1,13 +1,4 @@
-﻿# Converted from: us-drugz.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense27/raw/us-drugz.ans
-# Source Revision: archive-sha256:a31cb27f3a699dabe8d3f53fffd048cd9b61d3635ed0be3eb33893284480a58e
-# Source SHA-256: b0f459fe0df034270b38fc4cc7ea561bbf986bfbc70078ba7cba665cfe636621
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-drugz.ans by Avenging Angel + Aesthetic (sense27); released in sense27 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: us-drugz.ans by Avenging Angel + Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense27-us-drugz
 
 Write-Host '
 

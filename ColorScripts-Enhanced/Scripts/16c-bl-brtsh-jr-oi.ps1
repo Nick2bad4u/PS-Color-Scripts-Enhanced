@@ -1,18 +1,4 @@
-﻿# Converted from: JR_OI!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl-brtsh/raw/JR_OI!.ANS
-# Source Revision: archive-sha256:d4d2c2945597259d409a8a2043adb463621296e39a0812b6c732bad34754acd9
-# Source SHA-256: 179839fda5a781a9dd102fee0dca9d6dd8fa8afcc109a82e17564600ec7dbd06
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_OI!.ANS by jerusalem (boil); released in bl-brtsh and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: oi! matriX
-# SAUCE Author: jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19970603
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: oi! matriX by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-brtsh-jr-oi
 
 Write-Host '
                     [36m   [0;37m [0;36m░░[0m

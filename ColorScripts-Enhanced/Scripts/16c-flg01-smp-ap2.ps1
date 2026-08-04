@@ -1,18 +1,4 @@
-﻿# Converted from: SMP-AP2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flg01/raw/SMP-AP2.ANS
-# Source Revision: archive-sha256:562ebcaad20a0b2a8b7b107f134b5be6ba5f067cf297f19839a81e7c0eee3352
-# Source SHA-256: 8918884aaf8786b4293e5e94c03c2b284d880e3e38a8da733d2d75a14eaecc4c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-AP2.ANS by Shrimp (Foliage); released in flg01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Aphid Main Menu
-# SAUCE Author: Shrimp
-# SAUCE Group: Foliage
-# SAUCE Date: 20010703
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Aphid Main Menu by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flg01-smp-ap2
 
 Write-Host '
 [34m▄[0m   [37m▀[0;1;37;47m▀▌[0m▄[1m  [0;34m  ▀█▄▄▄▄▄[0m          [37m▀▀[0;1;37;47m▀▀██▓▓░[0m▀▀       [34m▄▄▄▀[0m      [34m▄▄▄▄▄▄[0m       [37m▀▀[0;1;37;47m▀▀▄[0m▄▄[34msmp[0m

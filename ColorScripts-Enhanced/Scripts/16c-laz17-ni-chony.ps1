@@ -1,19 +1,4 @@
-﻿# Converted from: NI-CHONY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz17/raw/NI-CHONY.ANS
-# Source Revision: archive-sha256:2674245bad3e14fe6d4a935ba8daf9898a4426e394c56ca9710e3afa19d3d943
-# Source SHA-256: eefeeee7fdf49ce872b706ef20cdc3a8b799da2ce86dd093ad508043068c3d73
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-CHONY.ANS by nitron (lazarus); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Polanda/Cutie Honey Matrix
-# SAUCE Author: nitron
-# SAUCE Group: lazarus
-# SAUCE Date: 20230527
-# SAUCE Dimensions: 80x27
-# SAUCE Font: IBM VGA
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Polanda/Cutie Honey Matrix by nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz17-ni-chony
 
 Write-Host '
 [1;35;45m▓▓[0;1;35;40m██[0;1;35;45m▓░[0;35m██▀[0;1;35;45m▀[0;35m██▀[0;37m [0;35m▄[0;1;35;45m▒▓▓▒▀[0;35m█▀▀[0;33m▄■[0;35m▄[0;1;35;45m░░[0;35m██[0;37m [0;35m█▌[0;37m [0;1;35;45m░[0;35m▀[0;1;33m▄▄[0;35m▀[0;1;35;45m░░▒▓▓▓▓▒░░[0;35m█▀[0;37m    [0;1;33m█████▌[0;30m▐[0m

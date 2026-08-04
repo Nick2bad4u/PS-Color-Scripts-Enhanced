@@ -1,18 +1,4 @@
-﻿# Converted from: MW-CAZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nland-04/raw/MW-CAZ.ANS
-# Source Revision: archive-sha256:eab686fd42219ed6c9add6a2f7726008adc5ca3e06c5f87a076203c52842513d
-# Source SHA-256: 7c7060f8b5d11be6fcc7bbdc485fbb20b5c1701ab54e7363c2f53ef02f59e75c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MW-CAZ.ANS by MoonWalkeR (NeveRLanD); released in nland-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Cazador
-# SAUCE Author: MoonWalkeR
-# SAUCE Group: NeveRLanD
-# SAUCE Date: 19960128
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Cazador by MoonWalkeR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nland-04-mw-caz
 
 Write-Host '
                       [34m▄[0;1;34;44m▒▓█[0;1;34;47m▀▀▀[0;1;37;47m▓█████████▓▒[0m▄▄▄[1;47m▒▒▒▒[0m

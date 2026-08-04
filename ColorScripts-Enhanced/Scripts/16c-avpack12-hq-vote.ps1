@@ -1,18 +1,4 @@
-﻿# Converted from: HQ-VOTE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack12/raw/HQ-VOTE.ANS
-# Source Revision: archive-sha256:55286e18e28c272f11e63b1c16158d9df2657a21ca3df761a4c27630305acaa1
-# Source SHA-256: fa689004ac25d1a28804d0d20c1e0ffb9a3c946f0b4ab206ee9381ab042bbbdc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HQ-VOTE.ANS by Harlequin (Apocalyptic Visions); released in avpack12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: NUV Entrance screen
-# SAUCE Author: Harlequin
-# SAUCE Group: Apocalyptic Visions
-# SAUCE Date: 19960630
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: NUV Entrance screen by Harlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack12-hq-vote
 
 Write-Host '
 [1;30m██▓▀[0;34m▄▄█████████████████████████[0;1;34;44m░▒▓█[0;1;34;40m▄[0;34m [0;1;30m▀▓████▓▀                           [0;31mhq·av[0;1;30m   [0m

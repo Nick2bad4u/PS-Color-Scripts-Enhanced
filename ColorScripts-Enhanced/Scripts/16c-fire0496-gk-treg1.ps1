@@ -1,18 +1,4 @@
-﻿# Converted from: GK-TREG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0496/raw/GK-TREG1.ANS
-# Source Revision: archive-sha256:50df8163143d8d441a5fa61622ccb7c33b46a1217f5b4d1eaeeea3d3f2226464
-# Source SHA-256: 5c93e826b23ef145638ec1c545b4dcc3160112e51dcb8a11b4aac7f75f25a877
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GK-TREG1.ANS by grind king (fire); released in fire0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the regency
-# SAUCE Author: grind king
-# SAUCE Group: fire
-# SAUCE Date: 19960331
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: the regency by grind king | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0496-gk-treg1
 
 Write-Host '
 

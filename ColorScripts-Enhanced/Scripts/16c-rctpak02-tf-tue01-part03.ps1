@@ -1,13 +1,4 @@
-﻿# Converted from: TF-TUE01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rctpak02/raw/TF-TUE01.ANS
-# Source Revision: archive-sha256:c99af2bcda51b08e86d94290660fb5f051eb3352220923189f65deaddef681a7
-# Source SHA-256: acfcb8dcc207b4bd8d1f661adf08ef20d7c2bd5cb9a3dd37e7978aa08c93b1f7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TF-TUE01.ANS by The Fugutive (rctpak02); released in rctpak02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 94-142
-# Columns: 1-80
+﻿# Artwork: TF-TUE01.ANS by The Fugutive | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rctpak02-tf-tue01-part03
 
 Write-Host '
 [1;37;41m    [0;31;41m█[0;31;40m█▓ [0;1;30;46m░░ ░   ░░    [0;36;45m▓▒▒[0;35;40m██[0m                       [35;40m▄▄▄▄▄[0m      [1;30;40m▄[0;1;30;47m███▓▓▒▒░  [0;1;37;47m░░▒▓█████[0m

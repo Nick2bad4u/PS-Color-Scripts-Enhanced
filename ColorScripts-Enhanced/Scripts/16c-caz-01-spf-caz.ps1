@@ -1,13 +1,4 @@
-﻿# Converted from: SPF-CAZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/caz-01/raw/SPF-CAZ.ANS
-# Source Revision: archive-sha256:7a4c09c2b25a260b78ed0f993dd522fa8c17dd3c7e9cce15d2a01c43263430d2
-# Source SHA-256: 300e6f31258c0b83e64266e8890fd41bb47074dd19d0025e2a8d33bb4ae8e8af
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPF-CAZ.ANS by Spitfire (caz-01); released in caz-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: SPF-CAZ.ANS by Spitfire | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-caz-01-spf-caz
 
 Write-Host '
                         ▄▄▄▄ ▄[1m [0m▄▄         [1;34m▄[0;1;34;44m▄[0;34m▄[0;37m  [0;1;37m▄▄▄▄[0m         [32m▄[0;37m [0;32m [0m

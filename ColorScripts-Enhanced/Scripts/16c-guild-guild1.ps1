@@ -1,13 +1,4 @@
-﻿# Converted from: GUILD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/guild/raw/GUILD1.ANS
-# Source Revision: archive-sha256:a17c91b3d7966f103845ab104daf3a1ada2638816b04caf36b16da49b61147ac
-# Source SHA-256: 05781b0d8f8d5faec34e3e32bf5c1aa0b867f2a83cf03823424c6cb58f95dc02
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GUILD1.ANS by Skid Hypr (guild); released in guild and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: GUILD1.ANS by Skid Hypr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-guild-guild1
 
 Write-Host '
  [1m███[0;1;47m▓░░▒▓[0;1;40m███[0;1;47m▓[0;1;40m██████████████████████[0;34m▒▒░░░░[0m

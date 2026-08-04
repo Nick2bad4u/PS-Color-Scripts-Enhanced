@@ -1,13 +1,4 @@
-﻿# Converted from: DIE-ANGA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-zxica/raw/DIE-ANGA.ANS
-# Source Revision: archive-sha256:098212bcd3fc250902be7ae08340a23e99b29f8fa69fe7b4990238a6d402d1f6
-# Source SHA-256: 1f87953996b70051ecb862d8cede2ff1fce05ed5c7503b620cba982eb42fe96e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DIE-ANGA.ANS by Dieznyik (k-zxica); released in k-zxica and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: DIE-ANGA.ANS by Dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-zxica-die-anga
 
 Write-Host '
                                                                           [32m░[0;30;42m▓[0m

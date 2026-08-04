@@ -1,18 +1,4 @@
-﻿# Converted from: QP-GRAD2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fx-9807/raw/QP-GRAD2.ANS
-# Source Revision: archive-sha256:c8b758c0763542c5ef1df4771c75019862ff273378cb2c5ed728f92f9b07aa14
-# Source SHA-256: a90f3509979186dd87d2982408849386751f6adfd1aa94601323ea8cc0c6c5bc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QP-GRAD2.ANS by Quip (Function); released in fx-9807 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Gradius
-# SAUCE Author: Quip
-# SAUCE Group: Function
-# SAUCE Date: 19980628
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Gradius by Quip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fx-9807-qp-grad2
 
 Write-Host '
 [35m █[0;1;35;45m█[0;1;35;47m▀▀[0;1;35;45m▄▄ ░█[0;1;35;47m▀ [0;1;35;45m▀[0;35m▀▄[0;1;35;45m▄▄ [0;45m░[0;1;35;45m▀▀█[0;1;35;47m ▀█[0;1;35;45m██▀[0;35m▀▀▄▄[0;1;35;45m▄███[0;1;35;47m▓▓[0;45m░░ [0;1;35;45m [0;35m▄▄▀▀[0;1;35;45m▀[0;1;37;45m░[0;1;35;45m▄▐[0;1;35;47m▓[0;1;35;45m▀[0;35m▀▄[0;1;35;45m▄[0;1;35;47m▓▄[0;1;35;45m█▄[0;35m▄[0;1;35;45m▄░[0;35m▀[0;37m  [0;31m▄▄▄▄[0;37m [0;31m▄▄▄[0m   [31m▄▄▄[0m

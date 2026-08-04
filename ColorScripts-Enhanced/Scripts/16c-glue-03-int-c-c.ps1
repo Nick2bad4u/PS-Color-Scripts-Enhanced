@@ -1,18 +1,4 @@
-﻿# Converted from: INT-C&C.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-03/raw/INT-C%26C.ANS
-# Source Revision: archive-sha256:8cf981d9c660d9c99945a037cc3975e95985d6099e63c9913bd07526abf36ba1
-# Source SHA-256: a756761c0ea9af598dce351e9e64268838fb57f9ff3bd156ababcfca0329b79b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: INT-C&C.ANS by Internal (Glue); released in glue-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Curves and Colours
-# SAUCE Author: Internal
-# SAUCE Group: Glue
-# SAUCE Date: 19970925
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Curves and Colours by Internal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-03-int-c-c
 
 Write-Host '
    [30;47m▓[0;37;40m░[0m    [35;40m▄▄▄█[0;1;35;45m▄[0;35m█▄▄[0m     [35m·[0;1;35m·[0;1;33m·[0;1;37m·[0;1;37;46m ░▓█[0;1;37;40m▓▓[0;1;33;46m█[0;36m█[0;36;44m►[0;34;46m►[0;36;44m►[0;34;40m►[0m      [31;40m▄▄▄[0;37;40m  [0;32;40m▀█[0;1;36;42m░░▓▓██[0;32m█[0;37m [0;32m█[0;1;36;42m▄[0;32m█ █[0;1;36;42m·[0m [34m▐▄▄[0;37m  [0;31m····[0;1;31m··[0;1;36m·[0;1;37m·[0;1;33m·[0m

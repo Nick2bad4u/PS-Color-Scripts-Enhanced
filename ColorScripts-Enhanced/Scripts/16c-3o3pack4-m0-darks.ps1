@@ -1,13 +1,4 @@
-﻿# Converted from: M0-DARKS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/3o3pack4/raw/M0-DARKS.ANS
-# Source Revision: archive-sha256:3a7324cf28c2b64b546cb6909029bbdfd9f549d1041617fe77acf1890b6f6ec6
-# Source SHA-256: 32bee4480dac9cb02b31c254223f1765d9987fc76ab3b440e339ffdedc95201f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M0-DARKS.ANS by Mosen (3o3pack4); released in 3o3pack4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: M0-DARKS.ANS by Mosen | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-3o3pack4-m0-darks
 
 Write-Host '
 

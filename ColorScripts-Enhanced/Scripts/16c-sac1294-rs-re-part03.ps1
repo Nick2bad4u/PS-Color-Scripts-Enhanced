@@ -1,18 +1,4 @@
-﻿# Converted from: RS-RE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac1294/raw/RS-RE.ANS
-# Source Revision: archive-sha256:4cf7765ee6660556cb900dacf0ec67f070b8e4df414172b5e01733a49d10031f
-# Source SHA-256: 2b98aff72b59899345798a3c106d68046ce3afab9db6a05dda1dff319b493834
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-RE.ANS by raiser; released in sac1294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: RAVERS END logon
-# SAUCE Author: RAISER
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19941221
-# SAUCE Dimensions: 80x25
-# Lines: 101-140
-# Columns: 1-80
+﻿# Artwork: RAVERS END logon by raiser | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac1294-rs-re-part03
 
 Write-Host '
 [1;30m░[0;1;37m [0;1;34;44m▓▓▒░░░[0;34m████▄▄[0;1;30m░░[0m [1;30m░[0m [34m▄[0;1;34;44m▓▒░░[0;34m█▄ [0;1;34;44m▓▒░░[0;34m█▌ [0;1;30m░▒[0;34m ▐[0;1;34;44m▒▓[0m [34m▄[0;1;34;44m▓▒░░[0;34m████▀[0;1;30m░[0;1;34;44m▓▒░░[0;34m█[0;1;34;44m░[0;34m█[0;1;34;44m░░[0;34m█▄▄  [0;1;34m▄[0;1;34;44m▓▒░░[0;34m████▀[0m [1;30m░░[0m

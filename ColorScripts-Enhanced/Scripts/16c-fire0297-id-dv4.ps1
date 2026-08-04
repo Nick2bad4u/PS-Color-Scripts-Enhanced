@@ -1,18 +1,4 @@
-﻿# Converted from: ID-DV4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0297/raw/ID-DV4.ANS
-# Source Revision: archive-sha256:12d66e55bc50470ef328e6f9ec21c65dbe558f61a1cf46f5aac359e3cb051dfe
-# Source SHA-256: 2fb3c133045a4442e52db2cd09f3a37129b6e97ed27a620e742958caf0937121
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ID-DV4.ANS by Iodine (fire); released in fire0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Disembodied Voices
-# SAUCE Author: Iodine
-# SAUCE Group: fire
-# SAUCE Date: 19970122
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Disembodied Voices by Iodine | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0297-id-dv4
 
 Write-Host '
                  [31m■[0m

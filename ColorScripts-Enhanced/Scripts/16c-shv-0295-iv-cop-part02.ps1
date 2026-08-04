@@ -1,18 +1,4 @@
-﻿# Converted from: IV-COP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shv-0295/raw/IV-COP.ANS
-# Source Revision: archive-sha256:9d87841a969641f3687626cd13b6790a559a95e50b706cdd85134df3ba6b3667
-# Source SHA-256: f1ba8d7cba56f0d313b5c85615803dd080b60e95bbc208acfae6d0d03796e554
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IV-COP.ANS by Inner Vision (Shiver); released in shv-0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Chapel of Pain
-# SAUCE Author: Inner Vision
-# SAUCE Group: Shiver
-# SAUCE Date: 19950106
-# SAUCE Dimensions: 80x25
-# Lines: 42-70
-# Columns: 1-80
+﻿# Artwork: Chapel of Pain by Inner Vision | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shv-0295-iv-cop-part02
 
 Write-Host '
     [1;30;40m▒[0m  [1;47m░░[0m [1;30m [0m                         [31m▒[0;33m    [0m  [31m░[0m            [37m [0m [1;37;47m░[0m▌         ▐[1;47m▒░▒[0m [1;30;40m░[0m

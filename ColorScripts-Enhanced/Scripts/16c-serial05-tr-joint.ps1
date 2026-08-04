@@ -1,13 +1,4 @@
-﻿# Converted from: tr-joint.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/serial05/raw/tr-joint.ans
-# Source Revision: archive-sha256:9aace96ae7fa04ed99409fe3d21beba241d3764e37ef0218d717063c3de5b6ab
-# Source SHA-256: dec8f7747a5222d7077d9deaa8e9810abb37774cb2ed3e7452c28898bf40f914
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tr-joint.ans by Terrato (serial05); released in serial05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: tr-joint.ans by Terrato | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-serial05-tr-joint
 
 Write-Host '
 

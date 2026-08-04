@@ -1,18 +1,4 @@
-﻿# Converted from: DZ-FISH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel17/raw/DZ-FISH.ANS
-# Source Revision: archive-sha256:6bb17dad2b087feff514e10d76b337034c943aff1fa5007d50b103cb34f90d66
-# Source SHA-256: c1cfdde4f406750ae5eaac1d7318c1788a4ad62966ed29ece63072e229b7f640
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DZ-FISH.ANS by Dizzy (fUEL); released in fuel17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fishie ansi to a swede group, sK2 !
-# SAUCE Author: Dizzy
-# SAUCE Group: fUEL
-# SAUCE Date: 19970929
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: fishie ansi to a swede group, sK2 ! by Dizzy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel17-dz-fish
 
 Write-Host '
       ░[30;47m▓[0;37;40m░░ [0;1;30;40m                 [0m             ░    ░░

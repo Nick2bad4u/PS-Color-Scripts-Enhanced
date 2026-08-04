@@ -1,13 +1,4 @@
-﻿# Converted from: US-EP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/soc-04/raw/US-EP1.ANS
-# Source Revision: archive-sha256:72fd15426f37bca7e28f2cf1b434b07c03280098e1e5474499ff2d23d8253e82
-# Source SHA-256: 98416d9fb57c43d04bfc7c660d7758b1f914a19ffdff218ca55ff5d1e4db5688
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-EP1.ANS by Boba Fett + Hc (soc-04); released in soc-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: US-EP1.ANS by Boba Fett + Hc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-soc-04-us-ep1
 
 Write-Host '
 [1m▄▄[0;1;36m▄▄[0m                     [1;33m▄▄▄▄[0m  [1;33m▀[0m  [36m▀[0;1;36m▀[0;1;36;46m▀███[0;1;37;40m███[0;1;36;46m██[0m [1m░[0m           [1m▀[0m    [1m▀[0m [1;33m▀▀[0;1;31m▀▀▀[0;31m▀▀▀▄[0;1;31;41m▄▄█[0;1;31;47m▀[0;1;31;40m▄[0m

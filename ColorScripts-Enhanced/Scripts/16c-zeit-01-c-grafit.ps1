@@ -1,13 +1,4 @@
-﻿# Converted from: c-Grafit.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zeit_01/raw/c-Grafit.ans
-# Source Revision: archive-sha256:8dfbe3966e821c089bd73af55330fe314cbb704278496f585a11f1bae9cce8f7
-# Source SHA-256: 7a484662a06356dec8b990212194fa845f8a048e70cd50dc16184fae2b99f871
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: c-Grafit.ans by Cronic (zeit_01); released in zeit_01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: c-Grafit.ans by Cronic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zeit-01-c-grafit
 
 Write-Host '
 [1;33m                                       T [0;1;31m.  [0;1;33m╙Y$b.[0;1;33;40m                               [0m

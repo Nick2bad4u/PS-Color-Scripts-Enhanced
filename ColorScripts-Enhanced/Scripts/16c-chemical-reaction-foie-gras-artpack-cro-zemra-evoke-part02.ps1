@@ -1,13 +1,4 @@
-﻿# Converted from: zemra-evoke.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/chemical.reaction.foie.gras.artpack-cro/raw/zemra-evoke.ans
-# Source Revision: archive-sha256:4a9684012b4ad518f3ff74983229d365b6bb15254474b300364a2dfc3d0e0f99
-# Source SHA-256: c05aa18512b3afbf7eeedeadba5e05ec778006aae4d3205c9997e8eef2076c9c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zemra-evoke.ans by Zemra (chemical.reaction.foie.gras.artpack-cro); released in chemical.reaction.foie.gras.artpack-cro and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 30-58
-# Columns: 1-80
+﻿# Artwork: zemra-evoke.ans by Zemra | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-chemical-reaction-foie-gras-artpack-cro-zemra-evoke-part02
 
 Write-Host '
 [1;32;42m▀░░░[0;1;32;40m▀▀▀▀▀▀[0;32m▀▀[0;1;32;42m░▓▓[0;1;32;40m███▀▀█[0;1;32;42m▓[0;32m█[0;1;32m████[0m [1;33m█[0;1;37m███[0;1;33m█[0m [1;32m▓▓░░░▀▀▀▀▀▓▓ ░░[0m [1;33m█[0;1;37m███[0;1;33m█[0m

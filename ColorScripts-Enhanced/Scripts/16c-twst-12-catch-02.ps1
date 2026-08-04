@@ -1,18 +1,4 @@
-﻿# Converted from: CATCH-02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst-12/raw/CATCH-02.ANS
-# Source Revision: archive-sha256:63a6855f68e121642df2e6e17ace70e0e335728ff27fbf72c51891b77660a0fc
-# Source SHA-256: 75a7cc85fef58aaa5236c73bcf6f9dee8ca5198fc72c3cc3a0f9c6d0144841c3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CATCH-02.ANS by catch 22 (twisted); released in twst-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ^^^\0^[[[[]   \[[\   #12
-# SAUCE Author: catch 22
-# SAUCE Group: twisted
-# SAUCE Date: 19970426
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: ^^^\0^[[[[] \[[\ #12 by catch 22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst-12-catch-02
 
 Write-Host '
 [1;30m[0m

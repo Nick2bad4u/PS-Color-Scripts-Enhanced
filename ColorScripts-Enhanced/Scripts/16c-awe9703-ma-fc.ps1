@@ -1,17 +1,4 @@
-﻿# Converted from: MA-FC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9703/raw/MA-FC.ANS
-# Source Revision: archive-sha256:a9939674ffea8dfd0fb24f05e2f11874539fc93155c2d5ed5e55e91f76634858
-# Source SHA-256: 72fb250746615bc6b04b1814ac02ca2a546b94037ea5e00920bade41f2d5b56a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MA-FC.ANS by Mass Murderer (AWE Lettering); released in awe9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Free Coke
-# SAUCE Author: Mass Murderer
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Free Coke by Mass Murderer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9703-ma-fc
 
 Write-Host '
 

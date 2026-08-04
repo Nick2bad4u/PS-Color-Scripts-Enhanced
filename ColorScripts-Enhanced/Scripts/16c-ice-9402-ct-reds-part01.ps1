@@ -1,13 +1,4 @@
-﻿# Converted from: CT-REDS.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9402/raw/CT-REDS.ICE
-# Source Revision: archive-sha256:542a55b371fcf2e1b6ce730207fe668cc74b9fc898d3341dc11812e6d7a4ac5c
-# Source SHA-256: 9a625025acb08ca53e0d528bd94ec803d4706ede3589fbb8309fd1e828bbac93
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CT-REDS.ICE by Cephalon Tsurphr (ice-9402); released in ice-9402 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: CT-REDS.ICE by Cephalon Tsurphr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9402-ct-reds-part01
 
 Write-Host '
 [1;30mTo [0mN[1;30mò [0mC[1;30marríer...[0m               [1;30m▄▄▄▄▄[0m

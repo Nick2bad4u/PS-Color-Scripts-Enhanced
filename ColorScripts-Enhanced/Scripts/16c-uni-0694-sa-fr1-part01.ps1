@@ -1,18 +1,4 @@
-﻿# Converted from: SA-FR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0694/raw/SA-FR1.ANS
-# Source Revision: archive-sha256:d92719f4ff9ab4f68d054353409d00f48d16b810acb3ee04d6b238f934e3f3ba
-# Source SHA-256: 04acb0ce12da2e86ce2fd77f719fb25f9cf416552c424c73d9933d8b2f668121
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SA-FR1.ANS by Stone Angel (UNiON); released in uni-0694 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Flatlined Reality
-# SAUCE Author: Stone Angel
-# SAUCE Group: UNiON
-# SAUCE Date: 19940601
-# SAUCE Dimensions: 80x80
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: Flatlined Reality by Stone Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0694-sa-fr1-part01
 
 Write-Host '
      [1m▄▄▄▄▄▄▄▄▄▄▄▄[0m         ▄▄▄▄▄

@@ -1,13 +1,4 @@
-﻿# Converted from: DEVILS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ea_oct94/raw/DEVILS.ANS
-# Source Revision: archive-sha256:4718b0d953126492f0823787c16660683ad4fd6bac3b88629a31a6872cdb4745
-# Source SHA-256: fdfafe289d858ca2116769bdfdc14e03927a47a70fba12eec5ef2e07a1cf4bf2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DEVILS.ANS by Tosh10 (ea_oct94); released in ea_oct94 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: DEVILS.ANS by Tosh10 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ea-oct94-devils
 
 Write-Host '
 

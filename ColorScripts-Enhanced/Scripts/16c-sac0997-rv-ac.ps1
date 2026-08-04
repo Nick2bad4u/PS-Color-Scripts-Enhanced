@@ -1,13 +1,4 @@
-﻿# Converted from: RV-AC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0997/raw/RV-AC.ANS
-# Source Revision: archive-sha256:da5320832895c3901d4f15edb6d72c8cae3759c8058411ecb6a63c5962f374c9
-# Source SHA-256: 83814a03f0fe34f8fa0d9e5e640ebee296cacb483c728314c1639459d324433a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RV-AC.ANS by Rave (sac0997); released in sac0997 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: RV-AC.ANS by Rave | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0997-rv-ac
 
 Write-Host '
 [32m       [0;37m▄▄▄[0;32m   [0;1;36m▄[0m▄  [1;30m░░░░░░[0;32m [0;37m▄[0;1;36m▄[0m [1;30m             [0;1;37m [0;34m [0;1;30m▄▄▄[0m   [1;30m░░░        ░░░░    ░░░ ░░░     [0m

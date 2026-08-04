@@ -1,19 +1,4 @@
-﻿# Converted from: pg-penguins.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel22/raw/pg-penguins.ans
-# Source Revision: archive-sha256:ba169f7927d483c43f833be895de0c289bdb93739fe60d9d716f1c3c01404206
-# Source SHA-256: b3894ac2bb05b59e3f3d97f6bc457b9a89cbc71179219b80cb0fefb77b2da1c4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: pg-penguins.ans by Pinguino (fuel); released in fuel22 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Penguins
-# SAUCE Author: Pinguino
-# SAUCE Group: fuel
-# SAUCE Date: 20170625
-# SAUCE Dimensions: 80x86
-# SAUCE Font: IBM VGA
-# Lines: 44-86
-# Columns: 1-80
+﻿# Artwork: Penguins by Pinguino | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel22-pg-penguins-part02
 
 Write-Host '
 [34m████████████████████████████████▒[0;37m░[0;1;37;47m░▄[0;1;37;40m██████[0;1;37;47m▓[0;1;37;40m█[0;1;37;47m▓▓[0;1;37;40m██████[0;1;30;40m▓░░░[0m        [34m░▒██████████████[0m

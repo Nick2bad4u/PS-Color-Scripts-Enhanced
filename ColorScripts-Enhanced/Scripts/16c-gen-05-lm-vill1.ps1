@@ -1,17 +1,4 @@
-﻿# Converted from: lm-vill1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gen-05/raw/lm-vill1.ans
-# Source Revision: archive-sha256:4349b3f4bfcb88936ca2127b4df67c9a4f57f9270c0ef29b3cd115a6790b3afb
-# Source SHA-256: b78989f549012f4af3461971f26c3c5dc224a5953fa86deeb206fb9c204ce466
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: lm-vill1.ans by lichmistress (genuine); released in gen-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: lichmistress
-# SAUCE Group: genuine
-# SAUCE Date: 19990513
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: lm-vill1.ans by lichmistress | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gen-05-lm-vill1
 
 Write-Host '
 ▌ ▄▄ ▄▄▄ ▄[1;30m▄░░[0m  [1;30m▐[0m▄ [34m [0;37m ▄[0;1;30;47m▄[0;1;30;40m▀[0m  ▄[1;30m▄[0m  [36m▄[0m                 [33m░░[0;30;43m▓[0m      [1;33;40m▀▀[0;33m▀▀▀▄▄▄[0;1;32m▀[0m  [1;32m▄[0m  ▄[1;37m█[0m ▄[1;30;47m▓[0m ▄ ▀[1;30;47m▓[0m

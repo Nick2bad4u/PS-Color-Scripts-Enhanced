@@ -1,13 +1,4 @@
-﻿# Converted from: TMT-TC.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-08/raw/TMT-TC.ICE
-# Source Revision: archive-sha256:76472331bcb8543f1e44f2a59ee8f7524c6af6373e89562b7fabb9e022104140
-# Source SHA-256: d8ce8afd3195f835c362bcbe16a37a6e79c353a177902d972142c4650ad74393
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TMT-TC.ICE by The Malevolent Trickster (icepk-08); released in icepk-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 47-85
-# Columns: 1-80
+﻿# Artwork: TMT-TC.ICE by The Malevolent Trickster | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-08-tmt-tc-part02
 
 Write-Host '
          █[1;30;47m░[0;1;30;40m█▓▓░░░[0m          [1;30;40m░    ▄▄    ░░░[0m░░[1;30m░[0m       [1;30m▄[0m            [1;30m░░░▒▓█[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-NEO2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9612/raw/TNA-NEO2.ANS
-# Source Revision: archive-sha256:7053afed6e742c75d943ea86bb6e43e9d362e1c6f64e894c811e4835a8b40e13
-# Source SHA-256: d329fd844059e056fe79d7c6b371c6090023b029e173cb04385b948f46adf23b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-NEO2.ANS by The Night Angel (AWE Lettering); released in awe9612 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Neosporin
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961121
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Neosporin by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9612-tna-neo2
 
 Write-Host '
 

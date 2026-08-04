@@ -1,18 +1,4 @@
-﻿# Converted from: ST-EVOL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-01/raw/ST-EVOL2.ANS
-# Source Revision: archive-sha256:98f7ca14920172db6145e44afa4b8ac94de6e46d94b8cf326e89a96c3e7e5c1b
-# Source SHA-256: 8d21c6acbe5b47e74561b2c1bb931b084ef4699fbf4dca16446edb0e95ea0b5a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-EVOL2.ANS by splattage (eek-lipse); released in ecl-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: evOl #2
-# SAUCE Author: splattage
-# SAUCE Group: eek-lipse
-# SAUCE Date: 19960605
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: evOl #2 by splattage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-01-st-evol2
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: TDO-TPO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/crd-0995/raw/TDO-TPO1.ANS
-# Source Revision: archive-sha256:92e8243206a19eb111052c953993f4e53dd9f67761e23e3ae8ade483112a7fd4
-# Source SHA-256: 1fadf8c6820067d50384f4857d941478a511820807b80c3a00b62674ce261e3d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TDO-TPO1.ANS by teardrOp (Creed); released in crd-0995 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Palace Of Omniscience
-# SAUCE Author: teardrOp
-# SAUCE Group: Creed
-# SAUCE Date: 19950805
-# SAUCE Dimensions: 80x97
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: The Palace Of Omniscience by teardrOp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-crd-0995-tdo-tpo1-part01
 
 Write-Host '
 

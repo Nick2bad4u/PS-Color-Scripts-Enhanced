@@ -1,18 +1,4 @@
-﻿# Converted from: GS-CFMEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9610/raw/GS-CFMEN.ANS
-# Source Revision: archive-sha256:2f6e3c8c2e64cc8380afc3a639da2793e02ea87790d90b8b4bede4b760040753
-# Source SHA-256: 3e9e4bb007c1c390d2d249b0e4c81215dcd66e7db94b72b04826af535c938bf8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GS-CFMEN.ANS by Grindstone (awe lettering); released in awe9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Chronic Farts Menu
-# SAUCE Author: Grindstone
-# SAUCE Group: awe lettering
-# SAUCE Date: 19960929
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Chronic Farts Menu by Grindstone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9610-gs-cfmen
 
 Write-Host '
   [1m [0m                     [1;30m ▀[0;1;37m [0;34m▀[0;1;34m▀▀[0;1;34;44m▀██████████████████████▀[0;34m▀[0;1;34;44m▀████[0;1;34;47m█[0;1;34;44m▀[0;34m▀[0;1;34;44m▀█████████████▄[0;34m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: FPT-FLU2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flx-0797/raw/FPT-FLU2.ANS
-# Source Revision: archive-sha256:8881bffa0acfdeb90957524533ce6ee992fcd4666c7b6ff313d36d1cb171ca2b
-# Source SHA-256: aa583be3fe1a52448c919e2598f43354a3bd4cd61494579770a5eab5a0f18969
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FPT-FLU2.ANS by fat Pacifist (triloxy); released in flx-0797 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: flux!
-# SAUCE Author: fat Pacifist
-# SAUCE Group: triloxy
-# SAUCE Date: 19970608
-# SAUCE Font: SAUCE-ADDER V1.4
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: flux! by fat Pacifist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flx-0797-fpt-flu2
 
 Write-Host '
                [34m░[0m

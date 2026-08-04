@@ -1,19 +1,4 @@
-﻿# Converted from: krl_BlueQueen.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz20/raw/krl_BlueQueen.ans
-# Source Revision: archive-sha256:d88c3ff3e728f60821a5682143c2fe9e054bc535483ce1618db0798990cb65e8
-# Source SHA-256: bc80df117b6658e0481196d6a66c2489d8ce9da78a3a420eec467dfbc636c7c4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: krl_BlueQueen.ans by Krl (Lazarus); released in laz20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Blue Queen
-# SAUCE Author: Krl
-# SAUCE Group: Lazarus
-# SAUCE Date: 20250519
-# SAUCE Dimensions: 80x23
-# SAUCE Font: IBM VGA
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Blue Queen by Krl | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz20-krl-bluequeen
 
 Write-Host '
                            [1;30m▄▀[0;36m  [0;1;30m▄■[0;36m  [0;1;30m▄▄ ▀[0;1;30;47m▓[0;1;30;40m█▀▀[0m    [36m▄[0;37m [0;36m▓▓[0;37m   [0;36m▄[0;1;30m▄[0m    [1;30m▄[0;36m [0;1;30m▄▀[0m  [1;47m▄[0;1;40m█[0m■   [1;33;43m░[0;1;33;40m░[0;36m [0;1;30m▀[0m [1;30m▀[0;1;34;46m▓▓[0m

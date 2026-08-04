@@ -1,18 +1,4 @@
-﻿# Converted from: JZ-MATRX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force10a/raw/JZ-MATRX.ANS
-# Source Revision: archive-sha256:f2af75efab7b036cdbeddf266674e60423caa5c7ddcc4b43d8307cb5d3c84b64
-# Source SHA-256: bb03ef3be7811f1d6ef87ecb4e1feb1821a9ef3cdb3f15c1c1fafa550e8c99b1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JZ-MATRX.ANS by JEz (fORCE); released in force10a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Matrix
-# SAUCE Author: JEz
-# SAUCE Group: fORCE
-# SAUCE Date: 19960714
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Matrix by JEz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force10a-jz-matrx
 
 Write-Host '
  [33m    ▀██▀ ▄[0;1;31;43m░░░[0;33m▄▓   ▀██▓▒▒░▒▓▌ ▀  [0;37m [0;33m  ▄▄[0;1;31;43m░▒░  [0;33m█[0;1;31;43m [0;33m██▀▀▀  ░  ▄█▄ ▀█[0;1;31;43m░▒[0;33m▌[0;37m  [0;1;35;45m░▄■[0;35m█  [0;1;35;45m▒▀[0;35m▀██▀▄[0m

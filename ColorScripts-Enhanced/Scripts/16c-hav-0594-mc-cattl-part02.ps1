@@ -1,13 +1,4 @@
-﻿# Converted from: MC-CATTL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hav-0594/raw/MC-CATTL.ANS
-# Source Revision: archive-sha256:1d2eec2ab9921d52acd53b3b0e670f7d60e818766fc731641d7032ae0ff12d14
-# Source SHA-256: 7ad35305cf8779f133a8a071a269046812ceeffd791a1a98ee4fbf2c4c58c826
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MC-CATTL.ANS by Mr Corruption (hav-0594); released in hav-0594 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 49-96
-# Columns: 1-80
+﻿# Artwork: MC-CATTL.ANS by Mr Corruption | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hav-0594-mc-cattl-part02
 
 Write-Host '
      [1;47m▓[0m                                           [1;47m▒[0m

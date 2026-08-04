@@ -1,18 +1,4 @@
-﻿# Converted from: PO-PHAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat1296/raw/PO-PHAT.ANS
-# Source Revision: archive-sha256:7d01b0bd390151991b0a903d8d987d245c20f2b06635915da8eb049974bd356a
-# Source SHA-256: 2a0b4e932d4b1b2a42fce8fbe8e2a50d96a9706f412bb59f6d0920e27db42d6c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PO-PHAT.ANS by poti. (phat.); released in phat1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: phat.
-# SAUCE Author: poti.
-# SAUCE Group: phat.
-# SAUCE Date: 19961201
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: phat. by poti. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat1296-po-phat
 
 Write-Host '
   [33m░░[0m       [1;34m  [0m         [1;31m░[0m                        [36m░░[0m                 [35m░░[0m

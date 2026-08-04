@@ -1,18 +1,4 @@
-﻿# Converted from: COL-FLP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toxic-01/raw/COL-FLP1.ANS
-# Source Revision: archive-sha256:3b597be1b67b12799dd35541511cf17a47483b999aba055f1358423895441c18
-# Source SHA-256: ace2181ac36c69232ae00d53202185147bf10fe8f9c031f278fd58c6d1df7111
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: COL-FLP1.ANS by colorblind (TOXiC); released in toxic-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: flop
-# SAUCE Author: colorblind
-# SAUCE Group: TOXiC
-# SAUCE Date: 19960528
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: flop by colorblind | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toxic-01-col-flp1
 
 Write-Host '
 [32m█[0;1;32;42m▄[0;1;32;40m███▄▄▄▄▄▄[0m  [1;32m  [0;32m ▄[0;1;32m▄[0;1;32;42m▄[0;1;32;40m█▀▀▀▀[0;1;32;42m▀[0;1;32;40m██▄[0;1;32;42m▄█[0;1;32;40m███▄[0m [1;32m [0m [32m▄[0;1;32;42m ▄[0;1;32;40m███▀[0;1;37;40m▀[0;1;32;40m ▀[0m [32m▄▄█[0;1;32;42m▄▄[0;1;32;40m▀▀▀▀[0;1;32;42m▀▀[0;1;32;40m██[0;1;37;40m█[0;1;32;40m [0m

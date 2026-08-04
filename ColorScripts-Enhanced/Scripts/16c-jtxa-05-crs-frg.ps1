@@ -1,18 +1,4 @@
-﻿# Converted from: CRS-FRG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jtxa-05/raw/CRS-FRG.ANS
-# Source Revision: archive-sha256:7017f34470401551db164cef55aa0b06fb9fc2af3d6ea51e1fa1bba72f4626e8
-# Source SHA-256: 19441bda44859a0bd9e16c1947edb7ee9063e8193b7f87a2e9c0090945f68e4b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CRS-FRG.ANS by Crasher (just-x/galza); released in jtxa-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fragile##
-# SAUCE Author: Crasher
-# SAUCE Group: just-x/galza
-# SAUCE Date: 20020520
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: fragile## by Crasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jtxa-05-crs-frg
 
 Write-Host '
 [35m███████████████████████████████████████████████████████████████▀▀▀▀▀▀[0;37m   [0;35m▀[0;37m       [0m

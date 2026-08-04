@@ -1,18 +1,4 @@
-﻿# Converted from: MC!INSP5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-03/raw/MC!INSP5.ANS
-# Source Revision: archive-sha256:782ccbab81c9098e3c3d5b5d2d3703deba2cd08c356aa583e9b292783b136ef2
-# Source SHA-256: 455be9ca30a6eb09098008ed1130a249e773e89219db9f96dcfe0ba0cb76a3b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MC!INSP5.ANS by Madcap (Department 38); released in d38-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Insipid Dreams matrix
-# SAUCE Author: Madcap
-# SAUCE Group: Department 38
-# SAUCE Date: 19970126
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Insipid Dreams matrix by Madcap | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-03-mc-insp5
 
 Write-Host '
 [1;33m     [0;31m░░░░░░░░░░░     ░░░░▒▒░░   ░░░▒▒▒░░░░░    [0;1;31;41m▓███▓[0;1;33;40m    [0;1;31;40m■[0;1;31;41m▓[0;1;33;40m  [0;35m░░[0;31m░░░░[0;34m░[0;35m░▒▒▓▓▓██████[0m

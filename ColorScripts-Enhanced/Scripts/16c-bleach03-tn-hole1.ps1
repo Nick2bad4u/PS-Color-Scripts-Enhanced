@@ -1,18 +1,4 @@
-﻿# Converted from: TN-HOLE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bleach03/raw/TN-HOLE1.ANS
-# Source Revision: archive-sha256:2471cba47980d4022f27bc73f398c09351ab77507350614fd18a7c618c726caa
-# Source SHA-256: 459da6926a86954943e70a5a62d3e6625ed92f730fd1949ec738208f1a57c812
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TN-HOLE1.ANS by Technicolor (Bleach); released in bleach03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Hole(1)
-# SAUCE Author: Technicolor
-# SAUCE Group: Bleach
-# SAUCE Date: 19950605
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Hole(1) by Technicolor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bleach03-tn-hole1
 
 Write-Host '
 [31m████████████████[0;1;31;41m▀[0;31m█[0;1;31;41m▀[0;31m▀[0;1;31;41m▓▀▀░[0;31m█▓▀▀ ▀   [0;1;34;44m▓▀[0;34m▀ ▄ ■▀    [0;36m▄▄█[0;1;36;46m▀[0;36m█[0;1;36;46m▀▀░[0;36m▓▄▄[0;1;36m▄[0m     h  o  l  e   [1;30m░ ░▓[0m

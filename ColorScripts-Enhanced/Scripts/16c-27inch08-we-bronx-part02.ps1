@@ -1,13 +1,4 @@
-﻿# Converted from: we-bronx.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch08/raw/we-bronx.ans
-# Source Revision: archive-sha256:0b48bbc7b5f5330115fa074e1d04a4fecd4f968dda50aa5ddc10be2f9cdb0f62
-# Source SHA-256: e9e9b69cb91bab56aa3d82517a8ef70eed66dabb4f3b86e9cc0fd85f78311f7f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-bronx.ans by Quasar + Avg + Enzo (27inch08); released in 27inch08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 45-90
-# Columns: 1-80
+﻿# Artwork: we-bronx.ans by Quasar + Avg + Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch08-we-bronx-part02
 
 Write-Host '
          [36m [0;1;30m▀[0;1;30;46m▓[0;36m [0;1;30;46m░[0;1;36;46m  ▄▄▄ [0m         [1;30m▒██[0;1;30;46m█▓▓░▓░  [0;1;36;46m [0;36m▄    [0;1;36;46m░░[0;36m██▓  [0;37m  [0;1;36;46m▄█▄[0;1;36;40m▄▄▄▄[0;1;36;46m▄▓[0;1;36;40m▓[0;1;36;46m░░   [0;1;30;46m░▒[0m    [1;30;47m▀  [0m

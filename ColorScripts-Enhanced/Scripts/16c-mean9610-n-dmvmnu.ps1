@@ -1,17 +1,4 @@
-﻿# Converted from: N!DMVMNU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mean9610/raw/N!DMVMNU.ANS
-# Source Revision: archive-sha256:eb05f2b8207463fc94de363304abab4a1544e298daf7dc7d1efbc5b0f6afd5eb
-# Source SHA-256: 0bb3b7ef22b807a6a2e04f6e27d59a3272ea6f9c5559caa551c5972a403790f8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N!DMVMNU.ANS by nail (mean9610); released in mean9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: da mouldy vaults menu
-# SAUCE Author: nail
-# SAUCE Date: 19961031
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: da mouldy vaults menu by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mean9610-n-dmvmnu
 
 Write-Host '
                                              [1;31m▄[0;1;31;47m▓[0;1;31;40m▄▄▄[0;1;31;41m░[0;31m▀▀[0;37m▄▄▄[0;1;30m▄▄ [0;1;31m▀[0;1;31;47m▓[0;1;31;41m▌[0;1;31;40m▐▄[0;31m▄▌[0m     [1;31m▄[0;1;31;47m▓[0;1;31;41m▌░[0;31m▄[0;1;31m [0;31m▄[0;1;31m▄[0m

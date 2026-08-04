@@ -1,13 +1,4 @@
-﻿# Converted from: BB-TSD6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tsd1/raw/BB-TSD6.ANS
-# Source Revision: archive-sha256:46fcc0cabd317411058a341a12c1c12a208f3a319890bc1d8d832fa869d914c4
-# Source SHA-256: abfb0ac284b0d3415c58feb9760e1faed559bea9aafd0b1a52c5577ab5b80e8c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BB-TSD6.ANS by Blue Beetle (tsd1); released in tsd1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: BB-TSD6.ANS by Blue Beetle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tsd1-bb-tsd6
 
 Write-Host '
                           [33m▄[0;1;30m▀[0m

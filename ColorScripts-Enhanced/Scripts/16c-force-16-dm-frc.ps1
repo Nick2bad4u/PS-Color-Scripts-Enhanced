@@ -1,18 +1,4 @@
-﻿# Converted from: DM!#FRC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-16/raw/DM!%23FRC.ANS
-# Source Revision: archive-sha256:9ad935bd4cbb2615c5c684e690bc8979daa45859d0282b370bf26a8750d02425
-# Source SHA-256: 9bc1eed28c2dd0df180bc0146c0ebb59387d54bcb310aea83809d1ab5383d9ed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DM!#FRC.ANS by dangermouse (force); released in force-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: #frc promo!
-# SAUCE Author: dangermouse
-# SAUCE Group: force
-# SAUCE Date: 19970204
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: #frc promo! by dangermouse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-16-dm-frc
 
 Write-Host '
 [1;30mdangermouse[0m          [1;30m#[0m      [1;30m▀▀▄▄[0m       [1;30m▄▄■▄▓▄▄▄[0m   [1;30m▄[0m             [1;30m▄▄[0;1;30;47m▒[0m▄

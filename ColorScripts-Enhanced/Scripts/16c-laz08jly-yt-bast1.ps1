@@ -1,18 +1,4 @@
-﻿# Converted from: YT-BAST1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz08jly/raw/YT-BAST1.ANS
-# Source Revision: archive-sha256:8d8d89cdb4f6a56f2eaa26003458d08f5faec96c5dffe1f9e4f0c78141100bcb
-# Source SHA-256: 56399f531dae98d99345a31182f19d5f3d984526eeae1e57dec7409151ff946a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: YT-BAST1.ANS by neophyte (lazarus); released in laz08jly and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: bastard
-# SAUCE Author: neophyte
-# SAUCE Group: lazarus
-# SAUCE Date: 19970630
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: bastard by neophyte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz08jly-yt-bast1
 
 Write-Host '
   [1m▄[0;35m [0;37m [0;35m [0m                   [1;37m [0m             [35m   [0m

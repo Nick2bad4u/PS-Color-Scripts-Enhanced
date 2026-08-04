@@ -1,18 +1,4 @@
-﻿# Converted from: RV-HERO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/anger09/raw/RV-HERO.ANS
-# Source Revision: archive-sha256:1d024ab1b967a873387ebae34f188b304120e208b081dccdcb5397c8adcbd2a4
-# Source SHA-256: 1702972c28c8f1ce3fa12cb8568dbe9442767c3002e9c54216b6bf7ebd5219e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RV-HERO.ANS by riv (anger); released in anger09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hero time!
-# SAUCE Author: riv
-# SAUCE Group: anger
-# SAUCE Date: 19960328
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: hero time! by riv | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-anger09-rv-hero
 
 Write-Host '
 [1;30m█████████████▌[0m▄▄▄▄▄▄▄[1;30m▀██████████████████████████████████████████████████████████[0m

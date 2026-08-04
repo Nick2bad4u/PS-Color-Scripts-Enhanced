@@ -1,18 +1,4 @@
-﻿# Converted from: DT-SE5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0497/raw/DT-SE5.ANS
-# Source Revision: archive-sha256:73d4445ab8a07d3fe160d256052163ed66b2081a0bebb59b18ae9b36e30223e0
-# Source SHA-256: 22262ce40fa4d124123158c7fb9a9472d481cc8a098f5dfc20d7f3a570d468ea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-SE5.ANS by Defiant (Root); released in root0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Spilled Entrails
-# SAUCE Author: Defiant
-# SAUCE Group: Root
-# SAUCE Date: 19970403
-# SAUCE Dimensions: 80x13
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: Spilled Entrails by Defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0497-dt-se5
 
 Write-Host '
  [1;33m▄[0;36m▐▀▀[0;1;36m▀▀▌[0;35m▀[0;1;35m▀[0;35m▀▐[0;1;35m▄▄[0;1;33;45m▄[0;36m▐▀▀▀[0;1;36m▀▌[0;35m▀[0;1;35m▀[0;35m▀▐ [0;36m▀▌[0;35m▀[0;1;35m▀[0;35m▀▐ [0;1;33m▄[0;36m▐▀▀[0;1;36m▀▀▌[0m▐[1m██ [0;1;33m▄[0;36m▐▀▀[0;1;36m▀▀▌[0m▐[1;47m░▓[0;1;40m█ [0;1;33;40m▄[0;36m▐▀▀[0;1;36m▀▀▌[0;35m▀▀▀▐ [0;1;33m▄[0;36m▐▀▀[0;1;36m▀▀▌[0;35m▀[0;1;35m▀[0;35m▄[0m

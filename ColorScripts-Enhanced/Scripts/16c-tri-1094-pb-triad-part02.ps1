@@ -1,18 +1,4 @@
-﻿# Converted from: PB-TRIAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tri-1094/raw/PB-TRIAD.ANS
-# Source Revision: archive-sha256:5855e3cbc5c817618276c3b7671d20ac98109b50a7c1ab554c91a6eb3e9c8d67
-# Source SHA-256: 40dbbcae205822a902097910d3932215ec9dc6fabe246b153ffac4891899a530
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PB-TRIAD.ANS by Pitbull (TRiAD '94); released in tri-1094 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: TRiAD - The Darker Side
-# SAUCE Author: Pitbull
-# SAUCE Group: TRiAD '94
-# SAUCE Date: 19941008
-# SAUCE Dimensions: 80x87
-# Lines: 62-85
-# Columns: 1-80
+﻿# Artwork: TRiAD - The Darker Side by Pitbull | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tri-1094-pb-triad-part02
 
 Write-Host '
 [0m[0m[1;30;40m  █▓▓▓▓▒[0m     [1;30;40m░▀[0m     [1;30;40m▒▓▓▓▓    [0;1;30;47m█[0;1;30;40m█  [0;1;30;47m█▀▐▀█▀█▀█▀▌▀▐[0m  [1;30;47m▌█[0m    [1;30;40m▓▓▓▓▒[0m     [1;30;40m▀░[0m     [1;30;40m▒▒▒▓▓▓▓█[0m

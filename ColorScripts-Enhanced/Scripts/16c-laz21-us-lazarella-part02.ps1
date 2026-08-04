@@ -1,19 +1,4 @@
-﻿# Converted from: us-lazarella.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz21/raw/us-lazarella.ans
-# Source Revision: archive-sha256:daa0e008ccfccc8179e0635097f8fe4a46a32781b45bbd86ff6e4505514c9e6d
-# Source SHA-256: c413eee54163fe7f95f4bef2be36cd195bf5dc117540b0e02a425cedc9c32b24
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-lazarella.ans by Warpus + Harvest (LAZARUS); released in laz21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Lazarella
-# SAUCE Author: harvest & warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20260429
-# SAUCE Dimensions: 80x184
-# SAUCE Font: IBM VGA
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Lazarella by Warpus + Harvest | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz21-us-lazarella-part02
 
 Write-Host '
 [1;31;45m█▓▓█▓▓▓▒▒▒█[0;35m    ▌ ▀   ■ ▌▀[0;1;35m   [0;35m█   [0;1;30;47m▓[0;1;30;40m▌[0m  [34m▓[0;37m [0;34m▐▌[0;37m [0;34m█[0;37m    [0;1;30m▄▄[0m [1;30m▄[0;33m▄▄[0;37m  ▀[0;1;30;47m   ░  ░░░[0m█■    [35m▌[0;36m▐███[0;1;36m▌[0m  [1;36;45m▌[0;1;31;45m▒[0m

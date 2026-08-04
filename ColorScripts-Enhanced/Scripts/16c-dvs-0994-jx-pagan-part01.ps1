@@ -1,13 +1,4 @@
-﻿# Converted from: JX-PAGAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dvs-0994/raw/JX-PAGAN.ANS
-# Source Revision: archive-sha256:662450e0767daa4bdc40205ffd213e15c8c6c80c793392e9476098594e5199ba
-# Source SHA-256: 0935ddcddcedcf93f28bc60ad9962a8421e695e91dd6d865ee4b0ff00a4b355b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JX-PAGAN.ANS by Jynx (dvs-0994); released in dvs-0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: JX-PAGAN.ANS by Jynx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dvs-0994-jx-pagan-part01
 
 Write-Host '
 [1;30;47m    ▓     ░░░▒▒▒▒░░░░░     ░ ░ [0;30;47m▒▀▄     [0;1;30;47m▀▓        [0;30;47m▐  ▓      [0;1;30;47m░░▒▒▒[0;1;30;40m▒[0m

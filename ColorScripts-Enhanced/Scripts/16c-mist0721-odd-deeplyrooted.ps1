@@ -1,19 +1,4 @@
-﻿# Converted from: ODD-DEEPLYROOTED.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0721/raw/ODD-DEEPLYROOTED.ANS
-# Source Revision: archive-sha256:9d3d54e42a99a6e7bef51cb79a023b85709051f377817bc02741bd65f1493da4
-# Source SHA-256: 9f389cd799126c5a994e20916924ee8d6984ad5e638ddb93933768b117461d30
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ODD-DEEPLYROOTED.ANS by Odd (Mistigris); released in mist0721 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Deeply Rooted
-# SAUCE Author: Odd
-# SAUCE Group: Mistigris
-# SAUCE Date: 20210711
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Deeply Rooted by Odd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0721-odd-deeplyrooted
 
 Write-Host '
              ▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄

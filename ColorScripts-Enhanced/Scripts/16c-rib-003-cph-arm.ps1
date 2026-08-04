@@ -1,13 +1,4 @@
-﻿# Converted from: CPH-ARM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-003/raw/CPH-ARM.ANS
-# Source Revision: archive-sha256:09817656d743388b570b7dfb39c4f133f8c40aecb92562f60d9e0c45a3f39730
-# Source SHA-256: f45be5f570a419a54f4d475f6b534514702dc0e8da6fc9b63524b8e895effe2a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-ARM.ANS by Cyberpunch (rib-003); released in rib-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: CPH-ARM.ANS by Cyberpunch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-003-cph-arm
 
 Write-Host '
  [31m░░▓[0;37m  [0;1;33m▄▄▄▄[0m  [1;30m:..:[0m  [1;33m▄▄▄▄▄▄[0m [31m ░[0;1;30m.:[0m  [1;33m▄▄▄▄▄▄[0m  [31m░[0;37m [0;1;33m  ▄▄▄▄▄▄[0m [31m▐█▄[0m   [1;33m▄▄▄▄[0m  [31m░░[0m    [1;33m▄▄▄▄▄▄[0m [31m░▒[0;37m [0;31m▄[0m

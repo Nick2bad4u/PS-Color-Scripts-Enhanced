@@ -1,13 +1,4 @@
-﻿# Converted from: TSU-SOH1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9403/raw/TSU-SOH1.ICE
-# Source Revision: archive-sha256:256add313f6fb2d9526e695b09f6039aacb3931a76c34081a80ce81f3cc3dbc4
-# Source SHA-256: 6db89729a2787c7698697f1e7169fc9b84508bde13d065ce991343ca80103efb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSU-SOH1.ICE by Tatsu (ice-9403); released in ice-9403 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 50-99
-# Columns: 1-80
+﻿# Artwork: TSU-SOH1.ICE by Tatsu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9403-tsu-soh1-part02
 
 Write-Host '
             [1;30;40m▓ ▄[0;1;30;45m▓▒░[0;45m░[0;1;30;45m░[0;35m▐[0m     [31m░[0m            [31m░▒    ▄[0;1;30m▄▄▄▄▄▄[0m      [31m▒░[0m         [45m░[0;1;30;45m░▒▓[0;35m▐[0;1;30;45m▒[0m [45m░[0;1;30;45m▒▓[0m

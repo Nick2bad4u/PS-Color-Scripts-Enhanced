@@ -1,18 +1,4 @@
-﻿# Converted from: CP-BLUR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rawoe-98/raw/CP-BLUR1.ANS
-# Source Revision: archive-sha256:72c3cf0f44a476eef694d1cf3a1552a03dc3aa0478a61b3b389cc598bf59ebb8
-# Source SHA-256: d3e2cce50430d99b3d1b80a517f7bafb4dfc27a7db0f862ed728d435eebc4dbb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CP-BLUR1.ANS by cyberphreak (rebel arts); released in rawoe-98 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: blur
-# SAUCE Author: cyberphreak
-# SAUCE Group: rebel arts
-# SAUCE Date: 19980927
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: blur by cyberphreak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rawoe-98-cp-blur1
 
 Write-Host '
             [1;30m▄[0m▄▄▄▄[1;30;47m▀[0m▀

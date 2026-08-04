@@ -1,18 +1,4 @@
-﻿# Converted from: PYX-SG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0996/raw/PYX-SG.ANS
-# Source Revision: archive-sha256:de1a4e1b3b8504644e3a073d9996f185c42e41f64ec42e4fefdea03b2b3748fe
-# Source SHA-256: 74059b75fa752f271ef5b1217ac0fc8e3e3983ed5b6ca648728a8038abfddc76
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-SG.ANS by Pyx (Bamboosh); released in bmb-0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: StarGate login ansi
-# SAUCE Author: Pyx
-# SAUCE Group: Bamboosh
-# SAUCE Date: 19960904
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: StarGate login ansi by Pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0996-pyx-sg
 
 Write-Host '
 [36m                                      ▐[0;1;36;46m▐[0;1;36;40m██████[0;1;36;46m█▀▀▀▀[0;1;36;40m██████████[0;1;36;46m██▓▓█▓▒░▒░▒░[0;1;30;40m [0;1;36;40m▒░[0;1;30;40m [0m

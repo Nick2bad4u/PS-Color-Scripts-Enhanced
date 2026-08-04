@@ -1,19 +1,4 @@
-﻿# Converted from: LIQ1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tk-ansi/raw/LIQ1.ANS
-# Source Revision: archive-sha256:7a6e15a450305cb977de0a4eb06cf4ca525baa4933c9f7af1cf6080dced8bf2d
-# Source SHA-256: 653b15df00110b91695ddb04365f05260c2ac40b15fa90cfa90a2c4c9f673397
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LIQ1.ANS by Tank (ACiD Productions); released in tk-ansi and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Liquid
-# SAUCE Author: Tank
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19920924
-# SAUCE Dimensions: 80x49
-# SAUCE Comments: Maybe for Liquid Productions or BBS software, I forget.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: Liquid by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tk-ansi-liq1
 
 Write-Host '
 [1;30m▓▓▓▓▒▓▒▒░▒░ ░ ░░▒▒▓▓▓█▓▓▓▒▒▒░░▒░▒░░░ ░  ░ [0m▄▄▄▄▄▄▄▄▄▄          [1;30m░  ░   ░ ░░▒░▒▓▓▓[0m

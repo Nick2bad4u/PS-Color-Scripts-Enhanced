@@ -1,19 +1,4 @@
-﻿# Converted from: ak-lgcy.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-004/raw/ak-lgcy.ans
-# Source Revision: archive-sha256:c716e28d4b828a0135c19992fe2f71464879479199ebc42fd3d533b5bd3bf4d4
-# Source SHA-256: 85b5d2c4c928023a211f420ca0e3e189d197f609bb0bfdd26af9e8adc0f47ea7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ak-lgcy.ans by abstrakt (Lazarus); released in lgcy-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Legacy Krew
-# SAUCE Author: abstrakt
-# SAUCE Group: Lazarus
-# SAUCE Date: 20220323
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Legacy Krew by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-004-ak-lgcy
 
 Write-Host '
 [1;32;40m                   [0;35m                                                             [0m

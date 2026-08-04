@@ -1,18 +1,4 @@
-﻿# Converted from: US-GIRL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook14/raw/US-GIRL.ANS
-# Source Revision: archive-sha256:f7fe2a62d3e7b3b16687ce251209098ea8d86719a4cfa33dae1489e0c9af9278
-# Source SHA-256: c6ed3e2738015cc0aeb24b7bd68c3dd3ce1ed4b194a59e7f25813f30a631bfa0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GIRL.ANS by Pandur + Noize (black maiden); released in bmbook14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: sarcasm
-# SAUCE Author: pandur.noize
-# SAUCE Group: black maiden
-# SAUCE Date: 19970614
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: sarcasm by Pandur + Noize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook14-us-girl
 
 Write-Host '
 

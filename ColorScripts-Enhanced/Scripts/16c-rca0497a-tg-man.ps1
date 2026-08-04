@@ -1,17 +1,4 @@
-﻿# Converted from: TG-MAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca0497a/raw/TG-MAN.ANS
-# Source Revision: archive-sha256:7a734d4a0f66cec612ff9dd555f22ae742c0c148ca8b062dcada217d3ed01454
-# Source SHA-256: 54c641a73bacc164ac76defc6c9ff5d3cdf0b60e580ea1810e6f098c31b91c42
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-MAN.ANS by Twistgrip (RCA); released in rca0497a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: Twistgrip
-# SAUCE Group: RCA
-# SAUCE Date: 19970316
-# SAUCE Dimensions: 80x37
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: TG-MAN.ANS by Twistgrip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca0497a-tg-man
 
 Write-Host '
                        [1;30m▄▄▄▄[0m

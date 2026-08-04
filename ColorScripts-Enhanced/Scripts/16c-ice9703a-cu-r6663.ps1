@@ -1,13 +1,4 @@
-﻿# Converted from: CU-R6663.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9703a/raw/CU-R6663.ICE
-# Source Revision: archive-sha256:6bff16e5edf32b4898857b0d23616134d84be36d169a4a2f3bc23f437f356dfe
-# Source SHA-256: c51e4e224986a9b1aa4692f23928db8b9757e0b0886006290a5ed282e2f86ce8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CU-R6663.ICE by Cold And Ugly (ice9703a); released in ice9703a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: CU-R6663.ICE by Cold And Ugly | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9703a-cu-r6663
 
 Write-Host '
 [33m █▀  ░▒▒▒▓▓▓████████[0;1;31;43m░░▒▒▓▓██████▓▓▒[0;33m ▌ ▓▌▐▌[0;1;30m                     [0m   [1;30m             [0m

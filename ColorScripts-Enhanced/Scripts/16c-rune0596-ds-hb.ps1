@@ -1,17 +1,4 @@
-﻿# Converted from: DS-HB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rune0596/raw/DS-HB.ANS
-# Source Revision: archive-sha256:c40af7cce2fda0097342df4e5eb7be40c9db81ab1e19f7ebbea60ac9c39a1908
-# Source SHA-256: 735ecec665899023aefe1ef2226d2964afa667004a10d66972f3154b58a59088
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-HB.ANS by dark shadow (rune); released in rune0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: hellbound
-# SAUCE Author: dark shadow
-# SAUCE Group: rune
-# SAUCE Date: 19960501
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: hellbound by dark shadow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rune0596-ds-hb
 
 Write-Host '
         [36m█[0;1;36;46m████████████▄▄███▓██▀░▀[0;36m▀▀▀[0;1;36;46m░▀██▀░[0;36m▀▀▀[0;1;36m  [0;1;37m▄▄▄▄▄  [0;36m▀▀[0;1;36;46m░▀█▓██▄[0;36m▄▀[0;1;36;46m▄▄▓████████▓▌ [0;36m▌[0m

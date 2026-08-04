@@ -1,11 +1,4 @@
-# Converted from: baobab3.ansi
-# Source encoding: utf8
-# Source URL: https://raw.githubusercontent.com/jifunks/botany/2802121ed8268df1b69584167a14d4c690aaea35/art/baobab3.ansi
-# Source Revision: 2802121ed8268df1b69584167a14d4c690aaea35
-# Source SHA-256: 7dac070a584168a492a19a3a1a72e56d897151c3d826b33ef12db2e0578951c2
-# Source License: ISC
-# Source Attribution: Jacob Funke (jifunks)
-# Source Conversion Mode: Passthrough
+# Artwork: baobab3.ansi by Jacob Funke (jifunks) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=botany-baobab
 
 Write-Host '[38;5;7m [38;5;7m [38;5;7m [38;5;7m [38;5;7m [38;5;7m [38;5;1m*[38;5;7m [38;5;7m [38;5;7m [38;5;7m [38;5;7m [38;5;1m*[38;5;2m&[38;5;7m [38;5;7m [38;5;7m [38;5;7m [38;5;7m [38;5;1m*[38;5;7m [38;5;1m*[38;5;8m [38;5;8m 
 [38;5;7m [38;5;7m [38;5;7m [38;5;7m [38;5;7m [38;5;2m&[38;5;2m&[38;5;2m&[38;5;7m [38;5;7m [38;5;1m*[38;5;2m&[38;5;2m&[38;5;7m [38;5;7m [38;5;2m&[38;5;2m&[38;5;7m [38;5;7m [38;5;2m&[38;5;2m&[38;5;2m&[38;5;8m [38;5;8m 

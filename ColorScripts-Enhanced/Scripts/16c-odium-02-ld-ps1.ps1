@@ -1,18 +1,4 @@
-﻿# Converted from: LD-PS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-02/raw/LD-PS1.ANS
-# Source Revision: archive-sha256:47a67f112d88796e8c1419ea3c6c084684ff2719dfc540b2668a69dc0343be0d
-# Source SHA-256: 905c0a6a7af5ecbebfc903d6f9e6fc71b1d3d01e8456288580920549fc190519
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-PS1.ANS by lordjazz (odium); released in odium-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: photosynthetic shit
-# SAUCE Author: lordjazz
-# SAUCE Group: odium
-# SAUCE Date: 19951220
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: photosynthetic shit by lordjazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-02-ld-ps1
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: RB-EMAT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9610/raw/RB-EMAT1.ANS
-# Source Revision: archive-sha256:82b9914588880433fa3d28215273cb7df08c23e4d4bcfd49e47a0d2b7c765626
-# Source SHA-256: 5f8a89486ba93363564eaeabb5ef5254ee3df77817252b96204083a02589c065
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RB-EMAT1.ANS by rebal (blade); released in blde9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: echo emag matrix
-# SAUCE Author: rebal
-# SAUCE Group: blade
-# SAUCE Date: 19960923
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: echo emag matrix by rebal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9610-rb-emat1
 
 Write-Host '
 [35m▐▀[0;34m [0;35m▄▄[0;1;30;45m░▒[0;35m█▀▀[0;34m [0;35m▀░▀[0;33m ▄▄▄▄▄▄ [0;35m░[0;33m▄▄▄[0;37m  [0;1;30mrb![0;34m [0;35m▀▀▀[0;1;35;45m▒░[0;35m▄[0;37m  [0;35m▀█▄[0;37m [0;35m░▒▀█▄[0;37m  [0;1;30m▀███▀[0;1;30;46m▓[0;1;30;40m█[0;1;30;47m█▓▒[0;1;30;40m▀▀▀[0m    [32m▄▄[0;1;32m▄[0m     [1;30m▀▓█[0m

@@ -1,20 +1,4 @@
-﻿# Converted from: AVG-FLAG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-40/raw/AVG-FLAG.ANS
-# Source Revision: archive-sha256:aff8105c0a955ac5c43ea367a02b086cd2849f6741fc41b8a5ff440b77e104a7
-# Source SHA-256: 775e22f3b90b019995ce7e4e6993be0b2aa96fba12b32e695147f0a2781559a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-FLAG.ANS by Savage (Fire Graphics); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Black Flag BBS
-# SAUCE Author: Savage
-# SAUCE Group: Fire Graphics
-# SAUCE Date: 20240707
-# SAUCE Dimensions: 80x297
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Rest in Peace Hawk Hubbard
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Black Flag BBS by Savage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-40-avg-flag-part01
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: PX-EX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icon1296/raw/PX-EX.ANS
-# Source Revision: archive-sha256:3688a1ee6f390cf67760e1cdab248545e127f29abb4572eff437ff7725092965
-# Source SHA-256: 4d9e495437580390dcf3070599d1c2dbaa7de476c361c9466d00607eb8df607c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PX-EX.ANS by PhasaX (iCON Productionz); released in icon1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: exile
-# SAUCE Author: PhasaX
-# SAUCE Group: iCON Productionz
-# SAUCE Date: 19960919
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: exile by PhasaX | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icon1296-px-ex
 
 Write-Host '
  [1;30m──────────────── ..[0m(     [1mE[0m     [1mX[0m     [1mI[0m     [1mL[0m     [1mE[0m     )[1;30m.. ──────────────────[0m

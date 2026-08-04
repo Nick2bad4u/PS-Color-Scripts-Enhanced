@@ -1,17 +1,4 @@
-﻿# Converted from: LST-DL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/3o3pack4/raw/LST-DL1.ANS
-# Source Revision: archive-sha256:3a7324cf28c2b64b546cb6909029bbdfd9f549d1041617fe77acf1890b6f6ec6
-# Source SHA-256: 1cae29bf49bb9ee789e83e165fec227e1c3c4957fe5b05e463b4e6f636403cb3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LST-DL1.ANS by soul trader (3o3pack4); released in 3o3pack4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the arson pumpkin (he!)
-# SAUCE Author: soul trader
-# SAUCE Group: .
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: the arson pumpkin (he!) by soul trader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-3o3pack4-lst-dl1
 
 Write-Host '
                                   [1;30m     [0m [1;30m([0;33mdad?[0;1;30m)[0;5;33m_[0;33m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: INC-LOST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/kbsart02/raw/INC-LOST.ANS
-# Source Revision: archive-sha256:db985c6cc647f5eef7416b8a6b8fee6ea9ea728844fba4bfa914fc08893c10ca
-# Source SHA-256: a7ffbbe56f2c8e8d2c54130cd7ea08f8f669d357e5a661804a9076b19bd152a8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: INC-LOST.ANS by inclusive@! (kibosh); released in kbsart02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: lost pARADiZE
-# SAUCE Author: inclusive@!
-# SAUCE Group: kibosh
-# SAUCE Date: 19990505
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: lost pARADiZE by inclusive@! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-kbsart02-inc-lost
 
 Write-Host '
 [1;47m▀[0m▀  [35m▄▄██████████████[0;1;33;45m▄█[0;1;33;40m▀[0;1;33;45m▄[0;35m██▓[0;37m  [0;1;30m█[0m███▒████████████████████████████████[1;30;47m▀▀▀[0;1;30;40m█████████▒[0m

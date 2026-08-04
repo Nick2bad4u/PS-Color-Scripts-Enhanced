@@ -1,18 +1,4 @@
-﻿# Converted from: IS-BEAM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/reign-02/raw/IS-BEAM.ANS
-# Source Revision: archive-sha256:dc3996199d28e47087a92912d34bad8e97b4ba4e4ae70fc7dadbaeac5af3f655
-# Source SHA-256: 1ce352af8b6f5915c99d8ca7af905bd8bd99ccef75e99ba1aef98c2f0429fe81
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IS-BEAM.ANS by prosthesis (reign); released in reign-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: BEAM3
-# SAUCE Author: prosthesis
-# SAUCE Group: reign
-# SAUCE Date: 19981116
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: BEAM3 by prosthesis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-reign-02-is-beam
 
 Write-Host '
 ▄▀[1;47m░░▓▓▄[0m▄▄▄ [35m▄▄[0;37m [0;34m▒▒▒▒[0;37m   ▄▄▄▄▄▄▄▄▄▄▄[0m     [36m [0;1;35;45m░▓[0;1;35;40m▄[0;35m▄ [0;34m▒▒▒[0;35m ▄[0;1;35m▄[0;35m [0;1;35;45m▓▓[0;35m [0;34m▒▒[0;35m   [0;1;30m▄[0m   [1;35m▄▄[0;35m▄ [0;34m▒▒  [0;35m [0;1;35m▄▄[0;35m  █[0;1;35;45m░░[0;35m [0;34m░[0m

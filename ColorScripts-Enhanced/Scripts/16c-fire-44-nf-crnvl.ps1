@@ -1,19 +1,4 @@
-﻿# Converted from: NF-CRNVL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-44/raw/NF-CRNVL.ANS
-# Source Revision: archive-sha256:6c51508cedeaa9140fcf08750a75edb14e0cec0eebe7b4290346e95cd3548876
-# Source SHA-256: 730425aa6438868721d59271824a212bd1862c096f7f2ed47c896ede5ee23737
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NF-CRNVL.ANS by necro (FIRE ^ RBBS); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Carnevil
-# SAUCE Author: necro
-# SAUCE Group: FIRE ^ RBBS
-# SAUCE Date: 20251111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Carnevil by necro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-44-nf-crnvl
 
 Write-Host '
 [1;30;40m▀▄▀▀▄ ▒ ▄▀[0;1;33;40m▄[0m      [1;30m▒░▒▌[0;1;31;41m░[0;1;31;40m▐[0;1;33;40m▄[0;1;30;40m▀[0;31m▄[0;33m▀[0;1;33;43m░░[0;1;30;40m▀[0;36m▄[0;1;31;41m▓░[0;31m▀▀[0;37m [0;36m▀[0;1;31m▀[0;31m▀[0;37m [0;1;30m▀▀[0;33m▀▀[0;1;30;43m▒[0;1;30;40m▀▄[0;1;32;40m▐[0;32m▌[0;1;31;41m▓[0;1;31;40m▀[0m▄[1;31;41m▓▒[0;31m▀[0;1;32m▄[0;1;33m▄[0;1;32;42m▓▓▒[0;1;33;40m▀[0;32m▄▌[0;33m [0;1;30m▀▄▀░[0;33m [0;1;30m▐▄▀▀░[0m

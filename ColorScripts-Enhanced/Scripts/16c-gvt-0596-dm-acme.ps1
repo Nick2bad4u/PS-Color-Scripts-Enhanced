@@ -1,16 +1,4 @@
-﻿# Converted from: DM-ACME.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gvt-0596/raw/DM-ACME.ANS
-# Source Revision: archive-sha256:f2fd877c7a0bae39c5f44298c1713c8be39cba6ec4746c1081cbff581fa31626
-# Source SHA-256: 1b52ab5d928dd032776837f87e5d886bb1c28d39573e5e95bb13f6d902f395b4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DM-ACME.ANS by domino (gravity); released in gvt-0596 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: acme
-# SAUCE Author: domino
-# SAUCE Group: gravity
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: acme by domino | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gvt-0596-dm-acme
 
 Write-Host '
                                    [36m■[0m                                [35m·[0m

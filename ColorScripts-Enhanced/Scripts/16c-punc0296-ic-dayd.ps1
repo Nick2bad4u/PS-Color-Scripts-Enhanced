@@ -1,18 +1,4 @@
-﻿# Converted from: IC-DAYD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/punc0296/raw/IC-DAYD.ANS
-# Source Revision: archive-sha256:77d6380aea8b73102d5ce9e69ab9b838bbcd43d090ae7f9819e27ef3026ed31a
-# Source SHA-256: e322da8d32b5f8b3c9fce0f3a0486fb55bfc4832f46beca6fec2bedc6b29cf77
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IC-DAYD.ANS by iceman (pUNC); released in punc0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: daydream nation
-# SAUCE Author: iceman
-# SAUCE Group: pUNC
-# SAUCE Date: 19950911
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: daydream nation by iceman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-punc0296-ic-dayd
 
 Write-Host '
 

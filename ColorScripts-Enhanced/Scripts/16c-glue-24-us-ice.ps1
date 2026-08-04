@@ -1,18 +1,4 @@
-﻿# Converted from: US-ICE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-24/raw/US-ICE.ANS
-# Source Revision: archive-sha256:4ba1f499e1a6e81bad8d23a49c9f592b52fb39aaf053093edda57035a78ff770
-# Source SHA-256: fe527064e8ac8403c46ed2474e041b922df82713163553ead5f6c8000b0fd681
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ICE.ANS by Rzicus + Spear (multiple); released in glue-24 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ice logo
-# SAUCE Author: _rzicus & spearfx
-# SAUCE Group: multiple
-# SAUCE Date: 19990802
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: ice logo by Rzicus + Spear | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-24-us-ice
 
 Write-Host '
 [1;33m██[0;1;32m█▓▓▓▒▒[0;32m█▓▓░░[0;37m [0;1;36m▄▄[0;36m▄[0;1;36m▀▀[0;36m▀▀▀  [0m       [1;36m▄▄▄[0;36m▄▄[0;1;36m▀[0;36m▀▀▀ [0;1;36m▄▄[0;36m▄▄ [0;1;36m▀[0;36m▀▀▀      [0;1;36m▄▄[0;36m▄▄▄[0;1;36m▀[0;36m▀▀▀     [0;32m▄▄▄█████[0;1;30;42m▐[0;1;30;40m▌[0m

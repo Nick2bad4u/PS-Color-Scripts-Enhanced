@@ -1,18 +1,4 @@
-﻿# Converted from: CID-AW03.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/s0ap0000/raw/CID-AW03.ANS
-# Source Revision: archive-sha256:1a332d1124ff7969ce5488f98dc304604521f709a74ee396411fde849dcfa824
-# Source SHA-256: 9a232d064bb59920092184acc12191c629a63db94917b1b39688ff5fbd6e3ff9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CID-AW03.ANS by Cidica + Prizm (sOAP.dOPE!); released in s0ap0000 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: alIENwoRKSHOP[3]
-# SAUCE Author: 114.[cid]
-# SAUCE Group: sOAP.dOPE!
-# SAUCE Date: 19960906
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: alIENwoRKSHOP[3] by Cidica + Prizm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-s0ap0000-cid-aw03
 
 Write-Host '
 [1;30m┌─────────--──────---─────────────----─────────---───-───-────────-───────────┐ [0m

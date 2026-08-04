@@ -1,13 +1,4 @@
-﻿# Converted from: TSK-ECHO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz03feb/raw/TSK-ECHO.ANS
-# Source Revision: archive-sha256:d402090580beb42f827386e6ac87eabae48765a9dcac692e22ff2b8314efb7a2
-# Source SHA-256: 81554c2b4516c3b02048b6b1f21b7e57b1ed5426333e60722fb542b057ab78c4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-ECHO.ANS by The Silent Killer (laz03feb); released in laz03feb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: TSK-ECHO.ANS by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz03feb-tsk-echo
 
 Write-Host '
 

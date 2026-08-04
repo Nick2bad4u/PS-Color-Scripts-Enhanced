@@ -1,18 +1,4 @@
-﻿# Converted from: TAE-NST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nst_001/raw/TAE-NST.ANS
-# Source Revision: archive-sha256:73e351b64f3e5af00925276ea27a29359884e7841f4015afd3acb29f2a370d2d
-# Source SHA-256: 88db35f23874cc3667f638ddbf4d0bd5d696c736055ba996437a5c9b540250a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TAE-NST.ANS by taevore (neon strike); released in nst_001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: "  neon strike "
-# SAUCE Author: taevore
-# SAUCE Group: neon strike
-# SAUCE Date: 19980402
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: " neon strike " by taevore | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nst-001-tae-nst
 
 Write-Host '
                      [32m▄▄▄▌[0m               [32m▄▄▄▄▄    ▄▄▌▄▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: opengroup.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/openworld-02/raw/opengroup.ans
-# Source Revision: archive-sha256:e6a9b74c273d22a2d7965d3de31cdbe68ad1a8fc7c323f54e28427a4c9d376b0
-# Source SHA-256: 2579108322f551bb5d10b81c3684edc7d795ea7693aa8d1d5a7d21e30563fb81
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: opengroup.ans by Luxuse (openworld-02); released in openworld-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: opengroup.ans by Luxuse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-openworld-02-opengroup
 
 Write-Host '
  [30;46m▄▄[0;36;46m▀█[0;30;46m▄[0m

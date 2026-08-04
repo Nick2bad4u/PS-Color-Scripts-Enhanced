@@ -1,18 +1,4 @@
-﻿# Converted from: US-FE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/saga9705/raw/US-FE.ANS
-# Source Revision: archive-sha256:9950004e76ea5c0e6c27ac92b1d4c958f7cea833041843273d527effb62ad1ee
-# Source SHA-256: 8912ae4ccdd64a6a35dc50dfaaab7d1da6b72049a6192dd1322526f35673f4d3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FE.ANS by Sharque + Criminal Enigma (saga); released in saga9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Martz fallen empires ..
-# SAUCE Author: Multiple Artists
-# SAUCE Group: saga
-# SAUCE Date: 19930503
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: Martz fallen empires .. by Sharque + Criminal Enigma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-saga9705-us-fe
 
 Write-Host '
 [30m••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••[0m

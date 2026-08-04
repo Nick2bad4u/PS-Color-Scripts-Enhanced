@@ -1,13 +1,4 @@
-﻿# Converted from: FB-MYST1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/atm-0594/raw/FB-MYST1.ANS
-# Source Revision: archive-sha256:a7745e0553a5b6c51bb70e798c51baa47b7f819d65244d42098c318b7e86f80b
-# Source SHA-256: fd5956ab0dc77c2a93c09bd5c74cc5a018b78a19fbc09e6361745ea42736578b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FB-MYST1.ANS by Frost Byte (atm-0594); released in atm-0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 25-67
-# Columns: 1-80
+﻿# Artwork: FB-MYST1.ANS by Frost Byte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-atm-0594-fb-myst1-part02
 
 Write-Host '
                  [1;34m▄▄[0m                      [1;34m▄▄[0m           [1;36m▄▄    [0;1;34m▄▄[0m           [1;36m▄▄[0m

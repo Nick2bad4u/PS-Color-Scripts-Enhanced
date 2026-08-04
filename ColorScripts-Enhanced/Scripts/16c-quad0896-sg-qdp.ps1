@@ -1,18 +1,4 @@
-﻿# Converted from: SG-QDP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0896/raw/SG-QDP.ANS
-# Source Revision: archive-sha256:aea0eeb92b0eab79feeb93a911e40d78834e5950cdc396c43c83fe60a2627fad
-# Source SHA-256: 5e71eaea378eaaee087ee4d155704e51fe0fbff7473e70b20e0e38044d4308d9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SG-QDP.ANS by Stygian (Quad-P); released in quad0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Quad-P Logo
-# SAUCE Author: Stygian
-# SAUCE Group: Quad-P
-# SAUCE Date: 19960629
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Quad-P Logo by Stygian | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0896-sg-qdp
 
 Write-Host '
                                                      [1;36m [0m▄[1m▄▄▄▄[0;1;36m    [0m

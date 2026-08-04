@@ -1,13 +1,4 @@
-﻿# Converted from: KZ-SYN.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9506/raw/KZ-SYN.ICE
-# Source Revision: archive-sha256:54681166ad0e1930ad04020dc73021d068005fba5342f2f81e02d3344e14b83c
-# Source SHA-256: 880a26a85881b1f689148a6f82123dce5778116d7d4686d6b985b1d0a0968eb4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KZ-SYN.ICE by Kamikazee (ice-9506); released in ice-9506 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 48-93
-# Columns: 1-80
+﻿# Artwork: KZ-SYN.ICE by Kamikazee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9506-kz-syn-part02
 
 Write-Host '
 [31m▓█▀█ ▓▀▓▄▓▄▓▄▄▒▀▒ ▀[0;37m [0;31m▄[0;33m ■▀▀[0m    [37m     [0;33m   ■[0;37m [0;31m [0;37m [0;31m ░[0;37m [0;31m ░▒▓▒▒░▄▒░▒░[0;37m [0;31m░[0;37m [0;33m■▄ [0;37m  ▀[0m   [33m [0;37m [0;31m ▄■■▄▓▀▒░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: WZ-DOOM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/void0295/raw/WZ-DOOM1.ANS
-# Source Revision: archive-sha256:4a44bb34dd7dff10b5a2dda07cb89e234fbb0d7e21e3c15a308c427064caab51
-# Source SHA-256: 4756d236c1dd4c2c4b2f17d547948a3d8fcc3ad0ec0f925eac9f506ecbb579a5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WZ-DOOM1.ANS by Weazel (VOiD); released in void0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Doomsday
-# SAUCE Author: Weazel
-# SAUCE Group: VOiD
-# SAUCE Date: 19950201
-# SAUCE Dimensions: 80x100
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: Doomsday by Weazel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-void0295-wz-doom1-part01
 
 Write-Host '
         [1;30m▄[0m           [1;30m▄▄[0m        [1;30m▄▄▄▄▄▄▄▄▄[0m

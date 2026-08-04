@@ -1,18 +1,4 @@
-﻿# Converted from: _05_Calendar_2018_May_by_mattmatthew.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_darker_image_2/raw/_05_Calendar_2018_May_by_mattmatthew.ans
-# Source Revision: archive-sha256:7282b405cc52219ce7cf6cd9d097796f1b25fc898e4c29fdb9f37c375d595996
-# Source SHA-256: 1941c45f1507736013e92637faef36540cf73ecbd629ed9f2c2cf988cb24e056
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _05_Calendar_2018_May_by_mattmatthew.ans by mattmatthew (blocktronics); released in blocktronics_darker_image_2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: mattmatthew
-# SAUCE Group: blocktronics
-# SAUCE Date: 20171010
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: _05_Calendar_2018_May_by_mattmatthew.ans by mattmatthew | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-darker-image-2-05-calendar-2018-may-by-mattmatthew
 
 Write-Host '
 [36;40m█▓█▓█▒█ █ ▓ ▓ ▓ ▒ ▒ ░[0m            [1;30;40m▄[0m           [1;30m▄[0m          [36m  ░ ▒ ▒ ▓ ▓ ▓ █▒█▒█▓█▓██[0m

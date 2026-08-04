@@ -1,13 +1,4 @@
-﻿# Converted from: US-INSIS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe04/raw/US-INSIS.ANS
-# Source Revision: archive-sha256:4f0496a9701d4903473a706c6407c52ebc6554ce22b4b35c3cd1e5bc9689ea7f
-# Source SHA-256: 533e77d5a51e19726bfc6008e503b7debb0fb4916db179aa43da3a27b3b957c4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-INSIS.ANS by Arlequin + Otium Man (circe04); released in circe04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: US-INSIS.ANS by Arlequin + Otium Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe04-us-insis
 
 Write-Host '
 [1;30m ▄▀[0m [34m ▀▀▀[0;1;34;44m▄[0;34m▄▄▓▓▀▄[0;33m [0;34m▀▀▄▄█[0;1;34;44m▄▄[0;1;34;47m▓[0;1;34;44m▄[0;34m█▄▄[0;1;34;44m▄[0;34m▀[0;33m ▄ [0;34m▀[0;33m ▄▄▄ [0;34m▀[0;1;34;47m▓▓[0;34m▄▀[0;37m [0;34m█▄[0;37m  [0;34m██[0;1;34;44m▄▄[0;34m▓▓▄▀▀[0m   [36m░░░▓▓██▄▄▄▄▀▀[0;1;36;46m░░░░░[0m

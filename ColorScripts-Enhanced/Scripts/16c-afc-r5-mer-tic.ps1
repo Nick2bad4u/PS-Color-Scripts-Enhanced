@@ -1,13 +1,4 @@
-﻿# Converted from: MER-TIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r5/raw/MER-TIC.ANS
-# Source Revision: raw-sha256:f65f2b39bac942897d69e84c4850b4afe2d62796178876aee48385f8dae5b4c9
-# Source SHA-256: f65f2b39bac942897d69e84c4850b4afe2d62796178876aee48385f8dae5b4c9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MER-TIC.ANS by Mercer (afc-r5); released in afc-r5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: MER-TIC.ANS by Mercer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r5-mer-tic
 
 Write-Host '
               [1;30m▒[0;33m▓▒▒▒[0m

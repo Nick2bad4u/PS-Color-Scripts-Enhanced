@@ -1,18 +1,4 @@
-﻿# Converted from: 22-ACRO4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-37/raw/22-ACRO4.ANS
-# Source Revision: archive-sha256:80363f10709d17331c287999d9ad4e4cac34260721fa508975384b4507a00819
-# Source SHA-256: 95871c610a10f0866c90d6b3a781d04115161509601af6a64cb3d23ddeb45271
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 22-ACRO4.ANS by catch22 (glue); released in glue-37 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: acropolis
-# SAUCE Author: catch22
-# SAUCE Group: glue
-# SAUCE Date: 20020720
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: acropolis by catch22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-37-22-acro4
 
 Write-Host '
   [35m ▄████[0;1;35m▒[0;35m  ▀▀███[0;1;35;45m░░[0;35m█████▄ ▀██████[0;1;35;45m░░░░[0;35m████████████▀▀ ▄[0;1;35;45m░░░[0;35m██[0;30;45m░[0;35;40m▄░[0;34;40m ▀[0;1;34;44m░[0;34m▀  ▄▄[0;1;34;44m░▄██▓▀[0;1;34;40m▀▀[0;34m▀▀[0m

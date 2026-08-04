@@ -1,18 +1,4 @@
-﻿# Converted from: TS-C0RO2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz03feb/raw/TS-C0RO2.ANS
-# Source Revision: archive-sha256:d402090580beb42f827386e6ac87eabae48765a9dcac692e22ff2b8314efb7a2
-# Source SHA-256: a8794b251d18306e4d456f73f859f1aa6f0398be9853dbbaf653b2bf5af148fd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-C0RO2.ANS by tr(ansi)ent ((laz)arus); released in laz03feb and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: (cor)osive
-# SAUCE Author: tr(ansi)ent
-# SAUCE Group: (laz)arus
-# SAUCE Date: 19970107
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: (cor)osive by tr(ansi)ent | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz03feb-ts-c0ro2
 
 Write-Host '
 [33m▄[0;1;31;43m░[0;1;31;40m█[0;1;31;43m░[0;33m▄▌▀                        ▀▐[0;1;31;43m░▒▓▓[0;33m▄   [0;1;31;43m▓▒[0m   [33m▄▄[0m    [33m▄[0;1;31;43m░▒▓▓▒░[0;33m█▓▒░░[0m         [33m░▒▓▓▄▄▄[0m

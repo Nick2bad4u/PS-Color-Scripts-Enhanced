@@ -1,13 +1,4 @@
-﻿# Converted from: LO-QOUT.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-0193/raw/LO-QOUT.ICE
-# Source Revision: archive-sha256:ca05bf2de359182562a4e7329ee29306910e366566e70161c1e1498b079ccf5f
-# Source SHA-256: 77b0af13c434a8d36d282e4e999fb4c02181556db6267f6b237ad10775b52ce9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LO-QOUT.ICE by Logan (ice-0193); released in ice-0193 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: LO-QOUT.ICE by Logan | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-0193-lo-qout-part01
 
 Write-Host '
                  [1;33m▄██████████████████████████████████████████████████████████▄[0m

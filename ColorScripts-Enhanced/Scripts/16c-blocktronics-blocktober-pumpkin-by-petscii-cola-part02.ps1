@@ -1,16 +1,4 @@
-﻿# Converted from: _Pumpkin_by_Petscii_Cola.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_blocktober/raw/_Pumpkin_by_Petscii_Cola.ans
-# Source Revision: archive-sha256:a4249815771be4175829e3af0e1e24a265146879ea43ac19f701d6ebb72fa88f
-# Source SHA-256: 3eb542c6fe7604eea7637d4a54f386f849884089fa962939fba0f309117ed2ac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _Pumpkin_by_Petscii_Cola.ans by Petscii Cola (blocktronics_blocktober); released in blocktronics_blocktober and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20161020
-# SAUCE Dimensions: 80x73
-# SAUCE Font: IBM VGA
-# Lines: 30-73
-# Columns: 1-80
+﻿# Artwork: _Pumpkin_by_Petscii_Cola.ans by Petscii Cola | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blocktober-pumpkin-by-petscii-cola-part02
 
 Write-Host '
            [1m░▓[0;30;107m───[0;1m▓[0m                     [30;42m▓[0;37;40m [0;32;40m▓▓▓▓[0;37;40m  [0;32;40m▒░[0m             [30;107m────[0;1m▓▒[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SM-PRAYR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0495/raw/SM-PRAYR.ANS
-# Source Revision: archive-sha256:93425d63fbf60a9e51bd167f233b1cc6d824b1daa247d08c1db7f22759166ba0
-# Source SHA-256: 679ade18cf1d22dc424de659dd370ac697fa21cdf7aee89ec0501eddd005d6db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-PRAYR.ANS by Smooth (ACiD Productions); released in acdu0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Prayer
-# SAUCE Author: Smooth
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950318
-# SAUCE Dimensions: 80x68
-# Lines: 35-68
-# Columns: 1-80
+﻿# Artwork: Prayer by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0495-sm-prayr-part02
 
 Write-Host '
     [1;33m▄▓■[0m  [1;31m▒[0m   [1;31m [0m  [1;30m▄▄[0;31m▀▀[0;1;31m▀████[0;1;31;47m███[0;1;31;40m██████▀[0;1;31;41m▀[0;1;31;40m████[0;1;31;47m▓▒[0;31m▀[0;1;31m▀ [0m   [31m░[0m   [1;31m [0m [1;31m░[0m  [31m  [0m

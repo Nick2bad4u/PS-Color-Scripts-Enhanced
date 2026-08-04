@@ -1,18 +1,4 @@
-﻿# Converted from: NA-RDLOG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel10/raw/NA-RDLOG.ANS
-# Source Revision: archive-sha256:cf40594777c22d11e0e68ffce1787c226a780219ccff2425f211f05671148899
-# Source SHA-256: 89c4e6c0ccf40c6f37d71f9e2596952e3244efdb96d2bd9978abb47460f87f13
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NA-RDLOG.ANS by Night Angel (Fuel); released in fuel10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: red dawn login
-# SAUCE Author: Night Angel
-# SAUCE Group: Fuel
-# SAUCE Date: 19970129
-# SAUCE Dimensions: 80x25
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: red dawn login by Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel10-na-rdlog
 
 Write-Host '
 [33m░▓█████[0;1;30;43m░[0;33m█[0;1;30;43m  ░░░░   [0;33m█[0;1;30;43m░[0;33m███████████▀▀▀▀[0;1;37m▄▄▄▄[0;1;37;47m██████████▒██████▓████[0;1;37;40m▄[0;1;37;47m░[0m [1;30;43m▓▓▒▒░[0;33m█████████▓[0m

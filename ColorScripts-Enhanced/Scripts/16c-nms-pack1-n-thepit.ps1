@@ -1,20 +1,4 @@
-﻿# Converted from: n(_thepit.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nms_pack1/raw/n(_thepit.ans
-# Source Revision: archive-sha256:f99a1419a85f2107a1ef905f45d33edf79d1a955e17b541807601af9adb4edeb
-# Source SHA-256: 2b01341d45aa64318208b5536dc0e0e205b5ae4c930fb267ac1cd7f1aac33ca5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: n(_thepit.ans by nemesulku (acid rain); released in nms_pack1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Pit logo
-# SAUCE Author: nemesulku
-# SAUCE Group: acid rain
-# SAUCE Date: 19980329
-# SAUCE Dimensions: 80x16
-# SAUCE Font: IBM VGA
-# SAUCE Comments: logo for The Pit bbs, login screen or an ad. can't remember whic | h. - bracket
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: The Pit logo by nemesulku | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nms-pack1-n-thepit
 
 Write-Host '
 [37;40m    [0;1;30;40m░[0m [1mt h e   h o m e[0;1;34m [0;1;30m▒[0m [1mo f[0;1;34m   [0;1;37mv b o a r d[0;1;34m [0;1;37m.[0;1;34m [0;1;37m.[0m [1m.[0m

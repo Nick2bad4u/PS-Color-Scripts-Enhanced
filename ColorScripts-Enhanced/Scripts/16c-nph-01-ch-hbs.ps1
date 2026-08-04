@@ -1,18 +1,4 @@
-﻿# Converted from: CH!-HBS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-01/raw/CH!-HBS.ANS
-# Source Revision: archive-sha256:599cc5d270a4d0147da5f37eff9386c7f67f74a074eb88659d141b05218146e0
-# Source SHA-256: a5c552e043d9c4e40b4c033613bdb0d7ab0813773a1e5fc8db0a1e4cf95d2c91
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CH!-HBS.ANS by ChaoTiC! (.:[nITROPHUSION]:.); released in nph-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: HavOc BeLL SyStEm AnSi!
-# SAUCE Author: ChaoTiC!
-# SAUCE Group: .:[nITROPHUSION]:.
-# SAUCE Date: 19970310
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: HavOc BeLL SyStEm AnSi! by ChaoTiC! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-01-ch-hbs
 
 Write-Host '
 

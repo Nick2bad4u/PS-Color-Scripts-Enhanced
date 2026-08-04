@@ -1,18 +1,4 @@
-﻿# Converted from: RS-APP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9708/raw/RS-APP.ANS
-# Source Revision: archive-sha256:3376fc365de5181233b813e877de1cd710dc83f3caddf0e27d10d8d02107f39f
-# Source SHA-256: 7e831927c4dabe82a1fd7e58801b0f04f052010f31dd61540360ded70135efe0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-APP.ANS by rorshack (Maiden Brazil); released in mdn-9708 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: quick app for hell's gate
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19970729
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: quick app for hell's gate by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9708-rs-app
 
 Write-Host '
 [1;30m[0m[1;30m[0m

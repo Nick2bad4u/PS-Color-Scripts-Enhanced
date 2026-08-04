@@ -1,18 +1,4 @@
-﻿# Converted from: IZE-NAOC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0302/raw/IZE-NAOC.ANS
-# Source Revision: archive-sha256:7b2619e0400d7382d19d38767873337eae71942dd319abc1998c71f4a968776f
-# Source SHA-256: 0ea5a47b436a26243f7513595655c1b46bd267a32050d1d1d39f516221eada42
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZE-NAOC.ANS by ize (Revival); released in rev0302 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Naoc
-# SAUCE Author: ize
-# SAUCE Group: Revival
-# SAUCE Date: 20020315
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Naoc by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0302-ize-naoc
 
 Write-Host '
 

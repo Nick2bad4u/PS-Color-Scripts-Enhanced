@@ -1,18 +1,4 @@
-﻿# Converted from: RIV!TTKA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p04_99/raw/RIV!TTKA.ANS
-# Source Revision: archive-sha256:cd066a8b285d053fbbb486eff8330d19131344b04ff06cb6d38dc7a1da8cad61
-# Source SHA-256: b246dd6671c2ec5cd64848ad9277d9a180615c78a511628a65e066c8a246acde
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RIV!TTKA.ANS by Riven (Thelo0p); released in l0p04_99 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Ta-Ta-nKa Klan ;)
-# SAUCE Author: Riven
-# SAUCE Group: Thelo0p
-# SAUCE Date: 19991020
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Ta-Ta-nKa Klan ;) by Riven | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p04-99-riv-ttka
 
 Write-Host '
 [1m        [0m         [1m            [0m [35m [0m      [35;44m░[0m        [35;40m [0m

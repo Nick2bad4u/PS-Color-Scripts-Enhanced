@@ -1,18 +1,4 @@
-﻿# Converted from: M2-GRAPE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shade5/raw/M2-GRAPE.ANS
-# Source Revision: archive-sha256:9eb97f9412f63f0ce4837a80894f87a3aed455c1487394481c6e40b531c2203d
-# Source SHA-256: 838039cac04280ecda19031d752516579d88b05379fa78a9707894d92d2c2264
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M2-GRAPE.ANS by milkman (shade); released in shade5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: grape
-# SAUCE Author: milkman
-# SAUCE Group: shade
-# SAUCE Date: 19970224
-# SAUCE Dimensions: 80x50
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: grape by milkman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shade5-m2-grape
 
 Write-Host '
          ▄▄[1m▄[0;1;47m▄▄▄▌[0m [1;47m▐[0;1;40m█████[0;1;47m████████▀▀▀██████████[0;1;40m███████████████████████[0;1;47m▄▄[0;1;40m▄[0m▄▄

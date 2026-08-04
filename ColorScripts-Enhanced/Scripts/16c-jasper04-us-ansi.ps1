@@ -1,18 +1,4 @@
-﻿# Converted from: us-ansi.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper04/raw/us-ansi.ans
-# Source Revision: archive-sha256:80df5b962e79c7e1df6d776b244f2783526ab7713c133db68d5f1c8d518678b1
-# Source SHA-256: d848157155a7f59db8515933b508b0280e110b240b6fefb5e61f2a7687aff3f1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-ansi.ans by Aesthetic + Avenging Angel (jasper); released in jasper04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: "ANSI"
-# SAUCE Author: avg & 43
-# SAUCE Group: jasper
-# SAUCE Date: 20020321
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: "ANSI" by Aesthetic + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper04-us-ansi
 
 Write-Host '
 [1m▒▒[0;1;34m▒[0m     [1;32m░░[0m     [34m███▄[0m          [34m░▓[0;1;34;44m░ [0;34m▄▄[0m     [34m░▓█[0;1;34;44m░▒[0;34m█▓▒░[0m       [35m [0;37m [0;34m ░░▓▓██[0;1;34;44m░▓█████[0;34m█▀[0m

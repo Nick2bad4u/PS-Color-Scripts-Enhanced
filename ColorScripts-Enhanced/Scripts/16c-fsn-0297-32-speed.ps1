@@ -1,18 +1,4 @@
-﻿# Converted from: 32-SPEED.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0297/raw/32-SPEED.ANS
-# Source Revision: archive-sha256:d5e6767ccf66425c243bc55fc2b60157e4842e0dca350575e42372c154569008
-# Source SHA-256: 9697c8653d9588a6c4da23aa14af73afba743cdac430b1fddbd730a16de5219a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 32-SPEED.ANS by ezy (fusion\fluid); released in fsn-0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: speed loader
-# SAUCE Author: ezy
-# SAUCE Group: fusion\fluid
-# SAUCE Date: 19970124
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: speed loader by ezy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0297-32-speed
 
 Write-Host '
 

@@ -3,7 +3,10 @@
 Permission attestation
 ----------------------
 
-The scripts are used under fair use as this project is a non-commercial, educational, and archival gallery of 16colors artwork.
+On 2026-07-22, the maintainer confirmed that permission was granted by the
+artists, rightsholders, or an authorized representative for use in this
+project. This project relies on that permission, not on an assertion that
+archived artwork is freely licensed or covered by fair use.
 
 Project-specific scope
 ----------------------
@@ -13,10 +16,15 @@ ps-color-scripts-enhanced, conversion of ANSI or ICE streams into safe
 PowerShell colorscripts, and logical vertical or horizontal splitting needed
 to fit the gallery. Artist attribution remains required.
 
-Each imported file header and ArtworkProvenance.psd1 entry identify the
-original artist, group and pack when known, canonical source URL, source and
-rendered SHA-256 checksums, conversion details, and source coordinates for
-split works.
+Each imported file header preserves an offline-readable title and artist
+attribution plus a script-scoped link to the complete record. Group, pack,
+canonical source URL, source checksum, license reference, rendered SHA-256
+checksums, conversion details, and split coordinates are maintained outside
+the published module at:
+
+https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html
+
+https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/audit/ArtworkProvenance.psd1
 
 Limitations
 -----------

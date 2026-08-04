@@ -1,18 +1,4 @@
-﻿# Converted from: LF-BLEAK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9608/raw/LF-BLEAK.ANS
-# Source Revision: archive-sha256:85bb83b3d462d5b00a0e7d3a1bfbe68490ac5737682c9ce44c52faa33ffa6a2b
-# Source SHA-256: 3dcc978251437ec825c76e0378237d244abd5795dbe4c93a436f786677527912
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LF-BLEAK.ANS by lucifer (blade productions); released in blde9608 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: bleack logo
-# SAUCE Author: lucifer
-# SAUCE Group: blade productions
-# SAUCE Date: 19960507
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: bleack logo by lucifer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9608-lf-bleak
 
 Write-Host '
                       [35m▄▄▄▄[0m

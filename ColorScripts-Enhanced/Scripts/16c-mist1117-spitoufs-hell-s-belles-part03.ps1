@@ -1,18 +1,4 @@
-﻿# Converted from: SPITOUFS-HELL'S_BELLES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1117/raw/SPITOUFS-HELL'S_BELLES.ANS
-# Source Revision: archive-sha256:979768c9a54f8ce85946b9c9bdf7d87c21099fb07a78a5c5970be22e943a4c52
-# Source SHA-256: edb862b5b8afcdb31d696a7a1bb41d3e6dba43708f8cf999f70cd7fd52fe7706
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPITOUFS-HELL'S_BELLES.ANS by Spitoufs (Mistigris); released in mist1117 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Hell's Belles
-# SAUCE Author: Spitoufs
-# SAUCE Group: Mistigris
-# SAUCE Date: 20161122
-# SAUCE Dimensions: 80x124
-# Lines: 84-124
-# Columns: 1-80
+﻿# Artwork: Hell's Belles by Spitoufs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1117-spitoufs-hell-s-belles-part03
 
 Write-Host '
 [30;41m▒▒▓█▓█[0;32;40m█████ █[0;1;33;42m░░[0;32m█  ██[0;1;33;42m░░[0;31m█[0;32m█████[0;30;41m░▒▓▒▒[0;32;40m ████[0;30;41m▓▓▓[0;32;40m ████[0;30;41m░░░▓[0;32;40m█████[0;30;41m██████[0;31;40m▀▓[0;30;41m▓███████[0;1;31;40m▄[0;30;41m█[0;32;40m██████[0m

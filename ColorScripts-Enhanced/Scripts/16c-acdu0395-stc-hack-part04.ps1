@@ -1,18 +1,4 @@
-﻿# Converted from: STC-HACK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0395/raw/STC-HACK.ANS
-# Source Revision: archive-sha256:c61de425dfa6c17c15d8c7a3f501188ae0f41871982f3a874a318b2cadecd44e
-# Source SHA-256: 587b6c4b00bed43dc7debde370ede9fda6ee083528610c3e253a60f2f05932a4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STC-HACK.ANS by Stone The Crow (ACiD Productions); released in acdu0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Hack Shack
-# SAUCE Author: Stone The Crow
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950301
-# SAUCE Dimensions: 80x183
-# Lines: 142-183
-# Columns: 1-80
+﻿# Artwork: Hack Shack by Stone The Crow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0395-stc-hack-part04
 
 Write-Host '
            [33m▀[0m      [33m▄▄▀[0m   [33m ▀██[0;1;33;43m░[0;33m▀▌[0m

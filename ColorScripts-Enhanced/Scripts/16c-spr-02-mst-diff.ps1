@@ -1,13 +1,4 @@
-﻿# Converted from: MST!DIFF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spr_02/raw/MST!DIFF.ANS
-# Source Revision: archive-sha256:de213db32bec9e7b234598875579e360fcbdfa4c59f3f92173fe1b75c68a8cff
-# Source SHA-256: 9236898b46c01c7e1407720f4859292b1c7effe7672690c929655cf625b4e902
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MST!DIFF.ANS by Mist (spr_02); released in spr_02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: MST!DIFF.ANS by Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spr-02-mst-diff
 
 Write-Host '
                              [33m■[0m      [33m■[0m

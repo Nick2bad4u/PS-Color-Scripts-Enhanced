@@ -1,13 +1,4 @@
-﻿# Converted from: TE-MAXS1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9702a/raw/TE-MAXS1.ICE
-# Source Revision: archive-sha256:540831d4e1a356189219ffbceaa28d97157e006639aca48afc56a145bd0d4c8c
-# Source SHA-256: 5b13c9133fea15a9d9cb4d5763417458fcfee51ef3abdc0578b1883c8e0918ff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-MAXS1.ICE by Tetanus (ice9702a); released in ice9702a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: TE-MAXS1.ICE by Tetanus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9702a-te-maxs1
 
 Write-Host '
 [35m ░ [0m     [1;35m▀▀█▄▄  ▄[0;1;35;45m▓[0m [1;33m▀[0;1;33;43m▓[0;1;33;40m███[0;1;33;43m▓▓[0;1;33;40m▄▄██████▀▄[0;1;33;43m▓▓[0;1;33;40m█████▄▄[0;1;33;43m▓▓[0;1;33;40m██▀▀[0;35m▄▄▓▓▓███████[0;1;35;45m░░░░▒▒▒▓▓[0;1;35;40m▄▄   ▄▄[0;1;35;47m▒░[0m

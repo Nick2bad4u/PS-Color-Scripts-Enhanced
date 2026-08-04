@@ -1,19 +1,4 @@
-﻿# Converted from: sm-raidersinc.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel28/raw/sm-raidersinc.ans
-# Source Revision: archive-sha256:f19d9f1f4d98a894d9a58a43443858287108d50e702695e0859df539776cf44a
-# Source SHA-256: 5b71e34f15d2f0ae94293f1b8ce3aaef66d766176e50dc29b3ab2d16abc20f4f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sm-raidersinc.ans by Smooth (Fuel); released in fuel28 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Raider's Inc BBS
-# SAUCE Author: Smooth
-# SAUCE Group: Fuel
-# SAUCE Date: 20181227
-# SAUCE Dimensions: 80x93
-# SAUCE Font: IBM VGA
-# Lines: 48-93
-# Columns: 1-80
+﻿# Artwork: Raider's Inc BBS by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel28-sm-raidersinc-part02
 
 Write-Host '
   [47m█   [0;40m▀[0;47m      [0;31;47m                [0;37;47m  [0;30;47m▀[0;37;47m  [0;37;40m▄[0;1;30;47m▒▒░░[0;47m              [0;32;47m▒▓▓▄▄▄[0;37;47m               [0;33;47m▓▓▓[0;37;47m [0m

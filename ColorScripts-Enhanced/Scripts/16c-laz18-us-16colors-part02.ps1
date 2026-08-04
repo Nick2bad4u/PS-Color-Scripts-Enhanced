@@ -1,19 +1,4 @@
-﻿# Converted from: us-16colors.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz18/raw/us-16colors.ans
-# Source Revision: archive-sha256:32d30452c4c99022fae4fa2ce9a2923ef46629d3ff7dd35a972944a991699c1f
-# Source SHA-256: 78d7ed47cfd4114237ce54ffc4bd0eabcff67bb43def6df69e7307c7dff86c4f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-16colors.ans by Warpus + Nitron (lazarus); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 16 Serpents
-# SAUCE Author: nitron warpus
-# SAUCE Group: lazarus
-# SAUCE Date: 20240107
-# SAUCE Dimensions: 80x132
-# SAUCE Font: Default
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: 16 Serpents by Warpus + Nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz18-us-16colors-part02
 
 Write-Host '
 [37m         [0;1;30m░[0;31m▒▓████[0;35;41m░▒▓[0;35;40m██[0;35;42m▓▒▒▒░[0;32;40m████[0;1;37;42m░▒▒▓▓▓██[0;1;37;40m███████████████████[0;1;37;46m█▓▒▒░░[0;36m██▄[0m

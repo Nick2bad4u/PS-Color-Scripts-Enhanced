@@ -1,18 +1,4 @@
-﻿# Converted from: US-IFX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden13/raw/US-IFX.ANS
-# Source Revision: archive-sha256:70e231ea8653cd02d349f122b1a39f57757322f3913b0c8f20698b54c8795e68
-# Source SHA-256: 40ef51ff2cce96e6dbaac50966110ee95e098255af38c4d80c3c5fd81ece85f9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-IFX.ANS by Soul Stalker + Bugs Bunny (maiden_brazilis); released in maiden13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: iRon fox matrix?!#!@
-# SAUCE Author: Multiple Artists
-# SAUCE Group: maiden_brazilis
-# SAUCE Date: 19971012
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: iRon fox matrix?!#!@ by Soul Stalker + Bugs Bunny | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden13-us-ifx
 
 Write-Host '
 [1;34m [0;34m▄[0;30;44m░[0;34;40m▀▀▀[0;1;37;40m  [0m                     [1m     [0;34m▄[0;1;34;44m░[0m [1;34;44m▓[0m     [1;34m▄▄[0;1;34;44m▓▒░[0;34m▀▀▀[0;1;34;44m░░▒▒[0;1;34;40m▄[0m [1;31m░░  [0m [31m▀[0;1;31m▀▀▀[0;1;31;41m▀[0;1;31;47m▓▓[0;1;31;40m██[0;31m░░[0m

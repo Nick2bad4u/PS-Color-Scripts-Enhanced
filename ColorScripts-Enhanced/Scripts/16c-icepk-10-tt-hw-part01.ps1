@@ -1,13 +1,4 @@
-﻿# Converted from: TT-HW.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-10/raw/TT-HW.ICE
-# Source Revision: archive-sha256:bf182b3a4a3821f59456de515e0caeefdf153f2040b433c6321d39d23c909d77
-# Source SHA-256: d14973bdc2f3b7d1a8f30391e477f700a070f3b91ef68716f3f37fd1f11fb52a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TT-HW.ICE by Tempus Thales (icepk-10); released in icepk-10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: TT-HW.ICE by Tempus Thales | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-10-tt-hw-part01
 
 Write-Host '
                                                             [34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

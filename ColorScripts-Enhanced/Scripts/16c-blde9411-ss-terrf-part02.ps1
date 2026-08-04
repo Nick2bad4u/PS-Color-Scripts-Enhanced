@@ -1,18 +1,4 @@
-﻿# Converted from: SS-TERRF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9411/raw/SS-TERRF.ANS
-# Source Revision: archive-sha256:79cc4c8f449f9f4069fbe5b152a1416ccd968354ad63ab0dfce361f0f42f13a8
-# Source SHA-256: 4691af9c4ff7e7458807c2a58d30dddb8f6962f27a1adb36d165d4dadbfd461b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SS-TERRF.ANS by Soul Seeker (Blade Productions); released in blde9411 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Terra Firma Advertisement
-# SAUCE Author: Soul Seeker
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19941027
-# SAUCE Dimensions: 80x25
-# Lines: 51-99
-# Columns: 1-80
+﻿# Artwork: Terra Firma Advertisement by Soul Seeker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9411-ss-terrf-part02
 
 Write-Host '
 [37m    [0;33m█  ██▀▀▀[0m                 [33m▀▒▄ ░ [0;1;30;43m░[0;33m▀ ░░ ▀ ▒░[0m                 [1;30m▀▀▀[0;33m█[0;1;30;43m░[0;33m▓ █[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: PHB-SPLS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0496/raw/PHB-SPLS.ANS
-# Source Revision: archive-sha256:9fb4b1757bdb5b2d8b6612a644ec54aa19d509c5d6be8e96f657255031b4504b
-# Source SHA-256: bab1a2efa8b7d573200e07a9a989e7b170048495c41e660117ed4c9547ef7185
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PHB-SPLS.ANS by Phobic (bmb-0496); released in bmb-0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: PHB-SPLS.ANS by Phobic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0496-phb-spls
 
 Write-Host '
 

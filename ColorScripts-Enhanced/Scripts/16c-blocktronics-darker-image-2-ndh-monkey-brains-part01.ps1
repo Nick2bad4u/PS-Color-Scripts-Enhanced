@@ -1,19 +1,4 @@
-﻿# Converted from: ndh-Monkey-Brains.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_darker_image_2/raw/ndh-Monkey-Brains.ans
-# Source Revision: archive-sha256:7282b405cc52219ce7cf6cd9d097796f1b25fc898e4c29fdb9f37c375d595996
-# Source SHA-256: e168fa623ae44408dcde848b942b52f5e64de1412d21fabfcf901e0853edafad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ndh-Monkey-Brains.ans by Andy Herbert (Blocktronics); released in blocktronics_darker_image_2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Monkey Brains
-# SAUCE Author: Andy Herbert
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20170417
-# SAUCE Dimensions: 80x52
-# SAUCE Font: IBM VGA
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Monkey Brains by Andy Herbert | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-darker-image-2-ndh-monkey-brains-part01
 
 Write-Host '
 

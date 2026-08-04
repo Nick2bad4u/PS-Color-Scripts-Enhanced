@@ -1,17 +1,4 @@
-﻿# Converted from: DT-RST2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9609/raw/DT-RST2.ANS
-# Source Revision: archive-sha256:96c031e04e5c479ef9ed73f1afa21a3db6bca2a2de7ad88a46888136232884ff
-# Source SHA-256: 4b84262db0b69691581c15eca98bca4cd3001a7301c557d649cdfdda3c5db6ab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-RST2.ANS by Defiant (Samsara); released in sms-9609 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Rust
-# SAUCE Author: Defiant
-# SAUCE Group: Samsara
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Rust by Defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9609-dt-rst2
 
 Write-Host '
 [30;43m░[0;33;40m███[0;1;31;43m▓[0;1;31;40m██▀████▀▀▀▀▀▀[0;1;31;43m██▓[0;1;31;40m█[0;1;31;43m▓▓▒▒▒░░░  [0;33m████[0;30;43m░░[0;33;40m▌ ░ [0;1;37;47m░[0m███ █[1;47m█[0m█ ▐██████[1;47m░[0m██▄ ▀██[1;47m░[0m█▄▄ ▀ █[1;47m▄[0m▄

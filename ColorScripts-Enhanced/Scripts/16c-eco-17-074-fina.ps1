@@ -1,18 +1,4 @@
-﻿# Converted from: 074-FINA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-17/raw/074-FINA.ANS
-# Source Revision: archive-sha256:8236759fde5db8ee2caeed4c8b472252ce9b47375d97816d78339cb82ea8285c
-# Source SHA-256: 12d698073288680060d30c38b359c011daf2ef1b5dfde522fbd59cfdf49806d5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 074-FINA.ANS by lemon1zer (ecolove); released in eco-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: final notes
-# SAUCE Author: lemon1zer
-# SAUCE Group: ecolove
-# SAUCE Date: 19991230
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: final notes by lemon1zer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-17-074-fina
 
 Write-Host '
 [33m[0;37m[0;33m[0m

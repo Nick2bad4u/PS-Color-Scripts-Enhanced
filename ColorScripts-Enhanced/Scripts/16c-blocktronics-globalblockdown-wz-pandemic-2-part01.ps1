@@ -1,19 +1,4 @@
-﻿# Converted from: wz_pandemic_2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-globalblockdown/raw/wz_pandemic_2.ans
-# Source Revision: archive-sha256:72def6914c400cf448198b2a3876b5414476d859652144a1c3db260cf8838ba8
-# Source SHA-256: 66e527ec0ac1412f6fab2cc04c6e424f349ea80284da51409e812d2a1910f022
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wz_pandemic_2.ans by Whazzit (Blocktronics); released in blocktronics-globalblockdown and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Pandemic 2 - Unto the Breach
-# SAUCE Author: Whazzit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20200430
-# SAUCE Dimensions: 80x100
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Pandemic 2 - Unto the Breach by Whazzit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-globalblockdown-wz-pandemic-2-part01
 
 Write-Host '
 

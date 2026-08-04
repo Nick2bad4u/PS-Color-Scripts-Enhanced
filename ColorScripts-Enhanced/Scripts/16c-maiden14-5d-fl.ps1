@@ -1,18 +1,4 @@
-﻿# Converted from: 5D-FL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden14/raw/5D-FL.ANS
-# Source Revision: archive-sha256:8484fc17833e455250727f80fdc56cc19e17aec4fba2f82e3b86585a9e08cb6c
-# Source SHA-256: 1e348294e50a9dcb3f114572f8c206a56236a3c8087bb74de591214b0650784c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5D-FL.ANS by slayer dreams (maidennnnnnn!); released in maiden14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: maiden logoo!
-# SAUCE Author: slayer dreams
-# SAUCE Group: maidennnnnnn!
-# SAUCE Date: 19971105
-# SAUCE Dimensions: 80x15
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: maiden logoo! by slayer dreams | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden14-5d-fl
 
 Write-Host '
 

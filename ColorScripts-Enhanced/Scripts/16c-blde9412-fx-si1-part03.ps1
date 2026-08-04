@@ -1,18 +1,4 @@
-﻿# Converted from: FX-SI1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9412/raw/FX-SI1.ANS
-# Source Revision: archive-sha256:b41d15e15138a70f793bdbf1405cc315054550aa9ff9ddbf322f906870d2a6d0
-# Source SHA-256: 30af179923facc4ceb596f99199e1f0a6327ad976f6d4b0bb89d383ca56da576
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FX-SI1.ANS by Facsimile (Blade Productions); released in blde9412 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Shattered Images
-# SAUCE Author: Facsimile
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19941116
-# SAUCE Dimensions: 80x25
-# Lines: 101-150
-# Columns: 1-80
+﻿# Artwork: Shattered Images by Facsimile | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9412-fx-si1-part03
 
 Write-Host '
 [1;36;46m░▒░░▒▒▓▒▒▒▓▒▓[0;1;36;40m█[0;1;36;46m▓▓[0;1;36;40m█[0;1;36;46m▒▒[0;1;36;40m█▄▀▀[0;1;36;46m▒[0;1;36;40m▄[0m [1;34;40m▐[0;1;34;44m▓░[0m [1;34;40m■[0;34m░[0m  [1;34m█[0;1;34;44m▒[0m  [34m░[0m  [1;34m░[0m     [1;34m░[0m [34m░[0m  [1;34m░[0m     [1;34m▓[0m  [1;34;44m▓▒▓[0;1;34;40m▀▀[0m      [34m▒[0;1;30m░▓█[0m  [1;34;44m▓░[0m

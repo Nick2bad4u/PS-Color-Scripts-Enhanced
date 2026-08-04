@@ -1,18 +1,4 @@
-﻿# Converted from: RI-S7.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9604a/raw/RI-S7.ICE
-# Source Revision: archive-sha256:a8f8a3430f1223583f5ba829d23fcb523e4712909ac7211db98ebd0249624ef2
-# Source SHA-256: 0b0796c4665767d0a1b95c1d549098d20ad287408c9ecc11db3d4ee3ed9b5a9d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RI-S7.ICE by rai (ice); released in ice9604a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: saturn 7
-# SAUCE Author: rai
-# SAUCE Group: ice
-# SAUCE Date: 19960427
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: saturn 7 by rai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9604a-ri-s7
 
 Write-Host '
 [34m█████▌▐███████▀[0;1;31m ▄[0;1;31;43m▄[0;1;31;40m█████[0;1;31;43m▓[0;33m▌[0;34m▐█████████▓ [0;1;31m█████████ [0;1;34;47m▓[0;1;34;44m  [0;34m███████[0;1;34;44m░░░[0;34m░[0;1;31m█████████████▄ [0;1;34m█[0;34m███[0m

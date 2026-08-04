@@ -1,19 +1,4 @@
-﻿# Converted from: MM-BROKENRIGHT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/MM-BROKENRIGHT.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: daa0ad8cad86725fe56d9c52283e52b72b129fc7b6daaf25b7e3dac43063c6f0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-BROKENRIGHT.ANS by Mavenmob (Mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Broken In All The Right Places
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241228
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Broken In All The Right Places by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-mm-brokenright
 
 Write-Host '
 █[107m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░[0m [107m▓[0;1m▀▀▀[0;107m░[0m [107m░[0m [1;33m°[0m [107m░[0;1m▀▄[0;107m▓▓▓[0;1;33;107m▓[0;1;35;44m▓[0;1;33;40m°[0;107m░░░░[0;1;35;44m░[0;30m░▓▓[0;37;107m▓▓░░░░░░[0;30m░░[0;1;33m*[0;30m░[0;37;107m░▓▓▓▓░[0;1m▀▀▀▄▄▄▄▄▄[0m

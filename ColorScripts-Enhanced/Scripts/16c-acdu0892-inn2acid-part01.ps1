@@ -1,13 +1,4 @@
-﻿# Converted from: INN2ACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0892/raw/INN2ACID.ANS
-# Source Revision: archive-sha256:14bcca9d3edaab7b8929bb1c3df270abeebca1720c862cdfff0859ed6d69dd7d
-# Source SHA-256: c826fb7bf6751d9157dc2fdcd196833c129437b484680f86a6d208ee26129814
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: INN2ACID.ANS by Tank (acdu0892); released in acdu0892 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: INN2ACID.ANS by Tank | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0892-inn2acid-part01
 
 Write-Host '
   [1;37;40m▄▄[0;1;37;47m▓▒░[0;30;47m [0;1;30;47m░▒▓[0;1;30;40m▄▄[0m

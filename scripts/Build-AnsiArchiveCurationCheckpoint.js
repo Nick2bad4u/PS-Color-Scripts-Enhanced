@@ -7,19 +7,16 @@ const {
     assertCheckpointCurrent,
     reconcileImportedDisposition,
 } = require("./AnsiCheckpointValidation.js");
+const { readArtworkProvenance } = require("./ArtworkProvenance.js");
 
 const root = path.resolve(__dirname, "..");
 const auditRoot = path.join(root, "temp", "ansi-archive-audit-full");
 const checkpointPath = path.join(
     root,
-    "ColorScripts-Enhanced",
+    "audit",
     "AnsiArchiveCurationCheckpoint.json"
 );
-const provenancePath = path.join(
-    root,
-    "ColorScripts-Enhanced",
-    "ArtworkProvenance.psd1"
-);
+const provenancePath = path.join(root, "audit", "ArtworkProvenance.psd1");
 const historicalReconciliationPath = path.join(
     auditRoot,
     "promotion-reconciliation-1990-2003-29ea5150.json"
@@ -28,7 +25,11 @@ const modernReconciliationPath = path.join(
     auditRoot,
     "promotion-reconciliation-2004-2026-29ea5150-head46e21e04.json"
 );
-const reportPath = path.join(root, "temp", "final-checkpoint-build-report.json");
+const reportPath = path.join(
+    root,
+    "temp",
+    "final-checkpoint-build-report.json"
+);
 const detailedReportPath = path.join(
     root,
     "temp",
@@ -68,7 +69,9 @@ for (const entry of supplementalVisualReview.entries) {
         throw new Error("Supplemental visual-review entry is malformed.");
     }
     if (supplementalVisualReviewById.has(entry.id)) {
-        throw new Error(`Duplicate supplemental visual review for ${entry.id}.`);
+        throw new Error(
+            `Duplicate supplemental visual review for ${entry.id}.`
+        );
     }
     supplementalVisualReviewById.set(entry.id, entry);
 }
@@ -86,44 +89,31 @@ function normalizeSourceKey(year, sourceFile) {
     return `${year}\0${sourceFile.replaceAll("\\", "/").toLowerCase()}`;
 }
 
-function getQuotedProperty(block, propertyName) {
-    const expression = new RegExp(
-        `^ {12}${propertyName}\\s*=\\s*'((?:[^']|'')*)'\\r?$`,
-        "mu"
-    );
-    const match = expression.exec(block);
-    return match ? match[1].replaceAll("''", "'") : null;
-}
-
-const provenanceText = fs.readFileSync(provenancePath, "utf8");
 const provenanceEntries = [];
-for (const match of provenanceText.matchAll(
-    /^ {8}'((?:[^']|'')+)' = @\{\r?\n([\s\S]*?)^ {8}\}\r?$/gmu
-)) {
-    const block = match[2];
-    if (getQuotedProperty(block, "Collection") !== "16colors-permitted") {
+for (const [name, provenance] of readArtworkProvenance(provenancePath)
+    .scripts) {
+    if (provenance.Collection !== "16colors-permitted") {
         continue;
     }
-    const archiveUrl = getQuotedProperty(block, "ArchiveUrl");
-    const yearMatch = /\/archive\/(\d{4})\//u.exec(archiveUrl || "");
+    const archiveUrl = provenance.ArchiveUrl;
+    const yearMatch = /\/archive\/(\d{4})\//u.exec(
+        typeof archiveUrl === "string" ? archiveUrl : ""
+    );
     if (!yearMatch) {
         throw new Error(
-            `${match[1]}: cannot derive the archive year from ${archiveUrl}.`
+            `${name}: cannot derive the archive year from ${String(archiveUrl)}.`
         );
     }
     const entry = {
-        name: match[1].replaceAll("''", "'"),
+        name,
         archiveYear: Number(yearMatch[1]),
-        sourceFile: getQuotedProperty(block, "SourceFile"),
-        sourceUrl: getQuotedProperty(block, "SourceUrl"),
-        sourceSha256: getQuotedProperty(block, "SourceSha256"),
-        renderSha256: getQuotedProperty(block, "RenderSha256"),
-        normalizedRenderSha256: getQuotedProperty(
-            block,
-            "NormalizedRenderSha256"
-        ),
-        sourceRows: getQuotedProperty(block, "SourceRows"),
-        sourceColumns: getQuotedProperty(block, "SourceColumns"),
+        sourceFile: provenance.SourceFile,
+        sourceUrl: provenance.SourceUrl,
+        sourceSha256: provenance.SourceSha256,
+        renderSha256: provenance.RenderSha256,
+        normalizedRenderSha256: provenance.NormalizedRenderSha256,
+        sourceRows: provenance.SourceRows,
+        sourceColumns: provenance.SourceColumns,
     };
     for (const property of [
         "sourceFile",
@@ -210,7 +200,9 @@ for (const work of works) {
             throw new Error(`${script.name}: output exceeds 50 source rows.`);
         }
         if (columns.end - columns.start + 1 > 120) {
-            throw new Error(`${script.name}: output exceeds 120 source columns.`);
+            throw new Error(
+                `${script.name}: output exceeds 120 source columns.`
+            );
         }
         verifiedGeometryCount += 1;
         const siblings = scriptsByColumns.get(script.sourceColumns) || [];
@@ -389,7 +381,9 @@ for (let year = 1990; year <= 2026; year += 1) {
         let disposition = candidate.disposition;
         if (work) {
             if (candidate.analysis?.sourceSha256 !== work.sourceSha256) {
-                throw new Error(`${key}: report/provenance source hash mismatch.`);
+                throw new Error(
+                    `${key}: report/provenance source hash mismatch.`
+                );
             }
             disposition = reconcileImportedDisposition(
                 key,
@@ -587,10 +581,7 @@ const totals = {
     completedYearCount: years.length,
     ...apiInventory,
     packCount: years.reduce((sum, year) => sum + year.packCount, 0),
-    candidateCount: years.reduce(
-        (sum, year) => sum + year.candidateCount,
-        0
-    ),
+    candidateCount: years.reduce((sum, year) => sum + year.candidateCount, 0),
     importedWorkCount: works.length,
     emittedScriptCount: provenanceEntries.length,
     acceptedSourceCount: acceptedSources.length,
@@ -632,12 +623,12 @@ if (visualReview.acceptedWithoutReviewEvidenceCount !== 0) {
 }
 
 const royProvenanceCount = [
-    ...provenanceText.matchAll(
-        /^ {12}Collection\s*=\s*'roy-sac'\r?$/gmu
-    ),
+    ...provenanceText.matchAll(/^ {12}Collection\s*=\s*'roy-sac'\r?$/gmu),
 ].length;
 if (royProvenanceCount !== oldCheckpoint.roy.emittedScriptCount) {
-    throw new Error("Roy emitted-script checkpoint no longer matches provenance.");
+    throw new Error(
+        "Roy emitted-script checkpoint no longer matches provenance."
+    );
 }
 
 const output = {

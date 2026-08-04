@@ -1,18 +1,4 @@
-﻿# Converted from: PC-REMIX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst0197/raw/PC-REMIX.ANS
-# Source Revision: archive-sha256:ae2e28b8586d130270e3228e244431c192402b6d4f91b568fcc66095460d75be
-# Source SHA-256: 51c224ee72f76b3234f3c35fb4eb7d5fbf375b0c039b168b77b6b824addc937d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-REMIX.ANS by pcar (TWISTED); released in twst0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: remix, amnesia
-# SAUCE Author: pcar
-# SAUCE Group: TWISTED
-# SAUCE Date: 19961223
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: remix, amnesia by pcar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst0197-pc-remix
 
 Write-Host '
         [1;32m   [0m   [31m▄▄▄[0;1;32m [0m            [32m  ▄██▀████▀▀[0;1;30;42m░░[0;32m██▀▀[0;1;30;42m░░[0;32m▌░[0;1;35;42m▓▓[0;1;35;45m▓▓▒▒░░ ░   [0;35m█▀▄█[0;1;35;45m  [0;35m▀▀ ▄▄[0;1;35;45m   [0;31;45m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PL-BLEND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr034/raw/PL-BLEND.ANS
-# Source Revision: archive-sha256:1aea9639b0911bb795021897beaee26a8d94f394c47c94b0d80d8cb14e06249f
-# Source SHA-256: a6d2d0375f2fdd75f395ec3997f2db196e6fe80df46d271b3249a138c6523b01
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PL-BLEND.ANS by pussylover (fACt!); released in blndr034 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: constribution for blender#34
-# SAUCE Author: pussylover
-# SAUCE Group: fACt!
-# SAUCE Date: 19970717
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: constribution for blender#34 by pussylover | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr034-pl-blend
 
 Write-Host '
 [34m████[0;1;34;44m░░░░░[0;34m████████████████████████[0;1;34;44m▓▄▄▄▄▄▄█▄[0;1;36;44m [0;1;32;44m [0;1;36;44m  [0;1;32;44m       [0;1;36;44m     [0;1;32;44m      [0;1;36;44m        [0;1;32;44m        [0m

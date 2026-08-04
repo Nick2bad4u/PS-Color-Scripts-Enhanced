@@ -1,13 +1,4 @@
-﻿# Converted from: DX!-FIL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oops_a04/raw/DX!-FIL2.ANS
-# Source Revision: archive-sha256:152751703632084c3874f4d0774968181737168c5892dd20cae40e0ac76659c9
-# Source SHA-256: 4004189d19a3b8a4eac8943a96576bd408ef37259bbb6f425be1b8d309e82005
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DX!-FIL2.ANS by Drax (oops_a04); released in oops_a04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: DX!-FIL2.ANS by Drax | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oops-a04-dx-fil2
 
 Write-Host '
            [dx]      [1m    .oi  io.    [0m                        [1m [0m       [1m    .oi [0m

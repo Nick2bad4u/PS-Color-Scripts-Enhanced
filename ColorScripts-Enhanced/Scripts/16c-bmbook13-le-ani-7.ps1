@@ -1,18 +1,4 @@
-﻿# Converted from: LE-ANI#7.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook13/raw/LE-ANI%237.ANS
-# Source Revision: archive-sha256:f383b37d2f0265a83b82afcdde57a4dae359d8a5127c467dcea28d0c8500d000
-# Source SHA-256: e4c6c56a26c5f32a9bbb36475299aa2bbda9b582f781eb9c1fc7329536cd9006
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LE-ANI#7.ANS by Leonardo (BlackMaiden); released in bmbook13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Kitchen
-# SAUCE Author: Leonardo
-# SAUCE Group: BlackMaiden
-# SAUCE Date: 19970426
-# SAUCE Dimensions: 80x46
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Kitchen by Leonardo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook13-le-ani-7
 
 Write-Host '
 [35m███████▀░▄▓▀▄█[0;35;47m▓[0;1;35;47m▓▄[0;1;35;40m▄█▓[0;35m▀[0;1;35m░[0;33m▄▌[0;1;31m [0;33m▐[0;37m [0;35m [0;35;47m▓[0;1;35;47m▓[0;1;31;45m█▓[0;1;35;45m█[0;1;35;47m▒[0;1;37;47m█[0;35m█[0;1;31;45m░▓[0;35m▌▀[0;1;35;45m▀█[0;35m [0;33m▓[0;35m▐[0;1;35;45m▐█[0;1;35;47m▓[0;1;37;45m██▓[0;1;35;45m█[0;35m▌[0;37m  [0;33m▄[0;37m  [0;35m▄█[0;1;37;45m░▒▓[0;1;37;47m░▄[0;31m▄▄ [0;35m▀█[0;1;35;45m▓▀▌██▄█[0;1;31;45m▓▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: DX-E21.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-22/raw/DX-E21.ANS
-# Source Revision: archive-sha256:afe59def1d947e2bb83e94d037307e2215fa4f8e5d3afa54b07fc425d1360672
-# Source SHA-256: a0ed9a827a525d53e70c0d3517fc74cfd07f446d53c2a42f66ee20df0561fa87
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DX-E21.ANS by Drax (REMORSE); released in rmrs-22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Element 21
-# SAUCE Author: Drax
-# SAUCE Group: REMORSE
-# SAUCE Date: 19980312
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Element 21 by Drax | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-22-dx-e21
 
 Write-Host '
 

@@ -1,19 +1,4 @@
-﻿# Converted from: _00_Calendar_2019_Cover_by_nail.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-2019-calendar/raw/_00_Calendar_2019_Cover_by_nail.ans
-# Source Revision: archive-sha256:5dcb03d3562fc71c1bd681e0b01704387df6a6764ee8c64c58f8fc5646036621
-# Source SHA-256: e3e4f9e765586c4cf3767c4b5252f37e65b3991c4655b9a25f0d4cf48a71380a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _00_Calendar_2019_Cover_by_nail.ans by nail (blocktronics); released in blocktronics-2019-calendar and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 67 calendar 2019
-# SAUCE Author: nail
-# SAUCE Group: blocktronics
-# SAUCE Date: 20171018
-# SAUCE Dimensions: 80x65
-# SAUCE Font: IBM VGA
-# Lines: 39-65
-# Columns: 1-80
+﻿# Artwork: 67 calendar 2019 by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-2019-calendar-00-calendar-2019-cover-by-nail-part02
 
 Write-Host '
 [1;30m▐[0;1;30;47m▓[0;1;30;40m▄[0m      [1;30;40m▄[0;1;30;47m▀[0;1;33;47m ▀[0;1;30;47m▄[0;1;30;40m  [0;31m [0;37m    [0;31m   [0m                   [1;30m   [0m         [1;30m  ▀▀[0m       [1;30m    ▄[0m▄[1;30;47m▀[0;1;33;47m▄▀[0;1;30;47m [0m█[1;30;47m▄[0;1;30;40m▀[0m

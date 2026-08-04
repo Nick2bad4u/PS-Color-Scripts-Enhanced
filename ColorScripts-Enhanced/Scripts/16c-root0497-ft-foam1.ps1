@@ -1,18 +1,4 @@
-﻿# Converted from: FT-FOAM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0497/raw/FT-FOAM1.ANS
-# Source Revision: archive-sha256:73d4445ab8a07d3fe160d256052163ed66b2081a0bebb59b18ae9b36e30223e0
-# Source SHA-256: b9ef4790f857cc09df0340799cbaa803db56a74b263fd101429531df993567d0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FT-FOAM1.ANS by Flight (Root); released in root0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: f0am logo
-# SAUCE Author: Flight
-# SAUCE Group: Root
-# SAUCE Date: 19970330
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: f0am logo by Flight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0497-ft-foam1
 
 Write-Host '
 [1;30m[0m[1;30m▄▄▄▄[0m▄[1;30m▄▄▄[0m▄[1;30m▄[0m▄ ▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄[1;30m▄[0m▄[1;30m▄▄▄[0m

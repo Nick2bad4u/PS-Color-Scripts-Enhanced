@@ -1,18 +1,4 @@
-﻿# Converted from: T2-ELE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/legend02/raw/T2-ELE1.ANS
-# Source Revision: archive-sha256:3d09510951d722882aec8ec217ff2dbc35e0c5252f8e5685b8b241b7e7a6d9ce
-# Source SHA-256: dad5d0f69ce1b1f977f97c2c7d748bc7b4fc0100da759d6450440d7adbd4ec84
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T2-ELE1.ANS by Terminator2 (Legend); released in legend02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Eleuthoria
-# SAUCE Author: Terminator2
-# SAUCE Group: Legend
-# SAUCE Date: 19950901
-# SAUCE Dimensions: 80x25
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Eleuthoria by Terminator2 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-legend02-t2-ele1-part01
 
 Write-Host '
 [1;32m▓[0;32m▀▀▀▀▓▀▀▀█[0;32;44m▓[0;32;40m▀[0;32;44m▓▒[0;32;40m▀▀▓▄▀░▀▀▓[0;1;32;42m▒░[0;32m▀▀▓▄▀▀▀▐▀▓[0;1;32;42m░[0;32m▄[0;1;32;42m░[0;32m▓▀▀▀▀▀▀▀  ▀▀▓▀▀▀▀▀▓▀▀▀▀▀[0;1;32;42m░░[0;32m▀▀▀▀▓▀▀▀▀ ▀▀▀[0;1;32;42m▒[0;32m▀[0m

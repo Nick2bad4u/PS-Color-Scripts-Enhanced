@@ -1,18 +1,4 @@
-﻿# Converted from: HB!ES3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phar0896/raw/HB!ES3.ANS
-# Source Revision: archive-sha256:6b5cc8d7252908bb34e044ed6dcfb42f8dbf6c65d3528deee6494d62c5743e7d
-# Source SHA-256: 79381c9dd13d14ba672aa5598a2c42525e7f5acdf4bbe975c65a501f342a3c13
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HB!ES3.ANS by Hatebreed (PHaR); released in phar0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Evolution Systems
-# SAUCE Author: Hatebreed
-# SAUCE Group: PHaR
-# SAUCE Date: 19960730
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Evolution Systems by Hatebreed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phar0896-hb-es3
 
 Write-Host '
 

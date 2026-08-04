@@ -1,13 +1,4 @@
-﻿# Converted from: SD-UP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/locus-05/raw/SD-UP1.ANS
-# Source Revision: archive-sha256:e794f4a6bc7d61ceeb91dcf253d8af6f1d242da726d5159e3be21f4afcead4b3
-# Source SHA-256: 97e3f430f6b847aea2074d1f08363430af2030231ef9a013934c196721d5494f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-UP1.ANS by Sudden Massacre (locus-05); released in locus-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: SD-UP1.ANS by Sudden Massacre | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-locus-05-sd-up1
 
 Write-Host '
                     [32m▄[0m    [31m▄[0;1;31m▄[0m

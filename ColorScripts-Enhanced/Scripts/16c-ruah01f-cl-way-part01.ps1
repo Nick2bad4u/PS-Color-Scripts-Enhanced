@@ -1,13 +1,4 @@
-﻿# Converted from: cl!-way.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ruah01f/raw/cl!-way.ans
-# Source Revision: archive-sha256:b5551393828018e8d2c596326cf50ecfbd79bb8e8467616c34ef8bcd27143cea
-# Source SHA-256: ffb0760057d53eb2c6ea6541499a8d59bb8ba6d8340bf9bc8469d9cec0ff6e74
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cl!-way.ans by Cleaner (ruah01f); released in ruah01f and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: cl!-way.ans by Cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ruah01f-cl-way-part01
 
 Write-Host '
                       [1;30m. [0m ∙    [1;30m`[0m

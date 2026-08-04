@@ -1,18 +1,4 @@
-﻿# Converted from: M-REMIX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook15/raw/M-REMIX.ANS
-# Source Revision: archive-sha256:e54ebc8c52f8d9379c31843d1a642e9eaaf309656353be720cf874920f543492
-# Source SHA-256: aa25bae869e604a48130f43ecf9fcf7aad0b41353a3796a109c07a4634c1e341
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M-REMIX.ANS by Milkmang + Avenger (black maiden); released in bmbook15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: remix of milk's ansi
-# SAUCE Author: milkmang.ave
-# SAUCE Group: black maiden
-# SAUCE Date: 19971107
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: remix of milk's ansi by Milkmang + Avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook15-m-remix
 
 Write-Host '
 ░░    [30;44m▓[0m     [30;44m▓▓▓[0;37;40m [0;30;44m██▓▓▓[0m   [30;44m▓▓[0m   [33;40m▄▄[0m        [35;40m░░░░[0m       [35;40m░░░░   [0;33;40m▄▄   [0;37;40m░░░[0m            [1;37;40m░[0m

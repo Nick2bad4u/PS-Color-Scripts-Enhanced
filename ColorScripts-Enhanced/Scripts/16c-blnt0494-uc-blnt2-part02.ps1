@@ -1,13 +1,4 @@
-﻿# Converted from: UC-BLNT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blnt0494/raw/UC-BLNT2.ANS
-# Source Revision: archive-sha256:ecf7450f078b4c4b4041f7e568d14f4b70df9558c81c0d6825f04a7ad031cdda
-# Source SHA-256: 03e3476af6e247f16ec3eaf3a609ece21acf12b23e2e5de395a59d29f079c3b3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UC-BLNT2.ANS by Unknown Comic (blnt0494); released in blnt0494 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 44-83
-# Columns: 1-80
+﻿# Artwork: UC-BLNT2.ANS by Unknown Comic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blnt0494-uc-blnt2-part02
 
 Write-Host '
 [36m██▓▄▀   [0;30;43m▓▒▒▒▒░░          ▐[0m                          [30;43m▌          ░░▒▒▒▒▓[0m  [36m▒▀▄▓██[0m

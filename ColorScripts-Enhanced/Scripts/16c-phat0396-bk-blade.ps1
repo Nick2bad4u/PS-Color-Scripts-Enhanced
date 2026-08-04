@@ -1,18 +1,4 @@
-﻿# Converted from: BK-BLADE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0396/raw/BK-BLADE.ANS
-# Source Revision: archive-sha256:4840956a784b32a4a9e617c5baaeab5274263fdb9ff2d98a840492545e3abb06
-# Source SHA-256: 1982b910b7afba2cd576b71cd9a7419eaaae4690192b904a8f4b8a300fcd88ed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BK-BLADE.ANS by blackknight (READ THE INI FILE); released in phat0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: a header for blade's lits
-# SAUCE Author: blackknight
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19960301
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: a header for blade's lits by blackknight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0396-bk-blade
 
 Write-Host '
 [34m█████▀▀▀█████████▀▀▀▀▀▀▀▀▀▀█▀▀▀▀▀███▀▀▀▀▀██████▀▀▀▀▀███████████████████████████[0m

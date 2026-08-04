@@ -1,19 +1,4 @@
-﻿# Converted from: CXC-NOVA_NUEVO_KID2020.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0820/raw/CXC-NOVA_NUEVO_KID2020.ANS
-# Source Revision: archive-sha256:90a59aa7a69984a2c3a7f3add2538b2612a8a8c35426c23225c4310a3eeb9dbd
-# Source SHA-256: 380c13c6e2065852559a4c610196f30bbf468b03e2075edc1590e41b851816e5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CXC-NOVA_NUEVO_KID2020.ANS by CoaXCable (Mistigris); released in mist0820 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Nova Nuevo Kid 2020
-# SAUCE Author: CoaXCable
-# SAUCE Group: Mistigris
-# SAUCE Date: 20200824
-# SAUCE Dimensions: 80x69
-# SAUCE Font: IBM VGA
-# Lines: 36-69
-# Columns: 1-80
+﻿# Artwork: Nova Nuevo Kid 2020 by CoaXCable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0820-cxc-nova-nuevo-kid2020-part02
 
 Write-Host '
 [37m           [0;36m▒▓▒[0;1;30m ▒[0;1;30;47m▓[0;1;30;40m▒▒▓[0;1;30;47m▒▓▓█[0;1;30;40m█▓▓████[0;1;37;40m░[0;1;30;40m█[0;1;30;47m▒░▒[0;1;30;40m▓ ▓█[0;1;30;47m░[0m▓▓[1;30;47m░░ ░[0;1;37;40m▒█▓[0m██▀[36m▄[0;1;36;46m░░[0;1;37;46m▒▓▓▓███[0;1;36;46m▓▒[0;36m█▒▒[0m

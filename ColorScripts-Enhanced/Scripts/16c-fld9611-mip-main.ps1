@@ -1,18 +1,4 @@
-﻿# Converted from: MIP%MAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fld9611/raw/MIP%25MAIN.ANS
-# Source Revision: archive-sha256:c3be5f7f5a1a29d13d34b467174f87c610dcf087ab12ff7b46ba81bca9a6eb51
-# Source SHA-256: 5dec81400dadd8aaa3fc2c5391d6ce9ac6c843803f7749401feba80b5bae678a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MIP%MAIN.ANS by MindPhreak (fluid); released in fld9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: [mof] menu ansee
-# SAUCE Author: MindPhreak
-# SAUCE Group: fluid
-# SAUCE Date: 19961027
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: [mof] menu ansee by MindPhreak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fld9611-mip-main
 
 Write-Host '
                  [34m▄[0m                                     [34m▄[0m

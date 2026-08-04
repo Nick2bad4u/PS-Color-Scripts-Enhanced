@@ -1,18 +1,4 @@
-﻿# Converted from: bj-asc38.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bj-creep/raw/bj-asc38.ans
-# Source Revision: archive-sha256:0debf4b45d7d951a68b5333767ded34f656851230e3888db7abc1feaad98e52f
-# Source SHA-256: 1b1af80fe6209b60d1a9d65c778462790ca9540a81a9a2f759bc916f75c32f6b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bj-asc38.ans by Black Jack (Plain [11/07/96]); released in bj-creep and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Logoff screen (Neosporin)
-# SAUCE Author: Black Jack
-# SAUCE Group: Plain [11/07/96]
-# SAUCE Date: 19961107
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Logoff screen (Neosporin) by Black Jack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bj-creep-bj-asc38
 
 Write-Host '
 `$b,_            [34m+ ~ + ,_[0m       [34m.[0m      [34m.mS$Yⁿ"~ +[0m            [1;37m,_[0m           [1m_._[0m

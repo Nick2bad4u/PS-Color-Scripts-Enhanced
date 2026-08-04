@@ -1,18 +1,4 @@
-﻿# Converted from: GD-NGLND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/raid1194/raw/GD-NGLND.ANS
-# Source Revision: archive-sha256:3055ba6fb4c0ff0cbf45560f92b33caea595d70a0a90cd7137e24559c88fba03
-# Source SHA-256: 7b05a5bb50e1100f2256d190a0b6497b275d3c4757b1ccf6dfe8a87475400c3e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GD-NGLND.ANS by Grateful Dead (RAiD); released in raid1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Neo Graceland
-# SAUCE Author: Grateful Dead
-# SAUCE Group: RAiD
-# SAUCE Date: 19941012
-# SAUCE Dimensions: 80x25
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Neo Graceland by Grateful Dead | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-raid1194-gd-nglnd-part01
 
 Write-Host '
 [1;30m[0m[1;30m[0m[1;30m   ▀▓▀▀▀▀[0m▀[1;30m▀▀▀[0m▀[1;30m▀[0m▀ [1m▄▄▀▀[0;30;43m▀▀[0;1;37;40m▀▀[0m▄▄ ▀▀▀▀[1m▀[0m▀▀[1m▀[0m▀[1m▀▀▀▀▀[0m▀[1m▀▀▄▄[0m  [1;30m       [0m

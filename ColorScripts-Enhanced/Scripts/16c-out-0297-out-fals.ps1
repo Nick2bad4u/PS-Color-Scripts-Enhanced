@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-FALS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0297/raw/OUT-FALS.ANS
-# Source Revision: archive-sha256:0f3d218282d76441c012c29969433ab198fcc6a5c3f0e35f66bec5cacdabec86
-# Source SHA-256: 8a3fbb1afe68d6804b66917d7668a1301aa37361cc22adc22d3215918fcfc1ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-FALS.ANS by Sandy Chidester (out-0297); released in out-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: OUT-FALS.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0297-out-fals
 
 Write-Host '
 [1;36;46m▓▓▓[0;1;36;40m█[0;1;36;46m▒▒░░░[0;1;36;40m████[0;1;36;46m░▓▓▓▓[0;1;36;40m██[0;1;36;46m▓▓▓▓▓[0;1;36;40m█[0;1;36;46m▓▓▓[0;1;36;40m██[0;1;36;46m▓▓▓[0;1;36;40m██████████████████████████████████████████████[0m

@@ -1,20 +1,4 @@
-﻿# Converted from: HRV_IFOS.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz19/raw/HRV_IFOS.ans
-# Source Revision: archive-sha256:b2207428f1b283b9c41d9ff03fce385f449fefe469c60e31e8dd7430a162f7c1
-# Source SHA-256: 9f61573be8e903f4cce33026c0969377fc0b6a872fe2b6a78276b1f698cb8b71
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HRV_IFOS.ans by harvest (Lazarus); released in laz19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Its Full Of Stars
-# SAUCE Author: harvest
-# SAUCE Group: Lazarus
-# SAUCE Date: 20240925
-# SAUCE Dimensions: 80x227
-# SAUCE Font: IBM VGA
-# SAUCE Comments: made in time for the galatic LAZ#19 release
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Its Full Of Stars by harvest | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz19-hrv-ifos-part01
 
 Write-Host '
 [31m███████▓▒░░░   [0;1;30m░▒░[0;1;33;43m░[0m    [1;33;43m▓▒[0m   [1;33;43m▒▓[0m   [33m░[0;37m          [0;33m▄[0;1;30m█▓▓░░[0m                           [1;30m░░[0m

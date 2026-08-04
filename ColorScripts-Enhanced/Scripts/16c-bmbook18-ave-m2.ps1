@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-M2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook18/raw/AVE-M2.ANS
-# Source Revision: archive-sha256:3923f0369728e803f9484754cab6944bd0f8349523e51216ea34f98242393a94
-# Source SHA-256: 248fe8c2ca17d1c80d59bbcd0a77e3f775222eb64e8b4175d08030e770c26586
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-M2.ANS by avenger (black maiden); released in bmbook18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: no more morales
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19981001
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: no more morales by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook18-ave-m2
 
 Write-Host '
 [1;31m▀▀▀[0;31m▀ [0;37m  [0;31m▀[0;1;31m▀▀▀▀[0;31m▀▀▀▀▀▀▀▀▀▀[0;1;31m▀▀▀▀▀[0;31m▀▀▀[0;1;31m▀▀[0;31m▀▀▀▀[0;1;31m▀[0;31m▀▀▀▀▀▀▀▀▀▀[0;37m  [0;31m▀▀[0m    [31m▀[0m     [1;30m▀▀▀▀▀▀[0m   [1;30m▀▀[0m  [1;30m▀▀▀[0m [1;30m▀[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: DW-VIGNETTE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1221/raw/DW-VIGNETTE.ANS
-# Source Revision: archive-sha256:5e9313825592ee844db1dbb5f288429b09b14a6176d448c30ff1c2ee32395d09
-# Source SHA-256: 7baf4cd5c7c853d3c47145f2e51e281b2727057b105d4cca22412a0f8d611522
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DW-VIGNETTE.ANS by DW (Mistigris); released in mist1221 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Vignette
-# SAUCE Author: DW
-# SAUCE Group: Mistigris
-# SAUCE Date: 20211220
-# SAUCE Dimensions: 80x31
-# SAUCE Font: IBM VGA
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Vignette by DW | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1221-dw-vignette
 
 Write-Host '
                 [34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

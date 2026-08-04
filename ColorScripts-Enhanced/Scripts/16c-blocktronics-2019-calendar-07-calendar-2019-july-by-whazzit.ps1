@@ -1,19 +1,4 @@
-﻿# Converted from: _07_Calendar_2019_July_by_Whazzit.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-2019-calendar/raw/_07_Calendar_2019_July_by_Whazzit.ans
-# Source Revision: archive-sha256:5dcb03d3562fc71c1bd681e0b01704387df6a6764ee8c64c58f8fc5646036621
-# Source SHA-256: aaf12fec61a040e34e8c23fc1dce6b39864d299c572ddb347aa5205a9fb76650
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _07_Calendar_2019_July_by_Whazzit.ans by Whazzit (Blocktronics); released in blocktronics-2019-calendar and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: July 2018
-# SAUCE Author: Whazzit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20181003
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: July 2018 by Whazzit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-2019-calendar-07-calendar-2019-july-by-whazzit
 
 Write-Host '
 [37;40m▌[0;37;43m▌[0;1;30;47m [0m▌[43m▌[0;40m█[0;1;47m░[0m▌▌[1;30;47m░[0m▄[1m▄[0m▌[1;30;47m [0m [32m ▄[0;1;32;42m░░[0;32m█▀▄▄▀█[0;1;32;42m░░[0;32m▀[0;37m [0;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30m  [0m ▄[1;30;47m▄[0;1;30;40m▀▄▀[0m▐[30;47m▌[0;1;30;47m░▒▒[0m▐[1;30m [0m▀[1;30m ▀[0m▄▄▄█▀

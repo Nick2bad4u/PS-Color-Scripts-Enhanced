@@ -1,18 +1,4 @@
-﻿# Converted from: BC-PT4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/art-r1/raw/BC-PT4.ANS
-# Source Revision: archive-sha256:9797d945d7eb702dfc51a39f90f565519b8faec09d6ec0fc7a01894d8e204c6b
-# Source SHA-256: eb5f48d68fe8443ef06a3547367ad73b089cc4099361e83839dea2fe06af8daf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BC-PT4.ANS by BEYoND C00l (aRT); released in art-r1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: X-ViLLE PUB
-# SAUCE Author: BEYoND C00l
-# SAUCE Group: aRT
-# SAUCE Date: 19941216
-# SAUCE Dimensions: 80x213
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: X-ViLLE PUB by BEYoND C00l | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-art-r1-bc-pt4-part01
 
 Write-Host '
 [31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m [31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

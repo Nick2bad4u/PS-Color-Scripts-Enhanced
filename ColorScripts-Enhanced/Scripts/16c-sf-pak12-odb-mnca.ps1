@@ -1,18 +1,4 @@
-﻿# Converted from: ODB-MNCA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sf-pak12/raw/ODB-MNCA.ANS
-# Source Revision: archive-sha256:670b4d0899955b27a97f2ff3c1b8b1a03cafdd9f0df62f9dfb2a28ce3d4f40e7
-# Source SHA-256: 9491c4392d9e14b67a9b42c89484ade3a8a4a8a30ec6c9ae78cd7043940b1fa6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ODB-MNCA.ANS by Ol' Dirty Bastard (Shaolin's Finest); released in sf-pak12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: For my li'l Dark Angel
-# SAUCE Author: Ol' Dirty Bastard
-# SAUCE Group: Shaolin's Finest
-# SAUCE Date: 19980920
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: For my li'l Dark Angel by Ol' Dirty Bastard | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sf-pak12-odb-mnca
 
 Write-Host '
                            [1;30m               [0m [36m░[0;30;46m▓[0m

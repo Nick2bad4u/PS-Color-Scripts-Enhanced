@@ -1,18 +1,4 @@
-﻿# Converted from: ZR-ICE01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0396/raw/ZR-ICE01.ANS
-# Source Revision: archive-sha256:1c74698b6bb36c67ca170e4e3759a91f94a3423157bd644c80d820a8fe56fd8d
-# Source SHA-256: fcc19bc1f4be5fad902444f978ac2298f920a9de8b82b9efcc138480a2043a70
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZR-ICE01.ANS by Zoltar (fire); released in fire0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Ice Logo
-# SAUCE Author: Zoltar
-# SAUCE Group: fire
-# SAUCE Date: 19960221
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Ice Logo by Zoltar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0396-zr-ice01
 
 Write-Host '
           [30m                                            [0;34m░ [0;30m         [0m     [1;34m░[0m

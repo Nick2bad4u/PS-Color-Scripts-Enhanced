@@ -1,18 +1,4 @@
-﻿# Converted from: ZV-GLU99.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-26/raw/ZV-GLU99.ANS
-# Source Revision: archive-sha256:3be1c9ac829261dd03ea8cfa1cb7cadc2602bc33b1981032be1538aacd76a812
-# Source SHA-256: 7edb0f392f703e26993f57d169519bcb6023b2e4a8b3830a0fba206e4fcbd4af
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZV-GLU99.ANS by zeroVision (GLUE); released in glue-26 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: a tribute
-# SAUCE Author: zeroVision
-# SAUCE Group: GLUE
-# SAUCE Date: 19991010
-# SAUCE Dimensions: 80x177
-# Lines: 131-177
-# Columns: 1-80
+﻿# Artwork: a tribute by zeroVision | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-26-zv-glu99-part04
 
 Write-Host '
 [1;30;40m▌[0;32m▐▀▄██[0;1;32;42m░░[0;32m▌  [0;1;30m■[0m [35m▄▀▀░[0;37m [0;1;32m▄[0;32m [0;1;32m▄[0;1;32;42m▓[0;1;32;40m▌[0;1;34;40m▐██[0;1;34;47m▓▒[0m▌ [1;30m▐▌[0;1;32m▄▄▄▄[0;32m          [0;37m [0;32m░[0;37m   [0;1;30m▐[0m     [1;47m▒░[0m▌ [1;47m▒[0m     [1;47m▒[0;1;40m▌[0m [1;30m▐[0;1;30;47m▒░[0m▌  [1m▐▌[0m▐[1;37;47m░[0m

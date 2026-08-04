@@ -1,15 +1,4 @@
-﻿# Converted from: CK-SOC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jive1196/raw/CK-SOC1.ANS
-# Source Revision: archive-sha256:74e1c77b15f9f77c425b7a6f94db1ea196521e43a60a356b13371fec7928ab41
-# Source SHA-256: d9775e630bd9530756bf0c2d8cff1eddc3a69bf7d389ce4e09da39093fbcf9b6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CK-SOC1.ANS by Clark (jive1196); released in jive1196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Shadows of Cyberia
-# SAUCE Author: Clark
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Shadows of Cyberia by Clark | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jive1196-ck-soc1
 
 Write-Host '
                                   [1;30m▒▒[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: MT-1NS04.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/MT-1NS04.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: eed2399d9f976bbd1fb1df50b1cfd185205e920f2a2c504c1a25f0dad2cd18bf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MT-1NS04.ANS by Misfit (Blocktronics); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: 1NS0MN1A - in-game screens
-# SAUCE Author: Misfit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20191119
-# SAUCE Dimensions: 80x286
-# SAUCE Font: IBM VGA
-# Lines: 47-94
-# Columns: 1-80
+﻿# Artwork: 1NS0MN1A - in-game screens by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-mt-1ns04-part02
 
 Write-Host '
 [37m   ▓▌▐[0;1;30;47m░░ [0;1;37;47m▐▌[0m▌[1;47m▒[0;1;40m▀▀[0m▀[1m▀[0m▀▀ [1;30m▓[0m ▀▀[1m▀[0m▀[1m▀▀[0;1;47m▒[0m▐[1;47m▐▌[0;1;30;47m ░░[0m▌▐▓    ▓▓▓▓▓▓██▓▓▓▓▓██▀[1;34m [0m▄[1m [0m▀▐▄█[1;47m░▀[0m▀[1;47m▓▒▒░░▄■[0m█▓

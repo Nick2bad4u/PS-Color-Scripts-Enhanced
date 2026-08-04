@@ -1,18 +1,4 @@
-﻿# Converted from: SD-DRAGN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel19/raw/SD-DRAGN.ANS
-# Source Revision: archive-sha256:7996394d1322b4d75a2eac63da1058443f8c8d07863e81821c5c4a203e798c3c
-# Source SHA-256: a40a37cc741a7022ee2cb5660a09fde8316a910b0145eb376152fe0f059b0ae0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-DRAGN.ANS by sad (fuel); released in fuel19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: games
-# SAUCE Author: sad
-# SAUCE Group: fuel
-# SAUCE Date: 19971123
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: games by sad | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel19-sd-dragn
 
 Write-Host '
                 [32m▐▄[0;1;32m▄[0;32m [0m                    [1;35m▐▓░░[0m     [1;35m▐▄[0;35m▄▄▄[0;1;35m▀[0;34;45m░[0;35;40m▀▀▄[0m

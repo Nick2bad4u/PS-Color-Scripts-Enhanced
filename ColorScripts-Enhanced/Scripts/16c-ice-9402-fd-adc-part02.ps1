@@ -1,13 +1,4 @@
-﻿# Converted from: FD-ADC.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9402/raw/FD-ADC.ICE
-# Source Revision: archive-sha256:542a55b371fcf2e1b6ce730207fe668cc74b9fc898d3341dc11812e6d7a4ac5c
-# Source SHA-256: 62e537b96d2f7efba99945454e59106759e355cd3de07224e3cf4469ae20d2b2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FD-ADC.ICE by Final Descendant (ice-9402); released in ice-9402 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: FD-ADC.ICE by Final Descendant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9402-fd-adc-part02
 
 Write-Host '
        [31m█▀▀    ▄▓▒░▒▓█▀▀ [0;34m░░░░░░ [0;31m▄█▌[0;34m░░  [0;31m▀[0m      [31m▐ ▐▌[0m                            [1;37m█[0m

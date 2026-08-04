@@ -1,18 +1,4 @@
-﻿# Converted from: SQR!NIP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-003/raw/SQR!NIP1.ANS
-# Source Revision: archive-sha256:de78ce19727ea90c75e1ecc7f5b4d900676dc27b4dceb8a870f61665ee210859
-# Source SHA-256: 081ced45da550ada74b7e863a88afa9f42fd30e204f8ca6897be74b65ebbb9df
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SQR!NIP1.ANS by square (rare!ascii); released in rare-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: nipple (damn you psylock =)
-# SAUCE Author: square
-# SAUCE Group: rare!ascii
-# SAUCE Date: 19980608
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: nipple (damn you psylock =) by square | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-003-sqr-nip1
 
 Write-Host '
                               [1;30m│[0m

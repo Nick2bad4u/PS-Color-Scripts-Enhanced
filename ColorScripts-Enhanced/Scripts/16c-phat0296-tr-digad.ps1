@@ -1,18 +1,4 @@
-﻿# Converted from: TR-DIGAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0296/raw/TR-DIGAD.ANS
-# Source Revision: archive-sha256:60548f8eda23c6002c17f6d128b1790dc2c550171f4247bb3618be801dbc49f7
-# Source SHA-256: 2564284a022fba76891b74f40298cc914b806907f0a4e6ec378181a8beeabea0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-DIGAD.ANS by tRiCYCLe (pHat Productions 96); released in phat0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Digital Addiction
-# SAUCE Author: tRiCYCLe
-# SAUCE Group: pHat Productions 96
-# SAUCE Date: 19960113
-# SAUCE Dimensions: 80x15
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: Digital Addiction by tRiCYCLe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0296-tr-digad
 
 Write-Host '
 

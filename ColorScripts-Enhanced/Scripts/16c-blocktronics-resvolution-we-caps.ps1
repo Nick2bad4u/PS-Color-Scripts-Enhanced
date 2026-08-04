@@ -1,13 +1,4 @@
-﻿# Converted from: we-caps.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_resvolution/raw/we-caps.ans
-# Source Revision: archive-sha256:d0690af9ec91bf96f335196e9f9ddfb5d7ea02d97d300b53301bebaf58d83c35
-# Source SHA-256: 4aa51e04b06f3482192458a2304f990bdd20261d5b34a1b7f06f05eb85dd5ea7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-caps.ans by Capsone + Avenging Angel (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: we-caps.ans by Capsone + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-resvolution-we-caps
 
 Write-Host '
                            [1m███████████████████████████[0m

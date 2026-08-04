@@ -1,18 +1,4 @@
-﻿# Converted from: T2-NM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dom-9706/raw/T2-NM1.ANS
-# Source Revision: archive-sha256:a16d91b4075cff760b5038e2a8f1aab02d1965c9e4bbc85ed187b0405326b9b6
-# Source SHA-256: 339e87eaf8c98ca0951041c7f7c269580ee8dec2142cc067619ab6223bbeac62
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T2-NM1.ANS by Terminator2 (Domino); released in dom-9706 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Necrom
-# SAUCE Author: Terminator2
-# SAUCE Group: Domino
-# SAUCE Date: 19970605
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Necrom by Terminator2 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dom-9706-t2-nm1
 
 Write-Host '
                     [31m▄▄▄░[0m

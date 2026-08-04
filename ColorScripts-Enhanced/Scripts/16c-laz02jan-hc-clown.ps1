@@ -1,18 +1,4 @@
-﻿# Converted from: HC-CLOWN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz02jan/raw/HC-CLOWN.ANS
-# Source Revision: archive-sha256:132672eb521503ab979d6725a75b6f055811245f253b5353290430aa5c4983b1
-# Source SHA-256: 95fad53221ed6c6dff05a42a9d44df1e095a0562e83becf3b56ca363c0376223
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HC-CLOWN.ANS by hachi (lazarus); released in laz02jan and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: clown
-# SAUCE Author: hachi
-# SAUCE Group: lazarus
-# SAUCE Date: 19961226
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: clown by hachi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz02jan-hc-clown
 
 Write-Host '
 [1;31;41m    [0;31m██████████ [0;1;37m▄█████████████████████████████████████[0;1;37;47m▄▄[0m█[1;30;47m▀▀[0;1;30;40m▄▄[0;1;37;40m [0;31m▀██████████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: ZV-SBD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-17/raw/ZV-SBD.ANS
-# Source Revision: archive-sha256:154ac874f13e20433925bb99a4f5e0a4299764bee7ed4d28bdaffd9ad392f554
-# Source SHA-256: 13ebfb3fcd4f44e7d3cbd2fcab4542e9257b7b2f85ddcf57acdd7cd59249e621
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZV-SBD.ANS by zeerow (glue); released in glue-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: step by death
-# SAUCE Author: zeerow
-# SAUCE Group: glue
-# SAUCE Date: 19981231
-# SAUCE Dimensions: 80x127
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: step by death by zeerow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-17-zv-sbd-part01
 
 Write-Host '
 [33m██████████████[0;1;31;43m░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓[0;1;31;40m███████[0;1;31;43m▓▓▓▓▒▒░░░░░[0;33m████████████████████[0m

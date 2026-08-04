@@ -1,19 +1,4 @@
-﻿# Converted from: fil-rake.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-67rpm/raw/fil-rake.ans
-# Source Revision: archive-sha256:3bbf9039f3766954a270bac124a42d38fcc9fc482243f18bf40e3eb60d3ca1ae
-# Source SHA-256: eee97aeaa7232cdfbed17260c785235ed0ce926544a9e3099cd3e16b6128b4f4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: fil-rake.ans by filth (bL0CKTRONiCS); released in blocktronics-67rpm and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: RAKE S/T
-# SAUCE Author: filth
-# SAUCE Group: bL0CKTRONiCS
-# SAUCE Date: 20190202
-# SAUCE Dimensions: 160x70
-# SAUCE Font: IBM VGA
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: RAKE S/T by filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-67rpm-fil-rake-panel01-part01
 
 Write-Host '
 [30;44m░░░░░░░[0;33;44m████████████████████████[0;30;44m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

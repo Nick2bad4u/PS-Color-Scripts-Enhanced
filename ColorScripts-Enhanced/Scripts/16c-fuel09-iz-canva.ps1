@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-CANVA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel09/raw/IZ-CANVA.ANS
-# Source Revision: archive-sha256:cae1fe00a9cd349fa6bb692920586d60c6acc70987b088220f071822b0b1e1ed
-# Source SHA-256: 6a84a91fd388775ffd26ba3af695394395bb9452f760debc1d2ed97883fcd428
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-CANVA.ANS by ize (fuel); released in fuel09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: canvas emag $4.99
-# SAUCE Author: ize
-# SAUCE Group: fuel
-# SAUCE Date: 19961101
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: canvas emag $4.99 by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel09-iz-canva
 
 Write-Host '
                                                  [31m░[0;30;41m▓[0m

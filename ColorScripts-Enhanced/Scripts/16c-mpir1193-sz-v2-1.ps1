@@ -1,13 +1,4 @@
-﻿# Converted from: SZ-V2_1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mpir1193/raw/SZ-V2_1.ANS
-# Source Revision: archive-sha256:90fb072ccc60842ed735461805d8d55d26f83d65d3019c344c9e395264072c49
-# Source SHA-256: 10f45f3f173e2ff4f7b1ddfd02d9972224598a54e8f8230a65d74e952e0f610f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SZ-V2_1.ANS by System-Z (mpir1193); released in mpir1193 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: SZ-V2_1.ANS by System-Z | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mpir1193-sz-v2-1
 
 Write-Host '
 ·            [1m·  [0;1;30m·[0m                 [1;30m·   ·[0m          [1;30m·[0m            [1;30m·[0m

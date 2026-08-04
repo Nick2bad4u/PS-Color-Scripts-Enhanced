@@ -1,19 +1,4 @@
-﻿# Converted from: tk-unc2017.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel25/raw/tk-unc2017.ans
-# Source Revision: archive-sha256:c29da20a4b03d4b9cfd5beb0ae4c26b848a9b8ba121f4b3a4bde4c0893de19b6
-# Source SHA-256: f3e9eddd20e69738e6d53880c7d7d4301b0585ae4932087d1bd4de17da374cb8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tk-unc2017.ans by the knight (fUEL); released in fuel25 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: under construction 2017
-# SAUCE Author: the knight
-# SAUCE Group: fUEL
-# SAUCE Date: 20171227
-# SAUCE Dimensions: 80x100
-# SAUCE Font: IBM VGA
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: under construction 2017 by the knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel25-tk-unc2017-part02
 
 Write-Host '
         [1m▄[0;1;46m▓░[0;1;34;40m█[0;1;34;46m▓▒░[0;36m█[0;37m  [0;33m▐[0;1;33;43m▓[0;1;33;40m▌[0;33m▓[0;1;33m [0;33m▐[0;1;33;43m▒▓█[0;1;33;40m████████████████▄█████████[0;1;33;43m▓░[0;33m█▌▄[0;1;33m [0;33m▐[0;1;33;43m▒▒▓[0;1;33;40m██▌[0;33m▐▀[0;1;33m ██[0;1;33;43m▓[0;33m▌[0;37m [0;36m▀[0;1;34;46m░▓▓[0;1;34;40m█[0;1;37;46m░[0m

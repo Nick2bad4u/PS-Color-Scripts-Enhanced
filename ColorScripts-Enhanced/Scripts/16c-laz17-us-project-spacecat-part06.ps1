@@ -1,19 +1,4 @@
-﻿# Converted from: us-project_spacecat.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz17/raw/us-project_spacecat.ans
-# Source Revision: archive-sha256:2674245bad3e14fe6d4a935ba8daf9898a4426e394c56ca9710e3afa19d3d943
-# Source SHA-256: 370d77d35b7870d1032ee0b61fb3f93f29c5e10b7f54fa446506f02782ca65f6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-project_spacecat.ans by Filth + Pinguino + Warpus (LAZARUS); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Project Spacecat
-# SAUCE Author: FilthPinguinoWarpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20230628
-# SAUCE Dimensions: 108x303
-# SAUCE Font: IBM VGA
-# Lines: 218-260
-# Columns: 1-108
+﻿# Artwork: Project Spacecat by Filth + Pinguino + Warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz17-us-project-spacecat-part06
 
 Write-Host '
       [31m▄▀[0;37m        [0;34m░░░░░░░[0;31m▐[0;34m░[0;37m       [0;34m░[0;37m     [0;34m░░░▒▒▒▓▓▓░░░[0;37m         [0;34m░░░░░░░[0;37m         [0;34m░░░░░░▒▒▓▓▓░░░░░░░░░░░░░░░░░░[0;36m   [0;30;46m▄[0m

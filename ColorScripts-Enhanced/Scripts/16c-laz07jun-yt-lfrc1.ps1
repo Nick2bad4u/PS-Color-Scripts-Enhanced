@@ -1,18 +1,4 @@
-﻿# Converted from: YT-LFRC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz07jun/raw/YT-LFRC1.ANS
-# Source Revision: archive-sha256:6a4341d9d0364566769256e4356d86035ad4ee53c0aa654acf41be18e58ca462
-# Source SHA-256: ef0a8707b4a883b20c2ecd2ae2cf231ce3e591d086376a8e2bfda5ca7584f165
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: YT-LFRC1.ANS by neophyte (lazarus); released in laz07jun and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: lifeforce
-# SAUCE Author: neophyte
-# SAUCE Group: lazarus
-# SAUCE Date: 19970520
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: lifeforce by neophyte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz07jun-yt-lfrc1
 
 Write-Host '
 [1;30m [0m                  [31m      [0;37m      [0;30;41m▓▓[0;37;40m                                               [0m

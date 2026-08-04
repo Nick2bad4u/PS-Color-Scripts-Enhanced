@@ -1,13 +1,4 @@
-﻿# Converted from: RA-HEAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mgc-0194/raw/RA-HEAT.ANS
-# Source Revision: archive-sha256:f17b77cc9d62ede7b74162f5bf70dcafda5baf26dfb1ffab51ba4633f3d3613c
-# Source SHA-256: 8804a07af2bd9cc6cf57c9a56886a52db14aa43e664ab6e2adf2562570e5f3d2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RA-HEAT.ANS by Raistlin (mgc-0194); released in mgc-0194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 28-52
-# Columns: 1-80
+﻿# Artwork: RA-HEAT.ANS by Raistlin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mgc-0194-ra-heat-part02
 
 Write-Host '
 [1;37;40m█[0;1;37;47m                [0;1;30;40m█ [0;1;30;47m▓[0m  [1;31;41m░░▒▒▓[0;31m▒▒▓▓██   ▄[0;1;31;41m▒▓[0;31m▓▄   ██▓▓▒▒[0;1;31;41m▒░[0;31m█▓▒  [0;1;30;47m▓[0m [1;37;40m█[0;1;37;47m  [0;1;30;47m░░░     ░  ░░░   [0;1;30;40m█[0m

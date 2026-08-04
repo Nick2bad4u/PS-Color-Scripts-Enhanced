@@ -1,18 +1,4 @@
-﻿# Converted from: PR-COLLY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-0297/raw/PR-COLLY.ANS
-# Source Revision: archive-sha256:05d734ffa62e5884411f00e8c0f6959c06f165738a13021b90f9ca088ae9d885
-# Source SHA-256: 4b07dea4b7254fb2f14b62d132ac2d1c9af90eb908d82e859c982858361dd1dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR-COLLY.ANS by propane (RCA); released in rca-0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ansi Colly
-# SAUCE Author: propane
-# SAUCE Group: RCA
-# SAUCE Date: 19970209
-# SAUCE Dimensions: 80x54
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Ansi Colly by propane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-0297-pr-colly-part01
 
 Write-Host '
    [1;30m  ▄▄▄[0;32m                     [0;1;30m▒[0;32m                                               [0m

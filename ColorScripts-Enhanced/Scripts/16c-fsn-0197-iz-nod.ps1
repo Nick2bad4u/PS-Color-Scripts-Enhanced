@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-NOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0197/raw/IZ-NOD.ANS
-# Source Revision: archive-sha256:db16ecaf9a5ba2dcf16f11149d4e3768d3e19930159af1ef0ef2625ea12b3e30
-# Source SHA-256: 4325de82d4a5672309475d302cb515b3224757e3d1dcf350a7f3614226ec8d6e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-NOD.ANS by ize (fusion); released in fsn-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: nod
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19961216
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: nod by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0197-iz-nod
 
 Write-Host '
 

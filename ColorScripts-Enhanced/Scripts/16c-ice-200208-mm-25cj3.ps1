@@ -1,18 +1,4 @@
-﻿# Converted from: mm-25cj3.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-200208/raw/mm-25cj3.ans
-# Source Revision: archive-sha256:8266cb0c83bed6dfb88c70a84c59bfe21a823cfea9ed9899f924b07278ea02a4
-# Source SHA-256: adf293cc13ca5e3a03642cf20930ba6c95a1539a3c329c08998b0dd3efc47bc0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mm-25cj3.ans by Magnetic M (iCE Advertisements); released in ice-200208 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Chaotic Justice 2
-# SAUCE Author: Magnetic M
-# SAUCE Group: iCE Advertisements
-# SAUCE Date: 20020906
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Chaotic Justice 2 by Magnetic M | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-200208-mm-25cj3
 
 Write-Host '
 [1;36m█████[0;1;36;46m▀▄[0;1;36;40m███████████████████████[0;1;36;46m▀[0;1;36;40m▀▀▀[0;36m▀[0;37m [0;1;36m▀[0;1;36;46m▀[0;1;36;40m███████[0;1;36;46m▀[0;1;36;40m▀▀▀▀▀▀[0;1;36;46m▀[0;1;36;40m██████████████[0;1;36;46m▀[0;1;36;40m▀[0;1;36;46m▀[0;1;36;40m█[0;1;36;46m▄[0;36m▄[0;1;36m [0;36m▀[0;1;36m▀▀[0;1;36;46m▀[0;1;36;40m█[0m

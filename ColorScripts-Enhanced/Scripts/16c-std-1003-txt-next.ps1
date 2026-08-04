@@ -1,18 +1,4 @@
-﻿# Converted from: TXT-NEXT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/std-1003/raw/TXT-NEXT.ANS
-# Source Revision: archive-sha256:582b3f82f4a3d47b1c26833c77407896da01487b1f93d28a71b2ea8de6ba3624
-# Source SHA-256: c1174bc34e9cfa396786d4fa73c147a9b846bafe24101688ad44a81addc39206
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TXT-NEXT.ANS by The Textorcist (Spread the Disease); released in std-1003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Acid Productions
-# SAUCE Author: The Textorcist
-# SAUCE Group: Spread the Disease
-# SAUCE Date: 20031006
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Acid Productions by The Textorcist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-std-1003-txt-next
 
 Write-Host '
      [1;30m      [0m [1;30m          [0m                              [1;33m▄▄▄▄▄▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: TG-VI1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9609a/raw/TG-VI1.ICE
-# Source Revision: archive-sha256:541cf0b323317a2c01aae16b97d3d5f7ccc5db8dbd14c10b2267c0eefccf97b7
-# Source SHA-256: a5bf5c4f4e1da6f903c559542c728d5dc61130b66710cc2ee90ac4afeb6ef06c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-VI1.ICE by tOon gOon (iCe); released in ice9609a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: virtual infinity
-# SAUCE Author: tOon gOon
-# SAUCE Group: iCe
-# SAUCE Date: 19960917
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: virtual infinity by tOon gOon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9609a-tg-vi1
 
 Write-Host '
 [1m██[0;1;36m████[0;1;36;46m▀[0m [1;30m▄[0m [36m▀[0;1;36;46m▀[0;1;36;40m█████[0;1;36;46m▀[0;1;36;40m▀[0;36m▀[0;37m [0;1;30m▄[0m [36m▀[0;1;36;46m▀[0;1;36;40m▀▀▀▀▀▀▀▀▀▀▀[0;1;36;46m▀▀[0;1;36;40m████████████▀▀▀[0;1;36;46m▀[0;1;36;40m██████[0;1;36;46m▀[0m [1;30m▄[0;1;30;43m▀[0m [1m███████[0m▄[1m▄[0;1;47m▄[0;1;40m█▄[0m

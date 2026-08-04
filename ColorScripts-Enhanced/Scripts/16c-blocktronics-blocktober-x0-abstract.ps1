@@ -1,16 +1,4 @@
-﻿# Converted from: x0-abstract.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_blocktober/raw/x0-abstract.ans
-# Source Revision: archive-sha256:a4249815771be4175829e3af0e1e24a265146879ea43ac19f701d6ebb72fa88f
-# Source SHA-256: 94a789b7ea15f34f1ab1c4336945300de68911bf722860bf9c47bd4c65c87878
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: x0-abstract.ans by Xer0 (blocktronics_blocktober); released in blocktronics_blocktober and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20161028
-# SAUCE Dimensions: 80x48
-# SAUCE Font: IBM VGA
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: x0-abstract.ans by Xer0 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blocktober-x0-abstract
 
 Write-Host '
 [30;40m█[0;37;47m                                                                             [0m

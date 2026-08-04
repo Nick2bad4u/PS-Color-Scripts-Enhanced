@@ -1,18 +1,4 @@
-﻿# Converted from: SK!UNDER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p04_99/raw/SK!UNDER.ANS
-# Source Revision: archive-sha256:cd066a8b285d053fbbb486eff8330d19131344b04ff06cb6d38dc7a1da8cad61
-# Source SHA-256: ac1731c4c3ace7b71de807b945215d2459bb1ed9c774e3f080c6a56b016d154c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!UNDER.ANS by sIMONkING (l0p04_99); released in l0p04_99 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: uNDERtAKER#1
-# SAUCE Author: sIMONkING
-# SAUCE Group: ???
-# SAUCE Date: 19991030
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: uNDERtAKER#1 by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p04-99-sk-under
 
 Write-Host '
 [1;30;47m▀▀[0;1;30;41m▓▓▓▓▓▓▓▒▒▒▒▒░░░░░░░[0;31m███████████████▓▓▒   [0m         [31m    ░░[0m   [31m░░[0m    [1;37m▄[0m        [31m░░[0m

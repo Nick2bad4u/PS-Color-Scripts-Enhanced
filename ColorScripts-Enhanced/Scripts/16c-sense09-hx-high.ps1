@@ -1,18 +1,4 @@
-﻿# Converted from: HX-HIGH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense09/raw/HX-HIGH.ANS
-# Source Revision: archive-sha256:b3e3029d8f7c1c608f2835055baa2116210e782109ea7dc0a1af3ca3d050e5b9
-# Source SHA-256: ab0cda3d5cd68af4c05340134000b21f02c636a8d9732b41e27cb2e9c3b45448
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HX-HIGH.ANS by HeXD (Sense); released in sense09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: high casualties pic
-# SAUCE Author: HeXD
-# SAUCE Group: Sense
-# SAUCE Date: 19980426
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: high casualties pic by HeXD | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense09-hx-high
 
 Write-Host '
 [1;33;43m▒░  [0;33m█[0;1;30;43m░▒[0;1;30;40m█▌ ▀▀[0m [30;44m                 [0;1;30;44m░▒▓███▓[0;1;30;40m███████████████████████████████████████████[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: VN-DRKNE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/xide0495/raw/VN-DRKNE.ANS
-# Source Revision: archive-sha256:e317471988b625a6d81c93dffa76e59b4fa1a5332df991b4e6e58355a6ccc8a7
-# Source SHA-256: 377b37dac9f8c4fe567fb757a51be6960cfd6d38e469d0363360a444097d4a82
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VN-DRKNE.ANS by Venom (xide0495); released in xide0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 39-76
-# Columns: 1-80
+﻿# Artwork: VN-DRKNE.ANS by Venom | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-xide0495-vn-drkne-part02
 
 Write-Host '
 ██████[1;47m░▒▓[0;1;40m███[0;1;47m▓[0;1;40m███████████████████████████████████████████████[0;1;47m▓[0;1;40m██████████████████[0m

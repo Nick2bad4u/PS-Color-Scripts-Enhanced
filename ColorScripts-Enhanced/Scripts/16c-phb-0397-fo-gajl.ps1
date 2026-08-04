@@ -1,18 +1,4 @@
-﻿# Converted from: FO-GAJL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phb-0397/raw/FO-GAJL.ANS
-# Source Revision: archive-sha256:d18868f8faf7726799689b37fb1a0005133cfca83163c8b652f242ae3ef3a67d
-# Source SHA-256: fa897b09504afc7c82ec9751e19f1966e6fdce090fbaec5cf993003dbd2c254f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FO-GAJL.ANS by flexor (phobia); released in phb-0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: nofont
-# SAUCE Author: flexor
-# SAUCE Group: phobia
-# SAUCE Date: 19970301
-# SAUCE Dimensions: 80x45
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: nofont by flexor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phb-0397-fo-gajl
 
 Write-Host '
 [34;44m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;34;40m█▀[0;1;31;40m [0;31m▄█████[0;30;41m░░[0;31;40m ▄█████[0;30;41m▒[0;31;40m ▄██[0;30;41m▒[0;37;40m [0;30;43m▒[0;37;40m [0;31;40m████[0;30;41m▓[0;37;40m [0;30;43m▓░[0;33;40m█[0;30;43m░[0;33;40m█[0;30;43m░░[0;33;40m█[0;30;43m░░▓[0;37;40m [0;30;41m░░░░[0;31;40m███████[0;1;30;41m    [0m

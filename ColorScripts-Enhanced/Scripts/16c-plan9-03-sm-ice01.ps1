@@ -1,18 +1,4 @@
-﻿# Converted from: SM-ICE01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plan9-03/raw/SM-ICE01.ANS
-# Source Revision: archive-sha256:301e233671503dd7a10ff4a4cb6dda4f8763f8d72d90155c91788bf54f67e346
-# Source SHA-256: 2f267c8fa18c3e36dcfaec8730e0eb836ad5f937861f224087953f40a2a11635
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-ICE01.ANS by Smoke (READ THE INI FILE); released in plan9-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ice logo
-# SAUCE Author: Smoke
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19970210
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: ice logo by Smoke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plan9-03-sm-ice01
 
 Write-Host '
   [1m            [0m                                                             [34m▄▄▄▄[0m

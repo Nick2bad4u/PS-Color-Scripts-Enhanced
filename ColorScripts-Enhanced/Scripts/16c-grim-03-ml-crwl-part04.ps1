@@ -1,13 +1,4 @@
-﻿# Converted from: ML-CRWL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/grim-03/raw/ML-CRWL.ANS
-# Source Revision: archive-sha256:ebc036abf9a775cca5b26ca6cd97418b4cbcbb8a88c78d39df773432429bd88a
-# Source SHA-256: 49147aa808af665add82f1caef7c8e137b6c8faa633d45d2b9ac531a8f8b2e3b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ML-CRWL.ANS by Marshal Law (grim-03); released in grim-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 128-160
-# Columns: 1-80
+﻿# Artwork: ML-CRWL.ANS by Marshal Law | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-grim-03-ml-crwl-part04
 
 Write-Host '
      [32m▀[0;1;32m▄ [0;1;37;47m▒▒░░[0m█▌       ▄[1;47m░[0m▄       ▄[1;47m░[0m▄      ▄[47m [0;1;47m░░[0m▌ [32m▐▌[0m     [37m▄[0;1;37;47m░[0m▄      ▐[1;47m░▒[0m▌

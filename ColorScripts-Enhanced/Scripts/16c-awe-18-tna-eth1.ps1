@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-ETH1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-18/raw/TNA-ETH1.ANS
-# Source Revision: archive-sha256:3ece06be07a605d790194aecaf4c2aee0d01c3085ca10c10858ed29a4fc054bb
-# Source SHA-256: 62f8c361636cc184e415d13dc74653fe68208169b69597c59a728bb5734fbb27
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-ETH1.ANS by The Night Angel (AWE Lettering); released in awe-18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Ethereal
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981025
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Ethereal by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-18-tna-eth1
 
 Write-Host '
                                    [34m▄▄[0m                  [34m▄[0m

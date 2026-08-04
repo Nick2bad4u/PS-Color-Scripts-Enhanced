@@ -1,13 +1,4 @@
-﻿# Converted from: MOCODIST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mo-ans1/raw/MOCODIST.ANS
-# Source Revision: raw-sha256:3f1e9754402f5ae6820d895e4aa65c226653a06608189852cca238c5020a176c
-# Source SHA-256: 3f1e9754402f5ae6820d895e4aa65c226653a06608189852cca238c5020a176c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MOCODIST.ANS by Uctumi (mo-ans1); released in mo-ans1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: MOCODIST.ANS by Uctumi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mo-ans1-mocodist
 
 Write-Host '
 [1;32m[0;1;30m[0;1;32m[0;32m[0;37m[0;32m[0;1;30m[0;1;32m[0;32m[0;1;32m[0;32m[0;1;30m[0;1;32m[0;1;30m[0;1;32m[0;1;30m[0;1;32m[0;1;30m[0;1;32m[0;1;30m[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: JZ-TRN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/escape01/raw/JZ-TRN.ANS
-# Source Revision: archive-sha256:8fb76a84502eb67aaaf0a7272ae8f06bcf8f5fa9822bf2bbf425ce8452e1bbfc
-# Source SHA-256: eeb40f560a89f221f2a87d6d44f033fa48ce67a2b821884b99f82abb50c68fdd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JZ-TRN.ANS by Jazz (escape01); released in escape01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: JZ-TRN.ANS by Jazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-escape01-jz-trn-part01
 
 Write-Host '
        [1;30m█[0;1;30;47m▓█[0;1;30;40m█[0m       [1;30;40m▄[0;1;30;47m▓▓[0;1;30;40m█▀  │ │                                         [0m

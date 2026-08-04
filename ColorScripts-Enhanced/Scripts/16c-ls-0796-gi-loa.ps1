@@ -1,18 +1,4 @@
-﻿# Converted from: GI-LOA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ls-0796/raw/GI-LOA.ANS
-# Source Revision: archive-sha256:4ec871e12b8879af34735c7749d7970c0fda5296ee374656216909a4c5128d11
-# Source SHA-256: 80d2b62b99d5799a357bb05bad96c5ed5e37360de4c4453af911532cf0b7a657
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GI-LOA.ANS by giger (leper society); released in ls-0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: library of alexandria menu
-# SAUCE Author: giger
-# SAUCE Group: leper society
-# SAUCE Date: 19960720
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: library of alexandria menu by giger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ls-0796-gi-loa
 
 Write-Host '
        [36m░▓▄▄▄[0m     [36m▄▄▄[0m      [36m▄▄▄▄▄▄▄░[0m                 [37m░▄[0;1;37m▄▄▄▄▄[0m▓[1m▄[0m▄

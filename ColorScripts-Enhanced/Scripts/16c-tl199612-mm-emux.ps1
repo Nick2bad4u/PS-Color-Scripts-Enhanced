@@ -1,18 +1,4 @@
-﻿# Converted from: MM-EMUX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl199612/raw/MM-EMUX.ANS
-# Source Revision: archive-sha256:272b018023f0b5ea55159e057acdcd402c186f8d17b921be9b64ff7fedb6634a
-# Source SHA-256: 607504f7080675c9327ff527f8e57414b70ca0c4d864d9e2a1c2bc207f55e22e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-EMUX.ANS by maytag man (teklordz); released in tl199612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: emu colony x
-# SAUCE Author: maytag man
-# SAUCE Group: teklordz
-# SAUCE Date: 19961206
-# SAUCE Dimensions: 80x48
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: emu colony x by maytag man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl199612-mm-emux
 
 Write-Host '
 [1;33;47m▓[0;1;33;40m██████[0;1;33;47m▀▀▓[0;1;33;40m██[0;1;33;47m▀▀▀▀[0;1;33;40m███[0;1;33;47m▀▀▀[0;1;33;40m██[0;1;33;47m█▓█▀▀[0;1;33;40m█████[0;1;33;47m▀▀▀[0;1;33;40m█████████████████[0;1;33;47m▀▀▀▓▓[0;1;33;40m████████████████[0;1;33;47m▀▀▀[0;1;33;40m█[0m

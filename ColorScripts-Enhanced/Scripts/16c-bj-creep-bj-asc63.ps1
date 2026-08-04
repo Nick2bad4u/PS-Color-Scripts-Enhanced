@@ -1,18 +1,4 @@
-﻿# Converted from: bj-asc63.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bj-creep/raw/bj-asc63.ans
-# Source Revision: archive-sha256:0debf4b45d7d951a68b5333767ded34f656851230e3888db7abc1feaad98e52f
-# Source SHA-256: 7362f0c57bc57c8f410242fd18ea8f9d6e1d2562dcb713c04b6a5dd526e5b9fd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bj-asc63.ans by Black Jack (Odelay [01/18/97]); released in bj-creep and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Maxx Menu (Gloom)
-# SAUCE Author: Black Jack
-# SAUCE Group: Odelay [01/18/97]
-# SAUCE Date: 19970123
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: The Maxx Menu (Gloom) by Black Jack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bj-creep-bj-asc63
 
 Write-Host '
 [1;35m$$S@mmm@S$[0;35m$[0;1;35m$[0;35m$$$[0;1;35m$[0;35m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$b[0;1;33m"ⁿY$$$$b, [0m

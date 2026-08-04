@@ -1,19 +1,4 @@
-﻿# Converted from: ra-phrack1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz21/raw/ra-phrack1.ans
-# Source Revision: archive-sha256:daa0e008ccfccc8179e0635097f8fe4a46a32781b45bbd86ff6e4505514c9e6d
-# Source SHA-256: e21f088047f7598141049994cf3627303ba987c4365a9c3ccd56b292a36906a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ra-phrack1.ans by Randers (LAZARUS); released in laz21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Phrack
-# SAUCE Author: Randers
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20260429
-# SAUCE Dimensions: 80x18
-# SAUCE Font: IBM VGA
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Phrack by Randers | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz21-ra-phrack1
 
 Write-Host '
 [31m░░[0;1;31m░░░[0;31m▀▀[0;37m   [0;31m░[0;37m [0;31m▄[0;37m  [0;31m▒▒▒▒[0;37m  [0;31m░░[0;37m [0;31m■[0;37m  [0;1;31m░▒▓▒[0;31m█░[0;37m [0;31m▀▀▀█▒░[0;37m [0;31m▓▓▄▄[0;37m  [0;31m▒░[0;37m [0;31m▄▓░░░▄▓[0;1;31m▒▒[0;31m▀▀[0;37m  [0;31m▀█[0;37m [0;31m▒▒[0;37m [0;31m░█[0;37m [0;1;34m▄[0m [31m▀█▄[0;37m [0;31m░[0m

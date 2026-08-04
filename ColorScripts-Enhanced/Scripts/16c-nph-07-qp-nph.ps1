@@ -1,18 +1,4 @@
-﻿# Converted from: QP-NPH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-07/raw/QP-NPH.ANS
-# Source Revision: archive-sha256:05b9134433837782e39338bf79fd6ada6d2fc8bfba82437f2c41c6bc37a6d75a
-# Source SHA-256: 4513a7ed797686046bd51c927f0ee09a3238c3bcb5eefed31bc4bcdf06c6f348
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QP-NPH.ANS by Quip (Glue); released in nph-07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: NPH
-# SAUCE Author: Quip
-# SAUCE Group: Glue
-# SAUCE Date: 19990311
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: NPH by Quip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-07-qp-nph
 
 Write-Host '
                                                          [31m░░░ [0m

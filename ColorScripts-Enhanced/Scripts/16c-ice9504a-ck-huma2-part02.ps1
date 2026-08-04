@@ -1,18 +1,4 @@
-﻿# Converted from: CK-HUMA2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9504a/raw/CK-HUMA2.ICE
-# Source Revision: archive-sha256:7e06a69e8d7baf8133687f2e7b917774996272e1a0f23faaff663b1fe4e44657
-# Source SHA-256: 1ab72eef57d702f27f4cb83fe92a30b843fc4208a36e7a1581a599ae6b8e0e7c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CK-HUMA2.ICE by chromatik (.ice%prod!1995.); released in ice9504a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hUmahuma!
-# SAUCE Author: chromatik
-# SAUCE Group: .ice%prod!1995.
-# SAUCE Date: 19950421
-# SAUCE Dimensions: 80x25
-# Lines: 38-72
-# Columns: 1-80
+﻿# Artwork: hUmahuma! by chromatik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9504a-ck-huma2-part02
 
 Write-Host '
 [1;33m█[0;1;33;42m▓▓[0;1;33;40m██[0;1;33;42m▒[0;1;33;40m████▀ ▀[0;1;33;42m▓▓▒▒░▒[0;32m█[0m      [37m█[0;1;37m████[0;1;37;47m▓[0;1;37;40m█[0m█ ▀[1;47m▀▀▀▒[0m▀ [1;31m■[0m▀▀▀▀  [1;31m░    ▀■▄▄ ▄ ▄▌ [0;1;33m░    [0;1;30m▄▄▄▀▀[0m

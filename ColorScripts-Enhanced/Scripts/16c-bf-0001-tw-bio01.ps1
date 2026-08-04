@@ -1,13 +1,4 @@
-﻿# Converted from: TW-BIO01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bf-0001/raw/TW-BIO01.ANS
-# Source Revision: archive-sha256:f87c681397f7629e21dfde6076f0268fb0600aaf1c035b583393117fe27b1134
-# Source SHA-256: 25cf3b1f8695ca30dc7cb5892e9ad898725592612ba007000be5712f03ce0e57
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TW-BIO01.ANS by Twister (bf-0001); released in bf-0001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: TW-BIO01.ANS by Twister | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bf-0001-tw-bio01
 
 Write-Host '
       [1;30m.,s     $$$$$$$$$$$$$$$$$                                     ss,.[0m

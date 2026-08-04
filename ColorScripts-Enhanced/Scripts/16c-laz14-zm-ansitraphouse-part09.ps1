@@ -1,19 +1,4 @@
-﻿# Converted from: ZM-ANSiTRaPHouSE.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz14/raw/ZM-ANSiTRaPHouSE.ans
-# Source Revision: archive-sha256:41b4e3770fbffb058172283f3da2aa00e47c872480cf93fdef94629ebc0751bb
-# Source SHA-256: 4ab97caa605b7e6dfd4894f2b62ed970971e0825d06d372fb502310b7bc5cfe6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZM-ANSiTRaPHouSE.ans by Zeromous (LAZARUS); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ZM-ANSiTRaPHouSE
-# SAUCE Author: Zeromous
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20211214
-# SAUCE Dimensions: 80x765
-# SAUCE Font: IBM VGA
-# Lines: 386-433
-# Columns: 1-80
+﻿# Artwork: ZM-ANSiTRaPHouSE by Zeromous | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz14-zm-ansitraphouse-part09
 
 Write-Host '
 [1;36m  [0;36;47m▐[0;36;40m   [0;1;36;47m▐[0;1;36;40m  [0;1;36;47m▐[0;1;36;40m [0;36;47m▐[0;36;40m   [0;1;36;47m▐[0;1;36;40m [0;36;47m▐[0;37;40m       [0;1;36;47m▐[0;1;36;40m [0;1;36;47m▄[0;1;36;40m   [0;1;36;47m▐[0;1;36;40m   [0;106m▌[0m  [36;47m▐[0;36;40m    [0;37;40m█[0;1;36;40m▌[0m     █[1;36m▌ [0;1;36;47m▐[0;1;36;40m [0;36;47m▐[0;36;40m    [0;37;106m▌[0;30;106m▐[0;37;106m▌[0m     [1;35;45m▀[0;1;35;40m▄▄[0;35m▄[0;1;35m█[0;35m█[0;1;35m▄▄[0;35m▄[0;1;35m█[0;35m█[0;35;105m▒[0m

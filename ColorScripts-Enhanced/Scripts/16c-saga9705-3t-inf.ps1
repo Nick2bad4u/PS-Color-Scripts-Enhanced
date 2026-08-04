@@ -1,18 +1,4 @@
-﻿# Converted from: 3T-INF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/saga9705/raw/3T-INF.ANS
-# Source Revision: archive-sha256:9950004e76ea5c0e6c27ac92b1d4c958f7cea833041843273d527effb62ad1ee
-# Source SHA-256: c7a08ab781310e0f7b0986885cf1e822c97b546502763115f4a67f54c2e5f9ad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 3T-INF.ANS by Ewheat (Saga); released in saga9705 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Soldout Interface
-# SAUCE Author: Ewheat
-# SAUCE Group: Saga
-# SAUCE Date: 19970520
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Soldout Interface by Ewheat | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-saga9705-3t-inf
 
 Write-Host '
 [36m  ▄▄[0;37m [0;1;37;47m [0;1;37;40m███▄▄▄[0;30;46m▄▄▄         [0;1;34;46m▓▓▒[0;30;46m        [0;36;40m▄▄ [0;37;40m  [0;1;34;46m▓▓[0;30;46m   [0;1;34;46m░▒▓█[0;1;34;40m▀[0m   [1;34m▄▄█[0;1;34;44m▓▓▓▓[0;1;34;40m████▄▄[0m  [1;34m▀█▌[0m    [1;34;46m▓▒░[0;30;46m [0;1;34;46m▒[0m

@@ -1,20 +1,4 @@
-﻿# Converted from: us_drinkup.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz16/raw/us_drinkup.ans
-# Source Revision: archive-sha256:b093dd3cb06bf783d59a9df3724c51f9a41f686cd4fd545c920ada008d959f7a
-# Source SHA-256: f394118c219e04638f4c1fe309ac8dc849da507a46b3e3dcc19ca53baa2cd832
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us_drinkup.ans by Warpus + Pinguino (lazarus); released in laz16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 8p wed
-# SAUCE Author: pinguino and warpus
-# SAUCE Group: lazarus
-# SAUCE Date: 20221114
-# SAUCE Dimensions: 40x56
-# SAUCE Font: IBM VGA
-# SAUCE Comments: greetz to eliot, cnelson, redbeard, craig, tacitus, long, al, an | d jeffE
-# Lines: 1-28
-# Columns: 1-40
+﻿# Artwork: 8p wed by Warpus + Pinguino | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz16-us-drinkup-part01
 
 Write-Host '
 [1;30m▓███████████████████████████████████████[0m

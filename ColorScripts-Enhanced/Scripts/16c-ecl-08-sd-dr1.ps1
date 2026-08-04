@@ -1,18 +1,4 @@
-﻿# Converted from: SD-DR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-08/raw/SD-DR1.ANS
-# Source Revision: archive-sha256:0b90c936d49629839c01709c30be5eee3ae4012caa7a8f1570b6ae8cc1763cb4
-# Source SHA-256: 3f95a754965d46b6584a3e79082d3afe873c1a4d4c40154e5c6d804703ca1367
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-DR1.ANS by sirdeath (eclipse); released in ecl-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: demonic rage
-# SAUCE Author: sirdeath
-# SAUCE Group: eclipse
-# SAUCE Date: 19960925
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: demonic rage by sirdeath | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-08-sd-dr1
 
 Write-Host '
                         [33m░[0;30;43m▓[0;33;40m░░░[0;30;43m▓[0;33;40m░[0m    [33;40m▄█[0;1;33;43m [0;43m▄▄[0;33;40m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: XA-TSS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bnd0596/raw/XA-TSS.ANS
-# Source Revision: archive-sha256:090904c20bfa27fd240bfe521ea76cc51377ae2438ade44ded8c0dd43a7d08b5
-# Source SHA-256: 187538a38789cbd034b4649aa185873c6b36af3cf7ed6ee19d006c07292651d0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XA-TSS.ANS by xanthic acid (blind studios); released in bnd0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the sixth sphere
-# SAUCE Author: xanthic acid
-# SAUCE Group: blind studios
-# SAUCE Date: 19960428
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: the sixth sphere by xanthic acid | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bnd0596-xa-tss
 
 Write-Host '
                          [31m▄▄▄█████████[0;1;31m████▄▀███████▄▄  [0m

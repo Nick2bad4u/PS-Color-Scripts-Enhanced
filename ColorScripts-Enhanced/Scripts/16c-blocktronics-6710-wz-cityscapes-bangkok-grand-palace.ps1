@@ -1,19 +1,4 @@
-﻿# Converted from: WZ - Cityscapes - Bangkok Grand Palace.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-6710/raw/WZ%20-%20Cityscapes%20-%20Bangkok%20Grand%20Palace.ans
-# Source Revision: archive-sha256:65fe9e2a2e2016f30e4b0141be2d1472e9b7cc814d922f9663e0d0a04142d70a
-# Source SHA-256: 5469545ac01ee23c4788a18c8bafd72227831ed558144d1c2c2e3a63d9a6ed6d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WZ - Cityscapes - Bangkok Grand Palace.ans by Whazzit (Blocktronics); released in blocktronics-6710 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Cityscapes - Bangkok Grand Palace
-# SAUCE Author: Whazzit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20180802
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Cityscapes - Bangkok Grand Palace by Whazzit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-6710-wz-cityscapes-bangkok-grand-palace
 
 Write-Host '
 [1;36;40m███████████████████████████████████████▌[0;1;33;40m▐█▐[0;1;36;40m ██████████████████████[0m [1;33m█[0;1;33;41m▒▒[0;1;33;40m▌█[0;31m████████[0m

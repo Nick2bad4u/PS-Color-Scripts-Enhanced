@@ -1,18 +1,4 @@
-﻿# Converted from: PZK-AGEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook22/raw/PZK-AGEN.ANS
-# Source Revision: archive-sha256:aec74908b08ab1e6eeb2617f04dd839f89321bd6f70d460ae94d73bdd51d69b6
-# Source SHA-256: ff633230563d764ec11208dc31f0b00323a043c7874c92e3e3803ab7fbb84ad0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PZK-AGEN.ANS by potzkoten (black maiden); released in bmbook22 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: agency
-# SAUCE Author: potzkoten
-# SAUCE Group: black maiden
-# SAUCE Date: 20001026
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: agency by potzkoten | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook22-pzk-agen
 
 Write-Host '
 

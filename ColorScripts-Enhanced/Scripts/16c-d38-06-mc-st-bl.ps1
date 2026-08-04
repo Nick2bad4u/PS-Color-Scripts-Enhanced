@@ -1,18 +1,4 @@
-﻿# Converted from: MC!ST-BL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-06/raw/MC!ST-BL.ANS
-# Source Revision: archive-sha256:4c9f598b864a923147eb394591cb120a43a087e70e3844ab4ff73e06903fa178
-# Source SHA-256: 3c1937fea607c81914ccf9f2e68e2054c1caddafe5ecb4f44b435db947faebbd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MC!ST-BL.ANS by Sad dood Madcap (d38); released in d38-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Stormblade
-# SAUCE Author: Sad dood Madcap
-# SAUCE Group: d38
-# SAUCE Date: 19970511
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Stormblade by Sad dood Madcap | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-06-mc-st-bl
 
 Write-Host '
 [1;33m [0;1;30m▄▄  ■▄[0;1;30;47m▀▀[0;1;30;40m▄  ─▄▄▄▄_ ▄▄▄   ■▀▀[0m

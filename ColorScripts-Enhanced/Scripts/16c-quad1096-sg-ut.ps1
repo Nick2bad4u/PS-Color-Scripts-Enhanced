@@ -1,18 +1,4 @@
-﻿# Converted from: SG-UT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad1096/raw/SG-UT.ANS
-# Source Revision: archive-sha256:6e8c166fa2bd984d99dfd9314d5fa194e51541b9445f04c7962b2818cada06d5
-# Source SHA-256: 3444d1c166c640fdcdae2ad61fea6fc064a67f4bbab7b5a6459e811a2992b987
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SG-UT.ANS by stygian (Quad-P); released in quad1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Unsettling Trend
-# SAUCE Author: stygian
-# SAUCE Group: Quad-P
-# SAUCE Date: 19960925
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Unsettling Trend by stygian | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad1096-sg-ut
 
 Write-Host '
                [1;30m                                            [0m

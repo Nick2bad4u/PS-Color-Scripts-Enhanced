@@ -1,18 +1,4 @@
-﻿# Converted from: TE-SHOP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-17/raw/TE-SHOP1.ANS
-# Source Revision: archive-sha256:154ac874f13e20433925bb99a4f5e0a4299764bee7ed4d28bdaffd9ad392f554
-# Source SHA-256: d72ea7a082e928b4993e940b206fbce5ec940bdd415ba2a18b4d28823edadcd7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-SHOP1.ANS by thext (Glue); released in glue-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The SkateShop
-# SAUCE Author: thext
-# SAUCE Group: Glue
-# SAUCE Date: 19981127
-# SAUCE Dimensions: 80x160
-# Lines: 83-122
-# Columns: 1-80
+﻿# Artwork: The SkateShop by thext | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-17-te-shop1-part03
 
 Write-Host '
 [31;40m▀[0;1;31;41m▒▒░[0;31m▌[0;33m▐██▌[0;30;47m▌[0;1;37;47m█▒░[0;30;47m▒[0;31;40m░▌[0;1;37;47m▒▓░[0;30;47m▒▓[0;31;40m▐▌[0;30;47m▌[0;1;37;47m▓░[0;30;47m░▐[0;31;40m▐[0;1;31;41m░[0;31m▒▀▀[0;30;47m█[0;31;40m ▄[0;1;31;41m░░░░░░ ░░░[0;31m▄ ▀▀▀   ▐▒[0;37m▒[0;1;37;47m▐▓▓▒[0;30;47m▐[0;33;40m▐▌[0;37;40m▓[0;1;37;47m▒▒ [0;30;47m█[0;33;40m▌[0;30;47m▌[0;1;37;47m░▒▒[0;30;47m██[0;33;40m█▌[0;31;40m▐[0m

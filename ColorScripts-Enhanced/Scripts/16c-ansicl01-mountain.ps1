@@ -1,13 +1,4 @@
-﻿# Converted from: MOUNTAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansicl01/raw/MOUNTAIN.ANS
-# Source Revision: raw-sha256:8e77d0fcd118e789f0a9129fb325f503d74b27ba6a5e1b2e47099ff4f0c9b163
-# Source SHA-256: 8e77d0fcd118e789f0a9129fb325f503d74b27ba6a5e1b2e47099ff4f0c9b163
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MOUNTAIN.ANS by Ansi-Mation (ansicl01); released in ansicl01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: MOUNTAIN.ANS by Ansi-Mation | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansicl01-mountain
 
 Write-Host '
 [1;33;41m█████████[0;1;33;43m▀▀▀▀▀▀▀    [0;35;43m▄▄▄▄▄▄▄         ▀▀▀█[0;1;35;45m▀▀▀▀██████▀▀▀▀▀[0;35;43m███    [0;1;33;43m▄▄▄▄▄▄▄     [0;35;43m█[0;1;35;45m▀▀▀█[0;1;37;40m [0m

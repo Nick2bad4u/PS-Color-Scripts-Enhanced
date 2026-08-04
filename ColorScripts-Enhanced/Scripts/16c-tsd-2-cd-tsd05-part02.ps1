@@ -1,13 +1,4 @@
-﻿# Converted from: CD-TSD05.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tsd-2/raw/CD-TSD05.ANS
-# Source Revision: raw-sha256:0880ac4bdaf965922ab675a2157e59e421446df78d4ee0978ee638c3e9789f45
-# Source SHA-256: 0880ac4bdaf965922ab675a2157e59e421446df78d4ee0978ee638c3e9789f45
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CD-TSD05.ANS by Drakula (tsd-2); released in tsd-2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 48-95
-# Columns: 1-80
+﻿# Artwork: CD-TSD05.ANS by Drakula | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tsd-2-cd-tsd05-part02
 
 Write-Host '
 [34m▄[0;1;34;44m░▒▓█████[0;34m▄▄▄▄▄[0m                                                     [34m▀▄▄▄▄▀█▀[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: CL-SILK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9703/raw/CL-SILK.ANS
-# Source Revision: archive-sha256:a9939674ffea8dfd0fb24f05e2f11874539fc93155c2d5ed5e55e91f76634858
-# Source SHA-256: 634157a4a29922834e82998de13856a8d1d31e79e9863a3262ca2d9d14d7c164
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL-SILK.ANS by Colourless (AWE Lettering); released in awe9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Silk Menu
-# SAUCE Author: Colourless
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Silk Menu by Colourless | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9703-cl-silk
 
 Write-Host '
 [32m▄▌[0m     [32m░[0;30;42m░[0;1;32;42m░▀[0;32m▌▀    [0;33m░  [0;32m▀[0m       [32m▀   [0;1;32m▄ ▄[0;1;32;42m▓░[0;32m▄ ▄▄▄ ▄  [0;1;37ms i l k  [0;32m▄ ▄▄  ▄▄ ▄[0;1;32;42m▄[0;32m▄  ▄   [0;33m░▄▄ ▀ [0;32m░[0m

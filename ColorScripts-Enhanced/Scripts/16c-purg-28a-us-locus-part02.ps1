@@ -1,13 +1,4 @@
-﻿# Converted from: US-LOCUS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-28a/raw/US-LOCUS.ANS
-# Source Revision: archive-sha256:669a3b2581e14a5833069935afb64ae37f0170b529a0790c843976a384bb8a02
-# Source SHA-256: 02a79379a5bcf0c5285d4fb94b79a3b481019be6dae65743bafddc60c243e9a9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-LOCUS.ANS by Slackzor + Avenging Angel (purg-28a); released in purg-28a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 45-73
-# Columns: 1-80
+﻿# Artwork: US-LOCUS.ANS by Slackzor + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-28a-us-locus-part02
 
 Write-Host '
                  [37m░░[0m     [37m▄ [0;1;37m▀[0m▀

@@ -1,15 +1,4 @@
-﻿# Converted from: US-TEA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-27/raw/US-TEA.ANS
-# Source Revision: archive-sha256:e8bf58cc122c409f38ea24bc96ba28ef7e1ff6b9bf8c75a703d281ce7b281062
-# Source SHA-256: 6558e2f98bca47cdb200cd2cc740c3e59070615c1ec01df5b702d71c094bedf2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TEA.ANS by Somberlain + Zerovision (glue-27); released in glue-27 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 19991104
-# SAUCE Dimensions: 80x100
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: US-TEA.ANS by Somberlain + Zerovision | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-27-us-tea-part01
 
 Write-Host '
       [1;30m░ [0m  [1;30;43m▓[0;1;30;40m▀▐ [0m    [1;30;43m▓[0;1;30;40m▌[0m              [1;30m▄▄▄▄▄[0;1;30;43m▓▓[0;1;30;40m▀ [0m     [1;30m▐▌▀▀[0;1;30;43m▓▓[0;1;30;40m▀▀█▌[0m   [1;30m░░░[0m     [1;30;43m▓▓[0;1;30;40m▀▄▄[0m

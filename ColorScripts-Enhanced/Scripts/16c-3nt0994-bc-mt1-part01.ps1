@@ -1,13 +1,4 @@
-﻿# Converted from: BC-MT1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/3nt0994/raw/BC-MT1.ANS
-# Source Revision: archive-sha256:8c4f630d748c04d180e6f0e7fbedf4e14617b11d9acbb0f34bb011e1bbc79693
-# Source SHA-256: b66cddd438bf9ad1ff67aee2ea779142be5b7b4710d64f6369aa79011737a237
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BC-MT1.ANS by Beyond Cool (3nt0994); released in 3nt0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: BC-MT1.ANS by Beyond Cool | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-3nt0994-bc-mt1-part01
 
 Write-Host '
 [1;30m┌[0m [35m▄▄████▄▄████▀██▀▀▄███▄▄▀███▀▄▄██▀█▄█▄█[0m [1;30m───────────-───────[0m──[1m──[0m──[1;30m─∙───────────┐[0m

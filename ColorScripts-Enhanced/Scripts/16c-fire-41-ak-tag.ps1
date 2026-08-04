@@ -1,19 +1,4 @@
-﻿# Converted from: AK-TAG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/AK-TAG.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: f9761f864de0fb3231be5f2f051f6126909de02a286503bdb7a686f61dcdaddf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-TAG.ANS by abstrakt (fire); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the art gallery
-# SAUCE Author: abstrakt
-# SAUCE Group: fire
-# SAUCE Date: 20241111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: the art gallery by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-ak-tag
 
 Write-Host '
 [1;30m.┌d┘`[0;32m.┌j[0;1;32m\┘`[0;32m.djP[0;1;32m┘`     [0;32m~[0;1;32m`''[0;32m└/┐▬[0;1;32m,[0;32m.[0;37m [0;1;30m`''^~[0;1;32m.,[0;32ma$[0;1;32m [0;1;30m.$;[0;32m db.  [0;31mthe[0;1;30m___[0;33mart  [0;32mjb [0;1;32m`[0;32m┐  [0;1;30m:$b ,.[0m  [31mabs[0m

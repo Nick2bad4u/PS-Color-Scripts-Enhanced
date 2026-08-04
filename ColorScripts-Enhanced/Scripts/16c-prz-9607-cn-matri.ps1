@@ -1,18 +1,4 @@
-﻿# Converted from: CN-MATRI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/prz-9607/raw/CN-MATRI.ANS
-# Source Revision: archive-sha256:c9c5cc7ecf1f26596c4d88f592166c82d585c7e5de1be5fa6d5e25ebed6d7d14
-# Source SHA-256: 4af4d0d8de8ce0bbd7c20c95aff0f149059e24be4e5044af72005cab1333b9ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CN-MATRI.ANS by cybernide (pharazoone); released in prz-9607 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: mnemonic warfare matrix
-# SAUCE Author: cybernide
-# SAUCE Group: pharazoone
-# SAUCE Date: 19960611
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: mnemonic warfare matrix by cybernide | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-prz-9607-cn-matri
 
 Write-Host '
    [1;33m                           [0m▄▄[1;30m▄[0m▄▄▄▄[30m••••••••••••••••••••••••••••••••••••••••••[0m

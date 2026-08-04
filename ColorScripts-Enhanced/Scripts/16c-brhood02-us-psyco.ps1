@@ -1,18 +1,4 @@
-﻿# Converted from: US-PSYCO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/brhood02/raw/US-PSYCO.ANS
-# Source Revision: archive-sha256:3116c5502285672e08ebd3993834dcfa2070529c71dc4b0a25ebc4b675dbf891
-# Source SHA-256: 6cf145de7eae4ccbf6517858665e7649c364e642442dd5b3a35bc514de5d4677
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PSYCO.ANS by Tung Lo + Retribution + Spirit Of Rage (brotherhood); released in brhood02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: psycosis
-# SAUCE Author: tung lo + ret + sor
-# SAUCE Group: brotherhood
-# SAUCE Date: 19990103
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: psycosis by Tung Lo + Retribution + Spirit Of Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-brhood02-us-psyco
 
 Write-Host '
 [30;44m▓░[0;1;34;44m░▒▓█[0;1;34;47m▓▓[0;1;34;44m███▀▀[0;34m▀▀▀   [0;37m  [0;33m▄▄▄▄▄▄▄▄▄[0;1;33;43m▄▄▄▄[0;1;33;40m▄[0m [33m▄[0;1;33m▄[0m [34m  ▀[0;1;34;44m▀█[0;1;34;47m▓[0;1;34;44m▓▒░[0;30;44m░▓[0;37;40m [0;1;37;47m▄[0;1;37;40m█[0m [1;30m▀[0;36m [0;1;30m▀[0;36m▀ [0;1;30m▀▀[0;36m▀▀▀▀▀[0;1;36m▀[0;36m▀[0;1;36m▀▀[0;36m▀[0;1;36m▀▀▀▀[0;1;36;46m▀▀█[0;1;37;46m██[0m

@@ -1,15 +1,4 @@
-﻿# Converted from: US-SOC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-02/raw/US-SOC.ANS
-# Source Revision: archive-sha256:39d2334584977ac14b33f06b2f4e2bf93d1902538006b996fc8bb6135cc5d15c
-# Source SHA-256: 5f663834143624d2d71050bbbf384f8fbd7e3fa2f684a57426c7b4edf7eb0e7a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SOC.ANS by The Ruiner + Spear + Archangel (glue-02); released in glue-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 19970827
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: US-SOC.ANS by The Ruiner + Spear + Archangel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-02-us-soc
 
 Write-Host '
                     [33m▄▄[0;1;33m▄▄▄          [0m                 [1;37m  [0m

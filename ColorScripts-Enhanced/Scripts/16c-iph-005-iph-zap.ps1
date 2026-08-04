@@ -1,13 +1,4 @@
-﻿# Converted from: IPH-ZAP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/iph-005/raw/IPH-ZAP.ANS
-# Source Revision: archive-sha256:5083160f204542cf4ea381807107db4dc86bfcf92bc83d81d604fa0e33c64b14
-# Source SHA-256: 7125b8003216dd7f17fc5126206fee28aa42947aee8c656c4d54662bef1e51e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IPH-ZAP.ANS by Interphaze (iph-005); released in iph-005 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: IPH-ZAP.ANS by Interphaze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-iph-005-iph-zap
 
 Write-Host '
       [1;30m.,s#$$$$$##s,._  [0;1;32ms[0;32m,_   [0;1;30m~"ⁿ$$$$$$$$$$$$$$$SSSSSS#####smms   .,.__[0m

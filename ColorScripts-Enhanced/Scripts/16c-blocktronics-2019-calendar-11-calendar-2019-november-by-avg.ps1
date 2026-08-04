@@ -1,16 +1,4 @@
-﻿# Converted from: _11_Calendar_2019_November_by_avg.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-2019-calendar/raw/_11_Calendar_2019_November_by_avg.ans
-# Source Revision: archive-sha256:5dcb03d3562fc71c1bd681e0b01704387df6a6764ee8c64c58f8fc5646036621
-# Source SHA-256: 121bce053d0416529ee79f5635d3fd86a95c8326940815ad82a5e2edd1b5a12b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _11_Calendar_2019_November_by_avg.ans by Avenging Angel (blocktronics-2019-calendar); released in blocktronics-2019-calendar and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20181014
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: _11_Calendar_2019_November_by_avg.ans by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-2019-calendar-11-calendar-2019-november-by-avg
 
 Write-Host '
 [37;40m███[0;1;37;47m░[0m██████[36;47m██[0;1;37;47m█[0m████[1;47m ░[0;36;47m■[0;37;40m█████[0;1;37;47m█▄[0;36;47m▄[0;37;40m███████[0;1;37;47m▄▄[0;36;47m■[0;37;40m██████ [0;1;30;40m▄[0m▀▀▀██[1;47m█▌[0m██████████[36;47m░[0;37;40m████[0;1;37;47m▐▌[0m█████[1;47m██▌ █[0m

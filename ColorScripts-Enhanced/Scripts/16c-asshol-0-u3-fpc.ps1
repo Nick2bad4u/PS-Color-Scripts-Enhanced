@@ -1,13 +1,4 @@
-﻿# Converted from: U3-FPC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/asshol-0/raw/U3-FPC.ANS
-# Source Revision: archive-sha256:e1ef34d839551b8dbf250f2cd801253e9605ddc8d53b358d1401c5bfc5e8fdba
-# Source SHA-256: c94dd5a8f71ed0f3a1613dc00a60b76a391779ae1095e53db04286fa5a65b9c9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: U3-FPC.ANS by Unseen Fate (asshol-0); released in asshol-0 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: U3-FPC.ANS by Unseen Fate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-asshol-0-u3-fpc
 
 Write-Host '
                       [36m     [0;37m▄▓[0;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;30;46m░[0;36;40m▓█[0;1;36;46m░▓▓██[0;1;36;47m█[0;1;36;46m██████████████████████████[0;1;37;40m██[0m

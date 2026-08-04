@@ -1,20 +1,4 @@
-﻿# Converted from: n(_rn_ad.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nms_pack1/raw/n(_rn_ad.ans
-# Source Revision: archive-sha256:f99a1419a85f2107a1ef905f45d33edf79d1a955e17b541807601af9adb4edeb
-# Source SHA-256: dad7fef9a59136a4a896a58f3a13f1f0c80a8af631956a880d7f6529c24dff3e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: n(_rn_ad.ans by nemesulku (acid rain); released in nms_pack1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Rat's Nest ad
-# SAUCE Author: nemesulku
-# SAUCE Group: acid rain
-# SAUCE Date: 19980329
-# SAUCE Dimensions: 80x23
-# SAUCE Font: IBM VGA
-# SAUCE Comments: A Rat's Nest ad.. Absolutely no idea what that "when creamcakes |  aren't effective enough" means... :D - bracket
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Rat's Nest ad by nemesulku | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nms-pack1-n-rn-ad
 
 Write-Host '
 [1;31;40m                       [0;1;30;41m░[0m [31m▄▄▄▄▄▄▄▄▄▓▀▀▀▀▀▀▓▄▄[0;1;30m   [0;31m▒▓▀▀▀▀▀▀▓▒[0;1;31m                     [0m

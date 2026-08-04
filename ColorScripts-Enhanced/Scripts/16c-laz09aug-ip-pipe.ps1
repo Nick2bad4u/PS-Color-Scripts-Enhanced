@@ -1,16 +1,4 @@
-﻿# Converted from: IP-PIPE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz09aug/raw/IP-PIPE.ANS
-# Source Revision: archive-sha256:3e0bd3039fe877b3970f71e80b4456ee60793f2295ae127a50a6587b17c2d6a2
-# Source SHA-256: c4764e6adf8133703e292cf85535adc107c5305f371aefeb4684aa4ac87d78ac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IP-PIPE.ANS by impulse (lazarus, force); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: pipe font
-# SAUCE Author: impulse
-# SAUCE Group: lazarus, force
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: pipe font by impulse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz09aug-ip-pipe
 
 Write-Host '
                      [1;34m       [0m        [1;34m       [0m     [1;34m░░[0m         [1;33m▄[0m

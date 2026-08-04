@@ -1,18 +1,4 @@
-﻿# Converted from: CL-PURG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-12/raw/CL-PURG.ANS
-# Source Revision: archive-sha256:93009ef2428cf6d1d5b92901c0cee47e80f99136cfeafe1b1a7907fe5c2def30
-# Source SHA-256: 4f405eb45482a57a367566a837511e2a96263f799156ce357195397a7a1db9e5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL-PURG.ANS by cLEANEr (pURG!LOGOs); released in purg-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: pURG!LOGo
-# SAUCE Author: cLEANEr
-# SAUCE Group: pURG!LOGOs
-# SAUCE Date: 19980217
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: pURG!LOGo by cLEANEr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-12-cl-purg
 
 Write-Host '
                   [1;31m▄▄ ▄[0;1;31;41m▀▀▀[0;1;31;40m [0;1;31;41m▀▀▀[0;1;31;40m▄ ▄▄[0m                    [1;31;40m▄▄ ▄[0;1;31;41m▀▀▀[0;1;31;40m [0;1;31;41m▀▀▀[0;1;31;40m▄ ▄▄[0m

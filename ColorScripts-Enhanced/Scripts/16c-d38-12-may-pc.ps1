@@ -1,13 +1,4 @@
-﻿# Converted from: MAY^PC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-12/raw/MAY%5EPC.ANS
-# Source Revision: archive-sha256:410083659cbc6eaaec3d23ed9548f99302029f4a7b459c350ecaa6d1820b2874
-# Source SHA-256: a0c5810a773a3ed94e1692745b187a811fce68db15aa23787685f15ecf72c7f2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MAY^PC.ANS by Mayhem (d38-12); released in d38-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: MAY^PC.ANS by Mayhem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-12-may-pc
 
 Write-Host '
 [1;35;45m▒████▄[0;35m██▄▄██[0;1;30;45m░▒▓[0;1;30;40m▒░[0m                                       [1;30m░[0m [1;30m░░▒▓[0;35m▓[0;37m [0;1;30m▒▒[0;35m▄▄▄▄▄[0;37m [0;35m▓▓[0m   [1;30m▒[0m

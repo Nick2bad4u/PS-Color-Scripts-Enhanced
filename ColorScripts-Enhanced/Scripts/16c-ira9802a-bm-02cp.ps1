@@ -1,18 +1,4 @@
-﻿# Converted from: BM-02CP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira9802a/raw/BM-02CP.ANS
-# Source Revision: archive-sha256:157ead14d43652aeef2256f394202c3af23e0a670018a92df40a323cb79405f8
-# Source SHA-256: c0332ba43b867c7dd36a6113dd5347b15e58850ba99db9b7d96e8958162359dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BM-02CP.ANS by bloodmage (irato); released in ira9802a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: cystic prophecy
-# SAUCE Author: bloodmage
-# SAUCE Group: irato
-# SAUCE Date: 19980114
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: cystic prophecy by bloodmage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira9802a-bm-02cp
 
 Write-Host '
            [1;30m▄[0m  [1;30m▀[0m    [1;30m▄▄█▀▀[0;31m▄▄▄[0;37m  [0;31m▄[0;37m  [0;1;30m▓[0m    [31m▄▄▄▄▄[0;37m [0;1;30m▀[0m [31m▄▄▄▄▄[0;37m  [0;31m▄[0m    [31m▄▄▄[0;1;30m▀█▄▄[0m  [1;30m▀[0m

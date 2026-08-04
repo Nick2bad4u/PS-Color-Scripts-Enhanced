@@ -1,18 +1,4 @@
-﻿# Converted from: SPH_CRAC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/soda05/raw/SPH_CRAC.ANS
-# Source Revision: archive-sha256:edcd8c09880ef83cd065aedbbbd49213c8a0498be75fefb823526ab25fd48e6f
-# Source SHA-256: 2682fcb72e5e240c8f002b5be9d6a236ac758b2c4cb41039af2eabc8e73de96f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPH_CRAC.ANS by sephiroth (s0d4p0p); released in soda05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: crack
-# SAUCE Author: sephiroth
-# SAUCE Group: s0d4p0p
-# SAUCE Date: 19991113
-# SAUCE Dimensions: 80x72
-# Lines: 41-71
-# Columns: 1-80
+﻿# Artwork: crack by sephiroth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-soda05-sph-crac-part02
 
 Write-Host '
 [32m▐[0;1;32m▓[0;1;37;42m▒[0;1;32;42m█[0;32m▌░[0;37m  [0;32m██[0m      [32m [0;37m  [0;1;32;42m▒░[0;32m█[0m     [32m▐[0;1;32;42m▓▓[0;32m▌░[0;37m  [0;32m▀█  [0;37m [0;32m░[0m      [32m [0;1;32;42m░░▒[0;30;42m▓[0;32;40m▐██[0;1;32;42m░[0m   [32m██[0;37m  [0;32m▀▓[0;1;32;42m▀[0;32m▌▐[0;1;32;42m▒▓▒[0;32m ░▄▄[0;1;32;42m▄█▀[0;32m▀[0m

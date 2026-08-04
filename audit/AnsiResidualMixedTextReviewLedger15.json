@@ -1,0 +1,74 @@
+{
+    "schemaVersion": 1,
+    "reviewedAt": "2026-07-29",
+    "normalization": "SHA-256 of UTF-8 rendered row text after ANSI-control removal and outer-whitespace trimming.",
+    "policy": "Human-reviewed readable prose, dialogue, generic menu fields, captions, and placeholder copy found by disjoint punctuation, clustered-row, short-multiword, single-caption, and full-context follow-up review were blanked when row-level redaction preserved the surrounding ANSI artwork, controls, backgrounds, and geometry. Artist and group attribution, titles, filenames, dates, source-significant labels, repeated lettering used as structural texture, and large typographic art were retained.",
+    "summary": {
+        "candidateFiles": 4,
+        "evidenceRows": 5,
+        "categoryRows": {
+            "alternative-punctuated": 2,
+            "alternative-short-multiword": 1,
+            "alternative-punctuated+manual-placeholder-followup": 2
+        }
+    },
+    "candidates": [
+        {
+            "action": "blank-text",
+            "category": "alternative-punctuated+manual-placeholder-followup",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 6,
+                    "sha256": "4b0ae52bceef6fa2e9763402fa1aa30925fe02afe54c8205c54ad44f95f6074f"
+                }
+            ],
+            "file": "16c-fsn-0397-iz-gulpm.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-short-multiword",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 5,
+                    "sha256": "914faff72d91a6ca1acd5ef868d446eb9d6311cf89457fbc66804f3a5f79bc42"
+                }
+            ],
+            "file": "16c-ice-200206a-e0-3pcs.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-punctuated",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 5,
+                    "sha256": "b6f5315c1e15678a076f6e773ba24e963d0f7d5b8d8a09e91d85820dc97ea9af"
+                }
+            ],
+            "file": "16c-rmtz-2-sf-anime.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        },
+        {
+            "action": "blank-text",
+            "category": "alternative-punctuated",
+            "evidence": [
+                {
+                    "action": "blank-text",
+                    "row": 10,
+                    "sha256": "2aa5457643d1cc9fe0a33e789b74665f702831b0210fea32fd6abf38dc63a60c"
+                },
+                {
+                    "action": "blank-text",
+                    "row": 24,
+                    "sha256": "6b445569e580b3e1410c9025a74375bd2595d8f34d5c82fd5a1321ffedd37ed0"
+                }
+            ],
+            "file": "16c-twst-12-catch-02.ps1",
+            "rationale": "Human-reviewed readable text is separable from the retained ANSI artwork on these rows."
+        }
+    ]
+}

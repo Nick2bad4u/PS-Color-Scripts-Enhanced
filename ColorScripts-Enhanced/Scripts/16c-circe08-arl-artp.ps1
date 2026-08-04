@@ -1,18 +1,4 @@
-﻿# Converted from: ARL-ARTP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe08/raw/ARL-ARTP.ANS
-# Source Revision: archive-sha256:cfc36d5daeed2f6543814097ace687f378a50215c24a95a0de66b512e3a41b9d
-# Source SHA-256: 61aec16f14eb8b4b8e9977643e605cb219a9fff74011f706e8c229093cc611b4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARL-ARTP.ANS by arlequin (circe); released in circe08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: freakk
-# SAUCE Author: arlequin
-# SAUCE Group: circe
-# SAUCE Date: 19990331
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: freakk by arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe08-arl-artp
 
 Write-Host '
 [34m▓▀[0m

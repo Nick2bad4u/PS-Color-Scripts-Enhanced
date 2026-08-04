@@ -1,18 +1,4 @@
-﻿# Converted from: RS-TOAST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9704/raw/RS-TOAST.ANS
-# Source Revision: archive-sha256:f29d1a72731ce9383841840bc86b0749ff1457d1c25c6a64baa5adfdac9e6943
-# Source SHA-256: d05da936cc1da7620a2a982d75fd4efa830a29982264faf71b2e8b3b9af01a0a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-TOAST.ANS by rorshack (Maiden Brazil); released in mdn-9704 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: toast
-# SAUCE Author: rorshack
-# SAUCE Group: Maiden Brazil
-# SAUCE Date: 19970331
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: toast by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9704-rs-toast
 
 Write-Host '
 [1m███[0;1;32m███████▓▓░ [0m [1;32m▀[0m [33m▄▄▄█[0;37m [0;32m ███[0;36;42m░░[0;32;46m▒[0;36;42m▓[0;32;46m░░[0;36;40m███▀▀▀[0;1;36;40m▀[0;36m▀[0;1;36m▀▀█[0;1;37m██[0;1;36m▀▀▀[0;36m▀▀[0;1;36m▀[0;36m▀▀█▀▀[0;32m▀[0;36m▀▀▀[0;32m▀▀▀[0;36m▀[0;32m▀███▀▀▀▀[0;1;32;42m░▓███[0;1;37;40m██[0m

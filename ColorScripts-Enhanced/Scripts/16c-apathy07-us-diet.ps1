@@ -1,18 +1,4 @@
-﻿# Converted from: US-DIET.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy07/raw/US-DIET.ANS
-# Source Revision: archive-sha256:cf53c4ea5c286717abe3d962fb98452e352d7d7a30a31881220e7068a7f0bb79
-# Source SHA-256: 2107a449ab1f3c3d8dd747c6e7fa5ba8bbe15fb51579cefd3a21e07c40f7a480
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DIET.ANS by Apox + Crayon (Apathy); released in apathy07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Diet Cola
-# SAUCE Author: Apox/Crayon
-# SAUCE Group: Apathy
-# SAUCE Date: 19960303
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Diet Cola by Apox + Crayon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy07-us-diet
 
 Write-Host '
 

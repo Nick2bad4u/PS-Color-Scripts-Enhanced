@@ -1,18 +1,4 @@
-﻿# Converted from: SYL-SNTX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fdr-01/raw/SYL-SNTX.ANS
-# Source Revision: archive-sha256:9413b8317ae532a8321557d5d3d1cb08aadb3372c739437bc2fde54e7706a363
-# Source SHA-256: 337422a2b6903c78a9ac654597c576b3374e6844ef68dd15b9549cce61b5c602
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SYL-SNTX.ANS by Sylvao (Fire Dream); released in fdr-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Syntax 2012
-# SAUCE Author: Sylvao
-# SAUCE Group: Fire Dream
-# SAUCE Date: 20121113
-# SAUCE Dimensions: 80x94
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: Syntax 2012 by Sylvao | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fdr-01-syl-sntx-part01
 
 Write-Host '
 [1;33;104m█████▓▓▒░░[0;1;34m████████████████████████████████████████████████████[0;1;37;104m░░░▒▒▒▓▓▓▓▓▓▓█████[0m

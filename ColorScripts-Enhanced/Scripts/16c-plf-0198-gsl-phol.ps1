@@ -1,18 +1,4 @@
-﻿# Converted from: GSL-PHOL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0198/raw/GSL-PHOL.ANS
-# Source Revision: archive-sha256:463d77f4b1466b54ce907e7ee760282fc69f7183ee8d9f351965b1f5ce417b30
-# Source SHA-256: a63dd11252f68dbf92271b7f83fa30816f80c22f39192943e8a8ef96b8dbb089
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GSL-PHOL.ANS by gasol (plf); released in plf-0198 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: phromeh?let
-# SAUCE Author: gasol
-# SAUCE Group: plf
-# SAUCE Date: 19980117
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: phromeh?let by gasol | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0198-gsl-phol
 
 Write-Host '
                                                                  [1;30m▐[0;1;33;43m▄[0;33m▄[0m

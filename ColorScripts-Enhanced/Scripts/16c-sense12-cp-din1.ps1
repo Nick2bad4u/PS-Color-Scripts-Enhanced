@@ -1,18 +1,4 @@
-﻿# Converted from: CP-DIN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense12/raw/CP-DIN1.ANS
-# Source Revision: archive-sha256:72a1d185ef815e3805a380072164234a2a5581149ba3dc403bf27328a83a059a
-# Source SHA-256: 7e5bb96f713d1627eee837a7f3e8264ee2c6b99605e91fbae080ceda68baaef9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CP-DIN1.ANS by cyberphreak (sense); released in sense12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dinotion promo
-# SAUCE Author: cyberphreak
-# SAUCE Group: sense
-# SAUCE Date: 19980729
-# SAUCE Dimensions: 80x25
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: dinotion promo by cyberphreak | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense12-cp-din1
 
 Write-Host '
 [1;30m--------------------------------------------------------------------------------[0m

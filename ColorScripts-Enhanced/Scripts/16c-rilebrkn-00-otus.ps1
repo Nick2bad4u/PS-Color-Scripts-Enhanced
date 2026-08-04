@@ -1,19 +1,4 @@
-﻿# Converted from: 00-OTUS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rilebrkn/raw/00-OTUS.ANS
-# Source Revision: archive-sha256:631709d46940d5f633b8ebca426a515d51357cee4cca25bed435a2a8fbf53a10
-# Source SHA-256: 63d8c8fee8bad775f7b2443b5df91821f672fbf46de468d024e912da4ded7c65
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 00-OTUS.ANS by wave (rile); released in rilebrkn and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: a stats screen for me.
-# SAUCE Author: wave
-# SAUCE Group: rile
-# SAUCE Date: 19970313
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: hoho. phear this
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: a stats screen for me. by wave | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rilebrkn-00-otus
 
 Write-Host '
               [33m  [0m                       [33m▄▄▄▄▄ [0m                             [34m [0m

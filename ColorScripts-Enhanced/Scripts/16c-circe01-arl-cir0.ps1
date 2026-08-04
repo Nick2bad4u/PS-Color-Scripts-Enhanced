@@ -1,13 +1,4 @@
-﻿# Converted from: ARL-CIR0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe01/raw/ARL-CIR0.ANS
-# Source Revision: archive-sha256:0b64c26f533b8c11a1aca04e7dcc1e21d4b014c2d6532ba66a48148862d54cb2
-# Source SHA-256: 9b3107ed1fbd32d28c4ff77acc13d0cb5ed4db8d05bfbc9d6315950ffa4e8ce4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARL-CIR0.ANS by Arlequin (circe01); released in circe01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-12
-# Columns: 1-80
+﻿# Artwork: ARL-CIR0.ANS by Arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe01-arl-cir0
 
 Write-Host '
      [34m▄▄[0m    [31m▄▄▄▄░░[0m           [31m░░▄▄▓▓▄[0;32m [0;34m▄▄▄[0;1;34;44m▄▄▄▄[0;34m▌[0;32m  [0;31m▄▄▓▓▓▄▄[0m    [34m▄▄▄[0;1;34;44m▄▄▄[0;34m▄▄[0;32m [0;31m▄▓▓░░[0;32m [0;34m▄▄▄[0m

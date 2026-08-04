@@ -1,18 +1,4 @@
-﻿# Converted from: 53-PREV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend06/raw/53-PREV.ANS
-# Source Revision: archive-sha256:bdb12df6fb66b6e7f7ab1240c15e9b23d66b94ced69828c85c717709162a24eb
-# Source SHA-256: 3b3398ef019c5b0d558502e8a49fb51821a2e7f25d10451f87cf2eb8b7570691
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 53-PREV.ANS by senile (blend); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: prevail
-# SAUCE Author: senile
-# SAUCE Group: blend
-# SAUCE Date: 19970116
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: prevail by senile | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend06-53-prev
 
 Write-Host '
 

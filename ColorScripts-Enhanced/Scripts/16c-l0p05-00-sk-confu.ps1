@@ -1,13 +1,4 @@
-﻿# Converted from: SK!CONFU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p05_00/raw/SK!CONFU.ANS
-# Source Revision: archive-sha256:d107a99a4f6346768b79c50cf89b1ea06eaa6378fa6264f2582e9bfb2f879d7f
-# Source SHA-256: 48b1f6db5a7c957d3882c3d9f7aa859e30aee838a4b265bccd4234c49957c3f8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!CONFU.ANS by Simonking (l0p05_00); released in l0p05_00 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: SK!CONFU.ANS by Simonking | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p05-00-sk-confu
 
 Write-Host '
                 [1m▄[0m              [1m   ████▀ [0;1;30;43m▒░░[0;33m███[0;1;37;43m░░[0;33m█[0;1;30;43m░░[0;1;30;40m▌[0;33m [0;1;30m▓▒ ░░[0m         [34m░░[0m

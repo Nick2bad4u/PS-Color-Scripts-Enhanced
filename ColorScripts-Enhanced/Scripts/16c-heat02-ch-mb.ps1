@@ -1,13 +1,4 @@
-﻿# Converted from: CH-MB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/heat02/raw/CH-MB.ANS
-# Source Revision: raw-sha256:763f59b4f5b28f63d243ac50bd7836fa646ecbf552342892557b41fff776609b
-# Source SHA-256: 763f59b4f5b28f63d243ac50bd7836fa646ecbf552342892557b41fff776609b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CH-MB.ANS by Crazy Horse (heat02); released in heat02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: CH-MB.ANS by Crazy Horse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-heat02-ch-mb
 
 Write-Host '
 

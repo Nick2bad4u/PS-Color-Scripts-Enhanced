@@ -1,13 +1,4 @@
-﻿# Converted from: US-GOOP.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9707a/raw/US-GOOP.ICE
-# Source Revision: archive-sha256:5b285b62d671cba2ddacc7108981944566d1e8060818f8c3a4cc125bd5270e0e
-# Source SHA-256: 74b9a3fe46730f96f357e6ef9316b92dcaa2762475a51f2327de7070c585cf71
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GOOP.ICE by Magnetic Rage + Mass Murderer (ice9707a); released in ice9707a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: US-GOOP.ICE by Magnetic Rage + Mass Murderer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9707a-us-goop
 
 Write-Host '
 

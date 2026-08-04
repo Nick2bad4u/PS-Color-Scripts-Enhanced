@@ -1,18 +1,4 @@
-﻿# Converted from: SOR-DDW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zenith02/raw/SOR-DDW.ANS
-# Source Revision: archive-sha256:89af45c021399cb7150be8c9dd70d9c3709facfd5b2491816aa34f9f5096ceb7
-# Source SHA-256: ac75f818816be8bb2212576e9845ae967ea027112651a011dc49f6da559d02c0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SOR-DDW.ANS by spirit of rage (zenith); released in zenith02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: doddle draw front screen
-# SAUCE Author: spirit of rage
-# SAUCE Group: zenith
-# SAUCE Date: 19980427
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: doddle draw front screen by spirit of rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zenith02-sor-ddw
 
 Write-Host '
 [1;32;43m▓[0;1;32;47m█▓▒▓[0;1;32;42m█▓[0;1;32;40m█[0;1;32;47m█[0;1;32;43m▓[0;1;32;47m▓[0;1;32;40m█[0;1;32;47m▓[0;1;32;40m██[0;1;32;42m▓▓[0;1;32;40m█[0;1;32;42m▓▓[0;1;32;40m█[0;1;32;47m▓[0;1;32;42m▓▓[0;1;32;40m█[0;1;32;42m▓[0;1;32;40m█[0;1;32;47m▓[0;1;32;42m▓▓[0;1;32;40m█[0;1;32;42m▓[0;1;32;40m█[0;1;32;47m▓[0;1;32;45m▓[0;1;32;47m▓[0;1;32;42m▓[0;1;32;40m██[0;1;32;47m▓[0;1;32;40m█[0;1;32;42m▓[0;1;32;40m██[0;1;32;47m▓[0;1;32;41m▓[0;1;32;47m▓[0;1;32;40m█[0;1;32;42m▓█[0;1;32;46m▓[0;1;32;47m▓[0;1;32;40m█[0;1;32;42m▓[0;1;32;40m██[0;1;32;47m▓[0;1;32;46m▓[0;1;32;40m█[0;1;32;42m▓[0;1;32;40m██[0;1;32;47m▓▓[0;1;32;40m███[0;1;32;45m▓▓[0;1;32;40m█[0;1;32;42m▓[0;1;32;40m█[0;1;32;47m▓▒▓[0;1;32;40m█[0;1;32;47m▓[0;1;32;40m█[0;1;32;47m▓▒[0m

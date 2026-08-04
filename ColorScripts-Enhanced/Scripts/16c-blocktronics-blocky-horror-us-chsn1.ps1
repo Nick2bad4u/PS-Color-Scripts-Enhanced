@@ -1,19 +1,4 @@
-﻿# Converted from: us-chsn1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-blocky-horror/raw/us-chsn1.ans
-# Source Revision: archive-sha256:9b55aad043357449b0b0f61d3eddf0a2e277e46cf0768f93c8b9bc9b99d78a77
-# Source SHA-256: 285c9dbe9fb359ad45bec0e9fd662a87c4fb38dbc246722f038d1c65e23c0ccc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-chsn1.ans by Nail + Avenging Angel (blocktronics); released in blocktronics-blocky-horror and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the chosen one
-# SAUCE Author: nail + avg
-# SAUCE Group: blocktronics
-# SAUCE Date: 20180523
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: the chosen one by Nail + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blocky-horror-us-chsn1
 
 Write-Host '
 [1;37;47m░▓▄▀▄[0m▄[1m  [0;30;44m█[0;34;40m░░ ▀▓▀▀█[0;30;44m▄▄[0;34;40m█[0;30;44m▄[0;34;40m██[0;30;44m▄[0;34;40m█[0;30;44m▄[0;34;40m█[0;34;46m▀[0;30;44m▄[0;34;40m█[0;34;46m▓▓[0;34;40m████████████████▀▀▀▀▀▀▀▀█████████████████▀███[0m

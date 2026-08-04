@@ -1,18 +1,4 @@
-﻿# Converted from: 33-TSN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/33rules/raw/33-TSN1.ANS
-# Source Revision: archive-sha256:6cf2aef8e3ca97e1761e1ee4a8ba395e4fdab4dec9d3b2efb91c059359b50b00
-# Source SHA-256: d1fe941d12a50e2afdeb5c752715b551da86adb4505ebb9f4699afedcee11e6f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-TSN1.ANS by Spastic 03/95 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Stellar Nights
-# SAUCE Author: Spastic 03/95
-# SAUCE Group: Eerie
-# SAUCE Date: 19950221
-# SAUCE Dimensions: 80x25
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: The Stellar Nights by Spastic 03/95 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-33rules-33-tsn1
 
 Write-Host '
 [32m░▄░▄▓▄▓[0;1;32;42m░[0m [32m▄ [0;34m▀▓[0;32;44m░[0;34;40m█░[0;36;44m░[0;34;40m▀ ▀▀  ▀[0m      [34;40m▀▀ ▓███████████████████████[0;30;44m░[0;34;40m█████████████▓█▄▄██▄░[0m

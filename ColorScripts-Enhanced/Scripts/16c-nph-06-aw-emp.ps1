@@ -1,18 +1,4 @@
-﻿# Converted from: AW-EMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-06/raw/AW-EMP.ANS
-# Source Revision: archive-sha256:23bf7a2dd40d2b6120f5e578427d7f6ab3055fd2a788b1f3e27f63e9880c5fa0
-# Source SHA-256: 481a1fdbf5de417eb38a5121bdcae18b4943bd63cd3db43a6e235843e262621c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AW-EMP.ANS by araWn (Nitrophusion....); released in nph-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Empiric Productions Menu
-# SAUCE Author: araWn
-# SAUCE Group: Nitrophusion....
-# SAUCE Date: 19980430
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Empiric Productions Menu by araWn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-06-aw-emp
 
 Write-Host '
 [1;33m [0;32m    [0m   [32m░[0;37m [0;32m▄▄▄▄[0;37m [0;32m░[0;37m [0;32m░ ▄▄▄▄▄▄▄▄▄▄[0;37m [0;32m░[0;37m  [0;32m░[0;37m [0;32m▄▄▄▄[0;37m [0;32m░[0;37m  [0;32m▄▄▄ ░ ▄▄▄▄▄[0;37m [0;32m░ [0;37m [0;32m▄▄▄[0;37m  [0;32m░[0;37m [0;32m▄▄▄▄[0;37m [0;32m░[0m

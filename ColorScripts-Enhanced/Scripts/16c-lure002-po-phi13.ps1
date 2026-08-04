@@ -1,18 +1,4 @@
-﻿# Converted from: Po-phi13.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lure002/raw/Po-phi13.ans
-# Source Revision: archive-sha256:f1a17285c6f66215a41b3537354833c5fccbb84d30b92c78e4ea0603dc7f8cf1
-# Source SHA-256: a5f55f72871a8e9cc65483428a34f6901773943ea7b2ca469aa1f7c33acad34c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Po-phi13.ans by PORTIA (LUR3); released in lure002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: PHIL3
-# SAUCE Author: PORTIA
-# SAUCE Group: LUR3
-# SAUCE Date: 20020303
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: PHIL3 by PORTIA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lure002-po-phi13
 
 Write-Host '
 [1;36m[0m[1;33m[0m[31mLU[0;1;34mR[0;1;37m3[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MG-IWRLD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roc-1094/raw/MG-IWRLD.ANS
-# Source Revision: archive-sha256:b9f51920f78bda9bc4e939e42f211cdf72f5cc79d2a1f03e8249b35982ade015
-# Source SHA-256: 6085edafe034b0735cd7ad9d76078ea3e76b21a2e1ed3e2f94720817341c2b89
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MG-IWRLD.ANS by Muthergoose (READ THE INI FILE); released in roc-1094 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Inter World
-# SAUCE Author: Muthergoose
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19940924
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Inter World by Muthergoose | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roc-1094-mg-iwrld-part01
 
 Write-Host '
                       [1;30m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: AK-MMYES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-39/raw/AK-MMYES.ANS
-# Source Revision: archive-sha256:5e57507ce34170a4afb707b1587800d0885fae4776f1271b7b7cee7f71264d9d
-# Source SHA-256: 6cee3b5ff3a60da0bbe1b921f582225eaeab9fbc3786853777415124e1d9e06a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-MMYES.ANS by Abstrakt (Fire); released in fire-39 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Yesssssss?
-# SAUCE Author: Abstrakt
-# SAUCE Group: Fire
-# SAUCE Date: 20240303
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Yesssssss? by Abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-39-ak-mmyes
 
 Write-Host '
 [36;40ml$$;  .[0m      [1;30;40m.,,,[0m  [36m`└/⌐`  `┘''   [0;1;33m.[0;36m    [0;1;31ml$[0;1;33m$#s┐,.[0m             [36m`└┘''[0;37m  [0;1;33m.d$Ss.[0m [36m`*┘`[0;37m [0;1;33m,[0m

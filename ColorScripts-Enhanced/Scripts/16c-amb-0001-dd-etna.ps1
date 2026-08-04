@@ -1,18 +1,4 @@
-﻿# Converted from: DD-ETNA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amb-0001/raw/DD-ETNA.ANS
-# Source Revision: archive-sha256:50117a0363f47a3201dbded78dece5a7d943bf5ee978c9adb3f23e48040c9989
-# Source SHA-256: 3e60b187a7f267d9121fb9f70d2c6275481e3511cd0a46636f48aac13b2c7ac8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-ETNA.ANS by Diamond Darrell (AMBUSH); released in amb-0001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Almverzo Desnvdo
-# SAUCE Author: Diamond Darrell
-# SAUCE Group: AMBUSH
-# SAUCE Date: 19960604
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Almverzo Desnvdo by Diamond Darrell | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amb-0001-dd-etna
 
 Write-Host '
    [32m▄▓▄▄[0m          [32m▄▄[0;1;32;42m▓[0;1;32;40m▄[0m

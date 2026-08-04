@@ -1,18 +1,4 @@
-﻿# Converted from: CG-TV1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lure001/raw/CG-TV1.ANS
-# Source Revision: archive-sha256:4bd385abce2c9c5a8caaface84fa74809f8b3dae67f2f4374e4664550d5af3bf
-# Source SHA-256: bfcbea8adfff5ecce7bb4000bccf6ea3feb872a320ddb25712fc5009eeaf7dab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-TV1.ANS by cryogenic (lure); released in lure001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: tv
-# SAUCE Author: cryogenic
-# SAUCE Group: lure
-# SAUCE Date: 20010728
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: tv by cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lure001-cg-tv1
 
 Write-Host '
  [30;41m█[0m                   [33;40m▄[0;1;33;43m▄████▄[0;33m▄[0m         [33m▄[0;1;33m▄▄[0;1;33;43m▄██▄[0;33m▄[0m            [33m▀[0;1;33;43m▀███▄[0;1;33;40m▄▄[0;33m▄  [0m

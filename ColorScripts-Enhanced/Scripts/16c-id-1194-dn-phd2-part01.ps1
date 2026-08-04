@@ -1,18 +1,4 @@
-﻿# Converted from: DN-PHD2.ANS
-# Source encoding: cp437
-# Source URL: https://16colo.rs/archive/1994/id-1194.zip
-# Source Revision: archive-sha256:e4287e2f7c251cb296d97cfef2d3a7cb7be107b4159284bac2c6b0e68634a939
-# Source SHA-256: 897b15b425b091ec94b92b32d438a0053856fb6a763fd2abb4f37c76bbc57418
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DN-PHD2.ANS by Dragon (iDENTiTY); released in id-1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Phantasmial Dillusions
-# SAUCE Author: Dragon
-# SAUCE Group: iDENTiTY
-# SAUCE Date: 19940916
-# SAUCE Dimensions: 80x25
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Phantasmial Dillusions by Dragon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-id-1194-dn-phd2-part01
 
 Write-Host '
 

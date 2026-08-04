@@ -1,13 +1,4 @@
-﻿# Converted from: gnk-prev.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic22/raw/gnk-prev.ans
-# Source Revision: archive-sha256:184024cf6a2fd0440d111f4137f2e2a3fda30cf11cba557a101a8bb8b46e419a
-# Source SHA-256: eb7f573e9a89844d3fc1dd3e41f8d314d78acd19ce684a542dd4f9284d410cb7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: gnk-prev.ans by Genick (mimic22); released in mimic22 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: gnk-prev.ans by Genick | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic22-gnk-prev
 
 Write-Host '
 

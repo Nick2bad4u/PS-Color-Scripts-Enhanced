@@ -1,17 +1,4 @@
-﻿# Converted from: SPH_STOP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise08/raw/SPH_STOP.ANS
-# Source Revision: archive-sha256:a25eed3e25fe4aa7fc0560c1fa7de8a9e155ecb2aed26b67328b74f91962df53
-# Source SHA-256: 21527efcbed4e936cb53fbddb11f83c0a352f71b14b44e91f90a0093674db9ac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPH_STOP.ANS by sepH_ (uprise08); released in uprise08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: stop(?)
-# SAUCE Author: sepH_
-# SAUCE Date: 19980909
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: stop(?) by sepH_ | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise08-sph-stop
 
 Write-Host '
        [1;36;46m▄████▀▀▀[0;36m▀▀▀▀▀[0;1;30m [0;35m▀▀▀▀▀▀[0;1;35;45m░▒▓██████████████▀▀[0;35m█▄[0;1;30m [0;32m▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30m   [0m    [30;43m▓▓[0m

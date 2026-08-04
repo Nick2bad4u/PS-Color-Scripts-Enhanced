@@ -1,18 +1,4 @@
-﻿# Converted from: SZ-AS.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9405/raw/SZ-AS.ICE
-# Source Revision: archive-sha256:a268d55ac0892ea3031043188566d3858668800e9c28eecd4de6a00493be3d6d
-# Source SHA-256: f7618ac5f79622bda28ac768f89a68bd9c78c4ed5c3b7e4fa6ab5b267a2df8d9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SZ-AS.ICE by Soul Blazer (iCE); released in ice-9405 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: TT is gay
-# SAUCE Author: Soul Blazer
-# SAUCE Group: iCE
-# SAUCE Date: 19940526
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: TT is gay by Soul Blazer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9405-sz-as-part01
 
 Write-Host '
   [1;30mδ [0;1;37miCE [0mAdvertisments [1;30mδ[0m                       [1;30m█ ▓  ▀▄▄[0m        [1;30m█   █[0m

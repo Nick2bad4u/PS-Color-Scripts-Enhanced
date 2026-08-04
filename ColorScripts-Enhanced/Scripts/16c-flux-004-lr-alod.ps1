@@ -1,18 +1,4 @@
-﻿# Converted from: LR!-ALOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flux-004/raw/LR!-ALOD.ANS
-# Source Revision: archive-sha256:184a3f5dd0450d61dd9a9b4da05ef76ebec147753f33bfa3706045bb53c0d7a5
-# Source SHA-256: d309c1467cf0c5c8389abc496ff97097f0341b9a39f5c2a1ce79a8112b18854c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LR!-ALOD.ANS by LATE RISER (FLUX '97); released in flux-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: alien on dope // transfer screen
-# SAUCE Author: LATE RISER
-# SAUCE Group: FLUX '97
-# SAUCE Date: 19971022
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: alien on dope // transfer screen by LATE RISER | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flux-004-lr-alod
 
 Write-Host '
 [1;47m▓[0;1;31;47m  ░▓[0;1;31;41m███████▀▀▀▀[0;31m▀▀▀▀▀                  [0m                 [1;30m▄▄▄▄▄▄▄▄▄▄▄ [0m

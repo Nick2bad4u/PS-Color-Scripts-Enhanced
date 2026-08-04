@@ -1,13 +1,4 @@
-﻿# Converted from: KZ-AC.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9507a/raw/KZ-AC.ICE
-# Source Revision: archive-sha256:a72421113d2c951ec39875f37c234c38446688f5d51179a98cd9dcc0e7568ca7
-# Source SHA-256: 8590c18e5fad1f0f9f936c7ee23e5e8aeb7357544d952f0bb68d06c12defbd10
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KZ-AC.ICE by Kamikazee (ice9507a); released in ice9507a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 134-182
-# Columns: 1-80
+﻿# Artwork: KZ-AC.ICE by Kamikazee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9507a-kz-ac-part04
 
 Write-Host '
 [35m     ▀ [0m      [35m▄▄▄▄▄▄▄██[0;1;37;45m░ [0;35m████▓██▓▒░[0;37m [0;1;37;47m [0;1;37;40m▄[0;1;37;47m▀[0;1;37;40m███[0;1;37;47m▀▀[0;1;37;40m███████[0;1;37;47m [0;1;37;40m████▄▄ [0m [35m▀▒[0;37m [0;35m▓▒[0;37m  [0;35m░▒▓██[0;1;37;45m░░░▒▒░░[0;35m██[0m

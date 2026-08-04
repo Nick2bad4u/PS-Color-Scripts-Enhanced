@@ -1,18 +1,4 @@
-﻿# Converted from: BE-SP3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ftc-03/raw/BE-SP3.ANS
-# Source Revision: archive-sha256:1226dcacf4b055c72a07590d3a55db00d6617398cb0c9cab468627eb45b001d6
-# Source SHA-256: f06092814198b8f665e7552fe9972e116b99b5c0314e43afc7893d6df6ca5156
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BE-SP3.ANS by brain eater (ftc); released in ftc-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: schizophrenia
-# SAUCE Author: brain eater
-# SAUCE Group: ftc
-# SAUCE Date: 19960720
-# SAUCE Dimensions: 80x13
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: schizophrenia by brain eater | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ftc-03-be-sp3
 
 Write-Host '
      [1;32m [0m [1;32m▄[0;32m▄▄[0m        [1;34m▄▄[0;1;34;44m▓▒▒░░░[0;34m█████████▓▒░[0m    [1;34;44m██▓▓▒░[0;34m████████████▓▓▒▒░[0m       [34m░[0m

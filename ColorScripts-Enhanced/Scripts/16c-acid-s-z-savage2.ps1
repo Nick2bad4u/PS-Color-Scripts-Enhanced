@@ -1,13 +1,4 @@
-﻿# Converted from: SAVAGE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acid_s-z/raw/SAVAGE2.ANS
-# Source Revision: archive-sha256:1e39be543cd73bd6445def20e0af89859836bb40b21bc0476427cae93491a647
-# Source SHA-256: 5384e6f112b078b3574798d1f37854a78a0f3cbe5f5a6ef368dec6d691d48327
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SAVAGE2.ANS by Grimm (acid_s-z); released in acid_s-z and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: SAVAGE2.ANS by Grimm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acid-s-z-savage2
 
 Write-Host '
   [31m▄▄[0m   [31m▄[0m [31m▄[0m  [31m▄[0m  [31m▄[0m   [31m▄▄[0m   [31m▄[0m     [33m▄█▓▀▄▄[0m   [33m▄█▓█[0m [33m░▒▓█▓▄▄▓██░▒▓▓██▀▐▓░▒▓░▒▒▓░▒▒▓░░▒▒▒▒[0m

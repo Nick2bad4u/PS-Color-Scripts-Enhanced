@@ -1,18 +1,4 @@
-﻿# Converted from: INT-KINK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-03/raw/INT-KINK.ANS
-# Source Revision: archive-sha256:8cf981d9c660d9c99945a037cc3975e95985d6099e63c9913bd07526abf36ba1
-# Source SHA-256: 80e95a1d7fb473589a1d51529600150c85a967eb928ab949d789688bd25971f5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: INT-KINK.ANS by Internal (glue); released in glue-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: kink
-# SAUCE Author: Internal
-# SAUCE Group: glue
-# SAUCE Date: 19970929
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: kink by Internal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-03-int-kink
 
 Write-Host '
 [34minternal([0;1;34mglue[0;34m)[0m                    [1;30m▄[0m    [34m▀▀█[0;1;34;44m▀▀[0;1;34;40m▓[0;1;34;44m█[0;1;34;47m▓▓[0;1;34;44m█▀▀[0;34m██▀▀▀[0m      [1;30m▄[0m      [1;30m▀[0m     [1;30m▄[0m

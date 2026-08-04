@@ -1,19 +1,4 @@
-﻿# Converted from: MM-WANNAPLAY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0624/raw/MM-WANNAPLAY.ANS
-# Source Revision: archive-sha256:7e2642f67629daefe8d04ebedd2e233be2e8a74b2dea50eb02da49be24298927
-# Source SHA-256: d41b25ced4cd6080032685bf826ab1fc1a866d218661a63e9a5c6c44abdba075
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-WANNAPLAY.ANS by Mavenmob (Mistigris); released in mist0624 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Wanna Play
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20240408
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Wanna Play by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0624-mm-wannaplay
 
 Write-Host '
 ▀ ▀▄░░░░▄▄▄░▄████▄[1;47m▀▀▀[0m████▓▓░░░░▓[1;30m█[0m█[1m██████████[0;1;47m▀▀▀[0;1;40m█[0;1;47m▀[0m█████████████████████████[1;30m:::s ▄[0m

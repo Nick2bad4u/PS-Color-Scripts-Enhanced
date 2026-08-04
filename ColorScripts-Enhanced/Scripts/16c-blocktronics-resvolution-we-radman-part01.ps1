@@ -1,13 +1,4 @@
-﻿# Converted from: we-radman.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_resvolution/raw/we-radman.ans
-# Source Revision: archive-sha256:d0690af9ec91bf96f335196e9f9ddfb5d7ea02d97d300b53301bebaf58d83c35
-# Source SHA-256: 3adca4da873feb018487722aa8e645c633fa4209f5d5027c3c3d9337c78c6985
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-radman.ans by Avenging Angel + Rad Man (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: we-radman.ans by Avenging Angel + Rad Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-resvolution-we-radman-part01
 
 Write-Host '
 [1;36;45m▀▀[0;1;36;44m██[0;1;36;45m▄[0m  [31m░░░░[0;33m  [0;1;30m▄▀[0;33m  [0;1;30m▄██▄▄[0;33m [0;37m   [0;1;30m▄▄▄[0m    [31m░░[0m         [31m [0;1;35m░░░░░░[0;31m▄[0;34m ▒[0;1;34m▒▒▒[0;36;44m░░░░░░░░░░[0;34;40m▒▒   ▀[0;1;36;44m▀████▄[0;34m▄[0m

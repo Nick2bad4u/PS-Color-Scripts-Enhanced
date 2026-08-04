@@ -1,19 +1,4 @@
-﻿# Converted from: WZ-BOOT3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/WZ-BOOT3.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: c3ccdeca9df0879be35dff813b6bed3197e37d17f37afc1e049a3e7e589b5fb6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WZ-BOOT3.ANS by Whazzit (Blocktronics); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Boots or Hearts 3
-# SAUCE Author: Whazzit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20210202
-# SAUCE Dimensions: 80x54
-# SAUCE Font: IBM VGA
-# Lines: 28-54
-# Columns: 1-80
+﻿# Artwork: Boots or Hearts 3 by Whazzit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-wz-boot3-part02
 
 Write-Host '
                [32m▄▄[0m     [30m▌[0;31m▐[0;31;43m░ [0;1;30;43m [0;33m▄[0;1;30;43m░▒[0m     [31;43m▒░[0;33;40m█▓█[0;1;30;43m▒[0m [31m▄▄[0;1;31m [0;30;43m▄▄▄▄[0;31;40m▄▄▄▄▄[0m         [32;40m█[0;1;32;42m░[0;32m█[0m

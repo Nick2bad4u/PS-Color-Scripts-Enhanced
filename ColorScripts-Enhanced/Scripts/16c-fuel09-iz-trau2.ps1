@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-TRAU2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel09/raw/IZ-TRAU2.ANS
-# Source Revision: archive-sha256:cae1fe00a9cd349fa6bb692920586d60c6acc70987b088220f071822b0b1e1ed
-# Source SHA-256: 487fa1301bc9db7dd147aa0a13c5c51a8a3d95c05eb2cf53323c7e868e0c75a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-TRAU2.ANS by ize (fuel); released in fuel09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: trauma
-# SAUCE Author: ize
-# SAUCE Group: fuel
-# SAUCE Date: 19961026
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: trauma by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel09-iz-trau2
 
 Write-Host '
            [1;32m                                           [0;1;33m              [0m       [1;33m     [0m

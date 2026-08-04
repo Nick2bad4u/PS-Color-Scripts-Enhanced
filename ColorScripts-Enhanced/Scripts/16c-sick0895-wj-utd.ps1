@@ -1,13 +1,4 @@
-﻿# Converted from: WJ-UTD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sick0895/raw/WJ-UTD.ANS
-# Source Revision: archive-sha256:e6995fe78b8f2b30d776afc187cf6cdedd8ed98f2f8687dfd4cace144fd2a07c
-# Source SHA-256: dc89e0122793dadb56288ea4e43930779fb0efdbc2a7776945ec2ed4842423e9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WJ-UTD.ANS by Woj (sick0895); released in sick0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: WJ-UTD.ANS by Woj | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sick0895-wj-utd
 
 Write-Host '
                  [31m▓[0m      [1;31m▐[0m               [1;31m▄[0m      [1;31m▐[0;31m▄[0m         [31m▓[0m

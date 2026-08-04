@@ -1,17 +1,4 @@
-﻿# Converted from: US-ECHO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0497/raw/US-ECHO.ANS
-# Source Revision: archive-sha256:0a24528ad1b8350dc6275ed84884990aa181682392c532082994d5872ceb5801
-# Source SHA-256: d57e8acf5fee2013b161107ecb3ab7555d811da4553fd7d28b8fae535d0fb1d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ECHO.ANS by Wat0r + Rex (fsn-0497); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: echo
-# SAUCE Author: wO/rX
-# SAUCE Date: 19970406
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: echo by Wat0r + Rex | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0497-us-echo
 
 Write-Host '
 

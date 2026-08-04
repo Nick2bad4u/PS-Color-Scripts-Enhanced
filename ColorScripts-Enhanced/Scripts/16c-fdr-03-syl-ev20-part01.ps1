@@ -1,13 +1,4 @@
-﻿# Converted from: SYL-EV20.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fdr-03/raw/SYL-EV20.ANS
-# Source Revision: archive-sha256:cac34a6b7c47c076c878193a4da01da4f38b7c8e471d7a9bf4b3a7850655fb5e
-# Source SHA-256: 7c5d5159a54d4eae37554032c5d3a0daf3d6818fe9ab141005fd3016f18697da
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SYL-EV20.ANS by Sylvao (fdr-03); released in fdr-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: SYL-EV20.ANS by Sylvao | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fdr-03-syl-ev20-part01
 
 Write-Host '
 [35m████████████████████████████████████████████████████████████████████[0;1;35;45m.[0;35m███████████[0m

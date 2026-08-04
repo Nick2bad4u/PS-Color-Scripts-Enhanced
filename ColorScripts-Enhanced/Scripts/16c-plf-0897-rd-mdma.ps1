@@ -1,18 +1,4 @@
-﻿# Converted from: RD-MDMA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0897/raw/RD-MDMA.ANS
-# Source Revision: archive-sha256:cabceb59b7b429d8e4c18b37682b5f04003f1a57c83a21398a4e2582b732a549
-# Source SHA-256: 7ad57171b5d8bbcff76ec7d119a03520079f9d0c93a81845fb626e1b4f2bc832
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD-MDMA.ANS by raider (svamp); released in plf-0897 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fungus
-# SAUCE Author: raider
-# SAUCE Group: svamp
-# SAUCE Date: 19970804
-# SAUCE Dimensions: 80x25
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: fungus by raider | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0897-rd-mdma
 
 Write-Host '
                         [1;30m  .[0m         [1;30m░[0m

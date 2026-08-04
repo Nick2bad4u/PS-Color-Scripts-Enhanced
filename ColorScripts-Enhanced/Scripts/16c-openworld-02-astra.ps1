@@ -1,13 +1,4 @@
-﻿# Converted from: astra.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/openworld-02/raw/astra.ans
-# Source Revision: archive-sha256:e6a9b74c273d22a2d7965d3de31cdbe68ad1a8fc7c323f54e28427a4c9d376b0
-# Source SHA-256: 844126ea48392496896a57e12a00e96cfc60a91b6630bd2a78776f1b931cd168
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: astra.ans by Luxuse (openworld-02); released in openworld-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: astra.ans by Luxuse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-openworld-02-astra
 
 Write-Host '
        [1;33m▄[0m                                                        [30;45m▀[0;30;40m   [0;1;33;40m▄[0m

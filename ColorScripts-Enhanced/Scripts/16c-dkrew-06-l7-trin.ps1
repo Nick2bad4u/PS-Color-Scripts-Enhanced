@@ -1,18 +1,4 @@
-﻿# Converted from: L7-TRIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dkrew-06/raw/L7-TRIN.ANS
-# Source Revision: archive-sha256:02960d7b88668b8887fe5cdf52da355c2d3dd37bf140c876abc30817d0d21bdb
-# Source SHA-256: 614a5b027cacec356ba1a97c24a0d0f3e6c8a7a5db5c7bbd13537ae94eba4368
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: L7-TRIN.ANS by Lancelot (dead krew); released in dkrew-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: TRiNITY
-# SAUCE Author: Lancelot
-# SAUCE Group: dead krew
-# SAUCE Date: 19970314
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: TRiNITY by Lancelot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dkrew-06-l7-trin
 
 Write-Host '
                                    [1;30m ░ [0m [1;31m▄[0m [1;30m ░[0m

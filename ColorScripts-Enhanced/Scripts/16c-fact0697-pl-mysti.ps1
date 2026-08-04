@@ -1,18 +1,4 @@
-﻿# Converted from: PL-MYSTI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fact0697/raw/PL-MYSTI.ANS
-# Source Revision: archive-sha256:62c3a49e5b8bb2bf0105b92d85ccfccdfcde934f112e40e0e3d18d8ebc2c7cdd
-# Source SHA-256: 3d89728117f0a6ef2bd4499eebbb214f356028ea4819594c12d416768c495e0c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PL-MYSTI.ANS by Pussylover (fACt!); released in fact0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the mystic!
-# SAUCE Author: Pussylover
-# SAUCE Group: fACt!
-# SAUCE Date: 19970610
-# SAUCE Dimensions: 80x44
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: the mystic! by Pussylover | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fact0697-pl-mysti
 
 Write-Host '
 [1;30m[0;1;36m[0m

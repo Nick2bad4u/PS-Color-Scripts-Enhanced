@@ -1,13 +1,4 @@
-﻿# Converted from: kmb-dl2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gen-08/raw/kmb-dl2.ans
-# Source Revision: archive-sha256:de1fb48c6dbe733c03717f643e0436c78be60ace5ba3be7fc4fd3b476c0d4de2
-# Source SHA-256: 8c01f6f26f0ca38c6348e68dfbd8e90f6137c7d8f4dff8f01545715f85c060a4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: kmb-dl2.ans by Kumb4 (gen-08); released in gen-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: kmb-dl2.ans by Kumb4 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gen-08-kmb-dl2
 
 Write-Host '
 [1;30m    ▐▄▄▄  [0m░[30;47m▓[0;37;40m░[0;30;47m▓[0;1;30;40m  [0m                    [35m▄▄[0m      [32m▐[0;30;42m [0;32;40m▌[0;37;40m  [0;32;40m▄[0m         [32;40m [0m          [32;40m    [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SOR-PL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel12/raw/SOR-PL.ANS
-# Source Revision: archive-sha256:ebe2e7b01f31e0e82aa2702a876007d4ec2dd824b98bdf40e4d59e2b113da7e4
-# Source SHA-256: c52b3d0c85c1330413ba946ca17772ee4fe3c3443b169e418264df2fad7fa8a3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SOR-PL.ANS by Spirit of Rage (Fuel Productions); released in fuel12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Plantes
-# SAUCE Author: Spirit of Rage
-# SAUCE Group: Fuel Productions
-# SAUCE Date: 19970401
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: Plantes by Spirit of Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel12-sor-pl
 
 Write-Host '
 [33m█[0;1;30;43m░░[0;33m█[0;1;30;43m░░▒▒░[0;33m███[0;1;31;43m░░▒▒▓▓██[0;1;31;47m▓▓▒[0;1;31;40m▀[0;33m   ▄▄[0;1;31;43m▒▓[0;33m▄ [0;37m [0;1;31m▀[0;1;31;47m▓[0;1;31;43m█▓▓▒▒░░[0;33m█[0;1;30;43m░░▒▒▒▒░[0;33m█[0;1;31;43m░▒▓█[0;1;31;47m▓▒[0;1;31;40m▌ [0;30;44m▓▓[0;1;35;45m█[0;1;35;47m▓[0;1;35;40m▀[0;35m▀[0;37m [0;1;31m▄[0;33m▄[0;35m ▀[0;1;35;45m░▒▓███[0;1;35;47m▓▓▓[0m

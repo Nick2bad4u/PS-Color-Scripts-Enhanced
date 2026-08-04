@@ -1,20 +1,4 @@
-﻿# Converted from: alpha_king-navigator.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_miracle_on_67th_street/raw/alpha_king-navigator.ans
-# Source Revision: archive-sha256:7a78b3edd176c6d05feb481522f2c4f3e57721df62292c2b4ce537e855c41ae8
-# Source SHA-256: 72abeae512eade2a4835c7ba21fa3b2541cc516f0c0153ba4ed5efaf929cc47e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: alpha_king-navigator.ans by Alpha King (Blocktronics); released in blocktronics_miracle_on_67th_street and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: nav1.ga tor
-# SAUCE Author: Alpha King
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20181019
-# SAUCE Dimensions: 80x39
-# SAUCE Font: IBM VGA
-# SAUCE Comments: See ya later, Navigator!
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: nav1.ga tor by Alpha King | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-miracle-on-67th-street-alpha-king-navigator
 
 Write-Host '
                                                  [35;40m▒[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: IPH-SWEA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spin04/raw/IPH-SWEA.ANS
-# Source Revision: archive-sha256:d8d0b243395a454162bf4e70cc5ed89a7700344e3544729263edb9daedb33d8c
-# Source SHA-256: 6ba4025a7d1d86d40588c43c88a34d376a59134497bb97952eec78eac20374dd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IPH-SWEA.ANS by iph (spin); released in spin04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: iph
-# SAUCE Group: spin
-# SAUCE Date: 19981102
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: IPH-SWEA.ANS by iph | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spin04-iph-swea
 
 Write-Host '
 

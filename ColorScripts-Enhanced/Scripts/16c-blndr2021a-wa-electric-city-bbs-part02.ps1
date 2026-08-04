@@ -1,19 +1,4 @@
-﻿# Converted from: wa-electric-city-BBS.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2021a/raw/wa-electric-city-BBS.ans
-# Source Revision: archive-sha256:2734d01c4060a91ea3bc9a9c95c82ba6b6cc9bc9ae9d2bb629ec4f9af0f5a67a
-# Source SHA-256: 640c73143c3949c67a270d627989502215c99d6cb012934b71b178c336305c2a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-electric-city-BBS.ans by warpus (LAZARUS); released in blndr2021a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Electric City BBS
-# SAUCE Author: warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20210118
-# SAUCE Dimensions: 112x62
-# SAUCE Font: IBM VGA
-# Lines: 32-60
-# Columns: 1-112
+﻿# Artwork: Electric City BBS by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2021a-wa-electric-city-bbs-part02
 
 Write-Host '
 [34m██[0;37m░░[0;34m█[0;37;44m▓▓[0;37;40m██░▒[0;34;40m█[0;37;44m░[0;37;40m [0;34;40m█[0;37;44m▓[0;34;40m██[0;1;30;47m▓▓[0m█░░███[34m██[0;37;44m█[0;37;40m█[0;1;36;47m░[0;1;30;40m█[0m█[44m█[0;40m██▀[0;1;30;47m▓▓[0m█[1;36;47m░[0;1;30;47m░░░▒[0;1;30;40m▓[0;33m [0;1;30;43m█▓▓▓▓▓▓▓▓[0;33m████████[0;1;30;43m░░▒▒▒░░[0;33m█████▀[0;1;30;43m▄[0;31m▄[0;33m   [0;1;30m▀▄   [0;33m░ █████[0;1;30;43m░░░░░[0;33m███████[0;31;43m░[0;31;40m█[0;31;43m▓[0;1;30;43m▓[0;1;30;40m▓[0m

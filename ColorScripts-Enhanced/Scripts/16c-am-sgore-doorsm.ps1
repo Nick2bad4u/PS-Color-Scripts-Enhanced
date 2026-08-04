@@ -1,13 +1,4 @@
-﻿# Converted from: DOORSM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/am-sgore/raw/DOORSM.ANS
-# Source Revision: archive-sha256:10741bfb879a086728bfb37977a3dbeaa7ec2ef2e08f05f7c3c75419ac26bac6
-# Source SHA-256: 70a4d93007bc34b8021c7cc5407c77fd8d072cb567523c30ca843825381ba0f6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DOORSM.ANS by Amroth (am-sgore); released in am-sgore and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: DOORSM.ANS by Amroth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-am-sgore-doorsm
 
 Write-Host '
 [31m[0;1;30m[0;1;37m[0m[31m[0;1;30m[0;1;37m[0m [31m [0;1;30m [0;1;37m         [0m                       [1;30;47m▓[0m

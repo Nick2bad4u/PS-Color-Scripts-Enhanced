@@ -1,18 +1,4 @@
-﻿# Converted from: SE-FALLN.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9709a/raw/SE-FALLN.ICE
-# Source Revision: archive-sha256:85ac9952151d7c030fafa5887a3bdbf1b6ec9e7a75d45cafbc83b70fbc73dd3a
-# Source SHA-256: 597ad6699aa8d2ff2fa294796c96889bb4f85eef762184418e6f9ced7787b283
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SE-FALLN.ICE by Sharp Edge + Sharpy (iCE); released in ice9709a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Fallen Empires
-# SAUCE Author: Sharp Edge
-# SAUCE Group: iCE
-# SAUCE Date: 19970919
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Fallen Empires by Sharp Edge + Sharpy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9709a-se-falln
 
 Write-Host '
                             [33m [0m   [33m  [0m

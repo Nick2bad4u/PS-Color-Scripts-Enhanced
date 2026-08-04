@@ -1,19 +1,4 @@
-﻿# Converted from: krl-Tuscan_01.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz18/raw/krl-Tuscan_01.ans
-# Source Revision: archive-sha256:32d30452c4c99022fae4fa2ce9a2923ef46629d3ff7dd35a972944a991699c1f
-# Source SHA-256: c9433b2d68b2d5bd55b4c12f118446699ea765f1af9ad1ea43490dea8e7784ac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: krl-Tuscan_01.ans by krl (Lazarus); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Tuscan Raider
-# SAUCE Author: krl
-# SAUCE Group: Lazarus
-# SAUCE Date: 20231221
-# SAUCE Dimensions: 80x135
-# SAUCE Font: IBM VGA
-# Lines: 101-132
-# Columns: 1-80
+﻿# Artwork: Tuscan Raider by krl | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz18-krl-tuscan-01-part03
 
 Write-Host '
 [33m████████▀▀[0;1;30m▄▒░[0;1;30;47m▓[0;1;30;40m█████▄[0m [35m▀▄[0;37m▀███[0;1;30;47m▀[0m  [1;30m█▓▒[0m  [1;30m▓▒[0m [1;30m▀▓▓▓▄[0m    [1;30m▄▄▄▄▄[0m [33m████[0;37m [0;33m░▓█[0;37m [0;33m▓██▄[0;37m [0;33m██▀█▓[0;37m [0;1;31m▄[0m [33m▒▓▓[0;37m [0;33m▓[0m

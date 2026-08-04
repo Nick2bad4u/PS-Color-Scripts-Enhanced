@@ -1,13 +1,4 @@
-﻿# Converted from: PM-DS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-p/raw/PM-DS.ANS
-# Source Revision: archive-sha256:b04863e56e1b880918cfcc3339e8f0365ae72ecaed6ae586bbd37c3f4fe2a3c7
-# Source SHA-256: 9202676ea56a9c01c665099fb3c8defb7374e89a06aae54a80a41e779dd0b973
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-DS.ANS by Paul Muaddib (ansis-p); released in ansis-p and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: PM-DS.ANS by Paul Muaddib | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-p-pm-ds
 
 Write-Host '
 [1;30m▒░░░░░░░░[0m           [31m▄▄▄▄▓▓▓▓▓▓▓▓▓▓▓▄▄▄▄[0m           [1;30m░░░░░░░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▓[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: US-MAT~1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-19a/raw/US-MAT~1.ANS
-# Source Revision: archive-sha256:81f21b6ad591f112e54dc904e184a85b63ca9af95a156ccc7d812cfbc401b70a
-# Source SHA-256: 72ed7a8a5d07a4afe7968e9a5163d947f5422c99fdc42e8032e6917ed030dd2d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-MAT~1.ANS by Imortality + Cryogenic (RCA); released in rca-19a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: Multiple Artists
-# SAUCE Group: RCA
-# SAUCE Date: 19980416
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: US-MAT~1.ANS by Imortality + Cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-19a-us-mat-1
 
 Write-Host '
     ▄[1m▄[0m▄▄   [36m▄[0m  [36m▀[0m  [36m▀▀[0;1;36;46m▀█████████▓▓▒▒░░▒░[0;36m▄▄▄▄▄▄[0m        [36m▄▄▄▄▄▄███[0m [33m░░▄▄[0m [33m▀[0m       [33m▀[0m [33m▄▄░[0m

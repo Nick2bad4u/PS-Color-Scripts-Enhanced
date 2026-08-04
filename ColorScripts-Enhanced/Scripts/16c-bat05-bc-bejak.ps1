@@ -1,17 +1,4 @@
-﻿# Converted from: BC-BEJAK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bat05/raw/BC-BEJAK.ANS
-# Source Revision: archive-sha256:c1082e0417753715d0b89831e0230f9ac3baf3aab6c8a1f382615ebce2ab409a
-# Source SHA-256: cc33c0364c01487cc4db60fc193b83974d077fd2505797d0364e5ffc1f9167ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BC-BEJAK.ANS by beeyacH! (bat05); released in bat05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: woi%triboot%tewmuh%selph,.
-# SAUCE Author: beeyacH!
-# SAUCE Date: 19970123
-# SAUCE Dimensions: 80x18
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: woi%triboot%tewmuh%selph,. by beeyacH! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bat05-bc-bejak
 
 Write-Host '
 [1;30m░░[0m [1;30m░░░░[0m   [36m░[0m    [36m░[0m

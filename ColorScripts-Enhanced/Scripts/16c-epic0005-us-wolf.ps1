@@ -1,18 +1,4 @@
-﻿# Converted from: us-wolf.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/epic0005/raw/us-wolf.ans
-# Source Revision: archive-sha256:e098312bed80469568d0a183adba6ccb17d24993089a96a47d7be876360a2283
-# Source SHA-256: c42eb866022451eccc79abdf0da28edd9b3792f1f5d67f60bc8ab8cd23f0dc40
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-wolf.ans by thext/argon (epic); released in epic0005 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: wolf
-# SAUCE Author: thext/argon
-# SAUCE Group: epic
-# SAUCE Date: 19991212
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: wolf by thext/argon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-epic0005-us-wolf
 
 Write-Host '
               [1;34m▄[0;34m▄  ■[0;37m  [0;30m                     [0;37m                      [0;1;30m■  ▄▄       ▀ ▄[0;36m▄[0m

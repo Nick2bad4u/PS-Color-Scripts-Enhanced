@@ -1,13 +1,4 @@
-﻿# Converted from: TH-BOM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aim-0994/raw/TH-BOM.ANS
-# Source Revision: archive-sha256:0d60e9ee8ba5f13944b63b30f49cb1d30bbbf43a3a5619c4684275efb56c4f7c
-# Source SHA-256: 85f01c60dbbaaa565b4b65d867a4f8b53b22a3a9e59780e40086e815973bb016
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH-BOM.ANS by Threshold (aim-0994); released in aim-0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 98-143
-# Columns: 1-80
+﻿# Artwork: TH-BOM.ANS by Threshold | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aim-0994-th-bom-part03
 
 Write-Host '
  [31m▄█████▀[0m [1;30m░▒▓▓████████▒▐███▓[0m [31m██████▀▀▀▀[0m [31m▓▓▓▓[0m [1;30m▒▒▒▒▒▒▒▒▒▒░░░░░░░▒[0m      [34m     [0m

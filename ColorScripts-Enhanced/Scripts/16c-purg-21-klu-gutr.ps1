@@ -1,13 +1,4 @@
-﻿# Converted from: KLU%GUTR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-21/raw/KLU%25GUTR.ANS
-# Source Revision: archive-sha256:fd5c89622ce92b4bd4e931df19326580c4835f1cb5f52f82e7ed825c750376ea
-# Source SHA-256: e4528e884a94bf26eb2fe316b1f5adfafff56f0a44ebb9f0c78c1288dcb8b730
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KLU%GUTR.ANS by Klumzee (purg-21); released in purg-21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: KLU%GUTR.ANS by Klumzee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-21-klu-gutr
 
 Write-Host '
 [44m    ░░  [0;34;40m████████████████████████████████████████████████████████████████████▓▓▓▓[0m

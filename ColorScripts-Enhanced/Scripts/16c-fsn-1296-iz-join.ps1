@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-JOIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-1296/raw/IZ-JOIN.ANS
-# Source Revision: archive-sha256:335d72ea88974be53669cf31a72ea37012b04dc993bc1fa4727d94939a55db7e
-# Source SHA-256: 0595d1c63fb5e62b0f2ee47b50d9a04d6adbaa4c2cf97a07ceb1e3893c8ddfec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-JOIN.ANS by ize (fusion); released in fsn-1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: join
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19961208
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: join by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-1296-iz-join
 
 Write-Host '
                                [30;42m▓[0;1;32;40m▌[0m

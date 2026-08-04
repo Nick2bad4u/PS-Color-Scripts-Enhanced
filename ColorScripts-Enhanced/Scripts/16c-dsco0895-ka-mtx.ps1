@@ -1,13 +1,4 @@
-﻿# Converted from: KA-MTX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dsco0895/raw/KA-MTX.ANS
-# Source Revision: archive-sha256:c5eafe9a144b7f2a60871b789ee8823ca79eafbd0e867cafcaf16646225c9998
-# Source SHA-256: 0a364f3f405e876c5c7eeb5cb80fb37f8729bc4e6fefab44453a764202e2aa16
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KA-MTX.ANS by Kadaver (dsco0895); released in dsco0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: KA-MTX.ANS by Kadaver | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dsco0895-ka-mtx
 
 Write-Host '
 [1;35;45m     [0m [1m▄▄[0m [1;30m▓[0;1;37m██[0;1;37;47m░▒▓▓[0;1;37;40m███████████[0;1;37;47m█[0;1;37;40m█[0;1;37;47m▓[0;1;37;40m███[0;1;37;47m█[0;1;37;40m██[0;1;37;47m▓[0;1;37;40m███[0;1;37;47m▓▓[0;1;37;40m█[0;1;37;47m▓▓[0;1;37;40m▄▄[0m   [1;30m▒▓█[0;1;37m [0;1;30m  ▒▓▓██[0;1;30;47m▓▓▒▒░░░[0;46m▓▓▓▒▒░[0;1;47m░▒[0m [1;35m██[0m

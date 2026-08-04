@@ -1,20 +1,4 @@
-﻿# Converted from: TNT-AZSN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-45/raw/TNT-AZSN.ANS
-# Source Revision: archive-sha256:0564021806e0277d72a0e235c044a0e0470226ba860a8976e1e3092326555d1d
-# Source SHA-256: 6c94b834765dcbc41ddad003f8d5a76a426e4646a84e7c1e12e33d2825e3e760
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNT-AZSN.ANS by tainted (FiRE); released in fire-45 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Azcen-Shun
-# SAUCE Author: tainted
-# SAUCE Group: FiRE
-# SAUCE Date: 20260303
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Redrawn (smaller scale) version of one of my very first 25 liner | s from nearly 30 years ago! | https://16colo.rs/pack/twi-9708/TAI-TOUR.ANS
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Azcen-Shun by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-45-tnt-azsn
 
 Write-Host '
 [1;33;43m▀▄[0;33m▄  ▀[0;1;33;43m░░[0;33m▄ [0;1;33;43m░[0;33m           ░▀  █▐[0;1;33;43m░[0;33m▀ ▄▀ [0;37m▄▄▀▀▄█[0;1;37;47m█[0m [1;33;43m░[0m [1;47m▄█▓░[0m█[1;30;47m░▒▓█[0;1;30;40m▄[0m      ░▌ ▄ ▀[1;30;47m░░░[0m█[1;47m░▒▓▀[0;1;40m▀[0m▀▀[1;47m▄█[0m

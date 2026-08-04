@@ -1,18 +1,4 @@
-﻿# Converted from: US-BIO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz10sep/raw/US-BIO.ANS
-# Source Revision: archive-sha256:4ab640a5762659d8c89d1d4c7a47f2c8ebad1c9e802d4965d8fdc943ea824060
-# Source SHA-256: 35d45ba81792929da648326b531d6e93f3d72d8284ed303147ff474a11afe7d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BIO.ANS by Hennifer + Offspring (lazarus); released in laz10sep and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: biohazard
-# SAUCE Author: multiple artists
-# SAUCE Group: lazarus
-# SAUCE Date: 19970908
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: biohazard by Hennifer + Offspring | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz10sep-us-bio
 
 Write-Host '
 [1m[0m          [1;30m▐[0m                ░░[1;30;45m▓[0m [1;30m▄▄▄░░░[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: ale-mandalascii.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hpm-001/raw/ale-mandalascii.ans
-# Source Revision: archive-sha256:851f4293cfae53aeeb1a1b544afa6f2027f29ccc66626a7fe6e8803857f004c7
-# Source SHA-256: 069bbd0aaa2ef613450888ed4e041b028bef8541ab17a9b9c2d2f996ccc83afc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ale-mandalascii.ans by aleperez (hpm-001); released in hpm-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Mandalascii
-# SAUCE Author: aleperez
-# SAUCE Date: 20220116
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: ASCII discovery of an ancient meditation art
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Mandalascii by aleperez | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hpm-001-ale-mandalascii
 
 Write-Host '
   ▄▄▄▄                         [32m▄▄▄▀▀▀▀▀▀▀▀▀▀▀▀▄▄▄[0m

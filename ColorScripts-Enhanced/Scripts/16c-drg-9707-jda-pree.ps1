@@ -1,18 +1,4 @@
-﻿# Converted from: JDA-PREE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg-9707/raw/JDA-PREE.ANS
-# Source Revision: archive-sha256:b65590bddff9617f17d3b4025c35c3e5faf3352cc09c0ee1a348f46ee7e889fc
-# Source SHA-256: 7189ec3250a2025a750271769cf2d7e2f9da792ef4d652a48acfe2dbd729beba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JDA-PREE.ANS by joda (deranged); released in drg-9707 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: some screen for some viewer
-# SAUCE Author: joda
-# SAUCE Group: deranged
-# SAUCE Date: 19970622
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: some screen for some viewer by joda | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg-9707-jda-pree
 
 Write-Host '
 [1;31m [0m      [30;47m▓[0;37;40m░▄█[0;1;31;47m▓[0;1;31;40m█▀██▌▄ [0m░[1;31;47m ▓[0;1;31;40m██░ [0m░[30;47m░[0;1;31;47m▓[0;1;31;40m██ [0m░▄▐[1;31;47m▓[0;1;31;40m█▀███▄ [0;36m▄[0;1;31m [0m▄█[1;31;47m▓[0;1;31;40m█▀███▄ [0;30;47m▓[0;37;40m░▄█[0;1;31;47m▓[0;1;31;40m█▀██▌▄░░[0;36m░▄▄▄▄▐[0;30;46m░[0;36;40m░[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: pmt-glitchqueen.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure75/raw/pmt-glitchqueen.ans
-# Source Revision: archive-sha256:456d9575d39a98868f0aeb653a02342fc0e4772fb2f636de50eb6a963aa538a5
-# Source SHA-256: 71822add080e57634aadc5f4fe859edeeb9fc20af27c7254a860807d87c5142a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: pmt-glitchqueen.ans by prismate (impure); released in impure75 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: glitchqueen
-# SAUCE Author: prismate
-# SAUCE Group: impure
-# SAUCE Date: 20191230
-# SAUCE Dimensions: 80x126
-# SAUCE Font: IBM VGA
-# Lines: 43-85
-# Columns: 1-80
+﻿# Artwork: glitchqueen by prismate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure75-pmt-glitchqueen-part02
 
 Write-Host '
 █ ██████████████▒       [1m██████████████████████[0;1;45m▀[0;1;40m██[0;1;41m▄[0;1;40m▄▄[0;31m▄▄  [0;1;30m▄[0m             [31m▄[0;1;37m▄[0;31m▄[0m

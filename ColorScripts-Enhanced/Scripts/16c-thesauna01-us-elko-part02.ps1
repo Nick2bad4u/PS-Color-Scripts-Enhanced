@@ -1,19 +1,4 @@
-﻿# Converted from: us-elko.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna01/raw/us-elko.ans
-# Source Revision: archive-sha256:70f712dbf565de1ceb0f2b7020b54aa443621235a47b082b92e24e13342b0672
-# Source SHA-256: e64dcba0cd3b974b41d156138c6d55d6fe9c95e5e215d81890149384802656d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-elko.ans by Filth + Avenging Angel (sauna); released in thesauna01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: elko
-# SAUCE Author: avg + fil
-# SAUCE Group: sauna
-# SAUCE Date: 20190926
-# SAUCE Dimensions: 80x91
-# SAUCE Font: IBM VGA
-# Lines: 47-91
-# Columns: 1-80
+﻿# Artwork: elko by Filth + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna01-us-elko-part02
 
 Write-Host '
 [1;35m                                               [0;31m▀▄[0;35m  ▀█[0;35;45m  [0;35;40m [0;31;40m▀▀█[0m

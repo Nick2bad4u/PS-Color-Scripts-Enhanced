@@ -1,18 +1,4 @@
-﻿# Converted from: JDA_SEPP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg0896/raw/JDA_SEPP.ANS
-# Source Revision: archive-sha256:7c02d854720d44303b67d151e6f634badde1493d6bcf087028644745e3080d4f
-# Source SHA-256: 9cea7632d3502a264e541bae22172addce95313146ff3087baebff2e49cc41a6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JDA_SEPP.ANS by Joda (Drg^InP); released in drg0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Sepp
-# SAUCE Author: Joda
-# SAUCE Group: Drg^InP
-# SAUCE Date: 19960728
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Sepp by Joda | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg0896-jda-sepp
 
 Write-Host '
 

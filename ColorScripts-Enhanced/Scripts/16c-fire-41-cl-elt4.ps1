@@ -1,19 +1,4 @@
-﻿# Converted from: CL!-ELT4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/CL!-ELT4.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: ab0d90a35d432c14b75b1557b7fc1830406e9e42f9f320edac967379736c766d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL!-ELT4.ANS by Cleaner (Fire); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Elite Land
-# SAUCE Author: Cleaner
-# SAUCE Group: Fire
-# SAUCE Date: 20241111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Elite Land by Cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-cl-elt4
 
 Write-Host '
 

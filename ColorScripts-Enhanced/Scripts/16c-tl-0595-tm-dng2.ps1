@@ -1,19 +1,4 @@
-﻿# Converted from: TM-DNG2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl-0595/raw/TM-DNG2.ANS
-# Source Revision: archive-sha256:2a9ee1147d1683e4f1f557167c86371c5059e003792efbebaea013640a85da25
-# Source SHA-256: 3fb29aea4224f01ba0b194dad3ec22469b0d885c5d5dfa84f120418a730b5176
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TM-DNG2.ANS by Tyme (TekLordZ); released in tl-0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Dungeon 2
-# SAUCE Author: Tyme
-# SAUCE Group: TekLordZ
-# SAUCE Date: 19950423
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: fo smoof
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: Dungeon 2 by Tyme | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl-0595-tm-dng2
 
 Write-Host '
  [1;33m████████████████[0;1;33;43m▓██▓▒░[0;33m▀    [0;1;34m▄▄▄▄[0;1;34;44m▓[0;1;34;40m▄[0m     [33m▀  ▀▀[0;1;33;43m░░░░░▒▒▓▓[0;1;33;40m██[0;1;33;43m▓[0;1;33;40m██ [0;1;30;40m██████▀  [0;33m▄[0;1;33;43m░[0;33m▄   [0;1;30m▀█████[0m

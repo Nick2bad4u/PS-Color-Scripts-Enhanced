@@ -1,13 +1,4 @@
-﻿# Converted from: WZ-QUADR.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-0993/raw/WZ-QUADR.ICE
-# Source Revision: archive-sha256:eabf54958d410e670d11375d7d35d37104c8734716f6db508722e4a21fb7657c
-# Source SHA-256: 8bc1e4f2136a5259d683ee363b38b8b99af6074c058411e0884ef992a8c242ce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WZ-QUADR.ICE by Wiz (ice-0993); released in ice-0993 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: WZ-QUADR.ICE by Wiz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-0993-wz-quadr-part02
 
 Write-Host '
 [1;34m███████[0;1;31;41m·[0;1;34;40m███████[0;34m█[0m         [34m▄▄[0;1;34;44m▄[0;1;34;40m██[0;1;34;44m▒[0;1;34;40m█    [0;1;34;44m█[0m   ·[1m█▌[0m     [33m■ ▀▀▀▀▀▀▀▀▀▀    [0;1;31;41m▓▓▓▓▓▓▓▓▓[0;1;31;40m▌[0m

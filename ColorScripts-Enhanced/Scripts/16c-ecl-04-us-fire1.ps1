@@ -1,18 +1,4 @@
-﻿# Converted from: US-FIRE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-04/raw/US-FIRE1.ANS
-# Source Revision: archive-sha256:9de244bc5206a1545721e4db8ef84c4a2cb5d7f6090c2c3eac0f88fbff822794
-# Source SHA-256: 7bc294082129267f828a5bbdf79b0df69665965bcd9d8c25fc3f1048e5c41ae1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FIRE1.ANS by Cheeze + Ellisdee (ecklipse); released in ecl-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hot prom0.
-# SAUCE Author: ellis - cheezE
-# SAUCE Group: ecklipse
-# SAUCE Date: 19960726
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: hot prom0. by Cheeze + Ellisdee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-04-us-fire1
 
 Write-Host '
                               [1;35m▄[0;35m▄[0m                   [30;46m█[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: GK-CYBR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0796/raw/GK-CYBR1.ANS
-# Source Revision: archive-sha256:f2392fcbe326be67243a018c170e3f1d8e22753f58b6051ec51575e3fcab8048
-# Source SHA-256: 205fc150c673c1cb78cfee49e036e32a9e88bd8a57644a83940de7a34b7651e7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GK-CYBR1.ANS by grind king (fire); released in fire0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: cybercom hostmode
-# SAUCE Author: grind king
-# SAUCE Group: fire
-# SAUCE Date: 19960708
-# SAUCE Dimensions: 80x14
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: cybercom hostmode by grind king | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0796-gk-cybr1
 
 Write-Host '
 

@@ -1,19 +1,4 @@
-﻿# Converted from: MISTFUNK-US.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/MISTFUNK-US.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: 2205804fcfd543392cbddf7aee496481762263a93b66ba5c290339c52f0452c1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MISTFUNK-US.ANS by Consolejockey + LDA + Moth (Mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Mistfunk blitz
-# SAUCE Author: Moth / LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241231
-# SAUCE Dimensions: 80x89
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Mistfunk blitz by Consolejockey + LDA + Moth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-mistfunk-us-part01
 
 Write-Host '
                                                      [1m▄▄▄▄████▄▄▄▄[0m

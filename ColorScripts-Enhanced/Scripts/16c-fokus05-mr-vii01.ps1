@@ -1,18 +1,4 @@
-﻿# Converted from: MR-VII01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus05/raw/MR-VII01.ANS
-# Source Revision: archive-sha256:1aa3ba6c9bb069effe029f69af967419cb8dc77ae4501a5215ae43589435acd5
-# Source SHA-256: a5c780c6640b33f6275b1518933ecc735fb2b76ce562e0c41fcd6492dd0f9175
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-VII01.ANS by Mr.Wrong (Fokus fonting); released in fokus05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: VII
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: Fokus fonting
-# SAUCE Date: 19990627
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: VII by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus05-mr-vii01
 
 Write-Host '
                                     [33m ▀[0m                    [33m▄[0m

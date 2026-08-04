@@ -1,20 +1,4 @@
-﻿# Converted from: wa-apecreation.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-001/raw/wa-apecreation.ans
-# Source Revision: archive-sha256:589c804657c8d15ba617f7c0fd80723e4505d519989b80eba9584665be49eb54
-# Source SHA-256: 95c4eca6eb1111ed1bbe5bf18aceedb3110a20c8bf647374c427e1c8d5172920
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-apecreation.ans by warpus (Legacy Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The creation of the Legacy Ape
-# SAUCE Author: warpus
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20191228
-# SAUCE Dimensions: 80x141
-# SAUCE Font: IBM VGA
-# SAUCE Comments: This is how it all began..
-# Lines: 48-97
-# Columns: 1-80
+﻿# Artwork: The creation of the Legacy Ape by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-001-wa-apecreation-part02
 
 Write-Host '
 [31m▓▓▓▓▓▓▓▓▓▓██████████████[0;1;31;41m▀▀▓░[0;31m█████████████████████[0;1;31;41m▀ ▄[0;31m███[0;1;31;41m▀▄[0;31m██[0;1;31;41m▄[0;1;31;40m█[0;1;30;40m▌[0m            [31m▓█████[0m

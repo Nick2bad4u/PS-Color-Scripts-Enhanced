@@ -1,18 +1,4 @@
-﻿# Converted from: GK-519.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz04mar/raw/GK-519.ANS
-# Source Revision: archive-sha256:44ec2aece59b6e1070eee7535121a4d2aa26d7d69e93852fb8f63376ca44c5f2
-# Source SHA-256: eae8833ee2ee5dacd36b1c398824c022518044c660f97a92a4c3bc5c9a6a9d1c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GK-519.ANS by grind king (lazarus); released in laz04mar and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 519FINE
-# SAUCE Author: grind king
-# SAUCE Group: lazarus
-# SAUCE Date: 19970228
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: 519FINE by grind king | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz04mar-gk-519
 
 Write-Host '
 

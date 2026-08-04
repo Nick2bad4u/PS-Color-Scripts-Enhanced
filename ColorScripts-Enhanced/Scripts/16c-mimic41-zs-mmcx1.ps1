@@ -1,13 +1,4 @@
-﻿# Converted from: zs-mmcx1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic41/raw/zs-mmcx1.ans
-# Source Revision: archive-sha256:adde03fb39fa1a8721d5c372b0ea50c1351e790c154441683303c83e8be3eeaf
-# Source SHA-256: 59c43a6601ba9fb5461a00233e5fc008408d04c06531746a07575cb159a5a465
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zs-mmcx1.ans by Zerostar (mimic41); released in mimic41 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: zs-mmcx1.ans by Zerostar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic41-zs-mmcx1
 
 Write-Host '
               m i m i c                                 a s c i i

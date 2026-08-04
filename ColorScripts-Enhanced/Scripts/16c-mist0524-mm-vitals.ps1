@@ -1,19 +1,4 @@
-﻿# Converted from: MM-VITALS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0524/raw/MM-VITALS.ANS
-# Source Revision: archive-sha256:26af390c70c8fbd1a650cda6420771d9febb05e55fff2dce05253b3fc19147b7
-# Source SHA-256: 3eb0741c6f0278d0e706dcb63c460fd322793a6e2a4c804be204e792bf054d49
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-VITALS.ANS by Mavenmob (Mistigris); released in mist0524 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Your Pixels Are So Sexy
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20240408
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Your Pixels Are So Sexy by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0524-mm-vitals
 
 Write-Host '
  [30m1[0;37m         [0;1;31m▄▀[0;31m  █    ▀▄      █  [0;1;31m▄▄[0;31m▀▀                    [0;1;31m█         [0;31m█▀▌▌     0[0;37m    [0;31m0[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: ST-ACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0993/raw/ST-ACID.ANS
-# Source Revision: archive-sha256:446ccd0c92c26f820cb58358892955493ab8b589a0789ea252bbb676ba5a1e1f
-# Source SHA-256: c978a9658fc66d4ce5d45c092c3f8b3d0d37bd311af0aea05e0ed5de969e484a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-ACID.ANS by Stile (acdu0993); released in acdu0993 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: ST-ACID.ANS by Stile | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0993-st-acid-part01
 
 Write-Host '
                                               [1;30m▄[0m

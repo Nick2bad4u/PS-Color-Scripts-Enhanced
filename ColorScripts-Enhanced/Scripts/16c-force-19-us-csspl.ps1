@@ -1,18 +1,4 @@
-﻿# Converted from: US!CSSPL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-19/raw/US!CSSPL.ANS
-# Source Revision: archive-sha256:320b7ef547a1befeeebbf4abc563d8da701bdc66e2a87710081c803548b46926
-# Source SHA-256: 741a4d2709dc434bf24aed6d62284ad07a0eb088fcdd4f460dfd307f72835fe5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US!CSSPL.ANS by Rzarector + Dangermouse (force); released in force-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: cesspool
-# SAUCE Author: rz & dm!
-# SAUCE Group: force
-# SAUCE Date: 19970630
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: cesspool by Rzarector + Dangermouse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-19-us-csspl
 
 Write-Host '
               [1;30m   [0;34m▐[0;37m  [0;1;30m■ [0m

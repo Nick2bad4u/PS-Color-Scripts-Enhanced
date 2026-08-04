@@ -1,18 +1,4 @@
-﻿# Converted from: MD-PALAC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stl-0296/raw/MD-PALAC.ANS
-# Source Revision: archive-sha256:2a7c2972214cdcf66c05bb3cc15c513aafb38f4486172bc95b40d735e509a060
-# Source SHA-256: 5fdb413e2b25af6c460b0d5de26e89c2d8a70af8fc031bb7413b78c872349a36
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MD-PALAC.ANS by Mendator (Stile prod.); released in stl-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Palace of Darkness
-# SAUCE Author: Mendator
-# SAUCE Group: Stile prod.
-# SAUCE Date: 19960208
-# SAUCE Dimensions: 80x73
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Palace of Darkness by Mendator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stl-0296-md-palac-part01
 
 Write-Host '
 [35m [0;1;30m■▀▀▀▀▀▀ ▀▀▀▀▀▀▀▓▀▀▀▀■▀▀▀▀▀▀▀■▀▀▀▀▀■▀▀▀ ▀▀▀▀▀▀ ▀▀▀ ▀▀▀▀■▀▀▀■▀▀▓▀▀▀▀▓▀▓▀▀▀▀▀▀▀▀■[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: LD-RI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rem-0694/raw/LD-RI.ANS
-# Source Revision: archive-sha256:3f6d4c8ae8c943ea1261c49309d98a19d746932f86b8a558f5d3b9d79d3d887d
-# Source SHA-256: 0c84161bc025f4e9b995efea4a439abb93622ee080775763ec4a06224b1a9a94
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-RI.ANS by Lord Darkness (rem-0694); released in rem-0694 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 35-84
-# Columns: 1-80
+﻿# Artwork: LD-RI.ANS by Lord Darkness | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rem-0694-ld-ri-part02
 
 Write-Host '
                              [36m▄[0;30;46m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;36;40m▄[0m

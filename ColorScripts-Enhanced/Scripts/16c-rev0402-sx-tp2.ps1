@@ -1,18 +1,4 @@
-﻿# Converted from: SX-TP2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0402/raw/SX-TP2.ANS
-# Source Revision: archive-sha256:19898cc2febb6deadccf50832dc421b4f362a33c899e27278bafd225bbc2d4d4
-# Source SHA-256: 87fdc728165f5ac3d0899948197d754502c247630a79ac85e0cf7710b44e4e4f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SX-TP2.ANS by sinister x (Revival); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Toxic Poison
-# SAUCE Author: sinister x
-# SAUCE Group: Revival
-# SAUCE Date: 20020415
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Toxic Poison by sinister x | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0402-sx-tp2
 
 Write-Host '
  [1m  ▄████████[0;1;47m▀▀[0;1;40m▀▀[0m▀▀                        ▀[1m▀[0;1;47m▀        [0;1;30;47m▀▀██[0;1;30;40m█▓[0;1;37;40m  [0;1;32;40m███[0;1;32;42m▓▀[0;1;32;40m███[0;1;32;42m▓[0;32m█[0;37m  [0;1;32m████[0;1;32;42m [0m

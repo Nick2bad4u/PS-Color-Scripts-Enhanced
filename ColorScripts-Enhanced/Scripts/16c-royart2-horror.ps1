@@ -1,13 +1,4 @@
-﻿# Converted from: HORROR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/royart2/raw/HORROR.ANS
-# Source Revision: archive-sha256:7bb839921483bf75cde51f65d158ac6b2ec4a48b32273b45c2f5acdb0f5924d0
-# Source SHA-256: 1f0e22c3f427278f53a47009770cc2b78e4fb3b887ea702494ad7de3149fd426
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HORROR.ANS by Roy (royart2); released in royart2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: HORROR.ANS by Roy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-royart2-horror
 
 Write-Host '
 [1m██  ██ ▄████▄ █████▄ █████▄ ▄████▄ █████▄    [0;31m▄███████ ▄████▄ ▄███  ██ ▄█████▄[0m

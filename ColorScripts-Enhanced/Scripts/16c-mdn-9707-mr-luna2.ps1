@@ -1,18 +1,4 @@
-﻿# Converted from: MR-LUNA2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mdn-9707/raw/MR-LUNA2.ANS
-# Source Revision: archive-sha256:bfcb83c6d9eb9beac4e313e6cb4a06c0bdcb3b894eaa2b7afbdde4d6e5181bec
-# Source SHA-256: 550b33f4fa3f24deb341e96672cac4454d5d6158039a53815f61f41bb847ac00
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-LUNA2.ANS by minotaur (maiden^brazil); released in mdn-9707 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: menu for luna/2
-# SAUCE Author: minotaur
-# SAUCE Group: maiden^brazil
-# SAUCE Date: 19800101
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: menu for luna/2 by minotaur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mdn-9707-mr-luna2
 
 Write-Host '
   [32m▐[0;1;32;42m███[0;32m▌[0m                  [32m▄[0;1;32m▄▄▄[0;32m▄▄▄▄▄[0;1;32m▄[0;32m▄[0m      [32m▀▀▀▄▄▄▄[0m

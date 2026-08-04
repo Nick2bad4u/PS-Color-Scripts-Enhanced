@@ -1,18 +1,4 @@
-﻿# Converted from: TI-HOTHS.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9902a/raw/TI-HOTHS.ICE
-# Source Revision: archive-sha256:6cf7fdec038e0d971ab2b181357dad5f064cb6f0c4b16391c913d4864432f656
-# Source SHA-256: 178f437b1dc8edc2b9ffcc9c7b2a1f2d7ba26d40eb430f18fdfb03e453e581aa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TI-HOTHS.ICE by Trip (iCE); released in ice9902a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Hoth
-# SAUCE Author: Trip
-# SAUCE Group: iCE
-# SAUCE Date: 19990218
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Hoth by Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9902a-ti-hoths
 
 Write-Host '
 [1;30m████[0m░░[1;30m▄▄▀▀██▀▀▀▀▄ [0;36m░[0;1;36m░[0;36m░[0;1;36m░░[0;1;30m ▐██████▀▀[0;36m░▄▄[0;1;30m▀▀███ [0;1;36m░░░[0;36m [0;1;30m██ [0;36m▒▒[0;1;30m ███████▀▀███▀▄▄▄█▀▀▀▀▀██▄▄  [0m

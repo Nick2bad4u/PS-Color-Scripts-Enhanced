@@ -1,19 +1,4 @@
-﻿# Converted from: FIL-MOSS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/FIL-MOSS.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: 60d51a01784b964953bdc1311f7a97b99c2d5a3021b3c600d712b4ff0849cf39
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FIL-MOSS.ANS by filth (FiRE); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Whispers In the Moss
-# SAUCE Author: filth
-# SAUCE Group: FiRE
-# SAUCE Date: 20241111
-# SAUCE Dimensions: 80x27
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Whispers In the Moss by filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-fil-moss
 
 Write-Host '
 

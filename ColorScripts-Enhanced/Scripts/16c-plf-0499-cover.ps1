@@ -1,15 +1,4 @@
-﻿# Converted from: %#!COVER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0499/raw/%25%23!COVER.ANS
-# Source Revision: archive-sha256:ea9f0e992f2e19fb60599694860938ab492c8ddcb42b1500d338ba65bfe40cd6
-# Source SHA-256: 59c2e61529ca44a5b315c99056849e46a89d4f89bf4356f5138c57a6d1f0d10b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: %#!COVER.ANS by Big Yellow Man (poffelipoff); released in plf-0499 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: :: poffelipoff.19_ april artpackage
-# SAUCE Group: poffelipoff
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: :: poffelipoff.19_ april artpackage by Big Yellow Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0499-cover
 
 Write-Host '
 [30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m [0;1;33;40m▄▄▄[0m▄   [36m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0m

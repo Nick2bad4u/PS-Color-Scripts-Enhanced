@@ -1,20 +1,4 @@
-﻿# Converted from: Blender_Reaper_DMA.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2022c/raw/Blender_Reaper_DMA.ans
-# Source Revision: archive-sha256:46dca62a8a667884e81be27c4fb79aa9afeec099917d7cd482e154e4c940ed7c
-# Source SHA-256: c9d74cc8c2df3a7c5c1021518c215c8dfce50c3cba01160dd3e29491223bcd47
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Blender_Reaper_DMA.ans by Darkman Almighty (Mistigris); released in blndr2022c and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Grim Reaper Presenting..
-# SAUCE Author: Darkman Almighty
-# SAUCE Group: Mistigris
-# SAUCE Date: 20220726
-# SAUCE Dimensions: 80x80
-# SAUCE Font: IBM VGA
-# SAUCE Comments: blender: GRIM REAPER, SPREADING PESTILENCE, LIVE ON STAGE AT A M | AJOR AWARDS SHOW.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Grim Reaper Presenting.. by Darkman Almighty | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2022c-blender-reaper-dma-part01
 
 Write-Host '
 [31m████████████████████████████████████████████████████████████████████████████████[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: CRS-BANA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zeit_04/raw/CRS-BANA.ANS
-# Source Revision: archive-sha256:f96fc3dbeeb91d99f8181025e13b2dea8bb4c7997144f0b81ff387d24ede3074
-# Source SHA-256: 84e7f8c12cd96a714bbfdf1c84416351bdaeef3b3cd56c67791c7ee2f5f7455f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CRS-BANA.ANS by Crasher (zeit_04); released in zeit_04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: bananahs shell
-# SAUCE Author: Crasher
-# SAUCE Date: 20030217
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: bananahs shell by Crasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zeit-04-crs-bana
 
 Write-Host '
 [1;47m╬╬╬╬╬╬╬╬┼┼[0;1;40m╫╫╫╫╫╫╫╫╫╫[0;1;47m┼┼┼╬╬╫╬╬╬[0;1;40m╫╫╫╬╬╬╬╬╬╬╬╬╬╬╬╬[0;1;47m┼┼┼┼┼┼┼┼┼┼┼┼[0;1;40m╫╫[0;1;47m┼┼┼┼[0;1;40m╫╫╫[0;1;47m┼┼┼┼┼┼┼┼┼┼┼┼┼[0m

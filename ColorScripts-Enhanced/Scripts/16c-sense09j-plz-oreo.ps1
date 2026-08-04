@@ -1,18 +1,4 @@
-﻿# Converted from: PLZ-OREO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense09j/raw/PLZ-OREO.ANS
-# Source Revision: archive-sha256:9f583533fb256ec67ece3c5d38ebea61ce21b385a7859a4e786edef290584615
-# Source SHA-256: e16a40c2baea63d392d29cfea257fd74436715031ad9bff59cd36ee291539ac0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PLZ-OREO.ANS by Plazz (Sense Imagery); released in sense09j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Oreo
-# SAUCE Author: Plazz
-# SAUCE Group: Sense Imagery
-# SAUCE Date: 20020901
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Oreo by Plazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense09j-plz-oreo
 
 Write-Host '
 [1;37m██[0;1;36m██[0;1;37m█[0;1;37;47m▀[0;34m▐[0;1;34;44m█[0;1;34;47m▓▓▓▓▓▓[0;1;34;44m█▀[0;34m▀[0;1;30m▄[0;1;37;47m▄[0;1;36;40m████[0;1;37;40m███▀▀▀▀▀▀[0;1;37;47m▀▀[0;1;37;40m██████[0;1;36;40m███[0;1;37;47m▀[0;1;30;40m▀[0;34m▄[0;1;34;44m▄[0;1;34;47m▓▓[0;1;34;44m█[0;34m▌[0;1;37;47m▀[0;1;36;40m██[0;1;37;40m██████████████████████████[0m

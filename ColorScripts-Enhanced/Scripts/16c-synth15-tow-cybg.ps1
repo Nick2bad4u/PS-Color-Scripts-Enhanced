@@ -1,17 +1,4 @@
-﻿# Converted from: TOW-CYBG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/synth15/raw/TOW-CYBG.ANS
-# Source Revision: archive-sha256:db4a2ec1ce169eb822d345531a27e3e16a7aa0fd8322150579068f63e9059fb5
-# Source SHA-256: 68f8fa5ff08ae66d81f4585acd038488c4b313976fc68f955a93a2b95f41c8bf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TOW-CYBG.ANS by Towser (Synthetic Org!); released in synth15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Cyber `Sommit'
-# SAUCE Author: Towser
-# SAUCE Group: Synthetic Org!
-# SAUCE Dimensions: 80x25
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Cyber `Sommit' by Towser | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-synth15-tow-cybg
 
 Write-Host '
                                            ,$.

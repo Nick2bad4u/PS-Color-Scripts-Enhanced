@@ -1,18 +1,4 @@
-﻿# Converted from: MW-JUNGL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ufo-03/raw/MW-JUNGL.ANS
-# Source Revision: archive-sha256:00452ceaed2180b765be23b14290aac65cf3390d5e797d3f922605cf8c8aab41
-# Source SHA-256: c5b68195d4c4a16d683d708c6efb8218a56549a2a06dc1ae3596cf4cca88baca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MW-JUNGL.ANS by MoonWalkeR (ufO); released in ufo-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Book oF The Jungle
-# SAUCE Author: MoonWalkeR
-# SAUCE Group: ufO
-# SAUCE Date: 19960113
-# SAUCE Dimensions: 80x44
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: The Book oF The Jungle by MoonWalkeR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ufo-03-mw-jungl
 
 Write-Host '
                            ▄▄▄[43m▀▀[0;40m▄▄▄[0m       [40m▄[0;43m▀▀▀[0;40m▄[0m         [40m▄▄▄[0m

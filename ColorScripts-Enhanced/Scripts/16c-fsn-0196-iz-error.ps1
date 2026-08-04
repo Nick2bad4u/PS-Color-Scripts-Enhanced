@@ -1,18 +1,4 @@
-﻿# Converted from: IZ!ERROR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0196/raw/IZ!ERROR.ANS
-# Source Revision: archive-sha256:d151696eafc600b77b623396c0cefc4df5a0e459af1766730864689986c5538e
-# Source SHA-256: cfc1d90223bc2271a79531fd68d1031014d3703393193fbbf14153ea33919f53
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ!ERROR.ANS by ize (fusion); released in fsn-0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: system error
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19960101
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: system error by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0196-iz-error
 
 Write-Host '
     [1;30m░▀▀▄■   ░    ▓[0m      [1;30m░  [0ms [1;30m· [0my [1;30m· [0ms [1;30m· [0mt [1;30m· [0me [1;30m· [0mm    [1;30m░[0m          [1;30m▄▄■   ░  ▄▄▄■▄[0m

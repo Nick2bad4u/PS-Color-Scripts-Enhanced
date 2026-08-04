@@ -1,19 +1,4 @@
-﻿# Converted from: HRV_Wisdom_Owl_WiP.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz18/raw/HRV_Wisdom_Owl_WiP.ans
-# Source Revision: archive-sha256:32d30452c4c99022fae4fa2ce9a2923ef46629d3ff7dd35a972944a991699c1f
-# Source SHA-256: a1df1bb4d8bdc6ed5855edcb5e62140c0338ecc0896b4d7b7d7ff9f605ec8f13
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HRV_Wisdom_Owl_WiP.ans by harvest (Lazarus); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: OWL
-# SAUCE Author: harvest
-# SAUCE Group: Lazarus
-# SAUCE Date: 20230804
-# SAUCE Dimensions: 80x188
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: OWL by harvest | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz18-hrv-wisdom-owl-wip-part01
 
 Write-Host '
        [1;30m▀▄▄[0m [1;30m▀█[0;1;30;47m▀[0;1;30;40m█[0;1;30;47m▄[0m█ [1;30m▌▌                         █▀[0m▄████[1;30m▄▄██████▄▄▀[0m              [1;30m█▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: shn-snow.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook19/raw/shn-snow.ans
-# Source Revision: archive-sha256:3dd762b50e992d041fc40857f6a08666cf879c80169b27b714b162069a52b736
-# Source SHA-256: e87d22ec621f1fdec4d0a7d55cd9af67d197a2a2a9d34c0219f2dceb54d87e2b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: shn-snow.ans by shine (black maiden); released in bmbook19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: snowman
-# SAUCE Author: shine
-# SAUCE Group: black maiden
-# SAUCE Date: 19981222
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: snowman by shine | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook19-shn-snow
 
 Write-Host '
                              [1;34m▓▓███[0;1;34;44m███[0;1;34;40m█▀▀▀▀▀▀[0;1;30;40m▄▄▄▄▄▄▄ [0;1;34;40m▀▀▀██████████▀▀▀ [0;33m▀▀▀▀[0;1;34m ▀▀▀▀██[0m

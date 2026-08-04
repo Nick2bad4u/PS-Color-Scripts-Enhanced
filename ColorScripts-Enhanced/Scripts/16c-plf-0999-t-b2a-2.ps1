@@ -1,18 +1,4 @@
-﻿# Converted from: T-B2A-2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0999/raw/T-B2A-2.ANS
-# Source Revision: archive-sha256:a2e683452933f0cc0c7c5f8185be51af4846ace8a1753ba20cf7f9ba82c1dcf4
-# Source SHA-256: 32f49396e19e08753f5d8504b52e2ea8f9b2a9da507e86bc8ce82b7192bcd30b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T-B2A-2.ANS by Toot (poffelipoff); released in plf-0999 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Blender2000ad #2
-# SAUCE Author: Toot
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19990918
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: Blender2000ad #2 by Toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0999-t-b2a-2
 
 Write-Host '
 [34m████████████████████████████████████▀▀▀▀▀▀▀▀▀██████████████████████████████████[0m

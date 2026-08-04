@@ -1,18 +1,4 @@
-﻿# Converted from: MA-SOAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/int-0595/raw/MA-SOAS.ANS
-# Source Revision: archive-sha256:e22d3952ca70c64f879897fb904ffbbf60c66bd0e40f7e119d0e6bdf3808e773
-# Source SHA-256: ac5973988000371579fa25654a903e40bb576390b9cb2141c89017f270ebf027
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MA-SOAS.ANS by Mage (Integrity); released in int-0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Shades of a Shade
-# SAUCE Author: Mage
-# SAUCE Group: Integrity
-# SAUCE Date: 19950430
-# SAUCE Dimensions: 80x25
-# Lines: 46-91
-# Columns: 1-80
+﻿# Artwork: Shades of a Shade by Mage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-int-0595-ma-soas-part02
 
 Write-Host '
 [37m▌[0;1;32;42m░[0m [1m▀[0m▀[33m [0;32m▀▄▀[0;1;32;42m░[0;32m▌▐▄▀▄█▓[0m [1;37m▐[0;1;37;47m▓[0m▄▀▀▄▓▀▀ [1;30m▄[0m [33m▄[0;31m▀▀█▀▀▓▀▀█[0;1;30;41m░░▒░[0;31m▀▀[0;1;31m▄▄[0;31m▄[0;1;31m▄[0;31m▄[0;1;31;41m [0;31m█[0;1;31;41m [0;31m█[0;1;31;41m░▀▓▓▄[0;31m██▀▀▄▄▄▄▄▄▄▄[0;34m▀▀▀▀▀▀▀[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: M-FUCKU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-03/raw/M-FUCKU.ANS
-# Source Revision: archive-sha256:9ea26ff16b2d0162532c602fba75b69e539d71620a3b4e34b796de886326619c
-# Source SHA-256: 0645c9bfeb68af6823ee675d5404f6811179d8127e01fdb907130e6556517c66
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M-FUCKU.ANS by milkmang (nerp); released in nerp-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ..
-# SAUCE Author: milkmang
-# SAUCE Group: nerp
-# SAUCE Date: 19971224
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: .. by milkmang | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-03-m-fucku
 
 Write-Host '
           [33m ▄▄▄▐████▀▀▄▄  ▐▀  ▄▄▄▀▀▀▀█▄▄▄▄▄ [0;37m           [0m                [33m▀█[0;1;33;43m░░[0;33m▀·[0m

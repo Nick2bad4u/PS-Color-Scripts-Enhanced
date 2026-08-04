@@ -1,19 +1,4 @@
-﻿# Converted from: g-2001.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-004/raw/g-2001.ans
-# Source Revision: archive-sha256:c716e28d4b828a0135c19992fe2f71464879479199ebc42fd3d533b5bd3bf4d4
-# Source SHA-256: e61089bc0c80a1ebb48d1795fe0210a7f0edef7ed4f38b7ccf30fc43ff5db466
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: g-2001.ans by G. (lEGACY kREW!); released in lgcy-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 2001: A Space Odyssey
-# SAUCE Author: G.
-# SAUCE Group: lEGACY kREW!
-# SAUCE Date: 20210805
-# SAUCE Dimensions: 80x58
-# SAUCE Font: IBM VGA
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: 2001: A Space Odyssey by G. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-004-g-2001-part01
 
 Write-Host '
 [34;40m$$$▒▒▒▒▓[0;1;34;40m░░▒▒▒▒▒▓[0;1;37;44m░░[0;1;37;40m▒▓▓[0;1;34;40m▓[0;1;37;40m▒▓▓▓▓▓▓█[0;1;34;40m▓▓▓▓▒▒░[0;1;37;44m.[0;1;34;40m░░░░[0m       [1m+[0m [1m+.[0m     [1m☼[0m            [1m+[0m

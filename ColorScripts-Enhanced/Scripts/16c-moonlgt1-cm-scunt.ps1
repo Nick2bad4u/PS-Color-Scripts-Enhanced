@@ -1,18 +1,4 @@
-﻿# Converted from: CM-SCUNT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moonlgt1/raw/CM-SCUNT.ANS
-# Source Revision: archive-sha256:9c3296d479bffdc90be8aa4a3f3118a85ae9456683674c3e67716221b3c262b5
-# Source SHA-256: 2371daa2996788d39d3c2c2cffa1189ef5dc04bf18e7c7d82a2f52d4235c643c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CM-SCUNT.ANS by cheeze monkey (moonlight); released in moonlgt1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: super cunt
-# SAUCE Author: cheeze monkey
-# SAUCE Group: moonlight
-# SAUCE Date: 19960824
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: super cunt by cheeze monkey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moonlgt1-cm-scunt
 
 Write-Host '
                                                 [1;30m▄■▀▀■▄[0m

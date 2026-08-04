@@ -1,16 +1,4 @@
-﻿# Converted from: Mr-8th.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_blockalypse/raw/Mr-8th.ans
-# Source Revision: archive-sha256:29ba148fe5fc8b4a774ee58a56a5b6d8104f139a95cba3df944ffda7c075e06a
-# Source SHA-256: 8c02ac8473916ab7e9f611af7cec12c40bf61f3a3c232b639c293de99276156d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Mr-8th.ans by Mr Wrong (blocktronics_blockalypse); released in blocktronics_blockalypse and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 20131208
-# SAUCE Dimensions: 80x58
-# SAUCE Font: IBM VGA
-# Lines: 30-58
-# Columns: 1-80
+﻿# Artwork: Mr-8th.ans by Mr Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blockalypse-mr-8th-part02
 
 Write-Host '
         [31;40m░[0m        [31;40m░ [0;30;41m█[0m        [31;40m░[0m       [1;37;40m░▓█████[0;31m░[0m     [31m░[0m                 [31m▓▀[0;37m▀[0;31m▓[0m      [1;30m█[0m

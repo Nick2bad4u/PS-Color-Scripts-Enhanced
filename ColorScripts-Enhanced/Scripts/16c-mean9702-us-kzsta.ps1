@@ -1,18 +1,4 @@
-﻿# Converted from: US-KZSTA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mean9702/raw/US-KZSTA.ANS
-# Source Revision: archive-sha256:50188cf6a7b32040057966067eb7319691f159dea5b32b2a96dde8d34c559d2e
-# Source SHA-256: d9c1d7ed899bfb59c1723875c11744a98105c79690af2b97a771da5f33129a87
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-KZSTA.ANS by Nail + Kyp (mean schemen scheme); released in mean9702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: kaoz stats
-# SAUCE Author: kyp+nail
-# SAUCE Group: mean schemen scheme
-# SAUCE Date: 19961228
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: kaoz stats by Nail + Kyp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mean9702-us-kzsta
 
 Write-Host '
                               [1m▄[0m▄[1;30m▄[0m ▄[1;47m░[0;1;30;47m░░▓[0;1;30;40m▀▀[0m ▄▄[1;30m▄▌[0m     [1;30m▄[0m    [1;30m (k)n! // mean scheme[0m

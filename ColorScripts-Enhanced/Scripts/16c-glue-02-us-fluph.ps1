@@ -1,13 +1,4 @@
-﻿# Converted from: US-FLUPH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-02/raw/US-FLUPH.ANS
-# Source Revision: archive-sha256:39d2334584977ac14b33f06b2f4e2bf93d1902538006b996fc8bb6135cc5d15c
-# Source SHA-256: 22a1a617c3e161086bc1c5f92fcbb670121259dad841b1a51e97161467c1a390
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FLUPH.ANS by Phobia + Flood (glue-02); released in glue-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: US-FLUPH.ANS by Phobia + Flood | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-02-us-fluph
 
 Write-Host '
 

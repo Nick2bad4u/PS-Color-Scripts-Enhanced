@@ -1,18 +1,4 @@
-﻿# Converted from: FJ_LAAST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl-brtsh/raw/FJ_LAAST.ANS
-# Source Revision: archive-sha256:d4d2c2945597259d409a8a2043adb463621296e39a0812b6c732bad34754acd9
-# Source SHA-256: 56f2f4cc4b44b76ca6b758067e0f02d7d4e8bd21ab78367fb877e3e84206d96e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FJ_LAAST.ANS by fastjack (boil); released in bl-brtsh and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: free lastcaller
-# SAUCE Author: fastjack
-# SAUCE Group: boil
-# SAUCE Date: 19970606
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: free lastcaller by fastjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-brtsh-fj-laast
 
 Write-Host '
    [34m▄▄░░[0m                                [34m░░[0m                     [34m░░▄▄[0;1;34;44m░░▄▄[0;34m [0m    [34m░▄[0;1;34;44m▄██[0m

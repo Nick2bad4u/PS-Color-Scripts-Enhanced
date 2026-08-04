@@ -127,8 +127,8 @@ Describe 'Release lint wiring' {
     It 'keeps verification non-mutating' {
         $packageJson = Get-Content -LiteralPath $script:PackageJsonPath -Raw | ConvertFrom-Json
 
-        $packageJson.scripts.verify | Should -Be 'npm run lint && npm run readme:check'
-        $packageJson.scripts.'verify:strict' | Should -Be 'npm run lint:strict && npm run readme:check && npm run ansi:gallery-analysis:check'
+        $packageJson.scripts.verify | Should -Be 'npm run lint && npm run readme:check && npm run artwork:provenance:headers:check && npm run artwork:provenance:web:check'
+        $packageJson.scripts.'verify:strict' | Should -Be 'npm run lint:strict && npm run readme:check && npm run artwork:provenance:headers:check && npm run artwork:provenance:web:check && npm run ansi:gallery-analysis:check'
         $packageJson.scripts.verify | Should -Not -Match ':fix'
         $packageJson.scripts.'verify:strict' | Should -Not -Match ':fix'
     }

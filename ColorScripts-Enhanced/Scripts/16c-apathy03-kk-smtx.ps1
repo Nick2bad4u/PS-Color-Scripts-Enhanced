@@ -1,18 +1,4 @@
-﻿# Converted from: KK-SMTX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy03/raw/KK-SMTX.ANS
-# Source Revision: archive-sha256:a3a53ea79bcbcd57bc05c6d80b9369444063e81f9dc4053225ede5f60d209f4b
-# Source SHA-256: a27ecf2fd170166d7b5ac1940999a7cd7915a9ee9052de489883124a60692348
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KK-SMTX.ANS by Kamikaze (THRuST); released in apathy03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Iniquity matrix
-# SAUCE Author: Kamikaze
-# SAUCE Group: THRuST
-# SAUCE Date: 19951106
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Iniquity matrix by Kamikaze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy03-kk-smtx
 
 Write-Host '
           [1;30m▄░▒▀░▄▀▓▄▀■▀▓▀▀▓▒░▄░▒[0m [1;30m▓▒▀▀▀▄■▄[0m

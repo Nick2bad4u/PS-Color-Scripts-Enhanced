@@ -1,18 +1,4 @@
-﻿# Converted from: GS-TCJB1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9611/raw/GS-TCJB1.ANS
-# Source Revision: archive-sha256:2b73e149488dc761d99422832825743596588d59e58f9bfecfb5d0e9dbffd274
-# Source SHA-256: d1c8e913d001b853972f71eb8be67e9b4f91b6e3b728a1a09b9f2660ecd8a91e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GS-TCJB1.ANS by Grindstone (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The CyberJunkie's Brotherhood
-# SAUCE Author: Grindstone
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961030
-# SAUCE Dimensions: 80x25
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: The CyberJunkie's Brotherhood by Grindstone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9611-gs-tcjb1
 
 Write-Host '
  [1;30m-──────-─────-──────────────-────-───────────────────────-─────-──────────-─[0m

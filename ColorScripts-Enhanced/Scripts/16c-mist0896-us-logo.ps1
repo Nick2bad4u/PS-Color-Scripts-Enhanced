@@ -1,18 +1,4 @@
-﻿# Converted from: US-LOGO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0896/raw/US-LOGO.ANS
-# Source Revision: archive-sha256:fbea77787a17b57fc9475ac72fcbd34c85700db59f4a3e0b1a8b342878f06b42
-# Source SHA-256: bc45fa568ff2712768070ce2375ace9f90d6c8de8d44ff15469565b2f36f0171
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-LOGO.ANS by Maeve Wolf + Cybercool (Mistigris); released in mist0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Logocolly
-# SAUCE Author: Cybercool/Maeve Wolf
-# SAUCE Group: Mistigris
-# SAUCE Date: 19960823
-# SAUCE Dimensions: 80x26
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Logocolly by Maeve Wolf + Cybercool | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0896-us-logo
 
 Write-Host '
                            [47m  [0m       [35;40m▄[0;35;43m█[0;35;40m▄[0m

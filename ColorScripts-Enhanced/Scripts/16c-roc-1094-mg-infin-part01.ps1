@@ -1,18 +1,4 @@
-﻿# Converted from: MG-INFIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roc-1094/raw/MG-INFIN.ANS
-# Source Revision: archive-sha256:b9f51920f78bda9bc4e939e42f211cdf72f5cc79d2a1f03e8249b35982ade015
-# Source SHA-256: 29cb41f9913effa4094a6990ea00c7f9d54f6064d79fa9acdbc9ec161c81e615
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MG-INFIN.ANS by Muthergoose (ROC); released in roc-1094 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Split Infinity
-# SAUCE Author: Muthergoose
-# SAUCE Group: ROC
-# SAUCE Date: 19940922
-# SAUCE Dimensions: 80x100
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Split Infinity by Muthergoose | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roc-1094-mg-infin-part01
 
 Write-Host '
 [1;34m       [0m                                [34m│[0m

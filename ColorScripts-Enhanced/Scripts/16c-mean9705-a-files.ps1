@@ -1,18 +1,4 @@
-﻿# Converted from: A-FILES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mean9705/raw/A-FILES.ANS
-# Source Revision: archive-sha256:96235d9849bffd6005b05e894c29f6b67b3d4c051090948bf653b689870cae3a
-# Source SHA-256: f4b397fbc0a10a3492e3d0908476895310166f4705fe122ac0b9ca0efaf675c6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: A-FILES.ANS by alecs (mean scheme); released in mean9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: icebreaker - files
-# SAUCE Author: alecs
-# SAUCE Group: mean scheme
-# SAUCE Date: 19970427
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: icebreaker - files by alecs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mean9705-a-files
 
 Write-Host '
 [1;33;45m▀[0;1;37;45m▀▀[0;1;33;45m▌[0;1;37;45m▓▒▄▄[0;35m▄▄▄░[0;30;45m▓[0;37;40m  [0;34;40m▀▐[0;1;34;44m░▓[0;34m▀ [0;37m▄▀[0;1;37m▀[0;1;37;47m████[0;1;37;40m▄▄[0m▄  ▄[1;47m▄[0;1;40m▄[0m [1;33;45m▓▀[0;1;37;45m▀▀▓░[0;35m▄▄▄  [0;37m ▄[0;1;37m▌▄▄[0m   [31m▀▐[0;1;33;41m▐▀░░[0;31m▌▀[0;37m ▄▌░[0;30;47m▓[0;37;40m  [0;33;40m▀▐[0;1;33;43m▄▐[0;1;37;40m████[0m

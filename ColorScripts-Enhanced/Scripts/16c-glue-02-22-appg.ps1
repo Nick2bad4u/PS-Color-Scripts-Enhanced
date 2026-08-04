@@ -1,18 +1,4 @@
-﻿# Converted from: 22-APPG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-02/raw/22-APPG.ANS
-# Source Revision: archive-sha256:39d2334584977ac14b33f06b2f4e2bf93d1902538006b996fc8bb6135cc5d15c
-# Source SHA-256: 7d93de8fc8d00560b8e72b43a53d8586a8ab52503497bbaaa9a504d140a09e9b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 22-APPG.ANS by catch22 (gLUE); released in glue-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: appgen ansi
-# SAUCE Author: catch22
-# SAUCE Group: gLUE
-# SAUCE Date: 19970806
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: appgen ansi by catch22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-02-22-appg
 
 Write-Host '
 [1;31;43m▒▒▓[0;1;31;40m███████████████████▀▀[0;1;31;43m▓▓[0;1;31;40m█[0;1;31;43m▓▒░ [0;1;30;40m  ▀[0;1;30;47m▓▓[0;1;30;40m█████▀▀▀▀▀███▀▀▀[0;1;30;47m▓▓[0;1;30;40m███▀▀▀▀▀███▀▀██▀▀▀▀▀▀▀▀▀██[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: OZ¬ASD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-06/raw/OZ%C2%ACASD.ANS
-# Source Revision: archive-sha256:4c9f598b864a923147eb394591cb120a43a087e70e3844ab4ff73e06903fa178
-# Source SHA-256: 8472ca53726dbd621dd8372d190f63c188931582f2d72764605d41547b351b59
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OZ¬ASD.ANS by o0ZOx0rzE (Department 38); released in d38-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: asdfg prOmo... dEAD?
-# SAUCE Author: o0ZOx0rzE
-# SAUCE Group: Department 38
-# SAUCE Date: 19970511
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: asdfg prOmo... dEAD? by o0ZOx0rzE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-06-oz-asd
 
 Write-Host '
                                [1;31m▀[0m [31m▄[0;1;31;41m░░[0;1;31;40m██▐[0;1;31;41m▀[0;30;41m▓[0;31;40m░[0m

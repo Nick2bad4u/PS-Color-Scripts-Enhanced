@@ -1,18 +1,4 @@
-﻿# Converted from: VD-SCYM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9508/raw/VD-SCYM.ANS
-# Source Revision: archive-sha256:8fe3905bed683edd904ce89f8bc0d91accc8ae81d07df31e08292d44358f8d3d
-# Source SHA-256: 8a7901321a6ffaba0690d67427f727c0b43eab405f14ddd5cd06a53db400e66f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VD-SCYM.ANS by veediot (blade productions); released in blde9508 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: secrecy matrix
-# SAUCE Author: veediot
-# SAUCE Group: blade productions
-# SAUCE Date: 19950731
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: secrecy matrix by veediot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9508-vd-scym
 
 Write-Host '
      ▄[1;47m░[0m█▄

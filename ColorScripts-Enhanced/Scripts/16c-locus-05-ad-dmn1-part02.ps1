@@ -1,13 +1,4 @@
-﻿# Converted from: AD-DMN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/locus-05/raw/AD-DMN1.ANS
-# Source Revision: archive-sha256:e794f4a6bc7d61ceeb91dcf253d8af6f1d242da726d5159e3be21f4afcead4b3
-# Source SHA-256: e1de7ad55ca6d8421e11528e2b823def4d08a6cbd6687e53935bbc8b32d46036
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AD-DMN1.ANS by Advocate (locus-05); released in locus-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 41-80
-# Columns: 1-80
+﻿# Artwork: AD-DMN1.ANS by Advocate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-locus-05-ad-dmn1-part02
 
 Write-Host '
         [32m░[0m     [37m          [0;33m▄[0;31m▄▄▄▄ [0;33m▀▄[0;31m███▀█████[0;33m▀[0;31m█████▀███[0;30;41m▀[0;31;40m▀[0;37;40m [0;30;41m▀▀▀▀▀▀[0;37;40m       [0m     [32;40m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: CM-FLTH2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moonlgt1/raw/CM-FLTH2.ANS
-# Source Revision: archive-sha256:9c3296d479bffdc90be8aa4a3f3118a85ae9456683674c3e67716221b3c262b5
-# Source SHA-256: 5a8077879fbd9a57d183d646b275ce576a1433998d6a0974e1d119d37553621e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CM-FLTH2.ANS by cheeze monkey (moonlight); released in moonlgt1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: filth #2
-# SAUCE Author: cheeze monkey
-# SAUCE Group: moonlight
-# SAUCE Date: 19960820
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: filth #2 by cheeze monkey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moonlgt1-cm-flth2
 
 Write-Host '
 

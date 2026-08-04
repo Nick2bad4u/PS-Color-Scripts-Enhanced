@@ -1,18 +1,4 @@
-﻿# Converted from: XS-UDM01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amb-0002/raw/XS-UDM01.ANS
-# Source Revision: archive-sha256:ddf2bfb6c349501ad0002133992d1d3c9602291731a9f4cef0d5ef9af30b761f
-# Source SHA-256: 8495a47b01f4a4df983974c4309dfbb07bc6083428720412e4f0cbe007472358
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XS-UDM01.ANS by Excess (AMBUSH Productions); released in amb-0002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Unknown D-Menxion Logo #1
-# SAUCE Author: Excess
-# SAUCE Group: AMBUSH Productions
-# SAUCE Date: 19961012
-# SAUCE Dimensions: 80x25
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Unknown D-Menxion Logo #1 by Excess | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amb-0002-xs-udm01
 
 Write-Host '
                                   [1m [0m

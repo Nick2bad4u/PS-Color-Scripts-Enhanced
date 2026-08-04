@@ -1,13 +1,4 @@
-﻿# Converted from: SM-CROP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper07/raw/SM-CROP1.ANS
-# Source Revision: archive-sha256:c42bfa4438f002452f1a6bc8caf7f32e2e6bfd8fffb358dd625c49ecd6cf6820
-# Source SHA-256: 5c8b46054704cd420733b52d88ce90b827e263bb59991fdeea536b54dafdddff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-CROP1.ANS by Smoke (jasper07); released in jasper07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: SM-CROP1.ANS by Smoke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper07-sm-crop1
 
 Write-Host '
                      [31m▄[0;30;41m█[0;31;40m▄█▓[0;37;40m [0;31;40m▄█[0m                      [31;40m▄[0m   [30;41m ▄[0;31;40m▄[0m

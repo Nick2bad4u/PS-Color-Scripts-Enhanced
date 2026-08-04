@@ -1,13 +1,4 @@
-﻿# Converted from: UC-FUSFL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blnt0594/raw/UC-FUSFL.ANS
-# Source Revision: archive-sha256:c92fd222c907eec9e06a7dedf45261d782ceb5e588c7da89b25418f1e8e8f735
-# Source SHA-256: aeca007de8509d406094da07c9411b72b997fa26979f1d1f14430f9f32683fda
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UC-FUSFL.ANS by Unknown Comic (blnt0594); released in blnt0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 42-87
-# Columns: 1-80
+﻿# Artwork: UC-FUSFL.ANS by Unknown Comic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blnt0594-uc-fusfl-part02
 
 Write-Host '
 [34m███████████[0;30;44m        [0;34m████ ▀▀ [0;30;44m▀[0;34m███▀ [0;1;35m▄██▄[0m      [33m████▀  [0;1;35m▄▄  [0;34m▀████ ████████    [0;1;30m█[0;30;47m [0;31;47m▄▀▄ [0;1m█[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: RD-PRPHZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blind-02/raw/RD-PRPHZ.ANS
-# Source Revision: archive-sha256:c5e79989307dbf090a38f911b35eef6e687ee7fb3d0611abf6934cc9737046e9
-# Source SHA-256: 713b9ea6ab251950ecc91bd4a128d0e501626c91c889c07d1d853f80d8e88d16
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD-PRPHZ.ANS by Rare Delusion (blind-02); released in blind-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: RD-PRPHZ.ANS by Rare Delusion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blind-02-rd-prphz
 
 Write-Host '
 [1;30m[0m

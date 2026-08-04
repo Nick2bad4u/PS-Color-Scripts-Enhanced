@@ -1,18 +1,4 @@
-﻿# Converted from: DL-DIVID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eden0894/raw/DL-DIVID.ANS
-# Source Revision: archive-sha256:b5c3db20ed541cefb36b7887b27aec053e033f96e4cf23a77632ce1a7ad483d6
-# Source SHA-256: e303d7900029eb38843d499e65c919a65057990661830224dded5add66cf992f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DL-DIVID.ANS by Dalamar (Eden); released in eden0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Divide Overflow
-# SAUCE Author: Dalamar
-# SAUCE Group: Eden
-# SAUCE Date: 19940827
-# SAUCE Dimensions: 80x135
-# Lines: 49-94
-# Columns: 1-80
+﻿# Artwork: Divide Overflow by Dalamar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eden0894-dl-divid-part02
 
 Write-Host '
 [30;43m         [0;1;31;43m░░░[0;30;43m        [0;1;30;43m░░░░▒░░▒▒▒▓[0;1;30;40m▀▀[0;33m  [0;1;30m▄▄[0;33m   ▀▀[0;1;31;43m   [0;33m█[0;1;31;43m  [0;33m▀[0;1;30m▄▄[0;1;30;43m▓▒▒░[0;30;43m [0;1;30;43m▒░░[0;33m▄[0;1;30;43m░▒▒[0;30m [0;1;31;43m▓▒▒▒░  [0;1;30;43m░[0;33m▀▄▄[0;1;30;43m░░▒[0;1;30;40m▄[0;33m [0m

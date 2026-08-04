@@ -1,18 +1,4 @@
-﻿# Converted from: M7M-FIRF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-30/raw/M7M-FIRF.ANS
-# Source Revision: archive-sha256:3b54a3ca5cf24b49daaa164f9b343386c409e97270d30a4eb2997d0a7e0901dd
-# Source SHA-256: f1c8b2504f5edc685d163914bdd5a907b71e37acdf9579b4e81045eaf6e9eef9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M7M-FIRF.ANS by Metal Militia (fire); released in fire-30 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Fire Promotional
-# SAUCE Author: Metal Militia
-# SAUCE Group: fire
-# SAUCE Date: 19971031
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Fire Promotional by Metal Militia | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-30-m7m-firf
 
 Write-Host '
     [1;30m b.[0m

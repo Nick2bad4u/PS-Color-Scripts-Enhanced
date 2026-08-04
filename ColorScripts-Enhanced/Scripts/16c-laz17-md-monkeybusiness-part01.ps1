@@ -1,19 +1,4 @@
-﻿# Converted from: md-MonkeyBusiness.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz17/raw/md-MonkeyBusiness.ans
-# Source Revision: archive-sha256:2674245bad3e14fe6d4a935ba8daf9898a4426e394c56ca9710e3afa19d3d943
-# Source SHA-256: f7d67ea1e0d97856d1172002a8899ba6966857d35ec7a54bccc36510ceed3f9b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: md-MonkeyBusiness.ans by MaDDoG (LAZARUS); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Monkey Business
-# SAUCE Author: MaDDoG
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20230702
-# SAUCE Dimensions: 80x69
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Monkey Business by MaDDoG | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz17-md-monkeybusiness-part01
 
 Write-Host '
 [1m███████████[0;1;47m▀[0;1;40m▀[0;1;30;47m▄[0;1;30;46m▀▀[0;36m███████████████████████[0;1;30;46m▀▀[0;1;30;40m██[0;1;30;46m▄[0;36m▀▀▀[0;1;30;46m▄▄▄[0;1;30;40m█[0;1;30;46m▀▀[0;1;30;40m█[0;1;30;46m▄▄[0;36m█████████[0;1;30;46m▀▀[0;1;37;40m▀[0;1;37;47m▀[0;1;37;40m███████████[0m

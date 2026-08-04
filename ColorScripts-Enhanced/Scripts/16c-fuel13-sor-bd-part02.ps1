@@ -1,18 +1,4 @@
-﻿# Converted from: SOR-BD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel13/raw/SOR-BD.ANS
-# Source Revision: archive-sha256:570310635bd377c51dda6add80730abba1fa8786bf6aaf423ae20c54dbfdb41a
-# Source SHA-256: bb049903335f283e075bfd64c85aef1b9ed3cd7c4be6146fe874e9ff20b74559
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SOR-BD.ANS by Spirit of Rage (Fuel Productions); released in fuel13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Brain Damage
-# SAUCE Author: Spirit of Rage
-# SAUCE Group: Fuel Productions
-# SAUCE Date: 19970425
-# SAUCE Dimensions: 80x89
-# Lines: 47-89
-# Columns: 1-80
+﻿# Artwork: Brain Damage by Spirit of Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel13-sor-bd-part02
 
 Write-Host '
              [30;43m▓[0m                           [36;40m░[0m                  [30;43m▓[0;33;40m░[0m

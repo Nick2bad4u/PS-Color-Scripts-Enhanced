@@ -1,18 +1,4 @@
-﻿# Converted from: PF-TFACE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stl-001/raw/PF-TFACE.ANS
-# Source Revision: archive-sha256:c816a943b20935c303514c1ef3cdd50eb87b0620e57aaacbb822a80e0731ed25
-# Source SHA-256: 236c21a555c70fb41f4347fc92dd027ca58c333d9cf9b8dead28b83eb12fde6a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PF-TFACE.ANS by Pfezzyo (Stile); released in stl-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Face Of Pfezzyo
-# SAUCE Author: Pfezzyo
-# SAUCE Group: Stile
-# SAUCE Date: 19941031
-# SAUCE Dimensions: 80x25
-# Lines: 49-96
-# Columns: 1-80
+﻿# Artwork: The Face Of Pfezzyo by Pfezzyo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stl-001-pf-tface-part02
 
 Write-Host '
                    [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

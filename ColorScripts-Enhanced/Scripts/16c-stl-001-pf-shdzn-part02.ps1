@@ -1,18 +1,4 @@
-﻿# Converted from: PF-SHDZN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stl-001/raw/PF-SHDZN.ANS
-# Source Revision: archive-sha256:c816a943b20935c303514c1ef3cdd50eb87b0620e57aaacbb822a80e0731ed25
-# Source SHA-256: 0b82fefcc2cc8e2940a3f2127f7c70e96131657f23c65154e14e81cbad51482e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PF-SHDZN.ANS by Pfezzyo (Stile); released in stl-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Shadow Zone
-# SAUCE Author: Pfezzyo
-# SAUCE Group: Stile
-# SAUCE Date: 19941029
-# SAUCE Dimensions: 80x25
-# Lines: 51-92
-# Columns: 1-80
+﻿# Artwork: Shadow Zone by Pfezzyo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stl-001-pf-shdzn-part02
 
 Write-Host '
                                     [1;30;40m▀▀▀▀▀▀▀[0m

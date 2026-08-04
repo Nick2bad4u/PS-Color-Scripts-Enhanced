@@ -1,17 +1,4 @@
-﻿# Converted from: LD-MTRX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eco-15/raw/LD-MTRX.ANS
-# Source Revision: archive-sha256:409ec45d4d8a58bbd858f19a2194e4a9e60ce3a5a22824158eb9e0a6b60e9226
-# Source SHA-256: 8b2e66edbebac0529bfbc1d1fa1f2d9b948e3b48cf0d0f6c6f64bd65eb3d0373
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-MTRX.ANS by lord dralacle (ecolove); released in eco-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: lord dralacle
-# SAUCE Group: ecolove
-# SAUCE Date: 19990609
-# SAUCE Dimensions: 80x122
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: LD-MTRX.ANS by lord dralacle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eco-15-ld-mtrx-part01
 
 Write-Host '
 

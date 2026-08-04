@@ -1,18 +1,4 @@
-﻿# Converted from: HP-NIMCH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/yak9601a/raw/HP-NIMCH.ANS
-# Source Revision: archive-sha256:0ef47e6c5957fc02130eec9688203a874e59abb766f403c5192fe56bd23b5e1f
-# Source SHA-256: fa3b9668db38fb04ae008e5a145342fe1251889d8b2275b6b02758694230fe99
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HP-NIMCH.ANS by hennifer pantalon (yak); released in yak9601a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: nimrodel female-person
-# SAUCE Author: hennifer pantalon
-# SAUCE Group: yak
-# SAUCE Date: 19960105
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: nimrodel female-person by hennifer pantalon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-yak9601a-hp-nimch
 
 Write-Host '
 [34m   ██[0;1;34;44m [0;34m██[0;1;34;44m  [0;34m████████[0;1;34;44m▀■[0;34m██████████████████████████████████[0;1;34;44m■ [0;34m███▄▀██▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: rl-prev.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gen-09/raw/rl-prev.ans
-# Source Revision: archive-sha256:28dfd4d53028a3ef9674c9b8c0f8c88f562e508d39c2de8ee56ef396a94aef65
-# Source SHA-256: 209f671a2aeae64521a7f68a76df7925381adb332ee46eb4936dcab7c4094e2b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: rl-prev.ans by Rawlock (gen-09); released in gen-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: rl-prev.ans by Rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gen-09-rl-prev
 
 Write-Host '
 [37m [0m

@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-LGVR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-45/raw/ZIR-LGVR.ANS
-# Source Revision: archive-sha256:0564021806e0277d72a0e235c044a0e0470226ba860a8976e1e3092326555d1d
-# Source SHA-256: 0514a92e28fcdacfb5ceabd3362713997fd318740e01263b2c75a0a7894abc76
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-LGVR.ANS by zir (FiRE); released in fire-45 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: language is a virus
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20260303
-# SAUCE Dimensions: 80x75
-# SAUCE Font: IBM VGA
-# SAUCE Comments: "language is a virus from outer space."
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: language is a virus by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-45-zir-lgvr-part01
 
 Write-Host '
 [37;40m [0;31;40m [0;37;40m   [0;31;40m [0;37;40m    [0;31;40m [0;37;40m         [0;31;40m [0m                                                   [36;40m░░[0;37;40m [0;36;40m░░░░[0m

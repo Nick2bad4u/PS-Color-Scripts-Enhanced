@@ -1,19 +1,4 @@
-﻿# Converted from: 13-MARS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-36/raw/13-MARS1.ANS
-# Source Revision: archive-sha256:43e7d46e56dc094cf8502b299dcd82ee875dea0a064a36248f4e6c844180fd25
-# Source SHA-256: e073028a523e33a6786c7c1303ff60a8470c5d9c09348617049bb20ed404d010
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 13-MARS1.ANS by Ville (Fire); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Lonely on Mars
-# SAUCE Author: Ville
-# SAUCE Group: Fire
-# SAUCE Date: 20230303
-# SAUCE Dimensions: 80x75
-# SAUCE Font: IBM VGA
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Lonely on Mars by Ville | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-36-13-mars1-part01
 
 Write-Host '
 [34;40m░[0;1;30;40m░[0;34m░[0;37m [0;34m░[0;37m [0;34m░[0;37m   [0;34m░[0;37m [0;1;30m░[0m  [1;30m░·[0m  [1;30m░[0m                                          [34m─[0m      [34m░[0;37m [0;34m─[0;37m [0;34m░[0;37m [0;34m░[0;37m [0;34m░[0;37m [0;34m░[0m

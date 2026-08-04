@@ -1,18 +1,4 @@
-﻿# Converted from: DLT-ARC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/arc-17/raw/DLT-ARC.ANS
-# Source Revision: archive-sha256:31f26da3cf2bf64aa491737e7b6c80b0b88a8949776f7dd7596da36ff613ee0f
-# Source SHA-256: 2cedd0ba7d485459f35f2deb7a070fe4407c0a54ff1b25decd38f8bb17c9a893
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DLT-ARC.ANS by dalton (Arc/Plf); released in arc-17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Arc
-# SAUCE Author: dalton
-# SAUCE Group: Arc/Plf
-# SAUCE Date: 20000706
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Arc by dalton | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-arc-17-dlt-arc
 
 Write-Host '
                                                                  [34m▄▄▄[0m

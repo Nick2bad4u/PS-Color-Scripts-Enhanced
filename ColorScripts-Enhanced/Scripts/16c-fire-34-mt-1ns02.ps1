@@ -1,19 +1,4 @@
-﻿# Converted from: MT-1NS02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/MT-1NS02.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: 6ae3cb97a3cbe64c60e0d2662b25e9fd06b059c1f2497de23c6bb32c3ac89889
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MT-1NS02.ANS by Misfit (Blocktronics); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 1NS0MN1A - resurrection
-# SAUCE Author: Misfit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20200323
-# SAUCE Dimensions: 80x26
-# SAUCE Font: IBM VGA
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: 1NS0MN1A - resurrection by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-mt-1ns02
 
 Write-Host '
 [37;40m  [0;1;30;47m░░█▄[0m█[1;47m▀██▄[0m██[1;30;47m▀▀██▄[0m██[1;47m▀█▄[0m████████[1;47m▄[0;1;40m▀▀[0m███████[1;47m▄[0;1;40m▀▀[0m██[30;47m■[0;37;40m██[0;1;37;47m░░▒▒▒░░[0;1;30;47m [0m█[1;47m▄█▀[0m██[1;30;47m▄██▀▀[0m██[1;47m▄██▀[0m█[1;30;47m▄█░░[0m

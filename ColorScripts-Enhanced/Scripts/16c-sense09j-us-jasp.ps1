@@ -1,13 +1,4 @@
-﻿# Converted from: US-JASP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense09j/raw/US-JASP.ANS
-# Source Revision: archive-sha256:9f583533fb256ec67ece3c5d38ebea61ce21b385a7859a4e786edef290584615
-# Source SHA-256: 6e335819bcf10ec74b78247803ac8118fd26c7a0cdea44502cb64cdba28bec9b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-JASP.ANS by Cryogenic + Aesthetic + Plazz + Ceelow (sense09j); released in sense09j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: US-JASP.ANS by Cryogenic + Aesthetic + Plazz + Ceelow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense09j-us-jasp
 
 Write-Host '
              [1;34m  [0m                      [1;34m░░[0m

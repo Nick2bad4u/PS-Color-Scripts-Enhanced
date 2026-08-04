@@ -1,13 +1,4 @@
-﻿# Converted from: TR-UR01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-22/raw/TR-UR01.ANS
-# Source Revision: archive-sha256:0c97093be7f1ee75b59924d90a141846af1baed6d5e85d431d56994da3822a7c
-# Source SHA-256: 8b8eaa1c812a36f7a88e87569d63c9cde7b2985322f9557b0e1526d1a9c352d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-UR01.ANS by The Reaper (purg-22); released in purg-22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: TR-UR01.ANS by The Reaper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-22-tr-ur01
 
 Write-Host '
 [1;30m░[0;1;30;41m▓▒░[0;31m█▓▒▒[0;30;41m▓▓▓[0m   [1;30;40m░[0m        [1;30m▄[0m [1;30m▒░ [0m       [1;30m▄[0m           [1;30m░[0m     [30;41m▓▓[0;37;40m [0;30;41m▓▓▒▒░  [0;1;30;41m░ ░░░▒▒▓▓███[0;1;30;40m▓▓▓▒░[0m

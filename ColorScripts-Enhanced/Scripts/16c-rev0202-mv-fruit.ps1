@@ -1,13 +1,4 @@
-﻿# Converted from: mv-fruit.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0202/raw/mv-fruit.ans
-# Source Revision: archive-sha256:2dab715e9f2d819e9161d3954fa8210558a1b83f118c830394e2fdee6408a093
-# Source SHA-256: 5f049eb65ea9e97e1dd49c9835302399c0c9e67edcabd884895950900aa650d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mv-fruit.ans by Mr Violent (rev0202); released in rev0202 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: mv-fruit.ans by Mr Violent | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0202-mv-fruit
 
 Write-Host '
 [5;47m░░░[0;1;37m█▀▀▀▀▀▀████████████████████████████[0;5;47m░░░░░░░░[0;1;37m█████████████████████████████[0;1;37;47m▀▀▀[0;1;37;40m█▄[0m

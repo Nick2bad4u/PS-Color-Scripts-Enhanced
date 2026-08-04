@@ -1,18 +1,4 @@
-﻿# Converted from: VRM!EYEZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg0297/raw/VRM!EYEZ.ANS
-# Source Revision: archive-sha256:398d54ab48baf03b2a76271be28600e820cb7f3c3af599e851a71ac0924fa8fd
-# Source SHA-256: 47ed78ce053f66f226c251fb37b8ec053c2c914dc754ea163639d78498444dc2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VRM!EYEZ.ANS by vEWRmINH (?SiDD); released in drg0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: eyEz anD a PhoREHeAD
-# SAUCE Author: vEWRmINH
-# SAUCE Group: ?SiDD
-# SAUCE Date: 19970124
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: eyEz anD a PhoREHeAD by vEWRmINH | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg0297-vrm-eyez
 
 Write-Host '
 [30m[0m[30m[0m[30m[0m[30m[0m[30m[0m[30m[0m[30m                                [0;1;31m▄▄▄▄▄▄▄▄▄[0;30m                                 [0m    [30m [0m

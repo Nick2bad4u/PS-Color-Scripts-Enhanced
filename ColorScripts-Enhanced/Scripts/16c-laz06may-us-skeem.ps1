@@ -1,18 +1,4 @@
-﻿# Converted from: US-SKEEM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz06may/raw/US-SKEEM.ANS
-# Source Revision: archive-sha256:1ae2be5748106937cd6f4a9b876b344db035c3534c8d6472ca3ea1eb05f03cc5
-# Source SHA-256: 43a1f30d1d1cb8121f51742d2f68373a6f000510f0db5234ecc886d88aab15f9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SKEEM.ANS by Epoxy + Hennifer (lazarus/klexikal); released in laz06may and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the 5cheme.
-# SAUCE Author: epoxy and hennifer
-# SAUCE Group: lazarus/klexikal
-# SAUCE Date: 19970418
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: the 5cheme. by Epoxy + Hennifer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz06may-us-skeem
 
 Write-Host '
 [33m[0;37m[0;33m[0m[1;30m[0m[1;30m[0m[1;31m [0m           [1;31m  [0m      [33m [0;37m [0;33m▌[0;37m  [0;33m [0;37m  [0;33m▄[0m                                  [1;30m                 [0m

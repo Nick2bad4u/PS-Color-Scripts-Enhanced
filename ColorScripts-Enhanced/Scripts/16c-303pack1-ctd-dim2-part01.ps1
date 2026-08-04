@@ -1,18 +1,4 @@
-﻿# Converted from: CTD-DIM2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/303pack1/raw/CTD-DIM2.ANS
-# Source Revision: archive-sha256:d96bc08a467a2a6ea2a6e843ebd49b97b1020499b45630ef796714f352c9da8a
-# Source SHA-256: f172cd3a068f64e2cccc96e3dea7dbeb70336b45ca3fe1dada60825754afaf16
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CTD-DIM2.ANS by Crash Test Dummy ([3o3]art'97); released in 303pack1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Cl. Dimension pic. .. .
-# SAUCE Author: Crash Test Dummy
-# SAUCE Group: [3o3]art'97
-# SAUCE Date: 19970312
-# SAUCE Dimensions: 80x120
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Cl. Dimension pic. .. . by Crash Test Dummy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-303pack1-ctd-dim2-part01
 
 Write-Host '
 

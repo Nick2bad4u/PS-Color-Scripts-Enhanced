@@ -1,18 +1,4 @@
-﻿# Converted from: CG-AIS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-03/raw/CG-AIS2.ANS
-# Source Revision: archive-sha256:d2599b97a9288d8f82ddd62f9c4821cdc0d5105bf01763fad11be3b958d4ce10
-# Source SHA-256: 7547ddb7cb7853579740a1cf4be557660af3a9a9c02120a4de44d68d45c22228
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-AIS2.ANS by Cryogenic + Spear (used); released in used-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ais
-# SAUCE Author: cryogenic
-# SAUCE Group: used
-# SAUCE Date: 19991226
-# SAUCE Dimensions: 80x66
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: ais by Cryogenic + Spear | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-03-cg-ais2-part01
 
 Write-Host '
       [1;30m                 [0m   ▄▄  [1m░░[0m             ▄▄                 ▄▄

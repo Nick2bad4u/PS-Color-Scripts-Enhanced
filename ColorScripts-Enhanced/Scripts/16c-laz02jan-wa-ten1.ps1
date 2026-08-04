@@ -1,18 +1,4 @@
-﻿# Converted from: WA-TEN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz02jan/raw/WA-TEN1.ANS
-# Source Revision: archive-sha256:132672eb521503ab979d6725a75b6f055811245f253b5353290430aa5c4983b1
-# Source SHA-256: 7988e8d286694366191f173436ea9426d1b494af59eb4b6976cc300bb1f47d19
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WA-TEN1.ANS by warpus (lazarus); released in laz02jan and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: tenuous
-# SAUCE Author: warpus
-# SAUCE Group: lazarus
-# SAUCE Date: 19961223
-# SAUCE Dimensions: 80x33
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: tenuous by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz02jan-wa-ten1
 
 Write-Host '
          [34m  [0m                         [32m [0;1;32m [0m

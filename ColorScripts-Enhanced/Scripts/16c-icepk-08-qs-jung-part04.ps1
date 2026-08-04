@@ -1,13 +1,4 @@
-﻿# Converted from: QS-JUNG.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-08/raw/QS-JUNG.ICE
-# Source Revision: archive-sha256:76472331bcb8543f1e44f2a59ee8f7524c6af6373e89562b7fabb9e022104140
-# Source SHA-256: a605871bd2b640b44cc4c3a245cc21b278ad760ae05dd1748110080050b4aa1a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QS-JUNG.ICE by Quicksilver (icepk-08); released in icepk-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 125-160
-# Columns: 1-80
+﻿# Artwork: QS-JUNG.ICE by Quicksilver | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-08-qs-jung-part04
 
 Write-Host '
 [33m███▓██[0;33;43m [0;33;40m▒[0;1;32;42m▒[0;32m▄[0;33m░░▒▓█ [0;1;32;42m▒▒▓█[0m   [1;32;42m▒▓[0m   [1;30;40m░[0;32m▄[0;1;32;42m▒[0;1;30;40m░[0;32m▄[0;1;32;42m░▒░[0;32m▄[0;1;32;42m░░░▒[0;32m▄▄ [0;33m░▒░ [0;32m▄▄▄▄▄ [0;1;32;42m░░[0;32m▄ [0;32;42m [0;1;32;42m░▒▓[0m [32m▄▄▄▄▄▄▄▄▄[0;33m░▒▓█████[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: NOS-CB4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nst_001/raw/NOS-CB4.ANS
-# Source Revision: archive-sha256:73e351b64f3e5af00925276ea27a29359884e7841f4015afd3acb29f2a370d2d
-# Source SHA-256: 3c29b1d3c0b0a9c50b1c7a5714508111e3100890d2f74c26996e7e22128c47e4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NOS-CB4.ANS by Nostalgic (nst_001); released in nst_001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: NOS-CB4.ANS by Nostalgic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nst-001-nos-cb4
 
 Write-Host '
           [1;30m     ▄▄▄▄▄▄▄▄▄▄▄▄▓▀▀▀▀▀▀▀▌  ▐▀▀▀▀▀▀▀▓▄▄▄▄▄▄▄▄▄▄▄ [0;1;36m    [0;1;30m [0;36m     [0;1;30m [0;1;33m [0;1;30m [0;1;37m      [0;1;30m [0m

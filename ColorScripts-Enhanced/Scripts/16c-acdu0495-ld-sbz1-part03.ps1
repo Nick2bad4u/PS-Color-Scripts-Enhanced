@@ -1,18 +1,4 @@
-﻿# Converted from: LD-SBZ1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0495/raw/LD-SBZ1.ANS
-# Source Revision: archive-sha256:93425d63fbf60a9e51bd167f233b1cc6d824b1daa247d08c1db7f22759166ba0
-# Source SHA-256: bf76b3e0e2c07bb46b7531b037e76df1eb344fcc8dbd5164c2c179a0ff4fcba3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-SBZ1.ANS by Lord Jazz (ACiD Productions); released in acdu0495 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Sushi Bar Z
-# SAUCE Author: Lord Jazz
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950328
-# SAUCE Dimensions: 80x112
-# Lines: 77-111
-# Columns: 1-80
+﻿# Artwork: Sushi Bar Z by Lord Jazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0495-ld-sbz1-part03
 
 Write-Host '
     [31m░▄ ■[0m                                                           [31m▀■[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: 32-ELAST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fld9701/raw/32-ELAST.ANS
-# Source Revision: archive-sha256:48906ecb2b70839b4646d99f5fe92b4c8c8c55574804ed58eeb7ca2699a6e59d
-# Source SHA-256: 7036f24d8a2bd09c39eb1b757080443da209bea8e601565cf7b9ca1472f04efe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 32-ELAST.ANS by ezy (fusion\fluid); released in fld9701 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: elastic
-# SAUCE Author: ezy
-# SAUCE Group: fusion\fluid
-# SAUCE Date: 19970116
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: elastic by ezy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fld9701-32-elast
 
 Write-Host '
                          [36m░[0;30;46m▓[0;36;40m░[0;30;46m▓[0;36;40m░[0m                            [1;36;46m░[0;1;36;40m█[0;1;36;47m▓[0;1;36;40m█▄▄[0;1;37;40m▄[0;1;36;40m [0m

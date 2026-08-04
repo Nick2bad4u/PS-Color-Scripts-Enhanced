@@ -1,18 +1,4 @@
-﻿# Converted from: MR-TJM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m-9802/raw/MR-TJM.ANS
-# Source Revision: archive-sha256:b77081548bd69d77dfa44ebb7c4a66ac6a6977867bc0f2350868e9616f23eb59
-# Source SHA-256: 5b2ee1408dfd097d55f74db3ed41a4112108d1f1b347c20001fb63e805d59157
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-TJM.ANS by Mr.Wrong (Mistigris); released in m-9802 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Jade Monkey
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: Mistigris
-# SAUCE Date: 19980302
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: The Jade Monkey by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m-9802-mr-tjm
 
 Write-Host '
         [1;31m  [0;31m [0;1;31m [0m  [31m▄ ▀ [0m

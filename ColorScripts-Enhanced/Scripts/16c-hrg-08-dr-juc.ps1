@@ -1,17 +1,4 @@
-﻿# Converted from: DR-JUC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hrg-08/raw/DR-JUC.ANS
-# Source Revision: archive-sha256:160ef2de9754552fbf17a6b0cb3d47f7d7dab172d3e6ee2c1a921124e1f41944
-# Source SHA-256: 17a64962cea0424ee30207c0ffbfae040e9bbc3bb9a5efc3505327161bcb37ac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DR-JUC.ANS by Droopy (HRg); released in hrg-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Juc logo
-# SAUCE Author: Droopy
-# SAUCE Group: HRg
-# SAUCE Dimensions: 80x25
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: Juc logo by Droopy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hrg-08-dr-juc
 
 Write-Host '
 

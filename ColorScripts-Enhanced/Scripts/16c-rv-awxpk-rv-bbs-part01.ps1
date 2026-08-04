@@ -1,18 +1,4 @@
-﻿# Converted from: RV-BBS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rv-awxpk/raw/RV-BBS.ANS
-# Source Revision: archive-sha256:febfebbdc988ad6191c40f5f14205033c582ef64819b3ecf7c10aee67accacf3
-# Source SHA-256: 0a9d2dd5615fc23a7ef9beb9d7ed3c59e8ca5a3f338b1a1981feb1264c916b12
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RV-BBS.ANS by RaVe (KRYN-CNC-LCS); released in rv-awxpk and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Information about diz Ansi Package
-# SAUCE Author: RaVe
-# SAUCE Group: KRYN-CNC-LCS
-# SAUCE Date: 19950629
-# SAUCE Dimensions: 80x78
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: Information about diz Ansi Package by RaVe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rv-awxpk-rv-bbs-part01
 
 Write-Host '
                      [33m▄[0m                            [37m  [0m

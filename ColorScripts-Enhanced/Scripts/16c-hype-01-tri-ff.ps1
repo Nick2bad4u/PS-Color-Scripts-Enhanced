@@ -1,17 +1,4 @@
-﻿# Converted from: TRI~FF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-01/raw/TRI~FF.ANS
-# Source Revision: archive-sha256:426dbb36b724e33c2040ddd8594afb85cb1f6463b96a01a2c52ed58e8dd1db9c
-# Source SHA-256: f03e3e700af4fb7ec61e60c6dfcb4b6f7c890ab15128ff17cf9f62c8f387e0f2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TRI~FF.ANS by Trident + Free Fall (Hype.produktions); released in hype-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: some.french.painter
-# SAUCE Author: Trident + Free Fall
-# SAUCE Group: Hype.produktions
-# SAUCE Dimensions: 80x25
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: some.french.painter by Trident + Free Fall | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-01-tri-ff
 
 Write-Host '
 [1;33;43m▓[0;1;33;40m██▀█[0;1;33;43m▓[0;1;33;40m█[0;1;33;43m [0;1;36;46m█████▄▄[0;36m██████████[0;1;36;46m░[0;36m███████████████████████████████████████████████[0;1;36;46m▄▀▀████[0m

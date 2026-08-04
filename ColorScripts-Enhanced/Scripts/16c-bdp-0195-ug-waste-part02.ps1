@@ -1,18 +1,4 @@
-﻿# Converted from: UG-WASTE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bdp-0195/raw/UG-WASTE.ANS
-# Source Revision: archive-sha256:d0ebae297c38a765d13bbb636e42ba45ef5e96692cd9dace930c30116d2f361f
-# Source SHA-256: 3e4646157da1efdeee637f03165ddf1a79f124d51d235713f9e00facabdf5848
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UG-WASTE.ANS by U-GoD (BdP); released in bdp-0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The WasteLands
-# SAUCE Author: U-GoD
-# SAUCE Group: BdP
-# SAUCE Date: 19950101
-# SAUCE Dimensions: 80x101
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: The WasteLands by U-GoD | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bdp-0195-ug-waste-part02
 
 Write-Host '
 [31;40m▓[0;30;41m░░░░░[0;33;40m░░░░░▒▒[0;30;41m░░░░░░░░░░░░░░[0;31;40m▓[0;30;41m░░░░[0;30;40m░░░░░[0;33;40m░░▒▒▒░░░░░░░[0;32;41m░[0;33;40m▒▒░[0;30;41m░░[0;30;40m░░░[0;33;40m░░░▒░░▒▒░░░░░[0;30;40m░░░░░░░░░[0m

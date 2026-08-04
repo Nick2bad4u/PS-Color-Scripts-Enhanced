@@ -1,18 +1,4 @@
-﻿# Converted from: IZE-FLE3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-04/raw/IZE-FLE3.ANS
-# Source Revision: archive-sha256:d99c3d6576b4ffe30ad10598ac465177e9b6d171d7a6c4fd056707ad27adce95
-# Source SHA-256: d5e4edec49b95c74d8232f4e917882915560da79bb5c7abaffa0aa643b5c8c0d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZE-FLE3.ANS by ize (nerp); released in nerp-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: flesh
-# SAUCE Author: ize
-# SAUCE Group: nerp
-# SAUCE Date: 19971211
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: flesh by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-04-ize-fle3
 
 Write-Host '
 

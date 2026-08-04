@@ -1,19 +1,4 @@
-﻿# Converted from: ungennant-darkness-logo2.0.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-dsotb/raw/ungennant-darkness-logo2.0.ans
-# Source Revision: archive-sha256:31e1fdfda207a2147f2b0badf1415308dc54d4c24afa56622db8a43f68f110f1
-# Source SHA-256: 9327775e070e05ee5fe0d2dfe4d6fc72cd8060e87a624eda5a83fda56d0e3225
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ungennant-darkness-logo2.0.ans by ungennant (blocktronics); released in blocktronics-dsotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: darkness 2.0
-# SAUCE Author: ungennant
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190729
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: darkness 2.0 by ungennant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-dsotb-ungennant-darkness-logo2-0
 
 Write-Host '
           [36m░░[0;37m                             [0;36m░░[0m

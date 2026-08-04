@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-K31.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-05/raw/AVG-K31.ANS
-# Source Revision: archive-sha256:9a8be922d1845a782b9897ae82406f49203492d3f9366796ffa94c1b52060165
-# Source SHA-256: 76068cfd2af9e2dd4531072e2d2a6110c357c779de3f72103c2f5baa6811dc3c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-K31.ANS by Avenging Angel (Hieroglyphics); released in hiero-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Ikea
-# SAUCE Author: Avenging Angel
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20001226
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Ikea by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-05-avg-k31
 
 Write-Host '
 

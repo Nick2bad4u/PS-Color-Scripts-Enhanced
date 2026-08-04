@@ -1,13 +1,4 @@
-﻿# Converted from: BM-OUT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense17j/raw/BM-OUT.ANS
-# Source Revision: archive-sha256:dd9d1d0c2e9d18c52916147f75b54ea93779080fcdcf859439501b8e3996efb6
-# Source SHA-256: eacd74308b6fb4a779d33c42c0fca5267e789a3f28e68c0707d55d8e66dc924f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BM-OUT.ANS by Avenging Angel + Aesthetic (sense17j); released in sense17j and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: BM-OUT.ANS by Avenging Angel + Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense17j-bm-out
 
 Write-Host '
                                                                    [1;34m [0;1;37m [0;1;34m░[0m

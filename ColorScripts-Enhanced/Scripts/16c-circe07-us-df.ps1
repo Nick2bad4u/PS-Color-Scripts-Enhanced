@@ -1,18 +1,4 @@
-﻿# Converted from: US-DF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe07/raw/US-DF.ANS
-# Source Revision: archive-sha256:2cbba3cedd8eb19a25555cbc1ca3ce5023e1f497b14e2a9d7de86e055d96afd2
-# Source SHA-256: 2a0fb8689f50d5ecfe75653b6e18b6846a3369aaf6f7227d67f57f3da71705e4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DF.ANS by Discofunk 1974 + Arlequin (Circe); released in circe07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: whoknow vanguardism
-# SAUCE Author: Disco 74 & Arlequin
-# SAUCE Group: Circe
-# SAUCE Date: 19990203
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: whoknow vanguardism by Discofunk 1974 + Arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe07-us-df
 
 Write-Host '
                        [31m▄█[0;1;31;41m▄▄            [0;31m██████████░░[0m

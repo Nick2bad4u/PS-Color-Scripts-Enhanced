@@ -1,13 +1,4 @@
-﻿# Converted from: ANO-DICK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg-1999/raw/ANO-DICK.ANS
-# Source Revision: archive-sha256:e7f00a3a67179cb40f5e769ea2178cdef6014e62c38e5e7032f299cf17ba7004
-# Source SHA-256: 54181af94b2c5304e51206f66cebefa16ff43f580d4446a5a3d99845da8e7464
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ANO-DICK.ANS by Anomite (drg-1999); released in drg-1999 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: ANO-DICK.ANS by Anomite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg-1999-ano-dick
 
 Write-Host '
                                         [1;35m▄▄[0;34m▄▄▄▄▄▄    [0m

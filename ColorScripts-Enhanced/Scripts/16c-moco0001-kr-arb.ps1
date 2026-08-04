@@ -1,13 +1,4 @@
-﻿# Converted from: KR^ARB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moco0001/raw/KR%5EARB.ANS
-# Source Revision: archive-sha256:dcdb582dd72f68bdff86d5417b79603e24e9c8dae1249dc376b93ef4a35dab7b
-# Source SHA-256: 527e44cfcf9ffe8a35e0612ff0422593e67e703a39e935960366d15d2bafd106
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KR^ARB.ANS by Kondor (moco0001); released in moco0001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: KR^ARB.ANS by Kondor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moco0001-kr-arb
 
 Write-Host '
                          [1;30m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m

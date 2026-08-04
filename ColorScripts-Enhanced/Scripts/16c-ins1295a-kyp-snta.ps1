@@ -1,18 +1,4 @@
-﻿# Converted from: KYP-SNTA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ins1295a/raw/KYP-SNTA.ANS
-# Source Revision: archive-sha256:0b68d4daa11b0e9ab0b29fa989c942e6fe09c6576ebd507a2bf77817932365c5
-# Source SHA-256: 79f6533b4255c022c5854173bf1b5127f1260854b809c63ab16582c35649fb84
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KYP-SNTA.ANS by KYP (black maiden); released in ins1295a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: santa for bbs
-# SAUCE Author: KYP
-# SAUCE Group: black maiden
-# SAUCE Date: 19951216
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: santa for bbs by KYP | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ins1295a-kyp-snta
 
 Write-Host '
   [1;31m┌[0;1;35m [0m    [1;35m [0m  [1;35m [0m                   [31m▄▄████▓▄[0m

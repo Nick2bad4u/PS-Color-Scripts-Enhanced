@@ -1,13 +1,4 @@
-﻿# Converted from: CH-D.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pang01/raw/CH-D.ANS
-# Source Revision: archive-sha256:24a47d3a6396232434bffa2e1615955141cf762e5fd721c02b6ad40f81a7def7
-# Source SHA-256: 2996225b40c2b30b8da86f1204e917b9296547713e42e3228cbe93f7ce8edd95
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CH-D.ANS by Chronic-Pang (pang01); released in pang01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: CH-D.ANS by Chronic-Pang | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pang01-ch-d
 
 Write-Host '
 

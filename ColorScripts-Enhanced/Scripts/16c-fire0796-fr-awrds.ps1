@@ -1,18 +1,4 @@
-﻿# Converted from: FR-AWRDS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0796/raw/FR-AWRDS.ANS
-# Source Revision: archive-sha256:f2392fcbe326be67243a018c170e3f1d8e22753f58b6051ec51575e3fcab8048
-# Source SHA-256: a258117b205e1e67dd892100a455b4bb440bbb20d2687b46c37baa55faa9e67f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FR-AWRDS.ANS by Fractal (fire); released in fire0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Awards 96
-# SAUCE Author: Fractal
-# SAUCE Group: fire
-# SAUCE Date: 19960706
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Awards 96 by Fractal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0796-fr-awrds
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: RL-MIND!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0296/raw/RL-MIND!.ANS
-# Source Revision: archive-sha256:06e6dc5afce1ee45051e2bc9293c259c32e010fc92f42b6c050d6f2242a1670c
-# Source SHA-256: 6f4d30c9437d27e0df54848ad4eccfb9cc7a039ab243510e34b20f18bd951207
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RL-MIND!.ANS by Rawlock (Opium); released in opx-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Inverted Mind
-# SAUCE Author: Rawlock
-# SAUCE Group: Opium
-# SAUCE Date: 19960125
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Inverted Mind by Rawlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0296-rl-mind
 
 Write-Host '
 

@@ -1,15 +1,4 @@
-﻿# Converted from: US-TI2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0297/raw/US-TI2.ANS
-# Source Revision: archive-sha256:ecfcd3f5cd2c4412c60edbfa5c15fbea724948a8a18d0e8a8931276c9082657e
-# Source SHA-256: 15758379d049de45cf89afa40bf73d0d374b7770437a462a4cb4313521947121
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TI2.ANS by Idrosynth + Defiant (root0297); released in root0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Twisted Images
-# SAUCE Author: Idrosynth & Defiant
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Twisted Images by Idrosynth + Defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0297-us-ti2
 
 Write-Host '
 [31m█[0;31;41m                                                                             [0;31;40m█[0m

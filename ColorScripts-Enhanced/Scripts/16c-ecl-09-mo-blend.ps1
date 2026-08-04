@@ -1,13 +1,4 @@
-﻿# Converted from: MO-BLEND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-09/raw/MO-BLEND.ANS
-# Source Revision: archive-sha256:6c371ec8bbb75e88f59630021fbbd23f2fc630c10ee1cde240cc20faafea1ca9
-# Source SHA-256: 62fc4cb2e659718ab9ea87ece28d40e8ba13b39263e30b922d3e0bdbb799d2ff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MO-BLEND.ANS by Magnatop (ecl-09); released in ecl-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: MO-BLEND.ANS by Magnatop | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-09-mo-blend
 
 Write-Host '
 [1m[0m[34m████████████████████████████████████▀[0;1;32m.[0;30;44m▓[0;34;40m████████[0;30;44m▄▄[0;34;40m████████[0;30;44m■[0;34;40m████░░████████████████[0m

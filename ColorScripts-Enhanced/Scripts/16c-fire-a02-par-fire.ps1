@@ -1,18 +1,4 @@
-﻿# Converted from: PAR-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-a02/raw/PAR-FIRE.ANS
-# Source Revision: raw-sha256:d62e2302ad316f41323814f7b8955d3e40c07b073255ccdb3e75d50d79747bf6
-# Source SHA-256: d62e2302ad316f41323814f7b8955d3e40c07b073255ccdb3e75d50d79747bf6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PAR-FIRE.ANS by Pariah (FIRE); released in fire-a02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: FIRE art productions
-# SAUCE Author: Pariah
-# SAUCE Group: FIRE
-# SAUCE Date: 19970405
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: FIRE art productions by Pariah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-a02-par-fire
 
 Write-Host '
 

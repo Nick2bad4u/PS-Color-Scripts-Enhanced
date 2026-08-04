@@ -1,18 +1,4 @@
-﻿# Converted from: AS-BIGMS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/quad0396/raw/AS-BIGMS.ANS
-# Source Revision: archive-sha256:f085ca3cf6d75985ae759e60a340bcc124fb43ad553f80bec492b8b584ca4713
-# Source SHA-256: 1ce11fe4f8c4d01b224d776edf32d94eef75bbc8578d73e41e676a9d4f90fb1f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AS-BIGMS.ANS by ?{{?{{?N (-NONE-); released in quad0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Darians BIG mistake
-# SAUCE Author: ?{{?{{?N
-# SAUCE Group: -NONE-
-# SAUCE Date: 19951125
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Darians BIG mistake by ?{{?{{?N | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-quad0396-as-bigms
 
 Write-Host '
                [34m \[0m     [34m\[0m                                 [34m/[0m      [34m/[0m

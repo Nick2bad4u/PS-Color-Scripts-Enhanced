@@ -1,18 +1,4 @@
-﻿# Converted from: PU-CLD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf_0197/raw/PU-CLD.ANS
-# Source Revision: archive-sha256:0bef4e77d7c82c5af473f1433a65595e61d3227bf5a97a1733bde8181e32b843
-# Source SHA-256: 828b7571a3f4141338b63cee5d7a9de5c22161652c584f6f0aefddb1262c082a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PU-CLD.ANS by puppiluppan (gummiboll.art); released in plf_0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: claustrophobic Dimension
-# SAUCE Author: puppiluppan
-# SAUCE Group: gummiboll.art
-# SAUCE Date: 19970204
-# SAUCE Dimensions: 80x47
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: claustrophobic Dimension by puppiluppan | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0197-pu-cld
 
 Write-Host '
                         [34m▀[0m                   [34m▄[0m   [34m▄[0;37m [0;34m■ [0m    [34m▄[0m      [32m         [0;34m   ▄[0;1;34;44m░[0;34m▀ [0m

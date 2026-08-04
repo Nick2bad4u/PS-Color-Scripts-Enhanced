@@ -1,18 +1,4 @@
-﻿# Converted from: FO-SCREM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0397/raw/FO-SCREM.ANS
-# Source Revision: archive-sha256:595cd536c89a3ddf9c15202ea96fa0a030ff8d2edd4f06062add94708fe8499b
-# Source SHA-256: 72682d4e41999bebea024b8299fd05af68713219f40ffc0e5d68901e5d541325
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FO-SCREM.ANS by flexor (GUMMiBOLL.art); released in plf-0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: scream ya bitch!!@#
-# SAUCE Author: flexor
-# SAUCE Group: GUMMiBOLL.art
-# SAUCE Date: 19970331
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: scream ya bitch!!@# by flexor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0397-fo-screm
 
 Write-Host '
 ┌──────────────────────────┐[31m     ▀████[0;30;41m░▒[0;31;40m░[0m             [31;40m [0m

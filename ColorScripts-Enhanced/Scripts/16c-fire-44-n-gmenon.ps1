@@ -1,19 +1,4 @@
-﻿# Converted from: N-GMENON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-44/raw/N-GMENON.ANS
-# Source Revision: archive-sha256:6c51508cedeaa9140fcf08750a75edb14e0cec0eebe7b4290346e95cd3548876
-# Source SHA-256: 891816a423c0c38e1ad9baf3cad76cce70de2b1fed8609bb46a2030acf93d725
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-GMENON.ANS by nail (fire); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: gemenon
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 20251011
-# SAUCE Dimensions: 80x23
-# SAUCE Font: IBM VGA
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: gemenon by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-44-n-gmenon
 
 Write-Host '
 

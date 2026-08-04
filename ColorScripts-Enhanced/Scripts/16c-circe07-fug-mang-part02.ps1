@@ -1,18 +1,4 @@
-﻿# Converted from: FUG-MANG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe07/raw/FUG-MANG.ANS
-# Source Revision: archive-sha256:2cbba3cedd8eb19a25555cbc1ca3ce5023e1f497b14e2a9d7de86e055d96afd2
-# Source SHA-256: 9cde71a8ccde4408647750129af26cff666e7ea195f3d4b5a33a79ed69325533
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FUG-MANG.ANS by Fug*Arl*Dm (Circe Allways); released in circe07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Manga Chik
-# SAUCE Author: Fug*Arl*Dm
-# SAUCE Group: Circe Allways
-# SAUCE Date: 19990203
-# SAUCE Dimensions: 80x83
-# Lines: 43-83
-# Columns: 1-80
+﻿# Artwork: Manga Chik by Fug*Arl*Dm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe07-fug-mang-part02
 
 Write-Host '
 [1;35;47m▓▓[0;1;35;45m███[0;35;41m█[0;1;37;47m▐█████[0;1;37;40m███████[0;1;37;47m██[0;1;37;40m▄▄[0;1;31;47m▀[0;1;31;40m██████[0;1;31;41m█[0;1;31;40m█[0;1;31;41m██░ [0;31m▒[0;37m [0;1;34;46m███████[0;1;34;44m▀[0;1;34;46m▀      [0;36m███[0;36;44m██[0;36;40m██████[0;1;34;46m░████[0;1;34;44m [0;36m████[0m

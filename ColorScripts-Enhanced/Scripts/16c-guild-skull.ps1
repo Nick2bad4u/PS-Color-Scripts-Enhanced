@@ -1,13 +1,4 @@
-﻿# Converted from: SKULL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/guild/raw/SKULL.ANS
-# Source Revision: archive-sha256:a17c91b3d7966f103845ab104daf3a1ada2638816b04caf36b16da49b61147ac
-# Source SHA-256: 1a9ba1cac9ec1f69f32563c386ff7386f835f8290c1d62aff9aa540334323aaf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SKULL.ANS by Judge Dredd (guild); released in guild and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: SKULL.ANS by Judge Dredd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-guild-skull
 
 Write-Host '
                          [1m░[0m▓[1m░░░░▒▒███▒▓▓▓███████[0m▓[1m███[0m

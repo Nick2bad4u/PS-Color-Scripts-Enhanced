@@ -1,18 +1,4 @@
-﻿# Converted from: US-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/US-FIRE.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: a67df3384abf461b563f840468b595628269cd7a194ffd14ceec747ca893b7ad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FIRE.ANS by Ne7 + Nail (fire-41); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fire
-# SAUCE Author: ne7 + nail
-# SAUCE Date: 20241111
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: fire by Ne7 + Nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-us-fire
 
 Write-Host '
                     [1;30;40m [0m                      [1;31m  [0m           .

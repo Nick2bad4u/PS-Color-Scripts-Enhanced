@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-FEST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0897/raw/ZII-FEST.ANS
-# Source Revision: archive-sha256:cabceb59b7b429d8e4c18b37682b5f04003f1a57c83a21398a4e2582b732a549
-# Source SHA-256: beebd3658f953358f30b2b633f06188b86dbb47e876836c2efc634fd22c5c3f1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-FEST.ANS by Zeus II (tja.); released in plf-0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: saft- o bull-kalas.
-# SAUCE Author: Zeus II
-# SAUCE Group: tja.
-# SAUCE Date: 19970816
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: saft- o bull-kalas. by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0897-zii-fest
 
 Write-Host '
 [1m[0m

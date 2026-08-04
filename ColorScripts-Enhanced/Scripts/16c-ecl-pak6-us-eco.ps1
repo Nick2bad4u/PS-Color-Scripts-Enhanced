@@ -1,18 +1,4 @@
-﻿# Converted from: US-ECO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak6/raw/US-ECO.ANS
-# Source Revision: archive-sha256:b4f7c93716eee392b3e6c14cf967ef8fe1e7f7b1161a577fdbf227e863cb53fa
-# Source SHA-256: 9a758d3e6572ae8eb20c1d5876d39c2a0d049c70170b1483d3eb39cc4dccb944
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ECO.ANS by Exocet + Timeless (ecolove); released in ecl-pak6 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ecolove
-# SAUCE Author: tl & ex
-# SAUCE Group: ecolove
-# SAUCE Date: 19980515
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: ecolove by Exocet + Timeless | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak6-us-eco
 
 Write-Host '
                          [32m▐▄▀[0m

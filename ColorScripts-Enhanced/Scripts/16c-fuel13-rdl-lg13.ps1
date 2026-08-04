@@ -1,18 +1,4 @@
-﻿# Converted from: RDL-LG13.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel13/raw/RDL-LG13.ANS
-# Source Revision: archive-sha256:570310635bd377c51dda6add80730abba1fa8786bf6aaf423ae20c54dbfdb41a
-# Source SHA-256: 8d9c74b644b0b7d8b963a35ba0f8dfc503fca15c3b2cee424a3c1ef6e8ceb7d8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RDL-LG13.ANS by Radical (Fuel Productions); released in fuel13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ansi logos pack 13
-# SAUCE Author: Radical
-# SAUCE Group: Fuel Productions
-# SAUCE Date: 19970531
-# SAUCE Dimensions: 80x25
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: Ansi logos pack 13 by Radical | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel13-rdl-lg13
 
 Write-Host '
                                  [1;30m▄[0;1;30;47m▓▓█[0;1;30;40m█ [0m    [1;30m▄[0m

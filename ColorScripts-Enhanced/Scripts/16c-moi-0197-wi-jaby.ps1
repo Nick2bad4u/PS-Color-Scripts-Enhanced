@@ -1,13 +1,4 @@
-﻿# Converted from: WI-JABY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moi-0197/raw/WI-JABY.ANS
-# Source Revision: archive-sha256:fe57e3906e31d2dba15217b85af3203ddf959760df0938928ddd718198829839
-# Source SHA-256: 70bb3a604f106ec5ea2d786cd9cd023e14c8c67e13c9d62508f7c270dc6ff5f9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WI-JABY.ANS by Wizard (moi-0197); released in moi-0197 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: WI-JABY.ANS by Wizard | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moi-0197-wi-jaby
 
 Write-Host '
                         [1;30m░[0m                        [1;30m░[0m

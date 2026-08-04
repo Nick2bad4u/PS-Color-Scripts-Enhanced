@@ -1,18 +1,4 @@
-﻿# Converted from: TS-ST0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy12/raw/TS-ST0.ANS
-# Source Revision: archive-sha256:8a537460f8b0ab878576d3588ae2a516d4d1f431ef70564144a8ef972d7a139a
-# Source SHA-256: 116c3c56e7fb6307da740e17ea51d1f46cb782b6dc468365f9adabd8f23574b3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-ST0.ANS by Transient (apathy); released in apathy12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Shaolin Temple
-# SAUCE Author: Transient
-# SAUCE Group: apathy
-# SAUCE Date: 19960711
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Shaolin Temple by Transient | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy12-ts-st0
 
 Write-Host '
 [35m█████████████████████████[0m  [1;35m█[0;1;35;47m░[0;1;37;40m█[0;1;37;47m▒[0;1;35;40m█[0m [32m▄██[0;1;32m█▀[0m [1;37m▄▒[0;1;31m░[0;1;37m░[0;31m██[0;33m▄[0;1;31m▄[0m [32m▀▀███[0;1;32m█▀▀[0m [34m▀▐[0m [34m▀[0;1;34m█▀[0m [36m▐[0;1;36m░[0;1;37m░░░[0;1;36m░[0;36m▀[0;1;36m▄[0m [1;34m▀[0m  [34m▄▄▄▀[0m

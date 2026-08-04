@@ -1,19 +1,4 @@
-﻿# Converted from: 5m-rebel.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-003/raw/5m-rebel.ans
-# Source Revision: archive-sha256:44a26aad0e8691f16e2777283660069b61e5916234397869961a696ba22e89f6
-# Source SHA-256: 318aaa01f186293b08b839a982600e9c93950700071737656b54a1636be43bbb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5m-rebel.ans by Smooth (Legacy Krew); released in lgcy-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Canadian Rebel
-# SAUCE Author: Smooth
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20200610
-# SAUCE Dimensions: 80x23
-# SAUCE Font: IBM VGA
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Canadian Rebel by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-003-5m-rebel
 
 Write-Host '
 [37;40m  [0;31;40m▄[0;37;40m   [0;1;31;40m▄[0;31m▄[0;37m   [0;31m%■▄[0m              [1;30m▌[0;31m██[0;37m [0;1;37;47m ▄▄▄▄▄▄[0;1;37;40m▀▀▀[0;1;37;47m▄▄▄▄▄▄ [0m [31m██[0;1;30m▐[0m             [31m▄■%[0;37m   [0;31m▄▄[0;37m   [0;31m▄[0m

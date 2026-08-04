@@ -1,13 +1,4 @@
-﻿# Converted from: PH-AIM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aim-0002/raw/PH-AIM1.ANS
-# Source Revision: archive-sha256:ce9a7da7386b31fa55a453e9a67690bf9fc444631591f653878c87fe982d165f
-# Source SHA-256: ad56e97fbe414d462c0fd7f3f80d21b80235d7936b33016ba28c77ee1ab0ca13
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PH-AIM1.ANS by Pharcyde (aim-0002); released in aim-0002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 51-96
-# Columns: 1-80
+﻿# Artwork: PH-AIM1.ANS by Pharcyde | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aim-0002-ph-aim1-part02
 
 Write-Host '
            [33m▄██████▓▒░ ░░▓██████ ░░▒▒▓▓████████████████████████████▌[0m

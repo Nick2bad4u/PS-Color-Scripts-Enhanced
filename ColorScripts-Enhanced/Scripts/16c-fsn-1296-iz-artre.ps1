@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-ARTRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-1296/raw/IZ-ARTRE.ANS
-# Source Revision: archive-sha256:335d72ea88974be53669cf31a72ea37012b04dc993bc1fa4727d94939a55db7e
-# Source SHA-256: eaac11a900673fe580193abe6d7500e0eed012bb29aca064f33938f36e137eca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-ARTRE.ANS by ize (fusion); released in fsn-1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: art-request
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19961114
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: art-request by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-1296-iz-artre
 
 Write-Host '
 [32m░[0;30;42m▓[0m         [37;40m    [0m

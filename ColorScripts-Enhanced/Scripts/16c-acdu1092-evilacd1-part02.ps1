@@ -1,13 +1,4 @@
-﻿# Converted from: EVILACD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1092/raw/EVILACD1.ANS
-# Source Revision: archive-sha256:768e49c0fcc70036d81b58eb68d2e9509e4ecc466f4fb706e35cc9eb05b78dcb
-# Source SHA-256: b0247301f0a527f58e5c3806c440a865b612cff3bcff55078adead2a8a468462
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EVILACD1.ANS by Cerebrus (acdu1092); released in acdu1092 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 49-96
-# Columns: 1-80
+﻿# Artwork: EVILACD1.ANS by Cerebrus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1092-evilacd1-part02
 
 Write-Host '
       [1;33m▄▄[0m            [1;33m▄▄[0m            [1;33m▄▄[0m            [1;33m▄▄[0m            [1;33m▄▄[0m            [1;33m▄[0m

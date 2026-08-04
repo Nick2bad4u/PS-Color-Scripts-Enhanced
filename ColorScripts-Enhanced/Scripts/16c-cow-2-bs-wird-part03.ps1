@@ -1,18 +1,4 @@
-﻿# Converted from: BS-WIRD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cow-2/raw/BS-WIRD.ANS
-# Source Revision: raw-sha256:d618ae88f0a29e056415936ce42916adadbfa649ea1126a64a28689df5fda68e
-# Source SHA-256: d618ae88f0a29e056415936ce42916adadbfa649ea1126a64a28689df5fda68e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-WIRD.ANS by burps (cow); released in cow-2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: wired '95 contribution
-# SAUCE Author: burps
-# SAUCE Group: cow
-# SAUCE Date: 19951103
-# SAUCE Dimensions: 80x25
-# Lines: 78-111
-# Columns: 1-80
+﻿# Artwork: wired '95 contribution by burps | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cow-2-bs-wird-part03
 
 Write-Host '
 [1;37;40m██████████[0;1;37;47m▀[0m▀▄  [1m█[0m█  ███[1;30m█ [0;1;37m▐█▌ [0m██   [1;30;47m░[0m▌   ▀    ▀   [1;30m▓▄  [0m▄█[1;47m▓[0;1;40m█▀██▌ [0;1;30;40m█▌ [0;36;47m▀[0;1;32;46m▓▀■[0;36m█■▀ █[0;1;32;46m▀■[0m [1;30m▐█[0;1;30;47m▓[0;1;30;40m█ [0m

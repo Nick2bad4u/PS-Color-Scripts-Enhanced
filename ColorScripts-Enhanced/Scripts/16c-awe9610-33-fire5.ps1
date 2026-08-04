@@ -1,18 +1,4 @@
-﻿# Converted from: 33-FIRE5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9610/raw/33-FIRE5.ANS
-# Source Revision: archive-sha256:2f6e3c8c2e64cc8380afc3a639da2793e02ea87790d90b8b4bede4b760040753
-# Source SHA-256: 4b967157b7c98372ef927fdac67ff0ae861beb067c5a63de72c1912ff0efa86e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-FIRE5.ANS by Eerie (Awe); released in awe9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fire Revival - 1 Year Anniversary
-# SAUCE Author: Eerie
-# SAUCE Group: Awe
-# SAUCE Date: 19960927
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Fire Revival - 1 Year Anniversary by Eerie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9610-33-fire5
 
 Write-Host '
 [36m[0;1;33m[0;36m[0m

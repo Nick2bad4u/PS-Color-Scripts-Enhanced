@@ -1,18 +1,4 @@
-﻿# Converted from: US-DNK2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9611/raw/US-DNK2.ANS
-# Source Revision: archive-sha256:2b73e149488dc761d99422832825743596588d59e58f9bfecfb5d0e9dbffd274
-# Source SHA-256: a5f65662a2e9bbb963b41c5991c2c95b97ed5e6cc33e2a13e0dfee4f700127fe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DNK2.ANS by The Cool Guy + Cheeze (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Doink
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961027
-# SAUCE Dimensions: 80x25
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Doink by The Cool Guy + Cheeze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9611-us-dnk2
 
 Write-Host '
 [1;47m███▓▓▓▓▓▒▒▒▒[0;1;44m▒▒[0;1;34;47m░░░▒▒▒▒▒▓▓▓▓▓██████████████[0;1;34;40m███████████████████████████████████[0;1;34;44m▀[0;1;34;40m▀▀ [0m

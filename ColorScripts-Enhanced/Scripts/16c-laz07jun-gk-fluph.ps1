@@ -1,18 +1,4 @@
-﻿# Converted from: GK-FLUPH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz07jun/raw/GK-FLUPH.ANS
-# Source Revision: archive-sha256:6a4341d9d0364566769256e4356d86035ad4ee53c0aa654acf41be18e58ca462
-# Source SHA-256: c2d5c6d0b688c870689dd55e29141b0374c02632e350e5913d706cdab8571ce0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GK-FLUPH.ANS by grind king (lazarus); released in laz07jun and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Fluph
-# SAUCE Author: grind king
-# SAUCE Group: lazarus
-# SAUCE Date: 19970612
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: Fluph by grind king | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz07jun-gk-fluph
 
 Write-Host '
 [34m [0m

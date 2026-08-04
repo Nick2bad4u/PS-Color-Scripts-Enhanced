@@ -1,18 +1,4 @@
-﻿# Converted from: M2-23L.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0597/raw/M2-23L.ANS
-# Source Revision: archive-sha256:100499c687593fd78c29adf06f5899e8c0d61223958e380a9c31aadb955ab06d
-# Source SHA-256: 18f2447a87649026174303488f3e40395f8b2a31607dec8fd4cabc9a4e30bf3b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M2-23L.ANS by milk (fusion); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 23liner
-# SAUCE Author: milk
-# SAUCE Group: fusion
-# SAUCE Date: 19970508
-# SAUCE Dimensions: 80x21
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: 23liner by milk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0597-m2-23l
 
 Write-Host '
     [33m     [0;37m [0;33m        [0;37m [0;33m▄▄[0;37m                                                          [0m

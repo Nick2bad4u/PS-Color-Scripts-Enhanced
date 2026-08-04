@@ -1,18 +1,4 @@
-﻿# Converted from: FISH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0496/raw/FISH.ANS
-# Source Revision: archive-sha256:be1a395f385261920c9bce8fb9a4a50e5287b1be7689ad97116617524efc6b52
-# Source SHA-256: b115fdf25a12dd9d78c97143bcc719c0660dce6c2abc3b20af4bcdd0220c1d76
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FISH.ANS by k357r31 (MiSTiGRiS); released in mist0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: G00dby3 skreen
-# SAUCE Author: k357r31
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19960213
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: G00dby3 skreen by k357r31 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0496-fish
 
 Write-Host '
 [34m██████[0;1;34;44m░[0;34m██████████████████████████[0;30;44m  [0;34;40m█████████[0;30;44m [0;34;40m████████[0;30;44m                      [0;34;40m█████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: ARL-SUX4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe08/raw/ARL-SUX4.ANS
-# Source Revision: archive-sha256:cfc36d5daeed2f6543814097ace687f378a50215c24a95a0de66b512e3a41b9d
-# Source SHA-256: 77f144d96083ba634f82ec655b749422440402f776ec85167f2f1ee80748e873
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARL-SUX4.ANS by arlequin (circe); released in circe08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: just becouse
-# SAUCE Author: arlequin
-# SAUCE Group: circe
-# SAUCE Date: 19990921
-# SAUCE Dimensions: 80x64
-# Lines: 38-64
-# Columns: 1-80
+﻿# Artwork: just becouse by arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe08-arl-sux4-part02
 
 Write-Host '
 

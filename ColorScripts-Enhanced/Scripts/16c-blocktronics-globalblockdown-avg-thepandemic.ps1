@@ -1,19 +1,4 @@
-﻿# Converted from: avg-thepandemic.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-globalblockdown/raw/avg-thepandemic.ans
-# Source Revision: archive-sha256:72def6914c400cf448198b2a3876b5414476d859652144a1c3db260cf8838ba8
-# Source SHA-256: 8a311fe00acaf71a561a2e1d471d2f7a853e64f2ed53b82c664d1d40f5b1ef9b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-thepandemic.ans by avg (Blocktronics); released in blocktronics-globalblockdown and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: batwoman
-# SAUCE Author: avg
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20200702
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: batwoman by avg | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-globalblockdown-avg-thepandemic
 
 Write-Host '
 

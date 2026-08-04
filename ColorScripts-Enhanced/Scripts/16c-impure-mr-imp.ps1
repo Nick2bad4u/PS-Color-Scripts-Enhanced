@@ -1,13 +1,4 @@
-﻿# Converted from: MR-IMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure/raw/MR-IMP.ANS
-# Source Revision: archive-sha256:0b9a4294ce690aca32755515783e8fac4c651c445d3dd4e394f3ee189ef0478e
-# Source SHA-256: aa75c65585008e55be7264ff67190c7877a575d2b6071b4df9e2197284882047
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-IMP.ANS by Mr (impure); released in impure and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: MR-IMP.ANS by Mr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure-mr-imp
 
 Write-Host '
     [31m░[0;37m [0;1;31m▐[0;31m▌[0;37m [0;1;31m▐[0;1;31;41m█▓▒░[0;31m█▀[0;37m [0;35m▄[0;35;46m░[0;30;46m░░[0;36;40m▀▀▄▄[0;1;37;40m▄[0m ▄▀[1m█████▓▄ [0m ▄[36m▀▀▀[0;30;46m░░[0;36;40m██▄▄▀▀[0;37;40m [0;36;40m▄▄[0;1;37;40m▀▀[0;1;37;47m▓████▀▀[0m▀    ▄[1;47m▄▄[0m▄      [32m▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: IPH_DLT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/iph-008/raw/IPH_DLT.ANS
-# Source Revision: archive-sha256:b2ee1b2416c0c0adf7c27510034a118d85643a048e095d1086b8d76c6eca87db
-# Source SHA-256: b250ede32bbe76f52bb15dd6badb5b0196da0829c0c64b31367900ee86ab0b96
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IPH_DLT.ANS by Interphaze (iph-008); released in iph-008 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: IPH_DLT.ANS by Interphaze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-iph-008-iph-dlt-part01
 
 Write-Host '
             [1;30m _.┌gg[0m##g┐._     [1;30m░░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SM-NOTB2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl199503/raw/SM-NOTB2.ANS
-# Source Revision: archive-sha256:076dc5f7e8e5935b6779aca5076679253dcd9b76950721d084bd358b3028f504
-# Source SHA-256: fae23bc6f5902e4ef0e7a8b43313e963aeeef13439e11de137f8870e8c2b24fa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-NOTB2.ANS by Smooth (TekLordZ); released in tl199503 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Number of The Beast
-# SAUCE Author: Smooth
-# SAUCE Group: TekLordZ
-# SAUCE Date: 19950306
-# SAUCE Dimensions: 80x25
-# Lines: 86-113
-# Columns: 1-80
+﻿# Artwork: Number of The Beast by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl199503-sm-notb2-part03
 
 Write-Host '
   [1;30;40m█████[0m [1;30;40m██[0m [1;30;40m█[0m  [1;30;40m▀[0m                                                    [1;30;40m▀[0m [1;30;40m█[0m [1;30;40m██ [0m [1;30;40m████[0m

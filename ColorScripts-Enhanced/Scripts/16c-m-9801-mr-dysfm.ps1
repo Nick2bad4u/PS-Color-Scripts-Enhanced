@@ -1,18 +1,4 @@
-﻿# Converted from: MR-DYSFM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m-9801/raw/MR-DYSFM.ANS
-# Source Revision: archive-sha256:68027b949f7edfef662f12aa514dfc21e6e156e3984f9866a81997534ce6ce87
-# Source SHA-256: 58ab4ad793d1860c136728e0b20ebdd063191ab56715d8fc8bdccdc1b482fa89
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-DYSFM.ANS by Mr.Wrong (Mistigris); released in m-9801 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Dystopia menu
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: Mistigris
-# SAUCE Date: 19980117
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Dystopia menu by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m-9801-mr-dysfm
 
 Write-Host '
  [1;30m                                   [0;1;34m [0;34m▀[0;37m [0;34m▄[0;1;34m  [0;1;30m      [0;1;34m [0;35m▄[0;1;35;45m▄[0;35m▄  ▄ [0;1;30m        [0m ▄ ▀   [1;30m[[0;1;37mwnrg[0;1;30m]   [0m

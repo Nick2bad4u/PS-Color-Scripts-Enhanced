@@ -1,18 +1,4 @@
-﻿# Converted from: D5-CD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gel-007/raw/D5-CD.ANS
-# Source Revision: archive-sha256:9192a970cac78457607ab731e7000dbedc44aa4f5078f2ad282aff679d35f94d
-# Source SHA-256: e7f415882397abb2384ad48d3684b01bbcf95380d7851a70f2ca015d65a5cb12
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D5-CD.ANS by dee five (gel); released in gel-007 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: chronic distortion add
-# SAUCE Author: dee five
-# SAUCE Group: gel
-# SAUCE Date: 19970926
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: chronic distortion add by dee five | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gel-007-d5-cd
 
 Write-Host '
 [1;34m [0m   [1;34m [0m

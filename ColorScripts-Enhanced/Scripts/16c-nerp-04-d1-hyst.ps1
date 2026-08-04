@@ -1,18 +1,4 @@
-﻿# Converted from: D1-HYST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-04/raw/D1-HYST.ANS
-# Source Revision: archive-sha256:d99c3d6576b4ffe30ad10598ac465177e9b6d171d7a6c4fd056707ad27adce95
-# Source SHA-256: e4f9d94f61f9ad2086856fa5c308bee14588a5c4f80606d8afd4fc253039d890
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D1-HYST.ANS by Dissonance (avenge (guesting)); released in nerp-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Hysteria
-# SAUCE Author: Dissonance
-# SAUCE Group: avenge (guesting)
-# SAUCE Date: 19980327
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Hysteria by Dissonance | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-04-d1-hyst
 
 Write-Host '
                  [1;30m [0;30;46m▌[0;37;40m [0;30;45m▓[0m

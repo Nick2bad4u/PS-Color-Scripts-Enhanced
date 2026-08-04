@@ -1,18 +1,4 @@
-﻿# Converted from: TR-USED.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-03/raw/TR-USED.ANS
-# Source Revision: archive-sha256:d2599b97a9288d8f82ddd62f9c4821cdc0d5105bf01763fad11be3b958d4ce10
-# Source SHA-256: 534647711ac22cccd704c6191b3cce82b5c7536792e23ce0d0358089cf6fe7e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-USED.ANS by Tarot (The Used Coalition); released in used-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Used
-# SAUCE Author: Tarot
-# SAUCE Group: The Used Coalition
-# SAUCE Date: 19800115
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Used by Tarot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-03-tr-used
 
 Write-Host '
                  [31m▄[0m     [31m  [0;36m [0;31m ▄[0;36m  [0;31m▀█▀[0m   [1;36m▐▄[0;1;37m▄[0;36m [0m    [31m▄[0;36m [0;31m▄▄ [0m   [31m ▄[0;36m  [0;31m▀▀▀▀███      ██[0;36m [0;31m▄▄[0;36m  [0;31m▐█▌[0m

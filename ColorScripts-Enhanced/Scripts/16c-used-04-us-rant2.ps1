@@ -1,18 +1,4 @@
-﻿# Converted from: US-RANT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-04/raw/US-RANT2.ANS
-# Source Revision: archive-sha256:1dcdf112160ec589150680778cd449e8af485dfba89bb104c44cd133db2d6fc0
-# Source SHA-256: 4449e65df9cf5b113f102f7d1ea63a06dc03bfa976b25291b2454dd4a747825b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-RANT2.ANS by Mr Wrong + Avenging Angel (The Used Coalition); released in used-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Rant
-# SAUCE Author: Multiple Artists
-# SAUCE Group: The Used Coalition
-# SAUCE Date: 20000327
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Rant by Mr Wrong + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-04-us-rant2
 
 Write-Host '
                [1;30m▄[0;33m [0m                                        [34m [0;1;30m▄[0;34m  [0;33m▄▄[0;34m [0;1;31m▀[0;33m▀[0m

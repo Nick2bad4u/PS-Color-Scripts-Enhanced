@@ -1,18 +1,4 @@
-﻿# Converted from: 5D-TMA-.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden14/raw/5D-TMA-.ANS
-# Source Revision: archive-sha256:8484fc17833e455250727f80fdc56cc19e17aec4fba2f82e3b86585a9e08cb6c
-# Source SHA-256: 8c5b562abcf99f7cdfe77e95dcdfc3620be5236dd57e20c51685502fdc632f33
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5D-TMA-.ANS by slayerdreams (maiden (BR)); released in maiden14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: tma logo!
-# SAUCE Author: slayerdreams
-# SAUCE Group: maiden (BR)
-# SAUCE Date: 19971225
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: tma logo! by slayerdreams | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden14-5d-tma
 
 Write-Host '
                               [1;31m▀▌[0m

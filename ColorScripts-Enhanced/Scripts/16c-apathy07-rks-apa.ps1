@@ -1,18 +1,4 @@
-﻿# Converted from: RKS-APA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy07/raw/RKS-APA.ANS
-# Source Revision: archive-sha256:cf53c4ea5c286717abe3d962fb98452e352d7d7a30a31881220e7068a7f0bb79
-# Source SHA-256: 23c6ac7200446396fcb90e334ed0399eb7bb933ab4538a7a1d195382b65371f1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RKS-APA.ANS by Ruckus (Apathy); released in apathy07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Apathy
-# SAUCE Author: Ruckus
-# SAUCE Group: Apathy
-# SAUCE Date: 19960227
-# SAUCE Dimensions: 80x25
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: Apathy by Ruckus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy07-rks-apa
 
 Write-Host '
 [34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ [0;1;36m▀██▄  [0;34m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄   ▄▄▄[0;37m▄[0;34m▄▄▄▄[0;37m▄▄▄[0m

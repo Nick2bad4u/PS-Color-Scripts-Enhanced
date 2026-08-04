@@ -1,18 +1,4 @@
-﻿# Converted from: ESS!TLMN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-001/raw/ESS!TLMN.ANS
-# Source Revision: archive-sha256:7435b1c9938dec461ab33b42b3dd164ea7e98ecfff30ea4d3df5a8e59194b0a3
-# Source SHA-256: 489184048fb547a9bdfe306b77b1f7db3d2eac6419a987156d28d8c4020fe812
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ESS!TLMN.ANS by Essence (rARE!ASCii); released in rare-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Legend Main
-# SAUCE Author: Essence
-# SAUCE Group: rARE!ASCii
-# SAUCE Date: 19980305
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: The Legend Main by Essence | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-001-ess-tlmn
 
 Write-Host '
 [32m$$$$$$$[0;1;32m$[0;32m$$$[0;1;32m$$[0;32m$[0;1;32m$$$[0;32m$[0;1;32m$[0;1;33m$[0;1;37m$[0;32m$g[0;1;30m,[0;1;32m [0;1;30m`[0;32m╚$$[0;1;32m$$$$[0;1;33m$[0;1;37m$[0;1;32m$[0;32m$$╝[0;1;30m''[0;32m$$$[0;1;32m$[0;32m$[0;1;30m''[0;1;32m [0;1;30m,[0;1;32m  [0;32ml[0;1;32m$$$$$$[0;1;33m$$[0;1;32m$[0;32m$[0;1;30m''`[0;32m$$[0;1;32m$$$$$$[0;1;33m$$[0;1;37m$[0;1;33m$$[0;1;32m [0;32mess[0m

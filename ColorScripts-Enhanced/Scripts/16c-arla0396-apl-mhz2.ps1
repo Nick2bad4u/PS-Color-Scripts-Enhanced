@@ -1,18 +1,4 @@
-﻿# Converted from: APL-MHZ2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/arla0396/raw/APL-MHZ2.ANS
-# Source Revision: archive-sha256:ebddac44d294427c688eb70146e5beb8460db9b2609665ccdf3c3be4a5438a6a
-# Source SHA-256: b82d96f4309ed59e644677f6f6a8c1354727d0621c48245c15963b43c9ff35c1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: APL-MHZ2.ANS by apollo (arla/sense/kmd/pus); released in arla0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: megahertz
-# SAUCE Author: apollo
-# SAUCE Group: arla/sense/kmd/pus
-# SAUCE Date: 19960220
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: megahertz by apollo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-arla0396-apl-mhz2
 
 Write-Host '
 [31m.[0m

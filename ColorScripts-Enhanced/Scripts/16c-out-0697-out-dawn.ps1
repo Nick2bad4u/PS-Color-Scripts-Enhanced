@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-DAWN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0697/raw/OUT-DAWN.ANS
-# Source Revision: archive-sha256:c19fdd4f041491970421fe5aa251126710e8675662e02e0d20be64b30b3d74e2
-# Source SHA-256: 14dc99a9fae25112cc595e6bec0fd6422330483f2ca2dee33284970c55a12d50
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-DAWN.ANS by Sandy Chidester (out-0697); released in out-0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: OUT-DAWN.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0697-out-dawn
 
 Write-Host '
 [1;30m▀[0;34m████████████████████[0;34;44m██████[0;34;40m▀▀▀██████████████████▀██████████████████████████████[0;36;44m▄[0m

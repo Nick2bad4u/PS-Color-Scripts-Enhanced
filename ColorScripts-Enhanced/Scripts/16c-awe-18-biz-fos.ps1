@@ -1,18 +1,4 @@
-﻿# Converted from: BIZ-FOS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-18/raw/BIZ-FOS.ANS
-# Source Revision: archive-sha256:3ece06be07a605d790194aecaf4c2aee0d01c3085ca10c10858ed29a4fc054bb
-# Source SHA-256: b742d9f299b916200755cfdd50b249fad222a91db08220826fb4703e7c6a43ff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BIZ-FOS.ANS by Bizzarro (AWE Lettering); released in awe-18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: FOS
-# SAUCE Author: Bizzarro
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19981101
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: FOS by Bizzarro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-18-biz-fos
 
 Write-Host '
                         [1;30m▄▄[0m▄▄████████▄▄[1;30m▄▄[0m              ▄▄▄[1;47m▄▄▄[0m▄▄▄[1;30m▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: WT-TUT01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cancer01/raw/WT-TUT01.ANS
-# Source Revision: archive-sha256:1d674e5cb6391162607aaf95710b795f9d6c8bbd06eec06cf5932f93f338c133
-# Source SHA-256: 1c6750c8807138b58ca2d1a0e3b8195966ae2b3e9bf1e0bbb24e7d4477f292dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WT-TUT01.ANS by White Trash (Cancer); released in cancer01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Logo Tutorial
-# SAUCE Author: White Trash
-# SAUCE Group: Cancer
-# SAUCE Date: 19960308
-# SAUCE Dimensions: 80x45
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: Logo Tutorial by White Trash | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cancer01-wt-tut01
 
 Write-Host '
 

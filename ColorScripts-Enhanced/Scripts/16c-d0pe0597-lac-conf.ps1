@@ -1,18 +1,4 @@
-﻿# Converted from: LAC-CONF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d0pe0597/raw/LAC-CONF.ANS
-# Source Revision: archive-sha256:75f6fa147ff2756ef0ec699179a2fc535ef1a8555e78479372a7ceb7b6a80326
-# Source SHA-256: ef100a9bac2fd62cfe38dae19c23d0e6227f5417cdb0623631dfca71244990fc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LAC-CONF.ANS by lacaid (dope); released in d0pe0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: conf selecter
-# SAUCE Author: lacaid
-# SAUCE Group: dope
-# SAUCE Date: 19970502
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: conf selecter by lacaid | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d0pe0597-lac-conf
 
 Write-Host '
                                     [32m [0m

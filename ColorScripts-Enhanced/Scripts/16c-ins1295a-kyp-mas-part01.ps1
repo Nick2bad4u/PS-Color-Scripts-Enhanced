@@ -1,18 +1,4 @@
-﻿# Converted from: KYP-MAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ins1295a/raw/KYP-MAS.ANS
-# Source Revision: archive-sha256:0b68d4daa11b0e9ab0b29fa989c942e6fe09c6576ebd507a2bf77817932365c5
-# Source SHA-256: 0eff9ea8eea96f50567aad72cc4300b05aeca588301343fa0fa6a5a118d6ac07
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KYP-MAS.ANS by KYP (BLACK MAiDEN); released in ins1295a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: St. Nicolaus
-# SAUCE Author: KYP
-# SAUCE Group: BLACK MAiDEN
-# SAUCE Date: 19951205
-# SAUCE Dimensions: 80x25
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: St. Nicolaus by KYP | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ins1295a-kyp-mas-part01
 
 Write-Host '
 [1;30m█░███████████▓▒░▓████████████████████████████████████████▀█▀▀████████▓░▒████▒█▓░[0m

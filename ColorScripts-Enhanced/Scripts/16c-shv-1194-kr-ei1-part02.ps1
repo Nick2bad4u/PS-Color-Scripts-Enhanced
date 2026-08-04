@@ -1,18 +1,4 @@
-﻿# Converted from: KR-EI1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shv-1194/raw/KR-EI1.ANS
-# Source Revision: archive-sha256:d3a40a3191a913cb36b897ad49063e6c40e8244915255128cbb96005c37748a9
-# Source SHA-256: 1cbe6c819daad6bc90204706737bf07a2b7212bd27c1ce88fa6cad4d31956ed8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KR-EI1.ANS by KillRaven (Shiver); released in shv-1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Evil Intentions
-# SAUCE Author: KillRaven
-# SAUCE Group: Shiver
-# SAUCE Date: 19941022
-# SAUCE Dimensions: 80x25
-# Lines: 41-64
-# Columns: 1-80
+﻿# Artwork: Evil Intentions by KillRaven | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shv-1194-kr-ei1-part02
 
 Write-Host '
                          [37m█[0;1;37;47m░[0m█    █[1;47m░[0m▌ ▐[1;47m░[0m█   █[1;47m░[0m█   █[1;47m░[0m█

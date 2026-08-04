@@ -1,18 +1,4 @@
-﻿# Converted from: M7M-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0797/raw/M7M-FIRE.ANS
-# Source Revision: archive-sha256:94b9d74f23cef45b7f0e0cddc6ad7ce59eed15dd66ca41ed74c0005a3af14ca4
-# Source SHA-256: 619b90738406464ca88c270c58ee28fa3764385f89a8c15e70c2cb81fd949577
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M7M-FIRE.ANS by Metal Militia (FIRE); released in fire0797 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fire
-# SAUCE Author: Metal Militia
-# SAUCE Group: FIRE
-# SAUCE Date: 19970705
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Fire by Metal Militia | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0797-m7m-fire
 
 Write-Host '
 [1m[0m[1m[0m[1;36m[0m                                                                   [1;36m_.,┌[0;36m⌐[0;1;36mg[0;36mdS¼$[0m

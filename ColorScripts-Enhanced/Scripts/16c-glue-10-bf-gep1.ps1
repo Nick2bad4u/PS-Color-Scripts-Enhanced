@@ -1,13 +1,4 @@
-﻿# Converted from: BF-GEP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-10/raw/BF-GEP1.ANS
-# Source Revision: archive-sha256:d704a20dcd17ea70f67190ae077a8c0836b1765cd20aaf9901158fb0fb9868d6
-# Source SHA-256: 68a8e1bf9a530b120c2569e24633f536b64183dc28e3700dd73c93ad0eee004d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BF-GEP1.ANS by Boba Fett (glue-10); released in glue-10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: BF-GEP1.ANS by Boba Fett | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-10-bf-gep1
 
 Write-Host '
    [1;30m▄▀▀[0m [1;30m▄█▀[0m [1;31m      [0;1;30m▐[0;1;31m                 [0;1;30m▄[0;1;31m    [0;1;30m  ▀[0m▀[1;30m▄[0m▄

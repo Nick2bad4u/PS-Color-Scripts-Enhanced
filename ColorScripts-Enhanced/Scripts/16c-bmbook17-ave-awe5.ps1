@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-AWE5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook17/raw/AVE-AWE5.ANS
-# Source Revision: archive-sha256:f2ec1f05b2d28538e661dbe9f04f7009d1de727157f34731f67001dac4dedb95
-# Source SHA-256: 44ad85429feb713b982813babb337a2b1a69e9b9f90b1cde7b1f99e375198c89
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-AWE5.ANS by avenger (black maiden); released in bmbook17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: awe dedication
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19980626
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: awe dedication by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook17-ave-awe5
 
 Write-Host '
 [36m░ [0;34m------[0;37m  [0;34m▄[0;37m [0;34m-[0;1;34m  [0;34m-------------------------[0;37m  [0;35m--------------------------------[0;31m  [0;35m▄[0;37m░[0m

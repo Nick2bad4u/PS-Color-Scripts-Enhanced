@@ -1,18 +1,4 @@
-﻿# Converted from: KIO-C1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge12/raw/KIO-C1.ANS
-# Source Revision: archive-sha256:f58363683b971661fc249a331f373b1cfc2b77790ce49343a28c838f36c33b64
-# Source SHA-256: 610502b242cbc4aa23e1acd195b494239d089d4f5ad45d57bfdc5fa414e123af
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KIO-C1.ANS by Kiomatsu (Avenge); released in avenge12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Cluster number uno
-# SAUCE Author: Kiomatsu
-# SAUCE Group: Avenge
-# SAUCE Date: 19990101
-# SAUCE Dimensions: 80x143
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: Cluster number uno by Kiomatsu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge12-kio-c1-part01
 
 Write-Host '
 

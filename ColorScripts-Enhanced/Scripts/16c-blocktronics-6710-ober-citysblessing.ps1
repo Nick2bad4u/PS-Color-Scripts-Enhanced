@@ -1,16 +1,4 @@
-﻿# Converted from: ober-citysblessing.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-6710/raw/ober-citysblessing.ans
-# Source Revision: archive-sha256:65fe9e2a2e2016f30e4b0141be2d1472e9b7cc814d922f9663e0d0a04142d70a
-# Source SHA-256: 4a0856e200bc1deedc134e49c5b77e5846affed3d7970e9bfe011c51ee8fb296
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ober-citysblessing.ans by Ober (blocktronics-6710); released in blocktronics-6710 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20180224
-# SAUCE Dimensions: 80x28
-# SAUCE Font: IBM VGA
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: ober-citysblessing.ans by Ober | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-6710-ober-citysblessing
 
 Write-Host '
 

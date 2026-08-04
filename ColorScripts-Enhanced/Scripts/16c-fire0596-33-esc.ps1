@@ -1,18 +1,4 @@
-﻿# Converted from: 33-ESC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0596/raw/33-ESC.ANS
-# Source Revision: archive-sha256:36c941759d451fdd3b8fb831978bf146c114a97ebcdf99a7ed67f1f699b42790
-# Source SHA-256: 6fda7c4d4d56c803610587bf42adb563470432f5819e8bd8eee9dd4c07cc7621
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-ESC.ANS by Eerie-Kun (Fire); released in fire0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Escape
-# SAUCE Author: Eerie-Kun
-# SAUCE Group: Fire
-# SAUCE Date: 19960414
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Escape by Eerie-Kun | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0596-33-esc
 
 Write-Host '
 

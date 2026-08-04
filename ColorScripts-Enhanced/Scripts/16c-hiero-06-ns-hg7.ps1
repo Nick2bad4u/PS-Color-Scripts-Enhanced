@@ -1,18 +1,4 @@
-﻿# Converted from: NS-HG7.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-06/raw/NS-HG7.ANS
-# Source Revision: archive-sha256:a9f2b3a98de11e16465e105efa9558fc8b7152c0f268ebdd3ef00191f04c5b89
-# Source SHA-256: 83414344352d590f0b4703fcb8ef2cee7cb820ac34db251453b85e7df2d2c01e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NS-HG7.ANS by Ansichrist (Hieroglyphics); released in hiero-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Hieroglyphics
-# SAUCE Author: Ansichrist
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20010108
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Hieroglyphics by Ansichrist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-06-ns-hg7
 
 Write-Host '
 

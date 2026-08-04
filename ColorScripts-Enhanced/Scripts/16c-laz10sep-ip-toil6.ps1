@@ -1,17 +1,4 @@
-﻿# Converted from: IP-TOIL6.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz10sep/raw/IP-TOIL6.ANS
-# Source Revision: archive-sha256:4ab640a5762659d8c89d1d4c7a47f2c8ebad1c9e802d4965d8fdc943ea824060
-# Source SHA-256: cdbbb71f8f5f015c71df51f685ac31132cb7a2048f4fcaf9a0adbd58503e2662
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IP-TOIL6.ANS by impulse (laz10sep); released in laz10sep and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Toil
-# SAUCE Author: impulse
-# SAUCE Date: 19970908
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Toil by impulse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz10sep-ip-toil6
 
 Write-Host '
                 [1;31m▀[0;31m [0m       [36m   [0;33m  [0;37m  [0;1;31m [0m

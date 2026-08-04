@@ -1,13 +1,4 @@
-﻿# Converted from: FRAUDREM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rem-0394/raw/FRAUDREM.ANS
-# Source Revision: archive-sha256:fceca23a02ff5caca3243124203580a02e844c9351011e02c27adf2a2f9d4dca
-# Source SHA-256: 496ea5ea65bb888cced64da8e24868c1dd49cb33b8f1d490e635c95abaa35c7e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FRAUDREM.ANS by Fraud (rem-0394); released in rem-0394 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 35-66
-# Columns: 1-80
+﻿# Artwork: FRAUDREM.ANS by Fraud | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rem-0394-fraudrem-part02
 
 Write-Host '
                         [34m▀   [0;1;30m·▐[0;31;47m▒[0;1;31;41m░▓[0;31;47m▒[0;1;31;41m░[0;1;30;40m▌· [0;34m·▀[0m

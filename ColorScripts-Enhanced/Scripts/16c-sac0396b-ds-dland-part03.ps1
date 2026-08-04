@@ -1,18 +1,4 @@
-﻿# Converted from: DS-DLAND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0396b/raw/DS-DLAND.ANS
-# Source Revision: archive-sha256:a623e412655f8affeaac1d9b301a306c591ca40bf343232a34e1eefb05897f11
-# Source SHA-256: fad70154901066681f586de06a5f78fc9f89b1242be7f51247d4d310e67cef70
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-DLAND.ANS by dark star; released in sac0396b and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Darklands Login 2
-# SAUCE Author: Dark Star
-# SAUCE Group: SAC
-# SAUCE Date: 19960326
-# SAUCE Dimensions: 80x140
-# Lines: 91-140
-# Columns: 1-80
+﻿# Artwork: Darklands Login 2 by dark star | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0396b-ds-dland-part03
 
 Write-Host '
                     [31m [0;37m [0;31m█▀[0;33m▄██▌[0;31m██[0;37m [0;31m██[0;1;31;41m░[0;31m▌[0;33m█▌███[0;31m▐[0;1;31;41m░[0;31m██▀██▌[0;33m██▄[0;31m▀██████▌▄[0;33m [0;31m▀[0;33m▄▄▀████▀▀[0;34m▄▄████▄▀[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: GJ-DEM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-04/raw/GJ-DEM.ANS
-# Source Revision: archive-sha256:1dcdf112160ec589150680778cd449e8af485dfba89bb104c44cd133db2d6fc0
-# Source SHA-256: 9119de73306b904574bfe9617f9fad88b423e9bc07b534d1a368308ad6f83534
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GJ-DEM.ANS by Grymmjack (used-04); released in used-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Demonic
-# SAUCE Author: Grymmjack
-# SAUCE Date: 20000403
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Demonic by Grymmjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-04-gj-dem
 
 Write-Host '
 

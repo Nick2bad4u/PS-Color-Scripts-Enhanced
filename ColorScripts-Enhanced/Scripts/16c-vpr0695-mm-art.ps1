@@ -1,18 +1,4 @@
-﻿# Converted from: MM-ART.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/vpr0695/raw/MM-ART.ANS
-# Source Revision: archive-sha256:78c3ace83360714b9f57ab0b5b4ffd040155a161a665ae8c182b834426edfb2b
-# Source SHA-256: 51933da4cd22ff87556c420fe67a3e196e6564f76394176db62cacd9acd135c0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-ART.ANS by mastermind (vapor); released in vpr0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: screen login ansi
-# SAUCE Author: mastermind
-# SAUCE Group: vapor
-# SAUCE Date: 19950605
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: screen login ansi by mastermind | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-vpr0695-mm-art
 
 Write-Host '
 [33m██ [0;31m▄▐[0;30;41m▐[0;31;40m■[0;37;40m▄▀ [0;31;40m▄▄██▄ [0;1;30;40m▀██████▀██▄[0m▀[1;30;47m▀[0;1;30;40m████[0;1;30;47m████▓▀▀[0m▀ [31m▄██▄▄ ▀[0;30;41m■[0;31;40m▄ [0;33;40m█████▀ [0;36;40m▄▄▄ ▄ [0;33;40m▄▄[0m       [36;40m▄ [0;1;36;40m▄▄[0m

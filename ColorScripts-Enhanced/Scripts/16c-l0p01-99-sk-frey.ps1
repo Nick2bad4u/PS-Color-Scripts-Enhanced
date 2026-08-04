@@ -1,18 +1,4 @@
-﻿# Converted from: SK!FREY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p01_99/raw/SK!FREY.ANS
-# Source Revision: archive-sha256:8f60f196ab9303212b95219847d0542467217a03e8a054cd4a20b59f229d7873
-# Source SHA-256: f2a82793900bc5f40ad7b16a9f916945264238d46f6d23b913310b0e97ee0614
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!FREY.ANS by sIMON kING (tHElo0p); released in l0p01_99 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fREY
-# SAUCE Author: sIMON kING
-# SAUCE Group: tHElo0p
-# SAUCE Date: 19990303
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: fREY by sIMON kING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p01-99-sk-frey
 
 Write-Host '
                          [34m▄▄▀[0m    [34m▀▄▄[0m        [34m▄▄▀[0;37m [0;34m▄[0m       [34m▄[0m    [34m▄[0m      [34m▀▄▄[0m

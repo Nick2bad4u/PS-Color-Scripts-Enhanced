@@ -1,13 +1,4 @@
-﻿# Converted from: CH-DI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/orbit05/raw/CH-DI.ANS
-# Source Revision: archive-sha256:73b78c46028357e3adc95a3fbba89e6e187737ebe620950710c60ab83cc51230
-# Source SHA-256: 606a4e5eea962c57b9beb237b14b71d8ea05fa020d33f7512b92f12cdb37c949
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CH-DI.ANS by Chaos (orbit05); released in orbit05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: CH-DI.ANS by Chaos | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-orbit05-ch-di-part01
 
 Write-Host '
                                       [31m▄[0;31;41m██[0;31;40m▄[0m

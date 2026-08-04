@@ -1,18 +1,4 @@
-﻿# Converted from: 5D-MDK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden14/raw/5D-MDK.ANS
-# Source Revision: archive-sha256:8484fc17833e455250727f80fdc56cc19e17aec4fba2f82e3b86585a9e08cb6c
-# Source SHA-256: 67d9297a0f71ef59df0e30e8c415c1d09c772b0dc73bcc534e880d7b4ccddc71
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 5D-MDK.ANS by slayer dreams (maiden); released in maiden14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: marduk loghhhhho!
-# SAUCE Author: slayer dreams
-# SAUCE Group: maiden
-# SAUCE Date: 19971116
-# SAUCE Dimensions: 80x14
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: marduk loghhhhho! by slayer dreams | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden14-5d-mdk
 
 Write-Host '
       [31m ▄▄▄▄▄▄▄▄         [0m      [31m▄[0m       [31m [0m          [31m░[0;30;41m▓[0m       [31;40m  [0m                   [31;40m▄[0m

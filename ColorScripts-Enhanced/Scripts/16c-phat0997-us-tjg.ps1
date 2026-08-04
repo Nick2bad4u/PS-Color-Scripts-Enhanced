@@ -1,18 +1,4 @@
-﻿# Converted from: US-TJG!!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0997/raw/US-TJG!!.ANS
-# Source Revision: archive-sha256:7c9b6e5a1bf85f5dceb70dad3a430f8a984427653988f85df1c8489157fd2d25
-# Source SHA-256: f981d76c29a5936b3f7020264691526343f2608b930cd2e9e378c6f854471be9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TJG!!.ANS by Black Weasel + Blaze-Infinite (inf.phat); released in phat0997 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: download prompta
-# SAUCE Author: blaze+bw_
-# SAUCE Group: inf.phat
-# SAUCE Date: 19970621
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: download prompta by Black Weasel + Blaze-Infinite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0997-us-tjg
 
 Write-Host '
         [36m [0;37m [0;1;37m▄▄[0;1;33m▐[0;1;33;47m▓[0;1;33;40m▓░[0m   ▄▄ [1;33m▐▄▄▄[0m

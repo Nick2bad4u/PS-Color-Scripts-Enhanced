@@ -1,13 +1,4 @@
-﻿# Converted from: US-BK2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9810a/raw/US-BK2.ICE
-# Source Revision: archive-sha256:63fe2d69146dc3143da6d18446c5b4b0c856d89d79ccdae81c32b975d5630ef0
-# Source SHA-256: f1e19ccf28fda93677527ed8388509e5615bdebfcf2541a63bb1ff5ccc746b55
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BK2.ICE by Mass Delusion + Inner Vision + Nosegos + Tetanus + Cold And Ugly (ice9810a); released in ice9810a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: US-BK2.ICE by Mass Delusion + Inner Vision + Nosegos + Tetanus + Cold And Ugly | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9810a-us-bk2
 
 Write-Host '
 [30m██[0m     [1m [0m   [1m [0m   [30m█[0;1;30m [0;30m█[0m       [1m [0m   [1m [0m   [30m█[0;1;30m [0;30m█[0m  [1m [0m   [1m [0m   [30m█[0;1;30m [0;30m█[0m       [1m [0m       [30m█[0;1;30m [0;30m█[0m  [1m [0m   [1m [0m   [30m███[0m

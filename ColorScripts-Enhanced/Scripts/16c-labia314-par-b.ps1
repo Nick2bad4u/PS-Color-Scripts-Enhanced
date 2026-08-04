@@ -1,13 +1,4 @@
-﻿# Converted from: par-b.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/labia314/raw/par-b.ans
-# Source Revision: archive-sha256:704095869b71d0834bb8c83d90c0dddc7803f8a47b5046986cc14c14a7864134
-# Source SHA-256: 5949ec66e8da6e59b8765d0bf56f880d9ff6f9a79b0c55949b2a750ae2c2abba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: par-b.ans by Sargon (labia314); released in labia314 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: par-b.ans by Sargon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-labia314-par-b
 
 Write-Host '
 

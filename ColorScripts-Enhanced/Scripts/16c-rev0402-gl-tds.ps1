@@ -1,18 +1,4 @@
-﻿# Converted from: Gl-tds.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0402/raw/Gl-tds.ans
-# Source Revision: archive-sha256:19898cc2febb6deadccf50832dc421b4f362a33c899e27278bafd225bbc2d4d4
-# Source SHA-256: 343b99f30ae4ce280c4d3294f248cf0d428c3fc0f6616e51c6ea939310df9284
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Gl-tds.ans by Gloss (REVIVAL); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: A 709 Legend
-# SAUCE Author: Gloss
-# SAUCE Group: REVIVAL
-# SAUCE Date: 20020406
-# SAUCE Dimensions: 80x34
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: A 709 Legend by Gloss | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0402-gl-tds
 
 Write-Host '
  [30m                                           [0m    [1;30m▄[0m [30m                     [0;37m [0;32m▄ ▀▌[0m

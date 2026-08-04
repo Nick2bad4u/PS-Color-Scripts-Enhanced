@@ -1,19 +1,4 @@
-﻿# Converted from: misfit-alpha-king-67.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktr0nics30302020/raw/misfit-alpha-king-67.ans
-# Source Revision: archive-sha256:9a86a13b1ff7cef4b57ed39c1aca190028df54b44bffe10202b539bef3cd3dcc
-# Source SHA-256: 736531e6e77e73f32b23c2ebd4d7a77f2e55a6b503db45ea8e42d98a2e9edb53
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: misfit-alpha-king-67.ans by Misfit + Alpha King (Blocktronics); released in blocktr0nics30302020 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: TEETH AND EYEBALL PIE
-# SAUCE Author: Misfit & Alpha King
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20200130
-# SAUCE Dimensions: 80x61
-# SAUCE Font: IBM VGA
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: TEETH AND EYEBALL PIE by Misfit + Alpha King | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktr0nics30302020-misfit-alpha-king-67-part01
 
 Write-Host '
 

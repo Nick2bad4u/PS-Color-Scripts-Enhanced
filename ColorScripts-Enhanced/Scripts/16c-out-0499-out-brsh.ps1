@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-BRSH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0499/raw/OUT-BRSH.ANS
-# Source Revision: archive-sha256:80caf8ef2ecfc59ca36b78a827ea093355087edc6eb5203c1ece7db6823d669d
-# Source SHA-256: c08719d04e1acefa6ce210082d05fe7dc2da6fe3921d2226a59fe24d3621ea2c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-BRSH.ANS by Sandy Chidester (out-0499); released in out-0499 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: OUT-BRSH.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0499-out-brsh
 
 Write-Host '
    [34m▄▄▄▄▄████████████████████▄[0m      [34m████  ████▄▄▄▄▄[0m        [34m▄▄▄▄██████████▄▄[0m

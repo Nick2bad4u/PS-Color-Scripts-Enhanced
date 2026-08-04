@@ -1,20 +1,4 @@
-﻿# Converted from: MM-HOPEDRONE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/MM-HOPEDRONE.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: f2740dbbaceb7e6d4e55ae3548c1045f6846546f1b01850ac6da36326d94651f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-HOPEDRONE.ANS by Mavenmob (Mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Every End is Fated in its Beginning
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241208
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# SAUCE Comments: 21st century seriousness. | "When you say you love G*d what does it mean? It means that you | love a projection of your own imagination, a projection of yours | elf clothed in certain forms of respectability according to what | you think is noble and holy; so to say, 'I love G*d', is absolu | te nonsense. When you worship G*d you are worshipping yourself - | and that is not love." - J. Krishnamurti
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Every End is Fated in its Beginning by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-mm-hopedrone
 
 Write-Host '
              [1;30m▄[0m▄▄▄▄▄▄▄▄[1;30m▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: S-PNDORA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rile_002/raw/S-PNDORA.ANS
-# Source Revision: archive-sha256:09fff222285c90eb6b714714b4c5e3c96cc514cdf338ccf4e30b5898f9a5a64b
-# Source SHA-256: 4dff50a961d70e2dde7a3f505734e692e2e3592cd14f2b4eced9597942b449b6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S-PNDORA.ANS by seraphim (RILE); released in rile_002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: pandora
-# SAUCE Author: seraphim
-# SAUCE Group: RILE
-# SAUCE Date: 19970315
-# SAUCE Dimensions: 80x25
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: pandora by seraphim | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rile-002-s-pndora
 
 Write-Host '
 [31m[0;1;33m[0;31m[0;37m[0;31m[0m

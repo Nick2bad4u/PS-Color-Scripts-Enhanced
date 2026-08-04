@@ -1,18 +1,4 @@
-﻿# Converted from: SQR!CNT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-003/raw/SQR!CNT.ANS
-# Source Revision: archive-sha256:de78ce19727ea90c75e1ecc7f5b4d900676dc27b4dceb8a870f61665ee210859
-# Source SHA-256: 8efee9e8ce9ba41a8f26df5f949502e348b8ccfa2ea1ab424d11105c133bfc91
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SQR!CNT.ANS by square (rare!ascii); released in rare-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: count
-# SAUCE Author: square
-# SAUCE Group: rare!ascii
-# SAUCE Date: 19980608
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: count by square | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-003-sqr-cnt
 
 Write-Host '
 [35m[0;1;35m[0;35m[0;31m[0;35m[0;31m[0;1;30m[0m                                   [35m:::||ll$$$$i[0;1;35m|[0;35m$$$$$$$$7`[0m    [31m: ⁿ┘l7$[0;1;31mll[0;31m$|;[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: US-OVER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9702/raw/US-OVER.ANS
-# Source Revision: archive-sha256:66fa024bb27d2c5c9da5d44e7d12f110f2c57bdedd32c6f0a850d91a30d582a8
-# Source SHA-256: 2a7aff543a168cba868e3ea3d7343abb0a3bddcbe06114418f77410906444af8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-OVER.ANS by Pzyko + Squarepusher (AWE Lettering); released in awe9702 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Divide Overflow
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Divide Overflow by Pzyko + Squarepusher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9702-us-over
 
 Write-Host '
 

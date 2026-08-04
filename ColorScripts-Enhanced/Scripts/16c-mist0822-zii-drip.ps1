@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-DRIP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0822/raw/ZII-DRIP.ANS
-# Source Revision: archive-sha256:ed72a43421208b7431337d20b0e65cf1daa85d400f3cf90754e23de5d5edd83f
-# Source SHA-256: ed620cdf2fdf4d6b9fad02644eed1f1f9d27097063bb8b366fb45f7f1b2c3729
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-DRIP.ANS by Zeus II (Mistigris); released in mist0822 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: DRIPS
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20220714
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: DRIPS by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0822-zii-drip
 
 Write-Host '
 [1;30m▓▀▀[0m [1;30m▄▄▄▄▄▄[0m   [34m▀▀[0;37m  [0;34m▄▄▄[0;37m [0;34m▓▓▓█▄████▓▓██▄▄▄▄▄▄▄▄[0;37m [0;34m▀▀▀▀█▄▄[0;1;34;44m░[0;34;104m▓▓▓[0;34m██████[0;34;46m▒[0;34;40m███[0;34;46m▓▒[0;34;40m█[0;34;46m▄[0;34;40m█ [0;36;40m▐[0;1;36;46m▄░[0;36m█▓▓▓▒▒▒[0m

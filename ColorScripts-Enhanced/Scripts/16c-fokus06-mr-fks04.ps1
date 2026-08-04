@@ -1,18 +1,4 @@
-﻿# Converted from: MR-FKS04.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus06/raw/MR-FKS04.ANS
-# Source Revision: archive-sha256:dc26abf5be8f48f280ad19d58f0c64fc91b5db6a0fab8539aa3970e4d64fad45
-# Source SHA-256: 8d292d9b4db45fa7e9a45ec9212997a63ac89b01c448df2f2cd2bcbef544fa75
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-FKS04.ANS by Mr.Wrong (Fokus fonting); released in fokus06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fokus
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: Fokus fonting
-# SAUCE Date: 19990731
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Fokus by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus06-mr-fks04
 
 Write-Host '
                     [34m▀[0m                                                     [37m    [0m

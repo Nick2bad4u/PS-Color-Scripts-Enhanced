@@ -1,17 +1,4 @@
-﻿# Converted from: SQT-GOBL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sick-05/raw/SQT-GOBL.ANS
-# Source Revision: archive-sha256:efb1243ea170f8b742d232670e6686a2d6f79599cce5b66ec9741bfec0cca987
-# Source SHA-256: 8c0cd1a7be35d940cc5d0a4ae5187930a3d5fbbbe4d2c4fb9984d8fcc704da93
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SQT-GOBL.ANS by Squirt (SiCk); released in sick-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Self Portrait
-# SAUCE Author: Squirt
-# SAUCE Group: SiCk
-# SAUCE Date: 19951126
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Self Portrait by Squirt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sick-05-sqt-gobl-part01
 
 Write-Host '
 

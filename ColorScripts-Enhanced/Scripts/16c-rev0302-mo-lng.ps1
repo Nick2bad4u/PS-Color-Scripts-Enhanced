@@ -1,18 +1,4 @@
-﻿# Converted from: MO-LNG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0302/raw/MO-LNG.ANS
-# Source Revision: archive-sha256:7b2619e0400d7382d19d38767873337eae71942dd319abc1998c71f4a968776f
-# Source SHA-256: 4b0d2c28265786f78d8b7e5d638a3282335211d722897604a9a7b36b713c8fca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MO-LNG.ANS by magnatOp (Revival 2002); released in rev0302 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Lounge
-# SAUCE Author: magnatOp
-# SAUCE Group: Revival 2002
-# SAUCE Date: 20020314
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: The Lounge by magnatOp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0302-mo-lng
 
 Write-Host '
                  [32m░[0;30;42m▓[0;32;40m░[0m

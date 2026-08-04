@@ -1,18 +1,4 @@
-﻿# Converted from: T-GRUNGE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-24/raw/T-GRUNGE.ANS
-# Source Revision: archive-sha256:1abe9f6471c193297993f6102a7f1d53cb9b9b48e63d2981eff0aa9f03e28396
-# Source SHA-256: 74ba342ec21de0452c9ff718163dfa30beeb310d0446a7d5fcb0d2801f40dd56
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T-GRUNGE.ANS by toot (plf); released in plf-24 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: grunge
-# SAUCE Author: toot
-# SAUCE Group: plf
-# SAUCE Date: 20000330
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: grunge by toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-24-t-grunge
 
 Write-Host '
 [1;31;41m████████▄ [0;31m███[0;1;31;41m▀[0;31m██[0;1;31;41m▄▄[0;31m█████████[0;1;31m▒▒▒▒▒[0m           [31m ██[0;1;31;41m▄[0;1;31;47m▀▓▓[0;1;31;41m█▀ ▀█████▀[0;31m██[0;1;31;41m████████[0;31m██[0m    [1;31m▀[0;1;31;41m█▀[0m

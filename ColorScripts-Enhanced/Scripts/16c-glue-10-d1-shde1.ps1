@@ -1,18 +1,4 @@
-﻿# Converted from: D1_SHDE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-10/raw/D1_SHDE1.ANS
-# Source Revision: archive-sha256:d704a20dcd17ea70f67190ae077a8c0836b1765cd20aaf9901158fb0fb9868d6
-# Source SHA-256: d3b93b9efbd2d4cd8297610b62df5ce3e0f7dda9b4b4a1ab940a73fcd7dbff01
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: D1_SHDE1.ANS by Dissonance (Glue); released in glue-10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Shade
-# SAUCE Author: Dissonance
-# SAUCE Group: Glue
-# SAUCE Date: 19980511
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Shade by Dissonance | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-10-d1-shde1
 
 Write-Host '
 [1;30m■[0m            [1;35m■[0m

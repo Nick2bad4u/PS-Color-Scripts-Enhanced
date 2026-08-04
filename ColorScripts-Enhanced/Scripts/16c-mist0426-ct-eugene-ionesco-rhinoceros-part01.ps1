@@ -1,20 +1,4 @@
-﻿# Converted from: CT-EUGENE_IONESCO-RHINOCEROS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0426/raw/CT-EUGENE_IONESCO-RHINOCEROS.ANS
-# Source Revision: archive-sha256:c759ba228fb42808866da1267838a1ce2371215b87bc273c64f35f4bc653e77d
-# Source SHA-256: 6642edde16601038485e81e4010f4674d85147c844c914cf992418484de0f797
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CT-EUGENE_IONESCO-RHINOCEROS.ANS by Cthulu (Mistigris); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Rhinoceros
-# SAUCE Author: Cthulu
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260426
-# SAUCE Dimensions: 80x60
-# SAUCE Font: IBM VGA
-# SAUCE Comments: 1960 Grove Press edition, cover design by Roy Kuhlman.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Rhinoceros by Cthulu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0426-ct-eugene-ionesco-rhinoceros-part01
 
 Write-Host '
 [1m██[0;1;41m▀▀▀[0;1;40m███[0;1;41m▀[0;1;40m███[0;1;41m▀[0;1;40m██[0;1;41m▀[0;1;40m██[0;1;41m▀[0;1;40m███[0;1;41m▀[0;1;40m███[0;1;41m▀▀[0;1;40m████[0;1;41m▀▀[0;1;40m███[0;1;41m▀▀▀▀[0;1;40m██[0;1;41m▀▀▀[0;1;40m████[0;1;41m▀▀[0;1;40m████[0;1;41m▀▀[0;1;40m██████████████████████[0m

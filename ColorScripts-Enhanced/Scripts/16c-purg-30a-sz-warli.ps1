@@ -1,13 +1,4 @@
-﻿# Converted from: SZ-WARLI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-30a/raw/SZ-WARLI.ANS
-# Source Revision: archive-sha256:6639c51cd84d0739e4c497f5c5df7097f55575c94239859af87a8579ae4fa114
-# Source SHA-256: 1d1a85500407dfec27764a25ab63caf3b5acf588856b5c6e834edbe562dc2146
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SZ-WARLI.ANS by Slackzor (purg-30a); released in purg-30a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: SZ-WARLI.ANS by Slackzor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-30a-sz-warli
 
 Write-Host '
 [1;34;44m████████████████████████████████████████████████████████████████████████████████[0m

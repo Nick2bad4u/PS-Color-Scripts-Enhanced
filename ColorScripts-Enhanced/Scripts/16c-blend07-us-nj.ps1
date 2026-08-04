@@ -1,18 +1,4 @@
-﻿# Converted from: US-NJ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend07/raw/US-NJ.ANS
-# Source Revision: archive-sha256:ca5dd679a175bb824bf5bf250a5bbd7f932645b5aabbf63799cb92711cab24b8
-# Source SHA-256: 21d55580f086b4989bbd7578d181fc95c81d6c564c481e990ed07dbe499e6d16
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-NJ.ANS by Spear + The Knight (Fuel/Blend); released in blend07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Neo Jello
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Fuel/Blend
-# SAUCE Date: 19970310
-# SAUCE Dimensions: 80x35
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: Neo Jello by Spear + The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend07-us-nj
 
 Write-Host '
 [1;35;45m▒▓█▓█▀[0;35m▀▀[0;1;35;45m▀▒▓▄[0;35m▄▀[0;1;31m [0;33m▄▄▄▄▄▄[0;1;31m [0;35m▀▄▀[0;1;35m███[0;35m▄[0;1;35;45m░▒▓[0;1;35;40m█[0;1;35;45m▓[0;1;35;40m█████[0;1;37;40m█[0;1;35;40m██[0;1;37;40m██[0;1;35;40m███▀[0;35m█[0;1;35;45m▄[0;35m▄▄░[0;37m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: EM-PMASK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/5th-9708/raw/EM-PMASK.ANS
-# Source Revision: archive-sha256:bf054bdd6bcbf28cd22093255df9300b0029c99e9c550cf7614c4482cbdee426
-# Source SHA-256: d27daa3c9740670fdee7374ab12eb953cc2f05c48ec1bd4b00a2159a863d7576
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EM-PMASK.ANS by evil milkmAn (5thzwrtHzflx); released in 5th-9708 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: PREDAT0R mask
-# SAUCE Author: evil milkmAn
-# SAUCE Group: 5thzwrtHzflx
-# SAUCE Date: 19970907
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: PREDAT0R mask by evil milkmAn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-5th-9708-em-pmask
 
 Write-Host '
 [33;42m░[0;32;40m▌▐███[0;33;42m░[0;32;43m▒░[0;33;40m▌[0;32;40m░[0;33;42m░[0;32;43m▒░▒[0;33;42m░[0;32;40m██[0;30;42m ▀▄[0;32;40m█[0;33;42m░[0;32;43m▒░▒[0;33;42m░[0;32;40m▄[0;37;40m [0;33;40m▀▀▀▀[0;32;43m░[0;33;40m▀[0;37;40m [0;34;40m▄▄▄■▄ ▄■░■▄[0;30;44m▀░[0;34;40m▄■▄░[0;37;40m [0;34;40m▄▄■░▄▐▄■[0;37;40m [0;34;40m▄▄░[0;37;40m [0;34;40m■▄[0;30;44m░[0;34;40m▄▄[0m  [32;40m▀[0;33;42m░▒░[0;32;40m▓[0m

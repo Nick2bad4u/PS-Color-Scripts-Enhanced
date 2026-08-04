@@ -1,18 +1,4 @@
-﻿# Converted from: MD-FILTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel09/raw/MD-FILTH.ANS
-# Source Revision: archive-sha256:cae1fe00a9cd349fa6bb692920586d60c6acc70987b088220f071822b0b1e1ed
-# Source SHA-256: baefe2b65a28f49868d2fb9f416f3a350f8828b9c95397d9fabf611b712c276b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MD-FILTH.ANS by mendator (fuel); released in fuel09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: filth
-# SAUCE Author: mendator
-# SAUCE Group: fuel
-# SAUCE Date: 19961110
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: filth by mendator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel09-md-filth
 
 Write-Host '
 

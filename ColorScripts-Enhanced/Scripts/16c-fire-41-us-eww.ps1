@@ -1,19 +1,4 @@
-﻿# Converted from: US-EWW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/US-EWW.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: 6b6d298986c83e0a38a0ad6704f55571f0f41f38c2029a9f5b599d422fd36385
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-EWW.ANS by Savage + Tainted (fire graphics); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: brother eww
-# SAUCE Author: tainted  + savage
-# SAUCE Group: fire graphics
-# SAUCE Date: 20241111
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: brother eww by Savage + Tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-us-eww
 
 Write-Host '
                     [1;30mtnt[0m  [1;30m░▄[0m▄▄▄   [31m■▄▀[0;1;31;41m▀█▀█▄[0;31m██[0;1;31;41m·[0;31m██[0;1;31m▒▒[0;1;31;41m██[0;31m▄▄█████████[0;37;41m  ■░░░[0;31;47m▓▓[0;37;41m░░[0;31;47m▓[0;37;41m░[0;31;47m▓[0;31;40m█▓▓▓[0;30;41m░[0;31;40m■[0m

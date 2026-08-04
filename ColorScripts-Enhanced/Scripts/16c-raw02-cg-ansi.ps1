@@ -1,18 +1,4 @@
-﻿# Converted from: CG-ANSI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/raw02/raw/CG-ANSI.ANS
-# Source Revision: archive-sha256:a9c7b11f45c1834d2f063eb1ae64ec8d77fb2fe3e9be2a125c82d6192e5de0b0
-# Source SHA-256: 2cb16af5a7a58e66ebbc62cc6773b7d2adfa9d4176bc0c8a6ee5c4df4c0cf536
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-ANSI.ANS by cryogenic (raw); released in raw02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: for ME only.. =)
-# SAUCE Author: cryogenic
-# SAUCE Group: raw
-# SAUCE Date: 19970424
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: for ME only.. =) by cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-raw02-cg-ansi
 
 Write-Host '
 

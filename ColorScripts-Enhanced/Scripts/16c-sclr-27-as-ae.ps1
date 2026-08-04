@@ -1,13 +1,4 @@
-﻿# Converted from: AS-AE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-27/raw/AS-AE.ANS
-# Source Revision: archive-sha256:268d6733492cd762a602dad2d82b4950aab62a1c27ccd388f9e4fd4220a519e2
-# Source SHA-256: 9ac3e9a91e5c63174642d8f446181e3630a722c7b8d942190212edbc143361c9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AS-AE.ANS by Asd (sclr-27); released in sclr-27 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: AS-AE.ANS by Asd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-27-as-ae
 
 Write-Host '
 [37;40m                                                                                [0m

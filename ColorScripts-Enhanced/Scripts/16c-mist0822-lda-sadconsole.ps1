@@ -1,20 +1,4 @@
-﻿# Converted from: LDA-SADCONSOLE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0822/raw/LDA-SADCONSOLE.ANS
-# Source Revision: archive-sha256:ed72a43421208b7431337d20b0e65cf1daa85d400f3cf90754e23de5d5edd83f
-# Source SHA-256: b174ba1f5ee367d04c22693b77dc7300ca86df2cc8a2da767fcaa61da3cbad93
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LDA-SADCONSOLE.ANS by LDA (Mistigris); released in mist0822 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: SadConsole Logo
-# SAUCE Author: LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20220821
-# SAUCE Dimensions: 80x27
-# SAUCE Font: IBM VGA
-# SAUCE Comments: For Thraka @16colo.rs forum.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: SadConsole Logo by LDA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0822-lda-sadconsole
 
 Write-Host '
 [35m████████████████████████████████████████████████████████████████████████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PS-APPGN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ash-2/raw/PS-APPGN.ANS
-# Source Revision: archive-sha256:c8305f725fa2ac753acd79a3b8ce60eb4b57346eed044e5eb2d7db75631b7442
-# Source SHA-256: d85a61a8c9a1c56cfec22257349c185fd3ad555a1502742f59869f4184f6f9cc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PS-APPGN.ANS by prisoner spade (ash); released in ash-2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ash app generator font.. ;)
-# SAUCE Author: prisoner spade
-# SAUCE Group: ash
-# SAUCE Date: 19960204
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: ash app generator font.. ;) by prisoner spade | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ash-2-ps-appgn
 
 Write-Host '
 [30m▀▀[0m               [1;37mA S H  [0mA P P L i C [1;30mA T i O N  [0mG E N E R A [1mT O R[0m

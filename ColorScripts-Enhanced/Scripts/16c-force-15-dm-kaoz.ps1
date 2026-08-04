@@ -1,18 +1,4 @@
-﻿# Converted from: DM!KAOZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-15/raw/DM!KAOZ.ANS
-# Source Revision: archive-sha256:cd2d406ee7567eb1c250b9572bb0b7fdd8b6cfa2b5014b290774725da37d8cc8
-# Source SHA-256: f9725417f4eec9a134c2d6e16db53b049cf7ddbfe978b26ab411b1bfce6ecbbe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DM!KAOZ.ANS by dangermouse (fORCE Productions); released in force-15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: kaoz
-# SAUCE Author: dangermouse
-# SAUCE Group: fORCE Productions
-# SAUCE Date: 19970114
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: kaoz by dangermouse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-15-dm-kaoz
 
 Write-Host '
 [1m░[0m [1m [0;1;41m [0;31m▓▓[0;1;31;41m▄▄▄▄▄▄[0;31m█[0;1;31;41m [0;31m██▄▄▄▄▄▄[0m               [1;37m [0m

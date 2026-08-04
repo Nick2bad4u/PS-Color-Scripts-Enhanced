@@ -1,15 +1,4 @@
-﻿# Converted from: SMP-NNY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tus-02/raw/SMP-NNY.ANS
-# Source Revision: archive-sha256:1847ccf8f73b78fd290bcfae71e9f3879e98988c4912942d1ab6ff427e924c10
-# Source SHA-256: a7ef76700af1680be3864cc65250df2f171453147c20c09b098d1f06fd039e99
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-NNY.ANS by Shrimp (tus-02); released in tus-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 20010917
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: SMP-NNY.ANS by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tus-02-smp-nny
 
 Write-Host '
 [1m[0m[32m[0m[34m[0m[37m[0m[32m[0m[34m[0m[37m[0m                      [32m   [0m        [34m   ┌   [0m              [37m                [0m

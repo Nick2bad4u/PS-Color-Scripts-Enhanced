@@ -1,19 +1,4 @@
-﻿# Converted from: 67C21-04.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/67C21-04.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: ddb068a9e1dc712ce6986c3f0c0421bec3082841db2fca03c183fdf1aa6931f1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 67C21-04.ANS by Misfit (Blocktronics); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fatfish
-# SAUCE Author: Misfit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20201012
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Fatfish by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-67c21-04
 
 Write-Host '
 [1;30;40m███[0;1;30;47m▄▐[0;1;30;40m███▀▀▀▀▀████[0;1;30;47m▄ [0;1;30;40m██▀[0m [1;31m■▄▄[0m  [1;30m▀▀███▄[0m [1;31m■[0m   [1;30m▀▀██████▀██[0m [1m▀▓ [0;1;30m███████▀▀███████████▀█████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PYX-MT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0597/raw/PYX-MT2.ANS
-# Source Revision: archive-sha256:77e5528a945f670ea04f743fe66c6a4dc19b897ad7883b4458eeee0528f25975
-# Source SHA-256: 9c765219464afa151d38494686eff3d84fab8eafd6be7b6444ce27de578ea3ac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PYX-MT2.ANS by pyx (-+47- Bamboosh -+47-); released in bmb-0597 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: MiNAS TiRiTH
-# SAUCE Author: pyx
-# SAUCE Group: -+47- Bamboosh -+47-
-# SAUCE Date: 19970213
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: MiNAS TiRiTH by pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0597-pyx-mt2
 
 Write-Host '
                                    [34m▄▄▄▄▄▄██████▀[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MR-MS02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus02/raw/MR-MS02.ANS
-# Source Revision: archive-sha256:dbc0fd9393f048eb4114863d8031209a44218deffed6a460f10c74db43cffb0e
-# Source SHA-256: e4873cdad70733790992bd9531980a976cf461e607fc0a223f990ac4719886e4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-MS02.ANS by Mr.Wrong (Fokus fonting); released in fokus02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Myriad Synergy
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: Fokus fonting
-# SAUCE Date: 19990323
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Myriad Synergy by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus02-mr-ms02
 
 Write-Host '
          [1;36m [0;36m░[0;1;36m [0;36m▄▄[0;1;36m [0;36m▀[0;1;36m  [0m                                          [36m▄▄[0m

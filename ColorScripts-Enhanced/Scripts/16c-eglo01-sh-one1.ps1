@@ -1,18 +1,4 @@
-﻿# Converted from: SH-ONE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eglo01/raw/SH-ONE1.ANS
-# Source Revision: archive-sha256:946b379c1627c6c0ce524ce16bdc1636c1614ddecdaaa61a3c3a875f18d94d0a
-# Source SHA-256: b9007ae20a7bcd9b5db38d865ca0b9b8f1c3c52068f77d1b6e2e0bc74fcf9ff7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SH-ONE1.ANS by sophisto (Everglo); released in eglo01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Oneliner
-# SAUCE Author: sophisto
-# SAUCE Group: Everglo
-# SAUCE Date: 19970208
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Oneliner by sophisto | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eglo01-sh-one1
 
 Write-Host '
  [33m▄▄[0;1;33;43m░░░[0;33m▀ ▄ [0;37m  [0;1;33m▄▄[0;1;33;43m█[0;1;37;40m██▄█[0;1;33;40m███[0;1;33;43m▓▀▀[0;1;33;40m▀[0;33m▄[0;1;33m▄▄[0;1;33;43m██[0;1;37;40m██[0;1;33;43m██████████▓▒▓▓▓░[0;33m▀▀▀▀▀▀▀▀▀▀[0;37m   [0;31m▄▄▄▄▄▄██  [0m

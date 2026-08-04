@@ -1,17 +1,4 @@
-﻿# Converted from: DT-EASE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9609/raw/DT-EASE.ANS
-# Source Revision: archive-sha256:96c031e04e5c479ef9ed73f1afa21a3db6bca2a2de7ad88a46888136232884ff
-# Source SHA-256: 014f4853f38cdf8107d131421130047ef8bc928f22f11c425a5a7775cec9ceb4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-EASE.ANS by Defiant (Samsara); released in sms-9609 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ease
-# SAUCE Author: Defiant
-# SAUCE Group: Samsara
-# SAUCE Dimensions: 80x25
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Ease by Defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9609-dt-ease
 
 Write-Host '
 [1;32;42m█[0;1;33;40m▓[0;1;32;42m█▓[0;1;32;40m█▀▀▀[0;32m▀▀[0;1;32;42m░░[0;32m█▀▀  [0;35m▄  [0;32m▀[0;1;32;42m░[0;32m▌ [0;35m▄[0;1;35m▄[0;1;35;45m▄████[0;35m█  [0;32m▐░  [0;1;33m░█▄█▀[0;1;33;43m▓░[0;33m█▀▄[0;1;33;43m░[0;33m█▀[0;1;33;43m░░[0;33m██▀ ▀    ▀  [0;30;43m▓[0;33;40m▄[0;30;43m░[0;33;40m▄ ▀[0m

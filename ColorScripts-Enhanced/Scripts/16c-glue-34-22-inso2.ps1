@@ -1,18 +1,4 @@
-﻿# Converted from: 22-inso2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-34/raw/22-inso2.ans
-# Source Revision: archive-sha256:9e0a0dccb577f6014cf58e9ea09ed207eb1e2086aae9821b650288ffddccb599
-# Source SHA-256: 7f0ea0d2cc40012ad60fb3d3bce1a3e1d4dd421fbad0bcfd35cb7e24c153a78d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 22-inso2.ans by catch22 (glue); released in glue-34 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: inso 23liner.
-# SAUCE Author: catch22
-# SAUCE Group: glue
-# SAUCE Date: 20010223
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: inso 23liner. by catch22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-34-22-inso2
 
 Write-Host '
 [1;33m█████████████████████████████████▀[0;33m▄███[0;1;33;43m▒░[0;33m▒▐█[0;1;33;43m░[0;33m▓[0;1;31m [0;33m█[0;1;31m [0;33m▄▀[0;1;33;43m░[0;33m█▀█[0;1;33;43m░[0;33m▌[0;1;31m [0;33m▀██[0;1;33;43m░░░[0;33m███░ █████[0;1;33;43m░░░[0;33m ▐█[0;1;33;43m░[0m

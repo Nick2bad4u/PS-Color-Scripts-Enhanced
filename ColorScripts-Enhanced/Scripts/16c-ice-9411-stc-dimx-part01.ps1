@@ -1,13 +1,4 @@
-﻿# Converted from: STC-DIMX.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9411/raw/STC-DIMX.ICE
-# Source Revision: archive-sha256:f886658398a77fb7bede9bec5c3391287ab0eb115da776e630e1d1096e09e7fb
-# Source SHA-256: 20657ec18785653230074a20ecd7e7a1154cb160646802aac2954c94bf32922c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STC-DIMX.ICE by Stone The Crow (ice-9411); released in ice-9411 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: STC-DIMX.ICE by Stone The Crow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9411-stc-dimx-part01
 
 Write-Host '
 [1;30m▓██▄▀▒[0m [1;30m█▀▄▄██[0m [1;30m▀▄[0m░[1;30m█[0m [1;30m█[0m [1;30m▄▀█▒[0m▒[1;30m▄▀█▄██▄▀▄[0m░ [1;30m▄█[0m [1;30m██▄▀[0m [1;30m▀▄[0m [1;30m▄[0m  [1;30m▀[0m   [1;30m       [0m

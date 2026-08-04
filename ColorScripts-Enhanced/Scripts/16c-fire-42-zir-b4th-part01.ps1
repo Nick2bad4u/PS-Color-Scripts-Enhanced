@@ -1,19 +1,4 @@
-﻿# Converted from: ZIR-B4TH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-42/raw/ZIR-B4TH.ANS
-# Source Revision: archive-sha256:5477badab90aaaa6ee2d08aa380254b6982d860b5d0de201e348668cb1eaa063
-# Source SHA-256: 6c971dbaaf6e5e5b0ba4e9e7b291d76bea439a0340e7b79a1c553ce6036bf158
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-B4TH.ANS by zir (FiRE); released in fire-42 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: hot bath
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20250303
-# SAUCE Dimensions: 80x65
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: hot bath by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-42-zir-b4th-part01
 
 Write-Host '
                                                [37;40m░ [0;1;30;40m░░[0m   [1;30m░░[0;1;37m░[0m [1;30m░░[0m  [1;30m░░░ ░░[0m  [1;30m░░[0m [1;30m░░░[0m [1;30m░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PT-OTE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blur-01/raw/PT-OTE.ANS
-# Source Revision: archive-sha256:2e24e002aa423e6089e230171fb4f78c11c68510667b6cff05ce5bffed646ce1
-# Source SHA-256: a389b601d7c6984997a4fa2ffafc57465b941de8a73b870f9d8e684f4b7dbd9f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PT-OTE.ANS by Prestige (fear!blur!); released in blur-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Over The Edge
-# SAUCE Author: Prestige
-# SAUCE Group: fear!blur!
-# SAUCE Date: 19960207
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Over The Edge by Prestige | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blur-01-pt-ote
 
 Write-Host '
 

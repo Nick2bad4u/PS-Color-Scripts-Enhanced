@@ -1,18 +1,4 @@
-﻿# Converted from: 13-PREVA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend07/raw/13-PREVA.ANS
-# Source Revision: archive-sha256:ca5dd679a175bb824bf5bf250a5bbd7f932645b5aabbf63799cb92711cab24b8
-# Source SHA-256: f46e71860125f2363f12499afd8afd89ff3289339322cb6e1a2196f0c6fdda0c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 13-PREVA.ANS by ville (blend&fire); released in blend07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: prevail, trade with ize
-# SAUCE Author: ville
-# SAUCE Group: blend&fire
-# SAUCE Date: 19970301
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: prevail, trade with ize by ville | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend07-13-preva
 
 Write-Host '
 [31m▐[0;31;47m░▓▓[0;1;31;41m▌[0;30;41mville[0;1;31;41m▌▄▀[0;31m███▓▄█[0;1;31;41m▄█▓[0;31m▀▄[0;1;31;41m▄[0;31m▀  ▄▄[0;1;31;41m▄▓[0;31m▄░  ▄ ▄▀[0;1;31;41m░[0;31m▄▄░     ██[0;1;31;41m░▓████▌ ▀█▓▓░░[0;31m█████████[0;1;31;41m██[0;1;33;41m░░▒[0m

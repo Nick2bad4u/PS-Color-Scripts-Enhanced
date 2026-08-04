@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-SPF3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9705/raw/TNA-SPF3.ANS
-# Source Revision: archive-sha256:8be34660f06cc6610ed258606edc1af91e25b5675ab5e99aed29e53c07e63e17
-# Source SHA-256: eee196417f59a724c4ec9f4b1c0dde938fd60efc015eccda9b1f8780b4d6f57d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-SPF3.ANS by The Night Angel (AWE Lettering); released in awe9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Oneliners [Spoof]
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970510
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Oneliners [Spoof] by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9705-tna-spf3
 
 Write-Host '
 [36m▄[0;1;36;46m▄[0;36m█[0;1;30;46m▄[0;36m▀█[0;1;37;46mspoof[0;36m▓▒░ [0;1;30m░▄▄ ▄ [0;36m░ [0;37m▄[0;1;30m▄[0m      ▄▄▄  [1;47m▀[0m▀     [33m▀ ■▄ ▀▀▄   [0;1;36m▄[0;36m░[0;30;46m▓[0m [36;40m░ ░[0;30;46m▓[0;1;30;40m░[0m        tna([1mawe[0m)

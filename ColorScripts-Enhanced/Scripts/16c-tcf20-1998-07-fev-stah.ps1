@@ -1,18 +1,4 @@
-﻿# Converted from: 1998 - 07 - FEV-STAH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tcf20/raw/1998%20-%2007%20-%20FEV-STAH.ANS
-# Source Revision: archive-sha256:af8609219fccc484668fb405a7f1d45efb8c574501a461c5c1b47d87a12921ce
-# Source SHA-256: 814b3d77ccf36f1915cf30388412a4a975cd23a353129717de788f43d4e6b9f0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 1998 - 07 - FEV-STAH.ANS by fever (the Legion); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: i'm already dead
-# SAUCE Author: fever
-# SAUCE Group: the Legion
-# SAUCE Date: 19980829
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: i'm already dead by fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tcf20-1998-07-fev-stah
 
 Write-Host '
  [1;33m▀[0;1;37m▀[0;1;33m▀▀▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓▓▓▓[0m [30;47m█[0;37;40m░▐[0;30;47m [0;1;30;47m░[0m [30;47m [0;1;30;47m▀[0;30;47m▀[0;1;30;47m▀[0m████[1;32;47m [0;1;37;47m  [0;1;36;47m  [0m███[30;47m [0;1;30;47m░░░[0;30;47m [0;1;37;47m░░[0m█▓ [30;47m█[0;1;30;47m▀[0;30;47m     [0;1;36;47m░░░[0;1;30;47m▀[0m  [1;33m██▀▀▀▓▄[0m

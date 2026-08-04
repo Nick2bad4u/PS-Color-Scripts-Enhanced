@@ -1,19 +1,4 @@
-﻿# Converted from: ak-hfast.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz15/raw/ak-hfast.ans
-# Source Revision: archive-sha256:d35f5b18ac3e8cbe3d6d17eab809a7e050609a8e3cc7d160d14a87c59a191c12
-# Source SHA-256: 6a9e1a31e1b316acc74799b1fa1e53dd8a10baac5390824153f0ef09fb0ebf2b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ak-hfast.ans by abstrakt (lazarus); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hold fast bbs
-# SAUCE Author: abstrakt
-# SAUCE Group: lazarus
-# SAUCE Date: 20220626
-# SAUCE Dimensions: 80x41
-# SAUCE Font: IBM VGA
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: hold fast bbs by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz15-ak-hfast
 
 Write-Host '
                                                          [1;30m.,┌⌐¬┐.[0m           .,.

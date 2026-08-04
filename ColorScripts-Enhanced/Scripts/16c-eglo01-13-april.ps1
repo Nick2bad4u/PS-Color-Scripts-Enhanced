@@ -1,17 +1,4 @@
-﻿# Converted from: 13-APRIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eglo01/raw/13-APRIL.ANS
-# Source Revision: archive-sha256:946b379c1627c6c0ce524ce16bdc1636c1614ddecdaaa61a3c3a875f18d94d0a
-# Source SHA-256: a0773c3340f7380d12df462bd6ea9102cfcf981df063af5344583519611ee754
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 13-APRIL.ANS by ville (Everglo); released in eglo01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: ville
-# SAUCE Group: Everglo
-# SAUCE Date: 19970522
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: 13-APRIL.ANS by ville | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eglo01-13-april
 
 Write-Host '
 [1;36;46m█▀▌  [0;36m▀  █▀[0m   [34m▄▀[0m   [1;31m  [0m     [1;31m        [0m    [36m████[0m    [36m▀██[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: RET-25L.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zenith02/raw/RET-25L.ANS
-# Source Revision: archive-sha256:89af45c021399cb7150be8c9dd70d9c3709facfd5b2491816aa34f9f5096ceb7
-# Source SHA-256: 1bdc6375721ed0d4907829b921d8cbd523f1815ff299a9bc9734ca937212d9cb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RET-25L.ANS by Retribution (Zenith); released in zenith02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Untitled
-# SAUCE Author: Retribution
-# SAUCE Group: Zenith
-# SAUCE Date: 19980630
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Untitled by Retribution | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zenith02-ret-25l
 
 Write-Host '
 [1;30;47m█[0;1;30;40m▀[0;30;47m█▀  [0;1;30;47m░░░[0;30;47m [0;1;37;47m▒▒▒[0;30;47m▄▄[0;1;37;47m░░[0;30;47m      [0;1;30;47m░░▓▓[0;1;30;40m██[0;1;30;47m▓▓▒░░[0;30;47m     [0;1;37;47m░░░░░░[0;30;47m   ▀▄ [0;1;37;47m▄██▒░[0;30;47m [0;37;40m▌   [0;36;40m▌[0;37;40m    [0m    [36;40m▌[0;37;40m [0;36;40m▀▐▌[0;37;40m    [0;36;40m▐[0m

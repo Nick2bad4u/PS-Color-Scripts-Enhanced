@@ -1,13 +1,4 @@
-﻿# Converted from: zv-AFriot.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/antifa-01/raw/zv-AFriot.ans
-# Source Revision: archive-sha256:fe3c08e957c6485d013b619d76c5f2db5f52690c831b3c7b3f13018446006654
-# Source SHA-256: a4f81ac37baa72c5e5f09d74609387c22cbce5e75789b7bd3fbe06f1091e89c3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zv-AFriot.ans by Zerovision (antifa-01); released in antifa-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 86-127
-# Columns: 1-80
+﻿# Artwork: zv-AFriot.ans by Zerovision | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-antifa-01-zv-afriot-part03
 
 Write-Host '
 [34m█████▌[0;1;37m▐[0;1;37;47m▌[0m▌[1m▐[0;1;47m▒[0m ▐▓        [1;30m▐█[0;1;30;47m  ▀▓[0;1;30;40m██████[0;1;30;47m▓▓[0;1;30;40m█▌   [0m [33m [0;34m▒   [0;33m [0;37m    ▀[0;1;30;47m░░▀[0;1;30;40m█▄[0m  [1m█▌ █▌ █ [0;1;30m   [0m▄[1;30;47m [0;1;30;40m [0;1;37;40m  ▐▌▐[0m

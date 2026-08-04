@@ -1,13 +1,4 @@
-﻿# Converted from: us-bzr.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tnt-010/raw/us-bzr.ans
-# Source Revision: raw-sha256:53468a0fe6468039598ef2d40b8f334211da9102ca2a8d7b7d419afd7f66f7cb
-# Source SHA-256: 53468a0fe6468039598ef2d40b8f334211da9102ca2a8d7b7d419afd7f66f7cb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-bzr.ans by Knocturnal + Skypager (tnt-010); released in tnt-010 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 123-162
-# Columns: 1-80
+﻿# Artwork: us-bzr.ans by Knocturnal + Skypager | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tnt-010-us-bzr-part04
 
 Write-Host '
   [34m░[0;1;31m ▐[0m [1;31;41m▐█[0;31m▌   [0;35;41m▒▒[0;31;40m▌[0;37;40m   [0;31;40m ▀[0;37;40m [0;31;40m   [0;37;40m    [0;31;40m  ▀▀█[0;35;41m ▐▀[0;31;40m▀▄▄  [0;1;30;40m   ░[0;1;30;41m▓[0;1;30;40m▌ [0m  [32m   [0;37m ▄[0;1;30;47m▄[0;1;30;40m▀  [0;32m▒▓[0;1;32;42m░[0;32m▓[0;37m [0;1;32m▒[0m [32m▌[0;1;30m  ▌ █▌[0;1;30;47m▓[0m  [1;30m░░[0m

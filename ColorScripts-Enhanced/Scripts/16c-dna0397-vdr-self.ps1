@@ -1,13 +1,4 @@
-﻿# Converted from: VDR-SELF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dna0397/raw/VDR-SELF.ANS
-# Source Revision: archive-sha256:e1a4a5668c5ecdfaceffae094b291f77d84772de2eb8e1772dc5072c38cdc6bb
-# Source SHA-256: a99f3266db6134c66106bbf0dbc6ddba0b9241da8234fcea824853fbf400fe77
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VDR-SELF.ANS by Vader-Sweden (dna0397); released in dna0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: VDR-SELF.ANS by Vader-Sweden | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dna0397-vdr-self
 
 Write-Host '
 

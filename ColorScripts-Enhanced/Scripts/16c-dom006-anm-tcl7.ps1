@@ -1,18 +1,4 @@
-﻿# Converted from: ANM-TCL7.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dom006/raw/ANM-TCL7.ANS
-# Source Revision: archive-sha256:93a6b412f9e9adf4c6092c8d46992a7a1423cd1a7b58c863faad8b32ddf2ce2e
-# Source SHA-256: 8cc70e09f2912da8e216620f5b3dff2eb3b26a466dfafc7d18fca37f29621118
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ANM-TCL7.ANS by anomite (dominio); released in dom006 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ticalganjareeferstjallhasjwhatever
-# SAUCE Author: anomite
-# SAUCE Group: dominio
-# SAUCE Date: 19980728
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: ticalganjareeferstjallhasjwhatever by anomite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dom006-anm-tcl7
 
 Write-Host '
                                         [34m▄▄▄▄▄▄▄▄    [0m

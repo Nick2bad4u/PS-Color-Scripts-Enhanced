@@ -1,15 +1,4 @@
-﻿# Converted from: ZP-VIEW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jive1096/raw/ZP-VIEW.ANS
-# Source Revision: archive-sha256:4088bb5774f9b38859804abb70d54fee1333f0bbe32acb21357a9f799a1418d7
-# Source SHA-256: a8d40c23493d26357136c64aaab5e9b14fcabd1c2b455e1d23ca4852cb595b83
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZP-VIEW.ANS by Zippy (jive1096); released in jive1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: JiVE View Menu
-# SAUCE Author: Zippy
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: JiVE View Menu by Zippy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jive1096-zp-view
 
 Write-Host '
 [1;30m█[0m [1m█[0;1;47m▀[0;1;40m██[0;1;45m▓[0;1;40m████[0;1;47m▀[0;1;40m█▀█[0;1;47m▀▀[0;1;40m█[0;1;47m▀[0;1;40m██[0;1;47m▀[0;1;40m█[0m [1m█[0;1;47m▀▀[0;1;40m█[0;1;47m▀[0;1;40m█[0;1;47m▀▀[0;1;40m█[0m [1m█[0;1;47m▀▀▀[0;1;40m█[0;1;47m▀[0;1;40m█[0;1;47m▓▀▀[0;1;40m█ [0;1;47m█▀[0;1;40m██[0;1;45m▓[0;1;40m█[0;1;47m▀▀[0;1;40m█ █[0;1;47m▀▀▀[0;1;40m█[0;1;47m▀[0;1;40m█[0;1;47m▀[0;1;40m█▀█[0;1;47m▀[0;1;46m▓[0;1;40m███[0;1;45m▓[0;1;40m██[0;1;47m▀[0;1;40m█[0m [1;30m█[0m

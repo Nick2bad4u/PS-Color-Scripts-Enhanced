@@ -1,18 +1,4 @@
-﻿# Converted from: T!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook14/raw/T!.ANS
-# Source Revision: archive-sha256:f7fe2a62d3e7b3b16687ce251209098ea8d86719a4cfa33dae1489e0c9af9278
-# Source SHA-256: eecfd84595df99c2609a2aa10975245acc55352acdf29ef5a1df10992a0a57c8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T!.ANS by -------------------- (black maiden); released in bmbook14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: tOOt
-# SAUCE Author: --------------------
-# SAUCE Group: black maiden
-# SAUCE Date: 19970701
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: tOOt by -------------------- | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook14-t
 
 Write-Host '
  [1;31;41m░░░▒▒▒▒▓▓▓▓[0;1;31;40m███████████████████[0;1;31;41m█▓▓▀[0;1;31;40m▀[0;1;31;41m▀▓▄▄[0;1;31;40m███████████████████████[0;1;31;41m██████████  ░░░░[0m

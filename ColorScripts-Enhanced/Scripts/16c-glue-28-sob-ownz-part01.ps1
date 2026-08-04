@@ -1,18 +1,4 @@
-﻿# Converted from: sob-ownz.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-28/raw/sob-ownz.ans
-# Source Revision: archive-sha256:5075ba49005d03d914b445336fa73ec4c758aeac80fb08567f1bf5da4e7e8bad
-# Source SHA-256: 82c2adb87d2abc244e45446796dc775645966b2ca21b09f43e13d5c166cd4a38
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sob-ownz.ans by Somberlain + Zerovision (Glue); released in glue-28 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Glue ownz Epic
-# SAUCE Author: SomberlainZeroVision
-# SAUCE Group: Glue
-# SAUCE Date: 19991214
-# SAUCE Dimensions: 80x82
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: Glue ownz Epic by Somberlain + Zerovision | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-28-sob-ownz-part01
 
 Write-Host '
 [1;30;47m▀[0;1;30;40m█▄[0;34m [0;1;30m  [0m▐[1;30;47m░▒▓[0;1;30;40m▌[0;34m       [0;1;30m▐[0;1;30;47m▓[0m [1;30;47m░▒▓[0;1;30;40m█[0;34m   [0;1;30;47m▒▓[0;34m    [0;37m▐▌[0;34m  [0;1;30m ░[0;34m  [0;1;30;47m░░[0m▀[1;30m▄▄▄[0;1;30;47m▀▀[0;1;30;40m███[0;1;30;47m▓[0;1;30;40m█████▀[0;34m [0;1;30;47m░▒▓[0;1;30;40m█▌ [0m▀▀▀[1;30;47m▒▓[0;1;30;40m▀▀▀[0;34m [0;37m▐[0;1;30;47m▒▓[0;1;30;40m█[0m

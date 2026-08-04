@@ -1,18 +1,4 @@
-﻿# Converted from: sm-colly.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-200210/raw/sm-colly.ans
-# Source Revision: archive-sha256:0bb96641d6773efb0eab9dbc5ee849dcb7d57a898d37aedc51178460548b5622
-# Source SHA-256: efd7acbaf94cf4a69c4d4233cc48479e2a45b305baa2ddaac2e10666cf5649ee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sm-colly.ans by Smooth (iCE Advertisements); released in ice-200210 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Hallowed Colly
-# SAUCE Author: Smooth
-# SAUCE Group: iCE Advertisements
-# SAUCE Date: 20021031
-# SAUCE Dimensions: 80x186
-# Lines: 36-57
-# Columns: 1-80
+﻿# Artwork: Hallowed Colly by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-200210-sm-colly-part02
 
 Write-Host '
                       [1;30m███[0m  [1;30m    [0m

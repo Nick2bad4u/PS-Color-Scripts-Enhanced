@@ -1,13 +1,4 @@
-﻿# Converted from: tr-grngu.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/serial05/raw/tr-grngu.ans
-# Source Revision: archive-sha256:9aace96ae7fa04ed99409fe3d21beba241d3764e37ef0218d717063c3de5b6ab
-# Source SHA-256: 21b2bc1a81a0b5c7a29a26c55ec99329052e967e8d54f5a77e4d86bc4a516f5d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tr-grngu.ans by Terrato (serial05); released in serial05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: tr-grngu.ans by Terrato | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-serial05-tr-grngu
 
 Write-Host '
 [35m$$$$$$$$$$²'',g[0;1;35m$$$$[0;35m$P''`4$$$$$$$$$$$$$$$$$$$$$²'',g$$$$$$$[0;1;35m,$[0;35m$[0;1;35m$$[0;35m$[0;1;35m$$$[0;35m$[0;1;35m$$$$$[0;35m$[0;1;35m$$$[0;35m$[0;1;35m$[0;35m$[0;1;35m$[0;35m$$[0m

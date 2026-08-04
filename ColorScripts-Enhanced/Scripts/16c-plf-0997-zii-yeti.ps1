@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-YETI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0997/raw/ZII-YETI.ANS
-# Source Revision: archive-sha256:d6ce507ee095ab9c7ce1d91178b57bff0c61babde42a3957415461a430e18407
-# Source SHA-256: dc70ed5b359f77786382dd843101da8136ac227ff21fd04ef32cf480f05bdb74
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-YETI.ANS by Zeus II (poffelipoff); released in plf-0997 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: compo
-# SAUCE Author: Zeus II
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19970913
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: compo by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0997-zii-yeti
 
 Write-Host '
                              [34m▄▄▀▀▀▀▄▄▄[0m

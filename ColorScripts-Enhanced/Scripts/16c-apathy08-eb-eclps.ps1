@@ -1,18 +1,4 @@
-﻿# Converted from: EB-ECLPS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy08/raw/EB-ECLPS.ANS
-# Source Revision: archive-sha256:dddbecd097515d8bc284ea8726046b80b56f2576fe024d98d7a392e98f8d9a1f
-# Source SHA-256: 6cf825817cac9c99c6a361b7cde5f269321216d6c6521a88acc546d45ffd5995
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EB-ECLPS.ANS by eiht^ball (apathy); released in apathy08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: eclipse
-# SAUCE Author: eiht^ball
-# SAUCE Group: apathy
-# SAUCE Date: 19960406
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: eclipse by eiht^ball | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy08-eb-eclps
 
 Write-Host '
       [1;30m █████[0;1;30;47m▄[0;1;30;40m███████████████████████████████████████[0;1;30;47m█ █▓[0;1;30;40m [0m     [1;30m▄█[0;1;30;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;40m█▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-BOI2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bl_omann/raw/AVE-BOI2.ANS
-# Source Revision: archive-sha256:05aeb5241910df97f7b5f5e1c0f0b2ddf59063a1cb9f232ef34e44c86905e918
-# Source SHA-256: 01ec6a5501c6fa71c65138c02b38c62927a1541f1facce8c43600571654361c9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-BOI2.ANS by avenger (black maiden); released in bl_omann and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: guest release #1
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19971120
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: guest release #1 by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bl-omann-ave-boi2
 
 Write-Host '
                                                           [34m▄▄[0m

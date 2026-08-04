@@ -1,19 +1,4 @@
-﻿# Converted from: us-cteaser.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-004/raw/us-cteaser.ans
-# Source Revision: archive-sha256:c716e28d4b828a0135c19992fe2f71464879479199ebc42fd3d533b5bd3bf4d4
-# Source SHA-256: c98776e62f6aeacf0f698f58b18834cb598385715f62fab0818520e43866688f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-cteaser.ans by Hayn9 + The Knight (Legacy Krew); released in lgcy-004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: C-Teaser
-# SAUCE Author: hayn9  the knight
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20220222
-# SAUCE Dimensions: 80x214
-# SAUCE Font: IBM VGA
-# Lines: 173-214
-# Columns: 1-80
+﻿# Artwork: C-Teaser by Hayn9 + The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-004-us-cteaser-part05
 
 Write-Host '
 [36m    [0;1;37m██[0m                     [1m███[0;1;47m▌[0m                            [36m▐████████████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: PZ-ASYL5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-08/raw/PZ-ASYL5.ANS
-# Source Revision: archive-sha256:0b90c936d49629839c01709c30be5eee3ae4012caa7a8f1570b6ae8cc1763cb4
-# Source SHA-256: be06651faf7f932c520b90c3e278dc94e1c2e65b986eafac35a9563028f3a491
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PZ-ASYL5.ANS by p z > (e c l .); released in ecl-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: asylum matrickszx
-# SAUCE Author: p z >
-# SAUCE Group: e c l .
-# SAUCE Date: 19960926
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: asylum matrickszx by p z > | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-08-pz-asyl5
 
 Write-Host '
 

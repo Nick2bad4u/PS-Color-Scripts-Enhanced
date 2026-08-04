@@ -1,18 +1,4 @@
-﻿# Converted from: SF-FIRE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0697/raw/SF-FIRE.ANS
-# Source Revision: archive-sha256:d190a8046767bbc429812300532b65ff0ea6e011704fc75ed31c91d378c985ff
-# Source SHA-256: 9d37e487fe120b8c8ecc242d5af04d911b1f7237603f2ab3ac0c746ab6d18090
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SF-FIRE.ANS by shaft (EVERGLO  FIRE); released in fire0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fIRE productions 1997
-# SAUCE Author: shaft
-# SAUCE Group: EVERGLO  FIRE
-# SAUCE Date: 19970605
-# SAUCE Dimensions: 80x49
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: fIRE productions 1997 by shaft | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0697-sf-fire
 
 Write-Host '
 

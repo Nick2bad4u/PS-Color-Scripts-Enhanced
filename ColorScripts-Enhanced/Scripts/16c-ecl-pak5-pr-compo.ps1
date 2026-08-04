@@ -1,18 +1,4 @@
-﻿# Converted from: PR_COMPO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak5/raw/PR_COMPO.ANS
-# Source Revision: archive-sha256:81544f419a1e21b70779568e90d8c79145bb93a0a35680fb8d69b6e553e0595a
-# Source SHA-256: cf3c5419be21c4f54d2e03ca4872f8d4f6a55dacd459eb8c3883e2cb5408a78e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR_COMPO.ANS by president (ecolove); released in ecl-pak5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: one day i'll fly away
-# SAUCE Author: president
-# SAUCE Group: ecolove
-# SAUCE Date: 19980402
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: one day i'll fly away by president | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak5-pr-compo
 
 Write-Host '
                        [1m▄▄ [0m

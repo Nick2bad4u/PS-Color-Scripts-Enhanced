@@ -1,13 +1,4 @@
-﻿# Converted from: B-PSUD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/atm-0793/raw/B-PSUD.ANS
-# Source Revision: archive-sha256:2791ea7960360c43fee92e39a37f109c33350847675dee72209056037e0dfd3e
-# Source SHA-256: b9ecaf472c3b0724d44118db09abbe350c7a0c6a9713dba0b8e57c54fb4e521e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: B-PSUD.ANS by Bjorn (atm-0793); released in atm-0793 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 24-73
-# Columns: 1-80
+﻿# Artwork: B-PSUD.ANS by Bjorn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-atm-0793-b-psud-part02
 
 Write-Host '
  [34m█[0;1;34;44m░░▒▓▓▓▓▓[0m     [35m▄▄[0;1;35m▄▄▄[0m     [1;35m▄[0;1;35;45m  [0;1;30;45m░░▒▒▒▒▓▓▓▓▓▓▓▓▓▒▒▒▒▒░░ [0;1;35;45m▓[0;35m▄  [0;1;35m▄▀▀▀[0;1;35;45m▓▓▒[0;35m▄▄[0m

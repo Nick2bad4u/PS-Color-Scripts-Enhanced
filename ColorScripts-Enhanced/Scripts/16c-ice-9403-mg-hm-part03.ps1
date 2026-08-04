@@ -1,13 +1,4 @@
-﻿# Converted from: MG-HM.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9403/raw/MG-HM.ICE
-# Source Revision: archive-sha256:256add313f6fb2d9526e695b09f6039aacb3931a76c34081a80ce81f3cc3dbc4
-# Source SHA-256: 1de9f5d17945f204b45adadc9bf5a656fb813d4d731e2e5bda78dd7c0604dafc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MG-HM.ICE by Magnus (ice-9403); released in ice-9403 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 99-145
-# Columns: 1-80
+﻿# Artwork: MG-HM.ICE by Magnus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9403-mg-hm-part03
 
 Write-Host '
          [1;30m░[0m         [1;30m░[0m       [1;30m░ [0;1;31;41m░▒[0;31m▌[0;1;30m░░   ░ ░[0;1;31;41m░▒[0;31m▄ [0;1;30m░  [0;1m█[0;1;47m████▓▒[0m▌  [31m▐[0;1;31;41m▒░[0;31m▄ [0;1;30m░░[0;31m█▄[0;35m▀▀[0;31m▄█▀ [0;1;30m░[0m

@@ -1,15 +1,4 @@
-﻿# Converted from: MQ-TBNK1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0397/raw/MQ-TBNK1.ANS
-# Source Revision: archive-sha256:147f0608c1bd711b116f3ad049b80e805dfbb40e7d23ffce5f4580a5a57bae0f
-# Source SHA-256: ec18eb1f6953c01cc85dbe0a20eeb3b255202120183745e1d62cdc542ca53370
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MQ-TBNK1.ANS by Moleql (root0397); released in root0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Timebank Menu
-# SAUCE Author: Moleql
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Timebank Menu by Moleql | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0397-mq-tbnk1
 
 Write-Host '
 

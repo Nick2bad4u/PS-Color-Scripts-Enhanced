@@ -1,13 +1,4 @@
-﻿# Converted from: JAG_IMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-03/raw/JAG_IMP.ANS
-# Source Revision: archive-sha256:6fde2a1886d2785cabbb7cd016b067488338380d986864d14f4373e994413062
-# Source SHA-256: 51f36d806d52ee6bb2948d057b33ea658459c96409306fda1c9ac6ff233d0516
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JAG_IMP.ANS by Jaguar (purg-03); released in purg-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: JAG_IMP.ANS by Jaguar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-03-jag-imp
 
 Write-Host '
  [36m▄▄[0;37m▓[0;36m▄▄▄[0;37m  [0;36m█[0;37m▓[0;36m▄[0m [37m [0m     [37m [0;36m▄███▀[0;37m [0;36m█▄[0m  [37m▓[0m   [36m▀█▄[0;37m ▓[0m     [37m [0;36m▄█[0m        [36m▄▄[0;37m▓[0;36m▄▄▄▄[0m   [36m▄█▄▄[0m [37m [0;36m▀█▄▄[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: _10_Calendar_2018_October_by_nail.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_darker_image_2/raw/_10_Calendar_2018_October_by_nail.ans
-# Source Revision: archive-sha256:7282b405cc52219ce7cf6cd9d097796f1b25fc898e4c29fdb9f37c375d595996
-# Source SHA-256: 91143f2d6968156a3208139798535e3cdbe606facebb1baaee2fd5e2a67fb7a6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: _10_Calendar_2018_October_by_nail.ans by nail (blocktronics); released in blocktronics_darker_image_2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: one, two...six seven
-# SAUCE Author: nail
-# SAUCE Group: blocktronics
-# SAUCE Date: 20171016
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: one, two...six seven by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-darker-image-2-10-calendar-2018-october-by-nail
 
 Write-Host '
 [30;41m████████▀█▀█▀█▄▀▄██▓▓▄                                [0;31;40m▄▄▓▓▀██[0;30;41m   [0;31;40m▌▐[0;30;41m [0;31;40m▓░[0;30;41m█[0;31;40m█[0;30;41m██[0;31;40m  [0;37;40m [0;31;40m [0;30;41m█[0;31;40m█[0;30;41m█[0m

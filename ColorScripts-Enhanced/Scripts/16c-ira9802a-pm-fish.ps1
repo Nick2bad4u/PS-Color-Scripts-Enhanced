@@ -1,18 +1,4 @@
-﻿# Converted from: PM-FISH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira9802a/raw/PM-FISH.ANS
-# Source Revision: archive-sha256:157ead14d43652aeef2256f394202c3af23e0a670018a92df40a323cb79405f8
-# Source SHA-256: bd5c5e2f177df893138151f309b13b8d29e4381b7bdf121b14a24f0958950c44
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-FISH.ANS by Phantasy Man (irato); released in ira9802a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fish
-# SAUCE Author: Phantasy Man
-# SAUCE Group: irato
-# SAUCE Date: 19800101
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: fish by Phantasy Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira9802a-pm-fish
 
 Write-Host '
     ░ [1;30m░[0m                [34m■[0m                     [34m■[0m     [34m■[0m

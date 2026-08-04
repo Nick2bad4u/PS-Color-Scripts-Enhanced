@@ -1,19 +1,4 @@
-﻿# Converted from: fil-saga.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy13/raw/fil-saga.ans
-# Source Revision: archive-sha256:3ed7178f860604c6b9786846d46fd13095846b81c16a5324edc4e4b9ea7e6ba8
-# Source SHA-256: 5b87d3542f87f6707b16814872331ede6cceda5293c0afa03bf495d5c2c1ad95
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: fil-saga.ans by filth (apathy); released in apathy13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: saga
-# SAUCE Author: filth
-# SAUCE Group: apathy
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x306
-# SAUCE Font: IBM VGA
-# Lines: 171-206
-# Columns: 1-80
+﻿# Artwork: saga by filth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy13-fil-saga-part05
 
 Write-Host '
 [0m[0m[1;36m█████[0;1;36;45m██▌  [0;1;36;40m ▀▀███████████[0;35m██████[0;1;36m ▀[0;1;36;45m██[0;1;36;40m█  ▀[0;1;36;45m██▀██[0;1;36;40m█[0;35m██████[0;1;36;45m▀▄▄[0;1;35;45m ▀▀▄[0;35m███████[0;1;35;45m▀▀[0;1;35;40m█[0;1;35;45m▄[0;1;36;40m██[0;1;36;45m▄[0;35m█████[0;1;36;45m▐[0;1;36;40m█[0;36m█[0;1;36m█[0m

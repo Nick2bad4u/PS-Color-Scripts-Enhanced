@@ -1,13 +1,4 @@
-﻿# Converted from: SW-EVE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hav-0694/raw/SW-EVE.ANS
-# Source Revision: archive-sha256:81a6a7e33428e9e414f30f901ad9af46886f167d85ec9818cd5206546186e4b9
-# Source SHA-256: f5f042ad552cde610d5ad841c7eb7fc284bf1ea79812310f9223e4bf0094df3d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SW-EVE.ANS by Sword Weaver (hav-0694); released in hav-0694 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: SW-EVE.ANS by Sword Weaver | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hav-0694-sw-eve-part01
 
 Write-Host '
 [1m████████████████████████▀▀▀▀[0;1;36m▄▄▄▄▄▄▄▄▄▄▄[0;1;37m▀▀▀▀▀[0;1;30m▀██████▄[0;1;37m▀▀▀▀▀███████████████████████[0m

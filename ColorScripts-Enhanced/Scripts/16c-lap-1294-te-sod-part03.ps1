@@ -1,18 +1,4 @@
-﻿# Converted from: TE-SOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lap-1294/raw/TE-SOD.ANS
-# Source Revision: archive-sha256:c678171e2755c632933da0be43c78cd29254e2fe17470b3e3473e1284f48ee89
-# Source SHA-256: 378bf0cecf439ed3d5ecd1be186c83c758d1b35f7e982515c2fc1879e0d67237
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-SOD.ANS by T/4E (Lapse); released in lap-1294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Seeds of Destruction
-# SAUCE Author: T/4E
-# SAUCE Group: Lapse
-# SAUCE Date: 19941126
-# SAUCE Dimensions: 80x158
-# Lines: 85-127
-# Columns: 1-80
+﻿# Artwork: Seeds of Destruction by T/4E | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lap-1294-te-sod-part03
 
 Write-Host '
  [30;41m██▓[0;37;40m  [0;1;37;40m▀▀▀[0;1;37;47m▓▓▓▓▓▓▒▒▒▒▒▒░░░[0;1;30;47m  [0;1;30;40m █ [0;1;37;47m░[0;30;47m ▀ [0;1;30;47m [0;30;47m█[0;37;40m▄▀[0;1;37;47m░▒▓▓▒[0m [1;30;47m  [0m▀▄[30;47m███▄[0;1;30;47m  [0;1;37;47m░[0;1;30;47m  [0;1;37;47m░░░▒▒▒▒▒▒▓▓▓▓▓▓[0m▀▀▀  [30;41m▓[0m

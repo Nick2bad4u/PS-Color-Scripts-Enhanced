@@ -1,18 +1,4 @@
-﻿# Converted from: RZ-MIST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/m-9805-a/raw/RZ-MIST.ANS
-# Source Revision: archive-sha256:42d164884e8cc238649e29ee29cb8490b1c2486775c68f748f0fb6f12c241b5a
-# Source SHA-256: 961b359787a4f6878b787b7c0036af64468dbc49448288834b91bbfa859dadc9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RZ-MIST.ANS by Rzee (Avengecult); released in m-9805-a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Mistigris FILE_ID.DIZ coloured
-# SAUCE Author: Rzee
-# SAUCE Group: Avengecult
-# SAUCE Date: 19980515
-# SAUCE Dimensions: 80x25
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Mistigris FILE_ID.DIZ coloured by Rzee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-m-9805-a-rz-mist
 
 Write-Host '
 [31m    ▄ ▄[0;1;31m▄[0;1;31;41m▄[0;1;31;40m▄[0;1;31;41m▄███▄[0;31m█[0;1;31;41m▄█[0;31m█▀█▀▀ ▀  ▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: h7-asm2k.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/epic0006/raw/h7-asm2k.ans
-# Source Revision: archive-sha256:a18754623d8de956c8d31eb32b82b183c0a16f8561be481e313b80a17dcadda3
-# Source SHA-256: 22200bb0000c0b88c573c1c081b6f62a68d01af7b13d6e07b0f79cf64444e5ff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: h7-asm2k.ans by h7 (epic); released in epic0006 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: pimpin aint e-z
-# SAUCE Author: h7
-# SAUCE Group: epic
-# SAUCE Date: 20000808
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: pimpin aint e-z by h7 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-epic0006-h7-asm2k
 
 Write-Host '
 [1;30m       [0;36m  [0;34m▐ [0;37m [0;35m■[0;37m [0;1;35m▄[0;35m [0;1;35m [0m   [34m▄[0;1;34m▄▄▄[0;1;34;44m▓[0;1;34;40m▄▄▄▄▄▄▄▄[0;34m▄▄  [0;1;36m  [0;34m    ▄ ▄[0;1;34m▄▄▄█▄▄▄▄▄▄▄▄▄▄[0;1;34;44m▓[0;1;34;40m▄▄▄▄█▄[0m [34m▄[0m

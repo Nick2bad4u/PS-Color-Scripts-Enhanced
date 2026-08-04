@@ -1,18 +1,4 @@
-﻿# Converted from: 4&A-CAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper05/raw/4%26A-CAD.ANS
-# Source Revision: archive-sha256:33fac09b0787230492798535c47bf2642ecf35522de5af17dfe59b662d1606a6
-# Source SHA-256: ddacbefe06b3477b0f4b2de78ee67f66b557a47618298148a91ad006ff5d961d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 4&A-CAD.ANS by Aesthetic + Avenging Angel (the jasper project); released in jasper05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: CHAOS A.D (request for c4nn)
-# SAUCE Author: fourty 3 & aye-v-gee
-# SAUCE Group: the jasper project
-# SAUCE Date: 20020412
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: CHAOS A.D (request for c4nn) by Aesthetic + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper05-4-a-cad
 
 Write-Host '
 [1;31m▓▓▓▓▓[0;1;31;41m▄▄▄[0;1;31;47m▀ [0;1;37;40m▒▒▒[0;1;31;41m█[0;31m████[0;1;31;41m▀[0;31m█[0;1;31;41m▄█[0;1;31;47m▀▀[0;1;31;41m█[0m [32m▀[0;1;32m▀[0m [31m▄▄▄[0;1;31;41m▄[0;1;31;47m▀[0;1;37;40m▒▒▒[0;31m█▓▓[0;1;31m▒▒▓▓[0;1;31;41m▓▓[0;1;31;47m▓▓ ▀[0;1;31;41m▄[0m  [1;31m▒[0;1;31;47m▓▒▒▀[0;1;31;41m▄[0;31m██[0;1;31;41m▄[0;1;31;47m▀▓[0;31m▓[0;37m [0;31m░▓█[0;1;31;41m█[0;1;37;40m▒▒[0;1;31;47m▀[0;1;31;41m▄[0;31m█▄[0m

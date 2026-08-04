@@ -1,13 +1,4 @@
-﻿# Converted from: NBM-CYBE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-003/raw/NBM-CYBE.ANS
-# Source Revision: archive-sha256:de78ce19727ea90c75e1ecc7f5b4d900676dc27b4dceb8a870f61665ee210859
-# Source SHA-256: f3cf3a5f263993de968c40d3a4f81ccccb981fcb2c4bd521d074b62221b94997
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NBM-CYBE.ANS by Niobium (rare-003); released in rare-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: NBM-CYBE.ANS by Niobium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-003-nbm-cybe
 
 Write-Host '
                                     [1;31m   [0m                                [1;31m   [0;1;30m,[0;31m$[0;1;30m;[0;1;31m   [0m

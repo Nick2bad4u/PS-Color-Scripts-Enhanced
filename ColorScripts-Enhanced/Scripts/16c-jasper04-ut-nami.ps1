@@ -1,18 +1,4 @@
-﻿# Converted from: UT-NAMI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper04/raw/UT-NAMI.ANS
-# Source Revision: archive-sha256:80df5b962e79c7e1df6d776b244f2783526ab7713c133db68d5f1c8d518678b1
-# Source SHA-256: e2826b9e69e2918b86d3ed655f0351af5b1a9b620829e424110b044c74ff1216
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UT-NAMI.ANS by untamed (jasper); released in jasper04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: namistai bbs
-# SAUCE Author: untamed
-# SAUCE Group: jasper
-# SAUCE Date: 20020326
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: namistai bbs by untamed | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper04-ut-nami
 
 Write-Host '
 [31m     ▄▄[0;1;31m▄▄[0;1;31;41m░░[0;31m█▄▄▄▄░[0;37m     [0;31m░▓▀▀▄▄▄[0;37m    [0;1;31m [0m [1;31m     ▓▌      [0;31m     ▄▄▄▀▀░ [0;1;37m [0m▄▄▄▄[1;47m░▓[0;1;40m█████[0;1;47m█[0;1;40m▓▓▒░░░ [0m

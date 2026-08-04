@@ -1,18 +1,4 @@
-﻿# Converted from: FV-FUBAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0402/raw/FV-FUBAR.ANS
-# Source Revision: archive-sha256:19898cc2febb6deadccf50832dc421b4f362a33c899e27278bafd225bbc2d4d4
-# Source SHA-256: 0f715e28f2398f087a0906ddbae6f16e7742e08c2bdf9ccf48e4bf1153f4cb22
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-FUBAR.ANS by the creep fever (revival); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fubar font
-# SAUCE Author: the creep fever
-# SAUCE Group: revival
-# SAUCE Date: 20020408
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: fubar font by the creep fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0402-fv-fubar
 
 Write-Host '
 

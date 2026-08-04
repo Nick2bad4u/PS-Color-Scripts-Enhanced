@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-21MX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-1096/raw/ZII-21MX.ANS
-# Source Revision: archive-sha256:73b0e2918c9e3daef978e4ff1f97345c8d9080edab06ce99d8d8ee6a5fb0b3de
-# Source SHA-256: 1c48aae45c9cc3afc98e25879eb12aae742c3282a9f89e283bc8b280567e724e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-21MX.ANS by Zeus II (Opium); released in opx-1096 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Matrix for ITC 2.1
-# SAUCE Author: Zeus II
-# SAUCE Group: Opium
-# SAUCE Date: 19960928
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Matrix for ITC 2.1 by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-1096-zii-21mx
 
 Write-Host '
 [1;30m▄████████[0m [1;30m▀▌▀█▄██████▓███▀▀[0m [32m▄▄▄[0;1;32;42m▒▒▒▒▒[0;32m▄▄▄[0;37m [0;1;30m▀▀█▀▀▀▀▀▀████▄[0m  [1;30m▀[0m [1;30m▄█▀░[0m [1;30m▀[0;1;30;47m▓[0;1;30;40m▀[0m [1;30m▀█▀▀▀▀▀████[0;1;30;47m█[0;1;30;40m█[0m

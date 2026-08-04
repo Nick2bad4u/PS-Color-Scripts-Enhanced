@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-COLOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-1296/raw/IZ-COLOR.ANS
-# Source Revision: archive-sha256:335d72ea88974be53669cf31a72ea37012b04dc993bc1fa4727d94939a55db7e
-# Source SHA-256: a931654e8080a6e9ae29c04429a4e4055487ac44e613a0ec94410196c4ad678f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-COLOR.ANS by ize (fusion); released in fsn-1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: color shock
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19961110
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: color shock by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-1296-iz-color
 
 Write-Host '
 

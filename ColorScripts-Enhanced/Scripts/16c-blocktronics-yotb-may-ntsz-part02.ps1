@@ -1,19 +1,4 @@
-﻿# Converted from: may-ntsz.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_yotb/raw/may-ntsz.ans
-# Source Revision: archive-sha256:f702f09f6116b5ac6fa523d36f54d796db6f44f880e4f1cd426d29a9fbda605e
-# Source SHA-256: be6b0a3706fe6d5fd80c96dcd4256bb6a2c9557f909d14622da1f99f29947c1b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: may-ntsz.ans by Maytag (Blocktronics); released in blocktronics_yotb and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Nietzsche
-# SAUCE Author: Maytag
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20130528
-# SAUCE Dimensions: 80x64
-# SAUCE Font: IBM VGA
-# Lines: 35-65
-# Columns: 1-80
+﻿# Artwork: Nietzsche by Maytag | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-yotb-may-ntsz-part02
 
 Write-Host '
                    ▄[1m▒[0m▀▄    ▀ ▀█[1;47m░░░[0m▀░░   [1;30m [0m▀▀▀▄▄█[1;47m░▓█████▓░░[0m▓  [1;30m▀[0;1;37;47m▀▀[0m█

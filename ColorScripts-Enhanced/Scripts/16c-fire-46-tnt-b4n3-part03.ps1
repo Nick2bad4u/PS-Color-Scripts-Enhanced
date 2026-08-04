@@ -1,19 +1,4 @@
-﻿# Converted from: TNT-B4N3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-46/raw/TNT-B4N3.ANS
-# Source Revision: archive-sha256:32c189dd42ed53f66ce0b86a88ea8027caddc32faf4da7cee2e674d9223cb9f4
-# Source SHA-256: 459f2afb3e2d376a8d88e7aada607520975f6838e454c0ed5bbaab4615b6e370
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNT-B4N3.ANS by tainted (FiRE); released in fire-46 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: absinthe 2
-# SAUCE Author: tainted
-# SAUCE Group: FiRE
-# SAUCE Date: 20260707
-# SAUCE Dimensions: 80x125
-# SAUCE Font: IBM VGA
-# Lines: 101-125
-# Columns: 1-80
+﻿# Artwork: absinthe 2 by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-46-tnt-b4n3-part03
 
 Write-Host '
      [36m▄[0;37m [0;1;30m▐[0;1;30;47m▒[0m░ ▐[1;47m▒▒[0m▀▓░[1;47m░[0;46m█[0;47m█[0;1;47m░░[0m█▓▒[32m [0;37m▄[0;1;37;47m■▀░[0m▄[32m  [0;37;47m░[0;37;40m▀[0;1;32;40m  [0;1;37;47m▒░[0m█[36m [0;1;30m▒[0;36m [0;37m▐[0;1;37;47m▀░[0m▌[36m [0;1;30m█▄[0m [47m▄[0;40m█▌▄▓░░▓▓█▀[0;46m▓[0;47m▓[0;40m▓[0;1;30;40m■ [0m▓▓░[1;30m▐[0m▓▓ [36m▄[0m

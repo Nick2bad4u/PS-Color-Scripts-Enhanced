@@ -1,13 +1,4 @@
-﻿# Converted from: LQ-PIR3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p17_02/raw/LQ-PIR3.ANS
-# Source Revision: archive-sha256:35450330febdb2d142f3176c2d3c105d1528c0f63626f757e43b302b4869a22a
-# Source SHA-256: 122f3abdd50109b2a665a4a1eb364dd9512a51e46d12fcb411cff8c7cba95c02
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LQ-PIR3.ANS by Liquid (l0p17_02); released in l0p17_02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: LQ-PIR3.ANS by Liquid | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p17-02-lq-pir3
 
 Write-Host '
 [32m▐ ▄▄ ▌▀▀[0;31;42m░[0;1;32;42m▒[0;32m▓[0;31;42m░[0;32;40m▄ [0;36;40m▐[0;1;31;46m░░[0;36m█[0;36;41m▓▓[0;36;40m██[0;1;31;46m░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒░▒░░░[0;36m███▀▀▀▌[0;33m [0;32m▐[0;30;42m▓[0;33;40m [0;32;40m▄▄▒█[0;1;32;42m▒[0;32m█▓█▄▐[0;1;32;42m░░[0;30;42m░[0;32;40m▀█▓[0;1;32;42m░▓[0;32m▄[0;1;32;42m░[0;32m ▐▌[0m

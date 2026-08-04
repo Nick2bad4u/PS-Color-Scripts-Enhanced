@@ -1,19 +1,4 @@
-﻿# Converted from: tg-radu.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-globalblockdown/raw/tg-radu.ans
-# Source Revision: archive-sha256:72def6914c400cf448198b2a3876b5414476d859652144a1c3db260cf8838ba8
-# Source SHA-256: a08a3725cb92bf5339a58d7dd5196a34f409eafce212a90bd272ebd677394629
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tg-radu.ans by Toon Goon (Blocktronics); released in blocktronics-globalblockdown and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Radu/Subspecies
-# SAUCE Author: Toon Goon
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20200607
-# SAUCE Dimensions: 80x149
-# SAUCE Font: IBM VGA
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Radu/Subspecies by Toon Goon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-globalblockdown-tg-radu-part01
 
 Write-Host '
 

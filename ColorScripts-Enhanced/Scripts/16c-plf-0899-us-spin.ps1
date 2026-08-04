@@ -1,18 +1,4 @@
-﻿# Converted from: US-SPIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0899/raw/US-SPIN.ANS
-# Source Revision: archive-sha256:0617fc8f8bbe2fa17749abcf8386f3d9e092bf5e07b71b50ee42b85b712bb9fc
-# Source SHA-256: 65e99ddc1b446613d7b64a244669ef345e150671055cc76ce11f287d1d3c33ec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SPIN.ANS by Spear + Toot (poffelipoff); released in plf-0899 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the spin
-# SAUCE Author: spear and toot
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19990722
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: the spin by Spear + Toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0899-us-spin
 
 Write-Host '
        [33m   ▄[0;1;33m▄[0;33m▀ ▄[0;1;33m▄▄[0;1;33;43m▄▓[0;33m▀[0;1;33m▄▄[0m      [1;30m▌[0;34m░░[0m      [33m░░[0m         [33m [0m             [33m▀ [0;1;33m▄[0;33m▄[0m

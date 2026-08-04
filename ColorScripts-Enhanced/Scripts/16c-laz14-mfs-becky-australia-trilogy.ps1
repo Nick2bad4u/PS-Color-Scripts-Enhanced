@@ -1,19 +1,4 @@
-﻿# Converted from: mfs-Becky-Australia-Trilogy.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz14/raw/mfs-Becky-Australia-Trilogy.ans
-# Source Revision: archive-sha256:41b4e3770fbffb058172283f3da2aa00e47c872480cf93fdef94629ebc0751bb
-# Source SHA-256: 1c0ab8ebc843e0ded1ab2d63f225496cd036d3c02f0a2fe4e277b33eb7d041ae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mfs-Becky-Australia-Trilogy.ans by Mel Farr Suppastar (Lazarus); released in laz14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Becky Australia Trilogy
-# SAUCE Author: Mel Farr Suppastar
-# SAUCE Group: Lazarus
-# SAUCE Date: 20211113
-# SAUCE Dimensions: 60x39
-# SAUCE Font: IBM EGA
-# Lines: 1-39
-# Columns: 1-60
+﻿# Artwork: Becky Australia Trilogy by Mel Farr Suppastar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz14-mfs-becky-australia-trilogy
 
 Write-Host '
 [1;30;106m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m

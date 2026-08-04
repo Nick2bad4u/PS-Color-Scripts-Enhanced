@@ -1,17 +1,4 @@
-﻿# Converted from: GR-ISTAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rune0596/raw/GR-ISTAR.ANS
-# Source Revision: archive-sha256:c40af7cce2fda0097342df4e5eb7be40c9db81ab1e19f7ebbea60ac9c39a1908
-# Source SHA-256: 2787c645c40f8b70062a56293234205071c0e52dd64634326a49cddbd440d892
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GR-ISTAR.ANS by gunthar (rune); released in rune0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: istar
-# SAUCE Author: gunthar
-# SAUCE Group: rune
-# SAUCE Date: 19960501
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: istar by gunthar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rune0596-gr-istar
 
 Write-Host '
 [1;31m▄[0;1;31;41m█▓▀▀▀[0;1;31;40m▀[0;1;31;41m▀░▀░░[0;31m███[0;1;31;41m░[0;31m███████▓▄[0;1;31;41m░░[0;31m▓▓▀▀░░ ░[0m     [33m▄▄[0;1;31m▄▄▄▄▄▄▄▄ [0;31m░▀▀▀[0;31;41m   [0;1;31;41m░░[0;31m▄▄▄░   [0;1;30m░ ░░▓█▀ ░ ░░[0m

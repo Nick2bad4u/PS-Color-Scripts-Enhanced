@@ -1,17 +1,4 @@
-﻿# Converted from: 16_ADIOS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-sztuka/raw/16_ADIOS.ANS
-# Source Revision: archive-sha256:0ffb741cd09291626fd3edf310ba81b97a9ab070084b42833e9f92283ec8eb39
-# Source SHA-256: c17da442ed27c955e894abb0cef86f9847f86bd904641955fb129a6c26e60e6a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 16_ADIOS.ANS by Dieznyik (Klexikal); released in k-sztuka and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: Dieznyik
-# SAUCE Group: Klexikal
-# SAUCE Date: 19990415
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: 16_ADIOS.ANS by Dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-sztuka-16-adios
 
 Write-Host '
 [1;31m[0m[1;31m[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: H7-SENS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense10j/raw/H7-SENS2.ANS
-# Source Revision: archive-sha256:79b287d3b8a2f4ceb916c80975416d0ea3340c57dd3b4333f96895fc037bee42
-# Source SHA-256: f6d605ef3f0760f95b7204fc3c8e46c09be1c46dc6c32b82b84b58b94f57dc83
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: H7-SENS2.ANS by H7 (sense10j); released in sense10j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: H7-SENS2.ANS by H7 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense10j-h7-sens2
 
 Write-Host '
 

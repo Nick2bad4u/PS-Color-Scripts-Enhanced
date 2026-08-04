@@ -1,17 +1,4 @@
-﻿# Converted from: NE-GIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-21/raw/NE-GIN.ANS
-# Source Revision: archive-sha256:d980c3e2187ff0ef4bb9edce960381dc01c8374df0b01b4ddb8d104484f4b936
-# Source SHA-256: a2dcf205ed118331f4bd5f6f54d00c23a9ec97a964160e776c689baf8d6bd900
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NE-GIN.ANS by Nemo (AWE Lettering); released in awe-21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Gin & Juice & Indo
-# SAUCE Author: Nemo
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Gin & Juice & Indo by Nemo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-21-ne-gin
 
 Write-Host '
                          [34m_.,[0;1;31mññ[0m   [1;31m__[0;34m__[0;1;31m__[0;34m_[0m          [34m_[0m             [1;31m_.[0;34myy[0m

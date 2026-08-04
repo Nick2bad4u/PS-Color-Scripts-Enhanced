@@ -1,16 +1,4 @@
-﻿# Converted from: N!Z-ERDE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0297/raw/N!Z-ERDE.ANS
-# Source Revision: archive-sha256:2e15cb2f2712a143323c9f3c6ecca94c5b5b12a452a019e911d205dd685c6eee
-# Source SHA-256: 2cdf5c1c97595b4cbf767f6f1be761ddcd80272480f877dad90e312a79c3c03d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N!Z-ERDE.ANS by noize (phat studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: erde-screen
-# SAUCE Author: noize
-# SAUCE Group: phat studios '97
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: erde-screen by noize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0297-n-z-erde
 
 Write-Host '
 [1;31;41m:::[0;33;41m─[0;1;31;41m:[0;33;41m──[0;1;37;41mg[0;33;41m─[0;1;31;41m:[0;33;41m──────[0;1;37;41mc[0;33;41m─────[0;1;31;41m:[0;33;41m─[0;1;35;41m░░[0;33;41m─────[0;1;31;41m²²²▀▀▀▀▀███▓▓█▀▀▀██████▓▓▀▀▀▀▀▓▓███▀▀███[0;1;35;41m░░[0;1;31;41m██░░███[0m

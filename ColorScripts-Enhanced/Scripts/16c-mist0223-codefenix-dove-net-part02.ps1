@@ -1,19 +1,4 @@
-﻿# Converted from: CODEFENIX-DOVE-NET.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0223/raw/CODEFENIX-DOVE-NET.ANS
-# Source Revision: archive-sha256:f6abf3bbd53eb017898fa84b28d2ac43fcb70297788ba675e470ca73794cbbfd
-# Source SHA-256: 920e011404b9f73a86b91d51441460c645aad1892c0803079efbe2930c80ee97
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CODEFENIX-DOVE-NET.ANS by CodeFenix (Mistigris); released in mist0223 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: DOVE-Net logo package
-# SAUCE Author: CodeFenix
-# SAUCE Group: Mistigris
-# SAUCE Date: 20230227
-# SAUCE Dimensions: 80x99
-# SAUCE Font: IBM VGA
-# Lines: 49-98
-# Columns: 1-80
+﻿# Artwork: DOVE-Net logo package by CodeFenix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0223-codefenix-dove-net-part02
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: KM-ACID1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0694/raw/KM-ACID1.ANS
-# Source Revision: archive-sha256:f26eea3d1c8de7b926bd6f420e787345fadf7a72d1ec8422609f01c663360b65
-# Source SHA-256: 9ec89a4c08ae5a82331c07268e4f4711825148a02b929ad9eaf363650decbcc5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KM-ACID1.ANS by King Midas (ACiD Productions); released in acdu0694 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: "We're All F*cked Up"
-# SAUCE Author: King Midas
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940601
-# SAUCE Dimensions: 80x61
-# Lines: 26-61
-# Columns: 1-80
+﻿# Artwork: "We're All F*cked Up" by King Midas | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0694-km-acid1-part02
 
 Write-Host '
                  [37m▄▄▄[0m              [37m▄[0;1;37;47m▄[0m▄ [1;31;47m▄[0;1;31;41m▀[0;31m█▀▄ [0;1;31m▀[0m▄[1;47m▄▄[0m▄           [1;31m▀[0;1;31;41m▀▀▀▀[0;31m▀ [0;1;37m▀[0;1;37;47m▄[0m▄

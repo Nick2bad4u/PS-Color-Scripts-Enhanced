@@ -1,13 +1,4 @@
-﻿# Converted from: WI-FF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moi-0197/raw/WI-FF.ANS
-# Source Revision: archive-sha256:fe57e3906e31d2dba15217b85af3203ddf959760df0938928ddd718198829839
-# Source SHA-256: 23ca0104af2eb992fe16acedfa92eade99df16e05c9ec01e8d710e30355dc09a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WI-FF.ANS by Wizard (moi-0197); released in moi-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: WI-FF.ANS by Wizard | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moi-0197-wi-ff
 
 Write-Host '
 

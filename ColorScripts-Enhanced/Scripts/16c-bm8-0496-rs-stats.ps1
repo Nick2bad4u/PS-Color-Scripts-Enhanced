@@ -1,18 +1,4 @@
-﻿# Converted from: RS-STATS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bm8-0496/raw/RS-STATS.ANS
-# Source Revision: archive-sha256:6a20500f0b019daf8b74b1011f4e13acdbac779a421770d34d848962bd1ba353
-# Source SHA-256: a4bd41e680124d4c074e27d53279931540ac90c9c0352a7cd804722ced5c4ca7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-STATS.ANS by RaSCaL (BLACK MAiDEN); released in bm8-0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Free User-Stats!
-# SAUCE Author: RaSCaL
-# SAUCE Group: BLACK MAiDEN
-# SAUCE Date: 19960420
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Free User-Stats! by RaSCaL | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bm8-0496-rs-stats
 
 Write-Host '
 [1;30m■▄[0m  [1;30m▄▀■[0m   [1;34m▄[0;34m▄▄█▀ ▄[0;1;34;44m▀█[0;1;34;40m▄[0m [1;30m■▄[0m   [1m─ ─ ─────═══≡[ THE iNCREDiBLE USER ]≡═══───── ─ ─[0m  [1;30m▄■[0m

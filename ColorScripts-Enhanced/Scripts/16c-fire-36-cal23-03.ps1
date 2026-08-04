@@ -1,19 +1,4 @@
-﻿# Converted from: CAL23-03.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-36/raw/CAL23-03.ANS
-# Source Revision: archive-sha256:43e7d46e56dc094cf8502b299dcd82ee875dea0a064a36248f4e6c844180fd25
-# Source SHA-256: 7744c3dadac6564cf337ddc05babf5f8330e126f29e897cc90c93220332f3510
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CAL23-03.ANS by Filth + Necro (fire); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: IDES
-# SAUCE Author: filth & necro
-# SAUCE Group: fire
-# SAUCE Date: 20230303
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: IDES by Filth + Necro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-36-cal23-03
 
 Write-Host '
 [1;35;45m▒░[0;35m███▓▒░ [0;1;35;45m▓▒[0;35m█▒▒█▓▒[0;1;35m▐[0;1;35;45m▓░[0;35m█▒▒██▓░[0;1;35m▐[0;1;35;45m▓[0;35m▀▀█▀▀▀▀▓▓▒░ ▀▀▀▀▒▒▓▀▀▀ [0;1;35;45m▓▒░[0;35m██▓▓▒ [0;1;35;45m▓▓▒░[0;35m███▓▌ [0;1;35;45m▓▓▒░[0;35m██▓▒░[0m

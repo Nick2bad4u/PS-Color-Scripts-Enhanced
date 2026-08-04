@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-FLA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9611/raw/TNA-FLA.ANS
-# Source Revision: archive-sha256:2b73e149488dc761d99422832825743596588d59e58f9bfecfb5d0e9dbffd274
-# Source SHA-256: 8c2798b791c9e330a6155568119ad29b4f8ee3846bd0d3a2980a27fca879d2be
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-FLA.ANS by The Night Angel (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Frontline Assembly
-# SAUCE Author: The Night Angel
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961028
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Frontline Assembly by The Night Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9611-tna-fla
 
 Write-Host '
 [30m[0m[30m[0m[30m                                             [0;32m░ [0;30m                                [0m

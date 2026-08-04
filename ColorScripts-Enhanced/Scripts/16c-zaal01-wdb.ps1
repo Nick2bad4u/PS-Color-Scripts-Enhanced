@@ -1,16 +1,4 @@
-﻿# Converted from: WDB.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zaal01/raw/WDB.ans
-# Source Revision: archive-sha256:0f9fad95be99ccdc16490741412db1096a9afeb8f5d81759a892dc543004c13c
-# Source SHA-256: ae836226ddfdcf0b6329a77c8dd3f5e7f19047deda621a7656380f5483b26661
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WDB.ans by Zaal (zaal01); released in zaal01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 20210919
-# SAUCE Dimensions: 80x30
-# SAUCE Font: IBM VGA
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: WDB.ans by Zaal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zaal01-wdb
 
 Write-Host '
                                       [1;31;40m_[0m

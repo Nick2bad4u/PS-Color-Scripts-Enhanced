@@ -1,17 +1,4 @@
-﻿# Converted from: CPH-JUST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-012/raw/CPH-JUST.ANS
-# Source Revision: archive-sha256:4b822377f08e44404edc6b006616be9a58b9ffc0848d36336fc9de37f7065343
-# Source SHA-256: 4d8b49450397cddee92ca9285ed273bfd0b1e1a7036cdc4255c28c5c24d51df4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-JUST.ANS by cyberpunch (rIb); released in rib-012 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: cyberpunch
-# SAUCE Group: rIb
-# SAUCE Date: 19980817
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: CPH-JUST.ANS by cyberpunch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-012-cph-just
 
 Write-Host '
          [35m░░░░[0;37m  [0;35m░[0m         [35m░▀[0;37m [0;35m▄[0;37m  [0;35m░░░░░[0m           [35m░[0m

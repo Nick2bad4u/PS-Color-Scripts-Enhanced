@@ -1,13 +1,4 @@
-﻿# Converted from: UC-CIRC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe01/raw/UC-CIRC1.ANS
-# Source Revision: archive-sha256:0b64c26f533b8c11a1aca04e7dcc1e21d4b014c2d6532ba66a48148862d54cb2
-# Source SHA-256: 45e83273faa9cf5db5b233d405bdd357c7aa8bece2d6565eb55729e807466bc1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UC-CIRC1.ANS by Uctumi (circe01); released in circe01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: UC-CIRC1.ANS by Uctumi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe01-uc-circ1
 
 Write-Host '
                                                    [1m▐[0m

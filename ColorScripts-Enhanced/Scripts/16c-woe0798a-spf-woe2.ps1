@@ -1,18 +1,4 @@
-﻿# Converted from: SPF-WOE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/woe0798a/raw/SPF-WOE2.ANS
-# Source Revision: archive-sha256:2188d0bbaf1192d032eaa1d7cdc4402fb0f0e32dcd77bb780a11ec762d5a8a04
-# Source SHA-256: dbb692535aa9b775f877cd264c22e2c6311bd762fc3671ef6eeb0cc467740384
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPF-WOE2.ANS by [sPITFIRE] (wOE!); released in woe0798a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: woezine#
-# SAUCE Author: [sPITFIRE]
-# SAUCE Group: wOE!
-# SAUCE Date: 19980711
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: woezine# by [sPITFIRE] | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-woe0798a-spf-woe2
 
 Write-Host '
  [1;30m    [0m  [1;30m           [0m  [1;32m [0;32m  [0;1;30m  [0m      [31m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;31m▀[0m     [1;30m░░[0;36m [0;37m   [0;1;30m              [0m [1;30m [0m

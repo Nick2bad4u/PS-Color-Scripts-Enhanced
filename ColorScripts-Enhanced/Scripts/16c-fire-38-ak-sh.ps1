@@ -1,19 +1,4 @@
-﻿# Converted from: AK-SH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-38/raw/AK-SH.ANS
-# Source Revision: archive-sha256:be80154150e87c06a8a7199ad7b8d7442acd5427250f57c89a783b9de15c69d7
-# Source SHA-256: e0519dfe84479e992d4093925e9d2e5a0a15db9baa425d1337dda1bae10cfc76
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-SH.ANS by abstrakt (fire); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: splatter haus
-# SAUCE Author: abstrakt
-# SAUCE Group: fire
-# SAUCE Date: 20231030
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: splatter haus by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-38-ak-sh
 
 Write-Host '
                              [31;40m.[0m                  [31;40m.[0m               [31;40m.  .[0m

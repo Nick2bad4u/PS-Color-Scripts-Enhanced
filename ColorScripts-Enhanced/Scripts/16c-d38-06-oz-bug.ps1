@@ -1,18 +1,4 @@
-﻿# Converted from: OZ¬BUG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-06/raw/OZ%C2%ACBUG.ANS
-# Source Revision: archive-sha256:4c9f598b864a923147eb394591cb120a43a087e70e3844ab4ff73e06903fa178
-# Source SHA-256: f430018dd3b046b7af8c9b9dd9af1a92996723ba92402252ab7cfcae9714bab8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OZ¬BUG.ANS by lOO(ze) (tri-Oct); released in d38-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: squaSh them!!... grrr
-# SAUCE Author: lOO(ze)
-# SAUCE Group: tri-Oct
-# SAUCE Date: 19970511
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: squaSh them!!... grrr by lOO(ze) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-06-oz-bug
 
 Write-Host '
                       [30;46m▓▓[0;36;40m░[0m

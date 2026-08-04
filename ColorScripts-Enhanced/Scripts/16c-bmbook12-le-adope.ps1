@@ -1,18 +1,4 @@
-﻿# Converted from: LE-ADOPE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook12/raw/LE-ADOPE.ANS
-# Source Revision: archive-sha256:ec66f5bb4ed961133c52314c375d67af30a5295789eb6bfc6eda91ebf8999fc2
-# Source SHA-256: 8a2c3f52f55aed6e0991a3edc7dfe4f4a7265ee90c8fcd1635d0f972ebbfe27e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LE-ADOPE.ANS by leonardo (black maiden); released in bmbook12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: artificial dope
-# SAUCE Author: leonardo
-# SAUCE Group: black maiden
-# SAUCE Date: 19970228
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: artificial dope by leonardo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook12-le-adope
 
 Write-Host '
 [1;36mA[0m  [1;36m [0m     [1;30m░[0m [1;30m░[0m  [1;30m░[0;1;37m░█▄[0m▄▄[30;45m▓[0m                   [37;40m   [0;32;40m░[0m        [32;40m▓[0;1;32;40m▄▄▄[0;1;32;46m▓▀[0;1;33;42m▓▀▀[0;1;33;43m▄[0;1;33;41m▄[0;1;37;40m▄▄[0;31m [0m

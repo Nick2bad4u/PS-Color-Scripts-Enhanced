@@ -1,19 +1,4 @@
-﻿# Converted from: sm-dreamland.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel26/raw/sm-dreamland.ans
-# Source Revision: archive-sha256:d10918a36531171a7bd7de77ac2a92891100e4055d3be9227ebf98ff3c0d1cc3
-# Source SHA-256: e8d02df94afc7236685c8e2fb4f2d8873ee0865db86e21bb1d182cb28d0ab6fd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sm-dreamland.ans by Smooth + Sudden Death (FUEL); released in fuel26 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Dreamland
-# SAUCE Author: smooth
-# SAUCE Group: FUEL
-# SAUCE Date: 20170306
-# SAUCE Dimensions: 80x260
-# SAUCE Font: IBM VGA
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Dreamland by Smooth + Sudden Death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel26-sm-dreamland-part01
 
 Write-Host '
 [34;40m░░░░░░░░░░░░░░░░░░░▒▒▒▒▒▒▓▓▓█[0;1;34;44m░░[0;34m██[0;1;34;44m░[0;34m███████████████████▓▓▓▓███████████▒▒░░░░░░░░░░[0m

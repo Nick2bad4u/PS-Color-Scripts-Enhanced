@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-GHST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-1098/raw/OUT-GHST.ANS
-# Source Revision: archive-sha256:bdb7abb87e526c06fbf70b194bc9ec3dc15d07ed529ff67dc8218e345c7b357a
-# Source SHA-256: 51e2668d150c9231fac60ec04133afd217d1b85e8d7cc19b532b1a4dea245c01
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-GHST.ANS by Sandy Chidester (out-1098); released in out-1098 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: OUT-GHST.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-1098-out-ghst
 
 Write-Host '
                                                      [1m▄▄████████▄▄[0m

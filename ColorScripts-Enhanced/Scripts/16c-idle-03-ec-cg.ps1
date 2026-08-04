@@ -1,18 +1,4 @@
-﻿# Converted from: EC-CG!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/idle-03/raw/EC-CG!.ANS
-# Source Revision: archive-sha256:de0b9b28f255e1cb9ab562a1ef9b6f1152dc7f06e952e19862071341f6d6c4c3
-# Source SHA-256: 82ac4e8fa721afe1603021815821395811436cfa2a2a0bef6fb2ddae1f28d1df
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EC-CG!.ANS by eclipse (idle); released in idle-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: cyber gateway
-# SAUCE Author: eclipse
-# SAUCE Group: idle
-# SAUCE Date: 19961002
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: cyber gateway by eclipse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-idle-03-ec-cg
 
 Write-Host '
       [31m▄[0;37m [0;31m■[0;37m  [0;31m ▄▌▐[0;1;31;41m░[0;31m▄[0;37m  [0;31m▄▀[0;37m  [0;31m▄▄▄[0;37m [0;31m■▄▄   [0;37m [0;31m▄[0;37m [0;31m■[0m   [31m ▄[0m      [31m▄[0m      [31m ▄[0;37m [0;31m ▄▄ [0m   [31m▄[0m       [31m ▄▄▄ [0m

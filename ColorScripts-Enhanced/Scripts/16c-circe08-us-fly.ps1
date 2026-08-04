@@ -1,17 +1,4 @@
-﻿# Converted from: US-FLY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe08/raw/US-FLY.ANS
-# Source Revision: archive-sha256:cfc36d5daeed2f6543814097ace687f378a50215c24a95a0de66b512e3a41b9d
-# Source SHA-256: 77f441f0c31ab08a28a5487f73629575284b0726d37330ccf7c24ac6131a055e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FLY.ANS by Arlequin + Slackzor (circe); released in circe08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: FLY
-# SAUCE Author: slackzor+ arlequin
-# SAUCE Group: circe
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: FLY by Arlequin + Slackzor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe08-us-fly
 
 Write-Host '
                   [34m  ▄▄▄███[0;1;34m▒▒▒▒[0;1;30m███▄▄▄[0;1;34m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: TH!TABS!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twat0898/raw/TH!TABS!.ANS
-# Source Revision: archive-sha256:0cfb9e5214b9f4b7e848adb2e6e35e5cd77ea07127cdeac90929316a6da2cd99
-# Source SHA-256: cfe9bf13681c08829e920bea97f3bf3780554abbe398759c5c6d2e7edb1d2d2d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH!TABS!.ANS by THiNK (THE S.S.!); released in twat0898 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: TABS LOGO!
-# SAUCE Author: THiNK
-# SAUCE Group: THE S.S.!
-# SAUCE Date: 19980726
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: TABS LOGO! by THiNK | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twat0898-th-tabs
 
 Write-Host '
 [1;30m.sS#░░▓█░▓█#$%!$#@$!%!$!#$$%^$%^$%!@$@!#$@#$!#!$!#$!@#$!@$!@#$#@$!#$%!!#$!#@$Ss.[0m

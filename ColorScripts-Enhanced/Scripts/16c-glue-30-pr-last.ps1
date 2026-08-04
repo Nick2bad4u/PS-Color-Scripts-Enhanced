@@ -1,18 +1,4 @@
-﻿# Converted from: PR-LAST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-30/raw/PR-LAST.ANS
-# Source Revision: archive-sha256:962f4152a816a0536caf737c5088d0ec7bfe2e6c336907de4a27279b60da424e
-# Source SHA-256: e08ae94df7c23b111fc11b03d8bace29d631e478c2627ba192982f68c61cf8c2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR-LAST.ANS by president (glue); released in glue-30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: last man standing
-# SAUCE Author: president
-# SAUCE Group: glue
-# SAUCE Date: 20000125
-# SAUCE Dimensions: 80x26
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: last man standing by president | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-30-pr-last
 
 Write-Host '
 [1;47m░▄▄[0;1;40m█[0;1;47m▄[0;1;40m██[0;1;33;40m█[0;1;30;40m  [0m▓▄[1;30m     ▄█▄[0;1;30;47m░[0m▄[1;33m▄[0m▄[1;30m    ▄▄█▀▀▀[0m▄[1m▄[0;36m [0;1;30m   [0m▀▀▀[1;30;47m░[0m▄█▀[1;30m [0m▀[1;30m   [0m

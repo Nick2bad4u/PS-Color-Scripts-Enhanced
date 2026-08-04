@@ -1,20 +1,4 @@
-﻿# Converted from: NI-BLND0123.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2023a/raw/NI-BLND0123.ANS
-# Source Revision: archive-sha256:7bc66b402c6ecbb0a3d7da712390840d202c88fb2fe0c40fdd417fcec6520299
-# Source SHA-256: a1175a0000418fcfc6c4a44074bcbf9b3303a4d334f719c3d82d89d37f25c12d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-BLND0123.ANS by nitron (blender); released in blndr2023a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Day the Scene Stood Still
-# SAUCE Author: nitron
-# SAUCE Group: blender
-# SAUCE Date: 20230122
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Blender Jan 2023 HIPPIES / FEEDING FRENZY / ALIEN INVASION
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: The Day the Scene Stood Still by nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2023a-ni-blnd0123
 
 Write-Host '
 [1;34m▓▓▓[0;1;34;44m███████████████████████[0;1;34;40m▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

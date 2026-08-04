@@ -1,18 +1,4 @@
-﻿# Converted from: CO-PC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bdp-1095/raw/CO-PC.ANS
-# Source Revision: archive-sha256:feca90fbda9a493f724051c182ee8aa6f2f59439eb2bccc041124e296fb1d619
-# Source SHA-256: 442bd75041035f46cf039354c1c9e0f59511de9a60b4e377ceff3026577fe990
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CO-PC.ANS by Coeffey (Bdp); released in bdp-1095 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Paradise City
-# SAUCE Author: Coeffey
-# SAUCE Group: Bdp
-# SAUCE Date: 19950930
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Paradise City by Coeffey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bdp-1095-co-pc
 
 Write-Host '
 [1;30;47m▓▄▄[0;1;30;40m█▄[0;1;30;47m▓▄▄[0;1;30;40m█▄[0;1;30;47m▓▄▄[0;1;30;40m█▄[0;1;30;47m▓▄▄[0;1;30;40m█▄[0;1;30;47m▓▄▄[0;1;30;40m█▄[0;1;30;47m▓▄▓▄▄[0;1;30;40m█▄[0;1;30;47m▓▄▄[0;1;30;40m█ [0;1;36;40m█▄[0;1;30;40m▀▄[0;1;36;40m▀███▀███████████[0;1;37;40mP[0ma[1;30mraDise [0;1;37mC[0mi[1;30mty[0;1;36m████████[0m

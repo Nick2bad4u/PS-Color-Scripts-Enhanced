@@ -1,19 +1,4 @@
-﻿# Converted from: krl-rade613_01.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz18/raw/krl-rade613_01.ans
-# Source Revision: archive-sha256:32d30452c4c99022fae4fa2ce9a2923ef46629d3ff7dd35a972944a991699c1f
-# Source SHA-256: dea897113c0bb67348fabbaf09e05de2effa330160e10450c6bdbcab6ce4d116
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: krl-rade613_01.ans by krl (Lazarus); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Rade 613
-# SAUCE Author: krl
-# SAUCE Group: Lazarus
-# SAUCE Date: 20231221
-# SAUCE Dimensions: 80x100
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Rade 613 by krl | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz18-krl-rade613-01-part01
 
 Write-Host '
                              █████    ███████[1;31;47m▀[0;1;31;40m█▀▀[0m [1;31m▄▄████████████████████████████[0m

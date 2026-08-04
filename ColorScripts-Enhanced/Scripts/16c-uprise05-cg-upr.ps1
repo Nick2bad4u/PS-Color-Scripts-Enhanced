@@ -1,13 +1,4 @@
-﻿# Converted from: CG-UPR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise05/raw/CG-UPR.ANS
-# Source Revision: archive-sha256:8a04f72dbd0084a3dd089505796d41f1fc098ce192bbfa410f8bc1039eb33f03
-# Source SHA-256: 823a13b55f61ec0315dd8f688e6d68bc6ef1de1cc72a32c7ec5fed1f1ed43542
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-UPR.ANS by Cryogenic (uprise05); released in uprise05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: CG-UPR.ANS by Cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise05-cg-upr
 
 Write-Host '
 

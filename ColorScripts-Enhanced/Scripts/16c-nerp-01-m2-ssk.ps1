@@ -1,17 +1,4 @@
-﻿# Converted from: M2-SSK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-01/raw/M2-SSK.ANS
-# Source Revision: archive-sha256:c4f943c9f8f5c49a2aabdd3612f9f26bd1b04de18aa8de6e38c69a3051111537
-# Source SHA-256: 8272a59e83bb04f1f85f3c686c400daacda3059018246d2bb565cc6f6c026052
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M2-SSK.ANS by mILKMAN (nerp-01); released in nerp-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Sensommar Kolly
-# SAUCE Author: mILKMAN
-# SAUCE Date: 19970715
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: Sensommar Kolly by mILKMAN | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-01-m2-ssk
 
 Write-Host '
 [1;33m[0m

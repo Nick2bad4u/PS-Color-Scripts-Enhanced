@@ -1,18 +1,4 @@
-﻿# Converted from: #M-FFOG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nh-0597/raw/%23M-FFOG.ANS
-# Source Revision: archive-sha256:87cec95111e4a1ac9fd985bbb75e4ede9867484f10b0355a7e43919af699000f
-# Source SHA-256: 52b32ec5618b28fa9d4c424e7b2a0b707bf5d728dc923f893d396418202d95ce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: #M-FFOG.ANS by milkman (nh!); released in nh-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: funeral fog
-# SAUCE Author: milkman
-# SAUCE Group: nh!
-# SAUCE Date: 19970511
-# SAUCE Dimensions: 80x13
-# Lines: 1-13
-# Columns: 1-80
+﻿# Artwork: funeral fog by milkman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nh-0597-m-ffog
 
 Write-Host '
                           [31mfUN[0;1;33;41m3R4L[0;1;33;40m![0m

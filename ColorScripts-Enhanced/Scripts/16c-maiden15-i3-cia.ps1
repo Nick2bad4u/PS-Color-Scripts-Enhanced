@@ -1,18 +1,4 @@
-﻿# Converted from: I3-CIA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden15/raw/I3-CIA.ANS
-# Source Revision: archive-sha256:9d31e45f48599318bcc19e5993ceea8ca5caccf3f774679ac18f812be66ff0b5
-# Source SHA-256: f168083c4685aa8c17893ad5b404c2beeb5a74a4ff5b4c8b347d0607320f5bbe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: I3-CIA.ANS by islayer(i3) (maiden); released in maiden15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: CiA
-# SAUCE Author: islayer(i3)
-# SAUCE Group: maiden
-# SAUCE Date: 19980514
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: CiA by islayer(i3) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden15-i3-cia
 
 Write-Host '
 [1;33m [0m           [33m   [0m         [31m      [0;1;31m▄▄[0;31m    [0;35m [0m

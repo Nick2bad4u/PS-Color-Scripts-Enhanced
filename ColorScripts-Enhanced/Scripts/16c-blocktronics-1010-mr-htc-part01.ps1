@@ -1,16 +1,4 @@
-﻿# Converted from: mr-Htc.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_1010/raw/mr-Htc.ans
-# Source Revision: archive-sha256:a99bb1826c554acf497ca2f3d3a318938bda45de706ac9decf9ca308162d3ee1
-# Source SHA-256: 83493cc0fd50dc872c6850ddd7a3f00f33b8d850f328804cab2797abfea34c30
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mr-Htc.ans by Mr Wrong (blocktronics_1010); released in blocktronics_1010 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20140307
-# SAUCE Dimensions: 80x52
-# SAUCE Font: IBM VGA
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: mr-Htc.ans by Mr Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-1010-mr-htc-part01
 
 Write-Host '
 

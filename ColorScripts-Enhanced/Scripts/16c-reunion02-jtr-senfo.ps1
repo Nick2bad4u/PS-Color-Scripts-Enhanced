@@ -1,13 +1,4 @@
-﻿# Converted from: jtr-senfo.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/reunion02/raw/jtr-senfo.ans
-# Source Revision: archive-sha256:96373910879aaeef56ec93cdb037a3ea200c9a9f2e45a43873cda58ee68480a0
-# Source SHA-256: 1e951cb1ca7b9200deea7fe05bdaa68df022e5cb2a4d31b29055d80e76973e40
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: jtr-senfo.ans by Jack The Ripper (reunion02); released in reunion02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: jtr-senfo.ans by Jack The Ripper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-reunion02-jtr-senfo
 
 Write-Host '
 [1m██████████████████████████▀▀▀[0m  [1;36m▄▄▄▄▄▄▄▄▄▄▄[0m   [1m▀▀█████████████████████████████████[0m

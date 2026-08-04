@@ -21,6 +21,24 @@ const PROVENANCE_BLOCK = `        '${NAME}' = @{
         }
 `;
 
+function createRemainingProvenance(sourceHash) {
+    return `@{
+    SchemaVersion = 3
+    Collections = @{
+        'example' = @{
+            License = 'ISC'
+        }
+    }
+    Scripts = @{
+        'remaining-example' = @{
+            Collection = 'example'
+            SourceSha256 = '${sourceHash}'
+        }
+    }
+}
+`;
+}
+
 test("assertSafeScriptName rejects paths and unsafe names", () => {
     assert.doesNotThrow(() => assertSafeScriptName(NAME));
     assert.throws(() => assertSafeScriptName("../escape"));
@@ -34,10 +52,7 @@ test("parseArguments accepts an explicit checkpoint disposition", () => {
         "--write",
     ]);
 
-    assert.equal(
-        options.checkpointDisposition,
-        "rejected-duplicate-render"
-    );
+    assert.equal(options.checkpointDisposition, "rejected-duplicate-render");
     assert.equal(options.write, true);
     assert.match(options.namesPath, /temp[\\/]removals\.json$/u);
 });
@@ -108,10 +123,7 @@ test("analysis scopes include a split family only when every sibling is removed"
         ]
     );
     assert.deepEqual(
-        getFullyRemovedAnalysisScopes(
-            ["16c-example-part01"],
-            available
-        ),
+        getFullyRemovedAnalysisScopes(["16c-example-part01"], available),
         ["16c-example-part01"]
     );
 });
@@ -119,9 +131,7 @@ test("analysis scopes include a split family only when every sibling is removed"
 test("updateCheckpoint decrements emitted counts but retains the source", () => {
     const checkpoint = {
         sixteenColors: {
-            acceptedSources: [
-                { archiveYear: 2024, sourceSha256: SOURCE_HASH },
-            ],
+            acceptedSources: [{ archiveYear: 2024, sourceSha256: SOURCE_HASH }],
             totals: {
                 acceptedSourceCount: 1,
                 dispositionTotals: {
@@ -145,7 +155,7 @@ test("updateCheckpoint decrements emitted counts but retains the source", () => 
         },
     };
     const removed = new Map([[NAME, PROVENANCE_BLOCK]]);
-    const remaining = `            SourceSha256         = '${SOURCE_HASH}'`;
+    const remaining = createRemainingProvenance(SOURCE_HASH);
     const result = updateCheckpoint(checkpoint, removed, remaining);
 
     assert.equal(result.sixteenColors.totals.emittedScriptCount, 1);
@@ -157,9 +167,7 @@ test("updateCheckpoint decrements emitted counts but retains the source", () => 
 test("updateCheckpoint rejects the final source as rejected-quality", () => {
     const checkpoint = {
         sixteenColors: {
-            acceptedSources: [
-                { archiveYear: 2024, sourceSha256: SOURCE_HASH },
-            ],
+            acceptedSources: [{ archiveYear: 2024, sourceSha256: SOURCE_HASH }],
             totals: {
                 acceptedSourceCount: 1,
                 dispositionTotals: {
@@ -186,7 +194,7 @@ test("updateCheckpoint rejects the final source as rejected-quality", () => {
     const result = updateCheckpoint(
         checkpoint,
         new Map([[NAME, PROVENANCE_BLOCK]]),
-        ""
+        createRemainingProvenance("b".repeat(64))
     );
 
     assert.equal(result.sixteenColors.acceptedSources.length, 0);
@@ -203,9 +211,7 @@ test("updateCheckpoint rejects the final source as rejected-quality", () => {
 test("updateCheckpoint records a selected duplicate-render disposition", () => {
     const checkpoint = {
         sixteenColors: {
-            acceptedSources: [
-                { archiveYear: 2024, sourceSha256: SOURCE_HASH },
-            ],
+            acceptedSources: [{ archiveYear: 2024, sourceSha256: SOURCE_HASH }],
             totals: {
                 acceptedSourceCount: 1,
                 dispositionTotals: {
@@ -231,7 +237,7 @@ test("updateCheckpoint records a selected duplicate-render disposition", () => {
     const result = updateCheckpoint(
         checkpoint,
         new Map([[NAME, PROVENANCE_BLOCK]]),
-        "",
+        createRemainingProvenance("b".repeat(64)),
         "rejected-duplicate-render"
     );
 
@@ -263,13 +269,7 @@ test("updateCheckpoint rejects unsupported dispositions", () => {
     };
 
     assert.throws(
-        () =>
-            updateCheckpoint(
-                checkpoint,
-                new Map(),
-                "",
-                "rejected-unknown"
-            ),
+        () => updateCheckpoint(checkpoint, new Map(), "", "rejected-unknown"),
         /unsupported/u
     );
 });

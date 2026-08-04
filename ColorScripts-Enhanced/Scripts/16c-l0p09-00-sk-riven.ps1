@@ -1,18 +1,4 @@
-﻿# Converted from: SK!RIVEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p09_00/raw/SK!RIVEN.ANS
-# Source Revision: archive-sha256:2d55e0471b241c84b2000d7f1ba05c65c9f1c93ead6af87d8d0b58764c2b8dba
-# Source SHA-256: 1a9abec2770907b49d67b8b604dbb232edcd548ea52e62cd45ce41c63d6f2671
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!RIVEN.ANS by sIMONkING (tHElo0p); released in l0p09_00 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: rIVEN ty nie mozesz odejsc!
-# SAUCE Author: sIMONkING
-# SAUCE Group: tHElo0p
-# SAUCE Date: 20001106
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: rIVEN ty nie mozesz odejsc! by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p09-00-sk-riven
 
 Write-Host '
                                    [33m░░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: ARL-EUPH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ltm-0002/raw/ARL-EUPH.ANS
-# Source Revision: archive-sha256:781901eb93f0cb031ec3f7b4daa19680a5eef01b4b60325740b7b545db2b86c8
-# Source SHA-256: b53a7547fe8a0acc0d595aac1700a0cd57bf3675b9815105095bb77c513fb78d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARL-EUPH.ANS by Arlequin (Lithium); released in ltm-0002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Henna          "Euphorea"
-# SAUCE Author: Arlequin
-# SAUCE Group: Lithium
-# SAUCE Date: 19970725
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Henna "Euphorea" by Arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ltm-0002-arl-euph
 
 Write-Host '
                              [31m▄▄ ░[0;30;41m▓[0m

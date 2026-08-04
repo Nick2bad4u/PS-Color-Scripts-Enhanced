@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-303.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0299/raw/BYM-303.ANS
-# Source Revision: archive-sha256:57e7c91b1786691e95d6debf77d3c8e4fd7e77416307edfb34a7cd247bdbf1c2
-# Source SHA-256: 8c94ed68d7e52855ef560883d8ed2982e27e5ba874972b229c5885ad713f9eb1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-303.ANS by bym303:a (poffelipoff); released in plf-0299 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: THE..bym303(tm)
-# SAUCE Author: bym303:a
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19990227
-# SAUCE Dimensions: 80x303
-# Lines: 44-86
-# Columns: 1-80
+﻿# Artwork: THE..bym303(tm) by bym303:a | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0299-bym-303-part02
 
 Write-Host '
 [35m  ▄▄████▀▀▀▀[0;30;47m████████[0;35;40m▄▄▄[0;30;47m████[0;35;40m▀[0;36;40m▄▄▄██[0m    [36;40m▄▄[0;1;36;46m▄▄▀[0;36m▀▀  ▄▄   ▄▄█[0;1;36;46m▄██▀█████▀▀▀[0;36m██▀▀▀▄  ▄▄   [0;1;30m▄[0m

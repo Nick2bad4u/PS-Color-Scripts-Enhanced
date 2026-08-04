@@ -1,19 +1,4 @@
-﻿# Converted from: cat-EVERYROSE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_acid_trip/raw/cat-EVERYROSE.ANS
-# Source Revision: archive-sha256:c0717ff5cb7d462ed7fa9a55edd7235adbd3f09e01132486021497c9281171b6
-# Source SHA-256: 4734b01218402313ca0525f67a23599a8cd0c1a3abb8ca77d72c1c353c867051
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cat-EVERYROSE.ANS by Catbones + Radman + Iks (ACiD Productions); released in blocktronics_acid_trip and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Every Rose
-# SAUCE Author: Catbones
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x155
-# SAUCE Font: IBM VGA
-# Lines: 40-78
-# Columns: 1-80
+﻿# Artwork: Every Rose by Catbones + Radman + Iks | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-acid-trip-cat-everyrose-part02
 
 Write-Host '
 [32;40m [0;1;37;41m▐[0;1;31;40m█[0;1;31;41m▓ [0;31m█▓▓ [0;37m▄[0;1;37m█[0;1;37;41m▓[0;1;31;41m█[0;31m███▓▓▒░░░▒█▒▓▓▓▓▓▓█[0;1;31m░█[0;31m▓▓█▒██ [0;1;31m▀█░ [0;31m░░░▓█[0;1;31m█[0;31m▓ [0;1;30m▐█ [0;32m▀▓██▓▄▄▄█[0;1;32;42m▀[0;1;30;42m▒[0;1;30;40m ██▓█▓██ [0;1;30;42m▓ [0;32m█▌[0m

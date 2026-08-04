@@ -1,18 +1,4 @@
-﻿# Converted from: AN-BIB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-02/raw/AN-BIB.ANS
-# Source Revision: archive-sha256:858a1e4b95c8b301fd8a167aace5874339b6be7ce2ab7716a34c2982e7cd8c00
-# Source SHA-256: e52d69c2c5503e09c2b0204f29171abb7d92f4a0db3e55f75becbcf5918dcde5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AN-BIB.ANS by ANuBiS (FORCe); released in force-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: BaPTiSeD iN BLooD
-# SAUCE Author: ANuBiS
-# SAUCE Group: FORCe
-# SAUCE Date: 19950521
-# SAUCE Dimensions: 80x146
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: BaPTiSeD iN BLooD by ANuBiS | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-02-an-bib-part01
 
 Write-Host '
 [35m[0;37m[0m[37m[0;31m[0;37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m[37m[0m                                             [1;30m [0;33m       ▄▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄       [0m

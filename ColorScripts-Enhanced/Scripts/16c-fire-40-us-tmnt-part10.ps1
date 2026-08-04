@@ -1,19 +1,4 @@
-﻿# Converted from: US-TMNT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-40/raw/US-TMNT.ANS
-# Source Revision: archive-sha256:aff8105c0a955ac5c43ea367a02b086cd2849f6741fc41b8a5ff440b77e104a7
-# Source SHA-256: ef36ded1f5f819f9cbf2821198f8119010ecc2c2f57e30240d2a4924d4ba3ee1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TMNT.ANS by Toon Goon + Tainted + Nail (FiRE); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: TMNT
-# SAUCE Author: TNT, N!, TG
-# SAUCE Group: FiRE
-# SAUCE Date: 20240707
-# SAUCE Dimensions: 80x482
-# SAUCE Font: IBM VGA
-# Lines: 433-482
-# Columns: 1-80
+﻿# Artwork: TMNT by Toon Goon + Tainted + Nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-40-us-tmnt-part10
 
 Write-Host '
           █  [1;47m█[0m [33m▀▀▀[0;37m [0;1;37;47m▓▓[0;32m [0;1;32m█[0;1;32;42m▓[0;32m▒ ▒[0;37m [0;1;30;43m░[0;33m █ ██[0;1;31;43m░░[0;33m [0;1;31;43m░░[0;33m █[0;1;31;43m▓▓[0;33m [0;1;31;43m▓▒[0;33m [0;1;31;43m▒▓▓[0;33m [0;1;31;43m███[0;33m [0;1;31;43m██▄[0;33m [0;1;31;43m▄▄▄▄[0;33m ▄[0;1;31m▄▄▄[0;33m▄[0m

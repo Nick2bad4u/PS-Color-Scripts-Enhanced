@@ -1,13 +1,4 @@
-﻿# Converted from: LM-TS2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9612a/raw/LM-TS2.ICE
-# Source Revision: archive-sha256:4d394b60f9c715e629054db64cb8aa01a09120ffd63f7c1e537608a21d070f8a
-# Source SHA-256: dcfda1504732893b42b2c1d15c7c94ba1d10b92f276f1bc646f8d8446eb714d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LM-TS2.ICE by Lemonade (ice9612a); released in ice9612a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: LM-TS2.ICE by Lemonade | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9612a-lm-ts2
 
 Write-Host '
 [31m▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄[0m            [1;30m░░ [0m [1;31m▄███[0;1;31;43m▓▓[0;1;31;40m█[0;1;31;47m█▓▓▓▓[0;1;31;40m██▀▀▀██▀▀███▄    [0;33m▀▀[0;1;31;43m▀[0;1;31;47m██[0;1;31;40m███████[0m

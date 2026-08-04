@@ -1,13 +1,4 @@
-﻿# Converted from: SRB-BEZN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-13/raw/SRB-BEZN.ANS
-# Source Revision: archive-sha256:1a2968c25b051f2b7445b499fa5cc5c82fc02017f286a7353384ed280dda5c1e
-# Source SHA-256: 0d3bb117948d7451a3ef0fa01a11974214529b45ef2a2a2d33c90b053050f14d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SRB-BEZN.ANS by Sketch Rimanez (sclr-13); released in sclr-13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 47-93
-# Columns: 1-80
+﻿# Artwork: SRB-BEZN.ANS by Sketch Rimanez | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-13-srb-bezn-part02
 
 Write-Host '
 [1;30m;:[0m           [1;30m,[0m [1;30m,[0m  [1;30m:[0m                                                         [1;30m;[0m  [1;30m;[0m

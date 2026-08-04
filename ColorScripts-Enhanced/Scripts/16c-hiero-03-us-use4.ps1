@@ -1,18 +1,4 @@
-﻿# Converted from: US-USE4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-03/raw/US-USE4.ANS
-# Source Revision: archive-sha256:c463d41d9ae381f389778dd35b1d3ac7d9b856c30aea0076774f44c539a72586
-# Source SHA-256: 3a79b6a565f0d9a764b15b7be47a361c7480494e6c12e3330d5ea72788b7d619
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-USE4.ANS by Avenging Angel + Dissonance (Hieroglyphics); released in hiero-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Used
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20001027
-# SAUCE Dimensions: 80x38
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Used by Avenging Angel + Dissonance | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-03-us-use4
 
 Write-Host '
             [1;30m       [0m

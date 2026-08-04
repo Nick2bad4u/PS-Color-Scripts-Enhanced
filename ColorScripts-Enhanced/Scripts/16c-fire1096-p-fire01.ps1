@@ -1,18 +1,4 @@
-﻿# Converted from: P-FIRE01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1096/raw/P-FIRE01.ANS
-# Source Revision: archive-sha256:0aef116e4290fa41749730625329f38610014fc9d720313823330534bc5bca90
-# Source SHA-256: 0a18dad198b7ae16f8df4239ded153b2cb58c43fe37aa4b79fc10b37512e35e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P-FIRE01.ANS by Panacea (fire); released in fire1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fire Promotional
-# SAUCE Author: Panacea
-# SAUCE Group: fire
-# SAUCE Date: 19961010
-# SAUCE Dimensions: 80x25
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: Fire Promotional by Panacea | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1096-p-fire01
 
 Write-Host '
           [31m▄[0;37m▄▄[0;31;47m▀▀█[0;1;31;41m▄[0;31;47m█[0;1;31;41m▄▄▄▓■[0;31m▄▄▄[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: ET-TJM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0797/raw/ET-TJM1.ANS
-# Source Revision: archive-sha256:e4775a757aef4d1cbaf4afe3e80ca53c95903e66bce5b0d15425834b8d9ddb3a
-# Source SHA-256: 5d1c70ec5b7a18dc9b85025bc3d72d08adae34ffd52f071267d4e5265825c92b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ET-TJM1.ANS by Etana (MiSTiGRiS); released in mist0797 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Jade Monkey
-# SAUCE Author: Etana
-# SAUCE Group: MiSTiGRiS
-# SAUCE Dimensions: 80x25
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: The Jade Monkey by Etana | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0797-et-tjm1
 
 Write-Host '
                                                   [36m░ ░[0m

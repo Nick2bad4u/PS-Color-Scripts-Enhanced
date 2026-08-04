@@ -1,13 +1,4 @@
-﻿# Converted from: PM-WWORL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot0697/raw/PM-WWORL.ANS
-# Source Revision: archive-sha256:cd8b6827004edaee3756929e0cbb3d0ec5efd33f1ee3e0394a0ebbb56fa3c6b7
-# Source SHA-256: b48aa466e659560721f5f71d84c652e0cffa2eed7ec40459e25a4a1ea9507ef3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-WWORL.ANS by Precious Metal (riot0697); released in riot0697 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: PM-WWORL.ANS by Precious Metal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot0697-pm-wworl-part01
 
 Write-Host '
 [1;30m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m

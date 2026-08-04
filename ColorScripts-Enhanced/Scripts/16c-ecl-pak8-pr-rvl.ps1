@@ -1,18 +1,4 @@
-﻿# Converted from: PR_RVL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak8/raw/PR_RVL.ANS
-# Source Revision: archive-sha256:ced165506b655ee7f3831f87db1b8e3be54d70977e70581005d4ce6480dd88ea
-# Source SHA-256: e41bde0caee506a6205e021419e53f03ce4fb132dcbd8d03d96a85587811774f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR_RVL.ANS by president (ecolove); released in ecl-pak8 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: revolution - end of the nfo
-# SAUCE Author: president
-# SAUCE Group: ecolove
-# SAUCE Date: 19980705
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: revolution - end of the nfo by president | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak8-pr-rvl
 
 Write-Host '
     [33m▄[0;1;31m▄[0;1;31;43m▄▄[0;1;31;47m▀[0;1;31;43m█▀▀▒▄▄[0;1;31;40m▄[0;33m▄▄     [0m                      [33m [0m

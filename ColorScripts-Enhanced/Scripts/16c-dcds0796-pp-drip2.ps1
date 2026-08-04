@@ -1,18 +1,4 @@
-﻿# Converted from: PP-DRIP2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dcds0796/raw/PP-DRIP2.ANS
-# Source Revision: archive-sha256:3509ed83150d72e01cde39c5fe6c61d852f4f7285feb9d94b431cec18116688b
-# Source SHA-256: 46574c85866cc279e7ce6c0a9615a041748a6301730f35b61f0edb164a679793
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PP-DRIP2.ANS by Pixel Pusher (Decades); released in dcds0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Drip
-# SAUCE Author: Pixel Pusher
-# SAUCE Group: Decades
-# SAUCE Date: 19960628
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Drip by Pixel Pusher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dcds0796-pp-drip2
 
 Write-Host '
                   [1;34mI[0m  [34m   [0m   [1;34m▄▄[0;1;37m░[0;1;34m▀[0m         [1;34mP░[0m             [1;34mp[0m [1;34m  [0;1;36m░[0;1;34m▄    [0;1;36m  [0m    [1;34m░P[0;1;30m  [0m

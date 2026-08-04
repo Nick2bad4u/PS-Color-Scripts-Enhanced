@@ -1,18 +1,4 @@
-﻿# Converted from: CK-BAD1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9508a/raw/CK-BAD1.ICE
-# Source Revision: archive-sha256:54416a1576c73ec908d36820c781d42c70c1c703edcde9cb79ba935c77bab8d0
-# Source SHA-256: 00d5737d030242a3eaffce247004ec6c9b502d6861bd1076fd0008242c78c992
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CK-BAD1.ICE by Chromatik + Maestro (ice%prod!1995.); released in ice9508a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the badlands! ..
-# SAUCE Author: chromatik
-# SAUCE Group: ice%prod!1995.
-# SAUCE Date: 19950811
-# SAUCE Dimensions: 80x25
-# Lines: 43-85
-# Columns: 1-80
+﻿# Artwork: the badlands! .. by Chromatik + Maestro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9508a-ck-bad1-part02
 
 Write-Host '
 [36m [0;1;36m▀[0m       [36m▀  [0;1;36;46m▒▒[0m   [36m▐▓    [0;34m▄[0;1;34;44m▒▒ [0;34m▄▀▀[0m    [34m■▄[0m   [1;34m▓▓▄▄[0m  [34m▀█[0m      [1;34m▀▀[0;1;34;47m▓[0;1;34;40m▄▄█████▀[0m   [1;34;40m▄▄[0m [1;34;40m■▀▀[0m     [36m▄[0m

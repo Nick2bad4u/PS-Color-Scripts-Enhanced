@@ -1,18 +1,4 @@
-﻿# Converted from: S-UNREAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rilebrkn/raw/S-UNREAL.ANS
-# Source Revision: archive-sha256:631709d46940d5f633b8ebca426a515d51357cee4cca25bed435a2a8fbf53a10
-# Source SHA-256: cbc25acf8f4d7be93f84bfe4e94fa8049be2bb97e550a1ffd3e1403c982a198b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S-UNREAL.ANS by seraphim (RILE); released in rilebrkn and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: unreal
-# SAUCE Author: seraphim
-# SAUCE Group: RILE
-# SAUCE Date: 19970515
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: unreal by seraphim | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rilebrkn-s-unreal
 
 Write-Host '
 [1;33m██[0;1;32;42m██░░░░░░[0;32m██████[0;1;32;42m   ▄██▄[0;32m██[0;1;33m▒▒▒▒[0;32m███████████████████████░[0;30;42m▓[0;37;40m  [0;1;37;40msERAPHIM[0m --  [1mrILE[0m ----

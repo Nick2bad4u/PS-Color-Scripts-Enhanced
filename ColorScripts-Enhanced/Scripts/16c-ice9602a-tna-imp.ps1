@@ -1,18 +1,4 @@
-﻿# Converted from: TNA-IMP.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9602a/raw/TNA-IMP.ICE
-# Source Revision: archive-sha256:a7cb032b47574ac80269aea88d994085abecd77228955f55ef8d0e5338bc0184
-# Source SHA-256: e3f007d6442529fe62bc97b8d50cde968a5eb787f21628f6ced6da82ea410ffd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNA-IMP.ICE by TNA (iCE Advertisements); released in ice9602a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Impure Free Cocaine
-# SAUCE Author: TNA
-# SAUCE Group: iCE Advertisements
-# SAUCE Date: 19960222
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Impure Free Cocaine by TNA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9602a-tna-imp
 
 Write-Host '
 [1;31;41m░░[0;31;43m█████[0;31;40m█████[0;31;41m [0;31;43m▀██[0;31;40m██████████████████████████████████████████████████[0;30;41m░[0;31;40m▓██[0;1;37;41m░[0;1;31;41m░[0;31m█[0;1;31;41m░░▒▒[0;31m▒[0m

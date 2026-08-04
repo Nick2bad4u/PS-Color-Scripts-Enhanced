@@ -1,17 +1,4 @@
-﻿# Converted from: SC!-MAIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0297/raw/SC!-MAIL.ANS
-# Source Revision: archive-sha256:d5e6767ccf66425c243bc55fc2b60157e4842e0dca350575e42372c154569008
-# Source SHA-256: 6b8e71204cf73ea7f33d3567453fce9b18770473a58da35c8539e1de04b00d36
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC!-MAIL.ANS by scoundrel (fusion); released in fsn-0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: mail
-# SAUCE Author: scoundrel
-# SAUCE Group: fusion
-# SAUCE Dimensions: 80x25
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: mail by scoundrel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0297-sc-mail
 
 Write-Host '
                                 [32m▄[0m           [32m▀░[0;36m [0m

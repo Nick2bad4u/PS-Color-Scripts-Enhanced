@@ -1,15 +1,4 @@
-﻿# Converted from: MQ-FILE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0397/raw/MQ-FILE1.ANS
-# Source Revision: archive-sha256:147f0608c1bd711b116f3ad049b80e805dfbb40e7d23ffce5f4580a5a57bae0f
-# Source SHA-256: b2cf0a190d63bfe4b7f4af1068288ffa75b426c730c5d00458fd791a6a0d4568
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MQ-FILE1.ANS by Moleql (root0397); released in root0397 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: File Menu
-# SAUCE Author: Moleql
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: File Menu by Moleql | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0397-mq-file1
 
 Write-Host '
 [1m█[0;1;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▄[1m▀[0;1;47m██▓▒░ ░[0m [1;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m▄▄[34m▀▀▀▀██[0;1;34;44m░ ░░░▒▒▒░▒▓▓▒[0m

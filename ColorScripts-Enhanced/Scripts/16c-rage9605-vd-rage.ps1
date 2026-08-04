@@ -1,13 +1,4 @@
-﻿# Converted from: VD!RAGE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rage9605/raw/VD!RAGE.ANS
-# Source Revision: archive-sha256:3671812df822b51f130614a322956159bcd414327057742bdc2725af78b8e595
-# Source SHA-256: c5d3e312b663a5224008567d045445db7368d544be9a331794fc9b9fd13438fb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VD!RAGE.ANS by Vigod (rage9605); released in rage9605 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: VD!RAGE.ANS by Vigod | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rage9605-vd-rage
 
 Write-Host '
 

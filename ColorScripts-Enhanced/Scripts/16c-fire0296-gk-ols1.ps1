@@ -1,18 +1,4 @@
-﻿# Converted from: GK-OLS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0296/raw/GK-OLS1.ANS
-# Source Revision: archive-sha256:b878afc5fe93380d31442386cef881dac116ae12152b0839cd399054b0276cd7
-# Source SHA-256: 93d9dc90ca6d05d913acc17ca3b94b6ae2f8ab652fcd57cc3c6f549938dddc8c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GK-OLS1.ANS by Grind King (Fire); released in fire0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Tha Ol' Skool
-# SAUCE Author: Grind King
-# SAUCE Group: Fire
-# SAUCE Date: 19960127
-# SAUCE Dimensions: 80x39
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Tha Ol' Skool by Grind King | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0296-gk-ols1
 
 Write-Host '
 [36mtha ol'' skool ∙∙[0m                           [1;34m [0;32m░▄[0;1;32;42m░░▓▀█[0;1;32;40m▄[0m [1;34m  [0m

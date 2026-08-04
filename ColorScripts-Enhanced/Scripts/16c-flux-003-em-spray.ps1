@@ -1,18 +1,4 @@
-﻿# Converted from: EM-SPRAY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flux-003/raw/EM-SPRAY.ANS
-# Source Revision: archive-sha256:c8241d6e438a30e14e803d31ea9639f514382ec0df6188aa9d91ed9f1ddec867
-# Source SHA-256: aa574d698fb688d6480b23b5eef6286ecbd9d492b18266cde982d586987a68ec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EM-SPRAY.ANS by evil milkman (the 5th [-] writHe); released in flux-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: sprAy, dOn't swAy
-# SAUCE Author: evil milkman
-# SAUCE Group: the 5th [-] writHe
-# SAUCE Date: 19970830
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: sprAy, dOn't swAy by evil milkman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flux-003-em-spray
 
 Write-Host '
                               [32m▄▄[0;1;32;42m■▒▄[0;32;40m█▄▄[0m                        [37;40m▄[0;1;37;47m▒[0;37;40m▄▄[0m    [1;32;40m░[0m

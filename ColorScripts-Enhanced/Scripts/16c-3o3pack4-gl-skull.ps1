@@ -1,13 +1,4 @@
-﻿# Converted from: GL-SKULL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/3o3pack4/raw/GL-SKULL.ANS
-# Source Revision: archive-sha256:3a7324cf28c2b64b546cb6909029bbdfd9f549d1041617fe77acf1890b6f6ec6
-# Source SHA-256: 1ef74d842a9c4eb4be4a962e7b3fd6a02817d00cd848337e3465c2f949f0d6e2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GL-SKULL.ANS by Gasol (3o3pack4); released in 3o3pack4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: GL-SKULL.ANS by Gasol | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-3o3pack4-gl-skull
 
 Write-Host '
 [34m███████▀[0;37m [0;1;30;47m░[0m [34m████████████████████████████████████████████████[0;30;44m░[0;34;40m██████████████████[0;30;44m  [0m

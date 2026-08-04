@@ -1,18 +1,4 @@
-﻿# Converted from: MO-KB01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/haze_004/raw/MO-KB01.ANS
-# Source Revision: archive-sha256:82458300d05dc37f843d13e6a43f103b2f7b4fe0e3b3534b7600c4f8c79a1fe1
-# Source SHA-256: 00bf7ece99d137324cd8a517ba0e08e63a76398b6c5d93379207bf50ba02ac32
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MO-KB01.ANS by monarch (haze); released in haze_004 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the killer bbs
-# SAUCE Author: monarch
-# SAUCE Group: haze
-# SAUCE Date: 19950726
-# SAUCE Dimensions: 80x25
-# Lines: 45-87
-# Columns: 1-80
+﻿# Artwork: the killer bbs by monarch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-haze-004-mo-kb01-part02
 
 Write-Host '
 [1;31;40m [0;1;30;40m▄[0;1;30;41m▓[0;1;30;40m█▀[0m                     [1;30;40m▀[0;1;30;41m▓[0;1;30;40m▄▄▀   █[0;1;30;47m▓▓[0m [1;30;40m▄[0;1;30;47m▓[0;1;30;40m▄[0m                  [1;37;40m▄  ▀[0;1;30;47m▓▓[0m   ▄ [1;33m█[0;1;33;41m▓▒[0m

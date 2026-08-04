@@ -1,19 +1,4 @@
-﻿# Converted from: NI-LLARN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz18/raw/NI-LLARN.ANS
-# Source Revision: archive-sha256:32d30452c4c99022fae4fa2ce9a2923ef46629d3ff7dd35a972944a991699c1f
-# Source SHA-256: f37cca170095e1a06ccd1722a64f0ef8284b22065760a9acdaadfff65ac8b380
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-LLARN.ANS by nitron (lazarus); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Lleshie Arinar Portrait
-# SAUCE Author: nitron
-# SAUCE Group: lazarus
-# SAUCE Date: 20231111
-# SAUCE Dimensions: 80x72
-# SAUCE Font: Default
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Lleshie Arinar Portrait by nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz18-ni-llarn-part01
 
 Write-Host '
 [1m╔══════════════════════════════════════════════════════════════════════════════╗[0m

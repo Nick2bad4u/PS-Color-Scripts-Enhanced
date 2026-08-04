@@ -1,18 +1,4 @@
-﻿# Converted from: STC-DF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0195/raw/STC-DF.ANS
-# Source Revision: archive-sha256:bba094e7325779ca430921c43e89d6d5eeb3533a54f085963b521f20303604f4
-# Source SHA-256: ebeca3a1804a9daa353fd8be1e1edd28773813c1fe155e80175e6157ad00568a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STC-DF.ANS by Stone The Crow (ACiD Productions); released in acdu0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Digital Fluid
-# SAUCE Author: Stone The Crow
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950101
-# SAUCE Dimensions: 80x153
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: Digital Fluid by Stone The Crow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0195-stc-df-part01
 
 Write-Host '
          [30m [0m                                                          [35m [0m

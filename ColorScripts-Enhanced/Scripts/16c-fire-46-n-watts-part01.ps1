@@ -1,19 +1,4 @@
-﻿# Converted from: N-WATTS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-46/raw/N-WATTS.ANS
-# Source Revision: archive-sha256:32c189dd42ed53f66ce0b86a88ea8027caddc32faf4da7cee2e674d9223cb9f4
-# Source SHA-256: 9e9ea6b5c6ff8604f9fca2a927b8661b2469969bd2cf4c254fafc29a113e6dec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N-WATTS.ANS by nail (fire); released in fire-46 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: there's something about mary
-# SAUCE Author: nail
-# SAUCE Group: fire
-# SAUCE Date: 20260707
-# SAUCE Dimensions: 80x59
-# SAUCE Font: IBM VGA
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: there's something about mary by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-46-n-watts-part01
 
 Write-Host '
 [37;40m      [0m               [33;40m▄▄[0;37;40m [0;33;40m▄▄▄[0;37;40m [0;33;40m▄[0;37;40m [0;33;40m▄▄▄█[0;1;33;43m░░░▄[0;1;33;40m▄[0;33m▄[0m                 [37m                     [0m

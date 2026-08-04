@@ -1,19 +1,4 @@
-﻿# Converted from: H7-GMNMX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-46/raw/H7-GMNMX.ANS
-# Source Revision: archive-sha256:32c189dd42ed53f66ce0b86a88ea8027caddc32faf4da7cee2e674d9223cb9f4
-# Source SHA-256: 511e91ba65416d1d24b18ea532a7025ba87556509f4bd2f0da553c5dffa17180
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: H7-GMNMX.ANS by H7 (Fire); released in fire-46 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Gemenon
-# SAUCE Author: H7
-# SAUCE Group: Fire
-# SAUCE Date: 20260322
-# SAUCE Dimensions: 80x19
-# SAUCE Font: IBM VGA
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Gemenon by H7 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-46-h7-gmnmx
 
 Write-Host '
          [37;40m.[0;1;30;40m░[0m

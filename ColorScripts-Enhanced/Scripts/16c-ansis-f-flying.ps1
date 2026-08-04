@@ -1,13 +1,4 @@
-﻿# Converted from: FLYING.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-f/raw/FLYING.ANS
-# Source Revision: archive-sha256:697ede5df1802d7cfbad91f2de590e43fbfef75a6e2021b0743fa87cf78a8c87
-# Source SHA-256: c02aaae85cec8d1d3842309fd2224ff24b6a49ddf5b0e9003fa2eda141a71c9c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FLYING.ANS by J Kemp (ansis-f); released in ansis-f and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: FLYING.ANS by J Kemp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-f-flying
 
 Write-Host '
                             [1;33m▀[0;1;33;42m██[0;1;33;40m█[0;1;33;42m▄▀[0;1;33;40m█[0;1;33;42m▓[0;1;33;40m███[0;1;33;42m▓▀[0;1;33;40m█[0;1;33;42m▀[0;1;33;40m█▓█▀  [0;32m▄ ▄▀▄ [0;33m▄▄▓▓▓[0;32m▓ [0;33m▐▌ [0;32m▀▄  ▄ ▀▄█▀ [0;33m▄▀▄[0m

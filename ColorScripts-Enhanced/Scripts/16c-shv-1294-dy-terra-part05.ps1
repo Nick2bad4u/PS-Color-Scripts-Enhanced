@@ -1,18 +1,4 @@
-﻿# Converted from: DY-TERRA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shv-1294/raw/DY-TERRA.ANS
-# Source Revision: archive-sha256:f5a9cb72572b56ffa2e2d95e600f8c71afc6c91753a9bf8679dcd918614a3091
-# Source SHA-256: eed12229b167c7af3c19e4ea890e20839e2e176a622e78e2fd9755abbd36b215
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DY-TERRA.ANS by Dynosaw (Shiver); released in shv-1294 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Terra Firma
-# SAUCE Author: Dynosaw
-# SAUCE Group: Shiver
-# SAUCE Date: 19941119
-# SAUCE Dimensions: 80x256
-# Lines: 170-213
-# Columns: 1-80
+﻿# Artwork: Terra Firma by Dynosaw | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shv-1294-dy-terra-part05
 
 Write-Host '
                         [32m░[0m           [32m▒░[0m        [32m░[0m [1;30m       [0;32m░[0;1;30m               [0m

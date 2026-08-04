@@ -1,18 +1,4 @@
-﻿# Converted from: US-ND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p13_01/raw/US-ND.ANS
-# Source Revision: archive-sha256:7be01055dd13efccf716f85ba12aeb587f20efb2cff2c3e0ca4196c620859951
-# Source SHA-256: 4d120789639ea124e4e020af34ae82773765ea082f78f658bbe582e8a5c44146
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ND.ANS by Simonking + Mrviolent (thelo0p); released in l0p13_01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: no delay screen
-# SAUCE Author: mrviolent^simonking
-# SAUCE Group: thelo0p
-# SAUCE Date: 20011208
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: no delay screen by Simonking + Mrviolent | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p13-01-us-nd
 
 Write-Host '
 [1;33m  [0;1;33;43m▒▒▒▒▒▒[0;33m▄▄▄▄▄▄▄[0;1;37m   [0;1;33m [0;33m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;37m  [0;1;30m    [0m       [1;30mn   o    d  e  l[0m [1;30m a  y (!)[0m

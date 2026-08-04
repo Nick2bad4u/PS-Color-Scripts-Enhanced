@@ -1,13 +1,4 @@
-﻿# Converted from: w0-asdfs.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac-32/raw/w0-asdfs.ans
-# Source Revision: archive-sha256:92dc53c0e5f4d9f8253eb19e90c60f29e746ef99f68b94abfe63fcff5d853870
-# Source SHA-256: 77b7d4073c0470fbf2ddb10c305fc5c07c8403084269137fda4d3adba801c03f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: w0-asdfs.ans by Webpige0 (sac-32); released in sac-32 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: w0-asdfs.ans by Webpige0 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac-32-w0-asdfs-part01
 
 Write-Host '
 

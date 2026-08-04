@@ -1,13 +1,4 @@
-﻿# Converted from: CPH-ALIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-003/raw/CPH-ALIN.ANS
-# Source Revision: archive-sha256:09817656d743388b570b7dfb39c4f133f8c40aecb92562f60d9e0c45a3f39730
-# Source SHA-256: de036bdd7d04586c023f365143dc4efaef57975c5613795f423fbe36d232f1e4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-ALIN.ANS by Cyberpunch (rib-003); released in rib-003 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: CPH-ALIN.ANS by Cyberpunch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-003-cph-alin
 
 Write-Host '
 [34m  ▄█▀▀▀█████▄       ..     ▄█████[0;1;34;44m░░[0;34m█▀▀▀    ▀▀▀██▌   [0;33m▄▄▄▄[0;34m [0;33m▓▓[0;1;33;43m▒[0;33m▓▌[0;34m [0;33m▄▄[0;34m ▐█▀▄▄▄▄▀█[0;1;34;44m░░▒▓[0;34m [0m

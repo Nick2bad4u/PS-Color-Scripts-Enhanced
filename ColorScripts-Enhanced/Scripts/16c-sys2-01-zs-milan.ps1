@@ -1,13 +1,4 @@
-﻿# Converted from: zs-milan.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sys2_01/raw/zs-milan.ans
-# Source Revision: archive-sha256:f707a7fe693d07201b6eb70e6937a345c157a5d2d28da9983b4bb47eb4421fde
-# Source SHA-256: e6b2e1b85df64af8e5b22a5f7d3feb34a40536325aa9bbcb73a20aff25df4964
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zs-milan.ans by Zerostar (sys2_01); released in sys2_01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: zs-milan.ans by Zerostar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sys2-01-zs-milan
 
 Write-Host '
 [33mp┌[0;1;31m▬,_`\[0;33m9''`.┐[0;1;33mq%@##@%p[0;33m┌▬.[0;1;30m [0;33m\$[0;1;31m*┘²''^`[0;33m┐[0;1;31my$$[0;33m7`[0;1;30m *┘♦/  [0;34m▬[0;1;30m [0;34m,`\[0;1;34m$$$$$[0m$$$$$$$$$[1;34m$$$$$[0;34m*┘²''^`[0;1;30m *┘²[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: LM-KBS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/kbsart03/raw/LM-KBS.ANS
-# Source Revision: archive-sha256:3bc41b0cbaed5cc33563c576ee20fcd7a1c532d4df2df0fbf9fb63f79506bdf8
-# Source SHA-256: 214d72bb65a0998b4a36e920b0ef951123283951052cea88aa6b0943cdfa4306
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LM-KBS.ANS by Lichmistress (kbsart03); released in kbsart03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: LM-KBS.ANS by Lichmistress | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-kbsart03-lm-kbs
 
 Write-Host '
     [31m▄  ▄▄[0m    [31m■ ▄ ▄▄[0;37m [0;31m██▄  ███ ▄▌ [0;37m [0;31m▄[0m     [31m███[0;37m   [0;31m█▌[0m    [31m▄[0;37m [0;31m■[0;37m  [0;31m▄ [0m       [31m▄[0;37m [0;31m■[0;37m  [0;31m▄▄▀[0m

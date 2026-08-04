@@ -1,13 +1,4 @@
-﻿# Converted from: NM-DNB.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-10/raw/NM-DNB.ICE
-# Source Revision: archive-sha256:bf182b3a4a3821f59456de515e0caeefdf153f2040b433c6321d39d23c909d77
-# Source SHA-256: 693bc814d43c1ab83822abf2e7ef122c8a6fb3da4ced995a05d1a9670552a991
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NM-DNB.ICE by The Necromancer (icepk-10); released in icepk-10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: NM-DNB.ICE by The Necromancer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-10-nm-dnb-part01
 
 Write-Host '
                                   [1m▄▄▄▄███████████████▄▄▄▄▀▀▀[0;1;47m░░▒▒▓▓[0;1;40m██▄▄▄▄▄▄▄[0m

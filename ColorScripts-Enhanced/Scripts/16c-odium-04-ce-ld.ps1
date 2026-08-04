@@ -1,18 +1,4 @@
-﻿# Converted from: CE-LD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-04/raw/CE-LD.ANS
-# Source Revision: archive-sha256:8dc8586a37ce2081b7e99529b7087f421e6ff8d5ba2d146ef1d30bd490016720
-# Source SHA-256: 166aa16ac65079a1d65d0f51cb9c64328361328790931c8e94cc4003fe4b380a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CE-LD.ANS by celestian (odium); released in odium-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ld-
-# SAUCE Author: celestian
-# SAUCE Group: odium
-# SAUCE Date: 19960218
-# SAUCE Dimensions: 80x25
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: ld- by celestian | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-04-ce-ld
 
 Write-Host '
 

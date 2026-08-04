@@ -1,13 +1,4 @@
-﻿# Converted from: WO-MIST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/toon0895/raw/WO-MIST.ANS
-# Source Revision: archive-sha256:c1a6798ea83d0ccac05fb0d58c558b4384e596f6d867896c83346030bd76baa1
-# Source SHA-256: 1ed6f949795c3ec96778764822abd6d623997e6fb4d29dee06ad1e80449306cd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WO-MIST.ANS by Wat0r (toon0895); released in toon0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: WO-MIST.ANS by Wat0r | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-toon0895-wo-mist
 
 Write-Host '
 

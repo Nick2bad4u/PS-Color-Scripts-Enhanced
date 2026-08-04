@@ -1,17 +1,4 @@
-﻿# Converted from: ARX_FACE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spin-01/raw/ARX_FACE.ANS
-# Source Revision: archive-sha256:ba78f741c8c48f614ecb0f3e5f78207f43cce4239d36fe3e606be09c2119943e
-# Source SHA-256: d8b7515b57330fca1053dfc0840535b4f072b340821aa53e9ac52658b3492f6b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARX_FACE.ANS by ARX (SPIN); released in spin-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: ARX
-# SAUCE Group: SPIN
-# SAUCE Date: 19980719
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: ARX_FACE.ANS by ARX | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spin-01-arx-face
 
 Write-Host '
       [35m┌     ┐[0m        [1;30m    [0m   [1;30m    [0m                      [1;35m [0;35m    [0;1;36m   [0;36m    [0;1;37m  [0m          [35m┌ [0m

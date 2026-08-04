@@ -1,18 +1,4 @@
-﻿# Converted from: LD-DANK1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1296/raw/LD-DANK1.ANS
-# Source Revision: archive-sha256:30782fcfc860946575894eb2b18cd82015430d9b2fe92875d1416c9b2489f009
-# Source SHA-256: 9f7b89b251880b52d4dd7cbe8f7bbd2e54c393142e16931fe8ca5cca74a83748
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-DANK1.ANS by oned (fire); released in fire1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Dank
-# SAUCE Author: oned
-# SAUCE Group: fire
-# SAUCE Date: 19961205
-# SAUCE Dimensions: 80x25
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: Dank by oned | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1296-ld-dank1
 
 Write-Host '
                     [1m [0m

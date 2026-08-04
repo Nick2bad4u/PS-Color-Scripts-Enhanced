@@ -1,19 +1,4 @@
-﻿# Converted from: US-BALOK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0525/raw/US-BALOK.ANS
-# Source Revision: archive-sha256:3f1c54fcce63651d0da098cd25cb8253b5a6b2c25c827a57c95e7c0e8210b5fb
-# Source SHA-256: 513183b73968a1817f455ede0f25af4ab0c50c4948f643ef0361ab3f41d8df24
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BALOK.ANS by Kirkman + LDA (Mistigris); released in mist0525 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Balok
-# SAUCE Author: Kirkman / LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20250529
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Balok by Kirkman + LDA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0525-us-balok
 
 Write-Host '
 [1;30m[0m[1;35;45m▓[0;35m█████[0;1;35;45m ▀[0;1;35;40m███[0;1;35;45m▄[0;35m█[0;1;35;45m▓▄░[0;35m█▌[0;37m  [0;35m███[0;1;35;45m░▓[0;1;35;40m██[0;1;35;45m▌░[0;35m██▌▐██[0;1;35;45m▀[0;1;35;40m██[0;35m█▀[0;37m [0;1;37m▄[0m▄[1;47m■[0;1;30;47m▄[0m▀[1m▀▀▀▀[0m▀[1;30;47m▄[0;1;37;47m▀▒▒[0;1;37;40m▄[0m▄ [35m▀██[0;37m [0;35m▀████[0;37m          [0;34m▀▓▄[0m

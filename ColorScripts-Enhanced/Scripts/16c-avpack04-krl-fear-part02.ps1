@@ -1,13 +1,4 @@
-﻿# Converted from: KRL-FEAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack04/raw/KRL-FEAR.ANS
-# Source Revision: archive-sha256:9fda3e62ea6f03ff3783df801cb7755dc6fc72a5a51e49bae41a28850a4d5c40
-# Source SHA-256: 4734856a9f1e0f846132ff3287842caccf96c92a93d2e4a6bd838bded56238cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KRL-FEAR.ANS by Mr Krinkle (avpack04); released in avpack04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 28-54
-# Columns: 1-80
+﻿# Artwork: KRL-FEAR.ANS by Mr Krinkle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack04-krl-fear-part02
 
 Write-Host '
 [1;30;40m [0;1;30;47m▓▒▒▒░░░░░░▒▒▒▓▓▓[0m [1;30;40m░░░▒▒▓▓▓███▓▓▓▒▒▒░░[0m

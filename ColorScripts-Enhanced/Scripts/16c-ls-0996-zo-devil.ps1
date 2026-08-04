@@ -1,18 +1,4 @@
-﻿# Converted from: ZO-DEVIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ls-0996/raw/ZO-DEVIL.ANS
-# Source Revision: archive-sha256:6630c6d0a9b4df765e120f90c454a35df3f880cc9703a20738fa40c8ddab694c
-# Source SHA-256: bdcb7c5b045b547c360760c89aabf0a13a07cc3ac20d7fa895509d8f9208087a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZO-DEVIL.ANS by zardoz (leper society); released in ls-0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: devil
-# SAUCE Author: zardoz
-# SAUCE Group: leper society
-# SAUCE Date: 19960929
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: devil by zardoz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ls-0996-zo-devil
 
 Write-Host '
 [1;30m ────────--───────────- [0;1;37m▄▄▄▄▄▄▄ [0;1;30m──── [0;1;37m▄▄▌▄▄▄▄▄ ■ [0;1;30m──────--─────────-─────────────[0m

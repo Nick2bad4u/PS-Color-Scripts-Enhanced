@@ -1,18 +1,4 @@
-﻿# Converted from: 09-BATK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9611/raw/09-BATK.ANS
-# Source Revision: archive-sha256:2b73e149488dc761d99422832825743596588d59e58f9bfecfb5d0e9dbffd274
-# Source SHA-256: 91e32abb727c5ec11d30616c3f41776196fe4bcb5a050c4cd9b3fb14aa289fa4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-BATK.ANS by Fluor (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Batkave Menu
-# SAUCE Author: Fluor
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961031
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Batkave Menu by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9611-09-batk
 
 Write-Host '
             [1;34m░[0m                           [1;34m▄░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: NF-FLOWR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/NF-FLOWR.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: 3c23c48e5ce0f5266dfa417471770f8128fa49128bae95dafab69de43ef7370f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NF-FLOWR.ANS by necro (fire-34); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: flower
-# SAUCE Author: necro
-# SAUCE Date: 20210301
-# SAUCE Dimensions: 80x42
-# SAUCE Font: IBM VGA
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: flower by necro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-nf-flowr
 
 Write-Host '
 [1;34;40m████████████████████████████████████████████████████████████████████████████████[0m

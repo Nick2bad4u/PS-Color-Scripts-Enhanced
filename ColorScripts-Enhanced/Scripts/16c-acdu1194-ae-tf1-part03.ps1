@@ -1,18 +1,4 @@
-﻿# Converted from: AE-TF1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1194/raw/AE-TF1.ANS
-# Source Revision: archive-sha256:0cd3429c05395c5369b2d8b470975ab968626be403f511098965c1e5f3d5050c
-# Source SHA-256: 9f7f4fc8fb5c0ae45ec16bc4bdfdfca69485ac36b384a7c87c39fc48bcb16425
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AE-TF1.ANS by Alter Ego (ACiD Productions); released in acdu1194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Terra Firma
-# SAUCE Author: Alter Ego
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19941101
-# SAUCE Dimensions: 80x129
-# Lines: 99-129
-# Columns: 1-80
+﻿# Artwork: Terra Firma by Alter Ego | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1194-ae-tf1-part03
 
 Write-Host '
 [40m [0;1;34m■▄▄ [0;36mS[0;1;36mö[0;36mmms'' [0;34m▄[0;36m░[0m     [34m▄▄■[0m                                                    [36m░[0m

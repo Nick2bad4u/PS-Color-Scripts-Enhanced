@@ -1,18 +1,4 @@
-﻿# Converted from: EX-TRIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dkrew-06/raw/EX-TRIN.ANS
-# Source Revision: archive-sha256:02960d7b88668b8887fe5cdf52da355c2d3dd37bf140c876abc30817d0d21bdb
-# Source SHA-256: 0d3f4d3cf749ed55a0ec721ef717ff026e758352a6f33c6f4061f34d91efe726
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EX-TRIN.ANS by Ex-Con (dead krew!.); released in dkrew-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Trinity Colly!
-# SAUCE Author: Ex-Con
-# SAUCE Group: dead krew!.
-# SAUCE Date: 19970417
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: Trinity Colly! by Ex-Con | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dkrew-06-ex-trin
 
 Write-Host '
 [1;30m┌──────────────┐[0m

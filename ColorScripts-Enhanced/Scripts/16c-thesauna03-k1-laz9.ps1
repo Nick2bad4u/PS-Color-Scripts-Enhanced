@@ -1,19 +1,4 @@
-﻿# Converted from: k1-laz9.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna03/raw/k1-laz9.ans
-# Source Revision: archive-sha256:997aaab655669129eb266c21ca0c4588b603e11c90338498bb530f8bba390fb2
-# Source SHA-256: 5c3e4f7408c4e8f99c3f9a22317f1030ee8b9ac14d7e0daccbdfeae7fbc98b76
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: k1-laz9.ans by knocturnal (SAUNA); released in thesauna03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: LAZarus
-# SAUCE Author: knocturnal
-# SAUCE Group: SAUNA
-# SAUCE Date: 20211002
-# SAUCE Dimensions: 80x23
-# SAUCE Font: IBM VGA
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: LAZarus by knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna03-k1-laz9
 
 Write-Host '
                                [34;40m░░[0;37;40m  [0;36;40m░░░░░[0m

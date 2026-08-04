@@ -1,18 +1,4 @@
-﻿# Converted from: FV-FISH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0502/raw/FV-FISH.ANS
-# Source Revision: archive-sha256:98bfa3cc78c733050b0c647e7e0271e7623e3c31e4f40f218a00b89b2165c771
-# Source SHA-256: 42033a28ab85800c8ee6667709afa98fbd9e43c7796ccbde6859e5b9ca90f420
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-FISH.ANS by fever (revival); released in rev0502 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: piranha
-# SAUCE Author: fever
-# SAUCE Group: revival
-# SAUCE Date: 20020515
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: piranha by fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0502-fv-fish
 
 Write-Host '
 [31m▒██ [0;1;34m▀[0;31m █████████████▓▓▓▓▓▓▄▄▄██▄██████████████▄▄▄▄▄▓▓▓▓▓▓▓▄████████████████████▄[0m

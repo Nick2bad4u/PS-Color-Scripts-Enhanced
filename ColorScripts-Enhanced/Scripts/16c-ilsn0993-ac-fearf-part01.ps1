@@ -1,13 +1,4 @@
-﻿# Converted from: AC-FEARF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ilsn0993/raw/AC-FEARF.ANS
-# Source Revision: archive-sha256:e7e7c6f73942c5463cc3a2518ebe2afadd1de8982d1fa83f99bde36882861526
-# Source SHA-256: 62343457a65f6cad7c30bd36d82e0b818a7e4b8089bb54e507673bce64cc6c8f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AC-FEARF.ANS by Achilles (ilsn0993); released in ilsn0993 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: AC-FEARF.ANS by Achilles | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ilsn0993-ac-fearf-part01
 
 Write-Host '
                                   [32m▄▄▄▄▄▄▄▄▄▄▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: ROY-OBLI.ANS
-# Source encoding: CP437
-# Source URL: https://www.roysac.com/images/galleries/ZIP/Roy_ANSI.ZIP
-# Source Revision: archive-sha256:8598a9432b4feb86c4e79552795b407b9d7c576fb6f25e9828d6143f1c7b35bc
-# Source SHA-256: ab7e65b12a904d6c0d9e449c9949be325b81b031b82ce39d526f3bbe6c92b471
-# Source License: FAL-1.3
-# Source Attribution: ROY-OBLI.ANS by Roy/SAC aka Carsten Cumbrowski; sourced from the official Roy/SAC Roy_ANSI.ZIP archive.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at blank or balanced compositional transitions.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: ROY-OBLI.ANS by Roy/SAC aka Carsten Cumbrowski | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=roy-sac-obli
 
 Write-Host '
        [35m▄[0m

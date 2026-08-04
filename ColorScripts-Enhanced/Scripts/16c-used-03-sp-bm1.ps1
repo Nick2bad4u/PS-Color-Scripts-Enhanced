@@ -1,17 +1,4 @@
-﻿# Converted from: SP-BM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-03/raw/SP-BM1.ANS
-# Source Revision: archive-sha256:d2599b97a9288d8f82ddd62f9c4821cdc0d5105bf01763fad11be3b958d4ce10
-# Source SHA-256: 6c0f55a4d12edac40d0f81f93f23ebd0b67494620cb2f49bc8e42b159df8c1e9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SP-BM1.ANS by Spearfx (The Used Coalition); released in used-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Black Maiden
-# SAUCE Author: Spearfx
-# SAUCE Group: The Used Coalition
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: Black Maiden by Spearfx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-03-sp-bm1
 
 Write-Host '
 

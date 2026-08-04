@@ -1,18 +1,4 @@
-﻿# Converted from: US-ABS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/danone003/raw/US-ABS.ANS
-# Source Revision: archive-sha256:67fdd294c2da261d67fa35ee02cce4fe3a7e86cb1b067cdbb4b59c7bf6fa17c7
-# Source SHA-256: ed184e9ec2917ba6ceb62233017412f3e3899154f52065570c2d50617349796a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ABS.ANS by Noches + Luminator (Sense Imagery); released in danone003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: b44 p700
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Sense Imagery
-# SAUCE Date: 19980101
-# SAUCE Dimensions: 80x122
-# Lines: 83-122
-# Columns: 1-80
+﻿# Artwork: b44 p700 by Noches + Luminator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-danone003-us-abs-part03
 
 Write-Host '
   [1;30m▀▀[0;31m▀▀▀ [0;37m [0m      [1;33m [0;33m▄[0;1;30m▄▀[0;1;33;43m █[0;1;33;40m█[0;1;33;43m▀▀[0;1;33;40m█[0;1;33;43m████▀[0;1;33;40m▀[0;1;30;40m▀[0;33m▄▄▓▓▓▓[0;1;30m▓[0m  [1;30m▓[0;33m▓▓▓▓▄▄[0;1;30m▀[0;1;33m▀[0;1;33;43m▀████[0;1;33;40m█[0;1;33;43m▀▀[0;1;33;40m█[0;1;33;43m█ [0;1;30;40m▀▄[0;33m▄[0;1;33m [0m       [31m ▀▀▀[0;1;30m▀▀[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: IX-REGE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy03/raw/IX-REGE.ANS
-# Source Revision: archive-sha256:a3a53ea79bcbcd57bc05c6d80b9369444063e81f9dc4053225ede5f60d209f4b
-# Source SHA-256: 0809d31d5533d364c3fe4bd073c4d00878d889489c32b906cb9a8b1f27c41146
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IX-REGE.ANS by Illusion X (apathy03); released in apathy03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Regency
-# SAUCE Author: Illusion X
-# SAUCE Date: 19951025
-# SAUCE Dimensions: 80x50
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: The Regency by Illusion X | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy03-ix-rege
 
 Write-Host '
 [1;31m██▀[0;35m▄▒▓█▀[0;1;31m▄█▄[0;35m▀[0;1;35;45mix[0;35m█▄▀[0;1;31m▄▄███████████████▄▄[0;35m▀▓▒[0;1;31m ▄[0;1;37m|[0m

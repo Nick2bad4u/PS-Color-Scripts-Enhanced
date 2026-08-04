@@ -1,20 +1,4 @@
-﻿# Converted from: us-legacyape.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-001/raw/us-legacyape.ans
-# Source Revision: archive-sha256:589c804657c8d15ba617f7c0fd80723e4505d519989b80eba9584665be49eb54
-# Source SHA-256: 500316c9b3e7fa7e6deb0e8d5356afeb796a699a92bb84080ca08567098c0ec6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-legacyape.ans by The Knight + Smooth (Legacy Krew); released in lgcy-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Legacy Ape
-# SAUCE Author: The Knight & Smooth
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20191124
-# SAUCE Dimensions: 80x150
-# SAUCE Font: IBM VGA
-# SAUCE Comments: We are but warriors in this 16color block jungle.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Legacy Ape by The Knight + Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-001-us-legacyape-part01
 
 Write-Host '
 

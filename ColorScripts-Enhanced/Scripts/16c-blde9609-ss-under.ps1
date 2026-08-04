@@ -1,18 +1,4 @@
-﻿# Converted from: SS-UNDER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9609/raw/SS-UNDER.ANS
-# Source Revision: archive-sha256:ebbff7e3049916d809d893ea2aa04734229c43fb86ad9d17682073c079d4ff3a
-# Source SHA-256: 381aa09d59ae7b7f812bab37cea4390316545046d5471c8a2299daa496e4281c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SS-UNDER.ANS by soul seeker (blade productions); released in blde9609 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: belial's downfall
-# SAUCE Author: soul seeker
-# SAUCE Group: blade productions
-# SAUCE Date: 19960827
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: belial's downfall by soul seeker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9609-ss-under
 
 Write-Host '
                    ▄▄                                [1;35m▀[0m

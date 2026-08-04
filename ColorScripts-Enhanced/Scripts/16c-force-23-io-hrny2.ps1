@@ -1,18 +1,4 @@
-﻿# Converted from: IO-HRNY2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-23/raw/IO-HRNY2.ANS
-# Source Revision: archive-sha256:f54958574841312d2cfb8b706a10ab98a217653ef5b490a16e29de1d333d41f9
-# Source SHA-256: 0869a281ba3d32330d582e87d121ae50e1a86105ebb64d29c16f81baa7423816
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IO-HRNY2.ANS by imodium (force); released in force-23 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: horny emag
-# SAUCE Author: imodium
-# SAUCE Group: force
-# SAUCE Date: 19980817
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: horny emag by imodium | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-23-io-hrny2
 
 Write-Host '
 ▀▀▀▀[1;30;47m▄▄▄▄▄▄░░░[0m▌ [1;30m▐█[0;1;30;47m▒░░[0m████████[1;30;47m▄[0;1;30;40m▀[0m  [1;30m▄▀[0m    [35m█[0;1;35;45m░[0;35m▄ [0;36m▀  [0;1;30m█[0;1;30;46m▄[0;1;30;40m█▀[0;36m [0;1;30m█[0;1;30;46m▓[0;1;30;40m█▄█▀[0;36m [0;1;30m▄[0;1;30;46m▀[0;36m█[0;1;30;46m▄[0;1;30;40m▀[0m     (frc)ImoDium

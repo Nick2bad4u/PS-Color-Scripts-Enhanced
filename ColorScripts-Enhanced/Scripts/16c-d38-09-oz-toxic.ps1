@@ -1,18 +1,4 @@
-﻿# Converted from: OZ-TOXIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-09/raw/OZ-TOXIC.ANS
-# Source Revision: archive-sha256:c41bbed96b7f715196d42c6e26c8c617329d6970d02268fc75cdfdee9e16ecb0
-# Source SHA-256: 2982f41dc59d86e9b23743d476f05589a889a56e8e760a2ff0708b25968254bf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OZ-TOXIC.ANS by -Oz (department 38); released in d38-09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: P H A T  P H A T  P H A T  P H A T
-# SAUCE Author: -Oz
-# SAUCE Group: department 38
-# SAUCE Date: 19970812
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: P H A T P H A T P H A T P H A T by -Oz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-09-oz-toxic
 
 Write-Host '
     [1m     [0;32m▄█[0;1;32m█[0;1;37m [0m [1;32m░░░[0m                                 [1;32m░░░[0m                     [1m  [0m [1m░░░[0m

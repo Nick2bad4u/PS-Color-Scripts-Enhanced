@@ -1,18 +1,4 @@
-﻿# Converted from: AVG-CTV1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-02/raw/AVG-CTV1.ANS
-# Source Revision: archive-sha256:21302c91644277d9117a9a1fcab004f6fa76d5a90d6a4926e513a24dd5b73cd5
-# Source SHA-256: 9e2c5bd76691524bda077f4e9cc33c2c5169b5727ab754f9b79e6729af7983db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-CTV1.ANS by Avenging Angel (the used coalition); released in used-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Color TV
-# SAUCE Author: Avenging Angel
-# SAUCE Group: the used coalition
-# SAUCE Date: 19991113
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Color TV by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-02-avg-ctv1
 
 Write-Host '
 

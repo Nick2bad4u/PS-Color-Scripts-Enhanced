@@ -1,18 +1,4 @@
-﻿# Converted from: RA-BLEND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend07/raw/RA-BLEND.ANS
-# Source Revision: archive-sha256:ca5dd679a175bb824bf5bf250a5bbd7f932645b5aabbf63799cb92711cab24b8
-# Source SHA-256: dd46c1b708cea7d46622bf14dcd7631b94c782769ff465386bc76dc11279125a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RA-BLEND.ANS by reanimator (blend); released in blend07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: blend
-# SAUCE Author: reanimator
-# SAUCE Group: blend
-# SAUCE Date: 19970315
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: blend by reanimator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend07-ra-blend
 
 Write-Host '
 [32m [0m

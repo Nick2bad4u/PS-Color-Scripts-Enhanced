@@ -1,17 +1,4 @@
-﻿# Converted from: NC-TC2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0497/raw/NC-TC2.ANS
-# Source Revision: archive-sha256:73d4445ab8a07d3fe160d256052163ed66b2081a0bebb59b18ae9b36e30223e0
-# Source SHA-256: 703072de586f053d1059a8e848d5ae55d619bf00846a15bd5fb4fb58dca9872b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NC-TC2.ANS by necrolyte (root graphix); released in root0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: thoughtkrime!
-# SAUCE Author: necrolyte
-# SAUCE Group: root graphix
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: thoughtkrime! by necrolyte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0497-nc-tc2
 
 Write-Host '
 

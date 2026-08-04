@@ -1,18 +1,4 @@
-﻿# Converted from: EV-ANTI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/int-0395/raw/EV-ANTI.ANS
-# Source Revision: archive-sha256:57df35fbd13cf5d0e1eff7653dbaa292a5b927d07ac0495e7c72c3b66a636148
-# Source SHA-256: 6542a68177dc13ffee1433953b47e25cd51fdc4b05fbe8916c3a712b50d293a0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EV-ANTI.ANS by EverLast (Integrity); released in int-0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Anti-Capitol
-# SAUCE Author: EverLast
-# SAUCE Group: Integrity
-# SAUCE Date: 19950228
-# SAUCE Dimensions: 80x25
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Anti-Capitol by EverLast | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-int-0395-ev-anti-part01
 
 Write-Host '
                                                              [30m▄[0m

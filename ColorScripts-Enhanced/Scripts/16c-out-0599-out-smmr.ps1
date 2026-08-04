@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-SMMR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0599/raw/OUT-SMMR.ANS
-# Source Revision: archive-sha256:d1c311f963fa778919e061bc773a7bd4708a6d6ed9ec4682aacef5efb33d45e2
-# Source SHA-256: a84fa822c74fbfda46f90734c02e4d34c0201c2706d5f39b5eb538867253c04b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-SMMR.ANS by Sandy Chidester (out-0599); released in out-0599 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: OUT-SMMR.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0599-out-smmr
 
 Write-Host '
 [36m█▀▀▀▀[0;1m▄▄▄███▀▀▀▀▀[0;1;34m▄▄██▀▀[0;1m▄▄▀[0;1;34m▄▄[0m▐[1;34m▄▄[0;1m▀▄▄[0;1;34m▀▀█▄▄[0;1m▀▀▀▀███████▄▄▄[0;36m▀▀██████████████████████████[0m

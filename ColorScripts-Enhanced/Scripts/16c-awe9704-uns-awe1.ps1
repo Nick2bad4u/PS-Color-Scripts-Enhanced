@@ -1,17 +1,4 @@
-﻿# Converted from: UNS-AWE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9704/raw/UNS-AWE1.ANS
-# Source Revision: archive-sha256:da151757a637299fc8da8cc755ae75b6a0e1a281dd915d29497f1d00d429e5c1
-# Source SHA-256: 2bcd65cf0c3fb5a682c5620082fa6a00b6745979c97b132acbc9ebe8967b8e51
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: UNS-AWE1.ANS by Unsane (AWE Lettering); released in awe9704 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: AWE Promotional
-# SAUCE Author: Unsane
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: AWE Promotional by Unsane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9704-uns-awe1
 
 Write-Host '
 

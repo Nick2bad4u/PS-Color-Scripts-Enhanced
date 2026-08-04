@@ -1,18 +1,4 @@
-﻿# Converted from: ZF0-LORE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-17/raw/ZF0-LORE.ANS
-# Source Revision: archive-sha256:154ac874f13e20433925bb99a4f5e0a4299764bee7ed4d28bdaffd9ad392f554
-# Source SHA-256: fc0dbdefa26c07769cc2500a9009045f0f7fe5584c2820b3d0f8d309e4a01f8b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZF0-LORE.ANS by zfact0r (glue); released in glue-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Lore
-# SAUCE Author: zfact0r
-# SAUCE Group: glue
-# SAUCE Date: 19981229
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Lore by zfact0r | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-17-zf0-lore
 
 Write-Host '
 [35m▄▄ [0;1;35m▒[0;1;35;47m▀[0;1;35;45m▌[0;1;36;40m ▒▒ [0;35m▄[0;37m [0;36m▀ [0;1;30m▄[0m [35m▀[0;1;35;45m▀[0;1;35;47m▀▄[0;1;35;40m▓▒[0;35m  [0;37m [0;1;34m░░[0m [35m▀▀[0;34m▄[0;37m▄[0;30;44m▀[0;35;40m▀[0;1;35;40m▀[0m [1;34m░ [0;35m▀[0;1;35;45m▄[0;35m▄[0;1;35m▄[0;1;35;47m▀[0;35m▀[0;1;35m▀▀[0;35m▀▀[0;1;35;47m▀[0;1;35;40m▄[0;35m▄[0;1;35;45m▄[0;1;35;40m▀[0;1;35;47m▒[0;35m▄[0;37mzf0[0;1;30m([0;1;37mglue[0;1;30m)[0;36m▐[0;1;36m▓▒ [0m    [1;30m▀[0;36m▀[0;1;36m▓[0m  [35m▐[0;1;35;45m▄ [0m

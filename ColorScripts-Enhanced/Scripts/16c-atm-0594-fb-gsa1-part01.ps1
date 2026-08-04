@@ -1,13 +1,4 @@
-﻿# Converted from: FB-GSA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/atm-0594/raw/FB-GSA1.ANS
-# Source Revision: archive-sha256:a7745e0553a5b6c51bb70e798c51baa47b7f819d65244d42098c318b7e86f80b
-# Source SHA-256: ebd1a4dff5f4cdfde384d84f299ab593af504cd4efc1ff2dd03c73fda8c25e3d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FB-GSA1.ANS by Frost Byte (atm-0594); released in atm-0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: FB-GSA1.ANS by Frost Byte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-atm-0594-fb-gsa1-part01
 
 Write-Host '
      [1m▄███▄    ▄███▄[0m            [1m▄█████▄   ▄█████▄[0m         [1m▄█████▄   ▄███▄[0m

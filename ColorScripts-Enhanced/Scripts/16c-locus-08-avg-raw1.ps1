@@ -1,13 +1,4 @@
-﻿# Converted from: AVG-RAW1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/locus-08/raw/AVG-RAW1.ANS
-# Source Revision: archive-sha256:eb790a44f4898ec0d7ea4b8e4754397832c1823b5b2db7b7444fc80312388961
-# Source SHA-256: abf99f2c3358ea4d4745b492fb14cd8716feecf73d33ae1a5cf4ba25cf52f5c9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-RAW1.ANS by Avenging Angel (locus-08); released in locus-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: AVG-RAW1.ANS by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-locus-08-avg-raw1
 
 Write-Host '
 [1;30m[0m

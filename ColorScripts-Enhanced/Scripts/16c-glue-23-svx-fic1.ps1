@@ -1,18 +1,4 @@
-﻿# Converted from: SVX-FIC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-23/raw/SVX-FIC1.ANS
-# Source Revision: archive-sha256:ebf73214839ebeb98074956697930c862ec34a2f04c71462d23dae1a192647c2
-# Source SHA-256: 07f7cbc4375385e541c7bb99f28001fc3fca3349f06694f33d9bce9954aee977
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SVX-FIC1.ANS by Salvationx (GLUE); released in glue-23 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Fiction Top Ten
-# SAUCE Author: Salvationx
-# SAUCE Group: GLUE
-# SAUCE Date: 19990617
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Fiction Top Ten by Salvationx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-23-svx-fic1
 
 Write-Host '
                                                        [1;30m▀[0m       [1;30m▄[0m

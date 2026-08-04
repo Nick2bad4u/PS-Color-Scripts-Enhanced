@@ -1,19 +1,4 @@
-﻿# Converted from: MAX_MOUSE-HYPERNODE-ILLUSION.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0721/raw/MAX_MOUSE-HYPERNODE-ILLUSION.ANS
-# Source Revision: archive-sha256:9d3d54e42a99a6e7bef51cb79a023b85709051f377817bc02741bd65f1493da4
-# Source SHA-256: dc4b241dc0df17e00c8def8346cd6ec5e8e5834344be9faf683635a564277628
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MAX_MOUSE-HYPERNODE-ILLUSION.ANS by Max_Mouse (Mistigris); released in mist0721 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Optical Illusion
-# SAUCE Author: Max_Mouse
-# SAUCE Group: Mistigris
-# SAUCE Date: 20210711
-# SAUCE Dimensions: 80x56
-# SAUCE Font: IBM VGA
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Optical Illusion by Max_Mouse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0721-max-mouse-hypernode-illusion-part01
 
 Write-Host '
 [34m           [0m

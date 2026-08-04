@@ -1,13 +1,4 @@
-﻿# Converted from: us-skill.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roots02/raw/us-skill.ans
-# Source Revision: archive-sha256:76e48703c4ae574ec2cec39d9f297f8abe09593046838247863eedaee737caa1
-# Source SHA-256: afcf02941c5f6c2da9ca62bd773fe8906978062e8dcca32ef30f95b0a6d2eaf6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-skill.ans by Avenging Angel + Ceelow (roots02); released in roots02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: us-skill.ans by Avenging Angel + Ceelow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roots02-us-skill
 
 Write-Host '
                                                                     [31m▄[0;1;37;41m▄▄[0m

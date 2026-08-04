@@ -1,18 +1,4 @@
-﻿# Converted from: TSK-PS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-03/raw/TSK-PS2.ANS
-# Source Revision: archive-sha256:fae30929abb2b921ba96bc7ad0b445be298bbdb28aa42921644d897c08d22f33
-# Source SHA-256: 6a1888d25293fa60d6bd1797937dd739f81a8e52115e77358c96182e1d38665b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-PS2.ANS by the silnet killer (odium); released in odium-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: photosynthetic shit
-# SAUCE Author: the silnet killer
-# SAUCE Group: odium
-# SAUCE Date: 19960115
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: photosynthetic shit by the silnet killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-03-tsk-ps2
 
 Write-Host '
 [36m[0;32m[0;36m[0;32m[0m[36m[0;32m[0;36m[0;32m[0m[1;30m.■▀▀▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀█▀▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█▀▀▀▀▀▓▀▀▀▀▀▀▀▀▀▀█▄▀▀▀▀▀▀▀■.[0m

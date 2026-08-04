@@ -1,20 +1,4 @@
-﻿# Converted from: alpha_king-reviolated.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-420/raw/alpha_king-reviolated.ans
-# Source Revision: archive-sha256:32206a6b687af3a407a7929bd0ae7f49a2a5a96e7853d9c98b3020df27e9b06d
-# Source SHA-256: 73a5b6220c5e963af446d5cb81f7ef78816a1e87b34711c3214f4f0bb121a879
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: alpha_king-reviolated.ans by Alpha King (Blocktronics); released in blocktronics-420 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Reviolated
-# SAUCE Author: Alpha King
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20200416
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# SAUCE Comments: A revamp of a Violator BBS matrix for Tokyo Eye.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Reviolated by Alpha King | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-420-alpha-king-reviolated
 
 Write-Host '
                [1;30m▄▓▓▀  ▄▓▓▀▀▀    [0;34m▀▓▓[0;1;34;44m▀██████▀[0;34m▀[0;1;34;44m▓▓[0;34m▀[0;1;34m▓[0;1;34;44m██[0;1;34;40m▓▓▒[0;34m▀▀[0;37m       [0;1;34m▄▄[0m   [34m▄▄    [0;1;30m▀▀▓▓▄[0m

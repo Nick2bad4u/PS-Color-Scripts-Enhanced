@@ -1,18 +1,4 @@
-﻿# Converted from: JDA_SC96.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg1296/raw/JDA_SC96.ANS
-# Source Revision: archive-sha256:7008814811afdc15797797f3a11c220b20bd3149ac6520f75c8a1a5101640a07
-# Source SHA-256: 1b9fa702aad6c39fc25bbedca1bc7cecdcc45b4440265532a79cd5257b9d8d96
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JDA_SC96.ANS by Joda (Deranged); released in drg1296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: scene 96.
-# SAUCE Author: Joda
-# SAUCE Group: Deranged
-# SAUCE Date: 19961220
-# SAUCE Dimensions: 80x35
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: scene 96. by Joda | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg1296-jda-sc96
 
 Write-Host '
 

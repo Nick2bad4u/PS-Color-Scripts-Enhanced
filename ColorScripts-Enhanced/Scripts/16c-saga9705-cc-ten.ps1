@@ -1,18 +1,4 @@
-﻿# Converted from: CC-TEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/saga9705/raw/CC-TEN.ANS
-# Source Revision: archive-sha256:9950004e76ea5c0e6c27ac92b1d4c958f7cea833041843273d527effb62ad1ee
-# Source SHA-256: 4eadbf2d41e1532add30bebd5b9ae4b30f0f1c3f01845b626f54efdbcc76aaf0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CC-TEN.ANS by chronicc (SAGA); released in saga9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: OLD MAN! DANG!
-# SAUCE Author: chronicc
-# SAUCE Group: SAGA
-# SAUCE Date: 19970518
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: OLD MAN! DANG! by chronicc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-saga9705-cc-ten
 
 Write-Host '
                             [31m▐[0m

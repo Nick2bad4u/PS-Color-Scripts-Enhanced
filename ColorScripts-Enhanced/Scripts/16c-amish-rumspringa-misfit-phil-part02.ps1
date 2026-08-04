@@ -1,16 +1,4 @@
-﻿# Converted from: misfit-phil.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/amish-rumspringa/raw/misfit-phil.ans
-# Source Revision: archive-sha256:710f00c8e218c58e7f7c9fe172cb22279b1ebbb4b713832762c12e983eb7ac2d
-# Source SHA-256: 8d1fd5cefbc328b7944c9e249b6c44898cd696979b0d4fd1673b3db9dc0666f6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: misfit-phil.ans by Misfit (amish-rumspringa); released in amish-rumspringa and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 20180202
-# SAUCE Dimensions: 80x124
-# SAUCE Font: IBM VGA
-# Lines: 42-82
-# Columns: 1-80
+﻿# Artwork: misfit-phil.ans by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-amish-rumspringa-misfit-phil-part02
 
 Write-Host '
 [33m▒ [0;1;30m█▀[0m [33m▄███▓[0;37m [0;1;30m▀▄[0m▀▓▓[47m█[0;1;47m▀█▄░██▄[0;1;40m█▀[0;33m ▒█[0;1;31m█▀▀[0m  [1;30m▀▄[0m▀▓▓[47m█[0;1;47m▀█▄░██▄[0;1;40m█▀[0m [33m▄█▓░[0;37m  [0;1;30m░░[0m  ▄█[1;47m▄[0m███[30;47m. ° [0;37;40m███[0;1;37;47m▄[0m█[30;47m   [0;37;40m██[0m

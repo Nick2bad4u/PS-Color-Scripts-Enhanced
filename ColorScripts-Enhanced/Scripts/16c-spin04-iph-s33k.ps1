@@ -1,17 +1,4 @@
-﻿# Converted from: IPH-S33K.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spin04/raw/IPH-S33K.ANS
-# Source Revision: archive-sha256:d8d0b243395a454162bf4e70cc5ed89a7700344e3544729263edb9daedb33d8c
-# Source SHA-256: e90c0324d8083ad54f582484c2d46831aace934d543db4de152895e865df29b0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IPH-S33K.ANS by iph (spin); released in spin04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: iph
-# SAUCE Group: spin
-# SAUCE Date: 19981129
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: IPH-S33K.ANS by iph | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spin04-iph-s33k
 
 Write-Host '
 

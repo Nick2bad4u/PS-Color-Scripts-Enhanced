@@ -1,13 +1,4 @@
-﻿# Converted from: PENTGON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hrp-4/raw/PENTGON.ANS
-# Source Revision: raw-sha256:0b073d7e83daafdfe5761043292ce4325a1f2711612b8780bcfd08a187ea83d3
-# Source SHA-256: 0b073d7e83daafdfe5761043292ce4325a1f2711612b8780bcfd08a187ea83d3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PENTGON.ANS by Living Death (hrp-4); released in hrp-4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: PENTGON.ANS by Living Death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hrp-4-pentgon-part01
 
 Write-Host '
           [34m░░░▒[0m

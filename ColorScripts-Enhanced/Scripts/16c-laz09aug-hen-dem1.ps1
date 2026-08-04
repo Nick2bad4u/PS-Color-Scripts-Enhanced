@@ -1,18 +1,4 @@
-﻿# Converted from: HEN-DEM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz09aug/raw/HEN-DEM1.ANS
-# Source Revision: archive-sha256:3e0bd3039fe877b3970f71e80b4456ee60793f2295ae127a50a6587b17c2d6a2
-# Source SHA-256: 96d02b411976e2ecbf0d5121f01ba2075d6d04abb5e95d63bc0c25ab133541ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HEN-DEM1.ANS by hennifer (lazarus); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: demesne interface
-# SAUCE Author: hennifer
-# SAUCE Group: lazarus
-# SAUCE Date: 19970705
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: demesne interface by hennifer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz09aug-hen-dem1
 
 Write-Host '
 [1;30;47m░       [0;46m▓▓[0;1;30;40m▓░ ▄▄[0;1;30;47m█▓▓▓▓[0;1;30;40m▄▄  ▓██████[0m                  [1;30m█▄▄▄█▀██████▓▓░  ▄▄▄ ▄█[0;1;30;47m▓▓▒▒[0;46m▒▒[0;36;40m▓▓[0m

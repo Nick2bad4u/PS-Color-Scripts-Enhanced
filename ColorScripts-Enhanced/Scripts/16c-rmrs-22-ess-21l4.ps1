@@ -1,18 +1,4 @@
-﻿# Converted from: ESS!21L4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-22/raw/ESS!21L4.ANS
-# Source Revision: archive-sha256:afe59def1d947e2bb83e94d037307e2215fa4f8e5d3afa54b07fc425d1360672
-# Source SHA-256: 2167a75b0f86489360f4464ec9dd611ca279675fc3f178c3b9d37c0527bd58d0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ESS!21L4.ANS by Essence (REMORSE); released in rmrs-22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Rare!Ascii
-# SAUCE Author: Essence
-# SAUCE Group: REMORSE
-# SAUCE Date: 19980312
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Rare!Ascii by Essence | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-22-ess-21l4
 
 Write-Host '
 [1;30m[0m[1;30m[0m                                                                [1;36m_,[0;36m╓g%@@[0;37m%g╖,_[0m

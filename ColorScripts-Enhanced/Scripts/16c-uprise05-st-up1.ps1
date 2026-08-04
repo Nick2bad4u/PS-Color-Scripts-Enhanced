@@ -1,13 +1,4 @@
-﻿# Converted from: ST-UP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise05/raw/ST-UP1.ANS
-# Source Revision: archive-sha256:8a04f72dbd0084a3dd089505796d41f1fc098ce192bbfa410f8bc1039eb33f03
-# Source SHA-256: ead90d889e09fb10fe69ec2dc565d443fc191ba0a05842a9d763b26147bedcc9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-UP1.ANS by Sting (uprise05); released in uprise05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: ST-UP1.ANS by Sting | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise05-st-up1
 
 Write-Host '
 

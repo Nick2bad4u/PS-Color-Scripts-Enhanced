@@ -1,18 +1,4 @@
-﻿# Converted from: US-LOGO1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0296/raw/US-LOGO1.ANS
-# Source Revision: archive-sha256:8bf6ef5626cbd493461d1e7facbd3ea200120a9f6ac221a6e519b2041e25c598
-# Source SHA-256: 3e9201109495dd4874ce4b72cdd798c254a4dc9850b4482638eded905a42b692
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-LOGO1.ANS by Kestrel + Wetworks + Putrid Carcass (Mistigris); released in mist0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Group Logo Colly. Woo!
-# SAUCE Author: KS / PC / WW
-# SAUCE Group: Mistigris
-# SAUCE Date: 19960127
-# SAUCE Dimensions: 80x47
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Group Logo Colly. Woo! by Kestrel + Wetworks + Putrid Carcass | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0296-us-logo1
 
 Write-Host '
 [1;30m▄▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▄   [0;1;35m.[0m            [1;35m.[0m          [35m.[0m     [1;5;30m│[0m

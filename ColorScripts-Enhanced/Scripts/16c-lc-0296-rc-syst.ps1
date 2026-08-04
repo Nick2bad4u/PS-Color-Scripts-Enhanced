@@ -1,18 +1,4 @@
-﻿# Converted from: RC(SYST).ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lc-0296/raw/RC(SYST).ANS
-# Source Revision: archive-sha256:3f7b223bd8c0e8475528d5064e009722f346681e36989df863da8447e129b00b
-# Source SHA-256: 0425160521de3219c4c28b064a67dd122b5d0e9f6224110948c106c3097ee9a3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RC(SYST).ANS by 2] ^0  lost  2] [ (.boogiE%Woogie.); released in lc-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: .systeM%Overload.
-# SAUCE Author: 2] ^0  lost  2] [
-# SAUCE Group: .boogiE%Woogie.
-# SAUCE Date: 19960123
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: .systeM%Overload. by 2] ^0 lost 2] [ | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lc-0296-rc-syst
 
 Write-Host '
                       [1;35m▄▄▄▄▄▄▄▄[0m  [1;35m.[0;35msysteM[0;1;35m%[0;35mOverload[0;1;35m.[0m

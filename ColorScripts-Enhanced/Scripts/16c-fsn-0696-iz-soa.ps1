@@ -1,18 +1,4 @@
-﻿# Converted from: IZ%SOA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0696/raw/IZ%25SOA.ANS
-# Source Revision: archive-sha256:91a5df7d6634d8d6a544eb72836639f3955b2e59017de7861042fc9fa05f7000
-# Source SHA-256: 44ab9b6e391430bf5af0af2d4060a39634564e1be3bd5a3134c3bcae2b2a9632
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ%SOA.ANS by ize (fusion); released in fsn-0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: state of art!
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19960609
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: state of art! by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0696-iz-soa
 
 Write-Host '
 [34m░▀▀▀█▄[0;1;33m▀▄[0;34m▀[0;1;33m ■░▄▀[0;34m▄▀▀██▄▄■[0;37m  [0;34m░[0m

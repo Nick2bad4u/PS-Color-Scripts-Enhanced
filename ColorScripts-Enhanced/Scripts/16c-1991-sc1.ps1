@@ -1,13 +1,4 @@
-﻿# Converted from: SC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1991/raw/SC1.ANS
-# Source Revision: archive-sha256:4dcfddb1a9f84aafa45e2facaadcb15ccf7ddad9041d8c346c723f7894d6cfb9
-# Source SHA-256: 22415ba080f3f793f61001732898828ae6da19b9810abf4aacae112db0b3e86d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC1.ANS by Black Spyrit (1991); released in 1991 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: SC1.ANS by Black Spyrit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1991-sc1
 
 Write-Host '
 [1;30m[0m[1;30m[0m

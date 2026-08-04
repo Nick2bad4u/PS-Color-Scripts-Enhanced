@@ -1,18 +1,4 @@
-﻿# Converted from: RF-PAIN!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-1296/raw/RF-PAIN!.ANS
-# Source Revision: archive-sha256:506b105b4c26ae1c852aab6820467319ddc2b45f940a9c1fc20d63a6338d499e
-# Source SHA-256: d79c1fad125d8142d1296591f725eaac56d51f2fe15c14e4ea75f44fb5329447
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RF-PAIN!.ANS by Rimfire (Opium (knark)); released in opx-1296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Pain(t)ball
-# SAUCE Author: Rimfire
-# SAUCE Group: Opium (knark)
-# SAUCE Date: 19961121
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: Pain(t)ball by Rimfire | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-1296-rf-pain
 
 Write-Host '
 .d"""²«÷S$$$$$$$S±,     .s#S$$7~""4$"""²«÷S$$$$$$$$$$$S»²''""''S$$$$$S.

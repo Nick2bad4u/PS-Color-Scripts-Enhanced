@@ -1,19 +1,4 @@
-﻿# Converted from: ti-apa13.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy13/raw/ti-apa13.ans
-# Source Revision: archive-sha256:3ed7178f860604c6b9786846d46fd13095846b81c16a5324edc4e4b9ea7e6ba8
-# Source SHA-256: 96ed6a3133da14938fd421fe89bc7dcc78c18e334ab2229e3370129dac9fb59a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ti-apa13.ans by trip (blocktronics); released in apathy13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: thy
-# SAUCE Author: trip
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190724
-# SAUCE Dimensions: 80x151
-# SAUCE Font: IBM VGA
-# Lines: 39-76
-# Columns: 1-80
+﻿# Artwork: thy by trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy13-ti-apa13-part02
 
 Write-Host '
 [31m███████████████████████████████▀▄███████████████████████████████████████████████[0m

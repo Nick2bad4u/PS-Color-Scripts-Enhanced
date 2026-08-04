@@ -1,13 +1,4 @@
-﻿# Converted from: QS-MEDC.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icepk-08/raw/QS-MEDC.ICE
-# Source Revision: archive-sha256:76472331bcb8543f1e44f2a59ee8f7524c6af6373e89562b7fabb9e022104140
-# Source SHA-256: af9c82239f8d31823db7c7474c2ceb0e00818a91925352fa1bb982abb08ad1dd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QS-MEDC.ICE by Quicksilver (icepk-08); released in icepk-08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 45-87
-# Columns: 1-80
+﻿# Artwork: QS-MEDC.ICE by Quicksilver | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icepk-08-qs-medc-part02
 
 Write-Host '
                  [31m█▓▒░[0;1;30m░░ ░░[0;31m░▒▓[0;1;31;41m▒▓█▓▒[0;31m▄[0;1;30m░[0;31m░▒▒▓█[0;1;31;41m░▒▒▓[0;1;31;40m▀[0;31m▄[0;1;31;41m▒▓[0;1;31;40m█[0;1;31;41m▓▒[0;31m▄█[0;1;30m░░░ ░░[0;31m░▒▓█[0m

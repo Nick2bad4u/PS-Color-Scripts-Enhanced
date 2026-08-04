@@ -1,18 +1,4 @@
-﻿# Converted from: US-JEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend05/raw/US-JEN.ANS
-# Source Revision: archive-sha256:3346c70671a4c24e002cb42d75f3af112f478c146f28bb98b9942b55d0894a44
-# Source SHA-256: ced1b94a28ace832abff1a4be8c46c09f5054e9a2cbb6966fbbe1dd431ae6e66
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-JEN.ANS by Monstrz + Risu (BLENd); released in blend05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: .
-# SAUCE Author: Multiple Artists
-# SAUCE Group: BLENd
-# SAUCE Date: 19961231
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: . by Monstrz + Risu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend05-us-jen
 
 Write-Host '
 

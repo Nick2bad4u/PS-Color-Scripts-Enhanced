@@ -1,18 +1,4 @@
-﻿# Converted from: GK-BLN21.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr021/raw/GK-BLN21.ANS
-# Source Revision: archive-sha256:2fb42442aa39962a5e1d168aaac0ade6268845f394b448e57a22937d017d122c
-# Source SHA-256: 86c8c04f6c0c70ec1efe712935daf9ab21e96061ad0b6bbb55c17ba8bf52a7d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GK-BLN21.ANS by grind king (LAZARoo!@); released in blndr021 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: kermit the lush
-# SAUCE Author: grind king
-# SAUCE Group: LAZARoo!@
-# SAUCE Date: 19970413
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: kermit the lush by grind king | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr021-gk-bln21
 
 Write-Host '
 

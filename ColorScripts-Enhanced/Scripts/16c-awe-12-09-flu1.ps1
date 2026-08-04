@@ -1,18 +1,4 @@
-﻿# Converted from: 09-FLU1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-12/raw/09-FLU1.ANS
-# Source Revision: archive-sha256:5c96c14e912296494a464a42e768321452d811693cf172945a9502eb4396c8bb
-# Source SHA-256: 0aa2ddad84ba7f0d53804c8394db1042306e0c0ea794c91792d039fc56cb3a9d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 09-FLU1.ANS by Fluor (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fluph
-# SAUCE Author: Fluor
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19971008
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Fluph by Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-12-09-flu1
 
 Write-Host '
                ▄[1m▄▄▄▄[0;1;47m▄[0;1;40m██▀▄[0m

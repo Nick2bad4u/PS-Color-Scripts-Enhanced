@@ -1,19 +1,4 @@
-﻿# Converted from: gDm-m4inhdr.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/slackpack001/raw/gDm-m4inhdr.ans
-# Source Revision: archive-sha256:5cacf66a668b317d377907af22e0a4e5723c4f7fb85756d1ef888c14cabea25b
-# Source SHA-256: fd59a388e563d3d1ffde884c8c9927818612e29a7c3513ef033d9a3ec9661424
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: gDm-m4inhdr.ans by GngrDr3dM4n (Slackers); released in slackpack001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Slackers m4inhdr
-# SAUCE Author: GngrDr3dM4n
-# SAUCE Group: Slackers
-# SAUCE Date: 20250606
-# SAUCE Dimensions: 80x20
-# SAUCE Font: IBM VGA
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Slackers m4inhdr by GngrDr3dM4n | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-slackpack001-gdm-m4inhdr
 
 Write-Host '
 [1;36m┌[0;1;34m──[0;34m────────────────────────────────────────── [0;1;30m▄█▀▀▀▀▀▀▀▀▀▀▀█▄ [0;34m──────────────[0;1;34m──[0;1;36m┐[0m

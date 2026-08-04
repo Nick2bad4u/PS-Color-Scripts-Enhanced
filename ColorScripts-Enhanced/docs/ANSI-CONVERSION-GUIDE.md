@@ -58,7 +58,7 @@ Use passthrough only when the decoded source already contains its final sequenti
 .\Convert-AnsiToColorScript-Advanced.ps1 -AnsiFile "plant.ansi" -Encoding utf8 -Passthrough
 ```
 
-Passthrough preserves the decoded source byte-for-byte inside one safe PowerShell literal and emits it with `Write-Host -NoNewline`. This retains exact color transitions, CRLF geometry, and trailing line endings. Generated scripts carry `# Source Conversion Mode: Passthrough`; content-curation tooling treats that marker as a source-fidelity lock and will not rewrite the payload. Artwork containing cursor positioning, erase commands, overstrikes, or terminal-width wrapping must use terminal emulation instead.
+Passthrough preserves the decoded source byte-for-byte inside one safe PowerShell literal and emits it with `Write-Host -NoNewline`. This retains exact color transitions, CRLF geometry, and trailing line endings. Provenance-backed imports record `ConversionMode = 'Passthrough'` externally; standalone legacy output keeps the equivalent verbose comment. Content-curation tooling reads either form and treats it as a source-fidelity lock. Artwork containing cursor positioning, erase commands, overstrikes, or terminal-width wrapping must use terminal emulation instead.
 
 ## How It Works
 
@@ -74,6 +74,16 @@ that archival text can collide with. A double-quoted here-string (`@" ... "@`)
 is unsafe for arbitrary artwork because PowerShell expands dollar-prefixed
 variables, subexpressions, and backtick escapes. The serializer instead doubles
 literal apostrophes and keeps every other artwork character as data.
+
+For curated third-party imports, pass
+`--provenance-record=<json-path>`. The JSON keys use the authoritative
+`audit/ArtworkProvenance.psd1` property names. The converter emits one compact
+offline title/artist attribution plus a script-scoped details URL, derives the
+source hash, geometry, encoding, conversion, and SAUCE/iCE fields, and updates
+the external PSD1 in the same rollback-safe transaction as the generated
+script. `--provenance-path=<psd1-path>` is available for fixtures; repository
+imports should use the default. The older `--source-*` options remain for
+standalone output and intentionally produce verbose comments.
 
 ## ANSI File Format
 
@@ -336,11 +346,11 @@ node scripts/Split-AnsiFile.js .\wide-menu.ANS --columns=160 --column-ranges=1-8
 - `--every=<n>` - Evenly divides the render
 - `--column-ranges=1-80,81-160` - Slices one-based inclusive logical panels from terminal cells; ranges must be ordered and non-overlapping, and this option requires ANSI or ICE input
 - `--strip-space-bg` - (ANSI input only) Clears background colors on plain spaces; do not use this for archival imports unless visual review proves those cells are not part of the artwork
-- `--source-url`, `--source-revision`, `--source-sha256` - Embed the pinned source and original-file hash in every generated part
-- `--source-license`, `--source-attribution` - Embed the applicable license and artist or project credit in every generated part
-- `--source-modification` - Describe the conversion, cropping, or splitting applied to the original artwork
+- `--provenance-record=<json-path>` - For curated ANSI/ICE-to-PowerShell imports, emit compact headers and upsert complete external records for every part or panel
+- `--provenance-path=<psd1-path>` - Override the authoritative PSD1 path for an isolated fixture; repository imports use the default
+- `--source-url`, `--source-revision`, `--source-sha256`, `--source-license`, `--source-attribution`, `--source-modification` - Legacy standalone-output comments; these cannot be combined with `--provenance-record`
 
-Each PowerShell part also records its original rendered line and column ranges. Horizontal slicing reconstructs the active SGR state from terminal cells at each panel boundary instead of cutting serialized escape sequences. Provenance values use the same validation rules as the main JavaScript converter, so untrusted metadata cannot inject executable source.
+Each provenance-backed PowerShell part records its original rendered line and column ranges in the external PSD1. Legacy standalone output keeps those ranges in comments. Horizontal slicing reconstructs the active SGR state from terminal cells at each panel boundary instead of cutting serialized escape sequences. Provenance values use the same validation rules as the main JavaScript converter, so untrusted metadata cannot inject executable source.
 
 - `--dry-run` - Preview without writing files
 

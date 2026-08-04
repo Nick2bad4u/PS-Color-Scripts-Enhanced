@@ -1,19 +1,4 @@
-﻿# Converted from: arl-yemaya.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hpm-04/raw/arl-yemaya.ans
-# Source Revision: archive-sha256:d2c0a14e6aa186cff60c36e0afbe6cc20a83d0b801e42df0e6a8c7b44be43337
-# Source SHA-256: aa3c9f903d36f4ac1b7f8b7f6fb95fd7e4e36bb14b10c8362f4aa402f101ae5c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: arl-yemaya.ans by Arlequin (HPM); released in hpm-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Yemaya
-# SAUCE Author: Arlequin
-# SAUCE Group: HPM
-# SAUCE Date: 20250917
-# SAUCE Dimensions: 80x80
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Yemaya by Arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hpm-04-arl-yemaya-part01
 
 Write-Host '
 ░░░░░░░[1;30m░░░[0m

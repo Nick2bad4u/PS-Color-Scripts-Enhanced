@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-JRSH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0624/raw/ZII-JRSH.ANS
-# Source Revision: archive-sha256:7e2642f67629daefe8d04ebedd2e233be2e8a74b2dea50eb02da49be24298927
-# Source SHA-256: 16ec89ea3eb5290c73b91eda36db8c60797d3ebccc5a8897eb20193f8b08b350
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-JRSH.ANS by Zeus II (Mistigris); released in mist0624 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Jolly Roger Ship
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20240520
-# SAUCE Dimensions: 80x100
-# SAUCE Font: IBM VGA
-# Lines: 51-99
-# Columns: 1-80
+﻿# Artwork: Jolly Roger Ship by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0624-zii-jrsh-part02
 
 Write-Host '
 [1;30m███████████▀▀█████[0m [1m▐█████████▀[0m  [1m▀▄███▓▓▌[0m    [33m░[0;37m             [0;1;30m█████████████▄██▀▀▀██[0m

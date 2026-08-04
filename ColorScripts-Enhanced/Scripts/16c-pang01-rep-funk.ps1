@@ -1,13 +1,4 @@
-﻿# Converted from: REP!FUNK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pang01/raw/REP!FUNK.ANS
-# Source Revision: archive-sha256:24a47d3a6396232434bffa2e1615955141cf762e5fd721c02b6ad40f81a7def7
-# Source SHA-256: 14171de4de8b65769022382c56356126f4a293fbc3ee62ea8f555fea16e0a1a9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: REP!FUNK.ANS by Reptical (pang01); released in pang01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: REP!FUNK.ANS by Reptical | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pang01-rep-funk
 
 Write-Host '
 [1;31m..[0;33m.. [0;1;34m                 [0;1;36m    [0m   [1;36m [0mj[1;36m         [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: DS-SHITE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack14/raw/DS-SHITE.ANS
-# Source Revision: archive-sha256:cc504a5dba52c5f998daf5493fac68a658e6668bcf22da76e3af7c67337c8c9c
-# Source SHA-256: 9176e154ae4985191667f43915dfd520996b11c8fcb0f0088ce258f72098b992
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-SHITE.ANS by Deathstroke (Apocalyptic Visions); released in avpack14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: apache's habits
-# SAUCE Author: Deathstroke
-# SAUCE Group: Apocalyptic Visions
-# SAUCE Date: 19960918
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: apache's habits by Deathstroke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack14-ds-shite
 
 Write-Host '
  ▄▄[1;47m█[0m ██▄▀▀ ▀[1;30m▀▀[0;1;33m                                                                 [0m

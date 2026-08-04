@@ -1,18 +1,4 @@
-﻿# Converted from: PL-PROC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/coa1096/raw/PL-PROC.ANS
-# Source Revision: archive-sha256:128b6c2a8f568cf6bad059228a21cd32425d44608f32b5cbcfef7f04ec4e1f32
-# Source SHA-256: d0ed36817b7526ad1da835edede66832bfa471189f5bd0a4524061cfdd96d4ce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PL-PROC.ANS by phlux (coa); released in coa1096 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: wizy's process
-# SAUCE Author: phlux
-# SAUCE Group: coa
-# SAUCE Date: 19961008
-# SAUCE Dimensions: 80x19
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: wizy's process by phlux | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-coa1096-pl-proc
 
 Write-Host '
    [31m▄ ▀[0m

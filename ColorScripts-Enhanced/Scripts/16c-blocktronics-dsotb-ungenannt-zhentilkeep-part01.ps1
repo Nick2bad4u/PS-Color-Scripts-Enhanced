@@ -1,19 +1,4 @@
-﻿# Converted from: ungenannt-zhentilkeep.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-dsotb/raw/ungenannt-zhentilkeep.ans
-# Source Revision: archive-sha256:31e1fdfda207a2147f2b0badf1415308dc54d4c24afa56622db8a43f68f110f1
-# Source SHA-256: bd2c61a8d754f71f10d23c71fe112397ac6d6edbc50fa50d15a59b175d7e671e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ungenannt-zhentilkeep.ans by ungenannt (blocktronics); released in blocktronics-dsotb and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: zhentil keep
-# SAUCE Author: ungenannt
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190723
-# SAUCE Dimensions: 80x329
-# SAUCE Font: IBM VGA
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: zhentil keep by ungenannt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-dsotb-ungenannt-zhentilkeep-part01
 
 Write-Host '
 [1;38;2;87;255;255;48;2;171;0;171m                      [0;38;2;171;0;171;48;2;0;0;0m██████████████████████████████████████████████████████████[0m

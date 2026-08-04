@@ -1,18 +1,4 @@
-﻿# Converted from: TR-TURM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mtn-0895/raw/TR-TURM.ANS
-# Source Revision: archive-sha256:d9373769381047b628fcd9583a9cbb9f6ac2b6af3501e750d2eaba43061dafea
-# Source SHA-256: 9440aeae6f66a01cab159433ea819021c760e5e38c6bd47eab295f88fa82eb54
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-TURM.ANS by Tripe (Motion); released in mtn-0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Turmoil Ansi Promo
-# SAUCE Author: Tripe
-# SAUCE Group: Motion
-# SAUCE Date: 19950702
-# SAUCE Dimensions: 80x25
-# Lines: 35-72
-# Columns: 1-80
+﻿# Artwork: Turmoil Ansi Promo by Tripe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mtn-0895-tr-turm-part02
 
 Write-Host '
 [1;30;40m▓▒  ░   ▐[0;1;30;47m▓█[0m   [30;41m█▀▀▀░░  [0;1;31;41m░░░[0;30;41m▀▀[0m  [30;47m▄[0;30;41m▀░░▀[0;1;37;40m▀[0m     [1;37;40m▀  ▀[0;1;37;47m█[0m   [1;37;40m▐[0;1;37;47m▓▒[0m    [1;37;47m▓[0;30;47m▄[0m

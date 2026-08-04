@@ -1,19 +1,4 @@
-﻿# Converted from: [014] SC-RAIN.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cx-timeline/raw/%5B014%5D%20SC-RAIN.ans
-# Source Revision: archive-sha256:44e1bee3ddc3b388b7cf12194583d4aab88cb5fa02ca90157d792ce814886a4e
-# Source SHA-256: cb9fc55a345a2c8e135fe755c8e00f6e5ca4e713ad7c3966961727064e4a2930
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: [014] SC-RAIN.ans by Skarecrow (none); released in cx-timeline and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: SC-Rain
-# SAUCE Author: Skarecrow
-# SAUCE Group: none
-# SAUCE Date: 20180211
-# SAUCE Dimensions: 80x163
-# SAUCE Font: IBM VGA
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: SC-Rain by Skarecrow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cx-timeline-014-sc-rain-part01
 
 Write-Host '
      [35;40m░[0m                                                                  [35;40m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: MR-NTH01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira-007a/raw/MR-NTH01.ANS
-# Source Revision: archive-sha256:ee5a82ac7f98955da25871045743238711285c6b7b62811e228512414e2f4a52
-# Source SHA-256: 33b0bf085abd2d29dbe42f73cc9376519a863946519b18fdbe513fd0d1c83804
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-NTH01.ANS by Mr.Wrong (irato); released in ira-007a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Nitrophusion
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: irato
-# SAUCE Date: 19981001
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Nitrophusion by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira-007a-mr-nth01
 
 Write-Host '
     [34m▄[0m          [1;30m▀[0m [1;30m▄░[0m          [1;30m▄[0m [1;30m▀[0m     [34m■[0m      [1;30m▄[0m                  [34m▄[0m            [1;30m▄[0m

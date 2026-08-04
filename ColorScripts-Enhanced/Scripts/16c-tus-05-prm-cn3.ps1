@@ -1,18 +1,4 @@
-﻿# Converted from: Prm-cn3.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tus-05/raw/Prm-cn3.ans
-# Source Revision: archive-sha256:986f1937ec6e5b109228fbbe378b228ec26f4944801472ad65a0c03345d8dc74
-# Source SHA-256: a994760149f6d614d95038348cc76f86ff9f37c2afb00284ec33b29c9ac52101
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Prm-cn3.ans by pR1ZM (tUS^mASSIVE); released in tus-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: cAIN^0NER
-# SAUCE Author: pR1ZM
-# SAUCE Group: tUS^mASSIVE
-# SAUCE Date: 20020205
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: cAIN^0NER by pR1ZM | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tus-05-prm-cn3
 
 Write-Host '
 [1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

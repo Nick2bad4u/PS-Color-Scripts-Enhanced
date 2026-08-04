@@ -1,18 +1,4 @@
-﻿# Converted from: P-CIELO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe02/raw/P-CIELO.ANS
-# Source Revision: archive-sha256:ce5cd736ecea3fcfef2c1df40ab4bdd995f6b633f97f1788244355f98c5d174e
-# Source SHA-256: 78dda10af5dfe4e64c6dcca767d87379401ea4586263cbd94423ce7c76bc4440
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: P-CIELO.ANS by pesho (circe); released in circe02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: cielo boogie
-# SAUCE Author: pesho
-# SAUCE Group: circe
-# SAUCE Date: 19971203
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: cielo boogie by pesho | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe02-p-cielo
 
 Write-Host '
 

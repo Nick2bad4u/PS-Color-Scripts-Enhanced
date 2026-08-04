@@ -1,19 +1,4 @@
-﻿# Converted from: us-twm.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_miracle_on_67th_street/raw/us-twm.ans
-# Source Revision: archive-sha256:7a78b3edd176c6d05feb481522f2c4f3e57721df62292c2b4ce537e855c41ae8
-# Source SHA-256: ad0cccf0cb089ad877b9c50accc31c8924dbdf5e478102e0a1d093507d64a861
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-twm.ans by Zeus Ii + Tcf (Blocktronics); released in blocktronics_miracle_on_67th_street and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: tang wei min
-# SAUCE Author: Fever + Zeus II
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20180506
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: tang wei min by Zeus Ii + Tcf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-miracle-on-67th-street-us-twm
 
 Write-Host '
 [37;40m   [0;32;40m▄▄▄▀▀[0;37;40m [0;34;40m░░[0;37;40m    [0;32;40m█[0;37;40m  [0;34;40m [0;37;40m   ░░▄▄   [0;34;40m  [0;37;40m░░░[0;1;37;47m▄[0m▀▄▄    [34m    [0m                 [32m▀▀▄[0;37m   [0;32m▀▀▀▄  ▀[0;1;32;42m░[0;32m▄[0m

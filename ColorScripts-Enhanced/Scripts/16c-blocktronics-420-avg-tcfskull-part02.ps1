@@ -1,19 +1,4 @@
-﻿# Converted from: avg-tcfskull.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-420/raw/avg-tcfskull.ans
-# Source Revision: archive-sha256:32206a6b687af3a407a7929bd0ae7f49a2a5a96e7853d9c98b3020df27e9b06d
-# Source SHA-256: 1ccdcf75a23626a730fad5c46a68655281fefe0e8fb39ec9cc35b03baba83134
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-tcfskull.ans by avenging angel (blocktronics); released in blocktronics-420 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the creep fever
-# SAUCE Author: avenging angel
-# SAUCE Group: blocktronics
-# SAUCE Date: 20200416
-# SAUCE Dimensions: 80x120
-# SAUCE Font: IBM VGA
-# Lines: 41-79
-# Columns: 1-80
+﻿# Artwork: the creep fever by avenging angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-420-avg-tcfskull-part02
 
 Write-Host '
 [1;34;40m███[0;1;34;46m█▒▒▒▒[0;34m▀[0;37m    [0;1;34m▄[0;31m▒▒▒▒[0;1;32m░░░░[0;31m▓▓▓▓[0;1;33m▓▓▓▓[0;31m▓▓[0;30;41m░░[0;1;37;40m▓▓[0;1;33;40m▓▓[0;1;37;40m░░░░[0;1;33;40m▓▓[0;1;37;40m▓▓[0;30;41m░░[0;31;40m▓▓[0;1;33;40m▓▓▓▓[0;31m▓▓▓▓[0;1;32m░░░░[0;31m▒▒▒▒[0;1;34m▄[0m    [34m▀[0;1;34;46m▒▒▒▒█[0;1;34;40m███[0m

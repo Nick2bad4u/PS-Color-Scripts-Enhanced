@@ -1,13 +1,4 @@
-﻿# Converted from: TR-UND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/synth19/raw/TR-UND.ANS
-# Source Revision: archive-sha256:a4b32d44bd13b23ce2a5b7bf3da35e35f98e97043ae7686c17dcf8a72aa42d9b
-# Source SHA-256: 3d6461f886cbd1ef4999c95b1d3a2cf71e82ef86ae73592ce21d8282da18f796
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-UND.ANS by Trippah (synth19); released in synth19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: TR-UND.ANS by Trippah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-synth19-tr-und
 
 Write-Host '
 

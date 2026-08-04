@@ -1,18 +1,4 @@
-﻿# Converted from: DH-HELL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/insm0496/raw/DH-HELL.ANS
-# Source Revision: archive-sha256:1a45785c82f2140c827f667c29a63ee2b51153892a0849ccd46a2038795f8c22
-# Source SHA-256: e6b41464cba96ea9847abe6c6c365d1df11fa52311f0171c59ffeeef356e27d9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DH-HELL.ANS by DarkHeart (iNSOMNiA); released in insm0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: HeLLTeCH Ent!
-# SAUCE Author: DarkHeart
-# SAUCE Group: iNSOMNiA
-# SAUCE Date: 19960401
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: HeLLTeCH Ent! by DarkHeart | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-insm0496-dh-hell
 
 Write-Host '
                      [1;36m▄[0;36m▄▄ [0;37m  [0;31m░[0m   [1;36m▄[0;36m▄▄ [0m       [1;36m░[0m

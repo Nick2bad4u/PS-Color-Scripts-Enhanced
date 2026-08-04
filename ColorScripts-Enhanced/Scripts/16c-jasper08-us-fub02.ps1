@@ -1,18 +1,4 @@
-﻿# Converted from: US-FUB02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper08/raw/US-FUB02.ANS
-# Source Revision: archive-sha256:4170bc28a3d93b55b5d7813a9078fa917029de207cfcf794080d34d8f6ddd97e
-# Source SHA-256: ca9050baf8770047df2d044c8a2b1e33ef3d1465df7f876078b2efad69f4bb1d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FUB02.ANS by Spear + Avenging Angel (glue); released in jasper08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fubar
-# SAUCE Author: multiple artists
-# SAUCE Group: glue
-# SAUCE Date: 20020705
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: fubar by Spear + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper08-us-fub02
 
 Write-Host '
 

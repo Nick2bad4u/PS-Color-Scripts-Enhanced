@@ -1,18 +1,4 @@
-﻿# Converted from: SR-VIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/666-0695/raw/SR-VIC.ANS
-# Source Revision: archive-sha256:01a21dca34c89c7dd6644e0787402efaf574da8d380943a8a9833b62ca11686e
-# Source SHA-256: 1c05e16556e9a2dd418a58b3a0fcd0e2709c2578c5e3c13a4e109e972ef5e381
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SR-VIC.ANS by Soul Reaper (666 Productions); released in 666-0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Vic
-# SAUCE Author: Soul Reaper
-# SAUCE Group: 666 Productions
-# SAUCE Date: 19950620
-# SAUCE Dimensions: 80x63
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Vic by Soul Reaper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-666-0695-sr-vic-part01
 
 Write-Host '
       [31m▒▓[0m                      [31m   [0m                             [31m░▓█[0m

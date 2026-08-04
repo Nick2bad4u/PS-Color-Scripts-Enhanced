@@ -1,18 +1,4 @@
-﻿# Converted from: 32-ZONE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0197/raw/32-ZONE.ANS
-# Source Revision: archive-sha256:331ffa2c0b41c075aec836339cfb4b33b33b171a17da17bd721952cf3966c823
-# Source SHA-256: 66fd7ea4b90fe647e5d246f881170752078d512571d3270340d38d0173aa9670
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 32-ZONE.ANS by ezy (bamboosh); released in bmb-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: neutral zone  + a litel letter!
-# SAUCE Author: ezy
-# SAUCE Group: bamboosh
-# SAUCE Date: 19961221
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: neutral zone + a litel letter! by ezy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0197-32-zone
 
 Write-Host '
                             [1;34;41m░░[0m

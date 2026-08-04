@@ -1,18 +1,4 @@
-﻿# Converted from: PO-OD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flood-01/raw/PO-OD1.ANS
-# Source Revision: archive-sha256:543c3313044baca82ad858ce1548c88cf8d5f938e94cd3141722019b3e2c36f7
-# Source SHA-256: 01690d93058911f953eac86447566d193b71e512f50affdca32a9600fdb8a374
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PO-OD1.ANS by Poetic Justice (flood! productions); released in flood-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: overdOse!
-# SAUCE Author: Poetic Justice
-# SAUCE Group: flood! productions
-# SAUCE Date: 19960215
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: overdOse! by Poetic Justice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flood-01-po-od1
 
 Write-Host '
           [1;32m▀▄[0m    [32m [0m     [1;32m▄[0m               [32m▄▄▄▄[0;1;32;42m░[0m    [32m [0m     [1;32;42m▒[0;32m▄▄▄▄▄[0m   [1;30m [0m a[1;34m [0mp[1;30moetic [0mj[1;30mustice[0m

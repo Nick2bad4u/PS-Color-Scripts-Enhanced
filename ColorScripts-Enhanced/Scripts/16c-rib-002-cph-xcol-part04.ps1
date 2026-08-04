@@ -1,13 +1,4 @@
-﻿# Converted from: CPH-XCOL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-002/raw/CPH-XCOL.ANS
-# Source Revision: archive-sha256:e8ee016fc6dc7010d1669f3004c9056199d6b9f109e6b9a2a84d085b333352fc
-# Source SHA-256: ed83d4c69010101772ac6957853a8c6626804ab3318d837bf50ee70ecec4a67f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-XCOL.ANS by Cyberpunch (rib-002); released in rib-002 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 149-194
-# Columns: 1-80
+﻿# Artwork: CPH-XCOL.ANS by Cyberpunch | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-002-cph-xcol-part04
 
 Write-Host '
 [1;30m$$[0m$b.[1m      [0m,p[1m$$[0m$[1m$┘ⁿⁿ"^"ⁿ".ⁿ└$$[0m$[1;30m$$[0m$[1m$$ [0;1;36m.[0;34m_[0;1;37m`"ⁿ$[0m$$[1m$$$ⁿⁿ"^"ⁿ$$[0m$$[1m$ⁿ ^"ⁿ$$[0m$p,[1m      [0;1;30m.d$$[0m

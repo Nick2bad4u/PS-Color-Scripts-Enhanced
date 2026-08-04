@@ -1,18 +1,4 @@
-﻿# Converted from: STC-AVGA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0395/raw/STC-AVGA.ANS
-# Source Revision: archive-sha256:c61de425dfa6c17c15d8c7a3f501188ae0f41871982f3a874a318b2cadecd44e
-# Source SHA-256: 147432a03691ec32f1fe689b23ee8997321ab2366ed80bc71f85217922e79807
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: STC-AVGA.ANS by Stone The Crow (ACiD Productions); released in acdu0395 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: AVGA
-# SAUCE Author: Stone The Crow
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950301
-# SAUCE Dimensions: 80x108
-# Lines: 66-108
-# Columns: 1-80
+﻿# Artwork: AVGA by Stone The Crow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0395-stc-avga-part03
 
 Write-Host '
                  [1;30m▒[0;1;33m ▓██████▌[0m      [1;37m▄▄▐▄▄▓██████▄▄▄▄▄   [0m        [1;33m▒████▌[0m  [1;33m▒▓░[0m

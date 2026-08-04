@@ -1,13 +1,4 @@
-﻿# Converted from: PL-EMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-47/raw/PL-EMP.ANS
-# Source Revision: archive-sha256:5a81ff84666e8ca77e03c1a69a1322b9ac15409e07d4b79d3de12379123e7100
-# Source SHA-256: f60c9ccee7bfbfe79ab25405995025fac1ab7a8a19199bb4663114c503fbf4d4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PL-EMP.ANS by Palmore (rmrs-47); released in rmrs-47 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: PL-EMP.ANS by Palmore | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-47-pl-emp
 
 Write-Host '
            [35m                                   [0;1;33m                 [0m

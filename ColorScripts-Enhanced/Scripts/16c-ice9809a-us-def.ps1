@@ -1,17 +1,4 @@
-﻿# Converted from: US-DEF.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9809a/raw/US-DEF.ICE
-# Source Revision: archive-sha256:f2a098775fdbb210a9bf7cffa0ea655de4a9c467e19d0ddf64020794584e71e7
-# Source SHA-256: 6c2cdb9056630b661bdf6473d3b41b976a872f5fae22bd1af82c8c8e75830fe5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-DEF.ICE by Taintedx + Scientifik (ice9809a); released in ice9809a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Defsquad
-# SAUCE Author: DefSquad
-# SAUCE Date: 19980904
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: Defsquad by Taintedx + Scientifik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9809a-us-def
 
 Write-Host '
 [1m                                                             [0m   [1;30m░░▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: DD-DOM01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dom-9706/raw/DD-DOM01.ANS
-# Source Revision: archive-sha256:a16d91b4075cff760b5038e2a8f1aab02d1965c9e4bbc85ed187b0405326b9b6
-# Source SHA-256: 31c7852f605bc5b443b3e3b8ac9393398f8faa5d4786dc2674a67a3ce7d17ce0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-DOM01.ANS by Deeply D (Domino); released in dom-9706 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Domino 1.
-# SAUCE Author: Deeply D
-# SAUCE Group: Domino
-# SAUCE Date: 19970605
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Domino 1. by Deeply D | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dom-9706-dd-dom01
 
 Write-Host '
 

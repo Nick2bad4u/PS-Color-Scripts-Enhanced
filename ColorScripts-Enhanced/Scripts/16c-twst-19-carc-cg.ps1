@@ -1,18 +1,4 @@
-﻿# Converted from: CARC-CG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst-19/raw/CARC-CG.ANS
-# Source Revision: archive-sha256:38480cbb01973683b6bb179e82483ce3434180444dfcf5b811296224974846eb
-# Source SHA-256: 301a6d3db0d5462aa4bac87290f32e12184c10ac90a81243f2d760416d5529d1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CARC-CG.ANS by putrid carcass (twisted); released in twst-19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: code garden
-# SAUCE Author: putrid carcass
-# SAUCE Group: twisted
-# SAUCE Date: 19980123
-# SAUCE Dimensions: 80x25
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: code garden by putrid carcass | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst-19-carc-cg
 
 Write-Host '
                     [35m▄▄█████▓░[0m                        [1;34m░░░[0m

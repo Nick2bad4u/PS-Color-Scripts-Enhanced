@@ -1,18 +1,4 @@
-﻿# Converted from: DIE-KOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-03/raw/DIE-KOR.ANS
-# Source Revision: archive-sha256:8478e7ed47e52d1e07bf55e17a5f105ced4b468c6f56a8b59fd6b8ef8dada5ca
-# Source SHA-256: d04c40e1021d3681d2ad90f872f7b6016ed955c284557a5fe927956f436ce947
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DIE-KOR.ANS by dieznyik (eclipse); released in ecl-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: david koresh. (??) :)
-# SAUCE Author: dieznyik
-# SAUCE Group: eclipse
-# SAUCE Date: 19960714
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: david koresh. (??) :) by dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-03-die-kor
 
 Write-Host '
 [1;30m               [0;31m [0;1;30m  [0;31m [0;1;30m     [0;31m [0;1;30m      [0m   [36m░▒▓████[0;30;46m░[0;36;40m███[0;1;37;46m░░▒▒▓████[0;1;37;47m▓▓[0;1;37;46m███████████████[0;1;37;47m▄[0;1;37;46m███[0;1;37;47m▄[0;1;37;46m█[0;1;37;47m▄▄░[0m

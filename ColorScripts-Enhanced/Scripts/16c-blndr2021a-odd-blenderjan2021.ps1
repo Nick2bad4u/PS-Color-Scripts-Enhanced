@@ -1,18 +1,4 @@
-﻿# Converted from: odd-blenderJan2021.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2021a/raw/odd-blenderJan2021.ans
-# Source Revision: archive-sha256:2734d01c4060a91ea3bc9a9c95c82ba6b6cc9bc9ae9d2bb629ec4f9af0f5a67a
-# Source SHA-256: 03b3a6e60d2ca56b5794ec152501625485b65104da85ab224b9994ffca56be52
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: odd-blenderJan2021.ans by Odd (Mistigris?); released in blndr2021a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: Odd
-# SAUCE Group: Mistigris?
-# SAUCE Date: 20210117
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: odd-blenderJan2021.ans by Odd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2021a-odd-blenderjan2021
 
 Write-Host '
                                                                  [1;35m▄[0m   [35m▄[0m

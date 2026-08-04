@@ -1,18 +1,4 @@
-﻿# Converted from: SMP-ND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flg01/raw/SMP-ND.ANS
-# Source Revision: archive-sha256:562ebcaad20a0b2a8b7b107f134b5be6ba5f067cf297f19839a81e7c0eee3352
-# Source SHA-256: f2fee489592acb4f0e44aa2a905e591b513598783486874cac833ba5b7ff1ff4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMP-ND.ANS by Knocturnal (AWE Lettering); released in flg01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Aftermath
-# SAUCE Author: Knocturnal
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 20010702
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Aftermath by Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flg01-smp-nd
 
 Write-Host '
 [36m [0m    [36m          [0;37m  [0;36m [0;1;36m [0;36m     [0;1;36m [0;36m      [0m               [36m [0m              [36m  ▄▄▄██████████[0;30;46m░░░░[0m

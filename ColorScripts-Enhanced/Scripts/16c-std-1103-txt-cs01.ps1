@@ -1,18 +1,4 @@
-﻿# Converted from: TXT-CS01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/std-1103/raw/TXT-CS01.ANS
-# Source Revision: archive-sha256:fcdd7c1ae0053f52ee22d0eb16724f03a3c01af3340a96d97881f66cfaeea4af
-# Source SHA-256: efcbbf696c0e4b0991430dc4431db013a88a48740b208e1c806bc7afc7a0fd2c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TXT-CS01.ANS by The Textorcist (std); released in std-1103 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: its a kind of weed :)
-# SAUCE Author: The Textorcist
-# SAUCE Group: std
-# SAUCE Date: 20031102
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: its a kind of weed :) by The Textorcist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-std-1103-txt-cs01
 
 Write-Host '
       [1;33m▀[0m [1;33m▄[0m      [1;33m░░▄▄[0;1;37m▓▓[0;1;33m██▓▓▄▄▄[0;32m░░░[0m     [1;32m░░[0m   [1;32m▒▒▒   [0m [1;32m ░░░ [0m         [32m█[0;1;32m▒[0;32m▓▒[0m

@@ -1,12 +1,4 @@
-# Converted from: indyz-kali.utf8.ans
-# Source encoding: utf8
-# Source URL: https://raw.githubusercontent.com/durdraw/durdraw/cf63d7445c00c5db1ee2dd28df8325649045b803/examples/indyz-kali.utf8.ans
-# Source Revision: cf63d7445c00c5db1ee2dd28df8325649045b803
-# Source SHA-256: f7d3a9abc3adb84f1512561a3ac483eace743856b69fbff76fc8b53dbf340f66
-# Source License: BSD-3-Clause
-# Source Attribution: Durdraw contributors (copyright Sam Foster); upstream artwork filename credits indyz
-# Source Modification: Decoded as UTF-8 and wrapped in a safe PowerShell literal without changing ANSI bytes or 80-by-32 LF geometry.
-# Source Conversion Mode: Passthrough
+# Artwork: indyz-kali.utf8.ans by Durdraw contributors (copyright Sam Foster); upstream artwork filename credits indyz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=durdraw-indyz-kali
 
 Write-Host '[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m█[0;34;40m█[0;34;40m█[0;34;40m█[0;34;40m█[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m█[0;34;40m█[0;34;40m█[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m█[0;34;40m█[0;34;40m█[0;34;40m█[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▒[0;34;40m▒[0;34;40m▒[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m█[0;34;40m█[0;34;40m█[0;34;40m█[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▒[0;34;40m▒[0;34;40m▓[0;34;40m▓[0;34;40m█[0;34;40m█[0;34;40m█[0;34;40m▓[0;34;40m▓[0;34;40m▒[0;34;40m▒[0;34;40m▓[0;34;40m▓[0;34;40m█[0;34;40m█[0;34;40m█[0;34;40m█[0;34;40m█[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓
 [0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m█[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m█[0;34;40m█[0;34;40m█[0;34;40m█[0;34;40m█[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▒[0;34;40m▒[0;34;40m▒[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m█[0;34;40m█[0;34;40m█[0;34;40m█[0;34;40m█[0;34;40m█[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m█[0;34;40m█[0;34;40m█[0;34;40m█[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m▓[0;34;40m█[0;34;40m█[0;34;40m█[0;34;40m█[0;34;40m█[0;34;40m▓[1;30;40m▒

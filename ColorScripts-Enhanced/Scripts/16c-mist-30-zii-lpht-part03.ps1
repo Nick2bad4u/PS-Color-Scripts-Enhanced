@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-LPHT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/ZII-LPHT.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: e7a4a936e7324237d02ef925b347194b90bc147e0a28b3a3e12e427724367967
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-LPHT.ANS by Zeus II (Mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: lopht BBS
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241230
-# SAUCE Dimensions: 80x190
-# SAUCE Font: IBM VGA
-# Lines: 55-81
-# Columns: 1-80
+﻿# Artwork: lopht BBS by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-zii-lpht-part03
 
 Write-Host '
 [1;36;46m▒[0;36m█[0;37m [0;31m▓▀▀▀[0;1;37m▀[0;31m▀[0;1;37m▀▀█[0m [36m▌██████████████████████████████[0;1;30m█▓░[0m [1;30m▐[0;1;30;47m█▀[0;1;37;47m ▄▄▄[0;1;37;40m█████████████████████████[0m

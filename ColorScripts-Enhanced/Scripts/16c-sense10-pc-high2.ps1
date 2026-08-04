@@ -1,18 +1,4 @@
-﻿# Converted from: PC-HIGH2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense10/raw/PC-HIGH2.ANS
-# Source Revision: archive-sha256:b6321b8225c23719ad6deac35de4ad4ee43be60d289a60a77bc643ba3343ad2f
-# Source SHA-256: 9e91c67658a0eb4021663f11255ed0e3d6d87767cabb76e0959f804460db048d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-HIGH2.ANS by Proctowhatever (SeNSE); released in sense10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: spOrk!
-# SAUCE Author: Proctowhatever
-# SAUCE Group: SeNSE
-# SAUCE Date: 19980612
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: spOrk! by Proctowhatever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense10-pc-high2
 
 Write-Host '
                       [31m,[0;1;31md[0m          [1;31m,[0;31md[0;37m  [0;1;31m,d[0;31m`[0;1;31m+g[0;31m╓,[0;1;31m_[0m    [1;31m,[0;31md[0m

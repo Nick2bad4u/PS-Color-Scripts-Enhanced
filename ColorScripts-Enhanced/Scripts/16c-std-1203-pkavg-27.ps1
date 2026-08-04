@@ -1,18 +1,4 @@
-﻿# Converted from: PKAVG-27.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/std-1203/raw/PKAVG-27.ANS
-# Source Revision: archive-sha256:cc519a96541ab87c3ccfb6e8a3b506c4dc60ee9fa6ce9aefd475f4a8ca3ef70d
-# Source SHA-256: 5a52ff757af6cefd299b965d005c50a1abd2994073222c1ab5a6e5b9de95977f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PKAVG-27.ANS by Avenging Angel + Phunk (spread the disease); released in std-1203 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: 27 inchesss!
-# SAUCE Author: phunk avg
-# SAUCE Group: spread the disease
-# SAUCE Date: 20031126
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: 27 inchesss! by Avenging Angel + Phunk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-std-1203-pkavg-27
 
 Write-Host '
 

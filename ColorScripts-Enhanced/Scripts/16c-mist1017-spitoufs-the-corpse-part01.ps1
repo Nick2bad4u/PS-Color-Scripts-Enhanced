@@ -1,18 +1,4 @@
-﻿# Converted from: SPITOUFS-THE-CORPSE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1017/raw/SPITOUFS-THE-CORPSE.ANS
-# Source Revision: archive-sha256:6708b2e97ec89dc60aaa56555b5a6e3e3ca4c9669a03637f61c39b343bf7700c
-# Source SHA-256: 2be40b87984c0e8737875737d4f6a0e293ca48236da3db8d386e024861f61a52
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPITOUFS-THE-CORPSE.ANS by Spitoufs (Mistigris); released in mist1017 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Corpse That Ran Away
-# SAUCE Author: Spitoufs
-# SAUCE Group: Mistigris
-# SAUCE Date: 20161016
-# SAUCE Dimensions: 80x74
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: The Corpse That Ran Away by Spitoufs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1017-spitoufs-the-corpse-part01
 
 Write-Host '
 [33m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒[0;30m░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

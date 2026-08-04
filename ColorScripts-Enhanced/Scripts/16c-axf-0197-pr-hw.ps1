@@ -1,18 +1,4 @@
-﻿# Converted from: PR-HW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-0197/raw/PR-HW.ANS
-# Source Revision: archive-sha256:08e3420d6f5bf039e22601d044f43006678a0458956ba31375be1cbab8367813
-# Source SHA-256: 7d82a10b281a6d96046ef4b23c98fc8c7ef41cdbc617e7d3c159d85b2016c11e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR-HW.ANS by Primal Rage (Axf / Xeed); released in axf-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Heat wave
-# SAUCE Author: Primal Rage
-# SAUCE Group: Axf / Xeed
-# SAUCE Date: 19960624
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Heat wave by Primal Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-0197-pr-hw
 
 Write-Host '
 [31m▀██[0;1;30;41m ▄[0;31m█[0;37m [0;31m██[0;1;30;41m ▄[0;31m█[0;37m           [0;31m▄██[0;1;37;41m■[0;31m█▀▀▀▀▀▀▀▀▀███[0;1;30;41m▄[0;31m█▀▀▀▀▀▀▀[0;1;37;41m ▄[0;31m█[0;1;37;41m■[0;31m▄[0;37m  [0;32m▄▓▄[0m            [32m▀▄▐▓▐▓███[0m

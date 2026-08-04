@@ -1,13 +1,4 @@
-﻿# Converted from: NE-IOP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-n/raw/NE-IOP.ANS
-# Source Revision: archive-sha256:c71a317bef22d5118244ba95f552871899d98097e115e94b35d9631800ce0aa2
-# Source SHA-256: a346d6a184fe17bf9a108c6456bae6989ebc39c1a78d5325a8dfdc55f407da13
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NE-IOP.ANS by Nemesis (ansis-n); released in ansis-n and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 24-70
-# Columns: 1-80
+﻿# Artwork: NE-IOP.ANS by Nemesis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-n-ne-iop-part02
 
 Write-Host '
                           [34m▄▒▓▀[0m       [34m▄▀▀▒░░▀▀▀▄▄[0m

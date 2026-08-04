@@ -1,18 +1,4 @@
-﻿# Converted from: FO-SHAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phb-0497/raw/FO-SHAD.ANS
-# Source Revision: archive-sha256:85681ee98c1ba1a2744730faa07d763080600c62bb25593bcf45c740268afee1
-# Source SHA-256: 93ff47c38a9263db56cca5c21cde0861b2771d54da5b82a5cbf821ba3f4fd770
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FO-SHAD.ANS by flexor (pHOBIA@!); released in phb-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: shad
-# SAUCE Author: flexor
-# SAUCE Group: pHOBIA@!
-# SAUCE Date: 19970330
-# SAUCE Dimensions: 80x56
-# Lines: 33-56
-# Columns: 1-80
+﻿# Artwork: shad by flexor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phb-0497-fo-shad-part02
 
 Write-Host '
            [31m▄▄████████▄▄▄[0m

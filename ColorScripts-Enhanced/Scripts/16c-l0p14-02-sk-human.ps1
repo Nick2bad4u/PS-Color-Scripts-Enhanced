@@ -1,18 +1,4 @@
-﻿# Converted from: SK!HUMAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p14_02/raw/SK!HUMAN.ANS
-# Source Revision: archive-sha256:d20654a6c01baca0c78130f8dbf627e3758aef76e81e82df43ce19f00f1e58b7
-# Source SHA-256: 5cfff44db2c4329a3f27a60a2a91302a4c2a1065f513cdb2e5e022829bb9901b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!HUMAN.ANS by sIMONkING (thelo0p); released in l0p14_02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: humanoid invasion
-# SAUCE Author: sIMONkING
-# SAUCE Group: thelo0p
-# SAUCE Date: 20020103
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: humanoid invasion by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p14-02-sk-human
 
 Write-Host '
         [35m░░░[0m    [35m░░░░[0m   [35m░░░█[0m    [35m█  ░[0;1;35;45m▄▄▄[0;35m▄░░░░[0m   [35m░░░[0m       [35m▄[0;1;35;45m▄▄[0;35m▄░░ [0;1;30msK![0m

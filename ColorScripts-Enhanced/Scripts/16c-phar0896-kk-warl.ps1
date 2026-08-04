@@ -1,18 +1,4 @@
-﻿# Converted from: KK!WARL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phar0896/raw/KK!WARL.ANS
-# Source Revision: archive-sha256:6b5cc8d7252908bb34e044ed6dcfb42f8dbf6c65d3528deee6494d62c5743e7d
-# Source SHA-256: 103d5d9b0aee13f5796fcb69ce9b1d566051e78d2a60ea95156c888e995237da
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KK!WARL.ANS by Kyosuke (PHAR); released in phar0896 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Warland BBS
-# SAUCE Author: Kyosuke
-# SAUCE Group: PHAR
-# SAUCE Date: 19960730
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Warland BBS by Kyosuke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phar0896-kk-warl
 
 Write-Host '
                     [1;34m▄▄[0;34m▄[0;1;34;44m▒ ░[0;34m█[0;1;34;44m░[0;34m█▀▀[0;37m [0;34m▄▄▄[0;1;34;44m░[0;34m▄▄▄▄██▀[0;37m   [0;34m▄▄▄▄▄▄▄▄▄[0;37m [0;1;30m▄[0;1;34m▀[0;1;34;44m▄  [0;34m██[0;1;34;44m [0;34m███[0;36;44m▄▄▄[0;34;40m██▄▄ [0m

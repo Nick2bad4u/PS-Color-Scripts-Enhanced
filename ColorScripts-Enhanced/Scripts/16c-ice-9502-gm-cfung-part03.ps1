@@ -1,18 +1,4 @@
-﻿# Converted from: GM-CFUNG.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9502/raw/GM-CFUNG.ICE
-# Source Revision: archive-sha256:651d57ec8cfbb7a8c418d666720edd49ef86d48a0b256443452b3132c0397ce3
-# Source SHA-256: f8b43eef55c3b1a50bae40616931eedd6a434b8a11dba6bbf21acb89133bb493
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GM-CFUNG.ICE by Gman (iCE); released in ice-9502 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Club Fungi
-# SAUCE Author: Gman
-# SAUCE Group: iCE
-# SAUCE Date: 19950228
-# SAUCE Dimensions: 80x25
-# Lines: 81-110
-# Columns: 1-80
+﻿# Artwork: Club Fungi by Gman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9502-gm-cfung-part03
 
 Write-Host '
                                                                      [32;40m▀ [0;33;40m▀▌[0m

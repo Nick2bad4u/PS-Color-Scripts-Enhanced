@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-PALM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bm8-0496/raw/AVE-PALM.ANS
-# Source Revision: archive-sha256:6a20500f0b019daf8b74b1011f4e13acdbac779a421770d34d848962bd1ba353
-# Source SHA-256: 5d5ec1ab7c9c80fbd215407d7749b7a79e2265d407773f64f2dfcbe54b489726
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-PALM.ANS by AVENGER (BM & UTsHG); released in bm8-0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Hazard logoff matrix
-# SAUCE Author: AVENGER
-# SAUCE Group: BM & UTsHG
-# SAUCE Date: 19960414
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Hazard logoff matrix by AVENGER | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bm8-0496-ave-palm
 
 Write-Host '
 [36m██████▀[0;37m [0;1;33m▄ [0;36m▀██[0;37m [0;1;33m■▄[0m [36m█████████████▀▀▀▀▀▀█▀▀[0;1;37m ▄▄▄▄▄▄ [0;1;34m▀[0m [1m▄▄██[0;1;47m█▓[0m [1m▄[0m [1m▀[0m ▄ [1m▀▀▀▀ [0;36m▀▀▀▀▀▀[0;37m ▄ [0;36m▀[0;37m [0;1;37m▄[0m

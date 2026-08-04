@@ -1,13 +1,4 @@
-﻿# Converted from: MW-ZONE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eph0695/raw/MW-ZONE.ANS
-# Source Revision: archive-sha256:61ec4551dc794352375c44fe76ae319c35cb8fdacc91cb701b40cfccfff3e01c
-# Source SHA-256: 1894904c8bbca22e01401341ddc0bd4c76840c334d792fa909fa37335d5145c8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MW-ZONE.ANS by Muddy Waters (eph0695); released in eph0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 67-115
-# Columns: 1-80
+﻿# Artwork: MW-ZONE.ANS by Muddy Waters | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eph0695-mw-zone-part03
 
 Write-Host '
                         [1;34m [0m          [1;36mt[0;34m   [0;1;34mH[0;34m   E[0m

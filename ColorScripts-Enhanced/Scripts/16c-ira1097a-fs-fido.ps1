@@ -1,18 +1,4 @@
-﻿# Converted from: FS-FIDO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira1097a/raw/FS-FIDO.ANS
-# Source Revision: archive-sha256:07d85d7b1ace3ea382bd86ac8e385803a9939676404af93c0be4c41385f607a2
-# Source SHA-256: 1c02c7024f922358d7480051d4f3626eb5d5d75943dd5c641493b2ca68cd629f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FS-FIDO.ANS by Flying Squirrel (Irato); released in ira1097a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fid0 NEt
-# SAUCE Author: Flying Squirrel
-# SAUCE Group: Irato
-# SAUCE Date: 19970929
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: Fid0 NEt by Flying Squirrel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira1097a-fs-fido
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: RB-SOLR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/air_0597/raw/RB-SOLR.ANS
-# Source Revision: archive-sha256:6fe653cdae1d1be3a85ad8606d04a6519ed3da6d9d33e501c49ef3bdd23379d9
-# Source SHA-256: 7e185ab885cfa31947f7494b2cab44a06bd5b7ba39b50253d63e5352f248a2ec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RB-SOLR.ANS by raibes (air); released in air_0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: souls reflection?
-# SAUCE Author: raibes
-# SAUCE Group: air
-# SAUCE Date: 19970501
-# SAUCE Dimensions: 80x42
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: souls reflection? by raibes | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-air-0597-rb-solr
 
 Write-Host '
 [35m█████████████████████████████[0;1;31;45m░░░░░░░░░░▓▓▓▓▓▓▓▓░░░░░░░░[0;35m███████████████████████[0m

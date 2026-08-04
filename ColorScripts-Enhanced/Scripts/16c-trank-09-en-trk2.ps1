@@ -1,18 +1,4 @@
-﻿# Converted from: EN-TRK2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/trank-09/raw/EN-TRK2.ANS
-# Source Revision: archive-sha256:037881fdc5a0e385d18474541e1950ffd3912d007c916bf0100e4c7009d9c584
-# Source SHA-256: dd60fbee14b16c840f4bc1b53a2f73ef0910a2c27572f082d0033a427d7e6046
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EN-TRK2.ANS by endless nameless (rival Ascii prods..); released in trank-09 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: trankbitch..
-# SAUCE Author: endless nameless
-# SAUCE Group: rival Ascii prods..
-# SAUCE Date: 19960602
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: trankbitch.. by endless nameless | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-trank-09-en-trk2
 
 Write-Host '
 [31m$,[0m      [31ms,.[0;37m  [0;31m,s[0;1;31m$[0;31mb,.[0;37m [0;31m.,s,.[0m    [1;33men!(rivalascii)[0m              [1;31ms$[0;30;41m$[0m         [1;34;40m`²$$[0;30;44m$[0;1;34;40m$[0;30;44m$[0;34;40mP`[0m

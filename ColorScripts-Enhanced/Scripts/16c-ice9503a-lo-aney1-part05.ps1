@@ -1,13 +1,4 @@
-﻿# Converted from: LO-ANEY1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9503a/raw/LO-ANEY1.ICE
-# Source Revision: archive-sha256:081985c23735b95cddfdc1d77773259556c8f6f57a649cc5efbaea6df8684bed
-# Source SHA-256: 7bd4d43061b5dc6f5fcf5f1c9acca74c0d313511086bb69de7f8e1b4712ed24a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LO-ANEY1.ICE by Leonardo (ice9503a); released in ice9503a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 201-244
-# Columns: 1-80
+﻿# Artwork: LO-ANEY1.ICE by Leonardo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9503a-lo-aney1-part05
 
 Write-Host '
 [0m[0m[1;31;43m░[0;33m▄▄░▄■[0;1;31m▀[0;1;31;43m▓▓▒▒▒[0m [33m▓▄[0;1;31;43m░▒▓[0m [1;37;40m▓████████[0;1;36;40m█████[0;1;37;40m███████▀▀▀▀[0;1;30;40m▄▄▄ [0m█[1;33;47m░▓[0;1;37;40m▌ [0;1;30;40m▄▄ [0m▐[1;33;47m░▓░[0m [1;30;40m▌[0m▐[1;33;47m░▒[0m▌[1;30m▐[0;1;30;47m▓[0m▄▄▄[1;47m░░░░▒▒▒▒▒[0m

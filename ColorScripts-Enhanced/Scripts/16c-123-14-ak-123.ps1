@@ -1,13 +1,4 @@
-﻿# Converted from: AK-123.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/123-14/raw/AK-123.ANS
-# Source Revision: archive-sha256:b32d8634bb45f8f321e1b8556faba3a657651280a9444b90fe2929356b3d8075
-# Source SHA-256: 68e5249d90acaa12908e1b6f2b71d8c3f0f7846b6f83f50dd204fe7a2b4485e1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-123.ANS by Abstrakt (123-14); released in 123-14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: AK-123.ANS by Abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-123-14-ak-123
 
 Write-Host '
 [1;30m123[0m>[1;30mALL[0m

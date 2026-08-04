@@ -1,17 +1,4 @@
-﻿# Converted from: DW-KN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend06/raw/DW-KN.ANS
-# Source Revision: archive-sha256:bdb12df6fb66b6e7f7ab1240c15e9b23d66b94ced69828c85c717709162a24eb
-# Source SHA-256: 0fcf233d82cc570c527433a895e075a2e7d6665b45aa3395773949111efced5f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DW-KN.ANS by drynwhyl (blend); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: kodex null
-# SAUCE Author: drynwhyl
-# SAUCE Group: blend
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: kodex null by drynwhyl | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend06-dw-kn
 
 Write-Host '
 [1;33m[0;31m[0;1;33m[0m                 [31m ░[0;30;41m▓[0;31;40m░[0m   [36;40m▄▌[0;31;40m░[0;30;41m▓[0;31;40m░[0m     [31;40m░[0;30;41m▓[0;31;40m░[0m      [36;40m▄▄[0m    [31;40m░[0;30;41m▓[0;31;40m░[0;30;41m▓[0;31;40m░[0;37;40m  [0;31;40m░[0;30;41m▓[0;31;40m░[0m

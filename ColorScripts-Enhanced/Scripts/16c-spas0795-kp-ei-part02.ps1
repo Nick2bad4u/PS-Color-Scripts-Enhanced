@@ -1,18 +1,4 @@
-﻿# Converted from: KP-EI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spas0795/raw/KP-EI.ANS
-# Source Revision: archive-sha256:0b03dbe3b76ad238c23558feaa101fce5b6c23b945c08f3870fd50977b7f9e65
-# Source SHA-256: 580e5365a9f3a19d5eb03581eb143089d3ff8f481de42d5800f91e04100ed421
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KP-EI.ANS by Kerplunk (Spastic Productions); released in spas0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Evil Intentions
-# SAUCE Author: Kerplunk
-# SAUCE Group: Spastic Productions
-# SAUCE Date: 19950613
-# SAUCE Dimensions: 80x25
-# Lines: 25-52
-# Columns: 1-80
+﻿# Artwork: Evil Intentions by Kerplunk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spas0795-kp-ei-part02
 
 Write-Host '
 ▄[46m▓▓▒▒▒░░░[0;36m▄[0;1;30m▀[0;36m▄░ ▓[0;33m▄▓▀[0;36m▓▌[0m■▀▀▓█████▄▄[36m▀▀▓▄▄▄[0;46m▒[0;36m▀[0;33m■▄[0;36m░[0;1;30m▐▌[0;36m▒█▓  [0;34m▒   [0;33m░ [0;31m░[0m      [1;31m▄▀▀▀▀■▄   [0;34m▀■▄▀■▄▄[0m

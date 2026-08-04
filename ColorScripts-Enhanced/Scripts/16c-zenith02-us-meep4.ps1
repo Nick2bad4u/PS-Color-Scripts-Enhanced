@@ -1,18 +1,4 @@
-﻿# Converted from: US-MEEP4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zenith02/raw/US-MEEP4.ANS
-# Source Revision: archive-sha256:89af45c021399cb7150be8c9dd70d9c3709facfd5b2491816aa34f9f5096ceb7
-# Source SHA-256: e27704d1ef20efa67195620b9ac934ba4c1828c9d88aa881869544019b54d7d0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-MEEP4.ANS by Sudden Death + Retribution (Zenith); released in zenith02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Meep
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Zenith
-# SAUCE Date: 19980616
-# SAUCE Dimensions: 80x25
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: Meep by Sudden Death + Retribution | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zenith02-us-meep4
 
 Write-Host '
  [1m███[0;1;47m▓▓▓[0;1;40m▀[0m▀[30;46m█▀░░░░░░░[0;36;40m▀[0;37;40m [0;1;33;40m▄█▀▀[0;1;33;43m▀▒▒▓▓[0;1;33;40m██▄▄▄▄[0m ▀▀[1m▀[0;1;47m▀█[0;1;40m███████[0;1;47m▓░[0m▌[30;46m█[0;37;40m▐[0;1;37;47m▒▓[0;1;37;40m▀[0m▀[30;46m██[0;1;37;40m▄████████████████[0;1;37;47m▓▓▓[0m

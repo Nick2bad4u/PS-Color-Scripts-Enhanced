@@ -1,19 +1,4 @@
-﻿# Converted from: US-MRROR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-44/raw/US-MRROR.ANS
-# Source Revision: archive-sha256:6c51508cedeaa9140fcf08750a75edb14e0cec0eebe7b4290346e95cd3548876
-# Source SHA-256: adb40c51845f562bf38c7294d3733f076c5a0de591d68c8e3259da0c326c87fe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-MRROR.ANS by Nail + Savage (fire); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: mirror
-# SAUCE Author: nail + savage
-# SAUCE Group: fire
-# SAUCE Date: 20251111
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: mirror by Nail + Savage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-44-us-mrror
 
 Write-Host '
 [35;40m█▀▄[0;1;34;45m ■[0;1;34;40m▄▀▄▀▄▓▓[0m    [1;34m▄▄[0;34m▀▀[0;1;34m▀██▄[0;1;34;44m▄[0;1;34;40m▀[0;1;34;46m▓▓▀[0;34;46m▀[0;34;40m▄[0;1;34;40m▀[0;36m▓▓[0;1;34;46m▀█[0;1;34;40m▀■[0;36m▄  [0;37;46m░[0;36;40m█ [0;1;34;40m▄[0;1;34;46m▀[0;46m·[0;1;34;40m▀[0;36m [0;1;34;46m█[0;36m█[0;37;46m [0;1;34;46m▀[0;1;34;40m▀[0;1;34;46m▀[0;36m▄▄▀[0;1;34;46m·[0;1;34;44m▄[0;34m▀[0;1;34m▄▄[0;1;34;44m▄ ■[0;34m▀[0;1;34m▄[0;34m▄▀[0;1;34;44m■▄[0;34m▄[0;1;34m [0;34m▄[0;34;45m▀▀[0;35;40m▄[0;34;40m▄[0m

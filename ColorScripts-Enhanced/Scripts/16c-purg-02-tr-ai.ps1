@@ -1,13 +1,4 @@
-﻿# Converted from: TR-AI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-02/raw/TR-AI.ANS
-# Source Revision: archive-sha256:13a6a5336de8c729c09f9c49d168aa7729cddadf417f85218af7276fcb803af7
-# Source SHA-256: 728de80fec8d8bcd0863379b03d2048e354f2cdc9df639cdec54288cbd98e85f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-AI.ANS by The Reaper (purg-02); released in purg-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: TR-AI.ANS by The Reaper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-02-tr-ai
 
 Write-Host '
  [1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

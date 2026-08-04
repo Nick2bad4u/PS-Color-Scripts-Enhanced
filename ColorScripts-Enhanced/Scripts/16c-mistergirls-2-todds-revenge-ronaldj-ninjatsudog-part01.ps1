@@ -1,19 +1,4 @@
-﻿# Converted from: ronaldj-ninjatsudog.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mistergirls-2-todds-revenge/raw/ronaldj-ninjatsudog.ans
-# Source Revision: archive-sha256:daef7a9d06d692a9f92b578831789dfe6317b3337ec7a90d54fe826c9c7b4e13
-# Source SHA-256: 3a15d3da94f90ed5a5278c4e851a5a61a77e31c5c449d1cc3d6a8c7863439ec4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ronaldj-ninjatsudog.ans by Ronald J Peppercorn (Mistergirls); released in mistergirls-2-todds-revenge and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: NinjatsuDog
-# SAUCE Author: Ronald J Peppercorn
-# SAUCE Group: Mistergirls
-# SAUCE Date: 20180311
-# SAUCE Dimensions: 80x56
-# SAUCE Font: IBM VGA
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: NinjatsuDog by Ronald J Peppercorn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mistergirls-2-todds-revenge-ronaldj-ninjatsudog-part01
 
 Write-Host '
 [37;40m████████████████████████████████████████████████████████████████████████████████[0m

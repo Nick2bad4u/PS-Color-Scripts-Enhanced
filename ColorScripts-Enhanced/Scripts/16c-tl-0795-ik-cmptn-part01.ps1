@@ -1,19 +1,4 @@
-﻿# Converted from: IK-CMPTN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tl-0795/raw/IK-CMPTN.ANS
-# Source Revision: archive-sha256:cc100c6a0c273cd42e848ec70d170e2825a98efaeb84e152cf11a1a4f8abea10
-# Source SHA-256: b2f9e24236b5b41f4f1c5ffc5d5cfda9105de80619e3a46088924f7b13194709
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IK-CMPTN.ANS by ill communikation (Teklordz); released in tl-0795 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Compton
-# SAUCE Author: ill communikation
-# SAUCE Group: Teklordz
-# SAUCE Date: 19950701
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: released in 0795 Teklordz Artiphaks | (c)1995 Teklordz Productions.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Compton by ill communikation | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tl-0795-ik-cmptn-part01
 
 Write-Host '
 [1;30m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀███▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m

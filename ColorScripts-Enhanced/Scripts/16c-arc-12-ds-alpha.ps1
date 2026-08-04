@@ -1,17 +1,4 @@
-﻿# Converted from: ds-alpha.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/arc-12/raw/ds-alpha.ans
-# Source Revision: archive-sha256:7e32192194be6b7c1e69ce8969fca543780476f0eecbbd85d88967f23bac7be9
-# Source SHA-256: fdeb8d03b8ce0eb08f1dc2d00c70ff004163b85ca318d3f165400ebe7c150d28
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ds-alpha.ans by Dying Soul (Dominio); released in arc-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: Dying Soul
-# SAUCE Group: Dominio
-# SAUCE Date: 19990223
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ds-alpha.ans by Dying Soul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-arc-12-ds-alpha
 
 Write-Host '
             [1;30m▄[0;1;30;46m▀[0;1;30;40m [0;34m░[0;30;44m▓[0m        [1;30;40m▀[0;1;30;46m▄▀[0;36m▄[0;1;30m▄[0m [30mds?[0;1;30m [0m     [1;30;46m█[0;36m█[0;1;30;46m▐[0;1;30;40m  ▄[0;1;30;46m▀[0m

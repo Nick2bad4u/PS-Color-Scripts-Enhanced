@@ -1,18 +1,4 @@
-﻿# Converted from: US-CORE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-05/raw/US-CORE1.ANS
-# Source Revision: archive-sha256:9a8be922d1845a782b9897ae82406f49203492d3f9366796ffa94c1b52060165
-# Source SHA-256: 5b32aa09298677cbc5cec1a0e39e9a20b4547dad93a15ef8b9a11503b4602bfe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CORE1.ANS by Avenging Angel + Delicious (Hieroglyphics); released in hiero-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Upcore
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20010101
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Upcore by Avenging Angel + Delicious | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-05-us-core1
 
 Write-Host '
 

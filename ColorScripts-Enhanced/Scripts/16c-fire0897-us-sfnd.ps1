@@ -1,18 +1,4 @@
-﻿# Converted from: US-SFND.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0897/raw/US-SFND.ANS
-# Source Revision: archive-sha256:2f847e13ac44c4a612ca9588cf01055509cccf841191e379aa1210361ce47235
-# Source SHA-256: 33c11db2b9a40bb712cbbec0b36452a3af95ff14b1739baaa29275ce785aefae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SFND.ANS by Nail + Warpus (lazarus / fire); released in fire0897 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: superfiend
-# SAUCE Author: warpus / nail
-# SAUCE Group: lazarus / fire
-# SAUCE Date: 19970807
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: superfiend by Nail + Warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0897-us-sfnd
 
 Write-Host '
                                   ▐[1;47m██▄[0;1;40m▄[0m▄[1;30m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SH-GTMX1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gvt-0196/raw/SH-GTMX1.ANS
-# Source Revision: archive-sha256:7f942a8f573ad7a36f28673aa7dba5e4385dcfd15878ca340c250e7b30758584
-# Source SHA-256: 88ec80a611951167b6501887253dc2e03035fe57e0f35fbf09b6a90472000f2d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SH-GTMX1.ANS by Shatters (Gravity); released in gvt-0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Gauntlet Matrix
-# SAUCE Author: Shatters
-# SAUCE Group: Gravity
-# SAUCE Date: 19960101
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: The Gauntlet Matrix by Shatters | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gvt-0196-sh-gtmx1
 
 Write-Host '
 [1m ▀ [0m the[1;30m [0m ░  ░░      [1m▄[0m  [1;30m▄▄[0m  [1;30m░░[0m [1;30m▄[0m   ░░ [1;30m  ░▒▓▄  [0m   ░▓███▀▓▄▄▄██▓▒▓███▓▓▓▒░░[1;33m  ▄▓░   [0m

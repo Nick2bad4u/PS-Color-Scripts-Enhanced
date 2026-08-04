@@ -1,18 +1,4 @@
-﻿# Converted from: US-BM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook20/raw/US-BM.ANS
-# Source Revision: archive-sha256:ad9acf30fa46ab5c9a458319782448b90dee64987e366c3cf1e5e495b40c4e0a
-# Source SHA-256: 9cc34cb744b4361cd8f872c94bef7b895c06e1c8a27e962fe12a2083ae12df91
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BM.ANS by Shine + President (bm & ecolove); released in bmbook20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: black maiden
-# SAUCE Author: shine + president
-# SAUCE Group: bm & ecolove
-# SAUCE Date: 19990531
-# SAUCE Dimensions: 80x68
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: black maiden by Shine + President | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook20-us-bm-part01
 
 Write-Host '
                  [1;31m  [0;31m▐[0;1;31;41m▐[0;1;31;40m█▌[0m

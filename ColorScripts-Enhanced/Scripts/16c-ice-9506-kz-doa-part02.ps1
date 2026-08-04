@@ -1,13 +1,4 @@
-﻿# Converted from: KZ-DOA.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9506/raw/KZ-DOA.ICE
-# Source Revision: archive-sha256:54681166ad0e1930ad04020dc73021d068005fba5342f2f81e02d3344e14b83c
-# Source SHA-256: f1365f6728bc27375599d7f0db4e0233005d59e8252899a8ecc208bf535aaff2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KZ-DOA.ICE by Kamikazee (ice-9506); released in ice-9506 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 48-91
-# Columns: 1-80
+﻿# Artwork: KZ-DOA.ICE by Kamikazee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9506-kz-doa-part02
 
 Write-Host '
 [31m█[0;1;31;41m░▒░▒▒▒░▒▒▓▓▓█▓█████[0;1;31;47m██[0;1;31;41m██████▓▓▒▒▒▒░░░[0;1;33;41m [0;31m█[0;1;31;41m░░▒▒▒▓▓█▓[0;1;31;40m▄[0;31m [0;1;31m▒▀[0;1;31;41m▒[0;31m▀▀   [0;1;30m▄▄[0;1;30;47m▓[0;31m [0;1;30m▄▓█▓▓▓▒▒░ ▒▓░░[0;31m [0;1;30m▒[0;31m ▀[0m

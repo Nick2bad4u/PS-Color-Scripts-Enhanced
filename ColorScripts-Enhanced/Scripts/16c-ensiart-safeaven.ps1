@@ -1,13 +1,4 @@
-﻿# Converted from: SAFEAVEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ensiart/raw/SAFEAVEN.ANS
-# Source Revision: archive-sha256:1740ea49d8e6dbe7ec5d2c508ba38bad12fe73c43c677e55524f61db5ff5063b
-# Source SHA-256: 11c4ca131dccdfddf813f19e9c6ca9c02cebab27fcb786edc5ab3ed8da3028f5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SAFEAVEN.ANS by Dan Loffler (ensiart); released in ensiart and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: SAFEAVEN.ANS by Dan Loffler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ensiart-safeaven
 
 Write-Host '
 [33m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m

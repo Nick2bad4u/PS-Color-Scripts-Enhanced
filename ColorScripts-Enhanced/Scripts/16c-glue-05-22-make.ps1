@@ -1,18 +1,4 @@
-﻿# Converted from: 22-MAKE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-05/raw/22-MAKE.ANS
-# Source Revision: archive-sha256:89a4bd9944750981b87abfd2c987d585ef9e9f07c4f2f3f37891e9d3131baf14
-# Source SHA-256: 7bd278e38340a266cdb4190366a720883f6ac1cddfa0a27f6891ba73414edd6a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 22-MAKE.ANS by catch22 (glue); released in glue-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: make smake
-# SAUCE Author: catch22
-# SAUCE Group: glue
-# SAUCE Date: 19971208
-# SAUCE Dimensions: 80x42
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: make smake by catch22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-05-22-make
 
 Write-Host '
 [1;30m[0m[1;30m[0m

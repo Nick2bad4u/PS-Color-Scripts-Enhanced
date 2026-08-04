@@ -1,18 +1,4 @@
-﻿# Converted from: US-C22.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-37/raw/US-C22.ANS
-# Source Revision: archive-sha256:80363f10709d17331c287999d9ad4e4cac34260721fa508975384b4507a00819
-# Source SHA-256: 1ca32d88e1d83d056ea3136b8f8918cf8bb1c037869919d8c2ffe60f64a636a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-C22.ANS by Avenging Angel + Cryogenic (glue); released in glue-37 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: catch22 is 22
-# SAUCE Author: cryogenic avg
-# SAUCE Group: glue
-# SAUCE Date: 20020716
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: catch22 is 22 by Avenging Angel + Cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-37-us-c22
 
 Write-Host '
                                    [1;30m ▄▄▄▄[0m    [1;30m░░░░[0m       [33m▄[0;1;33m▄▄[0;1;37m▄[0m▄

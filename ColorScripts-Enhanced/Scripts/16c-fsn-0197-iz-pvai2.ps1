@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-PVAI2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0197/raw/IZ-PVAI2.ANS
-# Source Revision: archive-sha256:db16ecaf9a5ba2dcf16f11149d4e3768d3e19930159af1ef0ef2625ea12b3e30
-# Source SHA-256: 909d1878d9617400265df72dc8bc3ef06bb5f11343c4f22b30765697a366ed1e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-PVAI2.ANS by ize (fusion); released in fsn-0197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: prevail
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19970103
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: prevail by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0197-iz-pvai2
 
 Write-Host '
 

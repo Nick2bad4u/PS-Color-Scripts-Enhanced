@@ -1,18 +1,4 @@
-﻿# Converted from: TPE-HS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ls-0796/raw/TPE-HS.ANS
-# Source Revision: archive-sha256:4ec871e12b8879af34735c7749d7970c0fda5296ee374656216909a4c5128d11
-# Source SHA-256: 45b9ce3507c5eee533b6e12c80827f3e016fcd51e86c1c05de9e7cf7c6990f10
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TPE-HS.ANS by the platinum eagle (leper society); released in ls-0796 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: (hidden?) souls
-# SAUCE Author: the platinum eagle
-# SAUCE Group: leper society
-# SAUCE Date: 19960714
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: (hidden?) souls by the platinum eagle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ls-0796-tpe-hs
 
 Write-Host '
                                   [33m▀█▓[0;36m▄█[0;33m▀[0;36m ▀[0m    [36m■[0m   [34m▄▄▄▄[0m      [1;32;42m▀[0;32m▀[0m

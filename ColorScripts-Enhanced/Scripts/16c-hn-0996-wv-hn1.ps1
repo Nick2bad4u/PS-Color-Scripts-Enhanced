@@ -1,13 +1,4 @@
-﻿# Converted from: WV-HN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hn-0996/raw/WV-HN1.ANS
-# Source Revision: archive-sha256:8ede9915f0a64fbbede49f7cbfb8456fc4106bc073503874bef856ab2c56b727
-# Source SHA-256: a47876f9531ad1525cf7f36e90fbf0cb546216764729032eb7114b1359ee0817
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WV-HN1.ANS by Wolverine-Fos (hn-0996); released in hn-0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: WV-HN1.ANS by Wolverine-Fos | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hn-0996-wv-hn1
 
 Write-Host '
  [33m░[0m

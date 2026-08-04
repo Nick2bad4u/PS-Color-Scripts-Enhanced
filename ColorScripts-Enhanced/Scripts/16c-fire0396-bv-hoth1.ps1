@@ -1,18 +1,4 @@
-﻿# Converted from: BV-HOTH1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0396/raw/BV-HOTH1.ANS
-# Source Revision: archive-sha256:1c74698b6bb36c67ca170e4e3759a91f94a3423157bd644c80d820a8fe56fd8d
-# Source SHA-256: 48cfa122b8d98315156f4bfe2d2753cae731ae553f3db475146574b0e399a6aa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BV-HOTH1.ANS by Black Viper (fire); released in fire0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: House of the Holy
-# SAUCE Author: Black Viper
-# SAUCE Group: fire
-# SAUCE Date: 19960227
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: House of the Holy by Black Viper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0396-bv-hoth1
 
 Write-Host '
 [33m▄▓[0;33;47m▓▓[0;33;40m▀ ▄[0;33;47m▒▓[0;33;40m▓▀░ ▄▄[0;33;47m▓▒[0;33;40m▓█▀▀█▓█▀▄▄▄[0;37;40m  [0;33;40m▄▄[0;37;40m  [0;33;40m▀▀▄█[0;37;40m [0;33;40m▄[0;37;40m [0;33;40m▄[0;33;47m▓[0;33;40m▓▀▀[0;37;40m  [0;33;40m▄▄▄█[0;33;47m▓▒▓[0;33;40m█[0;33;47m▓[0;33;40m▓▀▀▀▓[0;33;47m▓[0;33;40m█▄▄▄[0;37;40m [0;33;40m▀█▓[0;33;47m▓[0;33;40m█▄▄[0;37;40m [0;33;40m▀▓▄[0m

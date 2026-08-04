@@ -1,18 +1,4 @@
-﻿# Converted from: IPH-SANT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/iph-008/raw/IPH-SANT.ANS
-# Source Revision: archive-sha256:b2ee1b2416c0c0adf7c27510034a118d85643a048e095d1086b8d76c6eca87db
-# Source SHA-256: b28a3d9ee9598c62e199dca83b53ac99ed5d09f774003c3d0b62e65c7fcbd131
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IPH-SANT.ANS by inphamilair (iph) (plf guest starr); released in iph-008 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: :: santa is evil
-# SAUCE Author: inphamilair (iph)
-# SAUCE Group: plf guest starr
-# SAUCE Date: 19981220
-# SAUCE Dimensions: 80x54
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: :: santa is evil by inphamilair (iph) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-iph-008-iph-sant-part01
 
 Write-Host '
   [1;30m:::::[0m                                  [1;30m:::::::::::[0m

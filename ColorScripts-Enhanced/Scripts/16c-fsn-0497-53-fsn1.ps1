@@ -1,13 +1,4 @@
-﻿# Converted from: 53-FSN1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0497/raw/53-FSN1.ANS
-# Source Revision: archive-sha256:0a24528ad1b8350dc6275ed84884990aa181682392c532082994d5872ceb5801
-# Source SHA-256: 2312b1cc18ab547a48148792832f783f75d7de8c009eb046b1cf91cf6afc5f71
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 53-FSN1.ANS by Senile (fsn-0497); released in fsn-0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: 53-FSN1.ANS by Senile | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0497-53-fsn1
 
 Write-Host '
                                                                   [1;30m  ▄ ■ ▄[0m

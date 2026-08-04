@@ -1,18 +1,4 @@
-﻿# Converted from: US-SB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz06may/raw/US-SB.ANS
-# Source Revision: archive-sha256:1ae2be5748106937cd6f4a9b876b344db035c3534c8d6472ca3ea1eb05f03cc5
-# Source SHA-256: 0cdfa9686a08be8e5606547dee8a4373891866ede56f6b8662e47cacdd939ce1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SB.ANS by Illogic + Grymmjack (lAz.); released in laz06may and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Simply Bliss
-# SAUCE Author: Multiple Artists
-# SAUCE Group: lAz.
-# SAUCE Date: 19970428
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: Simply Bliss by Illogic + Grymmjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz06may-us-sb
 
 Write-Host '
 

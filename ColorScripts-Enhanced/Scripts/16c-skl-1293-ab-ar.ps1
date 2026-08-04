@@ -1,13 +1,4 @@
-﻿# Converted from: AB-AR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/skl-1293/raw/AB-AR.ANS
-# Source Revision: archive-sha256:050c4947b498cd34964b3caf5400f667c1dbd39367bdcae152e782cd46024a72
-# Source SHA-256: 8381d92a0dfec43ae45f4a6180ca1d7ceb2a4def42b25e2ec33a6f0263669605
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AB-AR.ANS by Abomination (skl-1293); released in skl-1293 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: AB-AR.ANS by Abomination | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-skl-1293-ab-ar
 
 Write-Host '
 [36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

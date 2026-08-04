@@ -1,13 +1,4 @@
-﻿# Converted from: MBSACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1292/raw/MBSACID.ANS
-# Source Revision: archive-sha256:6c5c7ef66182056ff3f821bfb6f5ceb9b593ec0078def1a5d2bd62ceb180acde
-# Source SHA-256: ef60361ab0ff8d0a7dbdff4edd363a7c5cd1cf8504063335984adfef79485dfa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MBSACID.ANS by Zed Nitro (acdu1292); released in acdu1292 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: MBSACID.ANS by Zed Nitro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1292-mbsacid
 
 Write-Host '
                                      [1;30m▄▄▄▄▄▓▓▒▒▒[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: jn-milkb.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic57/raw/jn-milkb.ans
-# Source Revision: archive-sha256:01b4e6ffc2d9406cbdbefe8353e19854b60cc8e7985718b649dcb5401e7eafe8
-# Source SHA-256: dcff00aea7e4bd5da6abb143b3d4e9c696b71b97e16a0a2e4d2ea0d86a63c2db
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: jn-milkb.ans by Jashiin (Mimic Productions); released in mimic57 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: Jashiin
-# SAUCE Group: Mimic Productions
-# SAUCE Date: 20030221
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: jn-milkb.ans by Jashiin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic57-jn-milkb
 
 Write-Host '
 [1;30m$$$$$$$$$$$$$$[0m                  [1;30m;$$$$$$\[0m  [1;30m`4$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0m

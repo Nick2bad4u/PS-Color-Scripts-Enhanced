@@ -1,18 +1,4 @@
-﻿# Converted from: US-STD1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/std-1003/raw/US-STD1.ANS
-# Source Revision: archive-sha256:582b3f82f4a3d47b1c26833c77407896da01487b1f93d28a71b2ea8de6ba3624
-# Source SHA-256: 65a6acdba780e8df753e1594874c706bde4ef65a50018bf5748f10d78a933f75
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-STD1.ANS by Afterbirth + The Textorcist (Spread The Disease); released in std-1003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: 57D logo
-# SAUCE Author: PEOPLE!
-# SAUCE Group: Spread The Disease
-# SAUCE Date: 20031001
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: 57D logo by Afterbirth + The Textorcist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-std-1003-us-std1
 
 Write-Host '
 

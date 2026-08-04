@@ -1,13 +1,4 @@
-﻿# Converted from: PD-EN4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mft-0594/raw/PD-EN4.ANS
-# Source Revision: archive-sha256:5aa1f28ced0afe209497a7b8b8cc2e2fb5fc395b749b22a54bad190d9f3ac647
-# Source SHA-256: 244a2680f746e6e2318cf24c1527f365d336d06e8d7702564debc260303814e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PD-EN4.ANS by Paradox (mft-0594); released in mft-0594 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 348-397
-# Columns: 1-80
+﻿# Artwork: PD-EN4.ANS by Paradox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mft-0594-pd-en4-part08
 
 Write-Host '
                                                          [32m█   [0;1;30m░[0m         [1;30m▓[0m

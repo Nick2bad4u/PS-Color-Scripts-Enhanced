@@ -1,20 +1,4 @@
-﻿# Converted from: WA-HAPPY-YULE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1221/raw/WA-HAPPY-YULE.ANS
-# Source Revision: archive-sha256:5e9313825592ee844db1dbb5f288429b09b14a6176d448c30ff1c2ee32395d09
-# Source SHA-256: cb6b0b96b54b943d65e61d63906fec2643dbdafbc06f8ecc5f8f3d71b6608f02
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WA-HAPPY-YULE.ANS by warpus (LAZASTIGRUS); released in mist1221 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: HAPPY YULE
-# SAUCE Author: warpus
-# SAUCE Group: LAZASTIGRUS
-# SAUCE Date: 20211220
-# SAUCE Dimensions: 80x72
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Happy Yule y'all
-# Lines: 36-70
-# Columns: 1-80
+﻿# Artwork: HAPPY YULE by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1221-wa-happy-yule-part02
 
 Write-Host '
 [1;30m▓██████[0;1;30;47m▌[0;1;30;40m█[0;1;30;47m▄▀[0;1;30;40m█████████[0m   [1;30m▓█████████▀[0;36m [0;1;37;47m░▓██▓░[0m█[1;30;47m▐[0;36m [0;1;30m▀███████████[0m   [1;30m▄███████████████████▓[0m

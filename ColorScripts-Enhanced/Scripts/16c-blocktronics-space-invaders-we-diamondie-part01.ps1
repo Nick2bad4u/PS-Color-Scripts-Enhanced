@@ -1,13 +1,4 @@
-﻿# Converted from: we-diamondie.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_space_invaders/raw/we-diamondie.ans
-# Source Revision: archive-sha256:c8f02d48521b213dd146adf31869fd604c2af314eab4dd9a1f4528b39146b7a9
-# Source SHA-256: c1809e6d410828dee369e8c029e4276e496f5de558115cd17f384a3ba5bd7b27
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-diamondie.ans by Avenging Angel + Delicious + Enzo (blocktronics_space_invaders); released in blocktronics_space_invaders and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: we-diamondie.ans by Avenging Angel + Delicious + Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-space-invaders-we-diamondie-part01
 
 Write-Host '
 

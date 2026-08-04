@@ -1,13 +1,4 @@
-﻿# Converted from: M-LBOX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-04/raw/M-LBOX.ANS
-# Source Revision: archive-sha256:d99c3d6576b4ffe30ad10598ac465177e9b6d171d7a6c4fd056707ad27adce95
-# Source SHA-256: d688d7e3bcdc4dd96efdeb9fe65a373d86f07ea4ac48c60bba36d10ced11265f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M-LBOX.ANS by Milkmang (nerp-04); released in nerp-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: M-LBOX.ANS by Milkmang | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-04-m-lbox
 
 Write-Host '
                  ▐██████████████████[30;47m░▓[0;37;40m  [0m    [35;40m▄▄[0;37;40m [0;33;40m░[0;30;43m░[0;33;40m▓█▌▄▄▄▄[0;37;40m  [0m

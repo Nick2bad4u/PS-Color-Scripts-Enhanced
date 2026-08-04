@@ -1,13 +1,4 @@
-﻿# Converted from: zs-elem.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sys2_01/raw/zs-elem.ans
-# Source Revision: archive-sha256:f707a7fe693d07201b6eb70e6937a345c157a5d2d28da9983b4bb47eb4421fde
-# Source SHA-256: d10091071ba05fca11ff9ed89e69c50a9f72a87f5718ea6656e45c8efc33d680
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zs-elem.ans by Zerostar (sys2_01); released in sys2_01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: zs-elem.ans by Zerostar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sys2-01-zs-elem
 
 Write-Host '
                                        [1;30m.┐y┌.[0m

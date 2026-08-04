@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-USEOD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0697/raw/IZ-USEOD.ANS
-# Source Revision: archive-sha256:4afa384dbe1edb8568d2d9e2fda5954485e730ef7ea56b2b5212bd5bbae30f83
-# Source SHA-256: b2e87478d4c7fc5ce9373d7fdd23f2ce07d59db875b6f86e9cb4db8844d562e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-USEOD.ANS by ize (fusion); released in fsn-0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: users
-# SAUCE Author: ize
-# SAUCE Group: fusion
-# SAUCE Date: 19970601
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: users by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0697-iz-useod
 
 Write-Host '
 

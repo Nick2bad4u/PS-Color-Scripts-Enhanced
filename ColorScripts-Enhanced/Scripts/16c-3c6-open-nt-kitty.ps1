@@ -1,13 +1,4 @@
-﻿# Converted from: NT-KITTY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/3c6-open/raw/NT-KITTY.ANS
-# Source Revision: archive-sha256:48a057a32817733445ae90a1c66b8604c10e555e1293348fc9c323a6f73930f4
-# Source SHA-256: 8b0fde014e96b820304dc0d11269b8d3b922efbca8ff840b4673868c4e1ef97b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NT-KITTY.ANS by Nootropic (3c6-open); released in 3c6-open and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: NT-KITTY.ANS by Nootropic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-3c6-open-nt-kitty
 
 Write-Host '
 [33m░▒▓░ [0m    [33m▐█▓▒░[0;37m  [0;33m▄[0;37m  [0;33m▄▓[0;37m  [0;33m░▒[0;37m [0;33m░▒▓█[0m   [33m▐█▌[0m   [33m░▒▓█[0;1;33;43m░[0;33m█▀[0m   [33m▐▄▄▄  █▓░  ▄▓[0m     [33m▄▄▄[0m

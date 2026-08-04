@@ -1,18 +1,4 @@
-﻿# Converted from: Ar-logo2.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge15/raw/Ar-logo2.ans
-# Source Revision: archive-sha256:11a79c92e9fc8c892f1f79f19699fe30da6c6fb4d0229d77725e757a82129c1a
-# Source SHA-256: b20c19002df318e6c408b27dafea49e12431f7f86c16fa0be438678d427146ce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Ar-logo2.ans by argon (avenge); released in avenge15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: logo colly
-# SAUCE Author: argon
-# SAUCE Group: avenge
-# SAUCE Date: 19990402
-# SAUCE Dimensions: 80x71
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: logo colly by argon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge15-ar-logo2-part01
 
 Write-Host '
                              [1;34m▄[0m          [1;34m█▒[0m      [1;34m■[0m

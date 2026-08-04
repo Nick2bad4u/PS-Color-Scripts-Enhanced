@@ -1,18 +1,4 @@
-﻿# Converted from: 22-GP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-12/raw/22-GP1.ANS
-# Source Revision: archive-sha256:f5221eba8c246d2fb321d3b43039222677071ff11211f119af33a969aa5543e9
-# Source SHA-256: 4122cdce8c1a3df094ec47a0e1b63cc1437836e6a50e718067dfd7fa451a77b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 22-GP1.ANS by catch22 (clan glue); released in glue-12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: geeksta's matrix
-# SAUCE Author: catch22
-# SAUCE Group: clan glue
-# SAUCE Date: 19980721
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: geeksta's matrix by catch22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-12-22-gp1
 
 Write-Host '
 [35m▒[0;33m▄[0;35m░▓[0;1;35;47m▓▀[0;35m▀[0;1;35;45m▒[0;33m▀█▐[0;1;35m░[0;33m▐▄[0;1;31;43m ░▓[0;1;31;40m███████████████[0;1;31;41m███▓▓▒░░░[0;31m███████████████████████████████████████[0m

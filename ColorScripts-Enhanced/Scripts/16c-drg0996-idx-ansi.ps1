@@ -1,13 +1,4 @@
-﻿# Converted from: IDX-ANSI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg0996/raw/IDX-ANSI.ANS
-# Source Revision: archive-sha256:81d17252ab3e1b23a3e904e729ff7f891864a1f38a1b6f251e8af503983812de
-# Source SHA-256: 6540516069cf0ab2c0cdcfc12b8ec1a5fcaa36f5f8664858da9bfc340486ddb9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IDX-ANSI.ANS by Id X (drg0996); released in drg0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: IDX-ANSI.ANS by Id X | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg0996-idx-ansi
 
 Write-Host '
   [34m  ▄[0;1;36;44m [0;1;34;44m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;36;44m [0;34m██▀[0;1;33m ▄▄▄[0m [1;33m▄▄[0;1;33;47m▒[0;1;33;40m▄ ▄[0;1;33;47m▓[0;1;33;40m▄[0m   [34m▀▀██[0;1;34;44m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;34m█▄   [0m

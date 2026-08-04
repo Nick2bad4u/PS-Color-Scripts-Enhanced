@@ -1,18 +1,4 @@
-﻿# Converted from: DRC-NR4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel11/raw/DRC-NR4.ANS
-# Source Revision: archive-sha256:bc01376bbeb692c1fce16796b92a6fd889f89dbf4c55eb291719d5ea3fd5846c
-# Source SHA-256: eb3b6e66fe3c927eacc28a68c1b26b67b5d42cb5c0b0d305c40a769113583785
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DRC-NR4.ANS by Drc (Fuel); released in fuel11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Logo 4
-# SAUCE Author: Drc
-# SAUCE Group: Fuel
-# SAUCE Date: 19970223
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Logo 4 by Drc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel11-drc-nr4
 
 Write-Host '
 [1;30m▄[0m    [1;30m▄▄▄▄▄ [0m    [1;30m░▄▄▄▄▓▓▄▄▄▄▄▄▄▄[0m     [1;30m░[0m       [31m░[0m                 [1;30m░[0m

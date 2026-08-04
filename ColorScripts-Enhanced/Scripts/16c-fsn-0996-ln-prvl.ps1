@@ -1,18 +1,4 @@
-﻿# Converted from: LN-PRVL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0996/raw/LN-PRVL.ANS
-# Source Revision: archive-sha256:707c5fe12f8b115f37bf0df62a8bbf61a1e95140c1ed59c95af84379ad4a0dbe
-# Source SHA-256: 42fc1a89c8e218098a9bdd52660fca433f54539a27f031cb8a96bfe3c8d01da0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LN-PRVL.ANS by Liithn (guest in Fusion); released in fsn-0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Prevail
-# SAUCE Author: Liithn
-# SAUCE Group: guest in Fusion
-# SAUCE Date: 19960725
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Prevail by Liithn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0996-ln-prvl
 
 Write-Host '
   [1;31;41m▒▒▓▓█████▀[0;1;31;40m▀▀[0;31m▀[0;37m [0;31m   ▀▀[0;1;31;41m▀██████[0;1;31;47m▓▓▒▒▓[0;1;31;41m█[0m

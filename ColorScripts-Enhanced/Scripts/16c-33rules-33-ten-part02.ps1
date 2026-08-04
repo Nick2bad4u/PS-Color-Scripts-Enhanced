@@ -1,18 +1,4 @@
-﻿# Converted from: 33-TEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/33rules/raw/33-TEN.ANS
-# Source Revision: archive-sha256:6cf2aef8e3ca97e1761e1ee4a8ba395e4fdab4dec9d3b2efb91c059359b50b00
-# Source SHA-256: 990d44541b5c773a3af1524ba5218d198ac664eb3db5ae43491279d25fc08138
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-TEN.ANS by Mistigris 11/94 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Eternal Nightmare
-# SAUCE Author: Mistigris 11/94
-# SAUCE Group: Eerie
-# SAUCE Date: 19960924
-# SAUCE Dimensions: 80x25
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: The Eternal Nightmare by Mistigris 11/94 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-33rules-33-ten-part02
 
 Write-Host '
 [36m████ █░ ▄████▀█ ██▓██░█▄ ▄[0m                  [32m▀▀ ▀[0;37m▄  [0;34m▀ [0;33m▓▀▀ [0;1;30m▐▓■▄[0;33m▀▀[0;34m■ ▓▀ [0;37m▀▄█▓░[0m     [36m░[0m

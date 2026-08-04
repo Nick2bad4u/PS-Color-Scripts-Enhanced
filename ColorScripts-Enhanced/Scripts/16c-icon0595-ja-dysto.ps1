@@ -1,18 +1,4 @@
-﻿# Converted from: JA-DYSTO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/icon0595/raw/JA-DYSTO.ANS
-# Source Revision: archive-sha256:0c4fed1665525dbb7d857717dd9904d141c70c3e98d7bd6cf00702ab896f0d5f
-# Source SHA-256: 861d647dd92f963b490547fb9115ea125a6c3660fa88810c67058337b99f67fb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JA-DYSTO.ANS by Jashik (iCON); released in icon0595 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Dystopia BBS
-# SAUCE Author: Jashik
-# SAUCE Group: iCON
-# SAUCE Date: 19941220
-# SAUCE Dimensions: 80x37
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: Dystopia BBS by Jashik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-icon0595-ja-dysto
 
 Write-Host '
  [35m▄▄▀[0;30;47m█▌ ▄[0m [30;45m▀[0;1;35;45m░▒▓[0;1;35;40m▓▒░[0;30;45m▄[0;1;37;40m▄█▀[0;1;35;40m▄▒▓▀[0;1;37;40m▄██▓▄[0;1;35;40m▀▀▀[0;1;35;45m▓▒▓[0;1;35;40m▄[0;1;37;40m▀▄[0;1;35;40m▀▓▒[0m [1;37;47m░[0m▄ [30;47m [0;35;47m░░▒▓[0;1;35;45m [0m  [1;35;40m█[0;1;35;45m▓▓[0;1;35;40m█▀▀▀█[0;1;35;45m▓▒▒░░░[0;45m░░▒▒▒▓▓[0;35;47m░░░[0;30;47m  [0;37;40m [0m

@@ -1,18 +1,4 @@
-﻿# Converted from: RZ-ORGKS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-17/raw/RZ-ORGKS.ANS
-# Source Revision: archive-sha256:a388e5620de32c4145fd1d2f2e70343f674ce332483184514a867f9d5d569bc4
-# Source SHA-256: cbe9d200f2f157d7b95a03b75769c52decaf3b9125912bcc199b73a1dc90ceab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RZ-ORGKS.ANS by Rzarector (fORCE); released in force-17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ORGANiZEd kAOS
-# SAUCE Author: Rzarector
-# SAUCE Group: fORCE
-# SAUCE Date: 19970402
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: ORGANiZEd kAOS by Rzarector | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-17-rz-orgks
 
 Write-Host '
 [35m▄[0m                                                               [34m░[0;37m [0;34m░[0;30;44m▓[0;34;40m░▄▄[0;1;34;44m▄[0;34m█▄▄▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: ZK-SKL1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/skl-0194/raw/ZK-SKL1.ANS
-# Source Revision: archive-sha256:1dcfe9cd5a24475acbc7f8eaf3e09fbb99ff6d92b8758ee9cb54d62a86e3d952
-# Source SHA-256: 5efb08b34ce8bc393d49329ed82aa0bc7200a5b9c5b468b845ccb0ec2aec100f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZK-SKL1.ANS by Zulu King (skl-0194); released in skl-0194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: ZK-SKL1.ANS by Zulu King | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-skl-0194-zk-skl1
 
 Write-Host '
           [1;30m░░░░░░░▒▓█[0;1;30;47m▓▒░ [0;1;37;47m░▒▓███▓▓▓▓▓▒▒▒[0m▄    ·    [1m·  [0m*         ·         [1m* ·[0m

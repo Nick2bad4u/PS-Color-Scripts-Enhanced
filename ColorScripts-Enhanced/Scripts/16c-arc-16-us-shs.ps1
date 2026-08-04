@@ -1,18 +1,4 @@
-﻿# Converted from: US-SHS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/arc-16/raw/US-SHS.ANS
-# Source Revision: archive-sha256:e369cb471f14ccd57254b0b30c1dc8ac4b174131115a1090d2162b1c8280c087
-# Source SHA-256: d0cf8c9a9734c9ad7ffc5956751ed0f2c504f2f810be980d83ccc2ba956b4554
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SHS.ANS by Somberlain + Alla Xul (Glue / iTP); released in arc-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: SHS
-# SAUCE Author: Somberlain/Alla Xul
-# SAUCE Group: Glue / iTP
-# SAUCE Date: 20000303
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: SHS by Somberlain + Alla Xul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-arc-16-us-shs
 
 Write-Host '
        [34m▄██▀ ▄[0;1;34;44m▄▓▓▒░[0;34m█[0;1;34m▒▒[0;34m████[0;1;34;44m    [0;34m▒████[0;37m [0;34m████▄▀██████[0;1;34;44m░░[0;34m█▄████████▄██[0;1;34;44m ░▒▒▒[0;34m█▄[0m

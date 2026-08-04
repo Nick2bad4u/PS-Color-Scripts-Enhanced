@@ -1,15 +1,4 @@
-﻿# Converted from: AR-LOGO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge12/raw/AR-LOGO.ANS
-# Source Revision: archive-sha256:f58363683b971661fc249a331f373b1cfc2b77790ce49343a28c838f36c33b64
-# Source SHA-256: 498d213f733d0d3989d5d7e2417ad268aaaf9bde03d1d027bd75b2c48b1367c4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AR-LOGO.ANS by argon (avenge12); released in avenge12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: logo compilation
-# SAUCE Author: argon
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: logo compilation by argon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge12-ar-logo-part01
 
 Write-Host '
 

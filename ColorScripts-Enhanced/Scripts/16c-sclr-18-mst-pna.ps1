@@ -1,13 +1,4 @@
-﻿# Converted from: MST!PNA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-18/raw/MST!PNA.ANS
-# Source Revision: archive-sha256:2e02391e66fc05a42d51d0f3ad472c9e98ae18d89effe4d7592201009566237f
-# Source SHA-256: 80abbbb0f5ace5556fc636b8a8315a821e40d0683f5d8e40d66747649d37533f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MST!PNA.ANS by Mist (sclr-18); released in sclr-18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: MST!PNA.ANS by Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-18-mst-pna
 
 Write-Host '
 

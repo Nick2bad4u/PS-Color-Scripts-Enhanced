@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-SHCA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0625/raw/ZII-SHCA.ANS
-# Source Revision: archive-sha256:6ee9af28fa25e25a7c8d524c0b340107e083c251e59a271e20836a9f47bec3b2
-# Source SHA-256: ecd8ec45faded0011c8dfee05d9b0390a33ce063c074c90bea89edddc15660f8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-SHCA.ANS by Zeus II (Mistigris); released in mist0625 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Shampoo Cat
-# SAUCE Author: Zeus II
-# SAUCE Group: Mistigris
-# SAUCE Date: 20250308
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Shampoo Cat by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0625-zii-shca
 
 Write-Host '
 [33m░░[0;31m █▀▀▀██████████████████▄[0;37m [0;1;37m▀██████[0;31m▒[0;1;37m█████████████████[0;31m▓[0;1;37m█████████████████▄▄▀▀█▄[0m [33m▀▓▒[0m

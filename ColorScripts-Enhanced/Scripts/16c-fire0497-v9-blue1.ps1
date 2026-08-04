@@ -1,18 +1,4 @@
-﻿# Converted from: V9-BLUE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0497/raw/V9-BLUE1.ANS
-# Source Revision: archive-sha256:42e18118a4fe23187162d4202e0e64c79c23017db87b8967f1816ba2b79540c6
-# Source SHA-256: d4f54c741e1c9c5bf362ded3887ee69f37d0925f3a2334a69025d9e95c9487dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: V9-BLUE1.ANS by Vade79 (Fire); released in fire0497 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ?
-# SAUCE Author: Vade79
-# SAUCE Group: Fire
-# SAUCE Date: 19970331
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: ? by Vade79 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0497-v9-blue1
 
 Write-Host '
 [35m▄[0;1;35m▒[0;35;47m▓[0;1;35;45m████▐██[0;1;35;47m▓▓▓[0;1;35;45m███▓░ [0;30;45m▓[0;35;40m  ▀[0;1;35;45m░░ ░[0;35m█ [0;33m▐[0;1;31;43m░[0;33m▌▄▄▄[0;1;35m░░[0;35m▀▀▀▀[0;37m [0;35m▄[0;37m [0;33m▀[0;1;31;43m▓▓▓░░[0;33m▄ ▄█[0;33;45m▓[0;33;40m▌[0;35;40m ▐[0;35;47m▓[0;1;35;45m▄█[0;1;35;47m█▌▄▄[0;1;35;45m█▓░[0;35;47m▓[0;30;45m▓[0;36;40m▐[0;1;36;40m▓[0;1;36;46m░░[0;1;36;40m░[0;36m  ▀[0;1;36;46m░▒[0m

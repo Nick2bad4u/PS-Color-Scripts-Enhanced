@@ -1,18 +1,4 @@
-﻿# Converted from: US-PONR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook20/raw/US-PONR.ANS
-# Source Revision: archive-sha256:ad9acf30fa46ab5c9a458319782448b90dee64987e366c3cf1e5e495b40c4e0a
-# Source SHA-256: c3ddeee1cd3e3b9009d478bf07398efdd4828e7bc90dc4bd43e456a01183ddc9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PONR.ANS by Avenger + Shine + Kyp (black maiden); released in bmbook20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: point of no return
-# SAUCE Author: kyp + shine
-# SAUCE Group: black maiden
-# SAUCE Date: 19990604
-# SAUCE Dimensions: 80x316
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: point of no return by Avenger + Shine + Kyp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook20-us-ponr-part01
 
 Write-Host '
 [34m█[0;1;37;44m░░[0;1;33;44m░░[0;34m██░░░▓▓▓███[0;1;36;44m░░░[0;1;32;40m▒▒[0;34m█▌[0;1;35m▄▄▄██▌[0m▄▄[1;35m▄▄[0;1;37m▓▓▓▀[0m▀ [34m▀█████████[0;1;35m▒▒▒[0;34m█████████████████████▀[0;35m▐▌[0;34m████[0m

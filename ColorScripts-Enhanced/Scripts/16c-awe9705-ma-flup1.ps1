@@ -1,17 +1,4 @@
-﻿# Converted from: MA-FLUP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9705/raw/MA-FLUP1.ANS
-# Source Revision: archive-sha256:8be34660f06cc6610ed258606edc1af91e25b5675ab5e99aed29e53c07e63e17
-# Source SHA-256: 427e724cb5da9bde85f33f1c7349fcafbb303d4229ed943d82bf3323f2132dd8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MA-FLUP1.ANS by Mass Murderer (AWE Lettering); released in awe9705 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fluph
-# SAUCE Author: Mass Murderer
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Fluph by Mass Murderer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9705-ma-flup1
 
 Write-Host '
 

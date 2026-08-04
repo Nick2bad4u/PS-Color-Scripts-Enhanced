@@ -1,18 +1,4 @@
-﻿# Converted from: SI-DR3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1194/raw/SI-DR3.ANS
-# Source Revision: archive-sha256:0cd3429c05395c5369b2d8b470975ab968626be403f511098965c1e5f3d5050c
-# Source SHA-256: 0644b64444b18fb07dbd7d46bfc9a9ceba70a9d1e7ef7ceb4d77d0e9e958f0aa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SI-DR3.ANS by Spirit of Illusion (ACiD Productions); released in acdu1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Destructive Revolution
-# SAUCE Author: Spirit of Illusion
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19941003
-# SAUCE Dimensions: 80x67
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Destructive Revolution by Spirit of Illusion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1194-si-dr3-part01
 
 Write-Host '
 [1;30m■▀[0;1;30;47m▓[0;1;30;40m▀[0m▀[1;30;47m▒[0;1;30;40m▄■ ▀▀ [0;36m▄▄▄▄▄███████ [0;1;30m▀▀▀▓▀▄▄■▀ [0;36m██████████████████████████████████████[0;36;46m [0;1;37;46m-soi [0m

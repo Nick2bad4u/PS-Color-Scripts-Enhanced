@@ -1,18 +1,4 @@
-﻿# Converted from: LN-TOON.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mop-9608/raw/LN-TOON.ANS
-# Source Revision: archive-sha256:c3286221f7bb4915094c0581d0d3d14d0c4d218ed52d7a56fd6e2f52b72254a0
-# Source SHA-256: 98dc52f507e89c796de65a8dbca2660d74258ba77fb4f637b68da066e5266303
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LN-TOON.ANS by liithn (MOP); released in mop-9608 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: toon town
-# SAUCE Author: liithn
-# SAUCE Group: MOP
-# SAUCE Date: 19960810
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: toon town by liithn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mop-9608-ln-toon
 
 Write-Host '
 [31m░▀████████████████████████▀████████▀ ▀[0;37m [0;1;31;43m [0;1;31;40m███▀▀████████████████████████▄▄  █▄   [0m

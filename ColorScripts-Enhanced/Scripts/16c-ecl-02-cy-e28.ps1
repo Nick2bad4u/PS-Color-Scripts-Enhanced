@@ -1,18 +1,4 @@
-﻿# Converted from: CY-E28.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-02/raw/CY-E28.ANS
-# Source Revision: archive-sha256:815fb0802a5a645b19e4bb1a2e67405cbfe5a7d016a5808efe6ef55f809d080c
-# Source SHA-256: f7e8ed9912de648f3c9a093ed616f694709ad0ef20f9733ccca7d590703fbec8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CY-E28.ANS by cran (eclipse); released in ecl-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: eARTH2.. yES
-# SAUCE Author: cran
-# SAUCE Group: eclipse
-# SAUCE Date: 19960630
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: eARTH2.. yES by cran | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-02-cy-e28
 
 Write-Host '
 

@@ -1,17 +1,4 @@
-﻿# Converted from: CXC_BEER_4_HALLOWEEN2019_GUEST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1019/raw/CXC_BEER_4_HALLOWEEN2019_GUEST.ANS
-# Source Revision: archive-sha256:98716931f8039155308dfebf57d5b2f42a6a675c2965d4be6a87f9b4c8fa26af
-# Source SHA-256: 84a761736dec5b7bd4257906c86c6659766701392887f8ec757824cb43a94bfb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CXC_BEER_4_HALLOWEEN2019_GUEST.ANS by CoaXCable (CoolPHat); released in mist1019 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Beer 4 Halloween
-# SAUCE Author: CoaXCable
-# SAUCE Group: CoolPHat
-# SAUCE Date: 20191012
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Beer 4 Halloween by CoaXCable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1019-cxc-beer-4-halloween2019-guest
 
 Write-Host '
 [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

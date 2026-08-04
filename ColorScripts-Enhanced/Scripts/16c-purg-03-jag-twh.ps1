@@ -1,13 +1,4 @@
-﻿# Converted from: JAG_TWH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-03/raw/JAG_TWH.ANS
-# Source Revision: archive-sha256:6fde2a1886d2785cabbb7cd016b067488338380d986864d14f4373e994413062
-# Source SHA-256: 611085a0f3023cd0fddb48b6eafe59bdc465e7ade589ea4b2812f7bff72a29e9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JAG_TWH.ANS by Jaguar (purg-03); released in purg-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: JAG_TWH.ANS by Jaguar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-03-jag-twh
 
 Write-Host '
                [36m                                  [0m                            [37m   [0m

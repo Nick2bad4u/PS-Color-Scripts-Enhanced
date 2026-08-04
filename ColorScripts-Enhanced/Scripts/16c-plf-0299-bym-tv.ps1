@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-TV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0299/raw/BYM-TV.ANS
-# Source Revision: archive-sha256:57e7c91b1786691e95d6debf77d3c8e4fd7e77416307edfb34a7cd247bdbf1c2
-# Source SHA-256: f22980ee7a21064eb45839b4caa9983a2e1273a269d7e3a4f2e114882c0c8023
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-TV.ANS by bym303:a (poffelipoff); released in plf-0299 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: television
-# SAUCE Author: bym303:a
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19990208
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: television by bym303:a | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0299-bym-tv
 
 Write-Host '
 [36m[0;35m[0;32m[0;37m[0;35m[0m[1;30m▓▓▓▓▓▓▓▒▒▐████████[0m░░[1;30m██▀▀▀█[0;1;30;47m▄[0m█[1;37m▓[0m███████████████[1;36m▒▒▒▒[0m███[1;30;47m▀▀██████▓▓██[0m▒▒[1;30;47m█[0m░[1;30;47m███[0;1;36;40m░░░[0;1;30;47m▓▓██[0m░░[1;30;47m█[0m

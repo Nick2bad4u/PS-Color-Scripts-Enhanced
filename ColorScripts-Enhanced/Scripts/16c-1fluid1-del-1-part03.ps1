@@ -1,18 +1,4 @@
-﻿# Converted from: DEL_1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1fluid1/raw/DEL_1.ANS
-# Source Revision: archive-sha256:9759ba706afa63d47d6227f5e680e2347d46ae0af2672fb17307d5aaeab19452
-# Source SHA-256: 65f48d812bd71afa0c5f7868de6f74271e9de7814cb4d4e6122cf60c2b991a0f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DEL_1.ANS by delicious (fluid); released in 1fluid1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: cOlly1
-# SAUCE Author: delicious
-# SAUCE Group: fluid
-# SAUCE Date: 20010520
-# SAUCE Dimensions: 80x151
-# Lines: 80-107
-# Columns: 1-80
+﻿# Artwork: cOlly1 by delicious | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1fluid1-del-1-part03
 
 Write-Host '
 [34m░▀█[0;1;34;44m░▄▄▄▄▄▄▄[0;34m█▀▀[0m    [34m▀▀▀█[0;1;34;44m▄▓ [0;34m▀▀█ ▐[0;1;34;44m▓░[0;34m▓▀▄▄▄▄░░   ▄ ▄▄[0;1;34;44m▄░[0;34m▀  ██[0;1;34;44m▄▄░ [0;34m▓▓▀▀█▀   ▄▄[0;1;34;44m ░[0;34m▀▀▀▓▓█▀▀[0m

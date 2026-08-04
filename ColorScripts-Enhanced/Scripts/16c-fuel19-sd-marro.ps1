@@ -1,18 +1,4 @@
-﻿# Converted from: SD-MARRO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel19/raw/SD-MARRO.ANS
-# Source Revision: archive-sha256:7996394d1322b4d75a2eac63da1058443f8c8d07863e81821c5c4a203e798c3c
-# Source SHA-256: c0b015fb1f94f9bb6354aeb7067b643b5fe635afc855dcb38ab3ebed769cda02
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-MARRO.ANS by sad (fuel); released in fuel19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: transfer statistics
-# SAUCE Author: sad
-# SAUCE Group: fuel
-# SAUCE Date: 19971123
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: transfer statistics by sad | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel19-sd-marro
 
 Write-Host '
 [36m▄[0;1;33;46m░[0;1;36;46m░[0;36m▌[0;1;36m▄▄▄[0m        [36m▄[0;1;33;46m░[0;1;36;46m░[0;36m▌[0;1;36m▄▄▄[0m        [36m [0;1;31m▀[0;36m [0;1;31m■[0;36m [0;1;31m▄[0;36m [0;37m [0;1;31m▄▄▌▀[0;1;31;46m▓[0;1;31;41m▓▓[0;1;31;40m▄▄▄[0;36m   [0m        [36m▄[0;1;33;46m░[0;1;36;46m░[0;36m▌[0;1;36m▄▄▄[0m        [36m▄[0;1;33;46m░[0;1;36;46m░[0;36m▌[0;1;36m▄[0m

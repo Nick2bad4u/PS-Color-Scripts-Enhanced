@@ -1,20 +1,4 @@
-﻿# Converted from: US-FUEL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-41/raw/US-FUEL.ANS
-# Source Revision: archive-sha256:ac76c59485a165eaf047917bf134381dd20b2cecdcb1727ff850df7e806295b5
-# Source SHA-256: 3f380158048d5bc0469830ba220c2bd6521188d7398aef0ec94bf636350b344c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FUEL.ANS by Savage + ZIR (FiRE); released in fire-41 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fuel!
-# SAUCE Author: savage + zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20241111
-# SAUCE Dimensions: 80x51
-# SAUCE Font: IBM VGA
-# SAUCE Comments: FUEL MENERGY DRINK - FOR MEN
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: fuel! by Savage + ZIR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-41-us-fuel
 
 Write-Host '
  [36m░░░░░░░░[0;30;46m▓▓[0;36;40m░░[0;30;46m▓[0;36;40m░░[0;37;40m [0;34;40m░░[0;37;40m [0;36;40m░[0;30;46m▓[0;36;40m░░░[0;37;40m  [0;34;40m░░░░[0;37;40m [0;36;40m░[0;30;46m▓▓▓[0;34;40m░▄[0;1;34;44m▄▄▄[0;34m▄▓▀▀░░[0;37m  [0;30;46m▓[0;36;40m░░[0;30;46m▓[0;36;40m░░░[0;30;46m▓▓[0;36;40m░░░ [0;30;46m▓[0;36;40m░ ░ ░░░[0;30;46m▓▓[0;36;40m░░[0;30;46m▓[0;36;40m░░░░[0m

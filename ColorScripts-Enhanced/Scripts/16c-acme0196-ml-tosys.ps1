@@ -1,18 +1,4 @@
-﻿# Converted from: ML-TOSYS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acme0196/raw/ML-TOSYS.ANS
-# Source Revision: archive-sha256:c6fe41920b57611c0b3b708ba1eab112f305d080bef9a4a699c6d17869098d06
-# Source SHA-256: d64ae4a1474026d63f08604d90f9ff4ddd755caa07254bf1ea2a008a44d5e70c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ML-TOSYS.ANS by Mortal (Acme); released in acme0196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Terminal Overdose Matrix
-# SAUCE Author: Mortal
-# SAUCE Group: Acme
-# SAUCE Date: 19960109
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Terminal Overdose Matrix by Mortal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acme0196-ml-tosys
 
 Write-Host '
 [1;30m░ [0;1;35m██[0;1;35;45m▓▒░[0m ██▓▒░[1;30m████████████▓█████▓▀  [0m▄▄▒ [1;30m▀▀▀ [0;1;31m▄▄▓█████▓▄▄ [0;1;30m▀▀▀▀▀ [0m▄▄  [1;30m▀[0m░▒▓▓▓▒▒░[1;30m█████░[0m

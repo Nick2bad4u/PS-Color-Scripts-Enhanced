@@ -1,18 +1,4 @@
-﻿# Converted from: MB-UREV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0295/raw/MB-UREV.ANS
-# Source Revision: archive-sha256:783416b41a421333c3ef8049cdade58e4e0c645dd104994cd95b81b7407d25ff
-# Source SHA-256: 994bc461ba13d7175a1e8e3453c7380f84eb738b4b2ad58ed572894c1537127e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MB-UREV.ANS by Morbius (ACiD Productions); released in acdu0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Utopian Revolt
-# SAUCE Author: Morbius
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950117
-# SAUCE Dimensions: 80x199
-# Lines: 150-199
-# Columns: 1-80
+﻿# Artwork: Utopian Revolt by Morbius | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0295-mb-urev-part04
 
 Write-Host '
 [33;47m [0;37;40m▓▒ ▐[0;1;37;47m░ [0m▓▒  █▌ █ ▐▌             [33m▄[0;37;43m░[0;33;40m█[0;37;43m░▒░[0;33;40m██  ▄█▀ ▒ ██[0;37;43m░[0;33;40m███▀▀  ▄▄████▄▄  ██▄  ▄██▓▀ ▐[0m

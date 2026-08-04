@@ -1,17 +1,4 @@
-﻿# Converted from: US-KAF2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9706/raw/US-KAF2.ANS
-# Source Revision: archive-sha256:867680f5fb3c86dcb017d8ed4cd79085881689d65da90056f84aba519ae4bdfe
-# Source SHA-256: 2842630ce27a5d58a3c18c65d4ba50d37271aae6d71547a756a574d0810c6684
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-KAF2.ANS by Fluor + Massm (AWE Lettering); released in awe9706 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Kafkaesk
-# SAUCE Author: Multiple Artists
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Kafkaesk by Fluor + Massm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9706-us-kaf2
 
 Write-Host '
 

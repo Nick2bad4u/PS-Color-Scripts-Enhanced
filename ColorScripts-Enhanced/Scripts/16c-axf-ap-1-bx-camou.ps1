@@ -1,18 +1,4 @@
-﻿# Converted from: BX-CAMOU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-ap-1/raw/BX-CAMOU.ANS
-# Source Revision: archive-sha256:677d92e3c1456f7d379a6bfd6ef2a3e9f4462186ed5fa427899c9f4c329d0aa2
-# Source SHA-256: 4ce361ea2d562c030148e39186af29d496e48564309bb3778077fa9f5e5511a3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BX-CAMOU.ANS by Baxter (Axial Force); released in axf-ap-1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Camouflage Main Menu
-# SAUCE Author: Baxter
-# SAUCE Group: Axial Force
-# SAUCE Date: 19960913
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Camouflage Main Menu by Baxter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-ap-1-bx-camou
 
 Write-Host '
  [32m▄██▀[0m   [32m    [0m    [32m   [0m                [1;34m▄[0m [32m     [0m       [35m▄[0;37m [0;32m▄[0;1;32;42m▓▒░[0;32m▀[0m            [35m ▀■[0m   [32m▀▀[0;1;32;42m ░▓[0;32m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: BS-EDEN2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/eden1294/raw/BS-EDEN2.ANS
-# Source Revision: archive-sha256:078e0cc6f0e48fb02e893090171b020c261d258d9ae7b4ec2c7a0389fd827a33
-# Source SHA-256: 4f11f4c8519b38bcb0bf8743eb61f84a0a85f9516c7bd86dfe6cc19ead93d838
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS-EDEN2.ANS by Borys (Eden); released in eden1294 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Eden Advertisement
-# SAUCE Author: Borys
-# SAUCE Group: Eden
-# SAUCE Date: 19941207
-# SAUCE Dimensions: 80x149
-# Lines: 50-99
-# Columns: 1-80
+﻿# Artwork: Eden Advertisement by Borys | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-eden1294-bs-eden2-part02
 
 Write-Host '
         [30;43m   ░[0;33;40m  [0;30;43m░  ██[0m                         [33;47m▓▓▒▒▒▒▓░░░▒▓[0m [33;40m    [0;31;43m░[0;33;40m█[0;37;43m  [0;33;40m  [0;30;43m░  [0;33;40m▓[0m

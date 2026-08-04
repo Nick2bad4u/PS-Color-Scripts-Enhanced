@@ -1,13 +1,4 @@
-﻿# Converted from: ASELIBBS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1991/raw/ASELIBBS.ANS
-# Source Revision: archive-sha256:4dcfddb1a9f84aafa45e2facaadcb15ccf7ddad9041d8c346c723f7894d6cfb9
-# Source SHA-256: f28288f2eba6875f7190ab287d1f919ad218b16931951c2db1624ecbd6001d51
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ASELIBBS.ANS by Ansi-Mation (1991); released in 1991 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ASELIBBS.ANS by Ansi-Mation | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1991-aselibbs
 
 Write-Host '
 [37;40m    [0;1;37;40m▀█▀▀[0;37;40m [0;1;37;40m█▐▀█[0;37;40m [0;1;37;40m█▀▀█[0;37;40m                                                              [0m

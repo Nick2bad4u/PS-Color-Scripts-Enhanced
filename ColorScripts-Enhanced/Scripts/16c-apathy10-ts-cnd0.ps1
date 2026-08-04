@@ -1,18 +1,4 @@
-﻿# Converted from: TS-CND0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy10/raw/TS-CND0.ANS
-# Source Revision: archive-sha256:75431876417bf4bfaa2e247245b077f3c9a30507897439fd887fb6ea72c947ca
-# Source SHA-256: 6488e7d60571929db6be0db4b057cd1a126fa1b2667869332dd2a1c40c2c55cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-CND0.ANS by Transient (apathy); released in apathy10 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Candelabra Emag
-# SAUCE Author: Transient
-# SAUCE Group: apathy
-# SAUCE Date: 19960430
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Candelabra Emag by Transient | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy10-ts-cnd0
 
 Write-Host '
 [1;30m▄██████████▀▀▀▀▀▀▀▀▀▀██████████████████████████████████████▀▀▀▀▀▀▀▀▀▀▀▀▀███████▄[0m

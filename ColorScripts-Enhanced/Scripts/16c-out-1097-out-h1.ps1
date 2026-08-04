@@ -1,18 +1,4 @@
-﻿# Converted from: OUT-H1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-1097/raw/OUT-H1.ANS
-# Source Revision: archive-sha256:14c9b212dc0ab3e6fc3f4d8d20f131e192fefa17c331d073e47fc82950a832e5
-# Source SHA-256: 3f489340be02c94f8aec4d75448ce575892129b2a8f865f438110da3aea86d86
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-H1.ANS by OutWorld Arts (OutWorld Arts); released in out-1097 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Halloween
-# SAUCE Author: OutWorld Arts
-# SAUCE Group: OutWorld Arts
-# SAUCE Date: 19971014
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Halloween by OutWorld Arts | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-1097-out-h1
 
 Write-Host '
           [1;33m·[0m           [1;33m·[0m                  [1m▄▄▄▄▄    [0;1;33m·   [0m█[1;30;47m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m█    [1;33m·[0m

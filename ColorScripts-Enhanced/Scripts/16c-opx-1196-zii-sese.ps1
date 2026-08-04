@@ -1,18 +1,4 @@
-﻿# Converted from: ZII-SESE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-1196/raw/ZII-SESE.ANS
-# Source Revision: archive-sha256:6ef6d0fc5e98023ae397158b861ea8c1f97c8bf9ea116a4660fdbca6650c96ff
-# Source SHA-256: 0c8dc0ce81757413401428da2ea7743823029b262243b9388392f6305510dd4a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-SESE.ANS by Zeus II (and ugp) (Opium); released in opx-1196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Sectaar Sehvunn pikture
-# SAUCE Author: Zeus II (and ugp)
-# SAUCE Group: Opium
-# SAUCE Date: 19961011
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Sectaar Sehvunn pikture by Zeus II (and ugp) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-1196-zii-sese
 
 Write-Host '
 

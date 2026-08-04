@@ -1,18 +1,4 @@
-﻿# Converted from: HC-LAZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-19/raw/HC-LAZ.ANS
-# Source Revision: archive-sha256:b473660f00ca745b2388645e3daf73e6bc00a051deac122753312589762b7c0e
-# Source SHA-256: 4980857bb863fa8594ba856daaf60d5a94cd1303547c5c989164811d7c993569
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HC-LAZ.ANS by hachi (glue); released in glue-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: lazarus
-# SAUCE Author: hachi
-# SAUCE Group: glue
-# SAUCE Date: 19990301
-# SAUCE Dimensions: 80x77
-# Lines: 39-77
-# Columns: 1-80
+﻿# Artwork: lazarus by hachi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-19-hc-laz-part02
 
 Write-Host '
 [1;37;47m░[0;1;30;47m▓[0;1;37;47m░▒▓█▓▒[0;1;30;47m▒▓▓▒░▒▒▓▓▒░[0m█[1;47m▐▌░▒▓[0;1;40m█[0;1;47m██[0;1;40m██[0;1;47m▀[0;1;40m██████████[0;1;47m▌░▒▓[0;1;40m█[0;1;47m▄▄▀[0;1;40m█████[0;1;47m▓[0;1;30;47m ░[0m▀▄██[1;47m▄▀[0m▀[1m [0;1;30m [0;1;37m [0m [1m [0;1;30m░▒▓[0;1;30;47m▓▒░[0;1;37;47m░▒▓▓▓[0m

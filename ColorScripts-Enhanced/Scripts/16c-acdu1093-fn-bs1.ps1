@@ -1,13 +1,4 @@
-﻿# Converted from: FN-BS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1093/raw/FN-BS1.ANS
-# Source Revision: archive-sha256:ecd886ee40c974ac899d61ac438c6b0275189d654cafe889a26e6e3da22d4d1a
-# Source SHA-256: bfc36782a252c31024190a402554e39673b2240582df8f356f311c32af8bf214
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FN-BS1.ANS by Fusion (acdu1093); released in acdu1093 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: FN-BS1.ANS by Fusion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1093-fn-bs1
 
 Write-Host '
                          [1;31m■[0m      [1;31m■▄[0m      [1;31m▄   ▄▄▄█[0;1;31;41m▓▓▒▒░░[0;31m████████▓▓▓▒▒▒░░[0;1;30m▀▀▀▀▀▀▀ ▄[0m

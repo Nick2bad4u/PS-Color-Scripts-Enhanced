@@ -1,18 +1,4 @@
-﻿# Converted from: LD-ACID2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0994/raw/LD-ACID2.ANS
-# Source Revision: archive-sha256:70e9e3ba45456511eb6a648215e7531dd3b7a09ca51f860ca2dd613c7dbc4d28
-# Source SHA-256: 6362130184cee01bd6cb5353306795c074debfd1f1dbbba447847a593485f092
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-ACID2.ANS by Lord Jazz (ACiD Productions); released in acdu0994 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ACiD Productions
-# SAUCE Author: Lord Jazz
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940901
-# SAUCE Dimensions: 80x100
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: ACiD Productions by Lord Jazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0994-ld-acid2-part02
 
 Write-Host '
 [1;31;40m▄[0m     [33m▐▓████[0;1;30;43m░ ▒ [0;33m▓█████▄ [0;31m▀[0;1;31m▓▓█▓██████████▀███▓█▀▀▄[0;1;31;41m▓[0;1;31;40m██▓█▓▓▒░[0;31m▄[0m      [31m▒[0;1;31m░▒▓█▌ [0;1;37m█[0;1;37;47m▓▓[0;1;37;40m██[0;1;37;47m▓[0;1;37;40m██[0m

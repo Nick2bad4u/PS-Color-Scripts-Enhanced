@@ -1,13 +1,4 @@
-﻿# Converted from: IZ-KEG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0194/raw/IZ-KEG1.ANS
-# Source Revision: archive-sha256:a43017ca40212af646d7cc19e6ecf01d326ebec184a5046d2c7f67040ece2aa4
-# Source SHA-256: 118e0c7c8559860619e7558498915c25028fc7edd4d7430bff8e8aad754a2f03
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-KEG1.ANS by Icszer (acdu0194); released in acdu0194 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: IZ-KEG1.ANS by Icszer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0194-iz-keg1-part02
 
 Write-Host '
                [1;30m▀░░░░░░▐▌▒▒▒▒▒▀▓ █▓█▀██    ██▀█▓█▓ ▀▒▒▒▒▒▌▐░░░░░ ▀[0m

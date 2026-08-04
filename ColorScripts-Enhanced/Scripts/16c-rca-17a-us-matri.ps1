@@ -1,13 +1,4 @@
-﻿# Converted from: US-MATRI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rca-17a/raw/US-MATRI.ANS
-# Source Revision: archive-sha256:48f4edf0151e9ab7fcc03c92751eee7c707c5fac397a0d4c55a2d7e47ad1e75a
-# Source SHA-256: 63c0900103cc14bbff88a7e8008f113c74073a80f462044978c1ee87217727b6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-MATRI.ANS by Kitiara + Static4 + Tainted + Dark Jedi (rca-17a); released in rca-17a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: US-MATRI.ANS by Kitiara + Static4 + Tainted + Dark Jedi | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rca-17a-us-matri
 
 Write-Host '
  [34m░[0;30;44m▓░[0;34;40m█[0;1;34;44m░░▒░[0;34m██[0;1;34;44m▓[0;34m▀[0;37m [0;30;43m▓▒░[0;33;40m█▌[0;34;40m▐[0;1;34;44m░[0m [33m▄▄[0;37m [0;34m░[0;30;44m▓[0;37;40m  [0;1;31;40m▄[0;34m▀[0;1;34;44m░[0;34m▄[0;37m [0;34m▀[0;1;34;44m▒[0m [1;34m▀▄[0m  [36m [0;1;37m▐[0;1;37;46m▀[0;1;36;46m░░[0;36m██████[0;30;46m░░[0;36;40m▓█▓[0;30;46m░[0;37;46m░▓▓▓██[0;1;37;47m░░▓▓▄[0;1;37;40m▄▄[0m▄

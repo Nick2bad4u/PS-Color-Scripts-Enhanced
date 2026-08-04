@@ -1,13 +1,4 @@
-﻿# Converted from: ANS2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/solid02/raw/ANS2.ANS
-# Source Revision: archive-sha256:0b307e515d601f2deca75bbf6ded264aebabfcc579546d0b6fb4272331d7e039
-# Source SHA-256: 4e9d095c25dd6c7dcf15376495cb2c049daaac647ad4c4f561c29c1dad265bba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ANS2.ANS by Surreal (solid02); released in solid02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: ANS2.ANS by Surreal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-solid02-ans2
 
 Write-Host '
                                   [32m░[0m     [32m▐[0m                                    [33m ░[0;30;43m░[0m

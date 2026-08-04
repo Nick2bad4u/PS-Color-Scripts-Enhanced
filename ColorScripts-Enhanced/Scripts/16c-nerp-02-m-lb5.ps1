@@ -1,18 +1,4 @@
-﻿# Converted from: M-LB5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-02/raw/M-LB5.ANS
-# Source Revision: archive-sha256:3fd9f194d865cfc24c90bdf11a27528d8d82a8ba9c376ebed567183a2f95a9f3
-# Source SHA-256: d0523a0d1b510f159fa20b5a0f575aa29deab9ff896c5f713d77eb24222eb5ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M-LB5.ANS by milkmang (nerp); released in nerp-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: lunchbox (5) fastlogin screen
-# SAUCE Author: milkmang
-# SAUCE Group: nerp
-# SAUCE Date: 19971102
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: lunchbox (5) fastlogin screen by milkmang | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-02-m-lb5
 
 Write-Host '
 [33m████[0;1;31;43m░▓███████████████▓▓░ [0;1;30;43m ░▓█[0;1;30;40m▌[0;33m [0;1;30;43m░▓▓[0;1;30;40m▌[0;33m ▐█[0;1;30;43m    ░▓[0;1;30;40m█▓░[0m       [32m█▐███ ███████████████████[0m

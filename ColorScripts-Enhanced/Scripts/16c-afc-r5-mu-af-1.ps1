@@ -1,13 +1,4 @@
-﻿# Converted from: MU-AF#1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r5/raw/MU-AF%231.ANS
-# Source Revision: raw-sha256:84291d95d6160140de7ab00fac5b86ed9381273608ca54b1ac2361a1d741b8a9
-# Source SHA-256: 84291d95d6160140de7ab00fac5b86ed9381273608ca54b1ac2361a1d741b8a9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MU-AF#1.ANS by Mule (afc-r5); released in afc-r5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: MU-AF#1.ANS by Mule | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r5-mu-af-1
 
 Write-Host '
              [1;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;30;46m█[0;1;36;40m▄▄▄▄▄[0m     [1;36;40m▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ ▄▄▄▄▄[0m

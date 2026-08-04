@@ -1,13 +1,4 @@
-﻿# Converted from: BF-IC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack04/raw/BF-IC.ANS
-# Source Revision: archive-sha256:9fda3e62ea6f03ff3783df801cb7755dc6fc72a5a51e49bae41a28850a4d5c40
-# Source SHA-256: ce634c2b0e7187d6376ba8532e54562785527e69db2a948e835120ceb7c28595
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BF-IC.ANS by Bad Foundation (avpack04); released in avpack04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: BF-IC.ANS by Bad Foundation | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack04-bf-ic-part01
 
 Write-Host '
                [1;34m▀█████▄[0m

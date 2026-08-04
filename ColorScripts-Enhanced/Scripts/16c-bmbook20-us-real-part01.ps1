@@ -1,16 +1,4 @@
-﻿# Converted from: US-REAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook20/raw/US-REAL.ANS
-# Source Revision: archive-sha256:ad9acf30fa46ab5c9a458319782448b90dee64987e366c3cf1e5e495b40c4e0a
-# Source SHA-256: 09d6aa30d29eb9334ad741359d7e3ec65cf4e293194789a1597967e1b5af3797
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-REAL.ANS by Avenger + Shine (black maiden); released in bmbook20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: scream!
-# SAUCE Author: shine + avenger
-# SAUCE Group: black maiden
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: scream! by Avenger + Shine | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook20-us-real-part01
 
 Write-Host '
 

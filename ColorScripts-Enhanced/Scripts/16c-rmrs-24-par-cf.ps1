@@ -1,17 +1,4 @@
-﻿# Converted from: PAR-CF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-24/raw/PAR-CF.ANS
-# Source Revision: archive-sha256:4d7ae4c66dfbaa69fb09c857c73a0265787f84c667a8f375f61ef2bb99d7b256
-# Source SHA-256: a2dcbb55dc0616df96ab7545e9019b71d05ee44b23c93bf0b94e13ebb2829d3a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PAR-CF.ANS by Pariah (rmrs-24); released in rmrs-24 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Company Flow
-# SAUCE Author: Pariah
-# SAUCE Date: 19980606
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Company Flow by Pariah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-24-par-cf
 
 Write-Host '
 [1;31m╠[0;1;35m╬[0;1;31m╬[0;31m╣[0;37m [0;34m╠[0;1;34m╬╬╣[0m ╠[1m╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬[0m╣ [32m╠[0;1;32m╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬╬[0;1;36m╬╬[0;1;32m╬╬╬[0;32m╣[0;37m [0;31m╠[0;1;31m╬╬╬╬╬╬╣[0m

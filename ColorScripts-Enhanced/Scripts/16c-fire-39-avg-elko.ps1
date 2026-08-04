@@ -1,19 +1,4 @@
-﻿# Converted from: AVG-ELKO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-39/raw/AVG-ELKO.ANS
-# Source Revision: archive-sha256:5e57507ce34170a4afb707b1587800d0885fae4776f1271b7b7cee7f71264d9d
-# Source SHA-256: 1c2bb9438b3a5317a5caa12e4d6e15e5673d6d7895ce14a8d2a6f98ac666515d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-ELKO.ANS by Savage (Fire); released in fire-39 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Elko's Sexier Brother
-# SAUCE Author: Savage
-# SAUCE Group: Fire
-# SAUCE Date: 20240303
-# SAUCE Dimensions: 80x38
-# SAUCE Font: IBM VGA
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Elko's Sexier Brother by Savage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-39-avg-elko
 
 Write-Host '
 [33;40m▄[0;1;33;40m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[0;1;37;40m▓▓▓▓▓[0;1;33;40m▓[0;1;33;43m  [0;33m▀▀[0;1;30m▄[0m░░░░[1;30m ▄▄ ▒▒ ▐▌▐[0;1;30;47m▓▓▒▒▒░[0m▓[1;30;47m░[0m▓[1;30;47m▀[0;1;30;40m▄▄[0;33m▀[0;1;33;43m  ▄[0;1;33;40m▓▓▓▓[0;1;37;40m▓▓▓▓[0;1;33;40m▓▓[0;33m■[0m

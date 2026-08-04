@@ -1,18 +1,4 @@
-﻿# Converted from: CL-VINF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9611/raw/CL-VINF.ANS
-# Source Revision: archive-sha256:2b73e149488dc761d99422832825743596588d59e58f9bfecfb5d0e9dbffd274
-# Source SHA-256: 7957f4cfde9aa7bdc1fad1fec0a9f0b5fa59d08cf665a07ef19fc7f131fde7a1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL-VINF.ANS by Colourless (AWE Lettering); released in awe9611 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Virtual Infinity
-# SAUCE Author: Colourless
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19961031
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Virtual Infinity by Colourless | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9611-cl-vinf
 
 Write-Host '
   [33m░  [0;32m▄▄▄[0m                 [32m▄▄▄▌[0m                  [33m▄ ▀▀ ▄[0m        [33m▄  [0;32m▄ ▀▀ ▄░[0m

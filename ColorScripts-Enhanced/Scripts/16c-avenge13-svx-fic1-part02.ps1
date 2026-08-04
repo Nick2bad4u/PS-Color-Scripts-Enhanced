@@ -1,18 +1,4 @@
-﻿# Converted from: SVX-FIC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge13/raw/SVX-FIC1.ANS
-# Source Revision: archive-sha256:347f6c69918fead9ee3c845f2d1356dd84e1411d92cae5bcb8386da796611dd6
-# Source SHA-256: d1ab1b55d9bc6541b3e342e8868dad9ede777128fcd244af4b4683a71642bdc8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SVX-FIC1.ANS by Salvationx + Catch 22 (AVENGE!!!); released in avenge13 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fiction (featuring Catch22)
-# SAUCE Author: SalvationX
-# SAUCE Group: AVENGE!!!
-# SAUCE Date: 19981231
-# SAUCE Dimensions: 80x135
-# Lines: 49-92
-# Columns: 1-80
+﻿# Artwork: Fiction (featuring Catch22) by Salvationx + Catch 22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge13-svx-fic1-part02
 
 Write-Host '
              [33m ▄█████████[0;1;31;43m ░▒▒▓▓▓█▓▓█▓██████████[0;1;31;47m▓▒░▒▓▓[0;1;31;43m████████▓▓░░[0;33m█████████[0;30m333333[0m

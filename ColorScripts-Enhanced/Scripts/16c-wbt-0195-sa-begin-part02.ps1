@@ -1,18 +1,4 @@
-﻿# Converted from: SA-BEGIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wbt-0195/raw/SA-BEGIN.ANS
-# Source Revision: archive-sha256:796665d63839084a3e064ad6d02fdcac454fe856d0c61a26a4030285b18917b6
-# Source SHA-256: 521ec254df09b786ce6a39a48c26f4fa6dc04eb14443679fc1a40c1d164996ea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SA-BEGIN.ANS by Sabotage (WBT/SHiVER); released in wbt-0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: AfterDeath E-Mag Promo
-# SAUCE Author: Sabotage
-# SAUCE Group: WBT/SHiVER
-# SAUCE Date: 19941209
-# SAUCE Dimensions: 80x121
-# Lines: 33-76
-# Columns: 1-80
+﻿# Artwork: AfterDeath E-Mag Promo by Sabotage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wbt-0195-sa-begin-part02
 
 Write-Host '
                       [1;30m▄▀[0m        [1;30m■▄[0m   [1;30m▄▄▀[0m  [1;30m▄▄[0m        [1;30m■▄▄[0m    [1;30m▄[0m

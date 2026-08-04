@@ -1,15 +1,4 @@
-﻿# Converted from: DS-MEL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/kbsart03/raw/DS-MEL2.ANS
-# Source Revision: archive-sha256:3bc41b0cbaed5cc33563c576ee20fcd7a1c532d4df2df0fbf9fb63f79506bdf8
-# Source SHA-256: da558b2bfa22813da3fcdf95454b67f3066de91177f3ccb1dff73f201f0b2481
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-MEL2.ANS by Dyingsoul (kbsart03); released in kbsart03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 19990907
-# SAUCE Dimensions: 80x193
-# Lines: 50-98
-# Columns: 1-80
+﻿# Artwork: DS-MEL2.ANS by Dyingsoul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-kbsart03-ds-mel2-part02
 
 Write-Host '
 [34;40m    ▄▄▄▄▄▄▄[0;1;34;44m░░▒▒▓▓[0;1;34;40m▀[0;34m▀   ▄[0;1;34m▄▄[0;1;34;44m█▀[0;1;34;40m▀[0;34m▀              ▄[0;1;34m▄▄▐[0;1;34;44m▓▓▒▒░░[0;34m▀[0;35m▄[0;1;35;45m▄[0;1;35;40m█████[0;1;35;45m▀[0;35m▀[0;1;35m  [0;35m▄[0;1;35m [0;35m▐[0;1;35;45m▐[0;1;35;40m██[0;1;35;45m▄[0;35m▄[0;34m▐█[0;34;46m▓▓▒▓[0;34;40m█[0m

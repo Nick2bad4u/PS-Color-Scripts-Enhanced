@@ -1,18 +1,4 @@
-﻿# Converted from: LD-GUM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-04/raw/LD-GUM1.ANS
-# Source Revision: archive-sha256:8dc8586a37ce2081b7e99529b7087f421e6ff8d5ba2d146ef1d30bd490016720
-# Source SHA-256: 617dcdb0ae7b8dedcd9d86d077b394938ebc6e4ea0d3ce0fae1efc578ff799e1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-GUM1.ANS by lordjazz (odium); released in odium-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: gum
-# SAUCE Author: lordjazz
-# SAUCE Group: odium
-# SAUCE Date: 19960211
-# SAUCE Dimensions: 80x25
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: gum by lordjazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-04-ld-gum1
 
 Write-Host '
 [1m[0m

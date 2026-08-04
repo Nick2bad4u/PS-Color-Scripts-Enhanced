@@ -1,18 +1,4 @@
-﻿# Converted from: SPH_FAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sadist03/raw/SPH_FAT.ANS
-# Source Revision: archive-sha256:aad069a20b3a55e608ff5f7b3cbbfa85da447754484a4340da178067d56a89cc
-# Source SHA-256: af7c2dc78ec851c82d3a43e5cebb16483063429116f33a7a9715ffbb4fb93b8f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPH_FAT.ANS by sephiroth (sadist); released in sadist03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fat.
-# SAUCE Author: sephiroth
-# SAUCE Group: sadist
-# SAUCE Date: 19990201
-# SAUCE Dimensions: 80x82
-# Lines: 38-82
-# Columns: 1-80
+﻿# Artwork: fat. by sephiroth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sadist03-sph-fat-part02
 
 Write-Host '
    [1;30;40m▌[0m   [30;47m█[0;1;30;42m▓▒░[0;32m█[0;1;32;42m░[0;1;30;42m░▒[0;32m▄[0;30;47m█[0;32;40m▀[0;1;32;42m░▒░[0;32m▄[0;1;30m▀[0;1;30;42m▓[0;1;32;42m░[0;32m [0;1;30;42m▓▒░[0;32m█▀[0;30;47m████[0;37;40m [0;1;33;40m   [0;1;30;40m▄[0m▄▄[1;47m░[0;1;30;47m░░[0;1;37;47m░▒▓▄[0m▄[1;33m [0m  [1;33m  [0;30;47m███[0;1;30;40m▐[0;1;30;42m▓▒[0;30;47m█[0;1;30;40m█[0;1;30;42m▓▒[0;1;30;40m█[0;1;30;42m▒[0;1;30;40m█[0;30;47m████[0;1;30;40m█[0;30;47m█[0;1;30;42m▓[0;1;30;40m▌[0;1;30;42m▓▒░[0;30;47m█[0m

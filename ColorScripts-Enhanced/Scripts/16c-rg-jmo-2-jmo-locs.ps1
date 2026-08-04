@@ -1,18 +1,4 @@
-﻿# Converted from: JMO-LOCS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rg_jmo_2/raw/JMO-LOCS.ANS
-# Source Revision: archive-sha256:fc19b97fecaca60547a728fc55037fbc35ea6d809277feb36fa691a34fdeb3cc
-# Source SHA-256: 25d686792a7f08105926c7033fd8ba528b7cf46a365fa5ee6730b33f6ebffbbd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JMO-LOCS.ANS by Jam-O (ReGeneration); released in rg_jmo_2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Locus-Logo
-# SAUCE Author: Jam-O
-# SAUCE Group: ReGeneration
-# SAUCE Date: 19961224
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Locus-Logo by Jam-O | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rg-jmo-2-jmo-locs
 
 Write-Host '
 [1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m [36m▄[0;32m▄[0;36m▀▀[0;32m▀[0;36m▀[0;32m▀▄▄[0;37m [0;1;30m▀▀[0;32m ▄▄▀▀[0;36m▀▀[0;32m▄[0;36m▄[0;37m [0;1;30m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: ZII-KOAL.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_ansi_love/raw/ZII-KOAL.ans
-# Source Revision: archive-sha256:6bbd631cd11e3473b019590c35c9a89f139f75a09b13e07a93395613241d63e9
-# Source SHA-256: 1e0ac74430aaec308bf379962b2180a56f21230a4a4fadd19ac4ec7e9b93301e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZII-KOAL.ans by Zeus II (Blocktronics); released in blocktronics_ansi_love and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Psykoala
-# SAUCE Author: Zeus II
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20170815
-# SAUCE Dimensions: 80x30
-# SAUCE Font: IBM VGA
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Psykoala by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-ansi-love-zii-koal
 
 Write-Host '
 [37;40m    [0;33;40m   [0m                                                       [35;40m       [0m

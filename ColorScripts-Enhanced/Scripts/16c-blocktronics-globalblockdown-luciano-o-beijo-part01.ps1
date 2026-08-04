@@ -1,19 +1,4 @@
-﻿# Converted from: luciano-o-beijo.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-globalblockdown/raw/luciano-o-beijo.ans
-# Source Revision: archive-sha256:72def6914c400cf448198b2a3876b5414476d859652144a1c3db260cf8838ba8
-# Source SHA-256: 968d41529438d37439a6dd3f139d856b2a72c222d53ca1b1688a430fcd764c74
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: luciano-o-beijo.ans by Luciano (Blocktronics); released in blocktronics-globalblockdown and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: love is strange
-# SAUCE Author: Luciano
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20200702
-# SAUCE Dimensions: 80x51
-# SAUCE Font: IBM VGA
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: love is strange by Luciano | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-globalblockdown-luciano-o-beijo-part01
 
 Write-Host '
 [1;35m███████████████████████████████████▀▀▀█████████████▀▀████▀[0;33m▄▀[0;1;35m▄██▒▒  [0;33m▄▄▀▄ ■▄    ▄[0m

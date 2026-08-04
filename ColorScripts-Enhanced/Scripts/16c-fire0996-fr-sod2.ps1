@@ -1,18 +1,4 @@
-﻿# Converted from: FR-SOD2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0996/raw/FR-SOD2.ANS
-# Source Revision: archive-sha256:fd0c87547005857a37aee32ff40c82a1e8535aecda68a9edc2483cdc45b21af1
-# Source SHA-256: 8af54838f4fe0ed6f0a608301a41ef0f104ff6b46fe768f488a848e818accfc7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FR-SOD2.ANS by Fractal (fire); released in fire0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Sod
-# SAUCE Author: Fractal
-# SAUCE Group: fire
-# SAUCE Date: 19960910
-# SAUCE Dimensions: 80x25
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: Sod by Fractal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0996-fr-sod2
 
 Write-Host '
 [1;30m[0m[1;30m[0m[1;30m[0m[1;30m[0m[1;30m '' sod ''[0m [1;30m---- ░+--[0m [1m▌[0m  [1;30m---  --+------░------ --+--[0m [1;30m-[0m [1;30m------[0m [1;30m-[0m       [1;30m--[0m     [1;30m [0m

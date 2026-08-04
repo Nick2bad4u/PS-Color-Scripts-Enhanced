@@ -1,17 +1,4 @@
-﻿# Converted from: MN-FLUPH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9708/raw/MN-FLUPH.ANS
-# Source Revision: archive-sha256:defa13458710db8b7c1fa20a6cd29749e80a61eef8ba8dc70e8a9a4a0b1d4f5d
-# Source SHA-256: f086f1690c06800040ac83a0d2d4909c8f8ff9e769eb4891ab5c7ba8c18e6913
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MN-FLUPH.ANS by Menace (AWE Lettering); released in awe9708 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Fluph
-# SAUCE Author: Menace
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Fluph by Menace | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9708-mn-fluph
 
 Write-Host '
        [1;34m▄▄[0m▄▄         [34m░░[0;30;44m▓[0m         [34;40m░░[0;30;44m▓[0;34;40m░[0;30;44m▓[0m             [30;44m░░▓[0;34;40m░[0m            [34;40m░[0;30;44m▓[0m [34;40m░░[0;30;44m▓[0m    [34;40m░[0;30;44m▓[0m

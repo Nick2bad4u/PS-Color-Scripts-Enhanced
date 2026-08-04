@@ -1,18 +1,4 @@
-﻿# Converted from: YO-ELIX0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spas9504/raw/YO-ELIX0.ANS
-# Source Revision: archive-sha256:916c7acab9b210f3e97ff0544079806a486a09bbb4eddfa318f2a69301332293
-# Source SHA-256: 7f4de8b7ddddecf1d159698ccf3b7cc14ad4103f429d1c4e69b5b15aca27f67a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: YO-ELIX0.ANS by Young (Spastic Studios); released in spas9504 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Elixir
-# SAUCE Author: Young
-# SAUCE Group: Spastic Studios
-# SAUCE Date: 19950321
-# SAUCE Dimensions: 80x25
-# Lines: 36-70
-# Columns: 1-80
+﻿# Artwork: Elixir by Young | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spas9504-yo-elix0-part02
 
 Write-Host '
 [1;31;43m░░░░▒▓▓▓█[0;30;47m█[0;1;30;40m▓▓███▓▀▄▓█████████████████████████████████████▓▓▓▓▓██▓▓█▄▄▄▄▓▄▄▀▓█▓[0;30;47m█[0;1;30;47m▓[0m

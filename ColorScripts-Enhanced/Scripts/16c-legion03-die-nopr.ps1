@@ -1,18 +1,4 @@
-﻿# Converted from: DIE-NOPR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/legion03/raw/DIE-NOPR.ANS
-# Source Revision: archive-sha256:3b251d9ebc35ceed23da0d58ef375496b1cad741eaa1377af904a80c9c17dc07
-# Source SHA-256: 82934a91335fe46b06ae9f588945862f4381d41e9715a319e5af2d85f3a36c4a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DIE-NOPR.ANS by dieznyik (the legion); released in legion03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: nopr
-# SAUCE Author: dieznyik
-# SAUCE Group: the legion
-# SAUCE Date: 19980601
-# SAUCE Dimensions: 80x25
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: nopr by dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-legion03-die-nopr
 
 Write-Host '
      ▄[1;35m▄▄[0m▄            [35m  ▄[0;1;35m▄▄▄▄▄[0;35m▄░░[0m                              [35m▄[0;1;35m▄▄▄▄[0;35m▄  [0m

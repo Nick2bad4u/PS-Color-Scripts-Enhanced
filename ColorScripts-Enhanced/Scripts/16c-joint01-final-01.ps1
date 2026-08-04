@@ -1,13 +1,4 @@
-﻿# Converted from: FINAL#01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/joint01/raw/FINAL%2301.ANS
-# Source Revision: archive-sha256:e6fb9dd8e4d92014a2b1eaaad9b3917187f1a11e796475ee34a2619f8644e876
-# Source SHA-256: b7fa238208d12a00a1043bc3acdd98fdc21c0746949b318623c3e9a0021ca16e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FINAL#01.ANS by Cheeze + Crayon + Balls Wilson + Lago + Armageddon Donut (joint01); released in joint01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: FINAL#01.ANS by Cheeze + Crayon + Balls Wilson + Lago + Armageddon Donut | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-joint01-final-01
 
 Write-Host '
                          [1;31m▄▄███▄[0m   [1;31m▄████▄[0m        [31m▄▄[0m

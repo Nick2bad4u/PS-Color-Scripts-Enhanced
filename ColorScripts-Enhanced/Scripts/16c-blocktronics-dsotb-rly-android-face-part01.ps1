@@ -1,19 +1,4 @@
-﻿# Converted from: rly-android-face.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-dsotb/raw/rly-android-face.ans
-# Source Revision: archive-sha256:31e1fdfda207a2147f2b0badf1415308dc54d4c24afa56622db8a43f68f110f1
-# Source SHA-256: 1f58ab639fdb1c02a007f40180c702312afe573703008691c511eeabe5c8d677
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: rly-android-face.ans by Riley (blocktronics); released in blocktronics-dsotb and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Android Face
-# SAUCE Author: Riley
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190726
-# SAUCE Dimensions: 80x58
-# SAUCE Font: IBM VGA
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Android Face by Riley | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-dsotb-rly-android-face-part01
 
 Write-Host '
 

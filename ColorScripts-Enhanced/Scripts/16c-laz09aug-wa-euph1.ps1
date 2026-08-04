@@ -1,18 +1,4 @@
-﻿# Converted from: WA-EUPH1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz09aug/raw/WA-EUPH1.ANS
-# Source Revision: archive-sha256:3e0bd3039fe877b3970f71e80b4456ee60793f2295ae127a50a6587b17c2d6a2
-# Source SHA-256: 470bb7e3a11f7604a359ef08668508f52db2c7a89f0d72ecdcf164d88c058c27
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WA-EUPH1.ANS by warpus (lazarus); released in laz09aug and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the euphorium
-# SAUCE Author: warpus
-# SAUCE Group: lazarus
-# SAUCE Date: 19970714
-# SAUCE Dimensions: 80x21
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: the euphorium by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz09aug-wa-euph1
 
 Write-Host '
 

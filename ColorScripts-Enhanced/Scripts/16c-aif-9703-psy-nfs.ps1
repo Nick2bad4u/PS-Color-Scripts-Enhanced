@@ -1,18 +1,4 @@
-﻿# Converted from: PSY-NFS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aif-9703/raw/PSY-NFS.ANS
-# Source Revision: archive-sha256:8ff72b77604e7ed00a0051c0fed7309a91e0edcd872999887f592889423f376c
-# Source SHA-256: 8e4620f6c4f43f58cf924073037acf239877efebdad3ece8843ba9bb5ce89421
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PSY-NFS.ANS by lord autopsy (aif); released in aif-9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: new file scan for FUCK
-# SAUCE Author: lord autopsy
-# SAUCE Group: aif
-# SAUCE Date: 19970212
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: new file scan for FUCK by lord autopsy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aif-9703-psy-nfs
 
 Write-Host '
 [1;30m--[          ]--─────---──----────---───-----────-----────----───------────---─-[0m

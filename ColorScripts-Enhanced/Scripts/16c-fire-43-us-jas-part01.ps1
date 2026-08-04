@@ -1,19 +1,4 @@
-﻿# Converted from: US-JAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-43/raw/US-JAS.ANS
-# Source Revision: archive-sha256:d3967e67800d0c773a52f120751caeb2bc01ead5180b478fb0a0e89978edc4ec
-# Source SHA-256: 33b4544f5f7bb5c413dedc68030286fc5a4cead10e6269f2996ba22b4f4e8070
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-JAS.ANS by Tainted + Aesthetic (fire); released in fire-43 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: jasper
-# SAUCE Author: tainted/aesthetic
-# SAUCE Group: fire
-# SAUCE Date: 20250707
-# SAUCE Dimensions: 80x180
-# SAUCE Font: IBM VGA
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: jasper by Tainted + Aesthetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-43-us-jas-part01
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: SA-S&S1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wbt-0195/raw/SA-S%26S1.ANS
-# Source Revision: archive-sha256:796665d63839084a3e064ad6d02fdcac454fe856d0c61a26a4030285b18917b6
-# Source SHA-256: 637299c08fe2c8b93e8fc63002e9abfbd47c8a39a64148039474e6f10c180f58
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SA-S&S1.ANS by Sabotage (WBT/SHiVER); released in wbt-0195 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Cave (Simon & Simon =)
-# SAUCE Author: Sabotage
-# SAUCE Group: WBT/SHiVER
-# SAUCE Date: 19941220
-# SAUCE Dimensions: 80x153
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: The Cave (Simon & Simon =) by Sabotage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wbt-0195-sa-s-s1-part02
 
 Write-Host '
                  [1;30m▀▀▀▄▄▄[0m                                              [1;30m░[0m

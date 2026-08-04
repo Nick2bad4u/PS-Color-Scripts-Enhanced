@@ -1,20 +1,4 @@
-﻿# Converted from: 2s-Bogartz.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/slackpack002/raw/2s-Bogartz.ans
-# Source Revision: archive-sha256:c9825ce8b4e923e4d1f86a6f63bce502ceaec66422c3ae1a65cba92cfc82cb17
-# Source SHA-256: 389ab30008a0583a381d96382b027e0142aad9118075ea6fc09934a97bc51f7d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2s-Bogartz.ans by 2Stoned (Slackers BBS); released in slackpack002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Bogartz McPuff
-# SAUCE Author: 2Stoned
-# SAUCE Group: Slackers BBS
-# SAUCE Date: 20251115
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Just having fun with some quick cartoon sketches. Slackers BBS s | lackers.ovh 2323
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: Bogartz McPuff by 2Stoned | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-slackpack002-2s-bogartz
 
 Write-Host '
   [31m███████████████████████████▀[0;37m [0;33m▄▄▄▄▄[0;37m [0;31m▀▀▀████████████████████▀[0;37m [0;1;37;47m▀[0m██▄ ▀ [31m▀[0;37m▄[0;1;37;47m▀[0m████[1;30m██[0m

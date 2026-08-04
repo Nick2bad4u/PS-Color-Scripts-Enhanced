@@ -1,18 +1,4 @@
-﻿# Converted from: OK-NEON1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9609/raw/OK-NEON1.ANS
-# Source Revision: archive-sha256:96c031e04e5c479ef9ed73f1afa21a3db6bca2a2de7ad88a46888136232884ff
-# Source SHA-256: 4ee35e7c7d681311adf3b60e2000744f8d195014d2f6c8cf88c3ff0dc0293784
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OK-NEON1.ANS by Outkast (Samsara); released in sms-9609 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Neon Jesus
-# SAUCE Author: Outkast
-# SAUCE Group: Samsara
-# SAUCE Date: 19960824
-# SAUCE Dimensions: 80x25
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Neon Jesus by Outkast | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9609-ok-neon1
 
 Write-Host '
   [1;33mn[0m   [1;33me[0m   [1;33mo[0m   [1;33mn[0m    [1;33mj   e   s   u   s[0m [36m░▒▓▓[0;1;36;46m░░[0;1;37;46m░░▒▓▓▓[0;1;37;40m▓▓[0;1;37;47m▓▓▓▒▒▒▒▒░░░░░░░░░░░▒▒▒▒▓▓▓▒▒[0m

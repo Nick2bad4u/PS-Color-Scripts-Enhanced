@@ -1,18 +1,4 @@
-﻿# Converted from: t!-bad.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot1197/raw/t!-bad.ans
-# Source Revision: archive-sha256:42a4ff2f69bb7f52710e2ec33efed1616917289c2c21517459d11ab153763ccb
-# Source SHA-256: 613b9e4ae2bb592ca756a955c76db16ffe919d463f286fa916c6e77061d5d74b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: t!-bad.ans by .xX[ tERROR ]Xx. (RioT); released in riot1197 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: bAD mUTHA!!@#$
-# SAUCE Author: .xX[ tERROR ]Xx.
-# SAUCE Group: RioT
-# SAUCE Date: 19971109
-# SAUCE Dimensions: 80x25
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: bAD mUTHA!!@#$ by .xX[ tERROR ]Xx. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot1197-t-bad
 
 Write-Host '
 

@@ -1,19 +1,4 @@
-﻿# Converted from: r5-next.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_blockalypse/raw/r5-next.ans
-# Source Revision: archive-sha256:29ba148fe5fc8b4a774ee58a56a5b6d8104f139a95cba3df944ffda7c075e06a
-# Source SHA-256: e9d7772d7ba0a24234490f5a602267448e2d017b9f5d8d67d4b4e09dfba2f51f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: r5-next.ans by resetsurvivor (block7ronics); released in blocktronics_blockalypse and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: future g4ngs of the blockalypse
-# SAUCE Author: resetsurvivor
-# SAUCE Group: block7ronics
-# SAUCE Date: 20140127
-# SAUCE Dimensions: 80x420
-# SAUCE Font: IBM VGA
-# Lines: 188-234
-# Columns: 1-80
+﻿# Artwork: future g4ngs of the blockalypse by resetsurvivor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blockalypse-r5-next-part05
 
 Write-Host '
 [1;31m██████████▄[0m [1m▌[0m [1;31m███████ [0;1;37m▀[0m [1;31m▄██████▌[0;1;37m▐██████████████  █████████████████████[0m [1;31m▐████████[0m

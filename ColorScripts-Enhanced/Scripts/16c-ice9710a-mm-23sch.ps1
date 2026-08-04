@@ -1,13 +1,4 @@
-﻿# Converted from: MM-23SCH.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9710a/raw/MM-23SCH.ICE
-# Source Revision: archive-sha256:d2847f32aebd3efb38a7554b205a8c1ae530e718b7cf09458b28d38f4085367b
-# Source SHA-256: d32fa610083e38f4147140798f94734cafa8d502d835243c4bd8df1877342c4c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-23SCH.ICE by Magnetic M (ice9710a); released in ice9710a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: MM-23SCH.ICE by Magnetic M | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9710a-mm-23sch
 
 Write-Host '
                                             [1;30m                     [0;31m▄▄█▄[0;37m▄▄[0;1;30m        [0m

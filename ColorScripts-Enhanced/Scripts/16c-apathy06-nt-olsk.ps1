@@ -1,18 +1,4 @@
-﻿# Converted from: NT-OLSK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy06/raw/NT-OLSK.ANS
-# Source Revision: archive-sha256:da68d928b75eacb21ef6bbd9cd632165def9238591f0378ec07f4b56faef6ea8
-# Source SHA-256: 7b43df34ea35c6f078aad977594de20fcba49702ad9c8738f55d3e94632434d3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NT-OLSK.ANS by Nootropic (Apath33!); released in apathy06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Ol' Skool
-# SAUCE Author: Nootropic
-# SAUCE Group: Apath33!
-# SAUCE Date: 19960127
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: The Ol' Skool by Nootropic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy06-nt-olsk
 
 Write-Host '
                                    [1;34m░ [0;1;30m■▄[0m

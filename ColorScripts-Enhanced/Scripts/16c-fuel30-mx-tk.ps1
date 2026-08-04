@@ -1,19 +1,4 @@
-﻿# Converted from: mx-tk.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel30/raw/mx-tk.ans
-# Source Revision: archive-sha256:e3148e82a669aa484baf0738069fbabe44ba2824856e1cb4b05875b86bdd4621
-# Source SHA-256: 0dec4c4a5a895101a5d9c8149d0e436d92cc55a5c15607de50ed7c2a0cf6e5f1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mx-tk.ans by mx (fuel30); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Knight
-# SAUCE Author: mx
-# SAUCE Date: 20190714
-# SAUCE Dimensions: 80x41
-# SAUCE Font: IBM VGA
-# SAUCE Comments: A little something for none other than Mr. Teakay. Thanks for th | e inspiration, man <3
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: The Knight by mx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel30-mx-tk
 
 Write-Host '
 

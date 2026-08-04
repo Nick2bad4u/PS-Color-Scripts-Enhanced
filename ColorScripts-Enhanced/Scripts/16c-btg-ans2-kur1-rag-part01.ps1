@@ -1,13 +1,4 @@
-﻿# Converted from: KUR1#RAG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/btg_ans2/raw/KUR1%23RAG.ANS
-# Source Revision: archive-sha256:ef1d7f5aa7f6ddd3a18962651dfef7920d45568f5c91446255731618604ffcb4
-# Source SHA-256: b6b8b6697706bc90adbb6e71a75e4d36384a72ec0a91e17499e8c6064c2446b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KUR1#RAG.ANS by Rage (btg_ans2); released in btg_ans2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: KUR1#RAG.ANS by Rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-btg-ans2-kur1-rag-part01
 
 Write-Host '
 [1;30m[80x50][0m                                                                        [1;33m·[0m

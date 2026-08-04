@@ -1,18 +1,4 @@
-﻿# Converted from: M!-MWNZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-07a/raw/M!-MWNZ.ANS
-# Source Revision: archive-sha256:6502b6f7b940f1799a6ba4f4b08910561aba3d74e01448e36157cb66de10c8c7
-# Source SHA-256: 9fe679456e0acf2166f678e4c04f91abf657792e06ce6a9b6d93772bb9cfd0dd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M!-MWNZ.ANS by Myth (Department 38); released in d38-07a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Mega Warez NZ
-# SAUCE Author: Myth
-# SAUCE Group: Department 38
-# SAUCE Date: 19970122
-# SAUCE Dimensions: 80x16
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: Mega Warez NZ by Myth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-07a-m-mwnz
 
 Write-Host '
 [31m   [0;35m [0;31m [0;35m░[0;31m [0;1;30m ░[0;31m [0;1;30m░▓[0;31m  [0;35m▒[0;31m        [0;35m [0;31m            [0;35m▓[0;31m   [0;35m [0;31m       [0;1;30m░[0;31m         [0;35m [0;31m      [0;35m░[0;31m [0;35m░[0;31m      [0;35m▓[0;31m [0;1;30m▒[0;31m   [0m

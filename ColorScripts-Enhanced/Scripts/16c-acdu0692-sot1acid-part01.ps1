@@ -1,13 +1,4 @@
-﻿# Converted from: SOT1ACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0692/raw/SOT1ACID.ANS
-# Source Revision: archive-sha256:57672df06e5ecb0b0b4e05fcd7d03f2b4014d9b65c523f558d00ba64dcb9e559
-# Source SHA-256: d8081bc602b67b3359d3d5e6cb87593f2a21dfd0ac0da7fefe6e15266f8da24c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SOT1ACID.ANS by Spectral Illusion (acdu0692); released in acdu0692 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: SOT1ACID.ANS by Spectral Illusion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0692-sot1acid-part01
 
 Write-Host '
                   [1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;47m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

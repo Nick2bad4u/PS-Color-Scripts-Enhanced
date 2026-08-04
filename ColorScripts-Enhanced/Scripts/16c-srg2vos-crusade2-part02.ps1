@@ -1,18 +1,4 @@
-﻿# Converted from: CRUSADE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/srg2vos/raw/CRUSADE2.ANS
-# Source Revision: raw-sha256:bd4ef048d0095a22ee61b825469a19f530b23cc642712ece9e87ac85dc7147cc
-# Source SHA-256: bd4ef048d0095a22ee61b825469a19f530b23cc642712ece9e87ac85dc7147cc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CRUSADE2.ANS by crusader (fbk.sargahd^vos); released in srg2vos and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: x-zone
-# SAUCE Author: crusader
-# SAUCE Group: fbk.sargahd^vos
-# SAUCE Date: 19961103
-# SAUCE Dimensions: 80x96
-# Lines: 49-96
-# Columns: 1-80
+﻿# Artwork: x-zone by crusader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-srg2vos-crusade2-part02
 
 Write-Host '
 [31m███████▓ ▄▄▄▄[0;37m [0;31m▀■[0;37m [0;1;30;41m░[0m    [31m▀▀▄▄▀[0;37m  [0;1;30;41m [0;31m░[0;37m  ▄▀▓[0;1;37;47m▀▀▀[0m█[1;30;47m▄▓[0;1;30;40m▀[0m   ▐[1;30;47m█[0;1;30;40m▌[0m [1;30;41m [0;31m██▀░▀████████▒████▄███[0;1;30;41m [0;31m██▓ [0m

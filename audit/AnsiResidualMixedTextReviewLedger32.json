@@ -1,0 +1,647 @@
+{
+  "batch": 32,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch32-focused-residual-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 60,
+              "end": 70
+            }
+          ],
+          "expectedRawSha256": "cf3cd79df7a9cb10a9564e9a1f4469188d376609d34225105c793f0c63aad8be",
+          "expectedRenderedSha256": "a9b16431423f6fe5e0e8680b786832cc26f5117bb0e30f670a88445d16169c85",
+          "row": 14,
+          "sha256": "45de34dddbe3a5306805cde50985fe652e7405ef17e8995a63d0c92613ff5ef0"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 58,
+              "end": 77
+            }
+          ],
+          "expectedRawSha256": "35dd4fc767bb3bba4e9963e02ada173c5f5af6a42e8ce5f6761424522c78b8d4",
+          "expectedRenderedSha256": "f6c3dbbee3af0b05c137b6dc3b777002f2a6e86051637550b6033bdcec401111",
+          "row": 16,
+          "sha256": "2504c7c18bc14cb76a75919f084e40d9e477c2ba3a7f0ad3649376cfd2e773b9"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 58,
+              "end": 75
+            }
+          ],
+          "expectedRawSha256": "8d986e7027e6e5bf4235a1abd325772a06d400af375c83d46599309fe6bee554",
+          "expectedRenderedSha256": "d874174cf1cf29ad3d1fa02719499874deea01e7f4be0c8be2e51025d05f154a",
+          "row": 17,
+          "sha256": "0f0c856767eb3af2e39922ca4cc99708b4fe6abb0d58735146735e7d9b112d7d"
+        }
+      ],
+      "file": "16c-blur9606-ok-psd.ps1",
+      "rationale": "Full-payload review and independent replay confirmed only disposable template filler, unfinished annotations, source-process commentary, possible-use notes, and anti-rip/source-use notes. Exact preimage and projected hashes preserve every unselected terminal cell.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch32-focused-review.json",
+        "temp/text-blanking-continuation/batch32-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch32-focused-residual-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 50,
+              "end": 59
+            }
+          ],
+          "expectedRawSha256": "8c6be500f833b5768366747235897c85c49b1f102cdf0935f708d638d9ea7db7",
+          "expectedRenderedSha256": "5a9b2e512f9a980c4f6e8d73e4d7abc325563d05cc0c6d2148f8bebce095d0ec",
+          "row": 34,
+          "sha256": "be924b478aa2a6656de5ecb916d43b44161752c1f0850366ff421f1bfa07a9b9"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 50,
+              "end": 59
+            }
+          ],
+          "expectedRawSha256": "2a59d3498717f756f50207808048eca1b071fb730cc5b7644cdf5a37a7ddb5da",
+          "expectedRenderedSha256": "81f34d52897f2590dba668be23b3bff673f8daf14710abf07e99c11c82bd29c9",
+          "row": 35,
+          "sha256": "4e38766d92bd4cf8626c944a0c0342ae72aa8d9235a3f64e54a1d53bd384bf92"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 50,
+              "end": 58
+            }
+          ],
+          "expectedRawSha256": "6b97d474c67b4e03ce438310f4f6465fc6701c0f54b8642169510c23e88a0e2d",
+          "expectedRenderedSha256": "48fbe2b1de8d663a8fc6034c2733f5552da7e02891e5b18035898dbf3b45bf17",
+          "row": 36,
+          "sha256": "227e370d1c7be2144520444859b0763269c08b0388ad1e6a8093ae67ce8daf49"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 50,
+              "end": 59
+            }
+          ],
+          "expectedRawSha256": "5534308fc314e81c71c8b4564076751cbcba29e5f1aac7405ad6d5a3eaa4fcc4",
+          "expectedRenderedSha256": "92ec3a146ad594cd2fc6a4e40c7b925cd6551067b6bfef4dcf13a5659e57fcfc",
+          "row": 37,
+          "sha256": "c7f48f0fbc74796c2f1e963b74df217e1ad0e4254cb7026b2699fb390b56c219"
+        }
+      ],
+      "file": "16c-charm05-p5-flick.ps1",
+      "rationale": "Full-payload review and independent replay confirmed only disposable template filler, unfinished annotations, source-process commentary, possible-use notes, and anti-rip/source-use notes. Exact preimage and projected hashes preserve every unselected terminal cell.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch32-focused-review.json",
+        "temp/text-blanking-continuation/batch32-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch32-focused-residual-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 54,
+              "end": 70
+            }
+          ],
+          "expectedRawSha256": "08d6cfabc8f98954db9e762cf8b6c401b0ec8b2db932cca0c4690529fdbdb97c",
+          "expectedRenderedSha256": "e3daa069c76c89edc4a2a36d4bbf84e1ff6ebc39bdc4f15a9656c277563c00b2",
+          "row": 18,
+          "sha256": "2320bf999804c9d23d3d291eed4e37bbe002ab666d3a98e782f029f0265fa437"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 57,
+              "end": 66
+            }
+          ],
+          "expectedRawSha256": "81d32e017ad6fdaa515c284ddfd829779cad702df0caf5ca00ded5d0d6715aec",
+          "expectedRenderedSha256": "76b05f2d56236e6ef8999c67bb76ea42504dd18a9c8d4ab40c3c5a03b46e772d",
+          "row": 19,
+          "sha256": "bca2d4a74020144bf1413e1d39ab3dd0d57e5ac782b5a684dd78526a5b6ddb72"
+        }
+      ],
+      "file": "16c-glue-12-22-gp1.ps1",
+      "rationale": "Full-payload review and independent replay confirmed only disposable template filler, unfinished annotations, source-process commentary, possible-use notes, and anti-rip/source-use notes. Exact preimage and projected hashes preserve every unselected terminal cell.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch32-focused-review.json",
+        "temp/text-blanking-continuation/batch32-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch32-focused-residual-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 67,
+              "end": 74
+            }
+          ],
+          "expectedRawSha256": "f2e1751cc9e6eb9b281b4f2aee870112f1744062a3fbfb5f5923f3a9c753419a",
+          "expectedRenderedSha256": "c11b48986cb0aa0b6cd3046a149384cba7e7402d2a6820772412fd05a9049cf6",
+          "row": 12,
+          "sha256": "3243c749c7098c62cbe287ce3a0eae8e70e46cddb9d113acc3209a03485d8bf5"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 67,
+              "end": 75
+            }
+          ],
+          "expectedRawSha256": "b60da08178e511a8d85ff6fea1efeff0ff707f652240d48488a992d58f17aca3",
+          "expectedRenderedSha256": "63e501c4461418abd0d3addde385932a2a455b81494df1cd59a1b7b40189ff06",
+          "row": 13,
+          "sha256": "586ed5c3af6f715097132389a9901cdbedc333bfae44fc0432afc8af0a5ddcd5"
+        }
+      ],
+      "file": "16c-glue-14-22-gtr1.ps1",
+      "rationale": "Full-payload review and independent replay confirmed only disposable template filler, unfinished annotations, source-process commentary, possible-use notes, and anti-rip/source-use notes. Exact preimage and projected hashes preserve every unselected terminal cell.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch32-focused-review.json",
+        "temp/text-blanking-continuation/batch32-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch32-focused-residual-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 65,
+              "end": 75
+            }
+          ],
+          "expectedRawSha256": "c3cfd7fbe82089bb3e32a38dccbd182864541de1d37dfd1cb566e93ee74284e3",
+          "expectedRenderedSha256": "dbdc95de80ecdbb5eb87a30c915f0a3b600d96f8826e58152db863683b6329ef",
+          "row": 21,
+          "sha256": "48985c3c8bd52e5a546df8c2de44337a0cd6a910a0bc1bc056e0261a76b02ed8"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 64,
+              "end": 76
+            }
+          ],
+          "expectedRawSha256": "2896643ca52753fde9a57a1c350582fea79b1427123e5e2af067ea396e86a614",
+          "expectedRenderedSha256": "3d8d8ddbbf85477ba032a017eefd3c794e8b98f567ea2c9a73defa2698e80fd6",
+          "row": 23,
+          "sha256": "794bfbe90936d5928d4d6f8c2b09b481ebeca0fe23ef6fc1b723fe6c0046486c"
+        }
+      ],
+      "file": "16c-gvt-0396-sh-gsmtx.ps1",
+      "rationale": "Full-payload review and independent replay confirmed only disposable template filler, unfinished annotations, source-process commentary, possible-use notes, and anti-rip/source-use notes. Exact preimage and projected hashes preserve every unselected terminal cell.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch32-focused-review.json",
+        "temp/text-blanking-continuation/batch32-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch32-focused-residual-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 6,
+              "end": 15
+            }
+          ],
+          "expectedRawSha256": "e1f7b9ff31fd6fa3e1d56211c78b8da14501808b8a730f6a8aa4536f5aef87b1",
+          "expectedRenderedSha256": "a04106b8ab3140c435aa99a6ce4f00cfc9b050eb06f10f0601bc16c59883742c",
+          "row": 16,
+          "sha256": "5e19baaa9a74f9a6e40fcc37a48403be47c74005122668733da71272b95cf7a8"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 5,
+              "end": 17
+            }
+          ],
+          "expectedRawSha256": "c6e62125870b0c545bf5b95af49ef009af82449e9d6427571f577e60f3243439",
+          "expectedRenderedSha256": "51212c5e5c9559a3c1870f1e1813bd8ab198cc1a2ea91e847a81522d8544c15b",
+          "row": 18,
+          "sha256": "d22ca889b1c1d3a4983de07f433c7920cad7add72cc8d20f2c04853f8deba844"
+        }
+      ],
+      "file": "16c-k0tpr0be-d-dftry.ps1",
+      "rationale": "Full-payload review and independent replay confirmed only disposable template filler, unfinished annotations, source-process commentary, possible-use notes, and anti-rip/source-use notes. Exact preimage and projected hashes preserve every unselected terminal cell.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch32-focused-review.json",
+        "temp/text-blanking-continuation/batch32-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch32-focused-residual-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 1,
+              "end": 6
+            }
+          ],
+          "expectedRawSha256": "1d36596966cce2e59033a93e9d69a5b22b233ae4c4f182f9550cbac1518812f0",
+          "expectedRenderedSha256": "7c3ba16f8c63d74748d62afd73909c72809a2aac42f2355326e8b854b3d30bcf",
+          "row": 32,
+          "sha256": "f86f998a6fa47ac7d0d64745c319674f6c3bac4a099864b4b30095ae4ae48de3"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 1,
+              "end": 10
+            }
+          ],
+          "expectedRawSha256": "6d5908c09707b71a62eb4051f21a4753b705cb9de47fe9a99d924d69688731c0",
+          "expectedRenderedSha256": "0a83c357c6ecebbe2fc73dabf382606e04ad1efa9dc765ceb113aad2f190781e",
+          "row": 33,
+          "sha256": "3fb2c0f73c593ebe45a359dc9702e5bdfdcd2b72206048ffe5398617de8552e6"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 1,
+              "end": 10
+            }
+          ],
+          "expectedRawSha256": "081c1fe6e097cad68c8da13de0013e117ab231f127cc49db3ab57c45b618c462",
+          "expectedRenderedSha256": "3b6ca59c6b191547ebf66b3f19090fd68cf34f2622ecd5774523302f325ff984",
+          "row": 34,
+          "sha256": "f068e92bce86bdc251086fb7d2763f9fadd9cd328a88c8fe4d24e77e90a83f61"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 1,
+              "end": 12
+            }
+          ],
+          "expectedRawSha256": "86827d1fdc85bb246e7e98f2d03886c51989f11ef2fadbe371ed6bd62d140b1d",
+          "expectedRenderedSha256": "b79914ec706dcb1e663677e66da363161ecf29fd2ed3986f34098b5597c7b196",
+          "row": 35,
+          "sha256": "8b3160601f90fe68f57f243dc40ab70f84b7733d75ce18234f2017b0576fd833"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 1,
+              "end": 19
+            }
+          ],
+          "expectedRawSha256": "9282beeed2b2a7bd1af5f41a4e71b0ed42f8b10e913cec3527b8ba7cbb012e89",
+          "expectedRenderedSha256": "7d7d313094cbb8f431e404f6fe8550774b1583f99fdaf7c27987f61d7cc6a1f0",
+          "row": 36,
+          "sha256": "487578503302beb9be6d4ab43fe09409529f797ae40ecb01b0f603a04c451b1f"
+        }
+      ],
+      "file": "16c-opx-0696-zii-itcg.ps1",
+      "rationale": "Full-payload review and independent replay confirmed only disposable template filler, unfinished annotations, source-process commentary, possible-use notes, and anti-rip/source-use notes. Exact preimage and projected hashes preserve every unselected terminal cell.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch32-focused-review.json",
+        "temp/text-blanking-continuation/batch32-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch32-focused-residual-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 61,
+              "end": 72
+            }
+          ],
+          "expectedRawSha256": "881dd02bff5246b430919c8fcba6321833884f7e985afb523d222e3b317782cf",
+          "expectedRenderedSha256": "1bab237e90ab0ff85052cb2152ff390fa8c51af5413d07f6d5755ef24ea06edc",
+          "row": 5,
+          "sha256": "9b61460ef4a0a640d4ade36b61f82d3a9000a6cc4be9f9b860037c17926c5130"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 61,
+              "end": 72
+            }
+          ],
+          "expectedRawSha256": "d6cf30a9259da1c6e043d01307ca69b0206967ba676198a477614f55d386a6a3",
+          "expectedRenderedSha256": "2a7070e3af0b0d2e79a6934bf133ee34ada38abce962139bc77f06f972979d35",
+          "row": 6,
+          "sha256": "907a54545cd4aa180af1f7fd1fe991da44c90428a4152b7f6c518380758e0b0c"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 61,
+              "end": 75
+            }
+          ],
+          "expectedRawSha256": "b3e9cfae16dec4daafdc54f750d74362bd9ed39bdb68cad6de36ae7407fa57fc",
+          "expectedRenderedSha256": "eab298786acefbbd0965d765405fe24238330496b562de2c84f9ca1e84acdff7",
+          "row": 7,
+          "sha256": "e26811e96329045b5f7028a5c98f4854aa03287ce844720ac25adf96d18f385b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 61,
+              "end": 75
+            }
+          ],
+          "expectedRawSha256": "9b8a4b8f67379f41bc0a25d24c11d0f1e47101c002dd98fa0b2b82a9de16d1fd",
+          "expectedRenderedSha256": "cff162286f2b4ece64b04ccec19a173a58c03681127af93c0bd0ea4654414d91",
+          "row": 8,
+          "sha256": "a2e1d68f559abe72add490d780d55d4f059a49eb43cbd132d9021026154288be"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 61,
+              "end": 75
+            }
+          ],
+          "expectedRawSha256": "abeaf40bd174752da74bb95358b7f644a5eceb99c92d7650fde6ff28b63a5c6d",
+          "expectedRenderedSha256": "b9041f8a60ba967a0c48d8b77839b9ca7972f056c8856c6e7ed5e729e78e256f",
+          "row": 10,
+          "sha256": "68c8defb51391d57ed14e8817c7af5e18c85875fd8f4ee6a8adcb34e813548f3"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 61,
+              "end": 76
+            }
+          ],
+          "expectedRawSha256": "6f176a44124cfe52991de65fd418dd2132641f2c9db0f4e7fc2acc74cff2e4e0",
+          "expectedRenderedSha256": "49bfc8b7feb34ee3ac5d6edf4df7630ba4d8b3e363786b4163271d828acfdcb5",
+          "row": 11,
+          "sha256": "620de14bb0de0a779146ec057cb9abd5c4ae22ac646f27a9b8efd7e7c202e81a"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 61,
+              "end": 75
+            }
+          ],
+          "expectedRawSha256": "3e7f620944f1e99b7680305341256aca8737f746498e4069b28b4a3d67a56d8a",
+          "expectedRenderedSha256": "b886837eae968dabd9b8186929983863277a09d6efbbd8d1bb95885b0194c131",
+          "row": 12,
+          "sha256": "2413ea5626337b72496f2b9f1ffdb0b6bf582824e640ec47f050f4bfa6d9837a"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 61,
+              "end": 66
+            }
+          ],
+          "expectedRawSha256": "6246d5b2f226f7f8863ab5750f53e392837d13026e063614f8ebdae8a9a211b4",
+          "expectedRenderedSha256": "22bc805aed0dd49590f45acca422d71865d12f044412fea1005bd8512bc6ff76",
+          "row": 13,
+          "sha256": "b55fde47f1adaba2fa5bc382c1b07fc78c1819343aaeeac5e49ee79128bc6fd4"
+        }
+      ],
+      "file": "16c-root04-md-toons-part02.ps1",
+      "rationale": "Full-payload review and independent replay confirmed only disposable template filler, unfinished annotations, source-process commentary, possible-use notes, and anti-rip/source-use notes. Exact preimage and projected hashes preserve every unselected terminal cell.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch32-focused-review.json",
+        "temp/text-blanking-continuation/batch32-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch32-focused-residual-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 24,
+              "end": 40
+            }
+          ],
+          "expectedRawSha256": "f6711b977f3b1035cd4515cd0dc95ab20f77a2e925c47f0741555eb16b96ede9",
+          "expectedRenderedSha256": "b13413b2007c71f88398f9ffc819d4f23048c3800ce2a1c36a4c3f3f8360e1db",
+          "row": 24,
+          "sha256": "2bc1d8dc91fd552761d0f9238310edc493cae2fe31013e4d60812a4ef951d668"
+        }
+      ],
+      "file": "16c-sense09-sc-uddf.ps1",
+      "rationale": "Full-payload review and independent replay confirmed only disposable template filler, unfinished annotations, source-process commentary, possible-use notes, and anti-rip/source-use notes. Exact preimage and projected hashes preserve every unselected terminal cell.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch32-focused-review.json",
+        "temp/text-blanking-continuation/batch32-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch32-focused-residual-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 14,
+              "end": 23
+            }
+          ],
+          "expectedRawSha256": "5b9985cc6f52757e47ded987e4f1f91527d88489026da12059aef6da2c96e2f1",
+          "expectedRenderedSha256": "10719c85a1e0eca408976d7e08c3735f435332db13b344ffca828f6e0f28f88a",
+          "row": 16,
+          "sha256": "9aac0d123acb6576ac53de13c0999eb42e6d7b985a264fe4735f2f04fd0a389c"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 14,
+              "end": 23
+            }
+          ],
+          "expectedRawSha256": "e691a843eb0418e4461276d04ce2512b992bce549ac69996f1ccee5d57e453ed",
+          "expectedRenderedSha256": "6061308454dc4105d875e9e73e04710d61d571aefe5e6f49dc105ef5626313c7",
+          "row": 17,
+          "sha256": "8bb81472157d77a351448a1e82b8d517d09f359290e74c361830dd7bc7c6fc8d"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 15,
+              "end": 22
+            }
+          ],
+          "expectedRawSha256": "195382f10c7098f1384528f555b392569fb3cf2d633db8cf3212c82afd48bb0c",
+          "expectedRenderedSha256": "c09d07368d696ebd1efe2658f4be0b3ea367eacb150d74b7953a3769b9d04a32",
+          "row": 18,
+          "sha256": "13c0bc7dc2390e3cfb9952ef8c4cd1c285eb4d9c900df56c63c47f7c69d873cf"
+        }
+      ],
+      "file": "16c-spr-04-mst-tac.ps1",
+      "rationale": "Full-payload review and independent replay confirmed only disposable template filler, unfinished annotations, source-process commentary, possible-use notes, and anti-rip/source-use notes. Exact preimage and projected hashes preserve every unselected terminal cell.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch32-focused-review.json",
+        "temp/text-blanking-continuation/batch32-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch32-focused-residual-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 57,
+              "end": 69
+            }
+          ],
+          "expectedRawSha256": "a84433c92e00e0e04ddd0efc204973f2bf44fcfb3b0da3f608224641cdfd0005",
+          "expectedRenderedSha256": "75872c15d068631165800f9611ec6acd0271e2c07a89e76d1d6ab07032b0ecbc",
+          "row": 12,
+          "sha256": "fb26b8ebfa1ef1fe15207d9d4bee5c3f945a68f7694ef8a746676d15354db933"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 55,
+              "end": 70
+            }
+          ],
+          "expectedRawSha256": "6958776ea08e78f6ba8913bb512064e25058633a08a2c396a1f9634000362cfa",
+          "expectedRenderedSha256": "0fefff3eb0af76758f65484deff15655af66d86fec5fe9811f336ebd3710643b",
+          "row": 13,
+          "sha256": "a607a3fc65dfcaab8922b6fee5c78e3d8c70eb9c26598d0358cabcddf3d88a8b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 53,
+              "end": 63
+            }
+          ],
+          "expectedRawSha256": "41a3b0342be5a70324a955397782d91803f0768a381e5cc3bafe6da5f1078aac",
+          "expectedRenderedSha256": "6463c3e297cd16357942d3573dbe21bb05eb1e4e4384904b93c745425ec296cc",
+          "row": 14,
+          "sha256": "c30148a8d9e4a2b65f6a3c199168fc368ced5a1efd32a6d88b36803917b1ef0b"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 58,
+              "end": 73
+            }
+          ],
+          "expectedRawSha256": "a47aad2ed2cb07900a17375cc150c4915bc44592488b740976e6ada6e752e277",
+          "expectedRenderedSha256": "db00b9883147033b5c50e0caa83924246e10fa41df5d07b92adcc31bb0471cb6",
+          "row": 16,
+          "sha256": "b029403e3ec9f93ed2f349d4b22efb3d38bfee0c5f9a667671e9905a2e40d68d"
+        }
+      ],
+      "file": "16c-twi-9706-w7-pir01.ps1",
+      "rationale": "Full-payload review and independent replay confirmed only disposable template filler, unfinished annotations, source-process commentary, possible-use notes, and anti-rip/source-use notes. Exact preimage and projected hashes preserve every unselected terminal cell.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch32-focused-review.json",
+        "temp/text-blanking-continuation/batch32-focused-crosscheck.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch32-focused-residual-copy",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "start": 6,
+              "end": 13
+            }
+          ],
+          "expectedRawSha256": "bd2e2f59a458afa2a6f0a1319808a08b006046beee5866033cca579bba8edbfa",
+          "expectedRenderedSha256": "ba0843a5c78fbed510c4c4249f7288ea97f66e832f94038410c3c2669284db9c",
+          "row": 10,
+          "sha256": "6277bff31f656ce25c6b87d1fcf34d6652a985a0d518dbe7607b8855b4352f7d"
+        }
+      ],
+      "file": "16c-uni-0195-sr-bs2-part03.ps1",
+      "rationale": "Full-payload review and independent replay confirmed only disposable template filler, unfinished annotations, source-process commentary, possible-use notes, and anti-rip/source-use notes. Exact preimage and projected hashes preserve every unselected terminal cell.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch32-focused-review.json",
+        "temp/text-blanking-continuation/batch32-focused-crosscheck.json"
+      ]
+    }
+  ],
+  "normalization": "SHA-256 of UTF-8 visible terminal-cell rows after ANSI-control removal and outer-whitespace trimming. Every row also pins exact raw projected and rendered hashes plus one-based inclusive blank-column ranges.",
+  "pendingInputs": [],
+  "policy": "Fail-closed focused residual review after Batch 31. Only full-context semantic accepts with independent projection replay are included. Authored dialogue, jokes, dedications, credits, signatures, titles, and functional interface text remain intact.",
+  "reviewedAt": "2026-08-01",
+  "schemaVersion": 1,
+  "status": "ready",
+  "summary": {
+    "blankColumnRows": 37,
+    "candidateFiles": 12,
+    "candidateGroups": 12,
+    "categoryRows": {
+      "batch32-focused-residual-copy": 37
+    },
+    "evidenceRows": 37,
+    "priorAcceptExtensions": 0,
+    "priorRetainSupersessions": 2
+  }
+}

@@ -1,18 +1,4 @@
-﻿# Converted from: TPE-YOMA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ls-0796/raw/TPE-YOMA.ANS
-# Source Revision: archive-sha256:4ec871e12b8879af34735c7749d7970c0fda5296ee374656216909a4c5128d11
-# Source SHA-256: 87373c9562da3f451533c3743528f670099ccdb9263c9011470159b472e08521
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TPE-YOMA.ANS by the platinum eagle (leper society); released in ls-0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: yo' momma
-# SAUCE Author: the platinum eagle
-# SAUCE Group: leper society
-# SAUCE Date: 19960715
-# SAUCE Dimensions: 80x22
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: yo' momma by the platinum eagle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ls-0796-tpe-yoma
 
 Write-Host '
                     [1;33m      [0m      [34m [0;1;34m$[0;34m$[0m

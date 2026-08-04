@@ -1,17 +1,4 @@
-﻿# Converted from: MNM-CHESS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr2023c/raw/MNM-CHESS.ANS
-# Source Revision: archive-sha256:07a69926d371ece526693ff0085edb91763562e45a461066e0c0cf725f075dbe
-# Source SHA-256: 5b5ff0ed2c25a44c9fb4a1aab7b2224f453b2225693a01cd4a733428ab46df56
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MNM-CHESS.ANS by Anonymous (blndr2023c); released in blndr2023c and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: Anonymous
-# SAUCE Date: 20230723
-# SAUCE Dimensions: 80x44
-# SAUCE Font: IBM VGA
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: MNM-CHESS.ANS by Anonymous | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr2023c-mnm-chess
 
 Write-Host '
   [1;31m▒▒▒[0;31m▒[0;1;31m▒[0m   [1;31m▒▒[0m  [1;31m▒[0m                               [31m▒▒▒[0;37m  [0;1;31m▒[0m [31m▒▒▒▒▒[0;1;31m▒[0m  [31m▒[0;1;33m▒▒[0m

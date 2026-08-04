@@ -1,20 +1,4 @@
-﻿# Converted from: LDA-AHJ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0121/raw/LDA-AHJ.ANS
-# Source Revision: archive-sha256:be6acc37c46308204b64f544c343f93533b3c26c7b10ead91ddc0227519a1a6a
-# Source SHA-256: 32e6fc1777d254e527b1061d2abe1e4572e501f641a8671d4bd106a0e4e4a2f1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LDA-AHJ.ANS by LDA (Mistigris); released in mist0121 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: AHJ
-# SAUCE Author: LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20210124
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Albert Hammond Jr., 2013 | "How did I get into a jam like this?"
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: AHJ by LDA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0121-lda-ahj
 
 Write-Host '
 

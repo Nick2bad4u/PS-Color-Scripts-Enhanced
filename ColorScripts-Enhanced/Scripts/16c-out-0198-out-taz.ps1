@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-TAZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0198/raw/OUT-TAZ.ANS
-# Source Revision: archive-sha256:079c2da21b6d42fe9cc2b63a96a83dc31abac739a55d4f3842517260ebb75a4a
-# Source SHA-256: 3da1ce176237db698a4662019dd8d8800898462086baf543248d12eaac1e3350
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-TAZ.ANS by Sandy Chidester (out-0198); released in out-0198 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: OUT-TAZ.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0198-out-taz
 
 Write-Host '
                                      [31m▀[0;30;41m▀[0m [31;40m▄█▄▀ [0;30;41m▀[0;31;41m█[0;30;41m▀[0;31;40m▄[0m

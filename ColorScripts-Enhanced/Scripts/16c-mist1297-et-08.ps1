@@ -1,13 +1,4 @@
-﻿# Converted from: ET-08.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1297/raw/ET-08.ANS
-# Source Revision: archive-sha256:95ca1a64d078cb37722ecf97d242eb54b1c888f218ebaab86aa7aa2a5cdbf8dc
-# Source SHA-256: 3ce9bcf61610c612d315adaa4250ad94c5652f3290ed2ff4352801a37d610de3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ET-08.ANS by Etana (mist1297); released in mist1297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ET-08.ANS by Etana | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1297-et-08
 
 Write-Host '
                                    [1;33m▄▄▄▄▄▄▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: KK-THL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thst0895/raw/KK-THL.ANS
-# Source Revision: archive-sha256:93911a377da69cfcde0000e470e3a7eca787ca62b80e55b7c1e6e49b8b7b8d71
-# Source SHA-256: fbbdce1547b4b25c8d2405b94baf00810d119d9bac114b05fdb4207c9cf27143
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KK-THL.ANS by Kamikaze (thst0895); released in thst0895 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: KK-THL.ANS by Kamikaze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thst0895-kk-thl
 
 Write-Host '
 [1;30m▒▓[0;1;34m▄▀  [0;1;30m░ ▒░ ░▒▓░▒▓░░▒░▒▓░░▒▒▓▓█[0m▌                   [1;30m▒[0m              [1;30m░[0m         [1;30mKK[0m

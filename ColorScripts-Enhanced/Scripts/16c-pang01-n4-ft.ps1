@@ -1,13 +1,4 @@
-﻿# Converted from: N4-FT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pang01/raw/N4-FT.ANS
-# Source Revision: archive-sha256:24a47d3a6396232434bffa2e1615955141cf762e5fd721c02b6ad40f81a7def7
-# Source SHA-256: 7b921c7f31fb1eb17572cbf2677e537a0fb5ad3024f6b8dd8f61ceffe4cf3c86
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N4-FT.ANS by Natureboy (pang01); released in pang01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: N4-FT.ANS by Natureboy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pang01-n4-ft
 
 Write-Host '
                                                    [1;34m    ▬┬▬[0;34m  [0m               

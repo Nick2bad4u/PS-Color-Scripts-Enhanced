@@ -1,18 +1,4 @@
-﻿# Converted from: KD-SNAKE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/5th-9701/raw/KD-SNAKE.ANS
-# Source Revision: archive-sha256:4f91e0f396f05128ca3a4b19191b45ca21644658a04c7337a8b354546e2c1a2a
-# Source SHA-256: bf2e828695e94532f1b41372e6571049d29eb5352d74af8d0fcfded3d724ee51
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KD-SNAKE.ANS by KLeaR DiSToRTioN ((the 5th..)); released in 5th-9701 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: logon matrix screen
-# SAUCE Author: KLeaR DiSToRTioN
-# SAUCE Group: (the 5th..)
-# SAUCE Date: 19970519
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: logon matrix screen by KLeaR DiSToRTioN | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-5th-9701-kd-snake
 
 Write-Host '
 [31;46m  [0;36;47m▓▓▓▓▓▓▓▓▓▓▓[0;31;46m        [0;36;47m▓▓[0;31;46m                   [0;36;47m▓▒░░▒▓[0;36;40m██[0;36;47m▓▓▓▒▒▒░░░░░░░▒▒▒▒▒▓▓[0;36;40m██████████[0m

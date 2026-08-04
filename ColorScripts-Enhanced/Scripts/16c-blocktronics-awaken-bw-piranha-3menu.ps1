@@ -1,13 +1,4 @@
-﻿# Converted from: bw_piranha_3menu.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_awaken/raw/bw_piranha_3menu.ans
-# Source Revision: archive-sha256:9d338d3910f6730204698339e869f7ab219513c3aa8e2f1b0bb278c633114d95
-# Source SHA-256: 6fe2ed2bfc37db8aed3d88f42ca63ff1b09eb63892d631687aa5cedb9ea5b7b2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bw_piranha_3menu.ans by Binary Walker (blocktronics_awaken); released in blocktronics_awaken and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: bw_piranha_3menu.ans by Binary Walker | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-awaken-bw-piranha-3menu
 
 Write-Host '
 [36m ▄▄▄ ▄▄▄    [0m            [36m ▄▄ [0;32m  [0;36m▄[0;1;36m▄▄▄[0;36m▄ [0;1;31m  [0m [31m▄ ▄[0m

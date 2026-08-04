@@ -1,18 +1,4 @@
-﻿# Converted from: US-BOX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-089702/raw/US-BOX.ANS
-# Source Revision: archive-sha256:e48c38fcf9ad1e8bdcd70f413f385ac4fe4835bcda18b3e71092baf5cce2e35b
-# Source SHA-256: e5c550e74098145636fbb2e93710568463fb8487ac8352f1e19966e1cdbd3717
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BOX.ANS by anOmite + pyx (bamboosh); released in bmb-089702 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: tHE bOX?!@
-# SAUCE Author: anOmite + pyx
-# SAUCE Group: bamboosh
-# SAUCE Date: 19970824
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: tHE bOX?!@ by anOmite + pyx | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-089702-us-box
 
 Write-Host '
 [32m▐█[0;1;32;42m▄▄▓[0;1;36;40m██[0;1;32;42m██[0;1;33;42m░▄▓░[0;32m▌[0;36m  ▄▄[0;1;36;46m▄▀[0;36m▀[0;32m ▄▄█[0;1;32;42m▄▄[0;32m▄▄▄[0m    [32m░[0;30;42m▓[0m      [32;40m▀▀[0;1;32;42m▀▀██[0;32m██▀[0;36m   ▄▄▄▄[0m    [36m▄[0;1;36m▄▄▄[0;36m▄▄  [0;32m░[0;30;42m▓[0m

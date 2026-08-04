@@ -1,20 +1,4 @@
-﻿# Converted from: CT-KURT_VONNEGUT-BREAKFAST_OF_CHAMPIONS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0426/raw/CT-KURT_VONNEGUT-BREAKFAST_OF_CHAMPIONS.ANS
-# Source Revision: archive-sha256:c759ba228fb42808866da1267838a1ce2371215b87bc273c64f35f4bc653e77d
-# Source SHA-256: a5086aa2dec0093d7ea60560fe3168e87f478127abc25f9015af293d0a1f895a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CT-KURT_VONNEGUT-BREAKFAST_OF_CHAMPIONS.ANS by Cthulu (Mistigris); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Breakfast of Champions
-# SAUCE Author: Cthulu
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260422
-# SAUCE Dimensions: 80x58
-# SAUCE Font: IBM VGA
-# SAUCE Comments: 1st edition, Delacorte Press, 1973.
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Breakfast of Champions by Cthulu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0426-ct-kurt-vonnegut-breakfast-of-champions-part01
 
 Write-Host '
 [1;31m████████████████████████████████████████████████████████████████████████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: swirl.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/clear2ooo-year-de/raw/swirl.ans
-# Source Revision: archive-sha256:d619b2e5c89024ae485088152f812b86fcb43ea9d16121a842b124501ee0f42c
-# Source SHA-256: 6ef965b52bf611497387a63351468989e23581f45de73f602e6f1dea6f6d92d4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: swirl.ans by clear2ooo (clear2ooo-year-de); released in clear2ooo-year-de and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: swirl
-# SAUCE Author: clear2ooo
-# SAUCE Date: 20250110
-# SAUCE Dimensions: 80x80
-# SAUCE Font: IBM EGA43 437
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: swirl by clear2ooo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-clear2ooo-year-de-swirl-part01
 
 Write-Host '
 [37m                                                                                [0m

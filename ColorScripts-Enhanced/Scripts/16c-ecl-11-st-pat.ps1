@@ -1,18 +1,4 @@
-﻿# Converted from: ST-PAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-11/raw/ST-PAT.ANS
-# Source Revision: archive-sha256:124f5de71b4943d1edf363ae27ec83def11b741938d7ad78955f12dc3ea0753e
-# Source SHA-256: 4f65efa9e2668ae4b51a4870668fc0db4d32b3d65ce711c89d21f73c78a88dd8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-PAT.ANS by splatt (eclipse); released in ecl-11 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ITS PAT!
-# SAUCE Author: splatt
-# SAUCE Group: eclipse
-# SAUCE Date: 19970120
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: ITS PAT! by splatt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-11-st-pat
 
 Write-Host '
 

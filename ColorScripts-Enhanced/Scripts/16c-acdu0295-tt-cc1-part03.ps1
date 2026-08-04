@@ -1,18 +1,4 @@
-﻿# Converted from: TT-CC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0295/raw/TT-CC1.ANS
-# Source Revision: archive-sha256:783416b41a421333c3ef8049cdade58e4e0c645dd104994cd95b81b7407d25ff
-# Source SHA-256: c607995bc69f99258f13a259c02418162d3da258c7b7a5ed4954c3fe481aa436
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TT-CC1.ANS by Twisted Terrorist (ACiD Productions); released in acdu0295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Cat's Cradle
-# SAUCE Author: Twisted Terrorist
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19950201
-# SAUCE Dimensions: 80x113
-# Lines: 92-112
-# Columns: 1-80
+﻿# Artwork: Cat's Cradle by Twisted Terrorist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0295-tt-cc1-part03
 
 Write-Host '
 [32mc[0m         [32ma[0m        [32mt[0m      [32m''[0m     [32ms[0m      [32mc[0;1;30m░[0m      [32mr[0m       [32ma[0m       [32md[0m        [32ml[0m      [32me[0m

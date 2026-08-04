@@ -1,20 +1,4 @@
-﻿# Converted from: us-birth-of-mawu-liza.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-dsotb/raw/us-birth-of-mawu-liza.ans
-# Source Revision: archive-sha256:31e1fdfda207a2147f2b0badf1415308dc54d4c24afa56622db8a43f68f110f1
-# Source SHA-256: a9b26b97298319d06bd0b53e0cac345c592fc85ed095b5cd919ec6b7682c2b1c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-birth-of-mawu-liza.ans by Alpha King + H7 (blocktronics); released in blocktronics-dsotb and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the birth of mawu-liza
-# SAUCE Author: alpha king & h7
-# SAUCE Group: blocktronics
-# SAUCE Date: 20190729
-# SAUCE Dimensions: 80x466
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Nana Buluku created the universe. In addition, she gave birth to |  twins which which were to rule the world after she retired. Li | za was bestowed the powers of the day and being a god of war, he | at and strength. Due to a fiery nature he lived in the sun itsel | f. His sister and wife, Mawu, was his opposite. She was bestowe | d the wisdom, peace & grace of night. She was the goddess of fer | tility, joy and rest. As was her nature she lived in the moon. A | nd thus, Mawu Lisa, the two divine entities, ruled the world.
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: the birth of mawu-liza by Alpha King + H7 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-dsotb-us-birth-of-mawu-liza-part01
 
 Write-Host '
 

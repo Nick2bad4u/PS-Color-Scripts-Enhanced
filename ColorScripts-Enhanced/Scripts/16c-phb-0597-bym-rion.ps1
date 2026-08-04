@@ -1,18 +1,4 @@
-﻿# Converted from: BYM%RION.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phb-0597/raw/BYM%25RION.ANS
-# Source Revision: archive-sha256:5e2897b5aabe339c16f5d2024824fa427f86134be322d4a86a5d7157032f23f1
-# Source SHA-256: 720ce2eba860507fb71ee148ad4ca5ae1a0c15662105a3d5c5c13883c0a993dd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM%RION.ANS by big y3llow man (pHOBIA@!); released in phb-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: tHERiON
-# SAUCE Author: big y3llow man
-# SAUCE Group: pHOBIA@!
-# SAUCE Date: 19970415
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: tHERiON by big y3llow man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phb-0597-bym-rion
 
 Write-Host '
                    [33m░   ▄▄[0m       [33m█▄▄   ░[0m      [33m█▄▄   ░[0m

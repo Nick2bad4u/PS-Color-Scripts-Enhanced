@@ -1,16 +1,4 @@
-﻿# Converted from: GL-BTH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nectar03/raw/GL-BTH.ANS
-# Source Revision: archive-sha256:faec2ce79f4ec7fdedcb1c5275057d2bd3473a7b6d9bb41113e78d041db9cd35
-# Source SHA-256: 1a203e6bc032ed908d448be52001236bede677b93a4319f4f0c2175100641656
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GL-BTH.ANS by grimlock (nectar03); released in nectar03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: grimlock
-# SAUCE Date: 19960302
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: GL-BTH.ANS by grimlock | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nectar03-gl-bth
 
 Write-Host '
              [33m▄[0m       [37m   [0m           [37m    [0;33m▄[0;37m        [0;33m░[0m

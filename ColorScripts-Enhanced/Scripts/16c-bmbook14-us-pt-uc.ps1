@@ -1,18 +1,4 @@
-﻿# Converted from: US-PT-UC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook14/raw/US-PT-UC.ANS
-# Source Revision: archive-sha256:f7fe2a62d3e7b3b16687ce251209098ea8d86719a4cfa33dae1489e0c9af9278
-# Source SHA-256: 90551b991988665d75fef0ab7eefd9562c4e2d9ce27ab6d254dd96d62e6b5f53
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-PT-UC.ANS by Phobia + Toot (Black Maiden & ?); released in bmbook14 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: uc
-# SAUCE Author: phobia.toot
-# SAUCE Group: Black Maiden & ?
-# SAUCE Date: 19970608
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: uc by Phobia + Toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook14-us-pt-uc
 
 Write-Host '
    [35m   Phobia & Toot  [0m                                     [35m▄[0;1;34m▄▄[0m▄▄▄▄[1;34m▄[0;35m▄[0m

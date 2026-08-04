@@ -1,18 +1,4 @@
-﻿# Converted from: A-FS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-01/raw/A-FS.ANS
-# Source Revision: archive-sha256:c4f943c9f8f5c49a2aabdd3612f9f26bd1b04de18aa8de6e38c69a3051111537
-# Source SHA-256: be151d666f720784b578a07a16d30b1922aed500d20664d83a2b1e4394c33bf0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: A-FS.ANS by alecs (nerp); released in nerp-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: freeside!
-# SAUCE Author: alecs
-# SAUCE Group: nerp
-# SAUCE Date: 19970714
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: freeside! by alecs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-01-a-fs
 
 Write-Host '
 [31m███[0;1;31;41m░░░[0;31m███[0;1;31;41m▀▀██[0;1;31;47m ▄[0;1;31;41m█▄ [0;31m███[0;1;31;41m░░░[0;31m████[0;1;31;41m░▓██▄▄[0;30;41m [0;31;40m█[0;30;41m [0;31;40m█               [0m           [31;40m               [0m

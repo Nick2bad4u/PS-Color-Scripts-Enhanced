@@ -1,13 +1,4 @@
-﻿# Converted from: Kn-DEVIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gem-0897/raw/Kn-DEVIL.ANS
-# Source Revision: archive-sha256:f42357457f41a2b5131c00a88d410a22a6062b3d72ae6b43f8ce24ded01ef3c6
-# Source SHA-256: 18f60f93db875f19c7d9eac095b8b3e8b5647137404fb36cf56cbe8602eda4b3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Kn-DEVIL.ANS by Knightmare (gem-0897); released in gem-0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Kn-DEVIL.ANS by Knightmare | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gem-0897-kn-devil
 
 Write-Host '
 [34m [0;1;30m▄▄▄[0m▄▄[1m▒[0;34m [0;31m▐[0;1;30m▄▄[0m▄▄[1m▒[0m                     [31m▐[0m

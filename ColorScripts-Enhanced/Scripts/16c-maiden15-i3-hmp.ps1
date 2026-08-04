@@ -1,18 +1,4 @@
-﻿# Converted from: I3-HMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/maiden15/raw/I3-HMP.ANS
-# Source Revision: archive-sha256:9d31e45f48599318bcc19e5993ceea8ca5caccf3f774679ac18f812be66ff0b5
-# Source SHA-256: 88f0d017fc68083865da479810fd7fe5642608bc21d3880de08bfdcca65c69a4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: I3-HMP.ANS by islayer (i3) (maiden); released in maiden15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hemp header
-# SAUCE Author: islayer (i3)
-# SAUCE Group: maiden
-# SAUCE Date: 19980516
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: hemp header by islayer (i3) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-maiden15-i3-hmp
 
 Write-Host '
                         [36m [0m               [1;35m▄[0m

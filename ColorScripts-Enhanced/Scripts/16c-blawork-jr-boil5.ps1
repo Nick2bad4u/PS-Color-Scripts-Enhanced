@@ -1,18 +1,4 @@
-﻿# Converted from: JR_BOIL5.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blawork/raw/JR_BOIL5.ANS
-# Source Revision: raw-sha256:ead8fec50c481e4ea881b2931109e4cdeda98a4582a65d656c34f8519451ff18
-# Source SHA-256: ead8fec50c481e4ea881b2931109e4cdeda98a4582a65d656c34f8519451ff18
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_BOIL5.ANS by jerusalem (boil); released in blawork and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: boil promo #5
-# SAUCE Author: jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19970901
-# SAUCE Dimensions: 80x33
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: boil promo #5 by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blawork-jr-boil5
 
 Write-Host '
 [34m$y,[0m                                                                          [34m,y$[0m

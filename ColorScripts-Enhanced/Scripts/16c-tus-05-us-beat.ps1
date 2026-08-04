@@ -1,13 +1,4 @@
-﻿# Converted from: US-BEAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tus-05/raw/US-BEAT.ANS
-# Source Revision: archive-sha256:986f1937ec6e5b109228fbbe378b228ec26f4944801472ad65a0c03345d8dc74
-# Source SHA-256: 1b8085805e354c77707376b0a8ad5655e38aa764e064df5b6981c6dca524afac
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BEAT.ANS by Discyple + Spinsane (tus-05); released in tus-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: US-BEAT.ANS by Discyple + Spinsane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tus-05-us-beat
 
 Write-Host '
 [34m$$[0;1;34m [0m$$[1;34m$$$$$$[0m4$$$$$$$$$$$$[1m ,.[0m`$$$$$[1m [0;1;34m [0;34m$$[0;1;37m [0m $$$[1m  .,db,..[0;1;34m ┘''$$[0;1;37m  __   ..  [0m`4$$$$$$$$$$

@@ -1,18 +1,4 @@
-﻿# Converted from: SK!SHELL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p18_03/raw/SK!SHELL.ANS
-# Source Revision: archive-sha256:2bce20a6d08d4cda82dc301176b5efa085eb87bbbbd00db2fa5af761552c0064
-# Source SHA-256: ffa403c84d16c24257d08d3728530ce1b22a6595f5d35c40cdde162e35e3c366
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SK!SHELL.ANS by sIMONkING (thelo0p); released in l0p18_03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: shellzone
-# SAUCE Author: sIMONkING
-# SAUCE Group: thelo0p
-# SAUCE Date: 20021219
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: shellzone by sIMONkING | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p18-03-sk-shell
 
 Write-Host '
           ░░░[1m [0m                      ░░░

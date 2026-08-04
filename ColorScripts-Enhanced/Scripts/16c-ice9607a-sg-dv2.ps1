@@ -1,13 +1,4 @@
-﻿# Converted from: SG-DV2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9607a/raw/SG-DV2.ICE
-# Source Revision: archive-sha256:6e317dcfbe1a18e9811dd69788e086bd6dba75308a8c6706d46c84b5eb4fd93a
-# Source SHA-256: 50da69787a5a5ec8034d7069863f855d91d672f26baf55c85a33c51442cc0610
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SG-DV2.ICE by Snake Grunger (ice9607a); released in ice9607a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: SG-DV2.ICE by Snake Grunger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9607a-sg-dv2
 
 Write-Host '
 │▌█▐█▌██[1;47m                                                         [0m████████▐█▌█▐│

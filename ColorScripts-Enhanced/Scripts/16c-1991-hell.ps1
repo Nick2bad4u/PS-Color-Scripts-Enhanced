@@ -1,13 +1,4 @@
-﻿# Converted from: HELL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1991/raw/HELL.ANS
-# Source Revision: archive-sha256:4dcfddb1a9f84aafa45e2facaadcb15ccf7ddad9041d8c346c723f7894d6cfb9
-# Source SHA-256: 658479cb52866e09a9e66271e2fe7c7b5ad3b3b875af4e34fad8b2dfc56eeba0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HELL.ANS by Manufacturer (1991); released in 1991 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: HELL.ANS by Manufacturer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1991-hell
 
 Write-Host '
                           [31m▄▒[0m

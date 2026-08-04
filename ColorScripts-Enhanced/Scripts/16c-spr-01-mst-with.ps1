@@ -1,13 +1,4 @@
-﻿# Converted from: MST!WITH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spr_01/raw/MST!WITH.ANS
-# Source Revision: archive-sha256:cf7c7b3ff110fb6079665640462cb52beaf7b27701f8d3257739b60b64ffb9f9
-# Source SHA-256: 7600fc63c4f9205506baab13a95335012673ba7b9e572ff4fa128cfedeb64e50
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MST!WITH.ANS by Mist (spr_01); released in spr_01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: MST!WITH.ANS by Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spr-01-mst-with
 
 Write-Host '
                                        ▄

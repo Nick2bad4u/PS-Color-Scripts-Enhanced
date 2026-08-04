@@ -1,19 +1,4 @@
-﻿# Converted from: 6R-TL-02.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna03/raw/6R-TL-02.ans
-# Source Revision: archive-sha256:997aaab655669129eb266c21ca0c4588b603e11c90338498bb530f8bba390fb2
-# Source SHA-256: eaca25be17229e17031d2b45b4ce7fa7f8cfc63e3ac25224ae3cc6cad06c7849
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 6R-TL-02.ans by Groove (thesauna03); released in thesauna03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Teklordz // 02
-# SAUCE Author: Groove
-# SAUCE Date: 20220323
-# SAUCE Dimensions: 80x30
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Greetings to all of you teklordz!
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Teklordz // 02 by Groove | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna03-6r-tl-02
 
 Write-Host '
 

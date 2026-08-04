@@ -1,18 +1,4 @@
-﻿# Converted from: AD-SAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-07/raw/AD-SAT.ANS
-# Source Revision: archive-sha256:3007ab392a2ea4e107d02b3029b445696a097ac55d389caab2dbfe0944556beb
-# Source SHA-256: d6898d337931e04858720d32fa23b86c7349a0ba00fa4954a05d50704e130b64
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AD-SAT.ANS by armageddon fool (eclipse); released in ecl-07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: sATURN sEVEN bABY
-# SAUCE Author: armageddon fool
-# SAUCE Group: eclipse
-# SAUCE Date: 19960825
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: sATURN sEVEN bABY by armageddon fool | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-07-ad-sat
 
 Write-Host '
 [1m█████████████[0;1;47m▄▄▄    ░░▀▓▓▓▓[0;1;40m█▀▀▀[0m [1;34m▄▄[0m [1m██[0;1;47m▀[0;1;40m██████[0;1;47m▓▓▓▓[0;1;40m████████▀   [0;1;32;40m▄[0;32m▄▄[0;1;37m  ▀▀▀▀▀▀▀▀▀█████[0m

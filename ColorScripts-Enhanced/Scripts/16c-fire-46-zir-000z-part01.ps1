@@ -1,20 +1,4 @@
-﻿# Converted from: ZIR-000Z.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-46/raw/ZIR-000Z.ANS
-# Source Revision: archive-sha256:32c189dd42ed53f66ce0b86a88ea8027caddc32faf4da7cee2e674d9223cb9f4
-# Source SHA-256: 85bd27ee2c5ae17f99078bc243d5aa13964ec7ddc8c8d9c0a0f1a0eb7c17ef45
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-000Z.ANS by zir (FiRE); released in fire-46 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: rolling zeros
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20260707
-# SAUCE Dimensions: 80x84
-# SAUCE Font: IBM VGA
-# SAUCE Comments: rolling zir-0000000000's...
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: rolling zeros by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-46-zir-000z-part01
 
 Write-Host '
 [37;40m [0;34;40m░░░░░░░░░░░ ░░░░░░░░░░░░ ░░░░░░░░░ ░░░░░░░░░░░░░░ ░░░░░░░░░░░░░░░░ ░░░░░░░░░░░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: AS-DROP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drop9706/raw/AS-DROP1.ANS
-# Source Revision: archive-sha256:079746c0436c4b2cca0b37d391f0826b546c4f9888ce659d162ddd4c73d2f47a
-# Source SHA-256: 60425bd52cd0fbf7e403bcb4741e0e3174a85c30fde63aef3c539e27a1d0ea36
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AS-DROP1.ANS by aerosmith (drop); released in drop9706 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: drop logo #1
-# SAUCE Author: aerosmith
-# SAUCE Group: drop
-# SAUCE Date: 19970524
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: drop logo #1 by aerosmith | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drop9706-as-drop1
 
 Write-Host '
 

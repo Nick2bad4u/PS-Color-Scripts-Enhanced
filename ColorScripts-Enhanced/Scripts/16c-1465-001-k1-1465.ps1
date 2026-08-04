@@ -1,13 +1,4 @@
-﻿# Converted from: k1-1465.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/1465-001/raw/k1-1465.ans
-# Source Revision: archive-sha256:0c63c049ba222ff6b20f73e49a7aa227dfdc1f2abd0fc9823b88e8d25342c3a7
-# Source SHA-256: 98da0e3ebbc912c3f3bf084def012d238d0c37715fc9cd2d2383aea964e70747
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: k1-1465.ans by Knocturnal (1465-001); released in 1465-001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: k1-1465.ans by Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-1465-001-k1-1465
 
 Write-Host '
                            [1;30m▄[0;1;36m▄[0;1;37m▄[0;1;36m  [0;36m▀[0;1;36m▀[0;1;37m▀▀▀▀▀[0;1;36m▀▀[0;36m▀[0;1;30m▀[0;1;36m [0;1;37m▄[0;1;36m▄[0;1;30m▄[0m

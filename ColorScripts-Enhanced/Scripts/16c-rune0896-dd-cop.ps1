@@ -1,17 +1,4 @@
-﻿# Converted from: DD-COP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rune0896/raw/DD-COP.ANS
-# Source Revision: archive-sha256:a41a6fd18e5a57ea19659d03cc5ff527cec9b4701f346aaff2f3d3658fc2ad09
-# Source SHA-256: bc28df708d784960ddbfe3dd76ddccef067db0c3ba124e73e83b8f1adf7ddb74
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-COP.ANS by delirious dingo (rune); released in rune0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: cathedral of pain
-# SAUCE Author: delirious dingo
-# SAUCE Group: rune
-# SAUCE Date: 19951101
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: cathedral of pain by delirious dingo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rune0896-dd-cop
 
 Write-Host '
 

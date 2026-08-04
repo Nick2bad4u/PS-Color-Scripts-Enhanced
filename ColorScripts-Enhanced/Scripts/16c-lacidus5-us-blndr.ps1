@@ -1,13 +1,4 @@
-﻿# Converted from: US-BLNDR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lacidus5/raw/US-BLNDR.ANS
-# Source Revision: archive-sha256:5a67a589125f15c7b8151a65ab294e82130523269ee1cebb412b1b5eaf243f0d
-# Source SHA-256: 821ececf439954145d402e2155a8675f4a0a4d451a74aebff76536a5f0b5d077
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BLNDR.ANS by Stereo + Mafesto (lacidus5); released in lacidus5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: US-BLNDR.ANS by Stereo + Mafesto | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lacidus5-us-blndr
 
 Write-Host '
 [1m[0m[1m      \[0m

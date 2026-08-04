@@ -1,18 +1,4 @@
-﻿# Converted from: TI-SG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy10/raw/TI-SG1.ANS
-# Source Revision: archive-sha256:75431876417bf4bfaa2e247245b077f3c9a30507897439fd887fb6ea72c947ca
-# Source SHA-256: 14a9f28e970b2248b96b5d3e214b3aba169584c828ecc03bf770965701485ea7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TI-SG1.ANS by Trip (READ THE INI FILE); released in apathy10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Spinal Gamma
-# SAUCE Author: Trip
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19960512
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Spinal Gamma by Trip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy10-ti-sg1
 
 Write-Host '
  [34m ░▄[0;1;34;44m▒[0;34m▀[0m    [31m░▄▓▓██████ ███████[0;1;31;41m░░[0;31m█[0;1;31;41m░[0;31m█▀▐██████████▀▄███████▄[0;34m▀[0;1;34;44m▓[0;34m▄[0;1;34m░[0;34m   [0m

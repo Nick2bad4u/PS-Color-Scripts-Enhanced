@@ -1,13 +1,4 @@
-﻿# Converted from: S4-PURG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-11/raw/S4-PURG.ANS
-# Source Revision: archive-sha256:184bfab2730f296ec77b01537ecb9982ff717133dcf7244f30669a69025f309c
-# Source SHA-256: 78758b54ff5bd28bf9aabf331a7abea1f37698984202d9d955588325863f77c0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S4-PURG.ANS by Static Addiction (purg-11); released in purg-11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: S4-PURG.ANS by Static Addiction | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-11-s4-purg
 
 Write-Host '
       [1m [0m             [34m░░[0m                      [34m░[0m

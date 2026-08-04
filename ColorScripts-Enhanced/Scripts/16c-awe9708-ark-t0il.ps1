@@ -1,18 +1,4 @@
-﻿# Converted from: ARK-T0IL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9708/raw/ARK-T0IL.ANS
-# Source Revision: archive-sha256:defa13458710db8b7c1fa20a6cd29749e80a61eef8ba8dc70e8a9a4a0b1d4f5d
-# Source SHA-256: 2ab5d989998a5b8bc1677247369c16d3dfb161eb46c0e304d133a2ef9634cd13
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARK-T0IL.ANS by Ark Anjel (AWE Lettering); released in awe9708 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Toil
-# SAUCE Author: Ark Anjel
-# SAUCE Group: AWE Lettering
-# SAUCE Date: 19970811
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Toil by Ark Anjel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9708-ark-t0il
 
 Write-Host '
 [1m░░[0;30;47m▓▓[0;37;40m░[0;30;47m▓[0;1;31;40m▒░░░░░░░░░░░░░░░░░░░░░[0m    ▄▄▄▀                                 [1m░░░░[0m

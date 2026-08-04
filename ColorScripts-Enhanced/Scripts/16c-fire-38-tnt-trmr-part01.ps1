@@ -1,19 +1,4 @@
-﻿# Converted from: TNT-TRMR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-38/raw/TNT-TRMR.ANS
-# Source Revision: archive-sha256:be80154150e87c06a8a7199ad7b8d7442acd5427250f57c89a783b9de15c69d7
-# Source SHA-256: 5065c67773a8402cf4200cb75873068692f95a0f278c0666afdc2e09538f9a3f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TNT-TRMR.ANS by tainted (fire); released in fire-38 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: tremor
-# SAUCE Author: tainted
-# SAUCE Group: fire
-# SAUCE Date: 20231110
-# SAUCE Dimensions: 80x255
-# SAUCE Font: IBM VGA
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: tremor by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-38-tnt-trmr-part01
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: KS!RE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/insm0596/raw/KS!RE1.ANS
-# Source Revision: archive-sha256:5a107f7ed67340c1aa68eaf605f85d0018e0b4086aa8c0cad10be2a8b1ad4ed8
-# Source SHA-256: 2beafd9c823b943c7097a1475333b8644d171443e3d87af641de23d53e4c5638
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KS!RE1.ANS by Kingsaver (insm0596); released in insm0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: KS!RE1.ANS by Kingsaver | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-insm0596-ks-re1
 
 Write-Host '
                                      [1m▀██[0;1;46m▀[0;36m██▓▓▄▄[0m        [33m [0;1;37m▀██[0;1;37;46m▀[0;36m█▓▓███▄[0;33m [0m

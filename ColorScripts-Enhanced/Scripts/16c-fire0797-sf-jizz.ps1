@@ -1,18 +1,4 @@
-﻿# Converted from: SF-JIZZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0797/raw/SF-JIZZ.ANS
-# Source Revision: archive-sha256:94b9d74f23cef45b7f0e0cddc6ad7ce59eed15dd66ca41ed74c0005a3af14ca4
-# Source SHA-256: 81e2a83a7e1a9c78c660678153e2919500c9977a99baaaa3448c21bed657fb98
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SF-JIZZ.ANS by Shaft (Everglo Fire); released in fire0797 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: jiZZ
-# SAUCE Author: Shaft
-# SAUCE Group: Everglo Fire
-# SAUCE Date: 19970703
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: jiZZ by Shaft | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0797-sf-jizz
 
 Write-Host '
 [34m████[0;1;34;44m▄██▄[0;34m██[0;1;34;44m██▄[0;34m█████████▌[0m       [34m█[0;1;34;44m███[0;34m██[0m   [35m▄▄▄[0m   [34m█████████████████[0;1;34;44m ▄███▄[0;34m  [0;1;34;44m▄█[0;34m█▌    ██[0m

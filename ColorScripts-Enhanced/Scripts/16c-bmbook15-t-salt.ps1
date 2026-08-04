@@ -1,18 +1,4 @@
-﻿# Converted from: T-SALT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook15/raw/T-SALT.ANS
-# Source Revision: archive-sha256:e54ebc8c52f8d9379c31843d1a642e9eaaf309656353be720cf874920f543492
-# Source SHA-256: c473d2093c49c167d91764d73ae717057bb630e04b392d4841618b0868578de7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: T-SALT.ANS by toot (black maiden); released in bmbook15 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: salt
-# SAUCE Author: toot
-# SAUCE Group: black maiden
-# SAUCE Date: 19970901
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: salt by toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook15-t-salt
 
 Write-Host '
                                               [34m░█[0;1;34;44m▄[0;34m▄[0;37m [0;34mtoot-black maiden[0;37m  [0;1;30m░░░░[0m

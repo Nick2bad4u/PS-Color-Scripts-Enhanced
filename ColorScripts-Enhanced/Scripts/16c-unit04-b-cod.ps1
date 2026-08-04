@@ -1,18 +1,4 @@
-﻿# Converted from: B-COD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/unit04/raw/B-COD.ANS
-# Source Revision: archive-sha256:19d9f1ce4424287ed55941eccbdcdbba69ca068d13f62072d1264fc7c4c557f1
-# Source SHA-256: 1f26042196c969b3720e7fe5f6d455d880a902f743a824ffd1e7c7f6c683059a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: B-COD.ANS by b Love (ACiD Productions); released in unit04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Cavern of Darkness
-# SAUCE Author: b Love
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19961221
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Cavern of Darkness by b Love | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-unit04-b-cod
 
 Write-Host '
  [35m-[0;37m [0;1;33m▄▄▄[0m  [35m─-──--──-─────[0m   [37m▄▄▄▄▄[0;32m███████████████████▄▄[0;37m▄[0;32m▓[0;37m▄[0m   [35m- ─-───--─-───-[0;37m [0;1;33m▄▄▄[0m [35m-[0m

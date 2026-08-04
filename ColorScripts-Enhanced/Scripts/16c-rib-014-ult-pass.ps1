@@ -1,18 +1,4 @@
-﻿# Converted from: ULT-PASS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-014/raw/ULT-PASS.ANS
-# Source Revision: archive-sha256:38aae4e6b3e943656501d868e7ccbeee319f7541f5197f0cc3aeed0b83030214
-# Source SHA-256: 4704a0ca381768d46a55ce660821054bc71e2828227e5fe316b85e010b10919d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ULT-PASS.ANS by Ultimate (Rib); released in rib-014 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: passed
-# SAUCE Author: Ultimate
-# SAUCE Group: Rib
-# SAUCE Date: 19981025
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: passed by Ultimate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-014-ult-pass
 
 Write-Host '
                                [36m■[0m

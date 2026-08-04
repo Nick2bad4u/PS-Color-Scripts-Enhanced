@@ -1,17 +1,4 @@
-﻿# Converted from: ANM-X.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0597/raw/ANM-X.ANS
-# Source Revision: archive-sha256:77e5528a945f670ea04f743fe66c6a4dc19b897ad7883b4458eeee0528f25975
-# Source SHA-256: 04071392200322a09513bf35c9ce7eb80b2764682d9f05904c727c827c5373c7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ANM-X.ANS by Anomite (Bamboosh); released in bmb-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: <X>enophobia
-# SAUCE Author: Anomite
-# SAUCE Group: Bamboosh
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: <X>enophobia by Anomite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0597-anm-x
 
 Write-Host '
    [1;34m▄[0;1;34;44m▀▀[0;34m█████▄▄[0;30;44m▓[0;34;40m [0;37;40m [0;30;41m▓[0m                            [30;41m▓░░[0;31;40m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m   [1;34;40m▄▄[0;34m▄▄▄▄▄[0;30;44m▓▓[0m

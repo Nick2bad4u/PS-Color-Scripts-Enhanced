@@ -1,18 +1,4 @@
-﻿# Converted from: PV-PSYN0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist3yra/raw/PV-PSYN0.ANS
-# Source Revision: archive-sha256:2b1ec0b7cbe048c013d4fb5b84e23b783ff4f9f900b4e7c0cd1dcc3d31e02136
-# Source SHA-256: 706803e639ef2588575108a3ac38f50cfd3c29ec409bcce5b050d165be4e02ed
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PV-PSYN0.ANS by Pure Voltage (MiSTiGRiS); released in mist3yra and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: PsychoNet
-# SAUCE Author: Pure Voltage
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19971014
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: PsychoNet by Pure Voltage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist3yra-pv-psyn0
 
 Write-Host '
                              [1;30mt[0m         [1;30mh[0m         [1;30me[0m

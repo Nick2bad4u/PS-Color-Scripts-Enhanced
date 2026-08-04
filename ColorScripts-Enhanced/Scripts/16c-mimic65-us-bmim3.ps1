@@ -1,17 +1,4 @@
-﻿# Converted from: us-bmim3.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic65/raw/us-bmim3.ans
-# Source Revision: archive-sha256:3adadec070702bb959a56cf6ea9d4deed8ddb4b5128d085f97b4760642d6d678
-# Source SHA-256: 65a3f1a679e98dd6920376b93052d13232456c55f275b198ff32cd82fa7c6610
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-bmim3.ans by Jashiin (Mimic Productions); released in mimic65 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Author: Jashiin
-# SAUCE Group: Mimic Productions
-# SAUCE Date: 20031125
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: us-bmim3.ans by Jashiin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic65-us-bmim3
 
 Write-Host '
 [1;34m [0m     [1;34m  [0m                                    [1;34m [0m [1;34m $$[0;1;30m  [0;1;34m$$$$$$l[0m

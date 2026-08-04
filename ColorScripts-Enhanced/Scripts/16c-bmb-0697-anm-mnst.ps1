@@ -1,18 +1,4 @@
-﻿# Converted from: ANM-MNST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0697/raw/ANM-MNST.ANS
-# Source Revision: archive-sha256:608fe2b98dcac70515ce221c11f606d898ec739b4fcdd1a5448c437eb640df82
-# Source SHA-256: 1ced76cd917779a393ac693e24f4118042443fe99ec2be6b4d160f89de617cab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ANM-MNST.ANS by anomite (bamboosh & deranged); released in bmb-0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: mainstream bbs
-# SAUCE Author: anomite
-# SAUCE Group: bamboosh & deranged
-# SAUCE Date: 19970513
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: mainstream bbs by anomite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0697-anm-mnst
 
 Write-Host '
 [1;35m [0;35m▄▄▄▄▄▄▄▄▄  ■▄▄▄▄▄▄▄▄▄▄[0m       [31m▄▄▄▄▄▄[0;37m [0;35m [0;1;35m▄[0;35m▄[0;1;35;45m░[0;35m▄▄[0;37m [0;31m▄▄▄[0;37m  [0;1;35m ▄[0;35m▄[0;1;35;45m░[0;35m▄[0m    [31m▄▄▄▄ [0;37m [0;1;35m [0m [35m■▄▄▄[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: LM-FC2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9603a/raw/LM-FC2.ICE
-# Source Revision: archive-sha256:51bcd96b8979115d69f1f707dc5c3d398256f0ac7a750005c0ccb144327b6f27
-# Source SHA-256: 2fd81033d5408cd838a6a692050679597b8e634a87fc9f728edefe78d94fd3c2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LM-FC2.ICE by Lemonade (ice9603a); released in ice9603a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: LM-FC2.ICE by Lemonade | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9603a-lm-fc2
 
 Write-Host '
 [35m███[0;1;35;45m░[0;35m▀▀▀▀▀▀▀▀▀▀▀▀████████▀[0;34m▄█▀[0;37m [0;34m▄█▀[0;37m  [0;1;37m▄█▓▒░[0m    ▄▀  [1;30m▄█[0;34m [0;1;34;44m░[0m   [1;30m▄▄███▄▀▀██[0m░ [34m█[0;37m [0;1;30m▓█ [0;34m█ [0;1;30m█▄[0;34m▀▄▄[0;1;30m▀█[0m

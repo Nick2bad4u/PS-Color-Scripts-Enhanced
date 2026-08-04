@@ -1,18 +1,4 @@
-﻿# Converted from: SM-NI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-01/raw/SM-NI.ANS
-# Source Revision: archive-sha256:98f7ca14920172db6145e44afa4b8ac94de6e46d94b8cf326e89a96c3e7e5c1b
-# Source SHA-256: 8b10134ce1e1eca08ef5dcb4b32096c8e72f66b4e744bb23f0988c30a2952dcd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-NI.ANS by smokester (eclipse); released in ecl-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: know idea
-# SAUCE Author: smokester
-# SAUCE Group: eclipse
-# SAUCE Date: 19960606
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: know idea by smokester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-01-sm-ni
 
 Write-Host '
                                           [1;32m▄ ▄▄▄[0m

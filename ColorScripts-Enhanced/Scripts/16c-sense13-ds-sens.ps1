@@ -1,18 +1,4 @@
-﻿# Converted from: DS-SENS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense13/raw/DS-SENS.ANS
-# Source Revision: archive-sha256:b0563618478d6216eb6bd83ff569d789b2e87f637bf95d7f88699f5b40df3192
-# Source SHA-256: 2fbcb79dff537f30673cca1fffd1c473762ed3ad7b67e3edbb35934c61f06f6b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-SENS.ANS by dying soul (uprise); released in sense13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: sense
-# SAUCE Author: dying soul
-# SAUCE Group: uprise
-# SAUCE Date: 19980912
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: sense by dying soul | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense13-ds-sens
 
 Write-Host '
 [32m[0m   [1;30m  [0;36m▄▄▄▄[0;1;30m  [0;35m▄▄▄[0m       [36m▄▄▄▄▄▄▄[0m            [36m▄▄▄▄[0m        [36m▄▄▄▄▄▄[0m       [1;35m▄▄▄▄ [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: 53-SCLC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0597/raw/53-SCLC.ANS
-# Source Revision: archive-sha256:100499c687593fd78c29adf06f5899e8c0d61223958e380a9c31aadb955ab06d
-# Source SHA-256: bcbe34b4d72a3ecb11f3c9229a10b049c03168a5aacfe5d5a9a4813818a5a453
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 53-SCLC.ANS by Senile (fsn-0597); released in fsn-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: 53-SCLC.ANS by Senile | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0597-53-sclc
 
 Write-Host '
 last callers                      [1;33m ░░[0m        [1;37m▄▄▄▄████  ▄▄▄▄[0;1;33m█▀░[0;1;37m [0m▄▄█

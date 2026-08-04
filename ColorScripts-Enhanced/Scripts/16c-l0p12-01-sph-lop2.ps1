@@ -1,18 +1,4 @@
-﻿# Converted from: SPH_LOP2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p12_01/raw/SPH_LOP2.ANS
-# Source Revision: archive-sha256:678c9348e291c059a717bb7990ccaffc699e8a46d4f8d71e273fe24e3b605bbc
-# Source SHA-256: 5170d85800aeef065fca555cc0691480e42c031eb478c3a7225441eac7a6b089
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPH_LOP2.ANS by sephiroth (fekkjew); released in l0p12_01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: tjelopo
-# SAUCE Author: sephiroth
-# SAUCE Group: fekkjew
-# SAUCE Date: 20010829
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: tjelopo by sephiroth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p12-01-sph-lop2
 
 Write-Host '
           [1;33m     ▄▄▄▄      [0m       [31m▀▄▄▄▄▄[0m    [31m░[0m     [31m▄[0m      [31m▀[0m   [34m▄▄▄[0;1;34;44m▄ ▄▄[0;34m▄▄[0m

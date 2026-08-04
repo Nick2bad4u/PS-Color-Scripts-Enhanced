@@ -4,7 +4,9 @@ ColorScripts-Enhanced combines project-authored renderers with curated third-par
 
 ## Current Provenance Records
 
-New curated imports are recorded in [ArtworkProvenance.psd1](../../ColorScripts-Enhanced/ArtworkProvenance.psd1). The data file maps each imported script to its source collection and records pinned source revisions or archive hashes, source and rendered hashes, encoding, conversion mode, attribution, SAUCE details, and source coordinates for split works.
+New curated imports are recorded in the repository-only [ArtworkProvenance.psd1](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/audit/ArtworkProvenance.psd1). This is the authoritative record for source collections, pinned revisions and archive hashes, source and rendered hashes, encoding, conversion mode, attribution, SAUCE details, and split coordinates. It remains outside the publishable module; a generated [artwork-details page](https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html) exposes a compact web index without adding the roughly 53 MiB PSD1 file to every PowerShell Gallery installation.
+
+Each mapped script carries one offline-readable title/artist line and a script-scoped details URL. The executable `Write-Host` payload contains no archival metadata, and repository-only [migration evidence](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/audit/ArtworkHeaderMigration.json) hash-locks the original header, the replacement header, and the unchanged payload. Older scripts without an exact registry entry keep their existing headers; provenance must never be guessed.
 
 The corresponding third-party notices are:
 
@@ -69,15 +71,14 @@ The native `indyz-kali.utf8.ans` example contains 2,481 SGR sequences across exa
 ### 16colors artist-authorized archive imports
 
 - Archive browser: <https://16colo.rs/>
-- Canonical API: <https://api.16colo.rs/>
+- API documentation: <https://16colo.rs/api/>
 - API documentation: <https://16colo.rs/api/>
 - Archive rights policy: <https://16colo.rs/faq/>
 - Permission evidence: [maintainer attestation](../../ColorScripts-Enhanced/ThirdPartyNotices/16colors-discord-permission.txt)
-- Compact audit checkpoint: [AnsiArchiveCurationCheckpoint.json](../AnsiArchiveCurationCheckpoint.json)
-- Content-curation checkpoint: [AnsiContentCurationCheckpoint.json](../AnsiContentCurationCheckpoint.json)
-- Hash-locked review evidence: [content](../AnsiContentReviewLedger.json), [contact follow-up](../AnsiContactFollowupReviewLedger.json), [independent contact-prompt follow-up](../AnsiContactShadowReviewLedger.json), [residual content and advertisement review](../AnsiResidualContentReviewLedger.json), [first mixed prose and BBS text review](../AnsiResidualMixedTextReviewLedger.json), [second mixed-text review](../AnsiResidualMixedTextReviewLedger2.json), [third mixed-text review](../AnsiResidualMixedTextReviewLedger3.json), [fourth mixed-text review](../AnsiResidualMixedTextReviewLedger4.json), [fifth mixed-text review](../AnsiResidualMixedTextReviewLedger5.json), [sixth mixed-text review](../AnsiResidualMixedTextReviewLedger6.json), [seventh mixed-text review](../AnsiResidualMixedTextReviewLedger7.json), [eighth mixed-text review](../AnsiResidualMixedTextReviewLedger8.json), [ninth mixed-text review](../AnsiResidualMixedTextReviewLedger9.json), [tenth mixed-text review](../AnsiResidualMixedTextReviewLedger10.json), [eleventh mixed-text review](../AnsiResidualMixedTextReviewLedger11.json), [twelfth mixed-text review](../AnsiResidualMixedTextReviewLedger12.json), [thirteenth mixed-text review](../AnsiResidualMixedTextReviewLedger13.json), [fourteenth mixed-text review](../AnsiResidualMixedTextReviewLedger14.json), [fifteenth mixed-text review](../AnsiResidualMixedTextReviewLedger15.json), [sixteenth mixed-text review](../AnsiResidualMixedTextReviewLedger16.json), [seventeenth mixed-text review](../AnsiResidualMixedTextReviewLedger17.json), [blank-geometry removals](../AnsiBlankGeometryReviewLedger.json), [high-confidence geometry actions](../AnsiGeometryReviewManifest.json), [residual compact-logo geometry actions](../AnsiResidualGeometryReviewManifest.json), and [authentic-composition geometry retentions](../AnsiGeometryRetentionReviewLedger.json)
-- Recent hash-locked mixed-text evidence: [eighty-third mixed-text review](../AnsiResidualMixedTextReviewLedger83.json), [eighty-fourth mixed-text review](../AnsiResidualMixedTextReviewLedger84.json), [eighty-fifth mixed-text review](../AnsiResidualMixedTextReviewLedger85.json), and [eighty-sixth mixed-text review](../AnsiResidualMixedTextReviewLedger86.json)
-- Adult-policy decisions: [removed works](../AnsiPolicyRemovalManifest.json) and [adult-tagged works retained after preview review](../AnsiPolicyRetentionReviewLedger.json)
+- Compact audit checkpoint: [AnsiArchiveCurationCheckpoint.json](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/audit/AnsiArchiveCurationCheckpoint.json)
+- Content-curation checkpoint: [AnsiContentCurationCheckpoint.json](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/audit/AnsiContentCurationCheckpoint.json)
+- Hash-locked review evidence: [repository audit directory](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/tree/main/audit), containing the complete content, contact, mixed-text, geometry, retention, and removal ledger series
+- Adult-policy decisions: [removed works](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/audit/AnsiPolicyRemovalManifest.json) and [adult-tagged works retained after preview review](https://github.com/Nick2bad4u/PS-Color-Scripts-Enhanced/blob/main/audit/AnsiPolicyRetentionReviewLedger.json)
 - Accepted source formats: `.ANS` and `.ICE`
 - Current named import: [The Lake House](https://16colo.rs/pack/mist0624/ZII-LAHO.ANS) by Zeus II of Mistigris, represented by six contiguous scripts
 - Review status: 1990-2026 review-complete, with every accepted work imported

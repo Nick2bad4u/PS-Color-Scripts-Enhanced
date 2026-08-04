@@ -1,13 +1,4 @@
-﻿# Converted from: we-candy.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch07/raw/we-candy.ans
-# Source Revision: archive-sha256:5c4b66e1867678e92d098b0a815f319c9061dad195e5c4fab9231a0e93c34c5d
-# Source SHA-256: dbabdc0d16e7d12da6442edaad10c7fb3ac73f540c1e25c7527adfd6d76f7bd8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-candy.ans by Taintedx + Enzo (27inch07); released in 27inch07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: we-candy.ans by Taintedx + Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch07-we-candy-part01
 
 Write-Host '
 

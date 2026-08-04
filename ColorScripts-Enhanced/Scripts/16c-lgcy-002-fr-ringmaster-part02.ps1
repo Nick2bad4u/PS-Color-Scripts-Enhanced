@@ -1,17 +1,4 @@
-﻿# Converted from: fr-ringmaster.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lgcy-002/raw/fr-ringmaster.ans
-# Source Revision: archive-sha256:035806f627526bbca92fb6becafc359d23b231b3ea478b7169ed62b6d2a1cc54
-# Source SHA-256: adc26c7b082a01296640b56725b35e0982f57e0edea4d2fd1512d71e4131628c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: fr-ringmaster.ans by FreshRich (Legacy Krew); released in lgcy-002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: RingMaster - Dark Carnival
-# SAUCE Author: FreshRich
-# SAUCE Group: Legacy Krew
-# SAUCE Date: 20190825
-# Lines: 41-80
-# Columns: 1-80
+﻿# Artwork: RingMaster - Dark Carnival by FreshRich | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lgcy-002-fr-ringmaster-part02
 
 Write-Host '
           [1;33;43m▄[0;1;33;40m█[0;1;33;43m▄[0;33m█[0;1;37m▀█[0m▄[1;30m▒░░░[0m▀█[1;30m█▓█[0m [33m▒███▓[0;37m [0;33m░▓█[0;1;33;43m░░▓[0m  [1;33m▄[0;1;33;43m▓░[0;33m█▄[0;37m   [0;33m░▒▓██▓▒░[0;37m   [0;1;30m░░█[0;1;37m▒[0m█[1;30m▓▄[0m [1;30m▄▓░[0m    [33m░▒▓[0m

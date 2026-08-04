@@ -1,18 +1,4 @@
-﻿# Converted from: 33-EUPHS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9610/raw/33-EUPHS.ANS
-# Source Revision: archive-sha256:2f6e3c8c2e64cc8380afc3a639da2793e02ea87790d90b8b4bede4b760040753
-# Source SHA-256: e87e9507caf66429231e47491e1f3b7c0a07ef3ffd3f0e668108e5a46ac9f239
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-EUPHS.ANS by Eerie (Awe); released in awe9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Euphoria
-# SAUCE Author: Eerie
-# SAUCE Group: Awe
-# SAUCE Date: 19960927
-# SAUCE Dimensions: 80x25
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Euphoria by Eerie | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9610-33-euphs
 
 Write-Host '
 

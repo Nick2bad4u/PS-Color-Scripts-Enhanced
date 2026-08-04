@@ -1,18 +1,4 @@
-﻿# Converted from: IP-REV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force18a/raw/IP-REV.ANS
-# Source Revision: archive-sha256:6a0f397e3657e6d033b73af64211a87e0404e38c6a0f4de7a8637861ae197039
-# Source SHA-256: 361403101051f12ba767c06551f056aace2009d20ae0707a8c17c6aace250095
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IP-REV.ANS by Impulse (Force); released in force18a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Relativity
-# SAUCE Author: Impulse
-# SAUCE Group: Force
-# SAUCE Date: 19970531
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Relativity by Impulse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force18a-ip-rev
 
 Write-Host '
                [1;33m░░░░[0m    [1m  [0m       [1mv [0m   [32m░░[0;37m  [0;1;36m▄▄[0m [1;36m▄[0m ▄

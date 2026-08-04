@@ -1,19 +1,4 @@
-﻿# Converted from: ZIR-1MPR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-44/raw/ZIR-1MPR.ANS
-# Source Revision: archive-sha256:6c51508cedeaa9140fcf08750a75edb14e0cec0eebe7b4290346e95cd3548876
-# Source SHA-256: cc44135cc37fc6e3832e37ecb4af1cc27c234e921ff3480e830975e9acc50608
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIR-1MPR.ANS by zir (FiRE); released in fire-44 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: iMPURE aSCII!!
-# SAUCE Author: zir
-# SAUCE Group: FiRE
-# SAUCE Date: 20251111
-# SAUCE Dimensions: 80x26
-# SAUCE Font: IBM VGA
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: iMPURE aSCII!! by zir | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-44-zir-1mpr
 
 Write-Host '
 [37;40m  [0;1;30;40m[[0mIMPURE ASCII[1;30m] [0;36m░░[0;37m [0;36m░░░   [0;1;30m░░░░░░░░[0m    [1;30m░░░░░░[0m [36m░[0;1;30m ░░░░ ░░░░░[0m [36m░░[0;37m [0;36m░░░░[0;37m [0;1;30m░░░[0m   [36m░░░░░[0m

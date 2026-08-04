@@ -1,18 +1,4 @@
-﻿# Converted from: FI-DU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fear1194/raw/FI-DU.ANS
-# Source Revision: archive-sha256:f054d0bb154b653e223e56e77201cae8362bfb38bbbede42a20fa8c74f2102fe
-# Source SHA-256: 254211454c5a5c7608b9ddc50c64fde7d8a9b4fc2bb9ef7a3a9290a9f1aef03e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FI-DU.ANS by Future Imperfect ([FEAR]); released in fear1194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Digital Underground
-# SAUCE Author: Future Imperfect
-# SAUCE Group: [FEAR]
-# SAUCE Date: 19941104
-# SAUCE Dimensions: 80x114
-# Lines: 38-74
-# Columns: 1-80
+﻿# Artwork: The Digital Underground by Future Imperfect | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fear1194-fi-du-part02
 
 Write-Host '
 [1;30m                  [0m ░░░░[1;30m░░░░░░[0m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░[1;30m  [0m░░░

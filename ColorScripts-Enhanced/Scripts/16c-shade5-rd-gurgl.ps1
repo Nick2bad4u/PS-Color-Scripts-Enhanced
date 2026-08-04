@@ -1,18 +1,4 @@
-﻿# Converted from: RD-GURGL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/shade5/raw/RD-GURGL.ANS
-# Source Revision: archive-sha256:9eb97f9412f63f0ce4837a80894f87a3aed455c1487394481c6e40b531c2203d
-# Source SHA-256: 329bbd509e6ec428c5d420f0c68f8d38281edaf8a2a59f84214308220461616c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RD-GURGL.ANS by cell af gurgelbesten (shade); released in shade5 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Raider
-# SAUCE Author: cell af gurgelbesten
-# SAUCE Group: shade
-# SAUCE Date: 19960219
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Raider by cell af gurgelbesten | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-shade5-rd-gurgl
 
 Write-Host '
             [30;43m█[0;30;45m▓[0m     [1;30;40m░[0m

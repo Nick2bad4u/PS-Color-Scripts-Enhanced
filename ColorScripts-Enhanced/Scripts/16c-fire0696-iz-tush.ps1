@@ -1,18 +1,4 @@
-﻿# Converted from: IZ-TUSH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0696/raw/IZ-TUSH.ANS
-# Source Revision: archive-sha256:812b4b6a142b76b92307dc090cdf58b49035a2b9097d1dc0a43da5e4fd3f4f2d
-# Source SHA-256: f5afff27578a03020d0fee8ade20c9a26e2923a0f3083f0181b490bd243a90d4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IZ-TUSH.ANS by ize (fire); released in fire0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: tush
-# SAUCE Author: ize
-# SAUCE Group: fire
-# SAUCE Date: 19960602
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: tush by ize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0696-iz-tush
 
 Write-Host '
        [1;30m▄[0m                [1;30m▄[0m [1;30m [0m          [1;30m▄[0m   [1;30m▄▄▄    [0m                  [1;30m▄[0m  [1;30;42m▓[0;1;30;40m▄▄[0m    [1;30m ▄ [0m

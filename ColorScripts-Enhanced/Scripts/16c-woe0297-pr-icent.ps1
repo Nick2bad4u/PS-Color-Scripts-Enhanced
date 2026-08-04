@@ -1,18 +1,4 @@
-﻿# Converted from: PR-ICENT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/woe0297/raw/PR-ICENT.ANS
-# Source Revision: archive-sha256:87322a18ea5f3ecdff767f339fc908e7b7a1fb6cb2e645c3baaa56172a677755
-# Source SHA-256: 33458f5aed7ed0d3b1e41ae9ecf281e266e75b7a414f284379a521cbc3dad7a3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR-ICENT.ANS by Promtheus (WOE); released in woe0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ICENET #1
-# SAUCE Author: Promtheus
-# SAUCE Group: WOE
-# SAUCE Date: 19941210
-# SAUCE Dimensions: 80x25
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: ICENET #1 by Promtheus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-woe0297-pr-icent
 
 Write-Host '
 

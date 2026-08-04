@@ -1,17 +1,4 @@
-﻿# Converted from: FL-ESPMA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/esp0496/raw/FL-ESPMA.ANS
-# Source Revision: archive-sha256:dbe6c60d1047fff7d32d35a3252db30cf5150247db0d75ed0d6bb39660636de9
-# Source SHA-256: 9f4a5f8dbc4c00e28471019a0d4cd65ea649016ff351a44d326f7b20c519847a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-ESPMA.ANS by fLeA (ESP Productions); released in esp0496 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: fLeA
-# SAUCE Group: ESP Productions
-# SAUCE Date: 19960319
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: FL-ESPMA.ANS by fLeA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-esp0496-fl-espma
 
 Write-Host '
 [34m█████▀▀▀▀▀▀███████▀▀▀▀▀▀███████▀▀▀▀▀▀█████████████████████████████[0;37m [0;33m▄▄▄▄[0;37m [0;34m▀▀▀█████[0m

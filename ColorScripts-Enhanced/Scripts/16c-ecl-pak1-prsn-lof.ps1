@@ -1,18 +1,4 @@
-﻿# Converted from: PRSN_LOF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak1/raw/PRSN_LOF.ANS
-# Source Revision: archive-sha256:6b35b56dc24903414bd16ecb32b5990f418418f7d4290c94fd51891e14acec7b
-# Source SHA-256: 361d7bc455c95f51083807de02dae964d7a3e884eed46f84f4b501a1aee5b95f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PRSN_LOF.ANS by Snowball + President (ecolove); released in ecl-pak1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: logoff (tmb)
-# SAUCE Author: president & snowball
-# SAUCE Group: ecolove
-# SAUCE Date: 19971122
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: logoff (tmb) by Snowball + President | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak1-prsn-lof
 
 Write-Host '
 [31m [0m              [32m [0;1;32m▄▄▄[0;1;32;42m▓▓▒▓▓[0;1;32;40m▄▄[0m                           [32m [0;1;32m▄▄▄[0;1;32;42m▓▓▒▒▓▓[0;1;32;40m▄[0m

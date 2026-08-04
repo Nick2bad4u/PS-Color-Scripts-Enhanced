@@ -1,18 +1,4 @@
-﻿# Converted from: KRL-MAD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack05/raw/KRL-MAD.ANS
-# Source Revision: archive-sha256:0f39efe1490fd9c1b09c027a9c8f784da8c79c85e34415fa387aae8ccb65c757
-# Source SHA-256: de63bdc8f66e578f72c28152d8b42cf6f9c9a752051fd4843de8682506c68d17
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KRL-MAD.ANS by Mr Krinkle (Apocalyptic Visions); released in avpack05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Madness Network
-# SAUCE Author: Mr Krinkle
-# SAUCE Group: Apocalyptic Visions
-# SAUCE Date: 19950513
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Madness Network by Mr Krinkle | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack05-krl-mad
 
 Write-Host '
 [1;30;40m██▄▀█▀█[0m [1;30;40m▀[0;35m▄▄▄▄[0;1;30m▀▀██▀▄██▀▄██▀▀▀[0m [1;30m▀[0;30mkrinkle![0;1;30m▀■▀▀▄▄▄▀▀█▄▀█[0m [1;30m█▀[0;35m▄▄█[0;1;35;45m▒▒▓[0;1;35;40m▄[0;1;30;40m▀█▀▄[0m [1;30;40m█▄▀▀████▄▀█[0m [1;30;40m█[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US-CIA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dcds0796/raw/US-CIA.ANS
-# Source Revision: archive-sha256:3509ed83150d72e01cde39c5fe6c61d852f4f7285feb9d94b431cec18116688b
-# Source SHA-256: 9625c3672f36c19fc5dda13e0aa6a72d445b75658a98c240e55eb559e0f37d8d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CIA.ANS by Flame + Mikedee (Decades); released in dcds0796 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Cia Promotional
-# SAUCE Author: MikeDee/Flame
-# SAUCE Group: Decades
-# SAUCE Date: 19960703
-# SAUCE Dimensions: 80x25
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: Cia Promotional by Flame + Mikedee | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dcds0796-us-cia
 
 Write-Host '
   [1;31;43m [0;1;31;40m█████[0;1;31;43m▀[0;1;31;40m▀[0;33m▀[0;37m [0;32m▄[0;1;32m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;36m▄▄[0;1;37m▄▒▒[0;1;32m [0;32m▄[0;1;32m▄▄▄▄▄▄▄[0;1;36m▄[0;1;32m [0;33m▄▄[0;32m▀[0;1;32;42m▀[0;1;32;40m█[0;1;32;46m▓▓[0;1;32;40m█▄▄▄▄▄▄▄▄▄▄▄▄[0;1;36;40m▄[0;1;37;40m▄[0;1;36;40m [0;33m▄[0;1;31m▄▄▄▄[0;1;31;43m▄▄█[0;1;31;45m█[0;1;31;43m█ [0m

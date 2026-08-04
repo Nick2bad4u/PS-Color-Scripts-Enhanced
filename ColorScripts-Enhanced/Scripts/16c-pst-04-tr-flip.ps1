@@ -1,16 +1,4 @@
-﻿# Converted from: TR-FLIP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pst-04/raw/TR-FLIP.ANS
-# Source Revision: archive-sha256:f6efaa91b271a597917b36d55f7ff3e2a4848f36d9f7d6bc0f43e631f99045c0
-# Source SHA-256: 2673fe3a67167d8525d85e58d5d7aee939ced86402c55e5d459975f3d724685d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-FLIP.ANS by trippah (polyester); released in pst-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: flip?
-# SAUCE Author: trippah
-# SAUCE Group: polyester
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: flip? by trippah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pst-04-tr-flip
 
 Write-Host '
          [1m▄▄▄▄▄▄[0m                        [1m▄▄▄▄▄▄[0m              [30;44m▓▓[0m

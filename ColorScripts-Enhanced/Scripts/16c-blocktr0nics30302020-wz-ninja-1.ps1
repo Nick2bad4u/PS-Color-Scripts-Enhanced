@@ -1,19 +1,4 @@
-﻿# Converted from: wz_ninja_1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktr0nics30302020/raw/wz_ninja_1.ans
-# Source Revision: archive-sha256:9a86a13b1ff7cef4b57ed39c1aca190028df54b44bffe10202b539bef3cd3dcc
-# Source SHA-256: c7b5477687f0db78101544f5b22d57d0870ef614e23b7751a911e64f8b8c1de7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wz_ninja_1.ans by Whazzit (Blocktronics); released in blocktr0nics30302020 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Ninja Type Thing 1
-# SAUCE Author: Whazzit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20191111
-# SAUCE Dimensions: 80x50
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Ninja Type Thing 1 by Whazzit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktr0nics30302020-wz-ninja-1
 
 Write-Host '
                                            [33;40m▄▄▄▄▄[0;1;33;40m▄▄▄[0m

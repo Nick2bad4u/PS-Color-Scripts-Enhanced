@@ -1,13 +1,4 @@
-﻿# Converted from: LD-SE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/atm-0793/raw/LD-SE.ANS
-# Source Revision: archive-sha256:2791ea7960360c43fee92e39a37f109c33350847675dee72209056037e0dfd3e
-# Source SHA-256: 4a162a8a1392b604edc1d50c80c4761953d03beebc0e7607d997c311f05f1697
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-SE.ANS by Little Dragon (atm-0793); released in atm-0793 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: LD-SE.ANS by Little Dragon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-atm-0793-ld-se-part01
 
 Write-Host '
 [37;46m                                                                             [0m

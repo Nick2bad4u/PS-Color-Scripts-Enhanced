@@ -1,13 +1,4 @@
-﻿# Converted from: TSK-CF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0202/raw/TSK-CF.ANS
-# Source Revision: archive-sha256:2dab715e9f2d819e9161d3954fa8210558a1b83f118c830394e2fdee6408a093
-# Source SHA-256: daed724833c9eb8e84dd3b17f2a623c3553d1667928aec0f0f5b89533be40b08
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-CF.ANS by The Silent Killer (rev0202); released in rev0202 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: TSK-CF.ANS by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0202-tsk-cf
 
 Write-Host '
 

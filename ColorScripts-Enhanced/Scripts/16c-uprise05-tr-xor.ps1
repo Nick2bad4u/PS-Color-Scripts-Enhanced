@@ -1,13 +1,4 @@
-﻿# Converted from: TR-XOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise05/raw/TR-XOR.ANS
-# Source Revision: archive-sha256:8a04f72dbd0084a3dd089505796d41f1fc098ce192bbfa410f8bc1039eb33f03
-# Source SHA-256: 328ff40f9acb52c1336250882c72684e8b6fe37bfafd01004e0392520af91207
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-XOR.ANS by Trippah (uprise05); released in uprise05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: TR-XOR.ANS by Trippah | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise05-tr-xor
 
 Write-Host '
 

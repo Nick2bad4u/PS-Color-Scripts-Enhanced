@@ -1,13 +1,4 @@
-﻿# Converted from: FN-TKEEP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0693/raw/FN-TKEEP.ANS
-# Source Revision: archive-sha256:bf6080bda835933d718f415a89667820eb682f616366120a29d871058728ce93
-# Source SHA-256: f1060b5734cd6ff6954447b64b37d3bfb737718cbffd3b92db29755bcc0456ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FN-TKEEP.ANS by Fusion (acdu0693); released in acdu0693 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: FN-TKEEP.ANS by Fusion | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0693-fn-tkeep-part01
 
 Write-Host '
 [1;31;41m▒▒▒▒░░░░   [0;31m█▓▒░[0;1;30m▒[0;1;31m▐[0;1;31;41m██▓▓▒░░   ░░░░░░░░░░░     [0;31m█▓▒░[0;1;30m░▒▓[0;1;33;47m▒[0;1;33;43m▒▓[0;1;33m██████████████[0;1;31;41m░▒▓████▓▓▒▒▒[0m

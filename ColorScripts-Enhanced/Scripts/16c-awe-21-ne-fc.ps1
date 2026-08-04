@@ -1,17 +1,4 @@
-﻿# Converted from: NE-FC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-21/raw/NE-FC.ANS
-# Source Revision: archive-sha256:d980c3e2187ff0ef4bb9edce960381dc01c8374df0b01b4ddb8d104484f4b936
-# Source SHA-256: 8c3a740f5542e20a7b9bd0a3e6833c505020abbb47b4e58ba2d89e1a1eba3a10
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NE-FC.ANS by Nemo (AWE Lettering); released in awe-21 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Free Coke
-# SAUCE Author: Nemo
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Free Coke by Nemo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-21-ne-fc
 
 Write-Host '
       [34m [0;37m [0;34m▄▄ [0m    [34m ▀[0;37m [0;34m▀[0;36;44m░▄[0;34;40m▄[0m                      [34;40m▄[0;36;44m▄[0;1;36;46m▄[0;34m█▌  ▄  ▀[0;36;44m░▄[0;34;40m▄▄▄[0m         [34;40m▄▄▄[0;36;44m▄▄[0;1;36;46m▄[0;36;44m▀[0;34;40m▀▀[0m

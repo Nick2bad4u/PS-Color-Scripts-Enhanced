@@ -1,18 +1,4 @@
-﻿# Converted from: AP-MLMAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nst_001/raw/AP-MLMAT.ANS
-# Source Revision: archive-sha256:73e351b64f3e5af00925276ea27a29359884e7841f4015afd3acb29f2a370d2d
-# Source SHA-256: e4af8cb0cc642bd13894f4ad674b66c9c37117fe4b07b17d5f58e45ee32931e1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AP-MLMAT.ANS by Appel (Neon Strike); released in nst_001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: MicroLinks Matrix
-# SAUCE Author: Appel
-# SAUCE Group: Neon Strike
-# SAUCE Date: 19980328
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: MicroLinks Matrix by Appel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nst-001-ap-mlmat
 
 Write-Host '
 -x(Microlinks Matrix)x----------------------------------------------------------

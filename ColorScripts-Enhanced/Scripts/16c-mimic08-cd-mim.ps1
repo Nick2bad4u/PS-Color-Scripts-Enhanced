@@ -1,13 +1,4 @@
-﻿# Converted from: cd!mim.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic08/raw/cd!mim.ans
-# Source Revision: archive-sha256:5ff14b853ad38745a7a66fb5a5c7a2304d0ed030751d7e8e420c5dbbaed3938e
-# Source SHA-256: c772e5b7ee3719bab31dbf57e6bde1cda9f50f556e0d376ba44105afc10f2643
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: cd!mim.ans by Cat-Dog (mimic08); released in mimic08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: cd!mim.ans by Cat-Dog | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic08-cd-mim
 
 Write-Host '
                                                               [31m`;l[0;1;31m$$$$$$$$$[0;31ml;[0;37m [0;35m;l[0;1;35m$[0m

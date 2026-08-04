@@ -1,18 +1,4 @@
-﻿# Converted from: HL-MC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stl-003/raw/HL-MC.ANS
-# Source Revision: archive-sha256:f05577e69788bf833b2eeb503583305cc9119acc157823c14e039d65d70a6838
-# Source SHA-256: b2e718a71604288cbffb12ee04ea09fdfe32171ce49328620664822ad7d35364
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HL-MC.ANS by Hellraiser (Stile); released in stl-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Moose city!
-# SAUCE Author: Hellraiser
-# SAUCE Group: Stile
-# SAUCE Date: 19951130
-# SAUCE Dimensions: 80x71
-# Lines: 37-71
-# Columns: 1-80
+﻿# Artwork: Moose city! by Hellraiser | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stl-003-hl-mc-part02
 
 Write-Host '
 [1;31;43m▓▓▓▓[0;33m  [0;1;37m█████▓███▄█▀▀[0m [33m▄▄[0;1;31;43m▒▒▓▓▓▒▒▒[0;33m ▄[0;1;31;43m▒▓[0;1;31;40m█████[0;1;31;43m▓▒[0;33m▀ [0;1;30;47m▓▒░▒▓[0m ▄[1;30;47m▒▓█████[0;1;30;40m███████████████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: CM-FLTH1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/moonlgt1/raw/CM-FLTH1.ANS
-# Source Revision: archive-sha256:9c3296d479bffdc90be8aa4a3f3118a85ae9456683674c3e67716221b3c262b5
-# Source SHA-256: bb5d0972286fd737ceeabc2f9f5bb65f454e598b355b5b7138b290e50294c485
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CM-FLTH1.ANS by cheeze mOnkey (mewnlight); released in moonlgt1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: filth!#(trippy ansi)
-# SAUCE Author: cheeze mOnkey
-# SAUCE Group: mewnlight
-# SAUCE Date: 19960818
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: filth!#(trippy ansi) by cheeze mOnkey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-moonlgt1-cm-flth1
 
 Write-Host '
 [1;33m[0;33m[0m                       [1;35m░[0m                            [1;35m░[0m

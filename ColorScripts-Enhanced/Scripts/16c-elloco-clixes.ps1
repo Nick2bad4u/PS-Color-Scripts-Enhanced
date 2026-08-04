@@ -1,18 +1,4 @@
-﻿# Converted from: CLIXES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/elloco/raw/CLIXES.ANS
-# Source Revision: raw-sha256:d0bf9fc2bfc4bb104968a149dc2c510b850131d374eed4225c0e41d09cd45bb2
-# Source SHA-256: d0bf9fc2bfc4bb104968a149dc2c510b850131d374eed4225c0e41d09cd45bb2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CLIXES.ANS by El LoCo (NeveRLanD People); released in elloco and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: CLiXES BBS
-# SAUCE Author: El LoCo
-# SAUCE Group: NeveRLanD People
-# SAUCE Date: 19960204
-# SAUCE Dimensions: 80x20
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: CLiXES BBS by El LoCo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-elloco-clixes
 
 Write-Host '
 [34m░░░▒▒▓▓[0;1;34;44m                ░▒▒▒░░░░░░░░░░░░[0;34m▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0m

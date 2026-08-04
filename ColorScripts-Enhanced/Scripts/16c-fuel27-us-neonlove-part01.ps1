@@ -1,19 +1,4 @@
-﻿# Converted from: us-neonlove.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel27/raw/us-neonlove.ans
-# Source Revision: raw-sha256:a19ce686a61b37fcd4ff67981e6c00a7d2cc1f326ebd75ba1ea2e7d70890a19e
-# Source SHA-256: a19ce686a61b37fcd4ff67981e6c00a7d2cc1f326ebd75ba1ea2e7d70890a19e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-neonlove.ans by The Knight + Nail (Fuel & Blocktronics); released in fuel27 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Neon Love
-# SAUCE Author: tk & nail
-# SAUCE Group: Fuel & Blocktronics
-# SAUCE Date: 20180731
-# SAUCE Dimensions: 80x77
-# SAUCE Font: IBM VGA
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: Neon Love by The Knight + Nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel27-us-neonlove-part01
 
 Write-Host '
 

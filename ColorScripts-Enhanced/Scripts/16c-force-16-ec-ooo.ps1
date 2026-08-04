@@ -1,17 +1,4 @@
-﻿# Converted from: EC-OOO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/force-16/raw/EC-OOO.ANS
-# Source Revision: archive-sha256:9ad935bd4cbb2615c5c684e690bc8979daa45859d0282b370bf26a8750d02425
-# Source SHA-256: 6c9bb2ffd30d62f7a4a093aef7ef84434995c3c00bc32c0e08450a8e7e6fae61
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EC-OOO.ANS by eclipse (force-16); released in force-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: out of order
-# SAUCE Author: eclipse
-# SAUCE Date: 19970329
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: out of order by eclipse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-force-16-ec-ooo
 
 Write-Host '
        [1;32m▄▄▄▄▄[0;32m▄▄[0m                   [1;32m▄▄▄▄▄[0;32m▄▄[0m         [37m▄[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: tnt-acuw.ans
-# Source encoding: cp437
-# Source URL: https://16colo.rs/pack/laz15/raw/tnt-acuw.ans
-# Source Revision: archive-sha256:d35f5b18ac3e8cbe3d6d17eab809a7e050609a8e3cc7d160d14a87c59a191c12
-# Source SHA-256: 69a759cdac646b1314323ab16d8e4754051dc89d158385eedd85bd27c7ba0aaf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tnt-acuw.ans by tainted (blocktronics); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: acid underworld bbs
-# SAUCE Author: tainted
-# SAUCE Group: blocktronics
-# SAUCE Date: 20220614
-# SAUCE Dimensions: 80x225
-# SAUCE Font: IBM VGA
-# Lines: 183-225
-# Columns: 1-80
+﻿# Artwork: acid underworld bbs by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz15-tnt-acuw-part05
 
 Write-Host '
      [32m▄█▄███▀[0;37m      [0;32m▀██[0;37m    [0;32m█████[0;37m   [0;32m▄████▀■▄████[0;1;30m▀[0m [32m▄█[0;1;32;42m░░[0;32m▀█[0;1;30;42m▀[0;32m▄[0;1;32;42m░░[0m         [32m░░[0;37m  [0;32m■▄[0;37m    [0;1;30m▄[0m

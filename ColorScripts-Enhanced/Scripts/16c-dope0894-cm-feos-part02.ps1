@@ -1,13 +1,4 @@
-﻿# Converted from: CM-FEOS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dope0894/raw/CM-FEOS.ANS
-# Source Revision: archive-sha256:e977fdb209d355bbe4dc1d9686fd5de8aacfb2e90f44da96b48f66ce4d326cda
-# Source SHA-256: 603435cf54cd10ec33d06cf8720623ab9ea7d2d6c71f0348a11eff0c8e37bb7b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CM-FEOS.ANS by Crackerman (dope0894); released in dope0894 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 49-98
-# Columns: 1-80
+﻿# Artwork: CM-FEOS.ANS by Crackerman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dope0894-cm-feos-part02
 
 Write-Host '
              ██▓▓▓▓▒▒▒▒▒[1m▓▓▓▓▓██▄[0m

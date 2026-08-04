@@ -1,18 +1,4 @@
-﻿# Converted from: EL-NL3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nland-05/raw/EL-NL3.ANS
-# Source Revision: archive-sha256:9ecedfce350729554c325e3fa16a28f24118d9cc4a114d7d310d9ef56e778218
-# Source SHA-256: 85a2e6639ffb827cb080e5dadefaab2c7cb5e47135524a1c8bb6602935714c75
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: EL-NL3.ANS by El LoCo (NeveRLanD People); released in nland-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: NeveRLanD LoGo3
-# SAUCE Author: El LoCo
-# SAUCE Group: NeveRLanD People
-# SAUCE Date: 19960222
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: NeveRLanD LoGo3 by El LoCo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nland-05-el-nl3
 
 Write-Host '
      [32m ▄▄▄[0m          [32m▄▄[0;1;32;42m░░░░[0;32m▄[0m            [32m▄▄[0m      [32m▄▄ [0;37m [0;32m  [0m                [32m  ▄▄▄▄▄▄[0m

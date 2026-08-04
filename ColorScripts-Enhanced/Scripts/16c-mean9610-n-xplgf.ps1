@@ -1,17 +1,4 @@
-﻿# Converted from: N!XPLGF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mean9610/raw/N!XPLGF.ANS
-# Source Revision: archive-sha256:eb05f2b8207463fc94de363304abab4a1544e298daf7dc7d1efbc5b0f6afd5eb
-# Source SHA-256: 583c6da20f6387f1c380482e7bd70bc17b8bf3b7fcba155ab7172392435ba2ba
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: N!XPLGF.ANS by nail (mean9610); released in mean9610 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: x-press logoff
-# SAUCE Author: nail
-# SAUCE Date: 19961031
-# SAUCE Dimensions: 80x18
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: x-press logoff by nail | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mean9610-n-xplgf
 
 Write-Host '
              [31m▄▄▄▄▄[0m        [31m▀▀▀[0;1;31;41m▀▄[0;31m  [0m          [37m [0;31m▄▄[0;1;31m▄▄▄▄▄[0m [31m▄[0;1;31m▄▄[0m

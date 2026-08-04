@@ -1,19 +1,4 @@
-﻿# Converted from: us-fuck1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna01/raw/us-fuck1.ans
-# Source Revision: archive-sha256:70f712dbf565de1ceb0f2b7020b54aa443621235a47b082b92e24e13342b0672
-# Source SHA-256: b4baa446deef9de0a09575c6ce5098117622c82cb03f758cc8c226f7b23a9058
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-fuck1.ans by Warpus + Mx + Smooth + The Knight (thesauna01); released in thesauna01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: never fuck with another man's towel
-# SAUCE Author: warpus,mx,smooth,tk
-# SAUCE Date: 20190907
-# SAUCE Dimensions: 80x38
-# SAUCE Font: IBM VGA
-# SAUCE Comments: or a woman's towel
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: never fuck with another man's towel by Warpus + Mx + Smooth + The Knight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna01-us-fuck1
 
 Write-Host '
    [1;30m▄▄▄▄▄▄▄▄▄▄[0m [1;30m▄[0m                   [1;36m▌[0m   [34m██[0;37m       [0;34m▄▄▄▄▌■[0;37m       [0;33m▌[0;37m   [0;34m▀[0;37m         [0;34m░[0m

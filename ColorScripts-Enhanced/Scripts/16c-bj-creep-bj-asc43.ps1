@@ -1,18 +1,4 @@
-﻿# Converted from: bj-asc43.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bj-creep/raw/bj-asc43.ans
-# Source Revision: archive-sha256:0debf4b45d7d951a68b5333767ded34f656851230e3888db7abc1feaad98e52f
-# Source SHA-256: 1bb4ef3ebdd876e048e82b3e95727083d4666b180e7d7b70d80bf306ad135389
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: bj-asc43.ans by Black Jack (Plain [11/14/96]); released in bj-creep and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Ascii for ANYONE
-# SAUCE Author: Black Jack
-# SAUCE Group: Plain [11/14/96]
-# SAUCE Date: 19961114
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Ascii for ANYONE by Black Jack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bj-creep-bj-asc43
 
 Write-Host '
 [31m[0m[31m[0m[1;37m[0;31m[0;1;30m[0;31m[0m[31m`Y$$b,`Y$b,  `,[0m      [31m:.:    [0;1;37m,mPⁿ°"~`[0m_,m[1;30m@@[0mm,_[1m`~"°ⁿYm, [0;31m`:.[0m          [31m_.+ ''[0m

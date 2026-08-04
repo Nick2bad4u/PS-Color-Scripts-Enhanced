@@ -1,18 +1,4 @@
-﻿# Converted from: QS-EXILE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ls-1196/raw/QS-EXILE.ANS
-# Source Revision: archive-sha256:718178e922daa94fdced53d32f23831075a54e6f9d2a5d01df73e88ec78ba407
-# Source SHA-256: 4ac088981d63c0600357fe38528c22226ce9db9a11e8bb14b0bd7dbc7280286e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QS-EXILE.ANS by quash (leper society); released in ls-1196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: exile
-# SAUCE Author: quash
-# SAUCE Group: leper society
-# SAUCE Date: 19961204
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: exile by quash | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ls-1196-qs-exile
 
 Write-Host '
                                                                    [35;40m▄██[0m

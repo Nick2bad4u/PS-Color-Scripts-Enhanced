@@ -1,13 +1,4 @@
-﻿# Converted from: HS-INF8.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stn-0694/raw/HS-INF8.ANS
-# Source Revision: archive-sha256:4c8e37c66b835baca79e74bc79185978c23ee1f7bbf4f4b44acaae103185c81d
-# Source SHA-256: e62ecf14c6a3b0ff6fdf8dfafe95c3998a1187156a7f78bf3441b8895391ea77
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HS-INF8.ANS by Hellspawn (stn-0694); released in stn-0694 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-89
-# Columns: 1-80
+﻿# Artwork: HS-INF8.ANS by Hellspawn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stn-0694-hs-inf8-part02
 
 Write-Host '
 

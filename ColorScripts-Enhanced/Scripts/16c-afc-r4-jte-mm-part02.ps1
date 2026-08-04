@@ -1,13 +1,4 @@
-﻿# Converted from: JTE-MM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r4/raw/JTE-MM.ANS
-# Source Revision: raw-sha256:30d7a142b7b9c54c21874408daacb6262fc239c83614ed62fda4240dc7dc8082
-# Source SHA-256: 30d7a142b7b9c54c21874408daacb6262fc239c83614ed62fda4240dc7dc8082
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JTE-MM.ANS by Jate (afc-r4); released in afc-r4 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 36-60
-# Columns: 1-80
+﻿# Artwork: JTE-MM.ANS by Jate | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r4-jte-mm-part02
 
 Write-Host '
      [1;34m▄[0;1;34;44m▀   [0;34m▄    [0;1;34m▄[0;34m▄[0;1;34;44m▀ [0;34m▄[0m                             [1;34m▄▄[0;1;34;44m▀▀[0;34m███▄[0m

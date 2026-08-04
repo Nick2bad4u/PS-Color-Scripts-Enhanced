@@ -1,19 +1,4 @@
-﻿# Converted from: LDA-GRAVEYARD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1022/raw/LDA-GRAVEYARD.ANS
-# Source Revision: archive-sha256:b4cfb070b10229c71b6cdba49fff141c03f4ad9e6e51a5ef68dfa1930822da97
-# Source SHA-256: ec5328fa8d0c1ff9a05b38281e25d5f7a313f5909ef3a8e0ccd31e378c454b10
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LDA-GRAVEYARD.ANS by LDA (Mistigris); released in mist1022 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Graveyard
-# SAUCE Author: LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20221029
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Graveyard by LDA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1022-lda-graveyard
 
 Write-Host '
 [35;41m■▄[0;31;45m▀▀[0;35;40m██[0;1;35;45m░░[0;35m██[0;35;41m▀▀▀▀▀▀▀▀[0;31;40m██[0;35;41m░░▄▄▄[0;35;40m█[0;1;35;45m░░░░░[0;35m███[0;31;45m▄[0;35;41m▀▀▀▀[0;30;45m■[0;35;40m▀▀▀▀▀▀▀[0;30;45m▄■▄[0;35;40m███[0;30;45m ▐▌[0;35;40m███[0;37;40m [0;35;40m██▄[0;37;40m  [0;30;45m▌▐[0;35;40m▀■▄[0;37;40m [0;30;45m▄[0;1;35;45m░░[0;35m▀▀[0;37m [0;35m■▀[0;30;45m■[0m

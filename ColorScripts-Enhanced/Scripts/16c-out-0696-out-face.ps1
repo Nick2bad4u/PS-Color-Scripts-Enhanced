@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-FACE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0696/raw/OUT-FACE.ANS
-# Source Revision: archive-sha256:e063050e209351b5ccbc0dc3b569d2e6d8eeb72f1d03c2f28dafad4b47047eb3
-# Source SHA-256: 3fd1abe478ee9938501dc0dfa500d4b0690d67999c054c695809b83b29478ad4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-FACE.ANS by Sandy Chidester (out-0696); released in out-0696 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: OUT-FACE.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0696-out-face
 
 Write-Host '
 [33m███░▄  ▒████▄▀▀[0;31m▐▓░░▓▄ [0;33m▀█▄ ▀███[0;36;43m░[0;36m▀[0m              [34m▄█[0;34;44m  [0;1;34;44m░▒[0;1;34;46m  [0;1;34;44m█▓▒░[0;34m███▀[0m

@@ -1,20 +1,4 @@
-﻿# Converted from: us-fu31.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/thesauna03/raw/us-fu31.ans
-# Source Revision: archive-sha256:997aaab655669129eb266c21ca0c4588b603e11c90338498bb530f8bba390fb2
-# Source SHA-256: 0eec1c011ed28da677c4467175a450711bcbbfb778dd1ecf2d87c0f042290e59
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-fu31.ans by Alpha King + Avg (blocktronics); released in thesauna03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: fuel
-# SAUCE Author: ak avg
-# SAUCE Group: blocktronics
-# SAUCE Date: 20210427
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Fake tits are like nazis. | They don't laugh, they don't dance. | It's just HU-YEAH! I'M WALKING HERE! | - Robin Williams
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: fuel by Alpha King + Avg | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-thesauna03-us-fu31
 
 Write-Host '
 [37;40m    [0m

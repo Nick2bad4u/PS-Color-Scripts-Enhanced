@@ -1,18 +1,4 @@
-﻿# Converted from: DS-WALL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nerp-03/raw/DS-WALL.ANS
-# Source Revision: archive-sha256:9ea26ff16b2d0162532c602fba75b69e539d71620a3b4e34b796de886326619c
-# Source SHA-256: 5047fb45612e91165e4a5ad9bae3d19052727e8325f40dced3081cd2ab5cd17f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS-WALL.ANS by dfuse (nerp); released in nerp-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: wall
-# SAUCE Author: dfuse
-# SAUCE Group: nerp
-# SAUCE Date: 19971224
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: wall by dfuse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nerp-03-ds-wall
 
 Write-Host '
 [1m([0;1;30m  [0m1,[1;30m   [0m1[1m)[0;1;30m [0;36;41m color [0;1;30;40m     [0;34mpage:1[0;37m  [0;1;30mSet[0m [1;30m:[0m [1;30m6[0m [1;41m [0;1;30;41m1=[0;1;37;41m░ [0;1;30;41m2=[0;1;37;41m▒ [0;1;30;41m3=[0;1;37;41m▓ [0;1;30;41m4=[0;1;37;41m█ [0;1;30;41m5=[0;1;37;41m▀ [0;1;30;41m6=[0;1;37;41m▄ [0;1;30;41m7=[0;1;37;41m▌ [0;1;30;41m8=[0;1;37;41m▐ [0;1;30;41m9=[0;1;37;41m■ [0;1;30;41m10=[0;1;37;41m·[0m

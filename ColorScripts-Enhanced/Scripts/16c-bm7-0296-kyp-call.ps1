@@ -1,18 +1,4 @@
-﻿# Converted from: KYP-CALL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bm7-0296/raw/KYP-CALL.ANS
-# Source Revision: archive-sha256:dc4cc64e955b9fcd3cc7622ea6e88698bafde8c6bb9846573f13bf599bfefae0
-# Source SHA-256: e94e4c8478faa5cf77786af83158c9489c7d847667e02a99033f22d8740cd18c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KYP-CALL.ANS by KYP (black maiden); released in bm7-0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Logoff screen 4 sysgods.
-# SAUCE Author: KYP
-# SAUCE Group: black maiden
-# SAUCE Date: 19960102
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Logoff screen 4 sysgods. by KYP | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bm7-0296-kyp-call
 
 Write-Host '
 [1;30;47m▓[0;1;30;40m■▄[0;32m▀▄[0;37m [0;1;30m▄■▀▄▀[0m [1;30;41m▓[0;1;30;40m▌[0;32m▄■▄[0;37m [0;1;30m▄■[0;1;30;47m▓[0m [1;30m▄▀[0m [32m▀▀▀■▄[0;1;30m▀▄[0;32m▀▄[0;1;30m▐▌▀[0;32m■▀[0;1;30m▄■▄[0m [1;30;47m▓[0;1;30;40m■▄[0;32m▀■▄[0;1;30m▀■▄[0;1;30;41m▓[0;1;30;40m▀[0m [1;30m▄[0;32m▀[0;37m [0;1;30;44m▓[0;1;30;40m▀[0m [32m▄[0;1;30m▀█▀[0m [1;30m█▄[0;32m▀[0;1;30m▄[0;1;30;41m▓[0m [33;42m░[0;32;40m▄[0;1;30;40m▐▌[0;32m▐▌[0;37m [0;32m▀[0m

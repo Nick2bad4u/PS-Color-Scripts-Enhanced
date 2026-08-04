@@ -1,13 +1,4 @@
-﻿# Converted from: OUT-CIR2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/out-0797/raw/OUT-CIR2.ANS
-# Source Revision: archive-sha256:af70b2c28dc748985578fd15ae91b8dc2d32044417062561a9ac5fc0b0871316
-# Source SHA-256: b3d954837440f19addeac44b2a6b38c6fc2c036bc3b7b685db7b127a2714fc27
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OUT-CIR2.ANS by Sandy Chidester (out-0797); released in out-0797 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: OUT-CIR2.ANS by Sandy Chidester | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-out-0797-out-cir2
 
 Write-Host '
                              [1m▄▄▄▄▀▀▀▀▀▀▀▀▀▀▀▄▄▄▄[0m

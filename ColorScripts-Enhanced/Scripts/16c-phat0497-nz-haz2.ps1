@@ -1,18 +1,4 @@
-﻿# Converted from: NZ-HAZ2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0497/raw/NZ-HAZ2.ANS
-# Source Revision: archive-sha256:ac23f379eb24f5f6ad8faa432723caa3c85fc7d4fc380b1d3e101e8eb50ca483
-# Source SHA-256: 5087d0d7bab57afeb58ec5cf96720259145a36526a932c12fcf888dc4b2a4475
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NZ-HAZ2.ANS by noize (phat studios '97); released in phat0497 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: hazard/2 screen
-# SAUCE Author: noize
-# SAUCE Group: phat studios '97
-# SAUCE Date: 19970328
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: hazard/2 screen by noize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0497-nz-haz2
 
 Write-Host '
 [34m▄[0;1;34m▄▐░[0;34m [0;1;31m░[0;31m▄[0;37m  [0;36m░[0;34m▀[0;1;34m▀▀▀[0;1;34;44m▀▐██[0;34m▌[0;1;34m▀[0m [33m░[0;37m [0;1;30m░[0;34m░[0;37m  [0;1;34;44m▄▄[0;34m▐[0;1;34;47m░▀[0;1;34;44m▄[0m    [34m█[0;37m  [0;1;34;44m░[0;34m█[0;37m [0;34m▐█▓[0m   [34m▀[0m   [34m░▓[0;1;34;47m▓░▄▄[0;1;34;44m▌▀[0;34m█[0;1;34m▀▀[0;34m▀▀[0;37m [0;34m▀[0m   [34m▀▀[0;1;34m▀[0;1;34;44m▀▐[0;1;34;47m▄░░▓[0m

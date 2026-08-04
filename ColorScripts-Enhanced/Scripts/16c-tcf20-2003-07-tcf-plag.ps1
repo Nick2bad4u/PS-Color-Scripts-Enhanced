@@ -1,13 +1,4 @@
-﻿# Converted from: 2003 - 07 - TCF-PLAG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tcf20/raw/2003%20-%2007%20-%20TCF-PLAG.ANS
-# Source Revision: archive-sha256:af8609219fccc484668fb405a7f1d45efb8c574501a461c5c1b47d87a12921ce
-# Source SHA-256: 7188717e3a6c45def95bdb762f38084e939823b8a04dac1cc07b3b0cc5191025
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 2003 - 07 - TCF-PLAG.ANS by The Creep Fever (tcf20); released in tcf20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: 2003 - 07 - TCF-PLAG.ANS by The Creep Fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tcf20-2003-07-tcf-plag
 
 Write-Host '
 [1;30m████▀[0m  [30;46m▄[0;36;40m▄▓▒[0;37;40m [0;30;46m [0;1;37;46m▒[0;36m▒▒[0;37m [0;36m░░ [0;33m [0;1;30m▄[0;33m░[0;1;30;43m▀[0;1;30;40m░[0m  [30;46m▄ [0;36;40m▓[0;1;37;46m░■▄▄[0;36m▓[0;30;46m▀[0;33;40m [0;36;40m░[0;30;46m▀█▄[0;36;40m▒[0;30;46m▀[0;1;30;40m▀██[0;1;30;43m▀▀▀[0;1;30;40m█[0;1;30;43m████[0;1;30;40m█[0;33m [0;1;30m▐███[0;33m [0;1;30m▐████▀▄▄▄ [0;33m [0;1;30m▄[0;33m   [0;36m ░░░[0m

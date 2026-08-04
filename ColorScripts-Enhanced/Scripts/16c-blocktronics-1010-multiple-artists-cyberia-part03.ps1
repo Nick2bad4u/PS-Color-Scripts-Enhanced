@@ -1,16 +1,4 @@
-﻿# Converted from: multiple artists -cyberia.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_1010/raw/multiple%20artists%20-cyberia.ans
-# Source Revision: archive-sha256:a99bb1826c554acf497ca2f3d3a318938bda45de706ac9decf9ca308162d3ee1
-# Source SHA-256: dabce9a645516b0c3375d3273fb3d8b3bfc2782314a8ded89d366a9e7c59f9d8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: multiple artists -cyberia.ans by Enzo + Mattmatthew + Tcf (blocktronics_1010); released in blocktronics_1010 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20140830
-# SAUCE Dimensions: 80x448
-# SAUCE Font: IBM VGA
-# Lines: 100-149
-# Columns: 1-80
+﻿# Artwork: multiple artists -cyberia.ans by Enzo + Mattmatthew + Tcf | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-1010-multiple-artists-cyberia-part03
 
 Write-Host '
 [36;46m  [0;34;46m█  █ █ █ ███ [0;36;47m▓[0;36;46m  [0;36;47m▓[0;36;46m       [0;36;40m▄▄▄█[0;36;46m [0;36;40m▄▄[0;36;46m [0;36;40m▄▄▄[0;36;46m [0;36;40m█▄[0;36;46m  [0;36;40m▄[0;36;46m [0;36;40m▄█[0;36;46m [0;36;40m▄[0;36;46m   [0;36;40m▄[0;36;46m               [0;36;47m▓[0;36;46m     [0;1;36;46m▀ ▀ ▀  [0m

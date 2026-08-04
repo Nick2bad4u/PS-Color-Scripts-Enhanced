@@ -1,18 +1,4 @@
-﻿# Converted from: HEN-911.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz08jly/raw/HEN-911.ANS
-# Source Revision: archive-sha256:8d8d89cdb4f6a56f2eaa26003458d08f5faec96c5dffe1f9e4f0c78141100bcb
-# Source SHA-256: 28fbcebc052200de9d574c335295d18039665ea9e35a304ef50387dd50675ac8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HEN-911.ANS by hennifer (lazarus); released in laz08jly and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: 911 compo
-# SAUCE Author: hennifer
-# SAUCE Group: lazarus
-# SAUCE Date: 19970702
-# SAUCE Dimensions: 80x11
-# Lines: 1-11
-# Columns: 1-80
+﻿# Artwork: 911 compo by hennifer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz08jly-hen-911
 
 Write-Host '
 [34m  [0;37m         [0;1;37m    [0m▄[1m▄[0m▄[1m        [0m▄▄▄▄▄[1m    [0m

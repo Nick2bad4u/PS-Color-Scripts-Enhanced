@@ -1,18 +1,4 @@
-﻿# Converted from: BP-PLNB!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roc-0995/raw/BP-PLNB!.ANS
-# Source Revision: archive-sha256:d818fadb4893cc62a8e70fa36636c4fa6dff7caeee0873b926c490a8afc85de3
-# Source SHA-256: 431dd5384ddf6ceb355407d49ebfb4c912c2881df7ab6639742310e699840af7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BP-PLNB!.ANS by Blood Priest (ROC); released in roc-0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Plan B
-# SAUCE Author: Blood Priest
-# SAUCE Group: ROC
-# SAUCE Date: 19950830
-# SAUCE Dimensions: 80x58
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Plan B by Blood Priest | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roc-0995-bp-plnb-part01
 
 Write-Host '
                  [36m▄▄▄▄[0;1;36m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

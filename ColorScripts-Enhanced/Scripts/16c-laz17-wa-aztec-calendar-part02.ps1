@@ -1,20 +1,4 @@
-﻿# Converted from: wa-aztec-calendar.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz17/raw/wa-aztec-calendar.ans
-# Source Revision: archive-sha256:2674245bad3e14fe6d4a935ba8daf9898a4426e394c56ca9710e3afa19d3d943
-# Source SHA-256: c3f9a072207eded327a10c1b243dbd67ed5530ed404fff600b3ee6ac60bc996f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-aztec-calendar.ans by warpus (LAZARUS); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: THE LAZARUS AZTEC CALENDAR
-# SAUCE Author: warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20230702
-# SAUCE Dimensions: 120x106
-# SAUCE Font: IBM VGA
-# SAUCE Comments: I had to do research for this ansi | shoutouts to filth & mx
-# Lines: 37-71
-# Columns: 1-120
+﻿# Artwork: THE LAZARUS AZTEC CALENDAR by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz17-wa-aztec-calendar-part02
 
 Write-Host '
 [1;30;40m█████████████████▀[0;31m▄[0;31;47m▀[0;37;100m▀▄▀[0m█▄ ▄[1;47m▄[0;1;40m▀[0;1;30;40m▄[0;1;30;47m█[0m ░▒[1;30m█ ▀[0m     [1;30m░▄▀██ ▀▀▐[0m▓▓[1;30m▌[0;1;30;47m▓▓[0m [1;30;47m▄▄▄▄▄[0m [1;30;47m▓▓[0;1;30;40m▐[0m▓▓[1;30m▌▀▀ ██▀▄▒     ▀ █[0m▒░ [1;30;47m█[0;1;30;40m▄[0;1;37;40m▀[0;1;37;47m▄[0m▄ ▄█▀▄▀[31;47m▀[0;31;40m▄[0;1;30;40m▀██████████████████[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-FUCK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/locus-05/raw/AVE-FUCK.ANS
-# Source Revision: archive-sha256:e794f4a6bc7d61ceeb91dcf253d8af6f1d242da726d5159e3be21f4afcead4b3
-# Source SHA-256: 9568ede50e4abf94833017e8f60944f1b8d223e8706c55277142523027b2addd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-FUCK.ANS by avenging angel (locus); released in locus-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: fucked experiment..
-# SAUCE Author: avenging angel
-# SAUCE Group: locus
-# SAUCE Date: 19990426
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: fucked experiment.. by avenging angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-locus-05-ave-fuck
 
 Write-Host '
 [35m▄▄▄▄▄ [0;32m▀[0;1;32m▀▀▀▀[0;1;32;42m▀██[0;1;33;40m█[0;1;32;42m█[0;1;33;40m███[0;1;33;42m▀[0;1;32;40m▀[0;1;33;40m▀[0;32m▀▀[0;35m▄▄▄█████[0;1;35m▒▒▒▒▒▒▒[0;35m█[0;1;35m▒[0;35m██████[0;1;35;45m░░░▓▓▓███████▀▀▀▀[0;36;45m▄▄▄▄▄▄▄▄██████▄▄[0m

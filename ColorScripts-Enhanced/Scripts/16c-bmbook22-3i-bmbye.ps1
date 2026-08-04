@@ -1,17 +1,4 @@
-﻿# Converted from: 3I-BMBYE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook22/raw/3I-BMBYE.ANS
-# Source Revision: archive-sha256:aec74908b08ab1e6eeb2617f04dd839f89321bd6f70d460ae94d73bdd51d69b6
-# Source SHA-256: cf2e911c82b2c82ab91338844b3b76336d976fca62fa0238ad6bf92a713e27fc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 3I-BMBYE.ANS by nitrifik (bmbook22); released in bmbook22 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Black Maiden promo
-# SAUCE Author: nitrifik
-# SAUCE Date: 20001113
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: Black Maiden promo by nitrifik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook22-3i-bmbye
 
 Write-Host '
 [1;30m██[0;1;30;47m▀▀▀▀█▀▀▀▀▀▀▀▀▀▀▀▀▀[0m██████████████████████████▀▀▀▀▀▀▀▀▀▀▀███████████████[1;30;47m▀▀▀▀▀▀[0m░░

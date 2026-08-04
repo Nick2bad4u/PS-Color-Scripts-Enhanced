@@ -1,15 +1,4 @@
-﻿# Converted from: 03-FINAL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/swap08/raw/03-FINAL.ANS
-# Source Revision: archive-sha256:5fdf1978a70e33a1d8cd1a5f981c737c643d6228b64c400ee82fc095c7a98367
-# Source SHA-256: 9dbb84eae90750fe2bb141665867c8757cce6465ac418afce95207246cdad55f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 03-FINAL.ANS by Black Viper + Widowmaker + Warpus + Sirdeath + Flame + Fluor (swap08); released in swap08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Date: 19961020
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: 03-FINAL.ANS by Black Viper + Widowmaker + Warpus + Sirdeath + Flame + Fluor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-swap08-03-final
 
 Write-Host '
                  [1m▀[0m

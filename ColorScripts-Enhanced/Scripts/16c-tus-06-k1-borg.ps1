@@ -1,13 +1,4 @@
-﻿# Converted from: K1-BORG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tus-06/raw/K1-BORG.ANS
-# Source Revision: archive-sha256:51b671f2cc7e9d00368c85bede9ec7f3ff4d004664f30443ced4184b66636a6b
-# Source SHA-256: cdaf98b095c5f15c447e020009948809c8201305731b8fd5cc069b7e3dc2376a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K1-BORG.ANS by Knocturnal (tus-06); released in tus-06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: K1-BORG.ANS by Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tus-06-k1-borg
 
 Write-Host '
                    [31m.[0;1;31m$$.[0m

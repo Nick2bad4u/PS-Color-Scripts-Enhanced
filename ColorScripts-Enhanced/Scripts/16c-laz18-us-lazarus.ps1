@@ -1,20 +1,4 @@
-﻿# Converted from: us-lazarus.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz18/raw/us-lazarus.ans
-# Source Revision: archive-sha256:32d30452c4c99022fae4fa2ce9a2923ef46629d3ff7dd35a972944a991699c1f
-# Source SHA-256: 80a2ac4d1939920b9f12e0d1ee351464bd2faba2f6108a6fe9a2175bbbdc6a62
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-lazarus.ans by Knocturnal + Warpus + Nitron (LAZARUS); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: LaZARUS
-# SAUCE Author: k1, n1, wa
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20230811
-# SAUCE Dimensions: 80x48
-# SAUCE Font: IBM VGA
-# SAUCE Comments: ascii outline by knoctural, first coat of paint by nitron, secon | d coat of paint by warpus
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: LaZARUS by Knocturnal + Warpus + Nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz18-us-lazarus
 
 Write-Host '
 

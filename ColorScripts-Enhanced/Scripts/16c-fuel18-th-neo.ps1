@@ -1,18 +1,4 @@
-﻿# Converted from: TH-NEO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel18/raw/TH-NEO.ANS
-# Source Revision: archive-sha256:7a2739e511667050683f7d648c4125b41da107e306c80c5430d3f835b8aa02d6
-# Source SHA-256: 1a97823410f5e84f5c4c16bb30fe01190b9265c71d556e64b7217aea9ab13a3e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH-NEO.ANS by thrasher (fuel); released in fuel18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: neosporin
-# SAUCE Author: thrasher
-# SAUCE Group: fuel
-# SAUCE Date: 19971102
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: neosporin by thrasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel18-th-neo
 
 Write-Host '
 [1;30;47m▓▓[0;1;30;40m█████▀[0;34m ▄[0;1;34;44m░[0;34m█▀░▄[0;1;34;44m▄▌█▀[0;34m█▀[0;37m [0;34m █[0;1;34;44m▄█▐▀[0;34m▌[0;37m [0;1;31m█[0;33m▌[0;1;34;44m░[0;34m▌[0;1;31m█[0;34m █░[0;1;31m▌[0m [34m█[0;1;34;47m▓▓[0;1;34;44m▓░[0m [33m▐▌[0;34m ▀█[0;1;34;44m▄▄▌▄▌[0;34m█▄ ▀[0;1;34;44m▐▄[0;34m█▄[0;37m [0;34m▀█[0;1;34;44m▄▌[0;34m█▄▄░░▀█▄ [0;1;30m▀[0m

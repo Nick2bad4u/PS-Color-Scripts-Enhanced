@@ -1,18 +1,4 @@
-﻿# Converted from: KT-DIGI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0496/raw/KT-DIGI.ANS
-# Source Revision: archive-sha256:be1a395f385261920c9bce8fb9a4a50e5287b1be7689ad97116617524efc6b52
-# Source SHA-256: 4050f3008e3d94223ff4bf78d1d585eb70eb6f813938ad17322ffc7e3e255996
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KT-DIGI.ANS by K-THuLu (MiSTiGRiS); released in mist0496 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: DiGiTRONiC LoGo
-# SAUCE Author: K-THuLu
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19940623
-# SAUCE Dimensions: 80x25
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: DiGiTRONiC LoGo by K-THuLu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0496-kt-digi
 
 Write-Host '
 

@@ -1,13 +1,4 @@
-﻿# Converted from: HX-RADIO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mgc-1293/raw/HX-RADIO.ANS
-# Source Revision: archive-sha256:45bbec2f0906ad9bc0771d111d85c95e9fe561ce099eb802af5b49039428a06f
-# Source SHA-256: 779c35be2ef94bc259488958cf252a91a45989b64b1d40751222a06d3f8991b5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HX-RADIO.ANS by Hoaks (mgc-1293); released in mgc-1293 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: HX-RADIO.ANS by Hoaks | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mgc-1293-hx-radio
 
 Write-Host '
 [30m┘┘┘┘┘┘┘┘┘┘┘┘   [0;1;37;47m█[0m          [30m┘┘┘┘┘┘┘┘┘┘┘┘┘[0;1;31;41m▒▓▓▓▓▓▓▓▓███[0m     [1;31;41m███▓▓▓▓▓▓▓[0;30m┘┘┘┘┘┘┘┘┘┘┘┘┘┘[0m

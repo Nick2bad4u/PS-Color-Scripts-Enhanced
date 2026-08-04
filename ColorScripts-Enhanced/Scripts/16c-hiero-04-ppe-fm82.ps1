@@ -1,18 +1,4 @@
-﻿# Converted from: PPE-FM82.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-04/raw/PPE-FM82.ANS
-# Source Revision: archive-sha256:fa04f9284176600bd187f5f89edb1d3f52550711ec8063377e14a2ec045346f2
-# Source SHA-256: b67c0cdf529930dd783a954453a3ce6f296d87b1f33562556fd046aab751fdf3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PPE-FM82.ANS by Propane (Hieroglyphics); released in hiero-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fuck Monkey
-# SAUCE Author: Propane
-# SAUCE Group: Hieroglyphics
-# SAUCE Date: 20001115
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Fuck Monkey by Propane | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-04-ppe-fm82
 
 Write-Host '
 [1;30m█[0;1;30;46m▓████[0;1;30;47m███[0;1;30;46m▓[0;1;30;47m███[0;1;30;46m█[0;1;30;47m█[0;1;30;46m██▓[0;1;30;40m█▀[0m [34m▄[0;1;34;44m░[0m ░[1;30;47m▓▓▓▓[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m█▀▀[0m [1;30m▀[0m░[1;30m█[0;1;30;47m▓[0;1;30;40m▀[0m░[1;30m▀▀[0;1;30;47m▓[0m░[1;30m▀[0m [1;30m▀▀[0m░[1;30;47m▓█▓▓▓▓[0m░  ░[1;30;47m██▓████[0;1;30;46m▓▓▓[0;1;30;47m██[0;1;30;46m▓[0;1;30;47m██▓███[0;1;30;46m▓[0m

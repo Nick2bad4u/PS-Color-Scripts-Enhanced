@@ -1,15 +1,4 @@
-﻿# Converted from: DT-4191.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0397/raw/DT-4191.ANS
-# Source Revision: archive-sha256:147f0608c1bd711b116f3ad049b80e805dfbb40e7d23ffce5f4580a5a57bae0f
-# Source SHA-256: 4cfd372e8eade4b4c759a37abde0bd35842839882ae1bced9f8e4bdc993143b8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-4191.ANS by Defiant (root0397); released in root0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: 419
-# SAUCE Author: Defiant
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: 419 by Defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0397-dt-4191
 
 Write-Host '
           [33m▐▄▄▄[0;1;33;43m░░ [0;33m▄▄■ ▀   [0;31m■   [0;33m■▄▄ ▄[0m      [33m░░▄▄   [0;31m■   [0;1;31m▀▀██▄▄ [0;33m▀▀[0;30;43m░[0;33;40m██[0;1;33;43m░░[0;33m█▄▓▄[0m

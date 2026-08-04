@@ -1,18 +1,4 @@
-﻿# Converted from: JDA_URGE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/drg1196/raw/JDA_URGE.ANS
-# Source Revision: archive-sha256:181b168e4595979af645a73e69f713a0515ac38fe1b9395a73af1dbb64b39971
-# Source SHA-256: 500408b93162fe07e39cf92280f0c554cc34a6ef4ff522765495be5ee390f2d0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JDA_URGE.ANS by Joda (Deranged); released in drg1196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: urge.soda
-# SAUCE Author: Joda
-# SAUCE Group: Deranged
-# SAUCE Date: 19961023
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: urge.soda by Joda | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-drg1196-jda-urge
 
 Write-Host '
 [1;31;47m▒▓[0;1;31;40m██[0;1;31;43m███[0;1;31;47m▓▒▓[0;1;31;43m████████[0;1;31;47m▓▒▓[0;1;31;43m███████[0;1;31;47m▓[0;1;31;43m███▀█████▀▀▀▀[0;33m▄▀[0;1;31;43m▀▀[0;33m██ ▄█[0;1;31;43m███[0;1;31;47m▓[0;1;31;43m██████[0;1;31;47m▓[0;1;31;43m██[0;1;31;40m▀[0;1;33;40m ▄[0m  [1;34m░[0m [1;33m█▄░[0m  [1;33m▄███[0m

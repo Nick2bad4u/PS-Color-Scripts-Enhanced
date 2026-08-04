@@ -1,13 +1,4 @@
-﻿# Converted from: TG-TFUG.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9409a/raw/TG-TFUG.ICE
-# Source Revision: archive-sha256:a92227369d28f50cbc2bfd487ba80600635ab872d2f29d81a7af3d04a31fd498
-# Source SHA-256: 8ce823a7f346f9a0a24fb3b24e5f1b40bff2fe1c36da9be1c9b2772813c0bc21
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TG-TFUG.ICE by Toon Goon (ice9409a); released in ice9409a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: TG-TFUG.ICE by Toon Goon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9409a-tg-tfug-part01
 
 Write-Host '
 [34m██████████████████████████████████████████████████████████████████████▀▀▀▀██████[0m

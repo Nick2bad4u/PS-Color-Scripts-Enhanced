@@ -1,18 +1,4 @@
-﻿# Converted from: RR-ASY2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blend06/raw/RR-ASY2.ANS
-# Source Revision: archive-sha256:bdb12df6fb66b6e7f7ab1240c15e9b23d66b94ced69828c85c717709162a24eb
-# Source SHA-256: 19b944dc4969bea83f486bb37ff046f1b0fadb2f755a9bfd2c466d189600591d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RR-ASY2.ANS by riddler (blend productions); released in blend06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the asylum
-# SAUCE Author: riddler
-# SAUCE Group: blend productions
-# SAUCE Date: 19970125
-# SAUCE Dimensions: 80x14
-# Lines: 1-14
-# Columns: 1-80
+﻿# Artwork: the asylum by riddler | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blend06-rr-asy2
 
 Write-Host '
                                     [31m ▄ [0m          [37m    [0m

@@ -1,19 +1,4 @@
-﻿# Converted from: NI-WAPP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0424/raw/NI-WAPP.ANS
-# Source Revision: archive-sha256:d1bad4307edc4d5552b23ae4adea805150573b7a14b0c9ddfbd988a286da0bf3
-# Source SHA-256: 978f818dc007730fa577caf0e414c334bb9989ea1c9ae2afe504060c54812dfc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NI-WAPP.ANS by nitron (mist); released in mist0424 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: windward approach
-# SAUCE Author: nitron
-# SAUCE Group: mist
-# SAUCE Date: 20230824
-# SAUCE Dimensions: 80x27
-# SAUCE Font: IBM VGA
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: windward approach by nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0424-ni-wapp
 
 Write-Host '
   [1m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

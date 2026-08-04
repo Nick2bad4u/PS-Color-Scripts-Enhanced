@@ -1,18 +1,4 @@
-﻿# Converted from: SG-TA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twi-9703/raw/SG-TA1.ANS
-# Source Revision: archive-sha256:b6ebf481c44b185a1c150040ffbddc55b07e74778f21dcd37a35c4b6036ac90c
-# Source SHA-256: 3b9a018d25938579d528a500b5a26da5f4bdc3bb9bc90049dfef562163161351
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SG-TA1.ANS by Snake Grunger (Twilight); released in twi-9703 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Thin Air
-# SAUCE Author: Snake Grunger
-# SAUCE Group: Twilight
-# SAUCE Date: 19970310
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Thin Air by Snake Grunger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twi-9703-sg-ta1
 
 Write-Host '
 [1;30;47m▀[0;1;33;47m            [0m█[1;30;47m▀[0;1;30;40m▄[0;34m░░░▒░▒▓▓▓█▓███████▓█▓▓▒▒░░▄▄[0;1;34m▄[0;1;34;44m▄▄██▀▀[0;34m▀ ▀██▀▀▓░ ▄[0;1;34m [0;34m░▓█▓█[0;1;34;44m░░░ ░[0;34m████▓▒[0m

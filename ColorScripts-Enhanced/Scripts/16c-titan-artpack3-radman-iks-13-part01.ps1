@@ -1,19 +1,4 @@
-﻿# Converted from: radman&iks-13.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/titan-artpack3/raw/radman%26iks-13.ans
-# Source Revision: archive-sha256:7a38999f8e9fb11d8eb7f21866278677e39c97072413abd68c6b28c2088a7208
-# Source SHA-256: bfbf969ac10e3038331861ea7d7052eb60853c032dd11454006fd9bfee328471
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: radman&iks-13.ans by Irokos + Rad Man (ACiD Productions); released in titan-artpack3 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: thirteen (remix)
-# SAUCE Author: RaD Man + irokos
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 20131207
-# SAUCE Dimensions: 80x51
-# SAUCE Comments: an alternate take on "11" by ANT, originally released as part | of blocktronics_acid_trip\we-COUNTDOWN.ANS.
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: thirteen (remix) by Irokos + Rad Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-titan-artpack3-radman-iks-13-part01
 
 Write-Host '
                                         [1;32m▄ ■■[0;32m▀▀[0;1;32m■ ▄[0;32m▄[0m

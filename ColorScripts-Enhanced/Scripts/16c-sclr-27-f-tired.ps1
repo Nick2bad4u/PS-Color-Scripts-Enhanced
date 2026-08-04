@@ -1,18 +1,4 @@
-﻿# Converted from: F-TIRED.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-27/raw/F-TIRED.ANS
-# Source Revision: archive-sha256:268d6733492cd762a602dad2d82b4950aab62a1c27ccd388f9e4fd4220a519e2
-# Source SHA-256: 43be2c42c96c01133a776ef4f89fd2b2aad57f2b7a11d8abd2b5232d5e61c471
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: F-TIRED.ANS by fY0d'r (secular); released in sclr-27 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: I'm tired...
-# SAUCE Author: fY0d'r
-# SAUCE Group: secular
-# SAUCE Date: 20020511
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: I'm tired... by fY0d'r | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-27-f-tired
 
 Write-Host '
                  [34m▄▄[0m

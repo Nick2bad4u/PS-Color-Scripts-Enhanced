@@ -1,18 +1,4 @@
-﻿# Converted from: LM-ELD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-07/raw/LM-ELD.ANS
-# Source Revision: archive-sha256:3007ab392a2ea4e107d02b3029b445696a097ac55d389caab2dbfe0944556beb
-# Source SHA-256: 5a13c4aad03882f68c9cbcefeff64e898b4048b2d54e750e42cfb4593f5f4ede
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LM-ELD.ANS by laGoMORPH (eclipse); released in ecl-07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: elDORADO
-# SAUCE Author: laGoMORPH
-# SAUCE Group: eclipse
-# SAUCE Date: 19960915
-# SAUCE Dimensions: 80x12
-# Lines: 1-12
-# Columns: 1-80
+﻿# Artwork: elDORADO by laGoMORPH | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-07-lm-eld
 
 Write-Host '
 [1;31m████████████████████▀▀▀▀▀[0;1;31;41m▀[0;1;31;40m█████████[0;1;31;41m▌[0m [1;30m▄▄▄[0m  [31m▀▀[0;1;31m▀▀[0;1;31;41m▀[0;1;31;40m███████████████▌[0m

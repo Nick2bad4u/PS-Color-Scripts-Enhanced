@@ -1,13 +1,4 @@
-﻿# Converted from: TSK-GENO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-05/raw/TSK-GENO.ANS
-# Source Revision: archive-sha256:00017ea77a556a0e8fa8903f908ba8848ddc89ac19675ccac8aee269ef1bbdb5
-# Source SHA-256: 123ec83395ee21304946cefd34cd4eb191df628c2bd805197e6e7955a78d0703
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-GENO.ANS by The Silent Killer (odium-05); released in odium-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: TSK-GENO.ANS by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-05-tsk-geno
 
 Write-Host '
 

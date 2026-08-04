@@ -1,18 +1,4 @@
-﻿# Converted from: RG-OP#2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uni-0595/raw/RG-OP%232.ANS
-# Source Revision: archive-sha256:1478f8c7d5db04e992c19b5f9ae4c1c658dfc070a60d6f0748aa57a73bab460e
-# Source SHA-256: 0041c2d42cbedeba0fddaafbdd501956a8c972cb1505faca528241f48c5b1b59
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RG-OP#2.ANS by Rimgale (Union); released in uni-0595 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Obscene Phobia #2
-# SAUCE Author: Rimgale
-# SAUCE Group: Union
-# SAUCE Date: 19950501
-# SAUCE Dimensions: 80x25
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Obscene Phobia #2 by Rimgale | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uni-0595-rg-op-2
 
 Write-Host '
 

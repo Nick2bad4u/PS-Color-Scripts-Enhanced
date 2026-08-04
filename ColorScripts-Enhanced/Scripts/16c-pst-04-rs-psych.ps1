@@ -1,18 +1,4 @@
-﻿# Converted from: RS-PSYCH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pst-04/raw/RS-PSYCH.ANS
-# Source Revision: archive-sha256:f6efaa91b271a597917b36d55f7ff3e2a4848f36d9f7d6bc0f43e631f99045c0
-# Source SHA-256: 05ed4175b609f2663f8b3d2850ede05dcf7e4f3d92e4cafa92e666850dcc0453
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RS-PSYCH.ANS by rorshack (maiden brazil); released in pst-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: psychotic revolution
-# SAUCE Author: rorshack
-# SAUCE Group: maiden brazil
-# SAUCE Date: 19980705
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: psychotic revolution by rorshack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pst-04-rs-psych
 
 Write-Host '
                 [35m██▄[0m

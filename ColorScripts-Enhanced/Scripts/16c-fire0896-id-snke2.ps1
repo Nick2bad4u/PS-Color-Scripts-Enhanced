@@ -1,17 +1,4 @@
-﻿# Converted from: ID-SNKE2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire0896/raw/ID-SNKE2.ANS
-# Source Revision: archive-sha256:f9cf2b2d2bbd2b43295b2db0288f290749703458f413700d0129369379a58bf6
-# Source SHA-256: 09542d17ea275cef7604dd5f78bfeea8d8a4e9f8627c4e063f525a162d54cb17
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ID-SNKE2.ANS by iodine (Fire); released in fire0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Snake's Domain
-# SAUCE Author: iodine
-# SAUCE Group: Fire
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: The Snake's Domain by iodine | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire0896-id-snke2
 
 Write-Host '
                      ▐▄       [31m█▄▄[0m                     [37m▄[0m

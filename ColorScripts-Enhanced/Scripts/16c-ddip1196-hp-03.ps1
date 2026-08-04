@@ -1,13 +1,4 @@
-﻿# Converted from: HP-03.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ddip1196/raw/HP-03.ANS
-# Source Revision: archive-sha256:c2477a6ae50796566abddfa2870c440511b1266fe5f1eb8f614027b16fe779be
-# Source SHA-256: b163079defcbcde50e27b538497e690cce460a7c49fa9d0713f1134a0b37b26e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HP-03.ANS by Hyper (ddip1196); released in ddip1196 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: HP-03.ANS by Hyper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ddip1196-hp-03
 
 Write-Host '
 

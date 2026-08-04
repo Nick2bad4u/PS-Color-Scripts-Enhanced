@@ -1,18 +1,4 @@
-﻿# Converted from: US-GLUEY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/jasper08/raw/US-GLUEY.ANS
-# Source Revision: archive-sha256:4170bc28a3d93b55b5d7813a9078fa917029de207cfcf794080d34d8f6ddd97e
-# Source SHA-256: 67b7f36b52d1a85b6e58df6c41dc4d998047aed3fe3d749154de692d186a14d5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-GLUEY.ANS by Cryogenic + Spear (jasper); released in jasper08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: glue
-# SAUCE Author: cryogenic/spear
-# SAUCE Group: jasper
-# SAUCE Date: 19990702
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: glue by Cryogenic + Spear | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-jasper08-us-gluey
 
 Write-Host '
                            [1;30m▐[0m

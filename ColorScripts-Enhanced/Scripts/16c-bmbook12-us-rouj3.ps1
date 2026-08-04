@@ -1,18 +1,4 @@
-﻿# Converted from: US-ROUJ3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook12/raw/US-ROUJ3.ANS
-# Source Revision: archive-sha256:ec66f5bb4ed961133c52314c375d67af30a5295789eb6bfc6eda91ebf8999fc2
-# Source SHA-256: 8a557e09e3bbc868303412889127f257d942acaca3d527aad6d6d54ddb13ea67
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ROUJ3.ANS by Avenger + Toot (black maiden); released in bmbook12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: roujin x menu
-# SAUCE Author: ave + toot
-# SAUCE Group: black maiden
-# SAUCE Date: 19970116
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: roujin x menu by Avenger + Toot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook12-us-rouj3
 
 Write-Host '
 [1;33;43m░░   ░░▓▓[0;1;33;40m▄[0;1;37;40m▄▄▄▄▄[0;1;33;40m▄▄▄[0;33m▄▄[0;1;31m▄▄[0;33m▄▄[0;1;33m▄▄[0;33m▄▄▄▄▄▄▄▄[0;1;31m▄▄░░[0m        [1;33;43m█[0;1;37;43m██[0;1;33;43m██▓▓░░[0;33m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;1;31m▄[0;33m▄[0;1;31m▄▄▄▄▄[0m

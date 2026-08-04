@@ -1,13 +1,4 @@
-﻿# Converted from: IS^PHAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phar0996/raw/IS%5EPHAR.ANS
-# Source Revision: archive-sha256:a110fe168ec83f56158fe99c92124ea58d0884131cba0cb1f746e5e809cd3ac5
-# Source SHA-256: c0b56ec65595e6fcd4e2f9d1cf0ede69b7c048624a6ff5cc36f9a7950d385951
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IS^PHAR.ANS by Is (phar0996); released in phar0996 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-16
-# Columns: 1-80
+﻿# Artwork: IS^PHAR.ANS by Is | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phar0996-is-phar
 
 Write-Host '
                                                             [1;30m [0m

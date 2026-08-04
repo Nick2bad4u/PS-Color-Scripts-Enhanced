@@ -1,18 +1,4 @@
-﻿# Converted from: HRC-DTC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph1097/raw/HRC-DTC.ANS
-# Source Revision: archive-sha256:b6e257eb8371584ca5ade8b8a0fc4c2ec6d13bf6072ac7a83b43c3c01e88e287
-# Source SHA-256: 1cc6c9dbefb0ef7fa3b0f98361abb824665ad6d2ed6e841fefdad47793ca7a92
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HRC-DTC.ANS by .s$ hURRICANE $s. (.s$ nITROPHUSION $s.); released in nph1097 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: .s$ dTC^lOGO^aNSI $s.
-# SAUCE Author: .s$ hURRICANE $s.
-# SAUCE Group: .s$ nITROPHUSION $s.
-# SAUCE Date: 19970808
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: .s$ dTC^lOGO^aNSI $s. by .s$ hURRICANE $s. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph1097-hrc-dtc
 
 Write-Host '
 [1;30m-------[   ^    ]-------[lOGO^dTC^               ]----------------------------[0m

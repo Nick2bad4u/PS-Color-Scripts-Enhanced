@@ -1,18 +1,4 @@
-﻿# Converted from: US-EPT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-16/raw/US-EPT.ANS
-# Source Revision: archive-sha256:b44675c14d0a6b8706358886e9a05961468006b6ae7257eede82583c6468b7b5
-# Source SHA-256: 494e80097f4e65159821b44dbc42378ed8d4ffca9ece1fbf6d7f31b35ec20cd7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-EPT.ANS by Retribution + Mr Plastik (GLUEZ0R!@); released in glue-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: epitome
-# SAUCE Author: ret/mrp
-# SAUCE Group: GLUEZ0R!@
-# SAUCE Date: 19981130
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: epitome by Retribution + Mr Plastik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-16-us-ept
 
 Write-Host '
     [35m ░[0m              [35m                     [0m                               [1;35;45m▄[0;35m▄[0m

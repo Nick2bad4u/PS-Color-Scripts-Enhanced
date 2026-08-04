@@ -1,18 +1,4 @@
-﻿# Converted from: GJ-GESE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-36/raw/GJ-GESE.ANS
-# Source Revision: archive-sha256:bf477dfe5f73a7addcb3cfde3273a28cc631116bf697d10a376cdba3af8b6c78
-# Source SHA-256: 8f04d3c53bffad9adc97b1dc8d6f1bcb7302d6c5d6867979d108678b816597cb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GJ-GESE.ANS by grymmjack (gj!) (GLUE); released in glue-36 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: genesis engine - sauce editor
-# SAUCE Author: grymmjack (gj!)
-# SAUCE Group: GLUE
-# SAUCE Date: 20010613
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: genesis engine - sauce editor by grymmjack (gj!) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-36-gj-gese
 
 Write-Host '
 [1;37m [0;1;32m░█[0;1;37m██[0;1;32m█[0;1;37m█[0;1;32m█▓[0m [32m▄[0;1;32m█[0;1;37m███▓[0;1;32m░[0;1;37;42m▐[0;1;37;40m██[0;1;32;40m▌[0m [1;32;42m▐[0;1;37;40m█[0;1;32;40m█░[0;32m▄[0;1;32;42m▄[0;1;37;40m███[0;1;32;40m█[0;1;37;40m█[0;1;32;40m█[0;32m░[0;1;32m▓███[0;1;37m█[0;1;32m██▀[0;32m▀[0;1;37m [0;33m▓▓█[0;1;33;43m░▒[0;33m  [0;36m [0;33m▀▀[0;1;33m░[0;36m [0;37m [0;1;30m [0;33m▓▓[0;37m [0;33m▓[0;1;33;43m░[0m  [33m▓▓█[0;1;33;43m░▒[0;1;30;40m ▒▒[0m [33m▓▓█[0;1;33;43m░▒[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: VN-SAC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wind0195/raw/VN-SAC.ANS
-# Source Revision: archive-sha256:5b43f6b448165807ca10541f72295732684c4ffaba57fa200380cfc1d53164e9
-# Source SHA-256: f4e51652752521f795fafe02627a0ec21944d9dd807a9c2808fcebf1d193d0a4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VN-SAC.ANS by VEiN (WiND `95); released in wind0195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: SACRiFiCE
-# SAUCE Author: VEiN
-# SAUCE Group: WiND `95
-# SAUCE Date: 19950101
-# SAUCE Dimensions: 80x25
-# Lines: 47-89
-# Columns: 1-80
+﻿# Artwork: SACRiFiCE by VEiN | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wind0195-vn-sac-part02
 
 Write-Host '
 [33m█▓█[0m      [33m▄▀▄▓[0m                                [32m▄██[0m                    [33m▄▀▀▀ ██  █▓▀[0m

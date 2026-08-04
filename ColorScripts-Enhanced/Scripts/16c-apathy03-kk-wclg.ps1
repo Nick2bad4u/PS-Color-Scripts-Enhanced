@@ -1,17 +1,4 @@
-﻿# Converted from: KK-WCLG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy03/raw/KK-WCLG.ANS
-# Source Revision: archive-sha256:a3a53ea79bcbcd57bc05c6d80b9369444063e81f9dc4053225ede5f60d209f4b
-# Source SHA-256: 4f7440cc427e09fc58a0f07b613c31c50a5bbb89778f3713464e31078b76491f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KK-WCLG.ANS by Kamikaze (apathy03); released in apathy03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Warped Corpse login
-# SAUCE Author: Kamikaze
-# SAUCE Date: 19951106
-# SAUCE Dimensions: 80x23
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Warped Corpse login by Kamikaze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy03-kk-wclg
 
 Write-Host '
 

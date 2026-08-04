@@ -1,13 +1,4 @@
-﻿# Converted from: HSP-EOTS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stn-0694/raw/HSP-EOTS.ANS
-# Source Revision: archive-sha256:4c8e37c66b835baca79e74bc79185978c23ee1f7bbf4f4b44acaae103185c81d
-# Source SHA-256: 530e6a2f84454a4c5c7c3801c81da5408dd9de53f599dcc399fddb316f4182be
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HSP-EOTS.ANS by Hellspawn (stn-0694); released in stn-0694 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: HSP-EOTS.ANS by Hellspawn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stn-0694-hsp-eots
 
 Write-Host '
 [34m░░░░░  [0;31m░▒██████████▓██▒███████████▒ [0;34m░░░░░░▒▒▒░ ░░  [0;1;35m▄▄ ▄  ▄  ▄▄[0m      [1;35m▄▄  ▄▄▄  [0;34m░░░[0m

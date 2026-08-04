@@ -1,18 +1,4 @@
-﻿# Converted from: NM-12.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9608/raw/NM-12.ANS
-# Source Revision: archive-sha256:28795cb401df281ef6294233e2af12663ffb83dc390b0bfbadecb49834e6c017
-# Source SHA-256: c5780f68b44f196f9068486e1ecdb913e87722beaffebf359a4790e1df7e9130
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NM-12.ANS by NUMB (SAMSARA); released in sms-9608 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: BRAND 12
-# SAUCE Author: NUMB
-# SAUCE Group: SAMSARA
-# SAUCE Date: 19960803
-# SAUCE Dimensions: 80x46
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: BRAND 12 by NUMB | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9608-nm-12
 
 Write-Host '
                                                  [31m░▒▓███[0;30;41ma Samsara Production ··[0;31;40m█[0m

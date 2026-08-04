@@ -1,20 +1,4 @@
-﻿# Converted from: LDA-CAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1022/raw/LDA-CAT.ANS
-# Source Revision: archive-sha256:b4cfb070b10229c71b6cdba49fff141c03f4ad9e6e51a5ef68dfa1930822da97
-# Source SHA-256: 550daa5d23fb70f2246a811745854af78317e93b116a4451b8bb6955643d4d9c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LDA-CAT.ANS by LDA (Mistigris); released in mist1022 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: cat
-# SAUCE Author: LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20221029
-# SAUCE Dimensions: 80x55
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Our resident cat fan has lost his faith in what shambles are lef | t of the scene. The only thing to cure his calloused heart is ca | t pix.
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: cat by LDA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1022-lda-cat-part01
 
 Write-Host '
 [33m████████████████████████████████████████████████████████████████████████████████[0m

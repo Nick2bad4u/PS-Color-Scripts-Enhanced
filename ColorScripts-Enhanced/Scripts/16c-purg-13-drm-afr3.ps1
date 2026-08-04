@@ -1,13 +1,4 @@
-﻿# Converted from: DRM-AFR3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/purg-13/raw/DRM-AFR3.ANS
-# Source Revision: archive-sha256:c96e8204cdf1a3103513e07eb0d1ba369137dfc5e9ab833b936ceec1296a9193
-# Source SHA-256: c269b73ff061f65a0f27ad440f7a889992fb8b4459e01d924f595e8f10972431
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DRM-AFR3.ANS by Dorm (purg-13); released in purg-13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: DRM-AFR3.ANS by Dorm | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-purg-13-drm-afr3
 
 Write-Host '
 [34m▄█[0;1;34;44m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;34m▄▄[0;1;34m [0;1;34;44m▐▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0;34m█[0m

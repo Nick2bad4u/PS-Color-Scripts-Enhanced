@@ -1,18 +1,4 @@
-﻿# Converted from: SRB-VS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-19/raw/SRB-VS.ANS
-# Source Revision: archive-sha256:5db920b83a3d2deae70007fef864eaf90b16afc8ee0c266a7d96e4a7d2554feb
-# Source SHA-256: a6e7db8c035687dcf2faae77ac155df74d18f1b30b14c83aa900c5cc7c9faa81
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SRB-VS.ANS by Sketch Rimanez'01 (/bcn/sclr); released in sclr-19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Versus
-# SAUCE Author: Sketch Rimanez'01
-# SAUCE Group: /bcn/sclr
-# SAUCE Date: 20010524
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Versus by Sketch Rimanez'01 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-19-srb-vs
 
 Write-Host '
 [1;32;42m$$$$$$$$$$[0;1;33;42m$$$$$$$$$$$$[0;1;32;42m$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[0;1;36;46m$$$$$$╛$$$$$$$$$$$$$$$$$$[0m

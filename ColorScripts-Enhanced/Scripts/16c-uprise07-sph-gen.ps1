@@ -1,17 +1,4 @@
-﻿# Converted from: SPH_GEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise07/raw/SPH_GEN.ANS
-# Source Revision: archive-sha256:e9fb6933d41a936134d4f2611eadee07355a10c1a02cff6221e1c572c3d24d6d
-# Source SHA-256: 2b194749850ce90ded4d9674b8c000748ea29deff63c4a152c54e4576f39bbe0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SPH_GEN.ANS by seph (genuineeeee); released in uprise07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: seph
-# SAUCE Group: genuineeeee
-# SAUCE Date: 19980813
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: SPH_GEN.ANS by seph | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise07-sph-gen
 
 Write-Host '
                                                            [30;43m▓[0;33;40m▄[0m

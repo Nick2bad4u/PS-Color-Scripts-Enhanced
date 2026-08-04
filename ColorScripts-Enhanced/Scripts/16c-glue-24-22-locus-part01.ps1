@@ -1,18 +1,4 @@
-﻿# Converted from: 22-LOCUS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-24/raw/22-LOCUS.ANS
-# Source Revision: archive-sha256:4ba1f499e1a6e81bad8d23a49c9f592b52fb39aaf053093edda57035a78ff770
-# Source SHA-256: e35b509e67fa789fd6136a3d9d6bea3bbb93b896c9219b7345aafa51c56fc140
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 22-LOCUS.ANS by catch22 (glue); released in glue-24 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: locus art group promo
-# SAUCE Author: catch22
-# SAUCE Group: glue
-# SAUCE Date: 19990719
-# SAUCE Dimensions: 80x58
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: locus art group promo by catch22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-24-22-locus-part01
 
 Write-Host '
 [34m ▄ ░[0;1;34;44m ▄▄██[0;1;34;47m▓▓▓▓▓[0;1;34;44m███▀[0;34m▀[0m                                                   [34m▀██[0;1;34;44m▓███[0;1;34;40m█[0;1;34;47m██[0m

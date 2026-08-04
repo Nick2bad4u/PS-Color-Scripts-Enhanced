@@ -1,16 +1,4 @@
-﻿# Converted from: TR-MEAN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/simple01/raw/TR-MEAN.ANS
-# Source Revision: archive-sha256:f239ae63af8de8d7c0a7396fa03b035c6f17198d9fcc3da9afa7999562a52024
-# Source SHA-256: 22cdd3f6b0a51e1c6847ad879008c5d4c99dd2662e689d6b13c77be80973d899
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TR-MEAN.ANS by terrato (simple01); released in simple01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Author: terrato
-# SAUCE Date: 19961216
-# SAUCE Dimensions: 80x43
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: TR-MEAN.ANS by terrato | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-simple01-tr-mean
 
 Write-Host '
 [33m$$''[0;1;31;40m,½$$$P"$P²4$$$$$$$$$,`$½g,`$$$$$$Qg,`P²,$$$$$$P²²""`,gQ$$$$P"`,$$$$$i$$b,[0;33;40m`$$$[0m

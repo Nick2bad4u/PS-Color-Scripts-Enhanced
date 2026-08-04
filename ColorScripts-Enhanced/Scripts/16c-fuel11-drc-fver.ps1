@@ -1,18 +1,4 @@
-﻿# Converted from: DRC-FVER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel11/raw/DRC-FVER.ANS
-# Source Revision: archive-sha256:bc01376bbeb692c1fce16796b92a6fd889f89dbf4c55eb291719d5ea3fd5846c
-# Source SHA-256: e97a2a5c4108f48a96a6f2f44a7c93a80f85d031cb6fe8c55b0dae353f23f3d3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DRC-FVER.ANS by Drc (Fuel); released in fuel11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Fever
-# SAUCE Author: Drc
-# SAUCE Group: Fuel
-# SAUCE Date: 19970202
-# SAUCE Dimensions: 80x29
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Fever by Drc | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel11-drc-fver
 
 Write-Host '
                          [33m▄▄[0;1;33;43m░[0;33;40m▄[0m

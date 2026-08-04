@@ -1,18 +1,4 @@
-﻿# Converted from: HS-SCRM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nland-04/raw/HS-SCRM.ANS
-# Source Revision: archive-sha256:eab686fd42219ed6c9add6a2f7726008adc5ca3e06c5f87a076203c52842513d
-# Source SHA-256: 69d81787c9efae095fe7095910fb8eb2673369418a33fd0e70aa8404ce78a98c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HS-SCRM.ANS by Han Solo (NeveRLanD People); released in nland-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Caricatura de la PCJUEGOS ;)
-# SAUCE Author: Han Solo
-# SAUCE Group: NeveRLanD People
-# SAUCE Date: 19960202
-# SAUCE Dimensions: 80x40
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Caricatura de la PCJUEGOS ;) by Han Solo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nland-04-hs-scrm
 
 Write-Host '
 [30;46m███[0;1;30;46m█[0;30;46m██[0;1;30;40m█[0;30;46m███[0;1;30;40m██[0;30;46m█[0;1;30;40m██[0;30;46m█[0;1;30;40m██[0;30;46m███[0;1;31;40m██[0;30;46m██[0;1;30;40m█[0;30;46m█[0;1;31;40m█████████████▀████████████████▌[0;1;30;40m▀▀▀▀▀▀▄▄▄▄▀▀[0;30;46m▄▄▄       [0m

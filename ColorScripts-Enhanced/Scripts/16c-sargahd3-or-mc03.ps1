@@ -1,18 +1,4 @@
-﻿# Converted from: OR -MC03.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sargahd3/raw/OR%C2%A0-MC03.ANS
-# Source Revision: archive-sha256:d4be65be862c17debbed01c060fb85aadbdbe00a8282836fa25f3f46073f618d
-# Source SHA-256: 4edc6ba48cfe5511222e06c53e6a3fc57da01728e621aace741397edddd25cb1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OR -MC03.ANS by outraider (fbk.sargahd); released in sargahd3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: velocity login matrix
-# SAUCE Author: outraider
-# SAUCE Group: fbk.sargahd
-# SAUCE Date: 19970211
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: velocity login matrix by outraider | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sargahd3-or-mc03
 
 Write-Host '
 [30;46m▓▓▒▒░░[0;36;40m██[0;1;36;46m▄▄[0;36m█▀▀▀▀█[0;1;36;46m▄▄▄░░ [0;36m▀▀▀[0;37m [0;34m▄▄▀▀▀[0;1;30mor[0m        [35m▄[0;37m [0;35m░[0;30;45m▓▓[0;37;40m [0;1;33;40m▄[0;1;37;40m▄▄▄[0;1;33;40m▄▄▄[0;33m [0;37m [0;33m  [0;1;33m▄[0;1;37m▐▄[0;1;33m▄[0;33m▄[0;37m [0;33m▄[0;1;37m▄[0;1;33m▄▄[0m [1;33m▄▄▄▄[0;1;37m▄[0;1;33m▄[0;33m▄[0m

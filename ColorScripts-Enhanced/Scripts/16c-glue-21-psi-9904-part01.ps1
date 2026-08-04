@@ -1,18 +1,4 @@
-﻿# Converted from: PSI-9904.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-21/raw/PSI-9904.ANS
-# Source Revision: archive-sha256:f82ee46d8be1d82ea17d8bdc07ad3071d4259c4331c1829c972b5ae2082ebcd2
-# Source SHA-256: 54f34d00e5de634158f2543c9db1171df70c78ef356a5a5dab8f87f7bf0d8b80
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PSI-9904.ANS by Psidream (Glue); released in glue-21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Logo Colly (April, 1999)
-# SAUCE Author: Psidream
-# SAUCE Group: Glue
-# SAUCE Date: 19990429
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Logo Colly (April, 1999) by Psidream | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-21-psi-9904-part01
 
 Write-Host '
 [1;30m------------------------------------------------------------------------------- [0m

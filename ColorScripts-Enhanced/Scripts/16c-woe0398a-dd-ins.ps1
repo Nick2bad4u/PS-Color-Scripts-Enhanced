@@ -1,18 +1,4 @@
-﻿# Converted from: DD-INS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/woe0398a/raw/DD-INS.ANS
-# Source Revision: archive-sha256:feef6c5067150fcb3afb8e1031cbd84508116073dc31e796c2f896be6ffc96b0
-# Source SHA-256: 38f409731f2c282ade8b825b0f8211926b93495b7c3be0c7aded7d338ade49fa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-INS.ANS by dopedemon (woe); released in woe0398a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ins4ne...
-# SAUCE Author: dopedemon
-# SAUCE Group: woe
-# SAUCE Date: 19980222
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: ins4ne... by dopedemon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-woe0398a-dd-ins
 
 Write-Host '
 [35m░[0;30;45m▓[0;35;40m░░[0;1;31;40m  [0;35m░[0;1;31m                   [0;33m▄[0;1;31;43m [0;33m▄[0;1;31m▄[0;33m▄▄▄▄▄▄▄▌▄[0;1;31m                [0m

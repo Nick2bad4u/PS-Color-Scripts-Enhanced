@@ -1,18 +1,4 @@
-﻿# Converted from: US-Z2XUL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/epic0001/raw/US-Z2XUL.ANS
-# Source Revision: archive-sha256:469e19c85e17e735160f218c31263c528e0f299d68abc25979191060f709ef80
-# Source SHA-256: da3a087083ca182af7bd95acaa6ea1255d6abda684937949c0852f601a3f7fec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-Z2XUL.ANS by Alla Xul + Zeus Ii (epic/bhood); released in epic0001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: epic girl
-# SAUCE Author: alla xul/zeusII
-# SAUCE Group: epic/bhood
-# SAUCE Date: 19990531
-# SAUCE Dimensions: 80x25
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: epic girl by Alla Xul + Zeus Ii | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-epic0001-us-z2xul-part01
 
 Write-Host '
                                         [1;30m░[0m▄▓▓▓▓ ▄[1;37;47m░░[0m▓▓[1;37;47m░[0;1;37;40m▓▓[0m█ ▓▓▓▌[1;37m▓[0;1;37;47m▓[0;1;37;40m█▓[0;1;37;47m░[0;1;37;40m▒[0;1;37;47m░░[0m▄▀[1;30;47m░[0m▓▒▒[1;30m░░░░░[0m

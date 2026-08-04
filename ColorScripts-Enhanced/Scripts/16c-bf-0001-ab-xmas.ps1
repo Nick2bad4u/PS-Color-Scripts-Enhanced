@@ -1,13 +1,4 @@
-﻿# Converted from: AB-XMAS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bf-0001/raw/AB-XMAS.ANS
-# Source Revision: archive-sha256:f87c681397f7629e21dfde6076f0268fb0600aaf1c035b583393117fe27b1134
-# Source SHA-256: 3cf04796b22f1c94912baf0428b3d362c29012866c764149658b0d6e390cdc84
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AB-XMAS.ANS by Acid Brain (bf-0001); released in bf-0001 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: AB-XMAS.ANS by Acid Brain | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bf-0001-ab-xmas
 
 Write-Host '
                         [1;30m                        [0m

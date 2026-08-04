@@ -1,13 +1,4 @@
-﻿# Converted from: DIE-WL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-zxica/raw/DIE-WL2.ANS
-# Source Revision: archive-sha256:098212bcd3fc250902be7ae08340a23e99b29f8fa69fe7b4990238a6d402d1f6
-# Source SHA-256: cad215d505448c3dafb666bd43791913a482f7f9e601600487f3d31c6e4613ab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DIE-WL2.ANS by Dieznyik (k-zxica); released in k-zxica and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: DIE-WL2.ANS by Dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-zxica-die-wl2
 
 Write-Host '
 [31m/[0;1;37m.[0;31m\[0m     [31m [0m                          [37m▄[0;30;47m░[0;37;40m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: RG&4O!SU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0297/raw/RG%264O!SU.ANS
-# Source Revision: archive-sha256:ebdb3432145de923aa3db5c356b5298a48e2bd3cd353301b704b88c85b6a63cb
-# Source SHA-256: d8f9507e76686f3853cd28fe36014c86e65b8537cee7152f8062b8ac8a8e9ffd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RG&4O!SU.ANS by Rage + Mr4tune (opium/?); released in opx-0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: suicide
-# SAUCE Author: rage + mr4tune
-# SAUCE Group: opium/?
-# SAUCE Date: 19970121
-# SAUCE Dimensions: 80x58
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: suicide by Rage + Mr4tune | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0297-rg-4o-su-part01
 
 Write-Host '
 [1;30;43m▓[0;1;30;40m▓▀[0;31m░[0;35m▐[0;1;31m▄░[0;1;30m▀▐▀▀[0;1;31m▐ [0;1;30m▐▓[0;1;30;43m▓[0;1;30;40m█▀▓[0;1;30;45m▓[0;1;30;40m▌▄█▓▓[0;1;30;45m▓[0;1;30;40m▀▀[0;1;30;43m▓[0;1;30;40m▓▀[0m [1;30m▀▀[0m [1;30m░▀[0m                   [1;30m▐▄▄[0;33m▄[0;1;33m▄░▀▌[0m

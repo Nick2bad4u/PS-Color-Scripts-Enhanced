@@ -1,13 +1,4 @@
-﻿# Converted from: avg-27g.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sadist05/raw/avg-27g.ans
-# Source Revision: archive-sha256:48539c7fd3103651a6474c72efa2d6287c0500d048769b6f96b3f80e7845070c
-# Source SHA-256: 11fbd046fae2e6d856ccbb6523f06dc76dd0a017ff2ba1490e2bf38174073835
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: avg-27g.ans by Avenging Angel (sadist05); released in sadist05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: avg-27g.ans by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sadist05-avg-27g
 
 Write-Host '
 [1;30;46m ▄[0;1;30;40m▀[0m  [1;30m▄▄▄[0;1;30;46m██▀[0;1;36;46m▄█████[0;1;30;46m [0;1;30;40m▒[0m                     [1;30m▒[0m                   [1;30m█[0;1;36;46m ▒▒▒[0;1;30;46m▀[0;36m▄▄[0;1;30m▄[0m  [1;30m▀[0;1;30;46m▄  ▒▒[0;1;30;40m█[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US!TWSTY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twst-19/raw/US!TWSTY.ANS
-# Source Revision: archive-sha256:38480cbb01973683b6bb179e82483ce3434180444dfcf5b811296224974846eb
-# Source SHA-256: 19975483fb94c5e9f0079b9131356f3ba89c992260f960b7372bf004b986c5a9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US!TWSTY.ANS by The Chef + Putrid Carcass (echo/twisted); released in twst-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: happy tew years twisted!
-# SAUCE Author: thechef&pcarc
-# SAUCE Group: echo/twisted
-# SAUCE Date: 19980201
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: happy tew years twisted! by The Chef + Putrid Carcass | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twst-19-us-twsty
 
 Write-Host '
 t[1mHE[0m      [34m [0m                 [31m▄▄▄▄[0;37m [0;31m▒░[0m              [31m      [0m

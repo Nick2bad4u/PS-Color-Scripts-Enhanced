@@ -1,13 +1,4 @@
-﻿# Converted from: PUBLIC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/cep-0396/raw/PUBLIC.ANS
-# Source Revision: archive-sha256:c4e1e47a3fe0dc3e95a7562ff18946a744e4291833bf2b4ed2fff04fdd952d76
-# Source SHA-256: 164883d6134dd7f5fb00c78fdab59e826e1a439c45a61c474d1293abc24c901b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PUBLIC.ANS by Cephyr (cep-0396); released in cep-0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: PUBLIC.ANS by Cephyr | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-cep-0396-public
 
 Write-Host '
               ▄[1m▄▄▄   [0;35m■[0m          [1;37m▄[0m            ▄▄█[1;47m▀[0m▄ ▄▄▄     [35m▄▄■[0m

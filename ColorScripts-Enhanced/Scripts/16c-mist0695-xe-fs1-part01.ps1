@@ -1,18 +1,4 @@
-﻿# Converted from: XE-FS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0695/raw/XE-FS1.ANS
-# Source Revision: archive-sha256:cd4d9f21f90522cc13e89b8aecd1f8fac67b693881bc0be303ed48e8c596636d
-# Source SHA-256: f950bc9a39ba9a454870882de40a93805868cde29c9eaaa3950d411011937971
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XE-FS1.ANS by Xeryrus (MiSTiGRiS); released in mist0695 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Freak Show screens
-# SAUCE Author: Xeryrus
-# SAUCE Group: MiSTiGRiS
-# SAUCE Date: 19950614
-# SAUCE Dimensions: 80x72
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Freak Show screens by Xeryrus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0695-xe-fs1-part01
 
 Write-Host '
 [35m█[0;35;41m▀█[0;35;40m███[0;35;41m▓[0;35;40m█▀▄▄▄ ▀ ▓▒ ■ ▀█▀▀▀  ▄▄ ▀    ▄[0m

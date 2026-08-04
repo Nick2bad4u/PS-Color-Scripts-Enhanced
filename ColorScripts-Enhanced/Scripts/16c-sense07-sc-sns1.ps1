@@ -1,18 +1,4 @@
-﻿# Converted from: SC-SNS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense07/raw/SC-SNS1.ANS
-# Source Revision: archive-sha256:bee7f118bb6315a9d497ecd226e485abc5e73e41d8cf666fe91e2b03665a3b3e
-# Source SHA-256: d99b89744f8b7dcaf788489caa0d93f9eb2cc1ec79ab910b1ce6621f567f8ef8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SC-SNS1.ANS by sense (scrye); released in sense07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: rubadubdub three boys in a tub
-# SAUCE Author: sense
-# SAUCE Group: scrye
-# SAUCE Date: 19980302
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: rubadubdub three boys in a tub by sense | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense07-sc-sns1
 
 Write-Host '
 

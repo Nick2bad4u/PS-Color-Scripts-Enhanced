@@ -1,17 +1,4 @@
-﻿# Converted from: US-INF1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-05/raw/US-INF1.ANS
-# Source Revision: archive-sha256:c84fdc261f7fd501a311025e55fa5ba4ffaded89b8d307d907b0105e1d45695f
-# Source SHA-256: b506e6b0eea21cef27419f22fbe37c457f30244ce49c06812413f38aaeefa59f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-INF1.ANS by Spear + Cleaner (The Used Coalition); released in used-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Inflicted
-# SAUCE Author: Multiple Artists
-# SAUCE Group: The Used Coalition
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: Inflicted by Spear + Cleaner | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-05-us-inf1
 
 Write-Host '
 

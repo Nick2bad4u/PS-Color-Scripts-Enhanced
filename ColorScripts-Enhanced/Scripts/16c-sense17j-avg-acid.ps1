@@ -1,13 +1,4 @@
-﻿# Converted from: AVG-ACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense17j/raw/AVG-ACID.ANS
-# Source Revision: archive-sha256:dd9d1d0c2e9d18c52916147f75b54ea93779080fcdcf859439501b8e3996efb6
-# Source SHA-256: dd334e6a05bc5e7998db07e6651c2517ca350bfd17776ce048cac6cb800b18b3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVG-ACID.ANS by Avenging Angel (sense17j); released in sense17j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: AVG-ACID.ANS by Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense17j-avg-acid
 
 Write-Host '
 

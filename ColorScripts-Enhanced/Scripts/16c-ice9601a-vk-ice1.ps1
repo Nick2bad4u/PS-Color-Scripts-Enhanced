@@ -1,18 +1,4 @@
-﻿# Converted from: VK-ICE1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9601a/raw/VK-ICE1.ICE
-# Source Revision: archive-sha256:e4c089e3103bdc63762348bbcc2c54a05a351461817f667c54ad471098c66860
-# Source SHA-256: 97deeb5982b2c7af5246dcf5685277ddd7044c2cdaaa268449cfcfd39c32912a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VK-ICE1.ICE by Veks (iCE Advertisements); released in ice9601a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: iCE
-# SAUCE Author: Veks
-# SAUCE Group: iCE Advertisements
-# SAUCE Date: 19960113
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: iCE by Veks | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9601a-vk-ice1
 
 Write-Host '
                [1;34m▄[0m                      [31m▄▄[0m

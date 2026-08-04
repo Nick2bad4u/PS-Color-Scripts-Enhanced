@@ -1,20 +1,4 @@
-﻿# Converted from: goo-stop_mining.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-6710/raw/goo-stop_mining.ans
-# Source Revision: archive-sha256:65fe9e2a2e2016f30e4b0141be2d1472e9b7cc814d922f9663e0d0a04142d70a
-# Source SHA-256: 087712493eee707cce00e000b8244ea2fe85664e6317673c1f111cb34785fc5b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: goo-stop_mining.ans by Goo + Mypalgoo (Blocktronics); released in blocktronics-6710 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: STOP MINING
-# SAUCE Author: GOO
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20180525
-# SAUCE Dimensions: 80x23
-# SAUCE Font: IBM VGA
-# SAUCE Comments: do not underestimate the power of mother earth!
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: STOP MINING by Goo + Mypalgoo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-6710-goo-stop-mining
 
 Write-Host '
 [37;40m    [0;31;40m█[0m                   [31;40m▐▌[0;37;40m    [0;32;40m   [0;1;36;40m░░▓▓████[0;35m [0;37m [0;1;30m▄▀▀[0m            [1;36m▀▀██▓▓░░ ░[0m [1;36m░[0;36mGOO^67[0;1;36m░[0m

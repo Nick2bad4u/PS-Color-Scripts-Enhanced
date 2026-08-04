@@ -1,17 +1,4 @@
-﻿# Converted from: ZIP-KLKO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus04/raw/ZIP-KLKO.ANS
-# Source Revision: archive-sha256:4a57ed6764f9ffca39ae941548ed0ed0ba98ce6594de23a7788152f10b7f60a4
-# Source SHA-256: 75780815a993e425a9ab1370c34d9eb08d79d431404039e4886313f6bb7ef7aa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZIP-KLKO.ANS by zippy (Fokus fonting); released in fokus04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Soing
-# SAUCE Author: zippy
-# SAUCE Group: Fokus fonting
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Soing by zippy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus04-zip-klko
 
 Write-Host '
 

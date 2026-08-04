@@ -1,18 +1,4 @@
-﻿# Converted from: KN%PHASE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/expose-3/raw/KN%25PHASE.ANS
-# Source Revision: archive-sha256:c524942ac8d53334a2dddf3999dcc9e9f427d4f637a4395c37c9577462457908
-# Source SHA-256: 68a6f7edbb39061837fb50962a2e16f95284e07d920d5a0c0278030e55d85c1a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KN%PHASE.ANS by kenetic (<-- (xpo) -->); released in expose-3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: phutonic phase
-# SAUCE Author: kenetic
-# SAUCE Group: <-- (xpo) -->
-# SAUCE Date: 19970604
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: phutonic phase by kenetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-expose-3-kn-phase
 
 Write-Host '
                                                                 [36m,s[0;1;36m,[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: CK-ILLC2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9506/raw/CK-ILLC2.ICE
-# Source Revision: archive-sha256:54681166ad0e1930ad04020dc73021d068005fba5342f2f81e02d3344e14b83c
-# Source SHA-256: a2015a57bc251d17219cb1d267c763f652b95589ae2820cdde2e3e56b45aed3c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CK-ILLC2.ICE by chromatik (.ice%prod!1995.); released in ice-9506 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: .x.illcomm@.$.
-# SAUCE Author: chromatik
-# SAUCE Group: .ice%prod!1995.
-# SAUCE Date: 19950615
-# SAUCE Dimensions: 80x25
-# Lines: 38-71
-# Columns: 1-80
+﻿# Artwork: .x.illcomm@.$. by chromatik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9506-ck-illc2-part02
 
 Write-Host '
                    [1;31;40m█▓▄[0;1;31;47m▓▓[0;1;31;40m▄▄[0m                    [1;31;40m▄▄▄▄[0;1;31;47m▓[0;1;31;40m▀▀▀▀▀█▄  [0;1;30;40m███████████████[0m

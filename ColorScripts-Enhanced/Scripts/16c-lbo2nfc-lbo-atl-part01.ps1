@@ -1,18 +1,4 @@
-﻿# Converted from: LBO-ATL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lbo2nfc/raw/LBO-ATL.ANS
-# Source Revision: archive-sha256:a879a6eb34af3fb51b95c4cde63803278b530948f708e45332c53c389ac92d56
-# Source SHA-256: d25a9e33401aac241ba0226637d33d61ef95394f02532798130339b5c986a499
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LBO-ATL.ANS by torlock pop (LBo); released in lbo2nfc and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: atlantis promo' screen
-# SAUCE Author: torlock pop
-# SAUCE Group: LBo
-# SAUCE Date: 19951110
-# SAUCE Dimensions: 80x25
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: atlantis promo' screen by torlock pop | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lbo2nfc-lbo-atl-part01
 
 Write-Host '
 [34m████████████████████████████████████████████████████████████████████████████████[0m

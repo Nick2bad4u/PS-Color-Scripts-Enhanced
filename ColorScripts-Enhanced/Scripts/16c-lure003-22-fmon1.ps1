@@ -1,18 +1,4 @@
-﻿# Converted from: 22-fmon1.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lure003/raw/22-fmon1.ans
-# Source Revision: archive-sha256:1ff57f893971666a5780ed06387959ae5ebc9c163a5e118549c7818f33792253
-# Source SHA-256: 2cce21f72cb3243f3969c65c92d3680733d6f51f1c7e334b5b2f0a8713bef793
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 22-fmon1.ans by catch22 (lure); released in lure003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: lack of control
-# SAUCE Author: catch22
-# SAUCE Group: lure
-# SAUCE Date: 20020423
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: lack of control by catch22 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lure003-22-fmon1
 
 Write-Host '
 [33m  ▄▄ ▓▓▓▌▄ [0;36m▄[0;1;36;46m░[0;36m▄▀█▄[0;33m▀██▌ [0;1;36m░[0;36m█▌▐▄██████[0;30;46m░[0;36;40m█▄█[0;1;36;46m░▄██▒[0;36m▀▄[0;1;36;46m░░[0;36m██▀▀▄▄▄█████████▄▄▄▀▀▀███▄  ░[0;1;36m▒[0;1;30;46m░░[0;36m▀▀[0m

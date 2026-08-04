@@ -1,18 +1,4 @@
-﻿# Converted from: US-NC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-08/raw/US-NC.ANS
-# Source Revision: archive-sha256:0b90c936d49629839c01709c30be5eee3ae4012caa7a8f1570b6ae8cc1763cb4
-# Source SHA-256: f2ffa5838edf20765e55d1e63b5b1f9c27ba947c60c31e0262cff84e07bd1be9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-NC.ANS by Widowmaker + Splatt (eclipse); released in ecl-08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: no conrol!
-# SAUCE Author: widowmaker+splatt
-# SAUCE Group: eclipse
-# SAUCE Date: 19961002
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: no conrol! by Widowmaker + Splatt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-08-us-nc
 
 Write-Host '
                              [34m  [0m

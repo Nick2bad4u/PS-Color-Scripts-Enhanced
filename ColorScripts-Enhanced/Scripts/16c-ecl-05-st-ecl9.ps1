@@ -1,18 +1,4 @@
-﻿# Converted from: ST-ECL9.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-05/raw/ST-ECL9.ANS
-# Source Revision: archive-sha256:9471ca7612415a41916878584e9d9bf710a5efbc5b8d389ed1bde764e2a602ca
-# Source SHA-256: 0416a324e7adbe33724e93f2db195bd1a28096f8935df6293d58191e5cb2dca8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-ECL9.ANS by splatter (fjds;lk); released in ecl-05 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: sfjlk;ds
-# SAUCE Author: splatter
-# SAUCE Group: fjds;lk
-# SAUCE Date: 19960811
-# SAUCE Dimensions: 80x19
-# Lines: 1-19
-# Columns: 1-80
+﻿# Artwork: sfjlk;ds by splatter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-05-st-ecl9
 
 Write-Host '
 

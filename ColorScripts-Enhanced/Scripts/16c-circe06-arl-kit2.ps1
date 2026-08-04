@@ -1,13 +1,4 @@
-﻿# Converted from: ARL-KIT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe06/raw/ARL-KIT2.ANS
-# Source Revision: archive-sha256:5c196d62748f8a4bdb63c997fd54d96908851bda90b736210110cebfc6625fb9
-# Source SHA-256: f5e21e8081ec6db48c541bb817d27e3da3f0e7ce1bd01686ced81ad9612fd3bd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ARL-KIT2.ANS by Arlequin (circe06); released in circe06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: ARL-KIT2.ANS by Arlequin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe06-arl-kit2
 
 Write-Host '
 [1;32;47m▄[0;1;32;43m█▒▒[0;1;31;42m▓▓[0;1;31;40m█[0;1;31;46m▀▀[0;1;31;40m▓▓▓▀▀[0;33m▀ .,▬┌yy#[0;1;31m#88▓▓▓▒▒[0;33m███►▄▄▬.[0m    [33m☺☺☺☻☻☻[0;1;31m☺☺☻☻[0m  [1;30m [0m [1;30m    [0m  [1;30m   [0m

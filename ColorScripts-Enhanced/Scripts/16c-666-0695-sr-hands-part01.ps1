@@ -1,18 +1,4 @@
-﻿# Converted from: SR-HANDS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/666-0695/raw/SR-HANDS.ANS
-# Source Revision: archive-sha256:01a21dca34c89c7dd6644e0787402efaf574da8d380943a8a9833b62ca11686e
-# Source SHA-256: 773c9e95c413c2ff432909b09277eab23d4d6758e1eda35716fed278c7602405
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SR-HANDS.ANS by Soul Reaper (666 Productions); released in 666-0695 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Cyber Hands
-# SAUCE Author: Soul Reaper
-# SAUCE Group: 666 Productions
-# SAUCE Date: 19950620
-# SAUCE Dimensions: 80x60
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: The Cyber Hands by Soul Reaper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-666-0695-sr-hands-part01
 
 Write-Host '
 [1;30mSr[0m     ░░░░      [32m░░▓▒▒▓░░[0m          [32m░▒██▓▒▓[0;33m░▒▒▒▒▒▒░[0m    [32m░▒▒▓█▓[0;33m░▒▓██▓▒░[0;32m░▒[0;33m░▒▓▒░[0m  [32m░[0m

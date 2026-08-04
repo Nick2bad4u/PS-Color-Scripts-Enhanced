@@ -1,18 +1,4 @@
-﻿# Converted from: US-BSUN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/circe07/raw/US-BSUN.ANS
-# Source Revision: archive-sha256:2cbba3cedd8eb19a25555cbc1ca3ce5023e1f497b14e2a9d7de86e055d96afd2
-# Source SHA-256: 562847ab1de01d2f32add1b142b88f10e46569d7281c9b782b9ad1cdb9725d2d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BSUN.ANS by Arlequin + Darkman-Circe (Circe Ra Ra Ra); released in circe07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Black Sun
-# SAUCE Author: Darkman&Arlequin
-# SAUCE Group: Circe Ra Ra Ra
-# SAUCE Date: 19990203
-# SAUCE Dimensions: 80x64
-# Lines: 33-64
-# Columns: 1-80
+﻿# Artwork: Black Sun by Arlequin + Darkman-Circe | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-circe07-us-bsun-part02
 
 Write-Host '
          [1;31m░[0;33m▓[0;1;31m░░[0;33m ▄[0;1;31m▓▓▓▓[0;33m▓▓▓▓▓▓███████████████████████████████[0;1;31;47m██[0;1;31;43m█[0;33m░░░░░[0m   [33m░░[0;37m [0;1;34;44m█[0;34m█[0m

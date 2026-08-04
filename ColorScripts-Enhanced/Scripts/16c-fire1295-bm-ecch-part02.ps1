@@ -1,18 +1,4 @@
-﻿# Converted from: BM-ECCH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire1295/raw/BM-ECCH.ANS
-# Source Revision: archive-sha256:9b1099642415a2dfbc5c45eb692c69eb3103983367e2d26d1f0ab776b803ee9d
-# Source SHA-256: b82f571d48de467fa47fb20411d573bfb4a18ed2aae3c021d2f6e298b0fed2c0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BM-ECCH.ANS by Bedlam (fire); released in fire1295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Brand Echh
-# SAUCE Author: Bedlam
-# SAUCE Group: fire
-# SAUCE Date: 19951214
-# SAUCE Dimensions: 80x25
-# Lines: 40-74
-# Columns: 1-80
+﻿# Artwork: Brand Echh by Bedlam | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire1295-bm-ecch-part02
 
 Write-Host '
 [34m▓▓▄[0m     [33m▐█▌[0;37m [0;33m▓██[0m                     [33m▄▓░░ [0;37m [0;33m██[0;1;31m██ [0;33m████[0;1;31;43m░▓▓[0;1;31;40m▀[0m [34m▐█▄[0;37m  [0;34m▀▀  [0;37m [0;34m [0;37m [0;34m▄[0m     [1;30m    [0m

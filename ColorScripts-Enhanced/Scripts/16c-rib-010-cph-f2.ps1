@@ -1,18 +1,4 @@
-﻿# Converted from: CPH-F2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rib-010/raw/CPH-F2.ANS
-# Source Revision: archive-sha256:f0e8a1202a9ab4518ddf30655a3e3a838d00336d432c41d2fb4ced8564853688
-# Source SHA-256: 904a682c273868e75d8ffa50a16aab952aa2500894196c9e377ca48e35d4a864
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CPH-F2.ANS by {YBERPUNCh (RiB); released in rib-010 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: just a toony face
-# SAUCE Author: {YBERPUNCh
-# SAUCE Group: RiB
-# SAUCE Date: 19980703
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: just a toony face by {YBERPUNCh | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rib-010-cph-f2
 
 Write-Host '
 [34m░███████████████████▀▀▀  [0m       [1;30m▄▄▄[0;33m▄▄▄▄▄▄▄▄▄▄▄▄[0;1;30m▄▄▄[0m    [34m▀▀▀▀▀████[0;32;44m░[0;34;40m▄▄[0;37;40m [0;34;40m▀▀█[0;1;34;44m▀[0;34m█▀▀▀█[0;37m [0;34m▄[0m

@@ -1,17 +1,4 @@
-﻿# Converted from: BS@HLMEN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/d38-03/raw/BS%40HLMEN.ANS
-# Source Revision: archive-sha256:782ccbab81c9098e3c3d5b5d2d3703deba2cd08c356aa583e9b292783b136ef2
-# Source SHA-256: 5c62e4333bd0226f2119335534a4cdf8087cfc0a9fada23bab6f10af88057ca2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BS@HLMEN.ANS by Blind Sniper (Department 38); released in d38-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Holdens Lair IV Menu (ARRGH!)
-# SAUCE Author: Blind Sniper
-# SAUCE Group: Department 38
-# SAUCE Dimensions: 80x25
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: Holdens Lair IV Menu (ARRGH!) by Blind Sniper | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-d38-03-bs-hlmen
 
 Write-Host '
 [1;30m1[0m [31;42m░[0m      [32;40m▄▄▄▄▄▄▄[0;37;40m [0;1;36;40m▄[0m [31;42m░[0m   [37;40m  [0m               [37;40m  [0;1;30;40m▄[0m   ▄    [1m▄▀▀[0m   [1m▀▀[0;1;47m▓▓▓[0m█▀██[1;47m░▒▒[0;1;40m▀[0m▄▄▄███▀▀[1;47m░[0;1;37;47m█[0m

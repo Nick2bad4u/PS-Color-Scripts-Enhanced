@@ -1,18 +1,4 @@
-﻿# Converted from: JR_LMAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blawork/raw/JR_LMAIN.ANS
-# Source Revision: raw-sha256:4d241b8faec3a66bc01ae09422f88331f4af7ca949e0d007fc41cc3e19c2dc3b
-# Source SHA-256: 4d241b8faec3a66bc01ae09422f88331f4af7ca949e0d007fc41cc3e19c2dc3b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JR_LMAIN.ANS by jerusalem (boil); released in blawork and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: L:: totenkaffee
-# SAUCE Author: jerusalem
-# SAUCE Group: boil
-# SAUCE Date: 19970930
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: L:: totenkaffee by jerusalem | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blawork-jr-lmain
 
 Write-Host '
 [36m  ▀▀[0;1;36;46m▀█[0;1;37;46m█[0;1;37;40m ▌[0;1;37;46m█[0m                   [34m     [0;1;37m▐ █ ▐███▐  [0m         [1;36m▄[0;1;37m▄▄▄████[0;1;36m▀▀[0m        [1m░░░[0m   [1;36m▄▄[0m

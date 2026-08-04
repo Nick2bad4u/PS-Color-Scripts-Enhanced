@@ -1,18 +1,4 @@
-﻿# Converted from: MT-M33P2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy06/raw/MT-M33P2.ANS
-# Source Revision: archive-sha256:da68d928b75eacb21ef6bbd9cd632165def9238591f0378ec07f4b56faef6ea8
-# Source SHA-256: d2489efd0bc7e78d3af53bbf5951ccdca460072d2082937aac5633d398decf51
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MT-M33P2.ANS by Misfit (fah q); released in apathy06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Howdy
-# SAUCE Author: Misfit
-# SAUCE Group: fah q
-# SAUCE Date: 19960121
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Howdy by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy06-mt-m33p2
 
 Write-Host '
 [1;30m--------------------------------------------------------------------------------[0m

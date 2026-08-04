@@ -1,18 +1,4 @@
-﻿# Converted from: NO-MH1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy05/raw/NO-MH1.ANS
-# Source Revision: archive-sha256:2e1c7dd4c451a5d024352ee6b56eba52a2d5ba6a7d73a9cc34cff58fc603ca18
-# Source SHA-256: d441210a1086189a6af292e34fa4f5bcac1e51d3c368a5c84908cd1cd93ab4cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NO-MH1.ANS by Nosferatu (apathy!); released in apathy05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Morbid Hallucinations
-# SAUCE Author: Nosferatu
-# SAUCE Group: apathy!
-# SAUCE Date: 19951031
-# SAUCE Dimensions: 80x25
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Morbid Hallucinations by Nosferatu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy05-no-mh1
 
 Write-Host '
  [1;34m░  [0;35m░ [0;1;34m░[0m     [1;34m░[0m                                                            [1;34m░[0m     [1;34m░[0m

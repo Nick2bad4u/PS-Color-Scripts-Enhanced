@@ -1,18 +1,4 @@
-﻿# Converted from: RN-UG01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/765n001/raw/RN-UG01.ANS
-# Source Revision: raw-sha256:692943b4faa7c32f8bc28f87f1b95765d397b9f4f061d36626296ee2e0088f38
-# Source SHA-256: 692943b4faa7c32f8bc28f87f1b95765d397b9f4f061d36626296ee2e0088f38
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RN-UG01.ANS by Rock & Roll Nigger (765); released in 765n001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Undergrown Logo
-# SAUCE Author: Rock & Roll Nigger
-# SAUCE Group: 765
-# SAUCE Date: 19960801
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Undergrown Logo by Rock & Roll Nigger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-765n001-rn-ug01
 
 Write-Host '
                                               [1;31m│[0m

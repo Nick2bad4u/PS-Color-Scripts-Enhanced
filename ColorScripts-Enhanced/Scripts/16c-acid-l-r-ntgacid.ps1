@@ -1,13 +1,4 @@
-﻿# Converted from: NTGACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acid_l-r/raw/NTGACID.ANS
-# Source Revision: archive-sha256:499c9b46916e1ae397884d58998fd5ed4387f783522347b660512aee3acb2ec0
-# Source SHA-256: b8c088f33c3b4e2a1d6b5dfb05c127376629340dd6ea50df9920eeae4b12a320
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NTGACID.ANS by Manufacturer (acid_l-r); released in acid_l-r and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: NTGACID.ANS by Manufacturer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acid-l-r-ntgacid
 
 Write-Host '
                         [1;33m▄▄▄▄[0;1;33;43m▒▒[0;1;33;40m█[0;1;33;43m▒[0;1;33;40m█[0;1;33;43m▒[0;1;33;40m█████████▄▄[0m      [33m▄▄▄▄▄▄[0m

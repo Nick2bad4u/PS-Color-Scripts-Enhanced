@@ -1,19 +1,4 @@
-﻿# Converted from: us-savage.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz17/raw/us-savage.ans
-# Source Revision: archive-sha256:2674245bad3e14fe6d4a935ba8daf9898a4426e394c56ca9710e3afa19d3d943
-# Source SHA-256: 63693775c73efadcba48c64cfb38bb07e3382575f387e43f0b58a2c75168b1d9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-savage.ans by Warpus + Nitron (LAZARUS); released in laz17 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: ode to savage jr 1 & 2
-# SAUCE Author: nitron & warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20230623
-# SAUCE Dimensions: 80x47
-# SAUCE Font: IBM VGA
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: ode to savage jr 1 & 2 by Warpus + Nitron | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz17-us-savage
 
 Write-Host '
                 [1;30mI  N    D  O  L  B  Y    S  U  R  R  O  U  N  D[0m

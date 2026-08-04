@@ -1,18 +1,4 @@
-﻿# Converted from: VG-MIST2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/haze_002/raw/VG-MIST2.ANS
-# Source Revision: archive-sha256:38330e2f246542d7e8592e16d69ba19463233f347fc04dc4d56a7647ea25c49d
-# Source SHA-256: de7ce7727603f9629c76939e2f222a9fbd8309ab0c47f304abb995b97365bea9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VG-MIST2.ANS by vertigo (haze); released in haze_002 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: mist 2
-# SAUCE Author: vertigo
-# SAUCE Group: haze
-# SAUCE Date: 19950531
-# SAUCE Dimensions: 80x100
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: mist 2 by vertigo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-haze-002-vg-mist2-part01
 
 Write-Host '
            [1;34m  [0;1;30m▄▄▄▄▄[0m    [1;30m▄▄▄▄▄[0m   [1;30m▄▄▄▄▄▄▄▄[0m      [1;30m▄▄▄▄▄ [0m           [1m [0;1;30m▄▄▄▄▄▄▄▄▄[0;1;36m [0m

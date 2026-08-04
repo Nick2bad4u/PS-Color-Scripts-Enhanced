@@ -1,18 +1,4 @@
-﻿# Converted from: K!WCRAFT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0899/raw/K!WCRAFT.ANS
-# Source Revision: archive-sha256:0617fc8f8bbe2fa17749abcf8386f3d9e092bf5e07b71b50ee42b85b712bb9fc
-# Source SHA-256: d446088a644c7e550fe21f8b566f1866d565854ae041c5a54b52ccf25eab8d4d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: K!WCRAFT.ANS by keetar (poffelipoff); released in plf-0899 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: whitch craft
-# SAUCE Author: keetar
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19990722
-# SAUCE Dimensions: 80x25
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: whitch craft by keetar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0899-k-wcraft-part01
 
 Write-Host '
 

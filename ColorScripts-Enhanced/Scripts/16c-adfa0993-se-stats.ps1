@@ -1,13 +1,4 @@
-﻿# Converted from: SE-STATS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/adfa0993/raw/SE-STATS.ANS
-# Source Revision: archive-sha256:6976ebaabc406143a15dc9df1d07fcc17e21b09f4030eabb01ea606499d36e2b
-# Source SHA-256: c69421dd61bc03643eb9a36fe1d4f88ed8744869ee5c29ea6ec02c063141e37c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SE-STATS.ANS by Side Effect (adfa0993); released in adfa0993 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: SE-STATS.ANS by Side Effect | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-adfa0993-se-stats
 
 Write-Host '
 [1;35;45m▒▒▒▒▒▒░░░░[0;35m███████▓▓▓▓▓▓▒▒▒▒▒▒▒░░░░░░░░░[0m                   [35m░░▒▒▒▓▓▓▓▓[0;35;45m   [0;1;35;45m░░░▒▒▒▒▒[0m

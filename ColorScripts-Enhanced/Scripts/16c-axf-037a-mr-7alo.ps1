@@ -1,16 +1,4 @@
-﻿# Converted from: MR-7ALO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/axf-037a/raw/MR-7ALO.ANS
-# Source Revision: archive-sha256:37963dec1fde9901b3a211c4aa10fb9619d7e64e44f435ffd700386859a2f460
-# Source SHA-256: 323082dba2c6bf39c65932ae79115bd0ab269c5a49c5c3bf31a52168c8300887
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-7ALO.ANS by minotaur (axf-037a); released in axf-037a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: 7alo logo
-# SAUCE Author: minotaur
-# SAUCE Date: 19970219
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: 7alo logo by minotaur | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-axf-037a-mr-7alo
 
 Write-Host '
 

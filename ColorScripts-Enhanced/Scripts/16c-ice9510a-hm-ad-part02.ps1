@@ -1,18 +1,4 @@
-﻿# Converted from: HM-AD.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9510a/raw/HM-AD.ICE
-# Source Revision: archive-sha256:399b6e9725b29795559a6219f7addf6b31d694eb7c81ec3a3e3fa8aafebac298
-# Source SHA-256: eef0faa0ee9a05d3078736afd88abaa8eec64d8d111f6829f4885f522274528b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HM-AD.ICE by Handyman (iCE); released in ice9510a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Atomic Dust
-# SAUCE Author: Handyman
-# SAUCE Group: iCE
-# SAUCE Date: 19951102
-# SAUCE Dimensions: 80x25
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: Atomic Dust by Handyman | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9510a-hm-ad-part02
 
 Write-Host '
 [33m▄▓▒░[0m     [1;37m        [0m              [1;30m▄[0m▄▄▄▄[1m [0m ▀▌[1;30;47m▓[0m▐▀▄[1;30;47m░░[0;1;37;47m [0;1;30;47m░[0;1;37;47m░░░▒░▒▓▓▄▄▄▄▄[0m▓▒▀▀[1m    [0;33m▄▓█████▓█▀[0m

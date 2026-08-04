@@ -1,18 +1,4 @@
-﻿# Converted from: TSK-DR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/odium-05/raw/TSK-DR1.ANS
-# Source Revision: archive-sha256:00017ea77a556a0e8fa8903f908ba8848ddc89ac19675ccac8aee269ef1bbdb5
-# Source SHA-256: 4af65c8b265113b6602c38025093a678cc929fa2d331dae5b7b5e638279f1dc4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TSK-DR1.ANS by The Silent Killer (Odium); released in odium-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Dark Realm
-# SAUCE Author: The Silent Killer
-# SAUCE Group: Odium
-# SAUCE Date: 19960224
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Dark Realm by The Silent Killer | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-odium-05-tsk-dr1
 
 Write-Host '
                  [1;30m          [0m·[1;30m [0m [1;30md[0m [1;30ma[0m [1;30mr[0m [1;30mk[0m  [1;30mr[0m [1;30me[0m [1;30ma[0m [1;30ml[0m [1;30mm[0m  ·

@@ -1,13 +1,4 @@
-﻿# Converted from: XA-SYNCR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mgc-0194/raw/XA-SYNCR.ANS
-# Source Revision: archive-sha256:f17b77cc9d62ede7b74162f5bf70dcafda5baf26dfb1ffab51ba4633f3d3613c
-# Source SHA-256: eedb1495be72767b0d4cb0635887ef320529cd4cdee48f43c262fbfa7a9d4e2e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XA-SYNCR.ANS by Xaxisian (mgc-0194); released in mgc-0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: XA-SYNCR.ANS by Xaxisian | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mgc-0194-xa-syncr-part01
 
 Write-Host '
 [1;31m████████████████[0;1;31;41m▀▀▀▀[0;1;31;40m████████████[0;31m█ [0;1;30m█ [0;1;31m███████[0;1;31;41m [0m [1;30;40m█ [0;31m█[0;1;31m███████████████████[0;31m█ [0;1;30m█ [0;31m█[0;1;31m████████[0m

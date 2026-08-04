@@ -1,13 +1,4 @@
-﻿# Converted from: XP-DOA2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/myst5_95/raw/XP-DOA2.ANS
-# Source Revision: archive-sha256:8bb09a6689ce4926adf475b4d141f7f6ebf52233dc1d444fee248661004cb45d
-# Source SHA-256: 11d18f5736cc4504534b6a9f562209a02809e202341875247573273af7f35e43
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XP-DOA2.ANS by Xavier Pyros (myst5_95); released in myst5_95 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 96-124
-# Columns: 1-80
+﻿# Artwork: XP-DOA2.ANS by Xavier Pyros | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-myst5-95-xp-doa2-part03
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: KN!DEATH.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-001/raw/KN!DEATH.ANS
-# Source Revision: archive-sha256:7435b1c9938dec461ab33b42b3dd164ea7e98ecfff30ea4d3df5a8e59194b0a3
-# Source SHA-256: 952b3bd130ff7515e9cd326b5392a666dd39fc4f36f25024e8b8b9846577f82a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KN!DEATH.ANS by Kenetic (rARE!ASCii); released in rare-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Deathzone
-# SAUCE Author: Kenetic
-# SAUCE Group: rARE!ASCii
-# SAUCE Date: 19980305
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: Deathzone by Kenetic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-001-kn-death
 
 Write-Host '
 

@@ -1,19 +1,4 @@
-﻿# Converted from: LDA-SNOW3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1221/raw/LDA-SNOW3.ANS
-# Source Revision: archive-sha256:5e9313825592ee844db1dbb5f288429b09b14a6176d448c30ff1c2ee32395d09
-# Source SHA-256: 66fce0f715e1a790f3b9b5327db665f9271528ffafc29292acec7791ab9d824b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LDA-SNOW3.ANS by LDA (Mistigris); released in mist1221 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Snow 3
-# SAUCE Author: LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20211220
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Snow 3 by LDA | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1221-lda-snow3
 
 Write-Host '
 [1m███[0;1;44m▓▓▓[0;1;40m████[0;1;44m██▓▄█[0;1;40m████[0;1;43m▀▀█[0;1;44m▓▓[0;1;40m█[0;34m█[0;1;37;44m [0;34m█████████████████████████████████████████████████[0;1;34;44mφlda[0m

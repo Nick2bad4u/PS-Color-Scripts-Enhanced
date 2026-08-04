@@ -1,19 +1,4 @@
-﻿# Converted from: MM-INFILTRATION.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-30/raw/MM-INFILTRATION.ANS
-# Source Revision: archive-sha256:c6f1cc6bb01a179ae988b7c16a0a3d302f02713dff1c028644191f10452c0347
-# Source SHA-256: b22571b28094efb45b55aba32ab1367cd63b6241651066c53b88cf627d43f7ce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-INFILTRATION.ANS by Mavenmob (Mistigris); released in mist-30 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Pointlessness of It All
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20241228
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: The Pointlessness of It All by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-30-mm-infiltration
 
 Write-Host '
 [30m[0m[1;36m[0m[1;36m [0;1;31m                ░░░░░              ░░░░[0;1;36m [0;1;31m░░░              ░░░░░                [0;1;36m [0m

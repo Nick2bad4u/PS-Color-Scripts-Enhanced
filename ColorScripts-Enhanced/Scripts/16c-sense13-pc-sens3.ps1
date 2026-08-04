@@ -1,18 +1,4 @@
-﻿# Converted from: PC-SENS3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense13/raw/PC-SENS3.ANS
-# Source Revision: archive-sha256:b0563618478d6216eb6bd83ff569d789b2e87f637bf95d7f88699f5b40df3192
-# Source SHA-256: d93e02245439433c01fbaf596dc84ebac4859cea9f98cfc7f86f8a0bfe9b21ae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PC-SENS3.ANS by Proctologist (SeNSE); released in sense13 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: shensh'n shtuff
-# SAUCE Author: Proctologist
-# SAUCE Group: SeNSE
-# SAUCE Date: 19980914
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: shensh'n shtuff by Proctologist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense13-pc-sens3
 
 Write-Host '
      [1;35m_.,╥╥╥╥,._[0m     [1;35m_.,╥╥╥╥,._[0m     [1;35m_.,╥╥╥╥,._[0m     [1;35m_.,╥╥╥╥,._[0m     [1;35m_.,╥╥╥╥,._[0m

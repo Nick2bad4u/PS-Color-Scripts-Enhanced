@@ -1,18 +1,4 @@
-﻿# Converted from: Smp-jspr.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0402/raw/Smp-jspr.ans
-# Source Revision: archive-sha256:19898cc2febb6deadccf50832dc421b4f362a33c899e27278bafd225bbc2d4d4
-# Source SHA-256: 1636fa6e06861932c4132084ad90c9fb09829210618f2b96ce24c1381a9470f1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Smp-jspr.ans by Shrimp (Revival); released in rev0402 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Jasper
-# SAUCE Author: Shrimp
-# SAUCE Group: Revival
-# SAUCE Date: 20020412
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Jasper by Shrimp | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0402-smp-jspr
 
 Write-Host '
 [1m[0;1;33m[0;1;37m[0m

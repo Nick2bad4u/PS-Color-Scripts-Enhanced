@@ -1,18 +1,4 @@
-﻿# Converted from: DKY-DCW.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph-0697/raw/DKY-DCW.ANS
-# Source Revision: archive-sha256:948d1463d97fbdd560eeb5fa12fbb3480434c2b2b3eb2660833d19ddf5647ef9
-# Source SHA-256: ab6affc4d3ec4964a3234cf0843f61c89b36dd69d7a361a474ff68b4c656c9e9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DKY-DCW.ANS by .:(darky'):. (.:(nitrophusion):.); released in nph-0697 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: .:(da.crazy.world.logo):.
-# SAUCE Author: .:(darky'):.
-# SAUCE Group: .:(nitrophusion):.
-# SAUCE Date: 19970614
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: .:(da.crazy.world.logo):. by .:(darky'):. | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph-0697-dky-dcw
 
 Write-Host '
 [1;36m-[0;36m-[0;1;30m------------------------------------------------------------------------------[0m

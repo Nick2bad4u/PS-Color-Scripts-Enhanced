@@ -1,19 +1,4 @@
-﻿# Converted from: US-CANDLES.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1221/raw/US-CANDLES.ANS
-# Source Revision: archive-sha256:5e9313825592ee844db1dbb5f288429b09b14a6176d448c30ff1c2ee32395d09
-# Source SHA-256: 532d94e2ba44d688810bdf13babfbf6d4a423e73dd3f01750893422a47abf120
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CANDLES.ANS by LDA + Sassafras (Mistigris); released in mist1221 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Candles
-# SAUCE Author: LDA & Sassafras
-# SAUCE Group: Mistigris
-# SAUCE Date: 20211220
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Candles by LDA + Sassafras | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1221-us-candles
 
 Write-Host '
                                                              [1;33m██[0;1;37;41m█[0;1;33;40m█[0m

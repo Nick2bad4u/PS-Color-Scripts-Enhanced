@@ -1,19 +1,4 @@
-﻿# Converted from: AK-REACT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-36/raw/AK-REACT.ANS
-# Source Revision: archive-sha256:43e7d46e56dc094cf8502b299dcd82ee875dea0a064a36248f4e6c844180fd25
-# Source SHA-256: b91fbfc9e9d86520da1928ef5e214ac9daeeb7026943640634a916c9a13d4f84
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AK-REACT.ANS by abstrakt (fire); released in fire-36 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: retro act bbs
-# SAUCE Author: abstrakt
-# SAUCE Group: fire
-# SAUCE Date: 20230303
-# SAUCE Dimensions: 80x36
-# SAUCE Font: IBM VGA
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: retro act bbs by abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-36-ak-react
 
 Write-Host '
              [1;36;40m,[0;1;32;40m    [0;1;36;40m.,[0;1;32;40m.[0m                [1;34m_,┌s#$j$↕┘²''"^`~[0m      [1;34m~`''└/j$S#[0m¬┐.     [1;30mabs[0m

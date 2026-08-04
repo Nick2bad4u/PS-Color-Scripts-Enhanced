@@ -1,18 +1,4 @@
-﻿# Converted from: ST-AZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0996/raw/ST-AZ.ANS
-# Source Revision: archive-sha256:28df6d6ebb426351f7b23fe6f583a998e03c4447a46d1ae63d7f7aa63a80eb5d
-# Source SHA-256: 750fd44f4f68d4674de290b83809b509b380489fbdec460cb3ca842b6dc99cbf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-AZ.ANS by splatt (eclipse); released in acdu0996 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: az
-# SAUCE Author: splatt
-# SAUCE Group: eclipse
-# SAUCE Date: 19960918
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: az by splatt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0996-st-az
 
 Write-Host '
 

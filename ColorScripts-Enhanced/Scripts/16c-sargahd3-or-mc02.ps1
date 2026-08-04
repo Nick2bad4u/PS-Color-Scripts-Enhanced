@@ -1,18 +1,4 @@
-﻿# Converted from: OR -MC02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sargahd3/raw/OR%C2%A0-MC02.ANS
-# Source Revision: archive-sha256:d4be65be862c17debbed01c060fb85aadbdbe00a8282836fa25f3f46073f618d
-# Source SHA-256: ba7d3e9b4699f454d38fd1e0c4157db7e029fabff6c70a61c3cda58f592b6fdf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: OR -MC02.ANS by outraider (fbk.sargahd); released in sargahd3 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hoax
-# SAUCE Author: outraider
-# SAUCE Group: fbk.sargahd
-# SAUCE Date: 19970211
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: hoax by outraider | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sargahd3-or-mc02
 
 Write-Host '
             ▐█▓▀▀       ▀▀▀▀▀▀▀█[30;47m░[0;37;40m▓██████[0;1;30;47m░░[0m█[31;47m▀▓▓░[0;37;40m████[0;1;37;47m░░ [0m█████████████████[1;47m░░▄▄▄▄▄░[0m█

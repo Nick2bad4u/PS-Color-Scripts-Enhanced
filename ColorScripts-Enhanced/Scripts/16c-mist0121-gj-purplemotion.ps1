@@ -1,19 +1,4 @@
-﻿# Converted from: GJ-PURPLEMOTION.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0121/raw/GJ-PURPLEMOTION.ANS
-# Source Revision: archive-sha256:be6acc37c46308204b64f544c343f93533b3c26c7b10ead91ddc0227519a1a6a
-# Source SHA-256: 63110beb3d70c2abf62a5d0e10e7c770ecf2aa37281abf29a6fdc6a076845fab
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GJ-PURPLEMOTION.ANS by Grymmjack (Mistigris); released in mist0121 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Scene Heroes: Purple Motion
-# SAUCE Author: Grymmjack
-# SAUCE Group: Mistigris
-# SAUCE Date: 20210124
-# SAUCE Dimensions: 80x29
-# SAUCE Font: IBM VGA
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: Scene Heroes: Purple Motion by Grymmjack | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0121-gj-purplemotion
 
 Write-Host '
               [1m▄▄▄[0;1;36m▄[0;1;37m▄[0;1;36m▄▄[0;1;34m▄[0;36m▄▄[0;1;34m▄[0;36m▄[0;1;34m ▄[0;34mgj![0;37m    [0;1;34m▄    ▄ ▄▄▄▄▄▄ ▄▄▄[0;36m▄[0;1;34m▄[0;36m▄▄▄▄[0;1;36m▄[0;36m▄[0;1;36m▄▄[0;1;37m▄▄[0m

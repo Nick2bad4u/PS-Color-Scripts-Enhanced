@@ -1,18 +1,4 @@
-﻿# Converted from: MD-MOOSE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stl-0296/raw/MD-MOOSE.ANS
-# Source Revision: archive-sha256:2a7c2972214cdcf66c05bb3cc15c513aafb38f4486172bc95b40d735e509a060
-# Source SHA-256: ab2b0eacc8c32ba492b3de8696f8d9d921ca7465decaf3f6f0c4a1455103ae84
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MD-MOOSE.ANS by Mendator (Stile Prod.); released in stl-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Moose City!
-# SAUCE Author: Mendator
-# SAUCE Group: Stile Prod.
-# SAUCE Date: 19960208
-# SAUCE Dimensions: 80x83
-# Lines: 1-44
-# Columns: 1-80
+﻿# Artwork: Moose City! by Mendator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stl-0296-md-moose-part01
 
 Write-Host '
 [1;30m■▄■■▄[0m▄[1;30m▄▄▄[0m▄▄[1;30m▄▄▄▄[0m▄▄▄▄[1m▄[0m▄▄▄▄[1m▄▄[0m▄▄▄[1m▄▄▄▄▄▄▄▄▄[0m▄▄▄[1m▄▄[0m▄▄▄▄▄[1m▄[0m▄▄▄▄▄▄[1;30m▄▄▄[0m▄▄[1;30m▄▄▄▄[0m▄[1;30m▄▄▄▄▄▄▄▄▄▄▄■■▄■[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: CREONIX-THE_LAST_SUNDOWN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1116/raw/CREONIX-THE_LAST_SUNDOWN.ANS
-# Source Revision: raw-sha256:e2716df22d34ab8629bc6d19efb4eb5a5a0c6a65c6253d596639ebd8bbe7dca3
-# Source SHA-256: e2716df22d34ab8629bc6d19efb4eb5a5a0c6a65c6253d596639ebd8bbe7dca3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CREONIX-THE_LAST_SUNDOWN.ANS by Creonix (Mistigris); released in mist1116 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Last Sundown
-# SAUCE Author: Creonix
-# SAUCE Group: Mistigris
-# SAUCE Date: 20160713
-# SAUCE Dimensions: 80x170
-# SAUCE Font: IBM VGA
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: The Last Sundown by Creonix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1116-creonix-the-last-sundown-part01
 
 Write-Host '
 [31;40m████████████████████████████████████████████████████████████████████████████████[0m

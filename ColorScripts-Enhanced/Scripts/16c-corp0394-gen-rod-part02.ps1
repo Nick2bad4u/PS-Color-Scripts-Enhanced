@@ -1,13 +1,4 @@
-﻿# Converted from: GEN-ROD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/corp0394/raw/GEN-ROD.ANS
-# Source Revision: archive-sha256:91d50f87083e6637bc06720969ec8c07ec6313a1c98908190ceb08332429cab7
-# Source SHA-256: 989131a50a37134b61310087f5198dfea33f4b985882eb3bd919692258dd4c2b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GEN-ROD.ANS by Genesis (corp0394); released in corp0394 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 51-97
-# Columns: 1-80
+﻿# Artwork: GEN-ROD.ANS by Genesis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-corp0394-gen-rod-part02
 
 Write-Host '
 [1;30m [0;31m▀█▄[0m      [31m▐██[0;1;31m█[0m           [1;30;41m▐[0m [1;30;40m▐▌▄▌[0m     [1;30;40m▌▓▒░░[0m             [1;30;40m░[0m

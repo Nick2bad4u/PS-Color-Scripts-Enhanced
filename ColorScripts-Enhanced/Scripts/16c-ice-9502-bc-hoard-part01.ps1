@@ -1,19 +1,4 @@
-﻿# Converted from: BC-HOARD.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9502/raw/BC-HOARD.ICE
-# Source Revision: archive-sha256:651d57ec8cfbb7a8c418d666720edd49ef86d48a0b256443452b3132c0397ce3
-# Source SHA-256: 07d198d4819510c31210993466ab292bdace13796caea2d51b40b763521a4709
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BC-HOARD.ICE by BodyCount (iCE); released in ice-9502 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Hoard Magazine
-# SAUCE Author: BodyCount
-# SAUCE Group: iCE
-# SAUCE Date: 19950302
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: YESSSSS!!!!!!
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Hoard Magazine by BodyCount | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9502-bc-hoard-part01
 
 Write-Host '
 

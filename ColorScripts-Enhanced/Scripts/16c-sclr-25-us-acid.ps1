@@ -1,18 +1,4 @@
-﻿# Converted from: US-ACID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-25/raw/US-ACID.ANS
-# Source Revision: archive-sha256:155c63f4ebfe557601b96fe32b39c51bbf83ff7df6b7135512d6b4d3f17d3905
-# Source SHA-256: 46dd0075ba2c46a1646d926ec82a16817c8d972526197ab50d9bc9cfa9013e32
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-ACID.ANS by Shadow Lord + Asd (secular); released in sclr-25 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: acid.org
-# SAUCE Author: shl & as-d
-# SAUCE Group: secular
-# SAUCE Date: 20020113
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: acid.org by Shadow Lord + Asd | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-25-us-acid
 
 Write-Host '
 

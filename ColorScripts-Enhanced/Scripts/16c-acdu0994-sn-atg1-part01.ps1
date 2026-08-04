@@ -1,18 +1,4 @@
-﻿# Converted from: SN-ATG1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0994/raw/SN-ATG1.ANS
-# Source Revision: archive-sha256:70e9e3ba45456511eb6a648215e7531dd3b7a09ca51f860ca2dd613c7dbc4d28
-# Source SHA-256: fa20a28e2de3fd5d88496350b0d7dfbbdca605a0d0e18a8efdae1d93888b645d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SN-ATG1.ANS by Spawn (ACiD Productions); released in acdu0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Alpha Trading Grounds
-# SAUCE Author: Spawn
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940901
-# SAUCE Dimensions: 80x141
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: Alpha Trading Grounds by Spawn | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0994-sn-atg1-part01
 
 Write-Host '
 

@@ -1,19 +1,4 @@
-﻿# Converted from: CXC_KALINKA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0822/raw/CXC_KALINKA.ANS
-# Source Revision: archive-sha256:ed72a43421208b7431337d20b0e65cf1daa85d400f3cf90754e23de5d5edd83f
-# Source SHA-256: 7403309952f57feb5064508e9aeb97d0286851801d16a210f75be75a118ac576
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CXC_KALINKA.ANS by CoaXCable (Mistigris); released in mist0822 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Kalinka
-# SAUCE Author: CoaXCable
-# SAUCE Group: Mistigris
-# SAUCE Date: 20220821
-# SAUCE Dimensions: 80x64
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Kalinka by CoaXCable | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0822-cxc-kalinka-part01
 
 Write-Host '
      ▄         ▄

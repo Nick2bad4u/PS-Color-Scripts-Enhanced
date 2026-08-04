@@ -1,18 +1,4 @@
-﻿# Converted from: FI-TF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0994/raw/FI-TF.ANS
-# Source Revision: archive-sha256:70e9e3ba45456511eb6a648215e7531dd3b7a09ca51f860ca2dd613c7dbc4d28
-# Source SHA-256: d9554203a1373ab4340291ddca783360c36732ee7154a115e8fdc7f00c0128f5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FI-TF.ANS by Forbidden Image + Bad Karma (ACiD Productions); released in acdu0994 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Terra Firma
-# SAUCE Author: Forbidden Image
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940901
-# SAUCE Dimensions: 80x295
-# Lines: 198-246
-# Columns: 1-80
+﻿# Artwork: Terra Firma by Forbidden Image + Bad Karma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0994-fi-tf-part05
 
 Write-Host '
 [1;33;40m▄▄▀▀▄▄█████▄▄██[0;1;33;41m▓▓▓[0;1;33;40m▀▀██▀▀█▌[0m▐[43m▓▒░  [0;33;40m█[0m                                  [33;40m█[0m

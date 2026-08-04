@@ -1,18 +1,4 @@
-﻿# Converted from: NJA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0598/raw/NJA.ANS
-# Source Revision: archive-sha256:e4eb608a76b35267c945e8d8ea0fbc9cde7f273818c342a2a37fa7f292193f2c
-# Source SHA-256: fb240d28dbe96fbf97ec8a5e90923fabde835fecac3684ab4acb0c9f3243b97e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NJA.ANS by skorpionen (poffelipoff); released in plf-0598 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: skorpan
-# SAUCE Author: skorpionen
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19980529
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: skorpan by skorpionen | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0598-nja
 
 Write-Host '
 [1;31m [0m

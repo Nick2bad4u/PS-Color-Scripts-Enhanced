@@ -1,18 +1,4 @@
-﻿# Converted from: ST-REV.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rev0302/raw/ST-REV.ANS
-# Source Revision: archive-sha256:7b2619e0400d7382d19d38767873337eae71942dd319abc1998c71f4a968776f
-# Source SHA-256: 104add76d59d77d3e5f041748de7badd62d7e993f312e3b04a6e40060fc72ec6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-REV.ANS by splatt (Revival 2002); released in rev0302 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Revival
-# SAUCE Author: splatt
-# SAUCE Group: Revival 2002
-# SAUCE Date: 20020303
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Revival by splatt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rev0302-st-rev
 
 Write-Host '
 [1m████[0;1;47m▀[0m▀[1;47m▄[0m▄[1;47m▄[0;1;40m█████████████████████[0;1;47m▄▄▄[0;1;40m▄▄[0m▄▐[1m██████████████████[0;1;47m█[0m▌[1;30m░[0;1;30;47m▌[0m█[1m██████[0;1;47m▄▄[0;1;40m▄[0m▄[1m [0m▀[30;47m░[0;37;40m▓[0;1;37;47m░▒▓▓▓▓[0m

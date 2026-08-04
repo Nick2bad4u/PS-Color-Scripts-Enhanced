@@ -1,18 +1,4 @@
-﻿# Converted from: SM!AREA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge06/raw/SM!AREA.ANS
-# Source Revision: archive-sha256:3343a7da51e4a450136a75930623f444cfdaa25bcfa6b32a1ded4c93bc4637e9
-# Source SHA-256: 49e23bd367c4b7f53dca34577141cda804cbd2dcb343c11569462f03230ed1ce
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM!AREA.ANS by sims (avenge); released in avenge06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: area51
-# SAUCE Author: sims
-# SAUCE Group: avenge
-# SAUCE Date: 19980630
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: area51 by sims | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge06-sm-area
 
 Write-Host '
                    [36m▐[0m           [1;33m   [0;1;37m░░[0m░[1;30m▓▓░[0;1;33m  [0;1;37m [0;1;30m▓▓[0;30;47m░[0;1;37;40m▓▓[0;1;37;43m███[0;1;37;40m▄▄▄[0m

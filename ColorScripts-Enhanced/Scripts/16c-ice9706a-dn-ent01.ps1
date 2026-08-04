@@ -1,18 +1,4 @@
-﻿# Converted from: DN-ENT01.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9706a/raw/DN-ENT01.ICE
-# Source Revision: archive-sha256:0a30d58a68f6ed8491028319032dfc5288ff391a510df01a40b96a6e80e9a009
-# Source SHA-256: 4e5d80bb27bd83594a7af6410b43304fe32b057c7649b2a2bc18051c100c2fa7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DN-ENT01.ICE by dreadnought (iCE); released in ice9706a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: entropy matrix
-# SAUCE Author: dreadnought
-# SAUCE Group: iCE
-# SAUCE Date: 19970614
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: entropy matrix by dreadnought | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9706a-dn-ent01
 
 Write-Host '
 [1m▓[0;1;47m▓[0;1;40m█[0;1;33;40m█▌[0;1;33;41m░[0;1;33;47m▓▓[0;1;37;40m██████[0;1;33;40m██▀▓ [0;1;33;41m▓░[0;1;33;40m█[0;1;33;41m▓[0;1;33;40m [0;1;33;41m▓[0;1;33;40m███[0;1;37;47m██[0;1;37;40m█[0;1;37;47m▓[0;1;33;40m█[0;1;33;41m▓[0;1;33;40m▄[0;33m [0;1;33m▐██[0;1;37;47m████[0;1;33;40m███[0;1;33;41m▓[0;1;33;40m▄ ▀█▌[0;32m  █[0;1;32;42m▄[0;1;32;47m▓▓[0;1;32;42m███▓[0;32m▌▄▄[0;37m [0;32m▀[0;1;37;42m░▀▐[0;1;32;42m██[0;32m▄▄[0;1;37;42m░▄[0;1;32;47m▓[0;1;32;42m▓[0;30;42m░[0m

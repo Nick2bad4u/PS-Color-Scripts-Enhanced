@@ -1,18 +1,4 @@
-﻿# Converted from: US-SAUCE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz03feb/raw/US-SAUCE.ANS
-# Source Revision: archive-sha256:d402090580beb42f827386e6ac87eabae48765a9dcac692e22ff2b8314efb7a2
-# Source SHA-256: 85baa713f004e32f00536aaf0d90d9719bdce14eb7f995aa571e07b265ee9fea
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SAUCE.ANS by Iceage + Grind King (lazarus); released in laz03feb and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: special sauce
-# SAUCE Author: iceage & grind king
-# SAUCE Group: lazarus
-# SAUCE Date: 19970203
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: special sauce by Iceage + Grind King | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz03feb-us-sauce
 
 Write-Host '
 

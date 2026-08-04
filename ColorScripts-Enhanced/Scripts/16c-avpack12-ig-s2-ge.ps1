@@ -1,18 +1,4 @@
-﻿# Converted from: IG&S2-GE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avpack12/raw/IG%26S2-GE.ANS
-# Source Revision: archive-sha256:55286e18e28c272f11e63b1c16158d9df2657a21ca3df761a4c27630305acaa1
-# Source SHA-256: 78ccde474caa710dc198478b3b5c2945b1b912194d26da3856f20c72dcd92ceb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IG&S2-GE.ANS by Insurge + Sq2 (sq2(ice) ig(---)); released in avpack12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: gehenna (ooze compo)
-# SAUCE Author: Insurge + Sq2
-# SAUCE Group: sq2(ice) ig(---)
-# SAUCE Date: 19960621
-# SAUCE Dimensions: 80x25
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: gehenna (ooze compo) by Insurge + Sq2 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avpack12-ig-s2-ge
 
 Write-Host '
                                                                            [1;30m░[0m

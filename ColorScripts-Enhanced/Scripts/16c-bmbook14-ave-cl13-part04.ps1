@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-CL13.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook14/raw/AVE-CL13.ANS
-# Source Revision: archive-sha256:f7fe2a62d3e7b3b16687ce251209098ea8d86719a4cfa33dae1489e0c9af9278
-# Source SHA-256: be4429a8f03dce5859adece92cd7baf55cd8929206cd4441c6eb5ba9b26fe6ae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-CL13.ANS by avenger (black maiden); released in bmbook14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: logocluster #13
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19970629
-# SAUCE Dimensions: 80x334
-# Lines: 139-185
-# Columns: 1-80
+﻿# Artwork: logocluster #13 by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook14-ave-cl13-part04
 
 Write-Host '
 [35m speedloader [0;1;34m- [0;32mtrade[0;1;34m - [0;33mphonyeye [0;1;34m------------------------------------------- [0;36m■[0;1;34m -[0m

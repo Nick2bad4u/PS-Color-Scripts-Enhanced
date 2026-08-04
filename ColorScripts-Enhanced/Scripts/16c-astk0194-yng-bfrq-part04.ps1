@@ -1,13 +1,4 @@
-﻿# Converted from: YNG-BFRQ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/astk0194/raw/YNG-BFRQ.ANS
-# Source Revision: archive-sha256:85386f5551c42a88135027c451bdde0caf298cc394973b954eb4073e747445c6
-# Source SHA-256: 73454f4885e25ff65bba42680e49da25730d3d8b798ae5def9e057db0cf17eaa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: YNG-BFRQ.ANS by Young (astk0194); released in astk0194 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 138-185
-# Columns: 1-80
+﻿# Artwork: YNG-BFRQ.ANS by Young | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-astk0194-yng-bfrq-part04
 
 Write-Host '
                                  [1;30;41m▓▓▓▓[0m [31m▄▄[0;1;30;41m▓▓[0m       [34m▀[0m

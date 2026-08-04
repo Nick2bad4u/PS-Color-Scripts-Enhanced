@@ -1,18 +1,4 @@
-﻿# Converted from: SMI-RMX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/k-ronin/raw/SMI-RMX.ANS
-# Source Revision: archive-sha256:1cf524db9c88845a87436294bf9ad4e7b661b688c5b065b442b074cbc8f8d22f
-# Source SHA-256: 21ceecadf1f77222c6048333c2da06152465f0b9078e7a6e018bb652d19fb912
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SMI-RMX.ANS by samurai (klexikal); released in k-ronin and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ruh ruh ruh reeeemix!
-# SAUCE Author: samurai
-# SAUCE Group: klexikal
-# SAUCE Date: 19990524
-# SAUCE Dimensions: 80x148
-# Lines: 99-148
-# Columns: 1-80
+﻿# Artwork: ruh ruh ruh reeeemix! by samurai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-k-ronin-smi-rmx-part03
 
 Write-Host '
 [37m [0;36m▒▓▒█▀▓[0m   [33m░[0m     [36m░ [0m   [33m▓▄■[0m    [1;31;43m ░[0;33m█[0;1;31;43m░[0;33m███▀▄[0;1;33;43m░▒░[0;33m██████▀████████▓▄[0;37m  [0;33m░[0;37m [0;33m▄■[0m   [36m ▒▓▒[0;1;36m▐▓[0;36m███████[0m

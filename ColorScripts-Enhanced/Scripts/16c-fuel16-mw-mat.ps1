@@ -1,18 +1,4 @@
-﻿# Converted from: MW-MAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel16/raw/MW-MAT.ANS
-# Source Revision: archive-sha256:78bbfd1159c4b51678435d1ff23762559e425f3010119f2abd28bf83d67e513d
-# Source SHA-256: a576f301b9f8dca0dd2aec838b2753c7441832dde598632baf5cdc8541c99150
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MW-MAT.ANS by mangowhacko (fuel); released in fuel16 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: mat
-# SAUCE Author: mangowhacko
-# SAUCE Group: fuel
-# SAUCE Date: 19970902
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: mat by mangowhacko | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel16-mw-mat
 
 Write-Host '
                                    [33m▄░[0m

@@ -1,19 +1,4 @@
-﻿# Converted from: DEL-FIR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-40/raw/DEL-FIR1.ANS
-# Source Revision: archive-sha256:aff8105c0a955ac5c43ea367a02b086cd2849f6741fc41b8a5ff440b77e104a7
-# Source SHA-256: 9b2dd78d0b765ed6002ed3a20942539f1df62a70385b0319dd6f6844cc530edd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DEL-FIR1.ANS by delicious (blocktronics); released in fire-40 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Fire
-# SAUCE Author: delicious
-# SAUCE Group: blocktronics
-# SAUCE Date: 20240707
-# SAUCE Dimensions: 80x24
-# SAUCE Font: IBM VGA
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Fire by delicious | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-40-del-fir1
 
 Write-Host '
                                      [37;40m▄[0m

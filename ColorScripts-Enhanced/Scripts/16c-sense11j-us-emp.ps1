@@ -1,18 +1,4 @@
-﻿# Converted from: US!-EMP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense11j/raw/US!-EMP.ANS
-# Source Revision: archive-sha256:9c1c7edf0d14ae95ae7a9cfcfa9322814b13baa95c33699852fa04d6685f708d
-# Source SHA-256: 2ac181ede7f728f175994bb889d2845f1681be047cd10efefa47c92cdbb2fe20
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US!-EMP.ANS by Avenging Angel + Velodrome (sense); released in sense11j and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Empathy
-# SAUCE Author: avg + velo
-# SAUCE Group: sense
-# SAUCE Date: 20021202
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: Empathy by Avenging Angel + Velodrome | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense11j-us-emp
 
 Write-Host '
 

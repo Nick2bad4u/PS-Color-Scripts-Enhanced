@@ -1,17 +1,4 @@
-﻿# Converted from: 32-MTRX.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fld9612/raw/32-MTRX.ANS
-# Source Revision: archive-sha256:398e960abe90b9818bfc3a6f74dd54965f44f4021cfa626535308061d6595a9e
-# Source SHA-256: cf8f0142a2f06bae9c7c7f301846def052b0bb45a003c266336fdddc8111d900
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 32-MTRX.ANS by ezy (fluid); released in fld9612 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: octagon matrix
-# SAUCE Author: ezy
-# SAUCE Group: fluid
-# SAUCE Dimensions: 80x25
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: octagon matrix by ezy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fld9612-32-mtrx
 
 Write-Host '
  [1;34m▄▄▄▄▓███████████[0;1;34;44m▓▓▓[0;1;34;40m█████▀██▀▀██[0;1;34;47m▓▓[0;1;34;40m█▄▄ [0m               [35m░[0m      [35m▄[0m            [35m▀[0m

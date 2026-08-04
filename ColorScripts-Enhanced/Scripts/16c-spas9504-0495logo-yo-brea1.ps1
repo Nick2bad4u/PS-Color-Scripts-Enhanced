@@ -1,18 +1,4 @@
-﻿# Converted from: YO-BREA1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spas9504-0495logo/raw/YO-BREA1.ANS
-# Source Revision: archive-sha256:89c1feb884e65209cc472c1d73a5f8c12daff7a9a9a0e2d7e56ea31f10a06fe9
-# Source SHA-256: 7e8a436afdb4c86b9fe87cd469acd1090d2749ddf1597c52b43e7f33e26df617
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: YO-BREA1.ANS by Young (Spastic Studios); released in spas9504-0495logo and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Break On Through
-# SAUCE Author: Young
-# SAUCE Group: Spastic Studios
-# SAUCE Date: 19950312
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Break On Through by Young | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spas9504-0495logo-yo-brea1
 
 Write-Host '
 [1;31;41m░  [0;41m░■   ░▒■    [0;31;40m▀█[0;31;41m  [0;37;41m░■ ░░▒▒■[0;31;40m████▀████[0;37;41m░▒■[0;31;40m█████[0;37;41m░▒■[0;31;40m██ ░ ░ ░[0m                       [31;40m░[0m

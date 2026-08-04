@@ -1,19 +1,4 @@
-﻿# Converted from: US-VUDOO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fire-34/raw/US-VUDOO.ANS
-# Source Revision: archive-sha256:14c1d4ed9a32af54f838fd5875705e49ce8fe765c2877b1c2d24ee04edc23b21
-# Source SHA-256: 099836eeee3fdc04fdcff8cbed2bde592ab5fed237f9f1bd723478be28250782
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-VUDOO.ANS by Misfit + Jack Phlash (Blocktronics); released in fire-34 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Voodoo Island
-# SAUCE Author: Misfit & Jack Phlash
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20200512
-# SAUCE Dimensions: 80x93
-# SAUCE Font: IBM VGA
-# Lines: 1-46
-# Columns: 1-80
+﻿# Artwork: Voodoo Island by Misfit + Jack Phlash | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fire-34-us-vudoo-part01
 
 Write-Host '
                                [35;40m▄[0m

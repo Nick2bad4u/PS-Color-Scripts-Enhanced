@@ -1,13 +1,4 @@
-﻿# Converted from: RO-SANCT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/grim-03/raw/RO-SANCT.ANS
-# Source Revision: archive-sha256:ebc036abf9a775cca5b26ca6cd97418b4cbcbb8a88c78d39df773432429bd88a
-# Source SHA-256: 49a9bf762a0b795b8d6c66a5a12d3ccfc6673c71454b6a448698cfc6e12f27dd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RO-SANCT.ANS by Repete Ophender (grim-03); released in grim-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 38-74
-# Columns: 1-80
+﻿# Artwork: RO-SANCT.ANS by Repete Ophender | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-grim-03-ro-sanct-part02
 
 Write-Host '
 [1;36;40m█████   [0;1;30;40m░▒▓░ [0;31m▀ ▄[0;1;31;41m▒░[0;31m▄ [0;1;32;42m░[0;32m▀ [0;31m▄▄[0;1;31;41m▒▓[0;1;31;40m██[0;1;31;41m▓▓▒▓[0;31m▄ [0;1;31;41m░▒▓▓[0;1;31;40m██[0;1;31;41m▓[0m [32m▀[0;1;32;42m░▒▒[0;32m▄ [0;1;31;41m░▒▓▓▒░[0m [1;36;40m▄███▄ [0;1;31;41m░░▒███▓▒░[0m [1;36;40m▀██████[0m

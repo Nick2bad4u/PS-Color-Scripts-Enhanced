@@ -1,18 +1,4 @@
-﻿# Converted from: CO!TMBBS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0696/raw/CO!TMBBS.ANS
-# Source Revision: archive-sha256:1ba4c8d098d1b0f05665c254631c4d3b64f02872fa1b37e7519ce6b263840874
-# Source SHA-256: 637adc4673e47c8392e18c857e2c5ad5bb55a7cd449160dbc949772d013a8586
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CO!TMBBS.ANS by cocox (opium); released in opx-0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: the magic bbs logo..
-# SAUCE Author: cocox
-# SAUCE Group: opium
-# SAUCE Date: 19960601
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: the magic bbs logo.. by cocox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0696-co-tmbbs
 
 Write-Host '
 

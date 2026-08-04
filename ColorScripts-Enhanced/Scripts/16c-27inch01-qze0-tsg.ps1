@@ -1,13 +1,4 @@
-﻿# Converted from: QZE0-TSG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch01/raw/QZE0-TSG.ANS
-# Source Revision: archive-sha256:bcdfc9b2605e2362d13ac77fb62c5078fc12465fcf977c00e2a69fa522191716
-# Source SHA-256: e326f96c4b53d3a2b3f4694264f7822999388f63e0adbfbde5a3dc9766d07bb6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: QZE0-TSG.ANS by Enzo + Quazar (27inch01); released in 27inch01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: QZE0-TSG.ANS by Enzo + Quazar | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch01-qze0-tsg
 
 Write-Host '
 [1;33;41m░░[0;31m▄▄▄▄▀▓[0;1;30;41m  [0;1;33;41m░░ [0;1;37;41m [0;31m███▄▄▀█[0;1;30;41m   [0;31m██████[0;31;44m█[0;31;40m█▓█▓░▀ [0;1;30;40m▄█▀[0;32m  [0;1;30m▀▀▀[0;32m  [0;1;30m▄▄▄▄▄▄▄▄[0;32m [0;31m░▓▓█▓▓▒░  ░░[0;32m [0;1;30;47m█[0;1;30;40m▀▀▀▄▄[0;32m [0;31m░▓█[0m

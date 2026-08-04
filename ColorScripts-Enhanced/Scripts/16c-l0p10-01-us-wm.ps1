@@ -1,18 +1,4 @@
-﻿# Converted from: US-WM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/l0p10_01/raw/US-WM.ANS
-# Source Revision: archive-sha256:07a7c989e195c9828a0ca382f79fb6d55a731b3471cfb9534617813c733c980c
-# Source SHA-256: fc289f01eb56ccf0bdba9ae552e5230c04095520da3e325b4d6cfce4720de9a7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-WM.ANS by Simonking + Avenger (black maiden^thelo0p); released in l0p10_01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: wm
-# SAUCE Author: avenger^simonking
-# SAUCE Group: black maiden^thelo0p
-# SAUCE Date: 20010319
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: wm by Simonking + Avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-l0p10-01-us-wm
 
 Write-Host '
 a[1;30mve[0m.b[1;30mlack[0m_m[1;30maiden[0m                                                  ▄▄[1;30m▄[0m▀▀▀[1;30m▀▀▀[0m

@@ -1,20 +1,4 @@
-﻿# Converted from: CJY-iVY.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0725/raw/CJY-iVY.ANS
-# Source Revision: archive-sha256:f8228caade9b0e4810405349f1959bd68f07890aea1a0d6aaa1eef2a322b5f21
-# Source SHA-256: c2d73104a4bbaab2ca95519ed63f01811376026abf124cd49a54c8c1dec1724c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CJY-iVY.ANS by consolejockey (mistigris); released in mist0725 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: iVY
-# SAUCE Author: consolejockey
-# SAUCE Group: mistigris
-# SAUCE Date: 20250731
-# SAUCE Dimensions: 80x34
-# SAUCE Font: IBM VGA
-# SAUCE Comments: A portrait of my cat. Love you, Ivy!
-# Lines: 1-34
-# Columns: 1-80
+﻿# Artwork: iVY by consolejockey | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0725-cjy-ivy
 
 Write-Host '
  [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m     [1;30m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m

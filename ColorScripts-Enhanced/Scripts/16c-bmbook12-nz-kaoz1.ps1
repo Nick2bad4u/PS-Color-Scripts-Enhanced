@@ -1,18 +1,4 @@
-﻿# Converted from: NZ-KAOZ1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook12/raw/NZ-KAOZ1.ANS
-# Source Revision: archive-sha256:ec66f5bb4ed961133c52314c375d67af30a5295789eb6bfc6eda91ebf8999fc2
-# Source SHA-256: 43827050a7410568b5bf48f156fca57a3609dfc5d08810204a84d73a6ebe5501
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NZ-KAOZ1.ANS by noize (black maiden); released in bmbook12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: kaoz
-# SAUCE Author: noize
-# SAUCE Group: black maiden
-# SAUCE Date: 19970228
-# SAUCE Dimensions: 80x25
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: kaoz by noize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook12-nz-kaoz1
 
 Write-Host '
 [1;31;41m▄[0;1;31;47m▓░[0;31m▌[0;1;31m█▀[0;31m▀[0m        [37m      [0;31m▀[0;1;31m▀▀[0;1;31;41m▀▀[0;1;31;47m░░▓[0;1;31;41m███▀▀[0;1;31;40m▐▀[0;31m▀[0m               [31m▀▀[0;1;31;41m▀▀████[0;1;31;40m▄[0;32m░[0m      [31m█[0;1;31;41m█[0m     [31m░░ ░ [0m

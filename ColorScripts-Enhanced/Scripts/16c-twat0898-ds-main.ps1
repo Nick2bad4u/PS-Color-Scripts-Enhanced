@@ -1,13 +1,4 @@
-﻿# Converted from: DS_MAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/twat0898/raw/DS_MAIN.ANS
-# Source Revision: archive-sha256:0cfb9e5214b9f4b7e848adb2e6e35e5cd77ea07127cdeac90929316a6da2cd99
-# Source SHA-256: 391603bb3946ba9fe2efe1f53bc228ff60483fac10027ba2518fedbad80d94cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DS_MAIN.ANS by Wargod (twat0898); released in twat0898 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: DS_MAIN.ANS by Wargod | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-twat0898-ds-main
 
 Write-Host '
    [1;30m███▓█▀▀ ▀▀▀▀▀▀  ▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀███▓█[0m

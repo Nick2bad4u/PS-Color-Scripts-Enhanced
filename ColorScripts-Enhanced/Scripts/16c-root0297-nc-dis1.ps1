@@ -1,15 +1,4 @@
-﻿# Converted from: NC-DIS1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0297/raw/NC-DIS1.ANS
-# Source Revision: archive-sha256:ecfcd3f5cd2c4412c60edbfa5c15fbea724948a8a18d0e8a8931276c9082657e
-# Source SHA-256: 9483ef4e756890a98729d3bd0235a0aaaddcfad6dfd900367cc356f6369b397d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NC-DIS1.ANS by Necrolyte (root0297); released in root0297 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Disorder
-# SAUCE Author: Necrolyte
-# Lines: 1-7
-# Columns: 1-80
+﻿# Artwork: Disorder by Necrolyte | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0297-nc-dis1
 
 Write-Host '
       [34m▄  [0;30;44m░[0;34;40m▄▄█▀▀ ▀▀▀▀▀ [0;30;44m░[0;34;40m█▄█ ▄▄██▀▀ ▀ [0;30;44m░[0;34;40m█▄██▀▀ ▄██▄▄█ [0;30;44m░[0;34;40m███▀▀▀██▄▄██▀ ▀[0;30;44m░[0;34;40m█▀█▀▀ ▄▄[0m

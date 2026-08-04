@@ -1,18 +1,4 @@
-﻿# Converted from: THE_ELK-DEPTHS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist1019/raw/THE_ELK-DEPTHS.ANS
-# Source Revision: archive-sha256:98716931f8039155308dfebf57d5b2f42a6a675c2965d4be6a87f9b4c8fa26af
-# Source SHA-256: 6d644a493c13178deec995ce679ba3596168ffa192eed8e7d35e9662eaa439f5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: THE_ELK-DEPTHS.ANS by the elk (mist1019); released in mist1019 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the psychedelic depths
-# SAUCE Author: the elk
-# SAUCE Date: 20190920
-# SAUCE Dimensions: 80x93
-# SAUCE Font: IBM VGA
-# Lines: 50-93
-# Columns: 1-80
+﻿# Artwork: the psychedelic depths by the elk | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist1019-the-elk-depths-part02
 
 Write-Host '
 [38;2;0;171;0;48;2;0;0;0m▒▓███[0m      [1;38;2;87;255;87;48;2;0;0;0m▓▓[0;38;2;0;0;0;48;2;255;255;255m▓▓▓▓▓▓▓▓▓▓▓[0;38;2;0;171;0;48;2;0;0;0m░░[0;1;38;2;255;255;255;48;2;0;0;0m░▒[0;1;38;2;87;255;87;48;2;0;0;0m▓[0;1;38;2;255;255;255;48;2;0;0;0m░[0;38;2;0;171;0;48;2;0;0;0m░░[0;1;38;2;255;255;255;48;2;0;0;0m▓[0;1;38;2;87;255;87;48;2;0;0;0m▓▓▓▓[0;1;38;2;255;255;255;48;2;0;0;0m▓█[0;1;38;2;87;255;87;48;2;0;0;0m▓▓▓▓[0;1;38;2;255;255;255;48;2;0;0;0m▒[0;38;2;0;171;0;48;2;0;0;0m░[0;1;38;2;255;255;255;48;2;0;0;0m░▓[0;1;38;2;87;255;87;48;2;0;0;0m▓▓▓[0;1;38;2;255;255;255;48;2;0;0;0m [0;1;38;2;87;255;87;48;2;0;0;0m▓[0;1;38;2;255;255;255;48;2;0;0;0m [0;1;38;2;87;255;87;48;2;0;0;0m▓▓▓[0;1;38;2;255;255;255;48;2;0;0;0m▓▓  ░▓[0;38;2;0;171;0;48;2;0;0;0m█▓▓▓███▓▒▒▒░[0;38;2;171;171;171;48;2;0;0;0m  [0;38;2;0;171;0;48;2;0;0;0m░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: FL-MAB.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr006/raw/FL-MAB.ANS
-# Source Revision: archive-sha256:d5963037ced31fdb210a4b96b24d0d6ada43f938e508dcb50befdb7e45a6d6b7
-# Source SHA-256: 1303450683513330c3e4fdf0367266b2663bfe47bcd44de783634f1c63e75341
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-MAB.ANS by Flame (blndr006); released in blndr006 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: FL-MAB.ANS by Flame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr006-fl-mab
 
 Write-Host '
 ░░[1;30m██▓▀▀▀▀▀[0m▒[1;30m█▄▄░[0m  [1;30m▄▄[0m▒[1;30m█████▓▄░[0m [1;30m▀ ▄▄ [0m                                           [1;30m`''£[0m

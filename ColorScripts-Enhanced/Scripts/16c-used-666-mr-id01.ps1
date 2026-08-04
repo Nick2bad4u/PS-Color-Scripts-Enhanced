@@ -1,18 +1,4 @@
-﻿# Converted from: MR-ID01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-666/raw/MR-ID01.ANS
-# Source Revision: archive-sha256:d11115b3587e62c1c707f1a564cfc3a42ffe40bb5da491c5f6813d8a56931618
-# Source SHA-256: 57f971974f0e3646e157e0a678293cb66c2ab670d84daab740a75e78826562e8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-ID01.ANS by Mr.Wrong (The Used Coalition); released in used-666 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Idle dreams
-# SAUCE Author: Mr.Wrong
-# SAUCE Group: The Used Coalition
-# SAUCE Date: 20000726
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: Idle dreams by Mr.Wrong | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-666-mr-id01
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: US-TPS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/roc-best/raw/US-TPS.ANS
-# Source Revision: archive-sha256:ed2172be4f351fbbe490297eada190fa8af16bee5a8ce8834dea50cd318904c2
-# Source SHA-256: b56983300aa274adf4dd9e34372288bf2dc2e6e39aea93086521b5d0b843b3c3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TPS.ANS by Silver Rat + Samurai (ROC); released in roc-best and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Perfect Society
-# SAUCE Author: Multiple Artists
-# SAUCE Group: ROC
-# SAUCE Date: 19980816
-# SAUCE Dimensions: 80x48
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: The Perfect Society by Silver Rat + Samurai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-roc-best-us-tps
 
 Write-Host '
 [34m░[0m                                                                       [1;30m [0m

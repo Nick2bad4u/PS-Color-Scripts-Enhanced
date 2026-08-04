@@ -1,18 +1,4 @@
-﻿# Converted from: US-NEWS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook15/raw/US-NEWS.ANS
-# Source Revision: archive-sha256:e54ebc8c52f8d9379c31843d1a642e9eaaf309656353be720cf874920f543492
-# Source SHA-256: 92cfdc762225297de45dfec37471175698b10cf2144fb7cf62fc74fdc5a12daa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-NEWS.ANS by Poti + Alecs (bm & nerp); released in bmbook15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: news
-# SAUCE Author: poti.alecs
-# SAUCE Group: bm & nerp
-# SAUCE Date: 19970712
-# SAUCE Dimensions: 80x10
-# Lines: 1-10
-# Columns: 1-80
+﻿# Artwork: news by Poti + Alecs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook15-us-news
 
 Write-Host '
 [32m▀[0;1;32m▀[0;1;32;42m▀█[0;1;32;47m▄▐[0;32m [0;37m [0;1;37m▌[0m  [1m█▄██▀▀[0m▐[1;47m██[0;1;40m▄[0m▌ [1m▌[0;32m▐▀▀[0m   [1;37m▄▄[0m▐[1;47m█[0;1;40m█▌[0m   [1;47m▄▓[0;1;40m█[0m  [32m█▀[0;1;37;42m░▓[0;1;33;40m█[0;1;33;47m▓[0;32m▌▀▀▀ [0;37m   [0;1;37m▄[0m▐[1;47m█[0;1;40m█▀▀[0m▌  [1m▐ [0m  [32m█▄▄▄  ▀█[0;31m [0m

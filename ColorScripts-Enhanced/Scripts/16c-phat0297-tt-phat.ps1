@@ -1,18 +1,4 @@
-﻿# Converted from: TT-PHAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0297/raw/TT-PHAT.ANS
-# Source Revision: archive-sha256:2e15cb2f2712a143323c9f3c6ecca94c5b5b12a452a019e911d205dd685c6eee
-# Source SHA-256: 4fc487455700c621f781225164745fa28777074cd0de46cea9404a700403fbd2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TT-PHAT.ANS by the thrasher (phat studios '97); released in phat0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: phat font
-# SAUCE Author: the thrasher
-# SAUCE Group: phat studios '97
-# SAUCE Date: 19970114
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: phat font by the thrasher | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0297-tt-phat
 
 Write-Host '
 

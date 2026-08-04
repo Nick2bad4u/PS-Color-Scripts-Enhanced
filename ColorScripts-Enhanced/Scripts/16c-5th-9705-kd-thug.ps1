@@ -1,18 +1,4 @@
-﻿# Converted from: KD-THUG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/5th-9705/raw/KD-THUG.ANS
-# Source Revision: archive-sha256:7daa0e731d2e54336a8a942ac7e3ece1f1d82da83aebbe076363a57013ef2e8f
-# Source SHA-256: 3348c02c952814277104e794bf64613c07fb1311b33fa1873e6e0a89b4dccbc2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: KD-THUG.ANS by KLeaR DiSToRTioN ([Chaos InC. Rhyme]); released in 5th-9705 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fuqed up thug...
-# SAUCE Author: KLeaR DiSToRTioN
-# SAUCE Group: [Chaos InC. Rhyme]
-# SAUCE Date: 19970711
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: fuqed up thug... by KLeaR DiSToRTioN | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-5th-9705-kd-thug
 
 Write-Host '
 [1;34;44m░░░░▒▒▒▒▒▓▓▓[0;1;34;40m████████▀[0;30;44m█[0;30;46m██▀▀[0;1;36;46m░[0;30;46m   [0;1;36;46m░░░▓█▓▒[0;30;46m▀▀▀▀█████▄▄[0;1;36;46m░░[0;30;46m    [0;1;37;46m■[0;30;46m         [0;1;37;46m░░░░░▒▒░[0;30;46m▀▀██[0;1;34;40m▀███[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: DT-CR4.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/lap-0894/raw/DT-CR4.ANS
-# Source Revision: archive-sha256:b2a03b5c78be70014345dee66d7467be30e2aa99b3841f74540df8ffbe533d1c
-# Source SHA-256: ed4f296dad32014aad6ae1bdb5b5546e846dc6df7f90c1d54ecaf836bbb72af6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DT-CR4.ANS by Delirium Tremens (Lapse); released in lap-0894 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Crimson Insanity
-# SAUCE Author: Delirium Tremens
-# SAUCE Group: Lapse
-# SAUCE Date: 19940806
-# SAUCE Dimensions: 80x25
-# Lines: 101-146
-# Columns: 1-80
+﻿# Artwork: Crimson Insanity by Delirium Tremens | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-lap-0894-dt-cr4-part03
 
 Write-Host '
 

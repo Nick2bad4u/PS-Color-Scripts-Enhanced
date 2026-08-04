@@ -1,18 +1,4 @@
-﻿# Converted from: XR-#.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/smr-02/raw/XR-%23.ANS
-# Source Revision: archive-sha256:a870ba1f4cb4e3824f80f44b0deafc133c6b59039ebd4f0d9b44aa5772817dc5
-# Source SHA-256: 1a9b53eadb31938475bf8d13682671f0ed226e196e5c8135a985838fcd49735c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XR-#.ANS by xrip (smr); released in smr-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Smr Logo
-# SAUCE Author: xrip
-# SAUCE Group: smr
-# SAUCE Date: 20000629
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Smr Logo by xrip | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-smr-02-xr
 
 Write-Host '
                  [1;30m$$╜╜╜╜╜╜╜$$$$$$$$$$$$$$$$$$$$$$$$$²$$$$$$[0m

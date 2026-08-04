@@ -1,18 +1,4 @@
-﻿# Converted from: DX-LGS!.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plenty/raw/DX-LGS!.ANS
-# Source Revision: raw-sha256:0dbcd5050bcf47d2d3fde89066c2d87c332631b244745e08c8204787992c9d97
-# Source SHA-256: 0dbcd5050bcf47d2d3fde89066c2d87c332631b244745e08c8204787992c9d97
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DX-LGS!.ANS by dexter (slogan); released in plenty and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: crown of logrus
-# SAUCE Author: dexter
-# SAUCE Group: slogan
-# SAUCE Date: 20000106
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: crown of logrus by dexter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plenty-dx-lgs
 
 Write-Host '
   [1;36m ▄▀▀▀ ▀[0m [1;35m             [0m

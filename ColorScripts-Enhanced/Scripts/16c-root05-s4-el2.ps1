@@ -1,18 +1,4 @@
-﻿# Converted from: S4-EL2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root05/raw/S4-EL2.ANS
-# Source Revision: raw-sha256:91b423c5b3c3c7e241e5bfe9ba8484023758bd1129b2fa10b5458314b193c8dc
-# Source SHA-256: 91b423c5b3c3c7e241e5bfe9ba8484023758bd1129b2fa10b5458314b193c8dc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: S4-EL2.ANS by Static Addiction (Root); released in root05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: el255 chix0r.
-# SAUCE Author: Static Addiction
-# SAUCE Group: Root
-# SAUCE Date: 19970717
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: el255 chix0r. by Static Addiction | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root05-s4-el2
 
 Write-Host '
 [34ms4 ▄▄▓▀▀▄▄[0;1;34;44m░▒▒░[0;34m█▀[0;37m  [0;34m▀[0;1;34;44m░[0;1;30;40m  [0;34m▀[0;37m [0;34m▄▄▄▓[0;36;44m░░[0;1;34;44m░░[0;34m█▓▀▀▀███▄▄▄[0;31m▀▀██[0;1;31;41m▀▀█[0;1;31;47m▓[0;1;31;41m█▀[0;31m█▀[0;37m [0;31m▄▄[0;37m [0;31m▀██[0;1;31;41merrorlevel[0;31m████[0;1;31;41m▀▀█[0;1;31;47m▓[0m

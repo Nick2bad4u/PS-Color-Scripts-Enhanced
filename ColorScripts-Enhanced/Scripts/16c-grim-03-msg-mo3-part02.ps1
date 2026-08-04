@@ -1,13 +1,4 @@
-﻿# Converted from: MSG-MO3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/grim-03/raw/MSG-MO3.ANS
-# Source Revision: archive-sha256:ebc036abf9a775cca5b26ca6cd97418b4cbcbb8a88c78d39df773432429bd88a
-# Source SHA-256: f5f81087d1a46c10b791f5ad6b9fe7aff448a9942af597bdc12f23e2ae31ad95
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MSG-MO3.ANS by Manslaughter (grim-03); released in grim-03 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 48-84
-# Columns: 1-80
+﻿# Artwork: MSG-MO3.ANS by Manslaughter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-grim-03-msg-mo3-part02
 
 Write-Host '
               [1;30m░[0m                     [33m▓▒░▒▓    [0;1;30m░  ░[0m              [1;30m░   ░[0m

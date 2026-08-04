@@ -1,13 +1,4 @@
-﻿# Converted from: MST!FAC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spr_07/raw/MST!FAC.ANS
-# Source Revision: archive-sha256:491a09c0e89bb57ae22cc79be83b57d04e479fcd9fe6a15bcb489d11b02aee41
-# Source SHA-256: af5c98acae95db6b7b20a94f5084d9cbf9714a8b6173c47dbdde2b3ff4dba786
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MST!FAC.ANS by Mist (spr_07); released in spr_07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: MST!FAC.ANS by Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spr-07-mst-fac
 
 Write-Host '
           [1m                                             [0;1;30m▀▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▄▓▄▄▄[0m

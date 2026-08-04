@@ -1,18 +1,4 @@
-﻿# Converted from: US-USED1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-02/raw/US-USED1.ANS
-# Source Revision: archive-sha256:21302c91644277d9117a9a1fcab004f6fa76d5a90d6a4926e513a24dd5b73cd5
-# Source SHA-256: 7d0316d164d363b0c7cc4d977132959bca4c7119fe2266a5e0a1dc3e52b9a39d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-USED1.ANS by Spear + Rzicus + Thext (Used); released in used-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Used
-# SAUCE Author: rzicus/spear/thext
-# SAUCE Group: Used
-# SAUCE Date: 19991216
-# SAUCE Dimensions: 80x28
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: Used by Spear + Rzicus + Thext | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-02-us-used1
 
 Write-Host '
       [36m▀▀▀[0;1;36m▀▀[0m▀[36m▄▄[0;1;36m▄[0m▄[36m ▀[0;1;36m▄[0;36m▄[0;37m [0;36m▀[0;1;30;46m░▒▓▓▓▓▓▓▓[0;1;30;40m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[0;1;30;46m▓▓▓▓▓▓▓▒░[0;36m▀[0;1;30m [0m [1;36m▄[0;36m ▀ [0;37m▄[0;1;36m▄[0;36m▄[0;37m▀[0;1;36m▀[0;36m▀▀ [0m

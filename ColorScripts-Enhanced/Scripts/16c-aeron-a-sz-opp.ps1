@@ -1,13 +1,4 @@
-﻿# Converted from: sz-opp.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aeron-a/raw/sz-opp.ans
-# Source Revision: archive-sha256:77ae7b32523591af134f7f3f8b7b910fee96858615d2fc199e08003552f80728
-# Source SHA-256: df6d4883c6b09d649fead266248a31774208148f8c341af2c2dee4ded0cbfd39
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sz-opp.ans by Slackzor (aeron-a); released in aeron-a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: sz-opp.ans by Slackzor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aeron-a-sz-opp
 
 Write-Host '
 

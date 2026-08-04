@@ -1,18 +1,4 @@
-﻿# Converted from: SD-ECL3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-03/raw/SD-ECL3.ANS
-# Source Revision: archive-sha256:8478e7ed47e52d1e07bf55e17a5f105ced4b468c6f56a8b59fd6b8ef8dada5ca
-# Source SHA-256: 6039e975c62916cab9b4d09966c5b89461396eb546f988efba4f11edab4c0a08
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SD-ECL3.ANS by sir_death (eclipse); released in ecl-03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: my(rai's) favorite logo ever! :)
-# SAUCE Author: sir_death
-# SAUCE Group: eclipse
-# SAUCE Date: 19960713
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: my(rai's) favorite logo ever! :) by sir_death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-03-sd-ecl3
 
 Write-Host '
                                   [36m [0m

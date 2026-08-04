@@ -1,15 +1,4 @@
-﻿# Converted from: XS_NEWS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise07/raw/XS_NEWS.ANS
-# Source Revision: archive-sha256:e9fb6933d41a936134d4f2611eadee07355a10c1a02cff6221e1c572c3d24d6d
-# Source SHA-256: ececdae9855a02b14c6ba8a8f6a038cc34f79239ef2b891c6b16565f9f5e2c2f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XS_NEWS.ANS by Xsys (uprise07); released in uprise07 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 19980716
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: XS_NEWS.ANS by Xsys | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise07-xs-news
 
 Write-Host '
   [30;41m██[0;37;40m         [0m             [1;30;40m▄▄▄▄[0m

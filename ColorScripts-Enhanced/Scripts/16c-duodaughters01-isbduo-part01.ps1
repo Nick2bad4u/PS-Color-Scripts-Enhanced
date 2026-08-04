@@ -1,16 +1,4 @@
-﻿# Converted from: ISBDUO.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/duodaughters01/raw/ISBDUO.ans
-# Source Revision: archive-sha256:107dcc7639647744884177ba1bc2147746cc2fe523012ebd967c4f8ee48caaef
-# Source SHA-256: ee3ad1f621e1c537c93a71d972bcf0596bd1c2cacaaa79071fbf7298203991d7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ISBDUO.ans by Dark Wizard (duodaughters01); released in duodaughters01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Date: 20151211
-# SAUCE Dimensions: 80x70
-# SAUCE Font: IBM VGA
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: ISBDUO.ans by Dark Wizard | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-duodaughters01-isbduo-part01
 
 Write-Host '
 

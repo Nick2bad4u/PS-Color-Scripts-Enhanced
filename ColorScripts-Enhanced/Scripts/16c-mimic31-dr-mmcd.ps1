@@ -1,13 +1,4 @@
-﻿# Converted from: dr-mmcd.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic31/raw/dr-mmcd.ans
-# Source Revision: archive-sha256:ee450064cec26d9339c543030d303f94db3e515058fc530d084e7a4f78530e54
-# Source SHA-256: 41a7b9b6fc0174383041bd054be56e6c1dfc242a2bf5d27feb4518309d99e2d6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: dr-mmcd.ans by Dr Shizuma (mimic31); released in mimic31 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: dr-mmcd.ans by Dr Shizuma | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic31-dr-mmcd
 
 Write-Host '
 [1m,.[0m     .,[1m ,.[0m  ,       [1m,[0m  [1m.,[0m    .[1m¬\[0m

@@ -1,20 +1,4 @@
-﻿# Converted from: sm-doorparty.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics-blocky-horror/raw/sm-doorparty.ans
-# Source Revision: archive-sha256:9b55aad043357449b0b0f61d3eddf0a2e277e46cf0768f93c8b9bc9b99d78a77
-# Source SHA-256: 49e92514acbedd653ad35e8bebe75acabbc84469f86c22f44b84587c9a3c381d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: sm-doorparty.ans by Smooth (Blocktronics); released in blocktronics-blocky-horror and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Doorparty Logo
-# SAUCE Author: Smooth
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20191022
-# SAUCE Dimensions: 80x25
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Doorparty Logo designed for Todd Yatzook.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Doorparty Logo by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-blocky-horror-sm-doorparty
 
 Write-Host '
  [35m▄[0;1;31;45m▒▒[0;35m▀█▄[0;36m                            [0;35m■▀█▄[0;1;31m█[0;35m▄█▀■[0;36m     [0;34m▄[0;37m                       [0;35m▄█▀[0;1;31;45m▒▒[0;35m▄[0m

@@ -1,0 +1,117 @@
+{
+  "batch": 69,
+  "candidates": [
+    {
+      "action": "blank-columns",
+      "category": "batch69-self-critique-and-creation-chatter",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 78,
+              "start": 64
+            }
+          ],
+          "expectedRawSha256": "7e0a588632ddebbe7fa5a03920bc4a39ce6cc26d8c94e74e9adcbc70d97370c0",
+          "expectedRenderedSha256": "ffc23484bd504ac509bf1880900c99e961b7cf9d8530fc1332478b509eaf2ae5",
+          "row": 34,
+          "sha256": "1f66f1a5e4198fc8d4b219ad19b3454a492fbb4f23a3cd52d09003d3e78c6a29"
+        }
+      ],
+      "file": "16c-joint03-abs-08.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is separable self-critical or boredom-driven production chatter. Titles, attribution, memorial text, authored dialogue, functional interfaces, software taglines, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch69-self-critique.json",
+        "temp/text-blanking-continuation/batch69-curation-review.json",
+        "temp/text-blanking-continuation/batch69-history-collisions.json"
+      ]
+    },
+    {
+      "action": "blank-columns",
+      "category": "batch69-self-critique-and-creation-chatter",
+      "evidence": [
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 18,
+              "start": 3
+            }
+          ],
+          "expectedRawSha256": "c4fc66d64f5eed3dde87f4c56d2791e8d676268c68bd15a60af65f65af0b5fd3",
+          "expectedRenderedSha256": "84cfb46bf2b38dac72f69ade5926b970e2e87deffc96b2528c9584beb59766f1",
+          "row": 8,
+          "sha256": "af69e5170a55851a31d5cba15edc0a5e5257e207a13f3d7a9f8185a8011ba562"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 20,
+              "start": 4
+            }
+          ],
+          "expectedRawSha256": "ff58652fc888bc16be1503ea50d7626d9c2aeee7c939ee4645bd12292c9f52d7",
+          "expectedRenderedSha256": "9017d051273f0537a396bdca1762d790c4fbf03c2833c63f0984054f374df036",
+          "row": 10,
+          "sha256": "bb795ef7dc972701da62ce858f8b99abe9b36709171cbdb15dc59dfc770ebe26"
+        },
+        {
+          "action": "blank-columns",
+          "columnRanges": [
+            {
+              "end": 14,
+              "start": 9
+            }
+          ],
+          "expectedRawSha256": "449d8c6e96bcb610e011a89298085d506c6dc257f389656bf5d839e7137f44fe",
+          "expectedRenderedSha256": "e944815347ec6b8e45bd4749c9a46e01da542538afff818718e6a862a4558949",
+          "row": 11,
+          "sha256": "9bd4f1148459fc0f535445265d29fce8774cc14cf5b081a5c751aa50c6a21ffc"
+        }
+      ],
+      "file": "16c-moi-1296-sm-wm1.ps1",
+      "rationale": "Complete-payload, neighboring-row, family, and historical-ledger review proves every selected span is separable self-critical or boredom-driven production chatter. Titles, attribution, memorial text, authored dialogue, functional interfaces, software taglines, structural lettering, and ambiguity remain intact.",
+      "reviewSources": [
+        "temp/text-blanking-continuation/batch69-self-critique.json",
+        "temp/text-blanking-continuation/batch69-curation-review.json",
+        "temp/text-blanking-continuation/batch69-history-collisions.json"
+      ]
+    }
+  ],
+  "normalization": "SHA-256 of UTF-8 visible terminal-cell rows after ANSI-control removal and outer-whitespace trimming. Every accepted row pins exact raw projected and rendered hashes plus one-based inclusive blank-column ranges.",
+  "pendingInputs": [],
+  "policy": "Fail-closed review of boredom, negative self-assessment, quick-effort, unfinished-status, presentation, apology, fooling-around, and quality cues in every static color-script payload. Accept only exact separable self-critical or boredom-driven production chatter proven by complete-panel and family context; retain titles, identity, attribution, dedications, authored dialogue, functional interfaces, software taglines, structural text, and ambiguity.",
+  "priorRedactionExtensions": [
+    {
+      "coordinates": [
+        "16c-moi-1296-sm-wm1.ps1:9"
+      ],
+      "ledger": "AnsiResidualMixedTextReviewLedger8.json",
+      "rationale": "Batch 69 completes the same broken multi-row production caption surrounding this previously blanked row."
+    }
+  ],
+  "priorRetentionSupersessions": [],
+  "reviewedAt": "2026-08-02",
+  "schemaVersion": 1,
+  "status": "ready",
+  "summary": {
+    "acceptedDetectorCues": 2,
+    "blankColumnRows": 4,
+    "candidateFiles": 2,
+    "candidateGroups": 2,
+    "categoryRows": {
+      "batch69-self-critique-and-creation-chatter": 4
+    },
+    "changedCells": 44,
+    "detectorAcceptedRows": 2,
+    "detectorFiles": 6,
+    "detectorRows": 6,
+    "evidenceRows": 4,
+    "familyExtensions": 2,
+    "parseFailures": 21,
+    "retainedDetectorRows": 4,
+    "staticFiles": 24801
+  }
+}

@@ -1,18 +1,4 @@
-﻿# Converted from: MZ-COS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0296/raw/MZ-COS.ANS
-# Source Revision: archive-sha256:8bf6ef5626cbd493461d1e7facbd3ea200120a9f6ac221a6e519b2041e25c598
-# Source SHA-256: c1f4a331b84dbba2077d457978610cc16e360555639ddd9005b5b0cdea440958
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MZ-COS.ANS by Mage (Acid); released in mist0296 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Courier of Sins
-# SAUCE Author: Mage
-# SAUCE Group: Acid
-# SAUCE Date: 19960106
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Courier of Sins by Mage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0296-mz-cos
 
 Write-Host '
 [33m ▀▀█[0;1;33;43m░░[0;33m█[0;1;33;43m░░[0;33m▄▓██[0;1;33;43m░[0;33m▄▀█▀[0;37m [0;1;33;43m░[0;33m▀[0;37m  [0;33m█▓▀▄▓▓▒[0;37m [0;33m▒░ ░░▒ ▀▀▓█▀█▄▀▄ ▀▓▄[0;37m [0;1;30mMage [0m             [1;31m▄▄[0m

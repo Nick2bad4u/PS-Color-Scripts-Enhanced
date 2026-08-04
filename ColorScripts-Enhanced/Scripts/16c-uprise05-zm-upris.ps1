@@ -1,18 +1,4 @@
-﻿# Converted from: ZM-UPRIS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/uprise05/raw/ZM-UPRIS.ANS
-# Source Revision: archive-sha256:8a04f72dbd0084a3dd089505796d41f1fc098ce192bbfa410f8bc1039eb33f03
-# Source SHA-256: 420714a163ffdb699b990d160cfeb8622dcd8ea06d72ade994c1d50d188eb7f3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ZM-UPRIS.ANS by zatchmo (uprise); released in uprise05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: uprise logo
-# SAUCE Author: zatchmo
-# SAUCE Group: uprise
-# SAUCE Date: 19980624
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: uprise logo by zatchmo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-uprise05-zm-upris
 
 Write-Host '
                                              [30;41m▓▓[0m

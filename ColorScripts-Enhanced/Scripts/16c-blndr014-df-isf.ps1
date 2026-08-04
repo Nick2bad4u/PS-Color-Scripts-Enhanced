@@ -1,18 +1,4 @@
-﻿# Converted from: DF-ISF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr014/raw/DF-ISF.ANS
-# Source Revision: archive-sha256:ad44042812972510297d47df18015a4f5b83b8ec4f5ee374e0b9e14beb21dc5d
-# Source SHA-256: 001bc98cde5efdcdc8adf3765c65d24f1f2bbfbe402d3fbbc400cf1ae72140f8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DF-ISF.ANS by dataflow (poem); released in blndr014 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: india, skydiving, the fbi
-# SAUCE Author: dataflow
-# SAUCE Group: poem
-# SAUCE Date: 19970224
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: india, skydiving, the fbi by dataflow | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr014-df-isf
 
 Write-Host '
 [1;32m[0m[1;34m[0m                                                [1;36m█[0m

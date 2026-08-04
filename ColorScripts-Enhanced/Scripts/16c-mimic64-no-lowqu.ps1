@@ -1,17 +1,4 @@
-﻿# Converted from: no-lowqu.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic64/raw/no-lowqu.ans
-# Source Revision: archive-sha256:f8ceb63f54ddb7d1445b81bfdc5a5ae781bfb56840adea7237922282bf6aef6d
-# Source SHA-256: 8277d7af0af32857a5939eb9ea2fb943cb23f2ecfd98d33aedaecce92055eed1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: no-lowqu.ans by Noches (Mimic Production); released in mimic64 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Author: Noches
-# SAUCE Group: Mimic Production
-# SAUCE Date: 20030912
-# SAUCE Dimensions: 80x48
-# Lines: 1-48
-# Columns: 1-80
+﻿# Artwork: no-lowqu.ans by Noches | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic64-no-lowqu
 
 Write-Host '
 

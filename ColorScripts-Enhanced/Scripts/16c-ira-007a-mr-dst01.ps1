@@ -1,18 +1,4 @@
-﻿# Converted from: MR-DST01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ira-007a/raw/MR-DST01.ANS
-# Source Revision: archive-sha256:ee5a82ac7f98955da25871045743238711285c6b7b62811e228512414e2f4a52
-# Source SHA-256: ec5576eab29c54fb01320f90260f50b916cb86a39d7175f205f242cc67446315
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MR-DST01.ANS by Mr.Wrong (guest) (irato); released in ira-007a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Distant promotional
-# SAUCE Author: Mr.Wrong (guest)
-# SAUCE Group: irato
-# SAUCE Date: 19981001
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: Distant promotional by Mr.Wrong (guest) | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ira-007a-mr-dst01
 
 Write-Host '
 

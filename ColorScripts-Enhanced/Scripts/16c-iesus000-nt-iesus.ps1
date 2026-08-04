@@ -1,18 +1,4 @@
-﻿# Converted from: NT-IESUS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/iesus000/raw/NT-IESUS.ANS
-# Source Revision: archive-sha256:2b496e44e439a265d9a320a4fee3303655107b9ed2112da4f3da985d854e5327
-# Source SHA-256: 543ba8c2e2cb64d7ac4171aa0f23cca7d8094c1cbbf97e493b0de916a6f65bec
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NT-IESUS.ANS by nootropic (iesus); released in iesus000 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: meat on a stick
-# SAUCE Author: nootropic
-# SAUCE Group: iesus
-# SAUCE Date: 19951129
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: meat on a stick by nootropic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-iesus000-nt-iesus
 
 Write-Host '
 [31mnoot{ropic}/i[0;33me[0;1;33ms[0;33mu[0;31mscii  ,,ssSSSS$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$≥$$$$$$$[0m

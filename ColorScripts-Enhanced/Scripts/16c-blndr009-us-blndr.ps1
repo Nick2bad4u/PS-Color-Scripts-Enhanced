@@ -1,13 +1,4 @@
-﻿# Converted from: US-BLNDR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr009/raw/US-BLNDR.ANS
-# Source Revision: archive-sha256:20bd09bf582c0c371979eb7ac517fed9a498163f4905863a32ac788377863f1b
-# Source SHA-256: d784e1cbe70238021481239dbf80325d6d1cddec9dcfbe28cb167d5d740a8023
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BLNDR.ANS by Rust + Paratoxique (blndr009); released in blndr009 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: US-BLNDR.ANS by Rust + Paratoxique | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr009-us-blndr
 
 Write-Host '
 [1;30m[0m[1m[0m[1;30m                            [0m    ▄▄[1m▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: GD!PHAR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phar0896/raw/GD!PHAR.ANS
-# Source Revision: archive-sha256:6b5cc8d7252908bb34e044ed6dcfb42f8dbf6c65d3528deee6494d62c5743e7d
-# Source SHA-256: 09f1f5d1cbd59fc2a18df3e76b4aa286e7db8dbaea6ed6b7aa387f508a7e2fc4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GD!PHAR.ANS by Gideon (phar); released in phar0896 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: anskee logo by our new member
-# SAUCE Author: Gideon
-# SAUCE Group: phar
-# SAUCE Date: 19960731
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: anskee logo by our new member by Gideon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phar0896-gd-phar
 
 Write-Host '
 

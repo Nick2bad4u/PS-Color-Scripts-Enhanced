@@ -1,18 +1,4 @@
-﻿# Converted from: NZ-LIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook12/raw/NZ-LIL.ANS
-# Source Revision: archive-sha256:ec66f5bb4ed961133c52314c375d67af30a5295789eb6bfc6eda91ebf8999fc2
-# Source SHA-256: 0c262051fa352edf9f0732af6d0d80ede2b42ddfd31123eb3195764ab2611c0e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NZ-LIL.ANS by noize (black maiden); released in bmbook12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: lil #3
-# SAUCE Author: noize
-# SAUCE Group: black maiden
-# SAUCE Date: 19970228
-# SAUCE Dimensions: 80x25
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: lil #3 by noize | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook12-nz-lil
 
 Write-Host '
   [1;30m  ▄[0m▄[1;30m▐[0m▌[1;30;47m▀▀░[0;1;37;47m░▓[0m▐[1;30;47m [0m▄▄▄▓▓▄▄[1;30m▌▄▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: IC-EYE3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/pst-04/raw/IC-EYE3.ANS
-# Source Revision: archive-sha256:f6efaa91b271a597917b36d55f7ff3e2a4848f36d9f7d6bc0f43e631f99045c0
-# Source SHA-256: 0a46fb9fdcd1c90732940d1ad5d13cfd0f1c8e000c4de1e02a86c4907e62e247
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IC-EYE3.ANS by inclu (polyester); released in pst-04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: eye for an eye
-# SAUCE Author: inclu
-# SAUCE Group: polyester
-# SAUCE Date: 19980630
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: eye for an eye by inclu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-pst-04-ic-eye3
 
 Write-Host '
 inc[31m [0;33m [0;31m▄▄ ▀ [0;33m ▄▄       [0;1;30m░[0;33m▀▀▀█[0;1;31;43m░░▒▒▓▓▒░[0;33m▄ [0;31m▀[0;1;31;41m░▒[0;31m█░[0;30;41m▓[0;37;40m [0;1;30;47m▓[0;1;30;40m▀▀[0m  [1;30m▐▀▀▀▀▀▀[0;1;30;47m▓▓[0;1;30;40m▌▀▀[0;1;30;47m▓▓[0;1;30;40m▀▀▀▀▀▀▀▀[0;1;30;47m▓[0;1;30;40m▀[0m [1;30m▀█▀▀▀[0;1;30;47m▓▓[0;1;30;40m▐[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: SW-JOKER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/nph1097/raw/SW-JOKER.ANS
-# Source Revision: archive-sha256:b6e257eb8371584ca5ade8b8a0fc4c2ec6d13bf6072ac7a83b43c3c01e88e287
-# Source SHA-256: c77d15fea03c269ddd6779d96111a7cdfa796cdb0d929c728e78860c7d3d1fe1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SW-JOKER.ANS by SandWorM (dEFiANCe); released in nph1097 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: .% Joker's Ansi %.
-# SAUCE Author: SandWorM
-# SAUCE Group: dEFiANCe
-# SAUCE Date: 19970626
-# SAUCE Dimensions: 80x40
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: .% Joker's Ansi %. by SandWorM | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-nph1097-sw-joker
 
 Write-Host '
 [1;30m ▄▀▀ [0;1;37m▐[0m [1;30m▀▀[0m  [1;30m▀[0m  [1;30m  [0m

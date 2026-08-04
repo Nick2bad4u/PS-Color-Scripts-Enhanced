@@ -1,19 +1,4 @@
-﻿# Converted from: checs_espacio_liminal_linea_144.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hpm-04/raw/checs_espacio_liminal_linea_144.ans
-# Source Revision: archive-sha256:d2c0a14e6aa186cff60c36e0afbe6cc20a83d0b801e42df0e6a8c7b44be43337
-# Source SHA-256: 129226bdfb53aa63a1d335673e7fd94e170d75d2d3ec54bbae0e6cfa6afc34d2
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: checs_espacio_liminal_linea_144.ans by checs (HPM); released in hpm-04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: espacio liminal
-# SAUCE Author: checs
-# SAUCE Group: HPM
-# SAUCE Date: 20250917
-# SAUCE Dimensions: 80x111
-# SAUCE Font: IBM VGA
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: espacio liminal by checs | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hpm-04-checs-espacio-liminal-linea-144-part01
 
 Write-Host '
  [1;30m| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |[0m

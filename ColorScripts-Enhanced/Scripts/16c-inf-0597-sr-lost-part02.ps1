@@ -1,13 +1,4 @@
-﻿# Converted from: SR-LOST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/inf-0597/raw/SR-LOST.ANS
-# Source Revision: archive-sha256:f942d915946b24e8630ed739cfb99b5288128113c6b5a572f820810b183a7b66
-# Source SHA-256: 8764d0ea974438dd6dd87087f67f878a48fb701ca2b7178b8fa14b25e72d2a89
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SR-LOST.ANS by Sektor (inf-0597); released in inf-0597 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 37-58
-# Columns: 1-80
+﻿# Artwork: SR-LOST.ANS by Sektor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-inf-0597-sr-lost-part02
 
 Write-Host '
             [36;40m▄▄██[0;1;36;46m█▓▓[0;1;30;46m▀▀[0;1;30;40m▄▄[0m

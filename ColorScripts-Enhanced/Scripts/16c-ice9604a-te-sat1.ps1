@@ -1,13 +1,4 @@
-﻿# Converted from: TE-SAT1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9604a/raw/TE-SAT1.ICE
-# Source Revision: archive-sha256:a8f8a3430f1223583f5ba829d23fcb523e4712909ac7211db98ebd0249624ef2
-# Source SHA-256: 5355522dc36a777f0d3cb1aa61f5ecd2f1284e89d2ab68df42e546ba8de454a8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TE-SAT1.ICE by Tetanus (ice9604a); released in ice9604a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: TE-SAT1.ICE by Tetanus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9604a-te-sat1
 
 Write-Host '
 █[1;30;47m░░░▒▒[0;1;30;40m▄▄[0m ▀[1;47m░░[0m█[1;47m░░▒▒[0m▀▀ [34m▄▄█[0;1;34;44m░░[0;34m████▓▓▓▒▒▒░░[0m              [1;30m▀▒▄ [0m [1;30m░░░░▒▒   ░░[0m   [1;47m▓▓▒▒░░░[0m███

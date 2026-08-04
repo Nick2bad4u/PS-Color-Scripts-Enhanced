@@ -1,13 +1,4 @@
-﻿# Converted from: FL-WHAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr010/raw/FL-WHAT.ANS
-# Source Revision: archive-sha256:0cff6b61e7fb54acd1ac9f5e539ee68e8dbf4456248e46cb8612bcd1f1b1582d
-# Source SHA-256: 5f6c0fff546bb8da6af2be45c67b2ea991f6a4db47ba6f21bc2192a5a53be2d9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FL-WHAT.ANS by Flame (blndr010); released in blndr010 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-43
-# Columns: 1-80
+﻿# Artwork: FL-WHAT.ANS by Flame | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr010-fl-what
 
 Write-Host '
 [32m[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: SY-DOOT2.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9501/raw/SY-DOOT2.ICE
-# Source Revision: archive-sha256:11505df9cbb4046b5d3b5eec267bf894e7e973683094a4e78d879efbf7a9364a
-# Source SHA-256: 30e77d19371403bb20600b4eddfe45a9d1efe7ec62cf5e8edd42fd7cfe8639ae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SY-DOOT2.ICE by Shaggy (ice-9501); released in ice-9501 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 139-188
-# Columns: 1-80
+﻿# Artwork: SY-DOOT2.ICE by Shaggy | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9501-sy-doot2-part04
 
 Write-Host '
 [35m ░░▒▒▒▒▒▓▓▓▓▓▓▓▓▓█▓▓▓▓▓█▓███████████████████████████████[0;1;31;45m ░░░░░░░░░▒▒▒▒▓▓▓▓▓▓▓▓[0;1;31;40m█[0m

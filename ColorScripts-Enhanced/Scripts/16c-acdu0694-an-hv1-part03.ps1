@@ -1,18 +1,4 @@
-﻿# Converted from: AN-HV1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0694/raw/AN-HV1.ANS
-# Source Revision: archive-sha256:f26eea3d1c8de7b926bd6f420e787345fadf7a72d1ec8422609f01c663360b65
-# Source SHA-256: 11cb4216db045f0876d0ad3453dfbd5487cb39f941469b93a4d685857945e45d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AN-HV1.ANS by Andrew Nice (ACiD Productions); released in acdu0694 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Harvest Moon
-# SAUCE Author: Andrew Nice
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19940601
-# SAUCE Dimensions: 80x102
-# Lines: 69-101
-# Columns: 1-80
+﻿# Artwork: Harvest Moon by Andrew Nice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0694-an-hv1-part03
 
 Write-Host '
             [32m▄▄[0;37;42m░░░[0;32;40m▀■[0m                                         [32;40m■▀[0;37;42m░░░[0;32;40m▄▄[0m

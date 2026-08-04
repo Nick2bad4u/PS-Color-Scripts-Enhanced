@@ -1,18 +1,4 @@
-﻿# Converted from: BB-FLUX2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flux-004/raw/BB-FLUX2.ANS
-# Source Revision: archive-sha256:184a3f5dd0450d61dd9a9b4da05ef76ebec147753f33bfa3706045bb53c0d7a5
-# Source SHA-256: 4e6d36ee02acedda2ce21bda61cefc32388fa11ac6b3a805c972af69f728e863
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BB-FLUX2.ANS by Bugs Bunny (Maiden); released in flux-004 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: fluX prOmO! :)
-# SAUCE Author: Bugs Bunny
-# SAUCE Group: Maiden
-# SAUCE Date: 19971105
-# SAUCE Dimensions: 80x23
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: fluX prOmO! :) by Bugs Bunny | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flux-004-bb-flux2
 
 Write-Host '
         [35m         [0;1;34m▄▄▄▄▄▄▄[0m

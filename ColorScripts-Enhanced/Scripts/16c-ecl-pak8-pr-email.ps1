@@ -1,18 +1,4 @@
-﻿# Converted from: PR_EMAIL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-pak8/raw/PR_EMAIL.ANS
-# Source Revision: archive-sha256:ced165506b655ee7f3831f87db1b8e3be54d70977e70581005d4ce6480dd88ea
-# Source SHA-256: 81b2159187c8b75047436908c12cb0f4d4720a9ae4b72c1eda0da0c835983fbe
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PR_EMAIL.ANS by president (ecolove); released in ecl-pak8 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: email menu
-# SAUCE Author: president
-# SAUCE Group: ecolove
-# SAUCE Date: 19980622
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: email menu by president | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-pak8-pr-email
 
 Write-Host '
            [1;33m▐▄[0m   [1;33m▐▄▄[0m  [33m▄[0;1;33m▄[0m            [1;36m [0m        [36m▄▄[0;1;36;46m [0;36m▀[0;1;34m [0;34m  ▄[0;1;34m▄▄▄[0;34m [0;1;34m   [0m

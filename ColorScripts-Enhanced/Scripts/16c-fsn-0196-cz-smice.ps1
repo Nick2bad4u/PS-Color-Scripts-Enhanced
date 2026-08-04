@@ -1,13 +1,4 @@
-﻿# Converted from: CZ-SMICE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fsn-0196/raw/CZ-SMICE.ANS
-# Source Revision: archive-sha256:d151696eafc600b77b623396c0cefc4df5a0e459af1766730864689986c5538e
-# Source SHA-256: 97d4d2009b4d8766ae491125467d9befef8452047c4293eec8ded387c808fc3b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CZ-SMICE.ANS by Caze (fsn-0196); released in fsn-0196 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: CZ-SMICE.ANS by Caze | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fsn-0196-cz-smice
 
 Write-Host '
 

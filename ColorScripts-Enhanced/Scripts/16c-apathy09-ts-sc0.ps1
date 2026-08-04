@@ -1,18 +1,4 @@
-﻿# Converted from: TS-SC0.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/apathy09/raw/TS-SC0.ANS
-# Source Revision: archive-sha256:4a76e66d96462ed923b8b41dd8e01625078b4c791bda0ef6180f08638853037b
-# Source SHA-256: 6c64c9d0aed130ce41f8b7d007f81a57be17e3e17e79f7cc0cfdc9e3c4b15139
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TS-SC0.ANS by Transient (apathy); released in apathy09 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Stone Chapel
-# SAUCE Author: Transient
-# SAUCE Group: apathy
-# SAUCE Date: 19960411
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: The Stone Chapel by Transient | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-apathy09-ts-sc0
 
 Write-Host '
 [1;30m██▀▓░[0m ░░▒▓▓▓▓█▌[1;30m▌[0;1;30;47m░[0m▌[1;30m█[0;1;30;47m░[0m▌[1;30m█[0;1;30;47m░▒▓[0m [1;30;40m█[0;1;30;47m░[0;1;30;40m ▀▄▄[0m [1;30;40m▀█▓░▄[0m ▀▀████████████▀▀▀▀▀▀ [1;30m▄▄█▄[0m ▀██▀ [1;30m▄▄[0;1;30;47m▓[0;1;30;40m▄▄[0m ▀▀▀█

@@ -1,13 +1,4 @@
-﻿# Converted from: mmc-dist.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mimic51/raw/mmc-dist.ans
-# Source Revision: archive-sha256:58dfff275e6c663f9dad0bed20879223bef06892a9dd4aea6e447f7731d60e0f
-# Source SHA-256: 891ee214e960d7f386cc2c281080eef9ae5762c778a21243073a96d215b60f67
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mmc-dist.ans by Konami (mimic51); released in mimic51 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: mmc-dist.ans by Konami | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mimic51-mmc-dist
 
 Write-Host '
 [1m[0;1;36m[0;36m[0;1;34m[0;34m[0;1;34m[0;34m[0;1;34m[0;34m[0m[36m☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☺☺[0;1;34m☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻☻[0m

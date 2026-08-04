@@ -1,18 +1,4 @@
-﻿# Converted from: RET-DRT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-16/raw/RET-DRT.ANS
-# Source Revision: archive-sha256:b44675c14d0a6b8706358886e9a05961468006b6ae7257eede82583c6468b7b5
-# Source SHA-256: af5993713cae6fd115a1f9b22c00b9694ed23e7b38da017a16c41d2fdfe438ee
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RET-DRT.ANS by retribution (glue BAYBEE); released in glue-16 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: dirt1983
-# SAUCE Author: retribution
-# SAUCE Group: glue BAYBEE
-# SAUCE Date: 19981130
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: dirt1983 by retribution | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-16-ret-drt
 
 Write-Host '
 [1;30mret[0;36m    [0;1;36m▄▄[0;1;36;46m████[0;36m▄ [0;30;47m█[0;1;30;40m▄[0;30;47m█[0;1;30;40m▌▐[0;1;30;47m▒▓[0;30;47m█[0;1;30;40m▄[0;1;30;47m▒▒▓▓[0;1;30;40m▀▀▄[0;1;30;47m▒▒▒▓[0;1;30;40m█▀[0;30;47m█[0;1;30;40m▄▄[0;1;30;47m▒▒▓▓[0;1;30;40m███▀▀[0;30;47m█[0;1;30;40m▄▄▄▄[0;1;30;47m▒▒▒▓▓▓[0;1;30;40m████▀▀[0;30;47m██[0;1;30;40m▄▄▄▓░[0;30;47m█[0;36;40m▒▒▓▓▓█[0m

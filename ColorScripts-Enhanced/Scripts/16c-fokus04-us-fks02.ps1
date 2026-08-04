@@ -1,18 +1,4 @@
-﻿# Converted from: US-FKS02.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fokus04/raw/US-FKS02.ANS
-# Source Revision: archive-sha256:4a57ed6764f9ffca39ae941548ed0ed0ba98ce6594de23a7788152f10b7f60a4
-# Source SHA-256: bab818cfd3fa4e4c4fefec75003d106a49d104a0bad85e363e9e4be437204409
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-FKS02.ANS by Avenging Angel + Mr Wrong + Knocturnal (Fokus fonting); released in fokus04 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fokus Fonting
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Fokus fonting
-# SAUCE Date: 19990531
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Fokus Fonting by Avenging Angel + Mr Wrong + Knocturnal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fokus04-us-fks02
 
 Write-Host '
                  [36m▄[0m           [36m░░░[0m               [36m░░░[0m

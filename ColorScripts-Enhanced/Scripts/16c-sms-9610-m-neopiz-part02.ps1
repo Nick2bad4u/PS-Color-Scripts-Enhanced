@@ -1,18 +1,4 @@
-﻿# Converted from: M!NEOPIZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sms-9610/raw/M!NEOPIZ.ANS
-# Source Revision: archive-sha256:5789c5cb1a5ac21acfd3fa7dc4a5a88db3f4a5b9545409ca8ca34a86bd816077
-# Source SHA-256: 16165fc9246285c13113cfb4bc2137ff741ec1de4ca0de03a9d873acc055ca84
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: M!NEOPIZ.ANS by Mice (Samsara); released in sms-9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Neon Pizza
-# SAUCE Author: Mice
-# SAUCE Group: Samsara
-# SAUCE Date: 19960921
-# SAUCE Dimensions: 80x71
-# Lines: 37-71
-# Columns: 1-80
+﻿# Artwork: Neon Pizza by Mice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sms-9610-m-neopiz-part02
 
 Write-Host '
   [1;30m   ,S$ [0m        ,$$[1m$$$$$$$$$$$S²" [0m,y$[1m    [0m`$y$[1m$$$$$$$$$$$$$$$$$$$$$$$[0m [1;30m$ [0m

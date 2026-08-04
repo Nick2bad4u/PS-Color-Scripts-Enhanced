@@ -1,13 +1,4 @@
-﻿# Converted from: ns-nam.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense-19/raw/ns-nam.ans
-# Source Revision: archive-sha256:ea10c48aec14899714c3e14041c7674268b2c0787d3213fdbe479590d88b8c03
-# Source SHA-256: 9c28ca4198e7fe0d9f5c7af9be676ecab66ffc3b0028d0b0d403ffa8888369ca
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ns-nam.ans by Ansichrist (sense-19); released in sense-19 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 85-125
-# Columns: 1-80
+﻿# Artwork: ns-nam.ans by Ansichrist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense-19-ns-nam-part03
 
 Write-Host '
 [1;33m  [0;33m▄█[0;1;33m [0;31m████[0;1;33m [0;1;33;43m▒▓[0;1;33;40m▄▄ [0;1;31;40m▀▀[0;1;33;40m ▀████████████▄[0;1;31;40m▀█████████[0;1;31;47m▓[0;1;31;40m███▀[0;1;33;40m▄[0;1;33;43m▓▓▄[0;33m▄[0;1;33m  [0;34m▀[0;1;34;44m▀[0;1;34;40m███[0;1;34;44m▀[0;34m▀[0;37m▄[0;1;37m▄[0;1;37;47m▄[0;1;37;40m████[0;1;37;47m▄[0;1;37;40m [0;1;30;40m█[0;1;30;43m░░[0;33m███[0;1;30;43m░[0;33m█[0;1;30;43m░[0;33m█[0m

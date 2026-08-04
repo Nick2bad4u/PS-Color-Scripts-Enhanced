@@ -1,19 +1,4 @@
-﻿# Converted from: tnt-xmasOG.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz12/raw/tnt-xmasOG.ans
-# Source Revision: archive-sha256:a144f6a13f8495aad16f3fcaf95ff5b0bc91807c93dbcb455f2b655b9f9c0dd9
-# Source SHA-256: 425154080dbbf13de9666b24038f006fea1f35f280161a6a97cfb905f8d7d2fc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: tnt-xmasOG.ans by tainted (laz twelve); released in laz12 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: m3rry puffin xmas
-# SAUCE Author: tainted
-# SAUCE Group: laz twelve
-# SAUCE Date: 20201221
-# SAUCE Dimensions: 80x76
-# SAUCE Font: IBM VGA
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: m3rry puffin xmas by tainted | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz12-tnt-xmasog-part01
 
 Write-Host '
                 [35;40m                                                     [0m

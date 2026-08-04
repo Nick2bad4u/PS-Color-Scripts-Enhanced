@@ -1,18 +1,4 @@
-﻿# Converted from: CK-EI3.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9502/raw/CK-EI3.ANS
-# Source Revision: archive-sha256:2f0f35d61b4c5c0023fdc3bef64ff913e4d59803d220dd8b6aa9559b05c6a214
-# Source SHA-256: 9ed93581150cf05a0e0199e622816e97c90066d7e19602df559fc4b7dd8b4e8e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CK-EI3.ANS by chromatik (Blade Productions); released in blde9502 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: eternal insanity!
-# SAUCE Author: chromatik
-# SAUCE Group: Blade Productions
-# SAUCE Date: 19950131
-# SAUCE Dimensions: 80x25
-# Lines: 142-191
-# Columns: 1-80
+﻿# Artwork: eternal insanity! by chromatik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9502-ck-ei3-part04
 
 Write-Host '
 [33m ███[0;33;47m▓[0;1;33;43m▒[0;33m███████████████████▓██████████████████████▀ ░▓████▄▄▄▄████ [0;1;36m▓███▄▄[0m [31m▀████[0m [1;36m▄[0m

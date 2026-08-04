@@ -1,20 +1,4 @@
-﻿# Converted from: aeleus-booette.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronicsonice/raw/aeleus-booette.ans
-# Source Revision: archive-sha256:09feb7a5adb913c88be16d43a1a4e86bf7073f13399d8bc54e5478cad35282e5
-# Source SHA-256: 0be09b57eb9fe9022810f87535b2851b48754496aa0307c5eb74ec5e0a39976c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: aeleus-booette.ans by aeleus (blocktronics); released in blocktronicsonice and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: rule 63
-# SAUCE Author: aeleus
-# SAUCE Group: blocktronics
-# SAUCE Date: 20220315
-# SAUCE Dimensions: 80x320
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Thicc and pretty (thicc and pretty) | Money and bad bitches | Count my green (my green) | Or get in between (those titties) -Migos
-# Lines: 1-47
-# Columns: 1-80
+﻿# Artwork: rule 63 by aeleus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronicsonice-aeleus-booette-part01
 
 Write-Host '
 

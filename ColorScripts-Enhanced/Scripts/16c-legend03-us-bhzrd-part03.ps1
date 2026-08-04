@@ -1,18 +1,4 @@
-﻿# Converted from: US-BHZRD.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/legend03/raw/US-BHZRD.ANS
-# Source Revision: archive-sha256:612e01e38f75d92ecaa814e7ae660054839507b23315de90efe231d7e082724d
-# Source SHA-256: eb94d971b75d685dcfb52733a697d82d08c82320790bcc170cbd3c840a1c4538
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-BHZRD.ANS by Somms + Iodine (Legend); released in legend03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Biohazard/2
-# SAUCE Author: Multiple Artists
-# SAUCE Group: Legend
-# SAUCE Date: 19951002
-# SAUCE Dimensions: 80x25
-# Lines: 84-126
-# Columns: 1-80
+﻿# Artwork: Biohazard/2 by Somms + Iodine | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-legend03-us-bhzrd-part03
 
 Write-Host '
 [37m  [0;33m▓▀[0m         [33m▐[0;1;31;43m░▒[0;33m [0m          [33m▓▄[0m           [33m ▄[0;37m [0;33m ▄[0;37m  [0m   [33m░[0m                  [36m▄[0;1;36;46m░▓[0m [36m █[0m

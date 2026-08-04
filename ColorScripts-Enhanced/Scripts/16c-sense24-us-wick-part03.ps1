@@ -1,13 +1,4 @@
-﻿# Converted from: us-wick.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense24/raw/us-wick.ans
-# Source Revision: archive-sha256:8873cbedb30712f2bc9e4c92a60cdb9c72153cb3946af0473f1522d370964606
-# Source SHA-256: 134c30342b9f1148fda6d17ba73f02b8611b4f554f8f5fba91c191cd0dc1b7ff
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-wick.ans by Enzo + Avenging Angel (sense24); released in sense24 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 78-117
-# Columns: 1-80
+﻿# Artwork: us-wick.ans by Enzo + Avenging Angel | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense24-us-wick-part03
 
 Write-Host '
 [1;31;43m████[0;33m [0;37m [0;1;30m████[0;1;30;47m▓▓[0;1;30;40m████▄ [0;1;31;41m▀██[0;1;31;40m▄[0;31m▀[0;37m [0;1;35;45m ████▄▄[0;1;35;40m▄[0;35m▄█ [0;1;31;41m▄███████████[0;1;31;47m█▄[0;1;31;41m▄██[0;31m▒[0;37m [0;1;30;47m█▄[0;1;30;40m [0m    [31m▀▀██[0;1;31m▄▄[0;31m▄▀[0;1;37m▄▄[0m▄  [32m▀[0;1;32;42m█▄▀▀█[0m

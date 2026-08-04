@@ -1,18 +1,4 @@
-﻿# Converted from: Z3D-FISS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hiero-06/raw/Z3D-FISS.ANS
-# Source Revision: archive-sha256:a9f2b3a98de11e16465e105efa9558fc8b7152c0f268ebdd3ef00191f04c5b89
-# Source SHA-256: 6b6d3ed4ae5c42123e69859193adcc602867fbac7082d4298c483bade9c6e4a8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Z3D-FISS.ANS by Zedfactor (Hieroglyphics Guest); released in hiero-06 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Fission
-# SAUCE Author: Zedfactor
-# SAUCE Group: Hieroglyphics Guest
-# SAUCE Date: 20010109
-# SAUCE Dimensions: 80x31
-# Lines: 1-31
-# Columns: 1-80
+﻿# Artwork: Fission by Zedfactor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hiero-06-z3d-fiss
 
 Write-Host '
 [1;30m▐▄▄[0m      [1;30m░░▒[0m▒▒▓   [1;30m░░[0;35m  [0;1;30m▄[0m   [1;30m▄▄[0;35m [0;1;30m▀ [0m    ▄     [1;30m▄[0m▄[1;30m▄[0m     [1;30m▄[0m    [1;30m▐▄[0m   [1;30m▄[0m▄▄▄▄[1;30m▄[0;35m  [0;1;30m▀[0m          [1;30m░░[0m

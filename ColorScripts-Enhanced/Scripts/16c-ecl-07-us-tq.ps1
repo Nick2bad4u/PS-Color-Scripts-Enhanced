@@ -1,18 +1,4 @@
-﻿# Converted from: US-TQ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-07/raw/US-TQ.ANS
-# Source Revision: archive-sha256:3007ab392a2ea4e107d02b3029b445696a097ac55d389caab2dbfe0944556beb
-# Source SHA-256: c696519a2188ed1affc92351a9f4c24d06571bf7357b6c2aa152b6b5e9f86ba4
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TQ.ANS by Splatt + Grindstone (eclipse); released in ecl-07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: the queers
-# SAUCE Author: splatt + gs
-# SAUCE Group: eclipse
-# SAUCE Date: 19960915
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: the queers by Splatt + Grindstone | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-07-us-tq
 
 Write-Host '
 

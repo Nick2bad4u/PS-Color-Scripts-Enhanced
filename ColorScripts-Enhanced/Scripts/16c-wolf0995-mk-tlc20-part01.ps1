@@ -1,18 +1,4 @@
-﻿# Converted from: MK-TLC20.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/wolf0995/raw/MK-TLC20.ANS
-# Source Revision: archive-sha256:bcb683eb0a6f26e642eb3a96f606e8810873de59535b199d98b85afb064e7f9b
-# Source SHA-256: 6c4794ceeffe5b45c9b4736279158a378f0d7380ee59ba0ae686f25ccf750503
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MK-TLC20.ANS by mask (wolfpack); released in wolf0995 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: lands of chaos
-# SAUCE Author: mask
-# SAUCE Group: wolfpack
-# SAUCE Date: 19950829
-# SAUCE Dimensions: 80x65
-# Lines: 1-38
-# Columns: 1-80
+﻿# Artwork: lands of chaos by mask | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-wolf0995-mk-tlc20-part01
 
 Write-Host '
 

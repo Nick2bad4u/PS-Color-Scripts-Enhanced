@@ -1,13 +1,4 @@
-﻿# Converted from: AS-ASPBL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/zeit_03/raw/AS-ASPBL.ANS
-# Source Revision: archive-sha256:0f9aa90d271cb9f5663c4d5256433330359ce733d79970bb273efd1a8913f551
-# Source SHA-256: 6ece0a3bff69c7300c3c2bb4c73ef8cd8a813806a0445e6491840c11d2397b49
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AS-ASPBL.ANS by Andrey Serovsky (zeit_03); released in zeit_03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-28
-# Columns: 1-80
+﻿# Artwork: AS-ASPBL.ANS by Andrey Serovsky | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-zeit-03-as-aspbl
 
 Write-Host '
 [34m...[0;1;34m...[0;34m...[0;1;34m  [0;34m....[0;1;34m:[0;34m.................__...,┌\ [0m     [1;34m.[0m [1;34m_ [0m                       [34m `$│$$[0m

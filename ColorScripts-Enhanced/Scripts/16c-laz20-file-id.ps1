@@ -1,19 +1,4 @@
-﻿# Converted from: FILE_ID.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz20/raw/FILE_ID.ANS
-# Source Revision: archive-sha256:d88c3ff3e728f60821a5682143c2fe9e054bc535483ce1618db0798990cb65e8
-# Source SHA-256: 437bf4c6ff22d5382d9667c48cb99291833e120cec79b1d56ff2d272cd670ac1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FILE_ID.ANS by warpus (LAZARUS); released in laz20 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: LAZARUS 20 DIZ
-# SAUCE Author: warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20250604
-# SAUCE Dimensions: 45x23
-# SAUCE Font: IBM VGA
-# Lines: 1-23
-# Columns: 1-45
+﻿# Artwork: LAZARUS 20 DIZ by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz20-file-id
 
 Write-Host '
 

@@ -1,18 +1,4 @@
-﻿# Converted from: XKS-CHR1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-20/raw/XKS-CHR1.ANS
-# Source Revision: archive-sha256:f9b6fa3399b36cc49af26304a91cb6eea5ff2df3ad575bff7f071211f95cc902
-# Source SHA-256: 5ad3c8c5c881d9518e5251eac90c3e96ba6ff12ad4e84d73212eaa02840104cb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XKS-CHR1.ANS by xkeys (secular); released in sclr-20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: charts
-# SAUCE Author: xkeys
-# SAUCE Group: secular
-# SAUCE Date: 20010627
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: charts by xkeys | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-20-xks-chr1
 
 Write-Host '
 

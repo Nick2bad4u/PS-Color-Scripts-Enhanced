@@ -1,18 +1,4 @@
-﻿# Converted from: 33-D2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/33rules/raw/33-D2.ANS
-# Source Revision: archive-sha256:6cf2aef8e3ca97e1761e1ee4a8ba395e4fdab4dec9d3b2efb91c059359b50b00
-# Source SHA-256: cc8270327043ba455eead988c2205350dfadee782928b6602302db768822e9fa
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: 33-D2.ANS by Mistigris 10/94 (Eerie); released in 33rules and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Dungeon 2
-# SAUCE Author: Mistigris 10/94
-# SAUCE Group: Eerie
-# SAUCE Date: 19941010
-# SAUCE Dimensions: 80x25
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: Dungeon 2 by Mistigris 10/94 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-33rules-33-d2-part01
 
 Write-Host '
                                      [1;30m░[0m

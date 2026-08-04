@@ -1,18 +1,4 @@
-﻿# Converted from: Us-ks.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/glue-33/raw/Us-ks.ans
-# Source Revision: archive-sha256:e7ea555ca4e5120f93bea383a2d06e5b7834897a2c1c0c9d8a9a4422e3c27093
-# Source SHA-256: 13c2c075f996af6d66e571948fa967a6de86a41c67ec57a52b487fefbfa62a12
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Us-ks.ans by Somberlain + President (glue); released in glue-33 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: ks
-# SAUCE Author: multiple artists
-# SAUCE Group: glue
-# SAUCE Date: 20071016
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: ks by Somberlain + President | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-glue-33-us-ks
 
 Write-Host '
                              [33m ▄[0m

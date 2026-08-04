@@ -1,18 +1,4 @@
-﻿# Converted from: CS-II.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bleach05/raw/CS-II.ANS
-# Source Revision: archive-sha256:09b86858eb23a8eec48404a97e9a21a9057746b5757f06ffc27990d15e890f2c
-# Source SHA-256: 56e0b74cf7acf0ee7af1b92b970634cc0726579a55ca345b6af79c79df1c29ef
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CS-II.ANS by Chainsaw (Bleach); released in bleach05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The Incredible Invention
-# SAUCE Author: Chainsaw
-# SAUCE Group: Bleach
-# SAUCE Date: 19950808
-# SAUCE Dimensions: 80x25
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: The Incredible Invention by Chainsaw | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bleach05-cs-ii-part01
 
 Write-Host '
  [1;30m                                   [0m        [31m▄■ [0;1;30m▄[0;1;30;47m▒░▒▒▒[0;1;30;40m▀▀[0m▄[1;30;47m▒▒▓▓[0;1;30;40m▀  ▄▄[0;1;30;47m▓▓▓▓▓█[0;1;30;40m█[0;1;30;47m▓[0;1;30;40m▀▀ ▄▄[0;1;30;47m▓▒[0m

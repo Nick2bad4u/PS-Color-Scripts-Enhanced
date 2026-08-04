@@ -1,13 +1,4 @@
-﻿# Converted from: MP-SANIT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0793/raw/MP-SANIT.ANS
-# Source Revision: archive-sha256:53c4c708dbd6a2fb65eed7d51a29c309854b530cc87938709e377b669e74ecbe
-# Source SHA-256: 17ed0c27123d06e380ce4c4160cc244884d08605cec7afa3c6899b9559e75cad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MP-SANIT.ANS by Morpheus + Hannibal Lecter (acdu0793); released in acdu0793 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: MP-SANIT.ANS by Morpheus + Hannibal Lecter | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0793-mp-sanit-part01
 
 Write-Host '
                                                       [1;33m▄██[0;1;33;43m▓▒[0;33m▀ ▀[0;1;33;43m▒█[0;1;33;40m▄[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: RB-PMAIN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge07/raw/RB-PMAIN.ANS
-# Source Revision: archive-sha256:115e0675d139221ae82af57d75adc6a5c40187386a2e1c7aedd5a13098a703d2
-# Source SHA-256: 52e1251fda30f90769a88d5a661e63d2e37f50b3c14ea68809bb50d0d5edab66
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RB-PMAIN.ANS by Rebal (avenge); released in avenge07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Matrix
-# SAUCE Author: Rebal
-# SAUCE Group: avenge
-# SAUCE Date: 19980731
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: Matrix by Rebal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge07-rb-pmain
 
 Write-Host '
 [1;34;44m▀[0;34m▀[0;37m [0;1;30m▄[0m  [1;30m▄▄[0m     [1;30m▀█[0m [33m▄▄▄▄[0;1;30m▐▄[0;1;31m  [0;33m▄ [0;1;31m  [0;33m▄▄[0;1;30;43m░[0;1;31;40m   [0;1;30;40m▄▌[0;1;31;40m [0;33m▄▄[0;1;31m  [0;1;30m▀█[0m  [1;30m▀▄[0m  [1;30m▀█▄[0m [1;30m▀▄[0m  [34m▄▄█[0;1;34;44m▀▀▓▀[0;34m▄▄▄▄▄[0;32m  [0;34m▄▄█▄[0;1;34;44m▓▀[0;34m▀▀[0m

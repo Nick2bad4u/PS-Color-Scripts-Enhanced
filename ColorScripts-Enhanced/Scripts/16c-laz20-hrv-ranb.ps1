@@ -1,20 +1,4 @@
-﻿# Converted from: HRV_RANB.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz20/raw/HRV_RANB.ans
-# Source Revision: archive-sha256:d88c3ff3e728f60821a5682143c2fe9e054bc535483ce1618db0798990cb65e8
-# Source SHA-256: 4c0f20de9a5328f995eabf445d0e784dc5a8ae8089aecf25ad6a857353c4c1d0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HRV_RANB.ans by harvest (Lazarus); released in laz20 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Random Access Byte b?%
-# SAUCE Author: harvest
-# SAUCE Group: Lazarus
-# SAUCE Date: 20250214
-# SAUCE Dimensions: 18x14
-# SAUCE Font: IBM VGA
-# SAUCE Comments: 18x14 - 256 characters limit submission to LoveBytes 2025
-# Lines: 1-14
-# Columns: 1-18
+﻿# Artwork: Random Access Byte b?% by harvest | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz20-hrv-ranb
 
 Write-Host '
 [36m▒▒▓▓▓[0;1;30;46m▄[0;1;30;40m▀▀[0m▀[1;30m▀[0m▀▀[36;47m▀[0;1;36;46m▒▓▓[0;1;37;46m▒▓[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: like-eyes.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/clear2ooo-year-de/raw/like-eyes.ans
-# Source Revision: archive-sha256:d619b2e5c89024ae485088152f812b86fcb43ea9d16121a842b124501ee0f42c
-# Source SHA-256: 692daa74ec8a4d3d80bc0732e18708f4b1e2eceb48f0502d09ba5f3b6db2c85f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: like-eyes.ans by clear2ooo (clear2ooo-year-de); released in clear2ooo-year-de and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: like-eyes
-# SAUCE Author: clear2ooo
-# SAUCE Date: 20250110
-# SAUCE Dimensions: 80x80
-# SAUCE Font: IBM EGA43 437
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: like-eyes by clear2ooo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-clear2ooo-year-de-like-eyes-part01
 
 Write-Host '
 [37m                                      [0;32m*[0;37m                                         [0m

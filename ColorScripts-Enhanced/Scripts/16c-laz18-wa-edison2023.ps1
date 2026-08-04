@@ -1,20 +1,4 @@
-﻿# Converted from: wa-edison2023.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz18/raw/wa-edison2023.ans
-# Source Revision: archive-sha256:32d30452c4c99022fae4fa2ce9a2923ef46629d3ff7dd35a972944a991699c1f
-# Source SHA-256: f247ffb2506bdf99ac662b26e75b1590b2b594f8d6afafb7f56de6c11f4ba3b7
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: wa-edison2023.ans by warpus (LAZARUS); released in laz18 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: EDISON UNDER THE SEA
-# SAUCE Author: warpus
-# SAUCE Group: LAZARUS
-# SAUCE Date: 20230705
-# SAUCE Dimensions: 80x33
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Drawn for the EDISON 2023 Demoparty being held in Sweden
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: EDISON UNDER THE SEA by warpus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz18-wa-edison2023
 
 Write-Host '
 [36m▓▓[0;1;36m░░░░░░░░░░░[0;36m▓▓▓▓[0;1;36m░░░░░░░░░░░░░[0;36m▓▓▓▓[0;1;36m░░░░░░░░░░[0;36m▓▓▓▓[0;1;36m░░░░░░░░░░░[0;36m▓▓[0;1;36m░░░░░░░░░[0;36m▓▓[0;1;36m░░░░░░[0;36m▓▓[0m

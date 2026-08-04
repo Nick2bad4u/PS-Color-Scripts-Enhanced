@@ -1,19 +1,4 @@
-﻿# Converted from: zII-MAID.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel30/raw/zII-MAID.ans
-# Source Revision: archive-sha256:e3148e82a669aa484baf0738069fbabe44ba2824856e1cb4b05875b86bdd4621
-# Source SHA-256: 0a1da1c4473401b4cb3827723d07352a8bcf8828ac83247964486c56ecdd0bf3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zII-MAID.ans by Zeus II (FUEL); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: O Canada
-# SAUCE Author: Zeus II
-# SAUCE Group: FUEL
-# SAUCE Date: 20190620
-# SAUCE Dimensions: 80x77
-# SAUCE Font: IBM VGA
-# Lines: 35-77
-# Columns: 1-80
+﻿# Artwork: O Canada by Zeus II | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel30-zii-maid-part02
 
 Write-Host '
              [37m▀██ [0;1;31m  [0;33m░░░ [0;1;30;43m░░[0;33m███▓▓▓██████▄▄▄▄[0m         [1;31m▄ [0m      [31m▀▀▀███▄▄▄[0m

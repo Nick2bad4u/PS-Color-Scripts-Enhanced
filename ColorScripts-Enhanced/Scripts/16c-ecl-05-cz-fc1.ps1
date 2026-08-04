@@ -1,18 +1,4 @@
-﻿# Converted from: CZ-FC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-05/raw/CZ-FC1.ANS
-# Source Revision: archive-sha256:9471ca7612415a41916878584e9d9bf710a5efbc5b8d389ed1bde764e2a602ca
-# Source SHA-256: 2e9589389ca0080e99029c3c4163d09b2c738d6e5d379f58a9391842ce7aea24
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CZ-FC1.ANS by chEEZEY (eclipse); released in ecl-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: free c0ke
-# SAUCE Author: chEEZEY
-# SAUCE Group: eclipse
-# SAUCE Date: 19960815
-# SAUCE Dimensions: 80x27
-# Lines: 1-27
-# Columns: 1-80
+﻿# Artwork: free c0ke by chEEZEY | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-05-cz-fc1
 
 Write-Host '
 [1;30m█[0;1;30;47m▀[0;1;37;47m▄  [0;1;30;47m▀█[0;1;30;40m███[0;1;30;47m▓▓[0;1;30;40m███▀▀▀▀[0;34m     ▄▄▄▄██[0;30;44m░░[0;34;40m▌ [0;1;30;40m ▀▀▀[0;1;30;47m▓▓[0;1;30;40m██[0;1;30;47m▀[0;1;30;40m█████▓▀▀▀▀[0m     [34m▄▄▄▄▄[0m    [1;30m▀▀███[0;1;30;47m▀[0;1;37;47m▄▄[0;1;30;47m ▀[0;1;30;40m█▌ [0m

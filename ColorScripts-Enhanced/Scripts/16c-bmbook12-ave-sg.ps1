@@ -1,18 +1,4 @@
-﻿# Converted from: AVE-SG.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook12/raw/AVE-SG.ANS
-# Source Revision: archive-sha256:ec66f5bb4ed961133c52314c375d67af30a5295789eb6bfc6eda91ebf8999fc2
-# Source SHA-256: 3edddcd19b05b7c20656edb607af7793f6212e8e3eb0174dc01396b56fdb91fd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: AVE-SG.ANS by avenger (black maiden); released in bmbook12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: spinal gamma
-# SAUCE Author: avenger
-# SAUCE Group: black maiden
-# SAUCE Date: 19970228
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: spinal gamma by avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook12-ave-sg
 
 Write-Host '
 [34m▄█[0;1;34;44m░▄[0;1;34;47m▀[0;1;34;44m▌[0;34m▀[0m   [34m▀▀[0;37;44m▀[0;1;37;44m▀▀▌[0;34m█[0;1;34m▒▒[0;34m▀▓█[0;36;44m░▓██[0;1;36;40m▒▒[0;1;36;46m▄▄▄░[0;36;44m▀[0;36;40m▀▀[0;34;40m▀[0m    [31;40m░[0;37;40m [0;31;40m▄▌[0;37;40m  [0;34;40m▐▄[0;37;40m [0;32;40m▀[0;1;33;42m▀▀[0;32m▀▀[0;37m  [0;34m▄[0;1;37m▄[0;1;36m▄[0;36;44m▓[0;34;40m▀▀▌[0;32;40m▀[0;1;33;42m▀[0m [34m▄▄▄▄▄▄[0;37m  [0;32m▀[0;1;33m▀[0;1;33;42m▀[0;1;37;40m█[0;1;33;42m▌[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: H4-CF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-10/raw/H4-CF.ANS
-# Source Revision: archive-sha256:6734a0716f5363aecb5b8387359a704e7e1a498f17ee632abf4e9ca947f0336d
-# Source SHA-256: 4d7c7c8c6c067477db7d108f44e223155c25c892e7fa070dbbe76da9a6ca87f5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: H4-CF.ANS by Haji (ecl-10); released in ecl-10 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: H4-CF.ANS by Haji | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-10-h4-cf
 
 Write-Host '
 [1m                                 _             _[0m

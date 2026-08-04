@@ -1,13 +1,4 @@
-﻿# Converted from: IMT-DVT2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dvt-a001/raw/IMT-DVT2.ANS
-# Source Revision: archive-sha256:29592a0326970604411bfe9bc65b56585a8bfba97280105ebf1982d1f8f2368d
-# Source SHA-256: 0b96636dcd8cf1b93cce8e3d2961c1850f400f448dff314e500aa966d8c33e26
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IMT-DVT2.ANS by Impact (dvt-a001); released in dvt-a001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: IMT-DVT2.ANS by Impact | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dvt-a001-imt-dvt2
 
 Write-Host '
           [32m▒[0;37m  [0m                      [1;32;42m░[0m

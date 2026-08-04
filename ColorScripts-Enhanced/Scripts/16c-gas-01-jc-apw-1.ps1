@@ -1,13 +1,4 @@
-﻿# Converted from: JC-APW#1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/gas-01/raw/JC-APW%231.ANS
-# Source Revision: archive-sha256:e94fb6f4f8de41efd9ec99ed895127f6f53e7ed82a067b31c95910591cf49d88
-# Source SHA-256: 1b861ca8d7f8102a1413584995276640d71003ffab6838762d13ebeb7780ec55
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: JC-APW#1.ANS by Juice Gas (gas-01); released in gas-01 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: JC-APW#1.ANS by Juice Gas | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-gas-01-jc-apw-1
 
 Write-Host '
                                 [36ma perfect world ▄▄▄▄▄ ▄▄▄▄▄▄▄ ▄▄▄ ▄▄▄ ▄▄▄[0m

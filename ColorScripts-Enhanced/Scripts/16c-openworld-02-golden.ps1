@@ -1,13 +1,4 @@
-﻿# Converted from: Golden.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/openworld-02/raw/Golden.ans
-# Source Revision: archive-sha256:e6a9b74c273d22a2d7965d3de31cdbe68ad1a8fc7c323f54e28427a4c9d376b0
-# Source SHA-256: e2a699df0bb134d2012d9c704b955f0ee17f2ee3c066704feb294e692e0feff8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Golden.ans by Luxuse (openworld-02); released in openworld-02 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Golden.ans by Luxuse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-openworld-02-golden
 
 Write-Host '
 [1;33mlx[0m

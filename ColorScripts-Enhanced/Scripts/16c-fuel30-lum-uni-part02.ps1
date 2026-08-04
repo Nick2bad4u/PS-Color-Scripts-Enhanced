@@ -1,19 +1,4 @@
-﻿# Converted from: lum-uni.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel30/raw/lum-uni.ans
-# Source Revision: archive-sha256:e3148e82a669aa484baf0738069fbabe44ba2824856e1cb4b05875b86bdd4621
-# Source SHA-256: 2b4fd7ec7898b4a11c1e7d29224c82d75312b338374301adba45c5e2235e37bb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: lum-uni.ans by luminator (fuel); released in fuel30 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Unicorn
-# SAUCE Author: luminator
-# SAUCE Group: fuel
-# SAUCE Date: 20180712
-# SAUCE Dimensions: 80x208
-# SAUCE Font: IBM VGA
-# Lines: 43-84
-# Columns: 1-80
+﻿# Artwork: Unicorn by luminator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel30-lum-uni-part02
 
 Write-Host '
                 [1;34m [0m                 [36m▓[0;1;36m███[0m       [1;36m███[0;36m▓[0m      [1;33m█ █[0;1;34m [0;1;35m███[0m

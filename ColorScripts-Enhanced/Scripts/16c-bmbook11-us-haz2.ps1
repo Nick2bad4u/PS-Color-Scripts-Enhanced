@@ -1,18 +1,4 @@
-﻿# Converted from: US-HAZ2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmbook11/raw/US-HAZ2.ANS
-# Source Revision: archive-sha256:6da508e3d2c9ad7194cf66558467eb1206f408f5f9c5aa09aaab0387694a6604
-# Source SHA-256: f5f369b2ee434f475d1c97c6304727e5284425cb49e6018373df99fc10dcd16c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-HAZ2.ANS by Dv8 + Avenger (bm / fett); released in bmbook11 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: hazard/2
-# SAUCE Author: avenger / dv8
-# SAUCE Group: bm / fett
-# SAUCE Date: 19961127
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: hazard/2 by Dv8 + Avenger | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmbook11-us-haz2
 
 Write-Host '
                                                              ▄[1m▄[0;1;47m▄[0;1;40m█[0;1;36;40m▄[0;1;37;40m▄▄[0m▄

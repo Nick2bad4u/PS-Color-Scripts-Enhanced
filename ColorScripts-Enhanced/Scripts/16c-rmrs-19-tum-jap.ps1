@@ -1,18 +1,4 @@
-﻿# Converted from: TUM-JAP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rmrs-19/raw/TUM-JAP.ANS
-# Source Revision: archive-sha256:51e7ebafde7b29c06daae7a5ae4da992f41728aec84b8b28502f57cce3cd0f9a
-# Source SHA-256: fc0bf0c33b2010e139ed6b464d70dd0412ca3bd1b97afe36a51c425db98b6de9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TUM-JAP.ANS by The Upright Man (Remorse Productions); released in rmrs-19 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Morph
-# SAUCE Author: The Upright Man
-# SAUCE Group: Remorse Productions
-# SAUCE Date: 19980104
-# SAUCE Dimensions: 80x25
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Morph by The Upright Man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rmrs-19-tum-jap
 
 Write-Host '
 [1;35m┐┐┐┐╖╖╖ [0;1;37m┌─────────────────────────────────────────────────────────────┐[0m [1;35m┐┐╖╖╖[0;35m╖╖[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: US-TROM2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1295/raw/US-TROM2.ANS
-# Source Revision: archive-sha256:8b2aeb495b44e4fe40c88334cd96b390eca2f913c4b5790d916cbc8fc3499bdb
-# Source SHA-256: 789d345b41ca12f4a45f60b62b2476d570cf906f4511153ae2da8d6c4fffcf72
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-TROM2.ANS by Multiple Artists (ACiD Productions); released in acdu1295 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: The Realm of Magic
-# SAUCE Author: Multiple Artists
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19951201
-# SAUCE Dimensions: 80x201
-# Lines: 42-81
-# Columns: 1-80
+﻿# Artwork: The Realm of Magic by Multiple Artists | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1295-us-trom2-part02
 
 Write-Host '
   [1;30m  ▀[0m                        [30m                                            [0m

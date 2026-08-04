@@ -1,13 +1,4 @@
-﻿# Converted from: we-code.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch07/raw/we-code.ans
-# Source Revision: archive-sha256:5c4b66e1867678e92d098b0a815f319c9061dad195e5c4fab9231a0e93c34c5d
-# Source SHA-256: 63cc8d0c120e41df82a9fdb2bb9ba84200cf254e261d0234bc3cbbaf7df136e1
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-code.ans by Enzo + Spear (27inch07); released in 27inch07 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: we-code.ans by Enzo + Spear | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch07-we-code-part01
 
 Write-Host '
 

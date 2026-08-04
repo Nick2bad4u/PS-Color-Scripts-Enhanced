@@ -1,17 +1,4 @@
-﻿# Converted from: VDR-TDF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/303pack2/raw/VDR-TDF.ANS
-# Source Revision: archive-sha256:4447fe2b8e8ce42dff70a445f43a7c14612a1a439620389cb1863f2a3b732682
-# Source SHA-256: d1acf6ec1c410d00192aca193d2c8dcf28c5bce03f9bbd43686346b3063c0833
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VDR-TDF.ANS by Vader (303pack2); released in 303pack2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: the dark force
-# SAUCE Author: Vader
-# SAUCE Date: 19970412
-# SAUCE Dimensions: 80x17
-# Lines: 1-17
-# Columns: 1-80
+﻿# Artwork: the dark force by Vader | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-303pack2-vdr-tdf
 
 Write-Host '
                                 [34m▄▄[0m         [34m▄▄▄[0m

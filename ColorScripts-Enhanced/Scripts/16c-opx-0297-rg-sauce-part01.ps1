@@ -1,18 +1,4 @@
-﻿# Converted from: RG!SAUCE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0297/raw/RG!SAUCE.ANS
-# Source Revision: archive-sha256:ebdb3432145de923aa3db5c356b5298a48e2bd3cd353301b704b88c85b6a63cb
-# Source SHA-256: 4a7e52ffbe20cca0222d11d667d1dfe03b78004cef96d5e43552690b1c6b755c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: RG!SAUCE.ANS by rage (opium); released in opx-0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: special sauce
-# SAUCE Author: rage
-# SAUCE Group: opium
-# SAUCE Date: 19961230
-# SAUCE Dimensions: 80x53
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: special sauce by rage | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0297-rg-sauce-part01
 
 Write-Host '
 [33m[0m[1;33m[0m[1;33m[0;33m[0;1;33m[0;33m[0;1;33m[0;33m[0;1;32m[0;33m[0;1;33m[0;33m[0;1;32m[0m           [1;30m▄[0m     [1;30m▄▄█▄▄▄▌[0m [1;30m▄[0m      [1;30m▄[0m     [1;30m▄[0m [1;30m▄ ▄▄▄▄▄▌▄▄▄▄▄▄█▓▄▄▄▄▌  ▄ [0m         [1;30m▄[0m

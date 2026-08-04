@@ -1,15 +1,4 @@
-﻿# Converted from: US-SP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/root0297/raw/US-SP1.ANS
-# Source Revision: archive-sha256:ecfcd3f5cd2c4412c60edbfa5c15fbea724948a8a18d0e8a8931276c9082657e
-# Source SHA-256: eaedd1ef2f11f6d3a35deb63a608f0a5085ab21d8fa20602c2ca9600e0e72222
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-SP1.ANS by Dislogic + Defiant (root0297); released in root0297 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Sponge
-# SAUCE Author: Dislogic & Defiant
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: Sponge by Dislogic + Defiant | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-root0297-us-sp1
 
 Write-Host '
                                   [1m░[0m

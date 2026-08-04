@@ -1,18 +1,4 @@
-﻿# Converted from: US-CRAP1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/2fluid2/raw/US-CRAP1.ANS
-# Source Revision: archive-sha256:5b7b859a6b313bef27715626a2129a68a4e711fed88780f169533809010a1ae8
-# Source SHA-256: bece806b84ef5cf37fb43393ed07530efd890d565a8eb78d443617c8da317189
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-CRAP1.ANS by Simonking + Slackzor (thelo0p); released in 2fluid2 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: next joint =)
-# SAUCE Author: slackzor^simonking
-# SAUCE Group: thelo0p
-# SAUCE Date: 20010820
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: next joint =) by Simonking + Slackzor | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-2fluid2-us-crap1
 
 Write-Host '
                                 [32m░[0m           [1;33m░[0m

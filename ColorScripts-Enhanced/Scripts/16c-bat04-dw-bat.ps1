@@ -1,18 +1,4 @@
-﻿# Converted from: DW-BAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bat04/raw/DW-BAT.ANS
-# Source Revision: archive-sha256:d176f3f3481cd621bff59d2bfb55aef8be05c9007ac772bba99c98c138cb9e41
-# Source SHA-256: 9904cba6110e696af935d474bc12c8a5882d5b2ebf66b51f9467010c3f8fbf62
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DW-BAT.ANS by darkwing (bad attitude); released in bat04 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: ugly bat logo
-# SAUCE Author: darkwing
-# SAUCE Group: bad attitude
-# SAUCE Date: 19961227
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: ugly bat logo by darkwing | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bat04-dw-bat
 
 Write-Host '
 [1;47m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▒▒▒[0m▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[1;47m░[0;1;37;47m░[0m

@@ -1,18 +1,4 @@
-﻿# Converted from: BYM-HAJ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/plf-0897/raw/BYM-HAJ.ANS
-# Source Revision: archive-sha256:cabceb59b7b429d8e4c18b37682b5f04003f1a57c83a21398a4e2582b732a549
-# Source SHA-256: 933d8145484a8b44d9e78583c14d3e4a8e60de6275e8e0a75066fa05cc8daae8
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BYM-HAJ.ANS by big yellow man (poffelipoff); released in plf-0897 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: shark (37 lines)
-# SAUCE Author: big yellow man
-# SAUCE Group: poffelipoff
-# SAUCE Date: 19970820
-# SAUCE Dimensions: 80x37
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: shark (37 lines) by big yellow man | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-plf-0897-bym-haj
 
 Write-Host '
    [34m  [0m       [34m░░░░░░░[0m                            [35m░░ [0m         [35m [0m            [35m░░░▓▓▓[0m

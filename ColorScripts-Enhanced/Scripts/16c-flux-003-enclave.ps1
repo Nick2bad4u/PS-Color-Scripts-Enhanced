@@ -1,18 +1,4 @@
-﻿# Converted from: ENCLAVE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flux-003/raw/ENCLAVE.ANS
-# Source Revision: archive-sha256:c8241d6e438a30e14e803d31ea9639f514382ec0df6188aa9d91ed9f1ddec867
-# Source SHA-256: 80576ba3e35a749f604089a1d0a6f6ff66869dbe1097d72adeb034b8595a0c1e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ENCLAVE.ANS by 1! (flux-003); released in flux-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: flux!
-# SAUCE Author: 1!
-# SAUCE Group: ..
-# SAUCE Date: 19970821
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: flux! by 1! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flux-003-enclave
 
 Write-Host '
                                                        [31m ▄▄    [0m

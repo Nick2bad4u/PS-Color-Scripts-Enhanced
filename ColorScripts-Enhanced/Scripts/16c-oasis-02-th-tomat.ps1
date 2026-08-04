@@ -1,18 +1,4 @@
-﻿# Converted from: TH-TOMAT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/oasis-02/raw/TH-TOMAT.ANS
-# Source Revision: archive-sha256:6fb5f384002bcc4bb0470b1d65ec3dc93261fd8877f11db423d94fbba907c707
-# Source SHA-256: a68a613afcbab0ee21915a3890e0bd34dbd08191220bb36cfcdef70239341e00
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TH-TOMAT.ANS by Tempus Hellfire (Oasis); released in oasis-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Tripomatic Matrix
-# SAUCE Author: Tempus Hellfire
-# SAUCE Group: Oasis
-# SAUCE Date: 19960413
-# SAUCE Dimensions: 80x24
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Tripomatic Matrix by Tempus Hellfire | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-oasis-02-th-tomat
 
 Write-Host '
 [34m░░[0;37m [0;34m░[0m     [34m░░░░[0m       [34m░[0m   [34m░░[0;37m [0;34m░░░[0m

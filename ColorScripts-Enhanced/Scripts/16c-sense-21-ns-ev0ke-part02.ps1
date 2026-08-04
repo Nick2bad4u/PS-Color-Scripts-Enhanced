@@ -1,18 +1,4 @@
-﻿# Converted from: NS-EV0KE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sense-21/raw/NS-EV0KE.ANS
-# Source Revision: archive-sha256:c1e4d9e7af49c7636f26ea79ebe3e09527c170fed208ba49930c4515bd2726cb
-# Source SHA-256: 4676f1789df87e63b2ee46b80965bb5be58236d3cfe16f85a25459623c246509
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NS-EV0KE.ANS by ansichrist (sense); released in sense-21 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: evoke sub
-# SAUCE Author: ansichrist
-# SAUCE Group: sense
-# SAUCE Date: 20040920
-# SAUCE Dimensions: 80x66
-# Lines: 34-66
-# Columns: 1-80
+﻿# Artwork: evoke sub by ansichrist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sense-21-ns-ev0ke-part02
 
 Write-Host '
 [1;32;40m██[0;1;32;42m█▀[0;32m ▄[0;1;32;42m▄[0;1;32;47m▀[0;1;32;42m▄[0;32m▄[0;33m [0;1;30;43m▓░░[0;33m█[0;1;30;43m▀[0;33m▄[0;1;30m▄[0;33m [0;1;30m▀▀[0;30;47m▓▓[0;1;30;40m▌[0m          [34m▄[0;36m▄[0;1;36m▄▄▄[0;36;44m▒[0;36;40m▀▀[0;36;44m▓▓[0;36;40m▄▄▄[0;36;44m▄▓[0;34;40m▀▄[0;36;40m▄[0;36;44m▓[0;36;40m▀▀[0;36;44m▀▄[0;1;34;40m [0;32m██[0;1;32;42m▒▓[0;1;32;40m▌[0;1;32;42m░▒▓░[0;32m ▄[0;1;32;42m▄█[0;1;32;46m▓[0;1;32;40m▐[0;1;32;42m▄[0;32m▄[0m

@@ -1,20 +1,4 @@
-﻿# Converted from: CT-TOVE_JANSSON-TROLLVINTER.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0426/raw/CT-TOVE_JANSSON-TROLLVINTER.ANS
-# Source Revision: archive-sha256:c759ba228fb42808866da1267838a1ce2371215b87bc273c64f35f4bc653e77d
-# Source SHA-256: e1e02311a512615fba45d1e82cc7137b54157a7cb4d1591e14f2e53bb18e832f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CT-TOVE_JANSSON-TROLLVINTER.ANS by Cthulu (Mistigris); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Trollvinter
-# SAUCE Author: Cthulu
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260425
-# SAUCE Dimensions: 80x65
-# SAUCE Font: IBM VGA
-# SAUCE Comments: Gebers, 1957.
-# Lines: 51-63
-# Columns: 1-80
+﻿# Artwork: Trollvinter by Cthulu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0426-ct-tove-jansson-trollvinter-part02
 
 Write-Host '
 [36;40m█████████████████████[0;35;46m▄▄▄▄▄▄▄[0;36;45m░[0;35;46m▀▀▄▄[0;35;40m█[0;35;46m▀[0;36;40m▄[0;35;46m▄[0;36;40m▀[0;35;40m▀▀░░[0;37;40m         [0;35;40m░▀[0;35;46m▄▄▄▄[0;35;40m▀▀░[0;37;40m [0;35;40m░▀[0;35;46m▄[0;36;40m███[0;35;46m▄▄▄▄▄▄▄[0;36;40m██[0;35;46m▀[0;30;45m&CT[0m

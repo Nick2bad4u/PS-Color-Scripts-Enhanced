@@ -1,17 +1,4 @@
-﻿# Converted from: rz-s3x.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/avenge15/raw/rz-s3x.ans
-# Source Revision: archive-sha256:11a79c92e9fc8c892f1f79f19699fe30da6c6fb4d0229d77725e757a82129c1a
-# Source SHA-256: 83618aa71bad6d7b57e7c49aaa771205cd97ba50c976e1e0710f21e1abe2879f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: rz-s3x.ans by _rzicus (Avenge Cult); released in avenge15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: s3x
-# SAUCE Author: _rzicus
-# SAUCE Group: Avenge Cult
-# SAUCE Font: empathy by skaboy
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: s3x by _rzicus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-avenge15-rz-s3x
 
 Write-Host '
 

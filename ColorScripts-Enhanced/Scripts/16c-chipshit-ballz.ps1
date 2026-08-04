@@ -1,19 +1,4 @@
-﻿# Converted from: Ballz.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/chipshit/raw/Ballz.ans
-# Source Revision: archive-sha256:7c30186dac6e198e0a97d993845979c0e6211c6d94abf76b29117bf264bb25ae
-# Source SHA-256: 9de67d7c1ba01c19ca03109d27dd1582c12383d4bc643d34dac4788c3bbe59c5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: Ballz.ans by AY38910 (None (...yet.)); released in chipshit and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Ligma Ballz!?
-# SAUCE Author: AY38910
-# SAUCE Group: None (...yet.)
-# SAUCE Date: 20250305
-# SAUCE Dimensions: 40x20
-# SAUCE Font: IBM VGA
-# Lines: 1-20
-# Columns: 1-40
+﻿# Artwork: Ligma Ballz!? by AY38910 | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-chipshit-ballz
 
 Write-Host '
 [1;34m████████████████████████████████████████[0m

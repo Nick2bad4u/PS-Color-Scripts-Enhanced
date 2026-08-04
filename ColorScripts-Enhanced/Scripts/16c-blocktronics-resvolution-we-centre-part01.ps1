@@ -1,13 +1,4 @@
-﻿# Converted from: we-centre.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_resvolution/raw/we-centre.ans
-# Source Revision: archive-sha256:d0690af9ec91bf96f335196e9f9ddfb5d7ea02d97d300b53301bebaf58d83c35
-# Source SHA-256: 8e6d5b3a4c664a8341d82ec646cfdf5b8fdd59b157a6fc4cf3efc58bd29e1923
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-centre.ans by Retribution + Avenging Angel + Tombin (blocktronics_resvolution); released in blocktronics_resvolution and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: we-centre.ans by Retribution + Avenging Angel + Tombin | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-resvolution-we-centre-part01
 
 Write-Host '
 [1;30m[0m

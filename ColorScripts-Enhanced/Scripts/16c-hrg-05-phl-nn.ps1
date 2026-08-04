@@ -1,18 +1,4 @@
-﻿# Converted from: PHL-NN.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hrg-05/raw/PHL-NN.ANS
-# Source Revision: archive-sha256:e79e92c3483366f116bdbd1d493ee611a54b3e1c22d17e8fb72e8bd4b6cc3983
-# Source SHA-256: 5faf628deaa442b9bf92854fe2dd06e784075378a216d427d1ef679074b62b0b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PHL-NN.ANS by PhL! (HRg); released in hrg-05 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Just a piece of art
-# SAUCE Author: PhL!
-# SAUCE Group: HRg
-# SAUCE Date: 19970524
-# SAUCE Dimensions: 80x26
-# Lines: 1-26
-# Columns: 1-80
+﻿# Artwork: Just a piece of art by PhL! | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hrg-05-phl-nn
 
 Write-Host '
     [31m [0m          [37m▄▄▄[0;1;37m▄[0m▄▄[1m▄▄▄▄▄[0m     [31m▄▄▄▄▄ ▄▄▄▌▄▄▄▄▄▄▄▄▄▄▄▄  [0m

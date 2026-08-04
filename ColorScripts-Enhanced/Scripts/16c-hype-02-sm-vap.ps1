@@ -1,17 +1,4 @@
-﻿# Converted from: SM-VAP.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hype-02/raw/SM-VAP.ANS
-# Source Revision: archive-sha256:85e01eadce5f9498d81aff1ce740b243afce4b217290d5d85773c523660d0b86
-# Source SHA-256: 0260cd5976c32aed14e9a43a10121e997c0ae5c218a917090b6865961646fc9f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-VAP.ANS by Samurai (Hype); released in hype-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Samurai's Guest Ansi
-# SAUCE Author: Samurai
-# SAUCE Group: Hype
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: Samurai's Guest Ansi by Samurai | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hype-02-sm-vap
 
 Write-Host '
 [1;47m▐████▀█▓█▓▒[0m▀▀▀ ▀ ▀        [1;30m░░[0m                       ▀ ▀▀█[1;47m▀███▀[0m▀▀[1;47m▀██▓░[0m▀[1;47m▀█▓█▀▀▓███[0;1;37;47m▌[0m

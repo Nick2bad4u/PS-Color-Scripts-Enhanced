@@ -1,13 +1,4 @@
-﻿# Converted from: DIE-FATE.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9605a/raw/DIE-FATE.ICE
-# Source Revision: archive-sha256:cf7acb12a0ec01e1383bf24c3c45a68bc55fde8f0e38cd56180a1936aa9f8089
-# Source SHA-256: 2d7eeb6a1cd5b1fc5ed040f4a1cc5cbd5255c7d8b8d585aa2b487ad0795a0128
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DIE-FATE.ICE by Dieznyik (ice9605a); released in ice9605a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: DIE-FATE.ICE by Dieznyik | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9605a-die-fate-part01
 
 Write-Host '
 Dieznyik [1m-[0m iCE                                                        ▄[1m▄▄█[0;1;47m▄[0m▄

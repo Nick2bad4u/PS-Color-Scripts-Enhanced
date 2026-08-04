@@ -1,18 +1,4 @@
-﻿# Converted from: BK-PMATR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/phat0396/raw/BK-PMATR.ANS
-# Source Revision: archive-sha256:4840956a784b32a4a9e617c5baaeab5274263fdb9ff2d98a840492545e3abb06
-# Source SHA-256: 80628376c10d20aa750019da9d8126d7627a6e9c8e8a186107e3a460b51d487f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: BK-PMATR.ANS by blackknight (READ THE INI FILE); released in phat0396 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: prototype Login Matrix
-# SAUCE Author: blackknight
-# SAUCE Group: READ THE INI FILE
-# SAUCE Date: 19960301
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: prototype Login Matrix by blackknight | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-phat0396-bk-pmatr
 
 Write-Host '
 [1;34m█████████████▀▀▀▀█▀▀▀▀▀█▀▀▀▀▀▀▀▀▀▀▀▀▀▀██████████████████████ [0;1;33m▄ [0;1;34m▀ [0;1;33m▓▄ ▀  ▄▓ [0;1;34m▀ [0;1;33m▄ [0;1;34m█[0m

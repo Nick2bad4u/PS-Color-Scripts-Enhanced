@@ -1,13 +1,4 @@
-﻿# Converted from: MST!TOTU.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/spr_06/raw/MST!TOTU.ANS
-# Source Revision: archive-sha256:011b45019769fff7acdc69361784d20e61270e8922d782c0c08cbc7efb1e1aaf
-# Source SHA-256: e06b69ef71ccf6654faff9b5f3329304b053e206f0853ed105401d69a177a0cf
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MST!TOTU.ANS by Mist (spr_06); released in spr_06 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: MST!TOTU.ANS by Mist | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-spr-06-mst-totu
 
 Write-Host '
 [1m█████[0m▌[33m▐█▓ [0;1;37;47m▐▌[0m [1;33m▀[0;33m▀[0;37m [0;33m▄[0;1;33m▄▄[0;33m▄[0;37m ▄[0;1;33m▀[0m                      ░░▄[1;30m▀[0m [34m▄[0;1;34;44m▄▀[0;34m░░░[0;37m  [0;1;30m░░░[0m [1;30m█▓▓[0m  [1;30m▄█▀[0m [1m    [0m   

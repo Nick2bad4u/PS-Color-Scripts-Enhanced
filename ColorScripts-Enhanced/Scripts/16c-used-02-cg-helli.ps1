@@ -1,18 +1,4 @@
-﻿# Converted from: CG-HELLI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/used-02/raw/CG-HELLI.ANS
-# Source Revision: archive-sha256:21302c91644277d9117a9a1fcab004f6fa76d5a90d6a4926e513a24dd5b73cd5
-# Source SHA-256: 7b5a3122f1fe84b20fc702804817e5b246907ab9befcaf1d9b22d57765b1c494
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CG-HELLI.ANS by cryogenic (used); released in used-02 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: hellium
-# SAUCE Author: cryogenic
-# SAUCE Group: used
-# SAUCE Date: 19991209
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: hellium by cryogenic | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-used-02-cg-helli
 
 Write-Host '
          [1;32m░░[0;32m▄▄▄█████████████[0;36;42m░░▒[0;36;40m▀▀[0;36;42m▓[0;36;40m▄▄█[0;37;40m [0;36;40m▄▄[0m         [37;40m [0;36;40m▄[0;1;36;40m▄[0;36m▄[0m        [36m▄▄[0m

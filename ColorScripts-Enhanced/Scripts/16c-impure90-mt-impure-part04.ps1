@@ -1,19 +1,4 @@
-﻿# Converted from: mt-impure.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/impure90/raw/mt-impure.ans
-# Source Revision: archive-sha256:56a193dba9babc01f76db137c0e60ffed792df6b91aeb3513a32e88a61564da5
-# Source SHA-256: 1cd708c686df8d8edba3d6a4ece6d8666fdf11a7d415c0483fcf33bdda6af756
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mt-impure.ans by Misfit (impure); released in impure90 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: iMPURE 90
-# SAUCE Author: Misfit
-# SAUCE Group: impure
-# SAUCE Date: 20250708
-# SAUCE Dimensions: 80x180
-# SAUCE Font: IBM VGA
-# Lines: 139-180
-# Columns: 1-80
+﻿# Artwork: iMPURE 90 by Misfit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-impure90-mt-impure-part04
 
 Write-Host '
 [1;30m [0m     [1;30m░[0m  ▓  ░ [33m ██[0;1;31m████[0;1;31;47m▓▓[0;1;31;40m█▄ [0;33m ▀▀▓▓▓▓▀▀[0;37m   [0;34m▄[0;37m              [0;34m▄█[0;1;34m█[0;1;34;47m▓[0;1;34;40m█▀▀[0;30m▓[0;37m  [0;30m▓▓[0;1;34m▀█▀[0m  [1;31m▄▄█[0;1;31;47m▓▓▓▓[0;1;31;40m█[0;1;31;43m██[0m

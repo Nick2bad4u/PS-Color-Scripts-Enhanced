@@ -1,19 +1,4 @@
-﻿# Converted from: GL-MELLE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/dtd03/raw/GL-MELLE.ANS
-# Source Revision: archive-sha256:12192704d4216d2aefe0d36b2c5bcb5e5157eafacf7ca0b06c6a5389afde918d
-# Source SHA-256: dd468684aae363adac8806f72a0cdf669c485a3e9fdc292a9caf3a06575edecc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GL-MELLE.ANS by GLANDYTH-A-KRAE (DEVOTiON TO DARKNESS); released in dtd03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: MAiN MENU
-# SAUCE Author: GLANDYTH-A-KRAE
-# SAUCE Group: DEVOTiON TO DARKNESS
-# SAUCE Date: 19970709
-# SAUCE Dimensions: 80x25
-# SAUCE Comments: for melle. | inspired by nail.
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: MAiN MENU by GLANDYTH-A-KRAE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-dtd03-gl-melle
 
 Write-Host '
    [1;30m▄▓▐▓░[0m     [1;30m [0m     [36m [0;1;30m░▓▓[0m      [36m  [0m             [37mm[0;1;37mmenucommands[0ms[1;30m_[0m

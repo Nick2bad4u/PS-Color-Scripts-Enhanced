@@ -1,13 +1,4 @@
-﻿# Converted from: SU-TEC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/afc-r7/raw/SU-TEC.ANS
-# Source Revision: raw-sha256:2250b895cf273d30f4b612f39b0ec788e1282c299b71f9d24371d730e58d50b6
-# Source SHA-256: 2250b895cf273d30f4b612f39b0ec788e1282c299b71f9d24371d730e58d50b6
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SU-TEC.ANS by Suhu (afc-r7); released in afc-r7 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: SU-TEC.ANS by Suhu | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-afc-r7-su-tec-part01
 
 Write-Host '
                       [35m░░░░░░░░[0m

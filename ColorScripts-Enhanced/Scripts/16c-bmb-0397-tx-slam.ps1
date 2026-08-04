@@ -1,18 +1,4 @@
-﻿# Converted from: TX!SLAM.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bmb-0397/raw/TX!SLAM.ANS
-# Source Revision: archive-sha256:dbc842066d628a57d7819da260b477c6ec1e4d0ba1a7d08ba504501e875a1ea3
-# Source SHA-256: c46a83cb6bd813ad35e65d7c815eed4626aabba156f0568752e6563bc6ba7553
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TX!SLAM.ANS by tektronix (bamboosh); released in bmb-0397 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: slam city ansi!
-# SAUCE Author: tektronix
-# SAUCE Group: bamboosh
-# SAUCE Date: 19970522
-# SAUCE Dimensions: 80x23
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: slam city ansi! by tektronix | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bmb-0397-tx-slam
 
 Write-Host '
 

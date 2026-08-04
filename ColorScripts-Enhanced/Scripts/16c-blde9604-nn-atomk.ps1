@@ -1,18 +1,4 @@
-﻿# Converted from: NN-ATOMK.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9604/raw/NN-ATOMK.ANS
-# Source Revision: archive-sha256:c9d341fbab42005be8369b5b74c082e1beaf2773cdcff315b890579fc5c3d129
-# Source SHA-256: 2482cee6a9eb15162521ba4f46ba5b26495bacb84344a09e35be1f42deac0bc9
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: NN-ATOMK.ANS by neo negro (blade); released in blde9604 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: atomik garden
-# SAUCE Author: neo negro
-# SAUCE Group: blade
-# SAUCE Date: 19960327
-# SAUCE Dimensions: 80x25
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: atomik garden by neo negro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9604-nn-atomk
 
 Write-Host '
        [33m░▓[0;1;37;43m░▒[0;1;37;40m▄▄▄▄▄░ [0;1;31;40m░[0;1;31;46m▓▓████[0;1;31;47m▓▓[0;1;31;40m▀[0;1;31;46m█[0m [1;31;47m▓▓▀▀▀▀▀▀▀▀▀[0m░  [33m░░[0;1;37m▄▄░[0m       ░▄[1;33;47m▒▓▓[0;1;33;40m▄▄   ░▄[0;1;33;43m▓▓[0;1;33;40m▀▀▀█[0;1;33;47m▓[0m░  [1;33;43m▓[0m

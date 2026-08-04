@@ -1,18 +1,4 @@
-﻿# Converted from: SB_B!Q.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/tato1195/raw/SB_B!Q.ANS
-# Source Revision: archive-sha256:f333614a4cb8ea014d89f3f61d43ca62d476aeb093fb4271fc5458c44493defa
-# Source SHA-256: 60f0fa3d66125bda3598c5d6f44bfd14d54d6fd55446cc1b13e1fa9be4734ddb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SB_B!Q.ANS by Sticky Baboon (TATOO); released in tato1195 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: The march of the black Queen
-# SAUCE Author: Sticky Baboon
-# SAUCE Group: TATOO
-# SAUCE Date: 19951107
-# SAUCE Dimensions: 80x147
-# Lines: 50-97
-# Columns: 1-80
+﻿# Artwork: The march of the black Queen by Sticky Baboon | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-tato1195-sb-b-q-part02
 
 Write-Host '
 [1;35;45m                ░▀▀██▀  ▀    ▀ ▄▀▀▀                     ▀▄▄   ▀             ▄   [0m

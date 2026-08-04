@@ -1,18 +1,4 @@
-﻿# Converted from: mp-bl.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/serial03/raw/mp-bl.ans
-# Source Revision: archive-sha256:06825ac680bd3b8f90d42d5667f1d31ba5675110618f18c2ff3cfa59e65026af
-# Source SHA-256: a3f3c54f4ae0c2f3eb2b134cc650d1144dfbf6336b22f9003a3126c1f6062999
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: mp-bl.ans by meatpod (serial); released in serial03 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: bloo lines
-# SAUCE Author: meatpod
-# SAUCE Group: serial
-# SAUCE Date: 19970323
-# SAUCE Dimensions: 80x32
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: bloo lines by meatpod | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-serial03-mp-bl
 
 Write-Host '
 [34m$$╨╨╨╨╨╨?$$$$$$$$$$$$$$$$$$$P''[0;1;32m,d░[0;32m$$b%g,._[0;37m````"╙?.`[0;1;37ml$$l╨$$$$$$;[0m dgg,`╨$`╜'',[1mgd$$$$[0m

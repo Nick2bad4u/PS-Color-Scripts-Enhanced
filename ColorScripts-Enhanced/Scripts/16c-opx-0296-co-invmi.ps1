@@ -1,18 +1,4 @@
-﻿# Converted from: CO-INVMI.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/opx-0296/raw/CO-INVMI.ANS
-# Source Revision: archive-sha256:06e6dc5afce1ee45051e2bc9293c259c32e010fc92f42b6c050d6f2242a1670c
-# Source SHA-256: b973b77df4101599f041601ab1155946dacedd9b10d4c09adc9bbe73ab9cd47c
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CO-INVMI.ANS by cocox (opium); released in opx-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: inverted.mind! ansee to max!
-# SAUCE Author: cocox
-# SAUCE Group: opium
-# SAUCE Date: 19960204
-# SAUCE Dimensions: 80x21
-# Lines: 1-21
-# Columns: 1-80
+﻿# Artwork: inverted.mind! ansee to max! by cocox | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-opx-0296-co-invmi
 
 Write-Host '
 [1;33m [0;1;30m▄ ▄ ▀■  ▄      ▀ ▄■ ▀▄ ▄   ▀  [0;34m▄  [0;1;30m▄ ■ ▄ ▓ [0;1;36m▄▓▄ [0;1;30m■ ▀ ■ [0;34m▄■▄ [0;37m▄▄▄▄▄▄▄▄▄ [0;1;30m▄■ ▀▓▄ ▄■[0;30m     [0m

@@ -1,19 +1,4 @@
-﻿# Converted from: lum-dada.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fuel24/raw/lum-dada.ans
-# Source Revision: archive-sha256:a7b306ff5b6a5f79d069961e912fc7a6bbecdcf424503ada503978ca0662baf8
-# Source SHA-256: 4d3f76e13a0e05d2d7a3eae37bc9323f1727e62d5b21e03ae9bbbc03d6a64e5b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: lum-dada.ans by lum (fuel); released in fuel24 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: dada driven megablast
-# SAUCE Author: lum
-# SAUCE Group: fuel
-# SAUCE Date: 20171217
-# SAUCE Dimensions: 80x200
-# SAUCE Font: IBM VGA
-# Lines: 101-150
-# Columns: 1-80
+﻿# Artwork: dada driven megablast by lum | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fuel24-lum-dada-part03
 
 Write-Host '
         [35m██[0;1;35;45m▓▓[0;35m█[0;1;35;45m▄[0;30m█[0;35m▄▀▀ ▄▄▄[0;30m██[0;35m    ▀█  ███ ███▒  ▓██[0;1;35;45m▓██▓▄█[0;1;37;40m█[0;1;35;45m██████[0m [1;35m [0;1;35;43m░[0;35;45m █[0;35;40m▀[0;1;35;45m▀█[0;30;45m     █▓▓[0;35;45m [0m

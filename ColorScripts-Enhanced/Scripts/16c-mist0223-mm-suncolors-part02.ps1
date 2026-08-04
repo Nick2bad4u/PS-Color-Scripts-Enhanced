@@ -1,19 +1,4 @@
-﻿# Converted from: MM-SUNCOLORS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0223/raw/MM-SUNCOLORS.ANS
-# Source Revision: archive-sha256:f6abf3bbd53eb017898fa84b28d2ac43fcb70297788ba675e470ca73794cbbfd
-# Source SHA-256: 610b612d109a5aba1f9045e34b9d50c733ecbc69a610be3d7ec1d113a668e04f
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-SUNCOLORS.ANS by Mavenmob (Mistigris); released in mist0223 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Sunrise
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20230221
-# SAUCE Dimensions: 80x70
-# SAUCE Font: IBM VGA
-# Lines: 51-70
-# Columns: 1-80
+﻿# Artwork: Sunrise by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0223-mm-suncolors-part02
 
 Write-Host '
 [36;44m▒▒▒▒▒▒▒▒▒[0;1;34;47m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0;1;33;44m▒▒[0;36;44m▒▒[0;36;41m▓▓▓▓▓[0;1;33;44m▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m▓▓▓[36;44m▒▒▒▒▒▒▒[0;37;40m▓[0;36;44m▒▒▒▒▒▒▒▒▒▒▒▒[0m

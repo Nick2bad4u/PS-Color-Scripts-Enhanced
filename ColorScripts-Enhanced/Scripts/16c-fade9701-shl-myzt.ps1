@@ -1,18 +1,4 @@
-﻿# Converted from: SHL-MYZT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/fade9701/raw/SHL-MYZT.ANS
-# Source Revision: archive-sha256:c6d5a184fb7d2c1b4105639e94f213f1497485260f1e9efd32c494b51c17401b
-# Source SHA-256: 8f152fe29f356509b5cae715f95c97837d9e128c779830a31631eae0c7eefc13
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SHL-MYZT.ANS by shizzl (fade); released in fade9701 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: myztic
-# SAUCE Author: shizzl
-# SAUCE Group: fade
-# SAUCE Date: 19961223
-# SAUCE Dimensions: 80x25
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: myztic by shizzl | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-fade9701-shl-myzt
 
 Write-Host '
                                                                         ▄[1m▄[0m

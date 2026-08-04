@@ -1,17 +1,4 @@
-﻿# Converted from: SG-ICEMA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/flux-003/raw/SG-ICEMA.ANS
-# Source Revision: archive-sha256:c8241d6e438a30e14e803d31ea9639f514382ec0df6188aa9d91ed9f1ddec867
-# Source SHA-256: d462e366405cf71c48391f99e48052c0da8c947bb07f9e4b172f9612b3df7cad
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SG-ICEMA.ANS by Soing (flux-003); released in flux-003 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: iceman request
-# SAUCE Author: Soing
-# SAUCE Date: 19970805
-# SAUCE Dimensions: 80x29
-# Lines: 1-29
-# Columns: 1-80
+﻿# Artwork: iceman request by Soing | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-flux-003-sg-icema
 
 Write-Host '
 

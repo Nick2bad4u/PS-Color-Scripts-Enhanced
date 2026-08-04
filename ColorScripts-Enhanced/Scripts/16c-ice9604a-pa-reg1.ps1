@@ -1,18 +1,4 @@
-﻿# Converted from: PA-REG1.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice9604a/raw/PA-REG1.ICE
-# Source Revision: archive-sha256:a8f8a3430f1223583f5ba829d23fcb523e4712909ac7211db98ebd0249624ef2
-# Source SHA-256: 60444f8019d5460b320d2a61bb0b51c31860f0ff10e81ce619226b7ec8479a05
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PA-REG1.ICE by Parasite (iCE); released in ice9604a and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: The Regency
-# SAUCE Author: Parasite
-# SAUCE Group: iCE
-# SAUCE Date: 19960426
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: The Regency by Parasite | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice9604a-pa-reg1
 
 Write-Host '
                               [36m         [0;1;34m▄[0;36m           [0m

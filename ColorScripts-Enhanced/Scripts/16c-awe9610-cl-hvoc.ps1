@@ -1,18 +1,4 @@
-﻿# Converted from: CL-HVOC.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe9610/raw/CL-HVOC.ANS
-# Source Revision: archive-sha256:2f6e3c8c2e64cc8380afc3a639da2793e02ea87790d90b8b4bede4b760040753
-# Source SHA-256: 9c5024f63793a0f8ad065a939fa252f98bdb6a21cb6246ef12a80b0e2bd96501
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CL-HVOC.ANS by Colourless (awe lettering); released in awe9610 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Malhavoc
-# SAUCE Author: Colourless
-# SAUCE Group: awe lettering
-# SAUCE Date: 19960929
-# SAUCE Dimensions: 80x50
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Malhavoc by Colourless | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe9610-cl-hvoc
 
 Write-Host '
 ┌──────────────────────────────────────────────────────────────────────────────┐

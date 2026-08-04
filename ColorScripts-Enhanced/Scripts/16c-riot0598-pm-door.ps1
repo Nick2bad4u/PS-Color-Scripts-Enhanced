@@ -1,13 +1,4 @@
-﻿# Converted from: PM-DOOR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/riot0598/raw/PM-DOOR.ANS
-# Source Revision: archive-sha256:0c1b4d8014854195eee82655813426874e782c44b6e7d11df4cc84dbee4a5020
-# Source SHA-256: 99b4e4ee6ce91f7c2f4f69271cc0f30004ec694888f24ff83e803a8c1928aad5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: PM-DOOR.ANS by Precious Metal (riot0598); released in riot0598 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-37
-# Columns: 1-80
+﻿# Artwork: PM-DOOR.ANS by Precious Metal | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-riot0598-pm-door
 
 Write-Host '
        [31m░▒▓[0;1;31;41m░░[0;31m▄▄▄▄▄[0m    [1;30m░▄█▀▀▀▀█▄▄[0m             [34m▄[0;37m [0;34m▄▄▄▄▄[0;37m  [0;34m▄[0m          [1;34;44m░░[0;34m▄▄[0m

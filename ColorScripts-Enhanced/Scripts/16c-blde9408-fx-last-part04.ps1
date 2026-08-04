@@ -1,13 +1,4 @@
-﻿# Converted from: FX-LAST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blde9408/raw/FX-LAST.ANS
-# Source Revision: archive-sha256:802b0e00f1d7521280ab279c4507115014273c696f6db48a1d2c229cb379eb8a
-# Source SHA-256: 142fe7398ba111973d33aafab65b6cacf30359e26fc113b55bba38843a15bbcd
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FX-LAST.ANS by Facsimile (blde9408); released in blde9408 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 148-196
-# Columns: 1-80
+﻿# Artwork: FX-LAST.ANS by Facsimile | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blde9408-fx-last-part04
 
 Write-Host '
  [35m░▒▓▓░   ░    ▀██████[0;1;35;45m░▒▒▓▓▓███[0;1;35;40m██ [0;1;37;40m██[0;1;37;47m███▓▒▒▒░░░░ [0;1;30;47m░▒▓▓▓▓█[0m  [1;30;40m▐▓▓   [0m▀▀█[1;47m░▒▓▓█[0;1;40m████ [0;1;35;40m██[0;1;35;45m▓▒░[0m

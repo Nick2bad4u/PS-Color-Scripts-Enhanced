@@ -1,18 +1,4 @@
-﻿# Converted from: MA-SHOW2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/aif-9703/raw/MA-SHOW2.ANS
-# Source Revision: archive-sha256:8ff72b77604e7ed00a0051c0fed7309a91e0edcd872999887f592889423f376c
-# Source SHA-256: d7f860e8a0cb7ece1a625491416bca0367598fe3f24a9fc7bacf3ef5bcb43a0e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MA-SHOW2.ANS by mafesto (aif); released in aif-9703 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: light show login
-# SAUCE Author: mafesto
-# SAUCE Group: aif
-# SAUCE Date: 19970217
-# SAUCE Dimensions: 80x25
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: light show login by mafesto | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-aif-9703-ma-show2
 
 Write-Host '
 [1m██[0;1;47m▀[0;1;40m▀██[0m█ [1m██[0m█ [1m██[0m█ [1m██[0;1;47m▀[0;1;40m▀██[0m█ [34m█[0;34;44m█                                                 [0;34;40m▀▀▀▀▀[0m

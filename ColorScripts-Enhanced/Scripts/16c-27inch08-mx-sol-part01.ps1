@@ -1,13 +1,4 @@
-﻿# Converted from: MX-SOL.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch08/raw/MX-SOL.ANS
-# Source Revision: archive-sha256:0b48bbc7b5f5330115fa074e1d04a4fecd4f968dda50aa5ddc10be2f9cdb0f62
-# Source SHA-256: 47ab1ce9c04a065071d1af21d5348116e7620c0279f74ca95f8d4a7317efa7b0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MX-SOL.ANS by Lord Maxxtro (27inch08); released in 27inch08 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-42
-# Columns: 1-80
+﻿# Artwork: MX-SOL.ANS by Lord Maxxtro | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch08-mx-sol-part01
 
 Write-Host '
 [34m▄[0;1;30m [0;34m▄███████████[0;1;34;44m░░[0;34m▀█████████████▀███▀█████▀ ▀███████▀████████████████▀[0;1;30m░[0;34m ▀████████[0m

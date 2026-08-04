@@ -1,18 +1,4 @@
-﻿# Converted from: B&S^BR.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sclr-23/raw/B%26S%5EBR.ANS
-# Source Revision: archive-sha256:001e60eb10e2a23c2ce07529300008b1b52bfedd66745e5a81f4ef41bf459a2a
-# Source SHA-256: 1d0c49bc72a0b51a93bbbeb9ec832c510c2a097b09ab508d5c2afc1cc36f5c08
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: B&S^BR.ANS by Pharoneus + Sketch Rimanez (secular!forever); released in sclr-23 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: wonderfull bridge
-# SAUCE Author: sketch & phAr
-# SAUCE Group: secular!forever
-# SAUCE Date: 20011021
-# SAUCE Dimensions: 80x49
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: wonderfull bridge by Pharoneus + Sketch Rimanez | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sclr-23-b-s-br
 
 Write-Host '
 [1;30;47m             [0;1;37;47m,[0;1;30;47m                [0;1;37;47m*[0;1;30;47m                           [0;1;37;47m.[0;1;30;47m        [0;1;37;47m.[0;1;30;47m           [0m

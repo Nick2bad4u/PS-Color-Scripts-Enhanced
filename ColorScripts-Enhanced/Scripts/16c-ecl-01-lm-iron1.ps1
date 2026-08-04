@@ -1,18 +1,4 @@
-﻿# Converted from: LM-IRON1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ecl-01/raw/LM-IRON1.ANS
-# Source Revision: archive-sha256:98f7ca14920172db6145e44afa4b8ac94de6e46d94b8cf326e89a96c3e7e5c1b
-# Source SHA-256: 376431e61e46f4f4035a4eddf6f89ef8cefa0bffbb67301eca2f30be36aa4d10
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LM-IRON1.ANS by lagomorph (3kl); released in ecl-01 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: iron lung
-# SAUCE Author: lagomorph
-# SAUCE Group: 3kl
-# SAUCE Date: 19960608
-# SAUCE Dimensions: 80x15
-# Lines: 1-15
-# Columns: 1-80
+﻿# Artwork: iron lung by lagomorph | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ecl-01-lm-iron1
 
 Write-Host '
                           [31m▄[0;1;31m▄▄▄▄▄▄▄[0;31m▄░░[0m     [31m▄[0;1;31m▄▄▄▄▄▄[0;31m░░[0m

@@ -1,13 +1,4 @@
-﻿# Converted from: VC-BM1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bm-pack1/raw/VC-BM1.ANS
-# Source Revision: archive-sha256:6417ad69f63736f283b8569dd1c311da9ee98ffc12abadc304eb692f019b7776
-# Source SHA-256: 380f32c950685ccbc23a12508a1b45e3b9e7375c8c960a7d4bd8a4e3f8b907ae
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VC-BM1.ANS by Voice (bm-pack1); released in bm-pack1 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: VC-BM1.ANS by Voice | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bm-pack1-vc-bm1-part02
 
 Write-Host '
 [1;30;40m░[0;1;30;47m▓░               ░▒[0;1;30;40m░ [0m░░░▓█ ▀▀▀[1;30m░░[0m▀▀▒[1;30;47m▄[0m▓▓[1;30;47m▀▀[0m▓[1;30;47m▄[0m▀▀[1;30m░░[0;1;30;47m [0m▀▀▀ ██░░░ [1;30m░[0;1;30;47m▒░                ░▓[0;1;30;40m░[0m

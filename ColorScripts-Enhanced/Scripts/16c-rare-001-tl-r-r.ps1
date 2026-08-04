@@ -1,18 +1,4 @@
-﻿# Converted from: TL@R-R.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rare-001/raw/TL%40R-R.ANS
-# Source Revision: archive-sha256:7435b1c9938dec461ab33b42b3dd164ea7e98ecfff30ea4d3df5a8e59194b0a3
-# Source SHA-256: 5162d1cfba16e0c83e84e03dfb755bcecc53bd106978dcac03a6121ff6f9bc6a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: TL@R-R.ANS by timeless (rARE!ASCii); released in rare-001 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: rr = rare.
-# SAUCE Author: timeless
-# SAUCE Group: rARE!ASCii
-# SAUCE Date: 19980305
-# SAUCE Dimensions: 80x22
-# Lines: 1-22
-# Columns: 1-80
+﻿# Artwork: rr = rare. by timeless | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rare-001-tl-r-r
 
 Write-Host '
 

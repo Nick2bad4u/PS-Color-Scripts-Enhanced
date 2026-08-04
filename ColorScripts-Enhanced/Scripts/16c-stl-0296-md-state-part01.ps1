@@ -1,18 +1,4 @@
-﻿# Converted from: MD-STATE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/stl-0296/raw/MD-STATE.ANS
-# Source Revision: archive-sha256:2a7c2972214cdcf66c05bb3cc15c513aafb38f4486172bc95b40d735e509a060
-# Source SHA-256: 6df16de443927b440adc3f21da463f9625a31cd6d87994b422fda0e339e5ba63
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MD-STATE.ANS by Mendator (Stile prod.); released in stl-0296 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: State of the Art
-# SAUCE Author: Mendator
-# SAUCE Group: Stile prod.
-# SAUCE Date: 19960208
-# SAUCE Dimensions: 80x94
-# Lines: 1-45
-# Columns: 1-80
+﻿# Artwork: State of the Art by Mendator | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-stl-0296-md-state-part01
 
 Write-Host '
 [34m [0;1;30m▄[0;1;30;44m▓▓▒░░░[0;34m█[0;1;30;44m░[0;34m▄▄▄▄▄▄▄▄█[0;1;30;44m░░[0;34m███████▄▄▄▄▄▄    ▄▄▄▄▄▄█[0;1;30;44m░░[0;34m█[0;1;30;44m░[0;34m███[0;1;30;44m░[0;34m█▄▄▄▄▄▄▄▄▄██[0;1;30;44m░░[0;34m█[0;1;30;44m░[0;34m█▄▄▄▄▄[0;1;30;44m▒▒▓[0;1;30;40m▄[0;34m [0m

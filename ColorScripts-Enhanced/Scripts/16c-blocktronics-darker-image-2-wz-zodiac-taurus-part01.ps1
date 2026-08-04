@@ -1,19 +1,4 @@
-﻿# Converted from: WZ - Zodiac Taurus.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_darker_image_2/raw/WZ%20-%20Zodiac%20Taurus.ans
-# Source Revision: archive-sha256:7282b405cc52219ce7cf6cd9d097796f1b25fc898e4c29fdb9f37c375d595996
-# Source SHA-256: cc2409412b01ae0c634e4ae7608c5723a26033090fc5af8fa1a9e53348fdca61
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: WZ - Zodiac Taurus.ans by Whazzit (Blocktronics); released in blocktronics_darker_image_2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Taurus
-# SAUCE Author: Whazzit
-# SAUCE Group: Blocktronics
-# SAUCE Date: 20170525
-# SAUCE Dimensions: 120x81
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-120
+﻿# Artwork: Taurus by Whazzit | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-darker-image-2-wz-zodiac-taurus-part01
 
 Write-Host '
                                                                        [34;40m█████████████████████████[0m

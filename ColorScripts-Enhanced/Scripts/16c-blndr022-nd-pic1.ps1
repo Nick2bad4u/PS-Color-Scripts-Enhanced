@@ -1,13 +1,4 @@
-﻿# Converted from: ND-PIC1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blndr022/raw/ND-PIC1.ANS
-# Source Revision: archive-sha256:1105fcab5f96be85e1c5d7fc82de0569b7a9bc9775f6dd9595256b07657f96f3
-# Source SHA-256: 0f2bc570315de049dc89f8eb104d70374ea75c0213fce9d63f739a25f94479be
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ND-PIC1.ANS by Napalm Death (blndr022); released in blndr022 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-33
-# Columns: 1-80
+﻿# Artwork: ND-PIC1.ANS by Napalm Death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blndr022-nd-pic1
 
 Write-Host '
 ████████ [1;31;43m██▓▓▒▒░░[0;33m▄[0;37m [0;33m▀██[0;1;31;43m░░▒▒▒▒▓▓▓▓▓▓▓████[0;1;31;40m▓[0;1;31;43m█▓███▓▓▓▓▓▓▓▒▒▒▒░░[0;33m██▀[0;37m [0;33m▄[0;1;31;43m░░▒▒▓▓██[0m ████████

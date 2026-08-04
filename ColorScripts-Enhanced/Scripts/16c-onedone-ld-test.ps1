@@ -1,13 +1,4 @@
-﻿# Converted from: LD-TEST.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/onedone/raw/LD-TEST.ANS
-# Source Revision: archive-sha256:1beb9bf34864e4d3dff6d9e9ef1552871b8f5ad51d67da6ed978ae29e8e44526
-# Source SHA-256: 792ec2c8dc07cee817178664ea95c1f87fd69c05bd689b24b3b5ba793aa1c382
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: LD-TEST.ANS by Lord Jazz (onedone); released in onedone and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 1-24
-# Columns: 1-80
+﻿# Artwork: LD-TEST.ANS by Lord Jazz | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-onedone-ld-test
 
 Write-Host '
 [1;32m▓ █[0;32m▓░  [0;36m░  [0;1;32m▐[0;32m██ [0;1;30m████[0;1;30;42m▓▓▒░[0;32m███[0;1;32;42m░░[0;32m█[0;1;30;42m░░░░[0;1;30;40m▄▄  [0;1;30;42m░▒▒[0;1;30;40m▓░ [0;32m▐[0;1;30;42m░▒▓[0m [32m▐[0;1;32;42m▒▒░[0;1;30;42m░▒▓▓[0;1;30;40m██ [0;1;30;42m▓[0;1;30;40m▌ █[0;32m█▄  [0;36m░  [0;1;37mTestamenT[0m

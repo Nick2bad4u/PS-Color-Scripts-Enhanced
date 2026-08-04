@@ -1,18 +1,4 @@
-﻿# Converted from: SM-DUNG2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu1094/raw/SM-DUNG2.ANS
-# Source Revision: archive-sha256:d3bff25180c9d41e42ce231a1946b0f69919e5a64c552b5582fe7482825c4fec
-# Source SHA-256: 0b2f31e26344704cf98ad5200d2f9093e90b14af364c9fd1405a9f95b9ffae01
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-DUNG2.ANS by Smooth (ACiD Productions); released in acdu1094 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Dungeon II
-# SAUCE Author: Smooth
-# SAUCE Group: ACiD Productions
-# SAUCE Date: 19941001
-# SAUCE Dimensions: 80x125
-# Lines: 48-95
-# Columns: 1-80
+﻿# Artwork: Dungeon II by Smooth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu1094-sm-dung2-part02
 
 Write-Host '
    [31m░[0m [31m▌[0m [31m▀[0m  [35m▄▒[0m     [1;31m▀[0;1;31;41m▓▓[0;1;31;43m▒▓[0;1;31;40m [0;1;30;40m░[0;1;31;40m█[0;1;31;47m ░░▒▓[0;1;31;40m███▀[0;1;31;43m▓▒[0;1;31;47m▒▒░█[0;1;31;41m▓▒▒▓[0;1;31;43m▓[0;1;31;40m██████▌▀▀[0;1;31;43m▓▒[0;1;31;40m▀  [0m [31m░[0m [1;30m░[0m   [31m░[0m [31m▌[0m    [1;37m███[0m

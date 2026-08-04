@@ -1,17 +1,4 @@
-﻿# Converted from: ST-MRS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/awe-12/raw/ST-MRS.ANS
-# Source Revision: archive-sha256:5c96c14e912296494a464a42e768321452d811693cf172945a9502eb4396c8bb
-# Source SHA-256: fdfcf96673bd8a5ba9520e3eb126c1682bde47afb9da5d5da9ae8d353d8b820d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-MRS.ANS by Splatt (AWE Lettering); released in awe-12 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Mr Smitey
-# SAUCE Author: Splatt
-# SAUCE Group: AWE Lettering
-# SAUCE Dimensions: 80x25
-# Lines: 1-25
-# Columns: 1-80
+﻿# Artwork: Mr Smitey by Splatt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-awe-12-st-mrs
 
 Write-Host '
           [1;33m▄▄▄▄[0m▄[1;30m▄[0m

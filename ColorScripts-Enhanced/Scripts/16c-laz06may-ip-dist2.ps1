@@ -1,18 +1,4 @@
-﻿# Converted from: IP-DIST2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz06may/raw/IP-DIST2.ANS
-# Source Revision: archive-sha256:1ae2be5748106937cd6f4a9b876b344db035c3534c8d6472ca3ea1eb05f03cc5
-# Source SHA-256: 55a904aed928a766c3975862fc8e89c5114de83da9645c7468a518823636e1cc
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IP-DIST2.ANS by impulse (lazarus); released in laz06may and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: distortion
-# SAUCE Author: impulse
-# SAUCE Group: lazarus
-# SAUCE Date: 19970508
-# SAUCE Dimensions: 80x20
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: distortion by impulse | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz06may-ip-dist2
 
 Write-Host '
                                        [1m░░░[0m                            [1m  [0m  [1m [0m

@@ -1,13 +1,4 @@
-﻿# Converted from: we-123.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/27inch08/raw/we-123.ans
-# Source Revision: archive-sha256:0b48bbc7b5f5330115fa074e1d04a4fecd4f968dda50aa5ddc10be2f9cdb0f62
-# Source SHA-256: 8ffefed522263e155b4a52eee735e9f6e13402395ec271481d26686701a26927
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: we-123.ans by Enzo + Abstrakt (27inch08); released in 27inch08 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-39
-# Columns: 1-80
+﻿# Artwork: we-123.ans by Enzo + Abstrakt | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-27inch08-we-123
 
 Write-Host '
 [34m [0m                                                              [34m [0m          [1;30m▌[0m

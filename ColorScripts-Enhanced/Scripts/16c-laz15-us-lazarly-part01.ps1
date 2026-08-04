@@ -1,19 +1,4 @@
-﻿# Converted from: us-lazarly.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/laz15/raw/us-lazarly.ans
-# Source Revision: archive-sha256:d35f5b18ac3e8cbe3d6d17eab809a7e050609a8e3cc7d160d14a87c59a191c12
-# Source SHA-256: b07e5cfdc01c8ca28c63b9e97aedbba1c2a06d86c8f175ab437bc18818d77f4a
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: us-lazarly.ans by The Knight + Sudden Death (Lazarus); released in laz15 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: Lazarly
-# SAUCE Author: The knight & SD
-# SAUCE Group: Lazarus
-# SAUCE Date: 20220530
-# SAUCE Dimensions: 80x100
-# SAUCE Font: IBM VGA
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: Lazarly by The Knight + Sudden Death | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-laz15-us-lazarly-part01
 
 Write-Host '
 [1;30;40m [0m                      [1;30m                                                        [0m

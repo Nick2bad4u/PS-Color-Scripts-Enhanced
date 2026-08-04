@@ -1,13 +1,4 @@
-﻿# Converted from: XMASHAUS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ansis-x/raw/XMASHAUS.ANS
-# Source Revision: archive-sha256:3b66680f4ee277e8fe01aece0c3bfe67f631ee3072c317691446561fc68cdf26
-# Source SHA-256: db1cdee64235a8090cb4149957a56adc1621ab2793a64395c45f61b4d4fbda6b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: XMASHAUS.ANS by Jean Ludwig (ansis-x); released in ansis-x and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-20
-# Columns: 1-80
+﻿# Artwork: XMASHAUS.ANS by Jean Ludwig | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ansis-x-xmashaus
 
 Write-Host '
    [44m  [0;1;44m·    .    ·    ·   ·   .    ·     ·     ·   .          .         · ·  [0m

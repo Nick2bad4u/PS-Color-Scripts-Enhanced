@@ -1,18 +1,4 @@
-﻿# Converted from: FV-RARE.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/hmd-0696/raw/FV-RARE.ANS
-# Source Revision: archive-sha256:cdb2bd6a0639a2561fe55465badfc0395ee676b7bad0a20bb4669cc251eedfd7
-# Source SHA-256: e8ebb1cbd9833513ff8400da215ca4a16d54acc4aa7c79173c85b4edf17d376b
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: FV-RARE.ANS by fever (humid); released in hmd-0696 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: sollama
-# SAUCE Author: fever
-# SAUCE Group: humid
-# SAUCE Date: 19960521
-# SAUCE Dimensions: 80x36
-# Lines: 1-36
-# Columns: 1-80
+﻿# Artwork: sollama by fever | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-hmd-0696-fv-rare
 
 Write-Host '
 

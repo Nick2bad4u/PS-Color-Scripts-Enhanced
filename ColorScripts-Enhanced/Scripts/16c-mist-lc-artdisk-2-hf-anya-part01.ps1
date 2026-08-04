@@ -1,18 +1,4 @@
-﻿# Converted from: HF-ANYA.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist-lc-artdisk-2/raw/HF-ANYA.ANS
-# Source Revision: archive-sha256:658acfd186c1e15106af9d9341fd3097fd3c468098cec2d1241e8927d57e144b
-# Source SHA-256: 98f66fd5be0892d596e6f66de2b3fad8140e193a70c5e01ae7d7dda0c77bd5e3
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: HF-ANYA.ANS by Happyfish (Mistigris); released in mist-lc-artdisk-2 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Anya
-# SAUCE Author: Happyfish
-# SAUCE Group: Mistigris
-# SAUCE Date: 20001022
-# SAUCE Dimensions: 80x68
-# Lines: 1-35
-# Columns: 1-80
+﻿# Artwork: Anya by Happyfish | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist-lc-artdisk-2-hf-anya-part01
 
 Write-Host '
 [1;32;46m░░[0;1;32;40m▒[0;36;42m▀▀▀▀ [0;32;40m██[0;36;42m░▀[0;1;36;42m░[0;32m▄[0;1;32m▄[0;1;37m▄▄▀▀[0;1;37;47m▓[0;1;37;40m█████████████████████████████████████[0;1;37;47m▓▓[0;1;37;40m███[0;1;33;40m████▀▀[0;1;37;40m▄▄[0;1;36;40m▄▄▄▄[0;1;33;40m▀▀████[0m

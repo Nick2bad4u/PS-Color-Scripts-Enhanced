@@ -1,17 +1,4 @@
-﻿# Converted from: DD-NETH2.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rune0596/raw/DD-NETH2.ANS
-# Source Revision: archive-sha256:c40af7cce2fda0097342df4e5eb7be40c9db81ab1e19f7ebbea60ac9c39a1908
-# Source SHA-256: 46cbd17caae8dc3f1e1c72348d07593be827520a978021f5ca019d5b7aa6bb68
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DD-NETH2.ANS by delirious dingo (rune); released in rune0596 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: netherworlds
-# SAUCE Author: delirious dingo
-# SAUCE Group: rune
-# SAUCE Date: 19960501
-# Lines: 1-49
-# Columns: 1-80
+﻿# Artwork: netherworlds by delirious dingo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rune0596-dd-neth2
 
 Write-Host '
                        [1;30m▄[0;1;30;46m▓▒░░[0;36m▄[0m

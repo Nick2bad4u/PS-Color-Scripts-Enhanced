@@ -1,13 +1,4 @@
-﻿# Converted from: CE-ROSE1.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/acdu0393/raw/CE-ROSE1.ANS
-# Source Revision: archive-sha256:2e2cc798858cb159e11c76777991b7638097c4467315aee8c6d051749e2ca63f
-# Source SHA-256: fec767869997ab49f2375a20306e1b5a8806a566a025e30543bd33ac1da1c919
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: CE-ROSE1.ANS by Cerebrus (acdu0393); released in acdu0393 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-50
-# Columns: 1-80
+﻿# Artwork: CE-ROSE1.ANS by Cerebrus | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-acdu0393-ce-rose1
 
 Write-Host '
 [1;34m█████████████████████▀▀[0;1;31m▄▄▄█[0;1;31;41m█▀▀[0;1;31;40m▄[0;1;34;40m▀██▀[0;1;31;40m▄▄████████▄[0;1;34;40m▀█████▀▀▀██████████████████████[0m

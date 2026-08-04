@@ -1,19 +1,4 @@
-﻿# Converted from: VILER-TDC21.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0823/raw/VILER-TDC21.ANS
-# Source Revision: archive-sha256:62e93186540813ec7aaaeb24433016d426de59526762a0e3f8dda1eb133ed05c
-# Source SHA-256: 8739a6992bdeb897e3c4f206c7242022e0b45a47838a197e1decc074d36e4f56
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VILER-TDC21.ANS by VileR (mistigris); released in mist0823 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: TDC 21
-# SAUCE Author: VileR
-# SAUCE Group: mistigris
-# SAUCE Date: 20230824
-# SAUCE Dimensions: 80x200
-# SAUCE Font: IBM VGA
-# Lines: 101-150
-# Columns: 1-80
+﻿# Artwork: TDC 21 by VileR | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0823-viler-tdc21-part03
 
 Write-Host '
 [31m▒▒▒▒ [0;33m▀[0;1;31;41m▀[0;1;31;43m▀▀[0;1;31;41m▀[0;33m▀▄[0;1;31m▄[0;1;31;43m▄[0;1;31;40m█[0;1;31;47m▓▒▒▓[0;1;31;43m▄[0;31m▄[0;1;34m▀[0;1;30;46m▄[0;1;34;46m▄▀[0;1;30;40m▌[0;1;37;47m░▒[0;1;37;40m█[0;1;30;40m▐[0;1;37;47m▌[0;1;34;40m▐▌[0;1;37;40m█[0;1;30;47m▀[0;1;37;40m [0;1;30;40m▬[0m▄[1m█████[0;1;47m▀[0m     [1;30m▀[0m▀[1;47m▀[0;1;40m▐████[0;34m▌[0;1;30m▀▄[0;1;33m▄[0;1;30;43m▀[0m▀[1;44m■[0;1;34;44m▐[0;1;33;41m▬▄[0;31;47m■[0;33;47m▄[0;31;47m▄[0;1;37;40m▬[0;1;37;47m▬▀▀[0;1;37;43m▌[0;1;31;41m▒[0;1;37;44m▐[0;1;37;40m███[0m

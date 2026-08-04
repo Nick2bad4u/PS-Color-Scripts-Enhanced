@@ -1,16 +1,4 @@
-﻿# Converted from: zO-retroverse.ans
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/blocktronics_1980/raw/zO-retroverse.ans
-# Source Revision: archive-sha256:042192cf53a2f2df5da334e3c25cbe21b5d9ed2e910f503354d4bcd3dae5de0e
-# Source SHA-256: 93e3a618f7062e74f66f7b09a5df6c07d465c702eaf961631adcb3fd09fa74d5
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: zO-retroverse.ans by Enzo (blocktronics_1980); released in blocktronics_1980 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Date: 20140426
-# SAUCE Dimensions: 80x221
-# SAUCE Font: IBM VGA
-# Lines: 176-221
-# Columns: 1-80
+﻿# Artwork: zO-retroverse.ans by Enzo | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-blocktronics-1980-zo-retroverse-part05
 
 Write-Host '
 [34;40m  [0;36;40m░[0;1;34;44m▀▄▀[0;34m█[0;36;44m░░[0m     [34;40m█[0;1;34;44m▄▀[0;1;37;44m▄▀[0;1;37;40m [0;1;34;44m▄[0;44m▀[0;1;34;44m▄[0;34m█[0;1;34;44m▀  [0;34m█░[0;36m   [0;34m█[0;1;34;44m▀▄▀[0;34m██[0;1;34;44m▀▄▀[0;44m▄▀[0;1;34;44m▄▀▄[0;34m█░[0m      [34m▄[0;34;44m [0;1;34;44m▀▄▀▄ [0;1;34;40m  [0;1;34;44m▄▀▄▀[0;34m██[0;1;34;44m▀[0;44m▄[0;1;44m▀[0;1;34;44m▄▀[0;36;44m░░[0m

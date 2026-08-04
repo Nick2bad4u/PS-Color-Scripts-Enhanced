@@ -1,19 +1,4 @@
-﻿# Converted from: US-JAMES_GLEICK-CHAOS.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0426/raw/US-JAMES_GLEICK-CHAOS.ANS
-# Source Revision: archive-sha256:c759ba228fb42808866da1267838a1ce2371215b87bc273c64f35f4bc653e77d
-# Source SHA-256: 62123d367c838717e7734067c9b9661f85dc449426c158b92dd8ab8ddb6e5c1d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: US-JAMES_GLEICK-CHAOS.ANS by LDA + Moth (Mistigris); released in mist0426 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Chaos
-# SAUCE Author: Moth / LDA
-# SAUCE Group: Mistigris
-# SAUCE Date: 20260428
-# SAUCE Dimensions: 80x60
-# SAUCE Font: IBM VGA
-# Lines: 31-60
-# Columns: 1-80
+﻿# Artwork: Chaos by LDA + Moth | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0426-us-james-gleick-chaos-part02
 
 Write-Host '
    [1;30m▐[0;36m▓██▌░▓▓▌░▒▓▌▓███[0;1;32m█[0;1;32;46m■[0;36m█[0;1;32;46m▄[0;1;37;40m█[0;1;37;46m▄[0;1;32;47m▓▓[0;1;32;40m▄[0;1;37;40m▄[0m

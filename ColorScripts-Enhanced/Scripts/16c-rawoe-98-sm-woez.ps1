@@ -1,18 +1,4 @@
-﻿# Converted from: SM-WOEZ.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/rawoe-98/raw/SM-WOEZ.ANS
-# Source Revision: archive-sha256:72c3cf0f44a476eef694d1cf3a1552a03dc3aa0478a61b3b389cc598bf59ebb8
-# Source SHA-256: 83571975e58a779f41a6f76dc6a6a293d01f6f3dd5efe36d8d6f838f7df952e0
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: SM-WOEZ.ANS by smoke (woe(guest)); released in rawoe-98 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# SAUCE Title: woezine!@
-# SAUCE Author: smoke
-# SAUCE Group: woe(guest)
-# SAUCE Date: 19981025
-# SAUCE Dimensions: 80x25
-# Lines: 1-18
-# Columns: 1-80
+﻿# Artwork: woezine!@ by smoke | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-rawoe-98-sm-woez
 
 Write-Host '
 

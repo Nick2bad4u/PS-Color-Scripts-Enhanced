@@ -1,19 +1,4 @@
-﻿# Converted from: MM-01.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/mist0823/raw/MM-01.ANS
-# Source Revision: archive-sha256:62e93186540813ec7aaaeb24433016d426de59526762a0e3f8dda1eb133ed05c
-# Source SHA-256: 871189772e052b157dfd98ab58edb76f29357179e5068543e3c1919afd36afcb
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: MM-01.ANS by Mavenmob (Mistigris); released in mist0823 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# SAUCE Title: Paint With Numbers
-# SAUCE Author: Mavenmob
-# SAUCE Group: Mistigris
-# SAUCE Date: 20230824
-# SAUCE Dimensions: 80x40
-# SAUCE Font: IBM VGA
-# Lines: 1-40
-# Columns: 1-80
+﻿# Artwork: Paint With Numbers by Mavenmob | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-mist0823-mm-01
 
 Write-Host '
 [1;32mhw[0;1;37mpaint wit[0;1;32mh[0;1;37m numbe[0;1;32mr[0;1;37ms[0;1;32m 01100001[0;32m01101100[0;1;32m01101111[0;32m01101110[0;1;32m01100101[0;32m00100000[0;1;32m01100001[0;32m011[0m

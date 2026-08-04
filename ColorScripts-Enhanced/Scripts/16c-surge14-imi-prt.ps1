@@ -1,18 +1,4 @@
-﻿# Converted from: IMI-PRT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/surge14/raw/IMI-PRT.ANS
-# Source Revision: archive-sha256:a4f105363f592952eb329e0dfe49c5c693b03e50cc0088786194d4857e309938
-# Source SHA-256: dae7dc0901d3cfe60824b5a75472abce943ae0c901d3e18605a20b58bb82145e
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: IMI-PRT.ANS by Imani (swat,surge,twisted); released in surge14 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: polly my fella.
-# SAUCE Author: Imani
-# SAUCE Group: swat,surge,twisted
-# SAUCE Date: 19970416
-# SAUCE Dimensions: 80x30
-# Lines: 1-30
-# Columns: 1-80
+﻿# Artwork: polly my fella. by Imani | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-surge14-imi-prt
 
 Write-Host '
 [36m$$$$$$$$$$$$$[0;1;30m,$$$$$$$$$$$$$$$$$$$$$[0;1;37m [0;36m$$$$$$$$$$$$$$$$$$$$$$$$$[0;1;30m $$$$$$$$$$$$ [0;36m$$$$$[0m

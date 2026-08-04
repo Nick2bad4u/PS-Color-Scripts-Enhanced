@@ -1,13 +1,4 @@
-﻿# Converted from: DG-DRAGO.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/azp0295/raw/DG-DRAGO.ANS
-# Source Revision: archive-sha256:e9db0f8a76bf775175c4640a46df5a0086d7cd23b5b54479996cbf83e1efc89d
-# Source SHA-256: 5600a7685a602edb0c6f30adc5406c48471972007f6fa7190718bbc4e118aa41
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: DG-DRAGO.ANS by Dogge (azp0295); released in azp0295 and preserved by 16colors.
-# Source Modification: Decoded as CP437 and serialized from the rendered terminal cell matrix without palette substitution, whitespace trimming, reflow, scaling, narrowing, or background-space stripping; tall works are split only into contiguous source-row ranges at reviewed blank or compositional transitions.
-# Lines: 51-100
-# Columns: 1-80
+﻿# Artwork: DG-DRAGO.ANS by Dogge | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-azp0295-dg-drago-part02
 
 Write-Host '
                    [32m▒▒▒▒▒▒░[0;30;42m▓[0;32;40m▒▒▒▒░▒▒░▒▓█▓▒░▒▓█▓▒░▒▒▒▒▒░░░░[0;30;42m▓[0;32;40m░[0;30;42m▓[0m               [1;5;36;40m▄▀[0m

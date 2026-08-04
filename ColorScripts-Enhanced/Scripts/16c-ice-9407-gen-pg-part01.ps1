@@ -1,13 +1,4 @@
-﻿# Converted from: GEN-PG.ICE
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/ice-9407/raw/GEN-PG.ICE
-# Source Revision: archive-sha256:c6a6b9362995bb76d0cbb2d7dbf54e671ec2870d25bfdff1a5d3a538190c7d91
-# Source SHA-256: cc333b91151ad65f6a45ee965424c734f65d0ab159cd579496b3ef0d43c89827
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: GEN-PG.ICE by Genesis (ice-9407); released in ice-9407 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows plus standalone written-text and policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, row geometry, and source coordinates.
-# Lines: 1-32
-# Columns: 1-80
+﻿# Artwork: GEN-PG.ICE by Genesis | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-ice-9407-gen-pg-part01
 
 Write-Host '
               [35m█[0m                  [35m█ [0;1;30m▄▄▄ ▄▄[0m                        [35m█[0m

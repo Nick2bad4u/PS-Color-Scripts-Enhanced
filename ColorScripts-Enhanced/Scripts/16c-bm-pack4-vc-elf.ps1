@@ -1,18 +1,4 @@
-﻿# Converted from: VC-ELF.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/bm-pack4/raw/VC-ELF.ANS
-# Source Revision: archive-sha256:368f99432cae2bce3c4b356aa0ab06e9dcf52e84823ba490b3fa268fda5c914f
-# Source SHA-256: 8a5b466b8b53ac1a01810acda56abd4a7ab7ef9475cab84de5c8bb006bf0f29d
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: VC-ELF.ANS by VOiCE (BLACK MAiDEN); released in bm-pack4 and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# SAUCE Title: Elfgaard BBS Logo
-# SAUCE Author: VOiCE
-# SAUCE Group: BLACK MAiDEN
-# SAUCE Date: 19950531
-# SAUCE Dimensions: 80x41
-# Lines: 1-41
-# Columns: 1-80
+﻿# Artwork: Elfgaard BBS Logo by VOiCE | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-bm-pack4-vc-elf
 
 Write-Host '
 

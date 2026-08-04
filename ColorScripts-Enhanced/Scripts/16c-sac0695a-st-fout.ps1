@@ -1,13 +1,4 @@
-﻿# Converted from: ST-FOUT.ANS
-# Source encoding: CP437
-# Source URL: https://16colo.rs/pack/sac0695a/raw/ST-FOUT.ANS
-# Source Revision: archive-sha256:fdb220fd949148b42f901401233ee5917f0ab0d506d9b91fc04ce4bed204f9b8
-# Source SHA-256: 075b608c4124e448670eb65ec9b279feaeedca091d9386b69f71cf9ce8228355
-# Source License: LicenseRef-16colors-discord-permission
-# Source Attribution: ST-FOUT.ANS by shot; released in sac0695a and preserved by 16colors.
-# Source Modification: Decoded from the attributed archive source and serialized from the rendered terminal cell matrix; project curation removes trailing rendered-blank rows, blank rows introduced by redaction, and standalone written-text, contact, or policy-ineligible display cells when present, while preserving retained ANSI controls, terminal-art glyphs, colored spaces, and source coordinates.
-# Lines: 1-23
-# Columns: 1-80
+﻿# Artwork: ST-FOUT.ANS by shot | Details: https://nick2bad4u.github.io/PS-Color-Scripts-Enhanced/docs/artwork.html?script=16c-sac0695a-st-fout
 
 Write-Host '
                [1;30m▄▄█▀▀▀▀▀▀▀▀█▄▄▄▄▄▄▄▄▄▄▄▄▄   ▄▄▄█▀▀▀▀▀▀█▄▄▄█▀▀▀▀▀▀▀▀█▄[0m
